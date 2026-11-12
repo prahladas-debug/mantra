@@ -13,7 +13,7 @@ Devanagari once is enough.
 | Text | Status | Check especially |
 | --- | --- | --- |
 | Vishnu Sahasranama | Complete (193 items) | Variant readings in ślokas 13 (शाश्वतस्थाणुः), 38 (महर्द्धिर्ऋद्धो), 60, 88, 92 (नियन्ताऽनियमोऽयमः vs नियमो यमः); pūrva-bhāga 14–16 and dhyānam 7 (South Indian additions); the "ॐ नम इति" lines; the order of the uttara-bhāga. Nyāsa and pañcapūjā are omitted. |
-| Vayu Stuti | **Partial**: Nakha Stuti plus verses 1–11 | **Verses 12–41 still need to be added.** Verse 8 is the least certain. Check भूरृभूणां (v8) and बध्यते (v7). |
+| Vayu Stuti | **Complete** (Nakha Stuti + 41 verses), collated from 3 sources | See *Vayu Stuti collation* below. |
 | Raghavendra Stotram | Complete | Verse grouping in 10–28 differs between editions. |
 | Sandhya Vandane | **Partial**: common core | Missing: viniyoga, अपवित्रः पवित्रो वा, aghamarṣaṇa, prāyaścitta arghya, Gāyatrī nyāsa and udvāsana, midday upasthāna, the further upasthāna ṛks, abhivādana. Choose Ṛg/Yajur and Mādhva/Smārta wording for your audience. |
 | Shodashopachara Puja | Complete | Kalaśa line 3 (कलशाम्बु vs कलशं तु). |
@@ -26,6 +26,77 @@ Devanagari once is enough.
 | Krishna Ashtottara Shatanama | **Partial** | Phala-śruti omitted. Variants: v12 कुब्जाकृष्णाम्बरधरो, v20 तीर्थपादो. Nāmāvalī not yet added. |
 | Mahalakshmi Ashtakam, Lingashtakam, Shiva Panchakshara, Madhurashtakam, Achyutashtakam, Ganesha Pancharatnam | Complete | — |
 | Nitya Shlokas | Complete | Karāgre (करमूले तु गोविन्दः); companion verses were added to three of the prayers. |
+
+## Vayu Stuti collation (Nov 2026)
+
+The full text was rebuilt from three independent digital witnesses:
+
+- raocollectionsstotra.blogspot.com: typed Devanagari, used as the base
+- ambuda.org, *Harivayustuti with English translation*: OCR of a printed edition
+- sites.google.com/site/harshalarajesh: typed ITRANS
+
+All 172 pādas scan correctly in their metres: sragdharā for the stotra; Nakha
+Stuti 1 is 2 × śārdūlavikrīḍita + 2 × sragdharā; Nakha Stuti 2 is
+śārdūlavikrīḍita.
+
+**Corrections to the base text:**
+
+- v1 श्रीधलित → श्रीधवलित (the base text fails the metre here)
+- v6 सरलः श्रीमद् → सरलश्रीमद् (a compound)
+- v7 षोंऽजलि → षोऽञ्जलि
+- v8 भ्रूविभ्रमः → भ्रोविभ्रमः and अभिभूर्भोक्ष्यतो → अभिभोर्भूक्ष्यतो (both follow
+  the two other witnesses)
+- v9 कण्ठलग्नास्थिर → कण्ठलग्नस्थिर
+- v11 उद्यत्विद्युद् → उद्यद्विद्युद्, and गरिम्णा → गरिम्णां
+- v21 आसेव्योद्यद् → आसेवोद्यद्
+- v37 गुणगणणनिलयः → गुणगणनिलयः, and यथांऽधैः → यथान्धैः
+- v41: restored the missing first line, सुब्रह्मण्याख्यसूरेः सुत इति सुभृशं
+  केशवानन्दतीर्थ-
+
+**Variant readings,** noted in the app:
+
+- Nakha Stuti 1: नाकिवृन्दैः / भूरिभागैः
+- v15: संश्लिष्टे / आश्लिष्टे
+- v8: भ्रो° / भ्रू°
+
+**Still to confirm** against a math edition: v8 (भ्रो° and अभिभोर्°),
+v13 अन्धकूपे (two witnesses have आन्धकूपे).
+
+## Bhagavad Gita collation (Nov 2026)
+
+**Sources:**
+
+- **Base:** the public-domain gita/gita dataset (Unlicense).
+- **Cross-check only:** vedicscriptures/bhagavad-gita-data. It is GPL-3, so its
+  text is not copied wholesale.
+
+**Systematic fixes to the base** (legacy-font conversion errors):
+
+- misplaced vowel sign after a virama (निश्िचत → निश्चित, भक्ित → भक्ति)
+- श्रृ → शृ
+- nukta → avagraha / ॄ
+
+**Verse by verse,** the remaining differences were resolved against the
+standard Gita Press reading:
+
+- Took the second dataset's reading for 1.20, 1.21, 1.28, 1.34, 2.8, 2.31,
+  2.33, 4.29, 5.8, 6.32, 11.21, 11.28, 11.54, 15.4, 16.1, 16.20 and 17.25.
+- Kept the base where the second dataset had typos: 8.9, 8.12, 8.24, 12.2,
+  12.6, 14.23, 15.17, 16.19, 17.11 and 18.68.
+- Hand fixes: 9.21 एवं त्रयी, 17.23 ॐ तत्सदिति.
+
+**Checks:**
+
+- Every half-verse is syllable-counted (16 for anuṣṭubh, 22 for triṣṭubh). The
+  only exceptions are the known irregular 11.1 and the ॐ in 17.23.
+- Chapter 13 opens with Arjuna's question unnumbered, so the standard
+  700-verse numbering is kept.
+
+**Not included yet:**
+
+- Gītā Dhyānam
+- Gītā Māhātmya
+- translations: those in the dataset may be under copyright
 
 ## Online cross-check (Nov 2026)
 

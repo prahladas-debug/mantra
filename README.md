@@ -39,18 +39,21 @@ One codebase ([Expo](https://expo.dev) / React Native) builds for the
 
 | Category | Texts |
 | --- | --- |
+| Bhagavad Gita | All 18 chapters (700 verses) with chapter colophons, and previous/next chapter navigation |
 | Daily prayers | Nitya shlokas, Gayatri, Mahamrityunjaya |
 | Vedic suktas | Purusha Sukta, Sri Sukta, Narayana Sukta, Mantra Pushpam, Shanti mantras |
 | Sahasranama / Namavali | Vishnu Sahasranama, Krishna Ashtottara Shatanama |
 | Stotras | Venkatesha Stotram, Mahalakshmi Ashtakam, Lingashtakam, Shiva Panchakshara, Madhurashtakam, Achyutashtakam, Ganesha Pancharatnam |
-| Madhva stotras | Vayu Stuti (with Nakha Stuti), Raghavendra Stotram |
+| Madhva stotras | Vayu Stuti, complete with Nakha Stuti; Raghavendra Stotram |
 | Sandhya Vandane | Step-by-step, with an English instruction for each step |
 | Puja | Shodashopachara puja |
 
-Currently 21 texts with 486 verses or steps. Texts labelled **Partial** in
-the app (Vayu Stuti verses 12–41, parts of Sandhya Vandane, Sri Sukta's later
-ṛks, Mantra Pushpam, and the Krishna Ashtottara phala-śruti) are missing some
-portions on purpose rather than guessed. See
+Currently 39 texts with about 1,230 verses or steps. Vayu Stuti and the
+Bhagavad Gita were collated from several independent digital sources and
+checked against their metre. Texts labelled **Partial** in the app (parts of
+Sandhya Vandane, Sri Sukta's later ṛks, Mantra Pushpam, and the Krishna
+Ashtottara phala-śruti) are missing some portions on purpose rather than
+guessed. See
 [`PROOFREADING.md`](PROOFREADING.md).
 
 > ⚠️ **Proofread before a public release.** These texts were entered without

@@ -31,6 +31,15 @@ const CATEGORY_LABELS: Record<CategoryId, Labels> = {
     bengali: 'নিত্য প্রার্থনা',
     oriya: 'ନିତ୍ୟ ପ୍ରାର୍ଥନା',
   },
+  gita: {
+    kannada: 'ಭಗವದ್ಗೀತೆ',
+    telugu: 'భగవద్గీత',
+    tamil: 'பகவத் கீதை',
+    malayalam: 'ഭഗവദ്ഗീത',
+    gujarati: 'ભગવદ્ ગીતા',
+    bengali: 'ভগবদ্গীতা',
+    oriya: 'ଭଗବଦ୍ ଗୀତା',
+  },
   vedic: {
     kannada: 'ವೈದಿಕ ಸೂಕ್ತಗಳು',
     telugu: 'వైదిక సూక్తాలు',

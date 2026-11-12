@@ -10,6 +10,7 @@ const DIFFICULTY_ORDER = { easy: 0, medium: 1, advanced: 2 } as const;
 
 export const ALL_MANTRAS: Mantra[] = [...LIBRARY].sort(
   (a, b) =>
+    (a.order ?? 1e6) - (b.order ?? 1e6) ||
     DIFFICULTY_ORDER[a.difficulty] - DIFFICULTY_ORDER[b.difficulty] ||
     a.titleEn.localeCompare(b.titleEn),
 );
@@ -30,8 +31,11 @@ export function categoryCounts(): Record<CategoryId, number> {
   return counts;
 }
 
+/** Numbered verses (excludes speaker lines, colophons, steps); falls back to all items. */
 export function verseCount(m: Mantra): number {
-  return m.sections.reduce((n, s) => n + s.verses.length, 0);
+  const all = m.sections.flatMap((s) => s.verses);
+  const numbered = all.filter((v) => v.n !== undefined).length;
+  return numbered || all.length;
 }
 
 // ---------- search ----------

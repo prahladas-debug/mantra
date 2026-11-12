@@ -8,6 +8,7 @@
 
 export type CategoryId =
   | 'nitya'
+  | 'gita'
   | 'vedic'
   | 'sahasranama'
   | 'stotra'
@@ -44,6 +45,8 @@ export interface Mantra {
   /** English title. */
   titleEn: string;
   category: CategoryId;
+  /** Optional position within its category (e.g. Gita chapter number). */
+  order?: number;
   deity?: string;
   /** Scriptural source, e.g. "Mahābhārata, Anuśāsana Parva". */
   source?: string;

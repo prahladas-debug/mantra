@@ -1,10 +1,10 @@
 import { Ionicons } from '@expo/vector-icons';
 import { activateKeepAwakeAsync, deactivateKeepAwake } from 'expo-keep-awake';
-import { Stack, useLocalSearchParams } from 'expo-router';
+import { router, Stack, useLocalSearchParams, type Href } from 'expo-router';
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { FlatList, Pressable, StyleSheet, Text, View } from 'react-native';
 import { Chip, ScriptPicker } from '../../components/ui';
-import { categoryById, getMantra, type Mantra, type Section, type Verse } from '../../data';
+import { categoryById, getMantra, mantrasInCategory, type Mantra, type Section, type Verse } from '../../data';
 import { useSettings } from '../../lib/settings';
 import type { ThemeName } from '../../lib/theme';
 import { bindDandas, translit, translitInline, translitTitle, verseNumber } from '../../lib/transliterate';
@@ -224,11 +224,43 @@ export default function Reader() {
         initialNumToRender={20}
         windowSize={11}
         contentContainerStyle={{ paddingBottom: 48 }}
+        ListFooterComponent={<SeriesNav mantra={mantra} />}
         onScrollToIndexFailed={(info) => {
           listRef.current?.scrollToOffset({ offset: info.averageItemLength * info.index, animated: false });
           setTimeout(() => scrollTo(info.index), 120);
         }}
       />
+    </View>
+  );
+}
+
+/** Previous / next buttons for texts read in sequence (e.g. Gita chapters). */
+function SeriesNav({ mantra }: { mantra: Mantra }) {
+  const { theme, settings } = useSettings();
+  if (mantra.order === undefined) return null;
+  const series = mantrasInCategory(mantra.category).filter((m) => m.order !== undefined);
+  const i = series.findIndex((m) => m.id === mantra.id);
+  const prev = series[i - 1];
+  const next = series[i + 1];
+  const button = (m: Mantra, label: string, align: 'flex-start' | 'flex-end') => (
+    <Pressable
+      key={m.id}
+      onPress={() => router.replace(`/mantra/${m.id}` as Href)}
+      style={({ pressed }) => [
+        r.navButton,
+        { borderColor: theme.cardBorder, backgroundColor: theme.card, alignItems: align, opacity: pressed ? 0.7 : 1 },
+      ]}
+    >
+      <Text style={{ color: theme.textMuted, fontSize: 12, fontWeight: '600' }}>{label}</Text>
+      <Text style={{ color: theme.accent, fontSize: 16, fontWeight: '600' }} numberOfLines={1}>
+        {translitTitle(m.title, settings.script)}
+      </Text>
+    </Pressable>
+  );
+  return (
+    <View style={r.navRow}>
+      {prev ? button(prev, '← Previous', 'flex-start') : <View style={{ flex: 1 }} />}
+      {next ? button(next, 'Next →', 'flex-end') : <View style={{ flex: 1 }} />}
     </View>
   );
 }
@@ -247,5 +279,7 @@ const r = StyleSheet.create({
   meaning: { marginTop: 8, paddingLeft: 10, borderLeftWidth: 2, lineHeight: 21, fontStyle: 'italic' },
   panel: { borderBottomWidth: 1, paddingVertical: 10, gap: 4 },
   panelLabel: { fontSize: 12, fontWeight: '700', textTransform: 'uppercase', letterSpacing: 0.8, marginHorizontal: 16, marginTop: 8, marginBottom: 4 },
+  navRow: { flexDirection: 'row', gap: 10, marginHorizontal: 16, marginTop: 24 },
+  navButton: { flex: 1, padding: 12, borderRadius: 12, borderWidth: 1, gap: 2 },
   panelRow: { flexDirection: 'row', alignItems: 'center', paddingHorizontal: 16, gap: 8, marginTop: 8 },
 });

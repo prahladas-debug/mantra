@@ -8,6 +8,12 @@ export const CATEGORIES: Category[] = [
     description: 'Short everyday shlokas: morning, before study, before meals, at night.',
   },
   {
+    id: 'gita',
+    title: 'श्रीमद्भगवद्गीता',
+    titleEn: 'Bhagavad Gita',
+    description: 'All 18 chapters, 700 verses, with the traditional chapter colophons.',
+  },
+  {
     id: 'vedic',
     title: 'वैदिक सूक्तानि',
     titleEn: 'Vedic Suktas',

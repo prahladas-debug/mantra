@@ -9,6 +9,7 @@ import { appTitle, categoryTitle } from '../lib/labels';
 
 const FEATURED = [
   'vishnu-sahasranama',
+  'bhagavad-gita-01',
   'vayu-stuti',
   'purusha-sukta',
   'sri-sukta',
