@@ -12,10 +12,15 @@ import { mahamrityunjaya } from './texts/mahamrityunjaya';
 import { mantraPushpam } from './texts/mantra-pushpam';
 import { narayanaSukta } from './texts/narayana-sukta';
 import { purushaSukta } from './texts/purusha-sukta';
+import { raghavendraStotram } from './texts/raghavendra-stotram';
+import { sandhyaVandane } from './texts/sandhya-vandane';
 import { shantiMantras } from './texts/shanti-mantras';
 import { shivaPanchakshara } from './texts/shiva-panchakshara';
+import { shodashopacharaPuja } from './texts/shodashopachara-puja';
 import { sriSukta } from './texts/sri-sukta';
+import { vayuStuti } from './texts/vayu-stuti';
 import { venkateshaStotram } from './texts/venkatesha-stotram';
+import { vishnuSahasranama } from './texts/vishnu-sahasranama';
 
 export const LIBRARY: Mantra[] = [
   achyutashtakam,
@@ -30,8 +35,13 @@ export const LIBRARY: Mantra[] = [
   mantraPushpam,
   narayanaSukta,
   purushaSukta,
+  raghavendraStotram,
+  sandhyaVandane,
   shantiMantras,
   shivaPanchakshara,
+  shodashopacharaPuja,
   sriSukta,
+  vayuStuti,
   venkateshaStotram,
+  vishnuSahasranama,
 ];

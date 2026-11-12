@@ -71,12 +71,15 @@ export function translit(text: string, script: ScriptId): string {
     // tamil_superscripted renders dandas as '.'; protect them and use 0-9 digits,
     // which Tamil readers generally find easier than Tamil numerals.
     const protectedText = clean
-      .replace(/॥/g, '')
-      .replace(/।/g, '')
+      .replace(/॥/g, '\uE001')
+      .replace(/।/g, '\uE000')
       .replace(/[०-९]/g, (d) => String(DEV_DIGITS.indexOf(d)));
     out = Sanscript.t(protectedText, 'devanagari', SCHEME.tamil)
-      .replace(//g, '॥')
-      .replace(//g, '।');
+      // Sanscript puts the mark after a following repha (धर्म → தர்⁴ம). ர never takes a
+      // superscript, so move it back to the syllable it belongs to (த⁴ர்ம).
+      .replace(/([\u0B95-\u0BB9](?:[\u0BBE-\u0BCC]|\u0BCD)?)ர்([²³⁴])/g, '$1$2ர்')
+      .replace(/\uE001/g, '॥')
+      .replace(/\uE000/g, '।');
   } else {
     out = Sanscript.t(clean, 'devanagari', SCHEME[script]);
   }
@@ -85,12 +88,30 @@ export function translit(text: string, script: ScriptId): string {
   return out;
 }
 
+/**
+ * For English prose (notes, summaries, meanings) that quotes Devanagari words:
+ * convert only the Devanagari runs into the reader's script.
+ */
+export function translitInline(text: string, script: ScriptId): string {
+  if (!text || script === 'devanagari') return text;
+  return text.replace(/[\u0900-\u097F\u1CD0-\u1CFF]+(?:[\s'’-]+[\u0900-\u097F\u1CD0-\u1CFF]+)*/g, (run) =>
+    translit(run, script),
+  );
+}
+
+/** Keep dandas on the same line as the preceding word. */
+export function bindDandas(text: string): string {
+  return text.replace(/ (?=[।॥|])/g, '\u00A0');
+}
+
 /** Render a verse number in the chosen script's digits. */
 export function verseNumber(n: number, script: ScriptId): string {
-  if (script === 'iast') return `|| ${n} ||`;
-  if (script === 'tamil') return `॥ ${n} ॥`;
+  // Non-breaking spaces keep the number on the same line as the verse's last word.
+  const NB = '\u00A0';
+  if (script === 'iast') return `||${NB}${n}${NB}||`;
+  if (script === 'tamil') return `॥${NB}${n}${NB}॥`;
   const dev = String(n).replace(/[0-9]/g, (d) => DEV_DIGITS[Number(d)]);
-  return `॥ ${translit(dev, script)} ॥`;
+  return `॥${NB}${translit(dev, script)}${NB}॥`;
 }
 
 // ---------- search helpers ----------

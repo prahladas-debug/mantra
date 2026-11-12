@@ -7,7 +7,7 @@ import { Chip, ScriptPicker } from '../../components/ui';
 import { categoryById, getMantra, type Mantra, type Section, type Verse } from '../../data';
 import { useSettings } from '../../lib/settings';
 import type { ThemeName } from '../../lib/theme';
-import { translit, verseNumber, type ScriptId } from '../../lib/transliterate';
+import { bindDandas, translit, translitInline, verseNumber } from '../../lib/transliterate';
 
 type Row =
   | { kind: 'intro'; key: string }
@@ -69,6 +69,7 @@ export default function Reader() {
   if (!mantra) {
     return (
       <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center', backgroundColor: theme.bg }}>
+        <Stack.Screen options={{ title: 'Not found' }} />
         <Text style={{ color: theme.text }}>Text not found.</Text>
       </View>
     );
@@ -94,12 +95,12 @@ export default function Reader() {
             <Text style={{ color: theme.textMuted, fontSize: 13, marginTop: 4 }}>
               {[categoryById[mantra.category]?.titleEn, mantra.deity, mantra.source].filter(Boolean).join(' · ')}
             </Text>
-            <Text style={{ color: theme.textMuted, fontSize: 15, marginTop: 10, lineHeight: 22 }}>{mantra.summary}</Text>
+            <Text style={{ color: theme.textMuted, fontSize: 15, marginTop: 10, lineHeight: 22 }}>{translitInline(mantra.summary, script)}</Text>
             {mantra.contentNote && (
               <View style={[r.notice, { backgroundColor: theme.warningBg }]}>
                 <Ionicons name="information-circle" size={18} color={theme.warningText} />
                 <Text style={{ color: theme.warningText, flex: 1, fontSize: 14, lineHeight: 20 }}>
-                  {mantra.contentNote}
+                  {translitInline(mantra.contentNote, script)}
                 </Text>
               </View>
             )}
@@ -120,14 +121,15 @@ export default function Reader() {
             )}
             {item.section.note && (
               <Text style={{ color: theme.textMuted, fontSize: 14, fontStyle: 'italic', marginTop: 6, lineHeight: 20 }}>
-                {item.section.note}
+                {translitInline(item.section.note, script)}
               </Text>
             )}
           </View>
         );
       case 'verse': {
         const { verse } = item;
-        const main = translit(verse.text, script);
+        // The text ends with ॥; when a number follows, render a single "॥ n ॥" instead of "॥ ॥ n ॥".
+        const main = bindDandas(translit(verse.n !== undefined ? verse.text.replace(/\s*॥\s*$/, '') : verse.text, script));
         const fs = (script === 'iast' ? 19 : 22) * scale;
         return (
           <View
@@ -137,17 +139,17 @@ export default function Reader() {
             <Text style={{ color: theme.text, fontSize: fs, lineHeight: fs * 1.65 }} selectable>
               {main}
               {verse.n !== undefined && (
-                <Text style={{ color: theme.verseNumber, fontWeight: '600' }}> {verseNumber(verse.n, script)}</Text>
+                <Text style={{ color: theme.verseNumber, fontWeight: '600' }}>{'\u00A0' + verseNumber(verse.n, script)}</Text>
               )}
             </Text>
             {second && (
               <Text style={{ color: theme.textMuted, fontSize: 16 * scale, lineHeight: 24 * scale, marginTop: 6 }} selectable>
-                {translit(verse.text, second)}
+                {bindDandas(translit(verse.text, second))}
               </Text>
             )}
             {settings.showMeanings && verse.meaning && (
               <Text style={[r.meaning, { color: theme.textMuted, borderColor: theme.accent, fontSize: 15 * Math.min(scale, 1.3) }]}>
-                {verse.meaning}
+                {translitInline(verse.meaning, script)}
               </Text>
             )}
           </View>

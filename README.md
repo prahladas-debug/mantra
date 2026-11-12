@@ -38,8 +38,11 @@ One codebase ([Expo](https://expo.dev) / React Native) builds for the
 | Sandhya Vandane | Step-by-step, with an English instruction for each step |
 | Puja | Shodashopachara puja |
 
-Texts labelled **Partial** in the app are missing some portions on purpose.
-Each one says exactly which portions in its `contentNote`.
+Currently 21 texts with 486 verses or steps. Texts labelled **Partial** in
+the app (Vayu Stuti verses 12–41, parts of Sandhya Vandane, Sri Sukta's later
+ṛks, Mantra Pushpam, and the Krishna Ashtottara phala-śruti) are missing some
+portions on purpose rather than guessed. See
+[`PROOFREADING.md`](PROOFREADING.md).
 
 > ⚠️ **Proofread before a public release.** These texts were entered without
 > access to an authoritative source. Check each one against a printed edition
