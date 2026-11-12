@@ -30,7 +30,19 @@
     },
     "plugins": [
       "expo-router",
-      "expo-font"
+      "expo-font",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/splash-icon.png",
+          "imageWidth": 160,
+          "resizeMode": "contain",
+          "backgroundColor": "#FFF9F0",
+          "dark": {
+            "backgroundColor": "#14100C"
+          }
+        }
+      ]
     ],
     "scheme": "mantrasangraha",
     "description": "Vedic mantras, suktas, stotras and sahasranamas in Devanagari, Kannada, Telugu, Tamil, Malayalam and more.",
