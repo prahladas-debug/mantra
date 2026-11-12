@@ -55,6 +55,62 @@ const SCHEME: Record<ScriptId, string> = {
 const SVARA = /[॑-॔᳐-᳿꣠-꣱]/g;
 const DEV_DIGITS = '०१२३४५६७८९';
 
+/*
+ * Regional spelling conventions.
+ *
+ * The source texts use Sanskrit-style nasal conjuncts (मन्त्र, सङ्ग्रह, गोविन्द),
+ * which is correct in Devanagari but is NOT how Sanskrit is printed in most
+ * regional scripts. Verified against published stotra texts and Wikipedia
+ * (Nov 2026):
+ *  - Kannada, Telugu, Gujarati: anusvara before every stop consonant
+ *    (ಮಂತ್ರ, ಸಂಗ್ರಹ, ಗೋವಿಂದ, ಶಂಖ, ಪುಂಡರೀಕಾಕ್ಷ / మంత్ర, గోవింద / મંત્ર, ગોવિંદ).
+ *  - Malayalam: anusvara only for ṅkh/ṅg/ṅgh/mb/mbh (സംഗ്രഹം, ശംഖ്, ശംഭു, അംബ);
+ *    other clusters stay conjunct (മന്ത്രം, പഞ്ച, ഗോവിന്ദ, ശങ്കര).
+ *  - Tamil, Bengali, Odia: nasal conjuncts are normal (மந்த்ர, গোবিন্দ, ଗୋବିନ୍ଦ).
+ */
+const NASAL_BEFORE_STOP = /[ङञणनम]्(?=[कखगघचछजझटठडढतथदधपफबभ])/g;
+const NASAL_MALAYALAM = /ङ्(?=[खगघ])|म्(?=[बभ])/g;
+
+function preprocess(dev: string, script: ScriptId): string {
+  switch (script) {
+    case 'kannada':
+    case 'telugu':
+    case 'gujarati':
+      return dev.replace(NASAL_BEFORE_STOP, 'ं');
+    case 'malayalam':
+      return dev.replace(NASAL_MALAYALAM, 'ं');
+    default:
+      return dev;
+  }
+}
+
+const NOT_LETTER = '(?=[\\s।॥|,.;:!?)\\-–—]|$)';
+
+function postprocess(out: string, script: ScriptId): string {
+  switch (script) {
+    case 'malayalam':
+      // Modern Malayalam writes word-final n as the chillu ൻ (ഭഗവാൻ, ശ്രീമാൻ).
+      return out.replace(new RegExp('ന്(?!\\u200D)' + NOT_LETTER, 'g'), 'ൻ');
+    case 'tamil':
+      // ஸ்ரீ is the universal Tamil spelling of śrī.
+      return out.replace(/ஶ்ரீ/g, 'ஸ்ரீ');
+    case 'bengali':
+      // য after a vowel or a full consonant (not as ya-phala, not word-initial) is য় (নারায়ণ).
+      return out.replace(/(?<=[অ-ঔক-হা-ৌৗংঃ়])য(?!়)/g, 'য়');
+    case 'oriya':
+      return (
+        out
+          // Medial ya is ୟ (ନାରାୟଣ); ya-phala and word-initial ଯ stay.
+          .replace(/(?<=[ଅ-ଔକ-ହା-ୌଂଃ])ଯ/g, 'ୟ')
+          // Odia writes va as ବ, and as ୱ after a virama (ବିଶ୍ୱ, ସ୍ୱାମୀ). ଵ is rare in fonts.
+          .replace(/୍ଵ/g, '୍ୱ')
+          .replace(/ଵ/g, 'ବ')
+      );
+    default:
+      return out;
+  }
+}
+
 const cache = new Map<string, string>();
 
 /** Transliterate Devanagari text into the given script. Results are memoised. */
@@ -66,26 +122,44 @@ export function translit(text: string, script: ScriptId): string {
   const hit = cache.get(key);
   if (hit !== undefined) return hit;
 
+  const src = preprocess(clean, script);
   let out: string;
   if (script === 'tamil') {
     // tamil_superscripted renders dandas as '.'; protect them and use 0-9 digits,
     // which Tamil readers generally find easier than Tamil numerals.
-    const protectedText = clean
+    const protectedText = src
       .replace(/॥/g, '\uE001')
       .replace(/।/g, '\uE000')
       .replace(/[०-९]/g, (d) => String(DEV_DIGITS.indexOf(d)));
     out = Sanscript.t(protectedText, 'devanagari', SCHEME.tamil)
-      // Sanscript puts the mark after a following repha (धर्म → தர்⁴ம). ர never takes a
-      // superscript, so move it back to the syllable it belongs to (த⁴ர்ம).
-      .replace(/([\u0B95-\u0BB9](?:[\u0BBE-\u0BCC]|\u0BCD)?)ர்([²³⁴])/g, '$1$2ர்')
+      // Sanscript sometimes puts the mark after a following ர syllable
+      // (धर्म → தர்⁴ம, पुण्डरीक → புண்டரீ³க, ग्रह → க்ர³ஹ). ர never takes a superscript,
+      // so move the mark back to the consonant it belongs to (த⁴ர்ம, புண்ட³ரீக, க்³ரஹ).
+      .replace(
+        /([\u0B95-\u0BB9](?:[\u0BBE-\u0BCC]|\u0BCD)?)(\u0BB0(?:[\u0BC1\u0BC2]\u02BC|[\u0BBE-\u0BCC]|\u0BCD)?)([\u00B2\u00B3\u2074])/g,
+        '$1$3$2',
+      )
       .replace(/\uE001/g, '॥')
       .replace(/\uE000/g, '।');
   } else {
-    out = Sanscript.t(clean, 'devanagari', SCHEME[script]);
+    out = Sanscript.t(src, 'devanagari', SCHEME[script]);
   }
+  out = postprocess(out, script);
   if (cache.size > 5000) cache.clear();
   cache.set(key, out);
   return out;
+}
+
+/**
+ * Titles: Kannada, Telugu and Malayalam books end titles with anusvara
+ * (ಸ್ತೋತ್ರಂ, స్తోత్రం, സ്തോത്രം) rather than म् (ಸ್ತೋತ್ರಮ್).
+ */
+export function translitTitle(title: string, script: ScriptId): string {
+  const t =
+    script === 'kannada' || script === 'telugu' || script === 'malayalam'
+      ? title.replace(/म्(?=\s|$)/g, 'ं')
+      : title;
+  return translit(t, script);
 }
 
 /**
@@ -106,8 +180,9 @@ export function bindDandas(text: string): string {
 
 /** Render a verse number in the chosen script's digits. */
 export function verseNumber(n: number, script: ScriptId): string {
-  // Non-breaking spaces keep the number on the same line as the verse's last word.
-  const NB = '\u00A0';
+  // Keep "॥ n ॥" on one line: line-breaking rules allow a break after a danda even
+  // before a no-break space, so add a word joiner (U+2060) after the first danda.
+  const NB = '\u2060\u00A0';
   if (script === 'iast') return `||${NB}${n}${NB}||`;
   if (script === 'tamil') return `॥${NB}${n}${NB}॥`;
   const dev = String(n).replace(/[0-9]/g, (d) => DEV_DIGITS[Number(d)]);

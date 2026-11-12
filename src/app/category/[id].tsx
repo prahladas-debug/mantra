@@ -3,7 +3,7 @@ import { FlatList, Text, View } from 'react-native';
 import { MantraRow } from '../../components/ui';
 import { categoryById, mantrasInCategory, type CategoryId } from '../../data';
 import { useSettings } from '../../lib/settings';
-import { translit } from '../../lib/transliterate';
+import { categoryTitle } from '../../lib/labels';
 
 export default function CategoryScreen() {
   const { id } = useLocalSearchParams<{ id: string }>();
@@ -22,7 +22,7 @@ export default function CategoryScreen() {
           category && (
             <View style={{ padding: 16 }}>
               <Text style={{ color: theme.accent, fontSize: 26, fontWeight: '700' }}>
-                {translit(category.title, settings.script)}
+                {categoryTitle(category, settings.script)}
               </Text>
               <Text style={{ color: theme.textMuted, fontSize: 15, marginTop: 4 }}>{category.description}</Text>
             </View>

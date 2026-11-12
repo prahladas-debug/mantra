@@ -27,6 +27,19 @@ Devanagari once is enough.
 | Mahalakshmi Ashtakam, Lingashtakam, Shiva Panchakshara, Madhurashtakam, Achyutashtakam, Ganesha Pancharatnam | Complete | — |
 | Nitya Shlokas | Complete | Karāgre (करमूले तु गोविन्दः); companion verses were added to three of the prayers. |
 
+## Online cross-check (Nov 2026)
+
+The Kannada output of Vishnu Sahasranama ślokas 12, 17, 20, 30, 57 and 106 was
+compared with the Kannada text on hindupad.com:
+
+- **Spelling conventions:** every word matched.
+- **Wording:** each difference was a typo on the website (ಮಹೇಶ್ವಾಸೋ for
+  महेष्वासः, ಋದ್ದಃ for ऋद्धः, ಸ್ರಷ್ಠಾ for स्रष्टा). The one genuine variant is
+  सम्मितस्समः (a sandhi spelling) against सम्मितः समः.
+
+Online copies have errors too, so use a printed edition as the final
+reference.
+
 ## Suggested sources
 
 - **Gita Press, Gorakhpur:** Vishnu Sahasranama, stotras, nitya karma.

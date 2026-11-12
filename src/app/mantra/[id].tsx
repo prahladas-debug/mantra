@@ -7,7 +7,7 @@ import { Chip, ScriptPicker } from '../../components/ui';
 import { categoryById, getMantra, type Mantra, type Section, type Verse } from '../../data';
 import { useSettings } from '../../lib/settings';
 import type { ThemeName } from '../../lib/theme';
-import { bindDandas, translit, translitInline, verseNumber } from '../../lib/transliterate';
+import { bindDandas, translit, translitInline, translitTitle, verseNumber } from '../../lib/transliterate';
 
 type Row =
   | { kind: 'intro'; key: string }
@@ -89,7 +89,7 @@ export default function Reader() {
         return (
           <View style={r.intro}>
             <Text style={[r.title, { color: theme.accent, fontSize: 28 * scale, lineHeight: 42 * scale }]}>
-              {translit(mantra.title, script)}
+              {translitTitle(mantra.title, script)}
             </Text>
             <Text style={{ color: theme.text, fontSize: 16, fontWeight: '600' }}>{mantra.titleEn}</Text>
             <Text style={{ color: theme.textMuted, fontSize: 13, marginTop: 4 }}>
@@ -111,7 +111,7 @@ export default function Reader() {
           <View style={[r.section, { borderColor: theme.cardBorder }]}>
             {item.section.title && (
               <Text style={{ color: theme.accent, fontSize: 21 * scale, lineHeight: 32 * scale, fontWeight: '700' }}>
-                {translit(item.section.title, script)}
+                {translitTitle(item.section.title, script)}
               </Text>
             )}
             {item.section.titleEn && (

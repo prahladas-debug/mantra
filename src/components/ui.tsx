@@ -3,7 +3,7 @@ import { router, type Href } from 'expo-router';
 import { Pressable, ScrollView, StyleSheet, Text, View, type TextProps } from 'react-native';
 import { verseCount, type Mantra } from '../data';
 import { useSettings } from '../lib/settings';
-import { SCRIPTS, translit, type ScriptId } from '../lib/transliterate';
+import { SCRIPTS, translitTitle, type ScriptId } from '../lib/transliterate';
 
 export function Txt({
   muted,
@@ -79,7 +79,7 @@ const DIFFICULTY_LABEL = { easy: 'Easy', medium: 'Medium', advanced: 'Advanced' 
 /** A tappable card for one mantra in a list. */
 export function MantraRow({ mantra, subtitle }: { mantra: Mantra; subtitle?: string }) {
   const { theme, settings, favorites } = useSettings();
-  const title = translit(mantra.title, settings.script);
+  const title = translitTitle(mantra.title, settings.script);
   const fav = favorites.includes(mantra.id);
   return (
       <Pressable

@@ -14,6 +14,15 @@ One codebase ([Expo](https://expo.dev) / React Native) builds for the
   [`@indic-transliteration/sanscript`](https://github.com/indic-transliteration/sanscript.js).
   A correction to one text fixes it in every script. Tamil uses superscript
   marks (க², க³, க⁴) so that Sanskrit sounds stay unambiguous.
+- **Each script follows its own spelling conventions** (see
+  `src/lib/transliterate.ts`):
+  - Kannada, Telugu and Gujarati use the anusvara (ಮಂತ್ರ, ಸಂಗ್ರಹ, ಗೋವಿಂದ),
+    as published stotra books do.
+  - Malayalam uses chillu letters and ംഗ / ംബ.
+  - Bengali and Odia use য় / ୟ.
+  - Tamil uses ஸ்ரீ.
+  - Menus and category names are written in each language (ನಿತ್ಯ
+    ಪ್ರಾರ್ಥನೆ, ಸಂಧ್ಯಾವಂದನೆ) rather than transliterated from Sanskrit.
 - **Learning mode.** A second script can be shown under each verse, for
   example Kannada with IAST underneath.
 - **Reader.** Font size from 70% to 220%, light, sepia and dark themes, a

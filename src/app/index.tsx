@@ -5,9 +5,7 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { MantraRow, ScriptPicker, SectionHeading } from '../components/ui';
 import { CATEGORIES, categoryCounts, getMantra } from '../data';
 import { useSettings } from '../lib/settings';
-import { translit } from '../lib/transliterate';
-
-const APP_TITLE = 'मन्त्रसङ्ग्रहः';
+import { appTitle, categoryTitle } from '../lib/labels';
 
 const FEATURED = [
   'vishnu-sahasranama',
@@ -33,7 +31,7 @@ export default function Home() {
     >
       <View style={s.header}>
         <View style={{ flex: 1 }}>
-          <Text style={[s.appTitle, { color: theme.accent }]}>{translit(APP_TITLE, settings.script)}</Text>
+          <Text style={[s.appTitle, { color: theme.accent }]}>{appTitle(settings.script)}</Text>
           <Text style={{ color: theme.textMuted, fontSize: 15 }}>Vedic mantras & stotras in your script</Text>
         </View>
         <Link href="/settings" asChild>
@@ -86,7 +84,7 @@ export default function Home() {
               ]}
             >
               <Text style={[s.tileTitle, { color: theme.text }]} numberOfLines={1}>
-                {translit(c.title, settings.script)}
+                {categoryTitle(c, settings.script)}
               </Text>
               <Text style={{ color: theme.textMuted, fontSize: 14 }}>{c.titleEn}</Text>
               <Text style={{ color: theme.accent, fontSize: 13, marginTop: 6, fontWeight: '600' }}>
