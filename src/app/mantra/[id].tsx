@@ -305,7 +305,8 @@ export default function Reader() {
 function SeriesNav({ mantra }: { mantra: Mantra }) {
   const { theme, settings } = useSettings();
   if (mantra.order === undefined) return null;
-  const series = mantrasInCategory(mantra.category).filter((m) => m.order !== undefined);
+  const seriesId = mantra.series ?? mantra.category;
+  const series = mantrasInCategory(mantra.category).filter((m) => m.order !== undefined && (m.series ?? m.category) === seriesId);
   const i = series.findIndex((m) => m.id === mantra.id);
   const prev = series[i - 1];
   const next = series[i + 1];

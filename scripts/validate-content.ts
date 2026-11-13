@@ -13,11 +13,13 @@ import { pathToFileURL } from 'node:url';
 import Sanscript from '@indic-transliteration/sanscript';
 import type { Mantra } from '../src/data/types';
 
-const CATEGORIES = ['nitya', 'gita', 'vedic', 'sahasranama', 'stotra', 'madhva', 'sandhya', 'puja'];
+const CATEGORIES = ['nitya', 'gita', 'sundarakanda', 'devimahatmya', 'harikathamrutasara', 'sumadhvavijaya', 'vedic', 'sahasranama', 'stotra', 'madhva', 'sandhya', 'puja'];
 const DIR = resolve(__dirname, '../src/data/texts');
 
 // Devanagari block, Vedic extensions, whitespace, ZWJ/ZWNJ, avagraha, basic punctuation.
 const ALLOWED = /^[ऀ-ॿ᳐-᳿꣠-ꣿ\s‌‍\-–—,.;:?!'’‘"“”()\[\]]*$/;
+// Kannada-language works (sourceScript: 'kannada'): Kannada block plus dandas.
+const ALLOWED_KN = /^[\u0C80-\u0CFF\u0964\u0965\s\u200C\u200D\-–—,.;:?!'’‘"“”()\[\]]*$/;
 const EMBEDDED_NUMBER = /॥\s*[०-९0-9]+\s*॥/;
 
 const args = process.argv.slice(2);
@@ -53,7 +55,8 @@ async function main() {
       if (seen.has(m.id)) err(w, `duplicate id (also in ${seen.get(m.id)})`);
       seen.set(m.id, file);
       if (!CATEGORIES.includes(m.category)) err(w, `bad category ${m.category}`);
-      if (!m.title || !ALLOWED.test(m.title)) err(w, 'title must be Devanagari');
+      const SCRIPT_OK = m.sourceScript === 'kannada' ? ALLOWED_KN : ALLOWED;
+      if (!m.title || !SCRIPT_OK.test(m.title)) err(w, `title must be ${m.sourceScript ?? 'devanagari'}`);
       if (!m.titleEn) err(w, 'missing titleEn');
       if (!m.summary) err(w, 'missing summary');
       if (m.summaryKn !== undefined && !/[\u0C80-\u0CFF]/.test(m.summaryKn)) err(w, 'summaryKn must be Kannada');
@@ -72,7 +75,7 @@ async function main() {
         const sw = `${w} §${si + 1}${s.titleEn ? ` (${s.titleEn})` : ''}`;
         checkWhen(sw, s.when);
         if (s.noteKn !== undefined && !/[\u0C80-\u0CFF]/.test(s.noteKn)) err(sw, 'noteKn must be Kannada');
-        if (s.title && !ALLOWED.test(s.title)) err(sw, 'section title must be Devanagari');
+        if (s.title && !SCRIPT_OK.test(s.title)) err(sw, 'section title is in the wrong script');
         if (!s.verses?.length) err(sw, 'empty section');
         let prev: number | undefined;
         s.verses?.forEach((v, vi) => {
@@ -80,8 +83,8 @@ async function main() {
           const vw = `${sw} v${v.n ?? `#${vi + 1}`}`;
           checkWhen(vw, v.when);
           if (!v.text?.trim()) return err(vw, 'empty text');
-          if (!ALLOWED.test(v.text)) {
-            const bad = [...v.text].filter((c) => !ALLOWED.test(c));
+          if (!SCRIPT_OK.test(v.text)) {
+            const bad = [...v.text].filter((c) => !SCRIPT_OK.test(c));
             err(vw, `non-Devanagari characters: ${JSON.stringify([...new Set(bad)].join(''))}`);
           }
           if (EMBEDDED_NUMBER.test(v.text)) err(vw, 'verse number embedded in text; use `n`');
@@ -102,6 +105,7 @@ async function main() {
               if (lang === 'en' && t && /[\u0C80-\u0CFF]/.test(t)) err(vw, 'en meaning contains Kannada');
             }
           }
+          if (m.sourceScript === 'kannada') return;
           // Round-trip sanity: Devanagari -> IAST -> Devanagari should be stable.
           const rt = Sanscript.t(Sanscript.t(v.text, 'devanagari', 'iast'), 'iast', 'devanagari');
           if (rt.replace(/\s+/g, ' ') !== v.text.replace(/\s+/g, ' ')) {

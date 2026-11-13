@@ -14,6 +14,30 @@ export const CATEGORIES: Category[] = [
     description: 'All 18 chapters, 700 verses, with the traditional chapter colophons.',
   },
   {
+    id: 'sundarakanda',
+    title: 'सुन्दरकाण्डम्',
+    titleEn: 'Sundarakanda',
+    description: 'Vālmīki Rāmāyaṇa, Sundarakāṇḍa, sarga by sarga for pārāyaṇa.',
+  },
+  {
+    id: 'devimahatmya',
+    title: 'देवीमाहात्म्यम्',
+    titleEn: 'Devi Mahatmyam',
+    description: 'Durgā Saptaśatī: 13 chapters with Kavaca, Argalā and Kīlaka.',
+  },
+  {
+    id: 'harikathamrutasara',
+    title: 'हरिकथामृतसार',
+    titleEn: 'Harikathamrutasara',
+    description: 'Jagannātha Dāsa’s Kannada classic, sandhi by sandhi.',
+  },
+  {
+    id: 'sumadhvavijaya',
+    title: 'सुमध्वविजयः',
+    titleEn: 'Sumadhva Vijaya',
+    description: 'Nārāyaṇa Paṇḍitācārya’s life of Śrī Madhvācārya, sarga by sarga.',
+  },
+  {
     id: 'vedic',
     title: 'वैदिक सूक्तानि',
     titleEn: 'Vedic Suktas',

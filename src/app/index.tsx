@@ -14,7 +14,7 @@ const FEATURED = [
   'purusha-sukta',
   'sri-sukta',
   'venkatesha-stotram',
-  'sandhya-vandane',
+  'sandhya-vandane-rigveda',
 ];
 
 export default function Home() {

@@ -1,3 +1,4 @@
+import Sanscript from '@indic-transliteration/sanscript';
 import { searchKey, translit } from '../lib/transliterate';
 import { CATEGORIES } from './categories';
 import { LIBRARY } from './library.generated';
@@ -8,7 +9,25 @@ export type { Category, CategoryId, Mantra, Section, Verse } from './types';
 
 const DIFFICULTY_ORDER = { easy: 0, medium: 1, advanced: 2 } as const;
 
-export const ALL_MANTRAS: Mantra[] = [...LIBRARY].sort(
+/**
+ * Kannada-language works are stored in Kannada script; convert them to the
+ * Devanagari form the rest of the app works from (lossless, incl. ಱ/ೞ).
+ */
+function toDevanagari(m: Mantra): Mantra {
+  if (m.sourceScript !== 'kannada') return m;
+  const k = (t: string) => Sanscript.t(t, 'kannada', 'devanagari');
+  return {
+    ...m,
+    title: k(m.title),
+    sections: m.sections.map((s) => ({
+      ...s,
+      title: s.title && k(s.title),
+      verses: s.verses.map((v) => ({ ...v, text: k(v.text) })),
+    })),
+  };
+}
+
+export const ALL_MANTRAS: Mantra[] = LIBRARY.map(toDevanagari).sort(
   (a, b) =>
     (a.order ?? 1e6) - (b.order ?? 1e6) ||
     DIFFICULTY_ORDER[a.difficulty] - DIFFICULTY_ORDER[b.difficulty] ||

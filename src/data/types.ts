@@ -9,6 +9,10 @@
 export type CategoryId =
   | 'nitya'
   | 'gita'
+  | 'sundarakanda'
+  | 'devimahatmya'
+  | 'harikathamrutasara'
+  | 'sumadhvavijaya'
   | 'vedic'
   | 'sahasranama'
   | 'stotra'
@@ -83,6 +87,13 @@ export interface Mantra {
   category: CategoryId;
   /** Optional position within its category (e.g. Gita chapter number). */
   order?: number;
+  /** Texts with the same series are read in `order` with Previous/Next (defaults to the category). */
+  series?: string;
+  /**
+   * Script the verse text is stored in. Default 'devanagari'. Kannada-language works
+   * (e.g. Harikathamrutasara) are stored in Kannada and converted on load.
+   */
+  sourceScript?: 'devanagari' | 'kannada';
   deity?: string;
   /** Scriptural source, e.g. "Mahābhārata, Anuśāsana Parva". */
   source?: string;

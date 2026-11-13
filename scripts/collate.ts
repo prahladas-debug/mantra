@@ -16,7 +16,7 @@
  */
 import { readFileSync } from 'node:fs';
 import Sanscript from '@indic-transliteration/sanscript';
-import { LIBRARY } from '../src/data/library.generated';
+import { ALL_MANTRAS as LIBRARY } from '../src/data';
 
 const [id, file, scheme = 'devanagari'] = process.argv.slice(2);
 if (!id || !file) {
