@@ -6,6 +6,7 @@ import { FlatList, Pressable, StyleSheet, Text, View } from 'react-native';
 import { Chip, ScriptPicker } from '../../components/ui';
 import { categoryById, getMantra, mantrasInCategory, type Mantra, type Section, type Verse } from '../../data';
 import { useSettings } from '../../lib/settings';
+import { choicesFor, matches, type Choices } from '../../lib/variants';
 import type { ThemeName } from '../../lib/theme';
 import { MEANING_PREFS, meaningsToShow, type MeaningPref } from '../../lib/meaning';
 import { bindDandas, translit, translitInline, translitTitle, verseNumber, type ScriptId } from '../../lib/transliterate';
@@ -15,11 +16,14 @@ type Row =
   | { kind: 'section'; key: string; section: Section; si: number }
   | { kind: 'verse'; key: string; verse: Verse; si: number; vi: number };
 
-function flatten(m: Mantra): Row[] {
+function flatten(m: Mantra, choices: Choices): Row[] {
   const rows: Row[] = [{ kind: 'intro', key: 'intro' }];
   m.sections.forEach((section, si) => {
+    if (!matches(section.when, choices)) return;
+    const verses = section.verses.map((verse, vi) => ({ verse, vi })).filter(({ verse }) => matches(verse.when, choices));
+    if (verses.length === 0) return;
     if (section.title || section.titleEn || section.note) rows.push({ kind: 'section', key: `s${si}`, section, si });
-    section.verses.forEach((verse, vi) => rows.push({ kind: 'verse', key: `v${si}-${vi}`, verse, si, vi }));
+    verses.forEach(({ verse, vi }) => rows.push({ kind: 'verse', key: `v${si}-${vi}`, verse, si, vi }));
   });
   return rows;
 }
@@ -42,7 +46,8 @@ export default function Reader() {
     });
   const listRef = useRef<FlatList<Row>>(null);
 
-  const rows = useMemo(() => (mantra ? flatten(mantra) : []), [mantra]);
+  const choices = useMemo(() => (mantra ? choicesFor(mantra, settings.variants) : {}), [mantra, settings.variants]);
+  const rows = useMemo(() => (mantra ? flatten(mantra, choices) : []), [mantra, choices]);
   // Verse opened from search: highlighted briefly (initial state, cleared by a timer).
   const targetKey = params.si !== undefined && params.vi !== undefined ? `v${params.si}-${params.vi}` : null;
   const [highlight, setHighlight] = useState<string | null>(targetKey);
@@ -85,6 +90,8 @@ export default function Reader() {
   }
 
   const script = settings.script;
+  // Kannada for notes/summaries when the reader wants Kannada meanings.
+  const preferKn = settings.meaningLang === 'kn' || (settings.meaningLang === 'auto' && script === 'kannada');
   const second = settings.secondaryScript && settings.secondaryScript !== script ? settings.secondaryScript : null;
   const scale = settings.fontScale;
   const isFav = favorites.includes(mantra.id);
@@ -104,7 +111,24 @@ export default function Reader() {
             <Text style={{ color: theme.textMuted, fontSize: 13, marginTop: 4 }}>
               {[categoryById[mantra.category]?.titleEn, mantra.deity, mantra.source].filter(Boolean).join(' · ')}
             </Text>
-            <Text style={{ color: theme.textMuted, fontSize: 15, marginTop: 10, lineHeight: 22 }}>{(settings.meaningLang === 'kn' || (settings.meaningLang === 'auto' && script === 'kannada')) && mantra.summaryKn ? mantra.summaryKn : translitInline(mantra.summary, script)}</Text>
+            <Text style={{ color: theme.textMuted, fontSize: 15, marginTop: 10, lineHeight: 22 }}>{preferKn && mantra.summaryKn ? mantra.summaryKn : translitInline(mantra.summary, script)}</Text>
+            {mantra.variants?.map((v) => (
+              <View key={v.key} style={[r.variantBox, { borderColor: theme.cardBorder, backgroundColor: theme.card }]}>
+                <Text style={{ color: theme.textMuted, fontSize: 13, fontWeight: '700', marginBottom: 6 }}>
+                  {preferKn && v.titleKn ? v.titleKn : v.title}
+                </Text>
+                <View style={{ flexDirection: 'row', flexWrap: 'wrap', gap: 8 }}>
+                  {v.options.map((o) => (
+                    <Chip
+                      key={o.id}
+                      label={preferKn && o.labelKn ? o.labelKn : o.label}
+                      active={choices[v.key] === o.id}
+                      onPress={() => update({ variants: { ...settings.variants, [v.key]: o.id } })}
+                    />
+                  ))}
+                </View>
+              </View>
+            ))}
             {mantra.contentNote && (
               <View style={[r.notice, { backgroundColor: theme.warningBg }]}>
                 <Ionicons name="information-circle" size={18} color={theme.warningText} />
@@ -130,7 +154,7 @@ export default function Reader() {
             )}
             {item.section.note && (
               <Text style={{ color: theme.textMuted, fontSize: 14, fontStyle: 'italic', marginTop: 6, lineHeight: 20 }}>
-                {translitInline(item.section.note, script)}
+                {preferKn && item.section.noteKn ? item.section.noteKn : translitInline(item.section.note, script)}
               </Text>
             )}
           </View>
@@ -323,6 +347,7 @@ function PanelLabel({ children }: { children: React.ReactNode }) {
 const r = StyleSheet.create({
   intro: { padding: 20, paddingBottom: 8 },
   title: { fontWeight: '700', marginBottom: 4 },
+  variantBox: { marginTop: 14, padding: 12, borderRadius: 12, borderWidth: 1 },
   notice: { flexDirection: 'row', gap: 8, padding: 12, borderRadius: 10, marginTop: 14 },
   section: { marginTop: 18, marginHorizontal: 20, paddingTop: 14, borderTopWidth: 1, marginBottom: 4 },
   verse: { paddingHorizontal: 20, paddingVertical: 12 },

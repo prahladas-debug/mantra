@@ -16,6 +16,8 @@ export interface Settings {
   /** Which language(s) meanings are shown in. */
   meaningLang: MeaningPref;
   keepAwake: boolean;
+  /** Reader's choices for texts with variants, e.g. { tradition: 'madhva', time: 'morning' }. */
+  variants: Partial<Record<string, string>>;
 }
 
 export interface RecentEntry {
@@ -38,6 +40,7 @@ const DEFAULTS: Store = {
     alwaysShowMeanings: false,
     meaningLang: 'auto',
     keepAwake: true,
+    variants: {},
   },
   favorites: [],
   recent: [],

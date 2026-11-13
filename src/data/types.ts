@@ -27,6 +27,27 @@ export type MeaningLang = 'en' | 'kn';
  */
 export type Meaning = string | Partial<Record<MeaningLang, string>>;
 
+/**
+ * Choices a text can offer the reader (e.g. Sandhyāvandane: tradition and
+ * time of day). Sections/verses tagged with `when` are shown only if every
+ * listed key matches the reader's current choice.
+ */
+export type VariantKey = 'tradition' | 'time';
+export type When = Partial<Record<VariantKey, string[]>>;
+
+export interface VariantOption {
+  id: string;
+  label: string;
+  labelKn?: string;
+}
+
+export interface VariantChoice {
+  key: VariantKey;
+  title: string;
+  titleKn?: string;
+  options: VariantOption[];
+}
+
 export interface Verse {
   /** Verse number, shown as ॥ n ॥ after the text in the reader's script. Omit for prose/steps. */
   n?: number;
@@ -34,6 +55,8 @@ export interface Verse {
   text: string;
   /** Optional meaning in English and/or Kannada. */
   meaning?: Meaning;
+  /** Show only for these choices (see VariantChoice). */
+  when?: When;
 }
 
 export interface Section {
@@ -43,6 +66,10 @@ export interface Section {
   titleEn?: string;
   /** Optional English instruction/note (e.g. "Sip water three times"). */
   note?: string;
+  /** Optional Kannada version of the note. */
+  noteKn?: string;
+  /** Show only for these choices (see VariantChoice). */
+  when?: When;
   verses: Verse[];
 }
 
@@ -63,6 +90,8 @@ export interface Mantra {
   summary: string;
   /** Optional Kannada version of the summary. */
   summaryKn?: string;
+  /** Choices offered at the top of the reader (first option is the default). */
+  variants?: VariantChoice[];
   difficulty: Difficulty;
   /**
    * 'complete' = full text as traditionally recited.

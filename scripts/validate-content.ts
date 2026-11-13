@@ -60,14 +60,25 @@ async function main() {
       if (!['easy', 'medium', 'advanced'].includes(m.difficulty)) err(w, 'bad difficulty');
       if (m.completeness === 'partial' && !m.contentNote) err(w, 'partial texts need contentNote');
       if (!m.sections?.length) err(w, 'no sections');
+      const variantIds = new Map((m.variants ?? []).map((v) => [v.key as string, new Set(v.options.map((o) => o.id))]));
+      const checkWhen = (where: string, when: Record<string, string[] | undefined> | undefined) => {
+        for (const [k, ids] of Object.entries(when ?? {})) {
+          const known = variantIds.get(k);
+          if (!known) { err(where, `when.${k} used but the text declares no '${k}' variant`); continue; }
+          for (const id of ids ?? []) if (!known.has(id)) err(where, `when.${k}: unknown option '${id}'`);
+        }
+      };
       m.sections?.forEach((s, si) => {
         const sw = `${w} §${si + 1}${s.titleEn ? ` (${s.titleEn})` : ''}`;
+        checkWhen(sw, s.when);
+        if (s.noteKn !== undefined && !/[\u0C80-\u0CFF]/.test(s.noteKn)) err(sw, 'noteKn must be Kannada');
         if (s.title && !ALLOWED.test(s.title)) err(sw, 'section title must be Devanagari');
         if (!s.verses?.length) err(sw, 'empty section');
         let prev: number | undefined;
         s.verses?.forEach((v, vi) => {
           verseTotal++;
           const vw = `${sw} v${v.n ?? `#${vi + 1}`}`;
+          checkWhen(vw, v.when);
           if (!v.text?.trim()) return err(vw, 'empty text');
           if (!ALLOWED.test(v.text)) {
             const bad = [...v.text].filter((c) => !ALLOWED.test(c));
