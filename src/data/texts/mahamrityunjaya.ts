@@ -1,3 +1,7 @@
+/**
+ * Mahāmṛtyuñjaya. Checked (Nov 2026) against the Mahānārāyaṇa Upaniṣad text
+ * (vishvAsa) and the Jagannātha pūjā text in sanskrit/raw_etexts; no changes.
+ */
 import type { Mantra } from '../types';
 
 export const mahamrityunjaya: Mantra = {

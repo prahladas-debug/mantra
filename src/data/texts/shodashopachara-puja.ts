@@ -1,7 +1,11 @@
 /**
  * Ṣoḍaśopacāra Pūjā — generic sixteen-step worship (shown for Śrī Mahāviṣṇu).
- * NOT YET PROOFREAD against a printed pūjā-vidhāna. Formulas follow the common
- * South Indian (Karnataka) household pattern.
+ * Formulas follow the common South Indian (Karnataka) household pattern.
+ * The ślokas were checked (Nov 2026) against the Gita Press Satyanārāyaṇa
+ * pūjā, stotranidhi.com pūjā-vidhānas, the Ṛgveda pañcāyatana pūjā
+ * (daithal/saswara-rigveda), stotrasamhita and other online pūjā texts.
+ * Wording of these ślokas varies by tradition; not yet checked against a
+ * printed pūjā-vidhāna.
  */
 import type { Mantra } from '../types';
 
@@ -310,10 +314,10 @@ export const shodashopacharaPuja: Mantra = {
       verses: [
         {
           text:
-            'साज्यं च वर्तिसंयुक्तं वह्निना योजितं मया ।\nदीपं गृहाण देवेश त्रैलोक्यतिमिरापह ॥',
+            'साज्यं च वर्तिसंयुक्तं वह्निना योजितं मया ।\nदीपं गृहाण देवेश त्रैलोक्यतिमिरापहम् ॥',
           meaning: {
-            en: 'O Lord of the gods, dispeller of the darkness of the three worlds, accept this lamp of ghee and wick, lit by me with fire.',
-            kn: 'ಮೂರು ಲೋಕಗಳ ಕತ್ತಲೆಯನ್ನು ಹೋಗಲಾಡಿಸುವ ಓ ದೇವದೇವ, ತುಪ್ಪ ಮತ್ತು ಬತ್ತಿಯಿಂದ ಕೂಡಿ ನಾನು ಬೆಳಗಿಸಿದ ಈ ದೀಪವನ್ನು ಸ್ವೀಕರಿಸು.',
+            en: 'O Lord of the gods, accept this lamp of ghee and wick, lit by me with fire, which dispels the darkness of the three worlds.',
+            kn: 'ಓ ದೇವದೇವ, ತುಪ್ಪ ಮತ್ತು ಬತ್ತಿಯಿಂದ ಕೂಡಿ ನಾನು ಬೆಳಗಿಸಿದ, ಮೂರು ಲೋಕಗಳ ಕತ್ತಲೆಯನ್ನು ಹೋಗಲಾಡಿಸುವ ಈ ದೀಪವನ್ನು ಸ್ವೀಕರಿಸು.',
           },
         },
         {

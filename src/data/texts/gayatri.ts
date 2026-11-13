@@ -1,3 +1,7 @@
+/**
+ * Gāyatrī. Checked (Nov 2026) against the Mahānārāyaṇa Upaniṣad text and the
+ * stotranidhi.com pūjā pages; no changes.
+ */
 import type { Mantra } from '../types';
 
 export const gayatri: Mantra = {

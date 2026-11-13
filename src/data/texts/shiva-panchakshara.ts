@@ -1,4 +1,6 @@
-// Not yet proofread against a printed edition.
+// Collated Nov 2026 with two printed editions on sa.wikisource (Śaṅkara stotras, 1910; Bṛhatstotraratnākara, 1953),
+// stotranidhi.com and raocollectionsstotra.
+// Still to be checked against a printed edition.
 import type { Mantra } from '../types';
 
 export const shivaPanchakshara: Mantra = {
@@ -29,9 +31,9 @@ export const shivaPanchakshara: Mantra = {
         },
         {
           n: 2,
-          text: 'मन्दाकिनीसलिलचन्दनचर्चिताय\nनन्दीश्वरप्रमथनाथमहेश्वराय ।\nमन्दारपुष्पबहुपुष्पसुपूजिताय\nतस्मै मकाराय नमः शिवाय ॥',
+          text: 'मन्दाकिनीसलिलचन्दनचर्चिताय\nनन्दीश्वरप्रमथनाथमहेश्वराय ।\nमन्दारमुख्यबहुपुष्पसुपूजिताय\nतस्मै मकाराय नमः शिवाय ॥',
           meaning: {
-            en: 'Salutations to Śiva, embodied in the syllable “ma”: anointed with the waters of the Mandākinī (Gaṅgā) and with sandal paste, the great Lord of Nandī and the Pramatha hosts, richly worshipped with mandāra and many other flowers.',
+            en: 'Salutations to Śiva, embodied in the syllable “ma”: anointed with the waters of the Mandākinī (Gaṅgā) and with sandal paste, the great Lord of Nandī and the Pramatha hosts, richly worshipped with many flowers, the mandāra foremost among them.',
             kn: 'ಮಂದಾಕಿನಿಯ (ಗಂಗೆಯ) ಜಲ ಮತ್ತು ಗಂಧದಿಂದ ಅರ್ಚಿತನಾದ, ನಂದೀಶ್ವರ ಮತ್ತು ಪ್ರಮಥಗಣಗಳ ಒಡೆಯನಾದ ಮಹೇಶ್ವರನಾದ, ಮಂದಾರ ಮೊದಲಾದ ಅನೇಕ ಹೂವುಗಳಿಂದ ಚೆನ್ನಾಗಿ ಪೂಜಿತನಾದ ‘ಮ’ಕಾರಸ್ವರೂಪನಾದ ಶಿವನಿಗೆ ನಮಸ್ಕಾರ.',
           },
         },

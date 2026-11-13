@@ -1,8 +1,11 @@
 /**
  * Śrī Rāghavendra Stotram of Śrī Appaṇṇācārya.
- * NOT YET PROOFREAD against a printed edition (e.g. Śrī Rāghavendra Svāmi Maṭha,
- * Mantrālaya publications). Verse numbering follows the common couplet division;
- * some printed editions number the anuṣṭubh portion slightly differently.
+ * Collated (Nov 2026) against stotranidhi.com and the two copies (Devanagari and
+ * Kannada) on raocollectionsstotra.blogspot.com; no word changes were needed.
+ * Verse division follows the sense-based grouping those copies share: 15 and 20
+ * (and 26, 27 in the phala-śruti) are three-line ślokas, giving 31 verses plus
+ * the colophon (32). Stotranidhi groups 20–31 as plain couplets instead.
+ * Not yet checked against a printed Maṭha edition.
  */
 import type { Mantra } from '../types';
 
@@ -147,62 +150,54 @@ export const raghavendraStotram: Mantra = {
         },
         {
           n: 15,
-          text: 'अज्ञानविस्मृतिभ्रान्तिसंशयापस्मृतिक्षयाः ।\nतन्द्राकम्पवचःकौण्ठ्यमुखा ये चेन्द्रियोद्भवाः ॥',
+          text: 'अज्ञानविस्मृतिभ्रान्तिसंशयापस्मृतिक्षयाः ।\nतन्द्राकम्पवचःकौण्ठ्यमुखा ये चेन्द्रियोद्भवाः ।\nदोषास्ते नाशमायान्ति राघवेन्द्रप्रसादतः ॥',
           meaning: {
-            en: 'Ignorance, forgetfulness, confusion, doubt, failing memory and decline, drowsiness, trembling, faltering speech and the other defects that arise from the senses —',
-            kn: 'ಅಜ್ಞಾನ, ಮರೆವು, ಭ್ರಾಂತಿ, ಸಂಶಯ, ಸ್ಮೃತಿಭ್ರಂಶ, ಕ್ಷಯ, ಆಲಸ್ಯ, ನಡುಕ, ಮಾತಿನ ತೊದಲು ಮೊದಲಾದ, ಇಂದ್ರಿಯಗಳಿಂದ ಹುಟ್ಟುವ ದೋಷಗಳು —',
+            en: 'Ignorance, forgetfulness, confusion, doubt, failing memory and decline, drowsiness, trembling, faltering speech and the other defects that arise from the senses: all these are destroyed by the grace of Rāghavendra.',
+            kn: 'ಅಜ್ಞಾನ, ಮರೆವು, ಭ್ರಾಂತಿ, ಸಂಶಯ, ಸ್ಮೃತಿಭ್ರಂಶ, ಕ್ಷಯ, ಆಲಸ್ಯ, ನಡುಕ, ಮಾತಿನ ತೊದಲು ಮೊದಲಾದ, ಇಂದ್ರಿಯಗಳಿಂದ ಹುಟ್ಟುವ ದೋಷಗಳೆಲ್ಲವೂ ಶ್ರೀರಾಘವೇಂದ್ರರ ಅನುಗ್ರಹದಿಂದ ನಾಶವಾಗುತ್ತವೆ.',
           },
         },
         {
           n: 16,
-          text: 'दोषास्ते नाशमायान्ति राघवेन्द्रप्रसादतः ।\nॐ श्रीराघवेन्द्राय नमः इत्यष्टाक्षरमन्त्रतः ॥',
+          text: 'ॐ श्रीराघवेन्द्राय नमः इत्यष्टाक्षरमन्त्रतः ।\nजपिताद्भावितान्नित्यमिष्टार्थाः स्युर्न संशयः ॥',
           meaning: {
-            en: '— all these defects are destroyed by the grace of Rāghavendra. Through the eight-syllable mantra \'Oṁ Śrī Rāghavendrāya namaḥ\' —',
-            kn: '— ಈ ಎಲ್ಲ ದೋಷಗಳೂ ಶ್ರೀರಾಘವೇಂದ್ರರ ಅನುಗ್ರಹದಿಂದ ನಾಶವಾಗುತ್ತವೆ. “ಓಂ ಶ್ರೀರಾಘವೇಂದ್ರಾಯ ನಮಃ” ಎಂಬ ಅಷ್ಟಾಕ್ಷರ ಮಂತ್ರವನ್ನು —',
+            en: 'By the eight-syllable mantra \'Oṁ Śrī Rāghavendrāya namaḥ\', chanted and meditated upon every day, all desired goals are attained; of this there is no doubt.',
+            kn: '“ಓಂ ಶ್ರೀರಾಘವೇಂದ್ರಾಯ ನಮಃ” ಎಂಬ ಅಷ್ಟಾಕ್ಷರ ಮಂತ್ರವನ್ನು ನಿತ್ಯವೂ ಜಪಿಸಿ ಧ್ಯಾನಿಸುವುದರಿಂದ ಇಷ್ಟಾರ್ಥಗಳೆಲ್ಲ ಸಿದ್ಧಿಸುತ್ತವೆ; ಇದರಲ್ಲಿ ಸಂಶಯವಿಲ್ಲ.',
           },
         },
         {
           n: 17,
-          text: 'जपिताद्भावितान्नित्यमिष्टार्थाः स्युर्न संशयः ।\nहन्तु नः कायजान्दोषानात्मात्मीयसमुद्भवान् ॥',
+          text: 'हन्तु नः कायजान्दोषानात्मात्मीयसमुद्भवान् ।\nसर्वानपि पुमर्थांश्च ददातु गुरुरात्मवित् ॥',
           meaning: {
-            en: '— chanted and meditated upon every day, all desired goals are attained; of this there is no doubt. May he destroy our bodily ills, whether they arise from ourselves or from those who are ours.',
-            kn: '— ನಿತ್ಯವೂ ಜಪಿಸಿ ಧ್ಯಾನಿಸುವುದರಿಂದ ಇಷ್ಟಾರ್ಥಗಳೆಲ್ಲ ಸಿದ್ಧಿಸುತ್ತವೆ; ಇದರಲ್ಲಿ ಸಂಶಯವಿಲ್ಲ. ನಮ್ಮಿಂದಲೂ ನಮ್ಮವರಿಂದಲೂ ಉಂಟಾಗುವ ದೇಹದೋಷಗಳನ್ನು ಗುರುಗಳು ನಾಶಮಾಡಲಿ.',
+            en: 'May the guru who knows the Supreme Self destroy our bodily ills, whether they arise from ourselves or from those who are ours, and grant us all the goals of human life.',
+            kn: 'ಪರಮಾತ್ಮತತ್ತ್ವವನ್ನು ಅರಿತ ಗುರುಗಳು ನಮ್ಮಿಂದಲೂ ನಮ್ಮವರಿಂದಲೂ ಉಂಟಾಗುವ ದೇಹದೋಷಗಳನ್ನು ನಾಶಮಾಡಲಿ; ನಮಗೆ ಎಲ್ಲ ಪುರುಷಾರ್ಥಗಳನ್ನೂ ಕೊಡಲಿ.',
           },
         },
         {
           n: 18,
-          text: 'सर्वानपि पुमर्थांश्च ददातु गुरुरात्मवित् ।\nइति कालत्रये नित्यं प्रार्थनां यः करोति सः ॥',
+          text: 'इति कालत्रये नित्यं प्रार्थनां यः करोति सः ।\nइहामुत्राप्तसर्वेष्टो मोदते नात्र संशयः ॥',
           meaning: {
-            en: 'May the guru who knows the Supreme Self grant us all the goals of human life. Whoever offers this prayer daily at the three times of the day (dawn, noon and dusk) —',
-            kn: 'ಪರಮಾತ್ಮತತ್ತ್ವವನ್ನು ಅರಿತ ಗುರುಗಳು ನಮಗೆ ಎಲ್ಲ ಪುರುಷಾರ್ಥಗಳನ್ನೂ ಕೊಡಲಿ. ಹೀಗೆ ಮೂರು ಕಾಲಗಳಲ್ಲೂ (ಬೆಳಿಗ್ಗೆ, ಮಧ್ಯಾಹ್ನ, ಸಂಜೆ) ನಿತ್ಯವೂ ಪ್ರಾರ್ಥಿಸುವವನು —',
+            en: 'Whoever offers this prayer daily at the three times of the day (dawn, noon and dusk) gains all he desires in this world and the next, and rejoices; there is no doubt of it.',
+            kn: 'ಹೀಗೆ ಮೂರು ಕಾಲಗಳಲ್ಲೂ (ಬೆಳಿಗ್ಗೆ, ಮಧ್ಯಾಹ್ನ, ಸಂಜೆ) ನಿತ್ಯವೂ ಪ್ರಾರ್ಥಿಸುವವನು ಇಹದಲ್ಲೂ ಪರದಲ್ಲೂ ಎಲ್ಲ ಇಷ್ಟಾರ್ಥಗಳನ್ನು ಪಡೆದು ಆನಂದಿಸುತ್ತಾನೆ; ಇದರಲ್ಲಿ ಸಂಶಯವಿಲ್ಲ.',
           },
         },
         {
           n: 19,
-          text: 'इहामुत्राप्तसर्वेष्टो मोदते नात्र संशयः ।\nअगम्यमहिमा लोके राघवेन्द्रो महायशाः ॥',
+          text: 'अगम्यमहिमा लोके राघवेन्द्रो महायशाः ।\nश्रीमध्वमतदुग्धाब्धिचन्द्रोऽवतु सदानघः ॥',
           meaning: {
-            en: '— gains all he desires in this world and the next, and rejoices; there is no doubt of it. Rāghavendra, of great fame, whose greatness is beyond the world\'s grasp —',
-            kn: '— ಇಹದಲ್ಲೂ ಪರದಲ್ಲೂ ಎಲ್ಲ ಇಷ್ಟಾರ್ಥಗಳನ್ನು ಪಡೆದು ಆನಂದಿಸುತ್ತಾನೆ; ಇದರಲ್ಲಿ ಸಂಶಯವಿಲ್ಲ. ಲೋಕಕ್ಕೆ ಅಳೆಯಲಾಗದ ಮಹಿಮೆಯುಳ್ಳ, ಮಹಾಕೀರ್ತಿಶಾಲಿಗಳಾದ ಶ್ರೀರಾಘವೇಂದ್ರರು —',
+            en: 'May Rāghavendra, of great fame, whose greatness is beyond the world\'s grasp, the moon risen from the milk-ocean of Śrī Madhva\'s doctrine, ever sinless, always protect us.',
+            kn: 'ಲೋಕಕ್ಕೆ ಅಳೆಯಲಾಗದ ಮಹಿಮೆಯುಳ್ಳ, ಮಹಾಕೀರ್ತಿಶಾಲಿಗಳಾದ, ಶ್ರೀಮಧ್ವಮತವೆಂಬ ಕ್ಷೀರಸಾಗರದಲ್ಲಿ ಉದಿಸಿದ ಚಂದ್ರನಂತಿರುವ, ಪಾಪರಹಿತರಾದ ಶ್ರೀರಾಘವೇಂದ್ರರು ಸದಾ ನಮ್ಮನ್ನು ಕಾಪಾಡಲಿ.',
           },
         },
         {
           n: 20,
-          text: 'श्रीमध्वमतदुग्धाब्धिचन्द्रोऽवतु सदानघः ।\nसर्वयात्राफलावाप्त्यै यथाशक्ति प्रदक्षिणम् ॥',
+          text: 'सर्वयात्राफलावाप्त्यै यथाशक्ति प्रदक्षिणम् ।\nकरोमि तव सिद्धस्य वृन्दावनगतं जलम् ।\nशिरसा धारयाम्यद्य सर्वतीर्थफलाप्तये ॥',
           meaning: {
-            en: '— the moon risen from the milk-ocean of Śrī Madhva\'s doctrine, ever sinless, may he always protect us. To gain the fruit of all pilgrimages, I walk in pradakṣiṇa, as best I can —',
-            kn: '— ಶ್ರೀಮಧ್ವಮತವೆಂಬ ಕ್ಷೀರಸಾಗರದಲ್ಲಿ ಉದಿಸಿದ ಚಂದ್ರನಂತಿರುವ, ಪಾಪರಹಿತರಾದ ಅವರು ಸದಾ ನಮ್ಮನ್ನು ಕಾಪಾಡಲಿ. ಎಲ್ಲ ತೀರ್ಥಯಾತ್ರೆಗಳ ಫಲವನ್ನು ಪಡೆಯಲು ನನ್ನ ಶಕ್ತಿಯಿದ್ದಷ್ಟು —',
+            en: 'To gain the fruit of all pilgrimages I walk in pradakṣiṇa around you, the perfected one, as best I can. Today I place on my head the water from your Vṛndāvana, to gain the merit of all holy waters.',
+            kn: 'ಎಲ್ಲ ತೀರ್ಥಯಾತ್ರೆಗಳ ಫಲವನ್ನು ಪಡೆಯಲು ಸಿದ್ಧಪುರುಷರಾದ ನಿಮಗೆ ನನ್ನ ಶಕ್ತಿಯಿದ್ದಷ್ಟು ಪ್ರದಕ್ಷಿಣೆ ಮಾಡುತ್ತೇನೆ. ಎಲ್ಲ ತೀರ್ಥಗಳ ಫಲ ದೊರೆಯಲೆಂದು ನಿಮ್ಮ ವೃಂದಾವನದ ಜಲವನ್ನು ಇಂದು ತಲೆಯ ಮೇಲೆ ಧರಿಸುತ್ತೇನೆ.',
           },
         },
         {
           n: 21,
-          text: 'करोमि तव सिद्धस्य वृन्दावनगतं जलम् ।\nशिरसा धारयाम्यद्य सर्वतीर्थफलाप्तये ॥',
-          meaning: {
-            en: '— around you, the perfected one. Today I place on my head the water from your Vṛndāvana, to gain the merit of all holy waters.',
-            kn: '— ಸಿದ್ಧಪುರುಷರಾದ ನಿಮಗೆ ಪ್ರದಕ್ಷಿಣೆ ಮಾಡುತ್ತೇನೆ. ಎಲ್ಲ ತೀರ್ಥಗಳ ಫಲ ದೊರೆಯಲೆಂದು ನಿಮ್ಮ ವೃಂದಾವನದ ಜಲವನ್ನು ಇಂದು ತಲೆಯ ಮೇಲೆ ಧರಿಸುತ್ತೇನೆ.',
-          },
-        },
-        {
-          n: 22,
           text: 'सर्वाभीष्टार्थसिद्ध्यर्थं नमस्कारं करोम्यहम् ।\nतव सङ्कीर्तनं वेदशास्त्रार्थज्ञानसिद्धये ॥',
           meaning: {
             en: 'To fulfil all my wishes I bow to you, and I sing your praise to gain understanding of the meaning of the Vedas and śāstras.',
@@ -210,7 +205,7 @@ export const raghavendraStotram: Mantra = {
           },
         },
         {
-          n: 23,
+          n: 22,
           text:
             'संसारेऽक्षयसागरे प्रकृतितोऽगाधे सदा दुस्तरे\nसर्वावद्यजलग्रहैरनुपमैः कामादिभङ्गाकुले ।\nनानाविभ्रमदुर्भ्रमेऽमितभयस्तोमादिफेनोत्कटे\nदुःखोत्कृष्टविषे समुद्धर गुरो मा मग्नरूपं सदा ॥',
           meaning: {
@@ -225,7 +220,7 @@ export const raghavendraStotram: Mantra = {
       titleEn: 'Phala-śruti',
       verses: [
         {
-          n: 24,
+          n: 23,
           text: 'राघवेन्द्रगुरुस्तोत्रं यः पठेद्भक्तिपूर्वकम् ।\nतस्य कुष्ठादिरोगाणां निवृत्तिस्त्वरया भवेत् ॥',
           meaning: {
             en: 'Whoever recites this hymn to Guru Rāghavendra with devotion is quickly freed from leprosy and other diseases.',
@@ -233,7 +228,7 @@ export const raghavendraStotram: Mantra = {
           },
         },
         {
-          n: 25,
+          n: 24,
           text: 'अन्धोऽपि दिव्यदृष्टिः स्यादेडमूकोऽपि वाक्पतिः ।\nपूर्णायुः पूर्णसम्पत्तिः स्तोत्रस्यास्य जपाद्भवेत् ॥',
           meaning: {
             en: 'By chanting this hymn even the blind may gain divine sight and the deaf-mute become a master of speech; one gains a full span of life and full prosperity.',
@@ -241,7 +236,7 @@ export const raghavendraStotram: Mantra = {
           },
         },
         {
-          n: 26,
+          n: 25,
           text: 'यः पिबेज्जलमेतेन स्तोत्रेणैवाभिमन्त्रितम् ।\nतस्य कुक्षिगता दोषाः सर्वे नश्यन्ति तत्क्षणात् ॥',
           meaning: {
             en: 'Whoever drinks water sanctified with this hymn finds all the ailments of the stomach destroyed at once.',
@@ -249,7 +244,7 @@ export const raghavendraStotram: Mantra = {
           },
         },
         {
-          n: 27,
+          n: 26,
           text:
             'यद्वृन्दावनमासाद्य पङ्गुः खञ्जोऽपि वा जनः ।\nस्तोत्रेणानेन यः कुर्यात्प्रदक्षिणनमस्कृती ।\nस जङ्घालो भवेदेव गुरुराजप्रसादतः ॥',
           meaning: {
@@ -258,7 +253,7 @@ export const raghavendraStotram: Mantra = {
           },
         },
         {
-          n: 28,
+          n: 27,
           text:
             'सोमसूर्योपरागे च पुष्यार्कादिसमागमे ।\nयोऽनुत्तममिदं स्तोत्रमष्टोत्तरशतं जपेत् ।\nभूतप्रेतपिशाचादिपीडा तस्य न जायते ॥',
           meaning: {
@@ -267,7 +262,7 @@ export const raghavendraStotram: Mantra = {
           },
         },
         {
-          n: 29,
+          n: 28,
           text: 'एतत्स्तोत्रं समुच्चार्य गुरोर्वृन्दावनान्तिके ।\nदीपसंयोजनाज्ज्ञानं पुत्रलाभो भवेद्ध्रुवम् ॥',
           meaning: {
             en: 'Reciting this hymn near the Guru\'s Vṛndāvana and lighting a lamp there, one surely gains knowledge and the blessing of a son.',
@@ -275,7 +270,7 @@ export const raghavendraStotram: Mantra = {
           },
         },
         {
-          n: 30,
+          n: 29,
           text: 'परवादिजयो दिव्यज्ञानभक्त्यादिवर्धनम् ।\nसर्वाभीष्टप्रवृद्धिः स्यान्नात्र कार्या विचारणा ॥',
           meaning: {
             en: 'Victory over opponents in debate, growth of divine knowledge, devotion and the like, and the increase of every cherished wish will follow; there is no need to doubt it.',
@@ -283,7 +278,7 @@ export const raghavendraStotram: Mantra = {
           },
         },
         {
-          n: 31,
+          n: 30,
           text: 'राजचोरमहाव्याघ्रसर्पनक्रादिपीडनम् ।\nन जायतेऽस्य स्तोत्रस्य प्रभावान्नात्र संशयः ॥',
           meaning: {
             en: 'By the power of this hymn no harm comes from kings, thieves, tigers, snakes, crocodiles and the like; of this there is no doubt.',
@@ -291,7 +286,7 @@ export const raghavendraStotram: Mantra = {
           },
         },
         {
-          n: 32,
+          n: 31,
           text:
             'यो भक्त्या गुरुराघवेन्द्रचरणद्वन्द्वं स्मरन् यः पठेत्\nस्तोत्रं दिव्यमिदं सदा न हि भवेत्तस्यासुखं किञ्चन ।\nकिं त्विष्टार्थसमृद्धिरेव कमलानाथप्रसादोदयात्\nकीर्तिर्दिग्विदिता विभूतिरतुला साक्षी हयास्योऽत्र हि ॥',
           meaning: {
@@ -300,7 +295,7 @@ export const raghavendraStotram: Mantra = {
           },
         },
         {
-          n: 33,
+          n: 32,
           text: 'इति श्रीराघवेन्द्रार्यगुरुराजप्रसादतः ।\nकृतं स्तोत्रमिदं पुण्यं श्रीमद्भिर्ह्यप्पणाभिधैः ॥',
           meaning: {
             en: 'Thus, by the grace of the noble Śrī Rāghavendra, king among gurus, this sacred hymn was composed by the revered one named Appaṇṇa (Appaṇṇācārya).',

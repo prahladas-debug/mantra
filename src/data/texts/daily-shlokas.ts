@@ -1,4 +1,6 @@
-// Not yet proofread against a printed edition.
+// Collated Nov 2026 prayer by prayer with stotranidhi.com, Bhaṭṭaḍa Prājña Saṅgraha and bāla-ślokāḥ (GitHub), stotrasamhita
+// and a Gita Press nitya-stuti file.
+// Still to be checked against a printed edition.
 import type { Mantra } from '../types';
 
 export const dailyShlokas: Mantra = {
@@ -137,7 +139,7 @@ export const dailyShlokas: Mantra = {
       note: 'Recite at dusk while lighting the lamp before the deity.',
       verses: [
         {
-          text: 'शुभं करोति कल्याणमारोग्यं धनसम्पदा ।\nशत्रुबुद्धिविनाशाय दीपज्योतिर्नमोऽस्तु ते ॥',
+          text: 'शुभं करोति कल्याणमारोग्यं धनसम्पदः ।\nशत्रुबुद्धिविनाशाय दीपज्योतिर्नमोऽस्तु ते ॥',
           meaning: {
             en: 'Salutations to the light of the lamp, which brings auspiciousness, well-being, health and wealth, and destroys hostile thoughts.',
             kn: 'ಶುಭವನ್ನೂ ಕಲ್ಯಾಣವನ್ನೂ ಆರೋಗ್ಯವನ್ನೂ ಧನಸಂಪತ್ತನ್ನೂ ಉಂಟುಮಾಡುವ, ದ್ವೇಷಬುದ್ಧಿಯನ್ನು ನಾಶಮಾಡುವ ದೀಪಜ್ಯೋತಿಯೇ, ನಿನಗೆ ನಮಸ್ಕಾರ.',

@@ -1,4 +1,5 @@
-// Not yet proofread against a printed edition.
+// Collated Nov 2026 with stotranidhi.com, sa.wikisource and raocollectionsstotra.
+// Still to be checked against a printed edition.
 import type { Mantra } from '../types';
 
 export const madhurashtakam: Mantra = {
@@ -53,10 +54,10 @@ export const madhurashtakam: Mantra = {
         },
         {
           n: 5,
-          text: 'करणं मधुरं तरणं मधुरं\nहरणं मधुरं रमणं मधुरम् ।\nवमितं मधुरं शमितं मधुरं\nमधुराधिपतेरखिलं मधुरम् ॥',
+          text: 'करणं मधुरं तरणं मधुरं\nहरणं मधुरं स्मरणं मधुरम् ।\nवमितं मधुरं शमितं मधुरं\nमधुराधिपतेरखिलं मधुरम् ॥',
           meaning: {
-            en: 'His deeds are sweet, His carrying of devotees across is sweet, His stealing is sweet, His play is sweet; even what He casts aside is sweet, His calming is sweet. Everything about the Lord of sweetness is sweet.',
-            kn: 'ಅವನ ಕಾರ್ಯ ಮಧುರ, ಭಕ್ತರನ್ನು ದಡ ಸೇರಿಸುವುದು ಮಧುರ, ಕದಿಯುವುದು ಮಧುರ, ಆಟ-ವಿನೋದ ಮಧುರ; ಅವನು ಬಿಟ್ಟದ್ದೂ ಮಧುರ, ಅವನು ಶಾಂತಗೊಳಿಸುವುದೂ ಮಧುರ. ಮಧುರಾಧಿಪತಿಯಾದ ಶ್ರೀಕೃಷ್ಣನ ಎಲ್ಲವೂ ಮಧುರ.',
+            en: 'His deeds are sweet, His carrying of devotees across is sweet, His stealing is sweet, remembering Him is sweet; even what He casts aside is sweet, His calming is sweet. Everything about the Lord of sweetness is sweet.',
+            kn: 'ಅವನ ಕಾರ್ಯ ಮಧುರ, ಭಕ್ತರನ್ನು ದಡ ಸೇರಿಸುವುದು ಮಧುರ, ಕದಿಯುವುದು ಮಧುರ, ಅವನ ಸ್ಮರಣೆ ಮಧುರ; ಅವನು ಬಿಟ್ಟದ್ದೂ ಮಧುರ, ಅವನು ಶಾಂತಗೊಳಿಸುವುದೂ ಮಧುರ. ಮಧುರಾಧಿಪತಿಯಾದ ಶ್ರೀಕೃಷ್ಣನ ಎಲ್ಲವೂ ಮಧುರ.',
           },
         },
         {

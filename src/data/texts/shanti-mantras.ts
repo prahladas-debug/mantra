@@ -1,3 +1,8 @@
+/**
+ * Śānti mantras. Collated (Nov 2026) against the Advaita Śāradā and e-Bhāratī
+ * Upaniṣad texts (sanskrit/raw_etexts) and the Taittirīya Āraṇyaka e-text.
+ * Not yet checked against a printed edition.
+ */
 import type { Mantra } from '../types';
 
 export const shantiMantras: Mantra = {
@@ -77,7 +82,7 @@ export const shantiMantras: Mantra = {
       titleEn: 'Vāṅ me Manasi (Aitareya Upaniṣad)',
       verses: [
         {
-          text: 'ॐ वाङ्मे मनसि प्रतिष्ठिता । मनो मे वाचि प्रतिष्ठितम् ।\nआविराविर्म एधि । वेदस्य म आणीस्थः ।\nश्रुतं मे मा प्रहासीः । अनेनाधीतेनाहोरात्रान्सन्दधामि ।\nऋतं वदिष्यामि । सत्यं वदिष्यामि ।\nतन्मामवतु । तद्वक्तारमवतु । अवतु मामवतु वक्तारमवतु वक्तारम् ॥\nॐ शान्तिः शान्तिः शान्तिः ॥',
+          text: 'ॐ वाङ्मे मनसि प्रतिष्ठिता । मनो मे वाचि प्रतिष्ठितम् ।\nआविरावीर्म एधि । वेदस्य म आणीस्थः ।\nश्रुतं मे मा प्रहासीः । अनेनाधीतेनाहोरात्रान्सन्दधामि ।\nऋतं वदिष्यामि । सत्यं वदिष्यामि ।\nतन्मामवतु । तद्वक्तारमवतु । अवतु मामवतु वक्तारमवतु वक्तारम् ॥\nॐ शान्तिः शान्तिः शान्तिः ॥',
           meaning: {
             en: 'May my speech be rooted in my mind, and my mind in my speech. O self-luminous One, reveal yourself to me. May both bring me the Veda; may what I have learned not leave me. I shall join day and night in study. I shall speak what is right and true. May That protect me and the teacher.',
             kn: 'ನನ್ನ ಮಾತು ಮನಸ್ಸಿನಲ್ಲಿ ನೆಲೆಗೊಳ್ಳಲಿ, ಮನಸ್ಸು ಮಾತಿನಲ್ಲಿ ನೆಲೆಗೊಳ್ಳಲಿ. ಸ್ವಯಂಪ್ರಕಾಶನೇ, ನನಗೆ ಪ್ರಕಟನಾಗು. ಮಾತು-ಮನಸ್ಸುಗಳು ನನಗೆ ವೇದವನ್ನು ತಂದುಕೊಡಲಿ; ನಾನು ಕಲಿತದ್ದು ನನ್ನನ್ನು ಬಿಟ್ಟುಹೋಗದಿರಲಿ. ಈ ಅಧ್ಯಯನದಲ್ಲೇ ಹಗಲು-ರಾತ್ರಿಗಳನ್ನು ಕಳೆಯುವೆನು. ಋತವನ್ನೂ ಸತ್ಯವನ್ನೂ ನುಡಿಯುವೆನು. ಅದು ನನ್ನನ್ನೂ ಆಚಾರ್ಯರನ್ನೂ ರಕ್ಷಿಸಲಿ.',

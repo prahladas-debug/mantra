@@ -1,4 +1,6 @@
-// Not yet proofread against a printed edition.
+// Collated Nov 2026 with a printed edition on sa.wikisource (Śaṅkara stotras, 1910), stotranidhi.com,
+// sa.wikisource and raocollectionsstotra.
+// Still to be checked against a printed edition.
 import type { Mantra } from '../types';
 
 export const achyutashtakam: Mantra = {
@@ -53,7 +55,7 @@ export const achyutashtakam: Mantra = {
         },
         {
           n: 5,
-          text: 'राक्षसक्षोभितः सीतया शोभितो\nदण्डकारण्यभूपुण्यताकारणः ।\nलक्ष्मणेनान्वितो वानरैः सेवितो-\nऽगस्त्यसम्पूजितो राघवः पातु माम् ॥',
+          text: 'राक्षसक्षोभितः सीतया शोभितो\nदण्डकारण्यभूपुण्यताकारणम् ।\nलक्ष्मणेनान्वितो वानरैः सेवितो-\nऽगस्त्यसम्पूजितो राघवः पातु माम् ॥',
           meaning: {
             en: 'May Rāghava protect me: He who was roused to battle by the rākṣasas, who shone with Sītā at His side, who made the land of the Daṇḍaka forest holy, who was accompanied by Lakṣmaṇa, served by the vānaras and worshipped by Agastya.',
             kn: 'ರಾಕ್ಷಸರಿಂದ ಕೆರಳಿಸಲ್ಪಟ್ಟು ಯುದ್ಧಕ್ಕೆ ನಿಂತ, ಸೀತಾದೇವಿಯೊಡನೆ ಶೋಭಿಸಿದ, ದಂಡಕಾರಣ್ಯದ ಭೂಮಿಯನ್ನು ಪುಣ್ಯಮಯಗೊಳಿಸಿದ, ಲಕ್ಷ್ಮಣನೊಡನೆ ಕೂಡಿದ, ವಾನರರಿಂದ ಸೇವಿತನಾದ, ಅಗಸ್ತ್ಯ ಮಹರ್ಷಿಗಳಿಂದ ಪೂಜಿತನಾದ ರಾಘವನು ನನ್ನನ್ನು ಕಾಪಾಡಲಿ.',
@@ -61,15 +63,15 @@ export const achyutashtakam: Mantra = {
         },
         {
           n: 6,
-          text: 'धेनुकारिष्टकानिष्टकृद्द्वेषिहा\nकेशिहा कंसहृद्वंशिकावादकः ।\nपूतनाकोपकः सूरजाखेलनो\nबालगोपालकः पातु मां सर्वदा ॥',
+          text: 'धेनुकारिष्टहानिष्टकृद्द्वेषिणां\nकेशिहा कंसहृद्वंशिकावादकः ।\nपूतनाकोपकः सूरजाखेलनो\nबालगोपालकः पातु मां सर्वदा ॥',
           meaning: {
-            en: 'May the child cowherd, Bāla Gopāla, protect me always: slayer of harmful, hostile demons such as Dhenuka and Ariṣṭa, slayer of Keśī and of Kaṃsa, player of the flute, who punished Pūtanā and played in the Yamunā, daughter of the Sun.',
-            kn: 'ಕೇಡು ಮಾಡಲು ಬಂದ ಧೇನುಕ, ಅರಿಷ್ಟ ಮೊದಲಾದ ದುಷ್ಟರನ್ನು ಸಂಹರಿಸಿದ, ಕೇಶಿಯನ್ನೂ ಕಂಸನನ್ನೂ ಕೊಂದ, ಕೊಳಲನ್ನು ನುಡಿಸುವ, ಪೂತನಿಯನ್ನು ದಂಡಿಸಿದ, ಸೂರ್ಯಪುತ್ರಿಯಾದ ಯಮುನೆಯಲ್ಲಿ ಆಟವಾಡಿದ ಬಾಲಗೋಪಾಲನು ಯಾವಾಗಲೂ ನನ್ನನ್ನು ಕಾಪಾಡಲಿ.',
+            en: 'May the child cowherd, Bāla Gopāla, protect me always: slayer of Dhenuka and Ariṣṭa, the bane of those who bear hatred, slayer of Keśī and of Kaṃsa, player of the flute, who punished Pūtanā and played in the Yamunā, daughter of the Sun.',
+            kn: 'ಧೇನುಕ, ಅರಿಷ್ಟರನ್ನು ಸಂಹರಿಸಿದ, ದ್ವೇಷಿಗಳಿಗೆ ಕೇಡನ್ನುಂಟುಮಾಡುವ, ಕೇಶಿಯನ್ನೂ ಕಂಸನನ್ನೂ ಕೊಂದ, ಕೊಳಲನ್ನು ನುಡಿಸುವ, ಪೂತನಿಯನ್ನು ದಂಡಿಸಿದ, ಸೂರ್ಯಪುತ್ರಿಯಾದ ಯಮುನೆಯಲ್ಲಿ ಆಟವಾಡಿದ ಬಾಲಗೋಪಾಲನು ಯಾವಾಗಲೂ ನನ್ನನ್ನು ಕಾಪಾಡಲಿ.',
           },
         },
         {
           n: 7,
-          text: 'विद्युदुद्द्योतवत्प्रस्फुरद्वाससं\nप्रावृडम्भोदवत्प्रोल्लसद्विग्रहम् ।\nवन्यया मालया शोभितोरःस्थलं\nलोहिताङ्घ्रिद्वयं वारिजाक्षं भजे ॥',
+          text: 'विद्युदुद्योतवत्प्रस्फुरद्वाससं\nप्रावृडम्भोदवत्प्रोल्लसद्विग्रहम् ।\nवन्यया मालया शोभितोरःस्थलं\nलोहिताङ्घ्रिद्वयं वारिजाक्षं भजे ॥',
           meaning: {
             en: 'I worship the lotus-eyed Lord, whose garment gleams like flashes of lightning, whose form shines like a monsoon rain-cloud, whose chest is adorned with a garland of forest flowers, and whose two feet are rosy red.',
             kn: 'ಮಿಂಚಿನಂತೆ ಮಿನುಗುವ ವಸ್ತ್ರವುಳ್ಳ, ಮಳೆಗಾಲದ ಮೋಡದಂತೆ ಕಂಗೊಳಿಸುವ ದೇಹವುಳ್ಳ, ವನಮಾಲೆಯಿಂದ ಶೋಭಿಸುವ ಎದೆಯುಳ್ಳ, ಕೆಂಪಾದ ಪಾದಗಳುಳ್ಳ ಕಮಲನಯನನನ್ನು ನಾನು ಭಜಿಸುತ್ತೇನೆ.',
@@ -91,10 +93,10 @@ export const achyutashtakam: Mantra = {
       verses: [
         {
           n: 9,
-          text: 'अच्युतस्याष्टकं यः पठेदिष्टदं\nप्रेमतः प्रत्यहं पूरुषः सस्पृहम् ।\nवृत्ततः सुन्दरं कर्तृविश्वम्भर-\nस्तस्य वश्यो हरिर्जायते सत्वरम् ॥',
+          text: 'अच्युतस्याष्टकं यः पठेदिष्टदं\nप्रेमतः प्रत्यहं पूरुषः सस्पृहम् ।\nवृत्ततः सुन्दरं वेद्यविश्वम्भरं\nतस्य वश्यो हरिर्जायते सत्वरम् ॥',
           meaning: {
-            en: 'Whoever recites this Acyutāṣṭakam, which grants what one desires and is lovely in its metre, every day with love and longing, Hari, the maker and sustainer of the universe, quickly comes under that person’s loving sway.',
-            kn: 'ಇಷ್ಟಾರ್ಥಗಳನ್ನು ಕೊಡುವ, ಛಂದಸ್ಸಿನಿಂದ ಸುಂದರವಾದ ಈ ಅಚ್ಯುತಾಷ್ಟಕವನ್ನು ಪ್ರತಿದಿನ ಪ್ರೀತಿಯಿಂದ, ಹಂಬಲದಿಂದ ಪಠಿಸುವವನಿಗೆ ಜಗತ್ತನ್ನು ಸೃಷ್ಟಿಸಿ ಪೋಷಿಸುವ ಶ್ರೀಹರಿಯು ಬೇಗನೆ ವಶನಾಗುತ್ತಾನೆ.',
+            en: 'Whoever recites every day, with love and longing, this Acyutāṣṭakam, which grants what one desires, is lovely in its metre and makes known the Sustainer of the universe, Hari quickly comes under that person’s loving sway.',
+            kn: 'ಇಷ್ಟಾರ್ಥಗಳನ್ನು ಕೊಡುವ, ಛಂದಸ್ಸಿನಿಂದ ಸುಂದರವಾದ, ಜಗತ್ತನ್ನು ಪೋಷಿಸುವ ವಿಶ್ವಂಭರನನ್ನು ಅರಿಯುವಂತೆ ಮಾಡುವ ಈ ಅಚ್ಯುತಾಷ್ಟಕವನ್ನು ಪ್ರತಿದಿನ ಪ್ರೀತಿಯಿಂದ, ಹಂಬಲದಿಂದ ಪಠಿಸುವವನಿಗೆ ಶ್ರೀಹರಿಯು ಬೇಗನೆ ವಶನಾಗುತ್ತಾನೆ.',
           },
         },
       ],

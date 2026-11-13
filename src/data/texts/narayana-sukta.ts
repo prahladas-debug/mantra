@@ -1,3 +1,9 @@
+/**
+ * Nārāyaṇa Sūktam. Collated (Nov 2026) against stotranidhi.com (its Nārāyaṇa
+ * Sūktam and Mantra Puṣpam pages), hindupad.com (Kannada) and the
+ * Mahānārāyaṇa Upaniṣad text in the vishvAsa repository. Not yet checked
+ * against a printed edition.
+ */
 import type { Mantra } from '../types';
 
 const SHANTI =
@@ -89,7 +95,7 @@ export const narayanaSukta: Mantra = {
         },
         {
           n: 8,
-          text: 'सन्ततं शिराभिस्तु लम्बत्याकोशसन्निभम् ।\nतस्यान्ते सुषिरं सूक्ष्मं तस्मिन्सर्वं प्रतिष्ठितम् ॥',
+          text: 'सन्ततं सिराभिस्तु लम्बत्याकोशसन्निभम् ।\nतस्यान्ते सुषिरं सूक्ष्मं तस्मिन्सर्वं प्रतिष्ठितम् ॥',
           meaning: {
             en: 'Surrounded by channels on every side, it hangs like a lotus bud. At its tip is a subtle space, and in that everything is established.',
             kn: 'ನಾಡಿಗಳಿಂದ ಸುತ್ತುವರಿದ ಅದು ಕಮಲದ ಮೊಗ್ಗಿನಂತೆ ಇಳಿಬಿದ್ದಿದೆ. ಅದರ ತುದಿಯಲ್ಲಿ ಸೂಕ್ಷ್ಮವಾದ ಒಂದು ಆಕಾಶವಿದೆ; ಅದರಲ್ಲಿ ಎಲ್ಲವೂ ಪ್ರತಿಷ್ಠಿತವಾಗಿದೆ.',

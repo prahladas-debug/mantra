@@ -1,4 +1,5 @@
-// Not yet proofread against a printed edition (TTD edition recommended).
+// Collated Nov 2026 with stotranidhi.com, sa.wikisource, shlokam.org and raocollectionsstotra (no changes needed).
+// Still to be checked against a printed edition (TTD edition recommended).
 import type { Mantra } from '../types';
 
 export const venkateshaStotram: Mantra = {

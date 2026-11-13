@@ -1,4 +1,5 @@
-// Not yet proofread against a printed edition.
+// Collated Nov 2026 with stotranidhi.com, sa.wikisource and raocollectionsstotra.
+// Still to be checked against a printed edition.
 import type { Mantra } from '../types';
 
 export const lingashtakam: Mantra = {
@@ -37,7 +38,7 @@ export const lingashtakam: Mantra = {
         },
         {
           n: 3,
-          text: 'सर्वसुगन्धिसुलेपितलिङ्गं\nबुद्धिविवर्धनकारणलिङ्गम् ।\nसिद्धसुरासुरवन्दितलिङ्गं\nतत्प्रणमामि सदाशिवलिङ्गम् ॥',
+          text: 'सर्वसुगन्धसुलेपितलिङ्गं\nबुद्धिविवर्धनकारणलिङ्गम् ।\nसिद्धसुरासुरवन्दितलिङ्गं\nतत्प्रणमामि सदाशिवलिङ्गम् ॥',
           meaning: {
             en: 'I bow to that eternal Śiva-liṅga, anointed with every fragrance, the cause of the growth of understanding, revered by siddhas, gods and asuras alike.',
             kn: 'ಎಲ್ಲ ಬಗೆಯ ಸುಗಂಧ ದ್ರವ್ಯಗಳಿಂದ ಲೇಪಿತವಾದ, ಬುದ್ಧಿಯ ವಿಕಾಸಕ್ಕೆ ಕಾರಣವಾದ, ಸಿದ್ಧರು, ದೇವತೆಗಳು ಮತ್ತು ಅಸುರರಿಂದ ವಂದಿತವಾದ ಆ ಸದಾಶಿವಲಿಂಗಕ್ಕೆ ನಾನು ನಮಸ್ಕರಿಸುತ್ತೇನೆ.',
@@ -69,7 +70,7 @@ export const lingashtakam: Mantra = {
         },
         {
           n: 7,
-          text: 'अष्टदलोपरिवेष्टितलिङ्गं\nसर्वसमुद्भवकारणलिङ्गम् ।\nअष्टदरिद्रविनाशितलिङ्गं\nतत्प्रणमामि सदाशिवलिङ्गम् ॥',
+          text: 'अष्टदलोपरिवेष्टितलिङ्गं\nसर्वसमुद्भवकारणलिङ्गम् ।\nअष्टदरिद्रविनाशनलिङ्गं\nतत्प्रणमामि सदाशिवलिङ्गम् ॥',
           meaning: {
             en: 'I bow to that eternal Śiva-liṅga, set within an eight-petalled lotus, the cause from which all things arise, which destroys the eight kinds of poverty.',
             kn: 'ಎಂಟು ದಳಗಳ ಕಮಲದಿಂದ ಸುತ್ತುವರಿದ, ಎಲ್ಲ ಸೃಷ್ಟಿಗೂ ಕಾರಣವಾದ, ಎಂಟು ಬಗೆಯ ದಾರಿದ್ರ್ಯಗಳನ್ನು ನಾಶಮಾಡುವ ಆ ಸದಾಶಿವಲಿಂಗಕ್ಕೆ ನಾನು ನಮಸ್ಕರಿಸುತ್ತೇನೆ.',

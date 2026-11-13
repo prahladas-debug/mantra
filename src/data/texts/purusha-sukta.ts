@@ -1,3 +1,8 @@
+/**
+ * Puruṣa Sūktam (Taittirīya recension). Collated (Nov 2026) against
+ * stotranidhi.com (Devanagari) and hindupad.com (Kannada). Not yet checked
+ * against a printed edition.
+ */
 import type { Mantra } from '../types';
 
 const SHANTI =
@@ -81,7 +86,7 @@ export const purushaSukta: Mantra = {
         },
         {
           n: 7,
-          text: 'सप्तास्यासन्परिधयः । त्रिस्सप्त समिधः कृताः ।\nदेवा यद्यज्ञं तन्वानाः । अबध्नन्पुरुषं पशुम् ॥',
+          text: 'सप्तास्यासन्परिधयः । त्रिः सप्त समिधः कृताः ।\nदेवा यद्यज्ञं तन्वानाः । अबध्नन्पुरुषं पशुम् ॥',
           meaning: {
             en: 'That sacrifice had seven enclosing sticks and thrice seven fuel-sticks, when the gods, unfolding it, bound the Puruṣa as its offering.',
             kn: 'ಆ ಯಜ್ಞಕ್ಕೆ ಏಳು ಪರಿಧಿಗಳೂ ಇಪ್ಪತ್ತೊಂದು ಸಮಿಧೆಗಳೂ ಇದ್ದವು. ಯಜ್ಞವನ್ನು ವಿಸ್ತರಿಸುತ್ತಿದ್ದ ದೇವತೆಗಳು ಪುರುಷನನ್ನೇ ಯಜ್ಞಪಶುವಾಗಿ ಭಾವಿಸಿ ಧ್ಯಾನಿಸಿದರು.',

@@ -1,4 +1,5 @@
-// Not yet proofread against a printed edition.
+// Collated Nov 2026 with stotranidhi.com, sa.wikisource and raocollectionsstotra (no changes needed).
+// Still to be checked against a printed edition.
 import type { Mantra } from '../types';
 
 export const mahalakshmiAshtakam: Mantra = {

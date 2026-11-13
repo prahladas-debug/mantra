@@ -1,3 +1,9 @@
+/**
+ * Mantra Puṣpam. Collated (Nov 2026) against stotranidhi.com (Devanagari) and
+ * hindupad.com (Kannada); the Mahānārāyaṇa passages also against the
+ * sanskritdocuments-derived text in the vishvAsa repository, and तद्विष्णोः
+ * against Ṛgveda 1.22.20–21. Not yet checked against a printed edition.
+ */
 import type { Mantra } from '../types';
 
 export const mantraPushpam: Mantra = {
@@ -12,9 +18,9 @@ export const mantraPushpam: Mantra = {
   summaryKn:
     'ಪೂಜೆಯ ಕೊನೆಯಲ್ಲಿ ಪುಷ್ಪಾರ್ಪಣೆ ಮಾಡುವಾಗ ಪಠಿಸುವ “ಮಂತ್ರಗಳ ಹೂವು”. ನೀರೇ ಎಲ್ಲಕ್ಕೂ ಆಧಾರ, ನೀರಿನ ಆಶ್ರಯವನ್ನು ಅರಿತವನು ದೃಢವಾದ ನೆಲೆಯನ್ನು ಪಡೆಯುತ್ತಾನೆ ಎಂದು ಇದು ಬೋಧಿಸುತ್ತದೆ. ಬಳಿಕ ರಾಜಾಧಿರಾಜನಾದ ಕುಬೇರನ ಪ್ರಾರ್ಥನೆ, ಬ್ರಹ್ಮ ಮತ್ತು ನಾರಾಯಣನ ಸ್ತುತಿಗಳು ಬರುತ್ತವೆ.',
   difficulty: 'medium',
-  completeness: 'partial',
+  completeness: 'complete',
   contentNote:
-    'Includes the Taittirīya Āraṇyaka passage योऽपां पुष्पं वेद…, the Kubera mantra राजाधिराजाय…, ॐ तद्ब्रह्म… with अन्तश्चरति भूतेषु…, and the Nārāyaṇa Gāyatrī. Passages that many traditions chant in between (ॐ स्वस्ति साम्राज्यं भौज्यं… from the Aitareya Brāhmaṇa, विश्वतश्चक्षुरुत विश्वतोमुखः…, ईशानः सर्वविद्यानाम्… and other Gāyatrīs) are omitted until they can be proofread against an authoritative edition.',
+    'Follows the sequence common in South India: योऽपां पुष्पं वेद…, the Kubera mantra, ॐ तद्ब्रह्म… and अन्तश्चरति भूतेषु…, ईशानः सर्वविद्यानाम्…, तद्विष्णोः परमं पदम्…, ऋतं सत्यं परं ब्रह्म… and the Nārāyaṇa Gāyatrī. Some traditions also open with धाता पुरस्तात्… and the Nārāyaṇa Sūktam, or add further Gāyatrīs; the Maharashtrian mantrapuṣpāñjali (ॐ स्वस्ति साम्राज्यं…) is a different text and is not included.',
   sections: [
     {
       title: 'योऽपां पुष्पं वेद',
@@ -114,6 +120,42 @@ export const mantraPushpam: Mantra = {
           meaning: {
             en: 'You move within all beings, in the secret cave of the heart and in every form of the universe. You are the sacrifice and the sacred call Vaṣaṭ; You are Indra, Rudra, Viṣṇu, Brahmā and Prajāpati. You are the waters, the light, the essence, the nectar and Brahman; You are the worlds Bhūḥ, Bhuvaḥ and Suvaḥ, and You are Om.',
             kn: 'ಎಲ್ಲ ಜೀವಿಗಳ ಹೃದಯಗುಹೆಯಲ್ಲಿ, ವಿಶ್ವದ ಸಕಲ ರೂಪಗಳಲ್ಲಿ ನೀನು ಅಂತರ್ಯಾಮಿಯಾಗಿ ಸಂಚರಿಸುತ್ತೀಯೆ. ನೀನೇ ಯಜ್ಞ, ನೀನೇ ವಷಟ್ಕಾರ; ನೀನೇ ಇಂದ್ರ, ನೀನೇ ರುದ್ರ, ನೀನೇ ವಿಷ್ಣು, ನೀನೇ ಬ್ರಹ್ಮ, ನೀನೇ ಪ್ರಜಾಪತಿ. ನೀನೇ ಜಲ, ಜ್ಯೋತಿ, ರಸ, ಅಮೃತ ಮತ್ತು ಬ್ರಹ್ಮ; ಭೂಃ ಭುವಃ ಸುವಃ ಎಂಬ ಲೋಕಗಳೂ ಓಂಕಾರವೂ ನೀನೇ.',
+          },
+        },
+      ],
+    },
+    {
+      titleEn: 'Īśānaḥ (Mahānārāyaṇa Upaniṣad)',
+      verses: [
+        {
+          text: 'ईशानः सर्वविद्यानामीश्वरः सर्वभूतानां\nब्रह्माधिपतिर्ब्रह्मणोऽधिपतिर्ब्रह्मा शिवो मे अस्तु सदाशिवोम् ॥',
+          meaning: {
+            en: 'He is the ruler of all knowledge and the lord of all beings, the master of the Veda and the overlord of Brahmā. May that Brahman be gracious to me, ever auspicious. Om.',
+            kn: 'ಸಕಲ ವಿದ್ಯೆಗಳ ಒಡೆಯನೂ, ಸಮಸ್ತ ಜೀವಿಗಳ ಈಶ್ವರನೂ, ವೇದಗಳ ಅಧಿಪತಿಯೂ, ಬ್ರಹ್ಮದೇವರಿಗೂ ಅಧಿಪತಿಯೂ ಆದ ಆ ಪರಬ್ರಹ್ಮನು ನನಗೆ ಮಂಗಳಕರನಾಗಲಿ; ಸದಾ ಮಂಗಳಕರನಾಗಿರಲಿ. ಓಂ.',
+          },
+        },
+      ],
+    },
+    {
+      titleEn: 'Tad Viṣṇoḥ Paramaṃ Padam (Ṛgveda 1.22.20–21)',
+      verses: [
+        {
+          text: 'तद्विष्णोः परमं पदं सदा पश्यन्ति सूरयः ।\nदिवीव चक्षुराततम् ।\nतद्विप्रासो विपन्यवो जागृवांसस्समिन्धते ।\nविष्णोर्यत्परमं पदम् ॥',
+          meaning: {
+            en: 'The wise ever behold that supreme abode of Viṣṇu, spread out like an eye in the sky. Wakeful sages, singing His praise, make that supreme abode of Viṣṇu shine forth.',
+            kn: 'ಆಕಾಶದಲ್ಲಿ ಹರಡಿದ ಕಣ್ಣಿನಂತೆ ಬೆಳಗುವ ಶ್ರೀವಿಷ್ಣುವಿನ ಆ ಪರಮಪದವನ್ನು ಜ್ಞಾನಿಗಳು ಸದಾ ಕಾಣುತ್ತಾರೆ. ಎಚ್ಚರದಿಂದಿರುವ, ಸ್ತುತಿಸುವ ಜ್ಞಾನಿಗಳು ವಿಷ್ಣುವಿನ ಆ ಪರಮಪದವನ್ನು ಬೆಳಗಿಸುತ್ತಾರೆ.',
+          },
+        },
+      ],
+    },
+    {
+      titleEn: 'Ṛtaṃ Satyam (Mahānārāyaṇa Upaniṣad)',
+      verses: [
+        {
+          text: 'ऋतं सत्यं परं ब्रह्म पुरुषं कृष्णपिङ्गलम् ।\nऊर्ध्वरेतं विरूपाक्षं विश्वरूपाय वै नमो नमः ॥',
+          meaning: {
+            en: 'Salutations again and again to Him whose form is the universe: who is cosmic order and truth, the supreme Brahman, the Person of dark and golden hue, perfectly self-restrained, with wondrous eyes.',
+            kn: 'ಋತವೂ ಸತ್ಯವೂ ಆದವನು, ಪರಬ್ರಹ್ಮನು, ಕಪ್ಪು ಮತ್ತು ಹೊಂಬಣ್ಣದ ಕಾಂತಿಯುಳ್ಳ ಪುರುಷನು, ಪರಿಪೂರ್ಣ ಸಂಯಮಿಯು, ಅಸಾಧಾರಣ ಕಣ್ಣುಗಳುಳ್ಳವನು ಆದ ಆ ವಿಶ್ವರೂಪನಿಗೆ ಮತ್ತೆ ಮತ್ತೆ ನಮಸ್ಕಾರ.',
           },
         },
       ],

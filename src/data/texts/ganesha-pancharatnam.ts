@@ -1,4 +1,6 @@
-// Not yet proofread against a printed edition.
+// Collated Nov 2026 with two printed editions on sa.wikisource (Śaṅkara stotras, 1910; Bṛhatstotraratnākara, 1953),
+// stotranidhi.com, sa.wikisource and raocollectionsstotra (no changes needed).
+// Still to be checked against a printed edition.
 import type { Mantra } from '../types';
 
 export const ganeshaPancharatnam: Mantra = {

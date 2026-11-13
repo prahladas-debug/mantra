@@ -1,4 +1,6 @@
-// Not yet proofread against a printed edition.
+// Collated Nov 2026 with stotranidhi.com, stotrasamhita (GitHub), the Brahmāṇḍa Purāṇa text 2.36 (vishvAsa, GitHub),
+// kamakoti.org (Brahmāṇḍa Purāṇa transliteration), drikpanchang and wisdomlib (nāmāvalī).
+// Still to be checked against a printed edition.
 import type { Mantra } from '../types';
 
 export const krishnaAshtottaraShatanama: Mantra = {
@@ -7,15 +9,15 @@ export const krishnaAshtottaraShatanama: Mantra = {
   titleEn: 'Sri Krishna Ashtottara Shatanama Stotram',
   category: 'sahasranama',
   deity: 'Śrī Kṛṣṇa',
-  source: 'Nārada Pañcarātra (Jñānāmṛtasāra), as told by Śeṣa',
+  source: 'Brahmāṇḍa Purāṇa (Upodghāta-pāda, ch. 36), taught by Śeṣa to the Earth; also transmitted as from the Nārada Pañcarātra (Jñānāmṛtasāra)',
   summary:
     'One hundred and eight names of Lord Kṛṣṇa set in verse, recalling His childhood in Vraja, His deeds at Mathurā and Dvārakā, and His role as Pārthasārathi and teacher of the Gītā.',
   summaryKn:
     'ಶ್ರೀಕೃಷ್ಣನ ನೂರೆಂಟು ನಾಮಗಳನ್ನು ಶ್ಲೋಕರೂಪದಲ್ಲಿ ಹೆಣೆದ ಸ್ತೋತ್ರ. ವ್ರಜದಲ್ಲಿನ ಅವನ ಬಾಲಲೀಲೆಗಳು, ಮಥುರೆ ಮತ್ತು ದ್ವಾರಕೆಯಲ್ಲಿನ ಸಾಹಸಗಳು, ಪಾರ್ಥಸಾರಥಿಯಾಗಿ ಗೀತೆಯನ್ನು ಬೋಧಿಸಿದ ಮಹಿಮೆ, ಇವೆಲ್ಲವನ್ನೂ ಈ ನಾಮಗಳು ನೆನಪಿಸುತ್ತವೆ.',
   difficulty: 'medium',
-  completeness: 'partial',
+  completeness: 'complete',
   contentNote:
-    'The phala-śruti (verses on the benefits of recitation) that follows the 108 names is not yet included; it will be added after proofreading against an authoritative edition. The Nāmāvalī (ॐ … नमः) form is also still to be added.',
+    'Pūrva-bhāga and phala-śruti follow the Brahmāṇḍa Purāṇa text. Some editions (attributed to the Nārada Pañcarātra) give a shorter phala-śruti of five verses; one edition adds a dhyāna verse (शिखिमुकुटविशेषं…), not included here. The Nāmāvalī (ॐ … नमः) form is still to be added.',
   sections: [
     {
       title: 'विनियोगः',
@@ -27,6 +29,53 @@ export const krishnaAshtottaraShatanama: Mantra = {
           meaning: {
             en: 'For this hymn of the hundred and eight names of Śrī Kṛṣṇa, the seer is Śrī Śeṣa, the metre is Anuṣṭubh and the deity is Śrī Kṛṣṇa. It is recited to please Śrī Kṛṣṇa.',
             kn: 'ಈ ಶ್ರೀಕೃಷ್ಣ ಅಷ್ಟೋತ್ತರಶತನಾಮ ಸ್ತೋತ್ರಕ್ಕೆ ಶ್ರೀಶೇಷನು ಋಷಿ, ಅನುಷ್ಟುಪ್ ಛಂದಸ್ಸು, ಶ್ರೀಕೃಷ್ಣನು ದೇವತೆ. ಶ್ರೀಕೃಷ್ಣನ ಪ್ರೀತಿಗಾಗಿ ಇದರ ಜಪವನ್ನು ಮಾಡಲಾಗುತ್ತದೆ.',
+          },
+        },
+      ],
+    },
+    {
+      title: 'पूर्वभागः',
+      titleEn: 'Pūrva-bhāga',
+      note: 'Śeṣa introduces the hundred and eight names to the Goddess Earth (Vasundharā).',
+      verses: [
+        {
+          n: 1,
+          text: 'श्रीशेष उवाच\nवसुन्धरे वरारोहे जनानामस्ति मुक्तिदम् ।\nसर्वमङ्गलमूर्धन्यमणिमाद्यष्टसिद्धिदम् ॥',
+          meaning: {
+            en: 'Śrī Śeṣa said: O fair Vasundharā, there is a hymn that grants people liberation, the crown of all auspicious things, which bestows the eight siddhis beginning with aṇimā.',
+            kn: 'ಶ್ರೀಶೇಷನು ಹೇಳಿದನು: ಸುಂದರಿಯಾದ ವಸುಂಧರೆಯೇ, ಜನರಿಗೆ ಮುಕ್ತಿಯನ್ನು ಕೊಡುವ, ಎಲ್ಲ ಮಂಗಳಗಳಲ್ಲಿಯೂ ಶ್ರೇಷ್ಠವಾದ, ಅಣಿಮಾದಿ ಅಷ್ಟಸಿದ್ಧಿಗಳನ್ನು ಕರುಣಿಸುವ ಒಂದು ಸ್ತೋತ್ರವಿದೆ.',
+          },
+        },
+        {
+          n: 2,
+          text: 'महापातककोटिघ्नं सर्वतीर्थफलप्रदम् ।\nसमस्तजपयज्ञानां फलदं पापनाशनम् ॥',
+          meaning: {
+            en: 'It destroys millions of grave sins, gives the fruit of every pilgrimage and of all japa and sacrifice, and wipes away sin.',
+            kn: 'ಅದು ಕೋಟಿ ಮಹಾಪಾತಕಗಳನ್ನು ನಾಶಮಾಡುತ್ತದೆ, ಎಲ್ಲ ತೀರ್ಥಯಾತ್ರೆಗಳ ಫಲವನ್ನೂ ಎಲ್ಲ ಜಪ-ಯಜ್ಞಗಳ ಫಲವನ್ನೂ ಕೊಡುತ್ತದೆ, ಪಾಪಗಳನ್ನು ತೊಳೆಯುತ್ತದೆ.',
+          },
+        },
+        {
+          n: 3,
+          text: 'शृणु देवि प्रवक्ष्यामि नाम्नामष्टोत्तरं शतम् ।\nसहस्रनाम्नां पुण्यानां त्रिरावृत्त्या तु यत्फलम् ॥',
+          meaning: {
+            en: 'Listen, O Goddess: I shall tell you the hundred and eight names. The merit won by reciting the holy thousand names three times…',
+            kn: 'ದೇವಿಯೇ, ಕೇಳು; ನೂರೆಂಟು ನಾಮಗಳನ್ನು ಹೇಳುತ್ತೇನೆ. ಪುಣ್ಯಕರವಾದ ಸಹಸ್ರನಾಮಗಳನ್ನು ಮೂರು ಬಾರಿ ಪಠಿಸಿದರೆ ದೊರೆಯುವ ಫಲವನ್ನು…',
+          },
+        },
+        {
+          n: 4,
+          text: 'एकावृत्त्या तु कृष्णस्य नामैकं तत्प्रयच्छति ।\nतस्मात्पुण्यतरं चैतत्स्तोत्रं पातकनाशनम् ॥',
+          meaning: {
+            en: '…a single name of Kṛṣṇa, said once, bestows. Therefore this hymn is holier still, and destroys sin.',
+            kn: '…ಶ್ರೀಕೃಷ್ಣನ ಒಂದು ನಾಮವನ್ನು ಒಮ್ಮೆ ಹೇಳಿದರೇ ಕೊಡುತ್ತದೆ. ಆದ್ದರಿಂದ ಈ ಸ್ತೋತ್ರವು ಇನ್ನೂ ಹೆಚ್ಚು ಪುಣ್ಯಕರವಾದುದು, ಪಾಪನಾಶಕವಾದುದು.',
+          },
+        },
+        {
+          n: 5,
+          text: 'नाम्नामष्टोत्तरशतस्याहमेव ऋषिः प्रिये ।\nछन्दोऽनुष्टुब्देवता तु योगः कृष्णप्रियावहः ॥',
+          meaning: {
+            en: 'Of these hundred and eight names I myself am the seer, dear one; the metre is anuṣṭubh, Kṛṣṇa is the deity, and its use is to win the love of Kṛṣṇa.',
+            kn: 'ಪ್ರಿಯಳೇ, ಈ ನೂರೆಂಟು ನಾಮಗಳಿಗೆ ನಾನೇ ಋಷಿ; ಅನುಷ್ಟುಪ್ ಛಂದಸ್ಸು, ಶ್ರೀಕೃಷ್ಣನೇ ದೇವತೆ; ಶ್ರೀಕೃಷ್ಣನ ಪ್ರೀತಿಯನ್ನು ಪಡೆಯುವುದೇ ಇದರ ವಿನಿಯೋಗ.',
           },
         },
       ],
@@ -126,6 +175,10 @@ export const krishnaAshtottaraShatanama: Mantra = {
         {
           n: 12,
           text: 'स्यमन्तकमणेर्हर्ता नरनारायणात्मकः ।\nकुब्जाकृष्णाम्बरधरो मायी परमपूरुषः ॥',
+          meaning: {
+            en: 'Who took the Syamantaka jewel; one with Nara and Nārāyaṇa; who wore the garment that Kubjā caught hold of; the Lord of māyā; the Supreme Person. (The Brahmāṇḍa Purāṇa text reads kubjākṛṣṭāmbaradharaḥ, “whose garment was drawn by Kubjā”, recalling how Kubjā, made straight, tugged at the end of His upper cloth, Bhāgavata 10.42; the name is taken in that sense.)',
+            kn: 'ಸ್ಯಮಂತಕಮಣಿಯನ್ನು ತಂದವನು; ನರ-ನಾರಾಯಣರ ಸ್ವರೂಪನು; ಕುಬ್ಜೆಯು ಹಿಡಿದೆಳೆದ ವಸ್ತ್ರವನ್ನು ಧರಿಸಿದವನು; ಮಾಯೆಯ ಒಡೆಯನು; ಪರಮಪುರುಷನು. (ಬ್ರಹ್ಮಾಂಡಪುರಾಣದ ಪಾಠ ‘ಕುಬ್ಜಾಕೃಷ್ಟಾಂಬರಧರಃ’ — ಕುಬ್ಜೆಯಿಂದ ಎಳೆಯಲ್ಪಟ್ಟ ವಸ್ತ್ರವುಳ್ಳವನು. ನೇರವಾದ ಕುಬ್ಜೆಯು ಅವನ ಉತ್ತರೀಯದ ತುದಿಯನ್ನು ಹಿಡಿದೆಳೆದ ಭಾಗವತದ (೧೦.೪೨) ಪ್ರಸಂಗವನ್ನು ಇದು ನೆನಪಿಸುತ್ತದೆ; ಈ ನಾಮವನ್ನು ಅದೇ ಅರ್ಥದಲ್ಲಿ ತೆಗೆದುಕೊಳ್ಳಲಾಗಿದೆ.)',
+          },
         },
         {
           n: 13,
@@ -197,6 +250,84 @@ export const krishnaAshtottaraShatanama: Mantra = {
           meaning: {
             en: 'The essence of all holy places; present in the form of all the planets; higher than the highest. Thus are the hundred and eight names of Lord Kṛṣṇa.',
             kn: 'ಎಲ್ಲ ತೀರ್ಥಗಳ ಸ್ವರೂಪನು; ಎಲ್ಲ ಗ್ರಹಗಳ ರೂಪದಲ್ಲಿರುವವನು; ಪರಾತ್ಪರನು (ಶ್ರೇಷ್ಠರಿಗಿಂತಲೂ ಶ್ರೇಷ್ಠನು). ಹೀಗೆ ಶ್ರೀಕೃಷ್ಣದೇವನ ನೂರೆಂಟು ನಾಮಗಳು ಹೇಳಲ್ಪಟ್ಟವು.',
+          },
+        },
+      ],
+    },
+    {
+      title: 'फलश्रुतिः',
+      titleEn: 'Phala-śruti',
+      verses: [
+        {
+          n: 22,
+          text: 'कृष्णेन कृष्णभक्तेन श्रुत्वा गीतामृतं पुरा ।\nस्तोत्रं कृष्णप्रियकरं कृतं तस्मान्मया श्रुतम् ॥',
+          meaning: {
+            en: 'Long ago a devotee of Kṛṣṇa who himself bore the name Kṛṣṇa, having heard the nectar of the Gītā, composed this hymn so dear to Kṛṣṇa; from him I heard it.',
+            kn: 'ಹಿಂದೆ ಗೀತಾಮೃತವನ್ನು ಕೇಳಿದ, ‘ಕೃಷ್ಣ’ ಎಂಬ ಹೆಸರನ್ನೇ ಹೊಂದಿದ್ದ ಒಬ್ಬ ಕೃಷ್ಣಭಕ್ತನು ಶ್ರೀಕೃಷ್ಣನಿಗೆ ಪ್ರಿಯವಾದ ಈ ಸ್ತೋತ್ರವನ್ನು ರಚಿಸಿದನು; ಅವನಿಂದ ನಾನು ಇದನ್ನು ಕೇಳಿದೆನು.',
+          },
+        },
+        {
+          n: 23,
+          text: 'कृष्णप्रेमामृतं नाम परमानन्ददायकम् ।\nअत्युपद्रवदुःखघ्नं परमायुष्यवर्धनम् ॥',
+          meaning: {
+            en: 'It is called Kṛṣṇa-premāmṛta, “the nectar of love for Kṛṣṇa”. It gives supreme bliss, ends the sorrow of grave calamities and greatly lengthens life.',
+            kn: 'ಇದಕ್ಕೆ ‘ಕೃಷ್ಣಪ್ರೇಮಾಮೃತ’ ಎಂದು ಹೆಸರು. ಇದು ಪರಮಾನಂದವನ್ನು ಕೊಡುತ್ತದೆ, ಘೋರ ಉಪದ್ರವಗಳ ದುಃಖವನ್ನು ಹೋಗಲಾಡಿಸುತ್ತದೆ, ಆಯುಸ್ಸನ್ನು ಬಹಳವಾಗಿ ಹೆಚ್ಚಿಸುತ್ತದೆ.',
+          },
+        },
+        {
+          n: 24,
+          text: 'दानं व्रतं तपस्तीर्थं यत्कृतं त्विह जन्मनि ।\nपठतां शृण्वतां चैव कोटिकोटिगुणं भवेत् ॥',
+          meaning: {
+            en: 'Whatever charity, vows, austerity and pilgrimage one has made in this life, its merit is multiplied countless millions of times for those who recite or hear this hymn.',
+            kn: 'ಈ ಜನ್ಮದಲ್ಲಿ ಮಾಡಿದ ದಾನ, ವ್ರತ, ತಪಸ್ಸು, ತೀರ್ಥಯಾತ್ರೆಗಳ ಫಲವು ಈ ಸ್ತೋತ್ರವನ್ನು ಪಠಿಸುವವರಿಗೂ ಕೇಳುವವರಿಗೂ ಕೋಟಿಕೋಟಿ ಪಟ್ಟು ಹೆಚ್ಚುತ್ತದೆ.',
+          },
+        },
+        {
+          n: 25,
+          text: 'पुत्रप्रदमपुत्राणामगतीनां गतिप्रदम् ।\nधनावहं दरिद्राणां जयेच्छूनां जयावहम् ॥',
+          meaning: {
+            en: 'It grants children to the childless, refuge to the helpless, wealth to the poor and victory to those who seek it.',
+            kn: 'ಮಕ್ಕಳಿಲ್ಲದವರಿಗೆ ಮಕ್ಕಳನ್ನು, ಗತಿಯಿಲ್ಲದವರಿಗೆ ಆಸರೆಯನ್ನು, ಬಡವರಿಗೆ ಧನವನ್ನು, ಜಯವನ್ನು ಬಯಸುವವರಿಗೆ ಜಯವನ್ನು ಇದು ಕೊಡುತ್ತದೆ.',
+          },
+        },
+        {
+          n: 26,
+          text: 'शिशूनां गोकुलानां च पुष्टिदं पुण्यवर्धनम् ।\nबालरोगग्रहादीनां शमनं शान्तिकारकम् ॥',
+          meaning: {
+            en: 'It brings health and growth to children and to herds of cattle and increases merit; it quells the illnesses of childhood, harmful influences (graha) and the like, and brings peace.',
+            kn: 'ಮಕ್ಕಳಿಗೂ ಗೋವುಗಳ ಹಿಂಡಿಗೂ ಪುಷ್ಟಿಯನ್ನು ಕೊಡುತ್ತದೆ, ಪುಣ್ಯವನ್ನು ಹೆಚ್ಚಿಸುತ್ತದೆ; ಬಾಲರೋಗಗಳು, ಗ್ರಹಬಾಧೆ ಮೊದಲಾದವುಗಳನ್ನು ಶಮನಗೊಳಿಸಿ ಶಾಂತಿಯನ್ನು ಉಂಟುಮಾಡುತ್ತದೆ.',
+          },
+        },
+        {
+          n: 27,
+          text: 'अन्ते कृष्णस्मरणदं भवतापत्रयापहम् ।\nअसिद्धसाधकं भद्रे जपादिकरमात्मनाम् ॥',
+          meaning: {
+            en: 'At life’s end it grants the remembrance of Kṛṣṇa, and it takes away the threefold suffering of worldly life. O gentle one, it accomplishes what was left unaccomplished and makes fruitful the japa and other practices of seekers.',
+            kn: 'ಕೊನೆಗಾಲದಲ್ಲಿ ಶ್ರೀಕೃಷ್ಣನ ಸ್ಮರಣೆಯನ್ನು ಕೊಡುತ್ತದೆ, ಸಂಸಾರದ ತಾಪತ್ರಯಗಳನ್ನು ಹೋಗಲಾಡಿಸುತ್ತದೆ. ಮಂಗಳೆಯೇ, ಸಿದ್ಧಿಸದಿದ್ದುದನ್ನು ಸಿದ್ಧಿಸುವಂತೆ ಮಾಡುತ್ತದೆ; ಸಾಧಕರ ಜಪ ಮೊದಲಾದವುಗಳನ್ನು ಫಲಪ್ರದಗೊಳಿಸುತ್ತದೆ.',
+          },
+        },
+        {
+          n: 28,
+          text: 'कृष्णाय यादवेन्द्राय ज्ञानमुद्राय योगिने ।\nनाथाय रुक्मिणीशाय नमो वेदान्तवेदिने ॥',
+          meaning: {
+            en: 'Salutations to Kṛṣṇa, lord of the Yādavas, who shows the gesture of knowledge, the master of yoga, the Protector, the Lord of Rukmiṇī, the knower of Vedānta.',
+            kn: 'ಯಾದವರ ಒಡೆಯನೂ, ಜ್ಞಾನಮುದ್ರೆಯನ್ನು ಧರಿಸಿದವನೂ, ಯೋಗಿಯೂ, ಎಲ್ಲರ ನಾಥನೂ, ರುಕ್ಮಿಣೀಪತಿಯೂ, ವೇದಾಂತವನ್ನು ಬಲ್ಲವನೂ ಆದ ಶ್ರೀಕೃಷ್ಣನಿಗೆ ನಮಸ್ಕಾರ.',
+          },
+        },
+        {
+          n: 29,
+          text: 'इमं मन्त्रं महादेवि जपन्नेव दिवानिशम् ।\nसर्वग्रहानुग्रहभाक् सर्वप्रियतमो भवेत् ॥',
+          meaning: {
+            en: 'O great Goddess, whoever repeats this mantra day and night gains the favour of all the planets and becomes dearest to all.',
+            kn: 'ಮಹಾದೇವಿಯೇ, ಈ ಮಂತ್ರವನ್ನು ಹಗಲೂ ರಾತ್ರಿ ಜಪಿಸುವವನು ಎಲ್ಲ ಗ್ರಹಗಳ ಅನುಗ್ರಹಕ್ಕೆ ಪಾತ್ರನಾಗುತ್ತಾನೆ, ಎಲ್ಲರಿಗೂ ಅತ್ಯಂತ ಪ್ರಿಯನಾಗುತ್ತಾನೆ.',
+          },
+        },
+        {
+          n: 30,
+          text: 'पुत्रपौत्रैः परिवृतः सर्वसिद्धिसमृद्धिमान् ।\nनिषेव्य भोगानन्तेऽपि कृष्णसायुज्यमाप्नुयात् ॥',
+          meaning: {
+            en: 'Surrounded by children and grandchildren, rich in every success and prosperity, such a person enjoys the good things of life and at the end attains union with Kṛṣṇa.',
+            kn: 'ಮಕ್ಕಳು ಮೊಮ್ಮಕ್ಕಳಿಂದ ಕೂಡಿ, ಎಲ್ಲ ಸಿದ್ಧಿ ಸಮೃದ್ಧಿಗಳನ್ನು ಪಡೆದು, ಭೋಗಗಳನ್ನು ಅನುಭವಿಸಿ, ಕೊನೆಯಲ್ಲಿ ಶ್ರೀಕೃಷ್ಣಸಾಯುಜ್ಯವನ್ನು ಹೊಂದುತ್ತಾನೆ.',
           },
         },
       ],
