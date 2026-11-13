@@ -28,9 +28,9 @@ export default function About() {
       </Text>
       <Text style={h}>Accuracy</Text>
       <Text style={p}>
-        Great care has been taken, but please learn chanting (especially Vedic svaras) from a guru and
-        follow your family's sampradaya for Sandhya Vandane and puja procedures. Texts marked "Partial"
-        are still being completed. Corrections are very welcome.
+        {'Great care has been taken, but please learn chanting (especially Vedic svaras) from a guru ' +
+          "and follow your family's sampradaya for Sandhya Vandane and puja procedures. Texts marked " +
+          '“Partial” are still being completed. Corrections are very welcome.'}
       </Text>
       <Text style={{ color: theme.textMuted, fontSize: 13 }}>Version {Constants.expoConfig?.version ?? '1.0.0'}</Text>
     </ScrollView>

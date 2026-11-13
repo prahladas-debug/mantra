@@ -30,10 +30,12 @@ export default function Reader() {
   const mantra = getMantra(params.id);
   const { theme, settings, update, favorites, toggleFavorite, markRead } = useSettings();
   const [panelOpen, setPanelOpen] = useState(false);
-  const [highlight, setHighlight] = useState<string | null>(null);
   const listRef = useRef<FlatList<Row>>(null);
 
   const rows = useMemo(() => (mantra ? flatten(mantra) : []), [mantra]);
+  // Verse opened from search: highlighted briefly (initial state, cleared by a timer).
+  const targetKey = params.si !== undefined && params.vi !== undefined ? `v${params.si}-${params.vi}` : null;
+  const [highlight, setHighlight] = useState<string | null>(targetKey);
 
   useEffect(() => {
     if (mantra) markRead(mantra.id);
@@ -49,18 +51,15 @@ export default function Reader() {
 
   // Jump to a verse when opened from search.
   useEffect(() => {
-    if (params.si === undefined || params.vi === undefined) return;
-    const key = `v${params.si}-${params.vi}`;
-    const index = rows.findIndex((r) => r.key === key);
-    if (index < 0) return;
-    setHighlight(key);
-    const t1 = setTimeout(() => scrollTo(index), 250);
+    if (!targetKey) return;
+    const index = rows.findIndex((r) => r.key === targetKey);
+    const t1 = index >= 0 ? setTimeout(() => scrollTo(index), 250) : undefined;
     const t2 = setTimeout(() => setHighlight(null), 3000);
     return () => {
       clearTimeout(t1);
       clearTimeout(t2);
     };
-  }, [params.si, params.vi, rows]);
+  }, [targetKey, rows]);
 
   function scrollTo(index: number) {
     listRef.current?.scrollToIndex({ index, viewPosition: 0.1, animated: true });
