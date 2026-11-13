@@ -1,0 +1,74 @@
+# Builds an installable Android APK on GitHub's runners and publishes it as a
+# GitHub Release (download it on your phone from the repo's "Releases" page).
+#
+# The APK is signed with the default debug key: fine for installing directly on
+# phones, NOT for the Play Store (use `npx eas-cli build --platform android`).
+name: Android APK
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main, ccr-8b2a58ce-4895gt]
+    paths-ignore: ['**.md']
+
+permissions:
+  contents: write
+
+concurrency:
+  group: android-apk-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 17
+
+      - uses: gradle/actions/setup-gradle@v4
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Check content and code
+        run: |
+          npm test
+          npx tsc --noEmit
+
+      - name: Generate native Android project
+        run: npx expo prebuild --platform android --no-install
+
+      - name: Build release APK
+        working-directory: android
+        run: ./gradlew assembleRelease -PreactNativeArchitectures=arm64-v8a,armeabi-v7a
+
+      - name: Rename APK
+        run: |
+          VERSION=$(node -p "require('./app.json').expo.version")
+          cp android/app/build/outputs/apk/release/app-release.apk "mantra-sangraha-${VERSION}-build${{ github.run_number }}.apk"
+          ls -la *.apk
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: mantra-sangraha-apk
+          path: mantra-sangraha-*.apk
+
+      - name: Publish as a GitHub Release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create "apk-build-${{ github.run_number }}" mantra-sangraha-*.apk \
+            --target "${{ github.sha }}" \
+            --prerelease \
+            --title "Mantra Sangraha APK (build ${{ github.run_number }})" \
+            --notes "Android APK built from ${{ github.sha }}. Download the .apk on your phone, open it, and allow installing from this source if asked."
