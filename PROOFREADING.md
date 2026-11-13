@@ -118,3 +118,50 @@ reference.
 - **Uttaradi Math / Raghavendra Swamy Math / Pejawar Math:** Vayu Stuti,
   Raghavendra Stotram, Madhva sandhyāvandana.
 - **Ramakrishna Math / Vidyabharati:** Vedic suktas, Taittirīya recension.
+
+## Meanings (English + Kannada), stage 1 (Nov 2026)
+
+These texts now have English and Kannada meanings, plus a Kannada summary:
+
+- Daily shlokas, Shanti mantras, Gayatri, Mahamrityunjaya
+- Venkatesha Stotram and the six ashtakam / pancharatnam stotras
+- Purusha, Sri and Narayana Suktas, Mantra Pushpam, Krishna Ashtottara
+- Vayu Stuti, Raghavendra Stotram
+- Sandhya Vandane, Shodashopachara Puja
+
+That is 322 verses in 20 texts.
+
+The meanings are original renderings from the Sanskrit; no published
+translation was used. **A fluent Kannada reader from the tradition should
+review them before a store release,** especially these:
+
+**Left without a meaning (uncertain):**
+
+- Krishna Ashtottara v12: कुब्जाकृष्णाम्बरधरः, garment or unguent?
+
+**Lower confidence:**
+
+- **Vayu Stuti:**
+  - v8: very dense; बभ्रुवत् and भयमभिभोर्भूक्ष्यतः are not glossed.
+  - v12: the reading of the contrast.
+  - v24: "only He and you can describe that battle".
+  - v41: केशवानन्दतीर्थ read as Keśava and Ānandatīrtha.
+- **Nakha Stuti 2:** रसो योऽष्टमः is not glossed.
+- **Raghavendra Stotram:**
+  - v1: the कामारि… clause is not glossed.
+  - v12: स्वान्तभेदचिह्न.
+  - v15: अपस्मृति / क्षय.
+- **Vedic texts:**
+  - Purusha Sukta 13: a sentence on the varṇas was added.
+  - Uttara-Nārāyaṇa 1, 3 and 6.
+  - Narayana Sukta 12: plain sense, no Dvaita gloss.
+  - Sri Sukta 14: यष्टि and करिणी.
+  - The third आपो हि ष्ठा ṛk and the तत्त्वा यामि Varuṇa ṛk (Sandhya).
+- **Gayatri:** plain sense, Savitṛ; the Madhva reading (Nārāyaṇa within the
+  Sun) is not added.
+- **Madhurashtakam:**
+  - v4: पीतम्, drinking or the yellow garment.
+  - v5 and v7: वमितम्, शमितम्, शिष्टम्.
+- **Achyutashtakam:** v5.
+- **Ganesha Pancharatnam:** v1 and v4.
+- **Shiva Panchakshara:** v4.

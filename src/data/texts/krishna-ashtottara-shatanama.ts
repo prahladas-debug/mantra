@@ -10,6 +10,8 @@ export const krishnaAshtottaraShatanama: Mantra = {
   source: 'Nārada Pañcarātra (Jñānāmṛtasāra), as told by Śeṣa',
   summary:
     'One hundred and eight names of Lord Kṛṣṇa set in verse, recalling His childhood in Vraja, His deeds at Mathurā and Dvārakā, and His role as Pārthasārathi and teacher of the Gītā.',
+  summaryKn:
+    'ಶ್ರೀಕೃಷ್ಣನ ನೂರೆಂಟು ನಾಮಗಳನ್ನು ಶ್ಲೋಕರೂಪದಲ್ಲಿ ಹೆಣೆದ ಸ್ತೋತ್ರ. ವ್ರಜದಲ್ಲಿನ ಅವನ ಬಾಲಲೀಲೆಗಳು, ಮಥುರೆ ಮತ್ತು ದ್ವಾರಕೆಯಲ್ಲಿನ ಸಾಹಸಗಳು, ಪಾರ್ಥಸಾರಥಿಯಾಗಿ ಗೀತೆಯನ್ನು ಬೋಧಿಸಿದ ಮಹಿಮೆ, ಇವೆಲ್ಲವನ್ನೂ ಈ ನಾಮಗಳು ನೆನಪಿಸುತ್ತವೆ.',
   difficulty: 'medium',
   completeness: 'partial',
   contentNote:
@@ -22,6 +24,10 @@ export const krishnaAshtottaraShatanama: Mantra = {
       verses: [
         {
           text: 'अस्य श्रीकृष्णाष्टोत्तरशतनामस्तोत्रस्य श्रीशेष ऋषिः ।\nअनुष्टुप् छन्दः । श्रीकृष्णो देवता ।\nश्रीकृष्णप्रीत्यर्थे जपे विनियोगः ॥',
+          meaning: {
+            en: 'For this hymn of the hundred and eight names of Śrī Kṛṣṇa, the seer is Śrī Śeṣa, the metre is Anuṣṭubh and the deity is Śrī Kṛṣṇa. It is recited to please Śrī Kṛṣṇa.',
+            kn: 'ಈ ಶ್ರೀಕೃಷ್ಣ ಅಷ್ಟೋತ್ತರಶತನಾಮ ಸ್ತೋತ್ರಕ್ಕೆ ಶ್ರೀಶೇಷನು ಋಷಿ, ಅನುಷ್ಟುಪ್ ಛಂದಸ್ಸು, ಶ್ರೀಕೃಷ್ಣನು ದೇವತೆ. ಶ್ರೀಕೃಷ್ಣನ ಪ್ರೀತಿಗಾಗಿ ಇದರ ಜಪವನ್ನು ಮಾಡಲಾಗುತ್ತದೆ.',
+          },
         },
       ],
     },
@@ -32,46 +38,90 @@ export const krishnaAshtottaraShatanama: Mantra = {
         {
           n: 1,
           text: 'श्रीकृष्णः कमलानाथो वासुदेवः सनातनः ।\nवसुदेवात्मजः पुण्यो लीलामानुषविग्रहः ॥',
+          meaning: {
+            en: 'Śrī Kṛṣṇa; the Lord of Kamalā (Lakṣmī); Vāsudeva; the Eternal One; the son of Vasudeva; the Holy One; who took a human form for His divine play.',
+            kn: 'ಶ್ರೀಕೃಷ್ಣ; ಕಮಲೆಯಾದ ಲಕ್ಷ್ಮಿಯ ಪತಿ; ವಾಸುದೇವ; ಸನಾತನನು (ನಿತ್ಯನು); ವಸುದೇವನ ಮಗ; ಪುಣ್ಯಸ್ವರೂಪನು; ಲೀಲೆಗಾಗಿ ಮಾನವರೂಪವನ್ನು ಧರಿಸಿದವನು.',
+          },
         },
         {
           n: 2,
           text: 'श्रीवत्सकौस्तुभधरो यशोदावत्सलो हरिः ।\nचतुर्भुजात्तचक्रासिगदाशङ्खाम्बुजायुधः ॥',
+          meaning: {
+            en: 'Who bears the Śrīvatsa mark and the Kaustubha gem; the darling of Yaśodā; Hari, who takes away sins; the four-armed One holding discus, sword, mace, conch and lotus.',
+            kn: 'ಶ್ರೀವತ್ಸ ಚಿಹ್ನೆಯನ್ನೂ ಕೌಸ್ತುಭಮಣಿಯನ್ನೂ ಧರಿಸಿದವನು; ಯಶೋದೆಯ ಮುದ್ದಿನ ಕಂದ; ಪಾಪಗಳನ್ನು ಹರಿಸುವ ಹರಿ; ಚಕ್ರ, ಖಡ್ಗ, ಗದೆ, ಶಂಖ, ಕಮಲಗಳನ್ನು ನಾಲ್ಕು ಕೈಗಳಲ್ಲಿ ಹಿಡಿದವನು.',
+          },
         },
         {
           n: 3,
           text: 'देवकीनन्दनः श्रीशो नन्दगोपप्रियात्मजः ।\nयमुनावेगसंहारी बलभद्रप्रियानुजः ॥',
+          meaning: {
+            en: 'The joy of Devakī; the Lord of Śrī; the beloved son of Nandagopa; who stilled the rushing Yamunā when He was carried across it; the dear younger brother of Balabhadra.',
+            kn: 'ದೇವಕಿಯ ಆನಂದನಾದ ಮಗ; ಶ್ರೀದೇವಿಯ ಒಡೆಯ; ನಂದಗೋಪನ ಪ್ರೀತಿಯ ಮಗ; ತನ್ನನ್ನು ಹೊತ್ತು ದಾಟುವಾಗ ಯಮುನೆಯ ಪ್ರವಾಹವನ್ನು ತಡೆದವನು; ಬಲರಾಮನ ಪ್ರೀತಿಯ ತಮ್ಮ.',
+          },
         },
         {
           n: 4,
           text: 'पूतनाजीवितहरः शकटासुरभञ्जनः ।\nनन्दव्रजजनानन्दी सच्चिदानन्दविग्रहः ॥',
+          meaning: {
+            en: 'Who took the life of Pūtanā; who shattered the cart-demon Śakaṭa; who gladdened the people of Nanda’s Vraja; whose form is existence, consciousness and bliss.',
+            kn: 'ಪೂತನಿಯ ಪ್ರಾಣವನ್ನು ಹೀರಿದವನು; ಶಕಟಾಸುರನನ್ನು ಮುರಿದವನು; ನಂದನ ಗೋಕುಲದ ಜನರಿಗೆ ಆನಂದ ನೀಡಿದವನು; ಸಚ್ಚಿದಾನಂದ ಸ್ವರೂಪನು.',
+          },
         },
         {
           n: 5,
           text: 'नवनीतविलिप्ताङ्गो नवनीतनटोऽनघः ।\nनवनीतनवाहारो मुचुकुन्दप्रसादकः ॥',
+          meaning: {
+            en: 'Whose limbs are smeared with butter; who dances for butter; the sinless One; whose favourite food is fresh butter; who showed grace to King Mucukunda.',
+            kn: 'ಬೆಣ್ಣೆ ಮೆತ್ತಿದ ಮೈಯುಳ್ಳವನು; ಬೆಣ್ಣೆಗಾಗಿ ಕುಣಿಯುವವನು; ಪಾಪರಹಿತನು; ಹೊಸ ಬೆಣ್ಣೆಯನ್ನೇ ಪ್ರಿಯ ಆಹಾರವಾಗಿ ಉಳ್ಳವನು; ಮುಚುಕುಂದ ಮಹಾರಾಜನಿಗೆ ಅನುಗ್ರಹಿಸಿದವನು.',
+          },
         },
         {
           n: 6,
           text: 'षोडशस्त्रीसहस्रेशस्त्रिभङ्गी मधुराकृतिः ।\nशुकवागमृताब्धीन्दुर्गोविन्दो योगिनां पतिः ॥',
+          meaning: {
+            en: 'Lord of sixteen thousand queens; who stands gracefully bent in three places; of charming form; the moon risen from the nectar-ocean of Śuka’s words (the Bhāgavata); Govinda; the master of yogis.',
+            kn: 'ಹದಿನಾರು ಸಾವಿರ ಪತ್ನಿಯರ ಒಡೆಯ; ತ್ರಿಭಂಗಿಯಾಗಿ (ಮೂರು ಕಡೆ ಬಾಗಿ) ಸುಂದರವಾಗಿ ನಿಲ್ಲುವವನು; ಮಧುರ ರೂಪದವನು; ಶುಕಮುನಿಯ ವಾಣಿಯೆಂಬ (ಭಾಗವತ) ಅಮೃತಸಾಗರದಲ್ಲಿ ಉದಿಸಿದ ಚಂದ್ರ; ಗೋವಿಂದ; ಯೋಗಿಗಳ ಒಡೆಯ.',
+          },
         },
         {
           n: 7,
           text: 'वत्सवाटचरोऽनन्तो धेनुकासुरभञ्जनः ।\nतृणीकृततृणावर्तो यमलार्जुनभञ्जनः ॥',
+          meaning: {
+            en: 'Who wandered in the calf-pastures; the Infinite; the slayer of Dhenukāsura; who made Tṛṇāvarta as light as a blade of grass; who broke the twin Arjuna trees.',
+            kn: 'ಕರುಗಳನ್ನು ಮೇಯಿಸುತ್ತ ಹುಲ್ಲುಗಾವಲಲ್ಲಿ ಸಂಚರಿಸಿದವನು; ಅನಂತನು; ಧೇನುಕಾಸುರನನ್ನು ಸಂಹರಿಸಿದವನು; ತೃಣಾವರ್ತನನ್ನು ಹುಲ್ಲುಕಡ್ಡಿಯಂತೆ ತೃಣೀಕರಿಸಿದವನು; ಯಮಳಾರ್ಜುನ ಮರಗಳನ್ನು ಮುರಿದವನು.',
+          },
         },
         {
           n: 8,
           text: 'उत्तालतालभेत्ता च तमालश्यामलाकृतिः ।\nगोपगोपीश्वरो योगी कोटिसूर्यसमप्रभः ॥',
+          meaning: {
+            en: 'Who split the lofty palm trees; dark like the tamāla tree; the Lord of the cowherds and gopīs; the Yogī; radiant as ten million suns.',
+            kn: 'ಎತ್ತರದ ತಾಳೆಮರಗಳನ್ನು ಸೀಳಿದವನು; ತಮಾಲ ವೃಕ್ಷದಂತೆ ಶ್ಯಾಮಲ ವರ್ಣದವನು; ಗೋಪರಿಗೂ ಗೋಪಿಯರಿಗೂ ಒಡೆಯ; ಯೋಗಿ; ಕೋಟಿ ಸೂರ್ಯರ ಕಾಂತಿಯುಳ್ಳವನು.',
+          },
         },
         {
           n: 9,
           text: 'इलापतिः परञ्ज्योतिर्यादवेन्द्रो यदूद्वहः ।\nवनमाली पीतवासाः पारिजातापहारकः ॥',
+          meaning: {
+            en: 'Lord of the Earth; the Supreme Light; chief of the Yādavas; the upholder of the Yadu clan; who wears the forest-garland; clad in yellow silk; who brought the Pārijāta tree from heaven.',
+            kn: 'ಭೂದೇವಿಯ (ಇಳೆಯ) ಪತಿ; ಪರಂಜ್ಯೋತಿ; ಯಾದವರ ಒಡೆಯ; ಯದುಕುಲವನ್ನು ಮುನ್ನಡೆಸಿದವನು; ವನಮಾಲೆ ಧರಿಸಿದವನು; ಪೀತಾಂಬರಧಾರಿ; ಸ್ವರ್ಗದಿಂದ ಪಾರಿಜಾತವೃಕ್ಷವನ್ನು ತಂದವನು.',
+          },
         },
         {
           n: 10,
           text: 'गोवर्धनाचलोद्धर्ता गोपालः सर्वपालकः ।\nअजो निरञ्जनः कामजनकः कञ्जलोचनः ॥',
+          meaning: {
+            en: 'Who lifted Mount Govardhana; Gopāla, protector of cows; the protector of all; the Unborn; the Spotless; the father of Kāma (Pradyumna); the lotus-eyed.',
+            kn: 'ಗೋವರ್ಧನ ಗಿರಿಯನ್ನು ಎತ್ತಿದವನು; ಗೋವುಗಳನ್ನು ಕಾಯುವ ಗೋಪಾಲ; ಎಲ್ಲರನ್ನೂ ಪಾಲಿಸುವವನು; ಹುಟ್ಟಿಲ್ಲದ ಅಜನು; ದೋಷರಹಿತನಾದ ನಿರಂಜನನು; ಮನ್ಮಥನ (ಪ್ರದ್ಯುಮ್ನನ) ತಂದೆ; ಕಮಲನಯನ.',
+          },
         },
         {
           n: 11,
           text: 'मधुहा मथुरानाथो द्वारकानायको बली ।\nवृन्दावनान्तसञ्चारी तुलसीदामभूषणः ॥',
+          meaning: {
+            en: 'Slayer of Madhu; Lord of Mathurā; ruler of Dvārakā; the Mighty; who roams throughout Vṛndāvana; adorned with a garland of tulasī.',
+            kn: 'ಮಧು ಎಂಬ ರಾಕ್ಷಸನನ್ನು ಕೊಂದವನು; ಮಥುರೆಯ ನಾಥ; ದ್ವಾರಕೆಯ ನಾಯಕ; ಬಲಶಾಲಿ; ವೃಂದಾವನದಲ್ಲೆಲ್ಲ ಸಂಚರಿಸುವವನು; ತುಳಸೀಮಾಲೆಯನ್ನು ಆಭರಣವಾಗಿ ಧರಿಸಿದವನು.',
+          },
         },
         {
           n: 12,
@@ -80,38 +130,74 @@ export const krishnaAshtottaraShatanama: Mantra = {
         {
           n: 13,
           text: 'मुष्टिकासुरचाणूरमल्लयुद्धविशारदः ।\nसंसारवैरी कंसारिर्मुरारिर्नरकान्तकः ॥',
+          meaning: {
+            en: 'Skilled in wrestling, who overcame Muṣṭika and Cāṇūra; the foe of worldly bondage; the enemy of Kaṃsa; the slayer of Mura; the destroyer of Naraka.',
+            kn: 'ಮುಷ್ಟಿಕ, ಚಾಣೂರರೊಡನೆ ಮಲ್ಲಯುದ್ಧದಲ್ಲಿ ಪರಿಣತನಾದವನು; ಸಂಸಾರಬಂಧನದ ಶತ್ರು; ಕಂಸನ ವೈರಿ; ಮುರನನ್ನು ಕೊಂದ ಮುರಾರಿ; ನರಕಾಸುರನನ್ನು ಸಂಹರಿಸಿದವನು.',
+          },
         },
         {
           n: 14,
           text: 'अनादिब्रह्मचारी च कृष्णाव्यसनकर्षकः ।\nशिशुपालशिरश्छेत्ता दुर्योधनकुलान्तकः ॥',
+          meaning: {
+            en: 'The beginningless Brahmacārī, ever pure; who took away the distress of Kṛṣṇā (Draupadī); who cut off the head of Śiśupāla; who brought Duryodhana’s line to its end.',
+            kn: 'ಅನಾದಿಯಾದ ಬ್ರಹ್ಮಚಾರಿ (ಸದಾ ಪರಿಶುದ್ಧನು); ಕೃಷ್ಣೆಯಾದ ದ್ರೌಪದಿಯ ಸಂಕಟವನ್ನು ಪರಿಹರಿಸಿದವನು; ಶಿಶುಪಾಲನ ತಲೆಯನ್ನು ಕತ್ತರಿಸಿದವನು; ದುರ್ಯೋಧನನ ಕುಲವನ್ನು ಕೊನೆಗೊಳಿಸಿದವನು.',
+          },
         },
         {
           n: 15,
           text: 'विदुराक्रूरवरदो विश्वरूपप्रदर्शकः ।\nसत्यवाक् सत्यसङ्कल्पः सत्यभामारतो जयी ॥',
+          meaning: {
+            en: 'Giver of boons to Vidura and Akrūra; who revealed His cosmic form; whose word is true; whose every resolve comes true; who delights in Satyabhāmā; the ever-victorious.',
+            kn: 'ವಿದುರ ಮತ್ತು ಅಕ್ರೂರರಿಗೆ ವರವನ್ನಿತ್ತವನು; ವಿಶ್ವರೂಪವನ್ನು ತೋರಿಸಿದವನು; ಸತ್ಯವಾಕ್ಕುಳ್ಳವನು; ಸತ್ಯಸಂಕಲ್ಪನು; ಸತ್ಯಭಾಮೆಯಲ್ಲಿ ಪ್ರೀತಿಯುಳ್ಳವನು; ಸದಾ ಜಯಶಾಲಿ.',
+          },
         },
         {
           n: 16,
           text: 'सुभद्रापूर्वजो विष्णुर्भीष्ममुक्तिप्रदायकः ।\nजगद्गुरुर्जगन्नाथो वेणुनादविशारदः ॥',
+          meaning: {
+            en: 'Elder brother of Subhadrā; Viṣṇu, the all-pervading; who granted liberation to Bhīṣma; Teacher of the world; Lord of the world; master of the music of the flute.',
+            kn: 'ಸುಭದ್ರೆಯ ಅಣ್ಣ; ಸರ್ವವ್ಯಾಪಿಯಾದ ವಿಷ್ಣು; ಭೀಷ್ಮರಿಗೆ ಮುಕ್ತಿಯನ್ನು ಕರುಣಿಸಿದವನು; ಜಗದ್ಗುರು; ಜಗನ್ನಾಥ; ವೇಣುನಾದದಲ್ಲಿ ಪರಿಣತನು.',
+          },
         },
         {
           n: 17,
           text: 'वृषभासुरविध्वंसी बाणासुरकरान्तकः ।\nयुधिष्ठिरप्रतिष्ठाता बर्हिबर्हावतंसकः ॥',
+          meaning: {
+            en: 'Destroyer of the bull-demon (Ariṣṭa); who cut off the many arms of Bāṇāsura; who established Yudhiṣṭhira on the throne; whose crown is adorned with peacock feathers.',
+            kn: 'ವೃಷಭಾಸುರನನ್ನು (ಅರಿಷ್ಟನನ್ನು) ಧ್ವಂಸಮಾಡಿದವನು; ಬಾಣಾಸುರನ ಸಾವಿರ ಬಾಹುಗಳನ್ನು ಕತ್ತರಿಸಿದವನು; ಯುಧಿಷ್ಠಿರನನ್ನು ಸಿಂಹಾಸನದಲ್ಲಿ ಪ್ರತಿಷ್ಠಾಪಿಸಿದವನು; ನವಿಲುಗರಿಯನ್ನು ಶಿರೋಭೂಷಣವಾಗಿ ಧರಿಸಿದವನು.',
+          },
         },
         {
           n: 18,
           text: 'पार्थसारथिरव्यक्तो गीतामृतमहोदधिः ।\nकालीयफणिमाणिक्यरञ्जितश्रीपदाम्बुजः ॥',
+          meaning: {
+            en: 'Charioteer of Pārtha (Arjuna); the Unmanifest; the great ocean of the nectar of the Gītā; whose holy lotus feet were reddened by the jewels on the hoods of Kālīya as He danced on them.',
+            kn: 'ಪಾರ್ಥನ (ಅರ್ಜುನನ) ಸಾರಥಿ; ಅವ್ಯಕ್ತನು; ಗೀತಾಮೃತದ ಮಹಾಸಾಗರ; ಕಾಳಿಂಗನ ಹೆಡೆಗಳ ಮೇಲೆ ನರ್ತಿಸಿದಾಗ ಅವುಗಳ ಮಾಣಿಕ್ಯಗಳಿಂದ ಕೆಂಪಾಗಿ ಹೊಳೆದ ಪಾದಕಮಲಗಳುಳ್ಳವನು.',
+          },
         },
         {
           n: 19,
           text: 'दामोदरो यज्ञभोक्ता दानवेन्द्रविनाशकः ।\nनारायणः परं ब्रह्म पन्नगाशनवाहनः ॥',
+          meaning: {
+            en: 'Dāmodara, bound with a cord about His waist; the enjoyer of sacrifices; the destroyer of demon chiefs; Nārāyaṇa; the Supreme Brahman; who rides on Garuḍa, the eater of serpents.',
+            kn: 'ಹೊಟ್ಟೆಗೆ ಹಗ್ಗದಿಂದ ಕಟ್ಟಿಸಿಕೊಂಡ ದಾಮೋದರ; ಯಜ್ಞಗಳ ಭೋಕ್ತ; ದಾನವ ಪ್ರಮುಖರನ್ನು ನಾಶಮಾಡಿದವನು; ನಾರಾಯಣ; ಪರಬ್ರಹ್ಮ; ಸರ್ಪಗಳನ್ನು ತಿನ್ನುವ ಗರುಡನನ್ನು ವಾಹನವಾಗಿ ಉಳ್ಳವನು.',
+          },
         },
         {
           n: 20,
           text: 'जलक्रीडासमासक्तगोपीवस्त्रापहारकः ।\nपुण्यश्लोकस्तीर्थपादो वेदवेद्यो दयानिधिः ॥',
+          meaning: {
+            en: 'Who carried off the garments of the gopīs absorbed in play in the water; of holy fame; whose feet are themselves a sacred tīrtha; who is known through the Vedas; the treasure-house of compassion.',
+            kn: 'ಜಲಕ್ರೀಡೆಯಲ್ಲಿ ಮಗ್ನರಾದ ಗೋಪಿಯರ ವಸ್ತ್ರಗಳನ್ನು ಕೊಂಡೊಯ್ದವನು; ಪುಣ್ಯಕೀರ್ತಿಯುಳ್ಳವನು; ತೀರ್ಥರೂಪವಾದ ಪಾದಗಳುಳ್ಳವನು; ವೇದಗಳಿಂದ ಅರಿಯಲ್ಪಡುವವನು; ದಯೆಯ ನಿಧಿ.',
+          },
         },
         {
           n: 21,
           text: 'सर्वतीर्थात्मकः सर्वग्रहरूपी परात्परः ।\nइत्येवं कृष्णदेवस्य नाम्नामष्टोत्तरं शतम् ॥',
+          meaning: {
+            en: 'The essence of all holy places; present in the form of all the planets; higher than the highest. Thus are the hundred and eight names of Lord Kṛṣṇa.',
+            kn: 'ಎಲ್ಲ ತೀರ್ಥಗಳ ಸ್ವರೂಪನು; ಎಲ್ಲ ಗ್ರಹಗಳ ರೂಪದಲ್ಲಿರುವವನು; ಪರಾತ್ಪರನು (ಶ್ರೇಷ್ಠರಿಗಿಂತಲೂ ಶ್ರೇಷ್ಠನು). ಹೀಗೆ ಶ್ರೀಕೃಷ್ಣದೇವನ ನೂರೆಂಟು ನಾಮಗಳು ಹೇಳಲ್ಪಟ್ಟವು.',
+          },
         },
       ],
     },
