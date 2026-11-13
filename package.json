@@ -40,7 +40,7 @@
     "content:index": "tsx scripts/gen-index.ts",
     "content:check": "tsx scripts/gen-index.ts && tsx scripts/validate-content.ts",
     "build:web": "expo export --platform web",
-    "test": "tsx scripts/test-transliterate.ts && tsx scripts/gen-index.ts && tsx scripts/validate-content.ts",
+    "test": "tsx scripts/test-transliterate.ts && tsx scripts/test-panchanga.ts && tsx scripts/gen-index.ts && tsx scripts/validate-content.ts",
     "lint": "expo lint"
   },
   "private": true

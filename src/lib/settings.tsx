@@ -18,6 +18,8 @@ export interface Settings {
   keepAwake: boolean;
   /** Reader's choices for texts with variants, e.g. { tradition: 'madhva', time: 'morning' }. */
   variants: Partial<Record<string, string>>;
+  /** City for pañcāṅga / sunrise (see CITIES in panchanga.ts). */
+  city: string;
 }
 
 export interface RecentEntry {
@@ -41,6 +43,7 @@ const DEFAULTS: Store = {
     meaningLang: 'auto',
     keepAwake: true,
     variants: {},
+    city: 'bengaluru',
   },
   favorites: [],
   recent: [],

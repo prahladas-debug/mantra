@@ -3,6 +3,7 @@ import { activateKeepAwakeAsync, deactivateKeepAwake } from 'expo-keep-awake';
 import { router, Stack, useLocalSearchParams, type Href } from 'expo-router';
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { FlatList, Pressable, StyleSheet, Text, View } from 'react-native';
+import { SankalpaCard } from '../../components/PanchangaCard';
 import { Chip, ScriptPicker } from '../../components/ui';
 import { categoryById, getMantra, mantrasInCategory, type Mantra, type Section, type Verse } from '../../data';
 import { useSettings } from '../../lib/settings';
@@ -112,6 +113,7 @@ export default function Reader() {
               {[categoryById[mantra.category]?.titleEn, mantra.deity, mantra.source].filter(Boolean).join(' · ')}
             </Text>
             <Text style={{ color: theme.textMuted, fontSize: 15, marginTop: 10, lineHeight: 22 }}>{preferKn && mantra.summaryKn ? mantra.summaryKn : translitInline(mantra.summary, script)}</Text>
+            {(mantra.category === 'sandhya' || mantra.category === 'puja') && <SankalpaCard />}
             {mantra.variants?.map((v) => (
               <View key={v.key} style={[r.variantBox, { borderColor: theme.cardBorder, backgroundColor: theme.card }]}>
                 <Text style={{ color: theme.textMuted, fontSize: 13, fontWeight: '700', marginBottom: 6 }}>

@@ -2,6 +2,7 @@ import { Ionicons } from '@expo/vector-icons';
 import { Link, router, type Href } from 'expo-router';
 import { Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
+import { TodayCard } from '../components/PanchangaCard';
 import { MantraRow, ScriptPicker, SectionHeading } from '../components/ui';
 import { CATEGORIES, categoryCounts, getMantra } from '../data';
 import { useSettings } from '../lib/settings';
@@ -50,6 +51,8 @@ export default function Home() {
         <Ionicons name="search" size={18} color={theme.textMuted} />
         <Text style={{ color: theme.textMuted, fontSize: 16 }}>Search mantras, names, verses…</Text>
       </Pressable>
+
+      <TodayCard />
 
       <SectionHeading>Reading script · ಲಿಪಿ · लिपि</SectionHeading>
       <ScriptPicker value={settings.script} onChange={(v) => v && update({ script: v })} />
