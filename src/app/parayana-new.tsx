@@ -54,7 +54,8 @@ export default function NewPlan() {
     } else if (text) {
       addPlan({ id, kind, title: `${text.titleEn} · ${days} days${perDay > 1 ? ` · ${perDay}×` : ''}`, items: [text.id], days, start: localDate(), read: [], counts: {}, perDay });
     }
-    router.back();
+    if (router.canGoBack()) router.back();
+    else router.replace('/parayana');
   };
 
   const card = { marginHorizontal: 16, marginBottom: 8, padding: 12, borderRadius: 12, borderWidth: 1 };
