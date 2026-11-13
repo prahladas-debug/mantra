@@ -8,6 +8,7 @@ import { Chip, ScriptPicker } from '../../components/ui';
 import { categoryById, getMantra, mantrasInCategory, type Mantra, type Section, type Verse } from '../../data';
 import { useSettings } from '../../lib/settings';
 import { choicesFor, matches, type Choices } from '../../lib/variants';
+import { planStatus } from '../../lib/plans';
 import type { ThemeName } from '../../lib/theme';
 import { MEANING_PREFS, meaningsToShow, type MeaningPref } from '../../lib/meaning';
 import { bindDandas, translit, translitInline, translitTitle, verseNumber, type ScriptId } from '../../lib/transliterate';
@@ -293,12 +294,52 @@ export default function Reader() {
         initialNumToRender={20}
         windowSize={11}
         contentContainerStyle={{ paddingBottom: 48 }}
-        ListFooterComponent={<SeriesNav mantra={mantra} />}
+        ListFooterComponent={
+          <>
+            <PlanControls mantraId={mantra.id} />
+            <SeriesNav mantra={mantra} />
+          </>
+        }
         onScrollToIndexFailed={(info) => {
           listRef.current?.scrollToOffset({ offset: info.averageItemLength * info.index, animated: false });
           setTimeout(() => scrollTo(info.index), 120);
         }}
       />
+    </View>
+  );
+}
+
+/** Pārāyaṇa controls for this text: mark read (read-through plans) or count a recitation (vows). */
+function PlanControls({ mantraId }: { mantraId: string }) {
+  const { theme, plans, markPlanItemRead, addRecitation } = useSettings();
+  const reading = plans.filter((p) => p.kind === 'readthrough' && p.items.includes(mantraId) && !planStatus(p).finished);
+  const vows = plans.filter((p) => p.kind === 'vow' && p.items[0] === mantraId && !planStatus(p).finished);
+  if (!reading.length && !vows.length) return null;
+  const isRead = reading.some((p) => p.read.includes(mantraId));
+  return (
+    <View style={[r.planBox, { borderColor: theme.cardBorder, backgroundColor: theme.card }]}>
+      <Text style={{ color: theme.textMuted, fontSize: 12, fontWeight: '700', letterSpacing: 0.8 }}>PĀRĀYAṆA · ಪಾರಾಯಣ</Text>
+      {reading.length > 0 && (
+        <Pressable
+          onPress={() => markPlanItemRead(mantraId, !isRead)}
+          style={[r.planButton, { backgroundColor: isRead ? theme.accentSoft : theme.accent }]}
+        >
+          <Text style={{ color: isRead ? theme.accent : theme.onAccent, fontWeight: '700', fontSize: 15 }}>
+            {isRead ? '✓ Read · ಓದಿ ಆಯಿತು' : 'Mark as read · ಓದಿ ಆಯಿತು'}
+          </Text>
+        </Pressable>
+      )}
+      {vows.map((p) => {
+        const st = planStatus(p);
+        return (
+          <View key={p.id} style={{ flexDirection: 'row', alignItems: 'center', gap: 10, marginTop: 10 }}>
+            <Text style={{ color: theme.text, flex: 1 }}>
+              {p.title}: today {p.perDay - st.todayRemaining}/{p.perDay}
+            </Text>
+            <Chip label="+1" active onPress={() => addRecitation(p.id, 1)} />
+          </View>
+        );
+      })}
     </View>
   );
 }
@@ -358,6 +399,8 @@ const r = StyleSheet.create({
   meaningToggle: { alignSelf: 'flex-start', marginTop: 8, paddingHorizontal: 10, paddingVertical: 3, borderRadius: 12, borderWidth: 1 },
   panel: { borderBottomWidth: 1, paddingVertical: 10, gap: 4 },
   panelLabel: { fontSize: 12, fontWeight: '700', textTransform: 'uppercase', letterSpacing: 0.8, marginHorizontal: 16, marginTop: 8, marginBottom: 4 },
+  planBox: { marginHorizontal: 16, marginTop: 24, padding: 14, borderRadius: 14, borderWidth: 1 },
+  planButton: { marginTop: 10, padding: 12, borderRadius: 12, alignItems: 'center' },
   navRow: { flexDirection: 'row', gap: 10, marginHorizontal: 16, marginTop: 24 },
   navButton: { flex: 1, padding: 12, borderRadius: 12, borderWidth: 1, gap: 2 },
   panelRow: { flexDirection: 'row', alignItems: 'center', paddingHorizontal: 16, gap: 8, marginTop: 8 },

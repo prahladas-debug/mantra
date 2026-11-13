@@ -22,6 +22,8 @@ function AppStack() {
         <Stack.Screen name="settings" options={{ title: 'Settings' }} />
         <Stack.Screen name="about" options={{ title: 'About' }} />
         <Stack.Screen name="panchanga" options={{ title: 'Pañcāṅga' }} />
+        <Stack.Screen name="parayana" options={{ title: 'Pārāyaṇa' }} />
+        <Stack.Screen name="parayana-new" options={{ title: 'New pārāyaṇa' }} />
       </Stack>
     </>
   );

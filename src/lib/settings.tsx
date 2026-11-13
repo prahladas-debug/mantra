@@ -3,6 +3,7 @@ import { createContext, useCallback, useContext, useEffect, useMemo, useState } 
 import { useColorScheme } from 'react-native';
 import { THEMES, type Theme, type ThemeName } from './theme';
 import type { MeaningPref } from './meaning';
+import { localDate, type Plan } from './plans';
 import type { ScriptId } from './transliterate';
 
 export interface Settings {
@@ -31,6 +32,7 @@ interface Store {
   settings: Settings;
   favorites: string[];
   recent: RecentEntry[];
+  plans: Plan[];
 }
 
 const DEFAULTS: Store = {
@@ -47,6 +49,7 @@ const DEFAULTS: Store = {
   },
   favorites: [],
   recent: [],
+  plans: [],
 };
 
 const KEY = 'mantra.store.v1';
@@ -57,6 +60,13 @@ interface Ctx extends Store {
   update: (patch: Partial<Settings>) => void;
   toggleFavorite: (id: string) => void;
   markRead: (id: string) => void;
+  addPlan: (plan: Plan) => void;
+  updatePlan: (id: string, patch: Partial<Plan>) => void;
+  removePlan: (id: string) => void;
+  /** Mark a text read in every read-through plan that contains it. */
+  markPlanItemRead: (mantraId: string, read: boolean) => void;
+  /** Add one recitation today to a vow plan. */
+  addRecitation: (planId: string, delta: number) => void;
 }
 
 const SettingsContext = createContext<Ctx | null>(null);
@@ -75,6 +85,7 @@ export function SettingsProvider({ children }: { children: React.ReactNode }) {
           settings: { ...DEFAULTS.settings, ...saved.settings },
           favorites: saved.favorites ?? [],
           recent: saved.recent ?? [],
+          plans: saved.plans ?? [],
         });
       })
       .catch(() => {})
@@ -109,12 +120,51 @@ export function SettingsProvider({ children }: { children: React.ReactNode }) {
     [],
   );
 
+  const addPlan = useCallback((plan: Plan) => setStore((s) => ({ ...s, plans: [...s.plans, plan] })), []);
+  const updatePlan = useCallback(
+    (id: string, patch: Partial<Plan>) =>
+      setStore((s) => ({ ...s, plans: s.plans.map((p) => (p.id === id ? { ...p, ...patch } : p)) })),
+    [],
+  );
+  const removePlan = useCallback(
+    (id: string) => setStore((s) => ({ ...s, plans: s.plans.filter((p) => p.id !== id) })),
+    [],
+  );
+  const markPlanItemRead = useCallback(
+    (mantraId: string, read: boolean) =>
+      setStore((s) => ({
+        ...s,
+        plans: s.plans.map((p) =>
+          p.kind !== 'readthrough' || !p.items.includes(mantraId)
+            ? p
+            : { ...p, read: read ? [...new Set([...p.read, mantraId])] : p.read.filter((x) => x !== mantraId) },
+        ),
+      })),
+    [],
+  );
+  const addRecitation = useCallback(
+    (planId: string, delta: number) =>
+      setStore((s) => {
+        const today = localDate();
+        return {
+          ...s,
+          plans: s.plans.map((p) =>
+            p.id !== planId ? p : { ...p, counts: { ...p.counts, [today]: Math.max(0, (p.counts[today] ?? 0) + delta) } },
+          ),
+        };
+      }),
+    [],
+  );
+
   const themeName: ThemeName =
     store.settings.theme === 'system' ? (system === 'dark' ? 'dark' : 'light') : store.settings.theme;
 
   const value = useMemo<Ctx>(
-    () => ({ ...store, ready, theme: THEMES[themeName], update, toggleFavorite, markRead }),
-    [store, ready, themeName, update, toggleFavorite, markRead],
+    () => ({
+      ...store, ready, theme: THEMES[themeName], update, toggleFavorite, markRead,
+      addPlan, updatePlan, removePlan, markPlanItemRead, addRecitation,
+    }),
+    [store, ready, themeName, update, toggleFavorite, markRead, addPlan, updatePlan, removePlan, markPlanItemRead, addRecitation],
   );
 
   return <SettingsContext.Provider value={value}>{children}</SettingsContext.Provider>;

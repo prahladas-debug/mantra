@@ -3,6 +3,8 @@ import { Link, router, type Href } from 'expo-router';
 import { Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { TodayCard } from '../components/PanchangaCard';
+import { PlanCard } from '../components/PlanCard';
+import { planStatus } from '../lib/plans';
 import { MantraRow, ScriptPicker, SectionHeading } from '../components/ui';
 import { CATEGORIES, categoryCounts, getMantra } from '../data';
 import { useSettings } from '../lib/settings';
@@ -19,12 +21,13 @@ const FEATURED = [
 ];
 
 export default function Home() {
-  const { theme, settings, update, favorites, recent } = useSettings();
+  const { theme, settings, update, favorites, recent, plans } = useSettings();
   const insets = useSafeAreaInsets();
   const counts = categoryCounts();
   const featured = FEATURED.map(getMantra).filter((m) => !!m);
   const recentMantras = recent.map((r) => getMantra(r.id)).filter((m) => !!m).slice(0, 3);
   const favMantras = favorites.map(getMantra).filter((m) => !!m);
+  const activePlans = plans.filter((p) => !planStatus(p).finished);
 
   return (
     <ScrollView
@@ -56,6 +59,16 @@ export default function Home() {
 
       <SectionHeading>Reading script · ಲಿಪಿ · लिपि</SectionHeading>
       <ScriptPicker value={settings.script} onChange={(v) => v && update({ script: v })} />
+
+      <SectionHeading>Pārāyaṇa · ಪಾರಾಯಣ</SectionHeading>
+      {activePlans.map((p) => (
+        <PlanCard key={p.id} plan={p} compact />
+      ))}
+      <Pressable onPress={() => router.push('/parayana')} style={{ marginHorizontal: 16, marginBottom: 4 }}>
+        <Text style={{ color: theme.accent, fontSize: 15, fontWeight: '600' }}>
+          {activePlans.length ? 'All plans & reminders →' : 'Start a pārāyaṇa (e.g. Sundarakāṇḍa in 7 days) →'}
+        </Text>
+      </Pressable>
 
       {recentMantras.length > 0 && (
         <>
