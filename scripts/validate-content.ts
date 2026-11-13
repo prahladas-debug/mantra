@@ -56,6 +56,7 @@ async function main() {
       if (!m.title || !ALLOWED.test(m.title)) err(w, 'title must be Devanagari');
       if (!m.titleEn) err(w, 'missing titleEn');
       if (!m.summary) err(w, 'missing summary');
+      if (m.summaryKn !== undefined && !/[\u0C80-\u0CFF]/.test(m.summaryKn)) err(w, 'summaryKn must be Kannada');
       if (!['easy', 'medium', 'advanced'].includes(m.difficulty)) err(w, 'bad difficulty');
       if (m.completeness === 'partial' && !m.contentNote) err(w, 'partial texts need contentNote');
       if (!m.sections?.length) err(w, 'no sections');
@@ -78,6 +79,17 @@ async function main() {
           if (v.n !== undefined) {
             if (prev !== undefined && v.n !== prev + 1) warn(vw, `verse number jumps from ${prev}`);
             prev = v.n;
+          }
+          if (v.meaning !== undefined && typeof v.meaning !== 'string') {
+            for (const [lang, t] of Object.entries(v.meaning)) {
+              if (!['en', 'kn'].includes(lang)) err(vw, `unknown meaning language ${lang}`);
+              if (!t?.trim()) err(vw, `empty ${lang} meaning`);
+              if (lang === 'kn' && t) {
+                if (!/[\u0C80-\u0CFF]/.test(t)) err(vw, 'kn meaning has no Kannada text');
+                if (/[\u0900-\u097F]/.test(t.replace(/[।॥]/g, ''))) err(vw, 'kn meaning contains Devanagari; write Sanskrit words in Kannada script');
+              }
+              if (lang === 'en' && t && /[\u0C80-\u0CFF]/.test(t)) err(vw, 'en meaning contains Kannada');
+            }
           }
           // Round-trip sanity: Devanagari -> IAST -> Devanagari should be stable.
           const rt = Sanscript.t(Sanscript.t(v.text, 'devanagari', 'iast'), 'iast', 'devanagari');

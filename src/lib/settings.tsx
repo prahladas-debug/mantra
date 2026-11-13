@@ -2,6 +2,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import { createContext, useCallback, useContext, useEffect, useMemo, useState } from 'react';
 import { useColorScheme } from 'react-native';
 import { THEMES, type Theme, type ThemeName } from './theme';
+import type { MeaningPref } from './meaning';
 import type { ScriptId } from './transliterate';
 
 export interface Settings {
@@ -11,6 +12,8 @@ export interface Settings {
   fontScale: number;
   theme: ThemeName | 'system';
   showMeanings: boolean;
+  /** Which language(s) meanings are shown in. */
+  meaningLang: MeaningPref;
   keepAwake: boolean;
 }
 
@@ -32,6 +35,7 @@ const DEFAULTS: Store = {
     fontScale: 1,
     theme: 'system',
     showMeanings: true,
+    meaningLang: 'auto',
     keepAwake: true,
   },
   favorites: [],

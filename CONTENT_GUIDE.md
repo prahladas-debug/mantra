@@ -37,3 +37,26 @@ for a minimal example.
 
 All texts must be proofread against a printed edition before a public store
 release. Record the edition used in the file header comment once verified.
+
+## Meanings (English + Kannada)
+
+Each verse can carry `meaning: { en: '…', kn: '…' }`; each text can carry
+`summaryKn`. Rules:
+
+1. **Never change `text`, `title` or `n`.** Only add `meaning` / `summaryKn`.
+   `npx tsx scripts/check-texts-unchanged.ts` must report 0 changed.
+2. **Write original meanings** from the Sanskrit. Do not copy or closely
+   paraphrase published translations (Gita Press, Ramakrishna Math, math
+   publications, websites); they are copyrighted.
+3. **English:** plain, reverent, 1–3 sentences per verse. Give the sense, not a
+   word-by-word gloss. Proper names in IAST or common English spelling.
+4. **Kannada:** natural modern Kannada as used in Karnataka devotional books
+   (ಸರಳ ಕನ್ನಡ), not a literal transliteration of the English. Kannada script
+   only: write Sanskrit names in Kannada (ಶ್ರೀಹರಿ, ವಾಯುದೇವರು), never
+   Devanagari. Use respectful forms for deities (ಶ್ರೀಹರಿಯು, ವಾಯುದೇವರು).
+5. **Tradition:** follow the plain sense; for Madhva texts (Vayu Stuti,
+   Raghavendra Stotra) follow the Dvaita reading (Vāyu as jīvottama, Hari as
+   sarvottama). Do not add sectarian commentary beyond that.
+6. **Uncertain verses:** if you cannot give a confident meaning, leave that
+   verse without `meaning` rather than guess, and list it in your report.
+7. Short items (speaker lines like अर्जुन उवाच, colophons, ॐ) need no meaning.

@@ -7,6 +7,7 @@ import { Chip, ScriptPicker } from '../../components/ui';
 import { categoryById, getMantra, mantrasInCategory, type Mantra, type Section, type Verse } from '../../data';
 import { useSettings } from '../../lib/settings';
 import type { ThemeName } from '../../lib/theme';
+import { MEANING_PREFS, meaningsToShow } from '../../lib/meaning';
 import { bindDandas, translit, translitInline, translitTitle, verseNumber } from '../../lib/transliterate';
 
 type Row =
@@ -94,7 +95,7 @@ export default function Reader() {
             <Text style={{ color: theme.textMuted, fontSize: 13, marginTop: 4 }}>
               {[categoryById[mantra.category]?.titleEn, mantra.deity, mantra.source].filter(Boolean).join(' · ')}
             </Text>
-            <Text style={{ color: theme.textMuted, fontSize: 15, marginTop: 10, lineHeight: 22 }}>{translitInline(mantra.summary, script)}</Text>
+            <Text style={{ color: theme.textMuted, fontSize: 15, marginTop: 10, lineHeight: 22 }}>{(settings.meaningLang === 'kn' || (settings.meaningLang === 'auto' && script === 'kannada')) && mantra.summaryKn ? mantra.summaryKn : translitInline(mantra.summary, script)}</Text>
             {mantra.contentNote && (
               <View style={[r.notice, { backgroundColor: theme.warningBg }]}>
                 <Ionicons name="information-circle" size={18} color={theme.warningText} />
@@ -146,11 +147,24 @@ export default function Reader() {
                 {bindDandas(translit(verse.text, second))}
               </Text>
             )}
-            {settings.showMeanings && verse.meaning && (
-              <Text style={[r.meaning, { color: theme.textMuted, borderColor: theme.accent, fontSize: 15 * Math.min(scale, 1.3) }]}>
-                {translitInline(verse.meaning, script)}
-              </Text>
-            )}
+            {settings.showMeanings &&
+              meaningsToShow(verse.meaning, settings.meaningLang, script).map(({ lang, text }) => (
+                <Text
+                  key={lang}
+                  style={[
+                    r.meaning,
+                    {
+                      color: theme.textMuted,
+                      borderColor: theme.accent,
+                      fontSize: (lang === 'kn' ? 16 : 15) * Math.min(scale, 1.3),
+                      lineHeight: (lang === 'kn' ? 25 : 21) * Math.min(scale, 1.3),
+                      fontStyle: lang === 'kn' ? 'normal' : 'italic',
+                    },
+                  ]}
+                >
+                  {lang === 'en' ? translitInline(text, script) : text}
+                </Text>
+              ))}
           </View>
         );
       }
@@ -192,6 +206,11 @@ export default function Reader() {
           </View>
           <View style={r.panelRow}>
             <Chip label={settings.showMeanings ? 'Meanings: on' : 'Meanings: off'} active={settings.showMeanings} onPress={() => update({ showMeanings: !settings.showMeanings })} />
+          </View>
+          <View style={[r.panelRow, { flexWrap: 'wrap' }]}>
+            {MEANING_PREFS.map((m) => (
+              <Chip key={m.id} label={m.label} active={settings.showMeanings && settings.meaningLang === m.id} onPress={() => update({ meaningLang: m.id, showMeanings: true })} />
+            ))}
           </View>
           {sectionsWithTitles.length > 1 && (
             <>
@@ -275,7 +294,7 @@ const r = StyleSheet.create({
   notice: { flexDirection: 'row', gap: 8, padding: 12, borderRadius: 10, marginTop: 14 },
   section: { marginTop: 18, marginHorizontal: 20, paddingTop: 14, borderTopWidth: 1, marginBottom: 4 },
   verse: { paddingHorizontal: 20, paddingVertical: 12 },
-  meaning: { marginTop: 8, paddingLeft: 10, borderLeftWidth: 2, lineHeight: 21, fontStyle: 'italic' },
+  meaning: { marginTop: 8, paddingLeft: 10, borderLeftWidth: 2 },
   panel: { borderBottomWidth: 1, paddingVertical: 10, gap: 4 },
   panelLabel: { fontSize: 12, fontWeight: '700', textTransform: 'uppercase', letterSpacing: 0.8, marginHorizontal: 16, marginTop: 8, marginBottom: 4 },
   navRow: { flexDirection: 'row', gap: 10, marginHorizontal: 16, marginTop: 24 },

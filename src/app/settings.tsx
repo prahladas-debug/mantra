@@ -1,6 +1,7 @@
 import { Link } from 'expo-router';
 import { Pressable, ScrollView, Switch, Text, View } from 'react-native';
 import { Chip, ScriptPicker, SectionHeading } from '../components/ui';
+import { MEANING_PREFS } from '../lib/meaning';
 import { useSettings } from '../lib/settings';
 import { translit } from '../lib/transliterate';
 
@@ -42,9 +43,17 @@ export default function SettingsScreen() {
 
       <SectionHeading>Reading</SectionHeading>
       <View style={row}>
-        <Text style={{ color: theme.text, fontSize: 16 }}>Show English meanings</Text>
+        <Text style={{ color: theme.text, fontSize: 16 }}>Show meanings · ಅರ್ಥ</Text>
         <Switch value={settings.showMeanings} onValueChange={(v) => update({ showMeanings: v })} trackColor={{ true: theme.accent }} />
       </View>
+      <View style={[row, { justifyContent: 'flex-start', gap: 8, flexWrap: 'wrap' }]}>
+        {MEANING_PREFS.map((m) => (
+          <Chip key={m.id} label={m.label} active={settings.meaningLang === m.id} onPress={() => update({ meaningLang: m.id })} />
+        ))}
+      </View>
+      <Text style={{ color: theme.textMuted, marginHorizontal: 16, fontSize: 14 }}>
+        Auto shows Kannada meanings when reading in Kannada script, English otherwise.
+      </Text>
       <View style={row}>
         <Text style={{ color: theme.text, fontSize: 16, flex: 1 }}>Keep screen on while reading</Text>
         <Switch value={settings.keepAwake} onValueChange={(v) => update({ keepAwake: v })} trackColor={{ true: theme.accent }} />

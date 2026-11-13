@@ -18,13 +18,22 @@ export type CategoryId =
 
 export type Difficulty = 'easy' | 'medium' | 'advanced';
 
+/** Languages that verse meanings can be written in. */
+export type MeaningLang = 'en' | 'kn';
+
+/**
+ * A verse meaning. A plain string is English (older entries); an object holds
+ * one meaning per language, e.g. { en: '…', kn: '…' }.
+ */
+export type Meaning = string | Partial<Record<MeaningLang, string>>;
+
 export interface Verse {
   /** Verse number, shown as ॥ n ॥ after the text in the reader's script. Omit for prose/steps. */
   n?: number;
   /** Devanagari text. Lines separated by "\n". Do NOT include the verse number. */
   text: string;
-  /** Optional short English meaning. */
-  meaning?: string;
+  /** Optional meaning in English and/or Kannada. */
+  meaning?: Meaning;
 }
 
 export interface Section {
@@ -52,6 +61,8 @@ export interface Mantra {
   source?: string;
   /** 1–3 sentence English description. */
   summary: string;
+  /** Optional Kannada version of the summary. */
+  summaryKn?: string;
   difficulty: Difficulty;
   /**
    * 'complete' = full text as traditionally recited.
