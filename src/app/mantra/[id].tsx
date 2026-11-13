@@ -7,8 +7,8 @@ import { Chip, ScriptPicker } from '../../components/ui';
 import { categoryById, getMantra, mantrasInCategory, type Mantra, type Section, type Verse } from '../../data';
 import { useSettings } from '../../lib/settings';
 import type { ThemeName } from '../../lib/theme';
-import { MEANING_PREFS, meaningsToShow } from '../../lib/meaning';
-import { bindDandas, translit, translitInline, translitTitle, verseNumber } from '../../lib/transliterate';
+import { MEANING_PREFS, meaningsToShow, type MeaningPref } from '../../lib/meaning';
+import { bindDandas, translit, translitInline, translitTitle, verseNumber, type ScriptId } from '../../lib/transliterate';
 
 type Row =
   | { kind: 'intro'; key: string }
@@ -31,6 +31,15 @@ export default function Reader() {
   const mantra = getMantra(params.id);
   const { theme, settings, update, favorites, toggleFavorite, markRead } = useSettings();
   const [panelOpen, setPanelOpen] = useState(false);
+  // Verses whose meaning the reader has opened (meanings are hidden until tapped).
+  const [opened, setOpened] = useState<ReadonlySet<string>>(() => new Set());
+  const toggleMeaning = (key: string) =>
+    setOpened((prev) => {
+      const next = new Set(prev);
+      if (next.has(key)) next.delete(key);
+      else next.add(key);
+      return next;
+    });
   const listRef = useRef<FlatList<Row>>(null);
 
   const rows = useMemo(() => (mantra ? flatten(mantra) : []), [mantra]);
@@ -128,6 +137,9 @@ export default function Reader() {
         );
       case 'verse': {
         const { verse } = item;
+        const meanings = meaningsToShow(verse.meaning, settings.meaningLang, script);
+        const isOpen = opened.has(item.key);
+        const showMeaning = settings.alwaysShowMeanings || isOpen;
         // The text ends with ॥; when a number follows, render a single "॥ n ॥" instead of "॥ ॥ n ॥".
         const main = bindDandas(translit(verse.n !== undefined ? verse.text.replace(/\s*॥\s*$/, '') : verse.text, script));
         const fs = (script === 'iast' ? 19 : 22) * scale;
@@ -147,8 +159,21 @@ export default function Reader() {
                 {bindDandas(translit(verse.text, second))}
               </Text>
             )}
-            {settings.showMeanings &&
-              meaningsToShow(verse.meaning, settings.meaningLang, script).map(({ lang, text }) => (
+            {meanings.length > 0 && !settings.alwaysShowMeanings && (
+              <Pressable
+                onPress={() => toggleMeaning(item.key)}
+                hitSlop={8}
+                accessibilityRole="button"
+                accessibilityState={{ expanded: isOpen }}
+                style={[r.meaningToggle, { borderColor: theme.cardBorder, backgroundColor: isOpen ? theme.accentSoft : 'transparent' }]}
+              >
+                <Text style={{ color: theme.accent, fontSize: 13, fontWeight: '600' }}>
+                  {meaningLabel(settings.meaningLang, script)} {isOpen ? '▴' : '▾'}
+                </Text>
+              </Pressable>
+            )}
+            {showMeaning &&
+              meanings.map(({ lang, text }) => (
                 <Text
                   key={lang}
                   style={[
@@ -205,11 +230,11 @@ export default function Reader() {
             ))}
           </View>
           <View style={r.panelRow}>
-            <Chip label={settings.showMeanings ? 'Meanings: on' : 'Meanings: off'} active={settings.showMeanings} onPress={() => update({ showMeanings: !settings.showMeanings })} />
+            <Chip label={settings.alwaysShowMeanings ? 'All meanings: shown' : 'All meanings: tap to open'} active={settings.alwaysShowMeanings} onPress={() => update({ alwaysShowMeanings: !settings.alwaysShowMeanings })} />
           </View>
           <View style={[r.panelRow, { flexWrap: 'wrap' }]}>
             {MEANING_PREFS.map((m) => (
-              <Chip key={m.id} label={m.label} active={settings.showMeanings && settings.meaningLang === m.id} onPress={() => update({ meaningLang: m.id, showMeanings: true })} />
+              <Chip key={m.id} label={m.label} active={settings.meaningLang === m.id} onPress={() => update({ meaningLang: m.id })} />
             ))}
           </View>
           {sectionsWithTitles.length > 1 && (
@@ -238,7 +263,7 @@ export default function Reader() {
         data={rows}
         keyExtractor={(row) => row.key}
         renderItem={renderRow}
-        extraData={[settings, highlight]}
+        extraData={[settings, highlight, opened]}
         initialNumToRender={20}
         windowSize={11}
         contentContainerStyle={{ paddingBottom: 48 }}
@@ -283,6 +308,13 @@ function SeriesNav({ mantra }: { mantra: Mantra }) {
   );
 }
 
+/** Button label in the reader's meaning language. */
+function meaningLabel(pref: MeaningPref, script: ScriptId): string {
+  if (pref === 'kn' || (pref === 'auto' && script === 'kannada')) return 'ಅರ್ಥ';
+  if (pref === 'both') return 'ಅರ್ಥ · Meaning';
+  return 'Meaning';
+}
+
 function PanelLabel({ children }: { children: React.ReactNode }) {
   const { theme } = useSettings();
   return <Text style={[r.panelLabel, { color: theme.textMuted }]}>{children}</Text>;
@@ -295,6 +327,7 @@ const r = StyleSheet.create({
   section: { marginTop: 18, marginHorizontal: 20, paddingTop: 14, borderTopWidth: 1, marginBottom: 4 },
   verse: { paddingHorizontal: 20, paddingVertical: 12 },
   meaning: { marginTop: 8, paddingLeft: 10, borderLeftWidth: 2 },
+  meaningToggle: { alignSelf: 'flex-start', marginTop: 8, paddingHorizontal: 10, paddingVertical: 3, borderRadius: 12, borderWidth: 1 },
   panel: { borderBottomWidth: 1, paddingVertical: 10, gap: 4 },
   panelLabel: { fontSize: 12, fontWeight: '700', textTransform: 'uppercase', letterSpacing: 0.8, marginHorizontal: 16, marginTop: 8, marginBottom: 4 },
   navRow: { flexDirection: 'row', gap: 10, marginHorizontal: 16, marginTop: 24 },

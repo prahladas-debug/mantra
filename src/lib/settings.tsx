@@ -11,7 +11,8 @@ export interface Settings {
   secondaryScript: ScriptId | null;
   fontScale: number;
   theme: ThemeName | 'system';
-  showMeanings: boolean;
+  /** Show every meaning expanded. Off: each verse has a tap-to-open ಅರ್ಥ · Meaning button. */
+  alwaysShowMeanings: boolean;
   /** Which language(s) meanings are shown in. */
   meaningLang: MeaningPref;
   keepAwake: boolean;
@@ -34,7 +35,7 @@ const DEFAULTS: Store = {
     secondaryScript: null,
     fontScale: 1,
     theme: 'system',
-    showMeanings: true,
+    alwaysShowMeanings: false,
     meaningLang: 'auto',
     keepAwake: true,
   },

@@ -43,8 +43,8 @@ export default function SettingsScreen() {
 
       <SectionHeading>Reading</SectionHeading>
       <View style={row}>
-        <Text style={{ color: theme.text, fontSize: 16 }}>Show meanings · ಅರ್ಥ</Text>
-        <Switch value={settings.showMeanings} onValueChange={(v) => update({ showMeanings: v })} trackColor={{ true: theme.accent }} />
+        <Text style={{ color: theme.text, fontSize: 16, flex: 1 }}>Show all meanings open · ಎಲ್ಲ ಅರ್ಥ ತೆರೆದಿರಲಿ</Text>
+        <Switch value={settings.alwaysShowMeanings} onValueChange={(v) => update({ alwaysShowMeanings: v })} trackColor={{ true: theme.accent }} />
       </View>
       <View style={[row, { justifyContent: 'flex-start', gap: 8, flexWrap: 'wrap' }]}>
         {MEANING_PREFS.map((m) => (
@@ -52,7 +52,8 @@ export default function SettingsScreen() {
         ))}
       </View>
       <Text style={{ color: theme.textMuted, marginHorizontal: 16, fontSize: 14 }}>
-        Auto shows Kannada meanings when reading in Kannada script, English otherwise.
+        Meanings are hidden until you tap ಅರ್ಥ · Meaning under a verse. Language: Auto shows Kannada
+        when reading in Kannada script, English otherwise.
       </Text>
       <View style={row}>
         <Text style={{ color: theme.text, fontSize: 16, flex: 1 }}>Keep screen on while reading</Text>
