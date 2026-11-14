@@ -17,6 +17,7 @@ export type CategoryId =
   | 'sahasranama'
   | 'stotra'
   | 'madhva'
+  | 'dasara-pada'
   | 'sandhya'
   | 'puja';
 

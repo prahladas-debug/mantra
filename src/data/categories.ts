@@ -62,6 +62,12 @@ export const CATEGORIES: Category[] = [
     description: 'Vayu Stuti, Raghavendra Stotra and hymns of the Dvaita tradition.',
   },
   {
+    id: 'dasara-pada',
+    title: 'दासर पदगळु',
+    titleEn: 'Dasara Pada',
+    description: 'Kannada devotional songs of the Haridāsas: Purandara Dāsa, Kanaka Dāsa, Vijaya Dāsa and others.',
+  },
+  {
     id: 'sandhya',
     title: 'सन्ध्यावन्दनम्',
     titleEn: 'Sandhya Vandane',

@@ -80,6 +80,15 @@ const CATEGORY_LABELS: Record<CategoryId, Labels> = {
     bengali: 'মাধ্ব স্তোত্র',
     oriya: 'ମାଧ୍ୱ ସ୍ତୋତ୍ର',
   },
+  'dasara-pada': {
+    kannada: 'ದಾಸರ ಪದಗಳು',
+    telugu: 'దాసర పదాలు',
+    tamil: 'தாஸர் பதங்கள்',
+    malayalam: 'ദാസര പദങ്ങൾ',
+    gujarati: 'દાસર પદ',
+    bengali: 'দাসর পদ',
+    oriya: 'ଦାସର ପଦ',
+  },
   sandhya: {
     kannada: 'ಸಂಧ್ಯಾವಂದನೆ',
     telugu: 'సంధ్యావందనం',
