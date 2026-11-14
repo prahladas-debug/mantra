@@ -1,0 +1,164 @@
+import { Stack, router, useLocalSearchParams, type Href } from 'expo-router';
+import { useState } from 'react';
+import { Pressable, ScrollView, Text, View } from 'react-native';
+import { FestivalLine, NavButton, useEkadashiRule } from '../components/PanchangaCard';
+import { Chip, SectionHeading } from '../components/ui';
+import { festivalsBetween, type Festival } from '../lib/festivals';
+import { MASA, cityById, isoDate, lunarMonthAt, sunriseJd, sunriseTithi, todayIn, type City } from '../lib/panchanga';
+import { useSettings } from '../lib/settings';
+import { translit } from '../lib/transliterate';
+
+const MONTHS = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+const WEEK = ['Su', 'Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa'];
+
+/** Short tithi label for a grid cell: pakṣa abbreviation + number; पूर्णिमा / अमा(वास्या) spelled out. */
+function tithiShort(i: number): string {
+  if (i === 15) return 'पूर्णिमा';
+  if (i === 30) return 'अमा';
+  return `${i <= 15 ? 'शु' : 'कृ'} ${((i - 1) % 15) + 1}`;
+}
+
+function shiftMonth(ym: string, n: number): string {
+  const [y, m] = ym.split('-').map(Number);
+  const t = new Date(Date.UTC(y, m - 1 + n, 1));
+  return `${t.getUTCFullYear()}-${String(t.getUTCMonth() + 1).padStart(2, '0')}`;
+}
+
+interface Cell {
+  iso: string;
+  day: number;
+  /** Tithi (1–30) at sunrise. */
+  tithi: number;
+}
+
+/** Grid data for a Gregorian month 'YYYY-MM' at a city. */
+function buildMonth(city: City, month: string) {
+  const [y, m] = month.split('-').map(Number);
+  const days = new Date(Date.UTC(y, m, 0)).getUTCDate();
+  const lead = new Date(Date.UTC(y, m - 1, 1)).getUTCDay();
+  const cells: (Cell | null)[] = Array(lead).fill(null);
+  for (let d = 1; d <= days; d++) {
+    const iso = isoDate(y, m, d);
+    cells.push({ iso, day: d, tithi: sunriseTithi(city, iso) });
+  }
+  while (cells.length % 7) cells.push(null);
+  const weeks: (Cell | null)[][] = [];
+  for (let i = 0; i < cells.length; i += 7) weeks.push(cells.slice(i, i + 7));
+  const names: string[] = [];
+  for (const d of [1, 15, days]) {
+    const l = lunarMonthAt(sunriseJd(city, isoDate(y, m, d)));
+    const n = `${l.adhika ? 'अधिक ' : ''}${MASA[l.masa]}`;
+    if (!names.includes(n)) names.push(n);
+  }
+  return { y, m, first: isoDate(y, m, 1), last: isoDate(y, m, days), weeks, lunarLabel: names.join(' – ') };
+}
+
+export default function CalendarScreen() {
+  const { theme, settings } = useSettings();
+  const params = useLocalSearchParams<{ month?: string }>();
+  const city = cityById(settings.city);
+  const today = todayIn(city);
+  const [picked, setPicked] = useState<string | null>(null);
+  const month = picked ?? (params.month && /^\d{4}-\d{2}$/.test(params.month) ? params.month : today.slice(0, 7));
+  const [rule, setRule] = useEkadashiRule();
+  const t = (s: string) => translit(s, settings.script);
+
+  // Cheap (sunrise times and festival lists are cached in the libraries); the React
+  // Compiler memoises the rest.
+  const { y, m, first, last, weeks, lunarLabel } = buildMonth(city, month);
+  const festivals = festivalsBetween(city, first, last, rule);
+  const byDate = new Map<string, Festival[]>();
+  for (const f of festivals) byDate.set(f.date, [...(byDate.get(f.date) ?? []), f]);
+
+  return (
+    <ScrollView style={{ backgroundColor: theme.bg }} contentContainerStyle={{ paddingBottom: 40 }}>
+      <Stack.Screen options={{ title: 'Calendar · ಕ್ಯಾಲೆಂಡರ್' }} />
+
+      <View style={{ flexDirection: 'row', alignItems: 'center', gap: 10, marginHorizontal: 16, marginTop: 12 }}>
+        <NavButton icon="chevron-back" label="Previous month" onPress={() => setPicked(shiftMonth(month, -1))} />
+        <View style={{ flex: 1, alignItems: 'center' }}>
+          <Text style={{ color: theme.text, fontSize: 18, fontWeight: '700' }}>
+            {MONTHS[m - 1]} {y}
+          </Text>
+          <Text style={{ color: theme.textMuted, fontSize: 13 }}>
+            {t(lunarLabel)} · {city.name}
+          </Text>
+        </View>
+        <NavButton icon="chevron-forward" label="Next month" onPress={() => setPicked(shiftMonth(month, 1))} />
+      </View>
+
+      <View style={{ flexDirection: 'row', flexWrap: 'wrap', justifyContent: 'center', gap: 8, marginTop: 10, marginHorizontal: 16 }}>
+        <Chip label="Smārta" active={rule === 'smarta'} onPress={() => setRule('smarta')} />
+        <Chip label="Mādhva" active={rule === 'madhva'} onPress={() => setRule('madhva')} />
+        {month !== today.slice(0, 7) && <Chip label="This month" onPress={() => setPicked(today.slice(0, 7))} />}
+      </View>
+
+      <View style={{ marginHorizontal: 8, marginTop: 14 }}>
+        <View style={{ flexDirection: 'row' }}>
+          {WEEK.map((w, i) => (
+            <Text key={w} style={{ flex: 1, textAlign: 'center', color: i === 0 ? theme.accent : theme.textMuted, fontSize: 12, fontWeight: '700' }}>
+              {w}
+            </Text>
+          ))}
+        </View>
+        {weeks.map((week, wi) => (
+          <View key={wi} style={{ flexDirection: 'row' }}>
+            {week.map((c, ci) => {
+              if (!c) return <View key={ci} style={{ flex: 1, margin: 2 }} />;
+              const fs = byDate.get(c.iso) ?? [];
+              const ek = fs.some((f) => f.kind === 'ekadashi');
+              const fest = fs.some((f) => f.kind !== 'ekadashi');
+              const isToday = c.iso === today;
+              const special = c.tithi === 15 || c.tithi === 30;
+              return (
+                <Pressable
+                  key={ci}
+                  onPress={() => router.push({ pathname: '/panchanga', params: { date: c.iso } } as Href)}
+                  accessibilityRole="button"
+                  accessibilityLabel={`${c.day} ${MONTHS[m - 1]}${fs.length ? ', ' + fs.map((f) => f.en).join(', ') : ''}`}
+                  style={({ pressed }) => ({
+                    flex: 1, margin: 2, minHeight: 58, paddingVertical: 4, borderRadius: 8, alignItems: 'center',
+                    borderWidth: isToday ? 2 : 1,
+                    borderColor: isToday ? theme.accent : theme.cardBorder,
+                    backgroundColor: ek ? theme.accentSoft : theme.card,
+                    opacity: pressed ? 0.6 : 1,
+                  })}
+                >
+                  <Text style={{ color: ci === 0 ? theme.accent : theme.text, fontSize: 16, fontWeight: '700' }}>{c.day}</Text>
+                  <Text numberOfLines={1} adjustsFontSizeToFit style={{ color: special ? theme.accent : theme.textMuted, fontSize: 11 }}>
+                    {t(tithiShort(c.tithi))}
+                  </Text>
+                  <View style={{ flexDirection: 'row', gap: 3, marginTop: 2, height: 6 }}>
+                    {ek && <View style={{ width: 6, height: 6, borderRadius: 3, backgroundColor: theme.accent }} />}
+                    {fest && <View style={{ width: 6, height: 6, borderRadius: 3, backgroundColor: theme.text }} />}
+                  </View>
+                </Pressable>
+              );
+            })}
+          </View>
+        ))}
+        <Text style={{ color: theme.textMuted, fontSize: 12, marginHorizontal: 8, marginTop: 6, lineHeight: 17 }}>
+          Tithi at sunrise ({t('शु')} = śukla, {t('कृ')} = kṛṣṇa). Shaded with a coloured dot: ekādaśī; dark dot: festival.
+          Tap a day for its full pañcāṅga.
+        </Text>
+      </View>
+
+      <SectionHeading>This month · ಈ ತಿಂಗಳು</SectionHeading>
+      <View style={{ marginHorizontal: 16, borderRadius: 14, borderWidth: 1, borderColor: theme.cardBorder, backgroundColor: theme.card, paddingHorizontal: 12, paddingVertical: 8 }}>
+        {festivals.length === 0 && <Text style={{ color: theme.textMuted }}>No listed festivals.</Text>}
+        {festivals.map((f) => (
+          <View key={`${f.key}-${f.date}`} style={{ paddingVertical: 2 }}>
+            <FestivalLine f={f} showDate />
+            {f.note ? <Text style={{ color: theme.textMuted, fontSize: 12, lineHeight: 17 }}>{f.note}</Text> : null}
+          </View>
+        ))}
+      </View>
+      <Text style={{ color: theme.textMuted, fontSize: 13, margin: 16, lineHeight: 19 }}>
+        Ekādaśī: Smārta — ekādaśī at sunrise (with the usual kṣaya / trispṛśā exceptions). Mādhva — the ekādaśī must be
+        free of daśamī at aruṇodaya (96 minutes before sunrise); otherwise, or when ekādaśī lasts past the next sunrise,
+        the fast moves to the next day. Festival days follow the standard tithi-at-the-prescribed-time rules; local maṭha
+        and temple calendars can differ by a day — follow your family pañcāṅga.
+      </Text>
+    </ScrollView>
+  );
+}

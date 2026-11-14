@@ -29,6 +29,9 @@ function AppStack() {
         <Stack.Screen name="about" options={{ title: 'About' }} />
         <Stack.Screen name="panchanga" options={{ title: 'Pañcāṅga' }} />
         <Stack.Screen name="parayana" options={{ title: 'Pārāyaṇa' }} />
+        <Stack.Screen name="calendar" options={{ title: 'Calendar' }} />
+        <Stack.Screen name="japa" options={{ title: 'Japa' }} />
+        <Stack.Screen name="bookmarks" options={{ title: 'Bookmarks' }} />
         <Stack.Screen name="parayana-new" options={{ title: 'New pārāyaṇa' }} />
       </Stack>
     </>
