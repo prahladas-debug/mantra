@@ -24,14 +24,16 @@
  *  - 2.4 lines 5–6 re-divided at the metrical break (ಗಗನಚರವಾ / ಹನ …), ಮನೆಮನೆಗಳಲ್ಲಿ.
  * Kept from the base where the witness differs but both scan: 1.1 ಪೇಳುವೆ (ಕೇಳುವೆ),
  * 2.1 ಪಾವನನೆನಿಪ (ಪಾವನವೆನಿಪ), 2.2 ಕಲುಷವಚನಗಳಾದರಿವು (…ಆದಡೆಯು), 2.17 ತನು ಮನೆಗಳ.
- * The sandhi order follows the common printed order (rao collections, madhwafestivals PDF).
+ * Printed editions differ in the order of sandhis 19–24 (Bemmatti and kn.wikisource:
+ * 19 Karmavimocana … 24 Bimbāparokṣa; rao collections and madhwafestivals: 19 Bimba …).
  */
 import type { Mantra } from '../types';
 
 const PALLAVI = "ಹರಿಕಥಾಮೃತಸಾರ ಗುರುಗಳ\nಕರುಣದಿಂದಾಪನಿತು ಪೇಳುವೆ\nಪರಮಭಗವದ್ಭಕ್ತರಿದನಾದರದಿ ಕೇಳುವುದು ॥";
 const NOTE = 'The refrain (pallavi) is sung at the start of every sandhi.';
 const NOTE_KN = 'ಪ್ರತಿ ಸಂಧಿಯ ಆರಂಭದಲ್ಲಿ ಈ ಪಲ್ಲವಿಯನ್ನು ಹಾಡುತ್ತಾರೆ.';
-const MISSING = "Sandhis 3–32 are not included yet. For sandhis 3–12 only one metrical online copy was found (the second copy is in word-separated prose form and needs line-by-line checking); for sandhis 13–32 the available online copies are word-separated (padaccheda) recitation texts that do not keep the original bhāminī ṣaṭpadi lines. They will be added after collation with a printed edition.";
+const MISSING =
+  "Sandhis 3–32 are not included yet. Printed editions have been found (the mūla edition of Bemmatti Venkatēśācār, and the 1925 and 1930 editions in the Digital Library of India), but they are available only as machine-read scans. Collating them with the typed online copies still leaves many lines in each sandhi that no second copy confirms. The remaining sandhis will be added after line-by-line proofreading.";
 
 export const harikathamrutasara01: Mantra = {
   id: 'harikathamrutasara-01',

@@ -6,7 +6,7 @@ import { ambhriniSukta } from './texts/ambhrini-sukta';
 import { ballitthaSukta } from './texts/ballittha-sukta';
 import { bhagavadGita01, bhagavadGita02, bhagavadGita03, bhagavadGita04, bhagavadGita05, bhagavadGita06, bhagavadGita07, bhagavadGita08, bhagavadGita09, bhagavadGita10, bhagavadGita11, bhagavadGita12, bhagavadGita13, bhagavadGita14, bhagavadGita15, bhagavadGita16, bhagavadGita17, bhagavadGita18 } from './texts/bhagavad-gita';
 import { dailyShlokas } from './texts/daily-shlokas';
-import { dpBhagyadaLakshmiBaramma, dpJagadoddharana, dpKallusakkareKolliro, dpAcharavilladaNalige, dpGajavadanaBeduve, dpSharanuSiddhiVinayaka, dpGuruvinaGulama, dpRamaMantravaJapiso, dpYarigeYaruntu, dpDasanaMadikoEnna, dpManavaJanmaDoddadu, dpToogireRangana, dpIduBhagya, dpRamanamaPayasakke, dpBagilanuTeredu, dpTallanisadiruKandya, dpBhushanakeBhushana, dpKrishnaNiBeganeBaro, dpInduEnageGovinda } from './texts/dasara-pada';
+import { dpBhagyadaLakshmiBaramma, dpJagadoddharana, dpKallusakkareKolliro, dpAcharavilladaNalige, dpGajavadanaBeduve, dpSharanuSiddhiVinayaka, dpGuruvinaGulama, dpRamaMantravaJapiso, dpYarigeYaruntu, dpDasanaMadikoEnna, dpManavaJanmaDoddadu, dpToogireRangana, dpIduBhagya, dpRamanamaPayasakke, dpHariNarayana, dpPillangoviyaCheluva, dpBandaddellaBarali, dpBagilanuTeredu, dpTallanisadiruKandya, dpKulaKulaKulavendu, dpNiMayeyolago, dpKeshavaNama, dpBhushanakeBhushana, dpKrishnaNiBeganeBaro, dpInduEnageGovinda, dpNinnaOlumeyinda } from './texts/dasara-pada';
 import { deviMahatmyamKavacham, deviMahatmyamArgala, deviMahatmyamKilakam, deviMahatmyam01, deviMahatmyam02, deviMahatmyam03, deviMahatmyam04, deviMahatmyam05, deviMahatmyam06, deviMahatmyam07, deviMahatmyam08, deviMahatmyam09, deviMahatmyam10, deviMahatmyam11, deviMahatmyam12, deviMahatmyam13, deviMahatmyamRatriSuktam, deviMahatmyamDeviSuktam, deviMahatmyamAparadhaKshamapana } from './texts/devi-mahatmyam';
 import { durgaSaptashloki } from './texts/durga-saptashloki';
 import { dvadashaStotra01, dvadashaStotra02, dvadashaStotra03, dvadashaStotra04, dvadashaStotra05, dvadashaStotra06, dvadashaStotra07, dvadashaStotra08, dvadashaStotra09, dvadashaStotra10, dvadashaStotra11, dvadashaStotra12 } from './texts/dvadasha-stotra';
@@ -41,7 +41,7 @@ import { shivaPanchakshara } from './texts/shiva-panchakshara';
 import { shodashopacharaPuja } from './texts/shodashopachara-puja';
 import { sriRudramNamakam, sriRudramChamakam } from './texts/sri-rudram';
 import { sriSukta } from './texts/sri-sukta';
-import { sumadhvaVijaya01, sumadhvaVijaya02, sumadhvaVijaya03 } from './texts/sumadhva-vijaya';
+import { sumadhvaVijaya01, sumadhvaVijaya02, sumadhvaVijaya03, sumadhvaVijaya04, sumadhvaVijaya05, sumadhvaVijaya06, sumadhvaVijaya07, sumadhvaVijaya08, sumadhvaVijaya09, sumadhvaVijaya10, sumadhvaVijaya11, sumadhvaVijaya12, sumadhvaVijaya13, sumadhvaVijaya14, sumadhvaVijaya15, sumadhvaVijaya16 } from './texts/sumadhva-vijaya';
 import { sundarakanda01, sundarakanda02, sundarakanda03, sundarakanda04, sundarakanda05, sundarakanda06, sundarakanda07, sundarakanda08, sundarakanda09, sundarakanda10, sundarakanda11, sundarakanda12, sundarakanda13, sundarakanda14, sundarakanda15, sundarakanda16, sundarakanda17, sundarakanda18, sundarakanda19, sundarakanda20, sundarakanda21, sundarakanda22, sundarakanda23, sundarakanda24, sundarakanda25, sundarakanda26, sundarakanda27, sundarakanda28, sundarakanda29, sundarakanda30, sundarakanda31, sundarakanda32, sundarakanda33, sundarakanda34, sundarakanda35, sundarakanda36, sundarakanda37, sundarakanda38, sundarakanda39, sundarakanda40, sundarakanda41, sundarakanda42, sundarakanda43, sundarakanda44, sundarakanda45, sundarakanda46, sundarakanda47, sundarakanda48, sundarakanda49, sundarakanda50, sundarakanda51, sundarakanda52, sundarakanda53, sundarakanda54, sundarakanda55, sundarakanda56, sundarakanda57, sundarakanda58, sundarakanda59, sundarakanda60, sundarakanda61, sundarakanda62, sundarakanda63, sundarakanda64, sundarakanda65, sundarakanda66, sundarakanda67, sundarakanda68 } from './texts/sundarakanda';
 import { vayuStuti } from './texts/vayu-stuti';
 import { venkateshaStotram } from './texts/venkatesha-stotram';
@@ -87,11 +87,18 @@ export const LIBRARY: Mantra[] = [
   dpToogireRangana,
   dpIduBhagya,
   dpRamanamaPayasakke,
+  dpHariNarayana,
+  dpPillangoviyaCheluva,
+  dpBandaddellaBarali,
   dpBagilanuTeredu,
   dpTallanisadiruKandya,
+  dpKulaKulaKulavendu,
+  dpNiMayeyolago,
+  dpKeshavaNama,
   dpBhushanakeBhushana,
   dpKrishnaNiBeganeBaro,
   dpInduEnageGovinda,
+  dpNinnaOlumeyinda,
   deviMahatmyamKavacham,
   deviMahatmyamArgala,
   deviMahatmyamKilakam,
@@ -161,6 +168,19 @@ export const LIBRARY: Mantra[] = [
   sumadhvaVijaya01,
   sumadhvaVijaya02,
   sumadhvaVijaya03,
+  sumadhvaVijaya04,
+  sumadhvaVijaya05,
+  sumadhvaVijaya06,
+  sumadhvaVijaya07,
+  sumadhvaVijaya08,
+  sumadhvaVijaya09,
+  sumadhvaVijaya10,
+  sumadhvaVijaya11,
+  sumadhvaVijaya12,
+  sumadhvaVijaya13,
+  sumadhvaVijaya14,
+  sumadhvaVijaya15,
+  sumadhvaVijaya16,
   sundarakanda01,
   sundarakanda02,
   sundarakanda03,
