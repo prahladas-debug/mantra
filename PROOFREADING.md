@@ -165,3 +165,28 @@ review them before a store release,** especially these:
 - **Achyutashtakam:** v5.
 - **Ganesha Pancharatnam:** v1 and v4.
 - **Shiva Panchakshara:** v4.
+
+## Source review of the earlier texts (Nov 2026)
+
+Every text first written from memory has now been collated against at least
+two independent published copies. A correction was made only where two
+sources agree against ours, or where ours was a clear typo or bad grammar.
+Full changelogs, with the witnesses and every variant kept:
+
+- [Vishnu Sahasranama](proofreading/vishnu-sahasranama.md): 5 corrections,
+  including 33 अदृश्यो **व्यक्तरूपः** (was अव्यक्तरूपः). Still open:
+  pūrva-bhāga 10 (दैवतं देवतानां / दैवतानां) and uttara-bhāga 17
+  (परिकल्पते / परिकल्प्यते).
+- [Stotras and daily shlokas](proofreading/stotras-and-daily-shlokas.md):
+  - 9 corrections (Achyutāṣṭakam ×4, Liṅgāṣṭakam ×2, Śiva Pañcākṣara,
+    Madhurāṣṭakam, Śubhaṃ karoti).
+  - Krishna Ashtottara completed. Open: v12 कुब्जाकृष्णाम्बर° (popular) or
+    कुब्जाकृष्टाम्बर° (Brahmāṇḍa Purāṇa).
+- [Suktas, Raghavendra Stotram, Puja](proofreading/suktas-raghavendra-puja.md):
+  - 5 corrections.
+  - Sri Sukta vv. 16–36 and the missing Mantra Pushpam passages added.
+  - Raghavendra Stotram verse division fixed.
+
+The sources used by the later texts (Lalitha Sahasranama, Sandhyavandane,
+Devi Mahatmyam, Sundarakanda and the parayana texts) are listed in each
+file's header comment.
