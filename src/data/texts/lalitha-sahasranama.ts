@@ -1,7 +1,8 @@
 /**
  * Śrī Lalitā Sahasranāma Stotram (Brahmāṇḍa Purāṇa, Uttara-khaṇḍa,
  * Lalitopākhyāna; Hayagrīva–Agastya saṃvāda), as printed for pārāyaṇa:
- * nyāsa / viniyoga, four dhyāna verses, 183 ślokas, closing colophon.
+ * Pūrva-bhāga (50), nyāsa / viniyoga, four dhyāna verses, the stotram (183),
+ * colophon, Uttara-bhāga / phala-śruti (86).
  *
  * Collated (Nov 2026) from these independent digital witnesses:
  *  - stotranidhi.com, typed Devanagari from their printed "Prabhāta
@@ -50,6 +51,33 @@
  * त्रिनयनां (stotranidhi त्रिणयनां), बिभ्रतीं (some °विभ्रतीं), मयूखैः.
  * Colophon: Gita Press wording.
  *
+ * Pūrva-bhāga and Uttara-bhāga (added Nov 2026). Witnesses: stotranidhi.com
+ * (base; its pūrva- and uttara-pīṭhikā pages), the Gita Press edition (archive.org
+ * OCR, plus typed copies of the same text at github.com/swamioremmurti/swadhyay
+ * and dasarpai, counted with the Gita Press), and Bhāskararāya's text in
+ * Pansikar's Nirnaya Sagar edition (OCR) to break ties. All half-verses are
+ * 16 syllables. Ties with no third witness keep the base reading.
+ *  - Pūrva 18 तथा → यथा (Gita Press, Pansikar) and देवो परः → देवो वरः
+ *    (Pansikar; the other two have the faulty sandhi देवो परः); 36 यः → याः;
+ *    38 दृष्ट्वोपविष्टेषु → दृष्टोपविष्टेषु; 43 नामसाहस्रकम् → नामसहस्रकम् (metre).
+ *    Kept with Pansikar against the Gita Press: 4 षोढान्यासादयो न्यासाः …
+ *    समीरिताः, 5 श्चैव … प्रकीर्तिताः, 28 वाग्देवीर्वशिनीमुख्याः (no देव्युवाच), 31
+ *    नामसहस्रकैः. Kept (tie): 6 देशिकात्मनोः, 19 परमेतत्, 32 इत्याज्ञप्तास्ततो, 38 तत्र.
+ *  - Uttara: numbered 86 as in the Gita Press. Stotranidhi's extra śloka
+ *    गङ्गा भवानी गायत्री काली … (its 71) is left out: it is absent from the Gita
+ *    Press, and Bhāskararāya cites the list only as a quotation in his
+ *    commentary. 85–86 follow the Gita Press and Pansikar (ललिताप्रेरणादेव, and
+ *    the half-verse कीर्तनीयमिदं भक्त्या कुम्भयोने निरन्तरम्, missing in stotranidhi).
+ *    Changes to the base: 3 सर्वज्वरार्ति, 5 ललितोपास्ति, 24 स्पृष्ट्वा, 39 संहरेत्,
+ *    69 विष्णुनामसहस्रात्, 84 स्वातन्त्र्येण (typos/grammar); 7 य एवं पठते, 10
+ *    सौवर्णभाराणां, 12 लभेत्, 23 कल्पनोदितः, 38 जापिनः, 41 पक्षमेकम्, 83 रहिताय तु
+ *    (Gita Press + Pansikar); 22 नामसहस्रकम् (metre); 52 कह्लारैः (spelling).
+ *    Kept with Pansikar: 10 यः कोटिं हयमेधानाम्, 31 तुरङ्गं वा मतङ्गजम्, 36 चोरैः,
+ *    76 विरलो … पाठकः. Kept (tie, Gita Press differs): 1 इत्येतत् (इत्येवं), 9 च (तु),
+ *    19 नित्यं सङ्कीर्तनाशक्तः, 29 जपेत् (पठेत्), 32 ददात्येव (दद्यादेव), 50 दृश्यते
+ *    (विद्यते), 68 नामसङ्कीर्तनं (नामानुकीर्तनं).
+ *  - Colophons of chapters 1 and 3: Gita Press wording.
+ *
  * Meanings (en, kn) are original short glosses written for this app.
  * Still to be proofread against a printed edition before a store release.
  */
@@ -62,12 +90,424 @@ export const lalithaSahasranama: Mantra = {
   category: 'sahasranama',
   deity: 'Śrī Lalitā Tripurasundarī',
   source: 'Brahmāṇḍa Purāṇa, Uttara-khaṇḍa (Lalitopākhyāna), Hayagrīva–Agastya saṃvāda',
-  summary: 'The thousand names of the Divine Mother, Śrī Lalitā Tripurasundarī, taught by Lord Hayagrīva to the sage Agastya in the Lalitopākhyāna of the Brahmāṇḍa Purāṇa. At the Goddess\'s command the names were composed and first sung by Vaśinī and the other goddesses of speech. This text gives the viniyoga, four dhyāna verses and the 183 ślokas of the stotram, recited for pārāyaṇa.',
-  summaryKn: 'ಬ್ರಹ್ಮಾಂಡಪುರಾಣದ ಲಲಿತೋಪಾಖ್ಯಾನದಲ್ಲಿ ಶ್ರೀಹಯಗ್ರೀವರು ಅಗಸ್ತ್ಯ ಮಹರ್ಷಿಗಳಿಗೆ ಉಪದೇಶಿಸಿದ, ಜಗನ್ಮಾತೆ ಶ್ರೀಲಲಿತಾ ತ್ರಿಪುರಸುಂದರಿಯ ಸಾವಿರ ನಾಮಗಳು. ದೇವಿಯ ಆಜ್ಞೆಯಂತೆ ವಶಿನೀ ಮೊದಲಾದ ವಾಗ್ದೇವತೆಯರು ಈ ನಾಮಗಳನ್ನು ರಚಿಸಿ ಮೊದಲು ಹಾಡಿದರು. ಪಾರಾಯಣಕ್ಕಾಗಿ ಇಲ್ಲಿ ವಿನಿಯೋಗ, ನಾಲ್ಕು ಧ್ಯಾನಶ್ಲೋಕಗಳು ಮತ್ತು ಸ್ತೋತ್ರದ 183 ಶ್ಲೋಕಗಳನ್ನು ನೀಡಲಾಗಿದೆ.',
+  summary: 'The thousand names of the Divine Mother, Śrī Lalitā Tripurasundarī, taught by Lord Hayagrīva to the sage Agastya in the Lalitopākhyāna of the Brahmāṇḍa Purāṇa. At the Goddess\'s command the names were composed and first sung by Vaśinī and the other goddesses of speech. This text gives the Pūrva-bhāga (50 ślokas), the viniyoga, four dhyāna verses, the 183 ślokas of the stotram and the Uttara-bhāga or phala-śruti (86 ślokas).',
+  summaryKn: 'ಬ್ರಹ್ಮಾಂಡಪುರಾಣದ ಲಲಿತೋಪಾಖ್ಯಾನದಲ್ಲಿ ಶ್ರೀಹಯಗ್ರೀವರು ಅಗಸ್ತ್ಯ ಮಹರ್ಷಿಗಳಿಗೆ ಉಪದೇಶಿಸಿದ, ಜಗನ್ಮಾತೆ ಶ್ರೀಲಲಿತಾ ತ್ರಿಪುರಸುಂದರಿಯ ಸಾವಿರ ನಾಮಗಳು. ದೇವಿಯ ಆಜ್ಞೆಯಂತೆ ವಶಿನೀ ಮೊದಲಾದ ವಾಗ್ದೇವತೆಯರು ಈ ನಾಮಗಳನ್ನು ರಚಿಸಿ ಮೊದಲು ಹಾಡಿದರು. ಇಲ್ಲಿ ಪೂರ್ವಭಾಗ (50 ಶ್ಲೋಕಗಳು), ವಿನಿಯೋಗ, ನಾಲ್ಕು ಧ್ಯಾನಶ್ಲೋಕಗಳು, ಸ್ತೋತ್ರದ 183 ಶ್ಲೋಕಗಳು ಮತ್ತು ಉತ್ತರಭಾಗ ಅಥವಾ ಫಲಶ್ರುತಿ (86 ಶ್ಲೋಕಗಳು) ಇವೆ.',
   difficulty: 'advanced',
-  completeness: 'partial',
-  contentNote: 'The Pūrva-bhāga (the Hayagrīva–Agastya dialogue before the names, 50 ślokas) and the Uttara-bhāga / phala-śruti (86 ślokas) are not included yet; they are to be added after collation. The karanyāsa and aṅganyāsa with bīja-mantras and the pañcapūjā (लमित्यादि) printed in some editions are also omitted. Śloka 111 follows Bhāskararāya\'s preferred reading बर्बरालका; many editions read बन्धुरालका. Other readings recited in some families: śloka 10 समाकर्षद्दिगन्तरा, 12 चुबुक°, 40 महाशक्तिः.',
+  completeness: 'complete',
+  contentNote: 'The karanyāsa and aṅganyāsa with bīja-mantras and the pañcapūjā (लमित्यादि) printed in some editions are omitted. Śloka 111 follows Bhāskararāya\'s preferred reading बर्बरालका; many editions read बन्धुरालका. Other readings recited in some families: śloka 10 समाकर्षद्दिगन्तरा, 12 चुबुक°, 40 महाशक्तिः. The Uttara-bhāga follows the Gita Press and Bhāskararāya\'s text in 86 ślokas; some editions add a verse naming the ten chief sahasranāmas (गङ्गा भवानी गायत्री …) after śloka 70 and count 87.',
   sections: [
+    {
+      title: 'पूर्वभागः',
+      titleEn: 'Pūrva-bhāga',
+      note: 'Hayagrīva\'s dialogue with Agastya that introduces the thousand names. Often omitted in daily pārāyaṇa.',
+      noteKn: 'ಸಹಸ್ರನಾಮವನ್ನು ಪರಿಚಯಿಸುವ ಹಯಗ್ರೀವ ಅಗಸ್ತ್ಯರ ಸಂವಾದ. ದಿನನಿತ್ಯದ ಪಾರಾಯಣದಲ್ಲಿ ಇದನ್ನು ಅನೇಕರು ಬಿಡುತ್ತಾರೆ.',
+      verses: [
+        { text: 'अगस्त्य उवाच' },
+        {
+          n: 1,
+          text: 'अश्वानन महाबुद्धे सर्वशास्त्रविशारद ।\nकथितं ललितादेव्याश्चरितं परमाद्भुतम् ॥',
+          meaning: {
+            en: 'Agastya said: O horse-faced Hayagrīva, wise and versed in every scripture, you have told me the most wonderful story of the goddess Lalitā.',
+            kn: 'ಅಗಸ್ತ್ಯರು ಹೇಳಿದರು: ಮಹಾಬುದ್ಧಿಶಾಲಿಯೂ ಸರ್ವಶಾಸ್ತ್ರವಿಶಾರದರೂ ಆದ ಅಶ್ವಮುಖ ಹಯಗ್ರೀವರೇ, ಲಲಿತಾದೇವಿಯ ಪರಮಾದ್ಭುತವಾದ ಚರಿತ್ರೆಯನ್ನು ನೀವು ನನಗೆ ಹೇಳಿದ್ದೀರಿ.',
+          },
+        },
+        {
+          n: 2,
+          text: 'पूर्वं प्रादुर्भवो मातुस्ततः पट्टाभिषेचनम् ।\nभण्डासुरवधश्चैव विस्तरेण त्वयोदितः ॥',
+          meaning: {
+            en: 'You described in detail the Mother\'s first appearance, then her coronation, and the slaying of Bhaṇḍāsura.',
+            kn: 'ಮೊದಲು ಜಗನ್ಮಾತೆಯ ಆವಿರ್ಭಾವ, ನಂತರ ಆಕೆಯ ಪಟ್ಟಾಭಿಷೇಕ, ಭಂಡಾಸುರನ ವಧೆ ಇವೆಲ್ಲವನ್ನೂ ವಿಸ್ತಾರವಾಗಿ ಹೇಳಿದ್ದೀರಿ.',
+          },
+        },
+        {
+          n: 3,
+          text: 'वर्णितं श्रीपुरं चापि महाविभवविस्तरम् ।\nश्रीमत्पञ्चदशाक्षर्याः महिमा वर्णितस्तथा ॥',
+          meaning: {
+            en: 'You described Śrīpura in all its splendour, and also the greatness of the glorious fifteen-syllable mantra (Pañcadaśākṣarī).',
+            kn: 'ಮಹಾವೈಭವದಿಂದ ಕೂಡಿದ ಶ್ರೀಪುರವನ್ನೂ, ಪಂಚದಶಾಕ್ಷರೀ ಮಂತ್ರದ ಮಹಿಮೆಯನ್ನೂ ವರ್ಣಿಸಿದ್ದೀರಿ.',
+          },
+        },
+        {
+          n: 4,
+          text: 'षोढान्यासादयो न्यासाः न्यासखण्डे समीरिताः ।\nअन्तर्यागक्रमश्चैव बहिर्यागक्रमस्तथा ॥',
+          meaning: {
+            en: 'In the Nyāsa-khaṇḍa you explained the ṣoḍhā-nyāsa and the other nyāsas, and the order of the inner and the outer worship.',
+            kn: 'ನ್ಯಾಸಖಂಡದಲ್ಲಿ ಷೋಢಾನ್ಯಾಸ ಮೊದಲಾದ ನ್ಯಾಸಗಳನ್ನೂ, ಅಂತರ್ಯಾಗ ಮತ್ತು ಬಹಿರ್ಯಾಗಗಳ ಕ್ರಮವನ್ನೂ ತಿಳಿಸಿದ್ದೀರಿ.',
+          },
+        },
+        {
+          n: 5,
+          text: 'महायागक्रमश्चैव पूजाखण्डे प्रकीर्तिताः ।\nपुरश्चरणखण्डे तु जपलक्षणमीरितम् ॥',
+          meaning: {
+            en: 'In the Pūjā-khaṇḍa you set out the order of the great worship (mahāyāga), and in the Puraścaraṇa-khaṇḍa the rules of japa.',
+            kn: 'ಪೂಜಾಖಂಡದಲ್ಲಿ ಮಹಾಯಾಗದ ಕ್ರಮವನ್ನೂ, ಪುರಶ್ಚರಣಖಂಡದಲ್ಲಿ ಜಪದ ಲಕ್ಷಣವನ್ನೂ ಹೇಳಿದ್ದೀರಿ.',
+          },
+        },
+        {
+          n: 6,
+          text: 'होमखण्डे त्वया प्रोक्तो होमद्रव्यविधिक्रमः ।\nचक्रराजस्य विद्यायाः श्रीदेव्या देशिकात्मनोः ॥',
+          meaning: {
+            en: 'In the Homa-khaṇḍa you taught the materials and the procedure of the fire-offering. The oneness of the Śrīcakra, the Vidyā, the Goddess, the guru and one\'s own Self',
+            kn: 'ಹೋಮಖಂಡದಲ್ಲಿ ಹೋಮದ್ರವ್ಯಗಳನ್ನೂ ಅದರ ವಿಧಿಕ್ರಮವನ್ನೂ ಹೇಳಿದ್ದೀರಿ. ಶ್ರೀಚಕ್ರ, ವಿದ್ಯೆ, ಶ್ರೀದೇವಿ, ಗುರು ಮತ್ತು ತನ್ನ ಆತ್ಮ ಇವುಗಳ ಪರಸ್ಪರ ಐಕ್ಯವನ್ನು',
+          },
+        },
+        {
+          n: 7,
+          text: 'रहस्यखण्डे तादात्म्यं परस्परमुदीरितम् ।\nस्तोत्रखण्डे बहुविधाः स्तुतयः परिकीर्तिताः ॥',
+          meaning: {
+            en: 'you explained in the Rahasya-khaṇḍa, and in the Stotra-khaṇḍa you recounted many kinds of hymns.',
+            kn: 'ರಹಸ್ಯಖಂಡದಲ್ಲಿ ವಿವರಿಸಿದ್ದೀರಿ; ಸ್ತೋತ್ರಖಂಡದಲ್ಲಿ ಅನೇಕ ಬಗೆಯ ಸ್ತುತಿಗಳನ್ನು ಹೇಳಿದ್ದೀರಿ.',
+          },
+        },
+        {
+          n: 8,
+          text: 'मन्त्रिणीदण्डिनीदेव्योः प्रोक्ते नामसहस्रके ।\nन तु श्रीललितादेव्याः प्रोक्तं नामसहस्रकम् ॥',
+          meaning: {
+            en: 'You told me the thousand names of the goddesses Mantriṇī and Daṇḍinī, but not the thousand names of Śrī Lalitā Devī herself.',
+            kn: 'ಮಂತ್ರಿಣೀ ಮತ್ತು ದಂಡಿನೀ ದೇವಿಯರ ಸಹಸ್ರನಾಮಗಳನ್ನು ಹೇಳಿದಿರಿ; ಆದರೆ ಶ್ರೀಲಲಿತಾದೇವಿಯ ಸಹಸ್ರನಾಮವನ್ನು ಹೇಳಲಿಲ್ಲ.',
+          },
+        },
+        {
+          n: 9,
+          text: 'तत्र मे संशयो जातो हयग्रीव दयानिधे ।\nकिं वा त्वया विस्मृतं तज्ज्ञात्वा वा समुपेक्षितम् ॥',
+          meaning: {
+            en: 'So a doubt has arisen in me, O Hayagrīva, ocean of compassion: did you forget it, or leave it out knowingly?',
+            kn: 'ದಯಾನಿಧಿಯಾದ ಹಯಗ್ರೀವರೇ, ಇದರಿಂದ ನನಗೆ ಸಂಶಯ ಉಂಟಾಗಿದೆ: ನೀವು ಅದನ್ನು ಮರೆತಿರೋ, ಅಥವಾ ತಿಳಿದೂ ಕೈಬಿಟ್ಟಿರೋ?',
+          },
+        },
+        {
+          n: 10,
+          text: 'मम वा योग्यता नास्ति श्रोतुं नामसहस्रकम् ।\nकिमर्थं भवता नोक्तं तत्र मे कारणं वद ॥',
+          meaning: {
+            en: 'Or am I not fit to hear that thousand names? Tell me the reason why you did not teach it.',
+            kn: 'ಅಥವಾ ಆ ಸಹಸ್ರನಾಮವನ್ನು ಕೇಳುವ ಯೋಗ್ಯತೆ ನನಗಿಲ್ಲವೇ? ನೀವು ಅದನ್ನು ಏಕೆ ಹೇಳಲಿಲ್ಲ ಎಂಬ ಕಾರಣವನ್ನು ತಿಳಿಸಿರಿ.',
+          },
+        },
+        { text: 'सूत उवाच' },
+        {
+          n: 11,
+          text: 'इति पृष्टो हयग्रीवो मुनिना कुम्भजन्मना ।\nप्रहृष्टो वचनं प्राह तापसं कुम्भसम्भवम् ॥',
+          meaning: {
+            en: 'Sūta said: Asked thus by the pot-born sage, Hayagrīva was delighted and spoke to the ascetic Agastya.',
+            kn: 'ಸೂತರು ಹೇಳಿದರು: ಕುಂಭಸಂಭವರಾದ ಅಗಸ್ತ್ಯ ಮುನಿಗಳು ಹೀಗೆ ಕೇಳಲು, ಹಯಗ್ರೀವರು ಸಂತೋಷಗೊಂಡು ಆ ತಪಸ್ವಿಗೆ ಹೀಗೆ ಹೇಳಿದರು.',
+          },
+        },
+        { text: 'श्रीहयग्रीव उवाच' },
+        {
+          n: 12,
+          text: 'लोपामुद्रापतेऽगस्त्य सावधानमनाः शृणु ।\nनाम्नां सहस्रं यन्नोक्तं कारणं तद्वदामि ते ॥',
+          meaning: {
+            en: 'Hayagrīva said: O Agastya, husband of Lopāmudrā, listen attentively. I shall tell you why I did not teach the thousand names.',
+            kn: 'ಶ್ರೀಹಯಗ್ರೀವರು ಹೇಳಿದರು: ಲೋಪಾಮುದ್ರೆಯ ಪತಿಯಾದ ಅಗಸ್ತ್ಯರೇ, ಎಚ್ಚರದ ಮನಸ್ಸಿನಿಂದ ಕೇಳಿರಿ. ಸಹಸ್ರನಾಮವನ್ನು ನಾನು ಏಕೆ ಹೇಳಲಿಲ್ಲ ಎಂಬ ಕಾರಣವನ್ನು ತಿಳಿಸುತ್ತೇನೆ.',
+          },
+        },
+        {
+          n: 13,
+          text: 'रहस्यमिति मत्वाहं नोक्तवांस्ते न चान्यथा ।\nपुनश्च पृच्छते भक्त्या तस्मात्तत्ते वदाम्यहम् ॥',
+          meaning: {
+            en: 'I did not tell it only because I held it to be secret, for no other reason. Since you ask again with devotion, I shall tell it to you now.',
+            kn: 'ಅದು ರಹಸ್ಯವೆಂದು ಭಾವಿಸಿದ್ದರಿಂದಲೇ ನಾನು ಹೇಳಲಿಲ್ಲ, ಬೇರೆ ಕಾರಣದಿಂದಲ್ಲ. ನೀವು ಮತ್ತೆ ಭಕ್ತಿಯಿಂದ ಕೇಳುತ್ತಿರುವುದರಿಂದ ಈಗ ಹೇಳುತ್ತೇನೆ.',
+          },
+        },
+        {
+          n: 14,
+          text: 'ब्रूयाच्छिष्याय भक्ताय रहस्यमपि देशिकः ।\nभवता न प्रदेयं स्यादभक्ताय कदाचन ॥',
+          meaning: {
+            en: 'A teacher may impart even a secret to a devoted disciple; but you must never give it to anyone without devotion,',
+            kn: 'ಭಕ್ತನಾದ ಶಿಷ್ಯನಿಗೆ ಗುರುವು ರಹಸ್ಯವನ್ನೂ ಹೇಳಬಹುದು; ಆದರೆ ಭಕ್ತಿಯಿಲ್ಲದವನಿಗೆ ನೀವು ಇದನ್ನು ಎಂದಿಗೂ ಕೊಡಬಾರದು.',
+          },
+        },
+        {
+          n: 15,
+          text: 'न शठाय न दुष्टाय नाविश्वासाय कर्हिचित् ।\nश्रीमातृभक्तियुक्ताय श्रीविद्याराजवेदिने ॥',
+          meaning: {
+            en: 'nor ever to the deceitful, the wicked or the faithless. To one devoted to the Mother who knows Śrī Vidyā, the king of mantras,',
+            kn: 'ಮೋಸಗಾರನಿಗೂ ದುಷ್ಟನಿಗೂ ನಂಬಿಕೆಯಿಲ್ಲದವನಿಗೂ ಎಂದೂ ಕೊಡಬಾರದು. ಶ್ರೀಮಾತೆಯಲ್ಲಿ ಭಕ್ತಿಯುಳ್ಳವನಿಗೆ, ಮಂತ್ರರಾಜವಾದ ಶ್ರೀವಿದ್ಯೆಯನ್ನು ಬಲ್ಲವನಿಗೆ,',
+          },
+        },
+        {
+          n: 16,
+          text: 'उपासकाय शुद्धाय देयं नामसहस्रकम् ।\nयानि नामसहस्राणि सद्यः सिद्धिप्रदानि वै ॥',
+          meaning: {
+            en: 'a pure worshipper, this thousand names may be given. Among the thousand-name hymns of Lalitā in the tantras, which give success quickly,',
+            kn: 'ಶುದ್ಧನಾದ ಉಪಾಸಕನಿಗೆ ಈ ಸಹಸ್ರನಾಮವನ್ನು ಕೊಡಬೇಕು. ಶೀಘ್ರವಾಗಿ ಸಿದ್ಧಿಯನ್ನು ಕೊಡುವ, ತಂತ್ರಗಳಲ್ಲಿರುವ ಲಲಿತಾದೇವಿಯ ಸಹಸ್ರನಾಮಗಳಲ್ಲಿ',
+          },
+        },
+        {
+          n: 17,
+          text: 'तन्त्रेषु ललितादेव्यास्तेषु मुख्यमिदं मुने ।\nश्रीविद्यैव तु मन्त्राणां तत्र कादिर्यथा परा ॥',
+          meaning: {
+            en: 'this one, O sage, is the foremost. Just as Śrī Vidyā is supreme among mantras, and the kādi form within it,',
+            kn: 'ಮುನಿಯೇ, ಇದೇ ಮುಖ್ಯವಾದದ್ದು. ಮಂತ್ರಗಳಲ್ಲಿ ಶ್ರೀವಿದ್ಯೆಯೂ, ಅದರಲ್ಲಿ ಕಾದಿವಿದ್ಯೆಯೂ ಶ್ರೇಷ್ಠವಾಗಿರುವಂತೆ,',
+          },
+        },
+        {
+          n: 18,
+          text: 'पुराणां श्रीपुरमिव शक्तीनां ललिता यथा ।\nश्रीविद्योपासकानां च यथा देवो वरः शिवः ॥',
+          meaning: {
+            en: 'as Śrīpura is among cities and Lalitā among the Śaktis, and as Śiva is the highest god for worshippers of Śrī Vidyā,',
+            kn: 'ಪುರಗಳಲ್ಲಿ ಶ್ರೀಪುರವೂ, ಶಕ್ತಿಗಳಲ್ಲಿ ಲಲಿತೆಯೂ, ಶ್ರೀವಿದ್ಯೋಪಾಸಕರಿಗೆ ಶಿವನೇ ಶ್ರೇಷ್ಠ ದೇವನೂ ಆಗಿರುವಂತೆ,',
+          },
+        },
+        {
+          n: 19,
+          text: 'तथा नामसहस्रेषु परमेतत्प्रकीर्तितम् ।\nयथास्य पठनाद्देवी प्रीयते ललिताम्बिका ॥',
+          meaning: {
+            en: 'so this is declared the highest among all thousand-name hymns. Lalitāmbikā is pleased by the recital of this',
+            kn: 'ಸಹಸ್ರನಾಮಗಳಲ್ಲಿ ಇದು ಪರಮಶ್ರೇಷ್ಠವೆಂದು ಹೇಳಲಾಗಿದೆ. ಇದನ್ನು ಪಠಿಸುವುದರಿಂದ ಲಲಿತಾಂಬಿಕೆಯು ಪ್ರಸನ್ನಳಾಗುವಂತೆ',
+          },
+        },
+        {
+          n: 20,
+          text: 'अन्यनामसहस्रस्य पाठान्न प्रीयते तथा ।\nश्रीमातुः प्रीतये तस्मादनिशं कीर्तयेदिदम् ॥',
+          meaning: {
+            en: 'as she is not by the recital of any other thousand names. Therefore, to please the Mother, one should recite it constantly.',
+            kn: 'ಬೇರೆ ಸಹಸ್ರನಾಮದ ಪಾಠದಿಂದ ಆಗುವುದಿಲ್ಲ. ಆದ್ದರಿಂದ ಶ್ರೀಮಾತೆಯ ಪ್ರೀತಿಗಾಗಿ ಇದನ್ನು ನಿರಂತರ ಪಠಿಸಬೇಕು.',
+          },
+        },
+        {
+          n: 21,
+          text: 'बिल्वपत्रैश्चक्रराजे योऽर्चयेल्ललिताम्बिकाम् ।\nपद्मैर्वा तुलसीपुष्पैरेभिर्नामसहस्रकैः ॥',
+          meaning: {
+            en: 'Whoever worships Lalitāmbikā in the Śrīcakra with bilva leaves, lotuses or tulasī flowers, using these thousand names,',
+            kn: 'ಬಿಲ್ವಪತ್ರೆಗಳಿಂದಾಗಲಿ ಕಮಲಗಳಿಂದಾಗಲಿ ತುಳಸಿಯಿಂದಾಗಲಿ ಈ ಸಹಸ್ರನಾಮಗಳಿಂದ ಶ್ರೀಚಕ್ರದಲ್ಲಿ ಲಲಿತಾಂಬಿಕೆಯನ್ನು ಪೂಜಿಸುವವನಿಗೆ',
+          },
+        },
+        {
+          n: 22,
+          text: 'सद्यः प्रसादं कुरुते तस्य सिंहासनेश्वरी ।\nचक्राधिराजमभ्यर्च्य जप्त्वा पञ्चदशाक्षरीम् ॥',
+          meaning: {
+            en: 'on him the Queen of the lion-throne bestows her grace at once. Having worshipped the Śrīcakra and done japa of the fifteen-syllable mantra,',
+            kn: 'ಸಿಂಹಾಸನೇಶ್ವರಿಯು ತಕ್ಷಣವೇ ಅನುಗ್ರಹಿಸುತ್ತಾಳೆ. ಶ್ರೀಚಕ್ರವನ್ನು ಅರ್ಚಿಸಿ ಪಂಚದಶಾಕ್ಷರಿಯನ್ನು ಜಪಿಸಿ,',
+          },
+        },
+        {
+          n: 23,
+          text: 'जपान्ते कीर्तयेन्नित्यमिदं नामसहस्रकम् ।\nजपपूजाद्यशक्तश्चेत्पठेन्नामसहस्रकम् ॥',
+          meaning: {
+            en: 'one should recite this thousand names daily at the end of japa. Even one unable to do japa and pūjā should recite the thousand names;',
+            kn: 'ಜಪದ ಕೊನೆಯಲ್ಲಿ ಪ್ರತಿದಿನ ಈ ಸಹಸ್ರನಾಮವನ್ನು ಪಠಿಸಬೇಕು. ಜಪಪೂಜೆಗಳನ್ನು ಮಾಡಲು ಅಶಕ್ತನಾದರೂ ಸಹಸ್ರನಾಮವನ್ನು ಪಠಿಸಬೇಕು;',
+          },
+        },
+        {
+          n: 24,
+          text: 'साङ्गार्चने साङ्गजपे यत्फलं तदवाप्नुयात् ।\nउपासने स्तुतीरन्याः पठेदभ्युदयो हि सः ॥',
+          meaning: {
+            en: 'he gains the fruit of complete worship and complete japa. Other hymns recited in worship bring only worldly prosperity.',
+            kn: 'ಅವನು ಸಾಂಗವಾದ ಪೂಜೆ ಮತ್ತು ಜಪದ ಫಲವನ್ನು ಪಡೆಯುತ್ತಾನೆ. ಉಪಾಸನೆಯಲ್ಲಿ ಬೇರೆ ಸ್ತುತಿಗಳನ್ನು ಪಠಿಸುವುದು ಕೇವಲ ಅಭ್ಯುದಯಕ್ಕಾಗಿ.',
+          },
+        },
+        {
+          n: 25,
+          text: 'इदं नामसहस्रं तु कीर्तयेन्नित्यकर्मवत् ।\nचक्रराजार्चनं देव्या जपो नाम्नां च कीर्तनम् ॥',
+          meaning: {
+            en: 'This thousand names should be recited like a daily obligation. Worship of the Goddess in the Śrīcakra, japa, and singing of her names:',
+            kn: 'ಈ ಸಹಸ್ರನಾಮವನ್ನು ನಿತ್ಯಕರ್ಮದಂತೆ ಪಠಿಸಬೇಕು. ಶ್ರೀಚಕ್ರದಲ್ಲಿ ದೇವಿಯ ಅರ್ಚನೆ, ಜಪ, ನಾಮಕೀರ್ತನೆ',
+          },
+        },
+        {
+          n: 26,
+          text: 'भक्तस्य कृत्यमेतावदन्यदभ्युदयं विदुः ।\nभक्तस्यावश्यकमिदं नामसाहस्रकीर्तनम् ॥',
+          meaning: {
+            en: 'this much is the devotee\'s duty; all else is for prosperity. For a devotee, reciting the thousand names is essential.',
+            kn: 'ಇಷ್ಟೇ ಭಕ್ತನ ಕರ್ತವ್ಯ; ಉಳಿದದ್ದೆಲ್ಲ ಅಭ್ಯುದಯಕ್ಕಾಗಿ. ಭಕ್ತನಿಗೆ ಸಹಸ್ರನಾಮ ಕೀರ್ತನೆ ಅವಶ್ಯಕ.',
+          },
+        },
+        {
+          n: 27,
+          text: 'तत्र हेतुं प्रवक्ष्यामि शृणु त्वं कुम्भसम्भव ।\nपुरा श्रीललितादेवी भक्तानां हितकाम्यया ॥',
+          meaning: {
+            en: 'Listen, O Agastya, I will tell you the reason. Long ago Śrī Lalitā Devī, wishing the good of her devotees,',
+            kn: 'ಕುಂಭಸಂಭವರೇ, ಅದರ ಕಾರಣವನ್ನು ಹೇಳುತ್ತೇನೆ ಕೇಳಿರಿ. ಹಿಂದೆ ಶ್ರೀಲಲಿತಾದೇವಿಯು ಭಕ್ತರ ಹಿತವನ್ನು ಬಯಸಿ',
+          },
+        },
+        {
+          n: 28,
+          text: 'वाग्देवीर्वशिनीमुख्याः समाहूयेदमब्रवीत् ।\nवाग्देवता वशिन्याद्याः शृणुध्वं वचनं मम ॥',
+          meaning: {
+            en: 'called the goddesses of speech led by Vaśinī and said: O Vaśinī and you other goddesses of speech, listen to my words.',
+            kn: 'ವಶಿನೀ ಮೊದಲಾದ ವಾಗ್ದೇವತೆಯರನ್ನು ಕರೆದು ಹೀಗೆ ಹೇಳಿದಳು: ವಶಿನೀ ಮೊದಲಾದ ವಾಗ್ದೇವತೆಯರೇ, ನನ್ನ ಮಾತನ್ನು ಕೇಳಿರಿ.',
+          },
+        },
+        {
+          n: 29,
+          text: 'भवत्यो मत्प्रसादेन प्रोल्लसद्वाग्विभूतयः ।\nमद्भक्तानां वाग्विभूतिप्रदाने विनियोजिताः ॥',
+          meaning: {
+            en: 'By my grace you shine with the wealth of speech, and I have appointed you to bestow that gift of speech on my devotees.',
+            kn: 'ನನ್ನ ಅನುಗ್ರಹದಿಂದ ನೀವು ವಾಕ್ಸಂಪತ್ತಿನಿಂದ ಶೋಭಿಸುತ್ತಿದ್ದೀರಿ; ನನ್ನ ಭಕ್ತರಿಗೆ ವಾಕ್ಸಂಪತ್ತನ್ನು ಕೊಡಲು ನಿಮ್ಮನ್ನು ನಿಯಮಿಸಿದ್ದೇನೆ.',
+          },
+        },
+        {
+          n: 30,
+          text: 'मच्चक्रस्य रहस्यज्ञा मम नामपरायणाः ।\nमम स्तोत्रविधानाय तस्मादाज्ञापयामि वः ॥',
+          meaning: {
+            en: 'You know the secret of my cakra and are devoted to my names; therefore I command you to compose a hymn to me.',
+            kn: 'ನೀವು ನನ್ನ ಚಕ್ರದ ರಹಸ್ಯವನ್ನು ಬಲ್ಲವರು, ನನ್ನ ನಾಮಗಳಲ್ಲಿ ನಿರತರು; ಆದ್ದರಿಂದ ನನ್ನ ಸ್ತೋತ್ರವನ್ನು ರಚಿಸಲು ನಿಮಗೆ ಆಜ್ಞಾಪಿಸುತ್ತೇನೆ.',
+          },
+        },
+        {
+          n: 31,
+          text: 'कुरुध्वमङ्कितं स्तोत्रं मम नामसहस्रकैः ।\nयेन भक्तैः स्तुताया मे सद्यः प्रीतिः परा भवेत् ॥',
+          meaning: {
+            en: 'Compose a hymn marked with my thousand names, so that when devotees praise me with it, I may at once be supremely pleased.',
+            kn: 'ನನ್ನ ಸಾವಿರ ನಾಮಗಳಿಂದ ಕೂಡಿದ ಸ್ತೋತ್ರವನ್ನು ರಚಿಸಿರಿ; ಅದರಿಂದ ಭಕ್ತರು ಸ್ತುತಿಸಿದಾಗ ನನಗೆ ಕೂಡಲೇ ಪರಮ ಪ್ರೀತಿ ಉಂಟಾಗಲಿ.',
+          },
+        },
+        {
+          n: 32,
+          text: 'इत्याज्ञप्तास्ततो देव्यः श्रीदेव्या ललिताम्बया ।\nरहस्यैर्नामभिर्दिव्यैश्चक्रुः स्तोत्रमनुत्तमम् ॥',
+          meaning: {
+            en: 'Thus commanded by Śrī Lalitāmbā, the goddesses composed an unsurpassed hymn of secret, divine names.',
+            kn: 'ಶ್ರೀಲಲಿತಾಂಬೆಯು ಹೀಗೆ ಆಜ್ಞಾಪಿಸಲು ಆ ದೇವಿಯರು ರಹಸ್ಯವಾದ ದಿವ್ಯ ನಾಮಗಳಿಂದ ಅನುತ್ತಮವಾದ ಸ್ತೋತ್ರವನ್ನು ರಚಿಸಿದರು.',
+          },
+        },
+        {
+          n: 33,
+          text: 'रहस्यनामसाहस्रमिति तद्विश्रुतं परम् ।\nततः कदाचित्सदसि स्थित्वा सिंहासनेऽम्बिका ॥',
+          meaning: {
+            en: 'It became renowned as the supreme Rahasya-nāma-sāhasra, the thousand secret names. Then once the Mother, seated on her throne in the assembly,',
+            kn: 'ಅದು ರಹಸ್ಯನಾಮಸಾಹಸ್ರ ಎಂದು ಪ್ರಸಿದ್ಧವಾಯಿತು. ಒಮ್ಮೆ ಅಂಬಿಕೆಯು ಸಭೆಯಲ್ಲಿ ಸಿಂಹಾಸನದ ಮೇಲೆ ಕುಳಿತು',
+          },
+        },
+        {
+          n: 34,
+          text: 'स्वसेवावसरं प्रादात्सर्वेषां कुम्भसम्भव ।\nसेवार्थमागतास्तत्र ब्रह्माणीब्रह्मकोटयः ॥',
+          meaning: {
+            en: 'granted everyone the occasion to serve her, O Agastya. To serve her came millions of Brahmās with their Brahmāṇīs,',
+            kn: 'ಎಲ್ಲರಿಗೂ ತನ್ನ ಸೇವೆಯ ಅವಕಾಶವನ್ನು ಕೊಟ್ಟಳು. ಸೇವೆಗಾಗಿ ಕೋಟಿ ಕೋಟಿ ಬ್ರಹ್ಮಾಣೀ ಬ್ರಹ್ಮರು ಬಂದರು;',
+          },
+        },
+        {
+          n: 35,
+          text: 'लक्ष्मीनारायणानां च कोटयः समुपागताः ।\nगौरीकोटिसमेतानां रुद्राणामपि कोटयः ॥',
+          meaning: {
+            en: 'millions of Lakṣmīs and Nārāyaṇas, and millions of Rudras with millions of Gaurīs.',
+            kn: 'ಕೋಟಿ ಲಕ್ಷ್ಮೀನಾರಾಯಣರೂ, ಕೋಟಿ ಗೌರಿಯರೊಡನೆ ಕೋಟಿ ರುದ್ರರೂ ಬಂದರು.',
+          },
+        },
+        {
+          n: 36,
+          text: 'मन्त्रिणीदण्डिनीमुख्याः सेवार्थं याः समागताः ।\nशक्तयो विविधाकारास्तासां सङ्ख्या न विद्यते ॥',
+          meaning: {
+            en: 'The Śaktis of many forms who came to serve, led by Mantriṇī and Daṇḍinī, were beyond counting.',
+            kn: 'ಸೇವೆಗಾಗಿ ಬಂದ ಮಂತ್ರಿಣೀ ದಂಡಿನೀ ಮೊದಲಾದ ನಾನಾ ರೂಪದ ಶಕ್ತಿಗಳ ಸಂಖ್ಯೆಗೆ ಮಿತಿಯೇ ಇರಲಿಲ್ಲ.',
+          },
+        },
+        {
+          n: 37,
+          text: 'दिव्यौघा मानवौघाश्च सिद्धौघाश्च समागताः ।\nतत्र श्रीललितादेवी सर्वेषां दर्शनं ददौ ॥',
+          meaning: {
+            en: 'The divine, human and siddha lineages of teachers gathered there, and Śrī Lalitā Devī gave her sight (darśana) to all.',
+            kn: 'ದಿವ್ಯೌಘ, ಮಾನವೌಘ, ಸಿದ್ಧೌಘ ಎಂಬ ಗುರುಪರಂಪರೆಗಳೂ ಬಂದವು; ಶ್ರೀಲಲಿತಾದೇವಿಯು ಎಲ್ಲರಿಗೂ ದರ್ಶನ ಕೊಟ್ಟಳು.',
+          },
+        },
+        {
+          n: 38,
+          text: 'तेषु दृष्टोपविष्टेषु स्वे स्वे स्थाने यथाक्रमम् ।\nतत्र श्रीललितादेवीकटाक्षाक्षेपचोदिताः ॥',
+          meaning: {
+            en: 'When all were seated in their places in due order, then, urged by a side-glance from Śrī Lalitā Devī,',
+            kn: 'ಅವರೆಲ್ಲರೂ ತಮ್ಮ ತಮ್ಮ ಸ್ಥಾನಗಳಲ್ಲಿ ಕ್ರಮವಾಗಿ ಕುಳಿತಿರಲು, ಶ್ರೀಲಲಿತಾದೇವಿಯ ಕಡೆಗಣ್ಣ ನೋಟದ ಪ್ರೇರಣೆಯಿಂದ',
+          },
+        },
+        {
+          n: 39,
+          text: 'उत्थाय वशिनीमुख्या बद्धाञ्जलिपुटास्तदा ।\nअस्तुवन्नामसाहस्रैः स्वकृतैर्ललिताम्बिकाम् ॥',
+          meaning: {
+            en: 'Vaśinī and the others rose with joined palms and praised Lalitāmbikā with the thousand names they had composed.',
+            kn: 'ವಶಿನೀ ಮೊದಲಾದವರು ಎದ್ದು ಕೈಮುಗಿದು ತಾವು ರಚಿಸಿದ ಸಹಸ್ರನಾಮಗಳಿಂದ ಲಲಿತಾಂಬಿಕೆಯನ್ನು ಸ್ತುತಿಸಿದರು.',
+          },
+        },
+        {
+          n: 40,
+          text: 'श्रुत्वा स्तवं प्रसन्नाभूल्ललिता परमेश्वरी ।\nते सर्वे विस्मयं जग्मुर्ये तत्र सदसि स्थिताः ॥',
+          meaning: {
+            en: 'Hearing the hymn, Lalitā Parameśvarī was pleased, and all who sat in that assembly were filled with wonder.',
+            kn: 'ಆ ಸ್ತೋತ್ರವನ್ನು ಕೇಳಿ ಲಲಿತಾ ಪರಮೇಶ್ವರಿಯು ಪ್ರಸನ್ನಳಾದಳು; ಸಭೆಯಲ್ಲಿದ್ದವರೆಲ್ಲರೂ ವಿಸ್ಮಯಗೊಂಡರು.',
+          },
+        },
+        {
+          n: 41,
+          text: 'ततः प्रोवाच ललिता सदस्यान् देवतागणान् ।\nदेव्युवाच ।\nममाज्ञयैव वाग्देव्यश्चक्रुः स्तोत्रमनुत्तमम् ॥',
+          meaning: {
+            en: 'Then Lalitā spoke to the gods in the assembly. The Goddess said: By my command alone the goddesses of speech have composed this unsurpassed hymn,',
+            kn: 'ಆಗ ಲಲಿತೆಯು ಸಭೆಯಲ್ಲಿದ್ದ ದೇವತಾಗಣಗಳಿಗೆ ಹೇಳಿದಳು. ದೇವಿ ಹೇಳಿದಳು: ನನ್ನ ಆಜ್ಞೆಯಿಂದಲೇ ವಾಗ್ದೇವಿಯರು ಈ ಅನುತ್ತಮ ಸ್ತೋತ್ರವನ್ನು ರಚಿಸಿದ್ದಾರೆ;',
+          },
+        },
+        {
+          n: 42,
+          text: 'अङ्कितं नामभिर्दिव्यैर्मम प्रीतिविधायकैः ।\nतत्पठध्वं सदा यूयं स्तोत्रं मत्प्रीतिवृद्धये ॥',
+          meaning: {
+            en: 'marked with divine names that delight me. Recite this hymn always, so that my favour may grow.',
+            kn: 'ಇದು ನನಗೆ ಪ್ರೀತಿಯನ್ನುಂಟುಮಾಡುವ ದಿವ್ಯ ನಾಮಗಳಿಂದ ಕೂಡಿದೆ. ನನ್ನ ಪ್ರೀತಿ ಹೆಚ್ಚಲು ನೀವು ಸದಾ ಈ ಸ್ತೋತ್ರವನ್ನು ಪಠಿಸಿರಿ.',
+          },
+        },
+        {
+          n: 43,
+          text: 'प्रवर्तयध्वं भक्तेषु मम नामसहस्रकम् ।\nइदं नामसहस्रं मे यो भक्तः पठते सकृत् ॥',
+          meaning: {
+            en: 'Spread my thousand names among my devotees. The devotee who recites this thousand names of mine even once',
+            kn: 'ಭಕ್ತರಲ್ಲಿ ನನ್ನ ಸಹಸ್ರನಾಮವನ್ನು ಪ್ರಚಾರಮಾಡಿರಿ. ನನ್ನ ಈ ಸಹಸ್ರನಾಮವನ್ನು ಒಮ್ಮೆಯಾದರೂ ಪಠಿಸುವ ಭಕ್ತನು',
+          },
+        },
+        {
+          n: 44,
+          text: 'स मे प्रियतमो ज्ञेयस्तस्मै कामान् ददाम्यहम् ।\nश्रीचक्रे मां समभ्यर्च्य जप्त्वा पञ्चदशाक्षरीम् ॥',
+          meaning: {
+            en: 'should be known as most dear to me, and I grant him his wishes. Having worshipped me in the Śrīcakra and done japa of the fifteen-syllable mantra,',
+            kn: 'ನನಗೆ ಅತ್ಯಂತ ಪ್ರಿಯನೆಂದು ತಿಳಿಯಬೇಕು; ಅವನ ಬಯಕೆಗಳನ್ನು ನಾನು ಈಡೇರಿಸುತ್ತೇನೆ. ಶ್ರೀಚಕ್ರದಲ್ಲಿ ನನ್ನನ್ನು ಅರ್ಚಿಸಿ ಪಂಚದಶಾಕ್ಷರಿಯನ್ನು ಜಪಿಸಿ,',
+          },
+        },
+        {
+          n: 45,
+          text: 'पश्चान्नामसहस्रं मे कीर्तयेन्मम तुष्टये ।\nमामर्चयतु वा मा वा विद्यां जपतु वा न वा ॥',
+          meaning: {
+            en: 'one should then recite my thousand names to please me. Whether one worships me or not, whether one does japa of the Vidyā or not,',
+            kn: 'ಅನಂತರ ನನ್ನ ತೃಪ್ತಿಗಾಗಿ ನನ್ನ ಸಹಸ್ರನಾಮವನ್ನು ಪಠಿಸಬೇಕು. ನನ್ನನ್ನು ಅರ್ಚಿಸಲಿ ಬಿಡಲಿ, ವಿದ್ಯೆಯನ್ನು ಜಪಿಸಲಿ ಬಿಡಲಿ,',
+          },
+        },
+        {
+          n: 46,
+          text: 'कीर्तयेन्नामसाहस्रमिदं मत्प्रीतये सदा ।\nमत्प्रीत्या सकलान्कामांल्लभते नात्र संशयः ॥',
+          meaning: {
+            en: 'one should always recite this thousand names for my pleasure; through my pleasure one gains every wish, without doubt.',
+            kn: 'ನನ್ನ ಪ್ರೀತಿಗಾಗಿ ಸದಾ ಈ ಸಹಸ್ರನಾಮವನ್ನು ಪಠಿಸಬೇಕು; ನನ್ನ ಪ್ರೀತಿಯಿಂದ ಎಲ್ಲ ಬಯಕೆಗಳೂ ಈಡೇರುತ್ತವೆ, ಸಂಶಯವಿಲ್ಲ.',
+          },
+        },
+        {
+          n: 47,
+          text: 'तस्मान्नामसहस्रं मे कीर्तयध्वं सदादरात् ।\nश्रीहयग्रीव उवाच\nइति श्रीललितेशानी शास्ति देवान् सहानुगान् ॥',
+          meaning: {
+            en: 'Therefore recite my thousand names always, with reverence. Hayagrīva said: Thus did Śrī Lalitā instruct the gods and their attendants.',
+            kn: 'ಆದ್ದರಿಂದ ನನ್ನ ಸಹಸ್ರನಾಮವನ್ನು ಸದಾ ಆದರದಿಂದ ಪಠಿಸಿರಿ. ಶ್ರೀಹಯಗ್ರೀವರು ಹೇಳಿದರು: ಹೀಗೆ ಶ್ರೀಲಲಿತೇಶ್ವರಿಯು ದೇವತೆಗಳಿಗೂ ಅವರ ಅನುಚರರಿಗೂ ಉಪದೇಶಿಸಿದಳು.',
+          },
+        },
+        {
+          n: 48,
+          text: 'तदाज्ञया तदारभ्य ब्रह्मविष्णुमहेश्वराः ।\nशक्तयो मन्त्रिणीमुख्या इदं नामसहस्रकम् ॥',
+          meaning: {
+            en: 'By her command, from that time on Brahmā, Viṣṇu and Maheśvara, and the Śaktis led by Mantriṇī, recite this thousand names',
+            kn: 'ಆಕೆಯ ಆಜ್ಞೆಯಂತೆ ಅಂದಿನಿಂದ ಬ್ರಹ್ಮ, ವಿಷ್ಣು, ಮಹೇಶ್ವರರೂ ಮಂತ್ರಿಣೀ ಮೊದಲಾದ ಶಕ್ತಿಗಳೂ ಈ ಸಹಸ್ರನಾಮವನ್ನು',
+          },
+        },
+        {
+          n: 49,
+          text: 'पठन्ति भक्त्या सततं ललितापरितुष्टये ।\nतस्मादवश्यं भक्तेन कीर्तनीयमिदं मुने ॥',
+          meaning: {
+            en: 'constantly and with devotion, to please Lalitā. Therefore, O sage, a devotee must surely recite it.',
+            kn: 'ಲಲಿತೆಯ ಸಂತೋಷಕ್ಕಾಗಿ ಭಕ್ತಿಯಿಂದ ನಿರಂತರ ಪಠಿಸುತ್ತಾರೆ. ಆದ್ದರಿಂದ ಮುನಿಯೇ, ಭಕ್ತನು ಇದನ್ನು ಅವಶ್ಯವಾಗಿ ಪಠಿಸಬೇಕು.',
+          },
+        },
+        {
+          n: 50,
+          text: 'आवश्यकत्वे हेतुस्ते मया प्रोक्तो मुनीश्वर ।\nइदानीं नामसाहस्रं वक्ष्यामि श्रद्धया शृणु ॥',
+          meaning: {
+            en: 'I have told you why it is essential, O best of sages. Now I shall tell the thousand names; listen with faith.',
+            kn: 'ಮುನಿಶ್ರೇಷ್ಠರೇ, ಇದು ಏಕೆ ಅವಶ್ಯಕ ಎಂಬ ಕಾರಣವನ್ನು ಹೇಳಿದ್ದೇನೆ. ಈಗ ಸಹಸ್ರನಾಮವನ್ನು ಹೇಳುತ್ತೇನೆ, ಶ್ರದ್ಧೆಯಿಂದ ಕೇಳಿರಿ.',
+          },
+        },
+        { text: 'इति श्रीब्रह्माण्डपुराणे श्रीहयग्रीवागस्त्यसंवादे\nश्रीललितासहस्रनामस्तोत्रपूर्वभागो नाम प्रथमोऽध्यायः ॥' },
+      ],
+    },
     {
       title: 'न्यासः',
       titleEn: 'Nyāsa and Viniyoga',
@@ -1597,6 +2037,704 @@ export const lalithaSahasranama: Mantra = {
       titleEn: 'Conclusion',
       verses: [
         { text: 'इति श्रीब्रह्माण्डपुराणे उत्तरखण्डे श्रीहयग्रीवागस्त्यसंवादे\nश्रीललितासहस्रनामस्तोत्रकथनं नाम द्वितीयोऽध्यायः ॥' },
+      ],
+    },
+    {
+      title: 'उत्तरभागः',
+      titleEn: 'Uttara-bhāga (Phala-śruti)',
+      note: 'The phala-śruti, Hayagrīva\'s account of the fruits of reciting the names, with rules for its recitation and transmission.',
+      noteKn: 'ನಾಮಪಾರಾಯಣದ ಫಲಗಳನ್ನೂ ಅದರ ಪಠಣ ಮತ್ತು ಉಪದೇಶದ ನಿಯಮಗಳನ್ನೂ ಹಯಗ್ರೀವರು ಹೇಳುವ ಫಲಶ್ರುತಿ.',
+      verses: [
+        { text: 'हयग्रीव उवाच' },
+        {
+          n: 1,
+          text: 'इत्येतन्नामसाहस्रं कथितं ते घटोद्भव ।\nरहस्यानां रहस्यं च ललिताप्रीतिदायकम् ॥',
+          meaning: {
+            en: 'Hayagrīva: Thus I have told you this thousand names, O Agastya, the secret of secrets, which pleases Lalitā.',
+            kn: 'ಹಯಗ್ರೀವರು: ಅಗಸ್ತ್ಯರೇ, ರಹಸ್ಯಗಳಲ್ಲೇ ರಹಸ್ಯವಾದ, ಲಲಿತೆಗೆ ಪ್ರಿಯವಾದ ಈ ಸಹಸ್ರನಾಮವನ್ನು ನಿಮಗೆ ಹೇಳಿದ್ದೇನೆ.',
+          },
+        },
+        {
+          n: 2,
+          text: 'अनेन सदृशं स्तोत्रं न भूतं न भविष्यति ।\nसर्वरोगप्रशमनं सर्वसम्पत्प्रवर्धनम् ॥',
+          meaning: {
+            en: 'There has never been and never will be a hymn like it. It cures all diseases and increases every kind of wealth.',
+            kn: 'ಇದಕ್ಕೆ ಸಮನಾದ ಸ್ತೋತ್ರ ಹಿಂದೆ ಇರಲಿಲ್ಲ, ಮುಂದೆ ಇರುವುದಿಲ್ಲ. ಇದು ಎಲ್ಲ ರೋಗಗಳನ್ನು ಶಮನಗೊಳಿಸಿ ಎಲ್ಲ ಸಂಪತ್ತನ್ನೂ ವೃದ್ಧಿಸುತ್ತದೆ.',
+          },
+        },
+        {
+          n: 3,
+          text: 'सर्वापमृत्युशमनं कालमृत्युनिवारणम् ।\nसर्वज्वरार्तिशमनं दीर्घायुष्यप्रदायकम् ॥',
+          meaning: {
+            en: 'It averts untimely death, wards off death at its time, relieves all fevers and grants long life.',
+            kn: 'ಅಕಾಲಮೃತ್ಯುವನ್ನು ತಡೆಯುತ್ತದೆ, ಕಾಲಮೃತ್ಯುವನ್ನು ನಿವಾರಿಸುತ್ತದೆ, ಎಲ್ಲ ಜ್ವರಗಳ ಬಾಧೆಯನ್ನು ಶಮನಗೊಳಿಸಿ ದೀರ್ಘಾಯುಸ್ಸನ್ನು ಕೊಡುತ್ತದೆ.',
+          },
+        },
+        {
+          n: 4,
+          text: 'पुत्रप्रदमपुत्राणां पुरुषार्थप्रदायकम् ।\nइदं विशेषाच्छ्रीदेव्याः स्तोत्रं प्रीतिविधायकम् ॥',
+          meaning: {
+            en: 'It gives sons to the childless and grants the goals of life; above all, this hymn pleases the Goddess.',
+            kn: 'ಮಕ್ಕಳಿಲ್ಲದವರಿಗೆ ಪುತ್ರರನ್ನು ಕೊಡುತ್ತದೆ, ಪುರುಷಾರ್ಥಗಳನ್ನು ಕೊಡುತ್ತದೆ; ವಿಶೇಷವಾಗಿ ಈ ಸ್ತೋತ್ರವು ಶ್ರೀದೇವಿಗೆ ಪ್ರೀತಿಕರ.',
+          },
+        },
+        {
+          n: 5,
+          text: 'जपेन्नित्यं प्रयत्नेन ललितोपास्तितत्परः ।\nप्रातः स्नात्वा विधानेन सन्ध्याकर्म समाप्य च ॥',
+          meaning: {
+            en: 'One devoted to the worship of Lalitā should recite it daily with care. Bathing at dawn as prescribed and finishing the sandhyā rites,',
+            kn: 'ಲಲಿತೋಪಾಸನೆಯಲ್ಲಿ ನಿರತನು ಇದನ್ನು ಪ್ರತಿದಿನ ಶ್ರದ್ಧೆಯಿಂದ ಜಪಿಸಬೇಕು. ಬೆಳಿಗ್ಗೆ ವಿಧಿಯಂತೆ ಸ್ನಾನಮಾಡಿ ಸಂಧ್ಯಾಕರ್ಮವನ್ನು ಮುಗಿಸಿ,',
+          },
+        },
+        {
+          n: 6,
+          text: 'पूजागृहं ततो गत्वा चक्रराजं समर्चयेत् ।\nविद्यां जपेत्सहस्रं वा त्रिशतं शतमेव वा ॥',
+          meaning: {
+            en: 'he should go to the shrine room and worship the Śrīcakra, and do japa of the Vidyā a thousand, three hundred or a hundred times;',
+            kn: 'ಪೂಜಾಗೃಹಕ್ಕೆ ಹೋಗಿ ಶ್ರೀಚಕ್ರವನ್ನು ಅರ್ಚಿಸಬೇಕು; ವಿದ್ಯೆಯನ್ನು ಸಾವಿರ, ಮುನ್ನೂರು ಅಥವಾ ನೂರು ಬಾರಿ ಜಪಿಸಬೇಕು;',
+          },
+        },
+        {
+          n: 7,
+          text: 'रहस्यनामसाहस्रमिदं पश्चात्पठेन्नरः ।\nजन्ममध्ये सकृच्चापि य एवं पठते सुधीः ॥',
+          meaning: {
+            en: 'afterwards he should recite this thousand secret names. The wise one who recites it even once in his life,',
+            kn: 'ಅನಂತರ ಈ ರಹಸ್ಯನಾಮಸಾಹಸ್ರವನ್ನು ಪಠಿಸಬೇಕು. ಜೀವಮಾನದಲ್ಲಿ ಒಮ್ಮೆಯಾದರೂ ಇದನ್ನು ಪಠಿಸುವ ಸುಧೀಯ',
+          },
+        },
+        {
+          n: 8,
+          text: 'तस्य पुण्यफलं वक्ष्ये शृणु त्वं कुम्भसम्भव ।\nगङ्गादिसर्वतीर्थेषु यः स्नायात्कोटिजन्मसु ॥',
+          meaning: {
+            en: 'hear the merit he gains, O Agastya. If one were to bathe in the Gaṅgā and all holy waters for ten million lives,',
+            kn: 'ಪುಣ್ಯಫಲವನ್ನು ಹೇಳುತ್ತೇನೆ ಕೇಳಿರಿ. ಕೋಟಿ ಜನ್ಮಗಳಲ್ಲಿ ಗಂಗೆ ಮೊದಲಾದ ಎಲ್ಲ ತೀರ್ಥಗಳಲ್ಲಿ ಸ್ನಾನಮಾಡುವವನು,',
+          },
+        },
+        {
+          n: 9,
+          text: 'कोटिलिङ्गप्रतिष्ठां च यः कुर्यादविमुक्तके ।\nकुरुक्षेत्रे तु यो दद्यात्कोटिवारं रविग्रहे ॥',
+          meaning: {
+            en: 'consecrate ten million liṅgas in Kāśī, give gifts at Kurukṣetra ten million times during solar eclipses,',
+            kn: 'ಕಾಶಿಯಲ್ಲಿ ಕೋಟಿ ಲಿಂಗಗಳನ್ನು ಪ್ರತಿಷ್ಠಿಸುವವನು, ಕುರುಕ್ಷೇತ್ರದಲ್ಲಿ ಸೂರ್ಯಗ್ರಹಣದಂದು ಕೋಟಿ ಬಾರಿ ದಾನಮಾಡುವವನು,',
+          },
+        },
+        {
+          n: 10,
+          text: 'कोटिं सौवर्णभाराणां श्रोत्रियेषु द्विजन्मसु ।\nयः कोटिं हयमेधानामाहरेद्गाङ्गरोधसि ॥',
+          meaning: {
+            en: 'give ten million loads of gold to learned brāhmaṇas, perform ten million horse sacrifices on the banks of the Gaṅgā,',
+            kn: 'ಶ್ರೋತ್ರಿಯ ಬ್ರಾಹ್ಮಣರಿಗೆ ಕೋಟಿ ಭಾರ ಚಿನ್ನವನ್ನು ದಾನಮಾಡುವವನು, ಗಂಗಾತೀರದಲ್ಲಿ ಕೋಟಿ ಅಶ್ವಮೇಧಗಳನ್ನು ಮಾಡುವವನು,',
+          },
+        },
+        {
+          n: 11,
+          text: 'आचरेत्कूपकोटीर्यो निर्जले मरुभूतले ।\nदुर्भिक्षे यः प्रतिदिनं कोटिब्राह्मणभोजनम् ॥',
+          meaning: {
+            en: 'dig ten million wells in waterless deserts, and in famine feed ten million brāhmaṇas every day,',
+            kn: 'ನೀರಿಲ್ಲದ ಮರುಭೂಮಿಯಲ್ಲಿ ಕೋಟಿ ಬಾವಿಗಳನ್ನು ತೋಡಿಸುವವನು, ಬರಗಾಲದಲ್ಲಿ ಪ್ರತಿದಿನ ಕೋಟಿ ಬ್ರಾಹ್ಮಣರಿಗೆ ಊಟ ಹಾಕುವವನು,',
+          },
+        },
+        {
+          n: 12,
+          text: 'श्रद्धया परया कुर्यात्सहस्रपरिवत्सरान् ।\nतत्पुण्यं कोटिगुणितं लभेत्पुण्यमनुत्तमम् ॥',
+          meaning: {
+            en: 'with great faith for a thousand years, the reciter gains merit ten million times greater than all that.',
+            kn: 'ಸಾವಿರ ವರ್ಷಗಳ ಕಾಲ ಪರಮ ಶ್ರದ್ಧೆಯಿಂದ ಹೀಗೆ ಮಾಡಿದರೆ ಸಿಗುವ ಪುಣ್ಯದ ಕೋಟಿ ಪಟ್ಟು ಉತ್ತಮ ಪುಣ್ಯ ಪಠಿಸುವವನಿಗೆ ಸಿಗುತ್ತದೆ.',
+          },
+        },
+        {
+          n: 13,
+          text: 'रहस्यनामसाहस्रे नाम्नोऽप्येकस्य कीर्तनात् ।\nरहस्यनामसाहस्रे नामैकमपि यः पठेत् ॥',
+          meaning: {
+            en: 'By singing even one of these secret names, by reading even a single name of them,',
+            kn: 'ಈ ರಹಸ್ಯನಾಮಸಾಹಸ್ರದ ಒಂದು ನಾಮವನ್ನು ಕೀರ್ತಿಸಿದರೂ, ಒಂದು ನಾಮವನ್ನು ಪಠಿಸಿದರೂ',
+          },
+        },
+        {
+          n: 14,
+          text: 'तस्य पापानि नश्यन्ति महान्त्यपि न संशयः ।\nनित्यकर्माननुष्ठानान्निषिद्धकरणादपि ॥',
+          meaning: {
+            en: 'one\'s sins, however great, are destroyed, without doubt. The sin that comes from neglecting daily duties or doing what is forbidden',
+            kn: 'ಎಷ್ಟೇ ದೊಡ್ಡ ಪಾಪಗಳಾದರೂ ನಾಶವಾಗುತ್ತವೆ, ಸಂಶಯವಿಲ್ಲ. ನಿತ್ಯಕರ್ಮಗಳನ್ನು ಬಿಟ್ಟುದರಿಂದಲೂ ನಿಷಿದ್ಧಕರ್ಮಗಳನ್ನು ಮಾಡಿದ್ದರಿಂದಲೂ',
+          },
+        },
+        {
+          n: 15,
+          text: 'यत्पापं जायते पुंसां तत्सर्वं नश्यति ध्रुवम् ।\nबहुनात्र किमुक्तेन शृणु त्वं कुम्भसम्भव ॥',
+          meaning: {
+            en: 'is all surely destroyed. Why say more? Listen, O Agastya.',
+            kn: 'ಉಂಟಾಗುವ ಪಾಪವೆಲ್ಲವೂ ಖಂಡಿತ ನಾಶವಾಗುತ್ತದೆ. ಹೆಚ್ಚು ಹೇಳುವುದೇನು? ಕುಂಭಸಂಭವರೇ, ಕೇಳಿರಿ.',
+          },
+        },
+        {
+          n: 16,
+          text: 'अत्रैकनाम्नो या शक्तिः पातकानां निवर्तने ।\nतन्निवर्त्यमघं कर्तुं नालं लोकाश्चतुर्दश ॥',
+          meaning: {
+            en: 'Such is the power of one name here to remove sin that all fourteen worlds together cannot commit enough sin for it to remove.',
+            kn: 'ಪಾಪಗಳನ್ನು ನಿವಾರಿಸುವ ಇದರ ಒಂದು ನಾಮದ ಶಕ್ತಿ ಎಷ್ಟೆಂದರೆ, ಅದು ನಿವಾರಿಸಬಲ್ಲಷ್ಟು ಪಾಪವನ್ನು ಹದಿನಾಲ್ಕು ಲೋಕಗಳೂ ಮಾಡಲಾರವು.',
+          },
+        },
+        {
+          n: 17,
+          text: 'यस्त्यक्त्वा नामसाहस्रं पापहानिमभीप्सति ।\nस हि शीतनिवृत्त्यर्थं हिमशैलं निषेवते ॥',
+          meaning: {
+            en: 'One who leaves aside this thousand names and still hopes to be rid of sin is like one who goes to the snowy Himālaya to escape the cold.',
+            kn: 'ಈ ಸಹಸ್ರನಾಮವನ್ನು ಬಿಟ್ಟು ಪಾಪನಾಶವನ್ನು ಬಯಸುವವನು ಚಳಿಯನ್ನು ಕಳೆದುಕೊಳ್ಳಲು ಹಿಮಾಲಯಕ್ಕೆ ಹೋದಂತೆ.',
+          },
+        },
+        {
+          n: 18,
+          text: 'भक्तो यः कीर्तयेन्नित्यमिदं नामसहस्रकम् ।\nतस्मै श्रीललितादेवी प्रीताऽभीष्टं प्रयच्छति ॥',
+          meaning: {
+            en: 'To the devotee who recites this thousand names daily, Śrī Lalitā Devī, well pleased, gives what he desires.',
+            kn: 'ಈ ಸಹಸ್ರನಾಮವನ್ನು ಪ್ರತಿದಿನ ಪಠಿಸುವ ಭಕ್ತನಿಗೆ ಶ್ರೀಲಲಿತಾದೇವಿಯು ಪ್ರಸನ್ನಳಾಗಿ ಇಷ್ಟಾರ್ಥವನ್ನು ಕೊಡುತ್ತಾಳೆ.',
+          },
+        },
+        {
+          n: 19,
+          text: 'अकीर्तयन्निदं स्तोत्रं कथं भक्तो भविष्यति ।\nनित्यं सङ्कीर्तनाशक्तः कीर्तयेत्पुण्यवासरे ॥',
+          meaning: {
+            en: 'How can one who does not recite this hymn be a devotee? One unable to recite it daily should recite it on holy days:',
+            kn: 'ಈ ಸ್ತೋತ್ರವನ್ನು ಪಠಿಸದವನು ಭಕ್ತನಾಗುವುದು ಹೇಗೆ? ಪ್ರತಿದಿನ ಪಠಿಸಲಾಗದವನು ಪುಣ್ಯದಿನಗಳಲ್ಲಿ ಪಠಿಸಬೇಕು:',
+          },
+        },
+        {
+          n: 20,
+          text: 'सङ्क्रान्तौ विषुवे चैव स्वजन्मत्रितयेऽयने ।\nनवम्यां वा चतुर्दश्यां सितायां शुक्रवासरे ॥',
+          meaning: {
+            en: 'at the sun\'s passage into a new sign, at the equinoxes, on the three days of one\'s birth star, at the solstices, on the ninth or fourteenth day of the bright fortnight, and on Fridays;',
+            kn: 'ಸಂಕ್ರಾಂತಿ, ವಿಷುವ, ತನ್ನ ಜನ್ಮನಕ್ಷತ್ರದ ಮೂರು ದಿನಗಳು, ಅಯನ, ಶುಕ್ಲಪಕ್ಷದ ನವಮೀ ಚತುರ್ದಶಿಗಳು ಮತ್ತು ಶುಕ್ರವಾರಗಳಲ್ಲಿ;',
+          },
+        },
+        {
+          n: 21,
+          text: 'कीर्तयेन्नामसाहस्रं पौर्णमास्यां विशेषतः ।\nपौर्णमास्यां चन्द्रबिम्बे ध्यात्वा श्रीललिताम्बिकाम् ॥',
+          meaning: {
+            en: 'and especially on full-moon days. On the full moon, meditating on Śrī Lalitāmbikā in the orb of the moon,',
+            kn: 'ವಿಶೇಷವಾಗಿ ಹುಣ್ಣಿಮೆಯಂದು ಪಠಿಸಬೇಕು. ಹುಣ್ಣಿಮೆಯಂದು ಚಂದ್ರಬಿಂಬದಲ್ಲಿ ಶ್ರೀಲಲಿತಾಂಬಿಕೆಯನ್ನು ಧ್ಯಾನಿಸಿ',
+          },
+        },
+        {
+          n: 22,
+          text: 'पञ्चोपचारैः सम्पूज्य पठेन्नामसहस्रकम् ।\nसर्वे रोगाः प्रणश्यन्ति दीर्घायुष्यं च विन्दति ॥',
+          meaning: {
+            en: 'worshipping her with the five offerings and reciting the thousand names, all diseases vanish and one gains long life.',
+            kn: 'ಪಂಚೋಪಚಾರಗಳಿಂದ ಪೂಜಿಸಿ ಸಹಸ್ರನಾಮವನ್ನು ಪಠಿಸಿದರೆ ಎಲ್ಲ ರೋಗಗಳೂ ನಾಶವಾಗಿ ದೀರ್ಘಾಯುಸ್ಸು ದೊರೆಯುತ್ತದೆ.',
+          },
+        },
+        {
+          n: 23,
+          text: 'अयमायुष्करो नाम प्रयोगः कल्पनोदितः ।\nज्वरार्तं शिरसि स्पृष्ट्वा पठेन्नामसहस्रकम् ॥',
+          meaning: {
+            en: 'This is the rite for long life taught in the Kalpa. Touching the head of one suffering from fever, one should recite the thousand names;',
+            kn: 'ಇದು ಕಲ್ಪಸೂತ್ರದಲ್ಲಿ ಹೇಳಿದ ಆಯುಷ್ಕರ ಪ್ರಯೋಗ. ಜ್ವರದಿಂದ ಬಳಲುವವನ ತಲೆಯನ್ನು ಮುಟ್ಟಿ ಸಹಸ್ರನಾಮವನ್ನು ಪಠಿಸಿದರೆ',
+          },
+        },
+        {
+          n: 24,
+          text: 'तत्क्षणात्प्रशमं याति शिरस्तोदो ज्वरोऽपि च ।\nसर्वव्याधिनिवृत्त्यर्थं स्पृष्ट्वा भस्म जपेदिदम् ॥',
+          meaning: {
+            en: 'headache and fever subside at once. To remove all ailments, one should touch sacred ash and recite this over it;',
+            kn: 'ತಲೆನೋವೂ ಜ್ವರವೂ ಕೂಡಲೇ ಶಮನವಾಗುತ್ತವೆ. ಎಲ್ಲ ವ್ಯಾಧಿಗಳ ನಿವಾರಣೆಗಾಗಿ ಭಸ್ಮವನ್ನು ಮುಟ್ಟಿ ಇದನ್ನು ಜಪಿಸಬೇಕು;',
+          },
+        },
+        {
+          n: 25,
+          text: 'तद्भस्मधारणादेव नश्यन्ति व्याधयः क्षणात् ।\nजलं सम्मन्त्र्य कुम्भस्थं नामसाहस्रतो मुने ॥',
+          meaning: {
+            en: 'by wearing that ash, diseases vanish in a moment. Water in a pot, consecrated with the thousand names, O sage,',
+            kn: 'ಆ ಭಸ್ಮವನ್ನು ಧರಿಸುವುದರಿಂದಲೇ ವ್ಯಾಧಿಗಳು ಕ್ಷಣದಲ್ಲಿ ನಾಶವಾಗುತ್ತವೆ. ಮುನಿಯೇ, ಕಲಶದ ನೀರನ್ನು ಸಹಸ್ರನಾಮದಿಂದ ಅಭಿಮಂತ್ರಿಸಿ',
+          },
+        },
+        {
+          n: 26,
+          text: 'अभिषिञ्चेद्ग्रहग्रस्तान्ग्रहा नश्यन्ति तत्क्षणात् ।\nसुधासागरमध्यस्थां ध्यात्वा श्रीललिताम्बिकाम् ॥',
+          meaning: {
+            en: 'should be sprinkled on those seized by evil planets, and the afflictions leave at once. Meditating on Lalitāmbikā amid the ocean of nectar,',
+            kn: 'ಗ್ರಹಬಾಧೆಯುಳ್ಳವರಿಗೆ ಪ್ರೋಕ್ಷಿಸಿದರೆ ಗ್ರಹಬಾಧೆ ಕೂಡಲೇ ನಾಶವಾಗುತ್ತದೆ. ಅಮೃತಸಾಗರದ ಮಧ್ಯದಲ್ಲಿರುವ ಶ್ರೀಲಲಿತಾಂಬಿಕೆಯನ್ನು ಧ್ಯಾನಿಸಿ',
+          },
+        },
+        {
+          n: 27,
+          text: 'यः पठेन्नामसाहस्रं विषं तस्य विनश्यति ।\nवन्ध्यानां पुत्रलाभाय नामसाहस्रमन्त्रितम् ॥',
+          meaning: {
+            en: 'whoever recites the thousand names is freed of poison. For childless women to gain a son, butter consecrated with the thousand names',
+            kn: 'ಸಹಸ್ರನಾಮವನ್ನು ಪಠಿಸುವವನಿಗೆ ವಿಷಬಾಧೆ ನಾಶವಾಗುತ್ತದೆ. ಮಕ್ಕಳಿಲ್ಲದ ಸ್ತ್ರೀಯರಿಗೆ ಪುತ್ರಲಾಭಕ್ಕಾಗಿ ಸಹಸ್ರನಾಮದಿಂದ ಅಭಿಮಂತ್ರಿಸಿದ',
+          },
+        },
+        {
+          n: 28,
+          text: 'नवनीतं प्रदद्यात्तु पुत्रलाभो भवेद्ध्रुवम् ।\nदेव्याः पाशेन सम्बद्धामाकृष्टामङ्कुशेन च ॥',
+          meaning: {
+            en: 'should be given to them, and a son will surely be born. Meditating on a woman as bound by the Goddess\'s noose and drawn by her goad,',
+            kn: 'ಬೆಣ್ಣೆಯನ್ನು ಕೊಟ್ಟರೆ ಖಂಡಿತ ಪುತ್ರಲಾಭವಾಗುತ್ತದೆ. ದೇವಿಯ ಪಾಶದಿಂದ ಬಂಧಿತಳಾಗಿ ಅಂಕುಶದಿಂದ ಸೆಳೆಯಲ್ಪಟ್ಟಂತೆ',
+          },
+        },
+        {
+          n: 29,
+          text: 'ध्यात्वाऽभीष्टां स्त्रियं रात्रौ जपेन्नामसहस्रकम् ।\nआयाति स्वसमीपं सा यद्यप्यन्तःपुरं गता ॥',
+          meaning: {
+            en: 'and reciting the thousand names at night, she comes to him even from within the inner palace. (One of the traditional prayogas described here.)',
+            kn: 'ಬಯಸಿದ ಸ್ತ್ರೀಯನ್ನು ಧ್ಯಾನಿಸಿ ರಾತ್ರಿ ಸಹಸ್ರನಾಮವನ್ನು ಜಪಿಸಿದರೆ, ಅವಳು ಅಂತಃಪುರದಲ್ಲಿದ್ದರೂ ಅವನ ಬಳಿಗೆ ಬರುತ್ತಾಳೆ. ಇಲ್ಲಿ ಹೇಳಿರುವುದು ಸಾಂಪ್ರದಾಯಿಕ ಪ್ರಯೋಗಗಳಲ್ಲಿ ಒಂದು.',
+          },
+        },
+        {
+          n: 30,
+          text: 'राजाकर्षणकामश्चेद्राजावसथदिङ्मुखः ।\nत्रिरात्रं यः पठेदेतच्छ्रीदेवीध्यानतत्परः ॥',
+          meaning: {
+            en: 'One who wishes to win a king should face the direction of the king\'s dwelling and recite this for three nights, absorbed in meditation on the Goddess;',
+            kn: 'ರಾಜನನ್ನು ಒಲಿಸಿಕೊಳ್ಳಲು ಬಯಸುವವನು ರಾಜನ ನಿವಾಸದ ದಿಕ್ಕಿಗೆ ಮುಖಮಾಡಿ, ದೇವಿಯ ಧ್ಯಾನದಲ್ಲಿ ನಿರತನಾಗಿ ಮೂರು ರಾತ್ರಿ ಇದನ್ನು ಪಠಿಸಬೇಕು;',
+          },
+        },
+        {
+          n: 31,
+          text: 'स राजा पारवश्येन तुरङ्गं वा मतङ्गजम् ।\nआरुह्यायाति निकटं दासवत्प्रणिपत्य च ॥',
+          meaning: {
+            en: 'that king, drawn against his will, comes near him on horse or elephant and bows to him like a servant,',
+            kn: 'ಆ ರಾಜನು ಪರವಶನಾಗಿ ಕುದುರೆ ಅಥವಾ ಆನೆಯನ್ನೇರಿ ಅವನ ಬಳಿಗೆ ಬಂದು ದಾಸನಂತೆ ನಮಸ್ಕರಿಸುತ್ತಾನೆ;',
+          },
+        },
+        {
+          n: 32,
+          text: 'तस्मै राज्यं च कोशं च ददात्येव वशं गतः ।\nरहस्यनामसाहस्रं यः कीर्तयति नित्यशः ॥',
+          meaning: {
+            en: 'and, won over, gives him kingdom and treasury. Whoever recites these secret names every day,',
+            kn: 'ವಶನಾದ ಅವನು ರಾಜ್ಯವನ್ನೂ ಕೋಶವನ್ನೂ ಕೊಡುತ್ತಾನೆ. ರಹಸ್ಯನಾಮಸಾಹಸ್ರವನ್ನು ಪ್ರತಿದಿನ ಕೀರ್ತಿಸುವವನ',
+          },
+        },
+        {
+          n: 33,
+          text: 'तन्मुखालोकमात्रेण मुह्येल्लोकत्रयं मुने ।\nयस्त्विदं नामसाहस्रं सकृत्पठति भक्तिमान् ॥',
+          meaning: {
+            en: 'the three worlds are charmed by the mere sight of his face, O sage. Whoever recites this thousand names devoutly even once,',
+            kn: 'ಮುಖವನ್ನು ನೋಡಿದ ಮಾತ್ರಕ್ಕೆ ಮೂರು ಲೋಕಗಳೂ ಮೋಹಗೊಳ್ಳುತ್ತವೆ. ಭಕ್ತಿಯಿಂದ ಒಮ್ಮೆಯಾದರೂ ಈ ಸಹಸ್ರನಾಮವನ್ನು ಪಠಿಸುವವನ',
+          },
+        },
+        {
+          n: 34,
+          text: 'तस्य ये शत्रवस्तेषां निहन्ता शरभेश्वरः ।\nयो वाऽभिचारं कुरुते नामसाहस्रपाठके ॥',
+          meaning: {
+            en: 'Śarabheśvara destroys his enemies. If anyone works black magic against a reciter of the thousand names,',
+            kn: 'ಶತ್ರುಗಳನ್ನು ಶರಭೇಶ್ವರನು ಸಂಹರಿಸುತ್ತಾನೆ. ಸಹಸ್ರನಾಮ ಪಠಿಸುವವನ ಮೇಲೆ ಯಾರಾದರೂ ಅಭಿಚಾರ ಮಾಡಿದರೆ,',
+          },
+        },
+        {
+          n: 35,
+          text: 'निवर्त्य तत्क्रियां हन्यात्तं वै प्रत्यङ्गिरा स्वयम् ।\nये क्रूरदृष्ट्या वीक्षन्ते नामसाहस्रपाठकम् ॥',
+          meaning: {
+            en: 'Pratyaṅgirā herself turns back that rite and strikes him down. Those who look with cruel eyes on a reciter of the thousand names',
+            kn: 'ಪ್ರತ್ಯಂಗಿರಾ ದೇವಿಯೇ ಆ ಕ್ರಿಯೆಯನ್ನು ಹಿಂದಿರುಗಿಸಿ ಅವನನ್ನು ಸಂಹರಿಸುತ್ತಾಳೆ. ಸಹಸ್ರನಾಮ ಪಠಿಸುವವನನ್ನು ಕ್ರೂರದೃಷ್ಟಿಯಿಂದ ನೋಡುವವರನ್ನು',
+          },
+        },
+        {
+          n: 36,
+          text: 'तानन्धान्कुरुते क्षिप्रं स्वयं मार्ताण्डभैरवः ।\nधनं यो हरते चोरैर्नामसाहस्रजापिनः ॥',
+          meaning: {
+            en: 'are quickly struck blind by Mārtāṇḍa-Bhairava himself. Whoever, through thieves, steals the wealth of one who chants the thousand names,',
+            kn: 'ಮಾರ್ತಾಂಡಭೈರವನೇ ಬೇಗನೆ ಕುರುಡರನ್ನಾಗಿ ಮಾಡುತ್ತಾನೆ. ಸಹಸ್ರನಾಮ ಜಪಿಸುವವನ ಧನವನ್ನು ಕಳ್ಳರ ಮೂಲಕ ಕದಿಯುವವನನ್ನು',
+          },
+        },
+        {
+          n: 37,
+          text: 'यत्र कुत्र स्थितं वापि क्षेत्रपालो निहन्ति तम् ।\nविद्यासु कुरुते वादं यो विद्वान्नामजापिना ॥',
+          meaning: {
+            en: 'wherever he may be, Kṣetrapāla slays him. If a scholar argues in debate against one who chants the names,',
+            kn: 'ಅವನು ಎಲ್ಲಿದ್ದರೂ ಕ್ಷೇತ್ರಪಾಲನು ಸಂಹರಿಸುತ್ತಾನೆ. ನಾಮಜಪ ಮಾಡುವವನೊಡನೆ ವಿದ್ಯೆಯಲ್ಲಿ ವಾದಮಾಡುವ ವಿದ್ವಾಂಸನ',
+          },
+        },
+        {
+          n: 38,
+          text: 'तस्य वाक् स्तम्भनं सद्यः करोति नकुलेश्वरी ।\nयो राजा कुरुते वैरं नामसाहस्रजापिनः ॥',
+          meaning: {
+            en: 'Nakuleśvarī at once paralyses his speech. If a king makes enmity against a chanter of the thousand names,',
+            kn: 'ಮಾತನ್ನು ನಕುಲೇಶ್ವರಿಯು ಕೂಡಲೇ ಸ್ತಂಭಿಸುತ್ತಾಳೆ. ಸಹಸ್ರನಾಮ ಜಪಿಸುವವನೊಡನೆ ವೈರ ಕಟ್ಟುವ ರಾಜನ',
+          },
+        },
+        {
+          n: 39,
+          text: 'चतुरङ्गबलं तस्य दण्डिनी संहरेत्स्वयम् ।\nयः पठेन्नामसाहस्रं षण्मासं भक्तिसम्युतः ॥',
+          meaning: {
+            en: 'Daṇḍinī herself destroys his fourfold army. One who recites the thousand names with devotion for six months,',
+            kn: 'ಚತುರಂಗ ಸೈನ್ಯವನ್ನು ದಂಡಿನೀ ದೇವಿಯೇ ಸಂಹರಿಸುತ್ತಾಳೆ. ಆರು ತಿಂಗಳು ಭಕ್ತಿಯಿಂದ ಸಹಸ್ರನಾಮವನ್ನು ಪಠಿಸುವವನ',
+          },
+        },
+        {
+          n: 40,
+          text: 'लक्ष्मीश्चाञ्चल्यरहिता सदा तिष्ठति तद्गृहे ।\nमासमेकं प्रतिदिनं त्रिवारं यः पठेन्नरः ॥',
+          meaning: {
+            en: 'in his house Lakṣmī dwells for ever, no longer fickle. One who recites it three times daily for a month,',
+            kn: 'ಮನೆಯಲ್ಲಿ ಲಕ್ಷ್ಮಿಯು ಚಂಚಲತೆಯಿಲ್ಲದೆ ಸದಾ ನೆಲೆಸುತ್ತಾಳೆ. ಒಂದು ತಿಂಗಳು ಪ್ರತಿದಿನ ಮೂರು ಬಾರಿ ಪಠಿಸುವವನ',
+          },
+        },
+        {
+          n: 41,
+          text: 'भारती तस्य जिह्वाग्रे रङ्गे नृत्यति नित्यशः ।\nयस्त्वेकवारं पठति पक्षमेकमतन्द्रितः ॥',
+          meaning: {
+            en: 'on the stage of his tongue Bhāratī (Sarasvatī) dances always. One who recites it once a day, untiring, for a fortnight,',
+            kn: 'ನಾಲಿಗೆಯ ತುದಿಯೆಂಬ ರಂಗದಲ್ಲಿ ಸರಸ್ವತಿಯು ಸದಾ ನರ್ತಿಸುತ್ತಾಳೆ. ಆಲಸ್ಯವಿಲ್ಲದೆ ಹದಿನೈದು ದಿನ ದಿನಕ್ಕೊಮ್ಮೆ ಪಠಿಸುವವನ',
+          },
+        },
+        {
+          n: 42,
+          text: 'मुह्यन्ति कामवशगा मृगाक्ष्यस्तस्य वीक्षणात् ।\nयः पठेन्नामसाहस्रं जन्ममध्ये सकृन्नरः ॥',
+          meaning: {
+            en: 'charms all who see him. Whoever recites the thousand names even once in his life,',
+            kn: 'ನೋಟಕ್ಕೆ ಎಲ್ಲರೂ ಮನಸೋಲುತ್ತಾರೆ. ಜೀವಮಾನದಲ್ಲಿ ಒಮ್ಮೆಯಾದರೂ ಸಹಸ್ರನಾಮವನ್ನು ಪಠಿಸುವವನ',
+          },
+        },
+        {
+          n: 43,
+          text: 'तद्दृष्टिगोचराः सर्वे मुच्यन्ते सर्वकिल्बिषैः ।\nयो वेत्ति नामसाहस्रं तस्मै देयं द्विजन्मने ॥',
+          meaning: {
+            en: 'all who come within his sight are freed from every sin. Gifts should be given to the twice-born who knows the thousand names:',
+            kn: 'ದೃಷ್ಟಿಗೆ ಬಿದ್ದವರೆಲ್ಲರೂ ಎಲ್ಲ ಪಾಪಗಳಿಂದ ಮುಕ್ತರಾಗುತ್ತಾರೆ. ಸಹಸ್ರನಾಮವನ್ನು ಬಲ್ಲ ದ್ವಿಜನಿಗೆ ದಾನ ಕೊಡಬೇಕು:',
+          },
+        },
+        {
+          n: 44,
+          text: 'अन्नं वस्त्रं धनं धान्यं नान्येभ्यस्तु कदाचन ।\nश्रीमन्त्रराजं यो वेत्ति श्रीचक्रं यः समर्चति ॥',
+          meaning: {
+            en: 'food, clothing, wealth and grain, and never to others. One who knows the king of mantras and worships the Śrīcakra,',
+            kn: 'ಅನ್ನ, ವಸ್ತ್ರ, ಧನ, ಧಾನ್ಯಗಳನ್ನು; ಬೇರೆಯವರಿಗೆ ಎಂದೂ ಅಲ್ಲ. ಶ್ರೀಮಂತ್ರರಾಜವನ್ನು ಬಲ್ಲವನು, ಶ್ರೀಚಕ್ರವನ್ನು ಅರ್ಚಿಸುವವನು,',
+          },
+        },
+        {
+          n: 45,
+          text: 'यः कीर्तयति नामानि तं सत्पात्रं विदुर्बुधाः ।\nतस्मै देयं प्रयत्नेन श्रीदेवीप्रीतिमिच्छता ॥',
+          meaning: {
+            en: 'and sings these names, the wise call a worthy recipient. One who seeks the Goddess\'s favour should take care to give to him.',
+            kn: 'ಈ ನಾಮಗಳನ್ನು ಕೀರ್ತಿಸುವವನು ಸತ್ಪಾತ್ರನೆಂದು ಜ್ಞಾನಿಗಳು ಹೇಳುತ್ತಾರೆ. ದೇವಿಯ ಪ್ರೀತಿಯನ್ನು ಬಯಸುವವನು ಅವನಿಗೆ ಶ್ರದ್ಧೆಯಿಂದ ದಾನ ಕೊಡಬೇಕು.',
+          },
+        },
+        {
+          n: 46,
+          text: 'न कीर्तयति नामानि मन्त्रराजं न वेत्ति यः ।\nपशुतुल्यः स विज्ञेयस्तस्मै दत्तं निरर्थकम् ॥',
+          meaning: {
+            en: 'One who neither sings the names nor knows the king of mantras is to be regarded as unenlightened; a gift to him is fruitless.',
+            kn: 'ನಾಮಗಳನ್ನು ಕೀರ್ತಿಸದ, ಮಂತ್ರರಾಜವನ್ನು ತಿಳಿಯದವನು ಪಶುವಿಗೆ ಸಮಾನನೆಂದು ತಿಳಿಯಬೇಕು; ಅವನಿಗೆ ಕೊಟ್ಟ ದಾನ ವ್ಯರ್ಥ.',
+          },
+        },
+        {
+          n: 47,
+          text: 'परीक्ष्य विद्याविदुषस्तेभ्यो दद्याद्विचक्षणः ।\nश्रीमन्त्रराजसदृशो यथा मन्त्रो न विद्यते ॥',
+          meaning: {
+            en: 'The discerning should test who knows the Vidyā and give to them. Just as no mantra equals the king of mantras,',
+            kn: 'ವಿವೇಕಿಯು ವಿದ್ಯೆಯನ್ನು ಬಲ್ಲವರನ್ನು ಪರೀಕ್ಷಿಸಿ ಅವರಿಗೆ ದಾನ ಕೊಡಬೇಕು. ಶ್ರೀಮಂತ್ರರಾಜಕ್ಕೆ ಸಮನಾದ ಮಂತ್ರವಿಲ್ಲದಂತೆ,',
+          },
+        },
+        {
+          n: 48,
+          text: 'देवता ललितातुल्या यथा नास्ति घटोद्भव ।\nरहस्यनामसाहस्रतुल्या नास्ति तथा स्तुतिः ॥',
+          meaning: {
+            en: 'and no deity equals Lalitā, O Agastya, so no hymn equals the thousand secret names.',
+            kn: 'ಲಲಿತೆಗೆ ಸಮನಾದ ದೇವತೆ ಇಲ್ಲದಂತೆ, ರಹಸ್ಯನಾಮಸಾಹಸ್ರಕ್ಕೆ ಸಮನಾದ ಸ್ತುತಿಯೂ ಇಲ್ಲ.',
+          },
+        },
+        {
+          n: 49,
+          text: 'लिखित्वा पुस्तके यस्तु नामसाहस्रमुत्तमम् ।\nसमर्चयेत्सदा भक्त्या तस्य तुष्यति सुन्दरी ॥',
+          meaning: {
+            en: 'One who writes this excellent thousand names in a book and always worships it with devotion pleases Sundarī.',
+            kn: 'ಈ ಉತ್ತಮ ಸಹಸ್ರನಾಮವನ್ನು ಪುಸ್ತಕದಲ್ಲಿ ಬರೆದು ಸದಾ ಭಕ್ತಿಯಿಂದ ಪೂಜಿಸುವವನಿಗೆ ತ್ರಿಪುರಸುಂದರಿಯು ಸಂತುಷ್ಟಳಾಗುತ್ತಾಳೆ.',
+          },
+        },
+        {
+          n: 50,
+          text: 'बहुनात्र किमुक्तेन शृणु त्वं कुम्भसम्भव ।\nनानेन सदृशं स्तोत्रं सर्वतन्त्रेषु दृश्यते ॥',
+          meaning: {
+            en: 'Why say more? Listen, O Agastya: no hymn like this is found in all the tantras.',
+            kn: 'ಹೆಚ್ಚು ಹೇಳುವುದೇನು? ಕುಂಭಸಂಭವರೇ, ಕೇಳಿರಿ: ಎಲ್ಲ ತಂತ್ರಗಳಲ್ಲೂ ಇದಕ್ಕೆ ಸಮನಾದ ಸ್ತೋತ್ರ ಕಾಣುವುದಿಲ್ಲ.',
+          },
+        },
+        {
+          n: 51,
+          text: 'तस्मादुपासको नित्यं कीर्तयेदिदमादरात् ।\nएभिर्नामसहस्रैस्तु श्रीचक्रं योऽर्चयेत्सकृत् ॥',
+          meaning: {
+            en: 'Therefore the worshipper should recite it daily with reverence. Whoever, even once, worships the Śrīcakra with these thousand names,',
+            kn: 'ಆದ್ದರಿಂದ ಉಪಾಸಕನು ಇದನ್ನು ಪ್ರತಿದಿನ ಆದರದಿಂದ ಪಠಿಸಬೇಕು. ಈ ಸಹಸ್ರನಾಮಗಳಿಂದ ಒಮ್ಮೆಯಾದರೂ ಶ್ರೀಚಕ್ರವನ್ನು ಅರ್ಚಿಸುವವನು,',
+          },
+        },
+        {
+          n: 52,
+          text: 'पद्मैर्वा तुलसीपुष्पैः कह्लारैर्वा कदम्बकैः ।\nचम्पकैर्जातिकुसुमैर्मल्लिकाकरवीरकैः ॥',
+          meaning: {
+            en: 'with lotuses, tulasī, white water-lilies, kadamba, campaka, jasmine, mallikā and oleander,',
+            kn: 'ಕಮಲ, ತುಳಸಿ, ಕಲ್ಹಾರ, ಕದಂಬ, ಸಂಪಿಗೆ, ಜಾಜಿ, ಮಲ್ಲಿಗೆ, ಕಣಗಿಲೆ ಹೂವುಗಳಿಂದ,',
+          },
+        },
+        {
+          n: 53,
+          text: 'उत्पलैर्बिल्वपत्रैर्वा कुन्दकेसरपाटलैः ।\nअन्यैः सुगन्धिकुसुमैः केतकीमाधवीमुखैः ॥',
+          meaning: {
+            en: 'blue lotuses, bilva leaves, kunda, kesara and pāṭala, and other fragrant flowers such as ketakī and mādhavī,',
+            kn: 'ನೈದಿಲೆ, ಬಿಲ್ವಪತ್ರೆ, ಕುಂದ, ಕೇಸರ, ಪಾದರಿ ಮತ್ತು ಕೇದಗೆ, ಮಾಧವೀ ಮೊದಲಾದ ಇತರ ಸುಗಂಧ ಪುಷ್ಪಗಳಿಂದ,',
+          },
+        },
+        {
+          n: 54,
+          text: 'तस्य पुण्यफलं वक्तुं न शक्नोति महेश्वरः ।\nसा वेत्ति ललितादेवी स्वचक्रार्चनजं फलम् ॥',
+          meaning: {
+            en: 'even Maheśvara cannot describe his merit. Only Lalitā Devī knows the fruit of worship in her own cakra;',
+            kn: 'ಅವನ ಪುಣ್ಯಫಲವನ್ನು ಮಹೇಶ್ವರನೂ ಹೇಳಲಾರನು. ತನ್ನ ಚಕ್ರಾರ್ಚನೆಯ ಫಲವನ್ನು ಲಲಿತಾದೇವಿಯೊಬ್ಬಳೇ ಬಲ್ಲಳು;',
+          },
+        },
+        {
+          n: 55,
+          text: 'अन्ये कथं विजानीयुर्ब्रह्माद्याः स्वल्पमेधसः ।\nप्रतिमासं पौर्णमास्यामेभिर्नामसहस्रकैः ॥',
+          meaning: {
+            en: 'how could Brahmā and others of small understanding know it? Each month, on the full moon, with these thousand names,',
+            kn: 'ಅಲ್ಪಬುದ್ಧಿಯ ಬ್ರಹ್ಮಾದಿಗಳು ಹೇಗೆ ತಿಳಿಯಬಲ್ಲರು? ಪ್ರತಿತಿಂಗಳು ಹುಣ್ಣಿಮೆಯಂದು ಈ ಸಹಸ್ರನಾಮಗಳಿಂದ',
+          },
+        },
+        {
+          n: 56,
+          text: 'रात्रौ यश्चक्रराजस्थामर्चयेत्परदेवताम् ।\nस एव ललितारूपस्तद्रूपा ललिता स्वयम् ॥',
+          meaning: {
+            en: 'whoever worships the supreme Goddess in the Śrīcakra at night becomes Lalitā\'s very form, and Lalitā herself takes his form.',
+            kn: 'ರಾತ್ರಿ ಶ್ರೀಚಕ್ರದಲ್ಲಿರುವ ಪರದೇವತೆಯನ್ನು ಅರ್ಚಿಸುವವನು ಲಲಿತಾರೂಪನೇ ಆಗುತ್ತಾನೆ; ಲಲಿತೆಯೇ ಅವನ ರೂಪಳಾಗುತ್ತಾಳೆ.',
+          },
+        },
+        {
+          n: 57,
+          text: 'न तयोर्विद्यते भेदो भेदकृत्पापकृद्भवेत् ।\nमहानवम्यां यो भक्तः श्रीदेवीं चक्रमध्यगाम् ॥',
+          meaning: {
+            en: 'There is no difference between them; one who makes a difference commits sin. The devotee who on Mahānavamī worships the Goddess in the centre of the cakra',
+            kn: 'ಅವರಿಬ್ಬರಲ್ಲಿ ಭೇದವಿಲ್ಲ; ಭೇದ ಮಾಡುವವನು ಪಾಪಿಯಾಗುತ್ತಾನೆ. ಮಹಾನವಮಿಯಂದು ಚಕ್ರಮಧ್ಯದಲ್ಲಿರುವ ಶ್ರೀದೇವಿಯನ್ನು',
+          },
+        },
+        {
+          n: 58,
+          text: 'अर्चयेन्नामसाहस्रैस्तस्य मुक्तिः करे स्थिता ।\nयस्तु नामसहस्रेण शुक्रवारे समर्चयेत् ॥',
+          meaning: {
+            en: 'with the thousand names holds liberation in his hand. And whoever worships the great Goddess with the thousand names on a Friday',
+            kn: 'ಸಹಸ್ರನಾಮಗಳಿಂದ ಅರ್ಚಿಸುವ ಭಕ್ತನಿಗೆ ಮುಕ್ತಿ ಕೈಯಲ್ಲೇ ಇದೆ. ಶುಕ್ರವಾರದಂದು ಸಹಸ್ರನಾಮದಿಂದ',
+          },
+        },
+        {
+          n: 59,
+          text: 'चक्रराजे महादेवीं तस्य पुण्यफलं शृणु ।\nसर्वान्कामानवाप्येह सर्वसौभाग्यसम्युतः ॥',
+          meaning: {
+            en: 'in the Śrīcakra, hear his reward: he gains all desires here, endowed with every good fortune,',
+            kn: 'ಶ್ರೀಚಕ್ರದಲ್ಲಿ ಮಹಾದೇವಿಯನ್ನು ಅರ್ಚಿಸುವವನ ಪುಣ್ಯಫಲವನ್ನು ಕೇಳಿರಿ: ಅವನು ಇಲ್ಲಿ ಎಲ್ಲ ಬಯಕೆಗಳನ್ನೂ ಪಡೆದು ಸರ್ವಸೌಭಾಗ್ಯದಿಂದ ಕೂಡಿ,',
+          },
+        },
+        {
+          n: 60,
+          text: 'पुत्रपौत्रादिसम्युक्तो भुक्त्वा भोगान्यथेप्सितान् ।\nअन्ते श्रीललितादेव्याः सायुज्यमतिदुर्लभम् ॥',
+          meaning: {
+            en: 'with sons and grandsons, enjoys the pleasures he wishes, and at the end attains union with Śrī Lalitā, so hard to gain,',
+            kn: 'ಪುತ್ರಪೌತ್ರರೊಡನೆ ಇಷ್ಟಭೋಗಗಳನ್ನು ಅನುಭವಿಸಿ, ಕೊನೆಯಲ್ಲಿ ಅತಿದುರ್ಲಭವಾದ ಶ್ರೀಲಲಿತಾದೇವಿಯ ಸಾಯುಜ್ಯವನ್ನು',
+          },
+        },
+        {
+          n: 61,
+          text: 'प्रार्थनीयं शिवाद्यैश्च प्राप्नोत्येव न संशयः ।\nयः सहस्रं ब्राह्मणानामेभिर्नामसहस्रकैः ॥',
+          meaning: {
+            en: 'which even Śiva and the gods pray for; he surely attains it. Whoever worships a thousand brāhmaṇas with these thousand names',
+            kn: 'ಶಿವಾದಿಗಳೂ ಪ್ರಾರ್ಥಿಸುವ ಅದನ್ನು ಖಂಡಿತ ಪಡೆಯುತ್ತಾನೆ. ಈ ಸಹಸ್ರನಾಮಗಳಿಂದ ಸಾವಿರ ಬ್ರಾಹ್ಮಣರನ್ನು',
+          },
+        },
+        {
+          n: 62,
+          text: 'समर्च्य भोजयेद्भक्त्या पायसापूपषड्रसैः ।\nतस्मै प्रीणाति ललिता स्वसाम्राज्यं प्रयच्छति ॥',
+          meaning: {
+            en: 'and feeds them with devotion with pāyasa, cakes and food of six tastes, Lalitā is pleased with him and grants him her own empire.',
+            kn: 'ಪೂಜಿಸಿ ಪಾಯಸ, ಅಪೂಪ, ಷಡ್ರಸ ಭೋಜನಗಳಿಂದ ಭಕ್ತಿಯಿಂದ ಉಣಬಡಿಸುವವನಿಗೆ ಲಲಿತೆಯು ಪ್ರಸನ್ನಳಾಗಿ ತನ್ನ ಸಾಮ್ರಾಜ್ಯವನ್ನೇ ಕೊಡುತ್ತಾಳೆ.',
+          },
+        },
+        {
+          n: 63,
+          text: 'न तस्य दुर्लभं वस्तु त्रिषु लोकेषु विद्यते ।\nनिष्कामः कीर्तयेद्यस्तु नामसाहस्रमुत्तमम् ॥',
+          meaning: {
+            en: 'Nothing in the three worlds is hard for him to gain. Whoever recites this excellent thousand names without desire',
+            kn: 'ಅವನಿಗೆ ಮೂರು ಲೋಕಗಳಲ್ಲೂ ದುರ್ಲಭವಾದದ್ದು ಯಾವುದೂ ಇಲ್ಲ. ನಿಷ್ಕಾಮನಾಗಿ ಈ ಉತ್ತಮ ಸಹಸ್ರನಾಮವನ್ನು ಪಠಿಸುವವನು',
+          },
+        },
+        {
+          n: 64,
+          text: 'ब्रह्मज्ञानमवाप्नोति येन मुच्येत बन्धनात् ।\nधनार्थी धनमाप्नोति यशोऽर्थी चाप्नुयाद्यशः ॥',
+          meaning: {
+            en: 'attains the knowledge of Brahman, by which he is freed from bondage. The seeker of wealth gains wealth, the seeker of fame gains fame,',
+            kn: 'ಬಂಧನದಿಂದ ಬಿಡುಗಡೆ ನೀಡುವ ಬ್ರಹ್ಮಜ್ಞಾನವನ್ನು ಪಡೆಯುತ್ತಾನೆ. ಧನವನ್ನು ಬಯಸುವವನಿಗೆ ಧನ, ಯಶಸ್ಸನ್ನು ಬಯಸುವವನಿಗೆ ಯಶಸ್ಸು,',
+          },
+        },
+        {
+          n: 65,
+          text: 'विद्यार्थी चाप्नुयाद्विद्यां नामसाहस्रकीर्तनात् ।\nनानेन सदृशं स्तोत्रं भोगमोक्षप्रदं मुने ॥',
+          meaning: {
+            en: 'and the seeker of learning gains learning, by singing the thousand names. No hymn like this grants both enjoyment and liberation, O sage.',
+            kn: 'ವಿದ್ಯೆಯನ್ನು ಬಯಸುವವನಿಗೆ ವಿದ್ಯೆ ಸಹಸ್ರನಾಮ ಕೀರ್ತನೆಯಿಂದ ದೊರೆಯುತ್ತದೆ. ಮುನಿಯೇ, ಭೋಗಮೋಕ್ಷಗಳೆರಡನ್ನೂ ಕೊಡುವ ಇದಕ್ಕೆ ಸಮನಾದ ಸ್ತೋತ್ರವಿಲ್ಲ.',
+          },
+        },
+        {
+          n: 66,
+          text: 'कीर्तनीयमिदं तस्माद्भोगमोक्षार्थिभिर्नरैः ।\nचतुराश्रमनिष्ठैश्च कीर्तनीयमिदं सदा ॥',
+          meaning: {
+            en: 'So it should be recited by those who seek enjoyment and liberation, and always by those of all four āśramas,',
+            kn: 'ಆದ್ದರಿಂದ ಭೋಗಮೋಕ್ಷಗಳನ್ನು ಬಯಸುವವರೂ ನಾಲ್ಕು ಆಶ್ರಮಗಳಲ್ಲಿರುವವರೂ ಇದನ್ನು ಸದಾ ಪಠಿಸಬೇಕು,',
+          },
+        },
+        {
+          n: 67,
+          text: 'स्वधर्मसमनुष्ठानवैकल्यपरिपूर्तये ।\nकलौ पापैकबहुले धर्मानुष्ठानवर्जिते ॥',
+          meaning: {
+            en: 'to make up for shortcomings in performing their own dharma. In the Kali age, full of sin and empty of righteous practice,',
+            kn: 'ತಮ್ಮ ಸ್ವಧರ್ಮಾನುಷ್ಠಾನದಲ್ಲಿನ ಕೊರತೆಗಳನ್ನು ತುಂಬಿಕೊಳ್ಳಲು. ಪಾಪವೇ ಹೆಚ್ಚಾದ, ಧರ್ಮಾಚರಣೆಯಿಲ್ಲದ ಕಲಿಯುಗದಲ್ಲಿ',
+          },
+        },
+        {
+          n: 68,
+          text: 'नामसङ्कीर्तनं मुक्त्वा नृणां नान्यत्परायणम् ।\nलौकिकाद्वचनान्मुख्यं विष्णुनामानुकीर्तनम् ॥',
+          meaning: {
+            en: 'people have no refuge but the singing of divine names. Better than worldly speech is the chanting of Viṣṇu\'s names;',
+            kn: 'ನಾಮಸಂಕೀರ್ತನೆಯ ಹೊರತು ಮನುಷ್ಯರಿಗೆ ಬೇರೆ ಆಶ್ರಯವಿಲ್ಲ. ಲೌಕಿಕ ಮಾತುಗಳಿಗಿಂತ ವಿಷ್ಣುನಾಮ ಕೀರ್ತನೆ ಶ್ರೇಷ್ಠ;',
+          },
+        },
+        {
+          n: 69,
+          text: 'विष्णुनामसहस्राच्च शिवनामैकमुत्तमम् ।\nशिवनामसहस्राच्च देव्या नामैकमुत्तमम् ॥',
+          meaning: {
+            en: 'better than a thousand names of Viṣṇu is one name of Śiva, and better than a thousand names of Śiva is one name of the Goddess.',
+            kn: 'ವಿಷ್ಣುವಿನ ಸಾವಿರ ನಾಮಗಳಿಗಿಂತ ಶಿವನ ಒಂದು ನಾಮ ಶ್ರೇಷ್ಠ; ಶಿವನ ಸಾವಿರ ನಾಮಗಳಿಗಿಂತ ದೇವಿಯ ಒಂದು ನಾಮ ಶ್ರೇಷ್ಠ.',
+          },
+        },
+        {
+          n: 70,
+          text: 'देवीनामसहस्राणि कोटिशः सन्ति कुम्भज ।\nतेषु मुख्यं दशविधं नामसाहस्रमुच्यते ॥',
+          meaning: {
+            en: 'There are millions of thousand-name hymns of the Goddess, O Agastya; of these, ten kinds are said to be the chief.',
+            kn: 'ಕುಂಭಜರೇ, ದೇವಿಯ ಸಹಸ್ರನಾಮಗಳು ಕೋಟಿಗಟ್ಟಲೆ ಇವೆ; ಅವುಗಳಲ್ಲಿ ಹತ್ತು ಬಗೆಯ ಸಹಸ್ರನಾಮಗಳು ಮುಖ್ಯವೆನ್ನಲಾಗಿದೆ.',
+          },
+        },
+        {
+          n: 71,
+          text: 'रहस्यनामसाहस्रमिदं शस्तं दशस्वपि ।\nतस्मात्सङ्कीर्तयेन्नित्यं कलिदोषनिवृत्तये ॥',
+          meaning: {
+            en: 'Among those ten, this thousand secret names is the most praised; so one should recite it daily to remove the faults of the Kali age.',
+            kn: 'ಆ ಹತ್ತರಲ್ಲೂ ಈ ರಹಸ್ಯನಾಮಸಾಹಸ್ರವೇ ಪ್ರಶಸ್ತ; ಆದ್ದರಿಂದ ಕಲಿದೋಷ ನಿವಾರಣೆಗಾಗಿ ಇದನ್ನು ಪ್ರತಿದಿನ ಸಂಕೀರ್ತಿಸಬೇಕು.',
+          },
+        },
+        {
+          n: 72,
+          text: 'मुख्यं श्रीमातृनामेति न जानन्ति विमोहिताः ।\nविष्णुनामपराः केचिच्छिवनामपराः परे ॥',
+          meaning: {
+            en: 'The deluded do not know that the Mother\'s names are foremost. Some are devoted to Viṣṇu\'s names, others to Śiva\'s;',
+            kn: 'ಶ್ರೀಮಾತೆಯ ನಾಮವೇ ಮುಖ್ಯವೆಂದು ಮೋಹಗೊಂಡವರು ತಿಳಿಯರು. ಕೆಲವರು ವಿಷ್ಣುನಾಮದಲ್ಲಿ, ಕೆಲವರು ಶಿವನಾಮದಲ್ಲಿ ನಿರತರು;',
+          },
+        },
+        {
+          n: 73,
+          text: 'न कश्चिदपि लोकेषु ललितानामतत्परः ।\nयेनान्यदेवतानाम कीर्तितं जन्मकोटिषु ॥',
+          meaning: {
+            en: 'hardly anyone in the world is devoted to Lalitā\'s names. Only one who has sung the names of other deities for millions of births',
+            kn: 'ಲೋಕದಲ್ಲಿ ಲಲಿತಾನಾಮದಲ್ಲಿ ನಿರತರಾದವರು ವಿರಳ. ಕೋಟಿ ಜನ್ಮಗಳಲ್ಲಿ ಇತರ ದೇವತೆಗಳ ನಾಮಗಳನ್ನು ಕೀರ್ತಿಸಿದವನಿಗೆ',
+          },
+        },
+        {
+          n: 74,
+          text: 'तस्यैव भवति श्रद्धा श्रीदेवीनामकीर्तने ।\nचरमे जन्मनि यथा श्रीविद्योपासको भवेत् ॥',
+          meaning: {
+            en: 'gains faith in singing the Goddess\'s names. Just as one becomes a worshipper of Śrī Vidyā only in one\'s last birth,',
+            kn: 'ಮಾತ್ರ ಶ್ರೀದೇವಿಯ ನಾಮಕೀರ್ತನೆಯಲ್ಲಿ ಶ್ರದ್ಧೆ ಉಂಟಾಗುತ್ತದೆ. ಕೊನೆಯ ಜನ್ಮದಲ್ಲಿ ಶ್ರೀವಿದ್ಯೋಪಾಸಕನಾಗುವಂತೆ,',
+          },
+        },
+        {
+          n: 75,
+          text: 'नामसाहस्रपाठश्च तथा चरमजन्मनि ।\nयथैव विरला लोके श्रीविद्याराजवेदिनः ॥',
+          meaning: {
+            en: 'so too the recital of the thousand names comes in the last birth. As those who know Śrī Vidyā, the royal mantra, are rare in the world,',
+            kn: 'ಸಹಸ್ರನಾಮ ಪಾಠವೂ ಕೊನೆಯ ಜನ್ಮದಲ್ಲೇ ಲಭಿಸುತ್ತದೆ. ಲೋಕದಲ್ಲಿ ಶ್ರೀವಿದ್ಯೆಯನ್ನು ಬಲ್ಲವರು ವಿರಳರಾಗಿರುವಂತೆ,',
+          },
+        },
+        {
+          n: 76,
+          text: 'तथैव विरलो गुह्यनामसाहस्रपाठकः ।\nमन्त्रराजजपश्चैव चक्रराजार्चनं तथा ॥',
+          meaning: {
+            en: 'so rare is one who recites the secret thousand names. Japa of the king of mantras, worship of the Śrīcakra,',
+            kn: 'ಈ ರಹಸ್ಯ ಸಹಸ್ರನಾಮವನ್ನು ಪಠಿಸುವವನೂ ವಿರಳ. ಮಂತ್ರರಾಜದ ಜಪ, ಶ್ರೀಚಕ್ರಾರ್ಚನೆ,',
+          },
+        },
+        {
+          n: 77,
+          text: 'रहस्यनामपाठश्च नाल्पस्य तपसः फलम् ।\nअपठन्नामसाहस्रं प्रीणयेद्यो महेश्वरीम् ॥',
+          meaning: {
+            en: 'and recital of the secret names are not the fruit of small austerity. One who tries to please the great Goddess without reciting the thousand names',
+            kn: 'ರಹಸ್ಯನಾಮ ಪಾಠ ಇವು ಅಲ್ಪ ತಪಸ್ಸಿನ ಫಲವಲ್ಲ. ಸಹಸ್ರನಾಮವನ್ನು ಪಠಿಸದೆ ಮಹೇಶ್ವರಿಯನ್ನು ಒಲಿಸಲು ಯತ್ನಿಸುವ',
+          },
+        },
+        {
+          n: 78,
+          text: 'स चक्षुषा विना रूपं पश्येदेव विमूढधीः ।\nरहस्यनामसाहस्रं त्यक्त्वा यः सिद्धिकामुकः ॥',
+          meaning: {
+            en: 'is a fool who would see forms without eyes. One who leaves aside the secret names yet longs for spiritual success',
+            kn: 'ಮೂಢನು ಕಣ್ಣಿಲ್ಲದೆ ರೂಪವನ್ನು ನೋಡಬಯಸಿದಂತೆ. ರಹಸ್ಯನಾಮಸಾಹಸ್ರವನ್ನು ಬಿಟ್ಟು ಸಿದ್ಧಿಯನ್ನು ಬಯಸುವವನು',
+          },
+        },
+        {
+          n: 79,
+          text: 'स भोजनं विना नूनं क्षुन्निवृत्तिमभीप्सति ।\nयो भक्तो ललितादेव्याः स नित्यं कीर्तयेदिदम् ॥',
+          meaning: {
+            en: 'wants to end his hunger without food. The devotee of Lalitā Devī should recite this daily;',
+            kn: 'ಊಟವಿಲ್ಲದೆ ಹಸಿವು ನೀಗಬಯಸಿದಂತೆ. ಲಲಿತಾದೇವಿಯ ಭಕ್ತನು ಇದನ್ನು ಪ್ರತಿದಿನ ಪಠಿಸಬೇಕು;',
+          },
+        },
+        {
+          n: 80,
+          text: 'नान्यथा प्रीयते देवी कल्पकोटिशतैरपि ।\nतस्माद्रहस्यनामानि श्रीमातुः प्रयतः पठेत् ॥',
+          meaning: {
+            en: 'otherwise the Goddess is not pleased even in hundreds of millions of aeons. So one should recite the Mother\'s secret names with a disciplined mind.',
+            kn: 'ಇಲ್ಲದಿದ್ದರೆ ಕೋಟಿ ಕಲ್ಪಗಳಾದರೂ ದೇವಿ ಪ್ರಸನ್ನಳಾಗುವುದಿಲ್ಲ. ಆದ್ದರಿಂದ ನಿಯಮದಿಂದ ಶ್ರೀಮಾತೆಯ ರಹಸ್ಯನಾಮಗಳನ್ನು ಪಠಿಸಬೇಕು.',
+          },
+        },
+        {
+          n: 81,
+          text: 'इति ते कथितं स्तोत्रं रहस्यं कुम्भसम्भव ।\nनाविद्यावेदिने ब्रूयान्नाभक्ताय कदाचन ॥',
+          meaning: {
+            en: 'Thus I have told you this secret hymn, O Agastya. Never teach it to one who does not know the Vidyā, or to one without devotion.',
+            kn: 'ಕುಂಭಸಂಭವರೇ, ಈ ರಹಸ್ಯ ಸ್ತೋತ್ರವನ್ನು ನಿಮಗೆ ಹೇಳಿದ್ದೇನೆ. ವಿದ್ಯೆಯನ್ನು ತಿಳಿಯದವನಿಗೂ ಭಕ್ತಿಯಿಲ್ಲದವನಿಗೂ ಇದನ್ನು ಎಂದೂ ಹೇಳಬಾರದು.',
+          },
+        },
+        {
+          n: 82,
+          text: 'यथैव गोप्या श्रीविद्या तथा गोप्यमिदं मुने ।\nपशुतुल्येषु न ब्रूयाज्जनेषु स्तोत्रमुत्तमम् ॥',
+          meaning: {
+            en: 'As Śrī Vidyā is to be kept secret, so is this, O sage. Do not tell this excellent hymn to those who are spiritually blind.',
+            kn: 'ಮುನಿಯೇ, ಶ್ರೀವಿದ್ಯೆಯನ್ನು ಗೋಪ್ಯವಾಗಿಡುವಂತೆ ಇದನ್ನೂ ಗೋಪ್ಯವಾಗಿಡಬೇಕು. ಪಶುಸಮಾನರಾದ ಜನರಿಗೆ ಈ ಉತ್ತಮ ಸ್ತೋತ್ರವನ್ನು ಹೇಳಬಾರದು.',
+          },
+        },
+        {
+          n: 83,
+          text: 'यो ददाति विमूढात्मा श्रीविद्यारहिताय तु ।\nतस्मै कुप्यन्ति योगिन्यः सोऽनर्थः सुमहान् स्मृतः ॥',
+          meaning: {
+            en: 'If a deluded person gives it to one without Śrī Vidyā, the yoginīs are angered with him; that is held a very great harm.',
+            kn: 'ಮೂಢನಾದವನು ಶ್ರೀವಿದ್ಯೆಯಿಲ್ಲದವನಿಗೆ ಇದನ್ನು ಕೊಟ್ಟರೆ ಯೋಗಿನಿಯರು ಅವನ ಮೇಲೆ ಕೋಪಗೊಳ್ಳುತ್ತಾರೆ; ಅದು ಮಹಾ ಅನರ್ಥವೆನ್ನಲಾಗಿದೆ.',
+          },
+        },
+        {
+          n: 84,
+          text: 'रहस्यनामसाहस्रं तस्मात्सङ्गोपयेदिदम् ।\nस्वातन्त्र्येण मया नोक्तं तवापि कलशोद्भव ॥',
+          meaning: {
+            en: 'Therefore guard this thousand secret names carefully. Of my own accord I did not tell it even to you, O Agastya;',
+            kn: 'ಆದ್ದರಿಂದ ಈ ರಹಸ್ಯನಾಮಸಾಹಸ್ರವನ್ನು ಜೋಪಾನವಾಗಿ ಕಾಪಾಡಬೇಕು. ಕಲಶೋದ್ಭವರೇ, ನನ್ನ ಸ್ವಂತ ಇಚ್ಛೆಯಿಂದ ನಾನು ಇದನ್ನು ನಿಮಗೂ ಹೇಳಿರಲಿಲ್ಲ;',
+          },
+        },
+        {
+          n: 85,
+          text: 'ललिताप्रेरणादेव मयोक्तं स्तोत्रमुत्तमम् ।\nकीर्तनीयमिदं भक्त्या कुम्भयोने निरन्तरम् ॥',
+          meaning: {
+            en: 'I have told this excellent hymn only at Lalitā\'s prompting. Recite it with devotion, O Agastya, without ceasing.',
+            kn: 'ಲಲಿತೆಯ ಪ್ರೇರಣೆಯಿಂದಲೇ ಈ ಉತ್ತಮ ಸ್ತೋತ್ರವನ್ನು ಹೇಳಿದ್ದೇನೆ. ಕುಂಭಯೋನಿಗಳೇ, ಇದನ್ನು ಭಕ್ತಿಯಿಂದ ನಿರಂತರ ಪಠಿಸಿರಿ.',
+          },
+        },
+        {
+          n: 86,
+          text: 'तेन तुष्टा महादेवी तवाभीष्टं प्रदास्यति ।\nसूत उवाच\nइत्युक्त्वा श्रीहयग्रीवो ध्यात्वा श्रीललिताम्बिकाम् ।\nआनन्दमग्नहृदयः सद्यः पुलकितोऽभवत् ॥',
+          meaning: {
+            en: 'Pleased by it, the great Goddess will grant your wishes. Sūta said: Having spoken thus and meditated on Śrī Lalitāmbikā, Hayagrīva was immersed in bliss and thrilled with joy.',
+            kn: 'ಅದರಿಂದ ಸಂತುಷ್ಟಳಾದ ಮಹಾದೇವಿಯು ನಿಮ್ಮ ಇಷ್ಟಾರ್ಥವನ್ನು ಕೊಡುತ್ತಾಳೆ. ಸೂತರು ಹೇಳಿದರು: ಹೀಗೆ ಹೇಳಿ ಶ್ರೀಲಲಿತಾಂಬಿಕೆಯನ್ನು ಧ್ಯಾನಿಸಿದ ಹಯಗ್ರೀವರು ಆನಂದದಲ್ಲಿ ಮುಳುಗಿ ರೋಮಾಂಚಿತರಾದರು.',
+          },
+        },
+        { text: 'इति श्रीब्रह्माण्डपुराणे ललितोपाख्याने हयग्रीवागस्त्यसंवादे\nश्रीललितासहस्रनामस्तोत्रे फलनिरूपणं नाम तृतीयोऽध्यायः ॥' },
       ],
     },
   ],
