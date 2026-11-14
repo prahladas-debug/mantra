@@ -7,7 +7,7 @@ export const enDevi2: MeaningPack = {
       verses: {
         '0.0': "Om. Of this Uttara Carita (the final episode) the seer is Rudra, the deity Mahāsarasvatī, the metre anuṣṭubh, the śakti Bhīmā, the bīja Bhrāmarī, the tattva the Sun, and its form the Sāmaveda; it is recited to please Mahāsarasvatī.",
         '0.1': "Om. I meditate here on Mahāsarasvatī, who holds in her lotus hands the bell, trident, plough, conch, pestle, discus, bow and arrow; whose radiance is like the moon shining at the close of the rains; who arose from the body of Gaurī; the support of the three worlds; the destroyer of Śumbha and the other demons.",
-        '1.0': "The Ṛṣi said:",
+        '1.0': "The Rishi said:",
         '1.1': "Long ago the asuras Śumbha and Niśumbha, relying on their pride and might, seized the three worlds and the shares of the sacrifice from Indra, the lord of Śacī.",
         '1.2': "Those two themselves took over the office of the Sun, and likewise that of the Moon, of Kubera, of Yama and of Varuṇa.",
         '1.3': "They took over the power of Vāyu and the work of Agni as well. Then the gods, cast out, defeated and deprived of their realms,",
@@ -45,7 +45,7 @@ export const enDevi2: MeaningPack = {
         '2.28': "To her who, in the form of consciousness (citi), pervades this whole world and abides in it: salutations to her, salutations to her, salutations to her, salutations again and again.",
         '2.29': "Praised of old by the gods for the attainment of their desires and worshipped day after day by Indra, may that Sovereign Goddess, the source of good, bring about auspicious things for us and strike down our calamities.",
         '2.30': "She who is now being saluted by us gods, tormented by the arrogant Daityas, and who, when remembered by those bowed in devotion, at that very moment destroys all our calamities — (may she protect us).",
-        '3.0': "The Ṛṣi said:",
+        '3.0': "The Rishi said:",
         '3.1': "While the gods were thus engaged in praise, O prince, Pārvatī came there to bathe in the waters of the Jāhnavī (Gaṅgā).",
         '3.2': "The fair-browed one asked the gods, “Whom are you praising here?” Then Śivā, coming forth from the sheath of her body, spoke:",
         '3.3': "“This hymn is being offered to me by the gods, gathered together, cast out by the Daitya Śumbha and defeated in battle by Niśumbha.”",
@@ -63,7 +63,7 @@ export const enDevi2: MeaningPack = {
         '3.15': "“Lord, you have taken from Death the power called Utkrāntidā, which makes life depart; and the noose of Varuṇa, king of the waters, is in your brother's keeping.”",
         '3.16': "“All the kinds of gems born of the ocean belong to Niśumbha; and Agni himself gave you two garments purified by fire.”",
         '3.17': "“Thus, lord of the Daityas, all jewels have been brought to you. Why do you not take this auspicious lady, the jewel among women?”",
-        '3.18': "The Ṛṣi said:",
+        '3.18': "The Rishi said:",
         '3.19': "Hearing these words of Caṇḍa and Muṇḍa, Śumbha then sent the great asura Sugrīva as his messenger to the Devī.",
         '3.20': "“Go and tell her, on my word, this and this; and act quickly so that she comes to me gladly.”",
         '3.21': "He went to where she was, on a most beautiful spot of the mountain, and spoke to the Devī in gentle, sweet words.",
@@ -77,7 +77,7 @@ export const enDevi2: MeaningPack = {
         '3.29': "“We regard you, Devī, as the jewel among women in the world. So come to us, for we are the enjoyers of jewels.”",
         '3.30': "“Accept me, or my younger brother Niśumbha of great valour, O you of darting glances, for you are indeed a jewel.”",
         '3.31': "“By becoming mine you will gain incomparable, supreme sovereignty. Consider this well in your mind and become my wife.”",
-        '3.32': "The Ṛṣi said:",
+        '3.32': "The Rishi said:",
         '3.33': "Thus addressed, the Devī — Durgā, blessed and gracious, by whom this world is upheld — smiling inwardly, spoke in a grave voice.",
         '3.34': "The Devī said:",
         '3.35': "“You have spoken the truth; nothing false has been said by you. Śumbha is lord of the three worlds, and Niśumbha too is his equal.”",
@@ -98,18 +98,18 @@ export const enDevi2: MeaningPack = {
     'devi-mahatmyam-06': {
       verses: {
         '0.0': "Om. I meditate on Padmāvatī, seated on the lord of serpents, her slender body shining with the great row of gems on the serpent's hoods; bright as the sun, radiant with three eyes; holding a rosary, a pot, a skull and a lotus; crowned with the half-moon; the supreme one, dwelling on the lap of Bhairava, the all-knowing lord.",
-        '1.0': "The Ṛṣi said:",
+        '1.0': "The Rishi said:",
         '1.1': "Hearing the Devī's words, the messenger, filled with indignation, went back and reported them in full to the king of the Daityas.",
         '1.2': "Hearing the messenger's report, the king of the asuras, in a rage, spoke to Dhūmralocana, a chief of the Daityas:",
         '1.3': "“Dhūmralocana, go quickly with your army around you, and bring that wicked woman here by force, distraught as she is dragged by the hair.”",
         '1.4': "“And if anyone else rises up to protect her, be he a god, a yakṣa or a gandharva, he is to be killed.”",
-        '1.5': "The Ṛṣi said:",
+        '1.5': "The Rishi said:",
         '1.6': "So commanded, the Daitya Dhūmralocana quickly set out, surrounded by sixty thousand asuras.",
         '1.7': "Seeing the Devī standing on the snowy mountain, he shouted aloud to her, “Come to Śumbha and Niśumbha!”",
         '1.8': "“If you do not come to my master willingly today, I will take you by force, distraught as you are dragged by the hair.”",
         '1.9': "The Devī said:",
         '1.10': "“Sent by the lord of the Daityas, mighty yourself and surrounded by an army — if you take me by force like this, what can I do to you?”",
-        '1.11': "The Ṛṣi said:",
+        '1.11': "The Rishi said:",
         '1.12': "Thus addressed, the asura Dhūmralocana rushed at her; and Ambikā, with a mere “hum”, reduced him to ashes.",
         '1.13': "Then the great army of asuras grew enraged, and Ambikā rained on it sharp arrows, spears and axes.",
         '1.14': "Then the Devī's own mount, the lion, shaking its mane in fury and giving a terrible roar, fell upon the army of the asuras.",
@@ -128,7 +128,7 @@ export const enDevi2: MeaningPack = {
     'devi-mahatmyam-07': {
       verses: {
         '0.0': "Om. I meditate on Mātaṅgī, seated on a jewelled throne, listening to the sweet speech of a parrot; dark of limb, one foot resting on a lotus, wearing the crescent moon, playing the vīṇā; garlanded with kahlāra flowers, her shining bodice fastened, clad in red; holding a conch-shell cup, gently elated with sweet wine, her forehead bright with a tilaka.",
-        '1.0': "The Ṛṣi said:",
+        '1.0': "The Rishi said:",
         '1.1': "Then the Daityas so commanded, led by Caṇḍa and Muṇḍa, marched out with the fourfold army, their weapons raised.",
         '1.2': "They saw the Devī, gently smiling, seated on the lion upon a great golden peak of the king of mountains.",
         '1.3': "Seeing her, they made ready to seize her; some drew their bows, some held swords, and others came close to her.",
@@ -152,7 +152,7 @@ export const enDevi2: MeaningPack = {
         '1.21': "Seeing Caṇḍa felled, and Muṇḍa of great valour too, the remnant of the army fled in all directions, stricken with fear.",
         '1.22': "Kālī, taking the heads of Caṇḍa and Muṇḍa, came up to Caṇḍikā and spoke, mingling her words with fierce peals of laughter:",
         '1.23': "“Here I have brought you Caṇḍa and Muṇḍa, two great beasts (for sacrifice). In the sacrifice of battle you yourself will slay Śumbha and Niśumbha.”",
-        '1.24': "The Ṛṣi said:",
+        '1.24': "The Rishi said:",
         '1.25': "Seeing the two great asuras Caṇḍa and Muṇḍa brought before her, the auspicious Caṇḍikā spoke graciously to Kālī:",
         '1.26': "“Because you have come bringing Caṇḍa and Muṇḍa, you shall be famed in the world as Cāmuṇḍā, O Devī.”",
         '1.27': "Thus ends the seventh chapter, called “The slaying of Caṇḍa and Muṇḍa”, of the Devī Māhātmya in the Sāvarṇika manvantara of the Śrī Mārkaṇḍeya Purāṇa.",
@@ -161,7 +161,7 @@ export const enDevi2: MeaningPack = {
     'devi-mahatmyam-08': {
       verses: {
         '0.0': "Om. I meditate on Bhavānī as my very self: rosy-red, her eyes rippling with compassion, holding in her hands the noose, the goad, the arrows and the bow, and surrounded by rays that are the powers Aṇimā and the rest.",
-        '1.0': "The Ṛṣi said:",
+        '1.0': "The Rishi said:",
         '1.1': "When the Daitya Caṇḍa had been slain and Muṇḍa struck down, and many of his armies destroyed, the lord of the asuras —",
         '1.2': "the mighty Śumbha, his mind overcome by anger, ordered all the Daitya armies to make ready.",
         '1.3': "“Today let the eighty-six Udāyudha Daityas march out with all their forces, and the eighty-four Kambus, each surrounded by his own troops.”",
@@ -233,7 +233,7 @@ export const enDevi2: MeaningPack = {
         '1.0': "The king said:",
         '1.1': "“Wonderful is this account you have given me, revered sir, of the glory of the Devī's deeds in the slaying of Raktabīja.”",
         '1.2': "“I wish to hear more: when Raktabīja had fallen, what did Śumbha do, and the exceedingly wrathful Niśumbha?”",
-        '1.3': "The Ṛṣi said:",
+        '1.3': "The Rishi said:",
         '1.4': "When Raktabīja had fallen and the others had been slain in battle, the asura Śumbha and Niśumbha were seized with boundless anger.",
         '1.5': "Seeing his great army being slaughtered, Niśumbha, seething with indignation, rushed forward with the chief forces of the asuras.",
         '1.6': "In front of him, behind him and on both sides, great asuras, biting their lips in fury, came on to kill the Devī.",
@@ -277,7 +277,7 @@ export const enDevi2: MeaningPack = {
     'devi-mahatmyam-10': {
       verses: {
         '0.0': "Om. In my heart I worship Kāmeśvarī, lovely as molten gold, whose eyes are the sun, moon and fire; who holds in her charming arms bow and arrows, goad, noose and trident; who is the form of Śiva's power, and who wears the crescent moon.",
-        '1.0': "The Ṛṣi said:",
+        '1.0': "The Rishi said:",
         '1.1': "Seeing his brother Niśumbha, dear to him as his own life, slain, and his army being destroyed, Śumbha said in anger:",
         '1.2': "“Wicked Durgā, puffed up with pride in your strength, do not be arrogant. Haughty as you are, you fight by relying on the strength of others.”",
         '1.3': "The Devī said:",
@@ -285,7 +285,7 @@ export const enDevi2: MeaningPack = {
         '1.5': "Then all those goddesses, Brahmāṇī and the rest, were absorbed into the body of the Devī, and Ambikā alone remained.",
         '1.6': "The Devī said:",
         '1.7': "“The many forms in which I stood here by my power I have now withdrawn; I stand alone in battle. Be steadfast!”",
-        '1.8': "The Ṛṣi said:",
+        '1.8': "The Rishi said:",
         '1.9': "Then began a dreadful battle between the two, the Devī and Śumbha, while all the gods and asuras looked on.",
         '1.10': "With showers of arrows, sharp weapons and dreadful missiles, their battle again grew fierce, terrifying all the worlds.",
         '1.11': "The hundreds of divine missiles that Ambikā released, the lord of the Daityas broke with missiles that countered them.",
@@ -315,7 +315,7 @@ export const enDevi2: MeaningPack = {
     'devi-mahatmyam-11': {
       verses: {
         '0.0': "Om. I worship Bhuvaneśī, radiant as the rising sun, crowned with the moon, full-breasted, three-eyed, with smiling face, her hands showing the boon-giving gesture, the goad, the noose and the gesture that grants fearlessness.",
-        '1.0': "The Ṛṣi said:",
+        '1.0': "The Rishi said:",
         '3.0': "The Devī said:",
         '3.1': "“I am the giver of boons, O hosts of gods. Choose whatever boon you desire in your hearts, one that benefits the worlds, and I will grant it.”",
         '3.2': "The gods said:",
@@ -372,7 +372,7 @@ export const enDevi2: MeaningPack = {
         '1.27': "“— amid falling weapons in a most dreadful battle, in every terrible affliction, or tormented by pain —”",
         '1.28': "“— a person who remembers this account of my deeds is freed from danger. By my power, lions and other beasts, robbers and enemies —”",
         '1.29': "“— flee far away from one who remembers my deeds.”",
-        '1.30': "The Ṛṣi said:",
+        '1.30': "The Rishi said:",
         '1.31': "Having said this, the blessed Caṇḍikā, fierce in valour —",
         '1.32': "— vanished on that very spot, while the gods looked on. And those gods, freed from fear, took up their own offices as before —",
         '1.33': "— and, their enemies slain, all enjoyed their shares of the sacrifice. And when Śumbha, the enemy of the gods, had been slain in battle by the Devī, the Daityas —",
@@ -389,7 +389,7 @@ export const enDevi2: MeaningPack = {
     'devi-mahatmyam-13': {
       verses: {
         '0.0': "Om. I worship Śivā, radiant as the orb of the rising sun, four-armed and three-eyed, holding the noose and the goad and showing the gestures of boon-giving and fearlessness.",
-        '1.0': "The Ṛṣi said:",
+        '1.0': "The Rishi said:",
         '1.1': "“Thus I have told you, O king, this supreme glorification of the Devī. Of such power is that Devī, by whom this world is upheld.”",
         '1.2': "“Knowledge too is granted by her, the blessed Viṣṇumāyā. By her, you, this merchant and other men of discernment —”",
         '1.3': "“— are deluded, have been deluded, and others will yet be deluded. Go for refuge to her, great king, the Supreme Goddess.”",

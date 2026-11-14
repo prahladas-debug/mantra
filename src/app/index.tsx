@@ -30,7 +30,7 @@ const TOOLS: { icon: keyof typeof Ionicons.glyphMap; label: string; href: string
   { icon: 'bookmark-outline', label: 'Bookmarks', href: '/bookmarks' },
 ];
 
-const FEATURED = ['vishnu-sahasranama', 'lalitha-sahasranama', 'vayu-stuti', 'bhagavad-gita-01', 'venkatesha-suprabhatam', 'sri-rudram-namakam', 'sundarakanda-01', 'sandhya-vandane-rigveda'];
+const FEATURED = ['vishnu-sahasranama', 'lalitha-sahasranama', 'vayu-stuti', 'bhagavad-gita-01', 'venkatesha-suprabhatam', 'sri-rudram-namakam', 'sundarakanda-01', 'sandhya-vandane-rigveda', 'nitya-puja'];
 
 export default function Home() {
   const { theme, settings, update, favorites, recent, plans, positions } = useSettings();
