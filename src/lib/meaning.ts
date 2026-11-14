@@ -2,14 +2,38 @@ import type { Meaning, MeaningLang } from '../data/types';
 import type { ScriptId } from './transliterate';
 
 /** Reader preference for which meaning(s) to show. */
-export type MeaningPref = 'auto' | 'en' | 'kn' | 'both';
+export type MeaningPref = 'auto' | MeaningLang | 'both';
 
 export const MEANING_PREFS: { id: MeaningPref; label: string }[] = [
   { id: 'auto', label: 'Auto' },
   { id: 'en', label: 'English' },
   { id: 'kn', label: 'ಕನ್ನಡ' },
+  { id: 'hi', label: 'हिन्दी' },
+  { id: 'te', label: 'తెలుగు' },
+  { id: 'ta', label: 'தமிழ்' },
   { id: 'both', label: 'Both · ಎರಡೂ' },
 ];
+
+/** Meaning language that goes with a reading script. */
+export function langForScript(script: ScriptId): MeaningLang {
+  switch (script) {
+    case 'kannada':
+      return 'kn';
+    case 'telugu':
+      return 'te';
+    case 'tamil':
+      return 'ta';
+    case 'devanagari':
+      return 'hi';
+    default:
+      return 'en';
+  }
+}
+
+/** The language a preference resolves to for summaries and labels. */
+export function primaryLang(pref: MeaningPref, script: ScriptId): MeaningLang {
+  return pref === 'auto' || pref === 'both' ? langForScript(script) : pref;
+}
 
 export function meaningText(m: Meaning | undefined, lang: MeaningLang): string | undefined {
   if (!m) return undefined;
@@ -18,8 +42,9 @@ export function meaningText(m: Meaning | undefined, lang: MeaningLang): string |
 }
 
 /**
- * Which meanings to display, in order. 'auto' shows Kannada when reading in
- * Kannada script and English otherwise. Falls back to whatever exists.
+ * Which meanings to display, in order. 'auto' shows the language that matches
+ * the reading script (Kannada, Telugu, Tamil, Hindi for Devanagari), 'both'
+ * adds English. Falls back to English, then Kannada, rather than showing nothing.
  */
 export function meaningsToShow(
   m: Meaning | undefined,
@@ -27,14 +52,34 @@ export function meaningsToShow(
   script: ScriptId,
 ): { lang: MeaningLang; text: string }[] {
   if (!m) return [];
+  const native = langForScript(script);
   const want: MeaningLang[] =
-    pref === 'both' ? ['kn', 'en'] : pref === 'auto' ? [script === 'kannada' ? 'kn' : 'en'] : [pref];
+    pref === 'both' ? (native === 'en' ? ['en'] : [native, 'en']) : [pref === 'auto' ? native : pref];
   const out = want
     .map((lang) => ({ lang, text: meaningText(m, lang) }))
     .filter((x): x is { lang: MeaningLang; text: string } => !!x.text);
-  if (out.length || pref === 'both') return out;
-  // Fall back to the other language rather than showing nothing.
-  const other: MeaningLang = want[0] === 'kn' ? 'en' : 'kn';
-  const t = meaningText(m, other);
-  return t ? [{ lang: other, text: t }] : [];
+  if (out.length) return out;
+  for (const lang of ['en', 'kn'] as MeaningLang[]) {
+    const t = meaningText(m, lang);
+    if (t) return [{ lang, text: t }];
+  }
+  return [];
 }
+
+/** Text summary in the preferred language, falling back to English. */
+export function summaryFor(
+  m: { summary: string; summaryKn?: string; summaries?: Partial<Record<MeaningLang, string>> },
+  lang: MeaningLang,
+): { lang: MeaningLang; text: string } {
+  const t = lang === 'kn' ? m.summaryKn ?? m.summaries?.kn : lang === 'en' ? undefined : m.summaries?.[lang];
+  return t ? { lang, text: t } : { lang: 'en', text: m.summary };
+}
+
+/** Label for the tap-to-open meaning button. */
+export const MEANING_BUTTON: Record<MeaningLang, string> = {
+  en: 'Meaning',
+  kn: 'ಅರ್ಥ',
+  hi: 'अर्थ',
+  te: 'అర్థం',
+  ta: 'பொருள்',
+};

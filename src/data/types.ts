@@ -24,7 +24,7 @@ export type CategoryId =
 export type Difficulty = 'easy' | 'medium' | 'advanced';
 
 /** Languages that verse meanings can be written in. */
-export type MeaningLang = 'en' | 'kn';
+export type MeaningLang = 'en' | 'kn' | 'hi' | 'te' | 'ta';
 
 /**
  * A verse meaning. A plain string is English (older entries); an object holds
@@ -102,6 +102,8 @@ export interface Mantra {
   summary: string;
   /** Optional Kannada version of the summary. */
   summaryKn?: string;
+  /** Summaries in other languages (filled from meaning packs on load). */
+  summaries?: Partial<Record<MeaningLang, string>>;
   /** Choices offered at the top of the reader (first option is the default). */
   variants?: VariantChoice[];
   difficulty: Difficulty;
@@ -120,4 +122,14 @@ export interface Category {
   title: string;
   titleEn: string;
   description: string;
+}
+
+/**
+ * Meanings in an additional language, kept outside the text files so that
+ * translators never touch the sacred text. Keys are "sectionIndex.verseIndex"
+ * (0-based, as in the text file). Merged into Verse.meaning on load.
+ */
+export interface MeaningPack {
+  lang: Exclude<MeaningLang, 'en' | 'kn'>;
+  texts: Record<string, { summary?: string; verses: Record<string, string> }>;
 }

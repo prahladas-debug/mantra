@@ -2,7 +2,8 @@ import Sanscript from '@indic-transliteration/sanscript';
 import { searchKey, translit } from '../lib/transliterate';
 import { CATEGORIES } from './categories';
 import { LIBRARY } from './library.generated';
-import type { CategoryId, Mantra } from './types';
+import { MEANING_PACKS } from './meanings.generated';
+import type { CategoryId, Mantra, MeaningPack } from './types';
 
 export { CATEGORIES, categoryById } from './categories';
 export type { Category, CategoryId, Mantra, Section, Verse } from './types';
@@ -27,7 +28,30 @@ function toDevanagari(m: Mantra): Mantra {
   };
 }
 
-export const ALL_MANTRAS: Mantra[] = LIBRARY.map(toDevanagari).sort(
+/** Merge Hindi/Telugu/Tamil meaning packs into the verses (keys "si.vi"). */
+function applyPacks(list: Mantra[], packs: MeaningPack[]): Mantra[] {
+  if (!packs.length) return list;
+  return list.map((m) => {
+    const entries = packs.filter((p) => p.texts[m.id]);
+    if (!entries.length) return m;
+    const summaries = { ...m.summaries };
+    const sections = m.sections.map((s) => ({ ...s, verses: s.verses.map((v) => ({ ...v })) }));
+    for (const p of entries) {
+      const t = p.texts[m.id];
+      if (t.summary) summaries[p.lang] = t.summary;
+      for (const [k, text] of Object.entries(t.verses)) {
+        const [si, vi] = k.split('.').map(Number);
+        const v = sections[si]?.verses[vi];
+        if (!v) continue;
+        const base = typeof v.meaning === 'string' ? { en: v.meaning } : { ...v.meaning };
+        v.meaning = { ...base, [p.lang]: text };
+      }
+    }
+    return { ...m, summaries, sections };
+  });
+}
+
+export const ALL_MANTRAS: Mantra[] = applyPacks(LIBRARY.map(toDevanagari), MEANING_PACKS).sort(
   (a, b) =>
     (a.order ?? 1e6) - (b.order ?? 1e6) ||
     DIFFICULTY_ORDER[a.difficulty] - DIFFICULTY_ORDER[b.difficulty] ||

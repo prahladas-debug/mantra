@@ -10,7 +10,7 @@ import { useSettings } from '../../lib/settings';
 import { choicesFor, matches, type Choices } from '../../lib/variants';
 import { planStatus } from '../../lib/plans';
 import type { ThemeName } from '../../lib/theme';
-import { MEANING_PREFS, meaningsToShow, type MeaningPref } from '../../lib/meaning';
+import { MEANING_BUTTON, MEANING_PREFS, meaningsToShow, primaryLang, summaryFor, type MeaningPref } from '../../lib/meaning';
 import { bindDandas, translit, translitInline, translitTitle, verseNumber, type ScriptId } from '../../lib/transliterate';
 
 type Row =
@@ -93,7 +93,9 @@ export default function Reader() {
 
   const script = settings.script;
   // Kannada for notes/summaries when the reader wants Kannada meanings.
-  const preferKn = settings.meaningLang === 'kn' || (settings.meaningLang === 'auto' && script === 'kannada');
+  const pLang = primaryLang(settings.meaningLang, script);
+  const preferKn = pLang === 'kn';
+  const summary = summaryFor(mantra, pLang);
   const second = settings.secondaryScript && settings.secondaryScript !== script ? settings.secondaryScript : null;
   const scale = settings.fontScale;
   const isFav = favorites.includes(mantra.id);
@@ -113,7 +115,7 @@ export default function Reader() {
             <Text style={{ color: theme.textMuted, fontSize: 13, marginTop: 4 }}>
               {[categoryById[mantra.category]?.titleEn, mantra.deity, mantra.source].filter(Boolean).join(' · ')}
             </Text>
-            <Text style={{ color: theme.textMuted, fontSize: 15, marginTop: 10, lineHeight: 22 }}>{preferKn && mantra.summaryKn ? mantra.summaryKn : translitInline(mantra.summary, script)}</Text>
+            <Text style={{ color: theme.textMuted, fontSize: 15, marginTop: 10, lineHeight: 22 }}>{summary.lang === 'en' ? translitInline(summary.text, script) : summary.text}</Text>
             {(mantra.category === 'sandhya' || mantra.category === 'puja') && <SankalpaCard />}
             {mantra.variants?.map((v) => (
               <View key={v.key} style={[r.variantBox, { borderColor: theme.cardBorder, backgroundColor: theme.card }]}>
@@ -208,9 +210,9 @@ export default function Reader() {
                     {
                       color: theme.textMuted,
                       borderColor: theme.accent,
-                      fontSize: (lang === 'kn' ? 16 : 15) * Math.min(scale, 1.3),
-                      lineHeight: (lang === 'kn' ? 25 : 21) * Math.min(scale, 1.3),
-                      fontStyle: lang === 'kn' ? 'normal' : 'italic',
+                      fontSize: (lang !== 'en' ? 16 : 15) * Math.min(scale, 1.3),
+                      lineHeight: (lang !== 'en' ? 25 : 21) * Math.min(scale, 1.3),
+                      fontStyle: lang !== 'en' ? 'normal' : 'italic',
                     },
                   ]}
                 >
@@ -378,9 +380,8 @@ function SeriesNav({ mantra }: { mantra: Mantra }) {
 
 /** Button label in the reader's meaning language. */
 function meaningLabel(pref: MeaningPref, script: ScriptId): string {
-  if (pref === 'kn' || (pref === 'auto' && script === 'kannada')) return 'ಅರ್ಥ';
-  if (pref === 'both') return 'ಅರ್ಥ · Meaning';
-  return 'Meaning';
+  const lang = primaryLang(pref, script);
+  return pref === 'both' && lang !== 'en' ? `${MEANING_BUTTON[lang]} · Meaning` : MEANING_BUTTON[lang];
 }
 
 function PanelLabel({ children }: { children: React.ReactNode }) {
