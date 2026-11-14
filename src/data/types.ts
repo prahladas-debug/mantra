@@ -130,6 +130,7 @@ export interface Category {
  * (0-based, as in the text file). Merged into Verse.meaning on load.
  */
 export interface MeaningPack {
-  lang: Exclude<MeaningLang, 'en' | 'kn'>;
+  /** en/kn packs carry meanings for the long works (Gītā, Sundarakāṇḍa …) kept out of the text files. */
+  lang: MeaningLang;
   texts: Record<string, { summary?: string; verses: Record<string, string> }>;
 }
