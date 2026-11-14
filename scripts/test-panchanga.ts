@@ -10,9 +10,10 @@
 import assert from 'node:assert/strict';
 import { readdirSync, readFileSync } from 'node:fs';
 import { join } from 'node:path';
-import { LINKED_TEXT_IDS, festivalsBetween, ekadashiDates } from '../src/lib/festivals';
+import { LINKED_TEXT_IDS, festivalsBetween, ekadashiDates, paryayaMatha } from '../src/lib/festivals';
+import { sauraDay, sauraMonthStart, sauraSankalpa } from '../src/lib/sauramana';
 import {
-  CITIES, crossing, elongation, formatTime, julianDay, fromJulian, lunationsBetween, panchanga, siderealSun,
+  CITIES, MASA, crossing, elongation, formatTime, julianDay, fromJulian, lunationsBetween, panchanga, siderealSun,
 } from '../src/lib/panchanga';
 
 process.env.TZ = 'Asia/Kolkata';
@@ -212,6 +213,103 @@ const FESTIVALS: [string, string][] = [
   const w = panchanga('2026-01-01', ny);
   assert.ok(Math.abs(mins(formatTime(w.sunrise, ny)) - (7 * 60 + 20)) <= 3, `NY winter sunrise ${formatTime(w.sunrise, ny)}`); // EST
   checks += 2;
+}
+
+// ---- 9. ten-year range 2025–2036 ----
+{
+  // Adhika months (amānta). Published lists (Patrika, PanchangBodh, drikpanchang 2026/2029):
+  // Jyeṣṭha 2026, Caitra 2029 (15 Mar–13 Apr), Bhādrapada 2031, Āṣāḍha 2034. No kṣaya month.
+  const ls = lunationsBetween(julianDay(new Date('2025-01-01')), julianDay(new Date('2036-12-31')));
+  const adhika = ls.filter((l) => l.adhika).map((l) => `${fromJulian(l.start + 0.25).toISOString().slice(0, 4)} ${MASA[l.masa]}`);
+  assert.deepEqual(adhika, ['2026 ज्येष्ठ', '2029 चैत्र', '2031 भाद्रपद', '2034 आषाढ']);
+  for (let i = 1; i < ls.length; i++) assert.equal((ls[i].masa - ls[i - 1].masa + 12) % 12, ls[i - 1].adhika ? 0 : 1, 'no kṣaya month');
+  checks += 1 + ls.length - 1;
+
+  // drikpanchang Hindu calendars (Bengaluru) 2028–2030; Diwali 2033 (drik/AstroSage),
+  // Gaṇeśa Caturthī 2036 (drik), Diwali 2036 (AstroSage).
+  const FUTURE: [string, string][] = [
+    ['makara-sankranti', '2028-01-15'], ['maha-shivaratri', '2028-02-23'], ['yugadi', '2028-03-27'], ['rama-navami', '2028-04-03'],
+    ['krishna-janmashtami', '2028-08-13'], ['ganesha-chaturthi', '2028-08-23'], ['vijayadashami', '2028-09-27'], ['naraka-chaturdashi', '2028-10-17'], ['deepavali', '2028-10-17'],
+    ['makara-sankranti', '2029-01-14'], ['maha-shivaratri', '2029-02-11'], ['yugadi', '2029-04-14'], ['rama-navami', '2029-04-23'],
+    ['krishna-janmashtami', '2029-09-01'], ['ganesha-chaturthi', '2029-09-11'], ['vijayadashami', '2029-10-16'], ['deepavali', '2029-11-05'],
+    ['makara-sankranti', '2030-01-14'], ['maha-shivaratri', '2030-03-02'], ['yugadi', '2030-04-03'], ['rama-navami', '2030-04-12'],
+    ['krishna-janmashtami', '2030-08-21'], ['ganesha-chaturthi', '2030-09-01'], ['vijayadashami', '2030-10-06'], ['naraka-chaturdashi', '2030-10-26'], ['deepavali', '2030-10-26'],
+    ['deepavali', '2033-10-22'], ['naraka-chaturdashi', '2033-10-22'], ['ganesha-chaturthi', '2036-08-24'], ['deepavali', '2036-10-18'],
+  ];
+  const fs = festivalsBetween(blr, '2028-01-01', '2036-12-31', 'smarta');
+  for (const [key, date] of FUTURE) {
+    const found = fs.filter((f) => f.key === key && f.date.slice(0, 4) === date.slice(0, 4)).map((f) => f.date);
+    assert.ok(found.includes(date), `${key}: want ${date}, got ${found.join(',') || 'none'}`);
+    checks++;
+  }
+  // Ekādaśīs 2028 and 2030 (drik ekādaśī lists): all Smārta dates, and the Mādhva shifts.
+  const EK_FUTURE: Record<number, { smarta: string; madhva: Record<string, string>; gaudiya?: Record<string, string> }> = {
+    2028: {
+      smarta: '01-08 01-22 02-07 02-20 03-07 03-21 04-05 04-20 05-05 05-20 06-03 06-18 07-02 07-18 08-01 08-16 08-30 09-15 09-29 10-14 10-29 11-12 11-27 12-12 12-27',
+      madhva: { '04-05': '04-06', '08-16': '08-17', '11-12': '11-13' },
+      gaudiya: { '02-20': '02-21' },
+    },
+    2030: {
+      smarta: '01-15 01-29 02-14 02-28 03-15 03-29 04-14 04-28 05-13 05-27 06-12 06-26 07-11 07-26 08-09 08-24 09-08 09-23 10-07 10-23 11-05 11-21 12-05 12-21',
+      madhva: { '01-29': '01-30', '03-15': '03-16', '05-13': '05-14' },
+    },
+  };
+  for (const [y, want] of Object.entries(EK_FUTURE)) {
+    const eks = lunationsBetween(julianDay(new Date(`${Number(y) - 1}-12-15`)), julianDay(new Date(`${y}-12-31`)))
+      .flatMap((l) => [ekadashiDates(blr, l, 11), ekadashiDates(blr, l, 26)])
+      .filter((e) => e.smarta.startsWith(y));
+    assert.equal(eks.map((e) => e.smarta.slice(5)).join(' '), want.smarta, `Smārta ekādaśīs ${y}`);
+    for (const e of eks) {
+      const md = e.smarta.slice(5);
+      if (e.borderline) continue; // 2030-08-09: daśamī-vedha by 2.5 min — drik treats it as śuddha
+      assert.equal(e.madhva.slice(5), want.madhva[md] ?? md, `Mādhva ${y}-${md}`);
+      assert.equal(e.vaishnava.slice(5), want.gaudiya?.[md] ?? want.madhva[md] ?? md, `Gauḍīya ${y}-${md}`);
+      checks += 2;
+    }
+    checks++;
+  }
+  assert.ok(ekadashiDates(blr, lunationsBetween(julianDay(new Date('2030-08-05')), julianDay(new Date('2030-08-05')))[0], 11).borderline);
+}
+
+// ---- 10. Sauramāna (Udupi / Tuḷu) ----
+{
+  const udupi = CITIES.find((c) => c.id === 'udupi')!;
+  // drikpanchang Udupi 14 Sep 2025: Sun in Siṃha, "pravishṭe" 29.
+  assert.deepEqual([sauraDay(udupi, '2025-09-14').rasi, sauraDay(udupi, '2025-09-14').day], [4, 29]);
+  // Tuḷu: the saṅkrānti day closes the month — Paggu 1 = 14 Apr 2020 (ingress 13 Apr evening);
+  // Āṭi 2025 begins 17 Jul (Karka ingress 16 Jul 17:40); Bisu 2025 = 14 Apr (ingress 03:30).
+  assert.equal(sauraMonthStart(udupi, 2020, 0), '2020-04-14');
+  assert.equal(sauraMonthStart(udupi, 2025, 3), '2025-07-17');
+  assert.equal(sauraMonthStart(udupi, 2025, 0), '2025-04-14');
+  assert.equal(sauraDay(udupi, '2025-07-16').tulu, 'Kārtel');
+  assert.equal(sauraDay(udupi, '2025-07-17').tulu, 'Āṭi');
+  const p = panchanga('2026-11-20', udupi);
+  assert.ok(sauraSankalpa(p, sauraDay(udupi, '2026-11-20')).includes('वृश्चिकमासे'), 'Sauramāna saṅkalpa');
+  checks += 7;
+
+  const us = festivalsBetween(udupi, '2024-01-01', '2026-12-31', 'madhva', 'saura');
+  const on = (key: string) => us.filter((f) => f.key === key).map((f) => f.date);
+  // Udupi Śrī Kṛṣṇa Maṭha: 14 Sep 2025 (Telangana Today), 4 Sep 2026 + Viṭla Piṇḍi 5 Sep (Deccan Chronicle).
+  assert.ok(on('udupi-krishna-janmashtami').includes('2025-09-14'));
+  assert.ok(on('udupi-krishna-janmashtami').includes('2026-09-04'));
+  assert.ok(on('vitla-pindi').includes('2025-09-15') && on('vitla-pindi').includes('2026-09-05'));
+  // Saptotsava 9–15 Jan 2025 (Udayavani); Lakṣa Dīpotsava from Uttāna dvādaśī, 13 Nov 2024 (Udayavani).
+  assert.ok(us.some((f) => f.key === 'saptotsava' && f.date === '2025-01-09' && f.endDate === '2025-01-15'));
+  assert.ok(on('laksha-deepotsava').includes('2024-11-13'));
+  // Paryāya: Puttige 2024, Shirur 18 Jan 2026 (Vedavardhana Tīrtha), then Sode 2028.
+  assert.deepEqual([2024, 2026, 2028, 2030, 2032, 2034, 2036].map(paryayaMatha), ['Puttige', 'Shirur', 'Sode', 'Kaniyur', 'Pejavar', 'Palimaru', 'Admaru']);
+  assert.ok(on('paryaya').includes('2026-01-18'));
+  // The Cāndramāna list is unchanged by the Udupi additions.
+  assert.ok(!festivalsBetween(udupi, '2025-01-01', '2025-12-31', 'madhva').some((f) => f.place === 'Udupi'));
+  checks += 8;
+}
+
+{
+  const t0 = Date.now();
+  for (let y = 2025; y <= 2036; y++) festivalsBetween(blr, `${y}-01-01`, `${y}-12-31`, 'madhva', 'saura');
+  const ms = Date.now() - t0;
+  assert.ok(ms < 5000, `12 years of festivals in ${ms} ms`);
+  checks++;
 }
 
 console.log(`pañcāṅga tests passed (${checks} checks; worst tithi-time offset vs drik ${worst.toFixed(1)} min)`);

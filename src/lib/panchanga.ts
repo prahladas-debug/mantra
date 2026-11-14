@@ -135,6 +135,30 @@ export function moonLongitude(jd: number): number {
   return norm(Lp + sum / 1e6 + nutation(T));
 }
 
+// Meeus table 47.B (largest terms): [D, M, M', F, coefficient in 1e-6 degrees]
+const MOON_LAT: [number, number, number, number, number][] = [
+  [0, 0, 0, 1, 5128122], [0, 0, 1, 1, 280602], [0, 0, 1, -1, 277693], [2, 0, 0, -1, 173237],
+  [2, 0, -1, 1, 55413], [2, 0, -1, -1, 46271], [2, 0, 0, 1, 32573], [0, 0, 2, 1, 17198],
+  [2, 0, 1, -1, 9266], [0, 0, 2, -1, 8822], [2, -1, 0, -1, 8216], [2, 0, -2, -1, 4324],
+  [2, 0, 1, 1, 4200], [2, 1, 0, -1, -3359],
+];
+
+/** Geocentric ecliptic latitude of the Moon, degrees (≈0.01°); `jd` in TT. */
+export function moonLatitude(jd: number): number {
+  const T = (jd - 2451545.0) / 36525;
+  const Lp = 218.3164477 + 481267.88123421 * T;
+  const D = 297.8501921 + 445267.1114034 * T;
+  const M = 357.5291092 + 35999.0502909 * T;
+  const Mp = 134.9633964 + 477198.8675055 * T;
+  const F = 93.272095 + 483202.0175233 * T;
+  const E = 1 - 0.002516 * T;
+  let sum = 0;
+  for (const [d, m, mp, f, c] of MOON_LAT) sum += c * (m ? E : 1) * sinD(d * D + m * M + mp * Mp + f * F);
+  const A1 = 119.75 + 131.849 * T;
+  sum += -2235 * sinD(Lp) + 382 * sinD(313.45 + 481266.484 * T) + 175 * sinD(A1 - F) + 175 * sinD(A1 + F);
+  return sum / 1e6;
+}
+
 /**
  * Lahiri ayanāṃśa (mean, degrees); `jd` in TT. 23.86297° at J2000 + IAU-2006 general
  * precession. Sidereal longitude = apparent tropical longitude − this value. The J2000
@@ -217,6 +241,44 @@ function sunEvent(y: number, m: number, d: number, lat: number, lon: number, kin
     if (Math.abs(delta) < 1e-4) break;
   }
   return jd;
+}
+
+/** Altitude of the Moon's centre (degrees, geocentric) at jd UT for lat/lon. */
+function moonAltitude(jdUT: number, lat: number, lon: number): number {
+  const jd = jdUT + deltaT(jdUT);
+  const T = (jd - 2451545.0) / 36525;
+  const lam = moonLongitude(jd);
+  const bet = moonLatitude(jd);
+  const eps = 23.4392911 - 0.0130042 * T;
+  const ra = Math.atan2(sinD(lam) * cosD(eps) - Math.tan(bet * D2R) * sinD(eps), cosD(lam)) / D2R;
+  const dec = Math.asin(sinD(bet) * cosD(eps) + cosD(bet) * sinD(eps) * sinD(lam)) / D2R;
+  const H = gmst(jdUT) + lon - ra;
+  return Math.asin(sinD(lat) * sinD(dec) + cosD(lat) * cosD(dec) * cosD(H)) / D2R;
+}
+
+/**
+ * First moonrise (candrodaya) in [from, to) (JD UT) at lat/lon, or null. Upper limb with
+ * refraction and the Moon's mean parallax: geocentric altitude +0.125°. Accuracy ≈2 min.
+ */
+export function moonriseBetween(lat: number, lon: number, from: number, to: number): number | null {
+  const alt = (t: number) => moonAltitude(t, lat, lon) - 0.125;
+  const step = 1 / 72; // 20 min
+  let prev = alt(from);
+  for (let t = from + step; t < to + step; t += step) {
+    const cur = alt(t);
+    if (prev < 0 && cur >= 0) {
+      let lo = t - step;
+      let hi = t;
+      for (let i = 0; i < 20; i++) {
+        const mid = (lo + hi) / 2;
+        if (alt(mid) < 0) lo = mid;
+        else hi = mid;
+      }
+      return hi < to ? hi : null;
+    }
+    prev = cur;
+  }
+  return null;
 }
 
 /** Local sunrise (UTC Date) for the device-local calendar day of `date` at lat/lon. */

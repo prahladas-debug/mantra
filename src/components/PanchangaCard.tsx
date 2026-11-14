@@ -3,34 +3,47 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import { router, type Href } from 'expo-router';
 import { useCallback, useEffect, useMemo, useState, useSyncExternalStore } from 'react';
 import { Pressable, Text, View } from 'react-native';
-import { defaultRule, festivalsOn, type EkadashiRule, type Festival } from '../lib/festivals';
+import { defaultRule, festivalsOn, type CalendarMode, type EkadashiRule, type Festival } from '../lib/festivals';
+import { sauraDay, sauraSankalpa } from '../lib/sauramana';
+import { Chip } from './ui';
 import { cityById, panchanga, todayIn } from '../lib/panchanga';
 import { useSettings } from '../lib/settings';
 import { translit } from '../lib/transliterate';
 
-// ---------- ekādaśī tradition (Smārta / Mādhva), shared by the pañcāṅga screens ----------
+// ---------- small persisted preferences shared by the pañcāṅga screens ----------
 
-const RULE_KEY = 'mantra.panchanga.ekadashiRule';
-let storedRule: EkadashiRule | null | undefined; // undefined = not loaded yet
-const listeners = new Set<() => void>();
-const emit = () => listeners.forEach((l) => l());
-function subscribe(l: () => void) {
-  listeners.add(l);
-  if (storedRule === undefined) {
-    storedRule = null;
-    AsyncStorage.getItem(RULE_KEY)
-      .then((v) => {
-        if (v === 'smarta' || v === 'madhva') {
-          storedRule = v;
-          emit();
-        }
-      })
-      .catch(() => {});
-  }
-  return () => {
-    listeners.delete(l);
+/** A string preference kept under its own AsyncStorage key, shared across screens. */
+function makePref<T extends string>(key: string, allowed: readonly T[]) {
+  let value: T | null | undefined; // undefined = not loaded yet
+  const listeners = new Set<() => void>();
+  const emit = () => listeners.forEach((l) => l());
+  const subscribe = (l: () => void) => {
+    listeners.add(l);
+    if (value === undefined) {
+      value = null;
+      AsyncStorage.getItem(key)
+        .then((v) => {
+          if (v && (allowed as readonly string[]).includes(v)) {
+            value = v as T;
+            emit();
+          }
+        })
+        .catch(() => {});
+    }
+    return () => {
+      listeners.delete(l);
+    };
   };
+  const set = (v: T) => {
+    value = v;
+    AsyncStorage.setItem(key, v).catch(() => {});
+    emit();
+  };
+  return { subscribe, get: () => value ?? null, set };
 }
+
+const rulePref = makePref<EkadashiRule>('mantra.panchanga.ekadashiRule', ['smarta', 'madhva']);
+const modePref = makePref<CalendarMode>('mantra.panchanga.calendarMode', ['chandra', 'saura']);
 
 /**
  * The reader's ekādaśī rule: their explicit choice (stored under its own key), else the
@@ -38,13 +51,47 @@ function subscribe(l: () => void) {
  */
 export function useEkadashiRule(): [EkadashiRule, (r: EkadashiRule) => void] {
   const { settings } = useSettings();
-  const stored = useSyncExternalStore(subscribe, () => storedRule ?? null, () => null);
-  const set = useCallback((r: EkadashiRule) => {
-    storedRule = r;
-    AsyncStorage.setItem(RULE_KEY, r).catch(() => {});
-    emit();
-  }, []);
+  const stored = useSyncExternalStore(rulePref.subscribe, rulePref.get, () => null);
+  const set = useCallback((r: EkadashiRule) => rulePref.set(r), []);
   return [stored ?? defaultRule(settings.variants.tradition), set];
+}
+
+/** Cāndramāna (lunar, default) or Sauramāna (solar, Udupi / Tuḷu Nāḍu) month reckoning. */
+export function useCalendarMode(): [CalendarMode, (m: CalendarMode) => void] {
+  const stored = useSyncExternalStore(modePref.subscribe, modePref.get, () => null);
+  const set = useCallback((m: CalendarMode) => modePref.set(m), []);
+  return [stored ?? 'chandra', set];
+}
+
+/** The two-chip Cāndramāna / Sauramāna switch. */
+export function CalendarModeChips() {
+  const [mode, setMode] = useCalendarMode();
+  return (
+    <>
+      <Chip label="Cāndramāna" active={mode === 'chandra'} onPress={() => setMode('chandra')} />
+      <Chip label="Sauramāna" active={mode === 'saura'} onPress={() => setMode('saura')} />
+    </>
+  );
+}
+
+/** Labelled rows: ekādaśī rule (Smārta/Mādhva) and calendar (Cāndramāna/Sauramāna). */
+export function CalendarOptions({ rule, setRule }: { rule: string; setRule: (r: 'smarta' | 'madhva') => void }) {
+  const { theme } = useSettings();
+  const label = { color: theme.textMuted, fontSize: 13, width: 72 };
+  const row = { flexDirection: 'row' as const, alignItems: 'center' as const, gap: 8, flexWrap: 'wrap' as const };
+  return (
+    <View style={{ gap: 8, marginTop: 10, marginHorizontal: 16 }}>
+      <View style={row}>
+        <Text style={label}>Tradition</Text>
+        <Chip label="Smārta" active={rule === 'smarta'} onPress={() => setRule('smarta')} />
+        <Chip label="Mādhva" active={rule === 'madhva'} onPress={() => setRule('madhva')} />
+      </View>
+      <View style={row}>
+        <Text style={label}>Calendar</Text>
+        <CalendarModeChips />
+      </View>
+    </View>
+  );
 }
 
 /** Today's date at the selected city. */
@@ -97,6 +144,7 @@ export function FestivalLine({ f, showDate }: { f: Festival; showDate?: boolean 
       <Text style={{ color: theme.textMuted, fontSize: 13, marginTop: 1 }}>
         {f.en}
         {f.endDate ? ` (to ${f.endDate.slice(8)}/${f.endDate.slice(5, 7)})` : ''}
+        {f.calendar === 'saura' ? ' · Sauramāna' : f.calendar === 'civil' ? ' · fixed date' : ''}
         {f.textId ? '  ·  read ›' : ''}
       </Text>
     </>
@@ -118,7 +166,9 @@ export function TodayCard() {
   const { theme, settings } = useSettings();
   const { p, city, today } = usePanchanga();
   const [rule] = useEkadashiRule();
-  const fest = useMemo(() => festivalsOn(city, today, rule), [city, today, rule]);
+  const [mode] = useCalendarMode();
+  const fest = useMemo(() => festivalsOn(city, today, rule, mode), [city, today, rule, mode]);
+  const saura = useMemo(() => (mode === 'saura' ? sauraDay(city, today) : null), [city, today, mode]);
   const t = (s: string) => translit(s, settings.script);
   return (
     <Pressable
@@ -133,8 +183,15 @@ export function TodayCard() {
         TODAY · ಇಂದು · {city.name.toUpperCase()}
       </Text>
       <Text style={{ color: theme.accent, fontSize: 18, fontWeight: '700', marginTop: 4 }}>
-        {t(`${p.adhika ? 'अधिक ' : ''}${p.masa} ${p.paksha} ${p.tithi}`)}
+        {saura
+          ? `${t(`${saura.name} ${saura.day} · ${p.paksha} ${p.tithi}`)}`
+          : t(`${p.adhika ? 'अधिक ' : ''}${p.masa} ${p.paksha} ${p.tithi}`)}
       </Text>
+      {saura && (
+        <Text style={{ color: theme.textMuted, fontSize: 13 }}>
+          Sauramāna · {saura.tulu} {saura.day} · {t(`${p.adhika ? 'अधिक ' : ''}${p.masa}`)} (Cāndramāna)
+        </Text>
+      )}
       <Text style={{ color: theme.text, fontSize: 15, marginTop: 2 }}>
         {t(`${p.samvatsara} · ${p.nakshatra} · ${p.vasara}`)}
       </Text>
@@ -150,14 +207,16 @@ export function TodayCard() {
 /** Saṅkalpa phrase for today, shown at the top of Sandhyāvandane / pūjā texts. */
 export function SankalpaCard() {
   const { theme, settings } = useSettings();
-  const { p, city } = usePanchanga();
+  const { p, city, today } = usePanchanga();
+  const [mode] = useCalendarMode();
+  const sankalpa = mode === 'saura' ? sauraSankalpa(p, sauraDay(city, today)) : p.sankalpa;
   return (
     <View style={{ marginTop: 14, padding: 12, borderRadius: 12, borderWidth: 1, borderColor: theme.cardBorder, backgroundColor: theme.card }}>
       <Text style={{ color: theme.textMuted, fontSize: 13, fontWeight: '700', marginBottom: 6 }}>
         Today’s saṅkalpa details · ಇಂದಿನ ಸಂಕಲ್ಪ ({city.name})
       </Text>
       <Text style={{ color: theme.text, fontSize: 17, lineHeight: 28 }} selectable>
-        {translit(p.sankalpa, settings.script)}
+        {translit(sankalpa, settings.script)}
       </Text>
       <Text style={{ color: theme.textMuted, fontSize: 12, marginTop: 6 }}>
         Use in place of the samvatsara…tithi placeholders. Computed for sunrise; change city in Pañcāṅga.

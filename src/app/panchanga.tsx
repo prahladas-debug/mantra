@@ -1,10 +1,11 @@
 import { Stack, router, useLocalSearchParams, type Href } from 'expo-router';
 import { useMemo, useState } from 'react';
 import { ScrollView, Text, View } from 'react-native';
-import { FestivalLine, NavButton, useEkadashiRule } from '../components/PanchangaCard';
+import { CalendarModeChips, FestivalLine, NavButton, useCalendarMode, useEkadashiRule } from '../components/PanchangaCard';
 import { Chip, SectionHeading } from '../components/ui';
 import { festivalsBetween } from '../lib/festivals';
 import { CITIES, VARA, addDays, cityById, formatTime, panchanga, parseIso, todayIn, type Span } from '../lib/panchanga';
+import { sauraDay, sauraSankalpa } from '../lib/sauramana';
 import { useSettings } from '../lib/settings';
 import { translit } from '../lib/transliterate';
 
@@ -20,10 +21,13 @@ export default function PanchangaScreen() {
   const [picked, setPicked] = useState<string | null>(null);
   const date = picked ?? (params.date && ISO.test(params.date) ? params.date : today);
   const [rule] = useEkadashiRule();
+  const [mode] = useCalendarMode();
 
   const p = useMemo(() => panchanga(date, city), [date, city]);
-  const todays = useMemo(() => festivalsBetween(city, date, date, rule), [city, date, rule]);
-  const upcoming = useMemo(() => festivalsBetween(city, addDays(date, 1), addDays(date, 30), rule), [city, date, rule]);
+  const todays = useMemo(() => festivalsBetween(city, date, date, rule, mode), [city, date, rule, mode]);
+  const upcoming = useMemo(() => festivalsBetween(city, addDays(date, 1), addDays(date, 30), rule, mode), [city, date, rule, mode]);
+  const saura = useMemo(() => sauraDay(city, date), [city, date]);
+  const sankalpa = mode === 'saura' ? sauraSankalpa(p, saura) : p.sankalpa;
   const t = (s: string) => translit(s, settings.script);
   const tm = (d: Date) => formatTime(d, city, date);
   const [y, m, d] = parseIso(date);
@@ -35,7 +39,16 @@ export default function PanchangaScreen() {
     ['Saṃvatsara · ಸಂವತ್ಸರ', p.samvatsara],
     ['Ayana · ಅಯನ', p.ayana],
     ['Ṛtu · ಋತು', p.rtu],
-    ['Māsa · ಮಾಸ', `${p.adhika ? 'अधिक ' : ''}${p.masa}`],
+    ...((mode === 'saura'
+      ? [
+          ['Saura māsa · ಸೌರ ಮಾಸ', `${saura.name} · ${saura.day}`],
+          ['Tuḷu month · ತುಳು ತಿಂಗಳು', `${saura.tulu} ${saura.day}`],
+          ['Cāndra māsa · ಚಾಂದ್ರ ಮಾಸ', `${p.adhika ? 'अधिक ' : ''}${p.masa}`],
+        ]
+      : [
+          ['Māsa · ಮಾಸ', `${p.adhika ? 'अधिक ' : ''}${p.masa}`],
+          ['Saura māsa · ಸೌರ ಮಾಸ', `${saura.name} · ${saura.day}`],
+        ]) as [string, string][]),
     ['Pakṣa · ಪಕ್ಷ', p.paksha],
     ['Vāsara · ವಾಸರ', p.vasara],
   ];
@@ -77,6 +90,9 @@ export default function PanchangaScreen() {
       <View style={{ flexDirection: 'row', justifyContent: 'center', gap: 8, marginTop: 10 }}>
         {date !== today && <Chip label="Today" onPress={() => setPicked(today)} />}
         <Chip label="Calendar · ಕ್ಯಾಲೆಂಡರ್" onPress={() => router.push({ pathname: '/calendar', params: { month: date.slice(0, 7) } } as Href)} />
+      </View>
+      <View style={{ flexDirection: 'row', justifyContent: 'center', gap: 8, marginTop: 8 }}>
+        <CalendarModeChips />
       </View>
 
       {todays.length > 0 && (
@@ -126,7 +142,7 @@ export default function PanchangaScreen() {
 
       <SectionHeading>Saṅkalpa phrase · ಸಂಕಲ್ಪ</SectionHeading>
       <Text style={{ color: theme.text, fontSize: 18, lineHeight: 30, marginHorizontal: 16 }} selectable>
-        {t(p.sankalpa)}
+        {t(sankalpa)}
       </Text>
 
       <SectionHeading>Next 30 days · ಮುಂದಿನ ಹಬ್ಬಗಳು</SectionHeading>

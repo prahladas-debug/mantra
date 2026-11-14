@@ -1,10 +1,11 @@
 import { Stack, router, useLocalSearchParams, type Href } from 'expo-router';
 import { useState } from 'react';
 import { Pressable, ScrollView, Text, View } from 'react-native';
-import { FestivalLine, NavButton, useEkadashiRule } from '../components/PanchangaCard';
+import { CalendarOptions, FestivalLine, NavButton, useCalendarMode, useEkadashiRule } from '../components/PanchangaCard';
 import { Chip, SectionHeading } from '../components/ui';
-import { festivalsBetween, type Festival } from '../lib/festivals';
-import { MASA, cityById, isoDate, lunarMonthAt, sunriseJd, sunriseTithi, todayIn, type City } from '../lib/panchanga';
+import { festivalsBetween, type CalendarMode, type Festival } from '../lib/festivals';
+import { sauraDay } from '../lib/sauramana';
+import { MASA, RASHI, cityById, isoDate, lunarMonthAt, sunriseJd, sunriseTithi, todayIn, type City } from '../lib/panchanga';
 import { useSettings } from '../lib/settings';
 import { translit } from '../lib/transliterate';
 
@@ -29,25 +30,34 @@ interface Cell {
   day: number;
   /** Tithi (1–30) at sunrise. */
   tithi: number;
+  /** Solar (Sauramāna) month 0–11 and day number. */
+  saura: number;
+  sauraDayNo: number;
 }
 
 /** Grid data for a Gregorian month 'YYYY-MM' at a city. */
-function buildMonth(city: City, month: string) {
+function buildMonth(city: City, month: string, mode: CalendarMode) {
   const [y, m] = month.split('-').map(Number);
   const days = new Date(Date.UTC(y, m, 0)).getUTCDate();
   const lead = new Date(Date.UTC(y, m - 1, 1)).getUTCDay();
   const cells: (Cell | null)[] = Array(lead).fill(null);
   for (let d = 1; d <= days; d++) {
     const iso = isoDate(y, m, d);
-    cells.push({ iso, day: d, tithi: sunriseTithi(city, iso) });
+    const sd = sauraDay(city, iso);
+    cells.push({ iso, day: d, tithi: sunriseTithi(city, iso), saura: sd.rasi, sauraDayNo: sd.day });
   }
   while (cells.length % 7) cells.push(null);
   const weeks: (Cell | null)[][] = [];
   for (let i = 0; i < cells.length; i += 7) weeks.push(cells.slice(i, i + 7));
   const names: string[] = [];
   for (const d of [1, 15, days]) {
-    const l = lunarMonthAt(sunriseJd(city, isoDate(y, m, d)));
-    const n = `${l.adhika ? 'अधिक ' : ''}${MASA[l.masa]}`;
+    const iso = isoDate(y, m, d);
+    let n: string;
+    if (mode === 'saura') n = `${RASHI[sauraDay(city, iso).rasi]}`;
+    else {
+      const l = lunarMonthAt(sunriseJd(city, iso));
+      n = `${l.adhika ? 'अधिक ' : ''}${MASA[l.masa]}`;
+    }
     if (!names.includes(n)) names.push(n);
   }
   return { y, m, first: isoDate(y, m, 1), last: isoDate(y, m, days), weeks, lunarLabel: names.join(' – ') };
@@ -61,12 +71,13 @@ export default function CalendarScreen() {
   const [picked, setPicked] = useState<string | null>(null);
   const month = picked ?? (params.month && /^\d{4}-\d{2}$/.test(params.month) ? params.month : today.slice(0, 7));
   const [rule, setRule] = useEkadashiRule();
+  const [mode] = useCalendarMode();
   const t = (s: string) => translit(s, settings.script);
 
   // Cheap (sunrise times and festival lists are cached in the libraries); the React
   // Compiler memoises the rest.
-  const { y, m, first, last, weeks, lunarLabel } = buildMonth(city, month);
-  const festivals = festivalsBetween(city, first, last, rule);
+  const { y, m, first, last, weeks, lunarLabel } = buildMonth(city, month, mode);
+  const festivals = festivalsBetween(city, first, last, rule, mode);
   const byDate = new Map<string, Festival[]>();
   for (const f of festivals) byDate.set(f.date, [...(byDate.get(f.date) ?? []), f]);
 
@@ -81,16 +92,16 @@ export default function CalendarScreen() {
             {MONTHS[m - 1]} {y}
           </Text>
           <Text style={{ color: theme.textMuted, fontSize: 13 }}>
-            {t(lunarLabel)} · {city.name}
+            {t(lunarLabel)} · {mode === 'saura' ? 'Sauramāna' : 'Cāndramāna'} · {city.name}
           </Text>
         </View>
         <NavButton icon="chevron-forward" label="Next month" onPress={() => setPicked(shiftMonth(month, 1))} />
       </View>
 
+      <CalendarOptions rule={rule} setRule={setRule} />
       <View style={{ flexDirection: 'row', flexWrap: 'wrap', justifyContent: 'center', gap: 8, marginTop: 10, marginHorizontal: 16 }}>
-        <Chip label="Smārta" active={rule === 'smarta'} onPress={() => setRule('smarta')} />
-        <Chip label="Mādhva" active={rule === 'madhva'} onPress={() => setRule('madhva')} />
         {month !== today.slice(0, 7) && <Chip label="This month" onPress={() => setPicked(today.slice(0, 7))} />}
+        <Chip label={`Year ${y} list`} onPress={() => router.push({ pathname: '/festivals', params: { year: String(y) } } as Href)} />
       </View>
 
       <View style={{ marginHorizontal: 8, marginTop: 14 }}>
@@ -117,7 +128,7 @@ export default function CalendarScreen() {
                   accessibilityRole="button"
                   accessibilityLabel={`${c.day} ${MONTHS[m - 1]}${fs.length ? ', ' + fs.map((f) => f.en).join(', ') : ''}`}
                   style={({ pressed }) => ({
-                    flex: 1, margin: 2, minHeight: 58, paddingVertical: 4, borderRadius: 8, alignItems: 'center',
+                    flex: 1, margin: 2, minHeight: mode === 'saura' ? 72 : 58, paddingVertical: 4, borderRadius: 8, alignItems: 'center',
                     borderWidth: isToday ? 2 : 1,
                     borderColor: isToday ? theme.accent : theme.cardBorder,
                     backgroundColor: ek ? theme.accentSoft : theme.card,
@@ -125,6 +136,11 @@ export default function CalendarScreen() {
                   })}
                 >
                   <Text style={{ color: ci === 0 ? theme.accent : theme.text, fontSize: 16, fontWeight: '700' }}>{c.day}</Text>
+                  {mode === 'saura' && (
+                    <Text numberOfLines={1} adjustsFontSizeToFit style={{ color: c.sauraDayNo === 1 ? theme.accent : theme.textMuted, fontSize: 10, fontWeight: c.sauraDayNo === 1 ? '700' : '400' }}>
+                      {c.sauraDayNo === 1 ? t(RASHI[c.saura]) : `☉ ${c.sauraDayNo}`}
+                    </Text>
+                  )}
                   <Text numberOfLines={1} adjustsFontSizeToFit style={{ color: special ? theme.accent : theme.textMuted, fontSize: 11 }}>
                     {t(tithiShort(c.tithi))}
                   </Text>
@@ -138,6 +154,7 @@ export default function CalendarScreen() {
           </View>
         ))}
         <Text style={{ color: theme.textMuted, fontSize: 12, marginHorizontal: 8, marginTop: 6, lineHeight: 17 }}>
+          {mode === 'saura' ? 'Solar month and day (day 1 = the day after the saṅkrānti day, Tuḷu/Udupi rule), then the ' : ''}
           Tithi at sunrise ({t('शु')} = śukla, {t('कृ')} = kṛṣṇa). Shaded with a coloured dot: ekādaśī; dark dot: festival.
           Tap a day for its full pañcāṅga.
         </Text>

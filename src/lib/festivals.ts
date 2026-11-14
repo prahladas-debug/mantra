@@ -9,14 +9,16 @@
  * Choosing the civil day ("kāla-vyāpti")
  * Each festival names a tithi and the part of the day at which that tithi must prevail:
  *   udaya      sunrise (the ordinary rule)          aruṇodaya  96 min (4 ghaṭikā) before sunrise
- *   pūrvāhṇa   sunrise to midday
+ *   pūrvāhṇa   sunrise to midday                    midday     the instant of local noon
  *   madhyāhna  3rd fifth of the daytime              aparāhṇa   4th fifth of the daytime
  *   sāyāhna    last fifth of the daytime             pradoṣa    sunset + 1/5 of the night
  *   niśītha    the middle muhūrta (1/15) of the night
  * Every pañcāṅga day (sunrise→sunrise) touched by the tithi is scored by the fraction of
  * that window the tithi covers; the best day wins, and a tie (both fully covered) goes to
  * the earlier or later day as the festival's rule prefers. If no day's window is touched,
- * the day on which the tithi begins is used (a kṣaya tithi). This reproduces the dates of
+ * the day with the tithi at sunrise is used, else the day it begins (a kṣaya tithi).
+ * Janmāṣṭamī (Smārta) additionally prefers the next day when that day has aṣṭamī at
+ * sunrise and Rohiṇī at midnight while the midnight-aṣṭamī day lacks Rohiṇī (Jayantī yoga). This reproduces the dates of
  * the published South-Indian pañcāṅgas checked in scripts/test-panchanga.ts, but it is a
  * simplification: secondary conditions (nakṣatra yoga such as Rohiṇī for Janmāṣṭamī or
  * Śravaṇa for Vijayadaśamī, bhadrā/viṣṭi for Holikā, regional exceptions) are not applied.
@@ -25,8 +27,9 @@
  * - Smārta: ekādaśī at sunrise; when it is kṣaya, or when the next day is a trispṛśā
  *   (ekādaśī, dvādaśī and trayodaśī within one sunrise-day, so no dvādaśī is left for
  *   pāraṇa), the fast is on the day ekādaśī begins; when it is at two sunrises the first
- *   day, unless that day's ekādaśī is touched by daśamī at aruṇodaya. This matches
- *   drikpanchang's "Smartha" dates for 2025–2026.
+ *   day, unless that day's ekādaśī is touched by daśamī at aruṇodaya or dvādaśī also
+ *   reaches the following sunrise (then the second). This matches drikpanchang's
+ *   "Smartha" dates for 2025–2026, 2028 and 2030.
  * - Mādhva / Vaiṣṇava: the ekādaśī must be free of daśamī at aruṇodaya (96 min before
  *   sunrise); if it is viddhā, or ekādaśī reaches the next sunrise too, the fast moves to
  *   the next day (on dvādaśī — a "mahādvādaśī"). A kṣaya ekādaśī is observed on the
@@ -34,14 +37,24 @@
  *   the fast for vyañjulī mahādvādaśī (dvādaśī at two sunrises); that case is only noted.
  *   Local maṭha pañcāṅgas may still differ for borderline cases.
  * Ekādaśī names follow the amānta month (24 names; Padminī / Paramā in an adhika month).
+ *
+ * Every festival carries `calendar`: 'chandra' (tithi in a lunar month), 'saura' (solar
+ * month / saṅkrānti) or 'civil' (fixed civil date, e.g. Paryāya on 18 January). With
+ * mode 'saura' the Udupi Śrī Kṛṣṇa Maṭha festivals are added (see udupiFestivals):
+ * Sauramāna Janmāṣṭamī (Siṃha-māsa kṛṣṇa aṣṭamī at moonrise) and Viṭla Piṇḍi, Bisu,
+ * Saptotsava, Paryāya (Aṣṭa-maṭha rotation), Lakṣa Dīpotsava. Madhva Navamī / Jayantī stay
+ * Cāndramāna, as at Udupi.
  */
 import {
-  addDays, cityDateOf, crossing, formatTime, fromJulian, julianDay, lunarMonthAt, lunationsBetween,
-  parseIso, siderealSun, sunriseDayOf, sunriseJd, sunsetJd, tithiEnd, tithiStart, weekdayOf,
+  addDays, cityDateOf, crossing, formatTime, fromJulian, julianDay, lunationsBetween, moonriseBetween,
+  parseIso, siderealMoon, siderealSun, sunriseDayOf, sunriseJd, sunsetJd, tithiEnd, tithiStart, weekdayOf,
   type City, type LunarMonth,
 } from './panchanga';
+import { sauraDay, sauraMonthStart } from './sauramana';
 
 export type EkadashiRule = 'smarta' | 'madhva';
+/** Month reckoning shown in the calendar. */
+export type CalendarMode = 'chandra' | 'saura';
 
 export interface Festival {
   /** Civil date 'YYYY-MM-DD' at the city. */
@@ -55,6 +68,10 @@ export interface Festival {
   /** English / IAST name. */
   en: string;
   kind: 'ekadashi' | 'festival' | 'solar' | 'period';
+  /** Which reckoning fixes the date: lunar (Cāndramāna), solar (Sauramāna) or a civil date. */
+  calendar: 'chandra' | 'saura' | 'civil';
+  /** Observed at a particular place (e.g. the Udupi Śrī Kṛṣṇa Maṭha). */
+  place?: string;
   /** Linked text in the library (src/data), if any. */
   textId?: string;
   note?: string;
@@ -63,7 +80,7 @@ export interface Festival {
 const MIN = 1 / 1440;
 const ARUNODAYA = 96 * MIN;
 
-type Kala = 'udaya' | 'arunodaya' | 'purvahna' | 'madhyahna' | 'aparahna' | 'sayahna' | 'pradosha' | 'nishitha';
+type Kala = 'udaya' | 'arunodaya' | 'purvahna' | 'midday' | 'madhyahna' | 'aparahna' | 'sayahna' | 'pradosha' | 'nishitha';
 
 /** The window [start, end] (JD UT) of a kāla on a pañcāṅga day. */
 function kalaWindow(city: City, day: string, kala: Kala): [number, number] {
@@ -76,6 +93,7 @@ function kalaWindow(city: City, day: string, kala: Kala): [number, number] {
     case 'udaya': return [r, r];
     case 'arunodaya': return [r - ARUNODAYA, r - ARUNODAYA];
     case 'purvahna': return [r, r + dl / 2];
+    case 'midday': return [r + dl / 2, r + dl / 2];
     case 'madhyahna': return [r + (2 * dl) / 5, r + (3 * dl) / 5];
     case 'aparahna': return [r + (3 * dl) / 5, r + (4 * dl) / 5];
     case 'sayahna': return [r + (4 * dl) / 5, s];
@@ -87,18 +105,38 @@ function kalaWindow(city: City, day: string, kala: Kala): [number, number] {
 /** Pañcāṅga day on which a tithi spanning [s, e) is observed under the given kāla rule. */
 export function observanceDay(city: City, s: number, e: number, kala: Kala, prefer: 'first' | 'second' = 'first'): string {
   const first = sunriseDayOf(city, s);
-  const last = sunriseDayOf(city, e);
-  let best = first;
+  // One extra day: an aruṇodaya window lies before that day's sunrise.
+  const last = addDays(sunriseDayOf(city, e), 1);
+  let best = '';
   let bestCov = 0;
-  for (let d = first, i = 0; d <= last && i < 4; d = addDays(d, 1), i++) {
+  let udaya = '';
+  for (let d = first, i = 0; d <= last && i < 5; d = addDays(d, 1), i++) {
     const [a, b] = kalaWindow(city, d, kala);
     const cov = a === b ? (a >= s && a < e ? 1 : 0) : Math.max(0, Math.min(b, e) - Math.max(a, s)) / (b - a);
     if (cov > bestCov + 1e-9 || (prefer === 'second' && cov > 0 && Math.abs(cov - bestCov) <= 1e-9)) {
       best = d;
       bestCov = cov;
     }
+    const r = sunriseJd(city, d);
+    if (!udaya && r >= s && r < e) udaya = d;
   }
-  return best;
+  // No day's kāla is touched: the day with the tithi at sunrise, else the day it begins.
+  return best || udaya || first;
+}
+
+/** Rohiṇī (nakṣatra 3) at the midnight of a pañcāṅga day? */
+function rohiniAtMidnight(city: City, day: string): boolean {
+  const [a, b] = kalaWindow(city, day, 'nishitha');
+  return Math.floor(siderealMoon((a + b) / 2) / (360 / 27)) === 3;
+}
+
+/** Smārta Janmāṣṭamī: prefer the next day if it has aṣṭamī at sunrise and Rohiṇī at midnight
+ *  while the midnight-aṣṭamī day has no Rohiṇī (matches drikpanchang 2025–2030). */
+function jayantiAdjust(city: City, day: string, s: number, e: number): string {
+  const next = addDays(day, 1);
+  const r = sunriseJd(city, next);
+  if (r >= s && r < e && !rohiniAtMidnight(city, day) && rohiniAtMidnight(city, next)) return next;
+  return day;
 }
 
 // ---------- ekādaśī ----------
@@ -130,6 +168,9 @@ export interface EkadashiInfo {
   madhva: string;
   /** Gauḍīya-style date (also moves for vyañjulī mahādvādaśī). */
   vaishnava: string;
+  /** Ekādaśī begins within 5 min of aruṇodaya: the Mādhva date is sensitive to the exact
+   *  aruṇodaya convention (drikpanchang treated 2030-08-09, 2.5 min, as śuddha). */
+  borderline: boolean;
   /** Mahādvādaśī / special case, if any. */
   special?: 'kshaya' | 'viddha' | 'vrddhi' | 'trisprsha' | 'vyanjuli';
 }
@@ -148,12 +189,16 @@ export function ekadashiDates(city: City, l: LunarMonth, k: 11 | 26): EkadashiIn
   const trisprsha = !kshaya && !vrddhi && de <= sunriseJd(city, d1);
   const vyanjuli = !kshaya && !vrddhi && de > sunriseJd(city, addDays(d1, 1));
 
+  // Dvādaśī also reaching the sunrise after next ("both increase").
+  const dvadashiVrddhi = vrddhi && de > sunriseJd(city, addDays(d1, 1));
   let smarta = d;
   if (kshaya || trisprsha) smarta = d0;
-  else if (vrddhi && viddha) smarta = d1;
+  else if (vrddhi && (viddha || dvadashiVrddhi)) smarta = d1;
 
   const madhva = kshaya ? d : viddha || vrddhi ? d1 : d;
   const vaishnava = !viddha && vyanjuli ? d1 : madhva;
+  // Daśamī-vedha decided by only a few minutes: pañcāṅgas differ in how they fix aruṇodaya.
+  const margin = Math.abs(es - (sunriseJd(city, d) - ARUNODAYA)) * 1440;
   const special = kshaya ? 'kshaya' : viddha ? 'viddha' : vrddhi ? 'vrddhi' : trisprsha ? 'trisprsha' : vyanjuli ? 'vyanjuli' : undefined;
   const sukla = k === 11 ? 0 : 1;
   return {
@@ -161,14 +206,14 @@ export function ekadashiDates(city: City, l: LunarMonth, k: 11 | 26): EkadashiIn
     en: `${l.adhika ? (sukla ? 'Paramā' : 'Padminī') : EKADASHI_EN[l.masa][sukla]} Ekādaśī`,
     masa: l.masa, adhika: l.adhika, paksha: sukla ? 'कृष्ण' : 'शुक्ल',
     start: fromJulian(es), end: fromJulian(ee), dvadashiEnd: fromJulian(de),
-    smarta, madhva, vaishnava, special,
+    smarta, madhva, vaishnava, special, borderline: !kshaya && margin < 5,
   };
 }
 
 const SPECIAL_NOTE: Record<NonNullable<EkadashiInfo['special']>, string> = {
   kshaya: 'Kṣaya ekādaśī (no sunrise in ekādaśī): Smārtas fast the day it begins, Vaiṣṇavas on dvādaśī.',
   viddha: 'Daśamī at aruṇodaya (viddhā): Vaiṣṇavas / Mādhvas fast on the next day.',
-  vrddhi: 'Ekādaśī at two sunrises (unmīlinī): Smārta householders fast the first day, Vaiṣṇavas / yatis the second.',
+  vrddhi: 'Ekādaśī at two sunrises (unmīlinī): Vaiṣṇavas / yatis fast the second day; Smārta householders the first, unless dvādaśī also lasts to the next sunrise.',
   trisprsha: 'Trispṛśā mahādvādaśī: ekādaśī, dvādaśī and trayodaśī in one day; Smārtas fast the previous day.',
   vyanjuli: 'Vyañjulī mahādvādaśī (dvādaśī at two sunrises): Gauḍīya calendars fast on the dvādaśī, the next day.',
 };
@@ -185,15 +230,13 @@ interface TithiRule {
   prefer?: 'first' | 'second';
   textId?: string;
   note?: string;
-  /** Also in an adhika month of that name (Yugādi: the year begins with the first Caitra). */
-  firstOfName?: boolean;
 }
 
 // masa: 0 Caitra, 1 Vaiśākha, 2 Jyeṣṭha, 3 Āṣāḍha, 4 Śrāvaṇa, 5 Bhādrapada, 6 Āśvayuja,
 // 7 Kārtika, 8 Mārgaśīrṣa, 9 Pauṣa, 10 Māgha, 11 Phālguna. tithi 1–30 (16–30 kṛṣṇa).
 const RULES: TithiRule[] = [
-  { key: 'yugadi', name: 'युगादि', en: 'Yugādi (Ugādi) · Cāndramāna new year', masa: 0, tithi: 1, kala: 'udaya', firstOfName: true },
-  { key: 'rama-navami', name: 'श्रीरामनवमी', en: 'Śrī Rāma Navamī', masa: 0, tithi: 9, kala: 'madhyahna', textId: 'rama-raksha-stotram' },
+  { key: 'yugadi', name: 'युगादि', en: 'Yugādi (Ugādi) · Cāndramāna new year', masa: 0, tithi: 1, kala: 'udaya' },
+  { key: 'rama-navami', name: 'श्रीरामनवमी', en: 'Śrī Rāma Navamī', masa: 0, tithi: 9, kala: 'midday', textId: 'rama-raksha-stotram', note: 'Navamī at midday (the moment of Śrī Rāma’s birth); ISKCON calendars may observe the next day.' },
   { key: 'hanuman-jayanti-north', name: 'हनुमज्जयन्ती (चैत्र)', en: 'Hanumān Jayantī (North Indian, Caitra pūrṇimā)', masa: 0, tithi: 15, kala: 'udaya', textId: 'hanuman-chalisa', note: 'North-Indian date; Karnataka observes Hanumad vrata on Mārgaśīrṣa śukla trayodaśī.' },
   { key: 'akshaya-tritiya', name: 'अक्षयतृतीया', en: 'Akṣaya Tṛtīyā', masa: 1, tithi: 3, kala: 'purvahna', textId: 'kanakadhara-stotram' },
   { key: 'shankara-jayanti', name: 'शङ्कर जयन्ती', en: 'Śaṅkara Jayantī', masa: 1, tithi: 5, kala: 'madhyahna' },
@@ -233,7 +276,84 @@ function solarFestival(city: City, rasi: number, nearIso: string, key: string, n
   let date = cityDateOf(city, (t - 2440587.5) * 86400000);
   // Puṇyakāla is on the day of the saṅkrānti if it occurs before sunset, else the next day.
   if (t > sunsetJd(city, date)) date = addDays(date, 1);
-  return { date, key, name, en, kind: 'solar', textId, note: `Saṅkrānti at ${formatTime(fromJulian(t), city)}.` };
+  return { date, key, name, en, kind: 'solar', calendar: 'saura', textId, note: `Saṅkrānti at ${formatTime(fromJulian(t), city)}.` };
+}
+
+// ---------- Udupi / Sauramāna ----------
+
+/** Aṣṭa Maṭhas in Paryāya order. */
+export const ASHTA_MATHAS = ['Palimaru', 'Admaru', 'Krishnapura', 'Puttige', 'Shirur', 'Sode', 'Kaniyur', 'Pejavar'];
+/** Pīṭhādhipatis named in news reports of the Paryāya (others not verified, so not named). */
+const PARYAYA_SWAMIJI: Record<number, string> = {
+  2024: 'Śrī Sugunendra Tīrtha',
+  2026: 'Śrī Vedavardhana Tīrtha',
+  2028: 'Śrī Vishwavallabha Tīrtha (present Sode pīṭhādhipati)',
+};
+/** Maṭha that takes charge of the Śrī Kṛṣṇa Maṭha on 18 January of an even year. */
+export const paryayaMatha = (year: number) => ASHTA_MATHAS[((((year - 2024) / 2 + 3) % 8) + 8) % 8];
+
+/** Udupi Śrī Kṛṣṇa Maṭha festivals that follow the solar calendar or a civil date. */
+function udupiFestivals(city: City, jdFrom: number, jdTo: number, y0: number, y1: number): Festival[] {
+  const out: Festival[] = [];
+  const place = 'Udupi';
+  // Śrī Kṛṣṇa Janmāṣṭamī: kṛṣṇa aṣṭamī of the solar month Siṃha, on the day the aṣṭamī
+  // prevails at moonrise (arghya to the Moon at candrodaya). Verified: 14 Sep 2025 and
+  // 4 Sep 2026 (Telangana Today, Deccan Chronicle reports of the Udupi Maṭha).
+  for (const l of lunationsBetween(jdFrom - 40, jdTo)) {
+    const s = tithiStart(l, 23);
+    const e = tithiEnd(l, 23);
+    let date = '';
+    for (let d = sunriseDayOf(city, s), i = 0; i < 3 && !date; d = addDays(d, 1), i++) {
+      const mr = moonriseBetween(city.lat, city.lon, sunriseJd(city, d), sunriseJd(city, addDays(d, 1)));
+      if (mr !== null && mr >= s && mr < e) date = d;
+    }
+    if (!date) date = observanceDay(city, s, e, 'udaya');
+    if (sauraDay(city, date).rasi !== 4) continue;
+    out.push({
+      date, key: 'udupi-krishna-janmashtami', name: 'श्रीकृष्णजयन्ती (सौरमान)', en: 'Śrī Kṛṣṇa Janmāṣṭamī — Udupi (Sauramāna)',
+      kind: 'festival', calendar: 'saura', place, textId: 'krishna-ashtottara-shatanama',
+      note: 'Siṃha-māsa kṛṣṇa aṣṭamī at moonrise, as at the Udupi Śrī Kṛṣṇa Maṭha (arghya at candrodaya). Can be a month after the Cāndramāna date.',
+    });
+    out.push({
+      date: addDays(date, 1), key: 'vitla-pindi', name: 'विट्लपिण्डि · मोसरु कुडिके', en: 'Viṭla Piṇḍi · Mosaru Kuḍike (Śrī Kṛṣṇa Līlotsava)',
+      kind: 'festival', calendar: 'saura', place, note: 'Day after the Udupi Janmāṣṭamī.',
+    });
+  }
+  for (let y = y0; y <= y1; y++) {
+    const bisu = sauraMonthStart(city, y, 0);
+    out.push({
+      date: bisu, key: 'sauramana-yugadi', name: 'सौरमान युगादि · बिसु', en: 'Sauramāna Yugādi · Bisu (Paggu 1)',
+      kind: 'festival', calendar: 'saura',
+      note: 'First day of Meṣa (Paggu). Rule used: the day after the saṅkrānti day; some calendars keep the saṅkrānti day itself when the ingress is in the daytime.',
+    });
+    // Saptotsava: the week ending the day after Makara saṅkrānti (2025: 9–15 Jan, Udayavani).
+    const makara = addDays(sauraMonthStart(city, y, 9), -1);
+    out.push({
+      date: addDays(makara, -5), endDate: addDays(makara, 1), key: 'saptotsava', name: 'सप्तोत्सव · मकरसङ्क्रमण', en: 'Saptotsava (Makara saṅkramaṇa) — Udupi',
+      kind: 'period', calendar: 'saura', place,
+      note: `Seven-day utsava for the installation of Śrī Kṛṣṇa by Madhvācārya; rathotsava on Makara saṅkrānti (${makara}), cūrṇotsava the next day. The exact span is announced by the paryāya maṭha.`,
+    });
+    if (y % 2 === 0) {
+      const matha = paryayaMatha(y);
+      const who = PARYAYA_SWAMIJI[y];
+      out.push({
+        date: `${y}-01-18`, key: 'paryaya', name: 'पर्याय महोत्सव', en: `Paryāya — ${matha} Maṭha takes charge (${y}–${String((y + 2) % 100).padStart(2, '0')})`,
+        kind: 'festival', calendar: 'civil', place, textId: 'dvadasha-stotra-01',
+        note: `${who ? `${who}. ` : ''}Two-year worship of Śrī Kṛṣṇa by the Aṣṭa Maṭhas in turn: ${ASHTA_MATHAS.join(' → ')}. The pūjā hand-over is in the early hours of 18 January.`,
+      });
+    }
+  }
+  // Lakṣa Dīpotsava: Uttāna dvādaśī → Kārtika pūrṇimā (lunar dates, celebrated at Udupi).
+  for (const l of lunationsBetween(jdFrom - 20, jdTo)) {
+    if (l.masa !== 7 || l.adhika) continue;
+    const a = observanceDay(city, tithiStart(l, 12), tithiEnd(l, 12), 'udaya');
+    const b = observanceDay(city, tithiStart(l, 15), tithiEnd(l, 15), 'udaya');
+    out.push({
+      date: a, endDate: b, key: 'laksha-deepotsava', name: 'लक्षदीपोत्सव', en: 'Lakṣa Dīpotsava — Udupi',
+      kind: 'period', calendar: 'chandra', place, note: 'Lamps on Rathabīdi with teppotsava, from Uttāna dvādaśī to Kārtika pūrṇimā (dates follow the lunar calendar).',
+    });
+  }
+  return out;
 }
 
 const cache = new Map<string, Festival[]>();
@@ -243,8 +363,8 @@ const cache = new Map<string, Festival[]>();
  * dates, inclusive), sorted by date. Ekādaśīs are dated by `rule`; the other tradition's
  * date is given in the note when it differs.
  */
-export function festivalsBetween(city: City, from: string, to: string, rule: EkadashiRule): Festival[] {
-  const key = `${city.id}|${from}|${to}|${rule}`;
+export function festivalsBetween(city: City, from: string, to: string, rule: EkadashiRule, mode: CalendarMode = 'chandra'): Festival[] {
+  const key = `${city.id}|${from}|${to}|${rule}|${mode}`;
   const hit = cache.get(key);
   if (hit) return hit;
   const jdFrom = julianDay(new Date(`${from}T00:00:00Z`)) - 3;
@@ -261,29 +381,28 @@ export function festivalsBetween(city: City, from: string, to: string, rule: Eka
       if (other !== date) notes.push(`${rule === 'smarta' ? 'Mādhva/Vaiṣṇava' : 'Smārta'}: ${other}.`);
       if (e.special) notes.push(SPECIAL_NOTE[e.special]);
       if (e.vaishnava !== e.madhva) notes.push(`Gauḍīya Vaiṣṇava: ${e.vaishnava}.`);
-      out.push({ date, key: `ekadashi-${date}`, name: e.name, en: e.en, kind: 'ekadashi', textId: 'vishnu-sahasranama', note: notes.join(' ') || undefined });
+      if (e.borderline) notes.push('Ekādaśī begins within minutes of aruṇodaya: check your maṭha pañcāṅga for the fasting day.');
+      out.push({ date, key: `ekadashi-${date}`, name: e.name, en: e.en, kind: 'ekadashi', calendar: 'chandra', textId: 'vishnu-sahasranama', note: notes.join(' ') || undefined });
       // Vaikuṇṭha (Mukkoṭi) ekādaśī: the śukla ekādaśī while the Sun is in Dhanu.
       if (k === 11 && Math.floor(siderealSun(sunriseJd(city, e.madhva)) / 30) === 8) {
         out.push({
           date: e.madhva, key: `vaikuntha-ekadashi-${e.madhva}`, name: 'वैकुण्ठ एकादशी', en: 'Vaikuṇṭha (Mukkoṭi) Ekādaśī',
-          kind: 'festival', textId: 'vishnu-sahasranama', note: 'Śukla ekādaśī in the solar month Dhanus; dated by the Vaiṣṇava rule, as in temple calendars.',
+          kind: 'festival', calendar: 'saura', textId: 'vishnu-sahasranama', note: 'Śukla ekādaśī in the solar month Dhanus; dated by the Vaiṣṇava rule, as in temple calendars.',
         });
       }
     }
 
     for (const r of RULES) {
       if (r.masa !== l.masa) continue;
-      if (r.firstOfName) {
-        // skip the nija month when an adhika month of the same name preceded it
-        if (!l.adhika && lunarMonthAt(l.start - 1).adhika) continue;
-      } else if (l.adhika) continue;
+      if (l.adhika) continue; // festivals fall in the nija month (Yugādi 2029: 14 Apr, after adhika Caitra)
       const s = tithiStart(l, r.tithi);
       const e = tithiEnd(l, r.tithi);
-      const date = observanceDay(city, s, e, r.kala, r.prefer);
-      out.push({ date, key: r.key, name: r.name, en: r.en, kind: 'festival', textId: r.textId, note: r.note });
+      let date = observanceDay(city, s, e, r.kala, r.prefer);
+      if (r.key === 'krishna-janmashtami') date = jayantiAdjust(city, date, s, e);
+      out.push({ date, key: r.key, name: r.name, en: r.en, kind: 'festival', calendar: 'chandra', textId: r.textId, note: r.note });
 
       if (r.key === 'vijayadashami') {
-        out.push({ date, key: 'madhva-jayanti', name: 'मध्वजयन्ती', en: 'Madhva Jayantī', kind: 'festival', textId: 'sumadhva-vijaya-01', note: 'Śrī Madhvācārya’s birthday, observed on Vijayadaśamī.' });
+        out.push({ date, key: 'madhva-jayanti', name: 'मध्वजयन्ती', en: 'Madhva Jayantī', kind: 'festival', calendar: 'chandra', textId: 'sumadhva-vijaya-01', note: 'Śrī Madhvācārya’s birthday, observed on Vijayadaśamī.' });
       }
       if (r.key === 'upakarma') {
         // Varamahālakṣmī: the Friday before Śrāvaṇa pūrṇimā (South-Indian rule; when the
@@ -291,13 +410,13 @@ export function festivalsBetween(city: City, from: string, to: string, rule: Eka
         const back = (weekdayOf(date) - 5 + 7) % 7 || 7;
         out.push({
           date: addDays(date, -back), key: 'varamahalakshmi', name: 'वरमहालक्ष्मी व्रत', en: 'Varamahālakṣmī vrata',
-          kind: 'festival', textId: 'mahalakshmi-ashtakam',
+          kind: 'festival', calendar: 'chandra', textId: 'mahalakshmi-ashtakam',
           note: back === 7 ? 'Śrāvaṇa pūrṇimā is itself a Friday this year; some calendars observe the vrata on that day.' : undefined,
         });
       }
       if (r.key === 'mahalaya-amavasya') {
         const p = observanceDay(city, tithiStart(l, 16), tithiEnd(l, 16), 'udaya');
-        out.push({ date: p, endDate: date, key: 'pitru-paksha', name: 'पितृपक्ष (महालयपक्ष)', en: 'Pitṛ pakṣa (Mahālaya pakṣa)', kind: 'period', note: `Bhādrapada kṛṣṇa pakṣa, ${p} → ${date}: daily mahālaya śrāddha.` });
+        out.push({ date: p, endDate: date, key: 'pitru-paksha', name: 'पितृपक्ष (महालयपक्ष)', en: 'Pitṛ pakṣa (Mahālaya pakṣa)', kind: 'period', calendar: 'chandra', note: `Bhādrapada kṛṣṇa pakṣa, ${p} → ${date}: daily mahālaya śrāddha.` });
       }
     }
   }
@@ -307,8 +426,11 @@ export function festivalsBetween(city: City, from: string, to: string, rule: Eka
   const [y1] = parseIso(to);
   for (let y = y0 - 1; y <= y1 + 1; y++) {
     out.push(solarFestival(city, 9, `${y}-01-12`, 'makara-sankranti', 'मकरसङ्क्रान्ति', 'Makara Saṅkrānti · Uttarāyaṇa puṇyakāla', 'aditya-hridayam'));
-    out.push(solarFestival(city, 0, `${y}-04-12`, 'mesha-sankranti', 'मेषसङ्क्रान्ति · सौरमान युगादि', 'Meṣa Saṅkrānti · Sauramāna Yugādi (Viṣu)'));
+    if (mode === 'chandra') {
+      out.push(solarFestival(city, 0, `${y}-04-12`, 'mesha-sankranti', 'मेषसङ्क्रान्ति · सौरमान युगादि', 'Meṣa Saṅkrānti · Sauramāna Yugādi (Viṣu)'));
+    }
   }
+  if (mode === 'saura') out.push(...udupiFestivals(city, jdFrom, jdTo, y0 - 1, y1 + 1));
 
   const res = out
     .filter((f) => f.date <= to && (f.endDate ?? f.date) >= from)
@@ -319,7 +441,8 @@ export function festivalsBetween(city: City, from: string, to: string, rule: Eka
 }
 
 /** Festivals on one day. */
-export const festivalsOn = (city: City, date: string, rule: EkadashiRule) => festivalsBetween(city, date, date, rule);
+export const festivalsOn = (city: City, date: string, rule: EkadashiRule, mode: CalendarMode = 'chandra') =>
+  festivalsBetween(city, date, date, rule, mode);
 
 /** Default ekādaśī rule from the reader's tradition setting (Mādhva unless 'smarta'). */
 export const defaultRule = (tradition: string | undefined): EkadashiRule => (tradition === 'smarta' ? 'smarta' : 'madhva');
