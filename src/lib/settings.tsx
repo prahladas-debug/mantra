@@ -27,6 +27,8 @@ export interface Settings {
   bookFonts: boolean;
   /** Centre verse lines, as printed stotra books do. */
   centerVerses: boolean;
+  /** The first-run welcome (language, tradition, place) has been completed. */
+  onboarded: boolean;
 }
 
 export interface Bookmark {
@@ -66,6 +68,7 @@ const DEFAULTS: Store = {
     layout: 'book',
     bookFonts: true,
     centerVerses: true,
+    onboarded: false,
   },
   favorites: [],
   recent: [],
@@ -106,7 +109,8 @@ export function SettingsProvider({ children }: { children: React.ReactNode }) {
         if (!raw) return;
         const saved = JSON.parse(raw) as Partial<Store>;
         setStore({
-          settings: { ...DEFAULTS.settings, ...saved.settings },
+          // Someone who used the app before the welcome screen existed has already chosen.
+          settings: { ...DEFAULTS.settings, onboarded: true, ...saved.settings },
           favorites: saved.favorites ?? [],
           recent: saved.recent ?? [],
           plans: saved.plans ?? [],

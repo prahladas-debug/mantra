@@ -1,5 +1,5 @@
 import { Ionicons } from '@expo/vector-icons';
-import { Link, router, type Href } from 'expo-router';
+import { Link, Redirect, router, type Href } from 'expo-router';
 import { useState } from 'react';
 import { Modal, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
@@ -64,7 +64,7 @@ function ScriptSheet({ visible, onClose }: { visible: boolean; onClose: () => vo
 }
 
 export default function Home() {
-  const { theme, settings, favorites, recent, plans, positions } = useSettings();
+  const { theme, settings, favorites, recent, plans, positions, ready } = useSettings();
   const insets = useSafeAreaInsets();
   const [scriptSheet, setScriptSheet] = useState(false);
   const counts = categoryCounts();
@@ -73,6 +73,10 @@ export default function Home() {
   const recentMantras = recent.map((r) => getMantra(r.id)).filter((m) => !!m).slice(0, 5);
   const favMantras = favorites.map(getMantra).filter((m) => !!m);
   const activePlans = plans.filter((p) => !planStatus(p).finished);
+
+  // First launch: choose language, tradition and place.
+  if (!ready) return <View style={{ flex: 1, backgroundColor: theme.bg }} />;
+  if (!settings.onboarded) return <Redirect href="/welcome" />;
 
   return (
     <ScrollView style={{ backgroundColor: theme.bg }} contentContainerStyle={{ paddingTop: insets.top + 14, paddingBottom: insets.bottom + 40 }}>

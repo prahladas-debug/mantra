@@ -1,4 +1,7 @@
 import { Link } from 'expo-router';
+import { useState } from 'react';
+import { CityPicker } from '../components/CalendarBar';
+import { cityById, cityLabel } from '../lib/panchanga';
 import { Pressable, ScrollView, Switch, Text, View } from 'react-native';
 import { Chip, ScriptPicker, SectionHeading } from '../components/ui';
 import { MEANING_PREFS } from '../lib/meaning';
@@ -10,12 +13,32 @@ const SAMPLE = 'शान्ताकारं भुजगशयनं पद�
 
 export default function SettingsScreen() {
   const { theme, settings, update } = useSettings();
+  const [picker, setPicker] = useState(false);
   const row = { flexDirection: 'row' as const, alignItems: 'center' as const, justifyContent: 'space-between' as const, marginHorizontal: 16, paddingVertical: 10 };
 
   return (
     <ScrollView style={{ backgroundColor: theme.bg }} contentContainerStyle={{ paddingBottom: 40 }}>
-      <SectionHeading>Reading script</SectionHeading>
+      <SectionHeading>Language · script</SectionHeading>
       <ScriptPicker value={settings.script} onChange={(v) => v && update({ script: v })} />
+      <Text style={{ color: theme.textMuted, marginHorizontal: 16, marginTop: 8, fontSize: 14 }}>
+        Mantras are shown in this script; with meanings on Auto, meanings follow it too (see Reading below).
+      </Text>
+
+      <SectionHeading>Tradition</SectionHeading>
+      <View style={[row, { justifyContent: 'flex-start', gap: 8 }]}>
+        <Chip label="Madhva" active={settings.variants.tradition === 'madhva'} onPress={() => update({ variants: { ...settings.variants, tradition: 'madhva' } })} />
+        <Chip label="Smarta" active={settings.variants.tradition === 'smarta'} onPress={() => update({ variants: { ...settings.variants, tradition: 'smarta' } })} />
+      </View>
+      <Text style={{ color: theme.textMuted, marginHorizontal: 16, fontSize: 14 }}>
+        Default steps for Sandhyavandane and daily puja, and the Ekadashi rule (the calendar can still override it).
+      </Text>
+
+      <SectionHeading>Place</SectionHeading>
+      <Pressable onPress={() => setPicker(true)} style={row} accessibilityRole="button">
+        <Text style={{ color: theme.text, fontSize: 16, flex: 1 }}>{cityLabel(cityById(settings.city))}</Text>
+        <Text style={{ color: theme.accent, fontSize: 16 }}>Change</Text>
+      </Pressable>
+      <CityPicker visible={picker} onClose={() => setPicker(false)} />
 
       <SectionHeading>Second script under each verse</SectionHeading>
       <ScriptPicker allowNone value={settings.secondaryScript} onChange={(v) => update({ secondaryScript: v })} />

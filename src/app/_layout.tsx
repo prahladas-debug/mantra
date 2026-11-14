@@ -24,6 +24,7 @@ function AppStack() {
         }}
       >
         <Stack.Screen name="index" options={{ headerShown: false, title: 'Home' }} />
+        <Stack.Screen name="welcome" options={{ headerShown: false, title: 'Welcome', gestureEnabled: false }} />
         <Stack.Screen name="search" options={{ title: 'Search' }} />
         <Stack.Screen name="settings" options={{ title: 'Settings' }} />
         <Stack.Screen name="about" options={{ title: 'About' }} />
