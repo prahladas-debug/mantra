@@ -298,6 +298,13 @@ export function EndMatter() {
         {translit('॥ हरिः ॐ ॥', settings.script)}
       </Text>
       <PlanControls mantraId={mantra.id} />
+      {(mantra.category === 'nitya' || mantra.id.endsWith('-mantra')) && (
+        <Pressable onPress={() => router.push(`/japa?mantra=${mantra.id}` as Href)} style={[b.planBox, { borderColor: theme.cardBorder, backgroundColor: theme.card, flexDirection: 'row', alignItems: 'center', gap: 10 }]}>
+          <Ionicons name="ellipse-outline" size={20} color={theme.accent} />
+          <Text style={{ color: theme.accent, fontSize: 15, fontWeight: '600', flex: 1 }}>Count japa · ಜಪ ಎಣಿಕೆ</Text>
+          <Ionicons name="chevron-forward" size={18} color={theme.textMuted} />
+        </Pressable>
+      )}
       <SeriesNav mantra={mantra} />
     </View>
   );
