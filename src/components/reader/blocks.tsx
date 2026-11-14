@@ -165,7 +165,7 @@ export function VerseBlock({ verse, rowKey, book }: { verse: Verse; rowKey: stri
 
   return (
     <View style={[b.verse, rowKey === highlight && { backgroundColor: theme.accentSoft }, center && { alignItems: 'center' }]} accessible={!practice}>
-      <Text style={{ color: theme.text, fontSize: fs, lineHeight: lh, fontFamily: font, textAlign: center ? 'center' : 'left' }} selectable={!practice}>
+      <Text style={{ color: theme.text, fontSize: fs, lineHeight: lh, fontFamily: font, textAlign: center ? 'center' : 'left', alignSelf: 'stretch' }} selectable={!practice}>
         {lines.slice(0, shown).join('\n')}
         {hiddenCount === 0 && verse.n !== undefined && <Text style={{ color: theme.verseNumber }}>{numberText}</Text>}
       </Text>
@@ -178,7 +178,7 @@ export function VerseBlock({ verse, rowKey, book }: { verse: Verse; rowKey: stri
         </Pressable>
       )}
       {second && (
-        <Text style={{ color: theme.textMuted, fontSize: 16 * scale, lineHeight: 16 * scale * leading(second, settings.bookFonts), marginTop: 6, fontFamily: scriptFont(second, settings.bookFonts), textAlign: center ? 'center' : 'left' }} selectable>
+        <Text style={{ color: theme.textMuted, fontSize: 16 * scale, lineHeight: 16 * scale * leading(second, settings.bookFonts), marginTop: 6, fontFamily: scriptFont(second, settings.bookFonts), textAlign: center ? 'center' : 'left', alignSelf: 'stretch' }} selectable>
           {bindDandas(translit(verse.text, second))}
         </Text>
       )}
@@ -191,7 +191,7 @@ export function VerseBlock({ verse, rowKey, book }: { verse: Verse; rowKey: stri
             accessibilityState={{ expanded: isOpen }}
             style={[b.meaningToggle, { borderColor: theme.cardBorder, backgroundColor: isOpen ? theme.accentSoft : 'transparent' }]}
           >
-            <Text style={{ color: theme.accent, fontSize: 13, fontWeight: '600' }}>
+            <Text style={{ color: theme.accent, fontSize: 13, fontWeight: pLang === 'en' ? '600' : undefined, fontFamily: pLang === 'en' ? undefined : meaningFont(pLang, settings.bookFonts) }}>
               {label} {isOpen ? '▴' : '▾'}
             </Text>
           </Pressable>
