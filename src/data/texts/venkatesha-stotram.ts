@@ -7,6 +7,8 @@ export const venkateshaStotram: Mantra = {
   title: 'श्रीवेङ्कटेशस्तोत्रम्',
   titleEn: 'Sri Venkatesha Stotram',
   category: 'stotra',
+  series: 'venkatesha',
+  order: 2,
   deity: 'Śrī Veṅkaṭeśvara',
   source: 'Brahmāṇḍa Purāṇa',
   summary:
