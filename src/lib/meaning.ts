@@ -1,4 +1,5 @@
 import type { Meaning, MeaningLang } from '../data/types';
+import { plain } from './plain';
 import type { ScriptId } from './transliterate';
 
 /** Reader preference for which meaning(s) to show. */
@@ -35,10 +36,11 @@ export function primaryLang(pref: MeaningPref, script: ScriptId): MeaningLang {
   return pref === 'auto' || pref === 'both' ? langForScript(script) : pref;
 }
 
+/** English is respelled without IAST marks here, when shown, rather than for all ~9,000 verses at start-up. */
 export function meaningText(m: Meaning | undefined, lang: MeaningLang): string | undefined {
   if (!m) return undefined;
-  if (typeof m === 'string') return lang === 'en' ? m : undefined;
-  return m[lang];
+  if (typeof m === 'string') return lang === 'en' ? plain(m) : undefined;
+  return lang === 'en' && m.en ? plain(m.en) : m[lang];
 }
 
 /**
@@ -72,7 +74,7 @@ export function summaryFor(
   lang: MeaningLang,
 ): { lang: MeaningLang; text: string } {
   const t = lang === 'kn' ? m.summaryKn ?? m.summaries?.kn : lang === 'en' ? undefined : m.summaries?.[lang];
-  return t ? { lang, text: t } : { lang: 'en', text: m.summary };
+  return t ? { lang, text: t } : { lang: 'en', text: plain(m.summary) };
 }
 
 /** Label for the tap-to-open meaning button. */

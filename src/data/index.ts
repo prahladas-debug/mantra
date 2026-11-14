@@ -55,6 +55,7 @@ function applyPacks(list: Mantra[], packs: MeaningPack[]): Mantra[] {
 /**
  * English shown in plain spelling (Krishna, Ekadashi) rather than IAST with diacritics,
  * which most readers find strange. `deity` keeps IAST: it is only matched, not shown.
+ * Verse meanings are respelled when displayed (lib/meaning.ts meaningText).
  */
 function plainEnglish(m: Mantra): Mantra {
   return {
@@ -67,9 +68,6 @@ function plainEnglish(m: Mantra): Mantra {
       ...s,
       titleEn: s.titleEn && plain(s.titleEn),
       note: s.note && plain(s.note),
-      verses: s.verses.map((v) =>
-        !v.meaning ? v : { ...v, meaning: typeof v.meaning === 'string' ? plain(v.meaning) : v.meaning.en ? { ...v.meaning, en: plain(v.meaning.en) } : v.meaning },
-      ),
     })),
   };
 }
