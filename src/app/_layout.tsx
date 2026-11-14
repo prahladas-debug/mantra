@@ -1,7 +1,13 @@
+import { useFonts } from 'expo-font';
 import { Stack } from 'expo-router';
+import * as SplashScreen from 'expo-splash-screen';
+import { useEffect } from 'react';
 import { StatusBar } from 'expo-status-bar';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
+import { FONT_ASSETS } from '../lib/fonts';
 import { SettingsProvider, useSettings } from '../lib/settings';
+
+SplashScreen.preventAutoHideAsync().catch(() => {});
 
 function AppStack() {
   const { theme } = useSettings();
@@ -30,6 +36,12 @@ function AppStack() {
 }
 
 export default function RootLayout() {
+  // Book fonts are bundled; keep the splash screen up until they are ready.
+  const [fontsLoaded, fontError] = useFonts(FONT_ASSETS);
+  useEffect(() => {
+    if (fontsLoaded || fontError) SplashScreen.hideAsync().catch(() => {});
+  }, [fontsLoaded, fontError]);
+  if (!fontsLoaded && !fontError) return null;
   return (
     <SafeAreaProvider>
       <SettingsProvider>

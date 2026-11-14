@@ -1,4 +1,4 @@
-export type ThemeName = 'light' | 'sepia' | 'dark';
+export type ThemeName = 'light' | 'sepia' | 'dark' | 'contrast';
 
 export interface Theme {
   name: ThemeName;
@@ -14,6 +14,10 @@ export interface Theme {
   warningBg: string;
   warningText: string;
   statusBar: 'light' | 'dark';
+  /** Book page colours. */
+  page: string;
+  pageEdge: string;
+  ornament: string;
 }
 
 export const THEMES: Record<ThemeName, Theme> = {
@@ -31,6 +35,9 @@ export const THEMES: Record<ThemeName, Theme> = {
     warningBg: '#FFF1C9',
     warningText: '#6B4A00',
     statusBar: 'dark',
+    page: '#FFFCF5',
+    pageEdge: '#EADBC2',
+    ornament: '#C8873F',
   },
   sepia: {
     name: 'sepia',
@@ -46,6 +53,9 @@ export const THEMES: Record<ThemeName, Theme> = {
     warningBg: '#EEDDB0',
     warningText: '#5A3F00',
     statusBar: 'dark',
+    page: '#F7EEDB',
+    pageEdge: '#D9C49C',
+    ornament: '#9A6A2C',
   },
   dark: {
     name: 'dark',
@@ -61,5 +71,26 @@ export const THEMES: Record<ThemeName, Theme> = {
     warningBg: '#3A2E10',
     warningText: '#F3D88A',
     statusBar: 'light',
+    page: '#1B1612',
+    pageEdge: '#3A2F24',
+    ornament: '#C98A4E',
+  },
+  contrast: {
+    name: 'contrast',
+    bg: '#FFFFFF',
+    card: '#FFFFFF',
+    cardBorder: '#000000',
+    text: '#000000',
+    textMuted: '#1A1A1A',
+    accent: '#7A1F00',
+    accentSoft: '#FFE3C7',
+    onAccent: '#FFFFFF',
+    verseNumber: '#7A1F00',
+    warningBg: '#FFF1C9',
+    warningText: '#3D2A00',
+    statusBar: 'dark',
+    page: '#FFFFFF',
+    pageEdge: '#000000',
+    ornament: '#7A1F00',
   },
 };

@@ -21,6 +21,20 @@ export interface Settings {
   variants: Partial<Record<string, string>>;
   /** City for pañcāṅga / sunrise (see CITIES in panchanga.ts). */
   city: string;
+  /** 'book': swipe pages like an ebook; 'scroll': one continuous column. */
+  layout: 'book' | 'scroll';
+  /** Use the bundled book fonts (Tiro / Noto Serif) instead of system fonts. */
+  bookFonts: boolean;
+  /** Centre verse lines, as printed stotra books do. */
+  centerVerses: boolean;
+}
+
+export interface Bookmark {
+  id: string;
+  mantraId: string;
+  /** Row key of the verse, e.g. "v4-12" (section 4, verse 12). */
+  key: string;
+  at: number;
 }
 
 export interface RecentEntry {
@@ -33,6 +47,9 @@ interface Store {
   favorites: string[];
   recent: RecentEntry[];
   plans: Plan[];
+  /** Last verse key read in each text, for 'continue where you left off'. */
+  positions: Record<string, string>;
+  bookmarks: Bookmark[];
 }
 
 const DEFAULTS: Store = {
@@ -46,10 +63,15 @@ const DEFAULTS: Store = {
     keepAwake: true,
     variants: {},
     city: 'bengaluru',
+    layout: 'book',
+    bookFonts: true,
+    centerVerses: true,
   },
   favorites: [],
   recent: [],
   plans: [],
+  positions: {},
+  bookmarks: [],
 };
 
 const KEY = 'mantra.store.v1';
@@ -67,6 +89,8 @@ interface Ctx extends Store {
   markPlanItemRead: (mantraId: string, read: boolean) => void;
   /** Add one recitation today to a vow plan. */
   addRecitation: (planId: string, delta: number) => void;
+  savePosition: (mantraId: string, key: string) => void;
+  toggleBookmark: (mantraId: string, key: string) => void;
 }
 
 const SettingsContext = createContext<Ctx | null>(null);
@@ -86,6 +110,8 @@ export function SettingsProvider({ children }: { children: React.ReactNode }) {
           favorites: saved.favorites ?? [],
           recent: saved.recent ?? [],
           plans: saved.plans ?? [],
+          positions: saved.positions ?? {},
+          bookmarks: saved.bookmarks ?? [],
         });
       })
       .catch(() => {})
@@ -156,15 +182,34 @@ export function SettingsProvider({ children }: { children: React.ReactNode }) {
     [],
   );
 
+  const savePosition = useCallback(
+    (mantraId: string, key: string) =>
+      setStore((s) => (s.positions[mantraId] === key ? s : { ...s, positions: { ...s.positions, [mantraId]: key } })),
+    [],
+  );
+  const toggleBookmark = useCallback(
+    (mantraId: string, key: string) =>
+      setStore((s) => {
+        const exists = s.bookmarks.some((b) => b.mantraId === mantraId && b.key === key);
+        return {
+          ...s,
+          bookmarks: exists
+            ? s.bookmarks.filter((b) => !(b.mantraId === mantraId && b.key === key))
+            : [{ id: `${Date.now()}`, mantraId, key, at: Date.now() }, ...s.bookmarks],
+        };
+      }),
+    [],
+  );
+
   const themeName: ThemeName =
     store.settings.theme === 'system' ? (system === 'dark' ? 'dark' : 'light') : store.settings.theme;
 
   const value = useMemo<Ctx>(
     () => ({
       ...store, ready, theme: THEMES[themeName], update, toggleFavorite, markRead,
-      addPlan, updatePlan, removePlan, markPlanItemRead, addRecitation,
+      addPlan, updatePlan, removePlan, markPlanItemRead, addRecitation, savePosition, toggleBookmark,
     }),
-    [store, ready, themeName, update, toggleFavorite, markRead, addPlan, updatePlan, removePlan, markPlanItemRead, addRecitation],
+    [store, ready, themeName, update, toggleFavorite, markRead, addPlan, updatePlan, removePlan, markPlanItemRead, addRecitation, savePosition, toggleBookmark],
   );
 
   return <SettingsContext.Provider value={value}>{children}</SettingsContext.Provider>;

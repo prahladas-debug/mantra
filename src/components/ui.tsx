@@ -2,6 +2,7 @@ import { Ionicons } from '@expo/vector-icons';
 import { router, type Href } from 'expo-router';
 import { Pressable, ScrollView, StyleSheet, Text, View, type TextProps } from 'react-native';
 import { verseCount, type Mantra } from '../data';
+import { scriptFont } from '../lib/fonts';
 import { useSettings } from '../lib/settings';
 import { SCRIPTS, translitTitle, type ScriptId } from '../lib/transliterate';
 
@@ -91,7 +92,7 @@ export function MantraRow({ mantra, subtitle }: { mantra: Mantra; subtitle?: str
         ]}
       >
         <View style={{ flex: 1 }}>
-          <Text style={{ color: theme.text, fontSize: 19, fontWeight: '600' }} numberOfLines={1}>
+          <Text style={{ color: theme.text, fontSize: 19, fontFamily: scriptFont(settings.script, settings.bookFonts), fontWeight: settings.bookFonts ? undefined : '600' }} numberOfLines={1}>
             {title}
           </Text>
           <Text style={{ color: theme.textMuted, fontSize: 14, marginTop: 2 }} numberOfLines={2}>

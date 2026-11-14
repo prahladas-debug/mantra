@@ -1,62 +1,47 @@
 import { Ionicons } from '@expo/vector-icons';
 import { activateKeepAwakeAsync, deactivateKeepAwake } from 'expo-keep-awake';
-import { router, Stack, useLocalSearchParams, type Href } from 'expo-router';
-import { useEffect, useMemo, useRef, useState } from 'react';
-import { FlatList, Pressable, StyleSheet, Text, View } from 'react-native';
-import { SankalpaCard } from '../../components/PanchangaCard';
-import { Chip, ScriptPicker } from '../../components/ui';
-import { categoryById, getMantra, mantrasInCategory, type Mantra, type Section, type Verse } from '../../data';
+import { Stack, useLocalSearchParams } from 'expo-router';
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
+import { Pressable, Text, View } from 'react-native';
+import { BookReader, type BookHandle } from '../../components/reader/BookReader';
+import { ReaderContext, type ReaderState } from '../../components/reader/context';
+import { DisplayPanel } from '../../components/reader/DisplayPanel';
+import { flatten } from '../../components/reader/rows';
+import { ScrollReader } from '../../components/reader/ScrollReader';
+import { getMantra } from '../../data';
 import { useSettings } from '../../lib/settings';
-import { choicesFor, matches, type Choices } from '../../lib/variants';
-import { planStatus } from '../../lib/plans';
-import type { ThemeName } from '../../lib/theme';
-import { MEANING_BUTTON, MEANING_PREFS, meaningsToShow, primaryLang, summaryFor, type MeaningPref } from '../../lib/meaning';
-import { bindDandas, translit, translitInline, translitTitle, verseNumber, type ScriptId } from '../../lib/transliterate';
-
-type Row =
-  | { kind: 'intro'; key: string }
-  | { kind: 'section'; key: string; section: Section; si: number }
-  | { kind: 'verse'; key: string; verse: Verse; si: number; vi: number };
-
-function flatten(m: Mantra, choices: Choices): Row[] {
-  const rows: Row[] = [{ kind: 'intro', key: 'intro' }];
-  m.sections.forEach((section, si) => {
-    if (!matches(section.when, choices)) return;
-    const verses = section.verses.map((verse, vi) => ({ verse, vi })).filter(({ verse }) => matches(verse.when, choices));
-    if (verses.length === 0) return;
-    if (section.title || section.titleEn || section.note) rows.push({ kind: 'section', key: `s${si}`, section, si });
-    verses.forEach(({ verse, vi }) => rows.push({ kind: 'verse', key: `v${si}-${vi}`, verse, si, vi }));
-  });
-  return rows;
-}
+import { choicesFor } from '../../lib/variants';
 
 const KEEP_AWAKE_TAG = 'reader';
 
 export default function Reader() {
   const params = useLocalSearchParams<{ id: string; si?: string; vi?: string }>();
   const mantra = getMantra(params.id);
-  const { theme, settings, update, favorites, toggleFavorite, markRead } = useSettings();
+  const { theme, settings, favorites, toggleFavorite, markRead, positions, savePosition } = useSettings();
   const [panelOpen, setPanelOpen] = useState(false);
-  // Verses whose meaning the reader has opened (meanings are hidden until tapped).
   const [opened, setOpened] = useState<ReadonlySet<string>>(() => new Set());
-  const toggleMeaning = (key: string) =>
-    setOpened((prev) => {
-      const next = new Set(prev);
-      if (next.has(key)) next.delete(key);
-      else next.add(key);
-      return next;
-    });
-  const listRef = useRef<FlatList<Row>>(null);
+  const [practice, setPractice] = useState(false);
+  const [revealed, setRevealed] = useState<Record<string, number>>({});
+  const handle = useRef<BookHandle | null>(null);
 
   const choices = useMemo(() => (mantra ? choicesFor(mantra, settings.variants) : {}), [mantra, settings.variants]);
   const rows = useMemo(() => (mantra ? flatten(mantra, choices) : []), [mantra, choices]);
-  // Verse opened from search: highlighted briefly (initial state, cleared by a timer).
+
+  // Verse opened from search or a bookmark: highlighted briefly.
   const targetKey = params.si !== undefined && params.vi !== undefined ? `v${params.si}-${params.vi}` : null;
   const [highlight, setHighlight] = useState<string | null>(targetKey);
+  // Where to open: the requested verse, else where the reader left off.
+  const [initialKey] = useState<string | null>(() => targetKey ?? (mantra ? positions[mantra.id] ?? null : null));
 
   useEffect(() => {
     if (mantra) markRead(mantra.id);
   }, [mantra, markRead]);
+
+  useEffect(() => {
+    if (!targetKey) return;
+    const t = setTimeout(() => setHighlight(null), 3000);
+    return () => clearTimeout(t);
+  }, [targetKey]);
 
   useEffect(() => {
     if (!settings.keepAwake) return;
@@ -66,21 +51,18 @@ export default function Reader() {
     };
   }, [settings.keepAwake]);
 
-  // Jump to a verse when opened from search.
-  useEffect(() => {
-    if (!targetKey) return;
-    const index = rows.findIndex((r) => r.key === targetKey);
-    const t1 = index >= 0 ? setTimeout(() => scrollTo(index), 250) : undefined;
-    const t2 = setTimeout(() => setHighlight(null), 3000);
-    return () => {
-      clearTimeout(t1);
-      clearTimeout(t2);
-    };
-  }, [targetKey, rows]);
-
-  function scrollTo(index: number) {
-    listRef.current?.scrollToIndex({ index, viewPosition: 0.1, animated: true });
-  }
+  const toggleMeaning = useCallback(
+    (key: string) =>
+      setOpened((prev) => {
+        const next = new Set(prev);
+        if (next.has(key)) next.delete(key);
+        else next.add(key);
+        return next;
+      }),
+    [],
+  );
+  const reveal = useCallback((key: string, lines: number) => setRevealed((r) => ({ ...r, [key]: lines })), []);
+  const onPosition = useCallback((key: string) => mantra && savePosition(mantra.id, key), [mantra, savePosition]);
 
   if (!mantra) {
     return (
@@ -91,318 +73,44 @@ export default function Reader() {
     );
   }
 
-  const script = settings.script;
-  // Kannada for notes/summaries when the reader wants Kannada meanings.
-  const pLang = primaryLang(settings.meaningLang, script);
-  const preferKn = pLang === 'kn';
-  const summary = summaryFor(mantra, pLang);
-  const second = settings.secondaryScript && settings.secondaryScript !== script ? settings.secondaryScript : null;
-  const scale = settings.fontScale;
+  const ctx: ReaderState = { mantra, choices, opened, toggleMeaning, highlight, practice, revealed, reveal };
   const isFav = favorites.includes(mantra.id);
-  const sectionsWithTitles = mantra.sections
-    .map((s, si) => ({ s, si }))
-    .filter(({ s }) => s.title || s.titleEn);
-
-  const renderRow = ({ item }: { item: Row }) => {
-    switch (item.kind) {
-      case 'intro':
-        return (
-          <View style={r.intro}>
-            <Text style={[r.title, { color: theme.accent, fontSize: 28 * scale, lineHeight: 42 * scale }]}>
-              {translitTitle(mantra.title, script)}
-            </Text>
-            <Text style={{ color: theme.text, fontSize: 16, fontWeight: '600' }}>{mantra.titleEn}</Text>
-            <Text style={{ color: theme.textMuted, fontSize: 13, marginTop: 4 }}>
-              {[categoryById[mantra.category]?.titleEn, mantra.deity, mantra.source].filter(Boolean).join(' · ')}
-            </Text>
-            <Text style={{ color: theme.textMuted, fontSize: 15, marginTop: 10, lineHeight: 22 }}>{summary.lang === 'en' ? translitInline(summary.text, script) : summary.text}</Text>
-            {(mantra.category === 'sandhya' || mantra.category === 'puja') && <SankalpaCard />}
-            {mantra.variants?.map((v) => (
-              <View key={v.key} style={[r.variantBox, { borderColor: theme.cardBorder, backgroundColor: theme.card }]}>
-                <Text style={{ color: theme.textMuted, fontSize: 13, fontWeight: '700', marginBottom: 6 }}>
-                  {preferKn && v.titleKn ? v.titleKn : v.title}
-                </Text>
-                <View style={{ flexDirection: 'row', flexWrap: 'wrap', gap: 8 }}>
-                  {v.options.map((o) => (
-                    <Chip
-                      key={o.id}
-                      label={preferKn && o.labelKn ? o.labelKn : o.label}
-                      active={choices[v.key] === o.id}
-                      onPress={() => update({ variants: { ...settings.variants, [v.key]: o.id } })}
-                    />
-                  ))}
-                </View>
-              </View>
-            ))}
-            {mantra.contentNote && (
-              <View style={[r.notice, { backgroundColor: theme.warningBg }]}>
-                <Ionicons name="information-circle" size={18} color={theme.warningText} />
-                <Text style={{ color: theme.warningText, flex: 1, fontSize: 14, lineHeight: 20 }}>
-                  {translitInline(mantra.contentNote, script)}
-                </Text>
-              </View>
-            )}
-          </View>
-        );
-      case 'section':
-        return (
-          <View style={[r.section, { borderColor: theme.cardBorder }]}>
-            {item.section.title && (
-              <Text style={{ color: theme.accent, fontSize: 21 * scale, lineHeight: 32 * scale, fontWeight: '700' }}>
-                {translitTitle(item.section.title, script)}
-              </Text>
-            )}
-            {item.section.titleEn && (
-              <Text style={{ color: theme.textMuted, fontSize: 14, fontWeight: '600', textTransform: 'uppercase', letterSpacing: 0.8 }}>
-                {item.section.titleEn}
-              </Text>
-            )}
-            {item.section.note && (
-              <Text style={{ color: theme.textMuted, fontSize: 14, fontStyle: 'italic', marginTop: 6, lineHeight: 20 }}>
-                {preferKn && item.section.noteKn ? item.section.noteKn : translitInline(item.section.note, script)}
-              </Text>
-            )}
-          </View>
-        );
-      case 'verse': {
-        const { verse } = item;
-        const meanings = meaningsToShow(verse.meaning, settings.meaningLang, script);
-        const isOpen = opened.has(item.key);
-        const showMeaning = settings.alwaysShowMeanings || isOpen;
-        // The text ends with ॥; when a number follows, render a single "॥ n ॥" instead of "॥ ॥ n ॥".
-        const main = bindDandas(translit(verse.n !== undefined ? verse.text.replace(/\s*॥\s*$/, '') : verse.text, script));
-        const fs = (script === 'iast' ? 19 : 22) * scale;
-        return (
-          <View
-            style={[r.verse, item.key === highlight && { backgroundColor: theme.accentSoft }]}
-            accessible
-          >
-            <Text style={{ color: theme.text, fontSize: fs, lineHeight: fs * 1.65 }} selectable>
-              {main}
-              {verse.n !== undefined && (
-                <Text style={{ color: theme.verseNumber, fontWeight: '600' }}>{'\u00A0' + verseNumber(verse.n, script)}</Text>
-              )}
-            </Text>
-            {second && (
-              <Text style={{ color: theme.textMuted, fontSize: 16 * scale, lineHeight: 24 * scale, marginTop: 6 }} selectable>
-                {bindDandas(translit(verse.text, second))}
-              </Text>
-            )}
-            {meanings.length > 0 && !settings.alwaysShowMeanings && (
-              <Pressable
-                onPress={() => toggleMeaning(item.key)}
-                hitSlop={8}
-                accessibilityRole="button"
-                accessibilityState={{ expanded: isOpen }}
-                style={[r.meaningToggle, { borderColor: theme.cardBorder, backgroundColor: isOpen ? theme.accentSoft : 'transparent' }]}
-              >
-                <Text style={{ color: theme.accent, fontSize: 13, fontWeight: '600' }}>
-                  {meaningLabel(settings.meaningLang, script)} {isOpen ? '▴' : '▾'}
-                </Text>
-              </Pressable>
-            )}
-            {showMeaning &&
-              meanings.map(({ lang, text }) => (
-                <Text
-                  key={lang}
-                  style={[
-                    r.meaning,
-                    {
-                      color: theme.textMuted,
-                      borderColor: theme.accent,
-                      fontSize: (lang !== 'en' ? 16 : 15) * Math.min(scale, 1.3),
-                      lineHeight: (lang !== 'en' ? 25 : 21) * Math.min(scale, 1.3),
-                      fontStyle: lang !== 'en' ? 'normal' : 'italic',
-                    },
-                  ]}
-                >
-                  {lang === 'en' ? translitInline(text, script) : text}
-                </Text>
-              ))}
-          </View>
-        );
-      }
-    }
-  };
+  const Layout = settings.layout === 'book' ? BookReader : ScrollReader;
 
   return (
-    <View style={{ flex: 1, backgroundColor: theme.bg }}>
-      <Stack.Screen
-        options={{
-          title: mantra.titleEn,
-          headerRight: () => (
-            <View style={{ flexDirection: 'row', gap: 20 }}>
-              <Pressable hitSlop={10} onPress={() => setPanelOpen((o) => !o)} accessibilityLabel="Display options">
-                <Ionicons name="text" size={22} color={theme.accent} />
-              </Pressable>
-              <Pressable hitSlop={10} onPress={() => toggleFavorite(mantra.id)} accessibilityLabel={isFav ? 'Remove favourite' : 'Add favourite'}>
-                <Ionicons name={isFav ? 'star' : 'star-outline'} size={22} color={theme.accent} />
-              </Pressable>
-            </View>
-          ),
-        }}
-      />
-
-      {panelOpen && (
-        <View style={[r.panel, { backgroundColor: theme.card, borderColor: theme.cardBorder }]}>
-          <PanelLabel>Script</PanelLabel>
-          <ScriptPicker value={script} onChange={(v) => v && update({ script: v })} />
-          <PanelLabel>Also show below each verse</PanelLabel>
-          <ScriptPicker allowNone value={settings.secondaryScript} onChange={(v) => update({ secondaryScript: v })} />
-          <View style={r.panelRow}>
-            <Chip label="A−" onPress={() => update({ fontScale: Math.max(0.7, +(scale - 0.1).toFixed(1)) })} />
-            <Text style={{ color: theme.text, minWidth: 48, textAlign: 'center' }}>{Math.round(scale * 100)}%</Text>
-            <Chip label="A+" onPress={() => update({ fontScale: Math.min(2.2, +(scale + 0.1).toFixed(1)) })} />
-            <View style={{ width: 12 }} />
-            {(['light', 'sepia', 'dark'] as ThemeName[]).map((t) => (
-              <Chip key={t} label={t[0].toUpperCase() + t.slice(1)} active={theme.name === t && settings.theme !== 'system'} onPress={() => update({ theme: t })} />
-            ))}
-          </View>
-          <View style={r.panelRow}>
-            <Chip label={settings.alwaysShowMeanings ? 'All meanings: shown' : 'All meanings: tap to open'} active={settings.alwaysShowMeanings} onPress={() => update({ alwaysShowMeanings: !settings.alwaysShowMeanings })} />
-          </View>
-          <View style={[r.panelRow, { flexWrap: 'wrap' }]}>
-            {MEANING_PREFS.map((m) => (
-              <Chip key={m.id} label={m.label} active={settings.meaningLang === m.id} onPress={() => update({ meaningLang: m.id })} />
-            ))}
-          </View>
-          {sectionsWithTitles.length > 1 && (
-            <>
-              <PanelLabel>Jump to section</PanelLabel>
-              <View style={[r.panelRow, { flexWrap: 'wrap' }]}>
-                {sectionsWithTitles.map(({ s, si }) => (
-                  <Chip
-                    key={si}
-                    label={s.titleEn ?? translit(s.title!, script)}
-                    onPress={() => {
-                      const index = rows.findIndex((row) => row.key === `s${si}`);
-                      if (index >= 0) scrollTo(index);
-                      setPanelOpen(false);
-                    }}
-                  />
-                ))}
+    <ReaderContext.Provider value={ctx}>
+      <View style={{ flex: 1, backgroundColor: theme.bg }}>
+        <Stack.Screen
+          options={{
+            title: mantra.titleEn,
+            headerRight: () => (
+              <View style={{ flexDirection: 'row', gap: 20 }}>
+                <Pressable hitSlop={10} onPress={() => setPanelOpen((o) => !o)} accessibilityLabel="Display options">
+                  <Ionicons name="text" size={22} color={theme.accent} />
+                </Pressable>
+                <Pressable hitSlop={10} onPress={() => toggleFavorite(mantra.id)} accessibilityLabel={isFav ? 'Remove favourite' : 'Add favourite'}>
+                  <Ionicons name={isFav ? 'star' : 'star-outline'} size={22} color={theme.accent} />
+                </Pressable>
               </View>
-            </>
-          )}
-        </View>
-      )}
-
-      <FlatList
-        ref={listRef}
-        data={rows}
-        keyExtractor={(row) => row.key}
-        renderItem={renderRow}
-        extraData={[settings, highlight, opened]}
-        initialNumToRender={20}
-        windowSize={11}
-        contentContainerStyle={{ paddingBottom: 48 }}
-        ListFooterComponent={
-          <>
-            <PlanControls mantraId={mantra.id} />
-            <SeriesNav mantra={mantra} />
-          </>
-        }
-        onScrollToIndexFailed={(info) => {
-          listRef.current?.scrollToOffset({ offset: info.averageItemLength * info.index, animated: false });
-          setTimeout(() => scrollTo(info.index), 120);
-        }}
-      />
-    </View>
+            ),
+          }}
+        />
+        {panelOpen && (
+          <DisplayPanel
+            mantra={mantra}
+            practice={practice}
+            setPractice={(v) => {
+              setPractice(v);
+              setRevealed({});
+            }}
+            onJump={(key) => {
+              handle.current?.jumpToKey(key);
+              setPanelOpen(false);
+            }}
+          />
+        )}
+        <Layout key={settings.layout} rows={rows} initialKey={initialKey} onPosition={onPosition} ref={handle} />
+      </View>
+    </ReaderContext.Provider>
   );
 }
-
-/** Pārāyaṇa controls for this text: mark read (read-through plans) or count a recitation (vows). */
-function PlanControls({ mantraId }: { mantraId: string }) {
-  const { theme, plans, markPlanItemRead, addRecitation } = useSettings();
-  const reading = plans.filter((p) => p.kind === 'readthrough' && p.items.includes(mantraId) && !planStatus(p).finished);
-  const vows = plans.filter((p) => p.kind === 'vow' && p.items[0] === mantraId && !planStatus(p).finished);
-  if (!reading.length && !vows.length) return null;
-  const isRead = reading.some((p) => p.read.includes(mantraId));
-  return (
-    <View style={[r.planBox, { borderColor: theme.cardBorder, backgroundColor: theme.card }]}>
-      <Text style={{ color: theme.textMuted, fontSize: 12, fontWeight: '700', letterSpacing: 0.8 }}>PĀRĀYAṆA · ಪಾರಾಯಣ</Text>
-      {reading.length > 0 && (
-        <Pressable
-          onPress={() => markPlanItemRead(mantraId, !isRead)}
-          style={[r.planButton, { backgroundColor: isRead ? theme.accentSoft : theme.accent }]}
-        >
-          <Text style={{ color: isRead ? theme.accent : theme.onAccent, fontWeight: '700', fontSize: 15 }}>
-            {isRead ? '✓ Read · ಓದಿ ಆಯಿತು' : 'Mark as read · ಓದಿ ಆಯಿತು'}
-          </Text>
-        </Pressable>
-      )}
-      {vows.map((p) => {
-        const st = planStatus(p);
-        return (
-          <View key={p.id} style={{ flexDirection: 'row', alignItems: 'center', gap: 10, marginTop: 10 }}>
-            <Text style={{ color: theme.text, flex: 1 }}>
-              {p.title}: today {p.perDay - st.todayRemaining}/{p.perDay}
-            </Text>
-            <Chip label="+1" active onPress={() => addRecitation(p.id, 1)} />
-          </View>
-        );
-      })}
-    </View>
-  );
-}
-
-/** Previous / next buttons for texts read in sequence (e.g. Gita chapters). */
-function SeriesNav({ mantra }: { mantra: Mantra }) {
-  const { theme, settings } = useSettings();
-  if (mantra.order === undefined) return null;
-  const seriesId = mantra.series ?? mantra.category;
-  const series = mantrasInCategory(mantra.category).filter((m) => m.order !== undefined && (m.series ?? m.category) === seriesId);
-  const i = series.findIndex((m) => m.id === mantra.id);
-  const prev = series[i - 1];
-  const next = series[i + 1];
-  const button = (m: Mantra, label: string, align: 'flex-start' | 'flex-end') => (
-    <Pressable
-      key={m.id}
-      onPress={() => router.replace(`/mantra/${m.id}` as Href)}
-      style={({ pressed }) => [
-        r.navButton,
-        { borderColor: theme.cardBorder, backgroundColor: theme.card, alignItems: align, opacity: pressed ? 0.7 : 1 },
-      ]}
-    >
-      <Text style={{ color: theme.textMuted, fontSize: 12, fontWeight: '600' }}>{label}</Text>
-      <Text style={{ color: theme.accent, fontSize: 16, fontWeight: '600' }} numberOfLines={1}>
-        {translitTitle(m.title, settings.script)}
-      </Text>
-    </Pressable>
-  );
-  return (
-    <View style={r.navRow}>
-      {prev ? button(prev, '← Previous', 'flex-start') : <View style={{ flex: 1 }} />}
-      {next ? button(next, 'Next →', 'flex-end') : <View style={{ flex: 1 }} />}
-    </View>
-  );
-}
-
-/** Button label in the reader's meaning language. */
-function meaningLabel(pref: MeaningPref, script: ScriptId): string {
-  const lang = primaryLang(pref, script);
-  return pref === 'both' && lang !== 'en' ? `${MEANING_BUTTON[lang]} · Meaning` : MEANING_BUTTON[lang];
-}
-
-function PanelLabel({ children }: { children: React.ReactNode }) {
-  const { theme } = useSettings();
-  return <Text style={[r.panelLabel, { color: theme.textMuted }]}>{children}</Text>;
-}
-
-const r = StyleSheet.create({
-  intro: { padding: 20, paddingBottom: 8 },
-  title: { fontWeight: '700', marginBottom: 4 },
-  variantBox: { marginTop: 14, padding: 12, borderRadius: 12, borderWidth: 1 },
-  notice: { flexDirection: 'row', gap: 8, padding: 12, borderRadius: 10, marginTop: 14 },
-  section: { marginTop: 18, marginHorizontal: 20, paddingTop: 14, borderTopWidth: 1, marginBottom: 4 },
-  verse: { paddingHorizontal: 20, paddingVertical: 12 },
-  meaning: { marginTop: 8, paddingLeft: 10, borderLeftWidth: 2 },
-  meaningToggle: { alignSelf: 'flex-start', marginTop: 8, paddingHorizontal: 10, paddingVertical: 3, borderRadius: 12, borderWidth: 1 },
-  panel: { borderBottomWidth: 1, paddingVertical: 10, gap: 4 },
-  panelLabel: { fontSize: 12, fontWeight: '700', textTransform: 'uppercase', letterSpacing: 0.8, marginHorizontal: 16, marginTop: 8, marginBottom: 4 },
-  planBox: { marginHorizontal: 16, marginTop: 24, padding: 14, borderRadius: 14, borderWidth: 1 },
-  planButton: { marginTop: 10, padding: 12, borderRadius: 12, alignItems: 'center' },
-  navRow: { flexDirection: 'row', gap: 10, marginHorizontal: 16, marginTop: 24 },
-  navButton: { flex: 1, padding: 12, borderRadius: 12, borderWidth: 1, gap: 2 },
-  panelRow: { flexDirection: 'row', alignItems: 'center', paddingHorizontal: 16, gap: 8, marginTop: 8 },
-});
