@@ -61,21 +61,8 @@ export function IntroBlock({ book }: { book?: boolean }) {
         {plain([categoryById[mantra.category]?.titleEn, mantra.deity, mantra.source].filter(Boolean).join(' · '))}
       </Text>
       {book && <Ornament />}
-      <Text
-        style={{
-          color: theme.textMuted,
-          fontSize: 15,
-          marginTop: book ? 0 : 10,
-          lineHeight: summary.lang === 'en' ? 22 : 25,
-          fontFamily: summary.lang === 'en' ? (settings.bookFonts ? 'BookSerif' : undefined) : meaningFont(summary.lang, settings.bookFonts),
-          textAlign: book ? 'center' : 'left',
-          alignSelf: 'stretch',
-        }}
-      >
-        {summary.lang === 'en' ? translitInline(summary.text, script) : summary.text}
-      </Text>
+      {/* Choices first: they decide which steps follow. */}
       <View style={{ alignSelf: 'stretch' }}>
-        {(mantra.category === 'sandhya' || mantra.category === 'puja') && <SankalpaCard />}
         {mantra.variants?.map((v) => (
           <View key={v.key} style={[b.variantBox, { borderColor: theme.cardBorder, backgroundColor: theme.card }]}>
             <Text style={{ color: theme.textMuted, fontSize: 13, fontWeight: '700', marginBottom: 6 }}>
@@ -93,6 +80,22 @@ export function IntroBlock({ book }: { book?: boolean }) {
             </View>
           </View>
         ))}
+      </View>
+      <Text
+        style={{
+          color: theme.textMuted,
+          fontSize: 15,
+          marginTop: book ? 0 : 10,
+          lineHeight: summary.lang === 'en' ? 22 : 25,
+          fontFamily: summary.lang === 'en' ? (settings.bookFonts ? 'BookSerif' : undefined) : meaningFont(summary.lang, settings.bookFonts),
+          textAlign: book ? 'center' : 'left',
+          alignSelf: 'stretch',
+        }}
+      >
+        {summary.lang === 'en' ? translitInline(summary.text, script) : summary.text}
+      </Text>
+      <View style={{ alignSelf: 'stretch' }}>
+        {(mantra.category === 'sandhya' || mantra.category === 'puja') && <SankalpaCard />}
         {mantra.contentNote && (
           <View style={[b.notice, { backgroundColor: theme.warningBg }]}>
             <Ionicons name="information-circle" size={18} color={theme.warningText} />

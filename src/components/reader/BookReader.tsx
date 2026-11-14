@@ -177,7 +177,7 @@ export function BookReader({
                     {runningHead}
                   </Text>
                 )}
-                <ScrollView contentContainerStyle={{ paddingVertical: 6 }} showsVerticalScrollIndicator={false}>
+                <ScrollView contentContainerStyle={{ paddingVertical: 6 }} showsVerticalScrollIndicator>
                   {item.rows.map((row) => {
                     switch (row.kind) {
                       case 'intro':
