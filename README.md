@@ -39,16 +39,20 @@ One codebase ([Expo](https://expo.dev) / React Native) builds for the
 
 | Category | Texts |
 | --- | --- |
-| Bhagavad Gita | All 18 chapters (700 verses) with chapter colophons, and previous/next chapter navigation |
 | Daily prayers | Nitya shlokas, Gayatri, Mahamrityunjaya |
-| Vedic suktas | Purusha Sukta, Sri Sukta, Narayana Sukta, Mantra Pushpam, Shanti mantras |
-| Sahasranama / Namavali | Vishnu Sahasranama, Krishna Ashtottara Shatanama |
-| Stotras | Venkatesha Stotram, Mahalakshmi Ashtakam, Lingashtakam, Shiva Panchakshara, Madhurashtakam, Achyutashtakam, Ganesha Pancharatnam |
-| Madhva stotras | Vayu Stuti, complete with Nakha Stuti; Raghavendra Stotram |
-| Sandhya Vandane | Step-by-step, with an English instruction for each step |
-| Puja | Shodashopachara puja |
+| Bhagavad Gita | All 18 chapters (700 verses), with chapter colophons |
+| Sundarakanda | All 68 sargas, for sarga-wise pārāyaṇa |
+| Devi Mahatmyam | Kavacha, Argalā, Kīlaka, 13 chapters (700), Rātri and Devī Sūktas |
+| Vedic suktas | Purusha, Sri, Narayana, Manyu, Ballittha, Ambhṛṇī and Pavamāna Suktas; Śrī Rudram (Namakam and Chamakam); Mantra Pushpam; Shanti mantras |
+| Sahasranama / Namavali | Vishnu Sahasranama, Lalitha Sahasranama, Krishna Ashtottara, Vishnu and Lalitha Ashtottara name lists |
+| Stotras | Venkatesha Suprabhatam set, Aditya Hridayam, Rama Raksha, Hanuman Chalisa, Saundarya Lahari, Kanakadhara, Mahishasura Mardini, Durga Saptashloki, the ashtakams |
+| Madhva stotras | Vayu Stuti, Dvadasha Stotra, Raghavendra Stotram and Kavacha, Lakshmi Shobhane |
+| Dasara Pada | 19 Haridāsa songs (Purandara Dāsa, Kanaka Dāsa and others), in Kannada |
+| Harikathamrutasara, Sumadhva Vijaya | Sandhis 1–2 and sargas 1–3 so far |
+| Sandhya Vandane | Rigveda and Yajurveda procedures, each with Madhva/Smarta and morning/midday/evening choices |
+| Puja | Shodashopachara puja, Satyanārāyaṇa Pūjā and Vrata Kathā |
 
-Currently 39 texts with about 1,230 verses or steps. Vayu Stuti and the
+Currently 186 texts with about 7,150 verses or steps. Vayu Stuti and the
 Bhagavad Gita were collated from several independent digital sources and
 checked against their metre. Texts labelled **Partial** in the app (parts of
 Sandhya Vandane, Sri Sukta's later ṛks, Mantra Pushpam, and the Krishna
