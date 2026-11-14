@@ -1,11 +1,11 @@
 import { Stack, router, useLocalSearchParams, type Href } from 'expo-router';
 import { useMemo, useState } from 'react';
 import { ScrollView, Text, View } from 'react-native';
-import { CalendarModeChips, FestivalLine, NavButton, useCalendarMode, useEkadashiRule } from '../components/PanchangaCard';
+import { CalendarModeChips, SauraStartChips, FestivalLine, NavButton, useCalendarMode, useSauraStart, useEkadashiRule } from '../components/PanchangaCard';
 import { Chip, SectionHeading } from '../components/ui';
 import { festivalsBetween } from '../lib/festivals';
 import { CITIES, VARA, addDays, cityById, formatTime, panchanga, parseIso, todayIn, type Span } from '../lib/panchanga';
-import { sauraDay, sauraSankalpa } from '../lib/sauramana';
+import { sauraDay, sauraRtu, sauraSankalpa } from '../lib/sauramana';
 import { useSettings } from '../lib/settings';
 import { translit } from '../lib/transliterate';
 
@@ -22,11 +22,12 @@ export default function PanchangaScreen() {
   const date = picked ?? (params.date && ISO.test(params.date) ? params.date : today);
   const [rule] = useEkadashiRule();
   const [mode] = useCalendarMode();
+  const [start] = useSauraStart();
 
   const p = useMemo(() => panchanga(date, city), [date, city]);
-  const todays = useMemo(() => festivalsBetween(city, date, date, rule, mode), [city, date, rule, mode]);
-  const upcoming = useMemo(() => festivalsBetween(city, addDays(date, 1), addDays(date, 30), rule, mode), [city, date, rule, mode]);
-  const saura = useMemo(() => sauraDay(city, date), [city, date]);
+  const todays = useMemo(() => festivalsBetween(city, date, date, rule, mode, start), [city, date, rule, mode, start]);
+  const upcoming = useMemo(() => festivalsBetween(city, addDays(date, 1), addDays(date, 30), rule, mode, start), [city, date, rule, mode, start]);
+  const saura = useMemo(() => sauraDay(city, date, start), [city, date, start]);
   const sankalpa = mode === 'saura' ? sauraSankalpa(p, saura) : p.sankalpa;
   const t = (s: string) => translit(s, settings.script);
   const tm = (d: Date) => formatTime(d, city, date);
@@ -38,7 +39,7 @@ export default function PanchangaScreen() {
   const basic: [string, string][] = [
     ['Saṃvatsara · ಸಂವತ್ಸರ', p.samvatsara],
     ['Ayana · ಅಯನ', p.ayana],
-    ['Ṛtu · ಋತು', p.rtu],
+    ['Ṛtu · ಋತು', mode === 'saura' ? sauraRtu(saura.rasi) : p.rtu],
     ...((mode === 'saura'
       ? [
           ['Saura māsa · ಸೌರ ಮಾಸ', `${saura.name} · ${saura.day}`],
@@ -93,6 +94,9 @@ export default function PanchangaScreen() {
       </View>
       <View style={{ flexDirection: 'row', justifyContent: 'center', gap: 8, marginTop: 8 }}>
         <CalendarModeChips />
+      </View>
+      <View style={{ marginHorizontal: 16, marginTop: 8 }}>
+        <SauraStartChips />
       </View>
 
       {todays.length > 0 && (

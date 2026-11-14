@@ -1,10 +1,10 @@
 import { Stack, router, useLocalSearchParams, type Href } from 'expo-router';
 import { useState } from 'react';
 import { Pressable, ScrollView, Text, View } from 'react-native';
-import { CalendarOptions, FestivalLine, NavButton, useCalendarMode, useEkadashiRule } from '../components/PanchangaCard';
+import { CalendarOptions, FestivalLine, NavButton, useCalendarMode, useSauraStart, useEkadashiRule } from '../components/PanchangaCard';
 import { Chip, SectionHeading } from '../components/ui';
 import { festivalsBetween, type CalendarMode, type Festival } from '../lib/festivals';
-import { sauraDay } from '../lib/sauramana';
+import { sauraDay, type SauraStart } from '../lib/sauramana';
 import { MASA, RASHI, cityById, isoDate, lunarMonthAt, sunriseJd, sunriseTithi, todayIn, type City } from '../lib/panchanga';
 import { useSettings } from '../lib/settings';
 import { translit } from '../lib/transliterate';
@@ -36,14 +36,14 @@ interface Cell {
 }
 
 /** Grid data for a Gregorian month 'YYYY-MM' at a city. */
-function buildMonth(city: City, month: string, mode: CalendarMode) {
+function buildMonth(city: City, month: string, mode: CalendarMode, start: SauraStart) {
   const [y, m] = month.split('-').map(Number);
   const days = new Date(Date.UTC(y, m, 0)).getUTCDate();
   const lead = new Date(Date.UTC(y, m - 1, 1)).getUTCDay();
   const cells: (Cell | null)[] = Array(lead).fill(null);
   for (let d = 1; d <= days; d++) {
     const iso = isoDate(y, m, d);
-    const sd = sauraDay(city, iso);
+    const sd = sauraDay(city, iso, start);
     cells.push({ iso, day: d, tithi: sunriseTithi(city, iso), saura: sd.rasi, sauraDayNo: sd.day });
   }
   while (cells.length % 7) cells.push(null);
@@ -53,7 +53,7 @@ function buildMonth(city: City, month: string, mode: CalendarMode) {
   for (const d of [1, 15, days]) {
     const iso = isoDate(y, m, d);
     let n: string;
-    if (mode === 'saura') n = `${RASHI[sauraDay(city, iso).rasi]}`;
+    if (mode === 'saura') n = `${RASHI[sauraDay(city, iso, start).rasi]}`;
     else {
       const l = lunarMonthAt(sunriseJd(city, iso));
       n = `${l.adhika ? 'अधिक ' : ''}${MASA[l.masa]}`;
@@ -72,12 +72,13 @@ export default function CalendarScreen() {
   const month = picked ?? (params.month && /^\d{4}-\d{2}$/.test(params.month) ? params.month : today.slice(0, 7));
   const [rule, setRule] = useEkadashiRule();
   const [mode] = useCalendarMode();
+  const [start] = useSauraStart();
   const t = (s: string) => translit(s, settings.script);
 
   // Cheap (sunrise times and festival lists are cached in the libraries); the React
   // Compiler memoises the rest.
-  const { y, m, first, last, weeks, lunarLabel } = buildMonth(city, month, mode);
-  const festivals = festivalsBetween(city, first, last, rule, mode);
+  const { y, m, first, last, weeks, lunarLabel } = buildMonth(city, month, mode, start);
+  const festivals = festivalsBetween(city, first, last, rule, mode, start);
   const byDate = new Map<string, Festival[]>();
   for (const f of festivals) byDate.set(f.date, [...(byDate.get(f.date) ?? []), f]);
 

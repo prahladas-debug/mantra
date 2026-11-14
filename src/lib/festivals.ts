@@ -50,7 +50,7 @@ import {
   parseIso, siderealMoon, siderealSun, sunriseDayOf, sunriseJd, sunsetJd, tithiEnd, tithiStart, weekdayOf,
   type City, type LunarMonth,
 } from './panchanga';
-import { sauraDay, sauraMonthStart } from './sauramana';
+import { sauraDay, sauraMonthStart, type SauraStart } from './sauramana';
 
 export type EkadashiRule = 'smarta' | 'madhva';
 /** Month reckoning shown in the calendar. */
@@ -283,17 +283,16 @@ function solarFestival(city: City, rasi: number, nearIso: string, key: string, n
 
 /** Aṣṭa Maṭhas in Paryāya order. */
 export const ASHTA_MATHAS = ['Palimaru', 'Admaru', 'Krishnapura', 'Puttige', 'Shirur', 'Sode', 'Kaniyur', 'Pejavar'];
-/** Pīṭhādhipatis named in news reports of the Paryāya (others not verified, so not named). */
+/** Pīṭhādhipatis of past/current Paryāyas; later years name only the maṭha. */
 const PARYAYA_SWAMIJI: Record<number, string> = {
   2024: 'Śrī Sugunendra Tīrtha',
   2026: 'Śrī Vedavardhana Tīrtha',
-  2028: 'Śrī Vishwavallabha Tīrtha (present Sode pīṭhādhipati)',
 };
 /** Maṭha that takes charge of the Śrī Kṛṣṇa Maṭha on 18 January of an even year. */
 export const paryayaMatha = (year: number) => ASHTA_MATHAS[((((year - 2024) / 2 + 3) % 8) + 8) % 8];
 
 /** Udupi Śrī Kṛṣṇa Maṭha festivals that follow the solar calendar or a civil date. */
-function udupiFestivals(city: City, jdFrom: number, jdTo: number, y0: number, y1: number): Festival[] {
+function udupiFestivals(city: City, jdFrom: number, jdTo: number, y0: number, y1: number, start: SauraStart): Festival[] {
   const out: Festival[] = [];
   const place = 'Udupi';
   // Śrī Kṛṣṇa Janmāṣṭamī: kṛṣṇa aṣṭamī of the solar month Siṃha, on the day the aṣṭamī
@@ -308,7 +307,7 @@ function udupiFestivals(city: City, jdFrom: number, jdTo: number, y0: number, y1
       if (mr !== null && mr >= s && mr < e) date = d;
     }
     if (!date) date = observanceDay(city, s, e, 'udaya');
-    if (sauraDay(city, date).rasi !== 4) continue;
+    if (sauraDay(city, date, start).rasi !== 4) continue;
     out.push({
       date, key: 'udupi-krishna-janmashtami', name: 'श्रीकृष्णजयन्ती (सौरमान)', en: 'Śrī Kṛṣṇa Janmāṣṭamī — Udupi (Sauramāna)',
       kind: 'festival', calendar: 'saura', place, textId: 'krishna-ashtottara-shatanama',
@@ -320,14 +319,14 @@ function udupiFestivals(city: City, jdFrom: number, jdTo: number, y0: number, y1
     });
   }
   for (let y = y0; y <= y1; y++) {
-    const bisu = sauraMonthStart(city, y, 0);
+    const bisu = sauraMonthStart(city, y, 0, start);
     out.push({
       date: bisu, key: 'sauramana-yugadi', name: 'सौरमान युगादि · बिसु', en: 'Sauramāna Yugādi · Bisu (Paggu 1)',
       kind: 'festival', calendar: 'saura',
-      note: 'First day of Meṣa (Paggu). Rule used: the day after the saṅkrānti day; some calendars keep the saṅkrānti day itself when the ingress is in the daytime.',
+      note: `First day of Meṣa (Paggu). Month start: ${start === 'same' ? 'the saṅkrānti day itself when the saṅkrānti is in the daytime' : 'the day after the saṅkrānti day'} (see the Month start choice).`,
     });
     // Saptotsava: the week ending the day after Makara saṅkrānti (2025: 9–15 Jan, Udayavani).
-    const makara = addDays(sauraMonthStart(city, y, 9), -1);
+    const makara = addDays(sauraMonthStart(city, y, 9, 'next'), -1);
     out.push({
       date: addDays(makara, -5), endDate: addDays(makara, 1), key: 'saptotsava', name: 'सप्तोत्सव · मकरसङ्क्रमण', en: 'Saptotsava (Makara saṅkramaṇa) — Udupi',
       kind: 'period', calendar: 'saura', place,
@@ -363,8 +362,8 @@ const cache = new Map<string, Festival[]>();
  * dates, inclusive), sorted by date. Ekādaśīs are dated by `rule`; the other tradition's
  * date is given in the note when it differs.
  */
-export function festivalsBetween(city: City, from: string, to: string, rule: EkadashiRule, mode: CalendarMode = 'chandra'): Festival[] {
-  const key = `${city.id}|${from}|${to}|${rule}|${mode}`;
+export function festivalsBetween(city: City, from: string, to: string, rule: EkadashiRule, mode: CalendarMode = 'chandra', start: SauraStart = 'next'): Festival[] {
+  const key = `${city.id}|${from}|${to}|${rule}|${mode}|${start}`;
   const hit = cache.get(key);
   if (hit) return hit;
   const jdFrom = julianDay(new Date(`${from}T00:00:00Z`)) - 3;
@@ -430,7 +429,7 @@ export function festivalsBetween(city: City, from: string, to: string, rule: Eka
       out.push(solarFestival(city, 0, `${y}-04-12`, 'mesha-sankranti', 'मेषसङ्क्रान्ति · सौरमान युगादि', 'Meṣa Saṅkrānti · Sauramāna Yugādi (Viṣu)'));
     }
   }
-  if (mode === 'saura') out.push(...udupiFestivals(city, jdFrom, jdTo, y0 - 1, y1 + 1));
+  if (mode === 'saura') out.push(...udupiFestivals(city, jdFrom, jdTo, y0 - 1, y1 + 1, start));
 
   const res = out
     .filter((f) => f.date <= to && (f.endDate ?? f.date) >= from)
@@ -441,8 +440,8 @@ export function festivalsBetween(city: City, from: string, to: string, rule: Eka
 }
 
 /** Festivals on one day. */
-export const festivalsOn = (city: City, date: string, rule: EkadashiRule, mode: CalendarMode = 'chandra') =>
-  festivalsBetween(city, date, date, rule, mode);
+export const festivalsOn = (city: City, date: string, rule: EkadashiRule, mode: CalendarMode = 'chandra', start: SauraStart = 'next') =>
+  festivalsBetween(city, date, date, rule, mode, start);
 
 /** Default ekādaśī rule from the reader's tradition setting (Mādhva unless 'smarta'). */
 export const defaultRule = (tradition: string | undefined): EkadashiRule => (tradition === 'smarta' ? 'smarta' : 'madhva');

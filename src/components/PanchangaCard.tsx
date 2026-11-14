@@ -4,7 +4,7 @@ import { router, type Href } from 'expo-router';
 import { useCallback, useEffect, useMemo, useState, useSyncExternalStore } from 'react';
 import { Pressable, Text, View } from 'react-native';
 import { defaultRule, festivalsOn, type CalendarMode, type EkadashiRule, type Festival } from '../lib/festivals';
-import { sauraDay, sauraSankalpa } from '../lib/sauramana';
+import { sauraDay, sauraSankalpa, type SauraStart } from '../lib/sauramana';
 import { Chip } from './ui';
 import { cityById, panchanga, todayIn } from '../lib/panchanga';
 import { useSettings } from '../lib/settings';
@@ -44,6 +44,7 @@ function makePref<T extends string>(key: string, allowed: readonly T[]) {
 
 const rulePref = makePref<EkadashiRule>('mantra.panchanga.ekadashiRule', ['smarta', 'madhva']);
 const modePref = makePref<CalendarMode>('mantra.panchanga.calendarMode', ['chandra', 'saura']);
+const startPref = makePref<SauraStart>('mantra.panchanga.sauraStart', ['next', 'same']);
 
 /**
  * The reader's ekādaśī rule: their explicit choice (stored under its own key), else the
@@ -63,6 +64,13 @@ export function useCalendarMode(): [CalendarMode, (m: CalendarMode) => void] {
   return [stored ?? 'chandra', set];
 }
 
+/** Sauramāna month start for a daytime saṅkrānti: the next day (default) or the same day. */
+export function useSauraStart(): [SauraStart, (s: SauraStart) => void] {
+  const stored = useSyncExternalStore(startPref.subscribe, startPref.get, () => null);
+  const set = useCallback((s: SauraStart) => startPref.set(s), []);
+  return [stored ?? 'next', set];
+}
+
 /** The two-chip Cāndramāna / Sauramāna switch. */
 export function CalendarModeChips() {
   const [mode, setMode] = useCalendarMode();
@@ -71,6 +79,26 @@ export function CalendarModeChips() {
       <Chip label="Cāndramāna" active={mode === 'chandra'} onPress={() => setMode('chandra')} />
       <Chip label="Sauramāna" active={mode === 'saura'} onPress={() => setMode('saura')} />
     </>
+  );
+}
+
+/** Month-start choice, shown only in Sauramāna mode. */
+export function SauraStartChips() {
+  const { theme } = useSettings();
+  const [mode] = useCalendarMode();
+  const [start, setStart] = useSauraStart();
+  if (mode !== 'saura') return null;
+  return (
+    <View style={{ gap: 4 }}>
+      <View style={{ flexDirection: 'row', alignItems: 'center', gap: 8, flexWrap: 'wrap' }}>
+        <Text style={{ color: theme.textMuted, fontSize: 13, width: 72 }}>Month start</Text>
+        <Chip label="Next day" active={start === 'next'} onPress={() => setStart('next')} />
+        <Chip label="Same day" active={start === 'same'} onPress={() => setStart('same')} />
+      </View>
+      <Text style={{ color: theme.textMuted, fontSize: 12 }}>
+        When the saṅkrānti falls in the daytime, the new solar month starts the next day or that same day. Practice differs, even in Udupi.
+      </Text>
+    </View>
   );
 }
 
@@ -90,6 +118,7 @@ export function CalendarOptions({ rule, setRule }: { rule: string; setRule: (r: 
         <Text style={label}>Calendar</Text>
         <CalendarModeChips />
       </View>
+      <SauraStartChips />
     </View>
   );
 }
@@ -167,8 +196,9 @@ export function TodayCard() {
   const { p, city, today } = usePanchanga();
   const [rule] = useEkadashiRule();
   const [mode] = useCalendarMode();
-  const fest = useMemo(() => festivalsOn(city, today, rule, mode), [city, today, rule, mode]);
-  const saura = useMemo(() => (mode === 'saura' ? sauraDay(city, today) : null), [city, today, mode]);
+  const [start] = useSauraStart();
+  const fest = useMemo(() => festivalsOn(city, today, rule, mode, start), [city, today, rule, mode, start]);
+  const saura = useMemo(() => (mode === 'saura' ? sauraDay(city, today, start) : null), [city, today, mode, start]);
   const t = (s: string) => translit(s, settings.script);
   return (
     <Pressable
@@ -209,7 +239,8 @@ export function SankalpaCard() {
   const { theme, settings } = useSettings();
   const { p, city, today } = usePanchanga();
   const [mode] = useCalendarMode();
-  const sankalpa = mode === 'saura' ? sauraSankalpa(p, sauraDay(city, today)) : p.sankalpa;
+  const [start] = useSauraStart();
+  const sankalpa = mode === 'saura' ? sauraSankalpa(p, sauraDay(city, today, start)) : p.sankalpa;
   return (
     <View style={{ marginTop: 14, padding: 12, borderRadius: 12, borderWidth: 1, borderColor: theme.cardBorder, backgroundColor: theme.card }}>
       <Text style={{ color: theme.textMuted, fontSize: 13, fontWeight: '700', marginBottom: 6 }}>

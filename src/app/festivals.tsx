@@ -1,7 +1,7 @@
 import { Stack, useLocalSearchParams } from 'expo-router';
 import { useState } from 'react';
 import { ScrollView, Text, View } from 'react-native';
-import { CalendarOptions, FestivalLine, useCalendarMode, useEkadashiRule } from '../components/PanchangaCard';
+import { CalendarOptions, FestivalLine, useCalendarMode, useEkadashiRule, useSauraStart } from '../components/PanchangaCard';
 import { Chip, SectionHeading } from '../components/ui';
 import { festivalsBetween, type Festival } from '../lib/festivals';
 import { cityById, todayIn } from '../lib/panchanga';
@@ -22,8 +22,9 @@ export default function FestivalsYearScreen() {
   const year = picked ?? (fromParam >= 1900 && fromParam <= 2200 ? fromParam : thisYear);
   const [rule, setRule] = useEkadashiRule();
   const [mode] = useCalendarMode();
+  const [start] = useSauraStart();
 
-  const all = festivalsBetween(city, `${year}-01-01`, `${year}-12-31`, rule, mode);
+  const all = festivalsBetween(city, `${year}-01-01`, `${year}-12-31`, rule, mode, start);
   const byMonth: Festival[][] = Array.from({ length: 12 }, () => []);
   for (const f of all) {
     // A period that began in the previous year is listed under January.

@@ -285,7 +285,17 @@ const FESTIVALS: [string, string][] = [
   assert.equal(sauraDay(udupi, '2025-07-17').tulu, 'Āṭi');
   const p = panchanga('2026-11-20', udupi);
   assert.ok(sauraSankalpa(p, sauraDay(udupi, '2026-11-20')).includes('वृश्चिकमासे'), 'Sauramāna saṅkalpa');
-  checks += 7;
+  // Ṛtu from the solar month: Vṛścika → Hemanta (the lunar Kārtika gives Śarad).
+  assert.ok(p.sankalpa.includes('शरदृतौ') && sauraSankalpa(p, sauraDay(udupi, '2026-11-20')).includes('हेमन्तर्तौ'), 'solar ṛtu');
+  // Month start for a daytime saṅkrānti (Meṣa 2026 at 09:38): next day 15 Apr, or same day 14 Apr.
+  assert.equal(sauraMonthStart(udupi, 2026, 0, 'next'), '2026-04-15');
+  assert.equal(sauraMonthStart(udupi, 2026, 0, 'same'), '2026-04-14');
+  assert.deepEqual([sauraDay(udupi, '2026-04-14', 'same').rasi, sauraDay(udupi, '2026-04-14', 'same').day], [0, 1]);
+  assert.deepEqual([sauraDay(udupi, '2026-04-14', 'next').rasi, sauraDay(udupi, '2026-04-15', 'next').day], [11, 1]);
+  assert.equal(sauraDay(udupi, '2026-04-20', 'same').day, sauraDay(udupi, '2026-04-20', 'next').day + 1);
+  // A night saṅkrānti starts the month at the next sunrise under both rules (Bisu 2025, ingress 03:30).
+  assert.equal(sauraMonthStart(udupi, 2025, 0, 'same'), '2025-04-14');
+  checks += 14;
 
   const us = festivalsBetween(udupi, '2024-01-01', '2026-12-31', 'madhva', 'saura');
   const on = (key: string) => us.filter((f) => f.key === key).map((f) => f.date);
