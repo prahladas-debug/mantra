@@ -29,27 +29,40 @@ function toDevanagari(m: Mantra): Mantra {
   };
 }
 
-/** Merge Hindi/Telugu/Tamil meaning packs into the verses (keys "si.vi"). */
-function applyPacks(list: Mantra[], packs: MeaningPack[]): Mantra[] {
-  if (!packs.length) return list;
-  return list.map((m) => {
-    const entries = packs.filter((p) => p.texts[m.id]);
-    if (!entries.length) return m;
-    const summaries = { ...m.summaries };
-    const sections = m.sections.map((s) => ({ ...s, verses: s.verses.map((v) => ({ ...v })) }));
-    for (const p of entries) {
-      const t = p.texts[m.id];
-      if (t.summary) summaries[p.lang] = t.summary;
-      for (const [k, text] of Object.entries(t.verses)) {
-        const [si, vi] = k.split('.').map(Number);
-        const v = sections[si]?.verses[vi];
-        if (!v) continue;
-        const base = typeof v.meaning === 'string' ? { en: v.meaning } : { ...v.meaning };
-        v.meaning = { ...base, [p.lang]: text };
-      }
+/** Packs that cover each text id. */
+const PACKS_BY_ID = new Map<string, MeaningPack[]>();
+for (const p of MEANING_PACKS) for (const id of Object.keys(p.texts)) PACKS_BY_ID.set(id, [...(PACKS_BY_ID.get(id) ?? []), p]);
+
+/** Summaries from the packs, merged for every text at start-up (they show in lists). */
+function applySummaries(m: Mantra): Mantra {
+  const entries = PACKS_BY_ID.get(m.id);
+  if (!entries) return m;
+  const summaries = { ...m.summaries };
+  for (const p of entries) {
+    const t = p.texts[m.id].summary;
+    if (t) summaries[p.lang] = t;
+  }
+  return { ...m, summaries };
+}
+
+/**
+ * Verse meanings from the packs (keys "si.vi"), merged only when a text is opened:
+ * there are ~40,000 of them, too many to copy into every verse at start-up.
+ */
+function applyVerseMeanings(m: Mantra): Mantra {
+  const entries = PACKS_BY_ID.get(m.id);
+  if (!entries) return m;
+  const sections = m.sections.map((s) => ({ ...s, verses: s.verses.map((v) => ({ ...v })) }));
+  for (const p of entries) {
+    for (const [k, text] of Object.entries(p.texts[m.id].verses)) {
+      const [si, vi] = k.split('.').map(Number);
+      const v = sections[si]?.verses[vi];
+      if (!v) continue;
+      const base = typeof v.meaning === 'string' ? { en: v.meaning } : { ...v.meaning };
+      v.meaning = { ...base, [p.lang]: text };
     }
-    return { ...m, summaries, sections };
-  });
+  }
+  return { ...m, sections };
 }
 
 /**
@@ -72,7 +85,7 @@ function plainEnglish(m: Mantra): Mantra {
   };
 }
 
-export const ALL_MANTRAS: Mantra[] = applyPacks(LIBRARY.map(toDevanagari), MEANING_PACKS).map(plainEnglish).sort(
+export const ALL_MANTRAS: Mantra[] = LIBRARY.map(toDevanagari).map(applySummaries).map(plainEnglish).sort(
   (a, b) =>
     (a.order ?? 1e6) - (b.order ?? 1e6) ||
     DIFFICULTY_ORDER[a.difficulty] - DIFFICULTY_ORDER[b.difficulty] ||
@@ -80,9 +93,17 @@ export const ALL_MANTRAS: Mantra[] = applyPacks(LIBRARY.map(toDevanagari), MEANI
 );
 
 const byId = new Map(ALL_MANTRAS.map((m) => [m.id, m]));
+const full = new Map<string, Mantra>();
 
+/** A text with all its verse meanings (merged on first use, then cached). */
 export function getMantra(id: string): Mantra | undefined {
-  return byId.get(id);
+  const hit = full.get(id);
+  if (hit) return hit;
+  const m = byId.get(id);
+  if (!m) return undefined;
+  const merged = applyVerseMeanings(m);
+  full.set(id, merged);
+  return merged;
 }
 
 export function mantrasInCategory(id: CategoryId): Mantra[] {
