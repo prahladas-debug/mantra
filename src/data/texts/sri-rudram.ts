@@ -22,8 +22,25 @@
  *   निषङ्गिण इषुधिमते (एषुधिमते), परि ब्भुज, शिवां गिरित्र.
  * - Taittirīya visarga sandhi (नमस्सहमानाय, नमश्शङ्गाय) kept as printed in
  *   South Indian editions.
- * Opening ॐ नमो भगवते रुद्राय as in recitation. The dhyāna, nyāsa and the
- * supplementary ṛks after anuvāka 11 are not yet included (see contentNote).
+ * Opening and recited additions (added Nov 2026), each in at least two witnesses:
+ * - Viniyoga, kara- and aṅga-nyāsa, dhyāna ślokas आपाताल… and ब्रह्माण्डव्याप्तदेहा…:
+ *   archive.org OCR of (a) ‘rudram_chamakam_pS_NS_DS_etc_sanskrit’ (typed edition),
+ *   (b) Śrī Rudra-praśna, ed. T. M. Nārāyaṇa Śāstrī, Kumbakonam 1933,
+ *   (c) ‘Laghu Nyas and Rudra Prashna’, Vedachalam Sastri collection,
+ *   (d) Śrī Rudrādhyāya, ed. S. R. Narasimha Murthy, Bangalore 2022 (Kannada script),
+ *   (e) shlokam.org Rudram PDF (dhyāna 1). Readings by majority: viniyoga ending
+ *   श्रीसाम्बसदाशिवप्रसादसिद्ध्यर्थे जपे विनियोगः (a, c; d differs); dhyāna 2
+ *   कण्ठेकालाः कपर्दाकलितशशिकलाः (b, d; a कपर्दाः कलित°), त्र्यक्षा रुद्राक्षमालाः
+ *   प्रकटितविभवाः (a, b; d रुद्राक्षभूषाः प्रणतभयहराः). आपाताल written with ल (b, d, e ळ).
+ *   Both ślokas scan (śārdūlavikrīḍita 4 × 19, sragdharā 4 × 21).
+ * - After anuvāka 11, the sequence follows shlokam.org and witness (a); each ṛk was
+ *   checked against its Vedic source: त्र्यम्बकं TS 1.8.6.2 (TITUS); यो रुद्रो अग्नौ
+ *   TS 5.5 (TITUS 5.5.24.1); तमु ष्टुहि RV 5.42.11 (DharmicData, GRETIL; the RV has
+ *   यक्ष्वा महे, which recitation books run together); अयं मे हस्तो RV 10.60.12;
+ *   ये ते सहस्रम्… TB 3.10.8.2; मृत्यवे स्वाहा TB 3.9.23.2; प्राणानां ग्रन्थिरसि… and
+ *   नमो रुद्राय विष्णवे मृत्युर्मे पाहि also in vishvAsa's Mahānyāsa text.
+ * - Chamakam closing इडा देवहूः…: TS 3.3.2.1 (TITUS), shlokam.org, witnesses (a), (d).
+ * Not included: the longer Laghunyāsa (अथात्मानं शिवात्मानं…).
  * GENERATED from the sources above; see PROOFREADING.md.
  */
 import type { Mantra } from '../types';
@@ -40,9 +57,60 @@ export const sriRudramNamakam: Mantra = {
   summary: "The Śatarudrīya, the great Yajurvedic litany to Rudra (Taittirīya Saṃhitā 4.5). Its eleven anuvākas first pacify Rudra's wrath and weapons, then salute him as present in every being, place and calling, and end with prayers for protection. Recited with the Chamakam as Śrī Rudram.",
   summaryKn: "ಯಜುರ್ವೇದದ ಶತರುದ್ರೀಯ (ತೈತ್ತಿರೀಯ ಸಂಹಿತೆ ೪.೫). ಇದರ ಹನ್ನೊಂದು ಅನುವಾಕಗಳು ಮೊದಲು ರುದ್ರನ ಕೋಪವನ್ನೂ ಆಯುಧಗಳನ್ನೂ ಶಾಂತಗೊಳಿಸಿ, ನಂತರ ಎಲ್ಲ ಜೀವಿಗಳಲ್ಲಿ, ಎಲ್ಲ ಸ್ಥಳಗಳಲ್ಲಿ, ಎಲ್ಲ ವೃತ್ತಿಗಳಲ್ಲಿ ಇರುವ ಅವನಿಗೆ ನಮಸ್ಕರಿಸುತ್ತವೆ; ಕೊನೆಯಲ್ಲಿ ರಕ್ಷಣೆಗಾಗಿ ಪ್ರಾರ್ಥಿಸುತ್ತವೆ. ಚಮಕದೊಂದಿಗೆ ಇದನ್ನು ಶ್ರೀರುದ್ರ ಎಂದು ಪಠಿಸುತ್ತಾರೆ.",
   difficulty: "advanced",
-  completeness: "partial",
-  contentNote: "Taittirīya Saṃhitā 4.5 is given in full, with the opening ॐ नमो भगवते रुद्राय. Not included yet: the dhyāna ślokas, the nyāsa, and the supplementary ṛks many reciters add after the eleventh anuvāka (त्र्यम्बकं यजामहे…, तमु ष्टुहि…, अयं मे हस्तो भगवान्…, ये ते सहस्रम्… and the rest); these could not yet be checked against two independent sources.",
+  completeness: "complete",
+  contentNote: "Includes the common opening (viniyoga, kara- and aṅga-nyāsa, two dhyāna ślokas), Taittirīya Saṃhitā 4.5 in full, and the ṛks recited after the eleventh anuvāka. The longer Laghunyāsa (अथात्मानं शिवात्मानं…, अग्निर्मे वाचि श्रितः…), which some recite before the Rudram, is not included.",
   sections: [
+    {
+      title: "न्यासः",
+      titleEn: "Viniyoga and Nyāsa",
+      note: "Touch the fingers, then the heart, head, crown, shoulders and eyes as each line is said; with the last line, snap the fingers around the head.",
+      noteKn: "ಪ್ರತಿಯೊಂದು ಸಾಲನ್ನು ಹೇಳುವಾಗ ಬೆರಳುಗಳನ್ನು, ನಂತರ ಹೃದಯ, ತಲೆ, ಶಿಖೆ, ಭುಜಗಳು ಮತ್ತು ಕಣ್ಣುಗಳನ್ನು ಸ್ಪರ್ಶಿಸಿ; ಕೊನೆಯ ಸಾಲಿನಲ್ಲಿ ತಲೆಯ ಸುತ್ತ ಚಿಟಿಕೆ ಹಾಕಿ ದಿಗ್ಬಂಧನ ಮಾಡಿ.",
+      verses: [
+        {
+          text: "अस्य श्रीरुद्राध्यायप्रश्नमहामन्त्रस्य । अघोर ऋषिः । अनुष्टुप् छन्दः ।\nसङ्कर्षणमूर्तिस्वरूपो योऽसावादित्यः परमपुरुषः स एष रुद्रो देवता ।\nनमः शिवायेति बीजम् । शिवतरायेति शक्तिः । महादेवायेति कीलकम् ।\nश्रीसाम्बसदाशिवप्रसादसिद्ध्यर्थे जपे विनियोगः ॥",
+          meaning: {
+            en: "For this great mantra, the chapter of Rudra: the seer is Aghora, the metre anuṣṭubh, and the deity is Rudra, the Supreme Person who is the sun, in the form of Saṅkarṣaṇa. ‘Namaḥ śivāya’ is the seed, ‘śivatarāya’ the power and ‘mahādevāya’ the pin. It is used in japa to win the grace of Śrī Sāmba Sadāśiva.",
+            kn: "ಈ ರುದ್ರಾಧ್ಯಾಯ ಪ್ರಶ್ನವೆಂಬ ಮಹಾಮಂತ್ರಕ್ಕೆ ಅಘೋರನು ಋಷಿ, ಅನುಷ್ಟುಪ್ ಛಂದಸ್ಸು; ಸಂಕರ್ಷಣಮೂರ್ತಿಸ್ವರೂಪನಾಗಿ ಸೂರ್ಯನಲ್ಲಿರುವ ಪರಮಪುರುಷನಾದ ರುದ್ರನು ದೇವತೆ. ‘ನಮಃ ಶಿವಾಯ’ ಬೀಜ, ‘ಶಿವತರಾಯ’ ಶಕ್ತಿ, ‘ಮಹಾದೇವಾಯ’ ಕೀಲಕ. ಶ್ರೀ ಸಾಂಬಸದಾಶಿವನ ಅನುಗ್ರಹಕ್ಕಾಗಿ ಜಪದಲ್ಲಿ ಇದರ ವಿನಿಯೋಗ.",
+          },
+        },
+        {
+          text: "ॐ अग्निहोत्रात्मने अङ्गुष्ठाभ्यां नमः ।\nदर्शपूर्णमासात्मने तर्जनीभ्यां नमः ।\nचातुर्मास्यात्मने मध्यमाभ्यां नमः ।\nनिरूढपशुबन्धात्मने अनामिकाभ्यां नमः ।\nज्योतिष्टोमात्मने कनिष्ठिकाभ्यां नमः ।\nसर्वक्रत्वात्मने करतलकरपृष्ठाभ्यां नमः ॥",
+          meaning: {
+            en: "Salutation to the thumbs, the self of the Agnihotra; to the forefingers, the self of the new- and full-moon rites; to the middle fingers, the self of the Cāturmāsya; to the ring fingers, the self of the animal sacrifice; to the little fingers, the self of the Jyotiṣṭoma; to the palms and backs of the hands, the self of all sacrifices.",
+            kn: "ಅಗ್ನಿಹೋತ್ರಸ್ವರೂಪನಾಗಿ ಹೆಬ್ಬೆರಳುಗಳಿಗೆ, ದರ್ಶಪೂರ್ಣಮಾಸಸ್ವರೂಪನಾಗಿ ತೋರುಬೆರಳುಗಳಿಗೆ, ಚಾತುರ್ಮಾಸ್ಯಸ್ವರೂಪನಾಗಿ ನಡುಬೆರಳುಗಳಿಗೆ, ನಿರೂಢಪಶುಬಂಧಸ್ವರೂಪನಾಗಿ ಉಂಗುರಬೆರಳುಗಳಿಗೆ, ಜ್ಯೋತಿಷ್ಟೋಮಸ್ವರೂಪನಾಗಿ ಕಿರುಬೆರಳುಗಳಿಗೆ, ಸರ್ವಯಜ್ಞಸ್ವರೂಪನಾಗಿ ಅಂಗೈ ಮತ್ತು ಮುಂಗೈಗಳಿಗೆ ನಮಸ್ಕಾರ.",
+          },
+        },
+        {
+          text: "अग्निहोत्रात्मने हृदयाय नमः ।\nदर्शपूर्णमासात्मने शिरसे स्वाहा ।\nचातुर्मास्यात्मने शिखायै वषट् ।\nनिरूढपशुबन्धात्मने कवचाय हुम् ।\nज्योतिष्टोमात्मने नेत्रत्रयाय वौषट् ।\nसर्वक्रत्वात्मने अस्त्राय फट् ।\nभूर्भुवस्सुवरोमिति दिग्बन्धः ॥",
+          meaning: {
+            en: "The same six sacrifices are placed on the heart, head, crown tuft, the armour (the shoulders), the three eyes and the weapon. With ‘bhūr bhuvaḥ suvaḥ om’ the quarters are sealed.",
+            kn: "ಅದೇ ಆರು ಯಜ್ಞಸ್ವರೂಪಗಳನ್ನು ಹೃದಯ, ತಲೆ, ಶಿಖೆ, ಕವಚ (ಭುಜಗಳು), ಮೂರು ಕಣ್ಣುಗಳು ಮತ್ತು ಅಸ್ತ್ರದಲ್ಲಿ ನ್ಯಾಸ ಮಾಡಲಾಗುತ್ತದೆ. ‘ಭೂರ್ಭುವಸ್ಸುವರೋಮ್’ ಎಂದು ದಿಕ್ಕುಗಳನ್ನು ಬಂಧಿಸಲಾಗುತ್ತದೆ.",
+          },
+        },
+      ],
+    },
+    {
+      title: "ध्यानम्",
+      titleEn: "Dhyāna",
+      verses: [
+        {
+          n: 1,
+          text: "आपातालनभःस्थलान्तभुवनब्रह्माण्डमाविस्फुरज्-\nज्योतिःस्फाटिकलिङ्गमौलिविलसत्पूर्णेन्दुवान्तामृतैः ।\nअस्तोकाप्लुतमेकमीशमनिशं रुद्रानुवाकाञ्जपन्\nध्यायेदीप्सितसिद्धये ध्रुवपदं विप्रोऽभिषिञ्चेच्छिवम् ॥",
+          meaning: {
+            en: "To gain what he seeks and the abiding state, let the worshipper meditate on the one Lord Śiva: the crystal liṅga whose light shines through all the worlds from the nether regions to the sky, bathed abundantly in the nectar flowing from the full moon on His head; and, ceaselessly chanting the Rudra anuvākas, let him bathe Śiva in abhiṣeka.",
+            kn: "ಬಯಸಿದ ಫಲಕ್ಕಾಗಿಯೂ ಶಾಶ್ವತ ಪದವಿಗಾಗಿಯೂ ಭಕ್ತನು ಏಕನಾದ ಈಶ್ವರನಾದ ಶಿವನನ್ನು ಧ್ಯಾನಿಸಲಿ: ಪಾತಾಳದಿಂದ ಆಕಾಶದವರೆಗಿನ ಎಲ್ಲ ಲೋಕಗಳಲ್ಲಿಯೂ ಬೆಳಗುವ ಸ್ಫಟಿಕಲಿಂಗರೂಪನಾದ, ಶಿರಸ್ಸಿನ ಪೂರ್ಣಚಂದ್ರನಿಂದ ಸುರಿಯುವ ಅಮೃತದಲ್ಲಿ ಸಂಪೂರ್ಣವಾಗಿ ತೋಯ್ದಿರುವ ಶಿವನನ್ನು. ರುದ್ರಾನುವಾಕಗಳನ್ನು ನಿರಂತರವಾಗಿ ಜಪಿಸುತ್ತಾ ಶಿವನಿಗೆ ಅಭಿಷೇಕ ಮಾಡಲಿ.",
+          },
+        },
+        {
+          n: 2,
+          text: "ब्रह्माण्डव्याप्तदेहा भसितहिमरुचा भासमाना भुजङ्गैः\nकण्ठेकालाः कपर्दाकलितशशिकलाश्चण्डकोदण्डहस्ताः ।\nत्र्यक्षा रुद्राक्षमालाः प्रकटितविभवाः शाम्भवा मूर्तिभेदाः\nरुद्राः श्रीरुद्रसूक्तप्रकटितविभवा नः प्रयच्छन्तु सौख्यम् ॥",
+          meaning: {
+            en: "May the Rudras, the forms of Śambhu, grant us happiness: their bodies pervade the universe; they shine with ash white as the moon and with serpents; they are dark-throated, with matted locks bearing the crescent moon, holding fierce bows, three-eyed, wearing rudrākṣa garlands, their glory revealed in the Śrī Rudra hymn.",
+            kn: "ಬ್ರಹ್ಮಾಂಡವನ್ನೆಲ್ಲ ವ್ಯಾಪಿಸಿರುವ ದೇಹವುಳ್ಳ, ಚಂದ್ರನಂತೆ ಬಿಳಿಯ ಭಸ್ಮದಿಂದಲೂ ಸರ್ಪಗಳಿಂದಲೂ ಹೊಳೆಯುವ, ಕಪ್ಪು ಕಂಠದ, ಚಂದ್ರಕಲೆಯನ್ನು ಧರಿಸಿದ ಜಟೆಯುಳ್ಳ, ಉಗ್ರ ಧನುಸ್ಸನ್ನು ಹಿಡಿದ, ಮುಕ್ಕಣ್ಣರಾದ, ರುದ್ರಾಕ್ಷಮಾಲೆ ಧರಿಸಿದ, ಶ್ರೀರುದ್ರಸೂಕ್ತದಲ್ಲಿ ಮಹಿಮೆ ಪ್ರಕಟವಾದ ಶಂಭುವಿನ ರೂಪಗಳಾದ ರುದ್ರರು ನಮಗೆ ಸುಖವನ್ನು ಕೊಡಲಿ.",
+          },
+        },
+      ],
+    },
     {
       title: "उपक्रमः",
       titleEn: "Opening",
@@ -484,6 +552,69 @@ export const sriRudramNamakam: Mantra = {
       ],
     },
     {
+      title: "उत्तरमन्त्राः",
+      titleEn: "Ṛks recited after Anuvāka 11",
+      verses: [
+        {
+          n: 1,
+          text: "त्र्यम्बकं यजामहे सुगन्धिं पुष्टिवर्धनम् ।\nउर्वारुकमिव बन्धनान्मृत्योर्मुक्षीय मामृतात् ॥",
+          meaning: {
+            en: "We worship the three-eyed Lord, the fragrant one who increases nourishment. As a ripe cucumber is freed from its stalk, may I be freed from death, but not from immortality.",
+            kn: "ಸುಗಂಧಮಯನೂ ಪುಷ್ಟಿಯನ್ನು ಹೆಚ್ಚಿಸುವವನೂ ಆದ ತ್ರ್ಯಂಬಕನನ್ನು ಪೂಜಿಸುತ್ತೇವೆ. ಹಣ್ಣಾದ ಸೌತೆಕಾಯಿ ತೊಟ್ಟಿನಿಂದ ಬಿಡುಗಡೆಯಾಗುವಂತೆ ನಾನು ಮೃತ್ಯುವಿನಿಂದ ಬಿಡುಗಡೆಯಾಗಲಿ, ಅಮೃತತ್ವದಿಂದಲ್ಲ.",
+          },
+        },
+        {
+          n: 2,
+          text: "यो रुद्रो अग्नौ यो अप्सु य ओषधीषु ।\nयो रुद्रो विश्वा भुवनाविवेश तस्मै रुद्राय नमो अस्तु ॥",
+          meaning: {
+            en: "Salutations to that Rudra who is in fire, in the waters and in the plants, the Rudra who has entered all the worlds.",
+            kn: "ಅಗ್ನಿಯಲ್ಲಿ, ಜಲದಲ್ಲಿ, ಓಷಧಿಗಳಲ್ಲಿ ಇರುವ, ಎಲ್ಲ ಲೋಕಗಳನ್ನೂ ಪ್ರವೇಶಿಸಿರುವ ಆ ರುದ್ರನಿಗೆ ನಮಸ್ಕಾರ.",
+          },
+        },
+        {
+          n: 3,
+          text: "तमु ष्टुहि यः स्विषुः सुधन्वा यो विश्वस्य क्षयति भेषजस्य ।\nयक्ष्वा महे सौमनसाय रुद्रं नमोभिर्देवमसुरं दुवस्य ॥",
+          meaning: {
+            en: "Praise him who has good arrows and a good bow, who rules over every remedy. Worship Rudra for his great kindness; honour the divine, mighty Lord with salutations.",
+            kn: "ಉತ್ತಮ ಬಾಣಗಳೂ ಉತ್ತಮ ಧನುಸ್ಸೂ ಉಳ್ಳ, ಎಲ್ಲ ಔಷಧಗಳ ಮೇಲೆ ಅಧಿಕಾರವುಳ್ಳ ಅವನನ್ನು ಸ್ತುತಿಸು. ಅವನ ಮಹಾ ಕೃಪೆಗಾಗಿ ರುದ್ರನನ್ನು ಪೂಜಿಸು; ಬಲಶಾಲಿಯಾದ ಆ ದೇವನನ್ನು ನಮಸ್ಕಾರಗಳಿಂದ ಆರಾಧಿಸು.",
+          },
+        },
+        {
+          n: 4,
+          text: "अयं मे हस्तो भगवानयं मे भगवत्तरः ।\nअयं मे विश्वभेषजोऽयं शिवाभिमर्शनः ॥",
+          meaning: {
+            en: "This hand of mine is blessed, and this one more blessed still; this hand of mine heals all, and its touch is auspicious.",
+            kn: "ನನ್ನ ಈ ಕೈ ಭಾಗ್ಯಶಾಲಿ, ಈ ಕೈ ಇನ್ನೂ ಹೆಚ್ಚು ಭಾಗ್ಯಶಾಲಿ; ನನ್ನ ಈ ಕೈ ಎಲ್ಲ ರೋಗಗಳಿಗೂ ಔಷಧ, ಇದರ ಸ್ಪರ್ಶವು ಮಂಗಳಕರ.",
+          },
+        },
+        {
+          n: 5,
+          text: "ये ते सहस्रमयुतं पाशा मृत्यो मर्त्याय हन्तवे ।\nतान् यज्ञस्य मायया सर्वानवयजामहे ।\nमृत्यवे स्वाहा मृत्यवे स्वाहा ॥",
+          meaning: {
+            en: "The thousand, the ten thousand snares you lay, O Death, to slay mortals: all of them we remove by the power of the sacrifice. To Death, svāhā! To Death, svāhā!",
+            kn: "ಮೃತ್ಯುವೇ, ಮನುಷ್ಯರನ್ನು ಕೊಲ್ಲಲು ನೀನು ಹಾಕಿರುವ ಸಾವಿರಾರು, ಹತ್ತು ಸಾವಿರ ಪಾಶಗಳನ್ನು ಯಜ್ಞದ ಶಕ್ತಿಯಿಂದ ನಾವು ತೆಗೆದುಹಾಕುತ್ತೇವೆ. ಮೃತ್ಯುವಿಗೆ ಸ್ವಾಹಾ, ಮೃತ್ಯುವಿಗೆ ಸ್ವಾಹಾ.",
+          },
+        },
+        {
+          text: "ॐ नमो भगवते रुद्राय विष्णवे मृत्युर्मे पाहि ॥",
+          meaning: {
+            en: "Om, salutations to the Lord Rudra, to Viṣṇu: protect me from death.",
+            kn: "ಓಂ, ಭಗವಂತನಾದ ರುದ್ರನಿಗೆ, ವಿಷ್ಣುವಿಗೆ ನಮಸ್ಕಾರ; ಮೃತ್ಯುವಿನಿಂದ ನನ್ನನ್ನು ಕಾಪಾಡು.",
+          },
+        },
+        {
+          text: "प्राणानां ग्रन्थिरसि रुद्रो मा विशान्तकः ।\nतेनान्नेनाप्यायस्व ॥",
+        },
+        {
+          text: "नमो रुद्राय विष्णवे मृत्युर्मे पाहि ।\nसदाशिवोम् ॥",
+          meaning: {
+            en: "Salutations to Rudra, to Viṣṇu: protect me from death. Sadāśiva, Om.",
+            kn: "ರುದ್ರನಿಗೆ, ವಿಷ್ಣುವಿಗೆ ನಮಸ್ಕಾರ; ಮೃತ್ಯುವಿನಿಂದ ನನ್ನನ್ನು ಕಾಪಾಡು. ಸದಾಶಿವ, ಓಂ.",
+          },
+        },
+      ],
+    },
+    {
       title: "शान्तिः",
       titleEn: "Closing",
       verses: [
@@ -508,7 +639,6 @@ export const sriRudramChamakam: Mantra = {
   summaryKn: "ನಮಕದ ಜೊತೆಯ ಭಾಗ (ತೈತ್ತಿರೀಯ ಸಂಹಿತೆ ೪.೭.೧–೧೧), ವಸೋರ್ಧಾರಾ ಮಂತ್ರಗಳು. ಅಗ್ನಿ ಮತ್ತು ವಿಷ್ಣುವನ್ನು ಆವಾಹಿಸಿದ ನಂತರ ಭಕ್ತನು ದೇಹ, ಮನಸ್ಸು, ಮನೆ, ಯಜ್ಞ ಮತ್ತು ಜಗತ್ತಿನ ಎಲ್ಲ ಒಳಿತುಗಳನ್ನು ‘ಚ ಮೇ’ (ಇದೂ ನನಗೆ) ಎಂದು ಒಂದೊಂದಾಗಿ ಕೇಳುತ್ತಾನೆ.",
   difficulty: "advanced",
   completeness: "complete",
-  contentNote: "Taittirīya Saṃhitā 4.7.1–11 in full. The closing prayers that some reciters add after the eleventh anuvāka (इडा देवहूः… and others) are not included.",
   sections: [
     {
       title: "प्रथमोऽनुवाकः",
@@ -664,6 +794,13 @@ export const sriRudramChamakam: Mantra = {
       title: "शान्तिः",
       titleEn: "Closing",
       verses: [
+        {
+          text: "ॐ इडा देवहूर्मनुर्यज्ञनीर्बृहस्पतिरुक्थामदानि शंसिषद्विश्वे देवास्सूक्तवाचः पृथिवि मातर्मा मा हिंसीर्मधु मनिष्ये मधु जनिष्ये ।\nमधु वक्ष्यामि मधु वदिष्यामि मधुमतीं देवेभ्यो वाचमुद्यासं शुश्रूषेण्यां मनुष्येभ्यः ।\nतं मा देवा अवन्तु शोभायै पितरोऽनुमदन्तु ॥",
+          meaning: {
+            en: "May Iḍā, who calls the gods, Manu, who leads the sacrifice, and Bṛhaspati recite the hymns; may all the gods speak the well-spoken words. O Mother Earth, do not harm me. I will think sweetly, act sweetly, speak sweetly; may I utter sweet speech to the gods, worth hearing for men. May the gods protect me for splendour, and the ancestors rejoice.",
+            kn: "ದೇವತೆಗಳನ್ನು ಕರೆಯುವ ಇಡಾ, ಯಜ್ಞವನ್ನು ನಡೆಸುವ ಮನು ಮತ್ತು ಬೃಹಸ್ಪತಿ ಸ್ತೋತ್ರಗಳನ್ನು ಉಚ್ಚರಿಸಲಿ; ಎಲ್ಲ ದೇವತೆಗಳೂ ಸೂಕ್ತವಚನಗಳನ್ನು ನುಡಿಯಲಿ. ಭೂಮಾತೆಯೇ, ನನ್ನನ್ನು ನೋಯಿಸಬೇಡ. ನಾನು ಮಧುರವಾಗಿ ಯೋಚಿಸುವೆನು, ಮಧುರವಾಗಿ ಕಾರ್ಯಮಾಡುವೆನು, ಮಧುರವಾಗಿ ಮಾತನಾಡುವೆನು; ದೇವತೆಗಳಿಗೆ ಮಧುರವಾದ, ಮನುಷ್ಯರಿಗೆ ಕೇಳಲು ಯೋಗ್ಯವಾದ ವಾಣಿಯನ್ನು ನುಡಿಯುವೆನು. ದೇವತೆಗಳು ಶೋಭೆಗಾಗಿ ನನ್ನನ್ನು ರಕ್ಷಿಸಲಿ; ಪಿತೃಗಳು ಸಂತೋಷಪಡಲಿ.",
+          },
+        },
         {
           text: "ॐ शान्तिः शान्तिः शान्तिः ॥",
         },
