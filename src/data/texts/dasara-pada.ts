@@ -14,6 +14,7 @@
  *  CSOT "Śrī Purandara Dāsara Padagaḷu", ed. H. T. Mahantesh Shastri,
  *       archive.org (CC0 scan; OCR)
  *  PDP  "Purandara Dāsara Padagaḷu", archive.org (OCR)
+ *  SDS  Samagra Dāsa Sāhitya (Govt. of Karnataka), archive.org scans (OCR)
  *  AR   Ānanda Rāo, Śrīraṅgam, lyric files on archive.org
  *       (dasa_sahitya_shri_ananda_rao_srirangam; romanised, converted)
  * The ankita is spelled ಪುರಂದರವಿಠಲ throughout (copies vary: ವಿಠ್ಠಲ, ವಿಟ್ಠಲ).
@@ -35,11 +36,18 @@
  *  toogire-rangana [DV, BJ]: c2 ಚಂದದಿ ಬಂದು (DV; BJ omits ಚಂದದಿ); c4 ಸಾಸಿರನಾಮದ (BJ; DV ಸಾಸಿರನಾಮನೆ); c5 ಪುರಂದರವಿಠಲನೆ (BJ; DV ಪುರಂದವಿಠಲನೆ).
  *  idu-bhagya [DV (BJ is a copy of DV), AR]: c1 ಮನವ ಮೆಚ್ಚಿಸಬೇಕು (AR; DV ಮನದಿ); otherwise DV, with spelling differences in AR ignored.
  *  ramanama-payasakke [WS, DV]: the two copies differ in several words; WS was followed except the pallavi ಬೆರೆಸಿ (DV; WS ಸೇರಿಸಿ). DV readings: c1 ಒಮ್ಮನ, ಸುಮ್ಮನ, ಸಣ್ಣ ಸೇವೆಗೆ ಹೊಸೆದು; c2 ಪಾತ್ರೆಯೊಳಗೆ, ಎಸರು ಇಟ್ಟು, ಪಕ್ವವ ಮಾಡಿ, ಹರಿವಾಣದೊಳಗೆ ನೀಡಿ; c3 ಬಂದ ಪರಿಯಲಿ.
+ *  hari-narayana [BJ, CSOT, PDP]: pallavi ಎನು ಮನವೆ (CSOT PDP; BJ ಏನು ಮನವೇ); c1 ಕುರುಪಿತಾಮಹನಿಂದ (CSOT PDP; BJ ಗುರು ಪಿತಾಮಹನಿಂದ); c2 ವಿಜಯನ ಸತಿಯಿಂದ (CSOT PDP; BJ ವಿಜಯನ ಸ್ತುತಿಯಿಂದ), ದೋರೆಹಣ್ಣಾಯ್ತು (CSOT PDP; BJ ದೊರೆ), ದ್ವಿಜ ಶುಕಮುನಿಯಿಂದ ಪಕ್ವವಾಯಿತು (PDP; BJ ದೃಢ … ಪರಿಪಕ್ವವಾಯಿತು, CSOT … ಫಲಪಕ್ವವಾಯಿತು); c3 ನೆನೆ ಮನವೆ (PDP; BJ ನೀ ನೆನೆ ಮನವೇ, CSOT ನೆನೆಸುವೆ).
+ *  pillangoviya-cheluva [DV, PDP; BJ for caraṇas 1 and 3]: pallavi ಚೆಲ್ವ (DV PDP; BJ ಚೆಲುವ); anupallavi ಜಾಣರು (DV PDP; BJ ಜಾಣರೆ); c1 ಚಂದ ಚಂದದ (PDP; DV ಚೆಂದ ಚೆಂದದ, BJ ಅಂದ ಚಂದದ); c2 ವರ್ತಿಪ (DV; PDP ನರ್ತಿಸ); c3 ಜನಂಗಳಾಚೆ ಈಚೆಯಲಿ (DV PDP; BJ ಅಜಾಂಡದ ಆಚೆ ಈಚೆಯಲಿ), ರಥದ (DV BJ; PDP ರಥವ), ಮಾಧವ ಎಂಬ ಭಕ್ತರ (DV; PDP ಮಾಧವನ ಎಂಬ ಭಕ್ತರ, BJ ಮಾಧವ ಕೇಶವ ಎಂಬ), ವೀಚುಕೊಂಡದ … ಲೋಚನಾಗ್ರದಲಿ (PDP BJ; DV ವೀಚುಕೊಡದ … ಲೋಚನಾಗ್ರಹದಲಿ).
+ *  bandaddella-barali [DV, PDP]: pallavi ದಯ ನಮಗಿರಲಿ (DV; PDP ದಯವೊಂದಿರಲಿ); c2 ಶರಣಾಗಲಿಲ್ಲವೆ (DV; PDP ಶರಣಾಗತನಲ್ಲವೆ); otherwise the two agree apart from OCR errors in PDP.
  *  bagilanu-teredu [BJ, AR]: c1 ಕ್ಷೀರವಾರಿಧಿ (AR; BJ ವಾರುಧಿ); c2 ಕೋಪದಲಿ … ಖಡುಗವನು ಹಿಡಿದು (BJ; AR ಕೋಪದಿನ್ … ಪಿಡಿದು); c3 ರಾಣಿಗಕ್ಷಯವಸನವನಿತ್ತೆ (AR; BJ ರಾಣಿಗೆ ಅಕ್ಷಯವಸನವಿತ್ತೆ).
  *  tallanisadiru-kandya [SMS, BJ]: with only two witnesses, SMS was followed where they differ (c1 ಹುಟ್ಟಿಸಿದ ಸ್ವಾಮಿ … ಗಟ್ಯಾಗಿ ಸಲಹುವನು, BJ ಪುಟ್ಟಿಸಿದ ದೇವ … ಗಟ್ಯಾಗೆ ರಕ್ಷಿಪನು; c3 ಕಲ್ಲಿನಲ್ಲಿ ಹುಟ್ಟಿ … ಕಪ್ಪೆಗಳಿಗೆಲ್ಲ), except c2 line 1 ಅಡವಿಯೊಳಗಾಡುವ (BJ; SMS ಅಡವಿಯೊಳಗೆ) and the pallavi ಸಂಶಯವಿಲ್ಲ (BJ; SMS ಸಂಶಯ ಬೇಡ).
+ *  kula-kula-kulavendu [SDS (Samagra Dāsa Sāhitya, vol. 5 part 1, OCR), BJ]: SDS followed where they differ: c1 ಹುಟ್ಟದ … ಮೆಟ್ಟದ (BJ ಹುಟ್ಟಿದ … ಮೆಟ್ಟಿದ), ಕಾಣಿಸಬಂತು (BJ ಕಾಣಿಸೆ ಬಂತು); c2 ಕುಲಕ್ಕೆ (BJ ಕುಲಕೆ).
+ *  ni-mayeyolago [SDS (vol. 5 part 1, OCR), BJ]: c1 line 1 as in SDS (ಬಯಲೊಳಗೆ ಆಲಯವೊ ಆಲಯದೊಳಗೆ ಬಯಲೊ; BJ ಬಯಲು ಆಲಯದೊಳಗೊ ಆಲಯವು ಬಯಲೊಳಗೊ).
+ *  keshava-nama [WS (from kn.wikipedia) and BJ, which are copies of one text, compared with SMS, an independent copy]: WS and BJ followed: their order of the names matches the traditional order of the 24 names (Keśava … Padmanābha, Dāmodara, Saṅkarṣaṇa …), while SMS swaps the first halves of the Madhusūdana and Śrīdhara couplets and puts Dāmodara before Padmanābha; SMS also differs in wording in several couplets (c3 ನೊಂದೆನಯ್ಯ, c4 ಶಿಷ್ಟರೊಡನೆ, c10 ಬಿದ್ದು ಭವದನೇಕ ಜನುಮ…, c24 ಪಠಿಸುವರಿಗೆ ಅರ್ಥಿಯಿಂದ ಸಲಹುತಿರುವ). Last line ನೆಲೆಯಾದಿಕೇಶವ (BJ SMS; WS ಬಾಡದಾದಿಕೇಶವ).
  *  bhushanake-bhushana [BJ, AR (attributed to Śrīpādarāja; ankita ರಂಗವಿಠಲ)]: pallavi ಶೇಷಗಿರಿವಾಸ (AR; BJ ಶೇಷಾದ್ರಿವಾಸ); c2 ಮಾನವರಿಗೆ, ಮುನಿಯೋಗಿವರರಿಗೆ (AR; BJ ಮನುಜರಿಗೆ, ಮುನಿಯೋಗಿವರ್ಯರಿಗೆ); c3 ಮಂಗಳಾಂಗಗೆ, ರಂಗವಿಠಲನ ನಾಮ (BJ; AR ಮಂಗಳಾಂಗನ, ರಂಗವಿಠಲ ನಿಮ್ಮ ನಾಮ).
  *  krishna-ni-begane-baro [BJ, AR]: the two copies order the caraṇas differently (BJ order kept); c1 ಬಾವುಲಿ (AR; BJ ಭಾವುಲಿ); c2 ವೈಜಯಂತಿಮಾಲೆ (AR; BJ ಮಾಲ); c3 ಮೈಯೊಳು ಗಮ್ಮ (BJ; AR ಮೈಯೊಳಗಮ್ಮ).
  *  indu-enage-govinda [WS, BJ]: anupallavi as in WS (BJ adds ಮಂದರೋದ್ಧಾರ ಆನಂದ, found in one copy only); c1 ನೊಂದೆನಯ್ಯ (BJ; WS ನೊಂದೆನಯ್ಯ ನಾ); c2 ಮೂಢತನದಿ ಬಹು ಹೇಡಿಜೀವ ನಾನಾಗಿ, c3 ಭೂಭಾರಜೀವ ನಾನಾಗಿ (BJ; WS ಬಲುಹೇಡಿಜೀವನನಾಗಿ, ಬಹುಭಾರ ಜೀವನನಾಗಿ).
+ *  ninna-olumeyinda [SDS (Samagra Dāsa Sāhitya, vol. 10 part 1, OCR), BJ, SMS]: caraṇa order as in SDS and BJ (SMS orders them differently); pallavi ಮಹರಾಯ (SMS BJ; SDS ಮಹಾರಾಯ); c1 ಹೆಂಗಸಿನ (SMS BJ; SDS ಹೆಂಗಸಿಗೆ), ಹಾಕುವುದಕಿನ್ನು (SDS BJ; SMS ಹಾಕುವುದಕ್ಕೆ), ಸರ್ವರ (SMS BJ); c3 ನರನಿಗೆ … ಊರ್ಣ … ಸುವಸನ (SDS BJ; SMS ಮನುಜಗೆ … ಪೂರ್ಣ … ಸುವಾಸನ); c5 ಈಯಗಾಣೆ (BJ; SDS ಈಯೆಗಾಣೆ, SMS ಈಯಗಾವ), ಸತ್ಪಾತ್ರರ ಕೂಡುಂಬೊ (SMS); c7 ಐದಿಸುವುದು ಬಹು (BJ; SDS ಐದಿಸುವುದೆ, SMS ಐದಿಸುವದು ಬಲು).
  */
 import type { Mantra } from '../types';
 
@@ -1014,12 +1022,231 @@ export const dpRamanamaPayasakke: Mantra = {
   ],
 };
 
+export const dpHariNarayana: Mantra = {
+  id: 'dasara-pada-hari-narayana',
+  title: 'ಹರಿನಾರಾಯಣ ಹರಿನಾರಾಯಣ ಹರಿನಾರಾಯಣ ಎನು ಮನವೆ',
+  titleEn: 'Purandara Dasa · Hari Narayana Hari Narayana',
+  category: 'dasara-pada',
+  order: 15,
+  sourceScript: 'kannada',
+  deity: 'Śrī Nārāyaṇa',
+  source: 'Purandara Dāsa',
+  summary: '“Say Hari Nārāyaṇa, O mind.” The seed of the Name, sown on earth by Nārada, sprouted with Dhruva, grew with Prahlāda, flowered with Bhīṣma, fruited with Draupadī and Gajendra, ripened with Śuka, and Ajāmiḷa tasted its juice.',
+  summaryKn: '“ಮನವೇ, ಹರಿನಾರಾಯಣ ಎನ್ನು.” ನಾರದರು ಭೂಮಿಯಲ್ಲಿ ಬಿತ್ತಿದ ನಾರಾಯಣನಾಮದ ಬೀಜ ಧ್ರುವನಿಂದ ಮೊಳೆತು, ಪ್ರಹ್ಲಾದನಿಂದ ಬೆಳೆದು, ಭೀಷ್ಮರಿಂದ ಹೂವಾಗಿ, ದ್ರೌಪದಿ-ಗಜೇಂದ್ರರಿಂದ ಕಾಯಿ-ಹಣ್ಣಾಗಿ, ಶುಕಮುನಿಯಿಂದ ಮಾಗಿ, ಅಜಾಮಿಳ ಅದರ ರಸ ಸವಿದನು.',
+  difficulty: 'easy',
+  completeness: 'complete',
+  sections: [
+      {
+        title: 'ಪಲ್ಲವಿ',
+        titleEn: 'Pallavi',
+        verses: [
+          {
+            text: 'ಹರಿನಾರಾಯಣ ಹರಿನಾರಾಯಣ ಹರಿನಾರಾಯಣ ಎನು ಮನವೆ ॥',
+            meaning: {
+              en: 'Say “Hari Nārāyaṇa, Hari Nārāyaṇa, Hari Nārāyaṇa,” O mind.',
+              kn: 'ಮನವೇ, “ಹರಿನಾರಾಯಣ, ಹರಿನಾರಾಯಣ, ಹರಿನಾರಾಯಣ” ಎನ್ನು.',
+            },
+          },
+        ],
+      },
+      {
+        title: 'ಅನುಪಲ್ಲವಿ',
+        titleEn: 'Anupallavi',
+        verses: [
+          {
+            text: 'ನಾರಾಯಣನೆಂಬ ನಾಮದ ಬೀಜವ ।\nನಾರದ ಬಿತ್ತಿದ ಧರೆಯೊಳಗೆ ॥',
+            meaning: {
+              en: 'Nārada sowed on this earth the seed of the name “Nārāyaṇa”.',
+              kn: '“ನಾರಾಯಣ” ಎಂಬ ನಾಮದ ಬೀಜವನ್ನು ನಾರದರು ಭೂಮಿಯಲ್ಲಿ ಬಿತ್ತಿದರು.',
+            },
+          },
+        ],
+      },
+      {
+        title: 'ಚರಣಗಳು',
+        titleEn: 'Caraṇas',
+        verses: [
+          {
+            n: 1,
+            text: 'ತರಳ ಧ್ರುವನಿಂದ ಅಂಕುರಿಸಿತು ಅದು\nವರ ಪ್ರಹ್ಲಾದನಿಂದ ಮೊಳಕೆಯಾಯಿತು ।\nಧರಣೀಶ ರುಕ್ಮಾಂಗದನಿಂದ ಚಿಗುರಿತು\nಕುರುಪಿತಾಮಹನಿಂದ ಹೂವಾಯ್ತು ॥',
+            meaning: {
+              en: 'It sprouted through the boy Dhruva and became a seedling through the noble Prahlāda; it put out shoots through King Rukmāṅgada, and flowered through Bhīṣma, grandsire of the Kurus.',
+              kn: 'ಬಾಲಕ ಧ್ರುವನಿಂದ ಅದು ಮೊಳೆಯಿತು, ಶ್ರೇಷ್ಠ ಪ್ರಹ್ಲಾದನಿಂದ ಸಸಿಯಾಯಿತು, ರಾಜ ರುಕ್ಮಾಂಗದನಿಂದ ಚಿಗುರಿತು, ಕುರುವಂಶದ ಪಿತಾಮಹ ಭೀಷ್ಮರಿಂದ ಹೂವಾಯಿತು.',
+            },
+          },
+          {
+            n: 2,
+            text: 'ವಿಜಯನ ಸತಿಯಿಂದ ಫಲವಾಯಿತು ಅದು\nಗಜರಾಜನಿಂದ ದೋರೆಹಣ್ಣಾಯ್ತು ।\nದ್ವಿಜ ಶುಕಮುನಿಯಿಂದ ಪಕ್ವವಾಯಿತು\nಅಜಮಿಳ ತಾನುಂಡು ರಸ ಸವಿದ ॥',
+            meaning: {
+              en: 'It set fruit through Draupadī, wife of Arjuna; it half-ripened through Gajendra, king of elephants; it ripened through the sage Śuka; and Ajāmiḷa ate it and tasted its sweetness.',
+              kn: 'ಅರ್ಜುನನ ಪತ್ನಿ ದ್ರೌಪದಿಯಿಂದ ಅದು ಕಾಯಾಯಿತು, ಗಜೇಂದ್ರನಿಂದ ದೋರೆಹಣ್ಣಾಯಿತು, ಬ್ರಾಹ್ಮಣ ಶುಕಮುನಿಯಿಂದ ಪೂರ್ಣವಾಗಿ ಮಾಗಿತು, ಅಜಾಮಿಳನು ಅದನ್ನು ಉಂಡು ರಸವನ್ನು ಸವಿದನು.',
+            },
+          },
+          {
+            n: 3,
+            text: 'ಕಾಮಿತಫಲವೀವ ನಾಮವೊಂದಿರಲಿಕ್ಕೆ\nಹೋಮ ನೇಮ ಜಪ ತಪವೇಕೆ ।\nಸ್ವಾಮಿ ಶ್ರೀಪುರಂದರವಿಠಲನ ನಾಮವ\nನೇಮದಿಂದ ನೆನೆ ಮನವೆ ॥',
+            meaning: {
+              en: 'When there is this one Name that grants every wish, why fire-offerings, vows, japa and penance? O mind, remember faithfully the name of the Lord, Śrī Purandara Viṭhala.',
+              kn: 'ಬಯಸಿದ ಫಲವನ್ನು ಕೊಡುವ ಈ ಒಂದು ನಾಮವಿರುವಾಗ ಹೋಮ, ನೇಮ, ಜಪ, ತಪಗಳೇಕೆ? ಮನವೇ, ಸ್ವಾಮಿ ಶ್ರೀಪುರಂದರವಿಠಲನ ನಾಮವನ್ನು ನಿಯಮದಿಂದ ನೆನೆ.',
+            },
+          },
+        ],
+      },
+  ],
+};
+
+export const dpPillangoviyaCheluva: Mantra = {
+  id: 'dasara-pada-pillangoviya-cheluva',
+  title: 'ಪಿಳ್ಳಂಗೋವಿಯ ಚೆಲ್ವ ಕೃಷ್ಣನ',
+  titleEn: 'Purandara Dasa · Pillangoviya Chelva Krishnana',
+  category: 'dasara-pada',
+  order: 16,
+  sourceScript: 'kannada',
+  deity: 'Śrī Kṛṣṇa',
+  source: 'Purandara Dāsa',
+  summary: '“Where did you see the lovely Kṛṣṇa with the flute? The wise know there is no place where he is not”: in the nooks of Nanda’s house, among the cowherd boys and calves, in yoga and sacrifice, in the devotees’ songs and on Arjuna’s chariot.',
+  summaryKn: '“ಕೊಳಲಿನ ಚೆಲುವ ಕೃಷ್ಣನನ್ನು ಎಲ್ಲಿ ನೋಡಿದಿರಿ? ಅವನಿಲ್ಲದ ಸ್ಥಳವೇ ಇಲ್ಲ ಎಂದು ಜಾಣರು ಬಲ್ಲರು”: ನಂದನ ಮನೆಯ ಸಂದುಗೊಂದುಗಳಲ್ಲಿ, ಗೋಪಬಾಲರು-ಕರುಗಳ ನಡುವೆ, ಯೋಗ-ಯಾಗಗಳಲ್ಲಿ, ಭಾಗವತರ ಹಾಡುಗಳಲ್ಲಿ, ಅರ್ಜುನನ ರಥದಲ್ಲಿ.',
+  difficulty: 'easy',
+  completeness: 'complete',
+  sections: [
+      {
+        title: 'ಪಲ್ಲವಿ',
+        titleEn: 'Pallavi',
+        verses: [
+          {
+            text: 'ಪಿಳ್ಳಂಗೋವಿಯ ಚೆಲ್ವ ಕೃಷ್ಣನ ।\nಎಲ್ಲಿ ನೋಡಿದಿರಿ ರಂಗನ ಎಲ್ಲಿ ನೋಡಿದಿರಿ ॥',
+            meaning: {
+              en: 'Where did you see the lovely Kṛṣṇa with the flute? Where did you see Raṅga?',
+              kn: 'ಕೊಳಲನ್ನು ಹಿಡಿದ ಚೆಲುವ ಕೃಷ್ಣನನ್ನು ಎಲ್ಲಿ ನೋಡಿದಿರಿ? ರಂಗನನ್ನು ಎಲ್ಲಿ ನೋಡಿದಿರಿ?',
+            },
+          },
+        ],
+      },
+      {
+        title: 'ಅನುಪಲ್ಲವಿ',
+        titleEn: 'Anupallavi',
+        verses: [
+          {
+            text: 'ಎಲ್ಲಿ ನೋಡಿದರಲ್ಲಿ ತಾನಿಲ್ಲದಿಲ್ಲವೆಂದು ।\nಬಲ್ಲ ಜಾಣರು ॥',
+            meaning: {
+              en: 'The wise know that wherever you look, there is nowhere he is not.',
+              kn: 'ಎಲ್ಲಿ ನೋಡಿದರೂ ಅವನಿಲ್ಲದ ಜಾಗವಿಲ್ಲ ಎಂದು ತಿಳಿದ ಜಾಣರು ಬಲ್ಲರು.',
+            },
+          },
+        ],
+      },
+      {
+        title: 'ಚರಣಗಳು',
+        titleEn: 'Caraṇas',
+        verses: [
+          {
+            n: 1,
+            text: 'ನಂದಗೋಪನ ಮಂದಿರಂಗಳ ಸಂದುಗೊಂದಿನಲಿ\nಚಂದ ಚಂದದ ಗೋಪಬಾಲರ ವೃಂದವೃಂದದಲಿ ।\nಸುಂದರಾಂಗದ ಸುಂದರಿಯರ ಹಿಂದುಮುಂದಿನಲಿ\nಅಂದದಾಕಳ ಕಂದಕರುಗಳ ಮಂದೆಮಂದೆಯಲಿ ॥',
+            meaning: {
+              en: 'In every nook and corner of Nandagopa’s house, among the bands of handsome cowherd boys, behind and before the lovely maidens, among the herds of pretty cows and their calves.',
+              kn: 'ನಂದಗೋಪನ ಮನೆಯ ಸಂದುಗೊಂದುಗಳಲ್ಲಿ, ಚಂದದ ಗೋಪಬಾಲರ ಗುಂಪುಗಳಲ್ಲಿ, ಸುಂದರಿಯರಾದ ಗೋಪಿಯರ ಹಿಂದೆ-ಮುಂದೆ, ಅಂದವಾದ ಹಸುಗಳ ಕರುಗಳ ಹಿಂಡುಗಳಲ್ಲಿ.',
+            },
+          },
+          {
+            n: 2,
+            text: 'ಶ್ರೀಗುರೂಕ್ತ ಸದಾ ಸುಮಂಗಳ ಯೋಗಯೋಗದಲಿ\nಆಗಮಾರ್ಥದೊಳಗೆ ಮಾಡುವ ಯಾಗಯಾಗದಲಿ ।\nಶ್ರೀಗೆ ಭಾಗ್ಯನಾಗಿ ವರ್ತಿಪ ಭೋಗಭೋಗದಲಿ\nಭಾಗವತರು ಸದಾ ಬಾಗಿ ಪಾಡುವ ರಾಗರಾಗದಲಿ ॥',
+            meaning: {
+              en: 'In every auspicious yoga taught by the guru, in every sacrifice performed as the scriptures direct, in every joy he shares as Śrī’s good fortune, in every melody the devotees sing as they bow.',
+              kn: 'ಗುರುಗಳು ಉಪದೇಶಿಸಿದ ಪ್ರತಿಯೊಂದು ಮಂಗಳಕರ ಯೋಗದಲ್ಲಿ, ಆಗಮೋಕ್ತವಾಗಿ ಮಾಡುವ ಪ್ರತಿಯೊಂದು ಯಾಗದಲ್ಲಿ, ಲಕ್ಷ್ಮಿಯ ಭಾಗ್ಯನಾಗಿ ಅನುಭವಿಸುವ ಪ್ರತಿಯೊಂದು ಭೋಗದಲ್ಲಿ, ಭಾಗವತರು ಬಾಗಿ ಹಾಡುವ ಪ್ರತಿಯೊಂದು ರಾಗದಲ್ಲಿ.',
+            },
+          },
+          {
+            n: 3,
+            text: 'ಈ ಚರಾಚರದೊಳಗೆ ಜನಂಗಳಾಚೆ ಈಚೆಯಲಿ\nಖೇಚರೇಂದ್ರನ ಸುತನ ರಥದ ಚೌಕಪೀಠದಲಿ ।\nನಾಚದೆ ಮಾಧವ ಎಂಬ ಭಕ್ತರ ವಾಚಕಂಗಳಲಿ\nವೀಚುಕೊಂಡದ ಪುರಂದರವಿಠಲನ ಲೋಚನಾಗ್ರದಲಿ ॥',
+            meaning: {
+              en: 'In all that moves and does not move, on this side and that of every person; on the square seat of the chariot of Arjuna, son of the king of the gods; in the words of devotees who call “Mādhava!” without shame; and before the very eyes, Purandara Viṭhala is there.',
+              kn: 'ಈ ಚರಾಚರ ಜಗತ್ತಿನಲ್ಲಿ ಜನರ ಆಚೆ-ಈಚೆ, ಇಂದ್ರಪುತ್ರ ಅರ್ಜುನನ ರಥದ ಚೌಕಪೀಠದಲ್ಲಿ, ನಾಚದೆ “ಮಾಧವ” ಎನ್ನುವ ಭಕ್ತರ ಮಾತುಗಳಲ್ಲಿ, ಕಣ್ಣೆದುರಿನಲ್ಲೇ ಪುರಂದರವಿಠಲನು ಇದ್ದಾನೆ.',
+            },
+          },
+        ],
+      },
+  ],
+};
+
+export const dpBandaddellaBarali: Mantra = {
+  id: 'dasara-pada-bandaddella-barali',
+  title: 'ಬಂದದ್ದೆಲ್ಲ ಬರಲಿ',
+  titleEn: 'Purandara Dasa · Bandaddella Barali',
+  category: 'dasara-pada',
+  order: 17,
+  sourceScript: 'kannada',
+  deity: 'Śrī Hari',
+  source: 'Purandara Dāsa',
+  summary: '“Let whatever comes come, so long as Govinda’s grace is with us.” The Pāṇḍavas escaped the house of lac; even Yama yields to those who take refuge at Śrī’s Lord’s feet; what can an elephant do to one riding a lion?',
+  summaryKn: '“ಏನು ಬಂದರೂ ಬರಲಿ, ಗೋವಿಂದನ ದಯೆ ನಮಗಿರಲಿ.” ಅರಗಿನ ಮನೆಯಿಂದ ಪಾಂಡವರು ಪಾರಾದರು; ಶ್ರೀರಮಣನ ಶರಣರಿಗೆ ಯಮನೇ ತಲೆಬಾಗುತ್ತಾನೆ; ಸಿಂಹದ ಹೆಗಲೇರಿದವನಿಗೆ ಆನೆಯ ಭಯವೇಕೆ?',
+  difficulty: 'easy',
+  completeness: 'complete',
+  sections: [
+      {
+        title: 'ಪಲ್ಲವಿ',
+        titleEn: 'Pallavi',
+        verses: [
+          {
+            text: 'ಬಂದದ್ದೆಲ್ಲ ಬರಲಿ ।\nಗೋವಿಂದನ ದಯ ನಮಗಿರಲಿ ॥',
+            meaning: {
+              en: 'Let whatever comes come, so long as Govinda’s grace is with us.',
+              kn: 'ಏನು ಬಂದರೂ ಬರಲಿ; ಗೋವಿಂದನ ದಯೆ ನಮ್ಮ ಮೇಲಿರಲಿ.',
+            },
+          },
+        ],
+      },
+      {
+        title: 'ಅನುಪಲ್ಲವಿ',
+        titleEn: 'Anupallavi',
+        verses: [
+          {
+            text: 'ಇಂದಿರೆರಮಣನ ಧ್ಯಾನವ ಮಾಡಲು ।\nಬಂದ ದುರಿತ ಬಯಲಾದುದಿಲ್ಲವೆ ॥',
+            meaning: {
+              en: 'When one meditates on Indirā’s Lord, does not every trouble that comes melt into nothing?',
+              kn: 'ಇಂದಿರಾರಮಣನನ್ನು ಧ್ಯಾನಿಸಿದರೆ ಬಂದ ಕಷ್ಟಗಳೆಲ್ಲ ಬಯಲಾಗಿ ಹೋಗುವುದಿಲ್ಲವೇ?',
+            },
+          },
+        ],
+      },
+      {
+        title: 'ಚರಣಗಳು',
+        titleEn: 'Caraṇas',
+        verses: [
+          {
+            n: 1,
+            text: 'ಅರಗಿನ ಮನೆಯೊಳಗಂದು ಪಾಂಡವರನು ಕೊಲಬೇಕೆಂದು\nದುರುಳ ಕೌರವ ಬಂದು ಅತಿ ಹರುಷದಲಿರುತಿರಲಂದು ।\nಹರಿಕೃಪೆ ಅವರಲ್ಲಿದ್ದ ಕಾರಣ ಬಂದ\nಘೋರ ದುರಿತ ಬಯಲಾದುದಿಲ್ಲವೆ ॥',
+            meaning: {
+              en: 'When the wicked Kaurava gleefully plotted to kill the Pāṇḍavas in the house of lac, did not that terrible danger come to nothing, because Hari’s grace was with them?',
+              kn: 'ಅಂದು ಅರಗಿನ ಮನೆಯಲ್ಲಿ ಪಾಂಡವರನ್ನು ಕೊಲ್ಲಬೇಕೆಂದು ದುಷ್ಟ ಕೌರವನು ಅತಿ ಹರ್ಷದಿಂದಿರುವಾಗ, ಹರಿಯ ಕೃಪೆ ಅವರ ಮೇಲಿದ್ದ ಕಾರಣ ಬಂದ ಘೋರ ಆಪತ್ತು ಬಯಲಾಗಲಿಲ್ಲವೇ?',
+            },
+          },
+          {
+            n: 2,
+            text: 'ಆರು ಒಲಿಯದಿರಲೆನ್ನ ಮುರಾರಿ ಎನಗೆ ಪ್ರಸನ್ನ\nಹೋರುವ ದುರಿತದ ಬನ್ನ ನಿವಾರಿಪ ಕರುಣಸಂಪನ್ನ ।\nಶ್ರೀರಮಣನ ಸಿರಿಚರಣ ಶರಣರಿಗೆ\nಕ್ರೂರ ಯಮನು ಶರಣಾಗಲಿಲ್ಲವೆ ॥',
+            meaning: {
+              en: 'Let no one else favour me: Murāri is gracious to me, the compassionate one who removes the pain of the troubles that assail me. Has not cruel Yama himself bowed to those who take refuge at the holy feet of Śrī’s Lord?',
+              kn: 'ಯಾರು ಒಲಿಯದಿದ್ದರೇನು, ಮುರಾರಿ ನನಗೆ ಪ್ರಸನ್ನನಾಗಿದ್ದಾನೆ; ಕಾಡುವ ಕಷ್ಟಗಳ ನೋವನ್ನು ನಿವಾರಿಸುವ ಕರುಣಾಸಂಪನ್ನನವನು. ಶ್ರೀರಮಣನ ಪಾದಗಳಿಗೆ ಶರಣಾದವರಿಗೆ ಕ್ರೂರ ಯಮನೇ ಶರಣಾಗಲಿಲ್ಲವೇ?',
+            },
+          },
+          {
+            n: 3,
+            text: 'ಸಿಂಗನ ಪೆಗಲೇರಿದವಗೆ ಕರಿ ಭಂಗವೇಕೆ ಮತ್ತವಗೆ\nರಂಗನ ಕೃಪೆಯುಳ್ಳವಗೆ ಭವ ಭಂಗಗಳೇತಕ್ಕವಗೆ ।\nಮಂಗಳಮಹಿಮ ಪುರಂದರವಿಠಲ ಶು-\nಭಾಂಗನ ದಯವೊಂದಿದ್ದರೆ ಸಾಲದೆ ॥',
+            meaning: {
+              en: 'What harm can an elephant do to one who rides on a lion’s shoulders? What troubles of saṃsāra can touch one who has Raṅga’s grace? Is not the grace of Purandara Viṭhala alone, of auspicious glory and lovely form, enough?',
+              kn: 'ಸಿಂಹದ ಹೆಗಲೇರಿದವನಿಗೆ ಆನೆಯಿಂದ ಭಂಗವೇಕೆ? ರಂಗನ ಕೃಪೆಯುಳ್ಳವನಿಗೆ ಸಂಸಾರದ ಕಷ್ಟಗಳೇಕೆ? ಮಂಗಳಮಹಿಮನಾದ, ಶುಭಾಂಗನಾದ ಪುರಂದರವಿಠಲನ ದಯೆಯೊಂದಿದ್ದರೆ ಸಾಲದೇ?',
+            },
+          },
+        ],
+      },
+  ],
+};
+
 export const dpBagilanuTeredu: Mantra = {
   id: 'dasara-pada-bagilanu-teredu',
   title: 'ಬಾಗಿಲನು ತೆರೆದು ಸೇವೆಯನು ಕೊಡೋ ಹರಿಯೇ',
   titleEn: 'Kanaka Dasa · Bagilanu Teredu Seveyanu Kodo Hariye',
   category: 'dasara-pada',
-  order: 15,
+  order: 18,
   sourceScript: 'kannada',
   deity: 'Śrī Hari (Narahari)',
   source: 'Kanaka Dāsa',
@@ -1079,7 +1306,7 @@ export const dpTallanisadiruKandya: Mantra = {
   title: 'ತಲ್ಲಣಿಸದಿರು ಕಂಡ್ಯ ತಾಳು ಮನವೇ',
   titleEn: 'Kanaka Dasa · Tallanisadiru Kandya Talu Maname',
   category: 'dasara-pada',
-  order: 16,
+  order: 19,
   sourceScript: 'kannada',
   deity: 'Śrī Hari',
   source: 'Kanaka Dāsa',
@@ -1135,12 +1362,374 @@ export const dpTallanisadiruKandya: Mantra = {
   ],
 };
 
+export const dpKulaKulaKulavendu: Mantra = {
+  id: 'dasara-pada-kula-kula-kulavendu',
+  title: 'ಕುಲ ಕುಲ ಕುಲವೆಂದು ಹೊಡೆದಾಡದಿರಿ ನಿಮ್ಮ',
+  titleEn: 'Kanaka Dasa · Kula Kula Kulavendu',
+  category: 'dasara-pada',
+  order: 20,
+  sourceScript: 'kannada',
+  deity: 'Śrī Hari',
+  source: 'Kanaka Dāsa',
+  summary: 'Kanaka Dāsa’s challenge to pride of caste: “Do not fight over caste: do you know where caste comes from?” All have passed through every kind of birth; water, mother of all, has no caste; the one of true birth is he who praises Hari’s feet.',
+  summaryKn: 'ಜಾತಿಯ ಹೆಮ್ಮೆಗೆ ಕನಕದಾಸರ ಸವಾಲು: “ಕುಲ ಕುಲ ಎಂದು ಹೊಡೆದಾಡಬೇಡಿ; ಕುಲದ ಮೂಲ ನಿಮಗೆ ಗೊತ್ತೇ?” ಎಲ್ಲರೂ ಎಲ್ಲ ಯೋನಿಗಳಲ್ಲೂ ಹುಟ್ಟಿಬಂದವರೇ; ಎಲ್ಲಕ್ಕೂ ತಾಯಿಯಾದ ನೀರಿಗೆ ಕುಲವಿಲ್ಲ; ಹರಿಯ ಪಾದಗಳನ್ನು ಕೀರ್ತಿಸುವವನೇ ಕುಲಜ.',
+  difficulty: 'easy',
+  completeness: 'complete',
+  sections: [
+      {
+        title: 'ಪಲ್ಲವಿ',
+        titleEn: 'Pallavi',
+        verses: [
+          {
+            text: 'ಕುಲ ಕುಲ ಕುಲವೆಂದು ಹೊಡೆದಾಡದಿರಿ ನಿಮ್ಮ ।\nಕುಲದ ನೆಲೆಯನೇನಾದರೂ ಬಲ್ಲಿರ ॥',
+            meaning: {
+              en: 'Do not fight crying “caste, caste, caste!” Do you know anything of where your caste comes from?',
+              kn: '“ಕುಲ, ಕುಲ” ಎಂದು ಹೊಡೆದಾಡಬೇಡಿ. ನಿಮ್ಮ ಕುಲದ ಮೂಲ ನೆಲೆ ಏನೆಂದು ನಿಮಗೆ ಗೊತ್ತೇ?',
+            },
+          },
+        ],
+      },
+      {
+        title: 'ಚರಣಗಳು',
+        titleEn: 'Caraṇas',
+        verses: [
+          {
+            n: 1,
+            text: 'ಹುಟ್ಟದ ಯೋನಿಗಳಿಲ್ಲ ಮೆಟ್ಟದ ಭೂಮಿಗಳಿಲ್ಲ\nಅಟ್ಟು ಉಣ್ಣದ ವಸ್ತುಗಳಿಲ್ಲ ।\nಗುಟ್ಟು ಕಾಣಿಸಬಂತು ಹಿರಿದೇನು ಕಿರಿದೇನು\nನೆಟ್ಟನೆ ಸರ್ವಜ್ಞನ ನೆನೆ ಕಂಡ್ಯ ಮನುಜ ॥',
+            meaning: {
+              en: 'There is no womb we have not been born from, no land we have not trodden, nothing we have not cooked and eaten. The secret is out: what is high and what is low? O man, think straight of the All-knowing One.',
+              kn: 'ನಾವು ಹುಟ್ಟದ ಯೋನಿಗಳಿಲ್ಲ, ಕಾಲಿಡದ ಭೂಮಿಯಿಲ್ಲ, ಬೇಯಿಸಿ ತಿನ್ನದ ವಸ್ತುವಿಲ್ಲ. ಗುಟ್ಟು ಬಯಲಾಯಿತು: ಹಿರಿದೇನು, ಕಿರಿದೇನು? ಮನುಜನೇ, ಸರ್ವಜ್ಞನಾದ ಶ್ರೀಹರಿಯನ್ನು ನೇರವಾಗಿ ನೆನೆ.',
+            },
+          },
+          {
+            n: 2,
+            text: 'ಜಲವೆ ಸಕಲ ಕುಲಕ್ಕೆ ತಾಯಲ್ಲವೆ\nಜಲದ ಕುಲವನೇನಾದರೂ ಬಲ್ಲಿರ ।\nಜಲದ ಬೊಬ್ಬುಳಿಯಂತೆ ಸ್ಥಿರವಲ್ಲವೀ ದೇಹ\nನೆಲೆಯನರಿತು ನೀ ನೆನೆ ಕಂಡ್ಯ ಮನುಜ ॥',
+            meaning: {
+              en: 'Is not water the mother of every caste? Do you know the caste of water? This body is no more lasting than a bubble on water; know the true ground, O man, and remember Him.',
+              kn: 'ನೀರೇ ಎಲ್ಲ ಕುಲಗಳಿಗೂ ತಾಯಲ್ಲವೇ? ನೀರಿನ ಕುಲ ಯಾವುದೆಂದು ನಿಮಗೆ ಗೊತ್ತೇ? ಈ ದೇಹ ನೀರಿನ ಗುಳ್ಳೆಯಂತೆ ಸ್ಥಿರವಲ್ಲ; ಮನುಜನೇ, ನಿಜವಾದ ನೆಲೆಯನ್ನು ಅರಿತು ಶ್ರೀಹರಿಯನ್ನು ನೆನೆ.',
+            },
+          },
+          {
+            n: 3,
+            text: 'ಹರಿಯೆ ಸರ್ವೋತ್ತಮ ಹರಿಯೆ ಸರ್ವೇಶ್ವರ\nಹರಿಮಯವೆಲ್ಲವೆನುತ ತಿಳಿದು ।\nಸಿರಿಕಾಗಿನೆಲೆಯಾದಿಕೇಶವರಾಯನ\nಚರಣಕಮಲವ ಕೀರ್ತಿಸುವನೆ ಕುಲಜ ॥',
+            meaning: {
+              en: 'Knowing that Hari is the highest, Hari is the Lord of all, and all is filled with Hari, he who praises the lotus feet of Ādikeśava of Kāginele, Lord of Śrī, is the one of noble birth.',
+              kn: 'ಹರಿಯೇ ಸರ್ವೋತ್ತಮ, ಹರಿಯೇ ಸರ್ವೇಶ್ವರ, ಎಲ್ಲವೂ ಹರಿಮಯ ಎಂದು ತಿಳಿದು, ಸಿರಿಕಾಗಿನೆಲೆಯ ಆದಿಕೇಶವರಾಯನ ಪಾದಕಮಲಗಳನ್ನು ಕೀರ್ತಿಸುವವನೇ ನಿಜವಾದ ಕುಲೀನ.',
+            },
+          },
+        ],
+      },
+  ],
+};
+
+export const dpNiMayeyolago: Mantra = {
+  id: 'dasara-pada-ni-mayeyolago',
+  title: 'ನೀ ಮಾಯೆಯೊಳಗೊ ನಿನ್ನೊಳು ಮಾಯೆಯೊ',
+  titleEn: 'Kanaka Dasa · Ni Mayeyolago Ninnolu Mayeyo',
+  category: 'dasara-pada',
+  order: 21,
+  sourceScript: 'kannada',
+  deity: 'Śrī Hari',
+  source: 'Kanaka Dāsa',
+  summary: 'Kanaka Dāsa’s riddle-song on the Lord who holds everything: are you within māyā, or is māyā within you? Are you in the body, or the body in you? Space and dwelling, eye and mind, flower and fragrance: “it is beyond me to say; all is within you, Hari.”',
+  summaryKn: 'ಎಲ್ಲವನ್ನೂ ತನ್ನೊಳಗೆ ಧರಿಸಿರುವ ಶ್ರೀಹರಿಯ ಕುರಿತು ಕನಕದಾಸರ ಒಗಟಿನ ಹಾಡು: ನೀನು ಮಾಯೆಯೊಳಗೋ, ಮಾಯೆ ನಿನ್ನೊಳಗೋ? ಬಯಲು-ಆಲಯ, ಕಣ್ಣು-ಬುದ್ಧಿ, ಹೂವು-ಗಂಧ… “ಹೇಳಲು ನನ್ನಿಂದಾಗದು; ಎಲ್ಲವೂ ನಿನ್ನೊಳಗೇ, ಹರಿಯೇ.”',
+  difficulty: 'easy',
+  completeness: 'partial',
+  contentNote: 'SDS has a further caraṇa (ಸವಿಯು ಸಕ್ಕರೆಯೊಳಗೊ …) between the two given here, and the word ಹರಿಯೆ at the end of the anupallavi; BJ has neither, so they are left out until a second copy is found.',
+  sections: [
+      {
+        title: 'ಪಲ್ಲವಿ',
+        titleEn: 'Pallavi',
+        verses: [
+          {
+            text: 'ನೀ ಮಾಯೆಯೊಳಗೊ ನಿನ್ನೊಳು ಮಾಯೆಯೊ ॥',
+            meaning: {
+              en: 'Are you within māyā, or is māyā within you?',
+              kn: 'ನೀನು ಮಾಯೆಯೊಳಗಿರುವೆಯೋ, ಮಾಯೆ ನಿನ್ನೊಳಗಿದೆಯೋ?',
+            },
+          },
+        ],
+      },
+      {
+        title: 'ಅನುಪಲ್ಲವಿ',
+        titleEn: 'Anupallavi',
+        verses: [
+          {
+            text: 'ನೀ ದೇಹದೊಳಗೊ ನಿನ್ನೊಳು ದೇಹವೊ ॥',
+            meaning: {
+              en: 'Are you within the body, or is the body within you?',
+              kn: 'ನೀನು ದೇಹದೊಳಗಿರುವೆಯೋ, ದೇಹ ನಿನ್ನೊಳಗಿದೆಯೋ?',
+            },
+          },
+        ],
+      },
+      {
+        title: 'ಚರಣಗಳು',
+        titleEn: 'Caraṇas',
+        verses: [
+          {
+            n: 1,
+            text: 'ಬಯಲೊಳಗೆ ಆಲಯವೊ ಆಲಯದೊಳಗೆ ಬಯಲೊ\nಬಯಲು ಆಲಯವೆರಡು ನಯನದೊಳಗೊ ।\nನಯನ ಬುದ್ಧಿಯ ಒಳಗೊ ಬುದ್ಧಿ ನಯನದ ಒಳಗೊ\nನಯನ ಬುದ್ಧಿಗಳೆರಡು ನಿನ್ನೊಳಗೊ ಹರಿಯೆ ॥',
+            meaning: {
+              en: 'Is the house within open space, or open space within the house? Are both space and house within the eye? Is the eye within the mind, or the mind within the eye? Are eye and mind both within you, Hari?',
+              kn: 'ಬಯಲಿನೊಳಗೆ ಮನೆಯೋ, ಮನೆಯೊಳಗೆ ಬಯಲೋ? ಬಯಲು-ಮನೆ ಎರಡೂ ಕಣ್ಣಿನೊಳಗೋ? ಕಣ್ಣು ಬುದ್ಧಿಯೊಳಗೋ, ಬುದ್ಧಿ ಕಣ್ಣಿನೊಳಗೋ? ಕಣ್ಣು-ಬುದ್ಧಿ ಎರಡೂ ನಿನ್ನೊಳಗೋ, ಹರಿಯೇ?',
+            },
+          },
+          {
+            n: 2,
+            text: 'ಕುಸುಮದಲಿ ಗಂಧವೊ ಗಂಧದಲಿ ಕುಸುಮವೊ\nಕುಸುಮ ಗಂಧಗಳೆರಡು ಆಘ್ರಾಣದೊಳಗೊ ।\nಅಸಮಭವ ಕಾಗಿನೆಲೆಯಾದಿಕೇಶವರಾಯ\nಉಸುರಲೆನ್ನಳವಲ್ಲ ಎಲ್ಲ ನಿನ್ನೊಳಗೊ ಹರಿಯೆ ॥',
+            meaning: {
+              en: 'Is the fragrance in the flower, or the flower in the fragrance? Are both flower and fragrance in the sense of smell? Peerless Ādikeśava of Kāginele, it is beyond me to say: all is within you, Hari.',
+              kn: 'ಹೂವಿನಲ್ಲಿ ಗಂಧವೋ, ಗಂಧದಲ್ಲಿ ಹೂವೋ? ಹೂವು-ಗಂಧ ಎರಡೂ ಮೂಗಿನ ಗ್ರಹಣಶಕ್ತಿಯೊಳಗೋ? ಸಾಟಿಯಿಲ್ಲದ ಕಾಗಿನೆಲೆಯ ಆದಿಕೇಶವರಾಯನೇ, ಹೇಳಲು ನನ್ನಿಂದಾಗದು; ಎಲ್ಲವೂ ನಿನ್ನೊಳಗೇ, ಹರಿಯೇ.',
+            },
+          },
+        ],
+      },
+  ],
+};
+
+export const dpKeshavaNama: Mantra = {
+  id: 'dasara-pada-keshava-nama',
+  title: 'ಈಶ ನಿನ್ನ ಚರಣಭಜನೆ ಆಶೆಯಿಂದ ಮಾಡುವೆನು',
+  titleEn: 'Kanaka Dasa · Keshava Nama (Isha Ninna Charana Bhajane)',
+  category: 'dasara-pada',
+  order: 22,
+  sourceScript: 'kannada',
+  deity: 'Śrī Hari (the twenty-four names)',
+  source: 'Kanaka Dāsa',
+  summary: 'Kanaka Dāsa’s Keśava Nāma: a prayer in couplets, each ending with one of the twenty-four names of Viṣṇu (Keśava to Kṛṣṇa) recited in sandhyā, asking for remembrance at death, freedom from birth and the company of the good.',
+  summaryKn: 'ಕನಕದಾಸರ ಕೇಶವನಾಮ: ಸಂಧ್ಯಾವಂದನೆಯ ಕೇಶವಾದಿ ಇಪ್ಪತ್ತನಾಲ್ಕು ನಾಮಗಳಲ್ಲಿ ಒಂದೊಂದರಿಂದ ಕೊನೆಗೊಳ್ಳುವ ದ್ವಿಪದಿಗಳ ಪ್ರಾರ್ಥನೆ; ಮರಣಕಾಲದ ಸ್ಮರಣೆ, ಜನ್ಮಬಂಧನದಿಂದ ಬಿಡುಗಡೆ, ಸಾಧುಸಂಗವನ್ನು ಬೇಡುವ ಕೀರ್ತನೆ.',
+  difficulty: 'easy',
+  completeness: 'complete',
+  sections: [
+      {
+        title: 'ಪಲ್ಲವಿ',
+        titleEn: 'Pallavi',
+        verses: [
+          {
+            text: 'ಈಶ ನಿನ್ನ ಚರಣಭಜನೆ ಆಶೆಯಿಂದ ಮಾಡುವೆನು ।\nದೋಷರಾಶಿ ನಾಶಮಾಡು ಶ್ರೀಶ ಕೇಶವ ॥',
+            meaning: {
+              en: 'Lord, I worship your feet with longing; destroy the heap of my faults, Keśava, Lord of Śrī.',
+              kn: 'ಈಶನೇ, ನಿನ್ನ ಪಾದಗಳ ಭಜನೆಯನ್ನು ಆಸೆಯಿಂದ ಮಾಡುತ್ತೇನೆ; ನನ್ನ ದೋಷಗಳ ರಾಶಿಯನ್ನು ನಾಶಮಾಡು, ಶ್ರೀಪತಿ ಕೇಶವನೇ.',
+            },
+          },
+        ],
+      },
+      {
+        title: 'ಚರಣಗಳು',
+        titleEn: 'Caraṇas',
+        verses: [
+          {
+            n: 1,
+            text: 'ಶರಣು ಹೊಕ್ಕೆನಯ್ಯ ಎನ್ನ ಮರಣ ಸಮಯದಲ್ಲಿ ನಿನ್ನ ।\nಚರಣ ಸ್ಮರಣೆ ಕರುಣಿಸಯ್ಯ ನಾರಾಯಣ ॥',
+            meaning: {
+              en: 'I have come to you for refuge; at the hour of my death grant me the remembrance of your feet, Nārāyaṇa.',
+              kn: 'ನಿನಗೆ ಶರಣು ಬಂದಿದ್ದೇನೆ; ನನ್ನ ಮರಣಕಾಲದಲ್ಲಿ ನಿನ್ನ ಪಾದಸ್ಮರಣೆಯನ್ನು ಕರುಣಿಸು, ನಾರಾಯಣನೇ.',
+            },
+          },
+          {
+            n: 2,
+            text: 'ಶೋಧಿಸೆನ್ನ ಭವದ ಕಲುಷ ಬೋಧಿಸಯ್ಯ ಜ್ಞಾನವೆನಗೆ ।\nಬಾಧಿಸುವಾ ಯಮನ ಬಾಧೆ ಬಿಡಿಸು ಮಾಧವ ॥',
+            meaning: {
+              en: 'Cleanse the stains of my worldly life, teach me true knowledge, and free me from the torment of Yama, Mādhava.',
+              kn: 'ನನ್ನ ಸಂಸಾರದ ಕಲ್ಮಷವನ್ನು ಶೋಧಿಸು, ನನಗೆ ಜ್ಞಾನವನ್ನು ಬೋಧಿಸು, ಕಾಡುವ ಯಮನ ಬಾಧೆಯಿಂದ ಬಿಡಿಸು, ಮಾಧವನೇ.',
+            },
+          },
+          {
+            n: 3,
+            text: 'ಹಿಂದನೇಕ ಯೋನಿಗಳಲಿ ಬಂದು ಬಂದು ನೊಂದೆ ನಾನು ।\nಇಂದು ಭವದ ಬಂಧ ಬಿಡಿಸು ತಂದೆ ಗೋವಿಂದನೆ ॥',
+            meaning: {
+              en: 'In the past I came again and again through many wombs and suffered; today, Father Govinda, free me from the bonds of birth.',
+              kn: 'ಹಿಂದೆ ಅನೇಕ ಯೋನಿಗಳಲ್ಲಿ ಮತ್ತೆಮತ್ತೆ ಹುಟ್ಟಿ ನೊಂದಿದ್ದೇನೆ; ಇಂದು ಸಂಸಾರಬಂಧವನ್ನು ಬಿಡಿಸು, ತಂದೆ ಗೋವಿಂದನೇ.',
+            },
+          },
+          {
+            n: 4,
+            text: 'ಭ್ರಷ್ಟನೆನಿಸಬೇಡ ಕೃಷ್ಣ ಇಷ್ಟು ಮಾತ್ರ ಬೇಡಿಕೊಂಬೆ ।\nಶಿಷ್ಟರೊಳಗೆ ಇಟ್ಟು ಕಷ್ಟ ಬಿಡಿಸು ವಿಷ್ಣುವೆ ॥',
+            meaning: {
+              en: 'Do not let me be called fallen, Kṛṣṇa; this alone I ask. Keep me among the good and free me from hardship, Viṣṇu.',
+              kn: 'ಕೃಷ್ಣಾ, ನನ್ನನ್ನು ಭ್ರಷ್ಟನೆನಿಸಬೇಡ; ಇಷ್ಟನ್ನು ಮಾತ್ರ ಬೇಡುತ್ತೇನೆ. ಸಜ್ಜನರ ನಡುವೆ ಇಟ್ಟು ನನ್ನ ಕಷ್ಟಗಳನ್ನು ಬಿಡಿಸು, ವಿಷ್ಣುವೇ.',
+            },
+          },
+          {
+            n: 5,
+            text: 'ಮೊದಲು ನಿನ್ನ ಪಾದಪೂಜೆ ಮುದದಿ ಗೈವೆನಯ್ಯ ನಾನು ।\nಹೃದಯದೊಳಗೆ ಒದಗಿಸಯ್ಯ ಮಧುಸೂದನ ॥',
+            meaning: {
+              en: 'First of all I will gladly worship your feet; come and dwell in my heart, Madhusūdana.',
+              kn: 'ಮೊದಲು ನಿನ್ನ ಪಾದಪೂಜೆಯನ್ನು ಸಂತೋಷದಿಂದ ಮಾಡುತ್ತೇನೆ; ನನ್ನ ಹೃದಯದಲ್ಲಿ ಒದಗಿ ಬಾ, ಮಧುಸೂದನನೇ.',
+            },
+          },
+          {
+            n: 6,
+            text: 'ಕವಿದುಕೊಂಡು ಇರುವ ಪಾಪ ಸವೆದು ಹೋಗುವಂತೆ ಮಾಡಿ ।\nಜವನ ಬಾಧೆಯನ್ನು ಬಿಡಿಸೊ ಘನ ತ್ರಿವಿಕ್ರಮ ॥',
+            meaning: {
+              en: 'Make the sins that cloud me wear away, and free me from Yama’s torment, mighty Trivikrama.',
+              kn: 'ನನ್ನನ್ನು ಕವಿದಿರುವ ಪಾಪ ಸವೆದುಹೋಗುವಂತೆ ಮಾಡಿ, ಯಮನ ಬಾಧೆಯನ್ನು ಬಿಡಿಸು, ಮಹಿಮನಾದ ತ್ರಿವಿಕ್ರಮನೇ.',
+            },
+          },
+          {
+            n: 7,
+            text: 'ಕಾಮಜನಕ ನಿನ್ನ ನಾಮ ಪ್ರೇಮದಿಂದ ಪಾಡುವಂಥ ।\nನೇಮವೆನಗೆ ಪಾಲಿಸಯ್ಯ ಸ್ವಾಮಿ ವಾಮನ ॥',
+            meaning: {
+              en: 'Father of Kāma, grant me the discipline of singing your name with love, Lord Vāmana.',
+              kn: 'ಮನ್ಮಥಜನಕನೇ, ನಿನ್ನ ನಾಮವನ್ನು ಪ್ರೀತಿಯಿಂದ ಹಾಡುವ ನಿಯಮವನ್ನು ನನಗೆ ಕರುಣಿಸು, ಸ್ವಾಮಿ ವಾಮನನೇ.',
+            },
+          },
+          {
+            n: 8,
+            text: 'ಮದನನಯ್ಯ ನಿನ್ನ ಮಹಿಮೆ ವದನದಲ್ಲಿ ಇರುವ ಹಾಗೆ ।\nಹೃದಯದಲ್ಲಿ ಸದನ ಮಾಡು ಮುದದಿ ಶ್ರೀಧರ ॥',
+            meaning: {
+              en: 'Father of Madana, so that your glory is always on my lips, gladly make your home in my heart, Śrīdhara.',
+              kn: 'ಮನ್ಮಥನ ತಂದೆಯೇ, ನಿನ್ನ ಮಹಿಮೆ ಸದಾ ನನ್ನ ಬಾಯಲ್ಲಿರುವಂತೆ ಸಂತೋಷದಿಂದ ನನ್ನ ಹೃದಯದಲ್ಲಿ ಮನೆ ಮಾಡು, ಶ್ರೀಧರನೇ.',
+            },
+          },
+          {
+            n: 9,
+            text: 'ಹುಸಿಯನಾಡಿ ಹೊಟ್ಟೆ ಹೊರೆವ ವಿಷಯದಲ್ಲಿ ರಸಿಕನೆಂದು ।\nಹುಸಿಗೆ ನನ್ನ ಹಾಕದಿರೋ ಹೃಷೀಕೇಶನೆ ॥',
+            meaning: {
+              en: 'Do not cast me aside as one who lives by lies to fill his belly and delights in sense-pleasures, Hṛṣīkeśa.',
+              kn: 'ಸುಳ್ಳು ಹೇಳಿ ಹೊಟ್ಟೆ ಹೊರೆಯುವ, ವಿಷಯಸುಖಗಳಲ್ಲಿ ರಸಿಕನೆಂದು ನನ್ನನ್ನು ತಿರಸ್ಕರಿಸಬೇಡ, ಹೃಷೀಕೇಶನೇ.',
+            },
+          },
+          {
+            n: 10,
+            text: 'ಅಬ್ಧಿಯೊಳಗೆ ಬಿದ್ದು ನಾನು ಒದ್ದುಕೊಂಬೆನಯ್ಯ ಭವದಿ ।\nಗೆದ್ದು ಪೋಪ ಬುದ್ಧಿ ತೋರೊ ಪದ್ಮನಾಭನೆ ॥',
+            meaning: {
+              en: 'I have fallen into the ocean of saṃsāra and struggle there; show me the wisdom to overcome it and cross over, Padmanābha.',
+              kn: 'ಸಂಸಾರಸಾಗರದಲ್ಲಿ ಬಿದ್ದು ಒದ್ದಾಡುತ್ತಿದ್ದೇನೆ; ಅದನ್ನು ಗೆದ್ದು ದಾಟಿಹೋಗುವ ಬುದ್ಧಿಯನ್ನು ತೋರು, ಪದ್ಮನಾಭನೇ.',
+            },
+          },
+          {
+            n: 11,
+            text: 'ಕಾಮಕ್ರೋಧ ಬಿಡಿಸಿ ನಿನ್ನ ನಾಮ ಜಿಹ್ವೆಯೊಳಗೆ ನುಡಿಸು ।\nಶ್ರೀಮಹಾನುಭಾವನಾದ ದಾಮೋದರ ॥',
+            meaning: {
+              en: 'Free me from desire and anger and make my tongue speak your name, Dāmodara, great and glorious one.',
+              kn: 'ಕಾಮಕ್ರೋಧಗಳನ್ನು ಬಿಡಿಸಿ ನಿನ್ನ ನಾಮವನ್ನು ನನ್ನ ನಾಲಿಗೆಯಲ್ಲಿ ನುಡಿಸು, ಶ್ರೀಮಹಾನುಭಾವನಾದ ದಾಮೋದರನೇ.',
+            },
+          },
+          {
+            n: 12,
+            text: 'ಪಂಕಜಾಕ್ಷ ನೀನು ಎನ್ನ ಮಂಕುಬುದ್ಧಿ ಬಿಡಿಸಿ ನಿನ್ನ ।\nಕಿಂಕರನ್ನ ಮಾಡಿಕೊಳ್ಳೊ ಸಂಕರುಷಣ ॥',
+            meaning: {
+              en: 'Lotus-eyed one, rid me of my dull mind and make me your servant, Saṅkarṣaṇa.',
+              kn: 'ಕಮಲನಯನನೇ, ನನ್ನ ಮಂಕುಬುದ್ಧಿಯನ್ನು ಬಿಡಿಸಿ ನನ್ನನ್ನು ನಿನ್ನ ಸೇವಕನನ್ನಾಗಿ ಮಾಡಿಕೋ, ಸಂಕರ್ಷಣನೇ.',
+            },
+          },
+          {
+            n: 13,
+            text: 'ಏಸು ಜನ್ಮ ಬಂದರೇನು ದಾಸನಲ್ಲವೇನೊ ನಿನ್ನ ।\nಘಾಸಿ ಮಾಡದಿರೋ ಎನ್ನ ವಾಸುದೇವನೆ ॥',
+            meaning: {
+              en: 'However many births may come, am I not your servant? Do not torment me, Vāsudeva.',
+              kn: 'ಎಷ್ಟು ಜನ್ಮಗಳು ಬಂದರೂ ನಾನು ನಿನ್ನ ದಾಸನಲ್ಲವೇ? ನನ್ನನ್ನು ನೋಯಿಸಬೇಡ, ವಾಸುದೇವನೇ.',
+            },
+          },
+          {
+            n: 14,
+            text: 'ಬುದ್ಧಿಶೂನ್ಯನಾಗಿ ನಾನು ಕದ್ದ ಕಳ್ಳನಾದೆನಯ್ಯ ।\nತಿದ್ದಿ ಹೃದಯ ಶುದ್ಧಿ ಮಾಡೊ ಪ್ರದ್ಯುಮ್ನನೆ ॥',
+            meaning: {
+              en: 'Without understanding I have become a thief; correct me and purify my heart, Pradyumna.',
+              kn: 'ಬುದ್ಧಿಯಿಲ್ಲದೆ ನಾನು ಕದ್ದ ಕಳ್ಳನಂತಾದೆ; ನನ್ನನ್ನು ತಿದ್ದಿ ಹೃದಯವನ್ನು ಶುದ್ಧಗೊಳಿಸು, ಪ್ರದ್ಯುಮ್ನನೇ.',
+            },
+          },
+          {
+            n: 15,
+            text: 'ಜನನಿ ಜನಕ ನೀನೆ ಎಂದು ಎನುವೆನಯ್ಯ ದೀನಬಂಧು ।\nಎನಗೆ ಮುಕ್ತಿ ಪಾಲಿಸಿಂದು ಅನಿರುದ್ಧನೆ ॥',
+            meaning: {
+              en: 'I say you alone are my mother and father, friend of the helpless; grant me liberation today, Aniruddha.',
+              kn: 'ದೀನಬಂಧುವೇ, ನೀನೇ ನನ್ನ ತಾಯಿ-ತಂದೆ ಎನ್ನುತ್ತೇನೆ; ಇಂದು ನನಗೆ ಮುಕ್ತಿಯನ್ನು ಕರುಣಿಸು, ಅನಿರುದ್ಧನೇ.',
+            },
+          },
+          {
+            n: 16,
+            text: 'ಹರುಷದಿಂದ ನಿನ್ನ ನಾಮ ಸ್ಮರಿಸುವಂತೆ ಮಾಡು ನೇಮ ।\nಇರಿಸು ಚರಣದಲ್ಲಿ ಕ್ಷೇಮ ಪುರುಷೋತ್ತಮ ॥',
+            meaning: {
+              en: 'Make it my rule to remember your name with joy, and keep me safe at your feet, Puruṣottama.',
+              kn: 'ಸಂತೋಷದಿಂದ ನಿನ್ನ ನಾಮವನ್ನು ಸ್ಮರಿಸುವ ನಿಯಮವನ್ನು ನನಗೆ ಮಾಡು; ನಿನ್ನ ಪಾದಗಳಲ್ಲಿ ನನ್ನನ್ನು ಕ್ಷೇಮವಾಗಿರಿಸು, ಪುರುಷೋತ್ತಮನೇ.',
+            },
+          },
+          {
+            n: 17,
+            text: 'ಸಾಧುಸಂಗ ಕೊಟ್ಟು ನಿನ್ನ ಪಾದಭಜಕನೆನಿಸು ಎನ್ನ ।\nಭೇದ ಮಾಡಿ ನೋಡದಿರೋ ಅಧೋಕ್ಷಜ ॥',
+            meaning: {
+              en: 'Give me the company of the holy and make me a worshipper of your feet; do not look on me as an outsider, Adhokṣaja.',
+              kn: 'ಸಾಧುಸಂಗವನ್ನು ಕೊಟ್ಟು ನನ್ನನ್ನು ನಿನ್ನ ಪಾದಭಜಕನೆನಿಸು; ನನ್ನನ್ನು ಬೇರೆಯಾಗಿ ಕಾಣಬೇಡ, ಅಧೋಕ್ಷಜನೇ.',
+            },
+          },
+          {
+            n: 18,
+            text: 'ಚಾರುಚರಣ ತೋರಿ ಎನಗೆ ಪಾರುಗಾಣಿಸಯ್ಯ ಕೊನೆಗೆ ।\nಭಾರ ಹಾಕಿ ಇರುವೆ ನಿನಗೆ ನಾರಸಿಂಹನೆ ॥',
+            meaning: {
+              en: 'Show me your lovely feet and carry me across at the end; I have laid my burden on you, Nārasiṃha.',
+              kn: 'ನಿನ್ನ ಸುಂದರ ಪಾದಗಳನ್ನು ತೋರಿ ಕೊನೆಗೆ ನನ್ನನ್ನು ಪಾರುಮಾಡು; ನನ್ನ ಭಾರವನ್ನೆಲ್ಲ ನಿನ್ನ ಮೇಲೆ ಹಾಕಿದ್ದೇನೆ, ನಾರಸಿಂಹನೇ.',
+            },
+          },
+          {
+            n: 19,
+            text: 'ಸಂಚಿತಾರ್ಥ ಪಾಪಗಳನು ಕಿಂಚಿತಾದರುಳಿಯದಂತೆ ।\nಮುಂಚಿತಾಗಿ ಕಳೆದು ಪೊರೆಯೊ ಸ್ವಾಮಿ ಅಚ್ಯುತ ॥',
+            meaning: {
+              en: 'Remove in advance all my stored-up sins, so that not the least is left, and protect me, Lord Acyuta.',
+              kn: 'ಸಂಚಿತ ಪಾಪಗಳು ಕಿಂಚಿತ್ತೂ ಉಳಿಯದಂತೆ ಮೊದಲೇ ಕಳೆದು ನನ್ನನ್ನು ಕಾಪಾಡು, ಸ್ವಾಮಿ ಅಚ್ಯುತನೇ.',
+            },
+          },
+          {
+            n: 20,
+            text: 'ಜ್ಞಾನಭಕ್ತಿ ಕೊಟ್ಟು ನಿನ್ನ ಧ್ಯಾನದಲ್ಲಿ ಇಟ್ಟು ಎನ್ನ ।\nಹೀನಬುದ್ಧಿ ಬಿಡಿಸೊ ಮುನ್ನ ಜನಾರ್ದನ ॥',
+            meaning: {
+              en: 'Give me knowledge and devotion, keep me in meditation on you, and first free me from base thoughts, Janārdana.',
+              kn: 'ಜ್ಞಾನ-ಭಕ್ತಿಗಳನ್ನು ಕೊಟ್ಟು ನಿನ್ನ ಧ್ಯಾನದಲ್ಲಿ ನನ್ನನ್ನಿರಿಸು; ಮೊದಲು ನನ್ನ ಹೀನಬುದ್ಧಿಯನ್ನು ಬಿಡಿಸು, ಜನಾರ್ದನನೇ.',
+            },
+          },
+          {
+            n: 21,
+            text: 'ಜಪತಪಾನುಷ್ಠಾನ ನೀನು ಒಪ್ಪುವಂತೆ ಮಾಡಲಿಲ್ಲ ।\nತಪ್ಪ ಕೋಟಿ ಕ್ಷಮಿಸಬೇಕು ಉಪೇಂದ್ರನೆ ॥',
+            meaning: {
+              en: 'I have not done japa, penance and ritual in a way that pleases you; you must forgive my countless faults, Upendra.',
+              kn: 'ನೀನು ಒಪ್ಪುವಂತೆ ನಾನು ಜಪ, ತಪ, ಅನುಷ್ಠಾನಗಳನ್ನು ಮಾಡಲಿಲ್ಲ; ನನ್ನ ಕೋಟಿ ತಪ್ಪುಗಳನ್ನು ಕ್ಷಮಿಸಬೇಕು, ಉಪೇಂದ್ರನೇ.',
+            },
+          },
+          {
+            n: 22,
+            text: 'ಮೊರೆಯನಿಡುವೆನಯ್ಯ ನಿನಗೆ ಸೆರೆಯ ಬಿಡಿಸು ಭವದ ಎನಗೆ ।\nಇರಿಸು ಭಕ್ತರೊಳಗೆ ಪರಮಪುರುಷ ಶ್ರೀಹರೇ ॥',
+            meaning: {
+              en: 'I cry out to you: free me from the prison of saṃsāra and keep me among your devotees, Supreme Person, Śrī Hari.',
+              kn: 'ನಿನಗೆ ಮೊರೆಯಿಡುತ್ತೇನೆ; ಸಂಸಾರದ ಸೆರೆಯಿಂದ ನನ್ನನ್ನು ಬಿಡಿಸು; ನಿನ್ನ ಭಕ್ತರ ನಡುವೆ ನನ್ನನ್ನಿರಿಸು, ಪರಮಪುರುಷನಾದ ಶ್ರೀಹರಿಯೇ.',
+            },
+          },
+          {
+            n: 23,
+            text: 'ಪುಟ್ಟಿಸಲೇಬೇಡವಿನ್ನು ಪುಟ್ಟಿಸಿದಕೆ ಪಾಲಿಸಿನ್ನು ।\nಇಷ್ಟು ಬೇಡಿಕೊಂಬೆ ನಾನು ಶ್ರೀಕೃಷ್ಣನೆ ॥',
+            meaning: {
+              en: 'Do not cause me to be born again; since you have given me birth, look after me now. This much I ask, Śrī Kṛṣṇa.',
+              kn: 'ಇನ್ನು ಮುಂದೆ ನನ್ನನ್ನು ಹುಟ್ಟಿಸಲೇಬೇಡ; ಹುಟ್ಟಿಸಿದ್ದಕ್ಕೆ ಈಗ ಪಾಲಿಸು. ಇಷ್ಟನ್ನೇ ಬೇಡುತ್ತೇನೆ, ಶ್ರೀಕೃಷ್ಣನೇ.',
+            },
+          },
+          {
+            n: 24,
+            text: 'ಸತ್ಯವಾದ ನಾಮಗಳನು ನಿತ್ಯದಲ್ಲಿ ಪಠಿಸುವವರ ।\nಅರ್ತಿಯಿಂದ ಕಾಯದಿರನು ಕರ್ತೃ ಕೇಶವ ॥',
+            meaning: {
+              en: 'Keśava, the Creator, will not fail to protect lovingly those who recite these true names every day.',
+              kn: 'ಸತ್ಯವಾದ ಈ ನಾಮಗಳನ್ನು ನಿತ್ಯವೂ ಪಠಿಸುವವರನ್ನು ಜಗತ್ಕರ್ತನಾದ ಕೇಶವನು ಪ್ರೀತಿಯಿಂದ ಕಾಪಾಡದೆ ಇರನು.',
+            },
+          },
+          {
+            n: 25,
+            text: 'ಮರೆತು ಬಿಡದೆ ಹರಿಯ ನಾಮ ಬರೆದು ಓದಿ ಕೇಳುವರಿಗೆ ।\nಕರೆದು ಮುಕ್ತಿ ಕೊಡುವ ನೆಲೆಯಾದಿಕೇಶವ ॥',
+            meaning: {
+              en: 'To those who write, read and hear Hari’s names without forgetting them, Ādikeśava of Kāginele calls them and gives liberation.',
+              kn: 'ಹರಿಯ ನಾಮಗಳನ್ನು ಮರೆಯದೆ ಬರೆದು, ಓದಿ, ಕೇಳುವವರನ್ನು ಕಾಗಿನೆಲೆಯ ಆದಿಕೇಶವನು ತಾನೇ ಕರೆದು ಮುಕ್ತಿಯನ್ನು ಕೊಡುತ್ತಾನೆ.',
+            },
+          },
+        ],
+      },
+  ],
+};
+
 export const dpBhushanakeBhushana: Mantra = {
   id: 'dasara-pada-bhushanake-bhushana',
   title: 'ಭೂಷಣಕೆ ಭೂಷಣ ಇದು ಭೂಷಣ',
   titleEn: 'Sripadaraja · Bhushanake Bhushana Idu Bhushana',
   category: 'dasara-pada',
-  order: 17,
+  order: 23,
   sourceScript: 'kannada',
   deity: 'Śrī Veṅkaṭeśa',
   source: 'Śrī Śrīpādarāja',
@@ -1200,7 +1789,7 @@ export const dpKrishnaNiBeganeBaro: Mantra = {
   title: 'ಕೃಷ್ಣಾ ನೀ ಬೇಗನೆ ಬಾರೋ',
   titleEn: 'Vyasaraja · Krishna Ni Begane Baro',
   category: 'dasara-pada',
-  order: 18,
+  order: 24,
   sourceScript: 'kannada',
   deity: 'Śrī Kṛṣṇa of Uḍupi',
   source: 'Śrī Vyāsarāja Tīrtha',
@@ -1281,7 +1870,7 @@ export const dpInduEnageGovinda: Mantra = {
   title: 'ಇಂದು ಎನಗೆ ಗೋವಿಂದ ನಿನ್ನ',
   titleEn: 'Raghavendra Tirtha · Indu Enage Govinda',
   category: 'dasara-pada',
-  order: 19,
+  order: 25,
   sourceScript: 'kannada',
   deity: 'Śrī Kṛṣṇa (Veṇugopāla)',
   source: 'Śrī Rāghavendra Tīrtha',
@@ -1342,6 +1931,107 @@ export const dpInduEnageGovinda: Mantra = {
             meaning: {
               en: 'I have lived on earth as a burden to it; I strayed from the path and kept bad company. No one else can save me, so I have come to you. Valiant Veṇugopāla, Hari, carry me across.',
               kn: 'ಭೂಮಿಗೆ ಭಾರವಾದ ಜೀವವಾಗಿ ಬದುಕಿದೆ; ದಾರಿತಪ್ಪಿ ನಡೆದು ದುರ್ಜನರ ಸಂಗ ಸೇರಿದೆ. ಕಾಪಾಡುವವರು ಬೇರೆ ಯಾರೂ ಇಲ್ಲ, ನಿನ್ನನ್ನೇ ಸೇರಿದ್ದೇನೆ. ಧೀರನಾದ ವೇಣುಗೋಪಾಲನೇ, ಹರಿಯೇ, ನನ್ನನ್ನು ಪಾರುಮಾಡು.',
+            },
+          },
+        ],
+      },
+  ],
+};
+
+export const dpNinnaOlumeyinda: Mantra = {
+  id: 'dasara-pada-ninna-olumeyinda',
+  title: 'ನಿನ್ನ ಒಲುಮೆಯಿಂದ ನಿಖಿಳ ಜನರು ಬಂದು',
+  titleEn: 'Vijaya Dasa · Ninna Olumeyinda',
+  category: 'dasara-pada',
+  order: 26,
+  sourceScript: 'kannada',
+  deity: 'Śrī Hari (Vijaya Viṭhala)',
+  source: 'Vijaya Dāsa',
+  summary: 'Vijaya Dāsa marvels at his change of fortune after receiving the Lord’s grace: the man who once begged from house to house and could not find a ladle of gruel or a whole cloth now feeds everyone and is honoured by all; “it is all yours, and your feet are witness.”',
+  summaryKn: 'ಶ್ರೀಹರಿಯ ಅನುಗ್ರಹದಿಂದ ತಮ್ಮ ಬದುಕಿನಲ್ಲಾದ ಬದಲಾವಣೆಗೆ ವಿಜಯದಾಸರ ಅಚ್ಚರಿ: ಮನೆಮನೆ ತಿರಿದರೂ ಒಂದು ಸೌಟು ಗಂಜಿ, ಹರಿಯದ ಬಟ್ಟೆ ಸಿಗದಿದ್ದವನನ್ನು ಈಗ ಎಲ್ಲರೂ ಮನ್ನಿಸುತ್ತಾರೆ; “ಇದೆಲ್ಲ ನಿನ್ನದೇ ಸಂಪತ್ತು, ನಿನ್ನ ಪಾದಗಳೇ ಸಾಕ್ಷಿ.”',
+  difficulty: 'easy',
+  completeness: 'complete',
+  sections: [
+      {
+        title: 'ಪಲ್ಲವಿ',
+        titleEn: 'Pallavi',
+        verses: [
+          {
+            text: 'ನಿನ್ನ ಒಲುಮೆಯಿಂದ ನಿಖಿಳ ಜನರು ಬಂದು ।\nಮನ್ನಿಸುವರೋ ಮಹರಾಯ ॥',
+            meaning: {
+              en: 'By your favour, great King, all people come and honour me.',
+              kn: 'ಮಹಾರಾಯನೇ, ನಿನ್ನ ಒಲುಮೆಯಿಂದಲೇ ಎಲ್ಲ ಜನರೂ ಬಂದು ನನ್ನನ್ನು ಮನ್ನಿಸುತ್ತಾರೆ.',
+            },
+          },
+        ],
+      },
+      {
+        title: 'ಅನುಪಲ್ಲವಿ',
+        titleEn: 'Anupallavi',
+        verses: [
+          {
+            text: 'ಎನ್ನ ಪುಣ್ಯಗಳಿಂದ ಈ ಪರಿಯುಂಟೇನೊ ।\nನಿನ್ನದೆ ಸಕಲ ಸಂಪತ್ತು ॥',
+            meaning: {
+              en: 'Could my own merits bring such things? All this wealth is yours.',
+              kn: 'ನನ್ನ ಪುಣ್ಯದಿಂದ ಇಂತಹದು ಸಾಧ್ಯವೇ? ಈ ಸಂಪತ್ತೆಲ್ಲ ನಿನ್ನದೇ.',
+            },
+          },
+        ],
+      },
+      {
+        title: 'ಚರಣಗಳು',
+        titleEn: 'Caraṇas',
+        verses: [
+          {
+            n: 1,
+            text: 'ಒಬ್ಬ ಹೆಂಗಸಿನ ಹೊಟ್ಟೆಗೆ ಹಾಕುವುದಕಿನ್ನು\nತಬ್ಬಿಬ್ಬುಗೊಂಡೆನೊ ಹಿಂದೆ ।\nನಿಬ್ಬರದಿಂದಲಿ ಸರ್ವರ ಕೂಡುಂಬೊ\nಹಬ್ಬವನುಣಿಸುವಿ ಹರಿಯೆ ॥',
+            meaning: {
+              en: 'Once I was at my wits’ end to feed even one woman, my wife; now, Hari, you give me a festive meal in plenty to share with everyone.',
+              kn: 'ಹಿಂದೆ ಒಬ್ಬ ಹೆಂಗಸಿನ ಹೊಟ್ಟೆ ತುಂಬಿಸಲೂ ತಬ್ಬಿಬ್ಬಾಗುತ್ತಿದ್ದೆ; ಈಗ, ಹರಿಯೇ, ಎಲ್ಲರೊಡನೆ ಕೂಡಿ ಉಣ್ಣುವ ಹಬ್ಬದೂಟವನ್ನು ಸಮೃದ್ಧಿಯಾಗಿ ಉಣಿಸುತ್ತೀಯೆ.',
+            },
+          },
+          {
+            n: 2,
+            text: 'ಸಂಜೆತನಕವಿದ್ದು ಸಣ್ಣ ಸೌಟಿನ ತುಂಬ\nಗಂಜಿ ಕಾಣದೆ ಬಳಲಿದೆನೊ ।\nವ್ಯಂಜನ ಮೊದಲಾದ ನಾನಾ ರಸಂಗಳ\nಭುಂಜಿಸುವುದು ಮತ್ತೇನೊ ॥',
+            meaning: {
+              en: 'I waited till evening and suffered without even a small ladleful of gruel; and now I eat side dishes and every kind of delicacy. What is this?',
+              kn: 'ಸಂಜೆಯವರೆಗೆ ಕಾದರೂ ಒಂದು ಸಣ್ಣ ಸೌಟು ಗಂಜಿಯೂ ಸಿಗದೆ ಬಳಲಿದೆ; ಈಗ ಪಲ್ಯ ಮೊದಲಾದ ಬಗೆಬಗೆಯ ರುಚಿಗಳನ್ನು ಉಣ್ಣುತ್ತಿದ್ದೇನೆ; ಇದೇನು ಸೋಜಿಗ!',
+            },
+          },
+          {
+            n: 3,
+            text: 'ಜೀರ್ಣ ಮಲಿನ ವಸ್ತ್ರ ಕಾಣದ ನರನಿಗೆ\nಊರ್ಣ ವಿಚಿತ್ರ ಸುವಸನ ।\nವರ್ಣವರ್ಣದಿಂದ ಬಾಹೋದದೇನೊ ಸಂ-\nಪೂರ್ಣಗುಣಾರ್ಣವ ದೇವ ॥',
+            meaning: {
+              en: 'To a man who could not find even a worn and dirty cloth, how do fine woollens and wonderful garments of every colour now come, O Lord, ocean of perfect virtues?',
+              kn: 'ಹರಿದ, ಮಾಸಿದ ಬಟ್ಟೆಯೂ ಸಿಗದಿದ್ದ ಮನುಷ್ಯನಿಗೆ ಈಗ ಉಣ್ಣೆಯ, ವಿಚಿತ್ರವಾದ, ಬಣ್ಣಬಣ್ಣದ ಉತ್ತಮ ವಸ್ತ್ರಗಳು ಬರುತ್ತಿರುವುದೇನು, ಸಂಪೂರ್ಣಗುಣಗಳ ಸಾಗರನಾದ ದೇವನೇ?',
+            },
+          },
+          {
+            n: 4,
+            text: 'ನೀಚೋಚ್ಚ ತಿಳಿಯದೆ ಸರ್ವರ ಚರಣಕ್ಕೆ\nಚಾಚಿದೆ ನೊಸಲ ಹಸ್ತಗಳ ।\nಯೋಚಿಸಿ ನೋಡಲು ಸೋಜಿಗವಾಗಿದೆ\nವಾಚಕ್ಕೆ ನಿಲುಕದು ಹರಿಯೆ ॥',
+            meaning: {
+              en: 'Not knowing high from low, I stretched out my forehead and my hands at everyone’s feet. When I think of it now it is a wonder beyond words, Hari.',
+              kn: 'ಮೇಲು-ಕೀಳು ತಿಳಿಯದೆ ಎಲ್ಲರ ಕಾಲುಗಳಿಗೆ ಹಣೆಯನ್ನೂ ಕೈಗಳನ್ನೂ ಚಾಚಿದೆ. ಯೋಚಿಸಿ ನೋಡಿದರೆ ಇದು ಸೋಜಿಗ; ಮಾತಿಗೆ ನಿಲುಕದು, ಹರಿಯೇ.',
+            },
+          },
+          {
+            n: 5,
+            text: 'ಮಧ್ಯಾಹ್ನ ಕಾಲಕ್ಕೆ ಅತಿಥಿಗಳಿಗೆ ಅನ್ನ\nಮೆದ್ದೆನೆಂದರೆ ಈಯಗಾಣೆ ।\nಈ ಧರೆಯೊಳಗೆ ಸತ್ಪಾತ್ರರ ಕೂಡುಂಬೊ\nಪದ್ಧತಿ ನೋಡೊ ಪುಣ್ಯಾತ್ಮ ॥',
+          },
+          {
+            n: 6,
+            text: 'ಮನೆಮನೆ ತಿರಿದರು ಕಾಸು ಪುಟ್ಟದೆ ಸು-\nಮ್ಮನೆ ಚಾಲ್ವರಿದು ಬಳಲಿದೆನೊ ।\nಹಣಹೊನ್ನು ದ್ರವ್ಯಂಗಳಿದ್ದಲ್ಲಿಗೆ ತನಗೆ\nತಾನೆ ಪ್ರಾಪ್ತಿ ನೋಡೊ ಜೀಯಾ ॥',
+            meaning: {
+              en: 'Though I begged from house to house I did not get a coin, and wore myself out wandering in vain; now money, gold and riches come to me of themselves. See, my Lord!',
+              kn: 'ಮನೆಮನೆ ಭಿಕ್ಷೆ ಬೇಡಿದರೂ ಒಂದು ಕಾಸೂ ಸಿಗದೆ ಸುಮ್ಮನೆ ಅಲೆದು ಬಳಲಿದೆ; ಈಗ ಹಣ, ಹೊನ್ನು, ಸಂಪತ್ತು ತಾನಾಗಿಯೇ ಬರುತ್ತಿದೆ, ನೋಡು ಸ್ವಾಮಿ!',
+            },
+          },
+          {
+            n: 7,
+            text: 'ವೈದಿಕ ಪದವಿಯನೀವಗೆ ಲೌಕಿಕ\nಐದಿಸುವುದು ಬಹು ಖ್ಯಾತೆ ।\nಮೈದುನಗೊಲಿದ ಶ್ರೀವಿಜಯವಿಠಲ ನಿನ್ನ\nಪಾದಸಾಕ್ಷಿಯನುಭವವೊ ॥',
+            meaning: {
+              en: 'It is well known that you, who grant the goal the Vedas speak of, also bestow worldly goods. Śrī Vijaya Viṭhala, who favoured your brother-in-law Arjuna, this is what I have lived, with your feet as witness.',
+              kn: 'ವೇದೋಕ್ತ ಮೋಕ್ಷಪದವಿಯನ್ನು ಕೊಡುವ ನೀನು ಲೌಕಿಕ ಸಂಪತ್ತನ್ನೂ ಕೊಡುವುದು ಪ್ರಸಿದ್ಧವಾಗಿದೆ. ಮೈದುನ ಅರ್ಜುನನಿಗೆ ಒಲಿದ ಶ್ರೀವಿಜಯವಿಠಲನೇ, ಇದು ನಿನ್ನ ಪಾದಗಳೇ ಸಾಕ್ಷಿಯಾದ ನನ್ನ ಅನುಭವ.',
             },
           },
         ],
