@@ -27,6 +27,7 @@ import { mahishasuraMardiniStotram } from './texts/mahishasura-mardini-stotram';
 import { mantraPushpam } from './texts/mantra-pushpam';
 import { manyuSukta } from './texts/manyu-sukta';
 import { narayanaSukta } from './texts/narayana-sukta';
+import { nityaPuja } from './texts/nitya-puja';
 import { pavamanaSukta } from './texts/pavamana-sukta';
 import { purushaSukta } from './texts/purusha-sukta';
 import { raghavendraKavacha } from './texts/raghavendra-kavacha';
@@ -149,6 +150,7 @@ export const LIBRARY: Mantra[] = [
   mantraPushpam,
   manyuSukta,
   narayanaSukta,
+  nityaPuja,
   pavamanaSukta,
   purushaSukta,
   raghavendraKavacha,
