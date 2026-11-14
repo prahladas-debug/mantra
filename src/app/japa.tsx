@@ -39,9 +39,9 @@ const NATIVE = Platform.OS !== 'web';
 const TARGETS: { label: string; value: number | null }[] = [
   { label: '108', value: 108 },
   { label: '1008', value: 1008 },
-  { label: '3 mālās', value: 3 * BEADS_PER_MALA },
-  { label: '11 mālās', value: 11 * BEADS_PER_MALA },
-  { label: '16 mālās', value: 16 * BEADS_PER_MALA },
+  { label: '3 malas', value: 3 * BEADS_PER_MALA },
+  { label: '11 malas', value: 11 * BEADS_PER_MALA },
+  { label: '16 malas', value: 16 * BEADS_PER_MALA },
   { label: 'Open', value: null },
 ];
 
@@ -57,7 +57,7 @@ const haptic = {
 const firstLine = (t: string) => t.split('\n')[0].replace(/\s*[।॥]+\s*$/, '');
 const fmt = (n: number) => String(n).replace(/\B(?=(\d{3})+(?!\d))/g, ',');
 const malas = (n: number) => Math.floor(n / BEADS_PER_MALA);
-const malaLabel = (n: number) => `${n} mālā${n === 1 ? '' : 's'}`;
+const malaLabel = (n: number) => `${n} mala${n === 1 ? '' : 's'}`;
 
 function targetLabel(t: number | null): string {
   if (t == null) return 'open count';
@@ -252,7 +252,7 @@ export default function JapaScreen() {
             </Animated.View>
 
             <View style={s.stats}>
-              <Stat label="Mālā" value={fmt(malas(count))} theme={theme} />
+              <Stat label="Mala" value={fmt(malas(count))} theme={theme} />
               <Stat label="This round" value={`${inRound}/${BEADS_PER_MALA}`} theme={theme} />
               <Stat label="Today" value={fmt(today)} theme={theme} />
             </View>
@@ -432,7 +432,7 @@ function ChantPicker({
           onSubmitEditing={submit}
           returnKeyType="done"
           maxLength={80}
-          placeholder="Type a name, e.g. Om Śrī Gurubhyo namaḥ"
+          placeholder="Type a name, e.g. Om Shri Gurubhyo namah"
           placeholderTextColor={theme.textMuted}
           accessibilityLabel="Your own mantra name"
           style={[s.input, { backgroundColor: theme.card, borderColor: theme.cardBorder, color: theme.text }]}
@@ -541,10 +541,10 @@ function TargetPicker({
             returnKeyType="done"
             placeholder={unit === 'malas' ? 'e.g. 21' : 'e.g. 500'}
             placeholderTextColor={theme.textMuted}
-            accessibilityLabel={unit === 'malas' ? 'Target in mālās' : 'Target in beads'}
+            accessibilityLabel={unit === 'malas' ? 'Target in malas' : 'Target in beads'}
             style={[s.input, { backgroundColor: theme.card, borderColor: theme.cardBorder, color: theme.text, maxWidth: 110 }]}
           />
-          <Chip label="mālās" active={unit === 'malas'} onPress={() => setUnit('malas')} />
+          <Chip label="malas" active={unit === 'malas'} onPress={() => setUnit('malas')} />
           <Chip label="beads" active={unit === 'beads'} onPress={() => setUnit('beads')} />
           <Pressable
             onPress={apply}

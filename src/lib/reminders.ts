@@ -19,7 +19,7 @@ async function ensurePermission(): Promise<boolean> {
   if (Platform.OS === 'web') return false;
   if (Platform.OS === 'android') {
     await Notifications.setNotificationChannelAsync(CHANNEL, {
-      name: 'Pārāyaṇa reminders',
+      name: 'Parayana reminders',
       // AndroidImportance is re-exported via `export *`; eslint-plugin-import can't follow it.
       // eslint-disable-next-line import/namespace
       importance: Notifications.AndroidImportance.DEFAULT,

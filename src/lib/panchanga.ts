@@ -33,6 +33,7 @@
  * - Abhijit muhūrta: the 8th of 15 daytime muhūrtas, centred on local apparent noon
  *   (traditionally avoided on Wednesdays).
  */
+import { INDIA_CITIES } from '../data/cities';
 
 const D2R = Math.PI / 180;
 const norm = (x: number) => ((x % 360) + 360) % 360;
@@ -336,38 +337,136 @@ export const pakshaOf = (i: number): 'शुक्ल' | 'कृष्ण' => (i
 export interface City {
   id: string;
   name: string;
+  /** State (India) or country. */
+  state?: string;
   lat: number;
   lon: number;
   /** Standard-time UTC offset in hours. */
   tz: number;
   /** Daylight-saving rule, if any. */
   dst?: 'us' | 'eu' | 'au';
+  /** Size rank 0–3 (orders search results). */
+  rank?: number;
+  /** Other names to match in search (Bangalore, Bombay …). */
+  alias?: string;
 }
 
+/** Popular places, shown first in the city picker (ids are stored in settings — keep them stable). */
 export const CITIES: City[] = [
-  { id: 'bengaluru', name: 'Bengaluru', lat: 12.97, lon: 77.59, tz: 5.5 },
-  { id: 'mysuru', name: 'Mysuru', lat: 12.3, lon: 76.64, tz: 5.5 },
-  { id: 'udupi', name: 'Udupi', lat: 13.34, lon: 74.75, tz: 5.5 },
-  { id: 'mangaluru', name: 'Mangaluru', lat: 12.91, lon: 74.86, tz: 5.5 },
-  { id: 'hubballi', name: 'Hubballi–Dharwad', lat: 15.36, lon: 75.12, tz: 5.5 },
-  { id: 'mantralayam', name: 'Mantralayam', lat: 15.94, lon: 77.43, tz: 5.5 },
-  { id: 'chennai', name: 'Chennai', lat: 13.08, lon: 80.27, tz: 5.5 },
-  { id: 'hyderabad', name: 'Hyderabad', lat: 17.39, lon: 78.49, tz: 5.5 },
-  { id: 'tirupati', name: 'Tirupati', lat: 13.63, lon: 79.42, tz: 5.5 },
-  { id: 'pune', name: 'Pune', lat: 18.52, lon: 73.86, tz: 5.5 },
-  { id: 'mumbai', name: 'Mumbai', lat: 19.08, lon: 72.88, tz: 5.5 },
-  { id: 'delhi', name: 'Delhi', lat: 28.61, lon: 77.21, tz: 5.5 },
-  { id: 'kolkata', name: 'Kolkata', lat: 22.57, lon: 88.36, tz: 5.5 },
-  { id: 'singapore', name: 'Singapore', lat: 1.35, lon: 103.82, tz: 8 },
-  { id: 'dubai', name: 'Dubai', lat: 25.2, lon: 55.27, tz: 4 },
-  { id: 'london', name: 'London', lat: 51.51, lon: -0.13, tz: 0, dst: 'eu' },
-  { id: 'new-york', name: 'New York / NJ', lat: 40.71, lon: -74.01, tz: -5, dst: 'us' },
-  { id: 'bay-area', name: 'San Francisco Bay Area', lat: 37.39, lon: -122.08, tz: -8, dst: 'us' },
-  { id: 'seattle', name: 'Seattle', lat: 47.61, lon: -122.33, tz: -8, dst: 'us' },
-  { id: 'sydney', name: 'Sydney', lat: -33.87, lon: 151.21, tz: 10, dst: 'au' },
+  { id: 'bengaluru', name: 'Bengaluru', state: 'Karnataka', lat: 12.97, lon: 77.59, tz: 5.5, rank: 3, alias: 'Bangalore' },
+  { id: 'mysuru', name: 'Mysuru', state: 'Karnataka', lat: 12.3, lon: 76.64, tz: 5.5, rank: 2, alias: 'Mysore' },
+  { id: 'udupi', name: 'Udupi', state: 'Karnataka', lat: 13.34, lon: 74.75, tz: 5.5, rank: 2, alias: 'Udipi' },
+  { id: 'mangaluru', name: 'Mangaluru', state: 'Karnataka', lat: 12.91, lon: 74.86, tz: 5.5, rank: 2, alias: 'Mangalore' },
+  { id: 'hubballi', name: 'Hubballi–Dharwad', state: 'Karnataka', lat: 15.36, lon: 75.12, tz: 5.5, rank: 2, alias: 'Hubli Dharwad' },
+  { id: 'mantralayam', name: 'Mantralayam', state: 'Andhra Pradesh', lat: 15.94, lon: 77.43, tz: 5.5, rank: 2 },
+  { id: 'chennai', name: 'Chennai', state: 'Tamil Nadu', lat: 13.08, lon: 80.27, tz: 5.5, rank: 3, alias: 'Madras' },
+  { id: 'hyderabad', name: 'Hyderabad', state: 'Telangana', lat: 17.39, lon: 78.49, tz: 5.5, rank: 3 },
+  { id: 'tirupati', name: 'Tirupati', state: 'Andhra Pradesh', lat: 13.63, lon: 79.42, tz: 5.5, rank: 2 },
+  { id: 'pune', name: 'Pune', state: 'Maharashtra', lat: 18.52, lon: 73.86, tz: 5.5, rank: 3, alias: 'Poona' },
+  { id: 'mumbai', name: 'Mumbai', state: 'Maharashtra', lat: 19.08, lon: 72.88, tz: 5.5, rank: 3, alias: 'Bombay' },
+  { id: 'delhi', name: 'Delhi', state: 'Delhi', lat: 28.61, lon: 77.21, tz: 5.5, rank: 3, alias: 'New Delhi' },
+  { id: 'kolkata', name: 'Kolkata', state: 'West Bengal', lat: 22.57, lon: 88.36, tz: 5.5, rank: 3, alias: 'Calcutta' },
+  { id: 'singapore', name: 'Singapore', state: 'Singapore', lat: 1.35, lon: 103.82, tz: 8, rank: 3 },
+  { id: 'dubai', name: 'Dubai', state: 'UAE', lat: 25.2, lon: 55.27, tz: 4, rank: 3 },
+  { id: 'london', name: 'London', state: 'UK', lat: 51.51, lon: -0.13, tz: 0, dst: 'eu', rank: 3 },
+  { id: 'new-york', name: 'New York / NJ', state: 'USA', lat: 40.71, lon: -74.01, tz: -5, dst: 'us', rank: 3 },
+  { id: 'bay-area', name: 'San Francisco Bay Area', state: 'USA', lat: 37.39, lon: -122.08, tz: -8, dst: 'us', rank: 3 },
+  { id: 'seattle', name: 'Seattle', state: 'USA', lat: 47.61, lon: -122.33, tz: -8, dst: 'us', rank: 3 },
+  { id: 'sydney', name: 'Sydney', state: 'Australia', lat: -33.87, lon: 151.21, tz: 10, dst: 'au', rank: 3 },
 ];
 
-export const cityById = (id: string | undefined): City => CITIES.find((c) => c.id === id) ?? CITIES[0];
+/** Places outside India (besides those in CITIES). */
+const ABROAD: City[] = [
+  { id: 'abu-dhabi', name: 'Abu Dhabi', state: 'UAE', lat: 24.45, lon: 54.38, tz: 4 },
+  { id: 'muscat', name: 'Muscat', state: 'Oman', lat: 23.59, lon: 58.41, tz: 4 },
+  { id: 'doha', name: 'Doha', state: 'Qatar', lat: 25.29, lon: 51.53, tz: 3 },
+  { id: 'kuwait', name: 'Kuwait City', state: 'Kuwait', lat: 29.38, lon: 47.99, tz: 3 },
+  { id: 'riyadh', name: 'Riyadh', state: 'Saudi Arabia', lat: 24.71, lon: 46.68, tz: 3 },
+  { id: 'kathmandu', name: 'Kathmandu', state: 'Nepal', lat: 27.72, lon: 85.32, tz: 5.75 },
+  { id: 'colombo', name: 'Colombo', state: 'Sri Lanka', lat: 6.93, lon: 79.86, tz: 5.5 },
+  { id: 'dhaka', name: 'Dhaka', state: 'Bangladesh', lat: 23.81, lon: 90.41, tz: 6 },
+  { id: 'kuala-lumpur', name: 'Kuala Lumpur', state: 'Malaysia', lat: 3.14, lon: 101.69, tz: 8 },
+  { id: 'hong-kong', name: 'Hong Kong', state: 'China', lat: 22.32, lon: 114.17, tz: 8 },
+  { id: 'tokyo', name: 'Tokyo', state: 'Japan', lat: 35.68, lon: 139.69, tz: 9 },
+  { id: 'nairobi', name: 'Nairobi', state: 'Kenya', lat: -1.29, lon: 36.82, tz: 3 },
+  { id: 'johannesburg', name: 'Johannesburg', state: 'South Africa', lat: -26.2, lon: 28.05, tz: 2 },
+  { id: 'durban', name: 'Durban', state: 'South Africa', lat: -29.86, lon: 31.02, tz: 2 },
+  { id: 'mauritius', name: 'Port Louis', state: 'Mauritius', lat: -20.16, lon: 57.5, tz: 4 },
+  { id: 'frankfurt', name: 'Frankfurt', state: 'Germany', lat: 50.11, lon: 8.68, tz: 1, dst: 'eu' },
+  { id: 'munich', name: 'Munich', state: 'Germany', lat: 48.14, lon: 11.58, tz: 1, dst: 'eu' },
+  { id: 'paris', name: 'Paris', state: 'France', lat: 48.86, lon: 2.35, tz: 1, dst: 'eu' },
+  { id: 'amsterdam', name: 'Amsterdam', state: 'Netherlands', lat: 52.37, lon: 4.9, tz: 1, dst: 'eu' },
+  { id: 'zurich', name: 'Zurich', state: 'Switzerland', lat: 47.38, lon: 8.54, tz: 1, dst: 'eu' },
+  { id: 'dublin', name: 'Dublin', state: 'Ireland', lat: 53.35, lon: -6.26, tz: 0, dst: 'eu' },
+  { id: 'manchester', name: 'Manchester', state: 'UK', lat: 53.48, lon: -2.24, tz: 0, dst: 'eu' },
+  { id: 'leicester', name: 'Leicester', state: 'UK', lat: 52.64, lon: -1.13, tz: 0, dst: 'eu' },
+  { id: 'toronto', name: 'Toronto', state: 'Canada', lat: 43.65, lon: -79.38, tz: -5, dst: 'us' },
+  { id: 'vancouver', name: 'Vancouver', state: 'Canada', lat: 49.28, lon: -123.12, tz: -8, dst: 'us' },
+  { id: 'boston', name: 'Boston', state: 'USA', lat: 42.36, lon: -71.06, tz: -5, dst: 'us' },
+  { id: 'washington', name: 'Washington DC area', state: 'USA', lat: 38.9, lon: -77.04, tz: -5, dst: 'us' },
+  { id: 'atlanta', name: 'Atlanta', state: 'USA', lat: 33.75, lon: -84.39, tz: -5, dst: 'us' },
+  { id: 'chicago', name: 'Chicago', state: 'USA', lat: 41.88, lon: -87.63, tz: -6, dst: 'us' },
+  { id: 'dallas', name: 'Dallas', state: 'USA', lat: 32.78, lon: -96.8, tz: -6, dst: 'us' },
+  { id: 'houston', name: 'Houston', state: 'USA', lat: 29.76, lon: -95.37, tz: -6, dst: 'us' },
+  { id: 'denver', name: 'Denver', state: 'USA', lat: 39.74, lon: -104.99, tz: -7, dst: 'us' },
+  { id: 'los-angeles', name: 'Los Angeles', state: 'USA', lat: 34.05, lon: -118.24, tz: -8, dst: 'us' },
+  { id: 'melbourne', name: 'Melbourne', state: 'Australia', lat: -37.81, lon: 144.96, tz: 10, dst: 'au' },
+  { id: 'brisbane', name: 'Brisbane', state: 'Australia', lat: -27.47, lon: 153.03, tz: 10 },
+  { id: 'perth', name: 'Perth', state: 'Australia', lat: -31.95, lon: 115.86, tz: 8 },
+];
+
+const slug = (s: string) => s.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+
+let all: City[] | null = null;
+let byId: Map<string, City> | null = null;
+/** Every selectable place: CITIES, then all Indian towns of 15,000+ people (GeoNames) and ABROAD. */
+export function allCities(): City[] {
+  if (all) return all;
+  const out: City[] = [...CITIES];
+  const ids = new Set(out.map((c) => c.id));
+  const near = (a: City, lat: number, lon: number) => Math.abs(a.lat - lat) < 0.12 && Math.abs(a.lon - lon) < 0.12;
+  for (const [name, state, lat, lon, rank, alias] of INDIA_CITIES) {
+    // Skip the GeoNames twin of a popular place (same name, same spot).
+    if (CITIES.some((c) => near(c, lat, lon) && (c.name.startsWith(name) || (c.alias ?? '').includes(name)))) continue;
+    let id = slug(name);
+    if (ids.has(id)) id = `${id}-${slug(state)}`;
+    if (ids.has(id)) continue;
+    ids.add(id);
+    out.push({ id, name, state, lat, lon, tz: 5.5, rank, alias });
+  }
+  for (const c of ABROAD) if (!ids.has(c.id)) out.push({ rank: 2, ...c });
+  all = out;
+  return out;
+}
+
+export const cityById = (id: string | undefined): City => {
+  if (!byId) byId = new Map(allCities().map((c) => [c.id, c]));
+  return (id && byId.get(id)) || CITIES[0];
+};
+
+/** "Udupi, Karnataka". */
+export const cityLabel = (c: City) => (c.state && c.state !== c.name ? `${c.name}, ${c.state}` : c.name);
+
+const fold = (s: string) => s.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+/** Places whose name, other name or state starts with the query (word prefix), larger places first. */
+export function searchCities(query: string, limit = 80): City[] {
+  const q = fold(query.trim());
+  if (!q) return CITIES;
+  const scored: [number, City][] = [];
+  for (const c of allCities()) {
+    const name = fold(c.name);
+    const alias = fold(c.alias ?? '');
+    const state = fold(c.state ?? '');
+    let score = -1;
+    if (name === q) score = 100;
+    else if (name.startsWith(q) || alias.split(/\s+/).some((w) => w.startsWith(q))) score = 60;
+    else if (name.split(/[\s–-]+/).some((w) => w.startsWith(q))) score = 40;
+    else if (state.startsWith(q) || state.split(/\s+/).some((w) => w.startsWith(q))) score = 20;
+    if (score >= 0) scored.push([score + (c.rank ?? 0) * 5, c]);
+  }
+  scored.sort((a, b) => b[0] - a[0] || a[1].name.localeCompare(b[1].name));
+  return scored.slice(0, limit).map(([, c]) => c);
+}
 
 /** Day of month of the n-th (n ≥ 1) or last (n = −1) Sunday of month m (1–12). */
 function sunday(y: number, m: number, n: number): number {

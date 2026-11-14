@@ -8,7 +8,7 @@ export default function ParayanaScreen() {
   const { theme, plans } = useSettings();
   return (
     <ScrollView style={{ backgroundColor: theme.bg }} contentContainerStyle={{ paddingBottom: 40 }}>
-      <Stack.Screen options={{ title: 'Pārāyaṇa · ಪಾರಾಯಣ' }} />
+      <Stack.Screen options={{ title: 'Parayana · ಪಾರಾಯಣ' }} />
       <Pressable
         onPress={() => router.push('/parayana-new')}
         style={({ pressed }) => ({
@@ -17,11 +17,11 @@ export default function ParayanaScreen() {
         })}
       >
         <Ionicons name="add" size={20} color={theme.onAccent} />
-        <Text style={{ color: theme.onAccent, fontSize: 16, fontWeight: '700' }}>New pārāyaṇa · ಹೊಸ ಪಾರಾಯಣ</Text>
+        <Text style={{ color: theme.onAccent, fontSize: 16, fontWeight: '700' }}>New parayana · ಹೊಸ ಪಾರಾಯಣ</Text>
       </Pressable>
       {plans.length === 0 && (
         <Text style={{ color: theme.textMuted, marginHorizontal: 16, lineHeight: 22 }}>
-          Plan a pārāyaṇa, for example the Sundarakāṇḍa in 7 days, the Gītā in 18 days, or Lalitā Sahasranāma
+          Plan a parayana, for example the Sundarakanda in 7 days, the Gita in 18 days, or Lalita Sahasranama
           every day for 40 days. The app shows what to read each day, keeps count, and can remind you.
         </Text>
       )}

@@ -11,6 +11,7 @@ import { bindDandas, translit, translitInline, translitTitle, verseNumber } from
 import { SankalpaCard } from '../PanchangaCard';
 import { Chip } from '../ui';
 import { useReader } from './context';
+import { plain } from '../../lib/plain';
 
 /** Small ornamental rule, as in printed stotra books. */
 export function Ornament({ small }: { small?: boolean }) {
@@ -57,7 +58,7 @@ export function IntroBlock({ book }: { book?: boolean }) {
         {mantra.titleEn}
       </Text>
       <Text style={{ color: theme.textMuted, fontSize: 13, marginTop: 4, textAlign: book ? 'center' : 'left' }}>
-        {[categoryById[mantra.category]?.titleEn, mantra.deity, mantra.source].filter(Boolean).join(' · ')}
+        {plain([categoryById[mantra.category]?.titleEn, mantra.deity, mantra.source].filter(Boolean).join(' · '))}
       </Text>
       {book && <Ornament />}
       <Text
@@ -235,7 +236,7 @@ export function PlanControls({ mantraId }: { mantraId: string }) {
   const isRead = reading.some((p) => p.read.includes(mantraId));
   return (
     <View style={[b.planBox, { borderColor: theme.cardBorder, backgroundColor: theme.card }]}>
-      <Text style={{ color: theme.textMuted, fontSize: 12, fontWeight: '700', letterSpacing: 0.8 }}>PĀRĀYAṆA · ಪಾರಾಯಣ</Text>
+      <Text style={{ color: theme.textMuted, fontSize: 12, fontWeight: '700', letterSpacing: 0.8 }}>PARAYANA · ಪಾರಾಯಣ</Text>
       {reading.length > 0 && (
         <Pressable onPress={() => markPlanItemRead(mantraId, !isRead)} style={[b.planButton, { backgroundColor: isRead ? theme.accentSoft : theme.accent }]}>
           <Text style={{ color: isRead ? theme.accent : theme.onAccent, fontWeight: '700', fontSize: 15 }}>

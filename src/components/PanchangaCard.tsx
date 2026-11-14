@@ -5,9 +5,9 @@ import { useCallback, useEffect, useMemo, useState, useSyncExternalStore } from 
 import { Pressable, Text, View } from 'react-native';
 import { defaultRule, festivalsOn, type CalendarMode, type EkadashiRule, type Festival } from '../lib/festivals';
 import { sauraDay, sauraSankalpa, type SauraStart } from '../lib/sauramana';
-import { Chip } from './ui';
 import { cityById, panchanga, todayIn } from '../lib/panchanga';
 import { useSettings } from '../lib/settings';
+import { plain } from '../lib/plain';
 import { translit } from '../lib/transliterate';
 
 // ---------- small persisted preferences shared by the pañcāṅga screens ----------
@@ -71,58 +71,6 @@ export function useSauraStart(): [SauraStart, (s: SauraStart) => void] {
   return [stored ?? 'next', set];
 }
 
-/** The two-chip Cāndramāna / Sauramāna switch. */
-export function CalendarModeChips() {
-  const [mode, setMode] = useCalendarMode();
-  return (
-    <>
-      <Chip label="Cāndramāna" active={mode === 'chandra'} onPress={() => setMode('chandra')} />
-      <Chip label="Sauramāna" active={mode === 'saura'} onPress={() => setMode('saura')} />
-    </>
-  );
-}
-
-/** Month-start choice, shown only in Sauramāna mode. */
-export function SauraStartChips() {
-  const { theme } = useSettings();
-  const [mode] = useCalendarMode();
-  const [start, setStart] = useSauraStart();
-  if (mode !== 'saura') return null;
-  return (
-    <View style={{ gap: 4 }}>
-      <View style={{ flexDirection: 'row', alignItems: 'center', gap: 8, flexWrap: 'wrap' }}>
-        <Text style={{ color: theme.textMuted, fontSize: 13, width: 72 }}>Month start</Text>
-        <Chip label="Next day" active={start === 'next'} onPress={() => setStart('next')} />
-        <Chip label="Same day" active={start === 'same'} onPress={() => setStart('same')} />
-      </View>
-      <Text style={{ color: theme.textMuted, fontSize: 12 }}>
-        When the saṅkrānti falls in the daytime, the new solar month starts the next day or that same day. Practice differs, even in Udupi.
-      </Text>
-    </View>
-  );
-}
-
-/** Labelled rows: ekādaśī rule (Smārta/Mādhva) and calendar (Cāndramāna/Sauramāna). */
-export function CalendarOptions({ rule, setRule }: { rule: string; setRule: (r: 'smarta' | 'madhva') => void }) {
-  const { theme } = useSettings();
-  const label = { color: theme.textMuted, fontSize: 13, width: 72 };
-  const row = { flexDirection: 'row' as const, alignItems: 'center' as const, gap: 8, flexWrap: 'wrap' as const };
-  return (
-    <View style={{ gap: 8, marginTop: 10, marginHorizontal: 16 }}>
-      <View style={row}>
-        <Text style={label}>Tradition</Text>
-        <Chip label="Smārta" active={rule === 'smarta'} onPress={() => setRule('smarta')} />
-        <Chip label="Mādhva" active={rule === 'madhva'} onPress={() => setRule('madhva')} />
-      </View>
-      <View style={row}>
-        <Text style={label}>Calendar</Text>
-        <CalendarModeChips />
-      </View>
-      <SauraStartChips />
-    </View>
-  );
-}
-
 /** Today's date at the selected city. */
 function useToday() {
   const { settings } = useSettings();
@@ -161,32 +109,37 @@ export function NavButton({ icon, label, onPress }: { icon: 'chevron-back' | 'ch
   );
 }
 
-/** One festival as a tappable line (opens the linked text when there is one). */
-export function FestivalLine({ f, showDate }: { f: Festival; showDate?: boolean }) {
+/** One festival: name, plain-English name, a "read" link to its text and an ⓘ that opens its note. */
+export function FestivalLine({ f, showDate, showNote }: { f: Festival; showDate?: boolean; showNote?: boolean }) {
   const { theme, settings } = useSettings();
-  const body = (
-    <>
-      <Text style={{ color: f.kind === 'ekadashi' ? theme.accent : theme.text, fontSize: 16, fontWeight: '600' }}>
-        {showDate ? `${f.date.slice(8)}/${f.date.slice(5, 7)} · ` : ''}
-        {translit(f.name, settings.script)}
-      </Text>
-      <Text style={{ color: theme.textMuted, fontSize: 13, marginTop: 1 }}>
-        {f.en}
-        {f.endDate ? ` (to ${f.endDate.slice(8)}/${f.endDate.slice(5, 7)})` : ''}
-        {f.calendar === 'saura' ? ' · Sauramāna' : f.calendar === 'civil' ? ' · fixed date' : ''}
-        {f.textId ? '  ·  read ›' : ''}
-      </Text>
-    </>
-  );
-  if (!f.textId) return <View style={{ paddingVertical: 4 }}>{body}</View>;
+  const [open, setOpen] = useState(!!showNote);
   return (
-    <Pressable
-      onPress={() => router.push(`/mantra/${f.textId}` as Href)}
-      accessibilityRole="link"
-      style={({ pressed }) => ({ paddingVertical: 4, opacity: pressed ? 0.6 : 1 })}
-    >
-      {body}
-    </Pressable>
+    <View style={{ paddingVertical: 5 }}>
+      <View style={{ flexDirection: 'row', alignItems: 'flex-start', gap: 8 }}>
+        <Pressable
+          disabled={!f.textId}
+          onPress={() => router.push(`/mantra/${f.textId}` as Href)}
+          accessibilityRole={f.textId ? 'link' : undefined}
+          style={({ pressed }) => ({ flex: 1, opacity: pressed ? 0.6 : 1 })}
+        >
+          <Text style={{ color: f.kind === 'ekadashi' ? theme.accent : theme.text, fontSize: 16, fontWeight: '600' }}>
+            {showDate ? `${f.date.slice(8)}/${f.date.slice(5, 7)} · ` : ''}
+            {translit(f.name, settings.script)}
+          </Text>
+          <Text style={{ color: theme.textMuted, fontSize: 13, marginTop: 1 }}>
+            {plain(f.en)}
+            {f.endDate ? ` (to ${f.endDate.slice(8)}/${f.endDate.slice(5, 7)})` : ''}
+            {f.textId ? <Text style={{ color: theme.accent }}>{'  ·  read ›'}</Text> : null}
+          </Text>
+        </Pressable>
+        {f.note && !showNote ? (
+          <Pressable onPress={() => setOpen(!open)} hitSlop={10} accessibilityRole="button" accessibilityLabel={open ? 'Hide details' : 'Show details'}>
+            <Ionicons name={open ? 'information-circle' : 'information-circle-outline'} size={20} color={theme.textMuted} />
+          </Pressable>
+        ) : null}
+      </View>
+      {open && f.note ? <Text style={{ color: theme.textMuted, fontSize: 13, lineHeight: 18, marginTop: 3 }}>{plain(f.note)}</Text> : null}
+    </View>
   );
 }
 
@@ -210,7 +163,7 @@ export function TodayCard() {
       accessibilityRole="link"
     >
       <Text style={{ color: theme.textMuted, fontSize: 12, fontWeight: '700', letterSpacing: 0.8 }}>
-        TODAY · ಇಂದು · {city.name.toUpperCase()}
+        TODAY · {city.name.toUpperCase()}
       </Text>
       <Text style={{ color: theme.accent, fontSize: 18, fontWeight: '700', marginTop: 4 }}>
         {saura
@@ -219,7 +172,7 @@ export function TodayCard() {
       </Text>
       {saura && (
         <Text style={{ color: theme.textMuted, fontSize: 13 }}>
-          Sauramāna · {saura.tulu} {saura.day} · {t(`${p.adhika ? 'अधिक ' : ''}${p.masa}`)} (Cāndramāna)
+          Sauramana · {plain(saura.tulu)} {saura.day} · lunar month {t(`${p.adhika ? 'अधिक ' : ''}${p.masa}`)}
         </Text>
       )}
       <Text style={{ color: theme.text, fontSize: 15, marginTop: 2 }}>
@@ -244,13 +197,13 @@ export function SankalpaCard() {
   return (
     <View style={{ marginTop: 14, padding: 12, borderRadius: 12, borderWidth: 1, borderColor: theme.cardBorder, backgroundColor: theme.card }}>
       <Text style={{ color: theme.textMuted, fontSize: 13, fontWeight: '700', marginBottom: 6 }}>
-        Today’s saṅkalpa details · ಇಂದಿನ ಸಂಕಲ್ಪ ({city.name})
+        Today’s sankalpa · {city.name}
       </Text>
       <Text style={{ color: theme.text, fontSize: 17, lineHeight: 28 }} selectable>
         {translit(sankalpa, settings.script)}
       </Text>
       <Text style={{ color: theme.textMuted, fontSize: 12, marginTop: 6 }}>
-        Use in place of the samvatsara…tithi placeholders. Computed for sunrise; change city in Pañcāṅga.
+        Use in place of the samvatsara…tithi placeholders. Computed for sunrise; change the place in Panchanga.
       </Text>
     </View>
   );

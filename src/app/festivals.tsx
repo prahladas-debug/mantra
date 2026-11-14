@@ -1,7 +1,8 @@
 import { Stack, useLocalSearchParams } from 'expo-router';
 import { useState } from 'react';
 import { ScrollView, Text, View } from 'react-native';
-import { CalendarOptions, FestivalLine, useCalendarMode, useEkadashiRule, useSauraStart } from '../components/PanchangaCard';
+import { FestivalLine, useCalendarMode, useEkadashiRule, useSauraStart } from '../components/PanchangaCard';
+import { CalendarBar } from '../components/CalendarBar';
 import { Chip, SectionHeading } from '../components/ui';
 import { festivalsBetween, type Festival } from '../lib/festivals';
 import { cityById, todayIn } from '../lib/panchanga';
@@ -20,7 +21,7 @@ export default function FestivalsYearScreen() {
   const fromParam = Number(params.year);
   const [picked, setPicked] = useState<number | null>(null);
   const year = picked ?? (fromParam >= 1900 && fromParam <= 2200 ? fromParam : thisYear);
-  const [rule, setRule] = useEkadashiRule();
+  const [rule] = useEkadashiRule();
   const [mode] = useCalendarMode();
   const [start] = useSauraStart();
 
@@ -40,10 +41,9 @@ export default function FestivalsYearScreen() {
           <Chip key={y} label={String(y)} active={y === year} onPress={() => setPicked(y)} />
         ))}
       </ScrollView>
-      <CalendarOptions rule={rule} setRule={setRule} />
+      <CalendarBar />
       <Text style={{ color: theme.textMuted, fontSize: 13, marginHorizontal: 16, marginTop: 10 }}>
-        {city.name} · ekādaśīs by the {rule === 'smarta' ? 'Smārta' : 'Mādhva'} rule
-        {mode === 'saura' ? ' · with Udupi / Sauramāna festivals' : ''}
+        Ekadashi by the {rule === 'smarta' ? 'Smarta' : 'Madhva'} rule{mode === 'saura' ? ' · with Udupi festivals' : ''} · tap ⓘ for details
       </Text>
 
       {byMonth.map((list, mi) =>
@@ -54,7 +54,6 @@ export default function FestivalsYearScreen() {
               {list.map((f) => (
                 <View key={`${f.key}-${f.date}`} style={{ paddingVertical: 2 }}>
                   <FestivalLine f={f} showDate />
-                  {f.note ? <Text style={{ color: theme.textMuted, fontSize: 12, lineHeight: 17 }}>{f.note}</Text> : null}
                 </View>
               ))}
             </View>
@@ -63,7 +62,7 @@ export default function FestivalsYearScreen() {
       )}
       <Text style={{ color: theme.textMuted, fontSize: 13, margin: 16, lineHeight: 19 }}>
         Computed on the device from the Sun and Moon positions; dates agree with drikpanchang for the years checked
-        (2025–2030 and spot checks to 2036). Local maṭha and temple calendars can differ by a day.
+        (2025–2030 and spot checks to 2036). Local matha and temple calendars can differ by a day.
       </Text>
     </ScrollView>
   );

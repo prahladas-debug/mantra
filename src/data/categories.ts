@@ -17,25 +17,25 @@ export const CATEGORIES: Category[] = [
     id: 'sundarakanda',
     title: 'सुन्दरकाण्डम्',
     titleEn: 'Sundarakanda',
-    description: 'Vālmīki Rāmāyaṇa, Sundarakāṇḍa, sarga by sarga for pārāyaṇa.',
+    description: 'Valmiki Ramayana, Sundarakanda, sarga by sarga for parayana.',
   },
   {
     id: 'devimahatmya',
     title: 'देवीमाहात्म्यम्',
     titleEn: 'Devi Mahatmyam',
-    description: 'Durgā Saptaśatī: 13 chapters with Kavaca, Argalā and Kīlaka.',
+    description: 'Durga Saptashati: 13 chapters with Kavaca, Argala and Kilaka.',
   },
   {
     id: 'harikathamrutasara',
     title: 'हरिकथामृतसार',
     titleEn: 'Harikathamrutasara',
-    description: 'Jagannātha Dāsa’s Kannada classic, sandhi by sandhi.',
+    description: 'Jagannatha Dasa’s Kannada classic, sandhi by sandhi.',
   },
   {
     id: 'sumadhvavijaya',
     title: 'सुमध्वविजयः',
     titleEn: 'Sumadhva Vijaya',
-    description: 'Nārāyaṇa Paṇḍitācārya’s life of Śrī Madhvācārya, sarga by sarga.',
+    description: 'Narayana Panditacharya’s life of Shri Madhvacharya, sarga by sarga.',
   },
   {
     id: 'vedic',
@@ -65,7 +65,7 @@ export const CATEGORIES: Category[] = [
     id: 'dasara-pada',
     title: 'दासर पदगळु',
     titleEn: 'Dasara Pada',
-    description: 'Kannada devotional songs of the Haridāsas: Purandara Dāsa, Kanaka Dāsa, Vijaya Dāsa and others.',
+    description: 'Kannada devotional songs of the Haridasas: Purandara Dasa, Kanaka Dasa, Vijaya Dasa and others.',
   },
   {
     id: 'sandhya',

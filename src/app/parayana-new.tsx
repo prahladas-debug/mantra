@@ -61,7 +61,7 @@ export default function NewPlan() {
   const card = { marginHorizontal: 16, marginBottom: 8, padding: 12, borderRadius: 12, borderWidth: 1 };
   return (
     <View style={{ flex: 1, backgroundColor: theme.bg }}>
-      <Stack.Screen options={{ title: 'New pārāyaṇa' }} />
+      <Stack.Screen options={{ title: 'New parayana' }} />
       <ScrollView contentContainerStyle={{ paddingBottom: 100 }} keyboardShouldPersistTaps="handled">
         <SectionHeading>Type · ವಿಧ</SectionHeading>
         <View style={{ flexDirection: 'row', gap: 8, marginHorizontal: 16 }}>

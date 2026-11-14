@@ -32,6 +32,11 @@ export default function About() {
           "and follow your family's sampradaya for Sandhya Vandane and puja procedures. Texts marked " +
           '“Partial” are still being completed. Corrections are very welcome.'}
       </Text>
+      <Text style={h}>Places</Text>
+      <Text style={p}>
+        Place names and coordinates for Indian towns come from GeoNames (geonames.org), licensed under
+        Creative Commons Attribution 4.0.
+      </Text>
       <Text style={{ color: theme.textMuted, fontSize: 13 }}>Version {Constants.expoConfig?.version ?? '1.0.0'}</Text>
     </ScrollView>
   );

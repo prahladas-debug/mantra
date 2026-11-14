@@ -16,17 +16,17 @@ import { translit, translitTitle } from '../lib/transliterate';
 /** The library, arranged on shelves as it grows. */
 const SHELVES: { title: string; titleKn: string; categories: CategoryId[] }[] = [
   { title: 'Daily & rituals', titleKn: 'ನಿತ್ಯ ಕರ್ಮ', categories: ['nitya', 'sandhya', 'puja'] },
-  { title: 'Pārāyaṇa granthas', titleKn: 'ಪಾರಾಯಣ ಗ್ರಂಥಗಳು', categories: ['gita', 'sundarakanda', 'devimahatmya', 'sumadhvavijaya', 'harikathamrutasara'] },
-  { title: 'Stotras & Sahasranāma', titleKn: 'ಸ್ತೋತ್ರಗಳು', categories: ['stotra', 'sahasranama'] },
+  { title: 'Parayana granthas', titleKn: 'ಪಾರಾಯಣ ಗ್ರಂಥಗಳು', categories: ['gita', 'sundarakanda', 'devimahatmya', 'sumadhvavijaya', 'harikathamrutasara'] },
+  { title: 'Stotras & Sahasranama', titleKn: 'ಸ್ತೋತ್ರಗಳು', categories: ['stotra', 'sahasranama'] },
   { title: 'Vedic', titleKn: 'ವೈದಿಕ', categories: ['vedic'] },
-  { title: 'Madhva & Haridāsa', titleKn: 'ಮಾಧ್ವ · ದಾಸ ಸಾಹಿತ್ಯ', categories: ['madhva', 'dasara-pada'] },
+  { title: 'Madhva & Haridasa', titleKn: 'ಮಾಧ್ವ · ದಾಸ ಸಾಹಿತ್ಯ', categories: ['madhva', 'dasara-pada'] },
 ];
 
 const TOOLS: { icon: keyof typeof Ionicons.glyphMap; label: string; href: string }[] = [
   { icon: 'calendar-outline', label: 'Calendar', href: '/calendar' },
-  { icon: 'sunny-outline', label: 'Pañcāṅga', href: '/panchanga' },
+  { icon: 'sunny-outline', label: 'Panchanga', href: '/panchanga' },
   { icon: 'ellipse-outline', label: 'Japa', href: '/japa' },
-  { icon: 'flag-outline', label: 'Pārāyaṇa', href: '/parayana' },
+  { icon: 'flag-outline', label: 'Parayana', href: '/parayana' },
   { icon: 'bookmark-outline', label: 'Bookmarks', href: '/bookmarks' },
 ];
 
@@ -47,7 +47,7 @@ export default function Home() {
       <View style={s.header}>
         <View style={{ flex: 1 }}>
           <Text style={{ color: theme.accent, fontSize: 30, fontFamily: font, fontWeight: font ? undefined : '700' }}>{appTitle(settings.script)}</Text>
-          <Text style={{ color: theme.textMuted, fontSize: 15 }}>Vedic mantras, stotras & pārāyaṇa in your script</Text>
+          <Text style={{ color: theme.textMuted, fontSize: 15 }}>Vedic mantras, stotras & parayana in your script</Text>
         </View>
         <Link href="/settings" asChild>
           <Pressable hitSlop={12} accessibilityLabel="Settings">
@@ -98,7 +98,7 @@ export default function Home() {
         </>
       )}
 
-      {activePlans.length > 0 && <SectionHeading>Pārāyaṇa · ಪಾರಾಯಣ</SectionHeading>}
+      {activePlans.length > 0 && <SectionHeading>Parayana · ಪಾರಾಯಣ</SectionHeading>}
       {activePlans.map((p) => (
         <PlanCard key={p.id} plan={p} compact />
       ))}

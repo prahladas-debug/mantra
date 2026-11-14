@@ -20,7 +20,7 @@ export function PlanCard({ plan, compact }: { plan: Plan; compact?: boolean }) {
     let notificationId: string | undefined;
     if (time) {
       notificationId =
-        (await scheduleDailyReminder('Pārāyaṇa · ಪಾರಾಯಣ', `Today: ${plan.title}`, time)) ?? undefined;
+        (await scheduleDailyReminder('Parayana · ಪಾರಾಯಣ', `Today: ${plan.title}`, time)) ?? undefined;
     }
     updatePlan(plan.id, { reminder: time, notificationId });
   };

@@ -32,19 +32,19 @@ export interface JapaPreset {
 }
 
 export const JAPA_PRESETS: JapaPreset[] = [
-  { id: 'gayatri-mantra', libraryId: 'gayatri-mantra', text: '', en: 'Gāyatrī' },
-  { id: 'om-namo-narayanaya', text: 'ॐ नमो नारायणाय', en: 'Om namo Nārāyaṇāya' },
-  { id: 'om-namo-bhagavate-vasudevaya', text: 'ॐ नमो भगवते वासुदेवाय', en: 'Om namo Bhagavate Vāsudevāya' },
-  { id: 'om-namah-shivaya', text: 'ॐ नमः शिवाय', en: 'Om namaḥ Śivāya' },
-  { id: 'sri-rama-jaya-rama', text: 'श्रीराम जय राम जय जय राम', en: 'Śrī Rāma jaya Rāma' },
+  { id: 'gayatri-mantra', libraryId: 'gayatri-mantra', text: '', en: 'Gayatri' },
+  { id: 'om-namo-narayanaya', text: 'ॐ नमो नारायणाय', en: 'Om namo Narayanaya' },
+  { id: 'om-namo-bhagavate-vasudevaya', text: 'ॐ नमो भगवते वासुदेवाय', en: 'Om namo Bhagavate Vasudevaya' },
+  { id: 'om-namah-shivaya', text: 'ॐ नमः शिवाय', en: 'Om namah Shivaya' },
+  { id: 'sri-rama-jaya-rama', text: 'श्रीराम जय राम जय जय राम', en: 'Shri Rama jaya Rama' },
   {
     id: 'hare-krishna',
     text: 'हरे कृष्ण हरे कृष्ण कृष्ण कृष्ण हरे हरे ।\nहरे राम हरे राम राम राम हरे हरे ॥',
-    en: 'Hare Kṛṣṇa mahāmantra',
+    en: 'Hare Krishna mahamantra',
   },
-  { id: 'mahamrityunjaya-mantra', libraryId: 'mahamrityunjaya-mantra', text: '', en: 'Mahāmṛtyuñjaya' },
-  { id: 'om-sri-hanumate-namah', text: 'ॐ श्री हनुमते नमः', en: 'Om Śrī Hanumate namaḥ' },
-  { id: 'om-gam-ganapataye-namah', text: 'ॐ गं गणपतये नमः', en: 'Om gaṃ Gaṇapataye namaḥ' },
+  { id: 'mahamrityunjaya-mantra', libraryId: 'mahamrityunjaya-mantra', text: '', en: 'Mahamrityunjaya' },
+  { id: 'om-sri-hanumate-namah', text: 'ॐ श्री हनुमते नमः', en: 'Om Shri Hanumate namah' },
+  { id: 'om-gam-ganapataye-namah', text: 'ॐ गं गणपतये नमः', en: 'Om gam Ganapataye namah' },
 ];
 
 const presetById = new Map(JAPA_PRESETS.map((p) => [p.id, p]));

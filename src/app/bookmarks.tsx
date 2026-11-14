@@ -25,7 +25,7 @@ export default function Bookmarks() {
         contentContainerStyle={{ padding: 16, paddingBottom: 40 }}
         ListEmptyComponent={
           <Text style={{ color: theme.textMuted, lineHeight: 22 }}>
-            Tap the bookmark icon under any verse to keep it here, e.g. a śloka you are learning by heart.
+            Tap the bookmark icon under any verse to keep it here, e.g. a shloka you are learning by heart.
           </Text>
         }
         renderItem={({ item }) => (

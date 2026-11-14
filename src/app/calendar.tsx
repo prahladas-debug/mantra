@@ -1,7 +1,8 @@
 import { Stack, router, useLocalSearchParams, type Href } from 'expo-router';
 import { useState } from 'react';
 import { Pressable, ScrollView, Text, View } from 'react-native';
-import { CalendarOptions, FestivalLine, NavButton, useCalendarMode, useSauraStart, useEkadashiRule } from '../components/PanchangaCard';
+import { FestivalLine, NavButton, useCalendarMode, useSauraStart, useEkadashiRule } from '../components/PanchangaCard';
+import { CalendarBar } from '../components/CalendarBar';
 import { Chip, SectionHeading } from '../components/ui';
 import { festivalsBetween, type CalendarMode, type Festival } from '../lib/festivals';
 import { sauraDay, type SauraStart } from '../lib/sauramana';
@@ -70,7 +71,7 @@ export default function CalendarScreen() {
   const today = todayIn(city);
   const [picked, setPicked] = useState<string | null>(null);
   const month = picked ?? (params.month && /^\d{4}-\d{2}$/.test(params.month) ? params.month : today.slice(0, 7));
-  const [rule, setRule] = useEkadashiRule();
+  const [rule] = useEkadashiRule();
   const [mode] = useCalendarMode();
   const [start] = useSauraStart();
   const t = (s: string) => translit(s, settings.script);
@@ -84,7 +85,7 @@ export default function CalendarScreen() {
 
   return (
     <ScrollView style={{ backgroundColor: theme.bg }} contentContainerStyle={{ paddingBottom: 40 }}>
-      <Stack.Screen options={{ title: 'Calendar · ಕ್ಯಾಲೆಂಡರ್' }} />
+      <Stack.Screen options={{ title: 'Calendar' }} />
 
       <View style={{ flexDirection: 'row', alignItems: 'center', gap: 10, marginHorizontal: 16, marginTop: 12 }}>
         <NavButton icon="chevron-back" label="Previous month" onPress={() => setPicked(shiftMonth(month, -1))} />
@@ -93,13 +94,13 @@ export default function CalendarScreen() {
             {MONTHS[m - 1]} {y}
           </Text>
           <Text style={{ color: theme.textMuted, fontSize: 13 }}>
-            {t(lunarLabel)} · {mode === 'saura' ? 'Sauramāna' : 'Cāndramāna'} · {city.name}
+            {t(lunarLabel)}
           </Text>
         </View>
         <NavButton icon="chevron-forward" label="Next month" onPress={() => setPicked(shiftMonth(month, 1))} />
       </View>
 
-      <CalendarOptions rule={rule} setRule={setRule} />
+      <CalendarBar />
       <View style={{ flexDirection: 'row', flexWrap: 'wrap', justifyContent: 'center', gap: 8, marginTop: 10, marginHorizontal: 16 }}>
         {month !== today.slice(0, 7) && <Chip label="This month" onPress={() => setPicked(today.slice(0, 7))} />}
         <Chip label={`Year ${y} list`} onPress={() => router.push({ pathname: '/festivals', params: { year: String(y) } } as Href)} />
@@ -155,9 +156,9 @@ export default function CalendarScreen() {
           </View>
         ))}
         <Text style={{ color: theme.textMuted, fontSize: 12, marginHorizontal: 8, marginTop: 6, lineHeight: 17 }}>
-          {mode === 'saura' ? 'Solar month and day (day 1 = the day after the saṅkrānti day, Tuḷu/Udupi rule), then the ' : ''}
-          Tithi at sunrise ({t('शु')} = śukla, {t('कृ')} = kṛṣṇa). Shaded with a coloured dot: ekādaśī; dark dot: festival.
-          Tap a day for its full pañcāṅga.
+          {mode === 'saura' ? 'Solar month and day (day 1 = the day after the sankranti day, Tulu/Udupi rule), then the ' : ''}
+          Tithi at sunrise ({t('शु')} = shukla, {t('कृ')} = krishna). Shaded with a coloured dot: ekadashi; dark dot: festival.
+          Tap a day for its full panchanga.
         </Text>
       </View>
 
@@ -167,15 +168,13 @@ export default function CalendarScreen() {
         {festivals.map((f) => (
           <View key={`${f.key}-${f.date}`} style={{ paddingVertical: 2 }}>
             <FestivalLine f={f} showDate />
-            {f.note ? <Text style={{ color: theme.textMuted, fontSize: 12, lineHeight: 17 }}>{f.note}</Text> : null}
           </View>
         ))}
       </View>
       <Text style={{ color: theme.textMuted, fontSize: 13, margin: 16, lineHeight: 19 }}>
-        Ekādaśī: Smārta — ekādaśī at sunrise (with the usual kṣaya / trispṛśā exceptions). Mādhva — the ekādaśī must be
-        free of daśamī at aruṇodaya (96 minutes before sunrise); otherwise, or when ekādaśī lasts past the next sunrise,
-        the fast moves to the next day. Festival days follow the standard tithi-at-the-prescribed-time rules; local maṭha
-        and temple calendars can differ by a day — follow your family pañcāṅga.
+        Ekadashi — Smarta: ekadashi at sunrise. Madhva: ekadashi must be free of dashami at arunodaya (96 minutes
+        before sunrise), otherwise the fast moves to the next day. Tap ⓘ beside a festival for details. Local matha and
+        temple calendars can differ by a day — follow your family panchanga.
       </Text>
     </ScrollView>
   );

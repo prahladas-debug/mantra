@@ -1,4 +1,5 @@
 import Sanscript from '@indic-transliteration/sanscript';
+import { plain } from '../lib/plain';
 import { searchKey, translit } from '../lib/transliterate';
 import { CATEGORIES } from './categories';
 import { LIBRARY } from './library.generated';
@@ -51,7 +52,29 @@ function applyPacks(list: Mantra[], packs: MeaningPack[]): Mantra[] {
   });
 }
 
-export const ALL_MANTRAS: Mantra[] = applyPacks(LIBRARY.map(toDevanagari), MEANING_PACKS).sort(
+/**
+ * English shown in plain spelling (Krishna, Ekadashi) rather than IAST with diacritics,
+ * which most readers find strange. `deity` keeps IAST: it is only matched, not shown.
+ */
+function plainEnglish(m: Mantra): Mantra {
+  return {
+    ...m,
+    titleEn: plain(m.titleEn),
+    summary: plain(m.summary),
+    contentNote: m.contentNote && plain(m.contentNote),
+    summaries: m.summaries?.en ? { ...m.summaries, en: plain(m.summaries.en) } : m.summaries,
+    sections: m.sections.map((s) => ({
+      ...s,
+      titleEn: s.titleEn && plain(s.titleEn),
+      note: s.note && plain(s.note),
+      verses: s.verses.map((v) =>
+        !v.meaning ? v : { ...v, meaning: typeof v.meaning === 'string' ? plain(v.meaning) : v.meaning.en ? { ...v.meaning, en: plain(v.meaning.en) } : v.meaning },
+      ),
+    })),
+  };
+}
+
+export const ALL_MANTRAS: Mantra[] = applyPacks(LIBRARY.map(toDevanagari), MEANING_PACKS).map(plainEnglish).sort(
   (a, b) =>
     (a.order ?? 1e6) - (b.order ?? 1e6) ||
     DIFFICULTY_ORDER[a.difficulty] - DIFFICULTY_ORDER[b.difficulty] ||

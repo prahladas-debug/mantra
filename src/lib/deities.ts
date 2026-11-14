@@ -1,4 +1,5 @@
 import type { Mantra } from '../data/types';
+import { plain } from './plain';
 
 /** Deity groups for browsing. A text can belong to several groups. */
 export interface DeityGroup {
@@ -9,7 +10,7 @@ export interface DeityGroup {
   match: RegExp;
 }
 
-export const DEITIES: DeityGroup[] = [
+const GROUPS: DeityGroup[] = [
   { id: 'vishnu', title: 'श्रीहरिः', titleEn: 'Viṣṇu · Kṛṣṇa · Rāma', match: /Viṣṇu|Vishnu|Hari|Kṛṣṇa|Rāma|Nārāyaṇa|Veṅkaṭ|Narasiṃha|Vāsudeva|Viṭhala|Mukunda|Puruṣa|Satyanārāyaṇa|Venugopāla|Veṇugopāla/ },
   { id: 'devi', title: 'देवी', titleEn: 'Devī · Lakṣmī · Lalitā', match: /Devī|Lakṣmī|Lalitā|Durgā|Caṇḍikā|Āmbhṛṇī|Sarasvatī|Gaurī/ },
   { id: 'shiva', title: 'शिवः', titleEn: 'Śiva · Rudra', match: /Śiva|Rudra/ },
@@ -18,6 +19,9 @@ export const DEITIES: DeityGroup[] = [
   { id: 'surya', title: 'सूर्यः', titleEn: 'Sūrya · Savitṛ', match: /Sūrya|Savitṛ|Āditya/ },
   { id: 'guru', title: 'गुरवः', titleEn: 'Gurus · Madhva · Rāghavendra', match: /Madhvācārya|Rāghavendra|Guru/ },
 ];
+
+/** English names in plain spelling (Vishnu · Krishna · Rama). */
+export const DEITIES: DeityGroup[] = GROUPS.map((g) => ({ ...g, titleEn: plain(g.titleEn) }));
 
 export function deitiesOf(m: Mantra): string[] {
   const d = m.deity ?? '';
