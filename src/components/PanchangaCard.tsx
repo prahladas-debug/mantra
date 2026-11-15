@@ -132,6 +132,12 @@ export function FestivalLine({ f, showDate, showNote }: { f: Festival; showDate?
             {f.endDate ? ` (to ${f.endDate.slice(8)}/${f.endDate.slice(5, 7)})` : ''}
             {f.textId ? <Text style={{ color: theme.accent }}>{'  ·  read ›'}</Text> : null}
           </Text>
+          {f.parana && (
+            <Text style={{ color: theme.text, fontSize: 13, marginTop: 1 }}>
+              Parana (break the fast): {f.parana.label}
+              {f.parana.note ? <Text style={{ color: theme.textMuted }}>{` — ${plain(f.parana.note)}`}</Text> : null}
+            </Text>
+          )}
         </Pressable>
         {f.note && !showNote ? (
           <Pressable onPress={() => setOpen(!open)} hitSlop={10} accessibilityRole="button" accessibilityLabel={open ? 'Hide details' : 'Show details'}>
@@ -157,6 +163,10 @@ export function TodayCard() {
     [city, today, rule, mode, start],
   );
   const saura = useMemo(() => (mode === 'saura' ? sauraDay(city, today, start) : null), [city, today, mode, start]);
+  const breakFast = useMemo(
+    () => festivalsOn(city, addDays(today, -1), rule, mode, start).find((f) => f.kind === 'ekadashi' && f.parana?.date === today)?.parana,
+    [city, today, rule, mode, start],
+  );
   const t = (s: string) => translit(s, settings.script);
   const read = (id: string | undefined) => (id ? getMantraInfo(id) : undefined);
   return (
@@ -188,10 +198,20 @@ export function TodayCard() {
             <View style={{ flex: 1 }}>
               <Text style={{ color: theme.accent, fontSize: 16, fontWeight: '600' }}>{t(f.name)}</Text>
               {m && <Text style={{ color: theme.text, fontSize: 13 }}>Read: {m.titleEn} ›</Text>}
+              {f.parana && <Text style={{ color: theme.textMuted, fontSize: 12 }}>Parana {f.parana.label}</Text>}
             </View>
           </Pressable>
         );
       })}
+      {breakFast && (
+        <View style={{ flexDirection: 'row', alignItems: 'center', gap: 10, paddingHorizontal: 14, paddingVertical: 10, borderTopWidth: 1, borderColor: theme.cardBorder }}>
+          <Ionicons name="restaurant-outline" size={18} color={theme.accent} />
+          <Text style={{ color: theme.text, fontSize: 14, flex: 1 }}>
+            Break the Ekadashi fast today: <Text style={{ fontWeight: '700' }}>{breakFast.label.replace(/ on .*$/, '')}</Text>
+            {breakFast.note ? <Text style={{ color: theme.textMuted, fontSize: 12 }}>{`\n${plain(breakFast.note)}`}</Text> : null}
+          </Text>
+        </View>
+      )}
       {tomorrow.length > 0 && (
         <View style={{ paddingHorizontal: 14, paddingVertical: 9, borderTopWidth: 1, borderColor: theme.cardBorder }}>
           <Text style={{ color: theme.textMuted, fontSize: 13 }}>

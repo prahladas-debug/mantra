@@ -1,7 +1,8 @@
 import * as Notifications from 'expo-notifications';
 import { Platform } from 'react-native';
 
-const CHANNEL = 'parayana';
+/** Android notification channel shared by all reminders (plans, festivals). */
+export const CHANNEL = 'parayana';
 
 if (Platform.OS !== 'web') {
   Notifications.setNotificationHandler({
@@ -15,7 +16,7 @@ if (Platform.OS !== 'web') {
 }
 
 /** Ask for permission (Android 13+ needs a channel first). Returns true if allowed. */
-async function ensurePermission(): Promise<boolean> {
+export async function ensurePermission(): Promise<boolean> {
   if (Platform.OS === 'web') return false;
   if (Platform.OS === 'android') {
     await Notifications.setNotificationChannelAsync(CHANNEL, {

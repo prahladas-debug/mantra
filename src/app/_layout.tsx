@@ -4,6 +4,7 @@ import * as SplashScreen from 'expo-splash-screen';
 import { useEffect } from 'react';
 import { StatusBar } from 'expo-status-bar';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
+import { FestivalReminderSync } from '../components/FestivalReminderSync';
 import { FONT_ASSETS } from '../lib/fonts';
 import { SettingsProvider, useSettings } from '../lib/settings';
 
@@ -14,6 +15,7 @@ function AppStack() {
   return (
     <>
       <StatusBar style={theme.statusBar} />
+      <FestivalReminderSync />
       <Stack
         screenOptions={{
           headerStyle: { backgroundColor: theme.bg },

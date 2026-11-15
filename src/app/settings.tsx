@@ -114,6 +114,27 @@ export default function SettingsScreen() {
         <Switch value={settings.keepAwake} onValueChange={(v) => update({ keepAwake: v })} trackColor={{ true: theme.accent }} />
       </View>
 
+      <SectionHeading>Reminders</SectionHeading>
+      <View style={row}>
+        <Text style={{ color: theme.text, fontSize: 16, flex: 1 }}>Ekadashi, the evening before (with parana time)</Text>
+        <Switch value={settings.festivalReminders.ekadashi} onValueChange={(v) => update({ festivalReminders: { ...settings.festivalReminders, ekadashi: v } })} trackColor={{ true: theme.accent }} />
+      </View>
+      <View style={row}>
+        <Text style={{ color: theme.text, fontSize: 16, flex: 1 }}>Major festivals, the evening before</Text>
+        <Switch value={settings.festivalReminders.festivals} onValueChange={(v) => update({ festivalReminders: { ...settings.festivalReminders, festivals: v } })} trackColor={{ true: theme.accent }} />
+      </View>
+      {(settings.festivalReminders.ekadashi || settings.festivalReminders.festivals) && (
+        <View style={[row, { justifyContent: 'flex-start', gap: 8, flexWrap: 'wrap' }]}>
+          <Text style={{ color: theme.textMuted, fontSize: 14 }}>At</Text>
+          {['18:00', '19:00', '20:00', '21:00'].map((t) => (
+            <Chip key={t} label={t} active={settings.festivalReminders.time === t} onPress={() => update({ festivalReminders: { ...settings.festivalReminders, time: t } })} />
+          ))}
+        </View>
+      )}
+      <Text style={{ color: theme.textMuted, marginHorizontal: 16, fontSize: 14 }}>
+        Dates follow your place, tradition and calendar choice. Tap a reminder to open the text for the day.
+      </Text>
+
       <SectionHeading>About</SectionHeading>
       <Link href="/about" asChild>
         <Pressable style={row}>

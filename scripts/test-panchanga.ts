@@ -10,7 +10,8 @@
 import assert from 'node:assert/strict';
 import { readdirSync, readFileSync } from 'node:fs';
 import { join } from 'node:path';
-import { LINKED_TEXT_IDS, festivalsBetween, ekadashiDates, paryayaMatha } from '../src/lib/festivals';
+import { LINKED_TEXT_IDS, festivalsBetween, ekadashiDates, ekadashisBetween, paranaFor, paryayaMatha } from '../src/lib/festivals';
+import { paranaWindow } from '../src/lib/parana';
 import { sauraDay, sauraMonthStart, sauraSankalpa } from '../src/lib/sauramana';
 import {
   CITIES, MASA, crossing, elongation, formatTime, julianDay, fromJulian, lunationsBetween, panchanga, siderealSun,
@@ -43,6 +44,7 @@ for (const [date, want] of cases) {
 }
 
 // ---- 2. end times and kālas for two full days (drik day-pañcāṅga pages) ----
+const addDaysIso = (iso: string, n: number) => new Date(Date.parse(`${iso}T00:00:00Z`) + n * 86400000).toISOString().slice(0, 10);
 const mins = (hhmm: string) => { const [h, m] = hhmm.split(/[:,]/).map(Number); return h * 60 + m; };
 function near(label: string, got: Date, wantIso: string, tol: number) {
   const want = new Date(`${wantIso}:00+05:30`).getTime();
@@ -312,6 +314,119 @@ const FESTIVALS: [string, string][] = [
   // The Cāndramāna list is unchanged by the Udupi additions.
   assert.ok(!festivalsBetween(udupi, '2025-01-01', '2025-12-31', 'madhva').some((f) => f.place === 'Udupi'));
   checks += 8;
+}
+
+// ---- 11. pāraṇa (breaking the ekādaśī fast) ----
+// drikpanchang ekādaśī pages (…/ekadashis/<name>/<name>-ekadashi-date-time.html?year=Y&geoname-id=…),
+// read November 2026: Bengaluru (1277333) 2025–2027 and New York (5128581) 2026, local time.
+// 'S <fast> <from>-<to>' = Smārta fast and pāraṇa window on the next day; 'V …' = drik's
+// "Vaishnava"/"Gauna" fast (a mahādvādaśī: pāraṇa on trayodaśī, or before a short dvādaśī ends);
+// 'hvHH:MM' = drik's "Hari Vasara End Moment" when it fixes the window; '?' = no end given.
+const PARANA: Record<string, string[]> = {
+  bengaluru: [
+    'S 2025-01-10 06:45-08:21', 'S 2025-01-25 06:46-09:05', 'S 2025-02-08 06:44-09:04', 'S 2025-02-24 06:38-09:00', 'S 2025-03-10 06:30-08:13',
+    'S 2025-03-25 13:38-16:05 hv09:14', 'V 2025-03-26 06:19-08:45', 'S 2025-04-08 06:11-08:39', 'S 2025-04-24 06:02-08:32', 'S 2025-05-08 05:56-08:28',
+    'S 2025-05-23 05:53-08:26', 'S 2025-06-06 13:36-16:10 hv11:25', 'V 2025-06-07 05:53-07:17', 'S 2025-06-21 13:39-16:14 hv09:41',
+    'V 2025-06-22 05:55-08:30', 'S 2025-07-06 05:59-08:33', 'S 2025-07-21 06:03-07:05', 'S 2025-08-05 06:06-08:38', 'S 2025-08-19 06:08-08:38',
+    'S 2025-09-03 13:32-16:00 hv10:18', 'S 2025-09-17 06:09-08:35', 'S 2025-10-03 06:09-08:33', 'S 2025-10-17 06:10-08:32',
+    'S 2025-11-01 13:13-15:33 hv12:55', 'V 2025-11-02 06:14-08:34', 'S 2025-11-15 13:13-15:32 hv09:09', 'S 2025-12-01 06:27-08:44',
+    'S 2025-12-15 06:34-08:51', 'S 2026-01-14 06:46-09:03', 'S 2026-01-29 06:46-09:05', 'S 2026-02-13 06:43-09:03', 'S 2026-02-27 06:36-08:59',
+    'S 2026-03-15 06:27-08:51', 'S 2026-03-29 06:17-07:09', 'S 2026-04-13 06:54-08:37 hv06:54', 'S 2026-04-27 06:00-08:31', 'S 2026-05-13 05:55-08:27',
+    'S 2026-06-25 05:56-08:31', 'S 2026-07-10 13:42-16:16 hv10:32', 'V 2026-07-11 06:00-08:34', 'S 2026-07-25 06:04-08:37', 'S 2026-08-09 06:07-08:00',
+    'S 2026-08-23 13:37-16:06 hv10:49', 'V 2026-08-24 06:08-06:20', 'S 2026-09-07 06:09-08:36', 'S 2026-09-22 06:09-08:34',
+    'S 2026-10-06 06:14-08:32 hv06:14', 'S 2026-10-22 06:11-08:32', 'S 2026-11-05 06:15-08:34', 'S 2026-11-20 13:14-15:32 hv12:07',
+    'V 2026-11-21 06:21-08:39', 'S 2026-12-04 06:28-08:45', 'S 2026-12-20 06:37-08:53', 'S 2027-01-03 06:43-08:59', 'S 2027-01-18 13:39-15:57 hv13:02',
+    'V 2027-01-19 06:46-09:04', 'S 2027-02-02 06:46-09:05', 'S 2027-02-17 06:41-09:02', 'S 2027-03-04 06:33-08:57', 'S 2027-03-18 07:12-08:50 hv07:12',
+    'S 2027-04-02 13:37-16:04 hv09:15', 'S 2027-04-17 06:06-07:42', 'S 2027-05-02 05:58-08:30', 'S 2027-05-16 05:54-08:27', 'S 2027-06-01 05:52-08:26',
+    'S 2027-06-14 08:13-08:28 hv08:13', 'S 2027-06-30 05:57-08:32', 'S 2027-07-14 06:01-08:35', 'S 2027-07-29 13:42-16:15 hv10:29',
+    'V 2027-07-30 06:05-08:37', 'S 2027-08-12 13:40-16:11 hv09:34', 'S 2027-08-28 06:08-08:37', 'S 2027-09-11 06:09-08:36', 'S 2027-09-26 06:09-08:33',
+    'S 2027-10-11 06:09-08:32', 'S 2027-10-25 13:14-15:35 hv08:47', 'V 2027-10-26 06:12-08:32', 'S 2027-11-10 06:16-08:35', 'S 2027-11-24 06:23-08:40',
+    'S 2027-12-09 13:21-15:37 hv09:13',
+  ],
+  'new-york': [
+    'S 2026-01-14 07:18-09:13', 'S 2026-01-28 08:43-09:09 hv08:43', 'V 2026-01-29 07:08-09:08', 'S 2026-02-12 13:14-15:21 hv10:19',
+    'S 2026-02-27 06:31-08:46', 'S 2026-03-14 07:08-09:31', 'S 2026-03-28 06:44-09:15', 'S 2026-04-13 06:19-08:58', 'S 2026-04-27 05:59-08:45',
+    'S 2026-05-12 14:19-17:12 hv09:27', 'V 2026-05-13 05:40-08:33', 'S 2026-06-25 05:26-08:27', 'S 2026-07-10 05:35-08:33',
+    'S 2026-07-24 08:40-08:41 hv08:40', 'S 2026-08-08 06:48-08:49 hv06:48', 'S 2026-08-23 06:15-08:56', 'S 2026-09-06 14:11-16:45 hv12:58',
+    'V 2026-09-07 06:30-09:03', 'S 2026-09-22 06:45-09:10', 'S 2026-10-06 06:59-09:17', 'S 2026-10-21 13:45-15:55 hv11:14', 'S 2026-11-04 06:31-08:34',
+    'S 2026-11-20 06:50-08:47', 'S 2026-12-04 07:05-08:57', 'S 2026-12-19 15:04-? hv15:04', 'V 2026-12-20 07:16-09:08',
+  ],
+};
+{
+  let worstParana = 0;
+  const minsOf = (t: Date, c: (typeof CITIES)[number]) => mins(formatTime(t, c));
+  const close = (label: string, got: number, want: string) => {
+    const d = got - mins(want);
+    worstParana = Math.max(worstParana, Math.abs(d));
+    assert.ok(Math.abs(d) <= 2, `${label}: got ${Math.floor(got / 60)}:${String(got % 60).padStart(2, '0')} want ${want}`);
+    checks++;
+  };
+  let smartaRows = 0;
+  for (const [id, rows] of Object.entries(PARANA)) {
+    const city = CITIES.find((c) => c.id === id)!;
+    for (const row of rows) {
+      const [type, fast, win, hvTok] = row.split(' ');
+      const [from, to] = win.split('-');
+      const label = `${id} pāraṇa after ${type} ${fast}`;
+      let p;
+      if (type === 'S') {
+        smartaRows++;
+        p = paranaFor(city, fast, 'smarta');
+        assert.ok(p, `${label}: no ekādaśī`);
+        // Mādhva convention: the same window, except that a Hari-vāsara outlasting the
+        // prātaḥkāla is followed directly (no aparāhṇa rule) — when the Mādhva fast is the same day.
+        const m = paranaFor(city, fast, 'madhva');
+        if (m) {
+          if (p.kind === 'aparahna' || p.kind === 'after-harivasara') {
+            assert.equal(m.kind, 'after-harivasara', `${label} Mādhva kind`);
+            close(`${label} Mādhva start = Hari-vāsara end`, minsOf(m.start, city), hvTok.slice(2));
+          } else {
+            assert.deepEqual([m.start, m.end, m.kind], [p.start, p.end, p.kind], `${label} Mādhva = Smārta`);
+            checks++;
+          }
+        }
+      } else {
+        // drik's Vaiṣṇava fast: our Mādhva date, or (vyañjulī) only the Gauḍīya date.
+        p = paranaFor(city, fast, 'madhva');
+        if (!p) {
+          const info = lunationsBetween(julianDay(new Date(fast)) - 20, julianDay(new Date(fast)) + 2)
+            .flatMap((l) => [ekadashiDates(city, l, 11), ekadashiDates(city, l, 26)]).find((e) => e.vaishnava === fast);
+          assert.ok(info, `${label}: no Gauḍīya ekādaśī`);
+          p = paranaWindow(city, info, fast, 'madhva');
+        }
+        assert.ok(['trayodashi', 'dvadashi-end'].includes(p.kind), `${label} kind ${p.kind}`);
+      }
+      assert.equal(p.date, addDaysIso(fast, 1), `${label} date`);
+      close(`${label} start`, minsOf(p.start, city), from);
+      if (to !== '?') close(`${label} end`, minsOf(p.end, city), to);
+      if (hvTok) close(`${label} Hari-vāsara end`, minsOf(p.harivasaraEnd, city), hvTok.slice(2));
+      checks++;
+    }
+  }
+  assert.ok(smartaRows >= 90, 'pāraṇa reference rows');
+
+  // Labels and the Festival field (Utpannā 2025: Smārta in the aparāhṇa, Mādhva right after Hari-vāsara).
+  const sm = festivalsBetween(blr, '2025-11-15', '2025-11-15', 'smarta').find((f) => f.kind === 'ekadashi')!;
+  assert.equal(sm.parana?.label, '13:13–15:32 on 16 Nov');
+  assert.equal(sm.parana?.kind, 'aparahna');
+  const md = festivalsBetween(blr, '2025-11-15', '2025-11-15', 'madhva').find((f) => f.kind === 'ekadashi')!;
+  assert.ok(/^09:1[01]–17:50 on 16 Nov$/.test(md.parana?.label ?? ''), `Mādhva label ${md.parana?.label}`);
+  // Alpa dvādaśī (Kāmadā 2026): the note names the dvādaśī end.
+  const alpa = paranaFor(blr, '2026-03-29', 'madhva')!;
+  assert.equal(alpa.kind, 'dvadashi-end');
+  assert.ok(alpa.note?.startsWith('Alpa dvādaśī: pāraṇe before 07:'), alpa.note);
+  // Dvādaśī ending after midnight shows the date (Utpannā 2026: "12:51 AM, Dec 06" on drik).
+  assert.ok(formatTime(paranaFor(blr, '2026-12-04', 'smarta')!.dvadashiEnd, blr, '2026-12-05').endsWith(', 6 Dec'));
+  // Not an ekādaśī fast day under the rule.
+  assert.equal(paranaFor(blr, '2026-11-16', 'smarta'), null);
+  assert.equal(paranaFor(blr, '2025-03-25', 'madhva'), null); // Mādhva fast is on the 26th
+  // The list helper: all fasts with their pāraṇa, the same dates as the festival list.
+  const list = ekadashisBetween(blr, '2025-01-01', '2025-12-31', 'madhva');
+  assert.equal(list.length, 25);
+  assert.deepEqual(list.map((e) => e.date), festivalsBetween(blr, '2025-01-01', '2025-12-31', 'madhva').filter((f) => f.kind === 'ekadashi').map((f) => f.date));
+  assert.ok(list.every((e) => e.parana.date === addDaysIso(e.date, 1) && e.parana.start < e.parana.end));
+  checks += 12;
+  console.log(`pāraṇa: worst offset vs drik ${worstParana} min`);
 }
 
 {

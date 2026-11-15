@@ -50,7 +50,10 @@ import {
   parseIso, siderealMoon, siderealSun, sunriseDayOf, sunriseJd, sunsetJd, tithiEnd, tithiStart, weekdayOf,
   type City, type LunarMonth,
 } from './panchanga';
+import { paranaWindow, type Parana } from './parana';
 import { sauraDay, sauraMonthStart, type SauraStart } from './sauramana';
+
+export type { Parana, ParanaKind } from './parana';
 
 export type EkadashiRule = 'smarta' | 'madhva';
 /** Month reckoning shown in the calendar. */
@@ -75,6 +78,8 @@ export interface Festival {
   /** Linked text in the library (src/data), if any. */
   textId?: string;
   note?: string;
+  /** Ekādaśīs: when to break the fast (the day after `date`), by the same rule; show `parana.label`. */
+  parana?: Parana;
 }
 
 const MIN = 1 / 1440;
@@ -388,7 +393,8 @@ export function festivalsBetween(city: City, from: string, to: string, rule: Eka
       if (e.special) notes.push(SPECIAL_NOTE[e.special]);
       if (e.vaishnava !== e.madhva) notes.push(`Gauḍīya Vaiṣṇava: ${e.vaishnava}.`);
       if (e.borderline) notes.push('Ekādaśī begins within minutes of aruṇodaya: check your maṭha pañcāṅga for the fasting day.');
-      out.push({ date, key: `ekadashi-${date}`, name: e.name, en: e.en, kind: 'ekadashi', calendar: 'chandra', textId: 'vishnu-sahasranama', note: notes.join(' ') || undefined });
+      const parana = paranaWindow(city, e, date, rule);
+      out.push({ date, key: `ekadashi-${date}`, name: e.name, en: e.en, kind: 'ekadashi', calendar: 'chandra', textId: 'vishnu-sahasranama', note: notes.join(' ') || undefined, parana });
       // Vaikuṇṭha (Mukkoṭi) ekādaśī: the śukla ekādaśī while the Sun is in Dhanu.
       if (k === 11 && Math.floor(siderealSun(sunriseJd(city, e.madhva)) / 30) === 8) {
         out.push({
@@ -452,3 +458,41 @@ export const festivalsOn = (city: City, date: string, rule: EkadashiRule, mode: 
 
 /** Default ekādaśī rule from the reader's tradition setting (Mādhva unless 'smarta'). */
 export const defaultRule = (tradition: string | undefined): EkadashiRule => (tradition === 'smarta' ? 'smarta' : 'madhva');
+
+// ---------- pāraṇa ----------
+
+/** An ekādaśī fast with its pāraṇa (see parana.ts for the rules). */
+export interface EkadashiFast {
+  /** Fasting day under the rule. */
+  date: string;
+  /** Same as the Festival key: 'ekadashi-<date>'. */
+  key: string;
+  name: string;
+  en: string;
+  info: EkadashiInfo;
+  parana: Parana;
+}
+
+/** Ekādaśī fasts whose fasting day (under `rule`) lies in [from, to] (inclusive), with pāraṇa. */
+export function ekadashisBetween(city: City, from: string, to: string, rule: EkadashiRule): EkadashiFast[] {
+  const jdFrom = julianDay(new Date(`${from}T00:00:00Z`)) - 3;
+  const jdTo = julianDay(new Date(`${to}T00:00:00Z`)) + 3;
+  const out: EkadashiFast[] = [];
+  for (const l of lunationsBetween(jdFrom - 2, jdTo)) {
+    for (const k of [11, 26] as const) {
+      const info = ekadashiDates(city, l, k);
+      const date = rule === 'smarta' ? info.smarta : info.madhva;
+      if (date < from || date > to) continue;
+      out.push({ date, key: `ekadashi-${date}`, name: info.name, en: info.en, info, parana: paranaWindow(city, info, date, rule) });
+    }
+  }
+  return out.sort((a, b) => a.date.localeCompare(b.date));
+}
+
+/**
+ * Pāraṇa for the ekādaśī fast kept on `fastDate` under `rule` (the window is on the next
+ * day). Null if no ekādaśī fast falls on that date under the rule.
+ */
+export function paranaFor(city: City, fastDate: string, rule: EkadashiRule): Parana | null {
+  return ekadashisBetween(city, fastDate, fastDate, rule)[0]?.parana ?? null;
+}

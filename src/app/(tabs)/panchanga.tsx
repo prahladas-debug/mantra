@@ -109,7 +109,9 @@ export default function PanchangaScreen() {
     [['Moon sign', 'चन्द्रराशिः'], until(p.moonRashis)],
   ];
   const span = (s: [Date, Date]) => `${tm(s[0])} – ${tm(s[1])}`;
+  const parana = festivalsBetween(city, addDays(date, -1), addDays(date, -1), rule, mode, start).find((f) => f.kind === 'ekadashi' && f.parana?.date === date)?.parana;
   const times: Row[] = [
+    ...(parana ? ([[['Parana (break the fast)', 'पारणम्'], `${tm(parana.start)} – ${tm(parana.end)}${parana.note ? `\n${plain(parana.note)}` : ''}`, 'good']] as Row[]) : []),
     [['Abhijit muhurta', 'अभिजित्'], `${span(p.abhijit)}${p.weekday === 3 ? '\n(not used on Wednesdays)' : ''}`, 'good'],
     [['Rahu kala', 'राहुकालः'], span(p.rahuKala), 'avoid'],
     [['Yamaganda', 'यमगण्डः'], span(p.yamaganda), 'avoid'],
