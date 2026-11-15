@@ -56,7 +56,7 @@ const GOLD = '#E9C77B';
  * words (Tamil "பகவத் கீதை"), otherwise the Sanskrit name broken at its natural joint, so a long
  * compound never runs off the cover.
  */
-function coverLines(work: GreatWork, script: ScriptId): string[] {
+export function coverLines(work: GreatWork, script: ScriptId): string[] {
   if (work.own?.[script]) return work.own[script]!;
   if (work.category) {
     const words = categoryTitle(categoryById[work.category], script).split(' ');
@@ -124,6 +124,65 @@ export function BookCover({ work, width = 156, still }: { work: GreatWork; width
         </View>
       </ImageBackground>
     </Pressable>
+  );
+}
+
+const BANNER_ART: Partial<Record<CategoryId, ImageSourcePropType>> = {
+  gita: require('../../assets/covers/gita-banner.jpg'),
+  sundarakanda: require('../../assets/covers/sundarakanda-banner.jpg'),
+  harikathamrutasara: require('../../assets/covers/harikathamrutasara-banner.jpg'),
+  sumadhvavijaya: require('../../assets/covers/sumadhvavijaya-banner.jpg'),
+  devimahatmya: require('../../assets/covers/devimahatmya-banner.jpg'),
+};
+
+/**
+ * The top of a book's own page: a wide banner in the book's cloth with its emblem on the right,
+ * and on the left the title, its size, where you are in it, and Continue / Begin.
+ */
+export function BookBanner({ category, firstId, lastId, lastLabel }: { category: CategoryId; firstId: string; lastId?: string; lastLabel?: string }) {
+  const { settings } = useSettings();
+  const work = GREAT_WORKS.find((w) => w.category === category);
+  const art = BANNER_ART[category];
+  if (!work || !art) return null;
+  const font = scriptFont(settings.script, settings.bookFonts);
+  const size = 26 * (settings.script === 'malayalam' ? 0.82 : 1);
+  const go = (id: string) => router.push(`/mantra/${id}` as Href);
+  return (
+    <View style={[c.banner, { backgroundColor: work.cloth }]}>
+      {/* Sized by the banner itself: an ImageBackground without a fixed size shows the picture at its own size. */}
+      <Image source={art} style={{ position: 'absolute', width: '100%', height: '100%' }} resizeMode="cover" />
+      <View style={c.bannerWords}>
+        {coverLines(work, settings.script).map((line) => (
+          <Text key={line} style={{ color: CREAM, fontSize: size, lineHeight: size * 1.45, fontFamily: font, fontWeight: font ? undefined : '700' }} numberOfLines={1} adjustsFontSizeToFit minimumFontScale={0.6}>
+            {line}
+          </Text>
+        ))}
+        <Text style={{ color: CREAM, fontSize: 14, fontWeight: '600', marginTop: 2 }} numberOfLines={1}>
+          {work.titleEn}
+        </Text>
+        <Text style={{ color: GOLD, fontSize: 12, marginTop: 1 }} numberOfLines={2}>
+          {[work.size, work.about].filter(Boolean).join(' · ')}
+        </Text>
+        <View style={{ flexDirection: 'row', flexWrap: 'wrap', gap: 8, marginTop: 12 }}>
+          {lastId && lastId !== firstId ? (
+            <>
+              <Pressable onPress={() => go(lastId)} accessibilityRole="button" style={({ pressed }) => [c.bannerBtn, { backgroundColor: GOLD, borderColor: GOLD, opacity: pressed ? 0.8 : 1 }]}>
+                <Text style={{ color: work.cloth, fontSize: 14, fontWeight: '700' }} numberOfLines={1}>
+                  Continue{lastLabel ? ` · ${lastLabel}` : ''} ›
+                </Text>
+              </Pressable>
+              <Pressable onPress={() => go(firstId)} accessibilityRole="button" style={({ pressed }) => [c.bannerBtn, { borderColor: GOLD, opacity: pressed ? 0.7 : 1 }]}>
+                <Text style={{ color: CREAM, fontSize: 14, fontWeight: '600' }}>From the start</Text>
+              </Pressable>
+            </>
+          ) : (
+            <Pressable onPress={() => go(firstId)} accessibilityRole="button" style={({ pressed }) => [c.bannerBtn, { backgroundColor: GOLD, borderColor: GOLD, opacity: pressed ? 0.8 : 1 }]}>
+              <Text style={{ color: work.cloth, fontSize: 14, fontWeight: '700' }}>Begin reading ›</Text>
+            </Pressable>
+          )}
+        </View>
+      </View>
+    </View>
   );
 }
 
@@ -252,6 +311,9 @@ const c = StyleSheet.create({
   cover: { borderRadius: 6, overflow: 'hidden', elevation: 4, shadowColor: '#000', shadowOpacity: 0.22, shadowRadius: 6, shadowOffset: { width: 0, height: 3 } },
   words: { position: 'absolute', top: '51%', bottom: '6.5%', left: '14%', right: '8%', alignItems: 'center' },
   rule: { width: 26, height: 1, marginBottom: 4, opacity: 0.8 },
+  banner: { marginHorizontal: 16, marginTop: 14, aspectRatio: 900 / 520, borderRadius: 16, overflow: 'hidden' },
+  bannerWords: { flex: 1, justifyContent: 'center', paddingLeft: '7%', width: '52%' },
+  bannerBtn: { paddingHorizontal: 13, paddingVertical: 7, borderRadius: 18, borderWidth: 1 },
   tile: { flexDirection: 'row', alignItems: 'center', gap: 8, padding: 10, borderRadius: 14, borderWidth: 1 },
   iconWrap: { width: 38, height: 38, borderRadius: 19, alignItems: 'center', justifyContent: 'center' },
   iconSmall: { width: 34, height: 34, borderRadius: 17, alignItems: 'center', justifyContent: 'center' },

@@ -1,8 +1,8 @@
 import { Ionicons } from '@expo/vector-icons';
-import { Stack, router, useLocalSearchParams, type Href } from 'expo-router';
+import { Stack, useLocalSearchParams } from 'expo-router';
 import { useState } from 'react';
 import { Pressable, ScrollView, Text, TextInput, View } from 'react-native';
-import { BookCover, GREAT_WORKS } from '../../components/Shelf';
+import { BookBanner } from '../../components/Shelf';
 import { EntryCard } from '../../components/TextList';
 import { Chip } from '../../components/ui';
 import { categoryById, mantrasInCategory, type CategoryId } from '../../data';
@@ -34,40 +34,21 @@ export default function CategoryScreen() {
   const opening = first?.sections.flatMap((x) => x.verses).find((v) => v.n !== undefined)?.text.split('\n').slice(0, 2).join('\n');
 
   if (!category) return <Stack.Screen options={{ title: 'Not found' }} />;
-  const work = GREAT_WORKS.find((w) => w.category === category.id);
 
   return (
     <ScrollView style={{ backgroundColor: theme.bg }} contentContainerStyle={{ paddingBottom: 32 }} keyboardShouldPersistTaps="handled">
       <Stack.Screen options={{ title: category.titleEn }} />
 
       {isBook && first ? (
-        <View style={{ margin: 16, marginBottom: 12, padding: 14, borderRadius: 16, borderWidth: 1, borderColor: theme.pageEdge, backgroundColor: theme.page }}>
-          <View style={{ flexDirection: 'row', gap: 14 }}>
-            {work && <BookCover work={work} width={112} still />}
-            <View style={{ flex: 1, justifyContent: 'center' }}>
-              {!work && (
-                <Text style={{ color: theme.accent, fontSize: 26, fontFamily: font, fontWeight: font ? undefined : '700' }}>{categoryTitle(category, settings.script)}</Text>
-              )}
-              <Text style={{ color: theme.text, fontSize: 19, fontWeight: '700' }}>{category.titleEn}</Text>
-              <Text style={{ color: theme.textMuted, fontSize: 13, marginTop: 4, lineHeight: 19 }}>
-                {category.description} {all.length} parts.
-              </Text>
-              <View style={{ flexDirection: 'row', flexWrap: 'wrap', gap: 8, marginTop: 12 }}>
-                {lastRead && lastRead.id !== first.id && (
-                  <Pressable onPress={() => router.push(`/mantra/${lastRead.id}` as Href)} style={({ pressed }) => ({ paddingHorizontal: 16, paddingVertical: 8, borderRadius: 20, backgroundColor: theme.accent, opacity: pressed ? 0.7 : 1 })}>
-                    <Text style={{ color: theme.onAccent, fontSize: 14, fontWeight: '700' }}>Continue ›</Text>
-                  </Pressable>
-                )}
-                <Pressable onPress={() => router.push(`/mantra/${first.id}` as Href)} style={({ pressed }) => ({ paddingHorizontal: 16, paddingVertical: 8, borderRadius: 20, borderWidth: 1, borderColor: theme.accent, opacity: pressed ? 0.7 : 1 })}>
-                  <Text style={{ color: theme.accent, fontSize: 14, fontWeight: '700' }}>Begin</Text>
-                </Pressable>
-              </View>
-            </View>
+        <>
+          <BookBanner category={category.id} firstId={first.id} lastId={lastRead?.id} lastLabel={lastRead ? String(all.findIndex((m) => m.id === lastRead.id) + 1) : undefined} />
+          <View style={{ marginHorizontal: 20, marginTop: 12, marginBottom: 4 }}>
+            {opening && first.sourceScript !== 'tamil' && (
+              <Text style={{ color: theme.text, fontSize: 16, lineHeight: 27, textAlign: 'center', fontFamily: font }}>{translit(opening, settings.script)}</Text>
+            )}
+            <Text style={{ color: theme.textMuted, fontSize: 13, textAlign: 'center', marginTop: 6, lineHeight: 19 }}>{category.description}</Text>
           </View>
-          {opening && first.sourceScript !== 'tamil' && (
-            <Text style={{ color: theme.text, fontSize: 16, lineHeight: 27, textAlign: 'center', fontFamily: font, marginTop: 12 }}>{translit(opening, settings.script)}</Text>
-          )}
-        </View>
+        </>
       ) : (
         <View style={{ paddingTop: 14, paddingHorizontal: 16, paddingBottom: 4 }}>
           <Text style={{ color: theme.accent, fontSize: 26, fontFamily: font, fontWeight: font ? undefined : '700' }}>{categoryTitle(category, settings.script)}</Text>

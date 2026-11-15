@@ -146,6 +146,29 @@ function cover({ id, top, bottom, emblem }) {
   </svg>`;
 }
 
+// ---- a wide banner for the top of a book's own page: words on the left (drawn by the app), emblem on the right ----
+const BW = 900, BH = 520;
+function banner({ id, top, bottom, emblem }) {
+  const u = (n) => `b${n}-${id}`;
+  const cx = 664, cy = 260, r = 154;
+  const x1 = 18, y1 = 18, x2 = BW - 18, y2 = BH - 18, k = 22;
+  const frame = (d) => `M${x1 + k + d} ${y1 + d} H${x2 - k - d} A${k} ${k} 0 0 0 ${x2 - d} ${y1 + k + d} V${y2 - k - d} A${k} ${k} 0 0 0 ${x2 - k - d} ${y2 - d} H${x1 + k + d} A${k} ${k} 0 0 0 ${x1 + d} ${y2 - k - d} V${y1 + k + d} A${k} ${k} 0 0 0 ${x1 + k + d} ${y1 + d} Z`;
+  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${BW} ${BH}" width="${BW}" height="${BH}">
+  <defs>
+    <linearGradient id="${u('cloth')}" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="${top}"/><stop offset="1" stop-color="${bottom}"/></linearGradient>
+    <radialGradient id="${u('glow')}" cx="76%" cy="50%" r="42%"><stop offset="0" stop-color="#fff" stop-opacity="0.20"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient>
+    <pattern id="${u('weave')}" width="26" height="26" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><path d="M0 0 H26 M0 0 V26" stroke="${G}" stroke-width="1" opacity="0.09"/><circle cx="13" cy="13" r="1.4" fill="${G}" opacity="0.12"/></pattern>
+  </defs>
+  <rect width="${BW}" height="${BH}" fill="url(#${u('cloth')})"/><rect width="${BW}" height="${BH}" fill="url(#${u('weave')})"/><rect width="${BW}" height="${BH}" fill="url(#${u('glow')})"/>
+  <path d="${frame(0)}" fill="none" stroke="${G}" stroke-width="3"/><path d="${frame(9)}" fill="none" stroke="${G}" stroke-width="1.2" opacity="0.8"/>
+  ${Array.from({ length: 24 }, (_, i) => `<path d="M0 ${-r - 8} C 16 ${-r - 26}, 16 ${-r - 40}, 0 ${-r - 52} C -16 ${-r - 40}, -16 ${-r - 26}, 0 ${-r - 8} Z" fill="none" stroke="${G}" stroke-width="1.6" opacity="0.55" transform="translate(${cx} ${cy}) rotate(${i * 15})"/>`).join('')}
+  <circle cx="${cx}" cy="${cy}" r="${r}" fill="#000" fill-opacity="0.18"/>
+  <circle cx="${cx}" cy="${cy}" r="${r}" fill="none" stroke="${G}" stroke-width="3.5"/><circle cx="${cx}" cy="${cy}" r="${r - 16}" fill="none" stroke="${G}" stroke-width="1.3"/>
+  ${Array.from({ length: 48 }, (_, i) => { const a = (i * 7.5 * Math.PI) / 180; return `<circle cx="${(cx + (r - 8) * Math.cos(a)).toFixed(1)}" cy="${(cy + (r - 8) * Math.sin(a)).toFixed(1)}" r="2.4" fill="${G}"/>`; }).join('')}
+  <g transform="translate(${cx - 124} ${cy - 124}) scale(1.24)">${emblem}</g>
+  </svg>`;
+}
+
 // ---- a round emblem for a deity ----
 function disc({ id, top, bottom, emblem }) {
   return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="240" height="240">
@@ -186,9 +209,10 @@ const DISCS = [
   };
   const root = path.join(__dirname, '..', '..');
   for (const c of COVERS) await shot(cover(c), path.join(root, 'covers', `${c.id}.jpg`), W, H, false);
+  for (const c of COVERS.filter((c) => ['gita', 'sundarakanda', 'harikathamrutasara', 'sumadhvavijaya', 'devimahatmya'].includes(c.id))) await shot(banner(c), path.join(root, 'covers', `${c.id}-banner.jpg`), BW, BH, false);
   for (const d of DISCS) await shot(disc(d), path.join(root, 'deities', `${d.id}.png`), 240, 240, true);
   // contact sheet for checking the drawings
-  const sheet = `<div style="display:flex;flex-wrap:wrap;gap:8px;background:#fff9f0;padding:8px;width:1180px">${COVERS.map((c) => `<div style="zoom:0.5">${cover(c)}</div>`).join('')}</div><div style="display:flex;gap:8px;background:#fff9f0;padding:8px">${DISCS.map((d) => `<div style="zoom:0.55">${disc(d)}</div>`).join('')}</div>`;
+  const sheet = `<div style="zoom:0.6">${banner(COVERS[0])}${banner(COVERS[3])}</div>` + `<div style="display:flex;flex-wrap:wrap;gap:8px;background:#fff9f0;padding:8px;width:1180px">${COVERS.map((c) => `<div style="zoom:0.5">${cover(c)}</div>`).join('')}</div><div style="display:flex;gap:8px;background:#fff9f0;padding:8px">${DISCS.map((d) => `<div style="zoom:0.55">${disc(d)}</div>`).join('')}</div>`;
   await p.setViewportSize({ width: 1200, height: 900 });
   await p.setContent(`<html><body style="margin:0">${sheet}</body></html>`);
   if (process.argv[2]) await p.screenshot({ path: process.argv[2], fullPage: true });
