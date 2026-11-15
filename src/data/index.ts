@@ -16,8 +16,9 @@ const DIFFICULTY_ORDER = { easy: 0, medium: 1, advanced: 2 } as const;
  * Devanagari form the rest of the app works from (lossless, incl. ಱ/ೞ).
  */
 function toDevanagari(m: Mantra): Mantra {
-  if (m.sourceScript !== 'kannada') return m;
-  const k = (t: string) => Sanscript.t(t, 'kannada', 'devanagari');
+  if (m.sourceScript !== 'kannada' && m.sourceScript !== 'telugu') return m;
+  const from = m.sourceScript;
+  const k = (t: string) => Sanscript.t(t, from, 'devanagari');
   return {
     ...m,
     title: k(m.title),

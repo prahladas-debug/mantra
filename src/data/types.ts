@@ -93,10 +93,12 @@ export interface Mantra {
   /** Texts with the same series are read in `order` with Previous/Next (defaults to the category). */
   series?: string;
   /**
-   * Script the verse text is stored in. Default 'devanagari'. Kannada-language works
-   * (e.g. Harikathamrutasara) are stored in Kannada and converted on load.
+   * Script the verse text is stored in. Default 'devanagari'. Kannada- and Telugu-language works
+   * (e.g. Harikathamrutasara, Annamacharya) are stored in their script and converted on load, so
+   * they can be read in any script. Tamil-language works (e.g. Tiruppavai) are stored in Tamil and
+   * always shown in Tamil: Tamil spelling cannot be converted to other scripts without loss.
    */
-  sourceScript?: 'devanagari' | 'kannada';
+  sourceScript?: 'devanagari' | 'kannada' | 'telugu' | 'tamil';
   deity?: string;
   /** Scriptural source, e.g. "Mahābhārata, Anuśāsana Parva". */
   source?: string;

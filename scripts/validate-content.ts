@@ -13,13 +13,16 @@ import { pathToFileURL } from 'node:url';
 import Sanscript from '@indic-transliteration/sanscript';
 import type { Mantra } from '../src/data/types';
 
-const CATEGORIES = ['nitya', 'gita', 'sundarakanda', 'devimahatmya', 'harikathamrutasara', 'sumadhvavijaya', 'vedic', 'sahasranama', 'stotra', 'madhva', 'dasara-pada', 'sandhya', 'puja'];
+const CATEGORIES = ['nitya', 'gita', 'sundarakanda', 'devimahatmya', 'harikathamrutasara', 'sumadhvavijaya', 'vedic', 'sahasranama', 'stotra', 'madhva', 'dasara-pada', 'sandhya', 'puja', 'homa', 'kirtana'];
 const DIR = resolve(__dirname, '../src/data/texts');
 
 // Devanagari block, Vedic extensions, whitespace, ZWJ/ZWNJ, avagraha, basic punctuation.
 const ALLOWED = /^[ऀ-ॿ᳐-᳿꣠-ꣿ\s‌‍\-–—,.;:?!'’‘"“”()\[\]]*$/;
 // Kannada-language works (sourceScript: 'kannada'): Kannada block plus dandas.
 const ALLOWED_KN = /^[\u0C80-\u0CFF\u0964\u0965\s\u200C\u200D\-–—,.;:?!'’‘"“”()\[\]]*$/;
+// Telugu- and Tamil-language works: their own block plus dandas.
+const ALLOWED_TE = /^[\u0C00-\u0C7F\u0964\u0965\s\u200C\u200D\-–—,.;:?!'’‘"“”()\[\]]*$/;
+const ALLOWED_TA = /^[\u0B80-\u0BFF\u0964\u0965\s\u200C\u200D\-–—,.;:?!'’‘"“”()\[\]]*$/;
 const EMBEDDED_NUMBER = /॥\s*[०-९0-9]+\s*॥/;
 
 const args = process.argv.slice(2);
@@ -55,7 +58,7 @@ async function main() {
       if (seen.has(m.id)) err(w, `duplicate id (also in ${seen.get(m.id)})`);
       seen.set(m.id, file);
       if (!CATEGORIES.includes(m.category)) err(w, `bad category ${m.category}`);
-      const SCRIPT_OK = m.sourceScript === 'kannada' ? ALLOWED_KN : ALLOWED;
+      const SCRIPT_OK = m.sourceScript === 'kannada' ? ALLOWED_KN : m.sourceScript === 'telugu' ? ALLOWED_TE : m.sourceScript === 'tamil' ? ALLOWED_TA : ALLOWED;
       if (!m.title || !SCRIPT_OK.test(m.title)) err(w, `title must be ${m.sourceScript ?? 'devanagari'}`);
       if (!m.titleEn) err(w, 'missing titleEn');
       if (!m.summary) err(w, 'missing summary');
@@ -105,7 +108,7 @@ async function main() {
               if (lang === 'en' && t && /[\u0C80-\u0CFF]/.test(t)) err(vw, 'en meaning contains Kannada');
             }
           }
-          if (m.sourceScript === 'kannada') return;
+          if (m.sourceScript && m.sourceScript !== 'devanagari') return;
           // Round-trip sanity: Devanagari -> IAST -> Devanagari should be stable.
           // Legitimate spellings the IAST round trip cannot preserve: र्ऋ (nairṛta, rṛ is ambiguous),
           // anusvāra after ओ (oṃkāra, tejoṃśa) and candrabindu; normalise them before comparing.
