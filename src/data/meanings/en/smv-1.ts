@@ -463,7 +463,7 @@ export const enSmv1: MeaningPack = {
         '0.33': '"Then, with His wife who had entered the fire, and with His brothers going before Him, this giver of desires to the good returned at last to His abode and attained supreme oneness with His own original form."',
         '0.34': '"He whose feet are worshipped as Mahidāsa was born (as Kalki) of the renowned, pure-souled brāhmaṇa Viṣṇuyaśas; to quell the world\'s sins He bears a sword of great splendour and upholds the radiant Vedic word."',
         '0.35': '"This king of the gods became the son (Kapila) of Manu\'s daughter Devahūti by the sinless Kardama, radiant with austerity; and in time He awakened good souls brimming with devotion to Him."',
-        '0.36': '"Taking the form of a most lovely woman (Mohinī), her full youthful beauty manifest, He, the foe of the demons, gave the nectar to the host of the gods."',
+        '0.36': "\"Taking the form of a most lovely woman (Mohinī), her full youthful beauty shown forth by her large breasts pressed close together, He, the foe of the demons, gave the nectar to the host of the gods.\"",
         '0.37': '"This Eternal One, who grants the good their station and bestows purity of soul, became a tender child (Dattātreya), lovingly borne by pure-minded Anasūyā, wife of the best of sages, Atri."',
         '0.38': '"As Ṛṣabha, dear to the good, a ruler of the earth, He bore a body with the marks of a paramahaṃsa and wandered free of all ties, worshipped by Sanaka and others who sought the highest truth."',
         '0.39': '"This Hari was born as a son of Dharma, brother of Nara, of noble valour; and to delight the good, His brother called Kṛṣṇa was born of Himself as well."',

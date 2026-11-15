@@ -145,8 +145,8 @@ export const saundaryaLahari: Mantra = {
           n: 13,
           text: 'नरं वर्षीयांसं नयनविरसं नर्मसु जडं\nतवापाङ्गालोके पतितमनुधावन्ति शतशः ।\nगलद्वेणीबन्धाः कुचकलशविस्रस्तसिचया\nहठात् त्रुट्यत्काञ्च्यो विगलितदुकूला युवतयः ॥',
           meaning: {
-            en: 'Even an old man, plain to look at and slow in wit, once your glance falls on him, is followed by young women in hundreds, so captivated that they forget their dress and ornaments.',
-            kn: 'ವಯಸ್ಸಾದ, ನೋಡಲು ಸುಂದರನಲ್ಲದ, ಸರಸದಲ್ಲಿ ಜಡನಾದ ಮನುಷ್ಯನ ಮೇಲೂ ನಿನ್ನ ಕಡೆಗಣ್ಣ ನೋಟ ಬಿದ್ದರೆ, ನೂರಾರು ಯುವತಿಯರು ತಮ್ಮ ಉಡುಗೆತೊಡುಗೆಗಳ ಪರಿವೆಯೂ ಇಲ್ಲದೆ ಅವನನ್ನು ಹಿಂಬಾಲಿಸುತ್ತಾರೆ.',
+            en: 'Even an old man, plain to look at and slow in wit, once your glance falls on him, is followed by young women in hundreds, their braids coming loose, their upper garments slipping from their pitcher-like breasts, their girdles suddenly snapping and their silks falling away.',
+            kn: 'ವಯಸ್ಸಾದ, ನೋಡಲು ಸುಂದರನಲ್ಲದ, ಸರಸದಲ್ಲಿ ಜಡನಾದ ಮನುಷ್ಯನ ಮೇಲೂ ನಿನ್ನ ಕಡೆಗಣ್ಣ ನೋಟ ಬಿದ್ದರೆ, ನೂರಾರು ಯುವತಿಯರು ಅವನನ್ನು ಹಿಂಬಾಲಿಸುತ್ತಾರೆ — ಅವರ ಜಡೆಗಳು ಸಡಿಲಾಗುತ್ತವೆ, ಕಲಶದಂತಹ ಸ್ತನಗಳಿಂದ ಸೆರಗು ಜಾರುತ್ತದೆ, ಒಡ್ಯಾಣಗಳು ಥಟ್ಟನೆ ಕಡಿಯುತ್ತವೆ, ರೇಷ್ಮೆಯ ಉಡುಗೆ ಜಾರಿಬೀಳುತ್ತದೆ.',
           },
         },
         {
@@ -193,8 +193,8 @@ export const saundaryaLahari: Mantra = {
           n: 19,
           text: 'मुखं बिन्दुं कृत्वा कुचयुगमधस्तस्य तदधो\nहरार्धं ध्यायेद्यो हरमहिषि ते मन्मथकलाम् ।\nस सद्यः सङ्क्षोभं नयति वनिता इत्यतिलघु\nत्रिलोकीमप्याशु भ्रमयति रवीन्दुस्तनयुगाम् ॥',
           meaning: {
-            en: 'Whoever meditates, as this verse teaches, on your form called the kalā of Kāma, O queen of Hara, gains a power of attraction that sways not only people, a small thing, but even the three worlds. (A Śrīvidyā meditation, given here only in outline.)',
-            kn: 'ಹರನ ಮಹಿಷಿಯೇ, ಈ ಶ್ಲೋಕದಲ್ಲಿ ಹೇಳಿದಂತೆ ನಿನ್ನ ‘ಮನ್ಮಥಕಲೆ’ಯ ರೂಪವನ್ನು ಧ್ಯಾನಿಸುವವನು ಜನರನ್ನಷ್ಟೇ ಅಲ್ಲ, ಮೂರು ಲೋಕಗಳನ್ನೂ ಆಕರ್ಷಿಸುವ ಶಕ್ತಿಯನ್ನು ಪಡೆಯುತ್ತಾನೆ. (ಇದು ಶ್ರೀವಿದ್ಯಾ ಸಂಪ್ರದಾಯದ ಒಂದು ಧ್ಯಾನ; ಇಲ್ಲಿ ಸ್ಥೂಲ ಅರ್ಥವನ್ನು ಮಾತ್ರ ಕೊಡಲಾಗಿದೆ.)',
+            en: 'Whoever meditates on your Kāmakalā, O queen of Hara, making your face the bindu, the pair of breasts below it, and below them the half of Hara, at once stirs women, a small thing, and swiftly sways even the three worlds, whose breasts are the sun and the moon. (A Śrīvidyā meditation.)',
+            kn: 'ಹರನ ಮಹಿಷಿಯೇ, ಮುಖವನ್ನು ಬಿಂದುವಾಗಿಸಿ, ಅದರ ಕೆಳಗೆ ಸ್ತನಯುಗಲವನ್ನೂ ಅದರ ಕೆಳಗೆ ಹರಾರ್ಧವನ್ನೂ ಭಾವಿಸಿ ನಿನ್ನ ‘ಮನ್ಮಥಕಲೆ’ಯನ್ನು ಧ್ಯಾನಿಸುವವನು ಸ್ತ್ರೀಯರನ್ನು ಕ್ಷಣದಲ್ಲಿ ಕ್ಷೋಭೆಗೊಳಿಸುತ್ತಾನೆ — ಅದು ಅತಿ ಸಣ್ಣ ವಿಷಯ — ಸೂರ್ಯಚಂದ್ರರೇ ಸ್ತನಗಳಾಗಿರುವ ಮೂರು ಲೋಕಗಳನ್ನೂ ಬೇಗನೆ ಭ್ರಮೆಗೊಳಿಸುತ್ತಾನೆ. (ಇದು ಶ್ರೀವಿದ್ಯಾ ಸಂಪ್ರದಾಯದ ಒಂದು ಧ್ಯಾನ.)',
           },
         },
         {
@@ -671,8 +671,8 @@ export const saundaryaLahari: Mantra = {
           n: 78,
           text: 'स्थिरो गङ्गावर्तः स्तनमुकुलरोमावलिलता-\nकलावालं कुण्डं कुसुमशरतेजोहुतभुजः ।\nरतेर्लीलागारं किमपि तव नाभिर्गिरिसुते\nबिलद्वारं सिद्धेर्गिरिशनयनानां विजयते ॥',
           meaning: {
-            en: 'Your navel, O daughter of the mountain, is glorious: a steady whirlpool of the Gaṅgā, a basin for the creeper of fine hair, the fire-pit of Kāma’s flame, Rati’s pleasure-house, and the doorway to the fulfilment of Śiva’s eyes.',
-            kn: 'ಗಿರಿಸುತೆಯೇ, ನಿನ್ನ ನಾಭಿಯು ಗಂಗೆಯ ಸ್ಥಿರವಾದ ಸುಳಿಯಂತೆ, ರೋಮಾವಳಿಯೆಂಬ ಬಳ್ಳಿಗೆ ಪಾತಿಯಂತೆ, ಮನ್ಮಥನ ತೇಜಸ್ಸೆಂಬ ಅಗ್ನಿಯ ಕುಂಡದಂತೆ, ರತಿಯ ಲೀಲಾಗೃಹದಂತೆ, ಶಿವನ ಕಣ್ಣುಗಳ ಸಿದ್ಧಿಗೆ ಗುಹಾದ್ವಾರದಂತೆ ವಿಜಯಿಸುತ್ತದೆ.',
+            en: 'Your navel, O daughter of the mountain, is glorious: a steady whirlpool of the Gaṅgā, a basin for the creeper of fine hair that bears your breasts as its buds, the fire-pit of Kāma’s flame, Rati’s pleasure-house, and the doorway to the fulfilment of Śiva’s eyes.',
+            kn: 'ಗಿರಿಸುತೆಯೇ, ನಿನ್ನ ನಾಭಿಯು ಗಂಗೆಯ ಸ್ಥಿರವಾದ ಸುಳಿಯಂತೆ, ಸ್ತನಗಳೆಂಬ ಮೊಗ್ಗುಗಳುಳ್ಳ ರೋಮಾವಳಿಯೆಂಬ ಬಳ್ಳಿಗೆ ಪಾತಿಯಂತೆ, ಮನ್ಮಥನ ತೇಜಸ್ಸೆಂಬ ಅಗ್ನಿಯ ಕುಂಡದಂತೆ, ರತಿಯ ಲೀಲಾಗೃಹದಂತೆ, ಶಿವನ ಕಣ್ಣುಗಳ ಸಿದ್ಧಿಗೆ ಗುಹಾದ್ವಾರದಂತೆ ವಿಜಯಿಸುತ್ತದೆ.',
           },
         },
         {
@@ -815,8 +815,8 @@ export const saundaryaLahari: Mantra = {
           n: 96,
           text: 'कलत्रं वैधात्रं कति कति भजन्ते न कवयः\nश्रियो देव्याः को वा न भवति पतिः कैरपि धनैः ।\nमहादेवं हित्वा तव सति सतीनामचरमे\nकुचाभ्यामासङ्गः कुरवकतरोरप्यसुलभः ॥',
           meaning: {
-            en: 'How many poets do not win the favour of learning, Brahmā’s consort? Who does not become a master of wealth with a little riches? But you, O faithful one, first among devoted wives, are for Mahādeva alone; your embrace is not granted even to the kuravaka tree.',
-            kn: 'ಎಷ್ಟು ಕವಿಗಳು ಬ್ರಹ್ಮನ ಪತ್ನಿಯಾದ ವಿದ್ಯೆಯನ್ನು ಒಲಿಸಿಕೊಳ್ಳುವುದಿಲ್ಲ? ಸ್ವಲ್ಪ ಹಣದಿಂದಲೇ ಯಾರು ಸಂಪತ್ತಿನ ಒಡೆಯರಾಗುವುದಿಲ್ಲ? ಆದರೆ ಪತಿವ್ರತೆಯರಲ್ಲಿ ಅಗ್ರಗಣ್ಯಳಾದ ಸತಿಯೇ, ನೀನು ಮಹಾದೇವನಿಗೆ ಮಾತ್ರ ಸೇರಿದವಳು; ಕುರವಕ ವೃಕ್ಷಕ್ಕೂ ನಿನ್ನ ಸ್ಪರ್ಶ ದೊರಕದು.',
+            en: 'How many poets do not win the favour of learning, Brahmā’s consort? Who does not become a master of wealth with a little riches? But you, O faithful one, first among devoted wives, are for Mahādeva alone; the embrace of your breasts is not granted even to the kuravaka tree (which blossoms when a woman embraces it).',
+            kn: 'ಎಷ್ಟು ಕವಿಗಳು ಬ್ರಹ್ಮನ ಪತ್ನಿಯಾದ ವಿದ್ಯೆಯನ್ನು ಒಲಿಸಿಕೊಳ್ಳುವುದಿಲ್ಲ? ಸ್ವಲ್ಪ ಹಣದಿಂದಲೇ ಯಾರು ಸಂಪತ್ತಿನ ಒಡೆಯರಾಗುವುದಿಲ್ಲ? ಆದರೆ ಪತಿವ್ರತೆಯರಲ್ಲಿ ಅಗ್ರಗಣ್ಯಳಾದ ಸತಿಯೇ, ನೀನು ಮಹಾದೇವನಿಗೆ ಮಾತ್ರ ಸೇರಿದವಳು; ಸ್ತ್ರೀಯ ಆಲಿಂಗನದಿಂದ ಅರಳುವ ಕುರವಕ ವೃಕ್ಷಕ್ಕೂ ನಿನ್ನ ಸ್ತನಗಳ ಸ್ಪರ್ಶ ದೊರಕದು.',
           },
         },
         {

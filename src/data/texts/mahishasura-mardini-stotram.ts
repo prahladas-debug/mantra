@@ -199,8 +199,8 @@ export const mahishasuraMardiniStotram: Mantra = {
           n: 19,
           text: `कनकलसत्कल सिन्धुजलैरनुसिञ्चिनुते गुणरङ्गभुवं\nभजति स किं न शचीकुचकुम्भ तटीपरिरम्भ सुखानुभवम् ।\nतव चरणं शरणं करवाणि नतामरवाणि निवासि शिवं\n${REFRAIN}`,
           meaning: {
-            en: 'He who bathes your courtyard, the stage of your virtues, with the shining waters of golden rivers: will he not enjoy the joys of heaven, like Indra embracing Śacī? O Goddess to whom the gods bow, in whom speech itself dwells, I take refuge at your auspicious feet: victory to you, slayer of Mahiṣa!',
-            kn: 'ನಿನ್ನ ಗುಣಗಳ ರಂಗಭೂಮಿಯಾದ ಅಂಗಳವನ್ನು ಹೊಳೆಯುವ ಸ್ವರ್ಣನದಿಗಳ ನೀರಿನಿಂದ ತೊಳೆಯುವವನು ಶಚಿಯನ್ನು ಆಲಿಂಗಿಸುವ ಇಂದ್ರನಂತೆ ಸ್ವರ್ಗಸುಖವನ್ನು ಅನುಭವಿಸದೇ ಇರುವನೇ? ದೇವತೆಗಳು ನಮಿಸುವ, ವಾಣಿಯ ನೆಲೆಯಾದ ದೇವಿಯೇ, ನಿನ್ನ ಮಂಗಳಕರ ಪಾದಗಳಿಗೆ ಶರಣಾಗುತ್ತೇನೆ — ಮಹಿಷಾಸುರಮರ್ದಿನಿಯೇ, ನಿನಗೆ ಜಯವಾಗಲಿ!',
+            en: 'He who bathes your courtyard, the stage of your virtues, with the shining waters of golden rivers: will he not enjoy the joys of heaven, like Indra embracing the pitcher-like breasts of Śacī? O Goddess to whom the gods bow, in whom speech itself dwells, I take refuge at your auspicious feet: victory to you, slayer of Mahiṣa!',
+            kn: 'ನಿನ್ನ ಗುಣಗಳ ರಂಗಭೂಮಿಯಾದ ಅಂಗಳವನ್ನು ಹೊಳೆಯುವ ಸ್ವರ್ಣನದಿಗಳ ನೀರಿನಿಂದ ತೊಳೆಯುವವನು ಶಚಿಯ ಕಲಶದಂತಹ ಸ್ತನಗಳನ್ನು ಆಲಿಂಗಿಸುವ ಇಂದ್ರನಂತೆ ಸ್ವರ್ಗಸುಖವನ್ನು ಅನುಭವಿಸದೇ ಇರುವನೇ? ದೇವತೆಗಳು ನಮಿಸುವ, ವಾಣಿಯ ನೆಲೆಯಾದ ದೇವಿಯೇ, ನಿನ್ನ ಮಂಗಳಕರ ಪಾದಗಳಿಗೆ ಶರಣಾಗುತ್ತೇನೆ — ಮಹಿಷಾಸುರಮರ್ದಿನಿಯೇ, ನಿನಗೆ ಜಯವಾಗಲಿ!',
           },
         },
         {

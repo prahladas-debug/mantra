@@ -429,13 +429,15 @@ export const dvadashaStotra07: Mantra = {
 
 const PRINAYAMAH = 'प्रीणयामो वासुदेवं\nदेवतामण्डलाखण्डमण्डनं प्रीणयामो वासुदेवम् ॥';
 const PRINAYAMAH_EN = 'let us delight Vāsudeva, the perfect ornament of the whole assembly of gods.';
-const PRINAYAMAH_KN = 'ದೇವತಾಮಂಡಲಕ್ಕೆ ಪರಿಪೂರ್ಣ ಅಲಂಕಾರನಾದ ವಾಸುದೇವನನ್ನು ಸಂತೋಷಪಡಿಸೋಣ.';
+const PRINAYAMAH_KN = 'ದೇವತಾಮಂಡಲಕ್ಕೆ ಪರಿಪೂರ್ಣ ಅಲಂಕಾರವಾದ ವಾಸುದೇವನನ್ನು ಸಂತೋಷಪಡಿಸೋಣ.';
+/** After a full sentence: "such a Vāsudeva", with ಅಂತಹ next to the name it qualifies. */
+const PRINAYAMAH_KN_SUCH = 'ದೇವತಾಮಂಡಲಕ್ಕೆ ಪರಿಪೂರ್ಣ ಅಲಂಕಾರವಾದ ಅಂತಹ ವಾಸುದೇವನನ್ನು ಸಂತೋಷಪಡಿಸೋಣ.';
 const v8 = (n: number, lines: string, en: string, kn: string) =>
   v(
     n,
     `${lines} ।\n${PRINAYAMAH}`,
     en.endsWith(',') ? `${en} ${PRINAYAMAH_EN}` : `${en} Such is He: ${PRINAYAMAH_EN}`,
-    `${kn} ${kn.endsWith(',') ? '' : 'ಅಂತಹ '}${PRINAYAMAH_KN}`,
+    `${kn} ${kn.endsWith(',') ? PRINAYAMAH_KN : PRINAYAMAH_KN_SUCH}`,
   );
 
 export const dvadashaStotra08: Mantra = {
@@ -462,7 +464,7 @@ export const dvadashaStotra08: Mantra = {
       verses: [
         v8(1, 'वन्दिताशेषवन्द्योरुवृन्दारकं\nचन्दनाचर्चितोदारपीनांसकम् ।\nइन्दिराचञ्चलापाङ्गनीराजितं\nमन्दरोद्धारिवृत्तोद्भुजाभोगिनम्',
           'He is worshipped by the great hosts of gods whom all others worship; His broad, strong shoulders are anointed with sandal paste; He is lit up, as if with waving lamps, by the restless sidelong glances of Indirā; His round, raised arms lifted Mount Mandara.',
-          'ಎಲ್ಲರಿಂದ ವಂದಿತರಾದ ದೇವತಾಸಮೂಹವೂ ಅವನನ್ನು ವಂದಿಸುತ್ತದೆ; ಅವನ ವಿಶಾಲ ಬಲಿಷ್ಠ ಭುಜಗಳು ಚಂದನ ಲೇಪಿತ; ಲಕ್ಷ್ಮಿಯ ಚಂಚಲ ಕಟಾಕ್ಷಗಳು ಅವನಿಗೆ ಆರತಿ ಬೆಳಗುತ್ತವೆ; ಮಂದರಪರ್ವತವನ್ನು ಎತ್ತಿದ ದುಂಡಾದ ಎತ್ತರದ ಭುಜಗಳು ಅವನವು.'),
+          'ಎಲ್ಲರಿಂದ ವಂದಿತರಾದ ದೇವತಾಸಮೂಹವೂ ಅವನನ್ನು ವಂದಿಸುತ್ತದೆ; ಅವನ ವಿಶಾಲ ಬಲಿಷ್ಠ ಭುಜಗಳು ಚಂದನಲೇಪಿತವಾಗಿವೆ; ಲಕ್ಷ್ಮಿಯ ಚಂಚಲ ಕಟಾಕ್ಷಗಳು ಅವನಿಗೆ ಆರತಿ ಬೆಳಗುತ್ತವೆ; ಮಂದರಪರ್ವತವನ್ನು ಎತ್ತಿದ ದುಂಡಾದ ಎತ್ತರದ ಭುಜಗಳು ಅವನವು.'),
         v8(2, 'सृष्टिसंहारलीलाविलासाततं\nपुष्टषाड्गुण्यसद्विग्रहोल्लासिनम् ।\nदुष्टनिश्शेषसंहारकर्मोद्यतं\nहृष्टपुष्टानुशिष्टप्रजासंश्रयम्',
           'He is ever engaged in the sport of creation and destruction; He shines in a perfect form full of the six divine excellences; He is intent on destroying the wicked completely; He is the refuge of His people, whom He keeps joyful, nourished and well guided.',
           'ಸೃಷ್ಟಿ-ಸಂಹಾರಗಳೆಂಬ ಲೀಲಾವಿಲಾಸದಲ್ಲಿ ಸದಾ ತೊಡಗಿರುವ, ಷಡ್ಗುಣಪೂರ್ಣವಾದ ದಿವ್ಯ ವಿಗ್ರಹದಿಂದ ಶೋಭಿಸುವ, ದುಷ್ಟರನ್ನು ನಿಶ್ಶೇಷವಾಗಿ ಸಂಹರಿಸಲು ಸಿದ್ಧನಾದ, ಸಂತೋಷದಿಂದ ಪುಷ್ಟರಾದ ಸುಶಿಕ್ಷಿತ ಪ್ರಜೆಗಳಿಗೆ ಆಶ್ರಯನಾದವನು.'),

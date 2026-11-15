@@ -126,8 +126,8 @@ export const vayuStuti: Mantra = {
         n: 9,
         text: 'येऽमुं भावं भजन्ते सुरमुखसुजनाराधितं ते तृतीयं\nभासन्ते भासुरैस्ते सहचरचलितैश्चामरैश्चारुवेषाः ।\nवैकुण्ठे कण्ठलग्नस्थिरशुचिविलसत्कान्तितारुण्यलीला-\nलावण्यापूर्णकान्ताकुचभरसुलभाश्लेषसम्मोदसान्द्राः ॥',
         meaning: {
-          en: 'Those who worship this third form of yours (Madhvācārya), revered by the gods and by good people, shine in Vaikuṇṭha in beautiful attire, fanned by radiant chāmaras waved by their companions. Steeped in joy, they delight in the loving embrace of their radiant, ever-youthful consorts, whose charm never fades.',
-          kn: 'ದೇವತೆಗಳಿಂದಲೂ ಸಜ್ಜನರಿಂದಲೂ ಆರಾಧಿತವಾದ ನಿಮ್ಮ ಈ ಮೂರನೆಯ ರೂಪವನ್ನು (ಶ್ರೀಮಧ್ವಾಚಾರ್ಯರ ಅವತಾರವನ್ನು) ಭಜಿಸುವವರು ವೈಕುಂಠದಲ್ಲಿ ಸುಂದರ ವೇಷದಿಂದ ಶೋಭಿಸುತ್ತಾರೆ; ಸಂಗಡಿಗರು ಬೀಸುವ ಹೊಳೆಯುವ ಚಾಮರಗಳಿಂದ ಸೇವಿತರಾಗುತ್ತಾರೆ. ಎಂದೂ ಮಾಸದ ಕಾಂತಿ, ಯೌವನ, ಲಾವಣ್ಯಗಳಿಂದ ಕೂಡಿದ ತಮ್ಮ ಪತ್ನಿಯರ ಪ್ರೇಮದ ಆಲಿಂಗನದ ಆನಂದದಲ್ಲಿ ಅವರು ಮುಳುಗಿರುತ್ತಾರೆ.',
+          en: 'Those who worship this third form of yours (Madhvācārya), revered by the gods and by good people, shine in Vaikuṇṭha in beautiful attire, fanned by radiant chāmaras waved by their companions. Steeped in joy, they delight in the easily won embrace of the full bosoms of their radiant, ever-youthful consorts, who cling to their necks and whose charm never fades.',
+          kn: 'ದೇವತೆಗಳಿಂದಲೂ ಸಜ್ಜನರಿಂದಲೂ ಆರಾಧಿತವಾದ ನಿಮ್ಮ ಈ ಮೂರನೆಯ ರೂಪವನ್ನು (ಶ್ರೀಮಧ್ವಾಚಾರ್ಯರ ಅವತಾರವನ್ನು) ಭಜಿಸುವವರು ವೈಕುಂಠದಲ್ಲಿ ಸುಂದರ ವೇಷದಿಂದ ಶೋಭಿಸುತ್ತಾರೆ; ಸಂಗಡಿಗರು ಬೀಸುವ ಹೊಳೆಯುವ ಚಾಮರಗಳಿಂದ ಸೇವಿತರಾಗುತ್ತಾರೆ. ಕೊರಳನ್ನು ಅಪ್ಪಿಕೊಂಡಿರುವ, ಎಂದೂ ಮಾಸದ ಕಾಂತಿ, ಯೌವನ, ಲಾವಣ್ಯಗಳಿಂದ ಕೂಡಿದ ತಮ್ಮ ಪತ್ನಿಯರ ಪುಷ್ಟ ಸ್ತನಗಳ ಸುಲಭವಾದ ಆಲಿಂಗನದ ಆನಂದದಲ್ಲಿ ಅವರು ಮುಳುಗಿರುತ್ತಾರೆ.',
         },
       },
       {

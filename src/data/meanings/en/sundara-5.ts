@@ -503,7 +503,7 @@ export const enSundara5: MeaningPack = {
         '0.8': 'What could be more painful than this, son of Sumitra, that I see this water-born jewel without Vaidehi coming with it?',
         '0.9': 'Vaidehi lives long indeed if she holds out for a month; I could not live a moment, hero, without the dark-eyed one.',
         '0.10': 'Take me too to that place where my beloved was seen; having had news of her, I cannot stay here even a moment.',
-        '0.11': 'How does my fair, most timid, virtuous lady now live amid those terrible, frightening rakshasas?',
+        '0.11': "How does my fair-hipped, most timid, virtuous lady now live amid those terrible, frightening rakshasas?",
         '0.12': 'Surely her face, like the autumn moon freed from darkness but veiled again by clouds, does not shine now.',
         '0.13': 'What did Sita say, Hanuman? Tell me truly. By this alone I shall live, as a sick man lives by medicine.',
         '0.14': 'What did my sweet, sweet-spoken, lovely lady say, the fair one, parted from me? Tell me, Hanuman: falling from sorrow into deeper sorrow, how does Janaki live?"',
