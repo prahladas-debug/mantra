@@ -318,6 +318,13 @@ function udupiFestivals(city: City, jdFrom: number, jdTo: number, y0: number, y1
       kind: 'festival', calendar: 'saura', place, note: 'Day after the Udupi Janmāṣṭamī.',
     });
   }
+  // Rarely Simha masa holds two krishna ashtamis (e.g. 2033); say so on both rather than guess.
+  const jy = new Map<string, Festival[]>();
+  for (const f of out) if (f.key === 'udupi-krishna-janmashtami') jy.set(f.date.slice(0, 4), [...(jy.get(f.date.slice(0, 4)) ?? []), f]);
+  for (const list of jy.values()) {
+    if (list.length < 2) continue;
+    for (const f of list) f.note = `${f.note} This year Simha masa has two krishna ashtamis (${list.map((x) => x.date).join(' and ')}); the Udupi Sri Krishna Matha announces which one it keeps.`;
+  }
   for (let y = y0; y <= y1; y++) {
     const bisu = sauraMonthStart(city, y, 0, start);
     out.push({

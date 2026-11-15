@@ -1,3 +1,4 @@
+import { useEffect, useRef } from 'react';
 import { router, type Href } from 'expo-router';
 import { Pressable, Text, View } from 'react-native';
 import { getMantra } from '../data';
@@ -15,15 +16,32 @@ export function PlanCard({ plan, compact }: { plan: Plan; compact?: boolean }) {
   const st = planStatus(plan);
   const pct = Math.round(st.progress * 100);
 
+  // One reminder change at a time: a second quick tap would cancel a stale id and
+  // leave the first new reminder scheduled for ever.
+  const busy = useRef(false);
   const setReminder = async (time: string | undefined) => {
-    await cancelReminder(plan.notificationId);
-    let notificationId: string | undefined;
-    if (time) {
-      notificationId =
-        (await scheduleDailyReminder('Parayana · ಪಾರಾಯಣ', `Today: ${plan.title}`, time)) ?? undefined;
+    if (busy.current) return;
+    busy.current = true;
+    try {
+      await cancelReminder(plan.notificationId);
+      let notificationId: string | undefined;
+      if (time) {
+        notificationId =
+          (await scheduleDailyReminder('Parayana · ಪಾರಾಯಣ', `Today: ${plan.title}`, time)) ?? undefined;
+      }
+      updatePlan(plan.id, { reminder: time, notificationId });
+    } finally {
+      busy.current = false;
     }
-    updatePlan(plan.id, { reminder: time, notificationId });
   };
+
+  // A finished plan needs no daily reminder.
+  useEffect(() => {
+    if (st.finished && plan.notificationId) {
+      cancelReminder(plan.notificationId);
+      updatePlan(plan.id, { reminder: undefined, notificationId: undefined });
+    }
+  }, [st.finished, plan.notificationId, plan.id, updatePlan]);
 
   return (
     <View style={{ marginHorizontal: 16, marginBottom: 12, padding: 14, borderRadius: 14, borderWidth: 1, borderColor: theme.cardBorder, backgroundColor: theme.card }}>

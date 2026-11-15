@@ -107,7 +107,14 @@ export function SettingsProvider({ children }: { children: React.ReactNode }) {
     AsyncStorage.getItem(KEY)
       .then((raw) => {
         if (!raw) return;
-        const saved = JSON.parse(raw) as Partial<Store>;
+        let saved: Partial<Store>;
+        try {
+          saved = JSON.parse(raw) as Partial<Store>;
+        } catch {
+          // Keep the unreadable data rather than overwrite it with defaults unseen.
+          AsyncStorage.setItem(`${KEY}.unreadable`, raw).catch(() => {});
+          return;
+        }
         setStore({
           // Someone who used the app before the welcome screen existed has already chosen.
           settings: { ...DEFAULTS.settings, onboarded: true, ...saved.settings },
