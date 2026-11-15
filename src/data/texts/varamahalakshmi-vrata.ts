@@ -56,7 +56,7 @@ export const varamahalakshmiVrata: Mantra = {
   ],
   difficulty: "medium",
   completeness: "partial",
-  contentNote: "Gives only what is specific to this vrata. Acamana, pranayama, desha-kala sankalpa, Ganapati puja, kalasha puja, prana-pratishtha and the sixteen upacharas are as in the Shodashopachara Puja text, with the deity name changed (Purusha Sukta and Sri Sukta can be read from the app). Left out: the Lakshmi ashtottara (108 names, read it from your manual or the app), the full lists of leaves and flowers, Yamuna puja in the Madhva manner, the udyapana, and the Sanskrit/Telugu katha text, which is retold in the note of the last section.",
+  contentNote: "Gives only what is specific to this vrata. Achamana, pranayama, desha-kala sankalpa, Ganapati puja, kalasha puja, prana-pratishtha and the sixteen upacharas are as in the Shodashopachara Puja text, with the deity name changed (Purusha Sukta and Sri Sukta can be read from the app). Left out: the Lakshmi ashtottara (108 names, read it from your manual or the app), the full lists of leaves and flowers, Yamuna puja in the Madhva manner, the udyapana, and the Sanskrit/Telugu katha text, which is retold in the note of the last section.",
   sections: [
     {
       title: "सङ्कल्पः",

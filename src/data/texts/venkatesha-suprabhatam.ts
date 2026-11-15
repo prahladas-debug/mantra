@@ -236,7 +236,7 @@ export const venkateshaSuprabhatam: Mantra = {
           n: 24,
           text: 'मीनाकृते कमठ कोल नृसिंह वर्णिन्\nस्वामिन् परश्वथ तपोधन रामचन्द्र ।\nशेषांशराम यदुनन्दन कल्किरूप\nश्रीवेङ्कटाचलपते तव सुप्रभातम् ॥',
           meaning: {
-            en: 'O Lord who took the forms of the Fish, the Tortoise, the Boar, Narasiṁha and the young Brahmin Vāmana; O Paraśurāma, ascetic with the axe; O Rāmacandra; O Balarāma, born of Śeṣa; O Kṛṣṇa, delight of the Yadus; O Kalki. O Lord of the Veṅkaṭa hill, may your dawn be blessed.',
+            en: 'O Lord who took the forms of the Fish, the Tortoise, the Boar, Narasiṃha and the young Brahmin Vāmana; O Paraśurāma, ascetic with the axe; O Rāmacandra; O Balarāma, born of Śeṣa; O Kṛṣṇa, delight of the Yadus; O Kalki. O Lord of the Veṅkaṭa hill, may your dawn be blessed.',
             kn: 'ಮತ್ಸ್ಯ, ಕೂರ್ಮ, ವರಾಹ, ನೃಸಿಂಹ, ವಟು ವಾಮನ ರೂಪಗಳನ್ನು ಧರಿಸಿದವನೇ, ಕೊಡಲಿ ಹಿಡಿದ ತಪಸ್ವಿ ಪರಶುರಾಮನೇ, ಶ್ರೀರಾಮಚಂದ್ರನೇ, ಶೇಷಾಂಶನಾದ ಬಲರಾಮನೇ, ಯದುನಂದನ ಶ್ರೀಕೃಷ್ಣನೇ, ಕಲ್ಕಿರೂಪನೇ, ಶ್ರೀ ವೇಂಕಟಾಚಲಪತಿಯೇ, ನಿನಗೆ ಸುಪ್ರಭಾತವಾಗಲಿ.',
           },
         },
@@ -268,7 +268,7 @@ export const venkateshaSuprabhatam: Mantra = {
           n: 28,
           text: 'लक्ष्मीनिवास निरवद्यगुणैकसिन्धो\nसंसारसागरसमुत्तरणैकसेतो ।\nवेदान्तवेद्य निजवैभव भक्तभोग्य\nश्रीवेङ्कटाचलपते तव सुप्रभातम् ॥',
           meaning: {
-            en: 'O abode of Lakṣmī, sole ocean of flawless virtues, the one bridge across the ocean of saṁsāra; O Lord known through Vedānta, glorious by your own nature, the delight of your devotees. O Lord of the Veṅkaṭa hill, may your dawn be blessed.',
+            en: 'O abode of Lakṣmī, sole ocean of flawless virtues, the one bridge across the ocean of saṃsāra; O Lord known through Vedānta, glorious by your own nature, the delight of your devotees. O Lord of the Veṅkaṭa hill, may your dawn be blessed.',
             kn: 'ಲಕ್ಷ್ಮೀನಿವಾಸನೇ, ದೋಷರಹಿತ ಗುಣಗಳ ಏಕೈಕ ಸಾಗರನೇ, ಸಂಸಾರಸಾಗರವನ್ನು ದಾಟಿಸುವ ಏಕೈಕ ಸೇತುವೆಯೇ, ವೇದಾಂತಗಳಿಂದ ತಿಳಿಯಲ್ಪಡುವವನೇ, ಸ್ವಾಭಾವಿಕ ವೈಭವವುಳ್ಳವನೇ, ಭಕ್ತರಿಗೆ ಆನಂದದಾಯಕನೇ, ಶ್ರೀ ವೇಂಕಟಾಚಲಪತಿಯೇ, ನಿನಗೆ ಸುಪ್ರಭಾತವಾಗಲಿ.',
           },
         },
@@ -421,7 +421,7 @@ export const venkateshaPrapatti: Mantra = {
           n: 15,
           text: 'सत्त्वोत्तरैः सततसेव्यपदाम्बुजेन\nसंसारतारकदयार्द्रदृगञ्चलेन ।\nसौम्योपयन्तृमुनिना मम दर्शितौ ते\nश्रीवेङ्कटेश चरणौ शरणं प्रपद्ये ॥',
           meaning: {
-            en: 'Your feet were shown to me by the sage Saumya Jāmātṛ (Maṇavāḷa Māmuni), whose lotus feet the pure-hearted ever serve and whose glance, moist with compassion, carries souls across saṁsāra. In those feet of Śrī Veṅkaṭeśa I take refuge.',
+            en: 'Your feet were shown to me by the sage Saumya Jāmātṛ (Maṇavāḷa Māmuni), whose lotus feet the pure-hearted ever serve and whose glance, moist with compassion, carries souls across saṃsāra. In those feet of Śrī Veṅkaṭeśa I take refuge.',
             kn: 'ಸತ್ತ್ವಗುಣಸಂಪನ್ನರು ಸದಾ ಸೇವಿಸುವ ಪಾದಕಮಲಗಳುಳ್ಳ, ಸಂಸಾರದಿಂದ ಪಾರುಮಾಡುವ ದಯಾರ್ದ್ರ ದೃಷ್ಟಿಯುಳ್ಳ ಸೌಮ್ಯಜಾಮಾತೃ ಮುನಿಗಳು (ಮಣವಾಳ ಮಾಮುನಿಗಳು) ನನಗೆ ನಿನ್ನ ಪಾದಗಳನ್ನು ತೋರಿಸಿದರು. ಶ್ರೀ ವೇಂಕಟೇಶನ ಆ ಚರಣಗಳಿಗೆ ಶರಣಾಗುತ್ತೇನೆ.',
           },
         },

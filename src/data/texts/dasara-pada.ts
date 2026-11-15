@@ -118,7 +118,7 @@ export const dpBhagyadaLakshmiBaramma: Mantra = {
             n: 5,
             text: 'ಸಕ್ಕರೆ ತುಪ್ಪದ ಕಾಲುವೆ ಹರಿಸಿ\nಶುಕ್ರವಾರದ ಪೂಜೆಯ ವೇಳೆಗೆ ।\nಅಕ್ಕರೆವುಳ್ಳ ಅಳಗಿರಿ ರಂಗನ\nಚೊಕ್ಕ ಪುರಂದರವಿಠಲನ ರಾಣಿ ॥',
             meaning: {
-              en: 'Come at the hour of the Friday pūjā, making streams of sugar and ghee flow: beloved queen of the loving Raṅga of Aḻagiri, of the fair Purandara Viṭhala.',
+              en: 'Come at the hour of the Friday pūjā, making streams of sugar and ghee flow: beloved queen of the loving Raṅga of Aḷagiri, of the fair Purandara Viṭhala.',
               kn: 'ಶುಕ್ರವಾರದ ಪೂಜೆಯ ಹೊತ್ತಿಗೆ ಸಕ್ಕರೆ-ತುಪ್ಪದ ಕಾಲುವೆಗಳನ್ನು ಹರಿಸುತ್ತ ಬಾ. ಪ್ರೀತಿಯುಳ್ಳ ಅಳಗಿರಿ ರಂಗನ, ಸುಂದರ ಪುರಂದರವಿಠಲನ ರಾಣಿಯೇ ಬಾ.',
             },
           },
@@ -847,7 +847,7 @@ export const dpToogireRangana: Mantra = {
           {
             text: 'ತೂಗಿರೆ ರಂಗನ ತೂಗಿರೆ ಕೃಷ್ಣನ\nತೂಗಿರೆ ಅಚ್ಯುತಾನಂತನ ।\nತೂಗಿರೆ ವರಗಿರಿಯಪ್ಪ ತಿಮ್ಮಪ್ಪನ\nತೂಗಿರೆ ಕಾವೇರಿ ರಂಗಯ್ಯನ ॥',
             meaning: {
-              en: 'Rock Raṅga, rock Kṛṣṇa, rock Acyuta, the endless one; rock Timmappa, lord of the sacred hill; rock Raṅgayya of the Kāveri.',
+              en: 'Rock Raṅga, rock Kṛṣṇa, rock Achyuta, the endless one; rock Timmappa, lord of the sacred hill; rock Raṅgayya of the Kāveri.',
               kn: 'ರಂಗನನ್ನು ತೂಗಿರಿ, ಕೃಷ್ಣನನ್ನು ತೂಗಿರಿ, ಅಚ್ಯುತ ಅನಂತನನ್ನು ತೂಗಿರಿ; ಶ್ರೇಷ್ಠಗಿರಿಯ ಒಡೆಯ ತಿಮ್ಮಪ್ಪನನ್ನು ತೂಗಿರಿ, ಕಾವೇರಿಯ ರಂಗಯ್ಯನನ್ನು ತೂಗಿರಿ.',
             },
           },
@@ -1314,7 +1314,7 @@ export const dpTallanisadiruKandya: Mantra = {
   summaryKn: '“ಮನವೇ, ತಲ್ಲಣಿಸಬೇಡ, ತಾಳ್ಮೆಯಿಂದಿರು; ಎಲ್ಲರನ್ನೂ ಅವನು ಸಲಹುತ್ತಾನೆ.” ಬೆಟ್ಟದ ತುದಿಯ ಮರ, ಕಾಡಿನ ಮೃಗಪಕ್ಷಿಗಳು, ಕಲ್ಲಿನೊಳಗಿನ ಕಪ್ಪೆ ಎಲ್ಲಕ್ಕೂ ಆಹಾರ ಕೊಡುವವನು ಸೃಷ್ಟಿಸಿದ ಸ್ವಾಮಿಯೇ ಎಂದು ಕನಕದಾಸರು ಧೈರ್ಯ ತುಂಬುತ್ತಾರೆ.',
   difficulty: 'easy',
   completeness: 'partial',
-  contentNote: 'SMS has a further caraṇa (ನವಿಲಿಗೆ ಚಿತ್ರ ಬರೆದವರು ಯಾರು …) that is missing from BJ; it is left out until a second copy is found.',
+  contentNote: 'SMS has a further caraṇa (नविलिगॆ चित्र बरॆदवरु यारु …) that is missing from BJ; it is left out until a second copy is found.',
   sections: [
       {
         title: 'ಪಲ್ಲವಿ',
@@ -1435,7 +1435,7 @@ export const dpNiMayeyolago: Mantra = {
   summaryKn: 'ಎಲ್ಲವನ್ನೂ ತನ್ನೊಳಗೆ ಧರಿಸಿರುವ ಶ್ರೀಹರಿಯ ಕುರಿತು ಕನಕದಾಸರ ಒಗಟಿನ ಹಾಡು: ನೀನು ಮಾಯೆಯೊಳಗೋ, ಮಾಯೆ ನಿನ್ನೊಳಗೋ? ಬಯಲು-ಆಲಯ, ಕಣ್ಣು-ಬುದ್ಧಿ, ಹೂವು-ಗಂಧ… “ಹೇಳಲು ನನ್ನಿಂದಾಗದು; ಎಲ್ಲವೂ ನಿನ್ನೊಳಗೇ, ಹರಿಯೇ.”',
   difficulty: 'easy',
   completeness: 'partial',
-  contentNote: 'SDS has a further caraṇa (ಸವಿಯು ಸಕ್ಕರೆಯೊಳಗೊ …) between the two given here, and the word ಹರಿಯೆ at the end of the anupallavi; BJ has neither, so they are left out until a second copy is found.',
+  contentNote: 'SDS has a further caraṇa (सवियु सक्करॆयॊळगॊ …) between the two given here, and the word हरियॆ at the end of the anupallavi; BJ has neither, so they are left out until a second copy is found.',
   sections: [
       {
         title: 'ಪಲ್ಲವಿ',
@@ -1667,7 +1667,7 @@ export const dpKeshavaNama: Mantra = {
             n: 19,
             text: 'ಸಂಚಿತಾರ್ಥ ಪಾಪಗಳನು ಕಿಂಚಿತಾದರುಳಿಯದಂತೆ ।\nಮುಂಚಿತಾಗಿ ಕಳೆದು ಪೊರೆಯೊ ಸ್ವಾಮಿ ಅಚ್ಯುತ ॥',
             meaning: {
-              en: 'Remove in advance all my stored-up sins, so that not the least is left, and protect me, Lord Acyuta.',
+              en: 'Remove in advance all my stored-up sins, so that not the least is left, and protect me, Lord Achyuta.',
               kn: 'ಸಂಚಿತ ಪಾಪಗಳು ಕಿಂಚಿತ್ತೂ ಉಳಿಯದಂತೆ ಮೊದಲೇ ಕಳೆದು ನನ್ನನ್ನು ಕಾಪಾಡು, ಸ್ವಾಮಿ ಅಚ್ಯುತನೇ.',
             },
           },

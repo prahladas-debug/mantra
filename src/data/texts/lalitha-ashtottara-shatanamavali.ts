@@ -37,7 +37,7 @@ const NAMES: [string, string, string][] = [
   ['कस्तूरीतिलकोल्लासिनिटिलायै', 'whose forehead shines with a musk tilaka', 'ಕಸ್ತೂರಿ ತಿಲಕದಿಂದ ಶೋಭಿಸುವ ಹಣೆಯುಳ್ಳವಳು'],
   ['भस्मरेखाङ्कितलसन्मस्तकायै', 'whose shining head is marked with lines of sacred ash', 'ಭಸ್ಮರೇಖೆಗಳಿಂದ ಶೋಭಿಸುವ ತಲೆಯುಳ್ಳವಳು'],
   ['विकचाम्भोरुहदललोचनायै', 'whose eyes are like the petals of a blooming lotus', 'ಅರಳಿದ ಕಮಲದಳದಂತಹ ಕಣ್ಣುಗಳುಳ್ಳವಳು'],
-  ['शरच्चाम्पेयपुष्पाभनासिकायै', 'whose nose is like an autumn campaka flower', 'ಶರತ್ಕಾಲದ ಸಂಪಿಗೆ ಹೂವಿನಂತಹ ಮೂಗುಳ್ಳವಳು'],
+  ['शरच्चाम्पेयपुष्पाभनासिकायै', 'whose nose is like an autumn champaka flower', 'ಶರತ್ಕಾಲದ ಸಂಪಿಗೆ ಹೂವಿನಂತಹ ಮೂಗುಳ್ಳವಳು'],
   ['लसत्काञ्चनताटङ्कयुगलायै', 'wearing a pair of shining golden ear ornaments', 'ಹೊಳೆಯುವ ಚಿನ್ನದ ಓಲೆಗಳ ಜೋಡಿಯನ್ನು ಧರಿಸಿದವಳು'],
   ['मणिदर्पणसङ्काशकपोलायै', 'whose cheeks are like jewelled mirrors', 'ರತ್ನದರ್ಪಣದಂತಹ ಕೆನ್ನೆಗಳುಳ್ಳವಳು'],
   ['ताम्बूलपूरितस्मेरवदनायै', 'whose smiling mouth is filled with betel', 'ತಾಂಬೂಲದಿಂದ ತುಂಬಿದ ನಗುಮುಖದವಳು'],
@@ -144,7 +144,7 @@ export const lalithaAshtottaraShatanamavali: Mantra = {
   deity: 'Śrī Lalitā Tripurasundarī',
   source: 'Śrīvidyā tradition',
   summary:
-    'One hundred and eight names of the Goddess Lalitā, each offered as "oṃ … namo namaḥ", used in kuṅkuma-arcana and Devī pūjā. The names describe her beauty from head to foot, her seat in Maṇidvīpa and the Śrīcakra, her union with Śiva, and her victory over Bhaṇḍa and the other demons.',
+    'One hundred and eight names of the Goddess Lalitā, each offered as "oṃ … namo namaḥ", used in kuṅkuma-archana and Devī pūjā. The names describe her beauty from head to foot, her seat in Maṇidvīpa and the Śrīcakra, her union with Śiva, and her victory over Bhaṇḍa and the other demons.',
   summaryKn:
     'ಕುಂಕುಮಾರ್ಚನೆ ಮತ್ತು ದೇವೀಪೂಜೆಯಲ್ಲಿ "ಓಂ … ನಮೋ ನಮಃ" ಎಂದು ಸಮರ್ಪಿಸುವ ಶ್ರೀಲಲಿತಾದೇವಿಯ ನೂರೆಂಟು ನಾಮಗಳು. ತಲೆಯಿಂದ ಪಾದದವರೆಗಿನ ಅವಳ ಸೌಂದರ್ಯ, ಮಣಿದ್ವೀಪ ಮತ್ತು ಶ್ರೀಚಕ್ರದಲ್ಲಿನ ಅವಳ ನೆಲೆ, ಶಿವನೊಡನೆ ಅವಳ ಐಕ್ಯ ಹಾಗೂ ಭಂಡಾಸುರಾದಿಗಳ ಮೇಲಿನ ಜಯವನ್ನು ಈ ನಾಮಗಳು ವರ್ಣಿಸುತ್ತವೆ.',
   difficulty: 'medium',
@@ -153,7 +153,7 @@ export const lalithaAshtottaraShatanamavali: Mantra = {
     {
       title: 'नामावलिः',
       titleEn: 'Namavali',
-      note: 'In kuṅkuma-arcana, offer a pinch of kuṅkuma or a flower at each name. Some traditions add "aiṃ hrīṃ śrīṃ" after "oṃ" in every name.',
+      note: 'In kuṅkuma-archana, offer a pinch of kuṅkuma or a flower at each name. Some traditions add "aiṃ hrīṃ śrīṃ" after "oṃ" in every name.',
       noteKn: 'ಕುಂಕುಮಾರ್ಚನೆಯಲ್ಲಿ ಪ್ರತಿ ನಾಮಕ್ಕೂ ಚಿಟಿಕೆ ಕುಂಕುಮ ಅಥವಾ ಒಂದು ಹೂವನ್ನು ಸಮರ್ಪಿಸಬೇಕು. ಕೆಲವು ಸಂಪ್ರದಾಯಗಳಲ್ಲಿ ಪ್ರತಿ ನಾಮದಲ್ಲೂ ಓಂ ನಂತರ ಐಂ ಹ್ರೀಂ ಶ್ರೀಂ ಸೇರಿಸುತ್ತಾರೆ.',
       verses: [
         { text: 'ॐ ऐं ह्रीं श्रीम् ॥' },

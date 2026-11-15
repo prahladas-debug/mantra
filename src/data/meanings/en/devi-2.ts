@@ -5,7 +5,7 @@ export const enDevi2: MeaningPack = {
   texts: {
     'devi-mahatmyam-05': {
       verses: {
-        '0.0': "Om. Of this Uttara Carita (the final episode) the seer is Rudra, the deity Mahāsarasvatī, the metre anuṣṭubh, the śakti Bhīmā, the bīja Bhrāmarī, the tattva the Sun, and its form the Sāmaveda; it is recited to please Mahāsarasvatī.",
+        '0.0': "Om. Of this Uttara Charita (the final episode) the seer is Rudra, the deity Mahāsarasvatī, the metre anuṣṭubh, the śakti Bhīmā, the bīja Bhrāmarī, the tattva the Sun, and its form the Sāmaveda; it is recited to please Mahāsarasvatī.",
         '0.1': "Om. I meditate here on Mahāsarasvatī, who holds in her lotus hands the bell, trident, plough, conch, pestle, discus, bow and arrow; whose radiance is like the moon shining at the close of the rains; who arose from the body of Gaurī; the support of the three worlds; the destroyer of Śumbha and the other demons.",
         '1.0': "The Rishi said:",
         '1.1': "Long ago the asuras Śumbha and Niśumbha, relying on their pride and might, seized the three worlds and the shares of the sacrifice from Indra, the lord of Śacī.",
@@ -42,7 +42,7 @@ export const enDevi2: MeaningPack = {
         '2.25': "To the Devī who abides in all beings in the form of mother: salutations to her, salutations to her, salutations to her, salutations again and again.",
         '2.26': "To the Devī who abides in all beings in the form of error (delusion): salutations to her, salutations to her, salutations to her, salutations again and again.",
         '2.27': "Salutations again and again to the all-pervading Devī, who presides over the senses of beings and is ever present in all beings.",
-        '2.28': "To her who, in the form of consciousness (citi), pervades this whole world and abides in it: salutations to her, salutations to her, salutations to her, salutations again and again.",
+        '2.28': "To her who, in the form of consciousness (chiti), pervades this whole world and abides in it: salutations to her, salutations to her, salutations to her, salutations again and again.",
         '2.29': "Praised of old by the gods for the attainment of their desires and worshipped day after day by Indra, may that Sovereign Goddess, the source of good, bring about auspicious things for us and strike down our calamities.",
         '2.30': "She who is now being saluted by us gods, tormented by the arrogant Daityas, and who, when remembered by those bowed in devotion, at that very moment destroys all our calamities — (may she protect us).",
         '3.0': "The Rishi said:",
@@ -323,8 +323,8 @@ export const enDevi2: MeaningPack = {
         '3.4': "The Devī said:",
         '3.5': "“When the Vaivasvata manvantara has come, in the twenty-eighth yuga, two other great asuras, Śumbha and Niśumbha, will be born.”",
         '3.6': "“Then, born in the house of the cowherd Nanda, from the womb of Yaśodā, and dwelling on the Vindhya mountains, I will destroy them both.”",
-        '3.7': "“And again, descending to the earth in an exceedingly fierce form, I will slay the Dānavas descended from Vipracitti.”",
-        '3.8': "“As I devour those fierce great asuras, the descendants of Vipracitti, my teeth will become red like pomegranate flowers.”",
+        '3.7': "“And again, descending to the earth in an exceedingly fierce form, I will slay the Dānavas descended from Viprachitti.”",
+        '3.8': "“As I devour those fierce great asuras, the descendants of Viprachitti, my teeth will become red like pomegranate flowers.”",
         '3.9': "“Therefore the gods in heaven and men in the mortal world, praising me, will always speak of me as Raktadantikā, the red-toothed.”",
         '3.10': "“And again, when there is no rain for a hundred years and no water, I will appear on the earth, not born of a womb, praised by the sages.”",
         '3.11': "“Then, because I will look upon the sages with a hundred eyes, men will celebrate me as Śatākṣī, the hundred-eyed.”",

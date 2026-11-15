@@ -5,12 +5,12 @@ export const enDevi1: MeaningPack = {
   texts: {
     'devi-mahatmyam-kavacham': {
       verses: {
-        '0.0': "Viniyoga: of this Śrī Caṇḍī Kavaca the seer is Brahmā, the metre anuṣṭubh and the deity Cāmuṇḍā; the Mothers named in the aṅganyāsa are its seed (bīja) and the guardian deities of the directions its essence (tattva). It is recited as a limb of the Saptaśatī recitation, for the pleasure of Śrī Jagadambā.",
+        '0.0': "Viniyoga: of this Śrī Caṇḍī Kavacha the seer is Brahmā, the metre anuṣṭubh and the deity Cāmuṇḍā; the Mothers named in the aṅganyāsa are its seed (bīja) and the guardian deities of the directions its essence (tattva). It is recited as a limb of the Saptaśatī recitation, for the pleasure of Śrī Jagadambā.",
         '0.1': "Oṃ, salutation to Caṇḍikā.",
         '1.0': "Mārkaṇḍeya said:",
         '1.1': "O Grandsire, tell me that which is most secret in the world, which gives men every kind of protection, and which has never been revealed to anyone.",
         '1.2': "Brahmā said:",
-        '1.3': "O brāhmaṇa, there is a most secret thing that benefits all beings: the holy armour (kavaca) of the Devī. Listen to it, great sage.",
+        '1.3': "O brāhmaṇa, there is a most secret thing that benefits all beings: the holy armour (kavacha) of the Devī. Listen to it, great sage.",
         '1.4': "The first is Śailaputrī, the second Brahmacāriṇī, the third is called Candraghaṇṭā, the fourth Kūṣmāṇḍā;",
         '1.5': "the fifth is Skandamātā, the sixth Kātyāyanī, the seventh Kālarātri and the eighth Mahāgaurī;",
         '1.6': "and the ninth is Siddhidātrī. These are proclaimed as the nine Durgās; these names were declared by the great-souled Brahmā himself.",
@@ -61,7 +61,7 @@ export const enDevi1: MeaningPack = {
         '1.51': "the spirits called sahajā, kulajā and mālā, the ḍākinīs and śākinīs, and the terrible, mighty ḍākinīs that roam the sky;",
         '1.52': "grahas, bhūtas and piśācas, yakṣas, gandharvas and rākṣasas, brahma-rākṣasas, vetālas, kūṣmāṇḍas, bhairavas and the like —",
         '1.53': "all these perish at the very sight of one in whose heart this armour is established. He gains honour and high standing from the king; it greatly increases his splendour.",
-        '1.54': "He too grows in fame on an earth adorned with his renown. Having first recited the kavaca, one should then recite the Saptaśatī, the Caṇḍī.",
+        '1.54': "He too grows in fame on an earth adorned with his renown. Having first recited the kavacha, one should then recite the Saptaśatī, the Caṇḍī.",
         '1.55': "As long as the earth bears its mountains, woods and forests, so long does his line of sons and grandsons endure upon it.",
         '1.56': "At the end of this body, by the grace of Mahāmāyā, the man attains the supreme, eternal abode that is hard to reach even for the gods.",
         '1.57': "He gains a supreme form and rejoices together with Śiva.",
@@ -92,13 +92,13 @@ export const enDevi1: MeaningPack = {
     },
     'devi-mahatmyam-01': {
       verses: {
-        '0.0': "Viniyoga: of the first episode (prathama carita) the seer is Brahmā, the deity Mahākālī, the metre gāyatrī, the śakti Nandā, the seed Raktadantikā, the essence fire, and its form the Ṛgveda. It is recited for the pleasure of Śrī Mahākālī.",
+        '0.0': "Viniyoga: of the first episode (prathama charita) the seer is Brahmā, the deity Mahākālī, the metre gāyatrī, the śakti Nandā, the seed Raktadantikā, the essence fire, and its form the Ṛgveda. It is recited for the pleasure of Śrī Mahākālī.",
         '0.1': "Meditation: I worship Mahākālī, who holds in her hands sword, discus, mace, arrow, bow, club, trident, sling, a severed head and conch; three-eyed, adorned on every limb, shining like blue sapphire, with ten faces and ten feet — she whom the lotus-born Brahmā praised, while Hari slept, so that Madhu and Kaiṭabha might be slain.",
         '0.2': "Oṃ, salutation to Caṇḍikā.",
         '1.0': "Mārkaṇḍeya said:",
         '1.1': "Sāvarṇi, son of the Sun, is called the eighth Manu. Hear from me in detail the story of his birth.",
         '1.2': "Hear how, by the power of Mahāmāyā, that greatly fortunate Sāvarṇi, son of the Sun, became the lord of a Manvantara.",
-        '1.3': "Long ago, in the age of the Manu Svārociṣa, there was a king named Suratha, born of the line of Caitra, who ruled over the whole earth.",
+        '1.3': "Long ago, in the age of the Manu Svārociṣa, there was a king named Suratha, born of the line of Chaitra, who ruled over the whole earth.",
         '1.4': "While he was rightly protecting his subjects as though they were his own sons, certain kings, destroyers of the Kolas, became his enemies.",
         '1.5': "He, a wielder of mighty power, fought a battle with them; but though they were fewer, he was defeated in that battle by the Kolāvidhvaṃsins.",
         '1.6': "Then he returned to his own city and ruled only his own country; but even there that illustrious king was attacked by those powerful enemies.",
@@ -180,7 +180,7 @@ export const enDevi1: MeaningPack = {
         '2.11': "the power of all of it is you; how then can you be praised? You by whom even he who creates, protects and devours the world",
         '2.12': "has been brought under the sway of sleep — who here is able to praise you? Viṣṇu, I and Īśāna have been made to take on bodies",
         '2.13': "by you; therefore who could have the power to praise you? O Devī, praised thus for your own exalted powers,",
-        '2.14': "delude these two invincible asuras, Madhu and Kaiṭabha; and let Acyuta, the lord of the world, be quickly awakened,",
+        '2.14': "delude these two invincible asuras, Madhu and Kaiṭabha; and let Achyuta, the lord of the world, be quickly awakened,",
         '2.15': "and let him be roused to slay these two great asuras.",
         '3.0': "The Rishi said:",
         '3.1': "Thus praised there by the Creator, the Devī in her form of tamas (as sleep),",
@@ -204,7 +204,7 @@ export const enDevi1: MeaningPack = {
     },
     'devi-mahatmyam-02': {
       verses: {
-        '0.0': "Viniyoga: of the middle episode (madhyama carita) the seer is Viṣṇu, the deity Mahālakṣmī, the metre uṣṇik, the śakti Śākambharī, the seed Durgā, the essence air, and its form the Yajurveda. It is recited for the pleasure of Śrī Mahālakṣmī.",
+        '0.0': "Viniyoga: of the middle episode (madhyama charita) the seer is Viṣṇu, the deity Mahālakṣmī, the metre uṣṇik, the śakti Śākambharī, the seed Durgā, the essence air, and its form the Yajurveda. It is recited for the pleasure of Śrī Mahālakṣmī.",
         '0.1': "Meditation: I worship here Mahālakṣmī, slayer of the buffalo-demon, seated on a lotus, gracious of face, who holds in her hands a rosary, axe, mace, arrow, thunderbolt, lotus, bow, water-pot, staff, spear, sword, shield, conch, bell, wine-cup, trident, noose and the discus Sudarśana. Oṃ hrīṃ.",
         '1.0': "The Rishi said:",
         '1.1': "Long ago there was a war between the gods and the asuras that lasted a full hundred years, when Mahiṣa was lord of the asuras and Purandara (Indra) lord of the gods.",

@@ -11,7 +11,7 @@ export const achyutashtakam: Mantra = {
   deity: 'Śrī Viṣṇu (Kṛṣṇa and Rāma)',
   source: 'Attributed to Ādi Śaṅkarācārya',
   summary:
-    'Eight verses praising Acyuta, the imperishable Lord, through the names and deeds of Kṛṣṇa and Rāma, with a ninth verse promising that the Lord quickly comes under the loving sway of one who recites it daily.',
+    'Eight verses praising Achyuta, the imperishable Lord, through the names and deeds of Kṛṣṇa and Rāma, with a ninth verse promising that the Lord quickly comes under the loving sway of one who recites it daily.',
   summaryKn:
     'ಅಳಿವಿಲ್ಲದ ಭಗವಂತನಾದ ಅಚ್ಯುತನನ್ನು ಶ್ರೀಕೃಷ್ಣ ಮತ್ತು ಶ್ರೀರಾಮರ ಹೆಸರುಗಳು ಹಾಗೂ ಲೀಲೆಗಳ ಮೂಲಕ ಸ್ತುತಿಸುವ ಎಂಟು ಶ್ಲೋಕಗಳು. ಇದನ್ನು ಪ್ರತಿದಿನ ಪ್ರೀತಿಯಿಂದ ಪಠಿಸುವವನಿಗೆ ಶ್ರೀಹರಿಯು ಬೇಗನೆ ವಶನಾಗುತ್ತಾನೆ ಎಂದು ಒಂಬತ್ತನೆಯ ಶ್ಲೋಕ ಹೇಳುತ್ತದೆ.',
   difficulty: 'medium',
@@ -25,7 +25,7 @@ export const achyutashtakam: Mantra = {
           n: 1,
           text: 'अच्युतं केशवं रामनारायणं\nकृष्णदामोदरं वासुदेवं हरिम् ।\nश्रीधरं माधवं गोपिकावल्लभं\nजानकीनायकं रामचन्द्रं भजे ॥',
           meaning: {
-            en: 'I worship Acyuta, Keśava, Rāma, Nārāyaṇa, Kṛṣṇa, Dāmodara, Vāsudeva and Hari; Śrīdhara, Mādhava, the beloved of the gopīs, and Rāmacandra, the Lord of Jānakī.',
+            en: 'I worship Achyuta, Keśava, Rāma, Nārāyaṇa, Kṛṣṇa, Dāmodara, Vāsudeva and Hari; Śrīdhara, Mādhava, the beloved of the gopīs, and Rāmacandra, the Lord of Jānakī.',
             kn: 'ಅಚ್ಯುತ, ಕೇಶವ, ರಾಮ, ನಾರಾಯಣ, ಕೃಷ್ಣ, ದಾಮೋದರ, ವಾಸುದೇವ, ಹರಿ, ಶ್ರೀಧರ, ಮಾಧವ, ಗೋಪಿಕಾವಲ್ಲಭ ಹಾಗೂ ಜಾನಕೀನಾಯಕನಾದ ಶ್ರೀರಾಮಚಂದ್ರನನ್ನು ನಾನು ಭಜಿಸುತ್ತೇನೆ.',
           },
         },
@@ -33,7 +33,7 @@ export const achyutashtakam: Mantra = {
           n: 2,
           text: 'अच्युतं केशवं सत्यभामाधवं\nमाधवं श्रीधरं राधिकाराधितम् ।\nइन्दिरामन्दिरं चेतसा सुन्दरं\nदेवकीनन्दनं नन्दजं सन्दधे ॥',
           meaning: {
-            en: 'I hold in my heart Acyuta, Keśava, the Lord of Satyabhāmā, Mādhava, Śrīdhara, the One adored by Rādhikā, the abode of Indirā (Lakṣmī), lovely to the mind, the son of Devakī and the child of Nanda.',
+            en: 'I hold in my heart Achyuta, Keśava, the Lord of Satyabhāmā, Mādhava, Śrīdhara, the One adored by Rādhikā, the abode of Indirā (Lakṣmī), lovely to the mind, the son of Devakī and the child of Nanda.',
             kn: 'ಅಚ್ಯುತ, ಕೇಶವ, ಸತ್ಯಭಾಮೆಯ ಪತಿ, ಮಾಧವ, ಶ್ರೀಧರ, ರಾಧಿಕೆಯಿಂದ ಆರಾಧಿತನಾದವನು, ಇಂದಿರೆಯ (ಲಕ್ಷ್ಮಿಯ) ನೆಲೆಯಾದವನು, ಮನಸ್ಸಿಗೆ ಸುಂದರನಾದವನು, ದೇವಕೀನಂದನನೂ ನಂದನ ಮಗನೂ ಆದ ಶ್ರೀಕೃಷ್ಣನನ್ನು ನಾನು ಮನಸ್ಸಿನಲ್ಲಿ ನೆಲೆಗೊಳಿಸುತ್ತೇನೆ.',
           },
         },
@@ -49,7 +49,7 @@ export const achyutashtakam: Mantra = {
           n: 4,
           text: 'कृष्ण गोविन्द हे राम नारायण\nश्रीपते वासुदेवाजित श्रीनिधे ।\nअच्युतानन्त हे माधवाधोक्षज\nद्वारकानायक द्रौपदीरक्षक ॥',
           meaning: {
-            en: 'O Kṛṣṇa, Govinda, Rāma, Nārāyaṇa, Lord of Śrī, Vāsudeva, Unconquered One, treasure-house of Śrī; O Acyuta, Ananta, Mādhava, Adhokṣaja, Lord of Dvārakā, protector of Draupadī! The devotee calls on the Lord by these loving names.',
+            en: 'O Kṛṣṇa, Govinda, Rāma, Nārāyaṇa, Lord of Śrī, Vāsudeva, Unconquered One, treasure-house of Śrī; O Achyuta, Ananta, Mādhava, Adhokṣaja, Lord of Dvārakā, protector of Draupadī! The devotee calls on the Lord by these loving names.',
             kn: 'ಹೇ ಕೃಷ್ಣ, ಗೋವಿಂದ, ರಾಮ, ನಾರಾಯಣ, ಶ್ರೀಪತಿಯೇ, ವಾಸುದೇವನೇ, ಅಜಿತನೇ, ಶ್ರೀನಿಧಿಯೇ, ಅಚ್ಯುತನೇ, ಅನಂತನೇ, ಮಾಧವನೇ, ಅಧೋಕ್ಷಜನೇ, ದ್ವಾರಕಾನಾಯಕನೇ, ದ್ರೌಪದಿಯನ್ನು ರಕ್ಷಿಸಿದವನೇ! — ಹೀಗೆ ಭಕ್ತನು ಭಗವಂತನನ್ನು ಪ್ರೀತಿಯಿಂದ ಕರೆಯುತ್ತಾನೆ.',
           },
         },

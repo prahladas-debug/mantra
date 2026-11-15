@@ -74,12 +74,12 @@ import type { Mantra } from '../types';
 export const deviMahatmyamKavacham: Mantra = {
   id: 'devi-mahatmyam-kavacham',
   title: 'देव्याः कवचम्',
-  titleEn: 'Devi Mahatmyam · Devī Kavacam',
+  titleEn: 'Devi Mahatmyam · Devī Kavacham',
   category: 'devimahatmya',
   order: 1,
   deity: 'Devī (Caṇḍikā)',
-  source: 'Devī Kavaca (ascribed to the Varāha Purāṇa), recited before the Durgā Saptaśatī',
-  summary: 'The Devī Kavaca, the “armour of the Goddess”, which Brahmā teaches to Mārkaṇḍeya. It names the nine Durgās and the Mothers, asks a form of the Goddess to guard each direction and each part of the body, and ends with the fruits of reciting it. It is read before the Saptaśatī.',
+  source: 'Devī Kavacha (ascribed to the Varāha Purāṇa), recited before the Durgā Saptaśatī',
+  summary: 'The Devī Kavacha, the “armour of the Goddess”, which Brahmā teaches to Mārkaṇḍeya. It names the nine Durgās and the Mothers, asks a form of the Goddess to guard each direction and each part of the body, and ends with the fruits of reciting it. It is read before the Saptaśatī.',
   summaryKn: 'ಬ್ರಹ್ಮದೇವರು ಮಾರ್ಕಂಡೇಯರಿಗೆ ಉಪದೇಶಿಸಿದ ದೇವೀ ಕವಚ. ನವದುರ್ಗೆಯರನ್ನೂ ಮಾತೃಕೆಯರನ್ನೂ ಸ್ಮರಿಸಿ, ಪ್ರತಿಯೊಂದು ದಿಕ್ಕನ್ನೂ ದೇಹದ ಪ್ರತಿಯೊಂದು ಅಂಗವನ್ನೂ ದೇವಿಯ ಒಂದೊಂದು ರೂಪ ಕಾಪಾಡಲಿ ಎಂದು ಪ್ರಾರ್ಥಿಸುತ್ತದೆ; ಕೊನೆಯಲ್ಲಿ ಪಠಣದ ಫಲವನ್ನು ಹೇಳುತ್ತದೆ. ಸಪ್ತಶತೀ ಪಾರಾಯಣಕ್ಕೆ ಮೊದಲು ಇದನ್ನು ಓದುತ್ತಾರೆ.',
   difficulty: 'easy',
   completeness: 'complete',
@@ -94,7 +94,7 @@ export const deviMahatmyamKavacham: Mantra = {
     },
     {
       title: 'देव्याः कवचम्',
-      titleEn: 'Devī Kavacam',
+      titleEn: 'Devī Kavacham',
       verses: [
         { text: 'मार्कण्डेय उवाच' },
         { n: 1, text: 'ॐ यद्गुह्यं परमं लोके सर्वरक्षाकरं नृणाम् ।\nयन्न कस्यचिदाख्यातं तन्मे ब्रूहि पितामह ॥' },
@@ -168,7 +168,7 @@ export const deviMahatmyamArgala: Mantra = {
   order: 2,
   deity: 'Devī (Caṇḍikā)',
   source: 'Argalā Stotra, recited before the Durgā Saptaśatī',
-  summary: 'The Argalā Stotra (the “bolt” hymn). After greeting the Goddess by her names (Jayantī, Maṅgalā, Kālī …), each verse recalls one of her deeds or titles and repeats the refrain “grant beauty, grant victory, grant fame, destroy my foes”. It is recited after the Kavaca.',
+  summary: 'The Argalā Stotra (the “bolt” hymn). After greeting the Goddess by her names (Jayantī, Maṅgalā, Kālī …), each verse recalls one of her deeds or titles and repeats the refrain “grant beauty, grant victory, grant fame, destroy my foes”. It is recited after the Kavacha.',
   summaryKn: 'ಅರ್ಗಲಾ ಸ್ತೋತ್ರ: ಜಯಂತೀ, ಮಂಗಳಾ, ಕಾಳೀ ಮೊದಲಾದ ಹೆಸರುಗಳಿಂದ ದೇವಿಗೆ ನಮಸ್ಕರಿಸಿ, ಪ್ರತಿ ಶ್ಲೋಕದಲ್ಲೂ ಅವಳ ಒಂದು ಮಹಿಮೆಯನ್ನು ನೆನೆದು "ರೂಪವನ್ನು ಕೊಡು, ಜಯವನ್ನು ಕೊಡು, ಕೀರ್ತಿಯನ್ನು ಕೊಡು, ಶತ್ರುಗಳನ್ನು ನಾಶಮಾಡು" ಎಂದು ಬೇಡುತ್ತದೆ. ಕವಚದ ನಂತರ ಇದನ್ನು ಪಠಿಸುತ್ತಾರೆ.',
   difficulty: 'easy',
   completeness: 'complete',
@@ -288,7 +288,7 @@ export const deviMahatmyam01: Mantra = {
     {
       title: 'प्रथमोऽध्यायः',
       titleEn: 'Chapter 1',
-      note: 'Numbered as in the Gita Press Durgā Saptaśatī: every speaker line (… उवाच) and every half-verse counts as a mantra, which is how the 13 chapters make 700. In the Gita Press edition the chapter opens “ॐ ऐं मार्कण्डेय उवाच” and the first carita closes with “ऐं ॐ”; similarly ॐ ह्रीं / ह्रीं ॐ for the middle carita (chapters 2–4) and ॐ क्लीं / क्लीं ॐ for the last (chapters 5–13), with ॐ before the first line of the other chapters. Add these if your tradition does.',
+      note: 'Numbered as in the Gita Press Durgā Saptaśatī: every speaker line (… उवाच) and every half-verse counts as a mantra, which is how the 13 chapters make 700. In the Gita Press edition the chapter opens “ॐ ऐं मार्कण्डेय उवाच” and the first charita closes with “ऐं ॐ”; similarly ॐ ह्रीं / ह्रीं ॐ for the middle charita (chapters 2–4) and ॐ क्लीं / क्लीं ॐ for the last (chapters 5–13), with ॐ before the first line of the other chapters. Add these if your tradition does.',
       noteKn: 'ಗೀತಾ ಪ್ರೆಸ್ ದುರ್ಗಾ ಸಪ್ತಶತೀಯ ಸಂಖ್ಯಾಕ್ರಮ: ಪ್ರತಿಯೊಂದು "… ಉವಾಚ" ಸಾಲೂ ಅರ್ಧ ಶ್ಲೋಕವೂ ಒಂದು ಮಂತ್ರವಾಗಿ ಎಣಿಕೆಯಾಗುತ್ತದೆ; ಹೀಗೆ ಹದಿಮೂರು ಅಧ್ಯಾಯಗಳು ಸೇರಿ ಏಳುನೂರು ಮಂತ್ರಗಳು. ಗೀತಾ ಪ್ರೆಸ್ ಆವೃತ್ತಿಯಲ್ಲಿ ಈ ಅಧ್ಯಾಯ "ಓಂ ಐಂ ಮಾರ್ಕಂಡೇಯ ಉವಾಚ" ಎಂದು ಆರಂಭವಾಗಿ ಪ್ರಥಮ ಚರಿತ್ರೆ "ಐಂ ಓಂ" ಎಂದು ಮುಗಿಯುತ್ತದೆ; ಮಧ್ಯಮ ಚರಿತ್ರೆಗೆ (೨–೪) ಓಂ ಹ್ರೀಂ / ಹ್ರೀಂ ಓಂ, ಉತ್ತಮ ಚರಿತ್ರೆಗೆ (೫–೧೩) ಓಂ ಕ್ಲೀಂ / ಕ್ಲೀಂ ಓಂ; ಉಳಿದ ಅಧ್ಯಾಯಗಳ ಮೊದಲ ಸಾಲಿನ ಮೊದಲು ಓಂ. ನಿಮ್ಮ ಸಂಪ್ರದಾಯದಲ್ಲಿ ಇದ್ದರೆ ಇವುಗಳನ್ನು ಸೇರಿಸಿಕೊಳ್ಳಿ.',
       verses: [
         { n: 1, text: 'मार्कण्डेय उवाच' },

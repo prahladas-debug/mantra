@@ -86,7 +86,7 @@ export const vayuStuti: Mantra = {
         n: 4,
         text: 'अस्याविष्कर्तुकामं कलिमलकलुषेऽस्मिन् जने ज्ञानमार्गं\nवन्द्यं चन्द्रेन्द्ररुद्रद्युमणिफणिवयोनायकाद्यैरिहाद्य ।\nमध्वाख्यं मन्त्रसिद्धं किमुत कृतवतो मारुतस्यावतारं\nपातारं पारमेष्ठ्यं पदमपविपदः प्राप्तुरापन्नपुंसाम् ॥',
         meaning: {
-          en: 'How much less, then, can I praise Vāyu himself? Wishing to reveal the path of true knowledge to people stained by the impurities of Kali, he took the avatāra named Madhva, which is proclaimed in the Vedic mantras and is revered even now by Candra, Indra, Rudra, Sūrya, Śeṣa, Garuḍa and others. He protects those who take refuge in him, and he is to attain the exalted position of Brahmā, free from all misfortune.',
+          en: 'How much less, then, can I praise Vāyu himself? Wishing to reveal the path of true knowledge to people stained by the impurities of Kali, he took the avatāra named Madhva, which is proclaimed in the Vedic mantras and is revered even now by Chandra, Indra, Rudra, Sūrya, Śeṣa, Garuḍa and others. He protects those who take refuge in him, and he is to attain the exalted position of Brahmā, free from all misfortune.',
           kn: 'ಹಾಗಿರುವಾಗ ವಾಯುದೇವರನ್ನೇ ಸ್ತುತಿಸುವುದು ಹೇಗೆ? ಕಲಿಯ ಕಲ್ಮಷದಿಂದ ಕಲುಷಿತರಾದ ಜನರಿಗೆ ಜ್ಞಾನಮಾರ್ಗವನ್ನು ತೋರಿಸಬೇಕೆಂದು ಅವರು ‘ಮಧ್ವ’ ಎಂಬ ಅವತಾರವನ್ನು ತಾಳಿದರು; ಆ ಅವತಾರವು ವೇದಮಂತ್ರಗಳಲ್ಲಿ ಪ್ರಸಿದ್ಧವಾದುದು, ಚಂದ್ರ, ಇಂದ್ರ, ರುದ್ರ, ಸೂರ್ಯ, ಶೇಷ, ಗರುಡ ಮೊದಲಾದ ದೇವತೆಗಳಿಂದ ವಂದಿತವಾದುದು. ಶರಣು ಬಂದವರನ್ನು ಕಾಪಾಡುವ ವಾಯುದೇವರು ಯಾವ ಆಪತ್ತೂ ಇಲ್ಲದ ಬ್ರಹ್ಮಪದವಿಯನ್ನು ಪಡೆಯಲಿರುವವರು.',
         },
       },
@@ -190,7 +190,7 @@ export const vayuStuti: Mantra = {
         n: 17,
         text: 'वन्देऽहं तं हनूमानिति महितमहापौरुषो बाहुशाली\nख्यातस्तेऽग्र्योऽवतारः सहित इह बहुब्रह्मचर्यादिधर्मैः ।\nसस्नेहानां सहस्वानहरहरहितं निर्दहन् देहभाजां\nअंहोमोहापहो यः स्पृहयति महतीं भक्तिमद्यापि रामे ॥',
         meaning: {
-          en: 'I bow to you, renowned as Hanumān, your foremost avatāra, mighty-armed and of great valour, endowed with strict brahmacarya and other virtues. Day after day you burn away the misfortunes of embodied beings who love you, removing their sin and delusion; and even today you long for ever-greater devotion to Rāma.',
+          en: 'I bow to you, renowned as Hanumān, your foremost avatāra, mighty-armed and of great valour, endowed with strict brahmacharya and other virtues. Day after day you burn away the misfortunes of embodied beings who love you, removing their sin and delusion; and even today you long for ever-greater devotion to Rāma.',
           kn: 'ಹನುಮಂತ ಎಂಬ ಹೆಸರಿನಿಂದ ಪ್ರಸಿದ್ಧವಾದ, ಮಹಾಪರಾಕ್ರಮಿಯೂ ಬಲಿಷ್ಠ ಭುಜಗಳುಳ್ಳವರೂ, ಬ್ರಹ್ಮಚರ್ಯವೇ ಮೊದಲಾದ ಧರ್ಮಗಳಿಂದ ಕೂಡಿದವರೂ ಆದ ನಿಮ್ಮ ಮೊದಲ ಅವತಾರಕ್ಕೆ ನಾನು ವಂದಿಸುತ್ತೇನೆ. ನಿಮ್ಮನ್ನು ಪ್ರೀತಿಸುವ ಜೀವರ ಕೇಡುಗಳನ್ನು ನೀವು ದಿನದಿನವೂ ಸುಟ್ಟುಹಾಕುತ್ತಾ ಅವರ ಪಾಪ-ಮೋಹಗಳನ್ನು ಕಳೆಯುತ್ತೀರಿ; ಇಂದಿಗೂ ಶ್ರೀರಾಮನಲ್ಲಿ ಮಹತ್ತರವಾದ ಭಕ್ತಿಯನ್ನೇ ಬಯಸುತ್ತೀರಿ.',
         },
       },

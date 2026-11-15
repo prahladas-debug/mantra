@@ -12,7 +12,7 @@ export const navagrahaStotram: Mantra = {
   title: 'नवग्रहस्तोत्रम्',
   titleEn: 'Navagraha Stotram',
   category: 'stotra',
-  deity: 'The nine grahas (Surya, Chandra, Mangala, Budha, Guru, Shukra, Shani, Rahu, Ketu)',
+  deity: 'The nine grahas (Surya, Chandra, Mangala, Budha, Brihaspati, Shukra, Shani, Rahu, Ketu)',
   source: 'Ascribed to Vedavyasa',
   summary: 'The best-known prayer to the nine grahas, ascribed to Vyasa: one verse of salutation to each of Surya, Chandra, Mangala, Budha, Brihaspati, Shukra, Shani, Rahu and Ketu, describing the colour and nature of each, followed by three verses on the fruit of reciting it - removal of obstacles, bad dreams and the troubles caused by the planets.',
   summaryKn: 'ವ್ಯಾಸರು ರಚಿಸಿದರೆನ್ನಲಾದ ಪ್ರಸಿದ್ಧ ನವಗ್ರಹ ಸ್ತೋತ್ರ: ಸೂರ್ಯ, ಚಂದ್ರ, ಮಂಗಳ, ಬುಧ, ಗುರು, ಶುಕ್ರ, ಶನಿ, ರಾಹು, ಕೇತು — ಒಂಬತ್ತು ಗ್ರಹಗಳಿಗೂ ಒಂದೊಂದು ನಮಸ್ಕಾರ ಶ್ಲೋಕ, ಅವರ ವರ್ಣ ಮತ್ತು ಸ್ವಭಾವದ ವರ್ಣನೆಯೊಂದಿಗೆ; ಕೊನೆಯ ಮೂರು ಶ್ಲೋಕಗಳು ಫಲಶ್ರುತಿ — ವಿಘ್ನಗಳು, ದುಃಸ್ವಪ್ನಗಳು ಮತ್ತು ಗ್ರಹಪೀಡೆಗಳ ನಿವಾರಣೆ.',

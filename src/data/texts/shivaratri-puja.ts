@@ -41,7 +41,7 @@ export const shivaratriPuja: Mantra = {
   summaryKn: "ಮಾಘ ಕೃಷ್ಣ ಚತುರ್ದಶಿಯ ಮಹಾಶಿವರಾತ್ರಿ ವ್ರತ: ಉಪವಾಸ, ರಾತ್ರಿಯಿಡೀ ಜಾಗರಣೆ ಮತ್ತು ರಾತ್ರಿಯ ನಾಲ್ಕು ಯಾಮಗಳಲ್ಲಿ ಶ್ರೀಶಿವನಿಗೆ ಅಭಿಷೇಕ-ಪೂಜೆ. ಇಲ್ಲಿ: ಸಂಕಲ್ಪ, ಧ್ಯಾನ, ಆವಾಹನೆ, ಶಿವನ ಅಷ್ಟಮೂರ್ತಿ ಪೂಜೆ, ಹದಿನಾರು ನಾಮಗಳು, ಏಕಬಿಲ್ವ ಶ್ಲೋಕಗಳು, ಪ್ರತಿ ಯಾಮದ ಸಂಕಲ್ಪ ಮತ್ತು ಪಾರಣೆ.",
   difficulty: "medium",
   completeness: "partial",
-  contentNote: "Gives only what is specific to this vrata, in the form of the Smarta manuals (no Madhva Shivaratri manual was found; Madhvas follow their matha). Acamana, pranayama, the desha-kala sankalpa, Ganapati puja, kalasha puja, prana-pratishtha and the sixteen upacharas for Shiva (with the name ॐ नमः शिवाय) are as in the Shodashopachara Puja text. The abhisheka is done with Sri Rudram (read it from the app) eleven or more times in each yama, or with the panchakshara; the substances used in each yama differ by family and are not fixed in the manuals read. Left out: the Shiva ashtottara and sahasranama, the Parthiva linga making in full, the udyapana, the Shivaratri katha (Shiva Purana story of the hunter), and the Bilvashtakam except two verses. The date of Shivaratri and the time of parana follow the panchanga (see Panchanga in the app).",
+  contentNote: "Gives only what is specific to this vrata, in the form of the Smarta manuals (no Madhva Shivaratri manual was found; Madhvas follow their matha). Achamana, pranayama, the desha-kala sankalpa, Ganapati puja, kalasha puja, prana-pratishtha and the sixteen upacharas for Shiva (with the name ॐ नमः शिवाय) are as in the Shodashopachara Puja text. The abhisheka is done with Sri Rudram (read it from the app) eleven or more times in each yama, or with the panchakshara; the substances used in each yama differ by family and are not fixed in the manuals read. Left out: the Shiva ashtottara and sahasranama, the Parthiva linga making in full, the udyapana, the Shivaratri katha (Shiva Purana story of the hunter), and the Bilvashtakam except two verses. The date of Shivaratri and the time of parana follow the panchanga (see Panchanga in the app).",
   sections: [
     {
       title: "व्रतविधिः",
@@ -61,7 +61,7 @@ export const shivaratriPuja: Mantra = {
     {
       title: "सङ्कल्पः",
       titleEn: "Sankalpa",
-      note: "After acamana and pranayama, with akshata and water in the right hand, say the sankalpa, then do Ganapati puja, then the prana-pratishtha and pitha puja of Shiva with Uma. The sankalpa is the common one of the Satika Vrata Ratnamala with the name of the vrata Maha Shivaratri vrata (the book gives it for the monthly Shivaratri). Take the desha-kala part from the Shodashopachara Puja.",
+      note: "After achamana and pranayama, with akshata and water in the right hand, say the sankalpa, then do Ganapati puja, then the prana-pratishtha and pitha puja of Shiva with Uma. The sankalpa is the common one of the Satika Vrata Ratnamala with the name of the vrata Maha Shivaratri vrata (the book gives it for the monthly Shivaratri). Take the desha-kala part from the Shodashopachara Puja.",
       noteKn: "ಆಚಮನ-ಪ್ರಾಣಾಯಾಮದ ನಂತರ ಬಲಗೈಯಲ್ಲಿ ಅಕ್ಷತೆ-ನೀರು ಹಿಡಿದು ಸಂಕಲ್ಪ ಮಾಡಿ; ನಂತರ ಗಣಪತಿ ಪೂಜೆ, ಉಮಾಸಹಿತ ಶಿವನ ಪ್ರಾಣಪ್ರತಿಷ್ಠೆ, ಪೀಠಪೂಜೆ. ಸಂಕಲ್ಪವು ಸಟೀಕಾ ವ್ರತರತ್ನಮಾಲಾದ ಸಾಮಾನ್ಯ ಸಂಕಲ್ಪ; ವ್ರತದ ಹೆಸರು ಮಹಾಶಿವರಾತ್ರಿ ವ್ರತ (ಪುಸ್ತಕದಲ್ಲಿ ಮಾಸಶಿವರಾತ್ರಿಗೆ ಇದೆ). ದೇಶಕಾಲ ಭಾಗವನ್ನು ಷೋಡಶೋಪಚಾರ ಪೂಜೆಯಿಂದ ತೆಗೆದುಕೊಳ್ಳಿ.",
       verses: [
         {
@@ -76,7 +76,7 @@ export const shivaratriPuja: Mantra = {
     {
       title: "ध्यानावाहनम्",
       titleEn: "Dhyana and avahana",
-      note: "Meditate with folded hands and flowers, and invite him. Then continue with the upacharas (padya, arghya, acamana, abhisheka …) with the formula ॐ नमः शिवाय or ॐ श्रीउमामहेश्वराभ्यां नमः (as the Shodashopachara Puja, with the name of Shiva). For abhisheka use Sri Rudram (Namakam and Chamakam), eleven or more times, or at least the panchakshari.",
+      note: "Meditate with folded hands and flowers, and invite him. Then continue with the upacharas (padya, arghya, achamana, abhisheka …) with the formula ॐ नमः शिवाय or ॐ श्रीउमामहेश्वराभ्यां नमः (as the Shodashopachara Puja, with the name of Shiva). For abhisheka use Sri Rudram (Namakam and Chamakam), eleven or more times, or at least the panchakshari.",
       noteKn: "ಕೈಮುಗಿದು ಹೂವು ಹಿಡಿದು ಧ್ಯಾನಿಸಿ, ಆವಾಹಿಸಿ. ನಂತರ ಪಾದ್ಯ, ಅರ್ಘ್ಯ, ಆಚಮನ, ಅಭಿಷೇಕ ಮೊದಲಾದ ಉಪಚಾರಗಳನ್ನು \"ಓಂ ನಮಃ ಶಿವಾಯ\" ಅಥವಾ \"ಓಂ ಶ್ರೀಉಮಾಮಹೇಶ್ವರಾಭ್ಯಾಂ ನಮಃ\" ಎಂದು ಷೋಡಶೋಪಚಾರ ಪೂಜೆಯಂತೆ ಮಾಡಿ. ಅಭಿಷೇಕಕ್ಕೆ ಶ್ರೀರುದ್ರ (ನಮಕ-ಚಮಕ) ಹನ್ನೊಂದು ಅಥವಾ ಹೆಚ್ಚು ಬಾರಿ, ಕನಿಷ್ಠ ಪಂಚಾಕ್ಷರಿ.",
       verses: [
         {

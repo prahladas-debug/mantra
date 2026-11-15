@@ -18,7 +18,7 @@ export const enSundara5: MeaningPack = {
         '0.10': 'Roaring with a mighty roar like thunder, he had slain the foremost rakshasas and proclaimed his own name,',
         '0.11': 'thrown the city into turmoil, troubled Ravana, crushed great warriors and bowed to Sita;',
         '0.12': 'now the mighty, radiant one came back across the middle of the ocean, touching Sunabha, the lord of mountains, on the way.',
-        '0.13': 'Swift as an arrow loosed from the bowstring he sped on; drawing a little nearer, he caught sight of the great mountain',
+        '0.13': 'Swift as an arrow loosed from the bowstring he sped on; drawing a little nearer, he caught sight of the great mountain.',
         '0.14': 'Seeing cloud-like Mahendra, the great monkey roared, filling all ten directions on every side.',
         '0.15': 'Roaring with a mighty thunder-like roar, he reached that region, eager to see his friends.',
         '0.16': 'He gave a tremendous roar and lashed his tail; as he roared again and again on the path travelled by Garuda,',

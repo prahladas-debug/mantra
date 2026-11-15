@@ -341,7 +341,7 @@ export const lalithaSahasranama: Mantra = {
           n: 30,
           text: 'मच्चक्रस्य रहस्यज्ञा मम नामपरायणाः ।\nमम स्तोत्रविधानाय तस्मादाज्ञापयामि वः ॥',
           meaning: {
-            en: 'You know the secret of my cakra and are devoted to my names; therefore I command you to compose a hymn to me.',
+            en: 'You know the secret of my chakra and are devoted to my names; therefore I command you to compose a hymn to me.',
             kn: 'ನೀವು ನನ್ನ ಚಕ್ರದ ರಹಸ್ಯವನ್ನು ಬಲ್ಲವರು, ನನ್ನ ನಾಮಗಳಲ್ಲಿ ನಿರತರು; ಆದ್ದರಿಂದ ನನ್ನ ಸ್ತೋತ್ರವನ್ನು ರಚಿಸಲು ನಿಮಗೆ ಆಜ್ಞಾಪಿಸುತ್ತೇನೆ.',
           },
         },
@@ -595,7 +595,7 @@ export const lalithaSahasranama: Mantra = {
           n: 4,
           text: 'चम्पकाशोकपुन्नागसौगन्धिकलसत्कचा ।\nकुरुविन्दमणिश्रेणीकनत्कोटीरमण्डिता ॥',
           meaning: {
-            en: 'Her hair is adorned with campaka, aśoka, punnāga and saugandhika flowers, and her crown glitters with rows of kuruvinda rubies.',
+            en: 'Her hair is adorned with champaka, aśoka, punnāga and saugandhika flowers, and her crown glitters with rows of kuruvinda rubies.',
             kn: 'ಸಂಪಿಗೆ, ಅಶೋಕ, ಪುನ್ನಾಗ, ಸೌಗಂಧಿಕ ಹೂವುಗಳಿಂದ ಶೋಭಿಸುವ ಕೇಶರಾಶಿಯುಳ್ಳವಳು; ಕುರುವಿಂದ ಮಣಿಗಳ ಸಾಲುಗಳಿಂದ ಹೊಳೆಯುವ ಕಿರೀಟದಿಂದ ಅಲಂಕೃತಳು.',
           },
         },
@@ -619,7 +619,7 @@ export const lalithaSahasranama: Mantra = {
           n: 7,
           text: 'नवचम्पकपुष्पाभनासादण्डविराजिता ।\nताराकान्तितिरस्कारिनासाभरणभासुरा ॥',
           meaning: {
-            en: 'Her nose shines like a fresh campaka bud, and her nose ornament outshines the light of the stars.',
+            en: 'Her nose shines like a fresh champaka bud, and her nose ornament outshines the light of the stars.',
             kn: 'ಹೊಸ ಸಂಪಿಗೆ ಮೊಗ್ಗಿನಂತಹ ಮೂಗಿನಿಂದ ಶೋಭಿಸುವವಳು; ನಕ್ಷತ್ರಗಳ ಕಾಂತಿಯನ್ನೂ ಮೀರಿಸುವ ಮೂಗುತಿಯಿಂದ ಹೊಳೆಯುವವಳು.',
           },
         },
@@ -771,7 +771,7 @@ export const lalithaSahasranama: Mantra = {
           n: 26,
           text: 'चक्रराजरथारूढसर्वायुधपरिष्कृता ।\nगेयचक्ररथारूढमन्त्रिणीपरिसेविता ॥',
           meaning: {
-            en: 'She rides the Cakrarāja chariot, equipped with every weapon, and is attended by Mantriṇī (Śyāmalā), who rides the Geyacakra chariot.',
+            en: 'She rides the Cakrarāja chariot, equipped with every weapon, and is attended by Mantriṇī (Śyāmalā), who rides the Geyachakra chariot.',
             kn: 'ಚಕ್ರರಾಜ ರಥವನ್ನೇರಿ ಸರ್ವಾಯುಧಗಳಿಂದ ಸಜ್ಜಾದವಳು; ಗೇಯಚಕ್ರ ರಥವನ್ನೇರಿದ ಮಂತ್ರಿಣೀ (ಶ್ಯಾಮಲಾ) ದೇವಿಯು ಆಕೆಯನ್ನು ಸೇವಿಸುತ್ತಾಳೆ.',
           },
         },
@@ -779,7 +779,7 @@ export const lalithaSahasranama: Mantra = {
           n: 27,
           text: 'किरिचक्ररथारूढदण्डनाथापुरस्कृता ।\nज्वालामालिनिकाक्षिप्तवह्निप्राकारमध्यगा ॥',
           meaning: {
-            en: 'Daṇḍanāthā (Vārāhī), riding the Kiricakra chariot, goes before her. She stands within the rampart of fire raised by the goddess Jvālāmālinī.',
+            en: 'Daṇḍanāthā (Vārāhī), riding the Kirichakra chariot, goes before her. She stands within the rampart of fire raised by the goddess Jvālāmālinī.',
             kn: 'ಕಿರಿಚಕ್ರ ರಥವನ್ನೇರಿದ ದಂಡನಾಥಾ (ವಾರಾಹೀ) ದೇವಿಯು ಆಕೆಯ ಮುಂದೆ ಸಾಗುತ್ತಾಳೆ. ಜ್ವಾಲಾಮಾಲಿನೀ ದೇವಿಯು ನಿರ್ಮಿಸಿದ ಅಗ್ನಿಪ್ರಾಕಾರದ ಮಧ್ಯದಲ್ಲಿರುವವಳು.',
           },
         },
@@ -875,7 +875,7 @@ export const lalithaSahasranama: Mantra = {
           n: 39,
           text: 'आज्ञाचक्रान्तरालस्था रुद्रग्रन्थिविभेदिनी ।\nसहस्राराम्बुजारूढा सुधासाराभिवर्षिणी ॥',
           meaning: {
-            en: 'Abiding within the Ājñā-cakra, she pierces the knot of Rudra. Ascending to the thousand-petalled lotus (sahasrāra), she pours down streams of nectar.',
+            en: 'Abiding within the Ājñā-chakra, she pierces the knot of Rudra. Ascending to the thousand-petalled lotus (sahasrāra), she pours down streams of nectar.',
             kn: 'ಆಜ್ಞಾಚಕ್ರದೊಳಗೆ ನೆಲೆಸಿ ರುದ್ರಗ್ರಂಥಿಯನ್ನು ಭೇದಿಸುವವಳು; ಸಹಸ್ರಾರ ಕಮಲವನ್ನೇರಿ ಅಮೃತಧಾರೆಯನ್ನು ಸುರಿಸುವವಳು.',
           },
         },
@@ -883,7 +883,7 @@ export const lalithaSahasranama: Mantra = {
           n: 40,
           text: 'तडिल्लतासमरुचिः षट्चक्रोपरिसंस्थिता ।\nमहासक्तिः कुण्डलिनी बिसतन्तुतनीयसी ॥',
           meaning: {
-            en: 'She shines like a streak of lightning and abides above the six cakras. She is Mahāsakti, intent on union with Śiva; she is Kuṇḍalinī, finer than the fibre of a lotus stalk.',
+            en: 'She shines like a streak of lightning and abides above the six chakras. She is Mahāsakti, intent on union with Śiva; she is Kuṇḍalinī, finer than the fibre of a lotus stalk.',
             kn: 'ಮಿಂಚಿನ ಬಳ್ಳಿಯಂತೆ ಹೊಳೆಯುವವಳು, ಷಟ್ಚಕ್ರಗಳ ಮೇಲೆ ನೆಲೆಸಿದವಳು. ಶಿವನೊಡನೆ ಸೇರುವುದರಲ್ಲಿ ಮಹಾ ಆಸಕ್ತಿಯುಳ್ಳ ಮಹಾಸಕ್ತಿ, ಕುಂಡಲಿನೀ, ತಾವರೆಯ ದಂಟಿನ ನಾರಿಗಿಂತಲೂ ಸೂಕ್ಷ್ಮಳು.',
           },
         },
@@ -1035,7 +1035,7 @@ export const lalithaSahasranama: Mantra = {
           n: 59,
           text: 'मनुविद्या चन्द्रविद्या चन्द्रमण्डलमध्यगा ।\nचारुरूपा चारुहासा चारुचन्द्रकलाधरा ॥',
           meaning: {
-            en: 'She is the Vidyā worshipped by Manu and by Candra, and dwells in the centre of the lunar orb. Her form is lovely, her smile is lovely, and she wears the lovely crescent moon.',
+            en: 'She is the Vidyā worshipped by Manu and by Chandra, and dwells in the centre of the lunar orb. Her form is lovely, her smile is lovely, and she wears the lovely crescent moon.',
             kn: 'ಮನುವು ಉಪಾಸಿಸಿದ ವಿದ್ಯೆ, ಚಂದ್ರನು ಉಪಾಸಿಸಿದ ವಿದ್ಯೆ, ಚಂದ್ರಮಂಡಲದ ಮಧ್ಯದಲ್ಲಿರುವವಳು. ಸುಂದರ ರೂಪದವಳು, ಸುಂದರ ನಗೆಯವಳು, ಮನೋಹರವಾದ ಚಂದ್ರಕಲೆಯನ್ನು ಧರಿಸಿದವಳು.',
           },
         },
@@ -1203,7 +1203,7 @@ export const lalithaSahasranama: Mantra = {
           n: 80,
           text: 'चितिस्तत्पदलक्ष्यार्था चिदेकरसरूपिणी ।\nस्वात्मानन्दलवीभूतब्रह्माद्यानन्दसन्ततिः ॥',
           meaning: {
-            en: 'She is consciousness (citi), the meaning pointed to by the word tat (That), the single essence of awareness. The joy of Brahmā and all the gods is only a tiny drop of her own bliss.',
+            en: 'She is consciousness (chiti), the meaning pointed to by the word tat (That), the single essence of awareness. The joy of Brahmā and all the gods is only a tiny drop of her own bliss.',
             kn: 'ಚೈತನ್ಯರೂಪಳಾದ ಚಿತಿ, ತತ್ ಎಂಬ ಪದದ ಲಕ್ಷ್ಯಾರ್ಥ, ಏಕರಸವಾದ ಚೈತನ್ಯಸ್ವರೂಪಿಣಿ. ಬ್ರಹ್ಮಾದಿಗಳ ಆನಂದವೆಲ್ಲವೂ ಆಕೆಯ ಆತ್ಮಾನಂದದ ಒಂದು ಕಣ ಮಾತ್ರ.',
           },
         },
@@ -1299,7 +1299,7 @@ export const lalithaSahasranama: Mantra = {
           n: 92,
           text: 'मदघूर्णितरक्ताक्षी मदपाटलगण्डभूः ।\nचन्दनद्रवदिग्धाङ्गी चाम्पेयकुसुमप्रिया ॥',
           meaning: {
-            en: 'Her reddish eyes roll with rapture and her cheeks are flushed rosy with it. Her limbs are smeared with sandal paste, and she loves campaka flowers.',
+            en: 'Her reddish eyes roll with rapture and her cheeks are flushed rosy with it. Her limbs are smeared with sandal paste, and she loves champaka flowers.',
             kn: 'ಆನಂದಮದದಿಂದ ಹೊರಳುವ ಕೆಂಪು ಕಣ್ಣುಗಳುಳ್ಳವಳು, ಅದೇ ಮದದಿಂದ ಕೆಂಪಾದ ಕೆನ್ನೆಗಳುಳ್ಳವಳು. ಗಂಧದ ಲೇಪನವುಳ್ಳ ಅಂಗಗಳುಳ್ಳವಳು, ಸಂಪಿಗೆ ಹೂವು ಪ್ರಿಯವಾದವಳು.',
           },
         },
@@ -1347,7 +1347,7 @@ export const lalithaSahasranama: Mantra = {
           n: 98,
           text: 'विशुद्धिचक्रनिलयाऽऽरक्तवर्णा त्रिलोचना ।\nखट्वाङ्गादिप्रहरणा वदनैकसमन्विता ॥',
           meaning: {
-            en: 'Dwelling in the Viśuddhi cakra (as Ḍākinī), she is rosy-red and three-eyed; she bears the khaṭvāṅga and other weapons and has a single face.',
+            en: 'Dwelling in the Viśuddhi chakra (as Ḍākinī), she is rosy-red and three-eyed; she bears the khaṭvāṅga and other weapons and has a single face.',
             kn: 'ವಿಶುದ್ಧಿಚಕ್ರದಲ್ಲಿ ಡಾಕಿನೀ ರೂಪದಿಂದ ನೆಲೆಸಿದವಳು, ಕೆಂಪು ಬಣ್ಣದವಳು, ಮೂರು ಕಣ್ಣುಗಳುಳ್ಳವಳು; ಖಟ್ವಾಂಗ ಮೊದಲಾದ ಆಯುಧಗಳನ್ನು ಧರಿಸಿದವಳು, ಒಂದೇ ಮುಖವುಳ್ಳವಳು.',
           },
         },
@@ -1419,7 +1419,7 @@ export const lalithaSahasranama: Mantra = {
           n: 107,
           text: 'मुद्गौदनासक्तचित्ता साकिन्यम्बास्वरूपिणी ।\nआज्ञाचक्राब्जनिलया शुक्लवर्णा षडानना ॥',
           meaning: {
-            en: 'Fond of rice cooked with green gram, she is the form of Mother Sākinī. Dwelling in the lotus of the Ājñā-cakra, she is white in colour and has six faces.',
+            en: 'Fond of rice cooked with green gram, she is the form of Mother Sākinī. Dwelling in the lotus of the Ājñā-chakra, she is white in colour and has six faces.',
             kn: 'ಹೆಸರುಬೇಳೆಯ ಅನ್ನದಲ್ಲಿ ಆಸಕ್ತ ಮನಸ್ಸುಳ್ಳ ಸಾಕಿನೀ ಅಂಬಾ ಸ್ವರೂಪಿಣಿ. ಆಜ್ಞಾಚಕ್ರ ಕಮಲದಲ್ಲಿ ನೆಲೆಸಿದವಳು, ಬಿಳಿ ಬಣ್ಣದವಳು, ಆರು ಮುಖಗಳುಳ್ಳವಳು.',
           },
         },
@@ -2019,7 +2019,7 @@ export const lalithaSahasranama: Mantra = {
           n: 182,
           text: 'आबालगोपविदिता सर्वानुल्लङ्घ्यशासना ।\nश्रीचक्रराजनिलया श्रीमत्त्रिपुरसुन्दरी ॥',
           meaning: {
-            en: 'She is known to all, even to children and cowherds, and no one can transgress her command. Her home is the Śrīcakra, the king of cakras; she is the glorious Tripurasundarī.',
+            en: 'She is known to all, even to children and cowherds, and no one can transgress her command. Her home is the Śrīcakra, the king of chakras; she is the glorious Tripurasundarī.',
             kn: 'ಮಕ್ಕಳು ಗೊಲ್ಲರವರೆಗೆ ಎಲ್ಲರಿಗೂ ತಿಳಿದವಳು, ಯಾರೂ ಮೀರಲಾಗದ ಆಜ್ಞೆಯುಳ್ಳವಳು. ಚಕ್ರಗಳ ರಾಜನಾದ ಶ್ರೀಚಕ್ರವೇ ಆಕೆಯ ನೆಲೆ; ಶ್ರೀಮತ್ ತ್ರಿಪುರಸುಂದರಿ.',
           },
         },
@@ -2458,7 +2458,7 @@ export const lalithaSahasranama: Mantra = {
           n: 52,
           text: 'पद्मैर्वा तुलसीपुष्पैः कह्लारैर्वा कदम्बकैः ।\nचम्पकैर्जातिकुसुमैर्मल्लिकाकरवीरकैः ॥',
           meaning: {
-            en: 'with lotuses, tulasī, white water-lilies, kadamba, campaka, jasmine, mallikā and oleander,',
+            en: 'with lotuses, tulasī, white water-lilies, kadamba, champaka, jasmine, mallikā and oleander,',
             kn: 'ಕಮಲ, ತುಳಸಿ, ಕಲ್ಹಾರ, ಕದಂಬ, ಸಂಪಿಗೆ, ಜಾಜಿ, ಮಲ್ಲಿಗೆ, ಕಣಗಿಲೆ ಹೂವುಗಳಿಂದ,',
           },
         },
@@ -2474,7 +2474,7 @@ export const lalithaSahasranama: Mantra = {
           n: 54,
           text: 'तस्य पुण्यफलं वक्तुं न शक्नोति महेश्वरः ।\nसा वेत्ति ललितादेवी स्वचक्रार्चनजं फलम् ॥',
           meaning: {
-            en: 'even Maheśvara cannot describe his merit. Only Lalitā Devī knows the fruit of worship in her own cakra;',
+            en: 'even Maheśvara cannot describe his merit. Only Lalitā Devī knows the fruit of worship in her own chakra;',
             kn: 'ಅವನ ಪುಣ್ಯಫಲವನ್ನು ಮಹೇಶ್ವರನೂ ಹೇಳಲಾರನು. ತನ್ನ ಚಕ್ರಾರ್ಚನೆಯ ಫಲವನ್ನು ಲಲಿತಾದೇವಿಯೊಬ್ಬಳೇ ಬಲ್ಲಳು;',
           },
         },
@@ -2498,7 +2498,7 @@ export const lalithaSahasranama: Mantra = {
           n: 57,
           text: 'न तयोर्विद्यते भेदो भेदकृत्पापकृद्भवेत् ।\nमहानवम्यां यो भक्तः श्रीदेवीं चक्रमध्यगाम् ॥',
           meaning: {
-            en: 'There is no difference between them; one who makes a difference commits sin. The devotee who on Mahānavamī worships the Goddess in the centre of the cakra',
+            en: 'There is no difference between them; one who makes a difference commits sin. The devotee who on Mahānavamī worships the Goddess in the centre of the chakra',
             kn: 'ಅವರಿಬ್ಬರಲ್ಲಿ ಭೇದವಿಲ್ಲ; ಭೇದ ಮಾಡುವವನು ಪಾಪಿಯಾಗುತ್ತಾನೆ. ಮಹಾನವಮಿಯಂದು ಚಕ್ರಮಧ್ಯದಲ್ಲಿರುವ ಶ್ರೀದೇವಿಯನ್ನು',
           },
         },

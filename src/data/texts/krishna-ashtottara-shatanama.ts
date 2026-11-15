@@ -120,7 +120,7 @@ export const krishnaAshtottaraShatanama: Mantra = {
           n: 5,
           text: 'नवनीतविलिप्ताङ्गो नवनीतनटोऽनघः ।\nनवनीतनवाहारो मुचुकुन्दप्रसादकः ॥',
           meaning: {
-            en: 'Whose limbs are smeared with butter; who dances for butter; the sinless One; whose favourite food is fresh butter; who showed grace to King Mucukunda.',
+            en: 'Whose limbs are smeared with butter; who dances for butter; the sinless One; whose favourite food is fresh butter; who showed grace to King Muchukunda.',
             kn: 'ಬೆಣ್ಣೆ ಮೆತ್ತಿದ ಮೈಯುಳ್ಳವನು; ಬೆಣ್ಣೆಗಾಗಿ ಕುಣಿಯುವವನು; ಪಾಪರಹಿತನು; ಹೊಸ ಬೆಣ್ಣೆಯನ್ನೇ ಪ್ರಿಯ ಆಹಾರವಾಗಿ ಉಳ್ಳವನು; ಮುಚುಕುಂದ ಮಹಾರಾಜನಿಗೆ ಅನುಗ್ರಹಿಸಿದವನು.',
           },
         },

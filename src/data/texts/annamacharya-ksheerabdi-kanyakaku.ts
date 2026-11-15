@@ -41,7 +41,7 @@ export const annamacharyaKsheerabdiKanyakaku: Mantra = {
         {
           n: 1,
           text: 'జలజాక్షి మోమునకు జక్కవ కుచంబులకు\nనెలకొన్న కప్పురపు నీరాజనం',
-          meaning: { en: 'To the lotus-eyed Lady\'s face and her breast like cakravaka birds: the camphor lamp placed in waving.', kn: 'ಕಮಲಾಕ್ಷಿಯ ಮುಖಕ್ಕೆ, ಚಕ್ರವಾಕ ಪಕ್ಷಿಗಳಂತಿರುವ ವಕ್ಷಕ್ಕೆ, ಕರ್ಪೂರದ ನೀರಾಜನ.' },
+          meaning: { en: 'To the lotus-eyed Lady\'s face and her breast like chakravaka birds: the camphor lamp placed in waving.', kn: 'ಕಮಲಾಕ್ಷಿಯ ಮುಖಕ್ಕೆ, ಚಕ್ರವಾಕ ಪಕ್ಷಿಗಳಂತಿರುವ ವಕ್ಷಕ್ಕೆ, ಕರ್ಪೂರದ ನೀರಾಜನ.' },
         },
         {
           n: 2,

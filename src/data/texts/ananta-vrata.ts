@@ -63,7 +63,7 @@ export const anantaVrata: Mantra = {
   ],
   difficulty: "medium",
   completeness: "partial",
-  contentNote: "Gives only what is specific to this vrata. Acamana, pranayama, desha-kala sankalpa, Ganapati puja, kalasha puja, prana-pratishtha and the sixteen upacharas (with the Purusha Sukta rik for each) are as in the Shodashopachara Puja text, with the deity name changed. Left out: the Madhva Shesha-Sankarshana puja verses, the Yamuna puja upacharas, the Anantapadmanabha ashtottara, the Smarta lists of knot-names (they differ from book to book), the udyapana, and the Sanskrit/Telugu katha text, which is retold in the note of the last section.",
+  contentNote: "Gives only what is specific to this vrata. Achamana, pranayama, desha-kala sankalpa, Ganapati puja, kalasha puja, prana-pratishtha and the sixteen upacharas (with the Purusha Sukta rik for each) are as in the Shodashopachara Puja text, with the deity name changed. Left out: the Madhva Shesha-Sankarshana puja verses, the Yamuna puja upacharas, the Anantapadmanabha ashtottara, the Smarta lists of knot-names (they differ from book to book), the udyapana, and the Sanskrit/Telugu katha text, which is retold in the note of the last section.",
   sections: [
     {
       title: "सङ्कल्पः",

@@ -68,7 +68,10 @@ const DEV_DIGITS = '०१२३४५६७८९';
  *    other clusters stay conjunct (മന്ത്രം, പഞ്ച, ഗോവിന്ദ, ശങ്കര).
  *  - Tamil, Bengali, Odia: nasal conjuncts are normal (மந்த்ர, গোবিন্দ, ଗୋବିନ୍ଦ).
  */
-const NASAL_BEFORE_STOP = /[ङञणनम]्(?=[कखगघचछजझटठडढतथदधपफबभ])/g;
+// Only a nasal of the same class as the stop (ङ्क, ञ्च, ण्ड, न्त, म्ब) becomes anusvara. A word-final न्
+// before another class (भवान्भीष्मश्च, पुत्रान्पौत्रान्) or Kannada ण्द (ಎಣ್ದೆಸೆ, ಕಣ್ದೆರೆದು) is printed as a
+// conjunct: anusvara there would be read as the wrong nasal (ಭವಾಂಭೀಷ್ಮ, ಎಂದೆಸೆ).
+const NASAL_BEFORE_STOP = /ङ्(?=[कखगघ])|ञ्(?=[चछजझ])|ण्(?=[टठडढ])|न्(?=[तथदध])|म्(?=[पफबभ])/g;
 const NASAL_MALAYALAM = /ङ्(?=[खगघ])|म्(?=[बभ])/g;
 
 function preprocess(dev: string, script: ScriptId): string {

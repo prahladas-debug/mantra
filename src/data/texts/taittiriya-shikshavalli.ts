@@ -176,7 +176,7 @@ export const taittiriyaShikshavalli: Mantra = {
           n: 1,
           text: 'भूर्भुवः सुवरिति वा एतास्तिस्रो व्याहृतयः ।\nतासामु ह स्मैतां चतुर्थीम् ।\nमाहाचमस्यः प्रवेदयते । मह इति ।\nतद्ब्रह्म । स आत्मा । अङ्गान्यन्या देवताः ।\nभूरिति वा अयं लोकः । भुव इत्यन्तरिक्षम् ।\nसुवरित्यसौ लोकः ॥',
           meaning: {
-            en: '"Bhuh, bhuvah, suvah": these are the three vyahritis. To these Mahacamasya revealed a fourth, "mahah". That is Brahman; that is the Self; the other gods are its limbs. "Bhuh" is this world; "bhuvah" is the mid-region; "suvah" is that world yonder.',
+            en: '"Bhuh, bhuvah, suvah": these are the three vyahritis. To these Mahachamasya revealed a fourth, "mahah". That is Brahman; that is the Self; the other gods are its limbs. "Bhuh" is this world; "bhuvah" is the mid-region; "suvah" is that world yonder.',
             kn: '"ಭೂಃ ಭುವಃ ಸುವಃ" ಎಂಬ ಈ ಮೂರು ವ್ಯಾಹೃತಿಗಳು. ಅವುಗಳ ಜೊತೆಗೆ ಮಾಹಾಚಮಸ್ಯನು "ಮಹಃ" ಎಂಬ ನಾಲ್ಕನೆಯದನ್ನು ತಿಳಿಸಿದನು. ಅದೇ ಬ್ರಹ್ಮ; ಅದೇ ಆತ್ಮ; ಇತರ ದೇವತೆಗಳು ಅದರ ಅಂಗಗಳು. "ಭೂಃ" ಎಂದರೆ ಈ ಲೋಕ; "ಭುವಃ" ಎಂದರೆ ಅಂತರಿಕ್ಷ; "ಸುವಃ" ಎಂದರೆ ಆ ಲೋಕ (ಸ್ವರ್ಗ).',
           },
         },

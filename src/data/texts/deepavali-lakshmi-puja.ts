@@ -57,7 +57,7 @@ export const deepavaliLakshmiPuja: Mantra = {
   ],
   difficulty: "medium",
   completeness: "partial",
-  contentNote: "Gives only what is specific to these rites. Acamana, pranayama, desha-kala sankalpa, Ganapati puja, kalasha puja and the sixteen upacharas of the Lakshmi puja (with Sri Sukta, which the app has as a separate text) are as in the Shodashopachara Puja text. The dates (Ashvayuja krishna trayodashi, chaturdashi, amavasya and Kartika shukla pratipada) follow the panchanga, and the moonrise time of your place; refer to the Panchanga in the app. Left out: the Madhva sankalpas of the abhyanga and Bali puja (damaged in the scan), the Smarta abhyanga rules (not in the sources read), the Ganga prayer verse, the Lakshmi ashtottara and Kuberas puja, Govardhana puja and the Yama-dvitiya.",
+  contentNote: "Gives only what is specific to these rites. Achamana, pranayama, desha-kala sankalpa, Ganapati puja, kalasha puja and the sixteen upacharas of the Lakshmi puja (with Sri Sukta, which the app has as a separate text) are as in the Shodashopachara Puja text. The dates (Ashvayuja krishna trayodashi, chaturdashi, amavasya and Kartika shukla pratipada) follow the panchanga, and the moonrise time of your place; refer to the Panchanga in the app. Left out: the Madhva sankalpas of the abhyanga and Bali puja (damaged in the scan), the Smarta abhyanga rules (not in the sources read), the Ganga prayer verse, the Lakshmi ashtottara and Kuberas puja, Govardhana puja and the Yama-dvitiya.",
   sections: [
     {
       title: "जलपूरणत्रयोदशी",
@@ -111,7 +111,7 @@ export const deepavaliLakshmiPuja: Mantra = {
     {
       title: "यमतर्पणम्",
       titleEn: "Yama tarpana (Madhva)",
-      note: "After the oil bath, offer water with akshata and sesame, through the deva-tirtha (the tip of the fingers), facing south, three times to each name: men whose father is living do it with the sacred thread over the left shoulder (savya), those whose father has died with it over the right (apasavya), as the Madhva manual says. Say after acamana and pranayama: मम नरकभयनिरासद्वारा विष्णुप्रीत्यर्थं यमतर्पणं करिष्ये, then the fourteen names, then the verse, and close with अनेन यमतर्पणेन श्रीविष्णुः प्रीयताम्. In the evening of Naraka chaturdashi and on the amavasya the ulka-dipa is lit for the forefathers with the last verse.",
+      note: "After the oil bath, offer water with akshata and sesame, through the deva-tirtha (the tip of the fingers), facing south, three times to each name: men whose father is living do it with the sacred thread over the left shoulder (savya), those whose father has died with it over the right (apasavya), as the Madhva manual says. Say after achamana and pranayama: मम नरकभयनिरासद्वारा विष्णुप्रीत्यर्थं यमतर्पणं करिष्ये, then the fourteen names, then the verse, and close with अनेन यमतर्पणेन श्रीविष्णुः प्रीयताम्. In the evening of Naraka chaturdashi and on the amavasya the ulka-dipa is lit for the forefathers with the last verse.",
       noteKn: "ಅಭ್ಯಂಗ ಸ್ನಾನದ ನಂತರ ದಕ್ಷಿಣಾಭಿಮುಖವಾಗಿ ಅಕ್ಷತೆ-ಎಳ್ಳಿನೊಡನೆ ದೇವತೀರ್ಥದಿಂದ ಪ್ರತಿ ನಾಮಕ್ಕೆ ಮೂರು ಬಾರಿ ನೀರು ಬಿಡಿ: ತಂದೆಯಿದ್ದವರು ಸವ್ಯದಿಂದ, ಇಲ್ಲದವರು ಅಪಸವ್ಯದಿಂದ (ಮಾಧ್ವ ಪುಸ್ತಕದಂತೆ). ಆಚಮನ-ಪ್ರಾಣಾಯಾಮದ ನಂತರ \"ಮಮ ನರಕಭಯನಿರಾಸದ್ವಾರಾ ವಿಷ್ಣುಪ್ರೀತ್ಯರ್ಥಂ ಯಮತರ್ಪಣಂ ಕರಿಷ್ಯೇ\" ಎಂದು ಸಂಕಲ್ಪಿಸಿ, ಹದಿನಾಲ್ಕು ನಾಮಗಳು, ಶ್ಲೋಕ, ಮತ್ತು \"ಅನೇನ ಯಮತರ್ಪಣೇನ ಶ್ರೀವಿಷ್ಣುಃ ಪ್ರೀಯತಾಮ್\" ಎಂದು ಮುಗಿಸಿ. ನರಕಚತುರ್ದಶಿ ಮತ್ತು ಅಮಾವಾಸ್ಯೆಯ ಸಂಜೆ ಪಿತೃಗಳಿಗೆ ಕೊನೆಯ ಶ್ಲೋಕದೊಡನೆ ಉಲ್ಕಾದೀಪ ಹಚ್ಚಿ.",
       when: {
         tradition: [

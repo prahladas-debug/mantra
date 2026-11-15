@@ -344,7 +344,7 @@ export const nityaPuja: Mantra = {
       title: 'निर्माल्यविसर्जनम्',
       titleEn: 'Removing yesterday’s offerings and the morning bath (fuller puja)',
       note: 'With the thumb and ring finger remove yesterday’s flowers, tulasi and sandal (nirmalya) and keep them aside in a clean place. Place the Saligramas and images in the bathing plate. Take water from the kalasha in the panchapatre, add tulasi, consecrate it by reciting ॐ नमो नारायणाय eight times, and pour it over the Lord with the conch while reciting the Ambhrini Sukta (open “Ambhrini Sukta” in Vedic). This water is the nirmalya-tirtha. With it bathe, three ladles each, the conch and image of Lakshmi (Sri Sukta), Mukhyaprana — Hanuman, Bhima, Madhva — (Balittha Sukta and Vayu Stuti: open them in the library), Garuda, Shesha and the gurus (Raghavendra Stotra). Keep Mukhyaprana’s tirtha separately. Offer a tulasi leaf and a little sugar as naivedya. Families who do only the short daily form go on from here to the abhisheka and the upacharas below without the separate morning bath.',
-      noteKn: 'ಹೆಬ್ಬೆರಳು ಮತ್ತು ಉಂಗುರದ ಬೆರಳಿನಿಂದ ಹಿಂದಿನ ದಿನದ ಹೂವು, ತುಳಸಿ, ಗಂಧ (ನಿರ್ಮಾಲ್ಯ)ವನ್ನು ತೆಗೆದು ಶುದ್ಧ ಸ್ಥಳದಲ್ಲಿಡಿ. ಸಾಲಿಗ್ರಾಮಗಳನ್ನೂ ಪ್ರತಿಮೆಗಳನ್ನೂ ಅಭಿಷೇಕದ ತಟ್ಟೆಯಲ್ಲಿಡಿ. ಕಲಶದ ನೀರನ್ನು ಪಂಚಪಾತ್ರೆಗೆ ತೆಗೆದು ತುಳಸಿ ಹಾಕಿ, “ಓಂ ನಮೋ ನಾರಾಯಣಾಯ” ಎಂದು ಎಂಟು ಬಾರಿ ಅಭಿಮಂತ್ರಿಸಿ, ಅಂಭೃಣೀ ಸೂಕ್ತ ಹೇಳುತ್ತಾ (ವೈದಿಕ ವಿಭಾಗದಲ್ಲಿ “Ambhrini Sukta” ತೆರೆಯಿರಿ) ಶಂಖದಿಂದ ದೇವರಿಗೆ ಅಭಿಷೇಕ ಮಾಡಿ. ಈ ನೀರೇ ನಿರ್ಮಾಲ್ಯ ತೀರ್ಥ. ಇದರಿಂದ ಶಂಖಕ್ಕೂ ಲಕ್ಷ್ಮೀ ಪ್ರತಿಮೆಗೂ (ಶ್ರೀಸೂಕ್ತ), ಮುಖ್ಯಪ್ರಾಣರಿಗೆ — ಹನುಮ, ಭೀಮ, ಮಧ್ವರಿಗೆ — (ಬಳಿತ್ಥಾ ಸೂಕ್ತ, ವಾಯುಸ್ತುತಿ: ಗ್ರಂಥಾಲಯದಲ್ಲಿ ತೆರೆಯಿರಿ), ಗರುಡ, ಶೇಷ ಮತ್ತು ಗುರುಗಳಿಗೆ (ರಾಘವೇಂದ್ರ ಸ್ತೋತ್ರ) ತಲಾ ಮೂರು ಉದ್ಧರಣೆ ಅಭಿಷೇಕ ಮಾಡಿ. ಮುಖ್ಯಪ್ರಾಣರ ತೀರ್ಥವನ್ನು ಬೇರೆ ಇಟ್ಟುಕೊಳ್ಳಿ. ಒಂದು ತುಳಸೀದಳ ಮತ್ತು ಸ್ವಲ್ಪ ಸಕ್ಕರೆ ನೈವೇದ್ಯ ಮಾಡಿ. ಸಂಕ್ಷಿಪ್ತ ನಿತ್ಯಕ್ರಮ ಮಾಡುವವರು ಈ ಬೆಳಗಿನ ಪ್ರತ್ಯೇಕ ಅಭಿಷೇಕವಿಲ್ಲದೆ ಮುಂದಿನ ಅಭಿಷೇಕ–ಉಪಚಾರಗಳಿಗೆ ಹೋಗಬಹುದು.',
+      noteKn: 'ಹೆಬ್ಬೆರಳು ಮತ್ತು ಉಂಗುರದ ಬೆರಳಿನಿಂದ ಹಿಂದಿನ ದಿನದ ಹೂವು, ತುಳಸಿ, ಗಂಧ (ನಿರ್ಮಾಲ್ಯ)ವನ್ನು ತೆಗೆದು ಶುದ್ಧ ಸ್ಥಳದಲ್ಲಿಡಿ. ಸಾಲಿಗ್ರಾಮಗಳನ್ನೂ ಪ್ರತಿಮೆಗಳನ್ನೂ ಅಭಿಷೇಕದ ತಟ್ಟೆಯಲ್ಲಿಡಿ. ಕಲಶದ ನೀರನ್ನು ಪಂಚಪಾತ್ರೆಗೆ ತೆಗೆದು ತುಳಸಿ ಹಾಕಿ, “ಓಂ ನಮೋ ನಾರಾಯಣಾಯ” ಎಂದು ಎಂಟು ಬಾರಿ ಅಭಿಮಂತ್ರಿಸಿ, ಅಂಭೃಣೀ ಸೂಕ್ತ ಹೇಳುತ್ತಾ (ವೈದಿಕ ವಿಭಾಗದಲ್ಲಿ “ಅಂಭೃಣೀಸೂಕ್ತಂ” ತೆರೆಯಿರಿ) ಶಂಖದಿಂದ ದೇವರಿಗೆ ಅಭಿಷೇಕ ಮಾಡಿ. ಈ ನೀರೇ ನಿರ್ಮಾಲ್ಯ ತೀರ್ಥ. ಇದರಿಂದ ಶಂಖಕ್ಕೂ ಲಕ್ಷ್ಮೀ ಪ್ರತಿಮೆಗೂ (ಶ್ರೀಸೂಕ್ತ), ಮುಖ್ಯಪ್ರಾಣರಿಗೆ — ಹನುಮ, ಭೀಮ, ಮಧ್ವರಿಗೆ — (ಬಳಿತ್ಥಾ ಸೂಕ್ತ, ವಾಯುಸ್ತುತಿ: ಗ್ರಂಥಾಲಯದಲ್ಲಿ ತೆರೆಯಿರಿ), ಗರುಡ, ಶೇಷ ಮತ್ತು ಗುರುಗಳಿಗೆ (ರಾಘವೇಂದ್ರ ಸ್ತೋತ್ರ) ತಲಾ ಮೂರು ಉದ್ಧರಣೆ ಅಭಿಷೇಕ ಮಾಡಿ. ಮುಖ್ಯಪ್ರಾಣರ ತೀರ್ಥವನ್ನು ಬೇರೆ ಇಟ್ಟುಕೊಳ್ಳಿ. ಒಂದು ತುಳಸೀದಳ ಮತ್ತು ಸ್ವಲ್ಪ ಸಕ್ಕರೆ ನೈವೇದ್ಯ ಮಾಡಿ. ಸಂಕ್ಷಿಪ್ತ ನಿತ್ಯಕ್ರಮ ಮಾಡುವವರು ಈ ಬೆಳಗಿನ ಪ್ರತ್ಯೇಕ ಅಭಿಷೇಕವಿಲ್ಲದೆ ಮುಂದಿನ ಅಭಿಷೇಕ–ಉಪಚಾರಗಳಿಗೆ ಹೋಗಬಹುದು.',
       when: { tradition: ['madhva'] },
       verses: [
         {
@@ -683,7 +683,7 @@ export const nityaPuja: Mantra = {
       title: 'महाभिषेकः',
       titleEn: 'Main bath with Purusha Sukta (short form)',
       note: 'Pour water from the bathing kalasha over the Lord with the conch, ringing the bell with the left hand, while reciting the Purusha Sukta (open “Purusha Suktam” in Vedic). Then sprinkle water from the full kalasha with a tulasi leaf. Dry the Saligramas and images with a clean cloth and set them back in the samputa or on the pitha with fresh tulasi.',
-      noteKn: 'ಎಡಗೈಯಿಂದ ಗಂಟೆ ಬಾರಿಸುತ್ತಾ, ಪುರುಷಸೂಕ್ತ ಹೇಳುತ್ತಾ (ವೈದಿಕ ವಿಭಾಗದಲ್ಲಿ “Purusha Suktam” ತೆರೆಯಿರಿ) ಸ್ನಾನೀಯ ಕಲಶದ ನೀರನ್ನು ಶಂಖದಿಂದ ದೇವರಿಗೆ ಅಭಿಷೇಕ ಮಾಡಿ. ನಂತರ ಪೂರ್ಣಕಲಶದ ನೀರನ್ನು ತುಳಸಿಯಿಂದ ಪ್ರೋಕ್ಷಿಸಿ. ಸಾಲಿಗ್ರಾಮ, ಪ್ರತಿಮೆಗಳನ್ನು ಶುಭ್ರ ಬಟ್ಟೆಯಿಂದ ಒರಸಿ ಹೊಸ ತುಳಸಿಯೊಂದಿಗೆ ಸಂಪುಟದಲ್ಲಿ ಅಥವಾ ಪೀಠದ ಮೇಲೆ ಇಡಿ.',
+      noteKn: 'ಎಡಗೈಯಿಂದ ಗಂಟೆ ಬಾರಿಸುತ್ತಾ, ಪುರುಷಸೂಕ್ತ ಹೇಳುತ್ತಾ (ವೈದಿಕ ವಿಭಾಗದಲ್ಲಿ “ಪುರುಷಸೂಕ್ತಂ” ತೆರೆಯಿರಿ) ಸ್ನಾನೀಯ ಕಲಶದ ನೀರನ್ನು ಶಂಖದಿಂದ ದೇವರಿಗೆ ಅಭಿಷೇಕ ಮಾಡಿ. ನಂತರ ಪೂರ್ಣಕಲಶದ ನೀರನ್ನು ತುಳಸಿಯಿಂದ ಪ್ರೋಕ್ಷಿಸಿ. ಸಾಲಿಗ್ರಾಮ, ಪ್ರತಿಮೆಗಳನ್ನು ಶುಭ್ರ ಬಟ್ಟೆಯಿಂದ ಒರಸಿ ಹೊಸ ತುಳಸಿಯೊಂದಿಗೆ ಸಂಪುಟದಲ್ಲಿ ಅಥವಾ ಪೀಠದ ಮೇಲೆ ಇಡಿ.',
       when: { tradition: ['madhva'] },
       verses: [
         {
@@ -979,7 +979,7 @@ export const nityaPuja: Mantra = {
       title: 'मन्त्रपुष्पम्',
       titleEn: 'Mantrapushpa (short form)',
       note: 'Holding flowers, tulasi and akshata in joined palms, recite राजाधिराजाय… and ॐ स्वस्ति साम्राज्यं… (Madhva manuals), or the Mantra Pushpam you know (open “Mantra Pushpam” in Vedic), and offer them at the Lord’s feet three times. Then offer in the mind the royal honours — umbrella, chamara, fan, mirror, dance, song, music and praise.',
-      noteKn: 'ಬೊಗಸೆಯಲ್ಲಿ ಹೂವು, ತುಳಸಿ, ಅಕ್ಷತೆ ಹಿಡಿದು “ರಾಜಾಧಿರಾಜಾಯ…”, “ಓಂ ಸ್ವಸ್ತಿ ಸಾಮ್ರಾಜ್ಯಂ…” (ಮಾಧ್ವ ಪುಸ್ತಕಗಳು) ಅಥವಾ ನಿಮಗೆ ತಿಳಿದ ಮಂತ್ರಪುಷ್ಪ (ವೈದಿಕ ವಿಭಾಗದಲ್ಲಿ “Mantra Pushpam” ತೆರೆಯಿರಿ) ಹೇಳಿ ದೇವರ ಪಾದಗಳಿಗೆ ಮೂರು ಬಾರಿ ಅರ್ಪಿಸಿ. ನಂತರ ಛತ್ರ, ಚಾಮರ, ವ್ಯಜನ, ದರ್ಪಣ, ನೃತ್ಯ, ಗೀತ, ವಾದ್ಯ, ಸ್ತೋತ್ರ ಮುಂತಾದ ರಾಜೋಪಚಾರಗಳನ್ನು ಮನಸ್ಸಿನಲ್ಲಿ ಅರ್ಪಿಸಿ.',
+      noteKn: 'ಬೊಗಸೆಯಲ್ಲಿ ಹೂವು, ತುಳಸಿ, ಅಕ್ಷತೆ ಹಿಡಿದು “ರಾಜಾಧಿರಾಜಾಯ…”, “ಓಂ ಸ್ವಸ್ತಿ ಸಾಮ್ರಾಜ್ಯಂ…” (ಮಾಧ್ವ ಪುಸ್ತಕಗಳು) ಅಥವಾ ನಿಮಗೆ ತಿಳಿದ ಮಂತ್ರಪುಷ್ಪ (ವೈದಿಕ ವಿಭಾಗದಲ್ಲಿ “ಮಂತ್ರಪುಷ್ಪಂ” ತೆರೆಯಿರಿ) ಹೇಳಿ ದೇವರ ಪಾದಗಳಿಗೆ ಮೂರು ಬಾರಿ ಅರ್ಪಿಸಿ. ನಂತರ ಛತ್ರ, ಚಾಮರ, ವ್ಯಜನ, ದರ್ಪಣ, ನೃತ್ಯ, ಗೀತ, ವಾದ್ಯ, ಸ್ತೋತ್ರ ಮುಂತಾದ ರಾಜೋಪಚಾರಗಳನ್ನು ಮನಸ್ಸಿನಲ್ಲಿ ಅರ್ಪಿಸಿ.',
       when: { tradition: ['madhva'] },
       verses: [
         {
@@ -1002,7 +1002,7 @@ export const nityaPuja: Mantra = {
       title: 'मन्त्रपुष्पम्',
       titleEn: 'Mantrapushpa (short form)',
       note: 'Holding flowers in joined palms, recite the Mantra Pushpam (open “Mantra Pushpam” in Vedic; at least योऽपां पुष्पं वेद…) and offer the flowers at the feet of the deities.',
-      noteKn: 'ಬೊಗಸೆಯಲ್ಲಿ ಹೂವು ಹಿಡಿದು ಮಂತ್ರಪುಷ್ಪ ಹೇಳಿ (ವೈದಿಕ ವಿಭಾಗದಲ್ಲಿ “Mantra Pushpam” ತೆರೆಯಿರಿ; ಕನಿಷ್ಠ “ಯೋಽಪಾಂ ಪುಷ್ಪಂ ವೇದ…”) ದೇವತೆಗಳ ಪಾದಗಳಿಗೆ ಹೂವುಗಳನ್ನು ಅರ್ಪಿಸಿ.',
+      noteKn: 'ಬೊಗಸೆಯಲ್ಲಿ ಹೂವು ಹಿಡಿದು ಮಂತ್ರಪುಷ್ಪ ಹೇಳಿ (ವೈದಿಕ ವಿಭಾಗದಲ್ಲಿ “ಮಂತ್ರಪುಷ್ಪಂ” ತೆರೆಯಿರಿ; ಕನಿಷ್ಠ “ಯೋಽಪಾಂ ಪುಷ್ಪಂ ವೇದ…”) ದೇವತೆಗಳ ಪಾದಗಳಿಗೆ ಹೂವುಗಳನ್ನು ಅರ್ಪಿಸಿ.',
       when: { tradition: ['smarta'] },
       verses: [
         {

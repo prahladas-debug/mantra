@@ -15,9 +15,9 @@ export interface DeityGroup {
 // Patterns are matched against the deity in plain spelling (Krishna, not Kṛṣṇa), so texts
 // written either way are found.
 const GROUPS: DeityGroup[] = [
-  { id: 'vishnu', title: 'श्रीहरिः', titleEn: 'Vishnu · Krishna · Rama', match: /vishnu|hari\b|krishna|\brama\b|narayana|venkat|srinivasa|narasimha|nrisimha|vasudeva|vith?thala|mukunda|govinda|purusha|ananta|jagadisha|ranganatha|achyuta/ },
+  { id: 'vishnu', title: 'श्रीहरिः', titleEn: 'Vishnu · Krishna · Rama', match: /vishnu|hari\b|krishna|\brama\b|narayana|venkat|srinivasa|narasimha|nrisimha|vasudeva|vith?thala|mukunda|govinda|purusha|ananta|jagadisha|ranganatha|ranga\b|keshava|dhanvantari|achyuta/ },
   { id: 'devi', title: 'देवी', titleEn: 'Devi · Lakshmi · Lalita', match: /devi|lakshmi|lalita|durga|chandika|ambhrini|sarasvati|sharada|gauri|parvati|annapurna|minakshi|meenakshi|bhavani|andal/ },
-  { id: 'shiva', title: 'शिवः', titleEn: 'Shiva · Rudra', match: /shiva|rudra|bhairava|dakshinamurti|tryambaka/ },
+  { id: 'shiva', title: 'शिवः', titleEn: 'Shiva · Rudra', match: /shiva|rudra|bhairava|dakshinamurti|tryambaka|mrityunjaya/ },
   { id: 'ganesha', title: 'गणेशः', titleEn: 'Ganesha', match: /ganesh|ganapati|vinayaka/ },
   { id: 'vayu', title: 'हनुमान् · वायुः', short: 'हनुमान्', titleEn: 'Hanuman · Vayu', match: /hanuman|anjaneya|vayu|mukhyaprana|bhima|manyu/ },
   { id: 'surya', title: 'सूर्यः · ग्रहाः', short: 'सूर्यः', titleEn: 'Surya · Navagraha', match: /surya|savitr|savitri|aditya|graha/ },

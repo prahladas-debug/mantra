@@ -124,7 +124,7 @@ const NAMES: [string, string, string][] = [
   ['सत्यप्रजापतये', 'the true lord of creatures', 'ಸತ್ಯವಾದ ಪ್ರಜಾಪತಿ'],
   ['सत्यविक्रमाय', 'of true valour', 'ಸತ್ಯವಾದ ಪರಾಕ್ರಮವುಳ್ಳವನು'],
   ['सत्यसिद्धाय', 'truly accomplished', 'ಸತ್ಯಸಿದ್ಧನು'],
-  ['सत्याच्युताय', 'the true, never-failing Acyuta', 'ಎಂದೂ ಜಾರದ ಸತ್ಯಸ್ವರೂಪನಾದ ಅಚ್ಯುತನು'],
+  ['सत्याच्युताय', 'the true, never-failing Achyuta', 'ಎಂದೂ ಜಾರದ ಸತ್ಯಸ್ವರೂಪನಾದ ಅಚ್ಯುತನು'],
   ['सत्यवीराय', 'the true hero', 'ಸತ್ಯವೀರನು'],
   ['सत्यबोधाय', 'true awakening', 'ಸತ್ಯಬೋಧಸ್ವರೂಪನು'],
   ['सत्यधर्माय', 'whose dharma is truth', 'ಸತ್ಯವೇ ಧರ್ಮವಾಗಿರುವವನು'],
@@ -304,7 +304,7 @@ export const satyanarayanaPuja: Mantra = {
       title: 'सङ्कल्पः',
       titleEn: 'Saṅkalpa (resolve)',
       note:
-        'Hold akṣata and water in the right hand. Replace each अमुक with the current saṁvatsara, ayana, ṛtu, māsa, pakṣa, tithi, weekday and nakṣatra from the pañcāṅga. Families add the place (e.g. दण्डकारण्ये गोदावर्याः दक्षिणे तीरे) after भरतखण्डे. At the end let the akṣata and water fall into the plate.',
+        'Hold akṣata and water in the right hand. Replace each अमुक with the current saṃvatsara, ayana, ṛtu, māsa, pakṣa, tithi, weekday and nakṣatra from the pañcāṅga. Families add the place (e.g. दण्डकारण्ये गोदावर्याः दक्षिणे तीरे) after भरतखण्डे. At the end let the akṣata and water fall into the plate.',
       noteKn:
         'ಬಲಗೈಯಲ್ಲಿ ಅಕ್ಷತೆ ಮತ್ತು ನೀರನ್ನು ಹಿಡಿಯಿರಿ. ಪ್ರತಿ "ಅಮುಕ" ಸ್ಥಾನದಲ್ಲಿ ಪಂಚಾಂಗದಿಂದ ಈಗಿನ ಸಂವತ್ಸರ, ಅಯನ, ಋತು, ಮಾಸ, ಪಕ್ಷ, ತಿಥಿ, ವಾರ, ನಕ್ಷತ್ರಗಳ ಹೆಸರನ್ನು ಹೇಳಿ. ಭರತಖಂಡೇ ಎಂಬುದರ ನಂತರ ಕೆಲವರು ಸ್ಥಳನಾಮವನ್ನೂ ಸೇರಿಸುತ್ತಾರೆ. ಕೊನೆಯಲ್ಲಿ ಅಕ್ಷತೆ-ನೀರನ್ನು ತಟ್ಟೆಗೆ ಬಿಡಿ.',
       verses: [
@@ -889,7 +889,7 @@ export const satyanarayanaPuja: Mantra = {
         {
           text: 'यस्य स्मृत्या च नामोक्त्या तपःपूजाक्रियादिषु ।\nन्यूनं सम्पूर्णतां याति सद्यो वन्दे तमच्युतम् ॥',
           meaning: {
-            en: 'I bow to Acyuta, by remembering whom and uttering whose name whatever is lacking in austerity, worship and rite at once becomes complete.',
+            en: 'I bow to Achyuta, by remembering whom and uttering whose name whatever is lacking in austerity, worship and rite at once becomes complete.',
             kn: 'ಯಾರನ್ನು ಸ್ಮರಿಸುವುದರಿಂದ, ಯಾರ ನಾಮವನ್ನು ಹೇಳುವುದರಿಂದ ತಪಸ್ಸು, ಪೂಜೆ, ಕ್ರಿಯೆಗಳಲ್ಲಿನ ಕೊರತೆ ತಕ್ಷಣ ಪೂರ್ಣವಾಗುವುದೋ ಆ ಅಚ್ಯುತನಿಗೆ ವಂದಿಸುತ್ತೇನೆ.',
           },
         },
@@ -1053,7 +1053,7 @@ export const satyanarayanaKatha: Mantra = {
       title: 'तृतीयोऽध्यायः',
       titleEn: 'Chapter 3 · King Ulkāmukha and the merchant Sādhu',
       note:
-        'King Ulkāmukha keeps the vow on the bank of the Bhadraśīlā. The merchant Sādhu learns of it and promises to perform it if he is granted a child; a daughter, Kalāvatī, is born, but he postpones the vow to her wedding and then forgets it. Cursed by the Lord, he and his son-in-law are falsely seized as thieves in King Candraketu’s city and imprisoned, while his wife Līlāvatī and Kalāvatī are robbed and reduced to begging. Kalāvatī sees the vow in a brāhmaṇa’s house; Līlāvatī performs it and prays for forgiveness, the Lord appears to Candraketu in a dream, and the two merchants are freed, honoured and sent home with double their wealth.',
+        'King Ulkāmukha keeps the vow on the bank of the Bhadraśīlā. The merchant Sādhu learns of it and promises to perform it if he is granted a child; a daughter, Kalāvatī, is born, but he postpones the vow to her wedding and then forgets it. Cursed by the Lord, he and his son-in-law are falsely seized as thieves in King Chandraketu’s city and imprisoned, while his wife Līlāvatī and Kalāvatī are robbed and reduced to begging. Kalāvatī sees the vow in a brāhmaṇa’s house; Līlāvatī performs it and prays for forgiveness, the Lord appears to Chandraketu in a dream, and the two merchants are freed, honoured and sent home with double their wealth.',
       noteKn:
         'ಉಲ್ಕಾಮುಖ ರಾಜನು ಭದ್ರಶೀಲಾ ನದೀತೀರದಲ್ಲಿ ವ್ರತ ಮಾಡುತ್ತಿರಲು, ಸಾಧು ಎಂಬ ವ್ಯಾಪಾರಿ ಸಂತಾನವಾದರೆ ವ್ರತ ಮಾಡುವೆನೆಂದು ಹರಕೆ ಹೊರುತ್ತಾನೆ. ಕಲಾವತಿ ಎಂಬ ಮಗಳು ಹುಟ್ಟಿದರೂ ಮದುವೆಯ ಸಮಯದಲ್ಲಿ ಮಾಡುವೆನೆಂದು ಮುಂದೂಡಿ ಕೊನೆಗೆ ಮರೆಯುತ್ತಾನೆ. ಭಗವಂತನ ಶಾಪದಿಂದ ಅವನೂ ಅಳಿಯನೂ ಚಂದ್ರಕೇತು ರಾಜನ ನಗರದಲ್ಲಿ ಕಳ್ಳರೆಂದು ಸೆರೆಯಾಗುತ್ತಾರೆ; ಮನೆಯಲ್ಲಿ ಪತ್ನಿ ಲೀಲಾವತಿ ಮತ್ತು ಕಲಾವತಿ ಎಲ್ಲವನ್ನೂ ಕಳೆದುಕೊಂಡು ಕಷ್ಟಪಡುತ್ತಾರೆ. ಕಲಾವತಿ ಬ್ರಾಹ್ಮಣನ ಮನೆಯಲ್ಲಿ ವ್ರತವನ್ನು ಕಂಡು ಬಂದು ಹೇಳಲು, ಲೀಲಾವತಿ ವ್ರತ ಮಾಡಿ ಕ್ಷಮೆ ಬೇಡುತ್ತಾಳೆ. ಭಗವಂತನು ರಾಜನಿಗೆ ಸ್ವಪ್ನದಲ್ಲಿ ಆಜ್ಞಾಪಿಸಲು, ಇಬ್ಬರೂ ಬಿಡುಗಡೆಯಾಗಿ ಎರಡರಷ್ಟು ಧನದೊಂದಿಗೆ ಮನೆಗೆ ಹೊರಡುತ್ತಾರೆ.',
       verses: [

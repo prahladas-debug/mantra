@@ -436,7 +436,7 @@ export const vishnuSahasranama: Mantra = {
           n: 11,
           text: 'अजः सर्वेश्वरः सिद्धः सिद्धिः सर्वादिरच्युतः ।\nवृषाकपिरमेयात्मा सर्वयोगविनिःसृतः ॥',
           meaning: {
-            en: 'Aja – unborn; Sarveśvara – Lord of all; Siddha – ever perfect; Siddhi – the goal attained; Sarvādi – first cause of all; Acyuta – who never slips from his nature; Vṛṣākapi – who lifted the earth as the Boar of dharma; Ameyātmā – of immeasurable nature; Sarvayoga-viniḥsṛta – untouched by all bonds, and known through every discipline.',
+            en: 'Aja – unborn; Sarveśvara – Lord of all; Siddha – ever perfect; Siddhi – the goal attained; Sarvādi – first cause of all; Achyuta – who never slips from his nature; Vṛṣākapi – who lifted the earth as the Boar of dharma; Ameyātmā – of immeasurable nature; Sarvayoga-viniḥsṛta – untouched by all bonds, and known through every discipline.',
             kn: 'ಅಜ – ಹುಟ್ಟಿಲ್ಲದವನು; ಸರ್ವೇಶ್ವರ – ಎಲ್ಲರ ಒಡೆಯ; ಸಿದ್ಧ – ಸದಾ ಪರಿಪೂರ್ಣನು; ಸಿದ್ಧಿ – ಪಡೆಯಬೇಕಾದ ಗುರಿ; ಸರ್ವಾದಿ – ಎಲ್ಲದಕ್ಕೂ ಮೊದಲ ಕಾರಣ; ಅಚ್ಯುತ – ತನ್ನ ಸ್ವರೂಪದಿಂದ ಎಂದೂ ಜಾರದವನು; ವೃಷಾಕಪಿ – ಧರ್ಮರೂಪಿ ವರಾಹನಾಗಿ ಭೂಮಿಯನ್ನೆತ್ತಿದವನು; ಅಮೇಯಾತ್ಮಾ – ಅಳೆಯಲಾಗದ ಸ್ವರೂಪನು; ಸರ್ವಯೋಗವಿನಿಃಸೃತ – ಎಲ್ಲ ಬಂಧಗಳಿಂದ ದೂರನು, ಎಲ್ಲ ಸಾಧನೆಗಳಿಂದ ತಿಳಿಯಲ್ಪಡುವವನು.',
           },
         },
@@ -468,7 +468,7 @@ export const vishnuSahasranama: Mantra = {
           n: 15,
           text: 'लोकाध्यक्षः सुराध्यक्षो धर्माध्यक्षः कृताकृतः ।\nचतुरात्मा चतुर्व्यूहश्चतुर्दंष्ट्रश्चतुर्भुजः ॥',
           meaning: {
-            en: 'Lokādhyakṣa – overseer of the worlds; Surādhyakṣa – overseer of the gods; Dharmādhyakṣa – who watches over merit and sin; Kṛtākṛta – both the effect and its cause; Caturātmā – fourfold in creation, preservation and dissolution; Caturvyūha – in the four forms Vāsudeva, Saṅkarṣaṇa, Pradyumna and Aniruddha; Caturdaṃṣṭra – four-tusked, as Narasiṃha; Caturbhuja – four-armed.',
+            en: 'Lokādhyakṣa – overseer of the worlds; Surādhyakṣa – overseer of the gods; Dharmādhyakṣa – who watches over merit and sin; Kṛtākṛta – both the effect and its cause; Caturātmā – fourfold in creation, preservation and dissolution; Caturvyūha – in the four forms Vāsudeva, Saṅkarṣaṇa, Pradyumna and Aniruddha; Caturdaṃṣṭra – four-tusked, as Narasiṃha; Chaturbhuja – four-armed.',
             kn: 'ಲೋಕಾಧ್ಯಕ್ಷ – ಲೋಕಗಳ ಮೇಲ್ವಿಚಾರಕನು; ಸುರಾಧ್ಯಕ್ಷ – ದೇವತೆಗಳ ಅಧ್ಯಕ್ಷನು; ಧರ್ಮಾಧ್ಯಕ್ಷ – ಪುಣ್ಯ-ಪಾಪಗಳನ್ನು ನೋಡಿಕೊಳ್ಳುವವನು; ಕೃತಾಕೃತ – ಕಾರ್ಯವೂ ಕಾರಣವೂ ಆದವನು; ಚತುರಾತ್ಮಾ – ಸೃಷ್ಟಿ-ಸ್ಥಿತಿ-ಲಯಗಳಿಗಾಗಿ ನಾಲ್ಕು ರೂಪಗಳುಳ್ಳವನು; ಚತುರ್ವ್ಯೂಹ – ವಾಸುದೇವ, ಸಂಕರ್ಷಣ, ಪ್ರದ್ಯುಮ್ನ, ಅನಿರುದ್ಧರೆಂಬ ನಾಲ್ಕು ವ್ಯೂಹಗಳವನು; ಚತುರ್ದಂಷ್ಟ್ರ – ನರಸಿಂಹನಾಗಿ ನಾಲ್ಕು ಕೋರೆಹಲ್ಲುಗಳುಳ್ಳವನು; ಚತುರ್ಭುಜ – ನಾಲ್ಕು ಭುಜಗಳುಳ್ಳವನು.',
           },
         },
@@ -628,7 +628,7 @@ export const vishnuSahasranama: Mantra = {
           n: 35,
           text: 'अच्युतः प्रथितः प्राणः प्राणदो वासवानुजः ।\nअपां निधिरधिष्ठानमप्रमत्तः प्रतिष्ठितः ॥',
           meaning: {
-            en: 'Acyuta – who never falls; Prathita – the renowned; Prāṇa – life; Prāṇada – giver of strength; Vāsavānuja – younger brother of Indra; Apāṃ nidhi – the ocean, treasure of the waters; Adhiṣṭhānam – the ground of all; Apramatta – ever vigilant; Pratiṣṭhita – established in his own glory.',
+            en: 'Achyuta – who never falls; Prathita – the renowned; Prāṇa – life; Prāṇada – giver of strength; Vāsavānuja – younger brother of Indra; Apāṃ nidhi – the ocean, treasure of the waters; Adhiṣṭhānam – the ground of all; Apramatta – ever vigilant; Pratiṣṭhita – established in his own glory.',
             kn: 'ಅಚ್ಯುತ – ಎಂದೂ ಜಾರದವನು; ಪ್ರಥಿತ – ಪ್ರಸಿದ್ಧನು; ಪ್ರಾಣ – ಜೀವನ; ಪ್ರಾಣದ – ಬಲ ಕೊಡುವವನು; ವಾಸವಾನುಜ – ಇಂದ್ರನ ತಮ್ಮ; ಅಪಾಂ ನಿಧಿ – ಜಲನಿಧಿಯಾದ ಸಮುದ್ರ; ಅಧಿಷ್ಠಾನ – ಎಲ್ಲದಕ್ಕೂ ಆಧಾರ; ಅಪ್ರಮತ್ತ – ಸದಾ ಜಾಗರೂಕನು; ಪ್ರತಿಷ್ಠಿತ – ತನ್ನ ಮಹಿಮೆಯಲ್ಲೇ ನೆಲೆಸಿದವನು.',
           },
         },
@@ -820,7 +820,7 @@ export const vishnuSahasranama: Mantra = {
           n: 59,
           text: 'वेधाः स्वाङ्गोऽजितः कृष्णो दृढः सङ्कर्षणोऽच्युतः ।\nवरुणो वारुणो वृक्षः पुष्कराक्षो महामनाः ॥',
           meaning: {
-            en: 'Vedhāḥ – the creator; Svāṅga – who is himself his own means of action; Ajita – unconquered; Kṛṣṇa – the dark one, also Kṛṣṇa Dvaipāyana Vyāsa; Dṛḍha – firm; Saṅkarṣaṇa Acyuta – the unfailing one who draws all into himself; Varuṇa – who, like the setting sun, gathers in the rays; Vāruṇa – son of Varuṇa, as the sage Vasiṣṭha; Vṛkṣa – firm as a tree; Puṣkarākṣa – lotus-eyed; Mahāmanāḥ – of great mind.',
+            en: 'Vedhāḥ – the creator; Svāṅga – who is himself his own means of action; Ajita – unconquered; Kṛṣṇa – the dark one, also Kṛṣṇa Dvaipāyana Vyāsa; Dṛḍha – firm; Saṅkarṣaṇa Achyuta – the unfailing one who draws all into himself; Varuṇa – who, like the setting sun, gathers in the rays; Vāruṇa – son of Varuṇa, as the sage Vasiṣṭha; Vṛkṣa – firm as a tree; Puṣkarākṣa – lotus-eyed; Mahāmanāḥ – of great mind.',
             kn: 'ವೇಧಾ – ಸೃಷ್ಟಿಕರ್ತ; ಸ್ವಾಂಗ – ತಾನೇ ತನ್ನ ಕಾರ್ಯಸಾಧನ; ಅಜಿತ – ಸೋಲಿಲ್ಲದವನು; ಕೃಷ್ಣ – ಶ್ಯಾಮಲನು, ಕೃಷ್ಣದ್ವೈಪಾಯನ ವ್ಯಾಸನೂ ಹೌದು; ದೃಢ – ದೃಢನು; ಸಂಕರ್ಷಣೋಽಚ್ಯುತ – ಎಲ್ಲವನ್ನೂ ತನ್ನೆಡೆಗೆ ಸೆಳೆಯುವ ಅಚ್ಯುತ; ವರುಣ – ಅಸ್ತಮಿಸುವ ಸೂರ್ಯನಂತೆ ಕಿರಣಗಳನ್ನು ಹಿಂತೆಗೆಯುವವನು; ವಾರುಣ – ವರುಣಪುತ್ರನಾದ ವಸಿಷ್ಠನೂ ತಾನೇ; ವೃಕ್ಷ – ವೃಕ್ಷದಂತೆ ಸ್ಥಿರನು; ಪುಷ್ಕರಾಕ್ಷ – ಕಮಲನಯನ; ಮಹಾಮನಾ – ಮಹಾ ಮನಸ್ಸಿನವನು.',
           },
         },
@@ -892,7 +892,7 @@ export const vishnuSahasranama: Mantra = {
           n: 68,
           text: 'अर्चिष्मानर्चितः कुम्भो विशुद्धात्मा विशोधनः ।\nअनिरुद्धोऽप्रतिरथः प्रद्युम्नोऽमितविक्रमः ॥',
           meaning: {
-            en: 'Arciṣmān – the radiant; Arcita – the worshipped; Kumbha – the vessel that holds all; Viśuddhātmā – of pure nature; Viśodhana – the purifier; Aniruddha – the unobstructed; Apratiratha – without rival; Pradyumna – of great splendour; Amitavikrama – of boundless valour.',
+            en: 'Arciṣmān – the radiant; Archita – the worshipped; Kumbha – the vessel that holds all; Viśuddhātmā – of pure nature; Viśodhana – the purifier; Aniruddha – the unobstructed; Apratiratha – without rival; Pradyumna – of great splendour; Amitavikrama – of boundless valour.',
             kn: 'ಅರ್ಚಿಷ್ಮಾನ್ – ಪ್ರಕಾಶಮಾನನು; ಅರ್ಚಿತ – ಪೂಜಿತನು; ಕುಂಭ – ಎಲ್ಲವನ್ನೂ ತನ್ನೊಳಗಿಟ್ಟುಕೊಂಡ ಕುಂಭ; ವಿಶುದ್ಧಾತ್ಮಾ – ಪರಿಶುದ್ಧ ಸ್ವರೂಪ; ವಿಶೋಧನ – ಶುದ್ಧಗೊಳಿಸುವವನು; ಅನಿರುದ್ಧ – ತಡೆಯಿಲ್ಲದವನು; ಅಪ್ರತಿರಥ – ಪ್ರತಿಸ್ಪರ್ಧಿಯಿಲ್ಲದವನು; ಪ್ರದ್ಯುಮ್ನ – ಮಹಾ ಕಾಂತಿಯುಳ್ಳವನು; ಅಮಿತವಿಕ್ರಮ – ಅಪಾರ ಪರಾಕ್ರಮಿ.',
           },
         },
@@ -980,7 +980,7 @@ export const vishnuSahasranama: Mantra = {
           n: 79,
           text: 'सुवर्णवर्णो हेमाङ्गो वराङ्गश्चन्दनाङ्गदी ।\nवीरहा विषमः शून्यो घृताशीरचलश्चलः ॥',
           meaning: {
-            en: 'Suvarṇavarṇa – golden-hued; Hemāṅga – of golden limbs; Varāṅga – of excellent limbs; Candanāṅgadī – adorned with sandal paste and armlets; Vīrahā – who slays demon warriors; Viṣama – without equal; Śūnya – empty of every flaw; Ghṛtāśī – free of all cravings; Acala – unmoving; Cala – moving, as the wind.',
+            en: 'Suvarṇavarṇa – golden-hued; Hemāṅga – of golden limbs; Varāṅga – of excellent limbs; Candanāṅgadī – adorned with sandal paste and armlets; Vīrahā – who slays demon warriors; Viṣama – without equal; Śūnya – empty of every flaw; Ghṛtāśī – free of all cravings; Achala – unmoving; Chala – moving, as the wind.',
             kn: 'ಸುವರ್ಣವರ್ಣ – ಸ್ವರ್ಣವರ್ಣನು; ಹೇಮಾಂಗ – ಚಿನ್ನದಂತಹ ಅಂಗಗಳವನು; ವರಾಂಗ – ಶ್ರೇಷ್ಠ ಅಂಗಗಳವನು; ಚಂದನಾಂಗದೀ – ಗಂಧ ಮತ್ತು ತೋಳ್ಬಂದಿಗಳಿಂದ ಅಲಂಕೃತನು; ವೀರಹಾ – ದೈತ್ಯವೀರರನ್ನು ಕೊಂದವನು; ವಿಷಮ – ಸಮಾನರಿಲ್ಲದವನು; ಶೂನ್ಯ – ಯಾವ ದೋಷವೂ ಇಲ್ಲದವನು; ಘೃತಾಶೀ – ಆಸೆಗಳಿಲ್ಲದವನು; ಅಚಲ – ಅಚಲನು; ಚಲ – ವಾಯುವಿನಂತೆ ಚಲಿಸುವವನು.',
           },
         },
@@ -1028,7 +1028,7 @@ export const vishnuSahasranama: Mantra = {
           n: 85,
           text: 'उद्भवः सुन्दरः सुन्दो रत्ननाभः सुलोचनः ।\nअर्को वाजसनः शृङ्गी जयन्तः सर्वविज्जयी ॥',
           meaning: {
-            en: 'Udbhava – of exalted birth by his own will; Sundara – beautiful; Sunda – tender with compassion; Ratnanābha – with a navel like a jewel; Sulocana – of beautiful eyes; Arka – worthy of worship like the sun; Vājasana – giver of food; Śṛṅgī – horned, as the Fish; Jayanta – the victorious; Sarvavijjayī – all-knowing and all-conquering.',
+            en: 'Udbhava – of exalted birth by his own will; Sundara – beautiful; Sunda – tender with compassion; Ratnanābha – with a navel like a jewel; Sulochana – of beautiful eyes; Arka – worthy of worship like the sun; Vājasana – giver of food; Śṛṅgī – horned, as the Fish; Jayanta – the victorious; Sarvavijjayī – all-knowing and all-conquering.',
             kn: 'ಉದ್ಭವ – ಸ್ವೇಚ್ಛೆಯಿಂದ ಶ್ರೇಷ್ಠ ಜನ್ಮ ತಾಳುವವನು; ಸುಂದರ – ಸುಂದರನು; ಸುಂದ – ಕರುಣೆಯಿಂದ ಆರ್ದ್ರನು; ರತ್ನನಾಭ – ರತ್ನದಂತಹ ನಾಭಿಯವನು; ಸುಲೋಚನ – ಸುಂದರ ಕಣ್ಣುಗಳವನು; ಅರ್ಕ – ಸೂರ್ಯನಂತೆ ಪೂಜ್ಯನು; ವಾಜಸನ – ಅನ್ನ ಕೊಡುವವನು; ಶೃಂಗೀ – ಮತ್ಸ್ಯರೂಪದಲ್ಲಿ ಕೊಂಬುಳ್ಳವನು; ಜಯಂತ – ಜಯಶಾಲಿ; ಸರ್ವವಿಜ್ಜಯೀ – ಸರ್ವಜ್ಞನೂ ಸರ್ವಜಯಿಯೂ.',
           },
         },
@@ -1060,7 +1060,7 @@ export const vishnuSahasranama: Mantra = {
           n: 89,
           text: 'सहस्रार्चिः सप्तजिह्वः सप्तैधाः सप्तवाहनः ।\nअमूर्तिरनघोऽचिन्त्यो भयकृद्भयनाशनः ॥',
           meaning: {
-            en: 'Sahasrārci – thousand-rayed; Saptajihva – seven-tongued, as fire; Saptaidhāḥ – of seven flames; Saptavāhana – drawn by seven horses, as the sun; Amūrti – formless; Anagha – sinless; Acintya – beyond thought; Bhayakṛt – who strikes fear into the wicked; Bhayanāśana – who removes the fear of the good.',
+            en: 'Sahasrārci – thousand-rayed; Saptajihva – seven-tongued, as fire; Saptaidhāḥ – of seven flames; Saptavāhana – drawn by seven horses, as the sun; Amūrti – formless; Anagha – sinless; Achintya – beyond thought; Bhayakṛt – who strikes fear into the wicked; Bhayanāśana – who removes the fear of the good.',
             kn: 'ಸಹಸ್ರಾರ್ಚಿ – ಸಾವಿರ ಕಿರಣಗಳವನು; ಸಪ್ತಜಿಹ್ವ – ಅಗ್ನಿರೂಪದಲ್ಲಿ ಏಳು ನಾಲಗೆಗಳವನು; ಸಪ್ತೈಧಾ – ಏಳು ಜ್ವಾಲೆಗಳವನು; ಸಪ್ತವಾಹನ – ಸೂರ್ಯರೂಪದಲ್ಲಿ ಏಳು ಕುದುರೆಗಳವನು; ಅಮೂರ್ತಿ – ಆಕಾರವಿಲ್ಲದವನು; ಅನಘ – ಪಾಪರಹಿತನು; ಅಚಿಂತ್ಯ – ಚಿಂತನೆಗೆ ಮೀರಿದವನು; ಭಯಕೃತ್ – ದುಷ್ಟರಿಗೆ ಭಯ ಹುಟ್ಟಿಸುವವನು; ಭಯನಾಶನ – ಸಜ್ಜನರ ಭಯವನ್ನು ನಾಶಮಾಡುವವನು.',
           },
         },
@@ -1100,7 +1100,7 @@ export const vishnuSahasranama: Mantra = {
           n: 94,
           text: 'विहायसगतिर्ज्योतिः सुरुचिर्हुतभुग्विभुः ।\nरविर्विरोचनः सूर्यः सविता रविलोचनः ॥',
           meaning: {
-            en: 'Vihāyasagati – who moves through the sky; Jyoti – light itself; Suruci – of lovely lustre; Hutabhuk – who receives the oblations; Vibhu – all-pervading; Ravi – the sun; Virocana – who shines in many ways; Sūrya – who brings forth all; Savitā – the progenitor; Ravilocana – whose eye is the sun.',
+            en: 'Vihāyasagati – who moves through the sky; Jyoti – light itself; Suruchi – of lovely lustre; Hutabhuk – who receives the oblations; Vibhu – all-pervading; Ravi – the sun; Virochana – who shines in many ways; Sūrya – who brings forth all; Savitā – the progenitor; Ravilochana – whose eye is the sun.',
             kn: 'ವಿಹಾಯಸಗತಿ – ಆಕಾಶದಲ್ಲಿ ಸಂಚರಿಸುವವನು; ಜ್ಯೋತಿ – ಜ್ಯೋತಿಸ್ವರೂಪ; ಸುರುಚಿ – ಸುಂದರ ಕಾಂತಿಯವನು; ಹುತಭುಕ್ – ಹವಿಸ್ಸನ್ನು ಸ್ವೀಕರಿಸುವವನು; ವಿಭು – ಸರ್ವವ್ಯಾಪಿ; ರವಿ – ಸೂರ್ಯ; ವಿರೋಚನ – ವಿವಿಧವಾಗಿ ಪ್ರಕಾಶಿಸುವವನು; ಸೂರ್ಯ – ಎಲ್ಲವನ್ನೂ ಹುಟ್ಟಿಸುವವನು; ಸವಿತಾ – ಜನಕನು; ರವಿಲೋಚನ – ಸೂರ್ಯನೇ ಕಣ್ಣಾದವನು.',
           },
         },
@@ -1359,7 +1359,7 @@ export const vishnuSahasranama: Mantra = {
           n: 17,
           text: 'सर्वागमानामाचारः प्रथमं परिकल्पते ।\nआचारप्रभवो धर्मो धर्मस्य प्रभुरच्युतः ॥',
           meaning: {
-            en: 'Of all teachings, right conduct is placed first; dharma springs from right conduct, and the Lord of dharma is Acyuta.',
+            en: 'Of all teachings, right conduct is placed first; dharma springs from right conduct, and the Lord of dharma is Achyuta.',
             kn: 'ಎಲ್ಲ ಶಾಸ್ತ್ರಗಳಲ್ಲಿ ಆಚಾರಕ್ಕೇ ಮೊದಲ ಸ್ಥಾನ; ಆಚಾರದಿಂದ ಧರ್ಮ ಹುಟ್ಟುತ್ತದೆ; ಧರ್ಮದ ಒಡೆಯನು ಅಚ್ಯುತನು.',
           },
         },

@@ -232,7 +232,7 @@ export const enSundara1: MeaningPack = {
         '0.6': 'The radiant Hanuman, bull among monkeys, passed over tree-clad hills and lines of flowering woodland.',
         '0.7': 'Standing on that mountain, the son of the Wind saw forests and groves, and Lanka set on the mountain top.',
         '0.8': 'He saw sarala, karnikara and date-palms in full bloom, priyala, muchulinda, kutaja and ketaka trees,',
-        '0.9': 'fragrant priyangu, nipa and saptacchada trees, asana, kovidara and flowering karavira,',
+        '0.9': 'fragrant priyangu, nipa and saptachchhada trees, asana, kovidara and flowering karavira,',
         '0.10': 'trees laden with clusters of flowers or still in bud, full of birds, their tops swaying in the wind;',
         '0.11': 'ponds full of swans and karandava ducks, covered with lotuses and lilies, many delightful pleasure-grounds and lakes,',
         '0.12': 'and lovely gardens filled with many trees bearing fruit and flowers in every season — all these the elephant among monkeys saw.',

@@ -50,7 +50,7 @@ export const harikathamrutasara11: Mantra = {
   summaryKn: "ಶ್ರೀ ಜಗನ್ನಾಥದಾಸರ ಹರಿಕಥಾಮೃತಸಾರದ 11ನೇ ಸಂಧಿ (ಧ್ಯಾನಪ್ರಕ್ರಿಯಾ ಸಂಧಿ).",
   difficulty: 'medium',
   completeness: 'complete',
-  contentNote: "Every verse checked against page images of the Bemmatti Venkatesacharya mula edition and against the mula printed in the Sri Sankarshana Odeyar and Bhavaprakashike (Padmanabha Dasa) commentary editions, with the typed copies as further witnesses (see the file header); the readings follow the printed editions and the metre. Verse numbering follows the standard printed edition. Where the printed editions differ: 11.10 ಕಾರಣಾಹ್ವಯ (Bemmatti, Bhavaprakashike; Odeyar ಕಾರಕ); 11.18 ಕೀಚಕಾರಿಪ್ರೀಯ (Odeyar, kept for the metre; Bemmatti and Bhavaprakashike ಪ್ರಿಯ).",
+  contentNote: "Every verse checked against page images of the Bemmatti Venkatesacharya mula edition and against the mula printed in the Sri Sankarshana Odeyar and Bhavaprakashike (Padmanabha Dasa) commentary editions, with the typed copies as further witnesses (see the file header); the readings follow the printed editions and the metre. Verse numbering follows the standard printed edition. Where the printed editions differ: 11.10 कारणाह्वय (Bemmatti, Bhavaprakashike; Odeyar कारक); 11.18 कीचकारिप्रीय (Odeyar, kept for the metre; Bemmatti and Bhavaprakashike प्रिय).",
   sections: [
     {
       title: "ಧ್ಯಾನಪ್ರಕ್ರಿಯಾ ಸಂಧಿ",
@@ -244,7 +244,7 @@ export const harikathamrutasara14: Mantra = {
   summaryKn: "ಶ್ರೀ ಜಗನ್ನಾಥದಾಸರ ಹರಿಕಥಾಮೃತಸಾರದ 14ನೇ ಸಂಧಿ (ಪಿತೃಗಣವಿಚಾರ ಸಂಧಿ).",
   difficulty: 'medium',
   completeness: 'complete',
-  contentNote: "Every verse checked against page images of the Bemmatti Venkatesacharya mula edition and against the mula printed in the Sri Sankarshana Odeyar and Bhavaprakashike (Padmanabha Dasa) commentary editions, with the typed copies as further witnesses (see the file header); the readings follow the printed editions and the metre. Verse numbering follows the standard printed edition. Where the printed editions differ: 14.6 ಸಂಶಯದಲಿ (Bemmatti, Bhavaprakashike; Odeyar ಸಾಂಶದಲಿ). The counts of forms (24, 33, 36 and 3, in all 96) follow the commentaries.",
+  contentNote: "Every verse checked against page images of the Bemmatti Venkatesacharya mula edition and against the mula printed in the Sri Sankarshana Odeyar and Bhavaprakashike (Padmanabha Dasa) commentary editions, with the typed copies as further witnesses (see the file header); the readings follow the printed editions and the metre. Verse numbering follows the standard printed edition. Where the printed editions differ: 14.6 संशयदलि (Bemmatti, Bhavaprakashike; Odeyar सांशदलि). The counts of forms (24, 33, 36 and 3, in all 96) follow the commentaries.",
   sections: [
     {
       title: "ಪಿತೃಗಣವಿಚಾರ ಸಂಧಿ",
@@ -468,7 +468,7 @@ export const harikathamrutasara18: Mantra = {
   summaryKn: "ಶ್ರೀ ಜಗನ್ನಾಥದಾಸರ ಹರಿಕಥಾಮೃತಸಾರದ 18ನೇ ಸಂಧಿ (ಕ್ರೀಡಾವಿಲಾಸ ಸಂಧಿ (ಸರ್ವಸ್ವಾತಂತ್ರ್ಯ)).",
   difficulty: 'medium',
   completeness: 'complete',
-  contentNote: "Every verse checked against page images of the Bemmatti Venkatesacharya mula edition and against the mula printed in the Sri Sankarshana Odeyar and Bhavaprakashike (Padmanabha Dasa) commentary editions, with the typed copies as further witnesses (see the file header); the readings follow the printed editions and the metre. Verse numbering follows the standard printed edition. Bemmatti prints an introductory verse (Shaunaka and Suta) before verse 1; it is an editor's addition and is not included. Where the printed editions differ: 18.33 ಈರ್ದಲೆಯು (Bhavaprakashike) against ಇದ್ದಲೆಯು (Bemmatti, Odeyar); noted in the meaning.",
+  contentNote: "Every verse checked against page images of the Bemmatti Venkatesacharya mula edition and against the mula printed in the Sri Sankarshana Odeyar and Bhavaprakashike (Padmanabha Dasa) commentary editions, with the typed copies as further witnesses (see the file header); the readings follow the printed editions and the metre. Verse numbering follows the standard printed edition. Bemmatti prints an introductory verse (Shaunaka and Suta) before verse 1; it is an editor's addition and is not included. Where the printed editions differ: 18.33 ईर्दलॆयु (Bhavaprakashike) against इद्दलॆयु (Bemmatti, Odeyar); noted in the meaning.",
   sections: [
     {
       title: "ಕ್ರೀಡಾವಿಲಾಸ ಸಂಧಿ (ಸರ್ವಸ್ವಾತಂತ್ರ್ಯ)",
@@ -536,7 +536,7 @@ export const harikathamrutasara19: Mantra = {
   summaryKn: "ಶ್ರೀ ಜಗನ್ನಾಥದಾಸರ ಹರಿಕಥಾಮೃತಸಾರದ 19ನೇ ಸಂಧಿ (ಕರ್ಮವಿಮೋಚನ ಸಂಧಿ).",
   difficulty: 'medium',
   completeness: 'complete',
-  contentNote: "Every verse checked against page images of the Bemmatti Venkatesacharya mula edition and against the mula printed in the Sri Sankarshana Odeyar and Bhavaprakashike (Padmanabha Dasa) commentary editions, with the typed copies as further witnesses (see the file header); the readings follow the printed editions and the metre. Verse numbering follows the standard printed edition. Where the printed editions differ: 19.16 follows Bemmatti and the Bhavaprakashike (Odeyar has another wording); 19.20-24 follow the order of Bemmatti and the Bhavaprakashike (Odeyar orders these five verses differently; Bemmatti also numbers two verses 23 and skips 29); 19.33 ಜ್ಞಾತಜನರಿಲ್ಲ (Odeyar) against ಅಜ್ಞಾತಜನರಿಲ್ಲ (Bhavaprakashike).",
+  contentNote: "Every verse checked against page images of the Bemmatti Venkatesacharya mula edition and against the mula printed in the Sri Sankarshana Odeyar and Bhavaprakashike (Padmanabha Dasa) commentary editions, with the typed copies as further witnesses (see the file header); the readings follow the printed editions and the metre. Verse numbering follows the standard printed edition. Where the printed editions differ: 19.16 follows Bemmatti and the Bhavaprakashike (Odeyar has another wording); 19.20-24 follow the order of Bemmatti and the Bhavaprakashike (Odeyar orders these five verses differently; Bemmatti also numbers two verses 23 and skips 29); 19.33 ज्ञातजनरिल्ल (Odeyar) against अज्ञातजनरिल्ल (Bhavaprakashike).",
   sections: [
     {
       title: "ಕರ್ಮವಿಮೋಚನ ಸಂಧಿ",
@@ -599,7 +599,7 @@ export const harikathamrutasara20: Mantra = {
   summaryKn: "ಶ್ರೀ ಜಗನ್ನಾಥದಾಸರ ಹರಿಕಥಾಮೃತಸಾರದ 20ನೇ ಸಂಧಿ (ಗುಣತಾರತಮ್ಯ ಸಂಧಿ).",
   difficulty: 'medium',
   completeness: 'complete',
-  contentNote: "Every verse checked against page images of the Bemmatti Venkatesacharya mula edition and against the mula printed in the Sri Sankarshana Odeyar and Bhavaprakashike (Padmanabha Dasa) commentary editions, with the typed copies as further witnesses (see the file header); the readings follow the printed editions and the metre. Verse numbering follows the standard printed edition. Where the printed editions differ: 20.2 Bhavaprakashike ದೂರವರ್ಜಿತ / ಪ್ರತ್ಯಗಾತ್ಮ for Bemmatti ದೋಷವರ್ಜಿತ / ಸ್ತುತ್ಯ ಪೂಜ್ಯ (Bemmatti kept); 20.20 ಯುವತಿದ್ಯೂತಾಪೇಯದಲಿ (Bhavaprakashike; Bemmatti drops ದಲಿ, short of the metre); 20.21 lines 2 and 6 follow the Bhavaprakashike (ಸಗ್ಗವೊಳೆಯಾಣ್ಮಾಲಯನು, ಬಾನ್ನವಿರಸಖ), Bemmatti prints ಸಗ್ಗಾವಳಿಯ ಆಣ್ಮಲಯನು, ಜಾಹ್ನವಿ ಸಖ; 20.26 ಈಯಲೆಂದು (Bemmatti; Bhavaprakashike ಕೊಡಲೆಂದು, same sense); 20.29 ಪ್ರಾಜ್ಞರಿದು (Bhavaprakashike, for the metre; Bemmatti ಪ್ರಾಜ್ಞರಿಂದ).",
+  contentNote: "Every verse checked against page images of the Bemmatti Venkatesacharya mula edition and against the mula printed in the Sri Sankarshana Odeyar and Bhavaprakashike (Padmanabha Dasa) commentary editions, with the typed copies as further witnesses (see the file header); the readings follow the printed editions and the metre. Verse numbering follows the standard printed edition. Where the printed editions differ: 20.2 Bhavaprakashike दूरवर्जित / प्रत्यगात्म for Bemmatti दोषवर्जित / स्तुत्य पूज्य (Bemmatti kept); 20.20 युवतिद्यूतापेयदलि (Bhavaprakashike; Bemmatti drops दलि, short of the metre); 20.21 lines 2 and 6 follow the Bhavaprakashike (सग्गवॊळॆयाण्मालयनु, बान्नविरसख), Bemmatti prints सग्गावळिय आण्मलयनु, जाह्नवि सख; 20.26 ईयलॆंदु (Bemmatti; Bhavaprakashike कॊडलॆंदु, same sense); 20.29 प्राज्ञरिदु (Bhavaprakashike, for the metre; Bemmatti प्राज्ञरिंद).",
   sections: [
     {
       title: "ಗುಣತಾರತಮ್ಯ ಸಂಧಿ",

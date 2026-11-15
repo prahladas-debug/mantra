@@ -212,7 +212,7 @@ export const adityaHridayam: Mantra = {
           n: 19,
           text: 'ब्रह्मेशानाच्युतेशाय सूर्यायादित्यवर्चसे ।\nभास्वते सर्वभक्षाय रौद्राय वपुषे नमः ॥',
           meaning: {
-            en: 'Salutations to the Sun, ruler even over Brahmā, Śiva and Acyuta, who shines with the splendour of Āditya; to the brilliant one who consumes all things, whose form is fierce like Rudra.',
+            en: 'Salutations to the Sun, ruler even over Brahmā, Śiva and Achyuta, who shines with the splendour of Āditya; to the brilliant one who consumes all things, whose form is fierce like Rudra.',
             kn: 'ಬ್ರಹ್ಮ, ಈಶಾನ, ಅಚ್ಯುತರಿಗೂ ಒಡೆಯನಾದ, ಆದಿತ್ಯತೇಜಸ್ಸಿನಿಂದ ಹೊಳೆಯುವ ಸೂರ್ಯನಿಗೆ ನಮಸ್ಕಾರ. ಪ್ರಕಾಶಮಾನನಾಗಿ ಎಲ್ಲವನ್ನೂ ಕಬಳಿಸುವ ರುದ್ರರೂಪನಿಗೆ ನಮಸ್ಕಾರ.',
           },
         },

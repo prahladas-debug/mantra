@@ -25,13 +25,13 @@ export const dpTugireRayara: Mantra = {
   deity: 'Sri Raghavendra Tirtha',
   source: 'Guru Jagannatha Dasa',
   summary:
-    'A cradle song: the women are asked to rock Rayaru, Sri Raghavendra Tirtha, gem of the line of ascetics, lying in a lovely golden cradle. Each carana names one of his glories: he sings the praise of Govinda; he enters yoga-nidra and is worshipped by great yogis; he grants the wishes of those who come to him and drives away the illnesses of his own; he upheld Madhva\'s teaching against Advaita; and he gives his devotees their true goal, ever singing the praise of Gurujagannatha Vittala\'s feet.',
+    'A cradle song: the women are asked to rock Rayaru, Sri Raghavendra Tirtha, gem of the line of ascetics, lying in a lovely golden cradle. Each charana names one of his glories: he sings the praise of Govinda; he enters yoga-nidra and is worshipped by great yogis; he grants the wishes of those who come to him and drives away the illnesses of his own; he upheld Madhva\'s teaching against Advaita; and he gives his devotees their true goal, ever singing the praise of Gurujagannatha Vittala\'s feet.',
   summaryKn:
     'ತೊಟ್ಟಿಲ ಹಾಡು: ಚಿನ್ನದ ಚಂದದ ತೊಟ್ಟಿಲಲ್ಲಿ ಮಲಗಿರುವ ಯತಿಕುಲತಿಲಕರಾದ ಶ್ರೀರಾಘವೇಂದ್ರತೀರ್ಥರನ್ನು ತೂಗಿರೆ ಎಂದು ಹೆಂಗಳೆಯರನ್ನು ಕರೆಯುವ ಹಾಡು. ಒಂದೊಂದು ಚರಣದಲ್ಲಿ ರಾಯರ ಒಂದೊಂದು ಮಹಿಮೆ: ಗೋವಿಂದನನ್ನು ಭಜಿಸುವವರು, ಯೋಗನಿದ್ರೆಯಲ್ಲಿರುವ ಯೋಗೀಶವಂದ್ಯರು, ಬೇಡಿದವರಿಗೆ ಇಷ್ಟಾರ್ಥ ಕೊಟ್ಟು ತಮ್ಮವರ ರೋಗಗಳನ್ನು ಕಳೆಯುವವರು, ಅದ್ವೈತಮತವನ್ನು ಖಂಡಿಸಿ ಮಧ್ವಮತವನ್ನು ಉದ್ಧರಿಸಿದವರು, ಭಕ್ತರಿಗೆ ನಿಜಗತಿ ಕೊಡುವವರು.',
   difficulty: 'easy',
   completeness: 'partial',
   contentNote:
-    'No printed edition of this song was found. The text is collated from three typed copies (madhwafestivals.com and two copies on the Rao collections blog); two copies agree on every line kept. One copy lacks the third carana and another the fourth.',
+    'No printed edition of this song was found. The text is collated from three typed copies (madhwafestivals.com and two copies on the Rao collections blog); two copies agree on every line kept. One copy lacks the third charana and another the fourth.',
   sections: [
     {
       title: 'ಪಲ್ಲವಿ',
@@ -61,7 +61,7 @@ export const dpTugireRayara: Mantra = {
     },
     {
       title: 'ಚರಣಗಳು',
-      titleEn: 'Caranas',
+      titleEn: 'Charanas',
       verses: [
         {
           n: 1,

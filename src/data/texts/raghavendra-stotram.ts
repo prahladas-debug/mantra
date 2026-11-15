@@ -160,7 +160,7 @@ export const raghavendraStotram: Mantra = {
           n: 16,
           text: 'ॐ श्रीराघवेन्द्राय नमः इत्यष्टाक्षरमन्त्रतः ।\nजपिताद्भावितान्नित्यमिष्टार्थाः स्युर्न संशयः ॥',
           meaning: {
-            en: 'By the eight-syllable mantra \'Oṁ Śrī Rāghavendrāya namaḥ\', chanted and meditated upon every day, all desired goals are attained; of this there is no doubt.',
+            en: 'By the eight-syllable mantra \'Oṃ Śrī Rāghavendrāya namaḥ\', chanted and meditated upon every day, all desired goals are attained; of this there is no doubt.',
             kn: '“ಓಂ ಶ್ರೀರಾಘವೇಂದ್ರಾಯ ನಮಃ” ಎಂಬ ಅಷ್ಟಾಕ್ಷರ ಮಂತ್ರವನ್ನು ನಿತ್ಯವೂ ಜಪಿಸಿ ಧ್ಯಾನಿಸುವುದರಿಂದ ಇಷ್ಟಾರ್ಥಗಳೆಲ್ಲ ಸಿದ್ಧಿಸುತ್ತವೆ; ಇದರಲ್ಲಿ ಸಂಶಯವಿಲ್ಲ.',
           },
         },

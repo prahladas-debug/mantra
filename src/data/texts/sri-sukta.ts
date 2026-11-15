@@ -291,7 +291,7 @@ export const sriSukta: Mantra = {
           n: 33,
           text: 'विष्णुपत्नीं क्षमां देवीं माधवीं माधवप्रियाम् ।\nविष्णोः प्रियसखीं देवीं नमाम्यच्युतवल्लभाम् ॥',
           meaning: {
-            en: 'I bow to the Goddess, consort of Viṣṇu, forbearing as the earth, Mādhavī, dear to Mādhava, the beloved companion of Viṣṇu, the darling of Acyuta.',
+            en: 'I bow to the Goddess, consort of Viṣṇu, forbearing as the earth, Mādhavī, dear to Mādhava, the beloved companion of Viṣṇu, the darling of Achyuta.',
             kn: 'ಶ್ರೀವಿಷ್ಣುವಿನ ಪತ್ನಿಯೂ, ಭೂಮಿಯಂತೆ ಸಹನಶೀಲೆಯೂ, ಮಾಧವಿಯೂ, ಮಾಧವನ ಪ್ರಿಯೆಯೂ, ವಿಷ್ಣುವಿನ ಪ್ರಿಯಸಖಿಯೂ, ಅಚ್ಯುತನ ವಲ್ಲಭೆಯೂ ಆದ ದೇವಿಗೆ ನಾನು ನಮಿಸುತ್ತೇನೆ.',
           },
         },

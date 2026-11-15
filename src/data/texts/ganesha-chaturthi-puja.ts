@@ -63,12 +63,12 @@ export const ganeshaChaturthiPuja: Mantra = {
   ],
   difficulty: "medium",
   completeness: "partial",
-  contentNote: "Gives only what is specific to this vrata. Acamana, pranayama, the full desha-kala sankalpa, kalasha puja and the sixteen upacharas (asana to pradakshina) are as in the Shodashopachara Puja text, with the deity name changed. Left out: prana-pratishtha, the avarana and anga puja, the Ganesha ashtottara (read the 108 names from your manual), the vayana dana and the full Sanskrit Syamantakopakhyana, which is retold in the note to the last section instead.",
+  contentNote: "Gives only what is specific to this vrata. Achamana, pranayama, the full desha-kala sankalpa, kalasha puja and the sixteen upacharas (asana to pradakshina) are as in the Shodashopachara Puja text, with the deity name changed. Left out: prana-pratishtha, the avarana and anga puja, the Ganesha ashtottara (read the 108 names from your manual), the vayana dana and the full Sanskrit Syamantakopakhyana, which is retold in the note to the last section instead.",
   sections: [
     {
       title: "सङ्कल्पः",
       titleEn: "Sankalpa (Madhva)",
-      note: "Ganesha Chaturthi falls on Bhadrapada shukla chaturthi; in Karnataka Swarna Gauri is worshipped the day before. Bring a clay image, keep 21 modakas (kadubu), 21 kinds of leaves and durva ready, and worship the family shalagrama first. Do acamana, pranayama and the desha-kala part of the sankalpa as in the Shodashopachara Puja, then say this. In the Madhva manner the puja is offered to Sri Hari as Vishvambhara, dwelling within Vayu who dwells within Ganesha. This is the Raghavendra Matha wording; followers of other mathas name the guru their manual gives.",
+      note: "Ganesha Chaturthi falls on Bhadrapada shukla chaturthi; in Karnataka Swarna Gauri is worshipped the day before. Bring a clay image, keep 21 modakas (kadubu), 21 kinds of leaves and durva ready, and worship the family shalagrama first. Do achamana, pranayama and the desha-kala part of the sankalpa as in the Shodashopachara Puja, then say this. In the Madhva manner the puja is offered to Sri Hari as Vishvambhara, dwelling within Vayu who dwells within Ganesha. This is the Raghavendra Matha wording; followers of other mathas name the guru their manual gives.",
       noteKn: "ಭಾದ್ರಪದ ಶುಕ್ಲ ಚತುರ್ಥಿಯಂದು ಗಣೇಶ ಚತುರ್ಥಿ; ಕರ್ನಾಟಕದಲ್ಲಿ ಹಿಂದಿನ ದಿನ ಸ್ವರ್ಣಗೌರಿ ಪೂಜೆ. ಮಣ್ಣಿನ ಮೂರ್ತಿ, ಇಪ್ಪತ್ತೊಂದು ಕಡುಬು (ಮೋದಕ), ಇಪ್ಪತ್ತೊಂದು ಬಗೆಯ ಪತ್ರೆ ಮತ್ತು ಗರಿಕೆಯನ್ನು ಸಿದ್ಧಪಡಿಸಿ; ಮೊದಲು ಮನೆಯ ಸಾಲಿಗ್ರಾಮ ಪೂಜೆ ಮಾಡಿ. ಆಚಮನ, ಪ್ರಾಣಾಯಾಮ ಮತ್ತು ದೇಶಕಾಲ ಸಂಕೀರ್ತನೆಯನ್ನು ಷೋಡಶೋಪಚಾರ ಪೂಜೆಯಂತೆ ಮಾಡಿ ಇದನ್ನು ಹೇಳಿ. ಮಾಧ್ವ ಕ್ರಮದಲ್ಲಿ ಗಣಪತಿಯ ಅಂತರ್ಗತ ಮುಖ್ಯಪ್ರಾಣನ ಅಂತರ್ಗತನಾದ ವಿಶ್ವಂಭರ ನಾಮಕ ಶ್ರೀಹರಿಗೆ ಪೂಜೆ. ಇದು ರಾಘವೇಂದ್ರ ಮಠದ ಪಾಠ; ಬೇರೆ ಮಠದವರು ತಮ್ಮ ಪುಸ್ತಕದಲ್ಲಿರುವ ಗುರುಗಳ ಹೆಸರನ್ನು ಹೇಳುತ್ತಾರೆ.",
       when: {
         tradition: [
@@ -88,7 +88,7 @@ export const ganeshaChaturthiPuja: Mantra = {
     {
       title: "सङ्कल्पः",
       titleEn: "Sankalpa (Smarta)",
-      note: "Ganesha Chaturthi falls on Bhadrapada shukla chaturthi; in Karnataka Swarna Gauri is worshipped the day before. Bring a clay image, keep 21 modakas (kadubu), 21 kinds of leaves and durva ready. Do acamana, pranayama and the desha-kala part of the sankalpa as in the Shodashopachara Puja, then say this. Many Smarta books add Mahaganapati puja and prana-pratishtha here.",
+      note: "Ganesha Chaturthi falls on Bhadrapada shukla chaturthi; in Karnataka Swarna Gauri is worshipped the day before. Bring a clay image, keep 21 modakas (kadubu), 21 kinds of leaves and durva ready. Do achamana, pranayama and the desha-kala part of the sankalpa as in the Shodashopachara Puja, then say this. Many Smarta books add Mahaganapati puja and prana-pratishtha here.",
       noteKn: "ಭಾದ್ರಪದ ಶುಕ್ಲ ಚತುರ್ಥಿಯಂದು ಗಣೇಶ ಚತುರ್ಥಿ; ಕರ್ನಾಟಕದಲ್ಲಿ ಹಿಂದಿನ ದಿನ ಸ್ವರ್ಣಗೌರಿ ಪೂಜೆ. ಮಣ್ಣಿನ ಮೂರ್ತಿ, ಇಪ್ಪತ್ತೊಂದು ಕಡುಬು, ಇಪ್ಪತ್ತೊಂದು ಬಗೆಯ ಪತ್ರೆ ಮತ್ತು ಗರಿಕೆಯನ್ನು ಸಿದ್ಧಪಡಿಸಿ. ಆಚಮನ, ಪ್ರಾಣಾಯಾಮ, ದೇಶಕಾಲ ಸಂಕೀರ್ತನೆಯನ್ನು ಷೋಡಶೋಪಚಾರ ಪೂಜೆಯಂತೆ ಮಾಡಿ ಇದನ್ನು ಹೇಳಿ. ಅನೇಕ ಸ್ಮಾರ್ತ ಪುಸ್ತಕಗಳಲ್ಲಿ ಇಲ್ಲಿ ಮಹಾಗಣಪತಿ ಪೂಜೆ ಮತ್ತು ಪ್ರಾಣಪ್ರತಿಷ್ಠೆ ಇದೆ.",
       when: {
         tradition: [

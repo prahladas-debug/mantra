@@ -55,7 +55,7 @@ export const gauriVrata: Mantra = {
   ],
   difficulty: "medium",
   completeness: "partial",
-  contentNote: "Gives only what is specific to this vrata. Acamana, pranayama, desha-kala sankalpa, Mahaganapati puja, kalasha puja and the sixteen upacharas are as in the Shodashopachara Puja text, with the deity name changed. Left out: prana-pratishtha, the Gauri ashtottara (read it from your manual), the Smarta dhyana and avahana verses (books differ), the Vedic avahana mantra, the udyapana, and the Sanskrit verses of the Skanda Purana katha, which are retold in the note of the last section because only a damaged scan was available.",
+  contentNote: "Gives only what is specific to this vrata. Achamana, pranayama, desha-kala sankalpa, Mahaganapati puja, kalasha puja and the sixteen upacharas are as in the Shodashopachara Puja text, with the deity name changed. Left out: prana-pratishtha, the Gauri ashtottara (read it from your manual), the Smarta dhyana and avahana verses (books differ), the Vedic avahana mantra, the udyapana, and the Sanskrit verses of the Skanda Purana katha, which are retold in the note of the last section because only a damaged scan was available.",
   sections: [
     {
       title: "सङ्कल्पः",

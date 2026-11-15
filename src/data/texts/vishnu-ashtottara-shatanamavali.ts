@@ -107,7 +107,7 @@ const NAMES: [string, string, string][] = [
   ['मोहनाशनाय', 'the destroyer of delusion', 'ಮೋಹವನ್ನು ನಾಶಮಾಡುವವನು'],
   ['दैत्यारये', 'the foe of the Daityas', 'ದೈತ್ಯರ ಶತ್ರು'],
   ['पुण्डरीकाक्षाय', 'the lotus-eyed', 'ಕಮಲದಂತಹ ಕಣ್ಣುಗಳುಳ್ಳವನು'],
-  ['अच्युताय', 'Acyuta, who never falls from his nature', 'ತನ್ನ ಸ್ವರೂಪದಿಂದ ಎಂದೂ ಚ್ಯುತನಾಗದ ಅಚ್ಯುತ'],
+  ['अच्युताय', 'Achyuta, who never falls from his nature', 'ತನ್ನ ಸ್ವರೂಪದಿಂದ ಎಂದೂ ಚ್ಯುತನಾಗದ ಅಚ್ಯುತ'],
   ['मधुसूदनाय', 'the slayer of the demon Madhu', 'ಮಧುವೆಂಬ ದೈತ್ಯನನ್ನು ಸಂಹರಿಸಿದವನು'],
   ['सोमसूर्याग्निनयनाय', 'whose eyes are the moon, the sun and fire', 'ಚಂದ್ರ, ಸೂರ್ಯ, ಅಗ್ನಿಗಳನ್ನೇ ಕಣ್ಣುಗಳಾಗಿ ಉಳ್ಳವನು'],
   ['नृसिंहाय', 'the Man-Lion', 'ನರಸಿಂಹನು'],

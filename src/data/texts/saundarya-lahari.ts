@@ -551,7 +551,7 @@ export const saundaryaLahari: Mantra = {
           n: 63,
           text: 'स्मितज्योत्स्नाजालं तव वदनचन्द्रस्य पिबतां\nचकोराणामासीदतिरसतया चञ्चुजडिमा ।\nअतस्ते शीतांशोरमृतलहरीमम्लरुचयः\nपिबन्ति स्वच्छन्दं निशि निशि भृशं काञ्जिकधिया ॥',
           meaning: {
-            en: 'The cakora birds, drinking the moonlight of the smile on your moon-like face, found their beaks numbed by its sweetness; so now, craving something sour, they drink the moon’s nectar night after night as if it were sour gruel.',
+            en: 'The chakora birds, drinking the moonlight of the smile on your moon-like face, found their beaks numbed by its sweetness; so now, craving something sour, they drink the moon’s nectar night after night as if it were sour gruel.',
             kn: 'ನಿನ್ನ ಮುಖಚಂದ್ರನ ಮಂದಹಾಸದ ಬೆಳದಿಂಗಳನ್ನು ಕುಡಿಯುತ್ತಿದ್ದ ಚಕೋರ ಪಕ್ಷಿಗಳ ಕೊಕ್ಕುಗಳು ಅತಿಯಾದ ಸಿಹಿಯಿಂದ ಜಡವಾದವು; ಆದ್ದರಿಂದ ಹುಳಿಯನ್ನು ಬಯಸಿ ಅವು ಪ್ರತಿರಾತ್ರಿಯೂ ಚಂದ್ರನ ಅಮೃತವನ್ನು ಹುಳಿಗಂಜಿಯೆಂದು ಭಾವಿಸಿ ಯಥೇಷ್ಟವಾಗಿ ಕುಡಿಯುತ್ತವೆ.',
           },
         },

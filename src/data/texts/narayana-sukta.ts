@@ -57,7 +57,7 @@ export const narayanaSukta: Mantra = {
           n: 3,
           text: 'पतिं विश्वस्यात्मेश्वरं शाश्वतं शिवमच्युतम् ।\nनारायणं महाज्ञेयं विश्वात्मानं परायणम् ॥',
           meaning: {
-            en: 'He is the master of the universe and the ruler of all souls: eternal, auspicious and never-failing (Acyuta). Nārāyaṇa is the great One to be known, the inner Self of the universe and the final refuge.',
+            en: 'He is the master of the universe and the ruler of all souls: eternal, auspicious and never-failing (Achyuta). Nārāyaṇa is the great One to be known, the inner Self of the universe and the final refuge.',
             kn: 'ಅವನು ಜಗತ್ತಿನ ಒಡೆಯನು, ಎಲ್ಲ ಜೀವಾತ್ಮರ ನಿಯಾಮಕನು, ಶಾಶ್ವತನು, ಮಂಗಳಮಯನು, ಎಂದೂ ಚ್ಯುತನಾಗದ ಅಚ್ಯುತನು. ನಾರಾಯಣನೇ ಎಲ್ಲರೂ ಅರಿಯಬೇಕಾದ ಮಹಾತತ್ತ್ವ; ವಿಶ್ವದ ಅಂತರಾತ್ಮ, ಎಲ್ಲರಿಗೂ ಪರಮ ಆಶ್ರಯ.',
           },
         },

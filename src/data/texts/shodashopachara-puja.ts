@@ -56,7 +56,7 @@ export const shodashopacharaPuja: Mantra = {
       title: 'सङ्कल्पः',
       titleEn: 'Saṅkalpa (resolve)',
       note:
-        'Hold akṣata and water in the right hand. Replace each अमुक with the current saṁvatsara, ayana, ṛtu, māsa, pakṣa, tithi, weekday and nakṣatra from the pañcāṅga, and the deity name as needed. At the end place the akṣata and water in the plate.',
+        'Hold akṣata and water in the right hand. Replace each अमुक with the current saṃvatsara, ayana, ṛtu, māsa, pakṣa, tithi, weekday and nakṣatra from the pañcāṅga, and the deity name as needed. At the end place the akṣata and water in the plate.',
       verses: [
         {
           text:

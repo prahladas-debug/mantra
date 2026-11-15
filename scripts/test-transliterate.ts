@@ -21,6 +21,9 @@ const cases: [Parameters<typeof translit>[1], string, string][] = [
   // anusvara before consonants in Kannada, Telugu, Gujarati.
   ['kannada', 'मन्त्रसङ्ग्रहः गोविन्द शङ्ख पुण्डरीकाक्ष अनन्त', 'ಮಂತ್ರಸಂಗ್ರಹಃ ಗೋವಿಂದ ಶಂಖ ಪುಂಡರೀಕಾಕ್ಷ ಅನಂತ'],
   ['kannada', 'ज्ञान अन्नं सम्यक्', 'ಜ್ಞಾನ ಅನ್ನಂ ಸಮ್ಯಕ್'],
+  // Nasal of another class stays a conjunct (only ङ्क ञ्च ण्ड न्त म्ब become anusvara).
+  ['kannada', 'भवान्भीष्मश्च पुत्रान्पौत्रान्', 'ಭವಾನ್ಭೀಷ್ಮಶ್ಚ ಪುತ್ರಾನ್ಪೌತ್ರಾನ್'],
+  ['telugu', 'भगवान्कमलापतिः', 'భగవాన్కమలాపతిః'],
   ['telugu', 'शान्ताकारं शार्ङ्गधन्वा', 'శాంతాకారం శార్ంగధన్వా'],
   ['gujarati', 'मन्त्र गोविन्द', 'મંત્ર ગોવિંદ'],
   // Malayalam: anusvara only for ṅg/ṅkh/ṅgh/mb/mbh; chillu ൻ word-finally.

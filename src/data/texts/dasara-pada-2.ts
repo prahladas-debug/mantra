@@ -80,7 +80,7 @@ export const dpKanduKandu: Mantra = {
     },
     {
       title: 'ಚರಣಗಳು',
-      titleEn: 'Caranas',
+      titleEn: 'Charanas',
       verses: [
         {
           n: 1,
@@ -153,7 +153,7 @@ export const dpSanditayyaPrayavu: Mantra = {
     },
     {
       title: 'ಚರಣಗಳು',
-      titleEn: 'Caranas',
+      titleEn: 'Charanas',
       verses: [
         {
           n: 1,
@@ -226,7 +226,7 @@ export const dpSrinivasaNeenePaaliso: Mantra = {
     },
     {
       title: 'ಚರಣಗಳು',
-      titleEn: 'Caranas',
+      titleEn: 'Charanas',
       verses: [
         {
           n: 1,
@@ -299,7 +299,7 @@ export const dpBarayyaVenkataramana: Mantra = {
     },
     {
       title: 'ಚರಣಗಳು',
-      titleEn: 'Caranas',
+      titleEn: 'Charanas',
       verses: [
         {
           n: 1,
@@ -372,7 +372,7 @@ export const dpTaluTaleloRangayya: Mantra = {
     },
     {
       title: 'ಚರಣಗಳು',
-      titleEn: 'Caranas',
+      titleEn: 'Charanas',
       verses: [
         {
           n: 1,
@@ -432,7 +432,7 @@ export const dpYareRangana: Mantra = {
     },
     {
       title: 'ಚರಣಗಳು',
-      titleEn: 'Caranas',
+      titleEn: 'Charanas',
       verses: [
         {
           n: 1,
@@ -492,7 +492,7 @@ export const dpJoJoSriKrishna: Mantra = {
     },
     {
       title: 'ಚರಣಗಳು',
-      titleEn: 'Caranas',
+      titleEn: 'Charanas',
       verses: [
         {
           n: 1,
@@ -581,7 +581,7 @@ export const dpNeeneDayalo: Mantra = {
     },
     {
       title: 'ಚರಣಗಳು',
-      titleEn: 'Caranas',
+      titleEn: 'Charanas',
       verses: [
         {
           n: 1,
@@ -654,7 +654,7 @@ export const dpNaMaadidaKarma: Mantra = {
     },
     {
       title: 'ಚರಣಗಳು',
-      titleEn: 'Caranas',
+      titleEn: 'Charanas',
       verses: [
         {
           n: 1,
@@ -727,7 +727,7 @@ export const dpPalisemmaMudduSharade: Mantra = {
     },
     {
       title: 'ಚರಣಗಳು',
-      titleEn: 'Caranas',
+      titleEn: 'Charanas',
       verses: [
         {
           n: 1,
@@ -787,7 +787,7 @@ export const dpJayaMangalamNitya: Mantra = {
     },
     {
       title: 'ಚರಣಗಳು',
-      titleEn: 'Caranas',
+      titleEn: 'Charanas',
       verses: [
         {
           n: 1,
@@ -847,7 +847,7 @@ export const dpMandagamaneIvanare: Mantra = {
     },
     {
       title: 'ಚರಣಗಳು',
-      titleEn: 'Caranas',
+      titleEn: 'Charanas',
       verses: [
         {
           n: 1,
@@ -936,7 +936,7 @@ export const dpNarasimhanaPadaBhajaneya: Mantra = {
     },
     {
       title: 'ಚರಣಗಳು',
-      titleEn: 'Caranas',
+      titleEn: 'Charanas',
       verses: [
         {
           n: 1,
@@ -996,7 +996,7 @@ export const dpDevakiKandaMukunda: Mantra = {
     },
     {
       title: 'ಚರಣಗಳು',
-      titleEn: 'Caranas',
+      titleEn: 'Charanas',
       verses: [
         {
           n: 1,
@@ -1085,7 +1085,7 @@ export const dpEnuBaredeBrahma: Mantra = {
     },
     {
       title: 'ಚರಣಗಳು',
-      titleEn: 'Caranas',
+      titleEn: 'Charanas',
       verses: [
         {
           n: 1,
@@ -1145,7 +1145,7 @@ export const dpEkeChintisuve: Mantra = {
     },
     {
       title: 'ಚರಣಗಳು',
-      titleEn: 'Caranas',
+      titleEn: 'Charanas',
       verses: [
         {
           n: 1,
@@ -1218,7 +1218,7 @@ export const dpElliHarikathaPrasangavo: Mantra = {
     },
     {
       title: 'ಚರಣಗಳು',
-      titleEn: 'Caranas',
+      titleEn: 'Charanas',
       verses: [
         {
           n: 1,
@@ -1262,7 +1262,7 @@ export const dpIdeSamayaRanga: Mantra = {
     },
     {
       title: 'ಚರಣಗಳು',
-      titleEn: 'Caranas',
+      titleEn: 'Charanas',
       verses: [
         {
           n: 1,
@@ -1322,7 +1322,7 @@ export const dpAruBadukidarayya: Mantra = {
     },
     {
       title: 'ಚರಣಗಳು',
-      titleEn: 'Caranas',
+      titleEn: 'Charanas',
       verses: [
         {
           n: 1,
@@ -1382,7 +1382,7 @@ export const dpOotakkeBandevu: Mantra = {
     },
     {
       title: 'ಚರಣಗಳು',
-      titleEn: 'Caranas',
+      titleEn: 'Charanas',
       verses: [
         {
           n: 1,
@@ -1455,7 +1455,7 @@ export const dpGummanaKareyadire: Mantra = {
     },
     {
       title: 'ಚರಣಗಳು',
-      titleEn: 'Caranas',
+      titleEn: 'Charanas',
       verses: [
         {
           n: 1,
@@ -1528,7 +1528,7 @@ export const dpTalaBekuTakkaMela: Mantra = {
     },
     {
       title: 'ಚರಣಗಳು',
-      titleEn: 'Caranas',
+      titleEn: 'Charanas',
       verses: [
         {
           n: 1,
@@ -1585,7 +1585,7 @@ export const dpKelenoHariTalano: Mantra = {
     },
     {
       title: 'ಚರಣಗಳು',
-      titleEn: 'Caranas',
+      titleEn: 'Charanas',
       verses: [
         {
           n: 1,
@@ -1629,7 +1629,7 @@ export const dpBharatideviNeneNene: Mantra = {
   summaryKn: 'ವಾಯುದೇವರ ಪತ್ನಿ ಭಾರತೀದೇವಿಯ ಸ್ತುತಿ: “ಭಾರತಿದೇವಿಯನ್ನು ನೆನೆ ನೆನೆ; ನಿರಂತರ ಭಕ್ತಿಗೆ ಇದು ಮನೆ.” ಅವಳ ಗೆಜ್ಜೆ, ಕಂಕಣ, ಕುಂಡಲಗಳ ವರ್ಣನೆ, ಕೊನೆಗೆ ಪುರಂದರವಿಠಲನ ಕಿಂಕರಿ ಎಂಬ ನುಡಿ.',
   difficulty: 'easy',
   completeness: 'partial',
-  contentNote: 'The last line is given as far as the printed copy has it (the closing word ಕರುಣೆ, found only in the typed copy, is left out).',
+  contentNote: 'The last line is given as far as the printed copy has it (the closing word करुणॆ, found only in the typed copy, is left out).',
   sections: [
     {
       title: 'ಪಲ್ಲವಿ',
@@ -1646,7 +1646,7 @@ export const dpBharatideviNeneNene: Mantra = {
     },
     {
       title: 'ಚರಣಗಳು',
-      titleEn: 'Caranas',
+      titleEn: 'Charanas',
       verses: [
         {
           n: 1,
@@ -1706,7 +1706,7 @@ export const dpDharmaveJayavemba: Mantra = {
     },
     {
       title: 'ಚರಣಗಳು',
-      titleEn: 'Caranas',
+      titleEn: 'Charanas',
       verses: [
         {
           n: 1,
@@ -1766,7 +1766,7 @@ export const dpBuddhiMatuHelidare: Mantra = {
     },
     {
       title: 'ಚರಣಗಳು',
-      titleEn: 'Caranas',
+      titleEn: 'Charanas',
       verses: [
         {
           n: 1,
@@ -1826,7 +1826,7 @@ export const dpNeeneAnathabandhu: Mantra = {
     },
     {
       title: 'ಚರಣಗಳು',
-      titleEn: 'Caranas',
+      titleEn: 'Charanas',
       verses: [
         {
           n: 1,
@@ -1886,7 +1886,7 @@ export const dpDharanigeDoreyenduNambide: Mantra = {
     },
     {
       title: 'ಚರಣಗಳು',
-      titleEn: 'Caranas',
+      titleEn: 'Charanas',
       verses: [
         {
           n: 1,
@@ -1959,7 +1959,7 @@ export const dpYadavaNeeBa: Mantra = {
     },
     {
       title: 'ಚರಣಗಳು',
-      titleEn: 'Caranas',
+      titleEn: 'Charanas',
       verses: [
         {
           n: 1,
@@ -2024,7 +2024,7 @@ export const dpBannisiGopiHarasidalu: Mantra = {
     },
     {
       title: 'ಚರಣಗಳು',
-      titleEn: 'Caranas',
+      titleEn: 'Charanas',
       verses: [
         {
           n: 1,
@@ -2084,7 +2084,7 @@ export const dpMangalaMaramanage: Mantra = {
     },
     {
       title: 'ಚರಣಗಳು',
-      titleEn: 'Caranas',
+      titleEn: 'Charanas',
       verses: [
         {
           n: 1,
@@ -2144,7 +2144,7 @@ export const dpInduNinnaMareyaHokke: Mantra = {
     },
     {
       title: 'ಚರಣಗಳು',
-      titleEn: 'Caranas',
+      titleEn: 'Charanas',
       verses: [
         {
           n: 1,
@@ -2217,7 +2217,7 @@ export const dpNinnaNodiDhanyanadeno: Mantra = {
     },
     {
       title: 'ಚರಣಗಳು',
-      titleEn: 'Caranas',
+      titleEn: 'Charanas',
       verses: [
         {
           n: 1,
@@ -2290,7 +2290,7 @@ export const dpNillabekayyaKrishnayya: Mantra = {
     },
     {
       title: 'ಚರಣಗಳು',
-      titleEn: 'Caranas',
+      titleEn: 'Charanas',
       verses: [
         {
           n: 1,

@@ -25,7 +25,7 @@ export const pitruTarpana: Mantra = {
   title: 'पितृतर्पणम्',
   titleEn: 'Pitru Tarpana (Tarpana of Ancestors)',
   category: 'puja',
-  deity: 'Pitrus (Vasu, Rudra, Aditya forms); Sri Vishnu',
+  deity: 'Pitrus (the ancestors); Sri Vishnu',
   source: 'Ashvalayana and Taittiriya practice; Madhva and Smarta shraddha manuals',
   summary: 'The tarpana of the ancestors with sesame and water, done on amavasya, sankranti, eclipses, in the Mahalaya paksha and as the tarpana part of shraddha. Preparation (darbha, pavitra, sesame, the three positions of the sacred thread), the sankalpa with every blank explained, the formula for each ancestor with the number of anjalis, and the closing. Choose Madhva or Smarta at the top. For those whose father is alive see the rules in the notes: the tarpana of ancestors is not done while the father lives.',
   summaryKn: 'ಅಮಾವಾಸ್ಯೆ, ಸಂಕ್ರಾಂತಿ, ಗ್ರಹಣ, ಮಹಾಲಯ ಪಕ್ಷ ಮತ್ತು ಶ್ರಾದ್ಧದ ತರ್ಪಣಾಂಗದಲ್ಲಿ ಎಳ್ಳು ಮತ್ತು ನೀರಿನಿಂದ ಪಿತೃಗಳಿಗೆ ಮಾಡುವ ತರ್ಪಣ. ಸಿದ್ಧತೆ (ದರ್ಭೆ, ಪವಿತ್ರ, ಎಳ್ಳು, ಯಜ್ಞೋಪವೀತದ ಮೂರು ಸ್ಥಿತಿಗಳು), ಪ್ರತಿ ಖಾಲಿ ಸ್ಥಳದ ವಿವರಣೆಯೊಂದಿಗೆ ಸಂಕಲ್ಪ, ಪ್ರತಿ ಪಿತೃವಿಗೂ ಸೂತ್ರ ಮತ್ತು ಅಂಜಲಿ ಸಂಖ್ಯೆ, ಮತ್ತು ಮುಕ್ತಾಯ. ಮೇಲೆ ಮಾಧ್ವ ಅಥವಾ ಸ್ಮಾರ್ತ ಆರಿಸಿ. ತಂದೆ ಬದುಕಿರುವವರಿಗೆ ವಿಶೇಷ ನಿಯಮಗಳಿವೆ (ಟಿಪ್ಪಣಿಗಳನ್ನು ನೋಡಿ): ತಂದೆ ಜೀವಂತವಾಗಿರುವಾಗ ಪಿತೃಗಳಿಗೆ ತರ್ಪಣ ಕೊಡುವುದಿಲ್ಲ.',

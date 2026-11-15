@@ -35,7 +35,7 @@ export const ramaRakshaStotram: Mantra = {
   deity: 'Śrī Rāma',
   source: 'Budha Kauśika (revealed to him by Śiva in a dream)',
   summary:
-    'A protective hymn (kavaca) to Śrī Rāma: after the dhyāna, each part of the body is placed under the care of one of Rāma’s names, and the hymn goes on to praise Rāma and Lakṣmaṇa and the power of the name "Rāma". Tradition holds that Śiva revealed it to the sage Budha Kauśika in a dream.',
+    'A protective hymn (kavacha) to Śrī Rāma: after the dhyāna, each part of the body is placed under the care of one of Rāma’s names, and the hymn goes on to praise Rāma and Lakṣmaṇa and the power of the name "Rāma". Tradition holds that Śiva revealed it to the sage Budha Kauśika in a dream.',
   summaryKn:
     'ಶ್ರೀರಾಮನ ರಕ್ಷಾಕವಚ ಸ್ತೋತ್ರ. ಧ್ಯಾನದ ನಂತರ ದೇಹದ ಒಂದೊಂದು ಅಂಗವನ್ನೂ ಶ್ರೀರಾಮನ ಒಂದೊಂದು ನಾಮದ ರಕ್ಷಣೆಗೆ ಒಪ್ಪಿಸಲಾಗುತ್ತದೆ; ಮುಂದೆ ರಾಮಲಕ್ಷ್ಮಣರ ಸ್ತುತಿ ಹಾಗೂ "ರಾಮ" ನಾಮದ ಮಹಿಮೆ ಬರುತ್ತದೆ. ಶಿವನು ಸ್ವಪ್ನದಲ್ಲಿ ಬುಧಕೌಶಿಕ ಋಷಿಗೆ ಇದನ್ನು ಉಪದೇಶಿಸಿದನೆಂದು ಸಂಪ್ರದಾಯ.',
   difficulty: 'medium',
