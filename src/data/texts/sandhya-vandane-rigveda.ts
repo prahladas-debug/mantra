@@ -138,10 +138,77 @@ export const sandhyaVandaneRigveda: Mantra = {
       ],
     },
     {
+      title: 'श्रौताचमनम्',
+      titleEn: 'Shrauta achamana (with the names of the Vedas)',
+      note: 'Manuals speak of three kinds of achamana. (1) Shrauta or Vaidika achamana, with the names of the Vedas (ऋग्वेदाय स्वाहा …). (2) Achamana with the Gayatri and apo hi shtha, with twenty-four touches — the Devi Bhagavata and Andhra manuals call this one Shrauta, the Madhva commentary on the Sadachara-smriti calls it Smarta. (3) Keshavadi achamana with the twenty-four names of Vishnu — called Pauranika in the Devi Bhagavata and Vaishnava in the Madhva commentary. Sip from the base of the palm (gokarna shape, water to cover a grain of urad) three times, with ॐ ऋग्वेदाय स्वाहा, ॐ यजुर्वेदाय स्वाहा and ॐ सामवेदाय स्वाहा. Then, with the wet hand, wipe the lips twice (Atharvaveda; Itihasa-Purana) and touch the mouth (Agni); sprinkle the left hand (the stars) and the feet (Vishnu); touch the eyes with thumb and ring finger (Moon, Sun), the nostrils with thumb and index finger (prana, apana), the ears with thumb and little finger (the directions), the upper arms with thumb and middle finger (Indra), the heart with four fingers (Rudra), the navel with the thumb (Earth), and the head with all the fingers; let the water left in the hand drip away for Kubera and all the gods (Baudhayana, in the Brahma-karma-samuchchaya; the Ashvalayana rule also has the sips with Om and svaha). Many Smarta families, especially those who follow the Vedic (grihya) manuals, do this Shrauta achamana first at the start of sandhya and of Vedic rites and then the Keshavadi achamana; others do only the Keshavadi. Follow your family.',
+      noteKn: 'ಪುಸ್ತಕಗಳು ಮೂರು ಬಗೆಯ ಆಚಮನಗಳನ್ನು ಹೇಳುತ್ತವೆ: (೧) ವೇದಗಳ ಹೆಸರುಗಳಿಂದ ಮಾಡುವ ಶ್ರೌತ ಅಥವಾ ವೈದಿಕ ಆಚಮನ (“ಋಗ್ವೇದಾಯ ಸ್ವಾಹಾ…”). (೨) ಗಾಯತ್ರಿ ಮತ್ತು “ಆಪೋ ಹಿಷ್ಠಾ”ಗಳಿಂದ ಇಪ್ಪತ್ನಾಲ್ಕು ಸ್ಪರ್ಶಗಳೊಡನೆ ಮಾಡುವ ಆಚಮನ — ದೇವೀಭಾಗವತ ಮತ್ತು ಆಂಧ್ರದ ಪುಸ್ತಕಗಳು ಇದನ್ನು ಶ್ರೌತ ಎನ್ನುತ್ತವೆ, ಸದಾಚಾರಸ್ಮೃತಿಯ ಮಾಧ್ವ ವ್ಯಾಖ್ಯಾನ ಸ್ಮಾರ್ತ ಎನ್ನುತ್ತದೆ. (೩) ವಿಷ್ಣುವಿನ ಇಪ್ಪತ್ನಾಲ್ಕು ನಾಮಗಳಿಂದ ಮಾಡುವ ಕೇಶವಾದಿ ಆಚಮನ — ದೇವೀಭಾಗವತದಲ್ಲಿ ಪೌರಾಣಿಕ, ಮಾಧ್ವ ವ್ಯಾಖ್ಯಾನದಲ್ಲಿ ವೈಷ್ಣವ ಆಚಮನ. ಗೋಕರ್ಣಾಕಾರದ ಅಂಗೈಯ ಬುಡದಿಂದ (ಉದ್ದಿನಕಾಳು ಮುಳುಗುವಷ್ಟು ನೀರು) “ಓಂ ಋಗ್ವೇದಾಯ ಸ್ವಾಹಾ”, “ಓಂ ಯಜುರ್ವೇದಾಯ ಸ್ವಾಹಾ”, “ಓಂ ಸಾಮವೇದಾಯ ಸ್ವಾಹಾ” ಎಂದು ಮೂರು ಬಾರಿ ಸೇವಿಸಿ. ನಂತರ ಒದ್ದೆ ಕೈಯಿಂದ ತುಟಿಗಳನ್ನು ಎರಡು ಬಾರಿ ಒರೆಸಿ (ಅಥರ್ವವೇದ; ಇತಿಹಾಸ–ಪುರಾಣ), ಬಾಯಿ ಮುಟ್ಟಿ (ಅಗ್ನಿ); ಎಡಗೈಗೆ (ನಕ್ಷತ್ರಗಳು), ಪಾದಗಳಿಗೆ (ವಿಷ್ಣು) ನೀರು ಪ್ರೋಕ್ಷಿಸಿ; ಹೆಬ್ಬೆರಳು–ಉಂಗುರದ ಬೆರಳಿನಿಂದ ಕಣ್ಣುಗಳು (ಚಂದ್ರ, ಸೂರ್ಯ), ಹೆಬ್ಬೆರಳು–ತೋರುಬೆರಳಿನಿಂದ ಮೂಗಿನ ಹೊಳ್ಳೆಗಳು (ಪ್ರಾಣ, ಅಪಾನ), ಹೆಬ್ಬೆರಳು–ಕಿರುಬೆರಳಿನಿಂದ ಕಿವಿಗಳು (ದಿಕ್ಕುಗಳು), ಹೆಬ್ಬೆರಳು–ನಡುಬೆರಳಿನಿಂದ ತೋಳುಗಳು (ಇಂದ್ರ), ನಾಲ್ಕು ಬೆರಳುಗಳಿಂದ ಹೃದಯ (ರುದ್ರ), ಹೆಬ್ಬೆರಳಿನಿಂದ ನಾಭಿ (ಪೃಥ್ವಿ), ಎಲ್ಲ ಬೆರಳುಗಳಿಂದ ತಲೆ ಮುಟ್ಟಿಕೊಳ್ಳಿ; ಕೈಯಲ್ಲಿ ಉಳಿದ ನೀರನ್ನು ಕುಬೇರಾದಿ ಸಮಸ್ತ ದೇವತೆಗಳಿಗಾಗಿ ಬಿಡಿ (ಬ್ರಹ್ಮಕರ್ಮಸಮುಚ್ಚಯದಲ್ಲಿನ ಬೋಧಾಯನ ವಿಧಿ; ಆಶ್ವಲಾಯನರೂ ಪ್ರಣವ–ಸ್ವಾಹಾಕಾರ ಸಹಿತ ಮೂರು ಗುಟುಕುಗಳನ್ನು ಹೇಳುತ್ತಾರೆ). ಅನೇಕ ಸ್ಮಾರ್ತ ಮನೆತನಗಳು, ವಿಶೇಷವಾಗಿ ಗೃಹ್ಯಸೂತ್ರದ ಪುಸ್ತಕಗಳನ್ನು ಅನುಸರಿಸುವವರು, ಸಂಧ್ಯೆಯ ಮತ್ತು ವೈದಿಕ ಕರ್ಮಗಳ ಆರಂಭದಲ್ಲಿ ಮೊದಲು ಈ ಶ್ರೌತ ಆಚಮನ, ನಂತರ ಕೇಶವಾದಿ ಆಚಮನ ಮಾಡುತ್ತಾರೆ; ಕೆಲವರು ಕೇಶವಾದಿಯನ್ನು ಮಾತ್ರ ಮಾಡುತ್ತಾರೆ. ಮನೆತನದ ಪದ್ಧತಿ ಅನುಸರಿಸಿ.',
+      when: { tradition: ['smarta'] },
+      verses: [
+        {
+          text: 'ॐ ऋग्वेदाय स्वाहा । ॐ यजुर्वेदाय स्वाहा । ॐ सामवेदाय स्वाहा ॥',
+          meaning: {
+            en: 'Om, to the Rigveda, svaha; Om, to the Yajurveda, svaha; Om, to the Samaveda, svaha. (A sip of water with each, offered to the three Vedas.)',
+            kn: 'ಓಂ ಋಗ್ವೇದಕ್ಕೆ ಸ್ವಾಹಾ; ಓಂ ಯಜುರ್ವೇದಕ್ಕೆ ಸ್ವಾಹಾ; ಓಂ ಸಾಮವೇದಕ್ಕೆ ಸ್ವಾಹಾ. (ಪ್ರತಿಯೊಂದರೊಡನೆ ಒಂದು ಗುಟುಕು ನೀರು — ಮೂರು ವೇದಗಳಿಗೆ ಅರ್ಪಣೆ.)',
+          },
+        },
+        {
+          text: 'ॐ अथर्ववेदाय नमः । ॐ इतिहासपुराणेभ्यो नमः । ॐ अग्नये नमः ।\nॐ नक्षत्रेभ्यो नमः । ॐ विष्णवे नमः ।\nॐ चन्द्राय नमः । ॐ आदित्याय नमः ।\nॐ प्राणाय नमः । ॐ अपानाय नमः ।\nॐ दिग्भ्यो नमः । ॐ दिग्भ्यो नमः ।\nॐ इन्द्राय नमः । ॐ इन्द्राय नमः ।\nॐ रुद्राय नमः । ॐ पृथिव्यै नमः ॥',
+          meaning: {
+            en: 'Salutations to the Atharvaveda and to the Itihasas and Puranas (wiping the lips); to Agni (the mouth); to the stars (the left hand); to Vishnu (the feet); to the Moon and the Sun (the two eyes); to prana and apana (the two nostrils); to the directions (the two ears); to Indra (the two arms); to Rudra (the heart); and to the Earth (the navel).',
+            kn: 'ಅಥರ್ವವೇದಕ್ಕೂ ಇತಿಹಾಸ–ಪುರಾಣಗಳಿಗೂ ನಮಸ್ಕಾರ (ತುಟಿಗಳನ್ನು ಒರೆಸುವುದು); ಅಗ್ನಿಗೆ (ಬಾಯಿ); ನಕ್ಷತ್ರಗಳಿಗೆ (ಎಡಗೈ); ವಿಷ್ಣುವಿಗೆ (ಪಾದಗಳು); ಚಂದ್ರ–ಸೂರ್ಯರಿಗೆ (ಎರಡು ಕಣ್ಣು); ಪ್ರಾಣ–ಅಪಾನಗಳಿಗೆ (ಎರಡು ಮೂಗಿನ ಹೊಳ್ಳೆ); ದಿಕ್ಕುಗಳಿಗೆ (ಎರಡು ಕಿವಿ); ಇಂದ್ರನಿಗೆ (ಎರಡು ತೋಳು); ರುದ್ರನಿಗೆ (ಹೃದಯ); ಪೃಥ್ವಿಗೆ (ನಾಭಿ) ನಮಸ್ಕಾರ.',
+          },
+        },
+      ],
+    },
+    {
+      title: 'गायत्र्याचमनम्',
+      titleEn: 'Achamana with the Gayatri and apo hi shtha',
+      note: 'Sip three times with the three padas of the Gayatri, each preceded by Om (some manuals add the vyahritis or svaha). Then, washing the hand in between: with the nine padas of apo hi shtha wash the left and right hands and touch the cheeks, the lips, the joined palms, the feet and the head; with the seven vyahritis (bhuh … satyam) touch the tip and the two sides of the nose, the two eyes and the two ears; with the three padas of the Gayatri the navel, the heart and the head; and with its shiras (apo jyoti …) the two shoulders — twenty-four places in all. The places vary slightly between manuals. This longer form is used where your manual or teacher prescribes it; most families today do the Keshavadi achamana.',
+      noteKn: 'ಗಾಯತ್ರಿಯ ಮೂರು ಪಾದಗಳಿಂದ, ಪ್ರತಿಯೊಂದಕ್ಕೂ ಮೊದಲು ಓಂ ಸೇರಿಸಿ, ಮೂರು ಬಾರಿ ಸೇವಿಸಿ (ಕೆಲವು ಪುಸ್ತಕಗಳು ವ್ಯಾಹೃತಿಗಳನ್ನೋ ಸ್ವಾಹಾವನ್ನೋ ಸೇರಿಸುತ್ತವೆ). ನಂತರ ನಡುನಡುವೆ ಕೈ ತೊಳೆಯುತ್ತಾ: “ಆಪೋ ಹಿಷ್ಠಾ”ದ ಒಂಬತ್ತು ಪಾದಗಳಿಂದ ಎಡ–ಬಲ ಕೈಗಳನ್ನು ತೊಳೆದು ಕೆನ್ನೆಗಳು, ತುಟಿಗಳು, ಜೋಡಿಸಿದ ಅಂಗೈಗಳು, ಪಾದಗಳು, ತಲೆಯನ್ನು ಮುಟ್ಟಿ; ಏಳು ವ್ಯಾಹೃತಿಗಳಿಂದ (ಭೂಃ … ಸತ್ಯಂ) ಮೂಗಿನ ತುದಿ, ಮೂಗಿನ ಎರಡು ಪಕ್ಕ, ಎರಡು ಕಣ್ಣು, ಎರಡು ಕಿವಿ; ಗಾಯತ್ರಿಯ ಮೂರು ಪಾದಗಳಿಂದ ನಾಭಿ, ಹೃದಯ, ತಲೆ; ಅದರ ಶಿರಸ್ಸಿನಿಂದ (ಆಪೋ ಜ್ಯೋತೀ…) ಎರಡು ಭುಜಗಳು — ಒಟ್ಟು ಇಪ್ಪತ್ನಾಲ್ಕು ಸ್ಥಾನಗಳು. ಸ್ಥಾನಗಳು ಪುಸ್ತಕದಿಂದ ಪುಸ್ತಕಕ್ಕೆ ಸ್ವಲ್ಪ ಭಿನ್ನ. ನಿಮ್ಮ ಪುಸ್ತಕ ಅಥವಾ ಗುರುಗಳು ವಿಧಿಸಿದಲ್ಲಿ ಈ ದೀರ್ಘ ಕ್ರಮ; ಇಂದು ಹೆಚ್ಚಿನ ಮನೆತನಗಳು ಕೇಶವಾದಿ ಆಚಮನ ಮಾಡುತ್ತಾರೆ.',
+      when: { tradition: ['smarta'] },
+      verses: [
+        {
+          text: 'ॐ तत्सवितुर्वरेण्यम् । भर्गो देवस्य धीमहि । धियो यो नः प्रचोदयात् ॥',
+          meaning: {
+            en: 'The Gayatri, one pada with each sip: we meditate on the adorable radiance of the divine Savitri; may he move our minds.',
+            kn: 'ಗಾಯತ್ರಿ — ಪ್ರತಿ ಗುಟುಕಿಗೆ ಒಂದು ಪಾದ: ಸವಿತೃದೇವನ ಪೂಜನೀಯ ತೇಜಸ್ಸನ್ನು ಧ್ಯಾನಿಸುತ್ತೇವೆ; ಅವನು ನಮ್ಮ ಬುದ್ಧಿಯನ್ನು ಪ್ರೇರೇಪಿಸಲಿ.',
+          },
+        },
+        {
+          text: 'आपो हि ष्ठा मयोभुवः ।\nता न ऊर्जे दधातन ।\nमहे रणाय चक्षसे ॥',
+          meaning: {
+            en: 'O Waters, you are the bringers of happiness. Fill us with strength, so that we may behold great joy.',
+            kn: 'ಓ ಜಲದೇವತೆಗಳೇ, ನೀವು ಸುಖವನ್ನು ಕೊಡುವವರು. ನಮಗೆ ಶಕ್ತಿಯನ್ನು ತುಂಬಿ, ಮಹತ್ತಾದ ಆನಂದವನ್ನು ಕಾಣುವಂತೆ ಮಾಡಿ.',
+          },
+        },
+        {
+          text: 'यो वः शिवतमो रसः ।\nतस्य भाजयतेह नः ।\nउशतीरिव मातरः ॥',
+          meaning: {
+            en: 'Let us share here in your most auspicious essence, as loving mothers share with their children.',
+            kn: 'ಪ್ರೀತಿಯುಳ್ಳ ತಾಯಂದಿರು ಮಕ್ಕಳಿಗೆ ಉಣಿಸುವಂತೆ, ನಿಮ್ಮಲ್ಲಿರುವ ಅತ್ಯಂತ ಮಂಗಳಕರವಾದ ರಸವನ್ನು ನಮಗೂ ಇಲ್ಲಿ ಕರುಣಿಸಿ.',
+          },
+        },
+        {
+          text: 'तस्मा अरं गमाम वः ।\nयस्य क्षयाय जिन्वथ ।\nआपो जनयथा च नः ॥',
+          meaning: {
+            en: 'May we readily attain that essence of yours with which you nourish all that dwells in the world; O Waters, bring us to new life.',
+            kn: 'ಲೋಕದ ಜೀವಿಗಳನ್ನು ಪೋಷಿಸುವ ನಿಮ್ಮ ಆ ರಸವನ್ನು ನಾವು ಸಂಪೂರ್ಣವಾಗಿ ಪಡೆಯುವಂತಾಗಲಿ; ಓ ಜಲದೇವತೆಗಳೇ, ನಮಗೆ ಹೊಸ ಚೈತನ್ಯವನ್ನು ಕೊಡಿ.',
+          },
+        },
+        {
+          text: 'ॐ भूः । ॐ भुवः । ॐ स्वः । ॐ महः ।\nॐ जनः । ॐ तपः । ॐ सत्यम् ।\nॐ तत्सवितुर्वरेण्यं भर्गो देवस्य धीमहि ।\nधियो यो नः प्रचोदयात् ।\nॐ आपो ज्योती रसोऽमृतं ब्रह्म भूर्भुवः स्वरोम् ॥',
+          meaning: {
+            en: 'Om is recalled with each of the seven worlds, from Bhuh to Satya. We meditate on the adorable radiance of the divine Savitri, who moves our minds. Om — he is the waters, the light, the essence, the immortal, Brahman; he fills earth, sky and heaven.',
+            kn: 'ಭೂಃ ಲೋಕದಿಂದ ಸತ್ಯಲೋಕದವರೆಗಿನ ಏಳು ಲೋಕಗಳನ್ನು ಓಂಕಾರದೊಂದಿಗೆ ಸ್ಮರಿಸುತ್ತೇನೆ. ನಮ್ಮ ಬುದ್ಧಿಯನ್ನು ಪ್ರೇರೇಪಿಸುವ ಸವಿತೃದೇವನ ಪೂಜನೀಯ ತೇಜಸ್ಸನ್ನು ಧ್ಯಾನಿಸುತ್ತೇವೆ. ಜಲ, ಜ್ಯೋತಿ, ರಸ, ಅಮೃತ ಎಲ್ಲವೂ ಅವನೇ; ಭೂಮಿ, ಅಂತರಿಕ್ಷ, ಸ್ವರ್ಗಗಳನ್ನು ವ್ಯಾಪಿಸಿರುವ ಪರಬ್ರಹ್ಮನೂ ಅವನೇ.',
+          },
+        },
+      ],
+    },
+    {
       title: 'आचमनम्',
-      titleEn: 'Achamana (sipping water) — twice',
-      note: 'Hollow the right palm into the gokarna shape (like a cow’s ear) and pour into it, from the uddharane, water enough to cover a grain of black gram. With Keshava, Narayana and Madhava sip it three times from the base of the palm (brahma-tirtha), without noise. Then, with the remaining names: Govinda — wash the right palm with the left; Vishnu — wash the left palm with the right; Madhusudana — touch the upper lip; Trivikrama — the lower lip; Vamana — the right cheek; Shridhara — the left cheek; Hrishikesha — wash both hands; Padmanabha — touch the feet; Damodara — the crown of the head with the middle finger; Sankarshana — the tip of the nose with the middle finger; Vasudeva and Pradyumna — the right and left nostril with thumb and index finger; Aniruddha and Purushottama — the right and left eye; Adhokshaja and Narasimha — the right and left ear; Achyuta — the navel; Janardana — the heart with the palm; Upendra — the head; Hari and Sri Krishna — the right and left shoulder with all the fingers. At the start of sandhya go through the whole achamana twice (dvirachamana). Later, “achamana” means once through, unless twice is said.',
-      noteKn: 'ಬಲ ಅಂಗೈಯನ್ನು ಹಸುವಿನ ಕಿವಿಯಂತೆ ಗೋಕರ್ಣಾಕಾರದಲ್ಲಿ ಮಡಚಿ, ಉದ್ಧರಣೆಯಿಂದ ಒಂದು ಉದ್ದಿನಕಾಳು ಮುಳುಗುವಷ್ಟು ನೀರು ಹಾಕಿಕೊಳ್ಳಿ. ಕೇಶವ, ನಾರಾಯಣ, ಮಾಧವ ಎಂಬ ಮೂರು ನಾಮಗಳಿಂದ ಅಂಗೈಯ ಬುಡದಿಂದ (ಬ್ರಹ್ಮತೀರ್ಥ) ಶಬ್ದ ಮಾಡದೆ ಮೂರು ಬಾರಿ ಪ್ರಾಶನ ಮಾಡಿ. ಉಳಿದ ನಾಮಗಳಿಗೆ: ಗೋವಿಂದ — ಎಡಗೈಯಿಂದ ಬಲ ಅಂಗೈ ತೊಳೆಯುವುದು; ವಿಷ್ಣು — ಬಲಗೈಯಿಂದ ಎಡ ಅಂಗೈ ತೊಳೆಯುವುದು; ಮಧುಸೂದನ — ಮೇಲಿನ ತುಟಿ; ತ್ರಿವಿಕ್ರಮ — ಕೆಳಗಿನ ತುಟಿ; ವಾಮನ — ಬಲ ಕೆನ್ನೆ; ಶ್ರೀಧರ — ಎಡ ಕೆನ್ನೆ; ಹೃಷೀಕೇಶ — ಎರಡೂ ಕೈ ತೊಳೆಯುವುದು; ಪದ್ಮನಾಭ — ಪಾದಗಳು; ದಾಮೋದರ — ನಡುಬೆರಳಿನಿಂದ ನೆತ್ತಿ; ಸಂಕರ್ಷಣ — ನಡುಬೆರಳಿನಿಂದ ಮೂಗಿನ ತುದಿ; ವಾಸುದೇವ, ಪ್ರದ್ಯುಮ್ನ — ಹೆಬ್ಬೆರಳು ಮತ್ತು ತೋರುಬೆರಳಿನಿಂದ ಬಲ, ಎಡ ಮೂಗಿನ ಹೊಳ್ಳೆ; ಅನಿರುದ್ಧ, ಪುರುಷೋತ್ತಮ — ಬಲ, ಎಡ ಕಣ್ಣು; ಅಧೋಕ್ಷಜ, ನಾರಸಿಂಹ — ಬಲ, ಎಡ ಕಿವಿ; ಅಚ್ಯುತ — ನಾಭಿ; ಜನಾರ್ದನ — ಅಂಗೈಯಿಂದ ಹೃದಯ; ಉಪೇಂದ್ರ — ತಲೆ; ಹರಿ, ಶ್ರೀಕೃಷ್ಣ — ಎಲ್ಲ ಬೆರಳುಗಳಿಂದ ಬಲ, ಎಡ ಭುಜ. ಸಂಧ್ಯೆಯ ಆರಂಭದಲ್ಲಿ ಈ ಆಚಮನವನ್ನು ಎರಡು ಬಾರಿ ಮಾಡಬೇಕು (ದ್ವಿರಾಚಮನ). ಮುಂದೆ “ಆಚಮನ” ಎಂದರೆ ಒಂದು ಬಾರಿ, ಎರಡು ಎಂದು ಹೇಳಿದಲ್ಲಿ ಮಾತ್ರ ಎರಡು ಬಾರಿ.',
+      titleEn: 'Keshavadi achamana (Vaishnava / Pauranika) — twice',
+      note: 'Hollow the right palm into the gokarna shape (like a cow’s ear) and pour into it, from the uddharane, water enough to cover a grain of black gram. With Keshava, Narayana and Madhava sip it three times from the base of the palm (brahma-tirtha), without noise. Then, with the remaining names: Govinda — wash the right palm with the left; Vishnu — wash the left palm with the right; Madhusudana — touch the upper lip; Trivikrama — the lower lip; Vamana — the right cheek; Shridhara — the left cheek; Hrishikesha — wash both hands; Padmanabha — touch the feet; Damodara — the crown of the head with the middle finger; Sankarshana — the tip of the nose with the middle finger; Vasudeva and Pradyumna — the right and left nostril with thumb and index finger; Aniruddha and Purushottama — the right and left eye; Adhokshaja and Narasimha — the right and left ear; Achyuta — the navel; Janardana — the heart with the palm; Upendra — the head; Hari and Sri Krishna — the right and left shoulder with all the fingers. At the start of sandhya go through the whole achamana twice (dvirachamana). Later, “achamana” means once through, unless twice is said. This is the Keshavadi achamana — the Vaishnava achamana of the Madhva commentary on the Sadachara-smriti, which prescribes it for every rite, and the Pauranika achamana of the Devi Bhagavata (sip with the names ending in svaha, touch with those ending in namah).',
+      noteKn: 'ಬಲ ಅಂಗೈಯನ್ನು ಹಸುವಿನ ಕಿವಿಯಂತೆ ಗೋಕರ್ಣಾಕಾರದಲ್ಲಿ ಮಡಚಿ, ಉದ್ಧರಣೆಯಿಂದ ಒಂದು ಉದ್ದಿನಕಾಳು ಮುಳುಗುವಷ್ಟು ನೀರು ಹಾಕಿಕೊಳ್ಳಿ. ಕೇಶವ, ನಾರಾಯಣ, ಮಾಧವ ಎಂಬ ಮೂರು ನಾಮಗಳಿಂದ ಅಂಗೈಯ ಬುಡದಿಂದ (ಬ್ರಹ್ಮತೀರ್ಥ) ಶಬ್ದ ಮಾಡದೆ ಮೂರು ಬಾರಿ ಪ್ರಾಶನ ಮಾಡಿ. ಉಳಿದ ನಾಮಗಳಿಗೆ: ಗೋವಿಂದ — ಎಡಗೈಯಿಂದ ಬಲ ಅಂಗೈ ತೊಳೆಯುವುದು; ವಿಷ್ಣು — ಬಲಗೈಯಿಂದ ಎಡ ಅಂಗೈ ತೊಳೆಯುವುದು; ಮಧುಸೂದನ — ಮೇಲಿನ ತುಟಿ; ತ್ರಿವಿಕ್ರಮ — ಕೆಳಗಿನ ತುಟಿ; ವಾಮನ — ಬಲ ಕೆನ್ನೆ; ಶ್ರೀಧರ — ಎಡ ಕೆನ್ನೆ; ಹೃಷೀಕೇಶ — ಎರಡೂ ಕೈ ತೊಳೆಯುವುದು; ಪದ್ಮನಾಭ — ಪಾದಗಳು; ದಾಮೋದರ — ನಡುಬೆರಳಿನಿಂದ ನೆತ್ತಿ; ಸಂಕರ್ಷಣ — ನಡುಬೆರಳಿನಿಂದ ಮೂಗಿನ ತುದಿ; ವಾಸುದೇವ, ಪ್ರದ್ಯುಮ್ನ — ಹೆಬ್ಬೆರಳು ಮತ್ತು ತೋರುಬೆರಳಿನಿಂದ ಬಲ, ಎಡ ಮೂಗಿನ ಹೊಳ್ಳೆ; ಅನಿರುದ್ಧ, ಪುರುಷೋತ್ತಮ — ಬಲ, ಎಡ ಕಣ್ಣು; ಅಧೋಕ್ಷಜ, ನಾರಸಿಂಹ — ಬಲ, ಎಡ ಕಿವಿ; ಅಚ್ಯುತ — ನಾಭಿ; ಜನಾರ್ದನ — ಅಂಗೈಯಿಂದ ಹೃದಯ; ಉಪೇಂದ್ರ — ತಲೆ; ಹರಿ, ಶ್ರೀಕೃಷ್ಣ — ಎಲ್ಲ ಬೆರಳುಗಳಿಂದ ಬಲ, ಎಡ ಭುಜ. ಸಂಧ್ಯೆಯ ಆರಂಭದಲ್ಲಿ ಈ ಆಚಮನವನ್ನು ಎರಡು ಬಾರಿ ಮಾಡಬೇಕು (ದ್ವಿರಾಚಮನ). ಮುಂದೆ “ಆಚಮನ” ಎಂದರೆ ಒಂದು ಬಾರಿ, ಎರಡು ಎಂದು ಹೇಳಿದಲ್ಲಿ ಮಾತ್ರ ಎರಡು ಬಾರಿ. ಇದು ಕೇಶವಾದಿ ಆಚಮನ — ಸದಾಚಾರಸ್ಮೃತಿಯ ಮಾಧ್ವ ವ್ಯಾಖ್ಯಾನ ಎಲ್ಲ ಕರ್ಮಗಳಿಗೂ ವಿಧಿಸುವ ವೈಷ್ಣವ ಆಚಮನ; ದೇವೀಭಾಗವತದ ಪೌರಾಣಿಕ ಆಚಮನವೂ ಇದೇ (“ಸ್ವಾಹಾ” ಎಂದು ಕೊನೆಗೊಳ್ಳುವ ನಾಮಗಳಿಂದ ಸೇವನೆ, “ನಮಃ” ಎಂದು ಕೊನೆಗೊಳ್ಳುವವುಗಳಿಂದ ಸ್ಪರ್ಶ).',
       when: { tradition: ['madhva'] },
       verses: [
         {
@@ -162,9 +229,9 @@ export const sandhyaVandaneRigveda: Mantra = {
     },
     {
       title: 'आचमनम्',
-      titleEn: 'Achamana (sipping water) — twice',
-      note: 'Hold the right palm hollowed like a cow’s ear (gokarna), take water enough to cover a grain of black gram, and sip it three times without noise with Keshava, Narayana and Madhava. With the remaining names wash the hands and touch the lips, cheeks, eyes, nostrils, ears, navel, heart, head and shoulders, as you were taught (Smarta manuals follow the same names as the Madhva order, with small differences in the touches). At the start of sandhya go through the whole achamana twice; later, “achamana” means once.',
-      noteKn: 'ಬಲ ಅಂಗೈಯನ್ನು ಗೋಕರ್ಣಾಕಾರ ಮಾಡಿ ಒಂದು ಉದ್ದಿನಕಾಳು ಮುಳುಗುವಷ್ಟು ನೀರು ತೆಗೆದುಕೊಂಡು ಕೇಶವ, ನಾರಾಯಣ, ಮಾಧವ ನಾಮಗಳಿಂದ ಶಬ್ದವಿಲ್ಲದೆ ಮೂರು ಬಾರಿ ಸೇವಿಸಿ. ಉಳಿದ ನಾಮಗಳಿಂದ ಕೈ ತೊಳೆದು, ತುಟಿ, ಕೆನ್ನೆ, ಕಣ್ಣು, ಮೂಗಿನ ಹೊಳ್ಳೆ, ಕಿವಿ, ನಾಭಿ, ಹೃದಯ, ತಲೆ, ಭುಜಗಳನ್ನು ಹೇಳಿಕೊಟ್ಟಂತೆ ಮುಟ್ಟಿಕೊಳ್ಳಿ (ಸ್ಮಾರ್ತ ಪುಸ್ತಕಗಳಲ್ಲೂ ಇದೇ ನಾಮಗಳು; ಸ್ಪರ್ಶದಲ್ಲಿ ಸಣ್ಣ ವ್ಯತ್ಯಾಸಗಳಿವೆ). ಸಂಧ್ಯೆಯ ಆರಂಭದಲ್ಲಿ ಇಡೀ ಆಚಮನವನ್ನು ಎರಡು ಬಾರಿ ಮಾಡಿ; ಮುಂದೆ “ಆಚಮನ” ಎಂದರೆ ಒಮ್ಮೆ.',
+      titleEn: 'Keshavadi achamana (Pauranika) — twice',
+      note: 'Hold the right palm hollowed like a cow’s ear (gokarna), take water enough to cover a grain of black gram, and sip it three times without noise with Keshava, Narayana and Madhava. With the remaining names wash the hands and touch the lips, cheeks, eyes, nostrils, ears, navel, heart, head and shoulders, as you were taught (Smarta manuals follow the same names as the Madhva order, with small differences in the touches). At the start of sandhya go through the whole achamana twice; later, “achamana” means once. This is the Keshavadi (Pauranika) achamana, done after the Shrauta achamana by families who do both.',
+      noteKn: 'ಬಲ ಅಂಗೈಯನ್ನು ಗೋಕರ್ಣಾಕಾರ ಮಾಡಿ ಒಂದು ಉದ್ದಿನಕಾಳು ಮುಳುಗುವಷ್ಟು ನೀರು ತೆಗೆದುಕೊಂಡು ಕೇಶವ, ನಾರಾಯಣ, ಮಾಧವ ನಾಮಗಳಿಂದ ಶಬ್ದವಿಲ್ಲದೆ ಮೂರು ಬಾರಿ ಸೇವಿಸಿ. ಉಳಿದ ನಾಮಗಳಿಂದ ಕೈ ತೊಳೆದು, ತುಟಿ, ಕೆನ್ನೆ, ಕಣ್ಣು, ಮೂಗಿನ ಹೊಳ್ಳೆ, ಕಿವಿ, ನಾಭಿ, ಹೃದಯ, ತಲೆ, ಭುಜಗಳನ್ನು ಹೇಳಿಕೊಟ್ಟಂತೆ ಮುಟ್ಟಿಕೊಳ್ಳಿ (ಸ್ಮಾರ್ತ ಪುಸ್ತಕಗಳಲ್ಲೂ ಇದೇ ನಾಮಗಳು; ಸ್ಪರ್ಶದಲ್ಲಿ ಸಣ್ಣ ವ್ಯತ್ಯಾಸಗಳಿವೆ). ಸಂಧ್ಯೆಯ ಆರಂಭದಲ್ಲಿ ಇಡೀ ಆಚಮನವನ್ನು ಎರಡು ಬಾರಿ ಮಾಡಿ; ಮುಂದೆ “ಆಚಮನ” ಎಂದರೆ ಒಮ್ಮೆ. ಇದು ಕೇಶವಾದಿ (ಪೌರಾಣಿಕ) ಆಚಮನ; ಎರಡನ್ನೂ ಮಾಡುವ ಮನೆತನಗಳು ಶ್ರೌತ ಆಚಮನದ ನಂತರ ಇದನ್ನು ಮಾಡುತ್ತಾರೆ.',
       when: { tradition: ['smarta'] },
       verses: [
         {
@@ -179,6 +246,73 @@ export const sandhyaVandaneRigveda: Mantra = {
           meaning: {
             en: 'Salutations to the Lord by his holy names, from Govinda and Vishnu to Hari and Sri Krishna; with each, the Lord is remembered as present in the part of the body that is touched.',
             kn: 'ಗೋವಿಂದ, ವಿಷ್ಣು ಮೊದಲ್ಗೊಂಡು ಹರಿ, ಶ್ರೀಕೃಷ್ಣನವರೆಗಿನ ಭಗವಂತನ ಪವಿತ್ರ ನಾಮಗಳಿಗೆ ನಮಸ್ಕಾರ; ಒಂದೊಂದು ನಾಮ ಹೇಳುವಾಗಲೂ ಮುಟ್ಟಿದ ಅಂಗದಲ್ಲಿ ಆ ರೂಪದ ಭಗವಂತನಿದ್ದಾನೆಂದು ಸ್ಮರಿಸಬೇಕು.',
+          },
+        },
+      ],
+    },
+    {
+      title: 'श्रौताचमनम्',
+      titleEn: 'Shrauta achamana (with the names of the Vedas) — for reference',
+      note: 'The Madhva commentary on Sri Madhvacharya’s Sadachara-smriti describes all three kinds of achamana — Smarta (with the Gayatri and apo hi shtha), Shrauta or mantra-achamana (with the names of the Vedas) and Vaishnava (Keshavadi) — and concludes that, being followed by all the learned, the Vaishnava (Keshavadi) achamana is to be done in every rite. The other two are given here so that you can recognise them; do them only if your guru or family has taught them. Sip from the base of the palm (gokarna shape, water to cover a grain of urad) three times, with ॐ ऋग्वेदाय स्वाहा, ॐ यजुर्वेदाय स्वाहा and ॐ सामवेदाय स्वाहा. Then, with the wet hand, wipe the lips twice (Atharvaveda; Itihasa-Purana) and touch the mouth (Agni); sprinkle the left hand (the stars) and the feet (Vishnu); touch the eyes with thumb and ring finger (Moon, Sun), the nostrils with thumb and index finger (prana, apana), the ears with thumb and little finger (the directions), the upper arms with thumb and middle finger (Indra), the heart with four fingers (Rudra), the navel with the thumb (Earth), and the head with all the fingers; let the water left in the hand drip away for Kubera and all the gods (Baudhayana, in the Brahma-karma-samuchchaya; the Ashvalayana rule also has the sips with Om and svaha). The Madhva commentary itself reads ऋग्वेदाय नमः, यजुर्वेदाय नमः, सामवेदाय नमः for the sips and then touches the mouth (Atharvaveda, Agni), the lips (Vishnu, Sarasvati), the nostrils (Prana, Vayu), the eyes (Chandra, Bhaskara), the heart (Brahma, Vishnu), the arms (Indra), the feet (Prithivi), the knees (Antariksha) and the head (Shiva).',
+      noteKn: 'ಶ್ರೀಮಧ್ವಾಚಾರ್ಯರ ಸದಾಚಾರಸ್ಮೃತಿಯ ಮಾಧ್ವ ವ್ಯಾಖ್ಯಾನವು ಮೂರು ಬಗೆಯ ಆಚಮನಗಳನ್ನು — ಸ್ಮಾರ್ತ (ಗಾಯತ್ರಿ, ಆಪೋ ಹಿಷ್ಠಾಗಳಿಂದ), ಶ್ರೌತ ಅಥವಾ ಮಂತ್ರಾಚಮನ (ವೇದಗಳ ಹೆಸರುಗಳಿಂದ), ವೈಷ್ಣವ (ಕೇಶವಾದಿ) — ವಿವರಿಸಿ, ಸಮಸ್ತ ಶಿಷ್ಟರು ಅನುಸರಿಸುವುದರಿಂದ ಎಲ್ಲ ಕರ್ಮಗಳಲ್ಲೂ ವೈಷ್ಣವ (ಕೇಶವಾದಿ) ಆಚಮನವನ್ನೇ ಮಾಡಬೇಕೆಂದು ನಿರ್ಣಯಿಸುತ್ತದೆ. ಉಳಿದೆರಡನ್ನು ಗುರುತಿಸಲೆಂದು ಇಲ್ಲಿ ಕೊಡಲಾಗಿದೆ; ಗುರುಗಳು ಅಥವಾ ಮನೆತನ ಹೇಳಿಕೊಟ್ಟಿದ್ದರೆ ಮಾತ್ರ ಮಾಡಿ. ಗೋಕರ್ಣಾಕಾರದ ಅಂಗೈಯ ಬುಡದಿಂದ (ಉದ್ದಿನಕಾಳು ಮುಳುಗುವಷ್ಟು ನೀರು) “ಓಂ ಋಗ್ವೇದಾಯ ಸ್ವಾಹಾ”, “ಓಂ ಯಜುರ್ವೇದಾಯ ಸ್ವಾಹಾ”, “ಓಂ ಸಾಮವೇದಾಯ ಸ್ವಾಹಾ” ಎಂದು ಮೂರು ಬಾರಿ ಸೇವಿಸಿ. ನಂತರ ಒದ್ದೆ ಕೈಯಿಂದ ತುಟಿಗಳನ್ನು ಎರಡು ಬಾರಿ ಒರೆಸಿ (ಅಥರ್ವವೇದ; ಇತಿಹಾಸ–ಪುರಾಣ), ಬಾಯಿ ಮುಟ್ಟಿ (ಅಗ್ನಿ); ಎಡಗೈಗೆ (ನಕ್ಷತ್ರಗಳು), ಪಾದಗಳಿಗೆ (ವಿಷ್ಣು) ನೀರು ಪ್ರೋಕ್ಷಿಸಿ; ಹೆಬ್ಬೆರಳು–ಉಂಗುರದ ಬೆರಳಿನಿಂದ ಕಣ್ಣುಗಳು (ಚಂದ್ರ, ಸೂರ್ಯ), ಹೆಬ್ಬೆರಳು–ತೋರುಬೆರಳಿನಿಂದ ಮೂಗಿನ ಹೊಳ್ಳೆಗಳು (ಪ್ರಾಣ, ಅಪಾನ), ಹೆಬ್ಬೆರಳು–ಕಿರುಬೆರಳಿನಿಂದ ಕಿವಿಗಳು (ದಿಕ್ಕುಗಳು), ಹೆಬ್ಬೆರಳು–ನಡುಬೆರಳಿನಿಂದ ತೋಳುಗಳು (ಇಂದ್ರ), ನಾಲ್ಕು ಬೆರಳುಗಳಿಂದ ಹೃದಯ (ರುದ್ರ), ಹೆಬ್ಬೆರಳಿನಿಂದ ನಾಭಿ (ಪೃಥ್ವಿ), ಎಲ್ಲ ಬೆರಳುಗಳಿಂದ ತಲೆ ಮುಟ್ಟಿಕೊಳ್ಳಿ; ಕೈಯಲ್ಲಿ ಉಳಿದ ನೀರನ್ನು ಕುಬೇರಾದಿ ಸಮಸ್ತ ದೇವತೆಗಳಿಗಾಗಿ ಬಿಡಿ (ಬ್ರಹ್ಮಕರ್ಮಸಮುಚ್ಚಯದಲ್ಲಿನ ಬೋಧಾಯನ ವಿಧಿ; ಆಶ್ವಲಾಯನರೂ ಪ್ರಣವ–ಸ್ವಾಹಾಕಾರ ಸಹಿತ ಮೂರು ಗುಟುಕುಗಳನ್ನು ಹೇಳುತ್ತಾರೆ). ಮಾಧ್ವ ವ್ಯಾಖ್ಯಾನದಲ್ಲಿ ಗುಟುಕುಗಳಿಗೆ “ಋಗ್ವೇದಾಯ ನಮಃ, ಯಜುರ್ವೇದಾಯ ನಮಃ, ಸಾಮವೇದಾಯ ನಮಃ” ಎಂದಿದ್ದು, ನಂತರ ಬಾಯಿ (ಅಥರ್ವವೇದ, ಅಗ್ನಿ), ತುಟಿಗಳು (ವಿಷ್ಣು, ಸರಸ್ವತಿ), ಮೂಗಿನ ಹೊಳ್ಳೆಗಳು (ಪ್ರಾಣ, ವಾಯು), ಕಣ್ಣುಗಳು (ಚಂದ್ರ, ಭಾಸ್ಕರ), ಹೃದಯ (ಬ್ರಹ್ಮ, ವಿಷ್ಣು), ತೋಳುಗಳು (ಇಂದ್ರ), ಪಾದಗಳು (ಪೃಥ್ವಿ), ಮಂಡಿಗಳು (ಅಂತರಿಕ್ಷ), ತಲೆ (ಶಿವ) ಮುಟ್ಟುವ ಕ್ರಮವಿದೆ.',
+      when: { tradition: ['madhva'] },
+      verses: [
+        {
+          text: 'ॐ ऋग्वेदाय स्वाहा । ॐ यजुर्वेदाय स्वाहा । ॐ सामवेदाय स्वाहा ॥',
+          meaning: {
+            en: 'Om, to the Rigveda, svaha; Om, to the Yajurveda, svaha; Om, to the Samaveda, svaha. (A sip of water with each, offered to the three Vedas.)',
+            kn: 'ಓಂ ಋಗ್ವೇದಕ್ಕೆ ಸ್ವಾಹಾ; ಓಂ ಯಜುರ್ವೇದಕ್ಕೆ ಸ್ವಾಹಾ; ಓಂ ಸಾಮವೇದಕ್ಕೆ ಸ್ವಾಹಾ. (ಪ್ರತಿಯೊಂದರೊಡನೆ ಒಂದು ಗುಟುಕು ನೀರು — ಮೂರು ವೇದಗಳಿಗೆ ಅರ್ಪಣೆ.)',
+          },
+        },
+        {
+          text: 'ॐ अथर्ववेदाय नमः । ॐ इतिहासपुराणेभ्यो नमः । ॐ अग्नये नमः ।\nॐ नक्षत्रेभ्यो नमः । ॐ विष्णवे नमः ।\nॐ चन्द्राय नमः । ॐ आदित्याय नमः ।\nॐ प्राणाय नमः । ॐ अपानाय नमः ।\nॐ दिग्भ्यो नमः । ॐ दिग्भ्यो नमः ।\nॐ इन्द्राय नमः । ॐ इन्द्राय नमः ।\nॐ रुद्राय नमः । ॐ पृथिव्यै नमः ॥',
+          meaning: {
+            en: 'Salutations to the Atharvaveda and to the Itihasas and Puranas (wiping the lips); to Agni (the mouth); to the stars (the left hand); to Vishnu (the feet); to the Moon and the Sun (the two eyes); to prana and apana (the two nostrils); to the directions (the two ears); to Indra (the two arms); to Rudra (the heart); and to the Earth (the navel).',
+            kn: 'ಅಥರ್ವವೇದಕ್ಕೂ ಇತಿಹಾಸ–ಪುರಾಣಗಳಿಗೂ ನಮಸ್ಕಾರ (ತುಟಿಗಳನ್ನು ಒರೆಸುವುದು); ಅಗ್ನಿಗೆ (ಬಾಯಿ); ನಕ್ಷತ್ರಗಳಿಗೆ (ಎಡಗೈ); ವಿಷ್ಣುವಿಗೆ (ಪಾದಗಳು); ಚಂದ್ರ–ಸೂರ್ಯರಿಗೆ (ಎರಡು ಕಣ್ಣು); ಪ್ರಾಣ–ಅಪಾನಗಳಿಗೆ (ಎರಡು ಮೂಗಿನ ಹೊಳ್ಳೆ); ದಿಕ್ಕುಗಳಿಗೆ (ಎರಡು ಕಿವಿ); ಇಂದ್ರನಿಗೆ (ಎರಡು ತೋಳು); ರುದ್ರನಿಗೆ (ಹೃದಯ); ಪೃಥ್ವಿಗೆ (ನಾಭಿ) ನಮಸ್ಕಾರ.',
+          },
+        },
+      ],
+    },
+    {
+      title: 'स्मार्ताचमनम्',
+      titleEn: 'Smarta achamana (with the Gayatri and apo hi shtha) — for reference',
+      note: 'This is what the Madhva Sadachara commentary calls the Smarta achamana (after Bharadvaja). Sip three times with the three padas of the Gayatri, each preceded by Om (some manuals add the vyahritis or svaha). Then, washing the hand in between: with the nine padas of apo hi shtha wash the left and right hands and touch the cheeks, the lips, the joined palms, the feet and the head; with the seven vyahritis (bhuh … satyam) touch the tip and the two sides of the nose, the two eyes and the two ears; with the three padas of the Gayatri the navel, the heart and the head; and with its shiras (apo jyoti …) the two shoulders — twenty-four places in all. The places vary slightly between manuals.',
+      noteKn: 'ಇದನ್ನು ಮಾಧ್ವ ಸದಾಚಾರ ವ್ಯಾಖ್ಯಾನ (ಭರದ್ವಾಜರನ್ನು ಉಲ್ಲೇಖಿಸಿ) ಸ್ಮಾರ್ತ ಆಚಮನ ಎನ್ನುತ್ತದೆ. ಗಾಯತ್ರಿಯ ಮೂರು ಪಾದಗಳಿಂದ, ಪ್ರತಿಯೊಂದಕ್ಕೂ ಮೊದಲು ಓಂ ಸೇರಿಸಿ, ಮೂರು ಬಾರಿ ಸೇವಿಸಿ (ಕೆಲವು ಪುಸ್ತಕಗಳು ವ್ಯಾಹೃತಿಗಳನ್ನೋ ಸ್ವಾಹಾವನ್ನೋ ಸೇರಿಸುತ್ತವೆ). ನಂತರ ನಡುನಡುವೆ ಕೈ ತೊಳೆಯುತ್ತಾ: “ಆಪೋ ಹಿಷ್ಠಾ”ದ ಒಂಬತ್ತು ಪಾದಗಳಿಂದ ಎಡ–ಬಲ ಕೈಗಳನ್ನು ತೊಳೆದು ಕೆನ್ನೆಗಳು, ತುಟಿಗಳು, ಜೋಡಿಸಿದ ಅಂಗೈಗಳು, ಪಾದಗಳು, ತಲೆಯನ್ನು ಮುಟ್ಟಿ; ಏಳು ವ್ಯಾಹೃತಿಗಳಿಂದ (ಭೂಃ … ಸತ್ಯಂ) ಮೂಗಿನ ತುದಿ, ಮೂಗಿನ ಎರಡು ಪಕ್ಕ, ಎರಡು ಕಣ್ಣು, ಎರಡು ಕಿವಿ; ಗಾಯತ್ರಿಯ ಮೂರು ಪಾದಗಳಿಂದ ನಾಭಿ, ಹೃದಯ, ತಲೆ; ಅದರ ಶಿರಸ್ಸಿನಿಂದ (ಆಪೋ ಜ್ಯೋತೀ…) ಎರಡು ಭುಜಗಳು — ಒಟ್ಟು ಇಪ್ಪತ್ನಾಲ್ಕು ಸ್ಥಾನಗಳು. ಸ್ಥಾನಗಳು ಪುಸ್ತಕದಿಂದ ಪುಸ್ತಕಕ್ಕೆ ಸ್ವಲ್ಪ ಭಿನ್ನ.',
+      when: { tradition: ['madhva'] },
+      verses: [
+        {
+          text: 'ॐ तत्सवितुर्वरेण्यम् । भर्गो देवस्य धीमहि । धियो यो नः प्रचोदयात् ॥',
+          meaning: {
+            en: 'The Gayatri, one pada with each sip: we meditate on the adorable radiance of the divine Savitri; may he move our minds.',
+            kn: 'ಗಾಯತ್ರಿ — ಪ್ರತಿ ಗುಟುಕಿಗೆ ಒಂದು ಪಾದ: ಸವಿತೃದೇವನ ಪೂಜನೀಯ ತೇಜಸ್ಸನ್ನು ಧ್ಯಾನಿಸುತ್ತೇವೆ; ಅವನು ನಮ್ಮ ಬುದ್ಧಿಯನ್ನು ಪ್ರೇರೇಪಿಸಲಿ.',
+          },
+        },
+        {
+          text: 'आपो हि ष्ठा मयोभुवः ।\nता न ऊर्जे दधातन ।\nमहे रणाय चक्षसे ॥',
+          meaning: {
+            en: 'O Waters, you are the bringers of happiness. Fill us with strength, so that we may behold great joy.',
+            kn: 'ಓ ಜಲದೇವತೆಗಳೇ, ನೀವು ಸುಖವನ್ನು ಕೊಡುವವರು. ನಮಗೆ ಶಕ್ತಿಯನ್ನು ತುಂಬಿ, ಮಹತ್ತಾದ ಆನಂದವನ್ನು ಕಾಣುವಂತೆ ಮಾಡಿ.',
+          },
+        },
+        {
+          text: 'यो वः शिवतमो रसः ।\nतस्य भाजयतेह नः ।\nउशतीरिव मातरः ॥',
+          meaning: {
+            en: 'Let us share here in your most auspicious essence, as loving mothers share with their children.',
+            kn: 'ಪ್ರೀತಿಯುಳ್ಳ ತಾಯಂದಿರು ಮಕ್ಕಳಿಗೆ ಉಣಿಸುವಂತೆ, ನಿಮ್ಮಲ್ಲಿರುವ ಅತ್ಯಂತ ಮಂಗಳಕರವಾದ ರಸವನ್ನು ನಮಗೂ ಇಲ್ಲಿ ಕರುಣಿಸಿ.',
+          },
+        },
+        {
+          text: 'तस्मा अरं गमाम वः ।\nयस्य क्षयाय जिन्वथ ।\nआपो जनयथा च नः ॥',
+          meaning: {
+            en: 'May we readily attain that essence of yours with which you nourish all that dwells in the world; O Waters, bring us to new life.',
+            kn: 'ಲೋಕದ ಜೀವಿಗಳನ್ನು ಪೋಷಿಸುವ ನಿಮ್ಮ ಆ ರಸವನ್ನು ನಾವು ಸಂಪೂರ್ಣವಾಗಿ ಪಡೆಯುವಂತಾಗಲಿ; ಓ ಜಲದೇವತೆಗಳೇ, ನಮಗೆ ಹೊಸ ಚೈತನ್ಯವನ್ನು ಕೊಡಿ.',
+          },
+        },
+        {
+          text: 'ॐ भूः । ॐ भुवः । ॐ स्वः । ॐ महः ।\nॐ जनः । ॐ तपः । ॐ सत्यम् ।\nॐ तत्सवितुर्वरेण्यं भर्गो देवस्य धीमहि ।\nधियो यो नः प्रचोदयात् ।\nॐ आपो ज्योती रसोऽमृतं ब्रह्म भूर्भुवः स्वरोम् ॥',
+          meaning: {
+            en: 'Om is recalled with each of the seven worlds, from Bhuh to Satya. We meditate on the adorable radiance of the divine Savitri, who moves our minds. Om — he is the waters, the light, the essence, the immortal, Brahman; he fills earth, sky and heaven.',
+            kn: 'ಭೂಃ ಲೋಕದಿಂದ ಸತ್ಯಲೋಕದವರೆಗಿನ ಏಳು ಲೋಕಗಳನ್ನು ಓಂಕಾರದೊಂದಿಗೆ ಸ್ಮರಿಸುತ್ತೇನೆ. ನಮ್ಮ ಬುದ್ಧಿಯನ್ನು ಪ್ರೇರೇಪಿಸುವ ಸವಿತೃದೇವನ ಪೂಜನೀಯ ತೇಜಸ್ಸನ್ನು ಧ್ಯಾನಿಸುತ್ತೇವೆ. ಜಲ, ಜ್ಯೋತಿ, ರಸ, ಅಮೃತ ಎಲ್ಲವೂ ಅವನೇ; ಭೂಮಿ, ಅಂತರಿಕ್ಷ, ಸ್ವರ್ಗಗಳನ್ನು ವ್ಯಾಪಿಸಿರುವ ಪರಬ್ರಹ್ಮನೂ ಅವನೇ.',
           },
         },
       ],
