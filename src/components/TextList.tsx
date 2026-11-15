@@ -22,13 +22,14 @@ function subtitleFor(m: Mantra, override?: string) {
 /**
  * The English name without what the list already says: in a numbered book the part's own
  * name ("Sundarakanda · Sarga 1 · Hanuman's leap" → "Hanuman's leap"); for a song the song,
- * not the composer ("Purandara Dasa · Jagadoddharana" → "Jagadoddharana").
+ * the composer after it, or left out for Purandara Dasa ("Purandara Dasa · Jagadoddharana" → "Jagadoddharana").
  */
 function shortName(m: Mantra, numbered?: boolean): string | undefined {
   const parts = m.titleEn.split(' · ');
   if (parts.length < 2) return undefined;
   if (numbered) return parts[parts.length - 1];
-  if (m.category === 'dasara-pada') return parts.slice(1).join(' · ');
+  // Most songs are Purandara Dasa's: name the composer only for the others.
+  if (m.category === 'dasara-pada') return parts[0] === 'Purandara Dasa' ? parts.slice(1).join(' · ') : `${parts.slice(1).join(' · ')} · ${parts[0]}`;
   return undefined;
 }
 

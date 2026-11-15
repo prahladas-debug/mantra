@@ -29,7 +29,7 @@ const SERIES_NAMES: Record<string, { title: string; titleEn: string }> = {
 const DEITY_GROUPS: [id: string, title: string, match: RegExp][] = [
   ['ganesha', 'Ganesha', /ganesh|ganapati|vinayaka/],
   ['venkatesha', 'Venkatesha', /venkat|srinivasa/],
-  ['krishna', 'Krishna', /krishna|govinda|mukunda|damodara|gopala|ranga\b/],
+  ['krishna', 'Krishna', /krishna|govinda|mukunda|damodara|gopala|ranga(natha)?\b/],
   ['hanuman', 'Hanuman · Vayu', /hanuman|anjaneya|vayu|mukhyaprana|manyu/],
   ['vishnu', 'Vishnu · Rama · Narasimha', /vishnu|hari\b|\brama\b|narayana|vith?thala|achyuta|ananta|jagadisha/],
   ['shiva', 'Shiva', /shiva|rudra|bhairava|dakshinamurti|tryambaka/],
@@ -62,7 +62,9 @@ function groupOf(m: Mantra): [id: string, title: string, order: number] {
       return [g, t, DEITY_ORDER.indexOf(g)];
     }
     case 'dasara-pada': {
-      if (/mangal/.test(id)) return ['mangala', 'Mangalarati', 99];
+      if (/suladi|ugabhoga/.test(id)) return ['suladi', 'Suladi and Ugabhoga', 100];
+      if (/-(mangal\w*|lali|arati\w*)(-|$)/.test(id)) return ['mangala', 'Lali and Mangalarati', 99];
+      if (/raghavendra|rayara|dasarendare/.test(id)) return ['guru', 'Gurus and Haridasas', 98];
       const [g, t] = deityGroup(m);
       return [g, g === 'vishnu' ? 'Hari' : t, DEITY_ORDER.indexOf(g)];
     }
