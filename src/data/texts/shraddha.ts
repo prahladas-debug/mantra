@@ -15,7 +15,7 @@ export const shraddha: Mantra = {
   titleEn: 'Shraddha (annual, Mahalaya, ama and hiranya)',
   category: 'samskara',
   deity: 'The pitrs, and Vishnu (Janardana) within them',
-  source: 'Ashvalayana Grihya Sutra 4.7 and the shraddha prayogas of the Madhva and Smarta traditions (see the sources at the top of the file)',
+  source: 'Ashvalayana Grihya Sutra 4.7 and the shraddha prayogas of the Madhva and Smarta traditions',
   summary: 'A step-by-step guide to the annual (pratyabdika) shraddha in the parvana form as done in Karnataka — achamana and pavitra, permission, sankalpa with the placeholders explained, inviting the brahmanas, avahana of the Vishvedevas and pitrs, arghya, agnaukarana, the serving and what is recited during the meal, vikira, pinda pradana, svadha vachana, visarjana and the closing — with the Mahalaya paksha shraddha and the ama (uncooked) and hiranya forms. Choose your tradition (Madhva or Smarta) and Veda (Rig or Yajur) at the top; the sankalpa, mantras and practices change accordingly.',
   summaryKn: 'ಕರ್ನಾಟಕದಲ್ಲಿ ಪಾರ್ವಣ ವಿಧಾನದಲ್ಲಿ ಮಾಡುವ ಪ್ರತ್ಯಾಬ್ದಿಕ (ವಾರ್ಷಿಕ) ಶ್ರಾದ್ಧದ ಹಂತಹಂತದ ಮಾರ್ಗದರ್ಶಿ — ಆಚಮನ–ಪವಿತ್ರ, ಅನುಜ್ಞೆ, ಸಂಕಲ್ಪ (ಖಾಲಿ ಸ್ಥಳಗಳ ವಿವರಣೆಯೊಂದಿಗೆ), ಬ್ರಾಹ್ಮಣರಿಗೆ ಕ್ಷಣ, ವಿಶ್ವೇದೇವ–ಪಿತೃ ಆವಾಹನ, ಅರ್ಘ್ಯ, ಅಗ್ನೌಕರಣ, ಬಡಿಸುವಿಕೆ ಮತ್ತು ಊಟದ ಸಮಯದ ಪಠಣ, ವಿಕಿರ, ಪಿಂಡಪ್ರದಾನ, ಸ್ವಧಾವಾಚನ, ವಿಸರ್ಜನ ಮತ್ತು ಸಮಾಪ್ತಿ — ಜೊತೆಗೆ ಮಹಾಲಯ ಪಕ್ಷ ಶ್ರಾದ್ಧ ಹಾಗೂ ಆಮ (ಬೇಯಿಸದ) ಮತ್ತು ಹಿರಣ್ಯ ಶ್ರಾದ್ಧಗಳು. ಮೇಲ್ಭಾಗದಲ್ಲಿ ಸಂಪ್ರದಾಯ (ಮಾಧ್ವ/ಸ್ಮಾರ್ತ) ಮತ್ತು ವೇದ (ಋಗ್/ಯಜುಸ್) ಆರಿಸಿ; ಸಂಕಲ್ಪ, ಮಂತ್ರ, ಪದ್ಧತಿಗಳು ಅದಕ್ಕೆ ತಕ್ಕಂತೆ ಬದಲಾಗುತ್ತವೆ.',
   variants: [
