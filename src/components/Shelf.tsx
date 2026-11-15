@@ -87,7 +87,7 @@ export function BookCover({ work, width = 156, still }: { work: GreatWork; width
   const small = width < 140;
   const height = Math.round(width * 1.4);
   // Malayalam letters are wide; phones also shrink a line that is still too long, the web does not.
-  const size = (small ? 15 : 19) * (settings.script === 'malayalam' ? 0.82 : 1);
+  const size = (width < 115 ? 13 : small ? 15 : 19) * (settings.script === 'malayalam' ? 0.82 : 1);
   return (
     <Pressable
       disabled={still}

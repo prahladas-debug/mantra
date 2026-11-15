@@ -1,7 +1,7 @@
 import { Ionicons } from '@expo/vector-icons';
 import { Link, Redirect, router, type Href } from 'expo-router';
 import { useState } from 'react';
-import { Modal, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
+import { Modal, Pressable, ScrollView, StyleSheet, Text, View, useWindowDimensions } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { TodayCard } from '../../components/PanchangaCard';
 import { RoutineCard } from '../../components/RoutineCard';
@@ -59,10 +59,13 @@ const EVERY_DAY: { icon: keyof typeof Ionicons.glyphMap; label: string; href: st
 export default function Home() {
   const { theme, settings, recent, positions, routine, ready } = useSettings();
   const insets = useSafeAreaInsets();
+  const { width } = useWindowDimensions();
   const [scriptSheet, setScriptSheet] = useState(false);
   const font = scriptFont(settings.script, settings.bookFonts);
   const script = SCRIPTS.find((x) => x.id === settings.script) ?? SCRIPTS[0];
   const last = recent.map((r) => getMantraInfo(r.id)).find((m) => !!m);
+  // About three and a half small covers across the screen, so the row reads as a shelf to swipe.
+  const coverW = Math.max(88, Math.min(112, Math.floor((width - 32 - 30) / 3.4)));
 
   // First launch: choose language, tradition and place.
   if (!ready) return <View style={{ flex: 1, backgroundColor: theme.bg }} />;
@@ -122,9 +125,9 @@ export default function Home() {
       )}
 
       <ShelfHeading title="Great works" />
-      <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={{ paddingHorizontal: 16, gap: 12, paddingBottom: 6 }}>
+      <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={{ paddingHorizontal: 16, gap: 10, paddingBottom: 6 }}>
         {greatWorks(settings.variants.tradition).map((w) => (
-          <BookCover key={w.category ?? w.textId} work={w} />
+          <BookCover key={w.category ?? w.textId} work={w} width={coverW} />
         ))}
       </ScrollView>
 
