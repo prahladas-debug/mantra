@@ -1,7 +1,7 @@
 import { Stack, useLocalSearchParams } from 'expo-router';
 import { useState } from 'react';
 import { ScrollView, Text, View } from 'react-native';
-import { FestivalLine, useCalendarMode, useEkadashiRule, useSauraStart } from '../components/PanchangaCard';
+import { FestivalLine, calcMethodLabel, useCalcMethod, useCalendarMode, useEkadashiRule, useSauraStart } from '../components/PanchangaCard';
 import { CalendarBar } from '../components/CalendarBar';
 import { Chip, SectionHeading } from '../components/ui';
 import { festivalsBetween, type Festival } from '../lib/festivals';
@@ -24,8 +24,9 @@ export default function FestivalsYearScreen() {
   const [rule] = useEkadashiRule();
   const [mode] = useCalendarMode();
   const [start] = useSauraStart();
+  const [method] = useCalcMethod();
 
-  const all = festivalsBetween(city, `${year}-01-01`, `${year}-12-31`, rule, mode, start);
+  const all = festivalsBetween(city, `${year}-01-01`, `${year}-12-31`, rule, mode, start, method);
   const byMonth: Festival[][] = Array.from({ length: 12 }, () => []);
   for (const f of all) {
     // A period that began in the previous year is listed under January.
@@ -61,8 +62,9 @@ export default function FestivalsYearScreen() {
         ),
       )}
       <Text style={{ color: theme.textMuted, fontSize: 13, margin: 16, lineHeight: 19 }}>
-        Computed on the device from the Sun and Moon positions; dates agree with drikpanchang for the years checked
-        (2025–2030 and spot checks to 2036). Local matha and temple calendars can differ by a day.
+        {method === 'surya'
+          ? `Computed on the device by the ${calcMethodLabel(method)}; checked against matha panchangas (Uttaradi Math, Raghavendra Matha, 2025–2027). Matha and temple calendars can still differ by a day.`
+          : 'Computed on the device from the Sun and Moon positions; dates agree with drikpanchang for the years checked (2025–2030 and spot checks to 2036). Local matha and temple calendars can differ by a day.'}
       </Text>
     </ScrollView>
   );

@@ -22,8 +22,8 @@
  * websites give 14 April, the saṅkrānti day itself) — treat such days with care.
  */
 import {
-  RASHI, RTU_LOC, addDays, cityDateOf, crossing, fromJulian, siderealSun, sunriseDayOf, sunriseJd, sunsetJd,
-  type City, type Panchanga,
+  RASHI, RTU_LOC, addDays, cityDateOf, crossing, fromJulian, getCalcMethod, siderealSun, sunriseDayOf, sunriseJd, sunsetJd, withMethod,
+  type CalcMethod, type City, type Panchanga,
 } from './panchanga';
 
 /**
@@ -65,9 +65,13 @@ export interface SauraDay {
 
 const cache = new Map<string, SauraDay>();
 
-/** Solar month and day number of a civil day at the city. */
-export function sauraDay(city: City, iso: string, start: SauraStart = 'next'): SauraDay {
-  const key = `${city.id}|${iso}|${start}`;
+/** Solar month and day number of a civil day at the city (`calc`: calculation method for this call). */
+export function sauraDay(city: City, iso: string, start: SauraStart = 'next', calc?: CalcMethod): SauraDay {
+  return withMethod(calc, () => sauraDayOf(city, iso, start));
+}
+
+function sauraDayOf(city: City, iso: string, start: SauraStart): SauraDay {
+  const key = `${getCalcMethod()}|${city.id}|${iso}|${start}`;
   const hit = cache.get(key);
   if (hit) return hit;
   const r = sunriseJd(city, iso);
@@ -92,7 +96,11 @@ export function sauraDay(city: City, iso: string, start: SauraStart = 'next'): S
 }
 
 /** First day (ISO) of the solar month of rāśi `rasi` that begins in Gregorian year `year`. */
-export function sauraMonthStart(city: City, year: number, rasi: number, start: SauraStart = 'next'): string {
+export function sauraMonthStart(city: City, year: number, rasi: number, start: SauraStart = 'next', calc?: CalcMethod): string {
+  return withMethod(calc, () => sauraMonthStartOf(city, year, rasi, start));
+}
+
+function sauraMonthStartOf(city: City, year: number, rasi: number, start: SauraStart): string {
   // Approximate ingress: Meṣa ≈ 14 Apr, then ≈30.44 days per rāśi; Makara ≈ 14 Jan.
   const approx = rasi >= 9 ? Date.UTC(year, 0, 14) + (rasi - 9) * 30.44 * 86400000 : Date.UTC(year, 3, 14) + rasi * 30.9 * 86400000;
   const ingress = crossing(siderealSun, rasi * 30, approx / 86400000 + 2440587.5 - 10, 0.9856);

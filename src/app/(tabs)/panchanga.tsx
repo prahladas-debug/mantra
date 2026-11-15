@@ -4,11 +4,11 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { useMemo, useState } from 'react';
 import { Pressable, ScrollView, Text, View } from 'react-native';
 import { CalendarBar } from '../../components/CalendarBar';
-import { FestivalLine, NavButton, useCalendarMode, useEkadashiRule, useSauraStart } from '../../components/PanchangaCard';
+import { FestivalLine, NavButton, useCalcMethod, useCalendarMode, useEkadashiRule, useSauraStart } from '../../components/PanchangaCard';
 import { SectionHeading } from '../../components/ui';
 import { festivalsBetween } from '../../lib/festivals';
 import {
-  VARA, addDays, cityById, cityLabel, formatTime, fromJulian, moonriseBetween, panchanga, parseIso, sunriseJd, todayIn, type Span,
+  VARA, addDays, cityById, cityLabel, formatTime, fromJulian, moonriseBetween, panchanga, parseIso, sunriseJd, todayIn, withMethod, type Span,
 } from '../../lib/panchanga';
 import { plain } from '../../lib/plain';
 import { sauraDay, sauraRtu, sauraSankalpa } from '../../lib/sauramana';
@@ -62,15 +62,19 @@ export default function PanchangaScreen() {
   const [rule] = useEkadashiRule();
   const [mode] = useCalendarMode();
   const [start] = useSauraStart();
+  const [method] = useCalcMethod();
+  const ss = method === 'surya';
 
-  const p = useMemo(() => panchanga(date, city), [date, city]);
-  const todays = useMemo(() => festivalsBetween(city, date, date, rule, mode, start), [city, date, rule, mode, start]);
-  const upcoming = useMemo(() => festivalsBetween(city, addDays(date, 1), addDays(date, 30), rule, mode, start), [city, date, rule, mode, start]);
-  const saura = useMemo(() => sauraDay(city, date, start), [city, date, start]);
+  const p = useMemo(() => panchanga(date, city, method), [date, city, method]);
+  const todays = useMemo(() => festivalsBetween(city, date, date, rule, mode, start, method), [city, date, rule, mode, start, method]);
+  const upcoming = useMemo(() => festivalsBetween(city, addDays(date, 1), addDays(date, 30), rule, mode, start, method), [city, date, rule, mode, start, method]);
+  const saura = useMemo(() => sauraDay(city, date, start, method), [city, date, start, method]);
   const moonrise = useMemo(
-    () => moonriseBetween(city.lat, city.lon, sunriseJd(city, date), sunriseJd(city, addDays(date, 1))),
-    [city, date],
+    () => withMethod(method, () => moonriseBetween(city.lat, city.lon, sunriseJd(city, date), sunriseJd(city, addDays(date, 1)))),
+    [city, date, method],
   );
+  // With the Surya Siddhanta the day starts at its own sunrise; show the visible one too.
+  const visibleRise = useMemo(() => (ss ? fromJulian(withMethod('drik', () => sunriseJd(city, date))) : null), [ss, date, city]);
   const sankalpa = mode === 'saura' ? sauraSankalpa(p, saura) : p.sankalpa;
   const t = (s: string) => translit(s, settings.script);
   const tm = (d: Date) => formatTime(d, city, date);
@@ -104,14 +108,14 @@ export default function PanchangaScreen() {
     [['Paksha', 'पक्षः'], t(p.paksha)],
   ];
   const sunMoon: Row[] = [
-    [['Sunrise', 'सूर्योदयः'], tm(p.sunrise)],
+    [['Sunrise', 'सूर्योदयः'], visibleRise ? `${tm(p.sunrise)}\nvisible ${tm(visibleRise)}` : tm(p.sunrise)],
     [['Sunset', 'सूर्यास्तः'], tm(p.sunset)],
     [['Moonrise', 'चन्द्रोदयः'], moonrise === null ? '—' : tm(fromJulian(moonrise))],
     [['Sun sign', 'सूर्यराशिः'], t(p.sunRashi)],
     [['Moon sign', 'चन्द्रराशिः'], until(p.moonRashis)],
   ];
   const span = (s: [Date, Date]) => `${tm(s[0])} – ${tm(s[1])}`;
-  const parana = festivalsBetween(city, addDays(date, -1), addDays(date, -1), rule, mode, start).find((f) => f.kind === 'ekadashi' && f.parana?.date === date)?.parana;
+  const parana = festivalsBetween(city, addDays(date, -1), addDays(date, -1), rule, mode, start, method).find((f) => f.kind === 'ekadashi' && f.parana?.date === date)?.parana;
   const times: Row[] = [
     ...(parana ? ([[['Parana (break the fast)', 'पारणम्'], `${tm(parana.start)} – ${tm(parana.end)}${parana.note ? `\n${plain(parana.note)}` : ''}`, 'good']] as Row[]) : []),
     [['Abhijit muhurta', 'अभिजित्'], `${span(p.abhijit)}${p.weekday === 3 ? '\n(not used on Wednesdays)' : ''}`, 'good'],
@@ -124,6 +128,16 @@ export default function PanchangaScreen() {
     <ScrollView style={{ backgroundColor: theme.bg }} contentContainerStyle={{ paddingTop: insets.top + 6, paddingBottom: 40 }}>
       <CalendarBar
         trailing={
+          <View style={{ flexDirection: 'row', gap: 8 }}>
+          <Pressable
+            onPress={() => router.push('/festival-search')}
+            accessibilityRole="button"
+            accessibilityLabel="Find a festival date"
+            hitSlop={8}
+            style={({ pressed }) => ({ padding: 8, borderRadius: 18, borderWidth: 1, borderColor: theme.cardBorder, backgroundColor: theme.card, opacity: pressed ? 0.6 : 1 })}
+          >
+            <Ionicons name="search" size={18} color={theme.accent} />
+          </Pressable>
           <Pressable
             onPress={() => router.push({ pathname: '/calendar', params: { month: date.slice(0, 7) } } as Href)}
             accessibilityRole="button"
@@ -133,6 +147,7 @@ export default function PanchangaScreen() {
           >
             <Ionicons name="calendar-outline" size={18} color={theme.accent} />
           </Pressable>
+          </View>
         }
       />
 
@@ -189,9 +204,11 @@ export default function PanchangaScreen() {
       </View>
 
       <Text style={{ color: theme.textMuted, fontSize: 13, margin: 16, lineHeight: 19 }}>
-        For {cityLabel(city)} · times are local ({city.tz >= 0 ? '+' : ''}{city.tz} h{city.dst ? ', with daylight saving' : ''}).
-        Drik panchanga, calculated on the phone from the true positions of the Sun and Moon (Lahiri ayanamsha); tithi and nakshatra end times agree with
-        published panchangas to about a minute. For muhurtas, follow your family panchanga.
+        For {cityLabel(city)} · times are local ({city.tz >= 0 ? '+' : ''}{city.tz} h{city.dst ? ', with daylight saving' : ''}).{' '}
+        {ss
+          ? 'Surya Siddhanta panchanga, calculated on the phone by the classical text, with its sunrise (centre of the Sun, no refraction); tithi and nakshatra end times agree with matha panchangas to a few minutes. '
+          : 'Drik panchanga, calculated on the phone from the true positions of the Sun and Moon (Lahiri ayanamsha); tithi and nakshatra end times agree with published panchangas to about a minute. '}
+        For muhurtas, follow your family panchanga.
       </Text>
     </ScrollView>
   );

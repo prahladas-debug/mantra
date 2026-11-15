@@ -2,9 +2,9 @@ import { Ionicons } from '@expo/vector-icons';
 import { router, useLocalSearchParams, type Href } from 'expo-router';
 import { useMemo, useState } from 'react';
 import { FlatList, Pressable, Text, TextInput, View } from 'react-native';
-import { useCalendarMode, useEkadashiRule, useSauraStart } from '../components/PanchangaCard';
+import { useCalcMethod, useCalendarMode, useEkadashiRule, useSauraStart } from '../components/PanchangaCard';
 import { festivalsBetween, type Festival } from '../lib/festivals';
-import { cityById, todayIn } from '../lib/panchanga';
+import { cityById, todayIn, type CalcMethod } from '../lib/panchanga';
 import { plain } from '../lib/plain';
 import { useSettings } from '../lib/settings';
 import { searchKey, translit } from '../lib/transliterate';
@@ -33,11 +33,11 @@ const ALIASES: [RegExp, string][] = [
 
 /** Twelve years of festivals take a moment to compute; keep the last result per choice set. */
 const cache = new Map<string, Festival[]>();
-function allFestivals(city: ReturnType<typeof cityById>, rule: Parameters<typeof festivalsBetween>[3], mode: Parameters<typeof festivalsBetween>[4], start: Parameters<typeof festivalsBetween>[5]) {
-  const key = `${city.id}|${rule}|${mode}|${start}`;
+function allFestivals(city: ReturnType<typeof cityById>, rule: Parameters<typeof festivalsBetween>[3], mode: Parameters<typeof festivalsBetween>[4], start: Parameters<typeof festivalsBetween>[5], method: CalcMethod) {
+  const key = `${method}|${city.id}|${rule}|${mode}|${start}`;
   let list = cache.get(key);
   if (!list) {
-    list = festivalsBetween(city, `${FIRST_YEAR}-01-01`, `${LAST_YEAR}-12-31`, rule, mode, start);
+    list = festivalsBetween(city, `${FIRST_YEAR}-01-01`, `${LAST_YEAR}-12-31`, rule, mode, start, method);
     cache.clear();
     cache.set(key, list);
   }
@@ -51,11 +51,12 @@ export default function FestivalSearch() {
   const [rule] = useEkadashiRule();
   const [mode] = useCalendarMode();
   const [start] = useSauraStart();
+  const [method] = useCalcMethod();
   const [q, setQ] = useState(params.q ?? '');
   const city = cityById(settings.city);
   const today = todayIn(city);
 
-  const all = useMemo(() => allFestivals(city, rule, mode, start), [city, rule, mode, start]);
+  const all = useMemo(() => allFestivals(city, rule, mode, start, method), [city, rule, mode, start, method]);
 
   const results = useMemo(() => {
     const typed = q.trim().toLowerCase();

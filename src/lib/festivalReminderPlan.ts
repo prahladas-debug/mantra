@@ -8,7 +8,7 @@
  * mentions any major festival on that day; other days get a festival reminder.
  */
 import { festivalsBetween, type CalendarMode, type EkadashiRule, type Festival } from './festivals';
-import { addDays, cityDateOf, parseIso, utcOffsetMinutes, type City } from './panchanga';
+import { addDays, cityDateOf, parseIso, utcOffsetMinutes, type CalcMethod, type City } from './panchanga';
 import { paranaTimes, shortDay } from './parana';
 import type { SauraStart } from './sauramana';
 
@@ -50,6 +50,8 @@ export interface FestivalReminderOptions {
   rule: EkadashiRule;
   mode: CalendarMode;
   start: SauraStart;
+  /** Calculation method (default: the one set in panchanga.ts, normally drik). */
+  method?: CalcMethod;
   /** 'HH:MM', city-local, on the evening before (e.g. '19:00'). */
   time: string;
   kinds: { ekadashi: boolean; festivals: boolean };
@@ -109,13 +111,13 @@ export function planFestivalReminders(
   titleOf?: (textId: string) => string | undefined,
   days: number = REMINDER_DAYS,
 ): PlannedReminder[] {
-  const { city, rule, mode, start, time, kinds } = opts;
+  const { city, rule, mode, start, method, time, kinds } = opts;
   if (!kinds.ekadashi && !kinds.festivals) return [];
   const today = cityDateOf(city, now.getTime());
   const from = addDays(today, 1);
   const to = addDays(today, days);
   const byDate = new Map<string, Festival[]>();
-  for (const f of festivalsBetween(city, from, to, rule, mode, start)) {
+  for (const f of festivalsBetween(city, from, to, rule, mode, start, method)) {
     if (f.date < from) continue; // a period that began earlier
     if (!(f.kind === 'ekadashi' ? kinds.ekadashi : kinds.festivals && isMajorFestival(f))) continue;
     byDate.set(f.date, [...(byDate.get(f.date) ?? []), f]);

@@ -1,12 +1,12 @@
 import { Stack, router, useLocalSearchParams, type Href } from 'expo-router';
 import { useState } from 'react';
 import { Pressable, ScrollView, Text, View } from 'react-native';
-import { FestivalLine, NavButton, useCalendarMode, useSauraStart, useEkadashiRule } from '../components/PanchangaCard';
+import { FestivalLine, NavButton, useCalcMethod, useCalendarMode, useSauraStart, useEkadashiRule } from '../components/PanchangaCard';
 import { CalendarBar } from '../components/CalendarBar';
 import { Chip, SectionHeading } from '../components/ui';
 import { festivalsBetween, type CalendarMode, type Festival } from '../lib/festivals';
 import { sauraDay, type SauraStart } from '../lib/sauramana';
-import { MASA, RASHI, cityById, isoDate, lunarMonthAt, sunriseJd, sunriseTithi, todayIn, type City } from '../lib/panchanga';
+import { MASA, RASHI, cityById, isoDate, lunarMonthAt, sunriseJd, sunriseTithi, todayIn, withMethod, type CalcMethod, type City } from '../lib/panchanga';
 import { useSettings } from '../lib/settings';
 import { translit } from '../lib/transliterate';
 
@@ -36,8 +36,12 @@ interface Cell {
   sauraDayNo: number;
 }
 
-/** Grid data for a Gregorian month 'YYYY-MM' at a city. */
-function buildMonth(city: City, month: string, mode: CalendarMode, start: SauraStart) {
+/** Grid data for a Gregorian month 'YYYY-MM' at a city, by the given calculation method. */
+function buildMonth(city: City, month: string, mode: CalendarMode, start: SauraStart, method: CalcMethod) {
+  return withMethod(method, () => buildMonthOf(city, month, mode, start));
+}
+
+function buildMonthOf(city: City, month: string, mode: CalendarMode, start: SauraStart) {
   const [y, m] = month.split('-').map(Number);
   const days = new Date(Date.UTC(y, m, 0)).getUTCDate();
   const lead = new Date(Date.UTC(y, m - 1, 1)).getUTCDay();
@@ -74,12 +78,13 @@ export default function CalendarScreen() {
   const [rule] = useEkadashiRule();
   const [mode] = useCalendarMode();
   const [start] = useSauraStart();
+  const [method] = useCalcMethod();
   const t = (s: string) => translit(s, settings.script);
 
   // Cheap (sunrise times and festival lists are cached in the libraries); the React
   // Compiler memoises the rest.
-  const { y, m, first, last, weeks, lunarLabel } = buildMonth(city, month, mode, start);
-  const festivals = festivalsBetween(city, first, last, rule, mode, start);
+  const { y, m, first, last, weeks, lunarLabel } = buildMonth(city, month, mode, start, method);
+  const festivals = festivalsBetween(city, first, last, rule, mode, start, method);
   const byDate = new Map<string, Festival[]>();
   for (const f of festivals) byDate.set(f.date, [...(byDate.get(f.date) ?? []), f]);
 

@@ -32,7 +32,9 @@
  *
  * Accuracy: tithi ends here are ≈½ min later than drik's (see panchanga.ts), so windows
  * agree to about ±2 min; Mādhva maṭha pañcāṅgas use the Sūrya-siddhānta and can differ by
- * much more — the note says which limit applies so the reader can check theirs.
+ * much more — the note says which limit applies so the reader can check theirs. With the
+ * 'surya' method (setCalcMethod) the dvādaśī and sunrise are the SS ones, as in those
+ * pañcāṅgas.
  */
 import { addDays, formatTime, fromJulian, julianDay, parseIso, sunriseJd, sunsetJd, weekdayOf, type City } from './panchanga';
 

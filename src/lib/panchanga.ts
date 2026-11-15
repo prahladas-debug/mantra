@@ -20,6 +20,16 @@
  * A day whose tithi changes within a few minutes of sunrise can therefore differ from a
  * printed pañcāṅga; for muhūrta decisions consult your family pañcāṅga.
  *
+ * Calculation method (setCalcMethod / getCalcMethod / withMethod)
+ * - 'drik' (default): as above.
+ * - 'surya': Sūrya Siddhānta, as in traditional maṭha pañcāṅgas (see suryaSiddhanta.ts):
+ *   SS true longitudes of the Sun and Moon (already nirayaṇa) and the SS sunrise / sunset.
+ *   Everything that goes through elongation / siderealSun / siderealMoon / sunEventJd —
+ *   tithi, nakṣatra, yoga, karaṇa, lunar months and adhika, saṅkrāntis, festivals,
+ *   ekādaśī and pāraṇa — then follows the SS. Moonrise stays modern.
+ *   Every cache that depends on these (sunrise here, festivals.ts, sauramana.ts) keys on
+ *   the method.
+ *
  * Conventions
  * - A "day" is a civil date at the chosen city, written as an ISO string 'YYYY-MM-DD'.
  *   Its pañcāṅga elements are those prevailing at that day's sunrise (udaya-tithi), and the
@@ -34,6 +44,27 @@
  *   (traditionally avoided on Wednesdays).
  */
 import { INDIA_CITIES } from '../data/cities';
+import { ssMoon, ssSun, ssSunEvent } from './suryaSiddhanta';
+
+/** Pañcāṅga calculation: modern (drik) positions, or the Sūrya Siddhānta ('surya'). */
+export type CalcMethod = 'drik' | 'surya';
+let method: CalcMethod = 'drik';
+/** Choose the calculation for everything computed afterwards (module-wide; default 'drik'). */
+export function setCalcMethod(m: CalcMethod): void {
+  method = m === 'surya' ? 'surya' : 'drik';
+}
+export const getCalcMethod = (): CalcMethod => method;
+/** Run `fn` with the given method (or the current one if undefined), then restore it. */
+export function withMethod<T>(m: CalcMethod | undefined, fn: () => T): T {
+  if (!m || m === method) return fn();
+  const prev = method;
+  method = m;
+  try {
+    return fn();
+  } finally {
+    method = prev;
+  }
+}
 
 const D2R = Math.PI / 180;
 const norm = (x: number) => ((x % 360) + 360) % 360;
@@ -175,11 +206,12 @@ export function ayanamsa(jd: number): number {
 const sunUT = (jdUT: number) => sunLongitude(jdUT + deltaT(jdUT));
 const moonUT = (jdUT: number) => moonLongitude(jdUT + deltaT(jdUT));
 const ayanUT = (jdUT: number) => ayanamsa(jdUT + deltaT(jdUT));
-/** Moon–Sun elongation (0–360) at UT. */
-export const elongation = (jdUT: number) => norm(moonUT(jdUT) - sunUT(jdUT));
-/** Sidereal longitudes at UT. */
-export const siderealSun = (jdUT: number) => norm(sunUT(jdUT) - ayanUT(jdUT));
-export const siderealMoon = (jdUT: number) => norm(moonUT(jdUT) - ayanUT(jdUT));
+/** Moon–Sun elongation (0–360) at UT, by the current method. */
+export const elongation = (jdUT: number) =>
+  method === 'surya' ? norm(ssMoon(jdUT) - ssSun(jdUT)) : norm(moonUT(jdUT) - sunUT(jdUT));
+/** Sidereal longitudes at UT, by the current method (the SS ones need no ayanāṃśa). */
+export const siderealSun = (jdUT: number) => (method === 'surya' ? ssSun(jdUT) : norm(sunUT(jdUT) - ayanUT(jdUT)));
+export const siderealMoon = (jdUT: number) => (method === 'surya' ? ssMoon(jdUT) : norm(moonUT(jdUT) - ayanUT(jdUT)));
 const yogaAngle = (jdUT: number) => norm(siderealSun(jdUT) + siderealMoon(jdUT));
 
 /**
@@ -228,8 +260,10 @@ function sunRaDec(jdUT: number): { ra: number; dec: number } {
 }
 const gmst = (jdUT: number) => norm(280.46061837 + 360.98564736629 * (jdUT - 2451545.0));
 
-/** Sunrise (kind 'rise') or sunset of a civil date (local to the longitude), JD UT. */
+/** Sunrise (kind 'rise') or sunset of a civil date (local to the longitude), JD UT. With the
+ *  'surya' method, the Sūrya Siddhānta sunrise / sunset (centre of the Sun, no refraction). */
 function sunEvent(y: number, m: number, d: number, lat: number, lon: number, kind: 'rise' | 'set'): number {
+  if (method === 'surya') return ssSunEvent(Date.UTC(y, m - 1, d) / DAY_MS + JD_UNIX, lat, lon, kind);
   const h0 = -0.8333;
   let jd = Date.UTC(y, m - 1, d, 12) / DAY_MS + JD_UNIX - lon / 360 + (kind === 'rise' ? -0.25 : 0.25);
   for (let i = 0; i < 8; i++) {
@@ -544,7 +578,7 @@ export function formatTime(t: Date, city: City, day?: string): string {
 const sunCache = new Map<string, number>();
 /** Sunrise / sunset of a civil date at the city, JD (UT). Cached. */
 export function sunEventJd(city: City, iso: string, kind: 'rise' | 'set'): number {
-  const key = `${city.lat},${city.lon},${iso},${kind}`;
+  const key = `${method}|${city.lat},${city.lon},${iso},${kind}`;
   let v = sunCache.get(key);
   if (v === undefined) {
     const [y, m, d] = parseIso(iso);
@@ -686,9 +720,14 @@ const GULIKA = [7, 6, 5, 4, 3, 2, 1];
 
 /**
  * Pañcāṅga for a day at a city. `day` is either an ISO date ('YYYY-MM-DD', the civil date
- * at the city) or a JS Date, whose device-local calendar date is used.
+ * at the city) or a JS Date, whose device-local calendar date is used. `calc` overrides the
+ * module-wide calculation method for this call.
  */
-export function panchanga(day: Date | string, city: City): Panchanga {
+export function panchanga(day: Date | string, city: City, calc?: CalcMethod): Panchanga {
+  return withMethod(calc, () => panchangaOf(day, city));
+}
+
+function panchangaOf(day: Date | string, city: City): Panchanga {
   const date = typeof day === 'string' ? day : isoOf(day);
   const jd = sunriseJd(city, date);
   const jdSet = sunsetJd(city, date);

@@ -34,7 +34,10 @@
  *   sunrise); if it is viddhā, or ekādaśī reaches the next sunrise too, the fast moves to
  *   the next day (on dvādaśī — a "mahādvādaśī"). A kṣaya ekādaśī is observed on the
  *   following dvādaśī day. Gauḍīya calendars (ISKCON, drikpanchang "Vaishnava") also move
- *   the fast for vyañjulī mahādvādaśī (dvādaśī at two sunrises); that case is only noted.
+ *   the fast for vyañjulī mahādvādaśī (dvādaśī at two sunrises); that case is only noted
+ *   (the Uttarādi Maṭha keeps an extra, atirikta, fast on that dvādaśī where the ekādaśī is
+ *   śuddha). With the Sūrya Siddhānta method the vedha window is the one the maṭha
+ *   pañcāṅgas use (SS_MADHVA_VEDHA, about 2¾–3 h before sunrise).
  *   Local maṭha pañcāṅgas may still differ for borderline cases.
  * Ekādaśī names follow the amānta month (24 names; Padminī / Paramā in an adhika month).
  *
@@ -46,9 +49,9 @@
  * Cāndramāna, as at Udupi.
  */
 import {
-  addDays, cityDateOf, crossing, formatTime, fromJulian, julianDay, lunationsBetween, moonriseBetween,
-  parseIso, siderealMoon, siderealSun, sunriseDayOf, sunriseJd, sunsetJd, tithiEnd, tithiStart, weekdayOf,
-  type City, type LunarMonth,
+  addDays, cityDateOf, crossing, formatTime, fromJulian, getCalcMethod, julianDay, lunationsBetween, moonriseBetween,
+  parseIso, siderealMoon, siderealSun, sunriseDayOf, sunriseJd, sunsetJd, tithiEnd, tithiStart, weekdayOf, withMethod,
+  type CalcMethod, type City, type LunarMonth,
 } from './panchanga';
 import { paranaWindow, type Parana } from './parana';
 import { sauraDay, sauraMonthStart, type SauraStart } from './sauramana';
@@ -84,6 +87,16 @@ export interface Festival {
 
 const MIN = 1 / 1440;
 const ARUNODAYA = 96 * MIN;
+/**
+ * Sūrya Siddhānta maṭha practice for the Mādhva daśamī-vedha: the ekādaśī counts as viddhā
+ * unless, at sunrise, it has already run for this fraction of its own length (about 2¾–3 h,
+ * rather than the 96-min aruṇodaya). Fitted to the Uttarādi Maṭha 2025–26 deśa-bheda tables
+ * (district boundaries for 6 Jun, 1 Nov and 15 Nov 2025 put it between 0.1190 and 0.1194)
+ * and reproducing all 103 printed Mādhva fasting days checked (Uttarādi Maṭha India, London,
+ * Dubai, Los Angeles; Rāghavendra Maṭha Mantrālaya; scripts/test-surya-siddhanta.ts), where
+ * the 96-min rule misses 8. Used only with the 'surya' method; drik keeps the 96 min.
+ */
+const SS_MADHVA_VEDHA = 0.1192;
 
 type Kala = 'udaya' | 'arunodaya' | 'purvahna' | 'midday' | 'madhyahna' | 'aparahna' | 'sayahna' | 'pradosha' | 'nishitha';
 
@@ -190,7 +203,11 @@ export function ekadashiDates(city: City, l: LunarMonth, k: 11 | 26): EkadashiIn
   const d1 = addDays(d, 1);
   const kshaya = ee <= sunriseJd(city, d);
   const vrddhi = !kshaya && ee > sunriseJd(city, d1);
-  const viddha = !kshaya && es > sunriseJd(city, d) - ARUNODAYA;
+  const surya = getCalcMethod() === 'surya';
+  // Daśamī at aruṇodaya (96 min before sunrise); the Mādhva rule of the SS maṭha pañcāṅgas
+  // uses a longer window (SS_MADHVA_VEDHA). The Smārta tie-break keeps the 96 min.
+  const arunaViddha = !kshaya && es > sunriseJd(city, d) - ARUNODAYA;
+  const viddha = surya ? !kshaya && sunriseJd(city, d) - es < SS_MADHVA_VEDHA * (ee - es) : arunaViddha;
   const trisprsha = !kshaya && !vrddhi && de <= sunriseJd(city, d1);
   const vyanjuli = !kshaya && !vrddhi && de > sunriseJd(city, addDays(d1, 1));
 
@@ -198,12 +215,12 @@ export function ekadashiDates(city: City, l: LunarMonth, k: 11 | 26): EkadashiIn
   const dvadashiVrddhi = vrddhi && de > sunriseJd(city, addDays(d1, 1));
   let smarta = d;
   if (kshaya || trisprsha) smarta = d0;
-  else if (vrddhi && (viddha || dvadashiVrddhi)) smarta = d1;
+  else if (vrddhi && (arunaViddha || dvadashiVrddhi)) smarta = d1;
 
   const madhva = kshaya ? d : viddha || vrddhi ? d1 : d;
   const vaishnava = !viddha && vyanjuli ? d1 : madhva;
   // Daśamī-vedha decided by only a few minutes: pañcāṅgas differ in how they fix aruṇodaya.
-  const margin = Math.abs(es - (sunriseJd(city, d) - ARUNODAYA)) * 1440;
+  const margin = (surya ? Math.abs(sunriseJd(city, d) - es - SS_MADHVA_VEDHA * (ee - es)) : Math.abs(es - (sunriseJd(city, d) - ARUNODAYA))) * 1440;
   const special = kshaya ? 'kshaya' : viddha ? 'viddha' : vrddhi ? 'vrddhi' : trisprsha ? 'trisprsha' : vyanjuli ? 'vyanjuli' : undefined;
   const sukla = k === 11 ? 0 : 1;
   return {
@@ -372,10 +389,17 @@ const cache = new Map<string, Festival[]>();
 /**
  * Festivals and ekādaśīs whose date (or, for periods, any day) lies in [from, to] (ISO
  * dates, inclusive), sorted by date. Ekādaśīs are dated by `rule`; the other tradition's
- * date is given in the note when it differs.
+ * date is given in the note when it differs. `calc` overrides the calculation method
+ * (drik / Sūrya Siddhānta) set in panchanga.ts for this call.
  */
-export function festivalsBetween(city: City, from: string, to: string, rule: EkadashiRule, mode: CalendarMode = 'chandra', start: SauraStart = 'next'): Festival[] {
-  const key = `${city.id}|${from}|${to}|${rule}|${mode}|${start}`;
+export function festivalsBetween(
+  city: City, from: string, to: string, rule: EkadashiRule, mode: CalendarMode = 'chandra', start: SauraStart = 'next', calc?: CalcMethod,
+): Festival[] {
+  return withMethod(calc, () => festivalsIn(city, from, to, rule, mode, start));
+}
+
+function festivalsIn(city: City, from: string, to: string, rule: EkadashiRule, mode: CalendarMode, start: SauraStart): Festival[] {
+  const key = `${getCalcMethod()}|${city.id}|${from}|${to}|${rule}|${mode}|${start}`;
   const hit = cache.get(key);
   if (hit) return hit;
   const jdFrom = julianDay(new Date(`${from}T00:00:00Z`)) - 3;
@@ -453,8 +477,8 @@ export function festivalsBetween(city: City, from: string, to: string, rule: Eka
 }
 
 /** Festivals on one day. */
-export const festivalsOn = (city: City, date: string, rule: EkadashiRule, mode: CalendarMode = 'chandra', start: SauraStart = 'next') =>
-  festivalsBetween(city, date, date, rule, mode, start);
+export const festivalsOn = (city: City, date: string, rule: EkadashiRule, mode: CalendarMode = 'chandra', start: SauraStart = 'next', calc?: CalcMethod) =>
+  festivalsBetween(city, date, date, rule, mode, start, calc);
 
 /** Default ekādaśī rule from the reader's tradition setting (Mādhva unless 'smarta'). */
 export const defaultRule = (tradition: string | undefined): EkadashiRule => (tradition === 'smarta' ? 'smarta' : 'madhva');
@@ -474,7 +498,11 @@ export interface EkadashiFast {
 }
 
 /** Ekādaśī fasts whose fasting day (under `rule`) lies in [from, to] (inclusive), with pāraṇa. */
-export function ekadashisBetween(city: City, from: string, to: string, rule: EkadashiRule): EkadashiFast[] {
+export function ekadashisBetween(city: City, from: string, to: string, rule: EkadashiRule, calc?: CalcMethod): EkadashiFast[] {
+  return withMethod(calc, () => ekadashisIn(city, from, to, rule));
+}
+
+function ekadashisIn(city: City, from: string, to: string, rule: EkadashiRule): EkadashiFast[] {
   const jdFrom = julianDay(new Date(`${from}T00:00:00Z`)) - 3;
   const jdTo = julianDay(new Date(`${to}T00:00:00Z`)) + 3;
   const out: EkadashiFast[] = [];
@@ -493,6 +521,6 @@ export function ekadashisBetween(city: City, from: string, to: string, rule: Eka
  * Pāraṇa for the ekādaśī fast kept on `fastDate` under `rule` (the window is on the next
  * day). Null if no ekādaśī fast falls on that date under the rule.
  */
-export function paranaFor(city: City, fastDate: string, rule: EkadashiRule): Parana | null {
-  return ekadashisBetween(city, fastDate, fastDate, rule)[0]?.parana ?? null;
+export function paranaFor(city: City, fastDate: string, rule: EkadashiRule, calc?: CalcMethod): Parana | null {
+  return ekadashisBetween(city, fastDate, fastDate, rule, calc)[0]?.parana ?? null;
 }

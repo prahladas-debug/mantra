@@ -1,9 +1,10 @@
 import { Ionicons } from '@expo/vector-icons';
 import { useState } from 'react';
+import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { FlatList, Modal, Pressable, Text, TextInput, View } from 'react-native';
 import { cityById, cityLabel, searchCities, type City } from '../lib/panchanga';
 import { useSettings } from '../lib/settings';
-import { useCalendarMode, useEkadashiRule, useSauraStart } from './PanchangaCard';
+import { useCalcMethod, useCalendarMode, useEkadashiRule, useSauraStart } from './PanchangaCard';
 import { Segmented } from './ui';
 
 /** Full-screen searchable list of every Indian town of 15,000+ people, plus places abroad. */
@@ -63,18 +64,20 @@ export function CityPicker({ visible, onClose }: { visible: boolean; onClose: ()
   );
 }
 
-/** Bottom sheet with the calendar choices: tradition, lunar/solar months, solar month start. */
+/** Bottom sheet with the calendar choices: tradition, lunar/solar months, solar month start, calculation. */
 export function CalendarOptionsSheet({ visible, onClose }: { visible: boolean; onClose: () => void }) {
   const { theme } = useSettings();
+  const insets = useSafeAreaInsets();
   const [rule, setRule] = useEkadashiRule();
   const [mode, setMode] = useCalendarMode();
   const [start, setStart] = useSauraStart();
+  const [method, setMethod] = useCalcMethod();
   const label = { color: theme.text, fontSize: 15, fontWeight: '700' as const, marginTop: 18, marginBottom: 8 };
   const hint = { color: theme.textMuted, fontSize: 13, marginTop: 6, lineHeight: 18 };
   return (
     <Modal visible={visible} transparent animationType="slide" onRequestClose={onClose}>
       <Pressable style={{ flex: 1, backgroundColor: '#0006' }} onPress={onClose} accessibilityLabel="Close options" />
-      <View style={{ backgroundColor: theme.bg, borderTopLeftRadius: 18, borderTopRightRadius: 18, paddingHorizontal: 16, paddingBottom: 28 }}>
+      <View style={{ backgroundColor: theme.bg, borderTopLeftRadius: 18, borderTopRightRadius: 18, paddingHorizontal: 16, paddingBottom: insets.bottom + 20 }}>
         <View style={{ alignSelf: 'center', width: 40, height: 4, borderRadius: 2, backgroundColor: theme.cardBorder, marginTop: 8 }} />
         <View style={{ flexDirection: 'row', alignItems: 'center', marginTop: 10 }}>
           <Text style={{ flex: 1, color: theme.text, fontSize: 19, fontWeight: '700' }}>Calendar options</Text>
@@ -99,7 +102,15 @@ export function CalendarOptionsSheet({ visible, onClose }: { visible: boolean; o
           </>
         )}
 
-        <Text style={[hint, { marginTop: 20 }]}>Drik panchanga: calculated from the true positions of the Sun and Moon (Lahiri ayanamsha), as drikpanchang.com does.</Text>
+        <Text style={label}>Calculation</Text>
+        <Segmented options={[{ id: 'drik', label: 'Drik' }, { id: 'surya', label: 'Surya Siddhanta' }]} value={method} onChange={setMethod} />
+        <Text style={hint}>{method === 'surya' ? 'As in traditional matha panchangas (Uttaradi, Raghavendra Matha).' : 'Modern astronomy, as in most printed and online panchangas.'}</Text>
+
+        <Text style={[hint, { marginTop: 20 }]}>
+          {method === 'surya'
+            ? 'Surya Siddhanta panchanga: Sun and Moon by the classical text, with its own sunrise; times can differ from drik ones by a few hours, and sometimes a festival or ekadashi by a day.'
+            : 'Drik panchanga: calculated from the true positions of the Sun and Moon (Lahiri ayanamsha), as drikpanchang.com does.'}
+        </Text>
       </View>
     </Modal>
   );
@@ -110,6 +121,7 @@ export function CalendarBar({ trailing }: { trailing?: React.ReactNode }) {
   const { theme, settings } = useSettings();
   const [rule] = useEkadashiRule();
   const [mode] = useCalendarMode();
+  const [method] = useCalcMethod();
   const [picker, setPicker] = useState(false);
   const [sheet, setSheet] = useState(false);
   const city = cityById(settings.city);
@@ -128,6 +140,7 @@ export function CalendarBar({ trailing }: { trailing?: React.ReactNode }) {
         <Ionicons name="options-outline" size={15} color={theme.accent} />
         <Text numberOfLines={1} style={{ color: theme.text, fontSize: 14, flexShrink: 1 }}>
           {rule === 'madhva' ? 'Madhva' : 'Smarta'} · {mode === 'saura' ? 'Solar' : 'Lunar'}
+          {method === 'surya' ? ' · SS' : ''}
         </Text>
         <Ionicons name="chevron-down" size={13} color={theme.textMuted} />
       </Pressable>

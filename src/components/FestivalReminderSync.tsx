@@ -5,7 +5,7 @@ import { Platform } from 'react-native';
 import { cancelFestivalReminders, scheduleFestivalReminders } from '../lib/festivalReminders';
 import { cityById } from '../lib/panchanga';
 import { useSettings } from '../lib/settings';
-import { useCalendarMode, useEkadashiRule, useSauraStart } from './PanchangaCard';
+import { useCalcMethod, useCalendarMode, useEkadashiRule, useSauraStart } from './PanchangaCard';
 
 /** Open the text a tapped reminder points to (data.url, e.g. /mantra/vishnu-sahasranama). */
 function openFrom(response: Notifications.NotificationResponse | null) {
@@ -22,6 +22,7 @@ export function FestivalReminderSync() {
   const [rule] = useEkadashiRule();
   const [mode] = useCalendarMode();
   const [start] = useSauraStart();
+  const [method] = useCalcMethod();
   const { ekadashi, festivals, time } = settings.festivalReminders;
   const cityId = settings.city;
 
@@ -31,8 +32,8 @@ export function FestivalReminderSync() {
       cancelFestivalReminders();
       return;
     }
-    scheduleFestivalReminders({ city: cityById(cityId), rule, mode, start, time, kinds: { ekadashi, festivals } });
-  }, [ready, ekadashi, festivals, time, cityId, rule, mode, start]);
+    scheduleFestivalReminders({ city: cityById(cityId), rule, mode, start, method, time, kinds: { ekadashi, festivals } });
+  }, [ready, ekadashi, festivals, time, cityId, rule, mode, start, method]);
 
   useEffect(() => {
     if (Platform.OS === 'web') return;
