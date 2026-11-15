@@ -95,6 +95,11 @@ export const ALL_MANTRAS: Mantra[] = LIBRARY.map(toDevanagari).map(applySummarie
 const byId = new Map(ALL_MANTRAS.map((m) => [m.id, m]));
 const full = new Map<string, Mantra>();
 
+/** A text's title, category and summaries, without merging verse meanings (for lists). */
+export function getMantraInfo(id: string): Mantra | undefined {
+  return byId.get(id);
+}
+
 /** A text with all its verse meanings (merged on first use, then cached). */
 export function getMantra(id: string): Mantra | undefined {
   const hit = full.get(id);

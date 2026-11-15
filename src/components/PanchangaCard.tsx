@@ -5,7 +5,8 @@ import { useCallback, useEffect, useMemo, useState, useSyncExternalStore } from 
 import { Pressable, Text, View } from 'react-native';
 import { defaultRule, festivalsOn, type CalendarMode, type EkadashiRule, type Festival } from '../lib/festivals';
 import { sauraDay, sauraSankalpa, type SauraStart } from '../lib/sauramana';
-import { cityById, panchanga, todayIn } from '../lib/panchanga';
+import { addDays, cityById, panchanga, todayIn } from '../lib/panchanga';
+import { getMantraInfo } from '../data';
 import { useSettings } from '../lib/settings';
 import { plain } from '../lib/plain';
 import { translit } from '../lib/transliterate';
@@ -143,7 +144,7 @@ export function FestivalLine({ f, showDate, showNote }: { f: Festival; showDate?
   );
 }
 
-/** Compact "today" card for the home screen. */
+/** Home card: today's month and tithi, today's festival with its text, and tomorrow's observance. */
 export function TodayCard() {
   const { theme, settings } = useSettings();
   const { p, city, today } = usePanchanga();
@@ -151,39 +152,54 @@ export function TodayCard() {
   const [mode] = useCalendarMode();
   const [start] = useSauraStart();
   const fest = useMemo(() => festivalsOn(city, today, rule, mode, start), [city, today, rule, mode, start]);
+  const tomorrow = useMemo(
+    () => festivalsOn(city, addDays(today, 1), rule, mode, start).filter((f) => f.kind === 'ekadashi' || f.kind === 'festival'),
+    [city, today, rule, mode, start],
+  );
   const saura = useMemo(() => (mode === 'saura' ? sauraDay(city, today, start) : null), [city, today, mode, start]);
   const t = (s: string) => translit(s, settings.script);
+  const read = (id: string | undefined) => (id ? getMantraInfo(id) : undefined);
   return (
-    <Pressable
-      onPress={() => router.push('/panchanga')}
-      style={({ pressed }) => ({
-        marginHorizontal: 16, marginTop: 16, padding: 14, borderRadius: 14, borderWidth: 1,
-        backgroundColor: theme.card, borderColor: theme.cardBorder, opacity: pressed ? 0.7 : 1,
+    <View style={{ marginHorizontal: 16, marginTop: 16, borderRadius: 14, borderWidth: 1, backgroundColor: theme.card, borderColor: theme.cardBorder, overflow: 'hidden' }}>
+      <Pressable onPress={() => router.push('/panchanga')} style={({ pressed }) => ({ padding: 14, opacity: pressed ? 0.7 : 1 })} accessibilityRole="link">
+        <Text style={{ color: theme.textMuted, fontSize: 12, fontWeight: '700', letterSpacing: 0.8 }}>
+          TODAY · {city.name.toUpperCase()}
+        </Text>
+        <Text style={{ color: theme.accent, fontSize: 18, fontWeight: '700', marginTop: 4 }}>
+          {saura
+            ? `${t(`${saura.name} ${saura.day} · ${p.paksha} ${p.tithi}`)}`
+            : t(`${p.adhika ? 'अधिक ' : ''}${p.masa} ${p.paksha} ${p.tithi}`)}
+        </Text>
+        <Text style={{ color: theme.text, fontSize: 15, marginTop: 2 }}>
+          {t(`${p.samvatsara} · ${p.nakshatra} · ${p.vasara}`)}
+        </Text>
+      </Pressable>
+      {fest.map((f) => {
+        const m = read(f.textId);
+        return (
+          <Pressable
+            key={f.key}
+            disabled={!m}
+            onPress={() => m && router.push(`/mantra/${m.id}` as Href)}
+            style={({ pressed }) => ({ flexDirection: 'row', alignItems: 'center', gap: 10, paddingHorizontal: 14, paddingVertical: 10, borderTopWidth: 1, borderColor: theme.cardBorder, backgroundColor: theme.accentSoft, opacity: pressed ? 0.7 : 1 })}
+            accessibilityRole={m ? 'link' : undefined}
+          >
+            <Ionicons name={f.kind === 'ekadashi' ? 'moon-outline' : 'sparkles-outline'} size={18} color={theme.accent} />
+            <View style={{ flex: 1 }}>
+              <Text style={{ color: theme.accent, fontSize: 16, fontWeight: '600' }}>{t(f.name)}</Text>
+              {m && <Text style={{ color: theme.text, fontSize: 13 }}>Read: {m.titleEn} ›</Text>}
+            </View>
+          </Pressable>
+        );
       })}
-      accessibilityRole="link"
-    >
-      <Text style={{ color: theme.textMuted, fontSize: 12, fontWeight: '700', letterSpacing: 0.8 }}>
-        TODAY · {city.name.toUpperCase()}
-      </Text>
-      <Text style={{ color: theme.accent, fontSize: 18, fontWeight: '700', marginTop: 4 }}>
-        {saura
-          ? `${t(`${saura.name} ${saura.day} · ${p.paksha} ${p.tithi}`)}`
-          : t(`${p.adhika ? 'अधिक ' : ''}${p.masa} ${p.paksha} ${p.tithi}`)}
-      </Text>
-      {saura && (
-        <Text style={{ color: theme.textMuted, fontSize: 13 }}>
-          Sauramana · {plain(saura.tulu)} {saura.day} · lunar month {t(`${p.adhika ? 'अधिक ' : ''}${p.masa}`)}
-        </Text>
+      {tomorrow.length > 0 && (
+        <View style={{ paddingHorizontal: 14, paddingVertical: 9, borderTopWidth: 1, borderColor: theme.cardBorder }}>
+          <Text style={{ color: theme.textMuted, fontSize: 13 }}>
+            Tomorrow: <Text style={{ color: theme.text }}>{tomorrow.map((f) => plain(f.en)).join(' · ')}</Text>
+          </Text>
+        </View>
       )}
-      <Text style={{ color: theme.text, fontSize: 15, marginTop: 2 }}>
-        {t(`${p.samvatsara} · ${p.nakshatra} · ${p.vasara}`)}
-      </Text>
-      {fest.length > 0 && (
-        <Text style={{ color: theme.accent, fontSize: 15, fontWeight: '600', marginTop: 6 }}>
-          {fest.map((f) => t(f.name)).join(' · ')}
-        </Text>
-      )}
-    </Pressable>
+    </View>
   );
 }
 

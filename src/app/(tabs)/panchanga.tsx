@@ -1,18 +1,18 @@
 import { Ionicons } from '@expo/vector-icons';
-import { Stack, router, useLocalSearchParams, type Href } from 'expo-router';
+import { Tabs, router, useLocalSearchParams, type Href } from 'expo-router';
 import { useMemo, useState } from 'react';
 import { Pressable, ScrollView, Text, View } from 'react-native';
-import { CalendarBar } from '../components/CalendarBar';
-import { FestivalLine, NavButton, useCalendarMode, useEkadashiRule, useSauraStart } from '../components/PanchangaCard';
-import { Chip, SectionHeading } from '../components/ui';
-import { festivalsBetween } from '../lib/festivals';
+import { CalendarBar } from '../../components/CalendarBar';
+import { FestivalLine, NavButton, useCalendarMode, useEkadashiRule, useSauraStart } from '../../components/PanchangaCard';
+import { Chip, SectionHeading } from '../../components/ui';
+import { festivalsBetween } from '../../lib/festivals';
 import {
   VARA, addDays, cityById, cityLabel, formatTime, fromJulian, moonriseBetween, panchanga, parseIso, sunriseJd, todayIn, type Span,
-} from '../lib/panchanga';
-import { plain } from '../lib/plain';
-import { sauraDay, sauraRtu, sauraSankalpa } from '../lib/sauramana';
-import { useSettings } from '../lib/settings';
-import { translit } from '../lib/transliterate';
+} from '../../lib/panchanga';
+import { plain } from '../../lib/plain';
+import { sauraDay, sauraRtu, sauraSankalpa } from '../../lib/sauramana';
+import { useSettings } from '../../lib/settings';
+import { translit } from '../../lib/transliterate';
 
 const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
 const WEEKDAYS = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
@@ -118,7 +118,7 @@ export default function PanchangaScreen() {
 
   return (
     <ScrollView style={{ backgroundColor: theme.bg }} contentContainerStyle={{ paddingBottom: 40 }}>
-      <Stack.Screen
+      <Tabs.Screen
         options={{
           title: 'Panchanga',
           headerRight: () => (

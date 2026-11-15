@@ -51,8 +51,9 @@ export function DisplayPanel({
           <Chip label="A+" onPress={() => update({ fontScale: Math.min(2.4, +(scale + 0.1).toFixed(1)) })} />
         </View>
         <View style={[p.row, { flexWrap: 'wrap' }]}>
-          {(['light', 'sepia', 'dark', 'contrast'] as ThemeName[]).map((t) => (
-            <Chip key={t} label={t === 'contrast' ? 'High contrast' : t[0].toUpperCase() + t.slice(1)} active={theme.name === t && settings.theme !== 'system'} onPress={() => update({ theme: t })} />
+          <Chip label="🌙 After sunset" active={settings.theme === 'sunset'} onPress={() => update({ theme: 'sunset' })} />
+          {(['light', 'sepia', 'dark', 'night', 'contrast'] as ThemeName[]).map((t) => (
+            <Chip key={t} label={t === 'contrast' ? 'High contrast' : t[0].toUpperCase() + t.slice(1)} active={settings.theme === t} onPress={() => update({ theme: t })} />
           ))}
         </View>
         <Label>Meanings · ಅರ್ಥ</Label>

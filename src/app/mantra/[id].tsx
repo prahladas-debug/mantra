@@ -8,6 +8,7 @@ import { ReaderContext, type ReaderState } from '../../components/reader/context
 import { DisplayPanel } from '../../components/reader/DisplayPanel';
 import { flatten } from '../../components/reader/rows';
 import { ScrollReader } from '../../components/reader/ScrollReader';
+import { usePinch } from '../../components/reader/usePinch';
 import { getMantra } from '../../data';
 import { useSettings } from '../../lib/settings';
 import { choicesFor } from '../../lib/variants';
@@ -17,7 +18,9 @@ const KEEP_AWAKE_TAG = 'reader';
 export default function Reader() {
   const params = useLocalSearchParams<{ id: string; si?: string; vi?: string }>();
   const mantra = getMantra(params.id);
-  const { theme, settings, favorites, toggleFavorite, markRead, positions, savePosition } = useSettings();
+  const { theme, settings, update, favorites, toggleFavorite, markRead, positions, savePosition } = useSettings();
+  const setScale = useCallback((fontScale: number) => update({ fontScale }), [update]);
+  const pinch = usePinch(settings.fontScale, setScale);
   const [panelOpen, setPanelOpen] = useState(false);
   const [opened, setOpened] = useState<ReadonlySet<string>>(() => new Set());
   const [practice, setPractice] = useState(false);
@@ -86,7 +89,7 @@ export default function Reader() {
 
   return (
     <ReaderContext.Provider value={ctx}>
-      <View style={{ flex: 1, backgroundColor: theme.bg }}>
+      <View style={{ flex: 1, backgroundColor: theme.bg }} {...pinch.panHandlers}>
         <Stack.Screen
           options={{
             title: mantra.titleEn,
@@ -118,6 +121,11 @@ export default function Reader() {
           />
         )}
         <Layout key={settings.layout} rows={rows} initialKey={openAt} onPosition={onPosition} ref={handle} />
+        {pinch.preview !== null && (
+          <View pointerEvents="none" style={{ position: 'absolute', top: 16, alignSelf: 'center', paddingHorizontal: 14, paddingVertical: 6, borderRadius: 16, backgroundColor: theme.accent }}>
+            <Text style={{ color: theme.onAccent, fontSize: 15, fontWeight: '700' }}>Text size {Math.round(pinch.preview * 100)}%</Text>
+          </View>
+        )}
       </View>
     </ReaderContext.Provider>
   );

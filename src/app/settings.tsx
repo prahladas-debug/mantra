@@ -70,9 +70,14 @@ export default function SettingsScreen() {
       </View>
 
       <SectionHeading>Theme</SectionHeading>
-      <View style={[row, { justifyContent: 'flex-start', gap: 8 }]}>
-        {(['system', 'light', 'sepia', 'dark', 'contrast'] as const).map((t) => (
-          <Chip key={t} label={t === 'contrast' ? 'High contrast' : t[0].toUpperCase() + t.slice(1)} active={settings.theme === t} onPress={() => update({ theme: t })} />
+      <View style={[row, { justifyContent: 'flex-start', gap: 8, flexWrap: 'wrap' }]}>
+        {(['system', 'sunset', 'light', 'sepia', 'dark', 'night', 'contrast'] as const).map((t) => (
+          <Chip
+            key={t}
+            label={{ system: 'Phone setting', sunset: '🌙 Night after sunset', light: 'Light', sepia: 'Sepia', dark: 'Dark', night: 'Night (warm)', contrast: 'High contrast' }[t]}
+            active={settings.theme === t}
+            onPress={() => update({ theme: t })}
+          />
         ))}
       </View>
 

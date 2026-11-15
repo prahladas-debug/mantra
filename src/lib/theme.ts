@@ -1,4 +1,4 @@
-export type ThemeName = 'light' | 'sepia' | 'dark' | 'contrast';
+export type ThemeName = 'light' | 'sepia' | 'dark' | 'contrast' | 'night';
 
 export interface Theme {
   name: ThemeName;
@@ -74,6 +74,25 @@ export const THEMES: Record<ThemeName, Theme> = {
     page: '#1B1612',
     pageEdge: '#3A2F24',
     ornament: '#C98A4E',
+  },
+  /** Warm and dim for reading at night: amber on near-black, no bright whites. */
+  night: {
+    name: 'night',
+    bg: '#0E0A07',
+    card: '#17110C',
+    cardBorder: '#2A2016',
+    text: '#E8C9A0',
+    textMuted: '#9C7F5E',
+    accent: '#E0904E',
+    accentSoft: '#2C1C10',
+    onAccent: '#140A03',
+    verseNumber: '#D9844A',
+    warningBg: '#2E2410',
+    warningText: '#E2C27A',
+    statusBar: 'light',
+    page: '#120D09',
+    pageEdge: '#2C2218',
+    ornament: '#A8703C',
   },
   contrast: {
     name: 'contrast',

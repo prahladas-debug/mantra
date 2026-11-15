@@ -2,17 +2,20 @@ import { useState } from 'react';
 import { Ionicons } from '@expo/vector-icons';
 import { router, type Href } from 'expo-router';
 import { Pressable, StyleSheet, Text, View } from 'react-native';
-import { categoryById, mantrasInCategory, type Mantra, type Section, type Verse } from '../../data';
+import { categoryById, getMantraInfo, mantrasInCategory, type Mantra, type Section, type Verse } from '../../data';
 import { leading, meaningFont, scriptFont } from '../../lib/fonts';
 import { MEANING_BUTTON, meaningsToShow, primaryLang, summaryFor } from '../../lib/meaning';
 import { planStatus } from '../../lib/plans';
-import { useSettings } from '../../lib/settings';
+import { routineDay, useSettings } from '../../lib/settings';
+
 import { reportCorrection, shareVerse } from '../../lib/share';
 import { bindDandas, translit, translitInline, translitTitle, verseNumber } from '../../lib/transliterate';
 import { SankalpaCard } from '../PanchangaCard';
 import { Chip } from '../ui';
 import { useReader } from './context';
 import { plain } from '../../lib/plain';
+
+const getMantraTitle = (id: string) => getMantraInfo(id)?.titleEn;
 
 /** Small ornamental rule, as in printed stotra books. */
 export function Ornament({ small }: { small?: boolean }) {
@@ -313,6 +316,41 @@ export function SeriesNav({ mantra }: { mantra: Mantra }) {
 }
 
 /** Closing matter: इति, pārāyaṇa controls, previous/next. */
+/** End of a text: tick it off in today's routine (and go to the next), or add it to the routine. */
+function RoutineControl({ mantraId }: { mantraId: string }) {
+  const { theme, settings, routine, routineDone, setRoutine, setRoutineDone } = useSettings();
+  const day = routineDay(settings.city);
+  const inRoutine = routine.includes(mantraId);
+  const done = (routineDone[day] ?? []).includes(mantraId);
+  const next = routine.find((id) => id !== mantraId && !(routineDone[day] ?? []).includes(id));
+  const nextMantra = next ? getMantraTitle(next) : undefined;
+  if (!inRoutine) {
+    return (
+      <Pressable onPress={() => setRoutine([...routine, mantraId])} style={{ alignSelf: 'center', marginTop: 20, padding: 8 }} accessibilityRole="button">
+        <Text style={{ color: theme.textMuted, fontSize: 14 }}>＋ Add to my daily routine</Text>
+      </Pressable>
+    );
+  }
+  return (
+    <View style={[b.planBox, { borderColor: theme.cardBorder, backgroundColor: theme.card }]}>
+      <Pressable
+        onPress={() => setRoutineDone(day, mantraId, !done)}
+        accessibilityRole="checkbox"
+        accessibilityState={{ checked: done }}
+        style={{ flexDirection: 'row', alignItems: 'center', gap: 10 }}
+      >
+        <Ionicons name={done ? 'checkmark-circle' : 'ellipse-outline'} size={24} color={done ? theme.accent : theme.textMuted} />
+        <Text style={{ color: theme.text, fontSize: 16, fontWeight: '600', flex: 1 }}>{done ? 'Done for today' : 'Mark done for today'}</Text>
+      </Pressable>
+      {done && next && nextMantra && (
+        <Pressable onPress={() => router.replace(`/mantra/${next}` as Href)} style={[b.planButton, { backgroundColor: theme.accent }]} accessibilityRole="button">
+          <Text style={{ color: theme.onAccent, fontSize: 15, fontWeight: '700' }}>Next in routine: {nextMantra} ›</Text>
+        </Pressable>
+      )}
+    </View>
+  );
+}
+
 export function EndMatter() {
   const { theme, settings } = useSettings();
   const { mantra } = useReader();
@@ -322,6 +360,7 @@ export function EndMatter() {
       <Text style={{ color: theme.ornament, textAlign: 'center', fontSize: 18, fontFamily: scriptFont(settings.script, settings.bookFonts) }}>
         {translit('॥ हरिः ॐ ॥', settings.script)}
       </Text>
+      <RoutineControl mantraId={mantra.id} />
       <PlanControls mantraId={mantra.id} />
       {(mantra.category === 'nitya' || mantra.id.endsWith('-mantra')) && (
         <Pressable onPress={() => router.push(`/japa?mantra=${mantra.id}` as Href)} style={[b.planBox, { borderColor: theme.cardBorder, backgroundColor: theme.card, flexDirection: 'row', alignItems: 'center', gap: 10 }]}>

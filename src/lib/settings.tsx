@@ -4,6 +4,7 @@ import { useColorScheme } from 'react-native';
 import { THEMES, type Theme, type ThemeName } from './theme';
 import type { MeaningPref } from './meaning';
 import { localDate, type Plan } from './plans';
+import { cityById, fromJulian, julianDay, sunEventJd, sunriseDayOf, todayIn } from './panchanga';
 import type { ScriptId } from './transliterate';
 
 export interface Settings {
@@ -11,7 +12,8 @@ export interface Settings {
   /** Second script shown under each verse (e.g. IAST for learners), or null. */
   secondaryScript: ScriptId | null;
   fontScale: number;
-  theme: ThemeName | 'system';
+  /** 'sunset': the warm night theme from sunset to sunrise at your place, light by day. */
+  theme: ThemeName | 'system' | 'sunset';
   /** Show every meaning expanded. Off: each verse has a tap-to-open ಅರ್ಥ · Meaning button. */
   alwaysShowMeanings: boolean;
   /** Which language(s) meanings are shown in. */
@@ -29,6 +31,8 @@ export interface Settings {
   centerVerses: boolean;
   /** The first-run welcome (language, tradition, place) has been completed. */
   onboarded: boolean;
+  /** Notifications the evening before Ekadashi and major festivals. */
+  festivalReminders: { ekadashi: boolean; festivals: boolean; time: string };
 }
 
 export interface Bookmark {
@@ -52,6 +56,10 @@ interface Store {
   /** Last verse key read in each text, for 'continue where you left off'. */
   positions: Record<string, string>;
   bookmarks: Bookmark[];
+  /** Texts the reader recites every day, in order. */
+  routine: string[];
+  /** Routine texts finished, by panchanga day (sunrise to sunrise). Only recent days are kept. */
+  routineDone: Record<string, string[]>;
 }
 
 const DEFAULTS: Store = {
@@ -69,13 +77,21 @@ const DEFAULTS: Store = {
     bookFonts: true,
     centerVerses: true,
     onboarded: false,
+    festivalReminders: { ekadashi: false, festivals: false, time: '19:00' },
   },
   favorites: [],
   recent: [],
   plans: [],
   positions: {},
   bookmarks: [],
+  routine: [],
+  routineDone: {},
 };
+
+/** Today's panchanga day at the city: the day changes at sunrise, not midnight. */
+export function routineDay(cityId: string): string {
+  return sunriseDayOf(cityById(cityId), julianDay(new Date()));
+}
 
 const KEY = 'mantra.store.v1';
 
@@ -94,6 +110,9 @@ interface Ctx extends Store {
   addRecitation: (planId: string, delta: number) => void;
   savePosition: (mantraId: string, key: string) => void;
   toggleBookmark: (mantraId: string, key: string) => void;
+  setRoutine: (ids: string[]) => void;
+  /** Mark a routine text done (or not) for the given panchanga day. */
+  setRoutineDone: (day: string, id: string, done: boolean) => void;
 }
 
 const SettingsContext = createContext<Ctx | null>(null);
@@ -123,6 +142,8 @@ export function SettingsProvider({ children }: { children: React.ReactNode }) {
           plans: saved.plans ?? [],
           positions: saved.positions ?? {},
           bookmarks: saved.bookmarks ?? [],
+          routine: saved.routine ?? [],
+          routineDone: saved.routineDone ?? {},
         });
       })
       .catch(() => {})
@@ -212,15 +233,54 @@ export function SettingsProvider({ children }: { children: React.ReactNode }) {
     [],
   );
 
+  const setRoutine = useCallback((ids: string[]) => setStore((s) => ({ ...s, routine: ids })), []);
+  const setRoutineDone = useCallback(
+    (day: string, id: string, done: boolean) =>
+      setStore((s) => {
+        const list = s.routineDone[day] ?? [];
+        const next = done ? [...new Set([...list, id])] : list.filter((x) => x !== id);
+        // Keep two weeks of history.
+        const days = Object.keys({ ...s.routineDone, [day]: next }).sort().slice(-14);
+        const routineDone: Record<string, string[]> = {};
+        for (const d of days) routineDone[d] = d === day ? next : s.routineDone[d];
+        return { ...s, routineDone };
+      }),
+    [],
+  );
+
+  // 'sunset' theme: re-check every five minutes whether the sun is down at the reader's place.
+  const [night, setNight] = useState(false);
+  const sunsetMode = store.settings.theme === 'sunset';
+  const cityId = store.settings.city;
+  useEffect(() => {
+    if (!sunsetMode) return;
+    const check = () => {
+      const city = cityById(cityId);
+      const today = todayIn(city);
+      const now = Date.now();
+      const rise = fromJulian(sunEventJd(city, today, 'rise')).getTime();
+      const set = fromJulian(sunEventJd(city, today, 'set')).getTime();
+      setNight(now < rise || now >= set);
+    };
+    check();
+    const t = setInterval(check, 5 * 60 * 1000);
+    return () => clearInterval(t);
+  }, [sunsetMode, cityId]);
+
   const themeName: ThemeName =
-    store.settings.theme === 'system' ? (system === 'dark' ? 'dark' : 'light') : store.settings.theme;
+    store.settings.theme === 'system'
+      ? system === 'dark' ? 'dark' : 'light'
+      : store.settings.theme === 'sunset'
+        ? night ? 'night' : 'light'
+        : store.settings.theme;
 
   const value = useMemo<Ctx>(
     () => ({
       ...store, ready, theme: THEMES[themeName], update, toggleFavorite, markRead,
       addPlan, updatePlan, removePlan, markPlanItemRead, addRecitation, savePosition, toggleBookmark,
+      setRoutine, setRoutineDone,
     }),
-    [store, ready, themeName, update, toggleFavorite, markRead, addPlan, updatePlan, removePlan, markPlanItemRead, addRecitation, savePosition, toggleBookmark],
+    [store, ready, themeName, update, toggleFavorite, markRead, addPlan, updatePlan, removePlan, markPlanItemRead, addRecitation, savePosition, toggleBookmark, setRoutine, setRoutineDone],
   );
 
   return <SettingsContext.Provider value={value}>{children}</SettingsContext.Provider>;
