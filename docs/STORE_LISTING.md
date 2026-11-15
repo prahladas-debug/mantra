@@ -1,61 +1,101 @@
-# Store listing draft (Google Play / App Store)
+# Store listing (Google Play / App Store)
 
-**App name:** Nandadeepa — ನಂದಾದೀಪ
+Written so that someone searching for **mantra**, **panchang** or **Gita** finds the app. The
+stores rank mostly on the title, then the subtitle / short description, then the long description
+(Play) or the hidden keyword field (App Store). The name under the icon on the phone stays
+"Nandadeepa".
 
-**Tagline:** तमसो मा ज्योतिर्गमय · Mantra · Parayana · Panchanga
+## Google Play
 
-**Short description (80 chars):**
-Mantra, stotra, parayana, songs, puja & panchanga in Kannada, Sanskrit & more
+**Title (30 max):**
+`Nandadeepa: Mantra & Panchang`
 
-**Full description:**
+**Short description (80 max):**
+`Mantras, stotras, Bhagavad Gita, daily panchang & puja in Kannada, Hindi & more`
 
-Nandadeepa, the lamp kept ever burning before the deity, is a companion for daily
-practice: a pocket library of more than 400 Hindu sacred texts with a panchanga,
-readable like a printed book in your own script: Devanagari (Sanskrit),
-Kannada, Telugu, Tamil, Malayalam, Gujarati, Bengali, Odia or English (IAST).
+**Full description (4000 max):**
 
-📖 **Pārāyaṇa granthas**
-- Bhagavad Gītā (all 18 chapters)
-- Sundarakāṇḍa (68 sargas)
-- Devī Māhātmya with Kavaca, Argalā and Kīlaka
-- Sumadhva Vijaya
-- Harikathāmṛtasāra (in progress)
+Nandadeepa is a complete Hindu prayer book and daily panchang in your pocket: more than 400
+mantras, stotras and sacred texts, the full Bhagavad Gita, and an accurate panchanga for your own
+town. Read in Kannada, Devanagari (Sanskrit / Hindi), Telugu, Tamil, Malayalam, Gujarati, Bengali,
+Odia or English letters, with verse-by-verse meanings in Kannada, English, Hindi, Telugu and Tamil.
+Everything works offline. No ads, no sign-in, no tracking.
 
-🙏 **Stotras and sahasranāmas**
-- Viṣṇu and Lalitā Sahasranāma, with meanings
-- Veṅkaṭeśa Suprabhātam, Saundarya Laharī, Āditya Hṛdayam
-- Hanumān Cālīsā, Rāma Rakṣā and many more
+DAILY PANCHANG AND FESTIVALS
+• Today's panchanga for about 3,800 Indian towns and cities abroad: tithi, nakshatra, yoga,
+  karana, vara, sunrise and sunset, Rahu kala, Yamaganda and Gulika kala
+• Drik (modern) or Surya Siddhanta calculation; Chandramana and Sauramana months
+• Ekadashi dates with parana (break-fast) times, for Madhva and Smarta traditions
+• Festival calendar and search: find when Ugadi, Ganesha Chaturthi, Deepavali, Navaratri or any
+  vrata falls in any year up to 2036
+• Sankalpa for the day, ready to recite; reminders for Ekadashi and festivals
 
-🔥 **Vedic**
-- Puruṣa, Śrī, Nārāyaṇa and Manyu Sūktas
-- Śrī Rudram (Namakam and Chamakam), Mantra Puṣpam
+BHAGAVAD GITA AND PARAYANA
+• Bhagavad Gita (Geeta): all 18 chapters, 700 shlokas, with meanings
+• Sundarakanda of the Valmiki Ramayana, all 68 sargas
+• Vishnu Sahasranama and Lalita Sahasranama with the meaning of every name
+• Devi Mahatmyam (Durga Saptashati / Chandi Path) with Kavacha, Argala and Kilaka
+• Harikathamrutasara (all 32 sandhis), Sumadhva Vijaya, Hari Vayu Stuti
+• Parayana plans, such as Sundarakanda in 7 days, with daily reminders
 
-🪔 **Daily rituals**
-- Step-by-step Ṛgveda and Yajurveda Sandhyāvandane (Mādhva / Smārta;
-  morning, midday and evening)
-- Ṣoḍaśopacāra pūjā
-- Satyanārāyaṇa pūjā with the vrata kathā
+MANTRAS AND STOTRAS
+• Gayatri mantra, Mahamrityunjaya mantra, daily shlokas, meal and bath prayers
+• Vedic suktas: Purusha Sukta, Sri Sukta, Narayana Sukta, Rudram (Namakam, Chamakam), Mantra Pushpam
+• Venkatesha Suprabhatam, Hanuman Chalisa, Aditya Hridayam, Saundarya Lahari, Kanakadhara Stotram,
+  Shiva Tandava Stotram, ashtottara shatanamavalis and many more stotras, by deity
 
-🌺 **Mādhva and Haridāsa**
-- Vāyu Stuti, Dvādaśa Stotra, Rāghavendra Stotra and Kavaca
-- Lakṣmī Śobhāne, Dāsara pada
+SANDHYAVANDANE, PUJA, HOMA AND RITES
+• Step-by-step Sandhyavandanam for Rigveda and Yajurveda, Madhva and Smarta
+• Daily puja, Shodashopachara puja, Satyanarayana puja with katha, Varamahalakshmi, Ganesha
+  Chaturthi, Janmashtami and other vratas
+• Ganapati homa, Navagraha homa, Mrityunjaya homa, Chandi homa; Shraddha, Upakarma, Griha Pravesha
 
-**Features**
-- Meanings in Kannada, English, Hindi, Telugu and Tamil, shown when you tap
-- Today's pañcāṅga, saṅkalpa details and a festival / Ekādaśī calendar
-  (Mādhva and Smārta)
-- Pārāyaṇa plans ("Sundarakāṇḍa in 7 days") with daily reminders
-- Japa mālā counter
-- Bookmarks, and the app remembers where you left off
-- Book fonts, large-print mode and dark mode
-- Works fully offline, with no ads and no tracking
+DEVOTIONAL SONGS
+• Over 100 Dasara padagalu by Purandara Dasa, Kanaka Dasa, Vijaya Dasa, Vadiraja and others
+• Tiruppavai, Annamacharya kirtanas, aartis and chalisas
 
-Texts are collated from published editions. Readers can report corrections
-from any verse.
+MADE FOR READING
+• Book-style pages or scrolling, large print, dark and night themes
+• Japa mala counter, bookmarks, daily routine checklist; the app remembers where you stopped
+• Texts are collated from printed editions; report a correction from any verse
 
-**Category:** Books & Reference · **Content rating:** Everyone ·
-**Privacy policy:** host docs/PRIVACY.md (for example on GitHub Pages) and
-give its URL.
+Nandadeepa is the lamp kept burning before the deity. Tamaso ma jyotirgamaya.
+
+## App Store (iOS)
+
+**Name (30 max):** `Nandadeepa: Mantra & Panchang`
+**Subtitle (30 max):** `Bhagavad Gita, Stotras, Puja`
+**Keywords (100 max, not shown to users; words already in the name and subtitle need not be repeated):**
+`panchanga,panchangam,geeta,sloka,shloka,stotram,sahasranama,ekadashi,sandhyavandana,madhwa,vedic`
+**Promotional text:** `Tamaso ma jyotirgamaya. Mantras, the Gita and a daily panchang in your own script.`
+**Description:** the same text as above.
+
+## Listings in other languages
+
+Add these as translated listings (Play Console: Store listing, Manage translations; App Store
+Connect: add a localisation). People who search in their own script then find the app.
+
+| Language | Title | Short description / subtitle |
+|---|---|---|
+| Kannada | ನಂದಾದೀಪ: ಮಂತ್ರ, ಗೀತೆ, ಪಂಚಾಂಗ | ಮಂತ್ರ, ಸ್ತೋತ್ರ, ಭಗವದ್ಗೀತೆ, ದಾಸರ ಪದ, ಪೂಜೆ ಮತ್ತು ನಿತ್ಯ ಪಂಚಾಂಗ – ಕನ್ನಡ ಅರ್ಥ ಸಹಿತ |
+| Hindi | नन्दादीप: मंत्र, गीता, पंचांग | मंत्र, स्तोत्र, भगवद्गीता, पूजा विधि और दैनिक पंचांग – हिन्दी अर्थ सहित |
+| Telugu | నందాదీపం: మంత్రం, గీత, పంచాంగం | మంత్రాలు, స్తోత్రాలు, భగవద్గీత, పూజ, నిత్య పంచాంగం – తెలుగు అర్థాలతో |
+| Tamil | நந்தா தீபம்: மந்திரம், கீதை | மந்திரம், ஸ்தோத்திரம், பகவத் கீதை, பூஜை, தினசரி பஞ்சாங்கம் – தமிழ் பொருளுடன் |
+
+## What else decides whether people find and install it
+
+- **Spellings.** People type panchang, panchanga and panchangam; Gita and Geeta; sloka and shloka;
+  stotra and stotram. The description above uses each at least once, naturally. Do not add a bare
+  list of keywords: Google Play rejects listings that do.
+- **Category:** Books & Reference. **Tags (Play):** Books & Reference, Religion, Calendar.
+- **Screenshots, in this order,** each with a short caption on the picture: Home with the book
+  covers ("Gita, Sahasranama, Sundarakanda"), the panchanga for a day ("Daily panchang for your
+  town"), a Gita verse with its meaning open ("Meanings in Kannada, Hindi, Telugu, Tamil"), the
+  festival calendar ("Ekadashi and festivals"), Sandhyavandane ("Step by step"), a Dasara pada.
+- **Ratings and installs** count for more than any wording. Ask the first readers (family, the
+  matha's WhatsApp groups) to install and rate in the first weeks.
+- **Content rating:** Everyone. **Privacy policy:** host docs/PRIVACY.md (for example on GitHub
+  Pages) and give its URL.
 
 ## Checklist before the first release
 
@@ -66,6 +106,5 @@ give its URL.
 3. Add your contact email to `docs/PRIVACY.md` and host it.
 4. Change `src/lib/config.ts` → `CORRECTIONS_URL` if you want corrections
    sent somewhere else (for example a Google Form).
-5. Take screenshots of: the home screen, a book page with a meaning open, the
-   pañcāṅga and calendar, and Sandhyāvandane.
+5. Take the screenshots listed above.
 6. Have the texts reviewed (see PROOFREADING.md).

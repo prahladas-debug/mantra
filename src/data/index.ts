@@ -1,12 +1,12 @@
 import Sanscript from '@indic-transliteration/sanscript';
 import { plain } from '../lib/plain';
 import { searchKey, translit, type ScriptId } from '../lib/transliterate';
-import { CATEGORIES } from './categories';
+import { CATEGORIES, categoryById } from './categories';
 import { LIBRARY } from './library.generated';
 import { MEANING_PACKS } from './meanings.generated';
 import type { CategoryId, Mantra, MeaningPack } from './types';
 
-export { CATEGORIES, categoryById } from './categories';
+export { CATEGORIES, categoryById };
 export type { Category, CategoryId, Mantra, Section, Verse } from './types';
 
 const DIFFICULTY_ORDER = { easy: 0, medium: 1, advanced: 2 } as const;
@@ -138,14 +138,14 @@ interface IndexedVerse {
   key: string;
 }
 
-let titleIndex: { mantra: Mantra; key: string }[] | null = null;
+let titleIndex: { mantra: Mantra; /** Its own names. */ name: string; /** Names plus deity and section. */ key: string }[] | null = null;
 let verseIndex: IndexedVerse[] | null = null;
 
 function buildIndexes() {
-  titleIndex = ALL_MANTRAS.map((m) => ({
-    mantra: m,
-    key: [searchKey(m.title), searchKey(m.titleEn), searchKey(m.deity ?? '')].join(' '),
-  }));
+  titleIndex = ALL_MANTRAS.map((m) => {
+    const name = `${searchKey(m.title)} ${searchKey(m.titleEn)}`;
+    return { mantra: m, name, key: `${name} ${searchKey(m.deity ?? '')} ${searchKey(categoryById[m.category]?.titleEn ?? '')}` };
+  });
   verseIndex = [];
   for (const m of ALL_MANTRAS) {
     m.sections.forEach((s, si) =>
@@ -162,7 +162,26 @@ export interface SearchResult {
   verse?: { sectionIndex: number; verseIndex: number; text: string; n?: number };
 }
 
-/** Search titles and full text. Accepts English, IAST or any supported Indic script. */
+/**
+ * The ways one typed word may be meant: "geeta" and "geethe" for gita, "sahasranamam" and
+ * "stotram" for the names stored without the final m, "pooja" for puja.
+ */
+function wordKeys(word: string): string[] {
+  const out = new Set([searchKey(word)]);
+  if (/^[\x00-\x7f]+$/.test(word)) {
+    out.add(searchKey(word.toLowerCase().replace(/ee/g, 'i').replace(/oo/g, 'u')));
+    for (const k of [...out]) {
+      if (k.length > 4 && k.endsWith('n')) out.add(k.slice(0, -1)); // final m (stored as n in the key)
+      if (k.length > 3 && k.endsWith('e')) out.add(`${k.slice(0, -1)}a`); // Kannada and Hindi endings: gite, stotre
+    }
+  }
+  return [...out].filter((k) => k.length >= 2);
+}
+
+/**
+ * Search titles and full text. Accepts English, IAST or any supported Indic script, common
+ * spellings (geeta, stotram), and several words in any order ("vadiraja krishnashtakam").
+ */
 export function search(query: string, limit = 50): SearchResult[] {
   const q = searchKey(query);
   if (q.length < 2) return [];
@@ -170,8 +189,19 @@ export function search(query: string, limit = 50): SearchResult[] {
 
   const results: SearchResult[] = [];
   const seenTitle = new Set<string>();
-  for (const t of titleIndex!) {
-    if (t.key.includes(q)) {
+  // Titles: a text's own name before its deity or section; the phrase as typed before the
+  // words in any order and spelling.
+  const words = query.trim().split(/\s+/).map(wordKeys).filter((w) => w.length);
+  const allWords = (hay: string) => words.length > 0 && words.every((alts) => alts.some((k) => hay.includes(k)));
+  const tests: ((t: NonNullable<typeof titleIndex>[number]) => boolean)[] = [
+    (t) => t.name.includes(q),
+    (t) => allWords(t.name),
+    (t) => t.key.includes(q),
+    (t) => allWords(t.key),
+  ];
+  for (const test of tests) {
+    for (const t of titleIndex!) {
+      if (seenTitle.has(t.mantra.id) || !test(t)) continue;
       results.push({ mantra: t.mantra });
       seenTitle.add(t.mantra.id);
     }

@@ -1,6 +1,7 @@
 /// <reference types="node" />
 /** Run: npm test */
 import assert from 'node:assert/strict';
+import { search } from '../src/data';
 import { searchKey, translit, verseNumber } from '../src/lib/transliterate';
 
 const cases: [Parameters<typeof translit>[1], string, string][] = [
@@ -48,5 +49,15 @@ assert.equal(searchKey('ಮಂತ್ರ ಸಂಗ್ರಹ'), searchKey('मन�
 assert.equal(searchKey('ಗೋವಿಂದ'), searchKey('govinda'));
 assert.equal(searchKey('viṣṇu sahasranāma'), k);
 assert.ok(searchKey('कृष्णं').includes(searchKey('krishna')));
+
+// In-app search: everyday spellings and several words in any order.
+{
+  const first = (q: string) => search(q, 5).map((r) => r.mantra.id);
+  assert.ok(first('geeta')[0].startsWith('bhagavad-gita'), 'geeta finds the Gita');
+  assert.equal(first('vishnu sahasranamam')[0], 'vishnu-sahasranama');
+  assert.equal(first('palaya achyuta')[0], 'vadiraja-krishnashtakam');
+  assert.equal(first('krishnashtakam vadiraja')[0], 'vadiraja-krishnashtakam');
+  assert.ok(first('pooja').some((id) => id.endsWith('-puja')), 'pooja finds puja texts');
+}
 
 console.log(`transliteration tests passed (${cases.length + 9} assertions)`);
