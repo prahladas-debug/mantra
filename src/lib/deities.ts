@@ -10,21 +10,26 @@ export interface DeityGroup {
   match: RegExp;
 }
 
+// Patterns are matched against the deity in plain spelling (Krishna, not Kṛṣṇa), so texts
+// written either way are found.
 const GROUPS: DeityGroup[] = [
-  { id: 'vishnu', title: 'श्रीहरिः', titleEn: 'Viṣṇu · Kṛṣṇa · Rāma', match: /Viṣṇu|Vishnu|Hari|Kṛṣṇa|Rāma|Nārāyaṇa|Veṅkaṭ|Narasiṃha|Vāsudeva|Viṭhala|Mukunda|Puruṣa|Satyanārāyaṇa|Venugopāla|Veṇugopāla/ },
-  { id: 'devi', title: 'देवी', titleEn: 'Devī · Lakṣmī · Lalitā', match: /Devī|Lakṣmī|Lalitā|Durgā|Caṇḍikā|Āmbhṛṇī|Sarasvatī|Gaurī/ },
-  { id: 'shiva', title: 'शिवः', titleEn: 'Śiva · Rudra', match: /Śiva|Rudra/ },
-  { id: 'ganesha', title: 'गणेशः', titleEn: 'Gaṇeśa', match: /Gaṇeśa|Gaṇapati|Vināyaka/ },
-  { id: 'vayu', title: 'हनुमान् · वायुः', titleEn: 'Hanumān · Vāyu', match: /Hanumān|Vāyu|Mukhyaprāṇa|Bhīma|Manyu/ },
-  { id: 'surya', title: 'सूर्यः', titleEn: 'Sūrya · Savitṛ', match: /Sūrya|Savitṛ|Āditya/ },
-  { id: 'guru', title: 'गुरवः', titleEn: 'Gurus · Madhva · Rāghavendra', match: /Madhvācārya|Rāghavendra|Guru/ },
+  { id: 'vishnu', title: 'श्रीहरिः', titleEn: 'Vishnu · Krishna · Rama', match: /vishnu|hari\b|krishna|\brama\b|narayana|venkat|srinivasa|narasimha|nrisimha|vasudeva|vith?thala|mukunda|govinda|purusha|ananta|jagadisha|ranganatha|achyuta/ },
+  { id: 'devi', title: 'देवी', titleEn: 'Devi · Lakshmi · Lalita', match: /devi|lakshmi|lalita|durga|chandika|ambhrini|sarasvati|sharada|gauri|parvati|annapurna|minakshi|meenakshi|bhavani|andal/ },
+  { id: 'shiva', title: 'शिवः', titleEn: 'Shiva · Rudra', match: /shiva|rudra|bhairava|dakshinamurti|tryambaka/ },
+  { id: 'ganesha', title: 'गणेशः', titleEn: 'Ganesha', match: /ganesh|ganapati|vinayaka/ },
+  { id: 'vayu', title: 'हनुमान् · वायुः', titleEn: 'Hanuman · Vayu', match: /hanuman|anjaneya|vayu|mukhyaprana|bhima|manyu/ },
+  { id: 'surya', title: 'सूर्यः · ग्रहाः', titleEn: 'Surya · Navagraha', match: /surya|savitr|savitri|aditya|graha/ },
+  { id: 'subrahmanya', title: 'सुब्रह्मण्यः', titleEn: 'Subrahmanya', match: /subrahmanya|murugan|skanda/ },
+  { id: 'guru', title: 'गुरवः', titleEn: 'Gurus · Madhva · Raghavendra', match: /madhvacharya|raghavendra|guru/ },
 ];
 
-/** English names in plain spelling (Vishnu · Krishna · Rama). */
-export const DEITIES: DeityGroup[] = GROUPS.map((g) => ({ ...g, titleEn: plain(g.titleEn) }));
+export const DEITIES: DeityGroup[] = GROUPS;
+
+/** The deity line in plain lower-case spelling, for matching. */
+export const deityKey = (m: Mantra) => plain(m.deity ?? '').toLowerCase();
 
 export function deitiesOf(m: Mantra): string[] {
-  const d = m.deity ?? '';
+  const d = deityKey(m);
   return DEITIES.filter((g) => g.match.test(d)).map((g) => g.id);
 }
 

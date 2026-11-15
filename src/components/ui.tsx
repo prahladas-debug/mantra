@@ -1,10 +1,8 @@
-import { Ionicons } from '@expo/vector-icons';
-import { router, type Href } from 'expo-router';
 import { Pressable, ScrollView, StyleSheet, Text, View, type TextProps } from 'react-native';
-import { verseCount, type Mantra } from '../data';
-import { scriptFont } from '../lib/fonts';
+import type { Mantra } from '../data';
+import { TextRow } from './TextList';
 import { useSettings } from '../lib/settings';
-import { SCRIPTS, translitTitle, type ScriptId } from '../lib/transliterate';
+import { SCRIPTS, type ScriptId } from '../lib/transliterate';
 
 export function Txt({
   muted,
@@ -75,44 +73,13 @@ export function Chip({ label, active, onPress }: { label: string; active?: boole
   );
 }
 
-const DIFFICULTY_LABEL = { easy: 'Easy', medium: 'Medium', advanced: 'Advanced' } as const;
-
-/** A tappable card for one mantra in a list. */
+/** A text as a standalone compact card (search results). Lists inside a section use TextList. */
 export function MantraRow({ mantra, subtitle }: { mantra: Mantra; subtitle?: string }) {
-  const { theme, settings, favorites } = useSettings();
-  const title = translitTitle(mantra.title, settings.script);
-  const fav = favorites.includes(mantra.id);
+  const { theme } = useSettings();
   return (
-      <Pressable
-        onPress={() => router.push(`/mantra/${mantra.id}` as Href)}
-        accessibilityRole="link"
-        style={({ pressed }) => [
-          styles.row,
-          { backgroundColor: theme.card, borderColor: theme.cardBorder, opacity: pressed ? 0.7 : 1 },
-        ]}
-      >
-        <View style={{ flex: 1 }}>
-          <Text style={{ color: theme.text, fontSize: 19, fontFamily: scriptFont(settings.script, settings.bookFonts), fontWeight: settings.bookFonts ? undefined : '600' }} numberOfLines={1}>
-            {title}
-          </Text>
-          <Text style={{ color: theme.textMuted, fontSize: 14, marginTop: 2 }} numberOfLines={2}>
-            {subtitle ?? mantra.titleEn}
-          </Text>
-          <View style={styles.metaRow}>
-            <Text style={[styles.meta, { color: theme.accent, backgroundColor: theme.accentSoft }]}>
-              {DIFFICULTY_LABEL[mantra.difficulty]}
-            </Text>
-            <Text style={[styles.metaPlain, { color: theme.textMuted }]}>{verseCount(mantra)} verses</Text>
-            {mantra.completeness === 'partial' && (
-              <Text style={[styles.meta, { color: theme.warningText, backgroundColor: theme.warningBg }]}>
-                Partial
-              </Text>
-            )}
-          </View>
-        </View>
-        {fav && <Ionicons name="star" size={18} color={theme.accent} style={{ marginRight: 6 }} />}
-        <Ionicons name="chevron-forward" size={20} color={theme.textMuted} />
-      </Pressable>
+    <View style={{ marginHorizontal: 16, marginBottom: 8, borderRadius: 14, borderWidth: 1, borderColor: theme.cardBorder, backgroundColor: theme.card, overflow: 'hidden' }}>
+      <TextRow mantra={mantra} subtitle={subtitle} />
+    </View>
   );
 }
 
