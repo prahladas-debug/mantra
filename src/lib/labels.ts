@@ -10,16 +10,24 @@ import { translit, type ScriptId } from './transliterate';
 type Labels = Partial<Record<ScriptId, string>>;
 
 export const APP_TITLE: Labels = {
-  devanagari: 'मन्त्रसङ्ग्रहः',
-  kannada: 'ಮಂತ್ರ ಸಂಗ್ರಹ',
-  telugu: 'మంత్ర సంగ్రహం',
-  tamil: 'மந்திரத் தொகுப்பு',
-  malayalam: 'മന്ത്ര സംഗ്രഹം',
-  gujarati: 'મંત્ર સંગ્રહ',
-  bengali: 'মন্ত্র সংগ্রহ',
-  oriya: 'ମନ୍ତ୍ର ସଂଗ୍ରହ',
-  iast: 'Mantra Saṅgraha',
+  devanagari: 'नन्दादीपः',
+  kannada: 'ನಂದಾದೀಪ',
+  telugu: 'నందాదీపం',
+  tamil: 'நந்தா தீபம்',
+  malayalam: 'നന്ദാദീപം',
+  gujarati: 'નંદાદીપ',
+  bengali: 'নন্দাদীপ',
+  oriya: 'ନନ୍ଦାଦୀପ',
+  iast: 'Nandādīpa',
 };
+
+/**
+ * The motto under the name: "Lead me from darkness to light" (Brihadaranyaka Upanishad 1.3.28),
+ * shown in the reader's script.
+ */
+export const APP_MOTTO = 'तमसो मा ज्योतिर्गमय';
+/** What the app holds, in plain English. */
+export const APP_TAGLINE = 'Mantra · Parayana · Panchanga';
 
 const CATEGORY_LABELS: Record<CategoryId, Labels> = {
   nitya: {

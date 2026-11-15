@@ -1,21 +1,28 @@
 import Constants from 'expo-constants';
 import { ScrollView, Text } from 'react-native';
 import { ALL_MANTRAS, verseCount } from '../data';
+import { APP_MOTTO, APP_TAGLINE } from '../lib/labels';
 import { useSettings } from '../lib/settings';
+import { translit } from '../lib/transliterate';
 
 export default function About() {
-  const { theme } = useSettings();
+  const { theme, settings } = useSettings();
   const total = ALL_MANTRAS.reduce((n, m) => n + verseCount(m), 0);
   const p = { color: theme.text, fontSize: 16, lineHeight: 24, marginBottom: 14 };
   const h = { color: theme.accent, fontSize: 18, fontWeight: '700' as const, marginTop: 8, marginBottom: 8 };
 
   return (
     <ScrollView style={{ backgroundColor: theme.bg }} contentContainerStyle={{ padding: 20 }}>
-      <Text style={h}>Mantra Sangraha</Text>
+      <Text style={h}>Nandadeepa</Text>
+      <Text style={{ color: theme.textMuted, fontSize: 15, marginTop: -4, marginBottom: 10 }}>
+        {translit(APP_MOTTO, settings.script)} · {APP_TAGLINE}
+      </Text>
       <Text style={p}>
-        A pocket collection of Vedic mantras, suktas, stotras, sahasranamas, Sandhya Vandane and puja
-        mantras, readable in Devanagari, Kannada, Telugu, Tamil, Malayalam, Gujarati, Bengali, Odia
-        and English (IAST).
+        The nandadeepa is the lamp kept burning without a break before the deity. This app is meant
+        to serve daily practice in the same way: mantras, suktas, stotras and sahasranamas, the great
+        works for parayana, devotional songs, Sandhya Vandane, puja and rites, and a panchanga,
+        readable in Devanagari, Kannada, Telugu, Tamil, Malayalam, Gujarati, Bengali, Odia and
+        English (IAST).
       </Text>
       <Text style={p}>
         {ALL_MANTRAS.length} texts · {total} verses · works fully offline.

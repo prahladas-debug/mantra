@@ -5,7 +5,7 @@ import { Pressable, ScrollView, Text, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { CityPicker } from '../components/CalendarBar';
 import { scriptFont } from '../lib/fonts';
-import { appTitle } from '../lib/labels';
+import { APP_MOTTO, APP_TAGLINE, appTitle } from '../lib/labels';
 import { cityById, cityLabel } from '../lib/panchanga';
 import { useSettings } from '../lib/settings';
 import { translit, type ScriptId } from '../lib/transliterate';
@@ -76,6 +76,8 @@ export default function Welcome() {
         <Text style={{ color: theme.accent, fontSize: 30, textAlign: 'center', fontFamily: font, fontWeight: font ? undefined : '700' }}>
           {appTitle(settings.script)}
         </Text>
+        <Text style={{ color: theme.text, fontSize: 16, lineHeight: 25, textAlign: 'center', fontFamily: font, marginTop: -6 }}>{translit(APP_MOTTO, settings.script)}</Text>
+        <Text style={{ color: theme.textMuted, fontSize: 13, textAlign: 'center' }}>{APP_TAGLINE}</Text>
         <Text style={{ color: theme.textMuted, fontSize: 14, textAlign: 'center', marginBottom: 6 }}>Step {step} of 2</Text>
 
         {step === 1 ? (

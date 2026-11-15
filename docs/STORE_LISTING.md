@@ -1,13 +1,16 @@
 # Store listing draft (Google Play / App Store)
 
-**App name:** Mantra Sangraha — ಮಂತ್ರ ಸಂಗ್ರಹ
+**App name:** Nandadeepa — ನಂದಾದೀಪ
+
+**Tagline:** तमसो मा ज्योतिर्गमय · Mantra · Parayana · Panchanga
 
 **Short description (80 chars):**
-Vedic mantras, stotras & pārāyaṇa in Kannada, Telugu, Tamil, Sanskrit & more
+Mantra, stotra, parayana, songs, puja & panchanga in Kannada, Sanskrit & more
 
 **Full description:**
 
-Mantra Sangraha is a pocket library of more than 200 Hindu sacred texts,
+Nandadeepa, the lamp kept ever burning before the deity, is a companion for daily
+practice: a pocket library of more than 400 Hindu sacred texts with a panchanga,
 readable like a printed book in your own script: Devanagari (Sanskrit),
 Kannada, Telugu, Tamil, Malayalam, Gujarati, Bengali, Odia or English (IAST).
 

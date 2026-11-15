@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "Mantra Sangraha",
+    "name": "Nandadeepa",
     "slug": "mantra-sangraha",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -26,7 +26,7 @@
     "web": {
       "favicon": "./assets/favicon.png",
       "output": "static",
-      "name": "Mantra Sangraha"
+      "name": "Nandadeepa"
     },
     "plugins": [
       "expo-router",
@@ -51,7 +51,7 @@
       ]
     ],
     "scheme": "mantrasangraha",
-    "description": "Vedic mantras, suktas, stotras and sahasranamas in Devanagari, Kannada, Telugu, Tamil, Malayalam and more.",
+    "description": "Nandadeepa: mantras, stotras, parayana texts, devotional songs, puja and rites, and a panchanga, in Kannada, Devanagari, Telugu, Tamil, Malayalam and more.",
     "experiments": {
       "typedRoutes": false
     }

@@ -1,8 +1,8 @@
-# Privacy Policy: Mantra Sangraha
+# Privacy Policy: Nandadeepa
 
 _Last updated: November 2026_
 
-Mantra Sangraha is an offline book of mantras, stotras and pārāyaṇa texts.
+Nandadeepa is an offline book of mantras, stotras and pārāyaṇa texts.
 
 - **No personal data is collected.** The app has no account, no analytics, no
   advertising and no tracking.

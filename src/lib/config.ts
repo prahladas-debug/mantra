@@ -4,4 +4,4 @@
  * a Google Form) before publishing if you prefer.
  */
 export const CORRECTIONS_URL = 'https://github.com/prahladas-debug/mantra/issues/new';
-export const APP_NAME = 'Mantra Sangraha';
+export const APP_NAME = 'Nandadeepa';

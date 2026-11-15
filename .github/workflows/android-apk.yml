@@ -55,20 +55,20 @@ jobs:
       - name: Rename APK
         run: |
           VERSION=$(node -p "require('./app.json').expo.version")
-          cp android/app/build/outputs/apk/release/app-release.apk "mantra-sangraha-${VERSION}-build${{ github.run_number }}.apk"
+          cp android/app/build/outputs/apk/release/app-release.apk "nandadeepa-${VERSION}-build${{ github.run_number }}.apk"
           ls -la *.apk
 
       - uses: actions/upload-artifact@v4
         with:
-          name: mantra-sangraha-apk
-          path: mantra-sangraha-*.apk
+          name: nandadeepa-apk
+          path: nandadeepa-*.apk
 
       - name: Publish as a GitHub Release
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          gh release create "apk-build-${{ github.run_number }}" mantra-sangraha-*.apk \
+          gh release create "apk-build-${{ github.run_number }}" nandadeepa-*.apk \
             --target "${{ github.sha }}" \
             --prerelease \
-            --title "Mantra Sangraha APK (build ${{ github.run_number }})" \
+            --title "Nandadeepa APK (build ${{ github.run_number }})" \
             --notes "Android APK built from ${{ github.sha }}. Download the .apk on your phone, open it, and allow installing from this source if asked."

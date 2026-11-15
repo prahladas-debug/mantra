@@ -9,9 +9,9 @@ import { BookCover, CategoryTile, DeityMedallion, QuickTile, ShelfHeading, great
 import { getMantraInfo, scriptFor } from '../../data';
 import { DEITIES } from '../../lib/deities';
 import { scriptFont } from '../../lib/fonts';
-import { appTitle } from '../../lib/labels';
+import { APP_MOTTO, appTitle } from '../../lib/labels';
 import { useSettings } from '../../lib/settings';
-import { SCRIPTS, translitTitle } from '../../lib/transliterate';
+import { SCRIPTS, translit, translitTitle } from '../../lib/transliterate';
 
 /** Reading-script chooser behind the header button. */
 function ScriptSheet({ visible, onClose }: { visible: boolean; onClose: () => void }) {
@@ -71,9 +71,14 @@ export default function Home() {
   return (
     <ScrollView style={{ backgroundColor: theme.bg }} contentContainerStyle={{ paddingTop: insets.top + 14, paddingBottom: 32 }}>
       <View style={s.header}>
-        <Text style={{ flex: 1, color: theme.accent, fontSize: 28, fontFamily: font, fontWeight: font ? undefined : '700' }} numberOfLines={1}>
-          {appTitle(settings.script)}
-        </Text>
+        <View style={{ flex: 1 }}>
+          <Text style={{ color: theme.accent, fontSize: 28, fontFamily: font, fontWeight: font ? undefined : '700' }} numberOfLines={1}>
+            {appTitle(settings.script)}
+          </Text>
+          <Text style={{ color: theme.textMuted, fontSize: 13, lineHeight: 20, fontFamily: font }} numberOfLines={1}>
+            {translit(APP_MOTTO, settings.script)}
+          </Text>
+        </View>
         <Pressable
           onPress={() => setScriptSheet(true)}
           hitSlop={8}

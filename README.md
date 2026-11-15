@@ -1,4 +1,4 @@
-# Mantra Sangraha (मन्त्रसङ्ग्रहः)
+# Nandadeepa (नन्दादीपः)
 
 A cross-platform ebook app of Vedic mantras, suktas, stotras, sahasranamas,
 Sandhya Vandane and puja mantras. It reads in **Devanagari (Sanskrit), Kannada,
