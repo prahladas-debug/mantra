@@ -196,7 +196,7 @@ export const enGaps: MeaningPack = {
     "lakshmi-shobhane": {
       verses: {
         "2.4": "One covets riches that perish; one, though called Ishvara, the Lord, lives by depending on others; one laughed in mockery and had his teeth knocked out; one goes with his feet exposed to view; one has only one eye.",
-        "2.14": "At the dissolution Hari takes the gods, sages and brahmins into himself and keeps them in his belly: does any sin cling to him for that? Would those who grasp the meaning set Shiva's linga on the banyan leaf? (It is Hari alone who lies on the banyan leaf at the deluge.)",
+        "2.14": "At the dissolution Hari slays the gods, sages and brahmins and fills his belly with them: does any sin cling to him for that? Would those who grasp the meaning set Shiva's linga on the banyan leaf? (It is Hari alone who lies on the banyan leaf at the deluge.)",
         "2.33": "By his sixteen thousand wives he had sons, ten by each, in due order: has anyone else ever begotten sons like that by ordinary seed? For Hari this was a creation of loving will.",
         "2.34": "From every pore of his body he made millions of trees and sent forth the cowherd boys. This greatness of our Sri Krishna, who creates children by his will alone, is there to protect those who know it. (Perhaps a reference to the time he himself became the calves and cowherd boys that Brahma had hidden away.)",
         "2.41": "Yama Dharmaraja, who rules over hell, will make you writhe in this human birth of yours, and then make you writhe again in his hell and torment you there: that is where your sly mischief ends.",

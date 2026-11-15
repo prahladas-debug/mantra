@@ -405,7 +405,7 @@ export const enSmv1: MeaningPack = {
         '0.39': '"Ah, this speech of the Lord of the Vedas answers in a single word a thousand excellent questions put by gatherings of brāhmaṇas out of curiosity!"',
         '0.40': '"The glance of the long lotus-eyed one, with a smile that delights the world, comes to me, caresses me, embraces me and makes me whole."',
         '0.41': '"The tulasī shining near His ear, lovingly placed there, seems to whisper: \'Let not the lotus and other flowers jealously steal my place beside my Lord.\'"',
-        '0.42': '"The creation, destruction, birth and all else of the worlds — even of Śiva and lotus-born Brahmā — come from the slightest play of these brows of the Lord of the worlds."',
+        '0.42': "\"The sustenance, destruction, origin and all else of the worlds — even of Śiva and lotus-born Brahmā — come from the slightest play of these brows of the Lord of the worlds.\"",
         '0.43': '"The mark on the brow of Him who is the ornament of the three worlds has gained surpassing beauty, like a row of bright red stones on the summit of a sapphire mountain."',
         '0.44': '"Seeing the world-teacher\'s body adorned with its circle of matted locks — like a fresh rain cloud ringed with fine lightning — I have reached fulfilment."',
         '0.45': '"Not even Ramā, counting without ceasing, can count the endless good qualities that shine in the dust of His toenails; who else could tell His supreme qualities?"',

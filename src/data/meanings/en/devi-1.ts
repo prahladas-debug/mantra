@@ -249,7 +249,7 @@ export const enDevi1: MeaningPack = {
         '1.40': "fought, and Cāmara too, with other asuras, at the head of a fourfold army. The great asura named Udagra fought with sixty thousand chariots,",
         '1.41': "Mahāhanu with a thousand ayutas (ten million) of chariots, and the great asura Asiloman with fifty niyutas.",
         '1.42': "Bāṣkala fought in the battle with six hundred ayutas (six million). Another, Parivārita, surrounded by many thousands of masses of elephants and horses,",
-        '1.43': "and by a crore of chariots, fought in that battle. Biḍāla fought with fifty ayutas of chariots,",
+        '1.43': "and by a crore of chariots, fought in that battle. Biḍāla fought with fifty ayutas of ayutas (five hundred crore) of chariots,",
         '1.44': "surrounded by chariots in that combat. And other great asuras there, by tens of thousands, surrounded by chariots, elephants and horses,",
         '1.45': "fought with the Devī in that battle. With thousands of crores upon crores of chariots and elephants",
         '1.46': "and horses Mahiṣāsura himself was surrounded there in the battle. With lances and javelins, spears and pestles,",

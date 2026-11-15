@@ -447,7 +447,7 @@ export const enSundara1: MeaningPack = {
         '0.35': 'The monkey, son of the Wind, saw palanquins of many shapes, charming bowers of creepers and picture-galleries,',
         '0.36': 'other pleasure-houses and wooden artificial hills, a lovely chamber of love and a day-house too,',
         '0.37': 'he saw in the palace of Ravana, king of the Rakshasas. He saw it like Mount Mandara, crowded with peacock perches,',
-        '0.38': 'filled with flagstaffs — that finest of mansions, with endless heaps of jewels and treasures all around, its works done by skilled craftsmen, like the house of the lord of beings (Shiva).',
+        '0.38': "filled with flagstaffs — that finest of mansions, with endless heaps of jewels and treasures all around, its works done by skilled craftsmen, like the house of the lord of beings (Shiva; some commentators take it as Kubera, lord of treasures).",
         '0.39': 'With the rays of its jewels and the splendour of Ravana, that mansion shone like the sun with its rays.',
         '0.40': 'The leader of monkey troops saw beds and seats all of gold, and shining vessels.',
         '0.41': 'It was moist with spilt honey and wine, crowded with jewelled cups, charming and spacious, like the palace of Kubera,',
