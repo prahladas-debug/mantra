@@ -35,6 +35,7 @@ import { dakshinamurtiStotram } from './texts/dakshinamurti-stotram';
 import { damodarashtakam } from './texts/damodarashtakam';
 import { dpKanduKandu, dpSanditayyaPrayavu, dpSrinivasaNeenePaaliso, dpBarayyaVenkataramana, dpTaluTaleloRangayya, dpYareRangana, dpJoJoSriKrishna, dpNeeneDayalo, dpNaMaadidaKarma, dpPalisemmaMudduSharade, dpJayaMangalamNitya, dpMandagamaneIvanare, dpNarasimhanaPadaBhajaneya, dpDevakiKandaMukunda, dpEnuBaredeBrahma, dpEkeChintisuve, dpElliHarikathaPrasangavo, dpIdeSamayaRanga, dpAruBadukidarayya, dpOotakkeBandevu, dpGummanaKareyadire, dpTalaBekuTakkaMela, dpKelenoHariTalano, dpBharatideviNeneNene, dpDharmaveJayavemba, dpBuddhiMatuHelidare, dpNeeneAnathabandhu, dpDharanigeDoreyenduNambide, dpYadavaNeeBa, dpBannisiGopiHarasidalu, dpMangalaMaramanage, dpInduNinnaMareyaHokke, dpNinnaNodiDhanyanadeno, dpNillabekayyaKrishnayya } from './texts/dasara-pada-2';
 import { dpNammammaSharade, dpEllaruMaduvuduHottegagi, dpDasadasaraManeya, dpEnuIlladaEraduDinada, dpAruHitavaru, dpVaravaKoduVagdevi, dpLaliPavanaCharana, dpMangalaratiyaPadire, dpBaroKrishnayya, dpHettaTayiginta, dpKangalidyatako, dpLaliGovindaLali, dpMangalaMukhyapraneshage, dpDasarendarePurandaraDasarayya, dpTulasiMadhyadiIruva, dpBegaBaroNilameghavarna, dpGubbiyaloGovinda, dpAratiyettireKeshava, dpLaliSriHayavadana, dpIndireyarasaneBaro, dpEndigahudoNinnaDarushana, dpParadeshiNeenuSvadeshiNanu, dpBelaginaJavadiBaro, dpMunjaneEdduSanjivanenni, dpKoduvavanuNeenu, dpBanduNilloKannaMunde, dpEnuBedaliNinna, dpBaruvudellaBarali, dpSummaneBaruvudeMukti, dpDasohamTavaDasoham, dpPranadevaNinallade, dpBaroBhavajanayya, dpKrishnaEnikyakayya, dpVenkatadriNilayana, dpSanjivanaGiridhara, dpMaleyaDayamadoRangayya, dpRaghavendraGururayaraSevisiro, dpRayaraNodirai, dpRaghavendraSuladiGopalaDasa, dpUgabhogaDhyanavuKritayugadi, dpUgabhogaSnanaMadidarinnenu, dpUgabhogaAnyarindaliSukha } from './texts/dasara-pada-3';
+import { dpTugireRayara } from './texts/dasara-pada-4';
 import { dpBhagyadaLakshmiBaramma, dpJagadoddharana, dpKallusakkareKolliro, dpAcharavilladaNalige, dpGajavadanaBeduve, dpSharanuSiddhiVinayaka, dpGuruvinaGulama, dpRamaMantravaJapiso, dpYarigeYaruntu, dpDasanaMadikoEnna, dpManavaJanmaDoddadu, dpToogireRangana, dpIduBhagya, dpRamanamaPayasakke, dpHariNarayana, dpPillangoviyaCheluva, dpBandaddellaBarali, dpBagilanuTeredu, dpTallanisadiruKandya, dpKulaKulaKulavendu, dpNiMayeyolago, dpKeshavaNama, dpBhushanakeBhushana, dpKrishnaNiBeganeBaro, dpInduEnageGovinda, dpNinnaOlumeyinda } from './texts/dasara-pada';
 import { dashavataraStuti } from './texts/dashavatara-stuti';
 import { deepavaliLakshmiPuja } from './texts/deepavali-lakshmi-puja';
@@ -272,6 +273,7 @@ export const LIBRARY: Mantra[] = [
   dpUgabhogaDhyanavuKritayugadi,
   dpUgabhogaSnanaMadidarinnenu,
   dpUgabhogaAnyarindaliSukha,
+  dpTugireRayara,
   dpBhagyadaLakshmiBaramma,
   dpJagadoddharana,
   dpKallusakkareKolliro,
