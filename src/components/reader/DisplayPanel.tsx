@@ -5,6 +5,7 @@ import { useSettings } from '../../lib/settings';
 import type { ThemeName } from '../../lib/theme';
 import { translit } from '../../lib/transliterate';
 import { Chip, ScriptPicker } from '../ui';
+import type { Row } from './rows';
 
 function Label({ children }: { children: React.ReactNode }) {
   const { theme } = useSettings();
@@ -14,18 +15,22 @@ function Label({ children }: { children: React.ReactNode }) {
 /** The "Aa" panel: script, size, theme, layout, meanings, practice, jump to section. */
 export function DisplayPanel({
   mantra,
+  rows,
   practice,
   setPractice,
   onJump,
 }: {
   mantra: Mantra;
+  /** The rows being shown: sections left out by the reader's choices can't be jumped to. */
+  rows: Row[];
   practice: boolean;
   setPractice: (v: boolean) => void;
   onJump: (key: string) => void;
 }) {
   const { theme, settings, update } = useSettings();
   const scale = settings.fontScale;
-  const sections = mantra.sections.map((s, si) => ({ s, si })).filter(({ s }) => s.title || s.titleEn);
+  const shown = new Set(rows.map((r) => r.key));
+  const sections = mantra.sections.map((s, si) => ({ s, si })).filter(({ s, si }) => (s.title || s.titleEn) && shown.has(`s${si}`));
   return (
     <View style={[p.panel, { backgroundColor: theme.card, borderColor: theme.cardBorder }]}>
       <ScrollView style={{ maxHeight: 420 }} contentContainerStyle={{ paddingBottom: 10 }}>

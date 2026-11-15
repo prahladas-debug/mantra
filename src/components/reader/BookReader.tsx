@@ -1,5 +1,5 @@
 import { Ionicons } from '@expo/vector-icons';
-import { useCallback, useEffect, useImperativeHandle, useMemo, useRef, useState, type Ref } from 'react';
+import { useCallback, useEffect, useImperativeHandle, useLayoutEffect, useMemo, useRef, useState, type Ref } from 'react';
 import { FlatList, Pressable, ScrollView, StyleSheet, Text, useWindowDimensions, View } from 'react-native';
 import { leading, scriptFont } from '../../lib/fonts';
 import { useSettings } from '../../lib/settings';
@@ -124,16 +124,40 @@ export function BookReader({
   const pageOf = useCallback((key: string) => Math.max(0, pages.findIndex((p) => p.rows.some((r) => r.key === key))), [pages]);
   const startPage = initialKey ? pageOf(initialKey) : 0;
 
+  // A row on the page in view (kept up to date by page turns and onViewable).
+  const anchor = useRef<string | null>(initialKey);
   const goTo = useCallback(
     (i: number, animated = true) => {
       const target = Math.max(0, Math.min(pages.length - 1, i));
+      anchor.current = pages[target]?.rows[0]?.key ?? anchor.current;
       listRef.current?.scrollToIndex({ index: target, animated });
       setPage(target);
     },
-    [pages.length],
+    [pages],
   );
 
-  useImperativeHandle(ref, () => ({ jumpToKey: (key: string) => goTo(pageOf(key)) }), [goTo, pageOf]);
+  useImperativeHandle(
+    ref,
+    () => ({
+      jumpToKey: (key: string) => {
+        goTo(pageOf(key), false);
+        anchor.current = key;
+      },
+    }),
+    [goTo, pageOf],
+  );
+
+  // When the pages are made again (text size, script, rotation, or the display panel
+  // changing the height) the list keeps its offset, which would now show other verses:
+  // go back to the page that holds the anchor row instead.
+  const paginated = useRef(false);
+  useLayoutEffect(() => {
+    if (!pages.length) return;
+    const i = anchor.current ? pageOf(anchor.current) : 0;
+    setPage(i);
+    if (paginated.current) listRef.current?.scrollToIndex({ index: i, animated: false });
+    paginated.current = true; // the first time, initialScrollIndex opens the list there
+  }, [pages, pageOf]);
 
   // FlatList requires a stable onViewableItemsChanged; read the latest onPosition through a ref.
   const onPositionRef = useRef(onPosition);
@@ -144,7 +168,9 @@ export function BookReader({
     const v = viewableItems[0];
     if (v?.index == null) return;
     setPage(v.index);
-    const firstVerse = (v.item as Page).rows.find((r) => r.kind === 'verse' || r.kind === 'section');
+    const rowsOnPage = (v.item as Page).rows;
+    if (!rowsOnPage.some((r) => r.key === anchor.current)) anchor.current = rowsOnPage[0]?.key ?? null;
+    const firstVerse = rowsOnPage.find((r) => r.kind === 'verse' || r.kind === 'section');
     if (firstVerse) onPositionRef.current(firstVerse.key);
   }, []);
 

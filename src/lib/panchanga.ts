@@ -423,7 +423,8 @@ let byId: Map<string, City> | null = null;
 export function allCities(): City[] {
   if (all) return all;
   const out: City[] = [...CITIES];
-  const ids = new Set(out.map((c) => c.id));
+  // ABROAD ids are fixed too: a GeoNames town of the same name (Dhaka, Bihar) gets a suffix.
+  const ids = new Set([...CITIES, ...ABROAD].map((c) => c.id));
   const near = (a: City, lat: number, lon: number) => Math.abs(a.lat - lat) < 0.12 && Math.abs(a.lon - lon) < 0.12;
   for (const [name, state, lat, lon, rank, alias] of INDIA_CITIES) {
     // Skip the GeoNames twin of a popular place (same name, same spot).
@@ -434,7 +435,7 @@ export function allCities(): City[] {
     ids.add(id);
     out.push({ id, name, state, lat, lon, tz: 5.5, rank, alias });
   }
-  for (const c of ABROAD) if (!ids.has(c.id)) out.push({ rank: 2, ...c });
+  for (const c of ABROAD) out.push({ rank: 2, ...c });
   all = out;
   return out;
 }

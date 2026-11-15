@@ -32,6 +32,13 @@ export default function Reader() {
   const [highlight, setHighlight] = useState<string | null>(targetKey);
   // Where to open: the requested verse, else where the reader left off.
   const [initialKey] = useState<string | null>(() => targetKey ?? (mantra ? positions[mantra.id] ?? null : null));
+  // Switching between book and scroll mounts a new layout: open that one where the reader is now.
+  const [shownLayout, setShownLayout] = useState(settings.layout);
+  const [openAt, setOpenAt] = useState(initialKey);
+  if (shownLayout !== settings.layout) {
+    setShownLayout(settings.layout);
+    setOpenAt((mantra && positions[mantra.id]) ?? openAt);
+  }
 
   useEffect(() => {
     if (mantra) markRead(mantra.id);
@@ -98,6 +105,7 @@ export default function Reader() {
         {panelOpen && (
           <DisplayPanel
             mantra={mantra}
+            rows={rows}
             practice={practice}
             setPractice={(v) => {
               setPractice(v);
@@ -109,7 +117,7 @@ export default function Reader() {
             }}
           />
         )}
-        <Layout key={settings.layout} rows={rows} initialKey={initialKey} onPosition={onPosition} ref={handle} />
+        <Layout key={settings.layout} rows={rows} initialKey={openAt} onPosition={onPosition} ref={handle} />
       </View>
     </ReaderContext.Provider>
   );
