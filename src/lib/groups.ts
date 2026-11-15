@@ -78,7 +78,7 @@ function groupOf(m: Mantra): [id: string, title: string, order: number] {
       return ['sukta', 'Suktas', 0];
     case 'madhva':
       if (/raghavendra/.test(id)) return ['raghavendra', 'Sri Raghavendra Swami', 3];
-      if (/lakshmi-shobhane|dashavatara/.test(id)) return ['vadiraja', 'Sri Vadiraja Tirtha', 1];
+      if (/lakshmi-shobhane|dashavatara|vadiraja/.test(id)) return ['vadiraja', 'Sri Vadiraja Tirtha', 1];
       if (/vayu-stuti/.test(id)) return ['vayu', 'Sri Trivikrama Panditacharya', 2];
       return ['madhva', 'Sri Madhvacharya', 0];
     case 'puja':

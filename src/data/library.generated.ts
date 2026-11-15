@@ -136,6 +136,7 @@ import { taittiriyaShikshavalli } from './texts/taittiriya-shikshavalli';
 import { tiruppavai } from './texts/tiruppavai';
 import { tulasiPuja } from './texts/tulasi-puja';
 import { upakarma } from './texts/upakarma';
+import { vadirajaKrishnashtakam } from './texts/vadiraja-krishnashtakam';
 import { varamahalakshmiVrata } from './texts/varamahalakshmi-vrata';
 import { vayuStuti } from './texts/vayu-stuti';
 import { venkateshaStotram } from './texts/venkatesha-stotram';
@@ -539,6 +540,7 @@ export const LIBRARY: Mantra[] = [
   tiruppavai,
   tulasiPuja,
   upakarma,
+  vadirajaKrishnashtakam,
   varamahalakshmiVrata,
   vayuStuti,
   venkateshaStotram,
