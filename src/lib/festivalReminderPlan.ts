@@ -5,11 +5,13 @@
  *
  * One notification per observance day at most, at `time` (city-local) on the evening
  * before. An ekādaśī reminder names the fast and its pāraṇa (by the same rule) and
- * mentions any major festival on that day; other days get a festival reminder.
+ * mentions any major festival on that day; other days get a festival reminder. Names are in
+ * plain English spelling (Ekadashi, Mokshada), as on the app's screens.
  */
 import { festivalsBetween, type CalendarMode, type EkadashiRule, type Festival } from './festivals';
 import { addDays, cityDateOf, parseIso, utcOffsetMinutes, type CalcMethod, type City } from './panchanga';
 import { paranaTimes, shortDay } from './parana';
+import { plain } from './plain';
 import type { SauraStart } from './sauramana';
 
 /**
@@ -134,11 +136,11 @@ export function planFestivalReminders(
     let title: string;
     const body: string[] = [];
     if (ek) {
-      title = `Ekadashi tomorrow — ${ek.en}`;
+      title = `Ekadashi tomorrow — ${plain(ek.en)}`;
       if (ek.parana) body.push(`Parana on ${shortDay(ek.parana.date)} ${paranaTimes(ek.parana, city)}.`);
-      if (others.length) body.push(`Also ${others.map((f) => f.en).join(' · ')}.`);
+      if (others.length) body.push(`Also ${others.map((f) => plain(f.en)).join(' · ')}.`);
     } else {
-      title = `Tomorrow: ${others.map((f) => f.en).join(' · ')}`;
+      title = `Tomorrow: ${others.map((f) => plain(f.en)).join(' · ')}`;
       const place = others.every((f) => f.place === others[0].place) ? others[0].place : undefined;
       body.push(`${shortDay(date)}${place ? ` · ${place}` : ''}.`);
     }

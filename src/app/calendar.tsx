@@ -177,8 +177,9 @@ export default function CalendarScreen() {
         ))}
       </View>
       <Text style={{ color: theme.textMuted, fontSize: 13, margin: 16, lineHeight: 19 }}>
-        Ekadashi — Smarta: ekadashi at sunrise. Madhva: ekadashi must be free of dashami at arunodaya (96 minutes
-        before sunrise), otherwise the fast moves to the next day. Tap ⓘ beside a festival for details. Local matha and
+        Ekadashi — Smarta: ekadashi at sunrise. Madhva: ekadashi must be free of dashami at arunodaya (
+        {method === 'surya' ? 'about 2¾–3 hours before sunrise, as the matha panchangas count it' : '96 minutes before sunrise'}),
+        otherwise the fast moves to the next day. Tap ⓘ beside a festival for details. Local matha and
         temple calendars can differ by a day — follow your family panchanga.
       </Text>
     </ScrollView>

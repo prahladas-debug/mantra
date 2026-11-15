@@ -50,12 +50,12 @@ checks += 8;
   assert.ok(plan.every((r) => r.id === `${REMINDER_ID_PREFIX}${r.date}` && r.data.kind === 'ekadashi'));
   const [first, , vk] = plan;
   assert.equal(first.at.toISOString(), '2026-11-20T13:30:00.000Z'); // 19:00 IST the evening before
-  assert.equal(first.title, 'Ekadashi tomorrow — Prabodhinī (Utthāna) Ekādaśī');
+  assert.equal(first.title, 'Ekadashi tomorrow — Prabodhini (Utthana) Ekadashi');
   // Mādhva fast on the mahādvādaśī (21st); pāraṇa on trayodaśī morning (drik "Gauna": 06:21–08:39).
   assert.equal(first.body, 'Parana on Sun 22 Nov 06:21–08:39. Read: Vishnu Sahasranama.');
   assert.deepEqual(first.data, { kind: 'ekadashi', date: '2026-11-21', keys: ['ekadashi-2026-11-21'], textId: 'vishnu-sahasranama', url: '/mantra/vishnu-sahasranama' });
-  assert.equal(vk.title, 'Ekadashi tomorrow — Mokṣadā Ekādaśī');
-  assert.equal(vk.body, 'Parana on Mon 21 Dec 06:37–08:53. Also Vaikuṇṭha (Mukkoṭi) Ekādaśī. Read: Vishnu Sahasranama.');
+  assert.equal(vk.title, 'Ekadashi tomorrow — Mokshada Ekadashi');
+  assert.equal(vk.body, 'Parana on Mon 21 Dec 06:37–08:53. Also Vaikuntha (Mukkoti) Ekadashi. Read: Vishnu Sahasranama.');
   assert.deepEqual(vk.data.keys, ['ekadashi-2026-12-20', 'vaikuntha-ekadashi-2026-12-20']);
   checks += 8;
 }
@@ -78,8 +78,12 @@ checks += 8;
   assert.ok(ek.every((r) => r.data.kind === 'ekadashi') && fe.every((r) => r.data.kind === 'festival'));
   assert.equal(both.length, ek.length + fe.length);
   assert.deepEqual(fe.map((r) => r.data.keys.join('+')), ['varamahalakshmi', 'raghavendra-aradhana', 'krishna-janmashtami', 'ganesha-chaturthi']);
+  // Varamahālakṣmī 2026 is on Śrāvaṇa pūrṇimā itself, a Friday (28 Aug; drikpanchang, Mantrālaya maṭha).
+  assert.equal(fe[0].date, '2026-08-28');
+  // Titles and bodies are in plain English spelling, like the screens (no IAST marks).
+  assert.ok([...both, ...fe].every((r) => !/[āīūṛṅñṭḍṇśṣṃḥ]/i.test(r.title + r.body)), 'plain spelling');
   const g = fe.find((r) => r.data.keys[0] === 'ganesha-chaturthi')!;
-  assert.equal(g.title, 'Tomorrow: Gaṇeśa Caturthī');
+  assert.equal(g.title, 'Tomorrow: Ganesha Chaturthi');
   assert.equal(g.body, 'Mon 14 Sep. Read: Ganesha Pancharatnam.');
   assert.equal(g.data.url, '/mantra/ganesha-pancharatnam');
   assert.ok(both.every((r) => r.date > '2026-08-01' && r.date <= '2026-09-30'), '60-day window');
@@ -94,7 +98,7 @@ checks += 8;
   assert.ok(!late.some((r) => r.date === '2026-08-23') && late.some((r) => r.date === '2026-08-30'));
   const early = planFestivalReminders(opts(), ist('2026-08-22T18:59'), titleOf);
   assert.equal(early[0].date, '2026-08-23');
-  checks += 13;
+  checks += 15;
 }
 
 // ---- other cities: local evening, local pāraṇa ----

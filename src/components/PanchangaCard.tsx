@@ -193,7 +193,7 @@ export function TodayCard() {
   const read = (id: string | undefined) => (id ? getMantraInfo(id) : undefined);
   return (
     <View style={{ marginHorizontal: 16, marginTop: 16, borderRadius: 14, borderWidth: 1, backgroundColor: theme.card, borderColor: theme.cardBorder, overflow: 'hidden' }}>
-      <Pressable onPress={() => router.push('/panchanga')} style={({ pressed }) => ({ padding: 14, opacity: pressed ? 0.7 : 1 })} accessibilityRole="link">
+      <Pressable onPress={() => router.push({ pathname: '/panchanga', params: { date: today } } as Href)} style={({ pressed }) => ({ padding: 14, opacity: pressed ? 0.7 : 1 })} accessibilityRole="link">
         <Text style={{ color: theme.textMuted, fontSize: 12, fontWeight: '700', letterSpacing: 0.8 }}>
           TODAY · {city.name.toUpperCase()}
         </Text>

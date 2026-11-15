@@ -57,8 +57,12 @@ export default function PanchangaScreen() {
   const params = useLocalSearchParams<{ date?: string }>();
   const city = cityById(settings.city);
   const today = todayIn(city);
-  const [picked, setPicked] = useState<string | null>(null);
-  const date = picked ?? (params.date && ISO.test(params.date) ? params.date : today);
+  // The day picked here (‹ › / back to today) belongs to the `date` it was picked from, so a
+  // new date from the calendar, festival search or the Home card replaces it.
+  const fromParam = params.date && ISO.test(params.date) ? params.date : undefined;
+  const [picked, setPickedState] = useState<{ from?: string; date: string } | null>(null);
+  const date = picked && picked.from === fromParam ? picked.date : (fromParam ?? today);
+  const setPicked = (d: string) => setPickedState({ from: fromParam, date: d });
   const [rule] = useEkadashiRule();
   const [mode] = useCalendarMode();
   const [start] = useSauraStart();
@@ -110,7 +114,7 @@ export default function PanchangaScreen() {
   const sunMoon: Row[] = [
     [['Sunrise', 'सूर्योदयः'], visibleRise ? `${tm(p.sunrise)}\nvisible ${tm(visibleRise)}` : tm(p.sunrise)],
     [['Sunset', 'सूर्यास्तः'], tm(p.sunset)],
-    [['Moonrise', 'चन्द्रोदयः'], moonrise === null ? '—' : tm(fromJulian(moonrise))],
+    [['Moonrise', 'चन्द्रोदयः'], moonrise === null ? 'None before the next sunrise' : tm(fromJulian(moonrise))],
     [['Sun sign', 'सूर्यराशिः'], t(p.sunRashi)],
     [['Moon sign', 'चन्द्रराशिः'], until(p.moonRashis)],
   ];

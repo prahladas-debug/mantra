@@ -29,6 +29,10 @@ const ALIASES: [RegExp, string][] = [
   [/^varalakshmi|^varamahalakshmi/, 'varamahalakshmi'],
   [/^madhva/, 'madhva'],
   [/^aradhana|^raghavendra/, 'aradhana'],
+  [/^hanuman|^hanumad|^hanumat|^anjaneya/, 'hanuman hanumat hanumad'],
+  [/^gowri|^gauri|^gouri/, 'gauri'],
+  [/^holi|^kama ?dahan/, 'holika kama'],
+  [/^vat |^vata |^vat$|^vata$|^vatasavitri|^vat savitri/, 'vata savitri'],
 ];
 
 /** Twelve years of festivals take a moment to compute; keep the last result per choice set. */

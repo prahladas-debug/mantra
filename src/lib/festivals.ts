@@ -18,10 +18,11 @@
  * the earlier or later day as the festival's rule prefers. If no day's window is touched,
  * the day with the tithi at sunrise is used, else the day it begins (a kṣaya tithi).
  * Janmāṣṭamī (Smārta) additionally prefers the next day when that day has aṣṭamī at
- * sunrise and Rohiṇī at midnight while the midnight-aṣṭamī day lacks Rohiṇī (Jayantī yoga). This reproduces the dates of
- * the published South-Indian pañcāṅgas checked in scripts/test-panchanga.ts, but it is a
- * simplification: secondary conditions (nakṣatra yoga such as Rohiṇī for Janmāṣṭamī or
- * Śravaṇa for Vijayadaśamī, bhadrā/viṣṭi for Holikā, regional exceptions) are not applied.
+ * sunrise and Rohiṇī at midnight while the midnight-aṣṭamī day lacks Rohiṇī (Jayantī yoga);
+ * Durgāṣṭamī avoids a saptamī-viddhā aṣṭamī and Holikā avoids bhadrā (durgashtamiAdjust,
+ * holikaDay). This reproduces the dates of the published South-Indian pañcāṅgas checked in
+ * scripts/test-panchanga.ts, but it is a simplification: other secondary conditions
+ * (Śravaṇa for Vijayadaśamī, regional exceptions) are not applied.
  *
  * Ekādaśī (see ekadashiDates for the precise rules)
  * - Smārta: ekādaśī at sunrise; when it is kṣaya, or when the next day is a trispṛśā
@@ -157,6 +158,46 @@ function jayantiAdjust(city: City, day: string, s: number, e: number): string {
   return day;
 }
 
+/**
+ * Durgāṣṭamī: aṣṭamī at sunrise, the first such day — but not a saptamī-viddhā aṣṭamī
+ * ("saptamīvedhasaṃyuktā yaiḥ kṛtā tu mahāṣṭamī …" is to be avoided; Nirṇayasindhu,
+ * Dharmasindhu): when saptamī still prevails at aruṇodaya (96 min before that sunrise) and
+ * aṣṭamī also reaches the next sunrise, the next day (joined with navamī) is taken.
+ * Mantrālaya maṭha (SS) 19 Oct 2026; drikpanchang 7 Oct 2027 (no vedha: first day).
+ */
+function durgashtamiAdjust(city: City, day: string, s: number, e: number): string {
+  const next = addDays(day, 1);
+  return s > sunriseJd(city, day) - ARUNODAYA && e > sunriseJd(city, next) ? next : day;
+}
+
+/**
+ * Holikā dahana (Nirṇayasindhu / Dharmasindhu, Phālguna pūrṇimā; drikpanchang applies the
+ * same rules): in the pradoṣa of the day whose pradoṣa has pūrṇimā (`day`), after bhadrā
+ * (viṣṭi, the first half of pūrṇimā) if it ends by midnight, or in its puccha if that falls
+ * before midnight. When bhadrā lasts past midnight with no puccha before it, and on the next
+ * day pūrṇimā lasts at least 3½ yāmas (7/8 of the daytime) and pratipadā is longer than
+ * pūrṇimā (vṛddhi), the dahana is on the next day's pradoṣa although pūrṇimā has ended —
+ * otherwise it stays in the bhadrā of the first day. drikpanchang (Bengaluru): 3 Mar 2026
+ * (next day), 21 Mar 2027 (in bhadrā), 10 Mar 2028 and 8 Mar 2031 (after bhadrā).
+ */
+function holikaDay(city: City, l: LunarMonth, day: string): string {
+  const s = tithiStart(l, 15);
+  const e = tithiEnd(l, 15);
+  const set = sunsetJd(city, day);
+  const midnight = set + (sunriseJd(city, addDays(day, 1)) - set) / 2;
+  const [a, b] = kalaWindow(city, day, 'pradosha');
+  if (!(s < b && e > a)) return day; // no pūrṇimā at pradoṣa on any day: keep the fallback
+  const bhadra = (e - s) / 2;
+  if (s + bhadra <= midnight) return day;
+  // Bhadrā puccha (for pūrṇimā: 3 of its 30 ghaṭīs, ending ¾ of the way through it).
+  if (s + 0.65 * bhadra < midnight && s + 0.75 * bhadra > a) return day;
+  const next = addDays(day, 1);
+  const r = sunriseJd(city, next);
+  const longEnough = e >= r + (7 / 8) * (sunsetJd(city, next) - r);
+  const vrddhi = tithiEnd(l, 16) - e > e - s;
+  return longEnough && vrddhi ? next : day;
+}
+
 // ---------- ekādaśī ----------
 
 /** [śukla, kṛṣṇa] ekādaśī names for each amānta month, Caitra first. */
@@ -263,6 +304,7 @@ const RULES: TithiRule[] = [
   { key: 'akshaya-tritiya', name: 'अक्षयतृतीया', en: 'Akṣaya Tṛtīyā', masa: 1, tithi: 3, kala: 'purvahna', textId: 'kanakadhara-stotram' },
   { key: 'shankara-jayanti', name: 'शङ्कर जयन्ती', en: 'Śaṅkara Jayantī', masa: 1, tithi: 5, kala: 'madhyahna' },
   { key: 'narasimha-jayanti', name: 'नृसिंह जयन्ती', en: 'Narasiṃha Jayantī', masa: 1, tithi: 14, kala: 'sayahna', textId: 'vayu-stuti' },
+  { key: 'vata-purnima', name: 'वटपूर्णिमा · वटसावित्री व्रत', en: 'Vaṭa Pūrṇimā · Vaṭa Sāvitrī vrata (Jyeṣṭha pūrṇimā)', masa: 2, tithi: 15, kala: 'aparahna', note: 'Pūrṇimā in the aparāhṇa (matches drikpanchang 2025–2031). Amānta (Karnataka, Maharashtra, Gujarat) date; North-Indian calendars keep Vaṭa Sāvitrī on Jyeṣṭha amāvāsyā.' },
   { key: 'vyasa-purnima', name: 'व्यासपूर्णिमा', en: 'Vyāsa (Guru) Pūrṇimā', masa: 3, tithi: 15, kala: 'udaya', note: 'Cāturmāsya vrata of sannyāsins begins.' },
   { key: 'naga-panchami', name: 'नागपञ्चमी', en: 'Nāga Pañcamī', masa: 4, tithi: 5, kala: 'udaya' },
   { key: 'upakarma', name: 'उपाकर्म', en: 'Upākarma (Yajurveda) · Rakṣā bandhana', masa: 4, tithi: 15, kala: 'udaya', textId: 'gayatri-mantra', note: 'Yajurvedī upākarma on Śrāvaṇa pūrṇimā; Ṛgvedīs use the Śravaṇa-nakṣatra day of Śrāvaṇa, Sāmavedīs Hasta in Bhādrapada.' },
@@ -274,18 +316,23 @@ const RULES: TithiRule[] = [
   { key: 'mahalaya-amavasya', name: 'महालय अमावास्या', en: 'Mahālaya Amāvāsyā (Sarvapitṛ)', masa: 5, tithi: 30, kala: 'aparahna' },
   { key: 'navaratri', name: 'शरन्नवरात्रारम्भः', en: 'Śarad Navarātri begins', masa: 6, tithi: 1, kala: 'udaya', textId: 'devi-mahatmyam-01' },
   { key: 'durgashtami', name: 'दुर्गाष्टमी', en: 'Durgāṣṭamī', masa: 6, tithi: 8, kala: 'udaya', textId: 'durga-saptashloki' },
-  { key: 'mahanavami', name: 'महानवमी', en: 'Mahānavamī · Āyudha pūjā', masa: 6, tithi: 9, kala: 'udaya', textId: 'devi-mahatmyam-01' },
+  { key: 'mahanavami', name: 'महानवमी', en: 'Mahānavamī · Āyudha pūjā', masa: 6, tithi: 9, kala: 'udaya', textId: 'devi-mahatmyam-01', note: 'Āyudha pūjā on the day with navamī at sunrise (as drikpanchang dates Āyudha Pūjā for South India); Bengal Durgā-pūjā calendars may keep Mahānavamī a day earlier, when navamī begins.' },
   { key: 'vijayadashami', name: 'विजयदशमी', en: 'Vijayadaśamī', masa: 6, tithi: 10, kala: 'aparahna', textId: 'mahishasura-mardini-stotram' },
+  // Daśamī at sunrise (drikpanchang's Madhvācārya Jayantī 2025–2027; Mantrālaya maṭha 21 Oct 2026),
+  // so a day after Vijayadaśamī when daśamī begins after sunrise.
+  { key: 'madhva-jayanti', name: 'मध्वजयन्ती', en: 'Madhva Jayantī', masa: 6, tithi: 10, kala: 'udaya', textId: 'sumadhva-vijaya-01', note: 'Śrī Madhvācārya’s birthday, Āśvayuja śukla daśamī (Vijayadaśamī), kept on the day daśamī prevails at sunrise — the day after Vijayadaśamī when daśamī begins after sunrise.' },
   { key: 'naraka-chaturdashi', name: 'नरकचतुर्दशी', en: 'Naraka Caturdaśī (abhyaṅga snāna)', masa: 6, tithi: 29, kala: 'arunodaya' },
   { key: 'deepavali', name: 'दीपावली · लक्ष्मीपूजा', en: 'Dīpāvalī · Lakṣmī pūjā (amāvāsyā)', masa: 6, tithi: 30, kala: 'pradosha', prefer: 'second', textId: 'sri-sukta' },
   { key: 'bali-pratipada', name: 'बलिपाड्यमी', en: 'Bali Pratipadā · Govardhana pūjā', masa: 7, tithi: 1, kala: 'udaya' },
+  { key: 'kartika-purnima', name: 'कार्तिकपूर्णिमा', en: 'Kārtika Pūrṇimā', masa: 7, tithi: 15, kala: 'udaya' },
   { key: 'uttana-dvadashi', name: 'उत्थान द्वादशी · तुलसीविवाह', en: 'Uttāna Dvādaśī · Tulasī vivāha', masa: 7, tithi: 12, kala: 'udaya' },
   { key: 'gita-jayanti', name: 'गीताजयन्ती', en: 'Gītā Jayantī', masa: 8, tithi: 11, kala: 'udaya', textId: 'bhagavad-gita-01' },
   { key: 'hanumad-vrata', name: 'हनुमद्व्रत', en: 'Hanumad vrata · Hanumat Jayantī (Karnataka)', masa: 8, tithi: 13, kala: 'udaya', textId: 'hanuman-chalisa', note: 'South-Indian (Karnataka/Andhra) date; North India: Caitra pūrṇimā; Tamil Nadu: Mārgaḻi amāvāsyā.' },
+  { key: 'vasanta-panchami', name: 'वसन्तपञ्चमी', en: 'Vasanta Pañcamī · Sarasvatī pūjā', masa: 10, tithi: 5, kala: 'purvahna' },
   { key: 'ratha-saptami', name: 'रथसप्तमी', en: 'Ratha Saptamī', masa: 10, tithi: 7, kala: 'udaya', textId: 'aditya-hridayam' },
   { key: 'madhva-navami', name: 'मध्वनवमी', en: 'Madhva Navamī', masa: 10, tithi: 9, kala: 'udaya', textId: 'dvadasha-stotra-01' },
   { key: 'maha-shivaratri', name: 'महाशिवरात्रि', en: 'Mahāśivarātri', masa: 10, tithi: 29, kala: 'nishitha', textId: 'lingashtakam' },
-  { key: 'holika', name: 'होलिका · कामदहन', en: 'Holikā dahana · Kāma dahana (Phālguna pūrṇimā)', masa: 11, tithi: 15, kala: 'pradosha', note: 'Pūrṇimā at pradoṣa; bhadrā (viṣṭi karaṇa) restrictions are not applied.' },
+  { key: 'holika', name: 'होलिका · कामदहन', en: 'Holikā dahana · Kāma dahana (Phālguna pūrṇimā)', masa: 11, tithi: 15, kala: 'pradosha', note: 'Pūrṇimā at pradoṣa, avoiding bhadrā (viṣṭi karaṇa): see holikaDay. Rangavalī Holī (colours) is the next day.' },
 ];
 
 /** All rule ids that link to a library text (checked by the tests). */
@@ -371,10 +418,11 @@ function udupiFestivals(city: City, jdFrom: number, jdTo: number, y0: number, y1
       });
     }
   }
-  // Lakṣa Dīpotsava: Uttāna dvādaśī → Kārtika pūrṇimā (lunar dates, celebrated at Udupi).
+  // Lakṣa Dīpotsava: Uttāna dvādaśī (the day after the Mādhva Prabodhinī fast, as above) →
+  // Kārtika pūrṇimā (lunar dates, celebrated at Udupi).
   for (const l of lunationsBetween(jdFrom - 20, jdTo)) {
     if (l.masa !== 7 || l.adhika) continue;
-    const a = observanceDay(city, tithiStart(l, 12), tithiEnd(l, 12), 'udaya');
+    const a = addDays(ekadashiDates(city, l, 11).madhva, 1);
     const b = observanceDay(city, tithiStart(l, 15), tithiEnd(l, 15), 'udaya');
     out.push({
       date: a, endDate: b, key: 'laksha-deepotsava', name: 'लक्षदीपोत्सव', en: 'Lakṣa Dīpotsava — Udupi',
@@ -435,19 +483,23 @@ function festivalsIn(city: City, from: string, to: string, rule: EkadashiRule, m
       const e = tithiEnd(l, r.tithi);
       let date = observanceDay(city, s, e, r.kala, r.prefer);
       if (r.key === 'krishna-janmashtami') date = jayantiAdjust(city, date, s, e);
+      if (r.key === 'durgashtami') date = durgashtamiAdjust(city, date, s, e);
+      if (r.key === 'holika') date = holikaDay(city, l, date);
+      // Mādhva: Uttāna dvādaśī (prabodhotsava, Tulasī pūjā) is the pāraṇa day after the
+      // Prabodhinī fast — a day later when the fast moved to dvādaśī (Udupi Śrī Kṛṣṇa Maṭha,
+      // Monday 3 Nov 2025, Deccan Chronicle; Mantrālaya maṭha 21 Nov 2026).
+      if (r.key === 'uttana-dvadashi' && rule === 'madhva') date = addDays(ekadashiDates(city, l, 11).madhva, 1);
       out.push({ date, key: r.key, name: r.name, en: r.en, kind: 'festival', calendar: 'chandra', textId: r.textId, note: r.note });
 
-      if (r.key === 'vijayadashami') {
-        out.push({ date, key: 'madhva-jayanti', name: 'मध्वजयन्ती', en: 'Madhva Jayantī', kind: 'festival', calendar: 'chandra', textId: 'sumadhva-vijaya-01', note: 'Śrī Madhvācārya’s birthday, observed on Vijayadaśamī.' });
-      }
       if (r.key === 'upakarma') {
-        // Varamahālakṣmī: the Friday before Śrāvaṇa pūrṇimā (South-Indian rule; when the
-        // pūrṇimā itself is a Friday some calendars use that day instead).
-        const back = (weekdayOf(date) - 5 + 7) % 7 || 7;
+        // Varamahālakṣmī: the last Friday of Śrāvaṇa śukla pakṣa, i.e. the Friday on or before
+        // the pūrṇimā day — the pūrṇimā itself when it is a Friday (drikpanchang; Mantrālaya
+        // maṭha and the Karnataka holiday list: 28 Aug 2026).
+        const back = (weekdayOf(date) - 5 + 7) % 7;
         out.push({
           date: addDays(date, -back), key: 'varamahalakshmi', name: 'वरमहालक्ष्मी व्रत', en: 'Varamahālakṣmī vrata',
           kind: 'festival', calendar: 'chandra', textId: 'mahalakshmi-ashtakam',
-          note: back === 7 ? 'Śrāvaṇa pūrṇimā is itself a Friday this year; some calendars observe the vrata on that day.' : undefined,
+          note: back === 0 ? 'Śrāvaṇa pūrṇimā is itself a Friday this year, so the vrata is on the pūrṇimā; a few families keep the previous Friday.' : undefined,
         });
       }
       if (r.key === 'mahalaya-amavasya') {

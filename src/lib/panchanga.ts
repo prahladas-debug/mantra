@@ -355,6 +355,15 @@ export function karanaName(k: number): string {
   if (k >= 57) return ['शकुनि', 'चतुष्पाद', 'नाग'][k - 57];
   return KARANA_MOVABLE[(k - 1) % 7];
 }
+/**
+ * A name as the first member of a compound before न / य (saṅkalpa: "…नामसंवत्सरे",
+ * "…नक्षत्रयुक्तायां", "…योगयुक्तायाम्"): consonant stems take their compound form —
+ * सर्वजित् → सर्वजिन्(नाम), शतभिषक् → शतभिषङ्(नक्षत्र), आयुष्मान् → आयुष्मद्(योग),
+ * सुकर्मा → सुकर्म(योग), वरीयान् → वरीयो(योग); vowel-final names are unchanged.
+ */
+const STEM: Record<string, string> = { 'शतभिषक्': 'शतभिषङ्', 'आयुष्मान्': 'आयुष्मद्', 'सुकर्मा': 'सुकर्म', 'वरीयान्': 'वरीयो' };
+export const compoundStem = (name: string) => STEM[name] ?? name.replace(/त्$/, 'न्');
+
 /** Weekday names, Sunday first (Devanagari). */
 export const VARA = ['भानुवार', 'सोमवार', 'मङ्गलवार', 'बुधवार', 'गुरुवार', 'शुक्रवार', 'शनिवार'];
 
@@ -765,16 +774,20 @@ function panchangaOf(day: Date | string, city: City): Panchanga {
   const ayana = sunRasi >= 9 || sunRasi <= 2 ? 'उत्तरायण' : 'दक्षिणायन';
 
   // Saṃvatsara changes at Caitra śukla pratipadā (Yugādi): find this lunar year's start.
-  const yearStart = fromJulian(lm.start - masaIndex * SYNODIC);
+  // When the new moon falls before the next sunrise and pratipadā ends before it too (a kṣaya
+  // pratipadā, so Yugādi is this very day although amāvāsyā is at sunrise — e.g. 19 Mar
+  // 2026), the day already belongs to the new lunation's year (drikpanchang does the same).
+  const ylm = lm.end < jdNext && tithiAt(jdNext) !== 1 ? lunationFrom(lm.end) : lm;
+  const yearStart = fromJulian(ylm.start - ylm.masa * SYNODIC);
   const y = yearStart.getUTCFullYear() + (yearStart.getUTCMonth() >= 10 ? 1 : 0);
   const samvatsara = SAMVATSARA[(((y - 1987) % 60) + 60) % 60];
 
   const weekday = weekdayOf(date);
   const vasara = VASARA[weekday];
   const sankalpa =
-    `${samvatsara}नामसंवत्सरे ${ayana}े ${RTU_LOC[rtuIndex]} ` +
+    `${compoundStem(samvatsara)}नामसंवत्सरे ${ayana}े ${RTU_LOC[rtuIndex]} ` +
     `${adhika ? 'अधिक' : ''}${masa}मासे ${paksha}पक्षे ${tithiLoc} शुभतिथौ ` +
-    `${vasara}वासरयुक्तायां ${nakshatra}नक्षत्रयुक्तायां ${yoga}योगयुक्तायाम्`;
+    `${vasara}वासरयुक्तायां ${compoundStem(nakshatra)}नक्षत्रयुक्तायां ${compoundStem(yoga)}योगयुक्तायाम्`;
 
   const dayLen = jdSet - jd;
   const eighth = (n: number): [Date, Date] => [fromJulian(jd + ((n - 1) * dayLen) / 8), fromJulian(jd + (n * dayLen) / 8)];

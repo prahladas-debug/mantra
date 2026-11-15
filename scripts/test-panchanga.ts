@@ -11,10 +11,11 @@ import assert from 'node:assert/strict';
 import { readdirSync, readFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { LINKED_TEXT_IDS, festivalsBetween, ekadashiDates, ekadashisBetween, paranaFor, paryayaMatha } from '../src/lib/festivals';
+import { cityInstant } from '../src/lib/festivalReminderPlan';
 import { paranaWindow } from '../src/lib/parana';
 import { sauraDay, sauraMonthStart, sauraSankalpa } from '../src/lib/sauramana';
 import {
-  CITIES, MASA, crossing, elongation, formatTime, julianDay, fromJulian, lunationsBetween, panchanga, siderealSun,
+  CITIES, MASA, cityById, compoundStem, crossing, elongation, formatTime, julianDay, fromJulian, lunationsBetween, panchanga, siderealSun,
 } from '../src/lib/panchanga';
 
 process.env.TZ = 'Asia/Kolkata';
@@ -182,6 +183,16 @@ const FESTIVALS: [string, string][] = [
   ['krishna-janmashtami', '2026-09-04'], ['ganesha-chaturthi', '2026-09-14'], ['ananta-chaturdashi', '2026-09-25'], ['pitru-paksha', '2026-09-27'],
   ['navaratri', '2026-10-11'], ['vijayadashami', '2026-10-20'], ['naraka-chaturdashi', '2026-11-08'], ['deepavali', '2026-11-08'],
   ['bali-pratipada', '2026-11-10'], ['uttana-dvadashi', '2026-11-21'],
+  // Audit, November 2026 (drik Bengaluru calendars 2025/2026 and festival pages): Vasanta
+  // Pañcamī, Vaṭa Pūrṇimā, Holikā dahana 2026 (bhadrā → next day), Durgāṣṭamī, Āyudha Pūjā
+  // (= our Mahānavamī; drik's "Maha Navami" is the Bengal Durgā-pūjā date), Madhvācārya
+  // Jayantī (daśamī at sunrise: 21 Oct 2026, the day after Vijayadaśamī), Kārtika Pūrṇimā,
+  // Gītā Jayantī, Kannada Hanumān Jayantī (Hanumad vrata).
+  ['vasanta-panchami', '2025-02-02'], ['vata-purnima', '2025-06-10'], ['durgashtami', '2025-09-30'], ['mahanavami', '2025-10-01'],
+  ['kartika-purnima', '2025-11-05'], ['raghavendra-aradhana', '2025-08-11'],
+  ['vasanta-panchami', '2026-01-23'], ['holika', '2026-03-03'], ['vata-purnima', '2026-06-29'], ['naga-panchami', '2026-08-17'],
+  ['durgashtami', '2026-10-19'], ['mahanavami', '2026-10-20'], ['madhva-jayanti', '2026-10-21'], ['kartika-purnima', '2026-11-24'],
+  ['gita-jayanti', '2026-12-20'], ['hanumad-vrata', '2026-12-22'],
 ];
 {
   const fs = festivalsBetween(blr, '2025-01-01', '2026-12-31', 'smarta');
@@ -192,9 +203,131 @@ const FESTIVALS: [string, string][] = [
   }
   // Vaikuṇṭha ekādaśī: 2025-01-10, 2025-12-31 (Vaiṣṇava date), 2026-12-20.
   assert.deepEqual(fs.filter((f) => f.key.startsWith('vaikuntha')).map((f) => f.date), ['2025-01-10', '2025-12-31', '2026-12-20']);
-  // South-Indian Varamahālakṣmī rule when Śrāvaṇa pūrṇimā is a Friday (2026): the previous Friday.
-  assert.ok(fs.some((f) => f.key === 'varamahalakshmi' && f.date === '2026-08-21'));
+  // Varamahālakṣmī when Śrāvaṇa pūrṇimā is a Friday (2026): that Friday — drik "last Friday of
+  // Śrāvaṇa śukla pakṣa" (28 Aug), Mantrālaya maṭha 2026–27 (28 Aug), Karnataka holiday list.
+  assert.ok(fs.some((f) => f.key === 'varamahalakshmi' && f.date === '2026-08-28'));
   checks += 2;
+}
+
+// ---- 6b. 2027 (drik Bengaluru Hindu calendar, ekādaśī list and festival pages) ----
+{
+  const FEST_2027: [string, string][] = [
+    ['makara-sankranti', '2027-01-15'], ['vasanta-panchami', '2027-02-11'], ['ratha-saptami', '2027-02-13'], ['maha-shivaratri', '2027-03-06'],
+    ['holika', '2027-03-21'], ['yugadi', '2027-04-07'], ['rama-navami', '2027-04-15'], ['hanuman-jayanti-north', '2027-04-20'],
+    ['akshaya-tritiya', '2027-05-09'], ['narasimha-jayanti', '2027-05-18'], ['vata-purnima', '2027-06-18'], ['vyasa-purnima', '2027-07-18'],
+    ['naga-panchami', '2027-08-06'], ['varamahalakshmi', '2027-08-13'], ['upakarma', '2027-08-17'], ['krishna-janmashtami', '2027-08-25'],
+    ['ganesha-chaturthi', '2027-09-04'], ['ananta-chaturdashi', '2027-09-14'], ['pitru-paksha', '2027-09-16'], ['navaratri', '2027-09-30'],
+    ['durgashtami', '2027-10-07'], ['mahanavami', '2027-10-09'], ['vijayadashami', '2027-10-09'], ['madhva-jayanti', '2027-10-10'],
+    ['naraka-chaturdashi', '2027-10-28'], ['deepavali', '2027-10-29'], ['bali-pratipada', '2027-10-30'], ['uttana-dvadashi', '2027-11-11'],
+    ['kartika-purnima', '2027-11-14'], ['gita-jayanti', '2027-12-09'], ['hanumad-vrata', '2027-12-11'],
+  ];
+  const fs = festivalsBetween(blr, '2027-01-01', '2027-12-31', 'smarta');
+  for (const [key, date] of FEST_2027) {
+    const found = fs.filter((f) => f.key === key).map((f) => f.date);
+    assert.ok(found.includes(date), `${key}: want ${date}, got ${found.join(',') || 'none'}`);
+    checks++;
+  }
+  // The same dates with the Mādhva rule (only the ekādaśīs differ).
+  const md = festivalsBetween(blr, '2027-01-01', '2027-12-31', 'madhva');
+  assert.deepEqual(md.filter((f) => f.kind !== 'ekadashi').map((f) => `${f.key} ${f.date}`), fs.filter((f) => f.kind !== 'ekadashi').map((f) => `${f.key} ${f.date}`));
+  // All 25 ekādaśīs of 2027: Smārta, and drik's Gauṇa / Vaiṣṇava dates where they differ.
+  const SM = '01-03 01-18 02-02 02-17 03-04 03-18 04-02 04-17 05-02 05-16 06-01 06-14 06-30 07-14 07-29 08-12 08-28 09-11 09-26 10-11 10-25 11-10 11-24 12-09 12-23';
+  const VAI: Record<string, string> = { '01-18': '01-19', '07-29': '07-30', '10-25': '10-26' };
+  const eks = lunationsBetween(julianDay(new Date('2026-12-15')), julianDay(new Date('2027-12-31')))
+    .flatMap((l) => [ekadashiDates(blr, l, 11), ekadashiDates(blr, l, 26)]).filter((e) => e.smarta.startsWith('2027'));
+  assert.equal(eks.map((e) => e.smarta.slice(5)).join(' '), SM, 'Smārta ekādaśīs 2027');
+  for (const e of eks) {
+    const want = `2027-${VAI[e.smarta.slice(5)] ?? e.smarta.slice(5)}`;
+    assert.equal(e.madhva, want, `Mādhva ${e.smarta}`);
+    assert.equal(e.vaishnava, want, `Gauḍīya ${e.smarta}`);
+    checks += 2;
+  }
+  checks += 2;
+}
+
+// ---- 6c. saṃvatsara on Yugādi with a kṣaya pratipadā; saṅkalpa compound forms ----
+{
+  // 19 Mar 2026: amāvāsyā at sunrise, pratipadā begins 06:52 and ends before the next
+  // sunrise, so Yugādi is this day — drik shows "Shaka Samvat 1948 Parabhava" (Bengaluru and
+  // Kolkata). On 6 Apr 2027 (amāvāsyā day, pratipadā reaching the next sunrise) the year is
+  // still Parābhava, as on drik; Plavaṅga from 7 Apr.
+  const kol = cityById('kolkata');
+  assert.equal(panchanga('2026-03-19', blr).samvatsara, 'पराभव');
+  assert.equal(panchanga('2026-03-19', kol).samvatsara, 'पराभव');
+  assert.equal(panchanga('2026-03-18', blr).samvatsara, 'विश्वावसु');
+  assert.equal(panchanga('2026-03-19', blr).masa, 'फाल्गुन'); // the month is still the sunrise one
+  assert.equal(panchanga('2027-04-06', blr).samvatsara, 'पराभव');
+  assert.equal(panchanga('2027-04-07', blr).samvatsara, 'प्लवङ्ग');
+  assert.ok(festivalsBetween(blr, '2026-03-19', '2026-03-19', 'smarta').some((f) => f.key === 'yugadi'));
+  // Consonant stems in the saṅkalpa compounds.
+  assert.deepEqual(['सर्वजित्', 'विरोधिकृत्', 'शतभिषक्', 'आयुष्मान्', 'सुकर्मा', 'वरीयान्', 'पराभव'].map(compoundStem),
+    ['सर्वजिन्', 'विरोधिकृन्', 'शतभिषङ्', 'आयुष्मद्', 'सुकर्म', 'वरीयो', 'पराभव']);
+  const delhi = cityById('delhi');
+  assert.ok(panchanga('2026-06-10', delhi).sankalpa.includes('आयुष्मद्योगयुक्तायाम्'), 'Āyuṣmān yoga (Delhi, 10 Jun 2026)');
+  assert.ok(panchanga('2031-07-04', cityById('new-york')).sankalpa.startsWith('विरोधिकृन्नामसंवत्सरे'), 'Virodhikṛt 2031');
+  checks += 10;
+}
+
+// ---- 6d. independent sample: drikpanchang day pages, ten cities, 2025–2031 (read Nov 2026) ----
+// [city, date, sunrise, sunset, sunrise tithi → end, nakṣatra end, yoga end, Rāhu-kāla start,
+//  amānta month (* = adhika), saṃvatsara]; local clock times, '+' = next day. drik serves day
+// pages only up to 2031. Includes DST change days (New York 8 Mar / 1 Nov 2026, London
+// 28 Mar 2027 / 29 Oct 2028, Sydney 5 Apr 2026 / 3 Oct 2027) and Srinagar (34° N) at both solstices.
+const DAYS: [string, string, string, string, string, string, string, string, string, string, string][] = [
+  ['bengaluru', '2027-03-12', '06:29', '18:30', 'चतुर्थी', '14:57', '11:22', '21:34', '10:59', 'फाल्गुन', 'पराभव'],
+  ['udupi', '2025-09-14', '06:20', '18:33', 'अष्टमी', '+03:06', '08:41', '07:35', '17:01', 'भाद्रपद', 'विश्वावसु'],
+  ['srinagar', '2026-06-21', '05:20', '19:45', 'सप्तमी', '15:20', '09:31', '11:21', '17:57', 'ज्येष्ठ', 'पराभव'],
+  ['srinagar', '2027-12-22', '07:33', '17:26', 'दशमी', '23:40', '+00:08', '13:28', '12:29', 'मार्गशीर्ष', 'प्लवङ्ग'],
+  ['new-york', '2026-03-08', '07:19', '18:55', 'पञ्चमी', '11:40', '+06:41', '22:06', '17:28', 'फाल्गुन', 'विश्वावसु'],
+  ['new-york', '2026-11-01', '06:26', '16:52', 'अष्टमी', '+02:40', '18:00', '+01:37', '15:34', 'आश्वयुज', 'पराभव'],
+  ['new-york', '2031-07-04', '05:30', '20:31', 'पूर्णिमा', '15:00', '07:10', '10:06', '11:08', 'आषाढ', 'विरोधिकृत्'],
+  ['london', '2027-03-28', '06:46', '19:27', 'षष्ठी', '10:34', '20:01', '+01:38', '17:51', 'फाल्गुन', 'पराभव'],
+  ['london', '2028-10-29', '06:49', '16:38', 'द्वादशी', '+03:20', '20:00', '08:48', '15:24', 'कार्तिक', 'कीलक'],
+  ['london', '2026-06-21', '04:43', '21:22', 'सप्तमी', '10:50', '05:01', '06:51', '19:17', 'ज्येष्ठ', 'पराभव'],
+  ['sydney', '2026-04-05', '06:10', '17:45', 'तृतीया', '16:29', '+04:38', '19:14', '16:18', 'चैत्र', 'पराभव'],
+  ['sydney', '2027-10-03', '06:30', '18:59', 'तृतीया', '07:38', '+05:30', '19:15', '17:25', 'आश्वयुज', 'प्लवङ्ग'],
+  ['bengaluru', '2027-04-07', '06:12', '18:32', 'प्रतिपत्', '+04:28', '18:25', '07:26', '12:22', 'चैत्र', 'प्लवङ्ग'],
+  ['bengaluru', '2031-09-20', '06:09', '18:17', 'चतुर्थी', '23:48', '21:30', '10:33', '09:11', 'भाद्रपद', 'विरोधिकृत्'],
+  ['bengaluru', '2030-04-02', '06:15', '18:31', 'अमावास्या', '+03:31', '23:07', '19:22', '15:27', 'फाल्गुन', 'सौम्य'],
+  ['mumbai', '2029-04-14', '06:22', '18:56', 'प्रतिपत्', '+05:32', '+06:07', '+04:08', '09:30', 'चैत्र', 'सौम्य'],
+  ['chennai', '2028-01-15', '06:35', '18:01', 'चतुर्थी', '20:10', '11:25', '+02:09', '09:27', 'पुष्य', 'प्लवङ्ग'],
+  ['chennai', '2031-12-25', '06:28', '17:50', 'द्वादशी', '17:49', '', '13:36', '13:34', 'मार्गशीर्ष', 'विरोधिकृत्'],
+  ['delhi', '2026-06-10', '05:23', '19:19', 'दशमी', '+00:57', '09:21', '06:30', '12:21', '*ज्येष्ठ', 'पराभव'],
+  ['delhi', '2025-03-30', '06:13', '18:38', 'प्रतिपत्', '12:49', '16:35', '17:54', '17:05', 'चैत्र', 'विश्वावसु'],
+  ['kolkata', '2027-10-29', '05:39', '17:01', 'अमावास्या', '19:05', '10:27', '+00:34', '09:55', 'आश्वयुज', 'प्लवङ्ग'],
+  ['kolkata', '2030-05-05', '05:02', '18:05', 'तृतीया', '+03:26', '19:39', '05:31', '16:27', 'वैशाख', 'साधारण'],
+  ['kolkata', '2026-03-19', '05:42', '17:47', 'अमावास्या', '06:52', '+04:05', '+01:17', '13:15', 'फाल्गुन', 'पराभव'],
+  ['udupi', '2029-04-01', '06:27', '18:43', 'तृतीया', '20:44', '14:26', '12:57', '17:11', '*चैत्र', 'सौम्य'],
+  ['bengaluru', '2027-04-06', '06:13', '18:31', 'अमावास्या', '+05:20', '18:23', '08:51', '15:27', 'फाल्गुन', 'पराभव'],
+  ['bengaluru', '2026-03-19', '06:25', '18:30', 'अमावास्या', '06:52', '+04:05', '+01:17', '13:58', 'फाल्गुन', 'पराभव'],
+  ['bengaluru', '2029-03-20', '06:24', '', 'पञ्चमी', '21:47', '', '', '', '*चैत्र', 'सौम्य'],
+];
+{
+  const worstBy: Record<string, number> = {};
+  for (const [id, date, rise, set, tithi, tEnd, nEnd, yEnd, rahu, masa, samv] of DAYS) {
+    const c = cityById(id);
+    assert.equal(c.id, id);
+    const p = panchanga(date, c);
+    const at = (hm: string) => (hm.startsWith('+') ? cityInstant(c, addDaysIso(date, 1), hm.slice(1)) : cityInstant(c, date, hm));
+    const cmp = (what: string, got: Date, want: string, tol: number) => {
+      if (!want) return;
+      const d = (got.getTime() - at(want).getTime()) / 60000;
+      worstBy[what] = Math.max(worstBy[what] ?? 0, Math.abs(d));
+      assert.ok(Math.abs(d) <= tol, `${id} ${date} ${what}: ${d.toFixed(1)} min`);
+      checks++;
+    };
+    cmp('sunrise', p.sunrise, rise, 1.5);
+    cmp('sunset', p.sunset, set, 1.5);
+    assert.equal(p.tithi, tithi, `${id} ${date} tithi`);
+    cmp('tithi end', p.tithiEnd, tEnd, 3);
+    cmp('nakṣatra end', p.nakshatraEnd, nEnd, 3);
+    cmp('yoga end', p.yogaEnd, yEnd, 3);
+    cmp('Rāhu kāla', p.rahuKala[0], rahu, 1.5);
+    assert.equal(`${p.adhika ? '*' : ''}${p.masa}`, masa, `${id} ${date} month`);
+    assert.equal(p.samvatsara, samv, `${id} ${date} saṃvatsara`);
+    checks += 3;
+  }
+  console.log(`drik day pages (${DAYS.length}): worst |Δ| ${Object.entries(worstBy).map(([k, v]) => `${k} ${v.toFixed(1)}`).join(', ')} min`);
 }
 
 // ---- 7. linked texts exist in the library ----
@@ -237,6 +370,10 @@ const FESTIVALS: [string, string][] = [
     ['makara-sankranti', '2030-01-14'], ['maha-shivaratri', '2030-03-02'], ['yugadi', '2030-04-03'], ['rama-navami', '2030-04-12'],
     ['krishna-janmashtami', '2030-08-21'], ['ganesha-chaturthi', '2030-09-01'], ['vijayadashami', '2030-10-06'], ['naraka-chaturdashi', '2030-10-26'], ['deepavali', '2030-10-26'],
     ['deepavali', '2033-10-22'], ['naraka-chaturdashi', '2033-10-22'], ['ganesha-chaturthi', '2036-08-24'], ['deepavali', '2036-10-18'],
+    // Holikā dahana (drik Holika Dahan pages): after bhadrā 10 Mar 2028 / 8 Mar 2031, udaya-
+    // vyāpinī pūrṇimā 2029 / 2030. Vaṭa Pūrṇimā (drik): 6 Jun 2028 (not the udaya day), 5 Jun 2031.
+    ['holika', '2028-03-10'], ['holika', '2029-02-28'], ['holika', '2030-03-19'], ['holika', '2031-03-08'],
+    ['vata-purnima', '2028-06-06'], ['vata-purnima', '2031-06-05'],
   ];
   const fs = festivalsBetween(blr, '2028-01-01', '2036-12-31', 'smarta');
   for (const [key, date] of FUTURE) {
@@ -308,6 +445,16 @@ const FESTIVALS: [string, string][] = [
   // Saptotsava 9–15 Jan 2025 (Udayavani); Lakṣa Dīpotsava from Uttāna dvādaśī, 13 Nov 2024 (Udayavani).
   assert.ok(us.some((f) => f.key === 'saptotsava' && f.date === '2025-01-09' && f.endDate === '2025-01-15'));
   assert.ok(on('laksha-deepotsava').includes('2024-11-13'));
+  // Udupi Janmāṣṭamī 26 Aug 2024 + Viṭla Piṇḍi 27 Aug (Udayavani); 24 Aug 2027 (hindu-blog.com,
+  // Rohiṇī in Siṃha — not yet announced by the Maṭha).
+  assert.ok(on('udupi-krishna-janmashtami').includes('2024-08-26') && on('vitla-pindi').includes('2024-08-27'));
+  assert.ok(festivalsBetween(udupi, '2027-08-01', '2027-09-30', 'madhva', 'saura').some((f) => f.key === 'udupi-krishna-janmashtami' && f.date === '2027-08-24'));
+  // Uttāna dvādaśī and Lakṣa Dīpotsava 2025 at the Udupi Maṭha: Monday 3 Nov (Deccan Chronicle) —
+  // the pāraṇa day after the Mādhva Prabodhinī fast on the trispṛśā day (2 Nov); Smārta: 2 Nov (drik).
+  assert.ok(us.some((f) => f.key === 'laksha-deepotsava' && f.date === '2025-11-03' && f.endDate === '2025-11-05'));
+  assert.ok(on('uttana-dvadashi').includes('2025-11-03'));
+  assert.ok(festivalsBetween(udupi, '2025-11-01', '2025-11-05', 'smarta').some((f) => f.key === 'uttana-dvadashi' && f.date === '2025-11-02'));
+  checks += 5;
   // Paryāya: Puttige 2024, Shirur 18 Jan 2026 (Vedavardhana Tīrtha), then Sode 2028.
   assert.deepEqual([2024, 2026, 2028, 2030, 2032, 2034, 2036].map(paryayaMatha), ['Puttige', 'Shirur', 'Sode', 'Kaniyur', 'Pejavar', 'Palimaru', 'Admaru']);
   assert.ok(on('paryaya').includes('2026-01-18'));

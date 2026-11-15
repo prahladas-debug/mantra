@@ -110,6 +110,44 @@ for (const [date, sr, ...gh] of SRS) {
   });
 }
 
+// Audit (Nov 2026): ten more days of the same table, read independently (none of the rows above).
+const SRS_AUDIT: [string, string, string, string, string][] = [
+  ['2026-06-05', '05:57', '38:33', '51:58', '3:56'], ['2026-06-11', '05:55', '30:43', '53:08', '40:32'], ['2026-07-31', '05:53', '37:37', '32:53', '46:24'],
+  ['2026-08-04', '05:54', '32:48', '35:24', '32:14'], ['2026-09-28', '06:13', '34:33', '14:11', '12:59'], ['2026-10-07', '06:17', '42:14', '40:58', '2:17'],
+  ['2026-11-28', '06:41', '13:38', '30:22', '50:08'], ['2026-12-05', '06:43', '47:11', '17:33', '9:34'], ['2027-01-26', '06:47', '9:59', '55:45', '46:09'],
+  ['2027-03-12', '06:33', '18:45', '10:29', '36:23'],
+];
+for (const [date, sr, ...gh] of SRS_AUDIT) {
+  const rise = istJd(`${date}T${sr}`);
+  within(`SRS (audit) sunrise ${date}`, (sunriseJd(mantralayam, date) - rise) / MIN, 1.5, 'SRS audit sunrise');
+  (['t', 'n', 'y'] as Kind[]).forEach((k, i) => {
+    const [g, p] = gh[i].split(':').map(Number);
+    const at = rise + (g + p / 60) * 24 * MIN;
+    within(`SRS (audit) ${k} ${date} +${gh[i]}`, (nearestEnd(k, at) - at) / MIN, 3, 'SRS audit t/n/y');
+  });
+}
+
+// ---- 2b. SRS festival list 2026–27 ("Parābhava saṃvatsara habbagaḷu", p. 14), Mādhva rule ----
+// Includes Varamahālakṣmī on Śrāvaṇa pūrṇimā (a Friday), Durgāṣṭamī 19 Oct (18 Oct has
+// saptamī at aruṇodaya), Madhva Jayantī 21 Oct (daśamī at sunrise; Vijayadaśamī 20 Oct).
+{
+  const SRS_FEST: [string, string][] = [
+    ['yugadi', '2026-03-19'], ['rama-navami', '2026-03-27'], ['akshaya-tritiya', '2026-04-20'], ['narasimha-jayanti', '2026-04-30'],
+    ['naga-panchami', '2026-08-17'], ['upakarma', '2026-08-28'], ['varamahalakshmi', '2026-08-28'], ['raghavendra-aradhana', '2026-08-30'],
+    ['krishna-janmashtami', '2026-09-04'], ['svarna-gauri', '2026-09-14'], ['ganesha-chaturthi', '2026-09-14'], ['ananta-chaturdashi', '2026-09-25'],
+    ['navaratri', '2026-10-11'], ['durgashtami', '2026-10-19'], ['mahanavami', '2026-10-20'], ['vijayadashami', '2026-10-20'],
+    ['madhva-jayanti', '2026-10-21'], ['naraka-chaturdashi', '2026-11-08'], ['deepavali', '2026-11-08'], ['bali-pratipada', '2026-11-10'], ['uttana-dvadashi', '2026-11-21'],
+    ['hanumad-vrata', '2026-12-22'], ['makara-sankranti', '2027-01-15'], ['ratha-saptami', '2027-02-13'], ['madhva-navami', '2027-02-15'],
+    ['maha-shivaratri', '2027-03-06'], ['holika', '2027-03-21'],
+  ];
+  const fs = festivalsBetween(mantralayam, '2026-03-15', '2027-03-31', 'madhva');
+  for (const [key, date] of SRS_FEST) {
+    const got = fs.filter((f) => f.key === key).map((f) => f.date);
+    assert.ok(got.includes(date), `SRS ${key}: want ${date}, got ${got.join(',') || 'none'}`);
+    checks++;
+  }
+}
+
 // ---- 3. SRS saṅkrāntis 2026–27 (IST; Makara on 14 Jan at 27:09 = 03:09 on the 15th) ----
 const SRS_SANKRANTI = [
   '2026-04-14T11:51', '2026-05-15T10:16', '2026-06-15T20:21', '2026-07-17T11:48', '2026-08-17T23:12', '2026-09-17T23:40',
