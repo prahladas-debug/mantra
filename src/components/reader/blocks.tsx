@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import { Ionicons } from '@expo/vector-icons';
 import { router, type Href } from 'expo-router';
 import { Pressable, StyleSheet, Text, View } from 'react-native';
@@ -112,7 +113,6 @@ export function IntroBlock({ book }: { book?: boolean }) {
 export function SectionBlock({ section, book }: { section: Section; book?: boolean }) {
   const { theme, settings } = useSettings();
   const script = settings.script;
-  const preferKn = primaryLang(settings.meaningLang, script) === 'kn';
   const scale = settings.fontScale;
   const font = scriptFont(script, settings.bookFonts);
   const align = book ? 'center' : 'left';
@@ -129,10 +129,31 @@ export function SectionBlock({ section, book }: { section: Section; book?: boole
           {section.titleEn}
         </Text>
       )}
-      {section.note && (
-        <Text style={{ color: theme.textMuted, fontSize: 14, fontStyle: preferKn && section.noteKn ? 'normal' : 'italic', marginTop: 6, lineHeight: 21, textAlign: align, fontFamily: preferKn && section.noteKn ? meaningFont('kn', settings.bookFonts) : undefined }}>
-          {preferKn && section.noteKn ? section.noteKn : translitInline(section.note, script)}
-        </Text>
+      {section.note && <SectionNote section={section} align={align} />}
+    </View>
+  );
+}
+
+/** A step's instructions; long ones show three lines with "more" so the mantras stay in view. */
+function SectionNote({ section, align }: { section: Section; align: 'center' | 'left' }) {
+  const { theme, settings } = useSettings();
+  const preferKn = primaryLang(settings.meaningLang, settings.script) === 'kn';
+  const kn = preferKn && !!section.noteKn;
+  const text = kn ? section.noteKn! : translitInline(section.note!, settings.script);
+  const long = text.length > 220;
+  const [open, setOpen] = useState(false);
+  return (
+    <View style={{ alignSelf: 'stretch', marginTop: 6 }}>
+      <Text
+        numberOfLines={long && !open ? 3 : undefined}
+        style={{ color: theme.textMuted, fontSize: 14, fontStyle: kn ? 'normal' : 'italic', lineHeight: 21, textAlign: long ? 'left' : align, fontFamily: kn ? meaningFont('kn', settings.bookFonts) : undefined }}
+      >
+        {text}
+      </Text>
+      {long && (
+        <Pressable onPress={() => setOpen(!open)} hitSlop={8} accessibilityRole="button" style={{ alignSelf: long ? 'flex-start' : 'center', marginTop: 2 }}>
+          <Text style={{ color: theme.accent, fontSize: 13, fontWeight: kn ? undefined : '600', fontFamily: kn ? meaningFont('kn', settings.bookFonts) : undefined }}>{open ? 'Less ▴' : kn ? 'ಇನ್ನಷ್ಟು · More ▾' : 'More ▾'}</Text>
+        </Pressable>
       )}
     </View>
   );
