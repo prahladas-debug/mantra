@@ -105,8 +105,9 @@ export default function Reader() {
             ),
           }}
         />
-        {panelOpen && (
-          <DisplayPanel
+        <DisplayPanel
+            visible={panelOpen}
+            onClose={() => setPanelOpen(false)}
             mantra={mantra}
             rows={rows}
             practice={practice}
@@ -119,7 +120,6 @@ export default function Reader() {
               setPanelOpen(false);
             }}
           />
-        )}
         <Layout key={settings.layout} rows={rows} initialKey={openAt} onPosition={onPosition} ref={handle} />
         {pinch.preview !== null && (
           <View pointerEvents="none" style={{ position: 'absolute', top: 16, alignSelf: 'center', paddingHorizontal: 14, paddingVertical: 6, borderRadius: 16, backgroundColor: theme.accent }}>

@@ -141,3 +141,36 @@ export const styles = StyleSheet.create({
   meta: { fontSize: 12, fontWeight: '600', paddingHorizontal: 8, paddingVertical: 2, borderRadius: 8, overflow: 'hidden' },
   metaPlain: { fontSize: 12 },
 });
+
+/** A row of equal buttons, one selected (like a two- or three-way switch). */
+export function Segmented<T extends string>({
+  options,
+  value,
+  onChange,
+}: {
+  options: { id: T; label: string }[];
+  value: T;
+  onChange: (v: T) => void;
+}) {
+  const { theme } = useSettings();
+  return (
+    <View style={{ flexDirection: 'row', borderRadius: 12, borderWidth: 1, borderColor: theme.cardBorder, backgroundColor: theme.card, padding: 3, gap: 3 }}>
+      {options.map((o) => {
+        const active = o.id === value;
+        return (
+          <Pressable
+            key={o.id}
+            onPress={() => onChange(o.id)}
+            accessibilityRole="radio"
+            accessibilityState={{ selected: active }}
+            style={{ flex: 1, alignItems: 'center', justifyContent: 'center', paddingVertical: 9, paddingHorizontal: 6, borderRadius: 9, backgroundColor: active ? theme.accent : 'transparent' }}
+          >
+            <Text numberOfLines={1} style={{ color: active ? theme.onAccent : theme.text, fontSize: 15, fontWeight: active ? '700' : '400' }}>
+              {o.label}
+            </Text>
+          </Pressable>
+        );
+      })}
+    </View>
+  );
+}

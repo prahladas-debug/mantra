@@ -1,10 +1,11 @@
 import { Ionicons } from '@expo/vector-icons';
-import { Tabs, router, useLocalSearchParams, type Href } from 'expo-router';
+import { router, useLocalSearchParams, type Href } from 'expo-router';
+import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { useMemo, useState } from 'react';
 import { Pressable, ScrollView, Text, View } from 'react-native';
 import { CalendarBar } from '../../components/CalendarBar';
 import { FestivalLine, NavButton, useCalendarMode, useEkadashiRule, useSauraStart } from '../../components/PanchangaCard';
-import { Chip, SectionHeading } from '../../components/ui';
+import { SectionHeading } from '../../components/ui';
 import { festivalsBetween } from '../../lib/festivals';
 import {
   VARA, addDays, cityById, cityLabel, formatTime, fromJulian, moonriseBetween, panchanga, parseIso, sunriseJd, todayIn, type Span,
@@ -52,6 +53,7 @@ function Table({ rows }: { rows: Row[] }) {
 
 export default function PanchangaScreen() {
   const { theme, settings } = useSettings();
+  const insets = useSafeAreaInsets();
   const params = useLocalSearchParams<{ date?: string }>();
   const city = cityById(settings.city);
   const today = todayIn(city);
@@ -119,39 +121,34 @@ export default function PanchangaScreen() {
   ];
 
   return (
-    <ScrollView style={{ backgroundColor: theme.bg }} contentContainerStyle={{ paddingBottom: 40 }}>
-      <Tabs.Screen
-        options={{
-          title: 'Panchanga',
-          headerRight: () => (
-            <Pressable
-              onPress={() => router.push({ pathname: '/calendar', params: { month: date.slice(0, 7) } } as Href)}
-              accessibilityRole="button"
-              accessibilityLabel="Month calendar"
-              hitSlop={10}
-            >
-              <Ionicons name="calendar-outline" size={22} color={theme.accent} />
-            </Pressable>
-          ),
-        }}
+    <ScrollView style={{ backgroundColor: theme.bg }} contentContainerStyle={{ paddingTop: insets.top + 6, paddingBottom: 40 }}>
+      <CalendarBar
+        trailing={
+          <Pressable
+            onPress={() => router.push({ pathname: '/calendar', params: { month: date.slice(0, 7) } } as Href)}
+            accessibilityRole="button"
+            accessibilityLabel="Month calendar"
+            hitSlop={8}
+            style={({ pressed }) => ({ padding: 8, borderRadius: 18, borderWidth: 1, borderColor: theme.cardBorder, backgroundColor: theme.card, opacity: pressed ? 0.6 : 1 })}
+          >
+            <Ionicons name="calendar-outline" size={18} color={theme.accent} />
+          </Pressable>
+        }
       />
 
       <View style={{ flexDirection: 'row', alignItems: 'center', gap: 10, marginHorizontal: 16, marginTop: 12 }}>
         <NavButton icon="chevron-back" label="Previous day" onPress={() => setPicked(addDays(date, -1))} />
-        <View style={{ flex: 1, alignItems: 'center' }}>
+        <Pressable style={{ flex: 1, alignItems: 'center' }} onPress={() => date !== today && setPicked(today)} accessibilityRole="button" accessibilityLabel={date !== today ? 'Back to today' : undefined}>
           <Text style={{ color: theme.text, fontSize: 18, fontWeight: '700' }}>
             {WEEKDAYS[p.weekday]}, {d} {MONTHS[m - 1]} {y}
           </Text>
-          <Text style={{ color: theme.textMuted, fontSize: 14 }}>{t(VARA[p.weekday])}</Text>
-        </View>
+          <Text style={{ color: theme.textMuted, fontSize: 13 }}>
+            {t(VARA[p.weekday])}
+            {date !== today ? <Text style={{ color: theme.accent }}>{'  ·  back to today'}</Text> : null}
+          </Text>
+        </Pressable>
         <NavButton icon="chevron-forward" label="Next day" onPress={() => setPicked(addDays(date, 1))} />
       </View>
-      <CalendarBar />
-      {date !== today && (
-        <View style={{ alignItems: 'center', marginTop: 8 }}>
-          <Chip label="Back to today" onPress={() => setPicked(today)} />
-        </View>
-      )}
 
       {todays.length > 0 && (
         <View style={[card, { marginTop: 14, padding: 12, borderColor: theme.accent, backgroundColor: theme.accentSoft }]}>
@@ -193,7 +190,7 @@ export default function PanchangaScreen() {
 
       <Text style={{ color: theme.textMuted, fontSize: 13, margin: 16, lineHeight: 19 }}>
         For {cityLabel(city)} · times are local ({city.tz >= 0 ? '+' : ''}{city.tz} h{city.dst ? ', with daylight saving' : ''}).
-        Calculated on the phone with the Lahiri ayanamsha; tithi and nakshatra end times agree with
+        Drik panchanga, calculated on the phone from the true positions of the Sun and Moon (Lahiri ayanamsha); tithi and nakshatra end times agree with
         published panchangas to about a minute. For muhurtas, follow your family panchanga.
       </Text>
     </ScrollView>

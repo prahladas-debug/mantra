@@ -1,25 +1,35 @@
-import { ScrollView, StyleSheet, Text, View } from 'react-native';
+import { Ionicons } from '@expo/vector-icons';
+import { Modal, Pressable, ScrollView, StyleSheet, Switch, Text, View } from 'react-native';
 import type { Mantra } from '../../data';
+import { scriptFont } from '../../lib/fonts';
 import { MEANING_PREFS } from '../../lib/meaning';
-import { useSettings } from '../../lib/settings';
-import type { ThemeName } from '../../lib/theme';
-import { translit } from '../../lib/transliterate';
-import { Chip, ScriptPicker } from '../ui';
+import { useSettings, type Settings } from '../../lib/settings';
+import { THEMES } from '../../lib/theme';
+import { SCRIPTS, translit } from '../../lib/transliterate';
+import { Segmented } from '../ui';
 import type { Row } from './rows';
 
-function Label({ children }: { children: React.ReactNode }) {
-  const { theme } = useSettings();
-  return <Text style={[p.label, { color: theme.textMuted }]}>{children}</Text>;
-}
+const THEME_CHOICES: { id: Settings['theme']; label: string }[] = [
+  { id: 'light', label: 'Light' },
+  { id: 'sepia', label: 'Sepia' },
+  { id: 'dark', label: 'Dark' },
+  { id: 'night', label: 'Night' },
+  { id: 'sunset', label: 'At sunset' },
+  { id: 'contrast', label: 'Contrast' },
+];
 
-/** The "Aa" panel: script, size, theme, layout, meanings, practice, jump to section. */
+/** The reader's "Aa" sheet: script, layout, size, theme, meanings, practice, sections. */
 export function DisplayPanel({
+  visible,
+  onClose,
   mantra,
   rows,
   practice,
   setPractice,
   onJump,
 }: {
+  visible: boolean;
+  onClose: () => void;
   mantra: Mantra;
   /** The rows being shown: sections left out by the reader's choices can't be jumped to. */
   rows: Row[];
@@ -31,59 +41,132 @@ export function DisplayPanel({
   const scale = settings.fontScale;
   const shown = new Set(rows.map((r) => r.key));
   const sections = mantra.sections.map((s, si) => ({ s, si })).filter(({ s, si }) => (s.title || s.titleEn) && shown.has(`s${si}`));
-  return (
-    <View style={[p.panel, { backgroundColor: theme.card, borderColor: theme.cardBorder }]}>
-      <ScrollView style={{ maxHeight: 420 }} contentContainerStyle={{ paddingBottom: 10 }}>
-        <Label>Script · ಲಿಪಿ</Label>
-        <ScriptPicker value={settings.script} onChange={(v) => v && update({ script: v })} />
-        <Label>Also show below each verse</Label>
-        <ScriptPicker allowNone value={settings.secondaryScript} onChange={(v) => update({ secondaryScript: v })} />
-        <Label>Reading · ಓದು</Label>
-        <View style={p.row}>
-          <Chip label="📖 Book pages" active={settings.layout === 'book'} onPress={() => update({ layout: 'book' })} />
-          <Chip label="Scroll" active={settings.layout === 'scroll'} onPress={() => update({ layout: 'scroll' })} />
-          <Chip label={settings.bookFonts ? 'Book fonts ✓' : 'Book fonts'} active={settings.bookFonts} onPress={() => update({ bookFonts: !settings.bookFonts })} />
-          <Chip label={settings.centerVerses ? 'Centred ✓' : 'Centred'} active={settings.centerVerses} onPress={() => update({ centerVerses: !settings.centerVerses })} />
-        </View>
-        <View style={p.row}>
-          <Chip label="A−" onPress={() => update({ fontScale: Math.max(0.7, +(scale - 0.1).toFixed(1)) })} />
-          <Text style={{ color: theme.text, minWidth: 48, textAlign: 'center' }}>{Math.round(scale * 100)}%</Text>
-          <Chip label="A+" onPress={() => update({ fontScale: Math.min(2.4, +(scale + 0.1).toFixed(1)) })} />
-        </View>
-        <View style={[p.row, { flexWrap: 'wrap' }]}>
-          <Chip label="🌙 After sunset" active={settings.theme === 'sunset'} onPress={() => update({ theme: 'sunset' })} />
-          {(['light', 'sepia', 'dark', 'night', 'contrast'] as ThemeName[]).map((t) => (
-            <Chip key={t} label={t === 'contrast' ? 'High contrast' : t[0].toUpperCase() + t.slice(1)} active={settings.theme === t} onPress={() => update({ theme: t })} />
-          ))}
-        </View>
-        <Label>Meanings · ಅರ್ಥ</Label>
-        <View style={[p.row, { flexWrap: 'wrap' }]}>
-          {MEANING_PREFS.map((m) => (
-            <Chip key={m.id} label={m.label} active={settings.meaningLang === m.id} onPress={() => update({ meaningLang: m.id })} />
-          ))}
-          <Chip label={settings.alwaysShowMeanings ? 'All open ✓' : 'All open'} active={settings.alwaysShowMeanings} onPress={() => update({ alwaysShowMeanings: !settings.alwaysShowMeanings })} />
-        </View>
-        <Label>Practice · ಕಂಠಪಾಠ</Label>
-        <View style={p.row}>
-          <Chip label={practice ? 'Memorise mode ✓' : 'Memorise mode (hide lines)'} active={practice} onPress={() => setPractice(!practice)} />
-        </View>
-        {sections.length > 1 && (
-          <>
-            <Label>Jump to section</Label>
-            <View style={[p.row, { flexWrap: 'wrap' }]}>
-              {sections.map(({ s, si }) => (
-                <Chip key={si} label={s.titleEn ?? translit(s.title!, settings.script)} onPress={() => onJump(`s${si}`)} />
-              ))}
-            </View>
-          </>
-        )}
-      </ScrollView>
+
+  const heading = (text: string) => <Text style={[p.heading, { color: theme.textMuted }]}>{text}</Text>;
+  const pill = (active: boolean) => [p.pill, { borderColor: active ? theme.accent : theme.cardBorder, backgroundColor: active ? theme.accent : theme.card }];
+  const toggle = (label: string, value: boolean, onChange: (v: boolean) => void) => (
+    <View style={[p.switchRow, { borderColor: theme.cardBorder }]}>
+      <Text style={{ color: theme.text, fontSize: 16, flex: 1 }}>{label}</Text>
+      <Switch value={value} onValueChange={onChange} trackColor={{ true: theme.accent }} />
     </View>
+  );
+
+  return (
+    <Modal visible={visible} transparent animationType="slide" onRequestClose={onClose}>
+      <Pressable style={{ flex: 1, backgroundColor: '#0005' }} onPress={onClose} accessibilityLabel="Close display options" />
+      <View style={[p.sheet, { backgroundColor: theme.bg }]}>
+        <View style={[p.grip, { backgroundColor: theme.cardBorder }]} />
+        <View style={p.titleRow}>
+          <Text style={{ color: theme.text, fontSize: 19, fontWeight: '700', flex: 1 }}>Display</Text>
+          <Pressable onPress={onClose} hitSlop={10} accessibilityRole="button">
+            <Text style={{ color: theme.accent, fontSize: 16, fontWeight: '700' }}>Done</Text>
+          </Pressable>
+        </View>
+        <ScrollView contentContainerStyle={{ paddingHorizontal: 16, paddingBottom: 28 }}>
+          {heading('SCRIPT')}
+          <View style={p.wrap}>
+            {SCRIPTS.map((sc) => {
+              const active = settings.script === sc.id;
+              return (
+                <Pressable key={sc.id} onPress={() => update({ script: sc.id })} style={pill(active)} accessibilityRole="radio" accessibilityState={{ selected: active }}>
+                  <Text style={{ color: active ? theme.onAccent : theme.text, fontSize: 15, fontFamily: scriptFont(sc.id, settings.bookFonts) }}>
+                    {sc.id === 'iast' ? 'Roman' : sc.native}
+                  </Text>
+                </Pressable>
+              );
+            })}
+          </View>
+
+          {heading('LAYOUT AND SIZE')}
+          <Segmented options={[{ id: 'book', label: '📖 Book pages' }, { id: 'scroll', label: 'Scroll' }]} value={settings.layout} onChange={(v) => update({ layout: v })} />
+          <View style={[p.sizeRow, { borderColor: theme.cardBorder, backgroundColor: theme.card }]}>
+            <Pressable onPress={() => update({ fontScale: Math.max(0.7, +(scale - 0.1).toFixed(1)) })} hitSlop={8} accessibilityLabel="Smaller text" style={p.sizeBtn}>
+              <Text style={{ color: theme.accent, fontSize: 16, fontWeight: '700' }}>A−</Text>
+            </Pressable>
+            <Text style={{ color: theme.text, fontSize: 16, flex: 1, textAlign: 'center' }}>Text size {Math.round(scale * 100)}%</Text>
+            <Pressable onPress={() => update({ fontScale: Math.min(2.4, +(scale + 0.1).toFixed(1)) })} hitSlop={8} accessibilityLabel="Larger text" style={p.sizeBtn}>
+              <Text style={{ color: theme.accent, fontSize: 22, fontWeight: '700' }}>A+</Text>
+            </Pressable>
+          </View>
+          <Text style={{ color: theme.textMuted, fontSize: 12, marginTop: 4 }}>Tip: pinch with two fingers on the text to resize.</Text>
+
+          {heading('THEME')}
+          <View style={p.swatches}>
+            {THEME_CHOICES.map((t) => {
+              const active = settings.theme === t.id;
+              const look = t.id === 'sunset' ? THEMES.night : THEMES[t.id as keyof typeof THEMES];
+              return (
+                <Pressable key={t.id} onPress={() => update({ theme: t.id })} style={p.swatch} accessibilityRole="radio" accessibilityState={{ selected: active }} accessibilityLabel={t.label}>
+                  <View style={[p.dot, { backgroundColor: look.bg, borderColor: active ? theme.accent : theme.cardBorder, borderWidth: active ? 3 : 1 }]}>
+                    {t.id === 'sunset' ? <Ionicons name="moon" size={16} color={look.accent} /> : <Text style={{ color: look.text, fontSize: 15, fontWeight: '700' }}>A</Text>}
+                  </View>
+                  <Text style={{ color: active ? theme.accent : theme.textMuted, fontSize: 11, marginTop: 4 }} numberOfLines={1}>
+                    {t.label}
+                  </Text>
+                </Pressable>
+              );
+            })}
+          </View>
+
+          {heading('MEANINGS')}
+          <View style={p.wrap}>
+            {MEANING_PREFS.map((m) => {
+              const active = settings.meaningLang === m.id;
+              return (
+                <Pressable key={m.id} onPress={() => update({ meaningLang: m.id })} style={pill(active)} accessibilityRole="radio" accessibilityState={{ selected: active }}>
+                  <Text style={{ color: active ? theme.onAccent : theme.text, fontSize: 15 }}>{m.label}</Text>
+                </Pressable>
+              );
+            })}
+          </View>
+
+          {heading('MORE')}
+          <View style={[p.group, { borderColor: theme.cardBorder, backgroundColor: theme.card }]}>
+            {toggle('Show all meanings open', settings.alwaysShowMeanings, (v) => update({ alwaysShowMeanings: v }))}
+            {toggle('Book fonts', settings.bookFonts, (v) => update({ bookFonts: v }))}
+            {toggle('Centre the verses', settings.centerVerses, (v) => update({ centerVerses: v }))}
+            {toggle('Memorise: hide lines until tapped', practice, setPractice)}
+          </View>
+          <Text style={{ color: theme.textMuted, fontSize: 12, marginTop: 6 }}>A second script under each verse can be set in Settings.</Text>
+
+          {sections.length > 1 && (
+            <>
+              {heading('GO TO SECTION')}
+              <View style={[p.group, { borderColor: theme.cardBorder, backgroundColor: theme.card }]}>
+                {sections.map(({ s, si }, i) => (
+                  <Pressable
+                    key={si}
+                    onPress={() => onJump(`s${si}`)}
+                    style={({ pressed }) => [p.sectionRow, { borderTopWidth: i ? StyleSheet.hairlineWidth : 0, borderColor: theme.cardBorder, opacity: pressed ? 0.6 : 1 }]}
+                  >
+                    <Text style={{ color: theme.text, fontSize: 15, flex: 1 }} numberOfLines={1}>
+                      {s.titleEn ?? translit(s.title!, settings.script)}
+                    </Text>
+                    <Ionicons name="chevron-forward" size={16} color={theme.textMuted} />
+                  </Pressable>
+                ))}
+              </View>
+            </>
+          )}
+        </ScrollView>
+      </View>
+    </Modal>
   );
 }
 
 const p = StyleSheet.create({
-  panel: { borderBottomWidth: 1, paddingTop: 4 },
-  label: { fontSize: 12, fontWeight: '700', textTransform: 'uppercase', letterSpacing: 0.8, marginHorizontal: 16, marginTop: 10, marginBottom: 4 },
-  row: { flexDirection: 'row', alignItems: 'center', paddingHorizontal: 16, gap: 8, marginTop: 6 },
+  sheet: { maxHeight: '82%', borderTopLeftRadius: 18, borderTopRightRadius: 18 },
+  grip: { alignSelf: 'center', width: 40, height: 4, borderRadius: 2, marginTop: 8 },
+  titleRow: { flexDirection: 'row', alignItems: 'center', paddingHorizontal: 16, paddingVertical: 10 },
+  heading: { fontSize: 12, fontWeight: '700', letterSpacing: 0.8, marginTop: 18, marginBottom: 8 },
+  wrap: { flexDirection: 'row', flexWrap: 'wrap', gap: 8 },
+  pill: { paddingHorizontal: 13, paddingVertical: 7, borderRadius: 18, borderWidth: 1 },
+  sizeRow: { flexDirection: 'row', alignItems: 'center', marginTop: 10, borderRadius: 12, borderWidth: 1, paddingHorizontal: 6 },
+  sizeBtn: { paddingHorizontal: 14, paddingVertical: 8 },
+  swatches: { flexDirection: 'row', justifyContent: 'space-between' },
+  swatch: { alignItems: 'center', width: 54 },
+  dot: { width: 40, height: 40, borderRadius: 20, alignItems: 'center', justifyContent: 'center' },
+  group: { borderRadius: 12, borderWidth: 1, overflow: 'hidden' },
+  switchRow: { flexDirection: 'row', alignItems: 'center', paddingHorizontal: 14, paddingVertical: 6 },
+  sectionRow: { flexDirection: 'row', alignItems: 'center', paddingHorizontal: 14, paddingVertical: 11 },
 });

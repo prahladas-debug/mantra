@@ -27,7 +27,7 @@ export default function TabLayout() {
       }}
     >
       <Tabs.Screen name="index" options={{ title: 'Home', headerShown: false, tabBarIcon: icon('home-outline', 'home') }} />
-      <Tabs.Screen name="panchanga" options={{ title: 'Panchanga', tabBarIcon: icon('sunny-outline', 'sunny') }} />
+      <Tabs.Screen name="panchanga" options={{ title: 'Panchanga', headerShown: false, tabBarIcon: icon('sunny-outline', 'sunny') }} />
       <Tabs.Screen name="library" options={{ title: 'Library', tabBarIcon: icon('library-outline', 'library') }} />
       <Tabs.Screen name="practice" options={{ title: 'My practice', tabBarIcon: icon('flower-outline', 'flower') }} />
     </Tabs>
