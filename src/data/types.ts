@@ -21,6 +21,7 @@ export type CategoryId =
   | 'sandhya'
   | 'puja'
   | 'homa'
+  | 'samskara'
   | 'kirtana';
 
 export type Difficulty = 'easy' | 'medium' | 'advanced';

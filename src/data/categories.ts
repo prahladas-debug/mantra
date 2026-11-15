@@ -86,6 +86,12 @@ export const CATEGORIES: Category[] = [
     description: 'Common homas step by step: Ganapati, Navagraha, Mrityunjaya, Chandi and more.',
   },
   {
+    id: 'samskara',
+    title: 'संस्काराः कर्माणि च',
+    titleEn: 'Rites and samskaras',
+    description: 'Shraddha, upakarma, punyahavachana, griha pravesha and other household rites, step by step.',
+  },
+  {
     id: 'kirtana',
     title: 'कीर्तनानि',
     titleEn: 'Kirtanas and bhajans',

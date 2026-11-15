@@ -116,6 +116,15 @@ const CATEGORY_LABELS: Record<CategoryId, Labels> = {
     bengali: 'হোম বিধি',
     oriya: 'ହୋମ ବିଧି',
   },
+  samskara: {
+    kannada: 'ಸಂಸ್ಕಾರ ಮತ್ತು ಕರ್ಮಗಳು',
+    telugu: 'సంస్కారాలు, కర్మలు',
+    tamil: 'ஸம்ஸ்காரங்கள், கர்மங்கள்',
+    malayalam: 'സംസ്കാരങ്ങൾ, കർമ്മങ്ങൾ',
+    gujarati: 'સંસ્કાર અને કર્મ',
+    bengali: 'সংস্কার ও কর্ম',
+    oriya: 'ସଂସ୍କାର ଓ କର୍ମ',
+  },
   kirtana: {
     kannada: 'ಕೀರ್ತನೆಗಳು',
     telugu: 'కీర్తనలు',

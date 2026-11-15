@@ -11,7 +11,8 @@ import { translit } from '../../lib/transliterate';
 
 /** The library, arranged in a few groups. */
 export const SHELVES: { title: string; categories: CategoryId[] }[] = [
-  { title: 'Daily practice', categories: ['nitya', 'sandhya', 'puja', 'homa'] },
+  { title: 'Daily practice', categories: ['nitya', 'sandhya', 'puja'] },
+  { title: 'Rites and homas', categories: ['samskara', 'homa'] },
   { title: 'Parayana', categories: ['gita', 'sundarakanda', 'devimahatmya', 'sumadhvavijaya', 'harikathamrutasara'] },
   { title: 'Stotras and Sahasranama', categories: ['stotra', 'sahasranama'] },
   { title: 'Vedic suktas', categories: ['vedic'] },
