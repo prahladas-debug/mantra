@@ -40,7 +40,7 @@ export type Meaning = string | Partial<Record<MeaningLang, string>>;
  * time of day). Sections/verses tagged with `when` are shown only if every
  * listed key matches the reader's current choice.
  */
-export type VariantKey = 'tradition' | 'time';
+export type VariantKey = 'tradition' | 'time' | 'veda';
 export type When = Partial<Record<VariantKey, string[]>>;
 
 export interface VariantOption {
