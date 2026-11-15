@@ -3,7 +3,16 @@
  * Madhva and Smarta forms as practised in Karnataka. Each step is a section per tradition
  * (and per time where the rubric differs), so the reader sees one clear instruction
  * (note / noteKn) followed by the mantras, as in a printed pocket manual.
- * NOT YET PROOFREAD against a printed manual.
+ * Audited Nov 2026 step by step against scans of: Vadirajacharya Karanam, "Rigvediya Trikala
+ * Sandhyavandane" (Uttaradi Matha, 2010; archive.org Rigveda_Trikala_Sandhyavandane_-_Vadirajacharya_Karnam);
+ * "Rugvediya Vaishnaviya Trikala Sandhyavandanam" (Gadag; archive.org
+ * rugvediya-vaishnaviya-trikala-sandhyavandanam); Srinivas S. Mathad, "Sri Sandhya Sara Sangraha"
+ * (Vijayapura, 1996; archive.org SriSandhyaSaraSangraha_-_SrinivasaS.Mathada) — Madhva; Kota Vasudeva
+ * Somayaji, "Rgvediya Sandhyavandana" (Mysuru, 2004; archive.org rigvedhiya-sandhyavandana); Balkur
+ * Bhaskara Udupa, "Rgvediya Smarta Nityahnika Vidhih" (2001; archive.org sandhyavandane-balkur-copys);
+ * B. V. Kamesvara Aiyar, "The Sandhyavandanam of Rig, Yajus and Sama Vedins" (Madras, 1898; archive.org
+ * sandhyavandanam00aiyagoog); stotranidhi.com "Rigveda Sandhyavandanam" — Smarta. Riks checked against
+ * the GRETIL Aufrecht Rigveda. The corrections are listed in proofreading/sandhya/.
  *
  * Sources collated (with scripts/collate.ts; readings supported by two sources, by the
  * Rigveda samhita or by grammar were preferred):
@@ -80,7 +89,7 @@ export const sandhyaVandaneRigveda: Mantra = {
   ],
   difficulty: 'medium',
   completeness: 'complete',
-  contentNote: 'Not yet proofread page by page against one printed manual; families differ in small details, so follow your elders where they differ. Not included, because no two reliable sources agreed: separate morning / midday / evening Gayatri dhyana shlokas; a separate Madhva midday upasthana (the morning mantras are used); the pratichakshva… rik before the Madhva prayaschitta arghya; the dikpala / navagraha tarpana list; tattva-nyasa and matrika-nyasa (only for those initiated into them); the eight closing mudras; and Smarta additions such as tryambakam… and syona prithivi….',
+  contentNote: 'Audited in Nov 2026 against the Madhva manuals of the Uttaradi Matha (Karanam), Gadag and Vijayapura (Mathad), and the Smarta manuals of Mysuru (Somayaji), Balkur, Madras (Kamesvara Aiyar) and stotranidhi; every rik was checked against the Rigveda samhita. Families differ in small details, so follow your elders where they differ. Not included, because no two reliable sources agreed: separate morning / midday / evening Gayatri dhyana shlokas; the pratichakshva… / uta yatam… / mo shv adya… riks said while turning round with asav adityo brahma in two Madhva manuals; the mandarahvaya… Gayatri dhyana of the Karnataka Smarta manuals; the Smarta ashtakshara and panchakshara japa; tattva-nyasa and matrika-nyasa (only for those initiated into them); the eight closing mudras; and Smarta additions such as tryambakam… and syona prithivi….',
   sections: [
     {
       title: 'शुद्धिः',
@@ -140,8 +149,8 @@ export const sandhyaVandaneRigveda: Mantra = {
     {
       title: 'श्रौताचमनम्',
       titleEn: 'Shrauta achamana (with the names of the Vedas)',
-      note: 'Manuals speak of three kinds of achamana. (1) Shrauta or Vaidika achamana, with the names of the Vedas (ऋग्वेदाय स्वाहा …). (2) Achamana with the Gayatri and apo hi shtha, with twenty-four touches — the Devi Bhagavata and Andhra manuals call this one Shrauta, the Madhva commentary on the Sadachara-smriti calls it Smarta. (3) Keshavadi achamana with the twenty-four names of Vishnu — called Pauranika in the Devi Bhagavata and Vaishnava in the Madhva commentary. Sip from the base of the palm (gokarna shape, water to cover a grain of urad) three times, with ॐ ऋग्वेदाय स्वाहा, ॐ यजुर्वेदाय स्वाहा and ॐ सामवेदाय स्वाहा. Then, with the wet hand, wipe the lips twice (Atharvaveda; Itihasa-Purana) and touch the mouth (Agni); sprinkle the left hand (the stars) and the feet (Vishnu); touch the eyes with thumb and ring finger (Moon, Sun), the nostrils with thumb and index finger (prana, apana), the ears with thumb and little finger (the directions), the upper arms with thumb and middle finger (Indra), the heart with four fingers (Rudra), the navel with the thumb (Earth), and the head with all the fingers; let the water left in the hand drip away for Kubera and all the gods (Baudhayana, in the Brahma-karma-samuchchaya; the Ashvalayana rule also has the sips with Om and svaha). Many Smarta families, especially those who follow the Vedic (grihya) manuals, do this Shrauta achamana first at the start of sandhya and of Vedic rites and then the Keshavadi achamana; others do only the Keshavadi. Follow your family.',
-      noteKn: 'ಪುಸ್ತಕಗಳು ಮೂರು ಬಗೆಯ ಆಚಮನಗಳನ್ನು ಹೇಳುತ್ತವೆ: (೧) ವೇದಗಳ ಹೆಸರುಗಳಿಂದ ಮಾಡುವ ಶ್ರೌತ ಅಥವಾ ವೈದಿಕ ಆಚಮನ (“ಋಗ್ವೇದಾಯ ಸ್ವಾಹಾ…”). (೨) ಗಾಯತ್ರಿ ಮತ್ತು “ಆಪೋ ಹಿಷ್ಠಾ”ಗಳಿಂದ ಇಪ್ಪತ್ನಾಲ್ಕು ಸ್ಪರ್ಶಗಳೊಡನೆ ಮಾಡುವ ಆಚಮನ — ದೇವೀಭಾಗವತ ಮತ್ತು ಆಂಧ್ರದ ಪುಸ್ತಕಗಳು ಇದನ್ನು ಶ್ರೌತ ಎನ್ನುತ್ತವೆ, ಸದಾಚಾರಸ್ಮೃತಿಯ ಮಾಧ್ವ ವ್ಯಾಖ್ಯಾನ ಸ್ಮಾರ್ತ ಎನ್ನುತ್ತದೆ. (೩) ವಿಷ್ಣುವಿನ ಇಪ್ಪತ್ನಾಲ್ಕು ನಾಮಗಳಿಂದ ಮಾಡುವ ಕೇಶವಾದಿ ಆಚಮನ — ದೇವೀಭಾಗವತದಲ್ಲಿ ಪೌರಾಣಿಕ, ಮಾಧ್ವ ವ್ಯಾಖ್ಯಾನದಲ್ಲಿ ವೈಷ್ಣವ ಆಚಮನ. ಗೋಕರ್ಣಾಕಾರದ ಅಂಗೈಯ ಬುಡದಿಂದ (ಉದ್ದಿನಕಾಳು ಮುಳುಗುವಷ್ಟು ನೀರು) “ಓಂ ಋಗ್ವೇದಾಯ ಸ್ವಾಹಾ”, “ಓಂ ಯಜುರ್ವೇದಾಯ ಸ್ವಾಹಾ”, “ಓಂ ಸಾಮವೇದಾಯ ಸ್ವಾಹಾ” ಎಂದು ಮೂರು ಬಾರಿ ಸೇವಿಸಿ. ನಂತರ ಒದ್ದೆ ಕೈಯಿಂದ ತುಟಿಗಳನ್ನು ಎರಡು ಬಾರಿ ಒರೆಸಿ (ಅಥರ್ವವೇದ; ಇತಿಹಾಸ–ಪುರಾಣ), ಬಾಯಿ ಮುಟ್ಟಿ (ಅಗ್ನಿ); ಎಡಗೈಗೆ (ನಕ್ಷತ್ರಗಳು), ಪಾದಗಳಿಗೆ (ವಿಷ್ಣು) ನೀರು ಪ್ರೋಕ್ಷಿಸಿ; ಹೆಬ್ಬೆರಳು–ಉಂಗುರದ ಬೆರಳಿನಿಂದ ಕಣ್ಣುಗಳು (ಚಂದ್ರ, ಸೂರ್ಯ), ಹೆಬ್ಬೆರಳು–ತೋರುಬೆರಳಿನಿಂದ ಮೂಗಿನ ಹೊಳ್ಳೆಗಳು (ಪ್ರಾಣ, ಅಪಾನ), ಹೆಬ್ಬೆರಳು–ಕಿರುಬೆರಳಿನಿಂದ ಕಿವಿಗಳು (ದಿಕ್ಕುಗಳು), ಹೆಬ್ಬೆರಳು–ನಡುಬೆರಳಿನಿಂದ ತೋಳುಗಳು (ಇಂದ್ರ), ನಾಲ್ಕು ಬೆರಳುಗಳಿಂದ ಹೃದಯ (ರುದ್ರ), ಹೆಬ್ಬೆರಳಿನಿಂದ ನಾಭಿ (ಪೃಥ್ವಿ), ಎಲ್ಲ ಬೆರಳುಗಳಿಂದ ತಲೆ ಮುಟ್ಟಿಕೊಳ್ಳಿ; ಕೈಯಲ್ಲಿ ಉಳಿದ ನೀರನ್ನು ಕುಬೇರಾದಿ ಸಮಸ್ತ ದೇವತೆಗಳಿಗಾಗಿ ಬಿಡಿ (ಬ್ರಹ್ಮಕರ್ಮಸಮುಚ್ಚಯದಲ್ಲಿನ ಬೋಧಾಯನ ವಿಧಿ; ಆಶ್ವಲಾಯನರೂ ಪ್ರಣವ–ಸ್ವಾಹಾಕಾರ ಸಹಿತ ಮೂರು ಗುಟುಕುಗಳನ್ನು ಹೇಳುತ್ತಾರೆ). ಅನೇಕ ಸ್ಮಾರ್ತ ಮನೆತನಗಳು, ವಿಶೇಷವಾಗಿ ಗೃಹ್ಯಸೂತ್ರದ ಪುಸ್ತಕಗಳನ್ನು ಅನುಸರಿಸುವವರು, ಸಂಧ್ಯೆಯ ಮತ್ತು ವೈದಿಕ ಕರ್ಮಗಳ ಆರಂಭದಲ್ಲಿ ಮೊದಲು ಈ ಶ್ರೌತ ಆಚಮನ, ನಂತರ ಕೇಶವಾದಿ ಆಚಮನ ಮಾಡುತ್ತಾರೆ; ಕೆಲವರು ಕೇಶವಾದಿಯನ್ನು ಮಾತ್ರ ಮಾಡುತ್ತಾರೆ. ಮನೆತನದ ಪದ್ಧತಿ ಅನುಸರಿಸಿ.',
+      note: 'Manuals speak of three kinds of achamana. (1) Shrauta or Vaidika achamana, with the names of the Vedas (ऋग्वेदाय स्वाहा …). (2) Achamana with the Gayatri and apo hi shtha, with twenty-four touches — the Devi Bhagavata and Andhra manuals call this one Shrauta, the Madhva commentary on the Sadachara-smriti calls it Smarta. (3) Keshavadi achamana with the twenty-four names of Vishnu — called Pauranika in the Devi Bhagavata and Vaishnava in the Madhva commentary. The Karnataka Rigvedi Smarta manuals (Kota Vasudeva Somayaji, Mysuru; Balkur Bhaskara Udupa) begin with this Shrauta achamana. Sip from the base of the palm (gokarna shape, water to cover a grain of urad) three times, with ॐ ऋग्वेदाय स्वाहा, ॐ यजुर्वेदाय स्वाहा and ॐ सामवेदाय स्वाहा. Then, with the names that follow, touch: the left and right palm (Atharvaveda, Itihasa-Purana); the lower and upper lip (Agni, Agni); the right and left eye with thumb and index finger (Surya, Chandra); the right and left nostril with thumb and middle finger (Vayu, Prana); the ears with thumb and ring finger (the directions); the arms with thumb and little finger (Indra); with all the fingers the feet (Prithivi), the knees (Antariksha), the lower body (Dyaus), the navel (Brahma), the heart (Vishnu) and the head (Shiva). Go through it twice. (Somayaji touches the nostrils before the eyes and ends with सदाशिवाय नमः.) Many families then also do the Keshavadi achamana; others do only the Keshavadi. Follow your family.',
+      noteKn: 'ಪುಸ್ತಕಗಳು ಮೂರು ಬಗೆಯ ಆಚಮನಗಳನ್ನು ಹೇಳುತ್ತವೆ: (೧) ವೇದಗಳ ಹೆಸರುಗಳಿಂದ ಮಾಡುವ ಶ್ರೌತ ಅಥವಾ ವೈದಿಕ ಆಚಮನ (“ಋಗ್ವೇದಾಯ ಸ್ವಾಹಾ…”). (೨) ಗಾಯತ್ರಿ ಮತ್ತು “ಆಪೋ ಹಿಷ್ಠಾ”ಗಳಿಂದ ಇಪ್ಪತ್ನಾಲ್ಕು ಸ್ಪರ್ಶಗಳೊಡನೆ ಮಾಡುವ ಆಚಮನ — ದೇವೀಭಾಗವತ ಮತ್ತು ಆಂಧ್ರದ ಪುಸ್ತಕಗಳು ಇದನ್ನು ಶ್ರೌತ ಎನ್ನುತ್ತವೆ, ಸದಾಚಾರಸ್ಮೃತಿಯ ಮಾಧ್ವ ವ್ಯಾಖ್ಯಾನ ಸ್ಮಾರ್ತ ಎನ್ನುತ್ತದೆ. (೩) ವಿಷ್ಣುವಿನ ಇಪ್ಪತ್ನಾಲ್ಕು ನಾಮಗಳಿಂದ ಮಾಡುವ ಕೇಶವಾದಿ ಆಚಮನ — ದೇವೀಭಾಗವತದಲ್ಲಿ ಪೌರಾಣಿಕ, ಮಾಧ್ವ ವ್ಯಾಖ್ಯಾನದಲ್ಲಿ ವೈಷ್ಣವ ಆಚಮನ. ಕರ್ನಾಟಕದ ಋಗ್ವೇದಿ ಸ್ಮಾರ್ತ ಪುಸ್ತಕಗಳು (ಕೋಟ ವಾಸುದೇವ ಸೋಮಯಾಜಿ, ಮೈಸೂರು; ಬಳ್ಕೂರು ಭಾಸ್ಕರ ಉಡುಪ) ಈ ಶ್ರೌತ ಆಚಮನದಿಂದ ಆರಂಭಿಸುತ್ತವೆ. ಗೋಕರ್ಣಾಕಾರದ ಅಂಗೈಯ ಬುಡದಿಂದ (ಉದ್ದಿನಕಾಳು ಮುಳುಗುವಷ್ಟು ನೀರು) “ಓಂ ಋಗ್ವೇದಾಯ ಸ್ವಾಹಾ”, “ಓಂ ಯಜುರ್ವೇದಾಯ ಸ್ವಾಹಾ”, “ಓಂ ಸಾಮವೇದಾಯ ಸ್ವಾಹಾ” ಎಂದು ಮೂರು ಬಾರಿ ಸೇವಿಸಿ. ನಂತರ ಮುಂದಿನ ನಾಮಗಳೊಡನೆ ಹೀಗೆ ಮುಟ್ಟಿ: ಎಡ, ಬಲ ಅಂಗೈ (ಅಥರ್ವವೇದ, ಇತಿಹಾಸ–ಪುರಾಣ); ಕೆಳಗಿನ, ಮೇಲಿನ ತುಟಿ (ಅಗ್ನಿ, ಅಗ್ನಿ); ಹೆಬ್ಬೆರಳು–ತೋರುಬೆರಳಿನಿಂದ ಬಲ, ಎಡ ಕಣ್ಣು (ಸೂರ್ಯ, ಚಂದ್ರ); ಹೆಬ್ಬೆರಳು–ನಡುಬೆರಳಿನಿಂದ ಬಲ, ಎಡ ಮೂಗಿನ ಹೊಳ್ಳೆ (ವಾಯು, ಪ್ರಾಣ); ಹೆಬ್ಬೆರಳು–ಉಂಗುರದ ಬೆರಳಿನಿಂದ ಕಿವಿಗಳು (ದಿಕ್ಕುಗಳು); ಹೆಬ್ಬೆರಳು–ಕಿರುಬೆರಳಿನಿಂದ ಭುಜಗಳು (ಇಂದ್ರ); ಎಲ್ಲ ಬೆರಳುಗಳಿಂದ ಪಾದಗಳು (ಪೃಥ್ವಿ), ಮೊಣಕಾಲುಗಳು (ಅಂತರಿಕ್ಷ), ಕೆಳಭಾಗ (ದ್ಯುಲೋಕ), ನಾಭಿ (ಬ್ರಹ್ಮ), ಹೃದಯ (ವಿಷ್ಣು), ತಲೆ (ಶಿವ). ಹೀಗೆ ಎರಡು ಬಾರಿ ಮಾಡಿ. (ಸೋಮಯಾಜಿಯವರ ಪುಸ್ತಕದಲ್ಲಿ ಮೂಗನ್ನು ಕಣ್ಣಿಗಿಂತ ಮೊದಲು ಮುಟ್ಟುತ್ತಾರೆ, ಕೊನೆಯಲ್ಲಿ “ಸದಾಶಿವಾಯ ನಮಃ”.) ಅನೇಕ ಮನೆತನಗಳು ನಂತರ ಕೇಶವಾದಿ ಆಚಮನವನ್ನೂ ಮಾಡುತ್ತವೆ; ಕೆಲವರು ಕೇಶವಾದಿಯನ್ನು ಮಾತ್ರ ಮಾಡುತ್ತಾರೆ. ಮನೆತನದ ಪದ್ಧತಿ ಅನುಸರಿಸಿ.',
       when: { tradition: ['smarta'] },
       verses: [
         {
@@ -152,10 +161,10 @@ export const sandhyaVandaneRigveda: Mantra = {
           },
         },
         {
-          text: 'ॐ अथर्ववेदाय नमः । ॐ इतिहासपुराणेभ्यो नमः । ॐ अग्नये नमः ।\nॐ नक्षत्रेभ्यो नमः । ॐ विष्णवे नमः ।\nॐ चन्द्राय नमः । ॐ आदित्याय नमः ।\nॐ प्राणाय नमः । ॐ अपानाय नमः ।\nॐ दिग्भ्यो नमः । ॐ दिग्भ्यो नमः ।\nॐ इन्द्राय नमः । ॐ इन्द्राय नमः ।\nॐ रुद्राय नमः । ॐ पृथिव्यै नमः ॥',
+          text: 'ॐ अथर्ववेदाय नमः । ॐ इतिहासपुराणेभ्यो नमः ।\nॐ अग्नये नमः । ॐ अग्नये नमः ।\nॐ सूर्याय नमः । ॐ चन्द्राय नमः ।\nॐ वायवे नमः । ॐ प्राणाय नमः ।\nॐ दिग्भ्यो नमः । ॐ दिग्भ्यो नमः ।\nॐ इन्द्राय नमः । ॐ इन्द्राय नमः ।\nॐ पृथिव्यै नमः । ॐ पृथिव्यै नमः ।\nॐ अन्तरिक्षाय नमः । ॐ अन्तरिक्षाय नमः ।\nॐ दिवे नमः । ॐ ब्रह्मणे नमः ।\nॐ विष्णवे नमः । ॐ शिवाय नमः ॥',
           meaning: {
-            en: 'Salutations to the Atharvaveda and to the Itihasas and Puranas (wiping the lips); to Agni (the mouth); to the stars (the left hand); to Vishnu (the feet); to the Moon and the Sun (the two eyes); to prana and apana (the two nostrils); to the directions (the two ears); to Indra (the two arms); to Rudra (the heart); and to the Earth (the navel).',
-            kn: 'ಅಥರ್ವವೇದಕ್ಕೂ ಇತಿಹಾಸ–ಪುರಾಣಗಳಿಗೂ ನಮಸ್ಕಾರ (ತುಟಿಗಳನ್ನು ಒರೆಸುವುದು); ಅಗ್ನಿಗೆ (ಬಾಯಿ); ನಕ್ಷತ್ರಗಳಿಗೆ (ಎಡಗೈ); ವಿಷ್ಣುವಿಗೆ (ಪಾದಗಳು); ಚಂದ್ರ–ಸೂರ್ಯರಿಗೆ (ಎರಡು ಕಣ್ಣು); ಪ್ರಾಣ–ಅಪಾನಗಳಿಗೆ (ಎರಡು ಮೂಗಿನ ಹೊಳ್ಳೆ); ದಿಕ್ಕುಗಳಿಗೆ (ಎರಡು ಕಿವಿ); ಇಂದ್ರನಿಗೆ (ಎರಡು ತೋಳು); ರುದ್ರನಿಗೆ (ಹೃದಯ); ಪೃಥ್ವಿಗೆ (ನಾಭಿ) ನಮಸ್ಕಾರ.',
+            en: 'Salutations to the Atharvaveda and to the Itihasa-Puranas (the two palms); to Agni, twice (the lips); to the Sun and the Moon (the eyes); to Vayu and Prana (the nostrils); to the directions (the ears); to Indra (the arms); to the Earth (the feet); to the mid-space (the knees); to heaven (the lower body); to Brahma (the navel), to Vishnu (the heart) and to Shiva (the head).',
+            kn: 'ಅಥರ್ವವೇದಕ್ಕೂ ಇತಿಹಾಸ–ಪುರಾಣಗಳಿಗೂ (ಎರಡು ಅಂಗೈಗಳು) ನಮಸ್ಕಾರ; ಅಗ್ನಿಗೆ ಎರಡು ಬಾರಿ (ತುಟಿಗಳು); ಸೂರ್ಯ–ಚಂದ್ರರಿಗೆ (ಕಣ್ಣುಗಳು); ವಾಯು–ಪ್ರಾಣರಿಗೆ (ಮೂಗಿನ ಹೊಳ್ಳೆಗಳು); ದಿಕ್ಕುಗಳಿಗೆ (ಕಿವಿಗಳು); ಇಂದ್ರನಿಗೆ (ಭುಜಗಳು); ಪೃಥ್ವಿಗೆ (ಪಾದಗಳು); ಅಂತರಿಕ್ಷಕ್ಕೆ (ಮೊಣಕಾಲುಗಳು); ದ್ಯುಲೋಕಕ್ಕೆ (ಕೆಳಭಾಗ); ಬ್ರಹ್ಮನಿಗೆ (ನಾಭಿ), ವಿಷ್ಣುವಿಗೆ (ಹೃದಯ), ಶಿವನಿಗೆ (ತಲೆ) ನಮಸ್ಕಾರ.',
           },
         },
       ],
@@ -207,8 +216,8 @@ export const sandhyaVandaneRigveda: Mantra = {
     {
       title: 'आचमनम्',
       titleEn: 'Keshavadi achamana (Vaishnava / Pauranika) — twice',
-      note: 'Hollow the right palm into the gokarna shape (like a cow’s ear) and pour into it, from the uddharane, water enough to cover a grain of black gram. With Keshava, Narayana and Madhava sip it three times from the base of the palm (brahma-tirtha), without noise. Then, with the remaining names: Govinda — wash the right palm with the left; Vishnu — wash the left palm with the right; Madhusudana — touch the upper lip; Trivikrama — the lower lip; Vamana — the right cheek; Shridhara — the left cheek; Hrishikesha — wash both hands; Padmanabha — touch the feet; Damodara — the crown of the head with the middle finger; Sankarshana — the tip of the nose with the middle finger; Vasudeva and Pradyumna — the right and left nostril with thumb and index finger; Aniruddha and Purushottama — the right and left eye; Adhokshaja and Narasimha — the right and left ear; Achyuta — the navel; Janardana — the heart with the palm; Upendra — the head; Hari and Sri Krishna — the right and left shoulder with all the fingers. At the start of sandhya go through the whole achamana twice (dvirachamana). Later, “achamana” means once through, unless twice is said. This is the Keshavadi achamana — the Vaishnava achamana of the Madhva commentary on the Sadachara-smriti, which prescribes it for every rite, and the Pauranika achamana of the Devi Bhagavata (sip with the names ending in svaha, touch with those ending in namah).',
-      noteKn: 'ಬಲ ಅಂಗೈಯನ್ನು ಹಸುವಿನ ಕಿವಿಯಂತೆ ಗೋಕರ್ಣಾಕಾರದಲ್ಲಿ ಮಡಚಿ, ಉದ್ಧರಣೆಯಿಂದ ಒಂದು ಉದ್ದಿನಕಾಳು ಮುಳುಗುವಷ್ಟು ನೀರು ಹಾಕಿಕೊಳ್ಳಿ. ಕೇಶವ, ನಾರಾಯಣ, ಮಾಧವ ಎಂಬ ಮೂರು ನಾಮಗಳಿಂದ ಅಂಗೈಯ ಬುಡದಿಂದ (ಬ್ರಹ್ಮತೀರ್ಥ) ಶಬ್ದ ಮಾಡದೆ ಮೂರು ಬಾರಿ ಪ್ರಾಶನ ಮಾಡಿ. ಉಳಿದ ನಾಮಗಳಿಗೆ: ಗೋವಿಂದ — ಎಡಗೈಯಿಂದ ಬಲ ಅಂಗೈ ತೊಳೆಯುವುದು; ವಿಷ್ಣು — ಬಲಗೈಯಿಂದ ಎಡ ಅಂಗೈ ತೊಳೆಯುವುದು; ಮಧುಸೂದನ — ಮೇಲಿನ ತುಟಿ; ತ್ರಿವಿಕ್ರಮ — ಕೆಳಗಿನ ತುಟಿ; ವಾಮನ — ಬಲ ಕೆನ್ನೆ; ಶ್ರೀಧರ — ಎಡ ಕೆನ್ನೆ; ಹೃಷೀಕೇಶ — ಎರಡೂ ಕೈ ತೊಳೆಯುವುದು; ಪದ್ಮನಾಭ — ಪಾದಗಳು; ದಾಮೋದರ — ನಡುಬೆರಳಿನಿಂದ ನೆತ್ತಿ; ಸಂಕರ್ಷಣ — ನಡುಬೆರಳಿನಿಂದ ಮೂಗಿನ ತುದಿ; ವಾಸುದೇವ, ಪ್ರದ್ಯುಮ್ನ — ಹೆಬ್ಬೆರಳು ಮತ್ತು ತೋರುಬೆರಳಿನಿಂದ ಬಲ, ಎಡ ಮೂಗಿನ ಹೊಳ್ಳೆ; ಅನಿರುದ್ಧ, ಪುರುಷೋತ್ತಮ — ಬಲ, ಎಡ ಕಣ್ಣು; ಅಧೋಕ್ಷಜ, ನಾರಸಿಂಹ — ಬಲ, ಎಡ ಕಿವಿ; ಅಚ್ಯುತ — ನಾಭಿ; ಜನಾರ್ದನ — ಅಂಗೈಯಿಂದ ಹೃದಯ; ಉಪೇಂದ್ರ — ತಲೆ; ಹರಿ, ಶ್ರೀಕೃಷ್ಣ — ಎಲ್ಲ ಬೆರಳುಗಳಿಂದ ಬಲ, ಎಡ ಭುಜ. ಸಂಧ್ಯೆಯ ಆರಂಭದಲ್ಲಿ ಈ ಆಚಮನವನ್ನು ಎರಡು ಬಾರಿ ಮಾಡಬೇಕು (ದ್ವಿರಾಚಮನ). ಮುಂದೆ “ಆಚಮನ” ಎಂದರೆ ಒಂದು ಬಾರಿ, ಎರಡು ಎಂದು ಹೇಳಿದಲ್ಲಿ ಮಾತ್ರ ಎರಡು ಬಾರಿ. ಇದು ಕೇಶವಾದಿ ಆಚಮನ — ಸದಾಚಾರಸ್ಮೃತಿಯ ಮಾಧ್ವ ವ್ಯಾಖ್ಯಾನ ಎಲ್ಲ ಕರ್ಮಗಳಿಗೂ ವಿಧಿಸುವ ವೈಷ್ಣವ ಆಚಮನ; ದೇವೀಭಾಗವತದ ಪೌರಾಣಿಕ ಆಚಮನವೂ ಇದೇ (“ಸ್ವಾಹಾ” ಎಂದು ಕೊನೆಗೊಳ್ಳುವ ನಾಮಗಳಿಂದ ಸೇವನೆ, “ನಮಃ” ಎಂದು ಕೊನೆಗೊಳ್ಳುವವುಗಳಿಂದ ಸ್ಪರ್ಶ).',
+      note: 'Hollow the right palm into the gokarna shape (like a cow’s ear) and pour into it, from the uddharane, water enough to cover a grain of black gram. With Keshava, Narayana and Madhava sip it three times from the base of the palm (brahma-tirtha), without noise. Then, with the remaining names: Govinda — wash the left hand; Vishnu — wash the right hand; Madhusudana — touch the upper lip; Trivikrama — the lower lip; Vamana — the right cheek; Shridhara — the left cheek; Hrishikesha — join both hands; Padmanabha — touch the feet; Damodara — the head; Sankarshana — just below the nose; Vasudeva and Pradyumna — the right and left nostril with thumb and index finger; Aniruddha and Purushottama — the right and left eye; Adhokshaja and Narasimha — the right and left ear; Achyuta — the navel; Janardana — the heart with the palm; Upendra — the head; Hari and Sri Krishna — the right and left shoulder with all the fingers. At the start of sandhya go through the whole achamana twice (dvirachamana). Later, “achamana” means once through, unless twice is said. This is the Keshavadi achamana — the Vaishnava achamana of the Madhva commentary on the Sadachara-smriti, which prescribes it for every rite, and the Pauranika achamana of the Devi Bhagavata (sip with the names ending in svaha, touch with those ending in namah).',
+      noteKn: 'ಬಲ ಅಂಗೈಯನ್ನು ಹಸುವಿನ ಕಿವಿಯಂತೆ ಗೋಕರ್ಣಾಕಾರದಲ್ಲಿ ಮಡಚಿ, ಉದ್ಧರಣೆಯಿಂದ ಒಂದು ಉದ್ದಿನಕಾಳು ಮುಳುಗುವಷ್ಟು ನೀರು ಹಾಕಿಕೊಳ್ಳಿ. ಕೇಶವ, ನಾರಾಯಣ, ಮಾಧವ ಎಂಬ ಮೂರು ನಾಮಗಳಿಂದ ಅಂಗೈಯ ಬುಡದಿಂದ (ಬ್ರಹ್ಮತೀರ್ಥ) ಶಬ್ದ ಮಾಡದೆ ಮೂರು ಬಾರಿ ಪ್ರಾಶನ ಮಾಡಿ. ಉಳಿದ ನಾಮಗಳಿಗೆ: ಗೋವಿಂದ — ಎಡಗೈ ತೊಳೆಯುವುದು; ವಿಷ್ಣು — ಬಲಗೈ ತೊಳೆಯುವುದು; ಮಧುಸೂದನ — ಮೇಲಿನ ತುಟಿ; ತ್ರಿವಿಕ್ರಮ — ಕೆಳಗಿನ ತುಟಿ; ವಾಮನ — ಬಲ ಕೆನ್ನೆ; ಶ್ರೀಧರ — ಎಡ ಕೆನ್ನೆ; ಹೃಷೀಕೇಶ — ಎರಡೂ ಕೈ ಜೋಡಿಸುವುದು; ಪದ್ಮನಾಭ — ಪಾದಗಳು; ದಾಮೋದರ — ತಲೆ; ಸಂಕರ್ಷಣ — ಮೂಗಿನ ಕೆಳಭಾಗ; ವಾಸುದೇವ, ಪ್ರದ್ಯುಮ್ನ — ಹೆಬ್ಬೆರಳು ಮತ್ತು ತೋರುಬೆರಳಿನಿಂದ ಬಲ, ಎಡ ಮೂಗಿನ ಹೊಳ್ಳೆ; ಅನಿರುದ್ಧ, ಪುರುಷೋತ್ತಮ — ಬಲ, ಎಡ ಕಣ್ಣು; ಅಧೋಕ್ಷಜ, ನಾರಸಿಂಹ — ಬಲ, ಎಡ ಕಿವಿ; ಅಚ್ಯುತ — ನಾಭಿ; ಜನಾರ್ದನ — ಅಂಗೈಯಿಂದ ಹೃದಯ; ಉಪೇಂದ್ರ — ತಲೆ; ಹರಿ, ಶ್ರೀಕೃಷ್ಣ — ಎಲ್ಲ ಬೆರಳುಗಳಿಂದ ಬಲ, ಎಡ ಭುಜ. ಸಂಧ್ಯೆಯ ಆರಂಭದಲ್ಲಿ ಈ ಆಚಮನವನ್ನು ಎರಡು ಬಾರಿ ಮಾಡಬೇಕು (ದ್ವಿರಾಚಮನ). ಮುಂದೆ “ಆಚಮನ” ಎಂದರೆ ಒಂದು ಬಾರಿ, ಎರಡು ಎಂದು ಹೇಳಿದಲ್ಲಿ ಮಾತ್ರ ಎರಡು ಬಾರಿ. ಇದು ಕೇಶವಾದಿ ಆಚಮನ — ಸದಾಚಾರಸ್ಮೃತಿಯ ಮಾಧ್ವ ವ್ಯಾಖ್ಯಾನ ಎಲ್ಲ ಕರ್ಮಗಳಿಗೂ ವಿಧಿಸುವ ವೈಷ್ಣವ ಆಚಮನ; ದೇವೀಭಾಗವತದ ಪೌರಾಣಿಕ ಆಚಮನವೂ ಇದೇ (“ಸ್ವಾಹಾ” ಎಂದು ಕೊನೆಗೊಳ್ಳುವ ನಾಮಗಳಿಂದ ಸೇವನೆ, “ನಮಃ” ಎಂದು ಕೊನೆಗೊಳ್ಳುವವುಗಳಿಂದ ಸ್ಪರ್ಶ).',
       when: { tradition: ['madhva'] },
       verses: [
         {
@@ -320,8 +329,8 @@ export const sandhyaVandaneRigveda: Mantra = {
     {
       title: 'प्राणायामः',
       titleEn: 'Pranayama (three times)',
-      note: 'Say the viniyoga line first, touching the head (rishi), the mouth (chandas) and the heart (devata). Then with the right hand close the right nostril with the thumb and the left nostril with the ring and little fingers, keeping the index and middle fingers folded. Breathe out through the right nostril, breathe in slowly through the left (puraka), close both and hold the breath (kumbhaka) while reciting the whole mantra mentally, then breathe out slowly through the right nostril (rechaka). Do this three times. Rigvedins say स्वः and स्वरोम् (not सुवः / सुवरोम्).',
-      noteKn: 'ಮೊದಲು ವಿನಿಯೋಗವನ್ನು ಹೇಳುತ್ತಾ ತಲೆ (ಋಷಿ), ಬಾಯಿ (ಛಂದಸ್ಸು), ಹೃದಯ (ದೇವತೆ) ಮುಟ್ಟಿಕೊಳ್ಳಿ. ನಂತರ ಬಲಗೈಯ ತೋರುಬೆರಳು ಮತ್ತು ನಡುಬೆರಳನ್ನು ಮಡಚಿ, ಹೆಬ್ಬೆರಳಿನಿಂದ ಬಲ ಮೂಗಿನ ಹೊಳ್ಳೆಯನ್ನೂ ಉಂಗುರದ ಬೆರಳು ಮತ್ತು ಕಿರುಬೆರಳಿನಿಂದ ಎಡ ಹೊಳ್ಳೆಯನ್ನೂ ಮುಚ್ಚಿ. ಬಲ ಹೊಳ್ಳೆಯಿಂದ ಉಸಿರು ಹೊರಬಿಟ್ಟು, ಎಡ ಹೊಳ್ಳೆಯಿಂದ ನಿಧಾನವಾಗಿ ಒಳಗೆಳೆದು (ಪೂರಕ), ಎರಡನ್ನೂ ಮುಚ್ಚಿ ಉಸಿರು ಹಿಡಿದಿರುವಾಗ (ಕುಂಭಕ) ಪೂರ್ಣ ಮಂತ್ರವನ್ನು ಮನಸ್ಸಿನಲ್ಲೇ ಹೇಳಿ, ನಂತರ ಬಲ ಹೊಳ್ಳೆಯಿಂದ ನಿಧಾನವಾಗಿ ಹೊರಬಿಡಿ (ರೇಚಕ). ಹೀಗೆ ಮೂರು ಬಾರಿ ಮಾಡಿ. ಋಗ್ವೇದಿಗಳು “ಸ್ವಃ”, “ಸ್ವರೋಂ” ಎನ್ನುತ್ತಾರೆ (“ಸುವಃ”, “ಸುವರೋಂ” ಅಲ್ಲ).',
+      note: 'Say the viniyoga line first, touching the head (rishi), the mouth (chandas) and the heart (devata). Then with the right hand close the right nostril with the thumb and the left nostril with the ring and little fingers, keeping the index and middle fingers folded. Breathe out through the right nostril, breathe in slowly through the left (puraka), close both and hold the breath (kumbhaka) while reciting the whole mantra mentally, then breathe out slowly through the right nostril (rechaka). Do this three times. Madhva Rigveda manuals print स्वः and स्वरोम्; some Smarta Rigveda manuals of Karnataka print सुवः / सुवरोम् as the Yajurvedins do — say it as your family does.',
+      noteKn: 'ಮೊದಲು ವಿನಿಯೋಗವನ್ನು ಹೇಳುತ್ತಾ ತಲೆ (ಋಷಿ), ಬಾಯಿ (ಛಂದಸ್ಸು), ಹೃದಯ (ದೇವತೆ) ಮುಟ್ಟಿಕೊಳ್ಳಿ. ನಂತರ ಬಲಗೈಯ ತೋರುಬೆರಳು ಮತ್ತು ನಡುಬೆರಳನ್ನು ಮಡಚಿ, ಹೆಬ್ಬೆರಳಿನಿಂದ ಬಲ ಮೂಗಿನ ಹೊಳ್ಳೆಯನ್ನೂ ಉಂಗುರದ ಬೆರಳು ಮತ್ತು ಕಿರುಬೆರಳಿನಿಂದ ಎಡ ಹೊಳ್ಳೆಯನ್ನೂ ಮುಚ್ಚಿ. ಬಲ ಹೊಳ್ಳೆಯಿಂದ ಉಸಿರು ಹೊರಬಿಟ್ಟು, ಎಡ ಹೊಳ್ಳೆಯಿಂದ ನಿಧಾನವಾಗಿ ಒಳಗೆಳೆದು (ಪೂರಕ), ಎರಡನ್ನೂ ಮುಚ್ಚಿ ಉಸಿರು ಹಿಡಿದಿರುವಾಗ (ಕುಂಭಕ) ಪೂರ್ಣ ಮಂತ್ರವನ್ನು ಮನಸ್ಸಿನಲ್ಲೇ ಹೇಳಿ, ನಂತರ ಬಲ ಹೊಳ್ಳೆಯಿಂದ ನಿಧಾನವಾಗಿ ಹೊರಬಿಡಿ (ರೇಚಕ). ಹೀಗೆ ಮೂರು ಬಾರಿ ಮಾಡಿ. ಮಾಧ್ವ ಋಗ್ವೇದ ಪುಸ್ತಕಗಳು “ಸ್ವಃ”, “ಸ್ವರೋಂ” ಎಂದು ಮುದ್ರಿಸುತ್ತವೆ; ಕರ್ನಾಟಕದ ಕೆಲವು ಸ್ಮಾರ್ತ ಋಗ್ವೇದ ಪುಸ್ತಕಗಳು ಯಜುರ್ವೇದಿಗಳಂತೆ “ಸುವಃ”, “ಸುವರೋಂ” ಎನ್ನುತ್ತವೆ — ಮನೆತನದ ಪದ್ಧತಿಯಂತೆ ಹೇಳಿ.',
       verses: [
         {
           text: 'प्रणवस्य परब्रह्म ऋषिः । परमात्मा देवता ।\nदैवी गायत्री छन्दः । प्राणायामे विनियोगः ॥',
@@ -347,17 +356,17 @@ export const sandhyaVandaneRigveda: Mantra = {
       when: { tradition: ['madhva'] },
       verses: [
         {
-          text: 'शुभे शोभने मुहूर्ते विष्णोराज्ञया प्रवर्तमानस्य\nअद्य ब्रह्मणो द्वितीये परार्धे श्वेतवराहकल्पे वैवस्वतमन्वन्तरे\nअष्टाविंशतितमे कलियुगे प्रथमपादे\nजम्बूद्वीपे भरतवर्षे भरतखण्डे दण्डकारण्ये गोदावर्या दक्षिणे तीरे\nशालिवाहनशके बौद्धावतारे रामक्षेत्रे\nअस्मिन् वर्तमाने व्यावहारिके चान्द्रमानेन अमुकनामसंवत्सरे\nअमुकायने अमुकऋतौ अमुकमासे अमुकपक्षे\nअमुकतिथौ अमुकवासरे अमुकनक्षत्रे शुभयोगे शुभकरणे\nएवंगुणविशेषणविशिष्टायां शुभतिथौ ।',
+          text: 'श्रीगोविन्द गोविन्द । श्रीमद्भगवतो महापुरुषस्य विष्णोराज्ञया प्रवर्तमानस्य\nअद्य ब्रह्मणः द्वितीयपरार्धे श्रीश्वेतवराहकल्पे वैवस्वतमन्वन्तरे\nकलियुगे प्रथमचरणे भरतवर्षे भरतखण्डे जम्बूद्वीपे\nदण्डकारण्ये देशे गोदावर्याः दक्षिणे तीरे\nशालिवाहनशके बौद्धावतारे रामक्षेत्रे\nअस्मिन् वर्तमाने चान्द्रमानेन अमुकनामसंवत्सरे\nअमुकायने अमुकऋतौ अमुकमासे अमुकपक्षे\nअमुकतिथौ अमुकवासरे अमुकनक्षत्रे शुभयोगे शुभकरणे\nएवंगुणविशेषणविशिष्टायां शुभतिथौ ।',
           meaning: {
-            en: 'At this good and auspicious moment, today, in the age that runs by the command of Vishnu — the second half of Brahma’s life, the Shveta-varaha kalpa, the Vaivasvata manvantara, the first quarter of the twenty-eighth Kali-yuga — in Bharatavarsha, in Dandakaranya south of the Godavari, in the Shalivahana era, in the present year, ayana, season, month, fortnight, tithi, weekday and star so named, on this auspicious day so marked…',
-            kn: 'ಶುಭವೂ ಮಂಗಳಕರವೂ ಆದ ಈ ಮುಹೂರ್ತದಲ್ಲಿ, ಇಂದು, ಶ್ರೀವಿಷ್ಣುವಿನ ಆಜ್ಞೆಯಿಂದ ನಡೆಯುತ್ತಿರುವ ಬ್ರಹ್ಮದೇವರ ದ್ವಿತೀಯ ಪರಾರ್ಧದ ಶ್ವೇತವರಾಹ ಕಲ್ಪ, ವೈವಸ್ವತ ಮನ್ವಂತರ, ಇಪ್ಪತ್ತೆಂಟನೆಯ ಕಲಿಯುಗದ ಪ್ರಥಮ ಪಾದದಲ್ಲಿ, ಭರತವರ್ಷದಲ್ಲಿ ಗೋದಾವರಿಯ ದಕ್ಷಿಣ ತೀರದ ದಂಡಕಾರಣ್ಯದಲ್ಲಿ, ಶಾಲಿವಾಹನ ಶಕದಲ್ಲಿ, ಈಗ ನಡೆಯುತ್ತಿರುವ ಇಂತಹ ಸಂವತ್ಸರ, ಅಯನ, ಋತು, ಮಾಸ, ಪಕ್ಷ, ತಿಥಿ, ವಾರ, ನಕ್ಷತ್ರಗಳಿಂದ ಕೂಡಿದ ಈ ಶುಭದಿನದಂದು…',
+            en: 'Sri Govinda, Govinda! Today, in the time that runs by the command of Vishnu, the blessed Lord and Supreme Person — in the second half of Brahma’s life, the Shveta-varaha kalpa, the Vaivasvata manvantara, the first quarter of the Kali-yuga — in Bharatavarsha, Bharatakhanda, Jambudvipa, in the Dandakaranya country on the south bank of the Godavari, in the Shalivahana era, the age of the Buddha avatara, in the land of Rama, in the present year, ayana, season, month, fortnight, tithi, weekday and star so named by the lunar reckoning, on this auspicious day so marked…',
+            kn: 'ಶ್ರೀಗೋವಿಂದ ಗೋವಿಂದ! ಇಂದು, ಭಗವಂತನೂ ಮಹಾಪುರುಷನೂ ಆದ ಶ್ರೀವಿಷ್ಣುವಿನ ಆಜ್ಞೆಯಿಂದ ನಡೆಯುತ್ತಿರುವ ಕಾಲದಲ್ಲಿ — ಬ್ರಹ್ಮದೇವರ ದ್ವಿತೀಯ ಪರಾರ್ಧದ ಶ್ವೇತವರಾಹ ಕಲ್ಪ, ವೈವಸ್ವತ ಮನ್ವಂತರ, ಕಲಿಯುಗದ ಪ್ರಥಮ ಚರಣದಲ್ಲಿ — ಜಂಬೂದ್ವೀಪದ ಭರತವರ್ಷ, ಭರತಖಂಡದಲ್ಲಿ, ಗೋದಾವರಿಯ ದಕ್ಷಿಣ ತೀರದ ದಂಡಕಾರಣ್ಯ ದೇಶದಲ್ಲಿ, ಶಾಲಿವಾಹನ ಶಕದಲ್ಲಿ, ಬೌದ್ಧಾವತಾರದ ಕಾಲದಲ್ಲಿ, ರಾಮಕ್ಷೇತ್ರದಲ್ಲಿ, ಚಾಂದ್ರಮಾನದಂತೆ ಈಗ ನಡೆಯುತ್ತಿರುವ ಇಂತಹ ಸಂವತ್ಸರ, ಅಯನ, ಋತು, ಮಾಸ, ಪಕ್ಷ, ತಿಥಿ, ವಾರ, ನಕ್ಷತ್ರಗಳಿಂದ ಕೂಡಿದ ಈ ಶುಭದಿನದಂದು…',
           },
         },
         {
-          text: 'श्रीभारतीरमणमुख्यप्राणान्तर्गत श्रीलक्ष्मीनारायणप्रेरणया\nश्रीलक्ष्मीनारायणप्रीत्यर्थं',
+          text: 'श्रीभारतीरमणमुख्यप्राणान्तर्गत श्रीविष्णुप्रेरणया\nश्रीविष्णुप्रीत्यर्थं',
           meaning: {
-            en: 'prompted by Sri Lakshminarayana, who dwells within Mukhyaprana (Vayu), the consort of Bharati, and for the pleasure of Sri Lakshminarayana,',
-            kn: 'ಭಾರತೀರಮಣರಾದ ಮುಖ್ಯಪ್ರಾಣದೇವರ ಅಂತರ್ಯಾಮಿಯಾದ ಶ್ರೀಲಕ್ಷ್ಮೀನಾರಾಯಣನ ಪ್ರೇರಣೆಯಿಂದ, ಶ್ರೀಲಕ್ಷ್ಮೀನಾರಾಯಣನ ಪ್ರೀತಿಗಾಗಿ,',
+            en: 'prompted by Sri Vishnu, who dwells within Mukhyaprana (Vayu), the consort of Bharati, and for the pleasure of Sri Vishnu,',
+            kn: 'ಭಾರತೀರಮಣರಾದ ಮುಖ್ಯಪ್ರಾಣದೇವರ ಅಂತರ್ಯಾಮಿಯಾದ ಶ್ರೀವಿಷ್ಣುವಿನ ಪ್ರೇರಣೆಯಿಂದ, ಶ್ರೀವಿಷ್ಣುವಿನ ಪ್ರೀತಿಗಾಗಿ,',
           },
         },
         {
@@ -436,8 +445,8 @@ export const sandhyaVandaneRigveda: Mantra = {
     {
       title: 'मार्जनम्',
       titleEn: 'Marjana (sprinkling)',
-      note: 'Say the viniyoga. Hold the uddharane with water in the left hand and, with a tulasi leaf or darbha (or the fingers) of the right hand, sprinkle yourself at the end of each of the nine padas (lines), in three rounds — feet, head, chest; chest, feet, head; head, chest, feet — nine sprinklings in all.',
-      noteKn: 'ವಿನಿಯೋಗ ಹೇಳಿ. ಎಡಗೈಯಲ್ಲಿ ನೀರಿರುವ ಉದ್ಧರಣೆ ಹಿಡಿದು, ಬಲಗೈಯ ತುಳಸೀದಳ ಅಥವಾ ದರ್ಭೆಯಿಂದ (ಅಥವಾ ಬೆರಳುಗಳಿಂದ) ಒಂಬತ್ತು ಪಾದಗಳಲ್ಲಿ ಪ್ರತಿಯೊಂದರ ಕೊನೆಗೆ ಮೂರು ಸುತ್ತುಗಳಲ್ಲಿ ಪ್ರೋಕ್ಷಿಸಿಕೊಳ್ಳಿ — ಪಾದ, ಶಿರಸ್ಸು, ಹೃದಯ; ಹೃದಯ, ಪಾದ, ಶಿರಸ್ಸು; ಶಿರಸ್ಸು, ಹೃದಯ, ಪಾದ — ಒಟ್ಟು ಒಂಬತ್ತು ಬಾರಿ.',
+      note: 'Say the viniyoga. Hold the uddharane with water in the left hand and, with a tulasi leaf (the nirmalya tulasi of the day’s puja, if you have it) or the fingers of the right hand, sprinkle yourself at the end of each of the nine padas (lines): on the head for the first seven padas, on the feet for the eighth (यस्य क्षयाय जिन्वथ) and on the head again for the ninth (Uttaradi Matha manual). Other Madhva manuals sprinkle in three rounds of three — the chest, the stomach and the head (or the ground, the head and the sky).',
+      noteKn: 'ವಿನಿಯೋಗ ಹೇಳಿ. ಎಡಗೈಯಲ್ಲಿ ನೀರಿರುವ ಉದ್ಧರಣೆ ಹಿಡಿದು, ಬಲಗೈಯ ತುಳಸೀದಳದಿಂದ (ಇದ್ದರೆ ಆ ದಿನದ ಪೂಜೆಯ ನಿರ್ಮಾಲ್ಯ ತುಳಸಿ) ಅಥವಾ ಬೆರಳುಗಳಿಂದ ಒಂಬತ್ತು ಪಾದಗಳಲ್ಲಿ ಪ್ರತಿಯೊಂದರ ಕೊನೆಗೆ ಪ್ರೋಕ್ಷಿಸಿಕೊಳ್ಳಿ: ಮೊದಲ ಏಳು ಪಾದಗಳಿಗೆ ತಲೆಯ ಮೇಲೆ, ಎಂಟನೆಯದಕ್ಕೆ (“ಯಸ್ಯ ಕ್ಷಯಾಯ ಜಿನ್ವಥ”) ಪಾದಗಳ ಮೇಲೆ, ಒಂಬತ್ತನೆಯದಕ್ಕೆ ಮತ್ತೆ ತಲೆಯ ಮೇಲೆ (ಉತ್ತರಾದಿಮಠದ ಪುಸ್ತಕ). ಬೇರೆ ಕೆಲವು ಮಾಧ್ವ ಪುಸ್ತಕಗಳು ಮೂರು ಮೂರರ ಸುತ್ತುಗಳಲ್ಲಿ — ಎದೆ, ಹೊಟ್ಟೆ, ತಲೆ (ಅಥವಾ ಭೂಮಿ, ತಲೆ, ಆಕಾಶ) — ಪ್ರೋಕ್ಷಿಸುತ್ತವೆ.',
       when: { tradition: ['madhva'] },
       verses: [
         {
@@ -473,8 +482,8 @@ export const sandhyaVandaneRigveda: Mantra = {
     {
       title: 'मार्जनम्',
       titleEn: 'Marjana (sprinkling)',
-      note: 'Say the viniyoga. Take water in the left palm (or in the uddharane held in the left hand) and, with the fingers of the right hand or a darbha blade, sprinkle the head at the end of each of the nine padas (lines).',
-      noteKn: 'ವಿನಿಯೋಗ ಹೇಳಿ. ಎಡ ಅಂಗೈಯಲ್ಲಿ (ಅಥವಾ ಎಡಗೈಯಲ್ಲಿ ಹಿಡಿದ ಉದ್ಧರಣೆಯಲ್ಲಿ) ನೀರು ತೆಗೆದುಕೊಂಡು ಬಲಗೈ ಬೆರಳುಗಳಿಂದ ಅಥವಾ ದರ್ಭೆಯಿಂದ ಒಂಬತ್ತು ಪಾದಗಳಲ್ಲಿ ಪ್ರತಿಯೊಂದರ ಕೊನೆಗೆ ತಲೆಗೆ ಪ್ರೋಕ್ಷಿಸಿಕೊಳ್ಳಿ.',
+      note: 'Say the viniyoga. Take water in the uddharane held in the left hand and, with the thumb, ring and middle fingers of the right hand, sprinkle yourself at the end of each of the nine padas (lines), in this order (Karnataka Rigvedi manuals): the heart, below the chest, above the chest, the right side, the left side, the back, the face, the lower body and the whole body. Many families simply sprinkle the head at each pada.',
+      noteKn: 'ವಿನಿಯೋಗ ಹೇಳಿ. ಎಡಗೈಯಲ್ಲಿ ಹಿಡಿದ ಉದ್ಧರಣೆಯಲ್ಲಿ ನೀರು ತೆಗೆದುಕೊಂಡು ಬಲಗೈಯ ಹೆಬ್ಬೆರಳು, ಉಂಗುರದ ಬೆರಳು, ನಡುಬೆರಳುಗಳಿಂದ ಒಂಬತ್ತು ಪಾದಗಳಲ್ಲಿ ಪ್ರತಿಯೊಂದರ ಕೊನೆಗೆ ಈ ಕ್ರಮದಲ್ಲಿ ಪ್ರೋಕ್ಷಿಸಿಕೊಳ್ಳಿ (ಕರ್ನಾಟಕದ ಋಗ್ವೇದಿ ಪುಸ್ತಕಗಳು): ಹೃದಯ, ಎದೆಯ ಕೆಳಭಾಗ, ಎದೆಯ ಮೇಲ್ಭಾಗ, ಬಲಪಾರ್ಶ್ವ, ಎಡಪಾರ್ಶ್ವ, ಬೆನ್ನು, ಮುಖ, ಕೆಳಭಾಗ, ಸರ್ವಾಂಗ. ಅನೇಕ ಮನೆತನಗಳು ಪ್ರತಿ ಪಾದಕ್ಕೂ ತಲೆಗೆ ಮಾತ್ರ ಪ್ರೋಕ್ಷಿಸುತ್ತವೆ.',
       when: { tradition: ['smarta'] },
       verses: [
         {
@@ -516,10 +525,10 @@ export const sandhyaVandaneRigveda: Mantra = {
       verses: [
         {
           when: { time: ['morning'] },
-          text: 'सूर्यश्चेत्यस्य मन्त्रस्य नारायण ऋषिः ।\nसूर्यमामन्युमन्युपतयो रात्रिर्देवताः ।\nप्रकृतिश्छन्दः । जलाभिमन्त्रणे विनियोगः ॥',
+          text: 'सूर्यश्चेति मन्त्रस्य हिरण्यगर्भ ऋषिः ।\nसूर्यमन्युमन्युपतिरात्रयो देवताः । प्रकृतिश्छन्दः ।\nमन्त्राचमने विनियोगः ॥',
           meaning: {
-            en: 'For the mantra “suryash cha”: the seer is Narayana; the deities are Surya, Manyu, the lords of Manyu and Night; the metre is Prakriti; it is used to consecrate the water.',
-            kn: '“ಸೂರ್ಯಶ್ಚ” ಮಂತ್ರಕ್ಕೆ ನಾರಾಯಣ ಋಷಿ; ಸೂರ್ಯ, ಮನ್ಯು, ಮನ್ಯುಪತಿಗಳು, ರಾತ್ರಿ ದೇವತೆಗಳು; ಪ್ರಕೃತಿ ಛಂದಸ್ಸು; ಜಲಾಭಿಮಂತ್ರಣಕ್ಕೆ ವಿನಿಯೋಗ.',
+            en: 'Of the mantra “suryash cha” the seer is Hiranyagarbha; the deities are the Sun, Manyu, the lords of Manyu and Night; the metre prakriti; it is applied in sipping water with mantra.',
+            kn: '"ಸೂರ್ಯಶ್ಚ" ಮಂತ್ರಕ್ಕೆ ಹಿರಣ್ಯಗರ್ಭ ಋಷಿ; ಸೂರ್ಯ, ಮನ್ಯು, ಮನ್ಯುಪತಿಗಳು, ರಾತ್ರಿ ದೇವತೆಗಳು; ಪ್ರಕೃತಿ ಛಂದಸ್ಸು; ಮಂತ್ರಾಚಮನದಲ್ಲಿ ವಿನಿಯೋಗ.',
           },
         },
         {
@@ -531,6 +540,14 @@ export const sandhyaVandaneRigveda: Mantra = {
           when: { time: ['morning'] },
         },
         {
+          when: { time: ['midday'] },
+          text: 'आपः पुनन्त्विति मन्त्रस्य पूतनामको नारायण ऋषिः ।\nआपो देवता । अष्टिश्छन्दः । अपां प्राशने विनियोगः ॥',
+          meaning: {
+            en: 'Of the mantra “apah punantu” the seer is Narayana called Puta, the deity the Waters, the metre ashti; it is applied in sipping water.',
+            kn: '"ಆಪಃ ಪುನಂತು" ಮಂತ್ರಕ್ಕೆ ಪೂತನಾಮಕ ನಾರಾಯಣ ಋಷಿ, ಜಲದೇವತೆಗಳು ದೇವತೆ, ಅಷ್ಟಿ ಛಂದಸ್ಸು; ಜಲಪ್ರಾಶನದಲ್ಲಿ ವಿನಿಯೋಗ.',
+          },
+        },
+        {
           text: 'आपः पुनन्तु पृथिवीं पृथिवी पूता पुनातु माम् ।\nपुनन्तु ब्रह्मणस्पतिर्ब्रह्मपूता पुनातु माम् ।\nयदुच्छिष्टमभोज्यं यद्वा दुश्चरितं मम ।\nसर्वं पुनन्तु मामापोऽसतां च प्रतिग्रहं स्वाहा ॥',
           meaning: {
             en: 'May the waters purify the earth, and the purified earth purify me; may Brahmanaspati, and the Veda-purified earth, purify me. From leftover or forbidden food, from my misdeeds and from gifts taken from the unworthy, may the waters purify me entirely. Svaha.',
@@ -540,10 +557,10 @@ export const sandhyaVandaneRigveda: Mantra = {
         },
         {
           when: { time: ['evening'] },
-          text: 'अग्निश्चेत्यस्य मन्त्रस्य हिरण्यगर्भ ऋषिः ।\nअग्निर्मामन्युमन्युपतयोऽहर्देवताः ।\nप्रकृतिश्छन्दः । जलाभिमन्त्रणे विनियोगः ॥',
+          text: 'अग्निश्चेति मन्त्रस्य हिरण्यगर्भ ऋषिः ।\nअग्निमन्युमन्युपत्यहानि देवताः । प्रकृतिश्छन्दः ।\nमन्त्राचमने विनियोगः ॥',
           meaning: {
-            en: 'For the mantra “agnish cha”: the seer is Hiranyagarbha; the deities are Agni, Manyu, the lords of Manyu and Day; the metre is Prakriti; it is used to consecrate the water.',
-            kn: '“ಅಗ್ನಿಶ್ಚ” ಮಂತ್ರಕ್ಕೆ ಹಿರಣ್ಯಗರ್ಭ ಋಷಿ; ಅಗ್ನಿ, ಮನ್ಯು, ಮನ್ಯುಪತಿಗಳು, ಹಗಲು ದೇವತೆಗಳು; ಪ್ರಕೃತಿ ಛಂದಸ್ಸು; ಜಲಾಭಿಮಂತ್ರಣಕ್ಕೆ ವಿನಿಯೋಗ.',
+            en: 'Of the mantra “agnish cha” the seer is Hiranyagarbha; the deities are Agni, Manyu, the lords of Manyu and Day; the metre prakriti; it is applied in sipping water with mantra.',
+            kn: '"ಅಗ್ನಿಶ್ಚ" ಮಂತ್ರಕ್ಕೆ ಹಿರಣ್ಯಗರ್ಭ ಋಷಿ; ಅಗ್ನಿ, ಮನ್ಯು, ಮನ್ಯುಪತಿಗಳು, ಹಗಲು ದೇವತೆಗಳು; ಪ್ರಕೃತಿ ಛಂದಸ್ಸು; ಮಂತ್ರಾಚಮನದಲ್ಲಿ ವಿನಿಯೋಗ.',
           },
         },
         {
@@ -622,8 +639,8 @@ export const sandhyaVandaneRigveda: Mantra = {
     {
       title: 'पुनर्मार्जनम्',
       titleEn: 'Punar-marjana (second sprinkling, nine riks)',
-      note: 'Say the viniyoga, then sprinkle water on yourself as in Marjana while reciting the whole sukta of nine riks (Rigveda 10.9) and the closing rik सस्रुषीः…: sprinkle the head at the end of each pada (line). Then do achamana once.',
-      noteKn: 'ವಿನಿಯೋಗ ಹೇಳಿ, ಮಾರ್ಜನದಲ್ಲಿ ಮಾಡಿದಂತೆಯೇ ಒಂಬತ್ತು ಋಕ್ಕುಗಳ ಪೂರ್ಣ ಸೂಕ್ತವನ್ನೂ (ಋಗ್ವೇದ ೧೦.೯) ಕೊನೆಯ “ಸಸ್ರುಷೀಃ” ಋಕ್ಕನ್ನೂ ಹೇಳುತ್ತಾ ಪ್ರತಿಯೊಂದು ಪಾದದ ಕೊನೆಯಲ್ಲಿ ತಲೆಗೆ ನೀರು ಪ್ರೋಕ್ಷಿಸಿಕೊಳ್ಳಿ. ನಂತರ ಒಂದು ಬಾರಿ ಆಚಮನ ಮಾಡಿ.',
+      note: 'Say the viniyoga, then sprinkle water on yourself as in Marjana while reciting the whole sukta of nine riks (Rigveda 10.9) and the closing rik सस्रुषीः…: sprinkle the head at the end of each pada (line). Then do achamana once. The Karnataka Smarta manuals end with the ninth rik; the Madhva and Andhra manuals add सस्रुषीः….',
+      noteKn: 'ವಿನಿಯೋಗ ಹೇಳಿ, ಮಾರ್ಜನದಲ್ಲಿ ಮಾಡಿದಂತೆಯೇ ಒಂಬತ್ತು ಋಕ್ಕುಗಳ ಪೂರ್ಣ ಸೂಕ್ತವನ್ನೂ (ಋಗ್ವೇದ ೧೦.೯) ಕೊನೆಯ “ಸಸ್ರುಷೀಃ” ಋಕ್ಕನ್ನೂ ಹೇಳುತ್ತಾ ಪ್ರತಿಯೊಂದು ಪಾದದ ಕೊನೆಯಲ್ಲಿ ತಲೆಗೆ ನೀರು ಪ್ರೋಕ್ಷಿಸಿಕೊಳ್ಳಿ. ನಂತರ ಒಂದು ಬಾರಿ ಆಚಮನ ಮಾಡಿ. ಕರ್ನಾಟಕದ ಸ್ಮಾರ್ತ ಪುಸ್ತಕಗಳು ಒಂಬತ್ತನೆಯ ಋಕ್ಕಿನೊಂದಿಗೆ ಮುಗಿಸುತ್ತವೆ; ಮಾಧ್ವ ಮತ್ತು ಆಂಧ್ರದ ಪುಸ್ತಕಗಳು “ಸಸ್ರುಷೀಃ…” ಸೇರಿಸುತ್ತವೆ.',
       verses: [
         {
           text: 'आपो हि ष्ठेति नवर्चस्य सूक्तस्य अम्बरीषः सिन्धुद्वीप ऋषिः ।\nआपो देवता । गायत्री छन्दः । पञ्चमी वर्धमाना । सप्तमी प्रतिष्ठा ।\nअन्त्ये द्वे अनुष्टुभौ । पुनर्मार्जने विनियोगः ॥',
@@ -714,12 +731,12 @@ export const sandhyaVandaneRigveda: Mantra = {
     {
       title: 'अघमर्षणम्',
       titleEn: 'Aghamarshana (casting out sin)',
-      note: 'Take water in the right palm, held in the gokarna shape near the nose, and do not look at it. Say the viniyoga and the three riks (Rigveda 10.190). Closing the left nostril, breathe out through the right nostril onto the water, thinking that the papa-purusha (the sin within) leaves you and enters it; throw the water away towards the north-east (or to your left onto the ground) and do not look at it again. Then do achamana.',
-      noteKn: 'ಬಲ ಅಂಗೈಯನ್ನು ಗೋಕರ್ಣಾಕಾರದಲ್ಲಿ ಮೂಗಿನ ಬಳಿ ಹಿಡಿದು ನೀರು ತೆಗೆದುಕೊಳ್ಳಿ; ಅದನ್ನು ನೋಡಬೇಡಿ. ವಿನಿಯೋಗ ಮತ್ತು ಮೂರು ಋಕ್ಕುಗಳನ್ನು (ಋಗ್ವೇದ ೧೦.೧೯೦) ಹೇಳಿ. ಎಡ ಹೊಳ್ಳೆ ಮುಚ್ಚಿ ಬಲ ಹೊಳ್ಳೆಯಿಂದ ನೀರಿನ ಮೇಲೆ ಉಸಿರು ಬಿಡಿ, ಒಳಗಿನ ಪಾಪಪುರುಷನು ಹೊರಬಂದು ನೀರಿನಲ್ಲಿ ಸೇರಿದನೆಂದು ಭಾವಿಸಿ; ಆ ನೀರನ್ನು ಈಶಾನ್ಯ ದಿಕ್ಕಿಗೆ (ಅಥವಾ ಎಡಕ್ಕೆ ನೆಲದ ಮೇಲೆ) ಚೆಲ್ಲಿ, ಮತ್ತೆ ನೋಡಬೇಡಿ. ನಂತರ ಆಚಮನ ಮಾಡಿ.',
+      note: 'Take water in the right palm, held in the gokarna shape near the nose, and do not look at it. Say the viniyoga and the three riks (Rigveda 10.190). Closing the left nostril, breathe out through the right nostril onto the water, thinking that the papa-purusha (the sin within) leaves you with the breath and enters it; imagine a blazing rock (vajra-shila) on your left, throw the water onto it and think the sin destroyed; do not look at it again. Then do achamana and pranayama.',
+      noteKn: 'ಬಲ ಅಂಗೈಯನ್ನು ಗೋಕರ್ಣಾಕಾರದಲ್ಲಿ ಮೂಗಿನ ಬಳಿ ಹಿಡಿದು ನೀರು ತೆಗೆದುಕೊಳ್ಳಿ; ಅದನ್ನು ನೋಡಬೇಡಿ. ವಿನಿಯೋಗ ಮತ್ತು ಮೂರು ಋಕ್ಕುಗಳನ್ನು (ಋಗ್ವೇದ ೧೦.೧೯೦) ಹೇಳಿ. ಎಡ ಹೊಳ್ಳೆ ಮುಚ್ಚಿ ಬಲ ಹೊಳ್ಳೆಯಿಂದ ನೀರಿನ ಮೇಲೆ ಉಸಿರು ಬಿಡಿ, ಒಳಗಿನ ಪಾಪಪುರುಷನು ಉಸಿರಿನೊಡನೆ ಹೊರಬಂದು ನೀರಿನಲ್ಲಿ ಸೇರಿದನೆಂದು ಭಾವಿಸಿ; ಎಡಭಾಗದಲ್ಲಿ ಉರಿಯುವ ವಜ್ರಶಿಲೆಯಿದೆಯೆಂದು ಭಾವಿಸಿ ಆ ನೀರನ್ನು ಅದರ ಮೇಲೆ ಚೆಲ್ಲಿ, ಪಾಪ ನಾಶವಾಯಿತೆಂದು ಭಾವಿಸಿ; ಮತ್ತೆ ನೋಡಬೇಡಿ. ನಂತರ ಆಚಮನ ಮತ್ತು ಪ್ರಾಣಾಯಾಮ ಮಾಡಿ.',
       when: { tradition: ['madhva'] },
       verses: [
         {
-          text: 'ऋतं चेत्यस्य सूक्तस्य अघमर्षण ऋषिः ।\nभाववृत्तं देवता । अनुष्टुप् छन्दः । पापपुरुषविसर्जने विनियोगः ॥',
+          text: 'ऋतं चेति तृचस्य अघमर्षण ऋषिः ।\nभाववृत्तो देवता । अनुष्टुप् छन्दः । पापपुरुषविसर्जने विनियोगः ॥',
           meaning: {
             en: 'For the sukta “ritam cha”: the seer is Aghamarshana, the deity is Bhavavritta (the course of creation), the metre is Anushtubh; it is used for casting out the person of sin.',
             kn: '“ಋತಂ ಚ” ಸೂಕ್ತಕ್ಕೆ ಅಘಮರ್ಷಣ ಋಷಿ, ಭಾವವೃತ್ತ (ಸೃಷ್ಟಿಯ ಕ್ರಮ) ದೇವತೆ, ಅನುಷ್ಟುಪ್ ಛಂದಸ್ಸು; ಪಾಪಪುರುಷನನ್ನು ಹೊರಹಾಕಲು ವಿನಿಯೋಗ.',
@@ -763,10 +780,10 @@ export const sandhyaVandaneRigveda: Mantra = {
       when: { tradition: ['smarta'] },
       verses: [
         {
-          text: 'ऋतं चेत्यस्य सूक्तस्य अघमर्षण ऋषिः ।\nभाववृत्तं देवता । अनुष्टुप् छन्दः । पापपुरुषविसर्जने विनियोगः ॥',
+          text: 'ऋतं चेत्यस्य मन्त्रस्य माधुच्छन्दसोऽघमर्षण ऋषिः ।\nभाववृत्तं देवता । अनुष्टुप् छन्दः । अघमर्षणे विनियोगः ॥',
           meaning: {
-            en: 'For the sukta “ritam cha”: the seer is Aghamarshana, the deity is Bhavavritta (the course of creation), the metre is Anushtubh; it is used for casting out the person of sin.',
-            kn: '“ಋತಂ ಚ” ಸೂಕ್ತಕ್ಕೆ ಅಘಮರ್ಷಣ ಋಷಿ, ಭಾವವೃತ್ತ (ಸೃಷ್ಟಿಯ ಕ್ರಮ) ದೇವತೆ, ಅನುಷ್ಟುಪ್ ಛಂದಸ್ಸು; ಪಾಪಪುರುಷನನ್ನು ಹೊರಹಾಕಲು ವಿನಿಯೋಗ.',
+            en: 'For the mantra “ritam cha”: the seer is Aghamarshana, son of Madhuchchhandas, the deity is Bhavavritta (the course of creation), the metre is Anushtubh; it is used for aghamarshana, the casting out of sin.',
+            kn: '“ಋತಂ ಚ” ಮಂತ್ರಕ್ಕೆ ಮಧುಚ್ಛಂದಸರ ಮಗನಾದ ಅಘಮರ್ಷಣ ಋಷಿ, ಭಾವವೃತ್ತ (ಸೃಷ್ಟಿಯ ಕ್ರಮ) ದೇವತೆ, ಅನುಷ್ಟುಪ್ ಛಂದಸ್ಸು; ಅಘಮರ್ಷಣಕ್ಕೆ (ಪಾಪವನ್ನು ಹೊರಹಾಕಲು) ವಿನಿಯೋಗ.',
           },
         },
         {
@@ -802,8 +819,8 @@ export const sandhyaVandaneRigveda: Mantra = {
     {
       title: 'अर्घ्यप्रदानम्',
       titleEn: 'Arghya (offering water to the Sun)',
-      note: 'Morning: give the arghya before sunrise, standing, facing east and looking towards the Sun. Do achamana and one pranayama and say the sankalpa and viniyoga. Fill both joined palms with clean water from the arghya vessel (never the achamana water), raise them to the height of the nose, recite the Gayatri with Om and the vyahritis and pour the water out over the fingertips into the plate — once for each recitation, three times, meditating on Sri Narayana (Savitri-namaka Lakshminarayana) in the Sun. If the sun has already risen, say the prayaschitta sankalpa and give a fourth arghya with the Gayatri and its shiras (आपो ज्योती…). Then, touching the chest, pray हृदयस्था तु गायत्री….',
-      noteKn: 'ಬೆಳಗಿನ ಅರ್ಘ್ಯವನ್ನು ಸೂರ್ಯೋದಯಕ್ಕೆ ಮೊದಲು ಪೂರ್ವಾಭಿಮುಖವಾಗಿ ಸೂರ್ಯನ ಕಡೆ ನೋಡುತ್ತಾ ನಿಂತು ಕೊಡಬೇಕು. ಆಚಮನ, ಒಂದು ಪ್ರಾಣಾಯಾಮ ಮಾಡಿ ಸಂಕಲ್ಪ, ವಿನಿಯೋಗ ಹೇಳಿ. ಅರ್ಘ್ಯಪಾತ್ರೆಯ ಶುದ್ಧಜಲವನ್ನು (ಆಚಮನದ ನೀರನ್ನಲ್ಲ) ಬೊಗಸೆಯಲ್ಲಿ ತುಂಬಿ ಮೂಗಿನ ಎತ್ತರಕ್ಕೆ ಎತ್ತಿ, ಪ್ರಣವ–ವ್ಯಾಹೃತಿ ಸಹಿತ ಗಾಯತ್ರಿ ಹೇಳಿ ಬೆರಳ ತುದಿಯಿಂದ ತಟ್ಟೆಗೆ ಬಿಡಿ — ಸೂರ್ಯನಲ್ಲಿರುವ ಶ್ರೀನಾರಾಯಣನನ್ನು (ಸವಿತೃನಾಮಕ ಲಕ್ಷ್ಮೀನಾರಾಯಣ) ಧ್ಯಾನಿಸುತ್ತಾ ಮೂರು ಬಾರಿ. ಸೂರ್ಯೋದಯವಾಗಿಬಿಟ್ಟಿದ್ದರೆ ಪ್ರಾಯಶ್ಚಿತ್ತ ಸಂಕಲ್ಪ ಹೇಳಿ ಗಾಯತ್ರಿ ಮತ್ತು ಅದರ ಶಿರಸ್ಸಿನಿಂದ (ಆಪೋ ಜ್ಯೋತೀ…) ನಾಲ್ಕನೆಯ ಅರ್ಘ್ಯ ಕೊಡಿ. ನಂತರ ಎದೆ ಮುಟ್ಟಿಕೊಂಡು “ಹೃದಯಸ್ಥಾ ತು ಗಾಯತ್ರೀ…” ಎಂದು ಪ್ರಾರ್ಥಿಸಿ.',
+      note: 'Morning: give the arghya before sunrise, standing, facing east and looking towards the Sun. Do achamana and one pranayama and say the sankalpa and viniyoga. Fill both joined palms with clean water from the arghya vessel (never the achamana water), raise them, recite the Gayatri with Om and the vyahritis and pour the water out over the fingertips into the plate (at a river or tank, throw it upwards towards the Sun), saying सूर्यनारायणाय इदमर्घ्यं… — offering it to Narayana within the Sun. Give three arghyas. If the sun has already risen, say the sankalpa and give a fourth arghya with the Gayatri. Then pray हृदयस्था तु गायत्री… and उत्तिष्ठोत्तिष्ठ….',
+      noteKn: 'ಬೆಳಗಿನ ಅರ್ಘ್ಯವನ್ನು ಸೂರ್ಯೋದಯಕ್ಕೆ ಮೊದಲು ಪೂರ್ವಾಭಿಮುಖವಾಗಿ ಸೂರ್ಯನ ಕಡೆ ನೋಡುತ್ತಾ ನಿಂತು ಕೊಡಬೇಕು. ಆಚಮನ, ಒಂದು ಪ್ರಾಣಾಯಾಮ ಮಾಡಿ ಸಂಕಲ್ಪ, ವಿನಿಯೋಗ ಹೇಳಿ. ಅರ್ಘ್ಯಪಾತ್ರೆಯ ಶುದ್ಧಜಲವನ್ನು (ಆಚಮನದ ನೀರನ್ನಲ್ಲ) ಬೊಗಸೆಯಲ್ಲಿ ತುಂಬಿ ಎತ್ತಿ, ಪ್ರಣವ–ವ್ಯಾಹೃತಿ ಸಹಿತ ಗಾಯತ್ರಿ ಹೇಳಿ ಬೆರಳ ತುದಿಯಿಂದ ತಟ್ಟೆಗೆ ಬಿಡಿ (ನದಿ, ಕೆರೆಗಳಲ್ಲಿ ಸೂರ್ಯನ ಕಡೆಗೆ ಮೇಲಕ್ಕೆ ಬಿಡಿ); “ಸೂರ್ಯನಾರಾಯಣಾಯ ಇದಮರ್ಘ್ಯಂ…” ಎಂದು ಸೂರ್ಯಾಂತರ್ಯಾಮಿ ನಾರಾಯಣನಿಗೆ ಸಮರ್ಪಿಸಿ. ಹೀಗೆ ಮೂರು ಅರ್ಘ್ಯ ಕೊಡಿ. ಸೂರ್ಯೋದಯವಾಗಿಬಿಟ್ಟಿದ್ದರೆ ಸಂಕಲ್ಪ ಹೇಳಿ ಗಾಯತ್ರಿಯಿಂದ ನಾಲ್ಕನೆಯ ಅರ್ಘ್ಯ ಕೊಡಿ. ನಂತರ “ಹೃದಯಸ್ಥಾ ತು ಗಾಯತ್ರೀ…”, “ಉತ್ತಿಷ್ಠೋತ್ತಿಷ್ಠ…” ಎಂದು ಪ್ರಾರ್ಥಿಸಿ.',
       when: { tradition: ['madhva'], time: ['morning'] },
       verses: [
         {
@@ -842,17 +859,24 @@ export const sandhyaVandaneRigveda: Mantra = {
           },
         },
         {
-          text: 'कालातिक्रमदोषप्रायश्चित्तार्थं चतुर्थार्घ्यप्रदानं करिष्ये ॥',
+          text: 'सूर्यनारायणाय इदमर्घ्यं समर्पयामि दत्तं न मम ॥',
           meaning: {
-            en: 'To expiate the fault of letting the proper time pass, I shall offer a fourth arghya.',
-            kn: 'ಸರಿಯಾದ ಕಾಲವನ್ನು ಮೀರಿದ ದೋಷಕ್ಕೆ ಪ್ರಾಯಶ್ಚಿತ್ತವಾಗಿ ನಾಲ್ಕನೆಯ ಅರ್ಘ್ಯವನ್ನು ಕೊಡುತ್ತೇನೆ.',
+            en: 'I offer this arghya to Suryanarayana; it is given, it is no longer mine.',
+            kn: 'ಈ ಅರ್ಘ್ಯವನ್ನು ಸೂರ್ಯನಾರಾಯಣನಿಗೆ ಸಮರ್ಪಿಸುತ್ತೇನೆ; ಇದು ಕೊಡಲ್ಪಟ್ಟಿದೆ, ನನ್ನದಲ್ಲ.',
           },
         },
         {
-          text: 'ॐ भूर्भुवः स्वः ।\nतत्सवितुर्वरेण्यं भर्गो देवस्य धीमहि ।\nधियो यो नः प्रचोदयात् ।\nॐ आपो ज्योती रसोऽमृतं ब्रह्म भूर्भुवः स्वरोम् ॥',
+          text: 'अर्घ्यत्रयान्ते प्रातःसन्ध्याकालातिक्रमदोषपरिहारार्थं\nचतुर्थार्घ्यप्रदानं करिष्ये ॥',
           meaning: {
-            en: 'The Gayatri with Om and the vyahritis, followed by its shiras: Om — he is the waters, the light, the essence, the immortal, Brahman, filling earth, sky and heaven.',
-            kn: 'ಓಂಕಾರ, ವ್ಯಾಹೃತಿಗಳೊಂದಿಗೆ ಗಾಯತ್ರೀ ಮಂತ್ರ, ನಂತರ ಅದರ ಶಿರಸ್ಸು: ಜಲ, ಜ್ಯೋತಿ, ರಸ, ಅಮೃತ, ಪರಬ್ರಹ್ಮ ಎಲ್ಲವೂ ಅವನೇ; ಭೂಮಿ, ಅಂತರಿಕ್ಷ, ಸ್ವರ್ಗಗಳನ್ನು ವ್ಯಾಪಿಸಿದ್ದಾನೆ.',
+            en: 'After the three arghyas, to remove the fault of letting the time of the morning sandhya pass, I shall give a fourth arghya.',
+            kn: 'ಮೂರು ಅರ್ಘ್ಯಗಳ ನಂತರ, ಪ್ರಾತಃಸಂಧ್ಯೆಯ ಕಾಲ ಮೀರಿದ ದೋಷದ ಪರಿಹಾರಕ್ಕಾಗಿ ನಾಲ್ಕನೆಯ ಅರ್ಘ್ಯವನ್ನು ಕೊಡುತ್ತೇನೆ.',
+          },
+        },
+        {
+          text: 'ॐ भूर्भुवः स्वः ।\nतत्सवितुर्वरेण्यं भर्गो देवस्य धीमहि ।\nधियो यो नः प्रचोदयात् ॥',
+          meaning: {
+            en: 'Om, earth, sky and heaven. We meditate on that adorable radiance of the divine Savitri — for Madhvas, Sri Narayana dwelling in the sun; may he move our minds.',
+            kn: 'ಓಂ ಭೂರ್ಭುವಃ ಸ್ವಃ. ಸವಿತೃದೇವನ (ಮಾಧ್ವರಿಗೆ ಸೂರ್ಯಮಂಡಲದಲ್ಲಿರುವ ಶ್ರೀನಾರಾಯಣನ) ಪೂಜನೀಯವಾದ ಆ ದಿವ್ಯ ತೇಜಸ್ಸನ್ನು ಧ್ಯಾನಿಸುತ್ತೇವೆ; ಅವನು ನಮ್ಮ ಬುದ್ಧಿಯನ್ನು ಪ್ರೇರೇಪಿಸಲಿ.',
           },
         },
         {
@@ -862,13 +886,20 @@ export const sandhyaVandaneRigveda: Mantra = {
             kn: 'ಹೃದಯದಲ್ಲಿ ನೆಲೆಸಿ, ಹೃದಯಗುಹೆಯ ಬಾಯಿಂದ ಹೊರಬಂದ ಓ ಗಾಯತ್ರಿಯೇ, ಸೂರ್ಯನ ಶತ್ರುಗಳನ್ನು ನಾಶಮಾಡಿ ಮತ್ತೆ ನನ್ನ ಹೃದಯವನ್ನು ಪ್ರವೇಶಿಸು.',
           },
         },
+        {
+          text: 'उत्तिष्ठोत्तिष्ठ गन्तव्यं पुनरागमनाय च ।\nउत्तिष्ठ देवि स्थातव्यं प्रविश्य हृदयं मम ॥',
+          meaning: {
+            en: 'Rise, rise, O goddess: you go forth only to return again. Rise, and having entered my heart, remain there.',
+            kn: 'ಏಳು, ಏಳು ಓ ದೇವಿ; ನೀನು ಹೊರಡುವುದು ಮತ್ತೆ ಬರುವುದಕ್ಕಾಗಿಯೇ. ಎದ್ದು ನನ್ನ ಹೃದಯವನ್ನು ಪ್ರವೇಶಿಸಿ ಅಲ್ಲಿಯೇ ನೆಲೆಸು.',
+          },
+        },
       ],
     },
     {
       title: 'अर्घ्यप्रदानम्',
       titleEn: 'Arghya (offering water to the Sun)',
-      note: 'Midday: stand facing the Sun. Do achamana and one pranayama and say the sankalpa and viniyoga. Fill both joined palms with clean water from the arghya vessel, recite the Gayatri with Om and the vyahritis and pour the water out over the fingertips — three arghyas, meditating on Sri Narayana in the Sun. If noon is long past, say the prayaschitta sankalpa and give a fourth arghya with the Gayatri and its shiras. Then pray एहि त्वं देवि….',
-      noteKn: 'ಮಧ್ಯಾಹ್ನ ಸೂರ್ಯನ ಕಡೆಗೆ ನಿಂತುಕೊಳ್ಳಿ. ಆಚಮನ, ಒಂದು ಪ್ರಾಣಾಯಾಮ ಮಾಡಿ ಸಂಕಲ್ಪ, ವಿನಿಯೋಗ ಹೇಳಿ. ಅರ್ಘ್ಯಪಾತ್ರೆಯ ಶುದ್ಧಜಲವನ್ನು ಬೊಗಸೆಯಲ್ಲಿ ತುಂಬಿ ಪ್ರಣವ–ವ್ಯಾಹೃತಿ ಸಹಿತ ಗಾಯತ್ರಿ ಹೇಳಿ ಬೆರಳ ತುದಿಯಿಂದ ಬಿಡಿ — ಸೂರ್ಯನಲ್ಲಿರುವ ಶ್ರೀನಾರಾಯಣನನ್ನು ಧ್ಯಾನಿಸುತ್ತಾ ಮೂರು ಅರ್ಘ್ಯ. ಮಧ್ಯಾಹ್ನ ಬಹಳ ಮೀರಿದ್ದರೆ ಪ್ರಾಯಶ್ಚಿತ್ತ ಸಂಕಲ್ಪ ಹೇಳಿ ಗಾಯತ್ರಿ ಮತ್ತು ಶಿರಸ್ಸಿನಿಂದ ನಾಲ್ಕನೆಯ ಅರ್ಘ್ಯ ಕೊಡಿ. ನಂತರ “ಏಹಿ ತ್ವಂ ದೇವಿ…” ಎಂದು ಪ್ರಾರ್ಥಿಸಿ.',
+      note: 'Midday: stand facing the Sun. Do achamana and one pranayama and say the sankalpa. With clean water in both joined palms give three arghyas, saying सूर्यनारायणाय इदमर्घ्यं… after each: the first with हंसः शुचिषत्…, the second with आ कृष्णेन… and the third with the Gayatri (Madhva manuals of the Uttaradi Matha, Gadag and Vijayapura). If noon is long past, say the sankalpa and give a fourth arghya with the Gayatri.',
+      noteKn: 'ಮಧ್ಯಾಹ್ನ ಸೂರ್ಯನಿಗೆ ಅಭಿಮುಖವಾಗಿ ನಿಂತುಕೊಳ್ಳಿ. ಆಚಮನ, ಒಂದು ಪ್ರಾಣಾಯಾಮ ಮಾಡಿ ಸಂಕಲ್ಪ ಹೇಳಿ. ಬೊಗಸೆಯಲ್ಲಿ ಶುದ್ಧಜಲ ತುಂಬಿ ಮೂರು ಅರ್ಘ್ಯ ಕೊಡಿ, ಪ್ರತಿ ಬಾರಿಯೂ “ಸೂರ್ಯನಾರಾಯಣಾಯ ಇದಮರ್ಘ್ಯಂ…” ಎನ್ನಿ: ಮೊದಲನೆಯದು “ಹಂಸಃ ಶುಚಿಷತ್…”, ಎರಡನೆಯದು “ಆ ಕೃಷ್ಣೇನ…”, ಮೂರನೆಯದು ಗಾಯತ್ರಿಯಿಂದ (ಉತ್ತರಾದಿಮಠ, ಗದಗ ಮತ್ತು ವಿಜಾಪುರದ ಮಾಧ್ವ ಪುಸ್ತಕಗಳು). ಮಧ್ಯಾಹ್ನದ ಕಾಲ ಬಹಳ ಮೀರಿದ್ದರೆ ಸಂಕಲ್ಪ ಹೇಳಿ ಗಾಯತ್ರಿಯಿಂದ ನಾಲ್ಕನೆಯ ಅರ್ಘ್ಯ ಕೊಡಿ.',
       when: { tradition: ['madhva'], time: ['midday'] },
       verses: [
         {
@@ -893,6 +924,48 @@ export const sandhyaVandaneRigveda: Mantra = {
           },
         },
         {
+          text: 'हंसः शुचिषदित्यस्य मन्त्रस्य गौतमपुत्रो वामदेव ऋषिः ।\nसूर्यो देवता । जगती छन्दः । माध्याह्निकार्घ्यप्रदाने विनियोगः ॥',
+          meaning: {
+            en: 'For the mantra “hamsah shuchishat”: the seer is Vamadeva, son of Gautama, the deity is Surya, the metre is Jagati; it is used for the midday arghya.',
+            kn: '“ಹಂಸಃ ಶುಚಿಷತ್” ಮಂತ್ರಕ್ಕೆ ಗೌತಮಪುತ್ರ ವಾಮದೇವ ಋಷಿ, ಸೂರ್ಯ ದೇವತೆ, ಜಗತೀ ಛಂದಸ್ಸು; ಮಾಧ್ಯಾಹ್ನಿಕ ಅರ್ಘ್ಯಪ್ರದಾನಕ್ಕೆ ವಿನಿಯೋಗ.',
+          },
+        },
+        {
+          text: 'हंसः शुचिषद्वसुरन्तरिक्षसद्धोता वेदिषदतिथिर्दुरोणसत् ।\nनृषद्वरसदृतसद्व्योमसदब्जा गोजा ऋतजा अद्रिजा ऋतम् ॥',
+          meaning: {
+            en: 'The Sun is the swan dwelling in brightness, the Vasu in the mid-region, the priest at the altar, the guest in the house; he dwells in men, in the highest, in the order of the world and in the sky; born of the waters, of the rays, of truth and of the mountain — he is the cosmic order itself. (First midday arghya.)',
+            kn: 'ಸೂರ್ಯನು ಪ್ರಕಾಶದಲ್ಲಿ ಸಂಚರಿಸುವ ಹಂಸ, ಅಂತರಿಕ್ಷದಲ್ಲಿರುವ ವಸು, ವೇದಿಯಲ್ಲಿರುವ ಹೋತೃ, ಮನೆಯಲ್ಲಿರುವ ಅತಿಥಿ; ಮನುಷ್ಯರಲ್ಲೂ ಶ್ರೇಷ್ಠಸ್ಥಾನದಲ್ಲೂ ಋತದಲ್ಲೂ ಆಕಾಶದಲ್ಲೂ ನೆಲೆಸಿದ್ದಾನೆ; ಜಲ, ಕಿರಣ, ಸತ್ಯ, ಪರ್ವತಗಳಿಂದ ಹುಟ್ಟಿದವನು — ಅವನೇ ಋತಸ್ವರೂಪ. (ಮಧ್ಯಾಹ್ನದ ಮೊದಲ ಅರ್ಘ್ಯ.)',
+          },
+        },
+        {
+          text: 'सूर्यनारायणाय इदमर्घ्यं समर्पयामि दत्तं न मम ॥',
+          meaning: {
+            en: 'I offer this arghya to Suryanarayana; it is given, it is no longer mine.',
+            kn: 'ಈ ಅರ್ಘ್ಯವನ್ನು ಸೂರ್ಯನಾರಾಯಣನಿಗೆ ಸಮರ್ಪಿಸುತ್ತೇನೆ; ಇದು ಕೊಡಲ್ಪಟ್ಟಿದೆ, ನನ್ನದಲ್ಲ.',
+          },
+        },
+        {
+          text: 'आ कृष्णेनेत्यस्य मन्त्रस्य हिरण्यस्तूप ऋषिः ।\nसविता देवता । त्रिष्टुप् छन्दः । माध्याह्निकार्घ्यप्रदाने विनियोगः ॥',
+          meaning: {
+            en: 'For the mantra “a krishnena”: the seer is Hiranyastupa, the deity is Savitri, the metre is Trishtubh; it is used for the midday arghya.',
+            kn: '“ಆ ಕೃಷ್ಣೇನ” ಮಂತ್ರಕ್ಕೆ ಹಿರಣ್ಯಸ್ತೂಪ ಋಷಿ, ಸವಿತೃ ದೇವತೆ, ತ್ರಿಷ್ಟುಪ್ ಛಂದಸ್ಸು; ಮಾಧ್ಯಾಹ್ನಿಕ ಅರ್ಘ್ಯಪ್ರದಾನಕ್ಕೆ ವಿನಿಯೋಗ.',
+          },
+        },
+        {
+          text: 'आ कृष्णेन रजसा वर्तमानो निवेशयन्नमृतं मर्त्यं च ।\nहिरण्ययेन सविता रथेना देवो याति भुवनानि पश्यन् ॥',
+          meaning: {
+            en: 'Moving through the dark space, laying to rest both immortal and mortal, the god Savitri comes in his golden chariot, beholding all the worlds. (Second midday arghya.)',
+            kn: 'ಕತ್ತಲೆಯ ಅಂತರಿಕ್ಷದಲ್ಲಿ ಸಂಚರಿಸುತ್ತಾ, ದೇವತೆಗಳನ್ನೂ ಮನುಷ್ಯರನ್ನೂ ಅವರವರ ಸ್ಥಾನದಲ್ಲಿರಿಸುತ್ತಾ, ಸವಿತೃದೇವನು ಚಿನ್ನದ ರಥದಲ್ಲಿ ಎಲ್ಲ ಲೋಕಗಳನ್ನೂ ನೋಡುತ್ತಾ ಬರುತ್ತಾನೆ. (ಮಧ್ಯಾಹ್ನದ ಎರಡನೆಯ ಅರ್ಘ್ಯ.)',
+          },
+        },
+        {
+          text: 'सूर्यनारायणाय इदमर्घ्यं समर्पयामि दत्तं न मम ॥',
+          meaning: {
+            en: 'I offer this arghya to Suryanarayana; it is given, it is no longer mine.',
+            kn: 'ಈ ಅರ್ಘ್ಯವನ್ನು ಸೂರ್ಯನಾರಾಯಣನಿಗೆ ಸಮರ್ಪಿಸುತ್ತೇನೆ; ಇದು ಕೊಡಲ್ಪಟ್ಟಿದೆ, ನನ್ನದಲ್ಲ.',
+          },
+        },
+        {
           text: 'गायत्र्या विश्वामित्र ऋषिः । सविता देवता । गायत्री छन्दः ।\nअर्घ्यप्रदाने विनियोगः ॥',
           meaning: {
             en: 'For the Gayatri: the seer is Vishvamitra, the deity is Savitri, the metre is Gayatri; it is used for offering arghya.',
@@ -907,24 +980,24 @@ export const sandhyaVandaneRigveda: Mantra = {
           },
         },
         {
-          text: 'कालातिक्रमदोषप्रायश्चित्तार्थं चतुर्थार्घ्यप्रदानं करिष्ये ॥',
+          text: 'सूर्यनारायणाय इदमर्घ्यं समर्पयामि दत्तं न मम ॥',
           meaning: {
-            en: 'To expiate the fault of letting the proper time pass, I shall offer a fourth arghya.',
-            kn: 'ಸರಿಯಾದ ಕಾಲವನ್ನು ಮೀರಿದ ದೋಷಕ್ಕೆ ಪ್ರಾಯಶ್ಚಿತ್ತವಾಗಿ ನಾಲ್ಕನೆಯ ಅರ್ಘ್ಯವನ್ನು ಕೊಡುತ್ತೇನೆ.',
+            en: 'I offer this arghya to Suryanarayana; it is given, it is no longer mine.',
+            kn: 'ಈ ಅರ್ಘ್ಯವನ್ನು ಸೂರ್ಯನಾರಾಯಣನಿಗೆ ಸಮರ್ಪಿಸುತ್ತೇನೆ; ಇದು ಕೊಡಲ್ಪಟ್ಟಿದೆ, ನನ್ನದಲ್ಲ.',
           },
         },
         {
-          text: 'ॐ भूर्भुवः स्वः ।\nतत्सवितुर्वरेण्यं भर्गो देवस्य धीमहि ।\nधियो यो नः प्रचोदयात् ।\nॐ आपो ज्योती रसोऽमृतं ब्रह्म भूर्भुवः स्वरोम् ॥',
+          text: 'अर्घ्यत्रयान्ते माध्याह्नसन्ध्याकालातिक्रमदोषपरिहारार्थं\nचतुर्थार्घ्यप्रदानं करिष्ये ॥',
           meaning: {
-            en: 'The Gayatri with Om and the vyahritis, followed by its shiras: Om — he is the waters, the light, the essence, the immortal, Brahman, filling earth, sky and heaven.',
-            kn: 'ಓಂಕಾರ, ವ್ಯಾಹೃತಿಗಳೊಂದಿಗೆ ಗಾಯತ್ರೀ ಮಂತ್ರ, ನಂತರ ಅದರ ಶಿರಸ್ಸು: ಜಲ, ಜ್ಯೋತಿ, ರಸ, ಅಮೃತ, ಪರಬ್ರಹ್ಮ ಎಲ್ಲವೂ ಅವನೇ; ಭೂಮಿ, ಅಂತರಿಕ್ಷ, ಸ್ವರ್ಗಗಳನ್ನು ವ್ಯಾಪಿಸಿದ್ದಾನೆ.',
+            en: 'After the three arghyas, to remove the fault of letting the time of the midday sandhya pass, I shall give a fourth arghya.',
+            kn: 'ಮೂರು ಅರ್ಘ್ಯಗಳ ನಂತರ, ಮಾಧ್ಯಾಹ್ನ ಸಂಧ್ಯೆಯ ಕಾಲ ಮೀರಿದ ದೋಷದ ಪರಿಹಾರಕ್ಕಾಗಿ ನಾಲ್ಕನೆಯ ಅರ್ಘ್ಯವನ್ನು ಕೊಡುತ್ತೇನೆ.',
           },
         },
         {
-          text: 'एहि त्वं देवि शीघ्रं वै गायत्रि ब्रह्मरूपिणि ।\nजपानुष्ठानसिद्ध्यर्थं प्रविश्य हृदयं मम ॥',
+          text: 'ॐ भूर्भुवः स्वः ।\nतत्सवितुर्वरेण्यं भर्गो देवस्य धीमहि ।\nधियो यो नः प्रचोदयात् ॥',
           meaning: {
-            en: 'Come quickly, O goddess Gayatri, whose form is Brahman; enter my heart so that the japa I am about to do may be accomplished.',
-            kn: 'ಬ್ರಹ್ಮಸ್ವರೂಪಿಣಿಯಾದ ಓ ಗಾಯತ್ರೀದೇವಿ, ಬೇಗನೆ ಬಾ; ನಾನು ಮಾಡುವ ಜಪವು ಸಿದ್ಧಿಸುವಂತೆ ನನ್ನ ಹೃದಯವನ್ನು ಪ್ರವೇಶಿಸು.',
+            en: 'Om, earth, sky and heaven. We meditate on that adorable radiance of the divine Savitri — for Madhvas, Sri Narayana dwelling in the sun; may he move our minds.',
+            kn: 'ಓಂ ಭೂರ್ಭುವಃ ಸ್ವಃ. ಸವಿತೃದೇವನ (ಮಾಧ್ವರಿಗೆ ಸೂರ್ಯಮಂಡಲದಲ್ಲಿರುವ ಶ್ರೀನಾರಾಯಣನ) ಪೂಜನೀಯವಾದ ಆ ದಿವ್ಯ ತೇಜಸ್ಸನ್ನು ಧ್ಯಾನಿಸುತ್ತೇವೆ; ಅವನು ನಮ್ಮ ಬುದ್ಧಿಯನ್ನು ಪ್ರೇರೇಪಿಸಲಿ.',
           },
         },
       ],
@@ -932,8 +1005,8 @@ export const sandhyaVandaneRigveda: Mantra = {
     {
       title: 'अर्घ्यप्रदानम्',
       titleEn: 'Arghya (offering water to the Sun)',
-      note: 'Evening: give the arghya before sunset, sitting and facing west; let the water fall into the plate or onto the ground or a stone (at a river, not into the water). Do achamana and one pranayama and say the sankalpa and viniyoga. Fill both joined palms with clean water, recite the Gayatri with Om and the vyahritis and pour it out over the fingertips — three arghyas. If the sun has already set, say the prayaschitta sankalpa and give a fourth arghya with the Gayatri and its shiras. Then pray उत्तिष्ठोत्तिष्ठ….',
-      noteKn: 'ಸಂಜೆಯ ಅರ್ಘ್ಯವನ್ನು ಸೂರ್ಯಾಸ್ತಕ್ಕೆ ಮೊದಲು ಪಶ್ಚಿಮಾಭಿಮುಖವಾಗಿ ಕುಳಿತು ಕೊಡಬೇಕು; ನೀರನ್ನು ತಟ್ಟೆಗೆ ಅಥವಾ ನೆಲ/ಬಂಡೆಯ ಮೇಲೆ ಬಿಡಿ (ನದೀತೀರದಲ್ಲಿ ನೀರಿನೊಳಗೆ ಬೇಡ). ಆಚಮನ, ಒಂದು ಪ್ರಾಣಾಯಾಮ ಮಾಡಿ ಸಂಕಲ್ಪ, ವಿನಿಯೋಗ ಹೇಳಿ. ಬೊಗಸೆಯಲ್ಲಿ ಶುದ್ಧಜಲ ತುಂಬಿ ಪ್ರಣವ–ವ್ಯಾಹೃತಿ ಸಹಿತ ಗಾಯತ್ರಿ ಹೇಳಿ ಬೆರಳ ತುದಿಯಿಂದ ಬಿಡಿ — ಮೂರು ಅರ್ಘ್ಯ. ಸೂರ್ಯಾಸ್ತವಾಗಿಬಿಟ್ಟಿದ್ದರೆ ಪ್ರಾಯಶ್ಚಿತ್ತ ಸಂಕಲ್ಪ ಹೇಳಿ ಗಾಯತ್ರಿ ಮತ್ತು ಶಿರಸ್ಸಿನಿಂದ ನಾಲ್ಕನೆಯ ಅರ್ಘ್ಯ ಕೊಡಿ. ನಂತರ “ಉತ್ತಿಷ್ಠೋತ್ತಿಷ್ಠ…” ಎಂದು ಪ್ರಾರ್ಥಿಸಿ.',
+      note: 'Evening: give the arghya before sunset, sitting and facing west; let the water fall into the plate or onto the ground or a stone (at a river, not into the water). Do achamana and one pranayama and say the sankalpa and viniyoga. Fill both joined palms with clean water, recite the Gayatri with Om and the vyahritis and pour it out over the fingertips, saying सूर्यनारायणाय इदमर्घ्यं… — three arghyas. If the sun has already set, say the sankalpa and give a fourth arghya with the Gayatri. Then pray उत्तिष्ठोत्तिष्ठ… (the Uttaradi manual also says हृदयस्था तु गायत्री… here).',
+      noteKn: 'ಸಾಯಂಕಾಲದ ಅರ್ಘ್ಯವನ್ನು ಸೂರ್ಯಾಸ್ತಕ್ಕೆ ಮೊದಲು ಪಶ್ಚಿಮಾಭಿಮುಖವಾಗಿ ಕುಳಿತು ಕೊಡಬೇಕು; ನೀರನ್ನು ತಟ್ಟೆಗೆ, ನೆಲಕ್ಕೆ ಅಥವಾ ಕಲ್ಲಿನ ಮೇಲೆ ಬಿಡಿ (ನದಿಯಲ್ಲಾದರೆ ನೀರಿನೊಳಗೆ ಅಲ್ಲ). ಆಚಮನ, ಒಂದು ಪ್ರಾಣಾಯಾಮ ಮಾಡಿ ಸಂಕಲ್ಪ, ವಿನಿಯೋಗ ಹೇಳಿ. ಬೊಗಸೆಯಲ್ಲಿ ಶುದ್ಧಜಲ ತುಂಬಿ ಪ್ರಣವ–ವ್ಯಾಹೃತಿ ಸಹಿತ ಗಾಯತ್ರಿ ಹೇಳಿ ಬೆರಳ ತುದಿಯಿಂದ ಬಿಡಿ, “ಸೂರ್ಯನಾರಾಯಣಾಯ ಇದಮರ್ಘ್ಯಂ…” ಎನ್ನಿ — ಮೂರು ಅರ್ಘ್ಯಗಳು. ಸೂರ್ಯಾಸ್ತವಾಗಿಬಿಟ್ಟಿದ್ದರೆ ಸಂಕಲ್ಪ ಹೇಳಿ ಗಾಯತ್ರಿಯಿಂದ ನಾಲ್ಕನೆಯ ಅರ್ಘ್ಯ ಕೊಡಿ. ನಂತರ “ಉತ್ತಿಷ್ಠೋತ್ತಿಷ್ಠ…” ಎಂದು ಪ್ರಾರ್ಥಿಸಿ (ಉತ್ತರಾದಿಮಠದ ಪುಸ್ತಕ ಇಲ್ಲಿ “ಹೃದಯಸ್ಥಾ ತು ಗಾಯತ್ರೀ…” ಎಂದೂ ಹೇಳುತ್ತದೆ).',
       when: { tradition: ['madhva'], time: ['evening'] },
       verses: [
         {
@@ -972,17 +1045,24 @@ export const sandhyaVandaneRigveda: Mantra = {
           },
         },
         {
-          text: 'कालातिक्रमदोषप्रायश्चित्तार्थं चतुर्थार्घ्यप्रदानं करिष्ये ॥',
+          text: 'सूर्यनारायणाय इदमर्घ्यं समर्पयामि दत्तं न मम ॥',
           meaning: {
-            en: 'To expiate the fault of letting the proper time pass, I shall offer a fourth arghya.',
-            kn: 'ಸರಿಯಾದ ಕಾಲವನ್ನು ಮೀರಿದ ದೋಷಕ್ಕೆ ಪ್ರಾಯಶ್ಚಿತ್ತವಾಗಿ ನಾಲ್ಕನೆಯ ಅರ್ಘ್ಯವನ್ನು ಕೊಡುತ್ತೇನೆ.',
+            en: 'I offer this arghya to Suryanarayana; it is given, it is no longer mine.',
+            kn: 'ಈ ಅರ್ಘ್ಯವನ್ನು ಸೂರ್ಯನಾರಾಯಣನಿಗೆ ಸಮರ್ಪಿಸುತ್ತೇನೆ; ಇದು ಕೊಡಲ್ಪಟ್ಟಿದೆ, ನನ್ನದಲ್ಲ.',
           },
         },
         {
-          text: 'ॐ भूर्भुवः स्वः ।\nतत्सवितुर्वरेण्यं भर्गो देवस्य धीमहि ।\nधियो यो नः प्रचोदयात् ।\nॐ आपो ज्योती रसोऽमृतं ब्रह्म भूर्भुवः स्वरोम् ॥',
+          text: 'अर्घ्यत्रयान्ते सायंसन्ध्याकालातिक्रमदोषपरिहारार्थं\nचतुर्थार्घ्यप्रदानं करिष्ये ॥',
           meaning: {
-            en: 'The Gayatri with Om and the vyahritis, followed by its shiras: Om — he is the waters, the light, the essence, the immortal, Brahman, filling earth, sky and heaven.',
-            kn: 'ಓಂಕಾರ, ವ್ಯಾಹೃತಿಗಳೊಂದಿಗೆ ಗಾಯತ್ರೀ ಮಂತ್ರ, ನಂತರ ಅದರ ಶಿರಸ್ಸು: ಜಲ, ಜ್ಯೋತಿ, ರಸ, ಅಮೃತ, ಪರಬ್ರಹ್ಮ ಎಲ್ಲವೂ ಅವನೇ; ಭೂಮಿ, ಅಂತರಿಕ್ಷ, ಸ್ವರ್ಗಗಳನ್ನು ವ್ಯಾಪಿಸಿದ್ದಾನೆ.',
+            en: 'After the three arghyas, to remove the fault of letting the time of the evening sandhya pass, I shall give a fourth arghya.',
+            kn: 'ಮೂರು ಅರ್ಘ್ಯಗಳ ನಂತರ, ಸಾಯಂಸಂಧ್ಯೆಯ ಕಾಲ ಮೀರಿದ ದೋಷದ ಪರಿಹಾರಕ್ಕಾಗಿ ನಾಲ್ಕನೆಯ ಅರ್ಘ್ಯವನ್ನು ಕೊಡುತ್ತೇನೆ.',
+          },
+        },
+        {
+          text: 'ॐ भूर्भुवः स्वः ।\nतत्सवितुर्वरेण्यं भर्गो देवस्य धीमहि ।\nधियो यो नः प्रचोदयात् ॥',
+          meaning: {
+            en: 'Om, earth, sky and heaven. We meditate on that adorable radiance of the divine Savitri — for Madhvas, Sri Narayana dwelling in the sun; may he move our minds.',
+            kn: 'ಓಂ ಭೂರ್ಭುವಃ ಸ್ವಃ. ಸವಿತೃದೇವನ (ಮಾಧ್ವರಿಗೆ ಸೂರ್ಯಮಂಡಲದಲ್ಲಿರುವ ಶ್ರೀನಾರಾಯಣನ) ಪೂಜನೀಯವಾದ ಆ ದಿವ್ಯ ತೇಜಸ್ಸನ್ನು ಧ್ಯಾನಿಸುತ್ತೇವೆ; ಅವನು ನಮ್ಮ ಬುದ್ಧಿಯನ್ನು ಪ್ರೇರೇಪಿಸಲಿ.',
           },
         },
         {
@@ -997,8 +1077,8 @@ export const sandhyaVandaneRigveda: Mantra = {
     {
       title: 'अर्घ्यप्रदानम्',
       titleEn: 'Arghya (offering water to the Sun)',
-      note: 'Morning: give the arghya before sunrise, standing, facing east and looking towards the Sun. Do achamana and one pranayama and say the sankalpa and viniyoga. Fill both joined palms with clean water from the arghya vessel, raise them to the height of the nose, recite the Gayatri with Om and the vyahritis and pour the water out over the fingertips — three arghyas. If the sun has already risen, say the sankalpa and give a fourth arghya with the Gayatri; many manuals add the rik यदद्य कच्च….',
-      noteKn: 'ಬೆಳಗಿನ ಅರ್ಘ್ಯವನ್ನು ಸೂರ್ಯೋದಯಕ್ಕೆ ಮೊದಲು ಪೂರ್ವಾಭಿಮುಖವಾಗಿ ಸೂರ್ಯನ ಕಡೆ ನೋಡುತ್ತಾ ನಿಂತು ಕೊಡಬೇಕು. ಆಚಮನ, ಒಂದು ಪ್ರಾಣಾಯಾಮ ಮಾಡಿ ಸಂಕಲ್ಪ, ವಿನಿಯೋಗ ಹೇಳಿ. ಅರ್ಘ್ಯಪಾತ್ರೆಯ ಶುದ್ಧಜಲವನ್ನು ಬೊಗಸೆಯಲ್ಲಿ ತುಂಬಿ ಮೂಗಿನ ಎತ್ತರಕ್ಕೆ ಎತ್ತಿ ಪ್ರಣವ–ವ್ಯಾಹೃತಿ ಸಹಿತ ಗಾಯತ್ರಿ ಹೇಳಿ ಬೆರಳ ತುದಿಯಿಂದ ಬಿಡಿ — ಮೂರು ಅರ್ಘ್ಯ. ಸೂರ್ಯೋದಯವಾಗಿಬಿಟ್ಟಿದ್ದರೆ ಸಂಕಲ್ಪ ಹೇಳಿ ಗಾಯತ್ರಿಯಿಂದ ನಾಲ್ಕನೆಯ ಅರ್ಘ್ಯ ಕೊಡಿ; ಅನೇಕ ಪುಸ್ತಕಗಳು “ಯದದ್ಯ ಕಚ್ಚ…” ಋಕ್ಕನ್ನೂ ಸೇರಿಸುತ್ತವೆ.',
+      note: 'Morning: give the arghya before sunrise, standing, facing east and looking towards the Sun. Do achamana and one pranayama and say the sankalpa and viniyoga. Fill both joined palms with clean water from the arghya vessel, raise them to the height of the nose, recite the Gayatri with Om and the vyahritis and pour the water out over the fingertips — three arghyas. If the sun has already risen, say the prayaschitta sankalpa and give one more arghya with the rik यदद्य कच्च… (Rigveda 8.93.4; seer Sukaksha Angirasa, deity Indra, metre Gayatri). The Karnataka manuals give this prayaschitta arghya before the three; others after them.',
+      noteKn: 'ಬೆಳಗಿನ ಅರ್ಘ್ಯವನ್ನು ಸೂರ್ಯೋದಯಕ್ಕೆ ಮೊದಲು ಪೂರ್ವಾಭಿಮುಖವಾಗಿ ಸೂರ್ಯನ ಕಡೆ ನೋಡುತ್ತಾ ನಿಂತು ಕೊಡಬೇಕು. ಆಚಮನ, ಒಂದು ಪ್ರಾಣಾಯಾಮ ಮಾಡಿ ಸಂಕಲ್ಪ, ವಿನಿಯೋಗ ಹೇಳಿ. ಅರ್ಘ್ಯಪಾತ್ರೆಯ ಶುದ್ಧಜಲವನ್ನು ಬೊಗಸೆಯಲ್ಲಿ ತುಂಬಿ ಮೂಗಿನ ಎತ್ತರಕ್ಕೆ ಎತ್ತಿ, ಪ್ರಣವ–ವ್ಯಾಹೃತಿ ಸಹಿತ ಗಾಯತ್ರಿ ಹೇಳಿ ಬೆರಳ ತುದಿಯಿಂದ ಬಿಡಿ — ಮೂರು ಅರ್ಘ್ಯಗಳು. ಸೂರ್ಯೋದಯವಾಗಿಬಿಟ್ಟಿದ್ದರೆ ಪ್ರಾಯಶ್ಚಿತ್ತ ಸಂಕಲ್ಪ ಹೇಳಿ “ಯದದ್ಯ ಕಚ್ಚ…” ಋಕ್ಕಿನಿಂದ (ಋಗ್ವೇದ ೮.೯೩.೪; ಸುಕಕ್ಷ ಆಂಗಿರಸ ಋಷಿ, ಇಂದ್ರ ದೇವತೆ, ಗಾಯತ್ರೀ ಛಂದಸ್ಸು) ಇನ್ನೊಂದು ಅರ್ಘ್ಯ ಕೊಡಿ. ಕರ್ನಾಟಕದ ಪುಸ್ತಕಗಳು ಈ ಪ್ರಾಯಶ್ಚಿತ್ತಾರ್ಘ್ಯವನ್ನು ಮೂರು ಅರ್ಘ್ಯಗಳಿಗೆ ಮೊದಲು ಕೊಡುತ್ತವೆ; ಇತರರು ಅವುಗಳ ನಂತರ.',
       when: { tradition: ['smarta'], time: ['morning'] },
       verses: [
         {
@@ -1044,13 +1124,6 @@ export const sandhyaVandaneRigveda: Mantra = {
           },
         },
         {
-          text: 'ॐ भूर्भुवः स्वः ।\nतत्सवितुर्वरेण्यं भर्गो देवस्य धीमहि ।\nधियो यो नः प्रचोदयात् ॥',
-          meaning: {
-            en: 'Om, earth, sky and heaven. We meditate on that adorable radiance of the divine Savitri — for Madhvas, Sri Narayana dwelling in the sun; may he move our minds.',
-            kn: 'ಓಂ ಭೂರ್ಭುವಃ ಸ್ವಃ. ಸವಿತೃದೇವನ (ಮಾಧ್ವರಿಗೆ ಸೂರ್ಯಮಂಡಲದಲ್ಲಿರುವ ಶ್ರೀನಾರಾಯಣನ) ಪೂಜನೀಯವಾದ ಆ ದಿವ್ಯ ತೇಜಸ್ಸನ್ನು ಧ್ಯಾನಿಸುತ್ತೇವೆ; ಅವನು ನಮ್ಮ ಬುದ್ಧಿಯನ್ನು ಪ್ರೇರೇಪಿಸಲಿ.',
-          },
-        },
-        {
           text: 'यदद्य कच्च वृत्रहन्नुदगा अभि सूर्य ।\nसर्वं तदिन्द्र ते वशे ॥',
           meaning: {
             en: 'O slayer of Vritra, O Sun, whatever you have risen upon today — all of it, O Indra, is under your control.',
@@ -1062,8 +1135,8 @@ export const sandhyaVandaneRigveda: Mantra = {
     {
       title: 'अर्घ्यप्रदानम्',
       titleEn: 'Arghya (offering water to the Sun)',
-      note: 'Midday: stand facing the Sun. Do achamana and one pranayama and say the sankalpa and viniyoga. Many manuals give the first arghya with हंसः शुचिषत्…, the second with आ कृष्णेन… and the third with the Gayatri; others give all three with the Gayatri. If noon is long past, say the sankalpa and give a fourth arghya with the Gayatri (many add प्रातर्देवीम्…).',
-      noteKn: 'ಮಧ್ಯಾಹ್ನ ಸೂರ್ಯನ ಕಡೆಗೆ ನಿಂತುಕೊಳ್ಳಿ. ಆಚಮನ, ಒಂದು ಪ್ರಾಣಾಯಾಮ ಮಾಡಿ ಸಂಕಲ್ಪ, ವಿನಿಯೋಗ ಹೇಳಿ. ಅನೇಕ ಪುಸ್ತಕಗಳಲ್ಲಿ ಮೊದಲ ಅರ್ಘ್ಯ “ಹಂಸಃ ಶುಚಿಷತ್…”, ಎರಡನೆಯದು “ಆ ಕೃಷ್ಣೇನ…”, ಮೂರನೆಯದು ಗಾಯತ್ರಿಯಿಂದ; ಕೆಲವರು ಮೂರನ್ನೂ ಗಾಯತ್ರಿಯಿಂದ ಕೊಡುತ್ತಾರೆ. ಮಧ್ಯಾಹ್ನ ಬಹಳ ಮೀರಿದ್ದರೆ ಸಂಕಲ್ಪ ಹೇಳಿ ಗಾಯತ್ರಿಯಿಂದ ನಾಲ್ಕನೆಯ ಅರ್ಘ್ಯ ಕೊಡಿ (ಅನೇಕರು “ಪ್ರಾತರ್ದೇವೀಮ್…” ಸೇರಿಸುತ್ತಾರೆ).',
+      note: 'Midday: stand facing the Sun. Do achamana and one pranayama and say the sankalpa and viniyoga. Andhra manuals give the first arghya with हंसः शुचिषत्…, the second with आ कृष्णेन… and the third with the Gayatri; the Mysuru manual gives all three with आ कृष्णेन…; others give all three with the Gayatri. If noon is long past, say the prayaschitta sankalpa and give one more arghya with the rik प्रातर्देवीम्… (Rigveda 5.69.3).',
+      noteKn: 'ಮಧ್ಯಾಹ್ನ ಸೂರ್ಯನಿಗೆ ಅಭಿಮುಖವಾಗಿ ನಿಂತುಕೊಳ್ಳಿ. ಆಚಮನ, ಒಂದು ಪ್ರಾಣಾಯಾಮ ಮಾಡಿ ಸಂಕಲ್ಪ, ವಿನಿಯೋಗ ಹೇಳಿ. ಆಂಧ್ರದ ಪುಸ್ತಕಗಳು ಮೊದಲ ಅರ್ಘ್ಯವನ್ನು “ಹಂಸಃ ಶುಚಿಷತ್…”, ಎರಡನೆಯದನ್ನು “ಆ ಕೃಷ್ಣೇನ…”, ಮೂರನೆಯದನ್ನು ಗಾಯತ್ರಿಯಿಂದ ಕೊಡುತ್ತವೆ; ಮೈಸೂರಿನ ಪುಸ್ತಕ ಮೂರನ್ನೂ “ಆ ಕೃಷ್ಣೇನ…”ದಿಂದ ಕೊಡುತ್ತದೆ; ಇತರರು ಮೂರನ್ನೂ ಗಾಯತ್ರಿಯಿಂದ ಕೊಡುತ್ತಾರೆ. ಮಧ್ಯಾಹ್ನದ ಕಾಲ ಬಹಳ ಮೀರಿದ್ದರೆ ಪ್ರಾಯಶ್ಚಿತ್ತ ಸಂಕಲ್ಪ ಹೇಳಿ “ಪ್ರಾತರ್ದೇವೀಮ್…” ಋಕ್ಕಿನಿಂದ (ಋಗ್ವೇದ ೫.೬೯.೩) ಇನ್ನೊಂದು ಅರ್ಘ್ಯ ಕೊಡಿ.',
       when: { tradition: ['smarta'], time: ['midday'] },
       verses: [
         {
@@ -1123,13 +1196,6 @@ export const sandhyaVandaneRigveda: Mantra = {
           },
         },
         {
-          text: 'ॐ भूर्भुवः स्वः ।\nतत्सवितुर्वरेण्यं भर्गो देवस्य धीमहि ।\nधियो यो नः प्रचोदयात् ॥',
-          meaning: {
-            en: 'Om, earth, sky and heaven. We meditate on that adorable radiance of the divine Savitri — for Madhvas, Sri Narayana dwelling in the sun; may he move our minds.',
-            kn: 'ಓಂ ಭೂರ್ಭುವಃ ಸ್ವಃ. ಸವಿತೃದೇವನ (ಮಾಧ್ವರಿಗೆ ಸೂರ್ಯಮಂಡಲದಲ್ಲಿರುವ ಶ್ರೀನಾರಾಯಣನ) ಪೂಜನೀಯವಾದ ಆ ದಿವ್ಯ ತೇಜಸ್ಸನ್ನು ಧ್ಯಾನಿಸುತ್ತೇವೆ; ಅವನು ನಮ್ಮ ಬುದ್ಧಿಯನ್ನು ಪ್ರೇರೇಪಿಸಲಿ.',
-          },
-        },
-        {
           text: 'प्रातर्देवीमदितिं जोहवीमि मध्यन्दिन उदिता सूर्यस्य ।\nराये मित्रावरुणा सर्वतातेळे तोकाय तनयाय शं योः ॥',
           meaning: {
             en: 'At dawn I call on the goddess Aditi, and at noon when the sun is high; I praise Mitra and Varuna everywhere for wealth, and for health and welfare for our children and descendants.',
@@ -1141,8 +1207,8 @@ export const sandhyaVandaneRigveda: Mantra = {
     {
       title: 'अर्घ्यप्रदानम्',
       titleEn: 'Arghya (offering water to the Sun)',
-      note: 'Evening: give the arghya before sunset, sitting and facing west; let the water fall on the ground or a stone (not into a river). Do achamana and one pranayama and say the sankalpa and viniyoga. Recite the Gayatri with Om and the vyahritis and pour out the water from both joined palms — three arghyas. If the sun has already set, say the sankalpa and give a fourth arghya with the Gayatri (many add उद्घेदभि…).',
-      noteKn: 'ಸಂಜೆಯ ಅರ್ಘ್ಯವನ್ನು ಸೂರ್ಯಾಸ್ತಕ್ಕೆ ಮೊದಲು ಪಶ್ಚಿಮಾಭಿಮುಖವಾಗಿ ಕುಳಿತು ಕೊಡಬೇಕು; ನೀರನ್ನು ನೆಲ/ಬಂಡೆಯ ಮೇಲೆ ಬಿಡಿ (ನದಿಯೊಳಗೆ ಬೇಡ). ಆಚಮನ, ಒಂದು ಪ್ರಾಣಾಯಾಮ ಮಾಡಿ ಸಂಕಲ್ಪ, ವಿನಿಯೋಗ ಹೇಳಿ. ಪ್ರಣವ–ವ್ಯಾಹೃತಿ ಸಹಿತ ಗಾಯತ್ರಿ ಹೇಳಿ ಬೊಗಸೆಯ ನೀರನ್ನು ಬಿಡಿ — ಮೂರು ಅರ್ಘ್ಯ. ಸೂರ್ಯಾಸ್ತವಾಗಿಬಿಟ್ಟಿದ್ದರೆ ಸಂಕಲ್ಪ ಹೇಳಿ ಗಾಯತ್ರಿಯಿಂದ ನಾಲ್ಕನೆಯ ಅರ್ಘ್ಯ ಕೊಡಿ (ಅನೇಕರು “ಉದ್ಘೇದಭಿ…” ಸೇರಿಸುತ್ತಾರೆ).',
+      note: 'Evening: give the arghya before sunset, sitting and facing west; let the water fall on the ground or a stone (not into a river). Do achamana and one pranayama and say the sankalpa and viniyoga. Recite the Gayatri with Om and the vyahritis and pour out the water from both joined palms — three arghyas. If the sun has already set, say the prayaschitta sankalpa and give one more arghya with the rik उद्घेदभि… (Rigveda 8.93.1); the Karnataka manuals give it before the three.',
+      noteKn: 'ಸಾಯಂಕಾಲದ ಅರ್ಘ್ಯವನ್ನು ಸೂರ್ಯಾಸ್ತಕ್ಕೆ ಮೊದಲು ಪಶ್ಚಿಮಾಭಿಮುಖವಾಗಿ ಕುಳಿತು ಕೊಡಬೇಕು; ನೀರನ್ನು ನೆಲಕ್ಕೆ ಅಥವಾ ಕಲ್ಲಿನ ಮೇಲೆ ಬಿಡಿ (ನದಿಯೊಳಗೆ ಅಲ್ಲ). ಆಚಮನ, ಒಂದು ಪ್ರಾಣಾಯಾಮ ಮಾಡಿ ಸಂಕಲ್ಪ, ವಿನಿಯೋಗ ಹೇಳಿ. ಪ್ರಣವ–ವ್ಯಾಹೃತಿ ಸಹಿತ ಗಾಯತ್ರಿ ಹೇಳಿ ಬೊಗಸೆಯ ನೀರನ್ನು ಬಿಡಿ — ಮೂರು ಅರ್ಘ್ಯಗಳು. ಸೂರ್ಯಾಸ್ತವಾಗಿಬಿಟ್ಟಿದ್ದರೆ ಪ್ರಾಯಶ್ಚಿತ್ತ ಸಂಕಲ್ಪ ಹೇಳಿ “ಉದ್ಘೇದಭಿ…” ಋಕ್ಕಿನಿಂದ (ಋಗ್ವೇದ ೮.೯೩.೧) ಇನ್ನೊಂದು ಅರ್ಘ್ಯ ಕೊಡಿ; ಕರ್ನಾಟಕದ ಪುಸ್ತಕಗಳು ಇದನ್ನು ಮೂರು ಅರ್ಘ್ಯಗಳಿಗೆ ಮೊದಲು ಕೊಡುತ್ತವೆ.',
       when: { tradition: ['smarta'], time: ['evening'] },
       verses: [
         {
@@ -1188,13 +1254,6 @@ export const sandhyaVandaneRigveda: Mantra = {
           },
         },
         {
-          text: 'ॐ भूर्भुवः स्वः ।\nतत्सवितुर्वरेण्यं भर्गो देवस्य धीमहि ।\nधियो यो नः प्रचोदयात् ॥',
-          meaning: {
-            en: 'Om, earth, sky and heaven. We meditate on that adorable radiance of the divine Savitri — for Madhvas, Sri Narayana dwelling in the sun; may he move our minds.',
-            kn: 'ಓಂ ಭೂರ್ಭುವಃ ಸ್ವಃ. ಸವಿತೃದೇವನ (ಮಾಧ್ವರಿಗೆ ಸೂರ್ಯಮಂಡಲದಲ್ಲಿರುವ ಶ್ರೀನಾರಾಯಣನ) ಪೂಜನೀಯವಾದ ಆ ದಿವ್ಯ ತೇಜಸ್ಸನ್ನು ಧ್ಯಾನಿಸುತ್ತೇವೆ; ಅವನು ನಮ್ಮ ಬುದ್ಧಿಯನ್ನು ಪ್ರೇರೇಪಿಸಲಿ.',
-          },
-        },
-        {
           text: 'उद्घेदभि श्रुतामघं वृषभं नर्यापसम् ।\nअस्तारमेषि सूर्य ॥',
           meaning: {
             en: 'O Sun, you rise towards Indra, famed for his bounty, the mighty bull whose deeds benefit men, the hurler of weapons.',
@@ -1226,11 +1285,204 @@ export const sandhyaVandaneRigveda: Mantra = {
       ],
     },
     {
+      title: 'सूर्योपस्थानम्',
+      titleEn: 'Suryopasthana at midday (before japa)',
+      note: 'Midday: stand facing the Sun with folded (or raised) hands and recite the sukta उदु त्यं… (Rigveda 1.50, thirteen riks) and चित्रं देवानाम्… (1.115, six riks), and finish with सविता पश्चातात्… (10.36.14). Rigvedins, both Madhva and Smarta, do the midday upasthana here, before the Gayatri japa and not after it (Kamesvara Aiyar; the Madhva manuals of the Uttaradi Matha, Gadag and Vijayapura; the Mysuru Smarta manual). Some recite only the thirteen riks of 1.50 (Kamesvara Aiyar); the Uttaradi manual uses आसत्येन…, उद्वयं…, उदु त्यं…, चित्रं…, तच्चक्षुः… and हंसः शुचिषत्… instead. Madhvas then say the abhivadana (next step) and sit for japa.',
+      noteKn: 'ಮಧ್ಯಾಹ್ನ ಸೂರ್ಯನಿಗೆ ಅಭಿಮುಖವಾಗಿ ಕೈಮುಗಿದು (ಅಥವಾ ಕೈ ಮೇಲೆತ್ತಿ) ನಿಂತು “ಉದು ತ್ಯಂ…” ಸೂಕ್ತವನ್ನು (ಋಗ್ವೇದ ೧.೫೦, ಹದಿಮೂರು ಋಕ್ಕುಗಳು), “ಚಿತ್ರಂ ದೇವಾನಾಮ್…” (೧.೧೧೫, ಆರು ಋಕ್ಕುಗಳು) ಹೇಳಿ, “ಸವಿತಾ ಪಶ್ಚಾತಾತ್…” (೧೦.೩೬.೧೪) ಎಂದು ಮುಗಿಸಿ. ಮಾಧ್ವರಾಗಲಿ ಸ್ಮಾರ್ತರಾಗಲಿ ಋಗ್ವೇದಿಗಳು ಮಧ್ಯಾಹ್ನದ ಉಪಸ್ಥಾನವನ್ನು ಇಲ್ಲಿಯೇ, ಗಾಯತ್ರೀಜಪಕ್ಕೆ ಮೊದಲು ಮಾಡುತ್ತಾರೆ, ನಂತರವಲ್ಲ (ಕಾಮೇಶ್ವರ ಅಯ್ಯರ್; ಉತ್ತರಾದಿಮಠ, ಗದಗ, ವಿಜಾಪುರದ ಮಾಧ್ವ ಪುಸ್ತಕಗಳು; ಮೈಸೂರಿನ ಸ್ಮಾರ್ತ ಪುಸ್ತಕ). ಕೆಲವರು ೧.೫೦ರ ಹದಿಮೂರು ಋಕ್ಕುಗಳನ್ನು ಮಾತ್ರ ಹೇಳುತ್ತಾರೆ (ಕಾಮೇಶ್ವರ ಅಯ್ಯರ್); ಉತ್ತರಾದಿಮಠದ ಪುಸ್ತಕ ಇವುಗಳ ಬದಲು “ಆಸತ್ಯೇನ…”, “ಉದ್ವಯಂ…”, “ಉದು ತ್ಯಂ…”, “ಚಿತ್ರಂ…”, “ತಚ್ಚಕ್ಷುಃ…”, “ಹಂಸಃ ಶುಚಿಷತ್…” ಹೇಳುತ್ತದೆ. ಮಾಧ್ವರು ನಂತರ ಅಭಿವಾದನ (ಮುಂದಿನ ಹಂತ) ಮಾಡಿ ಜಪಕ್ಕೆ ಕುಳಿತುಕೊಳ್ಳುತ್ತಾರೆ.',
+      when: { time: ['midday'] },
+      verses: [
+        {
+          text: 'उदु त्यमिति त्रयोदशर्चस्य सूक्तस्य काण्वः प्रस्कण्व ऋषिः ।\nसूर्यो देवता । नवाद्या गायत्र्यः । अन्त्याश्चतस्रोऽनुष्टुभः ।\nसूर्योपस्थाने विनियोगः ॥',
+          meaning: {
+            en: 'For the sukta of thirteen riks “ud u tyam”: the seer is Praskanva of the Kanva family and the deity is Surya; the first nine riks are in Gayatri metre and the last four in Anushtubh; it is used in worshipping the Sun (upasthana).',
+            kn: '“ಉದು ತ್ಯಂ” ಎಂಬ ಹದಿಮೂರು ಋಕ್ಕುಗಳ ಸೂಕ್ತಕ್ಕೆ ಕಣ್ವವಂಶದ ಪ್ರಸ್ಕಣ್ವ ಋಷಿ, ಸೂರ್ಯ ದೇವತೆ; ಮೊದಲ ಒಂಬತ್ತು ಗಾಯತ್ರೀ ಛಂದಸ್ಸು, ಕೊನೆಯ ನಾಲ್ಕು ಅನುಷ್ಟುಪ್; ಸೂರ್ಯೋಪಸ್ಥಾನದಲ್ಲಿ ವಿನಿಯೋಗ.',
+          },
+        },
+        {
+          text: 'उदु त्यं जातवेदसं देवं वहन्ति केतवः ।\nदृशे विश्वाय सूर्यम् ॥',
+          meaning: {
+            en: 'His rays bear aloft the god Surya, knower of all beings, so that all may see him.',
+            kn: 'ಎಲ್ಲ ಜೀವಿಗಳನ್ನೂ ಬಲ್ಲ ಸೂರ್ಯದೇವನನ್ನು, ಎಲ್ಲರೂ ಕಾಣುವಂತೆ, ಅವನ ಕಿರಣಗಳು ಮೇಲಕ್ಕೆ ಹೊತ್ತೊಯ್ಯುತ್ತವೆ.',
+          },
+        },
+        {
+          text: 'अप त्ये तायवो यथा नक्षत्रा यन्त्यक्तुभिः ।\nसूराय विश्वचक्षसे ॥',
+          meaning: {
+            en: 'Before the all-seeing Sun the stars slip away with the night, like thieves.',
+            kn: 'ಎಲ್ಲವನ್ನೂ ನೋಡುವ ಸೂರ್ಯನ ಮುಂದೆ ನಕ್ಷತ್ರಗಳು ರಾತ್ರಿಯೊಂದಿಗೆ ಕಳ್ಳರಂತೆ ಸರಿದುಹೋಗುತ್ತವೆ.',
+          },
+        },
+        {
+          text: 'अदृश्रमस्य केतवो वि रश्मयो जनाँ अनु ।\nभ्राजन्तो अग्नयो यथा ॥',
+          meaning: {
+            en: 'His beams have been seen spreading over the peoples, blazing like fires.',
+            kn: 'ಅವನ ಕಿರಣಗಳು ಬೆಂಕಿಯಂತೆ ಹೊಳೆಯುತ್ತಾ ಜನರೆಲ್ಲರ ಮೇಲೆ ಹರಡಿರುವುದು ಕಾಣುತ್ತಿದೆ.',
+          },
+        },
+        {
+          text: 'तरणिर्विश्वदर्शतो ज्योतिष्कृदसि सूर्य ।\nविश्वमा भासि रोचनम् ॥',
+          meaning: {
+            en: 'O Sun, swift and seen by all, maker of light, you illumine the whole bright realm.',
+            kn: 'ಓ ಸೂರ್ಯನೇ, ನೀನು ವೇಗಶಾಲಿ, ಎಲ್ಲರಿಗೂ ಕಾಣುವವನು, ಬೆಳಕನ್ನು ಸೃಷ್ಟಿಸುವವನು; ಪ್ರಕಾಶಮಾನವಾದ ಸಮಸ್ತ ಲೋಕವನ್ನೂ ಬೆಳಗುತ್ತೀಯೆ.',
+          },
+        },
+        {
+          text: 'प्रत्यङ्देवानां विशः प्रत्यङ्ङुदेषि मानुषान् ।\nप्रत्यङ्विश्वं स्वर्दृशे ॥',
+          meaning: {
+            en: 'You rise facing the hosts of gods, facing mankind, facing all, so that the light may be seen.',
+            kn: 'ದೇವತೆಗಳ ಸಮೂಹಕ್ಕೂ, ಮನುಷ್ಯರಿಗೂ, ಸಮಸ್ತಕ್ಕೂ ಎದುರಾಗಿ ಬೆಳಕು ಕಾಣುವಂತೆ ನೀನು ಉದಯಿಸುತ್ತೀಯೆ.',
+          },
+        },
+        {
+          text: 'येना पावक चक्षसा भुरण्यन्तं जनाँ अनु ।\nत्वं वरुण पश्यसि ॥',
+          meaning: {
+            en: 'With that eye, O purifying Varuna, with which you watch the busy one moving among men —',
+            kn: 'ಓ ಪಾವನನಾದ ವರುಣನೇ, ಜನರ ನಡುವೆ ಸಂಚರಿಸುವವನನ್ನು ನೀನು ಯಾವ ಕಣ್ಣಿನಿಂದ ನೋಡುತ್ತೀಯೋ ಆ ಕಣ್ಣಿನಿಂದ —',
+          },
+        },
+        {
+          text: 'वि द्यामेषि रजस्पृथ्वहा मिमानो अक्तुभिः ।\nपश्यञ्जन्मानि सूर्य ॥',
+          meaning: {
+            en: '— you cross the sky and the wide mid-region, O Sun, measuring out the days with the nights, watching over all that is born.',
+            kn: '— ಓ ಸೂರ್ಯನೇ, ರಾತ್ರಿಗಳೊಂದಿಗೆ ಹಗಲುಗಳನ್ನು ಅಳೆಯುತ್ತಾ, ಹುಟ್ಟಿದ ಎಲ್ಲ ಜೀವಿಗಳನ್ನೂ ನೋಡುತ್ತಾ, ದ್ಯುಲೋಕವನ್ನೂ ವಿಶಾಲ ಅಂತರಿಕ್ಷವನ್ನೂ ದಾಟುತ್ತೀಯೆ.',
+          },
+        },
+        {
+          text: 'सप्त त्वा हरितो रथे वहन्ति देव सूर्य ।\nशोचिष्केशं विचक्षण ॥',
+          meaning: {
+            en: 'Seven bay mares draw you in your chariot, O god Surya, far-seeing one with hair of flame.',
+            kn: 'ಓ ಸೂರ್ಯದೇವ, ಜ್ವಾಲೆಯಂತಹ ಕೇಶವುಳ್ಳ ದೂರದರ್ಶಿಯೇ, ಏಳು ಕುದುರೆಗಳು ನಿನ್ನನ್ನು ರಥದಲ್ಲಿ ಎಳೆಯುತ್ತವೆ.',
+          },
+        },
+        {
+          text: 'अयुक्त सप्त शुन्ध्युवः सूरो रथस्य नप्त्यः ।\nताभिर्याति स्वयुक्तिभिः ॥',
+          meaning: {
+            en: 'The Sun has yoked the seven bright daughters of his chariot; with them, self-yoked, he goes on his way.',
+            kn: 'ಸೂರ್ಯನು ತನ್ನ ರಥದ ಏಳು ಹೊಳೆಯುವ ಕುದುರೆಗಳನ್ನು ಹೂಡಿದ್ದಾನೆ; ತಾವಾಗಿಯೇ ಹೂಡಿಕೊಂಡ ಅವುಗಳೊಂದಿಗೆ ಸಾಗುತ್ತಾನೆ.',
+          },
+        },
+        {
+          text: 'उद्वयं तमसस्परि ज्योतिष्पश्यन्त उत्तरम् ।\nदेवं देवत्रा सूर्यमगन्म ज्योतिरुत्तमम् ॥',
+          meaning: {
+            en: 'Rising above the darkness and seeing the higher light, we have come to Surya, god among gods, the highest light.',
+            kn: 'ಕತ್ತಲೆಯನ್ನು ದಾಟಿ ಮೇಲಿನ ಬೆಳಕನ್ನು ಕಾಣುತ್ತಾ, ದೇವತೆಗಳಲ್ಲಿ ದೇವನಾದ, ಉತ್ತಮ ಜ್ಯೋತಿಯಾದ ಸೂರ್ಯನನ್ನು ನಾವು ಸೇರಿದ್ದೇವೆ.',
+          },
+        },
+        {
+          text: 'उद्यन्नद्य मित्रमह आरोहन्नुत्तरां दिवम् ।\nहृद्रोगं मम सूर्य हरिमाणं च नाशय ॥',
+          meaning: {
+            en: 'Rising today, O Sun rich in friendship, and climbing the higher heaven, destroy my heart’s disease and my pallor.',
+            kn: 'ಸ್ನೇಹಪೂರ್ಣ ತೇಜಸ್ಸುಳ್ಳ ಓ ಸೂರ್ಯನೇ, ಇಂದು ಉದಯಿಸಿ ಮೇಲಿನ ಆಕಾಶವನ್ನೇರುತ್ತಾ ನನ್ನ ಹೃದ್ರೋಗವನ್ನೂ ಮೈಬಣ್ಣ ಕಳೆಗುಂದುವ ರೋಗವನ್ನೂ ನಾಶಮಾಡು.',
+          },
+        },
+        {
+          text: 'शुकेषु मे हरिमाणं रोपणाकासु दध्मसि ।\nअथो हारिद्रवेषु मे हरिमाणं नि दध्मसि ॥',
+          meaning: {
+            en: 'Let us put my pallor into the parrots and the thrushes; let us put my pallor into the yellow birds.',
+            kn: 'ನನ್ನ ಈ ಹಳದಿ ರೋಗವನ್ನು ಗಿಳಿಗಳಿಗೂ ರೋಪಣಾಕ ಹಕ್ಕಿಗಳಿಗೂ ವರ್ಗಾಯಿಸೋಣ; ಹಳದಿ ಬಣ್ಣದ ಹಕ್ಕಿಗಳಿಗೂ ಅದನ್ನು ಬಿಟ್ಟುಬಿಡೋಣ.',
+          },
+        },
+        {
+          text: 'उदगादयमादित्यो विश्वेन सहसा सह ।\nद्विषन्तं मह्यं रन्धयन्मो अहं द्विषते रधम् ॥',
+          meaning: {
+            en: 'This Aditya has risen with all his might, subduing for me the one who hates me; may I never fall into the power of my enemy.',
+            kn: 'ಈ ಆದಿತ್ಯನು ತನ್ನ ಸಮಸ್ತ ಬಲದೊಂದಿಗೆ ಉದಯಿಸಿದ್ದಾನೆ, ನನ್ನನ್ನು ದ್ವೇಷಿಸುವವನನ್ನು ನನಗೆ ವಶಪಡಿಸುತ್ತಾ; ನಾನೆಂದೂ ಶತ್ರುವಿನ ವಶಕ್ಕೆ ಬೀಳದಿರಲಿ.',
+          },
+        },
+        {
+          text: 'चित्रं देवानामुदगादनीकं चक्षुर्मित्रस्य वरुणस्याग्नेः ।\nआप्रा द्यावापृथिवी अन्तरिक्षं सूर्य आत्मा जगतस्तस्थुषश्च ॥',
+          meaning: {
+            en: 'The bright face of the gods has risen, the eye of Mitra, Varuna and Agni. He has filled heaven, earth and the mid-region; the Sun is the soul of all that moves and all that stands still.',
+            kn: 'ದೇವತೆಗಳ ಅದ್ಭುತವಾದ ಮುಖ, ಮಿತ್ರ, ವರುಣ, ಅಗ್ನಿಯರ ಕಣ್ಣು ಉದಯಿಸಿದೆ. ಅವನು ದ್ಯುಲೋಕ, ಭೂಮಿ, ಅಂತರಿಕ್ಷಗಳನ್ನು ತುಂಬಿದ್ದಾನೆ; ಚರಾಚರ ಜಗತ್ತಿನ ಆತ್ಮ ಸೂರ್ಯನೇ.',
+          },
+        },
+        {
+          text: 'सूर्यो देवीमुषसं रोचमानां मर्यो न योषामभ्येति पश्चात् ।\nयत्रा नरो देवयन्तो युगानि वितन्वते प्रति भद्राय भद्रम् ॥',
+          meaning: {
+            en: 'The Sun follows the shining goddess Dawn as a young man follows a maiden, there where devout men perform their rites age after age, each blessing answered with blessing.',
+            kn: 'ಯುವಕನು ಕನ್ಯೆಯನ್ನು ಹಿಂಬಾಲಿಸುವಂತೆ ಸೂರ್ಯನು ಪ್ರಕಾಶಿಸುವ ಉಷಾದೇವಿಯನ್ನು ಹಿಂಬಾಲಿಸುತ್ತಾನೆ; ಅಲ್ಲಿ ದೇವಭಕ್ತರು ಯುಗಯುಗಗಳಿಂದ ಮಂಗಳಕ್ಕಾಗಿ ಮಂಗಳಕರ ಕರ್ಮಗಳನ್ನು ವಿಸ್ತರಿಸುತ್ತಾರೆ.',
+          },
+        },
+        {
+          text: 'भद्रा अश्वा हरितः सूर्यस्य चित्रा एतग्वा अनुमाद्यासः ।\nनमस्यन्तो दिव आ पृष्ठमस्थुः परि द्यावापृथिवी यन्ति सद्यः ॥',
+          meaning: {
+            en: 'The Sun’s auspicious bay horses, bright, swift and worthy of praise, bowing low, have climbed the ridge of heaven; in a day they circle heaven and earth.',
+            kn: 'ಸೂರ್ಯನ ಮಂಗಳಕರವಾದ, ವಿಚಿತ್ರ ಬಣ್ಣದ, ವೇಗಶಾಲಿಯಾದ, ಸ್ತುತ್ಯವಾದ ಕುದುರೆಗಳು ನಮಸ್ಕರಿಸುತ್ತಾ ಆಕಾಶದ ಶಿಖರವನ್ನೇರಿವೆ; ಒಂದೇ ದಿನದಲ್ಲಿ ದ್ಯಾವಾಪೃಥಿವಿಗಳನ್ನು ಸುತ್ತುತ್ತವೆ.',
+          },
+        },
+        {
+          text: 'तत्सूर्यस्य देवत्वं तन्महित्वं मध्या कर्तोर्विततं सं जभार ।\nयदेदयुक्त हरितः सधस्थादाद्रात्री वासस्तनुते सिमस्मै ॥',
+          meaning: {
+            en: 'This is the divinity, this the greatness of the Sun: in the midst of work he draws in the spread-out light; when he unyokes his horses from their stall, Night spreads her garment over all.',
+            kn: 'ಇದೇ ಸೂರ್ಯನ ದೇವತ್ವ, ಇದೇ ಅವನ ಮಹಿಮೆ: ಕೆಲಸ ನಡೆಯುತ್ತಿರುವಾಗಲೇ ಹರಡಿದ ಬೆಳಕನ್ನು ಹಿಂದೆಗೆದುಕೊಳ್ಳುತ್ತಾನೆ; ಅವನು ಕುದುರೆಗಳನ್ನು ಬಿಚ್ಚಿದಾಗ ರಾತ್ರಿಯು ಎಲ್ಲದರ ಮೇಲೆ ತನ್ನ ವಸ್ತ್ರವನ್ನು ಹರಡುತ್ತಾಳೆ.',
+          },
+        },
+        {
+          text: 'तन्मित्रस्य वरुणस्याभिचक्षे सूर्यो रूपं कृणुते द्योरुपस्थे ।\nअनन्तमन्यद्रुशदस्य पाजः कृष्णमन्यद्धरितः सं भरन्ति ॥',
+          meaning: {
+            en: 'In the lap of heaven the Sun takes on a form for Mitra and Varuna to behold: his bay horses bring now his endless shining power, now its dark counterpart.',
+            kn: 'ಮಿತ್ರಾವರುಣರು ನೋಡುವಂತೆ ಸೂರ್ಯನು ಆಕಾಶದ ಮಡಿಲಲ್ಲಿ ರೂಪ ಧರಿಸುತ್ತಾನೆ; ಅವನ ಕುದುರೆಗಳು ಒಮ್ಮೆ ಅನಂತವಾದ ಹೊಳೆಯುವ ತೇಜಸ್ಸನ್ನೂ, ಒಮ್ಮೆ ಕಪ್ಪಾದ ಇನ್ನೊಂದು ರೂಪವನ್ನೂ ತರುತ್ತವೆ.',
+          },
+        },
+        {
+          text: 'अद्या देवा उदिता सूर्यस्य निरंहसः पिपृता निरवद्यात् ।\nतन्नो मित्रो वरुणो मामहन्तामदितिः सिन्धुः पृथिवी उत द्यौः ॥',
+          meaning: {
+            en: 'Today, O gods, at the rising of the Sun, deliver us from sin and from blame. May Mitra and Varuna, Aditi, the river, earth and heaven grant us this.',
+            kn: 'ಓ ದೇವತೆಗಳೇ, ಇಂದು ಸೂರ್ಯೋದಯದಲ್ಲಿ ನಮ್ಮನ್ನು ಪಾಪದಿಂದಲೂ ನಿಂದೆಯಿಂದಲೂ ಪಾರುಮಾಡಿ. ಮಿತ್ರ, ವರುಣ, ಅದಿತಿ, ಸಿಂಧು, ಭೂಮಿ, ದ್ಯುಲೋಕ ಇವರೆಲ್ಲರೂ ಇದನ್ನು ನಮಗೆ ಕರುಣಿಸಲಿ.',
+          },
+        },
+        {
+          text: 'सविता पश्चातात्सविता पुरस्तात्सवितोत्तरात्तात्सविताधरात्तात् ।\nसविता नः सुवतु सर्वतातिं सविता नो रासतां दीर्घमायुः ॥',
+          meaning: {
+            en: 'Savitri behind us and Savitri before us, Savitri above and Savitri below: may Savitri bring us wholeness of every kind, may Savitri grant us long life.',
+            kn: 'ಹಿಂದೆಯೂ ಸವಿತೃ, ಮುಂದೆಯೂ ಸವಿತೃ, ಮೇಲೆಯೂ ಸವಿತೃ, ಕೆಳಗೆಯೂ ಸವಿತೃ; ಸವಿತೃದೇವನು ನಮಗೆ ಎಲ್ಲ ಬಗೆಯ ಪೂರ್ಣತೆಯನ್ನು ಕೊಡಲಿ, ಸವಿತೃದೇವನು ನಮಗೆ ದೀರ್ಘಾಯುಸ್ಸನ್ನು ಕೊಡಲಿ.',
+          },
+        },
+      ],
+    },
+    {
+      title: 'गोत्राभिवादनम्',
+      titleEn: 'Abhivadana (formal self-introduction)',
+      note: 'Madhva midday: after the upasthana, still standing, recite the peace prayer and blessing and say the abhivadana — holding the right ear with the left hand and the left ear with the right, giving your pravara, gotra, Veda, sutra, shakha and name — and bow touching the ground. Then do achamana and sit for the japa (Uttaradi Matha, Gadag and Vijayapura manuals).',
+      noteKn: 'ಮಾಧ್ವರ ಮಧ್ಯಾಹ್ನ: ಉಪಸ್ಥಾನದ ನಂತರ ನಿಂತಲ್ಲೇ ಶಾಂತಿಮಂತ್ರ, ಆಶೀರ್ವಾದ ವಾಕ್ಯಗಳನ್ನು ಹೇಳಿ, ಎಡಗೈಯಿಂದ ಬಲ ಕಿವಿಯನ್ನೂ ಬಲಗೈಯಿಂದ ಎಡ ಕಿವಿಯನ್ನೂ ಹಿಡಿದು ಪ್ರವರ, ಗೋತ್ರ, ವೇದ, ಸೂತ್ರ, ಶಾಖೆ, ಹೆಸರುಗಳೊಡನೆ ಅಭಿವಾದನ ಮಾಡಿ ನೆಲವನ್ನು ಮುಟ್ಟಿ ನಮಸ್ಕರಿಸಿ. ನಂತರ ಆಚಮನ ಮಾಡಿ ಜಪಕ್ಕೆ ಕುಳಿತುಕೊಳ್ಳಿ (ಉತ್ತರಾದಿಮಠ, ಗದಗ, ವಿಜಾಪುರದ ಪುಸ್ತಕಗಳು).',
+      when: { tradition: ['madhva'], time: ['midday'] },
+      verses: [
+        {
+          text: 'ॐ भद्रं नो अपि वातय मनः ।\nॐ शान्तिः शान्तिः शान्तिः ॥',
+          meaning: {
+            en: 'Inspire our minds towards what is good. Om, peace, peace, peace.',
+            kn: 'ನಮ್ಮ ಮನಸ್ಸನ್ನು ಶುಭದ ಕಡೆಗೆ ಪ್ರೇರೇಪಿಸು. ಓಂ ಶಾಂತಿಃ ಶಾಂತಿಃ ಶಾಂತಿಃ.',
+          },
+        },
+        {
+          text: 'सर्वारिष्टशान्तिरस्तु । समस्तमङ्गलावाप्तिरस्तु ।\nचतुःसागरपर्यन्तं गोब्राह्मणेभ्यः शुभं भवतु ॥',
+          meaning: {
+            en: 'May all misfortunes be stilled; may every blessing be attained. May there be good to cows and Brahmanas as far as the four oceans.',
+            kn: 'ಎಲ್ಲ ಅರಿಷ್ಟಗಳೂ ಶಾಂತವಾಗಲಿ; ಸಮಸ್ತ ಮಂಗಳಗಳೂ ಲಭಿಸಲಿ. ನಾಲ್ಕು ಸಮುದ್ರಗಳವರೆಗಿನ ಗೋವುಗಳಿಗೂ ಬ್ರಾಹ್ಮಣರಿಗೂ ಶುಭವಾಗಲಿ.',
+          },
+        },
+        {
+          text: 'अमुकप्रवरान्वित अमुकगोत्रोत्पन्नः ऋग्वेदस्य आश्वलायनसूत्रः\nशाकल्यशाखाध्यायी अमुकशर्मा अहं भो अभिवादये ॥',
+          meaning: {
+            en: 'I, so-and-so Sharma, born in such-and-such gotra with such-and-such pravara, following the Ashvalayana sutra of the Rigveda and studying the Shakala shakha, offer my salutation.',
+            kn: 'ಇಂತಹ ಪ್ರವರದಿಂದ ಕೂಡಿದ ಇಂತಹ ಗೋತ್ರದಲ್ಲಿ ಹುಟ್ಟಿದ, ಋಗ್ವೇದದ ಆಶ್ವಲಾಯನ ಸೂತ್ರವನ್ನು ಅನುಸರಿಸುವ, ಶಾಕಲ ಶಾಖೆಯನ್ನು ಅಧ್ಯಯನ ಮಾಡುವ ಇಂತಹ ಹೆಸರಿನ ಶರ್ಮನಾದ ನಾನು ನಮಸ್ಕರಿಸುತ್ತೇನೆ.',
+          },
+        },
+        {
+          text: 'आचम्य ॥',
+          meaning: {
+            en: 'Do achamana: sip water three times and touch the limbs with the names of the Lord, as at the beginning.',
+            kn: 'ಆಚಮನ ಮಾಡಿ: ಆರಂಭದಲ್ಲಿ ಮಾಡಿದಂತೆ ಭಗವನ್ನಾಮಗಳೊಂದಿಗೆ ಮೂರು ಬಾರಿ ನೀರು ಸೇವಿಸಿ ಅಂಗಗಳನ್ನು ಸ್ಪರ್ಶಿಸಿ.',
+          },
+        },
+      ],
+    },
+    {
       title: 'केशवादितर्पणम्',
       titleEn: 'Keshavadi tarpana (Madhva)',
-      note: 'After the arghyas, offer tarpana to the Lord’s forms. Take water from the arghya vessel in the uddharane with the left hand, pour it onto the fingers of the right hand and let it run off the fingertips (deva-tirtha) into the plate, once for each name. In the bright fortnight (shukla paksha) use the twelve names from Keshava to Damodara; in the dark fortnight (krishna paksha) the twelve from Sankarshana to Sri Krishna. Manuals say it is not done on Ekadashi and similar days; follow your family practice.',
-      noteKn: 'ಅರ್ಘ್ಯದ ನಂತರ ಭಗವಂತನ ರೂಪಗಳಿಗೆ ತರ್ಪಣ ಕೊಡಬೇಕು. ಎಡಗೈಯಲ್ಲಿ ಉದ್ಧರಣೆಯಿಂದ ಅರ್ಘ್ಯದ ನೀರು ತೆಗೆದು ಬಲಗೈ ಬೆರಳುಗಳ ಮೇಲೆ ಹಾಕಿ, ಬೆರಳ ತುದಿಗಳಿಂದ (ದೇವತೀರ್ಥ) ತಟ್ಟೆಗೆ ಬಿಡಿ — ಒಂದೊಂದು ನಾಮಕ್ಕೆ ಒಮ್ಮೆ. ಶುಕ್ಲಪಕ್ಷದಲ್ಲಿ ಕೇಶವನಿಂದ ದಾಮೋದರನವರೆಗಿನ ಹನ್ನೆರಡು ನಾಮಗಳು; ಕೃಷ್ಣಪಕ್ಷದಲ್ಲಿ ಸಂಕರ್ಷಣನಿಂದ ಶ್ರೀಕೃಷ್ಣನವರೆಗಿನ ಹನ್ನೆರಡು ನಾಮಗಳು. ಏಕಾದಶಿ ಮುಂತಾದ ದಿನಗಳಲ್ಲಿ ಮಾಡಬಾರದೆಂದು ಕೈಪಿಡಿಗಳು ಹೇಳುತ್ತವೆ; ಮನೆತನದ ಪದ್ಧತಿ ಅನುಸರಿಸಿ.',
-      when: { tradition: ['madhva'] },
+      note: 'Morning only: after the arghyas, sit down and offer tarpana. Take water from the arghya vessel in the uddharane with the left hand, pour it onto the fingers of the right hand and let it run off the fingertips (deva-tirtha) into the plate, once for each name. In the bright fortnight (shukla paksha) use the twelve names from Keshava to Damodara; in the dark fortnight (krishna paksha) the twelve from Sankarshana to Sri Krishna. Then offer to the nine planets. On Ekadashi offer only to the twelve forms of the Lord, not to the planets (Uttaradi Matha manual). Afterwards do achamana and pranayama. There is no tarpana at midday or in the evening.',
+      noteKn: 'ಬೆಳಿಗ್ಗೆ ಮಾತ್ರ: ಅರ್ಘ್ಯಗಳ ನಂತರ ಕುಳಿತು ತರ್ಪಣ ಕೊಡಿ. ಎಡಗೈಯಲ್ಲಿ ಉದ್ಧರಣೆಯಿಂದ ಅರ್ಘ್ಯಪಾತ್ರೆಯ ನೀರು ತೆಗೆದು ಬಲಗೈ ಬೆರಳುಗಳ ಮೇಲೆ ಸುರಿದು, ಪ್ರತಿಯೊಂದು ನಾಮಕ್ಕೂ ಬೆರಳ ತುದಿಯಿಂದ (ದೇವತೀರ್ಥ) ತಟ್ಟೆಗೆ ಬಿಡಿ. ಶುಕ್ಲಪಕ್ಷದಲ್ಲಿ ಕೇಶವನಿಂದ ದಾಮೋದರನವರೆಗಿನ ಹನ್ನೆರಡು ನಾಮಗಳು; ಕೃಷ್ಣಪಕ್ಷದಲ್ಲಿ ಸಂಕರ್ಷಣನಿಂದ ಶ್ರೀಕೃಷ್ಣನವರೆಗಿನ ಹನ್ನೆರಡು. ನಂತರ ನವಗ್ರಹ ತರ್ಪಣ. ಏಕಾದಶಿಯಂದು ಕೇಶವಾದಿ ತರ್ಪಣ ಮಾತ್ರ, ನವಗ್ರಹ ತರ್ಪಣ ಕೊಡಬಾರದು (ಉತ್ತರಾದಿಮಠದ ಪುಸ್ತಕ). ನಂತರ ಆಚಮನ, ಪ್ರಾಣಾಯಾಮ ಮಾಡಿ. ಮಧ್ಯಾಹ್ನ ಮತ್ತು ಸಾಯಂಕಾಲ ತರ್ಪಣವಿಲ್ಲ.',
+      when: { tradition: ['madhva'], time: ['morning'] },
       verses: [
         {
           text: 'केशवं तर्पयामि । नारायणं तर्पयामि । माधवं तर्पयामि ।\nगोविन्दं तर्पयामि । विष्णुं तर्पयामि । मधुसूदनं तर्पयामि ।\nत्रिविक्रमं तर्पयामि । वामनं तर्पयामि । श्रीधरं तर्पयामि ।\nहृषीकेशं तर्पयामि । पद्मनाभं तर्पयामि । दामोदरं तर्पयामि ॥',
@@ -1246,15 +1498,29 @@ export const sandhyaVandaneRigveda: Mantra = {
             kn: 'ಕೃಷ್ಣಪಕ್ಷ: ಸಂಕರ್ಷಣ, ವಾಸುದೇವ, ಪ್ರದ್ಯುಮ್ನ, ಅನಿರುದ್ಧ, ಪುರುಷೋತ್ತಮ, ಅಧೋಕ್ಷಜ, ನಾರಸಿಂಹ, ಅಚ್ಯುತ, ಜನಾರ್ದನ, ಉಪೇಂದ್ರ, ಹರಿ, ಶ್ರೀಕೃಷ್ಣ ರೂಪಗಳ ಭಗವಂತನನ್ನು ಜಲತರ್ಪಣದಿಂದ ಸಂತೋಷಪಡಿಸುತ್ತೇನೆ.',
           },
         },
+        {
+          text: 'सूर्यं तर्पयामि । चन्द्रं तर्पयामि । अङ्गारकं तर्पयामि ।\nबुधं तर्पयामि । बृहस्पतिं तर्पयामि । शुक्रं तर्पयामि ।\nशनैश्चरं तर्पयामि । राहुं तर्पयामि । केतुं तर्पयामि ॥',
+          meaning: {
+            en: 'I satisfy with water the nine planets: the Sun, the Moon, Mars, Mercury, Jupiter, Venus, Saturn, Rahu and Ketu. (Not on Ekadashi.)',
+            kn: 'ಸೂರ್ಯ, ಚಂದ್ರ, ಅಂಗಾರಕ, ಬುಧ, ಬೃಹಸ್ಪತಿ, ಶುಕ್ರ, ಶನೈಶ್ಚರ, ರಾಹು, ಕೇತು — ನವಗ್ರಹಗಳನ್ನು ಜಲದಿಂದ ತೃಪ್ತಿಪಡಿಸುತ್ತೇನೆ. (ಏಕಾದಶಿಯಂದು ಬೇಡ.)',
+          },
+        },
       ],
     },
     {
       title: 'सन्ध्याङ्गतर्पणम्',
       titleEn: 'Sandhyanga tarpana (Smarta, where practised)',
-      note: 'Practised in some Rigvedin Smarta families (it is not in every Karnataka manual). Pour water from the right hand into the plate once with each name, then do achamana.',
-      noteKn: 'ಕೆಲವು ಋಗ್ವೇದಿ ಸ್ಮಾರ್ತ ಮನೆತನಗಳಲ್ಲಿ ಮಾತ್ರ ಆಚರಣೆಯಲ್ಲಿದೆ (ಎಲ್ಲ ಕರ್ನಾಟಕದ ಕೈಪಿಡಿಗಳಲ್ಲೂ ಇಲ್ಲ). ಒಂದೊಂದು ನಾಮಕ್ಕೂ ಬಲಗೈಯಿಂದ ತಟ್ಟೆಗೆ ನೀರು ಬಿಟ್ಟು, ನಂತರ ಆಚಮನ ಮಾಡಿ.',
+      note: 'After the arghyas, sit down and pour water from the right hand into the plate once with each name. The Karnataka Rigvedi Smarta manuals (Somayaji, Balkur) give the first set — the three worlds, Gayatri, Savitri, Sarasvati, Narayana and Shiva — at every sandhya. Andhra manuals instead give the tarpana to Sandhya and her forms for the time of day (the lines that follow). Then do achamana.',
+      noteKn: 'ಅರ್ಘ್ಯಗಳ ನಂತರ ಕುಳಿತು, ಪ್ರತಿಯೊಂದು ನಾಮಕ್ಕೂ ಬಲಗೈಯಿಂದ ಒಂದೊಂದು ಬಾರಿ ನೀರನ್ನು ತಟ್ಟೆಗೆ ಬಿಡಿ. ಕರ್ನಾಟಕದ ಋಗ್ವೇದಿ ಸ್ಮಾರ್ತ ಪುಸ್ತಕಗಳು (ಸೋಮಯಾಜಿ, ಬಳ್ಕೂರು) ಮೊದಲ ಗುಂಪನ್ನು — ಮೂರು ಲೋಕಗಳು, ಗಾಯತ್ರಿ, ಸಾವಿತ್ರಿ, ಸರಸ್ವತಿ, ನಾರಾಯಣ, ಶಿವ — ಎಲ್ಲ ಸಂಧ್ಯೆಗಳಲ್ಲೂ ಕೊಡುತ್ತವೆ. ಆಂಧ್ರದ ಪುಸ್ತಕಗಳು ಅದರ ಬದಲು ಆಯಾ ಕಾಲದ ಸಂಧ್ಯಾದೇವಿ ಮತ್ತು ಅವಳ ರೂಪಗಳಿಗೆ ತರ್ಪಣ ಕೊಡುತ್ತವೆ (ಮುಂದಿನ ಸಾಲುಗಳು). ನಂತರ ಆಚಮನ ಮಾಡಿ.',
       when: { tradition: ['smarta'] },
       verses: [
+        {
+          text: 'ॐ भूस्तर्पयामि । ॐ भुवस्तर्पयामि । ॐ स्वस्तर्पयामि ।\nॐ भूर्भुवःस्वस्तर्पयामि । गायत्रीं तर्पयामि ।\nसावित्रीं तर्पयामि । सरस्वतीं तर्पयामि ।\nॐ नमो नारायणाय नारायणं तर्पयामि ।\nॐ नमः शिवाय शिवं तर्पयामि ॥',
+          meaning: {
+            en: 'I satisfy with water Bhuh, Bhuvah and Svah, and all three together; I satisfy Gayatri, Savitri and Sarasvati; with “Om namo Narayanaya” I satisfy Narayana, and with “Om namah Shivaya” I satisfy Shiva.',
+            kn: 'ಭೂಃ, ಭುವಃ, ಸ್ವಃ ಎಂಬ ಲೋಕಗಳನ್ನೂ ಮೂರನ್ನೂ ಒಟ್ಟಾಗಿಯೂ ಜಲದಿಂದ ತೃಪ್ತಿಪಡಿಸುತ್ತೇನೆ; ಗಾಯತ್ರಿ, ಸಾವಿತ್ರಿ, ಸರಸ್ವತಿಯರನ್ನು ತೃಪ್ತಿಪಡಿಸುತ್ತೇನೆ; “ಓಂ ನಮೋ ನಾರಾಯಣಾಯ” ಎಂದು ನಾರಾಯಣನನ್ನೂ, “ಓಂ ನಮಃ ಶಿವಾಯ” ಎಂದು ಶಿವನನ್ನೂ ತೃಪ್ತಿಪಡಿಸುತ್ತೇನೆ.',
+          },
+        },
         {
           when: { time: ['morning'] },
           text: 'सन्ध्यां तर्पयामि । गायत्रीं तर्पयामि ।\nब्राह्मीं तर्पयामि । निमृजीं तर्पयामि ॥',
@@ -1291,8 +1557,8 @@ export const sandhyaVandaneRigveda: Mantra = {
     {
       title: 'भूतोच्चाटनम् आसनशुद्धिश्च',
       titleEn: 'Bhutochchatana and asana-shuddhi (before japa)',
-      note: 'Before sitting for japa, say the viniyoga and अपसर्पन्तु…, snapping the fingers towards your left (some sprinkle a little water or throw akshata around) to send away obstructing beings. Say निरस्तः परावसुः…, then sprinkle and touch the seat with the right hand, say the viniyoga and pray to the Earth with पृथ्वि त्वया… and मां च पूतं…, bow to the seat as resting on Ananta and Kurma, and sit down firmly — facing east in the morning and at midday, west in the evening.',
-      noteKn: 'ಜಪಕ್ಕೆ ಕುಳಿತುಕೊಳ್ಳುವ ಮೊದಲು ವಿನಿಯೋಗ ಮತ್ತು “ಅಪಸರ್ಪಂತು…” ಹೇಳುತ್ತಾ ಎಡಭಾಗಕ್ಕೆ ಚಿಟಿಕೆ ಹೊಡೆದು (ಕೆಲವರು ಸುತ್ತ ನೀರು ಅಥವಾ ಅಕ್ಷತೆ ಹಾಕುತ್ತಾರೆ) ವಿಘ್ನಕಾರಿ ಭೂತಗಳನ್ನು ಓಡಿಸಿ. “ನಿರಸ್ತಃ ಪರಾವಸುಃ…” ಹೇಳಿ, ಆಸನಕ್ಕೆ ನೀರು ಪ್ರೋಕ್ಷಿಸಿ ಬಲಗೈಯಿಂದ ಮುಟ್ಟಿ, ವಿನಿಯೋಗದೊಂದಿಗೆ “ಪೃಥ್ವಿ ತ್ವಯಾ…”, “ಮಾಂ ಚ ಪೂತಂ…” ಎಂದು ಭೂದೇವಿಯನ್ನು ಪ್ರಾರ್ಥಿಸಿ, ಅನಂತ–ಕೂರ್ಮರ ಮೇಲಿರುವ ಆಸನಕ್ಕೆ ನಮಸ್ಕರಿಸಿ ಸ್ಥಿರವಾಗಿ ಕುಳಿತುಕೊಳ್ಳಿ — ಬೆಳಗ್ಗೆ, ಮಧ್ಯಾಹ್ನ ಪೂರ್ವಾಭಿಮುಖವಾಗಿ, ಸಂಜೆ ಪಶ್ಚಿಮಾಭಿಮುಖವಾಗಿ.',
+      note: 'Before sitting for japa, say the viniyoga and अपसर्पन्तु…, snapping the fingers towards your left to send away obstructing beings. Then touch the seat with the right hand, say the viniyoga and pray to the Earth with पृथ्वि त्वया… and मां च पूतं…, think of the seat as resting on Ananta and bow to it, and sit down firmly — facing east in the morning and at midday, west in the evening.',
+      noteKn: 'ಜಪಕ್ಕೆ ಕುಳಿತುಕೊಳ್ಳುವ ಮೊದಲು ವಿನಿಯೋಗ ಮತ್ತು “ಅಪಸರ್ಪಂತು…” ಹೇಳುತ್ತಾ ಎಡಭಾಗದ ಕಡೆಗೆ ಚಿಟಿಕೆ ಹೊಡೆದು ವಿಘ್ನಕಾರಿ ಭೂತಗಳನ್ನು ಓಡಿಸಿ. ನಂತರ ಬಲಗೈಯಿಂದ ಆಸನವನ್ನು ಮುಟ್ಟಿ, ವಿನಿಯೋಗ ಹೇಳಿ “ಪೃಥ್ವಿ ತ್ವಯಾ…”, “ಮಾಂ ಚ ಪೂತಂ…” ಎಂದು ಭೂದೇವಿಯನ್ನು ಪ್ರಾರ್ಥಿಸಿ; ಆಸನವು ಅನಂತನ ಮೇಲಿದೆಯೆಂದು ಭಾವಿಸಿ ನಮಸ್ಕರಿಸಿ, ಸ್ಥಿರವಾಗಿ ಕುಳಿತುಕೊಳ್ಳಿ — ಬೆಳಿಗ್ಗೆ ಮತ್ತು ಮಧ್ಯಾಹ್ನ ಪೂರ್ವಾಭಿಮುಖವಾಗಿ, ಸಾಯಂಕಾಲ ಪಶ್ಚಿಮಾಭಿಮುಖವಾಗಿ.',
       when: { tradition: ['madhva'] },
       verses: [
         {
@@ -1303,17 +1569,10 @@ export const sandhyaVandaneRigveda: Mantra = {
           },
         },
         {
-          text: 'अपसर्पन्तु ये भूता ये भूता भुवि संस्थिताः ।\nये भूता विघ्नकर्तारस्ते नश्यन्तु शिवाज्ञया ॥\nअपक्रामन्तु ये भूताः क्रूराश्चैव तु राक्षसाः ।\nये चात्र निवसन्त्येव देवता भुवि सन्ततम् ।\nतेषामप्यविरोधेन ब्रह्मकर्म समारभे ॥',
+          text: 'अपसर्पन्तु ते भूता ये भूता भुवि संस्थिताः ।\nये भूता विघ्नकर्तारस्ते नश्यन्तु शिवाज्ञया ॥\nअपक्रामन्तु ये भूताः क्रूराश्चैव तु राक्षसाः ।\nये चात्र निवसन्त्येव देवता भुवि सन्ततम् ।\nतेषामप्यविरोधेन ब्रह्मकर्म समारभे ॥',
           meaning: {
             en: 'May the beings that dwell on the earth move away; may those that cause obstacles perish at the auspicious command. Let the beings and cruel rakshasas depart. Without offending the deities who always dwell here, I begin this sacred rite.',
             kn: 'ಭೂಮಿಯಲ್ಲಿರುವ ಭೂತಗಳು ದೂರ ಸರಿಯಲಿ; ವಿಘ್ನವನ್ನುಂಟುಮಾಡುವವು ಮಂಗಳಕರ ಆಜ್ಞೆಯಿಂದ ನಾಶವಾಗಲಿ. ಭೂತಗಳೂ ಕ್ರೂರ ರಾಕ್ಷಸರೂ ತೊಲಗಲಿ. ಇಲ್ಲಿ ಸದಾ ನೆಲೆಸಿರುವ ದೇವತೆಗಳಿಗೆ ವಿರೋಧವಾಗದಂತೆ ಈ ಬ್ರಹ್ಮಕರ್ಮವನ್ನು ಆರಂಭಿಸುತ್ತೇನೆ.',
-          },
-        },
-        {
-          text: 'निरस्तः परावसुः । इदमहमर्वावसोः सदने सीदामि ।\nआसने सोममण्डले कूर्मस्कन्धे उपविष्टोऽस्मि ॥',
-          meaning: {
-            en: 'Paravasu, the hindering one, is driven away; I sit here in the seat of Arvavasu, the helping one. I am seated on this seat as on the orb of the Moon, on the shoulders of Kurma, the divine Tortoise.',
-            kn: 'ವಿಘ್ನಕಾರಿಯಾದ ಪರಾವಸು ಹೊರಗಟ್ಟಲ್ಪಟ್ಟಿದ್ದಾನೆ; ಸಹಾಯಕನಾದ ಅರ್ವಾವಸುವಿನ ಆಸನದಲ್ಲಿ ನಾನು ಕುಳಿತಿದ್ದೇನೆ. ಚಂದ್ರಮಂಡಲದಂತಿರುವ, ಕೂರ್ಮದೇವರ ಹೆಗಲ ಮೇಲಿರುವ ಈ ಆಸನದಲ್ಲಿ ಕುಳಿತಿದ್ದೇನೆ.',
           },
         },
         {
@@ -1331,17 +1590,17 @@ export const sandhyaVandaneRigveda: Mantra = {
           },
         },
         {
-          text: 'मां च पूतं कुरु धरे नतोऽस्मि त्वां सुरेश्वरि ॥',
+          text: 'मां च पूतं कुरु धरे नतोऽस्मि त्वां सुरेश्वरि ।\nआसने सोममण्डले कूर्मस्कन्धे उपविष्टोऽस्मि ॥',
           meaning: {
-            en: 'Make me pure as well, O Earth; I bow to you, queen of the gods.',
-            kn: 'ಓ ಭೂದೇವಿ, ನನ್ನನ್ನೂ ಪವಿತ್ರನನ್ನಾಗಿ ಮಾಡು; ದೇವತೆಗಳ ಒಡತಿಯೇ, ನಿನಗೆ ನಮಿಸುತ್ತೇನೆ.',
+            en: 'Make me pure as well, O Earth; I bow to you, queen of the gods. I am seated on this seat as on the orb of the Moon, on the shoulders of Kurma, the divine Tortoise.',
+            kn: 'ಓ ಭೂದೇವಿ, ನನ್ನನ್ನೂ ಪವಿತ್ರನನ್ನಾಗಿ ಮಾಡು; ದೇವತೆಗಳ ಒಡತಿಯೇ, ನಿನಗೆ ನಮಿಸುತ್ತೇನೆ. ಚಂದ್ರಮಂಡಲದಂತಿರುವ, ಕೂರ್ಮದೇವರ ಹೆಗಲ ಮೇಲಿರುವ ಈ ಆಸನದಲ್ಲಿ ಕುಳಿತಿದ್ದೇನೆ.',
           },
         },
         {
-          text: 'अनन्तासनाय नमः । कूर्मासनाय नमः ॥',
+          text: 'अनन्तासनाय नमः ॥',
           meaning: {
-            en: 'Salutations to the seat that is Ananta; salutations to the seat that is Kurma.',
-            kn: 'ಅನಂತನೆಂಬ ಆಸನಕ್ಕೆ ನಮಸ್ಕಾರ; ಕೂರ್ಮನೆಂಬ ಆಸನಕ್ಕೆ ನಮಸ್ಕಾರ.',
+            en: 'Salutations to the seat that is Ananta, the divine serpent who bears the earth.',
+            kn: 'ಭೂಮಿಯನ್ನು ಹೊತ್ತಿರುವ ಅನಂತನೆಂಬ ಆಸನಕ್ಕೆ ನಮಸ್ಕಾರ.',
           },
         },
       ],
@@ -1388,6 +1647,7 @@ export const sandhyaVandaneRigveda: Mantra = {
       titleEn: 'Gayatri avahana (invocation)',
       note: 'Seated, with folded hands, invoke Gayatri. Say the pranava viniyoga, then आयातु… and ओजोऽसि…, and the avahana names. With the last passage (rishi, chandas, devata and the limbs of Gayatri) touch, as you name them: the mouth (Agni), the head (Brahma), the heart (Vishnu), the tuft of hair (Rudra), and the feet / ground (Prithivi).',
       noteKn: 'ಕುಳಿತು ಕೈಮುಗಿದು ಗಾಯತ್ರಿಯನ್ನು ಆಹ್ವಾನಿಸಿ. ಪ್ರಣವದ ವಿನಿಯೋಗ, ನಂತರ “ಆಯಾತು”, “ಓಜೋಽಸಿ” ಮತ್ತು ಆವಾಹನ ನಾಮಗಳನ್ನು ಹೇಳಿ. ಕೊನೆಯ ಭಾಗದಲ್ಲಿ (ಋಷಿ, ಛಂದಸ್ಸು, ದೇವತೆ ಮತ್ತು ಗಾಯತ್ರಿಯ ಅಂಗಗಳು) ಹೆಸರು ಹೇಳುವಾಗ ಕ್ರಮವಾಗಿ ಬಾಯಿ (ಅಗ್ನಿ), ತಲೆ (ಬ್ರಹ್ಮ), ಹೃದಯ (ವಿಷ್ಣು), ಶಿಖೆ (ರುದ್ರ), ಪಾದ / ನೆಲ (ಪೃಥಿವೀ) ಮುಟ್ಟಿಕೊಳ್ಳಿ.',
+      when: { tradition: ['smarta'] },
       verses: [
         {
           text: 'ओमित्येकाक्षरं ब्रह्म । अग्निर्देवता । ब्रह्म इत्यार्षम् ।\nगायत्रं छन्दम् । परमात्मं सरूपम् । सायुज्यं विनियोगम् ॥',
@@ -1441,14 +1701,14 @@ export const sandhyaVandaneRigveda: Mantra = {
           },
         },
         {
-          text: 'ॐ तत्सवितुरङ्गुष्ठाभ्यां नमः ।\nॐ वरेण्यं तर्जनीभ्यां नमः ।\nॐ भर्गो देवस्य मध्यमाभ्यां नमः ।\nॐ धीमहि अनामिकाभ्यां नमः ।\nॐ धियो यो नः कनिष्ठिकाभ्यां नमः ।\nॐ प्रचोदयात् करतलकरपृष्ठाभ्यां नमः ॥',
+          text: 'तत्सवितुः अङ्गुष्ठाभ्यां नमः ।\nवरेण्यं तर्जनीभ्यां नमः ।\nभर्गो देवस्य मध्यमाभ्यां नमः ।\nधीमहि अनामिकाभ्यां नमः ।\nधियो यो नः कनिष्ठिकाभ्यां नमः ।\nप्रचोदयात् करतलकरपृष्ठाभ्यां नमः ॥',
           meaning: {
             en: 'The six parts of the Gayatri are placed, with salutation, on the thumbs, index fingers, middle fingers, ring fingers, little fingers, and the palms and backs of the hands.',
             kn: 'ಗಾಯತ್ರಿಯ ಆರು ಭಾಗಗಳನ್ನು ನಮಸ್ಕಾರಪೂರ್ವಕವಾಗಿ ಹೆಬ್ಬೆರಳು, ತೋರುಬೆರಳು, ನಡುಬೆರಳು, ಉಂಗುರದ ಬೆರಳು, ಕಿರುಬೆರಳು ಮತ್ತು ಅಂಗೈ–ಕೈಹಿಂಭಾಗಗಳಲ್ಲಿ ನ್ಯಾಸಮಾಡುತ್ತೇನೆ.',
           },
         },
         {
-          text: 'ॐ तत्सवितुर्हृदयाय नमः ।\nॐ वरेण्यं शिरसे स्वाहा ।\nॐ भर्गो देवस्य शिखायै वषट् ।\nॐ धीमहि कवचाय हुम् ।\nॐ धियो यो नः नेत्राभ्यां वौषट् ।\nॐ प्रचोदयात् अस्त्राय फट् ।\nॐ भूर्भुवः स्वरोमिति दिग्बन्धः ॥',
+          text: 'तत्सवितुः हृदयाय नमः ।\nवरेण्यं शिरसे स्वाहा ।\nभर्गो देवस्य शिखायै वषट् ।\nधीमहि कवचाय हुम् ।\nधियो यो नः नेत्राभ्यां वौषट् ।\nप्रचोदयात् अस्त्राय फट् ।\nभूर्भुवः स्वरोमिति दिग्बन्धः ॥',
           meaning: {
             en: 'The six parts of the Gayatri are placed on the heart, the head, the tuft, the shoulders as armour, the eyes, and as a weapon around oneself; with “bhur bhuvah svar om” the directions are sealed.',
             kn: 'ಗಾಯತ್ರಿಯ ಆರು ಭಾಗಗಳನ್ನು ಹೃದಯ, ತಲೆ, ಶಿಖೆ, ಕವಚವಾಗಿ ಭುಜಗಳು, ಕಣ್ಣುಗಳು ಮತ್ತು ಸುತ್ತಲೂ ಅಸ್ತ್ರವಾಗಿ ನ್ಯಾಸಮಾಡುತ್ತೇನೆ; “ಭೂರ್ಭುವಃ ಸ್ವರೋಂ” ಎಂದು ದಿಕ್ಕುಗಳನ್ನು ಬಂಧಿಸುತ್ತೇನೆ.',
@@ -1459,8 +1719,8 @@ export const sandhyaVandaneRigveda: Mantra = {
     {
       title: 'गायत्र्याह्वानम्',
       titleEn: 'Gayatri ahvana, viniyoga and dhyana',
-      note: 'With folded hands invite the Gayatri to be present for the japa. Say the viniyoga, touching the head (seer), mouth (metre) and heart (deity). Then meditate on Sri Narayana seated on a lotus in the middle of the solar orb (the Sadachara-smriti explains that Gayatri in the morning, Savitri at midday and Sarasvati in the evening are all names of Narayana), and make the resolve for japa, letting a ladle of water fall into the plate.',
-      noteKn: 'ಕೈಮುಗಿದು ಜಪಕ್ಕೆ ಸನ್ನಿಹಿತಳಾಗಲು ಗಾಯತ್ರಿಯನ್ನು ಆಹ್ವಾನಿಸಿ. ತಲೆ (ಋಷಿ), ಬಾಯಿ (ಛಂದಸ್ಸು), ಹೃದಯ (ದೇವತೆ) ಮುಟ್ಟುತ್ತಾ ವಿನಿಯೋಗ ಹೇಳಿ. ನಂತರ ಸೂರ್ಯಮಂಡಲದ ಮಧ್ಯದಲ್ಲಿ ಕಮಲಾಸನದಲ್ಲಿ ಕುಳಿತ ಶ್ರೀನಾರಾಯಣನನ್ನು ಧ್ಯಾನಿಸಿ (ಬೆಳಗಿನ ಗಾಯತ್ರಿ, ಮಧ್ಯಾಹ್ನದ ಸಾವಿತ್ರಿ, ಸಂಜೆಯ ಸರಸ್ವತಿ — ಎಲ್ಲವೂ ನಾರಾಯಣನ ಹೆಸರುಗಳೇ ಎಂದು ಸದಾಚಾರಸ್ಮೃತಿ ಹೇಳುತ್ತದೆ), ಜಪದ ಸಂಕಲ್ಪ ಹೇಳಿ ಒಂದು ಉದ್ಧರಣೆ ನೀರನ್ನು ತಟ್ಟೆಗೆ ಬಿಡಿ.',
+      note: 'With folded hands invite the Lord, as Gayatri, into the heart for the japa with आगच्छ वरदे देवि…. Say the viniyoga, touching the head (seer), mouth (metre) and heart (deity). Then meditate on Sri Narayana seated on a lotus in the middle of the solar orb (the Sadachara-smriti explains that Gayatri in the morning, Savitri at midday and Sarasvati in the evening are all names of Narayana), recite the passage रक्तो वर्णः… describing the Gayatri, and make the resolve for japa, letting a ladle of water fall into the plate. (The Gadag and Vijayapura manuals read पृथिवी योनिः in that passage and change the colour with the time: white at midday, dark in the evening.)',
+      noteKn: 'ಕೈಮುಗಿದು “ಆಗಚ್ಛ ವರದೇ ದೇವಿ…” ಎಂದು ಗಾಯತ್ರೀನಾಮಕ ಭಗವಂತನನ್ನು ಜಪಕ್ಕಾಗಿ ಹೃದಯಕ್ಕೆ ಆಹ್ವಾನಿಸಿ. ತಲೆ (ಋಷಿ), ಬಾಯಿ (ಛಂದಸ್ಸು), ಹೃದಯ (ದೇವತೆ) ಮುಟ್ಟುತ್ತಾ ವಿನಿಯೋಗ ಹೇಳಿ. ನಂತರ ಸೂರ್ಯಮಂಡಲದ ಮಧ್ಯದಲ್ಲಿ ಕಮಲಾಸನದಲ್ಲಿ ಕುಳಿತ ಶ್ರೀನಾರಾಯಣನನ್ನು ಧ್ಯಾನಿಸಿ (ಬೆಳಗಿನ ಗಾಯತ್ರಿ, ಮಧ್ಯಾಹ್ನದ ಸಾವಿತ್ರಿ, ಸಂಜೆಯ ಸರಸ್ವತಿ — ಎಲ್ಲವೂ ನಾರಾಯಣನ ನಾಮಗಳೇ ಎಂದು ಸದಾಚಾರಸ್ಮೃತಿ ವಿವರಿಸುತ್ತದೆ), ಗಾಯತ್ರಿಯನ್ನು ವರ್ಣಿಸುವ “ರಕ್ತೋ ವರ್ಣಃ…” ಎಂಬ ವಾಕ್ಯ ಹೇಳಿ, ಜಪಸಂಕಲ್ಪ ಮಾಡಿ ಒಂದು ಉದ್ಧರಣೆ ನೀರನ್ನು ತಟ್ಟೆಗೆ ಬಿಡಿ. (ಗದಗ ಮತ್ತು ವಿಜಾಪುರದ ಪುಸ್ತಕಗಳಲ್ಲಿ ಆ ವಾಕ್ಯದಲ್ಲಿ “ಪೃಥಿವೀ ಯೋನಿಃ” ಎಂದಿದೆ; ವರ್ಣ ಕಾಲಕ್ಕೆ ತಕ್ಕಂತೆ ಬದಲಾಗುತ್ತದೆ: ಮಧ್ಯಾಹ್ನ ಶ್ವೇತ, ಸಂಜೆ ಕೃಷ್ಣ.)',
       when: { tradition: ['madhva'] },
       verses: [
         {
@@ -1471,10 +1731,10 @@ export const sandhyaVandaneRigveda: Mantra = {
           },
         },
         {
-          text: 'अस्य श्रीगायत्रीमहामन्त्रस्य विश्वामित्र ऋषिः । दैवी गायत्री छन्दः ।\nसवितृनामकश्रीलक्ष्मीनारायणो देवता ।\nश्रीलक्ष्मीनारायणप्रसादसिद्ध्यर्थे जपे विनियोगः ॥',
+          text: 'प्रणवस्य परब्रह्म ऋषिः । परमात्मा देवता । दैवी गायत्री छन्दः ।\nव्याहृतीनां प्रजापतिरृषिः । अग्निवायुसूर्या देवताः । गायत्र्युष्णिगनुष्टुभश्छन्दांसि ।\nगायत्र्या विश्वामित्र ऋषिः । सविता देवता । गायत्री छन्दः ।\nजपे विनियोगः ॥',
           meaning: {
-            en: 'Of this great Gayatri mantra the seer is Vishvamitra, the metre daivi gayatri, and the deity Sri Lakshminarayana named Savitri; it is recited in japa to win his grace.',
-            kn: 'ಈ ಗಾಯತ್ರೀ ಮಹಾಮಂತ್ರಕ್ಕೆ ವಿಶ್ವಾಮಿತ್ರ ಋಷಿ, ದೈವೀ ಗಾಯತ್ರೀ ಛಂದಸ್ಸು, ಸವಿತೃನಾಮಕ ಶ್ರೀಲಕ್ಷ್ಮೀನಾರಾಯಣನು ದೇವತೆ; ಅವನ ಅನುಗ್ರಹ ಸಿದ್ಧಿಗಾಗಿ ಜಪದಲ್ಲಿ ವಿನಿಯೋಗ.',
+            en: 'For the pranava the seer is Parabrahman, the deity the Supreme Self, the metre daivi gayatri; for the vyahritis the seer is Prajapati, the deities Agni, Vayu and Surya, the metres Gayatri, Ushnik and Anushtubh; for the Gayatri the seer is Vishvamitra, the deity Savitri (for Madhvas, Sri Lakshminarayana named Savitri), the metre Gayatri; all are used in japa.',
+            kn: 'ಪ್ರಣವಕ್ಕೆ ಪರಬ್ರಹ್ಮ ಋಷಿ, ಪರಮಾತ್ಮ ದೇವತೆ, ದೈವೀ ಗಾಯತ್ರೀ ಛಂದಸ್ಸು; ವ್ಯಾಹೃತಿಗಳಿಗೆ ಪ್ರಜಾಪತಿ ಋಷಿ, ಅಗ್ನಿ–ವಾಯು–ಸೂರ್ಯರು ದೇವತೆಗಳು, ಗಾಯತ್ರೀ–ಉಷ್ಣಿಕ್–ಅನುಷ್ಟುಪ್ ಛಂದಸ್ಸುಗಳು; ಗಾಯತ್ರಿಗೆ ವಿಶ್ವಾಮಿತ್ರ ಋಷಿ, ಸವಿತೃ ದೇವತೆ (ಮಾಧ್ವರಿಗೆ ಸವಿತೃನಾಮಕ ಶ್ರೀಲಕ್ಷ್ಮೀನಾರಾಯಣ), ಗಾಯತ್ರೀ ಛಂದಸ್ಸು; ಜಪದಲ್ಲಿ ವಿನಿಯೋಗ.',
           },
         },
         {
@@ -1482,6 +1742,13 @@ export const sandhyaVandaneRigveda: Mantra = {
           meaning: {
             en: 'Always to be meditated upon is Narayana in the centre of the sun’s orb, seated on a lotus, wearing armlets, fish-shaped earrings, a crown and necklaces, golden of form, holding the conch and the discus.',
             kn: 'ಸೂರ್ಯಮಂಡಲದ ಮಧ್ಯದಲ್ಲಿರುವ, ಕಮಲಾಸನದಲ್ಲಿ ಕುಳಿತಿರುವ, ಕೇಯೂರ, ಮಕರಕುಂಡಲ, ಕಿರೀಟ, ಹಾರಗಳನ್ನು ಧರಿಸಿರುವ, ಚಿನ್ನದಂತೆ ಹೊಳೆಯುವ ದೇಹವುಳ್ಳ, ಶಂಖಚಕ್ರಧಾರಿಯಾದ ಶ್ರೀನಾರಾಯಣನನ್ನು ಸದಾ ಧ್ಯಾನಿಸಬೇಕು.',
+          },
+        },
+        {
+          text: 'रक्तो वर्णः । अग्निर्मुखम् । ब्रह्मा शिरः । विष्णुर्हृदयम् । रुद्रो ललाटम् ।\nपृथिवी कुक्षिः । त्रैलोक्यं चरणाः । प्राणापानव्यानोदानसमाना सप्राणा\nश्वेतवर्णा सांख्यायनसगोत्रा गायत्री सावित्री सरस्वती\nचतुर्विंशत्यक्षरा त्रिपदा षट्कुक्षिः पञ्चशीर्षोपनयने विनियोगः ॥',
+          meaning: {
+            en: 'Her colour is red; Agni is her mouth, Brahma her head, Vishnu her heart, Rudra her forehead, the earth her belly and the three worlds her feet; she is alive with the five vital breaths, white in colour, of the Sankhyayana gotra — Gayatri, Savitri, Sarasvati — of twenty-four syllables, three feet, six bellies and five heads; she is invoked for the upanayana and for japa.',
+            kn: 'ಆಕೆಯ ವರ್ಣ ಕೆಂಪು; ಅಗ್ನಿ ಮುಖ, ಬ್ರಹ್ಮ ಶಿರಸ್ಸು, ವಿಷ್ಣು ಹೃದಯ, ರುದ್ರ ಹಣೆ, ಭೂಮಿ ಹೊಟ್ಟೆ, ಮೂರು ಲೋಕಗಳು ಪಾದಗಳು; ಪ್ರಾಣ–ಅಪಾನ–ವ್ಯಾನ–ಉದಾನ–ಸಮಾನಗಳೆಂಬ ಪ್ರಾಣಗಳಿಂದ ಕೂಡಿದವಳು, ಶ್ವೇತವರ್ಣೆ, ಸಾಂಖ್ಯಾಯನ ಗೋತ್ರದವಳು — ಗಾಯತ್ರೀ, ಸಾವಿತ್ರೀ, ಸರಸ್ವತೀ — ಇಪ್ಪತ್ನಾಲ್ಕು ಅಕ್ಷರ, ಮೂರು ಪಾದ, ಆರು ಕುಕ್ಷಿ, ಐದು ಶಿರಸ್ಸುಗಳುಳ್ಳವಳು; ಉಪನಯನಕ್ಕೂ ಜಪಕ್ಕೂ ವಿನಿಯೋಗ.',
           },
         },
         {
@@ -1543,8 +1810,8 @@ export const sandhyaVandaneRigveda: Mantra = {
     {
       title: 'करन्यासः अङ्गन्यासश्च',
       titleEn: 'Kara-nyasa and anga-nyasa (Smarta)',
-      note: 'Kara-nyasa: with each line touch the named finger with the thumb (the thumb with the index finger), and at the last line rub the palms and backs of the hands together. Anga-nyasa: touch the heart, the top of the head and the tuft; touch the shoulders crosswise (kavacha); touch the eyes (and the middle of the brow); for astraya phat circle the right hand round the head and clap; with the last line snap the fingers in the ten directions (digbandha). The same nyasa is repeated after japa, ending with “digvimokah” instead of “digbandhah”.',
-      noteKn: 'ಕರನ್ಯಾಸ: ಒಂದೊಂದು ವಾಕ್ಯಕ್ಕೂ ಹೆಸರಿಸಿದ ಬೆರಳನ್ನು ಹೆಬ್ಬೆರಳಿನಿಂದ (ಹೆಬ್ಬೆರಳನ್ನು ತೋರುಬೆರಳಿನಿಂದ) ಮುಟ್ಟಿ; ಕೊನೆಯ ವಾಕ್ಯಕ್ಕೆ ಅಂಗೈ ಮತ್ತು ಕೈಹಿಂಭಾಗಗಳನ್ನು ಉಜ್ಜಿ. ಅಂಗನ್ಯಾಸ: ಹೃದಯ, ನೆತ್ತಿ, ಶಿಖೆ ಮುಟ್ಟಿ; ಅಡ್ಡಗೈಯಿಂದ ಭುಜಗಳನ್ನು ಮುಟ್ಟಿ (ಕವಚ); ಕಣ್ಣುಗಳನ್ನು (ಮತ್ತು ಹುಬ್ಬುಗಳ ಮಧ್ಯವನ್ನು) ಮುಟ್ಟಿ; “ಅಸ್ತ್ರಾಯ ಫಟ್” ಎನ್ನುವಾಗ ಬಲಗೈಯನ್ನು ತಲೆಯ ಸುತ್ತ ತಿರುಗಿಸಿ ಚಪ್ಪಾಳೆ ತಟ್ಟಿ; ಕೊನೆಯ ವಾಕ್ಯದಿಂದ ಹತ್ತು ದಿಕ್ಕುಗಳಲ್ಲಿ ಚಿಟಿಕೆ ಹೊಡೆಯಿರಿ (ದಿಗ್ಬಂಧ). ಜಪದ ನಂತರ ಇದೇ ನ್ಯಾಸವನ್ನು ಮತ್ತೆ ಮಾಡಿ, ಕೊನೆಯಲ್ಲಿ “ದಿಗ್ಬಂಧಃ” ಬದಲು “ದಿಗ್ವಿಮೋಕಃ” ಎನ್ನಬೇಕು.',
+      note: 'Kara-nyasa: with each line touch the named finger with the thumb (the thumb with the index finger), and at the last line rub the palms and backs of the hands together. Anga-nyasa: touch the heart, the top of the head and the tuft; touch the shoulders crosswise (kavacha); touch the eyes (and the middle of the brow); for astraya phat circle the right hand round the head and clap; with the last line snap the fingers in the ten directions (digbandha). The same nyasa is repeated after japa, ending with “digvimokah” instead of “digbandhah”. Karnataka manuals read धीमहि ईश्वरात्मने and धियो यो नः सदाशिवात्मने in the fourth and fifth lines.',
+      noteKn: 'ಕರನ್ಯಾಸ: ಒಂದೊಂದು ವಾಕ್ಯಕ್ಕೂ ಹೆಸರಿಸಿದ ಬೆರಳನ್ನು ಹೆಬ್ಬೆರಳಿನಿಂದ (ಹೆಬ್ಬೆರಳನ್ನು ತೋರುಬೆರಳಿನಿಂದ) ಮುಟ್ಟಿ; ಕೊನೆಯ ವಾಕ್ಯಕ್ಕೆ ಅಂಗೈ ಮತ್ತು ಕೈಹಿಂಭಾಗಗಳನ್ನು ಉಜ್ಜಿ. ಅಂಗನ್ಯಾಸ: ಹೃದಯ, ನೆತ್ತಿ, ಶಿಖೆ ಮುಟ್ಟಿ; ಅಡ್ಡಗೈಯಿಂದ ಭುಜಗಳನ್ನು ಮುಟ್ಟಿ (ಕವಚ); ಕಣ್ಣುಗಳನ್ನು (ಮತ್ತು ಹುಬ್ಬುಗಳ ಮಧ್ಯವನ್ನು) ಮುಟ್ಟಿ; “ಅಸ್ತ್ರಾಯ ಫಟ್” ಎನ್ನುವಾಗ ಬಲಗೈಯನ್ನು ತಲೆಯ ಸುತ್ತ ತಿರುಗಿಸಿ ಚಪ್ಪಾಳೆ ತಟ್ಟಿ; ಕೊನೆಯ ವಾಕ್ಯದಿಂದ ಹತ್ತು ದಿಕ್ಕುಗಳಲ್ಲಿ ಚಿಟಿಕೆ ಹೊಡೆಯಿರಿ (ದಿಗ್ಬಂಧ). ಜಪದ ನಂತರ ಇದೇ ನ್ಯಾಸವನ್ನು ಮತ್ತೆ ಮಾಡಿ, ಕೊನೆಯಲ್ಲಿ “ದಿಗ್ಬಂಧಃ” ಬದಲು “ದಿಗ್ವಿಮೋಕಃ” ಎನ್ನಬೇಕು. ಕರ್ನಾಟಕದ ಪುಸ್ತಕಗಳಲ್ಲಿ ನಾಲ್ಕು ಮತ್ತು ಐದನೆಯ ಸಾಲುಗಳು “ಧೀಮಹಿ ಈಶ್ವರಾತ್ಮನೇ”, “ಧಿಯೋ ಯೋ ನಃ ಸದಾಶಿವಾತ್ಮನೇ”.',
       when: { tradition: ['smarta'] },
       verses: [
         {
@@ -1736,8 +2003,8 @@ export const sandhyaVandaneRigveda: Mantra = {
     {
       title: 'सन्ध्योपस्थानम्',
       titleEn: 'Sandhyopasthana (worship of the Sun, standing)',
-      note: 'Morning: stand with folded hands facing east. The Madhva manuals use जातवेदसे…, तच्छंयोः… and नमो ब्रह्मणे… at every sandhya. With नमो ब्रह्मणे… turn round clockwise three times where you stand.',
-      noteKn: 'ಬೆಳಗ್ಗೆ: ಪೂರ್ವಾಭಿಮುಖವಾಗಿ ಕೈಮುಗಿದು ನಿಂತುಕೊಳ್ಳಿ. ಮಾಧ್ವ ಪುಸ್ತಕಗಳು ಪ್ರತಿ ಸಂಧ್ಯೆಯಲ್ಲೂ “ಜಾತವೇದಸೇ…”, “ತಚ್ಛಂಯೋಃ…”, “ನಮೋ ಬ್ರಹ್ಮಣೇ…” ಹೇಳುತ್ತವೆ. “ನಮೋ ಬ್ರಹ್ಮಣೇ…” ಹೇಳುತ್ತಾ ನಿಂತಲ್ಲೇ ಮೂರು ಬಾರಿ ಪ್ರದಕ್ಷಿಣವಾಗಿ ತಿರುಗಿ.',
+      note: 'Morning: stand with folded hands facing east. The Madhva manuals use जातवेदसे…, तच्छंयोः… and नमो ब्रह्मणे… in the morning and in the evening (the midday upasthana is different and comes before japa). With नमो ब्रह्मणे… turn round clockwise three times where you stand.',
+      noteKn: 'ಬೆಳಿಗ್ಗೆ ಪೂರ್ವಾಭಿಮುಖವಾಗಿ ಕೈಮುಗಿದು ನಿಂತುಕೊಳ್ಳಿ. ಮಾಧ್ವ ಪುಸ್ತಕಗಳು ಬೆಳಿಗ್ಗೆ ಮತ್ತು ಸಾಯಂಕಾಲ “ಜಾತವೇದಸೇ…”, “ತಚ್ಛಂಯೋಃ…”, “ನಮೋ ಬ್ರಹ್ಮಣೇ…” ಮಂತ್ರಗಳನ್ನು ಹೇಳುತ್ತವೆ (ಮಧ್ಯಾಹ್ನದ ಉಪಸ್ಥಾನ ಬೇರೆ, ಅದು ಜಪಕ್ಕೆ ಮೊದಲು). “ನಮೋ ಬ್ರಹ್ಮಣೇ…” ಹೇಳುತ್ತಾ ನಿಂತಲ್ಲೇ ಮೂರು ಬಾರಿ ಪ್ರದಕ್ಷಿಣವಾಗಿ ತಿರುಗಿ.',
       when: { tradition: ['madhva'], time: ['morning'] },
       verses: [
         {
@@ -1755,10 +2022,10 @@ export const sandhyaVandaneRigveda: Mantra = {
           },
         },
         {
-          text: 'तच्छंयोरित्यस्य मन्त्रस्य शंयुरृषिः । विश्वे देवा देवताः ।\nशक्वरी छन्दः । शान्त्यर्थे जपे विनियोगः ॥',
+          text: 'तच्छंयोरित्यस्य मन्त्रस्य शंयुरृषिः । विश्वे देवा देवताः ।\nशक्वरी छन्दः । उपस्थाने विनियोगः ॥',
           meaning: {
-            en: 'For the mantra “tac chamyoh”: the seer is Shamyu, the deities are the Vishvedevas, the metre is Shakvari; it is recited for peace.',
-            kn: '“ತಚ್ಛಂಯೋಃ” ಮಂತ್ರಕ್ಕೆ ಶಂಯು ಋಷಿ, ವಿಶ್ವೇದೇವತೆಗಳು ದೇವತೆ, ಶಕ್ವರೀ ಛಂದಸ್ಸು; ಶಾಂತಿಗಾಗಿ ಜಪದಲ್ಲಿ ವಿನಿಯೋಗ.',
+            en: 'For the mantra “tac chamyoh”: the seer is Shamyu, the deities are the Vishvedevas, the metre is Shakvari; it is used in the upasthana.',
+            kn: '“ತಚ್ಛಂಯೋಃ” ಮಂತ್ರಕ್ಕೆ ಶಂಯು ಋಷಿ, ವಿಶ್ವೇದೇವತೆಗಳು ದೇವತೆ, ಶಕ್ವರೀ ಛಂದಸ್ಸು; ಉಪಸ್ಥಾನದಲ್ಲಿ ವಿನಿಯೋಗ.',
           },
         },
         {
@@ -1780,52 +2047,8 @@ export const sandhyaVandaneRigveda: Mantra = {
     {
       title: 'सन्ध्योपस्थानम्',
       titleEn: 'Sandhyopasthana (worship of the Sun, standing)',
-      note: 'Midday: stand with folded hands facing the Sun (east or north). The Madhva manuals use जातवेदसे…, तच्छंयोः… and नमो ब्रह्मणे… at every sandhya. With नमो ब्रह्मणे… turn round clockwise three times where you stand.',
-      noteKn: 'ಮಧ್ಯಾಹ್ನ: ಸೂರ್ಯನ ಕಡೆಗೆ (ಪೂರ್ವ ಅಥವಾ ಉತ್ತರಕ್ಕೆ) ಕೈಮುಗಿದು ನಿಂತುಕೊಳ್ಳಿ. ಮಾಧ್ವ ಪುಸ್ತಕಗಳು ಪ್ರತಿ ಸಂಧ್ಯೆಯಲ್ಲೂ “ಜಾತವೇದಸೇ…”, “ತಚ್ಛಂಯೋಃ…”, “ನಮೋ ಬ್ರಹ್ಮಣೇ…” ಹೇಳುತ್ತವೆ. “ನಮೋ ಬ್ರಹ್ಮಣೇ…” ಹೇಳುತ್ತಾ ನಿಂತಲ್ಲೇ ಮೂರು ಬಾರಿ ಪ್ರದಕ್ಷಿಣವಾಗಿ ತಿರುಗಿ.',
-      when: { tradition: ['madhva'], time: ['midday'] },
-      verses: [
-        {
-          text: 'जातवेदस इत्यस्य मन्त्रस्य कश्यप ऋषिः । दुर्गा जातवेदा अग्निर्देवता ।\nत्रिष्टुप् छन्दः । सन्ध्योपस्थाने विनियोगः ॥',
-          meaning: {
-            en: 'For the mantra “jatavedase”: the seer is Kashyapa, the deity is Agni Jatavedas (also named as Durga), the metre is Trishtubh; it is used for the sandhya upasthana.',
-            kn: '“ಜಾತವೇದಸೇ” ಮಂತ್ರಕ್ಕೆ ಕಶ್ಯಪ ಋಷಿ, ಜಾತವೇದ ಅಗ್ನಿ (ದುರ್ಗಾ ಎಂದೂ ಹೇಳುತ್ತಾರೆ) ದೇವತೆ, ತ್ರಿಷ್ಟುಪ್ ಛಂದಸ್ಸು; ಸಂಧ್ಯೋಪಸ್ಥಾನಕ್ಕೆ ವಿನಿಯೋಗ.',
-          },
-        },
-        {
-          text: 'जातवेदसे सुनवाम सोममरातीयतो नि दहाति वेदः ।\nस नः पर्षदति दुर्गाणि विश्वा नावेव सिन्धुं दुरितात्यग्निः ॥',
-          meaning: {
-            en: 'For Jatavedas, the knower of all, let us press the Soma; may he burn away the hoard of those who are hostile. As a boat carries across a river, may Agni — for Madhvas, the Lord within him — carry us beyond all difficulties and wrongs.',
-            kn: 'ಎಲ್ಲವನ್ನೂ ಬಲ್ಲ ಜಾತವೇದನಿಗಾಗಿ ಸೋಮವನ್ನು ಅರ್ಪಿಸೋಣ; ಅವನು ಶತ್ರುಗಳ ಸಂಪತ್ತನ್ನು ಸುಟ್ಟುಹಾಕಲಿ. ದೋಣಿಯು ನದಿಯನ್ನು ದಾಟಿಸುವಂತೆ ಅಗ್ನಿಯು (ಮಾಧ್ವರಿಗೆ ಅಗ್ನಿಯ ಅಂತರ್ಯಾಮಿಯಾದ ಭಗವಂತನು) ನಮ್ಮನ್ನು ಎಲ್ಲ ಕಷ್ಟಗಳಿಂದಲೂ ಪಾಪಗಳಿಂದಲೂ ಪಾರುಮಾಡಲಿ.',
-          },
-        },
-        {
-          text: 'तच्छंयोरित्यस्य मन्त्रस्य शंयुरृषिः । विश्वे देवा देवताः ।\nशक्वरी छन्दः । शान्त्यर्थे जपे विनियोगः ॥',
-          meaning: {
-            en: 'For the mantra “tac chamyoh”: the seer is Shamyu, the deities are the Vishvedevas, the metre is Shakvari; it is recited for peace.',
-            kn: '“ತಚ್ಛಂಯೋಃ” ಮಂತ್ರಕ್ಕೆ ಶಂಯು ಋಷಿ, ವಿಶ್ವೇದೇವತೆಗಳು ದೇವತೆ, ಶಕ್ವರೀ ಛಂದಸ್ಸು; ಶಾಂತಿಗಾಗಿ ಜಪದಲ್ಲಿ ವಿನಿಯೋಗ.',
-          },
-        },
-        {
-          text: 'तच्छंयोरावृणीमहे । गातुं यज्ञाय । गातुं यज्ञपतये ।\nदैवी स्वस्तिरस्तु नः । स्वस्तिर्मानुषेभ्यः ।\nऊर्ध्वं जिगातु भेषजम् । शं नो अस्तु द्विपदे । शं चतुष्पदे ॥',
-          meaning: {
-            en: 'We pray for that health and happiness: for the success of the sacrifice and of the one who offers it. May divine well-being be ours, and well-being for all people; may healing rise ever higher; may there be welfare for our two-footed and four-footed beings.',
-            kn: 'ಆ ಆರೋಗ್ಯ ಸುಖಗಳನ್ನು ಬೇಡುತ್ತೇವೆ: ಯಜ್ಞಕ್ಕೂ ಯಜ್ಞಮಾಡುವವನಿಗೂ ಸಫಲತೆಯಾಗಲಿ. ನಮಗೆ ದೈವಿಕ ಕ್ಷೇಮವೂ ಎಲ್ಲ ಮನುಷ್ಯರಿಗೆ ಕ್ಷೇಮವೂ ಆಗಲಿ; ಔಷಧಶಕ್ತಿ ಮೇಲ್ಮುಖವಾಗಿ ವೃದ್ಧಿಯಾಗಲಿ; ಎರಡು ಕಾಲಿನ ಜೀವಿಗಳಿಗೂ ನಾಲ್ಕು ಕಾಲಿನ ಜೀವಿಗಳಿಗೂ ಮಂಗಳವಾಗಲಿ.',
-          },
-        },
-        {
-          text: 'नमो ब्रह्मणे । नमो अस्त्वग्नये । नमः पृथिव्यै । नम ओषधीभ्यः ।\nनमो वाचे । नमो वाचस्पतये । नमो विष्णवे महते करोमि ॥',
-          meaning: {
-            en: 'Salutations to Brahman; salutations to Agni; to the Earth; to the healing plants; to Speech and to the Lord of Speech; to the great Vishnu I offer my salutation.',
-            kn: 'ಬ್ರಹ್ಮನಿಗೆ ನಮಸ್ಕಾರ; ಅಗ್ನಿಗೆ, ಭೂಮಿಗೆ, ಓಷಧಿಗಳಿಗೆ, ವಾಗ್ದೇವಿಗೆ, ವಾಚಸ್ಪತಿಗೆ ನಮಸ್ಕಾರ; ಮಹಾನ್ ವಿಷ್ಣುವಿಗೆ ನಮಸ್ಕರಿಸುತ್ತೇನೆ.',
-          },
-        },
-      ],
-    },
-    {
-      title: 'सन्ध्योपस्थानम्',
-      titleEn: 'Sandhyopasthana (worship of the Sun, standing)',
-      note: 'Evening: stand with folded hands facing west. The Madhva manuals use जातवेदसे…, तच्छंयोः… and नमो ब्रह्मणे… at every sandhya. With नमो ब्रह्मणे… turn round clockwise three times where you stand.',
-      noteKn: 'ಸಂಜೆ: ಪಶ್ಚಿಮಾಭಿಮುಖವಾಗಿ ಕೈಮುಗಿದು ನಿಂತುಕೊಳ್ಳಿ. ಮಾಧ್ವ ಪುಸ್ತಕಗಳು ಪ್ರತಿ ಸಂಧ್ಯೆಯಲ್ಲೂ “ಜಾತವೇದಸೇ…”, “ತಚ್ಛಂಯೋಃ…”, “ನಮೋ ಬ್ರಹ್ಮಣೇ…” ಹೇಳುತ್ತವೆ. “ನಮೋ ಬ್ರಹ್ಮಣೇ…” ಹೇಳುತ್ತಾ ನಿಂತಲ್ಲೇ ಮೂರು ಬಾರಿ ಪ್ರದಕ್ಷಿಣವಾಗಿ ತಿರುಗಿ.',
+      note: 'Evening: stand with folded hands facing west. The Madhva manuals use जातवेदसे…, तच्छंयोः… and नमो ब्रह्मणे… in the morning and in the evening (the midday upasthana is different and comes before japa). With नमो ब्रह्मणे… turn round clockwise three times where you stand.',
+      noteKn: 'ಸಾಯಂಕಾಲ ಪಶ್ಚಿಮಾಭಿಮುಖವಾಗಿ ಕೈಮುಗಿದು ನಿಂತುಕೊಳ್ಳಿ. ಮಾಧ್ವ ಪುಸ್ತಕಗಳು ಬೆಳಿಗ್ಗೆ ಮತ್ತು ಸಾಯಂಕಾಲ “ಜಾತವೇದಸೇ…”, “ತಚ್ಛಂಯೋಃ…”, “ನಮೋ ಬ್ರಹ್ಮಣೇ…” ಮಂತ್ರಗಳನ್ನು ಹೇಳುತ್ತವೆ (ಮಧ್ಯಾಹ್ನದ ಉಪಸ್ಥಾನ ಬೇರೆ, ಅದು ಜಪಕ್ಕೆ ಮೊದಲು). “ನಮೋ ಬ್ರಹ್ಮಣೇ…” ಹೇಳುತ್ತಾ ನಿಂತಲ್ಲೇ ಮೂರು ಬಾರಿ ಪ್ರದಕ್ಷಿಣವಾಗಿ ತಿರುಗಿ.',
       when: { tradition: ['madhva'], time: ['evening'] },
       verses: [
         {
@@ -1843,10 +2066,10 @@ export const sandhyaVandaneRigveda: Mantra = {
           },
         },
         {
-          text: 'तच्छंयोरित्यस्य मन्त्रस्य शंयुरृषिः । विश्वे देवा देवताः ।\nशक्वरी छन्दः । शान्त्यर्थे जपे विनियोगः ॥',
+          text: 'तच्छंयोरित्यस्य मन्त्रस्य शंयुरृषिः । विश्वे देवा देवताः ।\nशक्वरी छन्दः । उपस्थाने विनियोगः ॥',
           meaning: {
-            en: 'For the mantra “tac chamyoh”: the seer is Shamyu, the deities are the Vishvedevas, the metre is Shakvari; it is recited for peace.',
-            kn: '“ತಚ್ಛಂಯೋಃ” ಮಂತ್ರಕ್ಕೆ ಶಂಯು ಋಷಿ, ವಿಶ್ವೇದೇವತೆಗಳು ದೇವತೆ, ಶಕ್ವರೀ ಛಂದಸ್ಸು; ಶಾಂತಿಗಾಗಿ ಜಪದಲ್ಲಿ ವಿನಿಯೋಗ.',
+            en: 'For the mantra “tac chamyoh”: the seer is Shamyu, the deities are the Vishvedevas, the metre is Shakvari; it is used in the upasthana.',
+            kn: '“ತಚ್ಛಂಯೋಃ” ಮಂತ್ರಕ್ಕೆ ಶಂಯು ಋಷಿ, ವಿಶ್ವೇದೇವತೆಗಳು ದೇವತೆ, ಶಕ್ವರೀ ಛಂದಸ್ಸು; ಉಪಸ್ಥಾನದಲ್ಲಿ ವಿನಿಯೋಗ.',
           },
         },
         {
@@ -1868,8 +2091,8 @@ export const sandhyaVandaneRigveda: Mantra = {
     {
       title: 'सन्ध्योपस्थानम्',
       titleEn: 'Sandhyopasthana (worship of the Sun, standing)',
-      note: 'Morning: stand with folded hands facing east. Many Smarta manuals (especially Andhra ones) first recite the four riks to Mitra (Rigveda 3.59.6–9); recite those only if your family does. Then जातवेदसे…, तच्छंयोः… and नमो ब्रह्मणे…, with which you turn round clockwise three times where you stand.',
-      noteKn: 'ಬೆಳಗ್ಗೆ: ಪೂರ್ವಾಭಿಮುಖವಾಗಿ ಕೈಮುಗಿದು ನಿಂತುಕೊಳ್ಳಿ. ಅನೇಕ ಸ್ಮಾರ್ತ ಪುಸ್ತಕಗಳು (ವಿಶೇಷವಾಗಿ ಆಂಧ್ರದವು) ಮೊದಲು ಮಿತ್ರನ ನಾಲ್ಕು ಋಕ್ಕುಗಳನ್ನು (ಋಗ್ವೇದ ೩.೫೯.೬–೯) ಹೇಳುತ್ತವೆ; ಮನೆತನದಲ್ಲಿ ಪದ್ಧತಿಯಿದ್ದರೆ ಮಾತ್ರ ಹೇಳಿ. ನಂತರ “ಜಾತವೇದಸೇ…”, “ತಚ್ಛಂಯೋಃ…”, “ನಮೋ ಬ್ರಹ್ಮಣೇ…” — ಕೊನೆಯದನ್ನು ಹೇಳುತ್ತಾ ನಿಂತಲ್ಲೇ ಮೂರು ಬಾರಿ ಪ್ರದಕ್ಷಿಣವಾಗಿ ತಿರುಗಿ.',
+      note: 'Morning: stand with folded hands facing east. The Karnataka Rigvedi Smarta manuals (Somayaji, Balkur) recite the three riks to Mitra मित्रस्य…, मित्रो जनान्…, प्र स मित्र… (Rigveda 3.59.6, 1, 2). Tamil and Andhra manuals (Kamesvara Aiyar, stotranidhi) instead recite जातवेदसे…, तच्छंयोः… and नमो ब्रह्मणे…, with which you turn round clockwise three times. Recite what your family recites.',
+      noteKn: 'ಬೆಳಿಗ್ಗೆ ಪೂರ್ವಾಭಿಮುಖವಾಗಿ ಕೈಮುಗಿದು ನಿಂತುಕೊಳ್ಳಿ. ಕರ್ನಾಟಕದ ಋಗ್ವೇದಿ ಸ್ಮಾರ್ತ ಪುಸ್ತಕಗಳು (ಸೋಮಯಾಜಿ, ಬಳ್ಕೂರು) ಮಿತ್ರನ ಮೂರು ಋಕ್ಕುಗಳನ್ನು — “ಮಿತ್ರಸ್ಯ…”, “ಮಿತ್ರೋ ಜನಾನ್…”, “ಪ್ರ ಸ ಮಿತ್ರ…” (ಋಗ್ವೇದ ೩.೫೯.೬, ೧, ೨) — ಹೇಳುತ್ತವೆ. ತಮಿಳು ಮತ್ತು ಆಂಧ್ರದ ಪುಸ್ತಕಗಳು (ಕಾಮೇಶ್ವರ ಅಯ್ಯರ್, ಸ್ತೋತ್ರನಿಧಿ) ಅದರ ಬದಲು “ಜಾತವೇದಸೇ…”, “ತಚ್ಛಂಯೋಃ…”, “ನಮೋ ಬ್ರಹ್ಮಣೇ…” ಹೇಳುತ್ತವೆ; ಕೊನೆಯದನ್ನು ಹೇಳುತ್ತಾ ಮೂರು ಬಾರಿ ಪ್ರದಕ್ಷಿಣವಾಗಿ ತಿರುಗಿ. ಮನೆತನದಲ್ಲಿ ಹೇಳುವುದನ್ನೇ ಹೇಳಿ.',
       when: { tradition: ['smarta'], time: ['morning'] },
       verses: [
         {
@@ -1880,24 +2103,17 @@ export const sandhyaVandaneRigveda: Mantra = {
           },
         },
         {
-          text: 'अभि यो महिना दिवं मित्रो बभूव सप्रथाः ।\nअभि श्रवोभिः पृथिवीम् ॥',
+          text: 'मित्रो जनान्यातयति ब्रुवाणो मित्रो दाधार पृथिवीमुत द्याम् ।\nमित्रः कृष्टीरनिमिषाभि चष्टे मित्राय हव्यं घृतवज्जुहोत ॥',
           meaning: {
-            en: 'Far-famed Mitra surpasses the heavens by his greatness, and the earth by his glories.',
-            kn: 'ವಿಸ್ತಾರವಾದ ಕೀರ್ತಿಯುಳ್ಳ ಮಿತ್ರನು ತನ್ನ ಮಹಿಮೆಯಿಂದ ದ್ಯುಲೋಕವನ್ನೂ, ತನ್ನ ಕೀರ್ತಿಯಿಂದ ಭೂಮಿಯನ್ನೂ ಮೀರಿ ನಿಂತಿದ್ದಾನೆ.',
+            en: 'Mitra, when he speaks, sets people to their work; Mitra upholds the earth and the sky; Mitra watches over all beings without closing his eyes. Offer to Mitra an oblation rich with ghee.',
+            kn: 'ಮಾತನಾಡುವ ಮಿತ್ರನು ಜನರನ್ನು ಅವರವರ ಕಾರ್ಯಗಳಿಗೆ ಪ್ರೇರಿಸುತ್ತಾನೆ; ಮಿತ್ರನು ಭೂಮಿಯನ್ನೂ ಆಕಾಶವನ್ನೂ ಧರಿಸಿದ್ದಾನೆ; ಮಿತ್ರನು ರೆಪ್ಪೆ ಮುಚ್ಚದೆ ಎಲ್ಲಾ ಜೀವಿಗಳನ್ನು ನೋಡುತ್ತಾನೆ. ಮಿತ್ರನಿಗೆ ತುಪ್ಪದಿಂದ ಕೂಡಿದ ಹವಿಸ್ಸನ್ನು ಅರ್ಪಿಸಿರಿ.',
           },
         },
         {
-          text: 'मित्राय पञ्च येमिरे जना अभिष्टिशवसे ।\nस देवान्विश्वान्बिभर्ति ॥',
+          text: 'प्र स मित्र मर्तो अस्तु प्रयस्वान् यस्त आदित्य शिक्षति व्रतेन ।\nन हन्यते न जीयते त्वोतो नैनमंहो अश्नोत्यन्तितो न दूरात् ॥',
           meaning: {
-            en: 'To Mitra, mighty to help, the five peoples have offered worship; he sustains all the gods.',
-            kn: 'ಸಹಾಯ ಮಾಡುವ ಶಕ್ತಿಯುಳ್ಳ ಮಿತ್ರನಿಗೆ ಐದು ಜನವರ್ಗಗಳೂ ಪೂಜೆ ಸಲ್ಲಿಸಿವೆ; ಅವನು ಎಲ್ಲ ದೇವತೆಗಳನ್ನೂ ಪೋಷಿಸುತ್ತಾನೆ.',
-          },
-        },
-        {
-          text: 'मित्रो देवेष्वायुषु जनाय वृक्तबर्हिषे ।\nइष इष्टव्रता अकः ॥',
-          meaning: {
-            en: 'Mitra, among gods and men, has granted nourishment to the worshipper who spreads the sacred grass — nourishment that fulfils holy vows.',
-            kn: 'ದೇವತೆಗಳಲ್ಲೂ ಮನುಷ್ಯರಲ್ಲೂ ಇರುವ ಮಿತ್ರನು ದರ್ಭೆ ಹಾಸಿ ಪೂಜಿಸುವವನಿಗೆ ವ್ರತಗಳನ್ನು ಪೂರೈಸುವ ಅನ್ನವನ್ನು ಕರುಣಿಸಿದ್ದಾನೆ.',
+            en: 'O Mitra, O Aditya, may that mortal prosper who serves you by keeping your law. Protected by you, he is neither slain nor overcome; no distress reaches him, from near or from afar.',
+            kn: 'ಓ ಮಿತ್ರ, ಓ ಆದಿತ್ಯ, ನಿನ್ನ ವ್ರತವನ್ನು ಪಾಲಿಸುತ್ತಾ ನಿನ್ನನ್ನು ಸೇವಿಸುವ ಮನುಷ್ಯನು ಸಮೃದ್ಧನಾಗಲಿ. ನಿನ್ನಿಂದ ರಕ್ಷಿತನಾದ ಅವನು ಕೊಲ್ಲಲ್ಪಡುವುದಿಲ್ಲ, ಸೋಲುವುದಿಲ್ಲ; ಹತ್ತಿರದಿಂದಾಗಲೀ ದೂರದಿಂದಾಗಲೀ ಯಾವ ಕಷ್ಟವೂ ಅವನನ್ನು ತಲುಪುವುದಿಲ್ಲ.',
           },
         },
         {
@@ -1940,408 +2156,147 @@ export const sandhyaVandaneRigveda: Mantra = {
     {
       title: 'सन्ध्योपस्थानम्',
       titleEn: 'Sandhyopasthana (worship of the Sun, standing)',
-      note: 'Midday: stand with folded hands facing the Sun (east or north). Many Smarta manuals (especially Andhra ones) first recite उदु त्यं… (Rigveda 1.50) and चित्रं देवानाम्… (1.115); recite those only if your family does. Then जातवेदसे…, तच्छंयोः… and नमो ब्रह्मणे…, with which you turn round clockwise three times where you stand.',
-      noteKn: 'ಮಧ್ಯಾಹ್ನ: ಸೂರ್ಯನ ಕಡೆಗೆ (ಪೂರ್ವ ಅಥವಾ ಉತ್ತರಕ್ಕೆ) ಕೈಮುಗಿದು ನಿಂತುಕೊಳ್ಳಿ. ಅನೇಕ ಸ್ಮಾರ್ತ ಪುಸ್ತಕಗಳು (ವಿಶೇಷವಾಗಿ ಆಂಧ್ರದವು) ಮೊದಲು “ಉದು ತ್ಯಂ…” (ಋಗ್ವೇದ ೧.೫೦) ಮತ್ತು “ಚಿತ್ರಂ ದೇವಾನಾಮ್…” (೧.೧೧೫) ಹೇಳುತ್ತವೆ; ಮನೆತನದಲ್ಲಿ ಪದ್ಧತಿಯಿದ್ದರೆ ಮಾತ್ರ ಹೇಳಿ. ನಂತರ “ಜಾತವೇದಸೇ…”, “ತಚ್ಛಂಯೋಃ…”, “ನಮೋ ಬ್ರಹ್ಮಣೇ…” — ಕೊನೆಯದನ್ನು ಹೇಳುತ್ತಾ ನಿಂತಲ್ಲೇ ಮೂರು ಬಾರಿ ಪ್ರದಕ್ಷಿಣವಾಗಿ ತಿರುಗಿ.',
-      when: { tradition: ['smarta'], time: ['midday'] },
-      verses: [
-        {
-          text: 'उदु त्यं जातवेदसं देवं वहन्ति केतवः ।\nदृशे विश्वाय सूर्यम् ॥',
-          meaning: {
-            en: 'His rays bear aloft the god Surya, knower of all beings, so that all may see him.',
-            kn: 'ಎಲ್ಲ ಜೀವಿಗಳನ್ನೂ ಬಲ್ಲ ಸೂರ್ಯದೇವನನ್ನು, ಎಲ್ಲರೂ ಕಾಣುವಂತೆ, ಅವನ ಕಿರಣಗಳು ಮೇಲಕ್ಕೆ ಹೊತ್ತೊಯ್ಯುತ್ತವೆ.',
-          },
-        },
-        {
-          text: 'अप त्ये तायवो यथा नक्षत्रा यन्त्यक्तुभिः ।\nसूराय विश्वचक्षसे ॥',
-          meaning: {
-            en: 'Before the all-seeing Sun the stars slip away with the night, like thieves.',
-            kn: 'ಎಲ್ಲವನ್ನೂ ನೋಡುವ ಸೂರ್ಯನ ಮುಂದೆ ನಕ್ಷತ್ರಗಳು ರಾತ್ರಿಯೊಂದಿಗೆ ಕಳ್ಳರಂತೆ ಸರಿದುಹೋಗುತ್ತವೆ.',
-          },
-        },
-        {
-          text: 'अदृश्रमस्य केतवो वि रश्मयो जनाँ अनु ।\nभ्राजन्तो अग्नयो यथा ॥',
-          meaning: {
-            en: 'His beams have been seen spreading over the peoples, blazing like fires.',
-            kn: 'ಅವನ ಕಿರಣಗಳು ಬೆಂಕಿಯಂತೆ ಹೊಳೆಯುತ್ತಾ ಜನರೆಲ್ಲರ ಮೇಲೆ ಹರಡಿರುವುದು ಕಾಣುತ್ತಿದೆ.',
-          },
-        },
-        {
-          text: 'तरणिर्विश्वदर्शतो ज्योतिष्कृदसि सूर्य ।\nविश्वमा भासि रोचनम् ॥',
-          meaning: {
-            en: 'O Sun, swift and seen by all, maker of light, you illumine the whole bright realm.',
-            kn: 'ಓ ಸೂರ್ಯನೇ, ನೀನು ವೇಗಶಾಲಿ, ಎಲ್ಲರಿಗೂ ಕಾಣುವವನು, ಬೆಳಕನ್ನು ಸೃಷ್ಟಿಸುವವನು; ಪ್ರಕಾಶಮಾನವಾದ ಸಮಸ್ತ ಲೋಕವನ್ನೂ ಬೆಳಗುತ್ತೀಯೆ.',
-          },
-        },
-        {
-          text: 'प्रत्यङ्देवानां विशः प्रत्यङ्ङुदेषि मानुषान् ।\nप्रत्यङ्विश्वं स्वर्दृशे ॥',
-          meaning: {
-            en: 'You rise facing the hosts of gods, facing mankind, facing all, so that the light may be seen.',
-            kn: 'ದೇವತೆಗಳ ಸಮೂಹಕ್ಕೂ, ಮನುಷ್ಯರಿಗೂ, ಸಮಸ್ತಕ್ಕೂ ಎದುರಾಗಿ ಬೆಳಕು ಕಾಣುವಂತೆ ನೀನು ಉದಯಿಸುತ್ತೀಯೆ.',
-          },
-        },
-        {
-          text: 'येना पावक चक्षसा भुरण्यन्तं जनाँ अनु ।\nत्वं वरुण पश्यसि ॥',
-          meaning: {
-            en: 'With that eye, O purifying Varuna, with which you watch the busy one moving among men —',
-            kn: 'ಓ ಪಾವನನಾದ ವರುಣನೇ, ಜನರ ನಡುವೆ ಸಂಚರಿಸುವವನನ್ನು ನೀನು ಯಾವ ಕಣ್ಣಿನಿಂದ ನೋಡುತ್ತೀಯೋ ಆ ಕಣ್ಣಿನಿಂದ —',
-          },
-        },
-        {
-          text: 'वि द्यामेषि रजस्पृथ्वहा मिमानो अक्तुभिः ।\nपश्यञ्जन्मानि सूर्य ॥',
-          meaning: {
-            en: '— you cross the sky and the wide mid-region, O Sun, measuring out the days with the nights, watching over all that is born.',
-            kn: '— ಓ ಸೂರ್ಯನೇ, ರಾತ್ರಿಗಳೊಂದಿಗೆ ಹಗಲುಗಳನ್ನು ಅಳೆಯುತ್ತಾ, ಹುಟ್ಟಿದ ಎಲ್ಲ ಜೀವಿಗಳನ್ನೂ ನೋಡುತ್ತಾ, ದ್ಯುಲೋಕವನ್ನೂ ವಿಶಾಲ ಅಂತರಿಕ್ಷವನ್ನೂ ದಾಟುತ್ತೀಯೆ.',
-          },
-        },
-        {
-          text: 'सप्त त्वा हरितो रथे वहन्ति देव सूर्य ।\nशोचिष्केशं विचक्षण ॥',
-          meaning: {
-            en: 'Seven bay mares draw you in your chariot, O god Surya, far-seeing one with hair of flame.',
-            kn: 'ಓ ಸೂರ್ಯದೇವ, ಜ್ವಾಲೆಯಂತಹ ಕೇಶವುಳ್ಳ ದೂರದರ್ಶಿಯೇ, ಏಳು ಕುದುರೆಗಳು ನಿನ್ನನ್ನು ರಥದಲ್ಲಿ ಎಳೆಯುತ್ತವೆ.',
-          },
-        },
-        {
-          text: 'अयुक्त सप्त शुन्ध्युवः सूरो रथस्य नप्त्यः ।\nताभिर्याति स्वयुक्तिभिः ॥',
-          meaning: {
-            en: 'The Sun has yoked the seven bright daughters of his chariot; with them, self-yoked, he goes on his way.',
-            kn: 'ಸೂರ್ಯನು ತನ್ನ ರಥದ ಏಳು ಹೊಳೆಯುವ ಕುದುರೆಗಳನ್ನು ಹೂಡಿದ್ದಾನೆ; ತಾವಾಗಿಯೇ ಹೂಡಿಕೊಂಡ ಅವುಗಳೊಂದಿಗೆ ಸಾಗುತ್ತಾನೆ.',
-          },
-        },
-        {
-          text: 'उद्वयं तमसस्परि ज्योतिष्पश्यन्त उत्तरम् ।\nदेवं देवत्रा सूर्यमगन्म ज्योतिरुत्तमम् ॥',
-          meaning: {
-            en: 'Rising above the darkness and seeing the higher light, we have come to Surya, god among gods, the highest light.',
-            kn: 'ಕತ್ತಲೆಯನ್ನು ದಾಟಿ ಮೇಲಿನ ಬೆಳಕನ್ನು ಕಾಣುತ್ತಾ, ದೇವತೆಗಳಲ್ಲಿ ದೇವನಾದ, ಉತ್ತಮ ಜ್ಯೋತಿಯಾದ ಸೂರ್ಯನನ್ನು ನಾವು ಸೇರಿದ್ದೇವೆ.',
-          },
-        },
-        {
-          text: 'उद्यन्नद्य मित्रमह आरोहन्नुत्तरां दिवम् ।\nहृद्रोगं मम सूर्य हरिमाणं च नाशय ॥',
-          meaning: {
-            en: 'Rising today, O Sun rich in friendship, and climbing the higher heaven, destroy my heart’s disease and my pallor.',
-            kn: 'ಸ್ನೇಹಪೂರ್ಣ ತೇಜಸ್ಸುಳ್ಳ ಓ ಸೂರ್ಯನೇ, ಇಂದು ಉದಯಿಸಿ ಮೇಲಿನ ಆಕಾಶವನ್ನೇರುತ್ತಾ ನನ್ನ ಹೃದ್ರೋಗವನ್ನೂ ಮೈಬಣ್ಣ ಕಳೆಗುಂದುವ ರೋಗವನ್ನೂ ನಾಶಮಾಡು.',
-          },
-        },
-        {
-          text: 'शुकेषु मे हरिमाणं रोपणाकासु दध्मसि ।\nअथो हारिद्रवेषु मे हरिमाणं नि दध्मसि ॥',
-          meaning: {
-            en: 'Let us put my pallor into the parrots and the thrushes; let us put my pallor into the yellow birds.',
-            kn: 'ನನ್ನ ಈ ಹಳದಿ ರೋಗವನ್ನು ಗಿಳಿಗಳಿಗೂ ರೋಪಣಾಕ ಹಕ್ಕಿಗಳಿಗೂ ವರ್ಗಾಯಿಸೋಣ; ಹಳದಿ ಬಣ್ಣದ ಹಕ್ಕಿಗಳಿಗೂ ಅದನ್ನು ಬಿಟ್ಟುಬಿಡೋಣ.',
-          },
-        },
-        {
-          text: 'उदगादयमादित्यो विश्वेन सहसा सह ।\nद्विषन्तं मह्यं रन्धयन्मो अहं द्विषते रधम् ॥',
-          meaning: {
-            en: 'This Aditya has risen with all his might, subduing for me the one who hates me; may I never fall into the power of my enemy.',
-            kn: 'ಈ ಆದಿತ್ಯನು ತನ್ನ ಸಮಸ್ತ ಬಲದೊಂದಿಗೆ ಉದಯಿಸಿದ್ದಾನೆ, ನನ್ನನ್ನು ದ್ವೇಷಿಸುವವನನ್ನು ನನಗೆ ವಶಪಡಿಸುತ್ತಾ; ನಾನೆಂದೂ ಶತ್ರುವಿನ ವಶಕ್ಕೆ ಬೀಳದಿರಲಿ.',
-          },
-        },
-        {
-          text: 'चित्रं देवानामुदगादनीकं चक्षुर्मित्रस्य वरुणस्याग्नेः ।\nआप्रा द्यावापृथिवी अन्तरिक्षं सूर्य आत्मा जगतस्तस्थुषश्च ॥',
-          meaning: {
-            en: 'The bright face of the gods has risen, the eye of Mitra, Varuna and Agni. He has filled heaven, earth and the mid-region; the Sun is the soul of all that moves and all that stands still.',
-            kn: 'ದೇವತೆಗಳ ಅದ್ಭುತವಾದ ಮುಖ, ಮಿತ್ರ, ವರುಣ, ಅಗ್ನಿಯರ ಕಣ್ಣು ಉದಯಿಸಿದೆ. ಅವನು ದ್ಯುಲೋಕ, ಭೂಮಿ, ಅಂತರಿಕ್ಷಗಳನ್ನು ತುಂಬಿದ್ದಾನೆ; ಚರಾಚರ ಜಗತ್ತಿನ ಆತ್ಮ ಸೂರ್ಯನೇ.',
-          },
-        },
-        {
-          text: 'सूर्यो देवीमुषसं रोचमानां मर्यो न योषामभ्येति पश्चात् ।\nयत्रा नरो देवयन्तो युगानि वितन्वते प्रति भद्राय भद्रम् ॥',
-          meaning: {
-            en: 'The Sun follows the shining goddess Dawn as a young man follows a maiden, there where devout men perform their rites age after age, each blessing answered with blessing.',
-            kn: 'ಯುವಕನು ಕನ್ಯೆಯನ್ನು ಹಿಂಬಾಲಿಸುವಂತೆ ಸೂರ್ಯನು ಪ್ರಕಾಶಿಸುವ ಉಷಾದೇವಿಯನ್ನು ಹಿಂಬಾಲಿಸುತ್ತಾನೆ; ಅಲ್ಲಿ ದೇವಭಕ್ತರು ಯುಗಯುಗಗಳಿಂದ ಮಂಗಳಕ್ಕಾಗಿ ಮಂಗಳಕರ ಕರ್ಮಗಳನ್ನು ವಿಸ್ತರಿಸುತ್ತಾರೆ.',
-          },
-        },
-        {
-          text: 'भद्रा अश्वा हरितः सूर्यस्य चित्रा एतग्वा अनुमाद्यासः ।\nनमस्यन्तो दिव आ पृष्ठमस्थुः परि द्यावापृथिवी यन्ति सद्यः ॥',
-          meaning: {
-            en: 'The Sun’s auspicious bay horses, bright, swift and worthy of praise, bowing low, have climbed the ridge of heaven; in a day they circle heaven and earth.',
-            kn: 'ಸೂರ್ಯನ ಮಂಗಳಕರವಾದ, ವಿಚಿತ್ರ ಬಣ್ಣದ, ವೇಗಶಾಲಿಯಾದ, ಸ್ತುತ್ಯವಾದ ಕುದುರೆಗಳು ನಮಸ್ಕರಿಸುತ್ತಾ ಆಕಾಶದ ಶಿಖರವನ್ನೇರಿವೆ; ಒಂದೇ ದಿನದಲ್ಲಿ ದ್ಯಾವಾಪೃಥಿವಿಗಳನ್ನು ಸುತ್ತುತ್ತವೆ.',
-          },
-        },
-        {
-          text: 'तत्सूर्यस्य देवत्वं तन्महित्वं मध्या कर्तोर्विततं सं जभार ।\nयदेदयुक्त हरितः सधस्थादाद्रात्री वासस्तनुते सिमस्मै ॥',
-          meaning: {
-            en: 'This is the divinity, this the greatness of the Sun: in the midst of work he draws in the spread-out light; when he unyokes his horses from their stall, Night spreads her garment over all.',
-            kn: 'ಇದೇ ಸೂರ್ಯನ ದೇವತ್ವ, ಇದೇ ಅವನ ಮಹಿಮೆ: ಕೆಲಸ ನಡೆಯುತ್ತಿರುವಾಗಲೇ ಹರಡಿದ ಬೆಳಕನ್ನು ಹಿಂದೆಗೆದುಕೊಳ್ಳುತ್ತಾನೆ; ಅವನು ಕುದುರೆಗಳನ್ನು ಬಿಚ್ಚಿದಾಗ ರಾತ್ರಿಯು ಎಲ್ಲದರ ಮೇಲೆ ತನ್ನ ವಸ್ತ್ರವನ್ನು ಹರಡುತ್ತಾಳೆ.',
-          },
-        },
-        {
-          text: 'तन्मित्रस्य वरुणस्याभिचक्षे सूर्यो रूपं कृणुते द्योरुपस्थे ।\nअनन्तमन्यद्रुशदस्य पाजः कृष्णमन्यद्धरितः सं भरन्ति ॥',
-          meaning: {
-            en: 'In the lap of heaven the Sun takes on a form for Mitra and Varuna to behold: his bay horses bring now his endless shining power, now its dark counterpart.',
-            kn: 'ಮಿತ್ರಾವರುಣರು ನೋಡುವಂತೆ ಸೂರ್ಯನು ಆಕಾಶದ ಮಡಿಲಲ್ಲಿ ರೂಪ ಧರಿಸುತ್ತಾನೆ; ಅವನ ಕುದುರೆಗಳು ಒಮ್ಮೆ ಅನಂತವಾದ ಹೊಳೆಯುವ ತೇಜಸ್ಸನ್ನೂ, ಒಮ್ಮೆ ಕಪ್ಪಾದ ಇನ್ನೊಂದು ರೂಪವನ್ನೂ ತರುತ್ತವೆ.',
-          },
-        },
-        {
-          text: 'अद्या देवा उदिता सूर्यस्य निरंहसः पिपृता निरवद्यात् ।\nतन्नो मित्रो वरुणो मामहन्तामदितिः सिन्धुः पृथिवी उत द्यौः ॥',
-          meaning: {
-            en: 'Today, O gods, at the rising of the Sun, deliver us from sin and from blame. May Mitra and Varuna, Aditi, the river, earth and heaven grant us this.',
-            kn: 'ಓ ದೇವತೆಗಳೇ, ಇಂದು ಸೂರ್ಯೋದಯದಲ್ಲಿ ನಮ್ಮನ್ನು ಪಾಪದಿಂದಲೂ ನಿಂದೆಯಿಂದಲೂ ಪಾರುಮಾಡಿ. ಮಿತ್ರ, ವರುಣ, ಅದಿತಿ, ಸಿಂಧು, ಭೂಮಿ, ದ್ಯುಲೋಕ ಇವರೆಲ್ಲರೂ ಇದನ್ನು ನಮಗೆ ಕರುಣಿಸಲಿ.',
-          },
-        },
-        {
-          text: 'जातवेदस इत्यस्य मन्त्रस्य कश्यप ऋषिः । दुर्गा जातवेदा अग्निर्देवता ।\nत्रिष्टुप् छन्दः । सन्ध्योपस्थाने विनियोगः ॥',
-          meaning: {
-            en: 'For the mantra “jatavedase”: the seer is Kashyapa, the deity is Agni Jatavedas (also named as Durga), the metre is Trishtubh; it is used for the sandhya upasthana.',
-            kn: '“ಜಾತವೇದಸೇ” ಮಂತ್ರಕ್ಕೆ ಕಶ್ಯಪ ಋಷಿ, ಜಾತವೇದ ಅಗ್ನಿ (ದುರ್ಗಾ ಎಂದೂ ಹೇಳುತ್ತಾರೆ) ದೇವತೆ, ತ್ರಿಷ್ಟುಪ್ ಛಂದಸ್ಸು; ಸಂಧ್ಯೋಪಸ್ಥಾನಕ್ಕೆ ವಿನಿಯೋಗ.',
-          },
-        },
-        {
-          text: 'जातवेदसे सुनवाम सोममरातीयतो नि दहाति वेदः ।\nस नः पर्षदति दुर्गाणि विश्वा नावेव सिन्धुं दुरितात्यग्निः ॥',
-          meaning: {
-            en: 'For Jatavedas, the knower of all, let us press the Soma; may he burn away the hoard of those who are hostile. As a boat carries across a river, may Agni — for Madhvas, the Lord within him — carry us beyond all difficulties and wrongs.',
-            kn: 'ಎಲ್ಲವನ್ನೂ ಬಲ್ಲ ಜಾತವೇದನಿಗಾಗಿ ಸೋಮವನ್ನು ಅರ್ಪಿಸೋಣ; ಅವನು ಶತ್ರುಗಳ ಸಂಪತ್ತನ್ನು ಸುಟ್ಟುಹಾಕಲಿ. ದೋಣಿಯು ನದಿಯನ್ನು ದಾಟಿಸುವಂತೆ ಅಗ್ನಿಯು (ಮಾಧ್ವರಿಗೆ ಅಗ್ನಿಯ ಅಂತರ್ಯಾಮಿಯಾದ ಭಗವಂತನು) ನಮ್ಮನ್ನು ಎಲ್ಲ ಕಷ್ಟಗಳಿಂದಲೂ ಪಾಪಗಳಿಂದಲೂ ಪಾರುಮಾಡಲಿ.',
-          },
-        },
-        {
-          text: 'तच्छंयोरित्यस्य मन्त्रस्य शंयुरृषिः । विश्वे देवा देवताः ।\nशक्वरी छन्दः । शान्त्यर्थे जपे विनियोगः ॥',
-          meaning: {
-            en: 'For the mantra “tac chamyoh”: the seer is Shamyu, the deities are the Vishvedevas, the metre is Shakvari; it is recited for peace.',
-            kn: '“ತಚ್ಛಂಯೋಃ” ಮಂತ್ರಕ್ಕೆ ಶಂಯು ಋಷಿ, ವಿಶ್ವೇದೇವತೆಗಳು ದೇವತೆ, ಶಕ್ವರೀ ಛಂದಸ್ಸು; ಶಾಂತಿಗಾಗಿ ಜಪದಲ್ಲಿ ವಿನಿಯೋಗ.',
-          },
-        },
-        {
-          text: 'तच्छंयोरावृणीमहे । गातुं यज्ञाय । गातुं यज्ञपतये ।\nदैवी स्वस्तिरस्तु नः । स्वस्तिर्मानुषेभ्यः ।\nऊर्ध्वं जिगातु भेषजम् । शं नो अस्तु द्विपदे । शं चतुष्पदे ॥',
-          meaning: {
-            en: 'We pray for that health and happiness: for the success of the sacrifice and of the one who offers it. May divine well-being be ours, and well-being for all people; may healing rise ever higher; may there be welfare for our two-footed and four-footed beings.',
-            kn: 'ಆ ಆರೋಗ್ಯ ಸುಖಗಳನ್ನು ಬೇಡುತ್ತೇವೆ: ಯಜ್ಞಕ್ಕೂ ಯಜ್ಞಮಾಡುವವನಿಗೂ ಸಫಲತೆಯಾಗಲಿ. ನಮಗೆ ದೈವಿಕ ಕ್ಷೇಮವೂ ಎಲ್ಲ ಮನುಷ್ಯರಿಗೆ ಕ್ಷೇಮವೂ ಆಗಲಿ; ಔಷಧಶಕ್ತಿ ಮೇಲ್ಮುಖವಾಗಿ ವೃದ್ಧಿಯಾಗಲಿ; ಎರಡು ಕಾಲಿನ ಜೀವಿಗಳಿಗೂ ನಾಲ್ಕು ಕಾಲಿನ ಜೀವಿಗಳಿಗೂ ಮಂಗಳವಾಗಲಿ.',
-          },
-        },
-        {
-          text: 'नमो ब्रह्मणे । नमो अस्त्वग्नये । नमः पृथिव्यै । नम ओषधीभ्यः ।\nनमो वाचे । नमो वाचस्पतये । नमो विष्णवे महते करोमि ॥',
-          meaning: {
-            en: 'Salutations to Brahman; salutations to Agni; to the Earth; to the healing plants; to Speech and to the Lord of Speech; to the great Vishnu I offer my salutation.',
-            kn: 'ಬ್ರಹ್ಮನಿಗೆ ನಮಸ್ಕಾರ; ಅಗ್ನಿಗೆ, ಭೂಮಿಗೆ, ಓಷಧಿಗಳಿಗೆ, ವಾಗ್ದೇವಿಗೆ, ವಾಚಸ್ಪತಿಗೆ ನಮಸ್ಕಾರ; ಮಹಾನ್ ವಿಷ್ಣುವಿಗೆ ನಮಸ್ಕರಿಸುತ್ತೇನೆ.',
-          },
-        },
-      ],
-    },
-    {
-      title: 'सन्ध्योपस्थानम्',
-      titleEn: 'Sandhyopasthana (worship of the Sun, standing)',
-      note: 'Evening: stand with folded hands facing west. Many Smarta manuals (especially Andhra ones) first recite the riks to Varuna यच्चिद्धि ते… (Rigveda 1.25.1–10); recite those only if your family does. Then जातवेदसे…, तच्छंयोः… and नमो ब्रह्मणे…, with which you turn round clockwise three times where you stand.',
-      noteKn: 'ಸಂಜೆ: ಪಶ್ಚಿಮಾಭಿಮುಖವಾಗಿ ಕೈಮುಗಿದು ನಿಂತುಕೊಳ್ಳಿ. ಅನೇಕ ಸ್ಮಾರ್ತ ಪುಸ್ತಕಗಳು (ವಿಶೇಷವಾಗಿ ಆಂಧ್ರದವು) ಮೊದಲು ವರುಣನ “ಯಚ್ಚಿದ್ಧಿ ತೇ…” ಋಕ್ಕುಗಳನ್ನು (ಋಗ್ವೇದ ೧.೨೫.೧–೧೦) ಹೇಳುತ್ತವೆ; ಮನೆತನದಲ್ಲಿ ಪದ್ಧತಿಯಿದ್ದರೆ ಮಾತ್ರ ಹೇಳಿ. ನಂತರ “ಜಾತವೇದಸೇ…”, “ತಚ್ಛಂಯೋಃ…”, “ನಮೋ ಬ್ರಹ್ಮಣೇ…” — ಕೊನೆಯದನ್ನು ಹೇಳುತ್ತಾ ನಿಂತಲ್ಲೇ ಮೂರು ಬಾರಿ ಪ್ರದಕ್ಷಿಣವಾಗಿ ತಿರುಗಿ.',
+      note: 'Evening: stand with folded hands facing west. The Karnataka Rigvedi Smarta manuals (Somayaji, Balkur) recite the two riks to Varuna इमं मे वरुण… and तत्त्वा यामि… (Rigveda 1.25.19, 1.24.11). Tamil and Andhra manuals instead recite जातवेदसे…, तच्छंयोः… and नमो ब्रह्मणे…, with which you turn round clockwise three times. Recite what your family recites.',
+      noteKn: 'ಸಾಯಂಕಾಲ ಪಶ್ಚಿಮಾಭಿಮುಖವಾಗಿ ಕೈಮುಗಿದು ನಿಂತುಕೊಳ್ಳಿ. ಕರ್ನಾಟಕದ ಋಗ್ವೇದಿ ಸ್ಮಾರ್ತ ಪುಸ್ತಕಗಳು (ಸೋಮಯಾಜಿ, ಬಳ್ಕೂರು) ವರುಣನ ಎರಡು ಋಕ್ಕುಗಳನ್ನು — “ಇಮಂ ಮೇ ವರುಣ…”, “ತತ್ತ್ವಾ ಯಾಮಿ…” (ಋಗ್ವೇದ ೧.೨೫.೧೯, ೧.೨೪.೧೧) — ಹೇಳುತ್ತವೆ. ತಮಿಳು ಮತ್ತು ಆಂಧ್ರದ ಪುಸ್ತಕಗಳು ಅದರ ಬದಲು “ಜಾತವೇದಸೇ…”, “ತಚ್ಛಂಯೋಃ…”, “ನಮೋ ಬ್ರಹ್ಮಣೇ…” ಹೇಳುತ್ತವೆ; ಕೊನೆಯದನ್ನು ಹೇಳುತ್ತಾ ಮೂರು ಬಾರಿ ಪ್ರದಕ್ಷಿಣವಾಗಿ ತಿರುಗಿ. ಮನೆತನದಲ್ಲಿ ಹೇಳುವುದನ್ನೇ ಹೇಳಿ.',
       when: { tradition: ['smarta'], time: ['evening'] },
       verses: [
         {
-          text: 'यच्चिद्धि ते विशो यथा प्र देव वरुण व्रतम् ।\nमिनीमसि द्यविद्यवि ॥',
+          text: 'इमं मे वरुण श्रुधी हवमद्या च मृळय ।\nत्वामवस्युरा चके ॥',
           meaning: {
-            en: 'O god Varuna, as people do, we too break your laws day after day —',
-            kn: 'ಓ ವರುಣದೇವ, ಸಾಮಾನ್ಯ ಜನರಂತೆ ನಾವೂ ದಿನದಿನವೂ ನಿನ್ನ ನಿಯಮಗಳನ್ನು ಮೀರುತ್ತೇವೆ —',
-          },
-        },
-        {
-          text: 'मा नो वधाय हत्नवे जिहीळानस्य रीरधः ।\nमा हृणानस्य मन्यवे ॥',
-          meaning: {
-            en: '— yet do not hand us over to death, to the weapon of the angry one, nor to the wrath of the offended.',
-            kn: '— ಆದರೂ ಕೋಪಗೊಂಡವನ ಮಾರಕ ಆಯುಧಕ್ಕೂ, ಕ್ರುದ್ಧನ ರೋಷಕ್ಕೂ ನಮ್ಮನ್ನು ಒಪ್ಪಿಸಬೇಡ.',
-          },
-        },
-        {
-          text: 'वि मृळीकाय ते मनो रथीरश्वं न सन्दितम् ।\nगीर्भिर्वरुण सीमहि ॥',
-          meaning: {
-            en: 'As a charioteer loosens a tethered horse, O Varuna, we loosen your mind with our hymns, to win your mercy.',
-            kn: 'ಸಾರಥಿಯು ಕಟ್ಟಿದ ಕುದುರೆಯನ್ನು ಬಿಚ್ಚುವಂತೆ, ಓ ವರುಣ, ನಿನ್ನ ಕರುಣೆಗಾಗಿ ನಮ್ಮ ಸ್ತುತಿಗಳಿಂದ ನಿನ್ನ ಮನಸ್ಸನ್ನು ಸಡಿಲಿಸುತ್ತೇವೆ.',
-          },
-        },
-        {
-          text: 'परा हि मे विमन्यवः पतन्ति वस्य इष्टये ।\nवयो न वसतीरुप ॥',
-          meaning: {
-            en: 'My thoughts, free of anger, fly out in search of good, as birds fly to their nests.',
-            kn: 'ಹಕ್ಕಿಗಳು ಗೂಡಿನ ಕಡೆಗೆ ಹಾರುವಂತೆ, ಕೋಪವಿಲ್ಲದ ನನ್ನ ಮನಸ್ಸುಗಳು ಶ್ರೇಯಸ್ಸನ್ನು ಅರಸಿ ನಿನ್ನೆಡೆಗೆ ಹಾರುತ್ತವೆ.',
-          },
-        },
-        {
-          text: 'कदा क्षत्रश्रियं नरमा वरुणं करामहे ।\nमृळीकायोरुचक्षसम् ॥',
-          meaning: {
-            en: 'When shall we bring here, for our mercy, Varuna, the hero glorious in power, the far-seeing one?',
-            kn: 'ಕ್ಷಾತ್ರತೇಜಸ್ಸಿನಿಂದ ಶೋಭಿಸುವ, ದೂರದರ್ಶಿಯಾದ ವೀರ ವರುಣನನ್ನು ನಮ್ಮ ಮೇಲಿನ ಕರುಣೆಗಾಗಿ ಎಂದು ಇಲ್ಲಿಗೆ ಬರಮಾಡಿಕೊಳ್ಳುವೆವು?',
-          },
-        },
-        {
-          text: 'तदित्समानमाशाते वेनन्ता न प्र युच्छतः ।\nधृतव्रताय दाशुषे ॥',
-          meaning: {
-            en: 'Mitra and Varuna, longing for it, share this offering together and never neglect the giver who keeps his vows.',
-            kn: 'ಮಿತ್ರಾವರುಣರು ಬಯಸಿ ಈ ಹವಿಸ್ಸನ್ನು ಒಟ್ಟಾಗಿ ಸ್ವೀಕರಿಸುತ್ತಾರೆ; ವ್ರತನಿಷ್ಠನಾದ ದಾನಿಯನ್ನು ಎಂದೂ ಕೈಬಿಡುವುದಿಲ್ಲ.',
-          },
-        },
-        {
-          text: 'वेदा यो वीनां पदमन्तरिक्षेण पतताम् ।\nवेद नावः समुद्रियः ॥',
-          meaning: {
-            en: 'He knows the path of the birds that fly through the air; dwelling in the ocean, he knows the course of ships.',
-            kn: 'ಆಕಾಶದಲ್ಲಿ ಹಾರುವ ಹಕ್ಕಿಗಳ ದಾರಿಯನ್ನು ಅವನು ಬಲ್ಲ; ಸಮುದ್ರದಲ್ಲಿರುವ ಅವನು ಹಡಗುಗಳ ದಾರಿಯನ್ನೂ ಬಲ್ಲ.',
-          },
-        },
-        {
-          text: 'वेद मासो धृतव्रतो द्वादश प्रजावतः ।\nवेदा य उपजायते ॥',
-          meaning: {
-            en: 'Keeper of the law, he knows the twelve months with their offspring, and he knows the month that is born in addition.',
-            kn: 'ನಿಯಮಪಾಲಕನಾದ ಅವನು ತಮ್ಮ ಸಂತತಿಯೊಡನೆ ಹನ್ನೆರಡು ತಿಂಗಳುಗಳನ್ನೂ ಬಲ್ಲ; ಹೆಚ್ಚುವರಿಯಾಗಿ ಹುಟ್ಟುವ ಅಧಿಕಮಾಸವನ್ನೂ ಬಲ್ಲ.',
-          },
-        },
-        {
-          text: 'वेद वातस्य वर्तनिमुरोरृष्वस्य बृहतः ।\nवेदा ये अध्यासते ॥',
-          meaning: {
-            en: 'He knows the track of the wind, wide, high and mighty, and he knows those who dwell above.',
-            kn: 'ವಿಶಾಲವೂ ಉನ್ನತವೂ ಮಹತ್ತೂ ಆದ ಗಾಳಿಯ ಮಾರ್ಗವನ್ನು ಅವನು ಬಲ್ಲ; ಮೇಲೆ ನೆಲೆಸಿರುವವರನ್ನೂ ಬಲ್ಲ.',
-          },
-        },
-        {
-          text: 'नि षसाद धृतव्रतो वरुणः पस्त्यास्वा ।\nसाम्राज्याय सुक्रतुः ॥',
-          meaning: {
-            en: 'Varuna, keeper of the law, wise in action, has taken his seat among his people to rule as sovereign.',
-            kn: 'ನಿಯಮಪಾಲಕನೂ ಸತ್ಕರ್ಮಿಯೂ ಆದ ವರುಣನು ಸಾಮ್ರಾಜ್ಯವನ್ನಾಳಲು ತನ್ನ ಪ್ರಜೆಗಳ ನಡುವೆ ಆಸೀನನಾಗಿದ್ದಾನೆ.',
-          },
-        },
-        {
-          text: 'जातवेदस इत्यस्य मन्त्रस्य कश्यप ऋषिः । दुर्गा जातवेदा अग्निर्देवता ।\nत्रिष्टुप् छन्दः । सन्ध्योपस्थाने विनियोगः ॥',
-          meaning: {
-            en: 'For the mantra “jatavedase”: the seer is Kashyapa, the deity is Agni Jatavedas (also named as Durga), the metre is Trishtubh; it is used for the sandhya upasthana.',
-            kn: '“ಜಾತವೇದಸೇ” ಮಂತ್ರಕ್ಕೆ ಕಶ್ಯಪ ಋಷಿ, ಜಾತವೇದ ಅಗ್ನಿ (ದುರ್ಗಾ ಎಂದೂ ಹೇಳುತ್ತಾರೆ) ದೇವತೆ, ತ್ರಿಷ್ಟುಪ್ ಛಂದಸ್ಸು; ಸಂಧ್ಯೋಪಸ್ಥಾನಕ್ಕೆ ವಿನಿಯೋಗ.',
-          },
-        },
-        {
-          text: 'जातवेदसे सुनवाम सोममरातीयतो नि दहाति वेदः ।\nस नः पर्षदति दुर्गाणि विश्वा नावेव सिन्धुं दुरितात्यग्निः ॥',
-          meaning: {
-            en: 'For Jatavedas, the knower of all, let us press the Soma; may he burn away the hoard of those who are hostile. As a boat carries across a river, may Agni — for Madhvas, the Lord within him — carry us beyond all difficulties and wrongs.',
-            kn: 'ಎಲ್ಲವನ್ನೂ ಬಲ್ಲ ಜಾತವೇದನಿಗಾಗಿ ಸೋಮವನ್ನು ಅರ್ಪಿಸೋಣ; ಅವನು ಶತ್ರುಗಳ ಸಂಪತ್ತನ್ನು ಸುಟ್ಟುಹಾಕಲಿ. ದೋಣಿಯು ನದಿಯನ್ನು ದಾಟಿಸುವಂತೆ ಅಗ್ನಿಯು (ಮಾಧ್ವರಿಗೆ ಅಗ್ನಿಯ ಅಂತರ್ಯಾಮಿಯಾದ ಭಗವಂತನು) ನಮ್ಮನ್ನು ಎಲ್ಲ ಕಷ್ಟಗಳಿಂದಲೂ ಪಾಪಗಳಿಂದಲೂ ಪಾರುಮಾಡಲಿ.',
-          },
-        },
-        {
-          text: 'तच्छंयोरित्यस्य मन्त्रस्य शंयुरृषिः । विश्वे देवा देवताः ।\nशक्वरी छन्दः । शान्त्यर्थे जपे विनियोगः ॥',
-          meaning: {
-            en: 'For the mantra “tac chamyoh”: the seer is Shamyu, the deities are the Vishvedevas, the metre is Shakvari; it is recited for peace.',
-            kn: '“ತಚ್ಛಂಯೋಃ” ಮಂತ್ರಕ್ಕೆ ಶಂಯು ಋಷಿ, ವಿಶ್ವೇದೇವತೆಗಳು ದೇವತೆ, ಶಕ್ವರೀ ಛಂದಸ್ಸು; ಶಾಂತಿಗಾಗಿ ಜಪದಲ್ಲಿ ವಿನಿಯೋಗ.',
-          },
-        },
-        {
-          text: 'तच्छंयोरावृणीमहे । गातुं यज्ञाय । गातुं यज्ञपतये ।\nदैवी स्वस्तिरस्तु नः । स्वस्तिर्मानुषेभ्यः ।\nऊर्ध्वं जिगातु भेषजम् । शं नो अस्तु द्विपदे । शं चतुष्पदे ॥',
-          meaning: {
-            en: 'We pray for that health and happiness: for the success of the sacrifice and of the one who offers it. May divine well-being be ours, and well-being for all people; may healing rise ever higher; may there be welfare for our two-footed and four-footed beings.',
-            kn: 'ಆ ಆರೋಗ್ಯ ಸುಖಗಳನ್ನು ಬೇಡುತ್ತೇವೆ: ಯಜ್ಞಕ್ಕೂ ಯಜ್ಞಮಾಡುವವನಿಗೂ ಸಫಲತೆಯಾಗಲಿ. ನಮಗೆ ದೈವಿಕ ಕ್ಷೇಮವೂ ಎಲ್ಲ ಮನುಷ್ಯರಿಗೆ ಕ್ಷೇಮವೂ ಆಗಲಿ; ಔಷಧಶಕ್ತಿ ಮೇಲ್ಮುಖವಾಗಿ ವೃದ್ಧಿಯಾಗಲಿ; ಎರಡು ಕಾಲಿನ ಜೀವಿಗಳಿಗೂ ನಾಲ್ಕು ಕಾಲಿನ ಜೀವಿಗಳಿಗೂ ಮಂಗಳವಾಗಲಿ.',
-          },
-        },
-        {
-          text: 'नमो ब्रह्मणे । नमो अस्त्वग्नये । नमः पृथिव्यै । नम ओषधीभ्यः ।\nनमो वाचे । नमो वाचस्पतये । नमो विष्णवे महते करोमि ॥',
-          meaning: {
-            en: 'Salutations to Brahman; salutations to Agni; to the Earth; to the healing plants; to Speech and to the Lord of Speech; to the great Vishnu I offer my salutation.',
-            kn: 'ಬ್ರಹ್ಮನಿಗೆ ನಮಸ್ಕಾರ; ಅಗ್ನಿಗೆ, ಭೂಮಿಗೆ, ಓಷಧಿಗಳಿಗೆ, ವಾಗ್ದೇವಿಗೆ, ವಾಚಸ್ಪತಿಗೆ ನಮಸ್ಕಾರ; ಮಹಾನ್ ವಿಷ್ಣುವಿಗೆ ನಮಸ್ಕರಿಸುತ್ತೇನೆ.',
-          },
-        },
-      ],
-    },
-    {
-      title: 'दिग्देवतानमस्कारः',
-      titleEn: 'Digdevata namaskara (salutation to the directions)',
-      note: 'Standing, turn to each direction in turn and bow with folded hands, beginning with the east: east, south, west, north; then upwards, downwards, the space around (antariksha) and the intermediate directions. Then salute the guardians of the directions by name, bowing towards each.',
-      noteKn: 'ನಿಂತುಕೊಂಡು ಪೂರ್ವದಿಂದ ಆರಂಭಿಸಿ ಪ್ರತಿ ದಿಕ್ಕಿಗೂ ತಿರುಗಿ ಕೈಮುಗಿದು ನಮಸ್ಕರಿಸಿ: ಪೂರ್ವ, ದಕ್ಷಿಣ, ಪಶ್ಚಿಮ, ಉತ್ತರ; ನಂತರ ಮೇಲೆ, ಕೆಳಗೆ, ಸುತ್ತಲಿನ ಆಕಾಶ (ಅಂತರಿಕ್ಷ), ಉಪದಿಕ್ಕುಗಳು. ಆಮೇಲೆ ದಿಕ್ಪಾಲಕರನ್ನು ಹೆಸರಿಸಿ ಅವರವರ ದಿಕ್ಕಿಗೆ ನಮಸ್ಕರಿಸಿ.',
-      when: { tradition: ['madhva'], time: ['morning', 'midday'] },
-      verses: [
-        {
-          text: 'ॐ नमः प्राच्यै दिशे याश्च देवता एतस्यां प्रतिवसन्त्येताभ्यश्च नमो नमः ।\nॐ नमो दक्षिणायै दिशे याश्च देवता एतस्यां प्रतिवसन्त्येताभ्यश्च नमो नमः ।\nॐ नमः प्रतीच्यै दिशे याश्च देवता एतस्यां प्रतिवसन्त्येताभ्यश्च नमो नमः ।\nॐ नम उदीच्यै दिशे याश्च देवता एतस्यां प्रतिवसन्त्येताभ्यश्च नमो नमः ।\nॐ नम ऊर्ध्वायै दिशे याश्च देवता एतस्यां प्रतिवसन्त्येताभ्यश्च नमो नमः ।\nॐ नमोऽधरायै दिशे याश्च देवता एतस्यां प्रतिवसन्त्येताभ्यश्च नमो नमः ।\nॐ नमोऽन्तरिक्षायै दिशे याश्च देवता एतस्यां प्रतिवसन्त्येताभ्यश्च नमो नमः ।\nॐ नमोऽवान्तरायै दिशे याश्च देवता एतस्यां प्रतिवसन्त्येताभ्यश्च नमो नमः ॥',
-          meaning: {
-            en: 'Salutations to the east, south, west and north, to the direction above, the direction below, the mid-space and the intermediate directions — and salutations again and again to the deities who dwell in each of them.',
-            kn: 'ಪೂರ್ವ, ದಕ್ಷಿಣ, ಪಶ್ಚಿಮ, ಉತ್ತರ ದಿಕ್ಕುಗಳಿಗೂ, ಮೇಲಿನ, ಕೆಳಗಿನ ದಿಕ್ಕುಗಳಿಗೂ, ಅಂತರಿಕ್ಷಕ್ಕೂ, ಉಪದಿಕ್ಕುಗಳಿಗೂ ನಮಸ್ಕಾರ; ಅವುಗಳಲ್ಲಿ ನೆಲೆಸಿರುವ ದೇವತೆಗಳಿಗೆ ಮತ್ತೆ ಮತ್ತೆ ನಮಸ್ಕಾರ.',
-          },
-        },
-        {
-          text: 'ॐ इन्द्राय नमः । ॐ अग्नये नमः । ॐ यमाय नमः ।\nॐ निरृतये नमः । ॐ वरुणाय नमः । ॐ वायवे नमः ।\nॐ कुबेराय नमः । ॐ ईशानाय नमः ।\nॐ ब्रह्मणे नमः । ॐ अनन्ताय नमः ॥',
-          meaning: {
-            en: 'Salutations to the guardians of the directions — Indra, Agni, Yama, Nirriti, Varuna, Vayu, Kubera and Ishana — and to Brahma above and Ananta below.',
-            kn: 'ದಿಕ್ಪಾಲಕರಾದ ಇಂದ್ರ, ಅಗ್ನಿ, ಯಮ, ನಿರೃತಿ, ವರುಣ, ವಾಯು, ಕುಬೇರ, ಈಶಾನರಿಗೂ, ಮೇಲಿನ ದಿಕ್ಕಿನ ಬ್ರಹ್ಮದೇವರಿಗೂ ಕೆಳಗಿನ ದಿಕ್ಕಿನ ಅನಂತನಿಗೂ ನಮಸ್ಕಾರ.',
-          },
-        },
-      ],
-    },
-    {
-      title: 'दिग्देवतानमस्कारः',
-      titleEn: 'Digdevata namaskara (salutation to the directions)',
-      note: 'Evening: standing, begin with the west and go round in order — west, north, east, south — saying for each the line that names it; then upwards, downwards, the space around and the intermediate directions. Then salute the guardians of the directions by name, bowing towards each.',
-      noteKn: 'ಸಂಜೆ: ನಿಂತುಕೊಂಡು ಪಶ್ಚಿಮದಿಂದ ಆರಂಭಿಸಿ ಕ್ರಮವಾಗಿ — ಪಶ್ಚಿಮ, ಉತ್ತರ, ಪೂರ್ವ, ದಕ್ಷಿಣ — ಆ ದಿಕ್ಕನ್ನು ಹೆಸರಿಸುವ ವಾಕ್ಯ ಹೇಳುತ್ತಾ ನಮಸ್ಕರಿಸಿ; ನಂತರ ಮೇಲೆ, ಕೆಳಗೆ, ಸುತ್ತಲಿನ ಆಕಾಶ, ಉಪದಿಕ್ಕುಗಳು. ಆಮೇಲೆ ದಿಕ್ಪಾಲಕರನ್ನು ಹೆಸರಿಸಿ ಅವರವರ ದಿಕ್ಕಿಗೆ ನಮಸ್ಕರಿಸಿ.',
-      when: { tradition: ['madhva'], time: ['evening'] },
-      verses: [
-        {
-          text: 'ॐ नमः प्राच्यै दिशे याश्च देवता एतस्यां प्रतिवसन्त्येताभ्यश्च नमो नमः ।\nॐ नमो दक्षिणायै दिशे याश्च देवता एतस्यां प्रतिवसन्त्येताभ्यश्च नमो नमः ।\nॐ नमः प्रतीच्यै दिशे याश्च देवता एतस्यां प्रतिवसन्त्येताभ्यश्च नमो नमः ।\nॐ नम उदीच्यै दिशे याश्च देवता एतस्यां प्रतिवसन्त्येताभ्यश्च नमो नमः ।\nॐ नम ऊर्ध्वायै दिशे याश्च देवता एतस्यां प्रतिवसन्त्येताभ्यश्च नमो नमः ।\nॐ नमोऽधरायै दिशे याश्च देवता एतस्यां प्रतिवसन्त्येताभ्यश्च नमो नमः ।\nॐ नमोऽन्तरिक्षायै दिशे याश्च देवता एतस्यां प्रतिवसन्त्येताभ्यश्च नमो नमः ।\nॐ नमोऽवान्तरायै दिशे याश्च देवता एतस्यां प्रतिवसन्त्येताभ्यश्च नमो नमः ॥',
-          meaning: {
-            en: 'Salutations to the east, south, west and north, to the direction above, the direction below, the mid-space and the intermediate directions — and salutations again and again to the deities who dwell in each of them.',
-            kn: 'ಪೂರ್ವ, ದಕ್ಷಿಣ, ಪಶ್ಚಿಮ, ಉತ್ತರ ದಿಕ್ಕುಗಳಿಗೂ, ಮೇಲಿನ, ಕೆಳಗಿನ ದಿಕ್ಕುಗಳಿಗೂ, ಅಂತರಿಕ್ಷಕ್ಕೂ, ಉಪದಿಕ್ಕುಗಳಿಗೂ ನಮಸ್ಕಾರ; ಅವುಗಳಲ್ಲಿ ನೆಲೆಸಿರುವ ದೇವತೆಗಳಿಗೆ ಮತ್ತೆ ಮತ್ತೆ ನಮಸ್ಕಾರ.',
-          },
-        },
-        {
-          text: 'ॐ इन्द्राय नमः । ॐ अग्नये नमः । ॐ यमाय नमः ।\nॐ निरृतये नमः । ॐ वरुणाय नमः । ॐ वायवे नमः ।\nॐ कुबेराय नमः । ॐ ईशानाय नमः ।\nॐ ब्रह्मणे नमः । ॐ अनन्ताय नमः ॥',
-          meaning: {
-            en: 'Salutations to the guardians of the directions — Indra, Agni, Yama, Nirriti, Varuna, Vayu, Kubera and Ishana — and to Brahma above and Ananta below.',
-            kn: 'ದಿಕ್ಪಾಲಕರಾದ ಇಂದ್ರ, ಅಗ್ನಿ, ಯಮ, ನಿರೃತಿ, ವರುಣ, ವಾಯು, ಕುಬೇರ, ಈಶಾನರಿಗೂ, ಮೇಲಿನ ದಿಕ್ಕಿನ ಬ್ರಹ್ಮದೇವರಿಗೂ ಕೆಳಗಿನ ದಿಕ್ಕಿನ ಅನಂತನಿಗೂ ನಮಸ್ಕಾರ.',
-          },
-        },
-      ],
-    },
-    {
-      title: 'दिग्देवतानमस्कारः',
-      titleEn: 'Digdevata namaskara (salutation to the directions)',
-      note: 'Standing, turn to each direction in turn and bow with folded hands (morning and midday from the east, evening from the west); then upwards, downwards, the space around and the intermediate directions. Karnataka Smarta manuals then recite one Rigvedic rik to the guardian of each direction — east (Indra), south-east (Agni), south (Yama), south-west (Nirriti), west (Varuna), north-west (Vayu), north (Soma), north-east (Ishana) — bowing towards it.',
-      noteKn: 'ನಿಂತುಕೊಂಡು ಪ್ರತಿ ದಿಕ್ಕಿಗೂ ತಿರುಗಿ ಕೈಮುಗಿದು ನಮಸ್ಕರಿಸಿ (ಬೆಳಗ್ಗೆ, ಮಧ್ಯಾಹ್ನ ಪೂರ್ವದಿಂದ, ಸಂಜೆ ಪಶ್ಚಿಮದಿಂದ); ನಂತರ ಮೇಲೆ, ಕೆಳಗೆ, ಸುತ್ತಲಿನ ಆಕಾಶ, ಉಪದಿಕ್ಕುಗಳು. ಕರ್ನಾಟಕದ ಸ್ಮಾರ್ತ ಪುಸ್ತಕಗಳು ನಂತರ ಪ್ರತಿ ದಿಕ್ಪಾಲಕನಿಗೆ ಒಂದೊಂದು ಋಕ್ಕನ್ನು ಹೇಳುತ್ತಾ ಆ ದಿಕ್ಕಿಗೆ ನಮಸ್ಕರಿಸುತ್ತವೆ — ಪೂರ್ವ (ಇಂದ್ರ), ಆಗ್ನೇಯ (ಅಗ್ನಿ), ದಕ್ಷಿಣ (ಯಮ), ನೈಋತ್ಯ (ನಿರೃತಿ), ಪಶ್ಚಿಮ (ವರುಣ), ವಾಯವ್ಯ (ವಾಯು), ಉತ್ತರ (ಸೋಮ), ಈಶಾನ್ಯ (ಈಶಾನ).',
-      when: { tradition: ['smarta'] },
-      verses: [
-        {
-          text: 'ॐ नमः प्राच्यै दिशे याश्च देवता एतस्यां प्रतिवसन्त्येताभ्यश्च नमो नमः ।\nॐ नमो दक्षिणायै दिशे याश्च देवता एतस्यां प्रतिवसन्त्येताभ्यश्च नमो नमः ।\nॐ नमः प्रतीच्यै दिशे याश्च देवता एतस्यां प्रतिवसन्त्येताभ्यश्च नमो नमः ।\nॐ नम उदीच्यै दिशे याश्च देवता एतस्यां प्रतिवसन्त्येताभ्यश्च नमो नमः ।\nॐ नम ऊर्ध्वायै दिशे याश्च देवता एतस्यां प्रतिवसन्त्येताभ्यश्च नमो नमः ।\nॐ नमोऽधरायै दिशे याश्च देवता एतस्यां प्रतिवसन्त्येताभ्यश्च नमो नमः ।\nॐ नमोऽन्तरिक्षायै दिशे याश्च देवता एतस्यां प्रतिवसन्त्येताभ्यश्च नमो नमः ।\nॐ नमोऽवान्तरायै दिशे याश्च देवता एतस्यां प्रतिवसन्त्येताभ्यश्च नमो नमः ॥',
-          meaning: {
-            en: 'Salutations to the east, south, west and north, to the direction above, the direction below, the mid-space and the intermediate directions — and salutations again and again to the deities who dwell in each of them.',
-            kn: 'ಪೂರ್ವ, ದಕ್ಷಿಣ, ಪಶ್ಚಿಮ, ಉತ್ತರ ದಿಕ್ಕುಗಳಿಗೂ, ಮೇಲಿನ, ಕೆಳಗಿನ ದಿಕ್ಕುಗಳಿಗೂ, ಅಂತರಿಕ್ಷಕ್ಕೂ, ಉಪದಿಕ್ಕುಗಳಿಗೂ ನಮಸ್ಕಾರ; ಅವುಗಳಲ್ಲಿ ನೆಲೆಸಿರುವ ದೇವತೆಗಳಿಗೆ ಮತ್ತೆ ಮತ್ತೆ ನಮಸ್ಕಾರ.',
-          },
-        },
-        {
-          text: 'इन्द्रं वो विश्वतस्परि हवामहे जनेभ्यः ।\nअस्माकमस्तु केवलः ॥',
-          meaning: {
-            en: '(East) We call Indra for you from among all peoples; may he be ours alone.',
-            kn: '(ಪೂರ್ವ) ಎಲ್ಲ ಜನರ ನಡುವಿನಿಂದ ಇಂದ್ರನನ್ನು ನಿಮಗಾಗಿ ಆಹ್ವಾನಿಸುತ್ತೇವೆ; ಅವನು ನಮ್ಮವನೇ ಆಗಿರಲಿ.',
-          },
-        },
-        {
-          text: 'अग्निं दूतं वृणीमहे होतारं विश्ववेदसम् ।\nअस्य यज्ञस्य सुक्रतुम् ॥',
-          meaning: {
-            en: '(South-east) We choose Agni as our messenger, the priest who possesses all, the skilful performer of this sacrifice.',
-            kn: '(ಆಗ್ನೇಯ) ಸರ್ವಸಂಪನ್ನನಾದ ಹೋತೃವೂ ಈ ಯಜ್ಞವನ್ನು ಚೆನ್ನಾಗಿ ನಡೆಸುವವನೂ ಆದ ಅಗ್ನಿಯನ್ನು ದೂತನನ್ನಾಗಿ ವರಿಸುತ್ತೇವೆ.',
-          },
-        },
-        {
-          text: 'यमाय सोमं सुनुत यमाय जुहुता हविः ।\nयमं ह यज्ञो गच्छत्यग्निदूतो अरंकृतः ॥',
-          meaning: {
-            en: '(South) Press Soma for Yama, offer oblations to Yama; to Yama goes the sacrifice, well prepared, with Agni as its messenger.',
-            kn: '(ದಕ್ಷಿಣ) ಯಮನಿಗಾಗಿ ಸೋಮವನ್ನು ಅರ್ಪಿಸಿ, ಯಮನಿಗೆ ಹವಿಸ್ಸನ್ನು ಹೋಮಮಾಡಿ; ಚೆನ್ನಾಗಿ ಸಿದ್ಧಗೊಂಡ ಯಜ್ಞವು ಅಗ್ನಿಯನ್ನು ದೂತನನ್ನಾಗಿ ಹೊಂದಿ ಯಮನನ್ನು ಸೇರುತ್ತದೆ.',
-          },
-        },
-        {
-          text: 'मो षु णः परापरा निरृतिर्दुर्हणा वधीत् ।\nपदीष्ट तृष्णया सह ॥',
-          meaning: {
-            en: '(South-west) Let not cruel Nirriti, hard to overcome, strike us down one after another; let her pass away together with craving.',
-            kn: '(ನೈರುತ್ಯ) ಗೆಲ್ಲಲಾಗದ ಕ್ರೂರ ನಿರೃತಿಯು ನಮ್ಮನ್ನು ಒಬ್ಬರ ನಂತರ ಒಬ್ಬರಂತೆ ನಾಶಮಾಡದಿರಲಿ; ದಾಹದೊಂದಿಗೆ ಅವಳು ತೊಲಗಲಿ.',
+            en: 'O Varuna, hear this call of mine and be gracious to me today; seeking your protection, I call upon you.',
+            kn: 'ಓ ವರುಣದೇವ, ನನ್ನ ಈ ಕರೆಯನ್ನು ಕೇಳು, ಇಂದು ನನ್ನ ಮೇಲೆ ಕರುಣೆ ತೋರು. ನಿನ್ನ ರಕ್ಷಣೆಯನ್ನು ಬಯಸಿ ನಿನ್ನನ್ನು ಪ್ರಾರ್ಥಿಸುತ್ತೇನೆ.',
           },
         },
         {
           text: 'तत्त्वा यामि ब्रह्मणा वन्दमानस्तदा शास्ते यजमानो हविर्भिः ।\nअहेळमानो वरुणेह बोध्युरुशंस मा न आयुः प्र मोषीः ॥',
           meaning: {
-            en: '(West) Praising you with this hymn, I ask of you what the worshipper seeks with his offerings. Without anger, O Varuna, be attentive to us here; O widely praised one, do not take away our life.',
-            kn: '(ಪಶ್ಚಿಮ) ಸ್ತೋತ್ರದಿಂದ ನಿನ್ನನ್ನು ವಂದಿಸುತ್ತಾ, ಯಜಮಾನನು ಹವಿಸ್ಸುಗಳ ಮೂಲಕ ಬಯಸುವುದನ್ನೇ ನಿನ್ನಿಂದ ಬೇಡುತ್ತೇನೆ. ಓ ವರುಣ, ಕೋಪಗೊಳ್ಳದೆ ಇಲ್ಲಿ ನಮ್ಮನ್ನು ಗಮನಿಸು; ಎಲ್ಲರಿಂದ ಸ್ತುತಿಸಲ್ಪಡುವವನೇ, ನಮ್ಮ ಆಯುಷ್ಯವನ್ನು ಕಸಿದುಕೊಳ್ಳಬೇಡ.',
+            en: 'Praising you with this hymn, I ask of you what the worshipper seeks with his offerings. Without anger, O Varuna, be attentive to us here; O widely praised one, do not take away our life.',
+            kn: 'ಸ್ತೋತ್ರದಿಂದ ನಿನ್ನನ್ನು ವಂದಿಸುತ್ತಾ, ಯಜಮಾನನು ಹವಿಸ್ಸುಗಳ ಮೂಲಕ ಬಯಸುವುದನ್ನೇ ನಿನ್ನಿಂದ ಬೇಡುತ್ತೇನೆ. ಓ ವರುಣ, ಕೋಪಗೊಳ್ಳದೆ ಇಲ್ಲಿ ನಮ್ಮನ್ನು ಗಮನಿಸು; ಎಲ್ಲರಿಂದ ಸ್ತುತಿಸಲ್ಪಡುವವನೇ, ನಮ್ಮ ಆಯುಷ್ಯವನ್ನು ಕಸಿದುಕೊಳ್ಳಬೇಡ.',
           },
         },
         {
-          text: 'तव वायवृतस्पते त्वष्टुर्जामातरद्भुत ।\nअवांस्या वृणीमहे ॥',
+          text: 'जातवेदस इत्यस्य मन्त्रस्य कश्यप ऋषिः । दुर्गा जातवेदा अग्निर्देवता ।\nत्रिष्टुप् छन्दः । सन्ध्योपस्थाने विनियोगः ॥',
           meaning: {
-            en: '(North-west) O Vayu, lord of the cosmic order, wondrous son-in-law of Tvashtri, we choose your protection.',
-            kn: '(ವಾಯುವ್ಯ) ಋತದ ಒಡೆಯನೇ, ತ್ವಷ್ಟೃವಿನ ಅದ್ಭುತ ಅಳಿಯನೇ, ಓ ವಾಯುವೇ, ನಿನ್ನ ರಕ್ಷಣೆಯನ್ನು ಬೇಡುತ್ತೇವೆ.',
+            en: 'For the mantra “jatavedase”: the seer is Kashyapa, the deity is Agni Jatavedas (also named as Durga), the metre is Trishtubh; it is used for the sandhya upasthana.',
+            kn: '“ಜಾತವೇದಸೇ” ಮಂತ್ರಕ್ಕೆ ಕಶ್ಯಪ ಋಷಿ, ಜಾತವೇದ ಅಗ್ನಿ (ದುರ್ಗಾ ಎಂದೂ ಹೇಳುತ್ತಾರೆ) ದೇವತೆ, ತ್ರಿಷ್ಟುಪ್ ಛಂದಸ್ಸು; ಸಂಧ್ಯೋಪಸ್ಥಾನಕ್ಕೆ ವಿನಿಯೋಗ.',
           },
         },
         {
-          text: 'सोमो धेनुं सोमो अर्वन्तमाशुं सोमो वीरं कर्मण्यं ददाति ।\nसादन्यं विदथ्यं सभेयं पितृश्रवणं यो ददाशदस्मै ॥',
+          text: 'जातवेदसे सुनवाम सोममरातीयतो नि दहाति वेदः ।\nस नः पर्षदति दुर्गाणि विश्वा नावेव सिन्धुं दुरितात्यग्निः ॥',
           meaning: {
-            en: '(North) To the one who offers to him, Soma gives a milch cow, a swift horse, and a capable son — fit for the home, the assembly and the council, bringing honour to his father.',
-            kn: '(ಉತ್ತರ) ತನಗೆ ಅರ್ಪಿಸುವವನಿಗೆ ಸೋಮನು ಹಾಲು ಕೊಡುವ ಹಸು, ವೇಗದ ಕುದುರೆ, ಮನೆಗೂ ಸಭೆಗೂ ಯೋಗ್ಯನಾದ, ತಂದೆಗೆ ಕೀರ್ತಿ ತರುವ ಕರ್ಮಕುಶಲ ಮಗನನ್ನು ಕೊಡುತ್ತಾನೆ.',
+            en: 'For Jatavedas, the knower of all, let us press the Soma; may he burn away the hoard of those who are hostile. As a boat carries across a river, may Agni — for Madhvas, the Lord within him — carry us beyond all difficulties and wrongs.',
+            kn: 'ಎಲ್ಲವನ್ನೂ ಬಲ್ಲ ಜಾತವೇದನಿಗಾಗಿ ಸೋಮವನ್ನು ಅರ್ಪಿಸೋಣ; ಅವನು ಶತ್ರುಗಳ ಸಂಪತ್ತನ್ನು ಸುಟ್ಟುಹಾಕಲಿ. ದೋಣಿಯು ನದಿಯನ್ನು ದಾಟಿಸುವಂತೆ ಅಗ್ನಿಯು (ಮಾಧ್ವರಿಗೆ ಅಗ್ನಿಯ ಅಂತರ್ಯಾಮಿಯಾದ ಭಗವಂತನು) ನಮ್ಮನ್ನು ಎಲ್ಲ ಕಷ್ಟಗಳಿಂದಲೂ ಪಾಪಗಳಿಂದಲೂ ಪಾರುಮಾಡಲಿ.',
           },
         },
         {
-          text: 'तमीशानं जगतस्तस्थुषस्पतिं धियंजिन्वमवसे हूमहे वयम् ।\nपूषा नो यथा वेदसामसद्वृधे रक्षिता पायुरदब्धः स्वस्तये ॥',
+          text: 'तच्छंयोरित्यस्य मन्त्रस्य शंयुरृषिः । विश्वे देवा देवताः ।\nशक्वरी छन्दः । शान्त्यर्थे जपे विनियोगः ॥',
           meaning: {
-            en: '(North-east) We call for protection on Ishana, lord of all that moves and stands, who quickens our minds, so that Pushan may increase our wealth and be our unfailing guardian for our welfare.',
-            kn: '(ಈಶಾನ್ಯ) ಚರಾಚರ ಜಗತ್ತಿನ ಒಡೆಯನೂ ಬುದ್ಧಿಯನ್ನು ಪ್ರೇರೇಪಿಸುವವನೂ ಆದ ಈಶಾನನನ್ನು ರಕ್ಷಣೆಗಾಗಿ ಕರೆಯುತ್ತೇವೆ; ಪೂಷನು ನಮ್ಮ ಸಂಪತ್ತನ್ನು ವೃದ್ಧಿಸಿ, ಸೋಲದ ರಕ್ಷಕನಾಗಿ ನಮ್ಮ ಕ್ಷೇಮವನ್ನು ಕಾಪಾಡಲಿ.',
+            en: 'For the mantra “tac chamyoh”: the seer is Shamyu, the deities are the Vishvedevas, the metre is Shakvari; it is recited for peace.',
+            kn: '“ತಚ್ಛಂಯೋಃ” ಮಂತ್ರಕ್ಕೆ ಶಂಯು ಋಷಿ, ವಿಶ್ವೇದೇವತೆಗಳು ದೇವತೆ, ಶಕ್ವರೀ ಛಂದಸ್ಸು; ಶಾಂತಿಗಾಗಿ ಜಪದಲ್ಲಿ ವಿನಿಯೋಗ.',
+          },
+        },
+        {
+          text: 'तच्छंयोरावृणीमहे । गातुं यज्ञाय । गातुं यज्ञपतये ।\nदैवी स्वस्तिरस्तु नः । स्वस्तिर्मानुषेभ्यः ।\nऊर्ध्वं जिगातु भेषजम् । शं नो अस्तु द्विपदे । शं चतुष्पदे ॥',
+          meaning: {
+            en: 'We pray for that health and happiness: for the success of the sacrifice and of the one who offers it. May divine well-being be ours, and well-being for all people; may healing rise ever higher; may there be welfare for our two-footed and four-footed beings.',
+            kn: 'ಆ ಆರೋಗ್ಯ ಸುಖಗಳನ್ನು ಬೇಡುತ್ತೇವೆ: ಯಜ್ಞಕ್ಕೂ ಯಜ್ಞಮಾಡುವವನಿಗೂ ಸಫಲತೆಯಾಗಲಿ. ನಮಗೆ ದೈವಿಕ ಕ್ಷೇಮವೂ ಎಲ್ಲ ಮನುಷ್ಯರಿಗೆ ಕ್ಷೇಮವೂ ಆಗಲಿ; ಔಷಧಶಕ್ತಿ ಮೇಲ್ಮುಖವಾಗಿ ವೃದ್ಧಿಯಾಗಲಿ; ಎರಡು ಕಾಲಿನ ಜೀವಿಗಳಿಗೂ ನಾಲ್ಕು ಕಾಲಿನ ಜೀವಿಗಳಿಗೂ ಮಂಗಳವಾಗಲಿ.',
+          },
+        },
+        {
+          text: 'नमो ब्रह्मणे । नमो अस्त्वग्नये । नमः पृथिव्यै । नम ओषधीभ्यः ।\nनमो वाचे । नमो वाचस्पतये । नमो विष्णवे महते करोमि ॥',
+          meaning: {
+            en: 'Salutations to Brahman; salutations to Agni; to the Earth; to the healing plants; to Speech and to the Lord of Speech; to the great Vishnu I offer my salutation.',
+            kn: 'ಬ್ರಹ್ಮನಿಗೆ ನಮಸ್ಕಾರ; ಅಗ್ನಿಗೆ, ಭೂಮಿಗೆ, ಓಷಧಿಗಳಿಗೆ, ವಾಗ್ದೇವಿಗೆ, ವಾಚಸ್ಪತಿಗೆ ನಮಸ್ಕಾರ; ಮಹಾನ್ ವಿಷ್ಣುವಿಗೆ ನಮಸ್ಕರಿಸುತ್ತೇನೆ.',
+          },
+        },
+      ],
+    },
+    {
+      title: 'दिग्देवतानमस्कारः',
+      titleEn: 'Digdevata namaskara (salutation to the directions)',
+      note: 'Morning: standing, turn to each direction in turn and bow with folded hands, beginning with the east: east, south, west, north, then upwards, downwards and the mid-space. With each, think of the guardian deities who dwell there with their consorts — Indra and Agni (east, south-east), Yama and Nirriti (south, south-west), Varuna and Vayu (west, north-west), Chandra, Kubera and Rudra (north, north-east), Garuda and Kama (above), Shesha (below), Ganesha and Surya (mid-space) — and of the form of the Lord each of them worships (Uttaradi Matha manual). There is no digdevata namaskara at midday.',
+      noteKn: 'ಬೆಳಿಗ್ಗೆ ನಿಂತುಕೊಂಡು, ಪೂರ್ವದಿಂದ ಆರಂಭಿಸಿ ಒಂದೊಂದು ದಿಕ್ಕಿಗೂ ತಿರುಗಿ ಕೈಮುಗಿದು ನಮಸ್ಕರಿಸಿ: ಪೂರ್ವ, ದಕ್ಷಿಣ, ಪಶ್ಚಿಮ, ಉತ್ತರ, ನಂತರ ಮೇಲೆ, ಕೆಳಗೆ, ಅಂತರಿಕ್ಷ. ಆಯಾ ದಿಕ್ಕಿನಲ್ಲಿ ಪತ್ನೀಸಹಿತರಾಗಿ ನೆಲೆಸಿರುವ ದಿಗಭಿಮಾನಿ ದೇವತೆಗಳನ್ನು — ಇಂದ್ರ, ಅಗ್ನಿ (ಪೂರ್ವ, ಆಗ್ನೇಯ), ಯಮ, ನಿರೃತಿ (ದಕ್ಷಿಣ, ನೈರೃತ್ಯ), ವರುಣ, ವಾಯು (ಪಶ್ಚಿಮ, ವಾಯವ್ಯ), ಚಂದ್ರ, ಕುಬೇರ, ರುದ್ರ (ಉತ್ತರ, ಈಶಾನ್ಯ), ಗರುಡ, ಮನ್ಮಥ (ಮೇಲೆ), ಶೇಷ (ಕೆಳಗೆ), ವಿನಾಯಕ, ಸೂರ್ಯ (ಅಂತರಿಕ್ಷ) — ಮತ್ತು ಅವರು ಉಪಾಸಿಸುವ ಭಗವಂತನ ರೂಪವನ್ನು ಚಿಂತಿಸಿ (ಉತ್ತರಾದಿಮಠದ ಪುಸ್ತಕ). ಮಧ್ಯಾಹ್ನ ದಿಗ್ದೇವತಾ ನಮಸ್ಕಾರವಿಲ್ಲ.',
+      when: { tradition: ['madhva'], time: ['morning'] },
+      verses: [
+        {
+          text: 'प्राच्यै दिशे याश्च देवता एतस्यां प्रतिवसन्ति एताभ्यश्च नमो नमः ।\nदक्षिणायै दिशे याश्च देवता एतस्यां प्रतिवसन्ति एताभ्यश्च नमो नमः ।\nप्रतीच्यै दिशे याश्च देवता एतस्यां प्रतिवसन्ति एताभ्यश्च नमो नमः ।\nउदीच्यै दिशे याश्च देवता एतस्यां प्रतिवसन्ति एताभ्यश्च नमो नमः ।\nऊर्ध्वायै दिशे याश्च देवता एतस्यां प्रतिवसन्ति एताभ्यश्च नमो नमः ।\nअधरायै दिशे याश्च देवता एतस्यां प्रतिवसन्ति एताभ्यश्च नमो नमः ।\nअन्तरिक्षायै दिशे याश्च देवता एतस्यां प्रतिवसन्ति एताभ्यश्च नमो नमः ॥',
+          meaning: {
+            en: 'To the east, the south, the west and the north, to the direction above, the direction below and the mid-space — and to the deities who dwell in each of them — salutations again and again.',
+            kn: 'ಪೂರ್ವ, ದಕ್ಷಿಣ, ಪಶ್ಚಿಮ, ಉತ್ತರ ದಿಕ್ಕುಗಳಿಗೂ, ಮೇಲಿನ ಮತ್ತು ಕೆಳಗಿನ ದಿಕ್ಕುಗಳಿಗೂ, ಅಂತರಿಕ್ಷಕ್ಕೂ, ಅವುಗಳಲ್ಲಿ ನೆಲೆಸಿರುವ ದೇವತೆಗಳಿಗೂ ಮತ್ತೆ ಮತ್ತೆ ನಮಸ್ಕಾರ.',
+          },
+        },
+      ],
+    },
+    {
+      title: 'दिग्देवतानमस्कारः',
+      titleEn: 'Digdevata namaskara (salutation to the directions)',
+      note: 'Evening: standing, begin with the west and go round in order — west, north, east, south, then upwards, downwards and the mid-space — thinking of the guardian deities of each direction and of the form of the Lord they worship.',
+      noteKn: 'ಸಾಯಂಕಾಲ ನಿಂತುಕೊಂಡು ಪಶ್ಚಿಮದಿಂದ ಆರಂಭಿಸಿ ಕ್ರಮವಾಗಿ — ಪಶ್ಚಿಮ, ಉತ್ತರ, ಪೂರ್ವ, ದಕ್ಷಿಣ, ನಂತರ ಮೇಲೆ, ಕೆಳಗೆ, ಅಂತರಿಕ್ಷ — ನಮಸ್ಕರಿಸಿ; ಆಯಾ ದಿಕ್ಕಿನ ದಿಗಭಿಮಾನಿ ದೇವತೆಗಳನ್ನೂ ಅವರು ಉಪಾಸಿಸುವ ಭಗವಂತನ ರೂಪವನ್ನೂ ಚಿಂತಿಸಿ.',
+      when: { tradition: ['madhva'], time: ['evening'] },
+      verses: [
+        {
+          text: 'प्रतीच्यै दिशे याश्च देवता एतस्यां प्रतिवसन्ति एताभ्यश्च नमो नमः ।\nउदीच्यै दिशे याश्च देवता एतस्यां प्रतिवसन्ति एताभ्यश्च नमो नमः ।\nप्राच्यै दिशे याश्च देवता एतस्यां प्रतिवसन्ति एताभ्यश्च नमो नमः ।\nदक्षिणायै दिशे याश्च देवता एतस्यां प्रतिवसन्ति एताभ्यश्च नमो नमः ।\nऊर्ध्वायै दिशे याश्च देवता एतस्यां प्रतिवसन्ति एताभ्यश्च नमो नमः ।\nअधरायै दिशे याश्च देवता एतस्यां प्रतिवसन्ति एताभ्यश्च नमो नमः ।\nअन्तरिक्षायै दिशे याश्च देवता एतस्यां प्रतिवसन्ति एताभ्यश्च नमो नमः ॥',
+          meaning: {
+            en: 'To the west, the north, the east and the south, to the direction above, the direction below and the mid-space — and to the deities who dwell in each of them — salutations again and again.',
+            kn: 'ಪಶ್ಚಿಮ, ಉತ್ತರ, ಪೂರ್ವ, ದಕ್ಷಿಣ ದಿಕ್ಕುಗಳಿಗೂ, ಮೇಲಿನ ಮತ್ತು ಕೆಳಗಿನ ದಿಕ್ಕುಗಳಿಗೂ, ಅಂತರಿಕ್ಷಕ್ಕೂ, ಅವುಗಳಲ್ಲಿ ನೆಲೆಸಿರುವ ದೇವತೆಗಳಿಗೂ ಮತ್ತೆ ಮತ್ತೆ ನಮಸ್ಕಾರ.',
+          },
+        },
+      ],
+    },
+    {
+      title: 'दिग्देवतानमस्कारः',
+      titleEn: 'Digdevata namaskara (salutation to the directions)',
+      note: 'Standing, salute the guardians of the eight directions, turning to each — in the morning from the east (Indra), in the evening from the west (Varuna). Then turn round four times where you stand with भूरिदं प्रदक्षिणम्…, and recite one mantra facing each quarter: इन्द्र श्रेष्ठानि… to the east, यमाय धर्मराजाय… to the south, ध्रुवासु त्वासु… to the west and ऋतं सत्यम्… to the north (in the evening begin with the west). This is the form of the Karnataka Rigvedi manuals (Somayaji, Balkur; Somayaji says कुबेराय नमः for the north). Andhra and Tamil manuals instead salute the quarters with नमः प्राच्यै दिशे… (the last verse).',
+      noteKn: 'ನಿಂತುಕೊಂಡು ಒಂದೊಂದು ದಿಕ್ಕಿಗೂ ತಿರುಗಿ ಅಷ್ಟದಿಕ್ಪಾಲಕರಿಗೆ ನಮಸ್ಕರಿಸಿ — ಬೆಳಿಗ್ಗೆ ಪೂರ್ವದಿಂದ (ಇಂದ್ರ), ಸಂಜೆ ಪಶ್ಚಿಮದಿಂದ (ವರುಣ). ನಂತರ “ಭೂರಿದಂ ಪ್ರದಕ್ಷಿಣಮ್…” ಎಂದು ನಿಂತಲ್ಲೇ ನಾಲ್ಕು ಬಾರಿ ತಿರುಗಿ, ಒಂದೊಂದು ದಿಕ್ಕಿಗೆ ಮುಖಮಾಡಿ ಒಂದೊಂದು ಮಂತ್ರ ಹೇಳಿ: ಪೂರ್ವಕ್ಕೆ “ಇಂದ್ರ ಶ್ರೇಷ್ಠಾನಿ…”, ದಕ್ಷಿಣಕ್ಕೆ “ಯಮಾಯ ಧರ್ಮರಾಜಾಯ…”, ಪಶ್ಚಿಮಕ್ಕೆ “ಧ್ರುವಾಸು ತ್ವಾಸು…”, ಉತ್ತರಕ್ಕೆ “ಋತಂ ಸತ್ಯಮ್…” (ಸಂಜೆ ಪಶ್ಚಿಮದಿಂದ ಆರಂಭಿಸಿ). ಇದು ಕರ್ನಾಟಕದ ಋಗ್ವೇದಿ ಪುಸ್ತಕಗಳ ಕ್ರಮ (ಸೋಮಯಾಜಿ, ಬಳ್ಕೂರು; ಸೋಮಯಾಜಿಯವರು ಉತ್ತರಕ್ಕೆ “ಕುಬೇರಾಯ ನಮಃ” ಎನ್ನುತ್ತಾರೆ). ಆಂಧ್ರ ಮತ್ತು ತಮಿಳು ಪುಸ್ತಕಗಳು ಅದರ ಬದಲು “ನಮಃ ಪ್ರಾಚ್ಯೈ ದಿಶೇ…” (ಕೊನೆಯ ಮಂತ್ರ) ಎಂದು ದಿಕ್ಕುಗಳಿಗೆ ನಮಸ್ಕರಿಸುತ್ತವೆ.',
+      when: { tradition: ['smarta'] },
+      verses: [
+        {
+          text: 'ॐ इन्द्राय नमः । ॐ अग्नये नमः । ॐ यमाय नमः । ॐ निरृतये नमः ।\nॐ वरुणाय नमः । ॐ वायवे नमः । ॐ सोमाय नमः । ॐ ईशानाय नमः ॥',
+          meaning: {
+            en: 'Salutations to Indra, Agni, Yama and Nirriti, to Varuna, Vayu, Soma and Ishana — the guardians of the eight directions, beginning with the east.',
+            kn: 'ಪೂರ್ವದಿಂದ ಆರಂಭಿಸಿ ಎಂಟು ದಿಕ್ಕುಗಳ ಪಾಲಕರಾದ ಇಂದ್ರ, ಅಗ್ನಿ, ಯಮ, ನಿರೃತಿ, ವರುಣ, ವಾಯು, ಸೋಮ, ಈಶಾನರಿಗೆ ನಮಸ್ಕಾರ.',
+          },
+        },
+        {
+          text: 'ॐ भूरिदं प्रदक्षिणम् । ॐ भुवरिदं प्रदक्षिणम् ।\nॐ सुवरिदं प्रदक्षिणम् । ॐ भूर्भुवस्सुवरिदं प्रदक्षिणम् ॥',
+          meaning: {
+            en: 'This circumambulation is for Bhuh; this is for Bhuvah; this is for Suvah; this is for Bhuh, Bhuvah and Suvah together.',
+            kn: 'ಈ ಪ್ರದಕ್ಷಿಣೆ ಭೂಲೋಕಕ್ಕೆ; ಇದು ಭುವರ್ಲೋಕಕ್ಕೆ; ಇದು ಸುವರ್ಲೋಕಕ್ಕೆ; ಇದು ಮೂರೂ ಲೋಕಗಳಿಗೆ ಒಟ್ಟಾಗಿ.',
+          },
+        },
+        {
+          text: 'इन्द्र श्रेष्ठानि द्रविणानि धेहि चित्तिं दक्षस्य सुभगत्वमस्मे ।\nपोषं रयीणामरिष्टिं तनूनां स्वाद्मानं वाचः सुदिनत्वमह्नाम् ॥',
+          meaning: {
+            en: 'O Indra, grant us the best of riches, clear understanding, skill and good fortune; the increase of wealth, the well-being of our bodies, sweetness of speech and good days.',
+            kn: 'ಓ ಇಂದ್ರನೇ, ನಮಗೆ ಶ್ರೇಷ್ಠವಾದ ಸಂಪತ್ತನ್ನೂ, ಸ್ಪಷ್ಟವಾದ ತಿಳಿವನ್ನೂ, ಕೌಶಲವನ್ನೂ, ಸೌಭಾಗ್ಯವನ್ನೂ ಕೊಡು; ಐಶ್ವರ್ಯದ ವೃದ್ಧಿ, ದೇಹಗಳ ಕ್ಷೇಮ, ಮಾತಿನ ಮಾಧುರ್ಯ ಮತ್ತು ಶುಭದಿನಗಳನ್ನು ಕರುಣಿಸು.',
+          },
+        },
+        {
+          text: 'यमाय धर्मराजाय मृत्यवे चान्तकाय च ।\nवैवस्वताय कालाय सर्वभूतक्षयाय च ॥\nऔदुम्बराय दध्नाय नीलाय परमेष्ठिने ।\nवृकोदराय चित्राय चित्रगुप्ताय वै नमः ॥',
+          meaning: {
+            en: 'Salutations to Yama, the king of dharma — to Death, the Ender, the son of Vivasvan, Time, the destroyer of all beings; to Audumbara, Dadhna, Nila, Parameshthin, Vrikodara, Chitra and Chitragupta.',
+            kn: 'ಧರ್ಮರಾಜನಾದ ಯಮನಿಗೆ — ಮೃತ್ಯು, ಅಂತಕ, ವೈವಸ್ವತ, ಕಾಲ, ಸರ್ವಭೂತಕ್ಷಯ ಎಂದು ಕರೆಯಲ್ಪಡುವವನಿಗೆ; ಔದುಂಬರ, ದಧ್ನ, ನೀಲ, ಪರಮೇಷ್ಠಿ, ವೃಕೋದರ, ಚಿತ್ರ, ಚಿತ್ರಗುಪ್ತರಿಗೆ ನಮಸ್ಕಾರ.',
+          },
+        },
+        {
+          text: 'ध्रुवासु त्वासु क्षितिषु क्षियन्तो व्यस्मत्पाशं वरुणो मुमोचत् ।\nअवो वन्वाना अदितेरुपस्थाद्यूयं पात स्वस्तिभिः सदा नः ॥',
+          meaning: {
+            en: 'As we dwell in these firm dwelling-places of yours, may Varuna loosen his noose from us; winning protection from the lap of Aditi, protect us always, O gods, with blessings.',
+            kn: 'ನಿನ್ನ ಈ ಸ್ಥಿರವಾದ ನೆಲೆಗಳಲ್ಲಿ ವಾಸಿಸುತ್ತಿರುವ ನಮ್ಮಿಂದ ವರುಣನು ತನ್ನ ಪಾಶವನ್ನು ಬಿಡಿಸಲಿ; ಅದಿತಿಯ ಮಡಿಲಿನಿಂದ ರಕ್ಷಣೆಯನ್ನು ಪಡೆಯುತ್ತಾ, ಓ ದೇವತೆಗಳೇ, ನಮ್ಮನ್ನು ಸದಾ ಮಂಗಳಗಳಿಂದ ಕಾಪಾಡಿರಿ.',
+          },
+        },
+        {
+          text: 'ऋतं सत्यं परं ब्रह्म पुरुषं कृष्णपिङ्गलम् ।\nऊर्ध्वरेतं विरूपाक्षं विश्वरूपाय वै नमो नमः ॥',
+          meaning: {
+            en: 'To him who is Order and Truth, the Supreme Brahman, the Person dark and tawny, of upward-flowing vigour, of uncommon eyes, whose form is the universe: salutations again and again.',
+            kn: 'ಋತವೂ ಸತ್ಯವೂ ಪರಬ್ರಹ್ಮವೂ ಆದ, ಕಪ್ಪು-ಕಂದು ವರ್ಣದ ಪುರುಷನಾದ, ಊರ್ಧ್ವರೇತಸ್ಕನಾದ, ವಿಶಿಷ್ಟ ನೇತ್ರಗಳುಳ್ಳ, ವಿಶ್ವರೂಪನಾದ ಪರಮಾತ್ಮನಿಗೆ ಮತ್ತೆ ಮತ್ತೆ ನಮಸ್ಕಾರ.',
+          },
+        },
+        {
+          text: 'ॐ नमः प्राच्यै दिशे याश्च देवता एतस्यां प्रतिवसन्त्येताभ्यश्च नमः ।\nनमो दक्षिणायै दिशे याश्च देवता एतस्यां प्रतिवसन्त्येताभ्यश्च नमः ।\nनमः प्रतीच्यै दिशे याश्च देवता एतस्यां प्रतिवसन्त्येताभ्यश्च नमः ।\nनम उदीच्यै दिशे याश्च देवता एतस्यां प्रतिवसन्त्येताभ्यश्च नमः ।\nनम ऊर्ध्वायै दिशे याश्च देवता एतस्यां प्रतिवसन्त्येताभ्यश्च नमः ।\nनमोऽधरायै दिशे याश्च देवता एतस्यां प्रतिवसन्त्येताभ्यश्च नमः ।\nनमोऽवान्तरायै दिशे याश्च देवता एतस्यां प्रतिवसन्त्येताभ्यश्च नमः ॥',
+          meaning: {
+            en: 'Salutation to the eastern direction and to the deities who dwell in it; likewise to the south, the west, the north, the direction above, the direction below and the intermediate space, and to the deities who dwell in each.',
+            kn: 'ಪೂರ್ವ ದಿಕ್ಕಿಗೂ ಅಲ್ಲಿ ನೆಲೆಸಿರುವ ದೇವತೆಗಳಿಗೂ ನಮಸ್ಕಾರ; ಹಾಗೆಯೇ ದಕ್ಷಿಣ, ಪಶ್ಚಿಮ, ಉತ್ತರ, ಮೇಲಿನ, ಕೆಳಗಿನ ದಿಕ್ಕುಗಳಿಗೂ ಮಧ್ಯದ ಅವಕಾಶಕ್ಕೂ ಅಲ್ಲಲ್ಲಿ ನೆಲೆಸಿರುವ ದೇವತೆಗಳಿಗೂ ನಮಸ್ಕಾರ.',
           },
         },
       ],
@@ -2351,7 +2306,7 @@ export const sandhyaVandaneRigveda: Mantra = {
       titleEn: 'Salutation to Sandhya and the deities',
       note: 'Standing with folded hands, salute Sandhya and the other deities, the sages, teachers and parents. With कामोऽकार्षीत्… confess that desire and anger, not your true self, drove your wrongs. Then bow to Vasudeva and Sandhya, to Krishna as the friend of cows and Brahmanas, and take refuge in Durga. Then make a full prostration (sashtanga namaskara).',
       noteKn: 'ನಿಂತು ಕೈಮುಗಿದು ಸಂಧ್ಯಾದೇವಿ ಮುಂತಾದ ದೇವತೆಗಳಿಗೂ ಋಷಿಮುನಿಗಳಿಗೂ ಗುರುಗಳಿಗೂ ತಂದೆತಾಯಿಯರಿಗೂ ನಮಸ್ಕರಿಸಿ. “ಕಾಮೋಽಕಾರ್ಷೀತ್” ಹೇಳುವಾಗ ನನ್ನ ತಪ್ಪುಗಳಿಗೆ ಕಾಮಕ್ರೋಧಗಳೇ ಕಾರಣ ಎಂದು ಒಪ್ಪಿಕೊಳ್ಳಬೇಕು. ನಂತರ ವಾಸುದೇವನಿಗೂ ಸಂಧ್ಯಾದೇವಿಗೂ, ಗೋಬ್ರಾಹ್ಮಣಹಿತನಾದ ಶ್ರೀಕೃಷ್ಣನಿಗೂ ನಮಸ್ಕರಿಸಿ, ದುರ್ಗಾದೇವಿಯಲ್ಲಿ ಶರಣು ಹೋಗಿ.',
-      when: { tradition: ['madhva'] },
+      when: { tradition: ['madhva'], time: ['morning', 'evening'] },
       verses: [
         {
           text: 'ॐ सन्ध्यायै नमः । सावित्र्यै नमः । गायत्र्यै नमः । सरस्वत्यै नमः ।\nसर्वाभ्यो देवताभ्यो नमः । मुनिभ्यो नमः । ऋषिभ्यो नमः ।\nगुरुभ्यो नमः । मातृभ्यो नमः । पितृभ्यो नमः । आचार्येभ्यो नमः ।\nकामोऽकार्षीन्नमो नमः । मन्युरकार्षीन्नमो नमः ॥',
@@ -2361,7 +2316,7 @@ export const sandhyaVandaneRigveda: Mantra = {
           },
         },
         {
-          text: 'ॐ नमो भगवते वासुदेवाय ।\nयां सदा सर्वभूतानि स्थावराणि चराणि च ।\nसायं प्रातर्नमस्यन्ति सा मां सन्ध्याभिरक्षतु ॥',
+          text: 'ॐ नमो भगवते वासुदेवाय ।\nयां सदा सर्वभूतानि स्थावराणि चराणि च ।\nसायं प्रातर्नमस्यन्ति सा मा सन्ध्याभिरक्षतु ॥',
           meaning: {
             en: 'Om, salutations to Lord Vasudeva. May that Sandhya, to whom all beings, moving and unmoving, bow evening and morning, protect me.',
             kn: 'ಓಂ, ಭಗವಾನ್ ವಾಸುದೇವನಿಗೆ ನಮಸ್ಕಾರ. ಚರಾಚರ ಜೀವಿಗಳೆಲ್ಲವೂ ಸಂಜೆ ಬೆಳಗ್ಗೆ ಯಾರಿಗೆ ನಮಸ್ಕರಿಸುತ್ತವೆಯೋ ಆ ಸಂಧ್ಯಾದೇವತೆ ನನ್ನನ್ನು ರಕ್ಷಿಸಲಿ.',
@@ -2398,7 +2353,7 @@ export const sandhyaVandaneRigveda: Mantra = {
           },
         },
         {
-          text: 'ॐ नमो भगवते वासुदेवाय ।\nयां सदा सर्वभूतानि स्थावराणि चराणि च ।\nसायं प्रातर्नमस्यन्ति सा मां सन्ध्याभिरक्षतु ॥',
+          text: 'ॐ नमो भगवते वासुदेवाय ।\nयां सदा सर्वभूतानि स्थावराणि चराणि च ।\nसायं प्रातर्नमस्यन्ति सा मा सन्ध्याभिरक्षतु ॥',
           meaning: {
             en: 'Om, salutations to Lord Vasudeva. May that Sandhya, to whom all beings, moving and unmoving, bow evening and morning, protect me.',
             kn: 'ಓಂ, ಭಗವಾನ್ ವಾಸುದೇವನಿಗೆ ನಮಸ್ಕಾರ. ಚರಾಚರ ಜೀವಿಗಳೆಲ್ಲವೂ ಸಂಜೆ ಬೆಳಗ್ಗೆ ಯಾರಿಗೆ ನಮಸ್ಕರಿಸುತ್ತವೆಯೋ ಆ ಸಂಧ್ಯಾದೇವತೆ ನನ್ನನ್ನು ರಕ್ಷಿಸಲಿ.',
@@ -2432,7 +2387,52 @@ export const sandhyaVandaneRigveda: Mantra = {
       titleEn: 'Gayatri udvasana (farewell)',
       note: 'With folded hands bid Gayatri farewell, then recite the verses offering all salutations to Keshava and bow.',
       noteKn: 'ಕೈಮುಗಿದು ಗಾಯತ್ರಿಯನ್ನು ಬೀಳ್ಕೊಡಿ; ನಂತರ ಎಲ್ಲ ನಮಸ್ಕಾರಗಳನ್ನೂ ಕೇಶವನಿಗೆ ಅರ್ಪಿಸುವ ಶ್ಲೋಕಗಳನ್ನು ಹೇಳಿ ನಮಸ್ಕರಿಸಿ.',
+      when: { tradition: ['smarta'] },
       verses: [
+        {
+          text: 'उत्तमे शिखरे जाते भूम्यां पर्वतमूर्धनि ।\nब्राह्मणेभ्योऽभ्यनुज्ञाता गच्छ देवि यथासुखम् ॥',
+          meaning: {
+            en: 'O Goddess, dwelling on the highest peak, on the summit of the mountain on earth: with the leave of the Brahmanas, go now as you please.',
+            kn: 'ಭೂಮಿಯ ಮೇಲಿನ ಪರ್ವತದ ಉನ್ನತ ಶಿಖರದಲ್ಲಿ ನೆಲೆಸಿರುವ ಓ ದೇವಿ, ಬ್ರಾಹ್ಮಣರ ಅನುಮತಿಯೊಂದಿಗೆ ನಿನಗೆ ಸುಖವಾಗುವಂತೆ ತೆರಳು.',
+          },
+        },
+        {
+          text: 'आकाशात्पतितं तोयं यथा गच्छति सागरम् ।\nसर्वदेवनमस्कारः केशवं प्रति गच्छति ॥',
+          meaning: {
+            en: 'Just as all water falling from the sky flows on to the ocean, salutations offered to any deity reach Keshava.',
+            kn: 'ಆಕಾಶದಿಂದ ಬಿದ್ದ ನೀರೆಲ್ಲವೂ ಕೊನೆಗೆ ಸಮುದ್ರವನ್ನೇ ಸೇರುವಂತೆ, ಯಾವ ದೇವತೆಗೆ ಮಾಡಿದ ನಮಸ್ಕಾರವೂ ಕೇಶವನನ್ನೇ ಸೇರುತ್ತದೆ.',
+          },
+        },
+        {
+          text: 'वासनाद्वासुदेवस्य वासितं ते जगत्त्रयम् ।\nसर्वभूतनिवासोऽसि वासुदेव नमोऽस्तु ते ॥',
+          meaning: {
+            en: 'O Vasudeva, the three worlds are pervaded by you because you dwell in them; you are the abode of all beings — salutations to you.',
+            kn: 'ಓ ವಾಸುದೇವ, ನೀನು ವಾಸಿಸಿರುವುದರಿಂದಲೇ ಮೂರು ಲೋಕಗಳೂ ನಿನ್ನಿಂದ ವ್ಯಾಪ್ತವಾಗಿವೆ; ಸಮಸ್ತ ಜೀವಿಗಳ ನೆಲೆ ನೀನೇ — ನಿನಗೆ ನಮಸ್ಕಾರ.',
+          },
+        },
+        {
+          text: 'नमोऽस्त्वनन्ताय सहस्रमूर्तये\nसहस्रपादाक्षिशिरोरुबाहवे ।\nसहस्रनाम्ने पुरुषाय शाश्वते\nसहस्रकोटियुगधारिणे नमः ॥',
+          meaning: {
+            en: 'Salutations to the infinite Lord of a thousand forms, with a thousand feet, eyes, heads, thighs and arms; to the eternal Person of a thousand names, who upholds thousands of crores of ages.',
+            kn: 'ಸಾವಿರ ರೂಪಗಳ, ಸಾವಿರ ಪಾದ, ಕಣ್ಣು, ತಲೆ, ತೊಡೆ, ತೋಳುಗಳುಳ್ಳ ಅನಂತನಿಗೆ ನಮಸ್ಕಾರ; ಸಾವಿರ ನಾಮಗಳ, ಸಾವಿರಾರು ಕೋಟಿ ಯುಗಗಳನ್ನು ಧರಿಸುವ ಶಾಶ್ವತ ಪುರುಷನಿಗೆ ನಮಸ್ಕಾರ.',
+          },
+        },
+      ],
+    },
+    {
+      title: 'गायत्र्युद्वासनम्',
+      titleEn: 'Gayatri udvasana (farewell)',
+      note: 'With folded hands say the viniyoga and bid the Gayatri farewell with उत्तमे शिखरे…, then recite the verses offering all salutations to Keshava and bow.',
+      noteKn: 'ಕೈಮುಗಿದು ವಿನಿಯೋಗ ಹೇಳಿ “ಉತ್ತಮೇ ಶಿಖರೇ…” ಎಂದು ಗಾಯತ್ರಿಯನ್ನು ಬೀಳ್ಕೊಡಿ; ನಂತರ ಎಲ್ಲ ನಮಸ್ಕಾರಗಳನ್ನೂ ಕೇಶವನಿಗೆ ಅರ್ಪಿಸುವ ಶ್ಲೋಕಗಳನ್ನು ಹೇಳಿ ನಮಸ್ಕರಿಸಿ.',
+      when: { tradition: ['madhva'], time: ['morning', 'evening'] },
+      verses: [
+        {
+          text: 'उत्तम इत्यस्य वामदेव ऋषिः । गायत्री देवता । अनुष्टुप् छन्दः ।\nगायत्र्युद्वासने विनियोगः ॥',
+          meaning: {
+            en: 'Of the mantra “uttame” the seer is Vamadeva, the deity Gayatri, the metre anushtubh; it is applied in bidding farewell to the Gayatri.',
+            kn: '"ಉತ್ತಮೇ" ಮಂತ್ರಕ್ಕೆ ವಾಮದೇವ ಋಷಿ, ಗಾಯತ್ರೀ ದೇವತೆ, ಅನುಷ್ಟುಪ್ ಛಂದಸ್ಸು; ಗಾಯತ್ರೀ ಉದ್ವಾಸನದಲ್ಲಿ ವಿನಿಯೋಗ.',
+          },
+        },
         {
           text: 'उत्तमे शिखरे जाते भूम्यां पर्वतमूर्धनि ।\nब्राह्मणेभ्योऽभ्यनुज्ञाता गच्छ देवि यथासुखम् ॥',
           meaning: {
@@ -2468,6 +2468,7 @@ export const sandhyaVandaneRigveda: Mantra = {
       titleEn: 'Abhivadana (formal self-introduction)',
       note: 'Recite the peace prayer and blessing. Then, for abhivadana, hold the right ear with the left hand and the left ear with the right hand (arms crossed), and give your pravara (the names of the rishis of your gotra), gotra, sutra, shakha and name in place of the अमुक words; at the end bow and touch the ground. Do achamana twice afterwards. If you do not know your pravara, ask your elders or purohita; Kshatriyas say वर्मा and Vaishyas गुप्तः in place of शर्मा.',
       noteKn: 'ಶಾಂತಿಮಂತ್ರ ಮತ್ತು ಆಶೀರ್ವಾದ ವಾಕ್ಯಗಳನ್ನು ಹೇಳಿ. ನಂತರ ಅಭಿವಾದನಕ್ಕೆ ಕೈಗಳನ್ನು ಅಡ್ಡವಾಗಿಸಿ ಎಡಗೈಯಿಂದ ಬಲ ಕಿವಿಯನ್ನೂ ಬಲಗೈಯಿಂದ ಎಡ ಕಿವಿಯನ್ನೂ ಹಿಡಿದು, “ಅಮುಕ” ಎಂದಿರುವಲ್ಲಿ ನಿಮ್ಮ ಪ್ರವರ (ಗೋತ್ರದ ಋಷಿಗಳ ಹೆಸರುಗಳು), ಗೋತ್ರ, ಸೂತ್ರ, ಶಾಖೆ ಮತ್ತು ಹೆಸರನ್ನು ಹೇಳಿ; ಕೊನೆಯಲ್ಲಿ ಬಾಗಿ ನೆಲವನ್ನು ಮುಟ್ಟಿ ನಮಸ್ಕರಿಸಿ. ನಂತರ ಎರಡು ಬಾರಿ ಆಚಮನ ಮಾಡಿ. ಪ್ರವರ ತಿಳಿಯದಿದ್ದರೆ ಹಿರಿಯರನ್ನು ಅಥವಾ ಪುರೋಹಿತರನ್ನು ಕೇಳಿ; ಕ್ಷತ್ರಿಯರು “ಶರ್ಮಾ” ಬದಲು “ವರ್ಮಾ”, ವೈಶ್ಯರು “ಗುಪ್ತಃ” ಎನ್ನುತ್ತಾರೆ.',
+      when: { tradition: ['smarta'] },
       verses: [
         {
           text: 'ॐ भद्रं नो अपि वातय मनः ।\nॐ शान्तिः शान्तिः शान्तिः ॥',
@@ -2488,6 +2489,43 @@ export const sandhyaVandaneRigveda: Mantra = {
           meaning: {
             en: 'I, so-and-so Sharma, of such-and-such gotra with its pravara, following the Ashvalayana sutra and studying the Rigveda shakha, offer my respectful salutation.',
             kn: 'ಇಂತಹ ಪ್ರವರದಿಂದ ಕೂಡಿದ ಇಂತಹ ಗೋತ್ರದ, ಆಶ್ವಲಾಯನ ಸೂತ್ರದ, ಋಕ್‌ಶಾಖೆಯನ್ನು ಅಧ್ಯಯನ ಮಾಡುವ ಇಂತಹ ಶರ್ಮನಾದ ನಾನು ವಿನಯದಿಂದ ಅಭಿವಾದನ ಮಾಡುತ್ತೇನೆ.',
+          },
+        },
+        {
+          text: 'आचम्य ॥',
+          meaning: {
+            en: 'Do achamana: sip water three times and touch the limbs with the names of the Lord, as at the beginning.',
+            kn: 'ಆಚಮನ ಮಾಡಿ: ಆರಂಭದಲ್ಲಿ ಮಾಡಿದಂತೆ ಭಗವನ್ನಾಮಗಳೊಂದಿಗೆ ಮೂರು ಬಾರಿ ನೀರು ಸೇವಿಸಿ ಅಂಗಗಳನ್ನು ಸ್ಪರ್ಶಿಸಿ.',
+          },
+        },
+      ],
+    },
+    {
+      title: 'गोत्राभिवादनम्',
+      titleEn: 'Abhivadana (formal self-introduction)',
+      note: 'Recite the peace prayer and blessing. Then, for abhivadana, hold the right ear with the left hand and the left ear with the right hand (arms crossed), say your pravara, gotra, Veda, sutra, shakha and name in place of the अमुक words, and bow touching the ground. Do achamana twice afterwards. If you do not know your pravara, ask your elders or purohita; Kshatriyas say वर्मा and Vaishyas गुप्तः in place of शर्मा.',
+      noteKn: 'ಶಾಂತಿಮಂತ್ರ ಮತ್ತು ಆಶೀರ್ವಾದ ವಾಕ್ಯಗಳನ್ನು ಹೇಳಿ. ನಂತರ ಅಭಿವಾದನಕ್ಕೆ ಕೈಗಳನ್ನು ಅಡ್ಡವಾಗಿಸಿ ಎಡಗೈಯಿಂದ ಬಲ ಕಿವಿಯನ್ನೂ ಬಲಗೈಯಿಂದ ಎಡ ಕಿವಿಯನ್ನೂ ಹಿಡಿದು, “ಅಮುಕ” ಎಂದಿರುವಲ್ಲಿ ನಿಮ್ಮ ಪ್ರವರ, ಗೋತ್ರ, ವೇದ, ಸೂತ್ರ, ಶಾಖೆ ಮತ್ತು ಹೆಸರನ್ನು ಹೇಳಿ ನೆಲವನ್ನು ಮುಟ್ಟಿ ನಮಸ್ಕರಿಸಿ. ನಂತರ ಎರಡು ಬಾರಿ ಆಚಮನ ಮಾಡಿ. ಪ್ರವರ ತಿಳಿಯದಿದ್ದರೆ ಹಿರಿಯರನ್ನು ಅಥವಾ ಪುರೋಹಿತರನ್ನು ಕೇಳಿ; ಕ್ಷತ್ರಿಯರು “ಶರ್ಮಾ” ಬದಲು “ವರ್ಮಾ”, ವೈಶ್ಯರು “ಗುಪ್ತಃ” ಎನ್ನುತ್ತಾರೆ.',
+      when: { tradition: ['madhva'], time: ['morning', 'evening'] },
+      verses: [
+        {
+          text: 'ॐ भद्रं नो अपि वातय मनः ।\nॐ शान्तिः शान्तिः शान्तिः ॥',
+          meaning: {
+            en: 'Inspire our minds towards what is good. Om, peace, peace, peace.',
+            kn: 'ನಮ್ಮ ಮನಸ್ಸನ್ನು ಶುಭದ ಕಡೆಗೆ ಪ್ರೇರೇಪಿಸು. ಓಂ ಶಾಂತಿಃ ಶಾಂತಿಃ ಶಾಂತಿಃ.',
+          },
+        },
+        {
+          text: 'सर्वारिष्टशान्तिरस्तु । समस्तमङ्गलावाप्तिरस्तु ।\nचतुःसागरपर्यन्तं गोब्राह्मणेभ्यः शुभं भवतु ॥',
+          meaning: {
+            en: 'May all misfortunes be stilled; may every blessing be attained. May there be good to cows and Brahmanas as far as the four oceans.',
+            kn: 'ಎಲ್ಲ ಅರಿಷ್ಟಗಳೂ ಶಾಂತವಾಗಲಿ; ಸಮಸ್ತ ಮಂಗಳಗಳೂ ಲಭಿಸಲಿ. ನಾಲ್ಕು ಸಮುದ್ರಗಳವರೆಗಿನ ಗೋವುಗಳಿಗೂ ಬ್ರಾಹ್ಮಣರಿಗೂ ಶುಭವಾಗಲಿ.',
+          },
+        },
+        {
+          text: 'अमुकप्रवरान्वित अमुकगोत्रोत्पन्नः ऋग्वेदस्य आश्वलायनसूत्रः\nशाकल्यशाखाध्यायी अमुकशर्मा अहं भो अभिवादये ॥',
+          meaning: {
+            en: 'I, so-and-so Sharma, born in such-and-such gotra with such-and-such pravara, following the Ashvalayana sutra of the Rigveda and studying the Shakala shakha, offer my salutation.',
+            kn: 'ಇಂತಹ ಪ್ರವರದಿಂದ ಕೂಡಿದ ಇಂತಹ ಗೋತ್ರದಲ್ಲಿ ಹುಟ್ಟಿದ, ಋಗ್ವೇದದ ಆಶ್ವಲಾಯನ ಸೂತ್ರವನ್ನು ಅನುಸರಿಸುವ, ಶಾಕಲ ಶಾಖೆಯನ್ನು ಅಧ್ಯಯನ ಮಾಡುವ ಇಂತಹ ಹೆಸರಿನ ಶರ್ಮನಾದ ನಾನು ನಮಸ್ಕರಿಸುತ್ತೇನೆ.',
           },
         },
         {
