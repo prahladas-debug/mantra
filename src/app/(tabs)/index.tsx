@@ -5,8 +5,8 @@ import { Modal, Pressable, ScrollView, StyleSheet, Text, View } from 'react-nati
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { TodayCard } from '../../components/PanchangaCard';
 import { RoutineCard } from '../../components/RoutineCard';
+import { BookCover, CategoryTile, QuickTile, ShelfHeading, greatWorks } from '../../components/Shelf';
 import { getMantraInfo, scriptFor } from '../../data';
-import { COLLECTIONS } from '../../data/collections';
 import { scriptFont } from '../../lib/fonts';
 import { appTitle } from '../../lib/labels';
 import { useSettings } from '../../lib/settings';
@@ -45,14 +45,23 @@ function ScriptSheet({ visible, onClose }: { visible: boolean; onClose: () => vo
   );
 }
 
-/** Home: today (panchanga, festival and its text), today's routine, continue reading, collections. */
+const EVERY_DAY: { icon: keyof typeof Ionicons.glyphMap; label: string; href: string }[] = [
+  { icon: 'sunny-outline', label: 'Morning prayers', href: '/collection/morning' },
+  { icon: 'water-outline', label: 'Bath (snana)', href: '/mantra/snana-vidhi' },
+  { icon: 'partly-sunny-outline', label: 'Sandhyavandane', href: '/category/sandhya' },
+  { icon: 'flower-outline', label: 'Daily puja', href: '/mantra/nitya-puja' },
+  { icon: 'restaurant-outline', label: 'Meal prayers', href: '/mantra/bhojana-mantras' },
+  { icon: 'ellipse-outline', label: 'Japa counter', href: '/japa' },
+];
+
+/** Home: today, where you left off, the great works as book covers, everyday shortcuts and songs. */
 export default function Home() {
-  const { theme, settings, recent, positions, ready } = useSettings();
+  const { theme, settings, recent, positions, routine, ready } = useSettings();
   const insets = useSafeAreaInsets();
   const [scriptSheet, setScriptSheet] = useState(false);
   const font = scriptFont(settings.script, settings.bookFonts);
   const script = SCRIPTS.find((x) => x.id === settings.script) ?? SCRIPTS[0];
-  const recentMantras = recent.map((r) => getMantraInfo(r.id)).filter((m) => !!m).slice(0, 5);
+  const last = recent.map((r) => getMantraInfo(r.id)).find((m) => !!m);
 
   // First launch: choose language, tradition and place.
   if (!ready) return <View style={{ flex: 1, backgroundColor: theme.bg }} />;
@@ -87,48 +96,46 @@ export default function Home() {
       </Pressable>
 
       <TodayCard />
-      <RoutineCard compact />
+      {routine.length > 0 && <RoutineCard compact />}
 
-      {recentMantras.length > 0 && (
-        <>
-          <Text style={[s.heading, { color: theme.text }]}>Continue reading</Text>
-          <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={{ paddingHorizontal: 16, gap: 10 }}>
-            {recentMantras.map((m) => (
-              <Pressable
-                key={m.id}
-                onPress={() => router.push(`/mantra/${m.id}` as Href)}
-                style={({ pressed }) => [s.cover, { backgroundColor: theme.page, borderColor: theme.pageEdge, opacity: pressed ? 0.75 : 1 }]}
-              >
-                <Text numberOfLines={2} style={{ color: theme.accent, fontSize: 16, lineHeight: 26, textAlign: 'center', fontFamily: scriptFont(scriptFor(m, settings.script), settings.bookFonts) }}>
-                  {translitTitle(m.title, settings.script)}
-                </Text>
-                <Text numberOfLines={2} style={{ color: theme.textMuted, fontSize: 12, textAlign: 'center', marginTop: 4 }}>
-                  {m.titleEn}
-                </Text>
-                {positions[m.id] && <Text style={{ color: theme.accent, fontSize: 12, marginTop: 6, fontWeight: '600' }}>Resume ›</Text>}
-              </Pressable>
-            ))}
-          </ScrollView>
-        </>
+      {last && (
+        <Pressable
+          onPress={() => router.push(`/mantra/${last.id}` as Href)}
+          accessibilityRole="link"
+          style={({ pressed }) => [s.resume, { backgroundColor: theme.accentSoft, opacity: pressed ? 0.7 : 1 }]}
+        >
+          <Ionicons name="bookmark" size={18} color={theme.accent} />
+          <View style={{ flex: 1 }}>
+            <Text style={{ color: theme.textMuted, fontSize: 11, fontWeight: '700', letterSpacing: 0.8 }}>{positions[last.id] ? 'CONTINUE READING' : 'LAST OPENED'}</Text>
+            <Text style={{ color: theme.text, fontSize: 16, lineHeight: 25, fontFamily: scriptFont(scriptFor(last, settings.script), settings.bookFonts) }} numberOfLines={1}>
+              {translitTitle(last.title, settings.script)}
+            </Text>
+          </View>
+          <Ionicons name="chevron-forward" size={18} color={theme.accent} />
+        </Pressable>
       )}
 
-      <Text style={[s.heading, { color: theme.text }]}>Collections</Text>
-      <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={{ paddingHorizontal: 16, gap: 10 }}>
-        {COLLECTIONS.map((c) => (
-          <Pressable
-            key={c.id}
-            onPress={() => router.push(`/collection/${c.id}` as Href)}
-            style={({ pressed }) => [s.collection, { backgroundColor: theme.card, borderColor: theme.cardBorder, opacity: pressed ? 0.7 : 1 }]}
-          >
-            <Text numberOfLines={2} style={{ color: theme.accent, fontSize: 16, lineHeight: 25, fontFamily: font }}>
-              {translitTitle(c.title, settings.script)}
-            </Text>
-            <Text numberOfLines={1} style={{ color: theme.textMuted, fontSize: 12, marginTop: 4 }}>
-              {c.titleEn} · {c.items.length}
-            </Text>
-          </Pressable>
+      <ShelfHeading title="Great works" />
+      <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={{ paddingHorizontal: 16, gap: 12, paddingBottom: 6 }}>
+        {greatWorks(settings.variants.tradition).map((w) => (
+          <BookCover key={w.category ?? w.textId} work={w} />
         ))}
       </ScrollView>
+
+      <ShelfHeading title="Every day" />
+      <View style={s.grid}>
+        {EVERY_DAY.map((t) => (
+          <QuickTile key={t.href} {...t} />
+        ))}
+      </View>
+
+      <ShelfHeading title="Stotras and songs" action="Whole library ›" onAction={() => router.push('/library')} />
+      <View style={s.grid}>
+        <CategoryTile id="stotra" />
+        <CategoryTile id="sahasranama" />
+        <CategoryTile id="dasara-pada" />
+        <CategoryTile id="kirtana" />
+      </View>
 
       <ScriptSheet visible={scriptSheet} onClose={() => setScriptSheet(false)} />
     </ScrollView>
@@ -139,7 +146,6 @@ const s = StyleSheet.create({
   header: { flexDirection: 'row', alignItems: 'center', paddingHorizontal: 16, gap: 12 },
   scriptBtn: { flexDirection: 'row', alignItems: 'center', gap: 4, paddingHorizontal: 10, paddingVertical: 6, borderRadius: 16, borderWidth: 1 },
   search: { flexDirection: 'row', alignItems: 'center', gap: 10, marginHorizontal: 16, marginTop: 14, paddingHorizontal: 14, paddingVertical: 12, borderRadius: 12, borderWidth: 1 },
-  heading: { fontSize: 18, fontWeight: '700', marginHorizontal: 16, marginTop: 24, marginBottom: 10 },
-  cover: { width: 124, minHeight: 120, padding: 12, borderRadius: 10, borderWidth: 1, alignItems: 'center', justifyContent: 'center' },
-  collection: { width: 150, minHeight: 84, padding: 12, borderRadius: 12, borderWidth: 1, justifyContent: 'center' },
+  resume: { flexDirection: 'row', alignItems: 'center', gap: 12, marginHorizontal: 16, marginTop: 12, paddingHorizontal: 14, paddingVertical: 10, borderRadius: 14 },
+  grid: { flexDirection: 'row', flexWrap: 'wrap', justifyContent: 'space-between', rowGap: 10, marginHorizontal: 16 },
 });
