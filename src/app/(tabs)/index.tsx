@@ -15,10 +15,11 @@ import { SCRIPTS, translit, translitTitle } from '../../lib/transliterate';
 /** Reading-script chooser behind the header button. */
 function ScriptSheet({ visible, onClose }: { visible: boolean; onClose: () => void }) {
   const { theme, settings, update } = useSettings();
+  const insets = useSafeAreaInsets();
   return (
     <Modal visible={visible} transparent animationType="slide" onRequestClose={onClose}>
       <Pressable style={{ flex: 1, backgroundColor: '#0006' }} onPress={onClose} accessibilityLabel="Close" />
-      <View style={{ backgroundColor: theme.bg, borderTopLeftRadius: 18, borderTopRightRadius: 18, paddingBottom: 28, paddingTop: 8 }}>
+      <View style={{ backgroundColor: theme.bg, borderTopLeftRadius: 18, borderTopRightRadius: 18, paddingBottom: insets.bottom + 20, paddingTop: 8 }}>
         <Text style={{ color: theme.text, fontSize: 19, fontWeight: '700', margin: 16, marginBottom: 8 }}>Reading script</Text>
         {SCRIPTS.map((sc) => {
           const active = settings.script === sc.id;

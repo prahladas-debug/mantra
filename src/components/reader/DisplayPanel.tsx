@@ -1,13 +1,12 @@
 import { Ionicons } from '@expo/vector-icons';
 import { Modal, Pressable, ScrollView, StyleSheet, Switch, Text, View } from 'react-native';
-import type { Mantra } from '../../data';
+import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { scriptFont } from '../../lib/fonts';
 import { MEANING_PREFS } from '../../lib/meaning';
 import { useSettings, type Settings } from '../../lib/settings';
 import { THEMES } from '../../lib/theme';
-import { SCRIPTS, translit } from '../../lib/transliterate';
+import { SCRIPTS } from '../../lib/transliterate';
 import { Segmented } from '../ui';
-import type { Row } from './rows';
 
 const THEME_CHOICES: { id: Settings['theme']; label: string }[] = [
   { id: 'light', label: 'Light' },
@@ -18,29 +17,21 @@ const THEME_CHOICES: { id: Settings['theme']; label: string }[] = [
   { id: 'contrast', label: 'Contrast' },
 ];
 
-/** The reader's "Aa" sheet: script, layout, size, theme, meanings, practice, sections. */
+/** The reader's "Aa" sheet: script, layout, size, theme, meanings, a few switches. */
 export function DisplayPanel({
   visible,
   onClose,
-  mantra,
-  rows,
   practice,
   setPractice,
-  onJump,
 }: {
   visible: boolean;
   onClose: () => void;
-  mantra: Mantra;
-  /** The rows being shown: sections left out by the reader's choices can't be jumped to. */
-  rows: Row[];
   practice: boolean;
   setPractice: (v: boolean) => void;
-  onJump: (key: string) => void;
 }) {
   const { theme, settings, update } = useSettings();
+  const insets = useSafeAreaInsets();
   const scale = settings.fontScale;
-  const shown = new Set(rows.map((r) => r.key));
-  const sections = mantra.sections.map((s, si) => ({ s, si })).filter(({ s, si }) => (s.title || s.titleEn) && shown.has(`s${si}`));
 
   const heading = (text: string) => <Text style={[p.heading, { color: theme.textMuted }]}>{text}</Text>;
   const pill = (active: boolean) => [p.pill, { borderColor: active ? theme.accent : theme.cardBorder, backgroundColor: active ? theme.accent : theme.card }];
@@ -62,7 +53,7 @@ export function DisplayPanel({
             <Text style={{ color: theme.accent, fontSize: 16, fontWeight: '700' }}>Done</Text>
           </Pressable>
         </View>
-        <ScrollView contentContainerStyle={{ paddingHorizontal: 16, paddingBottom: 28 }}>
+        <ScrollView contentContainerStyle={{ paddingHorizontal: 16, paddingBottom: insets.bottom + 20 }}>
           {heading('SCRIPT')}
           <View style={p.wrap}>
             {SCRIPTS.map((sc) => {
@@ -78,17 +69,20 @@ export function DisplayPanel({
           </View>
 
           {heading('LAYOUT AND SIZE')}
-          <Segmented options={[{ id: 'book', label: '📖 Book pages' }, { id: 'scroll', label: 'Scroll' }]} value={settings.layout} onChange={(v) => update({ layout: v })} />
+          <View style={{ flexDirection: 'row', gap: 8, alignItems: 'center' }}>
+          <View style={{ flex: 1 }}>
+            <Segmented options={[{ id: 'book', label: 'Book' }, { id: 'scroll', label: 'Scroll' }]} value={settings.layout} onChange={(v) => update({ layout: v })} />
+          </View>
           <View style={[p.sizeRow, { borderColor: theme.cardBorder, backgroundColor: theme.card }]}>
             <Pressable onPress={() => update({ fontScale: Math.max(0.7, +(scale - 0.1).toFixed(1)) })} hitSlop={8} accessibilityLabel="Smaller text" style={p.sizeBtn}>
               <Text style={{ color: theme.accent, fontSize: 16, fontWeight: '700' }}>A−</Text>
             </Pressable>
-            <Text style={{ color: theme.text, fontSize: 16, flex: 1, textAlign: 'center' }}>Text size {Math.round(scale * 100)}%</Text>
+            <Text style={{ color: theme.text, fontSize: 15, minWidth: 46, textAlign: 'center' }}>{Math.round(scale * 100)}%</Text>
             <Pressable onPress={() => update({ fontScale: Math.min(2.4, +(scale + 0.1).toFixed(1)) })} hitSlop={8} accessibilityLabel="Larger text" style={p.sizeBtn}>
-              <Text style={{ color: theme.accent, fontSize: 22, fontWeight: '700' }}>A+</Text>
+              <Text style={{ color: theme.accent, fontSize: 20, fontWeight: '700' }}>A+</Text>
             </Pressable>
           </View>
-          <Text style={{ color: theme.textMuted, fontSize: 12, marginTop: 4 }}>Tip: pinch with two fingers on the text to resize.</Text>
+          </View>
 
           {heading('THEME')}
           <View style={p.swatches}>
@@ -120,34 +114,14 @@ export function DisplayPanel({
             })}
           </View>
 
-          {heading('MORE')}
+          {heading('OPTIONS')}
           <View style={[p.group, { borderColor: theme.cardBorder, backgroundColor: theme.card }]}>
             {toggle('Show all meanings open', settings.alwaysShowMeanings, (v) => update({ alwaysShowMeanings: v }))}
             {toggle('Book fonts', settings.bookFonts, (v) => update({ bookFonts: v }))}
             {toggle('Centre the verses', settings.centerVerses, (v) => update({ centerVerses: v }))}
-            {toggle('Memorise: hide lines until tapped', practice, setPractice)}
+            {toggle('Memorise (hide lines)', practice, setPractice)}
           </View>
-          <Text style={{ color: theme.textMuted, fontSize: 12, marginTop: 6 }}>A second script under each verse can be set in Settings.</Text>
 
-          {sections.length > 1 && (
-            <>
-              {heading('GO TO SECTION')}
-              <View style={[p.group, { borderColor: theme.cardBorder, backgroundColor: theme.card }]}>
-                {sections.map(({ s, si }, i) => (
-                  <Pressable
-                    key={si}
-                    onPress={() => onJump(`s${si}`)}
-                    style={({ pressed }) => [p.sectionRow, { borderTopWidth: i ? StyleSheet.hairlineWidth : 0, borderColor: theme.cardBorder, opacity: pressed ? 0.6 : 1 }]}
-                  >
-                    <Text style={{ color: theme.text, fontSize: 15, flex: 1 }} numberOfLines={1}>
-                      {s.titleEn ?? translit(s.title!, settings.script)}
-                    </Text>
-                    <Ionicons name="chevron-forward" size={16} color={theme.textMuted} />
-                  </Pressable>
-                ))}
-              </View>
-            </>
-          )}
         </ScrollView>
       </View>
     </Modal>
@@ -155,18 +129,18 @@ export function DisplayPanel({
 }
 
 const p = StyleSheet.create({
-  sheet: { maxHeight: '82%', borderTopLeftRadius: 18, borderTopRightRadius: 18 },
+  sheet: { maxHeight: '78%', borderTopLeftRadius: 18, borderTopRightRadius: 18 },
   grip: { alignSelf: 'center', width: 40, height: 4, borderRadius: 2, marginTop: 8 },
-  titleRow: { flexDirection: 'row', alignItems: 'center', paddingHorizontal: 16, paddingVertical: 10 },
-  heading: { fontSize: 12, fontWeight: '700', letterSpacing: 0.8, marginTop: 18, marginBottom: 8 },
-  wrap: { flexDirection: 'row', flexWrap: 'wrap', gap: 8 },
-  pill: { paddingHorizontal: 13, paddingVertical: 7, borderRadius: 18, borderWidth: 1 },
-  sizeRow: { flexDirection: 'row', alignItems: 'center', marginTop: 10, borderRadius: 12, borderWidth: 1, paddingHorizontal: 6 },
-  sizeBtn: { paddingHorizontal: 14, paddingVertical: 8 },
+  titleRow: { flexDirection: 'row', alignItems: 'center', paddingHorizontal: 16, paddingTop: 6, paddingBottom: 2 },
+  heading: { fontSize: 12, fontWeight: '700', letterSpacing: 0.8, marginTop: 14, marginBottom: 6 },
+  wrap: { flexDirection: 'row', flexWrap: 'wrap', gap: 6 },
+  pill: { paddingHorizontal: 11, paddingVertical: 5, borderRadius: 16, borderWidth: 1 },
+  sizeRow: { flexDirection: 'row', alignItems: 'center', borderRadius: 12, borderWidth: 1 },
+  sizeBtn: { paddingHorizontal: 10, paddingVertical: 7 },
   swatches: { flexDirection: 'row', justifyContent: 'space-between' },
   swatch: { alignItems: 'center', width: 54 },
-  dot: { width: 40, height: 40, borderRadius: 20, alignItems: 'center', justifyContent: 'center' },
+  dot: { width: 34, height: 34, borderRadius: 17, alignItems: 'center', justifyContent: 'center' },
   group: { borderRadius: 12, borderWidth: 1, overflow: 'hidden' },
-  switchRow: { flexDirection: 'row', alignItems: 'center', paddingHorizontal: 14, paddingVertical: 6 },
+  switchRow: { flexDirection: 'row', alignItems: 'center', paddingHorizontal: 14, paddingVertical: 2 },
   sectionRow: { flexDirection: 'row', alignItems: 'center', paddingHorizontal: 14, paddingVertical: 11 },
 });

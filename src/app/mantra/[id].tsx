@@ -5,6 +5,7 @@ import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { Pressable, Text, View } from 'react-native';
 import { BookReader, type BookHandle } from '../../components/reader/BookReader';
 import { ReaderContext, type ReaderState } from '../../components/reader/context';
+import { ContentsSheet, shownSections } from '../../components/reader/ContentsSheet';
 import { DisplayPanel } from '../../components/reader/DisplayPanel';
 import { flatten } from '../../components/reader/rows';
 import { ScrollReader } from '../../components/reader/ScrollReader';
@@ -22,6 +23,7 @@ export default function Reader() {
   const setScale = useCallback((fontScale: number) => update({ fontScale }), [update]);
   const pinch = usePinch(settings.fontScale, setScale);
   const [panelOpen, setPanelOpen] = useState(false);
+  const [contentsOpen, setContentsOpen] = useState(false);
   const [opened, setOpened] = useState<ReadonlySet<string>>(() => new Set());
   const [practice, setPractice] = useState(false);
   const [revealed, setRevealed] = useState<Record<string, number>>({});
@@ -85,6 +87,7 @@ export default function Reader() {
 
   const ctx: ReaderState = { mantra, choices, opened, toggleMeaning, highlight, practice, revealed, reveal };
   const isFav = favorites.includes(mantra.id);
+  const hasContents = shownSections(mantra, rows).length > 1;
   const Layout = settings.layout === 'book' ? BookReader : ScrollReader;
 
   return (
@@ -94,7 +97,12 @@ export default function Reader() {
           options={{
             title: mantra.titleEn,
             headerRight: () => (
-              <View style={{ flexDirection: 'row', gap: 20 }}>
+              <View style={{ flexDirection: 'row', gap: 18 }}>
+                {hasContents && (
+                  <Pressable hitSlop={10} onPress={() => setContentsOpen(true)} accessibilityLabel="Contents">
+                    <Ionicons name="list" size={23} color={theme.accent} />
+                  </Pressable>
+                )}
                 <Pressable hitSlop={10} onPress={() => setPanelOpen((o) => !o)} accessibilityLabel="Display options">
                   <Ionicons name="text" size={22} color={theme.accent} />
                 </Pressable>
@@ -106,20 +114,24 @@ export default function Reader() {
           }}
         />
         <DisplayPanel
-            visible={panelOpen}
-            onClose={() => setPanelOpen(false)}
-            mantra={mantra}
-            rows={rows}
-            practice={practice}
-            setPractice={(v) => {
-              setPractice(v);
-              setRevealed({});
-            }}
-            onJump={(key) => {
-              handle.current?.jumpToKey(key);
-              setPanelOpen(false);
-            }}
-          />
+          visible={panelOpen}
+          onClose={() => setPanelOpen(false)}
+          practice={practice}
+          setPractice={(v) => {
+            setPractice(v);
+            setRevealed({});
+          }}
+        />
+        <ContentsSheet
+          visible={contentsOpen}
+          onClose={() => setContentsOpen(false)}
+          mantra={mantra}
+          rows={rows}
+          onJump={(key) => {
+            setContentsOpen(false);
+            handle.current?.jumpToKey(key);
+          }}
+        />
         <Layout key={settings.layout} rows={rows} initialKey={openAt} onPosition={onPosition} ref={handle} />
         {pinch.preview !== null && (
           <View pointerEvents="none" style={{ position: 'absolute', top: 16, alignSelf: 'center', paddingHorizontal: 14, paddingVertical: 6, borderRadius: 16, backgroundColor: theme.accent }}>
