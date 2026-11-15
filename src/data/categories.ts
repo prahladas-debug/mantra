@@ -81,9 +81,9 @@ export const CATEGORIES: Category[] = [
   },
   {
     id: 'homa',
-    title: 'होमविधानम्',
-    titleEn: 'Homas',
-    description: 'Common homas step by step: Ganapati, Navagraha, Mrityunjaya, Chandi and more.',
+    title: 'यज्ञाः',
+    titleEn: 'Yajnas (Homas)',
+    description: 'Yajnas done at home, step by step with every mantra: Ganapati, Navagraha, Mrityunjaya, Sri Sukta, Chandi and more.',
   },
   {
     id: 'samskara',

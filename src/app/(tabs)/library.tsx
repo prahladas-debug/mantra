@@ -14,7 +14,7 @@ export const SHELVES: { title: string; categories: CategoryId[] }[] = [
   { title: 'Every day', categories: ['nitya', 'sandhya', 'puja'] },
   { title: 'Stotras and names', categories: ['stotra', 'sahasranama', 'madhva', 'vedic'] },
   { title: 'Devotional songs', categories: ['dasara-pada', 'kirtana'] },
-  { title: 'Rites and homas', categories: ['samskara', 'homa'] },
+  { title: 'Yajnas and rites', categories: ['homa', 'samskara'] },
 ];
 
 /** The whole library: the great works as a shelf of books, then tiles by kind, deity and occasion. */
