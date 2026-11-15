@@ -107,8 +107,11 @@ async function main() {
           }
           if (m.sourceScript === 'kannada') return;
           // Round-trip sanity: Devanagari -> IAST -> Devanagari should be stable.
+          // Legitimate spellings the IAST round trip cannot preserve: र्ऋ (nairṛta, rṛ is ambiguous),
+          // anusvāra after ओ (oṃkāra, tejoṃśa) and candrabindu; normalise them before comparing.
+          const norm = (x: string) => x.replace(/्ॐ/g, 'ों').replace(/\s+/g, ' ').replace(/र्ऋ/g, 'रृ').replace(/[ंँ]/g, 'ं');
           const rt = Sanscript.t(Sanscript.t(v.text, 'devanagari', 'iast'), 'iast', 'devanagari');
-          if (rt.replace(/\s+/g, ' ') !== v.text.replace(/\s+/g, ' ')) {
+          if (norm(rt) !== norm(v.text) && norm(rt).replace(/ओं|ों/g, 'ओ') !== norm(v.text).replace(/ओं|ों/g, 'ओ')) {
             warn(vw, 'IAST round-trip differs (check for unusual characters)');
           }
         });
