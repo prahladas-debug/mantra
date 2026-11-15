@@ -13,6 +13,7 @@ const TOOLS: { icon: keyof typeof Ionicons.glyphMap; label: string; href: string
   { icon: 'ellipse-outline', label: 'Japa counter', href: '/japa' },
   { icon: 'bookmark-outline', label: 'Bookmarks', href: '/bookmarks' },
   { icon: 'calendar-outline', label: 'Festival calendar', href: '/calendar' },
+  { icon: 'search-outline', label: 'Find a festival date', href: '/festival-search' },
 ];
 
 function Heading({ title, action, onAction }: { title: string; action?: string; onAction?: () => void }) {

@@ -37,6 +37,7 @@ function AppStack() {
         <Stack.Screen name="bookmarks" options={{ title: 'Bookmarks' }} />
         <Stack.Screen name="collection/[id]" options={{ title: 'Collection' }} />
         <Stack.Screen name="routine" options={{ title: 'Daily routine' }} />
+        <Stack.Screen name="festival-search" options={{ title: 'Find a festival date' }} />
         <Stack.Screen name="parayana-new" options={{ title: 'New parayana' }} />
       </Stack>
     </>
