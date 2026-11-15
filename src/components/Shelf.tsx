@@ -1,7 +1,8 @@
 import { Ionicons } from '@expo/vector-icons';
 import { router, type Href } from 'expo-router';
-import { Pressable, StyleSheet, Text, View } from 'react-native';
+import { Image, ImageBackground, Pressable, StyleSheet, Text, View, type ImageSourcePropType } from 'react-native';
 import { categoryById, categoryCounts, getMantraInfo, type CategoryId } from '../data';
+import type { DeityGroup } from '../lib/deities';
 import { scriptFont } from '../lib/fonts';
 import { categoryTitle } from '../lib/labels';
 import { useSettings } from '../lib/settings';
@@ -65,45 +66,94 @@ function coverLines(work: GreatWork, script: ScriptId): string[] {
   return script === 'iast' ? lines.map((l) => l.charAt(0).toUpperCase() + l.slice(1)) : lines;
 }
 
-/** A cloth-bound book cover with the title in the reader's script. */
-export function BookCover({ work, width = 150, height = 200 }: { work: GreatWork; width?: number; height?: number }) {
+/** Cover art (assets/design/covers/build.js draws it): cloth, frame and an emblem for the work. */
+const COVER_ART: Record<string, ImageSourcePropType> = {
+  gita: require('../../assets/covers/gita.jpg'),
+  'vishnu-sahasranama': require('../../assets/covers/vishnu-sahasranama.jpg'),
+  sundarakanda: require('../../assets/covers/sundarakanda.jpg'),
+  harikathamrutasara: require('../../assets/covers/harikathamrutasara.jpg'),
+  sumadhvavijaya: require('../../assets/covers/sumadhvavijaya.jpg'),
+  'vayu-stuti': require('../../assets/covers/vayu-stuti.jpg'),
+  devimahatmya: require('../../assets/covers/devimahatmya.jpg'),
+  'lalitha-sahasranama': require('../../assets/covers/lalitha-sahasranama.jpg'),
+  'saundarya-lahari': require('../../assets/covers/saundarya-lahari.jpg'),
+};
+
+/** A cloth-bound book cover: the work's emblem above, its title in the reader's script below. */
+export function BookCover({ work, width = 156, still }: { work: GreatWork; width?: number; /** Shown on the work's own page: not a link. */ still?: boolean }) {
   const { settings } = useSettings();
   if (work.textId && !getMantraInfo(work.textId)) return null;
   const font = scriptFont(settings.script, settings.bookFonts);
   const small = width < 140;
+  const height = Math.round(width * 1.4);
   // Malayalam letters are wide; phones also shrink a line that is still too long, the web does not.
-  const size = (small ? 16 : 20) * (settings.script === 'malayalam' ? 0.82 : 1);
+  const size = (small ? 15 : 19) * (settings.script === 'malayalam' ? 0.82 : 1);
   return (
     <Pressable
+      disabled={still}
       onPress={() => router.push((work.category ? `/category/${work.category}` : `/mantra/${work.textId}`) as Href)}
-      accessibilityRole="link"
+      accessibilityRole={still ? 'image' : 'link'}
       accessibilityLabel={[work.titleEn, work.size, work.about].filter(Boolean).join(', ')}
-      style={({ pressed }) => [c.cover, { width, height, backgroundColor: work.cloth, borderColor: work.edge, opacity: pressed ? 0.85 : 1 }]}
+      style={({ pressed }) => [c.cover, { width, height, backgroundColor: work.cloth, opacity: pressed ? 0.85 : 1 }]}
     >
-      <View style={[c.spine, { backgroundColor: work.edge }]} />
-      <View style={[c.frame, { borderColor: GOLD }]}>
-        <Text style={{ color: GOLD, fontSize: 12 }}>❁</Text>
-        <View style={{ flex: 1, alignSelf: 'stretch', justifyContent: 'center' }}>
-          {coverLines(work, settings.script).map((line) => (
-            <Text
-              key={line}
-              style={{ color: CREAM, fontSize: size, lineHeight: size * 1.6, textAlign: 'center', fontFamily: font, fontWeight: font ? undefined : '700' }}
-              numberOfLines={1}
-              adjustsFontSizeToFit
-              minimumFontScale={0.6}
-            >
-              {line}
+      <ImageBackground source={COVER_ART[work.category ?? work.textId!]} style={{ width, height }} resizeMode="cover">
+        {/* The art leaves the lower half of the frame free for the words. */}
+        <View style={c.words}>
+          <View style={{ flex: 1, alignSelf: 'stretch', justifyContent: 'center' }}>
+            {coverLines(work, settings.script).map((line) => (
+              <Text
+                key={line}
+                style={{ color: CREAM, fontSize: size, lineHeight: size * 1.5, textAlign: 'center', fontFamily: font, fontWeight: font ? undefined : '700' }}
+                numberOfLines={1}
+                adjustsFontSizeToFit
+                minimumFontScale={0.6}
+              >
+                {line}
+              </Text>
+            ))}
+          </View>
+          <View style={[c.rule, { backgroundColor: GOLD }]} />
+          {!small && (
+            <Text style={{ color: CREAM, fontSize: 11.5, fontWeight: '600', textAlign: 'center' }} numberOfLines={1} adjustsFontSizeToFit minimumFontScale={0.8}>
+              {work.titleEn}
             </Text>
-          ))}
+          )}
+          <Text style={{ color: GOLD, fontSize: small ? 10.5 : 11, textAlign: 'center' }} numberOfLines={1} adjustsFontSizeToFit minimumFontScale={0.8}>
+            {work.size}
+          </Text>
         </View>
-        <View style={[c.rule, { backgroundColor: GOLD }]} />
-        <Text style={{ color: CREAM, fontSize: small ? 11 : 12, fontWeight: '600', textAlign: 'center' }} numberOfLines={2}>
-          {work.titleEn}
-        </Text>
-        <Text style={{ color: GOLD, fontSize: 11, textAlign: 'center', marginTop: 2 }} numberOfLines={small ? 1 : 2}>
-          {small || !work.about ? work.size : `${work.size} · ${work.about}`}
-        </Text>
-      </View>
+      </ImageBackground>
+    </Pressable>
+  );
+}
+
+const DEITY_ART: Record<string, ImageSourcePropType> = {
+  vishnu: require('../../assets/deities/vishnu.png'),
+  devi: require('../../assets/deities/devi.png'),
+  shiva: require('../../assets/deities/shiva.png'),
+  ganesha: require('../../assets/deities/ganesha.png'),
+  vayu: require('../../assets/deities/vayu.png'),
+  surya: require('../../assets/deities/surya.png'),
+  subrahmanya: require('../../assets/deities/subrahmanya.png'),
+  guru: require('../../assets/deities/guru.png'),
+};
+
+/** A deity as a round emblem with the name under it. */
+export function DeityMedallion({ deity, width = 76 }: { deity: DeityGroup; width?: number }) {
+  const { theme, settings } = useSettings();
+  const font = scriptFont(settings.script, settings.bookFonts);
+  const d = Math.min(64, width - 8);
+  return (
+    <Pressable
+      onPress={() => router.push(`/deity/${deity.id}` as Href)}
+      accessibilityRole="link"
+      accessibilityLabel={deity.titleEn}
+      style={({ pressed }) => ({ width, alignItems: 'center', opacity: pressed ? 0.7 : 1 })}
+    >
+      <Image source={DEITY_ART[deity.id]} style={{ width: d, height: d, borderRadius: d / 2 }} />
+      <Text style={{ color: theme.text, fontSize: 13, lineHeight: 20, textAlign: 'center', marginTop: 4, fontFamily: font }} numberOfLines={1} adjustsFontSizeToFit minimumFontScale={0.75}>
+        {translit(deity.short ?? deity.title, settings.script)}
+      </Text>
     </Pressable>
   );
 }
@@ -199,10 +249,9 @@ export function ShelfHeading({ title, action, onAction }: { title: string; actio
 }
 
 const c = StyleSheet.create({
-  cover: { borderRadius: 8, borderWidth: 1, flexDirection: 'row', overflow: 'hidden', elevation: 3, shadowColor: '#000', shadowOpacity: 0.18, shadowRadius: 5, shadowOffset: { width: 0, height: 2 } },
-  spine: { width: 7 },
-  frame: { flex: 1, margin: 6, borderWidth: StyleSheet.hairlineWidth * 2, borderRadius: 4, paddingVertical: 8, paddingHorizontal: 4, alignItems: 'center' },
-  rule: { width: 28, height: 1, marginBottom: 6, opacity: 0.8 },
+  cover: { borderRadius: 6, overflow: 'hidden', elevation: 4, shadowColor: '#000', shadowOpacity: 0.22, shadowRadius: 6, shadowOffset: { width: 0, height: 3 } },
+  words: { position: 'absolute', top: '51%', bottom: '6.5%', left: '14%', right: '8%', alignItems: 'center' },
+  rule: { width: 26, height: 1, marginBottom: 4, opacity: 0.8 },
   tile: { flexDirection: 'row', alignItems: 'center', gap: 8, padding: 10, borderRadius: 14, borderWidth: 1 },
   iconWrap: { width: 38, height: 38, borderRadius: 19, alignItems: 'center', justifyContent: 'center' },
   iconSmall: { width: 34, height: 34, borderRadius: 17, alignItems: 'center', justifyContent: 'center' },

@@ -1,13 +1,13 @@
 import { Ionicons } from '@expo/vector-icons';
 import { router, type Href } from 'expo-router';
 import { Pressable, ScrollView, StyleSheet, Text, View, useWindowDimensions } from 'react-native';
-import { BookCover, CategoryTile, ShelfHeading, greatWorks } from '../../components/Shelf';
+import { BookCover, CategoryTile, DeityMedallion, ShelfHeading, greatWorks } from '../../components/Shelf';
 import type { CategoryId } from '../../data';
 import { COLLECTIONS } from '../../data/collections';
 import { DEITIES } from '../../lib/deities';
 import { scriptFont } from '../../lib/fonts';
 import { useSettings } from '../../lib/settings';
-import { translit, translitTitle } from '../../lib/transliterate';
+import { translitTitle } from '../../lib/transliterate';
 
 /** The library below the great works, in a few plain groups. */
 export const SHELVES: { title: string; categories: CategoryId[] }[] = [
@@ -35,7 +35,7 @@ export default function Library() {
       <ShelfHeading title="Great works · parayana" />
       <View style={[s.grid, { justifyContent: 'flex-start', columnGap: 10 }]}>
         {greatWorks(settings.variants.tradition).map((w) => (
-          <BookCover key={w.category ?? w.textId} work={w} width={coverW} height={Math.round(coverW * 1.42)} />
+          <BookCover key={w.category ?? w.textId} work={w} width={coverW} />
         ))}
       </View>
 
@@ -51,17 +51,9 @@ export default function Library() {
       ))}
 
       <ShelfHeading title="By deity" />
-      <View style={[s.grid, { justifyContent: 'flex-start', columnGap: 8, rowGap: 8 }]}>
+      <View style={[s.grid, { justifyContent: 'flex-start', rowGap: 14 }]}>
         {DEITIES.map((d) => (
-          <Pressable
-            key={d.id}
-            onPress={() => router.push(`/deity/${d.id}` as Href)}
-            accessibilityRole="link"
-            accessibilityLabel={d.titleEn}
-            style={({ pressed }) => [s.chip, { backgroundColor: theme.card, borderColor: theme.cardBorder, opacity: pressed ? 0.6 : 1 }]}
-          >
-            <Text style={{ color: theme.accent, fontSize: 16, lineHeight: 24, fontFamily: font }}>{translit(d.title, settings.script)}</Text>
-          </Pressable>
+          <DeityMedallion key={d.id} deity={d} width={Math.floor((width - 32) / 4)} />
         ))}
       </View>
 
@@ -90,6 +82,5 @@ export default function Library() {
 const s = StyleSheet.create({
   search: { flexDirection: 'row', alignItems: 'center', gap: 10, marginHorizontal: 16, marginTop: 8, paddingHorizontal: 14, paddingVertical: 12, borderRadius: 12, borderWidth: 1 },
   grid: { flexDirection: 'row', flexWrap: 'wrap', justifyContent: 'space-between', rowGap: 10, marginHorizontal: 16 },
-  chip: { paddingHorizontal: 14, paddingVertical: 7, borderRadius: 18, borderWidth: 1 },
   collection: { width: 150, minHeight: 84, padding: 12, borderRadius: 12, borderWidth: 1, justifyContent: 'center' },
 });

@@ -5,8 +5,9 @@ import { Modal, Pressable, ScrollView, StyleSheet, Text, View } from 'react-nati
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { TodayCard } from '../../components/PanchangaCard';
 import { RoutineCard } from '../../components/RoutineCard';
-import { BookCover, CategoryTile, QuickTile, ShelfHeading, greatWorks } from '../../components/Shelf';
+import { BookCover, CategoryTile, DeityMedallion, QuickTile, ShelfHeading, greatWorks } from '../../components/Shelf';
 import { getMantraInfo, scriptFor } from '../../data';
+import { DEITIES } from '../../lib/deities';
 import { scriptFont } from '../../lib/fonts';
 import { appTitle } from '../../lib/labels';
 import { useSettings } from '../../lib/settings';
@@ -129,10 +130,15 @@ export default function Home() {
         ))}
       </View>
 
-      <ShelfHeading title="Stotras and songs" action="Whole library ›" onAction={() => router.push('/library')} />
+      <ShelfHeading title="By deity" />
+      <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={{ paddingHorizontal: 12, gap: 2 }}>
+        {DEITIES.map((d) => (
+          <DeityMedallion key={d.id} deity={d} />
+        ))}
+      </ScrollView>
+
+      <ShelfHeading title="Devotional songs" action="Whole library ›" onAction={() => router.push('/library')} />
       <View style={s.grid}>
-        <CategoryTile id="stotra" />
-        <CategoryTile id="sahasranama" />
         <CategoryTile id="dasara-pada" />
         <CategoryTile id="kirtana" />
       </View>

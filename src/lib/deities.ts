@@ -7,6 +7,8 @@ export interface DeityGroup {
   /** Devanagari, transliterated to the reader's script. */
   title: string;
   titleEn: string;
+  /** A one-word name for a small label. */
+  short?: string;
   match: RegExp;
 }
 
@@ -17,8 +19,8 @@ const GROUPS: DeityGroup[] = [
   { id: 'devi', title: 'देवी', titleEn: 'Devi · Lakshmi · Lalita', match: /devi|lakshmi|lalita|durga|chandika|ambhrini|sarasvati|sharada|gauri|parvati|annapurna|minakshi|meenakshi|bhavani|andal/ },
   { id: 'shiva', title: 'शिवः', titleEn: 'Shiva · Rudra', match: /shiva|rudra|bhairava|dakshinamurti|tryambaka/ },
   { id: 'ganesha', title: 'गणेशः', titleEn: 'Ganesha', match: /ganesh|ganapati|vinayaka/ },
-  { id: 'vayu', title: 'हनुमान् · वायुः', titleEn: 'Hanuman · Vayu', match: /hanuman|anjaneya|vayu|mukhyaprana|bhima|manyu/ },
-  { id: 'surya', title: 'सूर्यः · ग्रहाः', titleEn: 'Surya · Navagraha', match: /surya|savitr|savitri|aditya|graha/ },
+  { id: 'vayu', title: 'हनुमान् · वायुः', short: 'हनुमान्', titleEn: 'Hanuman · Vayu', match: /hanuman|anjaneya|vayu|mukhyaprana|bhima|manyu/ },
+  { id: 'surya', title: 'सूर्यः · ग्रहाः', short: 'सूर्यः', titleEn: 'Surya · Navagraha', match: /surya|savitr|savitri|aditya|graha/ },
   { id: 'subrahmanya', title: 'सुब्रह्मण्यः', titleEn: 'Subrahmanya', match: /subrahmanya|murugan|skanda/ },
   { id: 'guru', title: 'गुरवः', titleEn: 'Gurus · Madhva · Raghavendra', match: /madhvacharya|raghavendra|guru/ },
 ];
