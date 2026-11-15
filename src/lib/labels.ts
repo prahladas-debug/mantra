@@ -107,6 +107,24 @@ const CATEGORY_LABELS: Record<CategoryId, Labels> = {
     bengali: 'পূজা বিধি',
     oriya: 'ପୂଜା ବିଧି',
   },
+  homa: {
+    kannada: 'ಹೋಮ ವಿಧಾನ',
+    telugu: 'హోమ విధానం',
+    tamil: 'ஹோம முறை',
+    malayalam: 'ഹോമവിധി',
+    gujarati: 'હોમ વિધિ',
+    bengali: 'হোম বিধি',
+    oriya: 'ହୋମ ବିଧି',
+  },
+  kirtana: {
+    kannada: 'ಕೀರ್ತನೆಗಳು',
+    telugu: 'కీర్తనలు',
+    tamil: 'கீர்த்தனைகள்',
+    malayalam: 'കീർത്തനങ്ങൾ',
+    gujarati: 'કીર્તન',
+    bengali: 'কীর্তন',
+    oriya: 'କୀର୍ତ୍ତନ',
+  },
 };
 
 export function appTitle(script: ScriptId): string {

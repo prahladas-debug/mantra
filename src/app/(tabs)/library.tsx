@@ -11,11 +11,12 @@ import { translit } from '../../lib/transliterate';
 
 /** The library, arranged in a few groups. */
 export const SHELVES: { title: string; categories: CategoryId[] }[] = [
-  { title: 'Daily practice', categories: ['nitya', 'sandhya', 'puja'] },
+  { title: 'Daily practice', categories: ['nitya', 'sandhya', 'puja', 'homa'] },
   { title: 'Parayana', categories: ['gita', 'sundarakanda', 'devimahatmya', 'sumadhvavijaya', 'harikathamrutasara'] },
   { title: 'Stotras and Sahasranama', categories: ['stotra', 'sahasranama'] },
   { title: 'Vedic suktas', categories: ['vedic'] },
   { title: 'Madhva and Dasa sahitya', categories: ['madhva', 'dasara-pada'] },
+  { title: 'Kirtanas and bhajans', categories: ['kirtana'] },
 ];
 
 export default function Library() {

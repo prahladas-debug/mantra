@@ -19,7 +19,9 @@ export type CategoryId =
   | 'madhva'
   | 'dasara-pada'
   | 'sandhya'
-  | 'puja';
+  | 'puja'
+  | 'homa'
+  | 'kirtana';
 
 export type Difficulty = 'easy' | 'medium' | 'advanced';
 

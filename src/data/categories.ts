@@ -79,6 +79,18 @@ export const CATEGORIES: Category[] = [
     titleEn: 'Puja Mantras',
     description: 'Step-by-step shodashopachara puja with mantras for each offering.',
   },
+  {
+    id: 'homa',
+    title: 'होमविधानम्',
+    titleEn: 'Homas',
+    description: 'Common homas step by step: Ganapati, Navagraha, Mrityunjaya, Chandi and more.',
+  },
+  {
+    id: 'kirtana',
+    title: 'कीर्तनानि',
+    titleEn: 'Kirtanas and bhajans',
+    description: 'Devotional songs in Tamil, Telugu and Hindi: Tiruppavai, Annamacharya, aartis, chalisas.',
+  },
 ];
 
 export const categoryById = Object.fromEntries(CATEGORIES.map((c) => [c.id, c])) as Record<
