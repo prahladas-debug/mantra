@@ -1,9 +1,9 @@
 import { Ionicons } from '@expo/vector-icons';
 import { router, type Href } from 'expo-router';
 import { Pressable, StyleSheet, Text, View } from 'react-native';
-import { getMantraInfo } from '../data';
+import { getMantraInfo, scriptFor, type Mantra } from '../data';
 import { scriptFont } from '../lib/fonts';
-import { routineDay, useSettings } from '../lib/settings';
+import { useRoutineDay, useSettings } from '../lib/settings';
 import { translitTitle } from '../lib/transliterate';
 
 /**
@@ -12,10 +12,11 @@ import { translitTitle } from '../lib/transliterate';
  */
 export function RoutineCard({ compact }: { compact?: boolean }) {
   const { theme, settings, routine, routineDone, setRoutineDone } = useSettings();
-  const day = routineDay(settings.city);
+  const day = useRoutineDay(settings.city);
   const done = routineDone[day] ?? [];
   const items = routine.map((id) => getMantraInfo(id)).filter((m) => !!m);
-  const font = scriptFont(settings.script, settings.bookFonts);
+  // A Tamil-language title keeps the Tamil font whatever the reading script.
+  const fontOf = (m: Mantra) => scriptFont(scriptFor(m, settings.script), settings.bookFonts);
   const finished = items.filter((m) => done.includes(m.id)).length;
 
   if (!items.length) {
@@ -52,7 +53,7 @@ export function RoutineCard({ compact }: { compact?: boolean }) {
         <View style={[s.bar, { backgroundColor: theme.accentSoft }]}>
           <View style={{ width: `${(finished / items.length) * 100}%`, height: '100%', backgroundColor: theme.accent }} />
         </View>
-        <Text style={{ color: next ? theme.text : theme.accent, fontSize: 16, marginTop: 6, fontFamily: next ? font : undefined }} numberOfLines={1}>
+        <Text style={{ color: next ? theme.text : theme.accent, fontSize: 16, marginTop: 6, fontFamily: next ? fontOf(next) : undefined }} numberOfLines={1}>
           {next ? `${translitTitle(next.title, settings.script)}  ›` : 'All done for today 🙏'}
         </Text>
       </Pressable>
@@ -75,7 +76,7 @@ export function RoutineCard({ compact }: { compact?: boolean }) {
               <Ionicons name={ok ? 'checkmark-circle' : 'ellipse-outline'} size={26} color={ok ? theme.accent : theme.textMuted} />
             </Pressable>
             <Pressable onPress={() => router.push(`/mantra/${m.id}` as Href)} style={{ flex: 1 }} accessibilityRole="link">
-              <Text style={{ color: ok ? theme.textMuted : theme.text, fontSize: 17, fontFamily: font, textDecorationLine: ok ? 'line-through' : 'none' }} numberOfLines={1}>
+              <Text style={{ color: ok ? theme.textMuted : theme.text, fontSize: 17, fontFamily: fontOf(m), textDecorationLine: ok ? 'line-through' : 'none' }} numberOfLines={1}>
                 {translitTitle(m.title, settings.script)}
               </Text>
               <Text style={{ color: theme.textMuted, fontSize: 12 }} numberOfLines={1}>

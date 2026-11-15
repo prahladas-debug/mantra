@@ -10,9 +10,15 @@ const dist = (e: GestureResponderEvent) => {
  * Two-finger pinch on the reader changes the text size. Built on the responder system (no
  * extra native module): a second finger claims the gesture from the page list, the live
  * size is shown while pinching, and the new size is saved when the fingers lift.
+ *
+ * `active` is true from the moment two fingers are down until they lift: the reader stops
+ * its lists scrolling for that time. Otherwise the native scroll view takes the touch as
+ * soon as a finger has moved a little (the page turns or scrolls under the pinch) and the
+ * pinch is cancelled after one step.
  */
 export function usePinch(scale: number, onCommit: (scale: number) => void) {
   const [preview, setPreview] = useState<number | null>(null);
+  const [active, setActive] = useState(false);
   const live = useRef({ scale, onCommit, start: 0, value: scale });
   useEffect(() => {
     live.current.scale = scale;
@@ -23,13 +29,13 @@ export function usePinch(scale: number, onCommit: (scale: number) => void) {
   // eslint-disable-next-line react-hooks/refs
   const [responder] = useState(() => {
     const two = (e: GestureResponderEvent) => e.nativeEvent.touches.length === 2;
+    // Always clears, whatever was measured: a pinch must never leave the lists locked.
     const finish = () => {
       const l = live.current;
-      if (l.start) {
-        l.start = 0;
-        if (Math.abs(l.value - l.scale) >= 0.05) l.onCommit(l.value);
-        setPreview(null);
-      }
+      if (l.start && Math.abs(l.value - l.scale) >= 0.05) l.onCommit(l.value);
+      l.start = 0;
+      setPreview(null);
+      setActive(false);
     };
     return PanResponder.create({
       onStartShouldSetPanResponderCapture: two,
@@ -37,6 +43,7 @@ export function usePinch(scale: number, onCommit: (scale: number) => void) {
       onPanResponderGrant: (e) => {
         live.current.start = dist(e);
         live.current.value = live.current.scale;
+        setActive(true);
       },
       onPanResponderMove: (e) => {
         const l = live.current;
@@ -51,5 +58,5 @@ export function usePinch(scale: number, onCommit: (scale: number) => void) {
       onPanResponderTerminationRequest: () => false,
     });
   });
-  return { panHandlers: responder.panHandlers, preview };
+  return { panHandlers: responder.panHandlers, preview, active };
 }

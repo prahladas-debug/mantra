@@ -7,7 +7,7 @@ import { DEITIES } from '../../lib/deities';
 import { scriptFont } from '../../lib/fonts';
 import { categoryTitle } from '../../lib/labels';
 import { useSettings } from '../../lib/settings';
-import { translit } from '../../lib/transliterate';
+import { translit, translitTitle } from '../../lib/transliterate';
 
 /** The library, arranged in a few groups. */
 export const SHELVES: { title: string; categories: CategoryId[] }[] = [
@@ -77,7 +77,7 @@ export default function Library() {
           >
             <View style={{ flex: 1 }}>
               <Text style={{ color: theme.text, fontSize: 17, fontFamily: font }} numberOfLines={1}>
-                {translit(c.title, settings.script)}
+                {translitTitle(c.title, settings.script)}
               </Text>
               <Text style={{ color: theme.textMuted, fontSize: 13, marginTop: 1 }} numberOfLines={1}>
                 {c.titleEn} · {c.items.length} texts

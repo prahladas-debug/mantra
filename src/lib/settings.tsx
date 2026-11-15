@@ -1,10 +1,10 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { createContext, useCallback, useContext, useEffect, useMemo, useState } from 'react';
-import { useColorScheme } from 'react-native';
+import { AppState, useColorScheme } from 'react-native';
 import { THEMES, type Theme, type ThemeName } from './theme';
 import type { MeaningPref } from './meaning';
 import { localDate, type Plan } from './plans';
-import { cityById, fromJulian, julianDay, sunEventJd, sunriseDayOf, todayIn } from './panchanga';
+import { cityById, fromJulian, julianDay, sunEventJd, sunriseDayOf, todayIn, withMethod } from './panchanga';
 import type { ScriptId } from './transliterate';
 
 export interface Settings {
@@ -91,6 +91,45 @@ const DEFAULTS: Store = {
 /** Today's panchanga day at the city: the day changes at sunrise, not midnight. */
 export function routineDay(cityId: string): string {
   return sunriseDayOf(cityById(cityId), julianDay(new Date()));
+}
+
+/** `routineDay` that follows the clock: looked at again every minute and when the app is reopened. */
+export function useRoutineDay(cityId: string): string {
+  useClockTick(60 * 1000);
+  return routineDay(cityId);
+}
+
+/**
+ * Re-render the caller every `ms` and whenever the app comes back to the foreground, so
+ * that "today" (date, sunrise day, night theme) is not left over from before. Timers do not
+ * run while the phone sleeps, so the interval alone can be hours late in the morning.
+ */
+export function useClockTick(ms: number): number {
+  const [tick, setTick] = useState(0);
+  useEffect(() => {
+    const bump = () => setTick((n) => n + 1);
+    const id = setInterval(bump, ms);
+    const sub = AppState.addEventListener('change', (state) => {
+      if (state === 'active') bump();
+    });
+    return () => {
+      clearInterval(id);
+      sub.remove();
+    };
+  }, [ms]);
+  return tick;
+}
+
+/** Is the sun down right now at the city? (Visible sunrise and sunset, whatever the panchanga method.) */
+function isNightAt(cityId: string): boolean {
+  const city = cityById(cityId);
+  const today = todayIn(city);
+  const now = Date.now();
+  return withMethod('drik', () => {
+    const rise = fromJulian(sunEventJd(city, today, 'rise')).getTime();
+    const set = fromJulian(sunEventJd(city, today, 'set')).getTime();
+    return now < rise || now >= set;
+  });
 }
 
 const KEY = 'mantra.store.v1';
@@ -233,7 +272,7 @@ export function SettingsProvider({ children }: { children: React.ReactNode }) {
     [],
   );
 
-  const setRoutine = useCallback((ids: string[]) => setStore((s) => ({ ...s, routine: ids })), []);
+  const setRoutine = useCallback((ids: string[]) => setStore((s) => ({ ...s, routine: [...new Set(ids)] })), []);
   const setRoutineDone = useCallback(
     (day: string, id: string, done: boolean) =>
       setStore((s) => {
@@ -248,24 +287,11 @@ export function SettingsProvider({ children }: { children: React.ReactNode }) {
     [],
   );
 
-  // 'sunset' theme: re-check every five minutes whether the sun is down at the reader's place.
-  const [night, setNight] = useState(false);
-  const sunsetMode = store.settings.theme === 'sunset';
-  const cityId = store.settings.city;
-  useEffect(() => {
-    if (!sunsetMode) return;
-    const check = () => {
-      const city = cityById(cityId);
-      const today = todayIn(city);
-      const now = Date.now();
-      const rise = fromJulian(sunEventJd(city, today, 'rise')).getTime();
-      const set = fromJulian(sunEventJd(city, today, 'set')).getTime();
-      setNight(now < rise || now >= set);
-    };
-    check();
-    const t = setInterval(check, 5 * 60 * 1000);
-    return () => clearInterval(t);
-  }, [sunsetMode, cityId]);
+  // 'sunset' theme: look every five minutes, and when the app is opened again, whether the
+  // sun is down at the reader's place. Worked out while rendering (it is cheap: sunrise and
+  // sunset are cached), so the app does not open on the light theme for a moment at night.
+  useClockTick(5 * 60 * 1000);
+  const night = store.settings.theme === 'sunset' && isNightAt(store.settings.city);
 
   const themeName: ThemeName =
     store.settings.theme === 'system'

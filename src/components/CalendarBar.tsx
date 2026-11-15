@@ -1,7 +1,7 @@
 import { Ionicons } from '@expo/vector-icons';
 import { useState } from 'react';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
-import { FlatList, Modal, Pressable, Text, TextInput, View } from 'react-native';
+import { FlatList, Modal, Platform, Pressable, ScrollView, Text, TextInput, View } from 'react-native';
 import { cityById, cityLabel, searchCities, type City } from '../lib/panchanga';
 import { useSettings } from '../lib/settings';
 import { useCalcMethod, useCalendarMode, useEkadashiRule, useSauraStart } from './PanchangaCard';
@@ -10,6 +10,10 @@ import { Segmented } from './ui';
 /** Full-screen searchable list of every Indian town of 15,000+ people, plus places abroad. */
 export function CityPicker({ visible, onClose }: { visible: boolean; onClose: () => void }) {
   const { theme, settings, update } = useSettings();
+  const insets = useSafeAreaInsets();
+  // On Android the modal covers the whole screen, under the status bar and the navigation
+  // buttons; on iOS it is a sheet that starts below the status bar.
+  const top = Platform.OS === 'android' ? insets.top : 0;
   const [q, setQ] = useState('');
   const results = searchCities(q);
   const choose = (c: City) => {
@@ -19,7 +23,7 @@ export function CityPicker({ visible, onClose }: { visible: boolean; onClose: ()
   };
   return (
     <Modal visible={visible} animationType="slide" presentationStyle="pageSheet" onRequestClose={onClose}>
-      <View style={{ flex: 1, backgroundColor: theme.bg, paddingTop: 12 }}>
+      <View style={{ flex: 1, backgroundColor: theme.bg, paddingTop: top + 12 }}>
         <View style={{ flexDirection: 'row', alignItems: 'center', marginHorizontal: 16, gap: 10 }}>
           <Text style={{ flex: 1, color: theme.text, fontSize: 20, fontWeight: '700' }}>Choose your place</Text>
           <Pressable onPress={onClose} accessibilityRole="button" accessibilityLabel="Close" hitSlop={10}>
@@ -44,6 +48,8 @@ export function CityPicker({ visible, onClose }: { visible: boolean; onClose: ()
           data={results}
           keyExtractor={(c) => c.id}
           keyboardShouldPersistTaps="handled"
+          keyboardDismissMode="on-drag"
+          contentContainerStyle={{ paddingBottom: insets.bottom + 12 }}
           renderItem={({ item }) => (
             <Pressable
               onPress={() => choose(item)}
@@ -77,14 +83,16 @@ export function CalendarOptionsSheet({ visible, onClose }: { visible: boolean; o
   return (
     <Modal visible={visible} transparent animationType="slide" onRequestClose={onClose}>
       <Pressable style={{ flex: 1, backgroundColor: '#0006' }} onPress={onClose} accessibilityLabel="Close options" />
-      <View style={{ backgroundColor: theme.bg, borderTopLeftRadius: 18, borderTopRightRadius: 18, paddingHorizontal: 16, paddingBottom: insets.bottom + 20 }}>
+      {/* Four choices with their notes are taller than a small phone: the sheet scrolls. */}
+      <View style={{ maxHeight: '88%', backgroundColor: theme.bg, borderTopLeftRadius: 18, borderTopRightRadius: 18 }}>
         <View style={{ alignSelf: 'center', width: 40, height: 4, borderRadius: 2, backgroundColor: theme.cardBorder, marginTop: 8 }} />
-        <View style={{ flexDirection: 'row', alignItems: 'center', marginTop: 10 }}>
+        <View style={{ flexDirection: 'row', alignItems: 'center', marginTop: 10, paddingHorizontal: 16 }}>
           <Text style={{ flex: 1, color: theme.text, fontSize: 19, fontWeight: '700' }}>Calendar options</Text>
           <Pressable onPress={onClose} accessibilityRole="button" accessibilityLabel="Done" hitSlop={10}>
             <Text style={{ color: theme.accent, fontSize: 16, fontWeight: '700' }}>Done</Text>
           </Pressable>
         </View>
+        <ScrollView contentContainerStyle={{ paddingHorizontal: 16, paddingBottom: insets.bottom + 20 }}>
 
         <Text style={label}>Tradition</Text>
         <Segmented options={[{ id: 'madhva', label: 'Madhva' }, { id: 'smarta', label: 'Smarta' }]} value={rule} onChange={setRule} />
@@ -111,6 +119,7 @@ export function CalendarOptionsSheet({ visible, onClose }: { visible: boolean; o
             ? 'Surya Siddhanta panchanga: Sun and Moon by the classical text, with its own sunrise; times can differ from drik ones by a few hours, and sometimes a festival or ekadashi by a day.'
             : 'Drik panchanga: calculated from the true positions of the Sun and Moon (Lahiri ayanamsha), as drikpanchang.com does.'}
         </Text>
+        </ScrollView>
       </View>
     </Modal>
   );

@@ -3,7 +3,7 @@ import { router, type Href } from 'expo-router';
 import { Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 import { PlanCard } from '../../components/PlanCard';
 import { RoutineCard } from '../../components/RoutineCard';
-import { getMantraInfo } from '../../data';
+import { getMantraInfo, scriptFor } from '../../data';
 import { scriptFont } from '../../lib/fonts';
 import { planStatus } from '../../lib/plans';
 import { useSettings } from '../../lib/settings';
@@ -33,7 +33,6 @@ function Heading({ title, action, onAction }: { title: string; action?: string; 
 /** Daily routine, parayana plans, tools, favourites and recently opened texts. */
 export default function Practice() {
   const { theme, settings, plans, favorites, recent } = useSettings();
-  const font = scriptFont(settings.script, settings.bookFonts);
   const active = plans.filter((p) => !planStatus(p).finished);
   const favs = favorites.map(getMantraInfo).filter((m) => !!m);
   const recents = recent.map((r) => getMantraInfo(r.id)).filter((m) => !!m).slice(0, 8);
@@ -47,7 +46,7 @@ export default function Practice() {
           style={({ pressed }) => [s.row, { borderTopWidth: i ? StyleSheet.hairlineWidth : 0, borderColor: theme.cardBorder, opacity: pressed ? 0.6 : 1 }]}
         >
           <View style={{ flex: 1 }}>
-            <Text style={{ color: theme.text, fontSize: 17, fontFamily: font }} numberOfLines={1}>
+            <Text style={{ color: theme.text, fontSize: 17, fontFamily: scriptFont(scriptFor(m, settings.script), settings.bookFonts) }} numberOfLines={1}>
               {translitTitle(m.title, settings.script)}
             </Text>
             <Text style={{ color: theme.textMuted, fontSize: 12 }} numberOfLines={1}>
@@ -73,7 +72,14 @@ export default function Practice() {
           </Text>
         </Pressable>
       ) : (
-        active.map((p) => <PlanCard key={p.id} plan={p} compact />)
+        <>
+          <View style={{ height: 10 }} />
+          {active.map((p) => <PlanCard key={p.id} plan={p} compact />)}
+          {/* The full cards (daily reminder, remove a plan, finished plans) are on the Parayana screen. */}
+          <Pressable onPress={() => router.push('/parayana')} hitSlop={8} accessibilityRole="link" style={{ alignSelf: 'flex-start', marginHorizontal: 16 }}>
+            <Text style={{ color: theme.accent, fontSize: 15 }}>Reminders and all plans ›</Text>
+          </Pressable>
+        </>
       )}
 
       <Heading title="Tools" />

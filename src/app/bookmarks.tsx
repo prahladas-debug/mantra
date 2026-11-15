@@ -1,7 +1,7 @@
 import { Ionicons } from '@expo/vector-icons';
 import { router, Stack, type Href } from 'expo-router';
 import { FlatList, Pressable, Text, View } from 'react-native';
-import { getMantra } from '../data';
+import { getMantraInfo, scriptFor } from '../data';
 import { scriptFont } from '../lib/fonts';
 import { useSettings } from '../lib/settings';
 import { translit, translitTitle } from '../lib/transliterate';
@@ -10,7 +10,8 @@ export default function Bookmarks() {
   const { theme, settings, bookmarks, toggleBookmark } = useSettings();
   const items = bookmarks
     .map((b) => {
-      const m = getMantra(b.mantraId);
+      // Titles and verse text only: no need to merge every meaning of each bookmarked text.
+      const m = getMantraInfo(b.mantraId);
       const [si, vi] = b.key.replace(/^v/, '').split('-').map(Number);
       const v = m?.sections[si]?.verses[vi];
       return m && v ? { b, m, v, si, vi } : null;
@@ -42,7 +43,7 @@ export default function Bookmarks() {
                 <Ionicons name="close" size={18} color={theme.textMuted} />
               </Pressable>
             </View>
-            <Text numberOfLines={3} style={{ color: theme.text, fontSize: 18, lineHeight: 30, marginTop: 4, fontFamily: scriptFont(settings.script, settings.bookFonts) }}>
+            <Text numberOfLines={3} style={{ color: theme.text, fontSize: 18, lineHeight: 30, marginTop: 4, fontFamily: scriptFont(scriptFor(item.m, settings.script), settings.bookFonts) }}>
               {translit(item.v.text, settings.script)}
             </Text>
           </Pressable>

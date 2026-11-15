@@ -1,6 +1,6 @@
 import { Ionicons } from '@expo/vector-icons';
 import { router, useLocalSearchParams, type Href } from 'expo-router';
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import { FlatList, Pressable, Text, TextInput, View } from 'react-native';
 import { useCalcMethod, useCalendarMode, useEkadashiRule, useSauraStart } from '../components/PanchangaCard';
 import { festivalsBetween, type Festival } from '../lib/festivals';
@@ -37,11 +37,13 @@ const ALIASES: [RegExp, string][] = [
 
 /** Twelve years of festivals take a moment to compute; keep the last result per choice set. */
 const cache = new Map<string, Festival[]>();
-function allFestivals(city: ReturnType<typeof cityById>, rule: Parameters<typeof festivalsBetween>[3], mode: Parameters<typeof festivalsBetween>[4], start: Parameters<typeof festivalsBetween>[5], method: CalcMethod) {
-  const key = `${method}|${city.id}|${rule}|${mode}|${start}`;
+type Choice = { city: ReturnType<typeof cityById>; rule: Parameters<typeof festivalsBetween>[3]; mode: Parameters<typeof festivalsBetween>[4]; start: Parameters<typeof festivalsBetween>[5]; method: CalcMethod };
+const cacheKey = ({ city, rule, mode, start, method }: Choice) => `${method}|${city.id}|${rule}|${mode}|${start}`;
+function allFestivals(c: Choice) {
+  const key = cacheKey(c);
   let list = cache.get(key);
   if (!list) {
-    list = festivalsBetween(city, `${FIRST_YEAR}-01-01`, `${LAST_YEAR}-12-31`, rule, mode, start, method);
+    list = festivalsBetween(c.city, `${FIRST_YEAR}-01-01`, `${LAST_YEAR}-12-31`, c.rule, c.mode, c.start, c.method);
     cache.clear();
     cache.set(key, list);
   }
@@ -60,11 +62,21 @@ export default function FestivalSearch() {
   const city = cityById(settings.city);
   const today = todayIn(city);
 
-  const all = useMemo(() => allFestivals(city, rule, mode, start, method), [city, rule, mode, start, method]);
+  // The twelve years are worked out after the screen has appeared (about a second on a
+  // phone; it used to hold up opening the screen), unless they are already in the cache.
+  const choice = useMemo(() => ({ city, rule, mode, start, method }), [city, rule, mode, start, method]);
+  const [computed, setComputed] = useState<{ choice: Choice; list: Festival[] } | null>(null);
+  const all = cache.get(cacheKey(choice)) ?? (computed?.choice === choice ? computed.list : null);
+  const pending = all === null;
+  useEffect(() => {
+    if (!pending) return;
+    const t = setTimeout(() => setComputed({ choice, list: allFestivals(choice) }), 50);
+    return () => clearTimeout(t);
+  }, [choice, pending]);
 
   const results = useMemo(() => {
     const typed = q.trim().toLowerCase();
-    if (typed.length < 3) return [];
+    if (typed.length < 3 || !all) return [];
     // Everyday names first (Ugadi, Diwali …), then the same loose key used for text search.
     const words = (ALIASES.find(([re]) => re.test(typed))?.[1] ?? typed).split(' ').map(searchKey).filter(Boolean);
     const hits = all.filter((f) => {
@@ -109,7 +121,9 @@ export default function FestivalSearch() {
         </View>
       }
       ListEmptyComponent={
-        q.trim().length >= 3 ? (
+        q.trim().length >= 3 && pending ? (
+          <Text style={{ color: theme.textMuted, margin: 16 }}>Working out the dates…</Text>
+        ) : q.trim().length >= 3 ? (
           <Text style={{ color: theme.textMuted, margin: 16 }}>No festival by that name. Try another spelling, or the name in Kannada or Sanskrit.</Text>
         ) : (
           <Text style={{ color: theme.textMuted, margin: 16, lineHeight: 20 }}>

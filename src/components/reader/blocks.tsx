@@ -2,11 +2,11 @@ import { useState } from 'react';
 import { Ionicons } from '@expo/vector-icons';
 import { router, type Href } from 'expo-router';
 import { Pressable, StyleSheet, Text, View } from 'react-native';
-import { categoryById, getMantraInfo, mantrasInCategory, type Mantra, type Section, type Verse } from '../../data';
+import { categoryById, getMantraInfo, mantrasInCategory, scriptFor, type Mantra, type Section, type Verse } from '../../data';
 import { leading, meaningFont, scriptFont } from '../../lib/fonts';
 import { MEANING_BUTTON, meaningsToShow, primaryLang, summaryFor } from '../../lib/meaning';
 import { planStatus } from '../../lib/plans';
-import { routineDay, useSettings } from '../../lib/settings';
+import { useRoutineDay, useSettings } from '../../lib/settings';
 
 import { reportCorrection, shareVerse } from '../../lib/share';
 import { bindDandas, translit, translitInline, translitTitle, verseNumber } from '../../lib/transliterate';
@@ -38,7 +38,9 @@ export function IntroBlock({ book }: { book?: boolean }) {
   const preferKn = pLang === 'kn';
   const summary = summaryFor(mantra, pLang);
   const scale = settings.fontScale;
-  const titleFont = scriptFont(script, settings.bookFonts);
+  // The title of a Tamil-language text stays in Tamil: Tamil font and line height.
+  const titleScript = scriptFor(mantra, script);
+  const titleFont = scriptFont(titleScript, settings.bookFonts);
   return (
     <View style={[b.intro, book && { alignItems: 'center' }]}>
       {book && (
@@ -50,7 +52,7 @@ export function IntroBlock({ book }: { book?: boolean }) {
         style={{
           color: theme.accent,
           fontSize: 30 * scale,
-          lineHeight: 30 * scale * leading(script, settings.bookFonts),
+          lineHeight: 30 * scale * leading(titleScript, settings.bookFonts),
           fontFamily: titleFont,
           fontWeight: titleFont ? undefined : '700',
           textAlign: book ? 'center' : 'left',
@@ -115,7 +117,8 @@ export function IntroBlock({ book }: { book?: boolean }) {
 
 export function SectionBlock({ section, book }: { section: Section; book?: boolean }) {
   const { theme, settings } = useSettings();
-  const script = settings.script;
+  const { mantra } = useReader();
+  const script = scriptFor(mantra, settings.script);
   const scale = settings.fontScale;
   const font = scriptFont(script, settings.bookFonts);
   const align = book ? 'center' : 'left';
@@ -165,11 +168,14 @@ function SectionNote({ section, align }: { section: Section; align: 'center' | '
 export function VerseBlock({ verse, rowKey, book }: { verse: Verse; rowKey: string; book?: boolean }) {
   const { theme, settings, bookmarks, toggleBookmark } = useSettings();
   const { mantra, opened, toggleMeaning, highlight, practice, revealed, reveal } = useReader();
-  const script = settings.script;
+  // The verse of a Tamil-language text is in Tamil whatever the reading script (font, size,
+  // digits), and has no second script: it would only repeat the same Tamil lines.
+  const script = scriptFor(mantra, settings.script);
   const scale = settings.fontScale;
-  const second = settings.secondaryScript && settings.secondaryScript !== script ? settings.secondaryScript : null;
-  const meanings = meaningsToShow(verse.meaning, settings.meaningLang, script);
-  const pLang = primaryLang(settings.meaningLang, script);
+  const second = mantra.sourceScript !== 'tamil' && settings.secondaryScript && settings.secondaryScript !== script ? settings.secondaryScript : null;
+  // Meanings and notes follow the reader's own script and language.
+  const meanings = meaningsToShow(verse.meaning, settings.meaningLang, settings.script);
+  const pLang = primaryLang(settings.meaningLang, settings.script);
   const isOpen = opened.has(rowKey);
   const showMeaning = settings.alwaysShowMeanings || isOpen;
   const marked = bookmarks.some((x) => x.mantraId === mantra.id && x.key === rowKey);
@@ -247,7 +253,7 @@ export function VerseBlock({ verse, rowKey, book }: { verse: Verse; rowKey: stri
               },
             ]}
           >
-            {lang === 'en' ? translitInline(text, script) : text}
+            {lang === 'en' ? translitInline(text, settings.script) : text}
           </Text>
         ))}
     </View>
@@ -302,7 +308,7 @@ export function SeriesNav({ mantra }: { mantra: Mantra }) {
       style={({ pressed }) => [b.navButton, { borderColor: theme.cardBorder, backgroundColor: theme.card, alignItems: align, opacity: pressed ? 0.7 : 1 }]}
     >
       <Text style={{ color: theme.textMuted, fontSize: 12, fontWeight: '600' }}>{label}</Text>
-      <Text style={{ color: theme.accent, fontSize: 16, fontFamily: scriptFont(settings.script, settings.bookFonts) }} numberOfLines={1}>
+      <Text style={{ color: theme.accent, fontSize: 16, fontFamily: scriptFont(scriptFor(m, settings.script), settings.bookFonts) }} numberOfLines={1}>
         {translitTitle(m.title, settings.script)}
       </Text>
     </Pressable>
@@ -319,10 +325,11 @@ export function SeriesNav({ mantra }: { mantra: Mantra }) {
 /** End of a text: tick it off in today's routine (and go to the next), or add it to the routine. */
 function RoutineControl({ mantraId }: { mantraId: string }) {
   const { theme, settings, routine, routineDone, setRoutine, setRoutineDone } = useSettings();
-  const day = routineDay(settings.city);
+  const day = useRoutineDay(settings.city);
   const inRoutine = routine.includes(mantraId);
   const done = (routineDone[day] ?? []).includes(mantraId);
-  const next = routine.find((id) => id !== mantraId && !(routineDone[day] ?? []).includes(id));
+  // The next text still to do today; an id no longer in the library is passed over, not a dead end.
+  const next = routine.find((id) => id !== mantraId && !(routineDone[day] ?? []).includes(id) && getMantraTitle(id) !== undefined);
   const nextMantra = next ? getMantraTitle(next) : undefined;
   if (!inRoutine) {
     return (

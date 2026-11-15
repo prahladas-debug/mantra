@@ -85,7 +85,7 @@ export default function Reader() {
     );
   }
 
-  const ctx: ReaderState = { mantra, choices, opened, toggleMeaning, highlight, practice, revealed, reveal };
+  const ctx: ReaderState = { mantra, choices, opened, toggleMeaning, highlight, practice, revealed, reveal, pinching: pinch.active };
   const isFav = favorites.includes(mantra.id);
   const hasContents = shownSections(mantra, rows).length > 1;
   const Layout = settings.layout === 'book' ? BookReader : ScrollReader;

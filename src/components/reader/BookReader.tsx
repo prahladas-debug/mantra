@@ -2,6 +2,7 @@ import { Ionicons } from '@expo/vector-icons';
 import { useCallback, useEffect, useImperativeHandle, useLayoutEffect, useMemo, useRef, useState, type Ref } from 'react';
 import { FlatList, Pressable, ScrollView, StyleSheet, Text, useWindowDimensions, View } from 'react-native';
 import { leading, scriptFont } from '../../lib/fonts';
+import { scriptFor } from '../../data';
 import { useSettings } from '../../lib/settings';
 import { translit, translitTitle, type ScriptId } from '../../lib/transliterate';
 import { EndMatter, IntroBlock, SectionBlock, VerseBlock } from './blocks';
@@ -41,7 +42,9 @@ function estimate(row: Row, m: Metrics): number {
   if (row.kind === 'section') {
     const fs = 22 * m.scale;
     const title = row.section.title ? Math.ceil(clusters(row.section.title) / (contentWidth / (fs * 0.62))) * fs * 1.8 : 0;
-    const note = row.section.note ? Math.ceil(row.section.note.length / (contentWidth / 7.2)) * 21 : 0;
+    // A long note shows three lines and a "More" button until it is opened (SectionNote).
+    const noteLines = row.section.note ? Math.ceil(row.section.note.length / (contentWidth / 7.2)) : 0;
+    const note = (row.section.note && row.section.note.length > 220 ? Math.min(noteLines, 3) + 1 : noteLines) * 21;
     return 60 + title + (row.section.titleEn ? 20 : 0) + note;
   }
   const fs = (m.script === 'iast' ? 19 : 22) * m.scale;
@@ -108,13 +111,14 @@ export function BookReader({
   ref: Ref<BookHandle>;
 }) {
   const { theme, settings } = useSettings();
-  const { mantra, opened, highlight, practice, revealed } = useReader();
+  const { mantra, opened, highlight, practice, revealed, pinching } = useReader();
   const { width } = useWindowDimensions();
   const [height, setHeight] = useState(0);
   const listRef = useRef<FlatList<Page>>(null);
   const [page, setPage] = useState(0);
-  const script = settings.script;
-  const second = settings.secondaryScript && settings.secondaryScript !== script ? settings.secondaryScript : null;
+  // A Tamil-language text is shown in Tamil whatever the reading script, and has no second script.
+  const script = scriptFor(mantra, settings.script);
+  const second = mantra.sourceScript !== 'tamil' && settings.secondaryScript && settings.secondaryScript !== script ? settings.secondaryScript : null;
 
   const pageContent = Math.max(200, height - 36 - 30 - 20);
   const pages = useMemo(
@@ -186,13 +190,14 @@ export function BookReader({
           data={pages}
           horizontal
           pagingEnabled
+          scrollEnabled={!pinching}
           showsHorizontalScrollIndicator={false}
           keyExtractor={(_, i) => String(i)}
           initialScrollIndex={Math.min(startPage, pages.length - 1)}
           getItemLayout={(_, i) => ({ length: width, offset: width * i, index: i })}
           onViewableItemsChanged={onViewable}
           viewabilityConfig={{ itemVisiblePercentThreshold: 60 }}
-          extraData={[opened, highlight, practice, revealed, settings]}
+          extraData={[opened, highlight, practice, revealed, settings, pinching]}
           windowSize={5}
           initialNumToRender={2}
           renderItem={({ item, index }) => (
@@ -203,7 +208,7 @@ export function BookReader({
                     {runningHead}
                   </Text>
                 )}
-                <ScrollView contentContainerStyle={{ paddingVertical: 6 }} showsVerticalScrollIndicator>
+                <ScrollView contentContainerStyle={{ paddingVertical: 6 }} showsVerticalScrollIndicator scrollEnabled={!pinching}>
                   {item.rows.map((row) => {
                     switch (row.kind) {
                       case 'intro':

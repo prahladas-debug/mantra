@@ -1,7 +1,7 @@
 import { Ionicons } from '@expo/vector-icons';
 import { useState } from 'react';
 import { FlatList, Pressable, Text, TextInput, View } from 'react-native';
-import { ALL_MANTRAS, getMantraInfo, search } from '../data';
+import { ALL_MANTRAS, getMantraInfo, scriptFor, search, type Mantra } from '../data';
 import { scriptFont } from '../lib/fonts';
 import { useSettings } from '../lib/settings';
 import { translitTitle } from '../lib/transliterate';
@@ -12,17 +12,19 @@ const SUGGESTED = ['sandhya-vandane-rigveda', 'nitya-puja', 'vayu-stuti', 'vishn
 export default function RoutineEditor() {
   const { theme, settings, routine, setRoutine } = useSettings();
   const [q, setQ] = useState('');
-  const font = scriptFont(settings.script, settings.bookFonts);
+  const fontOf = (m: Mantra) => scriptFont(scriptFor(m, settings.script), settings.bookFonts);
   const chosen = routine.map(getMantraInfo).filter((m) => !!m);
   const pool = q.trim().length >= 2
     ? search(q).filter((r) => !r.verse).map((r) => r.mantra)
     : SUGGESTED.map(getMantraInfo).filter((m) => !!m).concat(ALL_MANTRAS.filter((m) => m.order === undefined && !SUGGESTED.includes(m.id)));
   const candidates = pool.filter((m) => !routine.includes(m.id));
 
+  // Positions are those of the list shown (`chosen`): an id that is no longer in the library
+  // is not shown, so counting in `routine` would move the wrong text. Saving drops such ids.
   const move = (i: number, d: -1 | 1) => {
     const j = i + d;
-    if (j < 0 || j >= routine.length) return;
-    const next = [...routine];
+    const next = chosen.map((m) => m.id);
+    if (j < 0 || j >= next.length) return;
     [next[i], next[j]] = [next[j], next[i]];
     setRoutine(next);
   };
@@ -41,7 +43,7 @@ export default function RoutineEditor() {
               {chosen.map((m, i) => (
                 <View key={m.id} style={{ flexDirection: 'row', alignItems: 'center', gap: 8, padding: 10, borderTopWidth: i ? 1 : 0, borderColor: theme.cardBorder }}>
                   <Text style={{ color: theme.textMuted, width: 20, textAlign: 'right' }}>{i + 1}</Text>
-                  <Text style={{ flex: 1, color: theme.text, fontSize: 16, fontFamily: font }} numberOfLines={1}>
+                  <Text style={{ flex: 1, color: theme.text, fontSize: 16, fontFamily: fontOf(m) }} numberOfLines={1}>
                     {translitTitle(m.title, settings.script)}
                   </Text>
                   <Pressable onPress={() => move(i, -1)} hitSlop={8} accessibilityLabel="Move up" disabled={i === 0}>
@@ -80,7 +82,7 @@ export default function RoutineEditor() {
         >
           <Ionicons name="add-circle-outline" size={22} color={theme.accent} />
           <View style={{ flex: 1 }}>
-            <Text style={{ color: theme.text, fontSize: 16, fontFamily: font }} numberOfLines={1}>
+            <Text style={{ color: theme.text, fontSize: 16, fontFamily: fontOf(item) }} numberOfLines={1}>
               {translitTitle(item.title, settings.script)}
             </Text>
             <Text style={{ color: theme.textMuted, fontSize: 12 }} numberOfLines={1}>

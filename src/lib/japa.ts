@@ -11,7 +11,7 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { AppState } from 'react-native';
-import { getMantra } from '../data';
+import { getMantraInfo } from '../data';
 import { localDate } from './plans';
 
 export const BEADS_PER_MALA = 108;
@@ -67,13 +67,13 @@ export function customKey(label: string): string {
 }
 
 export function isValidChantKey(key: string): boolean {
-  return presetById.has(key) || !!getMantra(key) || (key.startsWith(CUSTOM_PREFIX) && key.length > CUSTOM_PREFIX.length);
+  return presetById.has(key) || !!getMantraInfo(key) || (key.startsWith(CUSTOM_PREFIX) && key.length > CUSTOM_PREFIX.length);
 }
 
 export function chantInfo(key: string): ChantInfo {
   if (key.startsWith(CUSTOM_PREFIX)) return { key, name: key.slice(CUSTOM_PREFIX.length), custom: true };
   const preset = presetById.get(key);
-  const mantra = getMantra(preset?.libraryId ?? key);
+  const mantra = getMantraInfo(preset?.libraryId ?? key);
   if (preset) {
     return {
       key,

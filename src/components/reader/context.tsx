@@ -15,6 +15,8 @@ export interface ReaderState {
   practice: boolean;
   revealed: Readonly<Record<string, number>>;
   reveal: (key: string, lines: number) => void;
+  /** Two fingers are down (pinch to zoom): the lists must not scroll or turn the page. */
+  pinching: boolean;
 }
 
 export const ReaderContext = createContext<ReaderState | null>(null);

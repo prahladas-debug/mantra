@@ -1,11 +1,11 @@
 import { Ionicons } from '@expo/vector-icons';
 import { Stack, router, useLocalSearchParams, type Href } from 'expo-router';
 import { Pressable, ScrollView, Text, View } from 'react-native';
-import { getMantraInfo } from '../../data';
+import { getMantraInfo, scriptFor } from '../../data';
 import { collectionById } from '../../data/collections';
 import { scriptFont } from '../../lib/fonts';
 import { useSettings } from '../../lib/settings';
-import { translit, translitTitle } from '../../lib/transliterate';
+import { translitTitle } from '../../lib/transliterate';
 
 /** A ready-made set of texts, read in order; also offered as a daily routine. */
 export default function CollectionScreen() {
@@ -15,17 +15,18 @@ export default function CollectionScreen() {
   const font = scriptFont(settings.script, settings.bookFonts);
   if (!c) return <Stack.Screen options={{ title: 'Not found' }} />;
   const items = c.items.map(getMantraInfo).filter((m) => !!m);
-  const allInRoutine = c.items.every((x) => routine.includes(x));
+  const ids = items.map((m) => m.id);
+  const allInRoutine = ids.every((x) => routine.includes(x));
 
   return (
     <ScrollView style={{ backgroundColor: theme.bg }} contentContainerStyle={{ paddingBottom: 32 }}>
       <Stack.Screen options={{ title: c.titleEn }} />
       <View style={{ alignItems: 'center', padding: 20, margin: 16, borderRadius: 14, borderWidth: 1, borderColor: theme.pageEdge, backgroundColor: theme.page }}>
         <Text style={{ color: theme.ornament, fontSize: 16 }}>❁</Text>
-        <Text style={{ color: theme.accent, fontSize: 26, fontFamily: font, textAlign: 'center', marginTop: 4 }}>{translit(c.title, settings.script)}</Text>
+        <Text style={{ color: theme.accent, fontSize: 26, fontFamily: font, textAlign: 'center', marginTop: 4 }}>{translitTitle(c.title, settings.script)}</Text>
         <Text style={{ color: theme.textMuted, fontSize: 14, textAlign: 'center', marginTop: 6, lineHeight: 20 }}>{c.when}</Text>
         <Pressable
-          onPress={() => router.push(`/mantra/${c.items[0]}` as Href)}
+          onPress={() => items[0] && router.push(`/mantra/${items[0].id}` as Href)}
           style={({ pressed }) => ({ marginTop: 14, paddingHorizontal: 22, paddingVertical: 11, borderRadius: 22, backgroundColor: theme.accent, opacity: pressed ? 0.8 : 1 })}
           accessibilityRole="button"
         >
@@ -42,7 +43,7 @@ export default function CollectionScreen() {
           >
             <Text style={{ color: theme.textMuted, width: 22, textAlign: 'right' }}>{i + 1}</Text>
             <View style={{ flex: 1 }}>
-              <Text style={{ color: theme.text, fontSize: 17, fontFamily: font }} numberOfLines={1}>
+              <Text style={{ color: theme.text, fontSize: 17, fontFamily: scriptFont(scriptFor(m, settings.script), settings.bookFonts) }} numberOfLines={1}>
                 {translitTitle(m.title, settings.script)}
               </Text>
               <Text style={{ color: theme.textMuted, fontSize: 12 }} numberOfLines={1}>
@@ -55,7 +56,7 @@ export default function CollectionScreen() {
       </View>
 
       <Pressable
-        onPress={() => setRoutine(allInRoutine ? routine.filter((x) => !c.items.includes(x)) : [...routine, ...c.items.filter((x) => !routine.includes(x))])}
+        onPress={() => setRoutine(allInRoutine ? routine.filter((x) => !ids.includes(x)) : [...routine, ...ids.filter((x) => !routine.includes(x))])}
         style={{ alignSelf: 'center', marginTop: 18, padding: 8 }}
         accessibilityRole="button"
       >

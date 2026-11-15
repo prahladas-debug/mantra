@@ -12,7 +12,7 @@ import {
 } from '../../lib/panchanga';
 import { plain } from '../../lib/plain';
 import { sauraDay, sauraRtu, sauraSankalpa } from '../../lib/sauramana';
-import { useSettings } from '../../lib/settings';
+import { useClockTick, useSettings } from '../../lib/settings';
 import { translit } from '../../lib/transliterate';
 
 const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
@@ -54,15 +54,18 @@ function Table({ rows }: { rows: Row[] }) {
 export default function PanchangaScreen() {
   const { theme, settings } = useSettings();
   const insets = useSafeAreaInsets();
-  const params = useLocalSearchParams<{ date?: string }>();
+  const params = useLocalSearchParams<{ date?: string; at?: string }>();
   const city = cityById(settings.city);
+  // Follow the clock, so the tab does not stay on yesterday when the app is left open.
+  useClockTick(5 * 60 * 1000);
   const today = todayIn(city);
-  // The day picked here (‹ › / back to today) belongs to the `date` it was picked from, so a
-  // new date from the calendar, festival search or the Home card replaces it.
+  // The day picked here (‹ › / back to today) belongs to the link it was picked after, so a
+  // new date from the calendar or festival search, or a tap on the Home card (`at`), replaces it.
   const fromParam = params.date && ISO.test(params.date) ? params.date : undefined;
-  const [picked, setPickedState] = useState<{ from?: string; date: string } | null>(null);
-  const date = picked && picked.from === fromParam ? picked.date : (fromParam ?? today);
-  const setPicked = (d: string) => setPickedState({ from: fromParam, date: d });
+  const from = `${fromParam ?? ''}@${params.at ?? ''}`;
+  const [picked, setPickedState] = useState<{ from: string; date: string } | null>(null);
+  const date = picked && picked.from === from ? picked.date : (fromParam ?? today);
+  const setPicked = (d: string) => setPickedState({ from, date: d });
   const [rule] = useEkadashiRule();
   const [mode] = useCalendarMode();
   const [start] = useSauraStart();

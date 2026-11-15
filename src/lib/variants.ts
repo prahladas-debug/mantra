@@ -9,13 +9,22 @@ function timeFromClock(ids: string[]): string | undefined {
   return ids.includes(guess) ? guess : undefined;
 }
 
+/**
+ * The same choice under two names: the Veda is 'rigveda' / 'yajurveda' in some texts and
+ * 'rig' / 'yajus' in others. The choice is saved once for all texts, so without this a
+ * Yajurvedi's choice made in one text was dropped (back to Rigveda) in the others.
+ */
+const SAME: Record<string, string> = { rig: 'rigveda', yajus: 'yajurveda' };
+const canon = (id: string) => SAME[id] ?? id;
+
 /** The reader's effective choices for a text: saved choice, else a sensible default. */
 export function choicesFor(m: Mantra, saved: Partial<Record<string, string>>): Choices {
   const out: Choices = {};
   for (const v of m.variants ?? []) {
     const ids = v.options.map((o) => o.id);
     const s = saved[v.key];
-    out[v.key] = s && ids.includes(s) ? s : (v.key === 'time' && timeFromClock(ids)) || ids[0];
+    const chosen = s ? ids.find((id) => canon(id) === canon(s)) : undefined;
+    out[v.key] = chosen ?? ((v.key === 'time' && timeFromClock(ids)) || ids[0]);
   }
   return out;
 }

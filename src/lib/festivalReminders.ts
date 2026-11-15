@@ -61,16 +61,17 @@ async function cancelScheduled(): Promise<void> {
 
 /**
  * Replace the festival / ekādaśī reminders: cancels those scheduled earlier, then
- * schedules the new set. Asks for notification permission if needed. Resolves to the
+ * schedules the new set. Asks for notification permission if needed, unless `ask` is false
+ * (the routine re-scheduling when the app opens must not put up a prompt). Resolves to the
  * number scheduled (0 on web, without permission, with both kinds off, or on failure).
  */
-export function scheduleFestivalReminders(opts: FestivalReminderOptions): Promise<number> {
+export function scheduleFestivalReminders(opts: FestivalReminderOptions, ask = true): Promise<number> {
   if (Platform.OS === 'web') return Promise.resolve(0);
   return serial(async () => {
     try {
       await cancelScheduled();
       const plan = planFestivalReminders(opts, new Date(), (id) => getMantraInfo(id)?.titleEn);
-      if (!plan.length || !(await ensurePermission())) return 0;
+      if (!plan.length || !(await ensurePermission(ask))) return 0;
       const ids: string[] = [];
       for (const r of plan) {
         try {

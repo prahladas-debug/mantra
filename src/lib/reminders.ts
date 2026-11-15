@@ -15,8 +15,11 @@ if (Platform.OS !== 'web') {
   });
 }
 
-/** Ask for permission (Android 13+ needs a channel first). Returns true if allowed. */
-export async function ensurePermission(): Promise<boolean> {
+/**
+ * Ask for permission (Android 13+ needs a channel first). Returns true if allowed.
+ * With `ask` false the reader is not prompted: true only if permission was given before.
+ */
+export async function ensurePermission(ask = true): Promise<boolean> {
   if (Platform.OS === 'web') return false;
   if (Platform.OS === 'android') {
     await Notifications.setNotificationChannelAsync(CHANNEL, {
@@ -28,6 +31,7 @@ export async function ensurePermission(): Promise<boolean> {
   }
   const current = await Notifications.getPermissionsAsync();
   if (current.granted) return true;
+  if (!ask) return false;
   const req = await Notifications.requestPermissionsAsync();
   return req.granted;
 }

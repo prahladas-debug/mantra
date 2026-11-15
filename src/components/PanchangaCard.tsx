@@ -1,13 +1,13 @@
 import { Ionicons } from '@expo/vector-icons';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { router, type Href } from 'expo-router';
-import { useCallback, useEffect, useMemo, useState, useSyncExternalStore } from 'react';
+import { useCallback, useMemo, useState, useSyncExternalStore } from 'react';
 import { Pressable, Text, View } from 'react-native';
 import { defaultRule, festivalsOn, type CalendarMode, type EkadashiRule, type Festival } from '../lib/festivals';
 import { sauraDay, sauraSankalpa, type SauraStart } from '../lib/sauramana';
 import { addDays, cityById, panchanga, setCalcMethod, todayIn, type CalcMethod } from '../lib/panchanga';
 import { getMantraInfo } from '../data';
-import { useSettings } from '../lib/settings';
+import { useClockTick, useSettings } from '../lib/settings';
 import { plain } from '../lib/plain';
 import { translit } from '../lib/transliterate';
 
@@ -97,13 +97,10 @@ export const calcMethodLabel = (m: CalcMethod) => (m === 'surya' ? 'Surya Siddha
 function useToday() {
   const { settings } = useSettings();
   const city = cityById(settings.city);
-  const [, setTick] = useState(0);
+  // Looked at again every few minutes and when the app is reopened, so the card does not
+  // show yesterday after midnight at the city or in the morning.
+  useClockTick(5 * 60 * 1000);
   const today = todayIn(city);
-  // Re-render every hour so the card does not go stale past midnight at the city.
-  useEffect(() => {
-    const id = setInterval(() => setTick((n) => n + 1), 3600000);
-    return () => clearInterval(id);
-  }, []);
   return { city, today };
 }
 
@@ -193,7 +190,8 @@ export function TodayCard() {
   const read = (id: string | undefined) => (id ? getMantraInfo(id) : undefined);
   return (
     <View style={{ marginHorizontal: 16, marginTop: 16, borderRadius: 14, borderWidth: 1, backgroundColor: theme.card, borderColor: theme.cardBorder, overflow: 'hidden' }}>
-      <Pressable onPress={() => router.push({ pathname: '/panchanga', params: { date: today } } as Href)} style={({ pressed }) => ({ padding: 14, opacity: pressed ? 0.7 : 1 })} accessibilityRole="link">
+      {/* No date: the Panchanga tab then shows today, also tomorrow. `at` changes with every tap, so a day picked there earlier gives way. */}
+      <Pressable onPress={() => router.push({ pathname: '/panchanga', params: { at: String(Date.now()) } } as Href)} style={({ pressed }) => ({ padding: 14, opacity: pressed ? 0.7 : 1 })} accessibilityRole="link">
         <Text style={{ color: theme.textMuted, fontSize: 12, fontWeight: '700', letterSpacing: 0.8 }}>
           TODAY · {city.name.toUpperCase()}
         </Text>

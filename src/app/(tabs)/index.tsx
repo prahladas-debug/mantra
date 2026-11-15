@@ -5,12 +5,12 @@ import { Modal, Pressable, ScrollView, StyleSheet, Text, View } from 'react-nati
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { TodayCard } from '../../components/PanchangaCard';
 import { RoutineCard } from '../../components/RoutineCard';
-import { getMantraInfo } from '../../data';
+import { getMantraInfo, scriptFor } from '../../data';
 import { COLLECTIONS } from '../../data/collections';
 import { scriptFont } from '../../lib/fonts';
 import { appTitle } from '../../lib/labels';
 import { useSettings } from '../../lib/settings';
-import { SCRIPTS, translit, translitTitle } from '../../lib/transliterate';
+import { SCRIPTS, translitTitle } from '../../lib/transliterate';
 
 /** Reading-script chooser behind the header button. */
 function ScriptSheet({ visible, onClose }: { visible: boolean; onClose: () => void }) {
@@ -99,7 +99,7 @@ export default function Home() {
                 onPress={() => router.push(`/mantra/${m.id}` as Href)}
                 style={({ pressed }) => [s.cover, { backgroundColor: theme.page, borderColor: theme.pageEdge, opacity: pressed ? 0.75 : 1 }]}
               >
-                <Text numberOfLines={2} style={{ color: theme.accent, fontSize: 16, lineHeight: 26, textAlign: 'center', fontFamily: font }}>
+                <Text numberOfLines={2} style={{ color: theme.accent, fontSize: 16, lineHeight: 26, textAlign: 'center', fontFamily: scriptFont(scriptFor(m, settings.script), settings.bookFonts) }}>
                   {translitTitle(m.title, settings.script)}
                 </Text>
                 <Text numberOfLines={2} style={{ color: theme.textMuted, fontSize: 12, textAlign: 'center', marginTop: 4 }}>
@@ -121,7 +121,7 @@ export default function Home() {
             style={({ pressed }) => [s.collection, { backgroundColor: theme.card, borderColor: theme.cardBorder, opacity: pressed ? 0.7 : 1 }]}
           >
             <Text numberOfLines={2} style={{ color: theme.accent, fontSize: 16, lineHeight: 25, fontFamily: font }}>
-              {translit(c.title, settings.script)}
+              {translitTitle(c.title, settings.script)}
             </Text>
             <Text numberOfLines={1} style={{ color: theme.textMuted, fontSize: 12, marginTop: 4 }}>
               {c.titleEn} · {c.items.length}

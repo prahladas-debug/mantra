@@ -1,6 +1,6 @@
 import Sanscript from '@indic-transliteration/sanscript';
 import { plain } from '../lib/plain';
-import { searchKey, translit } from '../lib/transliterate';
+import { searchKey, translit, type ScriptId } from '../lib/transliterate';
 import { CATEGORIES } from './categories';
 import { LIBRARY } from './library.generated';
 import { MEANING_PACKS } from './meanings.generated';
@@ -187,6 +187,16 @@ export function search(query: string, limit = 50): SearchResult[] {
     }
   }
   return results;
+}
+
+/**
+ * The script a text is shown in: the reader's choice, except for Tamil-language works
+ * (Tiruppavai …), which are stored in Tamil and stay in Tamil. Use it for the font, the line
+ * height and the verse numbers of a text, so a Tamil text is not set in the Kannada book font
+ * or numbered in Kannada digits; `translit` itself leaves Tamil letters alone.
+ */
+export function scriptFor(m: Pick<Mantra, 'sourceScript'>, script: ScriptId): ScriptId {
+  return m.sourceScript === 'tamil' ? 'tamil' : script;
 }
 
 /** Title in the reader's script, used across lists. */

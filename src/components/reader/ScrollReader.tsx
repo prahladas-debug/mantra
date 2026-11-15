@@ -19,7 +19,7 @@ export function ScrollReader({
   ref: Ref<BookHandle>;
 }) {
   const { theme, settings } = useSettings();
-  const { opened, highlight, practice, revealed } = useReader();
+  const { opened, highlight, practice, revealed, pinching } = useReader();
   const listRef = useRef<FlatList<Row>>(null);
 
   // Retries for a jump to a row that is not laid out yet. Without a cap, a jump that keeps
@@ -72,6 +72,7 @@ export function ScrollReader({
       ref={listRef}
       style={{ backgroundColor: theme.bg }}
       data={rows}
+      scrollEnabled={!pinching}
       keyExtractor={(row) => row.key}
       renderItem={({ item }) => {
         switch (item.kind) {

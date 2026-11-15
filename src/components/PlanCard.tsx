@@ -1,7 +1,7 @@
 import { useEffect, useRef } from 'react';
 import { router, type Href } from 'expo-router';
 import { Pressable, Text, View } from 'react-native';
-import { getMantra } from '../data';
+import { getMantraInfo } from '../data';
 import { planStatus, type Plan } from '../lib/plans';
 import { cancelReminder, remindersSupported, scheduleDailyReminder } from '../lib/reminders';
 import { useSettings } from '../lib/settings';
@@ -61,7 +61,7 @@ export function PlanCard({ plan, compact }: { plan: Plan; compact?: boolean }) {
             {st.behind ? ` · ${st.behind} pending from earlier days` : ''}
           </Text>
           {st.todayItems.map((id) => {
-            const m = getMantra(id);
+            const m = getMantraInfo(id);
             if (!m) return null;
             return (
               <Pressable key={id} onPress={() => router.push(`/mantra/${id}` as Href)} style={{ paddingVertical: 6 }}>
