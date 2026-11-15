@@ -34,6 +34,7 @@ import { dailyShlokas } from './texts/daily-shlokas';
 import { dakshinamurtiStotram } from './texts/dakshinamurti-stotram';
 import { damodarashtakam } from './texts/damodarashtakam';
 import { dpKanduKandu, dpSanditayyaPrayavu, dpSrinivasaNeenePaaliso, dpBarayyaVenkataramana, dpTaluTaleloRangayya, dpYareRangana, dpJoJoSriKrishna, dpNeeneDayalo, dpNaMaadidaKarma, dpPalisemmaMudduSharade, dpJayaMangalamNitya, dpMandagamaneIvanare, dpNarasimhanaPadaBhajaneya, dpDevakiKandaMukunda, dpEnuBaredeBrahma, dpEkeChintisuve, dpElliHarikathaPrasangavo, dpIdeSamayaRanga, dpAruBadukidarayya, dpOotakkeBandevu, dpGummanaKareyadire, dpTalaBekuTakkaMela, dpKelenoHariTalano, dpBharatideviNeneNene, dpDharmaveJayavemba, dpBuddhiMatuHelidare, dpNeeneAnathabandhu, dpDharanigeDoreyenduNambide, dpYadavaNeeBa, dpBannisiGopiHarasidalu, dpMangalaMaramanage, dpInduNinnaMareyaHokke, dpNinnaNodiDhanyanadeno, dpNillabekayyaKrishnayya } from './texts/dasara-pada-2';
+import { dpNammammaSharade, dpEllaruMaduvuduHottegagi, dpDasadasaraManeya, dpEnuIlladaEraduDinada, dpAruHitavaru, dpVaravaKoduVagdevi, dpLaliPavanaCharana, dpMangalaratiyaPadire, dpBaroKrishnayya, dpHettaTayiginta, dpKangalidyatako, dpLaliGovindaLali, dpMangalaMukhyapraneshage, dpDasarendarePurandaraDasarayya, dpTulasiMadhyadiIruva, dpBegaBaroNilameghavarna, dpGubbiyaloGovinda, dpAratiyettireKeshava, dpLaliSriHayavadana, dpIndireyarasaneBaro, dpEndigahudoNinnaDarushana, dpParadeshiNeenuSvadeshiNanu, dpBelaginaJavadiBaro, dpMunjaneEdduSanjivanenni, dpKoduvavanuNeenu, dpBanduNilloKannaMunde, dpEnuBedaliNinna, dpBaruvudellaBarali, dpSummaneBaruvudeMukti, dpDasohamTavaDasoham, dpPranadevaNinallade, dpBaroBhavajanayya, dpKrishnaEnikyakayya, dpVenkatadriNilayana, dpSanjivanaGiridhara, dpMaleyaDayamadoRangayya, dpRaghavendraGururayaraSevisiro, dpRayaraNodirai, dpRaghavendraSuladiGopalaDasa, dpUgabhogaDhyanavuKritayugadi, dpUgabhogaSnanaMadidarinnenu, dpUgabhogaAnyarindaliSukha } from './texts/dasara-pada-3';
 import { dpBhagyadaLakshmiBaramma, dpJagadoddharana, dpKallusakkareKolliro, dpAcharavilladaNalige, dpGajavadanaBeduve, dpSharanuSiddhiVinayaka, dpGuruvinaGulama, dpRamaMantravaJapiso, dpYarigeYaruntu, dpDasanaMadikoEnna, dpManavaJanmaDoddadu, dpToogireRangana, dpIduBhagya, dpRamanamaPayasakke, dpHariNarayana, dpPillangoviyaCheluva, dpBandaddellaBarali, dpBagilanuTeredu, dpTallanisadiruKandya, dpKulaKulaKulavendu, dpNiMayeyolago, dpKeshavaNama, dpBhushanakeBhushana, dpKrishnaNiBeganeBaro, dpInduEnageGovinda, dpNinnaOlumeyinda } from './texts/dasara-pada';
 import { dashavataraStuti } from './texts/dashavatara-stuti';
 import { deepavaliLakshmiPuja } from './texts/deepavali-lakshmi-puja';
@@ -58,7 +59,7 @@ import { grihaPravesha } from './texts/griha-pravesha';
 import { hanumanAshtak } from './texts/hanuman-ashtak';
 import { hanumanChalisa } from './texts/hanuman-chalisa';
 import { harikathamrutasara11, harikathamrutasara12, harikathamrutasara13, harikathamrutasara14, harikathamrutasara15, harikathamrutasara16, harikathamrutasara17, harikathamrutasara18, harikathamrutasara19, harikathamrutasara20 } from './texts/harikathamrutasara-11-20';
-import { harikathamrutasara21, harikathamrutasara22, harikathamrutasara23, harikathamrutasara24, harikathamrutasara25, harikathamrutasara26, harikathamrutasara27, harikathamrutasara28, harikathamrutasara29, harikathamrutasara30, harikathamrutasara31, harikathamrutasara32 } from './texts/harikathamrutasara-21-32';
+import { harikathamrutasara21, harikathamrutasara22, harikathamrutasara23, harikathamrutasara24, harikathamrutasara25, harikathamrutasara26, harikathamrutasara27, harikathamrutasara28, harikathamrutasara29, harikathamrutasara30, harikathamrutasara31, harikathamrutasara32, harikathamrutasara33 } from './texts/harikathamrutasara-21-32';
 import { harikathamrutasara03, harikathamrutasara04, harikathamrutasara05, harikathamrutasara06, harikathamrutasara07, harikathamrutasara08, harikathamrutasara09, harikathamrutasara10 } from './texts/harikathamrutasara-3-10';
 import { harikathamrutasara01, harikathamrutasara02 } from './texts/harikathamrutasara';
 import { homaPurvanga } from './texts/homa-purvanga';
@@ -125,6 +126,7 @@ import { shivaratriPuja } from './texts/shivaratri-puja';
 import { shodashopacharaPuja } from './texts/shodashopachara-puja';
 import { shraddha } from './texts/shraddha';
 import { skandaShashtiKavacham } from './texts/skanda-shashti-kavacham';
+import { snanaVidhi } from './texts/snana-vidhi';
 import { sriRudramNamakam, sriRudramChamakam } from './texts/sri-rudram';
 import { sriSukta } from './texts/sri-sukta';
 import { sudarshanaHoma } from './texts/sudarshana-homa';
@@ -140,6 +142,7 @@ import { venkateshaStotram } from './texts/venkatesha-stotram';
 import { venkateshaSuprabhatam, venkateshaPrapatti, venkateshaMangalashasanam } from './texts/venkatesha-suprabhatam';
 import { vishnuAshtottaraShatanamavali } from './texts/vishnu-ashtottara-shatanamavali';
 import { vishnuSahasranama } from './texts/vishnu-sahasranama';
+import { yantrodharakaHanumanStotra } from './texts/yantrodharaka-hanuman-stotra';
 
 export const LIBRARY: Mantra[] = [
   achyutashtakam,
@@ -226,6 +229,48 @@ export const LIBRARY: Mantra[] = [
   dpInduNinnaMareyaHokke,
   dpNinnaNodiDhanyanadeno,
   dpNillabekayyaKrishnayya,
+  dpNammammaSharade,
+  dpEllaruMaduvuduHottegagi,
+  dpDasadasaraManeya,
+  dpEnuIlladaEraduDinada,
+  dpAruHitavaru,
+  dpVaravaKoduVagdevi,
+  dpLaliPavanaCharana,
+  dpMangalaratiyaPadire,
+  dpBaroKrishnayya,
+  dpHettaTayiginta,
+  dpKangalidyatako,
+  dpLaliGovindaLali,
+  dpMangalaMukhyapraneshage,
+  dpDasarendarePurandaraDasarayya,
+  dpTulasiMadhyadiIruva,
+  dpBegaBaroNilameghavarna,
+  dpGubbiyaloGovinda,
+  dpAratiyettireKeshava,
+  dpLaliSriHayavadana,
+  dpIndireyarasaneBaro,
+  dpEndigahudoNinnaDarushana,
+  dpParadeshiNeenuSvadeshiNanu,
+  dpBelaginaJavadiBaro,
+  dpMunjaneEdduSanjivanenni,
+  dpKoduvavanuNeenu,
+  dpBanduNilloKannaMunde,
+  dpEnuBedaliNinna,
+  dpBaruvudellaBarali,
+  dpSummaneBaruvudeMukti,
+  dpDasohamTavaDasoham,
+  dpPranadevaNinallade,
+  dpBaroBhavajanayya,
+  dpKrishnaEnikyakayya,
+  dpVenkatadriNilayana,
+  dpSanjivanaGiridhara,
+  dpMaleyaDayamadoRangayya,
+  dpRaghavendraGururayaraSevisiro,
+  dpRayaraNodirai,
+  dpRaghavendraSuladiGopalaDasa,
+  dpUgabhogaDhyanavuKritayugadi,
+  dpUgabhogaSnanaMadidarinnenu,
+  dpUgabhogaAnyarindaliSukha,
   dpBhagyadaLakshmiBaramma,
   dpJagadoddharana,
   dpKallusakkareKolliro,
@@ -325,6 +370,7 @@ export const LIBRARY: Mantra[] = [
   harikathamrutasara30,
   harikathamrutasara31,
   harikathamrutasara32,
+  harikathamrutasara33,
   harikathamrutasara03,
   harikathamrutasara04,
   harikathamrutasara05,
@@ -400,6 +446,7 @@ export const LIBRARY: Mantra[] = [
   shodashopacharaPuja,
   shraddha,
   skandaShashtiKavacham,
+  snanaVidhi,
   sriRudramNamakam,
   sriRudramChamakam,
   sriSukta,
@@ -500,4 +547,5 @@ export const LIBRARY: Mantra[] = [
   venkateshaMangalashasanam,
   vishnuAshtottaraShatanamavali,
   vishnuSahasranama,
+  yantrodharakaHanumanStotra,
 ];
