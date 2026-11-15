@@ -154,17 +154,17 @@ export function FestivalLine({ f, showDate, showNote }: { f: Festival; showDate?
           {f.parana && (
             <Text style={{ color: theme.text, fontSize: 13, marginTop: 1 }}>
               Parana (break the fast): {f.parana.label}
-              {f.parana.note ? <Text style={{ color: theme.textMuted }}>{` — ${plain(f.parana.note)}`}</Text> : null}
             </Text>
           )}
         </Pressable>
-        {f.note && !showNote ? (
+        {(f.note || f.parana?.note) && !showNote ? (
           <Pressable onPress={() => setOpen(!open)} hitSlop={10} accessibilityRole="button" accessibilityLabel={open ? 'Hide details' : 'Show details'}>
             <Ionicons name={open ? 'information-circle' : 'information-circle-outline'} size={20} color={theme.textMuted} />
           </Pressable>
         ) : null}
       </View>
       {open && f.note ? <Text style={{ color: theme.textMuted, fontSize: 13, lineHeight: 18, marginTop: 3 }}>{plain(f.note)}</Text> : null}
+      {open && f.parana?.note ? <Text style={{ color: theme.textMuted, fontSize: 13, lineHeight: 18, marginTop: 3 }}>Parana: {plain(f.parana.note)}</Text> : null}
     </View>
   );
 }

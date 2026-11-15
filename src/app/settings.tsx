@@ -1,146 +1,196 @@
-import { Link } from 'expo-router';
+import { Ionicons } from '@expo/vector-icons';
+import { router } from 'expo-router';
 import { useState } from 'react';
+import { Pressable, ScrollView, StyleSheet, Switch, Text, View } from 'react-native';
 import { CityPicker } from '../components/CalendarBar';
-import { cityById, cityLabel } from '../lib/panchanga';
-import { Pressable, ScrollView, Switch, Text, View } from 'react-native';
-import { Chip, ScriptPicker, SectionHeading } from '../components/ui';
-import { MEANING_PREFS } from '../lib/meaning';
-import { useSettings } from '../lib/settings';
+import { ThemeSwatches } from '../components/reader/DisplayPanel';
+import { Segmented } from '../components/ui';
 import { leading, scriptFont } from '../lib/fonts';
-import { translit } from '../lib/transliterate';
+import { MEANING_PREFS } from '../lib/meaning';
+import { cityById, cityLabel } from '../lib/panchanga';
+import { useSettings } from '../lib/settings';
+import { SCRIPTS, translit, type ScriptId } from '../lib/transliterate';
 
 const SAMPLE = 'शान्ताकारं भुजगशयनं पद्मनाभं सुरेशम्';
+const TIMES = ['18:00', '19:00', '20:00', '21:00'];
+
+/** Small rounded choices that wrap onto more lines instead of scrolling sideways. */
+function Pills<T extends string | null>({ options, value, onChange }: { options: { id: T; label: string }[]; value: T; onChange: (v: T) => void }) {
+  const { theme } = useSettings();
+  return (
+    <View style={s.pills}>
+      {options.map((o) => {
+        const active = o.id === value;
+        return (
+          <Pressable
+            key={o.id ?? 'none'}
+            onPress={() => onChange(o.id)}
+            accessibilityRole="radio"
+            accessibilityState={{ selected: active }}
+            style={[s.pill, { backgroundColor: active ? theme.accent : theme.bg, borderColor: active ? theme.accent : theme.cardBorder }]}
+          >
+            <Text style={{ color: active ? theme.onAccent : theme.text, fontSize: 15 }}>{o.label}</Text>
+          </Pressable>
+        );
+      })}
+    </View>
+  );
+}
+
+function Group({ title, children, note }: { title: string; children: React.ReactNode; note?: string }) {
+  const { theme } = useSettings();
+  return (
+    <View style={{ marginTop: 22 }}>
+      <Text style={[s.groupTitle, { color: theme.textMuted }]} accessibilityRole="header">
+        {title}
+      </Text>
+      <View style={[s.card, { backgroundColor: theme.card, borderColor: theme.cardBorder }]}>{children}</View>
+      {note && <Text style={[s.note, { color: theme.textMuted }]}>{note}</Text>}
+    </View>
+  );
+}
+
+/** One row inside a group; rows after the first get a hairline above. */
+function Row({ first, label, children, onPress }: { first?: boolean; label?: string; children?: React.ReactNode; onPress?: () => void }) {
+  const { theme } = useSettings();
+  const body = (
+    <View style={[s.row, { borderTopWidth: first ? 0 : StyleSheet.hairlineWidth, borderColor: theme.cardBorder }]}>
+      {label && <Text style={{ color: theme.text, fontSize: 16, flex: 1 }}>{label}</Text>}
+      {children}
+    </View>
+  );
+  return onPress ? (
+    <Pressable onPress={onPress} accessibilityRole="button" style={({ pressed }) => ({ opacity: pressed ? 0.6 : 1 })}>
+      {body}
+    </Pressable>
+  ) : (
+    body
+  );
+}
+
+/** A labelled block inside a group, for choices that need the full width. */
+function Block({ first, label, children }: { first?: boolean; label: string; children: React.ReactNode }) {
+  const { theme } = useSettings();
+  return (
+    <View style={[s.block, { borderTopWidth: first ? 0 : StyleSheet.hairlineWidth, borderColor: theme.cardBorder }]}>
+      <Text style={{ color: theme.textMuted, fontSize: 13, marginBottom: 8 }}>{label}</Text>
+      {children}
+    </View>
+  );
+}
 
 export default function SettingsScreen() {
   const { theme, settings, update } = useSettings();
   const [picker, setPicker] = useState(false);
-  const row = { flexDirection: 'row' as const, alignItems: 'center' as const, justifyContent: 'space-between' as const, marginHorizontal: 16, paddingVertical: 10 };
+  const toggle = (value: boolean, onChange: (v: boolean) => void) => <Switch value={value} onValueChange={onChange} trackColor={{ true: theme.accent }} />;
+  const largePrint = settings.fontScale >= 1.5 && settings.theme === 'contrast';
+  const scripts = SCRIPTS.map((x) => ({ id: x.id as ScriptId, label: x.native }));
+  const reminders = settings.festivalReminders;
 
   return (
     <ScrollView style={{ backgroundColor: theme.bg }} contentContainerStyle={{ paddingBottom: 40 }}>
-      <SectionHeading>Language · script</SectionHeading>
-      <ScriptPicker value={settings.script} onChange={(v) => v && update({ script: v })} />
-      <Text style={{ color: theme.textMuted, marginHorizontal: 16, marginTop: 8, fontSize: 14 }}>
-        Mantras are shown in this script; with meanings on Auto, meanings follow it too (see Reading below).
-      </Text>
+      <Group title="LANGUAGE" note="Mantras are shown in the reading script. With meanings on Auto, meanings follow it too.">
+        <Block first label="Reading script">
+          <Pills options={scripts} value={settings.script} onChange={(v) => update({ script: v })} />
+        </Block>
+        <Block label="Meanings in">
+          <Pills options={MEANING_PREFS.map((m) => ({ id: m.id, label: m.label }))} value={settings.meaningLang} onChange={(v) => update({ meaningLang: v })} />
+        </Block>
+        <Block label="Second script under each verse (for learning)">
+          <Pills options={[{ id: null, label: 'None' }, ...scripts]} value={settings.secondaryScript} onChange={(v) => update({ secondaryScript: v })} />
+        </Block>
+      </Group>
 
-      <SectionHeading>Tradition</SectionHeading>
-      <View style={[row, { justifyContent: 'flex-start', gap: 8 }]}>
-        <Chip label="Madhva" active={settings.variants.tradition === 'madhva'} onPress={() => update({ variants: { ...settings.variants, tradition: 'madhva' } })} />
-        <Chip label="Smarta" active={settings.variants.tradition === 'smarta'} onPress={() => update({ variants: { ...settings.variants, tradition: 'smarta' } })} />
-      </View>
-      <Text style={{ color: theme.textMuted, marginHorizontal: 16, fontSize: 14 }}>
-        Default steps for Sandhyavandane and daily puja, and the Ekadashi rule (the calendar can still override it).
-      </Text>
-
-      <SectionHeading>Place</SectionHeading>
-      <Pressable onPress={() => setPicker(true)} style={row} accessibilityRole="button">
-        <Text style={{ color: theme.text, fontSize: 16, flex: 1 }}>{cityLabel(cityById(settings.city))}</Text>
-        <Text style={{ color: theme.accent, fontSize: 16 }}>Change</Text>
-      </Pressable>
+      <Group title="TRADITION AND PLACE" note="Tradition sets the default steps for Sandhyavandane and puja, and the Ekadashi rule. Place sets sunrise and the calendar.">
+        <Block first label="Tradition">
+          <Segmented
+            options={[
+              { id: 'madhva', label: 'Madhva' },
+              { id: 'smarta', label: 'Smarta' },
+            ]}
+            value={settings.variants.tradition === 'smarta' ? 'smarta' : 'madhva'}
+            onChange={(v) => update({ variants: { ...settings.variants, tradition: v } })}
+          />
+        </Block>
+        <Row label={cityLabel(cityById(settings.city))} onPress={() => setPicker(true)}>
+          <Text style={{ color: theme.accent, fontSize: 16 }}>Change</Text>
+        </Row>
+      </Group>
       <CityPicker visible={picker} onClose={() => setPicker(false)} />
 
-      <SectionHeading>Second script under each verse</SectionHeading>
-      <ScriptPicker allowNone value={settings.secondaryScript} onChange={(v) => update({ secondaryScript: v })} />
-      <Text style={{ color: theme.textMuted, marginHorizontal: 16, marginTop: 8, fontSize: 14 }}>
-        Useful for learning, e.g. Kannada with English (IAST) underneath.
-      </Text>
-
-      <SectionHeading>Text size</SectionHeading>
-      <View style={[row, { justifyContent: 'flex-start', gap: 10 }]}>
-        <Chip label="A−" onPress={() => update({ fontScale: Math.max(0.7, +(settings.fontScale - 0.1).toFixed(1)) })} />
-        <Text style={{ color: theme.text, minWidth: 48, textAlign: 'center' }}>{Math.round(settings.fontScale * 100)}%</Text>
-        <Chip label="A+" onPress={() => update({ fontScale: Math.min(2.4, +(settings.fontScale + 0.1).toFixed(1)) })} />
-      </View>
-      <View style={[row, { justifyContent: 'flex-start', gap: 8 }]}>
-        <Chip
-          label={settings.fontScale >= 1.5 && settings.theme === 'contrast' ? 'Large print ✓ · ದೊಡ್ಡ ಅಕ್ಷರ' : 'Large print · ದೊಡ್ಡ ಅಕ್ಷರ'}
-          active={settings.fontScale >= 1.5 && settings.theme === 'contrast'}
-          onPress={() =>
-            settings.fontScale >= 1.5 && settings.theme === 'contrast'
-              ? update({ fontScale: 1, theme: 'system' })
-              : update({ fontScale: 1.6, theme: 'contrast', bookFonts: true })
-          }
-        />
-      </View>
-      <View style={{ margin: 16, padding: 16, borderRadius: 12, borderWidth: 1, backgroundColor: theme.card, borderColor: theme.cardBorder }}>
-        <Text style={{ color: theme.text, fontSize: 22 * settings.fontScale, lineHeight: 22 * settings.fontScale * leading(settings.script, settings.bookFonts), fontFamily: scriptFont(settings.script, settings.bookFonts), textAlign: settings.centerVerses ? 'center' : 'left' }}>
-          {translit(SAMPLE, settings.script)}
-        </Text>
-      </View>
-
-      <SectionHeading>Theme</SectionHeading>
-      <View style={[row, { justifyContent: 'flex-start', gap: 8, flexWrap: 'wrap' }]}>
-        {(['system', 'sunset', 'light', 'sepia', 'dark', 'night', 'contrast'] as const).map((t) => (
-          <Chip
-            key={t}
-            label={{ system: 'Phone setting', sunset: '🌙 Night after sunset', light: 'Light', sepia: 'Sepia', dark: 'Dark', night: 'Night (warm)', contrast: 'High contrast' }[t]}
-            active={settings.theme === t}
-            onPress={() => update({ theme: t })}
-          />
-        ))}
-      </View>
-
-      <SectionHeading>Book · ಪುಸ್ತಕ</SectionHeading>
-      <View style={[row, { justifyContent: 'flex-start', gap: 8, flexWrap: 'wrap' }]}>
-        <Chip label="📖 Book pages" active={settings.layout === 'book'} onPress={() => update({ layout: 'book' })} />
-        <Chip label="Scroll" active={settings.layout === 'scroll'} onPress={() => update({ layout: 'scroll' })} />
-      </View>
-      <View style={row}>
-        <Text style={{ color: theme.text, fontSize: 16, flex: 1 }}>Book fonts (Tiro / Noto Serif)</Text>
-        <Switch value={settings.bookFonts} onValueChange={(v) => update({ bookFonts: v })} trackColor={{ true: theme.accent }} />
-      </View>
-      <View style={row}>
-        <Text style={{ color: theme.text, fontSize: 16, flex: 1 }}>Centre verses, as in printed books</Text>
-        <Switch value={settings.centerVerses} onValueChange={(v) => update({ centerVerses: v })} trackColor={{ true: theme.accent }} />
-      </View>
-
-      <SectionHeading>Reading</SectionHeading>
-      <View style={row}>
-        <Text style={{ color: theme.text, fontSize: 16, flex: 1 }}>Show all meanings open · ಎಲ್ಲ ಅರ್ಥ ತೆರೆದಿರಲಿ</Text>
-        <Switch value={settings.alwaysShowMeanings} onValueChange={(v) => update({ alwaysShowMeanings: v })} trackColor={{ true: theme.accent }} />
-      </View>
-      <View style={[row, { justifyContent: 'flex-start', gap: 8, flexWrap: 'wrap' }]}>
-        {MEANING_PREFS.map((m) => (
-          <Chip key={m.id} label={m.label} active={settings.meaningLang === m.id} onPress={() => update({ meaningLang: m.id })} />
-        ))}
-      </View>
-      <Text style={{ color: theme.textMuted, marginHorizontal: 16, fontSize: 14 }}>
-        Meanings are hidden until you tap ಅರ್ಥ · Meaning under a verse. Auto shows the meaning in the
-        language of your reading script (ಕನ್ನಡ, తెలుగు, தமிழ், हिन्दी for Devanagari), English otherwise.
-      </Text>
-      <View style={row}>
-        <Text style={{ color: theme.text, fontSize: 16, flex: 1 }}>Keep screen on while reading</Text>
-        <Switch value={settings.keepAwake} onValueChange={(v) => update({ keepAwake: v })} trackColor={{ true: theme.accent }} />
-      </View>
-
-      <SectionHeading>Reminders</SectionHeading>
-      <View style={row}>
-        <Text style={{ color: theme.text, fontSize: 16, flex: 1 }}>Ekadashi, the evening before (with parana time)</Text>
-        <Switch value={settings.festivalReminders.ekadashi} onValueChange={(v) => update({ festivalReminders: { ...settings.festivalReminders, ekadashi: v } })} trackColor={{ true: theme.accent }} />
-      </View>
-      <View style={row}>
-        <Text style={{ color: theme.text, fontSize: 16, flex: 1 }}>Major festivals, the evening before</Text>
-        <Switch value={settings.festivalReminders.festivals} onValueChange={(v) => update({ festivalReminders: { ...settings.festivalReminders, festivals: v } })} trackColor={{ true: theme.accent }} />
-      </View>
-      {(settings.festivalReminders.ekadashi || settings.festivalReminders.festivals) && (
-        <View style={[row, { justifyContent: 'flex-start', gap: 8, flexWrap: 'wrap' }]}>
-          <Text style={{ color: theme.textMuted, fontSize: 14 }}>At</Text>
-          {['18:00', '19:00', '20:00', '21:00'].map((t) => (
-            <Chip key={t} label={t} active={settings.festivalReminders.time === t} onPress={() => update({ festivalReminders: { ...settings.festivalReminders, time: t } })} />
-          ))}
+      <Group title="TEXT">
+        <View style={[s.sample, { backgroundColor: theme.page, borderColor: theme.pageEdge }]}>
+          <Text style={{ color: theme.text, fontSize: 22 * settings.fontScale, lineHeight: 22 * settings.fontScale * leading(settings.script, settings.bookFonts), fontFamily: scriptFont(settings.script, settings.bookFonts), textAlign: settings.centerVerses ? 'center' : 'left' }}>
+            {translit(SAMPLE, settings.script)}
+          </Text>
         </View>
-      )}
-      <Text style={{ color: theme.textMuted, marginHorizontal: 16, fontSize: 14 }}>
-        Dates follow your place, tradition and calendar choice. Tap a reminder to open the text for the day.
-      </Text>
+        <Row label="Size">
+          <View style={[s.stepper, { borderColor: theme.cardBorder }]}>
+            <Pressable onPress={() => update({ fontScale: Math.max(0.7, +(settings.fontScale - 0.1).toFixed(1)) })} hitSlop={8} accessibilityLabel="Smaller text" style={s.stepBtn}>
+              <Text style={{ color: theme.accent, fontSize: 16, fontWeight: '700' }}>A−</Text>
+            </Pressable>
+            <Text style={{ color: theme.text, fontSize: 15, minWidth: 46, textAlign: 'center' }}>{Math.round(settings.fontScale * 100)}%</Text>
+            <Pressable onPress={() => update({ fontScale: Math.min(2.4, +(settings.fontScale + 0.1).toFixed(1)) })} hitSlop={8} accessibilityLabel="Larger text" style={s.stepBtn}>
+              <Text style={{ color: theme.accent, fontSize: 20, fontWeight: '700' }}>A+</Text>
+            </Pressable>
+          </View>
+        </Row>
+        <Row label="Large print (big text, high contrast)">
+          {toggle(largePrint, (v) => update(v ? { fontScale: 1.6, theme: 'contrast', bookFonts: true } : { fontScale: 1, theme: 'system' }))}
+        </Row>
+        <Row label="Book fonts">{toggle(settings.bookFonts, (v) => update({ bookFonts: v }))}</Row>
+        <Row label="Centre verses, as in printed books">{toggle(settings.centerVerses, (v) => update({ centerVerses: v }))}</Row>
+      </Group>
 
-      <SectionHeading>About</SectionHeading>
-      <Link href="/about" asChild>
-        <Pressable style={row}>
-          <Text style={{ color: theme.accent, fontSize: 16 }}>About this app & sources</Text>
-        </Pressable>
-      </Link>
+      <Group title="LOOK">
+        <Block first label="Theme">
+          <ThemeSwatches withSystem />
+        </Block>
+        <Block label="Reading layout">
+          <Segmented
+            options={[
+              { id: 'book', label: 'Book pages' },
+              { id: 'scroll', label: 'Scroll' },
+            ]}
+            value={settings.layout}
+            onChange={(v) => update({ layout: v })}
+          />
+        </Block>
+      </Group>
+
+      <Group title="READING" note="Meanings stay hidden until you tap Meaning under a verse, unless all are open.">
+        <Row first label="Show all meanings open">{toggle(settings.alwaysShowMeanings, (v) => update({ alwaysShowMeanings: v }))}</Row>
+        <Row label="Keep screen on while reading">{toggle(settings.keepAwake, (v) => update({ keepAwake: v }))}</Row>
+      </Group>
+
+      <Group title="REMINDERS" note="Dates follow your place, tradition and calendar choice. Tap a reminder to open the text for the day.">
+        <Row first label="Ekadashi, the evening before">{toggle(reminders.ekadashi, (v) => update({ festivalReminders: { ...reminders, ekadashi: v } }))}</Row>
+        <Row label="Major festivals, the evening before">{toggle(reminders.festivals, (v) => update({ festivalReminders: { ...reminders, festivals: v } }))}</Row>
+        {(reminders.ekadashi || reminders.festivals) && (
+          <Block label="Remind me at">
+            <Segmented options={TIMES.map((t) => ({ id: t, label: t }))} value={reminders.time} onChange={(t) => update({ festivalReminders: { ...reminders, time: t } })} />
+          </Block>
+        )}
+      </Group>
+
+      <Group title="ABOUT">
+        <Row first label="About this app and sources" onPress={() => router.push('/about')}>
+          <Ionicons name="chevron-forward" size={18} color={theme.textMuted} />
+        </Row>
+      </Group>
     </ScrollView>
   );
 }
+
+const s = StyleSheet.create({
+  groupTitle: { fontSize: 12, fontWeight: '700', letterSpacing: 0.8, marginHorizontal: 28, marginBottom: 6 },
+  card: { marginHorizontal: 16, borderRadius: 14, borderWidth: 1, overflow: 'hidden' },
+  note: { fontSize: 13, lineHeight: 18, marginHorizontal: 28, marginTop: 6 },
+  row: { flexDirection: 'row', alignItems: 'center', gap: 12, minHeight: 50, paddingHorizontal: 14, paddingVertical: 6 },
+  block: { paddingHorizontal: 14, paddingVertical: 12 },
+  pills: { flexDirection: 'row', flexWrap: 'wrap', gap: 6 },
+  pill: { paddingHorizontal: 12, paddingVertical: 6, borderRadius: 16, borderWidth: 1 },
+  sample: { margin: 12, padding: 14, borderRadius: 10, borderWidth: 1 },
+  stepper: { flexDirection: 'row', alignItems: 'center', borderRadius: 12, borderWidth: 1 },
+  stepBtn: { paddingHorizontal: 10, paddingVertical: 6 },
+});

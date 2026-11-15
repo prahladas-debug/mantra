@@ -1,3 +1,4 @@
+import { Ionicons } from '@expo/vector-icons';
 import { Stack, router, useLocalSearchParams, type Href } from 'expo-router';
 import { useState } from 'react';
 import { Pressable, ScrollView, Text, View } from 'react-native';
@@ -105,11 +106,24 @@ export default function CalendarScreen() {
         <NavButton icon="chevron-forward" label="Next month" onPress={() => setPicked(shiftMonth(month, 1))} />
       </View>
 
-      <CalendarBar />
-      <View style={{ flexDirection: 'row', flexWrap: 'wrap', justifyContent: 'center', gap: 8, marginTop: 10, marginHorizontal: 16 }}>
-        {month !== today.slice(0, 7) && <Chip label="This month" onPress={() => setPicked(today.slice(0, 7))} />}
-        <Chip label={`Year ${y} list`} onPress={() => router.push({ pathname: '/festivals', params: { year: String(y) } } as Href)} />
-      </View>
+      <CalendarBar
+        trailing={
+          <Pressable
+            onPress={() => router.push({ pathname: '/festivals', params: { year: String(y) } } as Href)}
+            accessibilityRole="button"
+            accessibilityLabel={`Festivals of ${y} as a list`}
+            hitSlop={8}
+            style={({ pressed }) => ({ padding: 8, borderRadius: 18, borderWidth: 1, borderColor: theme.cardBorder, backgroundColor: theme.card, opacity: pressed ? 0.6 : 1 })}
+          >
+            <Ionicons name="list" size={18} color={theme.accent} />
+          </Pressable>
+        }
+      />
+      {month !== today.slice(0, 7) && (
+        <View style={{ alignItems: 'center', marginTop: 10 }}>
+          <Chip label="Back to this month" onPress={() => setPicked(today.slice(0, 7))} />
+        </View>
+      )}
 
       <View style={{ marginHorizontal: 8, marginTop: 14 }}>
         <View style={{ flexDirection: 'row' }}>
@@ -167,7 +181,7 @@ export default function CalendarScreen() {
         </Text>
       </View>
 
-      <SectionHeading>This month · ಈ ತಿಂಗಳು</SectionHeading>
+      <SectionHeading>This month</SectionHeading>
       <View style={{ marginHorizontal: 16, borderRadius: 14, borderWidth: 1, borderColor: theme.cardBorder, backgroundColor: theme.card, paddingHorizontal: 12, paddingVertical: 8 }}>
         {festivals.length === 0 && <Text style={{ color: theme.textMuted }}>No listed festivals.</Text>}
         {festivals.map((f) => (

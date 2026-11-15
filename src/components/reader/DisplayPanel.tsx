@@ -1,5 +1,5 @@
 import { Ionicons } from '@expo/vector-icons';
-import { Modal, Pressable, ScrollView, StyleSheet, Switch, Text, View } from 'react-native';
+import { Modal, Pressable, ScrollView, StyleSheet, Switch, Text, useColorScheme, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { scriptFont } from '../../lib/fonts';
 import { MEANING_PREFS } from '../../lib/meaning';
@@ -13,7 +13,7 @@ const THEME_CHOICES: { id: Settings['theme']; label: string }[] = [
   { id: 'sepia', label: 'Sepia' },
   { id: 'dark', label: 'Dark' },
   { id: 'night', label: 'Night' },
-  { id: 'sunset', label: 'At sunset' },
+  { id: 'sunset', label: 'Sunset' },
   { id: 'contrast', label: 'Contrast' },
 ];
 
@@ -85,22 +85,7 @@ export function DisplayPanel({
           </View>
 
           {heading('THEME')}
-          <View style={p.swatches}>
-            {THEME_CHOICES.map((t) => {
-              const active = settings.theme === t.id;
-              const look = t.id === 'sunset' ? THEMES.night : THEMES[t.id as keyof typeof THEMES];
-              return (
-                <Pressable key={t.id} onPress={() => update({ theme: t.id })} style={p.swatch} accessibilityRole="radio" accessibilityState={{ selected: active }} accessibilityLabel={t.label}>
-                  <View style={[p.dot, { backgroundColor: look.bg, borderColor: active ? theme.accent : theme.cardBorder, borderWidth: active ? 3 : 1 }]}>
-                    {t.id === 'sunset' ? <Ionicons name="moon" size={16} color={look.accent} /> : <Text style={{ color: look.text, fontSize: 15, fontWeight: '700' }}>A</Text>}
-                  </View>
-                  <Text style={{ color: active ? theme.accent : theme.textMuted, fontSize: 11, marginTop: 4 }} numberOfLines={1}>
-                    {t.label}
-                  </Text>
-                </Pressable>
-              );
-            })}
-          </View>
+          <ThemeSwatches />
 
           {heading('MEANINGS')}
           <View style={p.wrap}>
@@ -128,6 +113,37 @@ export function DisplayPanel({
   );
 }
 
+/** One round swatch per theme, in its own colours; `withSystem` adds "follow the phone". */
+export function ThemeSwatches({ withSystem }: { withSystem?: boolean }) {
+  const { theme, settings, update } = useSettings();
+  const systemDark = useColorScheme() === 'dark';
+  const choices = withSystem ? [{ id: 'system' as const, label: 'Phone' }, ...THEME_CHOICES] : THEME_CHOICES;
+  return (
+    <View style={p.swatches}>
+      {choices.map((t) => {
+        const active = settings.theme === t.id;
+        const look = t.id === 'sunset' ? THEMES.night : t.id === 'system' ? (systemDark ? THEMES.dark : THEMES.light) : THEMES[t.id as keyof typeof THEMES];
+        return (
+          <Pressable key={t.id} onPress={() => update({ theme: t.id })} style={p.swatch} accessibilityRole="radio" accessibilityState={{ selected: active }} accessibilityLabel={t.label}>
+            <View style={[p.dot, { backgroundColor: look.bg, borderColor: active ? theme.accent : theme.cardBorder, borderWidth: active ? 3 : 1 }]}>
+              {t.id === 'sunset' ? (
+                <Ionicons name="moon" size={16} color={look.accent} />
+              ) : t.id === 'system' ? (
+                <Ionicons name="phone-portrait-outline" size={16} color={look.text} />
+              ) : (
+                <Text style={{ color: look.text, fontSize: 15, fontWeight: '700' }}>A</Text>
+              )}
+            </View>
+            <Text style={{ color: active ? theme.accent : theme.textMuted, fontSize: 11, marginTop: 4 }} numberOfLines={1}>
+              {t.label}
+            </Text>
+          </Pressable>
+        );
+      })}
+    </View>
+  );
+}
+
 const p = StyleSheet.create({
   sheet: { maxHeight: '78%', borderTopLeftRadius: 18, borderTopRightRadius: 18 },
   grip: { alignSelf: 'center', width: 40, height: 4, borderRadius: 2, marginTop: 8 },
@@ -138,7 +154,7 @@ const p = StyleSheet.create({
   sizeRow: { flexDirection: 'row', alignItems: 'center', borderRadius: 12, borderWidth: 1 },
   sizeBtn: { paddingHorizontal: 10, paddingVertical: 7 },
   swatches: { flexDirection: 'row', justifyContent: 'space-between' },
-  swatch: { alignItems: 'center', width: 54 },
+  swatch: { alignItems: 'center', width: 48 },
   dot: { width: 34, height: 34, borderRadius: 17, alignItems: 'center', justifyContent: 'center' },
   group: { borderRadius: 12, borderWidth: 1, overflow: 'hidden' },
   switchRow: { flexDirection: 'row', alignItems: 'center', paddingHorizontal: 14, paddingVertical: 2 },

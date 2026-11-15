@@ -8,7 +8,7 @@ export default function ParayanaScreen() {
   const { theme, plans } = useSettings();
   return (
     <ScrollView style={{ backgroundColor: theme.bg }} contentContainerStyle={{ paddingBottom: 40 }}>
-      <Stack.Screen options={{ title: 'Parayana · ಪಾರಾಯಣ' }} />
+      <Stack.Screen options={{ title: 'Parayana' }} />
       <Pressable
         onPress={() => router.push('/parayana-new')}
         style={({ pressed }) => ({
@@ -17,7 +17,7 @@ export default function ParayanaScreen() {
         })}
       >
         <Ionicons name="add" size={20} color={theme.onAccent} />
-        <Text style={{ color: theme.onAccent, fontSize: 16, fontWeight: '700' }}>New parayana · ಹೊಸ ಪಾರಾಯಣ</Text>
+        <Text style={{ color: theme.onAccent, fontSize: 16, fontWeight: '700' }}>New parayana</Text>
       </Pressable>
       {plans.length === 0 && (
         <Text style={{ color: theme.textMuted, marginHorizontal: 16, lineHeight: 22 }}>

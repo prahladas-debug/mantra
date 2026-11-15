@@ -27,7 +27,7 @@ export function PlanCard({ plan, compact }: { plan: Plan; compact?: boolean }) {
       let notificationId: string | undefined;
       if (time) {
         notificationId =
-          (await scheduleDailyReminder('Parayana · ಪಾರಾಯಣ', `Today: ${plan.title}`, time)) ?? undefined;
+          (await scheduleDailyReminder('Parayana', `Today: ${plan.title}`, time)) ?? undefined;
       }
       updatePlan(plan.id, { reminder: time, notificationId });
     } finally {
@@ -47,7 +47,7 @@ export function PlanCard({ plan, compact }: { plan: Plan; compact?: boolean }) {
     <View style={{ marginHorizontal: 16, marginBottom: 12, padding: 14, borderRadius: 14, borderWidth: 1, borderColor: theme.cardBorder, backgroundColor: theme.card }}>
       <Text style={{ color: theme.text, fontSize: 17, fontWeight: '700' }}>{plan.title}</Text>
       <Text style={{ color: theme.textMuted, fontSize: 13, marginTop: 2 }}>
-        {st.finished ? 'Completed 🙏 · ಪೂರ್ಣ' : `Day ${st.day + 1} of ${plan.days} · ${pct}%`}
+        {st.finished ? 'Completed 🙏' : `Day ${st.day + 1} of ${plan.days} · ${pct}%`}
         {plan.kind === 'vow' && plan.perDay > 1 ? ` · ${plan.perDay}× a day` : ''}
       </Text>
       <View style={{ height: 6, borderRadius: 3, backgroundColor: theme.accentSoft, marginTop: 8, overflow: 'hidden' }}>
@@ -57,7 +57,7 @@ export function PlanCard({ plan, compact }: { plan: Plan; compact?: boolean }) {
       {!st.finished && plan.kind === 'readthrough' && (
         <>
           <Text style={{ color: theme.textMuted, fontSize: 13, marginTop: 10, fontWeight: '600' }}>
-            {st.todayItems.length ? 'Today · ಇಂದು' : 'Today’s reading done ✓'}
+            {st.todayItems.length ? 'Today' : 'Today’s reading done ✓'}
             {st.behind ? ` · ${st.behind} pending from earlier days` : ''}
           </Text>
           {st.todayItems.map((id) => {

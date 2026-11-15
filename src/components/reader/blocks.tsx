@@ -63,7 +63,7 @@ export function IntroBlock({ book }: { book?: boolean }) {
       <Text style={{ color: theme.text, fontSize: 16, fontFamily: settings.bookFonts ? 'BookSerifBold' : undefined, fontWeight: settings.bookFonts ? undefined : '600', textAlign: book ? 'center' : 'left', marginTop: 4 }}>
         {mantra.titleEn}
       </Text>
-      <Text style={{ color: theme.textMuted, fontSize: 13, marginTop: 4, textAlign: book ? 'center' : 'left' }}>
+      <Text style={{ color: theme.textMuted, fontSize: 13, marginTop: 4, textAlign: book ? 'center' : 'left' }} numberOfLines={3}>
         {plain([categoryById[mantra.category]?.titleEn, mantra.deity, mantra.source].filter(Boolean).join(' · '))}
       </Text>
       {book && <Ornament />}
@@ -204,7 +204,7 @@ export function VerseBlock({ verse, rowKey, book }: { verse: Verse; rowKey: stri
           {Array.from({ length: hiddenCount }, (_, i) => (
             <View key={i} style={[b.practiceBar, { backgroundColor: theme.accentSoft, height: lh * 0.55, marginVertical: lh * 0.225 }]} />
           ))}
-          <Text style={{ color: theme.accent, fontSize: 12, marginTop: 2 }}>Tap to reveal the next line · ಮುಂದಿನ ಸಾಲು</Text>
+          <Text style={{ color: theme.accent, fontSize: 12, marginTop: 2 }}>Tap to reveal the next line</Text>
         </Pressable>
       )}
       {second && (
@@ -269,11 +269,11 @@ export function PlanControls({ mantraId }: { mantraId: string }) {
   const isRead = reading.some((p) => p.read.includes(mantraId));
   return (
     <View style={[b.planBox, { borderColor: theme.cardBorder, backgroundColor: theme.card }]}>
-      <Text style={{ color: theme.textMuted, fontSize: 12, fontWeight: '700', letterSpacing: 0.8 }}>PARAYANA · ಪಾರಾಯಣ</Text>
+      <Text style={{ color: theme.textMuted, fontSize: 12, fontWeight: '700', letterSpacing: 0.8 }}>PARAYANA</Text>
       {reading.length > 0 && (
         <Pressable onPress={() => markPlanItemRead(mantraId, !isRead)} style={[b.planButton, { backgroundColor: isRead ? theme.accentSoft : theme.accent }]}>
           <Text style={{ color: isRead ? theme.accent : theme.onAccent, fontWeight: '700', fontSize: 15 }}>
-            {isRead ? '✓ Read · ಓದಿ ಆಯಿತು' : 'Mark as read · ಓದಿ ಆಯಿತು'}
+            {isRead ? '✓ Read' : 'Mark as read'}
           </Text>
         </Pressable>
       )}
@@ -372,7 +372,7 @@ export function EndMatter() {
       {(mantra.category === 'nitya' || mantra.id.endsWith('-mantra')) && (
         <Pressable onPress={() => router.push(`/japa?mantra=${mantra.id}` as Href)} style={[b.planBox, { borderColor: theme.cardBorder, backgroundColor: theme.card, flexDirection: 'row', alignItems: 'center', gap: 10 }]}>
           <Ionicons name="ellipse-outline" size={20} color={theme.accent} />
-          <Text style={{ color: theme.accent, fontSize: 15, fontWeight: '600', flex: 1 }}>Count japa · ಜಪ ಎಣಿಕೆ</Text>
+          <Text style={{ color: theme.accent, fontSize: 15, fontWeight: '600', flex: 1 }}>Count japa</Text>
           <Ionicons name="chevron-forward" size={18} color={theme.textMuted} />
         </Pressable>
       )}

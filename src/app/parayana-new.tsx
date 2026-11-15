@@ -63,7 +63,7 @@ export default function NewPlan() {
     <View style={{ flex: 1, backgroundColor: theme.bg }}>
       <Stack.Screen options={{ title: 'New parayana' }} />
       <ScrollView contentContainerStyle={{ paddingBottom: 100 }} keyboardShouldPersistTaps="handled">
-        <SectionHeading>Type · ವಿಧ</SectionHeading>
+        <SectionHeading>Type</SectionHeading>
         <View style={{ flexDirection: 'row', gap: 8, marginHorizontal: 16 }}>
           <Chip label="Read a whole work" active={kind === 'readthrough'} onPress={() => { setKind('readthrough'); setDays(7); }} />
           <Chip label="Daily vow (vrata)" active={kind === 'vow'} onPress={() => { setKind('vow'); setDays(40); }} />
@@ -71,7 +71,7 @@ export default function NewPlan() {
 
         {kind === 'readthrough' ? (
           <>
-            <SectionHeading>Work · ಗ್ರಂಥ</SectionHeading>
+            <SectionHeading>Work</SectionHeading>
             {allWorks.map((w) => (
               <Pressable key={w.key} onPress={() => setWork(w)} style={[card, { borderColor: work?.key === w.key ? theme.accent : theme.cardBorder, backgroundColor: work?.key === w.key ? theme.accentSoft : theme.card }]}>
                 <Text style={{ color: theme.text, fontSize: 16 }}>{w.title}</Text>
@@ -80,7 +80,7 @@ export default function NewPlan() {
           </>
         ) : (
           <>
-            <SectionHeading>Text · ಸ್ತೋತ್ರ</SectionHeading>
+            <SectionHeading>Text</SectionHeading>
             <TextInput
               value={query}
               onChangeText={setQuery}
@@ -97,7 +97,7 @@ export default function NewPlan() {
           </>
         )}
 
-        <SectionHeading>Days · ದಿನಗಳು</SectionHeading>
+        <SectionHeading>Days</SectionHeading>
         <View style={{ flexDirection: 'row', flexWrap: 'wrap', gap: 8, marginHorizontal: 16 }}>
           {(kind === 'readthrough' ? READTHROUGH_DAYS : VOW_DAYS).map((d) => (
             <Chip key={d} label={String(d)} active={days === d} onPress={() => setDays(d)} />
@@ -105,7 +105,7 @@ export default function NewPlan() {
         </View>
         {kind === 'vow' && (
           <>
-            <SectionHeading>Times a day · ಆವರ್ತನ</SectionHeading>
+            <SectionHeading>Times a day</SectionHeading>
             <View style={{ flexDirection: 'row', flexWrap: 'wrap', gap: 8, marginHorizontal: 16 }}>
               {VOW_PER_DAY.map((n) => (
                 <Chip key={n} label={`${n}×`} active={perDay === n} onPress={() => setPerDay(n)} />
@@ -119,7 +119,7 @@ export default function NewPlan() {
         disabled={!ready}
         style={{ position: 'absolute', left: 16, right: 16, bottom: 24, padding: 14, borderRadius: 14, alignItems: 'center', backgroundColor: ready ? theme.accent : theme.cardBorder }}
       >
-        <Text style={{ color: ready ? theme.onAccent : theme.textMuted, fontSize: 16, fontWeight: '700' }}>Start · ಪ್ರಾರಂಭಿಸಿ</Text>
+        <Text style={{ color: ready ? theme.onAccent : theme.textMuted, fontSize: 16, fontWeight: '700' }}>Start</Text>
       </Pressable>
     </View>
   );

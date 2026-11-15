@@ -22,8 +22,10 @@ export default function About() {
       </Text>
       <Text style={h}>How the scripts work</Text>
       <Text style={p}>
-        Each text is stored once in Devanagari and converted to your chosen script on the device, so every
-        script always shows exactly the same text. Tamil uses superscript numbers (க², க³, க⁴) to mark
+        Each text is stored once, in the script its best printed source uses (Devanagari for most; Kannada
+        or Telugu for songs and works composed in those languages), and converted to your chosen script on
+        the device, so every script shows exactly the same text. Texts composed in Tamil, such as the
+        Tiruppavai, are always shown in Tamil. For Sanskrit in Tamil script, Tamil uses superscript numbers (க², க³, க⁴) to mark
         sounds that ordinary Tamil letters cannot show.
       </Text>
       <Text style={h}>Accuracy</Text>

@@ -170,7 +170,7 @@ export default function JapaScreen() {
       contentContainerStyle={{ paddingBottom: 48 }}
       keyboardShouldPersistTaps="handled"
     >
-      <Stack.Screen options={{ title: 'Japa · ಜಪ' }} />
+      <Stack.Screen options={{ title: 'Japa' }} />
 
       {/* ---- what is being chanted ---- */}
       <Pressable
@@ -401,7 +401,7 @@ function ChantPicker({
         );
       })}
 
-      <Text style={[s.kicker, { color: theme.textMuted, marginTop: 14 }]}>Or your own · ನಿಮ್ಮದೇ</Text>
+      <Text style={[s.kicker, { color: theme.textMuted, marginTop: 14 }]}>Or your own</Text>
       {customLabels.length > 0 && (
         <View style={s.wrap}>
           {customLabels.map((l) => (
@@ -512,7 +512,7 @@ function TargetPicker({
   };
   return (
     <>
-      <SectionHeading>Target · ಗುರಿ</SectionHeading>
+      <SectionHeading>Target</SectionHeading>
       <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={{ paddingHorizontal: 16, gap: 8 }}>
         {TARGETS.map((t) => (
           <Chip
@@ -662,7 +662,7 @@ function History({ state, chantKey, theme }: { state: ReturnType<typeof useJapa>
   const H = 88;
   return (
     <>
-      <SectionHeading>Last 7 days · ಕಳೆದ ವಾರ</SectionHeading>
+      <SectionHeading>Last 7 days</SectionHeading>
       <View style={[s.panel, { backgroundColor: theme.card, borderColor: theme.cardBorder }]}>
         <Text style={{ color: theme.textMuted, fontSize: 13, marginBottom: 12 }}>
           All chants · {fmt(week)} this week ({malaLabel(malas(week))})
@@ -735,7 +735,7 @@ function Totals({
   if (!rows.length) return null;
   return (
     <>
-      <SectionHeading>All-time · ಒಟ್ಟು</SectionHeading>
+      <SectionHeading>All-time</SectionHeading>
       <View style={[s.panel, { backgroundColor: theme.card, borderColor: theme.cardBorder, paddingVertical: 4 }]}>
         {rows.map(([key, n], i) => {
           const info = chantInfo(key);

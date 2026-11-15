@@ -19,7 +19,7 @@ export default function Bookmarks() {
     .filter((x) => !!x);
   return (
     <View style={{ flex: 1, backgroundColor: theme.bg }}>
-      <Stack.Screen options={{ title: 'Bookmarks · ಗುರುತುಗಳು' }} />
+      <Stack.Screen options={{ title: 'Bookmarks' }} />
       <FlatList
         data={items}
         keyExtractor={(x) => x.b.id}

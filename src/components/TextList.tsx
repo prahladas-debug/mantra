@@ -67,8 +67,11 @@ function SeriesRow({ entry, divider }: { entry: Entry; divider?: boolean }) {
   const { theme, settings } = useSettings();
   const [open, setOpen] = useState(false);
   const parts = entry.parts!;
-  const font = scriptFont(settings.script, settings.bookFonts);
-  const title = entry.seriesTitle ? translit(entry.seriesTitle.title, settings.script) : titleFor(entry.mantra, settings.script).text;
+  const first = titleFor(entry.mantra, settings.script);
+  // A Tamil-language series keeps its Tamil title and font whatever the reading script.
+  const own = entry.mantra.sourceScript === 'tamil';
+  const font = scriptFont(own ? first.script : settings.script, settings.bookFonts);
+  const title = entry.seriesTitle && !own ? translit(entry.seriesTitle.title, settings.script) : first.text;
   const en = entry.seriesTitle?.titleEn ?? entry.mantra.titleEn.split(' · ')[0];
   return (
     <View>
