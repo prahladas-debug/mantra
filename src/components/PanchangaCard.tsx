@@ -176,7 +176,11 @@ export function TodayCard() {
   const [rule] = useEkadashiRule();
   const [mode] = useCalendarMode();
   const [start] = useSauraStart();
-  const fest = useMemo(() => festivalsOn(city, today, rule, mode, start, method), [city, today, rule, mode, start, method]);
+  const all = useMemo(() => festivalsOn(city, today, rule, mode, start, method), [city, today, rule, mode, start, method]);
+  // Month-long periods (Cāturmāsya, snāna months, Dhanurmāsa) get a full row on their first day
+  // only; on the other days they share one quiet line, so the card stays short.
+  const fest = all.filter((f) => !f.endDate || f.date === today);
+  const ongoing = all.filter((f) => f.endDate && f.date !== today);
   const tomorrow = useMemo(
     () => festivalsOn(city, addDays(today, 1), rule, mode, start, method).filter((f) => f.kind === 'ekadashi' || f.kind === 'festival'),
     [city, today, rule, mode, start, method],
@@ -223,6 +227,13 @@ export function TodayCard() {
           </Pressable>
         );
       })}
+      {ongoing.length > 0 && (
+        <View style={{ paddingHorizontal: 14, paddingVertical: 8, borderTopWidth: 1, borderColor: theme.cardBorder }}>
+          <Text style={{ color: theme.textMuted, fontSize: 13 }} numberOfLines={2}>
+            {ongoing.map((f) => `${plain(f.en).replace(/ \(.*\)$/, '')} (to ${Number(f.endDate!.slice(8))}/${Number(f.endDate!.slice(5, 7))})`).join(' · ')}
+          </Text>
+        </View>
+      )}
       {breakFast && (
         <View style={{ flexDirection: 'row', alignItems: 'center', gap: 10, paddingHorizontal: 14, paddingVertical: 10, borderTopWidth: 1, borderColor: theme.cardBorder }}>
           <Ionicons name="restaurant-outline" size={18} color={theme.accent} />

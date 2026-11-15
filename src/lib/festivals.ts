@@ -293,6 +293,8 @@ interface TithiRule {
   prefer?: 'first' | 'second';
   textId?: string;
   note?: string;
+  /** Kept by Mādhvas only (ārādhanās of the maṭha's yatis and dāsas); hidden under the Smārta rule. */
+  madhvaOnly?: boolean;
 }
 
 // masa: 0 Caitra, 1 Vaiśākha, 2 Jyeṣṭha, 3 Āṣāḍha, 4 Śrāvaṇa, 5 Bhādrapada, 6 Āśvayuja,
@@ -333,10 +335,101 @@ const RULES: TithiRule[] = [
   { key: 'madhva-navami', name: 'मध्वनवमी', en: 'Madhva Navamī', masa: 10, tithi: 9, kala: 'udaya', textId: 'dvadasha-stotra-01' },
   { key: 'maha-shivaratri', name: 'महाशिवरात्रि', en: 'Mahāśivarātri', masa: 10, tithi: 29, kala: 'nishitha', textId: 'lingashtakam' },
   { key: 'holika', name: 'होलिका · कामदहन', en: 'Holikā dahana · Kāma dahana (Phālguna pūrṇimā)', masa: 11, tithi: 15, kala: 'pradosha', note: 'Pūrṇimā at pradoṣa, avoiding bhadrā (viṣṭi karaṇa): see holikaDay. Rangavalī Holī (colours) is the next day.' },
+  ...madhvaRules(),
 ];
 
+/**
+ * Mādhva observances listed month by month on madhwafestivals.com, each tithi confirmed by a
+ * maṭha pañcāṅga: the Uttarādi Maṭha Viśvāvasu 2025–26 pañcāṅga (Los Angeles edition) and the
+ * Rāghavendra Maṭha Mantrālaya Parābhava 2026–27 pañcāṅga (scripts/test-panchanga.ts). Ārādhanās
+ * (puṇyadinas) are kept on the day the tithi prevails at sunrise, as both pañcāṅgas date them;
+ * maṭhas add a pūrva-ārādhanā the day before and an uttara-ārādhanā the day after.
+ */
+function madhvaRules(): TithiRule[] {
+  const ar = (key: string, name: string, en: string, masa: number, tithi: number, note: string, textId?: string): TithiRule =>
+    ({ key, name: `${name} आराधना`, en: `${en} Ārādhanā`, masa, tithi, kala: 'udaya', textId, note, madhvaOnly: true });
+  return [
+    { key: 'matsya-jayanti', name: 'मत्स्यजयन्ती', en: 'Matsya Jayantī', masa: 0, tithi: 3, kala: 'udaya', note: 'Caitra śukla tṛtīyā (also Saubhāgya / Āndolikā Gaurī vrata).' },
+    { key: 'ganga-dasara', name: 'गङ्गावतरणम् · दशहरा', en: 'Gaṅgāvataraṇa · Gaṅgā Daśaharā (Bhāgīrathī Jayantī)', masa: 2, tithi: 10, kala: 'udaya', note: 'Jyeṣṭha śukla daśamī, the day Gaṅgā descended; the ten-day Daśaharā river-bathing vrata ends this day.' },
+    { key: 'mannettina-amavasya', name: 'मण्णेत्तिन अमावास्या', en: 'Maṇṇettina Amāvāsyā (Jyeṣṭha amāvāsyā)', masa: 2, tithi: 30, kala: 'udaya', note: 'Karnataka: clay bulls (basava) are worshipped by the farmers and children.' },
+    { key: 'bheemana-amavasya', name: 'भीमन अमावास्या · दीपस्तम्भपूजा', en: 'Bhīmana Amāvāsyā · Dīpastambha pūjā (Āṣāḍha amāvāsyā)', masa: 3, tithi: 30, kala: 'udaya', note: 'Karnataka: Jyoti-Bhīmeśvara (Dīpastambha Gaurī) vrata, kept by women for their husbands and brothers.' },
+    { key: 'naga-chaturthi', name: 'नागचतुर्थी', en: 'Nāga Caturthī', masa: 4, tithi: 4, kala: 'udaya', note: 'Śrāvaṇa śukla caturthī, the day before Nāga Pañcamī (Dūrvā-Gaṇapati vrata).' },
+    { key: 'rishi-panchami', name: 'ऋषिपञ्चमी', en: 'Ṛṣi Pañcamī', masa: 5, tithi: 5, kala: 'madhyahna', note: 'Bhādrapada śukla pañcamī, kept on the day pañcamī prevails at midday.' },
+    { key: 'vamana-jayanti', name: 'वामनजयन्ती', en: 'Vāmana Jayantī', masa: 5, tithi: 12, kala: 'udaya', note: 'Bhādrapada śukla dvādaśī (Śravaṇa dvādaśī), the day after Parivartinī ekādaśī.' },
+    { key: 'jalapurana-trayodashi', name: 'जलपूरणत्रयोदशी · धनत्रयोदशी', en: 'Jalapūraṇa (Dhana) Trayodaśī', masa: 6, tithi: 28, kala: 'udaya', note: 'Āśvayuja kṛṣṇa trayodaśī at sunrise, as in the maṭha pañcāṅgas: the vessels are filled with water for the next morning’s abhyaṅga snāna; Yama-dīpa is lit at dusk. North-Indian calendars keep Dhanteras on the day trayodaśī prevails at pradoṣa, which can be the day before.' },
+    { key: 'yama-dvitiya', name: 'यमद्वितीया · भगिनीहस्तभोजनम्', en: 'Yama Dvitīyā · Bhaginī-hasta bhojana', masa: 7, tithi: 2, kala: 'udaya', note: 'Kārtika śukla dvitīyā: brothers take a meal from their sister’s hand.' },
+    { key: 'subrahmanya-shashti', name: 'सुब्रह्मण्यषष्ठी', en: 'Subrahmaṇya (Skanda / Campā) Ṣaṣṭhī', masa: 8, tithi: 6, kala: 'udaya' },
+    { key: 'bhishmashtami', name: 'भीष्माष्टमी', en: 'Bhīṣmāṣṭamī', masa: 10, tithi: 8, kala: 'udaya', textId: 'bhishma-stuti', note: 'Māgha śukla aṣṭamī, the day Bhīṣma gave up his body; tarpaṇa to Bhīṣma.' },
+    { key: 'vadiraja-jayanti', name: 'श्रीवादिराजजयन्ती', en: 'Śrī Vādirāja Jayantī', masa: 10, tithi: 12, kala: 'udaya', madhvaOnly: true, textId: 'lakshmi-shobhane', note: 'Birthday of Śrī Vādirāja Tīrtha (Hūvinakere), Māgha śukla dvādaśī (Bhīma dvādaśī).' },
+    // Ārādhanās of yatis
+    ar('padmanabha-tirtha-aradhana', 'श्रीपद्मनाभतीर्थ', 'Śrī Padmanābha Tīrtha', 7, 29, 'Kārtika kṛṣṇa caturdaśī; Nava Bṛndāvana, Ānegondi.'),
+    ar('narahari-tirtha-aradhana', 'श्रीनरहरितीर्थ', 'Śrī Narahari Tīrtha', 9, 22, 'Puṣya kṛṣṇa saptamī; Cakratīrtha, Hampi.'),
+    ar('jayatirtha-aradhana', 'श्रीजयतीर्थ', 'Śrī Jayatīrtha (Ṭīkācārya)', 3, 20, 'Āṣāḍha kṛṣṇa pañcamī; Malkhed (the Rāghavendra Maṭha pañcāṅga names Gajagahvara, Ānegondi).'),
+    ar('sripadaraja-aradhana', 'श्रीश्रीपादराज', 'Śrī Śrīpādarāja', 2, 14, 'Jyeṣṭha śukla caturdaśī; Narasiṃha Tīrtha, Mulbāgal.', 'dasara-pada-bhushanake-bhushana'),
+    ar('vyasaraja-aradhana', 'श्रीव्यासराज', 'Śrī Vyāsarāja (Vyāsatīrtha)', 11, 19, 'Phālguna kṛṣṇa caturthī; Nava Bṛndāvana, Ānegondi.', 'yantrodharaka-hanuman-stotra'),
+    ar('vadiraja-aradhana', 'श्रीवादिराज', 'Śrī Vādirāja', 11, 18, 'Phālguna kṛṣṇa tṛtīyā; Sode (Sonda).', 'dashavatara-stuti'),
+    ar('vijayeendra-aradhana', 'श्रीविजयीन्द्रतीर्थ', 'Śrī Vijayīndra Tīrtha', 2, 28, 'Jyeṣṭha kṛṣṇa trayodaśī; Kumbhakonam.'),
+    // Ārādhanās of Haridāsas
+    ar('mohana-dasa-aradhana', 'श्रीमोहनदास', 'Śrī Mohana Dāsa', 2, 6, 'Jyeṣṭha śukla ṣaṣṭhī; Chippagiri.'),
+    ar('jagannatha-dasa-aradhana', 'श्रीजगन्नाथदास', 'Śrī Jagannātha Dāsa', 5, 9, 'Bhādrapada śukla navamī; Mānvi. Author of the Harikathāmṛtasāra.', 'harikathamrutasara-01'),
+    ar('prasanna-venkata-dasa-aradhana', 'श्रीप्रसन्नवेङ्कटदास', 'Śrī Prasanna Veṅkaṭa Dāsa', 5, 12, 'Bhādrapada śukla dvādaśī (Vāmana Jayantī); Bādāmi.'),
+    ar('pranesha-dasa-aradhana', 'श्रीप्राणेशदास', 'Śrī Prāṇeśa Dāsa', 6, 7, 'Āśvayuja śukla saptamī; Liṅgasugūru.'),
+    ar('vijaya-dasa-aradhana', 'श्रीविजयदास', 'Śrī Vijaya Dāsa', 7, 10, 'Kārtika śukla daśamī; Chippagiri.', 'dasara-pada-ninna-olumeyinda'),
+    ar('mahipati-dasa-aradhana', 'श्रीमहीपतिदास', 'Śrī Mahīpati Dāsa', 7, 30, 'Kārtika amāvāsyā; Kākhaṇḍaki.'),
+    ar('gopala-dasa-aradhana', 'श्रीगोपालदास', 'Śrī Gopāla Dāsa', 9, 23, 'Puṣya kṛṣṇa aṣṭamī; Uttanūru.'),
+    ar('purandara-dasa-aradhana', 'श्रीपुरन्दरदास', 'Śrī Purandara Dāsa', 9, 30, 'Puṣya amāvāsyā; Hampi.', 'dasara-pada-jagadoddharana'),
+    { key: 'kanakadasa-jayanti', name: 'कनकदासजयन्ती', en: 'Kanaka Dāsa Jayantī', masa: 7, tithi: 18, kala: 'udaya', textId: 'dasara-pada-bagilanu-teredu', note: 'Birthday of Śrī Kanaka Dāsa (Kāginele), Kārtika kṛṣṇa tṛtīyā; a Karnataka state holiday. The date of his ārādhanā is not known.' },
+  ];
+}
+
+/**
+ * Multi-day Mādhva observances (madhwafestivals.com; Uttarādi and Rāghavendra maṭha
+ * pañcāṅgas): the snāna months and the four vratas of Cāturmāsya. The vratas begin on the
+ * ekādaśī fast (by `rule`) and run to the daśamī before the next month's śukla ekādaśī.
+ */
+function madhvaPeriods(city: City, jdFrom: number, jdTo: number, y0: number, y1: number, rule: EkadashiRule, start: SauraStart): Festival[] {
+  const out: Festival[] = [];
+  const ls = lunationsBetween(jdFrom - 130, jdTo + 40).filter((l) => !l.adhika);
+  const purnima = (l: LunarMonth) => observanceDay(city, tithiStart(l, 15), tithiEnd(l, 15), 'udaya');
+  const ekadashi = (l: LunarMonth) => (rule === 'smarta' ? ekadashiDates(city, l, 11).smarta : ekadashiDates(city, l, 11).madhva);
+  const SNANA: [number, string, string, string, string][] = [
+    [0, 'vaishakha-snana', 'वैशाखस्नानम्', 'Vaiśākha snāna (month of early-morning bathing)', 'Caitra pūrṇimā → Vaiśākha pūrṇimā: bath before sunrise with saṅkalpa and arghya.'],
+    [6, 'kartika-snana', 'कार्तिकस्नानम्', 'Kārtika snāna (month of early-morning bathing)', 'Āśvayuja pūrṇimā → Kārtika pūrṇimā: bath before sunrise with saṅkalpa and arghya to Dāmodara; lamps are offered through the month.'],
+    [9, 'magha-snana', 'माघस्नानम्', 'Māgha snāna (month of early-morning bathing)', 'Puṣya pūrṇimā → Māgha pūrṇimā: bath before sunrise with saṅkalpa and arghya to Mādhava.'],
+  ];
+  const VRATA: [number, string, string, string, string][] = [
+    [3, 'shaka-vrata', 'शाकव्रतम्', 'Cāturmāsya 1 · Śāka vrata', 'First month of Cāturmāsya, from Śayanī ekādaśī (taptamudrā-dhāraṇa on the dvādaśī): vegetables, leafy greens and fruits are given up, as the maṭha prescribes.'],
+    [4, 'dadhi-vrata', 'दधिव्रतम्', 'Cāturmāsya 2 · Dadhi vrata', 'Second month of Cāturmāsya, from Śrāvaṇa śukla ekādaśī: curd is given up.'],
+    [5, 'kshira-vrata', 'क्षीरव्रतम्', 'Cāturmāsya 3 · Kṣīra vrata', 'Third month of Cāturmāsya, from Bhādrapada śukla ekādaśī: milk is given up.'],
+    [6, 'dvidala-vrata', 'द्विदलव्रतम्', 'Cāturmāsya 4 · Dvidala vrata', 'Last month of Cāturmāsya, from Āśvayuja śukla ekādaśī: pulses (grains that split in two) are given up. Cāturmāsya is concluded with the pāraṇa on Uttāna dvādaśī.'],
+  ];
+  ls.forEach((l, i) => {
+    const next = ls[i + 1];
+    if (!next) return;
+    for (const [m, key, name, en, note] of SNANA) {
+      if (l.masa === m) out.push({ date: purnima(l), endDate: purnima(next), key, name, en, kind: 'period', calendar: 'chandra', textId: 'snana-vidhi', note });
+    }
+    for (const [m, key, name, en, note] of VRATA) {
+      if (l.masa === m) out.push({ date: ekadashi(l), endDate: addDays(ekadashi(next), -1), key, name, en, kind: 'period', calendar: 'chandra', textId: 'ekadashi-vrata', note });
+    }
+  });
+  for (let y = y0; y <= y1; y++) {
+    out.push({
+      date: sauraMonthStart(city, y, 6, start), endDate: addDays(sauraMonthStart(city, y, 7, start), -1), key: 'tula-snana', name: 'तुलास्नानम्',
+      en: 'Tulā snāna (solar month Tulā)', kind: 'period', calendar: 'saura', textId: 'snana-vidhi',
+      note: 'While the Sun is in Tulā: bath before sunrise, above all in the Kāverī (Tulā-Kāverī snāna).',
+    });
+    out.push({
+      date: sauraMonthStart(city, y, 8, start), endDate: addDays(sauraMonthStart(city, y + 1, 9, start), -1), key: 'dhanurmasa', name: 'धनुर्मासः',
+      en: 'Dhanurmāsa (solar month Dhanus)', kind: 'period', calendar: 'saura',
+      note: 'While the Sun is in Dhanus: pūjā to Lakṣmī-Nārāyaṇa before sunrise with an offering of huggi (rice and moong dal); ends the day before Makara saṅkrānti.',
+    });
+  }
+  return out;
+}
+
 /** All rule ids that link to a library text (checked by the tests). */
-export const LINKED_TEXT_IDS = [...new Set([...RULES.map((r) => r.textId), 'vishnu-sahasranama', 'sumadhva-vijaya-01', 'mahalakshmi-ashtakam'].filter(Boolean))] as string[];
+export const LINKED_TEXT_IDS = [...new Set([...RULES.map((r) => r.textId), 'vishnu-sahasranama', 'sumadhva-vijaya-01', 'mahalakshmi-ashtakam', 'snana-vidhi', 'ekadashi-vrata'].filter(Boolean))] as string[];
 
 // ---------- assembling ----------
 
@@ -478,6 +571,7 @@ function festivalsIn(city: City, from: string, to: string, rule: EkadashiRule, m
 
     for (const r of RULES) {
       if (r.masa !== l.masa) continue;
+      if (r.madhvaOnly && rule === 'smarta') continue;
       if (l.adhika) continue; // festivals fall in the nija month (Yugādi 2029: 14 Apr, after adhika Caitra)
       const s = tithiStart(l, r.tithi);
       const e = tithiEnd(l, r.tithi);
@@ -519,6 +613,7 @@ function festivalsIn(city: City, from: string, to: string, rule: EkadashiRule, m
     }
   }
   if (mode === 'saura') out.push(...udupiFestivals(city, jdFrom, jdTo, y0 - 1, y1 + 1, start));
+  out.push(...madhvaPeriods(city, jdFrom, jdTo, y0 - 1, y1, rule, start));
 
   const res = out
     .filter((f) => f.date <= to && (f.endDate ?? f.date) >= from)

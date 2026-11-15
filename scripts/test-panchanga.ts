@@ -227,9 +227,13 @@ const FESTIVALS: [string, string][] = [
     assert.ok(found.includes(date), `${key}: want ${date}, got ${found.join(',') || 'none'}`);
     checks++;
   }
-  // The same dates with the Mādhva rule (only the ekādaśīs differ).
+  // The same dates with the Mādhva rule (only the ekādaśīs differ), which also adds the
+  // ārādhanās of the Mādhva yatis and dāsas (Rāghavendra's is kept under both rules).
   const md = festivalsBetween(blr, '2027-01-01', '2027-12-31', 'madhva');
-  assert.deepEqual(md.filter((f) => f.kind !== 'ekadashi').map((f) => `${f.key} ${f.date}`), fs.filter((f) => f.kind !== 'ekadashi').map((f) => `${f.key} ${f.date}`));
+  const madhvaOnly = (k: string) => (k.endsWith('-aradhana') && k !== 'raghavendra-aradhana') || k === 'vadiraja-jayanti';
+  assert.ok(md.some((f) => f.key === 'vyasaraja-aradhana') && !fs.some((f) => f.key === 'vyasaraja-aradhana'));
+  assert.ok(fs.some((f) => f.key === 'raghavendra-aradhana'));
+  assert.deepEqual(md.filter((f) => f.kind !== 'ekadashi' && !madhvaOnly(f.key)).map((f) => `${f.key} ${f.date}`), fs.filter((f) => f.kind !== 'ekadashi').map((f) => `${f.key} ${f.date}`));
   // All 25 ekādaśīs of 2027: Smārta, and drik's Gauṇa / Vaiṣṇava dates where they differ.
   const SM = '01-03 01-18 02-02 02-17 03-04 03-18 04-02 04-17 05-02 05-16 06-01 06-14 06-30 07-14 07-29 08-12 08-28 09-11 09-26 10-11 10-25 11-10 11-24 12-09 12-23';
   const VAI: Record<string, string> = { '01-18': '01-19', '07-29': '07-30', '10-25': '10-26' };
@@ -335,7 +339,7 @@ const DAYS: [string, string, string, string, string, string, string, string, str
   const dir = join(__dirname, '../src/data/texts');
   const ids = new Set(
     readdirSync(dir).filter((f) => f.endsWith('.ts'))
-      .flatMap((f) => [...readFileSync(join(dir, f), 'utf8').matchAll(/^\s*id: '([^']+)'/gm)].map((m) => m[1])),
+      .flatMap((f) => [...readFileSync(join(dir, f), 'utf8').matchAll(/^\s*id: ['"]([^'"]+)['"]/gm)].map((m) => m[1])),
   );
   for (const id of LINKED_TEXT_IDS) { assert.ok(ids.has(id), `linked text ${id} exists`); checks++; }
 }
@@ -574,6 +578,49 @@ const PARANA: Record<string, string[]> = {
   assert.ok(list.every((e) => e.parana.date === addDaysIso(e.date, 1) && e.parana.start < e.parana.end));
   checks += 12;
   console.log(`pāraṇa: worst offset vs drik ${worstParana} min`);
+}
+
+// ---- Mādhva observances (madhwafestivals.com month lists) against the Rāghavendra Maṭha
+// Mantrālaya Parābhava 2026–27 pañcāṅga (Sūrya Siddhānta, read from its monthly pages) and the
+// Uttarādi Maṭha Viśvāvasu 2025–26 pañcāṅga (Los Angeles edition, Sūrya Siddhānta) ----
+{
+  const MANTRALAYA: [string, string, string?][] = [
+    ['matsya-jayanti', '2026-03-21'], ['vaishakha-snana', '2026-04-02'], ['ganga-dasara', '2026-06-24'], ['sripadaraja-aradhana', '2026-06-28'],
+    ['vijayeendra-aradhana', '2026-07-12'], ['mannettina-amavasya', '2026-07-14'], ['shaka-vrata', '2026-07-25', '2026-08-22'],
+    ['jayatirtha-aradhana', '2026-08-03'], ['bheemana-amavasya', '2026-08-12'], ['naga-chaturthi', '2026-08-16'], ['dadhi-vrata', '2026-08-23'],
+    ['rishi-panchami', '2026-09-15'], ['jagannatha-dasa-aradhana', '2026-09-20'], ['kshira-vrata', '2026-09-22'], ['vamana-jayanti', '2026-09-23'],
+    ['pranesha-dasa-aradhana', '2026-10-17'], ['dvidala-vrata', '2026-10-22'], ['kartika-snana', '2026-10-26', '2026-11-24'],
+    ['jalapurana-trayodashi', '2026-11-07'], ['yama-dvitiya', '2026-11-11'], ['vijaya-dasa-aradhana', '2026-11-19'],
+    ['padmanabha-tirtha-aradhana', '2026-12-07'], ['subrahmanya-shashti', '2026-12-15'], ['dhanurmasa', '2026-12-17', '2027-01-14'],
+    ['magha-snana', '2027-01-22', '2027-02-20'], ['narahari-tirtha-aradhana', '2027-01-29'], ['gopala-dasa-aradhana', '2027-01-30'],
+    ['purandara-dasa-aradhana', '2027-02-06'], ['bhishmashtami', '2027-02-14'], ['vadiraja-aradhana', '2027-03-25'], ['vyasaraja-aradhana', '2027-03-26'],
+  ];
+  const fs = festivalsBetween(cityById('mantralayam'), '2026-03-15', '2027-04-05', 'madhva', 'chandra', 'next', 'surya');
+  for (const [key, date, end] of MANTRALAYA) {
+    const f = fs.find((x) => x.key === key && x.date === date);
+    assert.ok(f, `${key}: want ${date}, got ${fs.filter((x) => x.key === key).map((x) => x.date).join(',') || 'none'}`);
+    if (end) assert.equal(f.endDate, end, `${key} ends`);
+    checks++;
+  }
+  // Uttarādi Maṭha, Los Angeles 2025–26 (local dates).
+  const UTTARADI: [string, string][] = [
+    ['mohana-dasa-aradhana', '2025-06-01'], ['sripadaraja-aradhana', '2025-06-09'], ['vijayeendra-aradhana', '2025-06-23'], ['shaka-vrata', '2025-07-06'],
+    ['jayatirtha-aradhana', '2025-07-15'], ['jagannatha-dasa-aradhana', '2025-09-01'], ['prasanna-venkata-dasa-aradhana', '2025-09-04'],
+    ['dvidala-vrata', '2025-10-02'], ['kartika-snana', '2025-10-06'], ['jalapurana-trayodashi', '2025-10-18'], ['vijaya-dasa-aradhana', '2025-10-31'],
+    ['kanakadasa-jayanti', '2025-11-07'], ['padmanabha-tirtha-aradhana', '2025-11-18'], ['mahipati-dasa-aradhana', '2025-11-19'],
+    ['magha-snana', '2026-01-02'], ['narahari-tirtha-aradhana', '2026-01-09'], ['gopala-dasa-aradhana', '2026-01-10'], ['purandara-dasa-aradhana', '2026-01-18'],
+    ['bhishmashtami', '2026-01-25'], ['vadiraja-jayanti', '2026-01-29'], ['vadiraja-aradhana', '2026-03-05'], ['vyasaraja-aradhana', '2026-03-06'],
+  ];
+  const la = festivalsBetween(cityById('los-angeles'), '2025-05-01', '2026-03-31', 'madhva', 'chandra', 'next', 'surya');
+  for (const [key, date] of UTTARADI) {
+    assert.ok(la.some((x) => x.key === key && x.date === date), `LA ${key}: want ${date}, got ${la.filter((x) => x.key === key).map((x) => x.date).join(',') || 'none'}`);
+    checks++;
+  }
+  // Cāturmāsya: the dvidala vrata ends the day before the Prabodhinī fast (Mādhva rule, Bengaluru 2026).
+  const md = festivalsBetween(blr, '2026-10-01', '2026-11-30', 'madhva');
+  const prab = md.find((f) => f.kind === 'ekadashi' && f.en.startsWith('Prabodhinī'))!;
+  assert.equal(md.find((f) => f.key === 'dvidala-vrata')!.endDate, addDaysIso(prab.date, -1));
+  checks++;
 }
 
 {
