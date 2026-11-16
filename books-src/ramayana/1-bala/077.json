@@ -20,119 +20,235 @@
       "verses": [
         {
           "n": 1,
-          "text": "गते रामे प्रशान्तात्मा रामो दाशरथिर्धनुः ।\nवरुणायाप्रमेयाय ददौ हस्ते महायशाः ॥"
+          "text": "गते रामे प्रशान्तात्मा रामो दाशरथिर्धनुः ।\nवरुणायाप्रमेयाय ददौ हस्ते महायशाः ॥",
+          "meaning": {
+            "en": "When Rama of the Bhrigus had gone, Rama, son of Dasharatha, calm in spirit and very renowned, gave the bow into the hand of the immeasurable Varuna.",
+            "kn": "ಭಾರ್ಗವ ರಾಮನು ಹೋದ ಮೇಲೆ ಪ್ರಶಾಂತಚಿತ್ತ, ಮಹಾಕೀರ್ತಿವಂತ ದಾಶರಥಿ ರಾಮನು ಧನುಸ್ಸನ್ನು ಅಪ್ರಮೇಯನಾದ ವರುಣನ ಕೈಯಲ್ಲಿ ಕೊಟ್ಟನು."
+          }
         },
         {
           "n": 2,
-          "text": "अभिवाद्य ततो रामो वसिष्ठप्रमुखानृषीन् ।\nपितरं विकलं दृष्ट्वा प्रोवाच रघुनन्दनः ॥"
+          "text": "अभिवाद्य ततो रामो वसिष्ठप्रमुखानृषीन् ।\nपितरं विकलं दृष्ट्वा प्रोवाच रघुनन्दनः ॥",
+          "meaning": {
+            "en": "Then Rama, delight of the Raghus, saluted the sages headed by Vasishtha, and seeing his father shaken, said:",
+            "kn": "ಬಳಿಕ ರಘುನಂದನ ರಾಮನು ವಸಿಷ್ಠ ಮುಖ್ಯ ಋಷಿಗಳಿಗೆ ನಮಸ್ಕರಿಸಿ ತಂದೆ ವಿಕಲನಾಗಿರುವುದನ್ನು ಕಂಡು ಹೇಳಿದನು:"
+          }
         },
         {
           "n": 3,
-          "text": "जामदग्न्यो गतो रामः प्रयातु चतुरङ्गिणी ।\nअयोध्याभिमुखी सेना त्वया नाथेन पालिता ॥"
+          "text": "जामदग्न्यो गतो रामः प्रयातु चतुरङ्गिणी ।\nअयोध्याभिमुखी सेना त्वया नाथेन पालिता ॥",
+          "meaning": {
+            "en": "\"Jamadagni's son Rama has gone. Let the fourfold army, protected by you as lord, march towards Ayodhya.\"",
+            "kn": "\"ಜಾಮದಗ್ನ್ಯ ರಾಮನು ಹೋದನು. ನಿಮ್ಮಂತಹ ಒಡೆಯನಿಂದ ರಕ್ಷಿತವಾದ ಚತುರಂಗ ಸೇನೆ ಅಯೋಧ್ಯೆಯ ಕಡೆಗೆ ಹೊರಡಲಿ.\""
+          }
         },
         {
           "n": 4,
-          "text": "रामस्य वचनं श्रुत्वा राजा दशरथः सुतम् ।\nबाहुभ्यां सम्परिष्वज्य मूर्ध्न्युपाघ्राय राघवम् ॥"
+          "text": "रामस्य वचनं श्रुत्वा राजा दशरथः सुतम् ।\nबाहुभ्यां सम्परिष्वज्य मूर्ध्न्युपाघ्राय राघवम् ॥",
+          "meaning": {
+            "en": "Hearing Rama's words, King Dasharatha embraced his son with both arms and smelled Raghava's head.",
+            "kn": "ರಾಮನ ಮಾತನ್ನು ಕೇಳಿ ರಾಜ ದಶರಥನು ಮಗ ರಾಘವನನ್ನು ಎರಡು ತೋಳುಗಳಿಂದ ಅಪ್ಪಿಕೊಂಡು ಅವನ ನೆತ್ತಿಯನ್ನು ಆಘ್ರಾಣಿಸಿದನು."
+          }
         },
         {
           "n": 5,
-          "text": "गतो राम इति श्रुत्वा हृष्टः प्रमुदितो नृपः ।\nपुनर्जातं तदा मेने पुत्रमात्मानमेव च ॥"
+          "text": "गतो राम इति श्रुत्वा हृष्टः प्रमुदितो नृपः ।\nपुनर्जातं तदा मेने पुत्रमात्मानमेव च ॥",
+          "meaning": {
+            "en": "Hearing that Rama had gone, the king was glad and delighted, and then thought both his son and himself born again.",
+            "kn": "ಭಾರ್ಗವ ರಾಮ ಹೋದನೆಂದು ಕೇಳಿ ರಾಜನು ಹರ್ಷಗೊಂಡು ಸಂತೋಷಪಟ್ಟನು; ಮಗನೂ ತಾನೂ ಮರುಹುಟ್ಟು ಪಡೆದಂತೆ ಭಾವಿಸಿದನು."
+          }
         },
         {
           "n": 6,
-          "text": "चोदयामास तां सेनां जगामाशु ततः पुरीम् ।\nपताकाध्वजिनीं रम्यां तूर्योद्घुष्टनिनादिताम् ॥"
+          "text": "चोदयामास तां सेनां जगामाशु ततः पुरीम् ।\nपताकाध्वजिनीं रम्यां तूर्योद्घुष्टनिनादिताम् ॥",
+          "meaning": {
+            "en": "He urged on that army and then quickly went to the city, lovely with banners and flags, resounding with the sound of trumpets,",
+            "kn": "ಅವನು ಆ ಸೇನೆಯನ್ನು ಮುನ್ನಡೆಸಿ ಬೇಗ ಪುರಕ್ಕೆ ಹೋದನು; ಅದು ಪತಾಕೆ ಧ್ವಜಗಳಿಂದ ರಮ್ಯ, ತುತ್ತೂರಿಗಳ ಘೋಷದಿಂದ ಮೊಳಗುತ್ತಿತ್ತು,"
+          }
         },
         {
           "n": 7,
-          "text": "सिक्तराजपथारम्यां प्रकीर्णकुसुमोत्कराम् ।\nराजप्रवेशसुमुखैः पौरैर्मङ्गलपाणिभिः ॥"
+          "text": "सिक्तराजपथारम्यां प्रकीर्णकुसुमोत्कराम् ।\nराजप्रवेशसुमुखैः पौरैर्मङ्गलपाणिभिः ॥",
+          "meaning": {
+            "en": "with royal roads sprinkled and lovely, strewn with heaps of flowers, and with citizens, their faces eager for the king's entry, holding auspicious things in their hands,",
+            "kn": "ಸಿಂಪಡಿಸಿದ ರಾಜಮಾರ್ಗಗಳಿಂದ ಸುಂದರ, ಹೂವುಗಳ ರಾಶಿ ಚೆಲ್ಲಿದ, ರಾಜನ ಪ್ರವೇಶಕ್ಕಾಗಿ ಸಂತೋಷ ಮುಖದ, ಕೈಯಲ್ಲಿ ಮಂಗಳ ವಸ್ತುಗಳನ್ನು ಹಿಡಿದ ಪೌರರಿಂದ ಕೂಡಿತ್ತು,"
+          }
         },
         {
           "n": 8,
-          "text": "सम्पूर्णां प्राविशद् राजा जनौघैः समलङ्कृताम् ।\nपौरैः प्रत्युद्गतो दूरं द्विजैश्च पुरवासिभिः ॥"
+          "text": "सम्पूर्णां प्राविशद् राजा जनौघैः समलङ्कृताम् ।\nपौरैः प्रत्युद्गतो दूरं द्विजैश्च पुरवासिभिः ॥",
+          "meaning": {
+            "en": "full of throngs of people, beautifully adorned; the king entered it, met from afar by citizens and by brahmins who lived in the city.",
+            "kn": "ಜನಸಮೂಹಗಳಿಂದ ತುಂಬಿ ಚೆನ್ನಾಗಿ ಅಲಂಕೃತವಾಗಿತ್ತು; ದೂರದಿಂದಲೇ ಪೌರರು ಮತ್ತು ಪುರವಾಸಿ ಬ್ರಾಹ್ಮಣರು ಎದುರುಗೊಳ್ಳಲು ರಾಜನು ಪ್ರವೇಶಿಸಿದನು."
+          }
         },
         {
           "n": 9,
-          "text": "पुत्रैरनुगतः श्रीमान् श्रीमद्भिश्च महायशाः ।\nप्रविवेश गृहं राजा हिमवत्सदृशं प्रियम् ॥"
+          "text": "पुत्रैरनुगतः श्रीमान् श्रीमद्भिश्च महायशाः ।\nप्रविवेश गृहं राजा हिमवत्सदृशं प्रियम् ॥",
+          "meaning": {
+            "en": "Followed by his sons, the glorious and very renowned king entered his dear palace, which was like the Himalaya.",
+            "kn": "ಶ್ರೀಮಂತ ಮಹಾಕೀರ್ತಿವಂತ ರಾಜನು ಶೋಭಾಯಮಾನ ಮಕ್ಕಳೊಡನೆ ಹಿಮಾಲಯದಂತಿದ್ದ ತನ್ನ ಪ್ರಿಯ ಅರಮನೆಯನ್ನು ಪ್ರವೇಶಿಸಿದನು."
+          }
         },
         {
           "n": 10,
-          "text": "ननन्द स्वजनै राजा गृहे कामैः सुपूजितः ।\nकौसल्या च सुमित्रा च कैकेयी च सुमध्यमा ॥"
+          "text": "ननन्द स्वजनै राजा गृहे कामैः सुपूजितः ।\nकौसल्या च सुमित्रा च कैकेयी च सुमध्यमा ॥",
+          "meaning": {
+            "en": "The king rejoiced with his kinsmen, honoured with every wish fulfilled in his home. Kausalya, Sumitra and the slender-waisted Kaikeyi,",
+            "kn": "ರಾಜನು ಮನೆಯಲ್ಲಿ ಎಲ್ಲ ಇಷ್ಟಗಳಿಂದ ಚೆನ್ನಾಗಿ ಸತ್ಕರಿಸಲ್ಪಟ್ಟು ಸ್ವಜನರೊಡನೆ ಆನಂದಪಟ್ಟನು. ಕೌಸಲ್ಯೆ, ಸುಮಿತ್ರೆ ಮತ್ತು ಸುಮಧ್ಯಮೆ ಕೈಕೇಯಿ,"
+          }
         },
         {
           "n": 11,
-          "text": "वधूप्रतिग्रहे युक्ता याश्चान्या राजयोषितः ।\nततः सीतां महाभागामूर्मिलां च यशस्विनीम् ॥"
+          "text": "वधूप्रतिग्रहे युक्ता याश्चान्या राजयोषितः ।\nततः सीतां महाभागामूर्मिलां च यशस्विनीम् ॥",
+          "meaning": {
+            "en": "and the other royal women who were engaged in receiving the brides, then received the greatly fortunate Sita and the renowned Urmila,",
+            "kn": "ಮತ್ತು ವಧುಗಳನ್ನು ಸ್ವಾಗತಿಸಲು ತೊಡಗಿದ ಇತರ ರಾಜಸ್ತ್ರೀಯರು ಮಹಾಭಾಗ್ಯಶಾಲಿ ಸೀತೆಯನ್ನೂ ಯಶಸ್ವಿನಿ ಊರ್ಮಿಳೆಯನ್ನೂ,"
+          }
         },
         {
           "n": 12,
-          "text": "कुशध्वजसुते चोभे जगृहुर्नृपयोषितः ।\nमङ्गलालापनैर्होमैः शोभिताः क्षौमवाससः ॥"
+          "text": "कुशध्वजसुते चोभे जगृहुर्नृपयोषितः ।\nमङ्गलालापनैर्होमैः शोभिताः क्षौमवाससः ॥",
+          "meaning": {
+            "en": "and also the two daughters of Kushadhvaja, the king's wives, adorned with auspicious conversation and offerings, clothed in linen,",
+            "kn": "ಮತ್ತು ಕುಶಧ್ವಜನ ಇಬ್ಬರು ಮಕ್ಕಳನ್ನೂ ಸ್ವೀಕರಿಸಿದರು; ಮಂಗಳ ಸಂಭಾಷಣೆ ಮತ್ತು ಹೋಮಗಳಿಂದ ಶೋಭಿತರಾಗಿ, ರೇಷ್ಮೆ ವಸ್ತ್ರ ಧರಿಸಿ,"
+          }
         },
         {
           "n": 13,
-          "text": "देवतायतनान्याशु सर्वास्ताः प्रत्यपूजयन् ।\nअभिवाद्याभिवाद्यांश्च सर्वा राजसुतास्तदा ॥"
+          "text": "देवतायतनान्याशु सर्वास्ताः प्रत्यपूजयन् ।\nअभिवाद्याभिवाद्यांश्च सर्वा राजसुतास्तदा ॥",
+          "meaning": {
+            "en": "and all of them quickly worshipped at every shrine of the gods. Greeting those to be greeted, all the princesses then",
+            "kn": "ಅವರೆಲ್ಲರೂ ದೇವಾಲಯಗಳೆಲ್ಲದರಲ್ಲಿ ಬೇಗ ಪೂಜೆ ಮಾಡಿದರು. ನಮಸ್ಕರಿಸಬೇಕಾದವರಿಗೆ ನಮಸ್ಕರಿಸಿ ಎಲ್ಲ ರಾಜಕುಮಾರಿಯರೂ ಆಗ"
+          }
         },
         {
           "n": 14,
-          "text": "रेमिरे मुदिताः सर्वा भर्तृभिर्मुदिता रहः ।\nकृतदाराः कृतास्त्राश्च सधनाः ससुहृज्जनाः ॥"
+          "text": "रेमिरे मुदिताः सर्वा भर्तृभिर्मुदिता रहः ।\nकृतदाराः कृतास्त्राश्च सधनाः ससुहृज्जनाः ॥",
+          "meaning": {
+            "en": "enjoyed themselves happily in private with their husbands, who now had wives, had learned the use of weapons, and had wealth and friends.",
+            "kn": "ಮದುವೆಯಾದ, ಅಸ್ತ್ರವಿದ್ಯೆ ಕಲಿತ, ಧನ ಮತ್ತು ಮಿತ್ರರುಳ್ಳ ಪತಿಗಳೊಡನೆ ಏಕಾಂತದಲ್ಲಿ ಸಂತೋಷದಿಂದ ರಮಿಸಿದರು."
+          }
         },
         {
           "n": 15,
-          "text": "शुश्रूषमाणाः पितरं वर्तयन्ति नरर्षभाः ।\nकस्यचित्त्वथ कालस्य राजा दशरथः सुतम् ॥"
+          "text": "शुश्रूषमाणाः पितरं वर्तयन्ति नरर्षभाः ।\nकस्यचित्त्वथ कालस्य राजा दशरथः सुतम् ॥",
+          "meaning": {
+            "en": "The bulls among men lived serving their father. Then, after some time, King Dasharatha said to his son",
+            "kn": "ನರರ್ಷಭರು ತಂದೆಯ ಸೇವೆ ಮಾಡುತ್ತಾ ಬಾಳಿದರು. ಸ್ವಲ್ಪ ಕಾಲದ ಬಳಿಕ ರಾಜ ದಶರಥನು ಮಗ"
+          }
         },
         {
           "n": 16,
-          "text": "भरतं कैकयीपुत्रमब्रवीद् रघुनन्दनः ।\nअयं केकयराजस्य पुत्रो वसति पुत्रक ॥"
+          "text": "भरतं कैकयीपुत्रमब्रवीद् रघुनन्दनः ।\nअयं केकयराजस्य पुत्रो वसति पुत्रक ॥",
+          "meaning": {
+            "en": "Bharata, Kaikeyi's son, delight of the Raghus: \"My son, this son of the king of Kekaya has been staying here,",
+            "kn": "ಕೈಕೇಯಿಯ ಮಗ ಭರತನಿಗೆ ಹೇಳಿದನು: \"ಮಗನೇ, ಕೇಕಯ ರಾಜನ ಈ ಮಗನು ಇಲ್ಲಿ ಇದ್ದಾನೆ,"
+          }
         },
         {
           "n": 17,
-          "text": "त्वां नेतुमागतो वीरो युधाजिन्मातुलस्तव ।\nश्रुत्वा दशरथस्यैतद् भरतः कैकयीसुतः ॥"
+          "text": "त्वां नेतुमागतो वीरो युधाजिन्मातुलस्तव ।\nश्रुत्वा दशरथस्यैतद् भरतः कैकयीसुतः ॥",
+          "meaning": {
+            "en": "your maternal uncle, the hero Yudhajit, who came to take you away.\" Hearing this from Dasharatha, Bharata, Kaikeyi's son,",
+            "kn": "ನಿನ್ನ ಮಾವ ವೀರ ಯುಧಾಜಿತ್, ನಿನ್ನನ್ನು ಕರೆದೊಯ್ಯಲು ಬಂದಿದ್ದಾನೆ.\" ದಶರಥನ ಈ ಮಾತು ಕೇಳಿ ಕೈಕೇಯಿಯ ಮಗ ಭರತನು"
+          }
         },
         {
           "n": 18,
-          "text": "गमनायाभिचक्राम शत्रुघ्नसहितस्तदा ।\nआपृच्छ्य पितरं शूरो रामं चाक्लिष्टकारिणम् ॥"
+          "text": "गमनायाभिचक्राम शत्रुघ्नसहितस्तदा ।\nआपृच्छ्य पितरं शूरो रामं चाक्लिष्टकारिणम् ॥",
+          "meaning": {
+            "en": "then made ready to go with Shatrughna, taking leave of his father and of Rama, who did what he did without strain.",
+            "kn": "ಆಗ ಶತ್ರುಘ್ನನೊಡನೆ ಹೊರಡಲು ಸಿದ್ಧನಾದನು; ತಂದೆಯಿಂದಲೂ ಸಹಜ ಕರ್ಮಿ ರಾಮನಿಂದಲೂ ಅನುಮತಿ ಪಡೆದು,"
+          }
         },
         {
           "n": 19,
-          "text": "मातॄश्चापि नरश्रेष्ठः शत्रुघ्नसहितो ययौ ।\nयुधाजित् प्राप्य भरतं सशत्रुघ्नं प्रहर्षितः ॥"
+          "text": "मातॄश्चापि नरश्रेष्ठः शत्रुघ्नसहितो ययौ ।\nयुधाजित् प्राप्य भरतं सशत्रुघ्नं प्रहर्षितः ॥",
+          "meaning": {
+            "en": "The best of men went with Shatrughna, taking leave of his mothers too. Yudhajit, delighted at having got Bharata with Shatrughna,",
+            "kn": "ತಾಯಂದಿರ ಅನುಮತಿಯನ್ನೂ ಪಡೆದು ನರಶ್ರೇಷ್ಠ ಭರತನು ಶತ್ರುಘ್ನನೊಡನೆ ಹೋದನು. ಶತ್ರುಘ್ನ ಸಹಿತ ಭರತನನ್ನು ಪಡೆದು ಹರ್ಷಗೊಂಡ ಯುಧಾಜಿತ್,"
+          }
         },
         {
           "n": 20,
-          "text": "स्वपुरं प्राविशद् वीरः पिता तस्य तुतोष ह ।\nगते च भरते रामो लक्ष्मणश्च महाबलः ॥"
+          "text": "स्वपुरं प्राविशद् वीरः पिता तस्य तुतोष ह ।\nगते च भरते रामो लक्ष्मणश्च महाबलः ॥",
+          "meaning": {
+            "en": "entered his own city, the hero, and his father was pleased. When Bharata had gone, Rama and the mighty Lakshmana",
+            "kn": "ವೀರನಾಗಿ ತನ್ನ ನಗರವನ್ನು ಪ್ರವೇಶಿಸಿದನು; ಅವನ ತಂದೆ ತೃಪ್ತನಾದನು. ಭರತನು ಹೋದ ಮೇಲೆ ರಾಮನೂ ಮಹಾಬಲಿ ಲಕ್ಷ್ಮಣನೂ"
+          }
         },
         {
           "n": 21,
-          "text": "पितरं देवसङ्काशं पूजयामासतुस्तदा ।\nपितुराज्ञां पुरस्कृत्य पौरकार्याणि सर्वशः ॥"
+          "text": "पितरं देवसङ्काशं पूजयामासतुस्तदा ।\nपितुराज्ञां पुरस्कृत्य पौरकार्याणि सर्वशः ॥",
+          "meaning": {
+            "en": "then served their father, who was like a god. Placing their father's command first, Rama",
+            "kn": "ದೇವಸಮಾನ ತಂದೆಯನ್ನು ಆಗ ಸೇವಿಸಿದರು. ತಂದೆಯ ಆಜ್ಞೆಯನ್ನು ಮುಂದಿಟ್ಟುಕೊಂಡು ರಾಮನು"
+          }
         },
         {
           "n": 22,
-          "text": "चकार रामः सर्वाणि प्रियाणि च हितानि च ।\nमातृभ्यो मातृकार्याणि कृत्वा परमयन्त्रितः ॥"
+          "text": "चकार रामः सर्वाणि प्रियाणि च हितानि च ।\nमातृभ्यो मातृकार्याणि कृत्वा परमयन्त्रितः ॥",
+          "meaning": {
+            "en": "did all that was pleasing and beneficial in the affairs of the citizens; and, greatly self-controlled, he did the mothers' tasks for his mothers,",
+            "kn": "ಪೌರರ ಎಲ್ಲ ಕಾರ್ಯಗಳನ್ನೂ ಪ್ರಿಯವಾಗಿಯೂ ಹಿತವಾಗಿಯೂ ಮಾಡಿದನು; ಅತಿ ಸಂಯಮಿಯಾಗಿ ತಾಯಂದಿರ ಕಾರ್ಯಗಳನ್ನು ತಾಯಂದಿರಿಗೆ ಮಾಡಿ,"
+          }
         },
         {
           "n": 23,
-          "text": "गुरूणां गुरुकार्याणि काले कालेऽन्ववैक्षत ।\nएवं दशरथः प्रीतो ब्राह्मणा नैगमास्तथा ॥"
+          "text": "गुरूणां गुरुकार्याणि काले कालेऽन्ववैक्षत ।\nएवं दशरथः प्रीतो ब्राह्मणा नैगमास्तथा ॥",
+          "meaning": {
+            "en": "and at the proper times he looked after the tasks of his elders. Thus Dasharatha was pleased, and the brahmins and townsfolk,",
+            "kn": "ಸರಿಯಾದ ಕಾಲಗಳಲ್ಲಿ ಹಿರಿಯರ ಕಾರ್ಯಗಳನ್ನು ನೋಡಿಕೊಂಡನು. ಹೀಗೆ ದಶರಥನೂ ಬ್ರಾಹ್ಮಣರೂ ವರ್ತಕರೂ ತೃಪ್ತರಾದರು,"
+          }
         },
         {
           "n": 24,
-          "text": "रामस्य शीलवृत्तेन सर्वे विषयवासिनः ।\nतेषामतियशा लोके रामः सत्यपराक्रमः ॥"
+          "text": "रामस्य शीलवृत्तेन सर्वे विषयवासिनः ।\nतेषामतियशा लोके रामः सत्यपराक्रमः ॥",
+          "meaning": {
+            "en": "and all the dwellers of the realm, by Rama's good conduct. Among them Rama, true in prowess, was exceedingly renowned in the world,",
+            "kn": "ರಾಮನ ಶೀಲ ನಡತೆಯಿಂದ ರಾಜ್ಯದ ಎಲ್ಲ ನಿವಾಸಿಗಳೂ. ಸತ್ಯ ಪರಾಕ್ರಮಿ ರಾಮನು ಅವರಲ್ಲಿ ಲೋಕದಲ್ಲಿ ಅತಿ ಕೀರ್ತಿವಂತನಾದನು,"
+          }
         },
         {
           "n": 25,
-          "text": "स्वयम्भूरिव भूतानां बभूव गुणवत्तरः ।\nरामश्च सीतया सार्धं विजहार बहूनृतून् ॥"
+          "text": "स्वयम्भूरिव भूतानां बभूव गुणवत्तरः ।\nरामश्च सीतया सार्धं विजहार बहूनृतून् ॥",
+          "meaning": {
+            "en": "and became more virtuous than any being, like the Self-existent One. And Rama, with Sita, enjoyed himself for many seasons.",
+            "kn": "ಸ್ವಯಂಭುವಿನಂತೆ ಎಲ್ಲ ಜೀವಿಗಳಿಗಿಂತ ಹೆಚ್ಚು ಗುಣವಂತನಾದನು. ರಾಮನು ಸೀತೆಯೊಡನೆ ಅನೇಕ ಋತುಗಳ ಕಾಲ ವಿಹರಿಸಿದನು."
+          }
         },
         {
           "n": 26,
-          "text": "मनस्वी तद्गतमनास्तस्या हृदि समर्पितः ।\nप्रिया तु सीता रामस्य दाराः पितृकृता इति ॥"
+          "text": "मनस्वी तद्गतमनास्तस्या हृदि समर्पितः ।\nप्रिया तु सीता रामस्य दाराः पितृकृता इति ॥",
+          "meaning": {
+            "en": "The thoughtful one, his mind fixed on her, was placed in her heart. Sita was dear to Rama, a wife chosen by his father;",
+            "kn": "ಮನಸ್ವಿಯಾದ ಅವನ ಮನಸ್ಸು ಅವಳಲ್ಲೇ ನೆಟ್ಟಿತ್ತು, ಅವನು ಅವಳ ಹೃದಯದಲ್ಲಿ ನೆಲೆಸಿದ್ದನು. ತಂದೆ ಏರ್ಪಡಿಸಿದ ಪತ್ನಿಯಾದ ಸೀತೆ ರಾಮನಿಗೆ ಪ್ರಿಯಳಾದಳು;"
+          }
         },
         {
           "n": 27,
-          "text": "गुणाद्रूपगुणाच्चापि प्रीतिर्भूयोऽभिवर्धते ।\nतस्याश्च भर्ता द्विगुणं हृदये परिवर्तते ॥"
+          "text": "गुणाद्रूपगुणाच्चापि प्रीतिर्भूयोऽभिवर्धते ।\nतस्याश्च भर्ता द्विगुणं हृदये परिवर्तते ॥",
+          "meaning": {
+            "en": "and through her virtues and the virtue of her beauty his love grew still more. And her husband was doubly present in her heart.",
+            "kn": "ಅವಳ ಗುಣಗಳಿಂದಲೂ ರೂಪಗುಣದಿಂದಲೂ ಪ್ರೀತಿ ಇನ್ನೂ ಹೆಚ್ಚಾಯಿತು. ಅವಳ ಪತಿಯು ಅವಳ ಹೃದಯದಲ್ಲಿ ದ್ವಿಗುಣವಾಗಿ ನೆಲೆಸಿದ್ದನು."
+          }
         },
         {
           "n": 28,
-          "text": "अन्तर्गतमपि व्यक्तमाख्याति हृदयं हृदा ।\nतस्य भूयो विशेषेण मैथिली जनकात्मजा ।\nदेवताभिः समा रूपे सीता श्रीरिव रूपिणी ॥"
+          "text": "अन्तर्गतमपि व्यक्तमाख्याति हृदयं हृदा ।\nतस्य भूयो विशेषेण मैथिली जनकात्मजा ।\nदेवताभिः समा रूपे सीता श्रीरिव रूपिणी ॥",
+          "meaning": {
+            "en": "Heart told heart what was hidden within, and even more so for him was Maithili, Janaka's daughter, in beauty equal to the goddesses, Sita, Shri herself in bodily form.",
+            "kn": "ಒಳಗಿರುವುದನ್ನೂ ಹೃದಯವು ಹೃದಯಕ್ಕೆ ಸ್ಪಷ್ಟವಾಗಿ ಹೇಳುತ್ತಿತ್ತು; ಅವನಿಗೆ ವಿಶೇಷವಾಗಿ ಜನಕನ ಮಗಳು ಮೈಥಿಲಿ, ರೂಪದಲ್ಲಿ ದೇವತೆಗಳಿಗೆ ಸಮಾನ, ಮೂರ್ತಿವೆತ್ತ ಶ್ರೀಯಂತಿರುವ ಸೀತೆ."
+          }
         },
         {
           "n": 29,
-          "text": "तया स राजर्षिसुतोऽभिकामया\nसमेयिवानुत्तमराजकन्यया ।\nअतीव रामः शुशुभे मुदान्वितो\nविभुः श्रिया विष्णुरिवामरेश्वरः ॥"
+          "text": "तया स राजर्षिसुतोऽभिकामया\nसमेयिवानुत्तमराजकन्यया ।\nअतीव रामः शुशुभे मुदान्वितो\nविभुः श्रिया विष्णुरिवामरेश्वरः ॥",
+          "meaning": {
+            "en": "With her, the best of royal daughters, who loved him, Rama, the son of a royal sage, shone exceedingly, full of joy, like the almighty Vishnu, lord of the immortals, with Shri.",
+            "kn": "ಅವನನ್ನು ಪ್ರೀತಿಸುವ ಆ ಉತ್ತಮ ರಾಜಕನ್ಯೆಯೊಡನೆ ರಾಜರ್ಷಿಪುತ್ರ ರಾಮನು ಅತಿಶಯವಾಗಿ ಹರ್ಷದಿಂದ ಶೋಭಿಸಿದನು, ಶ್ರೀಯೊಡನೆ ಅಮರೇಶ್ವರ ವಿಭು ವಿಷ್ಣುವಿನಂತೆ."
+          }
         },
         {
           "text": "इत्यार्षे श्रीमद्रामायणे वाल्मीकीये आदिकाव्ये\nबालकाण्डे सप्तसप्ततितमः सर्गः ॥"
