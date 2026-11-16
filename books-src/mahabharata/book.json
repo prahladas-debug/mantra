@@ -4,7 +4,7 @@
  "titleEn": "Mahabharata",
  "partLabel": "parva",
  "unitLabel": "adhyaya",
- "edition": "Critical Edition of the Mahabharata, Bhandarkar Oriental Research Institute, Pune (1933–1966; general editors V. S. Sukthankar, S. K. Belvalkar, P. L. Vaidya): the constituted text only, 18 parvas, 1,995 adhyayas, without the star passages and appendices of the apparatus. The Harivamsha (a khila, edited separately) is not included. Text from the BORI electronic text (typed by Muneo Tokunaga, revised by John D. Smith and checked in duplicate by a team at BORI), Unicode Devanagari version from indology.info, downloaded 15 November 2026. Verse numbers are those of the edition; prose paragraphs keep their numbers; the invocation नारायणं नमस्कृत्य (1.1.0) and speaker lines are unnumbered. Dandas, the division of triṣṭubh lines into pādas and the removal of the editorial numbering of the names in 12.325 were added for reading. Why this edition: it is the only complete, carefully proofread digital text. The Southern (Kumbhakonam, 1906–1914) text that Madhva and South Indian readers follow is online only in an unproofread typed copy on Sanskrit Wikisource (frequent typing errors, about ten times as many unmetrical half-verses), so it was not used. Southern readings and passages that the critical edition relegates to its apparatus are therefore absent. Note: the electronic text is © BORI; it is distributed by J. D. Smith with BORI's agreement, and no open licence is stated.",
+ "edition": "Critical Edition of the Mahabharata, Bhandarkar Oriental Research Institute, Pune (1933–1966; general editors V. S. Sukthankar, S. K. Belvalkar, P. L. Vaidya): the constituted text only, 18 parvas, 1,995 adhyayas, without the star passages and appendices of the apparatus. The Harivamsha (a khila, edited separately) is not included. Text from the BORI electronic text (typed by Muneo Tokunaga, revised by John D. Smith and checked in duplicate by a team at BORI), Unicode Devanagari version from indology.info, downloaded 15 November 2026. Verse numbers are those of the edition; prose paragraphs keep their numbers; the invocation नारायणं नमस्कृत्य (1.1.0) and speaker lines are unnumbered. Dandas, the division of triṣṭubh lines into pādas and the removal of the editorial numbering of the names in 12.325 were added for reading (a word running on into the next pāda ends its line with a hyphen). The Bhagavad Gita (6.23–40) and the Vishnu Sahasranama adhyaya (13.135) are links to the library's annotated texts; Bhishma's hymn to Krishna (12.47) is given in full, because the library's Bhishma Stuti is the different hymn of the Bhagavata Purana (1.9). Why this edition: it is the only complete, carefully proofread digital text. The Southern (Kumbhakonam, 1906–1914) text that Madhva and South Indian readers follow is online only in an unproofread typed copy on Sanskrit Wikisource (frequent typing errors, about ten times as many unmetrical half-verses), so it was not used. Southern readings and passages that the critical edition relegates to its apparatus are therefore absent. Note: the electronic text is © BORI; it is distributed by J. D. Smith with BORI's agreement, and no open licence is stated.",
  "sources": [
   "Mahabharata, Critical Edition, ed. V. S. Sukthankar et al., Bhandarkar Oriental Research Institute, Pune, 1933–1966 (19 volumes).",
   "Electronic text of the Critical Edition, © BORI 1999; input by Muneo Tokunaga, revised by John D. Smith (University of Cambridge) and a BORI team: https://indology.info/bombay/mahabharata/welcome.html (Unicode Devanagari and ISO 15919 Roman, each parvan dated; downloaded 15 November 2026).",
@@ -95,7 +95,14 @@
     "hi": "भीष्म का पर्व। व्यास संजय को दिव्य दृष्टि देते हैं और संजय धृतराष्ट्र को पृथ्वी का वर्णन सुनाते हैं। रणभूमि में विषादग्रस्त अर्जुन को श्रीकृष्ण भगवद्गीता का उपदेश देते हैं; भीष्म के सेनापतित्व में दस दिन युद्ध चलता है, अन्त में शिखण्डी को आगे करके अर्जुन पितामह को शरशय्या पर गिरा देते हैं।",
     "te": "భీష్మ పర్వం. వ్యాసుడు సంజయునికి దివ్యదృష్టి ప్రసాదిస్తాడు, సంజయుడు ధృతరాష్ట్రునికి భూమిని వర్ణిస్తాడు. రణభూమిలో విషాదంలో మునిగిన అర్జునునికి శ్రీకృష్ణుడు భగవద్గీతను ఉపదేశిస్తాడు; భీష్ముని సేనాధిపత్యంలో పది రోజులు యుద్ధం జరుగుతుంది, చివరకు శిఖండిని ముందుంచుకొని అర్జునుడు పితామహుని అంపశయ్యపై పడవేస్తాడు.",
     "ta": "பீஷ்ம பர்வம். வியாஸர் ஸஞ்ஜயனுக்கு ஞானக்கண் அருள்கிறார், ஸஞ்ஜயன் திருதராஷ்டிரனுக்குப் பூமியை வர்ணிக்கிறான். போர்க்களத்தில் மனம் தளர்ந்த அர்ஜுனனுக்கு ஸ்ரீகிருஷ்ணர் பகவத்கீதையை உபதேசிக்கிறார்; பீஷ்மரின் தலைமையில் பத்து நாள் போர் நடக்கிறது, இறுதியில் ஶிகண்டியை முன்னிறுத்தி அர்ஜுனன் பிதாமகரை அம்புப் படுக்கையில் வீழ்த்துகிறான்."
-   }
+   },
+   "links": [
+    {
+     "from": 23,
+     "to": 40,
+     "category": "gita"
+    }
+   ]
   },
   {
    "part": 7,
@@ -193,7 +200,14 @@
     "hi": "अनुशासन का पर्व। भीष्म युधिष्ठिर को उपदेश देते रहते हैं: दैव और पुरुषार्थ, शिव और विष्णु की महिमा (विष्णुसहस्रनाम सहित), दान, व्रत-उपवास, तीर्थ, गौ और ब्राह्मणों की महिमा तथा सदाचार। उत्तरायण आने पर भीष्म स्वेच्छा से प्राण त्यागते हैं और कुरुवंशी गंगा-तट पर उनका शोक करते हैं।",
     "te": "అనుశాసన పర్వం. భీష్ముడు యుధిష్ఠిరునికి ఉపదేశం కొనసాగిస్తాడు: దైవం, పురుషప్రయత్నం, శివుని, విష్ణువు మహిమ (విష్ణుసహస్రనామంతో సహా), దానం, ఉపవాసం, తీర్థయాత్ర, గోవుల, బ్రాహ్మణుల మహిమ, సదాచారం. ఉత్తరాయణం రాగానే భీష్ముడు స్వచ్ఛందంగా ప్రాణత్యాగం చేస్తాడు, కురువంశీయులు గంగాతీరంలో అతనికై శోకిస్తారు.",
     "ta": "அனுஶாஸன பர்வம். பீஷ்மர் யுதிஷ்டிரருக்கு உபதேசத்தைத் தொடர்கிறார்: விதியும் முயற்சியும், ஶிவனின் மற்றும் விஷ்ணுவின் மகிமை (விஷ்ணு ஸஹஸ்ரநாமம் உட்பட), தானம், உபவாசம், தீர்த்தயாத்திரை, பசுக்கள் மற்றும் அந்தணர்களின் சிறப்பு, நல்லொழுக்கம். உத்தராயணம் வந்ததும் பீஷ்மர் தன் விருப்பப்படி உயிர் துறக்கிறார், குருகுலத்தோர் கங்கைக் கரையில் அவருக்காகப் புலம்புகிறார்கள்."
-   }
+   },
+   "links": [
+    {
+     "from": 135,
+     "to": 135,
+     "text": "vishnu-sahasranama"
+    }
+   ]
   },
   {
    "part": 14,
