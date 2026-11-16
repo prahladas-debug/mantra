@@ -13,6 +13,7 @@ import { useSettings } from '../lib/settings';
 import { searchKey, translit, translitTitle } from '../lib/transliterate';
 import { BookBanner } from './Shelf';
 import { TextRow } from './TextList';
+import { useShowEnglish } from './useGloss';
 
 interface Row {
   mantra: Mantra;
@@ -32,6 +33,7 @@ const MAX_FILTERED = 100;
 export function BookContents({ category, work }: { category: Category; work: BookWork }) {
   const { theme, settings, recent } = useSettings();
   const { lang: ui, tr } = useI18n();
+  const showEn = useShowEnglish();
   const sarga = work.unitLabel === 'sarga';
   const workTitle = ui === 'en' ? work.titleEn : translit(work.title, settings.script);
   const font = scriptFont(settings.script, settings.bookFonts);
@@ -100,10 +102,14 @@ export function BookContents({ category, work }: { category: Category; work: Boo
         {work.opening && (
           <Text style={{ color: theme.text, fontSize: 16, lineHeight: 27, textAlign: 'center', fontFamily: font }}>{translit(work.opening, settings.script)}</Text>
         )}
-        <Text style={{ color: theme.textMuted, fontSize: 13, textAlign: 'center', marginTop: 6, lineHeight: 19 }}>{category.description}</Text>
-        <Text style={{ color: theme.textMuted, fontSize: 12, textAlign: 'center', marginTop: 4, lineHeight: 17 }} numberOfLines={4}>
-          {plain(work.edition)}
-        </Text>
+        {ui === 'en' && (
+          <>
+            <Text style={{ color: theme.textMuted, fontSize: 13, textAlign: 'center', marginTop: 6, lineHeight: 19 }}>{category.description}</Text>
+            <Text style={{ color: theme.textMuted, fontSize: 12, textAlign: 'center', marginTop: 4, lineHeight: 17 }} numberOfLines={4}>
+              {plain(work.edition)}
+            </Text>
+          </>
+        )}
       </View>
 
       {written > 12 && (
@@ -135,13 +141,13 @@ export function BookContents({ category, work }: { category: Category; work: Boo
           const ready = count > 0;
           const expanded = filtering || (open.has(p.part) && !linked);
           const sizes = [
-            ui === 'en' ? p.nameEn : translit(p.name, settings.script),
+            ...(showEn ? [p.nameEn] : []),
             !linked && count < p.unitCount
               ? tr(sarga ? '{count} of {total} sargas' : '{count} of {total} adhyayas', { count, total: p.unitCount })
               : tr(sarga ? '{n} sargas' : '{n} adhyayas', { n: p.unitCount }),
             tr('{n} verses', { n: p.verseCount.toLocaleString('en-IN') }),
           ];
-          const summary = p.summary[lang] ?? p.summary.en;
+          const summary = p.summary[lang] ?? (ui === 'en' ? p.summary.en : undefined);
           return (
             <View key={p.part}>
               <Pressable
@@ -156,10 +162,10 @@ export function BookContents({ category, work }: { category: Category; work: Boo
                 </View>
                 <View style={{ flex: 1 }}>
                   <Text style={{ color: theme.text, fontSize: 18, fontFamily: font, fontWeight: font ? undefined : '600' }} numberOfLines={1}>
-                    {translitTitle(p.name, settings.script)}
+                    {(settings.script === 'english' ? p.nameEn : translitTitle(p.name, settings.script))}
                   </Text>
                   <Text style={{ color: theme.textMuted, fontSize: 13, marginTop: 1 }} numberOfLines={1}>
-                    {ready ? sizes.join(' · ') : tr('{name} · to be added', { name: p.nameEn })}
+                    {ready ? sizes.join(' · ') : tr('{name} · to be added', { name: ui === 'en' ? p.nameEn : translit(p.name, settings.script) })}
                   </Text>
                 </View>
                 {ready && !filtering && <MaterialCommunityIcons name={linked ? 'chevron-right' : expanded ? 'chevron-up' : 'chevron-down'} size={20} color={linked ? theme.textMuted : theme.accent} />}

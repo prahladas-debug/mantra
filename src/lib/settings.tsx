@@ -21,6 +21,8 @@ export interface Settings {
   meaningLang: MeaningPref;
   /** Language of the app's own words; 'auto' follows the meanings language. */
   uiLang: UiPref;
+  /** Set once the old IAST choice has been moved to plain English (so a later IAST choice stays). */
+  plainEnglish?: boolean;
   keepAwake: boolean;
   /** Reader's choices for texts with variants, e.g. { tradition: 'madhva', time: 'morning' }. */
   variants: Partial<Record<string, string>>;
@@ -179,7 +181,15 @@ export function SettingsProvider({ children }: { children: React.ReactNode }) {
         }
         setStore({
           // Someone who used the app before the welcome screen existed has already chosen.
-          settings: { ...DEFAULTS.settings, onboarded: true, ...saved.settings },
+          // The old "English (IAST)" choice now means plain English spelling (Krishna, not Kṛṣṇa);
+          // IAST stays available as its own choice.
+          settings: {
+            ...DEFAULTS.settings,
+            onboarded: true,
+            ...saved.settings,
+            ...(saved.settings?.script === 'iast' && !saved.settings.plainEnglish ? { script: 'english' as const } : {}),
+            plainEnglish: true,
+          },
           favorites: saved.favorites ?? [],
           recent: saved.recent ?? [],
           plans: saved.plans ?? [],

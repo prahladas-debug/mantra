@@ -1,12 +1,14 @@
 import { useEffect, useRef } from 'react';
 import { router, type Href } from 'expo-router';
 import { Alert, Linking, Pressable, Text, View } from 'react-native';
-import { getMantraInfo } from '../data';
+import { categoryById, getMantraInfo } from '../data';
 import { useI18n } from '../lib/i18n';
 import { planStatus, type Plan } from '../lib/plans';
 import { cancelReminder, remindersSupported, scheduleDailyReminder } from '../lib/reminders';
 import { useSettings } from '../lib/settings';
-import { translitTitle } from '../lib/transliterate';
+import { categoryTitle } from '../lib/labels';
+import { nameOf } from '../lib/transliterate';
+import { useShowEnglish } from './useGloss';
 import { Chip, SectionHeading } from './ui';
 
 const REMINDER_TIMES = ['05:30', '06:30', '07:30', '12:00', '18:00', '19:30'];
@@ -14,7 +16,16 @@ const REMINDER_TIMES = ['05:30', '06:30', '07:30', '12:00', '18:00', '19:30'];
 /** One pārāyaṇa plan: progress, today's reading or recitation count, reminder. */
 export function PlanCard({ plan, compact }: { plan: Plan; compact?: boolean }) {
   const { theme, settings, updatePlan, removePlan, addRecitation } = useSettings();
-  const { tr } = useI18n();
+  const { lang, tr } = useI18n();
+  const showEn = useShowEnglish();
+  // A plan's stored title is English: in another language show the text's name (or the library section's) in the reading script.
+  const first = getMantraInfo(plan.items[0]);
+  const name =
+    lang === 'en' || !first
+      ? plan.title
+      : plan.items.length === 1
+        ? nameOf(first, settings.script)
+        : categoryTitle(categoryById[first.category], settings.script);
   const st = planStatus(plan);
   const pct = Math.round(st.progress * 100);
 
@@ -29,7 +40,7 @@ export function PlanCard({ plan, compact }: { plan: Plan; compact?: boolean }) {
       let notificationId: string | undefined;
       if (time) {
         notificationId =
-          (await scheduleDailyReminder(tr('Parayana'), tr('Today: {title}', { title: plan.title }), time)) ?? undefined;
+          (await scheduleDailyReminder(tr('Parayana'), tr('Today: {title}', { title: name }), time)) ?? undefined;
         // Not scheduled (notifications not allowed): do not show a reminder time that will never ring.
         if (!notificationId) {
           updatePlan(plan.id, { reminder: undefined, notificationId: undefined });
@@ -56,7 +67,7 @@ export function PlanCard({ plan, compact }: { plan: Plan; compact?: boolean }) {
 
   return (
     <View style={{ marginHorizontal: 16, marginBottom: 12, padding: 14, borderRadius: 16, borderWidth: 1, borderColor: theme.cardBorder, backgroundColor: theme.card }}>
-      <Text style={{ color: theme.text, fontSize: 17, fontWeight: '700' }}>{plan.title}</Text>
+      <Text style={{ color: theme.text, fontSize: 17, fontWeight: '700' }}>{name}</Text>
       <Text style={{ color: theme.textMuted, fontSize: 13, marginTop: 2 }}>
         {st.finished ? tr('Completed 🙏') : tr('Day {day} of {days} · {pct}%', { day: st.day + 1, days: plan.days, pct })}
         {plan.kind === 'vow' && plan.perDay > 1 ? ` · ${tr('{n}× a day', { n: plan.perDay })}` : ''}
@@ -77,7 +88,7 @@ export function PlanCard({ plan, compact }: { plan: Plan; compact?: boolean }) {
             return (
               <Pressable key={id} onPress={() => router.push(`/mantra/${id}` as Href)} style={{ paddingVertical: 6 }}>
                 <Text style={{ color: theme.accent, fontSize: 16 }}>
-                  {translitTitle(m.title, settings.script)} <Text style={{ color: theme.textMuted, fontSize: 13 }}>· {m.titleEn}</Text>
+                  {nameOf(m, settings.script)} {showEn && <Text style={{ color: theme.textMuted, fontSize: 13 }}>· {m.titleEn}</Text>}
                 </Text>
               </Pressable>
             );

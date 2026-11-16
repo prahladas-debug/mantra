@@ -13,7 +13,7 @@ import { usePinch } from '../../components/reader/usePinch';
 import { getMantra, getMantraInfo, type Mantra } from '../../data';
 import { bookNeighbours, isBookUnit, loadBookUnit, peekBookUnit, prefetchBookUnit } from '../../lib/books';
 import { useI18n } from '../../lib/i18n';
-import { translitTitle } from '../../lib/transliterate';
+import { nameOf } from '../../lib/transliterate';
 import { useSettings } from '../../lib/settings';
 import { choicesFor } from '../../lib/variants';
 
@@ -30,8 +30,8 @@ export default function Reader() {
 }
 
 function BookUnitReader({ id }: { id: string }) {
-  const { theme } = useSettings();
-  const { tr } = useI18n();
+  const { theme, settings } = useSettings();
+  const { lang, tr } = useI18n();
   const [mantra, setMantra] = useState<Mantra | undefined>(() => peekBookUnit(id));
   const [error, setError] = useState<string | null>(null);
   const [attempt, setAttempt] = useState(0);
@@ -55,12 +55,13 @@ function BookUnitReader({ id }: { id: string }) {
 
   if (mantra) return <ReaderView mantra={mantra} />;
   const info = getMantraInfo(id);
+  const name = info ? (lang === 'en' ? info.titleEn : nameOf(info, settings.script)) : undefined;
   return (
     <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center', gap: 14, padding: 24, backgroundColor: theme.bg }}>
-      <Stack.Screen options={{ title: info?.titleEn ?? '' }} />
+      <Stack.Screen options={{ title: name ?? '' }} />
       {error ? (
         <>
-          <Text style={{ color: theme.text, fontSize: 16, textAlign: 'center' }}>{tr('This {title} could not be opened.', { title: info?.titleEn ?? tr('text') })}</Text>
+          <Text style={{ color: theme.text, fontSize: 16, textAlign: 'center' }}>{tr('This {title} could not be opened.', { title: name ?? tr('text') })}</Text>
           <Text style={{ color: theme.textMuted, fontSize: 13, textAlign: 'center' }}>{error}</Text>
           <Pressable
             onPress={() => {
@@ -162,7 +163,7 @@ function ReaderView({ mantra }: { mantra: Mantra | undefined }) {
       <View style={{ flex: 1, backgroundColor: theme.bg }} {...pinch.panHandlers}>
         <Stack.Screen
           options={{
-            title: lang === 'en' ? mantra.titleEn : translitTitle(mantra.title, settings.script),
+            title: lang === 'en' ? mantra.titleEn : nameOf(mantra, settings.script),
             headerRight: () => (
               <View style={{ flexDirection: 'row', gap: 18 }}>
                 {hasContents && (

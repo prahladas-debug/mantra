@@ -14,7 +14,7 @@ import { paranaNote } from '../../lib/parana';
 import { plain } from '../../lib/plain';
 import { sauraDay, sauraRtu, sauraSankalpa } from '../../lib/sauramana';
 import { useClockTick, useSettings } from '../../lib/settings';
-import { translit } from '../../lib/transliterate';
+import { translit, isRoman, translitTitle } from '../../lib/transliterate';
 import { T, useI18n } from '../../lib/i18n';
 
 const ISO = /^\d{4}-\d{2}-\d{2}$/;
@@ -26,7 +26,7 @@ type Row = [Label, string, ('good' | 'avoid')?];
 function Table({ rows }: { rows: Row[] }) {
   const { theme, settings } = useSettings();
   const { lang, tr } = useI18n();
-  const roman = settings.script === 'iast' || lang !== 'en';
+  const roman = isRoman(settings.script) || lang !== 'en';
   return (
     <View style={{ marginHorizontal: 16, borderRadius: 16, borderWidth: 1, borderColor: theme.cardBorder, backgroundColor: theme.card }}>
       {rows.map(([l, value, tone], i) => (
@@ -85,7 +85,8 @@ export default function PanchangaScreen() {
   // With the Surya Siddhanta the day starts at its own sunrise; show the visible one too.
   const visibleRise = useMemo(() => (ss ? fromJulian(withMethod('drik', () => sunriseJd(city, date))) : null), [ss, date, city]);
   const sankalpa = mode === 'saura' ? sauraSankalpa(p, saura) : p.sankalpa;
-  const t = (s: string) => translit(s, settings.script);
+  // Names (tithi, month, festival): in plain English they read best capitalised.
+  const t = (s: string) => (settings.script === 'english' ? translitTitle(s, settings.script) : translit(s, settings.script));
   const tm = (d: Date) => formatTime(d, city, date, lang);
   const [y, m, d] = parseIso(date);
 
@@ -199,7 +200,7 @@ export default function PanchangaScreen() {
       <SectionHeading>{tr('Sankalpa')}</SectionHeading>
       <View style={[card, { padding: 14 }]}>
         <Text style={{ color: theme.text, fontSize: 18, lineHeight: 30 }} selectable>
-          {t(sankalpa)}
+          {translit(sankalpa, settings.script)}
         </Text>
       </View>
 

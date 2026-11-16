@@ -9,7 +9,7 @@ import { addDays, cityById, panchanga, setCalcMethod, todayIn, type CalcMethod }
 import { getMantraInfo } from '../data';
 import { useClockTick, useSettings } from '../lib/settings';
 import { plain } from '../lib/plain';
-import { translit } from '../lib/transliterate';
+import { translit, translitTitle } from '../lib/transliterate';
 import { useI18n } from '../lib/i18n';
 import { paranaLabel, paranaNote, paranaTimes } from '../lib/parana';
 
@@ -202,7 +202,8 @@ export function TodayCard() {
     () => festivalsOn(city, addDays(today, -1), rule, mode, start, method).find((f) => f.kind === 'ekadashi' && f.parana?.date === today)?.parana,
     [city, today, rule, mode, start, method],
   );
-  const t = (s: string) => translit(s, settings.script);
+  // Names (tithi, month, festival): in plain English they read best capitalised.
+  const t = (s: string) => (settings.script === 'english' ? translitTitle(s, settings.script) : translit(s, settings.script));
   const read = (id: string | undefined) => (id ? getMantraInfo(id) : undefined);
   return (
     <View style={{ marginHorizontal: 16, marginTop: 16, borderRadius: 16, borderWidth: 1, backgroundColor: theme.card, borderColor: theme.cardBorder, overflow: 'hidden' }}>

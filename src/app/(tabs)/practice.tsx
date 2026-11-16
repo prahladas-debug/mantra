@@ -8,7 +8,8 @@ import { scriptFont } from '../../lib/fonts';
 import { T, useI18n } from '../../lib/i18n';
 import { planStatus } from '../../lib/plans';
 import { useSettings } from '../../lib/settings';
-import { translitTitle } from '../../lib/transliterate';
+import { nameOf } from '../../lib/transliterate';
+import { useShowEnglish } from '../../components/useGloss';
 
 const TOOLS: { icon: keyof typeof MaterialCommunityIcons.glyphMap; label: string; href: string }[] = [
   { icon: 'dots-circle', label: T('Japa counter'), href: '/japa' },
@@ -37,6 +38,7 @@ function Heading({ title, action, onAction }: { title: string; action?: string; 
 export default function Practice() {
   const { theme, settings, plans, favorites, recent } = useSettings();
   const { tr } = useI18n();
+  const showEn = useShowEnglish();
   const active = plans.filter((p) => !planStatus(p).finished);
   const favs = favorites.map(getMantraInfo).filter((m) => !!m);
   const recents = recent.map((r) => getMantraInfo(r.id)).filter((m) => !!m).slice(0, 8);
@@ -51,11 +53,13 @@ export default function Practice() {
         >
           <View style={{ flex: 1 }}>
             <Text style={{ color: theme.text, fontSize: 17, fontFamily: scriptFont(scriptFor(m, settings.script), settings.bookFonts) }} numberOfLines={1}>
-              {translitTitle(m.title, settings.script)}
+              {nameOf(m, settings.script)}
             </Text>
-            <Text style={{ color: theme.textMuted, fontSize: 12 }} numberOfLines={1}>
-              {m.titleEn}
-            </Text>
+            {showEn && (
+              <Text style={{ color: theme.textMuted, fontSize: 12 }} numberOfLines={1}>
+                {m.titleEn}
+              </Text>
+            )}
           </View>
           <MaterialCommunityIcons name="chevron-right" size={20} color={theme.textMuted} />
         </Pressable>

@@ -1,4 +1,5 @@
 import Sanscript from '@indic-transliteration/sanscript';
+import { plain } from './plain';
 
 export type ScriptId =
   | 'devanagari'
@@ -9,7 +10,9 @@ export type ScriptId =
   | 'gujarati'
   | 'bengali'
   | 'oriya'
-  | 'iast';
+  | 'iast'
+  /** Plain English spelling (Krishna, Ashtami): IAST without its marks. */
+  | 'english';
 
 export interface ScriptInfo {
   id: ScriptId;
@@ -30,7 +33,8 @@ export const SCRIPTS: ScriptInfo[] = [
   { id: 'gujarati', native: 'ગુજરાતી', en: 'Gujarati', sample: 'ગુ' },
   { id: 'bengali', native: 'বাংলা', en: 'Bengali', sample: 'বা' },
   { id: 'oriya', native: 'ଓଡ଼ିଆ', en: 'Odia', sample: 'ଓ' },
-  { id: 'iast', native: 'English (IAST)', en: 'English / Roman (IAST)', sample: 'Ā' },
+  { id: 'english', native: 'English', en: 'English (plain spelling)', sample: 'A' },
+  { id: 'iast', native: 'IAST', en: 'Roman with diacritics (IAST, scholarly)', sample: 'Ā' },
 ];
 
 export const scriptInfo = Object.fromEntries(SCRIPTS.map((s) => [s.id, s])) as Record<
@@ -40,6 +44,7 @@ export const scriptInfo = Object.fromEntries(SCRIPTS.map((s) => [s.id, s])) as R
 
 /** Sanscript scheme used for each script. Tamil uses superscript numerals for aspirates/voicing. */
 const SCHEME: Record<ScriptId, string> = {
+  english: 'iast',
   devanagari: 'devanagari',
   kannada: 'kannada',
   telugu: 'telugu',
@@ -121,6 +126,8 @@ export function translit(text: string, script: ScriptId): string {
   if (!text) return text;
   const clean = text.replace(SVARA, '');
   if (script === 'devanagari') return clean;
+  // Plain English: the IAST spelling without its marks (vṛścika → vrishchika, śukla → shukla).
+  if (script === 'english') return plain(translit(clean, 'iast'));
   const key = script + '\u0000' + clean;
   const hit = cache.get(key);
   if (hit !== undefined) return hit;
@@ -162,8 +169,21 @@ export function translitTitle(title: string, script: ScriptId): string {
     script === 'kannada' || script === 'telugu' || script === 'malayalam'
       ? title.replace(/म्(?=\s|$)/g, 'ं')
       : title;
-  return translit(t, script);
+  const out = translit(t, script);
+  // A title in Roman letters reads as a name: capital at the start of each word.
+  return script === 'english' ? out.replace(/(^|[\s·(-])([a-z])/g, (_, a: string, b: string) => a + b.toUpperCase()) : out;
 }
+
+/**
+ * A text's (or book unit's) display name: in plain English its English name when it has one
+ * ("Lakshmi Narasimha Karavalamba Stotram", not one long compound), else the title in the script.
+ */
+export function nameOf(item: { title: string; titleEn?: string }, script: ScriptId): string {
+  return script === 'english' && item.titleEn ? plain(item.titleEn) : translitTitle(item.title, script);
+}
+
+/** Scripts written in Roman letters (no separate English name needed beside them). */
+export const isRoman = (script: ScriptId) => script === 'iast' || script === 'english';
 
 /**
  * For English prose (notes, summaries, meanings) that quotes Devanagari words:
@@ -186,7 +206,7 @@ export function verseNumber(n: number, script: ScriptId): string {
   // Keep "॥ n ॥" on one line: line-breaking rules allow a break after a danda even
   // before a no-break space, so add a word joiner (U+2060) after the first danda.
   const NB = '\u2060\u00A0';
-  if (script === 'iast') return `||${NB}${n}${NB}||`;
+  if (script === 'iast' || script === 'english') return `||${NB}${n}${NB}||`;
   if (script === 'tamil') return `॥${NB}${n}${NB}॥`;
   const dev = String(n).replace(/[0-9]/g, (d) => DEV_DIGITS[Number(d)]);
   return `॥${NB}${translit(dev, script)}${NB}॥`;

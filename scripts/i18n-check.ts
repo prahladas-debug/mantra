@@ -38,7 +38,14 @@ export function collectKeys(): string[] {
   for (const f of files(join(ROOT, 'src')).filter((p) => !p.includes(`${join('src', 'i18n')}`) && !p.includes(join('src', 'data', 'texts')))) {
     const src = readFileSync(f, 'utf8');
     for (const m of src.matchAll(re)) keys.add(unescape(m[1] ?? m[2]));
+    // tr(cond ? 'one' : 'other') — both strings are keys.
+    for (const m of src.matchAll(/\b(?:tr|T)\(\s*[^'"()?]{1,80}\?\s*'((?:[^'\\]|\\.)*)'\s*:\s*'((?:[^'\\]|\\.)*)'/g)) {
+      keys.add(unescape(m[1]));
+      keys.add(unescape(m[2]));
+    }
   }
+  // Group headings of the category pages (src/lib/groups.ts): ['id', 'Title', …] tuples.
+  for (const m of readFileSync(join(ROOT, 'src', 'lib', 'groups.ts'), 'utf8').matchAll(/\[\s*'[\w-]+',\s*'([A-Z][^']+)'/g)) keys.add(m[1]);
   // Festival glosses and notes as the app computes them.
   for (const cityId of ['bengaluru', 'udupi']) {
     const city = cityById(cityId);

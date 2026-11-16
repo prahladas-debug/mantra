@@ -12,7 +12,7 @@ import { scriptFont } from '../../lib/fonts';
 import { T, useI18n } from '../../lib/i18n';
 import { APP_MOTTO, appTitle } from '../../lib/labels';
 import { useSettings } from '../../lib/settings';
-import { SCRIPTS, translit, translitTitle } from '../../lib/transliterate';
+import { SCRIPTS, translit, nameOf } from '../../lib/transliterate';
 
 /** Reading-script chooser behind the header button. */
 function ScriptSheet({ visible, onClose }: { visible: boolean; onClose: () => void }) {
@@ -120,7 +120,7 @@ export default function Home() {
           <View style={{ flex: 1 }}>
             <Text style={{ color: theme.textMuted, fontSize: 11, fontWeight: '700', letterSpacing: 0.8 }}>{positions[last.id] ? tr('Continue reading').toUpperCase() : tr('Last opened').toUpperCase()}</Text>
             <Text style={{ color: theme.text, fontSize: 16, lineHeight: 25, fontFamily: scriptFont(scriptFor(last, settings.script), settings.bookFonts) }} numberOfLines={1}>
-              {translitTitle(last.title, settings.script)}
+              {nameOf(last, settings.script)}
             </Text>
           </View>
           <MaterialCommunityIcons name="chevron-right" size={20} color={theme.accent} />

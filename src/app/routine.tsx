@@ -5,7 +5,8 @@ import { ALL_MANTRAS, getMantraInfo, scriptFor, search, type Mantra } from '../d
 import { scriptFont } from '../lib/fonts';
 import { useI18n } from '../lib/i18n';
 import { useSettings } from '../lib/settings';
-import { translitTitle } from '../lib/transliterate';
+import { nameOf } from '../lib/transliterate';
+import { useShowEnglish } from '../components/useGloss';
 
 const SUGGESTED = ['sandhya-vandane-rigveda', 'nitya-puja', 'vayu-stuti', 'vishnu-sahasranama', 'raghavendra-stotram', 'dvadasha-stotra-01', 'lalitha-sahasranama', 'hanuman-chalisa', 'aditya-hridayam', 'venkatesha-suprabhatam'];
 
@@ -13,6 +14,7 @@ const SUGGESTED = ['sandhya-vandane-rigveda', 'nitya-puja', 'vayu-stuti', 'vishn
 export default function RoutineEditor() {
   const { theme, settings, routine, setRoutine } = useSettings();
   const { tr } = useI18n();
+  const showEn = useShowEnglish();
   const [q, setQ] = useState('');
   const fontOf = (m: Mantra) => scriptFont(scriptFor(m, settings.script), settings.bookFonts);
   const chosen = routine.map(getMantraInfo).filter((m) => !!m);
@@ -46,7 +48,7 @@ export default function RoutineEditor() {
                 <View key={m.id} style={{ flexDirection: 'row', alignItems: 'center', gap: 8, padding: 10, borderTopWidth: i ? 1 : 0, borderColor: theme.cardBorder }}>
                   <Text style={{ color: theme.textMuted, width: 20, textAlign: 'right' }}>{i + 1}</Text>
                   <Text style={{ flex: 1, color: theme.text, fontSize: 16, fontFamily: fontOf(m) }} numberOfLines={1}>
-                    {translitTitle(m.title, settings.script)}
+                    {nameOf(m, settings.script)}
                   </Text>
                   <Pressable onPress={() => move(i, -1)} hitSlop={8} accessibilityLabel={tr('Move up')} disabled={i === 0}>
                     <MaterialCommunityIcons name="chevron-up" size={22} color={i === 0 ? theme.cardBorder : theme.textMuted} />
@@ -80,16 +82,18 @@ export default function RoutineEditor() {
           onPress={() => setRoutine([...routine, item.id])}
           style={({ pressed }) => ({ flexDirection: 'row', alignItems: 'center', gap: 10, paddingVertical: 11, paddingHorizontal: 16, opacity: pressed ? 0.6 : 1 })}
           accessibilityRole="button"
-          accessibilityLabel={tr('Add {title}', { title: item.titleEn })}
+          accessibilityLabel={tr('Add {title}', { title: nameOf(item, settings.script) })}
         >
           <MaterialCommunityIcons name="plus-circle-outline" size={24} color={theme.accent} />
           <View style={{ flex: 1 }}>
             <Text style={{ color: theme.text, fontSize: 16, fontFamily: fontOf(item) }} numberOfLines={1}>
-              {translitTitle(item.title, settings.script)}
+              {nameOf(item, settings.script)}
             </Text>
-            <Text style={{ color: theme.textMuted, fontSize: 12 }} numberOfLines={1}>
-              {item.titleEn}
-            </Text>
+            {showEn && (
+              <Text style={{ color: theme.textMuted, fontSize: 12 }} numberOfLines={1}>
+                {item.titleEn}
+              </Text>
+            )}
           </View>
         </Pressable>
       )}

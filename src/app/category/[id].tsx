@@ -61,14 +61,15 @@ export default function CategoryScreen() {
             {opening && first.sourceScript !== 'tamil' && (
               <Text style={{ color: theme.text, fontSize: 16, lineHeight: 27, textAlign: 'center', fontFamily: font }}>{translit(opening, settings.script)}</Text>
             )}
-            <Text style={{ color: theme.textMuted, fontSize: 13, textAlign: 'center', marginTop: 6, lineHeight: 19 }}>{category.description}</Text>
+            {lang === 'en' && <Text style={{ color: theme.textMuted, fontSize: 13, textAlign: 'center', marginTop: 6, lineHeight: 19 }}>{category.description}</Text>}
           </View>
         </>
       ) : (
         <View style={{ paddingTop: 14, paddingHorizontal: 16, paddingBottom: 4 }}>
           <Text style={{ color: theme.accent, fontSize: 26, fontFamily: font, fontWeight: font ? undefined : '700' }}>{categoryTitle(category, settings.script)}</Text>
           <Text style={{ color: theme.textMuted, fontSize: 14, marginTop: 2 }}>
-            {category.description} · {tr('{n} texts', { n: all.length })}
+            {lang === 'en' ? `${category.description} · ` : ''}
+            {tr('{n} texts', { n: all.length })}
           </Text>
         </View>
       )}
@@ -79,7 +80,7 @@ export default function CategoryScreen() {
           <TextInput
             value={q}
             onChangeText={setQ}
-            placeholder={tr('Find in {title}', { title: category.titleEn })}
+            placeholder={tr('Find in {title}', { title: lang === 'en' ? category.titleEn : categoryTitle(category, settings.script) })}
             placeholderTextColor={theme.textMuted}
             autoCorrect={false}
             style={{ flex: 1, color: theme.text, fontSize: 15, paddingVertical: 9, paddingHorizontal: 8 }}
@@ -97,7 +98,7 @@ export default function CategoryScreen() {
         <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={{ paddingHorizontal: 16, gap: 8, marginTop: 10 }}>
           <Chip label={tr('All')} active={!only} onPress={() => setOnly(null)} />
           {allGroups.map((g) => (
-            <Chip key={g.id} label={`${g.title} ${g.entries.reduce((n, e) => n + (e.parts?.length ?? 1), 0)}`} active={only === g.id} onPress={() => setOnly(only === g.id ? null : g.id)} />
+            <Chip key={g.id} label={`${tr(g.title)} ${g.entries.reduce((n, e) => n + (e.parts?.length ?? 1), 0)}`} active={only === g.id} onPress={() => setOnly(only === g.id ? null : g.id)} />
           ))}
         </ScrollView>
       )}
@@ -105,7 +106,7 @@ export default function CategoryScreen() {
       {shown.map((g) => (
         <View key={g.id} style={{ marginTop: g.title ? 0 : 12 }}>
           {!!g.title && (
-            <SectionHeading>{g.title}</SectionHeading>
+            <SectionHeading>{tr(g.title)}</SectionHeading>
           )}
           <EntryCard entries={g.entries} numbered={isBook || category.id === 'homa'} />
         </View>

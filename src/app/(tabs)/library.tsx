@@ -8,7 +8,8 @@ import { DEITIES } from '../../lib/deities';
 import { scriptFont } from '../../lib/fonts';
 import { T, useI18n } from '../../lib/i18n';
 import { useSettings } from '../../lib/settings';
-import { translitTitle } from '../../lib/transliterate';
+import { nameOf } from '../../lib/transliterate';
+import { useShowEnglish } from '../../components/useGloss';
 
 /** The library below the great works, in a few plain groups. */
 export const SHELVES: { title: string; categories: CategoryId[] }[] = [
@@ -22,6 +23,7 @@ export const SHELVES: { title: string; categories: CategoryId[] }[] = [
 export default function Library() {
   const { theme, settings } = useSettings();
   const { tr } = useI18n();
+  const showEn = useShowEnglish();
   const { width } = useWindowDimensions();
   const font = scriptFont(settings.script, settings.bookFonts);
   // Three covers to a row, with the same 16-point gutters as everything else.
@@ -69,10 +71,11 @@ export default function Library() {
             style={({ pressed }) => [s.collection, { backgroundColor: theme.card, borderColor: theme.cardBorder, opacity: pressed ? 0.7 : 1 }]}
           >
             <Text numberOfLines={2} style={{ color: theme.accent, fontSize: 16, lineHeight: 25, fontFamily: font }}>
-              {translitTitle(c.title, settings.script)}
+              {nameOf(c, settings.script)}
             </Text>
             <Text numberOfLines={1} style={{ color: theme.textMuted, fontSize: 12, marginTop: 4 }}>
-              {c.titleEn} · {c.items.length}
+              {showEn ? `${c.titleEn} · ` : ''}
+              {c.items.length}
             </Text>
           </Pressable>
         ))}

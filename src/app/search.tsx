@@ -6,11 +6,11 @@ import { MantraRow } from '../components/ui';
 import { search } from '../data';
 import { useI18n } from '../lib/i18n';
 import { useSettings } from '../lib/settings';
-import { translit } from '../lib/transliterate';
+import { translit, nameOf } from '../lib/transliterate';
 
 export default function SearchScreen() {
   const { theme, settings } = useSettings();
-  const { tr } = useI18n();
+  const { lang, tr } = useI18n();
   const [query, setQuery] = useState('');
   const deferred = useDeferredValue(query);
   const results = useMemo(() => search(deferred), [deferred]);
@@ -50,7 +50,7 @@ export default function SearchScreen() {
                 onPress={() => router.push(`/mantra/${item.mantra.id}?si=${item.verse!.sectionIndex}&vi=${item.verse!.verseIndex}` as Href)}
                 style={{ marginHorizontal: 16, marginBottom: 10, padding: 14, borderRadius: 16, borderWidth: 1, backgroundColor: theme.card, borderColor: theme.cardBorder }}>
                 <Text style={{ color: theme.accent, fontSize: 13, fontWeight: '600', marginBottom: 4 }}>
-                  {item.mantra.titleEn}
+                  {lang === 'en' ? item.mantra.titleEn : nameOf(item.mantra, settings.script)}
                   {item.verse.n !== undefined ? ` · ${tr('verse {n}', { n: item.verse.n })}` : ''}
                 </Text>
                 <Text style={{ color: theme.text, fontSize: 17, lineHeight: 27 }} numberOfLines={3}>

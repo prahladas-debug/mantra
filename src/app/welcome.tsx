@@ -23,7 +23,7 @@ const LANGUAGES: { script: ScriptId; name: string; en: string }[] = [
   { script: 'gujarati', name: 'ગુજરાતી', en: 'Gujarati' },
   { script: 'bengali', name: 'বাংলা', en: 'Bengali' },
   { script: 'oriya', name: 'ଓଡ଼ିଆ', en: 'Odia' },
-  { script: 'iast', name: 'English', en: T('English (Roman letters)') },
+  { script: 'english', name: 'English', en: T('English (Roman letters)') },
 ];
 
 function Choice({ active, onPress, children }: { active: boolean; onPress: () => void; children: React.ReactNode }) {

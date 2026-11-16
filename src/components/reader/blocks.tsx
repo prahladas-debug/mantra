@@ -8,16 +8,17 @@ import { leading, meaningFont, scriptFont } from '../../lib/fonts';
 import { MEANING_BUTTON, meaningsToShow, primaryLang, summaryFor } from '../../lib/meaning';
 import { planStatus } from '../../lib/plans';
 import { useI18n } from '../../lib/i18n';
+import { categoryTitle } from '../../lib/labels';
+import { useShowEnglish } from '../useGloss';
 import { useRoutineDay, useSettings } from '../../lib/settings';
 
 import { reportCorrection, shareVerse } from '../../lib/share';
-import { bindDandas, translit, translitInline, translitTitle, verseNumber } from '../../lib/transliterate';
+import { bindDandas, translit, translitInline, translitTitle, verseNumber, isRoman, nameOf } from '../../lib/transliterate';
 import { SankalpaCard } from '../PanchangaCard';
 import { Chip } from '../ui';
 import { useReader } from './context';
 import { plain } from '../../lib/plain';
 
-const getMantraTitle = (id: string) => getMantraInfo(id)?.titleEn;
 
 /** Small ornamental rule, as in printed stotra books. */
 export function Ornament({ small }: { small?: boolean }) {
@@ -34,6 +35,8 @@ export function Ornament({ small }: { small?: boolean }) {
 /** Title page / introduction of a text. */
 export function IntroBlock({ book }: { book?: boolean }) {
   const { theme, settings, update } = useSettings();
+  const { lang } = useI18n();
+  const showEn = useShowEnglish();
   const { mantra, choices } = useReader();
   const script = settings.script;
   const pLang = primaryLang(settings.meaningLang, script);
@@ -43,6 +46,7 @@ export function IntroBlock({ book }: { book?: boolean }) {
   // The title of a Tamil-language text stays in Tamil: Tamil font and line height.
   const titleScript = scriptFor(mantra, script);
   const titleFont = scriptFont(titleScript, settings.bookFonts);
+  const category = categoryById[mantra.category];
   return (
     <View style={[b.intro, book && { alignItems: 'center' }]}>
       {book && (
@@ -60,13 +64,19 @@ export function IntroBlock({ book }: { book?: boolean }) {
           textAlign: book ? 'center' : 'left',
         }}
       >
-        {translitTitle(mantra.title, script)}
+        {nameOf(mantra, script)}
       </Text>
-      <Text style={{ color: theme.text, fontSize: 16, fontFamily: settings.bookFonts ? 'BookSerifBold' : undefined, fontWeight: settings.bookFonts ? undefined : '600', textAlign: book ? 'center' : 'left', marginTop: 4 }}>
-        {mantra.titleEn}
-      </Text>
+      {showEn && (
+        <Text style={{ color: theme.text, fontSize: 16, fontFamily: settings.bookFonts ? 'BookSerifBold' : undefined, fontWeight: settings.bookFonts ? undefined : '600', textAlign: book ? 'center' : 'left', marginTop: 4 }}>
+          {mantra.titleEn}
+        </Text>
+      )}
       <Text style={{ color: theme.textMuted, fontSize: 13, marginTop: 4, textAlign: book ? 'center' : 'left' }} numberOfLines={3}>
-        {plain([categoryById[mantra.category]?.titleEn, mantra.deity, mantra.source].filter(Boolean).join(' · '))}
+        {plain(
+          [category && (lang === 'en' ? category.titleEn : categoryTitle(category, script)), ...(lang === 'en' ? [mantra.deity, mantra.source] : [])]
+            .filter(Boolean)
+            .join(' · '),
+        )}
       </Text>
       {book && <Ornament />}
       {/* Choices first: they decide which steps follow. */}
@@ -119,6 +129,7 @@ export function IntroBlock({ book }: { book?: boolean }) {
 
 export function SectionBlock({ section, book }: { section: Section; book?: boolean }) {
   const { theme, settings } = useSettings();
+  const showEn = useShowEnglish();
   const { mantra } = useReader();
   const script = scriptFor(mantra, settings.script);
   const scale = settings.fontScale;
@@ -132,7 +143,7 @@ export function SectionBlock({ section, book }: { section: Section; book?: boole
           {translitTitle(section.title, script)}
         </Text>
       )}
-      {section.titleEn && (
+      {section.titleEn && showEn && (
         <Text style={{ color: theme.textMuted, fontSize: 13, fontWeight: '600', textTransform: 'uppercase', letterSpacing: 1, textAlign: align }}>
           {section.titleEn}
         </Text>
@@ -187,7 +198,7 @@ export function VerseBlock({ verse, rowKey, book }: { verse: Verse; rowKey: stri
   const font = scriptFont(script, settings.bookFonts);
   // The text ends with ॥; when a number follows, render a single "॥ n ॥" instead of "॥ ॥ n ॥".
   const main = bindDandas(translit(verse.n !== undefined ? verse.text.replace(/\s*॥\s*$/, '') : verse.text, script));
-  const fs = (script === 'iast' ? 19 : 22) * scale;
+  const fs = (isRoman(script) ? 19 : 22) * scale;
   const lh = fs * leading(script, settings.bookFonts);
   const label = settings.meaningLang === 'both' && pLang !== 'en' ? `${MEANING_BUTTON[pLang]} · Meaning` : MEANING_BUTTON[pLang];
 
@@ -329,7 +340,7 @@ export function SeriesNav({ mantra }: { mantra: Mantra }) {
     >
       <Text style={{ color: theme.textMuted, fontSize: 12, fontWeight: '600' }}>{label}</Text>
       <Text style={{ color: theme.accent, fontSize: 16, fontFamily: scriptFont(scriptFor(m, settings.script), settings.bookFonts) }} numberOfLines={1}>
-        {translitTitle(m.title, settings.script)}
+        {nameOf(m, settings.script)}
       </Text>
     </Pressable>
   );
@@ -344,14 +355,15 @@ export function SeriesNav({ mantra }: { mantra: Mantra }) {
 /** Closing matter: इति, pārāyaṇa controls, previous/next. */
 /** End of a text: tick it off in today's routine (and go to the next), or add it to the routine. */
 function RoutineControl({ mantraId }: { mantraId: string }) {
-  const { tr } = useI18n();
+  const { lang, tr } = useI18n();
   const { theme, settings, routine, routineDone, setRoutine, setRoutineDone } = useSettings();
   const day = useRoutineDay(settings.city);
   const inRoutine = routine.includes(mantraId);
   const done = (routineDone[day] ?? []).includes(mantraId);
   // The next text still to do today; an id no longer in the library is passed over, not a dead end.
-  const next = routine.find((id) => id !== mantraId && !(routineDone[day] ?? []).includes(id) && getMantraTitle(id) !== undefined);
-  const nextMantra = next ? getMantraTitle(next) : undefined;
+  const next = routine.find((id) => id !== mantraId && !(routineDone[day] ?? []).includes(id) && getMantraInfo(id) !== undefined);
+  const nextInfo = next ? getMantraInfo(next) : undefined;
+  const nextMantra = nextInfo ? (lang === 'en' ? nextInfo.titleEn : nameOf(nextInfo, settings.script)) : undefined;
   if (!inRoutine) {
     return (
       <Pressable onPress={() => setRoutine([...routine, mantraId])} style={{ alignSelf: 'center', marginTop: 20, padding: 8 }} accessibilityRole="button">

@@ -5,7 +5,7 @@ import { leading, scriptFont } from '../../lib/fonts';
 import { scriptFor } from '../../data';
 import { useI18n } from '../../lib/i18n';
 import { useSettings } from '../../lib/settings';
-import { translit, translitTitle, type ScriptId } from '../../lib/transliterate';
+import { translit, type ScriptId, isRoman, nameOf } from '../../lib/transliterate';
 import { EndMatter, IntroBlock, SectionBlock, VerseBlock } from './blocks';
 import { useReader } from './context';
 import { devDigits, type Row } from './rows';
@@ -48,9 +48,9 @@ function estimate(row: Row, m: Metrics): number {
     const note = (row.section.note && row.section.note.length > 220 ? Math.min(noteLines, 3) + 1 : noteLines) * 21;
     return 60 + title + (row.section.titleEn ? 20 : 0) + note;
   }
-  const fs = (m.script === 'iast' ? 19 : 22) * m.scale;
+  const fs = (isRoman(m.script) ? 19 : 22) * m.scale;
   const lh = fs * leading(m.script, m.bookFonts);
-  const perLine = Math.max(8, contentWidth / (fs * (m.script === 'iast' ? 0.5 : 0.62)));
+  const perLine = Math.max(8, contentWidth / (fs * (isRoman(m.script) ? 0.5 : 0.62)));
   const text = translit(row.verse.text, m.script);
   const lines = text.split('\n').reduce((acc, l) => acc + Math.max(1, Math.ceil(clusters(l) / perLine)), 0);
   let h = lines * lh + 24 + 34;
@@ -180,9 +180,9 @@ export function BookReader({
     if (firstVerse) onPositionRef.current(firstVerse.key);
   }, []);
 
-  const runningHead = translitTitle(mantra.title, script);
+  const runningHead = nameOf(mantra, script);
   const font = scriptFont(script, settings.bookFonts);
-  const pageNo = (n: number) => (script === 'iast' || script === 'tamil' ? String(n) : translit(devDigits(n), script));
+  const pageNo = (n: number) => (isRoman(script) || script === 'tamil' ? String(n) : translit(devDigits(n), script));
 
   return (
     <View style={{ flex: 1, backgroundColor: theme.bg }} onLayout={(e) => setHeight(e.nativeEvent.layout.height - 52)}>

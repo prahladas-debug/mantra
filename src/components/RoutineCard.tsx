@@ -5,7 +5,8 @@ import { getMantraInfo, scriptFor, type Mantra } from '../data';
 import { scriptFont } from '../lib/fonts';
 import { useI18n } from '../lib/i18n';
 import { useRoutineDay, useSettings } from '../lib/settings';
-import { translitTitle } from '../lib/transliterate';
+import { nameOf } from '../lib/transliterate';
+import { useShowEnglish } from './useGloss';
 
 /**
  * Today's routine as a checklist (resets at sunrise at your place). Compact on Home:
@@ -14,6 +15,7 @@ import { translitTitle } from '../lib/transliterate';
 export function RoutineCard({ compact }: { compact?: boolean }) {
   const { theme, settings, routine, routineDone, setRoutineDone } = useSettings();
   const { tr } = useI18n();
+  const showEn = useShowEnglish();
   const day = useRoutineDay(settings.city);
   const done = routineDone[day] ?? [];
   const items = routine.map((id) => getMantraInfo(id)).filter((m) => !!m);
@@ -56,7 +58,7 @@ export function RoutineCard({ compact }: { compact?: boolean }) {
           <View style={{ width: `${(finished / items.length) * 100}%`, height: '100%', backgroundColor: theme.accent }} />
         </View>
         <Text style={{ color: next ? theme.text : theme.accent, fontSize: 16, marginTop: 6, fontFamily: next ? fontOf(next) : undefined }} numberOfLines={1}>
-          {next ? `${translitTitle(next.title, settings.script)}  ›` : tr('All done for today 🙏')}
+          {next ? `${nameOf(next, settings.script)}  ›` : tr('All done for today 🙏')}
         </Text>
       </Pressable>
     );
@@ -73,17 +75,19 @@ export function RoutineCard({ compact }: { compact?: boolean }) {
               hitSlop={10}
               accessibilityRole="checkbox"
               accessibilityState={{ checked: ok }}
-              accessibilityLabel={tr('{title} done today', { title: m.titleEn })}
+              accessibilityLabel={tr('{title} done today', { title: nameOf(m, settings.script) })}
             >
               <MaterialCommunityIcons name={ok ? 'check-circle' : 'circle-outline'} size={26} color={ok ? theme.accent : theme.textMuted} />
             </Pressable>
             <Pressable onPress={() => router.push(`/mantra/${m.id}` as Href)} style={{ flex: 1 }} accessibilityRole="link">
               <Text style={{ color: ok ? theme.textMuted : theme.text, fontSize: 17, fontFamily: fontOf(m), textDecorationLine: ok ? 'line-through' : 'none' }} numberOfLines={1}>
-                {translitTitle(m.title, settings.script)}
+                {nameOf(m, settings.script)}
               </Text>
-              <Text style={{ color: theme.textMuted, fontSize: 12 }} numberOfLines={1}>
-                {m.titleEn}
-              </Text>
+              {showEn && (
+                <Text style={{ color: theme.textMuted, fontSize: 12 }} numberOfLines={1}>
+                  {m.titleEn}
+                </Text>
+              )}
             </Pressable>
           </View>
         );

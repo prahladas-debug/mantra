@@ -16,7 +16,7 @@ export function shownSections(mantra: Mantra, rows: Row[]) {
 /** The reader's contents: tap a section to go there. */
 export function ContentsSheet({ visible, onClose, mantra, rows, onJump }: { visible: boolean; onClose: () => void; mantra: Mantra; rows: Row[]; onJump: (key: string) => void }) {
   const { theme, settings } = useSettings();
-  const { tr } = useI18n();
+  const { lang, tr } = useI18n();
   const insets = useSafeAreaInsets();
   const sections = shownSections(mantra, rows);
   return (
@@ -39,7 +39,7 @@ export function ContentsSheet({ visible, onClose, mantra, rows, onJump }: { visi
                 style={({ pressed }) => ({ flexDirection: 'row', alignItems: 'center', paddingHorizontal: 14, paddingVertical: 12, borderTopWidth: i ? StyleSheet.hairlineWidth : 0, borderColor: theme.cardBorder, opacity: pressed ? 0.6 : 1 })}
               >
                 <Text style={{ color: theme.text, fontSize: 15, flex: 1 }} numberOfLines={1}>
-                  {s.titleEn ?? translit(s.title!, settings.script)}
+                  {lang === 'en' ? (s.titleEn ?? translit(s.title!, settings.script)) : s.title ? translit(s.title, settings.script) : s.titleEn}
                 </Text>
                 <MaterialCommunityIcons name="chevron-right" size={18} color={theme.textMuted} />
               </Pressable>

@@ -39,6 +39,7 @@ const SCRIPT_FONT: Record<ScriptId, keyof typeof FONT_ASSETS> = {
   gujarati: 'BookGujarati',
   oriya: 'BookOdia',
   iast: 'BookSerif',
+  english: 'BookSerif',
 };
 
 const LANG_FONT: Record<MeaningLang, keyof typeof FONT_ASSETS> = {
@@ -66,5 +67,5 @@ export function meaningFont(lang: MeaningLang, enabled: boolean): string | undef
  */
 export function leading(script: ScriptId, enabled: boolean): number {
   if (!enabled) return 1.65;
-  return script === 'iast' ? 1.55 : script === 'devanagari' ? 1.8 : 1.75;
+  return script === 'iast' || script === 'english' ? 1.55 : script === 'devanagari' ? 1.8 : 1.75;
 }

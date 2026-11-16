@@ -19,6 +19,7 @@ export const APP_TITLE: Labels = {
   bengali: 'নন্দাদীপ',
   oriya: 'ନନ୍ଦାଦୀପ',
   iast: 'Nandādīpa',
+  english: 'Nandadeepa',
 };
 
 /**
@@ -151,5 +152,6 @@ export function appTitle(script: ScriptId): string {
 }
 
 export function categoryTitle(c: Category, script: ScriptId): string {
+  if (script === 'english') return c.titleEn;
   return CATEGORY_LABELS[c.id][script] ?? translit(c.title, script);
 }

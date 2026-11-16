@@ -11,7 +11,7 @@ import { festivalsBetween, type CalendarMode, type Festival } from '../lib/festi
 import { sauraDay, type SauraStart } from '../lib/sauramana';
 import { MASA, RASHI, cityById, isoDate, lunarMonthAt, sunriseJd, sunriseTithi, todayIn, withMethod, type CalcMethod, type City } from '../lib/panchanga';
 import { useSettings } from '../lib/settings';
-import { translit } from '../lib/transliterate';
+import { translit, translitTitle } from '../lib/transliterate';
 
 const WEEK = [T('Su'), T('Mo'), T('Tu'), T('We'), T('Th'), T('Fr'), T('Sa')];
 
@@ -82,7 +82,8 @@ export default function CalendarScreen() {
   const [mode] = useCalendarMode();
   const [start] = useSauraStart();
   const [method] = useCalcMethod();
-  const t = (s: string) => translit(s, settings.script);
+  // Names (tithi, month, festival): in plain English they read best capitalised.
+  const t = (s: string) => (settings.script === 'english' ? translitTitle(s, settings.script) : translit(s, settings.script));
   // The English name is only a gloss: in another language it shows when translated, else the Sanskrit name.
   const glossOf = (f: Festival) => (lang === 'en' ? plain(f.en) : has(f.en) ? tr(f.en) : t(f.name));
 

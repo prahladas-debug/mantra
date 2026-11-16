@@ -7,11 +7,13 @@ import { isBookUnit, loadBookUnit, peekBookUnit } from '../lib/books';
 import { scriptFont } from '../lib/fonts';
 import { useI18n } from '../lib/i18n';
 import { useSettings } from '../lib/settings';
-import { translit, translitTitle } from '../lib/transliterate';
+import { translit, nameOf } from '../lib/transliterate';
+import { useShowEnglish } from '../components/useGloss';
 
 export default function Bookmarks() {
   const { theme, settings, bookmarks, toggleBookmark } = useSettings();
   const { tr } = useI18n();
+  const showEn = useShowEnglish();
   // Sargas of the long works are read from their assets for the verse text, and kept here: the
   // loader's cache holds only a few units, so one read earlier may be gone from it by now.
   const [units, setUnits] = useState<Record<string, Mantra>>(() => {
@@ -71,7 +73,7 @@ export default function Bookmarks() {
           >
             <View style={{ flexDirection: 'row', alignItems: 'center' }}>
               <Text style={{ color: theme.accent, fontSize: 13, fontWeight: '600', flex: 1 }}>
-                {translitTitle(item.m.title, settings.script)} · {item.m.titleEn}
+                {nameOf(item.m, settings.script)}{showEn ? ` · ${item.m.titleEn}` : ''}
                 {item.v?.n !== undefined ? ` · ${item.v.n}` : ''}
               </Text>
               <Pressable hitSlop={10} onPress={() => toggleBookmark(item.m.id, item.b.key)} accessibilityLabel={tr('Remove bookmark')}>

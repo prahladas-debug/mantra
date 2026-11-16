@@ -61,7 +61,7 @@ export function DisplayPanel({
               return (
                 <Pressable key={sc.id} onPress={() => update({ script: sc.id })} style={pill(active)} accessibilityRole="radio" accessibilityState={{ selected: active }}>
                   <Text style={{ color: active ? theme.onAccent : theme.text, fontSize: 15, fontFamily: scriptFont(sc.id, settings.bookFonts) }}>
-                    {sc.id === 'iast' ? tr('Roman') : sc.native}
+                    {sc.id === 'iast' ? 'IAST' : sc.id === 'english' ? 'English' : sc.native}
                   </Text>
                 </Pressable>
               );

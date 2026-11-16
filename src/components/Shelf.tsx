@@ -8,7 +8,8 @@ import { scriptFont } from '../lib/fonts';
 import { T, useI18n } from '../lib/i18n';
 import { categoryTitle } from '../lib/labels';
 import { useSettings } from '../lib/settings';
-import { translit, type ScriptId } from '../lib/transliterate';
+import { useShowEnglish } from './useGloss';
+import { translit, type ScriptId, isRoman } from '../lib/transliterate';
 
 type Icon = keyof typeof MaterialCommunityIcons.glyphMap;
 
@@ -67,7 +68,7 @@ export function coverLines(work: GreatWork, script: ScriptId): string[] {
     if (words.length > 1 && words.length <= 3) return words;
   }
   const lines = work.lines.map((l) => translit(l, script));
-  return script === 'iast' ? lines.map((l) => l.charAt(0).toUpperCase() + l.slice(1)) : lines;
+  return isRoman(script) ? lines.map((l) => l.charAt(0).toUpperCase() + l.slice(1)) : lines;
 }
 
 /** Cover art (assets/design/covers/build.js draws it): cloth, frame and an emblem for the work. */
@@ -89,6 +90,7 @@ const COVER_ART: Record<string, ImageSourcePropType> = {
 export function BookCover({ work, width = 156, still }: { work: GreatWork; width?: number; /** Shown on the work's own page: not a link. */ still?: boolean }) {
   const { settings } = useSettings();
   const { tr } = useI18n();
+  const showEn = useShowEnglish();
   if (work.textId && !getMantraInfo(work.textId)) return null;
   // A long work shows once its book.json is in (scripts/build-books.ts), even before its sargas are.
   if (work.category && isBookWork(work.category) && !bookWork(work.category)) return null;
@@ -102,7 +104,7 @@ export function BookCover({ work, width = 156, still }: { work: GreatWork; width
       disabled={still}
       onPress={() => router.push((work.category ? `/category/${work.category}` : `/mantra/${work.textId}`) as Href)}
       accessibilityRole={still ? 'image' : 'link'}
-      accessibilityLabel={[work.titleEn, tr(work.size), work.about && tr(work.about)].filter(Boolean).join(', ')}
+      accessibilityLabel={[showEn || isRoman(settings.script) ? work.titleEn : coverLines(work, settings.script).join(' '), tr(work.size), work.about && tr(work.about)].filter(Boolean).join(', ')}
       style={({ pressed }) => [c.cover, { width, height, backgroundColor: work.cloth, opacity: pressed ? 0.85 : 1 }]}
     >
       <ImageBackground source={COVER_ART[work.category ?? work.textId!]} style={{ width, height }} resizeMode="cover">
@@ -122,7 +124,7 @@ export function BookCover({ work, width = 156, still }: { work: GreatWork; width
             ))}
           </View>
           <View style={[c.rule, { backgroundColor: GOLD }]} />
-          {!small && (
+          {!small && showEn && (
             <Text style={{ color: CREAM, fontSize: 11.5, fontWeight: '600', textAlign: 'center' }} numberOfLines={1} adjustsFontSizeToFit minimumFontScale={0.8}>
               {work.titleEn}
             </Text>
@@ -153,6 +155,7 @@ const BANNER_ART: Partial<Record<CategoryId, ImageSourcePropType>> = {
 export function BookBanner({ category, firstId, lastId, lastLabel }: { category: CategoryId; firstId: string; lastId?: string; lastLabel?: string }) {
   const { settings } = useSettings();
   const { tr } = useI18n();
+  const showEn = useShowEnglish();
   const work = GREAT_WORKS.find((w) => w.category === category);
   const art = BANNER_ART[category];
   if (!work || !art) return null;
@@ -169,9 +172,11 @@ export function BookBanner({ category, firstId, lastId, lastLabel }: { category:
             {line}
           </Text>
         ))}
-        <Text style={{ color: CREAM, fontSize: 14, fontWeight: '600', marginTop: 2 }} numberOfLines={1}>
-          {work.titleEn}
-        </Text>
+        {showEn && (
+          <Text style={{ color: CREAM, fontSize: 14, fontWeight: '600', marginTop: 2 }} numberOfLines={1}>
+            {work.titleEn}
+          </Text>
+        )}
         <Text style={{ color: GOLD, fontSize: 12, marginTop: 1 }} numberOfLines={2}>
           {[tr(work.size), work.about && tr(work.about)].filter(Boolean).join(' · ')}
         </Text>
@@ -218,7 +223,7 @@ export function DeityMedallion({ deity, width = 76 }: { deity: DeityGroup; width
     <Pressable
       onPress={() => router.push(`/deity/${deity.id}` as Href)}
       accessibilityRole="link"
-      accessibilityLabel={deity.titleEn}
+      accessibilityLabel={translit(deity.short ?? deity.title, settings.script)}
       style={({ pressed }) => ({ width, alignItems: 'center', opacity: pressed ? 0.7 : 1 })}
     >
       <Image source={DEITY_ART[deity.id]} style={{ width: d, height: d, borderRadius: d / 2 }} />
@@ -254,6 +259,7 @@ export const CATEGORY_ICONS: Record<CategoryId, Icon> = {
 export function CategoryTile({ id, wide }: { id: CategoryId; wide?: boolean }) {
   const { theme, settings } = useSettings();
   const { tr } = useI18n();
+  const showEn = useShowEnglish();
   const cat = categoryById[id];
   const count = categoryCounts()[id];
   const font = scriptFont(settings.script, settings.bookFonts);
@@ -262,7 +268,7 @@ export function CategoryTile({ id, wide }: { id: CategoryId; wide?: boolean }) {
     <Pressable
       onPress={() => router.push(`/category/${id}` as Href)}
       accessibilityRole="link"
-      accessibilityLabel={tr('{title}, {count} texts', { title: cat.titleEn, count })}
+      accessibilityLabel={tr('{title}, {count} texts', { title: categoryTitle(cat, settings.script), count })}
       style={({ pressed }) => [c.tile, { width: wide ? '100%' : '48.5%', backgroundColor: theme.card, borderColor: theme.cardBorder, opacity: pressed ? 0.7 : 1 }]}
     >
       <View style={[c.iconSmall, { backgroundColor: theme.goldSoft }]}>
@@ -273,11 +279,13 @@ export function CategoryTile({ id, wide }: { id: CategoryId; wide?: boolean }) {
           {categoryTitle(cat, settings.script)}
         </Text>
         <View style={{ flexDirection: 'row' }}>
-          <Text style={{ color: theme.textMuted, fontSize: 12, flexShrink: 1 }} numberOfLines={1}>
-            {cat.titleEn}
-          </Text>
+          {showEn && (
+            <Text style={{ color: theme.textMuted, fontSize: 12, flexShrink: 1 }} numberOfLines={1}>
+              {cat.titleEn}
+            </Text>
+          )}
           <Text style={{ color: theme.textMuted, fontSize: 12, flexShrink: 0 }} numberOfLines={1}>
-            {` · ${count}`}
+            {showEn ? ` · ${count}` : String(count)}
           </Text>
         </View>
       </View>

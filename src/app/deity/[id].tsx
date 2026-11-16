@@ -8,30 +8,34 @@ import { scriptFont } from '../../lib/fonts';
 import { foldMixed } from '../../lib/groups';
 import { useI18n } from '../../lib/i18n';
 import { useSettings } from '../../lib/settings';
+import { categoryTitle } from '../../lib/labels';
 import { translit } from '../../lib/transliterate';
+import { useShowEnglish } from '../../components/useGloss';
 
 /** Every text for a deity, under the library section it belongs to. */
 export default function DeityScreen() {
   const { id } = useLocalSearchParams<{ id: string }>();
   const { theme, settings } = useSettings();
-  const { tr } = useI18n();
+  const { lang, tr } = useI18n();
+  const showEn = useShowEnglish();
   const group = DEITIES.find((d) => d.id === id);
   const all = group ? ALL_MANTRAS.filter((m) => deitiesOf(m).includes(group.id)) : [];
   const cats = [...new Set(all.map((m) => m.category))];
   return (
     <ScrollView style={{ backgroundColor: theme.bg }} contentContainerStyle={{ paddingBottom: 32 }}>
-      <Stack.Screen options={{ title: group?.titleEn ?? tr('Not found') }} />
+      <Stack.Screen options={{ title: group ? (lang === 'en' ? group.titleEn : translit(group.title, settings.script)) : tr('Not found') }} />
       {group && (
         <View style={{ paddingHorizontal: 16, paddingTop: 14 }}>
           <Text style={{ color: theme.accent, fontSize: 26, fontFamily: scriptFont(settings.script, settings.bookFonts) }}>{translit(group.title, settings.script)}</Text>
           <Text style={{ color: theme.textMuted, fontSize: 14 }}>
-            {group.titleEn} · {tr('{n} texts', { n: all.length })}
+            {showEn ? `${group.titleEn} · ` : ''}
+            {tr('{n} texts', { n: all.length })}
           </Text>
         </View>
       )}
       {cats.map((c) => (
         <View key={c}>
-          <SectionHeading>{categoryById[c].titleEn}</SectionHeading>
+          <SectionHeading>{lang === 'en' ? categoryById[c].titleEn : categoryTitle(categoryById[c], settings.script)}</SectionHeading>
           <EntryCard entries={foldMixed(all.filter((m) => m.category === c))} />
         </View>
       ))}
