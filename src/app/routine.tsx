@@ -1,4 +1,4 @@
-import { Ionicons } from '@expo/vector-icons';
+import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { useState } from 'react';
 import { FlatList, Pressable, Text, TextInput, View } from 'react-native';
 import { ALL_MANTRAS, getMantraInfo, scriptFor, search, type Mantra } from '../data';
@@ -41,7 +41,7 @@ export default function RoutineEditor() {
             {tr('Your routine appears on Home and in My practice as a checklist. It starts fresh each day at sunrise.')}
           </Text>
           {chosen.length > 0 && (
-            <View style={{ marginHorizontal: 16, borderRadius: 14, borderWidth: 1, borderColor: theme.cardBorder, backgroundColor: theme.card }}>
+            <View style={{ marginHorizontal: 16, borderRadius: 16, borderWidth: 1, borderColor: theme.cardBorder, backgroundColor: theme.card }}>
               {chosen.map((m, i) => (
                 <View key={m.id} style={{ flexDirection: 'row', alignItems: 'center', gap: 8, padding: 10, borderTopWidth: i ? 1 : 0, borderColor: theme.cardBorder }}>
                   <Text style={{ color: theme.textMuted, width: 20, textAlign: 'right' }}>{i + 1}</Text>
@@ -49,20 +49,20 @@ export default function RoutineEditor() {
                     {translitTitle(m.title, settings.script)}
                   </Text>
                   <Pressable onPress={() => move(i, -1)} hitSlop={8} accessibilityLabel={tr('Move up')} disabled={i === 0}>
-                    <Ionicons name="chevron-up" size={20} color={i === 0 ? theme.cardBorder : theme.textMuted} />
+                    <MaterialCommunityIcons name="chevron-up" size={22} color={i === 0 ? theme.cardBorder : theme.textMuted} />
                   </Pressable>
                   <Pressable onPress={() => move(i, 1)} hitSlop={8} accessibilityLabel={tr('Move down')} disabled={i === chosen.length - 1}>
-                    <Ionicons name="chevron-down" size={20} color={i === chosen.length - 1 ? theme.cardBorder : theme.textMuted} />
+                    <MaterialCommunityIcons name="chevron-down" size={22} color={i === chosen.length - 1 ? theme.cardBorder : theme.textMuted} />
                   </Pressable>
                   <Pressable onPress={() => setRoutine(routine.filter((x) => x !== m.id))} hitSlop={8} accessibilityLabel={tr('Remove')}>
-                    <Ionicons name="close-circle" size={20} color={theme.textMuted} />
+                    <MaterialCommunityIcons name="close-circle" size={22} color={theme.textMuted} />
                   </Pressable>
                 </View>
               ))}
             </View>
           )}
           <View style={{ flexDirection: 'row', alignItems: 'center', margin: 16, marginBottom: 6, paddingHorizontal: 12, borderRadius: 12, borderWidth: 1, borderColor: theme.cardBorder, backgroundColor: theme.card }}>
-            <Ionicons name="search" size={18} color={theme.textMuted} />
+            <MaterialCommunityIcons name="magnify" size={20} color={theme.accent} />
             <TextInput
               value={q}
               onChangeText={setQ}
@@ -82,7 +82,7 @@ export default function RoutineEditor() {
           accessibilityRole="button"
           accessibilityLabel={tr('Add {title}', { title: item.titleEn })}
         >
-          <Ionicons name="add-circle-outline" size={22} color={theme.accent} />
+          <MaterialCommunityIcons name="plus-circle-outline" size={24} color={theme.accent} />
           <View style={{ flex: 1 }}>
             <Text style={{ color: theme.text, fontSize: 16, fontFamily: fontOf(item) }} numberOfLines={1}>
               {translitTitle(item.title, settings.script)}

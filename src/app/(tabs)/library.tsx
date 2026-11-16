@@ -1,4 +1,4 @@
-import { Ionicons } from '@expo/vector-icons';
+import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { router, type Href } from 'expo-router';
 import { Pressable, ScrollView, StyleSheet, Text, View, useWindowDimensions } from 'react-native';
 import { BookCover, CategoryTile, DeityMedallion, ShelfHeading, greatWorks } from '../../components/Shelf';
@@ -30,7 +30,7 @@ export default function Library() {
   return (
     <ScrollView style={{ backgroundColor: theme.bg }} contentContainerStyle={{ paddingTop: 8, paddingBottom: 32 }}>
       <Pressable onPress={() => router.push('/search')} style={[s.search, { backgroundColor: theme.card, borderColor: theme.cardBorder }]} accessibilityRole="search">
-        <Ionicons name="search" size={18} color={theme.textMuted} />
+        <MaterialCommunityIcons name="magnify" size={20} color={theme.accent} />
         <Text style={{ color: theme.textMuted, fontSize: 16 }}>{tr('Search texts, names, verses')}</Text>
       </Pressable>
 

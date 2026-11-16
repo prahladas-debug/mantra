@@ -1,4 +1,4 @@
-import { Ionicons } from '@expo/vector-icons';
+import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { router, type Href } from 'expo-router';
 import { useState } from 'react';
 import { Pressable, StyleSheet, Text, View } from 'react-native';
@@ -59,8 +59,8 @@ export function TextRow({ mantra, subtitle, badge, divider, indent }: { mantra: 
           {subtitleFor(mantra, tr, subtitle)}
         </Text>
       </View>
-      {favorites.includes(mantra.id) && <Ionicons name="star" size={15} color={theme.accent} />}
-      <Ionicons name="chevron-forward" size={17} color={theme.textMuted} />
+      {favorites.includes(mantra.id) && <MaterialCommunityIcons name="star" size={17} color={theme.gold} />}
+      <MaterialCommunityIcons name="chevron-right" size={19} color={theme.textMuted} />
     </Pressable>
   );
 }
@@ -93,7 +93,7 @@ function SeriesRow({ entry, divider }: { entry: Entry; divider?: boolean }) {
             {tr('{en} · {n} parts', { en, n: parts.length })}
           </Text>
         </View>
-        <Ionicons name={open ? 'chevron-up' : 'chevron-down'} size={17} color={theme.accent} />
+        <MaterialCommunityIcons name={open ? 'chevron-up' : 'chevron-down'} size={19} color={theme.accent} />
       </Pressable>
       {open && parts.map((m, i) => <TextRow key={m.id} mantra={m} divider indent badge={String(m.order ?? i + 1)} />)}
     </View>
@@ -123,7 +123,7 @@ export function EntryCard({ entries, numbered }: { entries: Entry[]; numbered?: 
 }
 
 const s = StyleSheet.create({
-  card: { marginHorizontal: 16, borderRadius: 14, borderWidth: 1, overflow: 'hidden' },
+  card: { marginHorizontal: 16, borderRadius: 16, borderWidth: 1, overflow: 'hidden' },
   row: { flexDirection: 'row', alignItems: 'center', gap: 10, paddingVertical: 10, paddingRight: 12, paddingLeft: 14 },
   badge: { minWidth: 30, height: 30, borderRadius: 15, alignItems: 'center', justifyContent: 'center', paddingHorizontal: 6 },
 });

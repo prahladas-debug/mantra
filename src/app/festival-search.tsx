@@ -1,8 +1,9 @@
-import { Ionicons } from '@expo/vector-icons';
+import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { router, useLocalSearchParams, type Href } from 'expo-router';
 import { useEffect, useMemo, useState } from 'react';
 import { FlatList, Pressable, Text, TextInput, View } from 'react-native';
 import { useCalcMethod, useCalendarMode, useEkadashiRule, useSauraStart } from '../components/PanchangaCard';
+import { SectionHeading } from '../components/ui';
 import { useI18n } from '../lib/i18n';
 import { festivalsBetween, type Festival } from '../lib/festivals';
 import { cityById, todayIn, type CalcMethod } from '../lib/panchanga';
@@ -103,7 +104,7 @@ export default function FestivalSearch() {
       ListHeaderComponent={
         <View>
           <View style={{ flexDirection: 'row', alignItems: 'center', margin: 16, marginBottom: 6, paddingHorizontal: 12, borderRadius: 12, borderWidth: 1, borderColor: theme.cardBorder, backgroundColor: theme.card }}>
-            <Ionicons name="search" size={18} color={theme.textMuted} />
+            <MaterialCommunityIcons name="magnify" size={20} color={theme.textMuted} />
             <TextInput
               value={q}
               onChangeText={setQ}
@@ -136,7 +137,7 @@ export default function FestivalSearch() {
         const firstPast = past && (index === 0 || (results[index - 1].endDate ?? results[index - 1].date) >= today);
         return (
           <View>
-            {firstPast && <Text style={{ color: theme.textMuted, fontSize: 12, fontWeight: '700', letterSpacing: 0.8, marginHorizontal: 16, marginTop: 14, marginBottom: 4 }}>{tr('Earlier').toUpperCase()}</Text>}
+            {firstPast && <SectionHeading>{tr('Earlier')}</SectionHeading>}
             <Pressable
               onPress={() => router.push({ pathname: '/panchanga', params: { date: f.date } } as Href)}
               style={({ pressed }) => ({ flexDirection: 'row', alignItems: 'center', gap: 12, marginHorizontal: 16, marginBottom: 8, padding: 12, borderRadius: 12, borderWidth: 1, borderColor: theme.cardBorder, backgroundColor: theme.card, opacity: pressed ? 0.6 : past ? 0.7 : 1 })}
@@ -151,7 +152,7 @@ export default function FestivalSearch() {
                 <Text style={{ color: theme.textMuted, fontSize: 13 }} numberOfLines={2}>{lang === 'en' ? plain(f.en) : has(f.en) ? tr(f.en) : ''}</Text>
                 {f.parana && <Text style={{ color: theme.textMuted, fontSize: 12 }}>{tr('Parana {label}', { label: f.parana.label })}</Text>}
               </View>
-              <Ionicons name="chevron-forward" size={18} color={theme.textMuted} />
+              <MaterialCommunityIcons name="chevron-right" size={20} color={theme.textMuted} />
             </Pressable>
           </View>
         );

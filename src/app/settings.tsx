@@ -1,10 +1,10 @@
-import { Ionicons } from '@expo/vector-icons';
+import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { router } from 'expo-router';
 import { useState } from 'react';
 import { Alert, Linking, Pressable, ScrollView, StyleSheet, Switch, Text, View } from 'react-native';
 import { CityPicker } from '../components/CalendarBar';
 import { ThemeSwatches } from '../components/reader/DisplayPanel';
-import { Segmented } from '../components/ui';
+import { SectionHeading, Segmented } from '../components/ui';
 import { leading, scriptFont } from '../lib/fonts';
 import { MEANING_PREFS } from '../lib/meaning';
 import { cityById, cityLabel } from '../lib/panchanga';
@@ -42,10 +42,8 @@ function Pills<T extends string | null>({ options, value, onChange }: { options:
 function Group({ title, children, note }: { title: string; children: React.ReactNode; note?: string }) {
   const { theme } = useSettings();
   return (
-    <View style={{ marginTop: 22 }}>
-      <Text style={[s.groupTitle, { color: theme.textMuted }]} accessibilityRole="header">
-        {title}
-      </Text>
+    <View>
+      <SectionHeading>{title}</SectionHeading>
       <View style={[s.card, { backgroundColor: theme.card, borderColor: theme.cardBorder }]}>{children}</View>
       {note && <Text style={[s.note, { color: theme.textMuted }]}>{note}</Text>}
     </View>
@@ -112,7 +110,7 @@ export default function SettingsScreen() {
           <Pills options={UI_PREFS.map((m) => ({ id: m.id, label: m.id === 'auto' ? tr('Auto') : m.label }))} value={settings.uiLang ?? 'auto'} onChange={(v) => update({ uiLang: v })} />
         </Block>
         <Block label={tr('Meanings in')}>
-          <Pills options={MEANING_PREFS.map((m) => ({ id: m.id, label: m.id === 'auto' ? tr('Auto') : m.label }))} value={settings.meaningLang} onChange={(v) => update({ meaningLang: v })} />
+          <Pills options={MEANING_PREFS.map((m) => ({ id: m.id, label: m.id === 'auto' ? tr('Auto') : m.id === 'both' ? tr('Both') : m.label }))} value={settings.meaningLang} onChange={(v) => update({ meaningLang: v })} />
         </Block>
         <Block label={tr('Second script under each verse (for learning)')}>
           <Pills options={[{ id: null, label: tr('None') }, ...scripts]} value={settings.secondaryScript} onChange={(v) => update({ secondaryScript: v })} />
@@ -195,7 +193,7 @@ export default function SettingsScreen() {
 
       <Group title={tr('ABOUT')}>
         <Row first label={tr('About this app and sources')} onPress={() => router.push('/about')}>
-          <Ionicons name="chevron-forward" size={18} color={theme.textMuted} />
+          <MaterialCommunityIcons name="chevron-right" size={20} color={theme.textMuted} />
         </Row>
       </Group>
     </ScrollView>
@@ -203,8 +201,7 @@ export default function SettingsScreen() {
 }
 
 const s = StyleSheet.create({
-  groupTitle: { fontSize: 12, fontWeight: '700', letterSpacing: 0.8, marginHorizontal: 28, marginBottom: 6 },
-  card: { marginHorizontal: 16, borderRadius: 14, borderWidth: 1, overflow: 'hidden' },
+  card: { marginHorizontal: 16, borderRadius: 16, borderWidth: 1, overflow: 'hidden' },
   note: { fontSize: 13, lineHeight: 18, marginHorizontal: 28, marginTop: 6 },
   row: { flexDirection: 'row', alignItems: 'center', gap: 12, minHeight: 50, paddingHorizontal: 14, paddingVertical: 6 },
   block: { paddingHorizontal: 14, paddingVertical: 12 },

@@ -1,4 +1,4 @@
-import { Ionicons } from '@expo/vector-icons';
+import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { router, Stack } from 'expo-router';
 import { Pressable, ScrollView, Text } from 'react-native';
 import { PlanCard } from '../components/PlanCard';
@@ -18,7 +18,7 @@ export default function ParayanaScreen() {
           flexDirection: 'row', alignItems: 'center', justifyContent: 'center', gap: 8,
         })}
       >
-        <Ionicons name="add" size={20} color={theme.onAccent} />
+        <MaterialCommunityIcons name="plus" size={22} color={theme.onAccent} />
         <Text style={{ color: theme.onAccent, fontSize: 16, fontWeight: '700' }}>{tr('New parayana')}</Text>
       </Pressable>
       {plans.length === 0 && (

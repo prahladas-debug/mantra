@@ -1,4 +1,4 @@
-import { Ionicons } from '@expo/vector-icons';
+import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { Modal, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import type { Mantra } from '../../data';
@@ -41,7 +41,7 @@ export function ContentsSheet({ visible, onClose, mantra, rows, onJump }: { visi
                 <Text style={{ color: theme.text, fontSize: 15, flex: 1 }} numberOfLines={1}>
                   {s.titleEn ?? translit(s.title!, settings.script)}
                 </Text>
-                <Ionicons name="chevron-forward" size={16} color={theme.textMuted} />
+                <MaterialCommunityIcons name="chevron-right" size={18} color={theme.textMuted} />
               </Pressable>
             ))}
           </View>

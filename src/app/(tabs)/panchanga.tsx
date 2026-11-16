@@ -1,4 +1,4 @@
-import { Ionicons } from '@expo/vector-icons';
+import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { router, useLocalSearchParams, type Href } from 'expo-router';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { useMemo, useState } from 'react';
@@ -28,7 +28,7 @@ function Table({ rows }: { rows: Row[] }) {
   const { lang, tr } = useI18n();
   const roman = settings.script === 'iast' || lang !== 'en';
   return (
-    <View style={{ marginHorizontal: 16, borderRadius: 14, borderWidth: 1, borderColor: theme.cardBorder, backgroundColor: theme.card }}>
+    <View style={{ marginHorizontal: 16, borderRadius: 16, borderWidth: 1, borderColor: theme.cardBorder, backgroundColor: theme.card }}>
       {rows.map(([l, value, tone], i) => (
         <View
           key={l[0]}
@@ -89,7 +89,7 @@ export default function PanchangaScreen() {
   const tm = (d: Date) => formatTime(d, city, date, lang);
   const [y, m, d] = parseIso(date);
 
-  const card = { marginHorizontal: 16, borderRadius: 14, borderWidth: 1, borderColor: theme.cardBorder, backgroundColor: theme.card } as const;
+  const card = { marginHorizontal: 16, borderRadius: 16, borderWidth: 1, borderColor: theme.cardBorder, backgroundColor: theme.card } as const;
 
   // The five limbs, each with every element from sunrise to the next sunrise and its end time.
   const until = (spans: Span[]) => spans.map((s) => `${t(s.name)} · ${tr('till {time}', { time: tm(s.end) })}`).join('\n');
@@ -145,7 +145,7 @@ export default function PanchangaScreen() {
             hitSlop={8}
             style={({ pressed }) => ({ padding: 8, borderRadius: 18, borderWidth: 1, borderColor: theme.cardBorder, backgroundColor: theme.card, opacity: pressed ? 0.6 : 1 })}
           >
-            <Ionicons name="search" size={18} color={theme.accent} />
+            <MaterialCommunityIcons name="magnify" size={20} color={theme.accent} />
           </Pressable>
           <Pressable
             onPress={() => router.push({ pathname: '/calendar', params: { month: date.slice(0, 7) } } as Href)}
@@ -154,14 +154,14 @@ export default function PanchangaScreen() {
             hitSlop={8}
             style={({ pressed }) => ({ padding: 8, borderRadius: 18, borderWidth: 1, borderColor: theme.cardBorder, backgroundColor: theme.card, opacity: pressed ? 0.6 : 1 })}
           >
-            <Ionicons name="calendar-outline" size={18} color={theme.accent} />
+            <MaterialCommunityIcons name="calendar-month-outline" size={20} color={theme.accent} />
           </Pressable>
           </View>
         }
       />
 
       <View style={{ flexDirection: 'row', alignItems: 'center', gap: 10, marginHorizontal: 16, marginTop: 12 }}>
-        <NavButton icon="chevron-back" label={tr('Previous day')} onPress={() => setPicked(addDays(date, -1))} />
+        <NavButton icon="chevron-left" label={tr('Previous day')} onPress={() => setPicked(addDays(date, -1))} />
         <Pressable style={{ flex: 1, alignItems: 'center' }} onPress={() => date !== today && setPicked(today)} accessibilityRole="button" accessibilityLabel={date !== today ? tr('Back to today') : undefined}>
           <Text style={{ color: theme.text, fontSize: 18, fontWeight: '700' }}>
             {longDate(y, m, d, p.weekday)}
@@ -171,11 +171,11 @@ export default function PanchangaScreen() {
             {date !== today ? <Text style={{ color: theme.accent }}>{`  ·  ${tr('back to today')}`}</Text> : null}
           </Text>
         </Pressable>
-        <NavButton icon="chevron-forward" label={tr('Next day')} onPress={() => setPicked(addDays(date, 1))} />
+        <NavButton icon="chevron-right" label={tr('Next day')} onPress={() => setPicked(addDays(date, 1))} />
       </View>
 
       {todays.length > 0 && (
-        <View style={[card, { marginTop: 14, padding: 12, borderColor: theme.accent, backgroundColor: theme.accentSoft }]}>
+        <View style={[card, { marginTop: 14, padding: 12, borderColor: theme.accent, backgroundColor: theme.goldSoft }]}>
           {todays.map((f) => (
             <View key={f.key}>
               <FestivalLine f={f} showNote />

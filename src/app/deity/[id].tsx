@@ -1,6 +1,7 @@
 import { Stack, useLocalSearchParams } from 'expo-router';
 import { ScrollView, Text, View } from 'react-native';
 import { EntryCard } from '../../components/TextList';
+import { SectionHeading } from '../../components/ui';
 import { ALL_MANTRAS, categoryById } from '../../data';
 import { DEITIES, deitiesOf } from '../../lib/deities';
 import { scriptFont } from '../../lib/fonts';
@@ -29,8 +30,8 @@ export default function DeityScreen() {
         </View>
       )}
       {cats.map((c) => (
-        <View key={c} style={{ marginTop: 16 }}>
-          <Text style={{ color: theme.textMuted, fontSize: 12, fontWeight: '700', letterSpacing: 0.8, marginHorizontal: 16, marginBottom: 6 }}>{categoryById[c].titleEn.toUpperCase()}</Text>
+        <View key={c}>
+          <SectionHeading>{categoryById[c].titleEn}</SectionHeading>
           <EntryCard entries={foldMixed(all.filter((m) => m.category === c))} />
         </View>
       ))}

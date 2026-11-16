@@ -1,4 +1,4 @@
-import { Ionicons } from '@expo/vector-icons';
+import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { Stack, router, useLocalSearchParams, type Href } from 'expo-router';
 import { useState } from 'react';
 import { Pressable, ScrollView, Text, View } from 'react-native';
@@ -98,7 +98,7 @@ export default function CalendarScreen() {
       <Stack.Screen options={{ title: tr('Calendar') }} />
 
       <View style={{ flexDirection: 'row', alignItems: 'center', gap: 10, marginHorizontal: 16, marginTop: 12 }}>
-        <NavButton icon="chevron-back" label={tr('Previous month')} onPress={() => setPicked(shiftMonth(month, -1))} />
+        <NavButton icon="chevron-left" label={tr('Previous month')} onPress={() => setPicked(shiftMonth(month, -1))} />
         <View style={{ flex: 1, alignItems: 'center' }}>
           <Text style={{ color: theme.text, fontSize: 18, fontWeight: '700' }}>
             {monthOf(m)} {y}
@@ -107,7 +107,7 @@ export default function CalendarScreen() {
             {t(lunarLabel)}
           </Text>
         </View>
-        <NavButton icon="chevron-forward" label={tr('Next month')} onPress={() => setPicked(shiftMonth(month, 1))} />
+        <NavButton icon="chevron-right" label={tr('Next month')} onPress={() => setPicked(shiftMonth(month, 1))} />
       </View>
 
       <CalendarBar
@@ -119,7 +119,7 @@ export default function CalendarScreen() {
             hitSlop={8}
             style={({ pressed }) => ({ padding: 8, borderRadius: 18, borderWidth: 1, borderColor: theme.cardBorder, backgroundColor: theme.card, opacity: pressed ? 0.6 : 1 })}
           >
-            <Ionicons name="list" size={18} color={theme.accent} />
+            <MaterialCommunityIcons name="format-list-bulleted" size={20} color={theme.accent} />
           </Pressable>
         }
       />
@@ -186,7 +186,7 @@ export default function CalendarScreen() {
       </View>
 
       <SectionHeading>{tr('This month')}</SectionHeading>
-      <View style={{ marginHorizontal: 16, borderRadius: 14, borderWidth: 1, borderColor: theme.cardBorder, backgroundColor: theme.card, paddingHorizontal: 12, paddingVertical: 8 }}>
+      <View style={{ marginHorizontal: 16, borderRadius: 16, borderWidth: 1, borderColor: theme.cardBorder, backgroundColor: theme.card, paddingHorizontal: 12, paddingVertical: 8 }}>
         {festivals.length === 0 && <Text style={{ color: theme.textMuted }}>{tr('No listed festivals.')}</Text>}
         {festivals.map((f) => (
           <View key={`${f.key}-${f.date}`} style={{ paddingVertical: 2 }}>

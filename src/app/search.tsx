@@ -1,4 +1,4 @@
-import { Ionicons } from '@expo/vector-icons';
+import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { router, type Href } from 'expo-router';
 import { useDeferredValue, useMemo, useState } from 'react';
 import { FlatList, Pressable, Text, TextInput, View } from 'react-native';
@@ -18,7 +18,7 @@ export default function SearchScreen() {
   return (
     <View style={{ flex: 1, backgroundColor: theme.bg }}>
       <View style={{ flexDirection: 'row', alignItems: 'center', gap: 8, margin: 16, paddingHorizontal: 12, borderRadius: 12, borderWidth: 1, backgroundColor: theme.card, borderColor: theme.cardBorder }}>
-        <Ionicons name="search" size={18} color={theme.textMuted} />
+        <MaterialCommunityIcons name="magnify" size={20} color={theme.accent} />
         <TextInput
           autoFocus
           value={query}
@@ -48,7 +48,7 @@ export default function SearchScreen() {
           item.verse ? (
               <Pressable
                 onPress={() => router.push(`/mantra/${item.mantra.id}?si=${item.verse!.sectionIndex}&vi=${item.verse!.verseIndex}` as Href)}
-                style={{ marginHorizontal: 16, marginBottom: 10, padding: 14, borderRadius: 14, borderWidth: 1, backgroundColor: theme.card, borderColor: theme.cardBorder }}>
+                style={{ marginHorizontal: 16, marginBottom: 10, padding: 14, borderRadius: 16, borderWidth: 1, backgroundColor: theme.card, borderColor: theme.cardBorder }}>
                 <Text style={{ color: theme.accent, fontSize: 13, fontWeight: '600', marginBottom: 4 }}>
                   {item.mantra.titleEn}
                   {item.verse.n !== undefined ? ` · ${tr('verse {n}', { n: item.verse.n })}` : ''}

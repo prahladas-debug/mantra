@@ -1,14 +1,14 @@
-import { Ionicons } from '@expo/vector-icons';
 import { Tabs } from 'expo-router';
 import type { ColorValue } from 'react-native';
+import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { useI18n } from '../../lib/i18n';
 import { useSettings } from '../../lib/settings';
 
-type Icon = keyof typeof Ionicons.glyphMap;
-const icon = (name: Icon, focused: Icon) =>
-  function TabIcon({ color, focused: f, size }: { color: ColorValue; focused: boolean; size: number }) {
-    return <Ionicons name={f ? focused : name} size={size} color={color as string} />;
+type Mdi = keyof typeof MaterialCommunityIcons.glyphMap;
+const icon = (name: Mdi, focused: Mdi = name) =>
+  function TabIcon({ color, focused: f }: { color: ColorValue; focused: boolean; size: number }) {
+    return <MaterialCommunityIcons name={f ? focused : name} size={25} color={color as string} />;
   };
 
 /** Four tabs: Home, Panchanga, Library, My practice. Everything else opens on top of them. */
@@ -37,10 +37,10 @@ export default function TabLayout() {
         tabBarLabelStyle: { fontSize: 12 },
       }}
     >
-      <Tabs.Screen name="index" options={{ title: tr('Home'), headerShown: false, tabBarIcon: icon('home-outline', 'home') }} />
-      <Tabs.Screen name="panchanga" options={{ title: tr('Panchanga'), headerShown: false, tabBarIcon: icon('sunny-outline', 'sunny') }} />
-      <Tabs.Screen name="library" options={{ title: tr('Library'), tabBarIcon: icon('library-outline', 'library') }} />
-      <Tabs.Screen name="practice" options={{ title: tr('My practice'), tabBarIcon: icon('flower-outline', 'flower') }} />
+      <Tabs.Screen name="index" options={{ title: tr('Home'), headerShown: false, tabBarIcon: icon('temple-hindu-outline', 'temple-hindu') }} />
+      <Tabs.Screen name="panchanga" options={{ title: tr('Panchanga'), headerShown: false, tabBarIcon: icon('weather-sunny') }} />
+      <Tabs.Screen name="library" options={{ title: tr('Library'), tabBarIcon: icon('book-open-page-variant-outline', 'book-open-page-variant') }} />
+      <Tabs.Screen name="practice" options={{ title: tr('My practice'), tabBarIcon: icon('meditation') }} />
     </Tabs>
   );
 }

@@ -1,4 +1,4 @@
-import { Ionicons } from '@expo/vector-icons';
+import { MaterialCommunityIcons } from '@expo/vector-icons';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { router, type Href } from 'expo-router';
 import { useCallback, useMemo, useState, useSyncExternalStore } from 'react';
@@ -114,7 +114,7 @@ function usePanchanga() {
 }
 
 /** Round ‹ / › button for day and month navigation. */
-export function NavButton({ icon, label, onPress }: { icon: 'chevron-back' | 'chevron-forward'; label: string; onPress: () => void }) {
+export function NavButton({ icon, label, onPress }: { icon: 'chevron-left' | 'chevron-right'; label: string; onPress: () => void }) {
   const { theme } = useSettings();
   return (
     <Pressable
@@ -126,7 +126,7 @@ export function NavButton({ icon, label, onPress }: { icon: 'chevron-back' | 'ch
         padding: 8, borderRadius: 20, borderWidth: 1, borderColor: theme.cardBorder, backgroundColor: theme.card, opacity: pressed ? 0.6 : 1,
       })}
     >
-      <Ionicons name={icon} size={20} color={theme.accent} />
+      <MaterialCommunityIcons name={icon} size={22} color={theme.accent} />
     </Pressable>
   );
 }
@@ -169,7 +169,7 @@ export function FestivalLine({ f, showDate, showNote }: { f: Festival; showDate?
         </Pressable>
         {(note || pNote) && !showNote ? (
           <Pressable onPress={() => setOpen(!open)} hitSlop={10} accessibilityRole="button" accessibilityLabel={open ? tr('Hide details') : tr('Show details')}>
-            <Ionicons name={open ? 'information-circle' : 'information-circle-outline'} size={20} color={theme.textMuted} />
+            <MaterialCommunityIcons name={open ? 'information' : 'information-outline'} size={22} color={theme.textMuted} />
           </Pressable>
         ) : null}
       </View>
@@ -205,7 +205,7 @@ export function TodayCard() {
   const t = (s: string) => translit(s, settings.script);
   const read = (id: string | undefined) => (id ? getMantraInfo(id) : undefined);
   return (
-    <View style={{ marginHorizontal: 16, marginTop: 16, borderRadius: 14, borderWidth: 1, backgroundColor: theme.card, borderColor: theme.cardBorder, overflow: 'hidden' }}>
+    <View style={{ marginHorizontal: 16, marginTop: 16, borderRadius: 16, borderWidth: 1, backgroundColor: theme.card, borderColor: theme.cardBorder, overflow: 'hidden' }}>
       {/* No date: the Panchanga tab then shows today, also tomorrow. `at` changes with every tap, so a day picked there earlier gives way. */}
       <Pressable onPress={() => router.push({ pathname: '/panchanga', params: { at: String(Date.now()) } } as Href)} style={({ pressed }) => ({ padding: 14, opacity: pressed ? 0.7 : 1 })} accessibilityRole="link">
         <Text style={{ color: theme.textMuted, fontSize: 12, fontWeight: '700', letterSpacing: 0.8 }}>
@@ -230,7 +230,7 @@ export function TodayCard() {
             style={({ pressed }) => ({ flexDirection: 'row', alignItems: 'center', gap: 10, paddingHorizontal: 14, paddingVertical: 10, borderTopWidth: 1, borderColor: theme.cardBorder, backgroundColor: theme.accentSoft, opacity: pressed ? 0.7 : 1 })}
             accessibilityRole={m ? 'link' : undefined}
           >
-            <Ionicons name={f.kind === 'ekadashi' ? 'moon-outline' : 'sparkles-outline'} size={18} color={theme.accent} />
+            <MaterialCommunityIcons name={f.kind === 'ekadashi' ? 'moon-waning-crescent' : 'creation-outline'} size={20} color={theme.gold} />
             <View style={{ flex: 1 }}>
               <Text style={{ color: theme.accent, fontSize: 16, fontWeight: '600' }}>{t(f.name)}</Text>
               {m && <Text style={{ color: theme.text, fontSize: 13 }}>{tr('Read: {title}', { title: lang === 'en' ? m.titleEn : translit(m.title, settings.script) })} ›</Text>}
@@ -248,7 +248,7 @@ export function TodayCard() {
       )}
       {breakFast && (
         <View style={{ flexDirection: 'row', alignItems: 'center', gap: 10, paddingHorizontal: 14, paddingVertical: 10, borderTopWidth: 1, borderColor: theme.cardBorder }}>
-          <Ionicons name="restaurant-outline" size={18} color={theme.accent} />
+          <MaterialCommunityIcons name="rice" size={20} color={theme.gold} />
           <Text style={{ color: theme.text, fontSize: 14, flex: 1 }}>
             {tr('Break the Ekadashi fast today:')} <Text style={{ fontWeight: '700' }}>{paranaTimes(breakFast, city, lang)}</Text>
             {breakFast.note ? <Text style={{ color: theme.textMuted, fontSize: 12 }}>{`\n${lang === 'en' ? plain(breakFast.note) : paranaNote(breakFast, city, lang)}`}</Text> : null}

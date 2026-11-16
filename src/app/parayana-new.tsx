@@ -90,7 +90,7 @@ export default function NewPlan() {
     else router.replace('/parayana');
   };
 
-  const card = { marginHorizontal: 16, marginBottom: 8, padding: 12, borderRadius: 12, borderWidth: 1 };
+  const card = { marginHorizontal: 16, marginBottom: 8, padding: 12, borderRadius: 16, borderWidth: 1 };
   return (
     <View style={{ flex: 1, backgroundColor: theme.bg }}>
       <Stack.Screen options={{ title: tr('New parayana') }} />

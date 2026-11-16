@@ -1,4 +1,4 @@
-import { Ionicons } from '@expo/vector-icons';
+import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { router, type Href } from 'expo-router';
 import { Image, ImageBackground, Pressable, StyleSheet, Text, View, type ImageSourcePropType } from 'react-native';
 import { categoryById, categoryCounts, getMantraInfo, type CategoryId } from '../data';
@@ -10,7 +10,7 @@ import { categoryTitle } from '../lib/labels';
 import { useSettings } from '../lib/settings';
 import { translit, type ScriptId } from '../lib/transliterate';
 
-type Icon = keyof typeof Ionicons.glyphMap;
+type Icon = keyof typeof MaterialCommunityIcons.glyphMap;
 
 /** The long works people read as parayana, shown as book covers. */
 export interface GreatWork {
@@ -230,24 +230,24 @@ export function DeityMedallion({ deity, width = 76 }: { deity: DeityGroup; width
 }
 
 export const CATEGORY_ICONS: Record<CategoryId, Icon> = {
-  nitya: 'sunny-outline',
-  sandhya: 'partly-sunny-outline',
-  puja: 'flower-outline',
-  stotra: 'book-outline',
-  sahasranama: 'list-outline',
-  vedic: 'flame-outline',
-  madhva: 'ribbon-outline',
-  'dasara-pada': 'musical-notes-outline',
-  kirtana: 'musical-note-outline',
-  samskara: 'people-outline',
-  homa: 'bonfire-outline',
-  gita: 'book-outline',
-  sundarakanda: 'book-outline',
-  devimahatmya: 'book-outline',
-  sumadhvavijaya: 'book-outline',
-  harikathamrutasara: 'book-outline',
-  ramayana: 'book-outline',
-  mahabharata: 'book-outline',
+  nitya: 'weather-sunset-up',
+  sandhya: 'hands-pray',
+  puja: 'oil-lamp',
+  stotra: 'spa-outline',
+  sahasranama: 'dots-circle',
+  vedic: 'om',
+  madhva: 'temple-hindu-outline',
+  'dasara-pada': 'music-note-outline',
+  kirtana: 'music-note-outline',
+  samskara: 'water-outline',
+  homa: 'fire',
+  gita: 'book-open-page-variant-outline',
+  sundarakanda: 'book-open-page-variant-outline',
+  devimahatmya: 'spa-outline',
+  sumadhvavijaya: 'book-open-page-variant-outline',
+  harikathamrutasara: 'book-open-page-variant-outline',
+  ramayana: 'book-open-page-variant-outline',
+  mahabharata: 'book-open-page-variant-outline',
 };
 
 /** A section of the library as a tile: icon, name in the reader's script, English name and size. */
@@ -265,8 +265,8 @@ export function CategoryTile({ id, wide }: { id: CategoryId; wide?: boolean }) {
       accessibilityLabel={tr('{title}, {count} texts', { title: cat.titleEn, count })}
       style={({ pressed }) => [c.tile, { width: wide ? '100%' : '48.5%', backgroundColor: theme.card, borderColor: theme.cardBorder, opacity: pressed ? 0.7 : 1 }]}
     >
-      <View style={[c.iconSmall, { backgroundColor: theme.accentSoft }]}>
-        <Ionicons name={CATEGORY_ICONS[id]} size={18} color={theme.accent} />
+      <View style={[c.iconSmall, { backgroundColor: theme.goldSoft }]}>
+        <MaterialCommunityIcons name={CATEGORY_ICONS[id]} size={20} color={theme.gold} />
       </View>
       <View style={{ flex: 1 }}>
         <Text style={{ color: theme.text, fontSize: 15, lineHeight: 23, fontFamily: font, fontWeight: font ? undefined : '600' }} numberOfLines={2}>
@@ -296,8 +296,8 @@ export function QuickTile({ icon, label, href }: { icon: Icon; label: string; hr
       accessibilityLabel={tr(label)}
       style={({ pressed }) => [c.quick, { backgroundColor: theme.card, borderColor: theme.cardBorder, opacity: pressed ? 0.7 : 1 }]}
     >
-      <View style={[c.iconWrap, { backgroundColor: theme.accentSoft }]}>
-        <Ionicons name={icon} size={20} color={theme.accent} />
+      <View style={[c.iconWrap, { backgroundColor: theme.goldSoft }]}>
+        <MaterialCommunityIcons name={icon} size={24} color={theme.gold} />
       </View>
       <Text style={{ color: theme.text, fontSize: 13, textAlign: 'center', marginTop: 6 }} numberOfLines={2}>
         {tr(label)}
@@ -312,8 +312,9 @@ export function ShelfHeading({ title, action, onAction }: { title: string; actio
   const { tr } = useI18n();
   return (
     <View style={c.heading}>
-      <Text style={{ flex: 1, color: theme.textMuted, fontSize: 12, fontWeight: '700', letterSpacing: 0.8 }} accessibilityRole="header">
-        {tr(title).toUpperCase()}
+      <MaterialCommunityIcons name="spa-outline" size={17} color={theme.gold} style={{ marginRight: 7 }} />
+      <Text style={{ flex: 1, color: theme.text, fontSize: 15, fontWeight: '700', letterSpacing: 0.3 }} accessibilityRole="header">
+        {tr(title)}
       </Text>
       {action && (
         <Pressable onPress={onAction} hitSlop={10} accessibilityRole="link">

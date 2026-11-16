@@ -1,4 +1,4 @@
-import { Ionicons } from '@expo/vector-icons';
+import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { router, type Href } from 'expo-router';
 import { useMemo, useState } from 'react';
 import { Pressable, StyleSheet, Text, TextInput, View } from 'react-native';
@@ -108,7 +108,7 @@ export function BookContents({ category, work }: { category: Category; work: Boo
 
       {written > 12 && (
         <View style={[s.search, { borderColor: theme.cardBorder, backgroundColor: theme.card }]}>
-          <Ionicons name="search" size={16} color={theme.textMuted} />
+          <MaterialCommunityIcons name="magnify" size={18} color={theme.accent} />
           <TextInput
             value={q}
             onChangeText={setQ}
@@ -120,7 +120,7 @@ export function BookContents({ category, work }: { category: Category; work: Boo
           />
           {q.length > 0 && (
             <Pressable onPress={() => setQ('')} hitSlop={10} accessibilityLabel={tr('Clear')}>
-              <Ionicons name="close-circle" size={17} color={theme.textMuted} />
+              <MaterialCommunityIcons name="close-circle" size={19} color={theme.textMuted} />
             </Pressable>
           )}
         </View>
@@ -162,7 +162,7 @@ export function BookContents({ category, work }: { category: Category; work: Boo
                     {ready ? sizes.join(' · ') : tr('{name} · to be added', { name: p.nameEn })}
                   </Text>
                 </View>
-                {ready && !filtering && <Ionicons name={linked ? 'chevron-forward' : expanded ? 'chevron-up' : 'chevron-down'} size={18} color={linked ? theme.textMuted : theme.accent} />}
+                {ready && !filtering && <MaterialCommunityIcons name={linked ? 'chevron-right' : expanded ? 'chevron-up' : 'chevron-down'} size={20} color={linked ? theme.textMuted : theme.accent} />}
               </Pressable>
               {expanded && (
                 <View>
@@ -190,7 +190,7 @@ export function BookContents({ category, work }: { category: Category; work: Boo
 
 const s = StyleSheet.create({
   search: { flexDirection: 'row', alignItems: 'center', marginHorizontal: 16, marginTop: 10, paddingHorizontal: 12, borderRadius: 12, borderWidth: 1 },
-  card: { marginHorizontal: 16, borderRadius: 14, borderWidth: 1, overflow: 'hidden' },
+  card: { marginHorizontal: 16, borderRadius: 16, borderWidth: 1, overflow: 'hidden' },
   part: { flexDirection: 'row', alignItems: 'center', gap: 10, paddingVertical: 12, paddingRight: 12, paddingLeft: 14 },
   badge: { width: 32, height: 32, borderRadius: 16, alignItems: 'center', justifyContent: 'center' },
 });

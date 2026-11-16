@@ -1,4 +1,4 @@
-import { Ionicons } from '@expo/vector-icons';
+import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { Stack, router, useLocalSearchParams, type Href } from 'expo-router';
 import { Pressable, ScrollView, Text, View } from 'react-native';
 import { getMantraInfo, scriptFor } from '../../data';
@@ -36,7 +36,7 @@ export default function CollectionScreen() {
         </Pressable>
       </View>
 
-      <View style={{ marginHorizontal: 16, borderRadius: 14, borderWidth: 1, borderColor: theme.cardBorder, backgroundColor: theme.card }}>
+      <View style={{ marginHorizontal: 16, borderRadius: 16, borderWidth: 1, borderColor: theme.cardBorder, backgroundColor: theme.card }}>
         {items.map((m, i) => (
           <Pressable
             key={m.id}
@@ -52,7 +52,7 @@ export default function CollectionScreen() {
                 {m.titleEn}
               </Text>
             </View>
-            <Ionicons name="chevron-forward" size={18} color={theme.textMuted} />
+            <MaterialCommunityIcons name="chevron-right" size={20} color={theme.textMuted} />
           </Pressable>
         ))}
       </View>

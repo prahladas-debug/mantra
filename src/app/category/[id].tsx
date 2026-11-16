@@ -1,11 +1,11 @@
-import { Ionicons } from '@expo/vector-icons';
+import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { Stack, useLocalSearchParams } from 'expo-router';
 import { useState } from 'react';
 import { Pressable, ScrollView, Text, TextInput, View } from 'react-native';
 import { BookContents } from '../../components/BookContents';
 import { BookBanner } from '../../components/Shelf';
 import { EntryCard } from '../../components/TextList';
-import { Chip } from '../../components/ui';
+import { Chip, SectionHeading } from '../../components/ui';
 import { categoryById, mantrasInCategory, type CategoryId } from '../../data';
 import { bookWork } from '../../data/books';
 import { scriptFont } from '../../lib/fonts';
@@ -19,7 +19,7 @@ import { searchKey, translit } from '../../lib/transliterate';
 export default function CategoryScreen() {
   const { id } = useLocalSearchParams<{ id: string }>();
   const { theme, settings, recent } = useSettings();
-  const { tr } = useI18n();
+  const { lang, tr } = useI18n();
   const [only, setOnly] = useState<string | null>(null);
   const [q, setQ] = useState('');
   const category = categoryById[id as CategoryId];
@@ -44,7 +44,7 @@ export default function CategoryScreen() {
   if (work) {
     return (
       <ScrollView style={{ backgroundColor: theme.bg }} contentContainerStyle={{ paddingBottom: 32 }} keyboardShouldPersistTaps="handled">
-        <Stack.Screen options={{ title: category.titleEn }} />
+        <Stack.Screen options={{ title: lang === 'en' ? category.titleEn : categoryTitle(category, settings.script) }} />
         <BookContents category={category} work={work} />
       </ScrollView>
     );
@@ -52,7 +52,7 @@ export default function CategoryScreen() {
 
   return (
     <ScrollView style={{ backgroundColor: theme.bg }} contentContainerStyle={{ paddingBottom: 32 }} keyboardShouldPersistTaps="handled">
-      <Stack.Screen options={{ title: category.titleEn }} />
+      <Stack.Screen options={{ title: lang === 'en' ? category.titleEn : categoryTitle(category, settings.script) }} />
 
       {isBook && first ? (
         <>
@@ -75,7 +75,7 @@ export default function CategoryScreen() {
 
       {all.length > 12 && (
         <View style={{ flexDirection: 'row', alignItems: 'center', marginHorizontal: 16, marginTop: 10, paddingHorizontal: 12, borderRadius: 12, borderWidth: 1, borderColor: theme.cardBorder, backgroundColor: theme.card }}>
-          <Ionicons name="search" size={16} color={theme.textMuted} />
+          <MaterialCommunityIcons name="magnify" size={18} color={theme.accent} />
           <TextInput
             value={q}
             onChangeText={setQ}
@@ -87,7 +87,7 @@ export default function CategoryScreen() {
           />
           {q.length > 0 && (
             <Pressable onPress={() => setQ('')} hitSlop={10} accessibilityLabel={tr('Clear')}>
-              <Ionicons name="close-circle" size={17} color={theme.textMuted} />
+              <MaterialCommunityIcons name="close-circle" size={19} color={theme.textMuted} />
             </Pressable>
           )}
         </View>
@@ -103,9 +103,9 @@ export default function CategoryScreen() {
       )}
 
       {shown.map((g) => (
-        <View key={g.id} style={{ marginTop: g.title ? 16 : 12 }}>
+        <View key={g.id} style={{ marginTop: g.title ? 0 : 12 }}>
           {!!g.title && (
-            <Text style={{ color: theme.textMuted, fontSize: 12, fontWeight: '700', letterSpacing: 0.8, marginHorizontal: 16, marginBottom: 6 }}>{g.title.toUpperCase()}</Text>
+            <SectionHeading>{g.title}</SectionHeading>
           )}
           <EntryCard entries={g.entries} numbered={isBook || category.id === 'homa'} />
         </View>

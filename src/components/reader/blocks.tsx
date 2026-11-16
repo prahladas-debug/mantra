@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Ionicons } from '@expo/vector-icons';
+import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { router, type Href } from 'expo-router';
 import { Pressable, StyleSheet, Text, View } from 'react-native';
 import { categoryById, getMantraInfo, mantrasInCategory, scriptFor, type Mantra, type Section, type Verse } from '../../data';
@@ -106,7 +106,7 @@ export function IntroBlock({ book }: { book?: boolean }) {
         {(mantra.category === 'sandhya' || mantra.category === 'puja') && <SankalpaCard />}
         {mantra.contentNote && (
           <View style={[b.notice, { backgroundColor: theme.warningBg }]}>
-            <Ionicons name="information-circle" size={18} color={theme.warningText} />
+            <MaterialCommunityIcons name="information-outline" size={20} color={theme.warningText} />
             <Text style={{ color: theme.warningText, flex: 1, fontSize: 14, lineHeight: 20 }}>
               {translitInline(mantra.contentNote, script)}
             </Text>
@@ -233,13 +233,13 @@ export function VerseBlock({ verse, rowKey, book }: { verse: Verse; rowKey: stri
           </Pressable>
         )}
         <Pressable hitSlop={8} onPress={() => toggleBookmark(mantra.id, rowKey)} accessibilityLabel={marked ? tr('Remove bookmark') : tr('Bookmark this verse')} style={b.iconBtn}>
-          <Ionicons name={marked ? 'bookmark' : 'bookmark-outline'} size={16} color={marked ? theme.accent : theme.textMuted} />
+          <MaterialCommunityIcons name={marked ? 'bookmark' : 'bookmark-outline'} size={18} color={marked ? theme.accent : theme.textMuted} />
         </Pressable>
         <Pressable hitSlop={8} onPress={() => shareVerse(mantra, verse, script, meanings[0]?.text)} accessibilityLabel={tr('Share this verse')} style={b.iconBtn}>
-          <Ionicons name="share-social-outline" size={16} color={theme.textMuted} />
+          <MaterialCommunityIcons name="share-variant-outline" size={18} color={theme.textMuted} />
         </Pressable>
         <Pressable hitSlop={8} onPress={() => reportCorrection(mantra, verse, rowKey)} accessibilityLabel={tr('Report a correction')} style={b.iconBtn}>
-          <Ionicons name="flag-outline" size={15} color={theme.textMuted} />
+          <MaterialCommunityIcons name="flag-outline" size={17} color={theme.textMuted} />
         </Pressable>
       </View>
       {showMeaning &&
@@ -367,7 +367,7 @@ function RoutineControl({ mantraId }: { mantraId: string }) {
         accessibilityState={{ checked: done }}
         style={{ flexDirection: 'row', alignItems: 'center', gap: 10 }}
       >
-        <Ionicons name={done ? 'checkmark-circle' : 'ellipse-outline'} size={24} color={done ? theme.accent : theme.textMuted} />
+        <MaterialCommunityIcons name={done ? 'check-circle' : 'circle-outline'} size={24} color={done ? theme.accent : theme.textMuted} />
         <Text style={{ color: theme.text, fontSize: 16, fontWeight: '600', flex: 1 }}>{done ? tr('Done for today') : tr('Mark done for today')}</Text>
       </Pressable>
       {done && next && nextMantra && (
@@ -393,9 +393,9 @@ export function EndMatter() {
       <PlanControls mantraId={mantra.id} />
       {(mantra.category === 'nitya' || mantra.id.endsWith('-mantra')) && (
         <Pressable onPress={() => router.push(`/japa?mantra=${mantra.id}` as Href)} style={[b.planBox, { borderColor: theme.cardBorder, backgroundColor: theme.card, flexDirection: 'row', alignItems: 'center', gap: 10 }]}>
-          <Ionicons name="ellipse-outline" size={20} color={theme.accent} />
+          <MaterialCommunityIcons name="dots-circle" size={22} color={theme.accent} />
           <Text style={{ color: theme.accent, fontSize: 15, fontWeight: '600', flex: 1 }}>{tr('Count japa')}</Text>
-          <Ionicons name="chevron-forward" size={18} color={theme.textMuted} />
+          <MaterialCommunityIcons name="chevron-right" size={20} color={theme.textMuted} />
         </Pressable>
       )}
       <SeriesNav mantra={mantra} />
@@ -415,7 +415,7 @@ export const b = StyleSheet.create({
   iconBtn: { padding: 2 },
   practiceHidden: { alignSelf: 'stretch' },
   practiceBar: { borderRadius: 6, alignSelf: 'stretch' },
-  planBox: { marginHorizontal: 16, marginTop: 24, padding: 14, borderRadius: 14, borderWidth: 1 },
+  planBox: { marginHorizontal: 16, marginTop: 24, padding: 14, borderRadius: 16, borderWidth: 1 },
   planButton: { marginTop: 10, padding: 12, borderRadius: 12, alignItems: 'center' },
   navRow: { flexDirection: 'row', gap: 10, marginHorizontal: 16, marginTop: 24 },
   navButton: { flex: 1, padding: 12, borderRadius: 12, borderWidth: 1, gap: 2 },

@@ -1,4 +1,4 @@
-import { Ionicons } from '@expo/vector-icons';
+import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { useCallback, useEffect, useImperativeHandle, useLayoutEffect, useMemo, useRef, useState, type Ref } from 'react';
 import { FlatList, Pressable, ScrollView, StyleSheet, Text, useWindowDimensions, View } from 'react-native';
 import { leading, scriptFont } from '../../lib/fonts';
@@ -232,10 +232,10 @@ export function BookReader({
       )}
       <View style={[s.bar, { borderColor: theme.cardBorder, backgroundColor: theme.bg }]}>
         <Pressable onPress={() => goTo(page - 1)} disabled={page === 0} hitSlop={12} accessibilityLabel={tr('Previous page')}>
-          <Ionicons name="chevron-back" size={26} color={page === 0 ? theme.cardBorder : theme.accent} />
+          <MaterialCommunityIcons name="chevron-left" size={26} color={page === 0 ? theme.cardBorder : theme.accent} />
         </Pressable>
         <Pressable onPress={() => goTo(0)} hitSlop={8} accessibilityLabel={tr('Go to the first page')} style={{ marginLeft: 8 }}>
-          <Ionicons name="play-skip-back-outline" size={18} color={theme.textMuted} />
+          <MaterialCommunityIcons name="skip-previous-outline" size={20} color={theme.textMuted} />
         </Pressable>
         <View style={{ flex: 1, marginHorizontal: 12 }}>
           <View style={[s.track, { backgroundColor: theme.accentSoft }]}>
@@ -246,7 +246,7 @@ export function BookReader({
           </Text>
         </View>
         <Pressable onPress={() => goTo(page + 1)} disabled={page >= pages.length - 1} hitSlop={12} accessibilityLabel={tr('Next page')}>
-          <Ionicons name="chevron-forward" size={26} color={page >= pages.length - 1 ? theme.cardBorder : theme.accent} />
+          <MaterialCommunityIcons name="chevron-right" size={26} color={page >= pages.length - 1 ? theme.cardBorder : theme.accent} />
         </Pressable>
       </View>
     </View>

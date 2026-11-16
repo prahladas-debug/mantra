@@ -1,4 +1,4 @@
-import { Ionicons } from '@expo/vector-icons';
+import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { useState } from 'react';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { FlatList, Modal, Platform, Pressable, ScrollView, Text, TextInput, View } from 'react-native';
@@ -29,11 +29,11 @@ export function CityPicker({ visible, onClose }: { visible: boolean; onClose: ()
         <View style={{ flexDirection: 'row', alignItems: 'center', marginHorizontal: 16, gap: 10 }}>
           <Text style={{ flex: 1, color: theme.text, fontSize: 20, fontWeight: '700' }}>{tr('Choose your place')}</Text>
           <Pressable onPress={onClose} accessibilityRole="button" accessibilityLabel={tr('Close')} hitSlop={10}>
-            <Ionicons name="close" size={26} color={theme.textMuted} />
+            <MaterialCommunityIcons name="close" size={28} color={theme.textMuted} />
           </Pressable>
         </View>
         <View style={{ flexDirection: 'row', alignItems: 'center', margin: 16, paddingHorizontal: 12, borderRadius: 12, borderWidth: 1, borderColor: theme.cardBorder, backgroundColor: theme.card }}>
-          <Ionicons name="search" size={18} color={theme.textMuted} />
+          <MaterialCommunityIcons name="magnify" size={20} color={theme.textMuted} />
           <TextInput
             value={q}
             onChangeText={setQ}
@@ -62,7 +62,7 @@ export function CityPicker({ visible, onClose }: { visible: boolean; onClose: ()
                 <Text style={{ color: theme.text, fontSize: 16 }}>{item.name}</Text>
                 {item.state ? <Text style={{ color: theme.textMuted, fontSize: 13 }}>{item.state}</Text> : null}
               </View>
-              {item.id === settings.city && <Ionicons name="checkmark" size={20} color={theme.accent} />}
+              {item.id === settings.city && <MaterialCommunityIcons name="check" size={22} color={theme.accent} />}
             </Pressable>
           )}
           ListEmptyComponent={<Text style={{ color: theme.textMuted, margin: 16 }}>{tr('No place found. Try another spelling or a nearby larger town.')}</Text>}
@@ -145,17 +145,17 @@ export function CalendarBar({ trailing }: { trailing?: React.ReactNode }) {
   return (
     <View style={{ flexDirection: 'row', alignItems: 'center', gap: 8, marginHorizontal: 16, marginTop: 10 }}>
       <Pressable onPress={() => setPicker(true)} style={(st) => [pill(st), { flexShrink: 1, maxWidth: '42%' }]} accessibilityRole="button" accessibilityLabel={tr('Place: {place}. Change', { place: cityLabel(city) })}>
-        <Ionicons name="location-outline" size={15} color={theme.accent} />
+        <MaterialCommunityIcons name="map-marker-outline" size={17} color={theme.accent} />
         <Text numberOfLines={1} style={{ color: theme.text, fontSize: 14, flexShrink: 1 }}>{city.name}</Text>
-        <Ionicons name="chevron-down" size={13} color={theme.textMuted} />
+        <MaterialCommunityIcons name="chevron-down" size={15} color={theme.textMuted} />
       </Pressable>
       <Pressable onPress={() => setSheet(true)} style={(st) => [pill(st), { flexShrink: 1 }]} accessibilityRole="button" accessibilityLabel={tr('Calendar options')}>
-        <Ionicons name="options-outline" size={15} color={theme.accent} />
+        <MaterialCommunityIcons name="tune-variant" size={17} color={theme.accent} />
         <Text numberOfLines={1} style={{ color: theme.text, fontSize: 14, flexShrink: 1 }}>
           {rule === 'madhva' ? tr('Madhva') : tr('Smarta')} · {mode === 'saura' ? tr('Solar') : tr('Lunar')}
           {method === 'surya' ? ` · ${tr('SS')}` : ''}
         </Text>
-        <Ionicons name="chevron-down" size={13} color={theme.textMuted} />
+        <MaterialCommunityIcons name="chevron-down" size={15} color={theme.textMuted} />
       </Pressable>
       <View style={{ flex: 1 }} />
       {trailing}

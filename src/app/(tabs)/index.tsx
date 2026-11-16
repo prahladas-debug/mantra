@@ -1,4 +1,4 @@
-import { Ionicons } from '@expo/vector-icons';
+import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { Link, Redirect, router, type Href } from 'expo-router';
 import { useState } from 'react';
 import { Modal, Pressable, ScrollView, StyleSheet, Text, View, useWindowDimensions } from 'react-native';
@@ -39,7 +39,7 @@ function ScriptSheet({ visible, onClose }: { visible: boolean; onClose: () => vo
             >
               <Text style={{ flex: 1, color: active ? theme.accent : theme.text, fontSize: 18, fontFamily: scriptFont(sc.id, settings.bookFonts) }}>{sc.native}</Text>
               <Text style={{ color: theme.textMuted, fontSize: 14, marginRight: 10 }}>{sc.en}</Text>
-              <Ionicons name={active ? 'radio-button-on' : 'radio-button-off'} size={20} color={active ? theme.accent : theme.textMuted} />
+              <MaterialCommunityIcons name={active ? 'radiobox-marked' : 'radiobox-blank'} size={20} color={active ? theme.accent : theme.textMuted} />
             </Pressable>
           );
         })}
@@ -48,13 +48,13 @@ function ScriptSheet({ visible, onClose }: { visible: boolean; onClose: () => vo
   );
 }
 
-const EVERY_DAY: { icon: keyof typeof Ionicons.glyphMap; label: string; href: string }[] = [
-  { icon: 'sunny-outline', label: T('Morning prayers'), href: '/collection/morning' },
+const EVERY_DAY: { icon: keyof typeof MaterialCommunityIcons.glyphMap; label: string; href: string }[] = [
+  { icon: 'weather-sunset-up', label: T('Morning prayers'), href: '/collection/morning' },
   { icon: 'water-outline', label: T('Bath (snana)'), href: '/mantra/snana-vidhi' },
-  { icon: 'partly-sunny-outline', label: T('Sandhyavandane'), href: '/category/sandhya' },
-  { icon: 'flower-outline', label: T('Daily puja'), href: '/mantra/nitya-puja' },
-  { icon: 'restaurant-outline', label: T('Meal prayers'), href: '/mantra/bhojana-mantras' },
-  { icon: 'ellipse-outline', label: T('Japa counter'), href: '/japa' },
+  { icon: 'hands-pray', label: T('Sandhyavandane'), href: '/category/sandhya' },
+  { icon: 'oil-lamp', label: T('Daily puja'), href: '/mantra/nitya-puja' },
+  { icon: 'rice', label: T('Meal prayers'), href: '/mantra/bhojana-mantras' },
+  { icon: 'dots-circle', label: T('Japa counter'), href: '/japa' },
 ];
 
 /** Home: today, where you left off, the great works as book covers, everyday shortcuts and songs. */
@@ -93,17 +93,17 @@ export default function Home() {
           style={({ pressed }) => [s.scriptBtn, { borderColor: theme.cardBorder, backgroundColor: theme.card, opacity: pressed ? 0.6 : 1 }]}
         >
           <Text style={{ color: theme.text, fontSize: 15, fontFamily: scriptFont(script.id, settings.bookFonts) }}>{script.native}</Text>
-          <Ionicons name="chevron-down" size={14} color={theme.textMuted} />
+          <MaterialCommunityIcons name="chevron-down" size={16} color={theme.textMuted} />
         </Pressable>
         <Link href="/settings" asChild>
           <Pressable hitSlop={12} accessibilityLabel={tr('Settings')}>
-            <Ionicons name="settings-outline" size={23} color={theme.textMuted} />
+            <MaterialCommunityIcons name="cog-outline" size={25} color={theme.accent} />
           </Pressable>
         </Link>
       </View>
 
       <Pressable onPress={() => router.push('/search')} style={[s.search, { backgroundColor: theme.card, borderColor: theme.cardBorder }]} accessibilityRole="search">
-        <Ionicons name="search" size={18} color={theme.textMuted} />
+        <MaterialCommunityIcons name="magnify" size={20} color={theme.accent} />
         <Text style={{ color: theme.textMuted, fontSize: 16 }}>{tr('Search texts, names, verses')}</Text>
       </Pressable>
 
@@ -116,14 +116,14 @@ export default function Home() {
           accessibilityRole="link"
           style={({ pressed }) => [s.resume, { backgroundColor: theme.accentSoft, opacity: pressed ? 0.7 : 1 }]}
         >
-          <Ionicons name="bookmark" size={18} color={theme.accent} />
+          <MaterialCommunityIcons name="bookmark" size={20} color={theme.gold} />
           <View style={{ flex: 1 }}>
             <Text style={{ color: theme.textMuted, fontSize: 11, fontWeight: '700', letterSpacing: 0.8 }}>{positions[last.id] ? tr('Continue reading').toUpperCase() : tr('Last opened').toUpperCase()}</Text>
             <Text style={{ color: theme.text, fontSize: 16, lineHeight: 25, fontFamily: scriptFont(scriptFor(last, settings.script), settings.bookFonts) }} numberOfLines={1}>
               {translitTitle(last.title, settings.script)}
             </Text>
           </View>
-          <Ionicons name="chevron-forward" size={18} color={theme.accent} />
+          <MaterialCommunityIcons name="chevron-right" size={20} color={theme.accent} />
         </Pressable>
       )}
 

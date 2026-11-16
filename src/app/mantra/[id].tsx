@@ -1,4 +1,4 @@
-import { Ionicons } from '@expo/vector-icons';
+import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { activateKeepAwakeAsync, deactivateKeepAwake } from 'expo-keep-awake';
 import { Stack, useLocalSearchParams } from 'expo-router';
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
@@ -13,6 +13,7 @@ import { usePinch } from '../../components/reader/usePinch';
 import { getMantra, getMantraInfo, type Mantra } from '../../data';
 import { bookNeighbours, isBookUnit, loadBookUnit, peekBookUnit, prefetchBookUnit } from '../../lib/books';
 import { useI18n } from '../../lib/i18n';
+import { translitTitle } from '../../lib/transliterate';
 import { useSettings } from '../../lib/settings';
 import { choicesFor } from '../../lib/variants';
 
@@ -84,7 +85,7 @@ function BookUnitReader({ id }: { id: string }) {
 
 function ReaderView({ mantra }: { mantra: Mantra | undefined }) {
   const params = useLocalSearchParams<{ id: string; si?: string; vi?: string }>();
-  const { tr } = useI18n();
+  const { lang, tr } = useI18n();
   const { theme, settings, update, favorites, toggleFavorite, markRead, positions, savePosition } = useSettings();
   const setScale = useCallback((fontScale: number) => update({ fontScale }), [update]);
   const pinch = usePinch(settings.fontScale, setScale);
@@ -161,19 +162,19 @@ function ReaderView({ mantra }: { mantra: Mantra | undefined }) {
       <View style={{ flex: 1, backgroundColor: theme.bg }} {...pinch.panHandlers}>
         <Stack.Screen
           options={{
-            title: mantra.titleEn,
+            title: lang === 'en' ? mantra.titleEn : translitTitle(mantra.title, settings.script),
             headerRight: () => (
               <View style={{ flexDirection: 'row', gap: 18 }}>
                 {hasContents && (
                   <Pressable hitSlop={10} onPress={() => setContentsOpen(true)} accessibilityLabel={tr('Contents')}>
-                    <Ionicons name="list" size={23} color={theme.accent} />
+                    <MaterialCommunityIcons name="format-list-bulleted" size={23} color={theme.accent} />
                   </Pressable>
                 )}
                 <Pressable hitSlop={10} onPress={() => setPanelOpen((o) => !o)} accessibilityLabel={tr('Display options')}>
-                  <Ionicons name="text" size={22} color={theme.accent} />
+                  <MaterialCommunityIcons name="format-size" size={22} color={theme.accent} />
                 </Pressable>
                 <Pressable hitSlop={10} onPress={() => toggleFavorite(mantra.id)} accessibilityLabel={isFav ? tr('Remove favourite') : tr('Add favourite')}>
-                  <Ionicons name={isFav ? 'star' : 'star-outline'} size={22} color={theme.accent} />
+                  <MaterialCommunityIcons name={isFav ? 'star' : 'star-outline'} size={22} color={theme.accent} />
                 </Pressable>
               </View>
             ),

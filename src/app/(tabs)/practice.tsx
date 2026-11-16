@@ -1,4 +1,4 @@
-import { Ionicons } from '@expo/vector-icons';
+import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { router, type Href } from 'expo-router';
 import { Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 import { PlanCard } from '../../components/PlanCard';
@@ -10,11 +10,11 @@ import { planStatus } from '../../lib/plans';
 import { useSettings } from '../../lib/settings';
 import { translitTitle } from '../../lib/transliterate';
 
-const TOOLS: { icon: keyof typeof Ionicons.glyphMap; label: string; href: string }[] = [
-  { icon: 'ellipse-outline', label: T('Japa counter'), href: '/japa' },
+const TOOLS: { icon: keyof typeof MaterialCommunityIcons.glyphMap; label: string; href: string }[] = [
+  { icon: 'dots-circle', label: T('Japa counter'), href: '/japa' },
   { icon: 'bookmark-outline', label: T('Bookmarks'), href: '/bookmarks' },
-  { icon: 'calendar-outline', label: T('Festival calendar'), href: '/calendar' },
-  { icon: 'search-outline', label: T('Find a festival date'), href: '/festival-search' },
+  { icon: 'calendar-month-outline', label: T('Festival calendar'), href: '/calendar' },
+  { icon: 'magnify', label: T('Find a festival date'), href: '/festival-search' },
 ];
 
 function Heading({ title, action, onAction }: { title: string; action?: string; onAction?: () => void }) {
@@ -22,7 +22,8 @@ function Heading({ title, action, onAction }: { title: string; action?: string; 
   const { tr } = useI18n();
   return (
     <View style={s.heading}>
-      <Text style={{ color: theme.text, fontSize: 18, fontWeight: '700', flex: 1 }}>{tr(title)}</Text>
+      <MaterialCommunityIcons name="spa-outline" size={17} color={theme.gold} style={{ marginRight: 7 }} />
+      <Text style={{ color: theme.text, fontSize: 15, fontWeight: '700', flex: 1 }} accessibilityRole="header">{tr(title)}</Text>
       {action && (
         <Pressable onPress={onAction} hitSlop={10} accessibilityRole="button">
           <Text style={{ color: theme.accent, fontSize: 15 }}>{tr(action)}</Text>
@@ -56,7 +57,7 @@ export default function Practice() {
               {m.titleEn}
             </Text>
           </View>
-          <Ionicons name="chevron-forward" size={18} color={theme.textMuted} />
+          <MaterialCommunityIcons name="chevron-right" size={20} color={theme.textMuted} />
         </Pressable>
       ))}
     </View>
@@ -93,9 +94,9 @@ export default function Practice() {
             onPress={() => router.push(t.href as Href)}
             style={({ pressed }) => [s.row, { borderTopWidth: i ? StyleSheet.hairlineWidth : 0, borderColor: theme.cardBorder, opacity: pressed ? 0.6 : 1 }]}
           >
-            <Ionicons name={t.icon} size={20} color={theme.accent} />
+            <MaterialCommunityIcons name={t.icon} size={22} color={theme.gold} />
             <Text style={{ color: theme.text, fontSize: 16, flex: 1 }}>{tr(t.label)}</Text>
-            <Ionicons name="chevron-forward" size={18} color={theme.textMuted} />
+            <MaterialCommunityIcons name="chevron-right" size={20} color={theme.textMuted} />
           </Pressable>
         ))}
       </View>
@@ -118,6 +119,6 @@ export default function Practice() {
 
 const s = StyleSheet.create({
   heading: { flexDirection: 'row', alignItems: 'center', marginHorizontal: 16, marginTop: 22, marginBottom: 2 },
-  list: { marginHorizontal: 16, marginTop: 10, borderRadius: 14, borderWidth: 1, overflow: 'hidden' },
+  list: { marginHorizontal: 16, marginTop: 10, borderRadius: 16, borderWidth: 1, overflow: 'hidden' },
   row: { flexDirection: 'row', alignItems: 'center', gap: 12, paddingVertical: 12, paddingHorizontal: 14 },
 });

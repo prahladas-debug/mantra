@@ -55,7 +55,7 @@ export function PlanCard({ plan, compact }: { plan: Plan; compact?: boolean }) {
   }, [st.finished, plan.notificationId, plan.id, updatePlan]);
 
   return (
-    <View style={{ marginHorizontal: 16, marginBottom: 12, padding: 14, borderRadius: 14, borderWidth: 1, borderColor: theme.cardBorder, backgroundColor: theme.card }}>
+    <View style={{ marginHorizontal: 16, marginBottom: 12, padding: 14, borderRadius: 16, borderWidth: 1, borderColor: theme.cardBorder, backgroundColor: theme.card }}>
       <Text style={{ color: theme.text, fontSize: 17, fontWeight: '700' }}>{plan.title}</Text>
       <Text style={{ color: theme.textMuted, fontSize: 13, marginTop: 2 }}>
         {st.finished ? tr('Completed 🙏') : tr('Day {day} of {days} · {pct}%', { day: st.day + 1, days: plan.days, pct })}

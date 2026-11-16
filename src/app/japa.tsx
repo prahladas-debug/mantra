@@ -1,4 +1,4 @@
-import { Ionicons } from '@expo/vector-icons';
+import { MaterialCommunityIcons } from '@expo/vector-icons';
 import * as Haptics from 'expo-haptics';
 import { activateKeepAwakeAsync, deactivateKeepAwake } from 'expo-keep-awake';
 import { Stack, useFocusEffect, useLocalSearchParams } from 'expo-router';
@@ -192,7 +192,7 @@ export default function JapaScreen() {
         </View>
         <View style={[s.changePill, { backgroundColor: theme.accentSoft }]}>
           <Text style={{ color: theme.accent, fontSize: 13, fontWeight: '600' }}>{picking ? tr('Done') : tr('Change')}</Text>
-          <Ionicons name={picking ? 'chevron-up' : 'chevron-down'} size={14} color={theme.accent} />
+          <MaterialCommunityIcons name={picking ? 'chevron-up' : 'chevron-down'} size={16} color={theme.accent} />
         </View>
       </Pressable>
 
@@ -294,7 +294,7 @@ export default function JapaScreen() {
         ) : (
           <>
             <ControlButton
-              icon="arrow-undo"
+              icon="undo"
               label="−1"
               a11y={tr('Undo one bead')}
               disabled={count === 0}
@@ -492,7 +492,7 @@ function PickRow({
         </Text>
         <Text style={{ color: theme.textMuted, fontSize: 13, marginTop: 1 }}>{sub}</Text>
       </View>
-      {active && <Ionicons name="checkmark-circle" size={20} color={theme.accent} />}
+      {active && <MaterialCommunityIcons name="check-circle" size={22} color={theme.accent} />}
     </Pressable>
   );
 }
@@ -628,7 +628,7 @@ function ControlButton({
   strong,
   theme,
 }: {
-  icon: keyof typeof Ionicons.glyphMap;
+  icon: keyof typeof MaterialCommunityIcons.glyphMap;
   label: string;
   a11y?: string;
   onPress: () => void;
@@ -654,7 +654,7 @@ function ControlButton({
         },
       ]}
     >
-      <Ionicons name={icon} size={18} color={fg} />
+      <MaterialCommunityIcons name={icon} size={20} color={fg} />
       <Text style={{ color: fg, fontSize: 15, fontWeight: '600' }}>{label}</Text>
     </Pressable>
   );
@@ -844,7 +844,7 @@ const s = StyleSheet.create({
     minHeight: 44,
   },
   note: { fontSize: 13, lineHeight: 19, marginHorizontal: 16, marginTop: 12 },
-  panel: { marginHorizontal: 16, padding: 14, borderRadius: 14, borderWidth: 1 },
+  panel: { marginHorizontal: 16, padding: 14, borderRadius: 16, borderWidth: 1 },
   totalRow: { flexDirection: 'row', alignItems: 'center', paddingVertical: 10, gap: 12 },
   tabular: { fontVariant: ['tabular-nums'] },
 });

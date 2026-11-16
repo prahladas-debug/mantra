@@ -1,4 +1,4 @@
-import { Ionicons } from '@expo/vector-icons';
+import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { Modal, Pressable, ScrollView, StyleSheet, Switch, Text, useColorScheme, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { T, useI18n } from '../../lib/i18n';
@@ -10,10 +10,8 @@ import { SCRIPTS } from '../../lib/transliterate';
 import { Segmented } from '../ui';
 
 const THEME_CHOICES: { id: Settings['theme']; label: string }[] = [
-  { id: 'light', label: T('Light') },
-  { id: 'sepia', label: T('Sepia') },
-  { id: 'dark', label: T('Dark') },
-  { id: 'night', label: T('Night') },
+  { id: 'light', label: T('Day') },
+  { id: 'dark', label: T('Night') },
   { id: 'sunset', label: T('Sunset') },
   { id: 'contrast', label: T('Contrast') },
 ];
@@ -124,15 +122,16 @@ export function ThemeSwatches({ withSystem }: { withSystem?: boolean }) {
   return (
     <View style={p.swatches}>
       {choices.map((t) => {
-        const active = settings.theme === t.id;
-        const look = t.id === 'sunset' ? THEMES.night : t.id === 'system' ? (systemDark ? THEMES.dark : THEMES.light) : THEMES[t.id as keyof typeof THEMES];
+        const stored = settings.theme === 'sepia' ? 'light' : settings.theme === 'night' ? 'dark' : settings.theme;
+        const active = stored === t.id;
+        const look = t.id === 'sunset' ? THEMES.dark : t.id === 'system' ? (systemDark ? THEMES.dark : THEMES.light) : THEMES[t.id as keyof typeof THEMES];
         return (
           <Pressable key={t.id} onPress={() => update({ theme: t.id })} style={p.swatch} accessibilityRole="radio" accessibilityState={{ selected: active }} accessibilityLabel={tr(t.label)}>
             <View style={[p.dot, { backgroundColor: look.bg, borderColor: active ? theme.accent : theme.cardBorder, borderWidth: active ? 3 : 1 }]}>
               {t.id === 'sunset' ? (
-                <Ionicons name="moon" size={16} color={look.accent} />
+                <MaterialCommunityIcons name="moon-waning-crescent" size={18} color={look.gold} />
               ) : t.id === 'system' ? (
-                <Ionicons name="phone-portrait-outline" size={16} color={look.text} />
+                <MaterialCommunityIcons name="cellphone" size={18} color={look.text} />
               ) : (
                 <Text style={{ color: look.text, fontSize: 15, fontWeight: '700' }}>A</Text>
               )}

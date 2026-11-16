@@ -1,5 +1,6 @@
 import { Pressable, ScrollView, StyleSheet, Text, View, type TextProps } from 'react-native';
 import type { Mantra } from '../data';
+import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { TextRow } from './TextList';
 import { useSettings } from '../lib/settings';
 import { SCRIPTS, type ScriptId } from '../lib/transliterate';
@@ -26,9 +27,12 @@ export function Txt({
 export function SectionHeading({ children }: { children: React.ReactNode }) {
   const { theme } = useSettings();
   return (
-    <Text style={[styles.sectionHeading, { color: theme.textMuted }]} accessibilityRole="header">
-      {children}
-    </Text>
+    <View style={{ flexDirection: 'row', alignItems: 'center', gap: 7, marginTop: 26, marginBottom: 10, marginHorizontal: 16 }}>
+      <MaterialCommunityIcons name="spa-outline" size={17} color={theme.gold} />
+      <Text style={{ fontSize: 15, fontWeight: '700', color: theme.text }} accessibilityRole="header">
+        {children}
+      </Text>
+    </View>
   );
 }
 

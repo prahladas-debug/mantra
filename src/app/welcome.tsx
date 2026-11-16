@@ -1,4 +1,4 @@
-import { Ionicons } from '@expo/vector-icons';
+import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { router } from 'expo-router';
 import { useState } from 'react';
 import { Pressable, ScrollView, Text, View } from 'react-native';
@@ -39,7 +39,7 @@ function Choice({ active, onPress, children }: { active: boolean; onPress: () =>
       })}
     >
       <View style={{ flex: 1 }}>{children}</View>
-      <Ionicons name={active ? 'radio-button-on' : 'radio-button-off'} size={20} color={active ? theme.accent : theme.textMuted} />
+      <MaterialCommunityIcons name={active ? 'radiobox-marked' : 'radiobox-blank'} size={22} color={active ? theme.accent : theme.textMuted} />
     </Pressable>
   );
 }
@@ -121,7 +121,7 @@ export default function Welcome() {
                 borderColor: theme.cardBorder, backgroundColor: theme.card, opacity: pressed ? 0.7 : 1,
               })}
             >
-              <Ionicons name="location-outline" size={20} color={theme.accent} />
+              <MaterialCommunityIcons name="map-marker-outline" size={22} color={theme.accent} />
               <Text style={{ flex: 1, color: theme.text, fontSize: 17 }}>{cityLabel(city)}</Text>
               <Text style={{ color: theme.accent, fontSize: 15 }}>{tr('Change')}</Text>
             </Pressable>

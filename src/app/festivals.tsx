@@ -54,7 +54,7 @@ export default function FestivalsYearScreen() {
         list.length === 0 ? null : (
           <View key={mi}>
             <SectionHeading>{month(mi + 1)}</SectionHeading>
-            <View style={{ marginHorizontal: 16, borderRadius: 14, borderWidth: 1, borderColor: theme.cardBorder, backgroundColor: theme.card, paddingHorizontal: 12, paddingVertical: 8 }}>
+            <View style={{ marginHorizontal: 16, borderRadius: 16, borderWidth: 1, borderColor: theme.cardBorder, backgroundColor: theme.card, paddingHorizontal: 12, paddingVertical: 8 }}>
               {list.map((f) => (
                 <View key={`${f.key}-${f.date}`} style={{ paddingVertical: 2 }}>
                   <FestivalLine f={f} showDate />
