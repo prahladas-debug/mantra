@@ -4,7 +4,7 @@
   "titleEn": "Valmiki Ramayana",
   "partLabel": "kanda",
   "unitLabel": "sarga",
-  "edition": "The vulgate of the Southern (Dākṣiṇātya) recension in the Gita Press style, the same recension and sources as the app’s Sundarakanda: Sanskrit Wikisource as the base text, collated with heritage.iitk.ac.in (VRAM) and the Baroda critical edition (ambuda.org) only to settle typos. Verse numbers follow the base text.",
+  "edition": "The vulgate of the Southern (Dākṣiṇātya) recension in the Gita Press style, the same recension and sources as the app’s Sundarakanda: Sanskrit Wikisource as the base text, collated with heritage.iitk.ac.in (VRAM) and the Baroda critical edition (ambuda.org) only to settle typos. Verse numbers follow the base text. In Ayodhya 48–88 and Aranya 14–15 the Wikisource page is a word-split copy, so the text of those sargas was re-set from IITK, keeping the base text’s verse division.",
   "sources": [
     "Sanskrit Wikisource, रामायणम्/<काण्ड>/सर्गः N (typed Devanagari; the ancient text is public domain)",
     "heritage.iitk.ac.in, Valmiki Ramayana (VRAM; Rashtriya Sanskrit Vidyapeetha, Tirupati edition), for collation",
@@ -107,7 +107,7 @@
       "name": "उत्तरकाण्डम्",
       "nameEn": "Uttara Kanda",
       "units": 111,
-      "verses": 3432,
+      "verses": 3460,
       "summary": {
         "en": "Agastya tells the earlier history of Ravana and of Hanuman; Rama rules Ayodhya; Sita, sent away, gives birth to Lava and Kusha in Valmiki’s hermitage, and they sing the Ramayana; Sita returns to the earth, and at last Rama goes back to his own abode.",
         "kn": "ಅಗಸ್ತ್ಯರು ರಾವಣ ಮತ್ತು ಹನುಮಂತರ ಪೂರ್ವಕಥೆಯನ್ನು ಹೇಳುತ್ತಾರೆ; ರಾಮನು ಅಯೋಧ್ಯೆಯನ್ನು ಆಳುತ್ತಾನೆ; ಪರಿತ್ಯಕ್ತಳಾದ ಸೀತೆ ವಾಲ್ಮೀಕಿ ಆಶ್ರಮದಲ್ಲಿ ಲವಕುಶರಿಗೆ ಜನ್ಮ ನೀಡುತ್ತಾಳೆ, ಅವರು ರಾಮಾಯಣವನ್ನು ಹಾಡುತ್ತಾರೆ; ಸೀತೆ ಭೂಮಿಯನ್ನು ಸೇರುತ್ತಾಳೆ; ಕೊನೆಗೆ ರಾಮನು ತನ್ನ ಧಾಮಕ್ಕೆ ತೆರಳುತ್ತಾನೆ.",
