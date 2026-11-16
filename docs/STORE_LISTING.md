@@ -18,7 +18,7 @@ stores rank mostly on the title, then the subtitle / short description, then the
 Nandadeepa is a complete Hindu prayer book and daily panchang in your pocket: more than 400
 mantras, stotras and sacred texts, the full Bhagavad Gita, and an accurate panchanga for your own
 town. Read in Kannada, Devanagari (Sanskrit / Hindi), Telugu, Tamil, Malayalam, Gujarati, Bengali,
-Odia or English letters, with verse-by-verse meanings in Kannada, English, Hindi, Telugu and Tamil.
+Odia or English letters, with verse-by-verse meanings in Kannada, English, Hindi, Telugu, Tamil and Malayalam.
 Everything works offline. No ads, no sign-in, no tracking.
 
 DAILY PANCHANG AND FESTIVALS
@@ -33,7 +33,7 @@ DAILY PANCHANG AND FESTIVALS
 BHAGAVAD GITA AND PARAYANA
 • Bhagavad Gita (Geeta): all 18 chapters, 700 shlokas, with meanings
 • Valmiki Ramayana, complete: all seven kandas, 645 sargas, about 20,700 shlokas, with the
-  meaning of every verse in Kannada, English, Hindi, Telugu and Tamil
+  meaning of every verse in Kannada, English, Hindi, Telugu, Tamil and Malayalam
 • Sundarakanda of the Valmiki Ramayana, all 68 sargas
 • Mahabharata (critical edition), all 18 parvas, with a summary of every chapter
 • Vishnu Sahasranama and Lalita Sahasranama with the meaning of every name
@@ -93,7 +93,7 @@ Connect: add a localisation). People who search in their own script then find th
 - **Category:** Books & Reference. **Tags (Play):** Books & Reference, Religion, Calendar.
 - **Screenshots, in this order,** each with a short caption on the picture: Home with the book
   covers ("Gita, Sahasranama, Sundarakanda"), the panchanga for a day ("Daily panchang for your
-  town"), a Gita verse with its meaning open ("Meanings in Kannada, Hindi, Telugu, Tamil"), the
+  town"), a Gita verse with its meaning open ("Meanings in Kannada, Hindi, Telugu, Tamil, Malayalam"), the
   festival calendar ("Ekadashi and festivals"), Sandhyavandane ("Step by step"), a Dasara pada.
 - **Ratings and installs** count for more than any wording. Ask the first readers (family, the
   matha's WhatsApp groups) to install and rate in the first weeks.

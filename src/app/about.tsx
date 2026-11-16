@@ -25,7 +25,7 @@ export default function About() {
         to serve daily practice in the same way: mantras, suktas, stotras and sahasranamas, the great
         works for parayana, devotional songs, Sandhya Vandane, puja and rites, and a panchanga,
         readable in Devanagari, Kannada, Telugu, Tamil, Malayalam, Gujarati, Bengali, Odia and
-        English (IAST).
+        English (IAST), with meanings in Kannada, English, Hindi, Telugu, Tamil and Malayalam.
       </Text>
       <Text style={p}>
         {ALL_MANTRAS.length + bookUnits.length} texts · {total} verses · works fully offline.

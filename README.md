@@ -157,7 +157,7 @@ any static host (GitHub Pages, Netlify, Cloudflare Pages).
 
 - Audio recitation, synchronised with the verse being read
 - Vedic svara (accent) marks for the suktas, as an optional display
-- Meanings and word-by-word translation in Kannada, Telugu, Tamil and Hindi
+- Word-by-word translation (verse meanings are in Kannada, English, Hindi, Telugu, Tamil and Malayalam)
 - More texts: Vishnu Sahasranama namavali, Lalita Sahasranama, Aditya
   Hridayam, Hanuman Chalisa, Madhvacharya's Dvadasha Stotra, Harikathamrutasara
 - Bundled Noto Serif fonts for consistent rendering on older Android phones
