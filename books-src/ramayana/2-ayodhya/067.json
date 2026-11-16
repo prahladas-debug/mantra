@@ -20,155 +20,307 @@
       "verses": [
         {
           "n": 1,
-          "text": "आक्रन्दितनिरानन्दा सास्रकण्ठजनाकुला ।\nअयोध्यायामवतता सा व्यतीयाय शर्वरी ॥"
+          "text": "आक्रन्दितनिरानन्दा सास्रकण्ठजनाकुला ।\nअयोध्यायामवतता सा व्यतीयाय शर्वरी ॥",
+          "meaning": {
+            "en": "That night passed in Ayodhya, spread over the city, full of wailing and joyless, its people with throats choked by tears.",
+            "kn": "ಆಕ್ರಂದನದಿಂದ ಆನಂದ ಕಳೆದ, ಕಣ್ಣೀರಿನಿಂದ ಕಂಠ ಕಟ್ಟಿದ ಜನರಿಂದ ತುಂಬಿದ ಆ ರಾತ್ರಿ ಅಯೋಧ್ಯೆಯಲ್ಲಿ ಹಬ್ಬಿ ಕಳೆಯಿತು."
+          }
         },
         {
           "n": 2,
-          "text": "व्यतीतायां तु शर्वर्यामादित्यस्योदये ततः ।\nसमेत्य राजकर्तारः सभामीयुर्द्विजातयः ॥"
+          "text": "व्यतीतायां तु शर्वर्यामादित्यस्योदये ततः ।\nसमेत्य राजकर्तारः सभामीयुर्द्विजातयः ॥",
+          "meaning": {
+            "en": "When the night had passed and the sun had risen, the brahmins who made kings came together and entered the assembly.",
+            "kn": "ರಾತ್ರಿ ಕಳೆದು ಸೂರ್ಯೋದಯವಾದಾಗ ರಾಜರನ್ನು ಮಾಡುವ ಬ್ರಾಹ್ಮಣರು ಒಟ್ಟಾಗಿ ಸಭೆಗೆ ಬಂದರು."
+          }
         },
         {
           "n": 3,
-          "text": "मार्कण्डेयोऽथ मौद्गल्यो वामदेवश्च काश्यपः ।\nकात्यायनो गौतमश्च जाबालिश्च महायशाः ॥"
+          "text": "मार्कण्डेयोऽथ मौद्गल्यो वामदेवश्च काश्यपः ।\nकात्यायनो गौतमश्च जाबालिश्च महायशाः ॥",
+          "meaning": {
+            "en": "Markandeya, Maudgalya, Vamadeva, Kashyapa, Katyayana, Gautama and the greatly renowned Jabali,",
+            "kn": "ಮಾರ್ಕಂಡೇಯ, ಮೌದ್ಗಲ್ಯ, ವಾಮದೇವ, ಕಾಶ್ಯಪ, ಕಾತ್ಯಾಯನ, ಗೌತಮ ಮತ್ತು ಮಹಾಯಶಸ್ವಿ ಜಾಬಾಲಿ,"
+          }
         },
         {
           "n": 4,
-          "text": "एते द्विजाः सहामात्यैः पृथग्वा च मुदीरयन् ।\nवसिष्ठमेवाभिमुखाः श्रेष्ठो राज पुरोहितम् ॥"
+          "text": "एते द्विजाः सहामात्यैः पृथग्वा च मुदीरयन् ।\nवसिष्ठमेवाभिमुखाः श्रेष्ठो राज पुरोहितम् ॥",
+          "meaning": {
+            "en": "these brahmins, together with the ministers, each in turn spoke, turning to Vasishtha, the best of the king's priests:",
+            "kn": "ಈ ಬ್ರಾಹ್ಮಣರು ಮಂತ್ರಿಗಳೊಡನೆ ರಾಜಪುರೋಹಿತರಲ್ಲಿ ಶ್ರೇಷ್ಠ ವಸಿಷ್ಠನ ಕಡೆ ತಿರುಗಿ ಒಬ್ಬೊಬ್ಬರಾಗಿ ಹೇಳಿದರು:"
+          }
         },
         {
           "n": 5,
-          "text": "अतीता शर्वरी दुःखं या नो वर्षशतोपमा ।\nअस्मिन् पञ्चत्वमापन्ने पुत्र शोकेन पार्थिवे ॥"
+          "text": "अतीता शर्वरी दुःखं या नो वर्षशतोपमा ।\nअस्मिन् पञ्चत्वमापन्ने पुत्र शोकेन पार्थिवे ॥",
+          "meaning": {
+            "en": "\"A night of sorrow has passed, which was like a hundred years to us, now that the king has died of grief for his son.",
+            "kn": "\"ರಾಜನು ಪುತ್ರಶೋಕದಿಂದ ಮರಣ ಹೊಂದಿದ ಈ ರಾತ್ರಿ ನಮಗೆ ನೂರು ವರ್ಷದಂತೆ ದುಃಖದಿಂದ ಕಳೆಯಿತು."
+          }
         },
         {
           "n": 6,
-          "text": "स्वर्गतश्च महाराजो रामश्चारण्यमाश्रितः ।\nलक्ष्मणश्चापि तेजस्वी रामेणैव गतः सह ॥"
+          "text": "स्वर्गतश्च महाराजो रामश्चारण्यमाश्रितः ।\nलक्ष्मणश्चापि तेजस्वी रामेणैव गतः सह ॥",
+          "meaning": {
+            "en": "The great king has gone to heaven, Rama has taken to the forest, and brilliant Lakshmana has gone with Rama.",
+            "kn": "ಮಹಾರಾಜ ಸ್ವರ್ಗಕ್ಕೆ ಹೋದನು, ರಾಮ ಕಾಡನ್ನು ಆಶ್ರಯಿಸಿದನು, ತೇಜಸ್ವಿ ಲಕ್ಷ್ಮಣನೂ ರಾಮನೊಂದಿಗೇ ಹೋದನು."
+          }
         },
         {
           "n": 7,
-          "text": "उभौ भरतशत्रुघ्नौ केकयेषु परन्तपौ ।\nपुरे राजगृहे रम्ये मातामहनिवेशने ॥"
+          "text": "उभौ भरतशत्रुघ्नौ केकयेषु परन्तपौ ।\nपुरे राजगृहे रम्ये मातामहनिवेशने ॥",
+          "meaning": {
+            "en": "Both Bharata and Shatrughna, scourges of foes, are among the Kekayas, in the lovely royal city, in their maternal grandfather's house.",
+            "kn": "ಶತ್ರುತಾಪಕರಾದ ಭರತ ಶತ್ರುಘ್ನರಿಬ್ಬರೂ ಕೇಕಯ ದೇಶದಲ್ಲಿ ರಮ್ಯ ರಾಜಗೃಹ ನಗರದಲ್ಲಿ ತಾತನ ಮನೆಯಲ್ಲಿದ್ದಾರೆ."
+          }
         },
         {
           "n": 8,
-          "text": "इक्ष्वाकूणामिहाद्यैव कश्चिद्राजा विधीयताम् ।\nअराजकं हि नो राष्ट्रं न विनाशमवाप्नुयात् ॥"
+          "text": "इक्ष्वाकूणामिहाद्यैव कश्चिद्राजा विधीयताम् ।\nअराजकं हि नो राष्ट्रं न विनाशमवाप्नुयात् ॥",
+          "meaning": {
+            "en": "Let some king of the Ikshvakus be appointed this very day, lest our kingdom without a king come to ruin.",
+            "kn": "ಇಂದೇ ಇಕ್ಷ್ವಾಕುಗಳಲ್ಲಿ ಯಾರಾದರೂ ರಾಜನನ್ನು ನೇಮಿಸಬೇಕು; ರಾಜನಿಲ್ಲದ ನಮ್ಮ ರಾಷ್ಟ್ರ ನಾಶವಾಗದಿರಲಿ."
+          }
         },
         {
           "n": 9,
-          "text": "नाराजके जनपदे विद्युन्माली महास्वनः ।\nअभिवर्षति पर्जन्यो महीं दिव्येन वारिणा ॥"
+          "text": "नाराजके जनपदे विद्युन्माली महास्वनः ।\nअभिवर्षति पर्जन्यो महीं दिव्येन वारिणा ॥",
+          "meaning": {
+            "en": "In a land without a king the cloud, garlanded with lightning and roaring loudly, does not rain divine water on the earth.",
+            "kn": "ರಾಜನಿಲ್ಲದ ನಾಡಿನಲ್ಲಿ ಮಿಂಚಿನ ಮಾಲೆಯ ಗಟ್ಟಿ ಗರ್ಜಿಸುವ ಮೇಘ ದಿವ್ಯ ಜಲವನ್ನು ಭೂಮಿಗೆ ಸುರಿಸುವುದಿಲ್ಲ."
+          }
         },
         {
           "n": 10,
-          "text": "नाराजके जनपदे बीजमुष्टिः प्रकीर्यते ।\nनाराकके पितुः पुत्रो भार्या वा वर्तते वशे ॥"
+          "text": "नाराजके जनपदे बीजमुष्टिः प्रकीर्यते ।\nनाराकके पितुः पुत्रो भार्या वा वर्तते वशे ॥",
+          "meaning": {
+            "en": "In a land without a king no handful of seed is sown; there, neither son nor wife stays obedient to the father or husband.",
+            "kn": "ರಾಜನಿಲ್ಲದ ನಾಡಿನಲ್ಲಿ ಮುಷ್ಟಿ ಬೀಜವೂ ಬಿತ್ತಲ್ಪಡುವುದಿಲ್ಲ; ಮಗ ಅಥವಾ ಹೆಂಡತಿ ತಂದೆ ಪತಿಯ ವಶದಲ್ಲಿರುವುದಿಲ್ಲ."
+          }
         },
         {
           "n": 11,
-          "text": "अराजके धनं नास्ति नास्ति भार्याप्यराजके ।\nइद मत्याहितं चान्यत्कुतः सत्य मराजके ॥"
+          "text": "अराजके धनं नास्ति नास्ति भार्याप्यराजके ।\nइद मत्याहितं चान्यत्कुतः सत्य मराजके ॥",
+          "meaning": {
+            "en": "Without a king there is no wealth and no wife; and this too is a great ill: where is truth in a kingless land?",
+            "kn": "ರಾಜನಿಲ್ಲದಿದ್ದರೆ ಧನವಿಲ್ಲ, ಪತ್ನಿಯೂ ಇಲ್ಲ; ಇದು ಇನ್ನೊಂದು ದೊಡ್ಡ ಅನಿಷ್ಟ: ರಾಜನಿಲ್ಲದಲ್ಲಿ ಸತ್ಯ ಎಲ್ಲಿ?"
+          }
         },
         {
           "n": 12,
-          "text": "नाराजके जनपदे कारयन्ति सभां नराः ।\nउद्यानानि च रम्याणि हृष्टाः पुण्यगृहाणि च ॥"
+          "text": "नाराजके जनपदे कारयन्ति सभां नराः ।\nउद्यानानि च रम्याणि हृष्टाः पुण्यगृहाणि च ॥",
+          "meaning": {
+            "en": "In a land without a king people do not hold assemblies, nor gladly make pleasant gardens and holy houses.",
+            "kn": "ರಾಜನಿಲ್ಲದ ನಾಡಿನಲ್ಲಿ ಜನರು ಸಭೆ ಸೇರಿಸುವುದಿಲ್ಲ, ಸಂತೋಷದಿಂದ ರಮ್ಯ ಉದ್ಯಾನ ಮತ್ತು ಪುಣ್ಯಗೃಹಗಳನ್ನು ಕಟ್ಟಿಸುವುದಿಲ್ಲ."
+          }
         },
         {
           "n": 13,
-          "text": "नाराजके जनपदे यज्ञशीला द्विजातयः ।\nसत्राण्यन्वासते दान्ता ब्राह्मणाः संशितव्रताः ॥"
+          "text": "नाराजके जनपदे यज्ञशीला द्विजातयः ।\nसत्राण्यन्वासते दान्ता ब्राह्मणाः संशितव्रताः ॥",
+          "meaning": {
+            "en": "In a land without a king, brahmins devoted to sacrifice, self-controlled and strict in their vows, do not sit through sacrificial sessions.",
+            "kn": "ರಾಜನಿಲ್ಲದ ನಾಡಿನಲ್ಲಿ ಯಜ್ಞಶೀಲ, ದಾಂತ, ದೃಢವ್ರತ ಬ್ರಾಹ್ಮಣರು ಸತ್ರಗಳನ್ನು ನಡೆಸುವುದಿಲ್ಲ."
+          }
         },
         {
           "n": 14,
-          "text": "नाराजके जनपदे महायज्ञेषु यज्वनः ।\nब्राह्मणा वसुसम्पन्ना विसृजन्त्याप्तदक्षिणाः ॥"
+          "text": "नाराजके जनपदे महायज्ञेषु यज्वनः ।\nब्राह्मणा वसुसम्पन्ना विसृजन्त्याप्तदक्षिणाः ॥",
+          "meaning": {
+            "en": "In a land without a king the wealthy brahmins who perform great sacrifices do not give the proper fees.",
+            "kn": "ರಾಜನಿಲ್ಲದ ನಾಡಿನಲ್ಲಿ ಮಹಾಯಜ್ಞ ಮಾಡುವ ಸಂಪನ್ನ ಬ್ರಾಹ್ಮಣರು ಯೋಗ್ಯ ದಕ್ಷಿಣೆ ಕೊಡುವುದಿಲ್ಲ."
+          }
         },
         {
           "n": 15,
-          "text": "नाराजके जनपदे प्रभूतनटनर्तकाः ।\nउत्सवाश्च समाजाश्च वर्धन्ते राष्ट्रवर्धनाः ॥"
+          "text": "नाराजके जनपदे प्रभूतनटनर्तकाः ।\nउत्सवाश्च समाजाश्च वर्धन्ते राष्ट्रवर्धनाः ॥",
+          "meaning": {
+            "en": "In a land without a king, plentiful actors and dancers, and the festivals and gatherings that make a kingdom flourish, do not thrive.",
+            "kn": "ರಾಜನಿಲ್ಲದ ನಾಡಿನಲ್ಲಿ ನಟ ನರ್ತಕರು, ರಾಷ್ಟ್ರವನ್ನು ಬೆಳೆಸುವ ಉತ್ಸವ ಸಮಾಜಗಳು ವೃದ್ಧಿಯಾಗುವುದಿಲ್ಲ."
+          }
         },
         {
           "n": 16,
-          "text": "नारजके जन पदे सिद्धार्था व्यवहारिणः ।\nकथाभिरनुरज्यन्ते कथाशीलाः कथाप्रियैः ॥"
+          "text": "नारजके जन पदे सिद्धार्था व्यवहारिणः ।\nकथाभिरनुरज्यन्ते कथाशीलाः कथाप्रियैः ॥",
+          "meaning": {
+            "en": "In a land without a king, traders do not attain their ends, and lovers of tales are not pleased by tellers of tales.",
+            "kn": "ರಾಜನಿಲ್ಲದ ನಾಡಿನಲ್ಲಿ ವ್ಯಾಪಾರಿಗಳು ಕಾರ್ಯಸಿದ್ಧಿ ಪಡೆಯುವುದಿಲ್ಲ, ಕಥೆ ಪ್ರಿಯರು ಕಥೆ ಹೇಳುವವರಿಂದ ಸಂತೋಷಪಡುವುದಿಲ್ಲ."
+          }
         },
         {
           "n": 17,
-          "text": "नाराजके जनपदे उद्यानानि समागताः ।\nसायाह्ने क्रीडितुं यान्ति कुमार्यो हेमभूषिताः ॥"
+          "text": "नाराजके जनपदे उद्यानानि समागताः ।\nसायाह्ने क्रीडितुं यान्ति कुमार्यो हेमभूषिताः ॥",
+          "meaning": {
+            "en": "In a land without a king, golden-ornamented maidens, gathered in the gardens, do not go out to play in the evening.",
+            "kn": "ರಾಜನಿಲ್ಲದ ನಾಡಿನಲ್ಲಿ ಚಿನ್ನದ ಆಭರಣಗಳ ಕುಮಾರಿಯರು ಉದ್ಯಾನಗಳಲ್ಲಿ ಸೇರಿ ಸಂಜೆ ಆಡಲು ಹೋಗುವುದಿಲ್ಲ."
+          }
         },
         {
           "n": 18,
-          "text": "नाराजके जनपदे वाहनैः शीघ्रगामिभिः ।\nनरा निर्यान्त्यरण्यानि नारीभिः सह कामिनः ॥"
+          "text": "नाराजके जनपदे वाहनैः शीघ्रगामिभिः ।\nनरा निर्यान्त्यरण्यानि नारीभिः सह कामिनः ॥",
+          "meaning": {
+            "en": "In a land without a king, men in love do not go out to the woods in fast vehicles with their women.",
+            "kn": "ರಾಜನಿಲ್ಲದ ನಾಡಿನಲ್ಲಿ ಕಾಮುಕರು ವೇಗದ ವಾಹನಗಳಲ್ಲಿ ಸ್ತ್ರೀಯರೊಡನೆ ವನಗಳಿಗೆ ಹೋಗುವುದಿಲ್ಲ."
+          }
         },
         {
           "n": 19,
-          "text": "नाराकजे जन पदे धनवन्तः सुरक्षिताः ।\nशेरते विवृतद्वाराः कृषिगोरक्षजीविनः ॥"
+          "text": "नाराकजे जन पदे धनवन्तः सुरक्षिताः ।\nशेरते विवृतद्वाराः कृषिगोरक्षजीविनः ॥",
+          "meaning": {
+            "en": "In a land without a king, the rich, well guarded, do not sleep with doors open, nor the farmers and cowherds who live by their work.",
+            "kn": "ರಾಜನಿಲ್ಲದ ನಾಡಿನಲ್ಲಿ ಧನವಂತರು ರಕ್ಷಿತರಾಗಿ ಬಾಗಿಲು ತೆರೆದು ಮಲಗುವುದಿಲ್ಲ, ಕೃಷಿ ಗೋರಕ್ಷಣೆಯಿಂದ ಬದುಕುವವರೂ ಇಲ್ಲ."
+          }
         },
         {
           "n": 20,
-          "text": "नाराजके जनपदे बद्धघण्टाविषाणिनः ।\nअटन्ति राजमार्गेषु कुञ्जराः षष्टिहायनाः ॥"
+          "text": "नाराजके जनपदे बद्धघण्टाविषाणिनः ।\nअटन्ति राजमार्गेषु कुञ्जराः षष्टिहायनाः ॥",
+          "meaning": {
+            "en": "In a land without a king, sixty-year-old elephants with bells and tusks bound with ornaments do not roam the royal roads.",
+            "kn": "ರಾಜನಿಲ್ಲದ ನಾಡಿನಲ್ಲಿ ಗಂಟೆ ಕಟ್ಟಿದ, ದಂತಗಳಿಗೆ ಆಭರಣ ತೊಟ್ಟ ಅರವತ್ತು ವರ್ಷದ ಆನೆಗಳು ರಾಜಮಾರ್ಗಗಳಲ್ಲಿ ತಿರುಗುವುದಿಲ್ಲ."
+          }
         },
         {
           "n": 21,
-          "text": "नाराजके जनपदे शरान्सन्ततमस्यताम् ।\nश्रूयते तलनिर्घोष इष्वस्त्राणामुपासने ॥"
+          "text": "नाराजके जनपदे शरान्सन्ततमस्यताम् ।\nश्रूयते तलनिर्घोष इष्वस्त्राणामुपासने ॥",
+          "meaning": {
+            "en": "In a land without a king, the slap of the bowstring is not heard as men constantly shoot arrows, at their practice of bows and weapons.",
+            "kn": "ರಾಜನಿಲ್ಲದ ನಾಡಿನಲ್ಲಿ ಬಿಲ್ಲು ಅಸ್ತ್ರಗಳ ಅಭ್ಯಾಸದಲ್ಲಿ ಸತತ ಬಾಣ ಬಿಡುವವರ ಕೈ ಚಪ್ಪಾಳೆಯ ಶಬ್ದ ಕೇಳಿಸುವುದಿಲ್ಲ."
+          }
         },
         {
           "n": 22,
-          "text": "नाराजके जनपदे वणिजो दूरगामिनः ।\nगच्छन्ति क्षेममध्वानं बहुपण्यसमाचिताः ॥"
+          "text": "नाराजके जनपदे वणिजो दूरगामिनः ।\nगच्छन्ति क्षेममध्वानं बहुपण्यसमाचिताः ॥",
+          "meaning": {
+            "en": "In a land without a king, merchants who travel far do not set out safely on the road, laden with abundant wares.",
+            "kn": "ರಾಜನಿಲ್ಲದ ನಾಡಿನಲ್ಲಿ ದೂರ ಪ್ರಯಾಣಿಸುವ ವರ್ತಕರು ಬಹಳ ಸರಕು ತುಂಬಿಕೊಂಡು ಸುರಕ್ಷಿತ ದಾರಿಯಲ್ಲಿ ಹೋಗುವುದಿಲ್ಲ."
+          }
         },
         {
           "n": 23,
-          "text": "नाराजके जनपदे चरत्येकचरो वशी ।\nभावयन्नात्मनाऽत्मानं यत्र सायङ्गृहो मुनिः ॥"
+          "text": "नाराजके जनपदे चरत्येकचरो वशी ।\nभावयन्नात्मनाऽत्मानं यत्र सायङ्गृहो मुनिः ॥",
+          "meaning": {
+            "en": "In a land without a king, the self-controlled sage who wanders alone, cultivating himself by himself, and who stays wherever evening finds him, does not travel. (The wording is doubtful here.)",
+            "kn": "ರಾಜನಿಲ್ಲದ ನಾಡಿನಲ್ಲಿ ತನ್ನನ್ನು ತಾನೇ ಭಾವಿಸುತ್ತಾ ಸಂಜೆ ಎಲ್ಲಿ ಆಗುತ್ತದೋ ಅಲ್ಲೇ ಮನೆ ಮಾಡುವ ಸಂಯಮಿ ಏಕಾಂಗಿ ಮುನಿ ಸಂಚರಿಸುವುದಿಲ್ಲ. (ಇಲ್ಲಿ ಪಾಠ ಸಂದೇಹಾಸ್ಪದ.)"
+          }
         },
         {
           "n": 24,
-          "text": "नाराजके जनपदे योगक्षेमं प्रवर्तते ।\nनचाप्यराजके सेना शत्रून्विषहते युधि ॥"
+          "text": "नाराजके जनपदे योगक्षेमं प्रवर्तते ।\nनचाप्यराजके सेना शत्रून्विषहते युधि ॥",
+          "meaning": {
+            "en": "In a land without a king, security of possessions does not prevail, and an army without a king cannot withstand enemies in battle.",
+            "kn": "ರಾಜನಿಲ್ಲದ ನಾಡಿನಲ್ಲಿ ಯೋಗಕ್ಷೇಮ ನಡೆಯುವುದಿಲ್ಲ; ರಾಜನಿಲ್ಲದ ಸೇನೆ ಯುದ್ಧದಲ್ಲಿ ಶತ್ರುಗಳನ್ನು ತಡೆಯಲಾರದು."
+          }
         },
         {
           "n": 25,
-          "text": "नाराजके जनपदे हृष्टैः परमवाजिभिः ।\nनराः संयान्ति सहसा रथैश्च परिमण्डिताः ॥"
+          "text": "नाराजके जनपदे हृष्टैः परमवाजिभिः ।\nनराः संयान्ति सहसा रथैश्च परिमण्डिताः ॥",
+          "meaning": {
+            "en": "In a land without a king, men adorned with chariots do not suddenly dash out on fine, spirited horses.",
+            "kn": "ರಾಜನಿಲ್ಲದ ನಾಡಿನಲ್ಲಿ ರಥಗಳಿಂದ ಅಲಂಕೃತರಾದ ಜನರು ಉತ್ತಮ ಉತ್ಸಾಹಿ ಕುದುರೆಗಳಲ್ಲಿ ಥಟ್ಟನೆ ಹೊರಡುವುದಿಲ್ಲ."
+          }
         },
         {
           "n": 26,
-          "text": "नाराजके जनपदे नराः शास्त्रविशारदाः ।\nसंवदन्तोऽवतिष्ठन्ते वनेषूपवनेषु च ॥"
+          "text": "नाराजके जनपदे नराः शास्त्रविशारदाः ।\nसंवदन्तोऽवतिष्ठन्ते वनेषूपवनेषु च ॥",
+          "meaning": {
+            "en": "In a land without a king, men learned in the scriptures do not stay in forests and groves conversing together.",
+            "kn": "ರಾಜನಿಲ್ಲದ ನಾಡಿನಲ್ಲಿ ಶಾಸ್ತ್ರ ಪಂಡಿತರು ವನ ಉಪವನಗಳಲ್ಲಿ ಸಂವಾದ ಮಾಡುತ್ತಾ ಇರುವುದಿಲ್ಲ."
+          }
         },
         {
           "n": 27,
-          "text": "नाराजके जनपदे माल्यमोदकदक्षिणाः ।\nदेवताभ्यर्चनार्थाय कल्प्यन्ते नियतैर्जनैः ॥"
+          "text": "नाराजके जनपदे माल्यमोदकदक्षिणाः ।\nदेवताभ्यर्चनार्थाय कल्प्यन्ते नियतैर्जनैः ॥",
+          "meaning": {
+            "en": "In a land without a king, garlands, sweets and fees are not prepared by disciplined people for the worship of the gods.",
+            "kn": "ರಾಜನಿಲ್ಲದ ನಾಡಿನಲ್ಲಿ ದೇವತಾರ್ಚನೆಗೆ ನಿಯಮಿತ ಜನರು ಮಾಲೆ, ಮೋದಕ ಮತ್ತು ದಕ್ಷಿಣೆಗಳನ್ನು ಸಿದ್ಧಪಡಿಸುವುದಿಲ್ಲ."
+          }
         },
         {
           "n": 28,
-          "text": "नाराजके जनपदे चन्दनागरुरूषिताः ।\nराजपुत्रा विराजन्ते वसन्त इव शाखिनः ॥"
+          "text": "नाराजके जनपदे चन्दनागरुरूषिताः ।\nराजपुत्रा विराजन्ते वसन्त इव शाखिनः ॥",
+          "meaning": {
+            "en": "In a land without a king, princes anointed with sandal and aloe do not shine like trees in spring.",
+            "kn": "ರಾಜನಿಲ್ಲದ ನಾಡಿನಲ್ಲಿ ಚಂದನ ಅಗರು ಲೇಪಿತ ರಾಜಕುಮಾರರು ವಸಂತದ ಮರಗಳಂತೆ ಶೋಭಿಸುವುದಿಲ್ಲ."
+          }
         },
         {
           "n": 29,
-          "text": "यथा ह्यनुदका नद्यो यथा वाऽप्यतृणं वनम् ।\nअगोपाला यथा गावस्तथा राष्ट्रमराजकम् ॥"
+          "text": "यथा ह्यनुदका नद्यो यथा वाऽप्यतृणं वनम् ।\nअगोपाला यथा गावस्तथा राष्ट्रमराजकम् ॥",
+          "meaning": {
+            "en": "As rivers without water, as a forest without grass, as cattle without a herdsman, so is a kingdom without a king.",
+            "kn": "ನೀರಿಲ್ಲದ ನದಿಗಳಂತೆ, ಹುಲ್ಲಿಲ್ಲದ ಕಾಡಿನಂತೆ, ಗೋಪಾಲಕನಿಲ್ಲದ ಹಸುಗಳಂತೆ ರಾಜನಿಲ್ಲದ ರಾಷ್ಟ್ರ."
+          }
         },
         {
           "n": 30,
-          "text": "ध्वजो रथस्य प्रज्ञानं धूमो ज्ञानं विभावसोः ।\nतेषां यो नो ध्वजो राज स देवत्वमितो गतः ॥"
+          "text": "ध्वजो रथस्य प्रज्ञानं धूमो ज्ञानं विभावसोः ।\nतेषां यो नो ध्वजो राज स देवत्वमितो गतः ॥",
+          "meaning": {
+            "en": "The banner is the sign of a chariot, smoke the sign of fire; our banner, the king, has gone from here to the state of a god.",
+            "kn": "ರಥಕ್ಕೆ ಧ್ವಜ ಗುರುತು, ಅಗ್ನಿಗೆ ಹೊಗೆ ಗುರುತು; ನಮ್ಮ ಧ್ವಜವಾದ ರಾಜನು ಇಲ್ಲಿಂದ ದೇವತ್ವಕ್ಕೆ ಹೋದನು."
+          }
         },
         {
           "n": 31,
-          "text": "नाराजके जनपदे स्वकं भवति कस्यचित् ।\nमत्स्या इव नरा नित्यं भक्षयन्ति परस्परम् ॥"
+          "text": "नाराजके जनपदे स्वकं भवति कस्यचित् ।\nमत्स्या इव नरा नित्यं भक्षयन्ति परस्परम् ॥",
+          "meaning": {
+            "en": "In a land without a king nothing belongs to anyone; people constantly devour one another like fish.",
+            "kn": "ರಾಜನಿಲ್ಲದ ನಾಡಿನಲ್ಲಿ ಯಾರಿಗೂ ಏನೂ ತನ್ನದಾಗಿರುವುದಿಲ್ಲ; ಜನರು ಮೀನುಗಳಂತೆ ಯಾವಾಗಲೂ ಒಬ್ಬರನ್ನೊಬ್ಬರು ತಿನ್ನುತ್ತಾರೆ."
+          }
         },
         {
           "n": 32,
-          "text": "ये हि सम्भिन्नमर्यादा नास्तिकाश्छिन्नसंशयाः ।\nतेऽपि भावाय कल्पन्ते राजदण्डनिपीडिताः ॥"
+          "text": "ये हि सम्भिन्नमर्यादा नास्तिकाश्छिन्नसंशयाः ।\nतेऽपि भावाय कल्पन्ते राजदण्डनिपीडिताः ॥",
+          "meaning": {
+            "en": "Even those who break all bounds, the unbelievers whose doubts are cut off, become fit for order when oppressed by the rod of the king.",
+            "kn": "ಎಲ್ಲ ಮರ್ಯಾದೆ ಮೀರಿದ, ಸಂಶಯ ಕಳೆದ ನಾಸ್ತಿಕರೂ ರಾಜದಂಡದಿಂದ ಪೀಡಿತರಾಗಿ ಸರಿದಾರಿಗೆ ಬರುತ್ತಾರೆ."
+          }
         },
         {
           "n": 33,
-          "text": "यथा दृष्टिः शरीरस्य नित्यमेव प्रवर्तते ।\nतथा नरेन्द्रो राष्ट्रस्य प्रभवः सत्यधर्मयोः ॥"
+          "text": "यथा दृष्टिः शरीरस्य नित्यमेव प्रवर्तते ।\nतथा नरेन्द्रो राष्ट्रस्य प्रभवः सत्यधर्मयोः ॥",
+          "meaning": {
+            "en": "As the eye of the body always works, so the king is the source of truth and dharma in the kingdom.",
+            "kn": "ಶರೀರಕ್ಕೆ ಕಣ್ಣು ಸದಾ ಕೆಲಸ ಮಾಡುವಂತೆ ರಾಜನು ರಾಷ್ಟ್ರದಲ್ಲಿ ಸತ್ಯ ಧರ್ಮಗಳ ಉಗಮ."
+          }
         },
         {
           "n": 34,
-          "text": "राजा सत्यं च धर्मश्च राजा कुलवतां कुलम् ।\nराजा माता पिता चैव राजा हितकरो नृणाम् ॥"
+          "text": "राजा सत्यं च धर्मश्च राजा कुलवतां कुलम् ।\nराजा माता पिता चैव राजा हितकरो नृणाम् ॥",
+          "meaning": {
+            "en": "The king is truth and dharma; the king is the family of those of good family; the king is mother and father; the king does good to men.",
+            "kn": "ರಾಜನೇ ಸತ್ಯ, ರಾಜನೇ ಧರ್ಮ; ರಾಜನೇ ಕುಲೀನರ ಕುಲ; ರಾಜನೇ ತಾಯಿ ತಂದೆ; ರಾಜನು ಜನರಿಗೆ ಹಿತ ಮಾಡುವವನು."
+          }
         },
         {
           "n": 35,
-          "text": "यमो वैश्रवणः शक्रो वरुणश्च महाबलः ।\nविशेष्यन्ते नरेन्द्रेण वृत्तेन महता ततः ॥"
+          "text": "यमो वैश्रवणः शक्रो वरुणश्च महाबलः ।\nविशेष्यन्ते नरेन्द्रेण वृत्तेन महता ततः ॥",
+          "meaning": {
+            "en": "Yama, Vaishravana, Indra and mighty Varuna are surpassed by a king through his great conduct.",
+            "kn": "ಯಮ, ವೈಶ್ರವಣ, ಇಂದ್ರ ಮತ್ತು ಮಹಾಬಲಿ ವರುಣರನ್ನೂ ರಾಜನು ತನ್ನ ಮಹಾ ನಡತೆಯಿಂದ ಮೀರಿಸುತ್ತಾನೆ."
+          }
         },
         {
           "n": 36,
-          "text": "अहो तम इवेदं स्यान्नप्रज्ञायेत किञ्चन ।\nराजा चे न्न भवे ल्लोके विभज साध्वसाधुनी ॥"
+          "text": "अहो तम इवेदं स्यान्नप्रज्ञायेत किञ्चन ।\nराजा चे न्न भवे ल्लोके विभज साध्वसाधुनी ॥",
+          "meaning": {
+            "en": "Ah, this world would be like darkness and nothing would be known, if there were no king in the world to distinguish good from bad.",
+            "kn": "ಅಯ್ಯೋ, ಒಳ್ಳೆಯದು ಕೆಟ್ಟದ್ದನ್ನು ವಿಂಗಡಿಸುವ ರಾಜನು ಲೋಕದಲ್ಲಿ ಇಲ್ಲದಿದ್ದರೆ ಇದು ಕತ್ತಲೆಯಂತಾಗಿ ಏನೂ ತಿಳಿಯದು."
+          }
         },
         {
           "n": 37,
-          "text": "जीवत्यपि महाराजे तवैव वचनं वयम् ।\nनातिक्रमामहे सर्वे वेलां प्राप्येव सागरः ॥"
+          "text": "जीवत्यपि महाराजे तवैव वचनं वयम् ।\nनातिक्रमामहे सर्वे वेलां प्राप्येव सागरः ॥",
+          "meaning": {
+            "en": "Even while the great king lived we all never transgressed your word, as the sea does not pass its shore.",
+            "kn": "ಮಹಾರಾಜ ಬದುಕಿದ್ದಾಗಲೂ ನಾವೆಲ್ಲ ಸಮುದ್ರ ತೀರ ದಾಟದಂತೆ ನಿನ್ನ ಮಾತನ್ನು ಮೀರಲಿಲ್ಲ."
+          }
         },
         {
           "n": 38,
-          "text": "स नः समीक्ष्य द्विजवर्य वृत्तं\nनृपं विना राज्यमरण्यभूतम् ।\nकुमारमिक्ष्वाकुसुतं वदान्यं त्वम्\nएव राजानमिहाभिषिञ्चय ॥"
+          "text": "स नः समीक्ष्य द्विजवर्य वृत्तं\nनृपं विना राज्यमरण्यभूतम् ।\nकुमारमिक्ष्वाकुसुतं वदान्यं त्वम्\nएव राजानमिहाभिषिञ्चय ॥",
+          "meaning": {
+            "en": "Therefore, best of brahmins, seeing the state of the kingdom, which without a king has become like a wilderness, anoint here as king a generous prince, a son of Ikshvaku.",
+            "kn": "ಆದ್ದರಿಂದ ದ್ವಿಜಶ್ರೇಷ್ಠ, ರಾಜನಿಲ್ಲದೆ ಕಾಡಿನಂತಾದ ರಾಜ್ಯದ ಸ್ಥಿತಿಯನ್ನು ನೋಡಿ ಉದಾರಿಯಾದ ಇಕ್ಷ್ವಾಕು ಕುಮಾರನನ್ನು ನೀನೇ ಇಲ್ಲಿ ರಾಜನಾಗಿ ಅಭಿಷೇಕಿಸು."
+          }
         },
         {
           "text": "इत्यार्षे श्रीमद्रामायणे वाल्मीकीये आदिकाव्ये\nअयोध्याकाण्डे सप्तषष्टितमः सर्गः ॥"

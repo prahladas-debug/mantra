@@ -20,219 +20,435 @@
       "verses": [
         {
           "n": 1,
-          "text": "ततः शरेणाभिहतो रामेण रणकर्कशः ।\nपपात सहसा वाली निकृत्त इव पादपः ॥"
+          "text": "ततः शरेणाभिहतो रामेण रणकर्कशः ।\nपपात सहसा वाली निकृत्त इव पादपः ॥",
+          "meaning": {
+            "en": "Struck by Rama's arrow, Vali, fierce in battle, suddenly fell like a felled tree.",
+            "kn": "ರಾಮನ ಬಾಣದಿಂದ ಹೊಡೆಯಲ್ಪಟ್ಟ ರಣಕರ್ಕಶ ವಾಲಿ ಕಡಿದ ಮರದಂತೆ ಥಟ್ಟನೆ ಬಿದ್ದನು."
+          }
         },
         {
           "n": 2,
-          "text": "स भूमौ न्यस्तसर्वाङ्गस्तप्तकाञ्चनभूषणः ।\nअपतद् देवराजस्य मुक्तरश्मिरिव ध्वजः ॥"
+          "text": "स भूमौ न्यस्तसर्वाङ्गस्तप्तकाञ्चनभूषणः ।\nअपतद् देवराजस्य मुक्तरश्मिरिव ध्वजः ॥",
+          "meaning": {
+            "en": "With all his limbs laid on the ground, adorned with refined gold, he fell like the banner of the king of the gods when its cords are loosed.",
+            "kn": "ತಪ್ತ ಚಿನ್ನದ ಆಭರಣ ಧರಿಸಿದ ಅವನು ಎಲ್ಲ ಅಂಗಗಳನ್ನು ನೆಲದ ಮೇಲೆ ಇಟ್ಟು, ಹಗ್ಗ ಬಿಟ್ಟ ದೇವರಾಜನ ಧ್ವಜದಂತೆ ಬಿದ್ದನು."
+          }
         },
         {
           "n": 3,
-          "text": "अस्मिन्निपतिते भूमौ हर्यृक्षाणां गणेश्वरे ।\nनष्टचन्द्रमिव व्योम न व्यराजत मेदिनी ॥"
+          "text": "अस्मिन्निपतिते भूमौ हर्यृक्षाणां गणेश्वरे ।\nनष्टचन्द्रमिव व्योम न व्यराजत मेदिनी ॥",
+          "meaning": {
+            "en": "When this lord of the troops of monkeys and bears had fallen, the earth, like a sky without the moon, did not shine.",
+            "kn": "ವಾನರ ಕರಡಿ ಗಣಗಳ ಈ ಒಡೆಯ ಬಿದ್ದಾಗ ಭೂಮಿಯು ಚಂದ್ರನಿಲ್ಲದ ಆಕಾಶದಂತೆ ಶೋಭಿಸಲಿಲ್ಲ."
+          }
         },
         {
           "n": 4,
-          "text": "भूमौ निपतितस्यापि तस्य देहं महात्मनः ।\nन श्रीर्जहाति न प्राणा न तेजो न पराक्रमः ॥"
+          "text": "भूमौ निपतितस्यापि तस्य देहं महात्मनः ।\nन श्रीर्जहाति न प्राणा न तेजो न पराक्रमः ॥",
+          "meaning": {
+            "en": "Even as he lay fallen on the ground, neither glory nor life, nor splendour nor valour left the body of that great one.",
+            "kn": "ನೆಲದ ಮೇಲೆ ಬಿದ್ದಿದ್ದರೂ ಆ ಮಹಾತ್ಮನ ದೇಹವನ್ನು ಶ್ರೀ, ಪ್ರಾಣ, ತೇಜಸ್ಸು, ಪರಾಕ್ರಮ ಬಿಡಲಿಲ್ಲ."
+          }
         },
         {
           "n": 5,
-          "text": "शक्रदत्ता वरा माला काञ्चनी रत्नभूषिता ।\nदधार हरिमुख्यस्य प्राणांस्तेजः श्रियं च सा ॥"
+          "text": "शक्रदत्ता वरा माला काञ्चनी रत्नभूषिता ।\nदधार हरिमुख्यस्य प्राणांस्तेजः श्रियं च सा ॥",
+          "meaning": {
+            "en": "The excellent golden garland given by Indra, adorned with jewels, sustained the chief of monkeys in life, splendour and glory.",
+            "kn": "ಇಂದ್ರ ಕೊಟ್ಟ ರತ್ನ ಅಲಂಕೃತ ಶ್ರೇಷ್ಠ ಚಿನ್ನದ ಮಾಲೆ ವಾನರ ಮುಖ್ಯನಿಗೆ ಪ್ರಾಣ, ತೇಜಸ್ಸು, ಶ್ರೀಯನ್ನು ಧರಿಸಿತ್ತು."
+          }
         },
         {
           "n": 6,
-          "text": "स तया मालया वीरो हैमया हरियूथपः ।\nसन्ध्यानुगतपर्यन्तः पयोधर इवाभवत् ॥"
+          "text": "स तया मालया वीरो हैमया हरियूथपः ।\nसन्ध्यानुगतपर्यन्तः पयोधर इवाभवत् ॥",
+          "meaning": {
+            "en": "With that golden garland the hero, leader of monkey troops, looked like a cloud whose edges are touched by twilight.",
+            "kn": "ಆ ಚಿನ್ನದ ಮಾಲೆಯಿಂದ ಆ ವಾನರ ಯೂಥಪತಿ ವೀರನು ಸಂಜೆಯ ಕೆಂಪು ಅಂಚಿನ ಮೇಘದಂತೆ ಕಂಡನು."
+          }
         },
         {
           "n": 7,
-          "text": "तस्य माला च देहश्च मर्मघाती च यः शरः ।\nत्रिधेव रचिता लक्ष्मीः पतितस्यापि शोभते ॥"
+          "text": "तस्य माला च देहश्च मर्मघाती च यः शरः ।\nत्रिधेव रचिता लक्ष्मीः पतितस्यापि शोभते ॥",
+          "meaning": {
+            "en": "His garland, his body and the arrow that pierced his vitals, these three shone as if Fortune were arranged in three parts, even as he lay fallen.",
+            "kn": "ಅವನ ಮಾಲೆ, ದೇಹ, ಮರ್ಮ ಭೇದಕ ಬಾಣ ಈ ಮೂರು, ಬಿದ್ದಿದ್ದರೂ, ಲಕ್ಷ್ಮಿಯನ್ನು ಮೂರು ಭಾಗವಾಗಿ ರಚಿಸಿದಂತೆ ಶೋಭಿಸಿದವು."
+          }
         },
         {
           "n": 8,
-          "text": "तदस्त्रं तस्य वीरस्य स्वर्गमार्गप्रभावनम् ।\nरामबाणासनक्षिप्तमावहत् परमां गतिम् ॥"
+          "text": "तदस्त्रं तस्य वीरस्य स्वर्गमार्गप्रभावनम् ।\nरामबाणासनक्षिप्तमावहत् परमां गतिम् ॥",
+          "meaning": {
+            "en": "That weapon, loosed from Rama's bow, lit up the hero's path to heaven and carried him to the highest state.",
+            "kn": "ರಾಮನ ಧನುಸ್ಸಿನಿಂದ ಬಿಡಲ್ಪಟ್ಟ ಆ ಅಸ್ತ್ರವು ವೀರನ ಸ್ವರ್ಗ ಮಾರ್ಗವನ್ನು ಬೆಳಗಿ ಅವನನ್ನು ಪರಮ ಗತಿಗೆ ಒಯ್ಯಿತು."
+          }
         },
         {
           "n": 9,
-          "text": "तं तथा पतितं सङ्ख्ये गतार्चिषमिवानलम् ।\nययातिमिव पुण्यान्ते देवलोकादिह च्युतम् ॥"
+          "text": "तं तथा पतितं सङ्ख्ये गतार्चिषमिवानलम् ।\nययातिमिव पुण्यान्ते देवलोकादिह च्युतम् ॥",
+          "meaning": {
+            "en": "Seeing him fallen thus in battle, like a fire whose flames have died, like Yayati fallen from the world of the gods at the end of his merit,",
+            "kn": "ಯುದ್ಧದಲ್ಲಿ ಹೀಗೆ ಬಿದ್ದ ಅವನನ್ನು, ಜ್ವಾಲೆ ಕಳೆದ ಅಗ್ನಿಯಂತೆ, ಪುಣ್ಯ ಕ್ಷಯದ ಬಳಿಕ ದೇವಲೋಕದಿಂದ ಇಲ್ಲಿ ಬಿದ್ದ ಯಯಾತಿಯಂತೆ,"
+          }
         },
         {
           "n": 10,
-          "text": "आदित्यमिव कालेन युगान्ते भुवि पातितम् ।\nमहेन्द्रमिव दुर्धर्षमुपेन्द्रमिव दुःसहम् ॥"
+          "text": "आदित्यमिव कालेन युगान्ते भुवि पातितम् ।\nमहेन्द्रमिव दुर्धर्षमुपेन्द्रमिव दुःसहम् ॥",
+          "meaning": {
+            "en": "like the sun brought down to earth by time at the end of an age, unassailable like Mahendra, irresistible like Upendra,",
+            "kn": "ಯುಗಾಂತದಲ್ಲಿ ಕಾಲದಿಂದ ಭೂಮಿಗೆ ಬೀಳಿಸಲ್ಪಟ್ಟ ಸೂರ್ಯನಂತೆ, ಮಹೇಂದ್ರನಂತೆ ದುರ್ಧರ್ಷ, ಉಪೇಂದ್ರನಂತೆ ದುಃಸಹನಾದವನನ್ನು,"
+          }
         },
         {
           "n": 11,
-          "text": "महेन्द्रपुत्रं पतितं वालिनं हेममालिनम् ।\nव्यूढोरस्कं महाबाहुं दीप्तास्यं हरिलोचनम् ॥"
+          "text": "महेन्द्रपुत्रं पतितं वालिनं हेममालिनम् ।\nव्यूढोरस्कं महाबाहुं दीप्तास्यं हरिलोचनम् ॥",
+          "meaning": {
+            "en": "the son of Mahendra, Vali of the golden garland, broad-chested, mighty-armed, with a blazing face and tawny eyes, lying fallen,",
+            "kn": "ಮಹೇಂದ್ರ ಪುತ್ರ, ಚಿನ್ನದ ಮಾಲೆಯ, ವಿಶಾಲ ಎದೆಯ, ಮಹಾಬಾಹು, ಉರಿಯುವ ಮುಖ, ಕಂದು ಕಣ್ಣುಗಳ ವಾಲಿ ಬಿದ್ದಿರುವುದನ್ನು,"
+          }
         },
         {
           "n": 12,
-          "text": "लक्ष्मणानुचरो रामो ददर्शोपससर्प च ।\nतं तथा पतितं वीरं गतार्चिषमिवानलम् ॥"
+          "text": "लक्ष्मणानुचरो रामो ददर्शोपससर्प च ।\nतं तथा पतितं वीरं गतार्चिषमिवानलम् ॥",
+          "meaning": {
+            "en": "Rama, followed by Lakshmana, saw and approached him, lying thus like a fire with its flames gone out.",
+            "kn": "ಲಕ್ಷ್ಮಣ ಅನುಸರಿಸುತ್ತಿರಲು ರಾಮನು ಜ್ವಾಲೆ ಕಳೆದ ಅಗ್ನಿಯಂತೆ ಬಿದ್ದ ಅವನನ್ನು ಕಂಡು ಹತ್ತಿರ ಹೋದನು."
+          }
         },
         {
           "n": 13,
-          "text": "बहुमान्य च तं वीरं वीक्षमाणं शनैरिव ।\nउपयातौ महावीर्यौ भ्रातरौ रामलक्ष्मणौ ॥"
+          "text": "बहुमान्य च तं वीरं वीक्षमाणं शनैरिव ।\nउपयातौ महावीर्यौ भ्रातरौ रामलक्ष्मणौ ॥",
+          "meaning": {
+            "en": "Honouring that hero, who seemed to be looking on slowly, the two mighty brothers Rama and Lakshmana drew near.",
+            "kn": "ನಿಧಾನವಾಗಿ ನೋಡುತ್ತಿರುವಂತೆ ತೋರಿದ ಆ ವೀರನನ್ನು ಗೌರವಿಸಿ ಮಹಾವೀರ್ಯರಾದ ರಾಮಲಕ್ಷ್ಮಣ ಸಹೋದರರು ಹತ್ತಿರ ಬಂದರು."
+          }
         },
         {
           "n": 14,
-          "text": "तं दृष्ट्वा राघवं वाली लक्ष्मणं च महाबलम् ।\nअब्रवीत् परुषं वाक्यं प्रश्रितं धर्मसंहितम् ॥"
+          "text": "तं दृष्ट्वा राघवं वाली लक्ष्मणं च महाबलम् ।\nअब्रवीत् परुषं वाक्यं प्रश्रितं धर्मसंहितम् ॥",
+          "meaning": {
+            "en": "Seeing Rama and mighty Lakshmana, Vali spoke harsh words, yet humble and filled with dharma:",
+            "kn": "ರಾಘವ ಮತ್ತು ಮಹಾಬಲಿ ಲಕ್ಷ್ಮಣನನ್ನು ಕಂಡು ವಾಲಿ ಕಠೋರವಾದರೂ ವಿನಯಯುಕ್ತ, ಧರ್ಮಯುಕ್ತ ಮಾತನ್ನು ಹೇಳಿದನು:"
+          }
         },
         {
           "n": 15,
-          "text": "स भूमावल्पतेजोऽसुर्निहतो नष्टचेतनः ।\nअर्थसंहितया वाचा गर्वितं रणगर्वितम् ॥"
+          "text": "स भूमावल्पतेजोऽसुर्निहतो नष्टचेतनः ।\nअर्थसंहितया वाचा गर्वितं रणगर्वितम् ॥",
+          "meaning": {
+            "en": "Struck down on the ground, his strength and life ebbing, his senses lost, he spoke to the proud one, proud in battle, in words full of meaning:",
+            "kn": "ನೆಲದ ಮೇಲೆ ಹತನಾಗಿ ಬಿದ್ದು, ತೇಜಸ್ಸು ಪ್ರಾಣ ಕ್ಷೀಣವಾಗಿ, ಚೇತನ ನಷ್ಟವಾದರೂ, ರಣ ಗರ್ವಿತ ಅಹಂಕಾರಿಗೆ ಅರ್ಥಪೂರ್ಣ ಮಾತಿನಿಂದ ಹೇಳಿದನು:"
+          }
         },
         {
           "n": 16,
-          "text": "त्वं नराधिपतेः पुत्रः प्रथितः प्रियदर्शनः ।\nपराङ्मुखवधं कृत्वा कोऽत्र प्राप्तस्त्वया गुणः ।\nयदहं युद्धसंरब्धस्त्वत्कृते निधनं गतः ॥"
+          "text": "त्वं नराधिपतेः पुत्रः प्रथितः प्रियदर्शनः ।\nपराङ्मुखवधं कृत्वा कोऽत्र प्राप्तस्त्वया गुणः ।\nयदहं युद्धसंरब्धस्त्वत्कृते निधनं गतः ॥",
+          "meaning": {
+            "en": "\"You are a famed and handsome son of a lord of men. What merit have you won here by killing one who was turned away from you, when I was engaged in battle with another and went to my death because of you?",
+            "kn": "\"ನೀನು ಪ್ರಸಿದ್ಧ ಪ್ರಿಯದರ್ಶನ ನರಾಧಿಪನ ಪುತ್ರ. ಬೇರೆಯವನೊಡನೆ ಯುದ್ಧದಲ್ಲಿದ್ದ, ನಿನ್ನಿಂದ ಮುಖ ತಿರುಗಿಸಿದ್ದವನನ್ನು ಕೊಂದು ನಿನಗೆ ಇಲ್ಲಿ ಯಾವ ಗುಣ ದೊರೆಯಿತು? ನಿನ್ನ ಕಾರಣದಿಂದ ನಾನು ಯುದ್ಧ ರೋಷದಲ್ಲಿರುವಾಗ ಮರಣ ಹೊಂದಿದೆ."
+          }
         },
         {
           "n": 17,
-          "text": "कुलीनः सत्त्वसम्पन्नस्तेजस्वी चरितव्रतः ।\nरामः करुणवेदी च प्रजानां च हिते रतः ॥"
+          "text": "कुलीनः सत्त्वसम्पन्नस्तेजस्वी चरितव्रतः ।\nरामः करुणवेदी च प्रजानां च हिते रतः ॥",
+          "meaning": {
+            "en": "Rama is said to be well-born, strong in spirit, radiant, firm in his vows, knowing compassion and devoted to the good of his subjects,",
+            "kn": "ರಾಮ ಕುಲೀನ, ಸತ್ತ್ವಸಂಪನ್ನ, ತೇಜಸ್ವಿ, ವ್ರತ ನಡೆಸಿದವನು, ಕರುಣೆ ತಿಳಿದವನು, ಪ್ರಜೆಗಳ ಹಿತದಲ್ಲಿ ನಿರತನು ಎನ್ನುತ್ತಾರೆ,"
+          }
         },
         {
           "n": 18,
-          "text": "सानुक्रोशो महोत्साहः समयज्ञो दृढव्रतः ।\nइत्येतत् सर्वभूतानि कथयन्ति यशो भुवि ॥"
+          "text": "सानुक्रोशो महोत्साहः समयज्ञो दृढव्रतः ।\nइत्येतत् सर्वभूतानि कथयन्ति यशो भुवि ॥",
+          "meaning": {
+            "en": "compassionate, of great vigour, knowing the proper time, steady in vows: so all beings proclaim your fame on earth.",
+            "kn": "ಅನುಕಂಪವುಳ್ಳವನು, ಮಹೋತ್ಸಾಹಿ, ಸಮಯಜ್ಞ, ದೃಢವ್ರತ ಎಂದು ಎಲ್ಲ ಭೂತಗಳು ನಿನ್ನ ಯಶಸ್ಸನ್ನು ಹೇಳುತ್ತವೆ."
+          }
         },
         {
           "n": 19,
-          "text": "दमः शमः क्षमा धर्मो धृतिः सत्यं पराक्रमः ।\nपार्थिवानां गुणा राजन् दण्डश्चाप्यपकारिषु ॥"
+          "text": "दमः शमः क्षमा धर्मो धृतिः सत्यं पराक्रमः ।\nपार्थिवानां गुणा राजन् दण्डश्चाप्यपकारिषु ॥",
+          "meaning": {
+            "en": "Self-control, calm, forbearance, dharma, steadiness, truth, valour, and punishment of wrongdoers: these are the qualities of kings, O king.",
+            "kn": "ದಮ, ಶಮ, ಕ್ಷಮೆ, ಧರ್ಮ, ಧೃತಿ, ಸತ್ಯ, ಪರಾಕ್ರಮ ಮತ್ತು ಅಪಕಾರಿಗಳ ಮೇಲೆ ದಂಡ: ರಾಜನೇ, ಇವು ರಾಜರ ಗುಣಗಳು."
+          }
         },
         {
           "n": 20,
-          "text": "तान् गुणान् सम्प्रधार्याहमग्र्यं चाभिजनं तव ।\nतारया प्रतिषिद्धः सन् सुग्रीवेण समागतः ॥"
+          "text": "तान् गुणान् सम्प्रधार्याहमग्र्यं चाभिजनं तव ।\nतारया प्रतिषिद्धः सन् सुग्रीवेण समागतः ॥",
+          "meaning": {
+            "en": "Considering those qualities and your excellent lineage, though forbidden by Tara, I came to fight Sugriva.",
+            "kn": "ಆ ಗುಣಗಳನ್ನೂ ನಿನ್ನ ಶ್ರೇಷ್ಠ ವಂಶವನ್ನೂ ಪರಿಗಣಿಸಿ, ತಾರೆ ತಡೆದರೂ ನಾನು ಸುಗ್ರೀವನೊಡನೆ ಯುದ್ಧಕ್ಕೆ ಬಂದೆ."
+          }
         },
         {
           "n": 21,
-          "text": "न मामन्येन संरब्धं प्रमत्तं वेद्धुमर्हसि ।\nइति मे बुद्धिरुत्पन्ना बभूवादर्शने तव ॥"
+          "text": "न मामन्येन संरब्धं प्रमत्तं वेद्धुमर्हसि ।\nइति मे बुद्धिरुत्पन्ना बभूवादर्शने तव ॥",
+          "meaning": {
+            "en": "When I could not see you, I thought: \"One who is enraged and careless in fighting another will not be shot by someone else.\"",
+            "kn": "ನೀನು ಕಾಣದಾಗ ನನಗೆ ಹೀಗೆ ತೋರಿತು: \"ಬೇರೊಬ್ಬನೊಡನೆ ಕೋಪದಿಂದ ಹೋರಾಡುತ್ತಿರುವ ಅಸಾವಧಾನಿಯಾದ ನನ್ನನ್ನು ಇನ್ನೊಬ್ಬ ಬಾಣದಿಂದ ಹೊಡೆಯಬಾರದು.\""
+          }
         },
         {
           "n": 22,
-          "text": "स त्वां विनिहतात्मानं धर्मध्वजमधार्मिकम् ।\nजाने पापसमाचारं तृणैः कूपमिवावृतम् ॥"
+          "text": "स त्वां विनिहतात्मानं धर्मध्वजमधार्मिकम् ।\nजाने पापसमाचारं तृणैः कूपमिवावृतम् ॥",
+          "meaning": {
+            "en": "Now I know you, whose self is lost, a hypocrite with the banner of dharma, unrighteous and sinful in conduct, like a well covered with grass.",
+            "kn": "ಈಗ ತಿಳಿಯುತ್ತಿದ್ದೇನೆ: ಧರ್ಮ ಧ್ವಜ ಹೊತ್ತು ಅಧಾರ್ಮಿಕ, ಪಾಪ ನಡತೆಯ, ಹುಲ್ಲಿನಿಂದ ಮುಚ್ಚಿದ ಬಾವಿಯಂತಹ, ಆತ್ಮ ಕಳೆದುಕೊಂಡ ನಿನ್ನನ್ನು."
+          }
         },
         {
           "n": 23,
-          "text": "सतां वेषधरं पापं प्रच्छन्नमिव पावकम् ।\nनाहं त्वामभिजानामि धर्मच्छद्माभिसंवृतम् ॥"
+          "text": "सतां वेषधरं पापं प्रच्छन्नमिव पावकम् ।\nनाहं त्वामभिजानामि धर्मच्छद्माभिसंवृतम् ॥",
+          "meaning": {
+            "en": "A sinner wearing the garb of the good, like fire hidden under cover; I did not know you, wrapped in a pretence of dharma.",
+            "kn": "ಸಾಧುಗಳ ವೇಷ ಧರಿಸಿದ ಪಾಪಿ, ಮರೆಮಾಚಿದ ಅಗ್ನಿಯಂತೆ; ಧರ್ಮದ ಸೋಗಿನಿಂದ ಆವೃತನಾದ ನಿನ್ನನ್ನು ನಾನು ತಿಳಿಯಲಿಲ್ಲ."
+          }
         },
         {
           "n": 24,
-          "text": "विषये वा पुरे वा ते यदा पापं करोम्यहम् ।\nन च त्वामवजानेऽहं कस्मात् तं हंस्यकिल्बिषम् ॥"
+          "text": "विषये वा पुरे वा ते यदा पापं करोम्यहम् ।\nन च त्वामवजानेऽहं कस्मात् तं हंस्यकिल्बिषम् ॥",
+          "meaning": {
+            "en": "When I did wrong in your realm or city, and did not disrespect you, why do you kill me, who am blameless?",
+            "kn": "ನಿನ್ನ ರಾಜ್ಯದಲ್ಲಿ ಅಥವಾ ನಗರದಲ್ಲಿ ನಾನು ಪಾಪ ಮಾಡಿದ್ದರೆ, ಮತ್ತು ನಿನ್ನನ್ನು ಅವಮಾನಿಸಿದ್ದರೆ, ನಿರಪರಾಧಿಯಾದ ನನ್ನನ್ನು ಏಕೆ ಕೊಲ್ಲುತ್ತೀಯೆ?"
+          }
         },
         {
           "n": 25,
-          "text": "फलमूलाशनं नित्यं वानरं वनगोचरम् ।\nमामिहाप्रतियुध्यन्तमन्येन च समागतम् ॥"
+          "text": "फलमूलाशनं नित्यं वानरं वनगोचरम् ।\nमामिहाप्रतियुध्यन्तमन्येन च समागतम् ॥",
+          "meaning": {
+            "en": "A monkey roaming the forest, always living on fruit and roots, who was fighting someone else and not fighting you,",
+            "kn": "ಸದಾ ಹಣ್ಣು ಗೆಡ್ಡೆ ತಿನ್ನುವ ವನಚರ ವಾನರ, ನಿನ್ನೊಡನೆ ಹೋರಾಡದೆ ಬೇರೆಯವನೊಡನೆ ಹೋರಾಡುತ್ತಿದ್ದವನನ್ನು,"
+          }
         },
         {
           "n": 26,
-          "text": "त्वं नराधिपतेः पुत्रः प्रतीतः प्रियदर्शनः ।\nलिङ्गमप्यस्ति ते राजन् दृश्यते धर्मसंहितम् ॥"
+          "text": "त्वं नराधिपतेः पुत्रः प्रतीतः प्रियदर्शनः ।\nलिङ्गमप्यस्ति ते राजन् दृश्यते धर्मसंहितम् ॥",
+          "meaning": {
+            "en": "you, famed son of a lord of men and handsome: the mark of dharma is seen in you too, O king.",
+            "kn": "ನೀನು ಪ್ರಸಿದ್ಧ ನರಾಧಿಪನ ಪುತ್ರ, ಪ್ರಿಯದರ್ಶನ; ರಾಜನೇ, ಧರ್ಮದ ಚಿಹ್ನೆ ನಿನ್ನಲ್ಲಿಯೂ ಕಾಣುತ್ತದೆ."
+          }
         },
         {
           "n": 27,
-          "text": "कः क्षत्रियकुले जातः श्रुतवान्नष्टसंशयः ।\nधर्मलिङ्गप्रतिच्छन्नः क्रूरं कर्म समाचरेत् ॥"
+          "text": "कः क्षत्रियकुले जातः श्रुतवान्नष्टसंशयः ।\nधर्मलिङ्गप्रतिच्छन्नः क्रूरं कर्म समाचरेत् ॥",
+          "meaning": {
+            "en": "What learned and doubt-free man born in a kshatriya family would commit a cruel act while covered by the marks of dharma?",
+            "kn": "ಕ್ಷತ್ರಿಯ ಕುಲದಲ್ಲಿ ಹುಟ್ಟಿದ, ಶ್ರುತವಂತ, ಸಂಶಯ ಕಳೆದುಕೊಂಡ ಯಾವನು ಧರ್ಮ ಚಿಹ್ನೆಗಳಿಂದ ಮರೆಮಾಚಿ ಕ್ರೂರ ಕರ್ಮ ಮಾಡುತ್ತಾನೆ?"
+          }
         },
         {
           "n": 28,
-          "text": "त्वं राघवकुले जातो धर्मवानिति विश्रुतः ।\nअभव्यो भव्यरूपेण किमर्थं परिधावसे ॥"
+          "text": "त्वं राघवकुले जातो धर्मवानिति विश्रुतः ।\nअभव्यो भव्यरूपेण किमर्थं परिधावसे ॥",
+          "meaning": {
+            "en": "Born in the family of Raghu and famed as righteous, why do you run about as one unfit, in the form of one fit?",
+            "kn": "ರಘು ವಂಶದಲ್ಲಿ ಹುಟ್ಟಿ ಧರ್ಮವಂತನೆಂದು ಪ್ರಸಿದ್ಧನಾದ ನೀನು, ಯೋಗ್ಯನ ರೂಪದಲ್ಲಿ ಅಯೋಗ್ಯನಾಗಿ ಏಕೆ ಓಡಾಡುತ್ತೀ?"
+          }
         },
         {
           "n": 29,
-          "text": "साम दानं क्षमा धर्मः सत्यं धृतिपराक्रमौ ।\nपार्थिवानां गुणा राजन् दण्डश्चाप्यपकारिषु ॥"
+          "text": "साम दानं क्षमा धर्मः सत्यं धृतिपराक्रमौ ।\nपार्थिवानां गुणा राजन् दण्डश्चाप्यपकारिषु ॥",
+          "meaning": {
+            "en": "Conciliation, giving, forbearance, dharma, truth, steadiness and valour, and punishment of wrongdoers are the qualities of kings, O king.",
+            "kn": "ಸಾಮ, ದಾನ, ಕ್ಷಮೆ, ಧರ್ಮ, ಸತ್ಯ, ಧೃತಿ, ಪರಾಕ್ರಮ ಮತ್ತು ಅಪಕಾರಿಗಳ ಮೇಲೆ ದಂಡ ರಾಜರ ಗುಣಗಳು, ರಾಜನೇ."
+          }
         },
         {
           "n": 30,
-          "text": "वयं वनचरा राम मृगा मूलफलाशिनः ।\nएषा प्रकृतिरस्माकं पुरुषस्त्वं नरेश्वर ॥"
+          "text": "वयं वनचरा राम मृगा मूलफलाशिनः ।\nएषा प्रकृतिरस्माकं पुरुषस्त्वं नरेश्वर ॥",
+          "meaning": {
+            "en": "We, Rama, are forest-dwellers, animals living on roots and fruit; this is our nature, while you are a man, lord of men.",
+            "kn": "ರಾಮ, ನಾವು ವನಚರರು, ಗೆಡ್ಡೆ ಹಣ್ಣು ತಿನ್ನುವ ಮೃಗಗಳು; ಇದು ನಮ್ಮ ಸ್ವಭಾವ; ನೀನು ಮನುಷ್ಯ, ನರೇಶ್ವರ."
+          }
         },
         {
           "n": 31,
-          "text": "भूमिर्हिरण्यं रूपं च विग्रहे कारणानि च ।\nतत्र कस्ते वने लोभो मदीयेषु फलेषु वा ॥"
+          "text": "भूमिर्हिरण्यं रूपं च विग्रहे कारणानि च ।\nतत्र कस्ते वने लोभो मदीयेषु फलेषु वा ॥",
+          "meaning": {
+            "en": "Land, gold and silver are causes of war; what greed could you have here in the forest or for my fruits?",
+            "kn": "ಭೂಮಿ, ಚಿನ್ನ, ಬೆಳ್ಳಿ ಯುದ್ಧಕ್ಕೆ ಕಾರಣಗಳು; ಇಲ್ಲಿ ವನದಲ್ಲಿ ಅಥವಾ ನನ್ನ ಹಣ್ಣುಗಳಲ್ಲಿ ನಿನಗೆ ಯಾವ ಲೋಭ?"
+          }
         },
         {
           "n": 32,
-          "text": "नयश्च विनयश्चोभौ निग्रहानुग्रहावपि ।\nराजवृत्तिरसङ्कीर्णा न नृपाः कामवृत्तयः ॥"
+          "text": "नयश्च विनयश्चोभौ निग्रहानुग्रहावपि ।\nराजवृत्तिरसङ्कीर्णा न नृपाः कामवृत्तयः ॥",
+          "meaning": {
+            "en": "Policy and discipline, restraint and favour: the conduct of kings is not a mixed thing, and kings are not to follow their whims.",
+            "kn": "ನೀತಿ, ವಿನಯ, ನಿಗ್ರಹ, ಅನುಗ್ರಹ: ರಾಜನೀತಿ ಬೆರೆಸಬಾರದು; ರಾಜರು ಸ್ವೇಚ್ಛಾಚಾರಿಗಳಾಗಬಾರದು."
+          }
         },
         {
           "n": 33,
-          "text": "त्वं तु कामप्रधानश्च कोपनश्चानवस्थितः ।\nराजवृत्तेषु सङ्कीर्णः शरासनपरायणः ॥"
+          "text": "त्वं तु कामप्रधानश्च कोपनश्चानवस्थितः ।\nराजवृत्तेषु सङ्कीर्णः शरासनपरायणः ॥",
+          "meaning": {
+            "en": "But you are ruled by desire, quick to anger and unsteady, confused in kingly conduct, devoted only to the bow.",
+            "kn": "ಆದರೆ ನೀನು ಕಾಮಪ್ರಧಾನ, ಕೋಪಿ, ಅಸ್ಥಿರ, ರಾಜನೀತಿಯಲ್ಲಿ ಗೊಂದಲದವನು, ಧನುಸ್ಸಿನ ಮೇಲೇ ಅವಲಂಬಿತ."
+          }
         },
         {
           "n": 34,
-          "text": "न तेऽस्त्यपचितिर्धर्मे नार्थे बुद्धिरवस्थिता ।\nइन्द्रियैः कामवृत्तः सन् कृष्यसे मनुजेश्वर ॥"
+          "text": "न तेऽस्त्यपचितिर्धर्मे नार्थे बुद्धिरवस्थिता ।\nइन्द्रियैः कामवृत्तः सन् कृष्यसे मनुजेश्वर ॥",
+          "meaning": {
+            "en": "You have no regard for dharma, and your mind is not fixed on gain; led by your senses, you are dragged about, lord of men.",
+            "kn": "ನಿನಗೆ ಧರ್ಮದಲ್ಲಿ ಗೌರವವಿಲ್ಲ, ಅರ್ಥದಲ್ಲಿ ಬುದ್ಧಿ ನೆಲೆಸಿಲ್ಲ; ಇಂದ್ರಿಯಗಳಿಂದ ಸ್ವೇಚ್ಛೆಯಾಗಿ ನಡೆಯುತ್ತಾ ಎಳೆಯಲ್ಪಡುತ್ತೀಯೆ, ಮನುಜೇಶ್ವರ."
+          }
         },
         {
           "n": 35,
-          "text": "हत्वा बाणेन काकुत्स्थ मामिहानपराधिनम् ।\nकिं वक्ष्यसि सतां मध्ये कर्म कृत्वा जुगुप्सितम् ॥"
+          "text": "हत्वा बाणेन काकुत्स्थ मामिहानपराधिनम् ।\nकिं वक्ष्यसि सतां मध्ये कर्म कृत्वा जुगुप्सितम् ॥",
+          "meaning": {
+            "en": "Having killed me with an arrow, Kakutstha, though I did no wrong, what will you say among the good, having done this despicable deed?",
+            "kn": "ಕಾಕುತ್ಸ್ಥ, ಅಪರಾಧವಿಲ್ಲದ ನನ್ನನ್ನು ಬಾಣದಿಂದ ಕೊಂದು, ಈ ಜುಗುಪ್ಸಿತ ಕರ್ಮ ಮಾಡಿ ಸಾಧುಗಳ ನಡುವೆ ಏನು ಹೇಳುವೆ?"
+          }
         },
         {
           "n": 36,
-          "text": "राजहा ब्रह्महा गोघ्नश्चोरः प्राणिवधे रतः ।\nनास्तिकः परिवेत्ता च सर्वे निरयगामिनः ॥"
+          "text": "राजहा ब्रह्महा गोघ्नश्चोरः प्राणिवधे रतः ।\nनास्तिकः परिवेत्ता च सर्वे निरयगामिनः ॥",
+          "meaning": {
+            "en": "A killer of a king, of a brahmin, of a cow, a thief, one who delights in killing creatures, an unbeliever and one who marries before his elder: all go to hell.",
+            "kn": "ರಾಜಹಂತ, ಬ್ರಹ್ಮಹಂತ, ಗೋಹಂತ, ಕಳ್ಳ, ಪ್ರಾಣಿವಧೆಯಲ್ಲಿ ಆಸಕ್ತ, ನಾಸ್ತಿಕ, ಅಣ್ಣನ ಮೊದಲು ವಿವಾಹವಾದವನು: ಎಲ್ಲರೂ ನರಕಕ್ಕೆ ಹೋಗುತ್ತಾರೆ."
+          }
         },
         {
           "n": 37,
-          "text": "सूचकश्च कदर्यश्च मित्रघ्नो गुरुतल्पगः ।\nलोकं पापात्मनामेते गच्छन्ते नात्र संशयः ॥"
+          "text": "सूचकश्च कदर्यश्च मित्रघ्नो गुरुतल्पगः ।\nलोकं पापात्मनामेते गच्छन्ते नात्र संशयः ॥",
+          "meaning": {
+            "en": "An informer, a miser, a killer of friends and one who defiles his teacher's bed: these go to the world of sinners, no doubt.",
+            "kn": "ಚಾಡಿಕೋರ, ಕೃಪಣ, ಮಿತ್ರಹಂತ, ಗುರುಪತ್ನಿ ಗಮನ ಮಾಡಿದವನು: ಇವರು ಪಾಪಾತ್ಮರ ಲೋಕಕ್ಕೆ ಹೋಗುತ್ತಾರೆ, ಸಂದೇಹವಿಲ್ಲ."
+          }
         },
         {
           "n": 38,
-          "text": "अधार्यं चर्म मे सद्भी रोमाण्यस्थि च वर्जितम् ।\nअभक्ष्याणि च मांसानि त्वद्विधैर्धर्मचारिभिः ॥"
+          "text": "अधार्यं चर्म मे सद्भी रोमाण्यस्थि च वर्जितम् ।\nअभक्ष्याणि च मांसानि त्वद्विधैर्धर्मचारिभिः ॥",
+          "meaning": {
+            "en": "My skin is not to be worn by the good, and my hair and bones are forbidden; my flesh also is not to be eaten by righteous men like you.",
+            "kn": "ನನ್ನ ಚರ್ಮ ಸಾಧುಗಳು ಧರಿಸುವಂತಹುದಲ್ಲ; ರೋಮ ಮೂಳೆಗಳೂ ಬೇಡ; ನನ್ನ ಮಾಂಸವೂ ನಿನ್ನಂತಹ ಧರ್ಮಚಾರಿಗಳು ತಿನ್ನುವಂತಹುದಲ್ಲ."
+          }
         },
         {
           "n": 39,
-          "text": "पञ्च पञ्चनखा भक्ष्या ब्रह्मक्षत्रेण राघव ।\nशल्यकः श्वाविधो गोधा शशः कूर्मश्च पञ्चमः ॥"
+          "text": "पञ्च पञ्चनखा भक्ष्या ब्रह्मक्षत्रेण राघव ।\nशल्यकः श्वाविधो गोधा शशः कूर्मश्च पञ्चमः ॥",
+          "meaning": {
+            "en": "Five five-nailed animals may be eaten by brahmins and kshatriyas, Rama: the porcupine, the hedgehog, the monitor lizard, the hare and the tortoise as the fifth.",
+            "kn": "ರಾಘವ, ಬ್ರಾಹ್ಮಣ ಕ್ಷತ್ರಿಯರು ಐದು ಪಂಚನಖ ಪ್ರಾಣಿಗಳನ್ನು ತಿನ್ನಬಹುದು: ಮುಳ್ಳುಹಂದಿ, ಶ್ವಾವಿಧ, ಉಡ, ಮೊಲ ಮತ್ತು ಐದನೆಯದಾಗಿ ಆಮೆ."
+          }
         },
         {
           "n": 40,
-          "text": "चर्म चास्थि च मे राम न स्पृशन्ति मनीषिणः ।\nअभक्ष्याणि च मांसानि सोऽहं पञ्चनखो हतः ॥"
+          "text": "चर्म चास्थि च मे राम न स्पृशन्ति मनीषिणः ।\nअभक्ष्याणि च मांसानि सोऽहं पञ्चनखो हतः ॥",
+          "meaning": {
+            "en": "The wise do not touch my skin or bones, Rama, and my flesh is not to be eaten; yet I, a five-nailed animal, was killed.",
+            "kn": "ರಾಮ, ನನ್ನ ಚರ್ಮ ಮೂಳೆಗಳನ್ನು ವಿವೇಕಿಗಳು ಮುಟ್ಟುವುದಿಲ್ಲ, ಮಾಂಸ ತಿನ್ನಲು ಅಯೋಗ್ಯ; ಆದರೂ ಪಂಚನಖಿಯಾದ ನಾನು ಹತನಾದೆ."
+          }
         },
         {
           "n": 41,
-          "text": "तारया वाक्यमुक्तोऽहं सत्यं सर्वज्ञया हितम् ।\nतदतिक्रम्य मोहेन कालस्य वशमागतः ॥"
+          "text": "तारया वाक्यमुक्तोऽहं सत्यं सर्वज्ञया हितम् ।\nतदतिक्रम्य मोहेन कालस्य वशमागतः ॥",
+          "meaning": {
+            "en": "I was told the truth and what was good by Tara, who knows everything; setting that aside in delusion, I have come under the sway of time.",
+            "kn": "ಸರ್ವಜ್ಞೆ ತಾರೆ ನನಗೆ ಸತ್ಯವೂ ಹಿತವೂ ಆದ ಮಾತನ್ನು ಹೇಳಿದಳು; ಅದನ್ನು ಮೋಹದಿಂದ ಮೀರಿ ನಾನು ಕಾಲದ ವಶಕ್ಕೆ ಬಂದೆ."
+          }
         },
         {
           "n": 42,
-          "text": "त्वया नाथेन काकुत्स्थ न सनाथा वसुन्धरा ।\nप्रमदा शीलसम्पूर्णा पत्येव च विधर्मणा ॥"
+          "text": "त्वया नाथेन काकुत्स्थ न सनाथा वसुन्धरा ।\nप्रमदा शीलसम्पूर्णा पत्येव च विधर्मणा ॥",
+          "meaning": {
+            "en": "With you as its lord, Kakutstha, the earth is no better protected, like a virtuous woman with an unrighteous husband.",
+            "kn": "ಕಾಕುತ್ಸ್ಥ, ನೀನು ನಾಥನಾದರೂ ಭೂಮಿಗೆ ರಕ್ಷಣೆಯಿಲ್ಲ; ಅಧರ್ಮಿ ಪತಿಯ ಶೀಲವತಿ ಸ್ತ್ರೀಯಂತೆ."
+          }
         },
         {
           "n": 43,
-          "text": "शठो नैकृतिकः क्षुद्रो मिथ्याप्रश्रितमानसः ।\nकथं दशरथेन त्वं जातः पापो महात्मना ॥"
+          "text": "शठो नैकृतिकः क्षुद्रो मिथ्याप्रश्रितमानसः ।\nकथं दशरथेन त्वं जातः पापो महात्मना ॥",
+          "meaning": {
+            "en": "Deceitful, crooked, base, with a falsely humble mind: how were you, such a sinner, born of great-souled Dasharatha?",
+            "kn": "ಶಠ, ವಂಚಕ, ನೀಚ, ಸುಳ್ಳು ವಿನಯದ ಮನಸ್ಸಿನ ಪಾಪಿಯಾದ ನೀನು ಮಹಾತ್ಮ ದಶರಥನಿಗೆ ಹೇಗೆ ಹುಟ್ಟಿದೆ?"
+          }
         },
         {
           "n": 44,
-          "text": "छिन्नचारित्र्यकक्ष्येण सतां धर्मातिवर्तिना ।\nत्यक्तधर्माङ्कुशेनाहं निहतो रामहस्तिना ॥"
+          "text": "छिन्नचारित्र्यकक्ष्येण सतां धर्मातिवर्तिना ।\nत्यक्तधर्माङ्कुशेनाहं निहतो रामहस्तिना ॥",
+          "meaning": {
+            "en": "I was killed by the elephant Rama, who has broken the girth of good conduct, transgressed the dharma of the good, and thrown off the goad of dharma.",
+            "kn": "ಚಾರಿತ್ರ್ಯದ ಹೊಟ್ಟೆ ಪಟ್ಟಿ ಕಡಿದ, ಸಾಧುಗಳ ಧರ್ಮವನ್ನು ಮೀರಿದ, ಧರ್ಮಾಂಕುಶ ಬಿಟ್ಟ ಗಜ ರಾಮನಿಂದ ನಾನು ಹತನಾದೆ."
+          }
         },
         {
           "n": 45,
-          "text": "अशुभं चाप्ययुक्तं च सतां चैव विगर्हितम् ।\nवक्ष्यसे चेदृशं कृत्वा सद्भिः सह समागतः ॥"
+          "text": "अशुभं चाप्ययुक्तं च सतां चैव विगर्हितम् ।\nवक्ष्यसे चेदृशं कृत्वा सद्भिः सह समागतः ॥",
+          "meaning": {
+            "en": "Having done such an inauspicious, improper and condemned deed, what will you say when you meet the good?",
+            "kn": "ಇಂತಹ ಅಶುಭ, ಅಯುಕ್ತ, ಸಾಧು ನಿಂದಿತ ಕೆಲಸ ಮಾಡಿ ಸಾಧುಗಳನ್ನು ಭೇಟಿಯಾದಾಗ ನೀನು ಏನು ಹೇಳುವೆ?"
+          }
         },
         {
           "n": 46,
-          "text": "उदासीनेषु योऽस्मासु विक्रमोऽयं प्रकाशितः ।\nअपकारिषु ते राम नैवं पश्यामि विक्रमम् ॥"
+          "text": "उदासीनेषु योऽस्मासु विक्रमोऽयं प्रकाशितः ।\nअपकारिषु ते राम नैवं पश्यामि विक्रमम् ॥",
+          "meaning": {
+            "en": "This valour you have shown against us who were indifferent; against wrongdoers, Rama, I do not see such valour of yours.",
+            "kn": "ಉದಾಸೀನರಾಗಿದ್ದ ನಮ್ಮ ಮೇಲೆ ನೀನು ಈ ಪರಾಕ್ರಮ ತೋರಿಸಿದೆ; ರಾಮ, ಅಪಕಾರಿಗಳ ಮೇಲೆ ನಿನ್ನ ಇಂತಹ ಪರಾಕ್ರಮ ನಾನು ಕಾಣೆ."
+          }
         },
         {
           "n": 47,
-          "text": "दृश्यमानस्तु युध्येथा मया युधि नृपात्मज ।\nअद्य वैवस्वतं देवं पश्येस्त्वं निहतो मया ॥"
+          "text": "दृश्यमानस्तु युध्येथा मया युधि नृपात्मज ।\nअद्य वैवस्वतं देवं पश्येस्त्वं निहतो मया ॥",
+          "meaning": {
+            "en": "Prince, you should have fought me visibly in battle; today you would have seen the god Vaivasvata, killed by me.",
+            "kn": "ರಾಜಕುಮಾರ, ಕಾಣುವಂತೆ ನನ್ನೊಡನೆ ಯುದ್ಧ ಮಾಡಿದ್ದರೆ, ನನ್ನಿಂದ ಹತನಾಗಿ ಇಂದು ವೈವಸ್ವತ ದೇವ ಯಮನನ್ನು ಕಾಣುತ್ತಿದ್ದೆ."
+          }
         },
         {
           "n": 48,
-          "text": "त्वयादृश्येन तु रणे निहतोऽहं दुरासदः ।\nप्रसुप्तः पन्नगेनेव नरः पापवशं गतः ॥"
+          "text": "त्वयादृश्येन तु रणे निहतोऽहं दुरासदः ।\nप्रसुप्तः पन्नगेनेव नरः पापवशं गतः ॥",
+          "meaning": {
+            "en": "I, hard to approach, was killed in battle by you unseen, like a man under the sway of sin killed asleep by a serpent.",
+            "kn": "ದುರಾಸದನಾದ ನಾನು ಯುದ್ಧದಲ್ಲಿ ಅದೃಶ್ಯನಾದ ನಿನ್ನಿಂದ ಹತನಾದೆ; ಪಾಪವಶ ಮನುಷ್ಯ ನಿದ್ರೆಯಲ್ಲಿ ಹಾವಿನಿಂದ ಕಡಿಯಲ್ಪಟ್ಟಂತೆ."
+          }
         },
         {
           "n": 49,
-          "text": "सुग्रीवप्रियकामेन यदहं निहतस्त्वया ।\nमामेव यदि पूर्वं त्वमेतदर्थमचोदयः ।\nमैथिलीमहमेकाह्ना तव चानीतवान् भवेः ॥"
+          "text": "सुग्रीवप्रियकामेन यदहं निहतस्त्वया ।\nमामेव यदि पूर्वं त्वमेतदर्थमचोदयः ।\nमैथिलीमहमेकाह्ना तव चानीतवान् भवेः ॥",
+          "meaning": {
+            "en": "If, wishing to please Sugriva, you had urged me first for this purpose, I would have brought Maithili to you in a single day,",
+            "kn": "ಸುಗ್ರೀವನ ಪ್ರಿಯ ಬಯಸಿ ಈ ಕಾರ್ಯಕ್ಕೆ ಮೊದಲು ನನ್ನನ್ನೇ ಪ್ರೇರೇಪಿಸಿದ್ದರೆ, ನಾನು ಒಂದೇ ದಿನದಲ್ಲಿ ಮೈಥಿಲಿಯನ್ನು ನಿನಗೆ ತರುತ್ತಿದ್ದೆ,"
+          }
         },
         {
           "n": 50,
-          "text": "राक्षसं च दुरात्मानं तव भार्यापहारिणम् ।\nकण्ठे बद्ध्वा प्रदद्यां तेऽनिहतं रावणं रणे ॥"
+          "text": "राक्षसं च दुरात्मानं तव भार्यापहारिणम् ।\nकण्ठे बद्ध्वा प्रदद्यां तेऽनिहतं रावणं रणे ॥",
+          "meaning": {
+            "en": "and the evil-minded rakshasa Ravana, who took your wife, I would have bound by the neck and given to you, even though not killed in battle.",
+            "kn": "ಮತ್ತು ನಿನ್ನ ಪತ್ನಿಯನ್ನು ಅಪಹರಿಸಿದ ದುರಾತ್ಮ ರಾಕ್ಷಸ ರಾವಣನನ್ನು ಕತ್ತಿಗೆ ಕಟ್ಟಿ, ಯುದ್ಧದಲ್ಲಿ ಕೊಲ್ಲದೆಯೇ ನಿನಗೆ ಒಪ್ಪಿಸುತ್ತಿದ್ದೆ."
+          }
         },
         {
           "n": 51,
-          "text": "न्यस्तां सागरतोये वा पाताले वापि मैथिलीम् ।\nआनयेयं तवादेशाच्छ्वेतामश्वतरीमिव ॥"
+          "text": "न्यस्तां सागरतोये वा पाताले वापि मैथिलीम् ।\nआनयेयं तवादेशाच्छ्वेतामश्वतरीमिव ॥",
+          "meaning": {
+            "en": "Even if Maithili had been thrown into the water of the sea or into the nether world, I would have brought her at your command, like a white mule.",
+            "kn": "ಮೈಥಿಲಿ ಸಮುದ್ರ ಜಲದಲ್ಲಿರಲಿ ಪಾತಾಳದಲ್ಲಿರಲಿ, ನಿನ್ನ ಆಜ್ಞೆಯಂತೆ ಬಿಳಿ ಹೇಸರಗತ್ತೆಯನ್ನು ತರುವಂತೆ ಅವಳನ್ನು ತರುತ್ತಿದ್ದೆ."
+          }
         },
         {
           "n": 52,
-          "text": "युक्तं यत्प्राप्नुयाद् राज्यं सुग्रीवः स्वर्गते मयि ।\nअयुक्तं यदधर्मेण त्वयाहं निहतो रणे ॥"
+          "text": "युक्तं यत्प्राप्नुयाद् राज्यं सुग्रीवः स्वर्गते मयि ।\nअयुक्तं यदधर्मेण त्वयाहं निहतो रणे ॥",
+          "meaning": {
+            "en": "It is fitting that Sugriva should win the kingdom when I am gone to heaven; it is unfitting that I was killed by you in battle, unrighteously.",
+            "kn": "ನಾನು ಸ್ವರ್ಗಸ್ಥನಾದ ಮೇಲೆ ಸುಗ್ರೀವನು ರಾಜ್ಯ ಪಡೆಯುವುದು ಯುಕ್ತ; ಆದರೆ ನೀನು ಯುದ್ಧದಲ್ಲಿ ಅಧರ್ಮದಿಂದ ನನ್ನನ್ನು ಕೊಂದದ್ದು ಅಯುಕ್ತ."
+          }
         },
         {
           "n": 53,
-          "text": "काममेवंविधो लोकः कालेन विनियुज्यते ।\nक्षमं चेद्भवता प्राप्तमुत्तरं साधु चिन्त्यताम् ॥"
+          "text": "काममेवंविधो लोकः कालेन विनियुज्यते ।\nक्षमं चेद्भवता प्राप्तमुत्तरं साधु चिन्त्यताम् ॥",
+          "meaning": {
+            "en": "The world is indeed so ordered by time; if you have found it proper, think of a good reply.\"",
+            "kn": "ಲೋಕವು ಕಾಲದಿಂದ ಹೀಗೆ ನಿಯೋಜಿತವಾಗಿದೆ; ನಿನಗೆ ತಕ್ಕುದೆಂದು ತೋರಿದರೆ ಒಳ್ಳೆಯ ಉತ್ತರವನ್ನು ಆಲೋಚಿಸು.\""
+          }
         },
         {
           "n": 54,
-          "text": "इत्येवमुक्त्वा परिशुष्कवक्त्रः\nशराभिघाताद् व्यथितो महात्मा ।\nसमीक्ष्य रामं रविसंनिकाशं\nतूष्णीं बभौ वानरराजसूनुः ॥"
+          "text": "इत्येवमुक्त्वा परिशुष्कवक्त्रः\nशराभिघाताद् व्यथितो महात्मा ।\nसमीक्ष्य रामं रविसंनिकाशं\nतूष्णीं बभौ वानरराजसूनुः ॥",
+          "meaning": {
+            "en": "Having said this, with a parched mouth, tormented by the blow of the arrow, the great-souled son of the king of the monkeys looked at Rama, bright as the sun, and fell silent.",
+            "kn": "ಹೀಗೆ ಹೇಳಿ ಒಣಗಿದ ಮುಖದಿಂದ, ಬಾಣದ ಏಟಿನಿಂದ ನೊಂದ ಮಹಾತ್ಮ ವಾನರರಾಜಪುತ್ರನು ಸೂರ್ಯನಂತೆ ಬೆಳಗುವ ರಾಮನನ್ನು ನೋಡಿ ಮೌನವಾದನು."
+          }
         },
         {
           "text": "इत्यार्षे श्रीमद्रामायणे वाल्मीकीये आदिकाव्ये\nकिष्किन्धाकाण्डे सप्तदशः सर्गः ॥"
