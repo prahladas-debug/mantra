@@ -36,6 +36,10 @@ for n, line in enumerate(open(inp, encoding='utf8'), 1):
     sys.exit(f'line {n}: unexpected: {line[:80]}')
 
 bad = []
+seen = set()
+for tid, key, _ in blocks:
+    if (tid, key) in seen: bad.append(f'{tid}|{key}: given twice in this input')
+    seen.add((tid, key))
 for tid, key, t in blocks:
     w = f'{tid}|{key}'
     if not t: bad.append(f'{w}: no ML line'); continue
