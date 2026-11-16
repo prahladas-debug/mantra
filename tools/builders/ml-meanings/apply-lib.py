@@ -44,7 +44,7 @@ for tid, key, t in blocks:
     w = f'{tid}|{key}'
     if not t: bad.append(f'{w}: no ML line'); continue
     if not re.search(r'[ഀ-ൿ]', t): bad.append(f'{w}: not Malayalam')
-    if re.search(r'[A-Za-z]{2,}', t): bad.append(f'{w}: Latin letters')
+    if re.search(r'[A-Za-z]', t): bad.append(f'{w}: Latin letters')
     if re.search(r'[ऀ-ॣ०-೿඀-෿]', t): bad.append(f'{w}: other Indic script')
 if bad:
     sys.exit('refused:\n  ' + '\n  '.join(bad[:20]))

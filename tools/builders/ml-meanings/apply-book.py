@@ -79,7 +79,7 @@ for (nnn, k), t in blocks.items():
     w = f'{nnn}|{k}'
     if not t: bad.append(f'{w}: no ML line'); continue
     if not re.search(r'[ഀ-ൿ]', t): bad.append(f'{w}: not Malayalam')
-    if re.search(r'[A-Za-z]{2,}', t): bad.append(f'{w}: Latin letters')
+    if re.search(r'[A-Za-z]', t): bad.append(f'{w}: Latin letters')
     if re.search(r'[ऀ-ॣ०-೿඀-෿]', t): bad.append(f'{w}: other Indic script')
 files = {}
 for (nnn, k) in blocks:
