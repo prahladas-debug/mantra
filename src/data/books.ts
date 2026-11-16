@@ -141,12 +141,47 @@ export function bookVerses(id: string): number | undefined {
   return UNITS.get(id)?.unit.verses;
 }
 
-/** The previous and next reading of a long work, across parts (kanda to kanda) and linked texts. */
+interface Place {
+  part: BookPartEntry;
+  unit: number;
+}
+const places = new Map<string, Map<string, Place>>();
+/** Where each reading of a work stands in the edition (part and unit number). */
+function placesOf(work: BookWork): Map<string, Place> {
+  const hit = places.get(work.work);
+  if (hit) return hit;
+  const m = new Map<string, Place>();
+  for (const part of work.parts) for (const x of partItems(part)) m.set(x.id, { part, unit: x.unit });
+  places.set(work.work, m);
+  return m;
+}
+
+/** b comes straight after a in the edition: the next unit of the part, or the first of the next part. */
+function follows(a: Place, b: Place): boolean {
+  if (a.part === b.part) return b.unit === a.unit + 1;
+  return b.part.part === a.part.part + 1 && b.unit === 1 && a.unit === a.part.unitCount;
+}
+
+/**
+ * The previous and next reading of a long work, across parts (kanda to kanda) and linked texts.
+ * Only a reading that comes straight before or after in the edition: while a work is being
+ * written, Next at the last sarga written so far does not leap over the ones still missing
+ * (from the Bala Kanda's second sarga to the Sundarakanda).
+ */
 export function bookNeighbours(id: string): { prev?: string; next?: string; work: BookWork } | undefined {
   for (const work of BOOKS) {
     const seq = workSequence(work);
     const i = seq.indexOf(id);
-    if (i >= 0) return { prev: seq[i - 1], next: seq[i + 1], work };
+    if (i < 0) continue;
+    const at = placesOf(work);
+    const here = at.get(id)!;
+    const prev = seq[i - 1];
+    const next = seq[i + 1];
+    return {
+      prev: prev && follows(at.get(prev)!, here) ? prev : undefined,
+      next: next && follows(here, at.get(next)!) ? next : undefined,
+      work,
+    };
   }
   return undefined;
 }

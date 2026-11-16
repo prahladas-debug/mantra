@@ -1,6 +1,6 @@
 import { useEffect, useRef } from 'react';
 import { router, type Href } from 'expo-router';
-import { Pressable, Text, View } from 'react-native';
+import { Alert, Linking, Pressable, Text, View } from 'react-native';
 import { getMantraInfo } from '../data';
 import { planStatus, type Plan } from '../lib/plans';
 import { cancelReminder, remindersSupported, scheduleDailyReminder } from '../lib/reminders';
@@ -28,6 +28,15 @@ export function PlanCard({ plan, compact }: { plan: Plan; compact?: boolean }) {
       if (time) {
         notificationId =
           (await scheduleDailyReminder('Parayana', `Today: ${plan.title}`, time)) ?? undefined;
+        // Not scheduled (notifications not allowed): do not show a reminder time that will never ring.
+        if (!notificationId) {
+          updatePlan(plan.id, { reminder: undefined, notificationId: undefined });
+          Alert.alert('Reminder not set', 'Notifications are turned off for this app. Allow them in the phone’s settings, then choose the time again.', [
+            { text: 'Not now', style: 'cancel' },
+            { text: 'Open settings', onPress: () => Linking.openSettings().catch(() => {}) },
+          ]);
+          return;
+        }
       }
       updatePlan(plan.id, { reminder: time, notificationId });
     } finally {

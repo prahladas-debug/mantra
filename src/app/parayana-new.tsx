@@ -8,6 +8,12 @@ import { LONG_READTHROUGH_DAYS, localDate, READTHROUGH_DAYS, VOW_DAYS, VOW_PER_D
 import { useSettings } from '../lib/settings';
 import { translitTitle } from '../lib/transliterate';
 
+/**
+ * A kanda, a parva or a whole epic: offered over longer spans (9 days to a year). Not the
+ * Sundarakanda of the library (68 sargas), which is read in 7 days, 9 or 40 as before.
+ */
+const isLong = (w: Work | null) => !!w?.weights && w.items.length > 60;
+
 interface Work {
   key: string;
   title: string;
@@ -99,7 +105,7 @@ export default function NewPlan() {
             {allWorks.map((w) => (
               <Pressable key={w.key} onPress={() => {
                   setWork(w);
-                  const long = w.items.length > 60;
+                  const long = isLong(w);
                   if (!(long ? LONG_READTHROUGH_DAYS : READTHROUGH_DAYS).includes(days)) setDays(long ? 40 : 7);
                 }} style={[card, { borderColor: work?.key === w.key ? theme.accent : theme.cardBorder, backgroundColor: work?.key === w.key ? theme.accentSoft : theme.card }]}>
                 <Text style={{ color: theme.text, fontSize: 16 }}>{w.title}</Text>
@@ -127,7 +133,7 @@ export default function NewPlan() {
 
         <SectionHeading>Days</SectionHeading>
         <View style={{ flexDirection: 'row', flexWrap: 'wrap', gap: 8, marginHorizontal: 16 }}>
-          {(kind === 'readthrough' ? (work && work.items.length > 60 ? LONG_READTHROUGH_DAYS : READTHROUGH_DAYS) : VOW_DAYS).map((d) => (
+          {(kind === 'readthrough' ? (isLong(work) ? LONG_READTHROUGH_DAYS : READTHROUGH_DAYS) : VOW_DAYS).map((d) => (
             <Chip key={d} label={String(d)} active={days === d} onPress={() => setDays(d)} />
           ))}
         </View>

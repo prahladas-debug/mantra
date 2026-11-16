@@ -82,8 +82,8 @@ export default function CalendarScreen() {
   const [method] = useCalcMethod();
   const t = (s: string) => translit(s, settings.script);
 
-  // Cheap (sunrise times and festival lists are cached in the libraries); the React
-  // Compiler memoises the rest.
+  // Cheap (sunrise times and festival lists are cached in the libraries). Worked out on each
+  // render: the React Compiler is not switched on for this app (app.json experiments).
   const { y, m, first, last, weeks, lunarLabel } = buildMonth(city, month, mode, start, method);
   const festivals = festivalsBetween(city, first, last, rule, mode, start, method);
   const byDate = new Map<string, Festival[]>();

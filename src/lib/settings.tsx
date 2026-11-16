@@ -1,5 +1,5 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
-import { createContext, useCallback, useContext, useEffect, useMemo, useState } from 'react';
+import { createContext, useCallback, useContext, useEffect, useMemo, useRef, useState } from 'react';
 import { AppState, useColorScheme } from 'react-native';
 import { THEMES, type Theme, type ThemeName } from './theme';
 import type { MeaningPref } from './meaning';
@@ -189,9 +189,30 @@ export function SettingsProvider({ children }: { children: React.ReactNode }) {
       .finally(() => setReady(true));
   }, []);
 
+  // Saved a moment after the last change, and at once when the app goes to the background: the
+  // reader saves its position at every page turn and while scrolling, and writing the whole store
+  // (positions in every text, plans, bookmarks) on each of those is needless work while scrolling.
+  const latest = useRef<Store | null>(null);
+  const flush = useCallback(() => {
+    const s = latest.current;
+    latest.current = null;
+    if (s) AsyncStorage.setItem(KEY, JSON.stringify(s)).catch(() => {});
+  }, []);
   useEffect(() => {
-    if (ready) AsyncStorage.setItem(KEY, JSON.stringify(store)).catch(() => {});
-  }, [store, ready]);
+    if (!ready) return;
+    latest.current = store;
+    const t = setTimeout(flush, 500);
+    return () => clearTimeout(t);
+  }, [store, ready, flush]);
+  useEffect(() => {
+    const sub = AppState.addEventListener('change', (state) => {
+      if (state !== 'active') flush();
+    });
+    return () => {
+      sub.remove();
+      flush();
+    };
+  }, [flush]);
 
   const update = useCallback(
     (patch: Partial<Settings>) =>

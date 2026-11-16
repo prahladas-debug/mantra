@@ -1,13 +1,14 @@
 import { Ionicons } from '@expo/vector-icons';
 import { router } from 'expo-router';
 import { useState } from 'react';
-import { Pressable, ScrollView, StyleSheet, Switch, Text, View } from 'react-native';
+import { Alert, Linking, Pressable, ScrollView, StyleSheet, Switch, Text, View } from 'react-native';
 import { CityPicker } from '../components/CalendarBar';
 import { ThemeSwatches } from '../components/reader/DisplayPanel';
 import { Segmented } from '../components/ui';
 import { leading, scriptFont } from '../lib/fonts';
 import { MEANING_PREFS } from '../lib/meaning';
 import { cityById, cityLabel } from '../lib/panchanga';
+import { ensurePermission, remindersSupported } from '../lib/reminders';
 import { useSettings } from '../lib/settings';
 import { SCRIPTS, translit, type ScriptId } from '../lib/transliterate';
 
@@ -86,6 +87,18 @@ export default function SettingsScreen() {
   const largePrint = settings.fontScale >= 1.5 && settings.theme === 'contrast';
   const scripts = SCRIPTS.map((x) => ({ id: x.id as ScriptId, label: x.native }));
   const reminders = settings.festivalReminders;
+  // Switching a reminder on asks for notification permission first: refused, the switch would
+  // stay on while nothing is ever delivered.
+  const setReminder = async (kind: 'ekadashi' | 'festivals', on: boolean) => {
+    if (on && !(await ensurePermission())) {
+      Alert.alert('Reminders are off', 'Notifications are turned off for this app. Allow them in the phone’s settings to get reminders.', [
+        { text: 'Not now', style: 'cancel' },
+        { text: 'Open settings', onPress: () => Linking.openSettings().catch(() => {}) },
+      ]);
+      return;
+    }
+    update({ festivalReminders: { ...settings.festivalReminders, [kind]: on } });
+  };
 
   return (
     <ScrollView style={{ backgroundColor: theme.bg }} contentContainerStyle={{ paddingBottom: 40 }}>
@@ -163,15 +176,17 @@ export default function SettingsScreen() {
         <Row label="Keep screen on while reading">{toggle(settings.keepAwake, (v) => update({ keepAwake: v }))}</Row>
       </Group>
 
-      <Group title="REMINDERS" note="Dates follow your place, tradition and calendar choice. Tap a reminder to open the text for the day.">
-        <Row first label="Ekadashi, the evening before">{toggle(reminders.ekadashi, (v) => update({ festivalReminders: { ...reminders, ekadashi: v } }))}</Row>
-        <Row label="Major festivals, the evening before">{toggle(reminders.festivals, (v) => update({ festivalReminders: { ...reminders, festivals: v } }))}</Row>
-        {(reminders.ekadashi || reminders.festivals) && (
-          <Block label="Remind me at">
-            <Segmented options={TIMES.map((t) => ({ id: t, label: t }))} value={reminders.time} onChange={(t) => update({ festivalReminders: { ...reminders, time: t } })} />
-          </Block>
-        )}
-      </Group>
+      {remindersSupported && (
+        <Group title="REMINDERS" note="Dates follow your place, tradition and calendar choice. Tap a reminder to open the text for the day.">
+          <Row first label="Ekadashi, the evening before">{toggle(reminders.ekadashi, (v) => setReminder('ekadashi', v))}</Row>
+          <Row label="Major festivals, the evening before">{toggle(reminders.festivals, (v) => setReminder('festivals', v))}</Row>
+          {(reminders.ekadashi || reminders.festivals) && (
+            <Block label="Remind me at">
+              <Segmented options={TIMES.map((t) => ({ id: t, label: t }))} value={reminders.time} onChange={(t) => update({ festivalReminders: { ...reminders, time: t } })} />
+            </Block>
+          )}
+        </Group>
+      )}
 
       <Group title="ABOUT">
         <Row first label="About this app and sources" onPress={() => router.push('/about')}>

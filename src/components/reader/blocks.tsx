@@ -195,7 +195,9 @@ export function VerseBlock({ verse, rowKey, book }: { verse: Verse; rowKey: stri
   const numberText = verse.n !== undefined ? ' ' + verseNumber(verse.n, script) : '';
 
   return (
-    <View style={[b.verse, rowKey === highlight && { backgroundColor: theme.accentSoft }, center && { alignItems: 'center' }]} accessible={!practice}>
+    // Not one accessibility element: on iOS that would hide the Meaning, bookmark and share
+    // buttons inside it from VoiceOver. The verse text (with its number) is read as one.
+    <View style={[b.verse, rowKey === highlight && { backgroundColor: theme.accentSoft }, center && { alignItems: 'center' }]}>
       <Text style={{ color: theme.text, fontSize: fs, lineHeight: lh, fontFamily: font, textAlign: center ? 'center' : 'left', alignSelf: 'stretch' }} selectable={!practice}>
         {lines.slice(0, shown).join('\n')}
         {hiddenCount === 0 && verse.n !== undefined && <Text style={{ color: theme.verseNumber }}>{numberText}</Text>}

@@ -16,7 +16,12 @@ import { TextRow } from './TextList';
 interface Row {
   mantra: Mantra;
   unit: number;
+  /** Its titles as a search key (worked out once: a work has hundreds of units). */
+  key: string;
 }
+
+/** Lines shown at most while filtering: a word like "adhyaya" matches every unit of the work. */
+const MAX_FILTERED = 100;
 
 /**
  * The page of a long work (Ramayana, Mahabharata): its parts (kandas, parvas) with the units of
@@ -37,7 +42,8 @@ export function BookContents({ category, work }: { category: Category; work: Boo
           p.part,
           partItems(p)
             .map((x) => ({ mantra: getMantraInfo(x.id), unit: x.unit }))
-            .filter((r): r is Row => !!r.mantra),
+            .filter((r): r is Omit<Row, 'key'> => !!r.mantra)
+            .map((r) => ({ ...r, key: `${searchKey(r.mantra.title)} ${searchKey(r.mantra.titleEn)}` })),
         ]),
       ),
     [work],
@@ -64,10 +70,21 @@ export function BookContents({ category, work }: { category: Category; work: Boo
 
   const key = searchKey(q.trim());
   const filtering = key.length >= 2;
-  const shown = (p: BookPartEntry) => {
-    const all = rows.get(p.part) ?? [];
-    return filtering ? all.filter((r) => `${searchKey(r.mantra.title)} ${searchKey(r.mantra.titleEn)}`.includes(key)) : all;
-  };
+  // While filtering, the matches of each part (at most MAX_FILTERED lines in all).
+  const matches = useMemo(() => {
+    if (!filtering) return null;
+    let left = MAX_FILTERED;
+    let total = 0;
+    const byPart = new Map<number, Row[]>();
+    for (const p of work.parts) {
+      const hits = (rows.get(p.part) ?? []).filter((r) => r.key.includes(key));
+      total += hits.length;
+      byPart.set(p.part, hits.slice(0, Math.max(0, left)));
+      left -= hits.length;
+    }
+    return { byPart, total };
+  }, [filtering, key, rows, work]);
+  const shown = (p: BookPartEntry) => (matches ? matches.byPart.get(p.part) ?? [] : rows.get(p.part) ?? []);
   const written = work.parts.reduce((n, p) => n + p.units.length, 0);
   const lang = primaryLang(settings.meaningLang, settings.script);
   const lastLabel = lastRead && lastPart ? `${lastPart.part}.${rows.get(lastPart.part)?.find((r) => r.mantra.id === lastRead.id)?.unit ?? ''}` : undefined;
@@ -155,7 +172,12 @@ export function BookContents({ category, work }: { category: Category; work: Boo
           );
         })}
       </View>
-      {filtering && work.parts.every((p) => !shown(p).length) && <Text style={{ color: theme.textMuted, margin: 16 }}>Nothing matches “{q}”.</Text>}
+      {matches && matches.total === 0 && <Text style={{ color: theme.textMuted, margin: 16 }}>Nothing matches “{q}”.</Text>}
+      {matches && matches.total > MAX_FILTERED && (
+        <Text style={{ color: theme.textMuted, margin: 16 }}>
+          The first {MAX_FILTERED} of {matches.total.toLocaleString('en-IN')} that match. Type more to narrow the list.
+        </Text>
+      )}
     </View>
   );
 }

@@ -428,14 +428,32 @@ function main() {
     console.error(`books: ${errors} error(s), ${warnings} warning(s) — nothing written`);
     process.exit(1);
   }
-  // Rewrite the asset tree from scratch so a removed source leaves no stale asset behind.
-  rmSync(OUT_ASSETS, { recursive: true, force: true });
+  // Write only the assets that changed and remove those whose source is gone. Deleting and
+  // rewriting the whole tree on every run left a running Metro (web or a dev build) without the
+  // files for a moment and with thousands of change events to catch up on; it was seen failing
+  // to resolve units the manifest named ("Unable to resolve …/111.book") until restarted.
+  const wanted = new Set([...assets.keys()].map((p) => join(OUT_ASSETS, p)));
+  const existing = (dir: string): string[] =>
+    existsSync(dir) ? readdirSync(dir, { withFileTypes: true }).flatMap((e) => (e.isDirectory() ? existing(join(dir, e.name)) : [join(dir, e.name)])) : [];
+  for (const file of existing(OUT_ASSETS)) if (!wanted.has(file)) rmSync(file, { force: true });
   for (const [path, json] of assets) {
     const file = join(OUT_ASSETS, path);
+    if (existsSync(file) && readFileSync(file, 'utf8') === json) continue;
     mkdirSync(join(file, '..'), { recursive: true });
     writeFileSync(file, json);
   }
-  writeFileSync(OUT_MANIFEST, manifest(works));
+  // Folders left empty by removed units or parts.
+  const prune = (dir: string): boolean => {
+    if (!existsSync(dir)) return true;
+    const entries = readdirSync(dir, { withFileTypes: true });
+    const kept = entries.map((e) => !e.isDirectory() || !prune(join(dir, e.name)));
+    const empty = !kept.some(Boolean);
+    if (empty && dir !== OUT_ASSETS) rmSync(dir, { recursive: true, force: true });
+    return empty;
+  };
+  prune(OUT_ASSETS);
+  const out = manifest(works);
+  if (!existsSync(OUT_MANIFEST) || readFileSync(OUT_MANIFEST, 'utf8') !== out) writeFileSync(OUT_MANIFEST, out);
   for (const w of works) {
     const units = w.parts.reduce((n, p) => n + p.units.length, 0);
     const verses = w.parts.reduce((n, p) => n + p.units.reduce((k, u) => k + u.verses, 0), 0);
