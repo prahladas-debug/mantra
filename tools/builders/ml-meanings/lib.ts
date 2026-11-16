@@ -3,6 +3,8 @@
  *   npx tsx tools/builders/ml-meanings/lib.ts scan             one line per text still lacking Malayalam
  *   npx tsx tools/builders/ml-meanings/lib.ts show <id> [...]  the English to translate, as input blocks
  * Write the Malayalam with apply-lib.py. Run from the repo root.
+ * Kannada-language works (dasara padas, Harikathamrutasara …) are left out on purpose: their readers
+ * read Kannada, so they keep English and Kannada meanings only.
  */
 import { LIBRARY } from '../../../src/data/library.generated';
 import { MEANING_PACKS } from '../../../src/data/meanings.generated';
@@ -43,6 +45,7 @@ const [cmd, ...ids] = process.argv.slice(2);
 if (cmd === 'scan') {
   let total = 0;
   for (const m of LIBRARY) {
+    if (m.sourceScript === 'kannada') continue;
     const t = todo(m.id);
     if (!t.items.length && !t.summary) continue;
     total += t.items.length + (t.summary ? 1 : 0);
@@ -52,6 +55,7 @@ if (cmd === 'scan') {
 } else if (cmd === 'show') {
   for (const id of ids) {
     const m = LIBRARY.find((x) => x.id === id)!;
+    if (m.sourceScript === 'kannada') { console.log(`# ${id}: Kannada work, no Malayalam wanted; skip it`); continue; }
     const t = todo(id);
     console.log(`# ${id} · ${plain(m.titleEn)}`);
     if (t.summary) console.log(`@${id}|summary\nEN: ${t.summary}`);
