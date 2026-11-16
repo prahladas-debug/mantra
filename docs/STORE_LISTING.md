@@ -32,7 +32,10 @@ DAILY PANCHANG AND FESTIVALS
 
 BHAGAVAD GITA AND PARAYANA
 • Bhagavad Gita (Geeta): all 18 chapters, 700 shlokas, with meanings
+• Valmiki Ramayana, complete: all seven kandas, 645 sargas, about 20,700 shlokas, with the
+  meaning of every verse in Kannada, English, Hindi, Telugu and Tamil
 • Sundarakanda of the Valmiki Ramayana, all 68 sargas
+• Mahabharata (critical edition), all 18 parvas, with a summary of every chapter
 • Vishnu Sahasranama and Lalita Sahasranama with the meaning of every name
 • Devi Mahatmyam (Durga Saptashati / Chandi Path) with Kavacha, Argala and Kilaka
 • Harikathamrutasara (all 32 sandhis), Sumadhva Vijaya, Hari Vayu Stuti
