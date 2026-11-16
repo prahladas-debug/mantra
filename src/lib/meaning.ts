@@ -12,6 +12,7 @@ export const MEANING_PREFS: { id: MeaningPref; label: string }[] = [
   { id: 'hi', label: 'हिन्दी' },
   { id: 'te', label: 'తెలుగు' },
   { id: 'ta', label: 'தமிழ்' },
+  { id: 'ml', label: 'മലയാളം' },
   { id: 'both', label: 'Both · ಎರಡೂ' },
 ];
 
@@ -24,6 +25,8 @@ export function langForScript(script: ScriptId): MeaningLang {
       return 'te';
     case 'tamil':
       return 'ta';
+    case 'malayalam':
+      return 'ml';
     case 'devanagari':
       return 'hi';
     default:
@@ -45,7 +48,7 @@ export function meaningText(m: Meaning | undefined, lang: MeaningLang): string |
 
 /**
  * Which meanings to display, in order. 'auto' shows the language that matches
- * the reading script (Kannada, Telugu, Tamil, Hindi for Devanagari), 'both'
+ * the reading script (Kannada, Telugu, Tamil, Malayalam, Hindi for Devanagari), 'both'
  * adds English. Falls back to English, then Kannada, rather than showing nothing.
  */
 export function meaningsToShow(
@@ -84,4 +87,5 @@ export const MEANING_BUTTON: Record<MeaningLang, string> = {
   hi: 'अर्थ',
   te: 'అర్థం',
   ta: 'பொருள்',
+  ml: 'അർത്ഥം',
 };

@@ -47,6 +47,7 @@ const LANG_FONT: Record<MeaningLang, keyof typeof FONT_ASSETS> = {
   hi: 'BookDevanagari',
   te: 'BookTelugu',
   ta: 'BookTamil',
+  ml: 'BookMalayalam',
 };
 
 /** Font family for verse text in a script (undefined = system font). */

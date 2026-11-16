@@ -30,7 +30,7 @@ export type CategoryId =
 export type Difficulty = 'easy' | 'medium' | 'advanced';
 
 /** Languages that verse meanings can be written in. */
-export type MeaningLang = 'en' | 'kn' | 'hi' | 'te' | 'ta';
+export type MeaningLang = 'en' | 'kn' | 'hi' | 'te' | 'ta' | 'ml';
 
 /**
  * A verse meaning. A plain string is English (older entries); an object holds

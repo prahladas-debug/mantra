@@ -29,7 +29,9 @@ const OUT_MANIFEST = join(ROOT, 'src', 'data', 'books.generated.ts');
 const VERBOSE = process.argv.includes('--verbose');
 
 const WORKS = ['ramayana', 'mahabharata'] as const;
-const LANGS = ['en', 'kn', 'hi', 'te', 'ta'] as const;
+const LANGS = ['en', 'kn', 'hi', 'te', 'ta', 'ml'] as const;
+/** Summaries must carry these; Malayalam is optional while it is being added. */
+const REQUIRED_LANGS = ['en', 'kn', 'hi', 'te', 'ta'] as const;
 const DEFAULT_LABELS: Record<string, [part: string, unit: string]> = { ramayana: ['kanda', 'sarga'], mahabharata: ['parva', 'adhyaya'] };
 
 // Devanagari (without its digits), Vedic extensions, space and newline, and a hyphen at the end of
@@ -78,7 +80,7 @@ function langText(where: string, v: unknown, all: boolean): Record<string, strin
     if (!(LANGS as readonly string[]).includes(k)) err(where, `unknown language "${k}" (use ${LANGS.join(', ')})`);
     else if (!str(t)) err(where, `"${k}" is empty`);
   }
-  if (all) for (const l of LANGS) if (!str(v[l])) err(where, `missing "${l}"`);
+  if (all) for (const l of REQUIRED_LANGS) if (!str(v[l])) err(where, `missing "${l}"`);
   return v as Record<string, string>;
 }
 

@@ -1,4 +1,4 @@
-# Meaning packs (Hindi, Telugu, Tamil)
+# Meaning packs (Hindi, Telugu, Tamil, Malayalam)
 
 English and Kannada meanings live in the text files themselves. Meanings in
 other languages live here, one folder per language, so translators never

@@ -1,6 +1,6 @@
 /// <reference types="node" />
 /**
- * Validates the Hindi / Telugu / Tamil meaning packs in src/data/meanings/<lang>/.
+ * Validates the Hindi / Telugu / Tamil / Malayalam meaning packs in src/data/meanings/<lang>/.
  * Run: npx tsx scripts/validate-meanings.ts   (also part of npm test)
  */
 import { LIBRARY } from '../src/data/library.generated';
@@ -12,6 +12,7 @@ const SCRIPT: Record<string, RegExp> = {
   hi: /[ऀ-ॿ]/,
   te: /[ఀ-౿]/,
   ta: /[஀-௿]/,
+  ml: /[\u0D00-\u0D7F]/,
 };
 const OTHER_INDIC = /[ঀ-෿]/g; // any Indic block, filtered per language below
 const byId = new Map(LIBRARY.map((m) => [m.id, m]));
