@@ -20,67 +20,131 @@
       "verses": [
         {
           "n": 1,
-          "text": "ततो नान्दीमुखीं रात्रिं भरतं सूतमागधाः ।\nतुष्टुवुर्वाग्विशेषज्ञाः स्तवैर्मङ्गलसंहितैः ॥"
+          "text": "ततो नान्दीमुखीं रात्रिं भरतं सूतमागधाः ।\nतुष्टुवुर्वाग्विशेषज्ञाः स्तवैर्मङ्गलसंहितैः ॥",
+          "meaning": {
+            "en": "Then on the night that was to begin the day of the consecration rites, the charioteers and bards, skilled in speech, praised Bharata with auspicious verses of praise.",
+            "kn": "ಅನಂತರ ನಾಂದೀಮುಖ ರಾತ್ರಿಯಲ್ಲಿ ಮಾತಿನಲ್ಲಿ ನಿಪುಣ ಸೂತ ಮಾಗಧರು ಮಂಗಳಕರ ಸ್ತೋತ್ರಗಳಿಂದ ಭರತನನ್ನು ಸ್ತುತಿಸಿದರು."
+          }
         },
         {
           "n": 2,
-          "text": "सुवर्णकोणाभिहतः प्राणदद्यामदुन्दुभिः ।\nदध्मुः शङ्खांश्च शतशो वाद्यांश्चोच्चावच स्वरान् ॥"
+          "text": "सुवर्णकोणाभिहतः प्राणदद्यामदुन्दुभिः ।\nदध्मुः शङ्खांश्च शतशो वाद्यांश्चोच्चावच स्वरान् ॥",
+          "meaning": {
+            "en": "The drum struck with golden sticks sounded, hundreds of conches were blown and instruments of high and low notes played. (The first line is garbled in the text.)",
+            "kn": "ಚಿನ್ನದ ಕೋಲಿನಿಂದ ಹೊಡೆದ ದುಂದುಭಿ ಮೊಳಗಿತು, ನೂರಾರು ಶಂಖಗಳನ್ನು ಊದಿದರು, ಉಚ್ಚ ನೀಚ ಸ್ವರದ ವಾದ್ಯಗಳು ನುಡಿದವು. (ಮೊದಲ ಪಾದ ಪಾಠದಲ್ಲಿ ಭ್ರಷ್ಟ.)"
+          }
         },
         {
           "n": 3,
-          "text": "स तूर्यघोषः सुमहान्दिवमापूरयन्निव ।\nभरतं शोकसन्तप्तं भूयः शोकैररन्ध्रयत् ॥"
+          "text": "स तूर्यघोषः सुमहान्दिवमापूरयन्निव ।\nभरतं शोकसन्तप्तं भूयः शोकैररन्ध्रयत् ॥",
+          "meaning": {
+            "en": "That great blare of trumpets, as though filling the sky, only cut the grieving Bharata again with sorrows.",
+            "kn": "ಆಕಾಶ ತುಂಬುವಂತಿದ್ದ ಆ ಮಹಾ ತೂರ್ಯ ಘೋಷವು ಶೋಕ ಸಂತಪ್ತ ಭರತನನ್ನು ಮತ್ತೆ ಶೋಕದಿಂದ ಇರಿದಂತಾಯಿತು."
+          }
         },
         {
           "n": 4,
-          "text": "ततः प्रबुद्धो भरतस्तं घोषं सन्निवर्त्य च ।\nनाहं राजेति चाप्युक्त्वा शत्रुघ्नमिदमब्रवीत् ॥"
+          "text": "ततः प्रबुद्धो भरतस्तं घोषं सन्निवर्त्य च ।\nनाहं राजेति चाप्युक्त्वा शत्रुघ्नमिदमब्रवीत् ॥",
+          "meaning": {
+            "en": "Then Bharata woke, stopped that noise, and saying \"I am not king\", said this to Shatrughna: (A reading was corrected by the editors.)",
+            "kn": "ಆಗ ಭರತನು ಎಚ್ಚೆತ್ತು ಆ ಘೋಷವನ್ನು ನಿಲ್ಲಿಸಿ \"ನಾನು ರಾಜನಲ್ಲ\" ಎಂದು ಹೇಳಿ ಶತ್ರುಘ್ನನಿಗೆ ಹೇಳಿದನು: (ಒಂದು ಪಾಠ ತಿದ್ದಲ್ಪಟ್ಟಿದೆ.)"
+          }
         },
         {
           "n": 5,
-          "text": "पश्य शत्रुघ्न कैकेय्या लोकस्यापकृतं महत् ।\nविसृज्य मयि दुःखानि राजा दशरथो गतः ॥"
+          "text": "पश्य शत्रुघ्न कैकेय्या लोकस्यापकृतं महत् ।\nविसृज्य मयि दुःखानि राजा दशरथो गतः ॥",
+          "meaning": {
+            "en": "\"See, Shatrughna, the great wrong Kaikeyi has done to the world: King Dasharatha went, casting his sorrows on me.",
+            "kn": "\"ಶತ್ರುಘ್ನ, ಕೈಕೇಯಿ ಲೋಕಕ್ಕೆ ಮಾಡಿದ ಮಹಾ ಅಪಕಾರವನ್ನು ನೋಡು: ರಾಜ ದಶರಥ ತನ್ನ ದುಃಖಗಳನ್ನು ನನ್ನ ಮೇಲೆ ಹಾಕಿ ಹೋದನು."
+          }
         },
         {
           "n": 6,
-          "text": "तस्यैषा धर्मराजस्य धर्ममूला महात्मनः ।\nपरिभ्रमति राज्य श्रीर्नौरिवाकर्णिका जले ॥"
+          "text": "तस्यैषा धर्मराजस्य धर्ममूला महात्मनः ।\nपरिभ्रमति राज्य श्रीर्नौरिवाकर्णिका जले ॥",
+          "meaning": {
+            "en": "The royal fortune of that great-souled king of dharma, rooted in dharma, wanders now like a boat without a rudder in water.",
+            "kn": "ಧರ್ಮ ಮೂಲದ ಆ ಮಹಾತ್ಮ ಧರ್ಮರಾಜನ ರಾಜ್ಯಲಕ್ಷ್ಮಿ ನೀರಿನಲ್ಲಿ ಚುಕ್ಕಾಣಿ ಇಲ್ಲದ ದೋಣಿಯಂತೆ ಅಲೆಯುತ್ತಿದೆ."
+          }
         },
         {
           "n": 7,
-          "text": "यो हि नः सुमहान्नाथः सोऽपि प्रव्राजितो वनम् ।\nअनया धर्ममुत्सृज्य मात्रा मे राघवः स्वयम् ॥"
+          "text": "यो हि नः सुमहान्नाथः सोऽपि प्रव्राजितो वनम् ।\nअनया धर्ममुत्सृज्य मात्रा मे राघवः स्वयम् ॥",
+          "meaning": {
+            "en": "Our great lord too, Raghava, was sent to the forest by her, my mother, who abandoned dharma.\"",
+            "kn": "ನಮ್ಮ ಮಹಾನ್ ಒಡೆಯ ರಾಘವನನ್ನೂ ಧರ್ಮ ತೊರೆದ ನನ್ನ ತಾಯಿ ಸ್ವತಃ ವನಕ್ಕೆ ಕಳಿಸಿದಳು.\""
+          }
         },
         {
           "n": 8,
-          "text": "इत्येवं भरतं प्रेक्ष्य विलपन्तं विचेतनम् ।\nकृपणं रुरुदुः सर्वाः सस्वरं योषित स्तदा ॥"
+          "text": "इत्येवं भरतं प्रेक्ष्य विलपन्तं विचेतनम् ।\nकृपणं रुरुदुः सर्वाः सस्वरं योषित स्तदा ॥",
+          "meaning": {
+            "en": "Seeing Bharata lamenting thus, senseless, all the women wept piteously and loudly.",
+            "kn": "ಭರತನು ಹೀಗೆ ಪ್ರಜ್ಞೆ ಕಳೆದು ವಿಲಪಿಸುತ್ತಿರುವುದನ್ನು ಕಂಡು ಎಲ್ಲ ಸ್ತ್ರೀಯರೂ ದೀನರಾಗಿ ಗಟ್ಟಿಯಾಗಿ ಅತ್ತರು."
+          }
         },
         {
           "n": 9,
-          "text": "तथा तस्मिन्विलपति वसिष्ठो राजधर्मवित् ।\nसभामिक्ष्वाकुनाथस्य प्रविवेश महायशाः ॥"
+          "text": "तथा तस्मिन्विलपति वसिष्ठो राजधर्मवित् ।\nसभामिक्ष्वाकुनाथस्य प्रविवेश महायशाः ॥",
+          "meaning": {
+            "en": "While he thus lamented, Vasishtha, who knew the dharma of kings and was greatly renowned, entered the hall of the lord of the Ikshvakus.",
+            "kn": "ಅವನು ಹೀಗೆ ವಿಲಪಿಸುತ್ತಿರುವಾಗ ರಾಜಧರ್ಮ ಬಲ್ಲ ಮಹಾಯಶಸ್ವಿ ವಸಿಷ್ಠನು ಇಕ್ಷ್ವಾಕು ಒಡೆಯನ ಸಭೆಯನ್ನು ಪ್ರವೇಶಿಸಿದನು."
+          }
         },
         {
           "n": 10,
-          "text": "शातकुम्भमयीं रम्यां मणिरत्नसमाकुलाम् ।\nसुधर्मामिव धर्मात्मा सगणः प्रत्यपद्यत ॥"
+          "text": "शातकुम्भमयीं रम्यां मणिरत्नसमाकुलाम् ।\nसुधर्मामिव धर्मात्मा सगणः प्रत्यपद्यत ॥",
+          "meaning": {
+            "en": "The righteous one with his company entered the lovely golden hall full of gems and jewels, as if entering Sudharma, the hall of the gods.",
+            "kn": "ಧರ್ಮಾತ್ಮನು ತನ್ನ ಪರಿವಾರದೊಡನೆ ಮಣಿ ರತ್ನಗಳಿಂದ ತುಂಬಿದ ಚಿನ್ನದ ರಮ್ಯ ಸಭೆಯನ್ನು ದೇವತೆಗಳ ಸುಧರ್ಮಾ ಸಭೆಯಂತೆ ಪ್ರವೇಶಿಸಿದನು."
+          }
         },
         {
           "n": 11,
-          "text": "स काञ्चनमयं पीठं परार्ध्यास्तरणावृतम् ।\nअध्यास्त सर्ववेदज्ञो दूताननुशशास च ॥"
+          "text": "स काञ्चनमयं पीठं परार्ध्यास्तरणावृतम् ।\nअध्यास्त सर्ववेदज्ञो दूताननुशशास च ॥",
+          "meaning": {
+            "en": "That knower of all the Vedas sat on a golden seat covered with costly spreads and instructed the messengers:",
+            "kn": "ಸರ್ವ ವೇದಜ್ಞನು ಬೆಲೆಬಾಳುವ ಹಾಸು ಹೊದಿಸಿದ ಚಿನ್ನದ ಪೀಠದ ಮೇಲೆ ಕುಳಿತು ದೂತರಿಗೆ ಆಜ್ಞಾಪಿಸಿದನು:"
+          }
         },
         {
           "n": 12,
-          "text": "ब्राह्मणान् क्षत्रियान्वैश्यनमात्यान्गणवल्लभान् ।\nक्षिप्रमानयताऽव्यग्राः कृत्यमात्ययिकं हि नः ॥"
+          "text": "ब्राह्मणान् क्षत्रियान्वैश्यनमात्यान्गणवल्लभान् ।\nक्षिप्रमानयताऽव्यग्राः कृत्यमात्ययिकं हि नः ॥",
+          "meaning": {
+            "en": "\"Calmly and quickly bring the brahmins, kshatriyas, vaishyas, ministers and the chiefs of the guilds, for we have urgent business.",
+            "kn": "\"ಶಾಂತರಾಗಿ ಬೇಗ ಬ್ರಾಹ್ಮಣರು, ಕ್ಷತ್ರಿಯರು, ವೈಶ್ಯರು, ಮಂತ್ರಿಗಳು ಮತ್ತು ಗಣಮುಖ್ಯರನ್ನು ಕರೆತನ್ನಿ; ನಮಗೆ ತುರ್ತು ಕೆಲಸವಿದೆ."
+          }
         },
         {
           "n": 13,
-          "text": "सराजभृत्यं शत्रुघ्नं भरतं च यशस्विनम् ।\nयुधाजितं सुमन्त्रं च ये च तत्र हिता जनाः ॥"
+          "text": "सराजभृत्यं शत्रुघ्नं भरतं च यशस्विनम् ।\nयुधाजितं सुमन्त्रं च ये च तत्र हिता जनाः ॥",
+          "meaning": {
+            "en": "Bring Shatrughna with the king's servants, and renowned Bharata, Yudhajit, Sumantra, and whoever else are well-wishers there.\"",
+            "kn": "ರಾಜ ಸೇವಕರೊಡನೆ ಶತ್ರುಘ್ನನನ್ನೂ ಯಶಸ್ವಿ ಭರತನನ್ನೂ ಯುಧಾಜಿತ್, ಸುಮಂತ್ರ ಮತ್ತು ಅಲ್ಲಿರುವ ಹಿತೈಷಿಗಳನ್ನೂ ಕರೆತನ್ನಿ.\""
+          }
         },
         {
           "n": 14,
-          "text": "ततो हलहलाशब्दः सुमहान्समपद्यत ।\nरथैरश्वैर्गजैश्चापि जनानामुपगच्छताम् ॥"
+          "text": "ततो हलहलाशब्दः सुमहान्समपद्यत ।\nरथैरश्वैर्गजैश्चापि जनानामुपगच्छताम् ॥",
+          "meaning": {
+            "en": "Then a great tumult arose from the people arriving in chariots, on horses and on elephants.",
+            "kn": "ಆಗ ರಥ ಕುದುರೆ ಆನೆಗಳಲ್ಲಿ ಬರುತ್ತಿದ್ದ ಜನರಿಂದ ಮಹಾ ಗದ್ದಲ ಉಂಟಾಯಿತು."
+          }
         },
         {
           "n": 15,
-          "text": "ततो भरतमायान्तं शतक्रतुमिवामराः ।\nप्रत्यनन्दन् प्रकृतयो यथा दशरथं तथा ॥"
+          "text": "ततो भरतमायान्तं शतक्रतुमिवामराः ।\nप्रत्यनन्दन् प्रकृतयो यथा दशरथं तथा ॥",
+          "meaning": {
+            "en": "Then the subjects welcomed Bharata as he came, as the immortals welcome Indra, the lord of a hundred sacrifices, just as they had welcomed Dasharatha.",
+            "kn": "ಬರುತ್ತಿದ್ದ ಭರತನನ್ನು ಪ್ರಜೆಗಳು ದಶರಥನನ್ನು ಸ್ವಾಗತಿಸಿದಂತೆ, ಅಮರರು ಶತಕ್ರತು ಇಂದ್ರನನ್ನು ಸ್ವಾಗತಿಸುವಂತೆ ಸ್ವಾಗತಿಸಿದರು."
+          }
         },
         {
           "n": 16,
-          "text": "ह्रद इव तिमिनागसंवृतः\nस्तिमितजलो मणिशङ्खशर्करः ।\nदशरथसुतशोभिता सभा\nसदशरथेव बभौ यथा पुरा ॥"
+          "text": "ह्रद इव तिमिनागसंवृतः\nस्तिमितजलो मणिशङ्खशर्करः ।\nदशरथसुतशोभिता सभा\nसदशरथेव बभौ यथा पुरा ॥",
+          "meaning": {
+            "en": "Like a lake full of great fish and elephants, its water still, with gems, conches and pebbles, the hall, graced by Dasharatha's son, shone as it had before, as if Dasharatha were in it.",
+            "kn": "ದೊಡ್ಡ ಮೀನು ಆನೆಗಳಿಂದ ತುಂಬಿದ, ನೀರು ಶಾಂತವಾದ, ಮಣಿ ಶಂಖ ಕಲ್ಲುಗಳ ಸರೋವರದಂತೆ, ದಶರಥನ ಮಗನಿಂದ ಶೋಭಿತ ಸಭೆ ದಶರಥನಿದ್ದಂತೆ ಹಿಂದಿನಂತೆ ಬೆಳಗಿತು."
+          }
         },
         {
           "text": "इत्यार्षे श्रीमद्रामायणे वाल्मीकीये आदिकाव्ये\nअयोध्याकाण्डे एकाशीतितमः सर्गः ॥"
