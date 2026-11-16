@@ -12,7 +12,7 @@ Blocks (in any order; one per item):
 Write refuses unless every block's item exists and still lacks Malayalam, the text is Malayalam script,
 with no Latin words or other Indic scripts. Never touches text or other languages. Run from the repo root.
 """
-import json, re, sys, signal
+import json, os, re, sys, signal
 signal.signal(signal.SIGPIPE, signal.SIG_DFL)
 
 def items(d):
@@ -95,6 +95,8 @@ for (nnn, k), t in blocks.items():
     if k == 'summary': d['summary']['ml'] = t
     else: td[k]['meaning']['ml'] = t
 for nnn, (p, raw, d, td) in files.items():
-    open(p, 'w', encoding='utf8').write(json.dumps(d, ensure_ascii=False, indent=2) + ('\n' if raw.endswith('\n') else ''))
+    tmp = p + '.tmp'  # write, then rename, so a build running alongside never reads half a file
+    open(tmp, 'w', encoding='utf8').write(json.dumps(d, ensure_ascii=False, indent=2) + ('\n' if raw.endswith('\n') else ''))
+    os.replace(tmp, p)
     left = len(todo(d))
     print(f'{p}: written' + (f', {left} items still lack Malayalam' if left else ', complete'))
