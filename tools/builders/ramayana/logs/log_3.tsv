@@ -1,0 +1,22 @@
+3.14.5	reset-ce	half-line not in IITK; set from CE 3.13.5	आचचक्षे द्विजस्तस्मै सर्वभूतसमुद्भवम्
+3.14.12	reset-ce	half-line not in IITK; set from CE 3.13.12	ताम्रां क्रोधवशां चैव मनुं चाप्यनलामपि
+3.14.13	reset-ce	half-line not in IITK; set from CE 3.13.13	पुत्रांस्त्रैलोक्यभर्तॄन्वै जनयिष्यथ मत्समान्
+3.14.14	reset-ce	half-line not in IITK; set from CE 3.13.14	कालका च महाबाहो शेषास्त्वमनसोऽभवन्
+3.14.15	reset-ce	half-line not in IITK; set from CE 3.13.15	आदित्या वसवो रुद्रा अश्विनौ च परंतप
+3.14.16	reset-ce	half-line not in IITK; set from CE 3.13.16	तेषामियं वसुमती पुरासीत्सवनार्णवा
+3.14.17	reset-ce	half-line not in IITK; set from CE 3.13.17	नरकं कालकं चैव कालकापि व्यजायत
+3.14.18	reset-ce	half-line not in IITK; set from CE 3.13.18	ताम्रापि सुषुवे कन्याः पञ्चैता लोकविश्रुताः
+3.14.29	reset-ce	half-line not in IITK; set from CE 3.13.29	मनुर्मनुष्याञ्जनयत्कश्यपस्य महात्मनः
+3.14.30	reset-ce	half-line not in IITK; set from CE 3.13.30	मुखतो ब्राह्मणा जाता उरसः क्षत्रियास्तथा
+3.14.30	reset-ce	half-line not in IITK; set from CE 3.13.30	ऊरुभ्यां जज्ञिरे वैश्याः पद्भ्यां शूद्रा इति श्रुतिः
+3.14.34	reset-ce	half-line not in IITK; set from CE 3.13.34	सीतां च तात रक्षिष्ये त्वयि याते सलक्ष्मणे
+3.14	reset	word-split base re-set from IITK half-lines ({'iitk': 63, 'ce': 12, 'iitk-global': 2})	
+3.14.26	fix	manual (see note)	दिशागजं तु श्वेत काकुत्स्थ → दिशागजं तु काकुत्स्थ
+3.15.16	reset-ce	half-line not in IITK; set from CE 3.14.16	सालैस्तालैस्तमालैश्च खर्जूरैः पनसाम्रकैः
+3.15	reset	word-split base re-set from IITK half-lines ({'iitk': 59, 'iitk-global': 2, 'ce': 1})	
+3.15.2	fix	manual (see note)	यथोद्दिष्टं यं देशं → यथोद्दिष्टममुं देशं
+3.16.8	fix	typo: base form unattested; IITK 3.14.8 = CE	स्थाणुर्मरीचरत्रिश्च → स्थाणुर्मरीचिरत्रिश्च
+3.38.33	fix	typo: base form unattested; IITK 3.38.33 = CE	रामशरास्तजीवितः → रामशरात्तजीवितः
+3.43.35	fix	typo: base form unattested; IITK 3.43.34 = CE	परार्घ्ये → परार्ध्ये
+3.55.1	fix	manual (see note)	कृत्कृत्य → कृतकृत्य
+3.56	structure	interpolated sarga after 3.56 (26 verses) kept as an unnumbered section	

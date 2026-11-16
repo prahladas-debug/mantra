@@ -10,3 +10,7 @@ here and re-run the builder rather than editing the generated file by hand.
   Run: `python3 tools/builders/homa-purvanga-ganapati-sudarshana/gen.py <data_X.py> --write-packs`
 - `homa-navagraha-etc/`: navagraha, mrityunjaya, lakshmi and ayushya homas (b_*.py, common.py).
 Paths inside the scripts may point to the session scratchpad they were written in; adjust before use.
+- `ramayana/`: the Valmiki Ramayana kandas in books-src/ramayana (tools/build.py <k> then
+  tools/write.py <k>; needs the Wikisource dump and IITK/CE downloads, which are not kept here).
+  `logs/log_<k>.tsv` lists every reading changed against the base, with its witness; lines marked
+  CHECK in log_2.tsv (Ayodhya 48–88) still want proofreading. `summ/` holds the sarga summaries.

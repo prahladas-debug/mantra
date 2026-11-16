@@ -1,0 +1,241 @@
+2.1.27	fix	typo: base form unattested; IITK 2.1.27 = CE	चास्त्रसमूहेषु → शास्त्रसमूहेषु
+2.2.2	fix	typo: base form unattested; IITK 2.2.2 = CE	दुन्दुभिस्वरकल्पेन → दुन्दुभिस्वनकल्पेन
+2.4.19	fix	typo: base form unattested; IITK 2.4.19 = CE	चापदमृच्छति → वाऽऽपदमृच्छति
+2.13	renumbered	base numbering not sequential: 16→17	
+2.13.9	fix	typo: base form unattested; IITK 2.13.9 = CE	जितक्रोधः → जितक्रोधो
+2.16.3	fix	manual (see note)	स्त्र्यध्यक्षान् समाहितान् → स्त्र्यध्यक्षान् सुसमाहितान्
+2.16.9	fix	typo: base form unattested; IITK 2.16.9 = CE	परार्घ्येन → परार्ध्येन
+2.17	renumbered	base numbering not sequential: 16→15	
+2.24.23	restored	missing in the base (numbering skips it); taken from IITK 2.24.23, confirmed by CE	यथा मयि तु निष्क्रान्ते पुत्रशोकेन पार्थिवः / श्रमं नावाप्नुयात्किञ्चिदप्रमत्ता तथा कुरु
+2.32.4	restored	missing in the base (numbering skips it); taken from IITK 2.32.4, confirmed by CE	तमागतं वेदविदं प्राञ्जलिः सीतया सह / सुयज्ञमभिचक्राम राघवोऽग्निमिवार्चितम्
+2.37.12	fix	typo: base form unattested; IITK 2.37.12 = CE	बघ्नन्ति → बध्नन्ति
+2.39.40	fix	typo: base form unattested; IITK 2.39.40 = CE	जज्ञोऽथ → जज्ञेऽथ
+2.45.22	fix	typo: base form unattested; IITK 2.45.22 = CE	च्छत्राण्येतानि → छत्राण्येतानि
+2.48	reset	word-split base re-set from IITK half-lines ({'iitk': 77, 'iitk-global': 1})	
+2.49.14	reset-ce	half-line not in IITK; set from CE 2.43.12	सूत इत्येव चाभाष्य सारथिं तमभीक्ष्णशः
+2.49.14	reset-ce	half-line not in IITK; set from CE 2.43.12	हंसमत्तस्वरः श्रीमानुवाच पुरुषर्षभः
+2.49	reset	word-split base re-set from IITK half-lines ({'iitk': 33, 'iitk-global': 1, 'ce': 2})	
+2.49.18	fix	manual (see note)	 / तमर्थमभिप्रेत्य →  / तं तमर्थमभिप्रेत्य
+2.50.23	reset-joined	half-line in neither IITK nor CE; sandhi joined by rule from the word-split base — CHECK	देवोपवाह्यश्च मुहुः सम्नादितवनान्तराम् → देवोपवाह्यश्च मुहुः सम्नादितवनान्तराम्
+2.50.32	reset-joined	half-line in neither IITK nor CE; sandhi joined by rule from the word-split base — CHECK	सुमन्त्रः अपि अवतीर्य एव → सुमन्त्रोऽप्यवतीर्यैव
+2.50.37	reset-joined	half-line in neither IITK nor CE; sandhi joined by rule from the word-split base — CHECK	ईदृशम् हि महाबाहो कः प्रप्स्यत्यतिथिम् प्रियम् → ईदृशम् हि महाबाहो कः प्रप्स्यत्यतिथिम् प्रियम्
+2.50.37	reset-ce	half-line not in IITK; set from CE 2.44.13	अर्घ्यं चोपानयत्क्षिप्रं वाक्यं चेदमुवाच ह
+2.50.38	reset-ce	half-line not in IITK; set from CE 2.44.14	वयं प्रेष्या भवान्भर्ता साधु राज्यं प्रशाधि नः
+2.50.39	reset-ce	half-line not in IITK; set from CE 2.44.15	शयनानि च मुख्यानि वाजिनां खादनं च ते
+2.50	reset	word-split base re-set from IITK half-lines ({'iitk': 100, 'joined': 3, 'ce': 3})	
+2.51	reset	word-split base re-set from IITK half-lines ({'iitk': 56})	
+2.52.28	reset-joined	half-line in neither IITK nor CE; sandhi joined by rule from the word-split base — CHECK	अयोध्यायाः च्युताः च इति → अयोध्यायाः च्युताः चेति
+2.52.35	reset-ce	half-line not in IITK; set from CE 2.46.28	यथा च तव कैकेयी सुमित्रा चाविशेषतः
+2.52.35	reset-ce	half-line not in IITK; set from CE 2.46.28	तथैव देवी कौसल्या मम माता विशेषतः
+2.52.68	reset-ce	half-line not in IITK; set from CE 2.46.55	जटाः कृत्वा गमिष्यामि न्यग्रोधक्षीरमानय
+2.52.69	reset-ce	half-line not in IITK; set from CE 2.46.56	लक्ष्मणस्यात्मनश्चैव रामस्तेनाकरोज्जटाः
+2.52.81	reset-ce	half-line not in IITK; set from CE 2.46.66	ततस्तैश्चोदिता सा नौः कर्णधारसमाहिता
+2.52.81	reset-ce	half-line not in IITK; set from CE 2.46.66	शुभस्फ्यवेगाभिहता शीघ्रं सलिलमत्यगात्
+2.52.95	reset-joined	half-line in neither IITK nor CE; sandhi joined by rule from the word-split base — CHECK	अवश्यम् रक्षणम् कार्यमदृष्टे विजने वने → अवश्यम् रक्षणम् कार्यमदृष्टे विजने वने
+2.52.95	reset-ce	half-line not in IITK; set from CE 2.46.76	अग्रतो गच्छ सौमित्रे सीता त्वामनुगच्छतु
+2.52	reset	word-split base re-set from IITK half-lines ({'iitk': 202, 'iitk-global': 2, 'joined': 2, 'ce': 7})	
+2.52.28	fix	manual (see note)	अयोध्यायाश्च्युताश्चेति / अयोध्यायाश्च्युताश्चेति → अयोध्यायाश्च्युताश्चेति
+2.53	reset	word-split base re-set from IITK half-lines ({'iitk': 74})	
+2.54	reset	word-split base re-set from IITK half-lines ({'iitk': 89})	
+2.54.10	fix	manual (see note)	ततस्त्वाश्रमासाद्य → ततस्त्वाश्रममासाद्य
+2.55.5	reset-joined	half-line in neither IITK nor CE; sandhi joined by rule from the word-split base — CHECK	मापगाम् (प्रतिस्रोतःसमागताम् - पा.भे.) → मापगाम् (प्रतिस्रोतःसमागताम् - पा.भे.)
+2.55.6	reset-ce	half-line not in IITK; set from CE 2.49.3	तत्र यूयं प्लवं कृत्वा तरतांशुमतीं नदीम्
+2.55.9	reset-ce	half-line not in IITK; set from CE 2.49.5	पलाशबदरीमिश्रं राम वंशैश्च यामुनैः
+2.55.10	reset-ce	half-line not in IITK; set from CE 2.49.6	रम्यो मार्दवयुक्तश्च वनदावैर्विवर्जितः
+2.55.12	reset-ce	half-line not in IITK; set from CE 2.49.7	कृतपुण्याः स्म सौमित्रे मुनिर्यन्नोऽनुकम्पते
+2.55.17	reset-joined	half-line in neither IITK nor CE; sandhi joined by rule from the word-split base — CHECK	ईष्त्सन्कह्हनाबान् तानग्तारिओअतत् प्लवम् → ईष्त्सङ्कह्हनाबान् तानग्तारिओअतत् प्लवम्
+2.55.20	reset-joined	half-line in neither IITK nor CE; sandhi joined by rule from the word-split base — CHECK	यक्ष्ये त्वाम् गोनहस्रेण सुराघटशतेन च → यक्ष्ये त्वाम् गोनहस्रेण सुराघटशतेन च
+2.55	reset	word-split base re-set from IITK half-lines ({'iitk': 62, 'joined': 3, 'ce': 4, 'iitk-global': 2})	
+2.55.5	fix	manual (see note)	शीघ्रस्रोतसमापगाम् / मापगाम् → शीघ्रस्रोतसमापगाम्
+2.55.5	fix	manual (see note)	कालिन्दी  → कालिन्दीं 
+2.56.28	reset-ce	half-line not in IITK; set from CE 2.50.18	अयं कृष्णः समाप्ताङ्गः शृतः कृष्ण मृगो यथा
+2.56.38	reset-ce	half-line not in IITK; set from CE 2.50.22	सुरम्यमासाद्य तु चित्रकूटं
+2.56.38	reset-ce	half-line not in IITK; set from CE 2.50.22	नदीं च तां माल्यवतीं सुतीर्थाम्
+2.56.38	reset-ce	half-line not in IITK; set from CE 2.50.22	ननन्द हृष्टो मृगपक्षिजुष्टां
+2.56.38	reset-ce	half-line not in IITK; set from CE 2.50.22	जहौ च दुःखं पुरविप्रवासात्
+2.56	reset	word-split base re-set from IITK half-lines ({'iitk': 77, 'ce': 5})	
+2.56.29	fix	manual (see note)	स्रवार्न मन्त्रान् → सर्वान् मन्त्रान्
+2.57	reset	word-split base re-set from IITK half-lines ({'iitk': 70})	
+2.58	reset	word-split base re-set from IITK half-lines ({'iitk': 76})	
+2.59.23	reset-ce	half-line not in IITK; set from CE 2.53.20	अथ वापि महाबाहुर्गतो दूरं भविष्यति
+2.59.23	reset-ce	half-line not in IITK; set from CE 2.53.20	मामेव रथमारोप्य शीघ्रं रामाय दर्शय
+2.59	reset	word-split base re-set from IITK half-lines ({'iitk': 68, 'ce': 2})	
+2.59.16	fix	manual (see note)	प्रतिभाति मा मा → प्रतिभाति मा
+2.60.21	reset-ce	half-line not in IITK; set from CE 2.54.18	न शोच्यास्ते न चात्मा ते शोच्यो नापि जनाधिपः
+2.60	reset	word-split base re-set from IITK half-lines ({'iitk': 49, 'ce': 1})	
+2.60.19	fix	manual (see note)	तद्रागान्नयस्त भूषणा → तद्रागा न्यस्तभूषणा
+2.61.26	reset-ce	half-line not in IITK; set from CE 2.55.20	हता सपुत्रास्मि हताश्च पौराः
+2.61	reset	word-split base re-set from IITK half-lines ({'iitk': 56, 'ce': 1})	
+2.62	reset	word-split base re-set from IITK half-lines ({'iitk': 42})	
+2.63	reset	word-split base re-set from IITK half-lines ({'iitk': 110, 'iitk-global': 4})	
+2.63.52	fix	manual (see note)	संस्तभ्य धैर्येण → संस्तभ्य शोकं धैर्येण
+2.64.21	reset-ce	half-line not in IITK; set from CE 2.58.18	स तच्छ्रुत्वा वचः क्रूरं निःश्वसञ्शोककर्शितः
+2.64.30	reset-ce	half-line not in IITK; set from CE 2.58.25	तौ पुत्रमात्मनः स्पृष्ट्वा तमासाद्य तपस्विनौ
+2.64.30	reset-ce	half-line not in IITK; set from CE 2.58.25	निपेततुः शरीरेऽस्य पिता चास्येदमब्रवीत्
+2.64.38	reset-ce	half-line not in IITK; set from CE 2.58.32	उभावपि च शोकार्तावनाथौ कृपणौ वने
+2.64.38	reset-ce	half-line not in IITK; set from CE 2.58.32	क्षिप्रमेव गमिष्यावस्त्वया हीनौ यमक्षयम्
+2.64	reset	word-split base re-set from IITK half-lines ({'iitk': 152, 'iitk-global': 3, 'ce': 5})	
+2.64.10	fix	manual (see note)	त्वगतीनां चक्षु → त्वगतीनां च चक्षु
+2.64.17	fix	manual (see note)	भगवच्छशब्दमालक्ष्य → भगवञ्छब्दमालक्ष्य
+2.64.52	fix	manual (see note)	स कृत्वा तु उदकं → स कृत्वा तूदकं
+2.64.74	fix	manual (see note)	सर्वाण्येन्द्रियाणि → सर्वाण्येवेन्द्रियाणि
+2.65	reset	word-split base re-set from IITK half-lines ({'iitk': 61})	
+2.65.6	fix	manual (see note)	वेश्म तत → वेश्म तत्
+2.65.27	fix	manual (see note)	परित्रस्तन्त्रसम्भ्रान्त पर्युत्सुक → परित्रस्तसम्भ्रान्तपर्युत्सुक
+2.66.8	reset-ce	half-line not in IITK; set from CE 2.60.8	रामः कमलपत्राक्षो जीवनाशमितो गतः
+2.66	reset	word-split base re-set from IITK half-lines ({'iitk': 63, 'ce': 1, 'iitk-global': 2})	
+2.67.11	reset-ce	half-line not in IITK; set from CE 2.61.10	अराजके धनं नास्ति नास्ति भार्याप्यराजके
+2.67.30	reset-joined	half-line in neither IITK nor CE; sandhi joined by rule from the word-split base — CHECK	ध्वजो रथस्य प्रज्ञानम् धूमो ज्ञानम् विभावसोः → ध्वजो रथस्य प्रज्ञानम् धूमो ज्ञानम् विभावसोः
+2.67.30	reset-joined	half-line in neither IITK nor CE; sandhi joined by rule from the word-split base — CHECK	तेषाम् यो नो ध्वजो राज स देवत्वमितो गतः → तेषाम् यो नो ध्वजो राज स देवत्वमितो गतः
+2.67	reset	word-split base re-set from IITK half-lines ({'iitk': 76, 'ce': 1, 'joined': 2})	
+2.67.11	fix	manual (see note)	धनं नास्ति न अस्ति → धनं नास्ति नास्ति
+2.67.18	fix	manual (see note)	वाहनै शशीघ्रगामिभिः → वाहनैः शीघ्रगामिभिः
+2.68.2	reset-ce	half-line not in IITK; set from CE 2.62.2	यदसौ मातुलकुले पुरे राजगृहे सुखी
+2.68	reset	word-split base re-set from IITK half-lines ({'iitk': 45, 'ce': 1})	
+2.69	reset	word-split base re-set from IITK half-lines ({'iitk': 44, 'iitk-global': 1})	
+2.69.21	fix	manual (see note)	चाऽत्मानं → चात्मानं
+2.69.21	fix	manual (see note)	निशाम्यता / मनेक → निशाम्य ता- / मनेक
+2.69.21	fix	manual (see note)	दयान्नयाति → दयान्न याति
+2.69.21	fix	manual (see note)	चिन्त्य दर्शनम् → चिन्त्यदर्शनम्
+2.70.10	reset-ce	half-line not in IITK; set from CE 2.64.9	अरोगा चापि कैकेयी माता मे किमुवाच ह
+2.70	reset	word-split base re-set from IITK half-lines ({'iitk': 59, 'ce': 1, 'iitk-global': 2})	
+2.71.17	reset-ce	half-line not in IITK; set from CE 2.65.12	भरतः क्षिप्रमागच्छत्सुपरिश्रान्तवाहनः
+2.71.18	reset-ce	half-line not in IITK; set from CE 2.65.13	अयोध्यां मनुना राज्ञा निर्मितां स ददर्श ह
+2.71.19	reset-ce	half-line not in IITK; set from CE 2.65.14	अयोध्यामग्रतो दृष्ट्वा रथे सारथिमब्रवीत्
+2.71.21	reset-ce	half-line not in IITK; set from CE 2.65.16	भूयिष्ठमृद्धैराकीर्णा राजर्षिवरपालिता
+2.71.22	reset-ce	half-line not in IITK; set from CE 2.65.17	समन्तान्नरनारीणां तमद्य न शृणोम्यहम्
+2.71.23	reset-ce	half-line not in IITK; set from CE 2.65.18	समन्ताद्विप्रधावद्भिः प्रकाशन्ते ममान्यदा
+2.71.24	reset-ce	half-line not in IITK; set from CE 2.65.19	अरण्यभूतेव पुरी सारथे प्रतिभाति मे
+2.71.25	reset-ce	half-line not in IITK; set from CE 2.65.20	निर्यान्तो वाभियान्तो वा नरमुख्या यथापुरम्
+2.71.26	reset-joined	half-line in neither IITK nor CE; sandhi joined by rule from the word-split base — CHECK	जनानाम् रतिसम्योगेष्वत्यन्तगुणवन्ति च → जनानाम् रतिसंयोगेष्वत्यन्तगुणवन्ति च
+2.71.27	reset-joined	half-line in neither IITK nor CE; sandhi joined by rule from the word-split base — CHECK	स्रस्तपर्णैरनुपथम् विक्रोशद्भिरिव द्रुमैः → स्रस्तपर्णैरनुपथम् विक्रोशद्भिरिव द्रुमैः
+2.71.28	reset-joined	half-line in neither IITK nor CE; sandhi joined by rule from the word-split base — CHECK	सम्रक्ताम् मधुराम् वाणीम् कलम् व्याहरताम् बहु → संरक्ताम् मधुराम् वाणीम् कलम् व्याहरताम् बहु
+2.71.29	reset-joined	half-line in neither IITK nor CE; sandhi joined by rule from the word-split base — CHECK	प्रवाति पवनः श्रीमान् किम् नु नाद्य यथापुरम् → प्रवाति पवनः श्रीमान् किम् नु नाद्य यथापुरम्
+2.71.30	reset-joined	half-line in neither IITK nor CE; sandhi joined by rule from the word-split base — CHECK	किमद्य शब्दो विरतः सदाऽदीनगतिः पुरा → किमद्य शब्दो विरतः सदाऽदीनगतिः पुरा
+2.71.31	reset-ce	half-line not in IITK; set from CE 2.65.21	निमित्तान्यमनोज्ञानि तेन सीदति ते मनः
+2.71.34	reset-ce	half-line not in IITK; set from CE 2.65.22	द्वाःस्थैरुत्थाय विजयं पृष्टस्तैः सहितो ययौ
+2.71.35	reset-ce	half-line not in IITK; set from CE 2.65.23	सूतमश्वपतेः क्लान्तमब्रवीत्तत्र राघवः
+2.71.36	reset-joined	half-line in neither IITK nor CE; sandhi joined by rule from the word-split base — CHECK	अशुभाशङ्कि हृदयम् शीलम् च पततीव मे → अशुभाशङ्कि हृदयम् शीलम् च पततीव मे
+2.71.37	reset-ce	half-line not in IITK; set from CE 2.65.24	आकारास्तानहं सर्वानिह पश्यामि सारथे
+2.71	reset	word-split base re-set from IITK half-lines ({'iitk': 77, 'ce': 12, 'joined': 6, 'iitk-global': 2})	
+2.71.5	fix	manual (see note)	सरस्वतीं च गङ्गां च → सरस्वतीं च गङ्गां च युग्मेन प्रतिपद्य च
+2.72.38	reset-ce	half-line not in IITK; set from CE 2.66.31	सिद्धार्थास्तु नरा राममागतं सीतया सह
+2.72	reset	word-split base re-set from IITK half-lines ({'iitk': 109, 'iitk-global': 1, 'ce': 1})	
+2.72.4	fix	manual (see note)	सा तं मूर्ध्नि समुपाघ्राय → तं मूर्ध्नि समुपाघ्राय
+2.72.5	fix	manual (see note)	नाध्वश्रमशशीघ्रं → नाध्वश्रमः शीघ्रं
+2.72.30	fix	manual (see note)	उपजिघ्रेद्धि मूर्ध्नि → उपजिघ्रेद्धि मां मूर्ध्नि
+2.72.54	fix	manual (see note)	विधिज्ञै / वसिष्ठ मुख्यैः → विधिज्ञै- / र्वसिष्ठमुख्यैः
+2.72.54	fix	manual (see note)	 / मात्मानमुर्व्याम → - / मात्मानमुर्व्याम
+2.73.10	reset-ce	half-line not in IITK; set from CE 2.67.7	तथा ज्येष्ठा हि मे माता कौसल्या दीर्घदर्शिनी
+2.73.10	reset-ce	half-line not in IITK; set from CE 2.67.7	त्वयि धर्मं समास्थाय भगिन्यामिव वर्तते
+2.73	reset	word-split base re-set from IITK half-lines ({'iitk': 55, 'ce': 2, 'iitk-global': 1})	
+2.74	reset	word-split base re-set from IITK half-lines ({'iitk': 74})	
+2.74.14	fix	manual (see note)	अङगप्रत्यङगजः → अङ्गप्रत्यङ्गजः
+2.75.2	reset-joined	half-line in neither IITK nor CE; sandhi joined by rule from the word-split base — CHECK	सोऽमात्यमध्येभरतो जननीमभ्यकुत्सयत् → सोऽमात्यमध्येभरतो जननीमभ्यकुत्सयत्
+2.75.10	reset-joined	half-line in neither IITK nor CE; sandhi joined by rule from the word-split base — CHECK	रुदन्तौ रुदतीम् दुःखात्समेत्यार्याम् मनस्स्विनीम् → रुदन्तौ रुदतीम् दुःखात्समेत्यार्याम् मनस्स्विनीम्
+2.75.23	reset-joined	half-line in neither IITK nor CE; sandhi joined by rule from the word-split base — CHECK	अधर्मः यो अस्य सो अस्याः तु → अधर्मो योऽस्य सोऽस्याः तु
+2.75.25	reset-joined	half-line in neither IITK nor CE; sandhi joined by rule from the word-split base — CHECK	अधर्मः यो अस्य सो अस्य → अधर्मो योऽस्य सोऽस्य
+2.75.30	reset-joined	half-line in neither IITK nor CE; sandhi joined by rule from the word-split base — CHECK	गुरूमः च अपि अवजानातु → गुरूंश्चाप्यवजानातु
+2.75.59	reset-joined	half-line in neither IITK nor CE; sandhi joined by rule from the word-split base — CHECK	एवम् आश्वसयन्न् एव दुह्ख आर्तः निपपात ह → एवमाश्वसयन्नेव दुःखार्तो निपपात ह
+2.75	reset	word-split base re-set from IITK half-lines ({'iitk': 129, 'joined': 6})	
+2.75.15	fix	manual (see note)	पुत्रो मे तपः सुतः → पुत्रो मे तप्यते तपः
+2.75.25	fix	manual (see note)	सोऽस्य अस्तु → सोऽस्यास्तु
+2.75.32	fix	manual (see note)	यस्याऽर्योऽमते → यस्यार्योऽनुमते
+2.75.33	fix	manual (see note)	त्यक्ताचाऽत्मा → त्यक्तात्मा
+2.76.13	reset-ce	half-line not in IITK; set from CE 2.70.13	ये त्वग्रतो नरेन्द्रस्य अग्न्यगाराद्बहिष्कृताः
+2.76.16	reset-ce	half-line not in IITK; set from CE 2.70.16	देवदारूणि चाहृत्य चितां चक्रुस्तथापरे
+2.76.17	reset-joined	half-line in neither IITK nor CE; sandhi joined by rule from the word-split base — CHECK	गन्धान् उच्च अवचामः च → गन्धानुच्चावचांश्च
+2.76	reset	word-split base re-set from IITK half-lines ({'iitk': 46, 'ce': 2, 'joined': 1})	
+2.76.17	fix	manual (see note)	गन्धानुच्चावचांश्च / गन्धानुच्चावचांश्चान्यां स्तत्र गत्वाथ भूमिपम् → गन्धानुच्चावचांश्चान्यांस्तत्र दत्त्वाथ भूमिपम्
+2.77.4	reset-ce	half-line not in IITK; set from CE 2.71.3	ब्राह्मणेभ्यो ददौ पुत्रो राज्ञस्तस्यौर्ध्वदैहिकम्
+2.77.6	reset-ce	half-line not in IITK; set from CE 2.71.5	चितामूले पितुर्वाक्यमिदमाह सुदुःखितः
+2.77.7	reset-ce	half-line not in IITK; set from CE 2.71.6	तस्मिन्वनं प्रव्रजिते शून्ये त्यक्तोऽस्म्यहं त्वया
+2.77.9	reset-ce	half-line not in IITK; set from CE 2.71.8	पितुः शरीर निर्वाणं निष्टनन्विषसाद ह
+2.77.10	reset-ce	half-line not in IITK; set from CE 2.71.9	उत्थाप्यमानः शक्रस्य यन्त्र ध्वज इव च्युतः
+2.77.11	reset-ce	half-line not in IITK; set from CE 2.71.10	अन्तकाले निपतितं ययातिमृषयो यथा
+2.77.12	reset-ce	half-line not in IITK; set from CE 2.71.11	विसंज्ञो न्यपतद्भूमौ भूमिपालमनुस्मरन्
+2.77.13	reset-ce	half-line not in IITK; set from CE 2.71.12	स्मृत्वा पितुर्गुणाङ्गानि तानि तानि तदा तदा
+2.77.14	reset-ce	half-line not in IITK; set from CE 2.71.13	वरदानमयोऽक्षोभ्योऽमज्जयच्छोकसागरः
+2.77.15	reset-ce	half-line not in IITK; set from CE 2.71.14	क्व तात भरतं हित्वा विलपन्तं गतो भवान्
+2.77.16	reset-ce	half-line not in IITK; set from CE 2.71.15	प्रवारयसि नः सर्वांस्तन्नः कोऽद्य करिष्यति
+2.77.17	reset-ce	half-line not in IITK; set from CE 2.71.16	विहीना या त्वया राज्ञा धर्मज्ञेन महात्मना
+2.77.18	reset-ce	half-line not in IITK; set from CE 2.71.17	किं मे जीवित सामर्थ्यं प्रवेक्ष्यामि हुताशनम्
+2.77.19	reset-ce	half-line not in IITK; set from CE 2.71.18	अयोध्यां न प्रवेक्ष्यामि प्रवेक्ष्यामि तपोवनम्
+2.77.20	reset-ce	half-line not in IITK; set from CE 2.71.19	भृशमार्ततरा भूयः सर्व एवानुगामिनः
+2.77.21	reset-ce	half-line not in IITK; set from CE 2.71.20	धरण्यां संव्यचेष्टेतां भग्नशृङ्गाविवर्षभौ
+2.77.22	reset-ce	half-line not in IITK; set from CE 2.71.21	वसिष्ठो भरतं वाक्यमुत्थाप्य तमुवाच ह
+2.77.23	reset-joined	half-line in neither IITK nor CE; sandhi joined by rule from the word-split base — CHECK	सावशेषास्थिनिचये किमिह त्वम् विलम्बसे → सावशेषास्थिनिचये किमिह त्वम् विलंबसे
+2.77.24	reset-ce	half-line not in IITK; set from CE 2.71.22	तेषु चापरिहार्येषु नैवं भवितुमर्हति
+2.77.25	reset-ce	half-line not in IITK; set from CE 2.71.23	श्रावयामास तत्त्वज्ञः सर्वभूतभवाभवौ
+2.77.26	reset-ce	half-line not in IITK; set from CE 2.71.24	वर्षातपपरिक्लिन्नौ पृथगिन्द्रध्वजाविव
+2.77	reset	word-split base re-set from IITK half-lines ({'iitk': 31, 'ce': 20, 'joined': 1})	
+2.78.7	reset-ce	half-line not in IITK; set from CE 2.72.6	मेखला दामभिश्चित्रै रज्जुबद्धेव वानरी
+2.78	reset	word-split base re-set from IITK half-lines ({'iitk': 53, 'ce': 1})	
+2.79.11	reset-ce	half-line not in IITK; set from CE 2.73.11	तत्रैव तं नरव्याघ्रमभिषिच्य पुरस्कृतम्
+2.79.11	reset-ce	half-line not in IITK; set from CE 2.73.11	आनेष्यामि तु वै रामं हव्यवाहमिवाध्वरात्
+2.79.17	reset-ce	half-line not in IITK; set from CE 2.73.17	ऊचुस्ते वचनमिदं निशम्य हृष्टाः
+2.79.17	reset-ce	half-line not in IITK; set from CE 2.73.17	सामात्याः सपरिषदो वियातशोकाः
+2.79.17	reset-ce	half-line not in IITK; set from CE 2.73.17	पन्थानं नरवरभक्तिमाञ्जनश्च
+2.79.17	reset-ce	half-line not in IITK; set from CE 2.73.17	व्यादिष्टस्तव वचनाच्च शिल्पिवर्गः
+2.79	reset	word-split base re-set from IITK half-lines ({'iitk': 32, 'ce': 6})	
+2.80	reset	word-split base re-set from IITK half-lines ({'iitk': 46})	
+2.81.2	reset-joined	half-line in neither IITK nor CE; sandhi joined by rule from the word-split base — CHECK	वाद्यामः च उच्च अवच स्वरान् → वाद्यांश्चोच्चावच स्वरान्
+2.81.4	reset-joined	half-line in neither IITK nor CE; sandhi joined by rule from the word-split base — CHECK	न अहम् राजा इति च अपि → नाहम् राजेति चापि
+2.81.14	reset-joined	half-line in neither IITK nor CE; sandhi joined by rule from the word-split base — CHECK	रथैः अश्वैः गजैः च अपि जनानाम् उपगच्चताम् → रथैरश्वैर्गजैः चापि जनानामुपगच्छताम्
+2.81	reset	word-split base re-set from IITK half-lines ({'iitk': 33, 'joined': 3})	
+2.81.4	fix	manual (see note)	चापि उक्त्वा → चाप्युक्त्वा
+2.82	reset	word-split base re-set from IITK half-lines ({'iitk': 71, 'iitk-global': 1})	
+2.83.12	reset-ce	half-line not in IITK; set from CE 2.77.12	मणि काराश्च ये केचित्कुम्भकाराश्च शोभनाः
+2.83.12	reset-ce	half-line not in IITK; set from CE 2.77.12	सूत्रकर्मकृतश्चैव ये च शस्त्रोपजीविनः
+2.83.25	reset-joined	half-line in neither IITK nor CE; sandhi joined by rule from the word-split base — CHECK	तस्य एवम् ब्रुवतः अमात्याः → तस्यैवम् ब्रुवतोऽमात्याः
+2.83	reset	word-split base re-set from IITK half-lines ({'iitk': 51, 'iitk-global': 1, 'ce': 2, 'joined': 1})	
+2.84	reset	word-split base re-set from IITK half-lines ({'iitk': 36})	
+2.84.3	fix	manual (see note)	सैष हि → स एष हि
+2.85	reset	word-split base re-set from IITK half-lines ({'iitk': 48})	
+2.86	reset	word-split base re-set from IITK half-lines ({'iitk': 52})	
+2.86.19	fix	manual (see note)	प्रासादम्पन्नां → प्रासादसम्पन्नां
+2.87.4	reset-joined	half-line in neither IITK nor CE; sandhi joined by rule from the word-split base — CHECK	भरतम् मुर्च्Cइतम् द्रुष्ट्वा विवर्णवदनो गुहः → भरतम् मुर्च्Cइतम् द्रुष्ट्वा विवर्णवदनो गुहः
+2.87.4	reset-joined	half-line in neither IITK nor CE; sandhi joined by rule from the word-split base — CHECK	बभूव व्यथितस्तत्र भूमिकम्पे यथा द्रुमः → बभूव व्यथितस्तत्र भूमिकंपे यथा द्रुमः
+2.87	reset	word-split base re-set from IITK half-lines ({'iitk': 50, 'joined': 2})	
+2.87.4	fix	manual (see note)	भरतं मुर्च्Cइतं द्रुष्ट्वा → भरतं मूर्च्छितं दृष्ट्वा
+2.88	reset	word-split base re-set from IITK half-lines ({'iitk': 62})	
+2.90.5	restored	the base has a commentator's note in place of the verse; verse taken from IITK	समागम्य वसिष्ठेन भरतेनाभिवादितः / अबुद्ध्यत महातेजास्सुतं दशरथस्य तम्
+2.90.21	fix	typo: base form unattested; IITK 2.90.21 = CE	समभिवर्द्धयन् → समभिवर्धयन्
+2.91.18	fix	typo: base form unattested; IITK 2.91.18 = CE	सार्द्धमाह्वये → सार्धमाह्वये
+2.91.31	fix	manual (see note)	तीजैर्बहुभिर्वृता → तीरजैर्बहुभिर्वृता
+2.91.37	fix	typo: base form unattested; IITK 2.91.38 = CE	सार्द्धमभ्यवर्तत → सार्धमभ्यवर्तत
+2.91.39	fix	typo: base form unattested; IITK 2.91.40 = CE	आनुपूर्व्यानिषेदुश्च → आनुपूर्व्यान्निषेदुश्च
+2.91.56	fix	typo: base form unattested; IITK 2.91.58 = CE	नमूः → चमूः
+2.91.63	fix	typo: base form unattested; IITK 2.91.65 = CE	प्रेष्याश्चेष्ट्यश्च → प्रेष्याश्चेट्यश्च
+2.91.72	fix	typo: base form unattested; IITK 2.91.74 = CE	दघ्नः → दध्नः
+2.92.10	fix	typo: base form unattested; IITK 2.92.10 = CE	भरतार्द्धतृतीयेषु → भरतार्धतृतीयेषु
+2.92.31	fix	typo: base form unattested; IITK 2.92.31 = CE	सेन्यं → सैन्यं
+2.92.39	fix	typo: base form unattested; IITK 2.92.39 = CE	सम्प्रहृष्टद्विजवाजियोधा → सम्प्रहृष्टद्विपवाजियोधा
+2.93.5	restored	the base has a commentator's note in place of the verse; verse taken from IITK	तुरङ्गौघैरवतता वारणैश्च महाजवैः / अनालक्ष्या चिरं कालं तस्मिन्काले बभूव भूः
+2.94.4	fix	typo: base form unattested; IITK 2.94.4 = CE	खमिवोद्विद्धैर्द्धातुमद्भिर्विभूषितम् → खमिवोद्विद्धैर्धातुमद्भिर्विभूषितम्
+2.95.19	fix	typo: base form unattested; IITK 2.95.19 = CE	रघुवंशवर्द्धनः → रघुवंशवर्धनः
+2.96.13	fix	typo: base form unattested; IITK 2.96.13 = CE	चेदमब्रीत् → चेदमब्रवीत्
+2.97.27	restored	the base has a commentator's note in place of the verse; verse taken from IITK	वृक्षाग्रादवरोह त्वं कुरु लक्ष्मण मद्वचः / इतीव रामो धर्मात्मा सौमित्रिं तमुवाच ह
+2.97.5	fix	typo: base form unattested; IITK 2.97.5 = CE	प्रतिश्रृणोमि → प्रतिशृणोमि
+2.97.30	fix	typo: base form unattested; IITK 2.97.30 = CE	अध्यर्द्धमिक्ष्वाकुचमूर्योजनं → अध्यर्धमिक्ष्वाकुचमूर्योजनं
+2.98.16	restored	the base has a commentator's note in place of the verse; verse taken from IITK	स गिरेश्चित्रकूटस्य सालमासाद्य पुष्पितम् / रामाश्रमगतस्याग्नेर्ददर्श ध्वजमुच्छ्रितम्
+2.98.11	fix	typo: base form unattested; IITK 2.98.11 = CE	कृतकत्या → कृतकृत्या
+2.99.1	fix	typo: base form unattested; IITK 2.99.1 = CE	शत्रुध्नमनुदर्शयन् → शत्रुघ्नमनुदर्शयन्
+2.99.20	fix	manual (see note)	रुक्मपृष्टष्ठैर् → रुक्मपृष्ठैर्
+2.99.21	fix	typo: base form unattested; IITK 2.99.21 = CE	सर्प्पैर्भोगवतीमिव → सर्पैर्भोगवतीमिव
+2.100.22	fix	manual (see note)	त्वया वा वाऽमात्यैर् → त्वया वा तव वामात्यैर्
+2.100.44	fix	typo: base form unattested; IITK 2.100.43 = CE	कच्चिच्चित्यशतैर्जुष्टः → कच्चिच्चैत्यशतैर्जुष्टः
+2.101.3	fix	typo: base form unattested; IITK 2.101.3 = CE	सार्द्धमयोध्यां → सार्धमयोध्यां
+2.104.8	fix	manual (see note)	राज्येनप मघवानिव → राज्येन मघवानिव
+2.105.25	fix	typo: base form unattested; IITK 2.105.25 = CE	हृष्यन्त्यृतुमखं → हृष्यन्त्यृतुमुखं
+2.105.27	fix	typo: base form unattested; IITK 2.105.27 = CE	घनानि → धनानि
+2.106.15	restored	the base has a commentator's note in place of the verse; verse taken from IITK	पितुर्हि समतिक्रान्तं पुत्रो यस्साधु मन्यते / तदपत्यं मतं लोके विपरीतमतोऽन्यथा
+2.106.32	fix	typo: base form unattested; IITK 2.106.32 = CE	सार्द्धमप्यहम् → सार्धमप्यहम्
+2.106.35	fix	typo: base form unattested; IITK 2.106.35 = CE	विंसज्ञाश्रुकलाश्च → विसञ्ज्ञाश्रुकलाश्च
+2.111.10	fix	typo: base form unattested; IITK 2.111.10 = CE	संवर्द्धनेन → संवर्धनेन
+2.113.18	fix	manual (see note)	आमतन्त्रयितु → आमन्त्रयितु
+2.114.6	fix	manual (see note)	रुग्णजवाजि → रुग्णगजवाजि
+2.117.14	fix	typo: base form unattested; IITK 2.117.15 = CE	श्रीघ्रमभिगच्छ → शीघ्रमभिगच्छ
+2.117.22	fix	typo: base form unattested; IITK 2.117.23 = CE	धनैवा → धनैर्वा
+2.118.20	fix	typo: base form unattested; IITK 2.118.20 = CE	श्रीविष्णुमव्ययम् → श्रीर्विष्णुमव्ययम्
+2.118.23	fix	typo: base form unattested; IITK 2.118.23 = CE	सीतासुपासीनामनसूया → सीतामुपासीनामनसूया
