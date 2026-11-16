@@ -14,3 +14,6 @@ Paths inside the scripts may point to the session scratchpad they were written i
   tools/write.py <k>; needs the Wikisource dump and IITK/CE downloads, which are not kept here).
   `logs/log_<k>.tsv` lists every reading changed against the base, with its witness; lines marked
   CHECK in log_2.tsv (Ayodhya 48–88) still want proofreading. `summ/` holds the sarga summaries.
+- `mahabharata/`: the Mahabharata (BORI critical edition, Smith's Devanagari e-text from GRETIL) in
+  books-src/mahabharata; `scripts/ce.py` parses the e-text (download not kept here), `sum/` holds the
+  adhyaya summaries per parva, PROGRESS.md the log.
