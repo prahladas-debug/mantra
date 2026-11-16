@@ -50,6 +50,7 @@ export function collectKeys(): string[] {
         }
   }
   keys.delete('');
+  keys.delete('en'); // tr('en', key) in the libraries: the language, not a string
   return [...keys].sort();
 }
 

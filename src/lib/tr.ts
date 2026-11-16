@@ -46,6 +46,10 @@ export const weekdayName = (lang: UiLang, w: number) => WEEKDAYS[lang][w];
 /** "Monday, 16 Nov 2026" / "ಸೋಮವಾರ, 16 ನವೆಂಬರ್ 2026". */
 export const longDate = (lang: UiLang, y: number, m: number, d: number, w: number) =>
   `${weekdayName(lang, w)}, ${d} ${monthName(lang, m, true)} ${y}`;
-/** "16 Nov" / "16 ನವೆಂಬರ್". */
-export const dayMonth = (lang: UiLang, m: number, d: number) => `${d} ${monthName(lang, m, true)}`;
+/**
+ * "16 Nov" in English and Hindi; month first in Kannada, Telugu, Tamil and Malayalam ("ನವೆಂಬರ್ 16"),
+ * as they usually write it, so a case ending joins the number ("ನವೆಂಬರ್ 16ರವರೆಗೆ") and not the month.
+ */
+export const dayMonth = (lang: UiLang, m: number, d: number) =>
+  lang === 'en' || lang === 'hi' ? `${d} ${monthName(lang, m, true)}` : `${monthName(lang, m, true)} ${d}`;
 

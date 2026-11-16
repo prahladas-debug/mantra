@@ -581,7 +581,9 @@ export function formatTime(t: Date, city: City, day?: string, lang: UiLang = 'en
   if (!day) return s;
   const other = isoDate(loc.getUTCFullYear(), loc.getUTCMonth() + 1, loc.getUTCDate());
   if (other === day) return s;
-  return `${s}, ${dayMonth(lang, loc.getUTCMonth() + 1, loc.getUTCDate())}`;
+  const dm = dayMonth(lang, loc.getUTCMonth() + 1, loc.getUTCDate());
+  // Other languages put the date first, so endings such as "till" join the time's digits.
+  return lang === 'en' ? `${s}, ${dm}` : `${dm} ${s}`;
 }
 
 const sunCache = new Map<string, number>();

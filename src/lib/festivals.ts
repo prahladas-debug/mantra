@@ -334,7 +334,7 @@ const RULES: TithiRule[] = [
   { key: 'ratha-saptami', name: 'रथसप्तमी', en: 'Ratha Saptamī', masa: 10, tithi: 7, kala: 'udaya', textId: 'aditya-hridayam' },
   { key: 'madhva-navami', name: 'मध्वनवमी', en: 'Madhva Navamī', masa: 10, tithi: 9, kala: 'udaya', textId: 'dvadasha-stotra-01' },
   { key: 'maha-shivaratri', name: 'महाशिवरात्रि', en: 'Mahāśivarātri', masa: 10, tithi: 29, kala: 'nishitha', textId: 'lingashtakam' },
-  { key: 'holika', name: 'होलिका · कामदहन', en: 'Holikā dahana · Kāma dahana (Phālguna pūrṇimā)', masa: 11, tithi: 15, kala: 'pradosha', note: 'Pūrṇimā at pradoṣa, avoiding bhadrā (viṣṭi karaṇa): see holikaDay. Rangavalī Holī (colours) is the next day.' },
+  { key: 'holika', name: 'होलिका · कामदहन', en: 'Holikā dahana · Kāma dahana (Phālguna pūrṇimā)', masa: 11, tithi: 15, kala: 'pradosha', note: 'Pūrṇimā at pradoṣa, avoiding bhadrā (viṣṭi karaṇa). Rangavalī Holī (colours) is the next day.' },
   ...madhvaRules(),
 ];
 

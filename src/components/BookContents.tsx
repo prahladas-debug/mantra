@@ -31,7 +31,9 @@ const MAX_FILTERED = 100;
  */
 export function BookContents({ category, work }: { category: Category; work: BookWork }) {
   const { theme, settings, recent } = useSettings();
-  const { tr } = useI18n();
+  const { lang: ui, tr } = useI18n();
+  const sarga = work.unitLabel === 'sarga';
+  const workTitle = ui === 'en' ? work.titleEn : translit(work.title, settings.script);
   const font = scriptFont(settings.script, settings.bookFonts);
   const [q, setQ] = useState('');
 
@@ -110,7 +112,7 @@ export function BookContents({ category, work }: { category: Category; work: Boo
           <TextInput
             value={q}
             onChangeText={setQ}
-            placeholder={tr('Find a {unit} in {title}', { unit: work.unitLabel, title: work.titleEn })}
+            placeholder={work.unitLabel === 'sarga' ? tr('Find a sarga in {title}', { title: workTitle }) : tr('Find an adhyaya in {title}', { title: workTitle })}
             placeholderTextColor={theme.textMuted}
             autoCorrect={false}
             style={{ flex: 1, color: theme.text, fontSize: 15, paddingVertical: 9, paddingHorizontal: 8 }}
@@ -133,8 +135,10 @@ export function BookContents({ category, work }: { category: Category; work: Boo
           const ready = count > 0;
           const expanded = filtering || (open.has(p.part) && !linked);
           const sizes = [
-            p.nameEn,
-            !linked && count < p.unitCount ? tr('{count} of {total} {unit}s', { count, total: p.unitCount, unit: work.unitLabel }) : tr('{n} {unit}s', { n: p.unitCount, unit: work.unitLabel }),
+            ui === 'en' ? p.nameEn : translit(p.name, settings.script),
+            !linked && count < p.unitCount
+              ? tr(sarga ? '{count} of {total} sargas' : '{count} of {total} adhyayas', { count, total: p.unitCount })
+              : tr(sarga ? '{n} sargas' : '{n} adhyayas', { n: p.unitCount }),
             tr('{n} verses', { n: p.verseCount.toLocaleString('en-IN') }),
           ];
           const summary = p.summary[lang] ?? p.summary.en;

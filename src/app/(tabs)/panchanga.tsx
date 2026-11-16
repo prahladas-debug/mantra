@@ -15,7 +15,7 @@ import { plain } from '../../lib/plain';
 import { sauraDay, sauraRtu, sauraSankalpa } from '../../lib/sauramana';
 import { useClockTick, useSettings } from '../../lib/settings';
 import { translit } from '../../lib/transliterate';
-import { useI18n } from '../../lib/i18n';
+import { T, useI18n } from '../../lib/i18n';
 
 const ISO = /^\d{4}-\d{2}-\d{2}$/;
 
@@ -94,43 +94,43 @@ export default function PanchangaScreen() {
   // The five limbs, each with every element from sunrise to the next sunrise and its end time.
   const until = (spans: Span[]) => spans.map((s) => `${t(s.name)} · ${tr('till {time}', { time: tm(s.end) })}`).join('\n');
   const limbs: Row[] = [
-    [['Tithi', 'तिथिः'], until(p.tithis.map((s) => ({ ...s, name: `${s.index <= 15 ? 'शुक्ल' : 'कृष्ण'} ${s.name}` })))],
-    [['Nakshatra', 'नक्षत्रम्'], until(p.nakshatras)],
-    [['Yoga', 'योगः'], until(p.yogas)],
-    [['Karana', 'करणम्'], until(p.karanas)],
-    [['Weekday', 'वासरः'], t(p.vasara)],
+    [[T('Tithi'), 'तिथिः'], until(p.tithis.map((s) => ({ ...s, name: `${s.index <= 15 ? 'शुक्ल' : 'कृष्ण'} ${s.name}` })))],
+    [[T('Nakshatra'), 'नक्षत्रम्'], until(p.nakshatras)],
+    [[T('Yoga'), 'योगः'], until(p.yogas)],
+    [[T('Karana'), 'करणम्'], until(p.karanas)],
+    [[T('Weekday'), 'वासरः'], t(p.vasara)],
   ];
   const lunarMasa = t(`${p.adhika ? 'अधिक ' : ''}${p.masa}`);
   const year: Row[] = [
-    [['Year', 'संवत्सरः'], t(p.samvatsara)],
-    [['Ayana', 'अयनम्'], t(p.ayana)],
-    [['Season', 'ऋतुः'], t(mode === 'saura' ? sauraRtu(saura.rasi) : p.rtu)],
+    [[T('Year'), 'संवत्सरः'], t(p.samvatsara)],
+    [[T('Ayana'), 'अयनम्'], t(p.ayana)],
+    [[T('Season'), 'ऋतुः'], t(mode === 'saura' ? sauraRtu(saura.rasi) : p.rtu)],
     ...(mode === 'saura'
       ? ([
-          [['Solar month', 'सौरमासः'], `${t(saura.name)} ${saura.day}\n${plain(saura.tulu)} ${saura.day} (${tr('Tulu')})`],
-          [['Lunar month', 'चान्द्रमासः'], lunarMasa],
+          [[T('Solar month'), 'सौरमासः'], `${t(saura.name)} ${saura.day}\n${plain(saura.tulu)} ${saura.day} (${tr('Tulu')})`],
+          [[T('Lunar month'), 'चान्द्रमासः'], lunarMasa],
         ] as Row[])
       : ([
-          [['Month', 'मासः'], lunarMasa],
-          [['Solar month', 'सौरमासः'], `${t(saura.name)} ${saura.day}`],
+          [[T('Month'), 'मासः'], lunarMasa],
+          [[T('Solar month'), 'सौरमासः'], `${t(saura.name)} ${saura.day}`],
         ] as Row[])),
-    [['Paksha', 'पक्षः'], t(p.paksha)],
+    [[T('Paksha'), 'पक्षः'], t(p.paksha)],
   ];
   const sunMoon: Row[] = [
-    [['Sunrise', 'सूर्योदयः'], visibleRise ? `${tm(p.sunrise)}\n${tr('visible {time}', { time: tm(visibleRise) })}` : tm(p.sunrise)],
-    [['Sunset', 'सूर्यास्तः'], tm(p.sunset)],
-    [['Moonrise', 'चन्द्रोदयः'], moonrise === null ? tr('None before the next sunrise') : tm(fromJulian(moonrise))],
-    [['Sun sign', 'सूर्यराशिः'], t(p.sunRashi)],
-    [['Moon sign', 'चन्द्रराशिः'], until(p.moonRashis)],
+    [[T('Sunrise'), 'सूर्योदयः'], visibleRise ? `${tm(p.sunrise)}\n${tr('visible sunrise {time}', { time: tm(visibleRise) })}` : tm(p.sunrise)],
+    [[T('Sunset'), 'सूर्यास्तः'], tm(p.sunset)],
+    [[T('Moonrise'), 'चन्द्रोदयः'], moonrise === null ? tr('None before the next sunrise') : tm(fromJulian(moonrise))],
+    [[T('Sun sign'), 'सूर्यराशिः'], t(p.sunRashi)],
+    [[T('Moon sign'), 'चन्द्रराशिः'], until(p.moonRashis)],
   ];
   const span = (s: [Date, Date]) => `${tm(s[0])} – ${tm(s[1])}`;
   const parana = festivalsBetween(city, addDays(date, -1), addDays(date, -1), rule, mode, start, method).find((f) => f.kind === 'ekadashi' && f.parana?.date === date)?.parana;
   const times: Row[] = [
-    ...(parana ? ([[['Parana (break the fast)', 'पारणम्'], `${tm(parana.start)} – ${tm(parana.end)}${parana.note ? `\n${paranaNote(parana, city, lang)}` : ''}`, 'good']] as Row[]) : []),
-    [['Abhijit muhurta', 'अभिजित्'], `${span(p.abhijit)}${p.weekday === 3 ? `\n${tr('(not used on Wednesdays)')}` : ''}`, 'good'],
-    [['Rahu kala', 'राहुकालः'], span(p.rahuKala), 'avoid'],
-    [['Yamaganda', 'यमगण्डः'], span(p.yamaganda), 'avoid'],
-    [['Gulika kala', 'गुलिककालः'], span(p.gulika), 'avoid'],
+    ...(parana ? ([[[T('Parana (break the fast)'), 'पारणम्'], `${tm(parana.start)} – ${tm(parana.end)}${parana.note ? `\n${paranaNote(parana, city, lang)}` : ''}`, 'good']] as Row[]) : []),
+    [[T('Abhijit muhurta'), 'अभिजित्'], `${span(p.abhijit)}${p.weekday === 3 ? `\n${tr('(not used on Wednesdays)')}` : ''}`, 'good'],
+    [[T('Rahu kala'), 'राहुकालः'], span(p.rahuKala), 'avoid'],
+    [[T('Yamaganda'), 'यमगण्डः'], span(p.yamaganda), 'avoid'],
+    [[T('Gulika kala'), 'गुलिककालः'], span(p.gulika), 'avoid'],
   ];
 
   return (
