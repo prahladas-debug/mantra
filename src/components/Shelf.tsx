@@ -2,6 +2,7 @@ import { Ionicons } from '@expo/vector-icons';
 import { router, type Href } from 'expo-router';
 import { Image, ImageBackground, Pressable, StyleSheet, Text, View, type ImageSourcePropType } from 'react-native';
 import { categoryById, categoryCounts, getMantraInfo, type CategoryId } from '../data';
+import { bookWork, isBookWork } from '../data/books';
 import type { DeityGroup } from '../lib/deities';
 import { scriptFont } from '../lib/fonts';
 import { categoryTitle } from '../lib/labels';
@@ -34,6 +35,8 @@ export const GREAT_WORKS: GreatWork[] = [
   { category: 'gita', titleEn: 'Bhagavad Gita', size: '18 chapters', about: '700 verses', lines: ['भगवद्गीता'], own: { kannada: ['ಭಗವದ್ಗೀತೆ'], telugu: ['భగవద్గీత'] }, cloth: '#7E2A12', edge: '#A8431F' },
   { textId: 'vishnu-sahasranama', titleEn: 'Vishnu Sahasranama', size: '1000 names', lines: ['विष्णु', 'सहस्रनाम'], cloth: '#1E3A64', edge: '#2F558C' },
   { category: 'sundarakanda', titleEn: 'Sundarakanda', size: '68 sargas', about: 'Ramayana', lines: ['सुन्दर', 'काण्ड'], cloth: '#2C5638', edge: '#3F7650' },
+  { category: 'ramayana', titleEn: 'Valmiki Ramayana', size: '7 kandas', about: '24,000 verses', lines: ['वाल्मीकि', 'रामायण'], cloth: '#3F4A17', edge: '#5C6B22' },
+  { category: 'mahabharata', titleEn: 'Mahabharata', size: '18 parvas', about: 'Vyasa', lines: ['महाभारतम्'], own: { kannada: ['ಮಹಾಭಾರತ'], telugu: ['మహాభారతం'], tamil: ['மகாபாரதம்'], malayalam: ['മഹാഭാരതം'], gujarati: ['મહાભારત'], bengali: ['মহাভারত'], oriya: ['ମହାଭାରତ'] }, cloth: '#4E1E18', edge: '#7A3328' },
   { category: 'harikathamrutasara', titleEn: 'Harikathamrutasara', size: '32 sandhis', about: 'Jagannatha Dasa', lines: ['हरिकथामृत', 'सार'], cloth: '#1D5458', edge: '#2E7479', tradition: 'madhva' },
   { category: 'sumadhvavijaya', titleEn: 'Sumadhva Vijaya', size: '16 sargas', about: 'life of Madhva', lines: ['सुमध्व', 'विजय'], cloth: '#5B3A1C', edge: '#7E542C', tradition: 'madhva' },
   { textId: 'vayu-stuti', titleEn: 'Hari Vayu Stuti', size: '41 verses', about: 'Trivikrama Pandita', lines: ['हरिवायु', 'स्तुति'], cloth: '#8A4B12', edge: '#B0691F', tradition: 'madhva' },
@@ -71,6 +74,8 @@ const COVER_ART: Record<string, ImageSourcePropType> = {
   gita: require('../../assets/covers/gita.jpg'),
   'vishnu-sahasranama': require('../../assets/covers/vishnu-sahasranama.jpg'),
   sundarakanda: require('../../assets/covers/sundarakanda.jpg'),
+  ramayana: require('../../assets/covers/ramayana.jpg'),
+  mahabharata: require('../../assets/covers/mahabharata.jpg'),
   harikathamrutasara: require('../../assets/covers/harikathamrutasara.jpg'),
   sumadhvavijaya: require('../../assets/covers/sumadhvavijaya.jpg'),
   'vayu-stuti': require('../../assets/covers/vayu-stuti.jpg'),
@@ -83,6 +88,8 @@ const COVER_ART: Record<string, ImageSourcePropType> = {
 export function BookCover({ work, width = 156, still }: { work: GreatWork; width?: number; /** Shown on the work's own page: not a link. */ still?: boolean }) {
   const { settings } = useSettings();
   if (work.textId && !getMantraInfo(work.textId)) return null;
+  // A long work shows once its book.json is in (scripts/build-books.ts), even before its sargas are.
+  if (work.category && isBookWork(work.category) && !bookWork(work.category)) return null;
   const font = scriptFont(settings.script, settings.bookFonts);
   const small = width < 140;
   const height = Math.round(width * 1.4);
@@ -130,6 +137,8 @@ export function BookCover({ work, width = 156, still }: { work: GreatWork; width
 const BANNER_ART: Partial<Record<CategoryId, ImageSourcePropType>> = {
   gita: require('../../assets/covers/gita-banner.jpg'),
   sundarakanda: require('../../assets/covers/sundarakanda-banner.jpg'),
+  ramayana: require('../../assets/covers/ramayana-banner.jpg'),
+  mahabharata: require('../../assets/covers/mahabharata-banner.jpg'),
   harikathamrutasara: require('../../assets/covers/harikathamrutasara-banner.jpg'),
   sumadhvavijaya: require('../../assets/covers/sumadhvavijaya-banner.jpg'),
   devimahatmya: require('../../assets/covers/devimahatmya-banner.jpg'),
@@ -234,6 +243,8 @@ export const CATEGORY_ICONS: Record<CategoryId, Icon> = {
   devimahatmya: 'book-outline',
   sumadhvavijaya: 'book-outline',
   harikathamrutasara: 'book-outline',
+  ramayana: 'book-outline',
+  mahabharata: 'book-outline',
 };
 
 /** A section of the library as a tile: icon, name in the reader's script, English name and size. */

@@ -49,6 +49,8 @@ const CATEGORY_LABELS: Record<CategoryId, Labels> = {
     oriya: 'ଭଗବଦ୍ ଗୀତା',
   },
   sundarakanda: { kannada: 'ಸುಂದರಕಾಂಡ', telugu: 'సుందరకాండ', tamil: 'சுந்தர காண்டம்', malayalam: 'സുന്ദരകാണ്ഡം', gujarati: 'સુંદરકાંડ', bengali: 'সুন্দরকাণ্ড', oriya: 'ସୁନ୍ଦରକାଣ୍ଡ' },
+  ramayana: { kannada: 'ವಾಲ್ಮೀಕಿ ರಾಮಾಯಣ', telugu: 'వాల్మీకి రామాయణం', tamil: 'வால்மீகி ராமாயணம்', malayalam: 'വാൽമീകി രാമായണം', gujarati: 'વાલ્મીકિ રામાયણ', bengali: 'বাল্মীকি রামায়ণ', oriya: 'ବାଲ୍ମୀକି ରାମାୟଣ' },
+  mahabharata: { kannada: 'ಮಹಾಭಾರತ', telugu: 'మహాభారతం', tamil: 'மகாபாரதம்', malayalam: 'മഹാഭാരതം', gujarati: 'મહાભારત', bengali: 'মহাভারত', oriya: 'ମହାଭାରତ' },
   devimahatmya: { kannada: 'ದೇವೀಮಾಹಾತ್ಮ್ಯ', telugu: 'దేవీమాహాత్మ్యం', tamil: 'தேவீ மாஹாத்மியம்', malayalam: 'ദേവീമാഹാത്മ്യം', gujarati: 'દેવીમાહાત્મ્ય', bengali: 'দেবীমাহাত্ম্য', oriya: 'ଦେବୀମାହାତ୍ମ୍ୟ' },
   harikathamrutasara: { kannada: 'ಹರಿಕಥಾಮೃತಸಾರ', telugu: 'హరికథామృతసార', tamil: 'ஹரிகதாம்ருத ஸாரம்', malayalam: 'ഹരികഥാമൃതസാര', gujarati: 'હરિકથામૃતસાર', bengali: 'হরিকথামৃতসার', oriya: 'ହରିକଥାମୃତସାର' },
   sumadhvavijaya: { kannada: 'ಸುಮಧ್ವವಿಜಯ', telugu: 'సుమధ్వవిజయం', tamil: 'ஸுமத்வ விஜயம்', malayalam: 'സുമധ്വവിജയം', gujarati: 'સુમધ્વવિજય', bengali: 'সুমধ্ববিজয়', oriya: 'ସୁମଧ୍ୱବିଜୟ' },

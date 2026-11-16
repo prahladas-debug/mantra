@@ -1,13 +1,16 @@
 import Constants from 'expo-constants';
 import { ScrollView, Text } from 'react-native';
 import { ALL_MANTRAS, verseCount } from '../data';
+import { BOOKS } from '../data/books';
 import { APP_MOTTO, APP_TAGLINE } from '../lib/labels';
 import { useSettings } from '../lib/settings';
 import { translit } from '../lib/transliterate';
 
 export default function About() {
   const { theme, settings } = useSettings();
-  const total = ALL_MANTRAS.reduce((n, m) => n + verseCount(m), 0);
+  // The sargas/adhyayas of the long works count as texts too (from the manifest).
+  const bookUnits = BOOKS.flatMap((w) => w.parts.flatMap((p) => p.units));
+  const total = ALL_MANTRAS.reduce((n, m) => n + verseCount(m), 0) + bookUnits.reduce((n, u) => n + u.verses, 0);
   const p = { color: theme.text, fontSize: 16, lineHeight: 24, marginBottom: 14 };
   const h = { color: theme.accent, fontSize: 18, fontWeight: '700' as const, marginTop: 8, marginBottom: 8 };
 
@@ -25,7 +28,7 @@ export default function About() {
         English (IAST).
       </Text>
       <Text style={p}>
-        {ALL_MANTRAS.length} texts · {total} verses · works fully offline.
+        {ALL_MANTRAS.length + bookUnits.length} texts · {total} verses · works fully offline.
       </Text>
       <Text style={h}>How the scripts work</Text>
       <Text style={p}>

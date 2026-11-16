@@ -2,10 +2,12 @@ import { Ionicons } from '@expo/vector-icons';
 import { Stack, useLocalSearchParams } from 'expo-router';
 import { useState } from 'react';
 import { Pressable, ScrollView, Text, TextInput, View } from 'react-native';
+import { BookContents } from '../../components/BookContents';
 import { BookBanner } from '../../components/Shelf';
 import { EntryCard } from '../../components/TextList';
 import { Chip } from '../../components/ui';
 import { categoryById, mantrasInCategory, type CategoryId } from '../../data';
+import { bookWork } from '../../data/books';
 import { scriptFont } from '../../lib/fonts';
 import { BOOK_CATEGORIES, groupsFor } from '../../lib/groups';
 import { categoryTitle } from '../../lib/labels';
@@ -34,6 +36,17 @@ export default function CategoryScreen() {
   const opening = first?.sections.flatMap((x) => x.verses).find((v) => v.n !== undefined)?.text.split('\n').slice(0, 2).join('\n');
 
   if (!category) return <Stack.Screen options={{ title: 'Not found' }} />;
+
+  // The Ramayana and the Mahabharata: kandas/parvas and their sargas/adhyayas, from the manifest.
+  const work = bookWork(category.id);
+  if (work) {
+    return (
+      <ScrollView style={{ backgroundColor: theme.bg }} contentContainerStyle={{ paddingBottom: 32 }} keyboardShouldPersistTaps="handled">
+        <Stack.Screen options={{ title: category.titleEn }} />
+        <BookContents category={category} work={work} />
+      </ScrollView>
+    );
+  }
 
   return (
     <ScrollView style={{ backgroundColor: theme.bg }} contentContainerStyle={{ paddingBottom: 32 }} keyboardShouldPersistTaps="handled">

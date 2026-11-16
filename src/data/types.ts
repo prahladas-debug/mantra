@@ -22,7 +22,10 @@ export type CategoryId =
   | 'puja'
   | 'homa'
   | 'samskara'
-  | 'kirtana';
+  | 'kirtana'
+  /** The long works read from bundled assets one sarga/adhyaya at a time (src/lib/books.ts). */
+  | 'ramayana'
+  | 'mahabharata';
 
 export type Difficulty = 'easy' | 'medium' | 'advanced';
 
@@ -120,6 +123,11 @@ export interface Mantra {
   /** Shown to readers when present (e.g. which verses are still to be added). */
   contentNote?: string;
   sections: Section[];
+  /**
+   * Number of verses, when `sections` is not loaded: a sarga or adhyaya of the Ramayana or
+   * Mahabharata is listed from the books manifest and its text read only when opened.
+   */
+  verseTotal?: number;
 }
 
 export interface Category {
@@ -138,4 +146,72 @@ export interface MeaningPack {
   /** en/kn packs carry meanings for the long works (Gītā, Sundarakāṇḍa …) kept out of the text files. */
   lang: MeaningLang;
   texts: Record<string, { summary?: string; verses: Record<string, string> }>;
+}
+
+// ---------- the long works (Valmiki Ramayana, Mahabharata) ----------
+
+/** A meaning or summary in each language it has been written in. */
+export type LangText = Partial<Record<MeaningLang, string>>;
+
+/** The ids of the works kept as bundled assets, one file per sarga/adhyaya. */
+export type BookWorkId = 'ramayana' | 'mahabharata';
+
+/** One sarga/adhyaya in the generated manifest (src/data/books.generated.ts). */
+export interface BookUnitEntry {
+  /** e.g. 'ramayana-1-001'. */
+  id: string;
+  unit: number;
+  /** Devanagari title as in the source file (e.g. 'प्रथमः सर्गः'). */
+  title: string;
+  titleEn: string;
+  /** Numbered verses. */
+  verses: number;
+  /** English only: the five-language summaries are in the unit's asset, read when it is opened. */
+  summary: LangText;
+  /** The asset module (expo-asset), required lazily so nothing is loaded until a unit is opened. */
+  asset: () => number;
+}
+
+/** A part of a long work that is an existing text or section of the library. */
+export interface BookLink {
+  /** First and last unit of this part that the linked texts stand for. */
+  from: number;
+  to: number;
+  /** A whole category (e.g. 'sundarakanda', 'gita'), read in its texts' order. */
+  category?: CategoryId;
+  /** Or a single text id (e.g. 'vishnu-sahasranama'). */
+  text?: string;
+}
+
+export interface BookPartEntry {
+  part: number;
+  /** Folder under books-src/<work>/ and assets/books/<work>/, e.g. '1-bala'. */
+  dir: string;
+  name: string;
+  nameEn: string;
+  /** Locative of the name for titles ('बालकाण्डे'). */
+  nameLoc: string;
+  /** Units the part has in the edition (all of them, whether written yet or not). */
+  unitCount: number;
+  /** Verses the part has in the edition (from book.json). */
+  verseCount: number;
+  summary: LangText;
+  /** Units of this part that are existing texts of the library. */
+  links: BookLink[];
+  /** Units written so far, in order. */
+  units: BookUnitEntry[];
+}
+
+export interface BookWork {
+  work: BookWorkId;
+  title: string;
+  titleEn: string;
+  /** "kanda"/"sarga" or "parva"/"adhyaya", for English labels. */
+  partLabel: string;
+  unitLabel: string;
+  edition: string;
+  sources: string[];
+  /** First two lines of the opening verse, shown on the work's page. */
+  opening?: string;
+  parts: BookPartEntry[];
 }

@@ -3,6 +3,7 @@ import { Ionicons } from '@expo/vector-icons';
 import { router, type Href } from 'expo-router';
 import { Pressable, StyleSheet, Text, View } from 'react-native';
 import { categoryById, getMantraInfo, mantrasInCategory, scriptFor, type Mantra, type Section, type Verse } from '../../data';
+import { bookNeighbours, isBookUnit, wholePartNeighbours } from '../../data/books';
 import { leading, meaningFont, scriptFont } from '../../lib/fonts';
 import { MEANING_BUTTON, meaningsToShow, primaryLang, summaryFor } from '../../lib/meaning';
 import { planStatus } from '../../lib/plans';
@@ -299,8 +300,20 @@ export function SeriesNav({ mantra }: { mantra: Mantra }) {
   const seriesId = mantra.series ?? mantra.category;
   const series = mantrasInCategory(mantra.category).filter((m) => m.order !== undefined && (m.series ?? m.category) === seriesId);
   const i = series.findIndex((m) => m.id === mantra.id);
-  const prev = series[i - 1];
-  const next = series[i + 1];
+  let prev: Mantra | undefined = series[i - 1];
+  let next: Mantra | undefined = series[i + 1];
+  // The long works: sarga after sarga across the kandas; from the ends of the Sundarakanda
+  // (a section of the library and the Ramayana's fifth kanda) on to the kandas around it.
+  const info = (id?: string) => (id ? getMantraInfo(id) : undefined);
+  if (isBookUnit(mantra.id)) {
+    const nb = bookNeighbours(mantra.id);
+    prev = info(nb?.prev);
+    next = info(nb?.next);
+  } else {
+    const nb = wholePartNeighbours(mantra.id);
+    prev ??= info(nb?.prev);
+    next ??= info(nb?.next);
+  }
   const button = (m: Mantra, label: string, align: 'flex-start' | 'flex-end') => (
     <Pressable
       key={m.id}

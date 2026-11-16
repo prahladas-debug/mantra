@@ -66,6 +66,29 @@ const E = {
     <path d="M100 104 C 120 88, 148 84, 170 92 V56 C 148 48, 120 52, 100 68 Z" ${line(4.5)}/>
     <path d="M44 68 C 58 64, 74 66, 88 74 M44 80 C 58 76, 74 78, 88 86 M112 74 C 126 66, 142 64, 156 68 M112 86 C 126 78, 142 76, 156 80" ${line(2.2)}/>
     <path d="M100 40 C 107 30, 106 22, 100 14 C 94 22, 93 30, 100 40 Z" fill="${G}"/>`,
+  // Valmiki Ramayana: Rama's bow (Kodanda) with three arrows
+  bow: () => {
+    const arrow = (a) => `<g transform="rotate(${a} 72 100)">
+      <path d="M72 100 H176" ${line(3.5)}/>
+      <path d="M190 100 L172 91 L176 100 L172 109 Z" fill="${G}"/>
+      <path d="M84 100 l-9 -9 M92 100 l-9 -9 M84 100 l-9 9 M92 100 l-9 9" ${line(2.4)}/>
+    </g>`;
+    return `
+    ${[-24, 0, 24].map(arrow).join('')}
+    <path d="M74 16 C 22 54, 22 146, 74 184" ${line(6.5)}/>
+    <path d="M74 16 C 80 12, 88 14, 88 22 M74 184 C 80 188, 88 186, 88 178" ${line(4)}/>
+    <path d="M74 16 L72 100 L74 184" ${line(1.8)}/>
+    <rect x="28" y="86" width="16" height="28" rx="5" fill="${G}"/>
+    <path d="M30 74 h12 M30 126 h12" ${line(3)}/>`;
+  },
+  // Mahabharata: the chariot wheel
+  wheel: () => `
+    <circle cx="100" cy="100" r="84" ${line(7)}/>
+    <circle cx="100" cy="100" r="70" ${line(2.5)}/>
+    ${Array.from({ length: 24 }, (_, i) => { const a = (i * 15 * Math.PI) / 180; return `<circle cx="${(100 + 77 * Math.cos(a)).toFixed(1)}" cy="${(100 + 77 * Math.sin(a)).toFixed(1)}" r="2.6" fill="${G}"/>`; }).join('')}
+    ${Array.from({ length: 12 }, (_, i) => `<path d="M100 82 V30" ${line(4)} transform="rotate(${i * 30} 100 100)"/><circle cx="100" cy="46" r="3.4" fill="${G}" transform="rotate(${i * 30} 100 100)"/>`).join('')}
+    <circle cx="100" cy="100" r="18" ${line(4.5)}/>
+    <circle cx="100" cy="100" r="7" fill="${G}"/>`,
   // Vayu: a banner in the wind
   flag: () => `
     <path d="M62 24 V180" ${line(5.5)}/><circle cx="62" cy="20" r="6" fill="${G}"/>
@@ -181,6 +204,8 @@ const COVERS = [
   { id: 'gita', top: '#A8401B', bottom: '#63190A', emblem: E.flute() },
   { id: 'vishnu-sahasranama', top: '#2A4F86', bottom: '#12264A', emblem: E.vishnu() },
   { id: 'sundarakanda', top: '#37714A', bottom: '#173A24', emblem: E.gada(true) },
+  { id: 'ramayana', top: '#66752A', bottom: '#2E380D', emblem: E.bow() },
+  { id: 'mahabharata', top: '#7A3328', bottom: '#3A110C', emblem: E.wheel() },
   { id: 'harikathamrutasara', top: '#267177', bottom: '#0F3B40', emblem: E.tambura() },
   { id: 'sumadhvavijaya', top: '#7E5226', bottom: '#412710', emblem: E.book() },
   { id: 'vayu-stuti', top: '#B4691C', bottom: '#6A3608', emblem: E.flag() },
@@ -209,10 +234,10 @@ const DISCS = [
   };
   const root = path.join(__dirname, '..', '..');
   for (const c of COVERS) await shot(cover(c), path.join(root, 'covers', `${c.id}.jpg`), W, H, false);
-  for (const c of COVERS.filter((c) => ['gita', 'sundarakanda', 'harikathamrutasara', 'sumadhvavijaya', 'devimahatmya'].includes(c.id))) await shot(banner(c), path.join(root, 'covers', `${c.id}-banner.jpg`), BW, BH, false);
+  for (const c of COVERS.filter((c) => ['gita', 'sundarakanda', 'ramayana', 'mahabharata', 'harikathamrutasara', 'sumadhvavijaya', 'devimahatmya'].includes(c.id))) await shot(banner(c), path.join(root, 'covers', `${c.id}-banner.jpg`), BW, BH, false);
   for (const d of DISCS) await shot(disc(d), path.join(root, 'deities', `${d.id}.png`), 240, 240, true);
   // contact sheet for checking the drawings
-  const sheet = `<div style="zoom:0.6">${banner(COVERS[0])}${banner(COVERS[3])}</div>` + `<div style="display:flex;flex-wrap:wrap;gap:8px;background:#fff9f0;padding:8px;width:1180px">${COVERS.map((c) => `<div style="zoom:0.5">${cover(c)}</div>`).join('')}</div><div style="display:flex;gap:8px;background:#fff9f0;padding:8px">${DISCS.map((d) => `<div style="zoom:0.55">${disc(d)}</div>`).join('')}</div>`;
+  const sheet = `<div style="zoom:0.6">${banner(COVERS[0])}${banner(COVERS[3])}${banner(COVERS[4])}</div>` + `<div style="display:flex;flex-wrap:wrap;gap:8px;background:#fff9f0;padding:8px;width:1180px">${COVERS.map((c) => `<div style="zoom:0.5">${cover(c)}</div>`).join('')}</div><div style="display:flex;gap:8px;background:#fff9f0;padding:8px">${DISCS.map((d) => `<div style="zoom:0.55">${disc(d)}</div>`).join('')}</div>`;
   await p.setViewportSize({ width: 1200, height: 900 });
   await p.setContent(`<html><body style="margin:0">${sheet}</body></html>`);
   if (process.argv[2]) await p.screenshot({ path: process.argv[2], fullPage: true });

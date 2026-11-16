@@ -20,6 +20,18 @@ export const CATEGORIES: Category[] = [
     description: 'Valmiki Ramayana, Sundarakanda, sarga by sarga for parayana.',
   },
   {
+    id: 'ramayana',
+    title: 'वाल्मीकि रामायणम्',
+    titleEn: 'Valmiki Ramayana',
+    description: 'The Adi Kavya of Valmiki, kanda by kanda and sarga by sarga, in the Southern recension.',
+  },
+  {
+    id: 'mahabharata',
+    title: 'महाभारतम्',
+    titleEn: 'Mahabharata',
+    description: 'Vyasa’s epic, parva by parva and adhyaya by adhyaya. The Bhagavad Gita and Vishnu Sahasranama open in their own books.',
+  },
+  {
     id: 'devimahatmya',
     title: 'देवीमाहात्म्यम्',
     titleEn: 'Devi Mahatmyam',

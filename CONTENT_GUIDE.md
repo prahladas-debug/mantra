@@ -60,3 +60,37 @@ Each verse can carry `meaning: { en: '…', kn: '…' }`; each text can carry
 6. **Uncertain verses:** if you cannot give a confident meaning, leave that
    verse without `meaning` rather than guess, and list it in your report.
 7. Short items (speaker lines like अर्जुन उवाच, colophons, ॐ) need no meaning.
+
+## Long works (Valmiki Ramayana, Mahabharata)
+
+These are too big for the JS bundle, so each sarga/adhyaya is a JSON file that ships as an asset
+and is read only when it is opened (`src/lib/books.ts`).
+
+- Sources: `books-src/<work>/book.json` (the work) and `books-src/<work>/<n>-<name>/<NNN>.json`
+  (one unit), e.g. `books-src/ramayana/1-bala/001.json`, `books-src/mahabharata/05-udyoga/012.json`.
+  `books-src/ramayana/` holds a complete example of both.
+- `npx tsx scripts/build-books.ts` (also run by `npm test`) validates them and writes
+  `assets/books/**.book` and `src/data/books.generated.ts`. Never edit those by hand; commit them
+  with the sources. `--verbose` lists every half-verse that does not scan as anuṣṭubh (a warning,
+  not an error: report it, don't "fix" it).
+- Unit file: `id` is `<work>-<part>-<NNN>` (`ramayana-2-001`); `work`, `part`, `unit` match the
+  path; `partName`/`partNameEn` are exactly the part's `name`/`nameEn` in book.json; `title`
+  (Devanagari, e.g. `प्रथमः सर्गः`; the app adds the part: बालकाण्डे प्रथमः सर्गः), `titleEn`
+  (`Sarga 1 · what happens`), `summary` in all of `en kn hi te ta`, a short `source`, and
+  `sections: [{ title?, titleEn?, note?, verses: [{ n?, text, meaning? }] }]`. Optional:
+  `contentNote`, `completeness: "partial"` (needs a contentNote). No other fields.
+- Verses: numbered 1, 2, 3 … through the unit (across sections); speaker lines and the colophon
+  have no `n`. Text is Devanagari only: pādas/half-verses split with `\n`, ends with । or ॥, no
+  digits, no ZWJ/ZWNJ, no double or edge spaces; a word split between pādas ends its line with `-`.
+  `meaning` is `{ "en": "…", "kn": "…" }` with any of `en kn hi te ta`.
+- Units of a part run 001, 002 … with no gaps (a part may be written only up to some unit).
+- book.json: `work`, `title`, `titleEn`, `partLabel`/`unitLabel` (`kanda`/`sarga`,
+  `parva`/`adhyaya`), `edition` (recension and why), `sources`, and `parts` in order:
+  `{ part, name, nameEn, nameLoc?, units, verses, summary (5 languages), links? }`. `units` and
+  `verses` are the edition's full counts; once every unit of a part is written their verse total
+  must equal `verses`. `nameLoc` (बालकाण्डे) is derived from `name` when left out.
+- A part, or a run of its units, that the library already has is a link, not a copy:
+  `"links": [{ "from": 1, "to": 68, "category": "sundarakanda" }]` (the whole Sundarakanda) or
+  `{ "from": 23, "to": 40, "category": "gita" }` inside the Bhishma Parva, or one text:
+  `{ "from": 135, "to": 135, "text": "vishnu-sahasranama" }`. Linked units have no files; the
+  numbers after them carry on (`041.json` follows `022.json`).

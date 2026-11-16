@@ -2,8 +2,9 @@ import { router, Stack } from 'expo-router';
 import { useMemo, useState } from 'react';
 import { Pressable, ScrollView, Text, TextInput, View } from 'react-native';
 import { Chip, SectionHeading } from '../components/ui';
-import { ALL_MANTRAS, categoryById, search, type Mantra } from '../data';
-import { localDate, READTHROUGH_DAYS, VOW_DAYS, VOW_PER_DAY, type PlanKind } from '../lib/plans';
+import { ALL_MANTRAS, categoryById, getMantraInfo, search, verseCount, type Mantra } from '../data';
+import { BOOKS, partItems, workSequence } from '../data/books';
+import { LONG_READTHROUGH_DAYS, localDate, READTHROUGH_DAYS, VOW_DAYS, VOW_PER_DAY, type PlanKind } from '../lib/plans';
 import { useSettings } from '../lib/settings';
 import { translitTitle } from '../lib/transliterate';
 
@@ -11,6 +12,28 @@ interface Work {
   key: string;
   title: string;
   items: Mantra[];
+  /** Verses of each item, for the long works: each day gets about the same number of verses. */
+  weights?: number[];
+}
+
+/** The Ramayana and the Mahabharata whole, and each kanda/parva, from the manifest. */
+function bookWorks(): Work[] {
+  const out: Work[] = [];
+  const make = (key: string, title: string, ids: string[], unit: string): Work | null => {
+    const items = ids.map(getMantraInfo).filter((m): m is Mantra => !!m);
+    if (items.length < 2) return null;
+    return { key, title: `${title} (${items.length} ${unit}s)`, items, weights: items.map(verseCount) };
+  };
+  for (const w of BOOKS) {
+    const whole = make(w.work, w.titleEn, workSequence(w), w.unitLabel);
+    if (whole) out.push(whole);
+    for (const p of w.parts) {
+      const part = make(`${w.work}-${p.part}`, `${w.titleEn} · ${p.nameEn}`, partItems(p).map((x) => x.id), w.unitLabel);
+      // A kanda that is a section of the library (the Sundarakanda) is offered as that section.
+      if (part && !(p.links.length && !p.units.length)) out.push(part);
+    }
+  }
+  return out;
 }
 
 /** Multi-part works that can be read through: texts sharing a series, in order. */
@@ -27,8 +50,9 @@ function works(): Work[] {
       const sorted = [...items].sort((a, b) => (a.order ?? 0) - (b.order ?? 0));
       const cat = categoryById[sorted[0].category];
       const title = key === sorted[0].category ? cat.titleEn : sorted[0].titleEn.split(' · ')[0].replace(/\s+\d+$/, '');
-      return { key, title: `${title} (${sorted.length} parts)`, items: sorted };
-    });
+      return { key, title: `${title} (${sorted.length} parts)`, items: sorted } as Work;
+    })
+    .concat(bookWorks());
 }
 
 export default function NewPlan() {
@@ -50,7 +74,7 @@ export default function NewPlan() {
     if (!ready) return;
     const id = `${Date.now()}`;
     if (kind === 'readthrough' && work) {
-      addPlan({ id, kind, title: `${work.title.replace(/ \(\d+ parts\)$/, '')} in ${days} day${days > 1 ? 's' : ''}`, items: work.items.map((m) => m.id), days, start: localDate(), read: [], counts: {}, perDay: 1 });
+      addPlan({ id, kind, title: `${work.title.replace(/ \(\d+ \w+\)$/, '')} in ${days} day${days > 1 ? 's' : ''}`, items: work.items.map((m) => m.id), weights: work.weights, days, start: localDate(), read: [], counts: {}, perDay: 1 });
     } else if (text) {
       addPlan({ id, kind, title: `${text.titleEn} · ${days} days${perDay > 1 ? ` · ${perDay}×` : ''}`, items: [text.id], days, start: localDate(), read: [], counts: {}, perDay });
     }
@@ -73,7 +97,11 @@ export default function NewPlan() {
           <>
             <SectionHeading>Work</SectionHeading>
             {allWorks.map((w) => (
-              <Pressable key={w.key} onPress={() => setWork(w)} style={[card, { borderColor: work?.key === w.key ? theme.accent : theme.cardBorder, backgroundColor: work?.key === w.key ? theme.accentSoft : theme.card }]}>
+              <Pressable key={w.key} onPress={() => {
+                  setWork(w);
+                  const long = w.items.length > 60;
+                  if (!(long ? LONG_READTHROUGH_DAYS : READTHROUGH_DAYS).includes(days)) setDays(long ? 40 : 7);
+                }} style={[card, { borderColor: work?.key === w.key ? theme.accent : theme.cardBorder, backgroundColor: work?.key === w.key ? theme.accentSoft : theme.card }]}>
                 <Text style={{ color: theme.text, fontSize: 16 }}>{w.title}</Text>
               </Pressable>
             ))}
@@ -99,7 +127,7 @@ export default function NewPlan() {
 
         <SectionHeading>Days</SectionHeading>
         <View style={{ flexDirection: 'row', flexWrap: 'wrap', gap: 8, marginHorizontal: 16 }}>
-          {(kind === 'readthrough' ? READTHROUGH_DAYS : VOW_DAYS).map((d) => (
+          {(kind === 'readthrough' ? (work && work.items.length > 60 ? LONG_READTHROUGH_DAYS : READTHROUGH_DAYS) : VOW_DAYS).map((d) => (
             <Chip key={d} label={String(d)} active={days === d} onPress={() => setDays(d)} />
           ))}
         </View>

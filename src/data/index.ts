@@ -1,6 +1,7 @@
 import Sanscript from '@indic-transliteration/sanscript';
 import { plain } from '../lib/plain';
 import { searchKey, translit, type ScriptId } from '../lib/transliterate';
+import { allBookUnits, bookUnit, bookUnitInfo } from './books';
 import { CATEGORIES, categoryById } from './categories';
 import { LIBRARY } from './library.generated';
 import { MEANING_PACKS } from './meanings.generated';
@@ -96,12 +97,19 @@ export const ALL_MANTRAS: Mantra[] = LIBRARY.map(toDevanagari).map(applySummarie
 const byId = new Map(ALL_MANTRAS.map((m) => [m.id, m]));
 const full = new Map<string, Mantra>();
 
-/** A text's title, category and summaries, without merging verse meanings (for lists). */
+/**
+ * A text's title, category and summaries, without merging verse meanings (for lists).
+ * For a sarga/adhyaya of the Ramayana or Mahabharata this is its manifest entry: no sections,
+ * `verseTotal` instead (open it with loadBookUnit, src/lib/books.ts).
+ */
 export function getMantraInfo(id: string): Mantra | undefined {
-  return byId.get(id);
+  return byId.get(id) ?? bookUnitInfo(id);
 }
 
-/** A text with all its verse meanings (merged on first use, then cached). */
+/**
+ * A text with all its verse meanings (merged on first use, then cached). Not for the units of
+ * the long works, whose text is an asset read asynchronously (loadBookUnit).
+ */
 export function getMantra(id: string): Mantra | undefined {
   const hit = full.get(id);
   if (hit) return hit;
@@ -124,6 +132,7 @@ export function categoryCounts(): Record<CategoryId, number> {
 
 /** Numbered verses (excludes speaker lines, colophons, steps); falls back to all items. */
 export function verseCount(m: Mantra): number {
+  if (m.verseTotal !== undefined && m.sections.length === 0) return m.verseTotal;
   const all = m.sections.flatMap((s) => s.verses);
   const numbered = all.filter((v) => v.n !== undefined).length;
   return numbered || all.length;
@@ -138,7 +147,7 @@ interface IndexedVerse {
   key: string;
 }
 
-let titleIndex: { mantra: Mantra; /** Its own names. */ name: string; /** Names plus deity and section. */ key: string }[] | null = null;
+let titleIndex: { mantra: Mantra; /** Its own names. */ name: string; /** Names plus deity and section. */ key: string; /** A unit of a long work. */ book?: boolean }[] | null = null;
 let verseIndex: IndexedVerse[] | null = null;
 
 function buildIndexes() {
@@ -146,6 +155,13 @@ function buildIndexes() {
     const name = `${searchKey(m.title)} ${searchKey(m.titleEn)}`;
     return { mantra: m, name, key: `${name} ${searchKey(m.deity ?? '')} ${searchKey(categoryById[m.category]?.titleEn ?? '')}` };
   });
+  // Sargas and adhyayas of the long works: their titles only (their text is not loaded), with
+  // the part's name (Bala Kanda, बालकाण्डम्) but not the work's, which would match them all.
+  for (const m of allBookUnits()) {
+    const part = bookUnit(m.id)!.part;
+    const name = `${searchKey(m.title)} ${searchKey(m.titleEn)}`;
+    titleIndex.push({ mantra: m, name, key: `${name} ${searchKey(part.name)}`, book: true });
+  }
   verseIndex = [];
   for (const m of ALL_MANTRAS) {
     m.sections.forEach((s, si) =>
@@ -199,9 +215,12 @@ export function search(query: string, limit = 50): SearchResult[] {
     (t) => t.key.includes(q),
     (t) => allWords(t.key),
   ];
+  // A word like "sarga" names hundreds of units of the long works: list the first few.
+  let bookHits = 0;
   for (const test of tests) {
     for (const t of titleIndex!) {
       if (seenTitle.has(t.mantra.id) || !test(t)) continue;
+      if (t.book && ++bookHits > limit) continue;
       results.push({ mantra: t.mantra });
       seenTitle.add(t.mantra.id);
     }

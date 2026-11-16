@@ -17,8 +17,11 @@ export interface Group {
   entries: Entry[];
 }
 
-/** Works read part by part: every text of the category is one part. */
-export const BOOK_CATEGORIES = new Set<CategoryId>(['gita', 'sundarakanda', 'devimahatmya', 'sumadhvavijaya', 'harikathamrutasara']);
+/**
+ * Works read part by part: every text of the category is one part. The Ramayana and the
+ * Mahabharata are books too, listed from their manifest (src/data/books.ts) kanda by kanda.
+ */
+export const BOOK_CATEGORIES = new Set<CategoryId>(['gita', 'sundarakanda', 'devimahatmya', 'sumadhvavijaya', 'harikathamrutasara', 'ramayana', 'mahabharata']);
 
 /** Names for series that fold into one row (three or more parts). */
 const SERIES_NAMES: Record<string, { title: string; titleEn: string }> = {
@@ -80,6 +83,7 @@ function groupOf(m: Mantra): [id: string, title: string, order: number] {
       if (/raghavendra/.test(id)) return ['raghavendra', 'Sri Raghavendra Swami', 3];
       if (/lakshmi-shobhane|dashavatara|vadiraja/.test(id)) return ['vadiraja', 'Sri Vadiraja Tirtha', 1];
       if (/vayu-stuti/.test(id)) return ['vayu', 'Sri Trivikrama Panditacharya', 2];
+      if (/yantrodharaka/.test(id)) return ['vyasaraja', 'Sri Vyasaraja Tirtha', 0.5];
       return ['madhva', 'Sri Madhvacharya', 0];
     case 'puja':
       if (/^(nitya-puja|shodashopachara-puja|tulasi-puja|pitru-tarpana)$/.test(id)) return ['daily', 'Daily and regular', 0];

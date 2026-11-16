@@ -17,6 +17,12 @@ export interface Plan {
   days: number;
   /** Local date the plan starts, YYYY-MM-DD. */
   start: string;
+  /**
+   * Read-through: the verses of each item, in `items` order, when the work is long and uneven
+   * (the sargas of the Ramayana run from a dozen verses to over a hundred): each day then has
+   * about the same number of verses rather than of sargas. Without it items are spread evenly.
+   */
+  weights?: number[];
   /** Read-through: ids of texts already read. */
   read: string[];
   /** Vow: recitations done per local date (YYYY-MM-DD → count). */
@@ -42,13 +48,31 @@ export function dayIndex(plan: Plan, today = new Date()): number {
   return Math.round((t.getTime() - start.getTime()) / 86400000);
 }
 
-/** Items scheduled for a given plan day (read-through spreads items evenly). */
+/**
+ * Index (exclusive) of the last item due by the end of a plan day: items spread evenly, or by
+ * verses when the plan has weights (an item belongs to the day its middle verse falls on).
+ */
+function dayEnd(plan: Plan, day: number): number {
+  const n = plan.items.length;
+  if (day >= plan.days - 1) return n;
+  if (day < 0) return 0;
+  const w = plan.weights;
+  if (!w || w.length !== n) return Math.floor(((day + 1) * n) / plan.days);
+  const total = w.reduce((a, b) => a + Math.max(1, b), 0);
+  const limit = ((day + 1) * total) / plan.days;
+  let sum = 0;
+  for (let i = 0; i < n; i++) {
+    const v = Math.max(1, w[i]);
+    if (sum + v / 2 > limit) return i;
+    sum += v;
+  }
+  return n;
+}
+
+/** Items scheduled for a given plan day (read-through spreads items evenly, or by verses). */
 export function itemsForDay(plan: Plan, day: number): string[] {
   if (plan.kind === 'vow') return plan.items;
-  const n = plan.items.length;
-  const from = Math.floor((day * n) / plan.days);
-  const to = Math.floor(((day + 1) * n) / plan.days);
-  return plan.items.slice(from, to);
+  return plan.items.slice(dayEnd(plan, day - 1), dayEnd(plan, day));
 }
 
 export interface PlanStatus {
@@ -69,7 +93,7 @@ export function planStatus(plan: Plan, today = new Date()): PlanStatus {
   if (plan.kind === 'readthrough') {
     const read = new Set(plan.read);
     const todayItems = raw < plan.days ? itemsForDay(plan, day).filter((id) => !read.has(id)) : [];
-    const dueSoFar = plan.items.slice(0, Math.floor(((day + 1) * plan.items.length) / plan.days));
+    const dueSoFar = plan.items.slice(0, dayEnd(plan, day));
     const behind = dueSoFar.filter((id) => !read.has(id) && !todayItems.includes(id)).length;
     const progress = plan.read.length / plan.items.length;
     return { day, finished: progress >= 1, progress, todayItems, todayRemaining: todayItems.length, behind };
@@ -88,5 +112,7 @@ export function planStatus(plan: Plan, today = new Date()): PlanStatus {
 }
 
 export const READTHROUGH_DAYS = [1, 3, 7, 9, 11, 18, 21, 40];
+/** For a whole kanda or parva, or a whole epic. */
+export const LONG_READTHROUGH_DAYS = [9, 21, 30, 40, 48, 108, 180, 365];
 export const VOW_DAYS = [1, 7, 11, 21, 40, 48, 108];
 export const VOW_PER_DAY = [1, 3, 5, 11, 108];

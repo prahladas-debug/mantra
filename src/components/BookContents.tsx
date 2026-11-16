@@ -1,0 +1,168 @@
+import { Ionicons } from '@expo/vector-icons';
+import { router, type Href } from 'expo-router';
+import { useMemo, useState } from 'react';
+import { Pressable, StyleSheet, Text, TextInput, View } from 'react-native';
+import { getMantraInfo, type Category, type Mantra } from '../data';
+import { linkedCategory, partItems, workSequence } from '../data/books';
+import type { BookPartEntry, BookWork } from '../data/types';
+import { scriptFont } from '../lib/fonts';
+import { primaryLang } from '../lib/meaning';
+import { plain } from '../lib/plain';
+import { useSettings } from '../lib/settings';
+import { searchKey, translit, translitTitle } from '../lib/transliterate';
+import { BookBanner } from './Shelf';
+import { TextRow } from './TextList';
+
+interface Row {
+  mantra: Mantra;
+  unit: number;
+}
+
+/**
+ * The page of a long work (Ramayana, Mahabharata): its parts (kandas, parvas) with the units of
+ * each under them, from the manifest only. Nothing is read from the assets until a unit is opened.
+ * A part that is a section of the library (the Sundarakanda) opens that section.
+ */
+export function BookContents({ category, work }: { category: Category; work: BookWork }) {
+  const { theme, settings, recent } = useSettings();
+  const font = scriptFont(settings.script, settings.bookFonts);
+  const [q, setQ] = useState('');
+
+  const seq = useMemo(() => workSequence(work), [work]);
+  // Each part's lines, linked texts in their places (the Gita inside the Bhishma Parva).
+  const rows = useMemo(
+    () =>
+      new Map(
+        work.parts.map((p) => [
+          p.part,
+          partItems(p)
+            .map((x) => ({ mantra: getMantraInfo(x.id), unit: x.unit }))
+            .filter((r): r is Row => !!r.mantra),
+        ]),
+      ),
+    [work],
+  );
+  const partOf = useMemo(() => {
+    const m = new Map<string, BookPartEntry>();
+    for (const p of work.parts) for (const r of rows.get(p.part) ?? []) m.set(r.mantra.id, p);
+    return m;
+  }, [work, rows]);
+
+  const lastRead = recent.find((r) => partOf.has(r.id));
+  const lastPart = lastRead ? partOf.get(lastRead.id) : undefined;
+  const [open, setOpen] = useState<ReadonlySet<number>>(() => {
+    const first = lastPart ?? work.parts.find((p) => p.units.length && !linkedCategory(p));
+    return new Set(first ? [first.part] : []);
+  });
+  const toggle = (part: number) =>
+    setOpen((prev) => {
+      const next = new Set(prev);
+      if (next.has(part)) next.delete(part);
+      else next.add(part);
+      return next;
+    });
+
+  const key = searchKey(q.trim());
+  const filtering = key.length >= 2;
+  const shown = (p: BookPartEntry) => {
+    const all = rows.get(p.part) ?? [];
+    return filtering ? all.filter((r) => `${searchKey(r.mantra.title)} ${searchKey(r.mantra.titleEn)}`.includes(key)) : all;
+  };
+  const written = work.parts.reduce((n, p) => n + p.units.length, 0);
+  const lang = primaryLang(settings.meaningLang, settings.script);
+  const lastLabel = lastRead && lastPart ? `${lastPart.part}.${rows.get(lastPart.part)?.find((r) => r.mantra.id === lastRead.id)?.unit ?? ''}` : undefined;
+
+  return (
+    <View>
+      {seq.length > 0 && <BookBanner category={category.id} firstId={seq[0]} lastId={lastRead?.id} lastLabel={lastLabel} />}
+      <View style={{ marginHorizontal: 20, marginTop: 12, marginBottom: 4 }}>
+        {work.opening && (
+          <Text style={{ color: theme.text, fontSize: 16, lineHeight: 27, textAlign: 'center', fontFamily: font }}>{translit(work.opening, settings.script)}</Text>
+        )}
+        <Text style={{ color: theme.textMuted, fontSize: 13, textAlign: 'center', marginTop: 6, lineHeight: 19 }}>{category.description}</Text>
+        <Text style={{ color: theme.textMuted, fontSize: 12, textAlign: 'center', marginTop: 4, lineHeight: 17 }} numberOfLines={4}>
+          {plain(work.edition)}
+        </Text>
+      </View>
+
+      {written > 12 && (
+        <View style={[s.search, { borderColor: theme.cardBorder, backgroundColor: theme.card }]}>
+          <Ionicons name="search" size={16} color={theme.textMuted} />
+          <TextInput
+            value={q}
+            onChangeText={setQ}
+            placeholder={`Find a ${work.unitLabel} in ${work.titleEn}`}
+            placeholderTextColor={theme.textMuted}
+            autoCorrect={false}
+            style={{ flex: 1, color: theme.text, fontSize: 15, paddingVertical: 9, paddingHorizontal: 8 }}
+            accessibilityLabel="Filter this list"
+          />
+          {q.length > 0 && (
+            <Pressable onPress={() => setQ('')} hitSlop={10} accessibilityLabel="Clear">
+              <Ionicons name="close-circle" size={17} color={theme.textMuted} />
+            </Pressable>
+          )}
+        </View>
+      )}
+
+      <View style={[s.card, { backgroundColor: theme.card, borderColor: theme.cardBorder, marginTop: 14 }]}>
+        {work.parts.map((p, i) => {
+          const list = shown(p);
+          if (filtering && !list.length) return null;
+          const linked = linkedCategory(p);
+          const count = linked ? p.unitCount : list.length;
+          const ready = count > 0;
+          const expanded = filtering || (open.has(p.part) && !linked);
+          const sizes = [
+            p.nameEn,
+            !linked && count < p.unitCount ? `${count} of ${p.unitCount} ${work.unitLabel}s` : `${p.unitCount} ${work.unitLabel}s`,
+            `${p.verseCount.toLocaleString('en-IN')} verses`,
+          ];
+          const summary = p.summary[lang] ?? p.summary.en;
+          return (
+            <View key={p.part}>
+              <Pressable
+                disabled={!ready || filtering}
+                onPress={() => (linked ? router.push(`/category/${linked}` as Href) : toggle(p.part))}
+                accessibilityRole={linked ? 'link' : 'button'}
+                accessibilityState={linked ? undefined : { expanded }}
+                style={({ pressed }) => [s.part, { borderTopWidth: i ? StyleSheet.hairlineWidth : 0, borderColor: theme.cardBorder, opacity: pressed ? 0.6 : ready ? 1 : 0.55 }]}
+              >
+                <View style={[s.badge, { backgroundColor: theme.accentSoft }]}>
+                  <Text style={{ color: theme.accent, fontSize: 14, fontWeight: '700' }}>{p.part}</Text>
+                </View>
+                <View style={{ flex: 1 }}>
+                  <Text style={{ color: theme.text, fontSize: 18, fontFamily: font, fontWeight: font ? undefined : '600' }} numberOfLines={1}>
+                    {translitTitle(p.name, settings.script)}
+                  </Text>
+                  <Text style={{ color: theme.textMuted, fontSize: 13, marginTop: 1 }} numberOfLines={1}>
+                    {ready ? sizes.join(' · ') : `${p.nameEn} · to be added`}
+                  </Text>
+                </View>
+                {ready && !filtering && <Ionicons name={linked ? 'chevron-forward' : expanded ? 'chevron-up' : 'chevron-down'} size={18} color={linked ? theme.textMuted : theme.accent} />}
+              </Pressable>
+              {expanded && (
+                <View>
+                  {!filtering && summary && (
+                    <Text style={{ color: theme.textMuted, fontSize: 14, lineHeight: 21, paddingHorizontal: 16, paddingBottom: 8 }}>{lang === 'en' ? plain(summary) : summary}</Text>
+                  )}
+                  {list.map((r) => (
+                    <TextRow key={r.mantra.id} mantra={r.mantra} divider indent badge={String(r.unit)} subtitle={r.mantra.titleEn.split(' · ').pop()} />
+                  ))}
+                </View>
+              )}
+            </View>
+          );
+        })}
+      </View>
+      {filtering && work.parts.every((p) => !shown(p).length) && <Text style={{ color: theme.textMuted, margin: 16 }}>Nothing matches “{q}”.</Text>}
+    </View>
+  );
+}
+
+const s = StyleSheet.create({
+  search: { flexDirection: 'row', alignItems: 'center', marginHorizontal: 16, marginTop: 10, paddingHorizontal: 12, borderRadius: 12, borderWidth: 1 },
+  card: { marginHorizontal: 16, borderRadius: 14, borderWidth: 1, overflow: 'hidden' },
+  part: { flexDirection: 'row', alignItems: 'center', gap: 10, paddingVertical: 12, paddingRight: 12, paddingLeft: 14 },
+  badge: { width: 32, height: 32, borderRadius: 16, alignItems: 'center', justifyContent: 'center' },
+});

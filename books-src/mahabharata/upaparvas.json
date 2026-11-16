@@ -1,0 +1,671 @@
+{
+ "note": "Sub-parvas (upaparvas) of the Critical Edition with their adhyaya ranges. book.json has no field for them yet; each adhyaya file names its sub-parva in sections[0].title / titleEn.",
+ "parts": [
+  {
+   "part": 1,
+   "upaparvas": [
+    {
+     "name": "अनुक्रमणीपर्व",
+     "nameEn": "Anukramani Parva (Table of contents)",
+     "from": 1,
+     "to": 1
+    },
+    {
+     "name": "पर्वसंग्रहपर्व",
+     "nameEn": "Parvasangraha Parva (Summary of the books)",
+     "from": 2,
+     "to": 2
+    },
+    {
+     "name": "पौष्यपर्व",
+     "nameEn": "Paushya Parva",
+     "from": 3,
+     "to": 3
+    },
+    {
+     "name": "पौलोमपर्व",
+     "nameEn": "Pauloma Parva",
+     "from": 4,
+     "to": 12
+    },
+    {
+     "name": "आस्तीकपर्व",
+     "nameEn": "Astika Parva",
+     "from": 13,
+     "to": 53
+    },
+    {
+     "name": "अंशावतरणपर्व",
+     "nameEn": "Amshavatarana Parva (Partial incarnations)",
+     "from": 54,
+     "to": 61
+    },
+    {
+     "name": "संभवपर्व",
+     "nameEn": "Sambhava Parva (Origins)",
+     "from": 62,
+     "to": 123
+    },
+    {
+     "name": "जतुगृहपर्व",
+     "nameEn": "Jatugriha Parva (The house of lac)",
+     "from": 124,
+     "to": 138
+    },
+    {
+     "name": "हिडिम्बवधपर्व",
+     "nameEn": "Hidimbavadha Parva (Slaying of Hidimba)",
+     "from": 139,
+     "to": 142
+    },
+    {
+     "name": "बकवधपर्व",
+     "nameEn": "Bakavadha Parva (Slaying of Baka)",
+     "from": 143,
+     "to": 152
+    },
+    {
+     "name": "चैत्ररथपर्व",
+     "nameEn": "Chaitraratha Parva",
+     "from": 153,
+     "to": 173
+    },
+    {
+     "name": "स्वयंवरपर्व",
+     "nameEn": "Svayamvara Parva (Draupadi's bridegroom choice)",
+     "from": 174,
+     "to": 181
+    },
+    {
+     "name": "वैवाहिकपर्व",
+     "nameEn": "Vaivahika Parva (The wedding)",
+     "from": 182,
+     "to": 191
+    },
+    {
+     "name": "विदुरागमनपर्व",
+     "nameEn": "Viduragamana Parva (Vidura's coming)",
+     "from": 192,
+     "to": 198
+    },
+    {
+     "name": "राज्यलम्भपर्व",
+     "nameEn": "Rajyalambha Parva (Gaining the kingdom)",
+     "from": 199,
+     "to": 199
+    },
+    {
+     "name": "अर्जुनवनवासपर्व",
+     "nameEn": "Arjunavanavasa Parva (Arjuna's forest exile)",
+     "from": 200,
+     "to": 210
+    },
+    {
+     "name": "सुभद्राहरणपर्व",
+     "nameEn": "Subhadraharana Parva (Abduction of Subhadra)",
+     "from": 211,
+     "to": 212
+    },
+    {
+     "name": "हरणाहरणपर्व",
+     "nameEn": "Haranaharana Parva (Bringing the bride-gifts)",
+     "from": 213,
+     "to": 213
+    },
+    {
+     "name": "खाण्डवदाहपर्व",
+     "nameEn": "Khandavadaha Parva (Burning of the Khandava forest)",
+     "from": 214,
+     "to": 225
+    }
+   ]
+  },
+  {
+   "part": 2,
+   "upaparvas": [
+    {
+     "name": "सभापर्व",
+     "nameEn": "Sabha Parva (The assembly hall)",
+     "from": 1,
+     "to": 11
+    },
+    {
+     "name": "मन्त्रपर्व",
+     "nameEn": "Mantra Parva (The council)",
+     "from": 12,
+     "to": 17
+    },
+    {
+     "name": "जरासंधवधपर्व",
+     "nameEn": "Jarasandhavadha Parva (Slaying of Jarasandha)",
+     "from": 18,
+     "to": 22
+    },
+    {
+     "name": "दिग्विजयपर्व",
+     "nameEn": "Digvijaya Parva (Conquest of the quarters)",
+     "from": 23,
+     "to": 29
+    },
+    {
+     "name": "राजसूयिकपर्व",
+     "nameEn": "Rajasuyika Parva (The royal consecration)",
+     "from": 30,
+     "to": 32
+    },
+    {
+     "name": "अर्घाभिहरणपर्व",
+     "nameEn": "Arghabhiharana Parva (The guest-gift)",
+     "from": 33,
+     "to": 36
+    },
+    {
+     "name": "शिशुपालवधपर्व",
+     "nameEn": "Shishupalavadha Parva (Slaying of Shishupala)",
+     "from": 37,
+     "to": 42
+    },
+    {
+     "name": "द्यूतपर्व",
+     "nameEn": "Dyuta Parva (The dice game)",
+     "from": 43,
+     "to": 65
+    },
+    {
+     "name": "अनुद्यूतपर्व",
+     "nameEn": "Anudyuta Parva (The second dice game)",
+     "from": 66,
+     "to": 72
+    }
+   ]
+  },
+  {
+   "part": 3,
+   "upaparvas": [
+    {
+     "name": "आरण्यकपर्व",
+     "nameEn": "Aranyaka Parva (Into the forest)",
+     "from": 1,
+     "to": 10
+    },
+    {
+     "name": "किर्मीरवधपर्व",
+     "nameEn": "Kirmiravadha Parva (Slaying of Kirmira)",
+     "from": 11,
+     "to": 11
+    },
+    {
+     "name": "कैरातपर्व",
+     "nameEn": "Kairata Parva (The mountain hunter)",
+     "from": 12,
+     "to": 41
+    },
+    {
+     "name": "इन्द्रलोकाभिगमनपर्व",
+     "nameEn": "Indralokabhigamana Parva (Journey to Indra's world)",
+     "from": 42,
+     "to": 79
+    },
+    {
+     "name": "तीर्थयात्रापर्व",
+     "nameEn": "Tirthayatra Parva (The pilgrimage)",
+     "from": 80,
+     "to": 153
+    },
+    {
+     "name": "जटासुरवधपर्व",
+     "nameEn": "Jatasuravadha Parva (Slaying of Jatasura)",
+     "from": 154,
+     "to": 154
+    },
+    {
+     "name": "यक्षयुद्धपर्व",
+     "nameEn": "Yakshayuddha Parva (Battle with the Yakshas)",
+     "from": 155,
+     "to": 172
+    },
+    {
+     "name": "आजगरपर्व",
+     "nameEn": "Ajagara Parva (The python)",
+     "from": 173,
+     "to": 178
+    },
+    {
+     "name": "मार्कण्डेयसमास्यापर्व",
+     "nameEn": "Markandeyasamasya Parva (Session with Markandeya)",
+     "from": 179,
+     "to": 221
+    },
+    {
+     "name": "द्रौपदीसत्यभामासंवादपर्व",
+     "nameEn": "Draupadi-Satyabhama-samvada Parva",
+     "from": 222,
+     "to": 224
+    },
+    {
+     "name": "घोषयात्रापर्व",
+     "nameEn": "Ghoshayatra Parva (The cattle expedition)",
+     "from": 225,
+     "to": 243
+    },
+    {
+     "name": "मृगस्वप्नोद्भवपर्व",
+     "nameEn": "Mrigasvapnodbhava Parva (The dream of the deer)",
+     "from": 244,
+     "to": 244
+    },
+    {
+     "name": "व्रीहिद्रौणिकपर्व",
+     "nameEn": "Vrihidraunika Parva (A measure of rice)",
+     "from": 245,
+     "to": 247
+    },
+    {
+     "name": "द्रौपदीहरणपर्व",
+     "nameEn": "Draupadiharana Parva (Abduction of Draupadi)",
+     "from": 248,
+     "to": 283
+    },
+    {
+     "name": "कुण्डलाहरणपर्व",
+     "nameEn": "Kundalaharana Parva (Taking of the earrings)",
+     "from": 284,
+     "to": 294
+    },
+    {
+     "name": "आरणेयपर्व",
+     "nameEn": "Araneya Parva (The fire-drill)",
+     "from": 295,
+     "to": 299
+    }
+   ]
+  },
+  {
+   "part": 4,
+   "upaparvas": [
+    {
+     "name": "वैराटपर्व",
+     "nameEn": "Vairata Parva (At Virata's court)",
+     "from": 1,
+     "to": 12
+    },
+    {
+     "name": "कीचकवधपर्व",
+     "nameEn": "Kichakavadha Parva (Slaying of Kichaka)",
+     "from": 13,
+     "to": 23
+    },
+    {
+     "name": "गोग्रहणपर्व",
+     "nameEn": "Gograhana Parva (The cattle raid)",
+     "from": 24,
+     "to": 62
+    },
+    {
+     "name": "वैवाहिकपर्व",
+     "nameEn": "Vaivahika Parva (The wedding)",
+     "from": 63,
+     "to": 67
+    }
+   ]
+  },
+  {
+   "part": 5,
+   "upaparvas": [
+    {
+     "name": "उद्योगपर्व",
+     "nameEn": "Udyoga Parva (The preparations)",
+     "from": 1,
+     "to": 21
+    },
+    {
+     "name": "संजययानपर्व",
+     "nameEn": "Sanjayayana Parva (Sanjaya's embassy)",
+     "from": 22,
+     "to": 32
+    },
+    {
+     "name": "प्रजागरपर्व",
+     "nameEn": "Prajagara Parva (The sleepless night)",
+     "from": 33,
+     "to": 41
+    },
+    {
+     "name": "सनत्सुजातपर्व",
+     "nameEn": "Sanatsujata Parva",
+     "from": 42,
+     "to": 45
+    },
+    {
+     "name": "यानसंधिपर्व",
+     "nameEn": "Yanasandhi Parva (Debate on peace)",
+     "from": 46,
+     "to": 69
+    },
+    {
+     "name": "भगवद्यानपर्व",
+     "nameEn": "Bhagavadyana Parva (Krishna's embassy)",
+     "from": 70,
+     "to": 137
+    },
+    {
+     "name": "कर्णोपनिवादपर्व",
+     "nameEn": "Karnopanivada Parva (The secret talks with Karna)",
+     "from": 138,
+     "to": 146
+    },
+    {
+     "name": "अभिनिर्याणपर्व",
+     "nameEn": "Abhiniryana Parva (The marching out)",
+     "from": 147,
+     "to": 156
+    },
+    {
+     "name": "उलूकदूतागमनपर्व",
+     "nameEn": "Ulukadutagamana Parva (Uluka's embassy)",
+     "from": 157,
+     "to": 160
+    },
+    {
+     "name": "रथातिरथसंख्यापर्व",
+     "nameEn": "Rathatirathasankhya Parva (Counting the warriors)",
+     "from": 161,
+     "to": 169
+    },
+    {
+     "name": "अम्बोपाख्यानपर्व",
+     "nameEn": "Ambopakhyana Parva (The story of Amba)",
+     "from": 170,
+     "to": 197
+    }
+   ]
+  },
+  {
+   "part": 6,
+   "upaparvas": [
+    {
+     "name": "जम्बूखण्डविनिर्माणपर्व",
+     "nameEn": "Jambukhandavinirmana Parva (Description of Jambudvipa)",
+     "from": 1,
+     "to": 11
+    },
+    {
+     "name": "भूमिपर्व",
+     "nameEn": "Bhumi Parva (The earth)",
+     "from": 12,
+     "to": 13
+    },
+    {
+     "name": "भगवद्गीतापर्व",
+     "nameEn": "Bhagavadgita Parva",
+     "from": 14,
+     "to": 40
+    },
+    {
+     "name": "भीष्मवधपर्व",
+     "nameEn": "Bhishmavadha Parva (The fall of Bhishma)",
+     "from": 41,
+     "to": 117
+    }
+   ]
+  },
+  {
+   "part": 7,
+   "upaparvas": [
+    {
+     "name": "द्रोणाभिषेकपर्व",
+     "nameEn": "Dronabhisheka Parva (Drona's consecration)",
+     "from": 1,
+     "to": 15
+    },
+    {
+     "name": "संशप्तकवधपर्व",
+     "nameEn": "Samshaptakavadha Parva (Slaying of the Samshaptakas)",
+     "from": 16,
+     "to": 31
+    },
+    {
+     "name": "अभिमन्युवधपर्व",
+     "nameEn": "Abhimanyuvadha Parva (Slaying of Abhimanyu)",
+     "from": 32,
+     "to": 51
+    },
+    {
+     "name": "प्रतिज्ञापर्व",
+     "nameEn": "Pratijna Parva (Arjuna's vow)",
+     "from": 52,
+     "to": 60
+    },
+    {
+     "name": "जयद्रथवधपर्व",
+     "nameEn": "Jayadrathavadha Parva (Slaying of Jayadratha)",
+     "from": 61,
+     "to": 121
+    },
+    {
+     "name": "घटोत्कचवधपर्व",
+     "nameEn": "Ghatotkachavadha Parva (Slaying of Ghatotkacha)",
+     "from": 122,
+     "to": 154
+    },
+    {
+     "name": "द्रोणवधपर्व",
+     "nameEn": "Dronavadha Parva (Slaying of Drona)",
+     "from": 155,
+     "to": 165
+    },
+    {
+     "name": "नारायणास्त्रमोक्षपर्व",
+     "nameEn": "Narayanastramoksha Parva (Release of the Narayana weapon)",
+     "from": 166,
+     "to": 173
+    }
+   ]
+  },
+  {
+   "part": 8,
+   "upaparvas": [
+    {
+     "name": "कर्णपर्व",
+     "nameEn": "Karna Parva",
+     "from": 1,
+     "to": 69
+    }
+   ]
+  },
+  {
+   "part": 9,
+   "upaparvas": [
+    {
+     "name": "शल्यपर्व",
+     "nameEn": "Shalya Parva",
+     "from": 1,
+     "to": 28
+    },
+    {
+     "name": "ह्रदप्रवेशपर्व",
+     "nameEn": "Hradapravesha Parva (Entering the lake)",
+     "from": 29,
+     "to": 30
+    },
+    {
+     "name": "गदायुद्धपर्व",
+     "nameEn": "Gadayuddha Parva (The mace fight)",
+     "from": 31,
+     "to": 33
+    },
+    {
+     "name": "सारस्वतपर्व",
+     "nameEn": "Sarasvata Parva (Balarama's pilgrimage on the Sarasvati)",
+     "from": 34,
+     "to": 53
+    },
+    {
+     "name": "गदायुद्धपर्व",
+     "nameEn": "Gadayuddha Parva (The mace fight)",
+     "from": 54,
+     "to": 64
+    }
+   ]
+  },
+  {
+   "part": 10,
+   "upaparvas": [
+    {
+     "name": "सौप्तिकपर्व",
+     "nameEn": "Sauptika Parva (The night massacre)",
+     "from": 1,
+     "to": 9
+    },
+    {
+     "name": "ऐषीकपर्व",
+     "nameEn": "Aishika Parva (The reed weapon)",
+     "from": 10,
+     "to": 18
+    }
+   ]
+  },
+  {
+   "part": 11,
+   "upaparvas": [
+    {
+     "name": "जलप्रदानिकपर्व",
+     "nameEn": "Jalapradanika Parva (The water offerings)",
+     "from": 1,
+     "to": 15
+    },
+    {
+     "name": "स्त्रीविलापपर्व",
+     "nameEn": "Strivilapa Parva (Lament of the women)",
+     "from": 16,
+     "to": 25
+    },
+    {
+     "name": "श्राद्धपर्व",
+     "nameEn": "Shraddha Parva (The funeral rites)",
+     "from": 26,
+     "to": 27
+    }
+   ]
+  },
+  {
+   "part": 12,
+   "upaparvas": [
+    {
+     "name": "राजधर्मपर्व",
+     "nameEn": "Rajadharma Parva (Duties of kings)",
+     "from": 1,
+     "to": 128
+    },
+    {
+     "name": "आपद्धर्मपर्व",
+     "nameEn": "Apaddharma Parva (Duties in distress)",
+     "from": 129,
+     "to": 167
+    },
+    {
+     "name": "मोक्षधर्मपर्व",
+     "nameEn": "Mokshadharma Parva (Duties for liberation)",
+     "from": 168,
+     "to": 353
+    }
+   ]
+  },
+  {
+   "part": 13,
+   "upaparvas": [
+    {
+     "name": "आनुशासनिकपर्व",
+     "nameEn": "Anushasanika Parva (The instructions)",
+     "from": 1,
+     "to": 152
+    },
+    {
+     "name": "भीष्मस्वर्गारोहणपर्व",
+     "nameEn": "Bhishmasvargarohana Parva (Bhishma's ascent to heaven)",
+     "from": 153,
+     "to": 154
+    }
+   ]
+  },
+  {
+   "part": 14,
+   "upaparvas": [
+    {
+     "name": "आश्वमेधिकपर्व",
+     "nameEn": "Ashvamedhika Parva (The horse sacrifice)",
+     "from": 1,
+     "to": 15
+    },
+    {
+     "name": "अनुगीतापर्व",
+     "nameEn": "Anugita Parva",
+     "from": 16,
+     "to": 50
+    },
+    {
+     "name": "आश्वमेधिकपर्व",
+     "nameEn": "Ashvamedhika Parva (The horse sacrifice)",
+     "from": 51,
+     "to": 96
+    }
+   ]
+  },
+  {
+   "part": 15,
+   "upaparvas": [
+    {
+     "name": "आश्रमवासपर्व",
+     "nameEn": "Ashramavasa Parva (Life in the hermitage)",
+     "from": 1,
+     "to": 28
+    },
+    {
+     "name": "पुत्रदर्शनपर्व",
+     "nameEn": "Putradarshana Parva (Seeing the sons)",
+     "from": 29,
+     "to": 36
+    },
+    {
+     "name": "नारदागमनपर्व",
+     "nameEn": "Naradagamana Parva (Narada's coming)",
+     "from": 37,
+     "to": 47
+    }
+   ]
+  },
+  {
+   "part": 16,
+   "upaparvas": [
+    {
+     "name": "मौसलपर्व",
+     "nameEn": "Mausala Parva (The iron club)",
+     "from": 1,
+     "to": 9
+    }
+   ]
+  },
+  {
+   "part": 17,
+   "upaparvas": [
+    {
+     "name": "महाप्रस्थानिकपर्व",
+     "nameEn": "Mahaprasthanika Parva (The great departure)",
+     "from": 1,
+     "to": 3
+    }
+   ]
+  },
+  {
+   "part": 18,
+   "upaparvas": [
+    {
+     "name": "स्वर्गारोहणपर्व",
+     "nameEn": "Svargarohana Parva (Ascent to heaven)",
+     "from": 1,
+     "to": 5
+    }
+   ]
+  }
+ ]
+}

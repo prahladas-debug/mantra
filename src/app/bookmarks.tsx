@@ -1,17 +1,34 @@
 import { Ionicons } from '@expo/vector-icons';
 import { router, Stack, type Href } from 'expo-router';
+import { useEffect, useState } from 'react';
 import { FlatList, Pressable, Text, View } from 'react-native';
-import { getMantraInfo, scriptFor } from '../data';
+import { getMantraInfo, scriptFor, type Mantra } from '../data';
+import { isBookUnit, loadBookUnit, peekBookUnit } from '../lib/books';
 import { scriptFont } from '../lib/fonts';
 import { useSettings } from '../lib/settings';
 import { translit, translitTitle } from '../lib/transliterate';
 
 export default function Bookmarks() {
   const { theme, settings, bookmarks, toggleBookmark } = useSettings();
+  // Sargas of the long works are read from their assets for the verse text (a few, then cached).
+  const [units, setUnits] = useState<Record<string, Mantra>>({});
+  useEffect(() => {
+    let live = true;
+    for (const id of new Set(bookmarks.map((b) => b.mantraId))) {
+      if (!isBookUnit(id) || peekBookUnit(id)) continue;
+      loadBookUnit(id).then(
+        (m) => live && setUnits((u) => ({ ...u, [id]: m })),
+        () => {},
+      );
+    }
+    return () => {
+      live = false;
+    };
+  }, [bookmarks]);
   const items = bookmarks
     .map((b) => {
       // Titles and verse text only: no need to merge every meaning of each bookmarked text.
-      const m = getMantraInfo(b.mantraId);
+      const m = isBookUnit(b.mantraId) ? units[b.mantraId] ?? peekBookUnit(b.mantraId) : getMantraInfo(b.mantraId);
       const [si, vi] = b.key.replace(/^v/, '').split('-').map(Number);
       const v = m?.sections[si]?.verses[vi];
       return m && v ? { b, m, v, si, vi } : null;
