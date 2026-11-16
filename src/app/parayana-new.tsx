@@ -5,6 +5,7 @@ import { Chip, SectionHeading } from '../components/ui';
 import { ALL_MANTRAS, categoryById, getMantraInfo, search, verseCount, type Mantra } from '../data';
 import { BOOKS, partItems, workSequence } from '../data/books';
 import { LONG_READTHROUGH_DAYS, localDate, READTHROUGH_DAYS, VOW_DAYS, VOW_PER_DAY, type PlanKind } from '../lib/plans';
+import { useI18n } from '../lib/i18n';
 import { useSettings } from '../lib/settings';
 import { translitTitle } from '../lib/transliterate';
 
@@ -63,6 +64,7 @@ function works(): Work[] {
 
 export default function NewPlan() {
   const { theme, settings, addPlan } = useSettings();
+  const { tr } = useI18n();
   const [kind, setKind] = useState<PlanKind>('readthrough');
   const [work, setWork] = useState<Work | null>(null);
   const [text, setText] = useState<Mantra | null>(null);
@@ -91,17 +93,17 @@ export default function NewPlan() {
   const card = { marginHorizontal: 16, marginBottom: 8, padding: 12, borderRadius: 12, borderWidth: 1 };
   return (
     <View style={{ flex: 1, backgroundColor: theme.bg }}>
-      <Stack.Screen options={{ title: 'New parayana' }} />
+      <Stack.Screen options={{ title: tr('New parayana') }} />
       <ScrollView contentContainerStyle={{ paddingBottom: 100 }} keyboardShouldPersistTaps="handled">
-        <SectionHeading>Type</SectionHeading>
+        <SectionHeading>{tr('Type')}</SectionHeading>
         <View style={{ flexDirection: 'row', gap: 8, marginHorizontal: 16 }}>
-          <Chip label="Read a whole work" active={kind === 'readthrough'} onPress={() => { setKind('readthrough'); setDays(7); }} />
-          <Chip label="Daily vow (vrata)" active={kind === 'vow'} onPress={() => { setKind('vow'); setDays(40); }} />
+          <Chip label={tr('Read a whole work')} active={kind === 'readthrough'} onPress={() => { setKind('readthrough'); setDays(7); }} />
+          <Chip label={tr('Daily vow (vrata)')} active={kind === 'vow'} onPress={() => { setKind('vow'); setDays(40); }} />
         </View>
 
         {kind === 'readthrough' ? (
           <>
-            <SectionHeading>Work</SectionHeading>
+            <SectionHeading>{tr('Work')}</SectionHeading>
             {allWorks.map((w) => (
               <Pressable key={w.key} onPress={() => {
                   setWork(w);
@@ -114,11 +116,11 @@ export default function NewPlan() {
           </>
         ) : (
           <>
-            <SectionHeading>Text</SectionHeading>
+            <SectionHeading>{tr('Text')}</SectionHeading>
             <TextInput
               value={query}
               onChangeText={setQuery}
-              placeholder="Search, e.g. lalitha, vishnu, ವಾಯು"
+              placeholder={tr('Search, e.g. lalitha, vishnu, ವಾಯು')}
               placeholderTextColor={theme.textMuted}
               style={[card, { borderColor: theme.cardBorder, backgroundColor: theme.card, color: theme.text, fontSize: 16 }]}
             />
@@ -131,7 +133,7 @@ export default function NewPlan() {
           </>
         )}
 
-        <SectionHeading>Days</SectionHeading>
+        <SectionHeading>{tr('Days')}</SectionHeading>
         <View style={{ flexDirection: 'row', flexWrap: 'wrap', gap: 8, marginHorizontal: 16 }}>
           {(kind === 'readthrough' ? (isLong(work) ? LONG_READTHROUGH_DAYS : READTHROUGH_DAYS) : VOW_DAYS).map((d) => (
             <Chip key={d} label={String(d)} active={days === d} onPress={() => setDays(d)} />
@@ -139,7 +141,7 @@ export default function NewPlan() {
         </View>
         {kind === 'vow' && (
           <>
-            <SectionHeading>Times a day</SectionHeading>
+            <SectionHeading>{tr('Times a day')}</SectionHeading>
             <View style={{ flexDirection: 'row', flexWrap: 'wrap', gap: 8, marginHorizontal: 16 }}>
               {VOW_PER_DAY.map((n) => (
                 <Chip key={n} label={`${n}×`} active={perDay === n} onPress={() => setPerDay(n)} />
@@ -153,7 +155,7 @@ export default function NewPlan() {
         disabled={!ready}
         style={{ position: 'absolute', left: 16, right: 16, bottom: 24, padding: 14, borderRadius: 14, alignItems: 'center', backgroundColor: ready ? theme.accent : theme.cardBorder }}
       >
-        <Text style={{ color: ready ? theme.onAccent : theme.textMuted, fontSize: 16, fontWeight: '700' }}>Start</Text>
+        <Text style={{ color: ready ? theme.onAccent : theme.textMuted, fontSize: 16, fontWeight: '700' }}>{tr('Start')}</Text>
       </Pressable>
     </View>
   );

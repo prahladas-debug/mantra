@@ -5,6 +5,7 @@ import { Pressable, StyleSheet, Text, View } from 'react-native';
 import { verseCount, type Mantra } from '../data';
 import { scriptFont } from '../lib/fonts';
 import type { Entry } from '../lib/groups';
+import { useI18n } from '../lib/i18n';
 import { useSettings } from '../lib/settings';
 import { translit, translitTitle, type ScriptId } from '../lib/transliterate';
 
@@ -14,9 +15,9 @@ export function titleFor(m: Mantra, script: ScriptId): { text: string; script: S
 }
 
 /** "Venkatesha Suprabhatam · 29 verses · partial" */
-function subtitleFor(m: Mantra, override?: string) {
+function subtitleFor(m: Mantra, tr: (s: string, vars?: Record<string, string | number>) => string, override?: string) {
   const n = verseCount(m);
-  return [override ?? m.titleEn, `${n} ${n === 1 ? 'verse' : 'verses'}`, m.completeness === 'partial' ? 'partial' : ''].filter(Boolean).join(' · ');
+  return [override ?? m.titleEn, n === 1 ? tr('{n} verse', { n }) : tr('{n} verses', { n }), m.completeness === 'partial' ? tr('partial') : ''].filter(Boolean).join(' · ');
 }
 
 /**
@@ -36,6 +37,7 @@ function shortName(m: Mantra, numbered?: boolean): string | undefined {
 /** One compact line for a text: title in the reader's script, English name and verse count under it. */
 export function TextRow({ mantra, subtitle, badge, divider, indent }: { mantra: Mantra; subtitle?: string; badge?: string; divider?: boolean; indent?: boolean }) {
   const { theme, settings, favorites } = useSettings();
+  const { tr } = useI18n();
   const t = titleFor(mantra, settings.script);
   const font = scriptFont(t.script, settings.bookFonts);
   return (
@@ -54,7 +56,7 @@ export function TextRow({ mantra, subtitle, badge, divider, indent }: { mantra: 
           {t.text}
         </Text>
         <Text style={{ color: theme.textMuted, fontSize: 13, marginTop: 1 }} numberOfLines={1}>
-          {subtitleFor(mantra, subtitle)}
+          {subtitleFor(mantra, tr, subtitle)}
         </Text>
       </View>
       {favorites.includes(mantra.id) && <Ionicons name="star" size={15} color={theme.accent} />}
@@ -66,6 +68,7 @@ export function TextRow({ mantra, subtitle, badge, divider, indent }: { mantra: 
 /** A multi-part work folded into one line; tap to show its parts. */
 function SeriesRow({ entry, divider }: { entry: Entry; divider?: boolean }) {
   const { theme, settings } = useSettings();
+  const { tr } = useI18n();
   const [open, setOpen] = useState(false);
   const parts = entry.parts!;
   const first = titleFor(entry.mantra, settings.script);
@@ -87,7 +90,7 @@ function SeriesRow({ entry, divider }: { entry: Entry; divider?: boolean }) {
             {title}
           </Text>
           <Text style={{ color: theme.textMuted, fontSize: 13, marginTop: 1 }} numberOfLines={1}>
-            {en} · {parts.length} parts
+            {tr('{en} · {n} parts', { en, n: parts.length })}
           </Text>
         </View>
         <Ionicons name={open ? 'chevron-up' : 'chevron-down'} size={17} color={theme.accent} />

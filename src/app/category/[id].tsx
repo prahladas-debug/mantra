@@ -11,6 +11,7 @@ import { bookWork } from '../../data/books';
 import { scriptFont } from '../../lib/fonts';
 import { BOOK_CATEGORIES, groupsFor } from '../../lib/groups';
 import { categoryTitle } from '../../lib/labels';
+import { useI18n } from '../../lib/i18n';
 import { useSettings } from '../../lib/settings';
 import { searchKey, translit } from '../../lib/transliterate';
 
@@ -18,6 +19,7 @@ import { searchKey, translit } from '../../lib/transliterate';
 export default function CategoryScreen() {
   const { id } = useLocalSearchParams<{ id: string }>();
   const { theme, settings, recent } = useSettings();
+  const { tr } = useI18n();
   const [only, setOnly] = useState<string | null>(null);
   const [q, setQ] = useState('');
   const category = categoryById[id as CategoryId];
@@ -35,7 +37,7 @@ export default function CategoryScreen() {
   const first = all[0];
   const opening = first?.sections.flatMap((x) => x.verses).find((v) => v.n !== undefined)?.text.split('\n').slice(0, 2).join('\n');
 
-  if (!category) return <Stack.Screen options={{ title: 'Not found' }} />;
+  if (!category) return <Stack.Screen options={{ title: tr('Not found') }} />;
 
   // The Ramayana and the Mahabharata: kandas/parvas and their sargas/adhyayas, from the manifest.
   const work = bookWork(category.id);
@@ -66,7 +68,7 @@ export default function CategoryScreen() {
         <View style={{ paddingTop: 14, paddingHorizontal: 16, paddingBottom: 4 }}>
           <Text style={{ color: theme.accent, fontSize: 26, fontFamily: font, fontWeight: font ? undefined : '700' }}>{categoryTitle(category, settings.script)}</Text>
           <Text style={{ color: theme.textMuted, fontSize: 14, marginTop: 2 }}>
-            {category.description} · {all.length} texts
+            {category.description} · {tr('{n} texts', { n: all.length })}
           </Text>
         </View>
       )}
@@ -77,14 +79,14 @@ export default function CategoryScreen() {
           <TextInput
             value={q}
             onChangeText={setQ}
-            placeholder={`Find in ${category.titleEn}`}
+            placeholder={tr('Find in {title}', { title: category.titleEn })}
             placeholderTextColor={theme.textMuted}
             autoCorrect={false}
             style={{ flex: 1, color: theme.text, fontSize: 15, paddingVertical: 9, paddingHorizontal: 8 }}
-            accessibilityLabel="Filter this list"
+            accessibilityLabel={tr('Filter this list')}
           />
           {q.length > 0 && (
-            <Pressable onPress={() => setQ('')} hitSlop={10} accessibilityLabel="Clear">
+            <Pressable onPress={() => setQ('')} hitSlop={10} accessibilityLabel={tr('Clear')}>
               <Ionicons name="close-circle" size={17} color={theme.textMuted} />
             </Pressable>
           )}
@@ -93,7 +95,7 @@ export default function CategoryScreen() {
 
       {allGroups.length > 2 && (
         <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={{ paddingHorizontal: 16, gap: 8, marginTop: 10 }}>
-          <Chip label="All" active={!only} onPress={() => setOnly(null)} />
+          <Chip label={tr('All')} active={!only} onPress={() => setOnly(null)} />
           {allGroups.map((g) => (
             <Chip key={g.id} label={`${g.title} ${g.entries.reduce((n, e) => n + (e.parts?.length ?? 1), 0)}`} active={only === g.id} onPress={() => setOnly(only === g.id ? null : g.id)} />
           ))}
@@ -108,7 +110,7 @@ export default function CategoryScreen() {
           <EntryCard entries={g.entries} numbered={isBook || category.id === 'homa'} />
         </View>
       ))}
-      {shown.length === 0 && <Text style={{ color: theme.textMuted, margin: 16 }}>Nothing matches “{q}”.</Text>}
+      {shown.length === 0 && <Text style={{ color: theme.textMuted, margin: 16 }}>{tr('Nothing matches “{q}”.', { q })}</Text>}
     </ScrollView>
   );
 }

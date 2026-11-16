@@ -4,11 +4,13 @@ import { useDeferredValue, useMemo, useState } from 'react';
 import { FlatList, Pressable, Text, TextInput, View } from 'react-native';
 import { MantraRow } from '../components/ui';
 import { search } from '../data';
+import { useI18n } from '../lib/i18n';
 import { useSettings } from '../lib/settings';
 import { translit } from '../lib/transliterate';
 
 export default function SearchScreen() {
   const { theme, settings } = useSettings();
+  const { tr } = useI18n();
   const [query, setQuery] = useState('');
   const deferred = useDeferredValue(query);
   const results = useMemo(() => search(deferred), [deferred]);
@@ -21,7 +23,7 @@ export default function SearchScreen() {
           autoFocus
           value={query}
           onChangeText={setQuery}
-          placeholder="e.g. vishnu, ವಾಯು, कमलाकुच, govinda"
+          placeholder={tr('e.g. vishnu, ವಾಯು, कमलाकुच, govinda')}
           placeholderTextColor={theme.textMuted}
           style={{ flex: 1, paddingVertical: 12, fontSize: 17, color: theme.text }}
           autoCapitalize="none"
@@ -35,10 +37,10 @@ export default function SearchScreen() {
         keyboardShouldPersistTaps="handled"
         ListEmptyComponent={
           deferred.trim().length >= 2 ? (
-            <Text style={{ color: theme.textMuted, textAlign: 'center', marginTop: 32 }}>No matches</Text>
+            <Text style={{ color: theme.textMuted, textAlign: 'center', marginTop: 32 }}>{tr('No matches')}</Text>
           ) : (
             <Text style={{ color: theme.textMuted, marginHorizontal: 16, lineHeight: 22 }}>
-              Type in English, IAST or any Indian script. Searches titles and every verse.
+              {tr('Type in English, IAST or any Indian script. Searches titles and every verse.')}
             </Text>
           )
         }
@@ -49,7 +51,7 @@ export default function SearchScreen() {
                 style={{ marginHorizontal: 16, marginBottom: 10, padding: 14, borderRadius: 14, borderWidth: 1, backgroundColor: theme.card, borderColor: theme.cardBorder }}>
                 <Text style={{ color: theme.accent, fontSize: 13, fontWeight: '600', marginBottom: 4 }}>
                   {item.mantra.titleEn}
-                  {item.verse.n !== undefined ? ` · verse ${item.verse.n}` : ''}
+                  {item.verse.n !== undefined ? ` · ${tr('verse {n}', { n: item.verse.n })}` : ''}
                 </Text>
                 <Text style={{ color: theme.text, fontSize: 17, lineHeight: 27 }} numberOfLines={3}>
                   {translit(item.verse.text, settings.script)}

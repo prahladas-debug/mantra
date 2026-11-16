@@ -3,6 +3,7 @@ import { router, type Href } from 'expo-router';
 import { Pressable, StyleSheet, Text, View } from 'react-native';
 import { getMantraInfo, scriptFor, type Mantra } from '../data';
 import { scriptFont } from '../lib/fonts';
+import { useI18n } from '../lib/i18n';
 import { useRoutineDay, useSettings } from '../lib/settings';
 import { translitTitle } from '../lib/transliterate';
 
@@ -12,6 +13,7 @@ import { translitTitle } from '../lib/transliterate';
  */
 export function RoutineCard({ compact }: { compact?: boolean }) {
   const { theme, settings, routine, routineDone, setRoutineDone } = useSettings();
+  const { tr } = useI18n();
   const day = useRoutineDay(settings.city);
   const done = routineDone[day] ?? [];
   const items = routine.map((id) => getMantraInfo(id)).filter((m) => !!m);
@@ -28,8 +30,8 @@ export function RoutineCard({ compact }: { compact?: boolean }) {
       >
         <Ionicons name="list-outline" size={22} color={theme.accent} />
         <View style={{ flex: 1 }}>
-          <Text style={{ color: theme.text, fontSize: 16, fontWeight: '600' }}>Set up your daily routine</Text>
-          <Text style={{ color: theme.textMuted, fontSize: 13 }}>Pick the texts you recite each day; tick them off as you go.</Text>
+          <Text style={{ color: theme.text, fontSize: 16, fontWeight: '600' }}>{tr('Set up your daily routine')}</Text>
+          <Text style={{ color: theme.textMuted, fontSize: 13 }}>{tr('Pick the texts you recite each day; tick them off as you go.')}</Text>
         </View>
         <Ionicons name="chevron-forward" size={18} color={theme.textMuted} />
       </Pressable>
@@ -46,7 +48,7 @@ export function RoutineCard({ compact }: { compact?: boolean }) {
       >
         <View style={{ flexDirection: 'row', alignItems: 'center' }}>
           <Text style={{ color: theme.textMuted, fontSize: 12, fontWeight: '700', letterSpacing: 0.8, flex: 1 }}>
-            TODAY’S ROUTINE · {finished}/{items.length}
+            {tr('Today’s routine · {done}/{total}', { done: finished, total: items.length }).toUpperCase()}
           </Text>
           {finished === items.length && <Ionicons name="checkmark-circle" size={18} color={theme.accent} />}
         </View>
@@ -54,7 +56,7 @@ export function RoutineCard({ compact }: { compact?: boolean }) {
           <View style={{ width: `${(finished / items.length) * 100}%`, height: '100%', backgroundColor: theme.accent }} />
         </View>
         <Text style={{ color: next ? theme.text : theme.accent, fontSize: 16, marginTop: 6, fontFamily: next ? fontOf(next) : undefined }} numberOfLines={1}>
-          {next ? `${translitTitle(next.title, settings.script)}  ›` : 'All done for today 🙏'}
+          {next ? `${translitTitle(next.title, settings.script)}  ›` : tr('All done for today 🙏')}
         </Text>
       </Pressable>
     );
@@ -71,7 +73,7 @@ export function RoutineCard({ compact }: { compact?: boolean }) {
               hitSlop={10}
               accessibilityRole="checkbox"
               accessibilityState={{ checked: ok }}
-              accessibilityLabel={`${m.titleEn} done today`}
+              accessibilityLabel={tr('{title} done today', { title: m.titleEn })}
             >
               <Ionicons name={ok ? 'checkmark-circle' : 'ellipse-outline'} size={26} color={ok ? theme.accent : theme.textMuted} />
             </Pressable>

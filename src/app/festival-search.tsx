@@ -3,6 +3,7 @@ import { router, useLocalSearchParams, type Href } from 'expo-router';
 import { useEffect, useMemo, useState } from 'react';
 import { FlatList, Pressable, Text, TextInput, View } from 'react-native';
 import { useCalcMethod, useCalendarMode, useEkadashiRule, useSauraStart } from '../components/PanchangaCard';
+import { useI18n } from '../lib/i18n';
 import { festivalsBetween, type Festival } from '../lib/festivals';
 import { cityById, todayIn, type CalcMethod } from '../lib/panchanga';
 import { plain } from '../lib/plain';
@@ -11,8 +12,6 @@ import { searchKey, translit } from '../lib/transliterate';
 
 const FIRST_YEAR = 2025;
 const LAST_YEAR = 2036;
-const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
-const WEEKDAYS = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
 
 /** Everyday names people type, mapped to the names the calendar uses. */
 const ALIASES: [RegExp, string][] = [
@@ -54,6 +53,7 @@ function allFestivals(c: Choice) {
 export default function FestivalSearch() {
   const params = useLocalSearchParams<{ q?: string }>();
   const { theme, settings } = useSettings();
+  const { lang, tr, has, month, weekday } = useI18n();
   const [rule] = useEkadashiRule();
   const [mode] = useCalendarMode();
   const [start] = useSauraStart();
@@ -91,7 +91,7 @@ export default function FestivalSearch() {
 
   const fmt = (iso: string) => {
     const [y, m, d] = iso.split('-').map(Number);
-    return `${WEEKDAYS[new Date(Date.UTC(y, m - 1, d)).getUTCDay()]} ${d} ${MONTHS[m - 1]} ${y}`;
+    return { dayMonthYear: `${d} ${month(m, true)} ${y}`, weekday: weekday(new Date(Date.UTC(y, m - 1, d)).getUTCDay()) };
   };
 
   return (
@@ -108,26 +108,26 @@ export default function FestivalSearch() {
               value={q}
               onChangeText={setQ}
               autoFocus
-              placeholder="Festival name — e.g. Ganesha Chaturthi, Ugadi"
+              placeholder={tr('Festival name — e.g. Ganesha Chaturthi, Ugadi')}
               placeholderTextColor={theme.textMuted}
               autoCorrect={false}
               style={{ flex: 1, color: theme.text, fontSize: 16, paddingVertical: 12, paddingHorizontal: 8 }}
-              accessibilityLabel="Search festivals"
+              accessibilityLabel={tr('Search festivals')}
             />
           </View>
           <Text style={{ color: theme.textMuted, fontSize: 13, marginHorizontal: 16, marginBottom: 8 }}>
-            {city.name} · {rule === 'madhva' ? 'Madhva' : 'Smarta'} · {mode === 'saura' ? 'Sauramana' : 'Chandramana'} · {FIRST_YEAR}–{LAST_YEAR}
+            {city.name} · {rule === 'madhva' ? tr('Madhva') : tr('Smarta')} · {mode === 'saura' ? tr('Sauramana') : tr('Chandramana')} · {FIRST_YEAR}–{LAST_YEAR}
           </Text>
         </View>
       }
       ListEmptyComponent={
         q.trim().length >= 3 && pending ? (
-          <Text style={{ color: theme.textMuted, margin: 16 }}>Working out the dates…</Text>
+          <Text style={{ color: theme.textMuted, margin: 16 }}>{tr('Working out the dates…')}</Text>
         ) : q.trim().length >= 3 ? (
-          <Text style={{ color: theme.textMuted, margin: 16 }}>No festival by that name. Try another spelling, or the name in Kannada or Sanskrit.</Text>
+          <Text style={{ color: theme.textMuted, margin: 16 }}>{tr('No festival by that name. Try another spelling, or the name in Kannada or Sanskrit.')}</Text>
         ) : (
           <Text style={{ color: theme.textMuted, margin: 16, lineHeight: 20 }}>
-            Type a festival or vrata to see its date in every year up to {LAST_YEAR}. You can also type in Kannada or Devanagari.
+            {tr('Type a festival or vrata to see its date in every year up to {year}. You can also type in Kannada or Devanagari.', { year: LAST_YEAR })}
           </Text>
         )
       }
@@ -136,20 +136,20 @@ export default function FestivalSearch() {
         const firstPast = past && (index === 0 || (results[index - 1].endDate ?? results[index - 1].date) >= today);
         return (
           <View>
-            {firstPast && <Text style={{ color: theme.textMuted, fontSize: 12, fontWeight: '700', letterSpacing: 0.8, marginHorizontal: 16, marginTop: 14, marginBottom: 4 }}>EARLIER</Text>}
+            {firstPast && <Text style={{ color: theme.textMuted, fontSize: 12, fontWeight: '700', letterSpacing: 0.8, marginHorizontal: 16, marginTop: 14, marginBottom: 4 }}>{tr('Earlier').toUpperCase()}</Text>}
             <Pressable
               onPress={() => router.push({ pathname: '/panchanga', params: { date: f.date } } as Href)}
               style={({ pressed }) => ({ flexDirection: 'row', alignItems: 'center', gap: 12, marginHorizontal: 16, marginBottom: 8, padding: 12, borderRadius: 12, borderWidth: 1, borderColor: theme.cardBorder, backgroundColor: theme.card, opacity: pressed ? 0.6 : past ? 0.7 : 1 })}
               accessibilityRole="button"
             >
               <View style={{ width: 112 }}>
-                <Text style={{ color: theme.accent, fontSize: 15, fontWeight: '700' }}>{fmt(f.date).split(' ').slice(1).join(' ')}</Text>
-                <Text style={{ color: theme.textMuted, fontSize: 12 }}>{fmt(f.date).split(' ')[0]}{f.endDate ? ` → ${f.endDate.slice(8)}/${f.endDate.slice(5, 7)}` : ''}</Text>
+                <Text style={{ color: theme.accent, fontSize: 15, fontWeight: '700' }}>{fmt(f.date).dayMonthYear}</Text>
+                <Text style={{ color: theme.textMuted, fontSize: 12 }}>{fmt(f.date).weekday}{f.endDate ? ` → ${f.endDate.slice(8)}/${f.endDate.slice(5, 7)}` : ''}</Text>
               </View>
               <View style={{ flex: 1 }}>
                 <Text style={{ color: theme.text, fontSize: 16 }} numberOfLines={1}>{translit(f.name, settings.script)}</Text>
-                <Text style={{ color: theme.textMuted, fontSize: 13 }} numberOfLines={2}>{plain(f.en)}</Text>
-                {f.parana && <Text style={{ color: theme.textMuted, fontSize: 12 }}>Parana {f.parana.label}</Text>}
+                <Text style={{ color: theme.textMuted, fontSize: 13 }} numberOfLines={2}>{lang === 'en' ? plain(f.en) : has(f.en) ? tr(f.en) : ''}</Text>
+                {f.parana && <Text style={{ color: theme.textMuted, fontSize: 12 }}>{tr('Parana {label}', { label: f.parana.label })}</Text>}
               </View>
               <Ionicons name="chevron-forward" size={18} color={theme.textMuted} />
             </Pressable>

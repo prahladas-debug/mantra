@@ -13,6 +13,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import * as Notifications from 'expo-notifications';
 import { Platform } from 'react-native';
 import { getMantraInfo } from '../data';
+import { translit } from './transliterate';
 import { planFestivalReminders, REMINDER_ID_PREFIX, type FestivalReminderOptions } from './festivalReminderPlan';
 import { CHANNEL, ensurePermission } from './reminders';
 
@@ -70,7 +71,10 @@ export function scheduleFestivalReminders(opts: FestivalReminderOptions, ask = t
   return serial(async () => {
     try {
       await cancelScheduled();
-      const plan = planFestivalReminders(opts, new Date(), (id) => getMantraInfo(id)?.titleEn);
+      const plan = planFestivalReminders(opts, new Date(), (id) => {
+        const m = getMantraInfo(id);
+        return m && (opts.lang && opts.lang !== 'en' ? translit(m.title, opts.script ?? 'devanagari') : m.titleEn);
+      });
       if (!plan.length || !(await ensurePermission(ask))) return 0;
       const ids: string[] = [];
       for (const r of plan) {

@@ -4,6 +4,7 @@ import { Pressable, ScrollView, Text, View } from 'react-native';
 import { getMantraInfo, scriptFor } from '../../data';
 import { collectionById } from '../../data/collections';
 import { scriptFont } from '../../lib/fonts';
+import { useI18n } from '../../lib/i18n';
 import { useSettings } from '../../lib/settings';
 import { translitTitle } from '../../lib/transliterate';
 
@@ -11,9 +12,10 @@ import { translitTitle } from '../../lib/transliterate';
 export default function CollectionScreen() {
   const { id } = useLocalSearchParams<{ id: string }>();
   const { theme, settings, routine, setRoutine } = useSettings();
+  const { tr } = useI18n();
   const c = collectionById(id);
   const font = scriptFont(settings.script, settings.bookFonts);
-  if (!c) return <Stack.Screen options={{ title: 'Not found' }} />;
+  if (!c) return <Stack.Screen options={{ title: tr('Not found') }} />;
   const items = c.items.map(getMantraInfo).filter((m) => !!m);
   const ids = items.map((m) => m.id);
   const allInRoutine = ids.every((x) => routine.includes(x));
@@ -30,7 +32,7 @@ export default function CollectionScreen() {
           style={({ pressed }) => ({ marginTop: 14, paddingHorizontal: 22, paddingVertical: 11, borderRadius: 22, backgroundColor: theme.accent, opacity: pressed ? 0.8 : 1 })}
           accessibilityRole="button"
         >
-          <Text style={{ color: theme.onAccent, fontSize: 16, fontWeight: '700' }}>Begin</Text>
+          <Text style={{ color: theme.onAccent, fontSize: 16, fontWeight: '700' }}>{tr('Begin')}</Text>
         </Pressable>
       </View>
 
@@ -60,7 +62,7 @@ export default function CollectionScreen() {
         style={{ alignSelf: 'center', marginTop: 18, padding: 8 }}
         accessibilityRole="button"
       >
-        <Text style={{ color: theme.accent, fontSize: 15 }}>{allInRoutine ? 'Remove these from my daily routine' : '＋ Add all to my daily routine'}</Text>
+        <Text style={{ color: theme.accent, fontSize: 15 }}>{allInRoutine ? tr('Remove these from my daily routine') : tr('＋ Add all to my daily routine')}</Text>
       </Pressable>
     </ScrollView>
   );

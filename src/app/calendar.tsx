@@ -5,14 +5,15 @@ import { Pressable, ScrollView, Text, View } from 'react-native';
 import { FestivalLine, NavButton, useCalcMethod, useCalendarMode, useSauraStart, useEkadashiRule } from '../components/PanchangaCard';
 import { CalendarBar } from '../components/CalendarBar';
 import { Chip, SectionHeading } from '../components/ui';
+import { T, useI18n } from '../lib/i18n';
+import { plain } from '../lib/plain';
 import { festivalsBetween, type CalendarMode, type Festival } from '../lib/festivals';
 import { sauraDay, type SauraStart } from '../lib/sauramana';
 import { MASA, RASHI, cityById, isoDate, lunarMonthAt, sunriseJd, sunriseTithi, todayIn, withMethod, type CalcMethod, type City } from '../lib/panchanga';
 import { useSettings } from '../lib/settings';
 import { translit } from '../lib/transliterate';
 
-const MONTHS = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
-const WEEK = ['Su', 'Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa'];
+const WEEK = [T('Su'), T('Mo'), T('Tu'), T('We'), T('Th'), T('Fr'), T('Sa')];
 
 /** Short tithi label for a grid cell: pakṣa abbreviation + number; पूर्णिमा / अमा(वास्या) spelled out. */
 function tithiShort(i: number): string {
@@ -71,6 +72,7 @@ function buildMonthOf(city: City, month: string, mode: CalendarMode, start: Saur
 
 export default function CalendarScreen() {
   const { theme, settings } = useSettings();
+  const { lang, tr, has, month: monthOf, dayMonth } = useI18n();
   const params = useLocalSearchParams<{ month?: string }>();
   const city = cityById(settings.city);
   const today = todayIn(city);
@@ -81,6 +83,8 @@ export default function CalendarScreen() {
   const [start] = useSauraStart();
   const [method] = useCalcMethod();
   const t = (s: string) => translit(s, settings.script);
+  // The English name is only a gloss: in another language it shows when translated, else the Sanskrit name.
+  const glossOf = (f: Festival) => (lang === 'en' ? plain(f.en) : has(f.en) ? tr(f.en) : t(f.name));
 
   // Cheap (sunrise times and festival lists are cached in the libraries). Worked out on each
   // render: the React Compiler is not switched on for this app (app.json experiments).
@@ -91,19 +95,19 @@ export default function CalendarScreen() {
 
   return (
     <ScrollView style={{ backgroundColor: theme.bg }} contentContainerStyle={{ paddingBottom: 40 }}>
-      <Stack.Screen options={{ title: 'Calendar' }} />
+      <Stack.Screen options={{ title: tr('Calendar') }} />
 
       <View style={{ flexDirection: 'row', alignItems: 'center', gap: 10, marginHorizontal: 16, marginTop: 12 }}>
-        <NavButton icon="chevron-back" label="Previous month" onPress={() => setPicked(shiftMonth(month, -1))} />
+        <NavButton icon="chevron-back" label={tr('Previous month')} onPress={() => setPicked(shiftMonth(month, -1))} />
         <View style={{ flex: 1, alignItems: 'center' }}>
           <Text style={{ color: theme.text, fontSize: 18, fontWeight: '700' }}>
-            {MONTHS[m - 1]} {y}
+            {monthOf(m)} {y}
           </Text>
           <Text style={{ color: theme.textMuted, fontSize: 13 }}>
             {t(lunarLabel)}
           </Text>
         </View>
-        <NavButton icon="chevron-forward" label="Next month" onPress={() => setPicked(shiftMonth(month, 1))} />
+        <NavButton icon="chevron-forward" label={tr('Next month')} onPress={() => setPicked(shiftMonth(month, 1))} />
       </View>
 
       <CalendarBar
@@ -111,7 +115,7 @@ export default function CalendarScreen() {
           <Pressable
             onPress={() => router.push({ pathname: '/festivals', params: { year: String(y) } } as Href)}
             accessibilityRole="button"
-            accessibilityLabel={`Festivals of ${y} as a list`}
+            accessibilityLabel={tr('Festivals of {year} as a list', { year: y })}
             hitSlop={8}
             style={({ pressed }) => ({ padding: 8, borderRadius: 18, borderWidth: 1, borderColor: theme.cardBorder, backgroundColor: theme.card, opacity: pressed ? 0.6 : 1 })}
           >
@@ -121,7 +125,7 @@ export default function CalendarScreen() {
       />
       {month !== today.slice(0, 7) && (
         <View style={{ alignItems: 'center', marginTop: 10 }}>
-          <Chip label="Back to this month" onPress={() => setPicked(today.slice(0, 7))} />
+          <Chip label={tr('Back to this month')} onPress={() => setPicked(today.slice(0, 7))} />
         </View>
       )}
 
@@ -129,7 +133,7 @@ export default function CalendarScreen() {
         <View style={{ flexDirection: 'row' }}>
           {WEEK.map((w, i) => (
             <Text key={w} style={{ flex: 1, textAlign: 'center', color: i === 0 ? theme.accent : theme.textMuted, fontSize: 12, fontWeight: '700' }}>
-              {w}
+              {tr(w)}
             </Text>
           ))}
         </View>
@@ -147,7 +151,7 @@ export default function CalendarScreen() {
                   key={ci}
                   onPress={() => router.push({ pathname: '/panchanga', params: { date: c.iso } } as Href)}
                   accessibilityRole="button"
-                  accessibilityLabel={`${c.day} ${MONTHS[m - 1]}${fs.length ? ', ' + fs.map((f) => f.en).join(', ') : ''}`}
+                  accessibilityLabel={`${dayMonth(m, c.day)}${fs.length ? ', ' + fs.map(glossOf).join(', ') : ''}`}
                   style={({ pressed }) => ({
                     flex: 1, margin: 2, minHeight: mode === 'saura' ? 72 : 58, paddingVertical: 4, borderRadius: 8, alignItems: 'center',
                     borderWidth: isToday ? 2 : 1,
@@ -175,15 +179,15 @@ export default function CalendarScreen() {
           </View>
         ))}
         <Text style={{ color: theme.textMuted, fontSize: 12, marginHorizontal: 8, marginTop: 6, lineHeight: 17 }}>
-          {mode === 'saura' ? 'Solar month and day (day 1 = the day after the sankranti day, Tulu/Udupi rule), then the ' : ''}
-          Tithi at sunrise ({t('शु')} = shukla, {t('कृ')} = krishna). Shaded with a coloured dot: ekadashi; dark dot: festival.
-          Tap a day for its full panchanga.
+          {mode === 'saura'
+            ? tr('Solar month and day (day 1 = the day after the sankranti day, Tulu/Udupi rule), then the Tithi at sunrise ({shukla} = shukla, {krishna} = krishna). Shaded with a coloured dot: ekadashi; dark dot: festival. Tap a day for its full panchanga.', { shukla: t('शु'), krishna: t('कृ') })
+            : tr('Tithi at sunrise ({shukla} = shukla, {krishna} = krishna). Shaded with a coloured dot: ekadashi; dark dot: festival. Tap a day for its full panchanga.', { shukla: t('शु'), krishna: t('कृ') })}
         </Text>
       </View>
 
-      <SectionHeading>This month</SectionHeading>
+      <SectionHeading>{tr('This month')}</SectionHeading>
       <View style={{ marginHorizontal: 16, borderRadius: 14, borderWidth: 1, borderColor: theme.cardBorder, backgroundColor: theme.card, paddingHorizontal: 12, paddingVertical: 8 }}>
-        {festivals.length === 0 && <Text style={{ color: theme.textMuted }}>No listed festivals.</Text>}
+        {festivals.length === 0 && <Text style={{ color: theme.textMuted }}>{tr('No listed festivals.')}</Text>}
         {festivals.map((f) => (
           <View key={`${f.key}-${f.date}`} style={{ paddingVertical: 2 }}>
             <FestivalLine f={f} showDate />
@@ -191,10 +195,9 @@ export default function CalendarScreen() {
         ))}
       </View>
       <Text style={{ color: theme.textMuted, fontSize: 13, margin: 16, lineHeight: 19 }}>
-        Ekadashi — Smarta: ekadashi at sunrise. Madhva: ekadashi must be free of dashami at arunodaya (
-        {method === 'surya' ? 'about 2¾–3 hours before sunrise, as the matha panchangas count it' : '96 minutes before sunrise'}),
-        otherwise the fast moves to the next day. Tap ⓘ beside a festival for details. Local matha and
-        temple calendars can differ by a day — follow your family panchanga.
+        {tr('Ekadashi — Smarta: ekadashi at sunrise. Madhva: ekadashi must be free of dashami at arunodaya ({arunodaya}), otherwise the fast moves to the next day. Tap ⓘ beside a festival for details. Local matha and temple calendars can differ by a day — follow your family panchanga.', {
+          arunodaya: method === 'surya' ? tr('about 2¾–3 hours before sunrise, as the matha panchangas count it') : tr('96 minutes before sunrise'),
+        })}
       </Text>
     </ScrollView>
   );

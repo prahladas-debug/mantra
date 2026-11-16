@@ -10,22 +10,23 @@ import { festivalsBetween } from '../../lib/festivals';
 import {
   VARA, addDays, cityById, cityLabel, formatTime, fromJulian, moonriseBetween, panchanga, parseIso, sunriseJd, todayIn, withMethod, type Span,
 } from '../../lib/panchanga';
+import { paranaNote } from '../../lib/parana';
 import { plain } from '../../lib/plain';
 import { sauraDay, sauraRtu, sauraSankalpa } from '../../lib/sauramana';
 import { useClockTick, useSettings } from '../../lib/settings';
 import { translit } from '../../lib/transliterate';
+import { useI18n } from '../../lib/i18n';
 
-const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
-const WEEKDAYS = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
 const ISO = /^\d{4}-\d{2}-\d{2}$/;
 
-/** A row label: plain English with the Sanskrit term in the reading script under it. */
+/** A row label: the term in the interface language, with the Sanskrit term in the reading script under it (English only). */
 type Label = [en: string, sa: string];
 type Row = [Label, string, ('good' | 'avoid')?];
 
 function Table({ rows }: { rows: Row[] }) {
   const { theme, settings } = useSettings();
-  const roman = settings.script === 'iast';
+  const { lang, tr } = useI18n();
+  const roman = settings.script === 'iast' || lang !== 'en';
   return (
     <View style={{ marginHorizontal: 16, borderRadius: 14, borderWidth: 1, borderColor: theme.cardBorder, backgroundColor: theme.card }}>
       {rows.map(([l, value, tone], i) => (
@@ -34,7 +35,7 @@ function Table({ rows }: { rows: Row[] }) {
           style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'flex-start', gap: 12, paddingHorizontal: 14, paddingVertical: 11, borderTopWidth: i ? 1 : 0, borderColor: theme.cardBorder }}
         >
           <View style={{ flexShrink: 0, minWidth: 96 }}>
-            <Text style={{ color: theme.text, fontSize: 15 }}>{l[0]}</Text>
+            <Text style={{ color: theme.text, fontSize: 15 }}>{tr(l[0])}</Text>
             {!roman && <Text style={{ color: theme.textMuted, fontSize: 13, marginTop: 1 }}>{translit(l[1], settings.script)}</Text>}
           </View>
           <Text
@@ -53,6 +54,7 @@ function Table({ rows }: { rows: Row[] }) {
 
 export default function PanchangaScreen() {
   const { theme, settings } = useSettings();
+  const { lang, tr, longDate } = useI18n();
   const insets = useSafeAreaInsets();
   const params = useLocalSearchParams<{ date?: string; at?: string }>();
   const city = cityById(settings.city);
@@ -84,13 +86,13 @@ export default function PanchangaScreen() {
   const visibleRise = useMemo(() => (ss ? fromJulian(withMethod('drik', () => sunriseJd(city, date))) : null), [ss, date, city]);
   const sankalpa = mode === 'saura' ? sauraSankalpa(p, saura) : p.sankalpa;
   const t = (s: string) => translit(s, settings.script);
-  const tm = (d: Date) => formatTime(d, city, date);
+  const tm = (d: Date) => formatTime(d, city, date, lang);
   const [y, m, d] = parseIso(date);
 
   const card = { marginHorizontal: 16, borderRadius: 14, borderWidth: 1, borderColor: theme.cardBorder, backgroundColor: theme.card } as const;
 
   // The five limbs, each with every element from sunrise to the next sunrise and its end time.
-  const until = (spans: Span[]) => spans.map((s) => `${t(s.name)} · till ${tm(s.end)}`).join('\n');
+  const until = (spans: Span[]) => spans.map((s) => `${t(s.name)} · ${tr('till {time}', { time: tm(s.end) })}`).join('\n');
   const limbs: Row[] = [
     [['Tithi', 'तिथिः'], until(p.tithis.map((s) => ({ ...s, name: `${s.index <= 15 ? 'शुक्ल' : 'कृष्ण'} ${s.name}` })))],
     [['Nakshatra', 'नक्षत्रम्'], until(p.nakshatras)],
@@ -105,7 +107,7 @@ export default function PanchangaScreen() {
     [['Season', 'ऋतुः'], t(mode === 'saura' ? sauraRtu(saura.rasi) : p.rtu)],
     ...(mode === 'saura'
       ? ([
-          [['Solar month', 'सौरमासः'], `${t(saura.name)} ${saura.day}\n${plain(saura.tulu)} ${saura.day} (Tulu)`],
+          [['Solar month', 'सौरमासः'], `${t(saura.name)} ${saura.day}\n${plain(saura.tulu)} ${saura.day} (${tr('Tulu')})`],
           [['Lunar month', 'चान्द्रमासः'], lunarMasa],
         ] as Row[])
       : ([
@@ -115,17 +117,17 @@ export default function PanchangaScreen() {
     [['Paksha', 'पक्षः'], t(p.paksha)],
   ];
   const sunMoon: Row[] = [
-    [['Sunrise', 'सूर्योदयः'], visibleRise ? `${tm(p.sunrise)}\nvisible ${tm(visibleRise)}` : tm(p.sunrise)],
+    [['Sunrise', 'सूर्योदयः'], visibleRise ? `${tm(p.sunrise)}\n${tr('visible {time}', { time: tm(visibleRise) })}` : tm(p.sunrise)],
     [['Sunset', 'सूर्यास्तः'], tm(p.sunset)],
-    [['Moonrise', 'चन्द्रोदयः'], moonrise === null ? 'None before the next sunrise' : tm(fromJulian(moonrise))],
+    [['Moonrise', 'चन्द्रोदयः'], moonrise === null ? tr('None before the next sunrise') : tm(fromJulian(moonrise))],
     [['Sun sign', 'सूर्यराशिः'], t(p.sunRashi)],
     [['Moon sign', 'चन्द्रराशिः'], until(p.moonRashis)],
   ];
   const span = (s: [Date, Date]) => `${tm(s[0])} – ${tm(s[1])}`;
   const parana = festivalsBetween(city, addDays(date, -1), addDays(date, -1), rule, mode, start, method).find((f) => f.kind === 'ekadashi' && f.parana?.date === date)?.parana;
   const times: Row[] = [
-    ...(parana ? ([[['Parana (break the fast)', 'पारणम्'], `${tm(parana.start)} – ${tm(parana.end)}${parana.note ? `\n${plain(parana.note)}` : ''}`, 'good']] as Row[]) : []),
-    [['Abhijit muhurta', 'अभिजित्'], `${span(p.abhijit)}${p.weekday === 3 ? '\n(not used on Wednesdays)' : ''}`, 'good'],
+    ...(parana ? ([[['Parana (break the fast)', 'पारणम्'], `${tm(parana.start)} – ${tm(parana.end)}${parana.note ? `\n${paranaNote(parana, city, lang)}` : ''}`, 'good']] as Row[]) : []),
+    [['Abhijit muhurta', 'अभिजित्'], `${span(p.abhijit)}${p.weekday === 3 ? `\n${tr('(not used on Wednesdays)')}` : ''}`, 'good'],
     [['Rahu kala', 'राहुकालः'], span(p.rahuKala), 'avoid'],
     [['Yamaganda', 'यमगण्डः'], span(p.yamaganda), 'avoid'],
     [['Gulika kala', 'गुलिककालः'], span(p.gulika), 'avoid'],
@@ -139,7 +141,7 @@ export default function PanchangaScreen() {
           <Pressable
             onPress={() => router.push('/festival-search')}
             accessibilityRole="button"
-            accessibilityLabel="Find a festival date"
+            accessibilityLabel={tr('Find a festival date')}
             hitSlop={8}
             style={({ pressed }) => ({ padding: 8, borderRadius: 18, borderWidth: 1, borderColor: theme.cardBorder, backgroundColor: theme.card, opacity: pressed ? 0.6 : 1 })}
           >
@@ -148,7 +150,7 @@ export default function PanchangaScreen() {
           <Pressable
             onPress={() => router.push({ pathname: '/calendar', params: { month: date.slice(0, 7) } } as Href)}
             accessibilityRole="button"
-            accessibilityLabel="Month calendar"
+            accessibilityLabel={tr('Month calendar')}
             hitSlop={8}
             style={({ pressed }) => ({ padding: 8, borderRadius: 18, borderWidth: 1, borderColor: theme.cardBorder, backgroundColor: theme.card, opacity: pressed ? 0.6 : 1 })}
           >
@@ -159,17 +161,17 @@ export default function PanchangaScreen() {
       />
 
       <View style={{ flexDirection: 'row', alignItems: 'center', gap: 10, marginHorizontal: 16, marginTop: 12 }}>
-        <NavButton icon="chevron-back" label="Previous day" onPress={() => setPicked(addDays(date, -1))} />
-        <Pressable style={{ flex: 1, alignItems: 'center' }} onPress={() => date !== today && setPicked(today)} accessibilityRole="button" accessibilityLabel={date !== today ? 'Back to today' : undefined}>
+        <NavButton icon="chevron-back" label={tr('Previous day')} onPress={() => setPicked(addDays(date, -1))} />
+        <Pressable style={{ flex: 1, alignItems: 'center' }} onPress={() => date !== today && setPicked(today)} accessibilityRole="button" accessibilityLabel={date !== today ? tr('Back to today') : undefined}>
           <Text style={{ color: theme.text, fontSize: 18, fontWeight: '700' }}>
-            {WEEKDAYS[p.weekday]}, {d} {MONTHS[m - 1]} {y}
+            {longDate(y, m, d, p.weekday)}
           </Text>
           <Text style={{ color: theme.textMuted, fontSize: 13 }}>
             {t(VARA[p.weekday])}
-            {date !== today ? <Text style={{ color: theme.accent }}>{'  ·  back to today'}</Text> : null}
+            {date !== today ? <Text style={{ color: theme.accent }}>{`  ·  ${tr('back to today')}`}</Text> : null}
           </Text>
         </Pressable>
-        <NavButton icon="chevron-forward" label="Next day" onPress={() => setPicked(addDays(date, 1))} />
+        <NavButton icon="chevron-forward" label={tr('Next day')} onPress={() => setPicked(addDays(date, 1))} />
       </View>
 
       {todays.length > 0 && (
@@ -182,40 +184,41 @@ export default function PanchangaScreen() {
         </View>
       )}
 
-      <SectionHeading>Panchanga · the five limbs</SectionHeading>
+      <SectionHeading>{tr('Panchanga · the five limbs')}</SectionHeading>
       <Table rows={limbs} />
 
-      <SectionHeading>Year and month</SectionHeading>
+      <SectionHeading>{tr('Year and month')}</SectionHeading>
       <Table rows={year} />
 
-      <SectionHeading>Sun and moon</SectionHeading>
+      <SectionHeading>{tr('Sun and moon')}</SectionHeading>
       <Table rows={sunMoon} />
 
-      <SectionHeading>Good and inauspicious times</SectionHeading>
+      <SectionHeading>{tr('Good and inauspicious times')}</SectionHeading>
       <Table rows={times} />
 
-      <SectionHeading>Sankalpa</SectionHeading>
+      <SectionHeading>{tr('Sankalpa')}</SectionHeading>
       <View style={[card, { padding: 14 }]}>
         <Text style={{ color: theme.text, fontSize: 18, lineHeight: 30 }} selectable>
           {t(sankalpa)}
         </Text>
       </View>
 
-      <SectionHeading>Coming festivals</SectionHeading>
+      <SectionHeading>{tr('Coming festivals')}</SectionHeading>
       <View style={[card, { paddingHorizontal: 12, paddingVertical: 8 }]}>
         {upcoming.length === 0 ? (
-          <Text style={{ color: theme.textMuted }}>None in the next 30 days.</Text>
+          <Text style={{ color: theme.textMuted }}>{tr('None in the next 30 days.')}</Text>
         ) : (
           upcoming.map((f) => <FestivalLine key={`${f.key}-${f.date}`} f={f} showDate />)
         )}
       </View>
 
       <Text style={{ color: theme.textMuted, fontSize: 13, margin: 16, lineHeight: 19 }}>
-        For {cityLabel(city)} · times are local ({city.tz >= 0 ? '+' : ''}{city.tz} h{city.dst ? ', with daylight saving' : ''}).{' '}
+        {tr('For {place} · times are local (UTC{offset} h).', { place: cityLabel(city), offset: `${city.tz >= 0 ? '+' : ''}${city.tz}` })}
+        {city.dst ? ` ${tr('Daylight saving is applied.')}` : ''}{' '}
         {ss
-          ? 'Surya Siddhanta panchanga, calculated on the phone by the classical text, with its sunrise (centre of the Sun, no refraction); tithi and nakshatra end times agree with matha panchangas to a few minutes. '
-          : 'Drik panchanga, calculated on the phone from the true positions of the Sun and Moon (Lahiri ayanamsha); tithi and nakshatra end times agree with published panchangas to about a minute. '}
-        For muhurtas, follow your family panchanga.
+          ? tr('Surya Siddhanta panchanga, calculated on the phone by the classical text, with its sunrise (centre of the Sun, no refraction); tithi and nakshatra end times agree with matha panchangas to a few minutes.')
+          : tr('Drik panchanga, calculated on the phone from the true positions of the Sun and Moon (Lahiri ayanamsha); tithi and nakshatra end times agree with published panchangas to about a minute.')}{' '}
+        {tr('For muhurtas, follow your family panchanga.')}
       </Text>
     </ScrollView>
   );

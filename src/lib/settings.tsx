@@ -2,6 +2,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import { createContext, useCallback, useContext, useEffect, useMemo, useRef, useState } from 'react';
 import { AppState, useColorScheme } from 'react-native';
 import { THEMES, type Theme, type ThemeName } from './theme';
+import type { UiPref } from './i18n';
 import type { MeaningPref } from './meaning';
 import { localDate, type Plan } from './plans';
 import { cityById, fromJulian, julianDay, sunEventJd, sunriseDayOf, todayIn, withMethod } from './panchanga';
@@ -18,6 +19,8 @@ export interface Settings {
   alwaysShowMeanings: boolean;
   /** Which language(s) meanings are shown in. */
   meaningLang: MeaningPref;
+  /** Language of the app's own words; 'auto' follows the meanings language. */
+  uiLang: UiPref;
   keepAwake: boolean;
   /** Reader's choices for texts with variants, e.g. { tradition: 'madhva', time: 'morning' }. */
   variants: Partial<Record<string, string>>;
@@ -70,6 +73,7 @@ const DEFAULTS: Store = {
     theme: 'system',
     alwaysShowMeanings: false,
     meaningLang: 'auto',
+    uiLang: 'auto',
     keepAwake: true,
     variants: {},
     city: 'bengaluru',

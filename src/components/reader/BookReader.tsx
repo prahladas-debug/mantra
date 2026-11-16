@@ -3,6 +3,7 @@ import { useCallback, useEffect, useImperativeHandle, useLayoutEffect, useMemo, 
 import { FlatList, Pressable, ScrollView, StyleSheet, Text, useWindowDimensions, View } from 'react-native';
 import { leading, scriptFont } from '../../lib/fonts';
 import { scriptFor } from '../../data';
+import { useI18n } from '../../lib/i18n';
 import { useSettings } from '../../lib/settings';
 import { translit, translitTitle, type ScriptId } from '../../lib/transliterate';
 import { EndMatter, IntroBlock, SectionBlock, VerseBlock } from './blocks';
@@ -111,6 +112,7 @@ export function BookReader({
   ref: Ref<BookHandle>;
 }) {
   const { theme, settings } = useSettings();
+  const { tr } = useI18n();
   const { mantra, opened, highlight, practice, revealed, pinching } = useReader();
   const { width } = useWindowDimensions();
   const [height, setHeight] = useState(0);
@@ -229,10 +231,10 @@ export function BookReader({
         />
       )}
       <View style={[s.bar, { borderColor: theme.cardBorder, backgroundColor: theme.bg }]}>
-        <Pressable onPress={() => goTo(page - 1)} disabled={page === 0} hitSlop={12} accessibilityLabel="Previous page">
+        <Pressable onPress={() => goTo(page - 1)} disabled={page === 0} hitSlop={12} accessibilityLabel={tr('Previous page')}>
           <Ionicons name="chevron-back" size={26} color={page === 0 ? theme.cardBorder : theme.accent} />
         </Pressable>
-        <Pressable onPress={() => goTo(0)} hitSlop={8} accessibilityLabel="Go to the first page" style={{ marginLeft: 8 }}>
+        <Pressable onPress={() => goTo(0)} hitSlop={8} accessibilityLabel={tr('Go to the first page')} style={{ marginLeft: 8 }}>
           <Ionicons name="play-skip-back-outline" size={18} color={theme.textMuted} />
         </Pressable>
         <View style={{ flex: 1, marginHorizontal: 12 }}>
@@ -240,10 +242,10 @@ export function BookReader({
             <View style={{ width: `${pages.length ? ((page + 1) / pages.length) * 100 : 0}%`, height: 4, backgroundColor: theme.accent, borderRadius: 2 }} />
           </View>
           <Text style={{ color: theme.textMuted, fontSize: 12, textAlign: 'center', marginTop: 3 }}>
-            {pages.length ? `Page ${page + 1} of ${pages.length}` : ''}
+            {pages.length ? tr('Page {n} of {total}', { n: page + 1, total: pages.length }) : ''}
           </Text>
         </View>
-        <Pressable onPress={() => goTo(page + 1)} disabled={page >= pages.length - 1} hitSlop={12} accessibilityLabel="Next page">
+        <Pressable onPress={() => goTo(page + 1)} disabled={page >= pages.length - 1} hitSlop={12} accessibilityLabel={tr('Next page')}>
           <Ionicons name="chevron-forward" size={26} color={page >= pages.length - 1 ? theme.cardBorder : theme.accent} />
         </Pressable>
       </View>

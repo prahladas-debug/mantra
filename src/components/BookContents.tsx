@@ -7,6 +7,7 @@ import { linkedCategory, partItems, workSequence } from '../data/books';
 import type { BookPartEntry, BookWork } from '../data/types';
 import { scriptFont } from '../lib/fonts';
 import { primaryLang } from '../lib/meaning';
+import { useI18n } from '../lib/i18n';
 import { plain } from '../lib/plain';
 import { useSettings } from '../lib/settings';
 import { searchKey, translit, translitTitle } from '../lib/transliterate';
@@ -30,6 +31,7 @@ const MAX_FILTERED = 100;
  */
 export function BookContents({ category, work }: { category: Category; work: BookWork }) {
   const { theme, settings, recent } = useSettings();
+  const { tr } = useI18n();
   const font = scriptFont(settings.script, settings.bookFonts);
   const [q, setQ] = useState('');
 
@@ -108,14 +110,14 @@ export function BookContents({ category, work }: { category: Category; work: Boo
           <TextInput
             value={q}
             onChangeText={setQ}
-            placeholder={`Find a ${work.unitLabel} in ${work.titleEn}`}
+            placeholder={tr('Find a {unit} in {title}', { unit: work.unitLabel, title: work.titleEn })}
             placeholderTextColor={theme.textMuted}
             autoCorrect={false}
             style={{ flex: 1, color: theme.text, fontSize: 15, paddingVertical: 9, paddingHorizontal: 8 }}
-            accessibilityLabel="Filter this list"
+            accessibilityLabel={tr('Filter this list')}
           />
           {q.length > 0 && (
-            <Pressable onPress={() => setQ('')} hitSlop={10} accessibilityLabel="Clear">
+            <Pressable onPress={() => setQ('')} hitSlop={10} accessibilityLabel={tr('Clear')}>
               <Ionicons name="close-circle" size={17} color={theme.textMuted} />
             </Pressable>
           )}
@@ -132,8 +134,8 @@ export function BookContents({ category, work }: { category: Category; work: Boo
           const expanded = filtering || (open.has(p.part) && !linked);
           const sizes = [
             p.nameEn,
-            !linked && count < p.unitCount ? `${count} of ${p.unitCount} ${work.unitLabel}s` : `${p.unitCount} ${work.unitLabel}s`,
-            `${p.verseCount.toLocaleString('en-IN')} verses`,
+            !linked && count < p.unitCount ? tr('{count} of {total} {unit}s', { count, total: p.unitCount, unit: work.unitLabel }) : tr('{n} {unit}s', { n: p.unitCount, unit: work.unitLabel }),
+            tr('{n} verses', { n: p.verseCount.toLocaleString('en-IN') }),
           ];
           const summary = p.summary[lang] ?? p.summary.en;
           return (
@@ -153,7 +155,7 @@ export function BookContents({ category, work }: { category: Category; work: Boo
                     {translitTitle(p.name, settings.script)}
                   </Text>
                   <Text style={{ color: theme.textMuted, fontSize: 13, marginTop: 1 }} numberOfLines={1}>
-                    {ready ? sizes.join(' · ') : `${p.nameEn} · to be added`}
+                    {ready ? sizes.join(' · ') : tr('{name} · to be added', { name: p.nameEn })}
                   </Text>
                 </View>
                 {ready && !filtering && <Ionicons name={linked ? 'chevron-forward' : expanded ? 'chevron-up' : 'chevron-down'} size={18} color={linked ? theme.textMuted : theme.accent} />}
@@ -172,10 +174,10 @@ export function BookContents({ category, work }: { category: Category; work: Boo
           );
         })}
       </View>
-      {matches && matches.total === 0 && <Text style={{ color: theme.textMuted, margin: 16 }}>Nothing matches “{q}”.</Text>}
+      {matches && matches.total === 0 && <Text style={{ color: theme.textMuted, margin: 16 }}>{tr('Nothing matches “{q}”.', { q })}</Text>}
       {matches && matches.total > MAX_FILTERED && (
         <Text style={{ color: theme.textMuted, margin: 16 }}>
-          The first {MAX_FILTERED} of {matches.total.toLocaleString('en-IN')} that match. Type more to narrow the list.
+          {tr('The first {max} of {total} that match. Type more to narrow the list.', { max: MAX_FILTERED, total: matches.total.toLocaleString('en-IN') })}
         </Text>
       )}
     </View>

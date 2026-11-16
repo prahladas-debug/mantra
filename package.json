@@ -54,7 +54,7 @@
     "content:check": "tsx scripts/gen-index.ts && tsx scripts/build-books.ts && tsx scripts/validate-content.ts",
     "content:books": "tsx scripts/build-books.ts",
     "build:web": "expo export --platform web",
-    "test": "tsx scripts/test-transliterate.ts && tsx scripts/test-panchanga.ts && tsx scripts/test-surya-siddhanta.ts && tsx scripts/test-festival-reminders.ts && tsx scripts/gen-index.ts && tsx scripts/build-books.ts && tsx scripts/test-books.ts && tsx scripts/validate-content.ts && tsx scripts/validate-meanings.ts",
+    "test": "tsx scripts/test-transliterate.ts && tsx scripts/test-panchanga.ts && tsx scripts/test-surya-siddhanta.ts && tsx scripts/test-festival-reminders.ts && tsx scripts/gen-index.ts && tsx scripts/build-books.ts && tsx scripts/test-books.ts && tsx scripts/validate-content.ts && tsx scripts/validate-meanings.ts && tsx scripts/i18n-check.ts",
     "lint": "expo lint"
   },
   "private": true

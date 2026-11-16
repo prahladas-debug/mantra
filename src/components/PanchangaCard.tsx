@@ -10,6 +10,8 @@ import { getMantraInfo } from '../data';
 import { useClockTick, useSettings } from '../lib/settings';
 import { plain } from '../lib/plain';
 import { translit } from '../lib/transliterate';
+import { useI18n } from '../lib/i18n';
+import { paranaLabel, paranaNote, paranaTimes } from '../lib/parana';
 
 // ---------- small persisted preferences shared by the pañcāṅga screens ----------
 
@@ -132,7 +134,15 @@ export function NavButton({ icon, label, onPress }: { icon: 'chevron-back' | 'ch
 /** One festival: name, plain-English name, a "read" link to its text and an ⓘ that opens its note. */
 export function FestivalLine({ f, showDate, showNote }: { f: Festival; showDate?: boolean; showNote?: boolean }) {
   const { theme, settings } = useSettings();
+  const { lang, tr, has, dayMonth } = useI18n();
+  const city = cityById(settings.city);
   const [open, setOpen] = useState(!!showNote);
+  // The English name is a gloss under the Sanskrit one: in another language it shows only when
+  // translated (an ekādaśī's name alone is already the Sanskrit line).
+  const gloss = lang === 'en' ? plain(f.en) : has(f.en) ? tr(f.en) : '';
+  const note = f.note ? (lang === 'en' || !has(f.note) ? plain(f.note) : tr(f.note)) : undefined;
+  const pNote = f.parana ? paranaNote(f.parana, city, lang) : undefined;
+  const md = (iso: string) => dayMonth(Number(iso.slice(5, 7)), Number(iso.slice(8)));
   return (
     <View style={{ paddingVertical: 5 }}>
       <View style={{ flexDirection: 'row', alignItems: 'flex-start', gap: 8 }}>
@@ -147,24 +157,24 @@ export function FestivalLine({ f, showDate, showNote }: { f: Festival; showDate?
             {translit(f.name, settings.script)}
           </Text>
           <Text style={{ color: theme.textMuted, fontSize: 13, marginTop: 1 }}>
-            {plain(f.en)}
-            {f.endDate ? ` (to ${f.endDate.slice(8)}/${f.endDate.slice(5, 7)})` : ''}
-            {f.textId ? <Text style={{ color: theme.accent }}>{'  ·  read ›'}</Text> : null}
+            {gloss}
+            {f.endDate ? `${gloss ? ' ' : ''}(${tr('to {date}', { date: md(f.endDate) })})` : ''}
+            {f.textId ? <Text style={{ color: theme.accent }}>{`${gloss || f.endDate ? '  ·  ' : ''}${tr('read')} ›`}</Text> : null}
           </Text>
           {f.parana && (
             <Text style={{ color: theme.text, fontSize: 13, marginTop: 1 }}>
-              Parana (break the fast): {f.parana.label}
+              {tr('Parana (break the fast): {label}', { label: paranaLabel(f.parana, city, lang) })}
             </Text>
           )}
         </Pressable>
-        {(f.note || f.parana?.note) && !showNote ? (
-          <Pressable onPress={() => setOpen(!open)} hitSlop={10} accessibilityRole="button" accessibilityLabel={open ? 'Hide details' : 'Show details'}>
+        {(note || pNote) && !showNote ? (
+          <Pressable onPress={() => setOpen(!open)} hitSlop={10} accessibilityRole="button" accessibilityLabel={open ? tr('Hide details') : tr('Show details')}>
             <Ionicons name={open ? 'information-circle' : 'information-circle-outline'} size={20} color={theme.textMuted} />
           </Pressable>
         ) : null}
       </View>
-      {open && f.note ? <Text style={{ color: theme.textMuted, fontSize: 13, lineHeight: 18, marginTop: 3 }}>{plain(f.note)}</Text> : null}
-      {open && f.parana?.note ? <Text style={{ color: theme.textMuted, fontSize: 13, lineHeight: 18, marginTop: 3 }}>Parana: {plain(f.parana.note)}</Text> : null}
+      {open && note ? <Text style={{ color: theme.textMuted, fontSize: 13, lineHeight: 18, marginTop: 3 }}>{note}</Text> : null}
+      {open && pNote ? <Text style={{ color: theme.textMuted, fontSize: 13, lineHeight: 18, marginTop: 3 }}>{tr('Parana: {note}', { note: lang === 'en' ? plain(pNote) : pNote })}</Text> : null}
     </View>
   );
 }
@@ -172,6 +182,8 @@ export function FestivalLine({ f, showDate, showNote }: { f: Festival; showDate?
 /** Home card: today's month and tithi, today's festival with its text, and tomorrow's observance. */
 export function TodayCard() {
   const { theme, settings } = useSettings();
+  const { lang, tr, has, dayMonth } = useI18n();
+  const gloss = (f: Festival) => (lang === 'en' ? plain(f.en) : has(f.en) ? tr(f.en) : translit(f.name, settings.script));
   const { p, city, today, method } = usePanchanga();
   const [rule] = useEkadashiRule();
   const [mode] = useCalendarMode();
@@ -197,7 +209,7 @@ export function TodayCard() {
       {/* No date: the Panchanga tab then shows today, also tomorrow. `at` changes with every tap, so a day picked there earlier gives way. */}
       <Pressable onPress={() => router.push({ pathname: '/panchanga', params: { at: String(Date.now()) } } as Href)} style={({ pressed }) => ({ padding: 14, opacity: pressed ? 0.7 : 1 })} accessibilityRole="link">
         <Text style={{ color: theme.textMuted, fontSize: 12, fontWeight: '700', letterSpacing: 0.8 }}>
-          TODAY · {city.name.toUpperCase()}
+          {tr('TODAY')} · {city.name.toUpperCase()}
         </Text>
         <Text style={{ color: theme.accent, fontSize: 18, fontWeight: '700', marginTop: 4 }}>
           {saura
@@ -221,8 +233,8 @@ export function TodayCard() {
             <Ionicons name={f.kind === 'ekadashi' ? 'moon-outline' : 'sparkles-outline'} size={18} color={theme.accent} />
             <View style={{ flex: 1 }}>
               <Text style={{ color: theme.accent, fontSize: 16, fontWeight: '600' }}>{t(f.name)}</Text>
-              {m && <Text style={{ color: theme.text, fontSize: 13 }}>Read: {m.titleEn} ›</Text>}
-              {f.parana && <Text style={{ color: theme.textMuted, fontSize: 12 }}>Parana {f.parana.label}</Text>}
+              {m && <Text style={{ color: theme.text, fontSize: 13 }}>{tr('Read: {title}', { title: lang === 'en' ? m.titleEn : translit(m.title, settings.script) })} ›</Text>}
+              {f.parana && <Text style={{ color: theme.textMuted, fontSize: 12 }}>{tr('Parana {label}', { label: paranaLabel(f.parana, city, lang) })}</Text>}
             </View>
           </Pressable>
         );
@@ -230,7 +242,7 @@ export function TodayCard() {
       {ongoing.length > 0 && (
         <View style={{ paddingHorizontal: 14, paddingVertical: 8, borderTopWidth: 1, borderColor: theme.cardBorder }}>
           <Text style={{ color: theme.textMuted, fontSize: 13 }} numberOfLines={2}>
-            {ongoing.map((f) => `${plain(f.en).replace(/ \(.*\)$/, '')} (to ${Number(f.endDate!.slice(8))}/${Number(f.endDate!.slice(5, 7))})`).join(' · ')}
+            {ongoing.map((f) => `${gloss(f).replace(/ \(.*\)$/, '')} (${tr('to {date}', { date: dayMonth(Number(f.endDate!.slice(5, 7)), Number(f.endDate!.slice(8))) })})`).join(' · ')}
           </Text>
         </View>
       )}
@@ -238,15 +250,15 @@ export function TodayCard() {
         <View style={{ flexDirection: 'row', alignItems: 'center', gap: 10, paddingHorizontal: 14, paddingVertical: 10, borderTopWidth: 1, borderColor: theme.cardBorder }}>
           <Ionicons name="restaurant-outline" size={18} color={theme.accent} />
           <Text style={{ color: theme.text, fontSize: 14, flex: 1 }}>
-            Break the Ekadashi fast today: <Text style={{ fontWeight: '700' }}>{breakFast.label.replace(/ on .*$/, '')}</Text>
-            {breakFast.note ? <Text style={{ color: theme.textMuted, fontSize: 12 }}>{`\n${plain(breakFast.note)}`}</Text> : null}
+            {tr('Break the Ekadashi fast today:')} <Text style={{ fontWeight: '700' }}>{paranaTimes(breakFast, city, lang)}</Text>
+            {breakFast.note ? <Text style={{ color: theme.textMuted, fontSize: 12 }}>{`\n${lang === 'en' ? plain(breakFast.note) : paranaNote(breakFast, city, lang)}`}</Text> : null}
           </Text>
         </View>
       )}
       {tomorrow.length > 0 && (
         <View style={{ paddingHorizontal: 14, paddingVertical: 9, borderTopWidth: 1, borderColor: theme.cardBorder }}>
           <Text style={{ color: theme.textMuted, fontSize: 13 }}>
-            Tomorrow: <Text style={{ color: theme.text }}>{tomorrow.map((f) => plain(f.en)).join(' · ')}</Text>
+            {tr('Tomorrow:')} <Text style={{ color: theme.text }}>{tomorrow.map(gloss).join(' · ')}</Text>
           </Text>
         </View>
       )}
@@ -257,6 +269,7 @@ export function TodayCard() {
 /** Saṅkalpa phrase for today, shown at the top of Sandhyāvandane / pūjā texts. */
 export function SankalpaCard() {
   const { theme, settings } = useSettings();
+  const { tr } = useI18n();
   const { p, city, today, method } = usePanchanga();
   const [mode] = useCalendarMode();
   const [start] = useSauraStart();
@@ -264,13 +277,13 @@ export function SankalpaCard() {
   return (
     <View style={{ marginTop: 14, padding: 12, borderRadius: 12, borderWidth: 1, borderColor: theme.cardBorder, backgroundColor: theme.card }}>
       <Text style={{ color: theme.textMuted, fontSize: 13, fontWeight: '700', marginBottom: 6 }}>
-        Today’s sankalpa · {city.name}
+        {tr('Today’s sankalpa')} · {city.name}
       </Text>
       <Text style={{ color: theme.text, fontSize: 17, lineHeight: 28 }} selectable>
         {translit(sankalpa, settings.script)}
       </Text>
       <Text style={{ color: theme.textMuted, fontSize: 12, marginTop: 6 }}>
-        Use in place of the samvatsara…tithi placeholders. Computed for sunrise; change the place in Panchanga.
+        {tr('Use in place of the samvatsara…tithi placeholders. Computed for sunrise; change the place in Panchanga.')}
       </Text>
     </View>
   );

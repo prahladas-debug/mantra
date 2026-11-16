@@ -2,6 +2,7 @@ import { Ionicons } from '@expo/vector-icons';
 import { Tabs } from 'expo-router';
 import type { ColorValue } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
+import { useI18n } from '../../lib/i18n';
 import { useSettings } from '../../lib/settings';
 
 type Icon = keyof typeof Ionicons.glyphMap;
@@ -13,6 +14,7 @@ const icon = (name: Icon, focused: Icon) =>
 /** Four tabs: Home, Panchanga, Library, My practice. Everything else opens on top of them. */
 export default function TabLayout() {
   const { theme } = useSettings();
+  const { tr } = useI18n();
   const insets = useSafeAreaInsets();
   return (
     <Tabs
@@ -35,10 +37,10 @@ export default function TabLayout() {
         tabBarLabelStyle: { fontSize: 12 },
       }}
     >
-      <Tabs.Screen name="index" options={{ title: 'Home', headerShown: false, tabBarIcon: icon('home-outline', 'home') }} />
-      <Tabs.Screen name="panchanga" options={{ title: 'Panchanga', headerShown: false, tabBarIcon: icon('sunny-outline', 'sunny') }} />
-      <Tabs.Screen name="library" options={{ title: 'Library', tabBarIcon: icon('library-outline', 'library') }} />
-      <Tabs.Screen name="practice" options={{ title: 'My practice', tabBarIcon: icon('flower-outline', 'flower') }} />
+      <Tabs.Screen name="index" options={{ title: tr('Home'), headerShown: false, tabBarIcon: icon('home-outline', 'home') }} />
+      <Tabs.Screen name="panchanga" options={{ title: tr('Panchanga'), headerShown: false, tabBarIcon: icon('sunny-outline', 'sunny') }} />
+      <Tabs.Screen name="library" options={{ title: tr('Library'), tabBarIcon: icon('library-outline', 'library') }} />
+      <Tabs.Screen name="practice" options={{ title: tr('My practice'), tabBarIcon: icon('flower-outline', 'flower') }} />
     </Tabs>
   );
 }

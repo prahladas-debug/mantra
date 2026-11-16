@@ -2,6 +2,7 @@ import { Ionicons } from '@expo/vector-icons';
 import { Modal, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import type { Mantra } from '../../data';
+import { useI18n } from '../../lib/i18n';
 import { useSettings } from '../../lib/settings';
 import { translit } from '../../lib/transliterate';
 import type { Row } from './rows';
@@ -15,17 +16,18 @@ export function shownSections(mantra: Mantra, rows: Row[]) {
 /** The reader's contents: tap a section to go there. */
 export function ContentsSheet({ visible, onClose, mantra, rows, onJump }: { visible: boolean; onClose: () => void; mantra: Mantra; rows: Row[]; onJump: (key: string) => void }) {
   const { theme, settings } = useSettings();
+  const { tr } = useI18n();
   const insets = useSafeAreaInsets();
   const sections = shownSections(mantra, rows);
   return (
     <Modal visible={visible} transparent animationType="slide" onRequestClose={onClose}>
-      <Pressable style={{ flex: 1, backgroundColor: '#0005' }} onPress={onClose} accessibilityLabel="Close contents" />
+      <Pressable style={{ flex: 1, backgroundColor: '#0005' }} onPress={onClose} accessibilityLabel={tr('Close contents')} />
       <View style={{ maxHeight: '70%', backgroundColor: theme.bg, borderTopLeftRadius: 18, borderTopRightRadius: 18 }}>
         <View style={{ alignSelf: 'center', width: 40, height: 4, borderRadius: 2, marginTop: 8, backgroundColor: theme.cardBorder }} />
         <View style={{ flexDirection: 'row', alignItems: 'center', paddingHorizontal: 16, paddingTop: 6, paddingBottom: 8 }}>
-          <Text style={{ color: theme.text, fontSize: 19, fontWeight: '700', flex: 1 }}>Contents</Text>
+          <Text style={{ color: theme.text, fontSize: 19, fontWeight: '700', flex: 1 }}>{tr('Contents')}</Text>
           <Pressable onPress={onClose} hitSlop={10} accessibilityRole="button">
-            <Text style={{ color: theme.accent, fontSize: 16, fontWeight: '700' }}>Close</Text>
+            <Text style={{ color: theme.accent, fontSize: 16, fontWeight: '700' }}>{tr('Close')}</Text>
           </Pressable>
         </View>
         <ScrollView contentContainerStyle={{ paddingHorizontal: 16, paddingBottom: insets.bottom + 20 }}>

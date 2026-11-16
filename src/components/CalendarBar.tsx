@@ -3,6 +3,7 @@ import { useState } from 'react';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { FlatList, Modal, Platform, Pressable, ScrollView, Text, TextInput, View } from 'react-native';
 import { cityById, cityLabel, searchCities, type City } from '../lib/panchanga';
+import { useI18n } from '../lib/i18n';
 import { useSettings } from '../lib/settings';
 import { useCalcMethod, useCalendarMode, useEkadashiRule, useSauraStart } from './PanchangaCard';
 import { Segmented } from './ui';
@@ -10,6 +11,7 @@ import { Segmented } from './ui';
 /** Full-screen searchable list of every Indian town of 15,000+ people, plus places abroad. */
 export function CityPicker({ visible, onClose }: { visible: boolean; onClose: () => void }) {
   const { theme, settings, update } = useSettings();
+  const { tr } = useI18n();
   const insets = useSafeAreaInsets();
   // On Android the modal covers the whole screen, under the status bar and the navigation
   // buttons; on iOS it is a sheet that starts below the status bar.
@@ -25,8 +27,8 @@ export function CityPicker({ visible, onClose }: { visible: boolean; onClose: ()
     <Modal visible={visible} animationType="slide" presentationStyle="pageSheet" onRequestClose={onClose}>
       <View style={{ flex: 1, backgroundColor: theme.bg, paddingTop: top + 12 }}>
         <View style={{ flexDirection: 'row', alignItems: 'center', marginHorizontal: 16, gap: 10 }}>
-          <Text style={{ flex: 1, color: theme.text, fontSize: 20, fontWeight: '700' }}>Choose your place</Text>
-          <Pressable onPress={onClose} accessibilityRole="button" accessibilityLabel="Close" hitSlop={10}>
+          <Text style={{ flex: 1, color: theme.text, fontSize: 20, fontWeight: '700' }}>{tr('Choose your place')}</Text>
+          <Pressable onPress={onClose} accessibilityRole="button" accessibilityLabel={tr('Close')} hitSlop={10}>
             <Ionicons name="close" size={26} color={theme.textMuted} />
           </Pressable>
         </View>
@@ -36,14 +38,14 @@ export function CityPicker({ visible, onClose }: { visible: boolean; onClose: ()
             value={q}
             onChangeText={setQ}
             autoFocus
-            placeholder="Search city or town (e.g. Udupi, Bangalore)"
+            placeholder={tr('Search city or town (e.g. Udupi, Bangalore)')}
             placeholderTextColor={theme.textMuted}
             autoCorrect={false}
             style={{ flex: 1, color: theme.text, fontSize: 16, paddingVertical: 12, paddingHorizontal: 8 }}
-            accessibilityLabel="Search city"
+            accessibilityLabel={tr('Search city')}
           />
         </View>
-        {!q && <Text style={{ color: theme.textMuted, fontSize: 13, marginHorizontal: 16, marginBottom: 6 }}>Popular · type to search about 3,800 places</Text>}
+        {!q && <Text style={{ color: theme.textMuted, fontSize: 13, marginHorizontal: 16, marginBottom: 6 }}>{tr('Popular · type to search about 3,800 places')}</Text>}
         <FlatList
           data={results}
           keyExtractor={(c) => c.id}
@@ -63,7 +65,7 @@ export function CityPicker({ visible, onClose }: { visible: boolean; onClose: ()
               {item.id === settings.city && <Ionicons name="checkmark" size={20} color={theme.accent} />}
             </Pressable>
           )}
-          ListEmptyComponent={<Text style={{ color: theme.textMuted, margin: 16 }}>No place found. Try another spelling or a nearby larger town.</Text>}
+          ListEmptyComponent={<Text style={{ color: theme.textMuted, margin: 16 }}>{tr('No place found. Try another spelling or a nearby larger town.')}</Text>}
         />
       </View>
     </Modal>
@@ -73,6 +75,7 @@ export function CityPicker({ visible, onClose }: { visible: boolean; onClose: ()
 /** Bottom sheet with the calendar choices: tradition, lunar/solar months, solar month start, calculation. */
 export function CalendarOptionsSheet({ visible, onClose }: { visible: boolean; onClose: () => void }) {
   const { theme } = useSettings();
+  const { tr } = useI18n();
   const insets = useSafeAreaInsets();
   const [rule, setRule] = useEkadashiRule();
   const [mode, setMode] = useCalendarMode();
@@ -82,42 +85,42 @@ export function CalendarOptionsSheet({ visible, onClose }: { visible: boolean; o
   const hint = { color: theme.textMuted, fontSize: 13, marginTop: 6, lineHeight: 18 };
   return (
     <Modal visible={visible} transparent animationType="slide" onRequestClose={onClose}>
-      <Pressable style={{ flex: 1, backgroundColor: '#0006' }} onPress={onClose} accessibilityLabel="Close options" />
+      <Pressable style={{ flex: 1, backgroundColor: '#0006' }} onPress={onClose} accessibilityLabel={tr('Close options')} />
       {/* Four choices with their notes are taller than a small phone: the sheet scrolls. */}
       <View style={{ maxHeight: '88%', backgroundColor: theme.bg, borderTopLeftRadius: 18, borderTopRightRadius: 18 }}>
         <View style={{ alignSelf: 'center', width: 40, height: 4, borderRadius: 2, backgroundColor: theme.cardBorder, marginTop: 8 }} />
         <View style={{ flexDirection: 'row', alignItems: 'center', marginTop: 10, paddingHorizontal: 16 }}>
-          <Text style={{ flex: 1, color: theme.text, fontSize: 19, fontWeight: '700' }}>Calendar options</Text>
-          <Pressable onPress={onClose} accessibilityRole="button" accessibilityLabel="Done" hitSlop={10}>
-            <Text style={{ color: theme.accent, fontSize: 16, fontWeight: '700' }}>Done</Text>
+          <Text style={{ flex: 1, color: theme.text, fontSize: 19, fontWeight: '700' }}>{tr('Calendar options')}</Text>
+          <Pressable onPress={onClose} accessibilityRole="button" accessibilityLabel={tr('Done')} hitSlop={10}>
+            <Text style={{ color: theme.accent, fontSize: 16, fontWeight: '700' }}>{tr('Done')}</Text>
           </Pressable>
         </View>
         <ScrollView contentContainerStyle={{ paddingHorizontal: 16, paddingBottom: insets.bottom + 20 }}>
 
-        <Text style={label}>Tradition</Text>
-        <Segmented options={[{ id: 'madhva', label: 'Madhva' }, { id: 'smarta', label: 'Smarta' }]} value={rule} onChange={setRule} />
-        <Text style={hint}>{rule === 'madhva' ? 'Ekadashi must be free of dashami at arunodaya; otherwise the fast moves a day.' : 'Ekadashi is the day with ekadashi at sunrise.'}</Text>
+        <Text style={label}>{tr('Tradition')}</Text>
+        <Segmented options={[{ id: 'madhva', label: tr('Madhva') }, { id: 'smarta', label: tr('Smarta') }]} value={rule} onChange={setRule} />
+        <Text style={hint}>{rule === 'madhva' ? tr('Ekadashi must be free of dashami at arunodaya; otherwise the fast moves a day.') : tr('Ekadashi is the day with ekadashi at sunrise.')}</Text>
 
-        <Text style={label}>Months</Text>
-        <Segmented options={[{ id: 'chandra', label: 'Chandramana' }, { id: 'saura', label: 'Sauramana' }]} value={mode} onChange={setMode} />
-        <Text style={hint}>{mode === 'saura' ? 'Solar months (Mesha …) as in Udupi and Tulu Nadu, with the Udupi festivals.' : 'Lunar months, new moon to new moon (Chaitra …).'}</Text>
+        <Text style={label}>{tr('Months')}</Text>
+        <Segmented options={[{ id: 'chandra', label: tr('Chandramana') }, { id: 'saura', label: tr('Sauramana') }]} value={mode} onChange={setMode} />
+        <Text style={hint}>{mode === 'saura' ? tr('Solar months (Mesha …) as in Udupi and Tulu Nadu, with the Udupi festivals.') : tr('Lunar months, new moon to new moon (Chaitra …).')}</Text>
 
         {mode === 'saura' && (
           <>
-            <Text style={label}>Solar month begins</Text>
-            <Segmented options={[{ id: 'next', label: 'Next day' }, { id: 'same', label: 'Same day' }]} value={start} onChange={setStart} />
-            <Text style={hint}>When the sankranti falls in the daytime. Practice differs, even in Udupi.</Text>
+            <Text style={label}>{tr('Solar month begins')}</Text>
+            <Segmented options={[{ id: 'next', label: tr('Next day') }, { id: 'same', label: tr('Same day') }]} value={start} onChange={setStart} />
+            <Text style={hint}>{tr('When the sankranti falls in the daytime. Practice differs, even in Udupi.')}</Text>
           </>
         )}
 
-        <Text style={label}>Calculation</Text>
-        <Segmented options={[{ id: 'drik', label: 'Drik' }, { id: 'surya', label: 'Surya Siddhanta' }]} value={method} onChange={setMethod} />
-        <Text style={hint}>{method === 'surya' ? 'As in traditional matha panchangas (Uttaradi, Raghavendra Matha).' : 'Modern astronomy, as in most printed and online panchangas.'}</Text>
+        <Text style={label}>{tr('Calculation')}</Text>
+        <Segmented options={[{ id: 'drik', label: tr('Drik') }, { id: 'surya', label: tr('Surya Siddhanta') }]} value={method} onChange={setMethod} />
+        <Text style={hint}>{method === 'surya' ? tr('As in traditional matha panchangas (Uttaradi, Raghavendra Matha).') : tr('Modern astronomy, as in most printed and online panchangas.')}</Text>
 
         <Text style={[hint, { marginTop: 20 }]}>
           {method === 'surya'
-            ? 'Surya Siddhanta panchanga: Sun and Moon by the classical text, with its own sunrise; times can differ from drik ones by a few hours, and sometimes a festival or ekadashi by a day.'
-            : 'Drik panchanga: calculated from the true positions of the Sun and Moon (Lahiri ayanamsha), as drikpanchang.com does.'}
+            ? tr('Surya Siddhanta panchanga: Sun and Moon by the classical text, with its own sunrise; times can differ from drik ones by a few hours, and sometimes a festival or ekadashi by a day.')
+            : tr('Drik panchanga: calculated from the true positions of the Sun and Moon (Lahiri ayanamsha), as drikpanchang.com does.')}
         </Text>
         </ScrollView>
       </View>
@@ -128,6 +131,7 @@ export function CalendarOptionsSheet({ visible, onClose }: { visible: boolean; o
 /** One compact row: place ▾, the calendar options ▾ and an optional trailing button. */
 export function CalendarBar({ trailing }: { trailing?: React.ReactNode }) {
   const { theme, settings } = useSettings();
+  const { tr } = useI18n();
   const [rule] = useEkadashiRule();
   const [mode] = useCalendarMode();
   const [method] = useCalcMethod();
@@ -140,16 +144,16 @@ export function CalendarBar({ trailing }: { trailing?: React.ReactNode }) {
   });
   return (
     <View style={{ flexDirection: 'row', alignItems: 'center', gap: 8, marginHorizontal: 16, marginTop: 10 }}>
-      <Pressable onPress={() => setPicker(true)} style={(st) => [pill(st), { flexShrink: 1, maxWidth: '42%' }]} accessibilityRole="button" accessibilityLabel={`Place: ${cityLabel(city)}. Change`}>
+      <Pressable onPress={() => setPicker(true)} style={(st) => [pill(st), { flexShrink: 1, maxWidth: '42%' }]} accessibilityRole="button" accessibilityLabel={tr('Place: {place}. Change', { place: cityLabel(city) })}>
         <Ionicons name="location-outline" size={15} color={theme.accent} />
         <Text numberOfLines={1} style={{ color: theme.text, fontSize: 14, flexShrink: 1 }}>{city.name}</Text>
         <Ionicons name="chevron-down" size={13} color={theme.textMuted} />
       </Pressable>
-      <Pressable onPress={() => setSheet(true)} style={(st) => [pill(st), { flexShrink: 1 }]} accessibilityRole="button" accessibilityLabel="Calendar options">
+      <Pressable onPress={() => setSheet(true)} style={(st) => [pill(st), { flexShrink: 1 }]} accessibilityRole="button" accessibilityLabel={tr('Calendar options')}>
         <Ionicons name="options-outline" size={15} color={theme.accent} />
         <Text numberOfLines={1} style={{ color: theme.text, fontSize: 14, flexShrink: 1 }}>
-          {rule === 'madhva' ? 'Madhva' : 'Smarta'} · {mode === 'saura' ? 'Solar' : 'Lunar'}
-          {method === 'surya' ? ' · SS' : ''}
+          {rule === 'madhva' ? tr('Madhva') : tr('Smarta')} · {mode === 'saura' ? tr('Solar') : tr('Lunar')}
+          {method === 'surya' ? ` · ${tr('SS')}` : ''}
         </Text>
         <Ionicons name="chevron-down" size={13} color={theme.textMuted} />
       </Pressable>

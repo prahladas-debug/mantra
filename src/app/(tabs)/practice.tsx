@@ -5,25 +5,27 @@ import { PlanCard } from '../../components/PlanCard';
 import { RoutineCard } from '../../components/RoutineCard';
 import { getMantraInfo, scriptFor } from '../../data';
 import { scriptFont } from '../../lib/fonts';
+import { T, useI18n } from '../../lib/i18n';
 import { planStatus } from '../../lib/plans';
 import { useSettings } from '../../lib/settings';
 import { translitTitle } from '../../lib/transliterate';
 
 const TOOLS: { icon: keyof typeof Ionicons.glyphMap; label: string; href: string }[] = [
-  { icon: 'ellipse-outline', label: 'Japa counter', href: '/japa' },
-  { icon: 'bookmark-outline', label: 'Bookmarks', href: '/bookmarks' },
-  { icon: 'calendar-outline', label: 'Festival calendar', href: '/calendar' },
-  { icon: 'search-outline', label: 'Find a festival date', href: '/festival-search' },
+  { icon: 'ellipse-outline', label: T('Japa counter'), href: '/japa' },
+  { icon: 'bookmark-outline', label: T('Bookmarks'), href: '/bookmarks' },
+  { icon: 'calendar-outline', label: T('Festival calendar'), href: '/calendar' },
+  { icon: 'search-outline', label: T('Find a festival date'), href: '/festival-search' },
 ];
 
 function Heading({ title, action, onAction }: { title: string; action?: string; onAction?: () => void }) {
   const { theme } = useSettings();
+  const { tr } = useI18n();
   return (
     <View style={s.heading}>
-      <Text style={{ color: theme.text, fontSize: 18, fontWeight: '700', flex: 1 }}>{title}</Text>
+      <Text style={{ color: theme.text, fontSize: 18, fontWeight: '700', flex: 1 }}>{tr(title)}</Text>
       {action && (
         <Pressable onPress={onAction} hitSlop={10} accessibilityRole="button">
-          <Text style={{ color: theme.accent, fontSize: 15 }}>{action}</Text>
+          <Text style={{ color: theme.accent, fontSize: 15 }}>{tr(action)}</Text>
         </Pressable>
       )}
     </View>
@@ -33,6 +35,7 @@ function Heading({ title, action, onAction }: { title: string; action?: string; 
 /** Daily routine, parayana plans, tools, favourites and recently opened texts. */
 export default function Practice() {
   const { theme, settings, plans, favorites, recent } = useSettings();
+  const { tr } = useI18n();
   const active = plans.filter((p) => !planStatus(p).finished);
   const favs = favorites.map(getMantraInfo).filter((m) => !!m);
   const recents = recent.map((r) => getMantraInfo(r.id)).filter((m) => !!m).slice(0, 8);
@@ -61,14 +64,14 @@ export default function Practice() {
 
   return (
     <ScrollView style={{ backgroundColor: theme.bg }} contentContainerStyle={{ paddingBottom: 32 }}>
-      <Heading title="Daily routine" action="Edit" onAction={() => router.push('/routine')} />
+      <Heading title={T('Daily routine')} action={T('Edit')} onAction={() => router.push('/routine')} />
       <RoutineCard />
 
-      <Heading title="Parayana" action="＋ New" onAction={() => router.push('/parayana-new')} />
+      <Heading title={T('Parayana')} action={T('＋ New')} onAction={() => router.push('/parayana-new')} />
       {active.length === 0 ? (
         <Pressable onPress={() => router.push('/parayana')} style={[s.list, { backgroundColor: theme.card, borderColor: theme.cardBorder, padding: 14 }]}>
           <Text style={{ color: theme.textMuted, fontSize: 14, lineHeight: 20 }}>
-            Plan a parayana — the Sundarakanda in 7 days, the Gita in 18, Lalitha Sahasranama for 40 days — with daily reminders.
+            {tr('Plan a parayana — the Sundarakanda in 7 days, the Gita in 18, Lalitha Sahasranama for 40 days — with daily reminders.')}
           </Text>
         </Pressable>
       ) : (
@@ -77,12 +80,12 @@ export default function Practice() {
           {active.map((p) => <PlanCard key={p.id} plan={p} compact />)}
           {/* The full cards (daily reminder, remove a plan, finished plans) are on the Parayana screen. */}
           <Pressable onPress={() => router.push('/parayana')} hitSlop={8} accessibilityRole="link" style={{ alignSelf: 'flex-start', marginHorizontal: 16 }}>
-            <Text style={{ color: theme.accent, fontSize: 15 }}>Reminders and all plans ›</Text>
+            <Text style={{ color: theme.accent, fontSize: 15 }}>{tr('Reminders and all plans ›')}</Text>
           </Pressable>
         </>
       )}
 
-      <Heading title="Tools" />
+      <Heading title={T('Tools')} />
       <View style={[s.list, { backgroundColor: theme.card, borderColor: theme.cardBorder }]}>
         {TOOLS.map((t, i) => (
           <Pressable
@@ -91,7 +94,7 @@ export default function Practice() {
             style={({ pressed }) => [s.row, { borderTopWidth: i ? StyleSheet.hairlineWidth : 0, borderColor: theme.cardBorder, opacity: pressed ? 0.6 : 1 }]}
           >
             <Ionicons name={t.icon} size={20} color={theme.accent} />
-            <Text style={{ color: theme.text, fontSize: 16, flex: 1 }}>{t.label}</Text>
+            <Text style={{ color: theme.text, fontSize: 16, flex: 1 }}>{tr(t.label)}</Text>
             <Ionicons name="chevron-forward" size={18} color={theme.textMuted} />
           </Pressable>
         ))}
@@ -99,13 +102,13 @@ export default function Practice() {
 
       {favs.length > 0 && (
         <>
-          <Heading title="Favourites" />
+          <Heading title={T('Favourites')} />
           {list(favs)}
         </>
       )}
       {recents.length > 0 && (
         <>
-          <Heading title="Recently opened" />
+          <Heading title={T('Recently opened')} />
           {list(recents)}
         </>
       )}

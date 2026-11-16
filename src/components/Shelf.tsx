@@ -5,6 +5,7 @@ import { categoryById, categoryCounts, getMantraInfo, type CategoryId } from '..
 import { bookWork, isBookWork } from '../data/books';
 import type { DeityGroup } from '../lib/deities';
 import { scriptFont } from '../lib/fonts';
+import { T, useI18n } from '../lib/i18n';
 import { categoryTitle } from '../lib/labels';
 import { useSettings } from '../lib/settings';
 import { translit, type ScriptId } from '../lib/transliterate';
@@ -32,17 +33,17 @@ export interface GreatWork {
 }
 
 export const GREAT_WORKS: GreatWork[] = [
-  { category: 'gita', titleEn: 'Bhagavad Gita', size: '18 chapters', about: '700 verses', lines: ['भगवद्गीता'], own: { kannada: ['ಭಗವದ್ಗೀತೆ'], telugu: ['భగవద్గీత'] }, cloth: '#7E2A12', edge: '#A8431F' },
-  { textId: 'vishnu-sahasranama', titleEn: 'Vishnu Sahasranama', size: '1000 names', lines: ['विष्णु', 'सहस्रनाम'], cloth: '#1E3A64', edge: '#2F558C' },
-  { category: 'sundarakanda', titleEn: 'Sundarakanda', size: '68 sargas', about: 'Ramayana', lines: ['सुन्दर', 'काण्ड'], cloth: '#2C5638', edge: '#3F7650' },
-  { category: 'ramayana', titleEn: 'Valmiki Ramayana', size: '7 kandas', about: '24,000 verses', lines: ['वाल्मीकि', 'रामायण'], cloth: '#3F4A17', edge: '#5C6B22' },
-  { category: 'mahabharata', titleEn: 'Mahabharata', size: '18 parvas', about: 'Vyasa', lines: ['महाभारतम्'], own: { kannada: ['ಮಹಾಭಾರತ'], telugu: ['మహాభారతం'], tamil: ['மகாபாரதம்'], malayalam: ['മഹാഭാരതം'], gujarati: ['મહાભારત'], bengali: ['মহাভারত'], oriya: ['ମହାଭାରତ'] }, cloth: '#4E1E18', edge: '#7A3328' },
-  { category: 'harikathamrutasara', titleEn: 'Harikathamrutasara', size: '32 sandhis', about: 'Jagannatha Dasa', lines: ['हरिकथामृत', 'सार'], cloth: '#1D5458', edge: '#2E7479', tradition: 'madhva' },
-  { category: 'sumadhvavijaya', titleEn: 'Sumadhva Vijaya', size: '16 sargas', about: 'life of Madhva', lines: ['सुमध्व', 'विजय'], cloth: '#5B3A1C', edge: '#7E542C', tradition: 'madhva' },
-  { textId: 'vayu-stuti', titleEn: 'Hari Vayu Stuti', size: '41 verses', about: 'Trivikrama Pandita', lines: ['हरिवायु', 'स्तुति'], cloth: '#8A4B12', edge: '#B0691F', tradition: 'madhva' },
-  { category: 'devimahatmya', titleEn: 'Devi Mahatmyam', size: '13 chapters', about: 'Durga Saptashati', lines: ['देवी', 'माहात्म्य'], cloth: '#831B3C', edge: '#A93256', tradition: 'smarta' },
-  { textId: 'lalitha-sahasranama', titleEn: 'Lalita Sahasranama', size: '1000 names', lines: ['ललिता', 'सहस्रनाम'], cloth: '#6A2260', edge: '#8C3A80', tradition: 'smarta' },
-  { textId: 'saundarya-lahari', titleEn: 'Saundarya Lahari', size: '100 verses', about: 'Shankaracharya', lines: ['सौन्दर्य', 'लहरी'], cloth: '#3B2F6B', edge: '#56489A', tradition: 'smarta' },
+  { category: 'gita', titleEn: 'Bhagavad Gita', size: T('18 chapters'), about: T('700 verses'), lines: ['भगवद्गीता'], own: { kannada: ['ಭಗವದ್ಗೀತೆ'], telugu: ['భగవద్గీత'] }, cloth: '#7E2A12', edge: '#A8431F' },
+  { textId: 'vishnu-sahasranama', titleEn: 'Vishnu Sahasranama', size: T('1000 names'), lines: ['विष्णु', 'सहस्रनाम'], cloth: '#1E3A64', edge: '#2F558C' },
+  { category: 'sundarakanda', titleEn: 'Sundarakanda', size: T('68 sargas'), about: 'Ramayana', lines: ['सुन्दर', 'काण्ड'], cloth: '#2C5638', edge: '#3F7650' },
+  { category: 'ramayana', titleEn: 'Valmiki Ramayana', size: T('7 kandas'), about: T('24,000 verses'), lines: ['वाल्मीकि', 'रामायण'], cloth: '#3F4A17', edge: '#5C6B22' },
+  { category: 'mahabharata', titleEn: 'Mahabharata', size: T('18 parvas'), about: 'Vyasa', lines: ['महाभारतम्'], own: { kannada: ['ಮಹಾಭಾರತ'], telugu: ['మహాభారతం'], tamil: ['மகாபாரதம்'], malayalam: ['മഹാഭാരതം'], gujarati: ['મહાભારત'], bengali: ['মহাভারত'], oriya: ['ମହାଭାରତ'] }, cloth: '#4E1E18', edge: '#7A3328' },
+  { category: 'harikathamrutasara', titleEn: 'Harikathamrutasara', size: T('32 sandhis'), about: 'Jagannatha Dasa', lines: ['हरिकथामृत', 'सार'], cloth: '#1D5458', edge: '#2E7479', tradition: 'madhva' },
+  { category: 'sumadhvavijaya', titleEn: 'Sumadhva Vijaya', size: T('16 sargas'), about: T('life of Madhva'), lines: ['सुमध्व', 'विजय'], cloth: '#5B3A1C', edge: '#7E542C', tradition: 'madhva' },
+  { textId: 'vayu-stuti', titleEn: 'Hari Vayu Stuti', size: T('41 verses'), about: 'Trivikrama Pandita', lines: ['हरिवायु', 'स्तुति'], cloth: '#8A4B12', edge: '#B0691F', tradition: 'madhva' },
+  { category: 'devimahatmya', titleEn: 'Devi Mahatmyam', size: T('13 chapters'), about: 'Durga Saptashati', lines: ['देवी', 'माहात्म्य'], cloth: '#831B3C', edge: '#A93256', tradition: 'smarta' },
+  { textId: 'lalitha-sahasranama', titleEn: 'Lalita Sahasranama', size: T('1000 names'), lines: ['ललिता', 'सहस्रनाम'], cloth: '#6A2260', edge: '#8C3A80', tradition: 'smarta' },
+  { textId: 'saundarya-lahari', titleEn: 'Saundarya Lahari', size: T('100 verses'), about: 'Shankaracharya', lines: ['सौन्दर्य', 'लहरी'], cloth: '#3B2F6B', edge: '#56489A', tradition: 'smarta' },
 ];
 
 /** Works of the reader's own tradition first; nothing is hidden. */
@@ -87,6 +88,7 @@ const COVER_ART: Record<string, ImageSourcePropType> = {
 /** A cloth-bound book cover: the work's emblem above, its title in the reader's script below. */
 export function BookCover({ work, width = 156, still }: { work: GreatWork; width?: number; /** Shown on the work's own page: not a link. */ still?: boolean }) {
   const { settings } = useSettings();
+  const { tr } = useI18n();
   if (work.textId && !getMantraInfo(work.textId)) return null;
   // A long work shows once its book.json is in (scripts/build-books.ts), even before its sargas are.
   if (work.category && isBookWork(work.category) && !bookWork(work.category)) return null;
@@ -100,7 +102,7 @@ export function BookCover({ work, width = 156, still }: { work: GreatWork; width
       disabled={still}
       onPress={() => router.push((work.category ? `/category/${work.category}` : `/mantra/${work.textId}`) as Href)}
       accessibilityRole={still ? 'image' : 'link'}
-      accessibilityLabel={[work.titleEn, work.size, work.about].filter(Boolean).join(', ')}
+      accessibilityLabel={[work.titleEn, tr(work.size), work.about && tr(work.about)].filter(Boolean).join(', ')}
       style={({ pressed }) => [c.cover, { width, height, backgroundColor: work.cloth, opacity: pressed ? 0.85 : 1 }]}
     >
       <ImageBackground source={COVER_ART[work.category ?? work.textId!]} style={{ width, height }} resizeMode="cover">
@@ -126,7 +128,7 @@ export function BookCover({ work, width = 156, still }: { work: GreatWork; width
             </Text>
           )}
           <Text style={{ color: GOLD, fontSize: small ? 10.5 : 11, textAlign: 'center' }} numberOfLines={1} adjustsFontSizeToFit minimumFontScale={0.8}>
-            {work.size}
+            {tr(work.size)}
           </Text>
         </View>
       </ImageBackground>
@@ -150,6 +152,7 @@ const BANNER_ART: Partial<Record<CategoryId, ImageSourcePropType>> = {
  */
 export function BookBanner({ category, firstId, lastId, lastLabel }: { category: CategoryId; firstId: string; lastId?: string; lastLabel?: string }) {
   const { settings } = useSettings();
+  const { tr } = useI18n();
   const work = GREAT_WORKS.find((w) => w.category === category);
   const art = BANNER_ART[category];
   if (!work || !art) return null;
@@ -170,23 +173,23 @@ export function BookBanner({ category, firstId, lastId, lastLabel }: { category:
           {work.titleEn}
         </Text>
         <Text style={{ color: GOLD, fontSize: 12, marginTop: 1 }} numberOfLines={2}>
-          {[work.size, work.about].filter(Boolean).join(' · ')}
+          {[tr(work.size), work.about && tr(work.about)].filter(Boolean).join(' · ')}
         </Text>
         <View style={{ flexDirection: 'row', flexWrap: 'wrap', gap: 8, marginTop: 12 }}>
           {lastId && lastId !== firstId ? (
             <>
               <Pressable onPress={() => go(lastId)} accessibilityRole="button" style={({ pressed }) => [c.bannerBtn, { backgroundColor: GOLD, borderColor: GOLD, opacity: pressed ? 0.8 : 1 }]}>
                 <Text style={{ color: work.cloth, fontSize: 14, fontWeight: '700' }} numberOfLines={1}>
-                  Continue{lastLabel ? ` · ${lastLabel}` : ''} ›
+                  {lastLabel ? tr('Continue · {label} ›', { label: lastLabel }) : tr('Continue ›')}
                 </Text>
               </Pressable>
               <Pressable onPress={() => go(firstId)} accessibilityRole="button" style={({ pressed }) => [c.bannerBtn, { borderColor: GOLD, opacity: pressed ? 0.7 : 1 }]}>
-                <Text style={{ color: CREAM, fontSize: 14, fontWeight: '600' }}>From the start</Text>
+                <Text style={{ color: CREAM, fontSize: 14, fontWeight: '600' }}>{tr('From the start')}</Text>
               </Pressable>
             </>
           ) : (
             <Pressable onPress={() => go(firstId)} accessibilityRole="button" style={({ pressed }) => [c.bannerBtn, { backgroundColor: GOLD, borderColor: GOLD, opacity: pressed ? 0.8 : 1 }]}>
-              <Text style={{ color: work.cloth, fontSize: 14, fontWeight: '700' }}>Begin reading ›</Text>
+              <Text style={{ color: work.cloth, fontSize: 14, fontWeight: '700' }}>{tr('Begin reading ›')}</Text>
             </Pressable>
           )}
         </View>
@@ -250,6 +253,7 @@ export const CATEGORY_ICONS: Record<CategoryId, Icon> = {
 /** A section of the library as a tile: icon, name in the reader's script, English name and size. */
 export function CategoryTile({ id, wide }: { id: CategoryId; wide?: boolean }) {
   const { theme, settings } = useSettings();
+  const { tr } = useI18n();
   const cat = categoryById[id];
   const count = categoryCounts()[id];
   const font = scriptFont(settings.script, settings.bookFonts);
@@ -258,7 +262,7 @@ export function CategoryTile({ id, wide }: { id: CategoryId; wide?: boolean }) {
     <Pressable
       onPress={() => router.push(`/category/${id}` as Href)}
       accessibilityRole="link"
-      accessibilityLabel={`${cat.titleEn}, ${count} texts`}
+      accessibilityLabel={tr('{title}, {count} texts', { title: cat.titleEn, count })}
       style={({ pressed }) => [c.tile, { width: wide ? '100%' : '48.5%', backgroundColor: theme.card, borderColor: theme.cardBorder, opacity: pressed ? 0.7 : 1 }]}
     >
       <View style={[c.iconSmall, { backgroundColor: theme.accentSoft }]}>
@@ -284,18 +288,19 @@ export function CategoryTile({ id, wide }: { id: CategoryId; wide?: boolean }) {
 /** A small square shortcut: icon above a short label. */
 export function QuickTile({ icon, label, href }: { icon: Icon; label: string; href: string }) {
   const { theme } = useSettings();
+  const { tr } = useI18n();
   return (
     <Pressable
       onPress={() => router.push(href as Href)}
       accessibilityRole="link"
-      accessibilityLabel={label}
+      accessibilityLabel={tr(label)}
       style={({ pressed }) => [c.quick, { backgroundColor: theme.card, borderColor: theme.cardBorder, opacity: pressed ? 0.7 : 1 }]}
     >
       <View style={[c.iconWrap, { backgroundColor: theme.accentSoft }]}>
         <Ionicons name={icon} size={20} color={theme.accent} />
       </View>
       <Text style={{ color: theme.text, fontSize: 13, textAlign: 'center', marginTop: 6 }} numberOfLines={2}>
-        {label}
+        {tr(label)}
       </Text>
     </Pressable>
   );
@@ -304,14 +309,15 @@ export function QuickTile({ icon, label, href }: { icon: Icon; label: string; hr
 /** "GREAT WORKS" with an optional link on the right. */
 export function ShelfHeading({ title, action, onAction }: { title: string; action?: string; onAction?: () => void }) {
   const { theme } = useSettings();
+  const { tr } = useI18n();
   return (
     <View style={c.heading}>
       <Text style={{ flex: 1, color: theme.textMuted, fontSize: 12, fontWeight: '700', letterSpacing: 0.8 }} accessibilityRole="header">
-        {title.toUpperCase()}
+        {tr(title).toUpperCase()}
       </Text>
       {action && (
         <Pressable onPress={onAction} hitSlop={10} accessibilityRole="link">
-          <Text style={{ color: theme.accent, fontSize: 14 }}>{action}</Text>
+          <Text style={{ color: theme.accent, fontSize: 14 }}>{tr(action)}</Text>
         </Pressable>
       )}
     </View>

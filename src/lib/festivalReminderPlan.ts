@@ -9,9 +9,11 @@
  * plain English spelling (Ekadashi, Mokshada), as on the app's screens.
  */
 import { festivalsBetween, type CalendarMode, type EkadashiRule, type Festival } from './festivals';
-import { addDays, cityDateOf, parseIso, utcOffsetMinutes, type CalcMethod, type City } from './panchanga';
+import { addDays, cityDateOf, parseIso, utcOffsetMinutes, weekdayOf, type CalcMethod, type City } from './panchanga';
 import { paranaTimes, shortDay } from './parana';
 import { plain } from './plain';
+import { dayMonth, hasTr, tr, weekdayName, type UiLang } from './tr';
+import { translit, type ScriptId } from './transliterate';
 import type { SauraStart } from './sauramana';
 
 /**
@@ -57,6 +59,9 @@ export interface FestivalReminderOptions {
   /** 'HH:MM', city-local, on the evening before (e.g. '19:00'). */
   time: string;
   kinds: { ekadashi: boolean; festivals: boolean };
+  /** Interface language of the notification text (default English) and the reading script for names. */
+  lang?: UiLang;
+  script?: ScriptId;
 }
 
 export interface PlannedReminder {
@@ -113,7 +118,14 @@ export function planFestivalReminders(
   titleOf?: (textId: string) => string | undefined,
   days: number = REMINDER_DAYS,
 ): PlannedReminder[] {
-  const { city, rule, mode, start, method, time, kinds } = opts;
+  const { city, rule, mode, start, method, time, kinds, lang = 'en', script = 'devanagari' } = opts;
+  // A festival's name: the English gloss, its translation, else the Sanskrit name in the reading script.
+  const name = (f: Festival) => (lang === 'en' ? plain(f.en) : f.kind !== 'ekadashi' && hasTr(lang, f.en) ? tr(lang, f.en) : translit(f.name, script));
+  const day = (iso: string) => {
+    if (lang === 'en') return shortDay(iso);
+    const [, m, d] = parseIso(iso);
+    return `${weekdayName(lang, weekdayOf(iso))} ${dayMonth(lang, m, d)}`;
+  };
   if (!kinds.ekadashi && !kinds.festivals) return [];
   const today = cityDateOf(city, now.getTime());
   const from = addDays(today, 1);
@@ -136,15 +148,15 @@ export function planFestivalReminders(
     let title: string;
     const body: string[] = [];
     if (ek) {
-      title = `Ekadashi tomorrow — ${plain(ek.en)}`;
-      if (ek.parana) body.push(`Parana on ${shortDay(ek.parana.date)} ${paranaTimes(ek.parana, city)}.`);
-      if (others.length) body.push(`Also ${others.map((f) => plain(f.en)).join(' · ')}.`);
+      title = tr(lang, 'Ekadashi tomorrow — {name}', { name: name(ek) });
+      if (ek.parana) body.push(tr(lang, 'Parana on {day} {times}.', { day: day(ek.parana.date), times: paranaTimes(ek.parana, city, lang) }));
+      if (others.length) body.push(tr(lang, 'Also {names}.', { names: others.map(name).join(' · ') }));
     } else {
-      title = `Tomorrow: ${others.map((f) => plain(f.en)).join(' · ')}`;
+      title = tr(lang, 'Tomorrow: {names}', { names: others.map(name).join(' · ') });
       const place = others.every((f) => f.place === others[0].place) ? others[0].place : undefined;
-      body.push(`${shortDay(date)}${place ? ` · ${place}` : ''}.`);
+      body.push(`${day(date)}${place ? ` · ${place}` : ''}.`);
     }
-    if (read) body.push(`Read: ${read}.`);
+    if (read) body.push(tr(lang, 'Read: {title}.', { title: read }));
     out.push({
       id: `${REMINDER_ID_PREFIX}${date}`,
       date,

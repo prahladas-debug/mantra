@@ -45,6 +45,7 @@
  */
 import { INDIA_CITIES } from '../data/cities';
 import { ssMoon, ssSun, ssSunEvent } from './suryaSiddhanta';
+import { dayMonth, type UiLang } from './tr';
 
 /** Pañcāṅga calculation: modern (drik) positions, or the Sūrya Siddhānta ('surya'). */
 export type CalcMethod = 'drik' | 'surya';
@@ -573,15 +574,14 @@ export function cityDateOf(city: City, ms: number): string {
 export const todayIn = (city: City) => cityDateOf(city, Date.now());
 
 /** "HH:MM" in the city's local time; with `+1`/`-1` style suffix when not on `day`. */
-export function formatTime(t: Date, city: City, day?: string): string {
+export function formatTime(t: Date, city: City, day?: string, lang: UiLang = 'en'): string {
   const ms = t.getTime() + 30000; // round to the nearest minute
   const loc = new Date(ms + utcOffsetMinutes(city, ms) * 60000);
   const s = `${pad(loc.getUTCHours())}:${pad(loc.getUTCMinutes())}`;
   if (!day) return s;
   const other = isoDate(loc.getUTCFullYear(), loc.getUTCMonth() + 1, loc.getUTCDate());
   if (other === day) return s;
-  const MON = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
-  return `${s}, ${loc.getUTCDate()} ${MON[loc.getUTCMonth()]}`;
+  return `${s}, ${dayMonth(lang, loc.getUTCMonth() + 1, loc.getUTCDate())}`;
 }
 
 const sunCache = new Map<string, number>();

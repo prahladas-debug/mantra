@@ -5,11 +5,13 @@ import { FlatList, Pressable, Text, View } from 'react-native';
 import { getMantraInfo, scriptFor, type Mantra } from '../data';
 import { isBookUnit, loadBookUnit, peekBookUnit } from '../lib/books';
 import { scriptFont } from '../lib/fonts';
+import { useI18n } from '../lib/i18n';
 import { useSettings } from '../lib/settings';
 import { translit, translitTitle } from '../lib/transliterate';
 
 export default function Bookmarks() {
   const { theme, settings, bookmarks, toggleBookmark } = useSettings();
+  const { tr } = useI18n();
   // Sargas of the long works are read from their assets for the verse text, and kept here: the
   // loader's cache holds only a few units, so one read earlier may be gone from it by now.
   const [units, setUnits] = useState<Record<string, Mantra>>(() => {
@@ -52,14 +54,14 @@ export default function Bookmarks() {
     .filter((x) => !!x);
   return (
     <View style={{ flex: 1, backgroundColor: theme.bg }}>
-      <Stack.Screen options={{ title: 'Bookmarks' }} />
+      <Stack.Screen options={{ title: tr('Bookmarks') }} />
       <FlatList
         data={items}
         keyExtractor={(x) => x.b.id}
         contentContainerStyle={{ padding: 16, paddingBottom: 40 }}
         ListEmptyComponent={
           <Text style={{ color: theme.textMuted, lineHeight: 22 }}>
-            Tap the bookmark icon under any verse to keep it here, e.g. a shloka you are learning by heart.
+            {tr('Tap the bookmark icon under any verse to keep it here, e.g. a shloka you are learning by heart.')}
           </Text>
         }
         renderItem={({ item }) => (
@@ -72,7 +74,7 @@ export default function Bookmarks() {
                 {translitTitle(item.m.title, settings.script)} · {item.m.titleEn}
                 {item.v?.n !== undefined ? ` · ${item.v.n}` : ''}
               </Text>
-              <Pressable hitSlop={10} onPress={() => toggleBookmark(item.m.id, item.b.key)} accessibilityLabel="Remove bookmark">
+              <Pressable hitSlop={10} onPress={() => toggleBookmark(item.m.id, item.b.key)} accessibilityLabel={tr('Remove bookmark')}>
                 <Ionicons name="close" size={18} color={theme.textMuted} />
               </Pressable>
             </View>

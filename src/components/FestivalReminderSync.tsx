@@ -6,6 +6,7 @@ import { cancelFestivalReminders, scheduleFestivalReminders } from '../lib/festi
 import { cityById } from '../lib/panchanga';
 import { planStatus } from '../lib/plans';
 import { cancelReminder } from '../lib/reminders';
+import { useI18n } from '../lib/i18n';
 import { useSettings } from '../lib/settings';
 import { useCalcMethod, useCalendarMode, useEkadashiRule, useSauraStart } from './PanchangaCard';
 
@@ -41,6 +42,8 @@ export function FestivalReminderSync() {
   const [method] = useCalcMethod();
   const { ekadashi, festivals, time } = settings.festivalReminders;
   const cityId = settings.city;
+  const { lang } = useI18n();
+  const script = settings.script;
 
   // Ask for notification permission only when a reminder has just been switched on, not
   // every time the app opens (or the place changes) while permission is refused.
@@ -54,8 +57,8 @@ export function FestivalReminderSync() {
       return;
     }
     const switchedOn = !!was && ((ekadashi && !was.ekadashi) || (festivals && !was.festivals));
-    scheduleFestivalReminders({ city: cityById(cityId), rule, mode, start, method, time, kinds: { ekadashi, festivals } }, switchedOn);
-  }, [ready, ekadashi, festivals, time, cityId, rule, mode, start, method]);
+    scheduleFestivalReminders({ city: cityById(cityId), rule, mode, start, method, time, kinds: { ekadashi, festivals }, lang, script }, switchedOn);
+  }, [ready, ekadashi, festivals, time, cityId, rule, mode, start, method, lang, script]);
 
   // A finished parayana needs no daily reminder. Its card does this too, but the card is only
   // on the Parayana screen, which may not be opened again once the plan is done.

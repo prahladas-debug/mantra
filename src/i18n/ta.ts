@@ -1,0 +1,2 @@
+// ta interface strings: English key → translation. Written with tools/builders/i18n/apply.py.
+export const ta: Record<string, string> = {};

@@ -27,6 +27,7 @@ import {
   useJapa,
   type ChantInfo,
 } from '../lib/japa';
+import { T, useI18n } from '../lib/i18n';
 import { useSettings } from '../lib/settings';
 import type { Theme } from '../lib/theme';
 import { translit, translitTitle, type ScriptId } from '../lib/transliterate';
@@ -36,13 +37,15 @@ const KEEP_AWAKE_TAG = 'japa-counter';
 const AWAKE_IDLE_MS = 3 * 60 * 1000;
 const NATIVE = Platform.OS !== 'web';
 
+type Tr = ReturnType<typeof useI18n>['tr'];
+
 const TARGETS: { label: string; value: number | null }[] = [
   { label: '108', value: 108 },
   { label: '1008', value: 1008 },
-  { label: '3 malas', value: 3 * BEADS_PER_MALA },
-  { label: '11 malas', value: 11 * BEADS_PER_MALA },
-  { label: '16 malas', value: 16 * BEADS_PER_MALA },
-  { label: 'Open', value: null },
+  { label: T('3 malas'), value: 3 * BEADS_PER_MALA },
+  { label: T('11 malas'), value: 11 * BEADS_PER_MALA },
+  { label: T('16 malas'), value: 16 * BEADS_PER_MALA },
+  { label: T('Open'), value: null },
 ];
 
 // Haptics are skipped on web (no Taptic engine; vibration there is more noise than calm).
@@ -57,15 +60,16 @@ const haptic = {
 const firstLine = (t: string) => t.split('\n')[0].replace(/\s*[।॥]+\s*$/, '');
 const fmt = (n: number) => String(n).replace(/\B(?=(\d{3})+(?!\d))/g, ',');
 const malas = (n: number) => Math.floor(n / BEADS_PER_MALA);
-const malaLabel = (n: number) => `${n} mala${n === 1 ? '' : 's'}`;
+const malaLabel = (tr: Tr, n: number) => (n === 1 ? tr('{n} mala', { n }) : tr('{n} malas', { n }));
 
-function targetLabel(t: number | null): string {
-  if (t == null) return 'open count';
-  return t % BEADS_PER_MALA === 0 && t > BEADS_PER_MALA ? `${fmt(t)} (${malaLabel(t / BEADS_PER_MALA)})` : fmt(t);
+function targetLabel(tr: Tr, t: number | null): string {
+  if (t == null) return tr('open count');
+  return t % BEADS_PER_MALA === 0 && t > BEADS_PER_MALA ? `${fmt(t)} (${malaLabel(tr, t / BEADS_PER_MALA)})` : fmt(t);
 }
 
 export default function JapaScreen() {
   const { theme, settings } = useSettings();
+  const { tr } = useI18n();
   const { state, ready, increment, undo, reset, select, setTarget, forgetCustomLabel } = useJapa();
   const params = useLocalSearchParams<{ mantra?: string }>();
   const { width, height } = useWindowDimensions();
@@ -124,16 +128,16 @@ export default function JapaScreen() {
     setConfirmReset(false);
     if (r.targetDone) {
       haptic.target();
-      AccessibilityInfo.announceForAccessibility(`Target reached: ${fmt(r.count)}`);
+      AccessibilityInfo.announceForAccessibility(tr('Target reached: {count}', { count: fmt(r.count) }));
     } else if (r.malaDone) {
       haptic.mala();
-      AccessibilityInfo.announceForAccessibility(`${malaLabel(malas(r.count))} complete`);
+      AccessibilityInfo.announceForAccessibility(tr('{mala} complete', { mala: malaLabel(tr, malas(r.count)) }));
     } else {
       haptic.tick();
     }
     pulse.setValue(0.965);
     Animated.spring(pulse, { toValue: 1, speed: 40, bounciness: 6, useNativeDriver: NATIVE }).start();
-  }, [ready, increment, stayAwake, pulse]);
+  }, [ready, increment, stayAwake, pulse, tr]);
 
   const onUndo = () => {
     if (count === 0) return;
@@ -170,13 +174,13 @@ export default function JapaScreen() {
       contentContainerStyle={{ paddingBottom: 48 }}
       keyboardShouldPersistTaps="handled"
     >
-      <Stack.Screen options={{ title: 'Japa' }} />
+      <Stack.Screen options={{ title: tr('Japa') }} />
 
       {/* ---- what is being chanted ---- */}
       <Pressable
         onPress={() => setPicking((p) => !p)}
         accessibilityRole="button"
-        accessibilityLabel={`Chanting ${chant.name}. Change mantra`}
+        accessibilityLabel={tr('Chanting {name}. Change mantra', { name: chant.name })}
         accessibilityState={{ expanded: picking }}
         style={({ pressed }) => [
           s.card,
@@ -187,7 +191,7 @@ export default function JapaScreen() {
           <ChantText chant={chant} script={settings.script} theme={theme} />
         </View>
         <View style={[s.changePill, { backgroundColor: theme.accentSoft }]}>
-          <Text style={{ color: theme.accent, fontSize: 13, fontWeight: '600' }}>{picking ? 'Done' : 'Change'}</Text>
+          <Text style={{ color: theme.accent, fontSize: 13, fontWeight: '600' }}>{picking ? tr('Done') : tr('Change')}</Text>
           <Ionicons name={picking ? 'chevron-up' : 'chevron-down'} size={14} color={theme.accent} />
         </View>
       </Pressable>
@@ -215,9 +219,9 @@ export default function JapaScreen() {
       <Pressable
         onPress={onCount}
         accessibilityRole="button"
-        accessibilityLabel="Count one bead"
-        accessibilityHint="Double tap to add one repetition"
-        accessibilityValue={{ text: `${fmt(count)}${target != null ? ` of ${fmt(target)}` : ''}` }}
+        accessibilityLabel={tr('Count one bead')}
+        accessibilityHint={tr('Double tap to add one repetition')}
+        accessibilityValue={{ text: target != null ? tr('{count} of {target}', { count: fmt(count), target: fmt(target) }) : fmt(count) }}
         style={[s.tapArea, { minHeight: ring + 150 }]}
       >
         {({ pressed }) => (
@@ -245,16 +249,16 @@ export default function JapaScreen() {
                     {fmt(count)}
                   </Text>
                   <Text style={{ color: reached ? theme.accent : theme.textMuted, fontSize: 14, fontWeight: reached ? '700' : '400' }}>
-                    {reached ? 'Target reached' : target != null ? `of ${fmt(target)}` : 'open count'}
+                    {reached ? tr('Target reached') : target != null ? tr('of {target}', { target: fmt(target) }) : tr('open count')}
                   </Text>
                 </View>
               </View>
             </Animated.View>
 
             <View style={s.stats}>
-              <Stat label="Mala" value={fmt(malas(count))} theme={theme} />
-              <Stat label="This round" value={`${inRound}/${BEADS_PER_MALA}`} theme={theme} />
-              <Stat label="Today" value={fmt(today)} theme={theme} />
+              <Stat label={tr('Mala')} value={fmt(malas(count))} theme={theme} />
+              <Stat label={tr('This round')} value={`${inRound}/${BEADS_PER_MALA}`} theme={theme} />
+              <Stat label={tr('Today')} value={fmt(today)} theme={theme} />
             </View>
             {target != null && (
               <View style={[s.track, { backgroundColor: theme.accentSoft }]}>
@@ -262,7 +266,7 @@ export default function JapaScreen() {
               </View>
             )}
             <Text style={{ color: theme.textMuted, fontSize: 13, marginTop: 10 }}>
-              {count === 0 ? 'Tap anywhere here to count' : `Target ${targetLabel(target)}`}
+              {count === 0 ? tr('Tap anywhere here to count') : tr('Target {target}', { target: targetLabel(tr, target) })}
             </Text>
           </>
         )}
@@ -272,17 +276,17 @@ export default function JapaScreen() {
       <View style={s.controls}>
         {confirmReset ? (
           <>
-            <Text style={{ color: theme.text, fontSize: 15, flex: 1 }}>Reset to 0?</Text>
-            <ControlButton icon="close" label="Cancel" onPress={() => setConfirmReset(false)} theme={theme} />
+            <Text style={{ color: theme.text, fontSize: 15, flex: 1 }}>{tr('Reset to 0?')}</Text>
+            <ControlButton icon="close" label={tr('Cancel')} onPress={() => setConfirmReset(false)} theme={theme} />
             <ControlButton
               icon="refresh"
-              label="Reset"
+              label={tr('Reset')}
               strong
               onPress={() => {
                 reset();
                 haptic.soft();
                 setConfirmReset(false);
-                AccessibilityInfo.announceForAccessibility('Count reset');
+                AccessibilityInfo.announceForAccessibility(tr('Count reset'));
               }}
               theme={theme}
             />
@@ -292,7 +296,7 @@ export default function JapaScreen() {
             <ControlButton
               icon="arrow-undo"
               label="−1"
-              a11y="Undo one bead"
+              a11y={tr('Undo one bead')}
               disabled={count === 0}
               onPress={onUndo}
               theme={theme}
@@ -300,8 +304,8 @@ export default function JapaScreen() {
             <View style={{ flex: 1 }} />
             <ControlButton
               icon="refresh"
-              label="Reset"
-              a11y="Reset count"
+              label={tr('Reset')}
+              a11y={tr('Reset count')}
               disabled={count === 0}
               onPress={() => setConfirmReset(true)}
               theme={theme}
@@ -310,8 +314,9 @@ export default function JapaScreen() {
         )}
       </View>
       <Text style={[s.note, { color: theme.textMuted }]}>
-        Reset starts the count again; your history is kept.{'\n'}
-        {chant.name}: {fmt(todayThis)} today · {fmt(allTime)} in all ({malaLabel(malas(allTime))})
+        {tr('Reset starts the count again; your history is kept.')}
+        {'\n'}
+        {tr('{name}: {today} today · {all} in all ({malas})', { name: chant.name, today: fmt(todayThis), all: fmt(allTime), malas: malaLabel(tr, malas(allTime)) })}
       </Text>
 
       <History state={state} chantKey={state.current} theme={theme} />
@@ -323,10 +328,11 @@ export default function JapaScreen() {
 // ---------------------------------------------------------------- pieces
 
 function ChantText({ chant, script, theme }: { chant: ChantInfo; script: ScriptId; theme: Theme }) {
+  const { tr } = useI18n();
   if (chant.custom) {
     return (
       <>
-        <Text style={[s.kicker, { color: theme.textMuted }]}>Chanting</Text>
+        <Text style={[s.kicker, { color: theme.textMuted }]}>{tr('Chanting')}</Text>
         <Text style={{ color: theme.text, fontSize: 20, fontWeight: '600' }} numberOfLines={2}>
           {chant.name}
         </Text>
@@ -336,7 +342,7 @@ function ChantText({ chant, script, theme }: { chant: ChantInfo; script: ScriptI
   const showTitle = !!chant.title && (chant.long || !JAPA_PRESETS.find((p) => p.id === chant.key && p.text));
   return (
     <>
-      <Text style={[s.kicker, { color: theme.textMuted }]}>Chanting · {chant.name}</Text>
+      <Text style={[s.kicker, { color: theme.textMuted }]}>{tr('Chanting · {name}', { name: chant.name })}</Text>
       {showTitle && (
         <Text style={{ color: theme.text, fontSize: 19, fontWeight: '600', marginBottom: 4 }} numberOfLines={1}>
           {translitTitle(chant.title!, script)}
@@ -369,6 +375,7 @@ function ChantPicker({
   onPick: (key: string) => void;
   onForget: (label: string) => void;
 }) {
+  const { tr } = useI18n();
   const [text, setText] = useState('');
   const submit = () => {
     if (text.trim()) onPick(customKey(text));
@@ -380,7 +387,7 @@ function ChantPicker({
       {lib && (
         <PickRow
           main={lib.title ? translitTitle(lib.title, script) : lib.name}
-          sub={`${lib.name} · from the library`}
+          sub={tr('{name} · from the library', { name: lib.name })}
           active
           onPress={() => onPick(current)}
           theme={theme}
@@ -401,7 +408,7 @@ function ChantPicker({
         );
       })}
 
-      <Text style={[s.kicker, { color: theme.textMuted, marginTop: 14 }]}>Or your own</Text>
+      <Text style={[s.kicker, { color: theme.textMuted, marginTop: 14 }]}>{tr('Or your own')}</Text>
       {customLabels.length > 0 && (
         <View style={s.wrap}>
           {customLabels.map((l) => (
@@ -410,8 +417,8 @@ function ChantPicker({
               onPress={() => onPick(customKey(l))}
               onLongPress={() => onForget(l)}
               accessibilityRole="button"
-              accessibilityLabel={`Chant ${l}`}
-              accessibilityHint="Long press to remove from this list"
+              accessibilityLabel={tr('Chant {name}', { name: l })}
+              accessibilityHint={tr('Long press to remove from this list')}
               style={[
                 s.chipLike,
                 {
@@ -432,19 +439,19 @@ function ChantPicker({
           onSubmitEditing={submit}
           returnKeyType="done"
           maxLength={80}
-          placeholder="Type a name, e.g. Om Shri Gurubhyo namah"
+          placeholder={tr('Type a name, e.g. Om Shri Gurubhyo namah')}
           placeholderTextColor={theme.textMuted}
-          accessibilityLabel="Your own mantra name"
+          accessibilityLabel={tr('Your own mantra name')}
           style={[s.input, { backgroundColor: theme.card, borderColor: theme.cardBorder, color: theme.text }]}
         />
         <Pressable
           onPress={submit}
           disabled={!text.trim()}
           accessibilityRole="button"
-          accessibilityLabel="Use this name"
+          accessibilityLabel={tr('Use this name')}
           style={[s.smallBtn, { backgroundColor: theme.accent, opacity: text.trim() ? 1 : 0.4 }]}
         >
-          <Text style={{ color: theme.onAccent, fontWeight: '700' }}>Use</Text>
+          <Text style={{ color: theme.onAccent, fontWeight: '700' }}>{tr('Use')}</Text>
         </Pressable>
       </View>
     </View>
@@ -499,6 +506,7 @@ function TargetPicker({
   onChange: (t: number | null) => void;
   theme: Theme;
 }) {
+  const { tr } = useI18n();
   const preset = TARGETS.some((t) => t.value === target);
   const [custom, setCustom] = useState(false);
   const [num, setNum] = useState('');
@@ -512,12 +520,12 @@ function TargetPicker({
   };
   return (
     <>
-      <SectionHeading>Target</SectionHeading>
+      <SectionHeading>{tr('Target')}</SectionHeading>
       <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={{ paddingHorizontal: 16, gap: 8 }}>
         {TARGETS.map((t) => (
           <Chip
             key={t.label}
-            label={t.label}
+            label={tr(t.label)}
             active={!custom && target === t.value}
             onPress={() => {
               setCustom(false);
@@ -526,7 +534,7 @@ function TargetPicker({
           />
         ))}
         <Chip
-          label={!preset && target != null && !custom ? `Custom · ${fmt(target)}` : 'Custom…'}
+          label={!preset && target != null && !custom ? tr('Custom · {n}', { n: fmt(target) }) : tr('Custom…')}
           active={custom || (!preset && target != null)}
           onPress={() => setCustom((c) => !c)}
         />
@@ -539,21 +547,21 @@ function TargetPicker({
             onSubmitEditing={apply}
             keyboardType="number-pad"
             returnKeyType="done"
-            placeholder={unit === 'malas' ? 'e.g. 21' : 'e.g. 500'}
+            placeholder={unit === 'malas' ? tr('e.g. 21') : tr('e.g. 500')}
             placeholderTextColor={theme.textMuted}
-            accessibilityLabel={unit === 'malas' ? 'Target in malas' : 'Target in beads'}
+            accessibilityLabel={unit === 'malas' ? tr('Target in malas') : tr('Target in beads')}
             style={[s.input, { backgroundColor: theme.card, borderColor: theme.cardBorder, color: theme.text, maxWidth: 110 }]}
           />
-          <Chip label="malas" active={unit === 'malas'} onPress={() => setUnit('malas')} />
-          <Chip label="beads" active={unit === 'beads'} onPress={() => setUnit('beads')} />
+          <Chip label={tr('malas')} active={unit === 'malas'} onPress={() => setUnit('malas')} />
+          <Chip label={tr('beads')} active={unit === 'beads'} onPress={() => setUnit('beads')} />
           <Pressable
             onPress={apply}
             disabled={value == null}
             accessibilityRole="button"
-            accessibilityLabel={value != null ? `Set target to ${value}` : 'Set target'}
+            accessibilityLabel={value != null ? tr('Set target to {value}', { value }) : tr('Set target')}
             style={[s.smallBtn, { backgroundColor: theme.accent, opacity: value != null ? 1 : 0.4 }]}
           >
-            <Text style={{ color: theme.onAccent, fontWeight: '700' }}>Set</Text>
+            <Text style={{ color: theme.onAccent, fontWeight: '700' }}>{tr('Set')}</Text>
           </Pressable>
         </View>
       )}
@@ -652,9 +660,10 @@ function ControlButton({
   );
 }
 
-const WEEKDAY = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+const WEEKDAY = [T('Sun'), T('Mon'), T('Tue'), T('Wed'), T('Thu'), T('Fri'), T('Sat')];
 
 function History({ state, chantKey, theme }: { state: ReturnType<typeof useJapa>['state']; chantKey: string; theme: Theme }) {
+  const { tr } = useI18n();
   const days = lastDays(state, 7, chantKey);
   const max = Math.max(1, ...days.map((d) => d.total));
   const week = days.reduce((a, d) => a + d.total, 0);
@@ -662,16 +671,16 @@ function History({ state, chantKey, theme }: { state: ReturnType<typeof useJapa>
   const H = 88;
   return (
     <>
-      <SectionHeading>Last 7 days</SectionHeading>
+      <SectionHeading>{tr('Last 7 days')}</SectionHeading>
       <View style={[s.panel, { backgroundColor: theme.card, borderColor: theme.cardBorder }]}>
         <Text style={{ color: theme.textMuted, fontSize: 13, marginBottom: 12 }}>
-          All chants · {fmt(week)} this week ({malaLabel(malas(week))})
+          {tr('All chants · {week} this week ({malas})', { week: fmt(week), malas: malaLabel(tr, malas(week)) })}
         </Text>
         <View style={{ flexDirection: 'row', alignItems: 'flex-end', height: H + 20 }}>
           {days.map((d, i) => {
             const isToday = i === days.length - 1;
             const [y, m, dd] = d.date.split('-').map(Number);
-            const wd = WEEKDAY[new Date(y, m - 1, dd).getDay()];
+            const wd = tr(WEEKDAY[new Date(y, m - 1, dd).getDay()]);
             const h = d.total ? Math.max(4, (d.total / max) * H) : 2;
             const showValue = d.total > 0 && (isToday || i === maxIdx);
             return (
@@ -679,7 +688,7 @@ function History({ state, chantKey, theme }: { state: ReturnType<typeof useJapa>
                 key={d.date}
                 style={{ flex: 1, alignItems: 'center' }}
                 accessible
-                accessibilityLabel={`${isToday ? 'Today' : wd} ${dd}: ${fmt(d.total)}`}
+                accessibilityLabel={`${isToday ? tr('Today') : wd} ${dd}: ${fmt(d.total)}`}
               >
                 <Text style={{ color: theme.textMuted, fontSize: 11, marginBottom: 4, opacity: showValue ? 1 : 0 }}>
                   {fmt(d.total)}
@@ -707,7 +716,7 @@ function History({ state, chantKey, theme }: { state: ReturnType<typeof useJapa>
                 style={{ flex: 1, textAlign: 'center', fontSize: 11, color: isToday ? theme.text : theme.textMuted, fontWeight: isToday ? '700' : '400' }}
                 importantForAccessibility="no"
               >
-                {isToday ? 'Today' : WEEKDAY[new Date(y, m - 1, dd).getDay()]}
+                {isToday ? tr('Today') : tr(WEEKDAY[new Date(y, m - 1, dd).getDay()])}
               </Text>
             );
           })}
@@ -728,6 +737,7 @@ function Totals({
   script: ScriptId;
   theme: Theme;
 }) {
+  const { tr } = useI18n();
   const rows = Object.entries(totals)
     .filter(([, n]) => n > 0)
     .sort((a, b) => b[1] - a[1])
@@ -735,7 +745,7 @@ function Totals({
   if (!rows.length) return null;
   return (
     <>
-      <SectionHeading>All-time</SectionHeading>
+      <SectionHeading>{tr('All-time')}</SectionHeading>
       <View style={[s.panel, { backgroundColor: theme.card, borderColor: theme.cardBorder, paddingVertical: 4 }]}>
         {rows.map(([key, n], i) => {
           const info = chantInfo(key);
@@ -755,7 +765,7 @@ function Totals({
                 i > 0 && { borderTopWidth: StyleSheet.hairlineWidth, borderColor: theme.cardBorder },
               ]}
               accessible
-              accessibilityLabel={`${info.name}: ${fmt(n)}, ${malaLabel(malas(n))}`}
+              accessibilityLabel={`${info.name}: ${fmt(n)}, ${malaLabel(tr, malas(n))}`}
             >
               <View style={{ flex: 1 }}>
                 <Text style={{ color: theme.text, fontSize: 15, fontWeight: key === current ? '700' : '400' }} numberOfLines={1}>
@@ -769,7 +779,7 @@ function Totals({
               </View>
               <View style={{ alignItems: 'flex-end' }}>
                 <Text style={[s.tabular, { color: theme.text, fontSize: 15, fontWeight: '600' }]}>{fmt(n)}</Text>
-                <Text style={{ color: theme.textMuted, fontSize: 12 }}>{malaLabel(malas(n))}</Text>
+                <Text style={{ color: theme.textMuted, fontSize: 12 }}>{malaLabel(tr, malas(n))}</Text>
               </View>
             </View>
           );

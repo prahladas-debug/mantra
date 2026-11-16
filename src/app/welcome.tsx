@@ -7,6 +7,7 @@ import { CityPicker } from '../components/CalendarBar';
 import { scriptFont } from '../lib/fonts';
 import { APP_MOTTO, APP_TAGLINE, appTitle } from '../lib/labels';
 import { cityById, cityLabel } from '../lib/panchanga';
+import { T, useI18n } from '../lib/i18n';
 import { useSettings } from '../lib/settings';
 import { translit, type ScriptId } from '../lib/transliterate';
 
@@ -15,14 +16,14 @@ const SAMPLE = 'शुक्लाम्बरधरं विष्णुं �
 /** How each script is offered as a language on first launch. */
 const LANGUAGES: { script: ScriptId; name: string; en: string }[] = [
   { script: 'kannada', name: 'ಕನ್ನಡ', en: 'Kannada' },
-  { script: 'devanagari', name: 'संस्कृतम् · हिन्दी', en: 'Sanskrit / Hindi (Devanagari)' },
+  { script: 'devanagari', name: 'संस्कृतम् · हिन्दी', en: T('Sanskrit / Hindi (Devanagari)') },
   { script: 'telugu', name: 'తెలుగు', en: 'Telugu' },
   { script: 'tamil', name: 'தமிழ்', en: 'Tamil' },
   { script: 'malayalam', name: 'മലയാളം', en: 'Malayalam' },
   { script: 'gujarati', name: 'ગુજરાતી', en: 'Gujarati' },
   { script: 'bengali', name: 'বাংলা', en: 'Bengali' },
   { script: 'oriya', name: 'ଓଡ଼ିଆ', en: 'Odia' },
-  { script: 'iast', name: 'English', en: 'English (Roman letters)' },
+  { script: 'iast', name: 'English', en: T('English (Roman letters)') },
 ];
 
 function Choice({ active, onPress, children }: { active: boolean; onPress: () => void; children: React.ReactNode }) {
@@ -46,6 +47,7 @@ function Choice({ active, onPress, children }: { active: boolean; onPress: () =>
 /** First launch: language (reading script and meanings), then tradition and place. */
 export default function Welcome() {
   const { theme, settings, update } = useSettings();
+  const { tr } = useI18n();
   const insets = useSafeAreaInsets();
   const [step, setStep] = useState<1 | 2>(1);
   const [picker, setPicker] = useState(false);
@@ -78,18 +80,18 @@ export default function Welcome() {
         </Text>
         <Text style={{ color: theme.text, fontSize: 16, lineHeight: 25, textAlign: 'center', fontFamily: font, marginTop: -6 }}>{translit(APP_MOTTO, settings.script)}</Text>
         <Text style={{ color: theme.textMuted, fontSize: 13, textAlign: 'center' }}>{APP_TAGLINE}</Text>
-        <Text style={{ color: theme.textMuted, fontSize: 14, textAlign: 'center', marginBottom: 6 }}>Step {step} of 2</Text>
+        <Text style={{ color: theme.textMuted, fontSize: 14, textAlign: 'center', marginBottom: 6 }}>{tr('Step {step} of 2', { step })}</Text>
 
         {step === 1 ? (
           <>
-            <Text style={{ color: theme.text, fontSize: 21, fontWeight: '700' }}>Choose your language</Text>
+            <Text style={{ color: theme.text, fontSize: 21, fontWeight: '700' }}>{tr('Choose your language')}</Text>
             <Text style={{ color: theme.textMuted, fontSize: 15, marginBottom: 4 }}>
-              Mantras are shown in its script, with meanings in that language where available (otherwise English). You can change this any time in Settings.
+              {tr('Mantras are shown in its script, with meanings in that language where available (otherwise English). You can change this any time in Settings.')}
             </Text>
             {LANGUAGES.map((l) => (
               <Choice key={l.script} active={settings.script === l.script} onPress={() => update({ script: l.script, meaningLang: 'auto' })}>
                 <Text style={{ color: theme.text, fontSize: 19, fontFamily: scriptFont(l.script, settings.bookFonts) }}>{l.name}</Text>
-                <Text style={{ color: theme.textMuted, fontSize: 13 }}>{l.en}</Text>
+                <Text style={{ color: theme.textMuted, fontSize: 13 }}>{tr(l.en)}</Text>
               </Choice>
             ))}
             <View style={{ marginTop: 6, padding: 16, borderRadius: 12, borderWidth: 1, borderColor: theme.cardBorder, backgroundColor: theme.page }}>
@@ -98,19 +100,19 @@ export default function Welcome() {
           </>
         ) : (
           <>
-            <Text style={{ color: theme.text, fontSize: 21, fontWeight: '700' }}>Your tradition</Text>
+            <Text style={{ color: theme.text, fontSize: 21, fontWeight: '700' }}>{tr('Your tradition')}</Text>
             <Text style={{ color: theme.textMuted, fontSize: 15, marginBottom: 4 }}>
-              Sets the steps shown in Sandhyavandane and daily puja, and how Ekadashi is dated. Each text still lets you switch.
+              {tr('Sets the steps shown in Sandhyavandane and daily puja, and how Ekadashi is dated. Each text still lets you switch.')}
             </Text>
             <Choice active={tradition === 'madhva'} onPress={() => update({ variants: { ...settings.variants, tradition: 'madhva' } })}>
-              <Text style={{ color: theme.text, fontSize: 17, fontWeight: '600' }}>Madhva (Vaishnava)</Text>
+              <Text style={{ color: theme.text, fontSize: 17, fontWeight: '600' }}>{tr('Madhva (Vaishnava)')}</Text>
             </Choice>
             <Choice active={tradition === 'smarta'} onPress={() => update({ variants: { ...settings.variants, tradition: 'smarta' } })}>
-              <Text style={{ color: theme.text, fontSize: 17, fontWeight: '600' }}>Smarta</Text>
+              <Text style={{ color: theme.text, fontSize: 17, fontWeight: '600' }}>{tr('Smarta')}</Text>
             </Choice>
 
-            <Text style={{ color: theme.text, fontSize: 21, fontWeight: '700', marginTop: 18 }}>Your place</Text>
-            <Text style={{ color: theme.textMuted, fontSize: 15, marginBottom: 4 }}>For sunrise, panchanga and festival dates.</Text>
+            <Text style={{ color: theme.text, fontSize: 21, fontWeight: '700', marginTop: 18 }}>{tr('Your place')}</Text>
+            <Text style={{ color: theme.textMuted, fontSize: 15, marginBottom: 4 }}>{tr('For sunrise, panchanga and festival dates.')}</Text>
             <Pressable
               onPress={() => setPicker(true)}
               accessibilityRole="button"
@@ -121,7 +123,7 @@ export default function Welcome() {
             >
               <Ionicons name="location-outline" size={20} color={theme.accent} />
               <Text style={{ flex: 1, color: theme.text, fontSize: 17 }}>{cityLabel(city)}</Text>
-              <Text style={{ color: theme.accent, fontSize: 15 }}>Change</Text>
+              <Text style={{ color: theme.accent, fontSize: 15 }}>{tr('Change')}</Text>
             </Pressable>
             <CityPicker visible={picker} onClose={() => setPicker(false)} />
           </>
@@ -129,10 +131,10 @@ export default function Welcome() {
       </ScrollView>
 
       <View style={{ flexDirection: 'row', gap: 10, paddingHorizontal: 20, paddingTop: 10, paddingBottom: insets.bottom + 16, borderTopWidth: 1, borderColor: theme.cardBorder }}>
-        {step === 1 ? button('Continue', () => setStep(2)) : (
+        {step === 1 ? button(tr('Continue'), () => setStep(2)) : (
           <>
-            {button('Back', () => setStep(1), false)}
-            {button('Start', finish)}
+            {button(tr('Back'), () => setStep(1), false)}
+            {button(tr('Start'), finish)}
           </>
         )}
       </View>

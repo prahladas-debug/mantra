@@ -12,6 +12,7 @@ import { ScrollReader } from '../../components/reader/ScrollReader';
 import { usePinch } from '../../components/reader/usePinch';
 import { getMantra, getMantraInfo, type Mantra } from '../../data';
 import { bookNeighbours, isBookUnit, loadBookUnit, peekBookUnit, prefetchBookUnit } from '../../lib/books';
+import { useI18n } from '../../lib/i18n';
 import { useSettings } from '../../lib/settings';
 import { choicesFor } from '../../lib/variants';
 
@@ -29,6 +30,7 @@ export default function Reader() {
 
 function BookUnitReader({ id }: { id: string }) {
   const { theme } = useSettings();
+  const { tr } = useI18n();
   const [mantra, setMantra] = useState<Mantra | undefined>(() => peekBookUnit(id));
   const [error, setError] = useState<string | null>(null);
   const [attempt, setAttempt] = useState(0);
@@ -57,7 +59,7 @@ function BookUnitReader({ id }: { id: string }) {
       <Stack.Screen options={{ title: info?.titleEn ?? '' }} />
       {error ? (
         <>
-          <Text style={{ color: theme.text, fontSize: 16, textAlign: 'center' }}>This {info?.titleEn ?? 'text'} could not be opened.</Text>
+          <Text style={{ color: theme.text, fontSize: 16, textAlign: 'center' }}>{tr('This {title} could not be opened.', { title: info?.titleEn ?? tr('text') })}</Text>
           <Text style={{ color: theme.textMuted, fontSize: 13, textAlign: 'center' }}>{error}</Text>
           <Pressable
             onPress={() => {
@@ -67,13 +69,13 @@ function BookUnitReader({ id }: { id: string }) {
             accessibilityRole="button"
             style={{ paddingHorizontal: 18, paddingVertical: 10, borderRadius: 20, backgroundColor: theme.accent }}
           >
-            <Text style={{ color: theme.onAccent, fontWeight: '700' }}>Try again</Text>
+            <Text style={{ color: theme.onAccent, fontWeight: '700' }}>{tr('Try again')}</Text>
           </Pressable>
         </>
       ) : (
         <>
           <ActivityIndicator color={theme.accent} />
-          <Text style={{ color: theme.textMuted, fontSize: 14 }}>Opening…</Text>
+          <Text style={{ color: theme.textMuted, fontSize: 14 }}>{tr('Opening…')}</Text>
         </>
       )}
     </View>
@@ -82,6 +84,7 @@ function BookUnitReader({ id }: { id: string }) {
 
 function ReaderView({ mantra }: { mantra: Mantra | undefined }) {
   const params = useLocalSearchParams<{ id: string; si?: string; vi?: string }>();
+  const { tr } = useI18n();
   const { theme, settings, update, favorites, toggleFavorite, markRead, positions, savePosition } = useSettings();
   const setScale = useCallback((fontScale: number) => update({ fontScale }), [update]);
   const pinch = usePinch(settings.fontScale, setScale);
@@ -142,8 +145,8 @@ function ReaderView({ mantra }: { mantra: Mantra | undefined }) {
   if (!mantra) {
     return (
       <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center', backgroundColor: theme.bg }}>
-        <Stack.Screen options={{ title: 'Not found' }} />
-        <Text style={{ color: theme.text }}>Text not found.</Text>
+        <Stack.Screen options={{ title: tr('Not found') }} />
+        <Text style={{ color: theme.text }}>{tr('Text not found.')}</Text>
       </View>
     );
   }
@@ -162,14 +165,14 @@ function ReaderView({ mantra }: { mantra: Mantra | undefined }) {
             headerRight: () => (
               <View style={{ flexDirection: 'row', gap: 18 }}>
                 {hasContents && (
-                  <Pressable hitSlop={10} onPress={() => setContentsOpen(true)} accessibilityLabel="Contents">
+                  <Pressable hitSlop={10} onPress={() => setContentsOpen(true)} accessibilityLabel={tr('Contents')}>
                     <Ionicons name="list" size={23} color={theme.accent} />
                   </Pressable>
                 )}
-                <Pressable hitSlop={10} onPress={() => setPanelOpen((o) => !o)} accessibilityLabel="Display options">
+                <Pressable hitSlop={10} onPress={() => setPanelOpen((o) => !o)} accessibilityLabel={tr('Display options')}>
                   <Ionicons name="text" size={22} color={theme.accent} />
                 </Pressable>
-                <Pressable hitSlop={10} onPress={() => toggleFavorite(mantra.id)} accessibilityLabel={isFav ? 'Remove favourite' : 'Add favourite'}>
+                <Pressable hitSlop={10} onPress={() => toggleFavorite(mantra.id)} accessibilityLabel={isFav ? tr('Remove favourite') : tr('Add favourite')}>
                   <Ionicons name={isFav ? 'star' : 'star-outline'} size={22} color={theme.accent} />
                 </Pressable>
               </View>
@@ -198,7 +201,7 @@ function ReaderView({ mantra }: { mantra: Mantra | undefined }) {
         <Layout key={settings.layout} rows={rows} initialKey={openAt} onPosition={onPosition} ref={handle} />
         {pinch.preview !== null && (
           <View pointerEvents="none" style={{ position: 'absolute', top: 16, alignSelf: 'center', paddingHorizontal: 14, paddingVertical: 6, borderRadius: 16, backgroundColor: theme.accent }}>
-            <Text style={{ color: theme.onAccent, fontSize: 15, fontWeight: '700' }}>Text size {Math.round(pinch.preview * 100)}%</Text>
+            <Text style={{ color: theme.onAccent, fontSize: 15, fontWeight: '700' }}>{tr('Text size {pct}%', { pct: Math.round(pinch.preview * 100) })}</Text>
           </View>
         )}
       </View>

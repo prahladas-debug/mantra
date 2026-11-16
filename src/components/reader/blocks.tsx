@@ -7,6 +7,7 @@ import { bookNeighbours, isBookUnit, wholePartNeighbours } from '../../data/book
 import { leading, meaningFont, scriptFont } from '../../lib/fonts';
 import { MEANING_BUTTON, meaningsToShow, primaryLang, summaryFor } from '../../lib/meaning';
 import { planStatus } from '../../lib/plans';
+import { useI18n } from '../../lib/i18n';
 import { useRoutineDay, useSettings } from '../../lib/settings';
 
 import { reportCorrection, shareVerse } from '../../lib/share';
@@ -143,6 +144,7 @@ export function SectionBlock({ section, book }: { section: Section; book?: boole
 
 /** A step's instructions; long ones show three lines with "more" so the mantras stay in view. */
 function SectionNote({ section, align }: { section: Section; align: 'center' | 'left' }) {
+  const { tr } = useI18n();
   const { theme, settings } = useSettings();
   const preferKn = primaryLang(settings.meaningLang, settings.script) === 'kn';
   const kn = preferKn && !!section.noteKn;
@@ -159,7 +161,7 @@ function SectionNote({ section, align }: { section: Section; align: 'center' | '
       </Text>
       {long && (
         <Pressable onPress={() => setOpen(!open)} hitSlop={8} accessibilityRole="button" style={{ alignSelf: long ? 'flex-start' : 'center', marginTop: 2 }}>
-          <Text style={{ color: theme.accent, fontSize: 13, fontWeight: kn ? undefined : '600', fontFamily: kn ? meaningFont('kn', settings.bookFonts) : undefined }}>{open ? 'Less ▴' : kn ? 'ಇನ್ನಷ್ಟು · More ▾' : 'More ▾'}</Text>
+          <Text style={{ color: theme.accent, fontSize: 13, fontWeight: kn ? undefined : '600', fontFamily: kn ? meaningFont('kn', settings.bookFonts) : undefined }}>{open ? tr('Less ▴') : kn ? 'ಇನ್ನಷ್ಟು · More ▾' : tr('More ▾')}</Text>
         </Pressable>
       )}
     </View>
@@ -168,6 +170,7 @@ function SectionNote({ section, align }: { section: Section; align: 'center' | '
 
 export function VerseBlock({ verse, rowKey, book }: { verse: Verse; rowKey: string; book?: boolean }) {
   const { theme, settings, bookmarks, toggleBookmark } = useSettings();
+  const { tr } = useI18n();
   const { mantra, opened, toggleMeaning, highlight, practice, revealed, reveal } = useReader();
   // The verse of a Tamil-language text is in Tamil whatever the reading script (font, size,
   // digits), and has no second script: it would only repeat the same Tamil lines.
@@ -203,11 +206,11 @@ export function VerseBlock({ verse, rowKey, book }: { verse: Verse; rowKey: stri
         {hiddenCount === 0 && verse.n !== undefined && <Text style={{ color: theme.verseNumber }}>{numberText}</Text>}
       </Text>
       {hiddenCount > 0 && (
-        <Pressable onPress={() => reveal(rowKey, shown + 1)} accessibilityRole="button" accessibilityLabel="Reveal next line" style={b.practiceHidden}>
+        <Pressable onPress={() => reveal(rowKey, shown + 1)} accessibilityRole="button" accessibilityLabel={tr('Reveal next line')} style={b.practiceHidden}>
           {Array.from({ length: hiddenCount }, (_, i) => (
             <View key={i} style={[b.practiceBar, { backgroundColor: theme.accentSoft, height: lh * 0.55, marginVertical: lh * 0.225 }]} />
           ))}
-          <Text style={{ color: theme.accent, fontSize: 12, marginTop: 2 }}>Tap to reveal the next line</Text>
+          <Text style={{ color: theme.accent, fontSize: 12, marginTop: 2 }}>{tr('Tap to reveal the next line')}</Text>
         </Pressable>
       )}
       {second && (
@@ -229,13 +232,13 @@ export function VerseBlock({ verse, rowKey, book }: { verse: Verse; rowKey: stri
             </Text>
           </Pressable>
         )}
-        <Pressable hitSlop={8} onPress={() => toggleBookmark(mantra.id, rowKey)} accessibilityLabel={marked ? 'Remove bookmark' : 'Bookmark this verse'} style={b.iconBtn}>
+        <Pressable hitSlop={8} onPress={() => toggleBookmark(mantra.id, rowKey)} accessibilityLabel={marked ? tr('Remove bookmark') : tr('Bookmark this verse')} style={b.iconBtn}>
           <Ionicons name={marked ? 'bookmark' : 'bookmark-outline'} size={16} color={marked ? theme.accent : theme.textMuted} />
         </Pressable>
-        <Pressable hitSlop={8} onPress={() => shareVerse(mantra, verse, script, meanings[0]?.text)} accessibilityLabel="Share this verse" style={b.iconBtn}>
+        <Pressable hitSlop={8} onPress={() => shareVerse(mantra, verse, script, meanings[0]?.text)} accessibilityLabel={tr('Share this verse')} style={b.iconBtn}>
           <Ionicons name="share-social-outline" size={16} color={theme.textMuted} />
         </Pressable>
-        <Pressable hitSlop={8} onPress={() => reportCorrection(mantra, verse, rowKey)} accessibilityLabel="Report a correction" style={b.iconBtn}>
+        <Pressable hitSlop={8} onPress={() => reportCorrection(mantra, verse, rowKey)} accessibilityLabel={tr('Report a correction')} style={b.iconBtn}>
           <Ionicons name="flag-outline" size={15} color={theme.textMuted} />
         </Pressable>
       </View>
@@ -266,17 +269,18 @@ export function VerseBlock({ verse, rowKey, book }: { verse: Verse; rowKey: stri
 /** Pārāyaṇa controls for this text: mark read (read-through plans) or count a recitation (vows). */
 export function PlanControls({ mantraId }: { mantraId: string }) {
   const { theme, plans, markPlanItemRead, addRecitation } = useSettings();
+  const { tr } = useI18n();
   const reading = plans.filter((p) => p.kind === 'readthrough' && p.items.includes(mantraId) && !planStatus(p).finished);
   const vows = plans.filter((p) => p.kind === 'vow' && p.items[0] === mantraId && !planStatus(p).finished);
   if (!reading.length && !vows.length) return null;
   const isRead = reading.some((p) => p.read.includes(mantraId));
   return (
     <View style={[b.planBox, { borderColor: theme.cardBorder, backgroundColor: theme.card }]}>
-      <Text style={{ color: theme.textMuted, fontSize: 12, fontWeight: '700', letterSpacing: 0.8 }}>PARAYANA</Text>
+      <Text style={{ color: theme.textMuted, fontSize: 12, fontWeight: '700', letterSpacing: 0.8 }}>{tr('PARAYANA')}</Text>
       {reading.length > 0 && (
         <Pressable onPress={() => markPlanItemRead(mantraId, !isRead)} style={[b.planButton, { backgroundColor: isRead ? theme.accentSoft : theme.accent }]}>
           <Text style={{ color: isRead ? theme.accent : theme.onAccent, fontWeight: '700', fontSize: 15 }}>
-            {isRead ? '✓ Read' : 'Mark as read'}
+            {isRead ? tr('✓ Read') : tr('Mark as read')}
           </Text>
         </Pressable>
       )}
@@ -285,7 +289,7 @@ export function PlanControls({ mantraId }: { mantraId: string }) {
         return (
           <View key={p.id} style={{ flexDirection: 'row', alignItems: 'center', gap: 10, marginTop: 10 }}>
             <Text style={{ color: theme.text, flex: 1 }}>
-              {p.title}: today {p.perDay - st.todayRemaining}/{p.perDay}
+              {tr('{title}: today {done}/{total}', { title: p.title, done: p.perDay - st.todayRemaining, total: p.perDay })}
             </Text>
             <Chip label="+1" active onPress={() => addRecitation(p.id, 1)} />
           </View>
@@ -298,6 +302,7 @@ export function PlanControls({ mantraId }: { mantraId: string }) {
 /** Previous / next buttons for texts read in sequence (e.g. Gita chapters). */
 export function SeriesNav({ mantra }: { mantra: Mantra }) {
   const { theme, settings } = useSettings();
+  const { tr } = useI18n();
   if (mantra.order === undefined) return null;
   const seriesId = mantra.series ?? mantra.category;
   const series = mantrasInCategory(mantra.category).filter((m) => m.order !== undefined && (m.series ?? m.category) === seriesId);
@@ -330,8 +335,8 @@ export function SeriesNav({ mantra }: { mantra: Mantra }) {
   );
   return (
     <View style={b.navRow}>
-      {prev ? button(prev, '← Previous', 'flex-start') : <View style={{ flex: 1 }} />}
-      {next ? button(next, 'Next →', 'flex-end') : <View style={{ flex: 1 }} />}
+      {prev ? button(prev, tr('← Previous'), 'flex-start') : <View style={{ flex: 1 }} />}
+      {next ? button(next, tr('Next →'), 'flex-end') : <View style={{ flex: 1 }} />}
     </View>
   );
 }
@@ -339,6 +344,7 @@ export function SeriesNav({ mantra }: { mantra: Mantra }) {
 /** Closing matter: इति, pārāyaṇa controls, previous/next. */
 /** End of a text: tick it off in today's routine (and go to the next), or add it to the routine. */
 function RoutineControl({ mantraId }: { mantraId: string }) {
+  const { tr } = useI18n();
   const { theme, settings, routine, routineDone, setRoutine, setRoutineDone } = useSettings();
   const day = useRoutineDay(settings.city);
   const inRoutine = routine.includes(mantraId);
@@ -349,7 +355,7 @@ function RoutineControl({ mantraId }: { mantraId: string }) {
   if (!inRoutine) {
     return (
       <Pressable onPress={() => setRoutine([...routine, mantraId])} style={{ alignSelf: 'center', marginTop: 20, padding: 8 }} accessibilityRole="button">
-        <Text style={{ color: theme.textMuted, fontSize: 14 }}>＋ Add to my daily routine</Text>
+        <Text style={{ color: theme.textMuted, fontSize: 14 }}>{tr('＋ Add to my daily routine')}</Text>
       </Pressable>
     );
   }
@@ -362,11 +368,11 @@ function RoutineControl({ mantraId }: { mantraId: string }) {
         style={{ flexDirection: 'row', alignItems: 'center', gap: 10 }}
       >
         <Ionicons name={done ? 'checkmark-circle' : 'ellipse-outline'} size={24} color={done ? theme.accent : theme.textMuted} />
-        <Text style={{ color: theme.text, fontSize: 16, fontWeight: '600', flex: 1 }}>{done ? 'Done for today' : 'Mark done for today'}</Text>
+        <Text style={{ color: theme.text, fontSize: 16, fontWeight: '600', flex: 1 }}>{done ? tr('Done for today') : tr('Mark done for today')}</Text>
       </Pressable>
       {done && next && nextMantra && (
         <Pressable onPress={() => router.replace(`/mantra/${next}` as Href)} style={[b.planButton, { backgroundColor: theme.accent }]} accessibilityRole="button">
-          <Text style={{ color: theme.onAccent, fontSize: 15, fontWeight: '700' }}>Next in routine: {nextMantra} ›</Text>
+          <Text style={{ color: theme.onAccent, fontSize: 15, fontWeight: '700' }}>{tr('Next in routine: {title} ›', { title: nextMantra })}</Text>
         </Pressable>
       )}
     </View>
@@ -375,6 +381,7 @@ function RoutineControl({ mantraId }: { mantraId: string }) {
 
 export function EndMatter() {
   const { theme, settings } = useSettings();
+  const { tr } = useI18n();
   const { mantra } = useReader();
   return (
     <View style={{ paddingBottom: 24 }}>
@@ -387,7 +394,7 @@ export function EndMatter() {
       {(mantra.category === 'nitya' || mantra.id.endsWith('-mantra')) && (
         <Pressable onPress={() => router.push(`/japa?mantra=${mantra.id}` as Href)} style={[b.planBox, { borderColor: theme.cardBorder, backgroundColor: theme.card, flexDirection: 'row', alignItems: 'center', gap: 10 }]}>
           <Ionicons name="ellipse-outline" size={20} color={theme.accent} />
-          <Text style={{ color: theme.accent, fontSize: 15, fontWeight: '600', flex: 1 }}>Count japa</Text>
+          <Text style={{ color: theme.accent, fontSize: 15, fontWeight: '600', flex: 1 }}>{tr('Count japa')}</Text>
           <Ionicons name="chevron-forward" size={18} color={theme.textMuted} />
         </Pressable>
       )}

@@ -9,6 +9,7 @@ import { BookCover, CategoryTile, DeityMedallion, QuickTile, ShelfHeading, great
 import { getMantraInfo, scriptFor } from '../../data';
 import { DEITIES } from '../../lib/deities';
 import { scriptFont } from '../../lib/fonts';
+import { T, useI18n } from '../../lib/i18n';
 import { APP_MOTTO, appTitle } from '../../lib/labels';
 import { useSettings } from '../../lib/settings';
 import { SCRIPTS, translit, translitTitle } from '../../lib/transliterate';
@@ -16,12 +17,13 @@ import { SCRIPTS, translit, translitTitle } from '../../lib/transliterate';
 /** Reading-script chooser behind the header button. */
 function ScriptSheet({ visible, onClose }: { visible: boolean; onClose: () => void }) {
   const { theme, settings, update } = useSettings();
+  const { tr } = useI18n();
   const insets = useSafeAreaInsets();
   return (
     <Modal visible={visible} transparent animationType="slide" onRequestClose={onClose}>
-      <Pressable style={{ flex: 1, backgroundColor: '#0006' }} onPress={onClose} accessibilityLabel="Close" />
+      <Pressable style={{ flex: 1, backgroundColor: '#0006' }} onPress={onClose} accessibilityLabel={tr('Close')} />
       <View style={{ backgroundColor: theme.bg, borderTopLeftRadius: 18, borderTopRightRadius: 18, paddingBottom: insets.bottom + 20, paddingTop: 8 }}>
-        <Text style={{ color: theme.text, fontSize: 19, fontWeight: '700', margin: 16, marginBottom: 8 }}>Reading script</Text>
+        <Text style={{ color: theme.text, fontSize: 19, fontWeight: '700', margin: 16, marginBottom: 8 }}>{tr('Reading script')}</Text>
         {SCRIPTS.map((sc) => {
           const active = settings.script === sc.id;
           return (
@@ -47,17 +49,18 @@ function ScriptSheet({ visible, onClose }: { visible: boolean; onClose: () => vo
 }
 
 const EVERY_DAY: { icon: keyof typeof Ionicons.glyphMap; label: string; href: string }[] = [
-  { icon: 'sunny-outline', label: 'Morning prayers', href: '/collection/morning' },
-  { icon: 'water-outline', label: 'Bath (snana)', href: '/mantra/snana-vidhi' },
-  { icon: 'partly-sunny-outline', label: 'Sandhyavandane', href: '/category/sandhya' },
-  { icon: 'flower-outline', label: 'Daily puja', href: '/mantra/nitya-puja' },
-  { icon: 'restaurant-outline', label: 'Meal prayers', href: '/mantra/bhojana-mantras' },
-  { icon: 'ellipse-outline', label: 'Japa counter', href: '/japa' },
+  { icon: 'sunny-outline', label: T('Morning prayers'), href: '/collection/morning' },
+  { icon: 'water-outline', label: T('Bath (snana)'), href: '/mantra/snana-vidhi' },
+  { icon: 'partly-sunny-outline', label: T('Sandhyavandane'), href: '/category/sandhya' },
+  { icon: 'flower-outline', label: T('Daily puja'), href: '/mantra/nitya-puja' },
+  { icon: 'restaurant-outline', label: T('Meal prayers'), href: '/mantra/bhojana-mantras' },
+  { icon: 'ellipse-outline', label: T('Japa counter'), href: '/japa' },
 ];
 
 /** Home: today, where you left off, the great works as book covers, everyday shortcuts and songs. */
 export default function Home() {
   const { theme, settings, recent, positions, routine, ready } = useSettings();
+  const { tr } = useI18n();
   const insets = useSafeAreaInsets();
   const { width } = useWindowDimensions();
   const [scriptSheet, setScriptSheet] = useState(false);
@@ -86,14 +89,14 @@ export default function Home() {
           onPress={() => setScriptSheet(true)}
           hitSlop={8}
           accessibilityRole="button"
-          accessibilityLabel={`Reading script: ${script.en}. Change`}
+          accessibilityLabel={tr('Reading script: {script}. Change', { script: script.en })}
           style={({ pressed }) => [s.scriptBtn, { borderColor: theme.cardBorder, backgroundColor: theme.card, opacity: pressed ? 0.6 : 1 }]}
         >
           <Text style={{ color: theme.text, fontSize: 15, fontFamily: scriptFont(script.id, settings.bookFonts) }}>{script.native}</Text>
           <Ionicons name="chevron-down" size={14} color={theme.textMuted} />
         </Pressable>
         <Link href="/settings" asChild>
-          <Pressable hitSlop={12} accessibilityLabel="Settings">
+          <Pressable hitSlop={12} accessibilityLabel={tr('Settings')}>
             <Ionicons name="settings-outline" size={23} color={theme.textMuted} />
           </Pressable>
         </Link>
@@ -101,7 +104,7 @@ export default function Home() {
 
       <Pressable onPress={() => router.push('/search')} style={[s.search, { backgroundColor: theme.card, borderColor: theme.cardBorder }]} accessibilityRole="search">
         <Ionicons name="search" size={18} color={theme.textMuted} />
-        <Text style={{ color: theme.textMuted, fontSize: 16 }}>Search texts, names, verses</Text>
+        <Text style={{ color: theme.textMuted, fontSize: 16 }}>{tr('Search texts, names, verses')}</Text>
       </Pressable>
 
       <TodayCard />
@@ -115,7 +118,7 @@ export default function Home() {
         >
           <Ionicons name="bookmark" size={18} color={theme.accent} />
           <View style={{ flex: 1 }}>
-            <Text style={{ color: theme.textMuted, fontSize: 11, fontWeight: '700', letterSpacing: 0.8 }}>{positions[last.id] ? 'CONTINUE READING' : 'LAST OPENED'}</Text>
+            <Text style={{ color: theme.textMuted, fontSize: 11, fontWeight: '700', letterSpacing: 0.8 }}>{positions[last.id] ? tr('Continue reading').toUpperCase() : tr('Last opened').toUpperCase()}</Text>
             <Text style={{ color: theme.text, fontSize: 16, lineHeight: 25, fontFamily: scriptFont(scriptFor(last, settings.script), settings.bookFonts) }} numberOfLines={1}>
               {translitTitle(last.title, settings.script)}
             </Text>
@@ -124,28 +127,28 @@ export default function Home() {
         </Pressable>
       )}
 
-      <ShelfHeading title="Great works" />
+      <ShelfHeading title={T('Great works')} />
       <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={{ paddingHorizontal: 16, gap: 10, paddingBottom: 6 }}>
         {greatWorks(settings.variants.tradition).map((w) => (
           <BookCover key={w.category ?? w.textId} work={w} width={coverW} />
         ))}
       </ScrollView>
 
-      <ShelfHeading title="Every day" />
+      <ShelfHeading title={T('Every day')} />
       <View style={s.grid}>
         {EVERY_DAY.map((t) => (
           <QuickTile key={t.href} {...t} />
         ))}
       </View>
 
-      <ShelfHeading title="By deity" />
+      <ShelfHeading title={T('By deity')} />
       <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={{ paddingHorizontal: 12, gap: 2 }}>
         {DEITIES.map((d) => (
           <DeityMedallion key={d.id} deity={d} />
         ))}
       </ScrollView>
 
-      <ShelfHeading title="Devotional songs" action="Whole library ›" onAction={() => router.push('/library')} />
+      <ShelfHeading title={T('Devotional songs')} action={T('Whole library ›')} onAction={() => router.push('/library')} />
       <View style={s.grid}>
         <CategoryTile id="dasara-pada" />
         <CategoryTile id="kirtana" />

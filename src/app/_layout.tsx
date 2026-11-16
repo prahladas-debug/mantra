@@ -6,6 +6,7 @@ import { StatusBar } from 'expo-status-bar';
 import { SafeAreaProvider, useSafeAreaInsets } from 'react-native-safe-area-context';
 import { FestivalReminderSync } from '../components/FestivalReminderSync';
 import { FONT_ASSETS } from '../lib/fonts';
+import { useI18n } from '../lib/i18n';
 import { SettingsProvider, useSettings } from '../lib/settings';
 
 SplashScreen.preventAutoHideAsync().catch(() => {});
@@ -17,6 +18,7 @@ export const unstable_settings = { anchor: '(tabs)' };
 
 function AppStack() {
   const { theme } = useSettings();
+  const { tr } = useI18n();
   const insets = useSafeAreaInsets();
   // Screens are drawn edge to edge, so everything pushed on the stack ends above the system
   // navigation bar (Android's three buttons, the iOS home indicator): the reader's page bar,
@@ -35,20 +37,20 @@ function AppStack() {
           contentStyle: { backgroundColor: theme.bg, paddingBottom: insets.bottom },
         }}
       >
-        <Stack.Screen name="(tabs)" options={{ headerShown: false, title: 'Home', contentStyle: plain }} />
-        <Stack.Screen name="welcome" options={{ headerShown: false, title: 'Welcome', gestureEnabled: false, contentStyle: plain }} />
-        <Stack.Screen name="search" options={{ title: 'Search' }} />
-        <Stack.Screen name="settings" options={{ title: 'Settings' }} />
-        <Stack.Screen name="about" options={{ title: 'About' }} />
-        <Stack.Screen name="parayana" options={{ title: 'Parayana' }} />
-        <Stack.Screen name="calendar" options={{ title: 'Calendar' }} />
-        <Stack.Screen name="festivals" options={{ title: 'Festivals' }} />
-        <Stack.Screen name="japa" options={{ title: 'Japa' }} />
-        <Stack.Screen name="bookmarks" options={{ title: 'Bookmarks' }} />
-        <Stack.Screen name="collection/[id]" options={{ title: 'Collection' }} />
-        <Stack.Screen name="routine" options={{ title: 'Daily routine' }} />
-        <Stack.Screen name="festival-search" options={{ title: 'Find a festival date' }} />
-        <Stack.Screen name="parayana-new" options={{ title: 'New parayana' }} />
+        <Stack.Screen name="(tabs)" options={{ headerShown: false, title: tr('Home'), contentStyle: plain }} />
+        <Stack.Screen name="welcome" options={{ headerShown: false, title: tr('Welcome'), gestureEnabled: false, contentStyle: plain }} />
+        <Stack.Screen name="search" options={{ title: tr('Search') }} />
+        <Stack.Screen name="settings" options={{ title: tr('Settings') }} />
+        <Stack.Screen name="about" options={{ title: tr('About') }} />
+        <Stack.Screen name="parayana" options={{ title: tr('Parayana') }} />
+        <Stack.Screen name="calendar" options={{ title: tr('Calendar') }} />
+        <Stack.Screen name="festivals" options={{ title: tr('Festivals') }} />
+        <Stack.Screen name="japa" options={{ title: tr('Japa') }} />
+        <Stack.Screen name="bookmarks" options={{ title: tr('Bookmarks') }} />
+        <Stack.Screen name="collection/[id]" options={{ title: tr('Collection') }} />
+        <Stack.Screen name="routine" options={{ title: tr('Daily routine') }} />
+        <Stack.Screen name="festival-search" options={{ title: tr('Find a festival date') }} />
+        <Stack.Screen name="parayana-new" options={{ title: tr('New parayana') }} />
       </Stack>
     </>
   );

@@ -9,6 +9,7 @@ import { leading, scriptFont } from '../lib/fonts';
 import { MEANING_PREFS } from '../lib/meaning';
 import { cityById, cityLabel } from '../lib/panchanga';
 import { ensurePermission, remindersSupported } from '../lib/reminders';
+import { UI_PREFS, useI18n } from '../lib/i18n';
 import { useSettings } from '../lib/settings';
 import { SCRIPTS, translit, type ScriptId } from '../lib/transliterate';
 
@@ -82,6 +83,7 @@ function Block({ first, label, children }: { first?: boolean; label: string; chi
 
 export default function SettingsScreen() {
   const { theme, settings, update } = useSettings();
+  const { tr } = useI18n();
   const [picker, setPicker] = useState(false);
   const toggle = (value: boolean, onChange: (v: boolean) => void) => <Switch value={value} onValueChange={onChange} trackColor={{ true: theme.accent }} />;
   const largePrint = settings.fontScale >= 1.5 && settings.theme === 'contrast';
@@ -91,9 +93,9 @@ export default function SettingsScreen() {
   // stay on while nothing is ever delivered.
   const setReminder = async (kind: 'ekadashi' | 'festivals', on: boolean) => {
     if (on && !(await ensurePermission())) {
-      Alert.alert('Reminders are off', 'Notifications are turned off for this app. Allow them in the phone’s settings to get reminders.', [
-        { text: 'Not now', style: 'cancel' },
-        { text: 'Open settings', onPress: () => Linking.openSettings().catch(() => {}) },
+      Alert.alert(tr('Reminders are off'), tr('Notifications are turned off for this app. Allow them in the phone’s settings to get reminders.'), [
+        { text: tr('Not now'), style: 'cancel' },
+        { text: tr('Open settings'), onPress: () => Linking.openSettings().catch(() => {}) },
       ]);
       return;
     }
@@ -102,68 +104,71 @@ export default function SettingsScreen() {
 
   return (
     <ScrollView style={{ backgroundColor: theme.bg }} contentContainerStyle={{ paddingBottom: 40 }}>
-      <Group title="LANGUAGE" note="Mantras are shown in the reading script. With meanings on Auto, meanings follow it too.">
-        <Block first label="Reading script">
+      <Group title={tr('LANGUAGE')} note={tr('Mantras are shown in the reading script. With Auto, meanings and the app language follow it.')}>
+        <Block first label={tr('Reading script')}>
           <Pills options={scripts} value={settings.script} onChange={(v) => update({ script: v })} />
         </Block>
-        <Block label="Meanings in">
-          <Pills options={MEANING_PREFS.map((m) => ({ id: m.id, label: m.label }))} value={settings.meaningLang} onChange={(v) => update({ meaningLang: v })} />
+        <Block label={tr('App language')}>
+          <Pills options={UI_PREFS.map((m) => ({ id: m.id, label: m.id === 'auto' ? tr('Auto') : m.label }))} value={settings.uiLang ?? 'auto'} onChange={(v) => update({ uiLang: v })} />
         </Block>
-        <Block label="Second script under each verse (for learning)">
-          <Pills options={[{ id: null, label: 'None' }, ...scripts]} value={settings.secondaryScript} onChange={(v) => update({ secondaryScript: v })} />
+        <Block label={tr('Meanings in')}>
+          <Pills options={MEANING_PREFS.map((m) => ({ id: m.id, label: m.id === 'auto' ? tr('Auto') : m.label }))} value={settings.meaningLang} onChange={(v) => update({ meaningLang: v })} />
+        </Block>
+        <Block label={tr('Second script under each verse (for learning)')}>
+          <Pills options={[{ id: null, label: tr('None') }, ...scripts]} value={settings.secondaryScript} onChange={(v) => update({ secondaryScript: v })} />
         </Block>
       </Group>
 
-      <Group title="TRADITION AND PLACE" note="Tradition sets the default steps for Sandhyavandane and puja, and the Ekadashi rule. Place sets sunrise and the calendar.">
-        <Block first label="Tradition">
+      <Group title={tr('TRADITION AND PLACE')} note={tr('Tradition sets the default steps for Sandhyavandane and puja, and the Ekadashi rule. Place sets sunrise and the calendar.')}>
+        <Block first label={tr('Tradition')}>
           <Segmented
             options={[
-              { id: 'madhva', label: 'Madhva' },
-              { id: 'smarta', label: 'Smarta' },
+              { id: 'madhva', label: tr('Madhva') },
+              { id: 'smarta', label: tr('Smarta') },
             ]}
             value={settings.variants.tradition === 'smarta' ? 'smarta' : 'madhva'}
             onChange={(v) => update({ variants: { ...settings.variants, tradition: v } })}
           />
         </Block>
         <Row label={cityLabel(cityById(settings.city))} onPress={() => setPicker(true)}>
-          <Text style={{ color: theme.accent, fontSize: 16 }}>Change</Text>
+          <Text style={{ color: theme.accent, fontSize: 16 }}>{tr('Change')}</Text>
         </Row>
       </Group>
       <CityPicker visible={picker} onClose={() => setPicker(false)} />
 
-      <Group title="TEXT">
+      <Group title={tr('TEXT')}>
         <View style={[s.sample, { backgroundColor: theme.page, borderColor: theme.pageEdge }]}>
           <Text style={{ color: theme.text, fontSize: 22 * settings.fontScale, lineHeight: 22 * settings.fontScale * leading(settings.script, settings.bookFonts), fontFamily: scriptFont(settings.script, settings.bookFonts), textAlign: settings.centerVerses ? 'center' : 'left' }}>
             {translit(SAMPLE, settings.script)}
           </Text>
         </View>
-        <Row label="Size">
+        <Row label={tr('Size')}>
           <View style={[s.stepper, { borderColor: theme.cardBorder }]}>
-            <Pressable onPress={() => update({ fontScale: Math.max(0.7, +(settings.fontScale - 0.1).toFixed(1)) })} hitSlop={8} accessibilityLabel="Smaller text" style={s.stepBtn}>
+            <Pressable onPress={() => update({ fontScale: Math.max(0.7, +(settings.fontScale - 0.1).toFixed(1)) })} hitSlop={8} accessibilityLabel={tr('Smaller text')} style={s.stepBtn}>
               <Text style={{ color: theme.accent, fontSize: 16, fontWeight: '700' }}>A−</Text>
             </Pressable>
             <Text style={{ color: theme.text, fontSize: 15, minWidth: 46, textAlign: 'center' }}>{Math.round(settings.fontScale * 100)}%</Text>
-            <Pressable onPress={() => update({ fontScale: Math.min(2.4, +(settings.fontScale + 0.1).toFixed(1)) })} hitSlop={8} accessibilityLabel="Larger text" style={s.stepBtn}>
+            <Pressable onPress={() => update({ fontScale: Math.min(2.4, +(settings.fontScale + 0.1).toFixed(1)) })} hitSlop={8} accessibilityLabel={tr('Larger text')} style={s.stepBtn}>
               <Text style={{ color: theme.accent, fontSize: 20, fontWeight: '700' }}>A+</Text>
             </Pressable>
           </View>
         </Row>
-        <Row label="Large print (big text, high contrast)">
+        <Row label={tr('Large print (big text, high contrast)')}>
           {toggle(largePrint, (v) => update(v ? { fontScale: 1.6, theme: 'contrast', bookFonts: true } : { fontScale: 1, theme: 'system' }))}
         </Row>
-        <Row label="Book fonts">{toggle(settings.bookFonts, (v) => update({ bookFonts: v }))}</Row>
-        <Row label="Centre verses, as in printed books">{toggle(settings.centerVerses, (v) => update({ centerVerses: v }))}</Row>
+        <Row label={tr('Book fonts')}>{toggle(settings.bookFonts, (v) => update({ bookFonts: v }))}</Row>
+        <Row label={tr('Centre verses, as in printed books')}>{toggle(settings.centerVerses, (v) => update({ centerVerses: v }))}</Row>
       </Group>
 
-      <Group title="LOOK">
-        <Block first label="Theme">
+      <Group title={tr('LOOK')}>
+        <Block first label={tr('Theme')}>
           <ThemeSwatches withSystem />
         </Block>
-        <Block label="Reading layout">
+        <Block label={tr('Reading layout')}>
           <Segmented
             options={[
-              { id: 'book', label: 'Book pages' },
-              { id: 'scroll', label: 'Scroll' },
+              { id: 'book', label: tr('Book pages') },
+              { id: 'scroll', label: tr('Scroll') },
             ]}
             value={settings.layout}
             onChange={(v) => update({ layout: v })}
@@ -171,25 +176,25 @@ export default function SettingsScreen() {
         </Block>
       </Group>
 
-      <Group title="READING" note="Meanings stay hidden until you tap Meaning under a verse, unless all are open.">
-        <Row first label="Show all meanings open">{toggle(settings.alwaysShowMeanings, (v) => update({ alwaysShowMeanings: v }))}</Row>
-        <Row label="Keep screen on while reading">{toggle(settings.keepAwake, (v) => update({ keepAwake: v }))}</Row>
+      <Group title={tr('READING')} note={tr('Meanings stay hidden until you tap Meaning under a verse, unless all are open.')}>
+        <Row first label={tr('Show all meanings open')}>{toggle(settings.alwaysShowMeanings, (v) => update({ alwaysShowMeanings: v }))}</Row>
+        <Row label={tr('Keep screen on while reading')}>{toggle(settings.keepAwake, (v) => update({ keepAwake: v }))}</Row>
       </Group>
 
       {remindersSupported && (
-        <Group title="REMINDERS" note="Dates follow your place, tradition and calendar choice. Tap a reminder to open the text for the day.">
-          <Row first label="Ekadashi, the evening before">{toggle(reminders.ekadashi, (v) => setReminder('ekadashi', v))}</Row>
-          <Row label="Major festivals, the evening before">{toggle(reminders.festivals, (v) => setReminder('festivals', v))}</Row>
+        <Group title={tr('REMINDERS')} note={tr('Dates follow your place, tradition and calendar choice. Tap a reminder to open the text for the day.')}>
+          <Row first label={tr('Ekadashi, the evening before')}>{toggle(reminders.ekadashi, (v) => setReminder('ekadashi', v))}</Row>
+          <Row label={tr('Major festivals, the evening before')}>{toggle(reminders.festivals, (v) => setReminder('festivals', v))}</Row>
           {(reminders.ekadashi || reminders.festivals) && (
-            <Block label="Remind me at">
+            <Block label={tr('Remind me at')}>
               <Segmented options={TIMES.map((t) => ({ id: t, label: t }))} value={reminders.time} onChange={(t) => update({ festivalReminders: { ...reminders, time: t } })} />
             </Block>
           )}
         </Group>
       )}
 
-      <Group title="ABOUT">
-        <Row first label="About this app and sources" onPress={() => router.push('/about')}>
+      <Group title={tr('ABOUT')}>
+        <Row first label={tr('About this app and sources')} onPress={() => router.push('/about')}>
           <Ionicons name="chevron-forward" size={18} color={theme.textMuted} />
         </Row>
       </Group>

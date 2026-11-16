@@ -6,20 +6,22 @@ import type { CategoryId } from '../../data';
 import { COLLECTIONS } from '../../data/collections';
 import { DEITIES } from '../../lib/deities';
 import { scriptFont } from '../../lib/fonts';
+import { T, useI18n } from '../../lib/i18n';
 import { useSettings } from '../../lib/settings';
 import { translitTitle } from '../../lib/transliterate';
 
 /** The library below the great works, in a few plain groups. */
 export const SHELVES: { title: string; categories: CategoryId[] }[] = [
-  { title: 'Every day', categories: ['nitya', 'sandhya', 'puja'] },
-  { title: 'Stotras and names', categories: ['stotra', 'sahasranama', 'madhva', 'vedic'] },
-  { title: 'Devotional songs', categories: ['dasara-pada', 'kirtana'] },
-  { title: 'Yajnas and rites', categories: ['homa', 'samskara'] },
+  { title: T('Every day'), categories: ['nitya', 'sandhya', 'puja'] },
+  { title: T('Stotras and names'), categories: ['stotra', 'sahasranama', 'madhva', 'vedic'] },
+  { title: T('Devotional songs'), categories: ['dasara-pada', 'kirtana'] },
+  { title: T('Yajnas and rites'), categories: ['homa', 'samskara'] },
 ];
 
 /** The whole library: the great works as a shelf of books, then tiles by kind, deity and occasion. */
 export default function Library() {
   const { theme, settings } = useSettings();
+  const { tr } = useI18n();
   const { width } = useWindowDimensions();
   const font = scriptFont(settings.script, settings.bookFonts);
   // Three covers to a row, with the same 16-point gutters as everything else.
@@ -29,10 +31,10 @@ export default function Library() {
     <ScrollView style={{ backgroundColor: theme.bg }} contentContainerStyle={{ paddingTop: 8, paddingBottom: 32 }}>
       <Pressable onPress={() => router.push('/search')} style={[s.search, { backgroundColor: theme.card, borderColor: theme.cardBorder }]} accessibilityRole="search">
         <Ionicons name="search" size={18} color={theme.textMuted} />
-        <Text style={{ color: theme.textMuted, fontSize: 16 }}>Search texts, names, verses</Text>
+        <Text style={{ color: theme.textMuted, fontSize: 16 }}>{tr('Search texts, names, verses')}</Text>
       </Pressable>
 
-      <ShelfHeading title="Great works · parayana" />
+      <ShelfHeading title={T('Great works · parayana')} />
       <View style={[s.grid, { justifyContent: 'flex-start', columnGap: 10 }]}>
         {greatWorks(settings.variants.tradition).map((w) => (
           <BookCover key={w.category ?? w.textId} work={w} width={coverW} />
@@ -50,14 +52,14 @@ export default function Library() {
         </View>
       ))}
 
-      <ShelfHeading title="By deity" />
+      <ShelfHeading title={T('By deity')} />
       <View style={[s.grid, { justifyContent: 'flex-start', rowGap: 14 }]}>
         {DEITIES.map((d) => (
           <DeityMedallion key={d.id} deity={d} width={Math.floor((width - 32) / 4)} />
         ))}
       </View>
 
-      <ShelfHeading title="For the day and the occasion" />
+      <ShelfHeading title={T('For the day and the occasion')} />
       <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={{ paddingHorizontal: 16, gap: 10 }}>
         {COLLECTIONS.map((c) => (
           <Pressable
