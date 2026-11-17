@@ -6,6 +6,7 @@ import { NavigationBar } from 'expo-navigation-bar';
 import { StatusBar } from 'expo-status-bar';
 import { SafeAreaProvider, useSafeAreaInsets } from 'react-native-safe-area-context';
 import { FestivalReminderSync } from '../components/FestivalReminderSync';
+import { WidgetSync } from '../components/WidgetSync';
 import { FONT_ASSETS } from '../lib/fonts';
 import { useI18n } from '../lib/i18n';
 import { SettingsProvider, useSettings } from '../lib/settings';
@@ -31,6 +32,7 @@ function AppStack() {
       {/* Android's navigation buttons follow the theme (no system scrim: the tab bar runs under them). */}
       <NavigationBar style={theme.statusBar} />
       <FestivalReminderSync />
+      <WidgetSync />
       <Stack
         screenOptions={{
           headerStyle: { backgroundColor: theme.bg },
