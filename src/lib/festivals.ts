@@ -56,8 +56,10 @@ import {
 } from './panchanga';
 import { paranaWindow, type Parana } from './parana';
 import { sauraDay, sauraMonthStart, type SauraStart } from './sauramana';
+import { MATHA_ARADHANAS, type MathaAradhana, type MathaId } from './mathaAradhana';
 
 export type { Parana, ParanaKind } from './parana';
+export type { MathaId } from './mathaAradhana';
 
 export type EkadashiRule = 'smarta' | 'madhva';
 /** Month reckoning shown in the calendar. */
@@ -535,12 +537,25 @@ const cache = new Map<string, Festival[]>();
  */
 export function festivalsBetween(
   city: City, from: string, to: string, rule: EkadashiRule, mode: CalendarMode = 'chandra', start: SauraStart = 'next', calc?: CalcMethod,
+  matha: MathaId = 'all',
 ): Festival[] {
-  return withMethod(calc, () => festivalsIn(city, from, to, rule, mode, start));
+  return withMethod(calc, () => festivalsIn(city, from, to, rule, mode, start, matha));
 }
 
-function festivalsIn(city: City, from: string, to: string, rule: EkadashiRule, mode: CalendarMode, start: SauraStart): Festival[] {
-  const key = `${getCalcMethod()}|${city.id}|${from}|${to}|${rule}|${mode}|${start}`;
+const MASA_IAST = ['Caitra', 'Vaiśākha', 'Jyeṣṭha', 'Āṣāḍha', 'Śrāvaṇa', 'Bhādrapada', 'Āśvayuja', 'Kārtika', 'Mārgaśīrṣa', 'Puṣya', 'Māgha', 'Phālguna'];
+const TITHI_IAST = ['pratipadā', 'dvitīyā', 'tṛtīyā', 'caturthī', 'pañcamī', 'ṣaṣṭhī', 'saptamī', 'aṣṭamī', 'navamī', 'daśamī', 'ekādaśī', 'dvādaśī', 'trayodaśī', 'caturdaśī'];
+/** 'Kārtika kṛṣṇa caturdaśī; Ānegondi.' */
+function mathaNote(a: MathaAradhana): string {
+  const k = a.tithi > 15;
+  const n = ((a.tithi - 1) % 15) + 1;
+  const t = a.tithi === 15 ? 'pūrṇimā' : a.tithi === 30 ? 'amāvāsyā' : TITHI_IAST[n - 1];
+  return `${MASA_IAST[a.masa]} ${k ? 'kṛṣṇa' : 'śukla'} ${t}; ${a.place}. Pūrva- and uttara-ārādhanā on the days before and after.`;
+}
+
+function festivalsIn(city: City, from: string, to: string, rule: EkadashiRule, mode: CalendarMode, start: SauraStart, matha: MathaId): Festival[] {
+  // Only a Mādhva has a maṭha; its ārādhanās are shown on top of the common ones.
+  const mathaKey: MathaId = rule === 'madhva' ? matha : 'all';
+  const key = `${getCalcMethod()}|${city.id}|${from}|${to}|${rule}|${mode}|${start}|${mathaKey}`;
   const hit = cache.get(key);
   if (hit) return hit;
   const jdFrom = julianDay(new Date(`${from}T00:00:00Z`)) - 3;
@@ -603,6 +618,20 @@ function festivalsIn(city: City, from: string, to: string, rule: EkadashiRule, m
     }
   }
 
+  // Ārādhanās of the chosen maṭha, placed by tithi like the ones above (nija months only;
+  // a kṣaya tithi falls on the day it begins).
+  if (mathaKey !== 'all') {
+    const mine = MATHA_ARADHANAS.filter((a) => a.mathas.includes(mathaKey));
+    for (const l of lunationsBetween(jdFrom - 2, jdTo)) {
+      if (l.adhika) continue;
+      for (const a of mine) {
+        if (a.masa !== l.masa) continue;
+        const date = observanceDay(city, tithiStart(l, a.tithi), tithiEnd(l, a.tithi), 'udaya');
+        out.push({ date, key: a.key, name: `${a.name} आराधना`, en: `${a.en} Ārādhanā`, kind: 'festival', calendar: 'chandra', place: a.place, note: mathaNote(a) });
+      }
+    }
+  }
+
   // Solar festivals for every Gregorian year touching the range.
   const [y0] = parseIso(from);
   const [y1] = parseIso(to);
@@ -624,8 +653,8 @@ function festivalsIn(city: City, from: string, to: string, rule: EkadashiRule, m
 }
 
 /** Festivals on one day. */
-export const festivalsOn = (city: City, date: string, rule: EkadashiRule, mode: CalendarMode = 'chandra', start: SauraStart = 'next', calc?: CalcMethod) =>
-  festivalsBetween(city, date, date, rule, mode, start, calc);
+export const festivalsOn = (city: City, date: string, rule: EkadashiRule, mode: CalendarMode = 'chandra', start: SauraStart = 'next', calc?: CalcMethod, matha: MathaId = 'all') =>
+  festivalsBetween(city, date, date, rule, mode, start, calc, matha);
 
 /** Default ekādaśī rule from the reader's tradition setting (Mādhva unless 'smarta'). */
 export const defaultRule = (tradition: string | undefined): EkadashiRule => (tradition === 'smarta' ? 'smarta' : 'madhva');

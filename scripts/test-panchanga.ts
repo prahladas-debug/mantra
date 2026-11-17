@@ -12,6 +12,7 @@ import { readdirSync, readFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { LINKED_TEXT_IDS, festivalsBetween, ekadashiDates, ekadashisBetween, paranaFor, paryayaMatha } from '../src/lib/festivals';
 import { cityInstant } from '../src/lib/festivalReminderPlan';
+import { MATHA_ARADHANAS } from '../src/lib/mathaAradhana';
 import { paranaWindow } from '../src/lib/parana';
 import { sauraDay, sauraMonthStart, sauraSankalpa } from '../src/lib/sauramana';
 import {
@@ -621,6 +622,67 @@ const PARANA: Record<string, string[]> = {
   const prab = md.find((f) => f.kind === 'ekadashi' && f.en.startsWith('Prabodhinī'))!;
   assert.equal(md.find((f) => f.key === 'dvidala-vrata')!.endDate, addDaysIso(prab.date, -1));
   checks++;
+}
+
+// ---- Maṭha ārādhanās (src/lib/mathaAradhana.ts). Each is placed by tithi like the others; the
+// dates below are those the maṭhas published (Sūrya Siddhānta, as their pañcāṅgas): ----
+{
+  const run = (city: string, from: string, to: string, matha: Parameters<typeof festivalsBetween>[7]) =>
+    festivalsBetween(cityById(city), from, to, 'madhva', 'chandra', 'next', 'surya', matha);
+  const want = (fs: ReturnType<typeof run>, list: [string, string][], who: string) => {
+    for (const [key, date] of list) {
+      assert.ok(fs.some((x) => x.key === key && x.date === date), `${who} ${key}: want ${date}, got ${fs.filter((x) => x.key === key).map((x) => x.date).join(',') || 'none'}`);
+      checks++;
+    }
+  };
+  // Vyāsarāja Maṭha, Sosale: official daily pañcāṅga, vyasarajamatha.org/panchanga.php (panchanga_ajax.php),
+  // Viśvāvasu 2025–26 and Parābhava 2026–27 (read 17 Nov 2026).
+  const sosale = run('bengaluru', '2025-04-01', '2027-03-31', 'vyasaraja');
+  want(sosale, [
+    ['vidyashreedhara-tirtha-aradhana', '2025-04-26'], ['vidyashreedhara-tirtha-aradhana', '2026-04-16'],
+    ['sheshadasa-aradhana', '2025-05-05'], ['sheshadasa-aradhana', '2026-04-24'],
+    ['vidyaratnakara-tirtha-aradhana', '2025-05-21'], ['vidyaratnakara-tirtha-aradhana', '2026-05-11'],
+    ['vidyakanta-tirtha-aradhana', '2025-06-04'], ['vidyakanta-tirtha-aradhana', '2026-06-23'],
+    ['vidyashreesindhu-tirtha-aradhana', '2026-07-23'], ['vidyapayonidhi-tirtha-aradhana', '2026-10-05'],
+    ['vidyaprasanna-tirtha-aradhana', '2025-12-04'], ['kambaluru-ramachandra-aradhana', '2026-12-12'],
+    ['vidyavallabha-tirtha-aradhana', '2026-12-18'], ['vibudhendra-tirtha-aradhana', '2026-12-19'],
+    ['jagannatha-bhashyadipika-aradhana', '2027-01-09'], ['shreenatha-tirtha-aradhana', '2027-01-11'], ['lakshmivallabha-tirtha-aradhana', '2027-01-13'],
+  ], 'Sosale');
+  // Rāghavendra Maṭha, Mantrālaya: dates of the ārādhanās as reported on srsmatha.org (news), Mantrālaya.
+  const mantralaya = run('mantralayam', '2025-01-01', '2026-12-31', 'raghavendra');
+  want(mantralaya, [
+    ['sujayeendra-tirtha-aradhana', '2025-02-02'], ['sujayeendra-tirtha-aradhana', '2026-01-22'], ['dheerendra-tirtha-aradhana', '2025-03-12'],
+    ['dheerendra-tirtha-aradhana', '2026-03-01'], ['sudheendra-tirtha-aradhana', '2025-03-16'], ['suyateendra-tirtha-aradhana', '2025-03-19'],
+    ['suyateendra-tirtha-aradhana', '2026-03-08'], ['sushameendra-tirtha-aradhana', '2025-04-15'], ['sushameendra-tirtha-aradhana', '2026-04-04'],
+    ['vadeendra-tirtha-aradhana', '2025-06-04'], ['susheelendra-tirtha-aradhana', '2026-07-17'], ['raghunandana-tirtha-aradhana', '2025-11-12'],
+    ['vasudhendra-tirtha-aradhana', '2026-11-01'], ['kavindra-tirtha-aradhana', '2025-04-06'], ['vageesha-tirtha-aradhana', '2025-04-16'],
+  ], 'Mantralaya');
+  // Uttarādi Maṭha's Kavīndra / Vāgīśa ārādhanās are the same days (Chaitra śukla navamī, kṛṣṇa tṛtīyā).
+  want(run('bengaluru', '2025-04-01', '2025-04-30', 'uttaradi'), [['kavindra-tirtha-aradhana', '2025-04-06'], ['vageesha-tirtha-aradhana', '2025-04-16']], 'Uttaradi');
+  // The tithi of ārādhanās whose date the Uttarādi Maṭha's Guru Parampara pages (uttaradimath.org) or the Palimāru
+  // Maṭha's notices (sripalimarumatha.org) give as a date: Satyapramoda Tīrtha 3 Nov 1997 and Satyābhijña Tīrtha
+  // 2 Feb 1948 (Uttarādi), the 18th and 19th ārādhanā of Vidyāmānya Tīrtha on 26 Apr 2018 and 15 May 2019 (Palimāru).
+  const tithiOn = (date: string, city: string) => {
+    const p = panchanga(date, cityById(city));
+    return `${p.masaIndex}:${p.tithiIndex}${p.adhika ? 'a' : ''}`;
+  };
+  const rowOf = (key: string) => MATHA_ARADHANAS.find((a) => a.key === key)!;
+  for (const [key, date, city] of [
+    ['satyapramoda-tirtha-aradhana', '1997-11-03', 'bengaluru'], ['satyabhijna-tirtha-aradhana', '1948-02-02', 'bengaluru'],
+    ['vidyamanya-tirtha-aradhana', '2018-04-26', 'udupi'], ['vidyamanya-tirtha-aradhana', '2019-05-15', 'udupi'],
+  ] as const) {
+    assert.equal(tithiOn(date, city), `${rowOf(key).masa}:${rowOf(key).tithi}`, `${key} on ${date}`);
+    checks++;
+  }
+  // Settings: nothing extra for 'all' (default) or under the Smārta rule; each maṭha sees only its own.
+  const isMatha = (f: { key: string }) => MATHA_ARADHANAS.some((a) => a.key === f.key);
+  assert.equal(run('bengaluru', '2025-01-01', '2026-12-31', 'all').filter(isMatha).length, 0);
+  assert.equal(festivalsBetween(blr, '2025-01-01', '2026-12-31', 'smarta', 'chandra', 'next', 'surya', 'vyasaraja').filter(isMatha).length, 0);
+  assert.ok(!sosale.some((f) => f.key === 'vageesha-tirtha-aradhana') && mantralaya.some((f) => f.key === 'vibudhendra-tirtha-aradhana') === true);
+  assert.ok(MATHA_ARADHANAS.every((a) => a.mathas.length > 0 && a.masa >= 0 && a.masa < 12 && a.tithi >= 1 && a.tithi <= 30));
+  assert.equal(new Set(MATHA_ARADHANAS.map((a) => a.key)).size, MATHA_ARADHANAS.length);
+  checks += 5;
+  console.log(`maṭha ārādhanās: ${MATHA_ARADHANAS.length} entries`);
 }
 
 {

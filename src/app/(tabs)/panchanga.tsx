@@ -4,7 +4,7 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { useMemo, useState } from 'react';
 import { Pressable, ScrollView, Text, View } from 'react-native';
 import { CalendarBar } from '../../components/CalendarBar';
-import { FestivalLine, NavButton, useCalcMethod, useCalendarMode, useEkadashiRule, useSauraStart } from '../../components/PanchangaCard';
+import { FestivalLine, NavButton, useCalcMethod, useCalendarMode, useEkadashiRule, useMatha, useSauraStart } from '../../components/PanchangaCard';
 import { SectionHeading } from '../../components/ui';
 import { festivalsBetween } from '../../lib/festivals';
 import {
@@ -71,14 +71,15 @@ export default function PanchangaScreen() {
   // The day's essentials first; the rest (year and month, moon, sankalpa, coming festivals) on request.
   const [full, setFull] = useState(false);
   const [rule] = useEkadashiRule();
+  const matha = useMatha();
   const [mode] = useCalendarMode();
   const [start] = useSauraStart();
   const [method] = useCalcMethod();
   const ss = method === 'surya';
 
   const p = useMemo(() => panchanga(date, city, method), [date, city, method]);
-  const todays = useMemo(() => festivalsBetween(city, date, date, rule, mode, start, method), [city, date, rule, mode, start, method]);
-  const upcoming = useMemo(() => festivalsBetween(city, addDays(date, 1), addDays(date, 30), rule, mode, start, method), [city, date, rule, mode, start, method]);
+  const todays = useMemo(() => festivalsBetween(city, date, date, rule, mode, start, method, matha), [city, date, rule, mode, start, method, matha]);
+  const upcoming = useMemo(() => festivalsBetween(city, addDays(date, 1), addDays(date, 30), rule, mode, start, method, matha), [city, date, rule, mode, start, method, matha]);
   const saura = useMemo(() => sauraDay(city, date, start, method), [city, date, start, method]);
   const moonrise = useMemo(
     () => withMethod(method, () => moonriseBetween(city.lat, city.lon, sunriseJd(city, date), sunriseJd(city, addDays(date, 1)))),

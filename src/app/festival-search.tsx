@@ -2,10 +2,10 @@ import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { router, useLocalSearchParams, type Href } from 'expo-router';
 import { useEffect, useMemo, useState } from 'react';
 import { FlatList, Pressable, Text, TextInput, View } from 'react-native';
-import { useCalcMethod, useCalendarMode, useEkadashiRule, useSauraStart } from '../components/PanchangaCard';
+import { useCalcMethod, useCalendarMode, useEkadashiRule, useMatha, useSauraStart } from '../components/PanchangaCard';
 import { SectionHeading } from '../components/ui';
 import { useI18n } from '../lib/i18n';
-import { festivalsBetween, type Festival } from '../lib/festivals';
+import { festivalsBetween, type Festival, type MathaId } from '../lib/festivals';
 import { cityById, todayIn, type CalcMethod } from '../lib/panchanga';
 import { plain } from '../lib/plain';
 import { useSettings } from '../lib/settings';
@@ -37,13 +37,13 @@ const ALIASES: [RegExp, string][] = [
 
 /** Twelve years of festivals take a moment to compute; keep the last result per choice set. */
 const cache = new Map<string, Festival[]>();
-type Choice = { city: ReturnType<typeof cityById>; rule: Parameters<typeof festivalsBetween>[3]; mode: Parameters<typeof festivalsBetween>[4]; start: Parameters<typeof festivalsBetween>[5]; method: CalcMethod };
-const cacheKey = ({ city, rule, mode, start, method }: Choice) => `${method}|${city.id}|${rule}|${mode}|${start}`;
+type Choice = { city: ReturnType<typeof cityById>; rule: Parameters<typeof festivalsBetween>[3]; mode: Parameters<typeof festivalsBetween>[4]; start: Parameters<typeof festivalsBetween>[5]; method: CalcMethod; matha: MathaId };
+const cacheKey = ({ city, rule, mode, start, method, matha }: Choice) => `${method}|${city.id}|${rule}|${mode}|${start}|${matha}`;
 function allFestivals(c: Choice) {
   const key = cacheKey(c);
   let list = cache.get(key);
   if (!list) {
-    list = festivalsBetween(c.city, `${FIRST_YEAR}-01-01`, `${LAST_YEAR}-12-31`, c.rule, c.mode, c.start, c.method);
+    list = festivalsBetween(c.city, `${FIRST_YEAR}-01-01`, `${LAST_YEAR}-12-31`, c.rule, c.mode, c.start, c.method, c.matha);
     cache.clear();
     cache.set(key, list);
   }
@@ -56,6 +56,7 @@ export default function FestivalSearch() {
   const { theme, settings } = useSettings();
   const { lang, tr, has, month, weekday } = useI18n();
   const [rule] = useEkadashiRule();
+  const matha = useMatha();
   const [mode] = useCalendarMode();
   const [start] = useSauraStart();
   const [method] = useCalcMethod();
@@ -65,7 +66,7 @@ export default function FestivalSearch() {
 
   // The twelve years are worked out after the screen has appeared (about a second on a
   // phone; it used to hold up opening the screen), unless they are already in the cache.
-  const choice = useMemo(() => ({ city, rule, mode, start, method }), [city, rule, mode, start, method]);
+  const choice = useMemo(() => ({ city, rule, mode, start, method, matha }), [city, rule, mode, start, method, matha]);
   const [computed, setComputed] = useState<{ choice: Choice; list: Festival[] } | null>(null);
   const all = cache.get(cacheKey(choice)) ?? (computed?.choice === choice ? computed.list : null);
   const pending = all === null;

@@ -3,7 +3,8 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import { router, type Href } from 'expo-router';
 import { useCallback, useMemo, useState, useSyncExternalStore } from 'react';
 import { Image, Pressable, Text, View } from 'react-native';
-import { defaultRule, festivalsOn, type CalendarMode, type EkadashiRule, type Festival } from '../lib/festivals';
+import { defaultRule, festivalsOn, type CalendarMode, type EkadashiRule, type Festival, type MathaId } from '../lib/festivals';
+import { mathaOf } from '../lib/mathaAradhana';
 import { sauraDay, sauraSankalpa, type SauraStart } from '../lib/sauramana';
 import { addDays, cityById, panchanga, setCalcMethod, todayIn, type CalcMethod } from '../lib/panchanga';
 import { getMantraInfo } from '../data';
@@ -65,6 +66,12 @@ export function useEkadashiRule(): [EkadashiRule, (r: EkadashiRule) => void] {
   const stored = useSyncExternalStore(rulePref.subscribe, rulePref.get, () => null);
   const set = useCallback((r: EkadashiRule) => rulePref.set(r), []);
   return [stored ?? defaultRule(settings.variants.tradition), set];
+}
+
+/** The Mādhva reader's maṭha (settings.variants.matha): its yatis' ārādhanās are added to the festivals. 'all' = common ones only. */
+export function useMatha(): MathaId {
+  const { settings } = useSettings();
+  return mathaOf(settings.variants);
 }
 
 /** Cāndramāna (lunar, default) or Sauramāna (solar, Udupi / Tuḷu Nāḍu) month reckoning. */
@@ -206,10 +213,10 @@ const HERO: Record<HeroDeity, { deity: HeroDeity; bg: string }> = {
   vayu: { deity: 'vayu', bg: '#204730' },
   ganesha: { deity: 'ganesha', bg: '#73400E' },
 };
-function nextFestival(...args: [Parameters<typeof festivalsOn>[0], string, EkadashiRule, CalendarMode, SauraStart, CalcMethod]) {
-  const [city, today, rule, mode, start, method] = args;
+function nextFestival(...args: [Parameters<typeof festivalsOn>[0], string, EkadashiRule, CalendarMode, SauraStart, CalcMethod, MathaId]) {
+  const [city, today, rule, mode, start, method, matha] = args;
   for (let d = 1; d <= 10; d++) {
-    const f = festivalsOn(city, addDays(today, d), rule, mode, start, method).find((x) => x.kind === 'festival' || x.kind === 'ekadashi');
+    const f = festivalsOn(city, addDays(today, d), rule, mode, start, method, matha).find((x) => x.kind === 'festival' || x.kind === 'ekadashi');
     if (f) return { f, days: d };
   }
   return null;
@@ -228,15 +235,16 @@ export function TodayCard() {
   const gloss = (f: Festival) => (lang === 'en' ? plain(f.en) : has(f.en) ? tr(f.en) : translit(f.name, settings.script));
   const { p, city, today, method } = usePanchanga();
   const [rule] = useEkadashiRule();
+  const matha = useMatha();
   const [mode] = useCalendarMode();
   const [start] = useSauraStart();
-  const all = useMemo(() => festivalsOn(city, today, rule, mode, start, method), [city, today, rule, mode, start, method]);
+  const all = useMemo(() => festivalsOn(city, today, rule, mode, start, method, matha), [city, today, rule, mode, start, method, matha]);
   // Month-long periods (Cāturmāsya, snāna months, Dhanurmāsa) get a full row on their first day
   // only; on the other days they share one quiet line, so the card stays short.
   const fest = all.filter((f) => !f.endDate || f.date === today);
   const tomorrow = useMemo(
-    () => festivalsOn(city, addDays(today, 1), rule, mode, start, method).filter((f) => f.kind === 'ekadashi' || f.kind === 'festival'),
-    [city, today, rule, mode, start, method],
+    () => festivalsOn(city, addDays(today, 1), rule, mode, start, method, matha).filter((f) => f.kind === 'ekadashi' || f.kind === 'festival'),
+    [city, today, rule, mode, start, method, matha],
   );
   const saura = useMemo(() => (mode === 'saura' ? sauraDay(city, today, start, method) : null), [city, today, mode, start, method]);
   const breakFast = useMemo(
@@ -249,7 +257,7 @@ export function TodayCard() {
   const hero = HERO[heroDeity(p.weekday, p.tithiIndex)];
   const heroFont = settings.bookFonts ? (settings.script === 'english' || settings.script === 'iast' ? 'BookSerif' : scriptFont(settings.script, true)) : undefined;
   // The next festival within ten days, for a gentle countdown under today's tithi.
-  const next = useMemo(() => nextFestival(city, today, rule, mode, start, method), [city, today, rule, mode, start, method]);
+  const next = useMemo(() => nextFestival(city, today, rule, mode, start, method, matha), [city, today, rule, mode, start, method, matha]);
   return (
     <View style={{ marginHorizontal: 16, marginTop: 16, borderRadius: 18, borderWidth: 1, backgroundColor: theme.card, borderColor: theme.cardBorder, overflow: 'hidden' }}>
       {/* No date: the Panchanga tab then shows today, also tomorrow. `at` changes with every tap, so a day picked there earlier gives way. */}
