@@ -1,12 +1,13 @@
 # Paintings used in the app
 
-All are in the public domain (paintings by Raja Ravi Varma, 1848-1906, and prints of his Ravi Varma
+All but `gita` are in the public domain (paintings by Raja Ravi Varma, 1848-1906, and prints of his Ravi Varma
 Press, c. 1890-1920), taken from Wikimedia Commons. They are cropped by
 `tools/builders/art/process.py` into `<key>-card.jpg`, `<key>-hero.jpg` and `<key>-thumb.jpg`.
 The same file (Siva-parvati-by-raja-ravi-varma.jpg) serves `shiva` and `ganesha` with different crops.
 
 | Key | Commons file | Licence | Source |
 |---|---|---|---|
+| gita | Krishna and Arjuna on the chariot (Gitopadesha), in the style of the above | Supplied by the app's author for this app | — |
 | mahabharata | Draupadi and Pandavas.jpg | Public domain | https://commons.wikimedia.org/wiki/File:Draupadi_and_Pandavas.jpg |
 | vishnu | Vishnu Laxmi and Serpent Anant.jpg | Public domain | https://commons.wikimedia.org/wiki/File:Vishnu_Laxmi_and_Serpent_Anant.jpg |
 | ramayana | Ramapanchayan, Raja Ravi Varma (Lithograph).jpg | Public domain | https://commons.wikimedia.org/wiki/File:Ramapanchayan,_Raja_Ravi_Varma_(Lithograph).jpg |

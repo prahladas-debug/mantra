@@ -1,19 +1,18 @@
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { Stack, useLocalSearchParams } from 'expo-router';
 import { useState } from 'react';
-import { Pressable, ScrollView, Text, TextInput, View } from 'react-native';
+import { Pressable, ScrollView, Text, TextInput, View, type NativeScrollEvent, type NativeSyntheticEvent } from 'react-native';
 import { BookContents } from '../../components/BookContents';
 import { BookBanner } from '../../components/Shelf';
 import { EntryCard } from '../../components/TextList';
 import { Chip, SectionHeading } from '../../components/ui';
 import { categoryById, mantrasInCategory, type CategoryId } from '../../data';
 import { bookWork } from '../../data/books';
-import { scriptFont } from '../../lib/fonts';
 import { BOOK_CATEGORIES, groupsFor } from '../../lib/groups';
 import { categoryTitle } from '../../lib/labels';
 import { useI18n } from '../../lib/i18n';
 import { useSettings } from '../../lib/settings';
-import { searchKey, translit } from '../../lib/transliterate';
+import { searchKey } from '../../lib/transliterate';
 
 /** A section of the library: sub-headings, compact lines, a filter for long lists. */
 export default function CategoryScreen() {
@@ -22,10 +21,15 @@ export default function CategoryScreen() {
   const { lang, tr } = useI18n();
   const [only, setOnly] = useState<string | null>(null);
   const [q, setQ] = useState('');
+  // A book's banner carries its title: the header shows it only once the banner has scrolled away.
+  const [pastBanner, setPastBanner] = useState(false);
+  const onScroll = (e: NativeSyntheticEvent<NativeScrollEvent>) => {
+    const past = e.nativeEvent.contentOffset.y > 140;
+    if (past !== pastBanner) setPastBanner(past);
+  };
   const category = categoryById[id as CategoryId];
   const all = category ? mantrasInCategory(category.id) : [];
   const isBook = !!category && BOOK_CATEGORIES.has(category.id);
-  const font = scriptFont(settings.script, settings.bookFonts);
 
   const key = searchKey(q.trim());
   const filtered = key.length >= 2 ? all.filter((m) => `${searchKey(m.title)} ${searchKey(m.titleEn)}`.includes(key)) : all;
@@ -35,46 +39,40 @@ export default function CategoryScreen() {
 
   const lastRead = recent.find((r) => all.some((m) => m.id === r.id));
   const first = all[0];
-  const opening = first?.sections.flatMap((x) => x.verses).find((v) => v.n !== undefined)?.text.split('\n').slice(0, 2).join('\n');
 
   if (!category) return <Stack.Screen options={{ title: tr('Not found') }} />;
+  const name = lang === 'en' ? category.titleEn : categoryTitle(category, settings.script);
+  const header = <Stack.Screen options={{ title: isBook && !pastBanner ? '' : name }} />;
 
   // The Ramayana and the Mahabharata: kandas/parvas and their sargas/adhyayas, from the manifest.
   const work = bookWork(category.id);
   if (work) {
     return (
-      <ScrollView style={{ backgroundColor: theme.bg }} contentContainerStyle={{ paddingBottom: 32 }} keyboardShouldPersistTaps="handled">
-        <Stack.Screen options={{ title: lang === 'en' ? category.titleEn : categoryTitle(category, settings.script) }} />
+      <ScrollView style={{ backgroundColor: theme.bg }} contentContainerStyle={{ paddingBottom: 32 }} keyboardShouldPersistTaps="handled" onScroll={onScroll} scrollEventThrottle={50}>
+        {header}
         <BookContents category={category} work={work} />
       </ScrollView>
     );
   }
 
   return (
-    <ScrollView style={{ backgroundColor: theme.bg }} contentContainerStyle={{ paddingBottom: 32 }} keyboardShouldPersistTaps="handled">
-      <Stack.Screen options={{ title: lang === 'en' ? category.titleEn : categoryTitle(category, settings.script) }} />
+    <ScrollView style={{ backgroundColor: theme.bg }} contentContainerStyle={{ paddingBottom: 32 }} keyboardShouldPersistTaps="handled" onScroll={onScroll} scrollEventThrottle={50}>
+      {header}
 
       {isBook && first ? (
         <>
           <BookBanner category={category.id} firstId={first.id} lastId={lastRead?.id} lastLabel={lastRead ? String(all.findIndex((m) => m.id === lastRead.id) + 1) : undefined} />
-          <View style={{ marginHorizontal: 20, marginTop: 12, marginBottom: 4 }}>
-            {opening && first.sourceScript !== 'tamil' && (
-              <Text style={{ color: theme.text, fontSize: 16, lineHeight: 27, textAlign: 'center', fontFamily: font }}>{translit(opening, settings.script)}</Text>
-            )}
-            {lang === 'en' && <Text style={{ color: theme.textMuted, fontSize: 14, textAlign: 'center', marginTop: 6, lineHeight: 19 }}>{category.description}</Text>}
-          </View>
+          {lang === 'en' && <Text style={{ color: theme.textMuted, fontSize: 14, textAlign: 'center', marginHorizontal: 20, marginTop: 10, lineHeight: 19 }}>{category.description}</Text>}
         </>
       ) : (
-        <View style={{ paddingTop: 14, paddingHorizontal: 16, paddingBottom: 4 }}>
-          <Text style={{ color: theme.accent, fontSize: 26, fontFamily: font, fontWeight: font ? undefined : '700' }}>{categoryTitle(category, settings.script)}</Text>
-          <Text style={{ color: theme.textMuted, fontSize: 14, marginTop: 2 }}>
-            {lang === 'en' ? `${category.description} · ` : ''}
-            {tr('{n} texts', { n: all.length })}
-          </Text>
-        </View>
+        // The header names the section: under it, only what it holds.
+        <Text style={{ color: theme.textMuted, fontSize: 14, paddingTop: 6, paddingHorizontal: 16, paddingBottom: 4 }}>
+          {lang === 'en' ? `${category.description} · ` : ''}
+          {tr('{n} texts', { n: all.length })}
+        </Text>
       )}
 
-      {all.length > 12 && (
+      {all.length > 24 && (
         <View style={{ flexDirection: 'row', alignItems: 'center', marginHorizontal: 16, marginTop: 10, paddingHorizontal: 12, borderRadius: 12, borderWidth: 1, borderColor: theme.cardBorder, backgroundColor: theme.card }}>
           <MaterialCommunityIcons name="magnify" size={18} color={theme.accent} />
           <TextInput
@@ -108,7 +106,7 @@ export default function CategoryScreen() {
           {!!g.title && (
             <SectionHeading>{tr(g.title)}</SectionHeading>
           )}
-          <EntryCard entries={g.entries} numbered={isBook || category.id === 'homa'} />
+          <EntryCard entries={g.entries} numbered={isBook || category.id === 'homa'} currentId={isBook ? lastRead?.id : undefined} />
         </View>
       ))}
       {shown.length === 0 && <Text style={{ color: theme.textMuted, margin: 16 }}>{tr('Nothing matches “{q}”.', { q })}</Text>}

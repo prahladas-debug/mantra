@@ -249,6 +249,7 @@ export const ml: Record<string, string> = {
   "Last 7 days": "കഴിഞ്ഞ 7 ദിവസം",
   "Last month of Cāturmāsya, from Āśvayuja śukla ekādaśī: pulses (grains that split in two) are given up. Cāturmāsya is concluded with the pāraṇa on Uttāna dvādaśī.": "ചാതുർമാസ്യത്തിന്റെ അവസാന മാസം, ആശ്വയുജ ശുക്ല ഏകാദശി മുതൽ: പയർവർഗങ്ങൾ (രണ്ടായി പിളരുന്ന ധാന്യങ്ങൾ) ഉപേക്ഷിക്കുന്നു. ഉത്ഥാന ദ്വാദശിയിലെ പാരണയോടെ ചാതുർമാസ്യം സമാപിക്കുന്നു.",
   "Last opened": "അവസാനം തുറന്നത്",
+  "Last read": "അവസാനം വായിച്ചത്",
   "Last seven days: {n} lit": "കഴിഞ്ഞ ഏഴ് ദിവസം: {n} വിളക്കുകൾ തെളിഞ്ഞു",
   "Leave focus mode": "ഫോക്കസ് മോഡ് വിടുക",
   "Less ▴": "കുറച്ച് ▴",

@@ -38,7 +38,7 @@ export interface GreatWork {
 }
 
 export const GREAT_WORKS: GreatWork[] = [
-  { category: 'gita', titleEn: 'Bhagavad Gita', size: T('18 chapters'), about: T('700 verses'), lines: ['भगवद्गीता'], own: { kannada: ['ಭಗವದ್ಗೀತೆ'], telugu: ['భగవద్గీత'] }, cloth: '#7E2A12', edge: '#A8431F' },
+  { category: 'gita', titleEn: 'Bhagavad Gita', size: T('18 chapters'), about: T('700 verses'), lines: ['भगवद्गीता'], own: { kannada: ['ಭಗವದ್ಗೀತೆ'], telugu: ['భగవద్గీత'] }, cloth: '#7E2A12', edge: '#A8431F', art: 'gita' },
   { textId: 'vishnu-sahasranama', titleEn: 'Vishnu Sahasranama', size: T('1000 names'), lines: ['विष्णु', 'सहस्रनाम'], cloth: '#1E3A64', edge: '#2F558C', art: 'vishnu' },
   { category: 'sundarakanda', titleEn: 'Sundarakanda', size: T('68 sargas'), about: 'Ramayana', lines: ['सुन्दर', 'काण्ड'], cloth: '#2C5638', edge: '#3F7650' },
   { category: 'ramayana', titleEn: 'Valmiki Ramayana', size: T('7 kandas'), about: T('24,000 verses'), lines: ['वाल्मीकि', 'रामायण'], cloth: '#3F4A17', edge: '#5C6B22', art: 'ramayana' },
@@ -210,8 +210,22 @@ export function BookBanner({ category, firstId, lastId, lastLabel }: { category:
   const go = (id: string) => router.push(`/mantra/${id}` as Href);
   return (
     <View style={[c.banner, { backgroundColor: work.cloth }]}>
-      {/* Sized by the banner itself: an ImageBackground without a fixed size shows the picture at its own size. */}
-      <Image source={art} style={{ position: 'absolute', width: '100%', height: '100%', opacity: theme.artOpacity }} resizeMode="cover" />
+      {/* The work's painting, darkened behind the words, or else its cloth with the emblem.
+          Sized by the banner itself: an ImageBackground without a fixed size shows the picture at its own size. */}
+      {work.art ? (
+        <>
+          <Image source={ART[work.art].hero} style={{ position: 'absolute', width: '100%', height: '100%' }} resizeMode="cover" />
+          <LinearGradient
+            colors={['rgba(14,9,5,0.9)', 'rgba(14,9,5,0.62)', 'rgba(14,9,5,0)']}
+            locations={[0, 0.5, 0.88]}
+            start={{ x: 0, y: 0 }}
+            end={{ x: 1, y: 0 }}
+            style={StyleSheet.absoluteFill}
+          />
+        </>
+      ) : (
+        <Image source={art} style={{ position: 'absolute', width: '100%', height: '100%', opacity: theme.artOpacity }} resizeMode="cover" />
+      )}
       <View style={c.bannerWords}>
         {coverLines(work, settings.script).map((line) => (
           <Text key={line} style={{ color: CREAM, fontSize: size, lineHeight: size * 1.45, fontFamily: font, fontWeight: font ? undefined : '700' }} numberOfLines={1} adjustsFontSizeToFit minimumFontScale={0.6}>

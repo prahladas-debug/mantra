@@ -99,9 +99,6 @@ export function BookContents({ category, work }: { category: Category; work: Boo
     <View>
       {seq.length > 0 && <BookBanner category={category.id} firstId={seq[0]} lastId={lastRead?.id} lastLabel={lastLabel} />}
       <View style={{ marginHorizontal: 20, marginTop: 12, marginBottom: 4 }}>
-        {work.opening && (
-          <Text style={{ color: theme.text, fontSize: 16, lineHeight: 27, textAlign: 'center', fontFamily: font }}>{translit(work.opening, settings.script)}</Text>
-        )}
         {ui === 'en' && (
           <>
             <Text style={{ color: theme.textMuted, fontSize: 14, textAlign: 'center', marginTop: 6, lineHeight: 19 }}>{category.description}</Text>
@@ -176,7 +173,7 @@ export function BookContents({ category, work }: { category: Category; work: Boo
                     <Text style={{ color: theme.textMuted, fontSize: 14, lineHeight: 21, paddingHorizontal: 16, paddingBottom: 8 }}>{lang === 'en' ? plain(summary) : summary}</Text>
                   )}
                   {list.map((r) => (
-                    <TextRow key={r.mantra.id} mantra={r.mantra} divider indent badge={String(r.unit)} subtitle={r.mantra.titleEn.split(' · ').pop()} />
+                    <TextRow key={r.mantra.id} mantra={r.mantra} divider indent badge={String(r.unit)} subtitle={r.mantra.titleEn.split(' · ').pop()} current={r.mantra.id === lastRead?.id} />
                   ))}
                 </View>
               )}

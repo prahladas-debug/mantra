@@ -7,7 +7,7 @@ import { scriptFont } from '../lib/fonts';
 import type { Entry } from '../lib/groups';
 import { useI18n } from '../lib/i18n';
 import { useSettings } from '../lib/settings';
-import { translit, type ScriptId, nameOf } from '../lib/transliterate';
+import { isRoman, translit, type ScriptId, nameOf } from '../lib/transliterate';
 import { useShowEnglish } from './useGloss';
 
 /** Tamil-language works are always shown in Tamil; everything else in the reader's script. */
@@ -36,12 +36,15 @@ function shortName(m: Mantra, numbered?: boolean): string | undefined {
 }
 
 /** One compact line for a text: title in the reader's script, English name and verse count under it. */
-export function TextRow({ mantra, subtitle, badge, divider, indent }: { mantra: Mantra; subtitle?: string; badge?: string; divider?: boolean; indent?: boolean }) {
+export function TextRow({ mantra, subtitle, badge, divider, indent, current }: { mantra: Mantra; subtitle?: string; badge?: string; divider?: boolean; indent?: boolean; current?: boolean }) {
   const { theme, settings, favorites } = useSettings();
   const { tr } = useI18n();
   const showEn = useShowEnglish();
   const t = titleFor(mantra, settings.script);
   const font = scriptFont(t.script, settings.bookFonts);
+  // A numbered part in English letters: "Devi Mahatmyam · Chapter 1" → "Chapter 1"; the page names the work.
+  const short = badge !== undefined && isRoman(t.script) && t.text.includes(' · ');
+  const title = short ? t.text.split(' · ').pop() : t.text;
   return (
     <Pressable
       onPress={() => router.push(`/mantra/${mantra.id}` as Href)}
@@ -49,20 +52,20 @@ export function TextRow({ mantra, subtitle, badge, divider, indent }: { mantra: 
       style={({ pressed }) => [s.row, { borderTopWidth: divider ? StyleSheet.hairlineWidth : 0, borderColor: theme.cardBorder, opacity: pressed ? 0.6 : 1, paddingLeft: indent ? 26 : 14 }]}
     >
       {badge !== undefined && (
-        <View style={[s.badge, { backgroundColor: theme.accentSoft }]}>
-          <Text style={{ color: theme.accent, fontSize: 14, fontWeight: '700' }}>{badge}</Text>
+        <View style={[s.badge, { backgroundColor: current ? theme.accent : theme.accentSoft }]}>
+          <Text style={{ color: current ? theme.onAccent : theme.accent, fontSize: 14, fontWeight: '700' }}>{badge}</Text>
         </View>
       )}
       <View style={{ flex: 1 }}>
         <Text style={{ color: theme.text, fontSize: 18, fontFamily: font, fontWeight: font ? undefined : '600' }} numberOfLines={1}>
-          {t.text}
+          {title}
         </Text>
-        <Text style={{ color: theme.textMuted, fontSize: 14, marginTop: 1 }} numberOfLines={1}>
-          {subtitleFor(mantra, tr, showEn, subtitle)}
+        <Text style={{ color: current ? theme.accent : theme.textMuted, fontSize: 14, marginTop: 1 }} numberOfLines={1}>
+          {[current && tr('Last read'), subtitleFor(mantra, tr, showEn && !short, subtitle)].filter(Boolean).join(' · ')}
         </Text>
       </View>
       {favorites.includes(mantra.id) && <MaterialCommunityIcons name="star" size={18} color={theme.gold} />}
-      <MaterialCommunityIcons name="chevron-right" size={18} color={theme.textMuted} />
+      <MaterialCommunityIcons name={current ? 'bookmark' : 'chevron-right'} size={18} color={current ? theme.accent : theme.textMuted} />
     </Pressable>
   );
 }
@@ -104,7 +107,7 @@ function SeriesRow({ entry, divider }: { entry: Entry; divider?: boolean }) {
 }
 
 /** A card holding a group's lines. */
-export function EntryCard({ entries, numbered }: { entries: Entry[]; numbered?: boolean }) {
+export function EntryCard({ entries, numbered, currentId }: { entries: Entry[]; numbered?: boolean; currentId?: string }) {
   const { theme } = useSettings();
   return (
     <View style={[s.card, { backgroundColor: theme.card, borderColor: theme.cardBorder }]}>
@@ -118,6 +121,7 @@ export function EntryCard({ entries, numbered }: { entries: Entry[]; numbered?: 
             divider={i > 0}
             badge={numbered ? String(e.mantra.order ?? i + 1) : undefined}
             subtitle={shortName(e.mantra, numbered)}
+            current={e.mantra.id === currentId}
           />
         ),
       )}

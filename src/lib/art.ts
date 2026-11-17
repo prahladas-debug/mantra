@@ -1,8 +1,8 @@
 /**
  * Paintings in the public domain (Raja Ravi Varma and prints of his Ravi Varma Press), from
- * Wikimedia Commons: see assets/art/SOURCES.md. Cropped by tools/builders/art/process.py into a
+ * Wikimedia Commons, and the Gita's Krishna and Arjuna, supplied for the app: see assets/art/SOURCES.md. Cropped by tools/builders/art/process.py into a
  * 3:4 card, a wide banner and a square for round images. A work gets a painting only where one
- * shows its own subject; the others (the Gita, Sundarakanda, ...) keep their cloth covers.
+ * shows its own subject; the others (Sundarakanda, ...) keep their cloth covers.
  */
 import type { ImageSourcePropType } from 'react-native';
 
@@ -13,6 +13,7 @@ export interface Art {
 }
 
 export const ART = {
+  gita: { card: require('../../assets/art/gita-card.jpg'), hero: require('../../assets/art/gita-hero.jpg'), thumb: require('../../assets/art/gita-thumb.jpg') },
   mahabharata: { card: require('../../assets/art/mahabharata-card.jpg'), hero: require('../../assets/art/mahabharata-hero.jpg'), thumb: require('../../assets/art/mahabharata-thumb.jpg') },
   vishnu: { card: require('../../assets/art/vishnu-card.jpg'), hero: require('../../assets/art/vishnu-hero.jpg'), thumb: require('../../assets/art/vishnu-thumb.jpg') },
   ramayana: { card: require('../../assets/art/ramayana-card.jpg'), hero: require('../../assets/art/ramayana-hero.jpg'), thumb: require('../../assets/art/ramayana-thumb.jpg') },

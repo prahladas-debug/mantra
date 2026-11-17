@@ -249,6 +249,7 @@ export const kn: Record<string, string> = {
   "Last 7 days": "ಕಳೆದ 7 ದಿನಗಳು",
   "Last month of Cāturmāsya, from Āśvayuja śukla ekādaśī: pulses (grains that split in two) are given up. Cāturmāsya is concluded with the pāraṇa on Uttāna dvādaśī.": "ಆಶ್ವಯುಜ ಶುಕ್ಲ ಏಕಾದಶಿಯಿಂದ ಚಾತುರ್ಮಾಸ್ಯದ ಕೊನೆಯ ತಿಂಗಳು: ಬೇಳೆಕಾಳುಗಳನ್ನು (ಎರಡು ಭಾಗವಾಗುವ ಧಾನ್ಯಗಳು) ಬಿಡಲಾಗುತ್ತದೆ. ಉತ್ಥಾನ ದ್ವಾದಶಿಯ ಪಾರಣೆಯೊಂದಿಗೆ ಚಾತುರ್ಮಾಸ್ಯ ಮುಕ್ತಾಯವಾಗುತ್ತದೆ.",
   "Last opened": "ಕೊನೆಯದಾಗಿ ತೆರೆದವು",
+  "Last read": "ಕೊನೆಯಲ್ಲಿ ಓದಿದ್ದು",
   "Last seven days: {n} lit": "ಕಳೆದ ಏಳು ದಿನಗಳು: {n} ದೀಪ ಹಚ್ಚಲಾಗಿದೆ",
   "Leave focus mode": "ಫೋಕಸ್ ಮೋಡ್ ಬಿಡಿ",
   "Less ▴": "ಕಡಿಮೆ ▴",

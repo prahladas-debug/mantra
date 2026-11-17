@@ -249,6 +249,7 @@ export const te: Record<string, string> = {
   "Last 7 days": "గత 7 రోజులు",
   "Last month of Cāturmāsya, from Āśvayuja śukla ekādaśī: pulses (grains that split in two) are given up. Cāturmāsya is concluded with the pāraṇa on Uttāna dvādaśī.": "చాతుర్మాస్యంలో చివరి నెల, ఆశ్వయుజ శుక్ల ఏకాదశి నుండి: పప్పుధాన్యాలు (రెండుగా చీలే ధాన్యాలు) విడిచిపెడతారు. ఉత్థాన ద్వాదశినాడు పారణతో చాతుర్మాస్యం ముగుస్తుంది.",
   "Last opened": "చివరిగా తెరిచినవి",
+  "Last read": "చివరిగా చదివింది",
   "Last seven days: {n} lit": "గత ఏడు రోజులు: {n} దీపాలు వెలిగాయి",
   "Leave focus mode": "ఫోకస్ మోడ్ నుండి బయటకు వెళ్ళు",
   "Less ▴": "తక్కువ ▴",

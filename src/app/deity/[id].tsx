@@ -4,12 +4,11 @@ import { EntryCard } from '../../components/TextList';
 import { SectionHeading } from '../../components/ui';
 import { ALL_MANTRAS, categoryById } from '../../data';
 import { DEITIES, deitiesOf } from '../../lib/deities';
-import { scriptFont } from '../../lib/fonts';
 import { foldMixed } from '../../lib/groups';
 import { useI18n } from '../../lib/i18n';
 import { useSettings } from '../../lib/settings';
 import { categoryTitle } from '../../lib/labels';
-import { translit } from '../../lib/transliterate';
+import { isRoman, translit } from '../../lib/transliterate';
 import { useShowEnglish } from '../../components/useGloss';
 
 /** Every text for a deity, under the library section it belongs to. */
@@ -25,13 +24,10 @@ export default function DeityScreen() {
     <ScrollView style={{ backgroundColor: theme.bg }} contentContainerStyle={{ paddingBottom: 32 }}>
       <Stack.Screen options={{ title: group ? (lang === 'en' ? group.titleEn : translit(group.title, settings.script)) : tr('Not found') }} />
       {group && (
-        <View style={{ paddingHorizontal: 16, paddingTop: 14 }}>
-          <Text style={{ color: theme.accent, fontSize: 26, fontFamily: scriptFont(settings.script, settings.bookFonts) }}>{translit(group.title, settings.script)}</Text>
-          <Text style={{ color: theme.textMuted, fontSize: 14 }}>
-            {showEn ? `${group.titleEn} · ` : ''}
-            {tr('{n} texts', { n: all.length })}
-          </Text>
-        </View>
+        <Text style={{ color: theme.textMuted, fontSize: 14, paddingHorizontal: 16, paddingTop: 6 }}>
+          {lang === 'en' ? (isRoman(settings.script) ? '' : `${translit(group.title, settings.script)} · `) : showEn ? `${group.titleEn} · ` : ''}
+          {tr('{n} texts', { n: all.length })}
+        </Text>
       )}
       {cats.map((c) => (
         <View key={c}>

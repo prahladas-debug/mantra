@@ -249,6 +249,7 @@ export const hi: Record<string, string> = {
   "Last 7 days": "पिछले 7 दिन",
   "Last month of Cāturmāsya, from Āśvayuja śukla ekādaśī: pulses (grains that split in two) are given up. Cāturmāsya is concluded with the pāraṇa on Uttāna dvādaśī.": "चातुर्मास्य का अंतिम मास, आश्विन शुक्ल एकादशी से: दालें (दो फाँक होने वाले अनाज) त्यागी जाती हैं। चातुर्मास्य उत्थान द्वादशी के पारण से समाप्त होता है।",
   "Last opened": "पिछली बार खोला",
+  "Last read": "पिछली बार पढ़ा",
   "Last seven days: {n} lit": "पिछले सात दिन: {n} दीप जले",
   "Leave focus mode": "फ़ोकस मोड से बाहर निकलें",
   "Less ▴": "कम ▴",
