@@ -166,6 +166,7 @@ export const ml: Record<string, string> = {
   "For muhurtas, follow your family panchanga.": "മുഹൂർത്തങ്ങൾക്ക് നിങ്ങളുടെ കുടുംബ പഞ്ചാംഗം പിന്തുടരുക.",
   "For sunrise, panchanga and festival dates.": "സൂര്യോദയം, പഞ്ചാംഗം, ഉത്സവ തീയതികൾ എന്നിവയ്ക്ക്.",
   "For the day and the occasion": "ദിവസത്തിനും അവസരത്തിനും വേണ്ടി",
+  "Occasions": "സന്ദർഭങ്ങൾ",
   "For {place} · times are local (UTC{offset} h).": "{place}ന്: സമയം പ്രാദേശികം (UTC{offset} മണിക്കൂർ).",
   "Fr": "വെ",
   "Fri": "വെള്ളി",

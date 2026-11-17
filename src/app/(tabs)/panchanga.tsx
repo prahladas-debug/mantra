@@ -190,13 +190,10 @@ export default function PanchangaScreen() {
         </View>
       )}
 
-      <SectionHeading>{tr('Panchanga · the five limbs')}</SectionHeading>
-      <Table rows={limbs} />
+      <View style={{ height: 16 }} />
+      <Table rows={[...limbs, ...sunMoon, ...(full ? moonRows : [])]} />
 
-      <SectionHeading>{tr('Sun and moon')}</SectionHeading>
-      <Table rows={full ? [...sunMoon, ...moonRows] : sunMoon} />
-
-      <SectionHeading>{tr('Good and inauspicious times')}</SectionHeading>
+      <View style={{ height: 12 }} />
       <Table rows={times} />
 
       <Pressable
@@ -210,7 +207,7 @@ export default function PanchangaScreen() {
 
       {full && (
       <>
-      <SectionHeading>{tr('Year and month')}</SectionHeading>
+      <View style={{ height: 16 }} />
       <Table rows={year} />
 
       <SectionHeading>{tr('Sankalpa')}</SectionHeading>

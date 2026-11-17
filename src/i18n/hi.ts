@@ -166,6 +166,7 @@ export const hi: Record<string, string> = {
   "For muhurtas, follow your family panchanga.": "मुहूर्त के लिए अपने परिवार के पंचांग का पालन करें।",
   "For sunrise, panchanga and festival dates.": "सूर्योदय, पंचांग और त्योहार की तिथियों के लिए।",
   "For the day and the occasion": "दिन और अवसर के लिए",
+  "Occasions": "अवसर",
   "For {place} · times are local (UTC{offset} h).": "{place} के लिए · समय स्थानीय है (UTC{offset} घंटे)।",
   "Fr": "शु",
   "Fri": "शुक्र",

@@ -166,6 +166,7 @@ export const te: Record<string, string> = {
   "For muhurtas, follow your family panchanga.": "ముహూర్తాల కోసం మీ కుటుంబ పంచాంగాన్ని అనుసరించండి.",
   "For sunrise, panchanga and festival dates.": "సూర్యోదయం, పంచాంగం మరియు పండుగ తేదీల కోసం.",
   "For the day and the occasion": "ఆ రోజు మరియు సందర్భానికి",
+  "Occasions": "సందర్భాలు",
   "For {place} · times are local (UTC{offset} h).": "{place} కోసం · సమయాలు స్థానిక సమయం (UTC{offset} గం).",
   "Fr": "శు",
   "Fri": "శుక్ర",

@@ -36,7 +36,7 @@ export default function Library() {
         <Text style={{ color: theme.textMuted, fontSize: 16 }}>{tr('Search texts, names, verses')}</Text>
       </Pressable>
 
-      <ShelfHeading title={T('Great works · parayana')} />
+      <ShelfHeading title={T('Great works')} />
       <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={{ paddingHorizontal: 16, gap: 10 }}>
         {greatWorks(settings.variants.tradition).map((w) => (
           <BookCover key={w.category ?? w.textId} work={w} width={coverW} />
@@ -61,7 +61,7 @@ export default function Library() {
         ))}
       </View>
 
-      <ShelfHeading title={T('For the day and the occasion')} />
+      <ShelfHeading title={T('Occasions')} />
       <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={{ paddingHorizontal: 16, gap: 10 }}>
         {COLLECTIONS.map((c) => (
           <Pressable

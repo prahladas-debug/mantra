@@ -317,7 +317,7 @@ export function ShelfHeading({ title, action, onAction }: { title: string; actio
   return (
     <View style={c.heading}>
       <MaterialCommunityIcons name="spa-outline" size={18} color={theme.gold} style={{ marginRight: 8 }} />
-      <Text style={{ flex: 1, color: theme.text, fontSize: 17, fontFamily: hf, fontWeight: hf ? undefined : '700', letterSpacing: 0.2 }} accessibilityRole="header">
+      <Text style={{ flex: 1, color: theme.text, fontSize: 16, fontFamily: hf, fontWeight: hf ? undefined : '700', letterSpacing: 0.2 }} accessibilityRole="header">
         {tr(title)}
       </Text>
       {action && (

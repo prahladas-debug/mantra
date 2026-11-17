@@ -25,7 +25,7 @@ function Heading({ title, action, onAction }: { title: string; action?: string; 
   return (
     <View style={s.heading}>
       <MaterialCommunityIcons name="spa-outline" size={18} color={theme.gold} style={{ marginRight: 8 }} />
-      <Text style={{ color: theme.text, fontSize: 17, fontFamily: hf, fontWeight: hf ? undefined : '700', flex: 1 }} accessibilityRole="header">{tr(title)}</Text>
+      <Text style={{ color: theme.text, fontSize: 16, fontFamily: hf, fontWeight: hf ? undefined : '700', flex: 1 }} accessibilityRole="header">{tr(title)}</Text>
       {action && (
         <Pressable onPress={onAction} hitSlop={10} accessibilityRole="button">
           <Text style={{ color: theme.accent, fontSize: 16 }}>{tr(action)}</Text>

@@ -166,6 +166,7 @@ export const kn: Record<string, string> = {
   "For muhurtas, follow your family panchanga.": "ಮುಹೂರ್ತಗಳಿಗೆ ನಿಮ್ಮ ಕುಟುಂಬದ ಪಂಚಾಂಗವನ್ನು ಅನುಸರಿಸಿ.",
   "For sunrise, panchanga and festival dates.": "ಸೂರ್ಯೋದಯ, ಪಂಚಾಂಗ ಮತ್ತು ಹಬ್ಬದ ದಿನಾಂಕಗಳಿಗಾಗಿ.",
   "For the day and the occasion": "ದಿನ ಮತ್ತು ಸಂದರ್ಭಕ್ಕಾಗಿ",
+  "Occasions": "ಸಂದರ್ಭಗಳು",
   "For {place} · times are local (UTC{offset} h).": "{place}ಗಾಗಿ · ಸಮಯ ಸ್ಥಳೀಯ (UTC{offset} ಗಂಟೆ).",
   "Fr": "ಶು",
   "Fri": "ಶುಕ್ರ",

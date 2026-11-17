@@ -33,7 +33,7 @@ export function SectionHeading({ children }: { children: React.ReactNode }) {
   return (
     <View style={{ flexDirection: 'row', alignItems: 'center', gap: 8, marginTop: 26, marginBottom: 10, marginHorizontal: 16 }}>
       <MaterialCommunityIcons name="spa-outline" size={18} color={theme.gold} />
-      <Text style={{ fontSize: 17, fontWeight: hf ? undefined : '700', fontFamily: hf, color: theme.text }} accessibilityRole="header">
+      <Text style={{ fontSize: 16, fontWeight: hf ? undefined : '700', fontFamily: hf, color: theme.text }} accessibilityRole="header">
         {children}
       </Text>
     </View>
