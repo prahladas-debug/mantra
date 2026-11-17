@@ -14,7 +14,7 @@ export const shivAarti: Mantra = {
   id: 'shiv-aarti',
   title: 'ॐजयशिवओंकाराआरती',
   titleEn: 'Om Jai Shiv Omkara Aarti',
-  category: 'kirtana',
+  category: 'aarti',
   order: 29,
   deity: 'Śrī Śiva',
   source: 'Traditional Hindi aarti, with the name of Śivānanda Svāmī',

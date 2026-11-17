@@ -159,6 +159,7 @@ export default function Home() {
 
       <ShelfHeading title={T('Devotional songs')} action={T('Whole library ›')} onAction={() => router.push('/library')} />
       <View style={s.grid}>
+        <CategoryTile id="aarti" wide />
         <CategoryTile id="dasara-pada" />
         <CategoryTile id="kirtana" />
       </View>

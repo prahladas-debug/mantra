@@ -14,7 +14,7 @@ export const ganeshAarti: Mantra = {
   id: 'ganesh-aarti',
   title: 'जयगणेशदेवाआरती',
   titleEn: 'Jai Ganesh Deva Aarti',
-  category: 'kirtana',
+  category: 'aarti',
   order: 27,
   deity: 'Śrī Gaṇeśa',
   source: 'Traditional Hindi aarti, with the signature "Sūra"',

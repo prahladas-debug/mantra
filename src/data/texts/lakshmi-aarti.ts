@@ -14,7 +14,7 @@ export const lakshmiAarti: Mantra = {
   id: 'lakshmi-aarti',
   title: 'ॐजयलक्ष्मीमाताआरती',
   titleEn: 'Om Jai Lakshmi Mata Aarti',
-  category: 'kirtana',
+  category: 'aarti',
   order: 28,
   deity: 'Śrī Lakṣmī',
   source: 'Traditional Hindi aarti',

@@ -14,7 +14,7 @@ export const kunjBihariAarti: Mantra = {
   id: 'kunj-bihari-aarti',
   title: 'आरतीकुंजबिहारीकी',
   titleEn: 'Aarti Kunj Bihari Ki',
-  category: 'kirtana',
+  category: 'aarti',
   order: 30,
   deity: 'Śrī Kṛṣṇa (Kuñjabihārī, Giridhara)',
   source: 'Traditional Hindi (Braj) aarti',

@@ -17,7 +17,7 @@ export const omJaiJagdishHare: Mantra = {
   id: 'om-jai-jagdish-hare',
   title: 'ॐजयजगदीशहरे',
   titleEn: 'Om Jai Jagdish Hare',
-  category: 'kirtana',
+  category: 'aarti',
   order: 22,
   deity: 'Śrī Viṣṇu (Jagadīśa)',
   source: 'Ascribed to Paṇḍita Śraddhārāma Phillaurī (Hindi)',
