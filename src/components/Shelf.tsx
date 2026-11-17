@@ -8,6 +8,8 @@ import { headingFont, scriptFont } from '../lib/fonts';
 import { T, useI18n } from '../lib/i18n';
 import { categoryTitle } from '../lib/labels';
 import { useSettings } from '../lib/settings';
+import { LinearGradient } from 'expo-linear-gradient';
+import { ART, DEITY_ART as DEITY_PAINTING, type ArtKey } from '../lib/art';
 import { useShowEnglish } from './useGloss';
 import { translit, type ScriptId, isRoman } from '../lib/transliterate';
 
@@ -31,18 +33,20 @@ export interface GreatWork {
   edge: string;
   /** Shown later for readers of the other tradition. */
   tradition?: 'madhva' | 'smarta';
+  /** A painting for the card (src/lib/art.ts); works without one keep their cloth cover. */
+  art?: ArtKey;
 }
 
 export const GREAT_WORKS: GreatWork[] = [
-  { category: 'gita', titleEn: 'Bhagavad Gita', size: T('18 chapters'), about: T('700 verses'), lines: ['भगवद्गीता'], own: { kannada: ['ಭಗವದ್ಗೀತೆ'], telugu: ['భగవద్గీత'] }, cloth: '#7E2A12', edge: '#A8431F' },
-  { textId: 'vishnu-sahasranama', titleEn: 'Vishnu Sahasranama', size: T('1000 names'), lines: ['विष्णु', 'सहस्रनाम'], cloth: '#1E3A64', edge: '#2F558C' },
-  { category: 'sundarakanda', titleEn: 'Sundarakanda', size: T('68 sargas'), about: 'Ramayana', lines: ['सुन्दर', 'काण्ड'], cloth: '#2C5638', edge: '#3F7650' },
-  { category: 'ramayana', titleEn: 'Valmiki Ramayana', size: T('7 kandas'), about: T('24,000 verses'), lines: ['वाल्मीकि', 'रामायण'], cloth: '#3F4A17', edge: '#5C6B22' },
-  { category: 'mahabharata', titleEn: 'Mahabharata', size: T('18 parvas'), about: 'Vyasa', lines: ['महाभारतम्'], own: { kannada: ['ಮಹಾಭಾರತ'], telugu: ['మహాభారతం'], tamil: ['மகாபாரதம்'], malayalam: ['മഹാഭാരതം'], gujarati: ['મહાભારત'], bengali: ['মহাভারত'], oriya: ['ମହାଭାରତ'] }, cloth: '#4E1E18', edge: '#7A3328' },
+  { category: 'gita', titleEn: 'Bhagavad Gita', size: T('18 chapters'), about: T('700 verses'), lines: ['भगवद्गीता'], own: { kannada: ['ಭಗವದ್ಗೀತೆ'], telugu: ['భగవద్గీత'] }, cloth: '#7E2A12', edge: '#A8431F', art: 'gita' },
+  { textId: 'vishnu-sahasranama', titleEn: 'Vishnu Sahasranama', size: T('1000 names'), lines: ['विष्णु', 'सहस्रनाम'], cloth: '#1E3A64', edge: '#2F558C', art: 'vishnu' },
+  { category: 'sundarakanda', titleEn: 'Sundarakanda', size: T('68 sargas'), about: 'Ramayana', lines: ['सुन्दर', 'काण्ड'], cloth: '#2C5638', edge: '#3F7650', art: 'sundarakanda' },
+  { category: 'ramayana', titleEn: 'Valmiki Ramayana', size: T('7 kandas'), about: T('24,000 verses'), lines: ['वाल्मीकि', 'रामायण'], cloth: '#3F4A17', edge: '#5C6B22', art: 'ramayana' },
+  { category: 'mahabharata', titleEn: 'Mahabharata', size: T('18 parvas'), about: 'Vyasa', lines: ['महाभारतम्'], own: { kannada: ['ಮಹಾಭಾರತ'], telugu: ['మహాభారతం'], tamil: ['மகாபாரதம்'], malayalam: ['മഹാഭാരതം'], gujarati: ['મહાભારત'], bengali: ['মহাভারত'], oriya: ['ମହାଭାରତ'] }, cloth: '#4E1E18', edge: '#7A3328', art: 'mahabharata' },
   { category: 'harikathamrutasara', titleEn: 'Harikathamrutasara', size: T('32 sandhis'), about: 'Jagannatha Dasa', lines: ['हरिकथामृत', 'सार'], cloth: '#1D5458', edge: '#2E7479', tradition: 'madhva' },
   { category: 'sumadhvavijaya', titleEn: 'Sumadhva Vijaya', size: T('16 sargas'), about: T('life of Madhva'), lines: ['सुमध्व', 'विजय'], cloth: '#5B3A1C', edge: '#7E542C', tradition: 'madhva' },
-  { textId: 'vayu-stuti', titleEn: 'Hari Vayu Stuti', size: T('41 verses'), about: 'Trivikrama Pandita', lines: ['हरिवायु', 'स्तुति'], cloth: '#8A4B12', edge: '#B0691F', tradition: 'madhva' },
-  { category: 'devimahatmya', titleEn: 'Devi Mahatmyam', size: T('13 chapters'), about: 'Durga Saptashati', lines: ['देवी', 'माहात्म्य'], cloth: '#831B3C', edge: '#A93256', tradition: 'smarta' },
+  { textId: 'vayu-stuti', titleEn: 'Hari Vayu Stuti', size: T('41 verses'), about: 'Trivikrama Pandita', lines: ['हरिवायु', 'स्तुति'], cloth: '#8A4B12', edge: '#B0691F', tradition: 'madhva', art: 'hanuman' },
+  { category: 'devimahatmya', titleEn: 'Devi Mahatmyam', size: T('13 chapters'), about: 'Durga Saptashati', lines: ['देवी', 'माहात्म्य'], cloth: '#831B3C', edge: '#A93256', tradition: 'smarta', art: 'durga' },
   { textId: 'lalitha-sahasranama', titleEn: 'Lalita Sahasranama', size: T('1000 names'), lines: ['ललिता', 'सहस्रनाम'], cloth: '#6A2260', edge: '#8C3A80', tradition: 'smarta' },
   { textId: 'saundarya-lahari', titleEn: 'Saundarya Lahari', size: T('100 verses'), about: 'Shankaracharya', lines: ['सौन्दर्य', 'लहरी'], cloth: '#3B2F6B', edge: '#56489A', tradition: 'smarta' },
 ];
@@ -85,6 +89,48 @@ const COVER_ART: Record<string, ImageSourcePropType> = {
   'lalitha-sahasranama': require('../../assets/covers/lalitha-sahasranama.jpg'),
   'saundarya-lahari': require('../../assets/covers/saundarya-lahari.jpg'),
 };
+
+/**
+ * A great work as a painted card (the Gita apps' chapter cards): the painting, darkened towards
+ * the foot, with the title in the reader's script. Works without a painting keep their cloth cover.
+ */
+export function WorkCard({ work, width = 140 }: { work: GreatWork; width?: number }) {
+  const { settings, theme } = useSettings();
+  const { tr } = useI18n();
+  const showEn = useShowEnglish();
+  if (!work.art) return <BookCover work={work} width={width} />;
+  if (work.textId && !getMantraInfo(work.textId)) return null;
+  if (work.category && isBookWork(work.category) && !bookWork(work.category)) return null;
+  const font = scriptFont(settings.script, settings.bookFonts);
+  const height = Math.round(width * 1.4);
+  const size = (width < 130 ? 15 : 17) * (settings.script === 'malayalam' ? 0.85 : 1);
+  const title = isRoman(settings.script) ? [work.titleEn] : coverLines(work, settings.script);
+  const roman = isRoman(settings.script);
+  // A long single word (Sundarakanda) must fit the card's width without breaking.
+  const longest = Math.max(...title.flatMap((l) => l.split(' ')).map((w) => w.length));
+  const fit = Math.min(size, (width - 20) / (longest * (roman ? 0.64 : 0.8)));
+  return (
+    <Pressable
+      onPress={() => router.push((work.category ? `/category/${work.category}` : `/mantra/${work.textId}`) as Href)}
+      accessibilityRole="link"
+      accessibilityLabel={[showEn || isRoman(settings.script) ? work.titleEn : title.join(' '), tr(work.size)].join(', ')}
+      style={({ pressed }) => [c.art, { width, height, opacity: pressed ? 0.9 : 1, transform: [{ scale: pressed ? 0.97 : 1 }] }]}
+    >
+      <Image source={ART[work.art].card} style={{ position: 'absolute', width, height, opacity: theme.artOpacity }} resizeMode="cover" />
+      <LinearGradient colors={['transparent', 'rgba(14,9,5,0.55)', 'rgba(14,9,5,0.94)']} locations={[0.35, 0.62, 1]} style={{ position: 'absolute', left: 0, right: 0, top: 0, bottom: 0 }} />
+      <View style={{ position: 'absolute', left: 10, right: 10, bottom: 10 }}>
+        {title.map((line) => (
+          <Text key={line} style={{ color: CREAM, fontSize: fit, lineHeight: fit * 1.35, fontFamily: font, fontWeight: font ? undefined : '700' }} numberOfLines={roman ? 2 : 1} adjustsFontSizeToFit={!roman} minimumFontScale={0.7}>
+            {line}
+          </Text>
+        ))}
+        <Text style={{ color: GOLD, fontSize: 12, marginTop: 3 }} numberOfLines={1}>
+          {tr(work.size)}
+        </Text>
+      </View>
+    </Pressable>
+  );
+}
 
 /** A cloth-bound book cover: the work's emblem above, its title in the reader's script below. */
 export function BookCover({ work, width = 156, still }: { work: GreatWork; width?: number; /** Shown on the work's own page: not a link. */ still?: boolean }) {
@@ -226,7 +272,13 @@ export function DeityMedallion({ deity, width = 76 }: { deity: DeityGroup; width
       accessibilityLabel={translit(deity.short ?? deity.title, settings.script)}
       style={({ pressed }) => ({ width, alignItems: 'center', opacity: pressed ? 0.85 : 1, transform: [{ scale: pressed ? 0.96 : 1 }] })}
     >
-      <Image source={DEITY_ART[deity.id]} style={{ width: d, height: d, borderRadius: d / 2, opacity: theme.artOpacity }} />
+      {/* A painting where there is one (round, in a thin gold ring); the gurus keep their emblem. */}
+      <View style={{ width: d + 6, height: d + 6, borderRadius: (d + 6) / 2, borderWidth: 1.5, borderColor: theme.gold + '99', alignItems: 'center', justifyContent: 'center' }}>
+        <Image
+          source={DEITY_PAINTING[deity.id] ? ART[DEITY_PAINTING[deity.id]!].thumb : DEITY_ART[deity.id]}
+          style={{ width: d, height: d, borderRadius: d / 2, opacity: theme.artOpacity }}
+        />
+      </View>
       <Text style={{ color: theme.text, fontSize: 14, lineHeight: 21, textAlign: 'center', marginTop: 4, fontFamily: font }} numberOfLines={1} adjustsFontSizeToFit minimumFontScale={0.75}>
         {translit(deity.short ?? deity.title, settings.script)}
       </Text>
@@ -289,6 +341,51 @@ export function CategoryTile({ id, wide }: { id: CategoryId; wide?: boolean }) {
   );
 }
 
+/**
+ * One shelf of the library as a single grouped list (like a book's table of contents): icon,
+ * name, and how many texts, one category per row.
+ */
+export function CategoryList({ ids }: { ids: CategoryId[] }) {
+  const { theme, settings } = useSettings();
+  const { tr } = useI18n();
+  const showEn = useShowEnglish();
+  const counts = categoryCounts();
+  const font = scriptFont(settings.script, settings.bookFonts);
+  const shown = ids.filter((id) => counts[id]);
+  return (
+    <View style={[c.list, { backgroundColor: theme.card, borderColor: theme.cardBorder }]}>
+      {shown.map((id, i) => {
+        const cat = categoryById[id];
+        return (
+          <Pressable
+            key={id}
+            onPress={() => router.push(`/category/${id}` as Href)}
+            accessibilityRole="link"
+            accessibilityLabel={tr('{title}, {count} texts', { title: categoryTitle(cat, settings.script), count: counts[id] })}
+            style={({ pressed }) => [c.row, i > 0 && { borderTopWidth: StyleSheet.hairlineWidth, borderColor: theme.cardBorder }, { backgroundColor: pressed ? theme.accentSoft : 'transparent' }]}
+          >
+            <View style={[c.rowIcon, { backgroundColor: theme.goldSoft }]}>
+              <MaterialCommunityIcons name={CATEGORY_ICONS[id]} size={20} color={theme.gold} />
+            </View>
+            <View style={{ flex: 1 }}>
+              <Text style={{ color: theme.text, fontSize: 16, lineHeight: 24, fontFamily: font, fontWeight: font ? undefined : '600' }} numberOfLines={1}>
+                {categoryTitle(cat, settings.script)}
+              </Text>
+              {showEn && (
+                <Text style={{ color: theme.textMuted, fontSize: 13 }} numberOfLines={1}>
+                  {cat.titleEn}
+                </Text>
+              )}
+            </View>
+            <Text style={{ color: theme.textMuted, fontSize: 14 }}>{counts[id]}</Text>
+            <MaterialCommunityIcons name="chevron-right" size={20} color={theme.textMuted} />
+          </Pressable>
+        );
+      })}
+    </View>
+  );
+}
+
 /** A small square shortcut: icon above a short label. */
 export function QuickTile({ icon, label, href }: { icon: Icon; label: string; href: string }) {
   const { theme } = useSettings();
@@ -331,6 +428,10 @@ export function ShelfHeading({ title, action, onAction }: { title: string; actio
 }
 
 const c = StyleSheet.create({
+  art: { borderRadius: 14, overflow: 'hidden', backgroundColor: '#2A1E14' },
+  list: { marginHorizontal: 16, borderRadius: 16, borderWidth: 1, overflow: 'hidden' },
+  row: { flexDirection: 'row', alignItems: 'center', gap: 12, paddingHorizontal: 14, paddingVertical: 11 },
+  rowIcon: { width: 36, height: 36, borderRadius: 18, alignItems: 'center', justifyContent: 'center' },
   cover: { borderRadius: 6, overflow: 'hidden', elevation: 4, shadowColor: '#000', shadowOpacity: 0.22, shadowRadius: 6, shadowOffset: { width: 0, height: 3 } },
   words: { position: 'absolute', top: '51%', bottom: '6.5%', left: '14%', right: '8%', alignItems: 'center' },
   rule: { width: 26, height: 1, marginBottom: 4, opacity: 0.8 },

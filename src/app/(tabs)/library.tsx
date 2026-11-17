@@ -1,7 +1,7 @@
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { router, type Href } from 'expo-router';
 import { Pressable, ScrollView, StyleSheet, Text, View, useWindowDimensions } from 'react-native';
-import { BookCover, CategoryTile, DeityMedallion, ShelfHeading, greatWorks } from '../../components/Shelf';
+import { CategoryList, DeityMedallion, ShelfHeading, WorkCard, greatWorks } from '../../components/Shelf';
 import type { CategoryId } from '../../data';
 import { COLLECTIONS } from '../../data/collections';
 import { DEITIES } from '../../lib/deities';
@@ -26,8 +26,8 @@ export default function Library() {
   const showEn = useShowEnglish();
   const { width } = useWindowDimensions();
   const font = scriptFont(settings.script, settings.bookFonts);
-  // One row of covers that scrolls sideways, the same size as on Home: the covers stay books, not posters.
-  const coverW = Math.max(88, Math.min(112, Math.floor((width - 32 - 30) / 3.4)));
+  // The great works two to a row, as painted cards.
+  const cardW = Math.floor((width - 32 - 12) / 2);
 
   return (
     <ScrollView style={{ backgroundColor: theme.bg }} contentContainerStyle={{ paddingTop: 8, paddingBottom: 32 }}>
@@ -37,29 +37,25 @@ export default function Library() {
       </Pressable>
 
       <ShelfHeading title={T('Great works')} />
-      <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={{ paddingHorizontal: 16, gap: 10 }}>
+      <View style={[s.grid, { rowGap: 12 }]}>
         {greatWorks(settings.variants.tradition).map((w) => (
-          <BookCover key={w.category ?? w.textId} work={w} width={coverW} />
+          <WorkCard key={w.category ?? w.textId} work={w} width={cardW} />
+        ))}
+      </View>
+
+      <ShelfHeading title={T('By deity')} />
+      <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={{ paddingHorizontal: 12, gap: 4 }}>
+        {DEITIES.map((d) => (
+          <DeityMedallion key={d.id} deity={d} width={84} />
         ))}
       </ScrollView>
 
       {SHELVES.map((shelf) => (
         <View key={shelf.title}>
           <ShelfHeading title={shelf.title} />
-          <View style={s.grid}>
-            {shelf.categories.map((id) => (
-              <CategoryTile key={id} id={id} />
-            ))}
-          </View>
+          <CategoryList ids={shelf.categories} />
         </View>
       ))}
-
-      <ShelfHeading title={T('By deity')} />
-      <View style={[s.grid, { justifyContent: 'flex-start', rowGap: 14 }]}>
-        {DEITIES.map((d) => (
-          <DeityMedallion key={d.id} deity={d} width={Math.floor((width - 32) / 4)} />
-        ))}
-      </View>
 
       <ShelfHeading title={T('Occasions')} />
       <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={{ paddingHorizontal: 16, gap: 10 }}>

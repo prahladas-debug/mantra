@@ -40,6 +40,10 @@ export default function About() {
       <Text style={p}>
         {tr('Place names and coordinates for Indian towns come from GeoNames (geonames.org), licensed under Creative Commons Attribution 4.0.')}
       </Text>
+      <Text style={h}>{tr('Paintings')}</Text>
+      <Text style={p}>
+        {tr('The paintings are by Raja Ravi Varma and his Ravi Varma Press, with an older painting of Krishna and Arjuna; all are in the public domain and come from Wikimedia Commons.')}
+      </Text>
       <Text style={{ color: theme.textMuted, fontSize: 14 }}>{tr('Version {version}', { version: Constants.expoConfig?.version ?? '1.0.0' })}</Text>
     </ScrollView>
   );

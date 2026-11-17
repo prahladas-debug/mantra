@@ -6,7 +6,7 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { TodayCard } from '../../components/PanchangaCard';
 import { VerseOfDayCard } from '../../components/VerseOfDay';
 import { RoutineCard } from '../../components/RoutineCard';
-import { BookCover, CategoryTile, DeityMedallion, QuickTile, ShelfHeading, greatWorks } from '../../components/Shelf';
+import { CategoryTile, WorkCard, DeityMedallion, QuickTile, ShelfHeading, greatWorks } from '../../components/Shelf';
 import { getMantraInfo, scriptFor } from '../../data';
 import { DEITIES } from '../../lib/deities';
 import { scriptFont } from '../../lib/fonts';
@@ -69,7 +69,7 @@ export default function Home() {
   const script = SCRIPTS.find((x) => x.id === settings.script) ?? SCRIPTS[0];
   const last = recent.map((r) => getMantraInfo(r.id)).find((m) => !!m);
   // About three and a half small covers across the screen, so the row reads as a shelf to swipe.
-  const coverW = Math.max(104, Math.min(132, Math.floor((width - 32 - 20) / 3.1)));
+  const coverW = Math.max(118, Math.min(150, Math.floor((width - 32 - 24) / 2.6)));
 
   // First launch: choose language, tradition and place.
   if (!ready) return <View style={{ flex: 1, backgroundColor: theme.bg }} />;
@@ -139,7 +139,7 @@ export default function Home() {
         contentContainerStyle={{ paddingHorizontal: 16, gap: 12, paddingBottom: 6 }}
       >
         {greatWorks(settings.variants.tradition).map((w) => (
-          <BookCover key={w.category ?? w.textId} work={w} width={coverW} />
+          <WorkCard key={w.category ?? w.textId} work={w} width={coverW} />
         ))}
       </ScrollView>
 
