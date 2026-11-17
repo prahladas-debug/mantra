@@ -25,7 +25,7 @@ export function ContentsSheet({ visible, onClose, mantra, rows, onJump }: { visi
       <View style={{ maxHeight: '70%', backgroundColor: theme.bg, borderTopLeftRadius: 18, borderTopRightRadius: 18 }}>
         <View style={{ alignSelf: 'center', width: 40, height: 4, borderRadius: 2, marginTop: 8, backgroundColor: theme.cardBorder }} />
         <View style={{ flexDirection: 'row', alignItems: 'center', paddingHorizontal: 16, paddingTop: 6, paddingBottom: 8 }}>
-          <Text style={{ color: theme.text, fontSize: 19, fontWeight: '700', flex: 1 }}>{tr('Contents')}</Text>
+          <Text style={{ color: theme.text, fontSize: 18, fontWeight: '700', flex: 1 }}>{tr('Contents')}</Text>
           <Pressable onPress={onClose} hitSlop={10} accessibilityRole="button">
             <Text style={{ color: theme.accent, fontSize: 16, fontWeight: '700' }}>{tr('Close')}</Text>
           </Pressable>
@@ -38,7 +38,7 @@ export function ContentsSheet({ visible, onClose, mantra, rows, onJump }: { visi
                 onPress={() => onJump(`s${si}`)}
                 style={({ pressed }) => ({ flexDirection: 'row', alignItems: 'center', paddingHorizontal: 14, paddingVertical: 12, borderTopWidth: i ? StyleSheet.hairlineWidth : 0, borderColor: theme.cardBorder, opacity: pressed ? 0.6 : 1 })}
               >
-                <Text style={{ color: theme.text, fontSize: 15, flex: 1 }} numberOfLines={1}>
+                <Text style={{ color: theme.text, fontSize: 16, flex: 1 }} numberOfLines={1}>
                   {lang === 'en' ? (s.titleEn ?? translit(s.title!, settings.script)) : s.title ? translit(s.title, settings.script) : s.titleEn}
                 </Text>
                 <MaterialCommunityIcons name="chevron-right" size={18} color={theme.textMuted} />

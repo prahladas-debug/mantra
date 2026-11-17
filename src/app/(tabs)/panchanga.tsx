@@ -35,8 +35,8 @@ function Table({ rows }: { rows: Row[] }) {
           style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'flex-start', gap: 12, paddingHorizontal: 14, paddingVertical: 11, borderTopWidth: i ? 1 : 0, borderColor: theme.cardBorder }}
         >
           <View style={{ flexShrink: 0, minWidth: 96 }}>
-            <Text style={{ color: theme.gold, fontSize: 15, fontWeight: '600' }}>{tr(l[0])}</Text>
-            {!roman && <Text style={{ color: theme.textMuted, fontSize: 14.5, marginTop: 1 }}>{translit(l[1], settings.script)}</Text>}
+            <Text style={{ color: theme.gold, fontSize: 16, fontWeight: '600' }}>{tr(l[0])}</Text>
+            {!roman && <Text style={{ color: theme.textMuted, fontSize: 14, marginTop: 1 }}>{translit(l[1], settings.script)}</Text>}
           </View>
           <Text
             style={{
@@ -68,6 +68,8 @@ export default function PanchangaScreen() {
   const [picked, setPickedState] = useState<{ from: string; date: string } | null>(null);
   const date = picked && picked.from === from ? picked.date : (fromParam ?? today);
   const setPicked = (d: string) => setPickedState({ from, date: d });
+  // The day's essentials first; the rest (year and month, moon, sankalpa, coming festivals) on request.
+  const [full, setFull] = useState(false);
   const [rule] = useEkadashiRule();
   const [mode] = useCalendarMode();
   const [start] = useSauraStart();
@@ -92,8 +94,9 @@ export default function PanchangaScreen() {
 
   const card = { marginHorizontal: 16, borderRadius: 16, borderWidth: 1, borderColor: theme.cardBorder, backgroundColor: theme.card } as const;
 
-  // The five limbs, each with every element from sunrise to the next sunrise and its end time.
-  const until = (spans: Span[]) => spans.map((s) => `${t(s.name)} · ${tr('till {time}', { time: tm(s.end) })}`).join('\n');
+  // The five limbs: the element at sunrise and when it ends; the full panchanga lists every element
+  // up to the next sunrise.
+  const until = (spans: Span[]) => (full ? spans : spans.slice(0, 1)).map((s) => `${t(s.name)} · ${tr('till {time}', { time: tm(s.end) })}`).join('\n');
   const limbs: Row[] = [
     [[T('Tithi'), 'तिथिः'], until(p.tithis.map((s) => ({ ...s, name: `${s.index <= 15 ? 'शुक्ल' : 'कृष्ण'} ${s.name}` })))],
     [[T('Nakshatra'), 'नक्षत्रम्'], until(p.nakshatras)],
@@ -120,6 +123,8 @@ export default function PanchangaScreen() {
   const sunMoon: Row[] = [
     [[T('Sunrise'), 'सूर्योदयः'], visibleRise ? `${tm(p.sunrise)}\n${tr('visible sunrise {time}', { time: tm(visibleRise) })}` : tm(p.sunrise)],
     [[T('Sunset'), 'सूर्यास्तः'], tm(p.sunset)],
+  ];
+  const moonRows: Row[] = [
     [[T('Moonrise'), 'चन्द्रोदयः'], moonrise === null ? tr('None before the next sunrise') : tm(fromJulian(moonrise))],
     [[T('Sun sign'), 'सूर्यराशिः'], t(p.sunRashi)],
     [[T('Moon sign'), 'चन्द्रराशिः'], until(p.moonRashis)],
@@ -146,7 +151,7 @@ export default function PanchangaScreen() {
             hitSlop={8}
             style={({ pressed }) => ({ padding: 8, borderRadius: 18, borderWidth: 1, borderColor: theme.cardBorder, backgroundColor: theme.card, opacity: pressed ? 0.6 : 1 })}
           >
-            <MaterialCommunityIcons name="magnify" size={20} color={theme.accent} />
+            <MaterialCommunityIcons name="magnify" size={22} color={theme.accent} />
           </Pressable>
           <Pressable
             onPress={() => router.push({ pathname: '/calendar', params: { month: date.slice(0, 7) } } as Href)}
@@ -155,7 +160,7 @@ export default function PanchangaScreen() {
             hitSlop={8}
             style={({ pressed }) => ({ padding: 8, borderRadius: 18, borderWidth: 1, borderColor: theme.cardBorder, backgroundColor: theme.card, opacity: pressed ? 0.6 : 1 })}
           >
-            <MaterialCommunityIcons name="calendar-month-outline" size={20} color={theme.accent} />
+            <MaterialCommunityIcons name="calendar-month-outline" size={22} color={theme.accent} />
           </Pressable>
           </View>
         }
@@ -167,7 +172,7 @@ export default function PanchangaScreen() {
           <Text style={{ color: theme.text, fontSize: 18, fontWeight: '700' }}>
             {longDate(y, m, d, p.weekday)}
           </Text>
-          <Text style={{ color: theme.textMuted, fontSize: 14.5 }}>
+          <Text style={{ color: theme.textMuted, fontSize: 14 }}>
             {t(VARA[p.weekday])}
             {date !== today ? <Text style={{ color: theme.accent }}>{`  ·  ${tr('back to today')}`}</Text> : null}
           </Text>
@@ -179,7 +184,7 @@ export default function PanchangaScreen() {
         <View style={[card, { marginTop: 14, padding: 12, borderColor: theme.accent, backgroundColor: theme.goldSoft }]}>
           {todays.map((f) => (
             <View key={f.key}>
-              <FestivalLine f={f} />
+              <FestivalLine f={f} compact />
             </View>
           ))}
         </View>
@@ -188,14 +193,25 @@ export default function PanchangaScreen() {
       <SectionHeading>{tr('Panchanga · the five limbs')}</SectionHeading>
       <Table rows={limbs} />
 
-      <SectionHeading>{tr('Year and month')}</SectionHeading>
-      <Table rows={year} />
-
       <SectionHeading>{tr('Sun and moon')}</SectionHeading>
-      <Table rows={sunMoon} />
+      <Table rows={full ? [...sunMoon, ...moonRows] : sunMoon} />
 
       <SectionHeading>{tr('Good and inauspicious times')}</SectionHeading>
       <Table rows={times} />
+
+      <Pressable
+        onPress={() => setFull(!full)}
+        accessibilityRole="button"
+        style={({ pressed }) => [card, { marginTop: 18, paddingVertical: 13, flexDirection: 'row', alignItems: 'center', justifyContent: 'center', gap: 6, opacity: pressed ? 0.7 : 1 }]}
+      >
+        <Text style={{ color: theme.accent, fontSize: 16, fontWeight: '600' }}>{full ? tr('Show less') : tr('Full panchanga')}</Text>
+        <MaterialCommunityIcons name={full ? 'chevron-up' : 'chevron-down'} size={22} color={theme.accent} />
+      </Pressable>
+
+      {full && (
+      <>
+      <SectionHeading>{tr('Year and month')}</SectionHeading>
+      <Table rows={year} />
 
       <SectionHeading>{tr('Sankalpa')}</SectionHeading>
       <View style={[card, { padding: 14 }]}>
@@ -213,7 +229,7 @@ export default function PanchangaScreen() {
         )}
       </View>
 
-      <Text style={{ color: theme.textMuted, fontSize: 14.5, margin: 16, lineHeight: 19 }}>
+      <Text style={{ color: theme.textMuted, fontSize: 14, margin: 16, lineHeight: 19 }}>
         {tr('For {place} · times are local (UTC{offset} h).', { place: cityLabel(city), offset: `${city.tz >= 0 ? '+' : ''}${city.tz}` })}
         {city.dst ? ` ${tr('Daylight saving is applied.')}` : ''}{' '}
         {ss
@@ -221,6 +237,8 @@ export default function PanchangaScreen() {
           : tr('Drik panchanga, calculated on the phone from the true positions of the Sun and Moon (Lahiri ayanamsha); tithi and nakshatra end times agree with published panchangas to about a minute.')}{' '}
         {tr('For muhurtas, follow your family panchanga.')}
       </Text>
+      </>
+      )}
     </ScrollView>
   );
 }

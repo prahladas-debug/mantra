@@ -72,12 +72,12 @@ export default function Bookmarks() {
             style={{ marginBottom: 10, padding: 14, borderRadius: 16, borderWidth: 1, backgroundColor: theme.card, borderColor: theme.cardBorder }}
           >
             <View style={{ flexDirection: 'row', alignItems: 'center' }}>
-              <Text style={{ color: theme.accent, fontSize: 14.5, fontWeight: '600', flex: 1 }}>
+              <Text style={{ color: theme.accent, fontSize: 14, fontWeight: '600', flex: 1 }}>
                 {nameOf(item.m, settings.script)}{showEn ? ` · ${item.m.titleEn}` : ''}
                 {item.v?.n !== undefined ? ` · ${item.v.n}` : ''}
               </Text>
               <Pressable hitSlop={10} onPress={() => toggleBookmark(item.m.id, item.b.key)} accessibilityLabel={tr('Remove bookmark')}>
-                <MaterialCommunityIcons name="close" size={20} color={theme.accent} />
+                <MaterialCommunityIcons name="close" size={22} color={theme.accent} />
               </Pressable>
             </View>
             <Text numberOfLines={3} style={{ color: theme.text, fontSize: 18, lineHeight: 30, marginTop: 4, fontFamily: scriptFont(scriptFor(item.m, settings.script), settings.bookFonts) }}>

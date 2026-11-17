@@ -61,7 +61,7 @@ export default function CategoryScreen() {
             {opening && first.sourceScript !== 'tamil' && (
               <Text style={{ color: theme.text, fontSize: 16, lineHeight: 27, textAlign: 'center', fontFamily: font }}>{translit(opening, settings.script)}</Text>
             )}
-            {lang === 'en' && <Text style={{ color: theme.textMuted, fontSize: 14.5, textAlign: 'center', marginTop: 6, lineHeight: 19 }}>{category.description}</Text>}
+            {lang === 'en' && <Text style={{ color: theme.textMuted, fontSize: 14, textAlign: 'center', marginTop: 6, lineHeight: 19 }}>{category.description}</Text>}
           </View>
         </>
       ) : (
@@ -83,12 +83,12 @@ export default function CategoryScreen() {
             placeholder={tr('Find in {title}', { title: lang === 'en' ? category.titleEn : categoryTitle(category, settings.script) })}
             placeholderTextColor={theme.textMuted}
             autoCorrect={false}
-            style={{ flex: 1, color: theme.text, fontSize: 15, paddingVertical: 9, paddingHorizontal: 8 }}
+            style={{ flex: 1, color: theme.text, fontSize: 16, paddingVertical: 9, paddingHorizontal: 8 }}
             accessibilityLabel={tr('Filter this list')}
           />
           {q.length > 0 && (
             <Pressable onPress={() => setQ('')} hitSlop={10} accessibilityLabel={tr('Clear')}>
-              <MaterialCommunityIcons name="close-circle" size={19} color={theme.textMuted} />
+              <MaterialCommunityIcons name="close-circle" size={18} color={theme.textMuted} />
             </Pressable>
           )}
         </View>

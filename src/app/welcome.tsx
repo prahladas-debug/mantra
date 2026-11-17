@@ -68,51 +68,51 @@ export default function Welcome() {
         borderColor: theme.accent, backgroundColor: primary ? theme.accent : 'transparent', opacity: pressed ? 0.7 : 1,
       })}
     >
-      <Text style={{ color: primary ? theme.onAccent : theme.accent, fontSize: 17, fontWeight: '700' }}>{label}</Text>
+      <Text style={{ color: primary ? theme.onAccent : theme.accent, fontSize: 18, fontWeight: '700' }}>{label}</Text>
     </Pressable>
   );
 
   return (
     <View style={{ flex: 1, backgroundColor: theme.bg, paddingTop: insets.top + 16 }}>
       <ScrollView contentContainerStyle={{ paddingHorizontal: 20, paddingBottom: 24, gap: 10 }}>
-        <Text style={{ color: theme.accent, fontSize: 30, textAlign: 'center', fontFamily: font, fontWeight: font ? undefined : '700' }}>
+        <Text style={{ color: theme.accent, fontSize: 28, textAlign: 'center', fontFamily: font, fontWeight: font ? undefined : '700' }}>
           {appTitle(settings.script)}
         </Text>
         <Text style={{ color: theme.text, fontSize: 16, lineHeight: 25, textAlign: 'center', fontFamily: font, marginTop: -6 }}>{translit(APP_MOTTO, settings.script)}</Text>
-        <Text style={{ color: theme.textMuted, fontSize: 14.5, textAlign: 'center' }}>{APP_TAGLINE}</Text>
+        <Text style={{ color: theme.textMuted, fontSize: 14, textAlign: 'center' }}>{APP_TAGLINE}</Text>
         <Text style={{ color: theme.textMuted, fontSize: 14, textAlign: 'center', marginBottom: 6 }}>{tr('Step {step} of 2', { step })}</Text>
 
         {step === 1 ? (
           <>
             <Text style={{ color: theme.text, fontSize: 21, fontWeight: '700' }}>{tr('Choose your language')}</Text>
-            <Text style={{ color: theme.textMuted, fontSize: 15, marginBottom: 4 }}>
+            <Text style={{ color: theme.textMuted, fontSize: 16, marginBottom: 4 }}>
               {tr('Mantras are shown in its script, with meanings in that language where available (otherwise English). You can change this any time in Settings.')}
             </Text>
             {LANGUAGES.map((l) => (
               <Choice key={l.script} active={settings.script === l.script} onPress={() => update({ script: l.script, meaningLang: 'auto' })}>
-                <Text style={{ color: theme.text, fontSize: 19, fontFamily: scriptFont(l.script, settings.bookFonts) }}>{l.name}</Text>
-                <Text style={{ color: theme.textMuted, fontSize: 14.5 }}>{tr(l.en)}</Text>
+                <Text style={{ color: theme.text, fontSize: 18, fontFamily: scriptFont(l.script, settings.bookFonts) }}>{l.name}</Text>
+                <Text style={{ color: theme.textMuted, fontSize: 14 }}>{tr(l.en)}</Text>
               </Choice>
             ))}
             <View style={{ marginTop: 6, padding: 16, borderRadius: 12, borderWidth: 1, borderColor: theme.cardBorder, backgroundColor: theme.page }}>
-              <Text style={{ color: theme.text, fontSize: 20, lineHeight: 34, textAlign: 'center', fontFamily: font }}>{translit(SAMPLE, settings.script)}</Text>
+              <Text style={{ color: theme.text, fontSize: 21, lineHeight: 36, textAlign: 'center', fontFamily: font }}>{translit(SAMPLE, settings.script)}</Text>
             </View>
           </>
         ) : (
           <>
             <Text style={{ color: theme.text, fontSize: 21, fontWeight: '700' }}>{tr('Your tradition')}</Text>
-            <Text style={{ color: theme.textMuted, fontSize: 15, marginBottom: 4 }}>
+            <Text style={{ color: theme.textMuted, fontSize: 16, marginBottom: 4 }}>
               {tr('Sets the steps shown in Sandhyavandane and daily puja, and how Ekadashi is dated. Each text still lets you switch.')}
             </Text>
             <Choice active={tradition === 'madhva'} onPress={() => update({ variants: { ...settings.variants, tradition: 'madhva' } })}>
-              <Text style={{ color: theme.text, fontSize: 17, fontWeight: '600' }}>{tr('Madhva (Vaishnava)')}</Text>
+              <Text style={{ color: theme.text, fontSize: 18, fontWeight: '600' }}>{tr('Madhva (Vaishnava)')}</Text>
             </Choice>
             <Choice active={tradition === 'smarta'} onPress={() => update({ variants: { ...settings.variants, tradition: 'smarta' } })}>
-              <Text style={{ color: theme.text, fontSize: 17, fontWeight: '600' }}>{tr('Smarta')}</Text>
+              <Text style={{ color: theme.text, fontSize: 18, fontWeight: '600' }}>{tr('Smarta')}</Text>
             </Choice>
 
             <Text style={{ color: theme.text, fontSize: 21, fontWeight: '700', marginTop: 18 }}>{tr('Your place')}</Text>
-            <Text style={{ color: theme.textMuted, fontSize: 15, marginBottom: 4 }}>{tr('For sunrise, panchanga and festival dates.')}</Text>
+            <Text style={{ color: theme.textMuted, fontSize: 16, marginBottom: 4 }}>{tr('For sunrise, panchanga and festival dates.')}</Text>
             <Pressable
               onPress={() => setPicker(true)}
               accessibilityRole="button"
@@ -122,8 +122,8 @@ export default function Welcome() {
               })}
             >
               <MaterialCommunityIcons name="map-marker-outline" size={22} color={theme.accent} />
-              <Text style={{ flex: 1, color: theme.text, fontSize: 17 }}>{cityLabel(city)}</Text>
-              <Text style={{ color: theme.accent, fontSize: 15 }}>{tr('Change')}</Text>
+              <Text style={{ flex: 1, color: theme.text, fontSize: 18 }}>{cityLabel(city)}</Text>
+              <Text style={{ color: theme.accent, fontSize: 16 }}>{tr('Change')}</Text>
             </Pressable>
             <CityPicker visible={picker} onClose={() => setPicker(false)} />
           </>

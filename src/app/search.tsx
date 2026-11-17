@@ -18,14 +18,14 @@ export default function SearchScreen() {
   return (
     <View style={{ flex: 1, backgroundColor: theme.bg }}>
       <View style={{ flexDirection: 'row', alignItems: 'center', gap: 8, margin: 16, paddingHorizontal: 12, borderRadius: 12, borderWidth: 1, backgroundColor: theme.card, borderColor: theme.cardBorder }}>
-        <MaterialCommunityIcons name="magnify" size={20} color={theme.accent} />
+        <MaterialCommunityIcons name="magnify" size={22} color={theme.accent} />
         <TextInput
           autoFocus
           value={query}
           onChangeText={setQuery}
           placeholder={tr('e.g. vishnu, ವಾಯು, कमलाकुच, govinda')}
           placeholderTextColor={theme.textMuted}
-          style={{ flex: 1, paddingVertical: 12, fontSize: 17, color: theme.text }}
+          style={{ flex: 1, paddingVertical: 12, fontSize: 18, color: theme.text }}
           autoCapitalize="none"
           autoCorrect={false}
           returnKeyType="search"
@@ -49,11 +49,11 @@ export default function SearchScreen() {
               <Pressable
                 onPress={() => router.push(`/mantra/${item.mantra.id}?si=${item.verse!.sectionIndex}&vi=${item.verse!.verseIndex}` as Href)}
                 style={{ marginHorizontal: 16, marginBottom: 10, padding: 14, borderRadius: 16, borderWidth: 1, backgroundColor: theme.card, borderColor: theme.cardBorder }}>
-                <Text style={{ color: theme.accent, fontSize: 14.5, fontWeight: '600', marginBottom: 4 }}>
+                <Text style={{ color: theme.accent, fontSize: 14, fontWeight: '600', marginBottom: 4 }}>
                   {lang === 'en' ? item.mantra.titleEn : nameOf(item.mantra, settings.script)}
                   {item.verse.n !== undefined ? ` · ${tr('verse {n}', { n: item.verse.n })}` : ''}
                 </Text>
-                <Text style={{ color: theme.text, fontSize: 17, lineHeight: 27 }} numberOfLines={3}>
+                <Text style={{ color: theme.text, fontSize: 18, lineHeight: 29 }} numberOfLines={3}>
                   {translit(item.verse.text, settings.script)}
                 </Text>
               </Pressable>

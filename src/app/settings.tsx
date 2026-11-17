@@ -31,7 +31,7 @@ function Pills<T extends string | null>({ options, value, onChange }: { options:
             accessibilityState={{ selected: active }}
             style={[s.pill, { backgroundColor: active ? theme.accent : theme.bg, borderColor: active ? theme.accent : theme.cardBorder }]}
           >
-            <Text style={{ color: active ? theme.onAccent : theme.text, fontSize: 15 }}>{o.label}</Text>
+            <Text style={{ color: active ? theme.onAccent : theme.text, fontSize: 16 }}>{o.label}</Text>
           </Pressable>
         );
       })}
@@ -73,7 +73,7 @@ function Block({ first, label, children }: { first?: boolean; label: string; chi
   const { theme } = useSettings();
   return (
     <View style={[s.block, { borderTopWidth: first ? 0 : StyleSheet.hairlineWidth, borderColor: theme.cardBorder }]}>
-      <Text style={{ color: theme.textMuted, fontSize: 14.5, marginBottom: 8 }}>{label}</Text>
+      <Text style={{ color: theme.textMuted, fontSize: 14, marginBottom: 8 }}>{label}</Text>
       {children}
     </View>
   );
@@ -136,7 +136,7 @@ export default function SettingsScreen() {
 
       <Group title={tr('TEXT')}>
         <View style={[s.sample, { backgroundColor: theme.page, borderColor: theme.pageEdge }]}>
-          <Text style={{ color: theme.text, fontSize: 22 * settings.fontScale, lineHeight: 22 * settings.fontScale * leading(settings.script, settings.bookFonts), fontFamily: scriptFont(settings.script, settings.bookFonts), textAlign: settings.centerVerses ? 'center' : 'left' }}>
+          <Text style={{ color: theme.text, fontSize: 21 * settings.fontScale, lineHeight: 22 * settings.fontScale * leading(settings.script, settings.bookFonts), fontFamily: scriptFont(settings.script, settings.bookFonts), textAlign: settings.centerVerses ? 'center' : 'left' }}>
             {translit(SAMPLE, settings.script)}
           </Text>
         </View>
@@ -145,9 +145,9 @@ export default function SettingsScreen() {
             <Pressable onPress={() => update({ fontScale: Math.max(0.7, +(settings.fontScale - 0.1).toFixed(1)) })} hitSlop={8} accessibilityLabel={tr('Smaller text')} style={s.stepBtn}>
               <Text style={{ color: theme.accent, fontSize: 16, fontWeight: '700' }}>A−</Text>
             </Pressable>
-            <Text style={{ color: theme.text, fontSize: 15, minWidth: 46, textAlign: 'center' }}>{Math.round(settings.fontScale * 100)}%</Text>
+            <Text style={{ color: theme.text, fontSize: 16, minWidth: 46, textAlign: 'center' }}>{Math.round(settings.fontScale * 100)}%</Text>
             <Pressable onPress={() => update({ fontScale: Math.min(2.4, +(settings.fontScale + 0.1).toFixed(1)) })} hitSlop={8} accessibilityLabel={tr('Larger text')} style={s.stepBtn}>
-              <Text style={{ color: theme.accent, fontSize: 20, fontWeight: '700' }}>A+</Text>
+              <Text style={{ color: theme.accent, fontSize: 21, fontWeight: '700' }}>A+</Text>
             </Pressable>
           </View>
         </Row>
@@ -193,7 +193,7 @@ export default function SettingsScreen() {
 
       <Group title={tr('ABOUT')}>
         <Row first label={tr('About this app and sources')} onPress={() => router.push('/about')}>
-          <MaterialCommunityIcons name="chevron-right" size={20} color={theme.textMuted} />
+          <MaterialCommunityIcons name="chevron-right" size={22} color={theme.textMuted} />
         </Row>
       </Group>
     </ScrollView>
@@ -202,7 +202,7 @@ export default function SettingsScreen() {
 
 const s = StyleSheet.create({
   card: { marginHorizontal: 16, borderRadius: 16, borderWidth: 1, overflow: 'hidden' },
-  note: { fontSize: 14.5, lineHeight: 20, marginHorizontal: 28, marginTop: 6 },
+  note: { fontSize: 14, lineHeight: 19, marginHorizontal: 28, marginTop: 6 },
   row: { flexDirection: 'row', alignItems: 'center', gap: 12, minHeight: 50, paddingHorizontal: 14, paddingVertical: 6 },
   block: { paddingHorizontal: 14, paddingVertical: 12 },
   pills: { flexDirection: 'row', flexWrap: 'wrap', gap: 6 },

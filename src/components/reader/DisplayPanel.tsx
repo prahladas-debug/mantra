@@ -48,7 +48,7 @@ export function DisplayPanel({
       <View style={[p.sheet, { backgroundColor: theme.bg }]}>
         <View style={[p.grip, { backgroundColor: theme.cardBorder }]} />
         <View style={p.titleRow}>
-          <Text style={{ color: theme.text, fontSize: 19, fontWeight: '700', flex: 1 }}>{tr('Display')}</Text>
+          <Text style={{ color: theme.text, fontSize: 18, fontWeight: '700', flex: 1 }}>{tr('Display')}</Text>
           <Pressable onPress={onClose} hitSlop={10} accessibilityRole="button">
             <Text style={{ color: theme.accent, fontSize: 16, fontWeight: '700' }}>{tr('Done')}</Text>
           </Pressable>
@@ -60,7 +60,7 @@ export function DisplayPanel({
               const active = settings.script === sc.id;
               return (
                 <Pressable key={sc.id} onPress={() => update({ script: sc.id })} style={pill(active)} accessibilityRole="radio" accessibilityState={{ selected: active }}>
-                  <Text style={{ color: active ? theme.onAccent : theme.text, fontSize: 15, fontFamily: scriptFont(sc.id, settings.bookFonts) }}>
+                  <Text style={{ color: active ? theme.onAccent : theme.text, fontSize: 16, fontFamily: scriptFont(sc.id, settings.bookFonts) }}>
                     {sc.id === 'iast' ? 'IAST' : sc.id === 'english' ? 'English' : sc.native}
                   </Text>
                 </Pressable>
@@ -77,9 +77,9 @@ export function DisplayPanel({
             <Pressable onPress={() => update({ fontScale: Math.max(0.7, +(scale - 0.1).toFixed(1)) })} hitSlop={8} accessibilityLabel={tr('Smaller text')} style={p.sizeBtn}>
               <Text style={{ color: theme.accent, fontSize: 16, fontWeight: '700' }}>A−</Text>
             </Pressable>
-            <Text style={{ color: theme.text, fontSize: 15, minWidth: 46, textAlign: 'center' }}>{Math.round(scale * 100)}%</Text>
+            <Text style={{ color: theme.text, fontSize: 16, minWidth: 46, textAlign: 'center' }}>{Math.round(scale * 100)}%</Text>
             <Pressable onPress={() => update({ fontScale: Math.min(2.4, +(scale + 0.1).toFixed(1)) })} hitSlop={8} accessibilityLabel={tr('Larger text')} style={p.sizeBtn}>
-              <Text style={{ color: theme.accent, fontSize: 20, fontWeight: '700' }}>A+</Text>
+              <Text style={{ color: theme.accent, fontSize: 21, fontWeight: '700' }}>A+</Text>
             </Pressable>
           </View>
           </View>
@@ -93,7 +93,7 @@ export function DisplayPanel({
               const active = settings.meaningLang === m.id;
               return (
                 <Pressable key={m.id} onPress={() => update({ meaningLang: m.id })} style={pill(active)} accessibilityRole="radio" accessibilityState={{ selected: active }}>
-                  <Text style={{ color: active ? theme.onAccent : theme.text, fontSize: 15 }}>{m.id === 'auto' ? tr('Auto') : m.id === 'both' ? tr('Both') : m.label}</Text>
+                  <Text style={{ color: active ? theme.onAccent : theme.text, fontSize: 16 }}>{m.id === 'auto' ? tr('Auto') : m.id === 'both' ? tr('Both') : m.label}</Text>
                 </Pressable>
               );
             })}
@@ -133,10 +133,10 @@ export function ThemeSwatches({ withSystem }: { withSystem?: boolean }) {
               ) : t.id === 'system' ? (
                 <MaterialCommunityIcons name="cellphone" size={18} color={look.text} />
               ) : (
-                <Text style={{ color: look.text, fontSize: 15, fontWeight: '700' }}>A</Text>
+                <Text style={{ color: look.text, fontSize: 16, fontWeight: '700' }}>A</Text>
               )}
             </View>
-            <Text style={{ color: active ? theme.accent : theme.textMuted, fontSize: 12.5, marginTop: 4 }} numberOfLines={1}>
+            <Text style={{ color: active ? theme.accent : theme.textMuted, fontSize: 13, marginTop: 4 }} numberOfLines={1}>
               {tr(t.label)}
             </Text>
           </Pressable>
@@ -150,14 +150,14 @@ const p = StyleSheet.create({
   sheet: { maxHeight: '78%', borderTopLeftRadius: 18, borderTopRightRadius: 18 },
   grip: { alignSelf: 'center', width: 40, height: 4, borderRadius: 2, marginTop: 8 },
   titleRow: { flexDirection: 'row', alignItems: 'center', paddingHorizontal: 16, paddingTop: 6, paddingBottom: 2 },
-  heading: { fontSize: 13.5, fontWeight: '700', letterSpacing: 0.8, marginTop: 14, marginBottom: 6 },
+  heading: { fontSize: 13, fontWeight: '700', letterSpacing: 0.8, marginTop: 14, marginBottom: 6 },
   wrap: { flexDirection: 'row', flexWrap: 'wrap', gap: 6 },
   pill: { paddingHorizontal: 11, paddingVertical: 5, borderRadius: 16, borderWidth: 1 },
   sizeRow: { flexDirection: 'row', alignItems: 'center', borderRadius: 12, borderWidth: 1 },
   sizeBtn: { paddingHorizontal: 10, paddingVertical: 7 },
   swatches: { flexDirection: 'row', justifyContent: 'space-between' },
   swatch: { alignItems: 'center', width: 48 },
-  dot: { width: 34, height: 34, borderRadius: 17, alignItems: 'center', justifyContent: 'center' },
+  dot: { width: 34, height: 34, borderRadius: 18, alignItems: 'center', justifyContent: 'center' },
   group: { borderRadius: 12, borderWidth: 1, overflow: 'hidden' },
   switchRow: { flexDirection: 'row', alignItems: 'center', paddingHorizontal: 14, paddingVertical: 2 },
   sectionRow: { flexDirection: 'row', alignItems: 'center', paddingHorizontal: 14, paddingVertical: 11 },

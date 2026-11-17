@@ -8,7 +8,7 @@ import { useSettings } from '../../lib/settings';
 type Mdi = keyof typeof MaterialCommunityIcons.glyphMap;
 const icon = (name: Mdi, focused: Mdi = name) =>
   function TabIcon({ color, focused: f }: { color: ColorValue; focused: boolean; size: number }) {
-    return <MaterialCommunityIcons name={f ? focused : name} size={25} color={color as string} />;
+    return <MaterialCommunityIcons name={f ? focused : name} size={26} color={color as string} />;
   };
 
 /** Four tabs: Home, Panchanga, Library, My practice. Everything else opens on top of them. */
@@ -34,7 +34,7 @@ export default function TabLayout() {
         tabBarStyle: { backgroundColor: theme.bar, borderTopColor: theme.cardBorder, height: 56 + insets.bottom },
         tabBarActiveTintColor: theme.accent,
         tabBarInactiveTintColor: theme.textMuted,
-        tabBarLabelStyle: { fontSize: 13.5 },
+        tabBarLabelStyle: { fontSize: 13 },
       }}
     >
       <Tabs.Screen name="index" options={{ title: tr('Home'), headerShown: false, tabBarIcon: icon('temple-hindu-outline', 'temple-hindu') }} />

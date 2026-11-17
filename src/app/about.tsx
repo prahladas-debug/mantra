@@ -19,7 +19,7 @@ export default function About() {
   return (
     <ScrollView style={{ backgroundColor: theme.bg }} contentContainerStyle={{ padding: 20 }}>
       <Text style={h}>Nandadeepa</Text>
-      <Text style={{ color: theme.textMuted, fontSize: 15, marginTop: -4, marginBottom: 10 }}>
+      <Text style={{ color: theme.textMuted, fontSize: 16, marginTop: -4, marginBottom: 10 }}>
         {translit(APP_MOTTO, settings.script)} · {APP_TAGLINE}
       </Text>
       <Text style={p}>
@@ -40,7 +40,7 @@ export default function About() {
       <Text style={p}>
         {tr('Place names and coordinates for Indian towns come from GeoNames (geonames.org), licensed under Creative Commons Attribution 4.0.')}
       </Text>
-      <Text style={{ color: theme.textMuted, fontSize: 14.5 }}>{tr('Version {version}', { version: Constants.expoConfig?.version ?? '1.0.0' })}</Text>
+      <Text style={{ color: theme.textMuted, fontSize: 14 }}>{tr('Version {version}', { version: Constants.expoConfig?.version ?? '1.0.0' })}</Text>
     </ScrollView>
   );
 }

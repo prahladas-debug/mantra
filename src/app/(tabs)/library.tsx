@@ -32,7 +32,7 @@ export default function Library() {
   return (
     <ScrollView style={{ backgroundColor: theme.bg }} contentContainerStyle={{ paddingTop: 8, paddingBottom: 32 }}>
       <Pressable onPress={() => router.push('/search')} style={[s.search, { backgroundColor: theme.card, borderColor: theme.cardBorder }]} accessibilityRole="search">
-        <MaterialCommunityIcons name="magnify" size={20} color={theme.accent} />
+        <MaterialCommunityIcons name="magnify" size={22} color={theme.accent} />
         <Text style={{ color: theme.textMuted, fontSize: 16 }}>{tr('Search texts, names, verses')}</Text>
       </Pressable>
 
@@ -73,7 +73,7 @@ export default function Library() {
             <Text numberOfLines={2} style={{ color: theme.accent, fontSize: 16, lineHeight: 25, fontFamily: font }}>
               {nameOf(c, settings.script)}
             </Text>
-            <Text numberOfLines={1} style={{ color: theme.textMuted, fontSize: 13.5, marginTop: 4 }}>
+            <Text numberOfLines={1} style={{ color: theme.textMuted, fontSize: 13, marginTop: 4 }}>
               {showEn ? `${c.titleEn} · ` : ''}
               {c.items.length}
             </Text>

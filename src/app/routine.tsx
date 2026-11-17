@@ -64,7 +64,7 @@ export default function RoutineEditor() {
             </View>
           )}
           <View style={{ flexDirection: 'row', alignItems: 'center', margin: 16, marginBottom: 6, paddingHorizontal: 12, borderRadius: 12, borderWidth: 1, borderColor: theme.cardBorder, backgroundColor: theme.card }}>
-            <MaterialCommunityIcons name="magnify" size={20} color={theme.accent} />
+            <MaterialCommunityIcons name="magnify" size={22} color={theme.accent} />
             <TextInput
               value={q}
               onChangeText={setQ}
@@ -84,13 +84,13 @@ export default function RoutineEditor() {
           accessibilityRole="button"
           accessibilityLabel={tr('Add {title}', { title: nameOf(item, settings.script) })}
         >
-          <MaterialCommunityIcons name="plus-circle-outline" size={24} color={theme.accent} />
+          <MaterialCommunityIcons name="plus-circle-outline" size={26} color={theme.accent} />
           <View style={{ flex: 1 }}>
             <Text style={{ color: theme.text, fontSize: 16, fontFamily: fontOf(item) }} numberOfLines={1}>
               {nameOf(item, settings.script)}
             </Text>
             {showEn && (
-              <Text style={{ color: theme.textMuted, fontSize: 13.5 }} numberOfLines={1}>
+              <Text style={{ color: theme.textMuted, fontSize: 13 }} numberOfLines={1}>
                 {item.titleEn}
               </Text>
             )}

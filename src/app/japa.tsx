@@ -191,8 +191,8 @@ export default function JapaScreen() {
           <ChantText chant={chant} script={settings.script} theme={theme} />
         </View>
         <View style={[s.changePill, { backgroundColor: theme.accentSoft }]}>
-          <Text style={{ color: theme.accent, fontSize: 14.5, fontWeight: '600' }}>{picking ? tr('Done') : tr('Change')}</Text>
-          <MaterialCommunityIcons name={picking ? 'chevron-up' : 'chevron-down'} size={16} color={theme.accent} />
+          <Text style={{ color: theme.accent, fontSize: 14, fontWeight: '600' }}>{picking ? tr('Done') : tr('Change')}</Text>
+          <MaterialCommunityIcons name={picking ? 'chevron-up' : 'chevron-down'} size={18} color={theme.accent} />
         </View>
       </Pressable>
 
@@ -265,7 +265,7 @@ export default function JapaScreen() {
                 <View style={[s.fill, { backgroundColor: theme.accent, width: `${Math.min(100, (count / target) * 100)}%` }]} />
               </View>
             )}
-            <Text style={{ color: theme.textMuted, fontSize: 14.5, marginTop: 10 }}>
+            <Text style={{ color: theme.textMuted, fontSize: 14, marginTop: 10 }}>
               {count === 0 ? tr('Tap anywhere here to count') : tr('Target {target}', { target: targetLabel(tr, target) })}
             </Text>
           </>
@@ -276,7 +276,7 @@ export default function JapaScreen() {
       <View style={s.controls}>
         {confirmReset ? (
           <>
-            <Text style={{ color: theme.text, fontSize: 15, flex: 1 }}>{tr('Reset to 0?')}</Text>
+            <Text style={{ color: theme.text, fontSize: 16, flex: 1 }}>{tr('Reset to 0?')}</Text>
             <ControlButton icon="close" label={tr('Cancel')} onPress={() => setConfirmReset(false)} theme={theme} />
             <ControlButton
               icon="refresh"
@@ -333,7 +333,7 @@ function ChantText({ chant, script, theme }: { chant: ChantInfo; script: ScriptI
     return (
       <>
         <Text style={[s.kicker, { color: theme.textMuted }]}>{tr('Chanting')}</Text>
-        <Text style={{ color: theme.text, fontSize: 20, fontWeight: '600' }} numberOfLines={2}>
+        <Text style={{ color: theme.text, fontSize: 21, fontWeight: '600' }} numberOfLines={2}>
           {chant.name}
         </Text>
       </>
@@ -344,7 +344,7 @@ function ChantText({ chant, script, theme }: { chant: ChantInfo; script: ScriptI
     <>
       <Text style={[s.kicker, { color: theme.textMuted }]}>{tr('Chanting · {name}', { name: chant.name })}</Text>
       {showTitle && (
-        <Text style={{ color: theme.text, fontSize: 19, fontWeight: '600', marginBottom: 4 }} numberOfLines={1}>
+        <Text style={{ color: theme.text, fontSize: 18, fontWeight: '600', marginBottom: 4 }} numberOfLines={1}>
           {translitTitle(chant.title!, script)}
         </Text>
       )}
@@ -427,7 +427,7 @@ function ChantPicker({
                 },
               ]}
             >
-              <Text style={{ color: current === customKey(l) ? theme.onAccent : theme.text, fontSize: 15 }}>{l}</Text>
+              <Text style={{ color: current === customKey(l) ? theme.onAccent : theme.text, fontSize: 16 }}>{l}</Text>
             </Pressable>
           ))}
         </View>
@@ -487,10 +487,10 @@ function PickRow({
       ]}
     >
       <View style={{ flex: 1 }}>
-        <Text style={{ color: theme.text, fontSize: 17 }} numberOfLines={1}>
+        <Text style={{ color: theme.text, fontSize: 18 }} numberOfLines={1}>
           {main}
         </Text>
-        <Text style={{ color: theme.textMuted, fontSize: 14.5, marginTop: 1 }}>{sub}</Text>
+        <Text style={{ color: theme.textMuted, fontSize: 14, marginTop: 1 }}>{sub}</Text>
       </View>
       {active && <MaterialCommunityIcons name="check-circle" size={22} color={theme.accent} />}
     </Pressable>
@@ -614,7 +614,7 @@ function Stat({ label, value, theme }: { label: string; value: string; theme: Th
   return (
     <View style={s.stat} accessible accessibilityLabel={`${label}: ${value}`}>
       <Text style={[s.statValue, { color: theme.text }]}>{value}</Text>
-      <Text style={{ color: theme.textMuted, fontSize: 13.5, marginTop: 2 }}>{label}</Text>
+      <Text style={{ color: theme.textMuted, fontSize: 13, marginTop: 2 }}>{label}</Text>
     </View>
   );
 }
@@ -654,8 +654,8 @@ function ControlButton({
         },
       ]}
     >
-      <MaterialCommunityIcons name={icon} size={20} color={fg} />
-      <Text style={{ color: fg, fontSize: 15, fontWeight: '600' }}>{label}</Text>
+      <MaterialCommunityIcons name={icon} size={22} color={fg} />
+      <Text style={{ color: fg, fontSize: 16, fontWeight: '600' }}>{label}</Text>
     </Pressable>
   );
 }
@@ -673,7 +673,7 @@ function History({ state, chantKey, theme }: { state: ReturnType<typeof useJapa>
     <>
       <SectionHeading>{tr('Last 7 days')}</SectionHeading>
       <View style={[s.panel, { backgroundColor: theme.card, borderColor: theme.cardBorder }]}>
-        <Text style={{ color: theme.textMuted, fontSize: 14.5, marginBottom: 12 }}>
+        <Text style={{ color: theme.textMuted, fontSize: 14, marginBottom: 12 }}>
           {tr('All chants · {week} this week ({malas})', { week: fmt(week), malas: malaLabel(tr, malas(week)) })}
         </Text>
         <View style={{ flexDirection: 'row', alignItems: 'flex-end', height: H + 20 }}>
@@ -690,7 +690,7 @@ function History({ state, chantKey, theme }: { state: ReturnType<typeof useJapa>
                 accessible
                 accessibilityLabel={`${isToday ? tr('Today') : wd} ${dd}: ${fmt(d.total)}`}
               >
-                <Text style={{ color: theme.textMuted, fontSize: 12.5, marginBottom: 4, opacity: showValue ? 1 : 0 }}>
+                <Text style={{ color: theme.textMuted, fontSize: 13, marginBottom: 4, opacity: showValue ? 1 : 0 }}>
                   {fmt(d.total)}
                 </Text>
                 <View
@@ -713,7 +713,7 @@ function History({ state, chantKey, theme }: { state: ReturnType<typeof useJapa>
             return (
               <Text
                 key={d.date}
-                style={{ flex: 1, textAlign: 'center', fontSize: 12.5, color: isToday ? theme.text : theme.textMuted, fontWeight: isToday ? '700' : '400' }}
+                style={{ flex: 1, textAlign: 'center', fontSize: 13, color: isToday ? theme.text : theme.textMuted, fontWeight: isToday ? '700' : '400' }}
                 importantForAccessibility="no"
               >
                 {isToday ? tr('Today') : tr(WEEKDAY[new Date(y, m - 1, dd).getDay()])}
@@ -768,18 +768,18 @@ function Totals({
               accessibilityLabel={`${info.name}: ${fmt(n)}, ${malaLabel(tr, malas(n))}`}
             >
               <View style={{ flex: 1 }}>
-                <Text style={{ color: theme.text, fontSize: 15, fontWeight: key === current ? '700' : '400' }} numberOfLines={1}>
+                <Text style={{ color: theme.text, fontSize: 16, fontWeight: key === current ? '700' : '400' }} numberOfLines={1}>
                   {native ?? info.name}
                 </Text>
                 {native && (
-                  <Text style={{ color: theme.textMuted, fontSize: 13.5 }} numberOfLines={1}>
+                  <Text style={{ color: theme.textMuted, fontSize: 13 }} numberOfLines={1}>
                     {info.name}
                   </Text>
                 )}
               </View>
               <View style={{ alignItems: 'flex-end' }}>
-                <Text style={[s.tabular, { color: theme.text, fontSize: 15, fontWeight: '600' }]}>{fmt(n)}</Text>
-                <Text style={{ color: theme.textMuted, fontSize: 13.5 }}>{malaLabel(tr, malas(n))}</Text>
+                <Text style={[s.tabular, { color: theme.text, fontSize: 16, fontWeight: '600' }]}>{fmt(n)}</Text>
+                <Text style={{ color: theme.textMuted, fontSize: 13 }}>{malaLabel(tr, malas(n))}</Text>
               </View>
             </View>
           );
@@ -800,14 +800,14 @@ const s = StyleSheet.create({
     borderRadius: 16,
     borderWidth: 1,
   },
-  kicker: { fontSize: 13.5, fontWeight: '700', letterSpacing: 0.6, textTransform: 'uppercase', marginBottom: 6 },
+  kicker: { fontSize: 13, fontWeight: '700', letterSpacing: 0.6, textTransform: 'uppercase', marginBottom: 6 },
   changePill: {
     flexDirection: 'row',
     alignItems: 'center',
     gap: 4,
     paddingHorizontal: 10,
     paddingVertical: 5,
-    borderRadius: 14,
+    borderRadius: 16,
   },
   pickRow: {
     flexDirection: 'row',
@@ -829,7 +829,7 @@ const s = StyleSheet.create({
   count: { fontWeight: '300', fontVariant: ['tabular-nums'], letterSpacing: -1 },
   stats: { flexDirection: 'row', alignSelf: 'stretch', marginHorizontal: 24, marginTop: 18 },
   stat: { flex: 1, alignItems: 'center' },
-  statValue: { fontSize: 22, fontWeight: '600', fontVariant: ['tabular-nums'] },
+  statValue: { fontSize: 21, fontWeight: '600', fontVariant: ['tabular-nums'] },
   track: { height: 4, borderRadius: 2, alignSelf: 'stretch', marginHorizontal: 40, marginTop: 16, overflow: 'hidden' },
   fill: { height: 4, borderRadius: 2 },
   controls: { flexDirection: 'row', alignItems: 'center', gap: 10, marginHorizontal: 16, marginTop: 4 },
@@ -843,7 +843,7 @@ const s = StyleSheet.create({
     borderWidth: 1,
     minHeight: 44,
   },
-  note: { fontSize: 14.5, lineHeight: 21, marginHorizontal: 16, marginTop: 12 },
+  note: { fontSize: 14, lineHeight: 20, marginHorizontal: 16, marginTop: 12 },
   panel: { marginHorizontal: 16, padding: 14, borderRadius: 16, borderWidth: 1 },
   totalRow: { flexDirection: 'row', alignItems: 'center', paddingVertical: 10, gap: 12 },
   tabular: { fontVariant: ['tabular-nums'] },

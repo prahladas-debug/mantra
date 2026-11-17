@@ -28,8 +28,8 @@ export function SectionHeading({ children }: { children: React.ReactNode }) {
   const { theme } = useSettings();
   return (
     <View style={{ flexDirection: 'row', alignItems: 'center', gap: 7, marginTop: 26, marginBottom: 10, marginHorizontal: 16 }}>
-      <MaterialCommunityIcons name="spa-outline" size={17} color={theme.gold} />
-      <Text style={{ fontSize: 15, fontWeight: '700', color: theme.text }} accessibilityRole="header">
+      <MaterialCommunityIcons name="spa-outline" size={18} color={theme.gold} />
+      <Text style={{ fontSize: 16, fontWeight: '700', color: theme.text }} accessibilityRole="header">
         {children}
       </Text>
     </View>
@@ -72,7 +72,7 @@ export function Chip({ label, active, onPress }: { label: string; active?: boole
         },
       ]}
     >
-      <Text style={{ color: active ? theme.onAccent : theme.text, fontSize: 15 }}>{label}</Text>
+      <Text style={{ color: active ? theme.onAccent : theme.text, fontSize: 16 }}>{label}</Text>
     </Pressable>
   );
 }
@@ -81,7 +81,7 @@ export function Chip({ label, active, onPress }: { label: string; active?: boole
 export function MantraRow({ mantra, subtitle }: { mantra: Mantra; subtitle?: string }) {
   const { theme } = useSettings();
   return (
-    <View style={{ marginHorizontal: 16, marginBottom: 8, borderRadius: 14, borderWidth: 1, borderColor: theme.cardBorder, backgroundColor: theme.card, overflow: 'hidden' }}>
+    <View style={{ marginHorizontal: 16, marginBottom: 8, borderRadius: 16, borderWidth: 1, borderColor: theme.cardBorder, backgroundColor: theme.card, overflow: 'hidden' }}>
       <TextRow mantra={mantra} subtitle={subtitle} />
     </View>
   );
@@ -89,7 +89,7 @@ export function MantraRow({ mantra, subtitle }: { mantra: Mantra; subtitle?: str
 
 export const styles = StyleSheet.create({
   sectionHeading: {
-    fontSize: 14.5,
+    fontSize: 14,
     fontWeight: '700',
     letterSpacing: 1,
     textTransform: 'uppercase',
@@ -105,12 +105,12 @@ export const styles = StyleSheet.create({
     padding: 14,
     marginHorizontal: 16,
     marginBottom: 10,
-    borderRadius: 14,
+    borderRadius: 16,
     borderWidth: 1,
   },
   metaRow: { flexDirection: 'row', gap: 8, marginTop: 8, alignItems: 'center' },
-  meta: { fontSize: 13.5, fontWeight: '600', paddingHorizontal: 8, paddingVertical: 2, borderRadius: 8, overflow: 'hidden' },
-  metaPlain: { fontSize: 13.5 },
+  meta: { fontSize: 13, fontWeight: '600', paddingHorizontal: 8, paddingVertical: 2, borderRadius: 8, overflow: 'hidden' },
+  metaPlain: { fontSize: 13 },
 });
 
 /** A row of equal buttons, one selected (like a two- or three-way switch). */
@@ -136,7 +136,7 @@ export function Segmented<T extends string>({
             accessibilityState={{ selected: active }}
             style={{ flex: 1, alignItems: 'center', justifyContent: 'center', paddingVertical: 9, paddingHorizontal: 6, borderRadius: 9, backgroundColor: active ? theme.accent : 'transparent' }}
           >
-            <Text numberOfLines={1} style={{ color: active ? theme.onAccent : theme.text, fontSize: 15, fontWeight: active ? '700' : '400' }}>
+            <Text numberOfLines={1} style={{ color: active ? theme.onAccent : theme.text, fontSize: 16, fontWeight: active ? '700' : '400' }}>
               {o.label}
             </Text>
           </Pressable>

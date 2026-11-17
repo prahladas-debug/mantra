@@ -104,8 +104,8 @@ export function BookContents({ category, work }: { category: Category; work: Boo
         )}
         {ui === 'en' && (
           <>
-            <Text style={{ color: theme.textMuted, fontSize: 14.5, textAlign: 'center', marginTop: 6, lineHeight: 19 }}>{category.description}</Text>
-            <Text style={{ color: theme.textMuted, fontSize: 13.5, textAlign: 'center', marginTop: 4, lineHeight: 17 }} numberOfLines={4}>
+            <Text style={{ color: theme.textMuted, fontSize: 14, textAlign: 'center', marginTop: 6, lineHeight: 19 }}>{category.description}</Text>
+            <Text style={{ color: theme.textMuted, fontSize: 13, textAlign: 'center', marginTop: 4, lineHeight: 17 }} numberOfLines={4}>
               {plain(work.edition)}
             </Text>
           </>
@@ -121,12 +121,12 @@ export function BookContents({ category, work }: { category: Category; work: Boo
             placeholder={work.unitLabel === 'sarga' ? tr('Find a sarga in {title}', { title: workTitle }) : tr('Find an adhyaya in {title}', { title: workTitle })}
             placeholderTextColor={theme.textMuted}
             autoCorrect={false}
-            style={{ flex: 1, color: theme.text, fontSize: 15, paddingVertical: 9, paddingHorizontal: 8 }}
+            style={{ flex: 1, color: theme.text, fontSize: 16, paddingVertical: 9, paddingHorizontal: 8 }}
             accessibilityLabel={tr('Filter this list')}
           />
           {q.length > 0 && (
             <Pressable onPress={() => setQ('')} hitSlop={10} accessibilityLabel={tr('Clear')}>
-              <MaterialCommunityIcons name="close-circle" size={19} color={theme.textMuted} />
+              <MaterialCommunityIcons name="close-circle" size={18} color={theme.textMuted} />
             </Pressable>
           )}
         </View>
@@ -164,11 +164,11 @@ export function BookContents({ category, work }: { category: Category; work: Boo
                   <Text style={{ color: theme.text, fontSize: 18, fontFamily: font, fontWeight: font ? undefined : '600' }} numberOfLines={1}>
                     {(settings.script === 'english' ? p.nameEn : translitTitle(p.name, settings.script))}
                   </Text>
-                  <Text style={{ color: theme.textMuted, fontSize: 14.5, marginTop: 1 }} numberOfLines={1}>
+                  <Text style={{ color: theme.textMuted, fontSize: 14, marginTop: 1 }} numberOfLines={1}>
                     {ready ? sizes.join(' · ') : tr('{name} · to be added', { name: ui === 'en' ? p.nameEn : translit(p.name, settings.script) })}
                   </Text>
                 </View>
-                {ready && !filtering && <MaterialCommunityIcons name={linked ? 'chevron-right' : expanded ? 'chevron-up' : 'chevron-down'} size={20} color={linked ? theme.textMuted : theme.accent} />}
+                {ready && !filtering && <MaterialCommunityIcons name={linked ? 'chevron-right' : expanded ? 'chevron-up' : 'chevron-down'} size={22} color={linked ? theme.textMuted : theme.accent} />}
               </Pressable>
               {expanded && (
                 <View>

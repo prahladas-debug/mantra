@@ -14,7 +14,7 @@ export default function ParayanaScreen() {
       <Pressable
         onPress={() => router.push('/parayana-new')}
         style={({ pressed }) => ({
-          margin: 16, padding: 14, borderRadius: 14, backgroundColor: theme.accent, opacity: pressed ? 0.8 : 1,
+          margin: 16, padding: 14, borderRadius: 16, backgroundColor: theme.accent, opacity: pressed ? 0.8 : 1,
           flexDirection: 'row', alignItems: 'center', justifyContent: 'center', gap: 8,
         })}
       >

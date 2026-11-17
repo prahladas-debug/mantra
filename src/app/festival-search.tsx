@@ -104,7 +104,7 @@ export default function FestivalSearch() {
       ListHeaderComponent={
         <View>
           <View style={{ flexDirection: 'row', alignItems: 'center', margin: 16, marginBottom: 6, paddingHorizontal: 12, borderRadius: 12, borderWidth: 1, borderColor: theme.cardBorder, backgroundColor: theme.card }}>
-            <MaterialCommunityIcons name="magnify" size={20} color={theme.textMuted} />
+            <MaterialCommunityIcons name="magnify" size={22} color={theme.textMuted} />
             <TextInput
               value={q}
               onChangeText={setQ}
@@ -116,7 +116,7 @@ export default function FestivalSearch() {
               accessibilityLabel={tr('Search festivals')}
             />
           </View>
-          <Text style={{ color: theme.textMuted, fontSize: 14.5, marginHorizontal: 16, marginBottom: 8 }}>
+          <Text style={{ color: theme.textMuted, fontSize: 14, marginHorizontal: 16, marginBottom: 8 }}>
             {city.name} · {rule === 'madhva' ? tr('Madhva') : tr('Smarta')} · {mode === 'saura' ? tr('Sauramana') : tr('Chandramana')} · {FIRST_YEAR}–{LAST_YEAR}
           </Text>
         </View>
@@ -144,15 +144,15 @@ export default function FestivalSearch() {
               accessibilityRole="button"
             >
               <View style={{ width: 112 }}>
-                <Text style={{ color: theme.accent, fontSize: 15, fontWeight: '700' }}>{fmt(f.date).dayMonthYear}</Text>
-                <Text style={{ color: theme.textMuted, fontSize: 13.5 }}>{fmt(f.date).weekday}{f.endDate ? ` → ${f.endDate.slice(8)}/${f.endDate.slice(5, 7)}` : ''}</Text>
+                <Text style={{ color: theme.accent, fontSize: 16, fontWeight: '700' }}>{fmt(f.date).dayMonthYear}</Text>
+                <Text style={{ color: theme.textMuted, fontSize: 13 }}>{fmt(f.date).weekday}{f.endDate ? ` → ${f.endDate.slice(8)}/${f.endDate.slice(5, 7)}` : ''}</Text>
               </View>
               <View style={{ flex: 1 }}>
                 <Text style={{ color: theme.text, fontSize: 16 }} numberOfLines={1}>{settings.script === 'english' ? translitTitle(f.name, settings.script) : translit(f.name, settings.script)}</Text>
-                <Text style={{ color: theme.textMuted, fontSize: 14.5 }} numberOfLines={2}>{lang === 'en' ? plain(f.en) : has(f.en) ? tr(f.en) : ''}</Text>
-                {f.parana && <Text style={{ color: theme.textMuted, fontSize: 13.5 }}>{tr('Parana {label}', { label: f.parana.label })}</Text>}
+                <Text style={{ color: theme.textMuted, fontSize: 14 }} numberOfLines={2}>{lang === 'en' ? plain(f.en) : has(f.en) ? tr(f.en) : ''}</Text>
+                {f.parana && <Text style={{ color: theme.textMuted, fontSize: 13 }}>{tr('Parana {label}', { label: f.parana.label })}</Text>}
               </View>
-              <MaterialCommunityIcons name="chevron-right" size={20} color={theme.textMuted} />
+              <MaterialCommunityIcons name="chevron-right" size={22} color={theme.textMuted} />
             </Pressable>
           </View>
         );

@@ -50,19 +50,19 @@ export function TextRow({ mantra, subtitle, badge, divider, indent }: { mantra: 
     >
       {badge !== undefined && (
         <View style={[s.badge, { backgroundColor: theme.accentSoft }]}>
-          <Text style={{ color: theme.accent, fontSize: 14.5, fontWeight: '700' }}>{badge}</Text>
+          <Text style={{ color: theme.accent, fontSize: 14, fontWeight: '700' }}>{badge}</Text>
         </View>
       )}
       <View style={{ flex: 1 }}>
-        <Text style={{ color: theme.text, fontSize: 17, fontFamily: font, fontWeight: font ? undefined : '600' }} numberOfLines={1}>
+        <Text style={{ color: theme.text, fontSize: 18, fontFamily: font, fontWeight: font ? undefined : '600' }} numberOfLines={1}>
           {t.text}
         </Text>
-        <Text style={{ color: theme.textMuted, fontSize: 14.5, marginTop: 1 }} numberOfLines={1}>
+        <Text style={{ color: theme.textMuted, fontSize: 14, marginTop: 1 }} numberOfLines={1}>
           {subtitleFor(mantra, tr, showEn, subtitle)}
         </Text>
       </View>
-      {favorites.includes(mantra.id) && <MaterialCommunityIcons name="star" size={17} color={theme.gold} />}
-      <MaterialCommunityIcons name="chevron-right" size={19} color={theme.textMuted} />
+      {favorites.includes(mantra.id) && <MaterialCommunityIcons name="star" size={18} color={theme.gold} />}
+      <MaterialCommunityIcons name="chevron-right" size={18} color={theme.textMuted} />
     </Pressable>
   );
 }
@@ -89,14 +89,14 @@ function SeriesRow({ entry, divider }: { entry: Entry; divider?: boolean }) {
         style={({ pressed }) => [s.row, { borderTopWidth: divider ? StyleSheet.hairlineWidth : 0, borderColor: theme.cardBorder, opacity: pressed ? 0.6 : 1 }]}
       >
         <View style={{ flex: 1 }}>
-          <Text style={{ color: theme.text, fontSize: 17, fontFamily: font, fontWeight: font ? undefined : '600' }} numberOfLines={1}>
+          <Text style={{ color: theme.text, fontSize: 18, fontFamily: font, fontWeight: font ? undefined : '600' }} numberOfLines={1}>
             {title}
           </Text>
-          <Text style={{ color: theme.textMuted, fontSize: 14.5, marginTop: 1 }} numberOfLines={1}>
+          <Text style={{ color: theme.textMuted, fontSize: 14, marginTop: 1 }} numberOfLines={1}>
             {showEn ? tr('{en} · {n} parts', { en, n: parts.length }) : tr('{en} · {n} parts', { en: '', n: parts.length }).replace(/^\s*·\s*/, '')}
           </Text>
         </View>
-        <MaterialCommunityIcons name={open ? 'chevron-up' : 'chevron-down'} size={19} color={theme.accent} />
+        <MaterialCommunityIcons name={open ? 'chevron-up' : 'chevron-down'} size={18} color={theme.accent} />
       </Pressable>
       {open && parts.map((m, i) => <TextRow key={m.id} mantra={m} divider indent badge={String(m.order ?? i + 1)} />)}
     </View>
@@ -128,5 +128,5 @@ export function EntryCard({ entries, numbered }: { entries: Entry[]; numbered?: 
 const s = StyleSheet.create({
   card: { marginHorizontal: 16, borderRadius: 16, borderWidth: 1, overflow: 'hidden' },
   row: { flexDirection: 'row', alignItems: 'center', gap: 10, paddingVertical: 10, paddingRight: 12, paddingLeft: 14 },
-  badge: { minWidth: 30, height: 30, borderRadius: 15, alignItems: 'center', justifyContent: 'center', paddingHorizontal: 6 },
+  badge: { minWidth: 30, height: 30, borderRadius: 16, alignItems: 'center', justifyContent: 'center', paddingHorizontal: 6 },
 });

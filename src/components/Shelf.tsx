@@ -125,7 +125,7 @@ export function BookCover({ work, width = 156, still }: { work: GreatWork; width
           </View>
           <View style={[c.rule, { backgroundColor: GOLD }]} />
           {!small && showEn && (
-            <Text style={{ color: CREAM, fontSize: 12.5, fontWeight: '600', textAlign: 'center' }} numberOfLines={1} adjustsFontSizeToFit minimumFontScale={0.8}>
+            <Text style={{ color: CREAM, fontSize: 13, fontWeight: '600', textAlign: 'center' }} numberOfLines={1} adjustsFontSizeToFit minimumFontScale={0.8}>
               {work.titleEn}
             </Text>
           )}
@@ -177,7 +177,7 @@ export function BookBanner({ category, firstId, lastId, lastLabel }: { category:
             {work.titleEn}
           </Text>
         )}
-        <Text style={{ color: GOLD, fontSize: 13.5, marginTop: 1 }} numberOfLines={2}>
+        <Text style={{ color: GOLD, fontSize: 13, marginTop: 1 }} numberOfLines={2}>
           {[tr(work.size), work.about && tr(work.about)].filter(Boolean).join(' · ')}
         </Text>
         <View style={{ flexDirection: 'row', flexWrap: 'wrap', gap: 8, marginTop: 12 }}>
@@ -227,7 +227,7 @@ export function DeityMedallion({ deity, width = 76 }: { deity: DeityGroup; width
       style={({ pressed }) => ({ width, alignItems: 'center', opacity: pressed ? 0.7 : 1 })}
     >
       <Image source={DEITY_ART[deity.id]} style={{ width: d, height: d, borderRadius: d / 2, opacity: theme.artOpacity }} />
-      <Text style={{ color: theme.text, fontSize: 14.5, lineHeight: 22, textAlign: 'center', marginTop: 4, fontFamily: font }} numberOfLines={1} adjustsFontSizeToFit minimumFontScale={0.75}>
+      <Text style={{ color: theme.text, fontSize: 14, lineHeight: 21, textAlign: 'center', marginTop: 4, fontFamily: font }} numberOfLines={1} adjustsFontSizeToFit minimumFontScale={0.75}>
         {translit(deity.short ?? deity.title, settings.script)}
       </Text>
     </Pressable>
@@ -272,22 +272,17 @@ export function CategoryTile({ id, wide }: { id: CategoryId; wide?: boolean }) {
       style={({ pressed }) => [c.tile, { width: wide ? '100%' : '48.5%', backgroundColor: theme.card, borderColor: theme.cardBorder, opacity: pressed ? 0.7 : 1 }]}
     >
       <View style={[c.iconSmall, { backgroundColor: theme.goldSoft }]}>
-        <MaterialCommunityIcons name={CATEGORY_ICONS[id]} size={20} color={theme.gold} />
+        <MaterialCommunityIcons name={CATEGORY_ICONS[id]} size={22} color={theme.gold} />
       </View>
       <View style={{ flex: 1 }}>
-        <Text style={{ color: theme.text, fontSize: 15, lineHeight: 23, fontFamily: font, fontWeight: font ? undefined : '600' }} numberOfLines={2}>
+        <Text style={{ color: theme.text, fontSize: 16, lineHeight: 25, fontFamily: font, fontWeight: font ? undefined : '600' }} numberOfLines={2}>
           {categoryTitle(cat, settings.script)}
         </Text>
-        <View style={{ flexDirection: 'row' }}>
-          {showEn && (
-            <Text style={{ color: theme.textMuted, fontSize: 13.5, flexShrink: 1 }} numberOfLines={1}>
-              {cat.titleEn}
-            </Text>
-          )}
-          <Text style={{ color: theme.textMuted, fontSize: 13.5, flexShrink: 0 }} numberOfLines={1}>
-            {showEn ? ` · ${count}` : String(count)}
+        {showEn && (
+          <Text style={{ color: theme.textMuted, fontSize: 13 }} numberOfLines={1}>
+            {cat.titleEn}
           </Text>
-        </View>
+        )}
       </View>
     </Pressable>
   );
@@ -305,9 +300,9 @@ export function QuickTile({ icon, label, href }: { icon: Icon; label: string; hr
       style={({ pressed }) => [c.quick, { backgroundColor: theme.card, borderColor: theme.cardBorder, opacity: pressed ? 0.7 : 1 }]}
     >
       <View style={[c.iconWrap, { backgroundColor: theme.goldSoft }]}>
-        <MaterialCommunityIcons name={icon} size={24} color={theme.gold} />
+        <MaterialCommunityIcons name={icon} size={26} color={theme.gold} />
       </View>
-      <Text style={{ color: theme.text, fontSize: 14.5, textAlign: 'center', marginTop: 6 }} numberOfLines={2}>
+      <Text style={{ color: theme.text, fontSize: 14, textAlign: 'center', marginTop: 6 }} numberOfLines={1} adjustsFontSizeToFit minimumFontScale={0.8}>
         {tr(label)}
       </Text>
     </Pressable>
@@ -320,8 +315,8 @@ export function ShelfHeading({ title, action, onAction }: { title: string; actio
   const { tr } = useI18n();
   return (
     <View style={c.heading}>
-      <MaterialCommunityIcons name="spa-outline" size={17} color={theme.gold} style={{ marginRight: 7 }} />
-      <Text style={{ flex: 1, color: theme.text, fontSize: 15, fontWeight: '700', letterSpacing: 0.3 }} accessibilityRole="header">
+      <MaterialCommunityIcons name="spa-outline" size={18} color={theme.gold} style={{ marginRight: 7 }} />
+      <Text style={{ flex: 1, color: theme.text, fontSize: 16, fontWeight: '700', letterSpacing: 0.3 }} accessibilityRole="header">
         {tr(title)}
       </Text>
       {action && (
@@ -340,9 +335,9 @@ const c = StyleSheet.create({
   banner: { marginHorizontal: 16, marginTop: 14, aspectRatio: 900 / 520, borderRadius: 16, overflow: 'hidden' },
   bannerWords: { flex: 1, justifyContent: 'center', paddingLeft: '7%', width: '52%' },
   bannerBtn: { paddingHorizontal: 13, paddingVertical: 7, borderRadius: 18, borderWidth: 1 },
-  tile: { flexDirection: 'row', alignItems: 'center', gap: 8, padding: 10, borderRadius: 14, borderWidth: 1 },
-  iconWrap: { width: 38, height: 38, borderRadius: 19, alignItems: 'center', justifyContent: 'center' },
-  iconSmall: { width: 34, height: 34, borderRadius: 17, alignItems: 'center', justifyContent: 'center' },
-  quick: { width: '31.5%', alignItems: 'center', paddingVertical: 12, paddingHorizontal: 4, borderRadius: 14, borderWidth: 1 },
+  tile: { flexDirection: 'row', alignItems: 'center', gap: 8, padding: 10, borderRadius: 16, borderWidth: 1 },
+  iconWrap: { width: 38, height: 38, borderRadius: 18, alignItems: 'center', justifyContent: 'center' },
+  iconSmall: { width: 34, height: 34, borderRadius: 18, alignItems: 'center', justifyContent: 'center' },
+  quick: { width: '31.5%', alignItems: 'center', paddingVertical: 12, paddingHorizontal: 4, borderRadius: 16, borderWidth: 1 },
   heading: { flexDirection: 'row', alignItems: 'center', marginHorizontal: 16, marginTop: 24, marginBottom: 10 },
 });

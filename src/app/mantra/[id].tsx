@@ -62,7 +62,7 @@ function BookUnitReader({ id }: { id: string }) {
       {error ? (
         <>
           <Text style={{ color: theme.text, fontSize: 16, textAlign: 'center' }}>{tr('This {title} could not be opened.', { title: name ?? tr('text') })}</Text>
-          <Text style={{ color: theme.textMuted, fontSize: 14.5, textAlign: 'center' }}>{error}</Text>
+          <Text style={{ color: theme.textMuted, fontSize: 14, textAlign: 'center' }}>{error}</Text>
           <Pressable
             onPress={() => {
               setError(null);
@@ -168,7 +168,7 @@ function ReaderView({ mantra }: { mantra: Mantra | undefined }) {
               <View style={{ flexDirection: 'row', gap: 18 }}>
                 {hasContents && (
                   <Pressable hitSlop={10} onPress={() => setContentsOpen(true)} accessibilityLabel={tr('Contents')}>
-                    <MaterialCommunityIcons name="format-list-bulleted" size={23} color={theme.accent} />
+                    <MaterialCommunityIcons name="format-list-bulleted" size={22} color={theme.accent} />
                   </Pressable>
                 )}
                 <Pressable hitSlop={10} onPress={() => setPanelOpen((o) => !o)} accessibilityLabel={tr('Display options')}>
@@ -203,7 +203,7 @@ function ReaderView({ mantra }: { mantra: Mantra | undefined }) {
         <Layout key={settings.layout} rows={rows} initialKey={openAt} onPosition={onPosition} ref={handle} />
         {pinch.preview !== null && (
           <View pointerEvents="none" style={{ position: 'absolute', top: 16, alignSelf: 'center', paddingHorizontal: 14, paddingVertical: 6, borderRadius: 16, backgroundColor: theme.accent }}>
-            <Text style={{ color: theme.onAccent, fontSize: 15, fontWeight: '700' }}>{tr('Text size {pct}%', { pct: Math.round(pinch.preview * 100) })}</Text>
+            <Text style={{ color: theme.onAccent, fontSize: 16, fontWeight: '700' }}>{tr('Text size {pct}%', { pct: Math.round(pinch.preview * 100) })}</Text>
           </View>
         )}
       </View>

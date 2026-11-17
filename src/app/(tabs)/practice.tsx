@@ -23,11 +23,11 @@ function Heading({ title, action, onAction }: { title: string; action?: string; 
   const { tr } = useI18n();
   return (
     <View style={s.heading}>
-      <MaterialCommunityIcons name="spa-outline" size={17} color={theme.gold} style={{ marginRight: 7 }} />
-      <Text style={{ color: theme.text, fontSize: 15, fontWeight: '700', flex: 1 }} accessibilityRole="header">{tr(title)}</Text>
+      <MaterialCommunityIcons name="spa-outline" size={18} color={theme.gold} style={{ marginRight: 7 }} />
+      <Text style={{ color: theme.text, fontSize: 16, fontWeight: '700', flex: 1 }} accessibilityRole="header">{tr(title)}</Text>
       {action && (
         <Pressable onPress={onAction} hitSlop={10} accessibilityRole="button">
-          <Text style={{ color: theme.accent, fontSize: 15 }}>{tr(action)}</Text>
+          <Text style={{ color: theme.accent, fontSize: 16 }}>{tr(action)}</Text>
         </Pressable>
       )}
     </View>
@@ -41,7 +41,7 @@ export default function Practice() {
   const showEn = useShowEnglish();
   const active = plans.filter((p) => !planStatus(p).finished);
   const favs = favorites.map(getMantraInfo).filter((m) => !!m);
-  const recents = recent.map((r) => getMantraInfo(r.id)).filter((m) => !!m).slice(0, 8);
+  const recents = recent.map((r) => getMantraInfo(r.id)).filter((m) => !!m).slice(0, 3);
 
   const list = (items: NonNullable<ReturnType<typeof getMantraInfo>>[]) => (
     <View style={[s.list, { backgroundColor: theme.card, borderColor: theme.cardBorder }]}>
@@ -52,16 +52,16 @@ export default function Practice() {
           style={({ pressed }) => [s.row, { borderTopWidth: i ? StyleSheet.hairlineWidth : 0, borderColor: theme.cardBorder, opacity: pressed ? 0.6 : 1 }]}
         >
           <View style={{ flex: 1 }}>
-            <Text style={{ color: theme.text, fontSize: 17, fontFamily: scriptFont(scriptFor(m, settings.script), settings.bookFonts) }} numberOfLines={1}>
+            <Text style={{ color: theme.text, fontSize: 18, fontFamily: scriptFont(scriptFor(m, settings.script), settings.bookFonts) }} numberOfLines={1}>
               {nameOf(m, settings.script)}
             </Text>
             {showEn && (
-              <Text style={{ color: theme.textMuted, fontSize: 13.5 }} numberOfLines={1}>
+              <Text style={{ color: theme.textMuted, fontSize: 13 }} numberOfLines={1}>
                 {m.titleEn}
               </Text>
             )}
           </View>
-          <MaterialCommunityIcons name="chevron-right" size={20} color={theme.textMuted} />
+          <MaterialCommunityIcons name="chevron-right" size={22} color={theme.textMuted} />
         </Pressable>
       ))}
     </View>
@@ -76,7 +76,7 @@ export default function Practice() {
       {active.length === 0 ? (
         <Pressable onPress={() => router.push('/parayana')} style={[s.list, { backgroundColor: theme.card, borderColor: theme.cardBorder, padding: 14 }]}>
           <Text style={{ color: theme.textMuted, fontSize: 14, lineHeight: 20 }}>
-            {tr('Plan a parayana — the Sundarakanda in 7 days, the Gita in 18, Lalitha Sahasranama for 40 days — with daily reminders.')}
+            {tr('Read a great work over set days, with a daily reminder.')}
           </Text>
         </Pressable>
       ) : (
@@ -85,7 +85,7 @@ export default function Practice() {
           {active.map((p) => <PlanCard key={p.id} plan={p} compact />)}
           {/* The full cards (daily reminder, remove a plan, finished plans) are on the Parayana screen. */}
           <Pressable onPress={() => router.push('/parayana')} hitSlop={8} accessibilityRole="link" style={{ alignSelf: 'flex-start', marginHorizontal: 16 }}>
-            <Text style={{ color: theme.accent, fontSize: 15 }}>{tr('Reminders and all plans ›')}</Text>
+            <Text style={{ color: theme.accent, fontSize: 16 }}>{tr('Reminders and all plans ›')}</Text>
           </Pressable>
         </>
       )}
@@ -100,7 +100,7 @@ export default function Practice() {
           >
             <MaterialCommunityIcons name={t.icon} size={22} color={theme.gold} />
             <Text style={{ color: theme.text, fontSize: 16, flex: 1 }}>{tr(t.label)}</Text>
-            <MaterialCommunityIcons name="chevron-right" size={20} color={theme.textMuted} />
+            <MaterialCommunityIcons name="chevron-right" size={22} color={theme.textMuted} />
           </Pressable>
         ))}
       </View>

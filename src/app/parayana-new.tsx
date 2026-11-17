@@ -137,7 +137,7 @@ export default function NewPlan() {
             {textChoices.slice(0, 40).map((m) => (
               <Pressable key={m.id} onPress={() => setText(m)} style={[card, { borderColor: text?.id === m.id ? theme.accent : theme.cardBorder, backgroundColor: text?.id === m.id ? theme.accentSoft : theme.card }]}>
                 <Text style={{ color: theme.text, fontSize: 16 }}>{nameOf(m, settings.script)}</Text>
-                {showEn && <Text style={{ color: theme.textMuted, fontSize: 14.5 }}>{m.titleEn}</Text>}
+                {showEn && <Text style={{ color: theme.textMuted, fontSize: 14 }}>{m.titleEn}</Text>}
               </Pressable>
             ))}
           </>
@@ -163,7 +163,7 @@ export default function NewPlan() {
       <Pressable
         onPress={create}
         disabled={!ready}
-        style={{ position: 'absolute', left: 16, right: 16, bottom: 24, padding: 14, borderRadius: 14, alignItems: 'center', backgroundColor: ready ? theme.accent : theme.cardBorder }}
+        style={{ position: 'absolute', left: 16, right: 16, bottom: 24, padding: 14, borderRadius: 16, alignItems: 'center', backgroundColor: ready ? theme.accent : theme.cardBorder }}
       >
         <Text style={{ color: ready ? theme.onAccent : theme.textMuted, fontSize: 16, fontWeight: '700' }}>{tr('Start')}</Text>
       </Pressable>

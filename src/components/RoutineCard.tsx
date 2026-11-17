@@ -30,12 +30,12 @@ export function RoutineCard({ compact }: { compact?: boolean }) {
         style={({ pressed }) => [s.card, { backgroundColor: theme.card, borderColor: theme.cardBorder, opacity: pressed ? 0.7 : 1, flexDirection: 'row', alignItems: 'center', gap: 10 }]}
         accessibilityRole="button"
       >
-        <MaterialCommunityIcons name="format-list-bulleted" size={24} color={theme.gold} />
+        <MaterialCommunityIcons name="format-list-bulleted" size={26} color={theme.gold} />
         <View style={{ flex: 1 }}>
           <Text style={{ color: theme.text, fontSize: 16, fontWeight: '600' }}>{tr('Set up your daily routine')}</Text>
-          <Text style={{ color: theme.textMuted, fontSize: 14.5 }}>{tr('Pick the texts you recite each day; tick them off as you go.')}</Text>
+          <Text style={{ color: theme.textMuted, fontSize: 14 }}>{tr('Pick the texts you recite each day; tick them off as you go.')}</Text>
         </View>
-        <MaterialCommunityIcons name="chevron-right" size={20} color={theme.textMuted} />
+        <MaterialCommunityIcons name="chevron-right" size={22} color={theme.textMuted} />
       </Pressable>
     );
   }
@@ -49,10 +49,10 @@ export function RoutineCard({ compact }: { compact?: boolean }) {
         accessibilityRole="button"
       >
         <View style={{ flexDirection: 'row', alignItems: 'center' }}>
-          <Text style={{ color: theme.textMuted, fontSize: 13.5, fontWeight: '700', letterSpacing: 0.8, flex: 1 }}>
+          <Text style={{ color: theme.textMuted, fontSize: 13, fontWeight: '700', letterSpacing: 0.8, flex: 1 }}>
             {tr('Today’s routine · {done}/{total}', { done: finished, total: items.length }).toUpperCase()}
           </Text>
-          {finished === items.length && <MaterialCommunityIcons name="check-circle" size={20} color={theme.success} />}
+          {finished === items.length && <MaterialCommunityIcons name="check-circle" size={22} color={theme.success} />}
         </View>
         <View style={[s.bar, { backgroundColor: theme.accentSoft }]}>
           <View style={{ width: `${(finished / items.length) * 100}%`, height: '100%', backgroundColor: theme.accent }} />
@@ -80,11 +80,11 @@ export function RoutineCard({ compact }: { compact?: boolean }) {
               <MaterialCommunityIcons name={ok ? 'check-circle' : 'circle-outline'} size={26} color={ok ? theme.success : theme.textMuted} />
             </Pressable>
             <Pressable onPress={() => router.push(`/mantra/${m.id}` as Href)} style={{ flex: 1 }} accessibilityRole="link">
-              <Text style={{ color: ok ? theme.textMuted : theme.text, fontSize: 17, fontFamily: fontOf(m), textDecorationLine: ok ? 'line-through' : 'none' }} numberOfLines={1}>
+              <Text style={{ color: ok ? theme.textMuted : theme.text, fontSize: 18, fontFamily: fontOf(m), textDecorationLine: ok ? 'line-through' : 'none' }} numberOfLines={1}>
                 {nameOf(m, settings.script)}
               </Text>
               {showEn && (
-                <Text style={{ color: theme.textMuted, fontSize: 13.5 }} numberOfLines={1}>
+                <Text style={{ color: theme.textMuted, fontSize: 13 }} numberOfLines={1}>
                   {m.titleEn}
                 </Text>
               )}

@@ -25,13 +25,13 @@ export default function CollectionScreen() {
   return (
     <ScrollView style={{ backgroundColor: theme.bg }} contentContainerStyle={{ paddingBottom: 32 }}>
       <Stack.Screen options={{ title: lang === 'en' ? c.titleEn : nameOf(c, settings.script) }} />
-      <View style={{ alignItems: 'center', padding: 20, margin: 16, borderRadius: 14, borderWidth: 1, borderColor: theme.pageEdge, backgroundColor: theme.page }}>
+      <View style={{ alignItems: 'center', padding: 20, margin: 16, borderRadius: 16, borderWidth: 1, borderColor: theme.pageEdge, backgroundColor: theme.page }}>
         <Text style={{ color: theme.ornament, fontSize: 16 }}>❁</Text>
         <Text style={{ color: theme.accent, fontSize: 26, fontFamily: font, textAlign: 'center', marginTop: 4 }}>{nameOf(c, settings.script)}</Text>
         {lang === 'en' && <Text style={{ color: theme.textMuted, fontSize: 14, textAlign: 'center', marginTop: 6, lineHeight: 20 }}>{c.when}</Text>}
         <Pressable
           onPress={() => items[0] && router.push(`/mantra/${items[0].id}` as Href)}
-          style={({ pressed }) => ({ marginTop: 14, paddingHorizontal: 22, paddingVertical: 11, borderRadius: 22, backgroundColor: theme.accent, opacity: pressed ? 0.8 : 1 })}
+          style={({ pressed }) => ({ marginTop: 14, paddingHorizontal: 22, paddingVertical: 11, borderRadius: 20, backgroundColor: theme.accent, opacity: pressed ? 0.8 : 1 })}
           accessibilityRole="button"
         >
           <Text style={{ color: theme.onAccent, fontSize: 16, fontWeight: '700' }}>{tr('Begin')}</Text>
@@ -47,16 +47,16 @@ export default function CollectionScreen() {
           >
             <Text style={{ color: theme.textMuted, width: 22, textAlign: 'right' }}>{i + 1}</Text>
             <View style={{ flex: 1 }}>
-              <Text style={{ color: theme.text, fontSize: 17, fontFamily: scriptFont(scriptFor(m, settings.script), settings.bookFonts) }} numberOfLines={1}>
+              <Text style={{ color: theme.text, fontSize: 18, fontFamily: scriptFont(scriptFor(m, settings.script), settings.bookFonts) }} numberOfLines={1}>
                 {nameOf(m, settings.script)}
               </Text>
               {showEn && (
-                <Text style={{ color: theme.textMuted, fontSize: 13.5 }} numberOfLines={1}>
+                <Text style={{ color: theme.textMuted, fontSize: 13 }} numberOfLines={1}>
                   {m.titleEn}
                 </Text>
               )}
             </View>
-            <MaterialCommunityIcons name="chevron-right" size={20} color={theme.textMuted} />
+            <MaterialCommunityIcons name="chevron-right" size={22} color={theme.textMuted} />
           </Pressable>
         ))}
       </View>
@@ -66,7 +66,7 @@ export default function CollectionScreen() {
         style={{ alignSelf: 'center', marginTop: 18, padding: 8 }}
         accessibilityRole="button"
       >
-        <Text style={{ color: theme.accent, fontSize: 15 }}>{allInRoutine ? tr('Remove these from my daily routine') : tr('＋ Add all to my daily routine')}</Text>
+        <Text style={{ color: theme.accent, fontSize: 16 }}>{allInRoutine ? tr('Remove these from my daily routine') : tr('＋ Add all to my daily routine')}</Text>
       </Pressable>
     </ScrollView>
   );

@@ -27,13 +27,13 @@ export function CityPicker({ visible, onClose }: { visible: boolean; onClose: ()
     <Modal visible={visible} animationType="slide" presentationStyle="pageSheet" onRequestClose={onClose}>
       <View style={{ flex: 1, backgroundColor: theme.bg, paddingTop: top + 12 }}>
         <View style={{ flexDirection: 'row', alignItems: 'center', marginHorizontal: 16, gap: 10 }}>
-          <Text style={{ flex: 1, color: theme.text, fontSize: 20, fontWeight: '700' }}>{tr('Choose your place')}</Text>
+          <Text style={{ flex: 1, color: theme.text, fontSize: 21, fontWeight: '700' }}>{tr('Choose your place')}</Text>
           <Pressable onPress={onClose} accessibilityRole="button" accessibilityLabel={tr('Close')} hitSlop={10}>
-            <MaterialCommunityIcons name="close" size={28} color={theme.textMuted} />
+            <MaterialCommunityIcons name="close" size={26} color={theme.textMuted} />
           </Pressable>
         </View>
         <View style={{ flexDirection: 'row', alignItems: 'center', margin: 16, paddingHorizontal: 12, borderRadius: 12, borderWidth: 1, borderColor: theme.cardBorder, backgroundColor: theme.card }}>
-          <MaterialCommunityIcons name="magnify" size={20} color={theme.textMuted} />
+          <MaterialCommunityIcons name="magnify" size={22} color={theme.textMuted} />
           <TextInput
             value={q}
             onChangeText={setQ}
@@ -45,7 +45,7 @@ export function CityPicker({ visible, onClose }: { visible: boolean; onClose: ()
             accessibilityLabel={tr('Search city')}
           />
         </View>
-        {!q && <Text style={{ color: theme.textMuted, fontSize: 14.5, marginHorizontal: 16, marginBottom: 6 }}>{tr('Popular · type to search about 3,800 places')}</Text>}
+        {!q && <Text style={{ color: theme.textMuted, fontSize: 14, marginHorizontal: 16, marginBottom: 6 }}>{tr('Popular · type to search about 3,800 places')}</Text>}
         <FlatList
           data={results}
           keyExtractor={(c) => c.id}
@@ -60,7 +60,7 @@ export function CityPicker({ visible, onClose }: { visible: boolean; onClose: ()
             >
               <View style={{ flex: 1 }}>
                 <Text style={{ color: theme.text, fontSize: 16 }}>{item.name}</Text>
-                {item.state ? <Text style={{ color: theme.textMuted, fontSize: 14.5 }}>{item.state}</Text> : null}
+                {item.state ? <Text style={{ color: theme.textMuted, fontSize: 14 }}>{item.state}</Text> : null}
               </View>
               {item.id === settings.city && <MaterialCommunityIcons name="check" size={22} color={theme.accent} />}
             </Pressable>
@@ -81,8 +81,8 @@ export function CalendarOptionsSheet({ visible, onClose }: { visible: boolean; o
   const [mode, setMode] = useCalendarMode();
   const [start, setStart] = useSauraStart();
   const [method, setMethod] = useCalcMethod();
-  const label = { color: theme.text, fontSize: 15, fontWeight: '700' as const, marginTop: 18, marginBottom: 8 };
-  const hint = { color: theme.textMuted, fontSize: 14.5, marginTop: 6, lineHeight: 18 };
+  const label = { color: theme.text, fontSize: 16, fontWeight: '700' as const, marginTop: 18, marginBottom: 8 };
+  const hint = { color: theme.textMuted, fontSize: 14, marginTop: 6, lineHeight: 18 };
   return (
     <Modal visible={visible} transparent animationType="slide" onRequestClose={onClose}>
       <Pressable style={{ flex: 1, backgroundColor: '#0006' }} onPress={onClose} accessibilityLabel={tr('Close options')} />
@@ -90,7 +90,7 @@ export function CalendarOptionsSheet({ visible, onClose }: { visible: boolean; o
       <View style={{ maxHeight: '88%', backgroundColor: theme.bg, borderTopLeftRadius: 18, borderTopRightRadius: 18 }}>
         <View style={{ alignSelf: 'center', width: 40, height: 4, borderRadius: 2, backgroundColor: theme.cardBorder, marginTop: 8 }} />
         <View style={{ flexDirection: 'row', alignItems: 'center', marginTop: 10, paddingHorizontal: 16 }}>
-          <Text style={{ flex: 1, color: theme.text, fontSize: 19, fontWeight: '700' }}>{tr('Calendar options')}</Text>
+          <Text style={{ flex: 1, color: theme.text, fontSize: 18, fontWeight: '700' }}>{tr('Calendar options')}</Text>
           <Pressable onPress={onClose} accessibilityRole="button" accessibilityLabel={tr('Done')} hitSlop={10}>
             <Text style={{ color: theme.accent, fontSize: 16, fontWeight: '700' }}>{tr('Done')}</Text>
           </Pressable>
@@ -144,18 +144,20 @@ export function CalendarBar({ trailing }: { trailing?: React.ReactNode }) {
   });
   return (
     <View style={{ flexDirection: 'row', alignItems: 'center', gap: 8, marginHorizontal: 16, marginTop: 10 }}>
-      <Pressable onPress={() => setPicker(true)} style={(st) => [pill(st), { flexShrink: 1, maxWidth: '42%' }]} accessibilityRole="button" accessibilityLabel={tr('Place: {place}. Change', { place: cityLabel(city) })}>
-        <MaterialCommunityIcons name="map-marker-outline" size={17} color={theme.accent} />
+      <Pressable onPress={() => setPicker(true)} style={(st) => [pill(st), { flexShrink: 1 }]} accessibilityRole="button" accessibilityLabel={tr('Place: {place}. Change', { place: cityLabel(city) })}>
+        <MaterialCommunityIcons name="map-marker-outline" size={18} color={theme.accent} />
         <Text numberOfLines={1} style={{ color: theme.text, fontSize: 14, flexShrink: 1 }}>{city.name}</Text>
-        <MaterialCommunityIcons name="chevron-down" size={15} color={theme.textMuted} />
+        <MaterialCommunityIcons name="chevron-down" size={18} color={theme.textMuted} />
       </Pressable>
-      <Pressable onPress={() => setSheet(true)} style={(st) => [pill(st), { flexShrink: 1 }]} accessibilityRole="button" accessibilityLabel={tr('Calendar options')}>
-        <MaterialCommunityIcons name="tune-variant" size={17} color={theme.accent} />
-        <Text numberOfLines={1} style={{ color: theme.text, fontSize: 14, flexShrink: 1 }}>
-          {rule === 'madhva' ? tr('Madhva') : tr('Smarta')} · {mode === 'saura' ? tr('Solar') : tr('Lunar')}
-          {method === 'surya' ? ` · ${tr('SS')}` : ''}
-        </Text>
-        <MaterialCommunityIcons name="chevron-down" size={15} color={theme.textMuted} />
+      {/* Tradition, months and method live in the options sheet; the button is an icon like its neighbours. */}
+      <Pressable
+        onPress={() => setSheet(true)}
+        hitSlop={8}
+        style={({ pressed }) => ({ padding: 8, borderRadius: 18, borderWidth: 1, borderColor: theme.cardBorder, backgroundColor: theme.card, opacity: pressed ? 0.6 : 1 })}
+        accessibilityRole="button"
+        accessibilityLabel={`${tr('Calendar options')}: ${rule === 'madhva' ? tr('Madhva') : tr('Smarta')} · ${mode === 'saura' ? tr('Solar') : tr('Lunar')}${method === 'surya' ? ` · ${tr('SS')}` : ''}`}
+      >
+        <MaterialCommunityIcons name="tune-variant" size={18} color={theme.accent} />
       </Pressable>
       <View style={{ flex: 1 }} />
       {trailing}

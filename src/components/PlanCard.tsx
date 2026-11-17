@@ -67,8 +67,8 @@ export function PlanCard({ plan, compact }: { plan: Plan; compact?: boolean }) {
 
   return (
     <View style={{ marginHorizontal: 16, marginBottom: 12, padding: 14, borderRadius: 16, borderWidth: 1, borderColor: theme.cardBorder, backgroundColor: theme.card }}>
-      <Text style={{ color: theme.text, fontSize: 17, fontWeight: '700' }}>{name}</Text>
-      <Text style={{ color: theme.textMuted, fontSize: 14.5, marginTop: 2 }}>
+      <Text style={{ color: theme.text, fontSize: 18, fontWeight: '700' }}>{name}</Text>
+      <Text style={{ color: theme.textMuted, fontSize: 14, marginTop: 2 }}>
         {st.finished ? tr('Completed 🙏') : tr('Day {day} of {days} · {pct}%', { day: st.day + 1, days: plan.days, pct })}
         {plan.kind === 'vow' && plan.perDay > 1 ? ` · ${tr('{n}× a day', { n: plan.perDay })}` : ''}
       </Text>
@@ -78,7 +78,7 @@ export function PlanCard({ plan, compact }: { plan: Plan; compact?: boolean }) {
 
       {!st.finished && plan.kind === 'readthrough' && (
         <>
-          <Text style={{ color: theme.textMuted, fontSize: 14.5, marginTop: 10, fontWeight: '600' }}>
+          <Text style={{ color: theme.textMuted, fontSize: 14, marginTop: 10, fontWeight: '600' }}>
             {st.todayItems.length ? tr('Today') : tr('Today’s reading done ✓')}
             {st.behind ? ` · ${tr('{n} pending from earlier days', { n: st.behind })}` : ''}
           </Text>
@@ -88,7 +88,7 @@ export function PlanCard({ plan, compact }: { plan: Plan; compact?: boolean }) {
             return (
               <Pressable key={id} onPress={() => router.push(`/mantra/${id}` as Href)} style={{ paddingVertical: 6 }}>
                 <Text style={{ color: theme.accent, fontSize: 16 }}>
-                  {nameOf(m, settings.script)} {showEn && <Text style={{ color: theme.textMuted, fontSize: 14.5 }}>· {m.titleEn}</Text>}
+                  {nameOf(m, settings.script)} {showEn && <Text style={{ color: theme.textMuted, fontSize: 14 }}>· {m.titleEn}</Text>}
                 </Text>
               </Pressable>
             );
@@ -130,7 +130,7 @@ export function PlanCard({ plan, compact }: { plan: Plan; compact?: boolean }) {
             }}
             style={{ marginTop: 14, alignSelf: 'flex-start' }}
           >
-            <Text style={{ color: theme.textMuted, fontSize: 14.5 }}>{tr('Remove plan')}</Text>
+            <Text style={{ color: theme.textMuted, fontSize: 14 }}>{tr('Remove plan')}</Text>
           </Pressable>
         </>
       )}

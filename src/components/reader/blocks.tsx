@@ -57,7 +57,7 @@ export function IntroBlock({ book }: { book?: boolean }) {
       <Text
         style={{
           color: theme.accent,
-          fontSize: 30 * scale,
+          fontSize: 28 * scale,
           lineHeight: 30 * scale * leading(titleScript, settings.bookFonts),
           fontFamily: titleFont,
           fontWeight: titleFont ? undefined : '700',
@@ -71,7 +71,7 @@ export function IntroBlock({ book }: { book?: boolean }) {
           {mantra.titleEn}
         </Text>
       )}
-      <Text style={{ color: theme.textMuted, fontSize: 14.5, marginTop: 4, textAlign: book ? 'center' : 'left' }} numberOfLines={3}>
+      <Text style={{ color: theme.textMuted, fontSize: 14, marginTop: 4, textAlign: book ? 'center' : 'left' }} numberOfLines={3}>
         {plain(
           [category && (lang === 'en' ? category.titleEn : categoryTitle(category, script)), ...(lang === 'en' ? [mantra.deity, mantra.source] : [])]
             .filter(Boolean)
@@ -83,7 +83,7 @@ export function IntroBlock({ book }: { book?: boolean }) {
       <View style={{ alignSelf: 'stretch' }}>
         {mantra.variants?.map((v) => (
           <View key={v.key} style={[b.variantBox, { borderColor: theme.cardBorder, backgroundColor: theme.card }]}>
-            <Text style={{ color: theme.textMuted, fontSize: 14.5, fontWeight: '700', marginBottom: 6 }}>
+            <Text style={{ color: theme.textMuted, fontSize: 14, fontWeight: '700', marginBottom: 6 }}>
               {preferKn && v.titleKn ? v.titleKn : v.title}
             </Text>
             <View style={{ flexDirection: 'row', flexWrap: 'wrap', gap: 8 }}>
@@ -102,7 +102,7 @@ export function IntroBlock({ book }: { book?: boolean }) {
       <Text
         style={{
           color: theme.textMuted,
-          fontSize: 15,
+          fontSize: 16,
           marginTop: book ? 0 : 10,
           lineHeight: summary.lang === 'en' ? 22 : 25,
           fontFamily: summary.lang === 'en' ? (settings.bookFonts ? 'BookSerif' : undefined) : meaningFont(summary.lang, settings.bookFonts),
@@ -116,7 +116,7 @@ export function IntroBlock({ book }: { book?: boolean }) {
         {(mantra.category === 'sandhya' || mantra.category === 'puja') && <SankalpaCard />}
         {mantra.contentNote && (
           <View style={[b.notice, { backgroundColor: theme.warningBg }]}>
-            <MaterialCommunityIcons name="information-outline" size={20} color={theme.warningText} />
+            <MaterialCommunityIcons name="information-outline" size={22} color={theme.warningText} />
             <Text style={{ color: theme.warningText, flex: 1, fontSize: 14, lineHeight: 20 }}>
               {translitInline(mantra.contentNote, script)}
             </Text>
@@ -139,12 +139,12 @@ export function SectionBlock({ section, book }: { section: Section; book?: boole
     <View style={[b.section, { borderColor: theme.cardBorder }, book && { borderTopWidth: 0, alignItems: 'center' }]}>
       {book && <Ornament small />}
       {section.title && (
-        <Text style={{ color: theme.accent, fontSize: 22 * scale, lineHeight: 22 * scale * leading(script, settings.bookFonts), fontFamily: font, fontWeight: font ? undefined : '700', textAlign: align }}>
+        <Text style={{ color: theme.accent, fontSize: 21 * scale, lineHeight: 22 * scale * leading(script, settings.bookFonts), fontFamily: font, fontWeight: font ? undefined : '700', textAlign: align }}>
           {translitTitle(section.title, script)}
         </Text>
       )}
       {section.titleEn && showEn && (
-        <Text style={{ color: theme.textMuted, fontSize: 14.5, fontWeight: '600', textTransform: 'uppercase', letterSpacing: 1, textAlign: align }}>
+        <Text style={{ color: theme.textMuted, fontSize: 14, fontWeight: '600', textTransform: 'uppercase', letterSpacing: 1, textAlign: align }}>
           {section.titleEn}
         </Text>
       )}
@@ -172,7 +172,7 @@ function SectionNote({ section, align }: { section: Section; align: 'center' | '
       </Text>
       {long && (
         <Pressable onPress={() => setOpen(!open)} hitSlop={8} accessibilityRole="button" style={{ alignSelf: long ? 'flex-start' : 'center', marginTop: 2 }}>
-          <Text style={{ color: theme.accent, fontSize: 14.5, fontWeight: kn ? undefined : '600', fontFamily: kn ? meaningFont('kn', settings.bookFonts) : undefined }}>{open ? tr('Less ▴') : kn ? 'ಇನ್ನಷ್ಟು · More ▾' : tr('More ▾')}</Text>
+          <Text style={{ color: theme.accent, fontSize: 14, fontWeight: kn ? undefined : '600', fontFamily: kn ? meaningFont('kn', settings.bookFonts) : undefined }}>{open ? tr('Less ▴') : kn ? 'ಇನ್ನಷ್ಟು · More ▾' : tr('More ▾')}</Text>
         </Pressable>
       )}
     </View>
@@ -221,7 +221,7 @@ export function VerseBlock({ verse, rowKey, book }: { verse: Verse; rowKey: stri
           {Array.from({ length: hiddenCount }, (_, i) => (
             <View key={i} style={[b.practiceBar, { backgroundColor: theme.accentSoft, height: lh * 0.55, marginVertical: lh * 0.225 }]} />
           ))}
-          <Text style={{ color: theme.accent, fontSize: 13.5, marginTop: 2 }}>{tr('Tap to reveal the next line')}</Text>
+          <Text style={{ color: theme.accent, fontSize: 13, marginTop: 2 }}>{tr('Tap to reveal the next line')}</Text>
         </Pressable>
       )}
       {second && (
@@ -238,7 +238,7 @@ export function VerseBlock({ verse, rowKey, book }: { verse: Verse; rowKey: stri
             accessibilityState={{ expanded: isOpen }}
             style={[b.meaningToggle, { borderColor: theme.cardBorder, backgroundColor: isOpen ? theme.accentSoft : 'transparent' }]}
           >
-            <Text style={{ color: theme.accent, fontSize: 14.5, fontWeight: pLang === 'en' ? '600' : undefined, fontFamily: pLang === 'en' ? undefined : meaningFont(pLang, settings.bookFonts) }}>
+            <Text style={{ color: theme.accent, fontSize: 14, fontWeight: pLang === 'en' ? '600' : undefined, fontFamily: pLang === 'en' ? undefined : meaningFont(pLang, settings.bookFonts) }}>
               {label} {isOpen ? '▴' : '▾'}
             </Text>
           </Pressable>
@@ -250,7 +250,7 @@ export function VerseBlock({ verse, rowKey, book }: { verse: Verse; rowKey: stri
           <MaterialCommunityIcons name="share-variant-outline" size={18} color={theme.textMuted} />
         </Pressable>
         <Pressable hitSlop={8} onPress={() => reportCorrection(mantra, verse, rowKey)} accessibilityLabel={tr('Report a correction')} style={b.iconBtn}>
-          <MaterialCommunityIcons name="flag-outline" size={17} color={theme.textMuted} />
+          <MaterialCommunityIcons name="flag-outline" size={18} color={theme.textMuted} />
         </Pressable>
       </View>
       {showMeaning &&
@@ -287,10 +287,10 @@ export function PlanControls({ mantraId }: { mantraId: string }) {
   const isRead = reading.some((p) => p.read.includes(mantraId));
   return (
     <View style={[b.planBox, { borderColor: theme.cardBorder, backgroundColor: theme.card }]}>
-      <Text style={{ color: theme.textMuted, fontSize: 13.5, fontWeight: '700', letterSpacing: 0.8 }}>{tr('PARAYANA')}</Text>
+      <Text style={{ color: theme.textMuted, fontSize: 13, fontWeight: '700', letterSpacing: 0.8 }}>{tr('PARAYANA')}</Text>
       {reading.length > 0 && (
         <Pressable onPress={() => markPlanItemRead(mantraId, !isRead)} style={[b.planButton, { backgroundColor: isRead ? theme.accentSoft : theme.accent }]}>
-          <Text style={{ color: isRead ? theme.accent : theme.onAccent, fontWeight: '700', fontSize: 15 }}>
+          <Text style={{ color: isRead ? theme.accent : theme.onAccent, fontWeight: '700', fontSize: 16 }}>
             {isRead ? tr('✓ Read') : tr('Mark as read')}
           </Text>
         </Pressable>
@@ -338,7 +338,7 @@ export function SeriesNav({ mantra }: { mantra: Mantra }) {
       onPress={() => router.replace(`/mantra/${m.id}` as Href)}
       style={({ pressed }) => [b.navButton, { borderColor: theme.cardBorder, backgroundColor: theme.card, alignItems: align, opacity: pressed ? 0.7 : 1 }]}
     >
-      <Text style={{ color: theme.textMuted, fontSize: 13.5, fontWeight: '600' }}>{label}</Text>
+      <Text style={{ color: theme.textMuted, fontSize: 13, fontWeight: '600' }}>{label}</Text>
       <Text style={{ color: theme.accent, fontSize: 16, fontFamily: scriptFont(scriptFor(m, settings.script), settings.bookFonts) }} numberOfLines={1}>
         {nameOf(m, settings.script)}
       </Text>
@@ -379,12 +379,12 @@ function RoutineControl({ mantraId }: { mantraId: string }) {
         accessibilityState={{ checked: done }}
         style={{ flexDirection: 'row', alignItems: 'center', gap: 10 }}
       >
-        <MaterialCommunityIcons name={done ? 'check-circle' : 'circle-outline'} size={24} color={done ? theme.accent : theme.textMuted} />
+        <MaterialCommunityIcons name={done ? 'check-circle' : 'circle-outline'} size={26} color={done ? theme.accent : theme.textMuted} />
         <Text style={{ color: theme.text, fontSize: 16, fontWeight: '600', flex: 1 }}>{done ? tr('Done for today') : tr('Mark done for today')}</Text>
       </Pressable>
       {done && next && nextMantra && (
         <Pressable onPress={() => router.replace(`/mantra/${next}` as Href)} style={[b.planButton, { backgroundColor: theme.accent }]} accessibilityRole="button">
-          <Text style={{ color: theme.onAccent, fontSize: 15, fontWeight: '700' }}>{tr('Next in routine: {title} ›', { title: nextMantra })}</Text>
+          <Text style={{ color: theme.onAccent, fontSize: 16, fontWeight: '700' }}>{tr('Next in routine: {title} ›', { title: nextMantra })}</Text>
         </Pressable>
       )}
     </View>
@@ -406,8 +406,8 @@ export function EndMatter() {
       {(mantra.category === 'nitya' || mantra.id.endsWith('-mantra')) && (
         <Pressable onPress={() => router.push(`/japa?mantra=${mantra.id}` as Href)} style={[b.planBox, { borderColor: theme.cardBorder, backgroundColor: theme.card, flexDirection: 'row', alignItems: 'center', gap: 10 }]}>
           <MaterialCommunityIcons name="dots-circle" size={22} color={theme.accent} />
-          <Text style={{ color: theme.accent, fontSize: 15, fontWeight: '600', flex: 1 }}>{tr('Count japa')}</Text>
-          <MaterialCommunityIcons name="chevron-right" size={20} color={theme.textMuted} />
+          <Text style={{ color: theme.accent, fontSize: 16, fontWeight: '600', flex: 1 }}>{tr('Count japa')}</Text>
+          <MaterialCommunityIcons name="chevron-right" size={22} color={theme.textMuted} />
         </Pressable>
       )}
       <SeriesNav mantra={mantra} />
