@@ -5,13 +5,15 @@ import { leading, scriptFont } from '../../lib/fonts';
 import { scriptFor } from '../../data';
 import { useI18n } from '../../lib/i18n';
 import { useSettings } from '../../lib/settings';
-import { translit, type ScriptId, isRoman, nameOf } from '../../lib/transliterate';
+import { translit, translitTitle, type ScriptId, isRoman, nameOf } from '../../lib/transliterate';
 import { EndMatter, IntroBlock, SectionBlock, VerseBlock } from './blocks';
 import { useReader } from './context';
-import { devDigits, type Row } from './rows';
+import { type Row } from './rows';
 
 interface Page {
   rows: Row[];
+  /** Height the rows take, to spread a nearly full page's leftover space between its verses. */
+  used: number;
 }
 
 /** Indic combining marks (vowel signs, virama, anusvara…) don't take their own width. */
@@ -29,6 +31,8 @@ function clusters(s: string): number {
 }
 
 interface Metrics {
+  /** Real heights of rows, measured off screen; the estimate is used until they arrive. */
+  heights?: Record<string, number>;
   width: number;
   script: ScriptId;
   second: ScriptId | null;
@@ -38,6 +42,8 @@ interface Metrics {
 
 /** Rough height of a row in px, used only to pack rows into pages. */
 function estimate(row: Row, m: Metrics): number {
+  const measured = m.heights?.[row.key];
+  if (measured !== undefined) return measured;
   const contentWidth = m.width - 56;
   if (row.kind === 'intro' || row.kind === 'end') return Infinity; // own page
   if (row.kind === 'section') {
@@ -53,7 +59,7 @@ function estimate(row: Row, m: Metrics): number {
   const perLine = Math.max(8, contentWidth / (fs * (isRoman(m.script) ? 0.5 : 0.62)));
   const text = translit(row.verse.text, m.script);
   const lines = text.split('\n').reduce((acc, l) => acc + Math.max(1, Math.ceil(clusters(l) / perLine)), 0);
-  let h = lines * lh + 24 + 34;
+  let h = lines * lh + 20 + 30; // padding, then the Meaning / bookmark / share row
   if (m.second) {
     const sfs = 16 * m.scale;
     const sl = translit(row.verse.text, m.second).split('\n').reduce((acc, l) => acc + Math.max(1, Math.ceil(clusters(l) / (contentWidth / (sfs * 0.6)))), 0);
@@ -67,7 +73,7 @@ function paginate(rows: Row[], pageHeight: number, m: Metrics): Page[] {
   let cur: Row[] = [];
   let used = 0;
   const flush = () => {
-    if (cur.length) pages.push({ rows: cur });
+    if (cur.length) pages.push({ rows: cur, used });
     cur = [];
     used = 0;
   };
@@ -75,7 +81,7 @@ function paginate(rows: Row[], pageHeight: number, m: Metrics): Page[] {
     const h = estimate(row, m);
     if (h === Infinity) {
       flush();
-      pages.push({ rows: [row] });
+      pages.push({ rows: [row], used: 0 });
       return;
     }
     if (used + h > pageHeight && cur.length) {
@@ -83,6 +89,7 @@ function paginate(rows: Row[], pageHeight: number, m: Metrics): Page[] {
       const last = cur[cur.length - 1];
       if (last.kind === 'section') {
         cur.pop();
+        used -= estimate(last, m);
         flush();
         cur = [last];
         used = estimate(last, m);
@@ -122,10 +129,27 @@ export function BookReader({
   const script = scriptFor(mantra, settings.script);
   const second = mantra.sourceScript !== 'tamil' && settings.secondaryScript && settings.secondaryScript !== script ? settings.secondaryScript : null;
 
-  const pageContent = Math.max(200, height - 36 - 30 - 20);
+  // Room for verses: the page less its padding, and less the running head when the text has
+  // titled sections (pages show their section's name at the top).
+  const hasHeads = mantra.sections.some((x) => !!x.title);
+  const pageContent = Math.max(200, height - (hasHeads ? 44 : 0) - 32);
+
+  // Rows are first laid out once, invisibly, at the page's width so pages are filled by their
+  // real heights (fonts and line breaks differ between phones); an estimate is used meanwhile.
+  const sig = [mantra.id, rows.length, width, script, second, settings.fontScale, settings.bookFonts, settings.alwaysShowMeanings, settings.meaningLang].join('|');
+  const [measured, setMeasured] = useState<{ sig: string; h: Record<string, number> } | null>(null);
+  const pending = useRef<{ sig: string; h: Record<string, number> }>({ sig: '', h: {} });
+  const toMeasure = rows.filter((r) => r.kind === 'verse' || r.kind === 'section');
+  const onMeasure = (key: string, h: number) => {
+    if (pending.current.sig !== sig) pending.current = { sig, h: {} };
+    pending.current.h[key] = h;
+    if (Object.keys(pending.current.h).length === toMeasure.length) setMeasured({ sig, h: { ...pending.current.h } });
+  };
+  const heights = measured?.sig === sig ? measured.h : undefined;
+
   const pages = useMemo(
-    () => (height ? paginate(rows, pageContent, { width, script, second, scale: settings.fontScale, bookFonts: settings.bookFonts }) : []),
-    [rows, height, pageContent, width, script, second, settings.fontScale, settings.bookFonts],
+    () => (height ? paginate(rows, pageContent, { heights, width, script, second, scale: settings.fontScale, bookFonts: settings.bookFonts }) : []),
+    [rows, height, pageContent, heights, width, script, second, settings.fontScale, settings.bookFonts],
   );
   const pageOf = useCallback((key: string) => Math.max(0, pages.findIndex((p) => p.rows.some((r) => r.key === key))), [pages]);
   const startPage = initialKey ? pageOf(initialKey) : 0;
@@ -180,12 +204,29 @@ export function BookReader({
     if (firstVerse) onPositionRef.current(firstVerse.key);
   }, []);
 
-  const runningHead = nameOf(mantra, script);
+  // Running head: the chapter or section this page is in. Not the work's own name (the screen
+  // title already shows it), and not on a page that opens with its section's own heading.
+  const runningHead = (p: Page) => {
+    const first = p.rows[0];
+    if (!first || first.kind !== 'verse') return null;
+    const title = mantra.sections[first.si]?.title;
+    if (!title) return null;
+    const t = translitTitle(title, script);
+    return t === nameOf(mantra, script) ? null : t;
+  };
   const font = scriptFont(script, settings.bookFonts);
-  const pageNo = (n: number) => (isRoman(script) || script === 'tamil' ? String(n) : translit(devDigits(n), script));
 
   return (
     <View style={{ flex: 1, backgroundColor: theme.bg }} onLayout={(e) => setHeight(e.nativeEvent.layout.height - 52)}>
+      {!heights && height > 0 && (
+        <View pointerEvents="none" importantForAccessibility="no-hide-descendants" accessibilityElementsHidden style={[s.measure, { width: width - 30 }]}>
+          {toMeasure.map((row) => (
+            <View key={row.key} onLayout={(e) => onMeasure(row.key, e.nativeEvent.layout.height)}>
+              {row.kind === 'section' ? <SectionBlock section={row.section} book /> : <VerseBlock verse={row.verse} rowKey={row.key} book />}
+            </View>
+          ))}
+        </View>
+      )}
       {pages.length > 0 && (
         <FlatList
           ref={listRef}
@@ -202,15 +243,17 @@ export function BookReader({
           extraData={[opened, highlight, practice, revealed, settings, pinching]}
           windowSize={5}
           initialNumToRender={2}
-          renderItem={({ item, index }) => (
+          renderItem={({ item }) => (
             <View style={{ width, height: height || undefined, padding: 8 }}>
               <View style={[s.page, { backgroundColor: theme.page, borderColor: theme.pageEdge }]}>
-                {item.rows[0]?.kind !== 'intro' && (
+                {runningHead(item) && (
                   <Text numberOfLines={1} style={[s.runningHead, { color: theme.textMuted, borderColor: theme.pageEdge, fontFamily: font }]}>
-                    {runningHead}
+                    {runningHead(item)}
                   </Text>
                 )}
-                <ScrollView contentContainerStyle={{ paddingVertical: 6 }} showsVerticalScrollIndicator scrollEnabled={!pinching}>
+                <ScrollView
+                  // A nearly full page shares out its leftover space so it ends level, like a set page.
+                  contentContainerStyle={[{ paddingVertical: 6 }, item.used > pageContent * 0.7 && item.used <= pageContent && { flexGrow: 1, justifyContent: 'space-around' }]} showsVerticalScrollIndicator scrollEnabled={!pinching}>
                   {item.rows.map((row) => {
                     switch (row.kind) {
                       case 'intro':
@@ -224,7 +267,6 @@ export function BookReader({
                     }
                   })}
                 </ScrollView>
-                <Text style={[s.folio, { color: theme.ornament, fontFamily: font }]}>— {pageNo(index + 1)} —</Text>
               </View>
             </View>
           )}
@@ -265,8 +307,8 @@ const s = StyleSheet.create({
     shadowOffset: { width: 0, height: 2 },
     elevation: 2,
   },
+  measure: { position: 'absolute', top: 0, left: 0, opacity: 0 },
   runningHead: { textAlign: 'center', fontSize: 14, paddingVertical: 8, marginHorizontal: 20, borderBottomWidth: StyleSheet.hairlineWidth },
-  folio: { textAlign: 'center', fontSize: 14, paddingVertical: 6 },
   bar: { height: 52, flexDirection: 'row', alignItems: 'center', paddingHorizontal: 12, borderTopWidth: StyleSheet.hairlineWidth },
   track: { height: 4, borderRadius: 2, overflow: 'hidden' },
 });

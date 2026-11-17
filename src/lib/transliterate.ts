@@ -198,15 +198,16 @@ export function translitInline(text: string, script: ScriptId): string {
 
 /** Keep dandas on the same line as the preceding word. */
 export function bindDandas(text: string): string {
-  return text.replace(/ (?=[।॥|])/g, '\u00A0');
+  return text.replace(/ (?=[।॥|‖])/g, '\u00A0');
 }
 
 /** Render a verse number in the chosen script's digits. */
 export function verseNumber(n: number, script: ScriptId): string {
-  // Keep "॥ n ॥" on one line: line-breaking rules allow a break after a danda even
-  // before a no-break space, so add a word joiner (U+2060) after the first danda.
-  const NB = '\u2060\u00A0';
-  if (script === 'iast' || script === 'english') return `||${NB}${n}${NB}||`;
+  // Keep "॥ n ॥" on one line: line breakers (Chrome's among them) can still break next to a
+  // no-break space beside a danda, so put a word joiner (U+2060) on both sides of it.
+  const NB = '\u2060\u00A0\u2060';
+  // Roman text: the double bar ‖ (one character), not "||", which breaks between its bars.
+  if (script === 'iast' || script === 'english') return `‖${NB}${n}${NB}‖`;
   if (script === 'tamil') return `॥${NB}${n}${NB}॥`;
   const dev = String(n).replace(/[0-9]/g, (d) => DEV_DIGITS[Number(d)]);
   return `॥${NB}${translit(dev, script)}${NB}॥`;
