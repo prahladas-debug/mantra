@@ -84,6 +84,18 @@ export function DisplayPanel({
           </View>
           </View>
 
+          <View style={{ marginTop: 10 }}>
+            <Segmented
+              options={[
+                { id: '0.9', label: tr('Compact') },
+                { id: '1', label: tr('Normal') },
+                { id: '1.15', label: tr('Relaxed') },
+              ]}
+              value={String(settings.lineSpacing ?? 1)}
+              onChange={(v) => update({ lineSpacing: Number(v) })}
+            />
+          </View>
+
           {heading(tr('THEME'))}
           <ThemeSwatches />
 

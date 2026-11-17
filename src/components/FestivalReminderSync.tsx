@@ -6,6 +6,7 @@ import { cancelFestivalReminders, scheduleFestivalReminders } from '../lib/festi
 import { cityById } from '../lib/panchanga';
 import { planStatus } from '../lib/plans';
 import { cancelReminder } from '../lib/reminders';
+import { cancelVerseReminders, scheduleVerseReminders } from '../lib/verseReminders';
 import { useI18n } from '../lib/i18n';
 import { useSettings } from '../lib/settings';
 import { useCalcMethod, useCalendarMode, useEkadashiRule, useSauraStart } from './PanchangaCard';
@@ -71,6 +72,20 @@ export function FestivalReminderSync() {
       }
     }
   }, [ready, plans, updatePlan]);
+
+  // Verse of the day: two weeks ahead, renewed each time the app opens.
+  const verse = settings.verseReminder;
+  const verseWas = useRef<boolean | null>(null);
+  useEffect(() => {
+    if (!ready || Platform.OS === 'web') return;
+    const was = verseWas.current;
+    verseWas.current = !!verse?.on;
+    if (!verse?.on) {
+      if (was) cancelVerseReminders();
+      return;
+    }
+    scheduleVerseReminders({ time: verse.time, lang, script, meaningLang: settings.meaningLang, ask: was === false });
+  }, [ready, verse?.on, verse?.time, lang, script, settings.meaningLang]);
 
   useEffect(() => {
     if (Platform.OS === 'web') return;

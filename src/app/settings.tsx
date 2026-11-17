@@ -79,6 +79,8 @@ function Block({ first, label, children }: { first?: boolean; label: string; chi
   );
 }
 
+const MORNING = ['05:30', '06:30', '07:30', '08:30'];
+
 export default function SettingsScreen() {
   const { theme, settings, update } = useSettings();
   const { tr } = useI18n();
@@ -186,6 +188,18 @@ export default function SettingsScreen() {
           {(reminders.ekadashi || reminders.festivals) && (
             <Block label={tr('Remind me at')}>
               <Segmented options={TIMES.map((t) => ({ id: t, label: t }))} value={reminders.time} onChange={(t) => update({ festivalReminders: { ...reminders, time: t } })} />
+            </Block>
+          )}
+          <Row label={tr('Verse of the day, each morning')}>
+            {toggle(!!settings.verseReminder?.on, (v) => update({ verseReminder: { time: settings.verseReminder?.time ?? '06:30', on: v } }))}
+          </Row>
+          {settings.verseReminder?.on && (
+            <Block label={tr('Verse at')}>
+              <Segmented
+                options={MORNING.map((t) => ({ id: t, label: t }))}
+                value={settings.verseReminder.time}
+                onChange={(t) => update({ verseReminder: { on: true, time: t } })}
+              />
             </Block>
           )}
         </Group>

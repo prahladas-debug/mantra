@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useImperativeHandle, useRef, type Ref } from 'react';
-import { FlatList } from 'react-native';
+import { FlatList, Pressable } from 'react-native';
 import { useSettings } from '../../lib/settings';
 import { EndMatter, IntroBlock, SectionBlock, VerseBlock } from './blocks';
 import { useReader } from './context';
@@ -19,7 +19,7 @@ export function ScrollReader({
   ref: Ref<BookHandle>;
 }) {
   const { theme, settings } = useSettings();
-  const { opened, highlight, practice, revealed, pinching } = useReader();
+  const { opened, highlight, practice, revealed, pinching, focus, toggleFocus } = useReader();
   const listRef = useRef<FlatList<Row>>(null);
 
   // Retries for a jump to a row that is not laid out yet. Without a cap, a jump that keeps
@@ -81,12 +81,17 @@ export function ScrollReader({
           case 'section':
             return <SectionBlock section={item.section} />;
           case 'verse':
-            return <VerseBlock verse={item.verse} rowKey={item.key} />;
+            // A tap on a verse (not on its buttons) hides or shows the header, as in the book view.
+            return (
+              <Pressable onPress={toggleFocus} accessible={false}>
+                <VerseBlock verse={item.verse} rowKey={item.key} />
+              </Pressable>
+            );
           case 'end':
             return <EndMatter />;
         }
       }}
-      extraData={[settings, highlight, opened, practice, revealed]}
+      extraData={[settings, highlight, opened, practice, revealed, focus]}
       initialNumToRender={20}
       windowSize={11}
       contentContainerStyle={{ paddingBottom: 48 }}

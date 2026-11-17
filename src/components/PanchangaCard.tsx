@@ -2,7 +2,7 @@ import { MaterialCommunityIcons } from '@expo/vector-icons';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { router, type Href } from 'expo-router';
 import { useCallback, useMemo, useState, useSyncExternalStore } from 'react';
-import { Pressable, Text, View } from 'react-native';
+import { Image, Pressable, Text, View } from 'react-native';
 import { defaultRule, festivalsOn, type CalendarMode, type EkadashiRule, type Festival } from '../lib/festivals';
 import { sauraDay, sauraSankalpa, type SauraStart } from '../lib/sauramana';
 import { addDays, cityById, panchanga, setCalcMethod, todayIn, type CalcMethod } from '../lib/panchanga';
@@ -11,6 +11,7 @@ import { useClockTick, useSettings } from '../lib/settings';
 import { plain } from '../lib/plain';
 import { translit, translitTitle } from '../lib/transliterate';
 import { useI18n } from '../lib/i18n';
+import { scriptFont } from '../lib/fonts';
 import { paranaLabel, paranaNote, paranaTimes } from '../lib/parana';
 
 // ---------- small persisted preferences shared by the pañcāṅga screens ----------
@@ -181,6 +182,46 @@ export function FestivalLine({ f, showDate, showNote, compact }: { f: Festival; 
 }
 
 /** Home card: today's month and tithi, today's festival with its text, and tomorrow's observance. */
+const HERO_GOLD = '#E3C27A';
+/** Deity art for the Home card: the deity of the day (by tithi, else by weekday) on its own colour. */
+const DEITY_ART = {
+  surya: require('../../assets/deities/surya.png'),
+  shiva: require('../../assets/deities/shiva.png'),
+  subrahmanya: require('../../assets/deities/subrahmanya.png'),
+  vishnu: require('../../assets/deities/vishnu.png'),
+  guru: require('../../assets/deities/guru.png'),
+  devi: require('../../assets/deities/devi.png'),
+  vayu: require('../../assets/deities/vayu.png'),
+  ganesha: require('../../assets/deities/ganesha.png'),
+} as const;
+type HeroDeity = keyof typeof DEITY_ART;
+/** Deep tones of each deity disc, darkened so ivory text reads well on them. */
+const HERO: Record<HeroDeity, { deity: HeroDeity; bg: string }> = {
+  surya: { deity: 'surya', bg: '#7A2F0D' },
+  shiva: { deity: 'shiva', bg: '#2C3542' },
+  subrahmanya: { deity: 'subrahmanya', bg: '#561E50' },
+  vishnu: { deity: 'vishnu', bg: '#22385A' },
+  guru: { deity: 'guru', bg: '#4E3116' },
+  devi: { deity: 'devi', bg: '#6B1632' },
+  vayu: { deity: 'vayu', bg: '#204730' },
+  ganesha: { deity: 'ganesha', bg: '#73400E' },
+};
+function nextFestival(...args: [Parameters<typeof festivalsOn>[0], string, EkadashiRule, CalendarMode, SauraStart, CalcMethod]) {
+  const [city, today, rule, mode, start, method] = args;
+  for (let d = 1; d <= 10; d++) {
+    const f = festivalsOn(city, addDays(today, d), rule, mode, start, method).find((x) => x.kind === 'festival' || x.kind === 'ekadashi');
+    if (f) return { f, days: d };
+  }
+  return null;
+}
+function heroDeity(weekday: number, tithiIndex: number): HeroDeity {
+  const t = ((tithiIndex - 1) % 15) + 1;
+  if (t === 11) return 'vishnu'; // Ekādaśī
+  if (t === 4) return 'ganesha'; // Caturthī
+  if (t === 6) return 'subrahmanya'; // Ṣaṣṭhī
+  return (['surya', 'shiva', 'subrahmanya', 'vishnu', 'guru', 'devi', 'vayu'] as const)[weekday];
+}
+
 export function TodayCard() {
   const { theme, settings } = useSettings();
   const { lang, tr, has } = useI18n();
@@ -205,21 +246,42 @@ export function TodayCard() {
   // Names (tithi, month, festival): in plain English they read best capitalised.
   const t = (s: string) => (settings.script === 'english' ? translitTitle(s, settings.script) : translit(s, settings.script));
   const read = (id: string | undefined) => (id ? getMantraInfo(id) : undefined);
+  const hero = HERO[heroDeity(p.weekday, p.tithiIndex)];
+  const heroFont = settings.bookFonts ? (settings.script === 'english' || settings.script === 'iast' ? 'BookSerif' : scriptFont(settings.script, true)) : undefined;
+  // The next festival within ten days, for a gentle countdown under today's tithi.
+  const next = useMemo(() => nextFestival(city, today, rule, mode, start, method), [city, today, rule, mode, start, method]);
   return (
-    <View style={{ marginHorizontal: 16, marginTop: 16, borderRadius: 16, borderWidth: 1, backgroundColor: theme.card, borderColor: theme.cardBorder, overflow: 'hidden' }}>
+    <View style={{ marginHorizontal: 16, marginTop: 16, borderRadius: 18, borderWidth: 1, backgroundColor: theme.card, borderColor: theme.cardBorder, overflow: 'hidden' }}>
       {/* No date: the Panchanga tab then shows today, also tomorrow. `at` changes with every tap, so a day picked there earlier gives way. */}
-      <Pressable onPress={() => router.push({ pathname: '/panchanga', params: { at: String(Date.now()) } } as Href)} style={({ pressed }) => ({ padding: 14, opacity: pressed ? 0.7 : 1 })} accessibilityRole="link">
-        <Text style={{ color: theme.textMuted, fontSize: 13, fontWeight: '700', letterSpacing: 0.8 }}>
-          {tr('TODAY')} · {city.name.toUpperCase()}
-        </Text>
-        <Text style={{ color: theme.accent, fontSize: 18, fontWeight: '700', marginTop: 4 }}>
-          {saura
-            ? `${t(`${saura.name} ${saura.day} · ${p.paksha} ${p.tithi}`)}`
-            : t(`${p.adhika ? 'अधिक ' : ''}${p.masa} ${p.paksha} ${p.tithi}`)}
-        </Text>
-        <Text style={{ color: theme.text, fontSize: 16, marginTop: 2 }}>
-          {t(`${p.nakshatra} · ${p.vasara}`)}
-        </Text>
+      <Pressable
+        onPress={() => router.push({ pathname: '/panchanga', params: { at: String(Date.now()) } } as Href)}
+        style={({ pressed }) => ({ backgroundColor: hero.bg, padding: 6, opacity: pressed ? 0.85 : 1 })}
+        accessibilityRole="link"
+      >
+        <View style={{ borderWidth: 1, borderColor: HERO_GOLD + '99', borderRadius: 12, padding: 3 }}>
+          <View style={{ borderWidth: 0.6, borderColor: HERO_GOLD + '66', borderRadius: 10, flexDirection: 'row', alignItems: 'center', paddingVertical: 14, paddingLeft: 14, paddingRight: 8, gap: 10 }}>
+            <View style={{ flex: 1 }}>
+              <Text style={{ color: HERO_GOLD, fontSize: 13, fontWeight: '700', letterSpacing: 1 }} numberOfLines={1}>
+                {tr('TODAY')} · {city.name.toUpperCase()}
+              </Text>
+              <Text style={{ color: '#FBF3E4', fontSize: 22, lineHeight: 30, marginTop: 4, fontFamily: heroFont, fontWeight: heroFont ? undefined : '700' }}>
+                {saura
+                  ? `${t(`${saura.name} ${saura.day} · ${p.paksha} ${p.tithi}`)}`
+                  : t(`${p.adhika ? 'अधिक ' : ''}${p.masa} ${p.paksha} ${p.tithi}`)}
+              </Text>
+              <Text style={{ color: '#FBF3E4CC', fontSize: 15, marginTop: 2 }}>{t(`${p.nakshatra} · ${p.vasara}`)}</Text>
+              {next && (
+                <View style={{ flexDirection: 'row', alignItems: 'center', gap: 6, marginTop: 10, alignSelf: 'flex-start', paddingHorizontal: 10, paddingVertical: 4, borderRadius: 12, backgroundColor: '#00000033', borderWidth: 0.6, borderColor: HERO_GOLD + '80' }}>
+                  <MaterialCommunityIcons name="calendar-star" size={15} color={HERO_GOLD} />
+                  <Text style={{ color: '#FBF3E4', fontSize: 13 }} numberOfLines={1}>
+                    {t(next.f.name)} · {next.days === 1 ? tr('tomorrow') : tr('in {n} days', { n: next.days })}
+                  </Text>
+                </View>
+              )}
+            </View>
+            <Image source={DEITY_ART[hero.deity]} style={{ width: 92, height: 92, opacity: 0.95 }} accessibilityIgnoresInvertColors />
+          </View>
+        </View>
       </Pressable>
       {fest.map((f) => {
         const m = read(f.textId);

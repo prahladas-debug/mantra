@@ -12,7 +12,8 @@ import { categoryTitle } from '../../lib/labels';
 import { useShowEnglish } from '../useGloss';
 import { useRoutineDay, useSettings } from '../../lib/settings';
 
-import { reportCorrection, shareVerse } from '../../lib/share';
+import { reportCorrection } from '../../lib/share';
+import { ShareSheet } from '../ShareCard';
 import { bindDandas, translit, translitInline, translitTitle, verseNumber, isRoman, nameOf } from '../../lib/transliterate';
 import { SankalpaCard } from '../PanchangaCard';
 import { Chip } from '../ui';
@@ -199,7 +200,7 @@ export function VerseBlock({ verse, rowKey, book }: { verse: Verse; rowKey: stri
   // The text ends with ॥; when a number follows, render a single "॥ n ॥" instead of "॥ ॥ n ॥".
   const main = bindDandas(translit(verse.n !== undefined ? verse.text.replace(/\s*॥\s*$/, '') : verse.text, script));
   const fs = (isRoman(script) ? 19 : 22) * scale;
-  const lh = fs * leading(script, settings.bookFonts);
+  const lh = fs * leading(script, settings.bookFonts) * (settings.lineSpacing ?? 1);
   const label = settings.meaningLang === 'both' && pLang !== 'en' ? `${MEANING_BUTTON[pLang]} · Meaning` : MEANING_BUTTON[pLang];
 
   // Memorisation practice: show the first N lines, hide the rest until tapped.
@@ -207,6 +208,7 @@ export function VerseBlock({ verse, rowKey, book }: { verse: Verse; rowKey: stri
   const shown = practice ? Math.min(lines.length, revealed[rowKey] ?? 1) : lines.length;
   const hiddenCount = lines.length - shown;
   const numberText = verse.n !== undefined ? ' ' + verseNumber(verse.n, script) : '';
+  const [sharing, setSharing] = useState(false);
 
   return (
     // Not one accessibility element: on iOS that would hide the Meaning, bookmark and share
@@ -246,7 +248,7 @@ export function VerseBlock({ verse, rowKey, book }: { verse: Verse; rowKey: stri
         <Pressable hitSlop={8} onPress={() => toggleBookmark(mantra.id, rowKey)} accessibilityLabel={marked ? tr('Remove bookmark') : tr('Bookmark this verse')} style={b.iconBtn}>
           <MaterialCommunityIcons name={marked ? 'bookmark' : 'bookmark-outline'} size={18} color={marked ? theme.accent : theme.textMuted} />
         </Pressable>
-        <Pressable hitSlop={8} onPress={() => shareVerse(mantra, verse, script, meanings[0]?.text)} accessibilityLabel={tr('Share this verse')} style={b.iconBtn}>
+        <Pressable hitSlop={8} onPress={() => setSharing(true)} accessibilityLabel={tr('Share this verse')} style={b.iconBtn}>
           <MaterialCommunityIcons name="share-variant-outline" size={18} color={theme.textMuted} />
         </Pressable>
         <Pressable hitSlop={8} onPress={() => reportCorrection(mantra, verse, rowKey)} accessibilityLabel={tr('Report a correction')} style={b.iconBtn}>
@@ -273,6 +275,7 @@ export function VerseBlock({ verse, rowKey, book }: { verse: Verse; rowKey: stri
             {lang === 'en' ? translitInline(text, settings.script) : text}
           </Text>
         ))}
+      {sharing && <ShareSheet mantra={mantra} verse={verse} visible onClose={() => setSharing(false)} />}
     </View>
   );
 }

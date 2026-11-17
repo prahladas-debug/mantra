@@ -4,6 +4,7 @@ import { useState } from 'react';
 import { Modal, Pressable, ScrollView, StyleSheet, Text, View, useWindowDimensions } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { TodayCard } from '../../components/PanchangaCard';
+import { VerseOfDayCard } from '../../components/VerseOfDay';
 import { RoutineCard } from '../../components/RoutineCard';
 import { BookCover, CategoryTile, DeityMedallion, QuickTile, ShelfHeading, greatWorks } from '../../components/Shelf';
 import { getMantraInfo, scriptFor } from '../../data';
@@ -68,7 +69,7 @@ export default function Home() {
   const script = SCRIPTS.find((x) => x.id === settings.script) ?? SCRIPTS[0];
   const last = recent.map((r) => getMantraInfo(r.id)).find((m) => !!m);
   // About three and a half small covers across the screen, so the row reads as a shelf to swipe.
-  const coverW = Math.max(88, Math.min(112, Math.floor((width - 32 - 30) / 3.4)));
+  const coverW = Math.max(104, Math.min(132, Math.floor((width - 32 - 20) / 3.1)));
 
   // First launch: choose language, tradition and place.
   if (!ready) return <View style={{ flex: 1, backgroundColor: theme.bg }} />;
@@ -108,13 +109,12 @@ export default function Home() {
       </Pressable>
 
       <TodayCard />
-      {routine.length > 0 && <RoutineCard compact />}
 
       {last && (
         <Pressable
           onPress={() => router.push(`/mantra/${last.id}` as Href)}
           accessibilityRole="link"
-          style={({ pressed }) => [s.resume, { backgroundColor: theme.accentSoft, opacity: pressed ? 0.7 : 1 }]}
+          style={({ pressed }) => [s.resume, { backgroundColor: theme.accentSoft, borderColor: theme.accent + '55', opacity: pressed ? 0.7 : 1 }]}
         >
           <MaterialCommunityIcons name="bookmark" size={22} color={theme.gold} />
           <View style={{ flex: 1 }}>
@@ -127,8 +127,17 @@ export default function Home() {
         </Pressable>
       )}
 
-      <ShelfHeading title={T('Great works')} />
-      <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={{ paddingHorizontal: 16, gap: 10, paddingBottom: 6 }}>
+      <VerseOfDayCard />
+      {routine.length > 0 && <RoutineCard compact />}
+
+      <ShelfHeading title={T('Great works')} action={T('All ›')} onAction={() => router.push('/library')} />
+      <ScrollView
+        horizontal
+        showsHorizontalScrollIndicator={false}
+        snapToInterval={coverW + 12}
+        decelerationRate="fast"
+        contentContainerStyle={{ paddingHorizontal: 16, gap: 12, paddingBottom: 6 }}
+      >
         {greatWorks(settings.variants.tradition).map((w) => (
           <BookCover key={w.category ?? w.textId} work={w} width={coverW} />
         ))}
@@ -163,6 +172,6 @@ const s = StyleSheet.create({
   header: { flexDirection: 'row', alignItems: 'center', paddingHorizontal: 16, gap: 12 },
   scriptBtn: { flexDirection: 'row', alignItems: 'center', gap: 4, paddingHorizontal: 10, paddingVertical: 6, borderRadius: 16, borderWidth: 1 },
   search: { flexDirection: 'row', alignItems: 'center', gap: 10, marginHorizontal: 16, marginTop: 14, paddingHorizontal: 14, paddingVertical: 12, borderRadius: 12, borderWidth: 1 },
-  resume: { flexDirection: 'row', alignItems: 'center', gap: 12, marginHorizontal: 16, marginTop: 12, paddingHorizontal: 14, paddingVertical: 10, borderRadius: 16 },
+  resume: { flexDirection: 'row', alignItems: 'center', gap: 12, marginHorizontal: 16, marginTop: 12, paddingHorizontal: 14, paddingVertical: 12, borderRadius: 16, borderWidth: 1 },
   grid: { flexDirection: 'row', flexWrap: 'wrap', justifyContent: 'space-between', rowGap: 10, marginHorizontal: 16 },
 });

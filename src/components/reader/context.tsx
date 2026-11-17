@@ -17,6 +17,9 @@ export interface ReaderState {
   reveal: (key: string, lines: number) => void;
   /** Two fingers are down (pinch to zoom): the lists must not scroll or turn the page. */
   pinching: boolean;
+  /** Focus mode: the header and page bar are hidden; a tap on the page toggles it. */
+  focus: boolean;
+  toggleFocus: () => void;
 }
 
 export const ReaderContext = createContext<ReaderState | null>(null);

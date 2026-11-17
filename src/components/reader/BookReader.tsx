@@ -120,7 +120,7 @@ export function BookReader({
 }) {
   const { theme, settings } = useSettings();
   const { tr } = useI18n();
-  const { mantra, opened, highlight, practice, revealed, pinching } = useReader();
+  const { mantra, opened, highlight, practice, revealed, pinching, focus, toggleFocus } = useReader();
   const { width } = useWindowDimensions();
   const [height, setHeight] = useState(0);
   const listRef = useRef<FlatList<Page>>(null);
@@ -136,7 +136,7 @@ export function BookReader({
 
   // Rows are first laid out once, invisibly, at the page's width so pages are filled by their
   // real heights (fonts and line breaks differ between phones); an estimate is used meanwhile.
-  const sig = [mantra.id, rows.length, width, script, second, settings.fontScale, settings.bookFonts, settings.alwaysShowMeanings, settings.meaningLang].join('|');
+  const sig = [mantra.id, rows.length, width, script, second, settings.fontScale, settings.lineSpacing, settings.bookFonts, settings.alwaysShowMeanings, settings.meaningLang, settings.centerVerses].join('|');
   const [measured, setMeasured] = useState<{ sig: string; h: Record<string, number> } | null>(null);
   const pending = useRef<{ sig: string; h: Record<string, number> }>({ sig: '', h: {} });
   const toMeasure = rows.filter((r) => r.kind === 'verse' || r.kind === 'section');
@@ -217,7 +217,7 @@ export function BookReader({
   const font = scriptFont(script, settings.bookFonts);
 
   return (
-    <View style={{ flex: 1, backgroundColor: theme.bg }} onLayout={(e) => setHeight(e.nativeEvent.layout.height - 52)}>
+    <View style={{ flex: 1, backgroundColor: theme.bg }} onLayout={(e) => setHeight(e.nativeEvent.layout.height - (focus ? 17 : 52))}>
       {!heights && height > 0 && (
         <View pointerEvents="none" importantForAccessibility="no-hide-descendants" accessibilityElementsHidden style={[s.measure, { width: width - 30 }]}>
           {toMeasure.map((row) => (
@@ -251,9 +251,14 @@ export function BookReader({
                     {runningHead(item)}
                   </Text>
                 )}
-                <ScrollView
-                  // A nearly full page shares out its leftover space so it ends level, like a set page.
-                  contentContainerStyle={[{ paddingVertical: 6 }, item.used > pageContent * 0.7 && item.used <= pageContent && { flexGrow: 1, justifyContent: 'space-around' }]} showsVerticalScrollIndicator scrollEnabled={!pinching}>
+                <ScrollView contentContainerStyle={{ flexGrow: 1 }} showsVerticalScrollIndicator scrollEnabled={!pinching}>
+                  {/* A tap on the page (not on a button) hides or shows the header and page bar. */}
+                  <Pressable
+                    onPress={toggleFocus}
+                    accessible={false}
+                    // A nearly full page shares out its leftover space so it ends level, like a set page.
+                    style={[{ flexGrow: 1, paddingVertical: 6 }, item.used > pageContent * 0.7 && item.used <= pageContent && { justifyContent: 'space-around' }]}
+                  >
                   {item.rows.map((row) => {
                     switch (row.kind) {
                       case 'intro':
@@ -266,12 +271,18 @@ export function BookReader({
                         return <EndMatter key={row.key} />;
                     }
                   })}
+                  </Pressable>
                 </ScrollView>
               </View>
             </View>
           )}
         />
       )}
+      {focus ? (
+        <View style={{ height: 3, marginHorizontal: 24, marginBottom: 10, marginTop: 4, borderRadius: 2, backgroundColor: theme.accentSoft, overflow: 'hidden' }}>
+          <View style={{ width: `${pages.length ? ((page + 1) / pages.length) * 100 : 0}%`, height: 3, backgroundColor: theme.gold }} />
+        </View>
+      ) : (
       <View style={[s.bar, { borderColor: theme.cardBorder, backgroundColor: theme.bg }]}>
         <Pressable onPress={() => goTo(page - 1)} disabled={page === 0} hitSlop={12} accessibilityLabel={tr('Previous page')}>
           <MaterialCommunityIcons name="chevron-left" size={26} color={page === 0 ? theme.cardBorder : theme.accent} />
@@ -291,6 +302,7 @@ export function BookReader({
           <MaterialCommunityIcons name="chevron-right" size={26} color={page >= pages.length - 1 ? theme.cardBorder : theme.accent} />
         </Pressable>
       </View>
+      )}
     </View>
   );
 }

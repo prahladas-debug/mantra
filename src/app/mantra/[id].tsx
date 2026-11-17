@@ -91,6 +91,7 @@ function ReaderView({ mantra }: { mantra: Mantra | undefined }) {
   const setScale = useCallback((fontScale: number) => update({ fontScale }), [update]);
   const pinch = usePinch(settings.fontScale, setScale);
   const [panelOpen, setPanelOpen] = useState(false);
+  const [focus, setFocus] = useState(false);
   const [contentsOpen, setContentsOpen] = useState(false);
   const [opened, setOpened] = useState<ReadonlySet<string>>(() => new Set());
   const [practice, setPractice] = useState(false);
@@ -153,7 +154,7 @@ function ReaderView({ mantra }: { mantra: Mantra | undefined }) {
     );
   }
 
-  const ctx: ReaderState = { mantra, choices, opened, toggleMeaning, highlight, practice, revealed, reveal, pinching: pinch.active };
+  const ctx: ReaderState = { mantra, choices, opened, toggleMeaning, highlight, practice, revealed, reveal, pinching: pinch.active, focus, toggleFocus: () => setFocus((f) => !f) };
   const isFav = favorites.includes(mantra.id);
   const hasContents = shownSections(mantra, rows).length > 1;
   const Layout = settings.layout === 'book' ? BookReader : ScrollReader;
@@ -163,6 +164,7 @@ function ReaderView({ mantra }: { mantra: Mantra | undefined }) {
       <View style={{ flex: 1, backgroundColor: theme.bg }} {...pinch.panHandlers}>
         <Stack.Screen
           options={{
+            headerShown: !focus,
             title: lang === 'en' ? mantra.titleEn : nameOf(mantra, settings.script),
             headerRight: () => (
               <View style={{ flexDirection: 'row', gap: 18 }}>

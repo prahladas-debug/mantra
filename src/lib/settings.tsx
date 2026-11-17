@@ -13,6 +13,8 @@ export interface Settings {
   /** Second script shown under each verse (e.g. IAST for learners), or null. */
   secondaryScript: ScriptId | null;
   fontScale: number;
+  /** Space between verse lines: 0.9 compact, 1 normal, 1.15 relaxed. */
+  lineSpacing?: number;
   /** 'sunset': the warm night theme from sunset to sunrise at your place, light by day. */
   theme: ThemeName | 'system' | 'sunset';
   /** Show every meaning expanded. Off: each verse has a tap-to-open ಅರ್ಥ · Meaning button. */
@@ -38,6 +40,8 @@ export interface Settings {
   onboarded: boolean;
   /** Notifications the evening before Ekadashi and major festivals. */
   festivalReminders: { ekadashi: boolean; festivals: boolean; time: string };
+  /** A morning notification with the verse of the day. */
+  verseReminder?: { on: boolean; time: string };
 }
 
 export interface Bookmark {
