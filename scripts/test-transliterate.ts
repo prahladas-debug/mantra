@@ -39,10 +39,10 @@ for (const [script, input, expected] of cases) {
   assert.equal(translit(input, script), expected, `${script}: ${input}`);
 }
 
-const J = '\u2060\u00A0'; // word joiner + no-break space
+const J = '\u2060\u00A0\u2060'; // word joiner, no-break space, word joiner
 assert.equal(verseNumber(12, 'kannada'), `॥${J}೧೨${J}॥`);
 assert.equal(verseNumber(12, 'tamil'), `॥${J}12${J}॥`);
-assert.equal(verseNumber(3, 'iast'), `||${J}3${J}||`);
+assert.equal(verseNumber(3, 'iast'), `‖${J}3${J}‖`);
 
 // Search keys match across scripts and casual English spelling.
 const k = searchKey('विष्णु सहस्रनाम');
