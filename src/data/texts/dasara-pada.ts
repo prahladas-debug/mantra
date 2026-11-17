@@ -1313,8 +1313,7 @@ export const dpTallanisadiruKandya: Mantra = {
   summary: '“Do not panic, my mind; be patient. He looks after everyone.” Kanaka Dāsa points to the tree on a hilltop, the beasts of the forest and the frog in the rock, all fed by the Lord who made them.',
   summaryKn: '“ಮನವೇ, ತಲ್ಲಣಿಸಬೇಡ, ತಾಳ್ಮೆಯಿಂದಿರು; ಎಲ್ಲರನ್ನೂ ಅವನು ಸಲಹುತ್ತಾನೆ.” ಬೆಟ್ಟದ ತುದಿಯ ಮರ, ಕಾಡಿನ ಮೃಗಪಕ್ಷಿಗಳು, ಕಲ್ಲಿನೊಳಗಿನ ಕಪ್ಪೆ ಎಲ್ಲಕ್ಕೂ ಆಹಾರ ಕೊಡುವವನು ಸೃಷ್ಟಿಸಿದ ಸ್ವಾಮಿಯೇ ಎಂದು ಕನಕದಾಸರು ಧೈರ್ಯ ತುಂಬುತ್ತಾರೆ.',
   difficulty: 'easy',
-  completeness: 'partial',
-  contentNote: 'SMS has a further caraṇa (नविलिगॆ चित्र बरॆदवरु यारु …) that is missing from BJ; it is left out until a second copy is found.',
+  completeness: 'complete',
   sections: [
       {
         title: 'ಪಲ್ಲವಿ',
@@ -1343,6 +1342,14 @@ export const dpTallanisadiruKandya: Mantra = {
           },
           {
             n: 2,
+            text: 'ನವಿಲಿಗೆ ಚಿತ್ರ ಬಣ್ಣವನು ರಚಿಸಿದವರಾರು\nಹವಳದ ಲತೆಗೆ ಕೆಂಪಿಟ್ಟವರಾರು ।\nಸವಿಮಾತಿನ ಗಿಣಿಗೆ ಹಸಿರು ಬರೆದವರಾರು\nಅವ ಮಾಡಿದ ಹರಿಯು ಮರೆಯುವನೆ ಅಮ್ಮ ॥',
+            meaning: {
+              en: 'Who painted the peacock in its many colours? Who gave the coral its red? Who coloured the sweet-voiced parrot green? Will Hari, who made them, forget you?',
+              kn: 'ನವಿಲಿಗೆ ಚಿತ್ರವಿಚಿತ್ರ ಬಣ್ಣವನ್ನು ರಚಿಸಿದವರು ಯಾರು? ಹವಳದ ಬಳ್ಳಿಗೆ ಕೆಂಪನ್ನಿಟ್ಟವರು ಯಾರು? ಸವಿಮಾತಿನ ಗಿಳಿಗೆ ಹಸಿರು ಬರೆದವರು ಯಾರು? ಅವನ್ನು ಮಾಡಿದ ಹರಿ ನಿನ್ನನ್ನು ಮರೆಯುವನೇ?',
+            },
+          },
+          {
+            n: 3,
             text: 'ಅಡವಿಯೊಳಗಾಡುವ ಮೃಗಪಕ್ಷಿಗಳಿಗೆಲ್ಲ\nಅಡಿಗಡಿಗೆ ಆಹಾರವಿತ್ತವರು ಯಾರೋ ।\nಪಡೆದ ಜನನಿಯ ತೆರದಿ ಸ್ವಾಮಿ ಹೊಣೆಗೀಡಾಗಿ\nಬಿಡದೆ ರಕ್ಷಿಪನು ಇದಕೆ ಸಂಶಯವಿಲ್ಲ ॥',
             meaning: {
               en: 'Who gives food at every step to the beasts and birds that roam the forest? Like the mother who bore them, the Lord takes charge of them and protects them unfailingly.',
@@ -1350,7 +1357,7 @@ export const dpTallanisadiruKandya: Mantra = {
             },
           },
           {
-            n: 3,
+            n: 4,
             text: 'ಕಲ್ಲಿನಲ್ಲಿ ಹುಟ್ಟಿ ಕೂಗುವ ಕಪ್ಪೆಗಳಿಗೆಲ್ಲ\nಅಲ್ಲಲ್ಲಿಗಾಹಾರವನು ತಂದಿತ್ತವರು ಯಾರೋ ।\nಬಲ್ಲಿದನು ಕಾಗಿನೆಲೆಯಾದಿಕೇಶವರಾಯ\nಎಲ್ಲರನು ಸಲಹುವನು ಇದಕೆ ಸಂಶಯವಿಲ್ಲ ॥',
             meaning: {
               en: 'Who brings food to the croaking frogs born inside the rock, each where it lives? The mighty Ādikeśava of Kāginele protects everyone; there is no doubt of this.',
@@ -1434,8 +1441,7 @@ export const dpNiMayeyolago: Mantra = {
   summary: 'Kanaka Dāsa’s riddle-song on the Lord who holds everything: are you within māyā, or is māyā within you? Are you in the body, or the body in you? Space and dwelling, eye and mind, flower and fragrance: “it is beyond me to say; all is within you, Hari.”',
   summaryKn: 'ಎಲ್ಲವನ್ನೂ ತನ್ನೊಳಗೆ ಧರಿಸಿರುವ ಶ್ರೀಹರಿಯ ಕುರಿತು ಕನಕದಾಸರ ಒಗಟಿನ ಹಾಡು: ನೀನು ಮಾಯೆಯೊಳಗೋ, ಮಾಯೆ ನಿನ್ನೊಳಗೋ? ಬಯಲು-ಆಲಯ, ಕಣ್ಣು-ಬುದ್ಧಿ, ಹೂವು-ಗಂಧ… “ಹೇಳಲು ನನ್ನಿಂದಾಗದು; ಎಲ್ಲವೂ ನಿನ್ನೊಳಗೇ, ಹರಿಯೇ.”',
   difficulty: 'easy',
-  completeness: 'partial',
-  contentNote: 'SDS has a further caraṇa (सवियु सक्करॆयॊळगॊ …) between the two given here, and the word हरियॆ at the end of the anupallavi; BJ has neither, so they are left out until a second copy is found.',
+  completeness: 'complete',
   sections: [
       {
         title: 'ಪಲ್ಲವಿ',
@@ -1455,10 +1461,10 @@ export const dpNiMayeyolago: Mantra = {
         titleEn: 'Anupallavi',
         verses: [
           {
-            text: 'ನೀ ದೇಹದೊಳಗೊ ನಿನ್ನೊಳು ದೇಹವೊ ॥',
+            text: 'ನೀ ದೇಹದೊಳಗೊ ನಿನ್ನೊಳು ದೇಹವೊ ಹರಿಯೆ ॥',
             meaning: {
-              en: 'Are you within the body, or is the body within you?',
-              kn: 'ನೀನು ದೇಹದೊಳಗಿರುವೆಯೋ, ದೇಹ ನಿನ್ನೊಳಗಿದೆಯೋ?',
+              en: 'Are you within the body, or is the body within you, O Hari?',
+              kn: 'ಹರಿಯೇ, ನೀನು ದೇಹದೊಳಗಿರುವೆಯೋ, ದೇಹ ನಿನ್ನೊಳಗಿದೆಯೋ?',
             },
           },
         ],
@@ -1477,6 +1483,14 @@ export const dpNiMayeyolago: Mantra = {
           },
           {
             n: 2,
+            text: 'ಸವಿಯು ಸಕ್ಕರೆಯೊಳಗೊ ಸಕ್ಕರೆಯು ಸವಿಯೊಳಗೊ\nಸವಿಯು ಸಕ್ಕರೆಗಳೆರಡು ಜಿಹ್ವೆಯೊಳಗೊ ।\nಜಿಹ್ವೆ ಬುದ್ಧಿಯ ಒಳಗೊ ಬುದ್ಧಿ ಜಿಹ್ವೆಯ ಒಳಗೊ\nಜಿಹ್ವೆ ಬುದ್ಧಿಗಳೆರಡು ನಿನ್ನೊಳಗೊ ಹರಿಯೆ ॥',
+            meaning: {
+              en: 'Is the sweetness in the sugar, or the sugar in the sweetness? Are sweetness and sugar both on the tongue? Is the tongue within the mind, or the mind within the tongue? Are tongue and mind both within you, O Hari?',
+              kn: 'ಸವಿ ಸಕ್ಕರೆಯೊಳಗಿದೆಯೋ, ಸಕ್ಕರೆ ಸವಿಯೊಳಗಿದೆಯೋ? ಸವಿ ಸಕ್ಕರೆ ಎರಡೂ ನಾಲಿಗೆಯೊಳಗಿವೆಯೋ? ನಾಲಿಗೆ ಬುದ್ಧಿಯೊಳಗೋ, ಬುದ್ಧಿ ನಾಲಿಗೆಯೊಳಗೋ? ನಾಲಿಗೆ ಬುದ್ಧಿ ಎರಡೂ ನಿನ್ನೊಳಗಿವೆಯೋ, ಹರಿಯೇ?',
+            },
+          },
+          {
+            n: 3,
             text: 'ಕುಸುಮದಲಿ ಗಂಧವೊ ಗಂಧದಲಿ ಕುಸುಮವೊ\nಕುಸುಮ ಗಂಧಗಳೆರಡು ಆಘ್ರಾಣದೊಳಗೊ ।\nಅಸಮಭವ ಕಾಗಿನೆಲೆಯಾದಿಕೇಶವರಾಯ\nಉಸುರಲೆನ್ನಳವಲ್ಲ ಎಲ್ಲ ನಿನ್ನೊಳಗೊ ಹರಿಯೆ ॥',
             meaning: {
               en: 'Is the fragrance in the flower, or the flower in the fragrance? Are both flower and fragrance in the sense of smell? Peerless Ādikeśava of Kāginele, it is beyond me to say: all is within you, Hari.',

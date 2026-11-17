@@ -29,9 +29,8 @@ export const dpTugireRayara: Mantra = {
   summaryKn:
     'ತೊಟ್ಟಿಲ ಹಾಡು: ಚಿನ್ನದ ಚಂದದ ತೊಟ್ಟಿಲಲ್ಲಿ ಮಲಗಿರುವ ಯತಿಕುಲತಿಲಕರಾದ ಶ್ರೀರಾಘವೇಂದ್ರತೀರ್ಥರನ್ನು ತೂಗಿರೆ ಎಂದು ಹೆಂಗಳೆಯರನ್ನು ಕರೆಯುವ ಹಾಡು. ಒಂದೊಂದು ಚರಣದಲ್ಲಿ ರಾಯರ ಒಂದೊಂದು ಮಹಿಮೆ: ಗೋವಿಂದನನ್ನು ಭಜಿಸುವವರು, ಯೋಗನಿದ್ರೆಯಲ್ಲಿರುವ ಯೋಗೀಶವಂದ್ಯರು, ಬೇಡಿದವರಿಗೆ ಇಷ್ಟಾರ್ಥ ಕೊಟ್ಟು ತಮ್ಮವರ ರೋಗಗಳನ್ನು ಕಳೆಯುವವರು, ಅದ್ವೈತಮತವನ್ನು ಖಂಡಿಸಿ ಮಧ್ವಮತವನ್ನು ಉದ್ಧರಿಸಿದವರು, ಭಕ್ತರಿಗೆ ನಿಜಗತಿ ಕೊಡುವವರು.',
   difficulty: 'easy',
-  completeness: 'partial',
-  contentNote:
-    'No printed edition of this song was found. The text is collated from three typed copies (madhwafestivals.com and two copies on the Rao collections blog); two copies agree on every line kept. One copy lacks the third charana and another the fourth.',
+  completeness: 'complete',
+  contentNote: 'No printed edition of this song was found; the text is collated from three typed copies (madhwafestivals.com and two copies on the Rao collections blog).',
   sections: [
     {
       title: 'ಪಲ್ಲವಿ',

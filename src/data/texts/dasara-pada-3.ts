@@ -153,8 +153,7 @@ export const dpEllaruMaduvuduHottegagi: Mantra = {
   summary: 'Kanaka Dasa’s satire on worldly occupations: the scholar, the soldier, the trader, the farmer, the flatterer, the ascetic in his many garbs and the thief all toil “for the belly and a span of cloth”; only meditation on Adikeshava is done for liberation and bliss.',
   summaryKn: 'ಲೌಕಿಕ ಉದ್ಯೋಗಗಳ ಮೇಲೆ ಕನಕದಾಸರ ವಿಡಂಬನೆ: ಪಂಡಿತ, ಯೋಧ, ವ್ಯಾಪಾರಿ, ರೈತ, ಮೋಸಗಾರ, ಬಗೆಬಗೆಯ ವೇಷಧಾರಿ, ಕಳ್ಳ ಎಲ್ಲರೂ ದುಡಿಯುವುದು “ಹೊಟ್ಟೆಗಾಗಿ, ಗೇಣು ಬಟ್ಟೆಗಾಗಿ”; ಆದಿಕೇಶವನ ಧ್ಯಾನ ಒಂದೇ ಮುಕ್ತಿಗಾಗಿ, ಆನಂದಕ್ಕಾಗಿ.',
   difficulty: 'easy',
-  completeness: 'partial',
-  contentNote: 'One stanza found only in the printed Samagra Dasa Sahitya text (on singers who dance for money) is not included, as the second source lacks it.',
+  completeness: 'complete',
   sections: [
     {
       title: 'ಪಲ್ಲವಿ',
@@ -223,6 +222,14 @@ export const dpEllaruMaduvuduHottegagi: Mantra = {
         },
         {
           n: 7,
+          text: 'ತಾಳ ದಂಡಿಗೆ ಶ್ರುತಿ ಮೇಳ ತಂಬೂರಿಯ ಹಿಡಿದುಕೊಂಡು ।\nಸೂಳೆಯಂತೆ ಕುಣಿಯುವುದು ಹೊಟ್ಟೆಗಾಗಿ ಗೇಣುಬಟ್ಟೆಗಾಗಿ ॥',
+          meaning: {
+            en: 'Holding cymbals, the dandige, the drone and the tambura, dancing like a courtesan: it is for the belly, for a span of cloth.',
+            kn: 'ತಾಳ, ದಂಡಿಗೆ, ಶ್ರುತಿಮೇಳ, ತಂಬೂರಿಗಳನ್ನು ಹಿಡಿದುಕೊಂಡು ವೇಶ್ಯೆಯಂತೆ ಕುಣಿಯುವುದು ಹೊಟ್ಟೆಗಾಗಿ, ಗೇಣು ಬಟ್ಟೆಗಾಗಿ.',
+          },
+        },
+        {
+          n: 8,
           text: 'ಸನ್ಯಾಸಿ ಜಂಗಮ ಜೋಗಿ ಜಟ್ಟಿ ಮೊಂಡ ಬೈರಾಗಿ ।\nನಾನಾ ವೇಷಗಳೆಲ್ಲ ಹೊಟ್ಟೆಗಾಗಿ ಗೇಣುಬಟ್ಟೆಗಾಗಿ ॥',
           meaning: {
             en: 'The sannyasi, the jangama, the jogi, the wrestler, the stubborn beggar, the bairagi: all these many guises are for the belly, for a span of cloth.',
@@ -230,7 +237,7 @@ export const dpEllaruMaduvuduHottegagi: Mantra = {
           },
         },
         {
-          n: 8,
+          n: 9,
           text: 'ಹಳ್ಳದಲಿ ಕುಳಿತುಕೊಂಡು ಕಲ್ಲು ದೊಣ್ಣೆ ಹಿಡಿದುಕೊಂಡು ।\nಕಳ್ಳತನವ ಮಾಡುವುದು ಹೊಟ್ಟೆಗಾಗಿ ಗೇಣುಬಟ್ಟೆಗಾಗಿ ॥',
           meaning: {
             en: 'Lurking in a ditch with stones and clubs and robbing travellers: it is for the belly, for a span of cloth.',
@@ -238,7 +245,7 @@ export const dpEllaruMaduvuduHottegagi: Mantra = {
           },
         },
         {
-          n: 9,
+          n: 10,
           text: 'ಅಂದಣ ಪಲ್ಲಕ್ಕಿ ಏರಿ ಮಂದಿ ಮಾರ್ಬಲ ಕೂಡಿ ।\nಚಂದದಿಂದ ಮೆರೆಯುವುದು ಹೊಟ್ಟೆಗಾಗಿ ಗೇಣುಬಟ್ಟೆಗಾಗಿ ॥',
           meaning: {
             en: 'Riding in palanquins with crowds and retinue, parading in splendour: it is for the belly, for a span of cloth.',
@@ -246,7 +253,7 @@ export const dpEllaruMaduvuduHottegagi: Mantra = {
           },
         },
         {
-          n: 10,
+          n: 11,
           text: 'ಉನ್ನತ ಕಾಗಿನೆಲೆಯಾದಿಕೇಶವನಾ ಧ್ಯಾನವನ್ನು ।\nಮನಮುಟ್ಟಿ ಮಾಡುವುದು ಮುಕ್ತಿಗಾಗಿ ಆನಂದಕಾಗಿ ॥',
           meaning: {
             en: 'But meditating with a heart that is truly touched on the exalted Adikeshava of Kaginele: that is done for liberation, for bliss.',
@@ -330,8 +337,7 @@ export const dpEnuIlladaEraduDinada: Mantra = {
   summary: 'A song of counsel: worldly life lasts two days and holds nothing, so give in charity with understanding, feed the hungry, keep your word, do not be proud in power or wealth, and find happiness at the feet of Adikeshava.',
   summaryKn: 'ಉಪದೇಶದ ಹಾಡು: ಏನೂ ಇಲ್ಲದ ಈ ಸಂಸಾರ ಎರಡೇ ದಿನದ್ದು; ಜ್ಞಾನದಿಂದ ದಾನಧರ್ಮ ಮಾಡಿ, ಹಸಿದವರಿಗೆ ಅನ್ನ ಕೊಡಿ, ಕೊಟ್ಟ ಮಾತು ನಡೆಸಿ, ಅಧಿಕಾರ-ಸಂಪತ್ತು ಬಂದಾಗ ಮೆರೆಯಬೇಡಿ, ಆದಿಕೇಶವನ ಪಾದ ಸೇರಿ ಸುಖಿಯಾಗಿ.',
   difficulty: 'easy',
-  completeness: 'partial',
-  contentNote: 'Charanas 1 and 2 follow the printed Samagra Dasa Sahitya text; in two lines the second copy (madhwafestivals.com) has different words, and its extra line on gossips is not included.',
+  completeness: 'complete',
   sections: [
     {
       title: 'ಪಲ್ಲವಿ',
@@ -660,8 +666,8 @@ export const dpBaroKrishnayya: Mantra = {
   summary: 'A popular song inviting Krishna to the devotee’s home: “Come, Krishna, show your face; who is your equal?” It pictures him coming with anklets jingling and bangles shining, playing his golden flute, and ends with the ankita of Adikeshava of Udupi.',
   summaryKn: 'ಕೃಷ್ಣನನ್ನು ಭಕ್ತರ ಮನೆಗೆ ಕರೆಯುವ ಜನಪ್ರಿಯ ಹಾಡು: “ಬಾರೋ ಕೃಷ್ಣಯ್ಯ, ಮುಖ ತೋರೋ, ನಿನಗೆ ಸರಿ ಯಾರು?” ಕಾಲ್ಗೆಜ್ಜೆ ಧಿಮಿಧಿಮಿಸುತ್ತ, ಕಂಕಣ ಹೊಳೆಯುತ್ತ, ಹೊನ್ನಿನ ಕೊಳಲನೂದುತ್ತ ಬರುವ ಕೃಷ್ಣನ ಚಿತ್ರ; ಕೊನೆಯಲ್ಲಿ ಉಡುಪಿಯ ಆದಿಕೇಶವನ ಅಂಕಿತ.',
   difficulty: 'easy',
-  completeness: 'partial',
-  contentNote: 'The closing words of the last stanza differ in every copy (“I call you, come” / “come to protect”), so only the words common to the copies are given. The song is not found in the printed Samagra Dasa Sahitya volumes of Kanaka Dasa.',
+  completeness: 'complete',
+  contentNote: 'The closing words differ between the copies; the reading “come to protect your servant” (Bhajanamrutha) is given. The song is not found in the printed Samagra Dasa Sahitya volumes of Kanaka Dasa.',
   sections: [
     {
       title: 'ಪಲ್ಲವಿ',
@@ -711,10 +717,10 @@ export const dpBaroKrishnayya: Mantra = {
         },
         {
           n: 3,
-          text: 'ವಾಸ ಉಡುಪಿಲಿ ನೆಲೆಯಾದಿಕೇಶವನೆ ।\nದಾಸ ನಿನ್ನ ಪದದಾಸ ॥',
+          text: 'ವಾಸ ಉಡುಪಿಲಿ ನೆಲೆಯಾದಿಕೇಶವನೆ\nದಾಸ ನಿನ್ನ ಪದದಾಸ ನಿನ್ನ ಪದದಾಸ\nಸಲಹಲು ಬಾರಯ್ಯ ॥',
           meaning: {
-            en: 'Adikeshava who dwells in Udupi, I am your servant, the servant of your feet.',
-            kn: 'ಉಡುಪಿಯಲ್ಲಿ ನೆಲೆಸಿದ ಆದಿಕೇಶವನೇ, ನಾನು ನಿನ್ನ ದಾಸ, ನಿನ್ನ ಪಾದದಾಸ.',
+            en: 'Adikeshava who dwells in Udupi, I am your servant, the servant of your feet; come to protect your servant.',
+            kn: 'ಉಡುಪಿಯಲ್ಲಿ ನೆಲೆಸಿದ ಆದಿಕೇಶವನೇ, ನಾನು ನಿನ್ನ ದಾಸ, ನಿನ್ನ ಪಾದದಾಸ; ಈ ದಾಸನನ್ನು ಸಲಹಲು ಬಾರಯ್ಯ.',
           },
         },
       ],
@@ -1045,6 +1051,14 @@ export const dpLaliGovindaLali: Mantra = {
         },
         {
           n: 19,
+          text: 'ಪಲ್ಲವಾಧರೆಯರೆಲ್ಲ ಈ ಶಿಶುವ\nತುಲ್ಯವರ್ಜಿತನೆನುತಲಿ ।\nಸಲ್ಲಲಿತಗಾನದಿಂದ ತೂಗಿದರು\nಕಲ್ಯಾಣಿರಾಗದಿಂದ ॥',
+          meaning: {
+            en: 'All the women with lips like tender leaves, calling this child the one without equal, rocked him with graceful songs in raga Kalyani.',
+            kn: 'ಚಿಗುರಿನಂತಹ ತುಟಿಗಳ ಸ್ತ್ರೀಯರೆಲ್ಲ ಈ ಶಿಶುವನ್ನು ಸಾಟಿಯಿಲ್ಲದವನೆಂದು ಹೇಳುತ್ತ ಸುಲಲಿತ ಗಾನದಿಂದ, ಕಲ್ಯಾಣಿ ರಾಗದಲ್ಲಿ ತೂಗಿದರು.',
+          },
+        },
+        {
+          n: 20,
           text: 'ದೇವಾಧಿದೇವನೆಂದು ಈ ಶಿಶುವು\nಭಾವನಾತೀತನೆಂದು ।\nದೇವಗಂಧರ್ವರ್ಪಾಡಿ ತೂಗಿದರು\nದೇವಗಾಂಧಾರದಿಂದ ॥',
           meaning: {
             en: 'Saying that this infant is the God of gods, beyond all imagining, the gods and gandharvas sang in raga Devagandhari and rocked him.',
@@ -1052,7 +1066,7 @@ export const dpLaliGovindaLali: Mantra = {
           },
         },
         {
-          n: 20,
+          n: 21,
           text: 'ನೀಲಘನನೀಲ ಜೋ ಜೋ ಕರುಣಾಲ\nವಾಲ ಶ್ರೀಕೃಷ್ಣ ಜೋ ಜೋ ।\nಲೀಲಾವತಾರ ಜೋ ಜೋ ಪರಮಾತ್ಮ\nಬಾಲಗೋಪಾಲ ಜೋ ಜೋ ॥',
           meaning: {
             en: 'Jo jo, dark as the rain cloud; jo jo, Sri Krishna, home of compassion; jo jo, who takes avatars in play; jo jo, Supreme Self, child Gopala.',
@@ -1060,7 +1074,7 @@ export const dpLaliGovindaLali: Mantra = {
           },
         },
         {
-          n: 21,
+          n: 22,
           text: 'ಇಂದುಧರಮಿತ್ರ ಜೋ ಜೋ ಶ್ರೀಕೃಷ್ಣ\nಇಂದುರವಿನೇತ್ರ ಜೋ ಜೋ ।\nಇಂದುಕುಲಪುತ್ರ ಜೋ ಜೋ ಪರಮಾತ್ಮ\nಇಂದಿರಾರಮಣ ಜೋ ಜೋ ॥',
           meaning: {
             en: 'Jo jo, Sri Krishna, friend of moon-crested Shiva; jo jo, whose eyes are the moon and the sun; jo jo, son of the lunar race; jo jo, Supreme Self, beloved of Indira.',
@@ -1068,7 +1082,7 @@ export const dpLaliGovindaLali: Mantra = {
           },
         },
         {
-          n: 22,
+          n: 23,
           text: 'ತುಂಗ ಭವಭಂಗ ಜೋ ಜೋ ಪರಮಾತ್ಮ\nರಂಗ ಕೃಪಾಂಗ ಜೋ ಜೋ ।\nಮಂಗಳಾಪಾಂಗ ಜೋ ಜೋ ಮೋಹನಾಂಗ\nರಂಗವಿಠಲನೆ ಜೋ ಜೋ ॥',
           meaning: {
             en: 'Jo jo, exalted one who ends the round of birth; jo jo, Supreme Self, Ranga, compassion embodied; jo jo, of auspicious glance; jo jo, Ranga Vitthala of enchanting form.',
@@ -1732,8 +1746,8 @@ export const dpIndireyarasaneBaro: Mantra = {
   summary: 'Sri Vadiraja Tirtha calls the Lord to come in every one of his ten avatars: “Come, lord of Indira, moon-faced one, father of Kama, bearer of Mandara; come, Fish and Tortoise, Boar, Narasimha, Vamana and Parashurama; come, foe of Ravana, slayer of Kamsa, holy Buddha and Kalki.”',
   summaryKn: 'ಶ್ರೀ ವಾದಿರಾಜರು ದೇವರನ್ನು ಹತ್ತು ಅವತಾರಗಳ ಹೆಸರಿನಿಂದ ಕರೆಯುವ ಹಾಡು: “ಇಂದಿರೆಯರಸನೇ, ಇಂದುವದನನೇ, ಕಂದರ್ಪನ ತಂದೆಯೇ, ಮಂದರಧರನೇ ಬಾರೊ; ಮತ್ಸ್ಯ, ಕೂರ್ಮ, ವರಾಹ, ನರಸಿಂಹ, ವಾಮನ, ಪರಶುರಾಮನೇ ಬಾರೊ; ರಾವಣವೈರಿ, ಕಂಸಾರಿ, ಬೌದ್ಧ, ಕಲ್ಕಿಯೇ ಬಾರೊ.”',
   difficulty: 'easy',
-  completeness: 'partial',
-  contentNote: 'Only the pallavi and the two stanzas on the ten avatars are given; the printed text has further stanzas that the second source lacks.',
+  completeness: 'complete',
+  contentNote: 'The last three stanzas, ending with Vadiraja’s ankita Hayavadana, are from a single typed copy (raocollectionssongs.blogspot.com); no printed text of them was found.',
   sections: [
     {
       title: 'ಪಲ್ಲವಿ',
@@ -1766,6 +1780,30 @@ export const dpIndireyarasaneBaro: Mantra = {
           meaning: {
             en: 'Come, foe of Ravana; come, slayer of your uncle Kamsa; come, Lord who always grants his devotees’ wishes; come, holy Buddha; come, Sri Vasudeva, who shines as the horseman Kalki on this earth.',
             kn: 'ರಾವಣವೈರಿ ರಾಮನೇ ಬಾರೊ, ಮಾವ ಕಂಸನನ್ನು ಕೊಂದ ಕೃಷ್ಣನೇ ಬಾರೊ, ಯಾವಾಗಲೂ ಭಕ್ತರ ಅಭೀಷ್ಟವನ್ನು ಕೊಡುವ ದೇವನೇ ಬಾರೊ; ಪಾವನ ಬೌದ್ಧನೇ ಬಾರೊ, ಈ ಭೂಮಿಯಲ್ಲಿ ಕಲ್ಕಿಯೆಂಬ ಕುದುರೆ ಸವಾರನಾಗಿ ಮೆರೆಯುವ ಶ್ರೀ ವಾಸುದೇವನೇ ಬಾರಯ್ಯ.',
+          },
+        },
+        {
+          n: 3,
+          text: 'ಇಂಗಿತವರಿತು ಬಾರೊ ಇಂಗಡಲರಸನೆ ಬಾರೊ\nತುಂಗ ಗುಣಗಣ ಬಾರೊ ಸಂಗೀತಪ್ರಿಯ ಬಾರೊ ।\nಉಂಗುರಗಳಿಂದೊಪ್ಪುವ ಅಂಗುಳಿಯ ಸನ್ನೆಯಿಂದ\nಪೊಂಗೊಳಲೂದುವ ಚೆಲ್ವ ಮಂಗಳಮೂರುತಿ ಬಾರಯ್ಯ ॥',
+          meaning: {
+            en: 'Come, knowing what my heart wants; come, lord of the ocean of milk; come, you of lofty virtues; come, lover of music. Come, handsome and auspicious one, who plays the golden flute with fingers bright with rings.',
+            kn: 'ನನ್ನ ಮನದ ಇಂಗಿತವನ್ನು ಅರಿತು ಬಾರೊ, ಕ್ಷೀರಸಾಗರದ ಒಡೆಯನೇ ಬಾರೊ, ಉನ್ನತ ಗುಣಗಳುಳ್ಳವನೇ ಬಾರೊ, ಸಂಗೀತಪ್ರಿಯನೇ ಬಾರೊ; ಉಂಗುರಗಳಿಂದ ಶೋಭಿಸುವ ಬೆರಳುಗಳ ಸನ್ನೆಯಿಂದ ಹೊನ್ನಕೊಳಲನ್ನು ಊದುವ ಚೆಲುವ ಮಂಗಳಮೂರ್ತಿಯೇ ಬಾರಯ್ಯ.',
+          },
+        },
+        {
+          n: 4,
+          text: 'ಪಂಕಜನಾಭನೆ ಬಾರೊ ಶಂಕರಪ್ರಿಯನೆ ಬಾರೊ\nಕಂಕಣ ಕುಂಡಲ ಹಾರಾಲಂಕೃತ ಮೂರ್ತಿ ಬಾರೊ ।\nಕುಂಕುಮ ಶೋಭಿತ ಲಕ್ಷ್ಮೀ ಅಂಕಿತ ವಕ್ಷನೆ ಬಾರೊ\nಕೊಂಕಿದ ಕುರುಳ ಚೆಲ್ವ ಬಿಂಕವ ಬಿಟ್ಟು ಬಾರಯ್ಯ ॥',
+          meaning: {
+            en: 'Come, lotus-navelled one; come, dear to Shankara; come, form adorned with bracelets, earrings and garlands. Come, you who bear Lakshmi, bright with kumkuma, on your chest; handsome one with curling locks, put your pride aside and come.',
+            kn: 'ಪದ್ಮನಾಭನೇ ಬಾರೊ, ಶಂಕರನಿಗೆ ಪ್ರಿಯನೇ ಬಾರೊ, ಕಂಕಣ ಕುಂಡಲ ಹಾರಗಳಿಂದ ಅಲಂಕೃತನಾದ ಮೂರ್ತಿಯೇ ಬಾರೊ; ಕುಂಕುಮದಿಂದ ಶೋಭಿಸುವ ಲಕ್ಷ್ಮಿಯನ್ನು ಎದೆಯಲ್ಲಿ ಧರಿಸಿದವನೇ ಬಾರೊ, ಗುಂಗುರು ಕೂದಲಿನ ಚೆಲುವನೇ, ಬಿಂಕ ಬಿಟ್ಟು ಬಾರಯ್ಯ.',
+          },
+        },
+        {
+          n: 5,
+          text: 'ಕುಂಜರವರದನೆ ಬಾರೊ ಮಂಜುಳ ಭಾಷನೆ ಬಾರೊ\nಅಂಜುವ ದಾಸರಿಗೆ ವಜ್ರ ಪಂಜರ ಹರಿ ಬಾರೊ ।\nಸಂಜೆಯ ತೋರಿಸಿ ಧನಂಜಯನ ಕಾಯ್ದವನೆ ಬಾರೊ\nನಿರಂಜನ ಹಯವದನ ರಂಜಿತತೇಜ ಬಾರಯ್ಯ ॥',
+          meaning: {
+            en: 'Come, giver of boons to the elephant; come, sweet of speech; come, Hari, a cage of diamond for devotees in fear. Come, you who showed a false dusk and saved Dhananjaya (Arjuna); come, spotless Hayavadana of shining splendour.',
+            kn: 'ಗಜೇಂದ್ರನಿಗೆ ವರವಿತ್ತವನೇ ಬಾರೊ, ಮಧುರವಾಗಿ ಮಾತನಾಡುವವನೇ ಬಾರೊ, ಅಂಜುವ ದಾಸರಿಗೆ ವಜ್ರದ ಪಂಜರದಂತಿರುವ ಹರಿಯೇ ಬಾರೊ; ಸಂಜೆಯನ್ನು ತೋರಿಸಿ ಅರ್ಜುನನನ್ನು ಕಾಪಾಡಿದವನೇ ಬಾರೊ, ನಿರಂಜನನಾದ, ಬೆಳಗುವ ತೇಜಸ್ಸಿನ ಹಯವದನನೇ ಬಾರಯ್ಯ.',
           },
         },
       ],
@@ -2200,8 +2238,7 @@ export const dpEnuBedaliNinna: Mantra = {
   summary: 'Gopala Dasa asks what he should beg of the Lord: mother, father, brother, wealth, wife and sons failed Dhruva, Prahlada, Vali, Duryodhana, Ravana and Dhritarashtra. He asks only that Gopala Vitthala of the eastern hill keep him from ever begging of others.',
   summaryKn: 'ದೇವರಲ್ಲಿ ಏನು ಬೇಡಲಿ ಎಂದು ಗೋಪಾಲದಾಸರ ಪ್ರಶ್ನೆ: ತಾಯಿ, ತಂದೆ, ತಮ್ಮ, ಧನ, ಸತಿ, ಸುತರು ಧ್ರುವ, ಪ್ರಹ್ಲಾದ, ವಾಲಿ, ದುರ್ಯೋಧನ, ರಾವಣ, ಧೃತರಾಷ್ಟ್ರರಿಗೆ ಏನು ಕೊಟ್ಟರು? ಪರರನ್ನು ಬೇಡದಂತೆ ಮಾಡು ಎಂದಷ್ಟೇ ಮೂಡಲಗಿರಿಯ ಗೋಪಾಲವಿಠಲನನ್ನು ಬೇಡುವ ಹಾಡು.',
   difficulty: 'easy',
-  completeness: 'partial',
-  contentNote: 'One stanza found only in the printed Samagra Dasa Sahitya text (on kinsmen and on Nahusha’s palanquin) is not included, as the second source lacks it.',
+  completeness: 'complete',
   sections: [
     {
       title: 'ಪಲ್ಲವಿ',
@@ -2246,6 +2283,14 @@ export const dpEnuBedaliNinna: Mantra = {
         },
         {
           n: 4,
+          text: 'ಬಂಧುಗಳ ಕೊಡು ಎಂದು ಚೆಂದದಲಿ ಬೇಡುವೆನೆ\nಬಂಧುಗಳು ಸಲಹಿದರೆ ಗಜರಾಜನ ।\nಅಂದಣವ ಕೊಡು ಎಂದು ಅಂದದಲಿ ಬೇಡುವೆನೆ\nಅಂದಣೇರಿದ ನಹುಷನೇನಾದನಯ್ಯ ॥',
+          meaning: {
+            en: 'Shall I beg you prettily for kinsmen? Did his kinsmen save Gajaraja, the king of elephants? Shall I beg you gracefully for a palanquin? What became of Nahusha, who rode in a palanquin?',
+            kn: 'ಬಂಧುಗಳನ್ನು ಕೊಡು ಎಂದು ಚೆಂದವಾಗಿ ಬೇಡಲೇ? ಗಜರಾಜನನ್ನು ಅವನ ಬಂಧುಗಳು ಸಲಹಿದರೇ? ಪಲ್ಲಕ್ಕಿ ಕೊಡು ಎಂದು ಅಂದವಾಗಿ ಬೇಡಲೇ? ಪಲ್ಲಕ್ಕಿಯೇರಿದ ನಹುಷನು ಏನಾದನಯ್ಯ?',
+          },
+        },
+        {
+          n: 5,
           text: 'ಬೇಡುವೆನು ನಾ ನಿನ್ನ ಬೇಡತಕ್ಕುದ ದೇವ\nನೀಡೆನೆಂಬುದು ನಿನ್ನ ಮನದೊಳಿತ್ತೆ ।\nಮೂಡಲಗಿರಿವಾಸ ಗೋಪಾಲವಿಠಲ ಪರರ\nಬೇಡದಂತೆ ಎನ್ನ ಮಾಡಯ್ಯ ಹರಿಯೆ ॥',
           meaning: {
             en: 'I shall beg of you, Lord, only what is fit to be begged; if it is in your mind not to give, so be it. Gopala Vitthala who dwells on the eastern hill, make me such that I never beg of others, Hari.',
@@ -2504,8 +2549,8 @@ export const dpPranadevaNinallade: Mantra = {
   summary: 'Jagannatha Dasa to Mukhyaprana, the life-breath of all: apart from you I see no protector. When Indra’s thunderbolt made you withhold the breath of beings, you saved the world at Brahma’s word; you brought the Sanjivani herb from afar; where you are, Hari is; and you are dear to Jagannatha Vitthala.',
   summaryKn: 'ಎಲ್ಲರ ಪ್ರಾಣನಾದ ಮುಖ್ಯಪ್ರಾಣನಿಗೆ ಜಗನ್ನಾಥದಾಸರ ಹಾಡು: ನೀನಲ್ಲದೆ ಕಾಪಾಡುವವರನ್ನು ಕಾಣೆ. ಇಂದ್ರನ ವಜ್ರಾಯುಧದಿಂದ ನೊಂದಾಗ ಜೀವರ ಉಸಿರನ್ನು ತಡೆದು, ಬ್ರಹ್ಮನ ಮಾತಿಗೆ ಜಗತ್ತನ್ನು ಸಲಹಿದೆ; ದೂರದಿಂದ ಸಂಜೀವಿನಿಯನ್ನು ತಂದೆ; ನೀನಿದ್ದಲ್ಲಿ ಹರಿ ಇರುವನು; ಜಗನ್ನಾಥವಿಠಲನ ಪ್ರೀತಿಪಾತ್ರ ನೀನು.',
   difficulty: 'easy',
-  completeness: 'partial',
-  contentNote: 'One stanza (on Angada and the monkeys searching for Sita) is omitted because the copies disagree in it and the printed text is illegible there.',
+  completeness: 'complete',
+  contentNote: 'The stanza on Angada and the monkeys is from a single typed copy (madhwafestivals.com); the printed Samagra Dasa Sahitya text is illegible there, and the wording of its last two lines is uncertain.',
   sections: [
     {
       title: 'ಪಲ್ಲವಿ',
@@ -2547,6 +2592,14 @@ export const dpPranadevaNinallade: Mantra = {
         },
         {
           n: 2,
+          text: 'ಅಂಗದ ಪ್ರಮುಖ ಪ್ಲವಂಗರು ರಾಮನ\nಅಂಗನೆಯನು ಹುಡುಕೆ ।\nತಿಂಗಳು ಮೀರಲು ಕಪಿವರ\nಪುಂಗವ ಪಾಲಿಸಿದೆ ಮುಖ್ಯ ॥',
+          meaning: {
+            en: 'When Angada and the other monkeys searched for Rama’s wife and the month they were given had run out, you, best of monkeys, saved them, Mukhyaprana.',
+            kn: 'ಅಂಗದನೇ ಮೊದಲಾದ ಕಪಿಗಳು ರಾಮನ ಪತ್ನಿ ಸೀತೆಯನ್ನು ಹುಡುಕುತ್ತಿರಲು, ಕೊಟ್ಟ ಒಂದು ತಿಂಗಳ ಗಡುವು ಮೀರಲು, ಕಪಿಶ್ರೇಷ್ಠನಾದ ನೀನು ಅವರನ್ನು ಪಾಲಿಸಿದೆ, ಮುಖ್ಯಪ್ರಾಣನೇ.',
+          },
+        },
+        {
+          n: 3,
           text: 'ಸಾವಿನ ಪಾಶದಿ ರಾವಣ ನೀಲ ಸು\nಗ್ರೀವ ಮುಖ್ಯರ ಬಿಗಿಯೆ ।\nಸಾವಿರದೈವತ್ತು ಗಾವುದದಲ್ಲಿಹ ಸಂ\nಜೀವನ ಜವದಿ ತಂದೆ ಮುಖ್ಯ ॥',
           meaning: {
             en: 'When Ravana’s side bound Nila, Sugriva and the other leaders in the noose of death, you swiftly brought the Sanjivani herb from a thousand and fifty leagues away, Mukhyaprana.',
@@ -2554,7 +2607,7 @@ export const dpPranadevaNinallade: Mantra = {
           },
         },
         {
-          n: 3,
+          n: 4,
           text: 'ಪರಿಸರ ನೀನಿರೆ ಹರಿತಾನಿಪ್ಪನು\nಇರದಿರೆ ತಾನಿರನು ।\nಕರಣನಿಯಾಮಕ ಸುರರ ಗುರುವೇ ನೀ\nಕರುಣಿಸೆ ಕರುಣಿಸುವ ಮುಖ್ಯ ॥',
           meaning: {
             en: 'Where you are present, Hari himself stays; where you are not, he does not stay. Governor of the senses, teacher of the gods, when you are gracious, he is gracious, Mukhyaprana.',
@@ -2562,7 +2615,7 @@ export const dpPranadevaNinallade: Mantra = {
           },
         },
         {
-          n: 4,
+          n: 5,
           text: 'ಭೂತೇಂದ್ರಿಯದಧಿನಾಥ ನಿಯಾಮಕ\nಆ ತೈಜಸ ಹರನ ।\nತಾತನೆನಿಪ ಜಗನ್ನಾಥವಿಠಲನ\nಪ್ರೀತಿಪಾತ್ರನಾದೆ ಮುಖ್ಯ ॥',
           meaning: {
             en: 'Lord and governor of the elements and the senses, and of Rudra, the lord of the taijasa (ego-born) principles: you have become the beloved of Jagannatha Vitthala, who is called the father of all, Mukhyaprana.',
@@ -3035,8 +3088,8 @@ export const dpRaghavendraSuladiGopalaDasa: Mantra = {
   summary: 'A suladi (a composition in a fixed sequence of talas) by Gopala Dasa on Mantralaya: Raghavendra, once Prahlada who performed a sacrifice here, gave up his body at this spot, and Hari himself, as Narasimha, Krishna, Rama and Vedavyasa, abides in him to grant the wishes of those who come; new worship and festivals are held here every day, for this is a place where mantras bear fruit.',
   summaryKn: 'ಮಂತ್ರಾಲಯದ ಮೇಲೆ ಗೋಪಾಲದಾಸರ ಸುಳಾದಿ (ನಿಯತ ತಾಳಗಳ ಸರಣಿಯ ರಚನೆ): ಹಿಂದೆ ಪ್ರಹ್ಲಾದನಾಗಿ ಇಲ್ಲಿ ಯಾಗ ಮಾಡಿದ ರಾಘವೇಂದ್ರರು ಇಲ್ಲೇ ಶರೀರ ತ್ಯಜಿಸಿದರು; ನರಹರಿ, ಕೃಷ್ಣ, ರಾಮ, ವೇದವ್ಯಾಸರಾಗಿ ಹರಿಯೇ ಅವರಲ್ಲಿ ನೆಲೆಸಿ ಬಂದವರ ಇಷ್ಟಾರ್ಥ ಕೊಡುತ್ತಾನೆ; ದಿನದಿನಕ್ಕೂ ಇಲ್ಲಿ ನೂತನ ಪೂಜೆ-ಉತ್ಸವಗಳು; ಇದು ಮಂತ್ರಸಿದ್ಧಿಯ ಕ್ಷೇತ್ರ.',
   difficulty: 'medium',
-  completeness: 'partial',
-  contentNote: 'Four lines of the Adi tala section found only in the printed text, and one found only in the second source, are omitted.',
+  completeness: 'complete',
+  contentNote: 'The Adi tala section follows the printed Samagra Dasa Sahitya text (vol. 12).',
   sections: [
     {
       title: 'ಧ್ರುವತಾಳ',
@@ -3095,10 +3148,10 @@ export const dpRaghavendraSuladiGopalaDasa: Mantra = {
       titleEn: 'Adi tala',
       verses: [
         {
-          text: 'ದಿನದಿನಕಿಲ್ಲಿ ನೂತನ ಪೂಜೆಗಳಾಗುವುವು\nದಿನದಿನಕಿಲ್ಲಿ ನೂತನ ಉತ್ಸವಗಳಾಗುವುವು\nದಿನದಿನಕಿಲ್ಲಿ ನೂತನ ವಾರ್ತೆಗಳಾಗುವುವು\nಜನರ ಸಂದಣಿ ಪ್ರತಿದಿನ ವಿಪ್ರಭೋಜನ ।\nಜಗನ್ನಾಥ ತಾನಿಲ್ಲಿ ಅನುವಾಗಿ ತಾ ನಿಂದು\nಜನರ ಪಾಲಿಪುದಕನುಮಾನ ಸಲ್ಲದು\nಗುಣಗಣಪರಿಪೂರ್ಣ ಗೋಪಾಲವಿಠಲ\nಅಣೋರಣೀಯನೆಂಬುವಗೆ ಎಣೆಯಾರೊ ಜಗದೊಳಗೆ ॥',
+          text: 'ದಿನದಿನಕಿಲ್ಲಿ ನೂತನ ಪೂಜೆಗಳಾಗುವುವು\nದಿನದಿನಕಿಲ್ಲಿ ನೂತನ ಉತ್ಸವಗಳಾಗುವುವು\nದಿನದಿನಕಿಲ್ಲಿ ನೂತನ ವಾರ್ತೆಗಳಾಗುವುವು\nಜನರ ಸಂದಣಿ ಪ್ರತಿದಿನ ವಿಪ್ರಭೋಜನ\nಜನರ ಕೈಯಿಂದ ಪ್ರತಿಜನರೀಪ್ಸಿತ ತುಂಬುವರು\nಜನುಮ ಸಫಲ ತಮ್ಮ ಜನನವ ನೀಗುವರು\nದಿನಸಪ್ತಶತವರುಷದಿನ ಪರಿಯಂತರ ।\nದಿನಕರಶತತೇಜ ಜಗನ್ನಾಥ ತಾನಿಲ್ಲಿ ಅನುವಾಗಿ ತಾ ನಿಂದು\nಜನರ ಪಾಲಿಪುದಕನುಮಾನ ಸಲ್ಲದು\nಗುಣಗಣಪರಿಪೂರ್ಣ ಗೋಪಾಲವಿಠಲ\nಅಣೋರಣೀಯನೆಂಬುವಗೆ ಎಣೆಯಾರೊ ಜಗದೊಳಗೆ ॥',
           meaning: {
-            en: 'Day after day new worship is offered here, new festivals are held, new wonders are told; there are crowds of people and the feeding of brahmins every day. The Lord of the world stands here, ready, and there is no doubt that he protects the people. Who in the world equals Gopala Vitthala, full of every virtue, who is called subtler than the subtlest?',
-            kn: 'ಇಲ್ಲಿ ದಿನದಿನಕ್ಕೂ ನೂತನ ಪೂಜೆಗಳು, ನೂತನ ಉತ್ಸವಗಳು, ನೂತನ ವಾರ್ತೆಗಳು ಆಗುತ್ತವೆ; ಜನಸಂದಣಿ, ಪ್ರತಿದಿನ ವಿಪ್ರಭೋಜನ. ಜಗನ್ನಾಥನು ತಾನೇ ಇಲ್ಲಿ ಅನುಕೂಲವಾಗಿ ನಿಂತು ಜನರನ್ನು ಪಾಲಿಸುವುದರಲ್ಲಿ ಸಂಶಯ ಸಲ್ಲದು. ಗುಣಗಣಪರಿಪೂರ್ಣನಾದ, ಅಣುವಿಗೂ ಅಣುವೆನಿಸಿದ ಗೋಪಾಲವಿಠಲನಿಗೆ ಜಗತ್ತಿನಲ್ಲಿ ಸರಿಸಮಾನರು ಯಾರು?',
+            en: 'Day after day new worship is offered here, new festivals are held, new wonders are told; there are crowds of people and the feeding of brahmins every day. Through the hands of people he fulfils each person’s wishes; their lives fulfilled, they are freed from birth. For seven hundred years the Lord of the world, bright as a hundred suns, stands here, ready, and there is no doubt that he protects the people. Who in the world equals Gopala Vitthala, full of every virtue, who is called subtler than the subtlest?',
+            kn: 'ಇಲ್ಲಿ ದಿನದಿನಕ್ಕೂ ನೂತನ ಪೂಜೆಗಳು, ನೂತನ ಉತ್ಸವಗಳು, ನೂತನ ವಾರ್ತೆಗಳು ಆಗುತ್ತವೆ; ಜನಸಂದಣಿ, ಪ್ರತಿದಿನ ವಿಪ್ರಭೋಜನ. ಜನರ ಕೈಯಿಂದಲೇ ಪ್ರತಿಯೊಬ್ಬರ ಅಭೀಷ್ಟವನ್ನು ತುಂಬುವರು; ಜನ್ಮ ಸಫಲವಾಗಿ ಅವರು ಹುಟ್ಟನ್ನು ನೀಗುವರು. ಏಳುನೂರು ವರ್ಷಗಳವರೆಗೆ ನೂರು ಸೂರ್ಯರ ತೇಜಸ್ಸಿನ ಜಗನ್ನಾಥನು ತಾನೇ ಇಲ್ಲಿ ಅನುಕೂಲವಾಗಿ ನಿಂತು ಜನರನ್ನು ಪಾಲಿಸುವುದರಲ್ಲಿ ಸಂಶಯ ಸಲ್ಲದು. ಗುಣಗಣಪರಿಪೂರ್ಣನಾದ, ಅಣುವಿಗೂ ಅಣುವೆನಿಸಿದ ಗೋಪಾಲವಿಠಲನಿಗೆ ಜಗತ್ತಿನಲ್ಲಿ ಸರಿಸಮಾನರು ಯಾರು?',
           },
         },
       ],

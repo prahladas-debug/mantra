@@ -1505,10 +1505,10 @@ export const dpTalaBekuTakkaMela: Mantra = {
       titleEn: 'Pallavi',
       verses: [
         {
-          text: 'ತಾಳ ಬೇಕು ತಕ್ಕ ಮೇಳ ಬೇಕು ॥',
+          text: 'ತಾಳ ಬೇಕು ತಕ್ಕ ಮೇಳ ಬೇಕು ।\nಶ್ರೀಲೋಲನ ಚರಿತೆಯ ಹೇಳುವ ದಾಸರಿಗೆ ॥',
           meaning: {
-            en: 'You need rhythm and a fitting accompaniment.',
-            kn: 'ತಾಳ ಬೇಕು, ತಕ್ಕ ಮೇಳ ಬೇಕು.',
+            en: 'The dasas who tell the story of Vishnu, Lakshmi’s beloved, need rhythm and a fitting accompaniment.',
+            kn: 'ಶ್ರೀಲೋಲನಾದ ವಿಷ್ಣುವಿನ ಚರಿತೆಯನ್ನು ಹೇಳುವ ದಾಸರಿಗೆ ತಾಳ ಬೇಕು, ತಕ್ಕ ಮೇಳ ಬೇಕು.',
           },
         },
       ],
@@ -1536,6 +1536,14 @@ export const dpTalaBekuTakkaMela: Mantra = {
           meaning: {
             en: 'There must be metre and rhyme, and the song must end firmly on the beat; there must be deep love for Vishnu, the father of Manmatha. The voice must be pure, and one must sing with understanding; give up anxiety and keep a cheerful face. There must be those who know, joy must grow, and one must say that Purandara Vitthala alone is the supreme God.',
             kn: 'ಯತಿಪ್ರಾಸವಿರಬೇಕು, ಗತಿಗೆ ನಿಲ್ಲಿಸಬೇಕು; ರತಿಪತಿಪಿತನಾದ ವಿಷ್ಣುವಿನಲ್ಲಿ ಅತಿ ಪ್ರೇಮವಿರಬೇಕು. ಗಂಟಲು ಶುದ್ಧವಿರಬೇಕು, ತಿಳಿದು ಹೇಳಬೇಕು; ಕಳವಳ ಬಿಡಬೇಕು, ಮುಖದಲ್ಲಿ ಕಳೆ ಇರಬೇಕು. ಅರಿತವರು ಇರಬೇಕು, ಹರ್ಷ ಹೆಚ್ಚಬೇಕು; ಪುರಂದರವಿಠಲನೇ ಪರದೈವ ಎನ್ನಬೇಕು.',
+          },
+        },
+        {
+          n: 2,
+          text: 'ಹರಿದಾಸನಾಗಿರಬೇಕು ಹರುಷ ಪಡುತಿರಬೇಕು ।\nಪುರಂದರವಿಠಲನಲಿ ಸ್ಥಿರಚಿತ್ತವಿರಬೇಕು ॥',
+          meaning: {
+            en: 'One must be a servant of Hari and stay joyful; the mind must be steady on Purandara Vitthala.',
+            kn: 'ಹರಿದಾಸನಾಗಿರಬೇಕು, ಸದಾ ಹರ್ಷಪಡುತ್ತಿರಬೇಕು; ಪುರಂದರವಿಠಲನಲ್ಲಿ ಸ್ಥಿರವಾದ ಚಿತ್ತವಿರಬೇಕು.',
           },
         },
       ],
@@ -1628,8 +1636,7 @@ export const dpBharatideviNeneNene: Mantra = {
   summary: 'A short hymn to Bharati Devi, the wife of Vayu (Marut): “Remember Bharati Devi; to a steady devotee she is a home.” It describes her anklets, bangles and earrings and ends by calling her the servant of Purandara Vitthala.',
   summaryKn: 'ವಾಯುದೇವರ ಪತ್ನಿ ಭಾರತೀದೇವಿಯ ಸ್ತುತಿ: “ಭಾರತಿದೇವಿಯನ್ನು ನೆನೆ ನೆನೆ; ನಿರಂತರ ಭಕ್ತಿಗೆ ಇದು ಮನೆ.” ಅವಳ ಗೆಜ್ಜೆ, ಕಂಕಣ, ಕುಂಡಲಗಳ ವರ್ಣನೆ, ಕೊನೆಗೆ ಪುರಂದರವಿಠಲನ ಕಿಂಕರಿ ಎಂಬ ನುಡಿ.',
   difficulty: 'easy',
-  completeness: 'partial',
-  contentNote: 'The last line is given as far as the printed copy has it (the closing word करुणॆ, found only in the typed copy, is left out).',
+  completeness: 'complete',
   sections: [
     {
       title: 'ಪಲ್ಲವಿ',
@@ -1666,10 +1673,10 @@ export const dpBharatideviNeneNene: Mantra = {
         },
         {
           n: 3,
-          text: 'ಶಂಕರ ಸುರವರ ವಂದಿತ ಚರಣೆ\nಕಿಂಕರಿ ಪುರಂದರವಿಠಲ ॥',
+          text: 'ಶಂಕರ ಸುರವರ ವಂದಿತ ಚರಣೆ\nಕಿಂಕರಿ ಪುರಂದರವಿಠಲನ ಕರುಣೆ ॥',
           meaning: {
-            en: 'Your feet are worshipped by Shankara and the chief gods; you are the servant of Purandara Vitthala.',
-            kn: 'ಶಂಕರ ಮೊದಲಾದ ಶ್ರೇಷ್ಠ ದೇವತೆಗಳಿಂದ ವಂದಿತವಾದ ಚರಣಗಳುಳ್ಳವಳು; ಪುರಂದರವಿಠಲನ ಕಿಂಕರಿ.',
+            en: 'Your feet are worshipped by Shankara and the chief gods; servant of Purandara Vitthala, you are his grace.',
+            kn: 'ಶಂಕರ ಮೊದಲಾದ ಶ್ರೇಷ್ಠ ದೇವತೆಗಳಿಂದ ವಂದಿತವಾದ ಚರಣಗಳುಳ್ಳವಳು; ಪುರಂದರವಿಠಲನ ಕಿಂಕರಿ, ಅವನ ಕರುಣೆಯ ರೂಪ.',
           },
         },
       ],
