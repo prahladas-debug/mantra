@@ -13,7 +13,7 @@ import { pathToFileURL } from 'node:url';
 import Sanscript from '@indic-transliteration/sanscript';
 import type { Mantra } from '../src/data/types';
 
-const CATEGORIES = ['nitya', 'gita', 'sundarakanda', 'devimahatmya', 'harikathamrutasara', 'sumadhvavijaya', 'vedic', 'sahasranama', 'stotra', 'madhva', 'dasara-pada', 'sandhya', 'puja', 'homa', 'samskara', 'kirtana'];
+const CATEGORIES = ['nitya', 'gita', 'sundarakanda', 'devimahatmya', 'harikathamrutasara', 'sumadhvavijaya', 'vedic', 'sahasranama', 'stotra', 'madhva', 'dasara-pada', 'sandhya', 'puja', 'homa', 'samskara', 'kirtana', 'aarti'];
 const DIR = resolve(__dirname, '../src/data/texts');
 
 // Devanagari block, Vedic extensions, whitespace, ZWJ/ZWNJ, avagraha, basic punctuation.

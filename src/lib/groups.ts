@@ -75,6 +75,10 @@ function groupOf(m: Mantra): [id: string, title: string, order: number] {
       if (m.sourceScript === 'tamil') return ['tamil', 'Tamil', 0];
       if (m.sourceScript === 'telugu') return ['telugu', 'Telugu', 1];
       return /aarti/.test(id) ? ['aarti', 'Hindi · Aartis', 3] : ['hindi', 'Hindi · Chalisas and stotras', 2];
+    case 'aarti': {
+      const [g, t] = deityGroup(m);
+      return [g, t, DEITY_ORDER.indexOf(g)];
+    }
     case 'vedic':
       if (/upanishad|shikshavalli/.test(id)) return ['upanishad', 'Upanishads', 2];
       if (/rudram|atharvashirsha|mantra-pushpam|shanti/.test(id)) return ['other', 'Rudram and other Vedic texts', 1];

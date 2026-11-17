@@ -15,7 +15,7 @@ import { useShowEnglish } from '../../components/useGloss';
 export const SHELVES: { title: string; categories: CategoryId[] }[] = [
   { title: T('Every day'), categories: ['nitya', 'sandhya', 'puja'] },
   { title: T('Stotras and names'), categories: ['stotra', 'sahasranama', 'madhva', 'vedic'] },
-  { title: T('Devotional songs'), categories: ['dasara-pada', 'kirtana'] },
+  { title: T('Devotional songs'), categories: ['dasara-pada', 'kirtana', 'aarti'] },
   { title: T('Yajnas and rites'), categories: ['homa', 'samskara'] },
 ];
 
