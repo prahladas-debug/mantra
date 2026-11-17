@@ -38,14 +38,14 @@ for n, line in enumerate(open(inp, encoding='utf8'), 1):
         blocks[cur] = line[len(tag):].strip().replace('\\n', '\n'); continue
     sys.exit(f'line {n}: unexpected: {line[:80]}')
 
-holes = lambda s: sorted(re.findall(r'\{(\w+)\}', s))
+holes = lambda s: sorted(re.findall(r'\{(\w+)(?::loc)?\}', s))
 bad = []
 for i, t in blocks.items():
     if i not in keys: bad.append(f'{i}: unknown id (re-run --missing)'); continue
     k = keys[i]
     if not t: bad.append(f'{i}: no {tag} line'); continue
     if holes(k) != holes(t): bad.append(f'{i}: placeholders {holes(t)} should be {holes(k)}')
-    if re.search(r'[A-Za-zऀ-෿]', re.sub(r'\{\w+\}', '', k)) and not re.search(SCRIPT[lang], t): bad.append(f'{i}: not in the {lang} script')
+    if re.search(r'[A-Za-zऀ-෿]', re.sub(r'\{\w+(?::loc)?\}', '', k)) and not re.search(SCRIPT[lang], t): bad.append(f'{i}: not in the {lang} script')
 if bad: sys.exit('refused:\n  ' + '\n  '.join(bad[:30]))
 for i, t in blocks.items(): dict_[keys[i]] = t
 out = head + json.dumps(dict(sorted(dict_.items())), ensure_ascii=False, indent=2) + ';\n'

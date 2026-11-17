@@ -62,7 +62,7 @@ export function collectKeys(): string[] {
 }
 
 export const keyId = (k: string) => createHash('sha1').update(k).digest('hex').slice(0, 8);
-const holes = (s: string) => [...s.matchAll(/\{(\w+)\}/g)].map((m) => m[1]).sort().join(',');
+const holes = (s: string) => [...s.matchAll(/\{(\w+)(?::loc)?\}/g)].map((m) => m[1]).sort().join(',');
 
 if (require.main === module) {
   const keys = collectKeys();
@@ -87,7 +87,7 @@ if (require.main === module) {
         if (!set.has(k)) { stale++; continue; }
         have++;
         if (holes(k) !== holes(v)) { broken++; console.error(`ERROR  ${lang}: placeholders differ in "${k.slice(0, 60)}"`); }
-        if (/[A-Za-z\u0900-\u0DFF]/.test(k.replace(/\{\w+\}/g, '')) && !SCRIPT[lang].test(v)) { broken++; console.error(`ERROR  ${lang}: not in ${lang} script: "${v.slice(0, 60)}"`); }
+        if (/[A-Za-z\u0900-\u0DFF]/.test(k.replace(/\{\w+(?::loc)?\}/g, '')) && !SCRIPT[lang].test(v)) { broken++; console.error(`ERROR  ${lang}: not in ${lang} script: "${v.slice(0, 60)}"`); }
       }
       summary.push(`${lang} ${have}/${keys.length}${stale ? ` (+${stale} unused)` : ''}`);
     }

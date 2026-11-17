@@ -38,9 +38,9 @@ export interface GreatWork {
 }
 
 export const GREAT_WORKS: GreatWork[] = [
-  { category: 'gita', titleEn: 'Bhagavad Gita', size: T('18 chapters'), about: T('700 verses'), lines: ['भगवद्गीता'], own: { kannada: ['ಭಗವದ್ಗೀತೆ'], telugu: ['భగవద్గీత'] }, cloth: '#7E2A12', edge: '#A8431F', art: 'gita' },
+  { category: 'gita', titleEn: 'Bhagavad Gita', size: T('18 chapters'), about: T('700 verses'), lines: ['भगवद्गीता'], own: { kannada: ['ಭಗವದ್ಗೀತೆ'], telugu: ['భగవద్గీత'] }, cloth: '#7E2A12', edge: '#A8431F' },
   { textId: 'vishnu-sahasranama', titleEn: 'Vishnu Sahasranama', size: T('1000 names'), lines: ['विष्णु', 'सहस्रनाम'], cloth: '#1E3A64', edge: '#2F558C', art: 'vishnu' },
-  { category: 'sundarakanda', titleEn: 'Sundarakanda', size: T('68 sargas'), about: 'Ramayana', lines: ['सुन्दर', 'काण्ड'], cloth: '#2C5638', edge: '#3F7650', art: 'sundarakanda' },
+  { category: 'sundarakanda', titleEn: 'Sundarakanda', size: T('68 sargas'), about: 'Ramayana', lines: ['सुन्दर', 'काण्ड'], cloth: '#2C5638', edge: '#3F7650' },
   { category: 'ramayana', titleEn: 'Valmiki Ramayana', size: T('7 kandas'), about: T('24,000 verses'), lines: ['वाल्मीकि', 'रामायण'], cloth: '#3F4A17', edge: '#5C6B22', art: 'ramayana' },
   { category: 'mahabharata', titleEn: 'Mahabharata', size: T('18 parvas'), about: 'Vyasa', lines: ['महाभारतम्'], own: { kannada: ['ಮಹಾಭಾರತ'], telugu: ['మహాభారతం'], tamil: ['மகாபாரதம்'], malayalam: ['മഹാഭാരതം'], gujarati: ['મહાભારત'], bengali: ['মহাভারত'], oriya: ['ମହାଭାରତ'] }, cloth: '#4E1E18', edge: '#7A3328', art: 'mahabharata' },
   { category: 'harikathamrutasara', titleEn: 'Harikathamrutasara', size: T('32 sandhis'), about: 'Jagannatha Dasa', lines: ['हरिकथामृत', 'सार'], cloth: '#1D5458', edge: '#2E7479', tradition: 'madhva' },

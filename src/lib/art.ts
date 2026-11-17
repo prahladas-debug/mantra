@@ -1,7 +1,8 @@
 /**
- * Paintings in the public domain (Raja Ravi Varma and his press, and an 18th–19th-century
- * painting of Krishna and Arjuna), from Wikimedia Commons: see assets/art/SOURCES.md. Cropped by
- * tools/builders/art/process.py into a 3:4 card, a wide banner and a square for round images.
+ * Paintings in the public domain (Raja Ravi Varma and prints of his Ravi Varma Press), from
+ * Wikimedia Commons: see assets/art/SOURCES.md. Cropped by tools/builders/art/process.py into a
+ * 3:4 card, a wide banner and a square for round images. A work gets a painting only where one
+ * shows its own subject; the others (the Gita, Sundarakanda, ...) keep their cloth covers.
  */
 import type { ImageSourcePropType } from 'react-native';
 
@@ -12,15 +13,12 @@ export interface Art {
 }
 
 export const ART = {
-  gita: { card: require('../../assets/art/gita-card.jpg'), hero: require('../../assets/art/gita-hero.jpg'), thumb: require('../../assets/art/gita-thumb.jpg') },
   mahabharata: { card: require('../../assets/art/mahabharata-card.jpg'), hero: require('../../assets/art/mahabharata-hero.jpg'), thumb: require('../../assets/art/mahabharata-thumb.jpg') },
   vishnu: { card: require('../../assets/art/vishnu-card.jpg'), hero: require('../../assets/art/vishnu-hero.jpg'), thumb: require('../../assets/art/vishnu-thumb.jpg') },
   ramayana: { card: require('../../assets/art/ramayana-card.jpg'), hero: require('../../assets/art/ramayana-hero.jpg'), thumb: require('../../assets/art/ramayana-thumb.jpg') },
   hanuman: { card: require('../../assets/art/hanuman-card.jpg'), hero: require('../../assets/art/hanuman-hero.jpg'), thumb: require('../../assets/art/hanuman-thumb.jpg') },
-  sundarakanda: { card: require('../../assets/art/sundarakanda-card.jpg'), hero: require('../../assets/art/sundarakanda-hero.jpg'), thumb: require('../../assets/art/sundarakanda-thumb.jpg') },
   durga: { card: require('../../assets/art/durga-card.jpg'), hero: require('../../assets/art/durga-hero.jpg'), thumb: require('../../assets/art/durga-thumb.jpg') },
   lakshmi: { card: require('../../assets/art/lakshmi-card.jpg'), hero: require('../../assets/art/lakshmi-hero.jpg'), thumb: require('../../assets/art/lakshmi-thumb.jpg') },
-  saraswati: { card: require('../../assets/art/saraswati-card.jpg'), hero: require('../../assets/art/saraswati-hero.jpg'), thumb: require('../../assets/art/saraswati-thumb.jpg') },
   shiva: { card: require('../../assets/art/shiva-card.jpg'), hero: require('../../assets/art/shiva-hero.jpg'), thumb: require('../../assets/art/shiva-thumb.jpg') },
   ganesha: { card: require('../../assets/art/ganesha-card.jpg'), hero: require('../../assets/art/ganesha-hero.jpg'), thumb: require('../../assets/art/ganesha-thumb.jpg') },
   subrahmanya: { card: require('../../assets/art/subrahmanya-card.jpg'), hero: require('../../assets/art/subrahmanya-hero.jpg'), thumb: require('../../assets/art/subrahmanya-thumb.jpg') },

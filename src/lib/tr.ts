@@ -8,10 +8,48 @@ import { UI_STRINGS } from '../i18n';
 export type UiLang = MeaningLang;
 export type Vars = Record<string, string | number>;
 
-/** The translation of an English interface string, with {name} placeholders filled. */
+/**
+ * The translation of an English interface string, with {name} placeholders filled. A translation
+ * can write {name:loc} for the name with the locative ending ("in ..."), which in Kannada and
+ * Tamil depends on how the word ends: ಭಗವದ್ಗೀತೆಯಲ್ಲಿ, ರಾಮಾಯಣದಲ್ಲಿ; பகவத்கீதையில், இராமாயணத்தில்.
+ */
 export function tr(lang: UiLang, s: string, vars?: Vars): string {
   const out = (lang === 'en' ? undefined : UI_STRINGS[lang]?.[s]) ?? s;
-  return vars ? out.replace(/\{(\w+)\}/g, (m, k: string) => (k in vars ? String(vars[k]) : m)) : out;
+  return vars
+    ? out.replace(/\{(\w+)(?::(loc))?\}/g, (m, k: string, form?: string) => {
+        if (!(k in vars)) return m;
+        const v = String(vars[k]);
+        return form === 'loc' ? locative(lang, v) : v;
+      })
+    : out;
+}
+
+/** Position of an Indic letter within its script's block (the Brahmic blocks share one layout). */
+const indicOffset = (c: number) => (c >= 0x900 && c < 0xe00 ? (c - 0x900) % 0x80 : -1);
+const I_E_AI = new Set([0x3f, 0x40, 0x45, 0x46, 0x47, 0x48]); // i ī e ē ai vowel signs
+
+/** A word with the locative ending ("in"), for the languages whose translations ask for it. */
+export function locative(lang: UiLang, word: string): string {
+  const w = word.trimEnd();
+  const last = w.codePointAt(w.length - 1) ?? 0;
+  const off = indicOffset(last);
+  if (lang === 'kn') {
+    if (off === 0x03) return locative(lang, w.slice(0, -1)); // visarga: ರಾಮಃ → ರಾಮ
+    if (off === 0x02) return w.slice(0, -1) + 'ದಲ್ಲಿ'; // anusvara: ಭಾರತಂ → ಭಾರತದಲ್ಲಿ
+    if (off === 0x4d) return w + 'ನಲ್ಲಿ';
+    if (off === 0x41 || off === 0x42) return w + 'ವಿನಲ್ಲಿ';
+    if (I_E_AI.has(off)) return w + 'ಯಲ್ಲಿ';
+    if (off < 0) return w + (/[eiy]$/i.test(w) ? 'ಯಲ್ಲಿ' : /u$/i.test(w) ? 'ವಿನಲ್ಲಿ' : 'ದಲ್ಲಿ');
+    return w + 'ದಲ್ಲಿ'; // consonant with its inherent a, or ā
+  }
+  if (lang === 'ta') {
+    if (last < 0xb80 || last >= 0xc00) return w + 'இல்';
+    if (w.endsWith('ம்')) return w.slice(0, -2) + 'த்தில்'; // இராமாயணம் → இராமாயணத்தில்
+    if (off === 0x4d || off === 0x41) return w.slice(0, -1) + 'ில்';
+    if (I_E_AI.has(off)) return w + 'யில்';
+    return w + 'வில்';
+  }
+  return w;
 }
 
 /** Whether a string has a translation (for optional English-only lines such as festival subtitles). */
