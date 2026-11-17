@@ -55,7 +55,9 @@
         {
           "enforceContrast": false
         }
-      ]
+      ],
+      "expo-sharing",
+      "expo-widgets"
     ],
     "scheme": "mantrasangraha",
     "description": "Nandadeepa: mantras, stotras, parayana texts, devotional songs, puja and rites, and a panchanga, in Kannada, Devanagari, Telugu, Tamil, Malayalam and more.",
