@@ -1,20 +1,47 @@
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { router } from 'expo-router';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 import { useState } from 'react';
-import { Alert, Linking, Pressable, ScrollView, StyleSheet, Switch, Text, View } from 'react-native';
+import { ActivityIndicator, Alert, Linking, Platform, Pressable, ScrollView, StyleSheet, Switch, Text, View } from 'react-native';
 import { CityPicker } from '../components/CalendarBar';
 import { ThemeSwatches } from '../components/reader/DisplayPanel';
 import { SectionHeading, Segmented } from '../components/ui';
+import { backupFileName, buildBackup, cleanJapa, mergeBackup, summarize, validateBackup, type BackupError, type BackupSummary } from '../lib/backup';
+import { pickBackupFile, saveBackupFile } from '../lib/backupFile';
 import { leading, scriptFont } from '../lib/fonts';
+import { JAPA_KEY } from '../lib/japa';
 import { MEANING_PREFS } from '../lib/meaning';
 import { cityById, cityLabel } from '../lib/panchanga';
 import { ensurePermission, remindersSupported } from '../lib/reminders';
-import { UI_PREFS, useI18n } from '../lib/i18n';
+import { T, UI_PREFS, useI18n } from '../lib/i18n';
 import { useSettings } from '../lib/settings';
 import { SCRIPTS, translit, type ScriptId } from '../lib/transliterate';
 
 const SAMPLE = 'शान्ताकारं भुजगशयनं पद्मनाभं सुरेशम्';
 const TIMES = ['18:00', '19:00', '20:00', '21:00'];
+
+const BACKUP_ERRORS: Record<BackupError, string> = {
+  unreadable: T('This file could not be read as a backup.'),
+  foreign: T('This is not a Nandadeepa backup file.'),
+  newer: T('This backup was made by a newer version of the app. Update the app and try again.'),
+  malformed: T('This backup file is damaged or incomplete, so nothing was changed.'),
+};
+
+/** A message (the web has no native alert in React Native Web, so it uses the browser's). */
+function notify(title: string, message: string) {
+  if (Platform.OS === 'web') globalThis.alert?.(`${title}\n\n${message}`);
+  else Alert.alert(title, message);
+}
+
+function confirm(title: string, message: string, yes: string, no: string): Promise<boolean> {
+  if (Platform.OS === 'web') return Promise.resolve(globalThis.confirm?.(`${title}\n\n${message}`) ?? false);
+  return new Promise((resolve) =>
+    Alert.alert(title, message, [
+      { text: no, style: 'cancel', onPress: () => resolve(false) },
+      { text: yes, style: 'destructive', onPress: () => resolve(true) },
+    ], { cancelable: true, onDismiss: () => resolve(false) }),
+  );
+}
 
 /** Small rounded choices that wrap onto more lines instead of scrolling sideways. */
 function Pills<T extends string | null>({ options, value, onChange }: { options: { id: T; label: string }[]; value: T; onChange: (v: T) => void }) {
@@ -80,9 +107,10 @@ function Block({ first, label, children }: { first?: boolean; label: string; chi
 }
 
 export default function SettingsScreen() {
-  const { theme, settings, update } = useSettings();
+  const { theme, settings, update, favorites, recent, plans, positions, bookmarks, routine, routineDone, restoreStore } = useSettings();
   const { tr } = useI18n();
   const [picker, setPicker] = useState(false);
+  const [busy, setBusy] = useState(false);
   const toggle = (value: boolean, onChange: (v: boolean) => void) => <Switch value={value} onValueChange={onChange} trackColor={{ true: theme.accent }} />;
   const largePrint = settings.fontScale >= 1.5 && settings.theme === 'contrast';
   const scripts = SCRIPTS.map((x) => ({ id: x.id as ScriptId, label: x.native }));
@@ -98,6 +126,50 @@ export default function SettingsScreen() {
       return;
     }
     update({ festivalReminders: { ...settings.festivalReminders, [kind]: on } });
+  };
+
+  const store = { settings, favorites, recent, plans, positions, bookmarks, routine, routineDone };
+  const readJapa = async () => cleanJapa(JSON.parse((await AsyncStorage.getItem(JAPA_KEY)) ?? 'null'));
+  const counts = (n: BackupSummary) =>
+    tr('{fav} favourites, {bm} bookmarks, {plans} plans, {routine} routine texts, {malas} malas of japa over {days} days', {
+      fav: n.favorites, bm: n.bookmarks, plans: n.plans, routine: n.routine, malas: Math.floor(n.japaBeads / 108), days: n.japaDays,
+    });
+  const backUp = async () => {
+    setBusy(true);
+    try {
+      const json = JSON.stringify(buildBackup(store, await readJapa().catch(() => cleanJapa(null))), null, 1);
+      const r = await saveBackupFile(json, backupFileName(), tr('Save your backup'));
+      if (r === 'unavailable') notify(tr('Cannot back up here'), tr('Sharing is not available on this device.'));
+    } catch {
+      notify(tr('Backup failed'), tr('The backup could not be saved. Please try again.'));
+    } finally {
+      setBusy(false);
+    }
+  };
+  const restore = async () => {
+    setBusy(true);
+    try {
+      const text = await pickBackupFile();
+      if (text == null) return;
+      const v = validateBackup(text);
+      if (!v.ok) return notify(tr('Cannot restore'), tr(BACKUP_ERRORS[v.error]));
+      const now = summarize(store, await readJapa().catch(() => cleanJapa(null)));
+      const date = v.backup.createdAt ? v.backup.createdAt.slice(0, 10) : '';
+      const message = [
+        tr('This replaces your settings, favourites, bookmarks, reading places, routine, plans and japa history on this phone with the backup{date}.', { date: date ? ` (${date})` : '' }),
+        `${tr('In the backup')}: ${counts(summarize(v.backup.store, v.backup.japa))}.`,
+        `${tr('Now on this phone')}: ${counts(now)}.`,
+        tr('Plan reminders are not restored; switch them on again.'),
+      ].join('\n\n');
+      if (!(await confirm(tr('Restore this backup?'), message, tr('Replace'), tr('Cancel')))) return;
+      restoreStore(mergeBackup(store, v.backup));
+      await AsyncStorage.setItem(JAPA_KEY, JSON.stringify(v.backup.japa));
+      notify(tr('Restored'), tr('Your backup has been restored.'));
+    } catch {
+      notify(tr('Cannot restore'), tr('The file could not be opened.'));
+    } finally {
+      setBusy(false);
+    }
   };
 
   return (
@@ -190,6 +262,19 @@ export default function SettingsScreen() {
           )}
         </Group>
       )}
+
+      <Group
+        title={tr('PRACTICE AND BACKUP')}
+        note={tr('Streaks show the last seven days as lamps on My practice, and forgive one quiet day in seven. A backup is a file with your settings, favourites, bookmarks, routine, plans and japa history; keep it in Drive or send it to yourself. Nothing is uploaded.')}
+      >
+        <Row first label={tr('Show streaks')}>{toggle(settings.showStreaks, (v) => update({ showStreaks: v }))}</Row>
+        <Row label={tr('Back up my data')} onPress={busy ? undefined : backUp}>
+          {busy ? <ActivityIndicator color={theme.accent} /> : <MaterialCommunityIcons name="export-variant" size={22} color={theme.accent} />}
+        </Row>
+        <Row label={tr('Restore from a backup')} onPress={busy ? undefined : restore}>
+          <MaterialCommunityIcons name="file-restore-outline" size={22} color={theme.accent} />
+        </Row>
+      </Group>
 
       <Group title={tr('ABOUT')}>
         <Row first label={tr('About this app and sources')} onPress={() => router.push('/about')}>

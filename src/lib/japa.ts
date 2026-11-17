@@ -15,7 +15,8 @@ import { getMantraInfo } from '../data';
 import { localDate } from './plans';
 
 export const BEADS_PER_MALA = 108;
-const KEY = 'mantra.japa.v1';
+export const JAPA_KEY = 'mantra.japa.v1';
+const KEY = JAPA_KEY;
 const CUSTOM_PREFIX = 'custom:';
 /** Days of history kept. */
 const KEEP_DAYS = 400;
@@ -146,6 +147,19 @@ export function lastDays(state: JapaState, n: number, key?: string): DayEntry[] 
     out.push({ date: d, total: dayTotal(state, d), forKey: key ? (state.days[d]?.[key] ?? 0) : 0 });
   }
   return out;
+}
+
+/** Beads counted per date (all chants) and the target, read from storage (for the streak on My practice). */
+export async function loadJapaDays(): Promise<{ target: number | null; byDate: Record<string, number> }> {
+  try {
+    const raw = await AsyncStorage.getItem(KEY);
+    const saved = raw ? (JSON.parse(raw) as Partial<JapaState>) : {};
+    const byDate: Record<string, number> = {};
+    for (const [d, rec] of Object.entries(saved.days ?? {})) byDate[d] = Object.values(rec).reduce((a, b) => a + b, 0);
+    return { target: saved.target === undefined ? DEFAULT_STATE.target : saved.target, byDate };
+  } catch {
+    return { target: DEFAULT_STATE.target, byDate: {} };
+  }
 }
 
 export interface CountResult {

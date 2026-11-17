@@ -1,12 +1,35 @@
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { router, type Href } from 'expo-router';
-import { Pressable, StyleSheet, Text, View } from 'react-native';
+import * as Haptics from 'expo-haptics';
+import { useEffect, useRef, useState } from 'react';
+import { Animated, Platform, Pressable, StyleSheet, Text, View } from 'react-native';
 import { getMantraInfo, scriptFor, type Mantra } from '../data';
 import { scriptFont } from '../lib/fonts';
 import { useI18n } from '../lib/i18n';
+import { useReduceMotion } from '../lib/motion';
 import { useRoutineDay, useSettings } from '../lib/settings';
 import { nameOf } from '../lib/transliterate';
 import { useShowEnglish } from './useGloss';
+
+/** The tick box icon; when it becomes ticked it settles in with a brief, gentle scale and fade. */
+function TickIcon({ ok }: { ok: boolean }) {
+  const { theme } = useSettings();
+  const reduce = useReduceMotion();
+  const [anim] = useState(() => new Animated.Value(1));
+  const was = useRef(ok);
+  useEffect(() => {
+    if (ok && !was.current && !reduce) {
+      anim.setValue(0);
+      Animated.timing(anim, { toValue: 1, duration: 300, useNativeDriver: Platform.OS !== 'web' }).start();
+    }
+    was.current = ok;
+  }, [ok, reduce, anim]);
+  return (
+    <Animated.View style={{ opacity: anim.interpolate({ inputRange: [0, 1], outputRange: [0.4, 1] }), transform: [{ scale: anim.interpolate({ inputRange: [0, 1], outputRange: [0.85, 1] }) }] }}>
+      <MaterialCommunityIcons name={ok ? 'check-circle' : 'circle-outline'} size={26} color={ok ? theme.success : theme.textMuted} />
+    </Animated.View>
+  );
+}
 
 /**
  * Today's routine as a checklist (resets at sunrise at your place). Compact on Home:
@@ -71,13 +94,16 @@ export function RoutineCard({ compact }: { compact?: boolean }) {
         return (
           <View key={m.id} style={[s.row, { borderTopWidth: i ? StyleSheet.hairlineWidth : 0, borderColor: theme.cardBorder }]}>
             <Pressable
-              onPress={() => setRoutineDone(day, m.id, !ok)}
+              onPress={() => {
+                if (!ok && Platform.OS !== 'web') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light).catch(() => {});
+                setRoutineDone(day, m.id, !ok);
+              }}
               hitSlop={10}
               accessibilityRole="checkbox"
               accessibilityState={{ checked: ok }}
               accessibilityLabel={tr('{title} done today', { title: nameOf(m, settings.script) })}
             >
-              <MaterialCommunityIcons name={ok ? 'check-circle' : 'circle-outline'} size={26} color={ok ? theme.success : theme.textMuted} />
+              <TickIcon ok={ok} />
             </Pressable>
             <Pressable onPress={() => router.push(`/mantra/${m.id}` as Href)} style={{ flex: 1 }} accessibilityRole="link">
               <Text style={{ color: ok ? theme.textMuted : theme.text, fontSize: 18, fontFamily: fontOf(m), textDecorationLine: ok ? 'line-through' : 'none' }} numberOfLines={1}>

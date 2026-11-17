@@ -6,11 +6,13 @@ import { memo, useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import {
   AccessibilityInfo,
   Animated,
+  Easing,
   Platform,
   Pressable,
   ScrollView,
   type ScrollViewInstance,
   StyleSheet,
+  Switch,
   Text,
   TextInput,
   useWindowDimensions,
@@ -28,11 +30,13 @@ import {
   type ChantInfo,
 } from '../lib/japa';
 import { T, useI18n } from '../lib/i18n';
+import { useReduceMotion } from '../lib/motion';
 import { useSettings } from '../lib/settings';
 import type { Theme } from '../lib/theme';
 import { translit, translitTitle, type ScriptId } from '../lib/transliterate';
 
 const KEEP_AWAKE_TAG = 'japa-counter';
+const FOCUS_AWAKE_TAG = 'japa-focus';
 /** Let the screen sleep again after this long without a count. */
 const AWAKE_IDLE_MS = 3 * 60 * 1000;
 const NATIVE = Platform.OS !== 'web';
@@ -68,7 +72,7 @@ function targetLabel(tr: Tr, t: number | null): string {
 }
 
 export default function JapaScreen() {
-  const { theme, settings } = useSettings();
+  const { theme, settings, update } = useSettings();
   const { tr } = useI18n();
   const { state, ready, increment, undo, reset, select, setTarget, forgetCustomLabel } = useJapa();
   const params = useLocalSearchParams<{ mantra?: string }>();
@@ -77,6 +81,8 @@ export default function JapaScreen() {
   const scrollRef = useRef<ScrollViewInstance>(null);
   const [picking, setPicking] = useState(false);
   const [confirmReset, setConfirmReset] = useState(false);
+  const [focus, setFocus] = useState(false);
+  const reduceMotion = useReduceMotion();
 
   // Preselect a library text passed as ?mantra=<id> (once storage has loaded).
   const preselected = useRef(false);
@@ -120,7 +126,7 @@ export default function JapaScreen() {
   }, [settings.keepAwake, release]);
 
   // ---- counting ----
-  const pulse = useRef(new Animated.Value(1)).current;
+  const [pulse] = useState(() => new Animated.Value(1));
   const onCount = useCallback(() => {
     if (!ready) return;
     const r = increment();
@@ -132,12 +138,12 @@ export default function JapaScreen() {
     } else if (r.malaDone) {
       haptic.mala();
       AccessibilityInfo.announceForAccessibility(tr('{mala} complete', { mala: malaLabel(tr, malas(r.count)) }));
-    } else {
+    } else if (settings.japaVibrate) {
       haptic.tick();
     }
     pulse.setValue(0.965);
     Animated.spring(pulse, { toValue: 1, speed: 40, bounciness: 6, useNativeDriver: NATIVE }).start();
-  }, [ready, increment, stayAwake, pulse, tr]);
+  }, [ready, increment, stayAwake, pulse, tr, settings.japaVibrate]);
 
   const onUndo = () => {
     if (count === 0) return;
@@ -164,6 +170,30 @@ export default function JapaScreen() {
     return () => clearTimeout(t);
   }, [confirmReset]);
 
+  // ---- focus mode: the screen stays on for as long as it is open ----
+  useEffect(() => {
+    if (!focus) return;
+    activateKeepAwakeAsync(FOCUS_AWAKE_TAG).catch(() => {});
+    return () => {
+      deactivateKeepAwake(FOCUS_AWAKE_TAG).catch(() => {});
+    };
+  }, [focus]);
+
+  if (focus) {
+    return (
+      <FocusView
+        chant={chant}
+        count={count}
+        filled={inRound}
+        pulse={pulse}
+        calm={reduceMotion}
+        onCount={onCount}
+        onExit={() => setFocus(false)}
+        theme={theme}
+      />
+    );
+  }
+
   const ring = Math.round(Math.max(220, Math.min(width - 56, 320, height * 0.42)));
   const reached = target != null && count >= target;
 
@@ -174,7 +204,16 @@ export default function JapaScreen() {
       contentContainerStyle={{ paddingBottom: 48 }}
       keyboardShouldPersistTaps="handled"
     >
-      <Stack.Screen options={{ title: tr('Japa') }} />
+      <Stack.Screen
+        options={{
+          title: tr('Japa'),
+          headerRight: () => (
+            <Pressable onPress={() => setFocus(true)} hitSlop={10} accessibilityRole="button" accessibilityLabel={tr('Focus mode')} style={{ padding: 6 }}>
+              <MaterialCommunityIcons name="fullscreen" size={24} color={theme.accent} />
+            </Pressable>
+          ),
+        }}
+      />
 
       {/* ---- what is being chanted ---- */}
       <Pressable
@@ -318,6 +357,13 @@ export default function JapaScreen() {
         {'\n'}
         {tr('{name}: {today} today · {all} in all ({malas})', { name: chant.name, today: fmt(todayThis), all: fmt(allTime), malas: malaLabel(tr, malas(allTime)) })}
       </Text>
+
+      {NATIVE && (
+        <View style={[s.vibrateRow, { backgroundColor: theme.card, borderColor: theme.cardBorder }]}>
+          <Text style={{ color: theme.text, fontSize: 16, flex: 1 }}>{tr('Vibrate on each count')}</Text>
+          <Switch value={settings.japaVibrate} onValueChange={(v) => update({ japaVibrate: v })} trackColor={{ true: theme.accent }} />
+        </View>
+      )}
 
       <History state={state} chantKey={state.current} theme={theme} />
       <Totals totals={state.totals} current={state.current} script={settings.script} theme={theme} />
@@ -570,17 +616,17 @@ function TargetPicker({
 }
 
 /** 108 beads on a circle, with the meru (guru) bead at the top. */
-const BeadRing = memo(function BeadRing({ size, filled, theme }: { size: number; filled: number; theme: Theme }) {
+const BeadRing = memo(function BeadRing({ size, filled, theme, maxBead = 8 }: { size: number; filled: number; theme: Theme; maxBead?: number }) {
   const beads = useMemo(() => {
     const slots = BEADS_PER_MALA + 1; // + meru
-    const bead = Math.max(4, Math.min(8, ((Math.PI * size) / slots) * 0.62));
+    const bead = Math.max(4, Math.min(maxBead, ((Math.PI * size) / slots) * 0.62));
     const r = size / 2 - 10;
     return Array.from({ length: slots }, (_, i) => {
       const a = -Math.PI / 2 + (i * 2 * Math.PI) / slots;
       const d = i === 0 ? bead * 2.1 : bead;
       return { left: size / 2 + r * Math.cos(a) - d / 2, top: size / 2 + r * Math.sin(a) - d / 2, d };
     });
-  }, [size]);
+  }, [size, maxBead]);
   return (
     <View style={{ width: size, height: size }} importantForAccessibility="no-hide-descendants" accessibilityElementsHidden>
       {beads.map((b, i) => {
@@ -789,7 +835,74 @@ function Totals({
   );
 }
 
+/**
+ * Focus mode: only the mālā ring, the count and the chant's name. The whole screen counts. The
+ * ring breathes very slowly (not at all with reduce motion); a small icon in the corner leaves.
+ */
+function FocusView({
+  chant, count, filled, pulse, calm, onCount, onExit, theme,
+}: {
+  chant: ChantInfo; count: number; filled: number; pulse: Animated.Value; calm: boolean; onCount: () => void; onExit: () => void; theme: Theme;
+}) {
+  const { tr } = useI18n();
+  const { width, height } = useWindowDimensions();
+  const [breathe] = useState(() => new Animated.Value(0));
+  useEffect(() => {
+    if (calm) return;
+    const loop = Animated.loop(
+      Animated.sequence([
+        Animated.timing(breathe, { toValue: 1, duration: 4500, easing: Easing.inOut(Easing.sin), useNativeDriver: NATIVE }),
+        Animated.timing(breathe, { toValue: 0, duration: 4500, easing: Easing.inOut(Easing.sin), useNativeDriver: NATIVE }),
+      ]),
+    );
+    loop.start();
+    return () => loop.stop();
+  }, [calm, breathe]);
+  const size = Math.round(Math.min(width - 32, height * 0.62, 520));
+  return (
+    <View style={{ flex: 1, backgroundColor: theme.bg }}>
+      <Stack.Screen options={{ headerShown: false }} />
+      <Pressable
+        onPress={onCount}
+        accessibilityRole="button"
+        accessibilityLabel={tr('Count one bead')}
+        accessibilityHint={tr('Double tap to add one repetition')}
+        accessibilityValue={{ text: String(count) }}
+        style={[StyleSheet.absoluteFill, s.center]}
+      >
+        <Animated.View
+          style={{
+            opacity: breathe.interpolate({ inputRange: [0, 1], outputRange: [0.82, 1] }),
+            transform: [{ scale: Animated.multiply(pulse, breathe.interpolate({ inputRange: [0, 1], outputRange: [0.985, 1.015] })) }],
+          }}
+        >
+          <BeadRing size={size} filled={filled} theme={theme} maxBead={14} />
+          <View style={[StyleSheet.absoluteFill, s.center]} pointerEvents="none">
+            <Text style={[s.count, { color: theme.text, fontSize: Math.round(size * (count >= 10000 ? 0.2 : 0.3)) }]} numberOfLines={1} adjustsFontSizeToFit>
+              {fmt(count)}
+            </Text>
+          </View>
+        </Animated.View>
+        <Text style={{ color: theme.textMuted, fontSize: 18, marginTop: 18, paddingHorizontal: 24, textAlign: 'center' }} numberOfLines={2}>
+          {chant.name}
+        </Text>
+      </Pressable>
+      <Pressable
+        onPress={onExit}
+        hitSlop={12}
+        accessibilityRole="button"
+        accessibilityLabel={tr('Leave focus mode')}
+        style={[s.exit, { top: Platform.OS === 'web' ? 16 : 48 }]}
+      >
+        <MaterialCommunityIcons name="fullscreen-exit" size={26} color={theme.textMuted} style={{ opacity: 0.6 }} />
+      </Pressable>
+    </View>
+  );
+}
+
 const s = StyleSheet.create({
+  exit: { position: 'absolute', right: 16, padding: 8 },
+  vibrateRow: { flexDirection: 'row', alignItems: 'center', gap: 12, marginHorizontal: 16, marginTop: 16, paddingHorizontal: 14, paddingVertical: 6, borderRadius: 16, borderWidth: 1, minHeight: 50 },
   card: {
     flexDirection: 'row',
     alignItems: 'flex-start',

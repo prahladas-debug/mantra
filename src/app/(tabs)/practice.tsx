@@ -1,13 +1,16 @@
 import { MaterialCommunityIcons } from '@expo/vector-icons';
-import { router, type Href } from 'expo-router';
+import { router, useFocusEffect, type Href } from 'expo-router';
+import { useCallback, useMemo, useState } from 'react';
 import { Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 import { PlanCard } from '../../components/PlanCard';
 import { RoutineCard } from '../../components/RoutineCard';
 import { getMantraInfo, scriptFor } from '../../data';
 import { headingFont, scriptFont } from '../../lib/fonts';
 import { T, useI18n } from '../../lib/i18n';
+import { loadJapaDays } from '../../lib/japa';
 import { planStatus } from '../../lib/plans';
-import { useSettings } from '../../lib/settings';
+import { routineDay, useSettings } from '../../lib/settings';
+import { datesEnding, isLit, streakLength } from '../../lib/streak';
 import { nameOf } from '../../lib/transliterate';
 import { useShowEnglish } from '../../components/useGloss';
 
@@ -31,6 +34,47 @@ function Heading({ title, action, onAction }: { title: string; action?: string; 
           <Text style={{ color: theme.accent, fontSize: 16 }}>{tr(action)}</Text>
         </Pressable>
       )}
+    </View>
+  );
+}
+
+const LAMP_DAYS = 7;
+const LOOKBACK = 60;
+
+/** The last seven days as small lamps, and the forgiving streak. Shown only when switched on in Settings. */
+function StreakCard() {
+  const { theme, settings, routine, routineDone } = useSettings();
+  const { tr, weekday } = useI18n();
+  const [japa, setJapa] = useState<{ target: number | null; byDate: Record<string, number> }>({ target: 108, byDate: {} });
+  useFocusEffect(useCallback(() => { loadJapaDays().then(setJapa); }, []));
+  // Days run sunrise to sunrise for the routine, as on the routine card.
+  const today = routineDay(settings.city);
+  const { days, lit, streak } = useMemo(() => {
+    const input = { routine, routineDone, japaByDate: japa.byDate, japaTarget: japa.target };
+    const all = datesEnding(today, LOOKBACK);
+    const flags = all.map((d) => isLit(input, d));
+    return { days: all.slice(-LAMP_DAYS), lit: flags.slice(-LAMP_DAYS), streak: streakLength(flags) };
+  }, [today, routine, routineDone, japa]);
+  return (
+    <View style={[s.list, { backgroundColor: theme.card, borderColor: theme.cardBorder, padding: 14 }]}>
+      <View style={{ flexDirection: 'row', alignItems: 'center' }}>
+        <View style={{ flex: 1, flexDirection: 'row', justifyContent: 'space-between', paddingRight: 14 }} accessible accessibilityLabel={tr('Last seven days: {n} lit', { n: lit.filter(Boolean).length })}>
+          {days.map((d, i) => {
+            const [y, m, dd] = d.split('-').map(Number);
+            const wd = weekday(new Date(y, m - 1, dd).getDay());
+            return (
+              <View key={d} style={{ alignItems: 'center', width: 34 }}>
+                <MaterialCommunityIcons name="oil-lamp" size={24} color={lit[i] ? theme.gold : theme.textMuted} style={{ opacity: lit[i] ? 1 : 0.35 }} />
+                <Text style={{ color: theme.textMuted, fontSize: 11, marginTop: 2 }}>{wd.slice(0, 1)}</Text>
+              </View>
+            );
+          })}
+        </View>
+        <Text style={{ color: theme.text, fontSize: 16, fontWeight: '600' }}>{streak === 1 ? tr('{n} day', { n: streak }) : tr('{n} days', { n: streak })}</Text>
+      </View>
+      <Text style={{ color: theme.textMuted, fontSize: 13, lineHeight: 18, marginTop: 8 }}>
+        {tr('A lamp is lit when the routine is done or the japa target is met. One quiet day in seven does not break the streak.')}
+      </Text>
     </View>
   );
 }
@@ -70,6 +114,7 @@ export default function Practice() {
 
   return (
     <ScrollView style={{ backgroundColor: theme.bg }} contentContainerStyle={{ paddingBottom: 32 }}>
+      {settings.showStreaks && <StreakCard />}
       <Heading title={T('Daily routine')} action={T('Edit')} onAction={() => router.push('/routine')} />
       <RoutineCard />
 
