@@ -16,6 +16,7 @@ const TOOLS: { icon: keyof typeof MaterialCommunityIcons.glyphMap; label: string
   { icon: 'bookmark-outline', label: T('Bookmarks'), href: '/bookmarks' },
   { icon: 'calendar-month-outline', label: T('Festival calendar'), href: '/calendar' },
   { icon: 'magnify', label: T('Find a festival date'), href: '/festival-search' },
+  { icon: 'star-four-points-outline', label: T('Birth star'), href: '/janma-nakshatra' },
 ];
 
 function Heading({ title, action, onAction }: { title: string; action?: string; onAction?: () => void }) {

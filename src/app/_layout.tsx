@@ -53,6 +53,7 @@ function AppStack() {
         <Stack.Screen name="collection/[id]" options={{ title: tr('Collection') }} />
         <Stack.Screen name="routine" options={{ title: tr('Daily routine') }} />
         <Stack.Screen name="festival-search" options={{ title: tr('Find a festival date') }} />
+        <Stack.Screen name="janma-nakshatra" options={{ title: tr('Birth star') }} />
         <Stack.Screen name="parayana-new" options={{ title: tr('New parayana') }} />
       </Stack>
     </>

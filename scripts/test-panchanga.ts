@@ -12,6 +12,8 @@ import { readdirSync, readFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { LINKED_TEXT_IDS, festivalsBetween, ekadashiDates, ekadashisBetween, paranaFor, paryayaMatha } from '../src/lib/festivals';
 import { cityInstant } from '../src/lib/festivalReminderPlan';
+import { amritaKala, brahmaMuhurta, choghadiya, durmuhurta, hora, varjyam } from '../src/lib/muhurta';
+import { birthStar } from '../src/lib/janma';
 import { paranaWindow } from '../src/lib/parana';
 import { sauraDay, sauraMonthStart, sauraSankalpa } from '../src/lib/sauramana';
 import {
@@ -621,6 +623,128 @@ const PARANA: Record<string, string[]> = {
   const prab = md.find((f) => f.kind === 'ekadashi' && f.en.startsWith('Prabodhinī'))!;
   assert.equal(md.find((f) => f.key === 'dvidala-vrata')!.endDate, addDaysIso(prab.date, -1));
   checks++;
+}
+
+// ---- Choghadiya, Hora, Durmuhurta, Varjyam, Amrita kala, Brahma muhurta ----
+// Reference: drikpanchang.com (muhurat/choghadiya.html, muhurat/hora.html and panchang/day-panchang.html with
+// geoname-id and date), read for Bengaluru 17 and 21 Nov 2026, Mumbai 10 Jun 2026 and Delhi 2 Feb 2026 (IST,
+// HH:MM). Drik prints whole minutes; tolerance is 2 minutes. A scan of 61 further Bengaluru days (Nov-Dec 2026)
+// found every varjyam / amrita / durmuhurta window of ours within 1.6 min of a window on drik's page, and the
+// choghadiya / hora tables of 10 days (all weekdays, 3 places) agree in name and within 0.6 min.
+{
+  type City = (typeof CITIES)[number];
+  const TOL = 2;
+  const mins = (hhmm: string) => Number(hhmm.slice(0, 2)) * 60 + Number(hhmm.slice(3));
+  /** Minutes since local midnight of `iso` (after-midnight times are > 1440). */
+  const local = (t: Date, city: City, iso: string) => {
+    const [y, m, d] = iso.split('-').map(Number);
+    return Math.round((t.getTime() - (Date.UTC(y, m - 1, d) - city.tz * 3600000)) / 60000);
+  };
+  /** Times after midnight (smaller than the previous one) are next-day: +1440. */
+  const unwrap = (list: string[]) => {
+    let prev = -1;
+    return list.map((x) => {
+      let v = mins(x);
+      while (v < prev) v += 1440;
+      prev = v;
+      return v;
+    });
+  };
+  const near = (got: number, want: number, what: string) => {
+    assert.ok(Math.abs(got - want) <= TOL, `${what}: got ${got} min, drik ${want} min`);
+    checks++;
+  };
+  const win = (w: [Date, Date], c: City, iso: string, a: string, b: string, what: string) => {
+    const [wa, wb] = unwrap([a, b]);
+    near(local(w[0], c, iso), wa, `${what} start`);
+    near(local(w[1], c, iso), wb, `${what} end`);
+  };
+  const seq = (segs: { name: string; start: Date }[], names: Record<string, string>, drik: string, c: City, iso: string, what: string) => {
+    const rows = drik.split(' ');
+    assert.equal(segs.length * 2, rows.length, `${what}: segment count`);
+    const starts = unwrap(rows.filter((_, i) => i % 2));
+    segs.forEach((s, i) => {
+      assert.equal(names[s.name], rows[2 * i], `${what} #${i + 1} name`);
+      checks++;
+      near(local(s.start, c, iso), starts[i], `${what} #${i + 1} start`);
+    });
+  };
+  const CH: Record<string, string> = { उद्वेग: 'Udvega', चर: 'Chara', लाभ: 'Labha', अमृत: 'Amrita', काल: 'Kala', शुभ: 'Shubha', रोग: 'Roga' };
+  const HO: Record<string, string> = { सूर्य: 'Sun', शुक्र: 'Venus', बुध: 'Mercury', चन्द्र: 'Moon', शनि: 'Saturn', गुरु: 'Jupiter', मङ्गल: 'Mars' };
+  const mum = cityById('mumbai');
+  const del = cityById('delhi');
+  const day = (c: City, iso: string) => panchanga(iso, c, 'drik');
+
+  // Tuesday, Bengaluru
+  const t1 = day(blr, '2026-11-17');
+  seq(choghadiya(t1), CH, 'Roga 06:19 Udvega 07:45 Chara 09:12 Labha 10:38 Amrita 12:04 Kala 13:31 Shubha 14:57 Roga 16:24 Kala 17:50 Labha 19:24 Udvega 20:57 Shubha 22:31 Amrita 00:05 Chara 01:38 Roga 03:12 Kala 04:46', blr, '2026-11-17', 'choghadiya Blr Tue');
+  seq(hora(t1), HO, 'Mars 06:19 Sun 07:17 Venus 08:14 Mercury 09:12 Moon 10:09 Saturn 11:07 Jupiter 12:04 Mars 13:02 Sun 14:00 Venus 14:57 Mercury 15:55 Moon 16:52 Saturn 17:50 Jupiter 18:52 Mars 19:55 Sun 20:57 Venus 22:00 Mercury 23:02 Moon 00:05 Saturn 01:07 Jupiter 02:10 Mars 03:12 Sun 04:15 Venus 05:17', blr, '2026-11-17', 'hora Blr Tue');
+  const dm1 = durmuhurta(t1);
+  assert.equal(dm1.length, 2); // Tuesday: 4th day and 7th night muhurta
+  win(dm1[0], blr, '2026-11-17', '08:37', '09:23', 'durmuhurta Blr Tue day');
+  win(dm1[1], blr, '2026-11-17', '22:50', '23:40', 'durmuhurta Blr Tue night');
+  assert.equal(varjyam(t1).length, 1);
+  win(varjyam(t1)[0], blr, '2026-11-17', '06:39', '08:25', 'varjyam Blr Tue (Dhanishtha)');
+  assert.equal(amritaKala(t1).length, 1);
+  win(amritaKala(t1)[0], blr, '2026-11-17', '17:11', '18:56', 'amrita Blr Tue');
+  win(brahmaMuhurta(t1), blr, '2026-11-17', '04:39', '05:29', 'brahma Blr Tue');
+
+  // Saturday, Bengaluru: durmuhurta 1st and 2nd muhurta
+  const t2 = day(blr, '2026-11-21');
+  seq(choghadiya(t2), CH, 'Kala 06:21 Shubha 07:47 Roga 09:13 Udvega 10:39 Chara 12:05 Labha 13:32 Amrita 14:58 Kala 16:24 Labha 17:50 Udvega 19:24 Shubha 20:58 Amrita 22:32 Chara 00:06 Roga 01:40 Kala 03:14 Labha 04:47', blr, '2026-11-21', 'choghadiya Blr Sat');
+  seq(hora(t2), HO, 'Saturn 06:21 Jupiter 07:18 Mars 08:16 Sun 09:13 Venus 10:11 Mercury 11:08 Moon 12:05 Saturn 13:03 Jupiter 14:00 Mars 14:58 Sun 15:55 Venus 16:53 Mercury 17:50 Moon 18:53 Saturn 19:55 Jupiter 20:58 Mars 22:00 Sun 23:03 Venus 00:06 Mercury 01:08 Moon 02:11 Saturn 03:14 Jupiter 04:16 Mars 05:19', blr, '2026-11-21', 'hora Blr Sat');
+  const dm2 = durmuhurta(t2);
+  assert.equal(dm2.length, 2);
+  win(dm2[0], blr, '2026-11-21', '06:21', '07:07', 'durmuhurta Blr Sat 1');
+  win(dm2[1], blr, '2026-11-21', '07:07', '07:53', 'durmuhurta Blr Sat 2');
+  win(varjyam(t2)[0], blr, '2026-11-21', '18:22', '19:55', 'varjyam Blr Sat');
+  win(amritaKala(t2)[0], blr, '2026-11-21', '27:36', '29:08', 'amrita Blr Sat (after midnight)');
+  win(brahmaMuhurta(t2), blr, '2026-11-21', '04:41', '05:31', 'brahma Blr Sat');
+
+  // Wednesday, Mumbai, June (long days)
+  const t3 = day(mum, '2026-06-10');
+  seq(choghadiya(t3), CH, 'Labha 06:00 Amrita 07:40 Kala 09:19 Shubha 10:59 Roga 12:38 Udvega 14:17 Chara 15:57 Labha 17:36 Udvega 19:16 Shubha 20:36 Amrita 21:57 Chara 23:17 Roga 00:38 Kala 01:59 Labha 03:19 Udvega 04:40', mum, '2026-06-10', 'choghadiya Mum Wed');
+  seq(hora(t3), HO, 'Mercury 06:00 Moon 07:07 Saturn 08:13 Jupiter 09:19 Mars 10:25 Sun 11:32 Venus 12:38 Mercury 13:44 Moon 14:51 Saturn 15:57 Jupiter 17:03 Mars 18:09 Sun 19:16 Venus 20:09 Mercury 21:03 Moon 21:57 Saturn 22:51 Jupiter 23:44 Mars 00:38 Sun 01:32 Venus 02:25 Mercury 03:19 Moon 04:13 Saturn 05:07', mum, '2026-06-10', 'hora Mum Wed');
+  assert.equal(durmuhurta(t3).length, 1);
+  win(durmuhurta(t3)[0], mum, '2026-06-10', '12:11', '13:05', 'durmuhurta Mum Wed');
+  win(varjyam(t3)[0], mum, '2026-06-10', '20:49', '22:20', 'varjyam Mum Wed');
+  win(amritaKala(t3)[0], mum, '2026-06-10', '29:59', '31:30', 'amrita Mum Wed (after midnight)');
+  win(brahmaMuhurta(t3), mum, '2026-06-10', '04:34', '05:17', 'brahma Mum Wed');
+
+  // Monday, Delhi, February
+  const t4 = day(del, '2026-02-02');
+  seq(choghadiya(t4), CH, 'Amrita 07:09 Kala 08:30 Shubha 09:52 Roga 11:13 Udvega 12:35 Chara 13:56 Labha 15:18 Amrita 16:40 Chara 18:01 Roga 19:39 Kala 21:18 Labha 22:56 Udvega 00:35 Shubha 02:13 Amrita 03:51 Chara 05:30', del, '2026-02-02', 'choghadiya Del Mon');
+  seq(hora(t4), HO, 'Moon 07:09 Saturn 08:03 Jupiter 08:58 Mars 09:52 Sun 10:46 Venus 11:41 Mercury 12:35 Moon 13:29 Saturn 14:24 Jupiter 15:18 Mars 16:12 Sun 17:07 Venus 18:01 Mercury 19:07 Moon 20:12 Saturn 21:18 Jupiter 22:23 Mars 23:29 Sun 00:35 Venus 01:40 Mercury 02:46 Moon 03:51 Saturn 04:57 Jupiter 06:03', del, '2026-02-02', 'hora Del Mon');
+  const dm4 = durmuhurta(t4);
+  assert.equal(dm4.length, 2);
+  win(dm4[0], del, '2026-02-02', '12:57', '13:40', 'durmuhurta Del Mon 9th');
+  win(dm4[1], del, '2026-02-02', '15:07', '15:51', 'durmuhurta Del Mon 12th');
+  win(varjyam(t4)[0], del, '2026-02-02', '12:08', '13:39', 'varjyam Del Mon (Ashlesha)');
+  win(amritaKala(t4)[0], del, '2026-02-02', '21:16', '22:47', 'amrita Del Mon');
+  win(brahmaMuhurta(t4), del, '2026-02-02', '05:24', '06:16', 'brahma Del Mon');
+
+  // Birth star (drik day page, Bengaluru 17 Nov 2026: Dhanishtha pada 1 to 08:54, pada 2 to 15:30 in Makara, pada 3 to 22:03; Ashtami to 06:04 next day)
+  for (const [hh, mm, pada] of [[7, 0, 1], [12, 0, 2], [20, 0, 3]] as const) {
+    const b = birthStar(blr, 2026, 11, 17, hh, mm, 'drik');
+    assert.equal(b.nakshatra, 'धनिष्ठा');
+    assert.equal(b.pada, pada);
+    if (hh === 12) assert.equal(b.tithiIndex, 8);
+    assert.equal(b.rashi, hh < 15 ? 'मकर' : 'कुम्भ');
+    checks += 4;
+  }
+
+  // Structure, in both calculation methods: contiguous from sunrise to the next sunrise.
+  for (const [c, iso] of [[blr, '2026-11-17'], [mum, '2026-06-10']] as const) {
+    for (const calc of ['drik', 'surya'] as const) {
+      const p = panchanga(iso, c, calc);
+      for (const segs of [choghadiya(p), hora(p)]) {
+        assert.equal(segs[0].start.getTime(), p.sunrise.getTime());
+        assert.equal(segs[segs.length - 1].end.getTime(), p.nextSunrise.getTime());
+        for (let i = 1; i < segs.length; i++) assert.equal(segs[i].start.getTime(), segs[i - 1].end.getTime());
+        checks++;
+      }
+    }
+  }
 }
 
 {

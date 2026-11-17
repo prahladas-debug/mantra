@@ -5,17 +5,22 @@ import { useMemo, useState } from 'react';
 import { Pressable, ScrollView, Text, View } from 'react-native';
 import { CalendarBar } from '../../components/CalendarBar';
 import { FestivalLine, NavButton, useCalcMethod, useCalendarMode, useEkadashiRule, useSauraStart } from '../../components/PanchangaCard';
+import { DayTimeline, LimbGrid, RightNow, SegmentList, TimingRows, WindowList, nb, type Limb, type TimingRow } from '../../components/PanchangaParts';
 import { SectionHeading } from '../../components/ui';
 import { festivalsBetween } from '../../lib/festivals';
 import {
   VARA, addDays, cityById, cityLabel, formatTime, fromJulian, moonriseBetween, panchanga, parseIso, sunriseJd, todayIn, withMethod, type Span,
 } from '../../lib/panchanga';
+import { amritaKala, brahmaMuhurta, choghadiya, durmuhurta, hora, varjyam } from '../../lib/muhurta';
 import { paranaNote } from '../../lib/parana';
 import { plain } from '../../lib/plain';
 import { sauraDay, sauraRtu, sauraSankalpa } from '../../lib/sauramana';
 import { useClockTick, useSettings } from '../../lib/settings';
 import { translit, isRoman, translitTitle } from '../../lib/transliterate';
 import { T, useI18n } from '../../lib/i18n';
+
+/** The current instant (a function, so rendering stays pure; re-read on every clock tick). */
+const clock = () => Date.now();
 
 const ISO = /^\d{4}-\d{2}-\d{2}$/;
 
@@ -59,7 +64,7 @@ export default function PanchangaScreen() {
   const params = useLocalSearchParams<{ date?: string; at?: string }>();
   const city = cityById(settings.city);
   // Follow the clock, so the tab does not stay on yesterday when the app is left open.
-  useClockTick(5 * 60 * 1000);
+  useClockTick(60 * 1000); // also keeps "right now" and the time left current
   const today = todayIn(city);
   // The day picked here (‹ › / back to today) belongs to the link it was picked after, so a
   // new date from the calendar or festival search, or a tap on the Home card (`at`), replaces it.
@@ -90,19 +95,22 @@ export default function PanchangaScreen() {
   // Names (tithi, month, festival): in plain English they read best capitalised.
   const t = (s: string) => (settings.script === 'english' ? translitTitle(s, settings.script) : translit(s, settings.script));
   const tm = (d: Date) => formatTime(d, city, date, lang);
+  // The choghadiya and hora lists run sunrise to sunrise: after-midnight rows need no date.
+  const clockTime = (d: Date) => formatTime(d, city);
   const [y, m, d] = parseIso(date);
 
   const card = { marginHorizontal: 16, borderRadius: 16, borderWidth: 1, borderColor: theme.cardBorder, backgroundColor: theme.card } as const;
 
   // The five limbs: the element at sunrise and when it ends; the full panchanga lists every element
   // up to the next sunrise.
-  const until = (spans: Span[]) => (full ? spans : spans.slice(0, 1)).map((s) => `${t(s.name)} · ${tr('till {time}', { time: tm(s.end) })}`).join('\n');
-  const limbs: Row[] = [
-    [[T('Tithi'), 'तिथिः'], until(p.tithis.map((s) => ({ ...s, name: `${s.index <= 15 ? 'शुक्ल' : 'कृष्ण'} ${s.name}` })))],
-    [[T('Nakshatra'), 'नक्षत्रम्'], until(p.nakshatras)],
-    [[T('Yoga'), 'योगः'], until(p.yogas)],
-    [[T('Karana'), 'करणम्'], until(p.karanas)],
-    [[T('Weekday'), 'वासरः'], t(p.vasara)],
+  const items = (spans: Span[]) => (full ? spans : spans.slice(0, 1)).map((s) => ({ name: t(s.name), till: tm(s.end) }));
+  const limbs: Limb[] = [
+    { label: T('Tithi'), items: items(p.tithis.map((s) => ({ ...s, name: `${s.index <= 15 ? 'शुक्ल' : 'कृष्ण'} ${s.name}` }))) },
+    { label: T('Nakshatra'), items: items(p.nakshatras) },
+    { label: T('Yoga'), items: items(p.yogas) },
+    { label: T('Karana'), items: items(p.karanas) },
+    { label: T('Weekday'), items: [{ name: t(p.vasara) }] },
+    { label: T('Moon sign'), items: items(p.moonRashis) },
   ];
   const lunarMasa = t(`${p.adhika ? 'अधिक ' : ''}${p.masa}`);
   const year: Row[] = [
@@ -120,23 +128,28 @@ export default function PanchangaScreen() {
         ] as Row[])),
     [[T('Paksha'), 'पक्षः'], t(p.paksha)],
   ];
-  const sunMoon: Row[] = [
-    [[T('Sunrise'), 'सूर्योदयः'], visibleRise ? `${tm(p.sunrise)}\n${tr('visible sunrise {time}', { time: tm(visibleRise) })}` : tm(p.sunrise)],
-    [[T('Sunset'), 'सूर्यास्तः'], tm(p.sunset)],
-  ];
   const moonRows: Row[] = [
     [[T('Moonrise'), 'चन्द्रोदयः'], moonrise === null ? tr('None before the next sunrise') : tm(fromJulian(moonrise))],
     [[T('Sun sign'), 'सूर्यराशिः'], t(p.sunRashi)],
-    [[T('Moon sign'), 'चन्द्रराशिः'], until(p.moonRashis)],
   ];
-  const span = (s: [Date, Date]) => `${tm(s[0])} – ${tm(s[1])}`;
+  const span = (s: [Date, Date]) => nb(`${tm(s[0])} – ${tm(s[1])}`);
   const parana = festivalsBetween(city, addDays(date, -1), addDays(date, -1), rule, mode, start, method).find((f) => f.kind === 'ekadashi' && f.parana?.date === date)?.parana;
-  const times: Row[] = [
-    ...(parana ? ([[[T('Parana (break the fast)'), 'पारणम्'], `${tm(parana.start)} – ${tm(parana.end)}${parana.note ? `\n${paranaNote(parana, city, lang)}` : ''}`, 'good']] as Row[]) : []),
-    [[T('Abhijit muhurta'), 'अभिजित्'], `${span(p.abhijit)}${p.weekday === 3 ? `\n${tr('(not used on Wednesdays)')}` : ''}`, 'good'],
-    [[T('Rahu kala'), 'राहुकालः'], span(p.rahuKala), 'avoid'],
-    [[T('Yamaganda'), 'यमगण्डः'], span(p.yamaganda), 'avoid'],
-    [[T('Gulika kala'), 'गुलिककालः'], span(p.gulika), 'avoid'],
+  const amrita = useMemo(() => amritaKala(p), [p]);
+  const brahma = useMemo(() => brahmaMuhurta(p), [p]);
+  const chog = useMemo(() => choghadiya(p), [p]);
+  const horas = useMemo(() => hora(p), [p]);
+  const durm = useMemo(() => durmuhurta(p), [p]);
+  const varj = useMemo(() => varjyam(p), [p]);
+  // "Right now" only on today's date; the clock is re-read every minute (useClockTick above).
+  const now = date === today ? clock() : null;
+  const times: TimingRow[] = [
+    ...(parana ? [{ label: T('Parana (break the fast)'), value: `${span([parana.start, parana.end])}${parana.note ? `\n${paranaNote(parana, city, lang)}` : ''}`, tone: 'good' as const }] : []),
+    { label: T('Brahma muhurta'), value: span(brahma), tone: 'good' },
+    { label: T('Abhijit muhurta'), value: `${span(p.abhijit)}${p.weekday === 3 ? `\n${tr('(not used on Wednesdays)')}` : ''}`, tone: 'good' },
+    ...(amrita.length ? [{ label: T('Amrita kala'), value: amrita.map(span).join('\n'), tone: 'good' as const }] : []),
+    { label: T('Rahu kala'), value: span(p.rahuKala), tone: 'bad' },
+    { label: T('Yamaganda'), value: span(p.yamaganda), tone: 'bad' },
+    { label: T('Gulika kala'), value: span(p.gulika), tone: 'bad' },
   ];
 
   return (
@@ -190,11 +203,25 @@ export default function PanchangaScreen() {
         </View>
       )}
 
-      <View style={{ height: 16 }} />
-      <Table rows={[...limbs, ...sunMoon, ...(full ? moonRows : [])]} />
+      {now !== null && <RightNow choghadiya={chog} now={now} t={t} tm={tm} />}
 
-      <View style={{ height: 12 }} />
-      <Table rows={times} />
+      <DayTimeline p={p} tm={tm} now={now} rahu={p.rahuKala} yama={p.yamaganda} gulika={p.gulika} abhijit={p.abhijit} amrita={amrita} />
+      {visibleRise && (
+        <Text style={{ color: theme.textMuted, fontSize: 13, marginHorizontal: 20, marginTop: 6 }}>{tr('visible sunrise {time}', { time: tm(visibleRise) })}</Text>
+      )}
+
+      <View style={{ height: 14 }} />
+      <LimbGrid limbs={limbs} />
+
+      <View style={{ height: 14 }} />
+      <TimingRows rows={times} />
+
+      {full && (
+        <>
+          <View style={{ height: 14 }} />
+          <Table rows={moonRows} />
+        </>
+      )}
 
       <Pressable
         onPress={() => setFull(!full)}
@@ -209,6 +236,18 @@ export default function PanchangaScreen() {
       <>
       <View style={{ height: 16 }} />
       <Table rows={year} />
+
+      <SectionHeading>{tr('Choghadiya')}</SectionHeading>
+      <SegmentList segs={chog} now={now} t={t} tm={clockTime} />
+
+      <SectionHeading>{tr('Hora')}</SectionHeading>
+      <SegmentList segs={horas} now={now} t={t} tm={clockTime} />
+
+      <SectionHeading>{tr('Durmuhurta')}</SectionHeading>
+      <WindowList windows={durm} tm={tm} now={now} />
+
+      <SectionHeading>{tr('Varjyam')}</SectionHeading>
+      <WindowList windows={varj} tm={tm} now={now} />
 
       <SectionHeading>{tr('Sankalpa')}</SectionHeading>
       <View style={[card, { padding: 14 }]}>
