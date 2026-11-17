@@ -9,7 +9,7 @@ import { festivalsBetween, type Festival } from '../lib/festivals';
 import { cityById, todayIn, type CalcMethod } from '../lib/panchanga';
 import { plain } from '../lib/plain';
 import { useSettings } from '../lib/settings';
-import { searchKey, translit } from '../lib/transliterate';
+import { searchKey, translit, translitTitle } from '../lib/transliterate';
 
 const FIRST_YEAR = 2025;
 const LAST_YEAR = 2036;
@@ -148,7 +148,7 @@ export default function FestivalSearch() {
                 <Text style={{ color: theme.textMuted, fontSize: 12 }}>{fmt(f.date).weekday}{f.endDate ? ` → ${f.endDate.slice(8)}/${f.endDate.slice(5, 7)}` : ''}</Text>
               </View>
               <View style={{ flex: 1 }}>
-                <Text style={{ color: theme.text, fontSize: 16 }} numberOfLines={1}>{translit(f.name, settings.script)}</Text>
+                <Text style={{ color: theme.text, fontSize: 16 }} numberOfLines={1}>{settings.script === 'english' ? translitTitle(f.name, settings.script) : translit(f.name, settings.script)}</Text>
                 <Text style={{ color: theme.textMuted, fontSize: 13 }} numberOfLines={2}>{lang === 'en' ? plain(f.en) : has(f.en) ? tr(f.en) : ''}</Text>
                 {f.parana && <Text style={{ color: theme.textMuted, fontSize: 12 }}>{tr('Parana {label}', { label: f.parana.label })}</Text>}
               </View>

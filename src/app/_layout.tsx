@@ -2,6 +2,7 @@ import { useFonts } from 'expo-font';
 import { Stack } from 'expo-router';
 import * as SplashScreen from 'expo-splash-screen';
 import { useEffect } from 'react';
+import { NavigationBar } from 'expo-navigation-bar';
 import { StatusBar } from 'expo-status-bar';
 import { SafeAreaProvider, useSafeAreaInsets } from 'react-native-safe-area-context';
 import { FestivalReminderSync } from '../components/FestivalReminderSync';
@@ -27,6 +28,8 @@ function AppStack() {
   return (
     <>
       <StatusBar style={theme.statusBar} />
+      {/* Android's navigation buttons follow the theme (no system scrim: the tab bar runs under them). */}
+      <NavigationBar style={theme.statusBar} />
       <FestivalReminderSync />
       <Stack
         screenOptions={{

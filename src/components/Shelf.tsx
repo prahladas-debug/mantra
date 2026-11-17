@@ -88,7 +88,7 @@ const COVER_ART: Record<string, ImageSourcePropType> = {
 
 /** A cloth-bound book cover: the work's emblem above, its title in the reader's script below. */
 export function BookCover({ work, width = 156, still }: { work: GreatWork; width?: number; /** Shown on the work's own page: not a link. */ still?: boolean }) {
-  const { settings } = useSettings();
+  const { settings, theme } = useSettings();
   const { tr } = useI18n();
   const showEn = useShowEnglish();
   if (work.textId && !getMantraInfo(work.textId)) return null;
@@ -107,7 +107,7 @@ export function BookCover({ work, width = 156, still }: { work: GreatWork; width
       accessibilityLabel={[showEn || isRoman(settings.script) ? work.titleEn : coverLines(work, settings.script).join(' '), tr(work.size), work.about && tr(work.about)].filter(Boolean).join(', ')}
       style={({ pressed }) => [c.cover, { width, height, backgroundColor: work.cloth, opacity: pressed ? 0.85 : 1 }]}
     >
-      <ImageBackground source={COVER_ART[work.category ?? work.textId!]} style={{ width, height }} resizeMode="cover">
+      <ImageBackground source={COVER_ART[work.category ?? work.textId!]} style={{ width, height }} imageStyle={{ opacity: theme.artOpacity }} resizeMode="cover">
         {/* The art leaves the lower half of the frame free for the words. */}
         <View style={c.words}>
           <View style={{ flex: 1, alignSelf: 'stretch', justifyContent: 'center' }}>
@@ -153,7 +153,7 @@ const BANNER_ART: Partial<Record<CategoryId, ImageSourcePropType>> = {
  * and on the left the title, its size, where you are in it, and Continue / Begin.
  */
 export function BookBanner({ category, firstId, lastId, lastLabel }: { category: CategoryId; firstId: string; lastId?: string; lastLabel?: string }) {
-  const { settings } = useSettings();
+  const { settings, theme } = useSettings();
   const { tr } = useI18n();
   const showEn = useShowEnglish();
   const work = GREAT_WORKS.find((w) => w.category === category);
@@ -165,7 +165,7 @@ export function BookBanner({ category, firstId, lastId, lastLabel }: { category:
   return (
     <View style={[c.banner, { backgroundColor: work.cloth }]}>
       {/* Sized by the banner itself: an ImageBackground without a fixed size shows the picture at its own size. */}
-      <Image source={art} style={{ position: 'absolute', width: '100%', height: '100%' }} resizeMode="cover" />
+      <Image source={art} style={{ position: 'absolute', width: '100%', height: '100%', opacity: theme.artOpacity }} resizeMode="cover" />
       <View style={c.bannerWords}>
         {coverLines(work, settings.script).map((line) => (
           <Text key={line} style={{ color: CREAM, fontSize: size, lineHeight: size * 1.45, fontFamily: font, fontWeight: font ? undefined : '700' }} numberOfLines={1} adjustsFontSizeToFit minimumFontScale={0.6}>
@@ -226,7 +226,7 @@ export function DeityMedallion({ deity, width = 76 }: { deity: DeityGroup; width
       accessibilityLabel={translit(deity.short ?? deity.title, settings.script)}
       style={({ pressed }) => ({ width, alignItems: 'center', opacity: pressed ? 0.7 : 1 })}
     >
-      <Image source={DEITY_ART[deity.id]} style={{ width: d, height: d, borderRadius: d / 2 }} />
+      <Image source={DEITY_ART[deity.id]} style={{ width: d, height: d, borderRadius: d / 2, opacity: theme.artOpacity }} />
       <Text style={{ color: theme.text, fontSize: 13, lineHeight: 20, textAlign: 'center', marginTop: 4, fontFamily: font }} numberOfLines={1} adjustsFontSizeToFit minimumFontScale={0.75}>
         {translit(deity.short ?? deity.title, settings.script)}
       </Text>

@@ -78,7 +78,7 @@ export default function Home() {
     <ScrollView style={{ backgroundColor: theme.bg }} contentContainerStyle={{ paddingTop: insets.top + 14, paddingBottom: 32 }}>
       <View style={s.header}>
         <View style={{ flex: 1 }}>
-          <Text style={{ color: theme.accent, fontSize: 28, fontFamily: font, fontWeight: font ? undefined : '700' }} numberOfLines={1}>
+          <Text style={{ color: theme.name === 'dark' ? theme.gold : theme.accent, fontSize: 28, fontFamily: font, fontWeight: font ? undefined : '700' }} numberOfLines={1}>
             {appTitle(settings.script)}
           </Text>
           <Text style={{ color: theme.textMuted, fontSize: 13, lineHeight: 20, fontFamily: font }} numberOfLines={1}>

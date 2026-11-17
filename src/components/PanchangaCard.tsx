@@ -154,7 +154,7 @@ export function FestivalLine({ f, showDate, showNote }: { f: Festival; showDate?
         >
           <Text style={{ color: f.kind === 'ekadashi' ? theme.accent : theme.text, fontSize: 16, fontWeight: '600' }}>
             {showDate ? `${f.date.slice(8)}/${f.date.slice(5, 7)} · ` : ''}
-            {translit(f.name, settings.script)}
+            {settings.script === 'english' ? translitTitle(f.name, settings.script) : translit(f.name, settings.script)}
           </Text>
           <Text style={{ color: theme.textMuted, fontSize: 13, marginTop: 1 }}>
             {gloss}

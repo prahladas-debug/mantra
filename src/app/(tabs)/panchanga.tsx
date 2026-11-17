@@ -35,7 +35,7 @@ function Table({ rows }: { rows: Row[] }) {
           style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'flex-start', gap: 12, paddingHorizontal: 14, paddingVertical: 11, borderTopWidth: i ? 1 : 0, borderColor: theme.cardBorder }}
         >
           <View style={{ flexShrink: 0, minWidth: 96 }}>
-            <Text style={{ color: theme.text, fontSize: 15 }}>{tr(l[0])}</Text>
+            <Text style={{ color: theme.gold, fontSize: 15, fontWeight: '600' }}>{tr(l[0])}</Text>
             {!roman && <Text style={{ color: theme.textMuted, fontSize: 13, marginTop: 1 }}>{translit(l[1], settings.script)}</Text>}
           </View>
           <Text

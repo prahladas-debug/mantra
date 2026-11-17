@@ -31,7 +31,7 @@ export default function TabLayout() {
         // The standard bar (49) fits a 10-point label; ours is 12, and its lower half was cut off
         // where there is no bottom inset (web, phones with a home button). A set height must
         // include the inset.
-        tabBarStyle: { backgroundColor: theme.card, borderTopColor: theme.cardBorder, height: 56 + insets.bottom },
+        tabBarStyle: { backgroundColor: theme.bar, borderTopColor: theme.cardBorder, height: 56 + insets.bottom },
         tabBarActiveTintColor: theme.accent,
         tabBarInactiveTintColor: theme.textMuted,
         tabBarLabelStyle: { fontSize: 12 },
