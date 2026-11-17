@@ -57,7 +57,31 @@
         }
       ],
       "expo-sharing",
-      "expo-widgets"
+      "./plugins/withWidgetOpensApp",
+      [
+        "expo-widgets",
+        {
+          "enableAndroid": true,
+          "widgets": [
+            {
+              "name": "TodayWidget",
+              "displayName": "Today",
+              "description": "Today's panchanga for your city: tithi, nakshatra, Rahu kala and any festival.",
+              "ios": {
+                "supportedFamilies": ["systemSmall", "systemMedium"]
+              },
+              "android": {
+                "targetCellWidth": 4,
+                "targetCellHeight": 2,
+                "minWidth": 250,
+                "minHeight": 110,
+                "resizeMode": "both",
+                "initialLayout": "src/widgets/TodayWidget.tsx"
+              }
+            }
+          ]
+        }
+      ]
     ],
     "scheme": "mantrasangraha",
     "description": "Nandadeepa: mantras, stotras, parayana texts, devotional songs, puja and rites, and a panchanga, in Kannada, Devanagari, Telugu, Tamil, Malayalam and more.",
