@@ -200,8 +200,10 @@ const BANNER_ART: Partial<Record<CategoryId, ImageSourcePropType>> = {
  * The top of a book's own page: a wide banner in the book's cloth with its emblem on the right,
  * and on the left the title, its size, where you are in it, and Continue / Begin.
  */
-export function BookBanner({ category, firstId, lastId, lastLabel }: { category: CategoryId; firstId: string; lastId?: string; lastLabel?: string }) {
-  const { settings, theme } = useSettings();
+export function BookBanner({ category, firstId, lastId, lastLabel, parts }: { category: CategoryId; firstId: string; lastId?: string; lastLabel?: string; parts?: string[] }) {
+  const { settings, theme, finished } = useSettings();
+  // How much of the book has been read to the end of its chapters.
+  const done = parts ? parts.filter((id) => finished[id]).length : 0;
   const { tr } = useI18n();
   const showEn = useShowEnglish();
   const work = GREAT_WORKS.find((w) => w.category === category);
@@ -242,6 +244,14 @@ export function BookBanner({ category, firstId, lastId, lastLabel }: { category:
         <Text style={{ color: GOLD, fontSize: 13, marginTop: 1 }} numberOfLines={2}>
           {[tr(work.size), work.about && tr(work.about)].filter(Boolean).join(' · ')}
         </Text>
+        {parts && done > 0 && (
+          <View style={{ marginTop: 8 }} accessible accessibilityLabel={tr('{done} of {total} read', { done, total: parts.length })}>
+            <View style={{ height: 3, borderRadius: 2, backgroundColor: 'rgba(246,235,214,0.25)', overflow: 'hidden', maxWidth: 160 }}>
+              <View style={{ width: `${Math.max(3, (done / parts.length) * 100)}%`, height: 3, backgroundColor: GOLD }} />
+            </View>
+            <Text style={{ color: CREAM, fontSize: 12, marginTop: 3, opacity: 0.85 }}>{tr('{done} of {total} read', { done, total: parts.length })}</Text>
+          </View>
+        )}
         <View style={{ flexDirection: 'row', flexWrap: 'wrap', gap: 8, marginTop: 12 }}>
           {lastId && lastId !== firstId ? (
             <>

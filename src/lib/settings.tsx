@@ -7,6 +7,9 @@ import type { MeaningPref } from './meaning';
 import { localDate, type Plan } from './plans';
 import { cityById, fromJulian, julianDay, sunEventJd, sunriseDayOf, todayIn, withMethod } from './panchanga';
 import type { ScriptId } from './transliterate';
+import type { MarkColor } from './marks';
+
+export { MARK_COLORS, MARK_INK, type MarkColor } from './marks';
 
 export interface Settings {
   script: ScriptId;
@@ -46,7 +49,14 @@ export interface Settings {
   showStreaks: boolean;
   /** A light tap of the phone on each bead counted in the japa counter. */
   japaVibrate: boolean;
+  /** Hands-free reading speed, 1 (slow) to 9 (fast): the page scrolls or turns by itself. */
+  autoSpeed: number;
+  /** In the book view, a tap near the left or right edge of the page turns it. */
+  edgeTaps: boolean;
+  /** Android: the volume buttons turn the pages while a text is open. */
+  volumeKeys: boolean;
 }
+
 
 export interface Bookmark {
   id: string;
@@ -54,6 +64,10 @@ export interface Bookmark {
   /** Row key of the verse, e.g. "v4-12" (section 4, verse 12). */
   key: string;
   at: number;
+  /** Highlight colour (none: gold). */
+  color?: MarkColor;
+  /** The reader's own note on the verse. */
+  note?: string;
 }
 
 export interface RecentEntry {
@@ -73,6 +87,10 @@ export interface Store {
   routine: string[];
   /** Routine texts finished, by panchanga day (sunrise to sunrise). Only recent days are kept. */
   routineDone: Record<string, string[]>;
+  /** Texts (and each sarga or adhyaya of a long work) read to their end: when, last. */
+  finished: Record<string, number>;
+  /** Local dates (YYYY-MM-DD) on which a text was read to its end, the last two months. */
+  readDays: string[];
 }
 
 const DEFAULTS: Store = {
@@ -94,6 +112,9 @@ const DEFAULTS: Store = {
     festivalReminders: { ekadashi: false, festivals: false, time: '19:00' },
     showStreaks: false,
     japaVibrate: true,
+    autoSpeed: 4,
+    edgeTaps: true,
+    volumeKeys: false,
   },
   favorites: [],
   recent: [],
@@ -102,6 +123,8 @@ const DEFAULTS: Store = {
   bookmarks: [],
   routine: [],
   routineDone: {},
+  finished: {},
+  readDays: [],
 };
 
 /** Today's panchanga day at the city: the day changes at sunrise, not midnight. */
@@ -165,6 +188,10 @@ interface Ctx extends Store {
   addRecitation: (planId: string, delta: number) => void;
   savePosition: (mantraId: string, key: string) => void;
   toggleBookmark: (mantraId: string, key: string) => void;
+  /** Mark a verse (colour and note), or unmark it with null. */
+  setMark: (mantraId: string, key: string, mark: { color?: MarkColor; note?: string } | null) => void;
+  /** The reader reached the end of this text. */
+  markFinished: (mantraId: string) => void;
   setRoutine: (ids: string[]) => void;
   /** Mark a routine text done (or not) for the given panchanga day. */
   setRoutineDone: (day: string, id: string, done: boolean) => void;
@@ -209,6 +236,8 @@ export function SettingsProvider({ children }: { children: React.ReactNode }) {
           bookmarks: saved.bookmarks ?? [],
           routine: saved.routine ?? [],
           routineDone: saved.routineDone ?? {},
+          finished: saved.finished ?? {},
+          readDays: saved.readDays ?? [],
         });
       })
       .catch(() => {})
@@ -319,6 +348,28 @@ export function SettingsProvider({ children }: { children: React.ReactNode }) {
     [],
   );
 
+  const setMark = useCallback(
+    (mantraId: string, key: string, mark: { color?: MarkColor; note?: string } | null) =>
+      setStore((s) => {
+        const old = s.bookmarks.find((b) => b.mantraId === mantraId && b.key === key);
+        const rest = s.bookmarks.filter((b) => b !== old);
+        if (!mark) return { ...s, bookmarks: rest };
+        const note = mark.note?.trim() || undefined;
+        const next: Bookmark = { id: old?.id ?? `${Date.now()}`, mantraId, key, at: old?.at ?? Date.now(), color: mark.color, note };
+        return { ...s, bookmarks: old ? s.bookmarks.map((b) => (b === old ? next : b)) : [next, ...rest] };
+      }),
+    [],
+  );
+  const markFinished = useCallback(
+    (mantraId: string) =>
+      setStore((s) => {
+        const today = localDate();
+        const readDays = s.readDays.includes(today) ? s.readDays : [...s.readDays, today].sort().slice(-60);
+        return { ...s, finished: { ...s.finished, [mantraId]: Date.now() }, readDays };
+      }),
+    [],
+  );
+
   const restoreStore = useCallback((next: Store) => setStore(next), []);
   const setRoutine = useCallback((ids: string[]) => setStore((s) => ({ ...s, routine: [...new Set(ids)] })), []);
   const setRoutineDone = useCallback(
@@ -352,9 +403,9 @@ export function SettingsProvider({ children }: { children: React.ReactNode }) {
     () => ({
       ...store, ready, theme: THEMES[themeName], update, toggleFavorite, markRead,
       addPlan, updatePlan, removePlan, markPlanItemRead, addRecitation, savePosition, toggleBookmark,
-      setRoutine, setRoutineDone, restoreStore,
+      setMark, markFinished, setRoutine, setRoutineDone, restoreStore,
     }),
-    [store, ready, themeName, update, toggleFavorite, markRead, addPlan, updatePlan, removePlan, markPlanItemRead, addRecitation, savePosition, toggleBookmark, setRoutine, setRoutineDone, restoreStore],
+    [store, ready, themeName, update, toggleFavorite, markRead, addPlan, updatePlan, removePlan, markPlanItemRead, addRecitation, savePosition, toggleBookmark, setMark, markFinished, setRoutine, setRoutineDone, restoreStore],
   );
 
   return <SettingsContext.Provider value={value}>{children}</SettingsContext.Provider>;

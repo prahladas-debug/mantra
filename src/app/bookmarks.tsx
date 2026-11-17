@@ -9,11 +9,13 @@ import { useI18n } from '../lib/i18n';
 import { useSettings } from '../lib/settings';
 import { translit, nameOf } from '../lib/transliterate';
 import { useShowEnglish } from '../components/useGloss';
+import { useMarkInk } from '../components/reader/MarkSheet';
 
 export default function Bookmarks() {
   const { theme, settings, bookmarks, toggleBookmark } = useSettings();
   const { tr } = useI18n();
   const showEn = useShowEnglish();
+  const ink = useMarkInk();
   // Sargas of the long works are read from their assets for the verse text, and kept here: the
   // loader's cache holds only a few units, so one read earlier may be gone from it by now.
   const [units, setUnits] = useState<Record<string, Mantra>>(() => {
@@ -56,20 +58,20 @@ export default function Bookmarks() {
     .filter((x) => !!x);
   return (
     <View style={{ flex: 1, backgroundColor: theme.bg }}>
-      <Stack.Screen options={{ title: tr('Bookmarks') }} />
+      <Stack.Screen options={{ title: tr('Bookmarks and notes') }} />
       <FlatList
         data={items}
         keyExtractor={(x) => x.b.id}
         contentContainerStyle={{ padding: 16, paddingBottom: 40 }}
         ListEmptyComponent={
           <Text style={{ color: theme.textMuted, lineHeight: 22 }}>
-            {tr('Tap the bookmark icon under any verse to keep it here, e.g. a shloka you are learning by heart.')}
+            {tr('Tap the bookmark icon under any verse to keep it here, in a colour and with a note if you like: a shloka you are learning by heart, or one to come back to.')}
           </Text>
         }
         renderItem={({ item }) => (
           <Pressable
             onPress={() => router.push(`/mantra/${item.m.id}?si=${item.si}&vi=${item.vi}` as Href)}
-            style={{ marginBottom: 10, padding: 14, borderRadius: 16, borderWidth: 1, backgroundColor: theme.card, borderColor: theme.cardBorder }}
+            style={{ marginBottom: 10, padding: 14, borderRadius: 16, borderWidth: 1, borderLeftWidth: 4, borderLeftColor: ink(item.b.color), backgroundColor: theme.card, borderColor: theme.cardBorder }}
           >
             <View style={{ flexDirection: 'row', alignItems: 'center' }}>
               <Text style={{ color: theme.accent, fontSize: 14, fontWeight: '600', flex: 1 }}>
@@ -83,6 +85,12 @@ export default function Bookmarks() {
             <Text numberOfLines={3} style={{ color: theme.text, fontSize: 18, lineHeight: 30, marginTop: 4, fontFamily: scriptFont(scriptFor(item.m, settings.script), settings.bookFonts) }}>
               {item.v ? translit(item.v.text, settings.script) : '…'}
             </Text>
+            {item.b.note && (
+              <View style={{ flexDirection: 'row', gap: 6, marginTop: 8 }}>
+                <MaterialCommunityIcons name="pencil-outline" size={15} color={ink(item.b.color)} style={{ marginTop: 3 }} />
+                <Text style={{ flex: 1, color: theme.textMuted, fontSize: 15, lineHeight: 22 }}>{item.b.note}</Text>
+              </View>
+            )}
           </Pressable>
         )}
       />

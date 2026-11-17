@@ -20,6 +20,19 @@ export interface ReaderState {
   /** Focus mode: the header and page bar are hidden; a tap on the page toggles it. */
   focus: boolean;
   toggleFocus: () => void;
+  /** The word found with "Find in this text", marked in the highlighted verse. */
+  highlightTerm: string | null;
+  /** Open the sheet to mark this verse with a colour and a note. */
+  openMark: (key: string) => void;
+  /** A wide page (tablet): the meaning stands beside the verse instead of under it. */
+  wide: boolean;
+  /** Hands-free reading is running, at this many points a second. */
+  autoPlaying: boolean;
+  autoPace: number;
+  /** The reader touched the text: hands-free reading pauses. */
+  pauseAuto: () => void;
+  /** The last page (book) or the end of the text (scroll) came into view. */
+  onFinish: () => void;
 }
 
 export const ReaderContext = createContext<ReaderState | null>(null);

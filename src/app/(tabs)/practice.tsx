@@ -44,18 +44,18 @@ const LOOKBACK = 60;
 
 /** The last seven days as small lamps, and the forgiving streak. Shown only when switched on in Settings. */
 function StreakCard() {
-  const { theme, settings, routine, routineDone } = useSettings();
+  const { theme, settings, routine, routineDone, readDays } = useSettings();
   const { tr, weekday } = useI18n();
   const [japa, setJapa] = useState<{ target: number | null; byDate: Record<string, number> }>({ target: 108, byDate: {} });
   useFocusEffect(useCallback(() => { loadJapaDays().then(setJapa); }, []));
   // Days run sunrise to sunrise for the routine, as on the routine card.
   const today = routineDay(settings.city);
   const { days, lit, streak } = useMemo(() => {
-    const input = { routine, routineDone, japaByDate: japa.byDate, japaTarget: japa.target };
+    const input = { routine, routineDone, japaByDate: japa.byDate, japaTarget: japa.target, readDays };
     const all = datesEnding(today, LOOKBACK);
     const flags = all.map((d) => isLit(input, d));
     return { days: all.slice(-LAMP_DAYS), lit: flags.slice(-LAMP_DAYS), streak: streakLength(flags) };
-  }, [today, routine, routineDone, japa]);
+  }, [today, routine, routineDone, japa, readDays]);
   return (
     <View style={[s.list, { backgroundColor: theme.card, borderColor: theme.cardBorder, padding: 14 }]}>
       <View style={{ flexDirection: 'row', alignItems: 'center' }}>
@@ -74,7 +74,7 @@ function StreakCard() {
         <Text style={{ color: theme.text, fontSize: 16, fontWeight: '600' }}>{streak === 1 ? tr('{n} day', { n: streak }) : tr('{n} days', { n: streak })}</Text>
       </View>
       <Text style={{ color: theme.textMuted, fontSize: 13, lineHeight: 18, marginTop: 8 }}>
-        {tr('A lamp is lit when the routine is done or the japa target is met. One quiet day in seven does not break the streak.')}
+        {tr('A lamp is lit when the routine is done, the japa target is met, or a text is read to its end. One quiet day in seven does not break the streak.')}
       </Text>
     </View>
   );

@@ -20,6 +20,8 @@ import { Chip } from '../ui';
 import { useReader } from './context';
 import { plain } from '../../lib/plain';
 import { ART } from '../../lib/art';
+import { useMarkInk } from './MarkSheet';
+import { Marked } from './FindSheet';
 import { artFor } from '../../lib/textArt';
 
 
@@ -190,9 +192,10 @@ function SectionNote({ section, align }: { section: Section; align: 'center' | '
 }
 
 export function VerseBlock({ verse, rowKey, book }: { verse: Verse; rowKey: string; book?: boolean }) {
-  const { theme, settings, bookmarks, toggleBookmark } = useSettings();
+  const { theme, settings, bookmarks } = useSettings();
   const { tr } = useI18n();
-  const { mantra, opened, toggleMeaning, highlight, practice, revealed, reveal } = useReader();
+  const { mantra, opened, toggleMeaning, highlight, highlightTerm, practice, revealed, reveal, openMark, wide } = useReader();
+  const ink = useMarkInk();
   // The verse of a Tamil-language text is in Tamil whatever the reading script (font, size,
   // digits), and has no second script: it would only repeat the same Tamil lines.
   const script = scriptFor(mantra, settings.script);
@@ -203,7 +206,10 @@ export function VerseBlock({ verse, rowKey, book }: { verse: Verse; rowKey: stri
   const pLang = primaryLang(settings.meaningLang, settings.script);
   const isOpen = opened.has(rowKey);
   const showMeaning = settings.alwaysShowMeanings || isOpen;
-  const marked = bookmarks.some((x) => x.mantraId === mantra.id && x.key === rowKey);
+  const mark = bookmarks.find((x) => x.mantraId === mantra.id && x.key === rowKey);
+  const markInk = mark ? ink(mark.color) : null;
+  // The word found with "Find in this text", marked while the verse is highlighted.
+  const term = rowKey === highlight ? highlightTerm : null;
   const center = book && settings.centerVerses;
   const font = scriptFont(script, settings.bookFonts);
   // The text ends with ॥; when a number follows, render a single "॥ n ॥" instead of "॥ ॥ n ॥".
@@ -218,13 +224,47 @@ export function VerseBlock({ verse, rowKey, book }: { verse: Verse; rowKey: stri
   const hiddenCount = lines.length - shown;
   const numberText = verse.n !== undefined ? ' ' + verseNumber(verse.n, script) : '';
   const [sharing, setSharing] = useState(false);
+  // On a wide page an open meaning stands beside the verse, as in a bilingual edition.
+  const beside = wide && showMeaning && meanings.length > 0;
+
+  const meaningTexts = showMeaning
+    ? meanings.map(({ lang, text }) => (
+        <Marked
+          key={lang}
+          text={lang === 'en' ? translitInline(text, settings.script) : text}
+          term={term}
+          color={theme.accentSoft}
+          style={[
+            b.meaning,
+            beside && { marginTop: 0 },
+            {
+              color: theme.textMuted,
+              borderColor: theme.ornament,
+              fontSize: (lang !== 'en' ? 16 : 15) * Math.min(scale, 1.4),
+              lineHeight: (lang !== 'en' ? 26 : 22) * Math.min(scale, 1.4),
+              fontFamily: meaningFont(lang, settings.bookFonts),
+              fontStyle: lang === 'en' && !settings.bookFonts ? 'italic' : 'normal',
+              alignSelf: 'stretch',
+            },
+          ]}
+        />
+      ))
+    : null;
 
   return (
     // Not one accessibility element: on iOS that would hide the Meaning, bookmark and share
     // buttons inside it from VoiceOver. The verse text (with its number) is read as one.
-    <View style={[b.verse, rowKey === highlight && { backgroundColor: theme.accentSoft }, center && { alignItems: 'center' }]}>
+    <View
+      style={[
+        b.verse,
+        markInk && { borderLeftWidth: 3, borderLeftColor: markInk, backgroundColor: markInk + '14', paddingLeft: 17 },
+        rowKey === highlight && { backgroundColor: theme.accentSoft },
+        beside && { flexDirection: 'row', gap: 28 },
+      ]}
+    >
+    <View style={[{ flex: beside ? 1.15 : undefined }, center && { alignItems: 'center' }]}>
       <Text style={{ color: theme.text, fontSize: fs, lineHeight: lh, fontFamily: font, textAlign: center ? 'center' : 'left', alignSelf: 'stretch' }} selectable={!practice}>
-        {lines.slice(0, shown).join('\n')}
+        <Marked text={lines.slice(0, shown).join('\n')} term={practice ? null : term} color={theme.gold + '55'} />
         {hiddenCount === 0 && verse.n !== undefined && <Text style={{ color: theme.verseNumber }}>{numberText}</Text>}
       </Text>
       {hiddenCount > 0 && (
@@ -254,8 +294,8 @@ export function VerseBlock({ verse, rowKey, book }: { verse: Verse; rowKey: stri
             </Text>
           </Pressable>
         )}
-        <Pressable hitSlop={8} onPress={() => toggleBookmark(mantra.id, rowKey)} accessibilityLabel={marked ? tr('Remove bookmark') : tr('Bookmark this verse')} style={b.iconBtn}>
-          <MaterialCommunityIcons name={marked ? 'bookmark' : 'bookmark-outline'} size={18} color={marked ? theme.accent : theme.textMuted} />
+        <Pressable hitSlop={8} onPress={() => openMark(rowKey)} accessibilityLabel={mark ? tr('Change the mark') : tr('Bookmark or highlight this verse')} style={b.iconBtn}>
+          <MaterialCommunityIcons name={mark ? 'bookmark' : 'bookmark-outline'} size={18} color={markInk ?? theme.textMuted} />
         </Pressable>
         <Pressable hitSlop={8} onPress={() => setSharing(true)} accessibilityLabel={tr('Share this verse')} style={b.iconBtn}>
           <MaterialCommunityIcons name="share-variant-outline" size={18} color={theme.textMuted} />
@@ -264,26 +304,15 @@ export function VerseBlock({ verse, rowKey, book }: { verse: Verse; rowKey: stri
           <MaterialCommunityIcons name="flag-outline" size={18} color={theme.textMuted} />
         </Pressable>
       </View>
-      {showMeaning &&
-        meanings.map(({ lang, text }) => (
-          <Text
-            key={lang}
-            style={[
-              b.meaning,
-              {
-                color: theme.textMuted,
-                borderColor: theme.ornament,
-                fontSize: (lang !== 'en' ? 16 : 15) * Math.min(scale, 1.4),
-                lineHeight: (lang !== 'en' ? 26 : 22) * Math.min(scale, 1.4),
-                fontFamily: meaningFont(lang, settings.bookFonts),
-                fontStyle: lang === 'en' && !settings.bookFonts ? 'italic' : 'normal',
-                alignSelf: 'stretch',
-              },
-            ]}
-          >
-            {lang === 'en' ? translitInline(text, settings.script) : text}
-          </Text>
-        ))}
+      {mark?.note && (
+        <Pressable onPress={() => openMark(rowKey)} accessibilityRole="button" accessibilityLabel={tr('Your note')} style={[b.note, { backgroundColor: (markInk ?? theme.gold) + '1A' }]}>
+          <MaterialCommunityIcons name="pencil-outline" size={15} color={markInk ?? theme.gold} style={{ marginTop: 3 }} />
+          <Text style={{ flex: 1, color: theme.text, fontSize: 15 * Math.min(scale, 1.3), lineHeight: 22 * Math.min(scale, 1.3) }}>{mark.note}</Text>
+        </Pressable>
+      )}
+      {!beside && meaningTexts}
+    </View>
+      {beside && <View style={{ flex: 1, justifyContent: 'center' }}>{meaningTexts}</View>}
       {sharing && <ShareSheet mantra={mantra} verse={verse} visible onClose={() => setSharing(false)} />}
     </View>
   );
@@ -438,6 +467,7 @@ export const b = StyleSheet.create({
   meaningToggle: { paddingHorizontal: 10, paddingVertical: 2, borderRadius: 12, borderWidth: 1 },
   actions: { flexDirection: 'row', alignItems: 'center', gap: 16, marginTop: 4 },
   iconBtn: { padding: 2 },
+  note: { flexDirection: 'row', gap: 8, alignSelf: 'stretch', marginTop: 8, paddingHorizontal: 10, paddingVertical: 8, borderRadius: 8 },
   practiceHidden: { alignSelf: 'stretch' },
   practiceBar: { borderRadius: 6, alignSelf: 'stretch' },
   planBox: { marginHorizontal: 16, marginTop: 24, padding: 14, borderRadius: 16, borderWidth: 1 },

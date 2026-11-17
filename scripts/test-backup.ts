@@ -14,9 +14,9 @@ let checks = 0;
 const settings = {
   script: 'devanagari', secondaryScript: null, fontScale: 1, theme: 'system', alwaysShowMeanings: false, meaningLang: 'auto',
   uiLang: 'auto', keepAwake: true, variants: {}, city: 'bengaluru', layout: 'book', bookFonts: true, centerVerses: true,
-  onboarded: false, festivalReminders: { ekadashi: false, festivals: false, time: '19:00' }, showStreaks: false, japaVibrate: true,
+  onboarded: false, festivalReminders: { ekadashi: false, festivals: false, time: '19:00' }, showStreaks: false, japaVibrate: true, autoSpeed: 4, edgeTaps: true, volumeKeys: false,
 } as Store['settings'];
-const defaults: Store = { settings, favorites: [], recent: [], plans: [], positions: {}, bookmarks: [], routine: [], routineDone: {} };
+const defaults: Store = { settings, favorites: [], recent: [], plans: [], positions: {}, bookmarks: [], routine: [], routineDone: {}, finished: {}, readDays: [] };
 const japa0: JapaState = { version: 1, current: 'om-namo-narayanaya', target: 108, counts: {}, totals: {}, days: {}, customLabels: [] };
 
 const mine: Store = {
@@ -27,9 +27,11 @@ const mine: Store = {
     { id: 'p1', kind: 'vow', title: 'Lalitha', items: ['lalita-sahasranama'], days: 40, start: '2026-11-01', read: [], counts: { '2026-11-02': 3 }, perDay: 1, reminder: '06:00', notificationId: 'abc' },
   ],
   positions: { 'gayatri-mantra': 'v1-2' },
-  bookmarks: [{ id: 'b1', mantraId: 'gayatri-mantra', key: 'v1-2', at: 7 }],
+  bookmarks: [{ id: 'b1', mantraId: 'gayatri-mantra', key: 'v1-2', at: 7 }, { id: 'b2', mantraId: 'vishnu-sahasranama', key: 'v2-3', at: 8, color: 'blue', note: 'learn by Ekadashi' }],
   routine: ['gayatri-mantra', 'vishnu-sahasranama'],
   routineDone: { '2026-11-16': ['gayatri-mantra'] },
+  finished: { 'gayatri-mantra': 9 },
+  readDays: ['2026-11-15', '2026-11-16'],
 };
 const mineJapa: JapaState = { ...japa0, current: 'custom:Om', totals: { 'custom:Om': 216 }, days: { '2026-11-16': { 'custom:Om': 108 }, '2026-11-15': { 'custom:Om': 108 } }, customLabels: ['Om'] };
 
@@ -54,7 +56,7 @@ const mineJapa: JapaState = { ...japa0, current: 'custom:Om', totals: { 'custom:
     assert.equal(merged.settings.onboarded, true);
     assert.deepEqual(merged.routineDone, mine.routineDone);
     assert.deepEqual(merged.positions, mine.positions);
-    assert.deepEqual(summarize(merged, v.backup.japa), { favorites: 2, bookmarks: 1, plans: 1, routine: 2, positions: 1, japaDays: 2, japaBeads: 216 });
+    assert.deepEqual(summarize(merged, v.backup.japa), { favorites: 2, bookmarks: 2, plans: 1, routine: 2, positions: 1, japaDays: 2, japaBeads: 216 });
     checks += 14;
   }
   assert.equal(backupFileName(new Date('2026-11-17T08:00:00Z')), 'nandadeepa-backup-2026-11-17.json');

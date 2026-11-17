@@ -1,5 +1,5 @@
 import { MaterialCommunityIcons } from '@expo/vector-icons';
-import { Modal, Pressable, ScrollView, StyleSheet, Switch, Text, useColorScheme, View } from 'react-native';
+import { Modal, Platform, Pressable, ScrollView, StyleSheet, Switch, Text, useColorScheme, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { T, useI18n } from '../../lib/i18n';
 import { scriptFont } from '../../lib/fonts';
@@ -22,11 +22,14 @@ export function DisplayPanel({
   onClose,
   practice,
   setPractice,
+  onHandsFree,
 }: {
   visible: boolean;
   onClose: () => void;
   practice: boolean;
   setPractice: (v: boolean) => void;
+  /** Start hands-free reading (and close this sheet). */
+  onHandsFree: () => void;
 }) {
   const { theme, settings, update } = useSettings();
   const { tr } = useI18n();
@@ -54,6 +57,21 @@ export function DisplayPanel({
           </Pressable>
         </View>
         <ScrollView contentContainerStyle={{ paddingHorizontal: 16, paddingBottom: insets.bottom + 20 }}>
+          <Pressable
+            onPress={onHandsFree}
+            accessibilityRole="button"
+            style={({ pressed }) => [p.handsFree, { borderColor: theme.cardBorder, backgroundColor: theme.card, opacity: pressed ? 0.7 : 1 }]}
+          >
+            <View style={[p.handsIcon, { backgroundColor: theme.accent }]}>
+              <MaterialCommunityIcons name="play" size={22} color={theme.onAccent} />
+            </View>
+            <View style={{ flex: 1 }}>
+              <Text style={{ color: theme.text, fontSize: 16, fontWeight: '700' }}>{tr('Hands-free reading')}</Text>
+              <Text style={{ color: theme.textMuted, fontSize: 13, marginTop: 1 }}>
+                {settings.layout === 'book' ? tr('The pages turn by themselves while you recite.') : tr('The text moves up by itself while you recite.')}
+              </Text>
+            </View>
+          </Pressable>
           {heading(tr('SCRIPT'))}
           <View style={p.wrap}>
             {SCRIPTS.map((sc) => {
@@ -117,6 +135,8 @@ export function DisplayPanel({
             {toggle(tr('Book fonts'), settings.bookFonts, (v) => update({ bookFonts: v }))}
             {toggle(tr('Centre the verses'), settings.centerVerses, (v) => update({ centerVerses: v }))}
             {toggle(tr('Memorise (hide lines)'), practice, setPractice)}
+            {settings.layout === 'book' && toggle(tr('Tap the page edges to turn pages'), settings.edgeTaps !== false, (v) => update({ edgeTaps: v }))}
+            {Platform.OS === 'android' && toggle(tr('Volume buttons turn pages'), !!settings.volumeKeys, (v) => update({ volumeKeys: v }))}
           </View>
 
         </ScrollView>
@@ -173,4 +193,6 @@ const p = StyleSheet.create({
   group: { borderRadius: 12, borderWidth: 1, overflow: 'hidden' },
   switchRow: { flexDirection: 'row', alignItems: 'center', paddingHorizontal: 14, paddingVertical: 2 },
   sectionRow: { flexDirection: 'row', alignItems: 'center', paddingHorizontal: 14, paddingVertical: 11 },
+  handsFree: { flexDirection: 'row', alignItems: 'center', gap: 12, marginTop: 10, padding: 12, borderRadius: 12, borderWidth: 1 },
+  handsIcon: { width: 38, height: 38, borderRadius: 19, alignItems: 'center', justifyContent: 'center' },
 });

@@ -97,7 +97,7 @@ export function BookContents({ category, work }: { category: Category; work: Boo
 
   return (
     <View>
-      {seq.length > 0 && <BookBanner category={category.id} firstId={seq[0]} lastId={lastRead?.id} lastLabel={lastLabel} />}
+      {seq.length > 0 && <BookBanner category={category.id} firstId={seq[0]} lastId={lastRead?.id} lastLabel={lastLabel} parts={seq} />}
       <View style={{ marginHorizontal: 20, marginTop: 12, marginBottom: 4 }}>
         {ui === 'en' && (
           <>

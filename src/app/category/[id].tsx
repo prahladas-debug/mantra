@@ -61,7 +61,7 @@ export default function CategoryScreen() {
 
       {isBook && first ? (
         <>
-          <BookBanner category={category.id} firstId={first.id} lastId={lastRead?.id} lastLabel={lastRead ? String(all.findIndex((m) => m.id === lastRead.id) + 1) : undefined} />
+          <BookBanner category={category.id} firstId={first.id} lastId={lastRead?.id} lastLabel={lastRead ? String(all.findIndex((m) => m.id === lastRead.id) + 1) : undefined} parts={all.map((m) => m.id)} />
           {lang === 'en' && <Text style={{ color: theme.textMuted, fontSize: 14, textAlign: 'center', marginHorizontal: 20, marginTop: 10, lineHeight: 19 }}>{category.description}</Text>}
         </>
       ) : (

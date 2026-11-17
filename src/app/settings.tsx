@@ -110,7 +110,7 @@ function Block({ first, label, children }: { first?: boolean; label: string; chi
 const MORNING = ['05:30', '06:30', '07:30', '08:30'];
 
 export default function SettingsScreen() {
-  const { theme, settings, update, favorites, recent, plans, positions, bookmarks, routine, routineDone, restoreStore } = useSettings();
+  const { theme, settings, update, favorites, recent, plans, positions, bookmarks, routine, routineDone, finished, readDays, restoreStore } = useSettings();
   const { tr } = useI18n();
   const [picker, setPicker] = useState(false);
   const [busy, setBusy] = useState(false);
@@ -131,7 +131,7 @@ export default function SettingsScreen() {
     update({ festivalReminders: { ...settings.festivalReminders, [kind]: on } });
   };
 
-  const store = { settings, favorites, recent, plans, positions, bookmarks, routine, routineDone };
+  const store = { settings, favorites, recent, plans, positions, bookmarks, routine, routineDone, finished, readDays };
   const readJapa = async () => cleanJapa(JSON.parse((await AsyncStorage.getItem(JAPA_KEY)) ?? 'null'));
   const counts = (n: BackupSummary) =>
     tr('{fav} favourites, {bm} bookmarks, {plans} plans, {routine} routine texts, {malas} malas of japa over {days} days', {

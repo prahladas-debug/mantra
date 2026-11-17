@@ -1,6 +1,6 @@
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { useCallback, useEffect, useImperativeHandle, useLayoutEffect, useMemo, useRef, useState, type Ref } from 'react';
-import { FlatList, Pressable, ScrollView, StyleSheet, Text, useWindowDimensions, View } from 'react-native';
+import { FlatList, Pressable, ScrollView, StyleSheet, Text, useWindowDimensions, View, type GestureResponderEvent } from 'react-native';
 import { leading, scriptFont } from '../../lib/fonts';
 import { scriptFor } from '../../data';
 import { useI18n } from '../../lib/i18n';
@@ -8,7 +8,7 @@ import { useSettings } from '../../lib/settings';
 import { translit, translitTitle, type ScriptId, isRoman, nameOf } from '../../lib/transliterate';
 import { EndMatter, IntroBlock, SectionBlock, VerseBlock } from './blocks';
 import { useReader } from './context';
-import { type Row } from './rows';
+import { readingSeconds, type Row } from './rows';
 
 interface Page {
   rows: Row[];
@@ -102,8 +102,13 @@ function paginate(rows: Row[], pageHeight: number, m: Metrics): Page[] {
   return pages;
 }
 
+/** A tablet held wide, or a large one: two pages side by side, like an open book. */
+export const isSpread = (width: number, height: number) => width >= 900 || (width > height && width >= 700);
+
 export interface BookHandle {
   jumpToKey: (key: string) => void;
+  /** Forward (1) or back (-1) by a page, or by a screenful when scrolling. */
+  step: (dir: 1 | -1) => void;
 }
 
 /** Paged, book-like reading: swipe or tap ‹ › to turn pages. */
@@ -118,12 +123,16 @@ export function BookReader({
   onPosition: (key: string) => void;
   ref: Ref<BookHandle>;
 }) {
-  const { theme, settings } = useSettings();
+  const { theme, settings, bookmarks } = useSettings();
   const { tr } = useI18n();
-  const { mantra, opened, highlight, practice, revealed, pinching, focus, toggleFocus } = useReader();
-  const { width } = useWindowDimensions();
+  const { mantra, opened, highlight, practice, revealed, pinching, focus, toggleFocus, wide, autoPlaying, autoPace, pauseAuto, onFinish } = useReader();
+  const { width, height: windowHeight } = useWindowDimensions();
+  // Two pages to a spread on a wide tablet; each page is then half the width.
+  const spread = isSpread(width, windowHeight);
+  const per = spread ? 2 : 1;
+  const pageW = Math.floor(width / per);
   const [height, setHeight] = useState(0);
-  const listRef = useRef<FlatList<Page>>(null);
+  const listRef = useRef<FlatList<Page[]>>(null);
   const [page, setPage] = useState(0);
   // A Tamil-language text is shown in Tamil whatever the reading script, and has no second script.
   const script = scriptFor(mantra, settings.script);
@@ -136,7 +145,9 @@ export function BookReader({
 
   // Rows are first laid out once, invisibly, at the page's width so pages are filled by their
   // real heights (fonts and line breaks differ between phones); an estimate is used meanwhile.
-  const sig = [mantra.id, rows.length, width, script, second, settings.fontScale, settings.lineSpacing, settings.bookFonts, settings.alwaysShowMeanings, settings.meaningLang, settings.centerVerses].join('|');
+  // Notes written under verses take room on the page too.
+  const notes = bookmarks.filter((x) => x.mantraId === mantra.id && x.note).map((x) => x.key + x.note!.length).join(',');
+  const sig = [mantra.id, rows.length, pageW, wide, notes, script, second, settings.fontScale, settings.lineSpacing, settings.bookFonts, settings.alwaysShowMeanings, settings.meaningLang, settings.centerVerses].join('|');
   const [measured, setMeasured] = useState<{ sig: string; h: Record<string, number> } | null>(null);
   const pending = useRef<{ sig: string; h: Record<string, number> }>({ sig: '', h: {} });
   const toMeasure = rows.filter((r) => r.kind === 'verse' || r.kind === 'section');
@@ -148,22 +159,28 @@ export function BookReader({
   const heights = measured?.sig === sig ? measured.h : undefined;
 
   const pages = useMemo(
-    () => (height ? paginate(rows, pageContent, { heights, width, script, second, scale: settings.fontScale, bookFonts: settings.bookFonts }) : []),
-    [rows, height, pageContent, heights, width, script, second, settings.fontScale, settings.bookFonts],
+    () => (height ? paginate(rows, pageContent, { heights, width: pageW, script, second, scale: settings.fontScale, bookFonts: settings.bookFonts }) : []),
+    [rows, height, pageContent, heights, pageW, script, second, settings.fontScale, settings.bookFonts],
   );
-  const pageOf = useCallback((key: string) => Math.max(0, pages.findIndex((p) => p.rows.some((r) => r.key === key))), [pages]);
+  // What one swipe shows: a page, or two side by side. `page` below counts these.
+  const units = useMemo(() => {
+    const u: Page[][] = [];
+    for (let i = 0; i < pages.length; i += per) u.push(pages.slice(i, i + per));
+    return u;
+  }, [pages, per]);
+  const pageOf = useCallback((key: string) => Math.max(0, Math.floor(pages.findIndex((p) => p.rows.some((r) => r.key === key)) / per)), [pages, per]);
   const startPage = initialKey ? pageOf(initialKey) : 0;
 
   // A row on the page in view (kept up to date by page turns and onViewable).
   const anchor = useRef<string | null>(initialKey);
   const goTo = useCallback(
     (i: number, animated = true) => {
-      const target = Math.max(0, Math.min(pages.length - 1, i));
-      anchor.current = pages[target]?.rows[0]?.key ?? anchor.current;
+      const target = Math.max(0, Math.min(units.length - 1, i));
+      anchor.current = units[target]?.[0]?.rows[0]?.key ?? anchor.current;
       listRef.current?.scrollToIndex({ index: target, animated });
       setPage(target);
     },
-    [pages],
+    [units],
   );
 
   useImperativeHandle(
@@ -173,8 +190,9 @@ export function BookReader({
         goTo(pageOf(key), false);
         anchor.current = key;
       },
+      step: (dir: 1 | -1) => goTo(page + dir),
     }),
-    [goTo, pageOf],
+    [goTo, pageOf, page],
   );
 
   // When the pages are made again (text size, script, rotation, or the display panel
@@ -182,12 +200,38 @@ export function BookReader({
   // go back to the page that holds the anchor row instead.
   const paginated = useRef(false);
   useLayoutEffect(() => {
-    if (!pages.length) return;
+    if (!units.length) return;
     const i = anchor.current ? pageOf(anchor.current) : 0;
     setPage(i);
     if (paginated.current) listRef.current?.scrollToIndex({ index: i, animated: false });
     paginated.current = true; // the first time, initialScrollIndex opens the list there
-  }, [pages, pageOf]);
+  }, [units, pageOf]);
+
+  // Hands-free: each page stays as long as reading it aloud takes at the chosen pace, then turns.
+  useEffect(() => {
+    if (!autoPlaying || page >= units.length - 1) return;
+    const used = units[page].reduce((a, p) => a + (p.used || pageContent * 0.5), 0);
+    const t = setTimeout(() => goTo(page + 1), Math.max(4, used / autoPace) * 1000);
+    return () => clearTimeout(t);
+  }, [autoPlaying, autoPace, page, units, pageContent, goTo]);
+
+  // The last page reached: the text has been read to its end.
+  const last = units.length > 0 && page >= units.length - 1;
+  useEffect(() => {
+    if (last) onFinish();
+  }, [last, onFinish]);
+
+  // Time to read the rest aloud, from the pages after this one.
+  const left = useMemo(() => readingSeconds(units.slice(page + 1).flat().flatMap((p) => p.rows)), [units, page]);
+
+  // A tap near the left or right edge turns the page; elsewhere it hides or shows the bars.
+  const onTapPage = (e: GestureResponderEvent) => {
+    pauseAuto();
+    const x = e.nativeEvent.pageX;
+    if (settings.edgeTaps !== false && x < width * 0.18) return goTo(page - 1);
+    if (settings.edgeTaps !== false && x > width * 0.82) return goTo(page + 1);
+    toggleFocus();
+  };
 
   // FlatList requires a stable onViewableItemsChanged; read the latest onPosition through a ref.
   const onPositionRef = useRef(onPosition);
@@ -198,7 +242,7 @@ export function BookReader({
     const v = viewableItems[0];
     if (v?.index == null) return;
     setPage(v.index);
-    const rowsOnPage = (v.item as Page).rows;
+    const rowsOnPage = (v.item as Page[]).flatMap((p) => p.rows);
     if (!rowsOnPage.some((r) => r.key === anchor.current)) anchor.current = rowsOnPage[0]?.key ?? null;
     const firstVerse = rowsOnPage.find((r) => r.kind === 'verse' || r.kind === 'section');
     if (firstVerse) onPositionRef.current(firstVerse.key);
@@ -219,7 +263,7 @@ export function BookReader({
   return (
     <View style={{ flex: 1, backgroundColor: theme.bg }} onLayout={(e) => setHeight(e.nativeEvent.layout.height - (focus ? 17 : 52))}>
       {!heights && height > 0 && (
-        <View pointerEvents="none" importantForAccessibility="no-hide-descendants" accessibilityElementsHidden style={[s.measure, { width: width - 30 }]}>
+        <View pointerEvents="none" importantForAccessibility="no-hide-descendants" accessibilityElementsHidden style={[s.measure, { width: pageW - 30 }]}>
           {toMeasure.map((row) => (
             <View key={row.key} onLayout={(e) => onMeasure(row.key, e.nativeEvent.layout.height)}>
               {row.kind === 'section' ? <SectionBlock section={row.section} book /> : <VerseBlock verse={row.verse} rowKey={row.key} book />}
@@ -227,24 +271,27 @@ export function BookReader({
           ))}
         </View>
       )}
-      {pages.length > 0 && (
+      {units.length > 0 && (
         <FlatList
           ref={listRef}
-          data={pages}
+          data={units}
           horizontal
           pagingEnabled
           scrollEnabled={!pinching}
           showsHorizontalScrollIndicator={false}
           keyExtractor={(_, i) => String(i)}
-          initialScrollIndex={Math.min(startPage, pages.length - 1)}
+          initialScrollIndex={Math.min(startPage, units.length - 1)}
           getItemLayout={(_, i) => ({ length: width, offset: width * i, index: i })}
           onViewableItemsChanged={onViewable}
           viewabilityConfig={{ itemVisiblePercentThreshold: 60 }}
-          extraData={[opened, highlight, practice, revealed, settings, pinching]}
+          extraData={[opened, highlight, practice, revealed, settings, pinching, bookmarks, page]}
+          onScrollBeginDrag={pauseAuto}
           windowSize={5}
           initialNumToRender={2}
-          renderItem={({ item }) => (
-            <View style={{ width, height: height || undefined, padding: 8 }}>
+          renderItem={({ item: unit }) => (
+            <View style={{ width, height: height || undefined, flexDirection: 'row' }}>
+            {unit.map((item, side) => (
+            <View key={side} style={{ width: pageW, height: height || undefined, padding: 8, paddingLeft: spread && side === 1 ? 4 : 8, paddingRight: spread && side === 0 ? 4 : 8 }}>
               <View style={[s.page, { backgroundColor: theme.page, borderColor: theme.pageEdge }]}>
                 {runningHead(item) && (
                   <Text numberOfLines={1} style={[s.runningHead, { color: theme.textMuted, borderColor: theme.pageEdge, fontFamily: font }]}>
@@ -254,7 +301,7 @@ export function BookReader({
                 <ScrollView contentContainerStyle={{ flexGrow: 1 }} showsVerticalScrollIndicator scrollEnabled={!pinching}>
                   {/* A tap on the page (not on a button) hides or shows the header and page bar. */}
                   <Pressable
-                    onPress={toggleFocus}
+                    onPress={onTapPage}
                     accessible={false}
                     // A nearly full page shares out its leftover space so it ends level, like a set page.
                     style={[{ flexGrow: 1, paddingVertical: 6 }, item.used > pageContent * 0.7 && item.used <= pageContent && { justifyContent: 'space-around' }]}
@@ -275,12 +322,14 @@ export function BookReader({
                 </ScrollView>
               </View>
             </View>
+            ))}
+            </View>
           )}
         />
       )}
       {focus ? (
         <View style={{ height: 3, marginHorizontal: 24, marginBottom: 10, marginTop: 4, borderRadius: 2, backgroundColor: theme.accentSoft, overflow: 'hidden' }}>
-          <View style={{ width: `${pages.length ? ((page + 1) / pages.length) * 100 : 0}%`, height: 3, backgroundColor: theme.gold }} />
+          <View style={{ width: `${units.length ? ((page + 1) / units.length) * 100 : 0}%`, height: 3, backgroundColor: theme.gold }} />
         </View>
       ) : (
       <View style={[s.bar, { borderColor: theme.cardBorder, backgroundColor: theme.bg }]}>
@@ -292,14 +341,21 @@ export function BookReader({
         </Pressable>
         <View style={{ flex: 1, marginHorizontal: 12 }}>
           <View style={[s.track, { backgroundColor: theme.accentSoft }]}>
-            <View style={{ width: `${pages.length ? ((page + 1) / pages.length) * 100 : 0}%`, height: 4, backgroundColor: theme.accent, borderRadius: 2 }} />
+            <View style={{ width: `${units.length ? ((page + 1) / units.length) * 100 : 0}%`, height: 4, backgroundColor: theme.accent, borderRadius: 2 }} />
           </View>
           <Text style={{ color: theme.textMuted, fontSize: 13, textAlign: 'center', marginTop: 3 }}>
-            {pages.length ? tr('Page {n} of {total}', { n: page + 1, total: pages.length }) : ''}
+            {pages.length
+              ? [
+                  tr('Page {n} of {total}', { n: per === 2 && pages.length > page * 2 + 1 ? `${page * 2 + 1}–${page * 2 + 2}` : page * per + 1, total: pages.length }),
+                  !last && left >= 30 ? tr('{n} min left', { n: Math.max(1, Math.round(left / 60)) }) : null,
+                ]
+                  .filter(Boolean)
+                  .join(' · ')
+              : ''}
           </Text>
         </View>
-        <Pressable onPress={() => goTo(page + 1)} disabled={page >= pages.length - 1} hitSlop={12} accessibilityLabel={tr('Next page')}>
-          <MaterialCommunityIcons name="chevron-right" size={26} color={page >= pages.length - 1 ? theme.cardBorder : theme.accent} />
+        <Pressable onPress={() => goTo(page + 1)} disabled={page >= units.length - 1} hitSlop={12} accessibilityLabel={tr('Next page')}>
+          <MaterialCommunityIcons name="chevron-right" size={26} color={page >= units.length - 1 ? theme.cardBorder : theme.accent} />
         </Pressable>
       </View>
       )}

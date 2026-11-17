@@ -19,7 +19,7 @@ export function ScrollReader({
   ref: Ref<BookHandle>;
 }) {
   const { theme, settings } = useSettings();
-  const { opened, highlight, practice, revealed, pinching, focus, toggleFocus } = useReader();
+  const { opened, highlight, practice, revealed, pinching, focus, toggleFocus, autoPlaying, autoPace, pauseAuto, onFinish } = useReader();
   const listRef = useRef<FlatList<Row>>(null);
 
   // Retries for a jump to a row that is not laid out yet. Without a cap, a jump that keeps
@@ -37,12 +37,21 @@ export function ScrollReader({
     [scrollTo],
   );
 
+  // Where the column is, how far it can go, and how tall the screen is (hands-free, volume keys).
+  const offset = useRef(0);
+  const maxOffset = useRef(Infinity);
+  const viewHeight = useRef(600);
+
   useImperativeHandle(
     ref,
     () => ({
       jumpToKey: (key: string) => {
         const i = rows.findIndex((r) => r.key === key);
         if (i >= 0) jump(i);
+      },
+      step: (dir: 1 | -1) => {
+        offset.current = Math.max(0, Math.min(maxOffset.current, offset.current + dir * viewHeight.current * 0.85));
+        listRef.current?.scrollToOffset({ offset: offset.current, animated: true });
       },
     }),
     [rows, jump],
@@ -58,6 +67,28 @@ export function ScrollReader({
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
+  // Hands-free: the column moves up steadily at the chosen pace; a touch pauses it.
+  useEffect(() => {
+    if (!autoPlaying) return;
+    let last = Date.now();
+    const id = setInterval(() => {
+      const now = Date.now();
+      offset.current = Math.min(maxOffset.current, offset.current + (autoPace * (now - last)) / 1000);
+      last = now;
+      listRef.current?.scrollToOffset({ offset: offset.current, animated: false });
+    }, 33);
+    return () => clearInterval(id);
+  }, [autoPlaying, autoPace]);
+
+  const playing = useRef(autoPlaying);
+  useEffect(() => {
+    playing.current = autoPlaying;
+  }, [autoPlaying]);
+  const onFinishRef = useRef(onFinish);
+  useEffect(() => {
+    onFinishRef.current = onFinish;
+  }, [onFinish]);
+
   const onPositionRef = useRef(onPosition);
   useEffect(() => {
     onPositionRef.current = onPosition;
@@ -65,6 +96,7 @@ export function ScrollReader({
   const onViewable = useCallback(({ viewableItems }: { viewableItems: { item: unknown; index?: number | null }[] }) => {
     const first = viewableItems.find((v) => (v.item as Row).kind === 'verse' || (v.item as Row).kind === 'section');
     if (first) onPositionRef.current((first.item as Row).key);
+    if (viewableItems.some((v) => (v.item as Row).kind === 'end')) onFinishRef.current();
   }, []);
 
   return (
@@ -83,7 +115,13 @@ export function ScrollReader({
           case 'verse':
             // A tap on a verse (not on its buttons) hides or shows the header, as in the book view.
             return (
-              <Pressable onPress={toggleFocus} accessible={false}>
+              <Pressable
+                onPress={() => {
+                  pauseAuto();
+                  toggleFocus();
+                }}
+                accessible={false}
+              >
                 <VerseBlock verse={item.verse} rowKey={item.key} />
               </Pressable>
             );
@@ -95,6 +133,15 @@ export function ScrollReader({
       initialNumToRender={20}
       windowSize={11}
       contentContainerStyle={{ paddingBottom: 48 }}
+      onScroll={(e) => {
+        const n = e.nativeEvent;
+        // While hands-free is moving the column, its own offset is ahead of these (throttled) reports.
+        if (!playing.current) offset.current = n.contentOffset.y;
+        maxOffset.current = Math.max(0, n.contentSize.height - n.layoutMeasurement.height);
+        viewHeight.current = n.layoutMeasurement.height;
+      }}
+      scrollEventThrottle={100}
+      onScrollBeginDrag={pauseAuto}
       onViewableItemsChanged={onViewable}
       viewabilityConfig={{ itemVisiblePercentThreshold: 50 }}
       onScrollToIndexFailed={(info) => {

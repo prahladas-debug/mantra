@@ -2,12 +2,17 @@ import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { activateKeepAwakeAsync, deactivateKeepAwake } from 'expo-keep-awake';
 import { Stack, useLocalSearchParams } from 'expo-router';
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
-import { ActivityIndicator, Pressable, Text, View } from 'react-native';
-import { BookReader, type BookHandle } from '../../components/reader/BookReader';
+import { ActivityIndicator, Pressable, Text, View, useWindowDimensions } from 'react-native';
+import { useSafeAreaInsets } from 'react-native-safe-area-context';
+import { AutoControl } from '../../components/reader/AutoControl';
+import { BookReader, isSpread, type BookHandle } from '../../components/reader/BookReader';
+import { FindSheet, type FindHit } from '../../components/reader/FindSheet';
+import { MarkSheet } from '../../components/reader/MarkSheet';
+import { useVolumeKeys } from '../../components/reader/useVolumeKeys';
 import { ReaderContext, type ReaderState } from '../../components/reader/context';
 import { ContentsSheet, shownSections } from '../../components/reader/ContentsSheet';
 import { DisplayPanel } from '../../components/reader/DisplayPanel';
-import { flatten } from '../../components/reader/rows';
+import { autoPace, flatten } from '../../components/reader/rows';
 import { ScrollReader } from '../../components/reader/ScrollReader';
 import { usePinch } from '../../components/reader/usePinch';
 import { getMantra, getMantraInfo, type Mantra } from '../../data';
@@ -87,7 +92,9 @@ function BookUnitReader({ id }: { id: string }) {
 function ReaderView({ mantra }: { mantra: Mantra | undefined }) {
   const params = useLocalSearchParams<{ id: string; si?: string; vi?: string }>();
   const { lang, tr } = useI18n();
-  const { theme, settings, update, favorites, toggleFavorite, markRead, positions, savePosition } = useSettings();
+  const { theme, settings, update, favorites, toggleFavorite, markRead, markFinished, positions, savePosition } = useSettings();
+  const insets = useSafeAreaInsets();
+  const { width, height } = useWindowDimensions();
   const setScale = useCallback((fontScale: number) => update({ fontScale }), [update]);
   const pinch = usePinch(settings.fontScale, setScale);
   const [panelOpen, setPanelOpen] = useState(false);
@@ -97,6 +104,13 @@ function ReaderView({ mantra }: { mantra: Mantra | undefined }) {
   const [practice, setPractice] = useState(false);
   const [revealed, setRevealed] = useState<Record<string, number>>({});
   const handle = useRef<BookHandle | null>(null);
+  const [findOpen, setFindOpen] = useState(false);
+  const [markKey, setMarkKey] = useState<string | null>(null);
+  const [highlightTerm, setHighlightTerm] = useState<string | null>(null);
+  // Hands-free reading: the control is shown while `autoOn`; it runs while `autoPlaying`.
+  const [autoOn, setAutoOn] = useState(false);
+  const [autoPlaying, setAutoPlaying] = useState(false);
+  const pauseAuto = useCallback(() => setAutoPlaying(false), []);
 
   const choices = useMemo(() => (mantra ? choicesFor(mantra, settings.variants) : {}), [mantra, settings.variants]);
   const rows = useMemo(() => (mantra ? flatten(mantra, choices) : []), [mantra, choices]);
@@ -118,11 +132,27 @@ function ReaderView({ mantra }: { mantra: Mantra | undefined }) {
     if (mantra) markRead(mantra.id);
   }, [mantra, markRead]);
 
+  // A verse opened from search, a bookmark or Find stays highlighted for a few seconds.
   useEffect(() => {
-    if (!targetKey) return;
-    const t = setTimeout(() => setHighlight(null), 3000);
+    if (!highlight) return;
+    const t = setTimeout(() => {
+      setHighlight(null);
+      setHighlightTerm(null);
+    }, 4000);
     return () => clearTimeout(t);
-  }, [targetKey]);
+  }, [highlight]);
+
+  // Read to the end once in this sitting: counted for the book's progress and the day's lamp.
+  const finishedNow = useRef(false);
+  const onFinish = useCallback(() => {
+    setAutoPlaying(false);
+    if (finishedNow.current || !mantra) return;
+    finishedNow.current = true;
+    markFinished(mantra.id);
+  }, [mantra, markFinished]);
+
+  // Android: the volume buttons turn the page (book) or move a screenful (scroll), when chosen.
+  useVolumeKeys(settings.volumeKeys, (dir) => handle.current?.step(dir));
 
   useEffect(() => {
     if (!settings.keepAwake) return;
@@ -154,7 +184,20 @@ function ReaderView({ mantra }: { mantra: Mantra | undefined }) {
     );
   }
 
-  const ctx: ReaderState = { mantra, choices, opened, toggleMeaning, highlight, practice, revealed, reveal, pinching: pinch.active, focus, toggleFocus: () => setFocus((f) => !f) };
+  // A wide page: a tablet, unless its pages are shown two side by side.
+  const wide = width >= 720 && !(settings.layout === 'book' && isSpread(width, height));
+  const ctx: ReaderState = {
+    mantra, choices, opened, toggleMeaning, highlight, practice, revealed, reveal, pinching: pinch.active, focus,
+    toggleFocus: () => setFocus((f) => !f),
+    highlightTerm, openMark: setMarkKey, wide, autoPlaying, autoPace: autoPace(settings.autoSpeed ?? 4), pauseAuto, onFinish,
+  };
+  const onFind = (hit: FindHit, term: string) => {
+    setFindOpen(false);
+    if (hit.inMeaning && !opened.has(hit.key)) toggleMeaning(hit.key);
+    handle.current?.jumpToKey(hit.key);
+    setHighlight(hit.key);
+    setHighlightTerm(term);
+  };
   const isFav = favorites.includes(mantra.id);
   const hasContents = shownSections(mantra, rows).length > 1;
   const Layout = settings.layout === 'book' ? BookReader : ScrollReader;
@@ -168,6 +211,9 @@ function ReaderView({ mantra }: { mantra: Mantra | undefined }) {
             title: lang === 'en' ? mantra.titleEn : nameOf(mantra, settings.script),
             headerRight: () => (
               <View style={{ flexDirection: 'row', gap: 18 }}>
+                <Pressable hitSlop={10} onPress={() => setFindOpen(true)} accessibilityLabel={tr('Find in this text')}>
+                  <MaterialCommunityIcons name="magnify" size={22} color={theme.accent} />
+                </Pressable>
                 {hasContents && (
                   <Pressable hitSlop={10} onPress={() => setContentsOpen(true)} accessibilityLabel={tr('Contents')}>
                     <MaterialCommunityIcons name="format-list-bulleted" size={22} color={theme.accent} />
@@ -191,7 +237,14 @@ function ReaderView({ mantra }: { mantra: Mantra | undefined }) {
             setPractice(v);
             setRevealed({});
           }}
+          onHandsFree={() => {
+            setPanelOpen(false);
+            setAutoOn(true);
+            setAutoPlaying(true);
+          }}
         />
+        <FindSheet visible={findOpen} onClose={() => setFindOpen(false)} mantra={mantra} rows={rows} onJump={onFind} />
+        {markKey && <MarkSheet mantraId={mantra.id} rowKey={markKey} onClose={() => setMarkKey(null)} />}
         <ContentsSheet
           visible={contentsOpen}
           onClose={() => setContentsOpen(false)}
@@ -203,6 +256,17 @@ function ReaderView({ mantra }: { mantra: Mantra | undefined }) {
           }}
         />
         <Layout key={settings.layout} rows={rows} initialKey={openAt} onPosition={onPosition} ref={handle} />
+        {autoOn && (
+          <AutoControl
+            playing={autoPlaying}
+            setPlaying={setAutoPlaying}
+            onClose={() => {
+              setAutoPlaying(false);
+              setAutoOn(false);
+            }}
+            bottom={(settings.layout === 'book' ? (focus ? 24 : 64) : 20) + (settings.layout === 'book' ? 0 : insets.bottom)}
+          />
+        )}
         {pinch.preview !== null && (
           <View pointerEvents="none" style={{ position: 'absolute', top: 16, alignSelf: 'center', paddingHorizontal: 14, paddingVertical: 6, borderRadius: 16, backgroundColor: theme.accent }}>
             <Text style={{ color: theme.onAccent, fontSize: 16, fontWeight: '700' }}>{tr('Text size {pct}%', { pct: Math.round(pinch.preview * 100) })}</Text>

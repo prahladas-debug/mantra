@@ -1,6 +1,6 @@
 /**
- * Gentle streaks for My practice. A day is "lit" when the day's routine was finished or the
- * japa target was met. The streak forgives: one unlit day in any seven does not end it.
+ * Gentle streaks for My practice. A day is "lit" when the day's routine was finished, the
+ * japa target was met, or a text was read to its end. The streak forgives: one unlit day in any seven does not end it.
  * Pure (no React), so the tests can run it.
  */
 /** Beads that count as a day's japa when the target is open-ended: one mala. */
@@ -25,6 +25,8 @@ export interface LampInput {
   japaByDate: Record<string, number>;
   /** The japa target in beads, or null for open-ended. */
   japaTarget: number | null;
+  /** Dates on which a text was read to its end. */
+  readDays?: string[];
 }
 
 /** Was the whole routine ticked off on this day? (No routine: never.) */
@@ -39,7 +41,7 @@ export function japaMet(i: LampInput, date: string): boolean {
   return beads > 0 && beads >= (i.japaTarget ?? OPEN_TARGET_BEADS);
 }
 
-export const isLit = (i: LampInput, date: string) => routineComplete(i, date) || japaMet(i, date);
+export const isLit = (i: LampInput, date: string) => routineComplete(i, date) || japaMet(i, date) || !!i.readDays?.includes(date);
 
 /**
  * Length of the streak ending today, from `lit` (oldest first, last = today).

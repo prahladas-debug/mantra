@@ -11,6 +11,7 @@
  */
 import type { JapaState } from './japa';
 import type { Plan } from './plans';
+import { MARK_COLORS, type MarkColor } from './marks';
 import type { Bookmark, RecentEntry, Settings, Store } from './settings';
 
 export const BACKUP_APP = 'nandadeepa';
@@ -122,7 +123,13 @@ export function validateBackup(raw: unknown): Validated {
 
   const bookmarks: Bookmark[] = Array.isArray(s.bookmarks)
     ? s.bookmarks.flatMap((b): Bookmark[] =>
-        isObj(b) && isStr(b.id) && isStr(b.mantraId) && isStr(b.key) ? [{ id: b.id, mantraId: b.mantraId, key: b.key, at: isNum(b.at) ? b.at : 0 }] : [],
+        isObj(b) && isStr(b.id) && isStr(b.mantraId) && isStr(b.key)
+          ? [{
+              id: b.id, mantraId: b.mantraId, key: b.key, at: isNum(b.at) ? b.at : 0,
+              ...(isStr(b.color) && (MARK_COLORS as readonly string[]).includes(b.color) ? { color: b.color as MarkColor } : {}),
+              ...(isStr(b.note) && b.note.trim() ? { note: b.note } : {}),
+            }]
+          : [],
       )
     : [];
   const recent: RecentEntry[] = Array.isArray(s.recent)
@@ -130,6 +137,9 @@ export function validateBackup(raw: unknown): Validated {
     : [];
   const positions: Record<string, string> = {};
   if (isObj(s.positions)) for (const [k, p] of Object.entries(s.positions)) if (isStr(p)) positions[k] = p;
+  const finished: Record<string, number> = {};
+  if (isObj(s.finished)) for (const [k, t] of Object.entries(s.finished)) if (isNum(t)) finished[k] = t;
+  const readDays = strings(s.readDays).filter((d) => DATE.test(d)).sort().slice(-60);
   const routineDone: Record<string, string[]> = {};
   if (isObj(s.routineDone)) for (const [d, ids] of Object.entries(s.routineDone)) if (DATE.test(d)) routineDone[d] = strings(ids);
 
@@ -149,6 +159,8 @@ export function validateBackup(raw: unknown): Validated {
         bookmarks,
         routine: [...new Set(strings(s.routine))],
         routineDone,
+        finished,
+        readDays,
       },
       japa: cleanJapa(v.japa),
     },
