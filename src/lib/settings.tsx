@@ -42,6 +42,10 @@ export interface Settings {
   festivalReminders: { ekadashi: boolean; festivals: boolean; time: string };
   /** A morning notification with the verse of the day. */
   verseReminder?: { on: boolean; time: string };
+  /** My practice shows the last seven days as lamps and a forgiving streak. Off unless chosen. */
+  showStreaks: boolean;
+  /** A light tap of the phone on each bead counted in the japa counter. */
+  japaVibrate: boolean;
 }
 
 export interface Bookmark {
@@ -57,7 +61,7 @@ export interface RecentEntry {
   at: number;
 }
 
-interface Store {
+export interface Store {
   settings: Settings;
   favorites: string[];
   recent: RecentEntry[];
@@ -88,6 +92,8 @@ const DEFAULTS: Store = {
     centerVerses: true,
     onboarded: false,
     festivalReminders: { ekadashi: false, festivals: false, time: '19:00' },
+    showStreaks: false,
+    japaVibrate: true,
   },
   favorites: [],
   recent: [],
@@ -162,6 +168,8 @@ interface Ctx extends Store {
   setRoutine: (ids: string[]) => void;
   /** Mark a routine text done (or not) for the given panchanga day. */
   setRoutineDone: (day: string, id: string, done: boolean) => void;
+  /** Replace everything the reader has saved with a restored backup (see backup.ts). */
+  restoreStore: (store: Store) => void;
 }
 
 const SettingsContext = createContext<Ctx | null>(null);
@@ -311,14 +319,15 @@ export function SettingsProvider({ children }: { children: React.ReactNode }) {
     [],
   );
 
+  const restoreStore = useCallback((next: Store) => setStore(next), []);
   const setRoutine = useCallback((ids: string[]) => setStore((s) => ({ ...s, routine: [...new Set(ids)] })), []);
   const setRoutineDone = useCallback(
     (day: string, id: string, done: boolean) =>
       setStore((s) => {
         const list = s.routineDone[day] ?? [];
         const next = done ? [...new Set([...list, id])] : list.filter((x) => x !== id);
-        // Keep two weeks of history.
-        const days = Object.keys({ ...s.routineDone, [day]: next }).sort().slice(-14);
+        // Keep two months of history (the streak on My practice looks back over it).
+        const days = Object.keys({ ...s.routineDone, [day]: next }).sort().slice(-60);
         const routineDone: Record<string, string[]> = {};
         for (const d of days) routineDone[d] = d === day ? next : s.routineDone[d];
         return { ...s, routineDone };
@@ -343,9 +352,9 @@ export function SettingsProvider({ children }: { children: React.ReactNode }) {
     () => ({
       ...store, ready, theme: THEMES[themeName], update, toggleFavorite, markRead,
       addPlan, updatePlan, removePlan, markPlanItemRead, addRecitation, savePosition, toggleBookmark,
-      setRoutine, setRoutineDone,
+      setRoutine, setRoutineDone, restoreStore,
     }),
-    [store, ready, themeName, update, toggleFavorite, markRead, addPlan, updatePlan, removePlan, markPlanItemRead, addRecitation, savePosition, toggleBookmark, setRoutine, setRoutineDone],
+    [store, ready, themeName, update, toggleFavorite, markRead, addPlan, updatePlan, removePlan, markPlanItemRead, addRecitation, savePosition, toggleBookmark, setRoutine, setRoutineDone, restoreStore],
   );
 
   return <SettingsContext.Provider value={value}>{children}</SettingsContext.Provider>;
