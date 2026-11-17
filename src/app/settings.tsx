@@ -7,6 +7,7 @@ import { ThemeSwatches } from '../components/reader/DisplayPanel';
 import { SectionHeading, Segmented } from '../components/ui';
 import { leading, scriptFont } from '../lib/fonts';
 import { MEANING_PREFS } from '../lib/meaning';
+import { MATHA_OPTIONS, mathaOf, type MathaId } from '../lib/mathaAradhana';
 import { cityById, cityLabel } from '../lib/panchanga';
 import { ensurePermission, remindersSupported } from '../lib/reminders';
 import { UI_PREFS, useI18n } from '../lib/i18n';
@@ -128,6 +129,20 @@ export default function SettingsScreen() {
             onChange={(v) => update({ variants: { ...settings.variants, tradition: v } })}
           />
         </Block>
+        {settings.variants.tradition !== 'smarta' && (
+          <Block label={tr('Matha (for aradhanas of its pontiffs)')}>
+            <Pills<MathaId>
+              options={MATHA_OPTIONS.map((m) => ({ id: m.id, label: tr(m.label) }))}
+              value={mathaOf(settings.variants)}
+              onChange={(v) => update({ variants: { ...settings.variants, matha: v } })}
+            />
+            <Text style={{ color: theme.textMuted, fontSize: 13, lineHeight: 18, marginTop: 8 }}>
+              {tr(MATHA_OPTIONS.find((m) => m.id === mathaOf(settings.variants))?.hint ?? 'Common observances only')}
+              {' · '}
+              {tr('Shown in the Panchanga, Calendar and Festivals.')}
+            </Text>
+          </Block>
+        )}
         <Row label={cityLabel(cityById(settings.city))} onPress={() => setPicker(true)}>
           <Text style={{ color: theme.accent, fontSize: 16 }}>{tr('Change')}</Text>
         </Row>

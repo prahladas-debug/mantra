@@ -3,7 +3,8 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import { router, type Href } from 'expo-router';
 import { useCallback, useMemo, useState, useSyncExternalStore } from 'react';
 import { Pressable, Text, View } from 'react-native';
-import { defaultRule, festivalsOn, type CalendarMode, type EkadashiRule, type Festival } from '../lib/festivals';
+import { defaultRule, festivalsOn, type CalendarMode, type EkadashiRule, type Festival, type MathaId } from '../lib/festivals';
+import { mathaOf } from '../lib/mathaAradhana';
 import { sauraDay, sauraSankalpa, type SauraStart } from '../lib/sauramana';
 import { addDays, cityById, panchanga, setCalcMethod, todayIn, type CalcMethod } from '../lib/panchanga';
 import { getMantraInfo } from '../data';
@@ -64,6 +65,12 @@ export function useEkadashiRule(): [EkadashiRule, (r: EkadashiRule) => void] {
   const stored = useSyncExternalStore(rulePref.subscribe, rulePref.get, () => null);
   const set = useCallback((r: EkadashiRule) => rulePref.set(r), []);
   return [stored ?? defaultRule(settings.variants.tradition), set];
+}
+
+/** The Mādhva reader's maṭha (settings.variants.matha): its yatis' ārādhanās are added to the festivals. 'all' = common ones only. */
+export function useMatha(): MathaId {
+  const { settings } = useSettings();
+  return mathaOf(settings.variants);
 }
 
 /** Cāndramāna (lunar, default) or Sauramāna (solar, Udupi / Tuḷu Nāḍu) month reckoning. */
@@ -187,15 +194,16 @@ export function TodayCard() {
   const gloss = (f: Festival) => (lang === 'en' ? plain(f.en) : has(f.en) ? tr(f.en) : translit(f.name, settings.script));
   const { p, city, today, method } = usePanchanga();
   const [rule] = useEkadashiRule();
+  const matha = useMatha();
   const [mode] = useCalendarMode();
   const [start] = useSauraStart();
-  const all = useMemo(() => festivalsOn(city, today, rule, mode, start, method), [city, today, rule, mode, start, method]);
+  const all = useMemo(() => festivalsOn(city, today, rule, mode, start, method, matha), [city, today, rule, mode, start, method, matha]);
   // Month-long periods (Cāturmāsya, snāna months, Dhanurmāsa) get a full row on their first day
   // only; on the other days they share one quiet line, so the card stays short.
   const fest = all.filter((f) => !f.endDate || f.date === today);
   const tomorrow = useMemo(
-    () => festivalsOn(city, addDays(today, 1), rule, mode, start, method).filter((f) => f.kind === 'ekadashi' || f.kind === 'festival'),
-    [city, today, rule, mode, start, method],
+    () => festivalsOn(city, addDays(today, 1), rule, mode, start, method, matha).filter((f) => f.kind === 'ekadashi' || f.kind === 'festival'),
+    [city, today, rule, mode, start, method, matha],
   );
   const saura = useMemo(() => (mode === 'saura' ? sauraDay(city, today, start, method) : null), [city, today, mode, start, method]);
   const breakFast = useMemo(

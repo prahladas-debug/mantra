@@ -2,7 +2,7 @@ import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { Stack, router, useLocalSearchParams, type Href } from 'expo-router';
 import { useState } from 'react';
 import { Pressable, ScrollView, Text, View } from 'react-native';
-import { FestivalLine, NavButton, useCalcMethod, useCalendarMode, useSauraStart, useEkadashiRule } from '../components/PanchangaCard';
+import { FestivalLine, NavButton, useCalcMethod, useCalendarMode, useSauraStart, useEkadashiRule, useMatha } from '../components/PanchangaCard';
 import { CalendarBar } from '../components/CalendarBar';
 import { Chip, SectionHeading } from '../components/ui';
 import { T, useI18n } from '../lib/i18n';
@@ -79,6 +79,7 @@ export default function CalendarScreen() {
   const [picked, setPicked] = useState<string | null>(null);
   const month = picked ?? (params.month && /^\d{4}-\d{2}$/.test(params.month) ? params.month : today.slice(0, 7));
   const [rule] = useEkadashiRule();
+  const matha = useMatha();
   const [mode] = useCalendarMode();
   const [start] = useSauraStart();
   const [method] = useCalcMethod();
@@ -90,7 +91,7 @@ export default function CalendarScreen() {
   // Cheap (sunrise times and festival lists are cached in the libraries). Worked out on each
   // render: the React Compiler is not switched on for this app (app.json experiments).
   const { y, m, first, last, weeks, lunarLabel } = buildMonth(city, month, mode, start, method);
-  const festivals = festivalsBetween(city, first, last, rule, mode, start, method);
+  const festivals = festivalsBetween(city, first, last, rule, mode, start, method, matha);
   const byDate = new Map<string, Festival[]>();
   for (const f of festivals) byDate.set(f.date, [...(byDate.get(f.date) ?? []), f]);
 
