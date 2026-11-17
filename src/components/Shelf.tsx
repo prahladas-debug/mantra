@@ -224,7 +224,7 @@ export function DeityMedallion({ deity, width = 76 }: { deity: DeityGroup; width
       onPress={() => router.push(`/deity/${deity.id}` as Href)}
       accessibilityRole="link"
       accessibilityLabel={translit(deity.short ?? deity.title, settings.script)}
-      style={({ pressed }) => ({ width, alignItems: 'center', opacity: pressed ? 0.7 : 1 })}
+      style={({ pressed }) => ({ width, alignItems: 'center', opacity: pressed ? 0.85 : 1, transform: [{ scale: pressed ? 0.96 : 1 }] })}
     >
       <Image source={DEITY_ART[deity.id]} style={{ width: d, height: d, borderRadius: d / 2, opacity: theme.artOpacity }} />
       <Text style={{ color: theme.text, fontSize: 14, lineHeight: 21, textAlign: 'center', marginTop: 4, fontFamily: font }} numberOfLines={1} adjustsFontSizeToFit minimumFontScale={0.75}>
@@ -269,7 +269,7 @@ export function CategoryTile({ id, wide }: { id: CategoryId; wide?: boolean }) {
       onPress={() => router.push(`/category/${id}` as Href)}
       accessibilityRole="link"
       accessibilityLabel={tr('{title}, {count} texts', { title: categoryTitle(cat, settings.script), count })}
-      style={({ pressed }) => [c.tile, { width: wide ? '100%' : '48.5%', backgroundColor: theme.card, borderColor: theme.cardBorder, opacity: pressed ? 0.7 : 1 }]}
+      style={({ pressed }) => [c.tile, { width: wide ? '100%' : '48.5%', backgroundColor: theme.card, borderColor: theme.cardBorder, opacity: pressed ? 0.85 : 1, transform: [{ scale: pressed ? 0.98 : 1 }] }]}
     >
       <View style={[c.iconSmall, { backgroundColor: theme.goldSoft }]}>
         <MaterialCommunityIcons name={CATEGORY_ICONS[id]} size={22} color={theme.gold} />
@@ -297,7 +297,7 @@ export function QuickTile({ icon, label, href }: { icon: Icon; label: string; hr
       onPress={() => router.push(href as Href)}
       accessibilityRole="link"
       accessibilityLabel={tr(label)}
-      style={({ pressed }) => [c.quick, { backgroundColor: theme.card, borderColor: theme.cardBorder, opacity: pressed ? 0.7 : 1 }]}
+      style={({ pressed }) => [c.quick, { backgroundColor: theme.card, borderColor: theme.cardBorder, opacity: pressed ? 0.85 : 1, transform: [{ scale: pressed ? 0.97 : 1 }] }]}
     >
       <View style={[c.iconWrap, { backgroundColor: theme.goldSoft }]}>
         <MaterialCommunityIcons name={icon} size={26} color={theme.gold} />

@@ -199,7 +199,7 @@ export function VerseBlock({ verse, rowKey, book }: { verse: Verse; rowKey: stri
   const font = scriptFont(script, settings.bookFonts);
   // The text ends with ॥; when a number follows, render a single "॥ n ॥" instead of "॥ ॥ n ॥".
   const main = bindDandas(translit(verse.n !== undefined ? verse.text.replace(/\s*॥\s*$/, '') : verse.text, script));
-  const fs = (isRoman(script) ? 19 : 22) * scale;
+  const fs = (isRoman(script) ? 20 : 23.5) * scale;
   const lh = fs * leading(script, settings.bookFonts) * (settings.lineSpacing ?? 1);
   const label = settings.meaningLang === 'both' && pLang !== 'en' ? `${MEANING_BUTTON[pLang]} · Meaning` : MEANING_BUTTON[pLang];
 

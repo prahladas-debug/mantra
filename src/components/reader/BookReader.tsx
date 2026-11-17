@@ -54,7 +54,7 @@ function estimate(row: Row, m: Metrics): number {
     const note = (row.section.note && row.section.note.length > 220 ? Math.min(noteLines, 3) + 1 : noteLines) * 21;
     return 60 + title + (row.section.titleEn ? 20 : 0) + note;
   }
-  const fs = (isRoman(m.script) ? 19 : 22) * m.scale;
+  const fs = (isRoman(m.script) ? 20 : 23.5) * m.scale;
   const lh = fs * leading(m.script, m.bookFonts);
   const perLine = Math.max(8, contentWidth / (fs * (isRoman(m.script) ? 0.5 : 0.62)));
   const text = translit(row.verse.text, m.script);
