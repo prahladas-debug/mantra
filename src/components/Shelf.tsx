@@ -4,7 +4,7 @@ import { Image, ImageBackground, Pressable, StyleSheet, Text, View, type ImageSo
 import { categoryById, categoryCounts, getMantraInfo, type CategoryId } from '../data';
 import { bookWork, isBookWork } from '../data/books';
 import type { DeityGroup } from '../lib/deities';
-import { scriptFont } from '../lib/fonts';
+import { headingFont, scriptFont } from '../lib/fonts';
 import { T, useI18n } from '../lib/i18n';
 import { categoryTitle } from '../lib/labels';
 import { useSettings } from '../lib/settings';
@@ -311,12 +311,13 @@ export function QuickTile({ icon, label, href }: { icon: Icon; label: string; hr
 
 /** "GREAT WORKS" with an optional link on the right. */
 export function ShelfHeading({ title, action, onAction }: { title: string; action?: string; onAction?: () => void }) {
-  const { theme } = useSettings();
-  const { tr } = useI18n();
+  const { theme, settings } = useSettings();
+  const { tr, lang } = useI18n();
+  const hf = headingFont(lang, settings.bookFonts);
   return (
     <View style={c.heading}>
-      <MaterialCommunityIcons name="spa-outline" size={18} color={theme.gold} style={{ marginRight: 7 }} />
-      <Text style={{ flex: 1, color: theme.text, fontSize: 16, fontWeight: '700', letterSpacing: 0.3 }} accessibilityRole="header">
+      <MaterialCommunityIcons name="spa-outline" size={18} color={theme.gold} style={{ marginRight: 8 }} />
+      <Text style={{ flex: 1, color: theme.text, fontSize: 17, fontFamily: hf, fontWeight: hf ? undefined : '700', letterSpacing: 0.2 }} accessibilityRole="header">
         {tr(title)}
       </Text>
       {action && (

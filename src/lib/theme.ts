@@ -76,29 +76,33 @@ const LIGHT: Omit<Theme, 'name'> = {
   bar: '#FFFEFA',
   artOpacity: 1,
 };
+/**
+ * Dark: a lamp-lit page at night. Deep warm near-black (never pure black), cards a shade lighter
+ * with no visible borders, ivory text (never pure white), and antique lamp-gold as the one accent.
+ */
 const DARK: Omit<Theme, 'name'> = {
-  bg: '#171410',
-  bgSecondary: '#211B17',
-  card: '#29221D',
-  elevated: '#332921',
-  cardBorder: '#40352B',
-  text: '#F2E9DC',
-  textMuted: '#B8A99A',
-  accent: '#D58A68',
-  accentSoft: '#403025',
-  onAccent: '#1E1712',
-  verseNumber: '#D58A68',
-  warningBg: '#3A2E1C',
+  bg: '#12100D',
+  bgSecondary: '#1A1612',
+  card: '#1D1915',
+  elevated: '#25201A',
+  cardBorder: '#2A241D',
+  text: '#EFE6D6',
+  textMuted: '#A99B88',
+  accent: '#D9AE62',
+  accentSoft: '#2B241A',
+  onAccent: '#17120B',
+  verseNumber: '#D9AE62',
+  warningBg: '#2E2616',
   warningText: '#E6CD96',
   statusBar: 'light',
-  page: '#211B17',
-  pageEdge: '#40352B',
-  ornament: '#C9A35F',
-  gold: '#D4AD68',
-  goldSoft: '#332921',
-  success: '#93A884',
-  bar: '#211B17',
-  artOpacity: 0.88,
+  page: '#16130F',
+  pageEdge: '#2A241D',
+  ornament: '#B8944F',
+  gold: '#CFA65C',
+  goldSoft: '#26201A',
+  success: '#8FA37F',
+  bar: '#16130F',
+  artOpacity: 0.86,
 };
 
 export const THEMES: Record<ThemeName, Theme> = {

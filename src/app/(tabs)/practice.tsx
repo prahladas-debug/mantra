@@ -4,7 +4,7 @@ import { Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 import { PlanCard } from '../../components/PlanCard';
 import { RoutineCard } from '../../components/RoutineCard';
 import { getMantraInfo, scriptFor } from '../../data';
-import { scriptFont } from '../../lib/fonts';
+import { headingFont, scriptFont } from '../../lib/fonts';
 import { T, useI18n } from '../../lib/i18n';
 import { planStatus } from '../../lib/plans';
 import { useSettings } from '../../lib/settings';
@@ -19,12 +19,13 @@ const TOOLS: { icon: keyof typeof MaterialCommunityIcons.glyphMap; label: string
 ];
 
 function Heading({ title, action, onAction }: { title: string; action?: string; onAction?: () => void }) {
-  const { theme } = useSettings();
-  const { tr } = useI18n();
+  const { theme, settings } = useSettings();
+  const { tr, lang } = useI18n();
+  const hf = headingFont(lang, settings.bookFonts);
   return (
     <View style={s.heading}>
-      <MaterialCommunityIcons name="spa-outline" size={18} color={theme.gold} style={{ marginRight: 7 }} />
-      <Text style={{ color: theme.text, fontSize: 16, fontWeight: '700', flex: 1 }} accessibilityRole="header">{tr(title)}</Text>
+      <MaterialCommunityIcons name="spa-outline" size={18} color={theme.gold} style={{ marginRight: 8 }} />
+      <Text style={{ color: theme.text, fontSize: 17, fontFamily: hf, fontWeight: hf ? undefined : '700', flex: 1 }} accessibilityRole="header">{tr(title)}</Text>
       {action && (
         <Pressable onPress={onAction} hitSlop={10} accessibilityRole="button">
           <Text style={{ color: theme.accent, fontSize: 16 }}>{tr(action)}</Text>

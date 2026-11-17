@@ -2,6 +2,7 @@ import { Tabs } from 'expo-router';
 import type { ColorValue } from 'react-native';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
+import { headingFont } from '../../lib/fonts';
 import { useI18n } from '../../lib/i18n';
 import { useSettings } from '../../lib/settings';
 
@@ -13,8 +14,9 @@ const icon = (name: Mdi, focused: Mdi = name) =>
 
 /** Four tabs: Home, Panchanga, Library, My practice. Everything else opens on top of them. */
 export default function TabLayout() {
-  const { theme } = useSettings();
-  const { tr } = useI18n();
+  const { theme, settings } = useSettings();
+  const { tr, lang } = useI18n();
+  const hf = headingFont(lang, settings.bookFonts);
   const insets = useSafeAreaInsets();
   return (
     <Tabs
@@ -25,7 +27,7 @@ export default function TabLayout() {
       screenOptions={{
         headerStyle: { backgroundColor: theme.bg },
         headerTintColor: theme.accent,
-        headerTitleStyle: { color: theme.text },
+        headerTitleStyle: { color: theme.text, fontFamily: hf, fontSize: 21 },
         headerShadowVisible: false,
         sceneStyle: { backgroundColor: theme.bg },
         // The standard bar (49) fits a 10-point label; ours is 12, and its lower half was cut off

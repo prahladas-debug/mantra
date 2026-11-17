@@ -69,3 +69,9 @@ export function leading(script: ScriptId, enabled: boolean): number {
   if (!enabled) return 1.65;
   return script === 'iast' || script === 'english' ? 1.55 : script === 'devanagari' ? 1.8 : 1.75;
 }
+
+/** Book-style serif for section headings in the interface language (undefined = system font). */
+export function headingFont(lang: MeaningLang, enabled: boolean): string | undefined {
+  if (!enabled) return undefined;
+  return lang === 'en' ? 'BookSerifBold' : LANG_FONT[lang];
+}

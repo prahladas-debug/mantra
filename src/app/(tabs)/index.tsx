@@ -1,17 +1,52 @@
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { Link, Redirect, router, type Href } from 'expo-router';
-import { Pressable, ScrollView, StyleSheet, Text, View, useWindowDimensions } from 'react-native';
+import { useState } from 'react';
+import { Modal, Pressable, ScrollView, StyleSheet, Text, View, useWindowDimensions } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { TodayCard } from '../../components/PanchangaCard';
 import { RoutineCard } from '../../components/RoutineCard';
-import { BookCover, QuickTile, ShelfHeading, greatWorks } from '../../components/Shelf';
+import { BookCover, CategoryTile, DeityMedallion, QuickTile, ShelfHeading, greatWorks } from '../../components/Shelf';
 import { getMantraInfo, scriptFor } from '../../data';
+import { DEITIES } from '../../lib/deities';
 import { scriptFont } from '../../lib/fonts';
 import { T, useI18n } from '../../lib/i18n';
 import { APP_MOTTO, appTitle } from '../../lib/labels';
 import { useSettings } from '../../lib/settings';
-import { translit, nameOf } from '../../lib/transliterate';
+import { SCRIPTS, translit, nameOf } from '../../lib/transliterate';
 
+/** Reading-script chooser behind the header button. */
+function ScriptSheet({ visible, onClose }: { visible: boolean; onClose: () => void }) {
+  const { theme, settings, update } = useSettings();
+  const { tr } = useI18n();
+  const insets = useSafeAreaInsets();
+  return (
+    <Modal visible={visible} transparent animationType="slide" onRequestClose={onClose}>
+      <Pressable style={{ flex: 1, backgroundColor: '#0006' }} onPress={onClose} accessibilityLabel={tr('Close')} />
+      <View style={{ backgroundColor: theme.bg, borderTopLeftRadius: 18, borderTopRightRadius: 18, paddingBottom: insets.bottom + 20, paddingTop: 8 }}>
+        <Text style={{ color: theme.text, fontSize: 18, fontWeight: '700', margin: 16, marginBottom: 8 }}>{tr('Reading script')}</Text>
+        {SCRIPTS.map((sc) => {
+          const active = settings.script === sc.id;
+          return (
+            <Pressable
+              key={sc.id}
+              onPress={() => {
+                update({ script: sc.id });
+                onClose();
+              }}
+              accessibilityRole="radio"
+              accessibilityState={{ selected: active }}
+              style={({ pressed }) => ({ flexDirection: 'row', alignItems: 'center', paddingVertical: 11, paddingHorizontal: 16, opacity: pressed ? 0.6 : 1 })}
+            >
+              <Text style={{ flex: 1, color: active ? theme.accent : theme.text, fontSize: 18, fontFamily: scriptFont(sc.id, settings.bookFonts) }}>{sc.native}</Text>
+              <Text style={{ color: theme.textMuted, fontSize: 14, marginRight: 10 }}>{sc.en}</Text>
+              <MaterialCommunityIcons name={active ? 'radiobox-marked' : 'radiobox-blank'} size={22} color={active ? theme.accent : theme.textMuted} />
+            </Pressable>
+          );
+        })}
+      </View>
+    </Modal>
+  );
+}
 
 const EVERY_DAY: { icon: keyof typeof MaterialCommunityIcons.glyphMap; label: string; href: string }[] = [
   { icon: 'weather-sunset-up', label: T('Morning prayers'), href: '/collection/morning' },
@@ -22,13 +57,15 @@ const EVERY_DAY: { icon: keyof typeof MaterialCommunityIcons.glyphMap; label: st
   { icon: 'dots-circle', label: T('Japa counter'), href: '/japa' },
 ];
 
-/** Home, kept quiet: today, your routine and where you left off, the great works, everyday shortcuts. */
+/** Home: today, where you left off, the great works as book covers, everyday shortcuts and songs. */
 export default function Home() {
   const { theme, settings, recent, positions, routine, ready } = useSettings();
   const { tr } = useI18n();
   const insets = useSafeAreaInsets();
   const { width } = useWindowDimensions();
+  const [scriptSheet, setScriptSheet] = useState(false);
   const font = scriptFont(settings.script, settings.bookFonts);
+  const script = SCRIPTS.find((x) => x.id === settings.script) ?? SCRIPTS[0];
   const last = recent.map((r) => getMantraInfo(r.id)).find((m) => !!m);
   // About three and a half small covers across the screen, so the row reads as a shelf to swipe.
   const coverW = Math.max(88, Math.min(112, Math.floor((width - 32 - 30) / 3.4)));
@@ -38,7 +75,7 @@ export default function Home() {
   if (!settings.onboarded) return <Redirect href="/welcome" />;
 
   return (
-    <ScrollView style={{ backgroundColor: theme.bg }} contentContainerStyle={{ paddingTop: insets.top + 18, paddingBottom: 40 }}>
+    <ScrollView style={{ backgroundColor: theme.bg }} contentContainerStyle={{ paddingTop: insets.top + 14, paddingBottom: 32 }}>
       <View style={s.header}>
         <View style={{ flex: 1 }}>
           <Text style={{ color: theme.name === 'dark' ? theme.gold : theme.accent, fontSize: 28, fontFamily: font, fontWeight: font ? undefined : '700' }} numberOfLines={1}>
@@ -48,6 +85,16 @@ export default function Home() {
             {translit(APP_MOTTO, settings.script)}
           </Text>
         </View>
+        <Pressable
+          onPress={() => setScriptSheet(true)}
+          hitSlop={8}
+          accessibilityRole="button"
+          accessibilityLabel={tr('Reading script: {script}. Change', { script: script.en })}
+          style={({ pressed }) => [s.scriptBtn, { borderColor: theme.cardBorder, backgroundColor: theme.card, opacity: pressed ? 0.6 : 1 }]}
+        >
+          <Text style={{ color: theme.text, fontSize: 16, fontFamily: scriptFont(script.id, settings.bookFonts) }}>{script.native}</Text>
+          <MaterialCommunityIcons name="chevron-down" size={18} color={theme.textMuted} />
+        </Pressable>
         <Link href="/settings" asChild>
           <Pressable hitSlop={12} accessibilityLabel={tr('Settings')}>
             <MaterialCommunityIcons name="cog-outline" size={26} color={theme.accent} />
@@ -94,6 +141,20 @@ export default function Home() {
         ))}
       </View>
 
+      <ShelfHeading title={T('By deity')} />
+      <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={{ paddingHorizontal: 12, gap: 2 }}>
+        {DEITIES.map((d) => (
+          <DeityMedallion key={d.id} deity={d} />
+        ))}
+      </ScrollView>
+
+      <ShelfHeading title={T('Devotional songs')} action={T('Whole library ›')} onAction={() => router.push('/library')} />
+      <View style={s.grid}>
+        <CategoryTile id="dasara-pada" />
+        <CategoryTile id="kirtana" />
+      </View>
+
+      <ScriptSheet visible={scriptSheet} onClose={() => setScriptSheet(false)} />
     </ScrollView>
   );
 }
