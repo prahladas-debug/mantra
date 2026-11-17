@@ -156,13 +156,13 @@ export function FestivalLine({ f, showDate, showNote }: { f: Festival; showDate?
             {showDate ? `${f.date.slice(8)}/${f.date.slice(5, 7)} · ` : ''}
             {settings.script === 'english' ? translitTitle(f.name, settings.script) : translit(f.name, settings.script)}
           </Text>
-          <Text style={{ color: theme.textMuted, fontSize: 13, marginTop: 1 }}>
+          <Text style={{ color: theme.textMuted, fontSize: 14.5, marginTop: 1 }}>
             {gloss}
             {f.endDate ? `${gloss ? ' ' : ''}(${tr('to {date}', { date: md(f.endDate) })})` : ''}
             {f.textId ? <Text style={{ color: theme.accent }}>{`${gloss || f.endDate ? '  ·  ' : ''}${tr('read')} ›`}</Text> : null}
           </Text>
           {f.parana && (
-            <Text style={{ color: theme.text, fontSize: 13, marginTop: 1 }}>
+            <Text style={{ color: theme.text, fontSize: 14.5, marginTop: 1 }}>
               {tr('Parana (break the fast): {label}', { label: paranaLabel(f.parana, city, lang) })}
             </Text>
           )}
@@ -173,8 +173,8 @@ export function FestivalLine({ f, showDate, showNote }: { f: Festival; showDate?
           </Pressable>
         ) : null}
       </View>
-      {open && note ? <Text style={{ color: theme.textMuted, fontSize: 13, lineHeight: 18, marginTop: 3 }}>{note}</Text> : null}
-      {open && pNote ? <Text style={{ color: theme.textMuted, fontSize: 13, lineHeight: 18, marginTop: 3 }}>{tr('Parana: {note}', { note: lang === 'en' ? plain(pNote) : pNote })}</Text> : null}
+      {open && note ? <Text style={{ color: theme.textMuted, fontSize: 14.5, lineHeight: 20, marginTop: 3 }}>{note}</Text> : null}
+      {open && pNote ? <Text style={{ color: theme.textMuted, fontSize: 14.5, lineHeight: 20, marginTop: 3 }}>{tr('Parana: {note}', { note: lang === 'en' ? plain(pNote) : pNote })}</Text> : null}
     </View>
   );
 }
@@ -209,7 +209,7 @@ export function TodayCard() {
     <View style={{ marginHorizontal: 16, marginTop: 16, borderRadius: 16, borderWidth: 1, backgroundColor: theme.card, borderColor: theme.cardBorder, overflow: 'hidden' }}>
       {/* No date: the Panchanga tab then shows today, also tomorrow. `at` changes with every tap, so a day picked there earlier gives way. */}
       <Pressable onPress={() => router.push({ pathname: '/panchanga', params: { at: String(Date.now()) } } as Href)} style={({ pressed }) => ({ padding: 14, opacity: pressed ? 0.7 : 1 })} accessibilityRole="link">
-        <Text style={{ color: theme.textMuted, fontSize: 12, fontWeight: '700', letterSpacing: 0.8 }}>
+        <Text style={{ color: theme.textMuted, fontSize: 13.5, fontWeight: '700', letterSpacing: 0.8 }}>
           {tr('TODAY')} · {city.name.toUpperCase()}
         </Text>
         <Text style={{ color: theme.accent, fontSize: 18, fontWeight: '700', marginTop: 4 }}>
@@ -234,15 +234,15 @@ export function TodayCard() {
             <MaterialCommunityIcons name={f.kind === 'ekadashi' ? 'moon-waning-crescent' : 'creation-outline'} size={20} color={theme.gold} />
             <View style={{ flex: 1 }}>
               <Text style={{ color: theme.accent, fontSize: 16, fontWeight: '600' }}>{t(f.name)}</Text>
-              {m && <Text style={{ color: theme.text, fontSize: 13 }}>{tr('Read: {title}', { title: lang === 'en' ? m.titleEn : translit(m.title, settings.script) })} ›</Text>}
-              {f.parana && <Text style={{ color: theme.textMuted, fontSize: 12 }}>{tr('Parana {label}', { label: paranaLabel(f.parana, city, lang) })}</Text>}
+              {m && <Text style={{ color: theme.text, fontSize: 14.5 }}>{tr('Read: {title}', { title: lang === 'en' ? m.titleEn : translit(m.title, settings.script) })} ›</Text>}
+              {f.parana && <Text style={{ color: theme.textMuted, fontSize: 13.5 }}>{tr('Parana {label}', { label: paranaLabel(f.parana, city, lang) })}</Text>}
             </View>
           </Pressable>
         );
       })}
       {ongoing.length > 0 && (
         <View style={{ paddingHorizontal: 14, paddingVertical: 8, borderTopWidth: 1, borderColor: theme.cardBorder }}>
-          <Text style={{ color: theme.textMuted, fontSize: 13 }} numberOfLines={2}>
+          <Text style={{ color: theme.textMuted, fontSize: 14.5 }} numberOfLines={2}>
             {ongoing.map((f) => `${gloss(f).replace(/ \(.*\)$/, '')} (${tr('to {date}', { date: dayMonth(Number(f.endDate!.slice(5, 7)), Number(f.endDate!.slice(8))) })})`).join(' · ')}
           </Text>
         </View>
@@ -252,13 +252,13 @@ export function TodayCard() {
           <MaterialCommunityIcons name="rice" size={20} color={theme.gold} />
           <Text style={{ color: theme.text, fontSize: 14, flex: 1 }}>
             {tr('Break the Ekadashi fast today:')} <Text style={{ fontWeight: '700' }}>{paranaTimes(breakFast, city, lang)}</Text>
-            {breakFast.note ? <Text style={{ color: theme.textMuted, fontSize: 12 }}>{`\n${lang === 'en' ? plain(breakFast.note) : paranaNote(breakFast, city, lang)}`}</Text> : null}
+            {breakFast.note ? <Text style={{ color: theme.textMuted, fontSize: 13.5 }}>{`\n${lang === 'en' ? plain(breakFast.note) : paranaNote(breakFast, city, lang)}`}</Text> : null}
           </Text>
         </View>
       )}
       {tomorrow.length > 0 && (
         <View style={{ paddingHorizontal: 14, paddingVertical: 9, borderTopWidth: 1, borderColor: theme.cardBorder }}>
-          <Text style={{ color: theme.textMuted, fontSize: 13 }}>
+          <Text style={{ color: theme.textMuted, fontSize: 14.5 }}>
             {tr('Tomorrow:')} <Text style={{ color: theme.text }}>{tomorrow.map(gloss).join(' · ')}</Text>
           </Text>
         </View>
@@ -277,13 +277,13 @@ export function SankalpaCard() {
   const sankalpa = mode === 'saura' ? sauraSankalpa(p, sauraDay(city, today, start, method)) : p.sankalpa;
   return (
     <View style={{ marginTop: 14, padding: 12, borderRadius: 12, borderWidth: 1, borderColor: theme.cardBorder, backgroundColor: theme.card }}>
-      <Text style={{ color: theme.textMuted, fontSize: 13, fontWeight: '700', marginBottom: 6 }}>
+      <Text style={{ color: theme.textMuted, fontSize: 14.5, fontWeight: '700', marginBottom: 6 }}>
         {tr('Today’s sankalpa')} · {city.name}
       </Text>
       <Text style={{ color: theme.text, fontSize: 17, lineHeight: 28 }} selectable>
         {translit(sankalpa, settings.script)}
       </Text>
-      <Text style={{ color: theme.textMuted, fontSize: 12, marginTop: 6 }}>
+      <Text style={{ color: theme.textMuted, fontSize: 13.5, marginTop: 6 }}>
         {tr('Use in place of the samvatsara…tithi placeholders. Computed for sunrise; change the place in Panchanga.')}
       </Text>
     </View>

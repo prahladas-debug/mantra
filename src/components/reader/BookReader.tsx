@@ -241,7 +241,7 @@ export function BookReader({
           <View style={[s.track, { backgroundColor: theme.accentSoft }]}>
             <View style={{ width: `${pages.length ? ((page + 1) / pages.length) * 100 : 0}%`, height: 4, backgroundColor: theme.accent, borderRadius: 2 }} />
           </View>
-          <Text style={{ color: theme.textMuted, fontSize: 12, textAlign: 'center', marginTop: 3 }}>
+          <Text style={{ color: theme.textMuted, fontSize: 13.5, textAlign: 'center', marginTop: 3 }}>
             {pages.length ? tr('Page {n} of {total}', { n: page + 1, total: pages.length }) : ''}
           </Text>
         </View>
@@ -265,8 +265,8 @@ const s = StyleSheet.create({
     shadowOffset: { width: 0, height: 2 },
     elevation: 2,
   },
-  runningHead: { textAlign: 'center', fontSize: 13, paddingVertical: 8, marginHorizontal: 20, borderBottomWidth: StyleSheet.hairlineWidth },
-  folio: { textAlign: 'center', fontSize: 13, paddingVertical: 6 },
+  runningHead: { textAlign: 'center', fontSize: 14.5, paddingVertical: 8, marginHorizontal: 20, borderBottomWidth: StyleSheet.hairlineWidth },
+  folio: { textAlign: 'center', fontSize: 14.5, paddingVertical: 6 },
   bar: { height: 52, flexDirection: 'row', alignItems: 'center', paddingHorizontal: 12, borderTopWidth: StyleSheet.hairlineWidth },
   track: { height: 4, borderRadius: 2, overflow: 'hidden' },
 });

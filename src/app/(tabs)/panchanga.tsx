@@ -36,7 +36,7 @@ function Table({ rows }: { rows: Row[] }) {
         >
           <View style={{ flexShrink: 0, minWidth: 96 }}>
             <Text style={{ color: theme.gold, fontSize: 15, fontWeight: '600' }}>{tr(l[0])}</Text>
-            {!roman && <Text style={{ color: theme.textMuted, fontSize: 13, marginTop: 1 }}>{translit(l[1], settings.script)}</Text>}
+            {!roman && <Text style={{ color: theme.textMuted, fontSize: 14.5, marginTop: 1 }}>{translit(l[1], settings.script)}</Text>}
           </View>
           <Text
             style={{
@@ -167,7 +167,7 @@ export default function PanchangaScreen() {
           <Text style={{ color: theme.text, fontSize: 18, fontWeight: '700' }}>
             {longDate(y, m, d, p.weekday)}
           </Text>
-          <Text style={{ color: theme.textMuted, fontSize: 13 }}>
+          <Text style={{ color: theme.textMuted, fontSize: 14.5 }}>
             {t(VARA[p.weekday])}
             {date !== today ? <Text style={{ color: theme.accent }}>{`  ·  ${tr('back to today')}`}</Text> : null}
           </Text>
@@ -179,7 +179,7 @@ export default function PanchangaScreen() {
         <View style={[card, { marginTop: 14, padding: 12, borderColor: theme.accent, backgroundColor: theme.goldSoft }]}>
           {todays.map((f) => (
             <View key={f.key}>
-              <FestivalLine f={f} showNote />
+              <FestivalLine f={f} />
             </View>
           ))}
         </View>
@@ -213,7 +213,7 @@ export default function PanchangaScreen() {
         )}
       </View>
 
-      <Text style={{ color: theme.textMuted, fontSize: 13, margin: 16, lineHeight: 19 }}>
+      <Text style={{ color: theme.textMuted, fontSize: 14.5, margin: 16, lineHeight: 19 }}>
         {tr('For {place} · times are local (UTC{offset} h).', { place: cityLabel(city), offset: `${city.tz >= 0 ? '+' : ''}${city.tz}` })}
         {city.dst ? ` ${tr('Daylight saving is applied.')}` : ''}{' '}
         {ss

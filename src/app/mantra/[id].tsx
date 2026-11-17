@@ -62,7 +62,7 @@ function BookUnitReader({ id }: { id: string }) {
       {error ? (
         <>
           <Text style={{ color: theme.text, fontSize: 16, textAlign: 'center' }}>{tr('This {title} could not be opened.', { title: name ?? tr('text') })}</Text>
-          <Text style={{ color: theme.textMuted, fontSize: 13, textAlign: 'center' }}>{error}</Text>
+          <Text style={{ color: theme.textMuted, fontSize: 14.5, textAlign: 'center' }}>{error}</Text>
           <Pressable
             onPress={() => {
               setError(null);

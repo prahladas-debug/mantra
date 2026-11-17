@@ -50,14 +50,14 @@ export function TextRow({ mantra, subtitle, badge, divider, indent }: { mantra: 
     >
       {badge !== undefined && (
         <View style={[s.badge, { backgroundColor: theme.accentSoft }]}>
-          <Text style={{ color: theme.accent, fontSize: 13, fontWeight: '700' }}>{badge}</Text>
+          <Text style={{ color: theme.accent, fontSize: 14.5, fontWeight: '700' }}>{badge}</Text>
         </View>
       )}
       <View style={{ flex: 1 }}>
         <Text style={{ color: theme.text, fontSize: 17, fontFamily: font, fontWeight: font ? undefined : '600' }} numberOfLines={1}>
           {t.text}
         </Text>
-        <Text style={{ color: theme.textMuted, fontSize: 13, marginTop: 1 }} numberOfLines={1}>
+        <Text style={{ color: theme.textMuted, fontSize: 14.5, marginTop: 1 }} numberOfLines={1}>
           {subtitleFor(mantra, tr, showEn, subtitle)}
         </Text>
       </View>
@@ -92,7 +92,7 @@ function SeriesRow({ entry, divider }: { entry: Entry; divider?: boolean }) {
           <Text style={{ color: theme.text, fontSize: 17, fontFamily: font, fontWeight: font ? undefined : '600' }} numberOfLines={1}>
             {title}
           </Text>
-          <Text style={{ color: theme.textMuted, fontSize: 13, marginTop: 1 }} numberOfLines={1}>
+          <Text style={{ color: theme.textMuted, fontSize: 14.5, marginTop: 1 }} numberOfLines={1}>
             {showEn ? tr('{en} · {n} parts', { en, n: parts.length }) : tr('{en} · {n} parts', { en: '', n: parts.length }).replace(/^\s*·\s*/, '')}
           </Text>
         </View>

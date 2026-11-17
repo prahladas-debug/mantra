@@ -44,7 +44,7 @@ export default function FestivalsYearScreen() {
         ))}
       </ScrollView>
       <CalendarBar />
-      <Text style={{ color: theme.textMuted, fontSize: 13, marginHorizontal: 16, marginTop: 10 }}>
+      <Text style={{ color: theme.textMuted, fontSize: 14.5, marginHorizontal: 16, marginTop: 10 }}>
         {mode === 'saura'
           ? tr('Ekadashi by the {rule} rule · with Udupi festivals · tap ⓘ for details', { rule: rule === 'smarta' ? tr('Smarta') : tr('Madhva') })
           : tr('Ekadashi by the {rule} rule · tap ⓘ for details', { rule: rule === 'smarta' ? tr('Smarta') : tr('Madhva') })}
@@ -64,7 +64,7 @@ export default function FestivalsYearScreen() {
           </View>
         ),
       )}
-      <Text style={{ color: theme.textMuted, fontSize: 13, margin: 16, lineHeight: 19 }}>
+      <Text style={{ color: theme.textMuted, fontSize: 14.5, margin: 16, lineHeight: 19 }}>
         {method === 'surya'
           ? tr('Computed on the device by the {method}; checked against matha panchangas (Uttaradi Math, Raghavendra Matha, 2025–2027). Matha and temple calendars can still differ by a day.', { method: tr(calcMethodLabel(method)) })
           : tr('Computed on the device from the Sun and Moon positions; dates agree with drikpanchang for the years checked (2025–2030 and spot checks to 2036). Local matha and temple calendars can differ by a day.')}

@@ -26,8 +26,8 @@ export default function Library() {
   const showEn = useShowEnglish();
   const { width } = useWindowDimensions();
   const font = scriptFont(settings.script, settings.bookFonts);
-  // Three covers to a row, with the same 16-point gutters as everything else.
-  const coverW = Math.min(150, Math.floor((width - 32 - 20) / 3));
+  // One row of covers that scrolls sideways, the same size as on Home: the covers stay books, not posters.
+  const coverW = Math.max(88, Math.min(112, Math.floor((width - 32 - 30) / 3.4)));
 
   return (
     <ScrollView style={{ backgroundColor: theme.bg }} contentContainerStyle={{ paddingTop: 8, paddingBottom: 32 }}>
@@ -37,11 +37,11 @@ export default function Library() {
       </Pressable>
 
       <ShelfHeading title={T('Great works · parayana')} />
-      <View style={[s.grid, { justifyContent: 'flex-start', columnGap: 10 }]}>
+      <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={{ paddingHorizontal: 16, gap: 10 }}>
         {greatWorks(settings.variants.tradition).map((w) => (
           <BookCover key={w.category ?? w.textId} work={w} width={coverW} />
         ))}
-      </View>
+      </ScrollView>
 
       {SHELVES.map((shelf) => (
         <View key={shelf.title}>
@@ -73,7 +73,7 @@ export default function Library() {
             <Text numberOfLines={2} style={{ color: theme.accent, fontSize: 16, lineHeight: 25, fontFamily: font }}>
               {nameOf(c, settings.script)}
             </Text>
-            <Text numberOfLines={1} style={{ color: theme.textMuted, fontSize: 12, marginTop: 4 }}>
+            <Text numberOfLines={1} style={{ color: theme.textMuted, fontSize: 13.5, marginTop: 4 }}>
               {showEn ? `${c.titleEn} · ` : ''}
               {c.items.length}
             </Text>

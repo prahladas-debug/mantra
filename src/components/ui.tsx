@@ -89,7 +89,7 @@ export function MantraRow({ mantra, subtitle }: { mantra: Mantra; subtitle?: str
 
 export const styles = StyleSheet.create({
   sectionHeading: {
-    fontSize: 13,
+    fontSize: 14.5,
     fontWeight: '700',
     letterSpacing: 1,
     textTransform: 'uppercase',
@@ -109,8 +109,8 @@ export const styles = StyleSheet.create({
     borderWidth: 1,
   },
   metaRow: { flexDirection: 'row', gap: 8, marginTop: 8, alignItems: 'center' },
-  meta: { fontSize: 12, fontWeight: '600', paddingHorizontal: 8, paddingVertical: 2, borderRadius: 8, overflow: 'hidden' },
-  metaPlain: { fontSize: 12 },
+  meta: { fontSize: 13.5, fontWeight: '600', paddingHorizontal: 8, paddingVertical: 2, borderRadius: 8, overflow: 'hidden' },
+  metaPlain: { fontSize: 13.5 },
 });
 
 /** A row of equal buttons, one selected (like a two- or three-way switch). */

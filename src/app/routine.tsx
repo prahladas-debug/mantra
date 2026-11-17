@@ -90,7 +90,7 @@ export default function RoutineEditor() {
               {nameOf(item, settings.script)}
             </Text>
             {showEn && (
-              <Text style={{ color: theme.textMuted, fontSize: 12 }} numberOfLines={1}>
+              <Text style={{ color: theme.textMuted, fontSize: 13.5 }} numberOfLines={1}>
                 {item.titleEn}
               </Text>
             )}

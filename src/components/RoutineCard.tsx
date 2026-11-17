@@ -33,7 +33,7 @@ export function RoutineCard({ compact }: { compact?: boolean }) {
         <MaterialCommunityIcons name="format-list-bulleted" size={24} color={theme.gold} />
         <View style={{ flex: 1 }}>
           <Text style={{ color: theme.text, fontSize: 16, fontWeight: '600' }}>{tr('Set up your daily routine')}</Text>
-          <Text style={{ color: theme.textMuted, fontSize: 13 }}>{tr('Pick the texts you recite each day; tick them off as you go.')}</Text>
+          <Text style={{ color: theme.textMuted, fontSize: 14.5 }}>{tr('Pick the texts you recite each day; tick them off as you go.')}</Text>
         </View>
         <MaterialCommunityIcons name="chevron-right" size={20} color={theme.textMuted} />
       </Pressable>
@@ -49,7 +49,7 @@ export function RoutineCard({ compact }: { compact?: boolean }) {
         accessibilityRole="button"
       >
         <View style={{ flexDirection: 'row', alignItems: 'center' }}>
-          <Text style={{ color: theme.textMuted, fontSize: 12, fontWeight: '700', letterSpacing: 0.8, flex: 1 }}>
+          <Text style={{ color: theme.textMuted, fontSize: 13.5, fontWeight: '700', letterSpacing: 0.8, flex: 1 }}>
             {tr('Today’s routine · {done}/{total}', { done: finished, total: items.length }).toUpperCase()}
           </Text>
           {finished === items.length && <MaterialCommunityIcons name="check-circle" size={20} color={theme.success} />}
@@ -84,7 +84,7 @@ export function RoutineCard({ compact }: { compact?: boolean }) {
                 {nameOf(m, settings.script)}
               </Text>
               {showEn && (
-                <Text style={{ color: theme.textMuted, fontSize: 12 }} numberOfLines={1}>
+                <Text style={{ color: theme.textMuted, fontSize: 13.5 }} numberOfLines={1}>
                   {m.titleEn}
                 </Text>
               )}

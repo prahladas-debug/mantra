@@ -104,7 +104,7 @@ export default function CalendarScreen() {
           <Text style={{ color: theme.text, fontSize: 18, fontWeight: '700' }}>
             {monthOf(m)} {y}
           </Text>
-          <Text style={{ color: theme.textMuted, fontSize: 13 }}>
+          <Text style={{ color: theme.textMuted, fontSize: 14.5 }}>
             {t(lunarLabel)}
           </Text>
         </View>
@@ -133,7 +133,7 @@ export default function CalendarScreen() {
       <View style={{ marginHorizontal: 8, marginTop: 14 }}>
         <View style={{ flexDirection: 'row' }}>
           {WEEK.map((w, i) => (
-            <Text key={w} style={{ flex: 1, textAlign: 'center', color: i === 0 ? theme.accent : theme.textMuted, fontSize: 12, fontWeight: '700' }}>
+            <Text key={w} style={{ flex: 1, textAlign: 'center', color: i === 0 ? theme.accent : theme.textMuted, fontSize: 13.5, fontWeight: '700' }}>
               {tr(w)}
             </Text>
           ))}
@@ -163,11 +163,11 @@ export default function CalendarScreen() {
                 >
                   <Text style={{ color: ci === 0 ? theme.accent : theme.text, fontSize: 16, fontWeight: '700' }}>{c.day}</Text>
                   {mode === 'saura' && (
-                    <Text numberOfLines={1} adjustsFontSizeToFit style={{ color: c.sauraDayNo === 1 ? theme.accent : theme.textMuted, fontSize: 10, fontWeight: c.sauraDayNo === 1 ? '700' : '400' }}>
+                    <Text numberOfLines={1} adjustsFontSizeToFit style={{ color: c.sauraDayNo === 1 ? theme.accent : theme.textMuted, fontSize: 12, fontWeight: c.sauraDayNo === 1 ? '700' : '400' }}>
                       {c.sauraDayNo === 1 ? t(RASHI[c.saura]) : `☉ ${c.sauraDayNo}`}
                     </Text>
                   )}
-                  <Text numberOfLines={1} adjustsFontSizeToFit style={{ color: special ? theme.accent : theme.textMuted, fontSize: 11 }}>
+                  <Text numberOfLines={1} adjustsFontSizeToFit style={{ color: special ? theme.accent : theme.textMuted, fontSize: 12.5 }}>
                     {t(tithiShort(c.tithi))}
                   </Text>
                   <View style={{ flexDirection: 'row', gap: 3, marginTop: 2, height: 6 }}>
@@ -179,7 +179,7 @@ export default function CalendarScreen() {
             })}
           </View>
         ))}
-        <Text style={{ color: theme.textMuted, fontSize: 12, marginHorizontal: 8, marginTop: 6, lineHeight: 17 }}>
+        <Text style={{ color: theme.textMuted, fontSize: 13.5, marginHorizontal: 8, marginTop: 6, lineHeight: 17 }}>
           {mode === 'saura'
             ? tr('Solar month and day (day 1 = the day after the sankranti day, Tulu/Udupi rule), then the Tithi at sunrise ({shukla} = shukla, {krishna} = krishna). Shaded with a coloured dot: ekadashi; dark dot: festival. Tap a day for its full panchanga.', { shukla: t('शु'), krishna: t('कृ') })
             : tr('Tithi at sunrise ({shukla} = shukla, {krishna} = krishna). Shaded with a coloured dot: ekadashi; dark dot: festival. Tap a day for its full panchanga.', { shukla: t('शु'), krishna: t('कृ') })}
@@ -195,7 +195,7 @@ export default function CalendarScreen() {
           </View>
         ))}
       </View>
-      <Text style={{ color: theme.textMuted, fontSize: 13, margin: 16, lineHeight: 19 }}>
+      <Text style={{ color: theme.textMuted, fontSize: 14.5, margin: 16, lineHeight: 19 }}>
         {tr('Ekadashi — Smarta: ekadashi at sunrise. Madhva: ekadashi must be free of dashami at arunodaya ({arunodaya}), otherwise the fast moves to the next day. Tap ⓘ beside a festival for details. Local matha and temple calendars can differ by a day — follow your family panchanga.', {
           arunodaya: method === 'surya' ? tr('about 2¾–3 hours before sunrise, as the matha panchangas count it') : tr('96 minutes before sunrise'),
         })}

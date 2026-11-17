@@ -98,7 +98,7 @@ export function BookCover({ work, width = 156, still }: { work: GreatWork; width
   const small = width < 140;
   const height = Math.round(width * 1.4);
   // Malayalam letters are wide; phones also shrink a line that is still too long, the web does not.
-  const size = (width < 115 ? 13 : small ? 15 : 19) * (settings.script === 'malayalam' ? 0.82 : 1);
+  const size = (width < 115 ? 14.5 : small ? 16 : 19) * (settings.script === 'malayalam' ? 0.82 : 1);
   return (
     <Pressable
       disabled={still}
@@ -125,7 +125,7 @@ export function BookCover({ work, width = 156, still }: { work: GreatWork; width
           </View>
           <View style={[c.rule, { backgroundColor: GOLD }]} />
           {!small && showEn && (
-            <Text style={{ color: CREAM, fontSize: 11.5, fontWeight: '600', textAlign: 'center' }} numberOfLines={1} adjustsFontSizeToFit minimumFontScale={0.8}>
+            <Text style={{ color: CREAM, fontSize: 12.5, fontWeight: '600', textAlign: 'center' }} numberOfLines={1} adjustsFontSizeToFit minimumFontScale={0.8}>
               {work.titleEn}
             </Text>
           )}
@@ -177,7 +177,7 @@ export function BookBanner({ category, firstId, lastId, lastLabel }: { category:
             {work.titleEn}
           </Text>
         )}
-        <Text style={{ color: GOLD, fontSize: 12, marginTop: 1 }} numberOfLines={2}>
+        <Text style={{ color: GOLD, fontSize: 13.5, marginTop: 1 }} numberOfLines={2}>
           {[tr(work.size), work.about && tr(work.about)].filter(Boolean).join(' · ')}
         </Text>
         <View style={{ flexDirection: 'row', flexWrap: 'wrap', gap: 8, marginTop: 12 }}>
@@ -227,7 +227,7 @@ export function DeityMedallion({ deity, width = 76 }: { deity: DeityGroup; width
       style={({ pressed }) => ({ width, alignItems: 'center', opacity: pressed ? 0.7 : 1 })}
     >
       <Image source={DEITY_ART[deity.id]} style={{ width: d, height: d, borderRadius: d / 2, opacity: theme.artOpacity }} />
-      <Text style={{ color: theme.text, fontSize: 13, lineHeight: 20, textAlign: 'center', marginTop: 4, fontFamily: font }} numberOfLines={1} adjustsFontSizeToFit minimumFontScale={0.75}>
+      <Text style={{ color: theme.text, fontSize: 14.5, lineHeight: 22, textAlign: 'center', marginTop: 4, fontFamily: font }} numberOfLines={1} adjustsFontSizeToFit minimumFontScale={0.75}>
         {translit(deity.short ?? deity.title, settings.script)}
       </Text>
     </Pressable>
@@ -280,11 +280,11 @@ export function CategoryTile({ id, wide }: { id: CategoryId; wide?: boolean }) {
         </Text>
         <View style={{ flexDirection: 'row' }}>
           {showEn && (
-            <Text style={{ color: theme.textMuted, fontSize: 12, flexShrink: 1 }} numberOfLines={1}>
+            <Text style={{ color: theme.textMuted, fontSize: 13.5, flexShrink: 1 }} numberOfLines={1}>
               {cat.titleEn}
             </Text>
           )}
-          <Text style={{ color: theme.textMuted, fontSize: 12, flexShrink: 0 }} numberOfLines={1}>
+          <Text style={{ color: theme.textMuted, fontSize: 13.5, flexShrink: 0 }} numberOfLines={1}>
             {showEn ? ` · ${count}` : String(count)}
           </Text>
         </View>
@@ -307,7 +307,7 @@ export function QuickTile({ icon, label, href }: { icon: Icon; label: string; hr
       <View style={[c.iconWrap, { backgroundColor: theme.goldSoft }]}>
         <MaterialCommunityIcons name={icon} size={24} color={theme.gold} />
       </View>
-      <Text style={{ color: theme.text, fontSize: 13, textAlign: 'center', marginTop: 6 }} numberOfLines={2}>
+      <Text style={{ color: theme.text, fontSize: 14.5, textAlign: 'center', marginTop: 6 }} numberOfLines={2}>
         {tr(label)}
       </Text>
     </Pressable>

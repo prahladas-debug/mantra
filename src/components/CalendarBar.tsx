@@ -45,7 +45,7 @@ export function CityPicker({ visible, onClose }: { visible: boolean; onClose: ()
             accessibilityLabel={tr('Search city')}
           />
         </View>
-        {!q && <Text style={{ color: theme.textMuted, fontSize: 13, marginHorizontal: 16, marginBottom: 6 }}>{tr('Popular · type to search about 3,800 places')}</Text>}
+        {!q && <Text style={{ color: theme.textMuted, fontSize: 14.5, marginHorizontal: 16, marginBottom: 6 }}>{tr('Popular · type to search about 3,800 places')}</Text>}
         <FlatList
           data={results}
           keyExtractor={(c) => c.id}
@@ -60,7 +60,7 @@ export function CityPicker({ visible, onClose }: { visible: boolean; onClose: ()
             >
               <View style={{ flex: 1 }}>
                 <Text style={{ color: theme.text, fontSize: 16 }}>{item.name}</Text>
-                {item.state ? <Text style={{ color: theme.textMuted, fontSize: 13 }}>{item.state}</Text> : null}
+                {item.state ? <Text style={{ color: theme.textMuted, fontSize: 14.5 }}>{item.state}</Text> : null}
               </View>
               {item.id === settings.city && <MaterialCommunityIcons name="check" size={22} color={theme.accent} />}
             </Pressable>
@@ -82,7 +82,7 @@ export function CalendarOptionsSheet({ visible, onClose }: { visible: boolean; o
   const [start, setStart] = useSauraStart();
   const [method, setMethod] = useCalcMethod();
   const label = { color: theme.text, fontSize: 15, fontWeight: '700' as const, marginTop: 18, marginBottom: 8 };
-  const hint = { color: theme.textMuted, fontSize: 13, marginTop: 6, lineHeight: 18 };
+  const hint = { color: theme.textMuted, fontSize: 14.5, marginTop: 6, lineHeight: 18 };
   return (
     <Modal visible={visible} transparent animationType="slide" onRequestClose={onClose}>
       <Pressable style={{ flex: 1, backgroundColor: '#0006' }} onPress={onClose} accessibilityLabel={tr('Close options')} />

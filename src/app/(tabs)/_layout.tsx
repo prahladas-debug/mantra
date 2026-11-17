@@ -34,7 +34,7 @@ export default function TabLayout() {
         tabBarStyle: { backgroundColor: theme.bar, borderTopColor: theme.cardBorder, height: 56 + insets.bottom },
         tabBarActiveTintColor: theme.accent,
         tabBarInactiveTintColor: theme.textMuted,
-        tabBarLabelStyle: { fontSize: 12 },
+        tabBarLabelStyle: { fontSize: 13.5 },
       }}
     >
       <Tabs.Screen name="index" options={{ title: tr('Home'), headerShown: false, tabBarIcon: icon('temple-hindu-outline', 'temple-hindu') }} />

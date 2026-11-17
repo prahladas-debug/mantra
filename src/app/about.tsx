@@ -40,7 +40,7 @@ export default function About() {
       <Text style={p}>
         {tr('Place names and coordinates for Indian towns come from GeoNames (geonames.org), licensed under Creative Commons Attribution 4.0.')}
       </Text>
-      <Text style={{ color: theme.textMuted, fontSize: 13 }}>{tr('Version {version}', { version: Constants.expoConfig?.version ?? '1.0.0' })}</Text>
+      <Text style={{ color: theme.textMuted, fontSize: 14.5 }}>{tr('Version {version}', { version: Constants.expoConfig?.version ?? '1.0.0' })}</Text>
     </ScrollView>
   );
 }

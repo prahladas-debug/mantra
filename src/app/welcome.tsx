@@ -79,7 +79,7 @@ export default function Welcome() {
           {appTitle(settings.script)}
         </Text>
         <Text style={{ color: theme.text, fontSize: 16, lineHeight: 25, textAlign: 'center', fontFamily: font, marginTop: -6 }}>{translit(APP_MOTTO, settings.script)}</Text>
-        <Text style={{ color: theme.textMuted, fontSize: 13, textAlign: 'center' }}>{APP_TAGLINE}</Text>
+        <Text style={{ color: theme.textMuted, fontSize: 14.5, textAlign: 'center' }}>{APP_TAGLINE}</Text>
         <Text style={{ color: theme.textMuted, fontSize: 14, textAlign: 'center', marginBottom: 6 }}>{tr('Step {step} of 2', { step })}</Text>
 
         {step === 1 ? (
@@ -91,7 +91,7 @@ export default function Welcome() {
             {LANGUAGES.map((l) => (
               <Choice key={l.script} active={settings.script === l.script} onPress={() => update({ script: l.script, meaningLang: 'auto' })}>
                 <Text style={{ color: theme.text, fontSize: 19, fontFamily: scriptFont(l.script, settings.bookFonts) }}>{l.name}</Text>
-                <Text style={{ color: theme.textMuted, fontSize: 13 }}>{tr(l.en)}</Text>
+                <Text style={{ color: theme.textMuted, fontSize: 14.5 }}>{tr(l.en)}</Text>
               </Choice>
             ))}
             <View style={{ marginTop: 6, padding: 16, borderRadius: 12, borderWidth: 1, borderColor: theme.cardBorder, backgroundColor: theme.page }}>

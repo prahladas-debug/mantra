@@ -73,7 +73,7 @@ function Block({ first, label, children }: { first?: boolean; label: string; chi
   const { theme } = useSettings();
   return (
     <View style={[s.block, { borderTopWidth: first ? 0 : StyleSheet.hairlineWidth, borderColor: theme.cardBorder }]}>
-      <Text style={{ color: theme.textMuted, fontSize: 13, marginBottom: 8 }}>{label}</Text>
+      <Text style={{ color: theme.textMuted, fontSize: 14.5, marginBottom: 8 }}>{label}</Text>
       {children}
     </View>
   );
@@ -202,7 +202,7 @@ export default function SettingsScreen() {
 
 const s = StyleSheet.create({
   card: { marginHorizontal: 16, borderRadius: 16, borderWidth: 1, overflow: 'hidden' },
-  note: { fontSize: 13, lineHeight: 18, marginHorizontal: 28, marginTop: 6 },
+  note: { fontSize: 14.5, lineHeight: 20, marginHorizontal: 28, marginTop: 6 },
   row: { flexDirection: 'row', alignItems: 'center', gap: 12, minHeight: 50, paddingHorizontal: 14, paddingVertical: 6 },
   block: { paddingHorizontal: 14, paddingVertical: 12 },
   pills: { flexDirection: 'row', flexWrap: 'wrap', gap: 6 },

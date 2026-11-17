@@ -136,7 +136,7 @@ export function ThemeSwatches({ withSystem }: { withSystem?: boolean }) {
                 <Text style={{ color: look.text, fontSize: 15, fontWeight: '700' }}>A</Text>
               )}
             </View>
-            <Text style={{ color: active ? theme.accent : theme.textMuted, fontSize: 11, marginTop: 4 }} numberOfLines={1}>
+            <Text style={{ color: active ? theme.accent : theme.textMuted, fontSize: 12.5, marginTop: 4 }} numberOfLines={1}>
               {tr(t.label)}
             </Text>
           </Pressable>
@@ -150,7 +150,7 @@ const p = StyleSheet.create({
   sheet: { maxHeight: '78%', borderTopLeftRadius: 18, borderTopRightRadius: 18 },
   grip: { alignSelf: 'center', width: 40, height: 4, borderRadius: 2, marginTop: 8 },
   titleRow: { flexDirection: 'row', alignItems: 'center', paddingHorizontal: 16, paddingTop: 6, paddingBottom: 2 },
-  heading: { fontSize: 12, fontWeight: '700', letterSpacing: 0.8, marginTop: 14, marginBottom: 6 },
+  heading: { fontSize: 13.5, fontWeight: '700', letterSpacing: 0.8, marginTop: 14, marginBottom: 6 },
   wrap: { flexDirection: 'row', flexWrap: 'wrap', gap: 6 },
   pill: { paddingHorizontal: 11, paddingVertical: 5, borderRadius: 16, borderWidth: 1 },
   sizeRow: { flexDirection: 'row', alignItems: 'center', borderRadius: 12, borderWidth: 1 },

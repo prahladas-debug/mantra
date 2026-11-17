@@ -137,7 +137,7 @@ export default function NewPlan() {
             {textChoices.slice(0, 40).map((m) => (
               <Pressable key={m.id} onPress={() => setText(m)} style={[card, { borderColor: text?.id === m.id ? theme.accent : theme.cardBorder, backgroundColor: text?.id === m.id ? theme.accentSoft : theme.card }]}>
                 <Text style={{ color: theme.text, fontSize: 16 }}>{nameOf(m, settings.script)}</Text>
-                {showEn && <Text style={{ color: theme.textMuted, fontSize: 13 }}>{m.titleEn}</Text>}
+                {showEn && <Text style={{ color: theme.textMuted, fontSize: 14.5 }}>{m.titleEn}</Text>}
               </Pressable>
             ))}
           </>

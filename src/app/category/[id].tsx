@@ -61,7 +61,7 @@ export default function CategoryScreen() {
             {opening && first.sourceScript !== 'tamil' && (
               <Text style={{ color: theme.text, fontSize: 16, lineHeight: 27, textAlign: 'center', fontFamily: font }}>{translit(opening, settings.script)}</Text>
             )}
-            {lang === 'en' && <Text style={{ color: theme.textMuted, fontSize: 13, textAlign: 'center', marginTop: 6, lineHeight: 19 }}>{category.description}</Text>}
+            {lang === 'en' && <Text style={{ color: theme.textMuted, fontSize: 14.5, textAlign: 'center', marginTop: 6, lineHeight: 19 }}>{category.description}</Text>}
           </View>
         </>
       ) : (

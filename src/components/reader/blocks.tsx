@@ -71,7 +71,7 @@ export function IntroBlock({ book }: { book?: boolean }) {
           {mantra.titleEn}
         </Text>
       )}
-      <Text style={{ color: theme.textMuted, fontSize: 13, marginTop: 4, textAlign: book ? 'center' : 'left' }} numberOfLines={3}>
+      <Text style={{ color: theme.textMuted, fontSize: 14.5, marginTop: 4, textAlign: book ? 'center' : 'left' }} numberOfLines={3}>
         {plain(
           [category && (lang === 'en' ? category.titleEn : categoryTitle(category, script)), ...(lang === 'en' ? [mantra.deity, mantra.source] : [])]
             .filter(Boolean)
@@ -83,7 +83,7 @@ export function IntroBlock({ book }: { book?: boolean }) {
       <View style={{ alignSelf: 'stretch' }}>
         {mantra.variants?.map((v) => (
           <View key={v.key} style={[b.variantBox, { borderColor: theme.cardBorder, backgroundColor: theme.card }]}>
-            <Text style={{ color: theme.textMuted, fontSize: 13, fontWeight: '700', marginBottom: 6 }}>
+            <Text style={{ color: theme.textMuted, fontSize: 14.5, fontWeight: '700', marginBottom: 6 }}>
               {preferKn && v.titleKn ? v.titleKn : v.title}
             </Text>
             <View style={{ flexDirection: 'row', flexWrap: 'wrap', gap: 8 }}>
@@ -144,7 +144,7 @@ export function SectionBlock({ section, book }: { section: Section; book?: boole
         </Text>
       )}
       {section.titleEn && showEn && (
-        <Text style={{ color: theme.textMuted, fontSize: 13, fontWeight: '600', textTransform: 'uppercase', letterSpacing: 1, textAlign: align }}>
+        <Text style={{ color: theme.textMuted, fontSize: 14.5, fontWeight: '600', textTransform: 'uppercase', letterSpacing: 1, textAlign: align }}>
           {section.titleEn}
         </Text>
       )}
@@ -172,7 +172,7 @@ function SectionNote({ section, align }: { section: Section; align: 'center' | '
       </Text>
       {long && (
         <Pressable onPress={() => setOpen(!open)} hitSlop={8} accessibilityRole="button" style={{ alignSelf: long ? 'flex-start' : 'center', marginTop: 2 }}>
-          <Text style={{ color: theme.accent, fontSize: 13, fontWeight: kn ? undefined : '600', fontFamily: kn ? meaningFont('kn', settings.bookFonts) : undefined }}>{open ? tr('Less ▴') : kn ? 'ಇನ್ನಷ್ಟು · More ▾' : tr('More ▾')}</Text>
+          <Text style={{ color: theme.accent, fontSize: 14.5, fontWeight: kn ? undefined : '600', fontFamily: kn ? meaningFont('kn', settings.bookFonts) : undefined }}>{open ? tr('Less ▴') : kn ? 'ಇನ್ನಷ್ಟು · More ▾' : tr('More ▾')}</Text>
         </Pressable>
       )}
     </View>
@@ -221,7 +221,7 @@ export function VerseBlock({ verse, rowKey, book }: { verse: Verse; rowKey: stri
           {Array.from({ length: hiddenCount }, (_, i) => (
             <View key={i} style={[b.practiceBar, { backgroundColor: theme.accentSoft, height: lh * 0.55, marginVertical: lh * 0.225 }]} />
           ))}
-          <Text style={{ color: theme.accent, fontSize: 12, marginTop: 2 }}>{tr('Tap to reveal the next line')}</Text>
+          <Text style={{ color: theme.accent, fontSize: 13.5, marginTop: 2 }}>{tr('Tap to reveal the next line')}</Text>
         </Pressable>
       )}
       {second && (
@@ -238,7 +238,7 @@ export function VerseBlock({ verse, rowKey, book }: { verse: Verse; rowKey: stri
             accessibilityState={{ expanded: isOpen }}
             style={[b.meaningToggle, { borderColor: theme.cardBorder, backgroundColor: isOpen ? theme.accentSoft : 'transparent' }]}
           >
-            <Text style={{ color: theme.accent, fontSize: 13, fontWeight: pLang === 'en' ? '600' : undefined, fontFamily: pLang === 'en' ? undefined : meaningFont(pLang, settings.bookFonts) }}>
+            <Text style={{ color: theme.accent, fontSize: 14.5, fontWeight: pLang === 'en' ? '600' : undefined, fontFamily: pLang === 'en' ? undefined : meaningFont(pLang, settings.bookFonts) }}>
               {label} {isOpen ? '▴' : '▾'}
             </Text>
           </Pressable>
@@ -287,7 +287,7 @@ export function PlanControls({ mantraId }: { mantraId: string }) {
   const isRead = reading.some((p) => p.read.includes(mantraId));
   return (
     <View style={[b.planBox, { borderColor: theme.cardBorder, backgroundColor: theme.card }]}>
-      <Text style={{ color: theme.textMuted, fontSize: 12, fontWeight: '700', letterSpacing: 0.8 }}>{tr('PARAYANA')}</Text>
+      <Text style={{ color: theme.textMuted, fontSize: 13.5, fontWeight: '700', letterSpacing: 0.8 }}>{tr('PARAYANA')}</Text>
       {reading.length > 0 && (
         <Pressable onPress={() => markPlanItemRead(mantraId, !isRead)} style={[b.planButton, { backgroundColor: isRead ? theme.accentSoft : theme.accent }]}>
           <Text style={{ color: isRead ? theme.accent : theme.onAccent, fontWeight: '700', fontSize: 15 }}>
@@ -338,7 +338,7 @@ export function SeriesNav({ mantra }: { mantra: Mantra }) {
       onPress={() => router.replace(`/mantra/${m.id}` as Href)}
       style={({ pressed }) => [b.navButton, { borderColor: theme.cardBorder, backgroundColor: theme.card, alignItems: align, opacity: pressed ? 0.7 : 1 }]}
     >
-      <Text style={{ color: theme.textMuted, fontSize: 12, fontWeight: '600' }}>{label}</Text>
+      <Text style={{ color: theme.textMuted, fontSize: 13.5, fontWeight: '600' }}>{label}</Text>
       <Text style={{ color: theme.accent, fontSize: 16, fontFamily: scriptFont(scriptFor(m, settings.script), settings.bookFonts) }} numberOfLines={1}>
         {nameOf(m, settings.script)}
       </Text>

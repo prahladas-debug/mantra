@@ -104,8 +104,8 @@ export function BookContents({ category, work }: { category: Category; work: Boo
         )}
         {ui === 'en' && (
           <>
-            <Text style={{ color: theme.textMuted, fontSize: 13, textAlign: 'center', marginTop: 6, lineHeight: 19 }}>{category.description}</Text>
-            <Text style={{ color: theme.textMuted, fontSize: 12, textAlign: 'center', marginTop: 4, lineHeight: 17 }} numberOfLines={4}>
+            <Text style={{ color: theme.textMuted, fontSize: 14.5, textAlign: 'center', marginTop: 6, lineHeight: 19 }}>{category.description}</Text>
+            <Text style={{ color: theme.textMuted, fontSize: 13.5, textAlign: 'center', marginTop: 4, lineHeight: 17 }} numberOfLines={4}>
               {plain(work.edition)}
             </Text>
           </>
@@ -164,7 +164,7 @@ export function BookContents({ category, work }: { category: Category; work: Boo
                   <Text style={{ color: theme.text, fontSize: 18, fontFamily: font, fontWeight: font ? undefined : '600' }} numberOfLines={1}>
                     {(settings.script === 'english' ? p.nameEn : translitTitle(p.name, settings.script))}
                   </Text>
-                  <Text style={{ color: theme.textMuted, fontSize: 13, marginTop: 1 }} numberOfLines={1}>
+                  <Text style={{ color: theme.textMuted, fontSize: 14.5, marginTop: 1 }} numberOfLines={1}>
                     {ready ? sizes.join(' · ') : tr('{name} · to be added', { name: ui === 'en' ? p.nameEn : translit(p.name, settings.script) })}
                   </Text>
                 </View>

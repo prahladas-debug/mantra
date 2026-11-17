@@ -81,7 +81,7 @@ export default function Home() {
           <Text style={{ color: theme.name === 'dark' ? theme.gold : theme.accent, fontSize: 28, fontFamily: font, fontWeight: font ? undefined : '700' }} numberOfLines={1}>
             {appTitle(settings.script)}
           </Text>
-          <Text style={{ color: theme.textMuted, fontSize: 13, lineHeight: 20, fontFamily: font }} numberOfLines={1}>
+          <Text style={{ color: theme.textMuted, fontSize: 14.5, lineHeight: 22, fontFamily: font }} numberOfLines={1}>
             {translit(APP_MOTTO, settings.script)}
           </Text>
         </View>
@@ -118,7 +118,7 @@ export default function Home() {
         >
           <MaterialCommunityIcons name="bookmark" size={20} color={theme.gold} />
           <View style={{ flex: 1 }}>
-            <Text style={{ color: theme.textMuted, fontSize: 11, fontWeight: '700', letterSpacing: 0.8 }}>{positions[last.id] ? tr('Continue reading').toUpperCase() : tr('Last opened').toUpperCase()}</Text>
+            <Text style={{ color: theme.textMuted, fontSize: 12.5, fontWeight: '700', letterSpacing: 0.8 }}>{positions[last.id] ? tr('Continue reading').toUpperCase() : tr('Last opened').toUpperCase()}</Text>
             <Text style={{ color: theme.text, fontSize: 16, lineHeight: 25, fontFamily: scriptFont(scriptFor(last, settings.script), settings.bookFonts) }} numberOfLines={1}>
               {nameOf(last, settings.script)}
             </Text>

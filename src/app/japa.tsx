@@ -191,7 +191,7 @@ export default function JapaScreen() {
           <ChantText chant={chant} script={settings.script} theme={theme} />
         </View>
         <View style={[s.changePill, { backgroundColor: theme.accentSoft }]}>
-          <Text style={{ color: theme.accent, fontSize: 13, fontWeight: '600' }}>{picking ? tr('Done') : tr('Change')}</Text>
+          <Text style={{ color: theme.accent, fontSize: 14.5, fontWeight: '600' }}>{picking ? tr('Done') : tr('Change')}</Text>
           <MaterialCommunityIcons name={picking ? 'chevron-up' : 'chevron-down'} size={16} color={theme.accent} />
         </View>
       </Pressable>
@@ -265,7 +265,7 @@ export default function JapaScreen() {
                 <View style={[s.fill, { backgroundColor: theme.accent, width: `${Math.min(100, (count / target) * 100)}%` }]} />
               </View>
             )}
-            <Text style={{ color: theme.textMuted, fontSize: 13, marginTop: 10 }}>
+            <Text style={{ color: theme.textMuted, fontSize: 14.5, marginTop: 10 }}>
               {count === 0 ? tr('Tap anywhere here to count') : tr('Target {target}', { target: targetLabel(tr, target) })}
             </Text>
           </>
@@ -490,7 +490,7 @@ function PickRow({
         <Text style={{ color: theme.text, fontSize: 17 }} numberOfLines={1}>
           {main}
         </Text>
-        <Text style={{ color: theme.textMuted, fontSize: 13, marginTop: 1 }}>{sub}</Text>
+        <Text style={{ color: theme.textMuted, fontSize: 14.5, marginTop: 1 }}>{sub}</Text>
       </View>
       {active && <MaterialCommunityIcons name="check-circle" size={22} color={theme.accent} />}
     </Pressable>
@@ -614,7 +614,7 @@ function Stat({ label, value, theme }: { label: string; value: string; theme: Th
   return (
     <View style={s.stat} accessible accessibilityLabel={`${label}: ${value}`}>
       <Text style={[s.statValue, { color: theme.text }]}>{value}</Text>
-      <Text style={{ color: theme.textMuted, fontSize: 12, marginTop: 2 }}>{label}</Text>
+      <Text style={{ color: theme.textMuted, fontSize: 13.5, marginTop: 2 }}>{label}</Text>
     </View>
   );
 }
@@ -673,7 +673,7 @@ function History({ state, chantKey, theme }: { state: ReturnType<typeof useJapa>
     <>
       <SectionHeading>{tr('Last 7 days')}</SectionHeading>
       <View style={[s.panel, { backgroundColor: theme.card, borderColor: theme.cardBorder }]}>
-        <Text style={{ color: theme.textMuted, fontSize: 13, marginBottom: 12 }}>
+        <Text style={{ color: theme.textMuted, fontSize: 14.5, marginBottom: 12 }}>
           {tr('All chants · {week} this week ({malas})', { week: fmt(week), malas: malaLabel(tr, malas(week)) })}
         </Text>
         <View style={{ flexDirection: 'row', alignItems: 'flex-end', height: H + 20 }}>
@@ -690,7 +690,7 @@ function History({ state, chantKey, theme }: { state: ReturnType<typeof useJapa>
                 accessible
                 accessibilityLabel={`${isToday ? tr('Today') : wd} ${dd}: ${fmt(d.total)}`}
               >
-                <Text style={{ color: theme.textMuted, fontSize: 11, marginBottom: 4, opacity: showValue ? 1 : 0 }}>
+                <Text style={{ color: theme.textMuted, fontSize: 12.5, marginBottom: 4, opacity: showValue ? 1 : 0 }}>
                   {fmt(d.total)}
                 </Text>
                 <View
@@ -713,7 +713,7 @@ function History({ state, chantKey, theme }: { state: ReturnType<typeof useJapa>
             return (
               <Text
                 key={d.date}
-                style={{ flex: 1, textAlign: 'center', fontSize: 11, color: isToday ? theme.text : theme.textMuted, fontWeight: isToday ? '700' : '400' }}
+                style={{ flex: 1, textAlign: 'center', fontSize: 12.5, color: isToday ? theme.text : theme.textMuted, fontWeight: isToday ? '700' : '400' }}
                 importantForAccessibility="no"
               >
                 {isToday ? tr('Today') : tr(WEEKDAY[new Date(y, m - 1, dd).getDay()])}
@@ -772,14 +772,14 @@ function Totals({
                   {native ?? info.name}
                 </Text>
                 {native && (
-                  <Text style={{ color: theme.textMuted, fontSize: 12 }} numberOfLines={1}>
+                  <Text style={{ color: theme.textMuted, fontSize: 13.5 }} numberOfLines={1}>
                     {info.name}
                   </Text>
                 )}
               </View>
               <View style={{ alignItems: 'flex-end' }}>
                 <Text style={[s.tabular, { color: theme.text, fontSize: 15, fontWeight: '600' }]}>{fmt(n)}</Text>
-                <Text style={{ color: theme.textMuted, fontSize: 12 }}>{malaLabel(tr, malas(n))}</Text>
+                <Text style={{ color: theme.textMuted, fontSize: 13.5 }}>{malaLabel(tr, malas(n))}</Text>
               </View>
             </View>
           );
@@ -800,7 +800,7 @@ const s = StyleSheet.create({
     borderRadius: 16,
     borderWidth: 1,
   },
-  kicker: { fontSize: 12, fontWeight: '700', letterSpacing: 0.6, textTransform: 'uppercase', marginBottom: 6 },
+  kicker: { fontSize: 13.5, fontWeight: '700', letterSpacing: 0.6, textTransform: 'uppercase', marginBottom: 6 },
   changePill: {
     flexDirection: 'row',
     alignItems: 'center',
@@ -843,7 +843,7 @@ const s = StyleSheet.create({
     borderWidth: 1,
     minHeight: 44,
   },
-  note: { fontSize: 13, lineHeight: 19, marginHorizontal: 16, marginTop: 12 },
+  note: { fontSize: 14.5, lineHeight: 21, marginHorizontal: 16, marginTop: 12 },
   panel: { marginHorizontal: 16, padding: 14, borderRadius: 16, borderWidth: 1 },
   totalRow: { flexDirection: 'row', alignItems: 'center', paddingVertical: 10, gap: 12 },
   tabular: { fontVariant: ['tabular-nums'] },

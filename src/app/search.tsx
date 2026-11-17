@@ -49,7 +49,7 @@ export default function SearchScreen() {
               <Pressable
                 onPress={() => router.push(`/mantra/${item.mantra.id}?si=${item.verse!.sectionIndex}&vi=${item.verse!.verseIndex}` as Href)}
                 style={{ marginHorizontal: 16, marginBottom: 10, padding: 14, borderRadius: 16, borderWidth: 1, backgroundColor: theme.card, borderColor: theme.cardBorder }}>
-                <Text style={{ color: theme.accent, fontSize: 13, fontWeight: '600', marginBottom: 4 }}>
+                <Text style={{ color: theme.accent, fontSize: 14.5, fontWeight: '600', marginBottom: 4 }}>
                   {lang === 'en' ? item.mantra.titleEn : nameOf(item.mantra, settings.script)}
                   {item.verse.n !== undefined ? ` · ${tr('verse {n}', { n: item.verse.n })}` : ''}
                 </Text>

@@ -72,7 +72,7 @@ export default function Bookmarks() {
             style={{ marginBottom: 10, padding: 14, borderRadius: 16, borderWidth: 1, backgroundColor: theme.card, borderColor: theme.cardBorder }}
           >
             <View style={{ flexDirection: 'row', alignItems: 'center' }}>
-              <Text style={{ color: theme.accent, fontSize: 13, fontWeight: '600', flex: 1 }}>
+              <Text style={{ color: theme.accent, fontSize: 14.5, fontWeight: '600', flex: 1 }}>
                 {nameOf(item.m, settings.script)}{showEn ? ` · ${item.m.titleEn}` : ''}
                 {item.v?.n !== undefined ? ` · ${item.v.n}` : ''}
               </Text>
