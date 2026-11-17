@@ -26,8 +26,9 @@ export default function Library() {
   const showEn = useShowEnglish();
   const { width } = useWindowDimensions();
   const font = scriptFont(settings.script, settings.bookFonts);
-  // The great works two to a row, as painted cards.
-  const cardW = Math.floor((width - 32 - 12) / 2);
+  // The great works as a wall of painted cards: three to a row on a phone, more on a tablet.
+  const cols = Math.max(3, Math.floor((width - 32) / 160));
+  const cardW = Math.floor((width - 32 - 10 * (cols - 1)) / cols);
 
   return (
     <ScrollView style={{ backgroundColor: theme.bg }} contentContainerStyle={{ paddingTop: 8, paddingBottom: 32 }}>
@@ -37,7 +38,7 @@ export default function Library() {
       </Pressable>
 
       <ShelfHeading title={T('Great works')} />
-      <View style={[s.grid, { rowGap: 12 }]}>
+      <View style={s.grid}>
         {greatWorks(settings.variants.tradition).map((w) => (
           <WorkCard key={w.category ?? w.textId} work={w} width={cardW} />
         ))}
@@ -82,6 +83,6 @@ export default function Library() {
 
 const s = StyleSheet.create({
   search: { flexDirection: 'row', alignItems: 'center', gap: 10, marginHorizontal: 16, marginTop: 8, paddingHorizontal: 14, paddingVertical: 12, borderRadius: 12, borderWidth: 1 },
-  grid: { flexDirection: 'row', flexWrap: 'wrap', justifyContent: 'space-between', rowGap: 10, marginHorizontal: 16 },
+  grid: { flexDirection: 'row', flexWrap: 'wrap', gap: 10, marginHorizontal: 16 },
   collection: { width: 150, minHeight: 84, padding: 12, borderRadius: 12, borderWidth: 1, justifyContent: 'center' },
 });

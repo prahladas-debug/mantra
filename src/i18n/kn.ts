@@ -365,6 +365,7 @@ export const kn: Record<string, string> = {
   "PRACTICE AND BACKUP": "ಅಭ್ಯಾಸ ಮತ್ತು ಬ್ಯಾಕಪ್",
   "Pada {n}": "ಪಾದ {n}",
   "Page {n} of {total}": "ಪುಟ {n}/{total}",
+  "Painting": "ಚಿತ್ರ",
   "Paintings": "ಚಿತ್ರಗಳು",
   "Paksha": "ಪಕ್ಷ",
   "Panchanga": "ಪಂಚಾಂಗ",

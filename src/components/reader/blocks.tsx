@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { router, type Href } from 'expo-router';
-import { Pressable, StyleSheet, Text, View } from 'react-native';
+import { Image, Pressable, StyleSheet, Text, View } from 'react-native';
 import { categoryById, getMantraInfo, mantrasInCategory, scriptFor, type Mantra, type Section, type Verse } from '../../data';
 import { bookNeighbours, isBookUnit, wholePartNeighbours } from '../../data/books';
 import { leading, meaningFont, scriptFont } from '../../lib/fonts';
@@ -19,6 +19,8 @@ import { SankalpaCard } from '../PanchangaCard';
 import { Chip } from '../ui';
 import { useReader } from './context';
 import { plain } from '../../lib/plain';
+import { ART } from '../../lib/art';
+import { artFor } from '../../lib/textArt';
 
 
 /** Small ornamental rule, as in printed stotra books. */
@@ -48,8 +50,15 @@ export function IntroBlock({ book }: { book?: boolean }) {
   const titleScript = scriptFor(mantra, script);
   const titleFont = scriptFont(titleScript, settings.bookFonts);
   const category = categoryById[mantra.category];
+  const art = artFor(mantra);
   return (
     <View style={[b.intro, book && { alignItems: 'center' }]}>
+      {/* A frontispiece, as in a printed stotra book: the painting of the text's own deity or work. */}
+      {art && (
+        <View style={[b.frontispiece, { borderColor: theme.gold + '88' }]} accessibilityElementsHidden importantForAccessibility="no">
+          <Image source={ART[art].hero} style={{ width: '100%', height: '100%', borderRadius: 8, opacity: theme.artOpacity }} resizeMode="cover" />
+        </View>
+      )}
       {book && (
         <Text style={{ color: theme.ornament, fontSize: 18, fontFamily: scriptFont('devanagari', settings.bookFonts), marginBottom: 12 }}>
           {translit('॥ श्रीः ॥', script)}
@@ -419,6 +428,7 @@ export function EndMatter() {
 }
 
 export const b = StyleSheet.create({
+  frontispiece: { alignSelf: 'stretch', aspectRatio: 16 / 9, maxHeight: 240, borderRadius: 11, borderWidth: 1, padding: 3, marginBottom: 16 },
   intro: { padding: 20, paddingBottom: 8 },
   variantBox: { marginTop: 14, padding: 12, borderRadius: 12, borderWidth: 1 },
   notice: { flexDirection: 'row', gap: 8, padding: 12, borderRadius: 10, marginTop: 14 },

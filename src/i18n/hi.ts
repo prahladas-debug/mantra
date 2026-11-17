@@ -365,6 +365,7 @@ export const hi: Record<string, string> = {
   "PRACTICE AND BACKUP": "अभ्यास और बैकअप",
   "Pada {n}": "पाद {n}",
   "Page {n} of {total}": "पृष्ठ {n} / {total}",
+  "Painting": "चित्र",
   "Paintings": "चित्र",
   "Paksha": "पक्ष",
   "Panchanga": "पंचांग",

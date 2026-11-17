@@ -365,6 +365,7 @@ export const ml: Record<string, string> = {
   "PRACTICE AND BACKUP": "പരിശീലനവും ബാക്കപ്പും",
   "Pada {n}": "പാദം {n}",
   "Page {n} of {total}": "പേജ് {n} / {total}",
+  "Painting": "ചിത്രം",
   "Paintings": "ചിത്രങ്ങൾ",
   "Paksha": "പക്ഷം",
   "Panchanga": "പഞ്ചാംഗം",

@@ -31,6 +31,8 @@ export interface GreatWork {
   /** Cover cloth colour (dark) and its lighter edge; text is always cream and gold. */
   cloth: string;
   edge: string;
+  /** The English title broken for a narrow card, where one word is too long for it. */
+  cardEn?: string;
   /** Shown later for readers of the other tradition. */
   tradition?: 'madhva' | 'smarta';
   /** A painting for the card (src/lib/art.ts); works without one keep their cloth cover. */
@@ -43,7 +45,7 @@ export const GREAT_WORKS: GreatWork[] = [
   { category: 'sundarakanda', titleEn: 'Sundarakanda', size: T('68 sargas'), about: 'Ramayana', lines: ['सुन्दर', 'काण्ड'], cloth: '#2C5638', edge: '#3F7650', art: 'sundarakanda' },
   { category: 'ramayana', titleEn: 'Valmiki Ramayana', size: T('7 kandas'), about: T('24,000 verses'), lines: ['वाल्मीकि', 'रामायण'], cloth: '#3F4A17', edge: '#5C6B22', art: 'ramayana' },
   { category: 'mahabharata', titleEn: 'Mahabharata', size: T('18 parvas'), about: 'Vyasa', lines: ['महाभारतम्'], own: { kannada: ['ಮಹಾಭಾರತ'], telugu: ['మహాభారతం'], tamil: ['மகாபாரதம்'], malayalam: ['മഹാഭാരതം'], gujarati: ['મહાભારત'], bengali: ['মহাভারত'], oriya: ['ମହାଭାରତ'] }, cloth: '#4E1E18', edge: '#7A3328', art: 'mahabharata' },
-  { category: 'harikathamrutasara', titleEn: 'Harikathamrutasara', size: T('32 sandhis'), about: 'Jagannatha Dasa', lines: ['हरिकथामृत', 'सार'], cloth: '#1D5458', edge: '#2E7479', tradition: 'madhva', art: 'harikathamrutasara' },
+  { category: 'harikathamrutasara', titleEn: 'Harikathamrutasara', cardEn: 'Harikathamruta Sara', size: T('32 sandhis'), about: 'Jagannatha Dasa', lines: ['हरिकथामृत', 'सार'], cloth: '#1D5458', edge: '#2E7479', tradition: 'madhva', art: 'harikathamrutasara' },
   { category: 'sumadhvavijaya', titleEn: 'Sumadhva Vijaya', size: T('16 sargas'), about: T('life of Madhva'), lines: ['सुमध्व', 'विजय'], cloth: '#5B3A1C', edge: '#7E542C', tradition: 'madhva', art: 'sumadhvavijaya' },
   { textId: 'vayu-stuti', titleEn: 'Hari Vayu Stuti', size: T('41 verses'), about: 'Trivikrama Pandita', lines: ['हरिवायु', 'स्तुति'], cloth: '#8A4B12', edge: '#B0691F', tradition: 'madhva', art: 'vayustuti' },
   { category: 'devimahatmya', titleEn: 'Devi Mahatmyam', size: T('13 chapters'), about: 'Durga Saptashati', lines: ['देवी', 'माहात्म्य'], cloth: '#831B3C', edge: '#A93256', tradition: 'smarta', art: 'devimahatmya' },
@@ -104,7 +106,7 @@ export function WorkCard({ work, width = 140 }: { work: GreatWork; width?: numbe
   const font = scriptFont(settings.script, settings.bookFonts);
   const height = Math.round(width * 1.4);
   const size = (width < 130 ? 15 : 17) * (settings.script === 'malayalam' ? 0.85 : 1);
-  const title = isRoman(settings.script) ? [work.titleEn] : coverLines(work, settings.script);
+  const title = isRoman(settings.script) ? [work.cardEn ?? work.titleEn] : coverLines(work, settings.script);
   const roman = isRoman(settings.script);
   // A long single word (Sundarakanda) must fit the card's width without breaking.
   const longest = Math.max(...title.flatMap((l) => l.split(' ')).map((w) => w.length));
@@ -263,6 +265,48 @@ export function BookBanner({ category, firstId, lastId, lastLabel }: { category:
   );
 }
 
+/** A deity's page opens with its painting, the name in the reader's script over the darkened left. */
+export function DeityBanner({ deity, count }: { deity: DeityGroup; count: number }) {
+  const { settings } = useSettings();
+  const { tr } = useI18n();
+  const showEn = useShowEnglish();
+  const key = DEITY_PAINTING[deity.id];
+  if (!key) return null;
+  const roman = settings.script === 'english';
+  const font = roman ? headingFont('en', settings.bookFonts) : scriptFont(settings.script, settings.bookFonts);
+  const size = 28 * (settings.script === 'malayalam' ? 0.82 : 1);
+  return (
+    <View style={[c.banner, { backgroundColor: '#2A1E14' }]}>
+      <Image source={ART[key].hero} style={{ position: 'absolute', width: '100%', height: '100%' }} resizeMode="cover" />
+      <LinearGradient
+        colors={['rgba(14,9,5,0.9)', 'rgba(14,9,5,0.62)', 'rgba(14,9,5,0)']}
+        locations={[0, 0.5, 0.88]}
+        start={{ x: 0, y: 0 }}
+        end={{ x: 1, y: 0 }}
+        style={StyleSheet.absoluteFill}
+      />
+      <View style={c.bannerWords}>
+        <Text style={{ color: CREAM, fontSize: size, lineHeight: size * 1.4, fontFamily: font, fontWeight: font ? undefined : '700' }} numberOfLines={2} adjustsFontSizeToFit minimumFontScale={0.6}>
+          {roman ? deity.titleEn.split(' · ')[0] : translit(deity.short ?? deity.title, settings.script)}
+        </Text>
+        {(roman || showEn) && (
+          <Text style={{ color: CREAM, fontSize: 14, fontWeight: '600', marginTop: 2 }} numberOfLines={2}>
+            {deity.titleEn}
+          </Text>
+        )}
+        <Text style={{ color: GOLD, fontSize: 13, marginTop: 4 }} numberOfLines={1}>
+          {tr('{n} texts', { n: count })}
+        </Text>
+      </View>
+    </View>
+  );
+}
+
+/** A deity's name for a small label: its English name in English, else its own in the reader's script. */
+export function deityLabel(deity: DeityGroup, script: ScriptId): string {
+  return script === 'english' ? deity.titleEn.split(' · ')[0] : translit(deity.short ?? deity.title, script);
+}
+
 const DEITY_ART: Record<string, ImageSourcePropType> = {
   vishnu: require('../../assets/deities/vishnu.png'),
   devi: require('../../assets/deities/devi.png'),
@@ -283,7 +327,7 @@ export function DeityMedallion({ deity, width = 76 }: { deity: DeityGroup; width
     <Pressable
       onPress={() => router.push(`/deity/${deity.id}` as Href)}
       accessibilityRole="link"
-      accessibilityLabel={translit(deity.short ?? deity.title, settings.script)}
+      accessibilityLabel={deityLabel(deity, settings.script)}
       style={({ pressed }) => ({ width, alignItems: 'center', opacity: pressed ? 0.85 : 1, transform: [{ scale: pressed ? 0.96 : 1 }] })}
     >
       {/* A painting where there is one (round, in a thin gold ring); the gurus keep their emblem. */}
@@ -294,7 +338,7 @@ export function DeityMedallion({ deity, width = 76 }: { deity: DeityGroup; width
         />
       </View>
       <Text style={{ color: theme.text, fontSize: 14, lineHeight: 21, textAlign: 'center', marginTop: 4, fontFamily: font }} numberOfLines={1} adjustsFontSizeToFit minimumFontScale={0.75}>
-        {translit(deity.short ?? deity.title, settings.script)}
+        {deityLabel(deity, settings.script)}
       </Text>
     </Pressable>
   );

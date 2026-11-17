@@ -365,6 +365,7 @@ export const te: Record<string, string> = {
   "PRACTICE AND BACKUP": "సాధన మరియు బ్యాకప్",
   "Pada {n}": "పాద {n}",
   "Page {n} of {total}": "పేజీ {n} / {total}",
+  "Painting": "చిత్రం",
   "Paintings": "చిత్రాలు",
   "Paksha": "పక్షం",
   "Panchanga": "పంచాంగం",

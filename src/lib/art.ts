@@ -48,3 +48,4 @@ export function dayArt(weekday: number, tithiIndex: number): ArtKey {
   if (t === 8 && tithiIndex <= 15) return 'durga'; // śukla Aṣṭamī
   return (['surya', 'shiva', 'subrahmanya', 'krishna', 'vishnu', 'lakshmi', 'hanuman'] as const)[weekday];
 }
+

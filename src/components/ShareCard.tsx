@@ -1,7 +1,8 @@
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 import * as Sharing from 'expo-sharing';
 import { useRef, useState } from 'react';
-import { type HostInstance, Modal, PixelRatio, Platform, Pressable, ScrollView, Text, View, useWindowDimensions } from 'react-native';
+import { LinearGradient } from 'expo-linear-gradient';
+import { type HostInstance, Image, Modal, PixelRatio, Platform, Pressable, ScrollView, Text, View, useWindowDimensions } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { captureRef } from 'react-native-view-shot';
 import { scriptFor } from '../data';
@@ -9,15 +10,19 @@ import type { Mantra, Verse } from '../data/types';
 import { leading, meaningFont, scriptFont } from '../lib/fonts';
 import { useI18n } from '../lib/i18n';
 import { APP_NAME } from '../lib/config';
+import { ART } from '../lib/art';
+import { artFor } from '../lib/textArt';
 import { meaningsToShow } from '../lib/meaning';
 import { useSettings } from '../lib/settings';
 import { shareVerse } from '../lib/share';
 import { bindDandas, isRoman, nameOf, translit, translitInline, verseNumber } from '../lib/transliterate';
 
-/** The two card designs: a parchment page and a lamp-lit night page. */
+/** The card designs: a parchment page, a lamp-lit night page, and the text's painting. */
 const CARD = {
   light: { bg: '#FAF4E6', frame: '#B8913F', text: '#332B25', muted: '#6E6156', accent: '#A94730' },
   dark: { bg: '#14110D', frame: '#C9A15A', text: '#EFE6D6', muted: '#B4A792', accent: '#D9AE62' },
+  // The text's own painting above, darkening into the night page the verse is set on.
+  art: { bg: '#0E0905', frame: '#D9B26A', text: '#F6EBD6', muted: '#E1D1B2', accent: '#E8BE6E' },
 } as const;
 type CardStyle = keyof typeof CARD;
 
@@ -25,18 +30,30 @@ type CardStyle = keyof typeof CARD;
 function VerseCardView({ mantra, verse, style, withMeaning, width }: { mantra: Mantra; verse: Verse; style: CardStyle; withMeaning: boolean; width: number }) {
   const { settings } = useSettings();
   const c = CARD[style];
+  const art = artFor(mantra);
+  const painting = style === 'art' && art ? ART[art].card : undefined;
   const script = scriptFor(mantra, settings.script);
   const font = scriptFont(script, true);
   const body = bindDandas(translit(verse.n !== undefined ? verse.text.replace(/\s*॥\s*$/, '') : verse.text, script));
   const meaning = withMeaning ? meaningsToShow(verse.meaning, settings.meaningLang, settings.script)[0] : undefined;
   const lines = body.split('\n').length;
   // Fit the verse: long verses get a smaller size so the card never overflows.
-  const fs = Math.min(isRoman(script) ? 22 : 25, (width * 0.075 * 4) / Math.max(4, lines)) * (body.length > 220 ? 0.85 : 1);
+  const fs = Math.min(isRoman(script) ? 22 : 25, (width * 0.075 * 4) / Math.max(4, lines)) * (body.length > 220 ? 0.85 : 1) * (painting ? 0.8 : 1);
   return (
     <View style={{ width, height: width * 1.25, backgroundColor: c.bg, padding: width * 0.045 }}>
+      {painting && (
+        <>
+          <Image source={painting} style={{ position: 'absolute', left: 0, top: 0, width, height: width * 1.25 }} resizeMode="cover" />
+          <LinearGradient
+            colors={['rgba(14,9,5,0)', 'rgba(14,9,5,0.5)', 'rgba(14,9,5,0.9)', 'rgba(14,9,5,0.96)']}
+            locations={[0.12, 0.34, 0.52, 1]}
+            style={{ position: 'absolute', left: 0, top: 0, width, height: width * 1.25 }}
+          />
+        </>
+      )}
       <View style={{ flex: 1, borderWidth: 1.5, borderColor: c.frame, padding: 4 }}>
-        <View style={{ flex: 1, borderWidth: 0.75, borderColor: c.frame, paddingHorizontal: width * 0.06, paddingVertical: width * 0.05, alignItems: 'center', justifyContent: 'space-between' }}>
-          <MaterialCommunityIcons name="spa-outline" size={width * 0.07} color={c.frame} />
+        <View style={{ flex: 1, borderWidth: 0.75, borderColor: c.frame, paddingHorizontal: width * 0.06, paddingVertical: width * 0.05, alignItems: 'center', justifyContent: painting ? 'flex-end' : 'space-between', gap: painting ? width * 0.05 : 0 }}>
+          {!painting && <MaterialCommunityIcons name="spa-outline" size={width * 0.07} color={c.frame} />}
           <View style={{ alignItems: 'center', gap: width * 0.04 }}>
             <Text style={{ color: c.text, fontSize: fs, lineHeight: fs * leading(script, true), fontFamily: font, textAlign: 'center' }}>
               {body}
@@ -44,7 +61,7 @@ function VerseCardView({ mantra, verse, style, withMeaning, width }: { mantra: M
             </Text>
             {meaning && (
               <Text
-                numberOfLines={6}
+                numberOfLines={painting ? 4 : 6}
                 style={{ color: c.muted, fontSize: width * 0.038, lineHeight: width * 0.058, textAlign: 'center', fontFamily: meaningFont(meaning.lang, true) }}
               >
                 {meaning.lang === 'en' ? translitInline(meaning.text, settings.script) : meaning.text}
@@ -86,7 +103,8 @@ export function ShareSheet({ mantra, verse, visible, onClose }: { mantra: Mantra
   const { tr } = useI18n();
   const insets = useSafeAreaInsets();
   const { width, height } = useWindowDimensions();
-  const [style, setStyle] = useState<CardStyle>(theme.name === 'dark' ? 'dark' : 'light');
+  const hasArt = !!artFor(mantra);
+  const [style, setStyle] = useState<CardStyle>(hasArt ? 'art' : theme.name === 'dark' ? 'dark' : 'light');
   const [withMeaning, setWithMeaning] = useState(true);
   const [busy, setBusy] = useState(false);
   const ref = useRef<HostInstance>(null);
@@ -120,6 +138,7 @@ export function ShareSheet({ mantra, verse, visible, onClose }: { mantra: Mantra
           </View>
           {canImage && (
             <View style={{ flexDirection: 'row', gap: 8, flexWrap: 'wrap', justifyContent: 'center' }}>
+              {hasArt && <Chip active={style === 'art'} label={tr('Painting')} onPress={() => setStyle('art')} />}
               <Chip active={style === 'light'} label={tr('Parchment')} onPress={() => setStyle('light')} />
               <Chip active={style === 'dark'} label={tr('Night')} onPress={() => setStyle('dark')} />
               {!!meaning && <Chip active={withMeaning} label={tr('With meaning')} onPress={() => setWithMeaning(!withMeaning)} />}

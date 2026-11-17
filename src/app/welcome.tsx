@@ -1,9 +1,11 @@
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { router } from 'expo-router';
 import { useState } from 'react';
-import { Pressable, ScrollView, Text, View } from 'react-native';
+import { LinearGradient } from 'expo-linear-gradient';
+import { Image, Pressable, ScrollView, Text, View, useWindowDimensions } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { CityPicker } from '../components/CalendarBar';
+import { ART } from '../lib/art';
 import { scriptFont } from '../lib/fonts';
 import { APP_MOTTO, APP_TAGLINE, appTitle } from '../lib/labels';
 import { cityById, cityLabel } from '../lib/panchanga';
@@ -49,6 +51,7 @@ export default function Welcome() {
   const { theme, settings, update } = useSettings();
   const { tr } = useI18n();
   const insets = useSafeAreaInsets();
+  const { width } = useWindowDimensions();
   const [step, setStep] = useState<1 | 2>(1);
   const [picker, setPicker] = useState(false);
   const tradition = settings.variants.tradition;
@@ -73,8 +76,15 @@ export default function Welcome() {
   );
 
   return (
-    <View style={{ flex: 1, backgroundColor: theme.bg, paddingTop: insets.top + 16 }}>
+    <View style={{ flex: 1, backgroundColor: theme.bg, paddingTop: step === 1 ? 0 : insets.top + 16 }}>
       <ScrollView contentContainerStyle={{ paddingHorizontal: 20, paddingBottom: 24, gap: 10 }}>
+        {/* Every beginning is Ganesha's: his painting opens the app, fading into the page. */}
+        {step === 1 && (
+          <View style={{ marginHorizontal: -20, height: Math.min(width * 0.62, 340) + insets.top, marginBottom: -28 }} accessibilityElementsHidden importantForAccessibility="no">
+            <Image source={ART.ganesha.hero} style={{ width: '100%', height: '100%', opacity: theme.artOpacity }} resizeMode="cover" />
+            <LinearGradient colors={[theme.bg + '00', theme.bg + '00', theme.bg]} locations={[0, 0.55, 1]} style={{ position: 'absolute', left: 0, right: 0, top: 0, bottom: 0 }} />
+          </View>
+        )}
         <Text style={{ color: theme.accent, fontSize: 28, textAlign: 'center', fontFamily: font, fontWeight: font ? undefined : '700' }}>
           {appTitle(settings.script)}
         </Text>
