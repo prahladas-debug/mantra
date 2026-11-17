@@ -2,7 +2,7 @@
  * Paintings made for the app by its author, one for each work and each deity of the day: see
  * assets/art/SOURCES.md. Cropped by tools/builders/art/process.py into a 3:4 card, a wide banner
  * and a square for round images. A work gets a painting only where one shows its own subject;
- * the others (Harikathamrutasara) keep their cloth covers.
+ * any other keeps its cloth cover.
  */
 import type { ImageSourcePropType } from 'react-native';
 
@@ -23,6 +23,7 @@ export const ART = {
   saundaryalahari: { card: require('../../assets/art/saundaryalahari-card.jpg'), hero: require('../../assets/art/saundaryalahari-hero.jpg'), thumb: require('../../assets/art/saundaryalahari-thumb.jpg') },
   vayustuti: { card: require('../../assets/art/vayustuti-card.jpg'), hero: require('../../assets/art/vayustuti-hero.jpg'), thumb: require('../../assets/art/vayustuti-thumb.jpg') },
   sumadhvavijaya: { card: require('../../assets/art/sumadhvavijaya-card.jpg'), hero: require('../../assets/art/sumadhvavijaya-hero.jpg'), thumb: require('../../assets/art/sumadhvavijaya-thumb.jpg') },
+  harikathamrutasara: { card: require('../../assets/art/harikathamrutasara-card.jpg'), hero: require('../../assets/art/harikathamrutasara-hero.jpg'), thumb: require('../../assets/art/harikathamrutasara-thumb.jpg') },
   surya: { card: require('../../assets/art/surya-card.jpg'), hero: require('../../assets/art/surya-hero.jpg'), thumb: require('../../assets/art/surya-thumb.jpg') },
   shiva: { card: require('../../assets/art/shiva-card.jpg'), hero: require('../../assets/art/shiva-hero.jpg'), thumb: require('../../assets/art/shiva-thumb.jpg') },
   subrahmanya: { card: require('../../assets/art/subrahmanya-card.jpg'), hero: require('../../assets/art/subrahmanya-hero.jpg'), thumb: require('../../assets/art/subrahmanya-thumb.jpg') },

@@ -16,6 +16,7 @@ in the manner of the Indian devotional prints). They are cropped by
 | saundaryalahari | Adi Shankaracharya before the Divine Mother | Saundarya Lahari |
 | vayustuti | Sri Madhvacharya teaching his disciples before Vishnu | Hari Vayu Stuti |
 | sumadhvavijaya | Sri Madhvacharya teaching before Krishna | Sumadhva Vijaya; the Gurus |
+| harikathamrutasara | Jagannatha Dasa sings before Vittala | Harikathamrutasara |
 | surya | Surya on his chariot of seven horses | Surya; Sunday |
 | shiva | Shiva in meditation on Kailasa | Shiva; Monday |
 | subrahmanya | Subrahmanya with his vel and peacock | Subrahmanya; Tuesday and Shashthi |
