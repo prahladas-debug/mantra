@@ -145,6 +145,15 @@ const CATEGORY_LABELS: Record<CategoryId, Labels> = {
     bengali: 'কীর্তন',
     oriya: 'କୀର୍ତ୍ତନ',
   },
+  aarti: {
+    kannada: 'ಆರತಿ ಮತ್ತು ಭಜನೆಗಳು',
+    telugu: 'హారతులు, భజనలు',
+    tamil: 'ஆரத்திகள், பஜனைகள்',
+    malayalam: 'ആരതിയും ഭജനയും',
+    gujarati: 'આરતી અને ભજન',
+    bengali: 'আরতি ও ভজন',
+    oriya: 'ଆରତୀ ଓ ଭଜନ',
+  },
 };
 
 export function appTitle(script: ScriptId): string {

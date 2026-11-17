@@ -23,6 +23,7 @@ export type CategoryId =
   | 'homa'
   | 'samskara'
   | 'kirtana'
+  | 'aarti'
   /** The long works read from bundled assets one sarga/adhyaya at a time (src/lib/books.ts). */
   | 'ramayana'
   | 'mahabharata';

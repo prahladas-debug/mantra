@@ -109,6 +109,12 @@ export const CATEGORIES: Category[] = [
     titleEn: 'Kirtanas and bhajans',
     description: 'Devotional songs in Tamil, Telugu and Hindi: Tiruppavai, Annamacharya, aartis, chalisas.',
   },
+  {
+    id: 'aarti',
+    title: 'आरती भजनानि च',
+    titleEn: 'Aarti and bhajans',
+    description: 'Traditional aartis and bhajans sung at the close of puja: Hindi, Marathi and Sanskrit, with meanings.',
+  },
 ];
 
 export const categoryById = Object.fromEntries(CATEGORIES.map((c) => [c.id, c])) as Record<

@@ -244,6 +244,7 @@ export const CATEGORY_ICONS: Record<CategoryId, Icon> = {
   madhva: 'temple-hindu-outline',
   'dasara-pada': 'music-note-outline',
   kirtana: 'music-note-outline',
+  aarti: 'candle',
   samskara: 'water-outline',
   homa: 'fire',
   gita: 'book-open-page-variant-outline',
