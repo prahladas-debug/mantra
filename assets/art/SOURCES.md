@@ -1,21 +1,26 @@
 # Paintings used in the app
 
-All but `gita` are in the public domain (paintings by Raja Ravi Varma, 1848-1906, and prints of his Ravi Varma
-Press, c. 1890-1920), taken from Wikimedia Commons. They are cropped by
+Every painting was made for this app and supplied by its author, in one style (warm oil painting
+in the manner of the Indian devotional prints). They are cropped by
 `tools/builders/art/process.py` into `<key>-card.jpg`, `<key>-hero.jpg` and `<key>-thumb.jpg`.
-The same file (Siva-parvati-by-raja-ravi-varma.jpg) serves `shiva` and `ganesha` with different crops.
 
-| Key | Commons file | Licence | Source |
-|---|---|---|---|
-| gita | Krishna and Arjuna on the chariot (Gitopadesha), in the style of the above | Supplied by the app's author for this app | — |
-| mahabharata | Draupadi and Pandavas.jpg | Public domain | https://commons.wikimedia.org/wiki/File:Draupadi_and_Pandavas.jpg |
-| vishnu | Vishnu Laxmi and Serpent Anant.jpg | Public domain | https://commons.wikimedia.org/wiki/File:Vishnu_Laxmi_and_Serpent_Anant.jpg |
-| ramayana | Ramapanchayan, Raja Ravi Varma (Lithograph).jpg | Public domain | https://commons.wikimedia.org/wiki/File:Ramapanchayan,_Raja_Ravi_Varma_(Lithograph).jpg |
-| hanuman | Hanuman fetches the herb-bearing mountain, in a print from the Ravi Varma Press, 1910's.jpg | Public domain | https://commons.wikimedia.org/wiki/File:Hanuman_fetches_the_herb-bearing_mountain,_in_a_print_from_the_Ravi_Varma_Press,_1910%27s.jpg |
-| durga | Ambika from Ravi Varma press.jpg | Public domain | https://commons.wikimedia.org/wiki/File:Ambika_from_Ravi_Varma_press.jpg |
-| lakshmi | Raja Ravi Varma, Goddess Lakshmi, 1896.jpg | Public domain | https://commons.wikimedia.org/wiki/File:Raja_Ravi_Varma,_Goddess_Lakshmi,_1896.jpg |
-| shiva | Siva-parvati-by-raja-ravi-varma.jpg | Public domain | https://commons.wikimedia.org/wiki/File:Siva-parvati-by-raja-ravi-varma.jpg |
-| ganesha | Siva-parvati-by-raja-ravi-varma.jpg | Public domain | https://commons.wikimedia.org/wiki/File:Siva-parvati-by-raja-ravi-varma.jpg |
-| subrahmanya | Murugan by Raja Ravi Varma.jpg | Public domain | https://commons.wikimedia.org/wiki/File:Murugan_by_Raja_Ravi_Varma.jpg |
-| surya | Surya Narayana.jpg | Public domain | https://commons.wikimedia.org/wiki/File:Surya_Narayana.jpg |
-| krishna | Yashoda with Krishna, Raja Ravi Varma.jpg | Public domain | https://commons.wikimedia.org/wiki/File:Yashoda_with_Krishna,_Raja_Ravi_Varma.jpg |
+| Key | Subject | Used for |
+|---|---|---|
+| gita | Krishna and Arjuna on the chariot (Gitopadesha) | Bhagavad Gita |
+| sundarakanda | Hanuman gives Rama's ring to Sita in the Ashoka grove | Sundarakanda |
+| ramayana | Rama's coronation (Rama Pattabhisheka) | Valmiki Ramayana |
+| mahabharata | Vyasa dictates the Mahabharata to Ganesha | Mahabharata |
+| vishnu | Narayana on Adishesha, with Lakshmi and Garuda | Vishnu Sahasranama; Vishnu; Thursday and Ekadashi |
+| devimahatmya | Durga on her lion, praised by the gods | Devi Mahatmyam |
+| lalita | Sri Lalita with sugarcane bow, flower arrows, noose and goad | Lalita Sahasranama |
+| saundaryalahari | Adi Shankaracharya before the Divine Mother | Saundarya Lahari |
+| vayustuti | Sri Madhvacharya teaching his disciples before Vishnu | Hari Vayu Stuti |
+| sumadhvavijaya | Sri Madhvacharya teaching before Krishna | Sumadhva Vijaya; the Gurus |
+| surya | Surya on his chariot of seven horses | Surya; Sunday |
+| shiva | Shiva in meditation on Kailasa | Shiva; Monday |
+| subrahmanya | Subrahmanya with his vel and peacock | Subrahmanya; Tuesday and Shashthi |
+| krishna | Krishna playing the flute among the cows | Wednesday |
+| lakshmi | Lakshmi on the lotus, with the elephants | Devi; Friday |
+| hanuman | Hanuman in meditation, Rama in his heart | Hanuman; Saturday |
+| ganesha | Ganesha on the lotus, with modakas and his mouse | Ganesha; Chaturthi |
+| durga | Durga on her tiger | Shukla Ashtami |

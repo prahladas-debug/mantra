@@ -40,15 +40,15 @@ export interface GreatWork {
 export const GREAT_WORKS: GreatWork[] = [
   { category: 'gita', titleEn: 'Bhagavad Gita', size: T('18 chapters'), about: T('700 verses'), lines: ['भगवद्गीता'], own: { kannada: ['ಭಗವದ್ಗೀತೆ'], telugu: ['భగవద్గీత'] }, cloth: '#7E2A12', edge: '#A8431F', art: 'gita' },
   { textId: 'vishnu-sahasranama', titleEn: 'Vishnu Sahasranama', size: T('1000 names'), lines: ['विष्णु', 'सहस्रनाम'], cloth: '#1E3A64', edge: '#2F558C', art: 'vishnu' },
-  { category: 'sundarakanda', titleEn: 'Sundarakanda', size: T('68 sargas'), about: 'Ramayana', lines: ['सुन्दर', 'काण्ड'], cloth: '#2C5638', edge: '#3F7650' },
+  { category: 'sundarakanda', titleEn: 'Sundarakanda', size: T('68 sargas'), about: 'Ramayana', lines: ['सुन्दर', 'काण्ड'], cloth: '#2C5638', edge: '#3F7650', art: 'sundarakanda' },
   { category: 'ramayana', titleEn: 'Valmiki Ramayana', size: T('7 kandas'), about: T('24,000 verses'), lines: ['वाल्मीकि', 'रामायण'], cloth: '#3F4A17', edge: '#5C6B22', art: 'ramayana' },
   { category: 'mahabharata', titleEn: 'Mahabharata', size: T('18 parvas'), about: 'Vyasa', lines: ['महाभारतम्'], own: { kannada: ['ಮಹಾಭಾರತ'], telugu: ['మహాభారతం'], tamil: ['மகாபாரதம்'], malayalam: ['മഹാഭാരതം'], gujarati: ['મહાભારત'], bengali: ['মহাভারত'], oriya: ['ମହାଭାରତ'] }, cloth: '#4E1E18', edge: '#7A3328', art: 'mahabharata' },
   { category: 'harikathamrutasara', titleEn: 'Harikathamrutasara', size: T('32 sandhis'), about: 'Jagannatha Dasa', lines: ['हरिकथामृत', 'सार'], cloth: '#1D5458', edge: '#2E7479', tradition: 'madhva' },
-  { category: 'sumadhvavijaya', titleEn: 'Sumadhva Vijaya', size: T('16 sargas'), about: T('life of Madhva'), lines: ['सुमध्व', 'विजय'], cloth: '#5B3A1C', edge: '#7E542C', tradition: 'madhva' },
-  { textId: 'vayu-stuti', titleEn: 'Hari Vayu Stuti', size: T('41 verses'), about: 'Trivikrama Pandita', lines: ['हरिवायु', 'स्तुति'], cloth: '#8A4B12', edge: '#B0691F', tradition: 'madhva', art: 'hanuman' },
-  { category: 'devimahatmya', titleEn: 'Devi Mahatmyam', size: T('13 chapters'), about: 'Durga Saptashati', lines: ['देवी', 'माहात्म्य'], cloth: '#831B3C', edge: '#A93256', tradition: 'smarta', art: 'durga' },
-  { textId: 'lalitha-sahasranama', titleEn: 'Lalita Sahasranama', size: T('1000 names'), lines: ['ललिता', 'सहस्रनाम'], cloth: '#6A2260', edge: '#8C3A80', tradition: 'smarta' },
-  { textId: 'saundarya-lahari', titleEn: 'Saundarya Lahari', size: T('100 verses'), about: 'Shankaracharya', lines: ['सौन्दर्य', 'लहरी'], cloth: '#3B2F6B', edge: '#56489A', tradition: 'smarta' },
+  { category: 'sumadhvavijaya', titleEn: 'Sumadhva Vijaya', size: T('16 sargas'), about: T('life of Madhva'), lines: ['सुमध्व', 'विजय'], cloth: '#5B3A1C', edge: '#7E542C', tradition: 'madhva', art: 'sumadhvavijaya' },
+  { textId: 'vayu-stuti', titleEn: 'Hari Vayu Stuti', size: T('41 verses'), about: 'Trivikrama Pandita', lines: ['हरिवायु', 'स्तुति'], cloth: '#8A4B12', edge: '#B0691F', tradition: 'madhva', art: 'vayustuti' },
+  { category: 'devimahatmya', titleEn: 'Devi Mahatmyam', size: T('13 chapters'), about: 'Durga Saptashati', lines: ['देवी', 'माहात्म्य'], cloth: '#831B3C', edge: '#A93256', tradition: 'smarta', art: 'devimahatmya' },
+  { textId: 'lalitha-sahasranama', titleEn: 'Lalita Sahasranama', size: T('1000 names'), lines: ['ललिता', 'सहस्रनाम'], cloth: '#6A2260', edge: '#8C3A80', tradition: 'smarta', art: 'lalita' },
+  { textId: 'saundarya-lahari', titleEn: 'Saundarya Lahari', size: T('100 verses'), about: 'Shankaracharya', lines: ['सौन्दर्य', 'लहरी'], cloth: '#3B2F6B', edge: '#56489A', tradition: 'smarta', art: 'saundaryalahari' },
 ];
 
 /** Works of the reader's own tradition first; nothing is hidden. */
