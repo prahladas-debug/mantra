@@ -12,6 +12,7 @@ import { useSettings } from '../lib/settings';
 import { LinearGradient } from 'expo-linear-gradient';
 import { ART, DEITY_ART as DEITY_PAINTING, type ArtKey } from '../lib/art';
 import { ArtFill } from './ArtFill';
+import { aksharas } from './reader/rows';
 import { useShowEnglish } from './useGloss';
 import { translit, type ScriptId, isRoman } from '../lib/transliterate';
 
@@ -44,10 +45,10 @@ export interface GreatWork {
 export const GREAT_WORKS: GreatWork[] = [
   { category: 'gita', titleEn: 'Bhagavad Gita', size: T('18 chapters'), about: T('700 verses'), lines: ['भगवद्गीता'], own: { kannada: ['ಭಗವದ್ಗೀತೆ'], telugu: ['భగవద్గీత'] }, cloth: '#7E2A12', edge: '#A8431F', art: 'gita' },
   { textId: 'vishnu-sahasranama', titleEn: 'Vishnu Sahasranama', size: T('1000 names'), lines: ['विष्णु', 'सहस्रनाम'], cloth: '#1E3A64', edge: '#2F558C', art: 'vishnu' },
-  { category: 'sundarakanda', titleEn: 'Sundarakanda', size: T('68 sargas'), about: 'Ramayana', lines: ['सुन्दर', 'काण्ड'], cloth: '#2C5638', edge: '#3F7650', art: 'sundarakanda' },
+  { category: 'sundarakanda', titleEn: 'Sundarakanda', cardEn: 'Sundara Kanda', size: T('68 sargas'), about: 'Ramayana', lines: ['सुन्दर', 'काण्ड'], cloth: '#2C5638', edge: '#3F7650', art: 'sundarakanda' },
   { category: 'ramayana', titleEn: 'Valmiki Ramayana', size: T('7 kandas'), about: T('24,000 verses'), lines: ['वाल्मीकि', 'रामायण'], cloth: '#3F4A17', edge: '#5C6B22', art: 'ramayana' },
   { category: 'mahabharata', titleEn: 'Mahabharata', size: T('18 parvas'), about: 'Vyasa', lines: ['महाभारतम्'], own: { kannada: ['ಮಹಾಭಾರತ'], telugu: ['మహాభారతం'], tamil: ['மகாபாரதம்'], malayalam: ['മഹാഭാരതം'], gujarati: ['મહાભારત'], bengali: ['মহাভারত'], oriya: ['ମହାଭାରତ'] }, cloth: '#4E1E18', edge: '#7A3328', art: 'mahabharata' },
-  { category: 'harikathamrutasara', titleEn: 'Harikathamrutasara', cardEn: 'Harikathamruta Sara', size: T('32 sandhis'), about: 'Jagannatha Dasa', lines: ['हरिकथामृत', 'सार'], cloth: '#1D5458', edge: '#2E7479', tradition: 'madhva', art: 'harikathamrutasara' },
+  { category: 'harikathamrutasara', titleEn: 'Harikathamrutasara', cardEn: 'Hari Kathamruta Sara', size: T('32 sandhis'), about: 'Jagannatha Dasa', lines: ['हरिकथामृत', 'सार'], cloth: '#1D5458', edge: '#2E7479', tradition: 'madhva', art: 'harikathamrutasara' },
   { category: 'sumadhvavijaya', titleEn: 'Sumadhva Vijaya', size: T('16 sargas'), about: T('life of Madhva'), lines: ['सुमध्व', 'विजय'], cloth: '#5B3A1C', edge: '#7E542C', tradition: 'madhva', art: 'sumadhvavijaya' },
   { textId: 'vayu-stuti', titleEn: 'Hari Vayu Stuti', size: T('41 verses'), about: 'Trivikrama Pandita', lines: ['हरिवायु', 'स्तुति'], cloth: '#8A4B12', edge: '#B0691F', tradition: 'madhva', art: 'vayustuti' },
   { category: 'devimahatmya', titleEn: 'Devi Mahatmyam', size: T('13 chapters'), about: 'Durga Saptashati', lines: ['देवी', 'माहात्म्य'], cloth: '#831B3C', edge: '#A93256', tradition: 'smarta', art: 'devimahatmya' },
@@ -96,6 +97,25 @@ const COVER_ART: Record<string, ImageSourcePropType> = {
   'saundarya-lahari': require('../../assets/covers/saundarya-lahari.jpg'),
 };
 
+/** A painted card's title, a line to each part (Indian scripts) or one line that may wrap (Roman). */
+function cardTitle(work: GreatWork, script: ScriptId): string[] {
+  return isRoman(script) ? [work.cardEn ?? work.titleEn] : coverLines(work, script);
+}
+
+/**
+ * The width of a title's longest word, in ems, near enough. Indian scripts are counted in
+ * syllables (a conjunct stacks rather than widens), Roman in letters: counting the letters of
+ * ಭಗವದ್ಗೀತೆ, as before, made it look twice as wide as it is.
+ */
+function longestWord(lines: string[]): number {
+  return Math.max(
+    ...lines.flatMap((l) => l.split(' ')).map((w) => {
+      const indic = aksharas(w.replace(/[a-z]/gi, ''));
+      return indic ? indic * 0.95 : w.length * 0.6;
+    }),
+  );
+}
+
 /**
  * A great work as a painted card (the Gita apps' chapter cards): the painting, darkened towards
  * the foot, with the title in the reader's script. Works without a painting keep their cloth cover.
@@ -110,11 +130,10 @@ export function WorkCard({ work, width = 140 }: { work: GreatWork; width?: numbe
   const font = scriptFont(settings.script, settings.bookFonts);
   const height = Math.round(width * 1.4);
   const size = (width < 130 ? 15 : 17) * (settings.script === 'malayalam' ? 0.85 : 1);
-  const title = isRoman(settings.script) ? [work.cardEn ?? work.titleEn] : coverLines(work, settings.script);
+  const title = cardTitle(work, settings.script);
   const roman = isRoman(settings.script);
-  // A long single word (Sundarakanda) must fit the card's width without breaking.
-  const longest = Math.max(...title.flatMap((l) => l.split(' ')).map((w) => w.length));
-  const fit = Math.min(size, (width - 20) / (longest * (roman ? 0.64 : 0.8)));
+  // One size for every card on the shelf: the size at which the longest word of any title fits.
+  const fit = Math.min(size, ...GREAT_WORKS.filter((w) => w.art).map((w) => (width - 20) / longestWord(cardTitle(w, settings.script))));
   return (
     <Pressable
       onPress={() => router.push((work.category ? `/category/${work.category}` : `/mantra/${work.textId}`) as Href)}
@@ -126,7 +145,7 @@ export function WorkCard({ work, width = 140 }: { work: GreatWork; width?: numbe
       <LinearGradient colors={['transparent', 'rgba(14,9,5,0.55)', 'rgba(14,9,5,0.94)']} locations={[0.35, 0.62, 1]} style={{ position: 'absolute', left: 0, right: 0, top: 0, bottom: 0 }} />
       <View style={{ position: 'absolute', left: 10, right: 10, bottom: 10 }}>
         {title.map((line) => (
-          <Text key={line} style={{ color: CREAM, fontSize: fit, lineHeight: fit * 1.35, fontFamily: font, fontWeight: font ? undefined : '700' }} numberOfLines={roman ? 2 : 1} adjustsFontSizeToFit={!roman} minimumFontScale={0.7}>
+          <Text key={line} style={{ color: CREAM, fontSize: fit, lineHeight: fit * 1.35, fontFamily: font, fontWeight: font ? undefined : '700' }} numberOfLines={roman ? 3 : 1} adjustsFontSizeToFit={!roman} minimumFontScale={0.85}>
             {line}
           </Text>
         ))}
