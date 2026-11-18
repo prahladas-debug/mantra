@@ -2,7 +2,7 @@ import { MaterialCommunityIcons } from '@expo/vector-icons';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { router, type Href } from 'expo-router';
 import { useCallback, useMemo, useState, useSyncExternalStore } from 'react';
-import { Image, Pressable, Text, View } from 'react-native';
+import { Pressable, Text, View, useWindowDimensions } from 'react-native';
 import { defaultRule, festivalsOn, type CalendarMode, type EkadashiRule, type Festival, type MathaId } from '../lib/festivals';
 import { mathaOf } from '../lib/mathaAradhana';
 import { sauraDay, sauraSankalpa, type SauraStart } from '../lib/sauramana';
@@ -14,7 +14,8 @@ import { translit, translitTitle } from '../lib/transliterate';
 import { useI18n } from '../lib/i18n';
 import { scriptFont } from '../lib/fonts';
 import { LinearGradient } from 'expo-linear-gradient';
-import { ART, dayArt } from '../lib/art';
+import { dayArt } from '../lib/art';
+import { ArtFill } from './ArtFill';
 import { paranaLabel, paranaNote, paranaTimes } from '../lib/parana';
 
 // ---------- small persisted preferences shared by the pañcāṅga screens ----------
@@ -203,6 +204,7 @@ function nextFestival(...args: [Parameters<typeof festivalsOn>[0], string, Ekada
 
 export function TodayCard() {
   const { theme, settings } = useSettings();
+  const { width: winW } = useWindowDimensions();
   const { lang, tr, has } = useI18n();
   const gloss = (f: Festival) => (lang === 'en' ? plain(f.en) : has(f.en) ? tr(f.en) : translit(f.name, settings.script));
   const { p, city, today, method } = usePanchanga();
@@ -227,6 +229,8 @@ export function TodayCard() {
   const t = (s: string) => (settings.script === 'english' ? translitTitle(s, settings.script) : translit(s, settings.script));
   const read = (id: string | undefined) => (id ? getMantraInfo(id) : undefined);
   const hero = dayArt(p.weekday, p.tithiIndex);
+  // Taller on a tablet, so a card many times wider than it is high still shows the deity's face.
+  const heroH = Math.round(Math.min(300, Math.max(216, (winW - 32) * 0.26)));
   const heroFont = settings.bookFonts ? (settings.script === 'english' || settings.script === 'iast' ? 'BookSerif' : scriptFont(settings.script, true)) : undefined;
   // The next festival within ten days, for a gentle countdown under today's tithi.
   const next = useMemo(() => nextFestival(city, today, rule, mode, start, method, matha), [city, today, rule, mode, start, method, matha]);
@@ -235,10 +239,10 @@ export function TodayCard() {
       {/* No date: the Panchanga tab then shows today, also tomorrow. `at` changes with every tap, so a day picked there earlier gives way. */}
       <Pressable
         onPress={() => router.push({ pathname: '/panchanga', params: { at: String(Date.now()) } } as Href)}
-        style={({ pressed }) => ({ height: 216, backgroundColor: '#2A1E14', opacity: pressed ? 0.9 : 1 })}
+        style={({ pressed }) => ({ height: heroH, backgroundColor: '#2A1E14', opacity: pressed ? 0.9 : 1 })}
         accessibilityRole="link"
       >
-        <Image source={ART[hero].hero} style={{ position: 'absolute', left: 0, right: 0, top: 0, bottom: 0, width: '100%', height: '100%', opacity: theme.artOpacity }} resizeMode="cover" accessibilityIgnoresInvertColors />
+        <ArtFill art={hero} place={0.3} opacity={theme.artOpacity} />
         <LinearGradient colors={['rgba(14,9,5,0.7)', 'rgba(14,9,5,0.05)', 'rgba(14,9,5,0.6)', 'rgba(14,9,5,0.93)']} locations={[0, 0.3, 0.58, 1]} style={{ position: 'absolute', left: 0, right: 0, top: 0, bottom: 0 }} />
         <Text style={{ position: 'absolute', top: 12, left: 14, color: HERO_GOLD, fontSize: 13, fontWeight: '700', letterSpacing: 1 }} numberOfLines={1}>
           {tr('TODAY')} · {city.name.toUpperCase()}

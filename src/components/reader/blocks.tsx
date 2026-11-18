@@ -457,7 +457,7 @@ export function EndMatter() {
 }
 
 export const b = StyleSheet.create({
-  frontispiece: { alignSelf: 'stretch', aspectRatio: 16 / 9, maxHeight: 240, borderRadius: 11, borderWidth: 1, padding: 3, marginBottom: 16 },
+  frontispiece: { alignSelf: 'center', width: '100%', maxWidth: 430, aspectRatio: 16 / 9, borderRadius: 11, borderWidth: 1, padding: 3, marginBottom: 16 },
   intro: { padding: 20, paddingBottom: 8 },
   variantBox: { marginTop: 14, padding: 12, borderRadius: 12, borderWidth: 1 },
   notice: { flexDirection: 'row', gap: 8, padding: 12, borderRadius: 10, marginTop: 14 },

@@ -36,6 +36,16 @@ export const ART = {
 
 export type ArtKey = keyof typeof ART;
 
+/**
+ * Where the face is in each wide banner (a fraction of its height). The banners keep the painting's
+ * top, so this is the face's height in the painting scaled to the 16:9 crop (see process.py).
+ */
+export const HERO_FACE_Y: Record<ArtKey, number> = {
+  gita: 0.28, sundarakanda: 0.36, ramayana: 0.24, mahabharata: 0.21, vishnu: 0.24, devimahatmya: 0.23, lalita: 0.26,
+  saundaryalahari: 0.24, vayustuti: 0.28, sumadhvavijaya: 0.26, harikathamrutasara: 0.36, surya: 0.21, shiva: 0.21,
+  subrahmanya: 0.24, krishna: 0.26, lakshmi: 0.24, hanuman: 0.2, ganesha: 0.28, durga: 0.2,
+};
+
 /** Painting for a deity group (src/lib/deities.ts): the gurus have Madhva's. */
 export const DEITY_ART: Partial<Record<string, ArtKey>> = { vishnu: 'vishnu', devi: 'lakshmi', shiva: 'shiva', ganesha: 'ganesha', vayu: 'hanuman', surya: 'surya', subrahmanya: 'subrahmanya', guru: 'sumadhvavijaya' };
 

@@ -2,7 +2,7 @@ import { MaterialCommunityIcons } from '@expo/vector-icons';
 import * as Sharing from 'expo-sharing';
 import { useRef, useState } from 'react';
 import { LinearGradient } from 'expo-linear-gradient';
-import { type HostInstance, Image, Modal, PixelRatio, Platform, Pressable, ScrollView, Text, View, useWindowDimensions } from 'react-native';
+import { type HostInstance, Image, Modal, PixelRatio, Platform, Pressable, ScrollView, StyleSheet, Text, View, useWindowDimensions } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { captureRef } from 'react-native-view-shot';
 import { scriptFor } from '../data';
@@ -41,18 +41,19 @@ function VerseCardView({ mantra, verse, style, withMeaning, width }: { mantra: M
   const fs = Math.min(isRoman(script) ? 22 : 25, (width * 0.075 * 4) / Math.max(4, lines)) * (body.length > 220 ? 0.85 : 1) * (painting ? 0.8 : 1);
   return (
     <View style={{ width, height: width * 1.25, backgroundColor: c.bg, padding: width * 0.045 }}>
-      {painting && (
-        <>
-          <Image source={painting} style={{ position: 'absolute', left: 0, top: 0, width, height: width * 1.25 }} resizeMode="cover" />
-          <LinearGradient
-            colors={['rgba(14,9,5,0)', 'rgba(14,9,5,0.5)', 'rgba(14,9,5,0.9)', 'rgba(14,9,5,0.96)']}
-            locations={[0.12, 0.34, 0.52, 1]}
-            style={{ position: 'absolute', left: 0, top: 0, width, height: width * 1.25 }}
-          />
-        </>
-      )}
       <View style={{ flex: 1, borderWidth: 1.5, borderColor: c.frame, padding: 4 }}>
-        <View style={{ flex: 1, borderWidth: 0.75, borderColor: c.frame, paddingHorizontal: width * 0.06, paddingVertical: width * 0.05, alignItems: 'center', justifyContent: painting ? 'flex-end' : 'space-between', gap: painting ? width * 0.05 : 0 }}>
+        <View style={{ flex: 1, borderWidth: 0.75, borderColor: c.frame, overflow: 'hidden', paddingHorizontal: width * 0.06, paddingVertical: width * 0.05, alignItems: 'center', justifyContent: painting ? 'flex-end' : 'space-between', gap: painting ? width * 0.05 : 0 }}>
+          {/* The painting sits inside the frame, as a framed picture does: the gold lines go round it, never across it. */}
+          {painting && (
+            <>
+              <Image source={painting} style={{ position: 'absolute', left: 0, top: 0, width: '100%', height: '100%' }} resizeMode="cover" />
+              <LinearGradient
+                colors={['rgba(14,9,5,0)', 'rgba(14,9,5,0.5)', 'rgba(14,9,5,0.9)', 'rgba(14,9,5,0.96)']}
+                locations={[0.12, 0.34, 0.52, 1]}
+                style={StyleSheet.absoluteFill}
+              />
+            </>
+          )}
           {!painting && <MaterialCommunityIcons name="spa-outline" size={width * 0.07} color={c.frame} />}
           <View style={{ alignItems: 'center', gap: width * 0.04 }}>
             <Text style={{ color: c.text, fontSize: fs, lineHeight: fs * leading(script, true), fontFamily: font, textAlign: 'center' }}>

@@ -1,6 +1,7 @@
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { router, type Href } from 'expo-router';
-import { Image, ImageBackground, Pressable, StyleSheet, Text, View, type ImageSourcePropType } from 'react-native';
+import type { ReactNode } from 'react';
+import { Image, ImageBackground, Pressable, StyleSheet, Text, View, useWindowDimensions, type ImageSourcePropType } from 'react-native';
 import { categoryById, categoryCounts, getMantraInfo, type CategoryId } from '../data';
 import { bookWork, isBookWork } from '../data/books';
 import type { DeityGroup } from '../lib/deities';
@@ -10,6 +11,7 @@ import { categoryTitle } from '../lib/labels';
 import { useSettings } from '../lib/settings';
 import { LinearGradient } from 'expo-linear-gradient';
 import { ART, DEITY_ART as DEITY_PAINTING, type ArtKey } from '../lib/art';
+import { ArtFill } from './ArtFill';
 import { useShowEnglish } from './useGloss';
 import { translit, type ScriptId, isRoman } from '../lib/transliterate';
 
@@ -61,6 +63,8 @@ export function greatWorks(tradition: string | undefined): GreatWork[] {
 
 const CREAM = '#FFF4DC';
 const GOLD = '#E9C77B';
+/** The dark band under a painted banner: the colour its painting fades into. */
+const PANEL = '#140D08';
 
 /**
  * The cover title as short lines: the script's own everyday name when it is written as separate
@@ -212,65 +216,72 @@ export function BookBanner({ category, firstId, lastId, lastLabel, parts }: { ca
   const font = scriptFont(settings.script, settings.bookFonts);
   const size = 26 * (settings.script === 'malayalam' ? 0.82 : 1);
   const go = (id: string) => router.push(`/mantra/${id}` as Href);
+  const words = (
+    <>
+      {/* Under a painting the title has the band's whole width: one line. Beside the emblem, a line a word. */}
+      {(work.art ? [coverLines(work, settings.script).join(' ')] : coverLines(work, settings.script)).map((line) => (
+        <Text key={line} style={{ color: CREAM, fontSize: size, lineHeight: size * 1.45, fontFamily: font, fontWeight: font ? undefined : '700' }} numberOfLines={work.art ? 2 : 1} adjustsFontSizeToFit={!work.art} minimumFontScale={0.6}>
+          {line}
+        </Text>
+      ))}
+      {showEn && (
+        <Text style={{ color: CREAM, fontSize: 14, fontWeight: '600', marginTop: 2 }} numberOfLines={1}>
+          {work.titleEn}
+        </Text>
+      )}
+      <Text style={{ color: GOLD, fontSize: 13, marginTop: 1 }} numberOfLines={2}>
+        {[tr(work.size), work.about && tr(work.about)].filter(Boolean).join(' · ')}
+      </Text>
+      {parts && done > 0 && (
+        <View style={{ marginTop: 8 }} accessible accessibilityLabel={tr('{done} of {total} read', { done, total: parts.length })}>
+          <View style={{ height: 3, borderRadius: 2, backgroundColor: 'rgba(246,235,214,0.25)', overflow: 'hidden', maxWidth: 160 }}>
+            <View style={{ width: `${Math.max(3, (done / parts.length) * 100)}%`, height: 3, backgroundColor: GOLD }} />
+          </View>
+          <Text style={{ color: CREAM, fontSize: 12, marginTop: 3, opacity: 0.85 }}>{tr('{done} of {total} read', { done, total: parts.length })}</Text>
+        </View>
+      )}
+      <View style={{ flexDirection: 'row', flexWrap: 'wrap', gap: 8, marginTop: 12 }}>
+        {lastId && lastId !== firstId ? (
+          <>
+            <Pressable onPress={() => go(lastId)} accessibilityRole="button" style={({ pressed }) => [c.bannerBtn, { backgroundColor: GOLD, borderColor: GOLD, opacity: pressed ? 0.8 : 1 }]}>
+              <Text style={{ color: work.cloth, fontSize: 14, fontWeight: '700' }} numberOfLines={1}>
+                {lastLabel ? tr('Continue · {label} ›', { label: lastLabel }) : tr('Continue ›')}
+              </Text>
+            </Pressable>
+            <Pressable onPress={() => go(firstId)} accessibilityRole="button" style={({ pressed }) => [c.bannerBtn, { borderColor: GOLD, opacity: pressed ? 0.7 : 1 }]}>
+              <Text style={{ color: CREAM, fontSize: 14, fontWeight: '600' }}>{tr('From the start')}</Text>
+            </Pressable>
+          </>
+        ) : (
+          <Pressable onPress={() => go(firstId)} accessibilityRole="button" style={({ pressed }) => [c.bannerBtn, { backgroundColor: GOLD, borderColor: GOLD, opacity: pressed ? 0.8 : 1 }]}>
+            <Text style={{ color: work.cloth, fontSize: 14, fontWeight: '700' }}>{tr('Begin reading ›')}</Text>
+          </Pressable>
+        )}
+      </View>
+    </>
+  );
+  // A painting is shown whole above the words, as a book's cover is, never darkened under them.
+  if (work.art) return <PaintedBanner art={work.art}>{words}</PaintedBanner>;
   return (
     <View style={[c.banner, { backgroundColor: work.cloth }]}>
-      {/* The work's painting, darkened behind the words, or else its cloth with the emblem.
-          Sized by the banner itself: an ImageBackground without a fixed size shows the picture at its own size. */}
-      {work.art ? (
-        <>
-          <Image source={ART[work.art].hero} style={{ position: 'absolute', width: '100%', height: '100%' }} resizeMode="cover" />
-          <LinearGradient
-            colors={['rgba(14,9,5,0.9)', 'rgba(14,9,5,0.62)', 'rgba(14,9,5,0)']}
-            locations={[0, 0.5, 0.88]}
-            start={{ x: 0, y: 0 }}
-            end={{ x: 1, y: 0 }}
-            style={StyleSheet.absoluteFill}
-          />
-        </>
-      ) : (
-        <Image source={art} style={{ position: 'absolute', width: '100%', height: '100%', opacity: theme.artOpacity }} resizeMode="cover" />
-      )}
-      <View style={c.bannerWords}>
-        {coverLines(work, settings.script).map((line) => (
-          <Text key={line} style={{ color: CREAM, fontSize: size, lineHeight: size * 1.45, fontFamily: font, fontWeight: font ? undefined : '700' }} numberOfLines={1} adjustsFontSizeToFit minimumFontScale={0.6}>
-            {line}
-          </Text>
-        ))}
-        {showEn && (
-          <Text style={{ color: CREAM, fontSize: 14, fontWeight: '600', marginTop: 2 }} numberOfLines={1}>
-            {work.titleEn}
-          </Text>
-        )}
-        <Text style={{ color: GOLD, fontSize: 13, marginTop: 1 }} numberOfLines={2}>
-          {[tr(work.size), work.about && tr(work.about)].filter(Boolean).join(' · ')}
-        </Text>
-        {parts && done > 0 && (
-          <View style={{ marginTop: 8 }} accessible accessibilityLabel={tr('{done} of {total} read', { done, total: parts.length })}>
-            <View style={{ height: 3, borderRadius: 2, backgroundColor: 'rgba(246,235,214,0.25)', overflow: 'hidden', maxWidth: 160 }}>
-              <View style={{ width: `${Math.max(3, (done / parts.length) * 100)}%`, height: 3, backgroundColor: GOLD }} />
-            </View>
-            <Text style={{ color: CREAM, fontSize: 12, marginTop: 3, opacity: 0.85 }}>{tr('{done} of {total} read', { done, total: parts.length })}</Text>
-          </View>
-        )}
-        <View style={{ flexDirection: 'row', flexWrap: 'wrap', gap: 8, marginTop: 12 }}>
-          {lastId && lastId !== firstId ? (
-            <>
-              <Pressable onPress={() => go(lastId)} accessibilityRole="button" style={({ pressed }) => [c.bannerBtn, { backgroundColor: GOLD, borderColor: GOLD, opacity: pressed ? 0.8 : 1 }]}>
-                <Text style={{ color: work.cloth, fontSize: 14, fontWeight: '700' }} numberOfLines={1}>
-                  {lastLabel ? tr('Continue · {label} ›', { label: lastLabel }) : tr('Continue ›')}
-                </Text>
-              </Pressable>
-              <Pressable onPress={() => go(firstId)} accessibilityRole="button" style={({ pressed }) => [c.bannerBtn, { borderColor: GOLD, opacity: pressed ? 0.7 : 1 }]}>
-                <Text style={{ color: CREAM, fontSize: 14, fontWeight: '600' }}>{tr('From the start')}</Text>
-              </Pressable>
-            </>
-          ) : (
-            <Pressable onPress={() => go(firstId)} accessibilityRole="button" style={({ pressed }) => [c.bannerBtn, { backgroundColor: GOLD, borderColor: GOLD, opacity: pressed ? 0.8 : 1 }]}>
-              <Text style={{ color: work.cloth, fontSize: 14, fontWeight: '700' }}>{tr('Begin reading ›')}</Text>
-            </Pressable>
-          )}
-        </View>
+      <Image source={art} style={{ position: 'absolute', width: '100%', height: '100%', opacity: theme.artOpacity }} resizeMode="cover" />
+      <View style={c.bannerWords}>{words}</View>
+    </View>
+  );
+}
+
+/** A painting across the top of a page, faded at its foot into a dark band that carries the words. */
+function PaintedBanner({ art, children }: { art: ArtKey; children: ReactNode }) {
+  const { width } = useWindowDimensions();
+  // 16:9 on a phone; on a tablet no taller than this, cropped round the faces.
+  const height = Math.round(Math.min(((width - 32) * 9) / 16, 300));
+  return (
+    <View style={c.painted}>
+      <View style={{ height }}>
+        <ArtFill art={art} place={0.42} />
+        <LinearGradient colors={['rgba(20,13,8,0)', PANEL]} locations={[0.62, 1]} style={StyleSheet.absoluteFill} />
       </View>
+      <View style={{ paddingHorizontal: 18, paddingBottom: 16, marginTop: -18 }}>{children}</View>
     </View>
   );
 }
@@ -286,29 +297,19 @@ export function DeityBanner({ deity, count }: { deity: DeityGroup; count: number
   const font = roman ? headingFont('en', settings.bookFonts) : scriptFont(settings.script, settings.bookFonts);
   const size = 28 * (settings.script === 'malayalam' ? 0.82 : 1);
   return (
-    <View style={[c.banner, { backgroundColor: '#2A1E14' }]}>
-      <Image source={ART[key].hero} style={{ position: 'absolute', width: '100%', height: '100%' }} resizeMode="cover" />
-      <LinearGradient
-        colors={['rgba(14,9,5,0.9)', 'rgba(14,9,5,0.62)', 'rgba(14,9,5,0)']}
-        locations={[0, 0.5, 0.88]}
-        start={{ x: 0, y: 0 }}
-        end={{ x: 1, y: 0 }}
-        style={StyleSheet.absoluteFill}
-      />
-      <View style={c.bannerWords}>
-        <Text style={{ color: CREAM, fontSize: size, lineHeight: size * 1.4, fontFamily: font, fontWeight: font ? undefined : '700' }} numberOfLines={2} adjustsFontSizeToFit minimumFontScale={0.6}>
-          {roman ? deity.titleEn.split(' · ')[0] : translit(deity.short ?? deity.title, settings.script)}
+    <PaintedBanner art={key}>
+      <Text style={{ color: CREAM, fontSize: size, lineHeight: size * 1.4, fontFamily: font, fontWeight: font ? undefined : '700' }} numberOfLines={2} adjustsFontSizeToFit minimumFontScale={0.6}>
+        {roman ? deity.titleEn.split(' · ')[0] : translit(deity.short ?? deity.title, settings.script)}
+      </Text>
+      {(roman || showEn) && (
+        <Text style={{ color: CREAM, fontSize: 14, fontWeight: '600', marginTop: 2 }} numberOfLines={2}>
+          {deity.titleEn}
         </Text>
-        {(roman || showEn) && (
-          <Text style={{ color: CREAM, fontSize: 14, fontWeight: '600', marginTop: 2 }} numberOfLines={2}>
-            {deity.titleEn}
-          </Text>
-        )}
-        <Text style={{ color: GOLD, fontSize: 13, marginTop: 4 }} numberOfLines={1}>
-          {tr('{n} texts', { n: count })}
-        </Text>
-      </View>
-    </View>
+      )}
+      <Text style={{ color: GOLD, fontSize: 13, marginTop: 4 }} numberOfLines={1}>
+        {tr('{n} texts', { n: count })}
+      </Text>
+    </PaintedBanner>
   );
 }
 
@@ -504,6 +505,7 @@ const c = StyleSheet.create({
   words: { position: 'absolute', top: '51%', bottom: '6.5%', left: '14%', right: '8%', alignItems: 'center' },
   rule: { width: 26, height: 1, marginBottom: 4, opacity: 0.8 },
   banner: { marginHorizontal: 16, marginTop: 14, aspectRatio: 900 / 520, borderRadius: 16, overflow: 'hidden' },
+  painted: { marginHorizontal: 16, marginTop: 14, borderRadius: 16, overflow: 'hidden', backgroundColor: PANEL },
   bannerWords: { flex: 1, justifyContent: 'center', paddingLeft: '7%', width: '52%' },
   bannerBtn: { paddingHorizontal: 13, paddingVertical: 7, borderRadius: 18, borderWidth: 1 },
   tile: { flexDirection: 'row', alignItems: 'center', gap: 8, padding: 10, borderRadius: 16, borderWidth: 1 },
