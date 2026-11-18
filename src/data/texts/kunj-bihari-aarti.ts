@@ -12,7 +12,7 @@ import type { Mantra } from '../types';
 
 export const kunjBihariAarti: Mantra = {
   id: 'kunj-bihari-aarti',
-  title: 'आरतीकुंजबिहारीकी',
+  title: 'आरती कुंजबिहारी की',
   titleEn: 'Aarti Kunj Bihari Ki',
   category: 'aarti',
   order: 30,

@@ -12,7 +12,7 @@ import type { Mantra } from '../types';
 
 export const aartiSukhakartaDukhaharta: Mantra = {
   id: 'aarti-sukhakarta-dukhaharta',
-  title: 'सुखकर्तादुःखहर्तागणेशआरती',
+  title: 'सुखकर्ता दुःखहर्ता गणेश आरती',
   titleEn: 'Sukhakarta Dukhaharta (Ganesha Aarti)',
   category: 'aarti',
   order: 8,

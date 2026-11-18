@@ -15,7 +15,7 @@ import type { Mantra } from '../types';
 
 export const omJaiJagdishHare: Mantra = {
   id: 'om-jai-jagdish-hare',
-  title: 'ॐजयजगदीशहरे',
+  title: 'ॐ जय जगदीश हरे',
   titleEn: 'Om Jai Jagdish Hare',
   category: 'aarti',
   order: 22,

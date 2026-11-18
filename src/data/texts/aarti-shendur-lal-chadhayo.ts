@@ -12,7 +12,7 @@ import type { Mantra } from '../types';
 
 export const aartiShendurLalChadhayo: Mantra = {
   id: 'aarti-shendur-lal-chadhayo',
-  title: 'शेंदुरलालचढायोआरती',
+  title: 'शेंदुर लाल चढायो आरती',
   titleEn: 'Shendur Lal Chadhayo (Ganesha Aarti)',
   category: 'aarti',
   order: 7,

@@ -10,12 +10,15 @@ import { aartiKarpuraGauram } from './texts/aarti-karpura-gauram';
 import { aartiLavthavtiVikrala } from './texts/aarti-lavthavti-vikrala';
 import { aartiMangalaShlokas } from './texts/aarti-mangala-shlokas';
 import { aartiOmJaiGangeMata } from './texts/aarti-om-jai-gange-mata';
+import { aartiSantoshiMata } from './texts/aarti-santoshi-mata';
+import { aartiShaniDev } from './texts/aarti-shani-dev';
 import { aartiShendurLalChadhayo } from './texts/aarti-shendur-lal-chadhayo';
 import { aartiShriRamachandraKripalu } from './texts/aarti-shri-ramachandra-kripalu';
 import { aartiSukhakartaDukhaharta } from './texts/aarti-sukhakarta-dukhaharta';
 import { aartiTrigunatmakTrimurtiDatta } from './texts/aarti-trigunatmak-trimurti-datta';
 import { achyutashtakam } from './texts/achyutashtakam';
 import { adityaHridayam } from './texts/aditya-hridayam';
+import { ahoiAshtamiVrat } from './texts/ahoi-ashtami-vrat';
 import { ambhriniSukta } from './texts/ambhrini-sukta';
 import { anantaVrata } from './texts/ananta-vrata';
 import { anjaneyaDandakam } from './texts/anjaneya-dandakam';
@@ -37,6 +40,12 @@ import { bajrangBaan } from './texts/bajrang-baan';
 import { balaMukundashtakam } from './texts/bala-mukundashtakam';
 import { ballitthaSukta } from './texts/ballittha-sukta';
 import { bhagavadGita01, bhagavadGita02, bhagavadGita03, bhagavadGita04, bhagavadGita05, bhagavadGita06, bhagavadGita07, bhagavadGita08, bhagavadGita09, bhagavadGita10, bhagavadGita11, bhagavadGita12, bhagavadGita13, bhagavadGita14, bhagavadGita15, bhagavadGita16, bhagavadGita17, bhagavadGita18 } from './texts/bhagavad-gita';
+import { bhajanKabirDohe } from './texts/bhajan-kabir-dohe';
+import { bhajanMaiyaMori } from './texts/bhajan-maiya-mori';
+import { bhajanPayojiMaine } from './texts/bhajan-payoji-maine';
+import { bhajanRaghupatiRaghava } from './texts/bhajan-raghupati-raghava';
+import { bhajanShriKrishnaGovind } from './texts/bhajan-shri-krishna-govind';
+import { bhajanThumakChalat } from './texts/bhajan-thumak-chalat';
 import { bhavaniAshtakam } from './texts/bhavani-ashtakam';
 import { bhishmaStuti } from './texts/bhishma-stuti';
 import { bhojanaMantras } from './texts/bhojana-mantras';
@@ -44,6 +53,7 @@ import { bhuSuktam } from './texts/bhu-suktam';
 import { bilvashtakam } from './texts/bilvashtakam';
 import { brahmaYajna } from './texts/brahma-yajna';
 import { chandikaHoma } from './texts/chandika-homa';
+import { chhathPuja } from './texts/chhath-puja';
 import { dailyShlokas } from './texts/daily-shlokas';
 import { dakshinamurtiStotram } from './texts/dakshinamurti-stotram';
 import { damodarashtakam } from './texts/damodarashtakam';
@@ -64,9 +74,11 @@ import { gajendraMoksha } from './texts/gajendra-moksha';
 import { ganapatiAtharvashirsha } from './texts/ganapati-atharvashirsha';
 import { ganapatiHoma } from './texts/ganapati-homa';
 import { ganeshAarti } from './texts/ganesh-aarti';
+import { ganeshChalisa } from './texts/ganesh-chalisa';
 import { ganeshaChaturthiPuja } from './texts/ganesha-chaturthi-puja';
 import { ganeshaPancharatnam } from './texts/ganesha-pancharatnam';
 import { gauriVrata } from './texts/gauri-vrata';
+import { gayatriChalisa } from './texts/gayatri-chalisa';
 import { gayatri } from './texts/gayatri';
 import { gopiGita } from './texts/gopi-gita';
 import { govindashtakam } from './texts/govindashtakam';
@@ -77,17 +89,21 @@ import { harikathamrutasara11, harikathamrutasara12, harikathamrutasara13, harik
 import { harikathamrutasara21, harikathamrutasara22, harikathamrutasara23, harikathamrutasara24, harikathamrutasara25, harikathamrutasara26, harikathamrutasara27, harikathamrutasara28, harikathamrutasara29, harikathamrutasara30, harikathamrutasara31, harikathamrutasara32, harikathamrutasara33 } from './texts/harikathamrutasara-21-32';
 import { harikathamrutasara03, harikathamrutasara04, harikathamrutasara05, harikathamrutasara06, harikathamrutasara07, harikathamrutasara08, harikathamrutasara09, harikathamrutasara10 } from './texts/harikathamrutasara-3-10';
 import { harikathamrutasara01, harikathamrutasara02 } from './texts/harikathamrutasara';
+import { hartalikaTeejVrat } from './texts/hartalika-teej-vrat';
 import { homaPurvanga } from './texts/homa-purvanga';
 import { ishavasyaUpanishad } from './texts/ishavasya-upanishad';
 import { janmashtamiPuja } from './texts/janmashtami-puja';
 import { kalabhairavashtakam } from './texts/kalabhairavashtakam';
 import { kanakadharaStotram } from './texts/kanakadhara-stotram';
+import { karvaChauthVrat } from './texts/karva-chauth-vrat';
 import { krishnaAshtottaraShatanama } from './texts/krishna-ashtottara-shatanama';
+import { krishnaChalisa } from './texts/krishna-chalisa';
 import { krishnamritaMaharnava } from './texts/krishnamrita-maharnava';
 import { krishnashtakam } from './texts/krishnashtakam';
 import { kunjBihariAarti } from './texts/kunj-bihari-aarti';
 import { kuntiStuti } from './texts/kunti-stuti';
 import { lakshmiAarti } from './texts/lakshmi-aarti';
+import { lakshmiChalisa } from './texts/lakshmi-chalisa';
 import { lakshmiHoma } from './texts/lakshmi-homa';
 import { lakshmiNarasimhaKaravalambaStotram } from './texts/lakshmi-narasimha-karavalamba-stotram';
 import { lakshmiShobhane } from './texts/lakshmi-shobhane';
@@ -123,13 +139,17 @@ import { raghavendraAshtottara } from './texts/raghavendra-ashtottara';
 import { raghavendraKavacha } from './texts/raghavendra-kavacha';
 import { raghavendraMangalashtaka } from './texts/raghavendra-mangalashtaka';
 import { raghavendraStotram } from './texts/raghavendra-stotram';
+import { ramChalisa } from './texts/ram-chalisa';
 import { ramaRakshaStotram } from './texts/rama-raksha-stotram';
 import { rudrashtakam } from './texts/rudrashtakam';
 import { sandhyaVandaneRigveda } from './texts/sandhya-vandane-rigveda';
 import { sandhyaVandaneYajurveda } from './texts/sandhya-vandane-yajurveda';
 import { sankatanashanaGaneshaStotram } from './texts/sankatanashana-ganesha-stotram';
+import { santoshiMataVrat } from './texts/santoshi-mata-vrat';
+import { saraswatiChalisa } from './texts/saraswati-chalisa';
 import { satyanarayanaPuja, satyanarayanaKatha } from './texts/satyanarayana-vrata';
 import { saundaryaLahari } from './texts/saundarya-lahari';
+import { shaniChalisa } from './texts/shani-chalisa';
 import { shantiMantras } from './texts/shanti-mantras';
 import { shivAarti } from './texts/shiv-aarti';
 import { shivChalisa } from './texts/shiv-chalisa';
@@ -142,6 +162,7 @@ import { shodashopacharaPuja } from './texts/shodashopachara-puja';
 import { shraddha } from './texts/shraddha';
 import { skandaShashtiKavacham } from './texts/skanda-shashti-kavacham';
 import { snanaVidhi } from './texts/snana-vidhi';
+import { somvarVrat } from './texts/somvar-vrat';
 import { sriRudramNamakam, sriRudramChamakam } from './texts/sri-rudram';
 import { sriSukta } from './texts/sri-sukta';
 import { sudarshanaHoma } from './texts/sudarshana-homa';
@@ -150,6 +171,7 @@ import { sundarakanda01, sundarakanda02, sundarakanda03, sundarakanda04, sundara
 import { taittiriyaShikshavalli } from './texts/taittiriya-shikshavalli';
 import { tiruppavai } from './texts/tiruppavai';
 import { tulasiPuja } from './texts/tulasi-puja';
+import { tulsiSundarKand } from './texts/tulsi-sundar-kand';
 import { upakarma } from './texts/upakarma';
 import { vadirajaKrishnashtakam } from './texts/vadiraja-krishnashtakam';
 import { varamahalakshmiVrata } from './texts/varamahalakshmi-vrata';
@@ -157,6 +179,7 @@ import { vayuStuti } from './texts/vayu-stuti';
 import { venkateshaStotram } from './texts/venkatesha-stotram';
 import { venkateshaSuprabhatam, venkateshaPrapatti, venkateshaMangalashasanam } from './texts/venkatesha-suprabhatam';
 import { vishnuAshtottaraShatanamavali } from './texts/vishnu-ashtottara-shatanamavali';
+import { vishnuChalisa } from './texts/vishnu-chalisa';
 import { vishnuSahasranama } from './texts/vishnu-sahasranama';
 import { yantrodharakaHanumanStotra } from './texts/yantrodharaka-hanuman-stotra';
 
@@ -171,12 +194,15 @@ export const LIBRARY: Mantra[] = [
   aartiLavthavtiVikrala,
   aartiMangalaShlokas,
   aartiOmJaiGangeMata,
+  aartiSantoshiMata,
+  aartiShaniDev,
   aartiShendurLalChadhayo,
   aartiShriRamachandraKripalu,
   aartiSukhakartaDukhaharta,
   aartiTrigunatmakTrimurtiDatta,
   achyutashtakam,
   adityaHridayam,
+  ahoiAshtamiVrat,
   ambhriniSukta,
   anantaVrata,
   anjaneyaDandakam,
@@ -215,6 +241,12 @@ export const LIBRARY: Mantra[] = [
   bhagavadGita16,
   bhagavadGita17,
   bhagavadGita18,
+  bhajanKabirDohe,
+  bhajanMaiyaMori,
+  bhajanPayojiMaine,
+  bhajanRaghupatiRaghava,
+  bhajanShriKrishnaGovind,
+  bhajanThumakChalat,
   bhavaniAshtakam,
   bhishmaStuti,
   bhojanaMantras,
@@ -222,6 +254,7 @@ export const LIBRARY: Mantra[] = [
   bilvashtakam,
   brahmaYajna,
   chandikaHoma,
+  chhathPuja,
   dailyShlokas,
   dakshinamurtiStotram,
   damodarashtakam,
@@ -370,9 +403,11 @@ export const LIBRARY: Mantra[] = [
   ganapatiAtharvashirsha,
   ganapatiHoma,
   ganeshAarti,
+  ganeshChalisa,
   ganeshaChaturthiPuja,
   ganeshaPancharatnam,
   gauriVrata,
+  gayatriChalisa,
   gayatri,
   gopiGita,
   govindashtakam,
@@ -412,17 +447,21 @@ export const LIBRARY: Mantra[] = [
   harikathamrutasara10,
   harikathamrutasara01,
   harikathamrutasara02,
+  hartalikaTeejVrat,
   homaPurvanga,
   ishavasyaUpanishad,
   janmashtamiPuja,
   kalabhairavashtakam,
   kanakadharaStotram,
+  karvaChauthVrat,
   krishnaAshtottaraShatanama,
+  krishnaChalisa,
   krishnamritaMaharnava,
   krishnashtakam,
   kunjBihariAarti,
   kuntiStuti,
   lakshmiAarti,
+  lakshmiChalisa,
   lakshmiHoma,
   lakshmiNarasimhaKaravalambaStotram,
   lakshmiShobhane,
@@ -458,14 +497,18 @@ export const LIBRARY: Mantra[] = [
   raghavendraKavacha,
   raghavendraMangalashtaka,
   raghavendraStotram,
+  ramChalisa,
   ramaRakshaStotram,
   rudrashtakam,
   sandhyaVandaneRigveda,
   sandhyaVandaneYajurveda,
   sankatanashanaGaneshaStotram,
+  santoshiMataVrat,
+  saraswatiChalisa,
   satyanarayanaPuja,
   satyanarayanaKatha,
   saundaryaLahari,
+  shaniChalisa,
   shantiMantras,
   shivAarti,
   shivChalisa,
@@ -478,6 +521,7 @@ export const LIBRARY: Mantra[] = [
   shraddha,
   skandaShashtiKavacham,
   snanaVidhi,
+  somvarVrat,
   sriRudramNamakam,
   sriRudramChamakam,
   sriSukta,
@@ -569,6 +613,7 @@ export const LIBRARY: Mantra[] = [
   taittiriyaShikshavalli,
   tiruppavai,
   tulasiPuja,
+  tulsiSundarKand,
   upakarma,
   vadirajaKrishnashtakam,
   varamahalakshmiVrata,
@@ -578,6 +623,7 @@ export const LIBRARY: Mantra[] = [
   venkateshaPrapatti,
   venkateshaMangalashasanam,
   vishnuAshtottaraShatanamavali,
+  vishnuChalisa,
   vishnuSahasranama,
   yantrodharakaHanumanStotra,
 ];

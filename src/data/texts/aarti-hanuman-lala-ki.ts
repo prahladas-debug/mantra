@@ -14,7 +14,7 @@ import type { Mantra } from '../types';
 
 export const aartiHanumanLalaKi: Mantra = {
   id: 'aarti-hanuman-lala-ki',
-  title: 'आरतीकीजैहनुमानललाकी',
+  title: 'आरती कीजै हनुमान लला की',
   titleEn: 'Aarti Kije Hanuman Lala Ki',
   category: 'aarti',
   order: 1,

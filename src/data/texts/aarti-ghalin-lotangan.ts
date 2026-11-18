@@ -12,7 +12,7 @@ import type { Mantra } from '../types';
 
 export const aartiGhalinLotangan: Mantra = {
   id: 'aarti-ghalin-lotangan',
-  title: 'घालीनलोटांगणप्रार्थना',
+  title: 'घालीन लोटांगण प्रार्थना',
   titleEn: 'Ghalin Lotangan (closing prayer after the aarti)',
   category: 'aarti',
   order: 12,

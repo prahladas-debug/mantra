@@ -12,7 +12,7 @@ import type { Mantra } from '../types';
 
 export const lakshmiAarti: Mantra = {
   id: 'lakshmi-aarti',
-  title: 'ॐजयलक्ष्मीमाताआरती',
+  title: 'ॐ जय लक्ष्मी माता आरती',
   titleEn: 'Om Jai Lakshmi Mata Aarti',
   category: 'aarti',
   order: 28,

@@ -5,7 +5,7 @@ import { FlatList, Modal, Platform, Pressable, ScrollView, Text, TextInput, View
 import { cityById, cityLabel, searchCities, type City } from '../lib/panchanga';
 import { useI18n } from '../lib/i18n';
 import { useSettings } from '../lib/settings';
-import { useCalcMethod, useCalendarMode, useEkadashiRule, useSauraStart } from './PanchangaCard';
+import { useCalcMethod, useCalendarMode, useEkadashiRule, useMonthNaming, useSauraStart } from './PanchangaCard';
 import { Segmented } from './ui';
 
 /** Full-screen searchable list of every Indian town of 15,000+ people, plus places abroad. */
@@ -80,6 +80,7 @@ export function CalendarOptionsSheet({ visible, onClose }: { visible: boolean; o
   const [rule, setRule] = useEkadashiRule();
   const [mode, setMode] = useCalendarMode();
   const [start, setStart] = useSauraStart();
+  const [naming, setNaming] = useMonthNaming();
   const [method, setMethod] = useCalcMethod();
   const label = { color: theme.text, fontSize: 16, fontWeight: '700' as const, marginTop: 18, marginBottom: 8 };
   const hint = { color: theme.textMuted, fontSize: 14, marginTop: 6, lineHeight: 18 };
@@ -104,6 +105,14 @@ export function CalendarOptionsSheet({ visible, onClose }: { visible: boolean; o
         <Text style={label}>{tr('Months')}</Text>
         <Segmented options={[{ id: 'chandra', label: tr('Chandramana') }, { id: 'saura', label: tr('Sauramana') }]} value={mode} onChange={setMode} />
         <Text style={hint}>{mode === 'saura' ? tr('Solar months (Mesha …) as in Udupi and Tulu Nadu, with the Udupi festivals.') : tr('Lunar months, new moon to new moon (Chaitra …).')}</Text>
+
+        {mode === 'chandra' && (
+          <>
+            <Text style={label}>{tr('Month names')}</Text>
+            <Segmented options={[{ id: 'amanta', label: tr('Amanta') }, { id: 'purnimanta', label: tr('Purnimanta') }]} value={naming} onChange={setNaming} />
+            <Text style={hint}>{naming === 'purnimanta' ? tr('Month ends at the full moon, as in North India: in the dark half the next month’s name is used.') : tr('Month ends at the new moon, as in South India, Gujarat and Maharashtra.')}</Text>
+          </>
+        )}
 
         {mode === 'saura' && (
           <>

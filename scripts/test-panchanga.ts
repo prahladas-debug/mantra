@@ -18,7 +18,7 @@ import { birthStar } from '../src/lib/janma';
 import { paranaWindow } from '../src/lib/parana';
 import { sauraDay, sauraMonthStart, sauraSankalpa } from '../src/lib/sauramana';
 import {
-  CITIES, MASA, cityById, compoundStem, crossing, elongation, formatTime, julianDay, fromJulian, lunationsBetween, panchanga, siderealSun,
+  CITIES, MASA, cityById, defaultMonthNaming, monthFor, monthLabel, sankalpaFor, compoundStem, crossing, elongation, formatTime, julianDay, fromJulian, lunationsBetween, panchanga, siderealSun,
 } from '../src/lib/panchanga';
 
 process.env.TZ = 'Asia/Kolkata';
@@ -807,6 +807,76 @@ const PARANA: Record<string, string[]> = {
       }
     }
   }
+}
+
+// ---- 8. North India: pūrṇimānta month names and the Delhi festivals ----
+{
+  const delhi = cityById('delhi');
+  // Default naming by state: the northern states pūrṇimānta; the South, Gujarat and Maharashtra amānta.
+  assert.equal(defaultMonthNaming(delhi), 'purnimanta');
+  assert.equal(defaultMonthNaming({ state: 'Uttar Pradesh' }), 'purnimanta');
+  assert.equal(defaultMonthNaming({ state: 'Bihar' }), 'purnimanta');
+  assert.equal(defaultMonthNaming({ state: 'Rajasthan' }), 'purnimanta');
+  for (const st of ['Gujarat', 'Maharashtra', 'Karnataka', 'Tamil Nadu', 'West Bengal', 'Odisha', 'USA', undefined]) assert.equal(defaultMonthNaming({ state: st }), 'amanta', String(st));
+  checks += 9;
+  const label = (iso: string, naming: 'amanta' | 'purnimanta') => monthLabel(panchanga(iso, delhi), naming);
+  // Kṛṣṇa pakṣa: the next month's name (29 Oct 2026 = Āśvayuja kṛṣṇa caturthī amānta = Kārtika kṛṣṇa caturthī pūrṇimānta).
+  assert.equal(panchanga('2026-10-29', delhi).paksha, 'कृष्ण');
+  assert.equal(label('2026-10-29', 'amanta'), 'आश्वयुज');
+  assert.equal(label('2026-10-29', 'purnimanta'), 'कार्तिक');
+  // Śukla pakṣa: unchanged (15 Nov 2026 = Kārtika śukla ṣaṣṭhī in both).
+  assert.equal(label('2026-11-15', 'amanta'), 'कार्तिक');
+  assert.equal(label('2026-11-15', 'purnimanta'), 'कार्तिक');
+  // Amāvāsyā (Dīpāvalī, 8 Nov 2026) is the last day of the amānta month, so already next month's name in pūrṇimānta.
+  assert.equal(label('2026-11-08', 'amanta'), 'आश्वयुज');
+  assert.equal(label('2026-11-08', 'purnimanta'), 'कार्तिक');
+  // Year wrap: Māgha kṛṣṇa → Phālguna, Phālguna kṛṣṇa → Caitra in pūrṇimānta.
+  assert.equal(label('2027-03-25', 'amanta'), 'फाल्गुन');
+  assert.equal(panchanga('2027-03-25', delhi).paksha, 'कृष्ण');
+  assert.equal(label('2027-03-25', 'purnimanta'), 'चैत्र');
+  assert.equal(label('2027-03-05', 'amanta'), 'माघ');
+  assert.equal(label('2027-03-05', 'purnimanta'), 'फाल्गुन');
+  // Adhika Jyeṣṭha 2026 (17 May – 15 Jun): the adhika flag and name hold in both pakṣas; the kṛṣṇa pakṣa before it is Jyeṣṭha in pūrṇimānta.
+  assert.equal(label('2026-05-25', 'purnimanta'), 'अधिक ज्येष्ठ');
+  assert.equal(label('2026-06-05', 'amanta'), 'अधिक ज्येष्ठ');
+  assert.equal(label('2026-06-05', 'purnimanta'), 'अधिक ज्येष्ठ');
+  assert.equal(label('2026-05-08', 'amanta'), 'वैशाख');
+  assert.equal(label('2026-05-08', 'purnimanta'), 'ज्येष्ठ');
+  assert.equal(monthFor(panchanga('2026-10-29', delhi), 'purnimanta').masaIndex, 7);
+  // The saṅkalpa follows the naming.
+  const pk = panchanga('2026-10-29', delhi);
+  assert.ok(pk.sankalpa.includes('आश्वयुजमासे') && !pk.sankalpa.includes('कार्तिकमासे'));
+  assert.ok(sankalpaFor(pk, 'purnimanta').includes('कार्तिकमासे') && !sankalpaFor(pk, 'purnimanta').includes('आश्वयुजमासे'));
+  assert.equal(sankalpaFor(pk, 'amanta'), pk.sankalpa);
+  checks += 18;
+
+  // New Delhi dates from drikpanchang.com (festival pages and the New Delhi Hindu calendar 2026 / 2027).
+  const DELHI: [string, string][] = [
+    ['lohri', '2026-01-13'], ['yugadi', '2026-03-19'] /* Chaitra Navratri */, ['hariyali-teej', '2026-08-15'], ['vyasa-purnima', '2026-07-29'] /* Guru Purnima */,
+    ['upakarma', '2026-08-28'] /* Raksha Bandhan */, ['kajari-teej', '2026-08-31'], ['svarna-gauri', '2026-09-14'] /* Hartalika Teej */,
+    ['sharad-purnima', '2026-10-25'], ['karva-chauth', '2026-10-29'], ['ahoi-ashtami', '2026-11-01'], ['dhanteras', '2026-11-06'],
+    ['bali-pratipada', '2026-11-10'] /* Govardhan Puja */, ['yama-dvitiya', '2026-11-11'] /* Bhai Dooj */, ['chhath-puja', '2026-11-15'],
+    ['chhath-nahay-khay', '2026-11-13'], ['chhath-kharna', '2026-11-14'], ['chhath-usha-arghya', '2026-11-16'],
+    ['lohri', '2027-01-13'], ['yugadi', '2027-04-07'], ['vyasa-purnima', '2027-07-18'], ['hariyali-teej', '2027-08-04'], ['upakarma', '2027-08-17'],
+    ['kajari-teej', '2027-08-20'], ['svarna-gauri', '2027-09-03'], ['sharad-purnima', '2027-10-14'], ['karva-chauth', '2027-10-18'],
+    ['ahoi-ashtami', '2027-10-22'], ['dhanteras', '2027-10-27'], ['bali-pratipada', '2027-10-30'], ['yama-dvitiya', '2027-10-31'], ['chhath-puja', '2027-11-04'],
+  ];
+  for (const y of ['2026', '2027']) {
+    const fs = festivalsBetween(delhi, `${y}-01-01`, `${y}-12-31`, 'smarta');
+    for (const [key, date] of DELHI.filter(([, d]) => d.startsWith(y))) {
+      assert.equal(fs.find((f) => f.key === key)?.date, date, `Delhi ${key} ${y}`);
+      checks++;
+    }
+  }
+  // Nirjalā and Devutthāna (Prabodhinī) ekādaśī already exist (Delhi, Smārta: 25 Jun and 20 Nov 2026; drik).
+  const ek = festivalsBetween(delhi, '2026-01-01', '2026-12-31', 'smarta').filter((f) => f.kind === 'ekadashi');
+  assert.ok(ek.some((f) => f.date === '2026-06-25' && f.en.startsWith('Nirjalā')));
+  assert.ok(ek.some((f) => f.date === '2026-11-20' && f.en.startsWith('Prabodhinī')));
+  checks += 2;
+  // The Karnataka names are still there next to the North ones.
+  const sg = festivalsBetween(delhi, '2026-09-14', '2026-09-14', 'smarta').find((f) => f.key === 'svarna-gauri')!;
+  assert.ok(sg.en.includes('Svarṇa Gaurī') && sg.en.includes('Hartālikā'));
+  checks++;
 }
 
 {

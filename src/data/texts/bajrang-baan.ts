@@ -12,7 +12,7 @@ import type { Mantra } from '../types';
 
 export const bajrangBaan: Mantra = {
   id: 'bajrang-baan',
-  title: 'श्रीबजरंगबाण',
+  title: 'श्री बजरंग बाण',
   titleEn: 'Sri Bajrang Baan',
   category: 'chalisa',
   order: 26,

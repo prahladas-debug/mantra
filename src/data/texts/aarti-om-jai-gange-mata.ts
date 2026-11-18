@@ -14,7 +14,7 @@ import type { Mantra } from '../types';
 
 export const aartiOmJaiGangeMata: Mantra = {
   id: 'aarti-om-jai-gange-mata',
-  title: 'ॐजयगंगेमाताआरती',
+  title: 'ॐ जय गंगे माता आरती',
   titleEn: 'Om Jai Gange Mata Aarti',
   category: 'aarti',
   order: 4,

@@ -11,7 +11,7 @@ import type { Mantra } from '../types';
 
 export const aartiTrigunatmakTrimurtiDatta: Mantra = {
   id: 'aarti-trigunatmak-trimurti-datta',
-  title: 'त्रिगुणात्मकत्रैमूर्तीदत्तआरती',
+  title: 'त्रिगुणात्मक त्रैमूर्ती दत्त आरती',
   titleEn: 'Trigunatmak Trimurti Datta (Dattatreya Aarti)',
   category: 'aarti',
   order: 11,

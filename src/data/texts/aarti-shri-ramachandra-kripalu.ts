@@ -13,7 +13,7 @@ import type { Mantra } from '../types';
 
 export const aartiShriRamachandraKripalu: Mantra = {
   id: 'aarti-shri-ramachandra-kripalu',
-  title: 'श्रीरामचन्द्रकृपालुभजुमन',
+  title: 'श्रीरामचन्द्र कृपालु भजु मन',
   titleEn: 'Shri Ramachandra Kripalu Bhaju Mana (Ram Stuti)',
   category: 'aarti',
   order: 6,

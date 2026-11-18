@@ -13,7 +13,7 @@ import type { Mantra } from '../types';
 
 export const hanumanAshtak: Mantra = {
   id: 'hanuman-ashtak',
-  title: 'संकटमोचनहनुमानाष्टक',
+  title: 'संकटमोचन हनुमानाष्टक',
   titleEn: 'Sankatmochan Hanuman Ashtak',
   category: 'chalisa',
   order: 23,

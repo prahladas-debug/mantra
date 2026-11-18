@@ -16,7 +16,7 @@ import type { Mantra } from '../types';
 
 export const durgaChalisa: Mantra = {
   id: 'durga-chalisa',
-  title: 'श्रीदुर्गाचालीसा',
+  title: 'श्री दुर्गा चालीसा',
   titleEn: 'Sri Durga Chalisa',
   category: 'chalisa',
   order: 25,

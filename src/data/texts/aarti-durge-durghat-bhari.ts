@@ -11,7 +11,7 @@ import type { Mantra } from '../types';
 
 export const aartiDurgeDurghatBhari: Mantra = {
   id: 'aarti-durge-durghat-bhari',
-  title: 'दुर्गेदुर्घटभारीआरती',
+  title: 'दुर्गे दुर्घट भारी आरती',
   titleEn: 'Durge Durghat Bhari (Durga Aarti)',
   category: 'aarti',
   order: 9,

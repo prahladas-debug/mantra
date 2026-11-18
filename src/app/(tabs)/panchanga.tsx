@@ -4,12 +4,12 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { useMemo, useState } from 'react';
 import { Pressable, ScrollView, Text, View } from 'react-native';
 import { CalendarBar } from '../../components/CalendarBar';
-import { FestivalLine, NavButton, useCalcMethod, useCalendarMode, useEkadashiRule, useMatha, useSauraStart } from '../../components/PanchangaCard';
+import { FestivalLine, NavButton, useCalcMethod, useCalendarMode, useEkadashiRule, useMatha, useMonthNaming, useSauraStart } from '../../components/PanchangaCard';
 import { DayTimeline, LimbGrid, RightNow, SegmentList, TimingRows, WindowList, nb, type Limb, type TimingRow } from '../../components/PanchangaParts';
 import { SectionHeading } from '../../components/ui';
 import { festivalsBetween } from '../../lib/festivals';
 import {
-  VARA, addDays, cityById, cityLabel, formatTime, fromJulian, moonriseBetween, panchanga, parseIso, sunriseJd, todayIn, withMethod, type Span,
+  VARA, addDays, cityById, cityLabel, formatTime, fromJulian, moonriseBetween, monthLabel, panchanga, sankalpaFor, parseIso, sunriseJd, todayIn, withMethod, type Span,
 } from '../../lib/panchanga';
 import { amritaKala, brahmaMuhurta, choghadiya, durmuhurta, hora, varjyam } from '../../lib/muhurta';
 import { paranaNote } from '../../lib/parana';
@@ -79,6 +79,7 @@ export default function PanchangaScreen() {
   const matha = useMatha();
   const [mode] = useCalendarMode();
   const [start] = useSauraStart();
+  const [naming] = useMonthNaming();
   const [method] = useCalcMethod();
   const ss = method === 'surya';
 
@@ -92,7 +93,7 @@ export default function PanchangaScreen() {
   );
   // With the Surya Siddhanta the day starts at its own sunrise; show the visible one too.
   const visibleRise = useMemo(() => (ss ? fromJulian(withMethod('drik', () => sunriseJd(city, date))) : null), [ss, date, city]);
-  const sankalpa = mode === 'saura' ? sauraSankalpa(p, saura) : p.sankalpa;
+  const sankalpa = mode === 'saura' ? sauraSankalpa(p, saura) : sankalpaFor(p, naming);
   // Names (tithi, month, festival): in plain English they read best capitalised.
   const t = (s: string) => (settings.script === 'english' ? translitTitle(s, settings.script) : translit(s, settings.script));
   const tm = (d: Date) => formatTime(d, city, date, lang);
@@ -113,7 +114,7 @@ export default function PanchangaScreen() {
     { label: T('Weekday'), items: [{ name: t(p.vasara) }] },
     { label: T('Moon sign'), items: items(p.moonRashis) },
   ];
-  const lunarMasa = t(`${p.adhika ? 'अधिक ' : ''}${p.masa}`);
+  const lunarMasa = t(monthLabel(p, naming));
   const year: Row[] = [
     [[T('Year'), 'संवत्सरः'], t(p.samvatsara)],
     [[T('Ayana'), 'अयनम्'], t(p.ayana)],

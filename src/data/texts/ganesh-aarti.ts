@@ -12,7 +12,7 @@ import type { Mantra } from '../types';
 
 export const ganeshAarti: Mantra = {
   id: 'ganesh-aarti',
-  title: 'जयगणेशदेवाआरती',
+  title: 'जय गणेश देवा आरती',
   titleEn: 'Jai Ganesh Deva Aarti',
   category: 'aarti',
   order: 27,

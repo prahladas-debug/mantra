@@ -12,7 +12,7 @@ import type { Mantra } from '../types';
 
 export const aartiJaiAmbeGauri: Mantra = {
   id: 'aarti-jai-ambe-gauri',
-  title: 'जयअम्बेगौरीआरती',
+  title: 'जय अम्बे गौरी आरती',
   titleEn: 'Jai Ambe Gauri Aarti',
   category: 'aarti',
   order: 5,

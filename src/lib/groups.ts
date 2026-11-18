@@ -78,7 +78,8 @@ function groupOf(m: Mantra): [id: string, title: string, order: number] {
     case 'chalisa': {
       if (/^tulsi-sundar-kand/.test(id)) return ['path', 'Tulsidas · Sundar Kand', 99];
       const [g, t] = deityGroup(m);
-      return [g, t, DEITY_ORDER.indexOf(g)];
+      // Hanuman's chalisa, Bajrang Baan and Ashtak are the ones most read: they lead.
+      return [g, t, g === 'hanuman' ? -1 : DEITY_ORDER.indexOf(g)];
     }
     case 'aarti': {
       if (/^bhajan-/.test(id)) return ['bhajan', 'Bhajans', 98];

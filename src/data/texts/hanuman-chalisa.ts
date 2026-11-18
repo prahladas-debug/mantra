@@ -29,7 +29,7 @@ import type { Mantra } from '../types';
 
 export const hanumanChalisa: Mantra = {
   id: 'hanuman-chalisa',
-  title: 'श्रीहनुमानचालीसा',
+  title: 'श्री हनुमान चालीसा',
   titleEn: 'Sri Hanuman Chalisa',
   category: 'chalisa',
   deity: 'Śrī Hanumān',

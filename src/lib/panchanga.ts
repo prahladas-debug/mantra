@@ -333,6 +333,42 @@ export const SAMVATSARA = [
   'पिङ्गल', 'कालयुक्ति', 'सिद्धार्थि', 'रौद्रि', 'दुर्मति', 'दुन्दुभि', 'रुधिरोद्गारि', 'रक्ताक्षि', 'क्रोधन', 'अक्षय',
 ];
 export const MASA = ['चैत्र', 'वैशाख', 'ज्येष्ठ', 'आषाढ', 'श्रावण', 'भाद्रपद', 'आश्वयुज', 'कार्तिक', 'मार्गशीर्ष', 'पुष्य', 'माघ', 'फाल्गुन'];
+/** How lunar months are named: amānta (month ends at the new moon: Karnataka, Andhra, Maharashtra, Gujarat …) or pūrṇimānta (ends at the full moon: North India). */
+export type MonthNaming = 'amanta' | 'purnimanta';
+/**
+ * States and union territories where the pūrṇimānta month is used (the default for a city there).
+ * Gujarat and Maharashtra (and the South, Odisha, Bengal, Assam) are amānta, as is Goa.
+ * The reader's own choice overrides this.
+ */
+export const PURNIMANTA_STATES = [
+  'Uttar Pradesh', 'Bihar', 'Jharkhand', 'Madhya Pradesh', 'Chhattisgarh', 'Rajasthan', 'Delhi', 'Haryana', 'Punjab',
+  'Himachal Pradesh', 'Uttarakhand', 'Jammu and Kashmir', 'Ladakh', 'Chandigarh',
+];
+/** Pūrṇimānta for cities in the northern states, else amānta. */
+export const defaultMonthNaming = (city: { state?: string }): MonthNaming => (city.state && PURNIMANTA_STATES.includes(city.state) ? 'purnimanta' : 'amanta');
+
+/**
+ * The lunar month of a day under a naming. In kṛṣṇa pakṣa the pūrṇimānta month is the next
+ * amānta one (amānta Āśvayuja kṛṣṇa = pūrṇimānta Kārtika kṛṣṇa); śukla pakṣa is the same.
+ * A day of an adhika lunation keeps its name and adhika flag in both pakṣas (the adhika month is
+ * one whole new moon to new moon span; the usual pūrṇimānta calendars differ only in how they
+ * label its kṛṣṇa half), while the kṛṣṇa pakṣa of the month before it is named as usual.
+ */
+export function monthFor(p: Pick<Panchanga, 'masaIndex' | 'adhika' | 'paksha'>, naming: MonthNaming): { masa: string; masaIndex: number; adhika: boolean } {
+  const i = naming === 'purnimanta' && p.paksha === 'कृष्ण' && !p.adhika ? (p.masaIndex + 1) % 12 : p.masaIndex;
+  return { masa: MASA[i], masaIndex: i, adhika: p.adhika };
+}
+/** "अधिक कार्तिक" style label of the day's lunar month. */
+export const monthLabel = (p: Pick<Panchanga, 'masaIndex' | 'adhika' | 'paksha'>, naming: MonthNaming) => {
+  const m = monthFor(p, naming);
+  return `${m.adhika ? 'अधिक ' : ''}${m.masa}`;
+};
+/** The day's saṅkalpa with the month named by `naming` (the saṅkalpa itself is written amānta). */
+export function sankalpaFor(p: Panchanga, naming: MonthNaming, sankalpa: string = p.sankalpa): string {
+  const m = monthFor(p, naming);
+  if (m.masaIndex === p.masaIndex) return sankalpa;
+  return sankalpa.replace(`${p.adhika ? 'अधिक' : ''}${p.masa}मासे`, `${m.adhika ? 'अधिक' : ''}${m.masa}मासे`);
+}
 export const RTU_LOC = ['वसन्तर्तौ', 'ग्रीष्मर्तौ', 'वर्षर्तौ', 'शरदृतौ', 'हेमन्तर्तौ', 'शिशिरर्तौ'];
 const RTU = ['वसन्त', 'ग्रीष्म', 'वर्षा', 'शरद्', 'हेमन्त', 'शिशिर'];
 export const TITHI = ['प्रतिपत्', 'द्वितीया', 'तृतीया', 'चतुर्थी', 'पञ्चमी', 'षष्ठी', 'सप्तमी', 'अष्टमी', 'नवमी', 'दशमी', 'एकादशी', 'द्वादशी', 'त्रयोदशी', 'चतुर्दशी'];

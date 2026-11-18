@@ -10,7 +10,7 @@ import type { Mantra } from '../types';
 
 export const aartiJaiSaraswatiMata: Mantra = {
   id: 'aarti-jai-saraswati-mata',
-  title: 'जयसरस्वतीमाताआरती',
+  title: 'जय सरस्वती माता आरती',
   titleEn: 'Jai Saraswati Mata Aarti',
   category: 'aarti',
   order: 3,

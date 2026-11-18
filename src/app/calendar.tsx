@@ -2,14 +2,14 @@ import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { Stack, router, useLocalSearchParams, type Href } from 'expo-router';
 import { useState } from 'react';
 import { Pressable, ScrollView, Text, View } from 'react-native';
-import { FestivalLine, NavButton, useCalcMethod, useCalendarMode, useSauraStart, useEkadashiRule, useMatha } from '../components/PanchangaCard';
+import { FestivalLine, NavButton, useCalcMethod, useCalendarMode, useMonthNaming, useSauraStart, useEkadashiRule, useMatha } from '../components/PanchangaCard';
 import { CalendarBar } from '../components/CalendarBar';
 import { Chip, SectionHeading } from '../components/ui';
 import { T, useI18n } from '../lib/i18n';
 import { plain } from '../lib/plain';
 import { festivalsBetween, type CalendarMode, type Festival } from '../lib/festivals';
 import { sauraDay, type SauraStart } from '../lib/sauramana';
-import { MASA, RASHI, cityById, isoDate, lunarMonthAt, sunriseJd, sunriseTithi, todayIn, withMethod, type CalcMethod, type City } from '../lib/panchanga';
+import { RASHI, cityById, isoDate, lunarMonthAt, monthLabel, sunriseJd, sunriseTithi, todayIn, withMethod, type CalcMethod, type City, type MonthNaming } from '../lib/panchanga';
 import { useSettings } from '../lib/settings';
 import { translit, translitTitle } from '../lib/transliterate';
 
@@ -39,11 +39,11 @@ interface Cell {
 }
 
 /** Grid data for a Gregorian month 'YYYY-MM' at a city, by the given calculation method. */
-function buildMonth(city: City, month: string, mode: CalendarMode, start: SauraStart, method: CalcMethod) {
-  return withMethod(method, () => buildMonthOf(city, month, mode, start));
+function buildMonth(city: City, month: string, mode: CalendarMode, start: SauraStart, method: CalcMethod, naming: MonthNaming) {
+  return withMethod(method, () => buildMonthOf(city, month, mode, start, naming));
 }
 
-function buildMonthOf(city: City, month: string, mode: CalendarMode, start: SauraStart) {
+function buildMonthOf(city: City, month: string, mode: CalendarMode, start: SauraStart, naming: MonthNaming) {
   const [y, m] = month.split('-').map(Number);
   const days = new Date(Date.UTC(y, m, 0)).getUTCDate();
   const lead = new Date(Date.UTC(y, m - 1, 1)).getUTCDay();
@@ -57,13 +57,13 @@ function buildMonthOf(city: City, month: string, mode: CalendarMode, start: Saur
   const weeks: (Cell | null)[][] = [];
   for (let i = 0; i < cells.length; i += 7) weeks.push(cells.slice(i, i + 7));
   const names: string[] = [];
-  for (const d of [1, 15, days]) {
+  for (const d of [1, 8, 15, 22, days]) {
     const iso = isoDate(y, m, d);
     let n: string;
     if (mode === 'saura') n = `${RASHI[sauraDay(city, iso, start).rasi]}`;
     else {
       const l = lunarMonthAt(sunriseJd(city, iso));
-      n = `${l.adhika ? 'अधिक ' : ''}${MASA[l.masa]}`;
+      n = monthLabel({ masaIndex: l.masa, adhika: l.adhika, paksha: sunriseTithi(city, iso) > 15 ? 'कृष्ण' : 'शुक्ल' }, naming);
     }
     if (!names.includes(n)) names.push(n);
   }
@@ -82,6 +82,7 @@ export default function CalendarScreen() {
   const matha = useMatha();
   const [mode] = useCalendarMode();
   const [start] = useSauraStart();
+  const [naming] = useMonthNaming();
   const [method] = useCalcMethod();
   // Names (tithi, month, festival): in plain English they read best capitalised.
   const t = (s: string) => (settings.script === 'english' ? translitTitle(s, settings.script) : translit(s, settings.script));
@@ -90,7 +91,7 @@ export default function CalendarScreen() {
 
   // Cheap (sunrise times and festival lists are cached in the libraries). Worked out on each
   // render: the React Compiler is not switched on for this app (app.json experiments).
-  const { y, m, first, last, weeks, lunarLabel } = buildMonth(city, month, mode, start, method);
+  const { y, m, first, last, weeks, lunarLabel } = buildMonth(city, month, mode, start, method, naming);
   const festivals = festivalsBetween(city, first, last, rule, mode, start, method, matha);
   const byDate = new Map<string, Festival[]>();
   for (const f of festivals) byDate.set(f.date, [...(byDate.get(f.date) ?? []), f]);

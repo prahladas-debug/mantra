@@ -18,7 +18,7 @@ import type { Mantra } from '../types';
 
 export const shivChalisa: Mantra = {
   id: 'shiv-chalisa',
-  title: 'श्रीशिवचालीसा',
+  title: 'श्री शिव चालीसा',
   titleEn: 'Sri Shiv Chalisa',
   category: 'chalisa',
   order: 24,

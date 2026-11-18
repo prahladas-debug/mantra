@@ -15,6 +15,7 @@ const WORK_ART: Partial<Record<string, ArtKey>> = {
   'vayu-stuti': 'vayustuti',
   'lalitha-sahasranama': 'lalita',
   'saundarya-lahari': 'saundaryalahari',
+  'tulsi-sundar-kand': 'sundarakanda',
 };
 
 /**

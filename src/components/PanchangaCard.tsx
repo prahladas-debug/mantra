@@ -6,7 +6,7 @@ import { Pressable, Text, View, useWindowDimensions } from 'react-native';
 import { defaultRule, festivalsOn, type CalendarMode, type EkadashiRule, type Festival, type MathaId } from '../lib/festivals';
 import { mathaOf } from '../lib/mathaAradhana';
 import { sauraDay, sauraSankalpa, type SauraStart } from '../lib/sauramana';
-import { addDays, cityById, panchanga, setCalcMethod, todayIn, type CalcMethod } from '../lib/panchanga';
+import { addDays, cityById, defaultMonthNaming, monthLabel, panchanga, sankalpaFor, setCalcMethod, todayIn, type CalcMethod, type MonthNaming } from '../lib/panchanga';
 import { getMantraInfo } from '../data';
 import { useClockTick, useSettings } from '../lib/settings';
 import { plain } from '../lib/plain';
@@ -56,6 +56,7 @@ function makePref<T extends string>(key: string, allowed: readonly T[], onChange
 
 const rulePref = makePref<EkadashiRule>('mantra.panchanga.ekadashiRule', ['smarta', 'madhva']);
 const modePref = makePref<CalendarMode>('mantra.panchanga.calendarMode', ['chandra', 'saura']);
+const namingPref = makePref<MonthNaming>('mantra.panchanga.monthNaming', ['amanta', 'purnimanta']);
 const startPref = makePref<SauraStart>('mantra.panchanga.sauraStart', ['next', 'same']);
 // The pañcāṅga library keeps the method module-wide; the preference drives it.
 const calcPref = makePref<CalcMethod>('mantra.panchanga.calcMethod', ['drik', 'surya'], setCalcMethod);
@@ -82,6 +83,18 @@ export function useCalendarMode(): [CalendarMode, (m: CalendarMode) => void] {
   const stored = useSyncExternalStore(modePref.subscribe, modePref.get, () => null);
   const set = useCallback((m: CalendarMode) => modePref.set(m), []);
   return [stored ?? 'chandra', set];
+}
+
+/**
+ * Lunar month naming: amānta (month ends at the new moon: South, Gujarat, Maharashtra) or
+ * pūrṇimānta (ends at the full moon: North India). The reader's explicit choice, else the
+ * default for the selected city's state (defaultMonthNaming).
+ */
+export function useMonthNaming(): [MonthNaming, (n: MonthNaming) => void] {
+  const { settings } = useSettings();
+  const stored = useSyncExternalStore(namingPref.subscribe, namingPref.get, () => null);
+  const set = useCallback((n: MonthNaming) => namingPref.set(n), []);
+  return [stored ?? defaultMonthNaming(cityById(settings.city)), set];
 }
 
 /** Sauramāna month start for a daytime saṅkrānti: the next day (default) or the same day. */
@@ -212,6 +225,7 @@ export function TodayCard() {
   const matha = useMatha();
   const [mode] = useCalendarMode();
   const [start] = useSauraStart();
+  const [naming] = useMonthNaming();
   const all = useMemo(() => festivalsOn(city, today, rule, mode, start, method, matha), [city, today, rule, mode, start, method, matha]);
   // Month-long periods (Cāturmāsya, snāna months, Dhanurmāsa) get a full row on their first day
   // only; on the other days they share one quiet line, so the card stays short.
@@ -251,7 +265,7 @@ export function TodayCard() {
           <Text style={{ color: '#FBF3E4', fontSize: 24, lineHeight: 32, fontFamily: heroFont, fontWeight: heroFont ? undefined : '700' }} numberOfLines={2}>
             {saura
               ? `${t(`${saura.name} ${saura.day} · ${p.paksha} ${p.tithi}`)}`
-              : t(`${p.adhika ? 'अधिक ' : ''}${p.masa} ${p.paksha} ${p.tithi}`)}
+              : t(`${monthLabel(p, naming)} ${p.paksha} ${p.tithi}`)}
           </Text>
           <Text style={{ color: '#FBF3E4D9', fontSize: 15 }}>{t(`${p.nakshatra} · ${p.vasara}`)}</Text>
           {next && (
@@ -310,7 +324,8 @@ export function SankalpaCard() {
   const { p, city, today, method } = usePanchanga();
   const [mode] = useCalendarMode();
   const [start] = useSauraStart();
-  const sankalpa = mode === 'saura' ? sauraSankalpa(p, sauraDay(city, today, start, method)) : p.sankalpa;
+  const [naming] = useMonthNaming();
+  const sankalpa = mode === 'saura' ? sauraSankalpa(p, sauraDay(city, today, start, method)) : sankalpaFor(p, naming);
   return (
     <View style={{ marginTop: 14, padding: 12, borderRadius: 12, borderWidth: 1, borderColor: theme.cardBorder, backgroundColor: theme.card }}>
       <Text style={{ color: theme.textMuted, fontSize: 14, fontWeight: '700', marginBottom: 6 }}>

@@ -12,7 +12,7 @@ import type { Mantra } from '../types';
 
 export const shivAarti: Mantra = {
   id: 'shiv-aarti',
-  title: 'ॐजयशिवओंकाराआरती',
+  title: 'ॐ जय शिव ओंकारा आरती',
   titleEn: 'Om Jai Shiv Omkara Aarti',
   category: 'aarti',
   order: 29,

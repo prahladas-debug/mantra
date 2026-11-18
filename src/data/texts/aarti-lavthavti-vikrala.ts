@@ -11,7 +11,7 @@ import type { Mantra } from '../types';
 
 export const aartiLavthavtiVikrala: Mantra = {
   id: 'aarti-lavthavti-vikrala',
-  title: 'लवथवतीविक्राळाशंकरआरती',
+  title: 'लवथवती विक्राळा शंकर आरती',
   titleEn: 'Lavthavti Vikrala (Shiva Aarti)',
   category: 'aarti',
   order: 10,

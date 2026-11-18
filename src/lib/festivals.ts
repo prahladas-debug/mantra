@@ -12,7 +12,7 @@
  *   pūrvāhṇa   sunrise to midday                    midday     the instant of local noon
  *   madhyāhna  3rd fifth of the daytime              aparāhṇa   4th fifth of the daytime
  *   sāyāhna    last fifth of the daytime             pradoṣa    sunset + 1/5 of the night
- *   niśītha    the middle muhūrta (1/15) of the night
+ *   niśītha    the middle muhūrta (1/15) of the night   moonrise   candrodaya (Karvā Cautha, Ahoi)
  * Every pañcāṅga day (sunrise→sunrise) touched by the tithi is scored by the fraction of
  * that window the tithi covers; the best day wins, and a tie (both fully covered) goes to
  * the earlier or later day as the festival's rule prefers. If no day's window is touched,
@@ -101,7 +101,7 @@ const ARUNODAYA = 96 * MIN;
  */
 const SS_MADHVA_VEDHA = 0.1192;
 
-type Kala = 'udaya' | 'arunodaya' | 'purvahna' | 'midday' | 'madhyahna' | 'aparahna' | 'sayahna' | 'pradosha' | 'nishitha';
+type Kala = 'udaya' | 'arunodaya' | 'purvahna' | 'midday' | 'madhyahna' | 'aparahna' | 'sayahna' | 'pradosha' | 'nishitha' | 'moonrise';
 
 /** The window [start, end] (JD UT) of a kāla on a pañcāṅga day. */
 function kalaWindow(city: City, day: string, kala: Kala): [number, number] {
@@ -120,6 +120,7 @@ function kalaWindow(city: City, day: string, kala: Kala): [number, number] {
     case 'sayahna': return [r + (4 * dl) / 5, s];
     case 'pradosha': return [s, s + nl / 5];
     case 'nishitha': return [s + nl / 2 - nl / 30, s + nl / 2 + nl / 30];
+    case 'moonrise': { const m = moonriseBetween(city.lat, city.lon, r, r2) ?? s; return [m, m]; }
   }
 }
 
@@ -302,19 +303,19 @@ interface TithiRule {
 // masa: 0 Caitra, 1 Vaiśākha, 2 Jyeṣṭha, 3 Āṣāḍha, 4 Śrāvaṇa, 5 Bhādrapada, 6 Āśvayuja,
 // 7 Kārtika, 8 Mārgaśīrṣa, 9 Pauṣa, 10 Māgha, 11 Phālguna. tithi 1–30 (16–30 kṛṣṇa).
 const RULES: TithiRule[] = [
-  { key: 'yugadi', name: 'युगादि', en: 'Yugādi (Ugādi) · Cāndramāna new year', masa: 0, tithi: 1, kala: 'udaya' },
+  { key: 'yugadi', name: 'युगादि · चैत्रनवरात्रारम्भः', en: 'Yugādi (Ugādi) · Cāndramāna new year · Caitra Navarātri begins (North)', masa: 0, tithi: 1, kala: 'udaya' },
   { key: 'rama-navami', name: 'श्रीरामनवमी', en: 'Śrī Rāma Navamī', masa: 0, tithi: 9, kala: 'midday', textId: 'rama-raksha-stotram', note: 'Navamī at midday (the moment of Śrī Rāma’s birth); ISKCON calendars may observe the next day.' },
   { key: 'hanuman-jayanti-north', name: 'हनुमज्जयन्ती (चैत्र)', en: 'Hanumān Jayantī (North Indian, Caitra pūrṇimā)', masa: 0, tithi: 15, kala: 'udaya', textId: 'hanuman-chalisa', note: 'North-Indian date; Karnataka observes Hanumad vrata on Mārgaśīrṣa śukla trayodaśī.' },
   { key: 'akshaya-tritiya', name: 'अक्षयतृतीया', en: 'Akṣaya Tṛtīyā', masa: 1, tithi: 3, kala: 'purvahna', textId: 'kanakadhara-stotram' },
   { key: 'shankara-jayanti', name: 'शङ्कर जयन्ती', en: 'Śaṅkara Jayantī', masa: 1, tithi: 5, kala: 'madhyahna' },
   { key: 'narasimha-jayanti', name: 'नृसिंह जयन्ती', en: 'Narasiṃha Jayantī', masa: 1, tithi: 14, kala: 'sayahna', textId: 'vayu-stuti' },
   { key: 'vata-purnima', name: 'वटपूर्णिमा · वटसावित्री व्रत', en: 'Vaṭa Pūrṇimā · Vaṭa Sāvitrī vrata (Jyeṣṭha pūrṇimā)', masa: 2, tithi: 15, kala: 'aparahna', note: 'Pūrṇimā in the aparāhṇa (matches drikpanchang 2025–2031). Amānta (Karnataka, Maharashtra, Gujarat) date; North-Indian calendars keep Vaṭa Sāvitrī on Jyeṣṭha amāvāsyā.' },
-  { key: 'vyasa-purnima', name: 'व्यासपूर्णिमा', en: 'Vyāsa (Guru) Pūrṇimā', masa: 3, tithi: 15, kala: 'udaya', note: 'Cāturmāsya vrata of sannyāsins begins.' },
+  { key: 'vyasa-purnima', name: 'व्यासपूर्णिमा · गुरुपूर्णिमा', en: 'Vyāsa (Guru) Pūrṇimā', masa: 3, tithi: 15, kala: 'udaya', note: 'Cāturmāsya vrata of sannyāsins begins.' },
   { key: 'naga-panchami', name: 'नागपञ्चमी', en: 'Nāga Pañcamī', masa: 4, tithi: 5, kala: 'udaya' },
-  { key: 'upakarma', name: 'उपाकर्म', en: 'Upākarma (Yajurveda) · Rakṣā bandhana', masa: 4, tithi: 15, kala: 'udaya', textId: 'gayatri-mantra', note: 'Yajurvedī upākarma on Śrāvaṇa pūrṇimā; Ṛgvedīs use the Śravaṇa-nakṣatra day of Śrāvaṇa, Sāmavedīs Hasta in Bhādrapada.' },
+  { key: 'upakarma', name: 'उपाकर्म · रक्षाबन्धन', en: 'Upākarma (Yajurveda) · Rakṣā bandhana (Rakhi)', masa: 4, tithi: 15, kala: 'udaya', textId: 'gayatri-mantra', note: 'Yajurvedī upākarma on Śrāvaṇa pūrṇimā; Ṛgvedīs use the Śravaṇa-nakṣatra day of Śrāvaṇa, Sāmavedīs Hasta in Bhādrapada.' },
   { key: 'raghavendra-aradhana', name: 'श्रीराघवेन्द्र आराधना', en: 'Śrī Rāghavendra Ārādhanā (madhya)', masa: 4, tithi: 17, kala: 'udaya', textId: 'raghavendra-stotram', note: 'Pūrva-ārādhanā the day before, uttara-ārādhanā the day after (Mantrālaya).' },
   { key: 'krishna-janmashtami', name: 'श्रीकृष्णजन्माष्टमी', en: 'Śrī Kṛṣṇa Janmāṣṭamī', masa: 4, tithi: 23, kala: 'nishitha', textId: 'krishna-ashtottara-shatanama', note: 'Smārta rule: aṣṭamī at midnight. Mādhvas observe the day aṣṭamī prevails at moonrise (arghya to the Moon), often with Rohiṇī; Udupi/maṭha dates can differ by a day.' },
-  { key: 'svarna-gauri', name: 'स्वर्णगौरी व्रत', en: 'Svarṇa Gaurī vrata', masa: 5, tithi: 3, kala: 'udaya', textId: 'gauri-vrata' },
+  { key: 'svarna-gauri', name: 'स्वर्णगौरी व्रत · हरतालिका तीज', en: 'Svarṇa Gaurī vrata (Karnataka) · Hartālikā Tīj (North)', note: 'Bhādrapada śukla tṛtīyā: Svarṇa Gaurī in Karnataka and Andhra, Hartālikā Tīj in North India (women fast for Śiva–Pārvatī; drikpanchang New Delhi 14 Sep 2026).', masa: 5, tithi: 3, kala: 'udaya', textId: 'gauri-vrata' },
   { key: 'ganesha-chaturthi', name: 'गणेश चतुर्थी', en: 'Gaṇeśa Caturthī', masa: 5, tithi: 4, kala: 'madhyahna', textId: 'ganesha-pancharatnam' },
   { key: 'ananta-chaturdashi', name: 'अनन्तचतुर्दशी', en: 'Ananta Caturdaśī', masa: 5, tithi: 14, kala: 'udaya', textId: 'ananta-vrata' },
   { key: 'mahalaya-amavasya', name: 'महालय अमावास्या', en: 'Mahālaya Amāvāsyā (Sarvapitṛ)', masa: 5, tithi: 30, kala: 'aparahna', textId: 'shraddha' },
@@ -327,7 +328,7 @@ const RULES: TithiRule[] = [
   { key: 'madhva-jayanti', name: 'मध्वजयन्ती', en: 'Madhva Jayantī', masa: 6, tithi: 10, kala: 'udaya', textId: 'sumadhva-vijaya-01', note: 'Śrī Madhvācārya’s birthday, Āśvayuja śukla daśamī (Vijayadaśamī), kept on the day daśamī prevails at sunrise — the day after Vijayadaśamī when daśamī begins after sunrise.' },
   { key: 'naraka-chaturdashi', name: 'नरकचतुर्दशी', en: 'Naraka Caturdaśī (abhyaṅga snāna)', masa: 6, tithi: 29, kala: 'arunodaya' },
   { key: 'deepavali', name: 'दीपावली · लक्ष्मीपूजा', en: 'Dīpāvalī · Lakṣmī pūjā (amāvāsyā)', masa: 6, tithi: 30, kala: 'pradosha', prefer: 'second', textId: 'sri-sukta' },
-  { key: 'bali-pratipada', name: 'बलिपाड्यमी', en: 'Bali Pratipadā · Govardhana pūjā', masa: 7, tithi: 1, kala: 'udaya' },
+  { key: 'bali-pratipada', name: 'बलिपाड्यमी · गोवर्धनपूजा · अन्नकूट', en: 'Bali Pratipadā · Govardhana pūjā · Annakūṭa', masa: 7, tithi: 1, kala: 'udaya' },
   { key: 'kartika-purnima', name: 'कार्तिकपूर्णिमा', en: 'Kārtika Pūrṇimā', masa: 7, tithi: 15, kala: 'udaya' },
   { key: 'uttana-dvadashi', name: 'उत्थान द्वादशी · तुलसीविवाह', en: 'Uttāna Dvādaśī · Tulasī vivāha', masa: 7, tithi: 12, kala: 'udaya', textId: 'tulasi-puja' },
   { key: 'gita-jayanti', name: 'गीताजयन्ती', en: 'Gītā Jayantī', masa: 8, tithi: 11, kala: 'udaya', textId: 'bhagavad-gita-01' },
@@ -337,6 +338,16 @@ const RULES: TithiRule[] = [
   { key: 'madhva-navami', name: 'मध्वनवमी', en: 'Madhva Navamī', masa: 10, tithi: 9, kala: 'udaya', textId: 'dvadasha-stotra-01' },
   { key: 'maha-shivaratri', name: 'महाशिवरात्रि', en: 'Mahāśivarātri', masa: 10, tithi: 29, kala: 'nishitha', textId: 'lingashtakam' },
   { key: 'holika', name: 'होलिका · कामदहन', en: 'Holikā dahana · Kāma dahana (Phālguna pūrṇimā)', masa: 11, tithi: 15, kala: 'pradosha', note: 'Pūrṇimā at pradoṣa, avoiding bhadrā (viṣṭi karaṇa). Rangavalī Holī (colours) is the next day.' },
+  // ---- North-Indian observances (dates checked against drikpanchang.com, New Delhi) ----
+  // Karvā Cauth = Kārtika kṛṣṇa caturthī in pūrṇimānta = Āśvayuja kṛṣṇa caturthī here; the fast is broken at moonrise.
+  { key: 'karva-chauth', name: 'करवा चौथ', en: 'Karvā Cauth (Karaka Caturthī)', masa: 6, tithi: 19, kala: 'moonrise', note: 'North-Indian: Kārtika kṛṣṇa caturthī (pūrṇimānta) = Āśvayuja kṛṣṇa caturthī (amānta). Married women fast from sunrise and break the fast at moonrise, on the day caturthī prevails at moonrise.', textId: 'karva-chauth-vrat' },
+  { key: 'ahoi-ashtami', name: 'अहोई अष्टमी', en: 'Ahoī Aṣṭamī', masa: 6, tithi: 23, kala: 'pradosha', note: 'North-Indian: Kārtika kṛṣṇa aṣṭamī (pūrṇimānta) = Āśvayuja kṛṣṇa aṣṭamī (amānta). Mothers fast for their children and break the fast at star-sighting after pradoṣa.', textId: 'ahoi-ashtami-vrat' },
+  { key: 'sharad-purnima', name: 'शरत्पूर्णिमा · कोजागरी', en: 'Śarad Pūrṇimā · Kojāgarī (Rāsa pūrṇimā)', masa: 6, tithi: 15, kala: 'nishitha', note: 'Āśvayuja pūrṇimā: kheer is kept in the moonlight. Dated by pūrṇimā at midnight (niśītha).' },
+  { key: 'hariyali-teej', name: 'हरियाली तीज', en: 'Hariyālī Tīj', masa: 4, tithi: 3, kala: 'udaya', note: 'Śrāvaṇa śukla tṛtīyā (North India, Rajasthan): Śiva–Pārvatī, swings and mehndi.' },
+  { key: 'kajari-teej', name: 'कजरी तीज', en: 'Kajarī Tīj (Bhādrapada kṛṣṇa tṛtīyā, pūrṇimānta)', masa: 4, tithi: 18, kala: 'udaya', note: 'Kṛṣṇa tṛtīyā: Bhādrapada in pūrṇimānta calendars, Śrāvaṇa in amānta ones (same day). Neem worship in the evening.' },
+  // Hartālikā Tīj is the same day as Svarṇa Gaurī (Bhādrapada śukla tṛtīyā): see 'svarna-gauri'.
+  { key: 'chhath-puja', name: 'छठ पूजा · सन्ध्या अर्घ्य', en: 'Chhaṭh Pūjā · Sandhyā Arghya (Kārtika śukla ṣaṣṭhī)', masa: 7, tithi: 6, kala: 'sayahna', note: 'Four days: Nahāy-Khāy (caturthī, 2 days before), Kharnā (pañcamī, the day before), Sandhyā Arghya to the setting Sun on ṣaṣṭhī (this day) and Uṣā Arghya to the rising Sun the next morning.', textId: 'chhath-puja' },
+  { key: 'dhanteras', name: 'धनतेरस · धनत्रयोदशी', en: 'Dhanteras (Dhanatrayodaśī) · Dhanvantari Jayantī', masa: 6, tithi: 28, kala: 'pradosha', note: 'Āśvayuja kṛṣṇa trayodaśī at pradoṣa (Lakṣmī–Kubera pūjā, Yama-dīpa). The Mādhva Jalapūraṇa Trayodaśī is kept on the day trayodaśī prevails at sunrise, which can be a day later.' },
   ...madhvaRules(),
 ];
 
@@ -359,7 +370,7 @@ function madhvaRules(): TithiRule[] {
     { key: 'rishi-panchami', name: 'ऋषिपञ्चमी', en: 'Ṛṣi Pañcamī', masa: 5, tithi: 5, kala: 'madhyahna', note: 'Bhādrapada śukla pañcamī, kept on the day pañcamī prevails at midday.' },
     { key: 'vamana-jayanti', name: 'वामनजयन्ती', en: 'Vāmana Jayantī', masa: 5, tithi: 12, kala: 'udaya', note: 'Bhādrapada śukla dvādaśī (Śravaṇa dvādaśī), the day after Parivartinī ekādaśī.' },
     { key: 'jalapurana-trayodashi', name: 'जलपूरणत्रयोदशी · धनत्रयोदशी', en: 'Jalapūraṇa (Dhana) Trayodaśī', masa: 6, tithi: 28, kala: 'udaya', note: 'Āśvayuja kṛṣṇa trayodaśī at sunrise, as in the maṭha pañcāṅgas: the vessels are filled with water for the next morning’s abhyaṅga snāna; Yama-dīpa is lit at dusk. North-Indian calendars keep Dhanteras on the day trayodaśī prevails at pradoṣa, which can be the day before.' },
-    { key: 'yama-dvitiya', name: 'यमद्वितीया · भगिनीहस्तभोजनम्', en: 'Yama Dvitīyā · Bhaginī-hasta bhojana', masa: 7, tithi: 2, kala: 'udaya', note: 'Kārtika śukla dvitīyā: brothers take a meal from their sister’s hand.' },
+    { key: 'yama-dvitiya', name: 'यमद्वितीया · भाईदूज · भगिनीहस्तभोजनम्', en: 'Yama Dvitīyā · Bhāī Dūj · Bhaginī-hasta bhojana', masa: 7, tithi: 2, kala: 'udaya', note: 'Kārtika śukla dvitīyā: brothers take a meal from their sister’s hand (Bhāī Dūj in North India).' },
     { key: 'subrahmanya-shashti', name: 'सुब्रह्मण्यषष्ठी', en: 'Subrahmaṇya (Skanda / Campā) Ṣaṣṭhī', masa: 8, tithi: 6, kala: 'udaya' },
     { key: 'bhishmashtami', name: 'भीष्माष्टमी', en: 'Bhīṣmāṣṭamī', masa: 10, tithi: 8, kala: 'udaya', textId: 'bhishma-stuti', note: 'Māgha śukla aṣṭamī, the day Bhīṣma gave up his body; tarpaṇa to Bhīṣma.' },
     { key: 'vadiraja-jayanti', name: 'श्रीवादिराजजयन्ती', en: 'Śrī Vādirāja Jayantī', masa: 10, tithi: 12, kala: 'udaya', madhvaOnly: true, textId: 'lakshmi-shobhane', note: 'Birthday of Śrī Vādirāja Tīrtha (Hūvinakere), Māgha śukla dvādaśī (Bhīma dvādaśī).' },
@@ -611,6 +622,14 @@ function festivalsIn(city: City, from: string, to: string, rule: EkadashiRule, m
           note: back === 0 ? 'Śrāvaṇa pūrṇimā is itself a Friday this year, so the vrata is on the pūrṇimā; a few families keep the previous Friday.' : undefined,
         });
       }
+      if (r.key === 'chhath-puja') {
+        const days: [number, string, string, string][] = [
+          [-2, 'chhath-nahay-khay', 'छठ · नहाय-खाय', 'Chhaṭh · Nahāy-Khāy (day 1)'],
+          [-1, 'chhath-kharna', 'छठ · खरना', 'Chhaṭh · Kharnā (day 2)'],
+          [1, 'chhath-usha-arghya', 'छठ · उषा अर्घ्य · पारण', 'Chhaṭh · Uṣā Arghya, pāraṇa (day 4)'],
+        ];
+        for (const [off, k, name, en] of days) out.push({ date: addDays(date, off), key: k, name, en, kind: 'festival', calendar: 'chandra' });
+      }
       if (r.key === 'mahalaya-amavasya') {
         const p = observanceDay(city, tithiStart(l, 16), tithiEnd(l, 16), 'udaya');
         out.push({ date: p, endDate: date, key: 'pitru-paksha', name: 'पितृपक्ष (महालयपक्ष)', en: 'Pitṛ pakṣa (Mahālaya pakṣa)', kind: 'period', calendar: 'chandra', note: `Bhādrapada kṛṣṇa pakṣa, ${p} → ${date}: daily mahālaya śrāddha.` });
@@ -636,6 +655,7 @@ function festivalsIn(city: City, from: string, to: string, rule: EkadashiRule, m
   const [y0] = parseIso(from);
   const [y1] = parseIso(to);
   for (let y = y0 - 1; y <= y1 + 1; y++) {
+    out.push({ date: `${y}-01-13`, key: 'lohri', name: 'लोहड़ी', en: 'Lohṛī', kind: 'solar', calendar: 'civil', note: 'The evening before Makara Saṅkrānti in Punjab and North India, kept on 13 January (bonfire).' });
     out.push(solarFestival(city, 9, `${y}-01-12`, 'makara-sankranti', 'मकरसङ्क्रान्ति', 'Makara Saṅkrānti · Uttarāyaṇa puṇyakāla', 'aditya-hridayam'));
     if (mode === 'chandra') {
       out.push(solarFestival(city, 0, `${y}-04-12`, 'mesha-sankranti', 'मेषसङ्क्रान्ति · सौरमान युगादि', 'Meṣa Saṅkrānti · Sauramāna Yugādi (Viṣu)'));
