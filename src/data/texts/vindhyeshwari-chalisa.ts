@@ -58,7 +58,7 @@ export const vindhyeshwariChalisa: Mantra = {
         {
           n: 3,
           text: 'कष्ट निवारिनी जय जग देवी ।\nजय जय जय जय असुरासुर सेवी ॥',
-          meaning: { en: 'Destroyer of trouble, victory, goddess of the world, whom saints, demons and gods serve.' },
+          meaning: { en: 'Destroyer of trouble, victory, goddess of the world, whom gods and demons alike serve.' },
         },
         {
           n: 4,

@@ -38,6 +38,11 @@
  * D's Prabodhini page tells a different Puranic account, not used here. B's Parivartini page is titled Parshva Ekadashi.
  * The frame of each katha is as B prints it: Yudhishthira asks in most, Arjuna in Kamika, Aja, Papankusha, Papamochani and
  * Parama. The Vedic and Sanskrit verses of the Puranic originals are not in these Hindi copies and are not added.
+ * SECOND READING (Nov 2026). Typing slips mended (B has most of them too): 5.2 'और तो'->'तो', 5.10 ह्रषीकेश->हृषीकेश, 6.0 'कृष्ण से कहा',
+ * 6.9 doubled 'शाप श्राप', 7.9 नरपराध->निरपराध, 8.9 मृत्य->मृत्यु, 8.10 सदश्रिणा->सदक्षिणा, 9.10 doubled 'वह', 10.3 संस्कारा, 10.5 गौतम्,
+ * 11.9 पष्ठ->पृष्ठ, 12.6 श्रद्धापूर्व, 13.7 'करके को', 17.2 पूर्वजो, 18.5 बाह्मण, 18.11 वस्तुअओं, 22.6 सम्पत्ति->सम्मति, 22.7 प्रमाण->प्रणाम,
+ * 23.1 repeated sentence dropped and 'बारे मैं', 26.5 हसलिए, 26.12 मा-पिता, 26.14 स्त्रीकी. Restored in 26.5 the three B sentences
+ * (Meru / vidya-bhumi / what is written in fate) that the English already rendered. Full log: tools/builders/audit/ekadashi.tsv.
  *
  * LENGTH. Each katha is held to 6-15 units. Where B runs longer (Nirjala, Rama, Utpanna, Saphala, Pausha, Shattila,
  * Papamochani, Parama, Apara, Kamika, Devshayani) the rules, praise-lists and the repeated questions of Yudhishthira
@@ -107,7 +112,7 @@ export const ekadashiVratKathas: Mantra = {
         },
         {
           text: "प्राचीनकाल में भोगीपुर नामक एक नगर था। वहाँ पर अनेक ऐश्वर्यों से युक्त पुण्डरीक नाम का एक राजा राज्य करता था। भोगीपुर नगर में अनेक अप्सरा, किन्नर तथा गन्धर्व वास करते थे। उनमें से एक जगह ललिता और ललित नाम के दो स्त्री-पुरुष अत्यंत वैभवशाली घर में निवास करते थे। उन दोनों में अत्यंत स्नेह था, यहाँ तक कि अलग-अलग हो जाने पर दोनों व्याकुल हो जाते थे।",
-          meaning: { en: "Long ago there was a city called Bhogipura, ruled by a king named Pundarika, who had every kind of splendour. Apsaras, kinnaras and gandharvas lived there, and among them a couple, Lalita and Lalita's husband Lalit, lived in a rich house. They loved each other so much that when parted they were restless." },
+          meaning: { en: "Long ago there was a city called Bhogipura, ruled by a king named Pundarika, who had every kind of splendour. Apsaras, kinnaras and gandharvas lived there, and among them a couple, Lalita and Lalit, lived in a rich house. They loved each other so much that when parted they were restless." },
         },
         {
           text: "एक समय पुण्डरीक की सभा में अन्य गंधर्वों सहित ललित भी गान कर रहा था। गाते-गाते उसको अपनी प्रिय ललिता का ध्यान आ गया और उसका स्वर भंग होने के कारण गाने का स्वरूप बिगड गया। ललित के मन के भाव जानकर कार्कोट नामक नाग ने पद भंग होने का कारण राजा से कह दिया। तब पुण्डरीक ने क्रोधपूर्वक कहा कि तू मेरे सामने गाता हुआ अपनी स्त्री का स्मरण कर रहा है। अतः तू नरभक्षी दैत्य बनकर अपने कर्म का फल भोग।",
@@ -306,7 +311,7 @@ export const ekadashiVratKathas: Mantra = {
           meaning: { en: "Then Vedavyasa said: on the Ekadashi of both fortnights, grain must not be eaten. On Dvadashi one should bathe, be pure and worship Lord Keshava with flowers. Then, after the daily duties, one should first feed brahmins and only at the end eat oneself." },
         },
         {
-          text: "यह सुनकर भीमसेन बोले: परम बुद्धिमान पितामह! मेरी उत्तम बात सुनिये। राजा युधिष्ठिर, माता कुन्ती, द्रौपदी, अर्जुन, नकुल और सहदेव, ये एकादशी को कभी भोजन नहीं करते तथा मुझसे भी हमेशा यही कहते हैं कि भीमसेन एकादशी को तुम भी न खाया करो परन्तु मैं उन लोगों से यही कहता हूँ कि मुझसे भूख नहीं सही जायेगी। भीमसेन की बात सुनकर व्यासजी ने कहा: यदि तुम नरक को दूषित समझते हो और तुम्हें स्वर्गलोक की प्राप्ति अभीष्ट है और तो दोनों पक्षों की एकादशियों के दिन भोजन नहीं करना चाहिए।",
+          text: "यह सुनकर भीमसेन बोले: परम बुद्धिमान पितामह! मेरी उत्तम बात सुनिये। राजा युधिष्ठिर, माता कुन्ती, द्रौपदी, अर्जुन, नकुल और सहदेव, ये एकादशी को कभी भोजन नहीं करते तथा मुझसे भी हमेशा यही कहते हैं कि भीमसेन एकादशी को तुम भी न खाया करो परन्तु मैं उन लोगों से यही कहता हूँ कि मुझसे भूख नहीं सही जायेगी। भीमसेन की बात सुनकर व्यासजी ने कहा: यदि तुम नरक को दूषित समझते हो और तुम्हें स्वर्गलोक की प्राप्ति अभीष्ट है तो दोनों पक्षों की एकादशियों के दिन भोजन नहीं करना चाहिए।",
           meaning: { en: "Hearing this, Bhimasena said: O wise grandfather, hear my good word. King Yudhishthira, Mother Kunti, Draupadi, Arjuna, Nakula and Sahadeva never eat on Ekadashi, and they always tell me not to eat either; but I tell them I cannot bear hunger. Hearing him, Vyasa said: if you think hell foul and want heaven, you must not eat on the Ekadashis of both fortnights." },
         },
         {
@@ -338,7 +343,7 @@ export const ekadashiVratKathas: Mantra = {
           meaning: { en: "Whatever a person does on Nirjala Ekadashi, bathing, giving, japa or homa, becomes imperishable, as Lord Krishna has said. By fasting well by the rite a person reaches the Vaishnava state. One who eats grain on Ekadashi eats sin; in this world he is like a chandala and after death he comes to a bad end." },
         },
         {
-          text: "पहले दन्तधावन करके यह नियम लेना चाहिए कि मैं भगवान केशव की प्रसन्नता के लिए एकादशी को निराहार रहकर आचमन के सिवा दूसरे जल का भी त्याग करुँगा। द्वादशी को देवेश्वर भगवान विष्णु का पूजन करना चाहिए। गन्ध, धूप, पुष्प और सुन्दर वस्त्र से विधिपूर्वक पूजन करके जल के घडे के दान का संकल्प करते हुए निम्नांकित मंत्र का उच्चारण करे। संसारसागर से तारने वाले हे देव ह्रषीकेश! इस जल के घडे का दान करने से आप मुझे परम गति की प्राप्ति कराइये।",
+          text: "पहले दन्तधावन करके यह नियम लेना चाहिए कि मैं भगवान केशव की प्रसन्नता के लिए एकादशी को निराहार रहकर आचमन के सिवा दूसरे जल का भी त्याग करुँगा। द्वादशी को देवेश्वर भगवान विष्णु का पूजन करना चाहिए। गन्ध, धूप, पुष्प और सुन्दर वस्त्र से विधिपूर्वक पूजन करके जल के घडे के दान का संकल्प करते हुए निम्नांकित मंत्र का उच्चारण करे। संसारसागर से तारने वाले हे देव हृषीकेश! इस जल के घडे का दान करने से आप मुझे परम गति की प्राप्ति कराइये।",
           meaning: { en: "One should first clean the teeth and take the resolve: for the pleasure of Lord Keshava I shall stay without food on Ekadashi and give up even water other than the sip for rinsing. On Dvadashi worship Lord Vishnu with perfume, incense, flowers and fine cloth, and resolving to give a pot of water, say this mantra: O Hrishikesha, who carry beings across the ocean of worldly life, by my giving this pot of water grant me the highest state." },
         },
         {
@@ -357,7 +362,7 @@ export const ekadashiVratKathas: Mantra = {
       note: "Ashadha krishna. Krishna to Yudhishthira.",
       verses: [
         {
-          text: "महाभारत काल की बात है कि एक बार धर्मराज युधिष्ठिर ने भगवान श्री कृष्ण कहा: हे त्रिलोकीनाथ! मैंने ज्येष्ठ माह के शुक्ल पक्ष की निर्जला एकादशी की कथा सुनी। अब आप कृपा करके आषाढ माह के कृष्ण पक्ष की एकादशी की कथा सुनाइये। इस एकादशी का नाम तथा माहात्म्य क्या है? सो अब मुझे विस्तारपूर्वक बतायें।",
+          text: "महाभारत काल की बात है कि एक बार धर्मराज युधिष्ठिर ने भगवान श्री कृष्ण से कहा: हे त्रिलोकीनाथ! मैंने ज्येष्ठ माह के शुक्ल पक्ष की निर्जला एकादशी की कथा सुनी। अब आप कृपा करके आषाढ माह के कृष्ण पक्ष की एकादशी की कथा सुनाइये। इस एकादशी का नाम तथा माहात्म्य क्या है? सो अब मुझे विस्तारपूर्वक बतायें।",
           meaning: { en: "In the days of the Mahabharata, Dharmaraja Yudhishthira once said to Lord Krishna: O Lord of the three worlds, I have heard the katha of Nirjala Ekadashi of Jyeshtha shukla. Now please tell me the katha of the Ekadashi of Ashadha krishna; what are its name and greatness? Tell me in detail." },
         },
         {
@@ -393,7 +398,7 @@ export const ekadashiVratKathas: Mantra = {
           meaning: { en: "Hearing the sage Hemamali said: O best of sages, I was a servant of King Kubera. My name is Hemamali." },
         },
         {
-          text: "मैं प्रतिदिन मानसरोवर से फूल लाकर शिव पूजा के समय कुबेर को दिया करता था। एक दिन पत्नी सहवास के सुख में फँस जाने के कारण मुझे समय का ज्ञान ही नहीं रहा और दोपहर तक पुष्प न पहुँचा सका। तब उन्होंने मुझे शाप श्राप दिया कि तू अपनी स्त्री का वियोग और मृत्युलोक में जाकर कोढी बनकर दुख भोग। इस कारण मैं कोढी हो गया हूँ तथा पृथ्वी पर आकर भयंकर कष्ट भोग रहा हूँ, अतः कृपा करके आप कोई ऐसा उपाय बतलाये, जिससे मेरी मुक्ति हो।",
+          text: "मैं प्रतिदिन मानसरोवर से फूल लाकर शिव पूजा के समय कुबेर को दिया करता था। एक दिन पत्नी सहवास के सुख में फँस जाने के कारण मुझे समय का ज्ञान ही नहीं रहा और दोपहर तक पुष्प न पहुँचा सका। तब उन्होंने मुझे श्राप दिया कि तू अपनी स्त्री का वियोग और मृत्युलोक में जाकर कोढी बनकर दुख भोग। इस कारण मैं कोढी हो गया हूँ तथा पृथ्वी पर आकर भयंकर कष्ट भोग रहा हूँ, अतः कृपा करके आप कोई ऐसा उपाय बतलाये, जिससे मेरी मुक्ति हो।",
           meaning: { en: "Every day I used to bring flowers from Lake Manasa and give them to Kubera at the time of Shiva's worship. One day, caught in the pleasure of being with my wife, I lost track of time and could not bring the flowers till noon. Then he cursed me: be parted from your wife, go to the world of mortals and suffer as a leper. So I have become a leper and am suffering terribly on earth; please tell me some way by which I may be freed." },
         },
         {
@@ -452,7 +457,7 @@ export const ekadashiVratKathas: Mantra = {
           meaning: { en: "As the sage puts it, in this age no one but a brahmin has the right to practise austerity, whereas a shudra is practising austerity in your kingdom; that is why there is no rain. Until he dies this famine will not end, and it can be ended only by killing him." },
         },
         {
-          text: "किंतु राजा का हृदय एक नरपराध शूद्र तपस्वी का शमन करने को तैयार नहीं हुआ। उन्होंने कहा: हे देव मैं उस निरपराध को मार दूँ, यह बात मेरा मन स्वीकार नहीं कर रहा है। कृपा करके आप कोई और उपाय बताएँ।",
+          text: "किंतु राजा का हृदय एक निरपराध शूद्र तपस्वी का शमन करने को तैयार नहीं हुआ। उन्होंने कहा: हे देव मैं उस निरपराध को मार दूँ, यह बात मेरा मन स्वीकार नहीं कर रहा है। कृपा करके आप कोई और उपाय बताएँ।",
           meaning: { en: "But the king's heart was not willing to put an innocent ascetic to death. He said: O sage, my mind will not accept that I should kill an innocent person; please tell me some other remedy." },
         },
         {
@@ -503,11 +508,11 @@ export const ekadashiVratKathas: Mantra = {
           meaning: { en: "Those who keep vigil on the night of this Kamika Ekadashi and give lamps have merit that even Chitragupta cannot write. Those who light a lamp before the Lord on Ekadashi, their ancestors drink nectar in heaven. Those who light a lamp of ghee or sesame oil before the Lord receive the light of thousands of lamps even in the world of the sun." },
         },
         {
-          text: "एक गाँव में एक वीर क्षत्रिय रहता था। एक दिन किसी कारण वश उसकी ब्राह्मण से हाथापाई हो गई और ब्राह्मण की मृत्य हो गई। अपने हाथों मरे गये ब्राह्मण की क्रिया उस क्षत्रिय ने करनी चाही। परन्तु पंडितों ने उसे क्रिया में शामिल होने से मना कर दिया।",
+          text: "एक गाँव में एक वीर क्षत्रिय रहता था। एक दिन किसी कारण वश उसकी ब्राह्मण से हाथापाई हो गई और ब्राह्मण की मृत्यु हो गई। अपने हाथों मरे गये ब्राह्मण की क्रिया उस क्षत्रिय ने करनी चाही। परन्तु पंडितों ने उसे क्रिया में शामिल होने से मना कर दिया।",
           meaning: { en: "In a village there lived a brave kshatriya. One day, for some reason, he came to blows with a brahmin and the brahmin died. The kshatriya wanted to perform the funeral rites for the brahmin killed by his own hands, but the pandits refused to let him take part in the rites." },
         },
         {
-          text: "ब्राह्मणों ने बताया कि तुम पर ब्रह्म-हत्या का दोष है। पहले प्रायश्चित कर इस पाप से मुक्त हो तब हम तुम्हारे घर भोजन करेंगे। इस पर क्षत्रिय ने पूछा कि इस पाप से मुक्त होने के क्या उपाय है। तब ब्राह्मणों ने बताया कि श्रावण माह के कृष्ण पक्ष की एकादशी को भक्तिभाव से भगवान श्रीधर का व्रत एवं पूजन कर ब्राह्मणों को भोजन कराके सदश्रिणा के साथ आशीर्वाद प्राप्त करने से इस पाप से मुक्ति मिलेगी। पंडितों के बताये हुए तरीके पर व्रत कराने वाली रात में भगवान श्रीधर ने क्षत्रिय को दर्शन देकर कहा कि तुम्हें ब्रह्म-हत्या के पाप से मुक्ति मिल गई है।",
+          text: "ब्राह्मणों ने बताया कि तुम पर ब्रह्म-हत्या का दोष है। पहले प्रायश्चित कर इस पाप से मुक्त हो तब हम तुम्हारे घर भोजन करेंगे। इस पर क्षत्रिय ने पूछा कि इस पाप से मुक्त होने के क्या उपाय है। तब ब्राह्मणों ने बताया कि श्रावण माह के कृष्ण पक्ष की एकादशी को भक्तिभाव से भगवान श्रीधर का व्रत एवं पूजन कर ब्राह्मणों को भोजन कराके सदक्षिणा के साथ आशीर्वाद प्राप्त करने से इस पाप से मुक्ति मिलेगी। पंडितों के बताये हुए तरीके पर व्रत कराने वाली रात में भगवान श्रीधर ने क्षत्रिय को दर्शन देकर कहा कि तुम्हें ब्रह्म-हत्या के पाप से मुक्ति मिल गई है।",
           meaning: { en: "The brahmins told him he had the guilt of killing a brahmin: first free yourself of this sin by expiation, then we shall eat at your house. The kshatriya asked what the way out of this sin was, and the brahmins said that keeping the Ekadashi of Shravana krishna with devotion, worshipping Lord Shridhara, feeding brahmins and receiving their blessing with a gift would free him. He kept the vrata as the pandits said, and in the night Lord Shridhara appeared to the kshatriya and said: you are freed from the sin of brahmin-killing." },
         },
         {
@@ -539,11 +544,11 @@ export const ekadashiVratKathas: Mantra = {
         },
         {
           text: "मैं अपराधियों को पुत्र तथा बाँधवों की तरह दंड देता रहा। कभी किसी से घृणा नहीं की। सबको समान माना है।",
-          meaning: { en: "I punished offenders as I would sons and kinsmen. I never hated anyone and treated all alike. I always honour the good." },
+          meaning: { en: "I punished offenders as I would sons and kinsmen. I never hated anyone and treated all alike." },
         },
         {
           text: "सज्जनों की सदा पूजा करता हूँ। इस प्रकार धर्मयुक्त राज्य करते हुए भी मेरे पुत्र नहीं है। सो मैं अत्यंत दुःख पा रहा हूँ, इसका क्या कारण है?",
-          meaning: { en: "Though I rule in this righteous way I have no son, and so I suffer greatly. What is the reason for this?" },
+          meaning: { en: "I always honour the good. Though I rule in this righteous way I have no son, and so I suffer greatly. What is the reason for this?" },
         },
         {
           text: "राजा महीजित की इस बात को विचारने के लिए मंत्री तथा प्रजा के प्रतिनिधि वन को गए। वहाँ बडे-बडे ऋषि-मुनियों के दर्शन किए। राजा की उत्तम कामना की पूर्ति के लिए किसी श्रेष्ठ तपस्वी मुनि को देखते-फिरते रहे। एक आश्रम में उन्होंने एक अत्यंत वयोवृद्ध धर्म के ज्ञाता, बडे तपस्वी, परमात्मा में मन लगाए हुए निराहार, जितेंद्रीय, जितात्मा, जितक्रोध, सनातन धर्म के गूढ तत्वों को जानने वाले, समस्त शास्त्रों के ज्ञाता महात्मा लोमश मुनि को देखा, जिनका कल्प के व्यतीत होने पर एक रोम गिरता था।",
@@ -562,7 +567,7 @@ export const ekadashiVratKathas: Mantra = {
           meaning: { en: "They went on: we are his subjects, so we too are sad at his grief. By seeing you we fully trust that our trouble will certainly end, for the mere sight of great persons removes many troubles. Now please tell us the way for the king to have a son." },
         },
         {
-          text: "यह वार्ता सुनकर ऋषि ने थोडी देर के लिए नेत्र बंद किए और राजा के पूर्व जन्म का वृत्तांत जानकर कहने लगे कि यह राजा पूर्व जन्म में एक निर्धन वैश्य था। निर्धन होने के कारण इसने कई बुरे कर्म किए। यह एक गाँव से दूसरे गाँव व्यापार करने जाया करता था। एक समय ज्येष्ठ मास के शुक्ल पक्ष की द्वादशी के दिन मध्याह्न के समय वह जबकि वह दो दिन से भूखा-प्यासा था, एक जलाशय पर जल पीने गया। उसी स्थान पर एक तत्काल की ब्याही हुई प्यासी गौ जल पी रही थी।",
+          text: "यह वार्ता सुनकर ऋषि ने थोडी देर के लिए नेत्र बंद किए और राजा के पूर्व जन्म का वृत्तांत जानकर कहने लगे कि यह राजा पूर्व जन्म में एक निर्धन वैश्य था। निर्धन होने के कारण इसने कई बुरे कर्म किए। यह एक गाँव से दूसरे गाँव व्यापार करने जाया करता था। एक समय ज्येष्ठ मास के शुक्ल पक्ष की द्वादशी के दिन मध्याह्न के समय जबकि वह दो दिन से भूखा-प्यासा था, एक जलाशय पर जल पीने गया। उसी स्थान पर एक तत्काल की ब्याही हुई प्यासी गौ जल पी रही थी।",
           meaning: { en: "Hearing this the sage closed his eyes for a little while, learned the account of the king's former birth and said: in a former birth this king was a poor merchant, and being poor he did many bad deeds. He used to go from village to village for trade. Once, on the dvadashi of the bright half of Jyeshtha at midday, having been hungry and thirsty for two days, he went to a pond to drink. At that place a newly calved thirsty cow was drinking water." },
         },
         {
@@ -601,7 +606,7 @@ export const ekadashiVratKathas: Mantra = {
           meaning: { en: "Now listen with attention to the greatness of this Ekadashi. In ancient times in the line of Lord Rama there was in Ayodhya an emperor named Harishchandra, famed for his truthfulness and honesty. Once the gods planned to test him. The king saw in a dream that he had given his kingdom to the sage Vishvamitra. In the morning Vishvamitra actually came to his door and said: you gave me your kingdom in your dream." },
         },
         {
-          text: "राजा ने सत्यनिष्ठ व्रत का पालन करते हुए संपूर्ण राज्य विश्वामित्र को सौंप दिया। दान के लिए दक्षिणा चुकाने हेतु राजा हरिश्चन्द्र को पूर्व जन्म के कर्म फल के कारण पत्नी, बेटा एवं खुद को बेचना पडा। हरिश्चन्द्र को एक डोम ने खरीद लिया जो श्मशान भूमि में लोगों के दाह संस्कारा का काम करवाता था।",
+          text: "राजा ने सत्यनिष्ठ व्रत का पालन करते हुए संपूर्ण राज्य विश्वामित्र को सौंप दिया। दान के लिए दक्षिणा चुकाने हेतु राजा हरिश्चन्द्र को पूर्व जन्म के कर्म फल के कारण पत्नी, बेटा एवं खुद को बेचना पडा। हरिश्चन्द्र को एक डोम ने खरीद लिया जो श्मशान भूमि में लोगों के दाह संस्कार का काम करवाता था।",
           meaning: { en: "Keeping his vow of truth the king handed the whole kingdom to Vishvamitra. To pay the fee for the gift, because of the fruit of deeds of a former birth, King Harishchandra had to sell his wife, his son and himself. A Dom who had people's bodies cremated at the cremation ground bought Harishchandra." },
         },
         {
@@ -609,7 +614,7 @@ export const ekadashiVratKathas: Mantra = {
           meaning: { en: "He himself became the slave of a chandala. He did the work of taking shrouds at his place, but even in this wretched work he did not abandon truth. When many years had passed in this way, he felt great sorrow at his low work and began to look for a way to be freed from it." },
         },
         {
-          text: "वह सदैव इसी चिन्ता में रहने लगा कि मैं क्या करूँ? किस प्रकार इस नीच कर्म से मुक्ति पाऊँ? एक बार की बात है, वह इसी चिन्ता में बैठा था कि गौतम् ऋषि उसके पास पहुँचे। हरिश्चन्द्र ने उन्हें प्रणाम किया और अपनी दुःख-भरी कथा सुनाने लगे।",
+          text: "वह सदैव इसी चिन्ता में रहने लगा कि मैं क्या करूँ? किस प्रकार इस नीच कर्म से मुक्ति पाऊँ? एक बार की बात है, वह इसी चिन्ता में बैठा था कि गौतम ऋषि उसके पास पहुँचे। हरिश्चन्द्र ने उन्हें प्रणाम किया और अपनी दुःख-भरी कथा सुनाने लगे।",
           meaning: { en: "He was always anxious: what shall I do, how can I be freed from this low work? Once as he sat in this worry the sage Gautama came to him. Harishchandra bowed to him and began to tell his sorrowful story." },
         },
         {
@@ -672,7 +677,7 @@ export const ekadashiVratKathas: Mantra = {
           meaning: { en: "Then Bali bowed his head and I placed my foot on his head, by which my devotee went to Patala. Then seeing his humility and prayer I said: O Bali, I shall always stay near you. When I said this to Bali, son of Virochana, on the Ekadashi of Bhadrapada shukla my image was set up at Bali's hermitage." },
         },
         {
-          text: "इसी प्रकार दूसरी क्षीरसागर में शेषनाग के पष्ठ पर हुई! हे राजन! इस एकादशी को भगवान शयन करते हुए करवट लेते हैं, इसलिए तीनों लोकों के स्वामी भगवान विष्णु का उस दिन पूजन करना चाहिए। इस दिन तांबा, चांदी, चावल और दही का दान करना उचित है। रात्रि को जागरण अवश्य करना चाहिए।",
+          text: "इसी प्रकार दूसरी क्षीरसागर में शेषनाग के पृष्ठ पर हुई! हे राजन! इस एकादशी को भगवान शयन करते हुए करवट लेते हैं, इसलिए तीनों लोकों के स्वामी भगवान विष्णु का उस दिन पूजन करना चाहिए। इस दिन तांबा, चांदी, चावल और दही का दान करना उचित है। रात्रि को जागरण अवश्य करना चाहिए।",
           meaning: { en: "In the same way a second image was set up in the ocean of milk, on the back of Shesha. O king, on this Ekadashi the Lord turns over while sleeping, so on that day Lord Vishnu, master of the three worlds, should be worshipped. On this day it is right to give copper, silver, rice and curd, and one must certainly keep vigil at night." },
         },
         {
@@ -711,7 +716,7 @@ export const ekadashiVratKathas: Mantra = {
           meaning: { en: "Once I went from Brahma's world to Yama's world, and there, honoured by Yama with faith, I praised Dharmaraja, righteous and truthful. In that same assembly of Yama I saw your father, a great knower and righteous man, because he had broken an Ekadashi vrata. He gave a message, which I tell you: because of an obstacle in a former birth I am staying near Yama; so, my son, if you keep the Ashvina krishna Indira Ekadashi for me, I can gain heaven. Hearing this the king said: O great sage, please tell me the rite of this vrata." },
         },
         {
-          text: "नारदजी कहने लगे: आश्विन माह की कृष्ण पक्ष की दशमी के दिन प्रातःकाल श्रद्धापूर्वक स्नानादि से निवृत्त होकर पुनः दोपहर को नदी आदि में जाकर स्नान करें। फिर श्रद्धापूर्व पितरों का श्राद्ध करें और एक बार भोजन करें। प्रातःकाल होने पर एकादशी के दिन दातून आदि करके स्नान करें, फिर व्रत के नियमों को भक्तिपूर्वक ग्रहण करता हुआ प्रतिज्ञा करें कि मैं आज संपूर्ण भोगों को त्याग कर निराहार एकादशी का व्रत करूँगा।",
+          text: "नारदजी कहने लगे: आश्विन माह की कृष्ण पक्ष की दशमी के दिन प्रातःकाल श्रद्धापूर्वक स्नानादि से निवृत्त होकर पुनः दोपहर को नदी आदि में जाकर स्नान करें। फिर श्रद्धापूर्वक पितरों का श्राद्ध करें और एक बार भोजन करें। प्रातःकाल होने पर एकादशी के दिन दातून आदि करके स्नान करें, फिर व्रत के नियमों को भक्तिपूर्वक ग्रहण करता हुआ प्रतिज्ञा करें कि मैं आज संपूर्ण भोगों को त्याग कर निराहार एकादशी का व्रत करूँगा।",
           meaning: { en: "Narada said: on the dashami of Ashvina krishna in the morning bathe with faith, and at noon again bathe in a river, then perform the shraddha of the ancestors with faith and eat once. At dawn on Ekadashi clean the teeth and bathe, then taking up the rules of the vrata with devotion make this resolve: today, giving up all enjoyments, I shall keep the Ekadashi vrata without food." },
         },
         {
@@ -770,7 +775,7 @@ export const ekadashiVratKathas: Mantra = {
           meaning: { en: "When his last time came, the messengers of Yama came to take the hunter, and a messenger told him that tomorrow was the last day of his life and they would come for him then. Hearing this the hunter was very afraid and went to the hermitage of the sage Angira, fell at his feet and prayed: O sage, I have done only sinful deeds all my life." },
         },
         {
-          text: "कृपा कर मुझे कोई ऐसा उपाय बताएं, जिससे मेरे सारे पाप मिट जाएं और मोक्ष की प्राप्ति हो जाए। उसके निवेदन पर महर्षि अंगिरा ने उसे आश्विन शुक्ल की पापांकुशा एकादशी का विधि पूर्वक व्रत करके को कहा।",
+          text: "कृपा कर मुझे कोई ऐसा उपाय बताएं, जिससे मेरे सारे पाप मिट जाएं और मोक्ष की प्राप्ति हो जाए। उसके निवेदन पर महर्षि अंगिरा ने उसे आश्विन शुक्ल की पापांकुशा एकादशी का विधि पूर्वक व्रत करने को कहा।",
           meaning: { en: "Please tell me some way by which all my sins may be wiped away and I may gain liberation. At his request the sage Angira told him to keep the Papankusha Ekadashi of Ashvina shukla by the rule." },
         },
         {
@@ -990,7 +995,7 @@ export const ekadashiVratKathas: Mantra = {
           meaning: { en: "What is the name of this Ekadashi and what is the rite of its vrata? What is the rite and what fruit does keeping it give? Please tell me all this by the rule." },
         },
         {
-          text: "भगवान श्रीकृष्ण बोले: मार्गशीर्ष माह के शुक्ल पक्ष में आने वाली इस एकादशी को मोक्षदा एकादशी कहा जाता है। यह व्रत मोक्ष देने वाला तथा चिंतामणि के समान सब कामनाएँ पूर्ण करने वाला है। जिससे आप अपने पूर्वजो के दुखों को खत्म कर सकते हैं। इसका माहात्म्य मैं तुमसे कहता हूँ, ध्यानपूर्वक सुनो।",
+          text: "भगवान श्रीकृष्ण बोले: मार्गशीर्ष माह के शुक्ल पक्ष में आने वाली इस एकादशी को मोक्षदा एकादशी कहा जाता है। यह व्रत मोक्ष देने वाला तथा चिंतामणि के समान सब कामनाएँ पूर्ण करने वाला है। जिससे आप अपने पूर्वजों के दुखों को खत्म कर सकते हैं। इसका माहात्म्य मैं तुमसे कहता हूँ, ध्यानपूर्वक सुनो।",
           meaning: { en: "Lord Krishna said: the Ekadashi that comes in the bright half of Margashirsha is called Mokshada. This vrata gives liberation and, like a wish-granting jewel, fulfils all desires, so that you can end the sufferings of your forefathers. I tell you its greatness; listen carefully." },
         },
         {
@@ -1015,11 +1020,11 @@ export const ekadashiVratKathas: Mantra = {
         },
         {
           text: "ऐसा सुनकर राजा मुनि के आश्रम पर गया। उस आश्रम में अनेक शांत चित्त योगी और मुनि तपस्या कर रहे थे। उसी जगह पर्वत मुनि बैठे थे।",
-          meaning: { en: "Hearing this the king went to the sage's hermitage. In that hermitage many calm-minded yogis and sages were practising austerity, and the sage Parvata sat there. The king prostrated to the sage." },
+          meaning: { en: "Hearing this the king went to the sage's hermitage. In that hermitage many calm-minded yogis and sages were practising austerity, and the sage Parvata sat there." },
         },
         {
           text: "राजा ने मुनि को साष्टांग दंडवत किया। मुनि ने राजा से सांगोपांग कुशल पूछी। राजा ने कहा कि महाराज आपकी कृपा से मेरे राज्य में सब कुशल हैं, लेकिन अकस्मात मेरे चित्त में अत्यंत अशांति होने लगी है। ऐसा सुनकर पर्वत मुनि ने आँखें बंद की और भूत विचारने लगे। फिर बोले हे राजन!",
-          meaning: { en: "The sage asked after the king's welfare in full. The king said: by your grace all is well in my kingdom, but suddenly great unrest has come into my mind. Hearing this the sage Parvata closed his eyes and began to consider the past. Then he said: O king," },
+          meaning: { en: "The king prostrated fully to the sage. The sage asked after the king's welfare in full. The king said: by your grace all is well in my kingdom, but suddenly great unrest has come into my mind. Hearing this the sage Parvata closed his eyes and began to consider the past. Then he said: O king," },
         },
         {
           text: "मैंने योग के बल से तुम्हारे पिता के कुकर्मों को जान लिया है। उन्होंने पूर्व जन्म में कामातुर होकर एक पत्नी को रति दी किंतु सौत के कहने पर दूसरे पत्नी को ऋतुदान माँगने पर भी नहीं दिया। उसी पापकर्म के कारण तुम्हारे पिता को नर्क में जाना पडा।",
@@ -1065,7 +1070,7 @@ export const ekadashiVratKathas: Mantra = {
           meaning: { en: "In the city of Champavati a king named Mahishman ruled. He had four sons, of whom the eldest, named Lumpaka, was a great sinner. That sinner always wasted his father's wealth on other men's wives, on courtesans and on other evil things." },
         },
         {
-          text: "सदैव ही देवता, बाह्मण, वैष्णवों की निंदा किया करता था। जब राजा को अपने बडे पुत्र के ऐसे कुकर्मों का पता चला तो उन्होंने उसे अपने राज्य से निकाल दिया। तब वह विचारने लगा कि कहाँ जाऊँ? क्या करूँ?",
+          text: "सदैव ही देवता, ब्राह्मण, वैष्णवों की निंदा किया करता था। जब राजा को अपने बडे पुत्र के ऐसे कुकर्मों का पता चला तो उन्होंने उसे अपने राज्य से निकाल दिया। तब वह विचारने लगा कि कहाँ जाऊँ? क्या करूँ?",
           meaning: { en: "He always slandered the gods, brahmins and Vaishnavas. When the king learned of his eldest son's evil deeds he drove him out of his kingdom. Then he wondered: where shall I go, what shall I do?" },
         },
         {
@@ -1089,7 +1094,7 @@ export const ekadashiVratKathas: Mantra = {
           meaning: { en: "Placing the fruits under the tree he said: O Lord, these fruits are offered to you alone; may you yourself be satisfied." },
         },
         {
-          text: "उस रात्रि को दुःख के कारण रात्रि को भी नींद नहीं आई। उसके इस उपवास और जागरण से भगवान अत्यंत प्रसन्न हो गए और उसके सारे पाप नष्ट हो गए। दूसरे दिन प्रातः एक अतिसुंदर घोडा अनेक सुंदर वस्तुअओं से सजा हुआ उसके सामने आकर खडा हो गया।",
+          text: "उस रात्रि को दुःख के कारण रात्रि को भी नींद नहीं आई। उसके इस उपवास और जागरण से भगवान अत्यंत प्रसन्न हो गए और उसके सारे पाप नष्ट हो गए। दूसरे दिन प्रातः एक अतिसुंदर घोडा अनेक सुंदर वस्तुओं से सजा हुआ उसके सामने आकर खडा हो गया।",
           meaning: { en: "That night too he could not sleep because of his sorrow. By this fast and vigil the Lord was greatly pleased and all his sins were destroyed. The next morning a very beautiful horse, decked with fine things, came and stood before him." },
         },
         {
@@ -1247,11 +1252,11 @@ export const ekadashiVratKathas: Mantra = {
       verses: [
         {
           text: "धर्मराज युधिष्ठिर बोले: हे भगवन्! आपने माघ के कृष्ण पक्ष की षटतिला एकादशी का अत्यन्त सुंदर वर्णन करते हुए सुनाया। आप स्वदेज, अंडज, उद्भिज और जरायुज चारों प्रकार के जीवों के उत्पन्न, पालन तथा नाश करने वाले हैं। अब आप कृपा करके माघ शुक्ल एकादशी के विषय में भी बतलाइये। इस एकादशी का क्या नाम है तथा इसके व्रत का क्या विधान है?",
-          meaning: { en: "Dharmaraja Yudhishthira said: O Lord, you have told me so beautifully of Shattila, the Ekadashi of Magha krishna. You are the creator, protector and destroyer of all four kinds of beings, born of sweat, egg, sprout and womb. Now please tell me of the Ekadashi of Magha shukla." },
+          meaning: { en: "Dharmaraja Yudhishthira said: O Lord, you have told me so beautifully of Shattila, the Ekadashi of Magha krishna. You are the creator, protector and destroyer of all four kinds of beings, born of sweat, egg, sprout and womb. Now please tell me of the Ekadashi of Magha shukla. What is the name of this Ekadashi and what is the rite of its vrata?" },
         },
         {
           text: "इसकी विधि क्या है? इसका व्रत करने से किस फल की प्राप्ति होती है? और इसमें कौन से देव का पूजन किया जाता है? कृपया यह सब विधानपूर्वक कहिए।",
-          meaning: { en: "What is the name of this Ekadashi and what is the rite of its vrata? What is the rite? What fruit does keeping it give? And which god is worshipped in it? Please tell me all this by the rule." },
+          meaning: { en: "What is the rite? What fruit does keeping it give? And which god is worshipped in it? Please tell me all this by the rule." },
         },
         {
           text: "श्रीकृष्ण कहने लगे कि हे राजन्! माघ शुक्ल एकादशी के दिन आने वाली एकादशी को जया एकादशी के नाम से जाना जाता है। इसका व्रत करने से मनुष्य ब्रह्म हत्यादि पापों से छूट कर मोक्ष को प्राप्त होता है तथा इसके प्रभाव से भूत, पिशाच आदि योनियों से मुक्त हो जाता है। इस व्रत को विधिपूर्वक करना चाहिए। अब मैं तुमसे पद्मपुराण में वर्णित इसकी महिमा की एक कथा सुनाता हूँ।",
@@ -1329,20 +1334,20 @@ export const ekadashiVratKathas: Mantra = {
           meaning: { en: "Wandering, when they came to the dying Jatayu, Jatayu told them Sita's account and went to heaven. A little further they made friends with Sugriva and Rama killed Vali. Hanuman went to Lanka, found Sita and told her of the friendship of Rama and Sugriva. Returning, Hanuman came to Lord Rama and told him all the news." },
         },
         {
-          text: "श्री रामचंद्रजी ने वानर सेना सहित सुग्रीव की सम्पत्ति से लंका को प्रस्थान किया। जब श्री रामचंद्रजी समुद्र के किनारे पहुँचे तब उन्होंने मगरमच्छ आदि से युक्त उस अगाध समुद्र को देखकर लक्ष्मणजी से कहा कि इस समुद्र को हम किस प्रकार से पार करेंगे।",
+          text: "श्री रामचंद्रजी ने वानर सेना सहित सुग्रीव की सम्मति से लंका को प्रस्थान किया। जब श्री रामचंद्रजी समुद्र के किनारे पहुँचे तब उन्होंने मगरमच्छ आदि से युक्त उस अगाध समुद्र को देखकर लक्ष्मणजी से कहा कि इस समुद्र को हम किस प्रकार से पार करेंगे।",
           meaning: { en: "Shri Ramachandra with the monkey army set out for Lanka at Sugriva's counsel. When he reached the seashore and saw the fathomless sea full of crocodiles he said to Lakshmana: how shall we cross this sea?" },
         },
         {
-          text: "श्री लक्ष्मण ने कहा हे पुराण पुरुषोत्तम, आप आदिपुरुष हैं, सब कुछ जानते हैं। यहाँ से आधा योजन दूर पर कुमारी द्वीप में वकदाल्भ्य नाम के मुनि रहते हैं। उन्होंने अनेक ब्रह्मा देखे हैं, आप उनके पास जाकर इसका उपाय पूछिए। लक्ष्मणजी के इस प्रकार के वचन सुनकर श्री रामचंद्रजी वकदाल्भ्य ऋषि के पास गए और उनको प्रमाण करके बैठ गए।",
+          text: "श्री लक्ष्मण ने कहा हे पुराण पुरुषोत्तम, आप आदिपुरुष हैं, सब कुछ जानते हैं। यहाँ से आधा योजन दूर पर कुमारी द्वीप में वकदाल्भ्य नाम के मुनि रहते हैं। उन्होंने अनेक ब्रह्मा देखे हैं, आप उनके पास जाकर इसका उपाय पूछिए। लक्ष्मणजी के इस प्रकार के वचन सुनकर श्री रामचंद्रजी वकदाल्भ्य ऋषि के पास गए और उनको प्रणाम करके बैठ गए।",
           meaning: { en: "Shri Lakshmana said: O ancient Supreme Person, you are the first being and know everything. Half a yojana from here on the island of Kumari lives a sage named Vakadalbhya. He has seen many Brahmas; go to him and ask the way. Hearing Lakshmana's words Shri Ramachandra went to the sage Vakadalbhya, bowed and sat." },
         },
         {
           text: "मुनि ने भी उनको मनुष्य रूप धारण किए हुए पुराण पुरुषोत्तम समझकर उनसे पूछा कि हे राम! आपका आना कैसे हुआ? रामचंद्रजी कहने लगे कि हे ऋषे!",
-          meaning: { en: "The sage, knowing him to be the Supreme Person in human form, asked: O Rama, how have you come? Ramachandra said: O sage, I have come here with my army and am going to Lanka to conquer the demons." },
+          meaning: { en: "The sage, knowing him to be the Supreme Person in human form, asked: O Rama, how have you come? Ramachandra said: O sage," },
         },
         {
           text: "मैं अपनी सेना सहित यहाँ आया हूँ और राक्षसों को जीतने के लिए लंका जा रहा हूँ। आप कृपा करके समुद्र पार करने का कोई उपाय बतलाइए। मैं इसी कारण आपके पास आया हूँ।",
-          meaning: { en: "Please tell me some way to cross the sea; that is why I have come to you." },
+          meaning: { en: "I have come here with my army and am going to Lanka to conquer the demons. Please tell me some way to cross the sea; that is why I have come to you." },
         },
         {
           text: "वकदाल्भ्य ऋषि बोले कि हे राम! फाल्गुन मास के कृष्ण पक्ष की एकादशी का उत्तम व्रत करने से निश्चय ही आपकी विजय होगी, साथ ही आप समुद्र भी अवश्य पार कर लेंगे। इस व्रत की विधि यह है कि दशमी के दिन स्वर्ण, चाँदी, ताँबा या मिट्टी का एक घडा बनाएँ। उस घडे को जल से भरकर तथा पाँच पल्लव रख वेदिका पर स्थापित करें।",
@@ -1372,7 +1377,7 @@ export const ekadashiVratKathas: Mantra = {
           meaning: { en: "Dharmaraja Yudhishthira said: O Janardana, you have told me so beautifully of Vijaya, the Ekadashi of Phalguna krishna. Now what is the name of the Ekadashi of Phalguna shukla, and what is its rite? Please tell me." },
         },
         {
-          text: "श्री भगवान बोले: हे राजन्, फाल्गुन मास के शुक्ल पक्ष की एकादशी का नाम आमलकी एकादशी है। इस व्रत के करने से समस्त पाप नष्ट हो जाते हैं, तथा इसके प्रभाव से एक हजार गौ दान का फल प्राप्त होता है। इस व्रत के करने से समस्त पाप नष्ट हो जाते हैं। हे राजन्, अब मैं आपको महर्षि वशिष्ठ जी द्वारा राजा मांधाता को सुनाई पौराणिक कथा के बारे मैं बताता हूँ, आप इसे ध्यानपूर्वक सुनें।",
+          text: "श्री भगवान बोले: हे राजन्, फाल्गुन मास के शुक्ल पक्ष की एकादशी का नाम आमलकी एकादशी है। इस व्रत के करने से समस्त पाप नष्ट हो जाते हैं, तथा इसके प्रभाव से एक हजार गौ दान का फल प्राप्त होता है। हे राजन्, अब मैं आपको महर्षि वशिष्ठ जी द्वारा राजा मांधाता को सुनाई पौराणिक कथा के बारे में बताता हूँ, आप इसे ध्यानपूर्वक सुनें।",
           meaning: { en: "The Lord said: O king, the Ekadashi of Phalguna shukla is named Amalaki. By keeping this vrata all sins are destroyed and the fruit of a thousand cow-gifts is gained. O king, I now tell you the old story that the sage Vasishtha told King Mandhata; listen carefully." },
         },
         {
@@ -1510,7 +1515,7 @@ export const ekadashiVratKathas: Mantra = {
           meaning: { en: "Lord Krishna said: the Ekadashi in the Purushottama month that gives many merits is named Padmini. By keeping it a person gains fame and goes to Vaikuntha, which is hard even for human beings to reach. O king, listen carefully to this katha." },
         },
         {
-          text: "हे मुनिवर! पूर्वकाल में त्रेयायुग में हैहय नामक राजा के वंश में कृतवीर्य नाम का राजा महिष्मती पुरी में राज्य करता था। उस राजा की एक हजार परम प्रिय स्त्रियां थीं, परंतु उनमें से किसी को भी पुत्र नहीं था, जो कि उनके राज्यभार को संभाल सके। देवता, पितृ, सिद्ध तथा अनेक चिकित्सकों आदि से राजा ने पुत्र प्राप्ति के लिए काफी प्रयत्न किए, लेकिन सब असफल रहे।",
+          text: "हे मुनिवर! पूर्वकाल में त्रेतायुग में हैहय नामक राजा के वंश में कृतवीर्य नाम का राजा महिष्मती पुरी में राज्य करता था। उस राजा की एक हजार परम प्रिय स्त्रियां थीं, परंतु उनमें से किसी को भी पुत्र नहीं था, जो कि उनके राज्यभार को संभाल सके। देवता, पितृ, सिद्ध तथा अनेक चिकित्सकों आदि से राजा ने पुत्र प्राप्ति के लिए काफी प्रयत्न किए, लेकिन सब असफल रहे।",
           meaning: { en: "O sage, in the Treta Yuga in the line of King Haihaya a king named Kritavirya ruled in the city of Mahishmati. That king had a thousand beloved wives, but none of them had a son who could carry the burden of the kingdom. The king made great efforts for a son through gods, ancestors, siddhas and many physicians, but all failed." },
         },
         {
@@ -1561,7 +1566,7 @@ export const ekadashiVratKathas: Mantra = {
           meaning: { en: "The brahmin's wife said humbly: O lord, I am your servant. Whatever the husband says, good or bad, the wife should do. A person gets the fruit of the deeds of a former birth." },
         },
         {
-          text: "यदि कोई मनुष्य दान नहीं करता तो प्रभु उसे केवल अन्न ही देते हैं, इसलिए आपको इसी स्थान पर रहना चाहिए, क्योंकि मैं आपका विछोह नहीं सह सकती। पति बिना स्त्री की माता, पिता, भाई, श्वसुर तथा सम्बंधी आदि सभी निंदा करते हैं, हसलिए हे स्वामी! कृपा कर आप कहीं न जाएं, जो भाग्य में होगा, वह यहीं प्राप्त हो जाएगा।",
+          text: "सुमेरु पर्वत पर रहते हुए भी मनुष्य को बिना भाग्य के स्वर्ण नहीं मिलता। पूर्व जन्म में जो मनुष्य विद्या और भूमि दान करते हैं, उन्हें अगले जन्म में विद्या और भूमि की प्राप्ति होती है। ईश्वर ने भाग्य में जो कुछ लिखा है, उसे टाला नहीं जा सकता। यदि कोई मनुष्य दान नहीं करता तो प्रभु उसे केवल अन्न ही देते हैं, इसलिए आपको इसी स्थान पर रहना चाहिए, क्योंकि मैं आपका विछोह नहीं सह सकती। पति बिना स्त्री की माता, पिता, भाई, श्वसुर तथा सम्बंधी आदि सभी निंदा करते हैं, इसलिए हे स्वामी! कृपा कर आप कहीं न जाएं, जो भाग्य में होगा, वह यहीं प्राप्त हो जाएगा।",
           meaning: { en: "Even living on Mount Sumeru a person does not get gold without fortune. Those who in a past life gave learning and land get learning and land in the next birth. What God has written in fate cannot be avoided. If a person does not give, the Lord gives him only grain, so you should stay in this very place, for I cannot bear separation from you. Without a husband the mother, father, brother, father-in-law and relatives all blame a woman, so, O lord, please do not go anywhere; what is in fate will be gained here." },
         },
         {
@@ -1589,7 +1594,7 @@ export const ekadashiVratKathas: Mantra = {
           meaning: { en: "Then the sage Kaundinya told them the whole rite of the Ekadashi vrata. The sage said: O brahmin woman, the Panchratri vrata is even better than this. On Parama Ekadashi, after the morning duties, one should begin the Panchratri vrata by the rule." },
         },
         {
-          text: "जो मनुष्य पांच दिन तक निर्जल व्रत करते हैं, वे अपने मा-पिता और स्त्री सहित स्वर्ग लोक को जाते हैं। जो मनुष्य पांच दिन तक संध्या को भोजन करते हैं, वे स्वर्ग को जाते हैं। जो मनुष्य स्नान करके पांच दिन तक ब्राह्मणों को भोजन कराते हैं, वे समस्त संसार को भोजन कराने का फल पाते हैं। जो मनुष्य इस व्रत में अश्व दान करते हैं, उन्हें तीनों लोकों को दान करने का फल मिलता है।",
+          text: "जो मनुष्य पांच दिन तक निर्जल व्रत करते हैं, वे अपने माता-पिता और स्त्री सहित स्वर्ग लोक को जाते हैं। जो मनुष्य पांच दिन तक संध्या को भोजन करते हैं, वे स्वर्ग को जाते हैं। जो मनुष्य स्नान करके पांच दिन तक ब्राह्मणों को भोजन कराते हैं, वे समस्त संसार को भोजन कराने का फल पाते हैं। जो मनुष्य इस व्रत में अश्व दान करते हैं, उन्हें तीनों लोकों को दान करने का फल मिलता है।",
           meaning: { en: "Those who fast without water for five days go to heaven with their parents and wife. Those who eat only in the evening for five days go to heaven. Those who bathe and feed brahmins for five days gain the fruit of feeding the whole world. Those who give a horse in this vrata gain the fruit of giving the three worlds." },
         },
         {
@@ -1597,7 +1602,7 @@ export const ekadashiVratKathas: Mantra = {
           meaning: { en: "You and your husband should take up this same vrata; you will surely gain success and heaven in the end. As the sage Kaundinya had said, the brahmin and his wife kept the Parama Ekadashi for five days. When the vrata was complete the brahmin's wife saw a prince coming to them." },
         },
         {
-          text: "राजकुमार ने ब्रह्माजी की प्रेरणा से एक उत्तम घर जो कि सब वस्तुओं से परिपूर्ण था, उन्हें रहने के लिए दिया। तदुपरांत राजकुमार ने आजीविका के लिए एक गांव दिया। इस प्रकार ब्राह्मण और उसकी स्त्रीकी गरीबी दूर हो गई और पृथ्वी पर काफी वर्षों तक सुख भोगने के पश्चात वे पति-पत्नी श्रीविष्णु के उत्तम लोक को प्रस्थान कर गए।",
+          text: "राजकुमार ने ब्रह्माजी की प्रेरणा से एक उत्तम घर जो कि सब वस्तुओं से परिपूर्ण था, उन्हें रहने के लिए दिया। तदुपरांत राजकुमार ने आजीविका के लिए एक गांव दिया। इस प्रकार ब्राह्मण और उसकी स्त्री की गरीबी दूर हो गई और पृथ्वी पर काफी वर्षों तक सुख भोगने के पश्चात वे पति-पत्नी श्रीविष्णु के उत्तम लोक को प्रस्थान कर गए।",
           meaning: { en: "At Brahma's inspiration the prince gave them an excellent house full of everything to live in, and then gave them a village for their livelihood. So the poverty of the brahmin and his wife ended, and after enjoying happiness on earth for many years the couple departed to Lord Vishnu's excellent world." },
         },
       ],

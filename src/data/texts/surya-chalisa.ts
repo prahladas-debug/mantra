@@ -227,7 +227,7 @@ export const suryaChalisa: Mantra = {
         {
           n: 37,
           text: 'अरुण माघ महं सूर्य फाल्गुन ।\nमधु वेदांग नाम रवि उदयन ॥',
-          meaning: { en: 'Aruna in Magha, Surya in Phalguna, Madhu in Chaitra, Ravi in Vaishakha with his names of Vedanga rank;' },
+          meaning: { en: 'Aruna in Magha, Surya in Phalguna, and in Madhu (Chaitra) the Sun rises as Vedanga;' },
         },
         {
           n: 38,

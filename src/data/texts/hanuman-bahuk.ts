@@ -142,7 +142,7 @@ export const hanumanBahuk: Mantra = {
         {
           n: 17,
           text: 'तेरे थपे उथपै न महेस, थपै थिरको कपि जे उर घाले ।\nतेरे निवाजे गरीब निवाज बिराजत बैरिन के उर साले ॥\nसंकट सोच सबै तुलसी लिये नाम फटै मकरी के से जाले ।\nबूढ भये, बलि, मेरिहि बार, कि हारि परे बहुतै नत पाले ॥',
-          meaning: { en: 'Whom you set up, even Shiva cannot unseat; whoever you have established stays firm and pricks his enemies\' hearts. Because you favour them, the troubles of those who take your name tear like a spider\'s web. I have grown old, I offer myself to you; is it only in my turn that you have tired of the many you have cherished?' },
+          meaning: { en: 'Whom you set up, even Shiva cannot unseat; whoever you have established stays firm and pricks his enemies\' hearts. Because you favour them, the troubles of those who take your name tear like a spider\'s web. Have you grown old, I offer myself to you? Or have you tired, just in my turn, of cherishing so many who bowed to you?' },
         },
         {
           n: 18,
@@ -174,7 +174,7 @@ export const hanumanBahuk: Mantra = {
         {
           n: 22,
           text: 'उथपे थपनथिर थपे उथपनहार, केसरी कुमार बल आपनो सँभारिये ।\nराम के गुलामनि को कामतरु रामदूत, मोसे दीन दूबरे को तकिया तिहारिये ॥\nसाहेब समर्थ तोसों तुलसी के माथे पर, सोऊ अपराध बिनु बीर, बाँधि मारिये ।\nपोखरी बिसाल बाँहु, बलि, बारिचर पीर, मकरी ज्यौं पकरि कै बदन बिदारिये ॥',
-          meaning: { en: 'You set up the fallen and unsettle the established; son of Kesari, call up your strength. Wishing-tree to Rama\'s servants, Rama\'s messenger, the only support of a poor weak one like me. With a master as mighty as you over Tulsi\'s head, this pain binds and beats me though I am blameless, O hero. The pain is a fish in the broad pool of my arm; seize it as you seized the crocodile-woman and tear open its mouth.' },
+          meaning: { en: 'You set up the fallen and unsettle the established; son of Kesari, call up your strength. Wishing-tree to Rama\'s servants, Rama\'s messenger, the only support of a poor weak one like me. With a master as mighty as you over Tulsi\'s head, this pain binds and beats me though I am blameless, O hero. The pain is a fish in the broad pool of my arm; seize it as you seized the sea-monster Makari and tear open its mouth.' },
         },
         {
           n: 23,

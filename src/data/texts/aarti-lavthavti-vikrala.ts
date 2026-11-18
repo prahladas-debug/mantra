@@ -58,7 +58,7 @@ export const aartiLavthavtiVikrala: Mantra = {
         {
           n: 4,
           text: 'व्याघ्रांबर फणिवरधर सुंदर मदनारी ।\nपंचानन मनमोहन मुनिजनसुखकारी ॥\nशतकोटीचे बीज वाचे उच्चारी ।\nरघुकुळटिळक रामदासा अंतरी ॥',
-          meaning: { en: 'Clad in a tiger skin, wearing a great serpent, beautiful destroyer of Madana; five-faced, charmer of minds, giver of joy to sages. The seed of a hundred crores, the name of Rama, he utters; he dwells within Ramadasa, the servant of the jewel of Raghu\'s line.', kn: 'ವ್ಯಾಘ್ರಚರ್ಮಧಾರಿ, ಶ್ರೇಷ್ಠ ಸರ್ಪ ಧರಿಸಿದ, ಸುಂದರ ಮದನಾರಿ; ಪಂಚಮುಖ, ಮನಮೋಹನ, ಮುನಿಜನರಿಗೆ ಸುಖಕಾರಿ. ಶತಕೋಟಿಯ ಬೀಜವಾದ ರಾಮನಾಮವನ್ನು ಉಚ್ಚರಿಸುತ್ತಾನೆ; ರಘುಕುಲತಿಲಕನ ದಾಸ ರಾಮದಾಸನ ಅಂತರಂಗದಲ್ಲಿ ನೆಲೆಸಿದ್ದಾನೆ.' },
+          meaning: { en: 'Clad in a tiger skin, wearing a great serpent, beautiful destroyer of Madana; five-faced, charmer of minds, giver of joy to sages. The seed of a hundred crores, the name of Rama, he utters aloud; and Rama, the jewel of Raghu\'s line, is in the heart of Ramadasa.', kn: 'ವ್ಯಾಘ್ರಚರ್ಮಧಾರಿ, ಶ್ರೇಷ್ಠ ಸರ್ಪ ಧರಿಸಿದ, ಸುಂದರ ಮದನಾರಿ; ಪಂಚಮುಖ, ಮನಮೋಹನ, ಮುನಿಜನರಿಗೆ ಸುಖಕಾರಿ. ಶತಕೋಟಿಯ ಬೀಜವಾದ ರಾಮನಾಮವನ್ನು ಉಚ್ಚರಿಸುತ್ತಾನೆ; ರಘುಕುಲತಿಲಕನಾದ ರಾಮನು ರಾಮದಾಸನ ಅಂತರಂಗದಲ್ಲಿ ನೆಲೆಸಿದ್ದಾನೆ.' },
         },
       ],
     },

@@ -255,7 +255,7 @@ export const bhajanSurdasPadas: Mantra = {
         {
           n: 3,
           text: 'आगैं आउ, बात सुनि मेरी, बलदेवहि न जनैहौं ।\nहँसि समुझावति, कहति जसोमति, नई दुलहिया दैहौं ॥',
-          meaning: { en: 'Krishna says: come close, mother, hear me; I will not let Baladeva know. Smiling, Yashoda coaxes him: I will get you a new bride.' },
+          meaning: { en: 'Yashoda says: come close, child, and hear me; I will not let Baladeva know. Smiling, she coaxes him: I will get you a new bride.' },
         },
         {
           n: 4,

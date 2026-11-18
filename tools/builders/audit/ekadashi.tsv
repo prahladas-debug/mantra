@@ -1,0 +1,41 @@
+text_id	verse_key	field	problem	fix
+ekadashi-vrat-kathas	5.2	text	B typo "है और तो दोनों"	है तो दोनों
+ekadashi-vrat-kathas	5.10	text	ह्र for हृ (ह्रषीकेश)	हृषीकेश
+ekadashi-vrat-kathas	6.0	text	missing से: "श्री कृष्ण कहा"	श्री कृष्ण से कहा
+ekadashi-vrat-kathas	6.9	text	doubled word "शाप श्राप दिया"	श्राप दिया
+ekadashi-vrat-kathas	7.9	text	नरपराध (dropped matra)	निरपराध
+ekadashi-vrat-kathas	8.9	text	मृत्य	मृत्यु
+ekadashi-vrat-kathas	8.10	text	सदश्रिणा	सदक्षिणा
+ekadashi-vrat-kathas	9.10	text	"वह जबकि वह" doubled	जबकि वह
+ekadashi-vrat-kathas	10.3	text	संस्कारा	संस्कार
+ekadashi-vrat-kathas	10.5	text	गौतम् stray halant	गौतम
+ekadashi-vrat-kathas	11.9	text	पष्ठ	पृष्ठ
+ekadashi-vrat-kathas	12.6	text	श्रद्धापूर्व	श्रद्धापूर्वक
+ekadashi-vrat-kathas	13.7	text	"करके को कहा"	करने को कहा
+ekadashi-vrat-kathas	17.2	text	पूर्वजो (missing nasal)	पूर्वजों
+ekadashi-vrat-kathas	18.5	text	बाह्मण	ब्राह्मण
+ekadashi-vrat-kathas	18.11	text	वस्तुअओं	वस्तुओं
+ekadashi-vrat-kathas	22.6	text	सम्पत्ति for सम्मति (counsel); English already "counsel"	सम्मति
+ekadashi-vrat-kathas	22.7	text	प्रमाण करके (bow)	प्रणाम
+ekadashi-vrat-kathas	23.1	text	sentence "इस व्रत के करने से समस्त पाप नष्ट हो जाते हैं।" repeated; "बारे मैं"	repeat removed; बारे में
+ekadashi-vrat-kathas	26.5	text	lines left out: Sumeru/vidya-bhumi/fate sentences (present in B and in the English)	restored at start of unit
+ekadashi-vrat-kathas	26.5	text	हसलिए	इसलिए
+ekadashi-vrat-kathas	26.12	text	मा-पिता	माता-पिता
+ekadashi-vrat-kathas	26.14	text	स्त्रीकी	स्त्री की
+ekadashi-vrat-kathas	1.2	meaning.en	"Lalita and Lalita's husband Lalit"	"Lalita and Lalit"
+ekadashi-vrat-kathas	9.4	meaning.en	"I always honour the good" belongs to 9.5 text	moved to 9.5
+ekadashi-vrat-kathas	9.5	meaning.en	missing that sentence	added
+ekadashi-vrat-kathas	9.4	meaning.hi	"सज्जनों का आदर" belongs to 9.5	replaced by "सबको समान माना"
+ekadashi-vrat-kathas	9.5	meaning.hi	omitted सज्जन-आदर	added
+ekadashi-vrat-kathas	17.8	meaning.en	prostration belongs to 17.9	removed
+ekadashi-vrat-kathas	17.9	meaning.en	prostration missing	added
+ekadashi-vrat-kathas	17.8	meaning.hi	prostration belongs to 17.9	reworded
+ekadashi-vrat-kathas	17.9	meaning.hi	prostration missing	added
+ekadashi-vrat-kathas	21.0	meaning.en	name/rite question (in 21.0 text) missing	added
+ekadashi-vrat-kathas	21.1	meaning.en	name/rite question repeated (belongs to 21.0)	removed
+ekadashi-vrat-kathas	21.0	meaning.hi	name question not mentioned	added
+ekadashi-vrat-kathas	21.1	meaning.hi	"नाम, विधान" belongs to 21.0	reworded
+ekadashi-vrat-kathas	22.8	meaning.en	Rama's "I have come with my army..." belongs to 22.9 text	moved to 22.9
+ekadashi-vrat-kathas	22.9	meaning.en	missing that sentence	added
+ekadashi-vrat-kathas	22.8	meaning.hi	same shift	reworded
+ekadashi-vrat-kathas	22.9	meaning.hi	same shift	reworded

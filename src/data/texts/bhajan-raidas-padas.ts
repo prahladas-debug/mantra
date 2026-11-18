@@ -7,7 +7,8 @@
  * Sahib text, in its Gurmukhi spelling transcribed into Devanagari); 3 जो तुम तोरौ रांम K only; 4 माधौ संगति सरनि तुम्हारी K only, with
  * "ओछी/ओछा" for K's "वोंछी/वोछा", a misprint corrected from K's other page of the same pada; 5 आज दिवस लेऊँ बलिहारा H only. Only the
  * first has two copies; the others rest on one, and I did not find a second typed copy. "अब मैं हार्यौ" and "पांडे कैसी पूज" were
- * read and left out. Nukta letters are written without the dot. Meanings are original.
+ * read and left out. Second reading: in pada 5 "क्या करै" is read "कथा कहै" (K prints "कथा कहै अरु अरथ बिचारैं"); K's
+ * form of that pada differs in other lines ("आँगन बँगला भवन भयो पावन", "करूँ डंडवत चरन पखारूँ") and the H form is kept there. Nukta letters are written without the dot. Meanings are original.
  */
 import type { Mantra } from '../types';
 
@@ -160,8 +161,8 @@ export const bhajanRaidasPadas: Mantra = {
         },
         {
           n: 3,
-          text: 'क्या करै अरु अरथ बिचारै ।\nआप तरैं औरनि कौ तारैं ॥',
-          meaning: { en: 'Why consider anything else or ask about meaning? They cross themselves and carry others across.' },
+          text: 'कथा कहै अरु अरथ बिचारै ।\nआप तरैं औरनि कौ तारैं ॥',
+          meaning: { en: 'They tell the tale and reflect on its meaning; they cross over themselves and carry others across.' },
         },
         {
           n: 4,

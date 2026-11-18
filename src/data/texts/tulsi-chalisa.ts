@@ -179,7 +179,7 @@ export const tulsiChalisa: Mantra = {
         {
           n: 27,
           text: 'सुनी हरि तुरतहि वचन उचारे ।\nदियो श्राप बिना विचारे ॥',
-          meaning: { en: 'Hearing it, Hari answered at once, and (in anger) cursed her without thinking.' },
+          meaning: { en: 'Hearing it, Hari at once replied: "You have cursed without thinking."' },
         },
         {
           n: 28,

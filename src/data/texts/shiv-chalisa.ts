@@ -259,7 +259,7 @@ export const shivChalisa: Mantra = {
         },
         {
           text: 'मगसर छठि हेमन्त ऋतु, संवत चौसठ जान ।\nअस्तुति चालीसा शिवहि, पूर्ण कीन कल्याण ॥',
-          meaning: { en: 'Written in the month of Margashirsha, in the cold season, on the sixth day of the bright fortnight, in Samvat 64, this Chalisa of praise to Shiva was completed for the good of all.', kn: 'ಹೇಮಂತ ಋತುವಿನ ಮಾರ್ಗಶಿರ ಷಷ್ಠಿಯಂದು, ಸಂವತ್ ಅರವತ್ತನಾಲ್ಕರಲ್ಲಿ, ಶಿವನ ಸ್ತುತಿಯ ಈ ಚಾಲೀಸಾ ಎಲ್ಲರ ಕಲ್ಯಾಣಕ್ಕಾಗಿ ಪೂರ್ಣಗೊಂಡಿತು.' },
+          meaning: { en: 'Written in the month of Margashirsha, in the cold season, on the sixth day, in Samvat 64, this Chalisa of praise to Shiva was completed for the good of all.', kn: 'ಹೇಮಂತ ಋತುವಿನ ಮಾರ್ಗಶಿರ ಷಷ್ಠಿಯಂದು, ಸಂವತ್ ಅರವತ್ತನಾಲ್ಕರಲ್ಲಿ, ಶಿವನ ಸ್ತುತಿಯ ಈ ಚಾಲೀಸಾ ಎಲ್ಲರ ಕಲ್ಯಾಣಕ್ಕಾಗಿ ಪೂರ್ಣಗೊಂಡಿತು.' },
         },
       ],
     },

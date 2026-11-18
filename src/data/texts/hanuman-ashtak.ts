@@ -38,7 +38,7 @@ export const hanumanAshtak: Mantra = {
         {
           n: 2,
           text: 'बालि की त्रास कपीस बसै गिरि, जात महाप्रभु पंथ निहारो ।\nचौंकि महामुनि साप दियो तब, चाहिय कौन बिचार बिचारो ॥\nकै द्विज रूप लिवाय महाप्रभु, सो तुम दास के सोक निवारो ।\nको नहिं जानत है जग में कपि, संकटमोचन नाम तिहारो ॥',
-          meaning: { en: 'In fear of Vali, the monkey king lived on the mountain and watched the road for the great Lord\'s coming. Startled, the great sage had cursed him; what was he to think? You took the form of a brahmin, brought the Lord there, and removed your servant\'s grief. Who in the world does not know, Hanuman, that your name is Sankatmochan?', kn: 'ವಾಲಿಯ ಭಯದಿಂದ ಕಪಿರಾಜ ಬೆಟ್ಟದಲ್ಲಿ ವಾಸಿಸುತ್ತ ಮಹಾಪ್ರಭುವಿನ ದಾರಿ ಕಾಯುತ್ತಿದ್ದ. ಮಹಾಮುನಿ ಬೆಚ್ಚಿ ಶಾಪ ಕೊಟ್ಟಿದ್ದರು; ಏನು ಯೋಚಿಸಬೇಕು? ನೀನು ಬ್ರಾಹ್ಮಣ ರೂಪ ಧರಿಸಿ ಮಹಾಪ್ರಭುವನ್ನು ಕರೆತಂದು ದಾಸನ ದುಃಖ ನೀಗಿಸಿದೆ. ಹನುಮಂತ, ನಿನ್ನ ಹೆಸರು ಸಂಕಟಮೋಚನ ಎಂದು ಜಗತ್ತಿನಲ್ಲಿ ಯಾರಿಗೆ ತಿಳಿಯದು?' },
+          meaning: { en: 'In fear of Vali, the monkey king lived on the mountain and watched the road for the great Lord\'s coming. Startled, the great sage (Matanga) had once cursed Vali, which kept Sugriva safe there; what was he to do now? You took the form of a brahmin, brought the Lord there, and removed your servant\'s grief. Who in the world does not know, Hanuman, that your name is Sankatmochan?', kn: 'ವಾಲಿಯ ಭಯದಿಂದ ಕಪಿರಾಜ ಬೆಟ್ಟದಲ್ಲಿ ವಾಸಿಸುತ್ತ ಮಹಾಪ್ರಭುವಿನ ದಾರಿ ಕಾಯುತ್ತಿದ್ದ. ಮಹಾಮುನಿ ಬೆಚ್ಚಿ ಶಾಪ ಕೊಟ್ಟಿದ್ದರು; ಏನು ಯೋಚಿಸಬೇಕು? ನೀನು ಬ್ರಾಹ್ಮಣ ರೂಪ ಧರಿಸಿ ಮಹಾಪ್ರಭುವನ್ನು ಕರೆತಂದು ದಾಸನ ದುಃಖ ನೀಗಿಸಿದೆ. ಹನುಮಂತ, ನಿನ್ನ ಹೆಸರು ಸಂಕಟಮೋಚನ ಎಂದು ಜಗತ್ತಿನಲ್ಲಿ ಯಾರಿಗೆ ತಿಳಿಯದು?' },
         },
         {
           n: 3,

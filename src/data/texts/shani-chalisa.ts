@@ -128,7 +128,7 @@ export const shaniChalisa: Mantra = {
         {
           n: 16,
           text: 'हार नौलखा लाग्यो चोरी ।\nहाथ पैर डरवायो तोरी ॥',
-          meaning: { en: 'The necklace was taken as stolen, and his hands and feet were cut off in fear and punishment.' },
+          meaning: { en: 'The necklace was taken as stolen, and his hands and feet were broken off in punishment.' },
         },
         {
           n: 17,
@@ -258,7 +258,7 @@ export const shaniChalisa: Mantra = {
       verses: [
         {
           text: 'पाठ शनिश्चर देव को, की हों भक्त तैयार ।\nकरत पाठ चालीस दिन, हो भवसागर पार ॥',
-          meaning: { en: 'Let devotees be ready to recite this to Shanishchara; reciting it for forty days takes one across the ocean of worldly life.' },
+          meaning: { en: 'I, his devotee, have made this recital ready for Shanishchara; reciting it for forty days takes one across the ocean of worldly life.' },
         },
       ],
     },

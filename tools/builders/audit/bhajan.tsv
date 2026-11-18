@@ -1,0 +1,5 @@
+text id	verse key	field	problem	fix
+bhajan-raidas-padas	4.3	text	"क्या करै" is a slip for "कथा कहै" (kavitakosh prints कथा कहै अरु अरथ बिचारैं)	read "कथा कहै"; header note added
+bhajan-raidas-padas	4.3	meaning en+hi	meaning built on the slip ("Why consider anything else")	rewritten: they tell the tale and reflect on its meaning
+bhajan-surdas-padas	9.2	meaning en+hi	wrong speaker: Krishna made to say "come close, mother"; the line "आगैं आउ ... बलदेवहि न जनैहौं" is Yashoda coaxing him	Yashoda is the speaker in both en and hi
+bhajan-surdas-padas	7.2	meaning hi	en says white of the eyes, hi said pupils (सित तारे)	hi reads आँखों के सफ़ेद तारे (पुतलियाँ)
