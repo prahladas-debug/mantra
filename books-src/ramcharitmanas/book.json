@@ -1,0 +1,99 @@
+{
+  "work": "ramcharitmanas",
+  "title": "श्रीरामचरितमानस",
+  "titleEn": "Ramcharitmanas",
+  "partLabel": "kanda",
+  "unitLabel": "prasang",
+  "edition": "Goswami Tulsidas’s Shri Ramcharitmanas in Awadhi, in the text and doha numbering of the Gita Press, Gorakhpur edition. Base text: the Gita Press text as typed on bhaktibharat.com (one page per doha), collated with the WirelessAlien/Ramcharitmanas dataset (npm hindu-devotional-texts) and hindupad.com; every reading taken against the base is logged. A unit (prasang) is ten doha-groups: the chaupais before each doha with the doha, as printed, and verse numbers are the doha numbers of the kanda. The Sundar Kand is read in the library’s own text of it. Meanings are written for this app, in English and Hindi only.",
+  "sources": [
+    "Gita Press, Gorakhpur, Shri Ramcharitmanas (Goswami Tulsidas), as typed on bhaktibharat.com, one page per doha (the base text; the work is in the public domain)",
+    "WirelessAlien/Ramcharitmanas dataset (npm package hindu-devotional-texts), for collation",
+    "hindupad.com, Ramcharitmanas, for collation"
+  ],
+  "parts": [
+    {
+      "part": 1,
+      "name": "बालकाण्ड",
+      "nameEn": "Bal Kand",
+      "units": 36,
+      "verses": 361,
+      "summary": {
+        "en": "Tulsidas begins the Manas with homage to the guru, the saints and the Name of Rama, and tells how Shiva first told the story to Parvati; Rama is born to Dasharatha, grows up with his brothers, guards Vishvamitra’s sacrifice, breaks Shiva’s bow at Janaka’s court and is married to Sita; Parashurama yields.",
+        "hi": "तुलसीदास गुरु, सन्तों और रामनाम की वन्दना से मानस का आरम्भ करते हैं और बताते हैं कि यह कथा पहले शिवजी ने पार्वती को सुनाई; दशरथ के घर राम का जन्म होता है, भाइयों के साथ उनका बचपन बीतता है, वे विश्वामित्र के यज्ञ की रक्षा करते हैं, जनक की सभा में शिवधनुष तोड़ते हैं और सीता से उनका विवाह होता है; परशुराम शान्त हो जाते हैं।"
+      }
+    },
+    {
+      "part": 2,
+      "name": "अयोध्याकाण्ड",
+      "nameEn": "Ayodhya Kand",
+      "units": 33,
+      "verses": 326,
+      "summary": {
+        "en": "Dasharatha decides to crown Rama, but Kaikeyi, swayed by Manthara, claims her two boons: Rama goes to the forest for fourteen years and Bharata is to rule. Rama, Sita and Lakshmana leave Ayodhya; Dasharatha dies of grief; Bharata refuses the throne, meets Rama at Chitrakut and returns with his sandals.",
+        "hi": "दशरथ राम को राजा बनाना चाहते हैं, पर मन्थरा के बहकावे में कैकेयी अपने दो वर माँगती है: राम को चौदह वर्ष का वनवास और भरत को राज्य। राम, सीता और लक्ष्मण अयोध्या छोड़ते हैं; दशरथ शोक में प्राण त्याग देते हैं; भरत राज्य लेना नहीं मानते, चित्रकूट में राम से मिलते हैं और उनकी खड़ाऊँ लेकर लौटते हैं।"
+      }
+    },
+    {
+      "part": 3,
+      "name": "अरण्यकाण्ड",
+      "nameEn": "Aranya Kand",
+      "units": 5,
+      "verses": 46,
+      "summary": {
+        "en": "In the Dandaka forest Rama meets Atri and Anasuya, Viradha and Agastya; Shurpanakha is humbled and Rama destroys Khara, Dushana and their host. Ravana, with Maricha’s golden deer, carries Sita away; Rama grieves, gives Jatayu the last rites, frees Kabandha and is welcomed by Shabari.",
+        "hi": "दण्डकवन में राम अत्रि-अनसूया, विराध और अगस्त्य से मिलते हैं; शूर्पणखा का मान भंग होता है और राम खर, दूषण तथा उनकी सेना का संहार करते हैं। मारीच के स्वर्णमृग की आड़ में रावण सीता को हर ले जाता है; राम विलाप करते हैं, जटायु का संस्कार करते हैं, कबन्ध को मुक्त करते हैं और शबरी के आतिथ्य को स्वीकार करते हैं।"
+      }
+    },
+    {
+      "part": 4,
+      "name": "किष्किन्धाकाण्ड",
+      "nameEn": "Kishkindha Kand",
+      "units": 3,
+      "verses": 30,
+      "summary": {
+        "en": "Rama meets Hanuman by Lake Pampa and befriends Sugriva; he slays Vali and sets Sugriva on the throne. During the rains Rama waits on the hill; Sugriva’s delay is rebuked, the monkey hosts are sent in all directions, and Sampati’s word and Jambavan’s urging send Hanuman toward the southern sea.",
+        "hi": "पम्पा सरोवर के पास राम की हनुमान से भेंट होती है और सुग्रीव से मित्रता; राम बालि को मारकर सुग्रीव को राज्य देते हैं। वर्षा ऋतु में राम पर्वत पर ठहरते हैं; सुग्रीव की ढिलाई पर फटकार मिलती है, वानरदल चारों दिशाओं में भेजे जाते हैं, और सम्पाती की बात तथा जाम्बवान के उत्साह से हनुमान दक्षिण सागर की ओर चलते हैं।"
+      }
+    },
+    {
+      "part": 5,
+      "name": "सुन्दरकाण्ड",
+      "nameEn": "Sundar Kand",
+      "units": 6,
+      "verses": 60,
+      "summary": {
+        "en": "Hanuman leaps the ocean, finds Sita in the Ashoka grove, burns Lanka and returns with her token; Vibhishana takes refuge with Rama, and the ocean yields. This kanda is read in the library’s own Sundar Kand.",
+        "hi": "हनुमान सागर लाँघकर अशोकवाटिका में सीता को पाते हैं, लंका जलाते हैं और उनकी निशानी लेकर लौटते हैं; विभीषण राम की शरण में आते हैं और समुद्र मार्ग देता है। इस काण्ड को पुस्तकालय के अपने सुन्दरकाण्ड में पढ़ें।"
+      },
+      "links": [
+        {
+          "from": 1,
+          "to": 6,
+          "text": "tulsi-sundar-kand"
+        }
+      ]
+    },
+    {
+      "part": 6,
+      "name": "लंकाकाण्ड",
+      "nameEn": "Lanka Kand",
+      "units": 12,
+      "verses": 121,
+      "summary": {
+        "en": "The bridge is built and Rama crosses to Lanka; Angada’s embassy fails, and the great war begins. Kumbhakarna, Meghanada and the other champions fall; Rama slays Ravana, Vibhishana is crowned, and Sita, tried in fire, is received by Rama, who returns in the Pushpaka to Ayodhya.",
+        "hi": "सेतु बँधता है और राम लंका पहुँचते हैं; अंगद का दूत-कर्म निष्फल रहता है और महायुद्ध शुरू होता है। कुम्भकर्ण, मेघनाद और दूसरे योद्धा मारे जाते हैं; राम रावण का वध करते हैं, विभीषण का राजतिलक होता है, अग्नि-परीक्षा के बाद राम सीता को अपनाते हैं और पुष्पक विमान से अयोध्या लौटते हैं।"
+      }
+    },
+    {
+      "part": 7,
+      "name": "उत्तरकाण्ड",
+      "nameEn": "Uttar Kand",
+      "units": 13,
+      "verses": 130,
+      "summary": {
+        "en": "Rama is crowned in Ayodhya and the Ram-rajya brings joy to all; Bharadvaja, Vasishtha and Shiva’s hymn appear. Kakabhushundi tells Garuda of devotion and knowledge, the nature of saints and the ills of the Kali age, and the Manas closes with the fruit of hearing the story of Rama.",
+        "hi": "अयोध्या में राम का राज्याभिषेक होता है और रामराज्य में सब सुखी होते हैं; भरद्वाज, वसिष्ठ और शिवजी की स्तुति आती है। काकभुशुण्डि गरुड़ को भक्ति और ज्ञान, सन्तों के लक्षण और कलियुग के दोष सुनाते हैं, और मानस रामकथा के श्रवण के फल के साथ पूर्ण होता है।"
+      }
+    }
+  ]
+}

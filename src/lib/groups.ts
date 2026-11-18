@@ -21,7 +21,7 @@ export interface Group {
  * Works read part by part: every text of the category is one part. The Ramayana and the
  * Mahabharata are books too, listed from their manifest (src/data/books.ts) kanda by kanda.
  */
-export const BOOK_CATEGORIES = new Set<CategoryId>(['gita', 'sundarakanda', 'devimahatmya', 'sumadhvavijaya', 'harikathamrutasara', 'ramayana', 'mahabharata']);
+export const BOOK_CATEGORIES = new Set<CategoryId>(['gita', 'sundarakanda', 'devimahatmya', 'sumadhvavijaya', 'harikathamrutasara', 'ramayana', 'ramcharitmanas', 'mahabharata']);
 
 /** Names for series that fold into one row (three or more parts). */
 const SERIES_NAMES: Record<string, { title: string; titleEn: string }> = {

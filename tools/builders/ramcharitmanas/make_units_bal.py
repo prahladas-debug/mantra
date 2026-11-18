@@ -1,0 +1,194 @@
+#!/usr/bin/env python3
+"""Titles and summaries of the 36 units of the Bal Kand (hand-written). Run: make_units_bal.py -> units/1-bala.json"""
+import json, os
+
+U = [
+ # 1  dohas 1-10
+ ("गुरु सन्त और खल की वन्दना",
+  "Invocation: the guru, the saints, the wicked and the poet's humility",
+  "After the opening shlokas and sorthas, Tulsidas bows to his guru's feet, to the brahmins and the saints, and even to the wicked. He admits how small his own gift is, and says that a poem joined to Rama's glory will be honoured as common wood is honoured when it grows near sandal.",
+  "आरम्भ के श्लोकों और सोरठों के बाद तुलसीदास गुरु के चरणों, ब्राह्मणों और सन्तों को प्रणाम करते हैं, और खलों को भी। वे अपनी योग्यता को छोटा बताते हैं और कहते हैं कि राम के यश से जुड़कर उनकी साधारण कविता भी वैसे ही आदर पाएगी जैसे चन्दन के संग से साधारण लकड़ी।"),
+ # 2  11-20
+ ("कविता की रीति सबकी वन्दना और रामनाम का आरम्भ",
+  "The poet's craft, homage to all, and the Name of Rama begins",
+  "Tulsidas speaks of stringing Rama's story like jewels on a thread, then bows to the gods and sages, to Sarasvati and the Ganga, to Ayodhya and the Sarayu, to Dasharatha, Janaka, the monkeys and bears, Hanuman and Sita. He then begins to praise the Name of Rama, whose two syllables are the life of the whole poem.",
+  "तुलसीदास राम की कथा को मणियों की तरह धागे में पिरोने की बात करते हैं, फिर देवताओं, ऋषियों, सरस्वती, गंगा, अयोध्या, सरयू, दशरथ, जनक, वानर-भालुओं, हनुमान और सीता की वन्दना करते हैं। इसके बाद वे रामनाम की महिमा का आरम्भ करते हैं, जिसके दो अक्षर पूरे काव्य के प्राण हैं।"),
+ # 3  21-30
+ ("रामनाम की महिमा और तुलसीदास की दीनता",
+  "The glory of the Name and Tulsidas's lowliness",
+  "The Name is shown to be greater than the formless and the formed Brahman, and even than Rama, for it saves in the Kali age by mere repetition. Tulsidas then owns his faults and rests on Rama's kindness to humble servants, and prepares to tell the story as a lake.",
+  "रामनाम को निर्गुण और सगुण ब्रह्म से, यहाँ तक कि राम से भी बड़ा बताया गया है, क्योंकि कलियुग में केवल जप से ही जीव का उद्धार होता है। फिर तुलसीदास अपने दोष स्वीकार करते हैं, राम की दीनों पर कृपा का भरोसा रखते हैं और कथा को सरोवर के रूप में कहने की तैयारी करते हैं।"),
+ # 4  31-40
+ ("रामकथा का मानस सरोवर रूपक",
+  "The Manas as a lake: a figure of Rama's story",
+  "Tulsidas pictures the story of Rama as a lake with seven steps, filled with the water of devotion, with ghats, lotuses, swans and gardens. He says who may reach its shore and who is kept away, and how the listeners and the gathering of saints make it holy.",
+  "तुलसीदास रामकथा को सात सोपानों वाले सरोवर के रूप में चित्रित करते हैं, जिसमें भक्ति का जल है और घाट, कमल, हंस तथा बाग-बगीचे हैं। वे बताते हैं कि वहाँ कौन पहुँच पाता है और किसे रोका जाता है, और श्रोताओं तथा सन्तों की सभा उसे कैसे पावन बनाती है।"),
+ # 5  41-50
+ ("सरोवर रूपक की समाप्ति भरद्वाज का प्रश्न और सती का संशय",
+  "End of the lake figure, Bharadvaj's question and Sati's doubt",
+  "The figure closes and the poet turns to the story as Yajnavalkya told it to Bharadvaj at Prayag. Bharadvaj asks whether the Rama whom Shiva chants is the king's son or another, and Yajnavalkya answers by telling how Shiva and Sati went to Agastya's hermitage and how Sati, seeing Rama wander the forest in search of Sita, began to doubt.",
+  "सरोवर का रूपक पूरा होता है और कवि उस कथा पर आते हैं जो याज्ञवल्क्य ने प्रयाग में भरद्वाज को सुनाई। भरद्वाज पूछते हैं कि शिवजी जिस राम का जप करते हैं वे दशरथ के पुत्र हैं या कोई और, और याज्ञवल्क्य शिव-सती के अगस्त्य-आश्रम जाने की कथा सुनाते हैं, जहाँ सीता को खोजते राम को वन में भटकता देख सती को सन्देह हुआ।"),
+ # 6  51-60
+ ("सती की परीक्षा और शिवजी का त्याग",
+  "Sati tests Rama and Shiva puts her away in his heart",
+  "Against Shiva's advice Sati takes Sita's form to test Rama, and is shown Rama himself with Sita and Lakshmana, and countless Shivas, Brahmas and Vishnus serving him. Shiva learns what she has done and resolves in his heart not to see her again as his wife; Sati is left in sorrow, while her father Daksha begins a great sacrifice.",
+  "शिवजी के समझाने पर भी सती सीताजी का रूप धरकर राम की परीक्षा लेती हैं और उन्हें राम के साथ असंख्य शिव, ब्रह्मा और विष्णु सेवा करते दिखाई देते हैं। शिवजी को यह बात मालूम होती है और वे मन में सती को पत्नी रूप में न देखने का निश्चय कर लेते हैं; सती दुखी रहती हैं और उधर उनके पिता दक्ष एक बड़ा यज्ञ आरम्भ करते हैं।"),
+ # 7  61-70
+ ("दक्ष का यज्ञ सती का देहत्याग और पार्वती का जन्म",
+  "Daksha's sacrifice, Sati's death, Parvati's birth and Narada's reading",
+  "Sati goes to her father's sacrifice, finds no place made for Shiva, and gives up her body in the fire; Shiva's attendants destroy the sacrifice. Sati is born again as Parvati, daughter of Himavan, and Narada reads her palm and foretells a husband like Shiva, an ascetic without home or family.",
+  "सती पिता के यज्ञ में जाती हैं, वहाँ शिवजी का भाग न देखकर योगाग्नि में देह त्याग देती हैं और शिवजी के गण यज्ञ का विध्वंस करते हैं। वे फिर हिमालय की पुत्री पार्वती के रूप में जन्म लेती हैं, और नारदजी उनका हाथ देखकर शिवजी जैसा वर, एक वैरागी जिसका न घर है न परिवार, बताते हैं।"),
+ # 8  71-80
+ ("पार्वती का तप श्रीराम का अनुरोध और सप्तर्षियों की परीक्षा",
+  "Parvati's austerities, Rama's request to Shiva and the seven sages' test",
+  "Himavan and Maina are consoled, and Parvati goes to the forest to win Shiva by austerity, until a voice from heaven says her wish is fulfilled. Rama appears to Shiva and asks him to marry her, and Shiva sends the seven sages to test Parvati's resolve; she answers them with unshaken faith.",
+  "हिमवान और मैना को धीरज मिलता है और पार्वती शिवजी को पाने के लिए वन में कठोर तप करती हैं, यहाँ तक कि आकाशवाणी कहती है कि उनका मनोरथ पूरा हुआ। श्रीराम शिवजी से पार्वती से विवाह करने का अनुरोध करते हैं और शिवजी सप्तर्षियों को पार्वती की परीक्षा के लिए भेजते हैं, जिन्हें वे अडिग निष्ठा से उत्तर देती हैं।"),
+ # 9  81-90
+ ("कामदेव का दहन और शिवजी के विवाह की तैयारी",
+  "The burning of Kama and the readying of Shiva's wedding",
+  "The sages report Parvati's love, and the gods, who need a son of Shiva to kill the demon Taraka, send Kama to wake Shiva from his meditation. Kama's arrows disturb the whole creation, but Shiva opens his third eye and burns him; Rati weeps and is promised that Kama will live again without a body, and the gods begin to prepare for the wedding.",
+  "सप्तर्षि पार्वती के प्रेम की बात बताते हैं, और देवता, जिन्हें तारकासुर को मारने के लिए शिवजी के पुत्र की आवश्यकता है, कामदेव को शिवजी की समाधि भंग करने भेजते हैं। कामदेव के बाणों से सारा संसार व्याकुल हो उठता है, पर शिवजी तीसरा नेत्र खोलकर उसे भस्म कर देते हैं; रति के विलाप पर उसे वचन मिलता है कि कामदेव बिना शरीर के जीवित होंगे, और देवता विवाह की तैयारी में लग जाते हैं।"),
+ # 10  91-100
+ ("शिवजी की बारात और विवाह",
+  "Shiva's wedding procession and the marriage",
+  "The gods adorn their vehicles and join Shiva's strange procession of ghosts and spirits, which frightens the people of Himavan's city and brings Maina to tears. Narada and the sages calm her, Shiva shows his true splendour, and the marriage of Shiva and Parvati is performed with Vedic rites.",
+  "देवता अपने वाहन सजाकर शिवजी की विचित्र बारात में, जिसमें भूत-प्रेत भी हैं, शामिल होते हैं; इसे देखकर हिमवान के नगर के लोग डर जाते हैं और मैना रो पड़ती हैं। नारद और ऋषि उन्हें समझाते हैं, शिवजी अपना सुन्दर रूप प्रकट करते हैं और वेद-विधि से शिव-पार्वती का विवाह सम्पन्न होता है।"),
+ # 11  101-110
+ ("विवाह की पूर्ति और पार्वती की रामकथा की जिज्ञासा",
+  "The wedding completed and Parvati's wish to hear of Rama",
+  "Himavan gives gifts and a tearful farewell, and Shiva takes Parvati to Kailash, where he sits in glory under the banyan tree. Parvati asks him humbly how Brahman can be a king's son who wept for his wife, and begs him to tell the story of Rama.",
+  "हिमवान उपहार देकर आँसुओं के साथ विदा करते हैं और शिवजी पार्वती को लेकर कैलास जाते हैं, जहाँ वे वटवृक्ष के नीचे विराजते हैं। पार्वती विनम्रता से पूछती हैं कि जो ब्रह्म है वह पत्नी के लिए रोने वाला राजकुमार कैसे हो सकता है, और रामकथा सुनाने की प्रार्थना करती हैं।"),
+ # 12  111-120
+ ("शिवजी का उपदेश और रामावतार के कारण",
+  "Shiva's teaching and the reasons for Rama's descent",
+  "Shiva praises Parvati's question, calls Rama's story the cow of plenty, and explains that Rama is the same Brahman, seen as a man only by those whose sight the clouds of delusion cover. He then begins to give the reasons for the descent: to protect the gods, the cows and the brahmins and to please those who love him.",
+  "शिवजी पार्वती के प्रश्न की सराहना करते हैं, रामकथा को कामधेनु के समान बताते हैं और समझाते हैं कि राम वही ब्रह्म हैं, जिन्हें वे ही मनुष्य मानते हैं जिनकी दृष्टि पर मोह के बादल छाए हैं। फिर वे अवतार के कारण बताने लगते हैं: देवताओं, गौओं और ब्राह्मणों की रक्षा तथा भक्तों को सुख देना।"),
+ # 13  121-130
+ ("जय विजय का श्राप जलन्धर और नारद का मोह",
+  "Jaya and Vijaya, Jalandhar and Narada's pride",
+  "Shiva tells how the doorkeepers Jaya and Vijaya, cursed by the sages, were born as demons, and how Vishnu broke Vrinda's vow to end Jalandhar. He then tells how Narada, proud that he had conquered Kama, was shown a city made by Vishnu's illusion, where he saw the princess Vishvamohini.",
+  "शिवजी बताते हैं कि मुनियों के श्राप से द्वारपाल जय और विजय असुर बनकर जन्मे, और विष्णु ने वृन्दा का व्रत भंग करके जलन्धर का अन्त किया। फिर वे नारद की कथा सुनाते हैं, जिन्हें कामदेव को जीतने का गर्व हुआ और जिन्हें विष्णु की माया से रचे नगर में राजकुमारी विश्वमोहिनी के दर्शन हुए।"),
+ # 14  131-140
+ ("नारद का स्वयंवर श्राप और प्रभु का आश्वासन",
+  "Narada at the svayamvara, his curse and the Lord's comfort",
+  "Narada asks Vishnu for beauty so that the princess will choose him, and is given a monkey's face. Two attendants of Shiva laugh at him and he curses them to be born as demons; at the svayamvara the princess garlands Vishnu, and Narada in anger curses Vishnu to be born as a man and to need monkeys. When Vishnu withdraws his illusion Narada repents, and the Lord comforts him.",
+  "नारद विश्वमोहिनी का वरण पाने के लिए विष्णु से सुन्दर रूप माँगते हैं और उन्हें वानर का मुख मिलता है। शिवजी के दो गण उनका उपहास करते हैं तो वे उन्हें राक्षस होने का श्राप देते हैं; स्वयंवर में राजकन्या विष्णु को वरमाला पहनाती है और क्रोधित नारद उन्हें मनुष्य बनने तथा वानरों की सहायता लेने का श्राप देते हैं। माया हटते ही नारद पछताते हैं और प्रभु उन्हें आश्वस्त करते हैं।"),
+ # 15  141-150
+ ("मनु और शतरूपा की तपस्या",
+  "The austerities of Manu and Shatarupa",
+  "Shiva tells another reason: the first king Manu and his queen Shatarupa, grown old, give up the throne and go to the forest, where they perform severe austerities and recite the twelve-syllable mantra. After thousands of years a voice from the sky speaks, and the Lord himself appears before them.",
+  "शिवजी एक और कारण सुनाते हैं: आदि राजा मनु और रानी शतरूपा वृद्धावस्था में राज्य छोड़कर वन जाते हैं और कठोर तप करते हैं तथा बारह अक्षरों का मन्त्र जपते हैं। हजारों वर्षों के बाद आकाशवाणी होती है और प्रभु स्वयं उनके सामने प्रकट होते हैं।"),
+ # 16  151-160
+ ("मनु का वर प्रतापभानु और कपटी मुनि",
+  "Manu's boon, King Pratapbhanu and the false hermit",
+  "The Lord grants Manu's wish to be born as his son, with Manu as Dasharatha and Shatarupa as Kaushalya, and the pair go to heaven to wait. Shiva then tells a second tale, of King Pratapbhanu of Kekaya, who loses his way while hunting a boar and meets a hermit who is really his old enemy in disguise.",
+  "प्रभु मनु की इच्छा पूरी करते हैं कि वे उन्हें पुत्र रूप में मिलेंगे, मनु दशरथ और शतरूपा कौसल्या बनेंगे, और दोनों स्वर्ग में प्रतीक्षा करते हैं। फिर शिवजी राजा प्रतापभानु की कथा सुनाते हैं, जो शिकार में सूअर का पीछा करते हुए वन में भटक जाता है और एक तपस्वी से मिलता है, जो वास्तव में उसका पुराना शत्रु है।"),
+ # 17  161-170
+ ("कपटी मुनि की चाल",
+  "The false hermit's scheme",
+  "The disguised enemy flatters the king, tells him he can be made master of the world and free from death if the brahmins are won over, and proposes a year of feasts for them. The king gratefully agrees, and the hermit promises to take the place of the royal cook and to make all the arrangements.",
+  "वेश बदला हुआ शत्रु राजा की प्रशंसा करता है और कहता है कि यदि ब्राह्मण वश में हो जाएँ तो राजा संसार का स्वामी और मृत्यु से मुक्त हो सकता है, और वह ब्राह्मण-भोज का उपाय बताता है। राजा कृतज्ञता से मान लेता है और कपटी मुनि रसोइया बनकर सारा प्रबन्ध अपने ऊपर ले लेता है।"),
+ # 18  171-180
+ ("ब्राह्मणों का श्राप और रावण का जन्म",
+  "The brahmins' curse and the birth of Ravana",
+  "The enemy takes the priest's form and serves forbidden food to the guests; a voice from the sky warns them and the brahmins curse the king and his family. The king is reborn as the ten-headed Ravana, his brother as Kumbhakarna and his minister as Vibhishana, who all win boons from Brahma by austerities.",
+  "शत्रु पुरोहित का रूप धरकर अतिथियों को निषिद्ध भोजन परोस देता है; आकाशवाणी चेताती है और ब्राह्मण राजा तथा उसके कुल को श्राप देते हैं। राजा रावण, उसका भाई कुम्भकर्ण और मन्त्री विभीषण बनकर जन्म लेते हैं और तपस्या से ब्रह्मा से वर पाते हैं।"),
+ # 19  181-190
+ ("पृथ्वी की पुकार पुत्रेष्टि यज्ञ और राम के जन्म का योग",
+  "The Earth's cry, the putreshti sacrifice and the hour of Rama's birth",
+  "Ravana's tyranny grows, and the Earth in the shape of a cow goes with the gods to Brahma; they pray to the Lord, and a voice from the sky promises his descent in the line of Raghu. In Ayodhya Dasharatha, advised by Vashishtha, performs the sacrifice for sons, receives the sacred offering from the fire and divides it among his queens, and at the right moment every sign of time turns auspicious.",
+  "रावण का अत्याचार बढ़ता है और गौ के रूप में पृथ्वी देवताओं के साथ ब्रह्मा के पास जाती है; सब मिलकर प्रभु की स्तुति करते हैं और आकाशवाणी रघुकुल में अवतार का वचन देती है। अयोध्या में वसिष्ठ की सलाह से दशरथ पुत्रेष्टि यज्ञ करते हैं, अग्नि से मिला प्रसाद रानियों में बाँटते हैं, और जन्म के समय सब योग, लग्न और तिथियाँ अनुकूल हो जाती हैं।"),
+ # 20  191-200
+ ("श्रीराम का प्राकट्य उत्सव और नामकरण",
+  "Rama's appearance, the rejoicing and the naming",
+  "Rama appears before Kaushalya as the four-armed Lord and, at her prayer, becomes a crying infant; Ayodhya bursts into joy and Dasharatha gives away wealth. Vashishtha names the four sons Rama, Bharata, Lakshmana and Shatrughna, and the boys grow up as the delight of the household.",
+  "रामजी कौसल्या के सामने चतुर्भुज रूप में प्रकट होते हैं और उनकी प्रार्थना पर रोते हुए शिशु बन जाते हैं; अयोध्या में आनन्द छा जाता है और दशरथ दान देते हैं। वसिष्ठ चारों पुत्रों के नाम राम, भरत, लक्ष्मण और शत्रुघ्न रखते हैं और बालक सबके आनन्द का कारण बनते हैं।"),
+ # 21  201-210
+ ("बाल लीला विश्वामित्र का आगमन और ताडका वध",
+  "Childhood sport, Vishvamitra's coming and the slaying of Tataka",
+  "Rama shows Kaushalya his boundless form and she bows, then asks him to hide it; the boys play, learn and win the love of the city. Vishvamitra comes to Dasharatha and asks for Rama and Lakshmana to guard his sacrifice; Dasharatha, after Vashishtha's counsel, lets them go, and Rama kills Tataka on the way, receives weapons, and the sage's yajna is saved.",
+  "रामजी कौसल्या को अपना अनन्त रूप दिखाते हैं तो वे प्रणाम करके उसे छिपाने की प्रार्थना करती हैं; बालक खेलते, पढ़ते और नगर के प्रिय बनते हैं। विश्वामित्र दशरथ से यज्ञ-रक्षा के लिए राम-लक्ष्मण को माँगते हैं और वसिष्ठ के समझाने पर दशरथ उन्हें भेजते हैं; मार्ग में रामजी ताड़का का वध करते हैं, विश्वामित्र से शस्त्र पाते हैं और यज्ञ की रक्षा होती है।"),
+ # 22  211-220
+ ("अहल्या का उद्धार जनकपुर और राजा जनक से भेंट",
+  "Ahalya freed, Janakpur and the meeting with King Janaka",
+  "The touch of Rama's foot frees Ahalya from the curse of stone, and the party crosses the Ganga and reaches Janakpur. King Janaka comes with his priests to greet Vishvamitra and is overcome by joy at the sight of the two princes; the next day Vishvamitra sends the brothers to see the city, and their beauty draws all eyes.",
+  "रामजी के चरणों के स्पर्श से अहल्या शिला-देह के श्राप से मुक्त होती हैं, और सब गंगा पार करके जनकपुर पहुँचते हैं। राजा जनक पुरोहितों के साथ विश्वामित्र का स्वागत करने आते हैं और दोनों राजकुमारों को देखकर आनन्द में डूब जाते हैं; अगले दिन विश्वामित्र दोनों भाइयों को नगर देखने भेजते हैं और उनकी शोभा सबकी आँखें खींच लेती है।"),
+ # 23  221-230
+ ("जनकपुर दर्शन और पुष्पवाटिका में सीता का दर्शन",
+  "The tour of Janakpur and the first sight of Sita in the garden",
+  "As Rama and Lakshmana walk through the city the women crowd at the windows, enchanted, and wish that Janaka might give up his vow. At dawn the brothers go to the flower garden to gather flowers for their teacher; Sita comes there with her friends to worship Gauri, and Rama, hearing the sound of her bangles, girdle and anklets, turns towards it.",
+  "नगर में घूमते राम-लक्ष्मण को देखकर जनकपुर की नारियाँ झरोखों पर उमड़ पड़ती हैं और मोहित होकर चाहती हैं कि जनक अपना प्रण छोड़ दें। सवेरे दोनों भाई गुरु के लिए फूल लेने पुष्पवाटिका जाते हैं; वहीं गौरी-पूजन के लिए सीताजी सखियों के साथ आती हैं, और उनके कंकण, करधनी और नूपुर की ध्वनि सुनकर रामजी उस ओर देखते हैं।"),
+ # 24  231-240
+ ("सीताजी का गौरी पूजन और धनुष यज्ञ का निमन्त्रण",
+  "Sita's prayer to Gauri and the call to the bow sacrifice",
+  "Rama sees Sita and tells Lakshmana that his heart, never stirred before, has gone out to her; Sita in turn sees him through the creepers. She prays at Gauri's shrine, a garland falls from the goddess and the goddess's voice promises that her wish will be fulfilled; Rama brings the flowers to his teacher, and next morning Shatananda comes to call Vishvamitra and the princes to the great assembly.",
+  "रामजी सीताजी को देखकर लक्ष्मण से कहते हैं कि उनका मन, जो कभी विचलित नहीं हुआ, उनकी ओर खिंच गया है; सीताजी भी उन्हें लताओं की ओट से देखती हैं। वे गौरी के मन्दिर में प्रार्थना करती हैं, देवी की माला गिरती है और उनकी वाणी कहती है कि इच्छा पूरी होगी; रामजी गुरु को फूल देते हैं और अगले प्रभात शतानन्द विश्वामित्र और राजकुमारों को धनुष-यज्ञ की सभा में बुलाने आते हैं।"),
+ # 25  241-250
+ ("धनुष यज्ञ की सभा और राजाओं की असफलता",
+  "The bow assembly and the failure of the kings",
+  "Vishvamitra brings the princes into the arena, where each person sees Rama after his own heart, and Sita is led in; the bard proclaims Janaka's vow. King after king strains at Shiva's bow, but none can lift it, and Janaka laments that the earth is empty of heroes.",
+  "विश्वामित्र दोनों राजकुमारों को रंगभूमि में ले आते हैं जहाँ हर कोई रामजी को अपनी भावना के अनुसार देखता है और सीताजी सभा में आती हैं; बन्दी जनक का प्रण सुनाता है। एक-एक राजा शिवजी के धनुष को उठाने का यत्न करता है पर कोई उसे हिला नहीं पाता, और जनक विलाप करते हैं कि पृथ्वी वीरों से खाली हो गई है।"),
+ # 26  251-260
+ ("जनक की व्यथा लक्ष्मण का क्रोध और राम का धनुष की ओर जाना",
+  "Janaka's grief, Lakshmana's anger and Rama's approach to the bow",
+  "Janaka's words wound Lakshmana, who answers boldly, but Rama stops him with a glance. Vishvamitra bids Rama rise and relieve Janaka's sorrow; Sita in her anxiety prays that the bow become light, and Rama, rising like the sun over the eastern hill, bows to his teacher and goes towards the bow.",
+  "जनक के वचन लक्ष्मणजी को चुभ जाते हैं और वे ओजस्वी उत्तर देते हैं, पर रामजी संकेत से उन्हें रोक देते हैं। विश्वामित्र रामजी से उठकर जनक का दुख दूर करने को कहते हैं; सीताजी चिन्ता में प्रार्थना करती हैं कि धनुष हल्का हो जाए, और रामजी उदयगिरि पर सूर्य की तरह उठकर गुरु को प्रणाम करते हैं और धनुष की ओर चलते हैं।"),
+ # 27  261-270
+ ("शिवधनुष का भंग जयमाला और परशुराम का आगमन",
+  "The breaking of the bow, the garland and Parashurama's arrival",
+  "Rama lifts the bow, and in one instant it is broken with a sound that shakes the world; drums sound and flowers fall. Sita garlands Rama, the envious kings are restless, and in the midst of the rejoicing the fierce sage Parashurama arrives, his eyes red with anger.",
+  "रामजी धनुष को उठाते हैं और पल भर में वह टूट जाता है, उसका घोर शब्द संसार को हिला देता है; नगाड़े बजते हैं और फूल बरसते हैं। सीताजी रामजी को जयमाला पहनाती हैं, ईर्ष्यालु राजा बेचैन होते हैं, और उसी उत्सव के बीच क्रोध से लाल नेत्रों वाले परशुराम आ पहुँचते हैं।"),
+ # 28  271-280
+ ("परशुराम और लक्ष्मण का संवाद",
+  "The exchange between Parashurama and Lakshmana",
+  "Parashurama demands to know who broke the bow, and Rama answers humbly that it was one of his servants. Lakshmana laughs and speaks sharply, the sage grows more furious and boasts of his axe and of how he cleared the earth of kings, and the assembly trembles.",
+  "परशुराम पूछते हैं कि धनुष किसने तोड़ा, और रामजी विनम्रता से कहते हैं कि वह आपका ही कोई सेवक होगा। लक्ष्मणजी हँसकर तीखे उत्तर देते हैं, मुनि और क्रुद्ध होकर अपने फरसे और राजाओं के संहार की डींग हाँकते हैं, और सारी सभा काँप उठती है।"),
+ # 29  281-290
+ ("परशुराम का शान्त होना जनकपुर की सजावट और अयोध्या को दूत",
+  "Parashurama pacified, Janakpur adorned and the messengers sent to Ayodhya",
+  "Rama's gentle words and Vishvamitra's plea calm Parashurama; he hands Vishnu's bow to Rama, which goes into Rama's hand of itself, and he recognises the Lord and goes away to the forest in praise. Janaka decorates the city for the wedding and sends a letter and messengers to Dasharatha in Ayodhya.",
+  "रामजी के कोमल वचनों और विश्वामित्र के अनुरोध से परशुराम शान्त होते हैं; वे विष्णु का धनुष रामजी को देते हैं, जो स्वयं ही उनके हाथ में चला जाता है, और वे प्रभु को पहचानकर स्तुति करते हुए वन को लौट जाते हैं। जनक विवाह के लिए नगर सजवाते हैं और पत्रिका देकर दूतों को दशरथ के पास अयोध्या भेजते हैं।"),
+ # 30  291-300
+ ("दशरथ को पत्रिका और बारात की तैयारी",
+  "The letter to Dasharatha and the preparations for the procession",
+  "The messengers reach Ayodhya and give Janaka's letter to Dasharatha, who is overjoyed to hear of Rama's deed and of the proposed wedding, and the news is spread through the city. Dasharatha asks Vashishtha to prepare the procession, and Ayodhya fills with elephants, horses, chariots and music as the party sets out.",
+  "दूत अयोध्या पहुँचकर जनक की पत्रिका दशरथ को देते हैं; रामजी के पराक्रम और विवाह का समाचार सुनकर राजा आनन्दित होते हैं और नगर में बात फैल जाती है। दशरथ वसिष्ठ से बारात की तैयारी कराते हैं और हाथी, घोड़े, रथ तथा वाद्यों के साथ अयोध्या बारात के लिए सज उठती है।"),
+ # 31  301-310
+ ("बारात का प्रस्थान और जनकपुर में आगमन",
+  "The procession leaves Ayodhya and reaches Janakpur",
+  "Dasharatha mounts his chariot with Vashishtha and the procession sets out amid auspicious omens and the sound of drums. Janaka, hearing that it is near, sends out the leading men to greet it and at Sita's word the powers of plenty go to serve the guests; Dasharatha meets Vishvamitra with his sons, and Rama bows to his father.",
+  "दशरथ वसिष्ठ के साथ रथ पर चढ़कर शुभ शकुनों और नगाड़ों के बीच बारात लेकर चलते हैं। जनक बारात के निकट आने की खबर सुनकर प्रमुख जनों को अगवानी के लिए भेजते हैं, सीताजी की आज्ञा से सिद्धियाँ जनवासे में अतिथियों की सेवा करती हैं, और दशरथ पुत्रों सहित विश्वामित्र से मिलते हैं।"),
+ # 32  311-320
+ ("बारात का आगमन और दूल्हे राम का परिछन",
+  "The procession's entry and the welcome of the bridegroom Rama",
+  "The women of Janakpur praise the bridegroom and long for a sight of his beauty as the procession enters at dusk, and the gods, astonished at Dasharatha's fortune, are calmed by Shiva. Rama on horseback delights the city, Sita's mother performs the welcoming rite with lamps and songs, and Vashishtha and the sages are honoured.",
+  "जनकपुर की नारियाँ दूल्हे की प्रशंसा करती हैं और गोधूलि वेला में बारात के प्रवेश पर उनकी शोभा देखने को उत्सुक हैं; देवता दशरथ का सौभाग्य देखकर चकित होते हैं तो शिवजी उन्हें समझाते हैं। घोड़े पर चढ़े रामजी नगर को मोह लेते हैं, सीताजी की माता आरती और मंगल गीतों से परिछन करती हैं, और वसिष्ठ आदि ऋषियों का सम्मान होता है।"),
+ # 33  321-330
+ ("विवाह संस्कार और चारों भाइयों का विवाह",
+  "The marriage rites and the weddings of the four brothers",
+  "Sita is led to the altar, the rites are performed, and Janaka, with Sunayana, gives his daughter's hand to Rama. Vashishtha and Vishvamitra order Bharata, Lakshmana and Shatrughna to be wed to Mandavi, Urmila and Shrutakirti, the couples circle the fire, and a great feast is given to the guests.",
+  "सीताजी मण्डप में लाई जाती हैं, विधि-विधान होता है और जनक-सुनयना सीताजी का हाथ रामजी के हाथ में देते हैं। वसिष्ठ और विश्वामित्र की आज्ञा से माण्डवी, उर्मिला और श्रुतकीर्ति का विवाह भरत, लक्ष्मण और शत्रुघ्न से होता है, जोड़ियाँ अग्नि की परिक्रमा करती हैं और बारातियों का बड़ा भोज होता है।"),
+ # 34  331-340
+ ("दहेज कन्याओं की विदाई और बारात का प्रस्थान",
+  "The dowry, the brides' farewell and the procession's departure",
+  "After days of feasting Dasharatha asks leave to go; Janaka gives countless gifts and the four brothers go to the palace to take their leave. The brides take a tearful farewell of their mothers, Sita receives the counsel of her mother, and the palanquins leave while the gods rain flowers.",
+  "कई दिन के उत्सव के बाद दशरथ विदा माँगते हैं; जनक अपार दहेज देते हैं और चारों भाई विदा लेने महल में जाते हैं। कन्याएँ माताओं से आँसुओं के साथ विदा लेती हैं, सीताजी को माता की शिक्षा मिलती है, और देवताओं की पुष्प-वर्षा के बीच पालकियाँ चल पड़ती हैं।"),
+ # 35  341-350
+ ("जनक की विदाई और अयोध्या में स्वागत",
+  "Janaka's farewell and the welcome in Ayodhya",
+  "Janaka escorts Dasharatha, speaks of his good fortune in the new bond and returns with a heavy heart. The procession reaches Ayodhya by stages, the city is hung with festoons and lamps, and the queens come out to welcome the bridegrooms and brides with songs and the lamp-rite.",
+  "जनक दशरथ को पहुँचाने जाते हैं, इस नए सम्बन्ध पर अपना सौभाग्य कहते हैं और भारी मन से लौटते हैं। बारात पड़ाव करते हुए अयोध्या पहुँचती है, नगर तोरण और दीपों से सजा है, और रानियाँ दूल्हा-दुलहिनों का गीत और आरती के साथ स्वागत करती हैं।"),
+ # 36  351-361
+ ("नववधुओं का स्वागत विश्वामित्र की विदाई और फलश्रुति",
+  "The brides received, Vishvamitra's farewell and the fruit of hearing",
+  "The sons and their brides are blessed and the gods return to their homes; Dasharatha feasts the brahmins, and Kaushalya and the other queens lovingly tend the new brides. Vishvamitra takes leave, Dasharatha gives thanks for all the sage has done for him and his sons, and Tulsidas closes with the promise that those who sing and hear the wedding of Sita and Rama will always have joy.",
+  "पुत्र और नववधुएँ आशीर्वाद पाते हैं और देवता अपने लोकों को लौटते हैं; दशरथ ब्राह्मणों को भोजन कराते हैं और कौसल्या आदि रानियाँ नववधुओं का स्नेह से ध्यान रखती हैं। विश्वामित्र विदा लेते हैं, दशरथ उनके उपकारों के लिए कृतज्ञता प्रकट करते हैं, और तुलसीदास फलश्रुति कहकर कथा पूरी करते हैं कि जो सीताराम के विवाह को प्रेम से गाएँगे-सुनेंगे उन्हें सदा आनन्द मिलेगा।"),
+]
+
+out = [{'title': t, 'titleEn': te, 'summary': {'en': se, 'hi': sh}} for (t, te, se, sh) in U]
+assert len(out) == 36, len(out)
+here = os.path.dirname(os.path.abspath(__file__))
+os.makedirs(os.path.join(here, 'units'), exist_ok=True)
+with open(os.path.join(here, 'units', '1-bala.json'), 'w', encoding='utf8') as f:
+    json.dump(out, f, ensure_ascii=False, indent=1)
+print('wrote', len(out))

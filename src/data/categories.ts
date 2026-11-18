@@ -26,6 +26,12 @@ export const CATEGORIES: Category[] = [
     description: 'The Adi Kavya of Valmiki, kanda by kanda and sarga by sarga, in the Southern recension.',
   },
   {
+    id: 'ramcharitmanas',
+    title: 'श्रीरामचरितमानस',
+    titleEn: 'Ramcharitmanas',
+    description: 'Tulsidas’s Awadhi Ramayana, kanda by kanda, in ten-doha sections, with the Gita Press text.',
+  },
+  {
     id: 'mahabharata',
     title: 'महाभारतम्',
     titleEn: 'Mahabharata',

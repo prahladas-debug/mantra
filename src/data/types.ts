@@ -28,6 +28,7 @@ export type CategoryId =
   | 'aarti'
   /** The long works read from bundled assets one sarga/adhyaya at a time (src/lib/books.ts). */
   | 'ramayana'
+  | 'ramcharitmanas'
   | 'mahabharata';
 
 export type Difficulty = 'easy' | 'medium' | 'advanced';
@@ -151,13 +152,13 @@ export interface MeaningPack {
   texts: Record<string, { summary?: string; verses: Record<string, string> }>;
 }
 
-// ---------- the long works (Valmiki Ramayana, Mahabharata) ----------
+// ---------- the long works (Valmiki Ramayana, Mahabharata, Tulsidas's Ramcharitmanas) ----------
 
 /** A meaning or summary in each language it has been written in. */
 export type LangText = Partial<Record<MeaningLang, string>>;
 
 /** The ids of the works kept as bundled assets, one file per sarga/adhyaya. */
-export type BookWorkId = 'ramayana' | 'mahabharata';
+export type BookWorkId = 'ramayana' | 'mahabharata' | 'ramcharitmanas';
 
 /** One sarga/adhyaya in the generated manifest (src/data/books.generated.ts). */
 export interface BookUnitEntry {
@@ -209,7 +210,7 @@ export interface BookWork {
   work: BookWorkId;
   title: string;
   titleEn: string;
-  /** "kanda"/"sarga" or "parva"/"adhyaya", for English labels. */
+  /** "kanda"/"sarga", "parva"/"adhyaya" or "kanda"/"prasang", for English labels. */
   partLabel: string;
   unitLabel: string;
   edition: string;

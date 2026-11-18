@@ -7,6 +7,7 @@ const WORK_ART: Partial<Record<string, ArtKey>> = {
   gita: 'gita',
   sundarakanda: 'sundarakanda',
   ramayana: 'ramayana',
+  ramcharitmanas: 'ramcharitmanas',
   mahabharata: 'mahabharata',
   harikathamrutasara: 'harikathamrutasara',
   sumadhvavijaya: 'sumadhvavijaya',

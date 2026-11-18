@@ -9,6 +9,7 @@ in the manner of the Indian devotional prints). They are cropped by
 | gita | Krishna and Arjuna on the chariot (Gitopadesha) | Bhagavad Gita |
 | sundarakanda | Hanuman gives Rama's ring to Sita in the Ashoka grove | Sundarakanda |
 | ramayana | Rama's coronation (Rama Pattabhisheka) | Valmiki Ramayana |
+| ramcharitmanas | Rama, Sita and Lakshmana in the forest, Hanuman kneeling before them | Ramcharitmanas |
 | mahabharata | Vyasa dictates the Mahabharata to Ganesha | Mahabharata |
 | vishnu | Narayana on Adishesha, with Lakshmi and Garuda | Vishnu Sahasranama; Vishnu; Thursday and Ekadashi |
 | devimahatmya | Durga on her lion, praised by the gods | Devi Mahatmyam |

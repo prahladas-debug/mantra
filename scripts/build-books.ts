@@ -1,6 +1,6 @@
 /// <reference types="node" />
 /**
- * Builds the long works (Valmiki Ramayana, Mahabharata) from their sources.
+ * Builds the long works (Valmiki Ramayana, Mahabharata, Tulsidas's Ramcharitmanas) from their sources.
  * Run: npx tsx scripts/build-books.ts [--verbose]   (also run by `npm test`, after gen-index)
  *
  *   books-src/<work>/book.json                 the work: title, edition, sources, parts
@@ -28,11 +28,18 @@ const OUT_ASSETS = join(ROOT, 'assets', 'books');
 const OUT_MANIFEST = join(ROOT, 'src', 'data', 'books.generated.ts');
 const VERBOSE = process.argv.includes('--verbose');
 
-const WORKS = ['ramayana', 'mahabharata'] as const;
+const WORKS = ['ramayana', 'mahabharata', 'ramcharitmanas'] as const;
 const LANGS = ['en', 'kn', 'hi', 'te', 'ta', 'ml'] as const;
 /** Summaries must carry these; Malayalam is optional while it is being added. */
 const REQUIRED_LANGS = ['en', 'kn', 'hi', 'te', 'ta'] as const;
-const DEFAULT_LABELS: Record<string, [part: string, unit: string]> = { ramayana: ['kanda', 'sarga'], mahabharata: ['parva', 'adhyaya'] };
+/** The Ramcharitmanas has English and Hindi only: both required in summaries, and nothing else is accepted. */
+const WORK_LANGS: Record<string, { required: readonly string[]; allowed: readonly string[] }> = { ramcharitmanas: { required: ['en', 'hi'], allowed: ['en', 'hi'] } };
+const DEFAULT_LABELS: Record<string, [part: string, unit: string]> = { ramayana: ['kanda', 'sarga'], mahabharata: ['parva', 'adhyaya'], ramcharitmanas: ['kanda', 'prasang'] };
+/** The Ramcharitmanas: a unit is ten dohas (unit k: 10(k−1)+1 … 10k); verses are numbered by doha, not 1…n. */
+const DOHA_WORK = 'ramcharitmanas';
+const GITA_PRESS = 'Gita Press, Shri Ramcharitmanas';
+/** Dohas of a unit: ten, the last unit of a kanda takes the remainder. */
+const dohaRange = (unit: number, unitCount: number, verseCount: number): [number, number] => [10 * (unit - 1) + 1, unit === unitCount ? verseCount : 10 * unit];
 
 // Devanagari (without its digits), Vedic extensions, space and newline, and a hyphen at the end of
 // a line for a word split between two pādas (मनोरमै-\nस्तदास्य). No ZWJ/ZWNJ, no Latin.
@@ -71,16 +78,17 @@ function onlyKeys(where: string, o: Json, allowed: string[]) {
 }
 
 /** A summary or meaning: { en, kn, hi, te, ta } with non-empty strings; `all` requires every language. */
-function langText(where: string, v: unknown, all: boolean): Record<string, string> {
+function langText(where: string, v: unknown, all: boolean, work: string): Record<string, string> {
   if (!isObj(v)) {
     err(where, 'must be an object like { "en": "…", "kn": "…" }');
     return {};
   }
+  const allowed: readonly string[] = WORK_LANGS[work]?.allowed ?? LANGS;
   for (const [k, t] of Object.entries(v)) {
-    if (!(LANGS as readonly string[]).includes(k)) err(where, `unknown language "${k}" (use ${LANGS.join(', ')})`);
+    if (!allowed.includes(k)) err(where, `unknown language "${k}" (use ${allowed.join(', ')})`);
     else if (!str(t)) err(where, `"${k}" is empty`);
   }
-  if (all) for (const l of REQUIRED_LANGS) if (!str(v[l])) err(where, `missing "${l}"`);
+  if (all) for (const l of WORK_LANGS[work]?.required ?? REQUIRED_LANGS) if (!str(v[l])) err(where, `missing "${l}"`);
   return v as Record<string, string>;
 }
 
@@ -111,12 +119,16 @@ function checkMetre(where: string, text: string) {
   });
 }
 
+/** Set while a work is checked whose Devanagari is written without the nukta dot (ड़ → ड), as the library's Hindi texts are. */
+let noNukta = false;
+
 function checkVerseText(where: string, text: unknown, opts: { title?: boolean } = {}) {
   if (!str(text)) {
     err(where, 'text is empty');
     return;
   }
   if (text.includes('\u200D') || text.includes('\u200C')) err(where, 'remove ZWJ/ZWNJ');
+  if (noNukta && /[\u093C\u0958-\u095F]/.test(text)) err(where, 'write letters with a nukta without the dot (ड़ → ड)');
   if (/[०-९0-9]/.test(text)) err(where, 'digits in the text (verse numbers go in "n", not in the text)');
   if (!(opts.title ? DEVANAGARI_TITLE : DEVANAGARI).test(text)) {
     const bad = [...new Set([...text].filter((ch) => !(opts.title ? DEVANAGARI_TITLE : DEVANAGARI).test(ch)))];
@@ -196,6 +208,7 @@ function buildWork(work: string, lib: ReturnType<typeof libraryIds>, seen: Map<s
   const book = readJson(bookFile);
   if (!book) return null;
   const bw = `books-src/${work}/book.json`;
+  noNukta = work === DOHA_WORK;
   onlyKeys(bw, book, ['work', 'title', 'titleEn', 'partLabel', 'unitLabel', 'edition', 'sources', 'parts']);
   if (book.work !== work) err(bw, `"work" must be "${work}"`);
   checkVerseText(`${bw} title`, book.title, { title: true });
@@ -247,7 +260,7 @@ function buildWork(work: string, lib: ReturnType<typeof libraryIds>, seen: Map<s
     if (!str(p.nameEn)) err(pw, 'missing "nameEn"');
     const unitCount = typeof p.units === 'number' && Number.isInteger(p.units) && p.units > 0 ? p.units : (err(pw, '"units" must be the number of sargas/adhyayas in the edition'), 0);
     const verseCount = typeof p.verses === 'number' && Number.isInteger(p.verses) && p.verses > 0 ? p.verses : (err(pw, '"verses" must be the number of verses in the edition'), 0);
-    const summary = langText(`${pw} summary`, p.summary, true);
+    const summary = langText(`${pw} summary`, p.summary, true, work);
 
     const links: PartOut['links'] = [];
     if (p.links !== undefined) {
@@ -268,7 +281,8 @@ function buildWork(work: string, lib: ReturnType<typeof libraryIds>, seen: Map<s
           }
           if (l.text !== undefined) {
             if (!lib.ids.has(String(l.text))) err(lw, `no text with id "${l.text}"`);
-            if (from !== to) err(lw, 'a single text stands for one unit (from = to)');
+            // The Ramcharitmanas's Sundar Kand is one library text that stands for the whole kanda.
+            if (from !== to && work !== DOHA_WORK) err(lw, 'a single text stands for one unit (from = to)');
           }
           if (links.some((o) => from <= o.to && to >= o.from)) err(lw, 'overlaps another link');
           links.push({ from, to, ...(l.category ? { category: String(l.category) } : { text: String(l.text) }) });
@@ -323,14 +337,23 @@ function buildWork(work: string, lib: ReturnType<typeof libraryIds>, seen: Map<s
       if (u.partNameEn !== po.nameEn) err(rel, `"partNameEn" must be "${po.nameEn}" (as in book.json)`);
       checkVerseText(`${rel} title`, u.title, { title: true });
       if (!str(u.titleEn)) err(rel, 'missing "titleEn"');
-      const summary = langText(`${rel} summary`, u.summary, true);
+      const summary = langText(`${rel} summary`, u.summary, true, work);
+      // The Ramcharitmanas numbers its verses by doha: unit k runs 10(k−1)+1 … 10k.
+      const doha = work === DOHA_WORK ? dohaRange(n, unitCount, verseCount) : undefined;
       if (!str(u.source)) err(rel, 'missing "source"');
+      if (doha) {
+        const range = `${doha[0]}–${doha[1]}`;
+        if (u.source !== `${GITA_PRESS}, ${po.nameEn}, dohas ${range}`) err(rel, `"source" must be "${GITA_PRESS}, ${po.nameEn}, dohas ${range}"`);
+        if (!str(u.titleEn) || !u.titleEn.startsWith(`Dohas ${range} · `)) err(rel, `"titleEn" must start with "Dohas ${range} · "`);
+      }
       if (u.contentNote !== undefined && !str(u.contentNote)) err(rel, '"contentNote" must be text');
       if (u.completeness !== undefined && u.completeness !== 'complete' && u.completeness !== 'partial') err(rel, '"completeness" is "complete" or "partial"');
       if (u.completeness === 'partial' && !str(u.contentNote)) err(rel, 'a partial unit needs a "contentNote" saying what is missing');
 
       let verses = 0;
-      let lastN = 0;
+      let lastN = doha ? doha[0] - 1 : 0;
+      let numbered = false; // a numbered verse seen
+      let trailing = false; // an unnumbered verse seen after the numbered ones
       if (!Array.isArray(u.sections) || !u.sections.length) err(rel, '"sections" must be a non-empty list');
       else
         u.sections.forEach((s, si) => {
@@ -353,12 +376,19 @@ function buildWork(work: string, lib: ReturnType<typeof libraryIds>, seen: Map<s
                 if (v.n !== lastN + 1) err(vw, `verse numbers must run on: expected ${lastN + 1}, found ${v.n}`);
                 lastN = v.n;
                 verses++;
+                if (trailing) err(vw, 'numbered verses follow an unnumbered verse that came after them: unnumbered verses are only the opening and the closing ones');
+                numbered = true;
               }
-              if (str(v.text)) checkMetre(`${rel} verse ${v.n}`, v.text);
+              if (str(v.text) && !doha) checkMetre(`${rel} verse ${v.n}`, v.text);
+            } else if (doha) {
+              // Opening shlokas (before the first doha of a kanda's first unit) and closing ones (after the last doha of its last unit).
+              if (numbered ? n !== unitCount : n !== 1) err(vw, 'an unnumbered verse (no "n") comes only at the start of a kanda\'s first unit or the end of its last unit');
+              if (numbered) trailing = true;
             }
-            if (v.meaning !== undefined) langText(`${vw} meaning`, v.meaning, false);
+            if (v.meaning !== undefined) langText(`${vw} meaning`, v.meaning, false, work);
           });
         });
+      if (doha && errors === before && lastN !== doha[1]) err(rel, `the last numbered verse is ${lastN}, but dohas ${doha[0]}–${doha[1]} belong to this unit`);
       if (errors > before) continue;
 
       const asset = `${work}/${partDir}/${pad3(n)}.book`;

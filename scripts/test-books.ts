@@ -11,12 +11,13 @@ let checks = 0;
 
 // ---- Previous / Next: only to the reading straight before or after in the edition ----
 for (const work of BOOKS) {
-  const place = new Map<string, { part: number; unit: number; count: number }>();
-  for (const p of work.parts) for (const x of partItems(p)) place.set(x.id, { part: p.part, unit: x.unit, count: p.unitCount });
+  // A text linked over a run of units (the Ramcharitmanas's Sundar Kand) ends at the last unit it covers.
+  const place = new Map<string, { part: number; unit: number; last: number; count: number }>();
+  for (const p of work.parts) for (const x of partItems(p)) place.set(x.id, { part: p.part, unit: x.unit, last: x.last ?? x.unit, count: p.unitCount });
   const adjacent = (a: string, b: string) => {
     const x = place.get(a)!;
     const y = place.get(b)!;
-    return x.part === y.part ? y.unit === x.unit + 1 : y.part === x.part + 1 && y.unit === 1 && x.unit === x.count;
+    return x.part === y.part ? y.unit === x.last + 1 : y.part === x.part + 1 && y.unit === 1 && x.last === x.count;
   };
   const seq = workSequence(work);
   for (const id of seq) {
@@ -39,8 +40,8 @@ for (const work of BOOKS) {
   for (const p of work.parts) {
     const items = partItems(p);
     const last = items[items.length - 1];
-    if (last && last.unit < p.unitCount) {
-      assert.equal(bookNeighbours(last.id)!.next, undefined, `${last.id}: unit ${last.unit + 1} is not written yet`);
+    if (last && (last.last ?? last.unit) < p.unitCount) {
+      assert.equal(bookNeighbours(last.id)!.next, undefined, `${last.id}: unit ${(last.last ?? last.unit) + 1} is not written yet`);
       checks++;
     }
   }

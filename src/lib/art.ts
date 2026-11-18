@@ -16,6 +16,7 @@ export const ART = {
   gita: { card: require('../../assets/art/gita-card.jpg'), hero: require('../../assets/art/gita-hero.jpg'), thumb: require('../../assets/art/gita-thumb.jpg') },
   sundarakanda: { card: require('../../assets/art/sundarakanda-card.jpg'), hero: require('../../assets/art/sundarakanda-hero.jpg'), thumb: require('../../assets/art/sundarakanda-thumb.jpg') },
   ramayana: { card: require('../../assets/art/ramayana-card.jpg'), hero: require('../../assets/art/ramayana-hero.jpg'), thumb: require('../../assets/art/ramayana-thumb.jpg') },
+  ramcharitmanas: { card: require('../../assets/art/ramcharitmanas-card.jpg'), hero: require('../../assets/art/ramcharitmanas-hero.jpg'), thumb: require('../../assets/art/ramcharitmanas-thumb.jpg') },
   mahabharata: { card: require('../../assets/art/mahabharata-card.jpg'), hero: require('../../assets/art/mahabharata-hero.jpg'), thumb: require('../../assets/art/mahabharata-thumb.jpg') },
   vishnu: { card: require('../../assets/art/vishnu-card.jpg'), hero: require('../../assets/art/vishnu-hero.jpg'), thumb: require('../../assets/art/vishnu-thumb.jpg') },
   devimahatmya: { card: require('../../assets/art/devimahatmya-card.jpg'), hero: require('../../assets/art/devimahatmya-hero.jpg'), thumb: require('../../assets/art/devimahatmya-thumb.jpg') },
@@ -43,7 +44,7 @@ export type ArtKey = keyof typeof ART;
 export const HERO_FACE_Y: Record<ArtKey, number> = {
   gita: 0.28, sundarakanda: 0.36, ramayana: 0.24, mahabharata: 0.21, vishnu: 0.24, devimahatmya: 0.23, lalita: 0.26,
   saundaryalahari: 0.24, vayustuti: 0.28, sumadhvavijaya: 0.26, harikathamrutasara: 0.36, surya: 0.21, shiva: 0.21,
-  subrahmanya: 0.24, krishna: 0.26, lakshmi: 0.24, hanuman: 0.2, ganesha: 0.28, durga: 0.2,
+  subrahmanya: 0.24, krishna: 0.26, lakshmi: 0.24, hanuman: 0.2, ganesha: 0.28, durga: 0.2, ramcharitmanas: 0.19,
 };
 
 /** Painting for a deity group (src/lib/deities.ts): the gurus have Madhva's. */

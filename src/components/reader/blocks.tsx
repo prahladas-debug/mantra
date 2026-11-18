@@ -370,8 +370,11 @@ export function SeriesNav({ mantra }: { mantra: Mantra }) {
     next = info(nb?.next);
   } else {
     const nb = wholePartNeighbours(mantra.id);
-    prev ??= info(nb?.prev);
-    next ??= info(nb?.next);
+    // A whole part of a work (the Sundarakanda) goes on to the kandas around it, not to the library's other texts.
+    if (nb) {
+      prev = info(nb.prev);
+      next = info(nb.next);
+    }
   }
   const button = (m: Mantra, label: string, align: 'flex-start' | 'flex-end') => (
     <Pressable

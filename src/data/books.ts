@@ -1,5 +1,5 @@
 /**
- * The long works (Valmiki Ramayana, Mahabharata): the manifest, without loading any text.
+ * The long works (Valmiki Ramayana, Mahabharata, Tulsidas's Ramcharitmanas): the manifest, without loading any text.
  *
  * Each sarga/adhyaya is a bundled asset (assets/books/…/NNN.book) read only when it is opened
  * (src/lib/books.ts loadBookUnit). Lists, search, plans and the routine work from the manifest
@@ -14,7 +14,7 @@ import type { BookPartEntry, BookUnitEntry, BookWork, BookWorkId, CategoryId, Ma
 
 export { BOOKS };
 
-const WORK_IDS = new Set<string>(['ramayana', 'mahabharata']);
+const WORK_IDS = new Set<string>(['ramayana', 'mahabharata', 'ramcharitmanas']);
 
 /** A section of the library that is a long work kept as assets. */
 export function isBookWork(id: string): id is BookWorkId {
@@ -57,6 +57,17 @@ export function unitTitleEn(part: BookPartEntry, titleEn: string): string {
   return plain(titleEn.startsWith(part.nameEn) ? titleEn : `${part.nameEn} · ${titleEn}`);
 }
 
+/**
+ * Where a unit stands in its edition. The Ramcharitmanas's prasangs are ten doha-groups each
+ * (unit k holds dohas 10(k−1)+1 … 10k, the last unit of a kanda the remainder): 'Bal Kand, dohas 1–10'.
+ */
+function unitSource(w: BookWork, part: BookPartEntry, unit: number): string {
+  if (w.unitLabel !== 'prasang') return `${w.titleEn}, ${part.nameEn}, ${w.unitLabel} ${unit}`;
+  const from = 10 * (unit - 1) + 1;
+  const to = unit === part.unitCount ? part.verseCount : 10 * unit;
+  return `${w.titleEn}, ${part.nameEn}, dohas ${from}–${to}`;
+}
+
 /** What every unit shares, whether listed (no sections) or opened. */
 export function unitBase(w: BookWork, part: BookPartEntry, u: Pick<BookUnitEntry, 'id' | 'unit' | 'title' | 'titleEn' | 'summary' | 'verses'>): Mantra {
   const en = u.summary.en ?? '';
@@ -67,7 +78,7 @@ export function unitBase(w: BookWork, part: BookPartEntry, u: Pick<BookUnitEntry
     category: w.work,
     order: u.unit,
     series: `${w.work}-${part.part}`,
-    source: `${w.titleEn}, ${part.nameEn}, ${w.unitLabel} ${u.unit}`,
+    source: unitSource(w, part, u.unit),
     summary: plain(en),
     summaryKn: u.summary.kn,
     summaries: { ...u.summary, en: plain(en) },
@@ -108,6 +119,8 @@ export interface PartItem {
   unit: number;
   /** A text of the library (the part links to it). */
   linked: boolean;
+  /** The last unit it stands for, when one text stands for several (the Ramcharitmanas's Sundar Kand). */
+  last?: number;
 }
 
 /** The units of a part in order, linked texts in their places. */
@@ -115,15 +128,21 @@ export function partItems(part: BookPartEntry): PartItem[] {
   const items: PartItem[] = part.units.map((u) => ({ id: u.id, unit: u.unit, linked: false }));
   for (const l of part.links) {
     const ids = l.category ? categoryIds(l.category) : [l.text!];
-    ids.forEach((id, i) => items.push({ id, unit: l.from + i, linked: true }));
+    ids.forEach((id, i) => items.push({ id, unit: l.from + i, linked: true, ...(l.text && l.to > l.from ? { last: l.to } : {}) }));
   }
   return items.sort((a, b) => a.unit - b.unit);
 }
 
+/** A part that is wholly a section or a text of the library (the Ramayana's Sundarakanda). */
+export function linkedWhole(part: BookPartEntry): { category?: CategoryId; text?: string } | undefined {
+  const l = part.links[0];
+  if (part.links.length !== 1 || l.from !== 1 || l.to !== part.unitCount || part.units.length) return undefined;
+  return l.category ? { category: l.category } : l.text ? { text: l.text } : undefined;
+}
+
 /** A part that is wholly a section of the library (the Ramayana's Sundarakanda). */
 export function linkedCategory(part: BookPartEntry): CategoryId | undefined {
-  const l = part.links[0];
-  return part.links.length === 1 && l.category && l.from === 1 && l.to === part.unitCount && !part.units.length ? (l.category as CategoryId) : undefined;
+  return linkedWhole(part)?.category;
 }
 
 const sequences = new Map<string, string[]>();
@@ -144,6 +163,8 @@ export function bookVerses(id: string): number | undefined {
 interface Place {
   part: BookPartEntry;
   unit: number;
+  /** The last unit a linked text stands for (else the unit itself). */
+  last: number;
 }
 const places = new Map<string, Map<string, Place>>();
 /** Where each reading of a work stands in the edition (part and unit number). */
@@ -151,15 +172,15 @@ function placesOf(work: BookWork): Map<string, Place> {
   const hit = places.get(work.work);
   if (hit) return hit;
   const m = new Map<string, Place>();
-  for (const part of work.parts) for (const x of partItems(part)) m.set(x.id, { part, unit: x.unit });
+  for (const part of work.parts) for (const x of partItems(part)) m.set(x.id, { part, unit: x.unit, last: x.last ?? x.unit });
   places.set(work.work, m);
   return m;
 }
 
 /** b comes straight after a in the edition: the next unit of the part, or the first of the next part. */
 function follows(a: Place, b: Place): boolean {
-  if (a.part === b.part) return b.unit === a.unit + 1;
-  return b.part.part === a.part.part + 1 && b.unit === 1 && a.unit === a.part.unitCount;
+  if (a.part === b.part) return b.unit === a.last + 1;
+  return b.part.part === a.part.part + 1 && b.unit === 1 && a.last === a.part.unitCount;
 }
 
 /**
@@ -194,7 +215,7 @@ export function bookNeighbours(id: string): { prev?: string; next?: string; work
 export function wholePartNeighbours(id: string): { prev?: string; next?: string } | undefined {
   for (const work of BOOKS) {
     for (const part of work.parts) {
-      if (!linkedCategory(part) || !partItems(part).some((x) => x.id === id)) continue;
+      if (!linkedWhole(part) || !partItems(part).some((x) => x.id === id)) continue;
       return bookNeighbours(id);
     }
   }

@@ -36,7 +36,8 @@ function bookWorks(): Work[] {
   const make = (key: string, title: string, native: (sc: ScriptId) => string, ids: string[], unit: string): Work | null => {
     const items = ids.map(getMantraInfo).filter((m): m is Mantra => !!m);
     if (items.length < 2) return null;
-    return { key, title: `${title} (${items.length} ${unit}s)`, native: (sc) => `${native(sc)} (${items.length})`, count: items.length, items, weights: items.map(verseCount) };
+    const noun = unit === 'prasang' ? 'section' : unit;
+    return { key, title: `${title} (${items.length} ${noun}s)`, native: (sc) => `${native(sc)} (${items.length})`, count: items.length, items, weights: items.map(verseCount) };
   };
   for (const w of BOOKS) {
     const whole = make(w.work, w.titleEn, (sc) => translit(w.title, sc), workSequence(w), w.unitLabel);

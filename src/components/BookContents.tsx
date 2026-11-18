@@ -3,7 +3,7 @@ import { router, type Href } from 'expo-router';
 import { useMemo, useState } from 'react';
 import { Pressable, StyleSheet, Text, TextInput, View } from 'react-native';
 import { getMantraInfo, type Category, type Mantra } from '../data';
-import { linkedCategory, partItems, workSequence } from '../data/books';
+import { linkedWhole, partItems, workSequence } from '../data/books';
 import type { BookPartEntry, BookWork } from '../data/types';
 import { scriptFont } from '../lib/fonts';
 import { primaryLang } from '../lib/meaning';
@@ -26,7 +26,7 @@ interface Row {
 const MAX_FILTERED = 100;
 
 /**
- * The page of a long work (Ramayana, Mahabharata): its parts (kandas, parvas) with the units of
+ * The page of a long work (Ramayana, Ramcharitmanas, Mahabharata): its parts (kandas, parvas) with the units of
  * each under them, from the manifest only. Nothing is read from the assets until a unit is opened.
  * A part that is a section of the library (the Sundarakanda) opens that section.
  */
@@ -34,7 +34,8 @@ export function BookContents({ category, work }: { category: Category; work: Boo
   const { theme, settings, recent } = useSettings();
   const { lang: ui, tr } = useI18n();
   const showEn = useShowEnglish();
-  const sarga = work.unitLabel === 'sarga';
+  // What a unit is called in the interface: sarga, adhyaya, or (the Ramcharitmanas's ten-doha groups) section.
+  const unitName = work.unitLabel === 'sarga' ? 'sarga' : work.unitLabel === 'adhyaya' ? 'adhyaya' : 'section';
   const workTitle = ui === 'en' ? work.titleEn : translit(work.title, settings.script);
   const font = scriptFont(settings.script, settings.bookFonts);
   const [q, setQ] = useState('');
@@ -63,7 +64,7 @@ export function BookContents({ category, work }: { category: Category; work: Boo
   const lastRead = recent.find((r) => partOf.has(r.id));
   const lastPart = lastRead ? partOf.get(lastRead.id) : undefined;
   const [open, setOpen] = useState<ReadonlySet<number>>(() => {
-    const first = lastPart ?? work.parts.find((p) => p.units.length && !linkedCategory(p));
+    const first = lastPart ?? work.parts.find((p) => p.units.length && !linkedWhole(p));
     return new Set(first ? [first.part] : []);
   });
   const toggle = (part: number) =>
@@ -115,7 +116,7 @@ export function BookContents({ category, work }: { category: Category; work: Boo
           <TextInput
             value={q}
             onChangeText={setQ}
-            placeholder={work.unitLabel === 'sarga' ? tr('Find a sarga in {title}', { title: workTitle }) : tr('Find an adhyaya in {title}', { title: workTitle })}
+            placeholder={unitName === 'sarga' ? tr('Find a sarga in {title}', { title: workTitle }) : unitName === 'adhyaya' ? tr('Find an adhyaya in {title}', { title: workTitle }) : tr('Find a section in {title}', { title: workTitle })}
             placeholderTextColor={theme.textMuted}
             autoCorrect={false}
             style={{ flex: 1, color: theme.text, fontSize: 16, paddingVertical: 9, paddingHorizontal: 8 }}
@@ -133,15 +134,15 @@ export function BookContents({ category, work }: { category: Category; work: Boo
         {work.parts.map((p, i) => {
           const list = shown(p);
           if (filtering && !list.length) return null;
-          const linked = linkedCategory(p);
+          const linked = linkedWhole(p);
           const count = linked ? p.unitCount : list.length;
           const ready = count > 0;
           const expanded = filtering || (open.has(p.part) && !linked);
           const sizes = [
             ...(showEn ? [p.nameEn] : []),
             !linked && count < p.unitCount
-              ? tr(sarga ? '{count} of {total} sargas' : '{count} of {total} adhyayas', { count, total: p.unitCount })
-              : tr(sarga ? '{n} sargas' : '{n} adhyayas', { n: p.unitCount }),
+              ? unitName === 'sarga' ? tr('{count} of {total} sargas', { count, total: p.unitCount }) : unitName === 'adhyaya' ? tr('{count} of {total} adhyayas', { count, total: p.unitCount }) : tr('{count} of {total} sections', { count, total: p.unitCount })
+              : unitName === 'sarga' ? tr('{n} sargas', { n: p.unitCount }) : unitName === 'adhyaya' ? tr('{n} adhyayas', { n: p.unitCount }) : tr('{n} sections', { n: p.unitCount }),
             tr('{n} verses', { n: p.verseCount.toLocaleString('en-IN') }),
           ];
           const summary = p.summary[lang] ?? (ui === 'en' ? p.summary.en : undefined);
@@ -149,7 +150,7 @@ export function BookContents({ category, work }: { category: Category; work: Boo
             <View key={p.part}>
               <Pressable
                 disabled={!ready || filtering}
-                onPress={() => (linked ? router.push(`/category/${linked}` as Href) : toggle(p.part))}
+                onPress={() => (linked ? router.push((linked.category ? `/category/${linked.category}` : `/mantra/${linked.text}`) as Href) : toggle(p.part))}
                 accessibilityRole={linked ? 'link' : 'button'}
                 accessibilityState={linked ? undefined : { expanded }}
                 style={({ pressed }) => [s.part, { borderTopWidth: i ? StyleSheet.hairlineWidth : 0, borderColor: theme.cardBorder, opacity: pressed ? 0.6 : ready ? 1 : 0.55 }]}

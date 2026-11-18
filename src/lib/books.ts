@@ -1,5 +1,5 @@
 /**
- * Opening a sarga/adhyaya of the long works (Valmiki Ramayana, Mahabharata).
+ * Opening a sarga/adhyaya/prasang of the long works (Valmiki Ramayana, Mahabharata, Ramcharitmanas).
  *
  * Their text is not in the JS bundle: each unit is an asset (assets/books/<work>/<part>/NNN.book,
  * written by scripts/build-books.ts) read when the reader opens it, then kept in a small
@@ -21,6 +21,7 @@ export {
   isBookUnit,
   isBookWork,
   linkedCategory,
+  linkedWhole,
   partItems,
   workSequence,
 } from '../data/books';
