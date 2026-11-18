@@ -156,6 +156,7 @@ export const kn: Record<string, string> = {
   "Dhanurmāsa (solar month Dhanus)": "ಧನುರ್ಮಾಸ (ಸೌರ ಮಾಸ ಧನು)",
   "Display": "ಪ್ರದರ್ಶನ",
   "Display options": "ಪ್ರದರ್ಶನ ಆಯ್ಕೆಗಳು",
+  "Dohas {from}–{to}": "ದೋಹಾ {from}–{to}",
   "Done": "ಮುಗಿದಿದೆ",
   "Done for today": "ಇಂದಿಗೆ ಮುಗಿಯಿತು",
   "Double tap to add one repetition": "ಒಂದು ಬಾರಿ ಸೇರಿಸಲು ಎರಡು ಬಾರಿ ಟ್ಯಾಪ್ ಮಾಡಿ",

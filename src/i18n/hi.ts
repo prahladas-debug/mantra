@@ -156,6 +156,7 @@ export const hi: Record<string, string> = {
   "Dhanurmāsa (solar month Dhanus)": "धनुर्मास (सौर मास धनु)",
   "Display": "प्रदर्शन",
   "Display options": "प्रदर्शन विकल्प",
+  "Dohas {from}–{to}": "दोहा {from}–{to}",
   "Done": "हो गया",
   "Done for today": "आज के लिए हो गया",
   "Double tap to add one repetition": "एक बार जोड़ने के लिए दो बार टैप करें",

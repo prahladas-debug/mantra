@@ -1,0 +1,31 @@
+unit	doha	field	problem	fix
+020	195	meaning.en	Kaikeyi bore one son, Sumitra two; "each" wrong	both bore sons
+020	195	meaning.hi	garbled/ wrong subject (night vs incense)	rewritten
+020	199	meaning.en	wrong subject; EN disagrees with HI	subject Rama
+021	210	meaning.en	garbled/contradictory phrase	rewritten
+022	215	meaning.en	garbled: king seeing the king	rewritten
+024	235	meaning.en	subject reversed (Sita saw Rama leaving); EN disagreed with HI	swapped
+024	233	meaning.en	speaker of the friend's words unmarked (HI says sakhi)	added speaker
+025	247	meaning.en	garbled: Rama here is Lakshmi, not Rama's consort Rama	fixed
+026	251	meaning.en	"shrihat" misread as splendour; means robbed of glory	fixed
+026	259	meaning.hi	garbled: who looked at whom (Sita looked at Rama)	rewritten
+026	259	meaning.en	subject of the glance unclear; aligned with HI	rewritten
+026	260	meaning.en	garbled: wrong object (Rama looked at Sita)	rewritten
+026	259	meaning.en	fix awkward grammar from previous edit	rewritten
+028	275	meaning.hi	wrong speaker/addressee (Lakshmana speaks to Parashurama)	fixed
+028	275	meaning.en	speaker missing / consistent with HI fix	added speaker
+028	276	meaning.en	wrong speaker (Lakshmana, not Parashurama)	fixed
+028	276	meaning.hi	wrong speaker (Lakshmana, not Parashurama)	fixed
+029	281	meaning.en	misread line: gunahu = consider; sense reversed ("mildness makes it worse")	rewritten
+029	281	meaning.hi	misread line (gunahu = consider); sense wrong	rewritten
+029	284	meaning.en	garbled address/title (Ramapati = Vishnu)	fixed
+029	287	meaning.en	speaker (Vishvamitra) missing	added speaker
+029	287	meaning.hi	wrong speaker (the sage, not Janaka)	fixed
+031	305	meaning.en	"the king" ambiguous/misread as Dasharatha (Janaka sent the gifts)	named Janaka
+033	322	meaning.en	"nava sapta" = 9+7 = sixteen adornments, not 63 women	fixed
+033	322	meaning.hi	"nava sapta" = 9+7 = sixteen adornments, not 63 women	fixed
+033	322	meaning.en	"Rama" here is Lakshmi; clarified	Lakshmi
+033	326	meaning.en	"bandhu sameta" belongs to Janaka (with his brother), not Dasharatha's brothers	fixed
+034	335	meaning.en	"nar" = hell (naraka), misread as "woman"; HI correct	fixed
+034	340	meaning.hi	wrong person: Dasharatha got down; Janaka (Videha) speaks next	fixed
+034	340	meaning.en	"the king" ambiguous; aligned with HI fix	named Dasharatha

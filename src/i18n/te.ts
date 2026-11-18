@@ -156,6 +156,7 @@ export const te: Record<string, string> = {
   "Dhanurmāsa (solar month Dhanus)": "ధనుర్మాసం (సౌర మాసం ధనుస్సు)",
   "Display": "ప్రదర్శన",
   "Display options": "ప్రదర్శన ఎంపికలు",
+  "Dohas {from}–{to}": "దోహా {from}–{to}",
   "Done": "పూర్తయింది",
   "Done for today": "ఈ రోజుకు పూర్తయింది",
   "Double tap to add one repetition": "ఒక పునరావృతం జోడించడానికి రెండుసార్లు నొక్కండి",

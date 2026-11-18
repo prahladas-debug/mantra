@@ -73,7 +73,8 @@ export function unitBase(w: BookWork, part: BookPartEntry, u: Pick<BookUnitEntry
   const en = u.summary.en ?? '';
   return {
     id: u.id,
-    title: unitTitle(part, u.title),
+    // A prasang's title is its episode ('गुरु सन्त और खल की वन्दना'): the kanda stands before it.
+    title: w.unitLabel === 'prasang' ? `${part.name} · ${u.title}` : unitTitle(part, u.title),
     titleEn: unitTitleEn(part, u.titleEn),
     category: w.work,
     order: u.unit,

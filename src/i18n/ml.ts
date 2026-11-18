@@ -156,6 +156,7 @@ export const ml: Record<string, string> = {
   "Dhanurmāsa (solar month Dhanus)": "ധനുർമാസം (സൗരമാസം ധനു)",
   "Display": "പ്രദർശനം",
   "Display options": "പ്രദർശന ഓപ്ഷനുകൾ",
+  "Dohas {from}–{to}": "ദോഹ {from}–{to}",
   "Done": "പൂർത്തിയായി",
   "Done for today": "ഇന്നത്തേക്ക് പൂർത്തിയായി",
   "Double tap to add one repetition": "ഒരു ആവർത്തനം ചേർക്കാൻ രണ്ടുതവണ തൊടുക",

@@ -1,0 +1,53 @@
+unit	doha	field	problem	fix
+001	2	en	speaker wrong: Hanuman speaks the line, not Bharata	Hanuman speaks; Bharata embraces
+001	2	hi	speaker wrong: Hanuman speaks the line, not Bharata	Hanuman speaks; Bharata embraces
+001	3	en	rochana is gorochana, not turmeric	gorochana
+001	10	en	addressee Bhavani misplaced as an epithet of the Lord	Bhavani is the addressee
+002	11	en	whose hair: Rama untangles Bharata's jata	Bharata's
+002	11	hi	whose hair: Rama untangles Bharata's jata	Bharata's
+002	13	hi	garbled Hindi for 'कंटक किन लहे'	clear rendering
+004	32	en	asa basan = direction-clad (naked), not 'clothed in hope'; also 'go' vs listen	directions as clothing; listen
+004	32	hi	asa basan misread as 'clothing of hope'	directions as clothing
+006	51	en	'kam ari' is Shiva (whose heart-lotus Hari haunts), not an epithet of Rama; EN/HI disagreed	Shiva is Kamari
+006	51	en	'sasi' = sasya (crop); EN said moon, HI had Brahmins as moon	crop; EN/HI aligned
+006	51	hi	'sasi' = sasya (crop); EN said moon, HI had Brahmins as moon	crop; EN/HI aligned
+006	52	hi	garbled Hindi (word missing)	पुटों added
+006	60	en	'rahihu Uma Kailas': Uma was at Kailasa; Shiva did not tell Garuda to stay	Uma at Kailasa
+006	60	hi	'rahihu Uma Kailas': Uma was at Kailasa; Shiva did not tell Garuda to stay	Uma at Kailasa
+007	62	en	'jan' = vehicle (Garuda); misread as 'knows'	Garuda is the subject
+007	62	hi	'jan' = vehicle (Garuda); misread as 'knows'	Garuda is the subject
+008	74	en	'prabhu' misread as an address; delusion was about the Lord (Hindi was right)	delusion concerning the Lord
+009	85	en	'brahma' here is Brahman, not the creator Brahma	Brahman
+010	93	en	'brahma' here is Brahman, not the creator Brahma	Brahman
+010	99	en	Brahman, not creator Brahma	Brahman
+010	99	en	EN misread dohas's last line (glare at those who know Brahman); EN/HI disagreed	aligned to the text and the Hindi
+010	100	en	'so-called' added an editorial edge not in the text (neutral rendering)	literal
+010	100	hi	'अपने को ... कहते हैं' added an edge not in the text	literal
+011	101	en	'ughar tapi': ascetic known by nakedness; 'matted hair' not in the line	unclad
+011	101	hi	'ughar tapi' mistaken for open matted hair	nakedness
+011	101	en	garbled sense of the poets/generous line; 'gunee' dropped	poets many, no generous or virtuous one
+011	101	hi	garbled sense of the poets/generous line	poets many, no generous one
+011	102	en	'kach bhushan' = hair as ornament; 'much hair' invented	hair is the ornament
+011	102	hi	'kach bhushan' = hair as ornament; 'much hair' invented	hair is the ornament
+011	106	en	reversed: 'har kahu hari sevak' = Hara is Hari's servant	reversed back
+011	106	hi	reversed: 'har kahu hari sevak' = Hara is Hari's servant	reversed back
+011	106	en	half line 'marut udav pratham tehi bharai' left out in EN	added
+011	108	en	'brahm' is Brahman, not creator Brahma	Brahman
+011	109	en	misread 'haritoshan brat dwij sevakai'	aligned with HI
+011	110	en	Brahman, not creator Brahma	Brahman
+011	110	en	Brahman, not creator Brahma	Brahman
+012	111	en	Brahman, not creator Brahma	Brahman
+012	114	en	'brahmagira' is Brahman's voice, not the creator Brahma's	Brahman
+012	114	en	'kalap' = kalpa (HI already says kalpa)	kalpas
+012	116	en	misread as addressing Maya and devotion	not an address
+012	120	en	Brahman, not creator Brahma	Brahman
+013	121	en	diseases swapped; EN/HI disagreed (chhai=consumption, kushth=leprosy)	consumption / leprosy
+013	121	en	'trubidhi eeshana tarun tijari': 'fevers of one, two, three days' not in text	tertian fever
+013	122	en	Brahman, not creator Brahma	Brahman
+013	122	en	reversed/misread subject of 'masakahi karai biranchi prabhu ajahi masak te heen'	Lord is the one who can do it
+013	122	hi	reversed/misread subject of 'masakahi karai biranchi prabhu ajahi masak te heen'	Lord is the one who can do it
+013	125	en	'gavahi' misread as an imperative	as they sing
+013	130	en	wording; sense kept	wording
+013	130	en	hedged, wrong-looking number ('five hundred and a few / 105') for 'sat panch'	seven-and-five chaupais; unsure
+013	130	hi	sense reversed: 'no means like yoga...' vs 'no other means (yoga, etc.)'	aligned with text and EN
+013	130	hi	commentary parenthetical; 'sat panch' left unexplained	removed commentary; seven-five

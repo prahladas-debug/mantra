@@ -18,7 +18,10 @@ export function titleFor(m: Mantra, script: ScriptId): { text: string; script: S
 /** "Venkatesha Suprabhatam · 29 verses · partial" */
 function subtitleFor(m: Mantra, tr: (s: string, vars?: Record<string, string | number>) => string, showEn: boolean, override?: string) {
   const n = verseCount(m);
-  return [showEn ? (override ?? m.titleEn) : '', n === 1 ? tr('{n} verse', { n }) : tr('{n} verses', { n }), m.completeness === 'partial' ? tr('partial') : ''].filter(Boolean).join(' · ');
+  // A Ramcharitmanas prasang is known by its dohas ('Bal Kand, dohas 1–10'), not a verse count.
+  const dohas = m.source?.match(/dohas (\d+)–(\d+)$/);
+  const size = dohas ? tr('Dohas {from}–{to}', { from: dohas[1], to: dohas[2] }) : n === 1 ? tr('{n} verse', { n }) : tr('{n} verses', { n });
+  return [showEn ? (override ?? m.titleEn) : '', size, m.completeness === 'partial' ? tr('partial') : ''].filter(Boolean).join(' · ');
 }
 
 /**
