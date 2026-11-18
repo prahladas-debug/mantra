@@ -4,10 +4,12 @@ import type { ReactNode } from 'react';
 import { Image, ImageBackground, Pressable, StyleSheet, Text, View, useWindowDimensions, type ImageSourcePropType } from 'react-native';
 import { categoryById, categoryCounts, getMantraInfo, type CategoryId } from '../data';
 import { bookWork, isBookWork } from '../data/books';
+import type { Audience } from '../lib/audience';
+import { orderWorks } from '../lib/audience';
 import type { DeityGroup } from '../lib/deities';
 import { headingFont, scriptFont } from '../lib/fonts';
 import { T, useI18n } from '../lib/i18n';
-import { categoryTitle } from '../lib/labels';
+import { DEITY_LABELS, categoryTitle } from '../lib/labels';
 import { useSettings } from '../lib/settings';
 import { LinearGradient } from 'expo-linear-gradient';
 import { ART, DEITY_ART as DEITY_PAINTING, type ArtKey } from '../lib/art';
@@ -57,10 +59,9 @@ export const GREAT_WORKS: GreatWork[] = [
   { textId: 'saundarya-lahari', titleEn: 'Saundarya Lahari', size: T('100 verses'), about: 'Shankaracharya', lines: ['सौन्दर्य', 'लहरी'], cloth: '#3B2F6B', edge: '#56489A', tradition: 'smarta', art: 'saundaryalahari' },
 ];
 
-/** Works of the reader's own tradition first; nothing is hidden. */
-export function greatWorks(tradition: string | undefined): GreatWork[] {
-  const own = tradition === 'smarta' ? 'smarta' : 'madhva';
-  return [...GREAT_WORKS].sort((a, b) => Number(!!a.tradition && a.tradition !== own) - Number(!!b.tradition && b.tradition !== own));
+/** The great works in the order the reader's audience meets them (see audience.ts); nothing is hidden. */
+export function greatWorks(audience: Audience, tradition: string | undefined): GreatWork[] {
+  return orderWorks(GREAT_WORKS, audience, tradition);
 }
 
 const CREAM = '#FFF4DC';
@@ -320,7 +321,7 @@ export function DeityBanner({ deity, count }: { deity: DeityGroup; count: number
   return (
     <PaintedBanner art={key}>
       <Text style={{ color: CREAM, fontSize: size, lineHeight: size * 1.4, fontFamily: font, fontWeight: font ? undefined : '700' }} numberOfLines={2} adjustsFontSizeToFit minimumFontScale={0.6}>
-        {roman ? deity.titleEn.split(' · ')[0] : translit(deity.short ?? deity.title, settings.script)}
+        {deityLabel(deity, settings.script)}
       </Text>
       {(roman || showEn) && (
         <Text style={{ color: CREAM, fontSize: 14, fontWeight: '600', marginTop: 2 }} numberOfLines={2}>
@@ -336,7 +337,7 @@ export function DeityBanner({ deity, count }: { deity: DeityGroup; count: number
 
 /** A deity's name for a small label: its English name in English, else its own in the reader's script. */
 export function deityLabel(deity: DeityGroup, script: ScriptId): string {
-  return script === 'english' ? deity.titleEn.split(' · ')[0] : translit(deity.short ?? deity.title, script);
+  return script === 'english' ? deity.titleEn.split(' · ')[0] : DEITY_LABELS[deity.id]?.[script] ?? translit(deity.short ?? deity.title, script);
 }
 
 const DEITY_ART: Record<string, ImageSourcePropType> = {

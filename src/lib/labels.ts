@@ -31,7 +31,7 @@ export const APP_MOTTO = 'तमसो मा ज्योतिर्गमय'
 export const APP_TAGLINE = 'Mantra · Parayana · Panchanga';
 
 const CATEGORY_LABELS: Record<CategoryId, Labels> = {
-  nitya: {
+  nitya: { devanagari: 'नित्य प्रार्थना',
     kannada: 'ನಿತ್ಯ ಪ್ರಾರ್ಥನೆ',
     telugu: 'నిత్య ప్రార్థన',
     tamil: 'தினசரி பிரார்த்தனைகள்',
@@ -40,7 +40,7 @@ const CATEGORY_LABELS: Record<CategoryId, Labels> = {
     bengali: 'নিত্য প্রার্থনা',
     oriya: 'ନିତ୍ୟ ପ୍ରାର୍ଥନା',
   },
-  gita: {
+  gita: { devanagari: 'भगवद्गीता',
     kannada: 'ಭಗವದ್ಗೀತೆ',
     telugu: 'భగవద్గీత',
     tamil: 'பகவத் கீதை',
@@ -49,14 +49,14 @@ const CATEGORY_LABELS: Record<CategoryId, Labels> = {
     bengali: 'ভগবদ্গীতা',
     oriya: 'ଭଗବଦ୍ ଗୀତା',
   },
-  sundarakanda: { kannada: 'ಸುಂದರಕಾಂಡ', telugu: 'సుందరకాండ', tamil: 'சுந்தர காண்டம்', malayalam: 'സുന്ദരകാണ്ഡം', gujarati: 'સુંદરકાંડ', bengali: 'সুন্দরকাণ্ড', oriya: 'ସୁନ୍ଦରକାଣ୍ଡ' },
-  ramayana: { kannada: 'ವಾಲ್ಮೀಕಿ ರಾಮಾಯಣ', telugu: 'వాల్మీకి రామాయణం', tamil: 'வால்மீகி ராமாயணம்', malayalam: 'വാൽമീകി രാമായണം', gujarati: 'વાલ્મીકિ રામાયણ', bengali: 'বাল্মীকি রামায়ণ', oriya: 'ବାଲ୍ମୀକି ରାମାୟଣ' },
-  ramcharitmanas: { kannada: 'ರಾಮಚರಿತಮಾನಸ', telugu: 'రామచరితమానస', tamil: 'ராமசரிதமானஸ்', malayalam: 'രാമചരിതമാനസ്', gujarati: 'રામચરિતમાનસ', bengali: 'রামচরিতমানস', oriya: 'ରାମଚରିତମାନସ' },
-  mahabharata: { kannada: 'ಮಹಾಭಾರತ', telugu: 'మహాభారతం', tamil: 'மகாபாரதம்', malayalam: 'മഹാഭാരതം', gujarati: 'મહાભારત', bengali: 'মহাভারত', oriya: 'ମହାଭାରତ' },
-  devimahatmya: { kannada: 'ದೇವೀಮಾಹಾತ್ಮ್ಯ', telugu: 'దేవీమాహాత్మ్యం', tamil: 'தேவீ மாஹாத்மியம்', malayalam: 'ദേവീമാഹാത്മ്യം', gujarati: 'દેવીમાહાત્મ્ય', bengali: 'দেবীমাহাত্ম্য', oriya: 'ଦେବୀମାହାତ୍ମ୍ୟ' },
-  harikathamrutasara: { kannada: 'ಹರಿಕಥಾಮೃತಸಾರ', telugu: 'హరికథామృతసార', tamil: 'ஹரிகதாம்ருத ஸாரம்', malayalam: 'ഹരികഥാമൃതസാര', gujarati: 'હરિકથામૃતસાર', bengali: 'হরিকথামৃতসার', oriya: 'ହରିକଥାମୃତସାର' },
-  sumadhvavijaya: { kannada: 'ಸುಮಧ್ವವಿಜಯ', telugu: 'సుమధ్వవిజయం', tamil: 'ஸுமத்வ விஜயம்', malayalam: 'സുമധ്വവിജയം', gujarati: 'સુમધ્વવિજય', bengali: 'সুমধ্ববিজয়', oriya: 'ସୁମଧ୍ୱବିଜୟ' },
-  vedic: {
+  sundarakanda: { devanagari: 'सुन्दरकाण्ड', kannada: 'ಸುಂದರಕಾಂಡ', telugu: 'సుందరకాండ', tamil: 'சுந்தர காண்டம்', malayalam: 'സുന്ദരകാണ്ഡം', gujarati: 'સુંદરકાંડ', bengali: 'সুন্দরকাণ্ড', oriya: 'ସୁନ୍ଦରକାଣ୍ଡ' },
+  ramayana: { devanagari: 'वाल्मीकि रामायण', kannada: 'ವಾಲ್ಮೀಕಿ ರಾಮಾಯಣ', telugu: 'వాల్మీకి రామాయణం', tamil: 'வால்மீகி ராமாயணம்', malayalam: 'വാൽമീകി രാമായണം', gujarati: 'વાલ્મીકિ રામાયણ', bengali: 'বাল্মীকি রামায়ণ', oriya: 'ବାଲ୍ମୀକି ରାମାୟଣ' },
+  ramcharitmanas: { devanagari: 'रामचरितमानस', kannada: 'ರಾಮಚರಿತಮಾನಸ', telugu: 'రామచరితమానస', tamil: 'ராமசரிதமானஸ்', malayalam: 'രാമചരിതമാനസ്', gujarati: 'રામચરિતમાનસ', bengali: 'রামচরিতমানস', oriya: 'ରାମଚରିତମାନସ' },
+  mahabharata: { devanagari: 'महाभारत', kannada: 'ಮಹಾಭಾರತ', telugu: 'మహాభారతం', tamil: 'மகாபாரதம்', malayalam: 'മഹാഭാരതം', gujarati: 'મહાભારત', bengali: 'মহাভারত', oriya: 'ମହାଭାରତ' },
+  devimahatmya: { devanagari: 'देवी माहात्म्य', kannada: 'ದೇವೀಮಾಹಾತ್ಮ್ಯ', telugu: 'దేవీమాహాత్మ్యం', tamil: 'தேவீ மாஹாத்மியம்', malayalam: 'ദേവീമാഹാത്മ്യം', gujarati: 'દેવીમાહાત્મ્ય', bengali: 'দেবীমাহাত্ম্য', oriya: 'ଦେବୀମାହାତ୍ମ୍ୟ' },
+  harikathamrutasara: { devanagari: 'हरिकथामृतसार', kannada: 'ಹರಿಕಥಾಮೃತಸಾರ', telugu: 'హరికథామృతసార', tamil: 'ஹரிகதாம்ருத ஸாரம்', malayalam: 'ഹരികഥാമൃതസാര', gujarati: 'હરિકથામૃતસાર', bengali: 'হরিকথামৃতসার', oriya: 'ହରିକଥାମୃତସାର' },
+  sumadhvavijaya: { devanagari: 'सुमध्वविजय', kannada: 'ಸುಮಧ್ವವಿಜಯ', telugu: 'సుమధ్వవిజయం', tamil: 'ஸுமத்வ விஜயம்', malayalam: 'സുമധ്വവിജയം', gujarati: 'સુમધ્વવિજય', bengali: 'সুমধ্ববিজয়', oriya: 'ସୁମଧ୍ୱବିଜୟ' },
+  vedic: { devanagari: 'वैदिक सूक्त',
     kannada: 'ವೈದಿಕ ಸೂಕ್ತಗಳು',
     telugu: 'వైదిక సూక్తాలు',
     tamil: 'வேத சூக்தங்கள்',
@@ -65,7 +65,7 @@ const CATEGORY_LABELS: Record<CategoryId, Labels> = {
     bengali: 'বৈদিক সূক্ত',
     oriya: 'ବୈଦିକ ସୂକ୍ତ',
   },
-  sahasranama: {
+  sahasranama: { devanagari: 'सहस्रनाम',
     kannada: 'ಸಹಸ್ರನಾಮಗಳು',
     telugu: 'సహస్రనామాలు',
     tamil: 'ஸஹஸ்ரநாமங்கள்',
@@ -74,7 +74,7 @@ const CATEGORY_LABELS: Record<CategoryId, Labels> = {
     bengali: 'সহস্রনাম',
     oriya: 'ସହସ୍ରନାମ',
   },
-  stotra: {
+  stotra: { devanagari: 'स्तोत्र',
     kannada: 'ಸ್ತೋತ್ರಗಳು',
     telugu: 'స్తోత్రాలు',
     tamil: 'ஸ்தோத்திரங்கள்',
@@ -83,7 +83,7 @@ const CATEGORY_LABELS: Record<CategoryId, Labels> = {
     bengali: 'স্তোত্র',
     oriya: 'ସ୍ତୋତ୍ର',
   },
-  madhva: {
+  madhva: { devanagari: 'माध्व स्तोत्र',
     kannada: 'ಮಾಧ್ವ ಸ್ತೋತ್ರಗಳು',
     telugu: 'మాధ్వ స్తోత్రాలు',
     tamil: 'மாத்வ ஸ்தோத்திரங்கள்',
@@ -92,7 +92,7 @@ const CATEGORY_LABELS: Record<CategoryId, Labels> = {
     bengali: 'মাধ্ব স্তোত্র',
     oriya: 'ମାଧ୍ୱ ସ୍ତୋତ୍ର',
   },
-  'dasara-pada': {
+  'dasara-pada': { devanagari: 'हरिदासों के पद',
     kannada: 'ದಾಸರ ಪದಗಳು',
     telugu: 'దాసర పదాలు',
     tamil: 'தாஸர் பதங்கள்',
@@ -101,7 +101,7 @@ const CATEGORY_LABELS: Record<CategoryId, Labels> = {
     bengali: 'দাসর পদ',
     oriya: 'ଦାସର ପଦ',
   },
-  sandhya: {
+  sandhya: { devanagari: 'सन्ध्यावन्दन',
     kannada: 'ಸಂಧ್ಯಾವಂದನೆ',
     telugu: 'సంధ్యావందనం',
     tamil: 'சந்தியாவந்தனம்',
@@ -110,7 +110,7 @@ const CATEGORY_LABELS: Record<CategoryId, Labels> = {
     bengali: 'সন্ধ্যাবন্দনা',
     oriya: 'ସନ୍ଧ୍ୟାବନ୍ଦନ',
   },
-  puja: {
+  puja: { devanagari: 'पूजा विधि',
     kannada: 'ಪೂಜಾ ವಿಧಾನ',
     telugu: 'పూజా విధానం',
     tamil: 'பூஜை முறை',
@@ -119,7 +119,7 @@ const CATEGORY_LABELS: Record<CategoryId, Labels> = {
     bengali: 'পূজা বিধি',
     oriya: 'ପୂଜା ବିଧି',
   },
-  homa: {
+  homa: { devanagari: 'यज्ञ',
     kannada: 'ಯಜ್ಞಗಳು',
     telugu: 'యజ్ఞాలు',
     tamil: 'யக்ஞங்கள்',
@@ -128,7 +128,7 @@ const CATEGORY_LABELS: Record<CategoryId, Labels> = {
     bengali: 'যজ্ঞ',
     oriya: 'ଯଜ୍ଞ',
   },
-  samskara: {
+  samskara: { devanagari: 'संस्कार और कर्म',
     kannada: 'ಸಂಸ್ಕಾರ ಮತ್ತು ಕರ್ಮಗಳು',
     telugu: 'సంస్కారాలు, కర్మలు',
     tamil: 'ஸம்ஸ்காரங்கள், கர்மங்கள்',
@@ -137,7 +137,7 @@ const CATEGORY_LABELS: Record<CategoryId, Labels> = {
     bengali: 'সংস্কার ও কর্ম',
     oriya: 'ସଂସ୍କାର ଓ କର୍ମ',
   },
-  chalisa: {
+  chalisa: { devanagari: 'चालीसा एवं पाठ',
     kannada: 'ಚಾಲೀಸಾ ಮತ್ತು ಪಾರಾಯಣ',
     telugu: 'చాలీసా, పారాయణ',
     tamil: 'சாலீசா, பாராயணம்',
@@ -146,7 +146,7 @@ const CATEGORY_LABELS: Record<CategoryId, Labels> = {
     bengali: 'চালিসা ও পাঠ',
     oriya: 'ଚାଳିଶା ଓ ପାଠ',
   },
-  kirtana: {
+  kirtana: { devanagari: 'कीर्तन',
     kannada: 'ಕೀರ್ತನೆಗಳು',
     telugu: 'కీర్తనలు',
     tamil: 'கீர்த்தனைகள்',
@@ -155,7 +155,7 @@ const CATEGORY_LABELS: Record<CategoryId, Labels> = {
     bengali: 'কীর্তন',
     oriya: 'କୀର୍ତ୍ତନ',
   },
-  aarti: {
+  aarti: { devanagari: 'आरती और भजन',
     kannada: 'ಆರತಿ ಮತ್ತು ಭಜನೆಗಳು',
     telugu: 'హారతులు, భజనలు',
     tamil: 'ஆரத்திகள், பஜனைகள்',
@@ -174,3 +174,18 @@ export function categoryTitle(c: Category, script: ScriptId): string {
   if (script === 'english') return c.titleEn;
   return CATEGORY_LABELS[c.id][script] ?? translit(c.title, script);
 }
+
+/**
+ * Deity names as each language says them (Tamil முருகன், Hindi शिव), not transliterated Sanskrit
+ * with visarga (शिवः, ஶிவ꞉). Devanagari is read as Hindi.
+ */
+export const DEITY_LABELS: Record<string, Labels> = {
+  vishnu: { devanagari: 'श्रीहरि', kannada: 'ಶ್ರೀಹರಿ', telugu: 'శ్రీహరి', tamil: 'ஸ்ரீஹரி', malayalam: 'ശ്രീഹരി', gujarati: 'શ્રીહરિ', bengali: 'শ্রীহরি', oriya: 'ଶ୍ରୀହରି' },
+  devi: { devanagari: 'देवी', kannada: 'ದೇವಿ', telugu: 'దేవి', tamil: 'தேவி', malayalam: 'ദേവി', gujarati: 'દેવી', bengali: 'দেবী', oriya: 'ଦେବୀ' },
+  shiva: { devanagari: 'शिव', kannada: 'ಶಿವ', telugu: 'శివుడు', tamil: 'சிவன்', malayalam: 'ശിവൻ', gujarati: 'શિવ', bengali: 'শিব', oriya: 'ଶିବ' },
+  ganesha: { devanagari: 'गणेश', kannada: 'ಗಣೇಶ', telugu: 'గణేశుడు', tamil: 'விநாயகர்', malayalam: 'ഗണപതി', gujarati: 'ગણેશ', bengali: 'গণেশ', oriya: 'ଗଣେଶ' },
+  vayu: { devanagari: 'हनुमान', kannada: 'ಹನುಮಾನ್', telugu: 'హనుమాన్', tamil: 'அனுமன்', malayalam: 'ഹനുമാൻ', gujarati: 'હનુમાન', bengali: 'হনুমান', oriya: 'ହନୁମାନ' },
+  surya: { devanagari: 'सूर्य', kannada: 'ಸೂರ್ಯ', telugu: 'సూర్యుడు', tamil: 'சூரியன்', malayalam: 'സൂര്യൻ', gujarati: 'સૂર્ય', bengali: 'সূর্য', oriya: 'ସୂର୍ଯ୍ୟ' },
+  subrahmanya: { devanagari: 'कार्तिकेय', kannada: 'ಸುಬ್ರಹ್ಮಣ್ಯ', telugu: 'సుబ్రహ్మణ్యుడు', tamil: 'முருகன்', malayalam: 'സുബ്രഹ്മണ്യൻ', gujarati: 'કાર્તિકેય', bengali: 'কার্তিকেয়', oriya: 'କାର୍ତ୍ତିକେୟ' },
+  guru: { devanagari: 'गुरु', kannada: 'ಗುರುಗಳು', telugu: 'గురువులు', tamil: 'குருமார்', malayalam: 'ഗുരുക്കന്മാർ', gujarati: 'ગુરુ', bengali: 'গুরু', oriya: 'ଗୁରୁ' },
+};

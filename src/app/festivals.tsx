@@ -4,10 +4,11 @@ import { ScrollView, Text, View } from 'react-native';
 import { FestivalLine, calcMethodLabel, useCalcMethod, useCalendarMode, useEkadashiRule, useMatha, useSauraStart } from '../components/PanchangaCard';
 import { CalendarBar } from '../components/CalendarBar';
 import { Chip, SectionHeading } from '../components/ui';
-import { festivalsBetween, type Festival } from '../lib/festivals';
+import { festivalsBetween, forAudience, type Festival } from '../lib/festivals';
 import { useI18n } from '../lib/i18n';
 import { cityById, todayIn } from '../lib/panchanga';
 import { useSettings } from '../lib/settings';
+import { useAudience } from '../lib/useAudience';
 
 /** Years offered in the picker (the computation itself works outside this range too). */
 const YEARS = Array.from({ length: 12 }, (_, i) => 2025 + i);
@@ -23,12 +24,13 @@ export default function FestivalsYearScreen() {
   const [picked, setPicked] = useState<number | null>(null);
   const year = picked ?? (fromParam >= 1900 && fromParam <= 2200 ? fromParam : thisYear);
   const [rule] = useEkadashiRule();
+  const audience = useAudience();
   const matha = useMatha();
   const [mode] = useCalendarMode();
   const [start] = useSauraStart();
   const [method] = useCalcMethod();
 
-  const all = festivalsBetween(city, `${year}-01-01`, `${year}-12-31`, rule, mode, start, method, matha);
+  const all = forAudience(festivalsBetween(city, `${year}-01-01`, `${year}-12-31`, rule, mode, start, method, matha), audience, rule);
   const byMonth: Festival[][] = Array.from({ length: 12 }, () => []);
   for (const f of all) {
     // A period that began in the previous year is listed under January.

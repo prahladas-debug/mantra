@@ -4,26 +4,21 @@ import { Pressable, ScrollView, StyleSheet, Text, View, useWindowDimensions } fr
 import { CategoryList, DeityMedallion, ShelfHeading, WorkCard, greatWorks } from '../../components/Shelf';
 import type { CategoryId } from '../../data';
 import { COLLECTIONS } from '../../data/collections';
-import { DEITIES } from '../../lib/deities';
+import { shelvesFor } from '../../lib/audience';
+import { deitiesFor } from '../../lib/deities';
 import { scriptFont } from '../../lib/fonts';
 import { T, useI18n } from '../../lib/i18n';
 import { useSettings } from '../../lib/settings';
+import { useAudience } from '../../lib/useAudience';
 import { nameOf } from '../../lib/transliterate';
 import { useShowEnglish } from '../../components/useGloss';
-
-/** The library below the great works, in a few plain groups. */
-export const SHELVES: { title: string; categories: CategoryId[] }[] = [
-  { title: T('Every day'), categories: ['nitya', 'sandhya', 'puja'] },
-  { title: T('Stotras and names'), categories: ['stotra', 'sahasranama', 'madhva', 'vedic'] },
-  { title: T('Devotional songs'), categories: ['dasara-pada', 'kirtana', 'chalisa', 'aarti'] },
-  { title: T('Yajnas and rites'), categories: ['homa', 'samskara'] },
-];
 
 /** The whole library: the great works as a shelf of books, then tiles by kind, deity and occasion. */
 export default function Library() {
   const { theme, settings } = useSettings();
   const { tr } = useI18n();
   const showEn = useShowEnglish();
+  const audience = useAudience();
   const { width } = useWindowDimensions();
   const font = scriptFont(settings.script, settings.bookFonts);
   // The great works as a wall of painted cards: three to a row on a phone, more on a tablet.
@@ -39,22 +34,22 @@ export default function Library() {
 
       <ShelfHeading title={T('Great works')} />
       <View style={s.grid}>
-        {greatWorks(settings.variants.tradition).map((w) => (
+        {greatWorks(audience, settings.variants.tradition).map((w) => (
           <WorkCard key={w.category ?? w.textId} work={w} width={cardW} />
         ))}
       </View>
 
       <ShelfHeading title={T('By deity')} />
       <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={{ paddingHorizontal: 12, gap: 4 }}>
-        {DEITIES.map((d) => (
+        {deitiesFor(audience).map((d) => (
           <DeityMedallion key={d.id} deity={d} width={84} />
         ))}
       </ScrollView>
 
-      {SHELVES.map((shelf) => (
+      {shelvesFor(audience).map((shelf) => (
         <View key={shelf.title}>
           <ShelfHeading title={shelf.title} />
-          <CategoryList ids={shelf.categories} />
+          <CategoryList ids={shelf.categories as CategoryId[]} />
         </View>
       ))}
 

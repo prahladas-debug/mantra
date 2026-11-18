@@ -13,14 +13,14 @@ let checks = 0;
 
 const settings = {
   script: 'devanagari', secondaryScript: null, fontScale: 1, theme: 'system', alwaysShowMeanings: false, meaningLang: 'auto',
-  uiLang: 'auto', keepAwake: true, variants: {}, city: 'bengaluru', layout: 'book', bookFonts: true, centerVerses: true,
+  uiLang: 'auto', contentFor: 'auto', keepAwake: true, variants: {}, city: 'bengaluru', layout: 'book', bookFonts: true, centerVerses: true,
   onboarded: false, festivalReminders: { ekadashi: false, festivals: false, time: '19:00' }, showStreaks: false, japaVibrate: true, autoSpeed: 4, edgeTaps: true, volumeKeys: false,
 } as Store['settings'];
 const defaults: Store = { settings, favorites: [], recent: [], plans: [], positions: {}, bookmarks: [], routine: [], routineDone: {}, finished: {}, readDays: [] };
 const japa0: JapaState = { version: 1, current: 'om-namo-narayanaya', target: 108, counts: {}, totals: {}, days: {}, customLabels: [] };
 
 const mine: Store = {
-  settings: { ...settings, script: 'kannada', city: 'udupi', theme: 'dark', secondaryScript: 'iast', onboarded: true, showStreaks: true, festivalReminders: { ekadashi: true, festivals: false, time: '20:00' } },
+  settings: { ...settings, script: 'kannada', city: 'udupi', contentFor: 'north', theme: 'dark', secondaryScript: 'iast', onboarded: true, showStreaks: true, festivalReminders: { ekadashi: true, festivals: false, time: '20:00' } },
   favorites: ['gayatri-mantra', 'vishnu-sahasranama'],
   recent: [{ id: 'gayatri-mantra', at: 5 }],
   plans: [
@@ -52,12 +52,13 @@ const mineJapa: JapaState = { ...japa0, current: 'custom:Om', totals: { 'custom:
     assert.equal(merged.settings.script, 'kannada');
     assert.equal(merged.settings.city, 'udupi');
     assert.equal(merged.settings.secondaryScript, 'iast');
+    assert.equal(merged.settings.contentFor, 'north');
     assert.deepEqual(merged.settings.festivalReminders, { ekadashi: true, festivals: false, time: '20:00' });
     assert.equal(merged.settings.onboarded, true);
     assert.deepEqual(merged.routineDone, mine.routineDone);
     assert.deepEqual(merged.positions, mine.positions);
     assert.deepEqual(summarize(merged, v.backup.japa), { favorites: 2, bookmarks: 2, plans: 1, routine: 2, positions: 1, japaDays: 2, japaBeads: 216 });
-    checks += 14;
+    checks += 15;
   }
   assert.equal(backupFileName(new Date('2026-11-17T08:00:00Z')), 'nandadeepa-backup-2026-11-17.json');
   checks += 2;
@@ -84,7 +85,7 @@ checks += 12;
   const v = validateBackup({
     app: 'nandadeepa', version: 1, createdAt: 5,
     store: {
-      settings: { script: 12, city: 'udupi', theme: 'night', bogus: true, fontScale: 'big', festivalReminders: 'x', secondaryScript: 'iast' },
+      settings: { script: 12, city: 'udupi', contentFor: 'mars', theme: 'night', bogus: true, fontScale: 'big', festivalReminders: 'x', secondaryScript: 'iast' },
       favorites: ['a', 3, 'a', null, 'b'],
       recent: [{ id: 'x', at: 1 }, { id: 4 }, 'y'],
       plans: [
@@ -124,9 +125,10 @@ checks += 12;
     assert.equal(m.settings.city, 'udupi');
     assert.equal(m.settings.theme, 'night');
     assert.equal(m.settings.secondaryScript, 'iast');
+    assert.equal(m.settings.contentFor, 'auto'); // not one of the choices: the default
     assert.equal(m.settings.keepAwake, true); // missing from an older backup: the default
     assert.ok(!('bogus' in m.settings));
-    checks += 24;
+    checks += 25;
   }
 }
 

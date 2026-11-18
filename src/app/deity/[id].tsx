@@ -1,7 +1,7 @@
 import { Stack, useLocalSearchParams } from 'expo-router';
 import { useState } from 'react';
 import { ScrollView, Text, View, type NativeScrollEvent, type NativeSyntheticEvent } from 'react-native';
-import { DeityBanner } from '../../components/Shelf';
+import { DeityBanner, deityLabel } from '../../components/Shelf';
 import { DEITY_ART } from '../../lib/art';
 import { EntryCard } from '../../components/TextList';
 import { SectionHeading } from '../../components/ui';
@@ -11,7 +11,7 @@ import { foldMixed } from '../../lib/groups';
 import { useI18n } from '../../lib/i18n';
 import { useSettings } from '../../lib/settings';
 import { categoryTitle } from '../../lib/labels';
-import { isRoman, translit } from '../../lib/transliterate';
+import { isRoman } from '../../lib/transliterate';
 import { useShowEnglish } from '../../components/useGloss';
 
 /** Every text for a deity, under the library section it belongs to. */
@@ -30,14 +30,14 @@ export default function DeityScreen() {
     const past = e.nativeEvent.contentOffset.y > 140;
     if (past !== pastBanner) setPastBanner(past);
   };
-  const name = group ? (lang === 'en' ? group.titleEn : translit(group.title, settings.script)) : tr('Not found');
+  const name = group ? (lang === 'en' ? group.titleEn : deityLabel(group, settings.script)) : tr('Not found');
   return (
     <ScrollView style={{ backgroundColor: theme.bg }} contentContainerStyle={{ paddingBottom: 32 }} onScroll={painted ? onScroll : undefined} scrollEventThrottle={50}>
       <Stack.Screen options={{ title: painted && !pastBanner ? '' : name }} />
       {group && painted && <DeityBanner deity={group} count={all.length} />}
       {group && !painted && (
         <Text style={{ color: theme.textMuted, fontSize: 14, paddingHorizontal: 16, paddingTop: 6 }}>
-          {lang === 'en' ? (isRoman(settings.script) ? '' : `${translit(group.title, settings.script)} · `) : showEn ? `${group.titleEn} · ` : ''}
+          {lang === 'en' ? (isRoman(settings.script) ? '' : `${deityLabel(group, settings.script)} · `) : showEn ? `${group.titleEn} · ` : ''}
           {tr('{n} texts', { n: all.length })}
         </Text>
       )}

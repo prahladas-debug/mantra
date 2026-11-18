@@ -8,7 +8,8 @@
  * mentions any major festival on that day; other days get a festival reminder. Names are in
  * plain English spelling (Ekadashi, Mokshada), as on the app's screens.
  */
-import { festivalsBetween, type CalendarMode, type EkadashiRule, type Festival } from './festivals';
+import type { Audience } from './audience';
+import { festivalsBetween, forAudience, type CalendarMode, type EkadashiRule, type Festival } from './festivals';
 import { addDays, cityDateOf, parseIso, utcOffsetMinutes, weekdayOf, type CalcMethod, type City } from './panchanga';
 import { paranaTimes, shortDay } from './parana';
 import { plain } from './plain';
@@ -62,6 +63,8 @@ export interface FestivalReminderOptions {
   /** Interface language of the notification text (default English) and the reading script for names. */
   lang?: UiLang;
   script?: ScriptId;
+  /** The reader's audience: regional festivals of other regions get no reminder (default: all). */
+  audience?: Audience;
 }
 
 export interface PlannedReminder {
@@ -118,7 +121,7 @@ export function planFestivalReminders(
   titleOf?: (textId: string) => string | undefined,
   days: number = REMINDER_DAYS,
 ): PlannedReminder[] {
-  const { city, rule, mode, start, method, time, kinds, lang = 'en', script = 'devanagari' } = opts;
+  const { city, rule, mode, start, method, time, kinds, lang = 'en', script = 'devanagari', audience = 'general' } = opts;
   // A festival's name: the English gloss, its translation, else the Sanskrit name in the reading script.
   const name = (f: Festival) => (lang === 'en' ? plain(f.en) : f.kind !== 'ekadashi' && hasTr(lang, f.en) ? tr(lang, f.en) : translit(f.name, script));
   const day = (iso: string) => {
@@ -131,7 +134,7 @@ export function planFestivalReminders(
   const from = addDays(today, 1);
   const to = addDays(today, days);
   const byDate = new Map<string, Festival[]>();
-  for (const f of festivalsBetween(city, from, to, rule, mode, start, method)) {
+  for (const f of forAudience(festivalsBetween(city, from, to, rule, mode, start, method), audience, rule)) {
     if (f.date < from) continue; // a period that began earlier
     if (!(f.kind === 'ekadashi' ? kinds.ekadashi : kinds.festivals && isMajorFestival(f))) continue;
     byDate.set(f.date, [...(byDate.get(f.date) ?? []), f]);

@@ -1,20 +1,21 @@
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { useState } from 'react';
 import { FlatList, Pressable, Text, TextInput, View } from 'react-native';
+import { ROUTINE_SUGGESTED } from '../lib/audience';
 import { ALL_MANTRAS, getMantraInfo, scriptFor, search, type Mantra } from '../data';
 import { scriptFont } from '../lib/fonts';
 import { useI18n } from '../lib/i18n';
 import { useSettings } from '../lib/settings';
+import { useAudience } from '../lib/useAudience';
 import { nameOf } from '../lib/transliterate';
 import { useShowEnglish } from '../components/useGloss';
-
-const SUGGESTED = ['sandhya-vandane-rigveda', 'nitya-puja', 'vayu-stuti', 'vishnu-sahasranama', 'raghavendra-stotram', 'dvadasha-stotra-01', 'lalitha-sahasranama', 'hanuman-chalisa', 'aditya-hridayam', 'venkatesha-suprabhatam'];
 
 /** Choose and order the texts of the daily routine. */
 export default function RoutineEditor() {
   const { theme, settings, routine, setRoutine } = useSettings();
   const { tr } = useI18n();
   const showEn = useShowEnglish();
+  const SUGGESTED = ROUTINE_SUGGESTED[useAudience()];
   const [q, setQ] = useState('');
   const fontOf = (m: Mantra) => scriptFont(scriptFor(m, settings.script), settings.bookFonts);
   const chosen = routine.map(getMantraInfo).filter((m) => !!m);

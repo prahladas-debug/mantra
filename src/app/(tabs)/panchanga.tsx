@@ -7,7 +7,7 @@ import { CalendarBar } from '../../components/CalendarBar';
 import { FestivalLine, NavButton, useCalcMethod, useCalendarMode, useEkadashiRule, useMatha, useMonthNaming, useSauraStart } from '../../components/PanchangaCard';
 import { DayTimeline, LimbGrid, RightNow, SegmentList, TimingRows, WindowList, nb, type Limb, type TimingRow } from '../../components/PanchangaParts';
 import { SectionHeading } from '../../components/ui';
-import { festivalsBetween } from '../../lib/festivals';
+import { festivalsBetween, forAudience } from '../../lib/festivals';
 import {
   VARA, addDays, cityById, cityLabel, formatTime, fromJulian, moonriseBetween, monthLabel, panchanga, sankalpaFor, parseIso, sunriseJd, todayIn, withMethod, type Span,
 } from '../../lib/panchanga';
@@ -16,6 +16,7 @@ import { paranaNote } from '../../lib/parana';
 import { plain } from '../../lib/plain';
 import { sauraDay, sauraRtu, sauraSankalpa } from '../../lib/sauramana';
 import { useClockTick, useSettings } from '../../lib/settings';
+import { useAudience } from '../../lib/useAudience';
 import { translit, isRoman, translitTitle } from '../../lib/transliterate';
 import { T, useI18n } from '../../lib/i18n';
 
@@ -84,8 +85,9 @@ export default function PanchangaScreen() {
   const ss = method === 'surya';
 
   const p = useMemo(() => panchanga(date, city, method), [date, city, method]);
-  const todays = useMemo(() => festivalsBetween(city, date, date, rule, mode, start, method, matha), [city, date, rule, mode, start, method, matha]);
-  const upcoming = useMemo(() => festivalsBetween(city, addDays(date, 1), addDays(date, 30), rule, mode, start, method, matha), [city, date, rule, mode, start, method, matha]);
+  const audience = useAudience();
+  const todays = useMemo(() => forAudience(festivalsBetween(city, date, date, rule, mode, start, method, matha), audience, rule), [city, date, rule, mode, start, method, matha, audience]);
+  const upcoming = useMemo(() => forAudience(festivalsBetween(city, addDays(date, 1), addDays(date, 30), rule, mode, start, method, matha), audience, rule), [city, date, rule, mode, start, method, matha, audience]);
   const saura = useMemo(() => sauraDay(city, date, start, method), [city, date, start, method]);
   const moonrise = useMemo(
     () => withMethod(method, () => moonriseBetween(city.lat, city.lon, sunriseJd(city, date), sunriseJd(city, addDays(date, 1)))),

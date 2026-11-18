@@ -56,6 +56,7 @@ import {
 } from './panchanga';
 import { paranaWindow, type Parana } from './parana';
 import { sauraDay, sauraMonthStart, type SauraStart } from './sauramana';
+import { festivalForAudience, type Audience } from './audience';
 import { MATHA_ARADHANAS, type MathaAradhana, type MathaId } from './mathaAradhana';
 
 export type { Parana, ParanaKind } from './parana';
@@ -84,6 +85,10 @@ export interface Festival {
   /** Linked text in the library (src/data), if any. */
   textId?: string;
   note?: string;
+  /** Kept in particular regions only (see REGIONS); absent: for everyone. Lists show it to a reader whose audience is among them. */
+  regions?: Audience[];
+  /** A Mādhva observance (maṭha, Udupi, ārādhanās): a Mādhva reader sees it whatever the audience. */
+  madhva?: boolean;
   /** Ekādaśīs: when to break the fast (the day after `date`), by the same rule; show `parana.label`. */
   parana?: Parana;
 }
@@ -444,6 +449,65 @@ function madhvaPeriods(city: City, jdFrom: number, jdTo: number, y0: number, y1:
 /** All rule ids that link to a library text (checked by the tests). */
 export const LINKED_TEXT_IDS = [...new Set([...RULES.map((r) => r.textId), 'vishnu-sahasranama', 'sumadhva-vijaya-01', 'mahalakshmi-ashtakam', 'snana-vidhi', 'ekadashi-vrata'].filter(Boolean))] as string[];
 
+
+// ---------- regions ----------
+
+const NORTH_WEST: Audience[] = ['north', 'west'];
+const KARNATAKA: Audience[] = ['kannada'];
+/**
+ * Clearly regional festivals, by key (a function for families of keys), for the audience filter
+ * (`forAudience`). Only what is shown changes: dates and rules above do not look at this. `madhva`
+ * marks the Mādhva observances that a Mādhva reader always sees.
+ */
+const REGIONS: Record<string, { regions: Audience[]; madhva?: boolean }> = {
+  'karva-chauth': { regions: NORTH_WEST },
+  'ahoi-ashtami': { regions: ['north'] },
+  'hariyali-teej': { regions: ['north'] },
+  'kajari-teej': { regions: ['north'] },
+  lohri: { regions: ['north'] },
+  'hanuman-jayanti-north': { regions: NORTH_WEST },
+  'mannettina-amavasya': { regions: KARNATAKA },
+  'bheemana-amavasya': { regions: KARNATAKA },
+  'raghavendra-aradhana': { regions: ['kannada', 'telugu'], madhva: true }, // Mantrālaya is in Andhra
+  'madhva-jayanti': { regions: KARNATAKA, madhva: true },
+  'madhva-navami': { regions: KARNATAKA, madhva: true },
+  'vadiraja-jayanti': { regions: KARNATAKA, madhva: true },
+  'kanakadasa-jayanti': { regions: KARNATAKA, madhva: true },
+  'jalapurana-trayodashi': { regions: KARNATAKA, madhva: true },
+  'vaishakha-snana': { regions: KARNATAKA, madhva: true },
+  'kartika-snana': { regions: KARNATAKA, madhva: true },
+  'magha-snana': { regions: KARNATAKA, madhva: true },
+  'shaka-vrata': { regions: KARNATAKA, madhva: true },
+  'dadhi-vrata': { regions: KARNATAKA, madhva: true },
+  'kshira-vrata': { regions: KARNATAKA, madhva: true },
+  'dvidala-vrata': { regions: KARNATAKA, madhva: true },
+  'tula-snana': { regions: KARNATAKA, madhva: true },
+  dhanurmasa: { regions: KARNATAKA, madhva: true },
+  'udupi-krishna-janmashtami': { regions: KARNATAKA, madhva: true },
+  'vitla-pindi': { regions: KARNATAKA, madhva: true },
+  'sauramana-yugadi': { regions: KARNATAKA, madhva: true },
+  saptotsava: { regions: KARNATAKA, madhva: true },
+  paryaya: { regions: KARNATAKA, madhva: true },
+  'laksha-deepotsava': { regions: KARNATAKA, madhva: true },
+};
+
+function regionsOf(key: string): { regions: Audience[]; madhva?: boolean } | undefined {
+  if (REGIONS[key]) return REGIONS[key];
+  if (key.startsWith('chhath-')) return { regions: NORTH_WEST };
+  if (key.endsWith('-aradhana')) return { regions: KARNATAKA, madhva: true }; // ārādhanās of yatis, dāsas and the chosen maṭha
+  return undefined;
+}
+
+/** `f` with its regions (a copy only when it has some). */
+const withRegions = (f: Festival): Festival => {
+  const r = regionsOf(f.key);
+  return r ? { ...f, regions: r.regions, ...(r.madhva ? { madhva: true } : {}) } : f;
+};
+
+/** The festivals this audience is shown: those for everyone, those tagged for it, and (for a Mādhva reader) the Mādhva ones. 'general' sees all. */
+export const forAudience = (list: Festival[], audience: Audience, rule: EkadashiRule): Festival[] =>
+  audience === 'general' ? list : list.filter((f) => festivalForAudience(f, audience, rule === 'madhva'));
+
 // ---------- assembling ----------
 
 function solarFestival(city: City, rasi: number, nearIso: string, key: string, name: string, en: string, textId?: string): Festival {
@@ -665,6 +729,7 @@ function festivalsIn(city: City, from: string, to: string, rule: EkadashiRule, m
   out.push(...madhvaPeriods(city, jdFrom, jdTo, y0 - 1, y1, rule, start));
 
   const res = out
+    .map(withRegions)
     .filter((f) => f.date <= to && (f.endDate ?? f.date) >= from)
     .sort((a, b) => a.date.localeCompare(b.date) || Number(b.kind === 'ekadashi') - Number(a.kind === 'ekadashi'));
   if (cache.size > 200) cache.clear();

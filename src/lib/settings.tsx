@@ -2,6 +2,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import { createContext, useCallback, useContext, useEffect, useMemo, useRef, useState } from 'react';
 import { AppState, useColorScheme } from 'react-native';
 import { THEMES, type Theme, type ThemeName } from './theme';
+import type { ContentPref } from './audience';
 import type { UiPref } from './i18n';
 import type { MeaningPref } from './meaning';
 import { localDate, type Plan } from './plans';
@@ -26,6 +27,8 @@ export interface Settings {
   meaningLang: MeaningPref;
   /** Language of the app's own words; 'auto' follows the meanings language. */
   uiLang: UiPref;
+  /** Whose content leads on Home and in the Library: 'auto' follows the language, script and place. */
+  contentFor: ContentPref;
   /** Set once the old IAST choice has been moved to plain English (so a later IAST choice stays). */
   plainEnglish?: boolean;
   keepAwake: boolean;
@@ -102,6 +105,7 @@ const DEFAULTS: Store = {
     alwaysShowMeanings: false,
     meaningLang: 'auto',
     uiLang: 'auto',
+    contentFor: 'auto',
     keepAwake: true,
     variants: {},
     city: 'bengaluru',

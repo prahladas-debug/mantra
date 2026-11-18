@@ -11,6 +11,7 @@ import { APP_MOTTO, APP_TAGLINE, appTitle } from '../lib/labels';
 import { cityById, cityLabel } from '../lib/panchanga';
 import { T, useI18n } from '../lib/i18n';
 import { useSettings } from '../lib/settings';
+import { useAudience } from '../lib/useAudience';
 import { translit, type ScriptId } from '../lib/transliterate';
 
 const SAMPLE = 'शुक्लाम्बरधरं विष्णुं शशिवर्णं चतुर्भुजम्';
@@ -54,12 +55,17 @@ export default function Welcome() {
   const { width } = useWindowDimensions();
   const [step, setStep] = useState<1 | 2>(1);
   const [picker, setPicker] = useState(false);
+  const audience = useAudience();
+  // The Madhva / Smarta question matters most to Karnataka readers: others are asked only if they open it.
+  const [askTradition, setAskTradition] = useState(false);
+  const showTradition = askTradition || audience === 'kannada';
   const tradition = settings.variants.tradition;
   const city = cityById(settings.city);
   const font = scriptFont(settings.script, settings.bookFonts);
 
   const finish = () => {
-    update({ onboarded: true });
+    // Not asked: Smarta, so that Madhva-only observances stay out of the way (changeable in Settings).
+    update({ onboarded: true, ...(showTradition || tradition ? {} : { variants: { ...settings.variants, tradition: 'smarta' } }) });
     router.replace('/');
   };
   const button = (label: string, onPress: () => void, primary = true) => (
@@ -110,18 +116,26 @@ export default function Welcome() {
           </>
         ) : (
           <>
-            <Text style={{ color: theme.text, fontSize: 21, fontWeight: '700' }}>{tr('Your tradition')}</Text>
-            <Text style={{ color: theme.textMuted, fontSize: 16, marginBottom: 4 }}>
-              {tr('Sets the steps shown in Sandhyavandane and daily puja, and how Ekadashi is dated. Each text still lets you switch.')}
-            </Text>
-            <Choice active={tradition === 'madhva'} onPress={() => update({ variants: { ...settings.variants, tradition: 'madhva' } })}>
-              <Text style={{ color: theme.text, fontSize: 18, fontWeight: '600' }}>{tr('Madhva (Vaishnava)')}</Text>
-            </Choice>
-            <Choice active={tradition === 'smarta'} onPress={() => update({ variants: { ...settings.variants, tradition: 'smarta' } })}>
-              <Text style={{ color: theme.text, fontSize: 18, fontWeight: '600' }}>{tr('Smarta')}</Text>
-            </Choice>
+            {showTradition ? (
+              <>
+                <Text style={{ color: theme.text, fontSize: 21, fontWeight: '700' }}>{tr('Your tradition')}</Text>
+                <Text style={{ color: theme.textMuted, fontSize: 16, marginBottom: 4 }}>
+                  {tr('Sets the steps shown in Sandhyavandane and daily puja, and how Ekadashi is dated. Each text still lets you switch.')}
+                </Text>
+                <Choice active={tradition === 'madhva'} onPress={() => update({ variants: { ...settings.variants, tradition: 'madhva' } })}>
+                  <Text style={{ color: theme.text, fontSize: 18, fontWeight: '600' }}>{tr('Madhva (Vaishnava)')}</Text>
+                </Choice>
+                <Choice active={tradition === 'smarta'} onPress={() => update({ variants: { ...settings.variants, tradition: 'smarta' } })}>
+                  <Text style={{ color: theme.text, fontSize: 18, fontWeight: '600' }}>{tr('Smarta')}</Text>
+                </Choice>
+              </>
+            ) : (
+              <Pressable onPress={() => setAskTradition(true)} accessibilityRole="button" hitSlop={8} style={({ pressed }) => ({ opacity: pressed ? 0.6 : 1 })}>
+                <Text style={{ color: theme.accent, fontSize: 16, textDecorationLine: 'underline' }}>{tr('Do you follow the Madhva tradition?')}</Text>
+              </Pressable>
+            )}
 
-            <Text style={{ color: theme.text, fontSize: 21, fontWeight: '700', marginTop: 18 }}>{tr('Your place')}</Text>
+            <Text style={{ color: theme.text, fontSize: 21, fontWeight: '700', marginTop: showTradition ? 18 : 6 }}>{tr('Your place')}</Text>
             <Text style={{ color: theme.textMuted, fontSize: 16, marginBottom: 4 }}>{tr('For sunrise, panchanga and festival dates.')}</Text>
             <Pressable
               onPress={() => setPicker(true)}

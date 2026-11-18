@@ -3,6 +3,7 @@ import { Platform } from 'react-native';
 import { cityById, todayIn } from '../lib/panchanga';
 import { useI18n } from '../lib/i18n';
 import { useClockTick, useSettings } from '../lib/settings';
+import { useAudience } from '../lib/useAudience';
 import { buildWidgetDays } from '../lib/widgetSync';
 import { useCalcMethod, useCalendarMode, useEkadashiRule, useSauraStart } from './PanchangaCard';
 
@@ -21,6 +22,7 @@ export function WidgetSync() {
   const [method] = useCalcMethod();
   const cityId = settings.city;
   const script = settings.script;
+  const audience = useAudience();
   // Also when the app is brought back to the front (and every half hour while it is open).
   const tick = useClockTick(30 * 60 * 1000);
 
@@ -33,14 +35,14 @@ export function WidgetSync() {
         // eslint-disable-next-line @typescript-eslint/no-require-imports
         const widget = (require('../widgets/TodayWidget') as typeof import('../widgets/TodayWidget')).default;
         const city = cityById(cityId);
-        const days = buildWidgetDays({ city, today: todayIn(city), rule, mode, start, method, lang, script });
+        const days = buildWidgetDays({ city, today: todayIn(city), rule, mode, start, method, lang, script, audience });
         widget.updateSnapshot({ days });
       } catch {
         // No widget support here, or the update failed: the widget keeps what it had.
       }
     }, 300);
     return () => clearTimeout(id);
-  }, [ready, cityId, rule, mode, start, method, lang, script, tick]);
+  }, [ready, cityId, rule, mode, start, method, lang, script, audience, tick]);
 
   return null;
 }

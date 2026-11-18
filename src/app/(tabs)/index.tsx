@@ -8,11 +8,14 @@ import { VerseOfDayCard } from '../../components/VerseOfDay';
 import { RoutineCard } from '../../components/RoutineCard';
 import { CategoryTile, WorkCard, DeityMedallion, QuickTile, ShelfHeading, greatWorks } from '../../components/Shelf';
 import { getMantraInfo, scriptFor } from '../../data';
-import { DEITIES } from '../../lib/deities';
+import { HOME_SONGS, type Audience } from '../../lib/audience';
+import type { CategoryId } from '../../data';
+import { deitiesFor } from '../../lib/deities';
 import { scriptFont } from '../../lib/fonts';
 import { T, useI18n } from '../../lib/i18n';
 import { APP_MOTTO, appTitle } from '../../lib/labels';
 import { useSettings } from '../../lib/settings';
+import { useAudience } from '../../lib/useAudience';
 import { SCRIPTS, translit, nameOf } from '../../lib/transliterate';
 
 /** Reading-script chooser behind the header button. */
@@ -49,19 +52,30 @@ function ScriptSheet({ visible, onClose }: { visible: boolean; onClose: () => vo
   );
 }
 
-const EVERY_DAY: { icon: keyof typeof MaterialCommunityIcons.glyphMap; label: string; href: string }[] = [
-  { icon: 'weather-sunset-up', label: T('Morning prayers'), href: '/collection/morning' },
-  { icon: 'water-outline', label: T('Bath (snana)'), href: '/mantra/snana-vidhi' },
-  { icon: 'hands-pray', label: T('Sandhyavandane'), href: '/category/sandhya' },
-  { icon: 'oil-lamp', label: T('Daily puja'), href: '/mantra/nitya-puja' },
-  { icon: 'rice', label: T('Meal prayers'), href: '/mantra/bhojana-mantras' },
-  { icon: 'dots-circle', label: T('Japa counter'), href: '/japa' },
-];
+type Tile = { icon: keyof typeof MaterialCommunityIcons.glyphMap; label: string; href: string };
+const TILES = {
+  morning: { icon: 'weather-sunset-up', label: T('Morning prayers'), href: '/collection/morning' },
+  snana: { icon: 'water-outline', label: T('Bath (snana)'), href: '/mantra/snana-vidhi' },
+  sandhya: { icon: 'hands-pray', label: T('Sandhyavandane'), href: '/category/sandhya' },
+  puja: { icon: 'oil-lamp', label: T('Daily puja'), href: '/mantra/nitya-puja' },
+  meal: { icon: 'rice', label: T('Meal prayers'), href: '/mantra/bhojana-mantras' },
+  japa: { icon: 'dots-circle', label: T('Japa counter'), href: '/japa' },
+  chalisa: { icon: 'flower-tulip-outline', label: T('Hanuman Chalisa'), href: '/mantra/hanuman-chalisa' },
+  sundarkand: { icon: 'book-open-page-variant-outline', label: T('Sundar Kand'), href: '/mantra/tulsi-sundar-kand' },
+} satisfies Record<string, Tile>;
+
+/** Home's "Every day" tiles: the North starts with Hanuman Chalisa and Sundar Kand and has no Sandhyavandane tile; the rest keep the Sandhyavandane one. */
+const EVERY_DAY: Record<'north' | 'other', Tile[]> = {
+  north: [TILES.morning, TILES.chalisa, TILES.sundarkand, TILES.puja, TILES.meal, TILES.japa],
+  other: [TILES.morning, TILES.snana, TILES.sandhya, TILES.puja, TILES.meal, TILES.japa],
+};
+const everyDay = (a: Audience) => (a === 'north' ? EVERY_DAY.north : EVERY_DAY.other);
 
 /** Home: today, where you left off, the great works as book covers, everyday shortcuts and songs. */
 export default function Home() {
   const { theme, settings, recent, positions, routine, ready } = useSettings();
   const { tr } = useI18n();
+  const audience = useAudience();
   const insets = useSafeAreaInsets();
   const { width } = useWindowDimensions();
   const [scriptSheet, setScriptSheet] = useState(false);
@@ -138,30 +152,30 @@ export default function Home() {
         decelerationRate="fast"
         contentContainerStyle={{ paddingHorizontal: 16, gap: 12, paddingBottom: 6 }}
       >
-        {greatWorks(settings.variants.tradition).map((w) => (
+        {greatWorks(audience, settings.variants.tradition).map((w) => (
           <WorkCard key={w.category ?? w.textId} work={w} width={coverW} />
         ))}
       </ScrollView>
 
       <ShelfHeading title={T('Every day')} />
       <View style={s.grid}>
-        {EVERY_DAY.map((t) => (
+        {everyDay(audience).map((t) => (
           <QuickTile key={t.href} {...t} />
         ))}
       </View>
 
       <ShelfHeading title={T('By deity')} />
       <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={{ paddingHorizontal: 12, gap: 2 }}>
-        {DEITIES.map((d) => (
+        {deitiesFor(audience).map((d) => (
           <DeityMedallion key={d.id} deity={d} />
         ))}
       </ScrollView>
 
       <ShelfHeading title={T('Devotional songs')} action={T('Whole library ›')} onAction={() => router.push('/library')} />
       <View style={s.grid}>
-        <CategoryTile id="aarti" wide />
-        <CategoryTile id="dasara-pada" />
-        <CategoryTile id="kirtana" />
+        {HOME_SONGS[audience].map((id, i) => (
+          <CategoryTile key={id} id={id as CategoryId} wide={i === 0} />
+        ))}
       </View>
 
       <ScriptSheet visible={scriptSheet} onClose={() => setScriptSheet(false)} />

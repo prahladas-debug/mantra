@@ -6,6 +6,7 @@ import { ActivityIndicator, Alert, Linking, Platform, Pressable, ScrollView, Sty
 import { CityPicker } from '../components/CalendarBar';
 import { ThemeSwatches } from '../components/reader/DisplayPanel';
 import { SectionHeading, Segmented } from '../components/ui';
+import { CONTENT_PREFS } from '../lib/audience';
 import { backupFileName, buildBackup, cleanJapa, mergeBackup, summarize, validateBackup, type BackupError, type BackupSummary } from '../lib/backup';
 import { pickBackupFile, saveBackupFile } from '../lib/backupFile';
 import { leading, scriptFont } from '../lib/fonts';
@@ -217,6 +218,12 @@ export default function SettingsScreen() {
             </Text>
           </Block>
         )}
+        <Block label={tr('Content for')}>
+          <Pills options={CONTENT_PREFS.map((m) => ({ id: m.id, label: tr(m.label) }))} value={settings.contentFor ?? 'auto'} onChange={(v) => update({ contentFor: v })} />
+          <Text style={{ color: theme.textMuted, fontSize: 13, lineHeight: 18, marginTop: 8 }}>
+            {tr('Decides what Home and the Library show first, and which regional festivals are listed. Every text stays in the Library and Search.')}
+          </Text>
+        </Block>
         <Row label={cityLabel(cityById(settings.city))} onPress={() => setPicker(true)}>
           <Text style={{ color: theme.accent, fontSize: 16 }}>{tr('Change')}</Text>
         </Row>

@@ -3,7 +3,8 @@
  * city, in their language and script. Pure (no React), so it can be tested; the widget itself
  * is src/widgets/TodayWidget.tsx and src/components/WidgetSync.tsx pushes this to it.
  */
-import { festivalsOn, type CalendarMode, type EkadashiRule } from './festivals';
+import type { Audience } from './audience';
+import { festivalsOn, forAudience, type CalendarMode, type EkadashiRule } from './festivals';
 import { addDays, formatTime, panchanga, parseIso, utcOffsetMinutes, type CalcMethod, type City } from './panchanga';
 import type { SauraStart } from './sauramana';
 import { translit, translitTitle, type ScriptId } from './transliterate';
@@ -23,6 +24,8 @@ export interface WidgetInput {
   method: CalcMethod;
   lang: UiLang;
   script: ScriptId;
+  /** The reader's audience (default: all festivals). */
+  audience?: Audience;
 }
 
 /** Midnight at the city of a civil date, in ms since 1970. */
@@ -33,14 +36,14 @@ function cityMidnight(city: City, iso: string): number {
 }
 
 export function buildWidgetDays(input: WidgetInput): TodayWidgetDay[] {
-  const { city, today, rule, mode, start, method, lang, script } = input;
+  const { city, today, rule, mode, start, method, lang, script, audience = 'general' } = input;
   // Names in the reader's script; in plain English they read best capitalised.
   const t = (s: string) => (script === 'english' ? translitTitle(s, script) : translit(s, script));
   const out: TodayWidgetDay[] = [];
   for (let i = 0; i < WIDGET_DAYS; i++) {
     const iso = addDays(today, i);
     const p = panchanga(iso, city, method);
-    const fest = festivalsOn(city, iso, rule, mode, start, method).filter((f) => !f.endDate || f.date === iso);
+    const fest = forAudience(festivalsOn(city, iso, rule, mode, start, method), audience, rule).filter((f) => !f.endDate || f.date === iso);
     const tm = (d: Date) => formatTime(d, city, iso, lang);
     out.push({
       // The first day also covers any time before it, so the widget always has something to show.

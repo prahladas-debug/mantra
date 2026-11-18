@@ -3,12 +3,14 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import { router, type Href } from 'expo-router';
 import { useCallback, useMemo, useState, useSyncExternalStore } from 'react';
 import { Pressable, Text, View, useWindowDimensions } from 'react-native';
-import { defaultRule, festivalsOn, type CalendarMode, type EkadashiRule, type Festival, type MathaId } from '../lib/festivals';
+import { defaultRule, festivalsOn, forAudience, type CalendarMode, type EkadashiRule, type Festival, type MathaId } from '../lib/festivals';
 import { mathaOf } from '../lib/mathaAradhana';
 import { sauraDay, sauraSankalpa, type SauraStart } from '../lib/sauramana';
 import { addDays, cityById, defaultMonthNaming, monthLabel, panchanga, sankalpaFor, setCalcMethod, todayIn, type CalcMethod, type MonthNaming } from '../lib/panchanga';
 import { getMantraInfo } from '../data';
+import type { Audience } from '../lib/audience';
 import { useClockTick, useSettings } from '../lib/settings';
+import { useAudience } from '../lib/useAudience';
 import { plain } from '../lib/plain';
 import { translit, translitTitle } from '../lib/transliterate';
 import { useI18n } from '../lib/i18n';
@@ -206,10 +208,10 @@ export function FestivalLine({ f, showDate, showNote, compact }: { f: Festival; 
 
 /** Home card: today's month and tithi, today's festival with its text, and tomorrow's observance. */
 const HERO_GOLD = '#E3C27A';
-function nextFestival(...args: [Parameters<typeof festivalsOn>[0], string, EkadashiRule, CalendarMode, SauraStart, CalcMethod, MathaId]) {
-  const [city, today, rule, mode, start, method, matha] = args;
+function nextFestival(...args: [Parameters<typeof festivalsOn>[0], string, EkadashiRule, CalendarMode, SauraStart, CalcMethod, MathaId, Audience]) {
+  const [city, today, rule, mode, start, method, matha, audience] = args;
   for (let d = 1; d <= 10; d++) {
-    const f = festivalsOn(city, addDays(today, d), rule, mode, start, method, matha).find((x) => x.kind === 'festival' || x.kind === 'ekadashi');
+    const f = forAudience(festivalsOn(city, addDays(today, d), rule, mode, start, method, matha), audience, rule).find((x) => x.kind === 'festival' || x.kind === 'ekadashi');
     if (f) return { f, days: d };
   }
   return null;
@@ -226,13 +228,14 @@ export function TodayCard() {
   const [mode] = useCalendarMode();
   const [start] = useSauraStart();
   const [naming] = useMonthNaming();
-  const all = useMemo(() => festivalsOn(city, today, rule, mode, start, method, matha), [city, today, rule, mode, start, method, matha]);
+  const audience = useAudience();
+  const all = useMemo(() => forAudience(festivalsOn(city, today, rule, mode, start, method, matha), audience, rule), [city, today, rule, mode, start, method, matha, audience]);
   // Month-long periods (Cāturmāsya, snāna months, Dhanurmāsa) get a full row on their first day
   // only; on the other days they share one quiet line, so the card stays short.
   const fest = all.filter((f) => !f.endDate || f.date === today);
   const tomorrow = useMemo(
-    () => festivalsOn(city, addDays(today, 1), rule, mode, start, method, matha).filter((f) => f.kind === 'ekadashi' || f.kind === 'festival'),
-    [city, today, rule, mode, start, method, matha],
+    () => forAudience(festivalsOn(city, addDays(today, 1), rule, mode, start, method, matha), audience, rule).filter((f) => f.kind === 'ekadashi' || f.kind === 'festival'),
+    [city, today, rule, mode, start, method, matha, audience],
   );
   const saura = useMemo(() => (mode === 'saura' ? sauraDay(city, today, start, method) : null), [city, today, mode, start, method]);
   const breakFast = useMemo(
@@ -247,7 +250,7 @@ export function TodayCard() {
   const heroH = Math.round(Math.min(300, Math.max(216, (winW - 32) * 0.26)));
   const heroFont = settings.bookFonts ? (settings.script === 'english' || settings.script === 'iast' ? 'BookSerif' : scriptFont(settings.script, true)) : undefined;
   // The next festival within ten days, for a gentle countdown under today's tithi.
-  const next = useMemo(() => nextFestival(city, today, rule, mode, start, method, matha), [city, today, rule, mode, start, method, matha]);
+  const next = useMemo(() => nextFestival(city, today, rule, mode, start, method, matha, audience), [city, today, rule, mode, start, method, matha, audience]);
   return (
     <View style={{ marginHorizontal: 16, marginTop: 16, borderRadius: 18, borderWidth: 1, backgroundColor: theme.card, borderColor: theme.cardBorder, overflow: 'hidden' }}>
       {/* No date: the Panchanga tab then shows today, also tomorrow. `at` changes with every tap, so a day picked there earlier gives way. */}

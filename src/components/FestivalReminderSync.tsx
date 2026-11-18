@@ -9,6 +9,7 @@ import { cancelReminder } from '../lib/reminders';
 import { cancelVerseReminders, scheduleVerseReminders } from '../lib/verseReminders';
 import { useI18n } from '../lib/i18n';
 import { useSettings } from '../lib/settings';
+import { useAudience } from '../lib/useAudience';
 import { useCalcMethod, useCalendarMode, useEkadashiRule, useSauraStart } from './PanchangaCard';
 
 // The tap already acted on. The response that started the app can arrive twice (as the
@@ -45,6 +46,7 @@ export function FestivalReminderSync() {
   const cityId = settings.city;
   const { lang } = useI18n();
   const script = settings.script;
+  const audience = useAudience();
 
   // Ask for notification permission only when a reminder has just been switched on, not
   // every time the app opens (or the place changes) while permission is refused.
@@ -58,8 +60,8 @@ export function FestivalReminderSync() {
       return;
     }
     const switchedOn = !!was && ((ekadashi && !was.ekadashi) || (festivals && !was.festivals));
-    scheduleFestivalReminders({ city: cityById(cityId), rule, mode, start, method, time, kinds: { ekadashi, festivals }, lang, script }, switchedOn);
-  }, [ready, ekadashi, festivals, time, cityId, rule, mode, start, method, lang, script]);
+    scheduleFestivalReminders({ city: cityById(cityId), rule, mode, start, method, time, kinds: { ekadashi, festivals }, lang, script, audience }, switchedOn);
+  }, [ready, ekadashi, festivals, time, cityId, rule, mode, start, method, lang, script, audience]);
 
   // A finished parayana needs no daily reminder. Its card does this too, but the card is only
   // on the Parayana screen, which may not be opened again once the plan is done.

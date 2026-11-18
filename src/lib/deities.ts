@@ -1,4 +1,5 @@
 import type { Mantra } from '../data/types';
+import { DEITY_ORDER, type Audience } from './audience';
 import { plain } from './plain';
 
 /** Deity groups for browsing. A text can belong to several groups. */
@@ -26,6 +27,12 @@ const GROUPS: DeityGroup[] = [
 ];
 
 export const DEITIES: DeityGroup[] = GROUPS;
+
+/** The medallions in the order the reader's audience meets them; none is left out. */
+export const deitiesFor = (audience: Audience): DeityGroup[] => {
+  const order = DEITY_ORDER[audience];
+  return [...GROUPS].sort((a, b) => order.indexOf(a.id) - order.indexOf(b.id));
+};
 
 /** The deity line in plain lower-case spelling, for matching. */
 export const deityKey = (m: Mantra) => plain(m.deity ?? '').toLowerCase();

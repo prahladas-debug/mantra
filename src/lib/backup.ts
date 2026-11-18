@@ -11,6 +11,7 @@
  */
 import type { JapaState } from './japa';
 import type { Plan } from './plans';
+import { isContentPref } from './audience';
 import { MARK_COLORS, type MarkColor } from './marks';
 import type { Bookmark, RecentEntry, Settings, Store } from './settings';
 
@@ -185,6 +186,8 @@ export function mergeBackup(current: Store, backup: Backup): Store {
   for (const [k, def] of Object.entries(current.settings)) {
     if (k in saved && sameKind(saved[k], def)) settings[k] = isObj(def) ? { ...def, ...(saved[k] as object) } : saved[k];
   }
+  // "Content for" is a fixed set of choices: anything else is the default (Automatic).
+  if (!isContentPref(settings.contentFor)) settings.contentFor = current.settings.contentFor;
   return { ...backup.store, settings: { ...(settings as unknown as Settings), onboarded: true } };
 }
 
