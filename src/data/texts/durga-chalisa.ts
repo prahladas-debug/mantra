@@ -18,7 +18,7 @@ export const durgaChalisa: Mantra = {
   id: 'durga-chalisa',
   title: 'श्रीदुर्गाचालीसा',
   titleEn: 'Sri Durga Chalisa',
-  category: 'kirtana',
+  category: 'chalisa',
   order: 25,
   deity: 'Śrī Durgā',
   source: 'Devīdāsa (attributed), Hindi/Awadhi',

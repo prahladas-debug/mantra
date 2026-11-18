@@ -15,7 +15,7 @@ export const hanumanAshtak: Mantra = {
   id: 'hanuman-ashtak',
   title: 'संकटमोचनहनुमानाष्टक',
   titleEn: 'Sankatmochan Hanuman Ashtak',
-  category: 'kirtana',
+  category: 'chalisa',
   order: 23,
   deity: 'Śrī Hanumān',
   source: 'Ascribed to Tulasīdāsa (Awadhi/Hindi)',

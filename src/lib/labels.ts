@@ -136,6 +136,15 @@ const CATEGORY_LABELS: Record<CategoryId, Labels> = {
     bengali: 'সংস্কার ও কর্ম',
     oriya: 'ସଂସ୍କାର ଓ କର୍ମ',
   },
+  chalisa: {
+    kannada: 'ಚಾಲೀಸಾ ಮತ್ತು ಪಾರಾಯಣ',
+    telugu: 'చాలీసా, పారాయణ',
+    tamil: 'சாலீசா, பாராயணம்',
+    malayalam: 'ചാലീസ, പാരായണം',
+    gujarati: 'ચાલીસા અને પાઠ',
+    bengali: 'চালিসা ও পাঠ',
+    oriya: 'ଚାଳିଶା ଓ ପାଠ',
+  },
   kirtana: {
     kannada: 'ಕೀರ್ತನೆಗಳು',
     telugu: 'కీర్తనలు',

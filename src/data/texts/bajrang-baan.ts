@@ -14,7 +14,7 @@ export const bajrangBaan: Mantra = {
   id: 'bajrang-baan',
   title: 'श्रीबजरंगबाण',
   titleEn: 'Sri Bajrang Baan',
-  category: 'kirtana',
+  category: 'chalisa',
   order: 26,
   deity: 'Śrī Hanumān',
   source: 'Attributed to Tulasīdāsa (Hindi/Awadhi)',

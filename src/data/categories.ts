@@ -104,10 +104,16 @@ export const CATEGORIES: Category[] = [
     description: 'Shraddha, upakarma, punyahavachana, griha pravesha and other household rites, step by step.',
   },
   {
+    id: 'chalisa',
+    title: 'चालीसा एवं पाठ',
+    titleEn: 'Chalisa and path',
+    description: 'The Hindi chalisas, Bajrang Baan, Hanuman Ashtak and Tulsidas\'s Sundar Kand, read daily and on Tuesdays and Saturdays across North India.',
+  },
+  {
     id: 'kirtana',
     title: 'कीर्तनानि',
     titleEn: 'Kirtanas and bhajans',
-    description: 'Devotional songs in Tamil, Telugu and Hindi: Tiruppavai, Annamacharya, aartis, chalisas.',
+    description: 'Devotional songs in Tamil and Telugu: the Tiruppavai, Annamacharya and Skanda Shashti Kavacham.',
   },
   {
     id: 'aarti',

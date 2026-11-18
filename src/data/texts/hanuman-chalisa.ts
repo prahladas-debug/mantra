@@ -31,7 +31,7 @@ export const hanumanChalisa: Mantra = {
   id: 'hanuman-chalisa',
   title: 'श्रीहनुमानचालीसा',
   titleEn: 'Sri Hanuman Chalisa',
-  category: 'stotra',
+  category: 'chalisa',
   deity: 'Śrī Hanumān',
   source: 'Gosvāmī Tulasīdāsa (Awadhi)',
   summary:

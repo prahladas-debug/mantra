@@ -23,6 +23,8 @@ export type CategoryId =
   | 'homa'
   | 'samskara'
   | 'kirtana'
+  /** Hindi chalisas and paths (Bajrang Baan, Tulsidas's Sundar Kand). */
+  | 'chalisa'
   | 'aarti'
   /** The long works read from bundled assets one sarga/adhyaya at a time (src/lib/books.ts). */
   | 'ramayana'

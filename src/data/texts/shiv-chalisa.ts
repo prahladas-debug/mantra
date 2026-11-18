@@ -20,7 +20,7 @@ export const shivChalisa: Mantra = {
   id: 'shiv-chalisa',
   title: 'श्रीशिवचालीसा',
   titleEn: 'Sri Shiv Chalisa',
-  category: 'kirtana',
+  category: 'chalisa',
   order: 24,
   deity: 'Śrī Śiva',
   source: 'Ayodhyādāsa (attributed), Hindi/Awadhi',

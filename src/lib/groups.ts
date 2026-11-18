@@ -75,7 +75,13 @@ function groupOf(m: Mantra): [id: string, title: string, order: number] {
       if (m.sourceScript === 'tamil') return ['tamil', 'Tamil', 0];
       if (m.sourceScript === 'telugu') return ['telugu', 'Telugu', 1];
       return /aarti/.test(id) ? ['aarti', 'Hindi · Aartis', 3] : ['hindi', 'Hindi · Chalisas and stotras', 2];
+    case 'chalisa': {
+      if (/^tulsi-sundar-kand/.test(id)) return ['path', 'Tulsidas · Sundar Kand', 99];
+      const [g, t] = deityGroup(m);
+      return [g, t, DEITY_ORDER.indexOf(g)];
+    }
     case 'aarti': {
+      if (/^bhajan-/.test(id)) return ['bhajan', 'Bhajans', 98];
       const [g, t] = deityGroup(m);
       return [g, t, DEITY_ORDER.indexOf(g)];
     }

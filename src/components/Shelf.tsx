@@ -383,6 +383,7 @@ export const CATEGORY_ICONS: Record<CategoryId, Icon> = {
   vedic: 'om',
   madhva: 'temple-hindu-outline',
   'dasara-pada': 'music-note-outline',
+  chalisa: 'book-heart-outline',
   kirtana: 'music-note-outline',
   aarti: 'candle',
   samskara: 'water-outline',
