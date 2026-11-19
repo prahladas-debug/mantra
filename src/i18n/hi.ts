@@ -248,6 +248,7 @@ export const hi: Record<string, string> = {
   "Hora": "होरा",
   "Hour (0–23)": "घंटा (0–23)",
   "How the scripts work": "लिपियाँ कैसे काम करती हैं",
+  "In other languages": "अन्य भाषाओं में",
   "In the backup": "बैकअप में",
   "Inauspicious": "अशुभ",
   "Jalapūraṇa (Dhana) Trayodaśī": "जलपूरणा (धन) त्रयोदशी",

@@ -164,3 +164,30 @@ export function foldMixed(list: Mantra[]): Entry[] {
   // A "series" of one or two is just listed.
   return out.flatMap((e) => (e.parts && e.parts.length < 3 ? e.parts.map((mantra) => ({ mantra })) : [e]));
 }
+
+// ---------- song languages ----------
+
+/** The language a devotional song is sung in (Sanskrit verses are for everyone). */
+export type SongLang = 'sa' | 'hi' | 'mr' | 'kn' | 'te' | 'ta' | 'ml';
+
+/** Categories whose texts are songs in one regional language each. */
+export const SONG_CATEGORIES = new Set<CategoryId>(['aarti', 'chalisa', 'kirtana', 'dasara-pada']);
+
+/** Each language named in its own script (no translation needed). */
+export const SONG_LANG_NAMES: Record<SongLang, string> = {
+  sa: 'संस्कृतम्', hi: 'हिन्दी', mr: 'मराठी', kn: 'ಕನ್ನಡ', te: 'తెలుగు', ta: 'தமிழ்', ml: 'മലയാളം',
+};
+
+const MARATHI_AARTIS = /^aarti-(sukhakarta|durge-durghat|lavthavti|trigunatmak|ghalin|shendur)/;
+const SANSKRIT_AARTIS = /^aarti-(karpura-gauram|mangala-shlokas)$/;
+
+/** The song's language, or undefined for a text that is not a regional song. */
+export function songLanguage(m: Mantra): SongLang | undefined {
+  if (!SONG_CATEGORIES.has(m.category)) return undefined;
+  if (m.category === 'dasara-pada') return 'kn';
+  if (m.sourceScript === 'tamil') return 'ta';
+  if (m.sourceScript === 'telugu') return 'te';
+  if (m.sourceScript === 'kannada') return 'kn';
+  if (m.category === 'aarti') return MARATHI_AARTIS.test(m.id) ? 'mr' : SANSKRIT_AARTIS.test(m.id) ? 'sa' : 'hi';
+  return 'hi';
+}

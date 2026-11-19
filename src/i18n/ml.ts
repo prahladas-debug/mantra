@@ -248,6 +248,7 @@ export const ml: Record<string, string> = {
   "Hora": "ഹോര",
   "Hour (0–23)": "മണിക്കൂർ (0–23)",
   "How the scripts work": "ലിപികൾ എങ്ങനെ പ്രവർത്തിക്കുന്നു",
+  "In other languages": "മറ്റു ഭാഷകളിൽ",
   "In the backup": "ബാക്കപ്പിൽ",
   "Inauspicious": "അശുഭം",
   "Jalapūraṇa (Dhana) Trayodaśī": "ജലപൂരണ (ധന) ത്രയോദശി",

@@ -248,6 +248,7 @@ export const ta: Record<string, string> = {
   "Hora": "ஹோரை",
   "Hour (0–23)": "மணி (0–23)",
   "How the scripts work": "எழுத்துகள் எவ்வாறு செயல்படுகின்றன",
+  "In other languages": "பிற மொழிகளில்",
   "In the backup": "காப்புப்பிரதியில்",
   "Inauspicious": "அசுபம்",
   "Jalapūraṇa (Dhana) Trayodaśī": "ஜலபூரண (தன) திரயோதசி",

@@ -248,6 +248,7 @@ export const kn: Record<string, string> = {
   "Hora": "ಹೋರಾ",
   "Hour (0–23)": "ಗಂಟೆ (0–23)",
   "How the scripts work": "ಲಿಪಿಗಳು ಹೇಗೆ ಕೆಲಸ ಮಾಡುತ್ತವೆ",
+  "In other languages": "ಇತರ ಭಾಷೆಗಳಲ್ಲಿ",
   "In the backup": "ಬ್ಯಾಕಪ್‌ನಲ್ಲಿ",
   "Inauspicious": "ಅಶುಭ",
   "Jalapūraṇa (Dhana) Trayodaśī": "ಜಲಪೂರಣ (ಧನ) ತ್ರಯೋದಶಿ",

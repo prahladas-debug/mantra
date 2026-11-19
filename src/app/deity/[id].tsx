@@ -13,6 +13,7 @@ import { useSettings } from '../../lib/settings';
 import { categoryTitle } from '../../lib/labels';
 import { isRoman } from '../../lib/transliterate';
 import { useShowEnglish } from '../../components/useGloss';
+import { OtherLanguages, useSongSplit } from '../../components/OtherLanguages';
 
 /** Every text for a deity, under the library section it belongs to. */
 export default function DeityScreen() {
@@ -22,7 +23,9 @@ export default function DeityScreen() {
   const showEn = useShowEnglish();
   const group = DEITIES.find((d) => d.id === id);
   const all = group ? ALL_MANTRAS.filter((m) => deitiesOf(m).includes(group.id)) : [];
-  const cats = [...new Set(all.map((m) => m.category))];
+  // The reader's own songs under their sections; songs in other languages fold away at the end.
+  const { own, others } = useSongSplit().split(all);
+  const cats = [...new Set(own.map((m) => m.category))];
   // The painted banner carries the name: the header shows it only once the banner has scrolled away.
   const painted = !!group && !!DEITY_ART[group.id];
   const [pastBanner, setPastBanner] = useState(false);
@@ -44,9 +47,15 @@ export default function DeityScreen() {
       {cats.map((c) => (
         <View key={c}>
           <SectionHeading>{lang === 'en' ? categoryById[c].titleEn : categoryTitle(categoryById[c], settings.script)}</SectionHeading>
-          <EntryCard entries={foldMixed(all.filter((m) => m.category === c))} />
+          <EntryCard entries={foldMixed(own.filter((m) => m.category === c))} />
         </View>
       ))}
+      <OtherLanguages
+        others={others}
+        entriesFor={(list) =>
+          [...new Set(list.map((m) => m.category))].map((c) => ({ id: c, title: lang === 'en' ? categoryById[c].titleEn : categoryTitle(categoryById[c], settings.script), entries: foldMixed(list.filter((m) => m.category === c)) }))
+        }
+      />
     </ScrollView>
   );
 }

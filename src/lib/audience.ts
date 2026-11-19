@@ -135,6 +135,31 @@ export const HOME_SONGS: Record<Audience, string[]> = {
   general: ['aarti', 'kirtana', 'dasara-pada'],
 };
 
+/**
+ * The song languages an audience reads: songs in other languages are folded away on the song
+ * lists (one tap shows them). null: show every language ('general' is "All India").
+ */
+export const AUDIENCE_SONG_LANGS: Record<Audience, string[] | null> = {
+  north: ['hi', 'sa'],
+  west: ['mr', 'hi', 'sa'],
+  kannada: ['kn', 'sa'],
+  telugu: ['te', 'sa'],
+  tamil: ['ta', 'sa'],
+  malayalam: ['ml', 'sa'],
+  general: null,
+};
+
+/** The song category that holds an audience's own songs, offered at the top of the other song lists. */
+export const OWN_SONGS: Record<Audience, string | null> = {
+  north: 'chalisa',
+  west: 'aarti',
+  kannada: 'dasara-pada',
+  telugu: 'kirtana',
+  tamil: 'kirtana',
+  malayalam: null,
+  general: null,
+};
+
 /** Deity medallions (ids of deities.ts) in the audience's order. */
 export const DEITY_ORDER: Record<Audience, string[]> = {
   north: ['vayu', 'vishnu', 'shiva', 'devi', 'ganesha', 'surya', 'subrahmanya', 'guru'],
