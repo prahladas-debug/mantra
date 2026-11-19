@@ -22,146 +22,254 @@
       "titleEn": "Jambukhandavinirmana Parva (Description of Jambudvipa)",
       "verses": [
         {
-          "text": "जनमेजय उवाच"
+          "text": "जनमेजय उवाच",
+          "meaning": {
+            "en": "Janamejaya said:"
+          }
         },
         {
           "n": 1,
-          "text": "कथं युयुधिरे वीराः कुरुपाण्डवसोमकाः ।\nपार्थिवाश्च महाभागा नानादेशसमागताः ॥"
+          "text": "कथं युयुधिरे वीराः कुरुपाण्डवसोमकाः ।\nपार्थिवाश्च महाभागा नानादेशसमागताः ॥",
+          "meaning": {
+            "en": "How did the heroes of the Kurus, Pandavas and Somakas, and the great kings gathered from many lands, come to fight each other?"
+          }
         },
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 2,
-          "text": "यथा युयुधिरे वीराः कुरुपाण्डवसोमकाः ।\nकुरुक्षेत्रे तपःक्षेत्रे शृणु तत्पृथिवीपते ॥"
+          "text": "यथा युयुधिरे वीराः कुरुपाण्डवसोमकाः ।\nकुरुक्षेत्रे तपःक्षेत्रे शृणु तत्पृथिवीपते ॥",
+          "meaning": {
+            "en": "Listen, lord of the earth, how the heroes of the Kurus, Pandavas and Somakas fought on Kurukshetra, the field of austerities."
+          }
         },
         {
           "n": 3,
-          "text": "अवतीर्य कुरुक्षेत्रं पाण्डवाः सहसोमकाः ।\nकौरवानभ्यवर्तन्त जिगीषन्तो महाबलाः ॥"
+          "text": "अवतीर्य कुरुक्षेत्रं पाण्डवाः सहसोमकाः ।\nकौरवानभ्यवर्तन्त जिगीषन्तो महाबलाः ॥",
+          "meaning": {
+            "en": "The Pandavas and Somakas came down to Kurukshetra, mighty and eager for victory, and moved against the Kauravas."
+          }
         },
         {
           "n": 4,
-          "text": "वेदाध्ययनसंपन्नाः सर्वे युद्धाभिनन्दिनः ।\nआशंसन्तो जयं युद्धे वधं वाभिमुखा रणे ॥"
+          "text": "वेदाध्ययनसंपन्नाः सर्वे युद्धाभिनन्दिनः ।\nआशंसन्तो जयं युद्धे वधं वाभिमुखा रणे ॥",
+          "meaning": {
+            "en": "All of them were learned in the Vedas and delighted in battle; facing the foe they hoped for victory in the fight, or else death."
+          }
         },
         {
           "n": 5,
-          "text": "अभियाय च दुर्धर्षां धार्तराष्ट्रस्य वाहिनीम् ।\nप्राङ्मुखाः पश्चिमे भागे न्यविशन्त ससैनिकाः ॥"
+          "text": "अभियाय च दुर्धर्षां धार्तराष्ट्रस्य वाहिनीम् ।\nप्राङ्मुखाः पश्चिमे भागे न्यविशन्त ससैनिकाः ॥",
+          "meaning": {
+            "en": "Approaching the unassailable host of Dhritarashtra's son, they and their troops encamped on the western side, facing east."
+          }
         },
         {
           "n": 6,
-          "text": "समन्तपञ्चकाद्बाह्यं शिबिराणि सहस्रशः ।\nकारयामास विधिवत्कुन्तीपुत्रो युधिष्ठिरः ॥"
+          "text": "समन्तपञ्चकाद्बाह्यं शिबिराणि सहस्रशः ।\nकारयामास विधिवत्कुन्तीपुत्रो युधिष्ठिरः ॥",
+          "meaning": {
+            "en": "Yudhishthira, son of Kunti, had thousands of camps laid out properly outside Samantapanchaka."
+          }
         },
         {
           "n": 7,
-          "text": "शून्येव पृथिवी सर्वा बालवृद्धावशेषिता ।\nनिरश्वपुरुषा चासीद्रथकुञ्जरवर्जिता ॥"
+          "text": "शून्येव पृथिवी सर्वा बालवृद्धावशेषिता ।\nनिरश्वपुरुषा चासीद्रथकुञ्जरवर्जिता ॥",
+          "meaning": {
+            "en": "The whole earth seemed empty, with only children and the old left, without horses or men, without chariots and elephants."
+          }
         },
         {
           "n": 8,
-          "text": "यावत्तपति सूर्यो हि जम्बूद्वीपस्य मण्डलम् ।\nतावदेव समावृत्तं बलं पार्थिवसत्तम ॥"
+          "text": "यावत्तपति सूर्यो हि जम्बूद्वीपस्य मण्डलम् ।\nतावदेव समावृत्तं बलं पार्थिवसत्तम ॥",
+          "meaning": {
+            "en": "Best of kings, as far as the sun shines over the circle of Jambudvipa, so far the gathered forces extended."
+          }
         },
         {
           "n": 9,
-          "text": "एकस्थाः सर्ववर्णास्ते मण्डलं बहुयोजनम् ।\nपर्याक्रामन्त देशांश्च नदीः शैलान्वनानि च ॥"
+          "text": "एकस्थाः सर्ववर्णास्ते मण्डलं बहुयोजनम् ।\nपर्याक्रामन्त देशांश्च नदीः शैलान्वनानि च ॥",
+          "meaning": {
+            "en": "People of all classes assembled together and spread over a region many yojanas wide, covering lands, rivers, mountains and forests."
+          }
         },
         {
           "n": 10,
-          "text": "तेषां युधिष्ठिरो राजा सर्वेषां पुरुषर्षभ ।\nआदिदेश सवाहानां भक्ष्यभोज्यमनुत्तमम् ॥"
+          "text": "तेषां युधिष्ठिरो राजा सर्वेषां पुरुषर्षभ ।\nआदिदेश सवाहानां भक्ष्यभोज्यमनुत्तमम् ॥",
+          "meaning": {
+            "en": "Bull among men, King Yudhishthira ordered the finest food and drink for all of them and their mounts."
+          }
         },
         {
           "n": 11,
-          "text": "संज्ञाश्च विविधास्तास्तास्तेषां चक्रे युधिष्ठिरः ।\nएवंवादी वेदितव्यः पाण्डवेयोऽयमित्युत ॥"
+          "text": "संज्ञाश्च विविधास्तास्तास्तेषां चक्रे युधिष्ठिरः ।\nएवंवादी वेदितव्यः पाण्डवेयोऽयमित्युत ॥",
+          "meaning": {
+            "en": "Yudhishthira also set various signals for the troops, so that one could know, \"This one speaking so is a Pandava man.\""
+          }
         },
         {
           "n": 12,
-          "text": "अभिज्ञानानि सर्वेषां संज्ञाश्चाभरणानि च ।\nयोजयामास कौरव्यो युद्धकाल उपस्थिते ॥"
+          "text": "अभिज्ञानानि सर्वेषां संज्ञाश्चाभरणानि च ।\nयोजयामास कौरव्यो युद्धकाल उपस्थिते ॥",
+          "meaning": {
+            "en": "When the time of battle arrived, the Kuru prince fixed identifying marks, signals and ornaments for them all."
+          }
         },
         {
           "n": 13,
-          "text": "दृष्ट्वा ध्वजाग्रं पार्थानां धार्तराष्ट्रो महामनाः ।\nसह सर्वैर्महीपालैः प्रत्यव्यूहत पाण्डवान् ॥"
+          "text": "दृष्ट्वा ध्वजाग्रं पार्थानां धार्तराष्ट्रो महामनाः ।\nसह सर्वैर्महीपालैः प्रत्यव्यूहत पाण्डवान् ॥",
+          "meaning": {
+            "en": "Seeing the banner tops of the sons of Pritha, the high-minded son of Dhritarashtra drew up his army with all the kings against the Pandavas."
+          }
         },
         {
           "n": 14,
-          "text": "पाण्डुरेणातपत्रेण ध्रियमाणेन मूर्धनि ।\nमध्ये नागसहस्रस्य भ्रातृभिः परिवारितम् ॥"
+          "text": "पाण्डुरेणातपत्रेण ध्रियमाणेन मूर्धनि ।\nमध्ये नागसहस्रस्य भ्रातृभिः परिवारितम् ॥",
+          "meaning": {
+            "en": "Duryodhana stood with a white parasol held over his head, amid a thousand elephants and surrounded by his brothers."
+          }
         },
         {
           "n": 15,
-          "text": "दृष्ट्वा दुर्योधनं हृष्टाः सर्वे पाण्डवसैनिकाः ।\nदध्मुः सर्वे महाशङ्खान्भेरीर्जघ्नुः सहस्रशः ॥"
+          "text": "दृष्ट्वा दुर्योधनं हृष्टाः सर्वे पाण्डवसैनिकाः ।\nदध्मुः सर्वे महाशङ्खान्भेरीर्जघ्नुः सहस्रशः ॥",
+          "meaning": {
+            "en": "Seeing him, all the Pandava soldiers rejoiced, blew great conchs and beat thousands of drums."
+          }
         },
         {
           "n": 16,
-          "text": "ततः प्रहृष्टां स्वां सेनामभिवीक्ष्याथ पाण्डवाः ।\nबभूवुर्हृष्टमनसो वासुदेवश्च वीर्यवान् ॥"
+          "text": "ततः प्रहृष्टां स्वां सेनामभिवीक्ष्याथ पाण्डवाः ।\nबभूवुर्हृष्टमनसो वासुदेवश्च वीर्यवान् ॥",
+          "meaning": {
+            "en": "Then the Pandavas, seeing their own army in high spirits, grew glad at heart, and so did the mighty Vasudeva."
+          }
         },
         {
           "n": 17,
-          "text": "ततो योधान्हर्षयन्तौ वासुदेवधनंजयौ ।\nदध्मतुः पुरुषव्याघ्रौ दिव्यौ शङ्खौ रथे स्थितौ ॥"
+          "text": "ततो योधान्हर्षयन्तौ वासुदेवधनंजयौ ।\nदध्मतुः पुरुषव्याघ्रौ दिव्यौ शङ्खौ रथे स्थितौ ॥",
+          "meaning": {
+            "en": "Then Vasudeva and Dhananjaya, tigers among men, cheering the warriors, blew their divine conchs as they stood in their chariot."
+          }
         },
         {
           "n": 18,
-          "text": "पाञ्चजन्यस्य निर्घोषं देवदत्तस्य चोभयोः ।\nश्रुत्वा सवाहना योधाः शकृन्मूत्रं प्रसुस्रुवुः ॥"
+          "text": "पाञ्चजन्यस्य निर्घोषं देवदत्तस्य चोभयोः ।\nश्रुत्वा सवाहना योधाः शकृन्मूत्रं प्रसुस्रुवुः ॥",
+          "meaning": {
+            "en": "Hearing the roar of the Panchajanya and of the Devadatta, the warriors and their mounts passed dung and urine in fear."
+          }
         },
         {
           "n": 19,
-          "text": "यथा सिंहस्य नदतः स्वनं श्रुत्वेतरे मृगाः ।\nत्रसेयुस्तद्वदेवासीद्धार्तराष्ट्रबलं तदा ॥"
+          "text": "यथा सिंहस्य नदतः स्वनं श्रुत्वेतरे मृगाः ।\nत्रसेयुस्तद्वदेवासीद्धार्तराष्ट्रबलं तदा ॥",
+          "meaning": {
+            "en": "As other beasts tremble at the roar of a lion, so did the army of Dhritarashtra's son then."
+          }
         },
         {
           "n": 20,
-          "text": "उदतिष्ठद्रजो भौमं न प्राज्ञायत किंचन ।\nअन्तर्धीयत चादित्यः सैन्येन रजसावृतः ॥"
+          "text": "उदतिष्ठद्रजो भौमं न प्राज्ञायत किंचन ।\nअन्तर्धीयत चादित्यः सैन्येन रजसावृतः ॥",
+          "meaning": {
+            "en": "Dust rose from the ground and nothing could be seen; the sun vanished, covered by the dust of the army."
+          }
         },
         {
           "n": 21,
-          "text": "ववर्ष चात्र पर्जन्यो मांसशोणितवृष्टिमान् ।\nव्युक्षन्सर्वाण्यनीकानि तदद्भुतमिवाभवत् ॥"
+          "text": "ववर्ष चात्र पर्जन्यो मांसशोणितवृष्टिमान् ।\nव्युक्षन्सर्वाण्यनीकानि तदद्भुतमिवाभवत् ॥",
+          "meaning": {
+            "en": "Then a cloud rained a shower of flesh and blood, drenching all the divisions, which seemed a marvel."
+          }
         },
         {
           "n": 22,
-          "text": "वायुस्ततः प्रादुरभून्नीचैः शर्करकर्षणः ।\nविनिघ्नंस्तान्यनीकानि विधमंश्चैव तद्रजः ॥"
+          "text": "वायुस्ततः प्रादुरभून्नीचैः शर्करकर्षणः ।\nविनिघ्नंस्तान्यनीकानि विधमंश्चैव तद्रजः ॥",
+          "meaning": {
+            "en": "Then a low wind arose, dragging gravel along, striking those divisions and scattering the dust."
+          }
         },
         {
           "n": 23,
-          "text": "उभे सेने तदा राजन्युद्धाय मुदिते भृशम् ।\nकुरुक्षेत्रे स्थिते यत्ते सागरक्षुभितोपमे ॥"
+          "text": "उभे सेने तदा राजन्युद्धाय मुदिते भृशम् ।\nकुरुक्षेत्रे स्थिते यत्ते सागरक्षुभितोपमे ॥",
+          "meaning": {
+            "en": "King, the two armies, standing at Kurukshetra, were very joyful for battle and looked like two surging seas."
+          }
         },
         {
           "n": 24,
-          "text": "तयोस्तु सेनयोरासीदद्भुतः स समागमः ।\nयुगान्ते समनुप्राप्ते द्वयोः सागरयोरिव ॥"
+          "text": "तयोस्तु सेनयोरासीदद्भुतः स समागमः ।\nयुगान्ते समनुप्राप्ते द्वयोः सागरयोरिव ॥",
+          "meaning": {
+            "en": "The meeting of those two armies was wondrous, like two oceans meeting when an age comes to its end."
+          }
         },
         {
           "n": 25,
-          "text": "शून्यासीत्पृथिवी सर्वा बालवृद्धावशेषिता ।\nतेन सेनासमूहेन समानीतेन कौरवैः ॥"
+          "text": "शून्यासीत्पृथिवी सर्वा बालवृद्धावशेषिता ।\nतेन सेनासमूहेन समानीतेन कौरवैः ॥",
+          "meaning": {
+            "en": "The whole earth was empty, with only children and the old left, because of the host that the Kauravas had gathered."
+          }
         },
         {
           "n": 26,
-          "text": "ततस्ते समयं चक्रुः कुरुपाण्डवसोमकाः ।\nधर्मांश्च स्थापयामासुर्युद्धानां भरतर्षभ ॥"
+          "text": "ततस्ते समयं चक्रुः कुरुपाण्डवसोमकाः ।\nधर्मांश्च स्थापयामासुर्युद्धानां भरतर्षभ ॥",
+          "meaning": {
+            "en": "Then the Kurus, Pandavas and Somakas made an agreement and set down rules for the fighting, O best of the Bharatas."
+          }
         },
         {
           "n": 27,
-          "text": "निवृत्ते चैव नो युद्धे प्रीतिश्च स्यात्परस्परम् ।\nयथापुरं यथायोगं न च स्याच्छलनं पुनः ॥"
+          "text": "निवृत्ते चैव नो युद्धे प्रीतिश्च स्यात्परस्परम् ।\nयथापुरं यथायोगं न च स्याच्छलनं पुनः ॥",
+          "meaning": {
+            "en": "\"When the battle ends, let there be affection among us again as before, as is fitting, and let there be no more treachery.\""
+          }
         },
         {
           "n": 28,
-          "text": "वाचा युद्धे प्रवृत्ते नो वाचैव प्रतियोधनम् ।\nनिष्क्रान्तः पृतनामध्यान्न हन्तव्यः कथंचन ॥"
+          "text": "वाचा युद्धे प्रवृत्ते नो वाचैव प्रतियोधनम् ।\nनिष्क्रान्तः पृतनामध्यान्न हन्तव्यः कथंचन ॥",
+          "meaning": {
+            "en": "\"Where the fight is waged with words, let the reply be with words only; one who has left the army's midst must never be killed.\""
+          }
         },
         {
           "n": 29,
-          "text": "रथी च रथिना योध्यो गजेन गजधूर्गतः ।\nअश्वेनाश्वी पदातिश्च पदातेनैव भारत ॥"
+          "text": "रथी च रथिना योध्यो गजेन गजधूर्गतः ।\nअश्वेनाश्वी पदातिश्च पदातेनैव भारत ॥",
+          "meaning": {
+            "en": "\"A chariot-warrior must fight a chariot-warrior, one on an elephant an elephant-rider, a horseman a horseman, and a foot soldier a foot soldier, O Bharata.\""
+          }
         },
         {
           "n": 30,
-          "text": "यथायोगं यथावीर्यं यथोत्साहं यथावयः ।\nसमाभाष्य प्रहर्तव्यं न विश्वस्ते न विह्वले ॥"
+          "text": "यथायोगं यथावीर्यं यथोत्साहं यथावयः ।\nसमाभाष्य प्रहर्तव्यं न विश्वस्ते न विह्वले ॥",
+          "meaning": {
+            "en": "\"Strike only after warning, according to fitness, strength, spirit and age; never one who is trusting or panicked.\""
+          }
         },
         {
           "n": 31,
-          "text": "परेण सह संयुक्तः प्रमत्तो विमुखस्तथा ।\nक्षीणशस्त्रो विवर्मा च न हन्तव्यः कथंचन ॥"
+          "text": "परेण सह संयुक्तः प्रमत्तो विमुखस्तथा ।\nक्षीणशस्त्रो विवर्मा च न हन्तव्यः कथंचन ॥",
+          "meaning": {
+            "en": "\"One who is engaged with another, one who is careless or turned away, one whose weapons are spent or who lacks armour must never be killed.\""
+          }
         },
         {
           "n": 32,
-          "text": "न सूतेषु न धुर्येषु न च शस्त्रोपनायिषु ।\nन भेरीशङ्खवादेषु प्रहर्तव्यं कथंचन ॥"
+          "text": "न सूतेषु न धुर्येषु न च शस्त्रोपनायिषु ।\nन भेरीशङ्खवादेषु प्रहर्तव्यं कथंचन ॥",
+          "meaning": {
+            "en": "\"No blow may be struck at charioteers, at draught animals, at those who carry weapons, or at those who sound drums and conchs.\""
+          }
         },
         {
           "n": 33,
-          "text": "एवं ते समयं कृत्वा कुरुपाण्डवसोमकाः ।\nविस्मयं परमं जग्मुः प्रेक्षमाणाः परस्परम् ॥"
+          "text": "एवं ते समयं कृत्वा कुरुपाण्डवसोमकाः ।\nविस्मयं परमं जग्मुः प्रेक्षमाणाः परस्परम् ॥",
+          "meaning": {
+            "en": "Having made this agreement, the Kurus, Pandavas and Somakas looked at one another in great amazement."
+          }
         },
         {
           "n": 34,
-          "text": "निविश्य च महात्मानस्ततस्ते पुरुषर्षभाः ।\nहृष्टरूपाः सुमनसो बभूवुः सहसैनिकाः ॥"
+          "text": "निविश्य च महात्मानस्ततस्ते पुरुषर्षभाः ।\nहृष्टरूपाः सुमनसो बभूवुः सहसैनिकाः ॥",
+          "meaning": {
+            "en": "Then those great-souled bulls among men, with their soldiers, settled down with glad faces and cheerful hearts."
+          }
         }
       ]
     }

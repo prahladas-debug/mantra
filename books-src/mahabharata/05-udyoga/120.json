@@ -22,82 +22,142 @@
       "titleEn": "Bhagavadyana Parva (Krishna's embassy)",
       "verses": [
         {
-          "text": "नारद उवाच"
+          "text": "नारद उवाच",
+          "meaning": {
+            "en": "Narada said:"
+          }
         },
         {
           "n": 1,
-          "text": "प्रत्यभिज्ञातमात्रोऽथ सद्भिस्तैर्नरपुंगवः ।\nययातिर्दिव्यसंस्थानो बभूव विगतज्वरः ॥"
+          "text": "प्रत्यभिज्ञातमात्रोऽथ सद्भिस्तैर्नरपुंगवः ।\nययातिर्दिव्यसंस्थानो बभूव विगतज्वरः ॥",
+          "meaning": {
+            "en": "As soon as those good kings recognized him, Yayati, bull among men, took on a divine form and was free of his fever."
+          }
         },
         {
           "n": 2,
-          "text": "दिव्यमाल्याम्बरधरो दिव्याभरणभूषितः ।\nदिव्यगन्धगुणोपेतो न पृथ्वीमस्पृशत्पदा ॥"
+          "text": "दिव्यमाल्याम्बरधरो दिव्याभरणभूषितः ।\nदिव्यगन्धगुणोपेतो न पृथ्वीमस्पृशत्पदा ॥",
+          "meaning": {
+            "en": "Wearing divine garlands and garments, adorned with divine ornaments and endowed with divine fragrance, he did not touch the earth with his feet."
+          }
         },
         {
           "n": 3,
-          "text": "ततो वसुमनाः पूर्वमुच्चैरुच्चारयन्वचः ।\nख्यातो दानपतिर्लोके व्याजहार नृपं तदा ॥"
+          "text": "ततो वसुमनाः पूर्वमुच्चैरुच्चारयन्वचः ।\nख्यातो दानपतिर्लोके व्याजहार नृपं तदा ॥",
+          "meaning": {
+            "en": "Then Vasumanas, famed in the world as a lord of givers, first spoke aloud to the king."
+          }
         },
         {
           "n": 4,
-          "text": "प्राप्तवानस्मि यल्लोके सर्ववर्णेष्वगर्हया ।\nतदप्यथ च दास्यामि तेन संयुज्यतां भवान् ॥"
+          "text": "प्राप्तवानस्मि यल्लोके सर्ववर्णेष्वगर्हया ।\nतदप्यथ च दास्यामि तेन संयुज्यतां भवान् ॥",
+          "meaning": {
+            "en": "'Whatever I have gained in the world that is blameless among all classes, I give that too; let it be joined to you."
+          }
         },
         {
           "n": 5,
-          "text": "यत्फलं दानशीलस्य क्षमाशीलस्य यत्फलम् ।\nयच्च मे फलमाधाने तेन संयुज्यतां भवान् ॥"
+          "text": "यत्फलं दानशीलस्य क्षमाशीलस्य यत्फलम् ।\nयच्च मे फलमाधाने तेन संयुज्यतां भवान् ॥",
+          "meaning": {
+            "en": "The fruit of one who is given to giving, the fruit of one who is given to forbearance, and the fruit I have from the establishment of the sacred fires: let you be joined with that.'"
+          }
         },
         {
           "n": 6,
-          "text": "ततः प्रतर्दनोऽप्याह वाक्यं क्षत्रियपुंगवः ।\nयथा धर्मरतिर्नित्यं नित्यं युद्धपरायणः ॥"
+          "text": "ततः प्रतर्दनोऽप्याह वाक्यं क्षत्रियपुंगवः ।\nयथा धर्मरतिर्नित्यं नित्यं युद्धपरायणः ॥",
+          "meaning": {
+            "en": "Then Pratardana, bull among warriors, ever devoted to Dharma and ever given to battle, spoke."
+          }
         },
         {
           "n": 7,
-          "text": "प्राप्तवानस्मि यल्लोके क्षत्रधर्मोद्भवं यशः ।\nवीरशब्दफलं चैव तेन संयुज्यतां भवान् ॥"
+          "text": "प्राप्तवानस्मि यल्लोके क्षत्रधर्मोद्भवं यशः ।\nवीरशब्दफलं चैव तेन संयुज्यतां भवान् ॥",
+          "meaning": {
+            "en": "'The fame born of the warrior's Dharma that I have won in the world, and the fruit of the title of hero: let you be joined with that.'"
+          }
         },
         {
           "n": 8,
-          "text": "शिबिरौशीनरो धीमानुवाच मधुरां गिरम् ।\nयथा बालेषु नारीषु वैहार्येषु तथैव च ॥"
+          "text": "शिबिरौशीनरो धीमानुवाच मधुरां गिरम् ।\nयथा बालेषु नारीषु वैहार्येषु तथैव च ॥",
+          "meaning": {
+            "en": "The wise Shibi, son of Ushinara, spoke sweet words:"
+          }
         },
         {
           "n": 9,
-          "text": "संगरेषु निपातेषु तथापद्व्यसनेषु च ।\nअनृतं नोक्तपूर्वं मे तेन सत्येन खं व्रज ॥"
+          "text": "संगरेषु निपातेषु तथापद्व्यसनेषु च ।\nअनृतं नोक्तपूर्वं मे तेन सत्येन खं व्रज ॥",
+          "meaning": {
+            "en": "'I have never told a lie before, to children, women, in play, in battles, in falls, or in calamity and trouble; by that truth go to the sky."
+          }
         },
         {
           "n": 10,
-          "text": "यथा प्राणांश्च राज्यं च राजन्कर्म सुखानि च ।\nत्यजेयं न पुनः सत्यं तेन सत्येन खं व्रज ॥"
+          "text": "यथा प्राणांश्च राज्यं च राजन्कर्म सुखानि च ।\nत्यजेयं न पुनः सत्यं तेन सत्येन खं व्रज ॥",
+          "meaning": {
+            "en": "As I would give up my life, kingdom, deeds and pleasures, king, but never truth, by that truth go to the sky."
+          }
         },
         {
           "n": 11,
-          "text": "यथा सत्येन मे धर्मो यथा सत्येन पावकः ।\nप्रीतः शक्रश्च सत्येन तेन सत्येन खं व्रज ॥"
+          "text": "यथा सत्येन मे धर्मो यथा सत्येन पावकः ।\nप्रीतः शक्रश्च सत्येन तेन सत्येन खं व्रज ॥",
+          "meaning": {
+            "en": "As Dharma is with me through truth, as fire is, and as Indra is pleased by truth, by that truth go to the sky.'"
+          }
         },
         {
           "n": 12,
-          "text": "अष्टकस्त्वथ राजर्षिः कौशिको माधवीसुतः ।\nअनेकशतयज्वानं वचनं प्राह धर्मवित् ॥"
+          "text": "अष्टकस्त्वथ राजर्षिः कौशिको माधवीसुतः ।\nअनेकशतयज्वानं वचनं प्राह धर्मवित् ॥",
+          "meaning": {
+            "en": "Then the royal sage Ashtaka, Kaushika and son of Madhavi, a knower of Dharma, spoke to that king who had performed many hundreds of sacrifices."
+          }
         },
         {
           "n": 13,
-          "text": "शतशः पुण्डरीका मे गोसवाश्च चिताः प्रभो ।\nक्रतवो वाजपेयाश्च तेषां फलमवाप्नुहि ॥"
+          "text": "शतशः पुण्डरीका मे गोसवाश्च चिताः प्रभो ।\nक्रतवो वाजपेयाश्च तेषां फलमवाप्नुहि ॥",
+          "meaning": {
+            "en": "'I have performed hundreds of Pundarika and Gosava sacrifices, lord, and Vajapeyas; gain their fruit."
+          }
         },
         {
           "n": 14,
-          "text": "न मे रत्नानि न धनं न तथान्ये परिच्छदाः ।\nक्रतुष्वनुपयुक्तानि तेन सत्येन खं व्रज ॥"
+          "text": "न मे रत्नानि न धनं न तथान्ये परिच्छदाः ।\nक्रतुष्वनुपयुक्तानि तेन सत्येन खं व्रज ॥",
+          "meaning": {
+            "en": "Jewels, wealth and other furnishings I have that were not used in my sacrifices; by that truth go to the sky.'"
+          }
         },
         {
           "n": 15,
-          "text": "यथा यथा हि जल्पन्ति दौहित्रास्तं नराधिपम् ।\nतथा तथा वसुमतीं त्यक्त्वा राजा दिवं ययौ ॥"
+          "text": "यथा यथा हि जल्पन्ति दौहित्रास्तं नराधिपम् ।\nतथा तथा वसुमतीं त्यक्त्वा राजा दिवं ययौ ॥",
+          "meaning": {
+            "en": "As his daughter's sons spoke so to the king, he gave up the earth and went to heaven."
+          }
         },
         {
           "n": 16,
-          "text": "एवं सर्वे समस्तास्ते राजानः सुकृतैस्तदा ।\nययातिं स्वर्गतो भ्रष्टं तारयामासुरञ्जसा ॥"
+          "text": "एवं सर्वे समस्तास्ते राजानः सुकृतैस्तदा ।\nययातिं स्वर्गतो भ्रष्टं तारयामासुरञ्जसा ॥",
+          "meaning": {
+            "en": "So all those kings together by their good deeds easily saved Yayati, who had fallen from heaven."
+          }
         },
         {
           "n": 17,
-          "text": "दौहित्राः स्वेन धर्मेण यज्ञदानकृतेन वै ।\nचतुर्षु राजवंशेषु संभूताः कुलवर्धनाः ।\nमातामहं महाप्राज्ञं दिवमारोपयन्ति ते ॥"
+          "text": "दौहित्राः स्वेन धर्मेण यज्ञदानकृतेन वै ।\nचतुर्षु राजवंशेषु संभूताः कुलवर्धनाः ।\nमातामहं महाप्राज्ञं दिवमारोपयन्ति ते ॥",
+          "meaning": {
+            "en": "The daughter's sons, born in four royal families to increase them, by their own merit from sacrifice and gifts, raised their wise maternal grandfather to heaven."
+          }
         },
         {
-          "text": "राजान ऊचुः"
+          "text": "राजान ऊचुः",
+          "meaning": {
+            "en": "The kings said:"
+          }
         },
         {
           "n": 18,
-          "text": "राजधर्मगुणोपेताः सर्वधर्मगुणान्विताः ।\nदौहित्रास्ते वयं राजन्दिवमारोह पार्थिवः ॥"
+          "text": "राजधर्मगुणोपेताः सर्वधर्मगुणान्विताः ।\nदौहित्रास्ते वयं राजन्दिवमारोह पार्थिवः ॥",
+          "meaning": {
+            "en": "'We, endowed with the qualities of a king's Dharma and all Dharmas, are your daughter's sons, king; ascend to heaven.'"
+          }
         }
       ]
     }

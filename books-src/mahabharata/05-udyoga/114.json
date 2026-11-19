@@ -22,101 +22,176 @@
       "titleEn": "Bhagavadyana Parva (Krishna's embassy)",
       "verses": [
         {
-          "text": "नारद उवाच"
+          "text": "नारद उवाच",
+          "meaning": {
+            "en": "Narada said:"
+          }
         },
         {
           "n": 1,
-          "text": "हर्यश्वस्त्वब्रवीद्राजा विचिन्त्य बहुधा ततः ।\nदीर्घमुष्णं च निःश्वस्य प्रजाहेतोर्नृपोत्तमः ॥"
+          "text": "हर्यश्वस्त्वब्रवीद्राजा विचिन्त्य बहुधा ततः ।\nदीर्घमुष्णं च निःश्वस्य प्रजाहेतोर्नृपोत्तमः ॥",
+          "meaning": {
+            "en": "Then King Haryashva, best of kings, after thinking at length, sighed deep and hot for the sake of offspring, and spoke."
+          }
         },
         {
           "n": 2,
-          "text": "उन्नतेषून्नता षट्सु सूक्ष्मा सूक्ष्मेषु सप्तसु ।\nगम्भीरा त्रिषु गम्भीरेष्वियं रक्ता च पञ्चसु ॥"
+          "text": "उन्नतेषून्नता षट्सु सूक्ष्मा सूक्ष्मेषु सप्तसु ।\nगम्भीरा त्रिषु गम्भीरेष्वियं रक्ता च पञ्चसु ॥",
+          "meaning": {
+            "en": "'She is high in the six places that should be high, fine in the seven that should be fine, deep in the three that should be deep, and red in the five that should be red."
+          }
         },
         {
           "n": 3,
-          "text": "बहुदेवासुरालोका बहुगन्धर्वदर्शना ।\nबहुलक्षणसंपन्ना बहुप्रसवधारिणी ॥"
+          "text": "बहुदेवासुरालोका बहुगन्धर्वदर्शना ।\nबहुलक्षणसंपन्ना बहुप्रसवधारिणी ॥",
+          "meaning": {
+            "en": "She is the sort that many gods, Asuras and gandharvas look upon, endowed with many auspicious marks, able to bear many children."
+          }
         },
         {
           "n": 4,
-          "text": "समर्थेयं जनयितुं चक्रवर्तिनमात्मजम् ।\nब्रूहि शुल्कं द्विजश्रेष्ठ समीक्ष्य विभवं मम ॥"
+          "text": "समर्थेयं जनयितुं चक्रवर्तिनमात्मजम् ।\nब्रूहि शुल्कं द्विजश्रेष्ठ समीक्ष्य विभवं मम ॥",
+          "meaning": {
+            "en": "She is able to bear a son who will be a universal emperor. Tell me the price, best of brahmins, considering my means.'"
+          }
         },
         {
-          "text": "गालव उवाच"
+          "text": "गालव उवाच",
+          "meaning": {
+            "en": "Galava said:"
+          }
         },
         {
           "n": 5,
-          "text": "एकतःश्यामकर्णानां शतान्यष्टौ ददस्व मे ।\nहयानां चन्द्रशुभ्राणां देशजानां वपुष्मताम् ॥"
+          "text": "एकतःश्यामकर्णानां शतान्यष्टौ ददस्व मे ।\nहयानां चन्द्रशुभ्राणां देशजानां वपुष्मताम् ॥",
+          "meaning": {
+            "en": "'Give me eight hundred horses, white as the moon, each with one black ear, of good native breeds and fine bodies."
+          }
         },
         {
           "n": 6,
-          "text": "ततस्तव भवित्रीयं पुत्राणां जननी शुभा ।\nअरणीव हुताशानां योनिरायतलोचना ॥"
+          "text": "ततस्तव भवित्रीयं पुत्राणां जननी शुभा ।\nअरणीव हुताशानां योनिरायतलोचना ॥",
+          "meaning": {
+            "en": "Then she will be for you an auspicious mother of sons, with long eyes, a source for you as the fire-stick is for the fires.'"
+          }
         },
         {
-          "text": "नारद उवाच"
+          "text": "नारद उवाच",
+          "meaning": {
+            "en": "Narada said:"
+          }
         },
         {
           "n": 7,
-          "text": "एतच्छ्रुत्वा वचो राजा हर्यश्वः काममोहितः ।\nउवाच गालवं दीनो राजर्षिरृषिसत्तमम् ॥"
+          "text": "एतच्छ्रुत्वा वचो राजा हर्यश्वः काममोहितः ।\nउवाच गालवं दीनो राजर्षिरृषिसत्तमम् ॥",
+          "meaning": {
+            "en": "Hearing this, King Haryashva, bewitched by desire, said to Galava, best of sages, in distress, the royal sage that he was."
+          }
         },
         {
           "n": 8,
-          "text": "द्वे मे शते संनिहिते हयानां यद्विधास्तव ।\nएष्टव्याः शतशस्त्वन्ये चरन्ति मम वाजिनः ॥"
+          "text": "द्वे मे शते संनिहिते हयानां यद्विधास्तव ।\nएष्टव्याः शतशस्त्वन्ये चरन्ति मम वाजिनः ॥",
+          "meaning": {
+            "en": "'I have two hundred horses of the kind you want at hand; other horses of mine, by the hundreds, roam elsewhere and must be sought."
+          }
         },
         {
           "n": 9,
-          "text": "सोऽहमेकमपत्यं वै जनयिष्यामि गालव ।\nअस्यामेतं भवान्कामं संपादयतु मे वरम् ॥"
+          "text": "सोऽहमेकमपत्यं वै जनयिष्यामि गालव ।\nअस्यामेतं भवान्कामं संपादयतु मे वरम् ॥",
+          "meaning": {
+            "en": "So I shall beget just one child on her, Galava. Please grant me this wish in her.'"
+          }
         },
         {
           "n": 10,
-          "text": "एतच्छ्रुत्वा तु सा कन्या गालवं वाक्यमब्रवीत् ।\nमम दत्तो वरः कश्चित्केनचिद्ब्रह्मवादिना ॥"
+          "text": "एतच्छ्रुत्वा तु सा कन्या गालवं वाक्यमब्रवीत् ।\nमम दत्तो वरः कश्चित्केनचिद्ब्रह्मवादिना ॥",
+          "meaning": {
+            "en": "Hearing this, the girl said to Galava, 'A certain brahmin-knower once gave me a boon:"
+          }
         },
         {
           "n": 11,
-          "text": "प्रसूत्यन्ते प्रसूत्यन्ते कन्यैव त्वं भविष्यसि ।\nस त्वं ददस्व मां राज्ञे प्रतिगृह्य हयोत्तमान् ॥"
+          "text": "प्रसूत्यन्ते प्रसूत्यन्ते कन्यैव त्वं भविष्यसि ।\nस त्वं ददस्व मां राज्ञे प्रतिगृह्य हयोत्तमान् ॥",
+          "meaning": {
+            "en": "'After each childbirth you will become a maiden again.' So, accepting the best horses, give me to the king."
+          }
         },
         {
           "n": 12,
-          "text": "नृपेभ्यो हि चतुर्भ्यस्ते पूर्णान्यष्टौ शतानि वै ।\nभविष्यन्ति तथा पुत्रा मम चत्वार एव च ॥"
+          "text": "नृपेभ्यो हि चतुर्भ्यस्ते पूर्णान्यष्टौ शतानि वै ।\nभविष्यन्ति तथा पुत्रा मम चत्वार एव च ॥",
+          "meaning": {
+            "en": "From four kings, eight hundred horses will be completed for you, and I shall have four sons."
+          }
         },
         {
           "n": 13,
-          "text": "क्रियतां मम संहारो गुर्वर्थं द्विजसत्तम ।\nएषा तावन्मम प्रज्ञा यथा वा मन्यसे द्विज ॥"
+          "text": "क्रियतां मम संहारो गुर्वर्थं द्विजसत्तम ।\nएषा तावन्मम प्रज्ञा यथा वा मन्यसे द्विज ॥",
+          "meaning": {
+            "en": "Let me be assigned for your teacher's sake, best of brahmins. This is my thought, or as you think best.'"
+          }
         },
         {
           "n": 14,
-          "text": "एवमुक्तस्तु स मुनिः कन्यया गालवस्तदा ।\nहर्यश्वं पृथिवीपालमिदं वचनमब्रवीत् ॥"
+          "text": "एवमुक्तस्तु स मुनिः कन्यया गालवस्तदा ।\nहर्यश्वं पृथिवीपालमिदं वचनमब्रवीत् ॥",
+          "meaning": {
+            "en": "So addressed by the girl, the sage Galava said to Haryashva, protector of the earth:"
+          }
         },
         {
           "n": 15,
-          "text": "इयं कन्या नरश्रेष्ठ हर्यश्व प्रतिगृह्यताम् ।\nचतुर्भागेन शुल्कस्य जनयस्वैकमात्मजम् ॥"
+          "text": "इयं कन्या नरश्रेष्ठ हर्यश्व प्रतिगृह्यताम् ।\nचतुर्भागेन शुल्कस्य जनयस्वैकमात्मजम् ॥",
+          "meaning": {
+            "en": "'Best of men, Haryashva, accept this girl. For a quarter of the price, beget one son.'"
+          }
         },
         {
           "n": 16,
-          "text": "प्रतिगृह्य स तां कन्यां गालवं प्रतिनन्द्य च ।\nसमये देशकाले च लब्धवान्सुतमीप्सितम् ॥"
+          "text": "प्रतिगृह्य स तां कन्यां गालवं प्रतिनन्द्य च ।\nसमये देशकाले च लब्धवान्सुतमीप्सितम् ॥",
+          "meaning": {
+            "en": "Having accepted the girl and greeted Galava, the king in due time and place got the son he wanted."
+          }
         },
         {
           "n": 17,
-          "text": "ततो वसुमना नाम वसुभ्यो वसुमत्तरः ।\nवसुप्रख्यो नरपतिः स बभूव वसुप्रदः ॥"
+          "text": "ततो वसुमना नाम वसुभ्यो वसुमत्तरः ।\nवसुप्रख्यो नरपतिः स बभूव वसुप्रदः ॥",
+          "meaning": {
+            "en": "Then there was a king named Vasumanas, richer than the Vasus, radiant as the Vasus, a giver of wealth."
+          }
         },
         {
           "n": 18,
-          "text": "अथ काले पुनर्धीमान्गालवः प्रत्युपस्थितः ।\nउपसंगम्य चोवाच हर्यश्वं प्रीतिमानसम् ॥"
+          "text": "अथ काले पुनर्धीमान्गालवः प्रत्युपस्थितः ।\nउपसंगम्य चोवाच हर्यश्वं प्रीतिमानसम् ॥",
+          "meaning": {
+            "en": "In time the wise Galava came back and, approaching Haryashva, who was glad at heart, said:"
+          }
         },
         {
           "n": 19,
-          "text": "जातो नृप सुतस्तेऽयं बालभास्करसंनिभः ।\nकालो गन्तुं नरश्रेष्ठ भिक्षार्थमपरं नृपम् ॥"
+          "text": "जातो नृप सुतस्तेऽयं बालभास्करसंनिभः ।\nकालो गन्तुं नरश्रेष्ठ भिक्षार्थमपरं नृपम् ॥",
+          "meaning": {
+            "en": "'King, a son has been born to you, like the young sun. It is time for me to go, best of men, to another king for alms.'"
+          }
         },
         {
           "n": 20,
-          "text": "हर्यश्वः सत्यवचने स्थितः स्थित्वा च पौरुषे ।\nदुर्लभत्वाद्धयानां च प्रददौ माधवीं पुनः ॥"
+          "text": "हर्यश्वः सत्यवचने स्थितः स्थित्वा च पौरुषे ।\nदुर्लभत्वाद्धयानां च प्रददौ माधवीं पुनः ॥",
+          "meaning": {
+            "en": "Haryashva, firm in his word and in his manliness, gave Madhavi back because of the scarcity of such horses."
+          }
         },
         {
           "n": 21,
-          "text": "माधवी च पुनर्दीप्तां परित्यज्य नृपश्रियम् ।\nकुमारी कामतो भूत्वा गालवं पृष्ठतोऽन्वगात् ॥"
+          "text": "माधवी च पुनर्दीप्तां परित्यज्य नृपश्रियम् ।\nकुमारी कामतो भूत्वा गालवं पृष्ठतोऽन्वगात् ॥",
+          "meaning": {
+            "en": "And Madhavi, leaving behind the blazing royal fortune, became a maiden again at will and followed Galava."
+          }
         },
         {
           "n": 22,
-          "text": "त्वय्येव तावत्तिष्ठन्तु हया इत्युक्तवान्द्विजः ।\nप्रययौ कन्यया सार्धं दिवोदासं प्रजेश्वरम् ॥"
+          "text": "त्वय्येव तावत्तिष्ठन्तु हया इत्युक्तवान्द्विजः ।\nप्रययौ कन्यया सार्धं दिवोदासं प्रजेश्वरम् ॥",
+          "meaning": {
+            "en": "The brahmin said, 'Let the horses stay with you for now,' and went with the girl to Divodasa, lord of subjects."
+          }
         }
       ]
     }

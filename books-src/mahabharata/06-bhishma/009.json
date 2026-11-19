@@ -22,97 +22,169 @@
       "titleEn": "Jambukhandavinirmana Parva (Description of Jambudvipa)",
       "verses": [
         {
-          "text": "धृतराष्ट्र उवाच"
+          "text": "धृतराष्ट्र उवाच",
+          "meaning": {
+            "en": "Dhritarashtra said:"
+          }
         },
         {
           "n": 1,
-          "text": "वर्षाणां चैव नामानि पर्वतानां च संजय ।\nआचक्ष्व मे यथातत्त्वं ये च पर्वतवासिनः ॥"
+          "text": "वर्षाणां चैव नामानि पर्वतानां च संजय ।\nआचक्ष्व मे यथातत्त्वं ये च पर्वतवासिनः ॥",
+          "meaning": {
+            "en": "Sanjaya, tell me truly the names of the regions and of the mountains, and of those who live on the mountains."
+          }
         },
         {
-          "text": "संजय उवाच"
+          "text": "संजय उवाच",
+          "meaning": {
+            "en": "Sanjaya said:"
+          }
         },
         {
           "n": 2,
-          "text": "दक्षिणेन तु श्वेतस्य नीलस्यैवोत्तरेण तु ।\nवर्षं रमणकं नाम जायन्ते तत्र मानवाः ॥"
+          "text": "दक्षिणेन तु श्वेतस्य नीलस्यैवोत्तरेण तु ।\nवर्षं रमणकं नाम जायन्ते तत्र मानवाः ॥",
+          "meaning": {
+            "en": "South of Shveta and north of Nila lies the region called Ramanaka, where human beings are born."
+          }
         },
         {
           "n": 3,
-          "text": "शुक्लाभिजनसंपन्नाः सर्वे सुप्रियदर्शनाः ।\nरतिप्रधानाश्च तथा जायन्ते तत्र मानवाः ॥"
+          "text": "शुक्लाभिजनसंपन्नाः सर्वे सुप्रियदर्शनाः ।\nरतिप्रधानाश्च तथा जायन्ते तत्र मानवाः ॥",
+          "meaning": {
+            "en": "All the people born there are of fair descent and very pleasing to see, and devoted chiefly to pleasure."
+          }
         },
         {
           "n": 4,
-          "text": "दश वर्षसहस्राणि शतानि दश पञ्च च ।\nजीवन्ति ते महाराज नित्यं मुदितमानसाः ॥"
+          "text": "दश वर्षसहस्राणि शतानि दश पञ्च च ।\nजीवन्ति ते महाराज नित्यं मुदितमानसाः ॥",
+          "meaning": {
+            "en": "Great king, they live eleven thousand years and five hundred, always cheerful."
+          }
         },
         {
           "n": 5,
-          "text": "दक्षिणे शृङ्गिणश्चैव श्वेतस्याथोत्तरेण च ।\nवर्षं हैरण्वतं नाम यत्र हैरण्वती नदी ॥"
+          "text": "दक्षिणे शृङ्गिणश्चैव श्वेतस्याथोत्तरेण च ।\nवर्षं हैरण्वतं नाम यत्र हैरण्वती नदी ॥",
+          "meaning": {
+            "en": "South of Shringin and north of Shveta lies the region called Hairanvata, where the river Hairanvati flows."
+          }
         },
         {
           "n": 6,
-          "text": "यक्षानुगा महाराज धनिनः प्रियदर्शनाः ।\nमहाबलास्तत्र सदा राजन्मुदितमानसाः ॥"
+          "text": "यक्षानुगा महाराज धनिनः प्रियदर्शनाः ।\nमहाबलास्तत्र सदा राजन्मुदितमानसाः ॥",
+          "meaning": {
+            "en": "Great king, the people there are followers of the Yakshas, wealthy, pleasing to see and very strong, always glad at heart."
+          }
         },
         {
           "n": 7,
-          "text": "एकादश सहस्राणि वर्षाणां ते जनाधिप ।\nआयुष्प्रमाणं जीवन्ति शतानि दश पञ्च च ॥"
+          "text": "एकादश सहस्राणि वर्षाणां ते जनाधिप ।\nआयुष्प्रमाणं जीवन्ति शतानि दश पञ्च च ॥",
+          "meaning": {
+            "en": "Lord of the people, they live a span of eleven thousand years and five hundred."
+          }
         },
         {
           "n": 8,
-          "text": "शृङ्गाणि वै शृङ्गवतस्त्रीण्येव मनुजाधिप ।\nएकं मणिमयं तत्र तथैकं रौक्ममद्भुतम् ॥"
+          "text": "शृङ्गाणि वै शृङ्गवतस्त्रीण्येव मनुजाधिप ।\nएकं मणिमयं तत्र तथैकं रौक्ममद्भुतम् ॥",
+          "meaning": {
+            "en": "Shringavan has three peaks, lord of men: one is made of gems, one of wondrous gold, and one of all jewels, adorned with palaces."
+          }
         },
         {
           "n": 9,
-          "text": "सर्वरत्नमयं चैकं भवनैरुपशोभितम् ।\nतत्र स्वयंप्रभा देवी नित्यं वसति शाण्डिली ॥"
+          "text": "सर्वरत्नमयं चैकं भवनैरुपशोभितम् ।\nतत्र स्वयंप्रभा देवी नित्यं वसति शाण्डिली ॥",
+          "meaning": {
+            "en": "There the goddess Shandili, self-luminous, always dwells."
+          }
         },
         {
           "n": 10,
-          "text": "उत्तरेण तु शृङ्गस्य समुद्रान्ते जनाधिप ।\nवर्षमैरावतं नाम तस्माच्छृङ्गवतः परम् ॥"
+          "text": "उत्तरेण तु शृङ्गस्य समुद्रान्ते जनाधिप ।\nवर्षमैरावतं नाम तस्माच्छृङ्गवतः परम् ॥",
+          "meaning": {
+            "en": "North of the peak, at the edge of the sea, lord of the people, lies the region called Airavata, beyond Shringavan."
+          }
         },
         {
           "n": 11,
-          "text": "न तत्र सूर्यस्तपति न ते जीर्यन्ति मानवाः ।\nचन्द्रमाश्च सनक्षत्रो ज्योतिर्भूत इवावृतः ॥"
+          "text": "न तत्र सूर्यस्तपति न ते जीर्यन्ति मानवाः ।\nचन्द्रमाश्च सनक्षत्रो ज्योतिर्भूत इवावृतः ॥",
+          "meaning": {
+            "en": "The sun does not burn there and the people do not age; the moon with its stars seems to be wrapped in light."
+          }
         },
         {
           "n": 12,
-          "text": "पद्मप्रभाः पद्मवर्णाः पद्मपत्रनिभेक्षणाः ।\nपद्मपत्रसुगन्धाश्च जायन्ते तत्र मानवाः ॥"
+          "text": "पद्मप्रभाः पद्मवर्णाः पद्मपत्रनिभेक्षणाः ।\nपद्मपत्रसुगन्धाश्च जायन्ते तत्र मानवाः ॥",
+          "meaning": {
+            "en": "People there are born with the glow of lotuses, the colour of lotuses, eyes like lotus petals and the fragrance of lotus petals."
+          }
         },
         {
           "n": 13,
-          "text": "अनिष्पन्दाः सुगन्धाश्च निराहारा जितेन्द्रियाः ।\nदेवलोकच्युताः सर्वे तथा विरजसो नृप ॥"
+          "text": "अनिष्पन्दाः सुगन्धाश्च निराहारा जितेन्द्रियाः ।\nदेवलोकच्युताः सर्वे तथा विरजसो नृप ॥",
+          "meaning": {
+            "en": "They are free of sweat, fragrant, need no food and have mastered their senses; all have fallen from the world of the gods, and are free of passion, King."
+          }
         },
         {
           "n": 14,
-          "text": "त्रयोदश सहस्राणि वर्षाणां ते जनाधिप ।\nआयुष्प्रमाणं जीवन्ति नरा भरतसत्तम ॥"
+          "text": "त्रयोदश सहस्राणि वर्षाणां ते जनाधिप ।\nआयुष्प्रमाणं जीवन्ति नरा भरतसत्तम ॥",
+          "meaning": {
+            "en": "Lord of the people, those people live thirteen thousand years, best of the Bharatas."
+          }
         },
         {
           "n": 15,
-          "text": "क्षीरोदस्य समुद्रस्य तथैवोत्तरतः प्रभुः ।\nहरिर्वसति वैकुण्ठः शकटे कनकात्मके ॥"
+          "text": "क्षीरोदस्य समुद्रस्य तथैवोत्तरतः प्रभुः ।\nहरिर्वसति वैकुण्ठः शकटे कनकात्मके ॥",
+          "meaning": {
+            "en": "North of the Ocean of Milk, the Lord Hari Vaikuntha dwells in a golden cart."
+          }
         },
         {
           "n": 16,
-          "text": "अष्टचक्रं हि तद्यानं भूतयुक्तं मनोजवम् ।\nअग्निवर्णं महावेगं जाम्बूनदपरिष्कृतम् ॥"
+          "text": "अष्टचक्रं हि तद्यानं भूतयुक्तं मनोजवम् ।\nअग्निवर्णं महावेगं जाम्बूनदपरिष्कृतम् ॥",
+          "meaning": {
+            "en": "That vehicle has eight wheels, is yoked with spirits, is swift as thought, fiery in colour, very fast and adorned with Jambunada gold."
+          }
         },
         {
           "n": 17,
-          "text": "स प्रभुः सर्वभूतानां विभुश्च भरतर्षभ ।\nसंक्षेपो विस्तरश्चैव कर्ता कारयिता च सः ॥"
+          "text": "स प्रभुः सर्वभूतानां विभुश्च भरतर्षभ ।\nसंक्षेपो विस्तरश्चैव कर्ता कारयिता च सः ॥",
+          "meaning": {
+            "en": "He, the lord of all beings and all-pervading, best of the Bharatas, is brevity and expansion, the doer and the cause of doing."
+          }
         },
         {
           "n": 18,
-          "text": "पृथिव्यापस्तथाकाशं वायुस्तेजश्च पार्थिव ।\nस यज्ञः सर्वभूतानामास्यं तस्य हुताशनः ॥"
+          "text": "पृथिव्यापस्तथाकाशं वायुस्तेजश्च पार्थिव ।\nस यज्ञः सर्वभूतानामास्यं तस्य हुताशनः ॥",
+          "meaning": {
+            "en": "King, he is earth, water, space, air and fire; he is the sacrifice of all beings, and fire is his mouth."
+          }
         },
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 19,
-          "text": "एवमुक्तः संजयेन धृतराष्ट्रो महामनाः ।\nध्यानमन्वगमद्राजा पुत्रान्प्रति जनाधिप ॥"
+          "text": "एवमुक्तः संजयेन धृतराष्ट्रो महामनाः ।\nध्यानमन्वगमद्राजा पुत्रान्प्रति जनाधिप ॥",
+          "meaning": {
+            "en": "Thus addressed by Sanjaya, the high-minded Dhritarashtra, lord of the people, fell into thought about his sons."
+          }
         },
         {
           "n": 20,
-          "text": "स विचिन्त्य महाराज पुनरेवाब्रवीद्वचः ।\nअसंशयं सूतपुत्र कालः संक्षिपते जगत् ।\nसृजते च पुनः सर्वं नेह विद्यति शाश्वतम् ॥"
+          "text": "स विचिन्त्य महाराज पुनरेवाब्रवीद्वचः ।\nअसंशयं सूतपुत्र कालः संक्षिपते जगत् ।\nसृजते च पुनः सर्वं नेह विद्यति शाश्वतम् ॥",
+          "meaning": {
+            "en": "After reflecting, great king, he spoke again: \"Without doubt, son of the charioteer, Time draws in the world, and creates everything again; nothing here is eternal.\""
+          }
         },
         {
           "n": 21,
-          "text": "नरो नारायणश्चैव सर्वज्ञः सर्वभूतभृत् ।\nदेवा वैकुण्ठ इत्याहुर्वेदा विष्णुरिति प्रभुम् ॥"
+          "text": "नरो नारायणश्चैव सर्वज्ञः सर्वभूतभृत् ।\nदेवा वैकुण्ठ इत्याहुर्वेदा विष्णुरिति प्रभुम् ॥",
+          "meaning": {
+            "en": "\"Nara and Narayana, the all-knowing sustainers of all beings, are called Vaikuntha by the gods, and the Vedas call the Lord Vishnu.\""
+          }
         }
       ]
     }

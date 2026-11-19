@@ -22,80 +22,140 @@
       "titleEn": "Yanasandhi Parva (Debate on peace)",
       "verses": [
         {
-          "text": "दुर्योधन उवाच"
+          "text": "दुर्योधन उवाच",
+          "meaning": {
+            "en": "Duryodhana said:"
+          }
         },
         {
           "n": 1,
-          "text": "अक्षौहिणीः सप्त लब्ध्वा राजभिः सह संजय ।\nकिं स्विदिच्छति कौन्तेयो युद्धप्रेप्सुर्युधिष्ठिरः ॥"
+          "text": "अक्षौहिणीः सप्त लब्ध्वा राजभिः सह संजय ।\nकिं स्विदिच्छति कौन्तेयो युद्धप्रेप्सुर्युधिष्ठिरः ॥",
+          "meaning": {
+            "en": "Sanjaya, having gained seven akshauhinis with their kings, what does Yudhishthira, Kunti's son, who wants war, wish?"
+          }
         },
         {
-          "text": "संजय उवाच"
+          "text": "संजय उवाच",
+          "meaning": {
+            "en": "Sanjaya said:"
+          }
         },
         {
           "n": 2,
-          "text": "अतीव मुदितो राजन्युद्धप्रेप्सुर्युधिष्ठिरः ।\nभीमसेनार्जुनौ चोभौ यमावपि न बिभ्यतः ॥"
+          "text": "अतीव मुदितो राजन्युद्धप्रेप्सुर्युधिष्ठिरः ।\nभीमसेनार्जुनौ चोभौ यमावपि न बिभ्यतः ॥",
+          "meaning": {
+            "en": "Yudhishthira, who wants to fight, is exceedingly joyful, king, and neither Bhimasena and Arjuna nor the twins are afraid."
+          }
         },
         {
           "n": 3,
-          "text": "रथं तु दिव्यं कौन्तेयः सर्वा विभ्राजयन्दिशः ।\nमन्त्रं जिज्ञासमानः सन्बीभत्सुः समयोजयत् ॥"
+          "text": "रथं तु दिव्यं कौन्तेयः सर्वा विभ्राजयन्दिशः ।\nमन्त्रं जिज्ञासमानः सन्बीभत्सुः समयोजयत् ॥",
+          "meaning": {
+            "en": "Wishing to test the spell, Arjuna yoked a divine chariot that lit up all directions."
+          }
         },
         {
           "n": 4,
-          "text": "तमपश्याम संनद्धं मेघं विद्युत्प्रभं यथा ।\nस मन्त्रान्समभिध्याय हृष्यमाणोऽभ्यभाषत ॥"
+          "text": "तमपश्याम संनद्धं मेघं विद्युत्प्रभं यथा ।\nस मन्त्रान्समभिध्याय हृष्यमाणोऽभ्यभाषत ॥",
+          "meaning": {
+            "en": "We saw him armoured, like a cloud with lightning's glow. He pondered the mantras and said joyfully:"
+          }
         },
         {
           "n": 5,
-          "text": "पूर्वरूपमिदं पश्य वयं जेष्याम संजय ।\nबीभत्सुर्मां यथोवाच तथावैम्यहमप्युत ॥"
+          "text": "पूर्वरूपमिदं पश्य वयं जेष्याम संजय ।\nबीभत्सुर्मां यथोवाच तथावैम्यहमप्युत ॥",
+          "meaning": {
+            "en": "\"See this omen: we shall win, Sanjaya. As Bibhatsu told me, so I too understand.\""
+          }
         },
         {
-          "text": "दुर्योधन उवाच"
+          "text": "दुर्योधन उवाच",
+          "meaning": {
+            "en": "Duryodhana said:"
+          }
         },
         {
           "n": 6,
-          "text": "प्रशंसस्यभिनन्दंस्तान्पार्थानक्षपराजितान् ।\nअर्जुनस्य रथे ब्रूहि कथमश्वाः कथं ध्वजः ॥"
+          "text": "प्रशंसस्यभिनन्दंस्तान्पार्थानक्षपराजितान् ।\nअर्जुनस्य रथे ब्रूहि कथमश्वाः कथं ध्वजः ॥",
+          "meaning": {
+            "en": "You praise and rejoice in those Parthas, defeated at dice. Tell me, how are the horses and how is the banner on Arjuna's chariot?"
+          }
         },
         {
-          "text": "संजय उवाच"
+          "text": "संजय उवाच",
+          "meaning": {
+            "en": "Sanjaya said:"
+          }
         },
         {
           "n": 7,
-          "text": "भौवनः सह शक्रेण बहुचित्रं विशां पते ।\nरूपाणि कल्पयामास त्वष्टा धात्रा सहाभिभो ॥"
+          "text": "भौवनः सह शक्रेण बहुचित्रं विशां पते ।\nरूपाणि कल्पयामास त्वष्टा धात्रा सहाभिभो ॥",
+          "meaning": {
+            "en": "Bhauvana, the divine craftsman Tvashtri, with Indra and the creator, devised many varied forms for it, lord of men."
+          }
         },
         {
           "n": 8,
-          "text": "ध्वजे हि तस्मिन्रूपाणि चक्रुस्ते देवमायया ।\nमहाधनानि दिव्यानि महान्ति च लघूनि च ॥"
+          "text": "ध्वजे हि तस्मिन्रूपाणि चक्रुस्ते देवमायया ।\nमहाधनानि दिव्यानि महान्ति च लघूनि च ॥",
+          "meaning": {
+            "en": "On that banner they made forms through divine magic: precious, heavenly, great and small."
+          }
         },
         {
           "n": 9,
-          "text": "सर्वा दिशो योजनमात्रमन्तरं\nस तिर्यगूर्ध्वं च रुरोध वै ध्वजः ।\nन संसज्जेत्तरुभिः संवृतोऽपि\nतथा हि माया विहिता भौवनेन ॥"
+          "text": "सर्वा दिशो योजनमात्रमन्तरं\nस तिर्यगूर्ध्वं च रुरोध वै ध्वजः ।\nन संसज्जेत्तरुभिः संवृतोऽपि\nतथा हि माया विहिता भौवनेन ॥",
+          "meaning": {
+            "en": "That banner blocks all directions, a league across, slantwise and upward, yet never snags even among crowded trees; so did Bhauvana contrive its magic."
+          }
         },
         {
           "n": 10,
-          "text": "यथाकाशे शक्रधनुः प्रकाशते\nन चैकवर्णं न च विद्म किं नु तत् ।\nतथा ध्वजो विहितो भौवनेन\nबह्वाकारं दृश्यते रूपमस्य ॥"
+          "text": "यथाकाशे शक्रधनुः प्रकाशते\nन चैकवर्णं न च विद्म किं नु तत् ।\nतथा ध्वजो विहितो भौवनेन\nबह्वाकारं दृश्यते रूपमस्य ॥",
+          "meaning": {
+            "en": "As Indra's bow shines in the sky and is not one colour and we do not know what it is, so the banner was made by Bhauvana, and its form is seen in many shapes."
+          }
         },
         {
           "n": 11,
-          "text": "यथाग्निधूमो दिवमेति रुद्ध्वा\nवर्णान्बिभ्रत्तैजसं तच्छरीरम् ।\nतथा ध्वजो विहितो भौवनेन\nन चेद्भारो भविता नोत रोधः ॥"
+          "text": "यथाग्निधूमो दिवमेति रुद्ध्वा\nवर्णान्बिभ्रत्तैजसं तच्छरीरम् ।\nतथा ध्वजो विहितो भौवनेन\nन चेद्भारो भविता नोत रोधः ॥",
+          "meaning": {
+            "en": "As the smoke of fire rises to the sky, blocking it and bearing colours, a body of light, so the banner was made by Bhauvana, without weight or obstruction."
+          }
         },
         {
           "n": 12,
-          "text": "श्वेतास्तस्मिन्वातवेगाः सदश्वा\nदिव्या युक्ताश्चित्ररथेन दत्ताः ।\nशतं यत्तत्पूर्यते नित्यकालं\nहतं हतं दत्तवरं पुरस्तात् ॥"
+          "text": "श्वेतास्तस्मिन्वातवेगाः सदश्वा\nदिव्या युक्ताश्चित्ररथेन दत्ताः ।\nशतं यत्तत्पूर्यते नित्यकालं\nहतं हतं दत्तवरं पुरस्तात् ॥",
+          "meaning": {
+            "en": "The white horses there, fine, wind-swift, divine, given by Chitraratha, are always full to the count of a hundred; each one slain is replaced, a boon granted before."
+          }
         },
         {
           "n": 13,
-          "text": "तथा राज्ञो दन्तवर्णा बृहन्तो\nरथे युक्ता भान्ति तद्वीर्यतुल्याः ।\nऋश्यप्रख्या भीमसेनस्य वाहा\nरणे वायोस्तुल्यवेगा बभूवुः ॥"
+          "text": "तथा राज्ञो दन्तवर्णा बृहन्तो\nरथे युक्ता भान्ति तद्वीर्यतुल्याः ।\nऋश्यप्रख्या भीमसेनस्य वाहा\nरणे वायोस्तुल्यवेगा बभूवुः ॥",
+          "meaning": {
+            "en": "So too the king's great horses, ivory-coloured, yoked to his chariot, shine equal to his strength; Bhimasena's horses, deer-coloured, were as swift as the wind in battle."
+          }
         },
         {
           "n": 14,
-          "text": "कल्माषाङ्गास्तित्तिरिचित्रपृष्ठा\nभ्रात्रा दत्ताः प्रीयता फल्गुनेन ।\nभ्रातुर्वीरस्य स्वैस्तुरंगैर्विशिष्टा\nमुदा युक्ताः सहदेवं वहन्ति ॥"
+          "text": "कल्माषाङ्गास्तित्तिरिचित्रपृष्ठा\nभ्रात्रा दत्ताः प्रीयता फल्गुनेन ।\nभ्रातुर्वीरस्य स्वैस्तुरंगैर्विशिष्टा\nमुदा युक्ताः सहदेवं वहन्ति ॥",
+          "meaning": {
+            "en": "Speckled in body, with backs mottled like partridges, given by his brother in delight by Phalguna, finer than his brother's own horses, they carry Sahadeva joyfully."
+          }
         },
         {
           "n": 15,
-          "text": "माद्रीपुत्रं नकुलं त्वाजमीढं\nमहेन्द्रदत्ता हरयो वाजिमुख्याः ।\nसमा वायोर्बलवन्तस्तरस्विनो\nवहन्ति वीरं वृत्रशत्रुं यथेन्द्रम् ॥"
+          "text": "माद्रीपुत्रं नकुलं त्वाजमीढं\nमहेन्द्रदत्ता हरयो वाजिमुख्याः ।\nसमा वायोर्बलवन्तस्तरस्विनो\nवहन्ति वीरं वृत्रशत्रुं यथेन्द्रम् ॥",
+          "meaning": {
+            "en": "Great steeds given by Mahendra, equal to the wind in strength and speed, carry Nakula, Madri's son, Ajamidha's descendant, as Indra the enemy of Vritra."
+          }
         },
         {
           "n": 16,
-          "text": "तुल्याश्चैभिर्वयसा विक्रमेण\nजवेन चैवाप्रतिरूपाः सदश्वाः ।\nसौभद्रादीन्द्रौपदेयान्कुमारा-\nन्वहन्त्यश्वा देवदत्ता बृहन्तः ॥"
+          "text": "तुल्याश्चैभिर्वयसा विक्रमेण\nजवेन चैवाप्रतिरूपाः सदश्वाः ।\nसौभद्रादीन्द्रौपदेयान्कुमारा-\nन्वहन्त्यश्वा देवदत्ता बृहन्तः ॥",
+          "meaning": {
+            "en": "Equal to them in age, valour and speed, matchless fine horses, great and given by gods, carry Subhadra's son and the other youths, Draupadi's sons."
+          }
         }
       ]
     }

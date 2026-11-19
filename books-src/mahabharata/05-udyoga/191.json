@@ -22,87 +22,150 @@
       "titleEn": "Ambopakhyana Parva (The story of Amba)",
       "verses": [
         {
-          "text": "भीष्म उवाच"
+          "text": "भीष्म उवाच",
+          "meaning": {
+            "en": "Bhishma said:"
+          }
         },
         {
           "n": 1,
-          "text": "एवमुक्तस्य दूतेन द्रुपदस्य तदा नृप ।\nचोरस्येव गृहीतस्य न प्रावर्तत भारती ॥"
+          "text": "एवमुक्तस्य दूतेन द्रुपदस्य तदा नृप ।\nचोरस्येव गृहीतस्य न प्रावर्तत भारती ॥",
+          "meaning": {
+            "en": "Addressed thus by the messenger, Drupada, O king, was like a thief caught in the act, and no word came from him."
+          }
         },
         {
           "n": 2,
-          "text": "स यत्नमकरोत्तीव्रं संबन्धैरनुसान्त्वनैः ।\nदूतैर्मधुरसंभाषैर्नैतदस्तीति संदिशन् ॥"
+          "text": "स यत्नमकरोत्तीव्रं संबन्धैरनुसान्त्वनैः ।\nदूतैर्मधुरसंभाषैर्नैतदस्तीति संदिशन् ॥",
+          "meaning": {
+            "en": "He made a strenuous effort with conciliation through kinsmen and with messengers of sweet speech, sending word that \"This is not so.\""
+          }
         },
         {
           "n": 3,
-          "text": "स राजा भूय एवाथ कृत्वा तत्त्वत आगमम् ।\nकन्येति पाञ्चालसुतां त्वरमाणोऽभिनिर्ययौ ॥"
+          "text": "स राजा भूय एवाथ कृत्वा तत्त्वत आगमम् ।\nकन्येति पाञ्चालसुतां त्वरमाणोऽभिनिर्ययौ ॥",
+          "meaning": {
+            "en": "Then the king once more, having learned the true account that the Panchala child was a girl, hastily set out."
+          }
         },
         {
           "n": 4,
-          "text": "ततः संप्रेषयामास मित्राणाममितौजसाम् ।\nदुहितुर्विप्रलम्भं तं धात्रीणां वचनात्तदा ॥"
+          "text": "ततः संप्रेषयामास मित्राणाममितौजसाम् ।\nदुहितुर्विप्रलम्भं तं धात्रीणां वचनात्तदा ॥",
+          "meaning": {
+            "en": "Then, on the nurses' word, Hiranyavarman sent word of the deception about his daughter to his friends of boundless strength."
+          }
         },
         {
           "n": 5,
-          "text": "ततः समुदयं कृत्वा बलानां राजसत्तमः ।\nअभियाने मतिं चक्रे द्रुपदं प्रति भारत ॥"
+          "text": "ततः समुदयं कृत्वा बलानां राजसत्तमः ।\nअभियाने मतिं चक्रे द्रुपदं प्रति भारत ॥",
+          "meaning": {
+            "en": "Then that best of kings gathered his forces and made up his mind to march against Drupada, O Bharata."
+          }
         },
         {
           "n": 6,
-          "text": "ततः संमन्त्रयामास मित्रैः सह महीपतिः ।\nहिरण्यवर्मा राजेन्द्र पाञ्चाल्यं पार्थिवं प्रति ॥"
+          "text": "ततः संमन्त्रयामास मित्रैः सह महीपतिः ।\nहिरण्यवर्मा राजेन्द्र पाञ्चाल्यं पार्थिवं प्रति ॥",
+          "meaning": {
+            "en": "Then, O king, Hiranyavarman took counsel with his friends about the Panchala king."
+          }
         },
         {
           "n": 7,
-          "text": "तत्र वै निश्चितं तेषामभूद्राज्ञां महात्मनाम् ।\nतथ्यं चेद्भवति ह्येतत्कन्या राजञ्शिखण्डिनी ।\nबद्ध्वा पाञ्चालराजानमानयिष्यामहे गृहान् ॥"
+          "text": "तत्र वै निश्चितं तेषामभूद्राज्ञां महात्मनाम् ।\nतथ्यं चेद्भवति ह्येतत्कन्या राजञ्शिखण्डिनी ।\nबद्ध्वा पाञ्चालराजानमानयिष्यामहे गृहान् ॥",
+          "meaning": {
+            "en": "Those great kings decided: \"If it is true that Shikhandini is a girl, we will bind the Panchala king and bring him to our homes.\""
+          }
         },
         {
           "n": 8,
-          "text": "अन्यं राजानमाधाय पाञ्चालेषु नरेश्वरम् ।\nघातयिष्याम नृपतिं द्रुपदं सशिखण्डिनम् ॥"
+          "text": "अन्यं राजानमाधाय पाञ्चालेषु नरेश्वरम् ।\nघातयिष्याम नृपतिं द्रुपदं सशिखण्डिनम् ॥",
+          "meaning": {
+            "en": "\"We will set another man as king among the Panchalas, and have King Drupada killed along with Shikhandin.\""
+          }
         },
         {
           "n": 9,
-          "text": "स तदा दूतमाज्ञाय पुनः क्षत्तारमीश्वरः ।\nप्रास्थापयत्पार्षताय हन्मीति त्वां स्थिरो भव ॥"
+          "text": "स तदा दूतमाज्ञाय पुनः क्षत्तारमीश्वरः ।\nप्रास्थापयत्पार्षताय हन्मीति त्वां स्थिरो भव ॥",
+          "meaning": {
+            "en": "The lord, having learned his messenger's report, sent his minister again to the Prishata king with the message: \"I will kill you; be steady.\""
+          }
         },
         {
           "n": 10,
-          "text": "स प्रकृत्या च वै भीरुः किल्बिषी च नराधिपः ।\nभयं तीव्रमनुप्राप्तो द्रुपदः पृथिवीपतिः ॥"
+          "text": "स प्रकृत्या च वै भीरुः किल्बिषी च नराधिपः ।\nभयं तीव्रमनुप्राप्तो द्रुपदः पृथिवीपतिः ॥",
+          "meaning": {
+            "en": "King Drupada was timid by nature and had a guilty conscience, and he fell into great fear."
+          }
         },
         {
           "n": 11,
-          "text": "विसृज्य दूतं दाशार्णं द्रुपदः शोककर्शितः ।\nसमेत्य भार्यां रहिते वाक्यमाह नराधिपः ॥"
+          "text": "विसृज्य दूतं दाशार्णं द्रुपदः शोककर्शितः ।\nसमेत्य भार्यां रहिते वाक्यमाह नराधिपः ॥",
+          "meaning": {
+            "en": "Sending the Dasharna envoy away, Drupada, wasted by grief, went to his wife alone and spoke to her."
+          }
         },
         {
           "n": 12,
-          "text": "भयेन महताविष्टो हृदि शोकेन चाहतः ।\nपाञ्चालराजो दयितां मातरं वै शिखण्डिनः ॥"
+          "text": "भयेन महताविष्टो हृदि शोकेन चाहतः ।\nपाञ्चालराजो दयितां मातरं वै शिखण्डिनः ॥",
+          "meaning": {
+            "en": "Seized with great fear and struck by grief in his heart, the Panchala king spoke to his beloved wife, the mother of Shikhandin."
+          }
         },
         {
           "n": 13,
-          "text": "अभियास्यति मां कोपात्संबन्धी सुमहाबलः ।\nहिरण्यवर्मा नृपतिः कर्षमाणो वरूथिनीम् ॥"
+          "text": "अभियास्यति मां कोपात्संबन्धी सुमहाबलः ।\nहिरण्यवर्मा नृपतिः कर्षमाणो वरूथिनीम् ॥",
+          "meaning": {
+            "en": "\"My mighty kinsman, King Hiranyavarman, will march against me in anger, leading his army.\""
+          }
         },
         {
           "n": 14,
-          "text": "किमिदानीं करिष्यामि मूढः कन्यामिमां प्रति ।\nशिखण्डी किल पुत्रस्ते कन्येति परिशङ्कितः ॥"
+          "text": "किमिदानीं करिष्यामि मूढः कन्यामिमां प्रति ।\nशिखण्डी किल पुत्रस्ते कन्येति परिशङ्कितः ॥",
+          "meaning": {
+            "en": "\"What am I to do now, fool that I am, about this girl? He suspects that your son Shikhandin is a girl.\""
+          }
         },
         {
           "n": 15,
-          "text": "इति निश्चित्य तत्त्वेन समित्रः सबलानुगः ।\nवञ्चितोऽस्मीति मन्वानो मां किलोद्धर्तुमिच्छति ॥"
+          "text": "इति निश्चित्य तत्त्वेन समित्रः सबलानुगः ।\nवञ्चितोऽस्मीति मन्वानो मां किलोद्धर्तुमिच्छति ॥",
+          "meaning": {
+            "en": "\"Having so concluded, he, with his friends, army and followers, believes he has been cheated and wishes to uproot me.\""
+          }
         },
         {
           "n": 16,
-          "text": "किमत्र तथ्यं सुश्रोणि किं मिथ्या ब्रूहि शोभने ।\nश्रुत्वा त्वत्तः शुभे वाक्यं संविधास्याम्यहं तथा ॥"
+          "text": "किमत्र तथ्यं सुश्रोणि किं मिथ्या ब्रूहि शोभने ।\nश्रुत्वा त्वत्तः शुभे वाक्यं संविधास्याम्यहं तथा ॥",
+          "meaning": {
+            "en": "\"What is true here, fair lady, and what is false? Tell me, lovely one. Having heard the truth from you, I will act accordingly.\""
+          }
         },
         {
           "n": 17,
-          "text": "अहं हि संशयं प्राप्तो बाला चेयं शिखण्डिनी ।\nत्वं च राज्ञि महत्कृच्छ्रं संप्राप्ता वरवर्णिनि ॥"
+          "text": "अहं हि संशयं प्राप्तो बाला चेयं शिखण्डिनी ।\nत्वं च राज्ञि महत्कृच्छ्रं संप्राप्ता वरवर्णिनि ॥",
+          "meaning": {
+            "en": "\"For I am in doubt: this Shikhandini is a young girl, and you too, queen, have fallen into great trouble, fair one.\""
+          }
         },
         {
           "n": 18,
-          "text": "सा त्वं सर्वविमोक्षाय तत्त्वमाख्याहि पृच्छतः ।\nतथा विदध्यां सुश्रोणि कृत्यस्यास्य शुचिस्मिते ।\nशिखण्डिनि च मा भैस्त्वं विधास्ये तत्र तत्त्वतः ॥"
+          "text": "सा त्वं सर्वविमोक्षाय तत्त्वमाख्याहि पृच्छतः ।\nतथा विदध्यां सुश्रोणि कृत्यस्यास्य शुचिस्मिते ।\nशिखण्डिनि च मा भैस्त्वं विधास्ये तत्र तत्त्वतः ॥",
+          "meaning": {
+            "en": "\"So for deliverance from it all, tell me the truth when I ask. Then, fair-hipped, bright-smiling queen, I will act in this matter; and do not fear for Shikhandini, I will act properly there.\""
+          }
         },
         {
           "n": 19,
-          "text": "क्रिययाहं वरारोहे वञ्चितः पुत्रधर्मतः ।\nमया दाशार्णको राजा वञ्चितश्च महीपतिः ।\nतदाचक्ष्व महाभागे विधास्ये तत्र यद्धितम् ॥"
+          "text": "क्रिययाहं वरारोहे वञ्चितः पुत्रधर्मतः ।\nमया दाशार्णको राजा वञ्चितश्च महीपतिः ।\nतदाचक्ष्व महाभागे विधास्ये तत्र यद्धितम् ॥",
+          "meaning": {
+            "en": "\"By a trick, lovely one, I deceived the king of the Dasharnas, treating her as a son; tell me, fortunate one, and I will do what is best.\""
+          }
         },
         {
           "n": 20,
-          "text": "जानतापि नरेन्द्रेण ख्यापनार्थं परस्य वै ।\nप्रकाशं चोदिता देवी प्रत्युवाच महीपतिम् ॥"
+          "text": "जानतापि नरेन्द्रेण ख्यापनार्थं परस्य वै ।\nप्रकाशं चोदिता देवी प्रत्युवाच महीपतिम् ॥",
+          "meaning": {
+            "en": "Although the king knew it, so that it might be declared to another, he urged the queen openly, and she answered the king."
+          }
         }
       ]
     }

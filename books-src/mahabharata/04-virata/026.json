@@ -22,47 +22,80 @@
       "titleEn": "Gograhana Parva (The cattle raid)",
       "verses": [
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 1,
-          "text": "अथाब्रवीन्महावीर्यो द्रोणस्तत्त्वार्थदर्शिवान् ।\nन तादृशा विनश्यन्ति नापि यान्ति पराभवम् ॥"
+          "text": "अथाब्रवीन्महावीर्यो द्रोणस्तत्त्वार्थदर्शिवान् ।\nन तादृशा विनश्यन्ति नापि यान्ति पराभवम् ॥",
+          "meaning": {
+            "en": "Then mighty Drona, who sees the truth of things, said: \"Such men do not perish, nor do they suffer defeat.\""
+          }
         },
         {
           "n": 2,
-          "text": "शूराश्च कृतविद्याश्च बुद्धिमन्तो जितेन्द्रियाः ।\nधर्मज्ञाश्च कृतज्ञाश्च धर्मराजमनुव्रताः ॥"
+          "text": "शूराश्च कृतविद्याश्च बुद्धिमन्तो जितेन्द्रियाः ।\nधर्मज्ञाश्च कृतज्ञाश्च धर्मराजमनुव्रताः ॥",
+          "meaning": {
+            "en": "\"They are brave, learned, intelligent, masters of their senses, knowers of dharma and grateful, all devoted to the king of dharma.\""
+          }
         },
         {
           "n": 3,
-          "text": "नीतिधर्मार्थतत्त्वज्ञं पितृवच्च समाहितम् ।\nधर्मे स्थितं सत्यधृतिं ज्येष्ठं ज्येष्ठापचायिनम् ॥"
+          "text": "नीतिधर्मार्थतत्त्वज्ञं पितृवच्च समाहितम् ।\nधर्मे स्थितं सत्यधृतिं ज्येष्ठं ज्येष्ठापचायिनम् ॥",
+          "meaning": {
+            "en": "\"Yudhishthira, who knows policy, dharma and wealth, is steady like a father, firm in dharma, truthful and resolute, the eldest, who honors his elders.\""
+          }
         },
         {
           "n": 4,
-          "text": "अनुव्रता महात्मानं भ्रातरं भ्रातरो नृप ।\nअजातशत्रुं ह्रीमन्तं तं च भ्रातॄननुव्रतम् ॥"
+          "text": "अनुव्रता महात्मानं भ्रातरं भ्रातरो नृप ।\nअजातशत्रुं ह्रीमन्तं तं च भ्रातॄननुव्रतम् ॥",
+          "meaning": {
+            "en": "\"His brothers, king, are devoted to their great-souled brother, to Ajatashatru the modest, and he is devoted to his brothers.\""
+          }
         },
         {
           "n": 5,
-          "text": "तेषां तथा विधेयानां निभृतानां महात्मनाम् ।\nकिमर्थं नीतिमान्पार्थः श्रेयो नैषां करिष्यति ॥"
+          "text": "तेषां तथा विधेयानां निभृतानां महात्मनाम् ।\nकिमर्थं नीतिमान्पार्थः श्रेयो नैषां करिष्यति ॥",
+          "meaning": {
+            "en": "\"Why would the wise Partha not bring good to such obedient, disciplined and noble brothers?\""
+          }
         },
         {
           "n": 6,
-          "text": "तस्माद्यत्नात्प्रतीक्षन्ते कालस्योदयमागतम् ।\nन हि ते नाशमृच्छेयुरिति पश्याम्यहं धिया ॥"
+          "text": "तस्माद्यत्नात्प्रतीक्षन्ते कालस्योदयमागतम् ।\nन हि ते नाशमृच्छेयुरिति पश्याम्यहं धिया ॥",
+          "meaning": {
+            "en": "\"Therefore they are carefully waiting for the right time to arrive; I see by my understanding that they will not come to ruin.\""
+          }
         },
         {
           "n": 7,
-          "text": "सांप्रतं चैव यत्कार्यं तच्च क्षिप्रमकालिकम् ।\nक्रियतां साधु संचिन्त्य वासश्चैषां प्रचिन्त्यताम् ॥"
+          "text": "सांप्रतं चैव यत्कार्यं तच्च क्षिप्रमकालिकम् ।\nक्रियतां साधु संचिन्त्य वासश्चैषां प्रचिन्त्यताम् ॥",
+          "meaning": {
+            "en": "\"And what must be done now, do it quickly, before the time: think it over well and think about where they may be living.\""
+          }
         },
         {
           "n": 8,
-          "text": "यथावत्पाण्डुपुत्राणां सर्वार्थेषु धृतात्मनाम् ।\nदुर्ज्ञेयाः खलु शूरास्ते अपापास्तपसा वृताः ॥"
+          "text": "यथावत्पाण्डुपुत्राणां सर्वार्थेषु धृतात्मनाम् ।\nदुर्ज्ञेयाः खलु शूरास्ते अपापास्तपसा वृताः ॥",
+          "meaning": {
+            "en": "\"The Pandavas are firm in every matter; those brave, sinless men, wrapped in austerity, are indeed hard to find out.\""
+          }
         },
         {
           "n": 9,
-          "text": "शुद्धात्मा गुणवान्पार्थः सत्यवान्नीतिमाञ्शुचिः ।\nतेजोराशिरसंख्येयो गृह्णीयादपि चक्षुषी ॥"
+          "text": "शुद्धात्मा गुणवान्पार्थः सत्यवान्नीतिमाञ्शुचिः ।\nतेजोराशिरसंख्येयो गृह्णीयादपि चक्षुषी ॥",
+          "meaning": {
+            "en": "\"Partha is pure-souled, virtuous, truthful, wise in policy and clean, a mass of radiance, beyond reckoning; he could even take away the eyes of those who look.\""
+          }
         },
         {
           "n": 10,
-          "text": "विज्ञाय क्रियतां तस्माद्भूयश्च मृगयामहे ।\nब्राह्मणैश्चारकैः सिद्धैर्ये चान्ये तद्विदो जनाः ॥"
+          "text": "विज्ञाय क्रियतां तस्माद्भूयश्च मृगयामहे ।\nब्राह्मणैश्चारकैः सिद्धैर्ये चान्ये तद्विदो जनाः ॥",
+          "meaning": {
+            "en": "\"So decide after learning more; let us search again, with brahmins, spies, perfected ascetics and others who know such things.\""
+          }
         }
       ]
     }

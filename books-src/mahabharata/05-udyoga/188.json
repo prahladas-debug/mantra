@@ -22,79 +22,136 @@
       "titleEn": "Ambopakhyana Parva (The story of Amba)",
       "verses": [
         {
-          "text": "भीष्म उवाच"
+          "text": "भीष्म उवाच",
+          "meaning": {
+            "en": "Bhishma said:"
+          }
         },
         {
           "n": 1,
-          "text": "ततस्ते तापसाः सर्वे तपसे धृतनिश्चयाम् ।\nदृष्ट्वा न्यवर्तयंस्तात किं कार्यमिति चाब्रुवन् ॥"
+          "text": "ततस्ते तापसाः सर्वे तपसे धृतनिश्चयाम् ।\nदृष्ट्वा न्यवर्तयंस्तात किं कार्यमिति चाब्रुवन् ॥",
+          "meaning": {
+            "en": "Then all the ascetics, seeing her firmly set on austerity, tried to turn her back, my dear, and asked what they could do for her."
+          }
         },
         {
           "n": 2,
-          "text": "तानुवाच ततः कन्या तपोवृद्धानृषींस्तदा ।\nनिराकृतास्मि भीष्मेण भ्रंशिता पतिधर्मतः ॥"
+          "text": "तानुवाच ततः कन्या तपोवृद्धानृषींस्तदा ।\nनिराकृतास्मि भीष्मेण भ्रंशिता पतिधर्मतः ॥",
+          "meaning": {
+            "en": "The maiden then said to those sages, grown great in austerity: \"I have been spurned by Bhishma and cast out from the duty of a wife to a husband.\""
+          }
         },
         {
           "n": 3,
-          "text": "वधार्थं तस्य दीक्षा मे न लोकार्थं तपोधनाः ।\nनिहत्य भीष्मं गच्छेयं शान्तिमित्येव निश्चयः ॥"
+          "text": "वधार्थं तस्य दीक्षा मे न लोकार्थं तपोधनाः ।\nनिहत्य भीष्मं गच्छेयं शान्तिमित्येव निश्चयः ॥",
+          "meaning": {
+            "en": "\"My vow is for killing him, not for gaining any world, O ascetics. My resolve is to go to peace only after I have killed Bhishma.\""
+          }
         },
         {
           "n": 4,
-          "text": "यत्कृते दुःखवसतिमिमां प्राप्तास्मि शाश्वतीम् ।\nपतिलोकाद्विहीना च नैव स्त्री न पुमानिह ॥"
+          "text": "यत्कृते दुःखवसतिमिमां प्राप्तास्मि शाश्वतीम् ।\nपतिलोकाद्विहीना च नैव स्त्री न पुमानिह ॥",
+          "meaning": {
+            "en": "\"Because of him I have fallen into this lasting life of misery, cut off from a husband's world, neither woman nor man here.\""
+          }
         },
         {
           "n": 5,
-          "text": "नाहत्वा युधि गाङ्गेयं निवर्तेयं तपोधनाः ।\nएष मे हृदि संकल्पो यदर्थमिदमुद्यतम् ॥"
+          "text": "नाहत्वा युधि गाङ्गेयं निवर्तेयं तपोधनाः ।\nएष मे हृदि संकल्पो यदर्थमिदमुद्यतम् ॥",
+          "meaning": {
+            "en": "\"I will not turn back, ascetics, without killing the son of Ganga in battle. This is the resolve in my heart for which I have taken this up.\""
+          }
         },
         {
           "n": 6,
-          "text": "स्त्रीभावे परिनिर्विण्णा पुंस्त्वार्थे कृतनिश्चया ।\nभीष्मे प्रतिचिकीर्षामि नास्मि वार्येति वै पुनः ॥"
+          "text": "स्त्रीभावे परिनिर्विण्णा पुंस्त्वार्थे कृतनिश्चया ।\nभीष्मे प्रतिचिकीर्षामि नास्मि वार्येति वै पुनः ॥",
+          "meaning": {
+            "en": "\"Weary of being a woman and set on becoming a man, I mean to take vengeance on Bhishma. Do not hold me back again.\""
+          }
         },
         {
           "n": 7,
-          "text": "तां देवो दर्शयामास शूलपाणिरुमापतिः ।\nमध्ये तेषां महर्षीणां स्वेन रूपेण भामिनीम् ॥"
+          "text": "तां देवो दर्शयामास शूलपाणिरुमापतिः ।\nमध्ये तेषां महर्षीणां स्वेन रूपेण भामिनीम् ॥",
+          "meaning": {
+            "en": "Then the god Shiva, bearer of the trident and husband of Uma, showed himself in his own form to the lady among those great sages."
+          }
         },
         {
           "n": 8,
-          "text": "छन्द्यमाना वरेणाथ सा वव्रे मत्पराजयम् ।\nवधिष्यसीति तां देवः प्रत्युवाच मनस्विनीम् ॥"
+          "text": "छन्द्यमाना वरेणाथ सा वव्रे मत्पराजयम् ।\nवधिष्यसीति तां देवः प्रत्युवाच मनस्विनीम् ॥",
+          "meaning": {
+            "en": "Offered a boon, she chose my defeat, and the god answered that spirited woman: \"You will kill him.\""
+          }
         },
         {
           "n": 9,
-          "text": "ततः सा पुनरेवाथ कन्या रुद्रमुवाच ह ।\nउपपद्येत्कथं देव स्त्रियो मम जयो युधि ।\nस्त्रीभावेन च मे गाढं मनः शान्तमुमापते ॥"
+          "text": "ततः सा पुनरेवाथ कन्या रुद्रमुवाच ह ।\nउपपद्येत्कथं देव स्त्रियो मम जयो युधि ।\nस्त्रीभावेन च मे गाढं मनः शान्तमुमापते ॥",
+          "meaning": {
+            "en": "Then the maiden again said to Rudra: \"How, O god, can a woman win in battle? And my mind, O husband of Uma, is deeply sunk in my womanhood.\""
+          }
         },
         {
           "n": 10,
-          "text": "प्रतिश्रुतश्च भूतेश त्वया भीष्मपराजयः ।\nयथा स सत्यो भवति तथा कुरु वृषध्वज ।\nयथा हन्यां समागम्य भीष्मं शांतनवं युधि ॥"
+          "text": "प्रतिश्रुतश्च भूतेश त्वया भीष्मपराजयः ।\nयथा स सत्यो भवति तथा कुरु वृषध्वज ।\nयथा हन्यां समागम्य भीष्मं शांतनवं युधि ॥",
+          "meaning": {
+            "en": "\"You have promised, lord of beings, that Bhishma will be defeated. Make that come true, O bearer of the bull banner, so that I may meet and kill Bhishma, son of Shantanu, in battle.\""
+          }
         },
         {
           "n": 11,
-          "text": "तामुवाच महादेवः कन्यां किल वृषध्वजः ।\nन मे वागनृतं भद्रे प्राह सत्यं भविष्यति ॥"
+          "text": "तामुवाच महादेवः कन्यां किल वृषध्वजः ।\nन मे वागनृतं भद्रे प्राह सत्यं भविष्यति ॥",
+          "meaning": {
+            "en": "Then Mahadeva, the bull-bannered god, said to the maiden: \"My word is never false, good lady; what I have said will come true.\""
+          }
         },
         {
           "n": 12,
-          "text": "वधिष्यसि रणे भीष्मं पुरुषत्वं च लप्स्यसे ।\nस्मरिष्यसि च तत्सर्वं देहमन्यं गता सती ॥"
+          "text": "वधिष्यसि रणे भीष्मं पुरुषत्वं च लप्स्यसे ।\nस्मरिष्यसि च तत्सर्वं देहमन्यं गता सती ॥",
+          "meaning": {
+            "en": "\"You will kill Bhishma in battle and you will gain manhood. Having gone into another body, you will remember all this.\""
+          }
         },
         {
           "n": 13,
-          "text": "द्रुपदस्य कुले जाता भविष्यसि महारथः ।\nशीघ्रास्त्रश्चित्रयोधी च भविष्यसि सुसंमतः ॥"
+          "text": "द्रुपदस्य कुले जाता भविष्यसि महारथः ।\nशीघ्रास्त्रश्चित्रयोधी च भविष्यसि सुसंमतः ॥",
+          "meaning": {
+            "en": "\"You will be born in Drupada's family and become a great chariot-warrior, quick with weapons, a skilled and esteemed fighter in varied ways.\""
+          }
         },
         {
           "n": 14,
-          "text": "यथोक्तमेव कल्याणि सर्वमेतद्भविष्यति ।\nभविष्यसि पुमान्पश्चात्कस्माच्चित्कालपर्ययात् ॥"
+          "text": "यथोक्तमेव कल्याणि सर्वमेतद्भविष्यति ।\nभविष्यसि पुमान्पश्चात्कस्माच्चित्कालपर्ययात् ॥",
+          "meaning": {
+            "en": "\"All this will happen as I have said, lovely one. After some turn of time, you will become a man.\""
+          }
         },
         {
           "n": 15,
-          "text": "एवमुक्त्वा महातेजाः कपर्दी वृषभध्वजः ।\nपश्यतामेव विप्राणां तत्रैवान्तरधीयत ॥"
+          "text": "एवमुक्त्वा महातेजाः कपर्दी वृषभध्वजः ।\nपश्यतामेव विप्राणां तत्रैवान्तरधीयत ॥",
+          "meaning": {
+            "en": "Having said this, the radiant, matted-haired god of the bull banner vanished right there before the eyes of the Brahmins."
+          }
         },
         {
           "n": 16,
-          "text": "ततः सा पश्यतां तेषां महर्षीणामनिन्दिता ।\nसमाहृत्य वनात्तस्मात्काष्ठानि वरवर्णिनी ॥"
+          "text": "ततः सा पश्यतां तेषां महर्षीणामनिन्दिता ।\nसमाहृत्य वनात्तस्मात्काष्ठानि वरवर्णिनी ॥",
+          "meaning": {
+            "en": "Then, as the sages watched, the blameless, fair maiden gathered wood from that forest."
+          }
         },
         {
           "n": 17,
-          "text": "चितां कृत्वा सुमहतीं प्रदाय च हुताशनम् ।\nप्रदीप्तेऽग्नौ महाराज रोषदीप्तेन चेतसा ॥"
+          "text": "चितां कृत्वा सुमहतीं प्रदाय च हुताशनम् ।\nप्रदीप्तेऽग्नौ महाराज रोषदीप्तेन चेतसा ॥",
+          "meaning": {
+            "en": "She made a very large pyre and lit the fire; and when the fire blazed, O great king, her mind ablaze with anger,"
+          }
         },
         {
           "n": 18,
-          "text": "उक्त्वा भीष्मवधायेति प्रविवेश हुताशनम् ।\nज्येष्ठा काशिसुता राजन्यमुनामभितो नदीम् ॥"
+          "text": "उक्त्वा भीष्मवधायेति प्रविवेश हुताशनम् ।\nज्येष्ठा काशिसुता राजन्यमुनामभितो नदीम् ॥",
+          "meaning": {
+            "en": "she said, \"This is for Bhishma's death,\" and entered the fire, that eldest daughter of the king of Kashi, beside the river Yamuna."
+          }
         }
       ]
     }

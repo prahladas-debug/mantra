@@ -22,83 +22,143 @@
       "titleEn": "Bhagavadyana Parva (Krishna's embassy)",
       "verses": [
         {
-          "text": "नारद उवाच"
+          "text": "नारद उवाच",
+          "meaning": {
+            "en": "Narada said:"
+          }
         },
         {
           "n": 1,
-          "text": "एवमुक्तस्तदा तेन विश्वामित्रेण धीमता ।\nनास्ते न शेते नाहारं कुरुते गालवस्तदा ॥"
+          "text": "एवमुक्तस्तदा तेन विश्वामित्रेण धीमता ।\nनास्ते न शेते नाहारं कुरुते गालवस्तदा ॥",
+          "meaning": {
+            "en": "Told this by the wise Vishvamitra, Galava neither sat nor slept nor took any food."
+          }
         },
         {
           "n": 2,
-          "text": "त्वगस्थिभूतो हरिणश्चिन्ताशोकपरायणः ।\nशोचमानोऽतिमात्रं स दह्यमानश्च मन्युना ॥"
+          "text": "त्वगस्थिभूतो हरिणश्चिन्ताशोकपरायणः ।\nशोचमानोऽतिमात्रं स दह्यमानश्च मन्युना ॥",
+          "meaning": {
+            "en": "Reduced to skin and bones, pale, given over to worry and grief, he lamented bitterly and burned with distress."
+          }
         },
         {
           "n": 3,
-          "text": "कुतः पुष्टानि मित्राणि कुतोऽर्थाः संचयः कुतः ।\nहयानां चन्द्रशुभ्राणां शतान्यष्टौ कुतो मम ॥"
+          "text": "कुतः पुष्टानि मित्राणि कुतोऽर्थाः संचयः कुतः ।\nहयानां चन्द्रशुभ्राणां शतान्यष्टौ कुतो मम ॥",
+          "meaning": {
+            "en": "'Where will I find well-nourished friends, where wealth, where savings? Where will I get eight hundred horses white as the moon?"
+          }
         },
         {
           "n": 4,
-          "text": "कुतो मे भोजनश्रद्धा सुखश्रद्धा कुतश्च मे ।\nश्रद्धा मे जीवितस्यापि छिन्ना किं जीवितेन मे ॥"
+          "text": "कुतो मे भोजनश्रद्धा सुखश्रद्धा कुतश्च मे ।\nश्रद्धा मे जीवितस्यापि छिन्ना किं जीवितेन मे ॥",
+          "meaning": {
+            "en": "Where is my appetite for food, where my hope of happiness? Even my hope of living is cut off. What use is life to me?"
+          }
         },
         {
           "n": 5,
-          "text": "अहं पारं समुद्रस्य पृथिव्या वा परं परात् ।\nगत्वात्मानं विमुञ्चामि किं फलं जीवितेन मे ॥"
+          "text": "अहं पारं समुद्रस्य पृथिव्या वा परं परात् ।\nगत्वात्मानं विमुञ्चामि किं फलं जीवितेन मे ॥",
+          "meaning": {
+            "en": "I shall go beyond the ocean, or to the far side of the earth, and abandon myself. What is the point of my living?"
+          }
         },
         {
           "n": 6,
-          "text": "अधनस्याकृतार्थस्य त्यक्तस्य विविधैः फलैः ।\nऋणं धारयमाणस्य कुतः सुखमनीहया ॥"
+          "text": "अधनस्याकृतार्थस्य त्यक्तस्य विविधैः फलैः ।\nऋणं धारयमाणस्य कुतः सुखमनीहया ॥",
+          "meaning": {
+            "en": "For one without wealth, without his purpose fulfilled, deprived of various rewards and carrying a debt, where can there be happiness without effort?"
+          }
         },
         {
           "n": 7,
-          "text": "सुहृदां हि धनं भुक्त्वा कृत्वा प्रणयमीप्सितम् ।\nप्रतिकर्तुमशक्तस्य जीवितान्मरणं वरम् ॥"
+          "text": "सुहृदां हि धनं भुक्त्वा कृत्वा प्रणयमीप्सितम् ।\nप्रतिकर्तुमशक्तस्य जीवितान्मरणं वरम् ॥",
+          "meaning": {
+            "en": "One who has taken his friends' wealth and enjoyed their kind favors but cannot repay them is better dead than alive."
+          }
         },
         {
           "n": 8,
-          "text": "प्रतिश्रुत्य करिष्येति कर्तव्यं तदकुर्वतः ।\nमिथ्यावचनदग्धस्य इष्टापूर्तं प्रणश्यति ॥"
+          "text": "प्रतिश्रुत्य करिष्येति कर्तव्यं तदकुर्वतः ।\nमिथ्यावचनदग्धस्य इष्टापूर्तं प्रणश्यति ॥",
+          "meaning": {
+            "en": "One who promises, 'I shall do it,' and does not do what he must, burnt by false speech, loses the merit of his sacrifices and good works."
+          }
         },
         {
           "n": 9,
-          "text": "न रूपमनृतस्यास्ति नानृतस्यास्ति संततिः ।\nनानृतस्याधिपत्यं च कुत एव गतिः शुभा ॥"
+          "text": "न रूपमनृतस्यास्ति नानृतस्यास्ति संततिः ।\nनानृतस्याधिपत्यं च कुत एव गतिः शुभा ॥",
+          "meaning": {
+            "en": "A lie has no beauty, no posterity and no lordship; how then can it have a good destination?"
+          }
         },
         {
           "n": 10,
-          "text": "कुतः कृतघ्नस्य यशः कुतः स्थानं कुतः सुखम् ।\nअश्रद्धेयः कृतघ्नो हि कृतघ्ने नास्ति निष्कृतिः ॥"
+          "text": "कुतः कृतघ्नस्य यशः कुतः स्थानं कुतः सुखम् ।\nअश्रद्धेयः कृतघ्नो हि कृतघ्ने नास्ति निष्कृतिः ॥",
+          "meaning": {
+            "en": "Where is fame for the ungrateful, where position, where happiness? The ungrateful cannot be trusted, and for the ungrateful there is no atonement."
+          }
         },
         {
           "n": 11,
-          "text": "न जीवत्यधनः पापः कुतः पापस्य तन्त्रणम् ।\nपापो ध्रुवमवाप्नोति विनाशं नाशयन्कृतम् ॥"
+          "text": "न जीवत्यधनः पापः कुतः पापस्य तन्त्रणम् ।\nपापो ध्रुवमवाप्नोति विनाशं नाशयन्कृतम् ॥",
+          "meaning": {
+            "en": "A sinner without wealth cannot live, so where is protection for a sinner? A sinner who ruins what was done for him surely meets destruction."
+          }
         },
         {
           "n": 12,
-          "text": "सोऽहं पापः कृतघ्नश्च कृपणश्चानृतोऽपि च ।\nगुरोर्यः कृतकार्यः संस्तत्करोमि न भाषितम् ।\nसोऽहं प्राणान्विमोक्ष्यामि कृत्वा यत्नमनुत्तमम् ॥"
+          "text": "सोऽहं पापः कृतघ्नश्च कृपणश्चानृतोऽपि च ।\nगुरोर्यः कृतकार्यः संस्तत्करोमि न भाषितम् ।\nसोऽहं प्राणान्विमोक्ष्यामि कृत्वा यत्नमनुत्तमम् ॥",
+          "meaning": {
+            "en": "I am that sinner, ungrateful, wretched and false, I who, having had my work done by my teacher, do not do what he has said. So I shall give up my life, after making one last supreme effort."
+          }
         },
         {
           "n": 13,
-          "text": "अर्थना न मया काचित्कृतपूर्वा दिवौकसाम् ।\nमानयन्ति च मां सर्वे त्रिदशा यज्ञसंस्तरे ॥"
+          "text": "अर्थना न मया काचित्कृतपूर्वा दिवौकसाम् ।\nमानयन्ति च मां सर्वे त्रिदशा यज्ञसंस्तरे ॥",
+          "meaning": {
+            "en": "I have never before made a request of the dwellers of heaven, and all the gods honor me at the spread of the sacrifice."
+          }
         },
         {
           "n": 14,
-          "text": "अहं तु विबुधश्रेष्ठं देवं त्रिभुवनेश्वरम् ।\nविष्णुं गच्छाम्यहं कृष्णं गतिं गतिमतां वरम् ॥"
+          "text": "अहं तु विबुधश्रेष्ठं देवं त्रिभुवनेश्वरम् ।\nविष्णुं गच्छाम्यहं कृष्णं गतिं गतिमतां वरम् ॥",
+          "meaning": {
+            "en": "Now I shall go to the god Vishnu, best of the wise, Krishna, lord of the three worlds, goal of those who seek a goal."
+          }
         },
         {
           "n": 15,
-          "text": "भोगा यस्मात्प्रतिष्ठन्ते व्याप्य सर्वान्सुरासुरान् ।\nप्रयतो द्रष्टुमिच्छामि महायोगिनमव्ययम् ॥"
+          "text": "भोगा यस्मात्प्रतिष्ठन्ते व्याप्य सर्वान्सुरासुरान् ।\nप्रयतो द्रष्टुमिच्छामि महायोगिनमव्ययम् ॥",
+          "meaning": {
+            "en": "From him all enjoyments are established, pervading all gods and Asuras. Purified, I wish to see that great yogi, the imperishable.'"
+          }
         },
         {
           "n": 16,
-          "text": "एवमुक्ते सखा तस्य गरुडो विनतात्मजः ।\nदर्शयामास तं प्राह संहृष्टः प्रियकाम्यया ॥"
+          "text": "एवमुक्ते सखा तस्य गरुडो विनतात्मजः ।\nदर्शयामास तं प्राह संहृष्टः प्रियकाम्यया ॥",
+          "meaning": {
+            "en": "When he had spoken so, his friend Garuda, son of Vinata, appeared to him and spoke, delighted, wishing to please him."
+          }
         },
         {
           "n": 17,
-          "text": "सुहृद्भवान्मम मतः सुहृदां च मतः सुहृत् ।\nईप्सितेनाभिलाषेण योक्तव्यो विभवे सति ॥"
+          "text": "सुहृद्भवान्मम मतः सुहृदां च मतः सुहृत् ।\nईप्सितेनाभिलाषेण योक्तव्यो विभवे सति ॥",
+          "meaning": {
+            "en": "'You are my friend, and a friend of friends, and a friend should be helped to his desire when one has the means."
+          }
         },
         {
           "n": 18,
-          "text": "विभवश्चास्ति मे विप्र वासवावरजो द्विज ।\nपूर्वमुक्तस्त्वदर्थं च कृतः कामश्च तेन मे ॥"
+          "text": "विभवश्चास्ति मे विप्र वासवावरजो द्विज ।\nपूर्वमुक्तस्त्वदर्थं च कृतः कामश्च तेन मे ॥",
+          "meaning": {
+            "en": "I have the means, brahmin. Vishnu, Indra's younger brother, has promised me earlier on your behalf and has granted my wish."
+          }
         },
         {
           "n": 19,
-          "text": "स भवानेतु गच्छाव नयिष्ये त्वां यथासुखम् ।\nदेशं पारं पृथिव्या वा गच्छ गालव माचिरम् ॥"
+          "text": "स भवानेतु गच्छाव नयिष्ये त्वां यथासुखम् ।\nदेशं पारं पृथिव्या वा गच्छ गालव माचिरम् ॥",
+          "meaning": {
+            "en": "So come, let us go; I shall carry you comfortably. Go to the region at the far end of the earth, Galava, without delay.'"
+          }
         }
       ]
     }

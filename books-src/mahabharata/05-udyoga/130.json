@@ -22,141 +22,246 @@
       "titleEn": "Bhagavadyana Parva (Krishna's embassy)",
       "verses": [
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 1,
-          "text": "प्रविश्याथ गृहं तस्याश्चरणावभिवाद्य च ।\nआचख्यौ तत्समासेन यद्वृत्तं कुरुसंसदि ॥"
+          "text": "प्रविश्याथ गृहं तस्याश्चरणावभिवाद्य च ।\nआचख्यौ तत्समासेन यद्वृत्तं कुरुसंसदि ॥",
+          "meaning": {
+            "en": "Entering her house and bowing at her feet, Krishna told Kunti briefly what had happened in the Kuru assembly."
+          }
         },
         {
-          "text": "वासुदेव उवाच"
+          "text": "वासुदेव उवाच",
+          "meaning": {
+            "en": "Vasudeva said:"
+          }
         },
         {
           "n": 2,
-          "text": "उक्तं बहुविधं वाक्यं ग्रहणीयं सहेतुकम् ।\nऋषिभिश्च मया चैव न चासौ तद्गृहीतवान् ॥"
+          "text": "उक्तं बहुविधं वाक्यं ग्रहणीयं सहेतुकम् ।\nऋषिभिश्च मया चैव न चासौ तद्गृहीतवान् ॥",
+          "meaning": {
+            "en": "Many kinds of advice, worth accepting and backed by reasons, were given both by the sages and by me, but he did not accept any of it."
+          }
         },
         {
           "n": 3,
-          "text": "कालपक्वमिदं सर्वं दुर्योधनवशानुगम् ।\nआपृच्छे भवतीं शीघ्रं प्रयास्ये पाण्डवान्प्रति ॥"
+          "text": "कालपक्वमिदं सर्वं दुर्योधनवशानुगम् ।\nआपृच्छे भवतीं शीघ्रं प्रयास्ये पाण्डवान्प्रति ॥",
+          "meaning": {
+            "en": "All this has ripened with time, and they follow Duryodhana's lead. I take leave of you; I will go quickly to the Pandavas."
+          }
         },
         {
           "n": 4,
-          "text": "किं वाच्याः पाण्डवेयास्ते भवत्या वचनान्मया ।\nतद्ब्रूहि त्वं महाप्राज्ञे शुश्रूषे वचनं तव ॥"
+          "text": "किं वाच्याः पाण्डवेयास्ते भवत्या वचनान्मया ।\nतद्ब्रूहि त्वं महाप्राज्ञे शुश्रूषे वचनं तव ॥",
+          "meaning": {
+            "en": "What message shall I give the Pandavas from you? Tell me that, wise lady; I am listening for your word."
+          }
         },
         {
-          "text": "कुन्त्युवाच"
+          "text": "कुन्त्युवाच",
+          "meaning": {
+            "en": "Kunti said:"
+          }
         },
         {
           "n": 5,
-          "text": "ब्रूयाः केशव राजानं धर्मात्मानं युधिष्ठिरम् ।\nभूयांस्ते हीयते धर्मो मा पुत्रक वृथा कृथाः ॥"
+          "text": "ब्रूयाः केशव राजानं धर्मात्मानं युधिष्ठिरम् ।\nभूयांस्ते हीयते धर्मो मा पुत्रक वृथा कृथाः ॥",
+          "meaning": {
+            "en": "Keshava, tell the righteous king Yudhishthira: \"Your dharma is wasting away greatly; my son, do not make it vain."
+          }
         },
         {
           "n": 6,
-          "text": "श्रोत्रियस्येव ते राजन्मन्दकस्याविपश्चितः ।\nअनुवाकहता बुद्धिर्धर्ममेवैकमीक्षते ॥"
+          "text": "श्रोत्रियस्येव ते राजन्मन्दकस्याविपश्चितः ।\nअनुवाकहता बुद्धिर्धर्ममेवैकमीक्षते ॥",
+          "meaning": {
+            "en": "King, like a dull, unlearned scholar of the Veda, your mind is battered by recited texts and sees only one thing, dharma."
+          }
         },
         {
           "n": 7,
-          "text": "अङ्गावेक्षस्व धर्मं त्वं यथा सृष्टः स्वयंभुवा ।\nउरस्तः क्षत्रियः सृष्टो बाहुवीर्योपजीविता ।\nक्रूराय कर्मणे नित्यं प्रजानां परिपालने ॥"
+          "text": "अङ्गावेक्षस्व धर्मं त्वं यथा सृष्टः स्वयंभुवा ।\nउरस्तः क्षत्रियः सृष्टो बाहुवीर्योपजीविता ।\nक्रूराय कर्मणे नित्यं प्रजानां परिपालने ॥",
+          "meaning": {
+            "en": "Look at dharma as the self-born Brahma ordained it. The kshatriya was created from his chest, to live by the strength of his arms, to do harsh deeds and always to protect the people.\""
+          }
         },
         {
           "n": 8,
-          "text": "शृणु चात्रोपमामेकां या वृद्धेभ्यः श्रुता मया ।\nमुचुकुन्दस्य राजर्षेरददात्पृथिवीमिमाम् ।\nपुरा वैश्रवणः प्रीतो न चासौ तां गृहीतवान् ॥"
+          "text": "शृणु चात्रोपमामेकां या वृद्धेभ्यः श्रुता मया ।\nमुचुकुन्दस्य राजर्षेरददात्पृथिवीमिमाम् ।\nपुरा वैश्रवणः प्रीतो न चासौ तां गृहीतवान् ॥",
+          "meaning": {
+            "en": "Hear also one example I heard from the elders. Long ago Vaishravana, pleased, offered this earth to the royal sage Muchukunda, but he would not take it."
+          }
         },
         {
           "n": 9,
-          "text": "बाहुवीर्यार्जितं राज्यमश्नीयामिति कामये ।\nततो वैश्रवणः प्रीतो विस्मितः समपद्यत ॥"
+          "text": "बाहुवीर्यार्जितं राज्यमश्नीयामिति कामये ।\nततो वैश्रवणः प्रीतो विस्मितः समपद्यत ॥",
+          "meaning": {
+            "en": "He said: \"I wish to enjoy a kingdom won by the strength of my own arm.\" Then Vaishravana was pleased and amazed."
+          }
         },
         {
           "n": 10,
-          "text": "मुचुकुन्दस्ततो राजा सोऽन्वशासद्वसुंधराम् ।\nबाहुवीर्यार्जितां सम्यक्क्षत्रधर्ममनुव्रतः ॥"
+          "text": "मुचुकुन्दस्ततो राजा सोऽन्वशासद्वसुंधराम् ।\nबाहुवीर्यार्जितां सम्यक्क्षत्रधर्ममनुव्रतः ॥",
+          "meaning": {
+            "en": "So King Muchukunda ruled the earth, won by his arm's strength, faithful to the duty of a kshatriya."
+          }
         },
         {
           "n": 11,
-          "text": "यं हि धर्मं चरन्तीह प्रजा राज्ञा सुरक्षिताः ।\nचतुर्थं तस्य धर्मस्य राजा भारत विन्दति ॥"
+          "text": "यं हि धर्मं चरन्तीह प्रजा राज्ञा सुरक्षिताः ।\nचतुर्थं तस्य धर्मस्य राजा भारत विन्दति ॥",
+          "meaning": {
+            "en": "Whatever dharma the people practice under a well-protected king, the king, Bharata, receives a fourth share of it."
+          }
         },
         {
           "n": 12,
-          "text": "राजा चरति चेद्धर्मं देवत्वायैव कल्पते ।\nस चेदधर्मं चरति नरकायैव गच्छति ॥"
+          "text": "राजा चरति चेद्धर्मं देवत्वायैव कल्पते ।\nस चेदधर्मं चरति नरकायैव गच्छति ॥",
+          "meaning": {
+            "en": "If a king practices dharma, he is fit for godhood; if he practices adharma, he goes to hell."
+          }
         },
         {
           "n": 13,
-          "text": "दण्डनीतिः स्वधर्मेण चातुर्वर्ण्यं नियच्छति ।\nप्रयुक्ता स्वामिना सम्यगधर्मेभ्यश्च यच्छति ॥"
+          "text": "दण्डनीतिः स्वधर्मेण चातुर्वर्ण्यं नियच्छति ।\nप्रयुक्ता स्वामिना सम्यगधर्मेभ्यश्च यच्छति ॥",
+          "meaning": {
+            "en": "Rightly used by its ruler, the science of punishment keeps the four classes to their own duties and restrains them from wrongs."
+          }
         },
         {
           "n": 14,
-          "text": "दण्डनीत्यां यदा राजा सम्यक्कार्त्स्न्येन वर्तते ।\nतदा कृतयुगं नाम कालः श्रेष्ठः प्रवर्तते ॥"
+          "text": "दण्डनीत्यां यदा राजा सम्यक्कार्त्स्न्येन वर्तते ।\nतदा कृतयुगं नाम कालः श्रेष्ठः प्रवर्तते ॥",
+          "meaning": {
+            "en": "When a king follows the science of punishment fully and rightly, then the best age, called Krita, begins."
+          }
         },
         {
           "n": 15,
-          "text": "कालो वा कारणं राज्ञो राजा वा कालकारणम् ।\nइति ते संशयो मा भूद्राजा कालस्य कारणम् ॥"
+          "text": "कालो वा कारणं राज्ञो राजा वा कालकारणम् ।\nइति ते संशयो मा भूद्राजा कालस्य कारणम् ॥",
+          "meaning": {
+            "en": "Is time the cause of the king, or the king the cause of the time? Let there be no doubt for you: the king is the cause of the time."
+          }
         },
         {
           "n": 16,
-          "text": "राजा कृतयुगस्रष्टा त्रेताया द्वापरस्य च ।\nयुगस्य च चतुर्थस्य राजा भवति कारणम् ॥"
+          "text": "राजा कृतयुगस्रष्टा त्रेताया द्वापरस्य च ।\nयुगस्य च चतुर्थस्य राजा भवति कारणम् ॥",
+          "meaning": {
+            "en": "The king creates the Krita age, the Treta and the Dvapara, and he is the cause of the fourth age too."
+          }
         },
         {
           "n": 17,
-          "text": "कृतस्य कारणाद्राजा स्वर्गमत्यन्तमश्नुते ।\nत्रेतायाः कारणाद्राजा स्वर्गं नात्यन्तमश्नुते ।\nप्रवर्तनाद्द्वापरस्य यथाभागमुपाश्नुते ॥"
+          "text": "कृतस्य कारणाद्राजा स्वर्गमत्यन्तमश्नुते ।\nत्रेतायाः कारणाद्राजा स्वर्गं नात्यन्तमश्नुते ।\nप्रवर्तनाद्द्वापरस्य यथाभागमुपाश्नुते ॥",
+          "meaning": {
+            "en": "Because of the Krita age, the king reaches heaven without limit; because of the Treta, he reaches heaven but not without limit; by bringing in the Dvapara, he gets only a share."
+          }
         },
         {
           "n": 18,
-          "text": "ततो वसति दुष्कर्मा नरके शाश्वतीः समाः ।\nराजदोषेण हि जगत्स्पृश्यते जगतः स च ॥"
+          "text": "ततो वसति दुष्कर्मा नरके शाश्वतीः समाः ।\nराजदोषेण हि जगत्स्पृश्यते जगतः स च ॥",
+          "meaning": {
+            "en": "Then, because of the age that his own wickedness brings, he lives in hell for endless years, for the world is touched by the king's fault, and he by the world's."
+          }
         },
         {
           "n": 19,
-          "text": "राजधर्मानवेक्षस्व पितृपैतामहोचितान् ।\nनैतद्राजर्षिवृत्तं हि यत्र त्वं स्थातुमिच्छसि ॥"
+          "text": "राजधर्मानवेक्षस्व पितृपैतामहोचितान् ।\nनैतद्राजर्षिवृत्तं हि यत्र त्वं स्थातुमिच्छसि ॥",
+          "meaning": {
+            "en": "Consider the duties of kings fit for your father and grandfather. What you want to stand on is not the way of the royal sages."
+          }
         },
         {
           "n": 20,
-          "text": "न हि वैक्लव्यसंसृष्ट आनृशंस्ये व्यवस्थितः ।\nप्रजापालनसंभूतं किंचित्प्राप फलं नृपः ॥"
+          "text": "न हि वैक्लव्यसंसृष्ट आनृशंस्ये व्यवस्थितः ।\nप्रजापालनसंभूतं किंचित्प्राप फलं नृपः ॥",
+          "meaning": {
+            "en": "A king who is mixed up with faintheartedness, however established in mercy, never gains any fruit that comes from protecting the people."
+          }
         },
         {
           "n": 21,
-          "text": "न ह्येतामाशिषं पाण्डुर्न चाहं न पितामहः ।\nप्रयुक्तवन्तः पूर्वं ते यया चरसि मेधया ॥"
+          "text": "न ह्येतामाशिषं पाण्डुर्न चाहं न पितामहः ।\nप्रयुक्तवन्तः पूर्वं ते यया चरसि मेधया ॥",
+          "meaning": {
+            "en": "Neither Pandu, nor I, nor your grandfather ever gave you this blessing, nor did earlier ones, that you now practice with such thinking."
+          }
         },
         {
           "n": 22,
-          "text": "यज्ञो दानं तपः शौर्यं प्रजासंतानमेव च ।\nमाहात्म्यं बलमोजश्च नित्यमाशंसितं मया ॥"
+          "text": "यज्ञो दानं तपः शौर्यं प्रजासंतानमेव च ।\nमाहात्म्यं बलमोजश्च नित्यमाशंसितं मया ॥",
+          "meaning": {
+            "en": "Sacrifice, giving, austerity, valor, offspring, greatness, strength and vigor: these I have always wished for you."
+          }
         },
         {
           "n": 23,
-          "text": "नित्यं स्वाहा स्वधा नित्यं ददुर्मानुषदेवताः ।\nदीर्घमायुर्धनं पुत्रान्सम्यगाराधिताः शुभाः ॥"
+          "text": "नित्यं स्वाहा स्वधा नित्यं ददुर्मानुषदेवताः ।\nदीर्घमायुर्धनं पुत्रान्सम्यगाराधिताः शुभाः ॥",
+          "meaning": {
+            "en": "Pious human gods, properly honored, always gave svaha and svadha and gave long life, wealth and sons."
+          }
         },
         {
           "n": 24,
-          "text": "पुत्रेष्वाशासते नित्यं पितरो दैवतानि च ।\nदानमध्ययनं यज्ञं प्रजानां परिपालनम् ॥"
+          "text": "पुत्रेष्वाशासते नित्यं पितरो दैवतानि च ।\nदानमध्ययनं यज्ञं प्रजानां परिपालनम् ॥",
+          "meaning": {
+            "en": "Ancestors and gods always hope that their sons will give, study, sacrifice and protect the people."
+          }
         },
         {
           "n": 25,
-          "text": "एतद्धर्ममधर्मं वा जन्मनैवाभ्यजायथाः ।\nते स्थ वैद्याः कुले जाता अवृत्त्या तात पीडिताः ॥"
+          "text": "एतद्धर्ममधर्मं वा जन्मनैवाभ्यजायथाः ।\nते स्थ वैद्याः कुले जाता अवृत्त्या तात पीडिताः ॥",
+          "meaning": {
+            "en": "Whether it is dharma or adharma, you were born to this by birth itself. You were born in a line of those who know, my child, and now are tormented by lack of livelihood."
+          }
         },
         {
           "n": 26,
-          "text": "यत्तु दानपतिं शूरं क्षुधिताः पृथिवीचराः ।\nप्राप्य तृप्ताः प्रतिष्ठन्ते धर्मः कोऽभ्यधिकस्ततः ॥"
+          "text": "यत्तु दानपतिं शूरं क्षुधिताः पृथिवीचराः ।\nप्राप्य तृप्ताः प्रतिष्ठन्ते धर्मः कोऽभ्यधिकस्ततः ॥",
+          "meaning": {
+            "en": "When hungry people on the earth find a generous and brave giver and go away satisfied, what dharma is greater than that?"
+          }
         },
         {
           "n": 27,
-          "text": "दानेनान्यं बलेनान्यं तथा सूनृतयापरम् ।\nसर्वतः प्रतिगृह्णीयाद्राज्यं प्राप्येह धार्मिकः ॥"
+          "text": "दानेनान्यं बलेनान्यं तथा सूनृतयापरम् ।\nसर्वतः प्रतिगृह्णीयाद्राज्यं प्राप्येह धार्मिकः ॥",
+          "meaning": {
+            "en": "A righteous man who has won a kingdom here may take from every quarter: one through gifts, another through force, another through kind words."
+          }
         },
         {
           "n": 28,
-          "text": "ब्राह्मणः प्रचरेद्भैक्षं क्षत्रियः परिपालयेत् ।\nवैश्यो धनार्जनं कुर्याच्छूद्रः परिचरेच्च तान् ॥"
+          "text": "ब्राह्मणः प्रचरेद्भैक्षं क्षत्रियः परिपालयेत् ।\nवैश्यो धनार्जनं कुर्याच्छूद्रः परिचरेच्च तान् ॥",
+          "meaning": {
+            "en": "A brahmin should go begging, a kshatriya should protect, a vaishya should earn wealth, and a shudra should serve them."
+          }
         },
         {
           "n": 29,
-          "text": "भैक्षं विप्रतिषिद्धं ते कृषिर्नैवोपपद्यते ।\nक्षत्रियोऽसि क्षतात्त्राता बाहुवीर्योपजीविता ॥"
+          "text": "भैक्षं विप्रतिषिद्धं ते कृषिर्नैवोपपद्यते ।\nक्षत्रियोऽसि क्षतात्त्राता बाहुवीर्योपजीविता ॥",
+          "meaning": {
+            "en": "Begging is forbidden to you, and farming does not suit you. You are a kshatriya, a protector from harm, living on the strength of your arms."
+          }
         },
         {
           "n": 30,
-          "text": "पित्र्यमंशं महाबाहो निमग्नं पुनरुद्धर ।\nसाम्ना दानेन भेदेन दण्डेनाथ नयेन च ॥"
+          "text": "पित्र्यमंशं महाबाहो निमग्नं पुनरुद्धर ।\nसाम्ना दानेन भेदेन दण्डेनाथ नयेन च ॥",
+          "meaning": {
+            "en": "Mighty-armed one, recover your ancestral share that has sunk, by conciliation, gifts, division, force, and policy."
+          }
         },
         {
           "n": 31,
-          "text": "इतो दुःखतरं किं नु यदहं हीनबान्धवा ।\nपरपिण्डमुदीक्षामि त्वां सूत्वामित्रनन्दन ॥"
+          "text": "इतो दुःखतरं किं नु यदहं हीनबान्धवा ।\nपरपिण्डमुदीक्षामि त्वां सूत्वामित्रनन्दन ॥",
+          "meaning": {
+            "en": "What is more painful than this, that I, without kin, look to another's morsel, though I bore you, delight of your friends?"
+          }
         },
         {
           "n": 32,
-          "text": "युध्यस्व राजधर्मेण मा निमज्जीः पितामहान् ।\nमा गमः क्षीणपुण्यस्त्वं सानुजः पापिकां गतिम् ॥"
+          "text": "युध्यस्व राजधर्मेण मा निमज्जीः पितामहान् ।\nमा गमः क्षीणपुण्यस्त्वं सानुजः पापिकां गतिम् ॥",
+          "meaning": {
+            "en": "Fight according to the duty of kings; do not drown your forefathers. Do not go with your brothers, your merit exhausted, to an evil end."
+          }
         }
       ]
     }

@@ -22,99 +22,171 @@
       "titleEn": "Sanjayayana Parva (Sanjaya's embassy)",
       "verses": [
         {
-          "text": "युधिष्ठिर उवाच"
+          "text": "युधिष्ठिर उवाच",
+          "meaning": {
+            "en": "Yudhishthira said:"
+          }
         },
         {
           "n": 1,
-          "text": "उत सन्तमसन्तं च बालं वृद्धं च संजय ।\nउताबलं बलीयांसं धाता प्रकुरुते वशे ॥"
+          "text": "उत सन्तमसन्तं च बालं वृद्धं च संजय ।\nउताबलं बलीयांसं धाता प्रकुरुते वशे ॥",
+          "meaning": {
+            "en": "Sanjaya, whether a man is good or bad, a child or old, weak or strong, the Creator brings him under his sway."
+          }
         },
         {
           "n": 2,
-          "text": "उत बालाय पाण्डित्यं पण्डितायोत बालताम् ।\nददाति सर्वमीशानः पुरस्ताच्छुक्रमुच्चरन् ॥"
+          "text": "उत बालाय पाण्डित्यं पण्डितायोत बालताम् ।\nददाति सर्वमीशानः पुरस्ताच्छुक्रमुच्चरन् ॥",
+          "meaning": {
+            "en": "He gives wisdom to a child and childishness to the wise; the Lord does all this, speaking forth the seed in the beginning."
+          }
         },
         {
           "n": 3,
-          "text": "अलं विज्ञापनाय स्यादाचक्षीथा यथातथम् ।\nअथो मन्त्रं मन्त्रयित्वा अन्योन्येनातिहृष्टवत् ॥"
+          "text": "अलं विज्ञापनाय स्यादाचक्षीथा यथातथम् ।\nअथो मन्त्रं मन्त्रयित्वा अन्योन्येनातिहृष्टवत् ॥",
+          "meaning": {
+            "en": "This is enough to be reported; tell it just as it is. And then, having taken counsel together as if greatly pleased, go on."
+          }
         },
         {
           "n": 4,
-          "text": "गावल्गणे कुरून्गत्वा धृतराष्ट्रं महाबलम् ।\nअभिवाद्योपसंगृह्य ततः पृच्छेरनामयम् ॥"
+          "text": "गावल्गणे कुरून्गत्वा धृतराष्ट्रं महाबलम् ।\nअभिवाद्योपसंगृह्य ततः पृच्छेरनामयम् ॥",
+          "meaning": {
+            "en": "Son of Gavalgana, go to the Kurus and to mighty Dhritarashtra; salute him, embrace his feet, and then ask after his health."
+          }
         },
         {
           "n": 5,
-          "text": "ब्रूयाश्चैनं त्वमासीनं कुरुभिः परिवारितम् ।\nतवैव राजन्वीर्येण सुखं जीवन्ति पाण्डवाः ॥"
+          "text": "ब्रूयाश्चैनं त्वमासीनं कुरुभिः परिवारितम् ।\nतवैव राजन्वीर्येण सुखं जीवन्ति पाण्डवाः ॥",
+          "meaning": {
+            "en": "Say to him as he sits surrounded by the Kurus: \"King, it is by your own strength that the Pandavas live happily."
+          }
         },
         {
           "n": 6,
-          "text": "तव प्रसादाद्बालास्ते प्राप्ता राज्यमरिंदम ।\nराज्ये तान्स्थापयित्वाग्रे नोपेक्षीर्विनशिष्यतः ॥"
+          "text": "तव प्रसादाद्बालास्ते प्राप्ता राज्यमरिंदम ।\nराज्ये तान्स्थापयित्वाग्रे नोपेक्षीर्विनशिष्यतः ॥",
+          "meaning": {
+            "en": "By your favor, these boys won a kingdom, scourge of foes; having set them in the kingdom, do not now overlook them as they are about to be ruined."
+          }
         },
         {
           "n": 7,
-          "text": "सर्वमप्येतदेकस्य नालं संजय कस्यचित् ।\nतात संहत्य जीवामो मा द्विषद्भ्यो वशं गमः ॥"
+          "text": "सर्वमप्येतदेकस्य नालं संजय कस्यचित् ।\nतात संहत्य जीवामो मा द्विषद्भ्यो वशं गमः ॥",
+          "meaning": {
+            "en": "All this wealth is not enough for one man alone, Sanjaya. Dear friend, let us live together and not fall into the power of our enemies.\""
+          }
         },
         {
           "n": 8,
-          "text": "तथा भीष्मं शांतनवं भारतानां पितामहम् ।\nशिरसाभिवदेथास्त्वं मम नाम प्रकीर्तयन् ॥"
+          "text": "तथा भीष्मं शांतनवं भारतानां पितामहम् ।\nशिरसाभिवदेथास्त्वं मम नाम प्रकीर्तयन् ॥",
+          "meaning": {
+            "en": "Likewise bow your head to Bhishma, son of Shantanu, grandsire of the Bharatas, speaking my name."
+          }
         },
         {
           "n": 9,
-          "text": "अभिवाद्य च वक्तव्यस्ततोऽस्माकं पितामहः ।\nभवता शंतनोर्वंशो निमग्नः पुनरुद्धृतः ॥"
+          "text": "अभिवाद्य च वक्तव्यस्ततोऽस्माकं पितामहः ।\nभवता शंतनोर्वंशो निमग्नः पुनरुद्धृतः ॥",
+          "meaning": {
+            "en": "Having saluted him, say to our grandfather: \"You raised up again the house of Shantanu when it had sunk."
+          }
         },
         {
           "n": 10,
-          "text": "स त्वं कुरु तथा तात स्वमतेन पितामह ।\nयथा जीवन्ति ते पौत्राः प्रीतिमन्तः परस्परम् ॥"
+          "text": "स त्वं कुरु तथा तात स्वमतेन पितामह ।\nयथा जीवन्ति ते पौत्राः प्रीतिमन्तः परस्परम् ॥",
+          "meaning": {
+            "en": "So act, dear grandfather, by your own judgment, so that your grandsons live fondly with one another.\""
+          }
         },
         {
           "n": 11,
-          "text": "तथैव विदुरं ब्रूयाः कुरूणां मन्त्रधारिणम् ।\nअयुद्धं सौम्य भाषस्व हितकामो युधिष्ठिरः ॥"
+          "text": "तथैव विदुरं ब्रूयाः कुरूणां मन्त्रधारिणम् ।\nअयुद्धं सौम्य भाषस्व हितकामो युधिष्ठिरः ॥",
+          "meaning": {
+            "en": "In the same way speak to Vidura, who holds the counsel of the Kurus: \"Gentle friend, speak for peace, with no war; Yudhishthira wishes your good.\""
+          }
         },
         {
           "n": 12,
-          "text": "अथो सुयोधनं ब्रूया राजपुत्रममर्षणम् ।\nमध्ये कुरूणामासीनमनुनीय पुनः पुनः ॥"
+          "text": "अथो सुयोधनं ब्रूया राजपुत्रममर्षणम् ।\nमध्ये कुरूणामासीनमनुनीय पुनः पुनः ॥",
+          "meaning": {
+            "en": "Then speak to Suyodhana, the prince, so easily angered, as he sits among the Kurus, soothing him again and again:"
+          }
         },
         {
           "n": 13,
-          "text": "अपश्यन्मामुपेक्षन्तं कृष्णामेकां सभागताम् ।\nतद्दुःखमतितिक्षाम मा वधीष्म कुरूनिति ॥"
+          "text": "अपश्यन्मामुपेक्षन्तं कृष्णामेकां सभागताम् ।\nतद्दुःखमतितिक्षाम मा वधीष्म कुरूनिति ॥",
+          "meaning": {
+            "en": "\"You saw me look away while Krishna alone stood in the assembly; we bore that grief, thinking, 'Let us not kill the Kurus.'"
+          }
         },
         {
           "n": 14,
-          "text": "एवं पूर्वापरान्क्लेशानतितिक्षन्त पाण्डवाः ।\nयथा बलीयसः सन्तस्तत्सर्वं कुरवो विदुः ॥"
+          "text": "एवं पूर्वापरान्क्लेशानतितिक्षन्त पाण्डवाः ।\nयथा बलीयसः सन्तस्तत्सर्वं कुरवो विदुः ॥",
+          "meaning": {
+            "en": "So the Pandavas have borne every earlier and later affliction, though they are stronger; all this the Kurus know."
+          }
         },
         {
           "n": 15,
-          "text": "यन्नः प्राव्राजयः सौम्य अजिनैः प्रतिवासितान् ।\nतद्दुःखमतितिक्षाम मा वधीष्म कुरूनिति ॥"
+          "text": "यन्नः प्राव्राजयः सौम्य अजिनैः प्रतिवासितान् ।\nतद्दुःखमतितिक्षाम मा वधीष्म कुरूनिति ॥",
+          "meaning": {
+            "en": "That you sent us into exile, gentle one, clothed in deerskins, we bore that grief too, thinking, 'Let us not kill the Kurus.'"
+          }
         },
         {
           "n": 16,
-          "text": "यत्तत्सभायामाक्रम्य कृष्णां केशेष्वधर्षयत् ।\nदुःशासनस्तेऽनुमते तच्चास्माभिरुपेक्षितम् ॥"
+          "text": "यत्तत्सभायामाक्रम्य कृष्णां केशेष्वधर्षयत् ।\nदुःशासनस्तेऽनुमते तच्चास्माभिरुपेक्षितम् ॥",
+          "meaning": {
+            "en": "When in the assembly Duhshasana, with your consent, seized Krishna and dragged her by the hair, we ignored even that."
+          }
         },
         {
           "n": 17,
-          "text": "यथोचितं स्वकं भागं लभेमहि परंतप ।\nनिवर्तय परद्रव्ये बुद्धिं गृद्धां नरर्षभ ॥"
+          "text": "यथोचितं स्वकं भागं लभेमहि परंतप ।\nनिवर्तय परद्रव्ये बुद्धिं गृद्धां नरर्षभ ॥",
+          "meaning": {
+            "en": "Scourge of foes, let us receive our own rightful share; bull among men, turn your mind back from greed for another's wealth."
+          }
         },
         {
           "n": 18,
-          "text": "शान्तिरेवं भवेद्राजन्प्रीतिश्चैव परस्परम् ।\nराज्यैकदेशमपि नः प्रयच्छ शममिच्छताम् ॥"
+          "text": "शान्तिरेवं भवेद्राजन्प्रीतिश्चैव परस्परम् ।\nराज्यैकदेशमपि नः प्रयच्छ शममिच्छताम् ॥",
+          "meaning": {
+            "en": "In this way, king, there may be peace and mutual affection. Give us even one portion of the kingdom, for we wish for peace."
+          }
         },
         {
           "n": 19,
-          "text": "कुशस्थलं वृकस्थलमासन्दी वारणावतम् ।\nअवसानं भवेदत्र किंचिदेव तु पञ्चमम् ॥"
+          "text": "कुशस्थलं वृकस्थलमासन्दी वारणावतम् ।\nअवसानं भवेदत्र किंचिदेव तु पञ्चमम् ॥",
+          "meaning": {
+            "en": "Kushasthala, Vrikasthala, Asandi, Varanavata, and for the last one any single village whatever."
+          }
         },
         {
           "n": 20,
-          "text": "भ्रातॄणां देहि पञ्चानां ग्रामान्पञ्च सुयोधन ।\nशान्तिर्नोऽस्तु महाप्राज्ञ ज्ञातिभिः सह संजय ॥"
+          "text": "भ्रातॄणां देहि पञ्चानां ग्रामान्पञ्च सुयोधन ।\nशान्तिर्नोऽस्तु महाप्राज्ञ ज्ञातिभिः सह संजय ॥",
+          "meaning": {
+            "en": "Give five villages to my five brothers, Suyodhana. Let there be peace for us with our kinsmen, Sanjaya, O very wise one.\""
+          }
         },
         {
           "n": 21,
-          "text": "भ्राता भ्रातरमन्वेतु पिता पुत्रेण युज्यताम् ।\nस्मयमानाः समायान्तु पाञ्चालाः कुरुभिः सह ॥"
+          "text": "भ्राता भ्रातरमन्वेतु पिता पुत्रेण युज्यताम् ।\nस्मयमानाः समायान्तु पाञ्चालाः कुरुभिः सह ॥",
+          "meaning": {
+            "en": "Let brother be reunited with brother, let father be joined with son; let the Panchalas come smiling together with the Kurus."
+          }
         },
         {
           "n": 22,
-          "text": "अक्षतान्कुरुपाञ्चालान्पश्येम इति कामये ।\nसर्वे सुमनसस्तात शाम्याम भरतर्षभ ॥"
+          "text": "अक्षतान्कुरुपाञ्चालान्पश्येम इति कामये ।\nसर्वे सुमनसस्तात शाम्याम भरतर्षभ ॥",
+          "meaning": {
+            "en": "I long to see the Kurus and Panchalas unharmed. Let all of us, dear friend, be at peace with glad hearts, bull of the Bharatas."
+          }
         },
         {
           "n": 23,
-          "text": "अलमेव शमायास्मि तथा युद्धाय संजय ।\nधर्मार्थयोरलं चाहं मृदवे दारुणाय च ॥"
+          "text": "अलमेव शमायास्मि तथा युद्धाय संजय ।\nधर्मार्थयोरलं चाहं मृदवे दारुणाय च ॥",
+          "meaning": {
+            "en": "Sanjaya, I am equal to peace and equally to war; I am equal to both dharma and wealth, to being gentle and to being fierce."
+          }
         }
       ]
     }

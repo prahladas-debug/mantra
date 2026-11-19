@@ -22,88 +22,154 @@
       "titleEn": "Bhagavadyana Parva (Krishna's embassy)",
       "verses": [
         {
-          "text": "गालव उवाच"
+          "text": "गालव उवाच",
+          "meaning": {
+            "en": "Galava said:"
+          }
         },
         {
           "n": 1,
-          "text": "महावीर्यो महीपालः काशीनामीश्वरः प्रभुः ।\nदिवोदास इति ख्यातो भैमसेनिर्नराधिपः ॥"
+          "text": "महावीर्यो महीपालः काशीनामीश्वरः प्रभुः ।\nदिवोदास इति ख्यातो भैमसेनिर्नराधिपः ॥",
+          "meaning": {
+            "en": "'There is a king of great valor, lord of the Kashis, called Divodasa, a descendant of Bhimasena, ruler of men."
+          }
         },
         {
           "n": 2,
-          "text": "तत्र गच्छावहे भद्रे शनैरागच्छ मा शुचः ।\nधार्मिकः संयमे युक्तः सत्यश्चैव जनेश्वरः ॥"
+          "text": "तत्र गच्छावहे भद्रे शनैरागच्छ मा शुचः ।\nधार्मिकः संयमे युक्तः सत्यश्चैव जनेश्वरः ॥",
+          "meaning": {
+            "en": "Let us go to him, fortunate one. Come slowly and do not grieve. That lord of men is righteous, self-controlled and truthful.'"
+          }
         },
         {
-          "text": "नारद उवाच"
+          "text": "नारद उवाच",
+          "meaning": {
+            "en": "Narada said:"
+          }
         },
         {
           "n": 3,
-          "text": "तमुपागम्य स मुनिर्न्यायतस्तेन सत्कृतः ।\nगालवः प्रसवस्यार्थे तं नृपं प्रत्यचोदयत् ॥"
+          "text": "तमुपागम्य स मुनिर्न्यायतस्तेन सत्कृतः ।\nगालवः प्रसवस्यार्थे तं नृपं प्रत्यचोदयत् ॥",
+          "meaning": {
+            "en": "The sage approached him and, properly honored by him, urged the king for the sake of a child."
+          }
         },
         {
-          "text": "दिवोदास उवाच"
+          "text": "दिवोदास उवाच",
+          "meaning": {
+            "en": "Divodasa said:"
+          }
         },
         {
           "n": 4,
-          "text": "श्रुतमेतन्मया पूर्वं किमुक्त्वा विस्तरं द्विज ।\nकाङ्क्षितो हि मयैषोऽर्थः श्रुत्वैतद्द्विजसत्तम ॥"
+          "text": "श्रुतमेतन्मया पूर्वं किमुक्त्वा विस्तरं द्विज ।\nकाङ्क्षितो हि मयैषोऽर्थः श्रुत्वैतद्द्विजसत्तम ॥",
+          "meaning": {
+            "en": "'I have heard this before; why say more, brahmin? Having heard it, best of brahmins, I have desired this very thing."
+          }
         },
         {
           "n": 5,
-          "text": "एतच्च मे बहुमतं यदुत्सृज्य नराधिपान् ।\nमामेवमुपयातोऽसि भावि चैतदसंशयम् ॥"
+          "text": "एतच्च मे बहुमतं यदुत्सृज्य नराधिपान् ।\nमामेवमुपयातोऽसि भावि चैतदसंशयम् ॥",
+          "meaning": {
+            "en": "And I take it as an honor that you passed over other kings and came to me. This will surely come to pass."
+          }
         },
         {
           "n": 6,
-          "text": "स एव विभवोऽस्माकमश्वानामपि गालव ।\nअहमप्येकमेवास्यां जनयिष्यामि पार्थिवम् ॥"
+          "text": "स एव विभवोऽस्माकमश्वानामपि गालव ।\nअहमप्येकमेवास्यां जनयिष्यामि पार्थिवम् ॥",
+          "meaning": {
+            "en": "Galava, my wealth in horses is the same as his. I too shall beget just one king on her.'"
+          }
         },
         {
-          "text": "नारद उवाच"
+          "text": "नारद उवाच",
+          "meaning": {
+            "en": "Narada said:"
+          }
         },
         {
           "n": 7,
-          "text": "तथेत्युक्त्वा द्विजश्रेष्ठः प्रादात्कन्यां महीपतेः ।\nविधिपूर्वं च तां राजा कन्यां प्रतिगृहीतवान् ॥"
+          "text": "तथेत्युक्त्वा द्विजश्रेष्ठः प्रादात्कन्यां महीपतेः ।\nविधिपूर्वं च तां राजा कन्यां प्रतिगृहीतवान् ॥",
+          "meaning": {
+            "en": "Saying 'So be it,' the best of brahmins gave the girl to the king, and the king duly accepted her."
+          }
         },
         {
           "n": 8,
-          "text": "रेमे स तस्यां राजर्षिः प्रभावत्यां यथा रविः ।\nस्वाहायां च यथा वह्निर्यथा शच्यां स वासवः ॥"
+          "text": "रेमे स तस्यां राजर्षिः प्रभावत्यां यथा रविः ।\nस्वाहायां च यथा वह्निर्यथा शच्यां स वासवः ॥",
+          "meaning": {
+            "en": "The royal sage delighted in her, Madhavi, as the sun in Prabhavati, as fire in Svaha, as Indra in Shachi,"
+          }
         },
         {
           "n": 9,
-          "text": "यथा चन्द्रश्च रोहिण्यां यथा धूमोर्णया यमः ।\nवरुणश्च यथा गौर्यां यथा चर्द्ध्यां धनेश्वरः ॥"
+          "text": "यथा चन्द्रश्च रोहिण्यां यथा धूमोर्णया यमः ।\nवरुणश्च यथा गौर्यां यथा चर्द्ध्यां धनेश्वरः ॥",
+          "meaning": {
+            "en": "as the moon in Rohini, as Yama in Dhumorna, as Varuna in Gauri, as the lord of wealth in Riddhi,"
+          }
         },
         {
           "n": 10,
-          "text": "यथा नारायणो लक्ष्म्यां जाह्नव्यां च यथोदधिः ।\nयथा रुद्रश्च रुद्राण्यां यथा वेद्यां पितामहः ॥"
+          "text": "यथा नारायणो लक्ष्म्यां जाह्नव्यां च यथोदधिः ।\nयथा रुद्रश्च रुद्राण्यां यथा वेद्यां पितामहः ॥",
+          "meaning": {
+            "en": "as Narayana in Lakshmi, as the ocean in the Ganga, as Rudra in Rudrani, as the grandfather Brahma in Vedi,"
+          }
         },
         {
           "n": 11,
-          "text": "अदृश्यन्त्यां च वासिष्ठो वसिष्ठश्चाक्षमालया ।\nच्यवनश्च सुकन्यायां पुलस्त्यः संध्यया यथा ॥"
+          "text": "अदृश्यन्त्यां च वासिष्ठो वसिष्ठश्चाक्षमालया ।\nच्यवनश्च सुकन्यायां पुलस्त्यः संध्यया यथा ॥",
+          "meaning": {
+            "en": "as Vasishtha's son Shakti in Adrishyanti, as Vasishtha in Akshamala, as Chyavana in Sukanya, as Pulastya in Sandhya,"
+          }
         },
         {
           "n": 12,
-          "text": "अगस्त्यश्चापि वैदर्भ्यां सावित्र्यां सत्यवान्यथा ।\nयथा भृगुः पुलोमायामदित्यां कश्यपो यथा ॥"
+          "text": "अगस्त्यश्चापि वैदर्भ्यां सावित्र्यां सत्यवान्यथा ।\nयथा भृगुः पुलोमायामदित्यां कश्यपो यथा ॥",
+          "meaning": {
+            "en": "as Agastya in Vaidarbhi, as Satyavan in Savitri, as Bhrigu in Puloma, as Kashyapa in Aditi,"
+          }
         },
         {
           "n": 13,
-          "text": "रेणुकायां यथार्चीको हैमवत्यां च कौशिकः ।\nबृहस्पतिश्च तारायां शुक्रश्च शतपर्वया ॥"
+          "text": "रेणुकायां यथार्चीको हैमवत्यां च कौशिकः ।\nबृहस्पतिश्च तारायां शुक्रश्च शतपर्वया ॥",
+          "meaning": {
+            "en": "as Richika in Renuka, as Kaushika in Haimavati, as Brihaspati in Tara, as Shukra in Shataparva,"
+          }
         },
         {
           "n": 14,
-          "text": "यथा भूम्यां भूमिपतिरुर्वश्यां च पुरूरवाः ।\nऋचीकः सत्यवत्यां च सरस्वत्यां यथा मनुः ॥"
+          "text": "यथा भूम्यां भूमिपतिरुर्वश्यां च पुरूरवाः ।\nऋचीकः सत्यवत्यां च सरस्वत्यां यथा मनुः ॥",
+          "meaning": {
+            "en": "as the lord of earth in Bhumi, as Pururavas in Urvashi, as Richika in Satyavati, and as Manu in Sarasvati."
+          }
         },
         {
           "n": 15,
-          "text": "तथा तु रममाणस्य दिवोदासस्य भूपतेः ।\nमाधवी जनयामास पुत्रमेकं प्रतर्दनम् ॥"
+          "text": "तथा तु रममाणस्य दिवोदासस्य भूपतेः ।\nमाधवी जनयामास पुत्रमेकं प्रतर्दनम् ॥",
+          "meaning": {
+            "en": "So, as King Divodasa took his pleasure, Madhavi bore one son, Pratardana."
+          }
         },
         {
           "n": 16,
-          "text": "अथाजगाम भगवान्दिवोदासं स गालवः ।\nसमये समनुप्राप्ते वचनं चेदमब्रवीत् ॥"
+          "text": "अथाजगाम भगवान्दिवोदासं स गालवः ।\nसमये समनुप्राप्ते वचनं चेदमब्रवीत् ॥",
+          "meaning": {
+            "en": "Then the blessed Galava came to Divodasa when the time came and said this."
+          }
         },
         {
           "n": 17,
-          "text": "निर्यातयतु मे कन्यां भवांस्तिष्ठन्तु वाजिनः ।\nयावदन्यत्र गच्छामि शुल्कार्थं पृथिवीपते ॥"
+          "text": "निर्यातयतु मे कन्यां भवांस्तिष्ठन्तु वाजिनः ।\nयावदन्यत्र गच्छामि शुल्कार्थं पृथिवीपते ॥",
+          "meaning": {
+            "en": "'Return the girl to me; let the horses stay with you, king, while I go elsewhere for the bride-price.'"
+          }
         },
         {
           "n": 18,
-          "text": "दिवोदासोऽथ धर्मात्मा समये गालवस्य ताम् ।\nकन्यां निर्यातयामास स्थितः सत्ये महीपतिः ॥"
+          "text": "दिवोदासोऽथ धर्मात्मा समये गालवस्य ताम् ।\nकन्यां निर्यातयामास स्थितः सत्ये महीपतिः ॥",
+          "meaning": {
+            "en": "Then Divodasa, righteous and firm in truth, returned the girl to Galava at the appointed time."
+          }
         }
       ]
     }

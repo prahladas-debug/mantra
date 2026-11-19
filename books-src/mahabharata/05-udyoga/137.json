@@ -22,101 +22,176 @@
       "titleEn": "Bhagavadyana Parva (Krishna's embassy)",
       "verses": [
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 1,
-          "text": "एवमुक्तस्तु विमनास्तिर्यग्दृष्टिरधोमुखः ।\nसंहत्य च भ्रुवोर्मध्यं न किंचिद्व्याजहार ह ॥"
+          "text": "एवमुक्तस्तु विमनास्तिर्यग्दृष्टिरधोमुखः ।\nसंहत्य च भ्रुवोर्मध्यं न किंचिद्व्याजहार ह ॥",
+          "meaning": {
+            "en": "Spoken to in this way, Duryodhana was displeased; looking askance with his face turned down and brows knitted, he said nothing."
+          }
         },
         {
           "n": 2,
-          "text": "तं वै विमनसं दृष्ट्वा संप्रेक्ष्यान्योन्यमन्तिकात् ।\nपुनरेवोत्तरं वाक्यमुक्तवन्तौ नरर्षभौ ॥"
+          "text": "तं वै विमनसं दृष्ट्वा संप्रेक्ष्यान्योन्यमन्तिकात् ।\nपुनरेवोत्तरं वाक्यमुक्तवन्तौ नरर्षभौ ॥",
+          "meaning": {
+            "en": "Seeing him so displeased, the two bulls among men looked at each other close by and spoke to him again."
+          }
         },
         {
-          "text": "भीष्म उवाच"
+          "text": "भीष्म उवाच",
+          "meaning": {
+            "en": "Bhishma said:"
+          }
         },
         {
           "n": 3,
-          "text": "शुश्रूषुमनसूयं च ब्रह्मण्यं सत्यसंगरम् ।\nप्रतियोत्स्यामहे पार्थमतो दुःखतरं नु किम् ॥"
+          "text": "शुश्रूषुमनसूयं च ब्रह्मण्यं सत्यसंगरम् ।\nप्रतियोत्स्यामहे पार्थमतो दुःखतरं नु किम् ॥",
+          "meaning": {
+            "en": "He is obedient, free of envy, devoted to brahmins and true to his word. We shall have to fight that Partha; what could be more painful than this?"
+          }
         },
         {
-          "text": "द्रोण उवाच"
+          "text": "द्रोण उवाच",
+          "meaning": {
+            "en": "Drona said:"
+          }
         },
         {
           "n": 4,
-          "text": "अश्वत्थाम्नि यथा पुत्रे भूयो मम धनंजये ।\nबहुमानः परो राजन्संनतिश्च कपिध्वजे ॥"
+          "text": "अश्वत्थाम्नि यथा पुत्रे भूयो मम धनंजये ।\nबहुमानः परो राजन्संनतिश्च कपिध्वजे ॥",
+          "meaning": {
+            "en": "As for my son Ashvatthama, so for Dhananjaya, King, I have still greater regard and affection, for the one with the monkey banner."
+          }
         },
         {
           "n": 5,
-          "text": "तं चेत्पुत्रात्प्रियतरं प्रतियोत्स्ये धनंजयम् ।\nक्षत्रधर्ममनुष्ठाय धिगस्तु क्षत्रजीविकाम् ॥"
+          "text": "तं चेत्पुत्रात्प्रियतरं प्रतियोत्स्ये धनंजयम् ।\nक्षत्रधर्ममनुष्ठाय धिगस्तु क्षत्रजीविकाम् ॥",
+          "meaning": {
+            "en": "If I must fight Dhananjaya, dearer to me than a son, following the duty of a kshatriya, then curse a kshatriya's livelihood."
+          }
         },
         {
           "n": 6,
-          "text": "यस्य लोके समो नास्ति कश्चिदन्यो धनुर्धरः ।\nमत्प्रसादात्स बीभत्सुः श्रेयानन्यैर्धनुर्धरैः ॥"
+          "text": "यस्य लोके समो नास्ति कश्चिदन्यो धनुर्धरः ।\nमत्प्रसादात्स बीभत्सुः श्रेयानन्यैर्धनुर्धरैः ॥",
+          "meaning": {
+            "en": "That Bibhatsu, to whom there is no equal among archers in the world, is better than other archers through my favor."
+          }
         },
         {
           "n": 7,
-          "text": "मित्रध्रुग्दुष्टभावश्च नास्तिकोऽथानृजुः शठः ।\nन सत्सु लभते पूजां यज्ञे मूर्ख इवागतः ॥"
+          "text": "मित्रध्रुग्दुष्टभावश्च नास्तिकोऽथानृजुः शठः ।\nन सत्सु लभते पूजां यज्ञे मूर्ख इवागतः ॥",
+          "meaning": {
+            "en": "One who betrays friends, whose heart is wicked, who denies the other world, crooked and deceitful, gets no honor among the good, like a fool who has come to a sacrifice."
+          }
         },
         {
           "n": 8,
-          "text": "वार्यमाणोऽपि पापेभ्यः पापात्मा पापमिच्छति ।\nचोद्यमानोऽपि पापेन शुभात्मा शुभमिच्छति ॥"
+          "text": "वार्यमाणोऽपि पापेभ्यः पापात्मा पापमिच्छति ।\nचोद्यमानोऽपि पापेन शुभात्मा शुभमिच्छति ॥",
+          "meaning": {
+            "en": "Even when held back from sins, the sinful-minded wants sin; even when urged on by sin, the good-minded wants good."
+          }
         },
         {
           "n": 9,
-          "text": "मिथ्योपचरिता ह्येते वर्तमाना ह्यनु प्रिये ।\nअहितत्वाय कल्पन्ते दोषा भरतसत्तम ॥"
+          "text": "मिथ्योपचरिता ह्येते वर्तमाना ह्यनु प्रिये ।\nअहितत्वाय कल्पन्ते दोषा भरतसत्तम ॥",
+          "meaning": {
+            "en": "These faults, wrongly cared for and followed when they are pleasing, turn out harmful, best of the Bharatas."
+          }
         },
         {
           "n": 10,
-          "text": "त्वमुक्तः कुरुवृद्धेन मया च विदुरेण च ।\nवासुदेवेन च तथा श्रेयो नैवाभिपद्यसे ॥"
+          "text": "त्वमुक्तः कुरुवृद्धेन मया च विदुरेण च ।\nवासुदेवेन च तथा श्रेयो नैवाभिपद्यसे ॥",
+          "meaning": {
+            "en": "You have been advised by me, by the Kuru elder, by Vidura, and by Vasudeva too, yet you do not find your good."
+          }
         },
         {
           "n": 11,
-          "text": "अस्ति मे बलमित्येव सहसा त्वं तितीर्षसि ।\nसग्राहनक्रमकरं गङ्गावेगमिवोष्णगे ॥"
+          "text": "अस्ति मे बलमित्येव सहसा त्वं तितीर्षसि ।\nसग्राहनक्रमकरं गङ्गावेगमिवोष्णगे ॥",
+          "meaning": {
+            "en": "Thinking \"I have strength,\" you hastily want to cross, as in summer one would cross the Ganga's current with its crocodiles and sea monsters."
+          }
         },
         {
           "n": 12,
-          "text": "वास एव यथा हि त्वं प्रावृण्वानोऽद्य मन्यसे ।\nस्रजं त्यक्तामिव प्राप्य लोभाद्यौधिष्ठिरीं श्रियम् ॥"
+          "text": "वास एव यथा हि त्वं प्रावृण्वानोऽद्य मन्यसे ।\nस्रजं त्यक्तामिव प्राप्य लोभाद्यौधिष्ठिरीं श्रियम् ॥",
+          "meaning": {
+            "en": "You now think the fortune of Yudhishthira, which you covet in greed, is like a cloth you wear, or a garland someone has cast off."
+          }
         },
         {
           "n": 13,
-          "text": "द्रौपदीसहितं पार्थं सायुधैर्भ्रातृभिर्वृतम् ।\nवनस्थमपि राज्यस्थः पाण्डवं कोऽतिजीवति ॥"
+          "text": "द्रौपदीसहितं पार्थं सायुधैर्भ्रातृभिर्वृतम् ।\nवनस्थमपि राज्यस्थः पाण्डवं कोऽतिजीवति ॥",
+          "meaning": {
+            "en": "When Partha, with Draupadi, surrounded by his armed brothers, lives in the forest, who living in a kingdom can survive him?"
+          }
         },
         {
           "n": 14,
-          "text": "निदेशे यस्य राजानः सर्वे तिष्ठन्ति किंकराः ।\nतमैलविलमासाद्य धर्मराजो व्यराजत ॥"
+          "text": "निदेशे यस्य राजानः सर्वे तिष्ठन्ति किंकराः ।\nतमैलविलमासाद्य धर्मराजो व्यराजत ॥",
+          "meaning": {
+            "en": "Dharmaraja, whose command all the kings stood waiting on as servants, shone when he reached Ailavila."
+          }
         },
         {
           "n": 15,
-          "text": "कुबेरसदनं प्राप्य ततो रत्नान्यवाप्य च ।\nस्फीतमाक्रम्य ते राष्ट्रं राज्यमिच्छन्ति पाण्डवाः ॥"
+          "text": "कुबेरसदनं प्राप्य ततो रत्नान्यवाप्य च ।\nस्फीतमाक्रम्य ते राष्ट्रं राज्यमिच्छन्ति पाण्डवाः ॥",
+          "meaning": {
+            "en": "Having reached Kubera's abode and gained jewels there, the Pandavas, having attacked your prosperous realm, now want the kingdom."
+          }
         },
         {
           "n": 16,
-          "text": "दत्तं हुतमधीतं च ब्राह्मणास्तर्पिता धनैः ।\nआवयोर्गतमायुश्च कृतकृत्यौ च विद्धि नौ ॥"
+          "text": "दत्तं हुतमधीतं च ब्राह्मणास्तर्पिता धनैः ।\nआवयोर्गतमायुश्च कृतकृत्यौ च विद्धि नौ ॥",
+          "meaning": {
+            "en": "We have given, offered sacrifice, studied, and satisfied brahmins with wealth, and our lives are spent. Know that we two have done what we had to do."
+          }
         },
         {
           "n": 17,
-          "text": "त्वं तु हित्वा सुखं राज्यं मित्राणि च धनानि च ।\nविग्रहं पाण्डवैः कृत्वा महद्व्यसनमाप्स्यसि ॥"
+          "text": "त्वं तु हित्वा सुखं राज्यं मित्राणि च धनानि च ।\nविग्रहं पाण्डवैः कृत्वा महद्व्यसनमाप्स्यसि ॥",
+          "meaning": {
+            "en": "But you, giving up pleasure, kingdom, friends and wealth, and making war with the Pandavas, will fall into great calamity."
+          }
         },
         {
           "n": 18,
-          "text": "द्रौपदी यस्य चाशास्ते विजयं सत्यवादिनी ।\nतपोघोरव्रता देवी न त्वं जेष्यसि पाण्डवम् ॥"
+          "text": "द्रौपदी यस्य चाशास्ते विजयं सत्यवादिनी ।\nतपोघोरव्रता देवी न त्वं जेष्यसि पाण्डवम् ॥",
+          "meaning": {
+            "en": "He whose victory the truthful Draupadi wishes, the goddess of terrible vows and austerity: you will not conquer that Pandava."
+          }
         },
         {
           "n": 19,
-          "text": "मन्त्री जनार्दनो यस्य भ्राता यस्य धनंजयः ।\nसर्वशस्त्रभृतां श्रेष्ठं कथं जेष्यसि पाण्डवम् ॥"
+          "text": "मन्त्री जनार्दनो यस्य भ्राता यस्य धनंजयः ।\nसर्वशस्त्रभृतां श्रेष्ठं कथं जेष्यसि पाण्डवम् ॥",
+          "meaning": {
+            "en": "His counselor is Janardana and his brother is Dhananjaya; how will you conquer that Pandava, best of all bearers of weapons?"
+          }
         },
         {
           "n": 20,
-          "text": "सहाया ब्राह्मणा यस्य धृतिमन्तो जितेन्द्रियाः ।\nतमुग्रतपसं वीरं कथं जेष्यसि पाण्डवम् ॥"
+          "text": "सहाया ब्राह्मणा यस्य धृतिमन्तो जितेन्द्रियाः ।\nतमुग्रतपसं वीरं कथं जेष्यसि पाण्डवम् ॥",
+          "meaning": {
+            "en": "How will you conquer that hero of fierce austerity, whose helpers are steadfast brahmins who have mastered their senses?"
+          }
         },
         {
           "n": 21,
-          "text": "पुनरुक्तं च वक्ष्यामि यत्कार्यं भूतिमिच्छता ।\nसुहृदा मज्जमानेषु सुहृत्सु व्यसनार्णवे ॥"
+          "text": "पुनरुक्तं च वक्ष्यामि यत्कार्यं भूतिमिच्छता ।\nसुहृदा मज्जमानेषु सुहृत्सु व्यसनार्णवे ॥",
+          "meaning": {
+            "en": "I will say again what a friend who wants your welfare must say, when friends are sinking in a sea of calamity:"
+          }
         },
         {
           "n": 22,
-          "text": "अलं युद्धेन तैर्वीरैः शाम्य त्वं कुरुवृद्धये ।\nमा गमः ससुतामात्यः सबलश्च पराभवम् ॥"
+          "text": "अलं युद्धेन तैर्वीरैः शाम्य त्वं कुरुवृद्धये ।\nमा गमः ससुतामात्यः सबलश्च पराभवम् ॥",
+          "meaning": {
+            "en": "enough of war with those heroes. Make peace for the growth of the Kurus. Do not go to defeat with your sons, ministers and army.\""
+          }
         }
       ]
     }

@@ -22,168 +22,294 @@
       "titleEn": "Bhagavadyana Parva (Krishna's embassy)",
       "verses": [
         {
-          "text": "कण्व उवाच"
+          "text": "कण्व उवाच",
+          "meaning": {
+            "en": "Kanva said:"
+          }
         },
         {
           "n": 1,
-          "text": "गरुडस्तत्तु शुश्राव यथावृत्तं महाबलः ।\nआयुःप्रदानं शक्रेण कृतं नागस्य भारत ॥"
+          "text": "गरुडस्तत्तु शुश्राव यथावृत्तं महाबलः ।\nआयुःप्रदानं शक्रेण कृतं नागस्य भारत ॥",
+          "meaning": {
+            "en": "The mighty Garuda heard exactly what had happened: that Indra had granted the serpent a life span, Bharata."
+          }
         },
         {
           "n": 2,
-          "text": "पक्षवातेन महता रुद्ध्वा त्रिभुवनं खगः ।\nसुपर्णः परमक्रुद्धो वासवं समुपाद्रवत् ॥"
+          "text": "पक्षवातेन महता रुद्ध्वा त्रिभुवनं खगः ।\nसुपर्णः परमक्रुद्धो वासवं समुपाद्रवत् ॥",
+          "meaning": {
+            "en": "Filling the three worlds with the great wind of his wings, the bird Suparna rushed at Indra in great fury."
+          }
         },
         {
-          "text": "गरुड उवाच"
+          "text": "गरुड उवाच",
+          "meaning": {
+            "en": "Garuda said:"
+          }
         },
         {
           "n": 3,
-          "text": "भगवन्किमवज्ञानात्क्षुधां प्रति भये मम ।\nकामकारवरं दत्त्वा पुनश्चलितवानसि ॥"
+          "text": "भगवन्किमवज्ञानात्क्षुधां प्रति भये मम ।\nकामकारवरं दत्त्वा पुनश्चलितवानसि ॥",
+          "meaning": {
+            "en": "'Lord, why, out of contempt, do you now turn back and frustrate me, who am afraid of hunger, after granting me the boon of eating as I please?"
+          }
         },
         {
           "n": 4,
-          "text": "निसर्गात्सर्वभूतानां सर्वभूतेश्वरेण मे ।\nआहारो विहितो धात्रा किमर्थं वार्यते त्वया ॥"
+          "text": "निसर्गात्सर्वभूतानां सर्वभूतेश्वरेण मे ।\nआहारो विहितो धात्रा किमर्थं वार्यते त्वया ॥",
+          "meaning": {
+            "en": "The creator, lord of all beings, ordained food for me by nature, as for all creatures. Why do you forbid it?"
+          }
         },
         {
           "n": 5,
-          "text": "वृतश्चैष महानागः स्थापितः समयश्च मे ।\nअनेन च मया देव भर्तव्यः प्रसवो महान् ॥"
+          "text": "वृतश्चैष महानागः स्थापितः समयश्च मे ।\nअनेन च मया देव भर्तव्यः प्रसवो महान् ॥",
+          "meaning": {
+            "en": "The great serpent was chosen, and an agreement was made. With him I must support my many offspring."
+          }
         },
         {
           "n": 6,
-          "text": "एतस्मिंस्त्वन्यथाभूते नान्यं हिंसितुमुत्सहे ।\nक्रीडसे कामकारेण देवराज यथेच्छकम् ॥"
+          "text": "एतस्मिंस्त्वन्यथाभूते नान्यं हिंसितुमुत्सहे ।\nक्रीडसे कामकारेण देवराज यथेच्छकम् ॥",
+          "meaning": {
+            "en": "Since this has turned out otherwise, I cannot bring myself to harm another. King of the gods, you play as you please, at will."
+          }
         },
         {
           "n": 7,
-          "text": "सोऽहं प्राणान्विमोक्ष्यामि तथा परिजनो मम ।\nये च भृत्या मम गृहे प्रीतिमान्भव वासव ॥"
+          "text": "सोऽहं प्राणान्विमोक्ष्यामि तथा परिजनो मम ।\nये च भृत्या मम गृहे प्रीतिमान्भव वासव ॥",
+          "meaning": {
+            "en": "So I shall give up my life, and so will my household and the servants in my home. Be pleased, Indra."
+          }
         },
         {
           "n": 8,
-          "text": "एतच्चैवाहमर्हामि भूयश्च बलवृत्रहन् ।\nत्रैलोक्यस्येश्वरो योऽहं परभृत्यत्वमागतः ॥"
+          "text": "एतच्चैवाहमर्हामि भूयश्च बलवृत्रहन् ।\nत्रैलोक्यस्येश्वरो योऽहं परभृत्यत्वमागतः ॥",
+          "meaning": {
+            "en": "This I deserve, and more, slayer of Bala and Vritra, I who am lord of the three worlds yet have come to serve another."
+          }
         },
         {
           "n": 9,
-          "text": "त्वयि तिष्ठति देवेश न विष्णुः कारणं मम ।\nत्रैलोक्यराज राज्यं हि त्वयि वासव शाश्वतम् ॥"
+          "text": "त्वयि तिष्ठति देवेश न विष्णुः कारणं मम ।\nत्रैलोक्यराज राज्यं हि त्वयि वासव शाश्वतम् ॥",
+          "meaning": {
+            "en": "While you stand, lord of the gods, Vishnu is not my reason. King of the three worlds, sovereignty rests eternally with you, Indra."
+          }
         },
         {
           "n": 10,
-          "text": "ममापि दक्षस्य सुता जननी कश्यपः पिता ।\nअहमप्युत्सहे लोकान्समस्तान्वोढुमञ्जसा ॥"
+          "text": "ममापि दक्षस्य सुता जननी कश्यपः पिता ।\nअहमप्युत्सहे लोकान्समस्तान्वोढुमञ्जसा ॥",
+          "meaning": {
+            "en": "My mother too is a daughter of Daksha, and Kashyapa is my father. I too can easily carry all the worlds."
+          }
         },
         {
           "n": 11,
-          "text": "असह्यं सर्वभूतानां ममापि विपुलं बलम् ।\nमयापि सुमहत्कर्म कृतं दैतेयविग्रहे ॥"
+          "text": "असह्यं सर्वभूतानां ममापि विपुलं बलम् ।\nमयापि सुमहत्कर्म कृतं दैतेयविग्रहे ॥",
+          "meaning": {
+            "en": "My great strength too is unbearable to all beings. I too did a mighty deed in the war with the Daityas."
+          }
         },
         {
           "n": 12,
-          "text": "श्रुतश्रीः श्रुतसेनश्च विवस्वान्रोचनामुखः ।\nप्रसभः कालकाक्षश्च मयापि दितिजा हताः ॥"
+          "text": "श्रुतश्रीः श्रुतसेनश्च विवस्वान्रोचनामुखः ।\nप्रसभः कालकाक्षश्च मयापि दितिजा हताः ॥",
+          "meaning": {
+            "en": "Shrutashri, Shrutasena, Vivasvan, Rochanamukha, Prasabha and Kalakaksha, these sons of Diti were killed by me too."
+          }
         },
         {
           "n": 13,
-          "text": "यत्तु ध्वजस्थानगतो यत्नात्परिचराम्यहम् ।\nवहामि चैवानुजं ते तेन मामवमन्यसे ॥"
+          "text": "यत्तु ध्वजस्थानगतो यत्नात्परिचराम्यहम् ।\nवहामि चैवानुजं ते तेन मामवमन्यसे ॥",
+          "meaning": {
+            "en": "Because I carefully serve and carry your younger brother, abiding on his banner, you hold me in contempt."
+          }
         },
         {
           "n": 14,
-          "text": "कोऽन्यो भारसहो ह्यस्ति कोऽन्योऽस्ति बलवत्तरः ।\nमया योऽहं विशिष्टः सन्वहामीमं सबान्धवम् ॥"
+          "text": "कोऽन्यो भारसहो ह्यस्ति कोऽन्योऽस्ति बलवत्तरः ।\nमया योऽहं विशिष्टः सन्वहामीमं सबान्धवम् ॥",
+          "meaning": {
+            "en": "Who else can bear such a load? Who else is stronger? I, being greater than others, carry him with his kinsmen."
+          }
         },
         {
           "n": 15,
-          "text": "अवज्ञाय तु यत्तेऽहं भोजनाद्व्यपरोपितः ।\nतेन मे गौरवं नष्टं त्वत्तश्चास्माच्च वासव ॥"
+          "text": "अवज्ञाय तु यत्तेऽहं भोजनाद्व्यपरोपितः ।\nतेन मे गौरवं नष्टं त्वत्तश्चास्माच्च वासव ॥",
+          "meaning": {
+            "en": "Because you disregarded me and cut me off from my food, I have lost my respect for you, Indra, and for him."
+          }
         },
         {
           "n": 16,
-          "text": "अदित्यां य इमे जाता बलविक्रमशालिनः ।\nत्वमेषां किल सर्वेषां विशेषाद्बलवत्तरः ॥"
+          "text": "अदित्यां य इमे जाता बलविक्रमशालिनः ।\nत्वमेषां किल सर्वेषां विशेषाद्बलवत्तरः ॥",
+          "meaning": {
+            "en": "These sons born of Aditi are rich in strength and valor, and you are, they say, the strongest of all."
+          }
         },
         {
           "n": 17,
-          "text": "सोऽहं पक्षैकदेशेन वहामि त्वां गतक्लमः ।\nविमृश त्वं शनैस्तात को न्वत्र बलवानिति ॥"
+          "text": "सोऽहं पक्षैकदेशेन वहामि त्वां गतक्लमः ।\nविमृश त्वं शनैस्तात को न्वत्र बलवानिति ॥",
+          "meaning": {
+            "en": "Yet with just a part of one wing I carry you without fatigue. Think about it calmly, dear one: who is really the stronger here?'"
+          }
         },
         {
-          "text": "कण्व उवाच"
+          "text": "कण्व उवाच",
+          "meaning": {
+            "en": "Kanva said:"
+          }
         },
         {
           "n": 18,
-          "text": "तस्य तद्वचनं श्रुत्वा खगस्योदर्कदारुणम् ।\nअक्षोभ्यं क्षोभयंस्तार्क्ष्यमुवाच रथचक्रभृत् ॥"
+          "text": "तस्य तद्वचनं श्रुत्वा खगस्योदर्कदारुणम् ।\nअक्षोभ्यं क्षोभयंस्तार्क्ष्यमुवाच रथचक्रभृत् ॥",
+          "meaning": {
+            "en": "Hearing the bird's words, which were harsh in their outcome, the bearer of the discus chariot-wheel spoke to Garuda, unshakable though he was, to unsettle him."
+          }
         },
         {
           "n": 19,
-          "text": "गरुत्मन्मन्यसेऽऽत्मानं बलवन्तं सुदुर्बलम् ।\nअलमस्मत्समक्षं ते स्तोतुमात्मानमण्डज ॥"
+          "text": "गरुत्मन्मन्यसेऽऽत्मानं बलवन्तं सुदुर्बलम् ।\nअलमस्मत्समक्षं ते स्तोतुमात्मानमण्डज ॥",
+          "meaning": {
+            "en": "'Garutman, you think yourself strong, but you are very weak. Enough, egg-born one, of praising yourself in front of me."
+          }
         },
         {
           "n": 20,
-          "text": "त्रैलोक्यमपि मे कृत्स्नमशक्तं देहधारणे ।\nअहमेवात्मनात्मानं वहामि त्वां च धारये ॥"
+          "text": "त्रैलोक्यमपि मे कृत्स्नमशक्तं देहधारणे ।\nअहमेवात्मनात्मानं वहामि त्वां च धारये ॥",
+          "meaning": {
+            "en": "Even the whole of the three worlds is not able to support my body. I carry myself by myself, and I carry you too."
+          }
         },
         {
           "n": 21,
-          "text": "इमं तावन्ममैकं त्वं बाहुं सव्येतरं वह ।\nयद्येनं धारयस्येकं सफलं ते विकत्थितम् ॥"
+          "text": "इमं तावन्ममैकं त्वं बाहुं सव्येतरं वह ।\nयद्येनं धारयस्येकं सफलं ते विकत्थितम् ॥",
+          "meaning": {
+            "en": "For now, bear just this one arm of mine, the left one. If you can support even this one, your boast will be proved true.'"
+          }
         },
         {
           "n": 22,
-          "text": "ततः स भगवांस्तस्य स्कन्धे बाहुं समासजत् ।\nनिपपात स भारार्तो विह्वलो नष्टचेतनः ॥"
+          "text": "ततः स भगवांस्तस्य स्कन्धे बाहुं समासजत् ।\nनिपपात स भारार्तो विह्वलो नष्टचेतनः ॥",
+          "meaning": {
+            "en": "Then the Lord laid his arm on Garuda's shoulder. Garuda collapsed, tormented by the load, bewildered and losing his senses."
+          }
         },
         {
           "n": 23,
-          "text": "यावान्हि भारः कृत्स्नायाः पृथिव्याः पर्वतैः सह ।\nएकस्या देहशाखायास्तावद्भारममन्यत ॥"
+          "text": "यावान्हि भारः कृत्स्नायाः पृथिव्याः पर्वतैः सह ।\nएकस्या देहशाखायास्तावद्भारममन्यत ॥",
+          "meaning": {
+            "en": "The weight of the whole earth with its mountains seemed to him no more than the weight of one branch of that body."
+          }
         },
         {
           "n": 24,
-          "text": "न त्वेनं पीडयामास बलेन बलवत्तरः ।\nततो हि जीवितं तस्य न व्यनीनशदच्युतः ॥"
+          "text": "न त्वेनं पीडयामास बलेन बलवत्तरः ।\nततो हि जीवितं तस्य न व्यनीनशदच्युतः ॥",
+          "meaning": {
+            "en": "Yet Vishnu, the stronger, did not crush him with force, and so the bird's life did not perish, for Achyuta spared him."
+          }
         },
         {
           "n": 25,
-          "text": "विपक्षः स्रस्तकायश्च विचेता विह्वलः खगः ।\nमुमोच पत्राणि तदा गुरुभारप्रपीडितः ॥"
+          "text": "विपक्षः स्रस्तकायश्च विचेता विह्वलः खगः ।\nमुमोच पत्राणि तदा गुरुभारप्रपीडितः ॥",
+          "meaning": {
+            "en": "Wingless, his body sagging, senseless and stunned, the bird, crushed by the heavy weight, let his feathers fall."
+          }
         },
         {
           "n": 26,
-          "text": "स विष्णुं शिरसा पक्षी प्रणम्य विनतासुतः ।\nविचेता विह्वलो दीनः किंचिद्वचनमब्रवीत् ॥"
+          "text": "स विष्णुं शिरसा पक्षी प्रणम्य विनतासुतः ।\nविचेता विह्वलो दीनः किंचिद्वचनमब्रवीत् ॥",
+          "meaning": {
+            "en": "Then Vinata's son bowed his head to Vishnu and, senseless, stunned and wretched, said a few words."
+          }
         },
         {
           "n": 27,
-          "text": "भगवँल्लोकसारस्य सदृशेन वपुष्मता ।\nभुजेन स्वैरमुक्तेन निष्पिष्टोऽस्मि महीतले ॥"
+          "text": "भगवँल्लोकसारस्य सदृशेन वपुष्मता ।\nभुजेन स्वैरमुक्तेन निष्पिष्टोऽस्मि महीतले ॥",
+          "meaning": {
+            "en": "'Lord, I have been crushed on the ground by an arm worthy of the essence of the worlds, which you let fall at ease."
+          }
         },
         {
           "n": 28,
-          "text": "क्षन्तुमर्हसि मे देव विह्वलस्याल्पचेतसः ।\nबलदाहविदग्धस्य पक्षिणो ध्वजवासिनः ॥"
+          "text": "क्षन्तुमर्हसि मे देव विह्वलस्याल्पचेतसः ।\nबलदाहविदग्धस्य पक्षिणो ध्वजवासिनः ॥",
+          "meaning": {
+            "en": "Forgive me, God, I who was bewildered and foolish, a bird living on your banner, burnt up by the fire of pride in strength."
+          }
         },
         {
           "n": 29,
-          "text": "न विज्ञातं बलं देव मया ते परमं विभो ।\nतेन मन्याम्यहं वीर्यमात्मनोऽसदृशं परैः ॥"
+          "text": "न विज्ञातं बलं देव मया ते परमं विभो ।\nतेन मन्याम्यहं वीर्यमात्मनोऽसदृशं परैः ॥",
+          "meaning": {
+            "en": "I did not know your supreme strength, Lord, and so I thought my own might was unequaled by others.'"
+          }
         },
         {
           "n": 30,
-          "text": "ततश्चक्रे स भगवान्प्रसादं वै गरुत्मतः ।\nमैवं भूय इति स्नेहात्तदा चैनमुवाच ह ॥"
+          "text": "ततश्चक्रे स भगवान्प्रसादं वै गरुत्मतः ।\nमैवं भूय इति स्नेहात्तदा चैनमुवाच ह ॥",
+          "meaning": {
+            "en": "Then the Lord showed favor to Garuda and said to him out of affection, 'Never again act so.'"
+          }
         },
         {
           "n": 31,
-          "text": "तथा त्वमपि गान्धारे यावत्पाण्डुसुतान्रणे ।\nनासादयसि तान्वीरांस्तावज्जीवसि पुत्रक ॥"
+          "text": "तथा त्वमपि गान्धारे यावत्पाण्डुसुतान्रणे ।\nनासादयसि तान्वीरांस्तावज्जीवसि पुत्रक ॥",
+          "meaning": {
+            "en": "'So too you, son of Gandhari, live only as long as you do not meet those heroes, the sons of Pandu, in battle, my child."
+          }
         },
         {
           "n": 32,
-          "text": "भीमः प्रहरतां श्रेष्ठो वायुपुत्रो महाबलः ।\nधनंजयश्चेन्द्रसुतो न हन्यातां तु कं रणे ॥"
+          "text": "भीमः प्रहरतां श्रेष्ठो वायुपुत्रो महाबलः ।\nधनंजयश्चेन्द्रसुतो न हन्यातां तु कं रणे ॥",
+          "meaning": {
+            "en": "Bhima, best of fighters, the mighty son of the wind, and Dhananjaya, Indra's son, whom would they not kill in battle?"
+          }
         },
         {
           "n": 33,
-          "text": "विष्णुर्वायुश्च शक्रश्च धर्मस्तौ चाश्विनावुभौ ।\nएते देवास्त्वया केन हेतुना शक्यमीक्षितुम् ॥"
+          "text": "विष्णुर्वायुश्च शक्रश्च धर्मस्तौ चाश्विनावुभौ ।\nएते देवास्त्वया केन हेतुना शक्यमीक्षितुम् ॥",
+          "meaning": {
+            "en": "Vishnu, Vayu, Indra, Dharma and the two Ashvins are the gods behind them. For what reason could you hope to face these gods?"
+          }
         },
         {
           "n": 34,
-          "text": "तदलं ते विरोधेन शमं गच्छ नृपात्मज ।\nवासुदेवेन तीर्थेन कुलं रक्षितुमर्हसि ॥"
+          "text": "तदलं ते विरोधेन शमं गच्छ नृपात्मज ।\nवासुदेवेन तीर्थेन कुलं रक्षितुमर्हसि ॥",
+          "meaning": {
+            "en": "Enough of your hostility. Make peace, prince. Through Vasudeva as the sacred ford you can protect your family."
+          }
         },
         {
           "n": 35,
-          "text": "प्रत्यक्षो ह्यस्य सर्वस्य नारदोऽयं महातपाः ।\nमाहात्म्यं यत्तदा विष्णोर्योऽयं चक्रगदाधरः ॥"
+          "text": "प्रत्यक्षो ह्यस्य सर्वस्य नारदोऽयं महातपाः ।\nमाहात्म्यं यत्तदा विष्णोर्योऽयं चक्रगदाधरः ॥",
+          "meaning": {
+            "en": "This Narada of great austerity is a direct witness to all this, and to the greatness of Vishnu, who is this bearer of discus and mace.'"
+          }
         },
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 36,
-          "text": "दुर्योधनस्तु तच्छ्रुत्वा निःश्वसन्भृकुटीमुखः ।\nराधेयमभिसंप्रेक्ष्य जहास स्वनवत्तदा ॥"
+          "text": "दुर्योधनस्तु तच्छ्रुत्वा निःश्वसन्भृकुटीमुखः ।\nराधेयमभिसंप्रेक्ष्य जहास स्वनवत्तदा ॥",
+          "meaning": {
+            "en": "But Duryodhana, hearing this, sighed with a frowning face, looked at Radheya Karna and laughed aloud."
+          }
         },
         {
           "n": 37,
-          "text": "कदर्थीकृत्य तद्वाक्यमृषेः कण्वस्य दुर्मतिः ।\nऊरुं गजकराकारं ताडयन्निदमब्रवीत् ॥"
+          "text": "कदर्थीकृत्य तद्वाक्यमृषेः कण्वस्य दुर्मतिः ।\nऊरुं गजकराकारं ताडयन्निदमब्रवीत् ॥",
+          "meaning": {
+            "en": "The wicked-minded prince made light of the sage Kanva's words, and slapping his thigh, which was shaped like an elephant's trunk, said this."
+          }
         },
         {
           "n": 38,
-          "text": "यथैवेश्वरसृष्टोऽस्मि यद्भावि या च मे गतिः ।\nतथा महर्षे वर्तामि किं प्रलापः करिष्यति ॥"
+          "text": "यथैवेश्वरसृष्टोऽस्मि यद्भावि या च मे गतिः ।\nतथा महर्षे वर्तामि किं प्रलापः करिष्यति ॥",
+          "meaning": {
+            "en": "'As the Lord has made me, and whatever my future and fate will be, so I shall act, great sage. What will idle talk achieve?'"
+          }
         }
       ]
     }

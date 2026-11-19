@@ -22,71 +22,122 @@
       "titleEn": "Bhagavadyana Parva (Krishna's embassy)",
       "verses": [
         {
-          "text": "नारद उवाच"
+          "text": "नारद उवाच",
+          "meaning": {
+            "en": "Narada said:"
+          }
         },
         {
           "n": 1,
-          "text": "अयं लोकः सुपर्णानां पक्षिणां पन्नगाशिनाम् ।\nविक्रमे गमने भारे नैषामस्ति परिश्रमः ॥"
+          "text": "अयं लोकः सुपर्णानां पक्षिणां पन्नगाशिनाम् ।\nविक्रमे गमने भारे नैषामस्ति परिश्रमः ॥",
+          "meaning": {
+            "en": "This is the world of the Suparnas, the birds that feed on serpents. They feel no weariness in valor, in flight or in bearing burdens."
+          }
         },
         {
           "n": 2,
-          "text": "वैनतेयसुतैः सूत षड्भिस्ततमिदं कुलम् ।\nसुमुखेन सुनाम्ना च सुनेत्रेण सुवर्चसा ॥"
+          "text": "वैनतेयसुतैः सूत षड्भिस्ततमिदं कुलम् ।\nसुमुखेन सुनाम्ना च सुनेत्रेण सुवर्चसा ॥",
+          "meaning": {
+            "en": "Suta, this family was spread by six sons of Vinata's son Garuda: Sumukha, Sunaman, Sunetra, Suvarchas,"
+          }
         },
         {
           "n": 3,
-          "text": "सुरूपपक्षिराजेन सुबलेन च मातले ।\nवर्धितानि प्रसूत्या वै विनताकुलकर्तृभिः ॥"
+          "text": "सुरूपपक्षिराजेन सुबलेन च मातले ।\nवर्धितानि प्रसूत्या वै विनताकुलकर्तृभिः ॥",
+          "meaning": {
+            "en": "Surupa, the king of birds, and Subala, Matali. Through their offspring they enlarged the family and brought joy to Vinata's line."
+          }
         },
         {
           "n": 4,
-          "text": "पक्षिराजाभिजात्यानां सहस्राणि शतानि च ।\nकश्यपस्य ततो वंशे जातैर्भूतिविवर्धनैः ॥"
+          "text": "पक्षिराजाभिजात्यानां सहस्राणि शतानि च ।\nकश्यपस्य ततो वंशे जातैर्भूतिविवर्धनैः ॥",
+          "meaning": {
+            "en": "In the line of Kashyapa were born hundreds and thousands of nobly born bird-kings, who increased prosperity."
+          }
         },
         {
           "n": 5,
-          "text": "सर्वे ह्येते श्रिया युक्ताः सर्वे श्रीवत्सलक्षणाः ।\nसर्वे श्रियमभीप्सन्तो धारयन्ति बलान्युत ॥"
+          "text": "सर्वे ह्येते श्रिया युक्ताः सर्वे श्रीवत्सलक्षणाः ।\nसर्वे श्रियमभीप्सन्तो धारयन्ति बलान्युत ॥",
+          "meaning": {
+            "en": "All of them are endowed with glory and bear the Shrivatsa mark; all of them desire glory and carry great strength."
+          }
         },
         {
           "n": 6,
-          "text": "कर्मणा क्षत्रियाश्चैते निर्घृणा भोगिभोजिनः ।\nज्ञातिसंक्षयकर्तृत्वाद्ब्राह्मण्यं न लभन्ति वै ॥"
+          "text": "कर्मणा क्षत्रियाश्चैते निर्घृणा भोगिभोजिनः ।\nज्ञातिसंक्षयकर्तृत्वाद्ब्राह्मण्यं न लभन्ति वै ॥",
+          "meaning": {
+            "en": "By their deeds they are warriors, merciless and feeders on serpents; because they destroy their own kin, they do not attain the status of brahmins."
+          }
         },
         {
           "n": 7,
-          "text": "नामानि चैषां वक्ष्यामि यथा प्राधान्यतः शृणु ।\nमातले श्लाघ्यमेतद्धि कुलं विष्णुपरिग्रहम् ॥"
+          "text": "नामानि चैषां वक्ष्यामि यथा प्राधान्यतः शृणु ।\nमातले श्लाघ्यमेतद्धि कुलं विष्णुपरिग्रहम् ॥",
+          "meaning": {
+            "en": "Listen, and I shall tell you their names in order of prominence. This family, Matali, is praiseworthy and is favored by Vishnu."
+          }
         },
         {
           "n": 8,
-          "text": "दैवतं विष्णुरेतेषां विष्णुरेव परायणम् ।\nहृदि चैषां सदा विष्णुर्विष्णुरेव गतिः सदा ॥"
+          "text": "दैवतं विष्णुरेतेषां विष्णुरेव परायणम् ।\nहृदि चैषां सदा विष्णुर्विष्णुरेव गतिः सदा ॥",
+          "meaning": {
+            "en": "Vishnu is their god and their sole refuge; Vishnu is always in their hearts, and Vishnu is ever their goal."
+          }
         },
         {
           "n": 9,
-          "text": "सुवर्णचूडो नागाशी दारुणश्चण्डतुण्डकः ।\nअनलश्चानिलश्चैव विशालाक्षोऽथ कुण्डली ॥"
+          "text": "सुवर्णचूडो नागाशी दारुणश्चण्डतुण्डकः ।\nअनलश्चानिलश्चैव विशालाक्षोऽथ कुण्डली ॥",
+          "meaning": {
+            "en": "Suvarnachuda, Nagashin, Daruna, Chandatunda, Anala, Anila, Vishalaksha and Kundalin,"
+          }
         },
         {
           "n": 10,
-          "text": "काश्यपिर्ध्वजविष्कम्भो वैनतेयोऽथ वामनः ।\nवातवेगो दिशाचक्षुर्निमेषो निमिषस्तथा ॥"
+          "text": "काश्यपिर्ध्वजविष्कम्भो वैनतेयोऽथ वामनः ।\nवातवेगो दिशाचक्षुर्निमेषो निमिषस्तथा ॥",
+          "meaning": {
+            "en": "Kashyapi, Dhvajavishkambha, Vainateya, Vamana, Vatavega, Dishachakshus, Nimesha and Nimisha,"
+          }
         },
         {
           "n": 11,
-          "text": "त्रिवारः सप्तवारश्च वाल्मीकिर्द्वीपकस्तथा ।\nदैत्यद्वीपः सरिद्द्वीपः सारसः पद्मकेसरः ॥"
+          "text": "त्रिवारः सप्तवारश्च वाल्मीकिर्द्वीपकस्तथा ।\nदैत्यद्वीपः सरिद्द्वीपः सारसः पद्मकेसरः ॥",
+          "meaning": {
+            "en": "Trivara, Saptavara, Valmiki, Dvipaka, Daityadvipa, Saridvipa, Sarasa and Padmakesara,"
+          }
         },
         {
           "n": 12,
-          "text": "सुमुखः सुखकेतुश्च चित्रबर्हस्तथानघः ।\nमेघकृत्कुमुदो दक्षः सर्पान्तः सोमभोजनः ॥"
+          "text": "सुमुखः सुखकेतुश्च चित्रबर्हस्तथानघः ।\nमेघकृत्कुमुदो दक्षः सर्पान्तः सोमभोजनः ॥",
+          "meaning": {
+            "en": "Sumukha, Sukhaketu, the faultless Chitrabarha, Meghakrit, Kumuda, Daksha, Sarpanta and Somabhojana,"
+          }
         },
         {
           "n": 13,
-          "text": "गुरुभारः कपोतश्च सूर्यनेत्रश्चिरान्तकः ।\nविष्णुधन्वा कुमारश्च परिबर्हो हरिस्तथा ॥"
+          "text": "गुरुभारः कपोतश्च सूर्यनेत्रश्चिरान्तकः ।\nविष्णुधन्वा कुमारश्च परिबर्हो हरिस्तथा ॥",
+          "meaning": {
+            "en": "Gurubhara, Kapota, Suryanetra, Chirantaka, Vishnudhanva, Kumara, Paribarha and Hari,"
+          }
         },
         {
           "n": 14,
-          "text": "सुस्वरो मधुपर्कश्च हेमवर्णस्तथैव च ।\nमलयो मातरिश्वा च निशाकरदिवाकरौ ॥"
+          "text": "सुस्वरो मधुपर्कश्च हेमवर्णस्तथैव च ।\nमलयो मातरिश्वा च निशाकरदिवाकरौ ॥",
+          "meaning": {
+            "en": "Susvara, Madhuparka, Hemavarna, Malaya, Matarishva, Nishakara and Divakara."
+          }
         },
         {
           "n": 15,
-          "text": "एते प्रदेशमात्रेण मयोक्ता गरुडात्मजाः ।\nप्राधान्यतोऽथ यशसा कीर्तिताः प्राणतश्च ते ॥"
+          "text": "एते प्रदेशमात्रेण मयोक्ता गरुडात्मजाः ।\nप्राधान्यतोऽथ यशसा कीर्तिताः प्राणतश्च ते ॥",
+          "meaning": {
+            "en": "These sons of Garuda I have named only in brief, according to prominence, fame and vigor."
+          }
         },
         {
           "n": 16,
-          "text": "यद्यत्र न रुचिः काचिदेहि गच्छाव मातले ।\nतं नयिष्यामि देशं त्वां रुचिं यत्रोपलप्स्यसे ॥"
+          "text": "यद्यत्र न रुचिः काचिदेहि गच्छाव मातले ।\nतं नयिष्यामि देशं त्वां रुचिं यत्रोपलप्स्यसे ॥",
+          "meaning": {
+            "en": "If nothing here appeals to you, come, Matali, let us go. I shall take you to a place where you will find what you like."
+          }
         }
       ]
     }

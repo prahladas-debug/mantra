@@ -22,91 +22,157 @@
       "titleEn": "Bhagavadyana Parva (Krishna's embassy)",
       "verses": [
         {
-          "text": "भगवानुवाच"
+          "text": "भगवानुवाच",
+          "meaning": {
+            "en": "The Blessed Lord said:"
+          }
         },
         {
           "n": 1,
-          "text": "एवमेतन्महाबाहो यथा वदसि पाण्डव ।\nसर्वं त्विदं समायत्तं बीभत्सो कर्मणोर्द्वयोः ॥"
+          "text": "एवमेतन्महाबाहो यथा वदसि पाण्डव ।\nसर्वं त्विदं समायत्तं बीभत्सो कर्मणोर्द्वयोः ॥",
+          "meaning": {
+            "en": "It is as you say, mighty-armed Pandava; yet all this depends on two things, Bibhatsu: fate and human action."
+          }
         },
         {
           "n": 2,
-          "text": "क्षेत्रं हि रसवच्छुद्धं कर्षकेणोपपादितम् ।\nऋते वर्षं न कौन्तेय जातु निर्वर्तयेत्फलम् ॥"
+          "text": "क्षेत्रं हि रसवच्छुद्धं कर्षकेणोपपादितम् ।\nऋते वर्षं न कौन्तेय जातु निर्वर्तयेत्फलम् ॥",
+          "meaning": {
+            "en": "A field that is rich and clean, prepared by the farmer, will never give its crop without rain, son of Kunti."
+          }
         },
         {
           "n": 3,
-          "text": "तत्र वै पौरुषं ब्रूयुरासेकं यत्नकारितम् ।\nतत्र चापि ध्रुवं पश्येच्छोषणं दैवकारितम् ॥"
+          "text": "तत्र वै पौरुषं ब्रूयुरासेकं यत्नकारितम् ।\nतत्र चापि ध्रुवं पश्येच्छोषणं दैवकारितम् ॥",
+          "meaning": {
+            "en": "There, people say, the watering done by effort is manly exertion; and yet one may surely see the drying up that fate brings about."
+          }
         },
         {
           "n": 4,
-          "text": "तदिदं निश्चितं बुद्ध्या पूर्वैरपि महात्मभिः ।\nदैवे च मानुषे चैव संयुक्तं लोककारणम् ॥"
+          "text": "तदिदं निश्चितं बुद्ध्या पूर्वैरपि महात्मभिः ।\nदैवे च मानुषे चैव संयुक्तं लोककारणम् ॥",
+          "meaning": {
+            "en": "Even the great souls of old settled this by reason: the world's course is joined of fate and human effort."
+          }
         },
         {
           "n": 5,
-          "text": "अहं हि तत्करिष्यामि परं पुरुषकारतः ।\nदैवं तु न मया शक्यं कर्म कर्तुं कथंचन ॥"
+          "text": "अहं हि तत्करिष्यामि परं पुरुषकारतः ।\nदैवं तु न मया शक्यं कर्म कर्तुं कथंचन ॥",
+          "meaning": {
+            "en": "I shall do the utmost through human effort; but the work of fate I cannot do by any means."
+          }
         },
         {
           "n": 6,
-          "text": "स हि धर्मं च सत्यं च त्यक्त्वा चरति दुर्मतिः ।\nन हि संतप्यते तेन तथारूपेण कर्मणा ॥"
+          "text": "स हि धर्मं च सत्यं च त्यक्त्वा चरति दुर्मतिः ।\nन हि संतप्यते तेन तथारूपेण कर्मणा ॥",
+          "meaning": {
+            "en": "That evil-minded man acts having abandoned dharma and truth, and does not feel remorse for such a deed."
+          }
         },
         {
           "n": 7,
-          "text": "तां चापि बुद्धिं पापिष्ठां वर्धयन्त्यस्य मन्त्रिणः ।\nशकुनिः सूतपुत्रश्च भ्राता दुःशासनस्तथा ॥"
+          "text": "तां चापि बुद्धिं पापिष्ठां वर्धयन्त्यस्य मन्त्रिणः ।\nशकुनिः सूतपुत्रश्च भ्राता दुःशासनस्तथा ॥",
+          "meaning": {
+            "en": "His counselors, Shakuni, the charioteer's son Karna and his brother Duhshasana, make that sinful thought grow."
+          }
         },
         {
           "n": 8,
-          "text": "स हि त्यागेन राज्यस्य न शमं समुपेष्यति ।\nअन्तरेण वधात्पार्थ सानुबन्धः सुयोधनः ॥"
+          "text": "स हि त्यागेन राज्यस्य न शमं समुपेष्यति ।\nअन्तरेण वधात्पार्थ सानुबन्धः सुयोधनः ॥",
+          "meaning": {
+            "en": "Duryodhana will never come to peace by giving up the kingdom, Partha; without his death along with his followers, there is none."
+          }
         },
         {
           "n": 9,
-          "text": "न चापि प्रणिपातेन त्यक्तुमिच्छति धर्मराट् ।\nयाच्यमानस्तु राज्यं स न प्रदास्यति दुर्मतिः ॥"
+          "text": "न चापि प्रणिपातेन त्यक्तुमिच्छति धर्मराट् ।\nयाच्यमानस्तु राज्यं स न प्रदास्यति दुर्मतिः ॥",
+          "meaning": {
+            "en": "And the king of dharma does not wish to give up his claim by bowing; yet the evil-minded one, when begged, will not give the kingdom."
+          }
         },
         {
           "n": 10,
-          "text": "न तु मन्ये स तद्वाच्यो यद्युधिष्ठिरशासनम् ।\nउक्तं प्रयोजनं तत्र धर्मराजेन भारत ॥"
+          "text": "न तु मन्ये स तद्वाच्यो यद्युधिष्ठिरशासनम् ।\nउक्तं प्रयोजनं तत्र धर्मराजेन भारत ॥",
+          "meaning": {
+            "en": "Still, I think he should not be told that this is Yudhishthira's command; Bharata, the king of dharma has stated the purpose there."
+          }
         },
         {
           "n": 11,
-          "text": "तथा पापस्तु तत्सर्वं न करिष्यति कौरवः ।\nतस्मिंश्चाक्रियमाणेऽसौ लोकवध्यो भविष्यति ॥"
+          "text": "तथा पापस्तु तत्सर्वं न करिष्यति कौरवः ।\nतस्मिंश्चाक्रियमाणेऽसौ लोकवध्यो भविष्यति ॥",
+          "meaning": {
+            "en": "But the sinful Kaurava will do none of it, and by not doing it he will become one the whole world may kill."
+          }
         },
         {
           "n": 12,
-          "text": "मम चापि स वध्यो वै जगतश्चापि भारत ।\nयेन कौमारके यूयं सर्वे विप्रकृतास्तथा ॥"
+          "text": "मम चापि स वध्यो वै जगतश्चापि भारत ।\nयेन कौमारके यूयं सर्वे विप्रकृतास्तथा ॥",
+          "meaning": {
+            "en": "He deserves death at my hands and the world's, Bharata, for he wronged all of you even in your childhood."
+          }
         },
         {
           "n": 13,
-          "text": "विप्रलुप्तं च वो राज्यं नृशंसेन दुरात्मना ।\nन चोपशाम्यते पापः श्रियं दृष्ट्वा युधिष्ठिरे ॥"
+          "text": "विप्रलुप्तं च वो राज्यं नृशंसेन दुरात्मना ।\nन चोपशाम्यते पापः श्रियं दृष्ट्वा युधिष्ठिरे ॥",
+          "meaning": {
+            "en": "That cruel, evil-hearted man stripped you of your kingdom, and the sinner is not quieted by seeing Yudhishthira's prosperity."
+          }
         },
         {
           "n": 14,
-          "text": "असकृच्चाप्यहं तेन त्वत्कृते पार्थ भेदितः ।\nन मया तद्गृहीतं च पापं तस्य चिकीर्षितम् ॥"
+          "text": "असकृच्चाप्यहं तेन त्वत्कृते पार्थ भेदितः ।\nन मया तद्गृहीतं च पापं तस्य चिकीर्षितम् ॥",
+          "meaning": {
+            "en": "Many times, Partha, he tried to turn me against you, and I did not accept that; I know his sinful aims."
+          }
         },
         {
           "n": 15,
-          "text": "जानासि हि महाबाहो त्वमप्यस्य परं मतम् ।\nप्रियं चिकीर्षमाणं च धर्मराजस्य मामपि ॥"
+          "text": "जानासि हि महाबाहो त्वमप्यस्य परं मतम् ।\nप्रियं चिकीर्षमाणं च धर्मराजस्य मामपि ॥",
+          "meaning": {
+            "en": "Mighty-armed one, you too know his highest purpose, and mine, that I wish to do what pleases the king of dharma."
+          }
         },
         {
           "n": 16,
-          "text": "स जानंस्तस्य चात्मानं मम चैव परं मतम् ।\nअजानन्निव चाकस्मादर्जुनाद्याभिशङ्कसे ॥"
+          "text": "स जानंस्तस्य चात्मानं मम चैव परं मतम् ।\nअजानन्निव चाकस्मादर्जुनाद्याभिशङ्कसे ॥",
+          "meaning": {
+            "en": "Knowing his nature and my highest view, you yet suspect me, as though not knowing, out of the sudden doubt about Arjuna and the rest."
+          }
         },
         {
           "n": 17,
-          "text": "यच्चापि परमं दिव्यं तच्चाप्यवगतं त्वया ।\nविधानविहितं पार्थ कथं शर्म भवेत्परैः ॥"
+          "text": "यच्चापि परमं दिव्यं तच्चाप्यवगतं त्वया ।\nविधानविहितं पार्थ कथं शर्म भवेत्परैः ॥",
+          "meaning": {
+            "en": "And whatever is the highest divine thing, you too have understood it, Partha; how can the enemy have welfare when it is ordained by fate?"
+          }
         },
         {
           "n": 18,
-          "text": "यत्तु वाचा मया शक्यं कर्मणा चापि पाण्डव ।\nकरिष्ये तदहं पार्थ न त्वाशंसे शमं परैः ॥"
+          "text": "यत्तु वाचा मया शक्यं कर्मणा चापि पाण्डव ।\nकरिष्ये तदहं पार्थ न त्वाशंसे शमं परैः ॥",
+          "meaning": {
+            "en": "Whatever I can do by word and deed, Pandava, I shall do; but I do not hope for peace from the enemy."
+          }
         },
         {
           "n": 19,
-          "text": "कथं गोहरणे ब्रूयादिच्छञ्शर्म तथाविधम् ।\nयाच्यमानोऽपि भीष्मेण संवत्सरगतेऽध्वनि ॥"
+          "text": "कथं गोहरणे ब्रूयादिच्छञ्शर्म तथाविधम् ।\nयाच्यमानोऽपि भीष्मेण संवत्सरगतेऽध्वनि ॥",
+          "meaning": {
+            "en": "How could one wishing such welfare speak at the cattle raid, even when Bhishma begged, after the year's journey was done?"
+          }
         },
         {
           "n": 20,
-          "text": "तदैव ते पराभूता यदा संकल्पितास्त्वया ।\nलवशः क्षणशश्चापि न च तुष्टः सुयोधनः ॥"
+          "text": "तदैव ते पराभूता यदा संकल्पितास्त्वया ।\nलवशः क्षणशश्चापि न च तुष्टः सुयोधनः ॥",
+          "meaning": {
+            "en": "They were already defeated when you had resolved on it, bit by bit and moment by moment; yet Suyodhana was not content."
+          }
         },
         {
           "n": 21,
-          "text": "सर्वथा तु मया कार्यं धर्मराजस्य शासनम् ।\nविभाव्यं तस्य भूयश्च कर्म पापं दुरात्मनः ॥"
+          "text": "सर्वथा तु मया कार्यं धर्मराजस्य शासनम् ।\nविभाव्यं तस्य भूयश्च कर्म पापं दुरात्मनः ॥",
+          "meaning": {
+            "en": "In every way I must carry out the king of dharma's command, and examine more fully the evil deed of that wicked man."
+          }
         }
       ]
     }

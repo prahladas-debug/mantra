@@ -22,98 +22,170 @@
       "titleEn": "Bhagavadyana Parva (Krishna's embassy)",
       "verses": [
         {
-          "text": "भगवानुवाच"
+          "text": "भगवानुवाच",
+          "meaning": {
+            "en": "The Blessed Lord said:"
+          }
         },
         {
           "n": 1,
-          "text": "यथा ब्रूयान्महाप्राज्ञो यथा ब्रूयाद्विचक्षणः ।\nयथा वाच्यस्त्वद्विधेन सुहृदा मद्विधः सुहृत् ॥"
+          "text": "यथा ब्रूयान्महाप्राज्ञो यथा ब्रूयाद्विचक्षणः ।\nयथा वाच्यस्त्वद्विधेन सुहृदा मद्विधः सुहृत् ॥",
+          "meaning": {
+            "en": "You have spoken as a wise and discerning man should, as a friend like you should speak to a friend like me."
+          }
         },
         {
           "n": 2,
-          "text": "धर्मार्थयुक्तं तथ्यं च यथा त्वय्युपपद्यते ।\nतथा वचनमुक्तोऽस्मि त्वयैतत्पितृमातृवत् ॥"
+          "text": "धर्मार्थयुक्तं तथ्यं च यथा त्वय्युपपद्यते ।\nतथा वचनमुक्तोऽस्मि त्वयैतत्पितृमातृवत् ॥",
+          "meaning": {
+            "en": "Words true and full of dharma and profit, as befit you, you have spoken to me as a father or mother would."
+          }
         },
         {
           "n": 3,
-          "text": "सत्यं प्राप्तं च युक्तं चाप्येवमेव यथात्थ माम् ।\nशृणुष्वागमने हेतुं विदुरावहितो भव ॥"
+          "text": "सत्यं प्राप्तं च युक्तं चाप्येवमेव यथात्थ माम् ।\nशृणुष्वागमने हेतुं विदुरावहितो भव ॥",
+          "meaning": {
+            "en": "It is true, proper and fitting just as you say; hear the reason for my coming, Vidura, and pay attention."
+          }
         },
         {
           "n": 4,
-          "text": "दौरात्म्यं धार्तराष्ट्रस्य क्षत्रियाणां च वैरिताम् ।\nसर्वमेतदहं जानन्क्षत्तः प्राप्तोऽद्य कौरवान् ॥"
+          "text": "दौरात्म्यं धार्तराष्ट्रस्य क्षत्रियाणां च वैरिताम् ।\nसर्वमेतदहं जानन्क्षत्तः प्राप्तोऽद्य कौरवान् ॥",
+          "meaning": {
+            "en": "Kshattri, knowing the Dhartarashtra's wickedness and the kshatriyas' enmity, I have come to the Kurus today knowing all this."
+          }
         },
         {
           "n": 5,
-          "text": "पर्यस्तां पृथिवीं सर्वां साश्वां सरथकुञ्जराम् ।\nयो मोचयेन्मृत्युपाशात्प्राप्नुयाद्धर्ममुत्तमम् ॥"
+          "text": "पर्यस्तां पृथिवीं सर्वां साश्वां सरथकुञ्जराम् ।\nयो मोचयेन्मृत्युपाशात्प्राप्नुयाद्धर्ममुत्तमम् ॥",
+          "meaning": {
+            "en": "Whoever would free the whole earth, with its horses, chariots and elephants, from the noose of death would gain the highest dharma."
+          }
         },
         {
           "n": 6,
-          "text": "धर्मकार्यं यतञ्शक्त्या न चेच्छक्नोति मानवः ।\nप्राप्तो भवति तत्पुण्यमत्र मे नास्ति संशयः ॥"
+          "text": "धर्मकार्यं यतञ्शक्त्या न चेच्छक्नोति मानवः ।\nप्राप्तो भवति तत्पुण्यमत्र मे नास्ति संशयः ॥",
+          "meaning": {
+            "en": "If a man tries with all his strength to do a righteous act but cannot succeed, he still gains its merit; of that I have no doubt."
+          }
         },
         {
           "n": 7,
-          "text": "मनसा चिन्तयन्पापं कर्मणा नाभिरोचयन् ।\nन प्राप्नोति फलं तस्य एवं धर्मविदो विदुः ॥"
+          "text": "मनसा चिन्तयन्पापं कर्मणा नाभिरोचयन् ।\nन प्राप्नोति फलं तस्य एवं धर्मविदो विदुः ॥",
+          "meaning": {
+            "en": "One who thinks evil in his mind but does not approve it in action does not get its fruit; so the knowers of dharma say."
+          }
         },
         {
           "n": 8,
-          "text": "सोऽहं यतिष्ये प्रशमं क्षत्तः कर्तुममायया ।\nकुरूणां सृञ्जयानां च संग्रामे विनशिष्यताम् ॥"
+          "text": "सोऽहं यतिष्ये प्रशमं क्षत्तः कर्तुममायया ।\nकुरूणां सृञ्जयानां च संग्रामे विनशिष्यताम् ॥",
+          "meaning": {
+            "en": "So, Kshattri, I shall try without deceit to bring about peace, so that the Kurus and Srinjayas may not perish in battle."
+          }
         },
         {
           "n": 9,
-          "text": "सेयमापन्महाघोरा कुरुष्वेव समुत्थिता ।\nकर्णदुर्योधनकृता सर्वे ह्येते तदन्वयाः ॥"
+          "text": "सेयमापन्महाघोरा कुरुष्वेव समुत्थिता ।\nकर्णदुर्योधनकृता सर्वे ह्येते तदन्वयाः ॥",
+          "meaning": {
+            "en": "This most dreadful calamity has risen up among the Kurus; it is made by Karna and Duryodhana, and the others are their followers."
+          }
         },
         {
           "n": 10,
-          "text": "व्यसनैः क्लिश्यमानं हि यो मित्रं नाभिपद्यते ।\nअनुनीय यथाशक्ति तं नृशंसं विदुर्बुधाः ॥"
+          "text": "व्यसनैः क्लिश्यमानं हि यो मित्रं नाभिपद्यते ।\nअनुनीय यथाशक्ति तं नृशंसं विदुर्बुधाः ॥",
+          "meaning": {
+            "en": "The wise call cruel the man who does not approach and appeal as far as he can to a friend afflicted by calamity."
+          }
         },
         {
           "n": 11,
-          "text": "आ केशग्रहणान्मित्रमकार्यात्संनिवर्तयन् ।\nअवाच्यः कस्यचिद्भवति कृतयत्नो यथाबलम् ॥"
+          "text": "आ केशग्रहणान्मित्रमकार्यात्संनिवर्तयन् ।\nअवाच्यः कस्यचिद्भवति कृतयत्नो यथाबलम् ॥",
+          "meaning": {
+            "en": "One who restrains a friend from wrong, even by seizing him by the hair, and has tried as best he can, is not blamed by anyone."
+          }
         },
         {
           "n": 12,
-          "text": "तत्समर्थं शुभं वाक्यं धर्मार्थसहितं हितम् ।\nधार्तराष्ट्रः सहामात्यो ग्रहीतुं विदुरार्हति ॥"
+          "text": "तत्समर्थं शुभं वाक्यं धर्मार्थसहितं हितम् ।\nधार्तराष्ट्रः सहामात्यो ग्रहीतुं विदुरार्हति ॥",
+          "meaning": {
+            "en": "Vidura, the Dhartarashtra with his ministers ought to accept my capable, beneficial words, full of dharma and profit."
+          }
         },
         {
           "n": 13,
-          "text": "हितं हि धार्तराष्ट्राणां पाण्डवानां तथैव च ।\nपृथिव्यां क्षत्रियाणां च यतिष्येऽहममायया ॥"
+          "text": "हितं हि धार्तराष्ट्राणां पाण्डवानां तथैव च ।\nपृथिव्यां क्षत्रियाणां च यतिष्येऽहममायया ॥",
+          "meaning": {
+            "en": "I shall strive without deceit for the good of the Dhartarashtras, the Pandavas and the kshatriyas of the earth."
+          }
         },
         {
           "n": 14,
-          "text": "हिते प्रयतमानं मां शङ्केद्दुर्योधनो यदि ।\nहृदयस्य च मे प्रीतिरानृण्यं च भविष्यति ॥"
+          "text": "हिते प्रयतमानं मां शङ्केद्दुर्योधनो यदि ।\nहृदयस्य च मे प्रीतिरानृण्यं च भविष्यति ॥",
+          "meaning": {
+            "en": "If Duryodhana suspects me even as I work for good, my heart will be at peace and I shall be free of debt."
+          }
         },
         {
           "n": 15,
-          "text": "ज्ञातीनां हि मिथो भेदे यन्मित्रं नाभिपद्यते ।\nसर्वयत्नेन मध्यस्थं न तन्मित्रं विदुर्बुधाः ॥"
+          "text": "ज्ञातीनां हि मिथो भेदे यन्मित्रं नाभिपद्यते ।\nसर्वयत्नेन मध्यस्थं न तन्मित्रं विदुर्बुधाः ॥",
+          "meaning": {
+            "en": "The wise do not call a friend one who, when kinsmen are divided, does not intervene as a mediator with all effort."
+          }
         },
         {
           "n": 16,
-          "text": "न मां ब्रूयुरधर्मज्ञा मूढा असुहृदस्तथा ।\nशक्तो नावारयत्कृष्णः संरब्धान्कुरुपाण्डवान् ॥"
+          "text": "न मां ब्रूयुरधर्मज्ञा मूढा असुहृदस्तथा ।\nशक्तो नावारयत्कृष्णः संरब्धान्कुरुपाण्डवान् ॥",
+          "meaning": {
+            "en": "Let not the ignorant of dharma, the foolish and the unfriendly say: Krishna was able, yet did not stop the angry Kurus and Pandavas."
+          }
         },
         {
           "n": 17,
-          "text": "उभयोः साधयन्नर्थमहमागत इत्युत ।\nतत्र यत्नमहं कृत्वा गच्छेयं नृष्ववाच्यताम् ॥"
+          "text": "उभयोः साधयन्नर्थमहमागत इत्युत ।\nतत्र यत्नमहं कृत्वा गच्छेयं नृष्ववाच्यताम् ॥",
+          "meaning": {
+            "en": "Let it be said that I came to serve the interest of both; having made an effort, I shall leave without blame among men."
+          }
         },
         {
           "n": 18,
-          "text": "मम धर्मार्थयुक्तं हि श्रुत्वा वाक्यमनामयम् ।\nन चेदादास्यते बालो दिष्टस्य वशमेष्यति ॥"
+          "text": "मम धर्मार्थयुक्तं हि श्रुत्वा वाक्यमनामयम् ।\nन चेदादास्यते बालो दिष्टस्य वशमेष्यति ॥",
+          "meaning": {
+            "en": "If the childish one, hearing my faultless words full of dharma and profit, does not take them, he will fall under the sway of fate."
+          }
         },
         {
           "n": 19,
-          "text": "अहापयन्पाण्डवार्थं यथाव-\nच्छमं कुरूणां यदि चाचरेयम् ।\nपुण्यं च मे स्याच्चरितं महार्थं\nमुच्येरंश्च कुरवो मृत्युपाशात् ॥"
+          "text": "अहापयन्पाण्डवार्थं यथाव-\nच्छमं कुरूणां यदि चाचरेयम् ।\nपुण्यं च मे स्याच्चरितं महार्थं\nमुच्येरंश्च कुरवो मृत्युपाशात् ॥",
+          "meaning": {
+            "en": "If, without sacrificing the Pandavas' cause, I bring about peace among the Kurus properly, my act will be meritorious and of great worth, and the Kurus will be freed from the noose of death."
+          }
         },
         {
           "n": 20,
-          "text": "अपि वाचं भाषमाणस्य काव्यां\nधर्मारामामर्थवतीमहिंस्राम् ।\nअवेक्षेरन्धार्तराष्ट्राः समर्थां\nमां च प्राप्तं कुरवः पूजयेयुः ॥"
+          "text": "अपि वाचं भाषमाणस्य काव्यां\nधर्मारामामर्थवतीमहिंस्राम् ।\nअवेक्षेरन्धार्तराष्ट्राः समर्थां\nमां च प्राप्तं कुरवः पूजयेयुः ॥",
+          "meaning": {
+            "en": "If, when I speak words eloquent, delighting in dharma, meaningful and harmless, the Dhartarashtras give heed, and the Kurus honor me on my arrival,"
+          }
         },
         {
           "n": 21,
-          "text": "न चापि मम पर्याप्ताः सहिताः सर्वपार्थिवाः ।\nक्रुद्धस्य प्रमुखे स्थातुं सिंहस्येवेतरे मृगाः ॥"
+          "text": "न चापि मम पर्याप्ताः सहिताः सर्वपार्थिवाः ।\nक्रुद्धस्य प्रमुखे स्थातुं सिंहस्येवेतरे मृगाः ॥",
+          "meaning": {
+            "en": "all the kings together are no match for me when I am angry, as other beasts are no match before a lion's face."
+          }
         },
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 22,
-          "text": "इत्येवमुक्त्वा वचनं वृष्णीनामृषभस्तदा ।\nशयने सुखसंस्पर्शे शिश्ये यदुसुखावहः ॥"
+          "text": "इत्येवमुक्त्वा वचनं वृष्णीनामृषभस्तदा ।\nशयने सुखसंस्पर्शे शिश्ये यदुसुखावहः ॥",
+          "meaning": {
+            "en": "So speaking, the bull of the Vrishnis, bringer of joy to the Yadavas, lay down to sleep on a couch pleasant to touch."
+          }
         }
       ]
     }

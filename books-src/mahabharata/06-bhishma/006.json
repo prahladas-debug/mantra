@@ -22,74 +22,128 @@
       "titleEn": "Jambukhandavinirmana Parva (Description of Jambudvipa)",
       "verses": [
         {
-          "text": "धृतराष्ट्र उवाच"
+          "text": "धृतराष्ट्र उवाच",
+          "meaning": {
+            "en": "Dhritarashtra said:"
+          }
         },
         {
           "n": 1,
-          "text": "नदीनां पर्वतानां च नामधेयानि संजय ।\nतथा जनपदानां च ये चान्ये भूमिमाश्रिताः ॥"
+          "text": "नदीनां पर्वतानां च नामधेयानि संजय ।\nतथा जनपदानां च ये चान्ये भूमिमाश्रिताः ॥",
+          "meaning": {
+            "en": "Sanjaya, tell me the names of the rivers and mountains, of the countries, and of whatever else rests on the earth."
+          }
         },
         {
           "n": 2,
-          "text": "प्रमाणं च प्रमाणज्ञ पृथिव्या अपि सर्वशः ।\nनिखिलेन समाचक्ष्व काननानि च संजय ॥"
+          "text": "प्रमाणं च प्रमाणज्ञ पृथिव्या अपि सर्वशः ।\nनिखिलेन समाचक्ष्व काननानि च संजय ॥",
+          "meaning": {
+            "en": "Knower of measures, give me in full the dimensions of the earth on every side, and tell me of the forests too, Sanjaya."
+          }
         },
         {
-          "text": "संजय उवाच"
+          "text": "संजय उवाच",
+          "meaning": {
+            "en": "Sanjaya said:"
+          }
         },
         {
           "n": 3,
-          "text": "पञ्चेमानि महाराज महाभूतानि संग्रहात् ।\nजगत्स्थितानि सर्वाणि समान्याहुर्मनीषिणः ॥"
+          "text": "पञ्चेमानि महाराज महाभूतानि संग्रहात् ।\nजगत्स्थितानि सर्वाणि समान्याहुर्मनीषिणः ॥",
+          "meaning": {
+            "en": "Great king, these five great elements, taken together, are said by the wise to be alike in sustaining the whole world."
+          }
         },
         {
           "n": 4,
-          "text": "भूमिरापस्तथा वायुरग्निराकाशमेव च ।\nगुणोत्तराणि सर्वाणि तेषां भूमिः प्रधानतः ॥"
+          "text": "भूमिरापस्तथा वायुरग्निराकाशमेव च ।\nगुणोत्तराणि सर्वाणि तेषां भूमिः प्रधानतः ॥",
+          "meaning": {
+            "en": "They are earth, water, air, fire and space, each excelling the last in quality; of these earth is chief."
+          }
         },
         {
           "n": 5,
-          "text": "शब्दः स्पर्शश्च रूपं च रसो गन्धश्च पञ्चमः ।\nभूमेरेते गुणाः प्रोक्ता ऋषिभिस्तत्त्ववेदिभिः ॥"
+          "text": "शब्दः स्पर्शश्च रूपं च रसो गन्धश्च पञ्चमः ।\nभूमेरेते गुणाः प्रोक्ता ऋषिभिस्तत्त्ववेदिभिः ॥",
+          "meaning": {
+            "en": "Sound, touch, form, taste and smell as the fifth: these are the qualities of earth, say the seers who know the truth."
+          }
         },
         {
           "n": 6,
-          "text": "चत्वारोऽप्सु गुणा राजन्गन्धस्तत्र न विद्यते ।\nशब्दः स्पर्शश्च रूपं च तेजसोऽथ गुणास्त्रयः ।\nशब्दः स्पर्शश्च वायोस्तु आकाशे शब्द एव च ॥"
+          "text": "चत्वारोऽप्सु गुणा राजन्गन्धस्तत्र न विद्यते ।\nशब्दः स्पर्शश्च रूपं च तेजसोऽथ गुणास्त्रयः ।\nशब्दः स्पर्शश्च वायोस्तु आकाशे शब्द एव च ॥",
+          "meaning": {
+            "en": "King, water has four qualities, and smell is absent there; fire has three, sound, touch and form; air has sound and touch, and space has only sound."
+          }
         },
         {
           "n": 7,
-          "text": "एते पञ्च गुणा राजन्महाभूतेषु पञ्चसु ।\nवर्तन्ते सर्वलोकेषु येषु लोकाः प्रतिष्ठिताः ॥"
+          "text": "एते पञ्च गुणा राजन्महाभूतेषु पञ्चसु ।\nवर्तन्ते सर्वलोकेषु येषु लोकाः प्रतिष्ठिताः ॥",
+          "meaning": {
+            "en": "These five qualities, King, are present in the five great elements, in which all the worlds are established."
+          }
         },
         {
           "n": 8,
-          "text": "अन्योन्यं नाभिवर्तन्ते साम्यं भवति वै यदा ।\nयदा तु विषमीभावमाविशन्ति परस्परम् ।\nतदा देहैर्देहवन्तो व्यतिरोहन्ति नान्यथा ॥"
+          "text": "अन्योन्यं नाभिवर्तन्ते साम्यं भवति वै यदा ।\nयदा तु विषमीभावमाविशन्ति परस्परम् ।\nतदा देहैर्देहवन्तो व्यतिरोहन्ति नान्यथा ॥",
+          "meaning": {
+            "en": "They do not trespass on one another when they are in balance; but when they enter into imbalance among themselves, then embodied beings die with their bodies, and not otherwise."
+          }
         },
         {
           "n": 9,
-          "text": "आनुपूर्व्याद्विनश्यन्ति जायन्ते चानुपूर्वशः ।\nसर्वाण्यपरिमेयानि तदेषां रूपमैश्वरम् ॥"
+          "text": "आनुपूर्व्याद्विनश्यन्ति जायन्ते चानुपूर्वशः ।\nसर्वाण्यपरिमेयानि तदेषां रूपमैश्वरम् ॥",
+          "meaning": {
+            "en": "They perish in order and are born in order; all are immeasurable, and such is their divine nature."
+          }
         },
         {
           "n": 10,
-          "text": "तत्र तत्र हि दृश्यन्ते धातवः पाञ्चभौतिकाः ।\nतेषां मनुष्यास्तर्केण प्रमाणानि प्रचक्षते ॥"
+          "text": "तत्र तत्र हि दृश्यन्ते धातवः पाञ्चभौतिकाः ।\nतेषां मनुष्यास्तर्केण प्रमाणानि प्रचक्षते ॥",
+          "meaning": {
+            "en": "Here and there the five-element substances are seen, and by reasoning people state their measures."
+          }
         },
         {
           "n": 11,
-          "text": "अचिन्त्याः खलु ये भावा न तांस्तर्केण साधयेत् ।\nप्रकृतिभ्यः परं यत्तु तदचिन्त्यस्य लक्षणम् ॥"
+          "text": "अचिन्त्याः खलु ये भावा न तांस्तर्केण साधयेत् ।\nप्रकृतिभ्यः परं यत्तु तदचिन्त्यस्य लक्षणम् ॥",
+          "meaning": {
+            "en": "Things that are inconceivable should not be established by reasoning; that which lies beyond the primal natures is the mark of the inconceivable."
+          }
         },
         {
           "n": 12,
-          "text": "सुदर्शनं प्रवक्ष्यामि द्वीपं ते कुरुनन्दन ।\nपरिमण्डलो महाराज द्वीपोऽसौ चक्रसंस्थितः ॥"
+          "text": "सुदर्शनं प्रवक्ष्यामि द्वीपं ते कुरुनन्दन ।\nपरिमण्डलो महाराज द्वीपोऽसौ चक्रसंस्थितः ॥",
+          "meaning": {
+            "en": "Descendant of Kuru, I will describe to you the island Sudarshana; this island, great king, is circular, set like a wheel."
+          }
         },
         {
           "n": 13,
-          "text": "नदीजलप्रतिच्छन्नः पर्वतैश्चाभ्रसंनिभैः ।\nपुरैश्च विविधाकारै रम्यैर्जनपदैस्तथा ॥"
+          "text": "नदीजलप्रतिच्छन्नः पर्वतैश्चाभ्रसंनिभैः ।\nपुरैश्च विविधाकारै रम्यैर्जनपदैस्तथा ॥",
+          "meaning": {
+            "en": "It is covered with the waters of rivers and mountains like clouds, and with cities of many shapes and lovely countries."
+          }
         },
         {
           "n": 14,
-          "text": "वृक्षैः पुष्पफलोपेतैः संपन्नधनधान्यवान् ।\nलावणेन समुद्रेण समन्तात्परिवारितः ॥"
+          "text": "वृक्षैः पुष्पफलोपेतैः संपन्नधनधान्यवान् ।\nलावणेन समुद्रेण समन्तात्परिवारितः ॥",
+          "meaning": {
+            "en": "It has trees full of flowers and fruit, is rich in wealth and grain, and is surrounded on every side by the salt sea."
+          }
         },
         {
           "n": 15,
-          "text": "यथा च पुरुषः पश्येदादर्शे मुखमात्मनः ।\nएवं सुदर्शनद्वीपो दृश्यते चन्द्रमण्डले ॥"
+          "text": "यथा च पुरुषः पश्येदादर्शे मुखमात्मनः ।\nएवं सुदर्शनद्वीपो दृश्यते चन्द्रमण्डले ॥",
+          "meaning": {
+            "en": "As a man sees his own face in a mirror, so the island Sudarshana is seen in the disc of the moon."
+          }
         },
         {
           "n": 16,
-          "text": "द्विरंशे पिप्पलस्तत्र द्विरंशे च शशो महान् ।\nसर्वौषधिसमावापैः सर्वतः परिबृंहितः ।\nआपस्ततोऽन्या विज्ञेया एष संक्षेप उच्यते ॥"
+          "text": "द्विरंशे पिप्पलस्तत्र द्विरंशे च शशो महान् ।\nसर्वौषधिसमावापैः सर्वतः परिबृंहितः ।\nआपस्ततोऽन्या विज्ञेया एष संक्षेप उच्यते ॥",
+          "meaning": {
+            "en": "On two parts of it is a pipal tree, and on two parts a great hare, all about it thickly grown with every herb; know the rest as water. This is the summary."
+          }
         }
       ]
     }

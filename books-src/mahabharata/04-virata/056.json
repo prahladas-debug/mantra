@@ -22,119 +22,206 @@
       "titleEn": "Gograhana Parva (The cattle raid)",
       "verses": [
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 1,
-          "text": "ततो वैकर्तनं जित्वा पार्थो वैराटिमब्रवीत् ।\nएतन्मां प्रापयानीकं यत्र तालो हिरण्मयः ॥"
+          "text": "ततो वैकर्तनं जित्वा पार्थो वैराटिमब्रवीत् ।\nएतन्मां प्रापयानीकं यत्र तालो हिरण्मयः ॥",
+          "meaning": {
+            "en": "Having defeated Karna, son of Vikartana, Partha said to Virata's son, \"Take me to that division where the golden palm banner is."
+          }
         },
         {
           "n": 2,
-          "text": "अत्र शांतनवो भीष्मो रथेऽस्माकं पितामहः ।\nकाङ्क्षमाणो मया युद्धं तिष्ठत्यमरदर्शनः ।\nआदास्याम्यहमेतस्य धनुर्ज्यामपि चाहवे ॥"
+          "text": "अत्र शांतनवो भीष्मो रथेऽस्माकं पितामहः ।\nकाङ्क्षमाणो मया युद्धं तिष्ठत्यमरदर्शनः ।\nआदास्याम्यहमेतस्य धनुर्ज्यामपि चाहवे ॥",
+          "meaning": {
+            "en": "There in his chariot stands Bhishma son of Shantanu, our grandfather, godlike to see, wanting to fight me. I will take his bow and even its string in battle."
+          }
         },
         {
           "n": 3,
-          "text": "अस्यन्तं दिव्यमस्त्रं मां चित्रमद्य निशामय ।\nशतह्रदामिवायान्तीं स्तनयित्नोरिवाम्बरे ॥"
+          "text": "अस्यन्तं दिव्यमस्त्रं मां चित्रमद्य निशामय ।\nशतह्रदामिवायान्तीं स्तनयित्नोरिवाम्बरे ॥",
+          "meaning": {
+            "en": "Now watch my wondrous divine weapon as I shoot, coming like lightning in a cloud in the sky."
+          }
         },
         {
           "n": 4,
-          "text": "सुवर्णपृष्ठं गाण्डीवं द्रक्ष्यन्ति कुरवो मम ।\nदक्षिणेनाथ वामेन कतरेण स्विदस्यति ।\nइति मां संगताः सर्वे तर्कयिष्यन्ति शत्रवः ॥"
+          "text": "सुवर्णपृष्ठं गाण्डीवं द्रक्ष्यन्ति कुरवो मम ।\nदक्षिणेनाथ वामेन कतरेण स्विदस्यति ।\nइति मां संगताः सर्वे तर्कयिष्यन्ति शत्रवः ॥",
+          "meaning": {
+            "en": "The Kurus will see my gold-backed Gandiva; \"Which hand does he shoot with, right or left?\" all the enemies gathered will wonder about me."
+          }
         },
         {
           "n": 5,
-          "text": "शोणितोदां रथावर्तां नागनक्रां दुरत्ययाम् ।\nनदीं प्रस्यन्दयिष्यामि परलोकप्रवाहिनीम् ॥"
+          "text": "शोणितोदां रथावर्तां नागनक्रां दुरत्ययाम् ।\nनदीं प्रस्यन्दयिष्यामि परलोकप्रवाहिनीम् ॥",
+          "meaning": {
+            "en": "I will make a river flow with blood for water, chariots for whirlpools, elephants for crocodiles, hard to cross and carrying toward the next world."
+          }
         },
         {
           "n": 6,
-          "text": "पाणिपादशिरःपृष्ठबाहुशाखानिरन्तरम् ।\nवनं कुरूणां छेत्स्यामि भल्लैः संनतपर्वभिः ॥"
+          "text": "पाणिपादशिरःपृष्ठबाहुशाखानिरन्तरम् ।\nवनं कुरूणां छेत्स्यामि भल्लैः संनतपर्वभिः ॥",
+          "meaning": {
+            "en": "With smooth-jointed spear arrows I will cut down the forest of the Kurus, thick with hands, feet, heads, backs, arms and branches."
+          }
         },
         {
           "n": 7,
-          "text": "जयतः कौरवीं सेनामेकस्य मम धन्विनः ।\nशतं मार्गा भविष्यन्ति पावकस्येव कानने ।\nमया चक्रमिवाविद्धं सैन्यं द्रक्ष्यसि केवलम् ॥"
+          "text": "जयतः कौरवीं सेनामेकस्य मम धन्विनः ।\nशतं मार्गा भविष्यन्ति पावकस्येव कानने ।\nमया चक्रमिवाविद्धं सैन्यं द्रक्ष्यसि केवलम् ॥",
+          "meaning": {
+            "en": "As I, a single archer, conquer the Kaurava army, there will be a hundred paths like those of fire in a forest. You will see the army whirled around by me like a wheel."
+          }
         },
         {
           "n": 8,
-          "text": "असंभ्रान्तो रथे तिष्ठ समेषु विषमेषु च ।\nदिवमावृत्य तिष्ठन्तं गिरिं भेत्स्यामि धारिभिः ॥"
+          "text": "असंभ्रान्तो रथे तिष्ठ समेषु विषमेषु च ।\nदिवमावृत्य तिष्ठन्तं गिरिं भेत्स्यामि धारिभिः ॥",
+          "meaning": {
+            "en": "Stay in your chariot unflustered on level ground and rough; I will split with showers of arrows the mountain that stands covering the sky."
+          }
         },
         {
           "n": 9,
-          "text": "अहमिन्द्रस्य वचनात्संग्रामेऽभ्यहनं पुरा ।\nपौलोमान्कालखञ्जांश्च सहस्राणि शतानि च ॥"
+          "text": "अहमिन्द्रस्य वचनात्संग्रामेऽभ्यहनं पुरा ।\nपौलोमान्कालखञ्जांश्च सहस्राणि शतानि च ॥",
+          "meaning": {
+            "en": "Long ago, at Indra's command, I killed in battle the Paulomas and Kalakhanjas, thousands and hundreds of them."
+          }
         },
         {
           "n": 10,
-          "text": "अहमिन्द्राद्दृढां मुष्टिं ब्रह्मणः कृतहस्तताम् ।\nप्रगाढं तुमुलं चित्रमतिविद्धं प्रजापतेः ॥"
+          "text": "अहमिन्द्राद्दृढां मुष्टिं ब्रह्मणः कृतहस्तताम् ।\nप्रगाढं तुमुलं चित्रमतिविद्धं प्रजापतेः ॥",
+          "meaning": {
+            "en": "From Indra I have a firm grip, from Brahma a skilled hand, and from Prajapati a deep, tumultuous and wondrous aim."
+          }
         },
         {
           "n": 11,
-          "text": "अहं पारे समुद्रस्य हिरण्यपुरमारुजम् ।\nजित्वा षष्टिसहस्राणि रथिनामुग्रधन्विनाम् ॥"
+          "text": "अहं पारे समुद्रस्य हिरण्यपुरमारुजम् ।\nजित्वा षष्टिसहस्राणि रथिनामुग्रधन्विनाम् ॥",
+          "meaning": {
+            "en": "Across the sea I broke Hiranyapura after conquering sixty thousand fierce-bowed charioteers."
+          }
         },
         {
           "n": 12,
-          "text": "ध्वजवृक्षं पत्तितृणं रथसिंहगणायुतम् ।\nवनमादीपयिष्यामि कुरूणामस्त्रतेजसा ॥"
+          "text": "ध्वजवृक्षं पत्तितृणं रथसिंहगणायुतम् ।\nवनमादीपयिष्यामि कुरूणामस्त्रतेजसा ॥",
+          "meaning": {
+            "en": "With the fire of my weapons I will set ablaze the forest of the Kurus, with banners for trees, foot soldiers for grass and herds of chariot-lions."
+          }
         },
         {
           "n": 13,
-          "text": "तानहं रथनीडेभ्यः शरैः संनतपर्वभिः ।\nएकः संकालयिष्यामि वज्रपाणिरिवासुरान् ॥"
+          "text": "तानहं रथनीडेभ्यः शरैः संनतपर्वभिः ।\nएकः संकालयिष्यामि वज्रपाणिरिवासुरान् ॥",
+          "meaning": {
+            "en": "Alone I will drive them from their chariot-nests with smooth-jointed arrows, like the thunderbolt-wielder driving the asuras."
+          }
         },
         {
           "n": 14,
-          "text": "रौद्रं रुद्रादहं ह्यस्त्रं वारुणं वरुणादपि ।\nअस्त्रमाग्नेयमग्नेश्च वायव्यं मातरिश्वनः ।\nवज्रादीनि तथास्त्राणि शक्रादहमवाप्तवान् ॥"
+          "text": "रौद्रं रुद्रादहं ह्यस्त्रं वारुणं वरुणादपि ।\nअस्त्रमाग्नेयमग्नेश्च वायव्यं मातरिश्वनः ।\nवज्रादीनि तथास्त्राणि शक्रादहमवाप्तवान् ॥",
+          "meaning": {
+            "en": "I have gained the Raudra weapon from Rudra, the Varuna from Varuna, the Agneya from Agni, the Vayavya from the wind, and thunderbolt and other weapons from Shakra."
+          }
         },
         {
           "n": 15,
-          "text": "धार्तराष्ट्रवनं घोरं नरसिंहाभिरक्षितम् ।\nअहमुत्पाटयिष्यामि वैराटे व्येतु ते भयम् ॥"
+          "text": "धार्तराष्ट्रवनं घोरं नरसिंहाभिरक्षितम् ।\nअहमुत्पाटयिष्यामि वैराटे व्येतु ते भयम् ॥",
+          "meaning": {
+            "en": "I will uproot the terrible forest of Dhritarashtra's sons, guarded by lions among men. Let your fear go, son of Virata.\""
+          }
         },
         {
           "n": 16,
-          "text": "एवमाश्वासितस्तेन वैराटिः सव्यसाचिना ।\nव्यगाहत रथानीकं भीमं भीष्मस्य धीमतः ॥"
+          "text": "एवमाश्वासितस्तेन वैराटिः सव्यसाचिना ।\nव्यगाहत रथानीकं भीमं भीष्मस्य धीमतः ॥",
+          "meaning": {
+            "en": "Comforted so by Savyasachin, Virata's son plunged into the dreadful chariot host of the wise Bhishma."
+          }
         },
         {
           "n": 17,
-          "text": "तमायान्तं महाबाहुं जिगीषन्तं रणे परान् ।\nअभ्यवारयदव्यग्रः क्रूरकर्मा धनंजयम् ॥"
+          "text": "तमायान्तं महाबाहुं जिगीषन्तं रणे परान् ।\nअभ्यवारयदव्यग्रः क्रूरकर्मा धनंजयम् ॥",
+          "meaning": {
+            "en": "As the mighty-armed Dhananjaya came, eager to defeat enemies in battle, the cruel-acting Bhishma calmly stopped him."
+          }
         },
         {
           "n": 18,
-          "text": "तं चित्रमाल्याभरणाः कृतविद्या मनस्विनः ।\nआगच्छन्भीमधन्वानं मौर्वीं पर्यस्य बाहुभिः ॥"
+          "text": "तं चित्रमाल्याभरणाः कृतविद्या मनस्विनः ।\nआगच्छन्भीमधन्वानं मौर्वीं पर्यस्य बाहुभिः ॥",
+          "meaning": {
+            "en": "The accomplished and spirited men with colorful garlands and ornaments came, looping bowstrings on their arms, against that terrible archer."
+          }
         },
         {
           "n": 19,
-          "text": "दुःशासनो विकर्णश्च दुःसहोऽथ विविंशतिः ।\nआगत्य भीमधन्वानं बीभत्सुं पर्यवारयन् ॥"
+          "text": "दुःशासनो विकर्णश्च दुःसहोऽथ विविंशतिः ।\nआगत्य भीमधन्वानं बीभत्सुं पर्यवारयन् ॥",
+          "meaning": {
+            "en": "Duhshasana, Vikarna, Duhsaha and Vivimshati came and surrounded Bibhatsu of the fearsome bow."
+          }
         },
         {
           "n": 20,
-          "text": "दुःशासनस्तु भल्लेन विद्ध्वा वैराटिमुत्तरम् ।\nद्वितीयेनार्जुनं वीरः प्रत्यविध्यत्स्तनान्तरे ॥"
+          "text": "दुःशासनस्तु भल्लेन विद्ध्वा वैराटिमुत्तरम् ।\nद्वितीयेनार्जुनं वीरः प्रत्यविध्यत्स्तनान्तरे ॥",
+          "meaning": {
+            "en": "Duhshasana pierced Virata's son Uttara with a spear-arrow and with a second hit Arjuna between the breasts."
+          }
         },
         {
           "n": 21,
-          "text": "तस्य जिष्णुरुपावृत्य पृथुधारेण कार्मुकम् ।\nचकर्त गार्ध्रपत्रेण जातरूपपरिष्कृतम् ॥"
+          "text": "तस्य जिष्णुरुपावृत्य पृथुधारेण कार्मुकम् ।\nचकर्त गार्ध्रपत्रेण जातरूपपरिष्कृतम् ॥",
+          "meaning": {
+            "en": "Jishnu, turning, cut his gold-decorated bow with a broad-edged vulture-feathered arrow."
+          }
         },
         {
           "n": 22,
-          "text": "अथैनं पञ्चभिः पश्चात्प्रत्यविध्यत्स्तनान्तरे ।\nसोऽपयातो रणं हित्वा पार्थबाणप्रपीडितः ॥"
+          "text": "अथैनं पञ्चभिः पश्चात्प्रत्यविध्यत्स्तनान्तरे ।\nसोऽपयातो रणं हित्वा पार्थबाणप्रपीडितः ॥",
+          "meaning": {
+            "en": "Then he struck him with five more arrows between the breasts, and Duhshasana, tormented by Partha's arrows, left the battle."
+          }
         },
         {
           "n": 23,
-          "text": "तं विकर्णः शरैस्तीक्ष्णैर्गार्ध्रपत्रैरजिह्मगैः ।\nविव्याध परवीरघ्नमर्जुनं धृतराष्ट्रजः ॥"
+          "text": "तं विकर्णः शरैस्तीक्ष्णैर्गार्ध्रपत्रैरजिह्मगैः ।\nविव्याध परवीरघ्नमर्जुनं धृतराष्ट्रजः ॥",
+          "meaning": {
+            "en": "Then Vikarna, a son of Dhritarashtra, pierced Arjuna, killer of enemy heroes, with sharp, straight-flying, vulture-feathered arrows."
+          }
         },
         {
           "n": 24,
-          "text": "ततस्तमपि कौन्तेयः शरेणानतपर्वणा ।\nललाटेऽभ्यहनत्तूर्णं स विद्धः प्रापतद्रथात् ॥"
+          "text": "ततस्तमपि कौन्तेयः शरेणानतपर्वणा ।\nललाटेऽभ्यहनत्तूर्णं स विद्धः प्रापतद्रथात् ॥",
+          "meaning": {
+            "en": "Kunti's son quickly struck him too on the forehead with a smooth-jointed arrow, and pierced, Vikarna fell from his chariot."
+          }
         },
         {
           "n": 25,
-          "text": "ततः पार्थमभिद्रुत्य दुःसहः सविविंशतिः ।\nअवाकिरच्छरैस्तीक्ष्णैः परीप्सन्भ्रातरं रणे ॥"
+          "text": "ततः पार्थमभिद्रुत्य दुःसहः सविविंशतिः ।\nअवाकिरच्छरैस्तीक्ष्णैः परीप्सन्भ्रातरं रणे ॥",
+          "meaning": {
+            "en": "Then Duhsaha and Vivimshati attacked Partha and showered him with sharp arrows, trying to save their brother in the battle."
+          }
         },
         {
           "n": 26,
-          "text": "तावुभौ गार्ध्रपत्राभ्यां निशिताभ्यां धनंजयः ।\nविद्ध्वा युगपदव्यग्रस्तयोर्वाहानसूदयत् ॥"
+          "text": "तावुभौ गार्ध्रपत्राभ्यां निशिताभ्यां धनंजयः ।\nविद्ध्वा युगपदव्यग्रस्तयोर्वाहानसूदयत् ॥",
+          "meaning": {
+            "en": "Dhananjaya, calm, pierced the two of them together with sharp vulture-feathered arrows and killed their horses."
+          }
         },
         {
           "n": 27,
-          "text": "तौ हताश्वौ विविद्धाङ्गौ धृतराष्ट्रात्मजावुभौ ।\nअभिपत्य रथैरन्यैरपनीतौ पदानुगैः ॥"
+          "text": "तौ हताश्वौ विविद्धाङ्गौ धृतराष्ट्रात्मजावुभौ ।\nअभिपत्य रथैरन्यैरपनीतौ पदानुगैः ॥",
+          "meaning": {
+            "en": "Both sons of Dhritarashtra, with horses killed and bodies wounded, were carried off by their followers on other chariots."
+          }
         },
         {
           "n": 28,
-          "text": "सर्वा दिशश्चाभ्यपतद्बीभत्सुरपराजितः ।\nकिरीटमाली कौन्तेयो लब्धलक्षो महाबलः ॥"
+          "text": "सर्वा दिशश्चाभ्यपतद्बीभत्सुरपराजितः ।\nकिरीटमाली कौन्तेयो लब्धलक्षो महाबलः ॥",
+          "meaning": {
+            "en": "The undefeated Bibhatsu, the mighty son of Kunti, crowned and with his aim fixed, then rushed in all directions."
+          }
         }
       ]
     }

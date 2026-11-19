@@ -22,177 +22,309 @@
       "titleEn": "Ulukadutagamana Parva (Uluka's embassy)",
       "verses": [
         {
-          "text": "संजय उवाच"
+          "text": "संजय उवाच",
+          "meaning": {
+            "en": "Sanjaya said:"
+          }
         },
         {
           "n": 1,
-          "text": "सेनानिवेशं संप्राप्य कैतव्यः पाण्डवस्य ह ।\nसमागतः पाण्डवेयैर्युधिष्ठिरमभाषत ॥"
+          "text": "सेनानिवेशं संप्राप्य कैतव्यः पाण्डवस्य ह ।\nसमागतः पाण्डवेयैर्युधिष्ठिरमभाषत ॥",
+          "meaning": {
+            "en": "Having reached the Pandava camp, the son of Kitava met the Pandavas and spoke to Yudhishthira."
+          }
         },
         {
           "n": 2,
-          "text": "अभिज्ञो दूतवाक्यानां यथोक्तं ब्रुवतो मम ।\nदुर्योधनसमादेशं श्रुत्वा न क्रोद्धुमर्हसि ॥"
+          "text": "अभिज्ञो दूतवाक्यानां यथोक्तं ब्रुवतो मम ।\nदुर्योधनसमादेशं श्रुत्वा न क्रोद्धुमर्हसि ॥",
+          "meaning": {
+            "en": "I know how messengers should speak; as I say it as instructed, you should not be angry when you hear Duryodhana's message."
+          }
         },
         {
-          "text": "युधिष्ठिर उवाच"
+          "text": "युधिष्ठिर उवाच",
+          "meaning": {
+            "en": "Yudhishthira said:"
+          }
         },
         {
           "n": 3,
-          "text": "उलूक न भयं तेऽस्ति ब्रूहि त्वं विगतज्वरः ।\nयन्मतं धार्तराष्ट्रस्य लुब्धस्यादीर्घदर्शिनः ॥"
+          "text": "उलूक न भयं तेऽस्ति ब्रूहि त्वं विगतज्वरः ।\nयन्मतं धार्तराष्ट्रस्य लुब्धस्यादीर्घदर्शिनः ॥",
+          "meaning": {
+            "en": "Uluka, you have no fear; speak without worry whatever is the opinion of the greedy, short-sighted son of Dhritarashtra."
+          }
         },
         {
-          "text": "संजय उवाच"
+          "text": "संजय उवाच",
+          "meaning": {
+            "en": "Sanjaya said:"
+          }
         },
         {
           "n": 4,
-          "text": "ततो द्युतिमतां मध्ये पाण्डवानां महात्मनाम् ।\nसृञ्जयानां च सर्वेषां कृष्णस्य च यशस्विनः ॥"
+          "text": "ततो द्युतिमतां मध्ये पाण्डवानां महात्मनाम् ।\nसृञ्जयानां च सर्वेषां कृष्णस्य च यशस्विनः ॥",
+          "meaning": {
+            "en": "Then in the midst of the radiant, great-souled Pandavas, all the Srinjayas and the famous Krishna,"
+          }
         },
         {
           "n": 5,
-          "text": "द्रुपदस्य सपुत्रस्य विराटस्य च संनिधौ ।\nभूमिपानां च सर्वेषां मध्ये वाक्यं जगाद ह ॥"
+          "text": "द्रुपदस्य सपुत्रस्य विराटस्य च संनिधौ ।\nभूमिपानां च सर्वेषां मध्ये वाक्यं जगाद ह ॥",
+          "meaning": {
+            "en": "In the presence of Drupada and his son, of Virata, and in the middle of all the kings, he spoke."
+          }
         },
         {
           "n": 6,
-          "text": "इदं त्वामब्रवीद्राजा धार्तराष्ट्रो महामनाः ।\nशृण्वतां कुरुवीराणां तन्निबोध नराधिप ॥"
+          "text": "इदं त्वामब्रवीद्राजा धार्तराष्ट्रो महामनाः ।\nशृण्वतां कुरुवीराणां तन्निबोध नराधिप ॥",
+          "meaning": {
+            "en": "King Duryodhana, the high-minded son of Dhritarashtra, said this to you. Listen, king, while the Kuru heroes hear it."
+          }
         },
         {
           "n": 7,
-          "text": "पराजितोऽसि द्यूतेन कृष्णा चानायिता सभाम् ।\nशक्योऽमर्षो मनुष्येण कर्तुं पुरुषमानिना ॥"
+          "text": "पराजितोऽसि द्यूतेन कृष्णा चानायिता सभाम् ।\nशक्योऽमर्षो मनुष्येण कर्तुं पुरुषमानिना ॥",
+          "meaning": {
+            "en": "You were beaten at dice and Krishna was dragged into the hall. A man who thinks himself a man can feel anger at that."
+          }
         },
         {
           "n": 8,
-          "text": "द्वादशैव तु वर्षाणि वने धिष्ण्याद्विवासिताः ।\nसंवत्सरं विराटस्य दास्यमास्थाय चोषिताः ॥"
+          "text": "द्वादशैव तु वर्षाणि वने धिष्ण्याद्विवासिताः ।\nसंवत्सरं विराटस्य दास्यमास्थाय चोषिताः ॥",
+          "meaning": {
+            "en": "For twelve years you were driven from your seat to the forest, and you lived one year in servitude in Virata's house."
+          }
         },
         {
           "n": 9,
-          "text": "अमर्षं राज्यहरणं वनवासं च पाण्डव ।\nद्रौपद्याश्च परिक्लेशं संस्मरन्पुरुषो भव ॥"
+          "text": "अमर्षं राज्यहरणं वनवासं च पाण्डव ।\nद्रौपद्याश्च परिक्लेशं संस्मरन्पुरुषो भव ॥",
+          "meaning": {
+            "en": "Remember your anger, the seizing of the kingdom, the forest life and Draupadi's torment, Pandava; be a man."
+          }
         },
         {
           "n": 10,
-          "text": "अशक्तेन च यच्छप्तं भीमसेनेन पाण्डव ।\nदुःशासनस्य रुधिरं पीयतां यदि शक्यते ॥"
+          "text": "अशक्तेन च यच्छप्तं भीमसेनेन पाण्डव ।\nदुःशासनस्य रुधिरं पीयतां यदि शक्यते ॥",
+          "meaning": {
+            "en": "And Bhimasena's oath in impotence, Pandava: drink Duhshasana's blood if you can."
+          }
         },
         {
           "n": 11,
-          "text": "लोहाभिहारो निर्वृत्तः कुरुक्षेत्रमकर्दमम् ।\nसमः पन्था भृता योधाः श्वो युध्यस्व सकेशवः ॥"
+          "text": "लोहाभिहारो निर्वृत्तः कुरुक्षेत्रमकर्दमम् ।\nसमः पन्था भृता योधाः श्वो युध्यस्व सकेशवः ॥",
+          "meaning": {
+            "en": "The weapons have been prepared and Kurukshetra is dry of mud; the road is smooth and your warriors paid. Fight tomorrow along with Keshava."
+          }
         },
         {
           "n": 12,
-          "text": "असमागम्य भीष्मेण संयुगे किं विकत्थसे ।\nआरुरुक्षुर्यथा मन्दः पर्वतं गन्धमादनम् ॥"
+          "text": "असमागम्य भीष्मेण संयुगे किं विकत्थसे ।\nआरुरुक्षुर्यथा मन्दः पर्वतं गन्धमादनम् ॥",
+          "meaning": {
+            "en": "Without meeting Bhishma in battle, why do you boast, like a fool wishing to climb Mount Gandhamadana?"
+          }
         },
         {
           "n": 13,
-          "text": "द्रोणं च युध्यतां श्रेष्ठं शचीपतिसमं युधि ।\nअजित्वा संयुगे पार्थ राज्यं कथमिहेच्छसि ॥"
+          "text": "द्रोणं च युध्यतां श्रेष्ठं शचीपतिसमं युधि ।\nअजित्वा संयुगे पार्थ राज्यं कथमिहेच्छसि ॥",
+          "meaning": {
+            "en": "And Drona, best of fighters, equal to Indra in battle: how can you want a kingdom here without conquering him, Partha?"
+          }
         },
         {
           "n": 14,
-          "text": "ब्राह्मे धनुषि चाचार्यं वेदयोरन्तरं द्वयोः ।\nयुधि धुर्यमविक्षोभ्यमनीकधरमच्युतम् ॥"
+          "text": "ब्राह्मे धनुषि चाचार्यं वेदयोरन्तरं द्वयोः ।\nयुधि धुर्यमविक्षोभ्यमनीकधरमच्युतम् ॥",
+          "meaning": {
+            "en": "He is the teacher in the Brahma bow, the bridge between the two Vedas, the unshakable yoke-bearer in battle, who bears the army and never falls."
+          }
         },
         {
           "n": 15,
-          "text": "द्रोणं मोहाद्युधा पार्थ यज्जिगीषसि तन्मृषा ।\nन हि शुश्रुम वातेन मेरुमुन्मथितं गिरिम् ॥"
+          "text": "द्रोणं मोहाद्युधा पार्थ यज्जिगीषसि तन्मृषा ।\nन हि शुश्रुम वातेन मेरुमुन्मथितं गिरिम् ॥",
+          "meaning": {
+            "en": "Partha, your wish to conquer Drona in battle through folly is vain; we have not heard that the wind ever uprooted Mount Meru."
+          }
         },
         {
           "n": 16,
-          "text": "अनिलो वा वहेन्मेरुं द्यौर्वापि निपतेन्महीम् ।\nयुगं वा परिवर्तेत यद्येवं स्याद्यथात्थ माम् ॥"
+          "text": "अनिलो वा वहेन्मेरुं द्यौर्वापि निपतेन्महीम् ।\nयुगं वा परिवर्तेत यद्येवं स्याद्यथात्थ माम् ॥",
+          "meaning": {
+            "en": "The wind might carry Meru off, or the sky fall to the earth, or the age turn over, if it were as you tell me."
+          }
         },
         {
           "n": 17,
-          "text": "को ह्याभ्यां जीविताकाङ्क्षी प्राप्यास्त्रमरिमर्दनम् ।\nगजो वाजी नरो वापि पुनः स्वस्ति गृहान्व्रजेत् ॥"
+          "text": "को ह्याभ्यां जीविताकाङ्क्षी प्राप्यास्त्रमरिमर्दनम् ।\nगजो वाजी नरो वापि पुनः स्वस्ति गृहान्व्रजेत् ॥",
+          "meaning": {
+            "en": "For who that wishes to live, whether elephant, horse or man, would return home safe once he has met these two, destroyers of foes with weapons?"
+          }
         },
         {
           "n": 18,
-          "text": "कथमाभ्यामभिध्यातः संसृष्टो दारुणेन वा ।\nरणे जीवन्विमुच्येत पदा भूमिमुपस्पृशन् ॥"
+          "text": "कथमाभ्यामभिध्यातः संसृष्टो दारुणेन वा ।\nरणे जीवन्विमुच्येत पदा भूमिमुपस्पृशन् ॥",
+          "meaning": {
+            "en": "How could one who is eyed by them or touched by their fierce power be released alive in battle, even touching the ground with his feet?"
+          }
         },
         {
           "n": 19,
-          "text": "किं दर्दुरः कूपशयो यथेमां\nन बुध्यसे राजचमूं समेताम् ।\nदुराधर्षां देवचमूप्रकाशां\nगुप्तां नरेन्द्रैस्त्रिदशैरिव द्याम् ॥"
+          "text": "किं दर्दुरः कूपशयो यथेमां\nन बुध्यसे राजचमूं समेताम् ।\nदुराधर्षां देवचमूप्रकाशां\nगुप्तां नरेन्द्रैस्त्रिदशैरिव द्याम् ॥",
+          "meaning": {
+            "en": "Like a frog in a well, do you not know this royal army assembled, hard to assail, shining like an army of gods, guarded by kings as the sky is by the gods?"
+          }
         },
         {
           "n": 20,
-          "text": "प्राच्यैः प्रतीच्यैरथ दाक्षिणात्यै-\nरुदीच्यकाम्बोजशकैः खशैश्च ।\nशाल्वैः समत्स्यैः कुरुमध्यदेशै-\nर्म्लेच्छैः पुलिन्दैर्द्रविडान्ध्रकाञ्च्यैः ॥"
+          "text": "प्राच्यैः प्रतीच्यैरथ दाक्षिणात्यै-\nरुदीच्यकाम्बोजशकैः खशैश्च ।\nशाल्वैः समत्स्यैः कुरुमध्यदेशै-\nर्म्लेच्छैः पुलिन्दैर्द्रविडान्ध्रकाञ्च्यैः ॥",
+          "meaning": {
+            "en": "By people from the east, west and south, by northerners, Kambojas, Shakas and Khashas, by Shalvas, Matsyas, the people of the Kuru heartland, mlecchas, Pulindas, Dravidas, Andhras and Kanchis,"
+          }
         },
         {
           "n": 21,
-          "text": "नानाजनौघं युधि संप्रवृद्धं\nगाङ्गं यथा वेगमवारणीयम् ।\nमां च स्थितं नागबलस्य मध्ये\nयुयुत्ससे मन्द किमल्पबुद्धे ॥"
+          "text": "नानाजनौघं युधि संप्रवृद्धं\nगाङ्गं यथा वेगमवारणीयम् ।\nमां च स्थितं नागबलस्य मध्ये\nयुयुत्ससे मन्द किमल्पबुद्धे ॥",
+          "meaning": {
+            "en": "A flood of many peoples swollen in battle, like the Ganga's current, impossible to stop; and I stand in the middle with the strength of elephants. Why do you wish to fight, fool of small mind?"
+          }
         },
         {
           "n": 22,
-          "text": "इत्येवमुक्त्वा राजानं धर्मपुत्रं युधिष्ठिरम् ।\nअभ्यावृत्य पुनर्जिष्णुमुलूकः प्रत्यभाषत ॥"
+          "text": "इत्येवमुक्त्वा राजानं धर्मपुत्रं युधिष्ठिरम् ।\nअभ्यावृत्य पुनर्जिष्णुमुलूकः प्रत्यभाषत ॥",
+          "meaning": {
+            "en": "Having thus spoken to King Yudhishthira, son of Dharma, Uluka turned and spoke again to Jishnu."
+          }
         },
         {
           "n": 23,
-          "text": "अकत्थमानो युध्यस्व कत्थसेऽर्जुन किं बहु ।\nपर्यायात्सिद्धिरेतस्य नैतत्सिध्यति कत्थनात् ॥"
+          "text": "अकत्थमानो युध्यस्व कत्थसेऽर्जुन किं बहु ।\nपर्यायात्सिद्धिरेतस्य नैतत्सिध्यति कत्थनात् ॥",
+          "meaning": {
+            "en": "Fight without boasting; why do you boast so much, Arjuna? Success comes in due course, not by boasting."
+          }
         },
         {
           "n": 24,
-          "text": "यदीदं कत्थनात्सिध्येत्कर्म लोके धनंजय ।\nसर्वे भवेयुः सिद्धार्था बहु कत्थेत दुर्गतः ॥"
+          "text": "यदीदं कत्थनात्सिध्येत्कर्म लोके धनंजय ।\nसर्वे भवेयुः सिद्धार्था बहु कत्थेत दुर्गतः ॥",
+          "meaning": {
+            "en": "If work in the world were achieved by boasting, Dhananjaya, all would be successful, and the poor man would boast a lot."
+          }
         },
         {
           "n": 25,
-          "text": "जानामि ते वासुदेवं सहायं\nजानामि ते गाण्डिवं तालमात्रम् ।\nजानाम्येतत्त्वादृशो नास्ति योद्धा\nराज्यं च ते जानमानो हरामि ॥"
+          "text": "जानामि ते वासुदेवं सहायं\nजानामि ते गाण्डिवं तालमात्रम् ।\nजानाम्येतत्त्वादृशो नास्ति योद्धा\nराज्यं च ते जानमानो हरामि ॥",
+          "meaning": {
+            "en": "I know Vasudeva is your ally, I know your Gandiva is a palm tree's height, and I know there is no warrior like you; yet knowing all this I will take your kingdom."
+          }
         },
         {
           "n": 26,
-          "text": "न तु पर्यायधर्मेण सिद्धिं प्राप्नोति भूयसीम् ।\nमनसैव हि भूतानि धाता प्रकुरुते वशे ॥"
+          "text": "न तु पर्यायधर्मेण सिद्धिं प्राप्नोति भूयसीम् ।\nमनसैव हि भूतानि धाता प्रकुरुते वशे ॥",
+          "meaning": {
+            "en": "But success is not gained by a mere turn of events; the Creator brings beings under control by his mind alone."
+          }
         },
         {
           "n": 27,
-          "text": "त्रयोदश समा भुक्तं राज्यं विलपतस्तव ।\nभूयश्चैव प्रशासिष्ये निहत्य त्वां सबान्धवम् ॥"
+          "text": "त्रयोदश समा भुक्तं राज्यं विलपतस्तव ।\nभूयश्चैव प्रशासिष्ये निहत्य त्वां सबान्धवम् ॥",
+          "meaning": {
+            "en": "I enjoyed the kingdom for thirteen years while you lamented, and I will rule again after killing you with your kinsmen."
+          }
         },
         {
           "n": 28,
-          "text": "क्व तदा गाण्डिवं तेऽभूद्यत्त्वं दासपणे जितः ।\nक्व तदा भीमसेनस्य बलमासीच्च फल्गुन ॥"
+          "text": "क्व तदा गाण्डिवं तेऽभूद्यत्त्वं दासपणे जितः ।\nक्व तदा भीमसेनस्य बलमासीच्च फल्गुन ॥",
+          "meaning": {
+            "en": "Where was your Gandiva when you were won as a slave in the wager? Where was Bhimasena's strength then, Phalguna?"
+          }
         },
         {
           "n": 29,
-          "text": "सगदाद्भीमसेनाच्च पार्थाच्चैव सगाण्डिवात् ।\nन वै मोक्षस्तदा वोऽभूद्विना कृष्णामनिन्दिताम् ॥"
+          "text": "सगदाद्भीमसेनाच्च पार्थाच्चैव सगाण्डिवात् ।\nन वै मोक्षस्तदा वोऽभूद्विना कृष्णामनिन्दिताम् ॥",
+          "meaning": {
+            "en": "Neither Bhimasena with his mace nor Partha with Gandiva was freed then, except by the blameless Krishna."
+          }
         },
         {
           "n": 30,
-          "text": "सा वो दास्यं समापन्नान्मोक्षयामास भामिनी ।\nअमानुष्यसमायुक्तान्दास्यकर्मण्यवस्थितान् ॥"
+          "text": "सा वो दास्यं समापन्नान्मोक्षयामास भामिनी ।\nअमानुष्यसमायुक्तान्दास्यकर्मण्यवस्थितान् ॥",
+          "meaning": {
+            "en": "That lady freed you, who had fallen into servitude, set to slave's work and made to seem less than human."
+          }
         },
         {
           "n": 31,
-          "text": "अवोचं यत्षण्ढतिलानहं वस्तथ्यमेव तत् ।\nधृता हि वेणी पार्थेन विराटनगरे तदा ॥"
+          "text": "अवोचं यत्षण्ढतिलानहं वस्तथ्यमेव तत् ।\nधृता हि वेणी पार्थेन विराटनगरे तदा ॥",
+          "meaning": {
+            "en": "What I said of you as \"sesame seeds without kernels\" was true; for in Virata's city Partha wore a braid."
+          }
         },
         {
           "n": 32,
-          "text": "सूदकर्मणि च श्रान्तं विराटस्य महानसे ।\nभीमसेनेन कौन्तेय यच्च तन्मम पौरुषम् ॥"
+          "text": "सूदकर्मणि च श्रान्तं विराटस्य महानसे ।\nभीमसेनेन कौन्तेय यच्च तन्मम पौरुषम् ॥",
+          "meaning": {
+            "en": "And Bhimasena, tired in Virata's kitchen from the cook's work, son of Kunti: that was my manliness."
+          }
         },
         {
           "n": 33,
-          "text": "एवमेव सदा दण्डं क्षत्रियाः क्षत्रिये दधुः ।\nश्रेण्यां कक्ष्यां च वेण्यां च संयुगे यः पलायते ॥"
+          "text": "एवमेव सदा दण्डं क्षत्रियाः क्षत्रिये दधुः ।\nश्रेण्यां कक्ष्यां च वेण्यां च संयुगे यः पलायते ॥",
+          "meaning": {
+            "en": "Kshatriyas have always inflicted punishment on a Kshatriya in this way, on one who flees in battle from the rank, the line or the formation."
+          }
         },
         {
           "n": 34,
-          "text": "न भयाद्वासुदेवस्य न चापि तव फल्गुन ।\nराज्यं प्रतिप्रदास्यामि युध्यस्व सहकेशवः ॥"
+          "text": "न भयाद्वासुदेवस्य न चापि तव फल्गुन ।\nराज्यं प्रतिप्रदास्यामि युध्यस्व सहकेशवः ॥",
+          "meaning": {
+            "en": "I will not give back the kingdom out of fear of Vasudeva or you, Phalguna; fight with Keshava."
+          }
         },
         {
           "n": 35,
-          "text": "न माया हीन्द्रजालं वा कुहका वा विभीषणी ।\nआत्तशस्त्रस्य मे युद्धे वहन्ति प्रतिगर्जनाः ॥"
+          "text": "न माया हीन्द्रजालं वा कुहका वा विभीषणी ।\nआत्तशस्त्रस्य मे युद्धे वहन्ति प्रतिगर्जनाः ॥",
+          "meaning": {
+            "en": "Neither illusion, nor magic, nor tricks, nor frightening shows will work against me in battle, when I hold my weapons; they are met with roars."
+          }
         },
         {
           "n": 36,
-          "text": "वासुदेवसहस्रं वा फल्गुनानां शतानि वा ।\nआसाद्य माममोघेषुं द्रविष्यन्ति दिशो दश ॥"
+          "text": "वासुदेवसहस्रं वा फल्गुनानां शतानि वा ।\nआसाद्य माममोघेषुं द्रविष्यन्ति दिशो दश ॥",
+          "meaning": {
+            "en": "Whether a thousand Vasudevas or hundreds of Arjunas, they will flee in all ten directions on meeting me, whose arrows never miss."
+          }
         },
         {
           "n": 37,
-          "text": "संयुगं गच्छ भीष्मेण भिन्धि त्वं शिरसा गिरिम् ।\nप्रतरेमं महागाधं बाहुभ्यां पुरुषोदधिम् ॥"
+          "text": "संयुगं गच्छ भीष्मेण भिन्धि त्वं शिरसा गिरिम् ।\nप्रतरेमं महागाधं बाहुभ्यां पुरुषोदधिम् ॥",
+          "meaning": {
+            "en": "Go and meet Bhishma in battle; split a mountain with your head; swim this great, deep ocean of men with your arms."
+          }
         },
         {
           "n": 38,
-          "text": "शारद्वतमहीमानं विविंशतिझषाकुलम् ।\nबृहद्बलसमुच्चालं सौमदत्तितिमिंगिलम् ॥"
+          "text": "शारद्वतमहीमानं विविंशतिझषाकुलम् ।\nबृहद्बलसमुच्चालं सौमदत्तितिमिंगिलम् ॥",
+          "meaning": {
+            "en": "It is full of Sharadvata as the crocodile, Vivimshati as the fish, Brihadbala as the waves, and Somadatta's son as the great whale."
+          }
         },
         {
           "n": 39,
-          "text": "दुःशासनौघं शलशल्यमत्स्यं\nसुषेणचित्रायुधनागनक्रम् ।\nजयद्रथाद्रिं पुरुमित्रगाधं\nदुर्मर्षणोदं शकुनिप्रपातम् ॥"
+          "text": "दुःशासनौघं शलशल्यमत्स्यं\nसुषेणचित्रायुधनागनक्रम् ।\nजयद्रथाद्रिं पुरुमित्रगाधं\nदुर्मर्षणोदं शकुनिप्रपातम् ॥",
+          "meaning": {
+            "en": "Its floods are Duhshasana, its fish Shala and Shalya, its crocodiles Sushena and Chitrayudha, its mountain Jayadratha, its depth Purumitra, its eddies Durmarshana, its cliff-fall Shakuni."
+          }
         },
         {
           "n": 40,
-          "text": "शस्त्रौघमक्षय्यमतिप्रवृद्धं\nयदावगाह्य श्रमनष्टचेताः ।\nभविष्यसि त्वं हतसर्वबान्धव-\nस्तदा मनस्ते परितापमेष्यति ॥"
+          "text": "शस्त्रौघमक्षय्यमतिप्रवृद्धं\nयदावगाह्य श्रमनष्टचेताः ।\nभविष्यसि त्वं हतसर्वबान्धव-\nस्तदा मनस्ते परितापमेष्यति ॥",
+          "meaning": {
+            "en": "That endless, vastly swollen flood of weapons, in which once you plunge you will lose your wits with exhaustion, and when all your kinsmen are slain your mind will burn with grief."
+          }
         },
         {
           "n": 41,
-          "text": "तदा मनस्ते त्रिदिवादिवाशुचे-\nर्निवर्ततां पार्थ महीप्रशासनात् ।\nराज्यं प्रशास्तुं हि सुदुर्लभं त्वया\nबुभूषता स्वर्ग इवातपस्विना ॥"
+          "text": "तदा मनस्ते त्रिदिवादिवाशुचे-\nर्निवर्ततां पार्थ महीप्रशासनात् ।\nराज्यं प्रशास्तुं हि सुदुर्लभं त्वया\nबुभूषता स्वर्ग इवातपस्विना ॥",
+          "meaning": {
+            "en": "Then, Partha, your mind will turn back, as if fallen from heaven, from ruling the earth; for it is very hard for you to rule a kingdom, wishing for it like a man without austerity wishing for heaven."
+          }
         }
       ]
     }

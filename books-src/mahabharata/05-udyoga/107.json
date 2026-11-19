@@ -22,91 +22,157 @@
       "titleEn": "Bhagavadyana Parva (Krishna's embassy)",
       "verses": [
         {
-          "text": "सुपर्ण उवाच"
+          "text": "सुपर्ण उवाच",
+          "meaning": {
+            "en": "Suparna said:"
+          }
         },
         {
           "n": 1,
-          "text": "इयं विवस्वता पूर्वं श्रौतेन विधिना किल ।\nगुरवे दक्षिणा दत्ता दक्षिणेत्युच्यतेऽथ दिक् ॥"
+          "text": "इयं विवस्वता पूर्वं श्रौतेन विधिना किल ।\nगुरवे दक्षिणा दत्ता दक्षिणेत्युच्यतेऽथ दिक् ॥",
+          "meaning": {
+            "en": "'This is the direction in which Vivasvan once, by the Vedic rite, gave his fee to his teacher, so it is called Dakshina, the south."
+          }
         },
         {
           "n": 2,
-          "text": "अत्र लोकत्रयस्यास्य पितृपक्षः प्रतिष्ठितः ।\nअत्रोष्मपानां देवानां निवासः श्रूयते द्विज ॥"
+          "text": "अत्र लोकत्रयस्यास्य पितृपक्षः प्रतिष्ठितः ।\nअत्रोष्मपानां देवानां निवासः श्रूयते द्विज ॥",
+          "meaning": {
+            "en": "Here the side of the ancestors for the three worlds is established, and here, brahmin, the heat-drinking gods are said to dwell."
+          }
         },
         {
           "n": 3,
-          "text": "अत्र विश्वे सदा देवाः पितृभिः सार्धमासते ।\nइज्यमानाः स्म लोकेषु संप्राप्तास्तुल्यभागताम् ॥"
+          "text": "अत्र विश्वे सदा देवाः पितृभिः सार्धमासते ।\nइज्यमानाः स्म लोकेषु संप्राप्तास्तुल्यभागताम् ॥",
+          "meaning": {
+            "en": "Here the Vishvedevas always sit with the ancestors; when worshipped in the worlds they have attained an equal share."
+          }
         },
         {
           "n": 4,
-          "text": "एतद्द्वितीयं धर्मस्य द्वारमाचक्षते द्विज ।\nत्रुटिशो लवशश्चात्र गण्यते कालनिश्चयः ॥"
+          "text": "एतद्द्वितीयं धर्मस्य द्वारमाचक्षते द्विज ।\nत्रुटिशो लवशश्चात्र गण्यते कालनिश्चयः ॥",
+          "meaning": {
+            "en": "They call this the second gate of Dharma, brahmin. Here the reckoning of time is made by moments and instants."
+          }
         },
         {
           "n": 5,
-          "text": "अत्र देवर्षयो नित्यं पितृलोकर्षयस्तथा ।\nतथा राजर्षयः सर्वे निवसन्ति गतव्यथाः ॥"
+          "text": "अत्र देवर्षयो नित्यं पितृलोकर्षयस्तथा ।\nतथा राजर्षयः सर्वे निवसन्ति गतव्यथाः ॥",
+          "meaning": {
+            "en": "Here the divine sages always live, as do the sages of the world of the ancestors and all the royal sages, free of distress."
+          }
         },
         {
           "n": 6,
-          "text": "अत्र धर्मश्च सत्यं च कर्म चात्र निशाम्यते ।\nगतिरेषा द्विजश्रेष्ठ कर्मणात्मावसादिनः ॥"
+          "text": "अत्र धर्मश्च सत्यं च कर्म चात्र निशाम्यते ।\nगतिरेषा द्विजश्रेष्ठ कर्मणात्मावसादिनः ॥",
+          "meaning": {
+            "en": "Here Dharma, truth and action are weighed. This is the destination, best of brahmins, of one who is sunk by his actions."
+          }
         },
         {
           "n": 7,
-          "text": "एषा दिक्सा द्विजश्रेष्ठ यां सर्वः प्रतिपद्यते ।\nवृता त्वनवबोधेन सुखं तेन न गम्यते ॥"
+          "text": "एषा दिक्सा द्विजश्रेष्ठ यां सर्वः प्रतिपद्यते ।\nवृता त्वनवबोधेन सुखं तेन न गम्यते ॥",
+          "meaning": {
+            "en": "This is the direction that all must come to; but because it is veiled by ignorance, it is not reached happily."
+          }
         },
         {
           "n": 8,
-          "text": "नैरृतानां सहस्राणि बहून्यत्र द्विजर्षभ ।\nसृष्टानि प्रतिकूलानि द्रष्टव्यान्यकृतात्मभिः ॥"
+          "text": "नैरृतानां सहस्राणि बहून्यत्र द्विजर्षभ ।\nसृष्टानि प्रतिकूलानि द्रष्टव्यान्यकृतात्मभिः ॥",
+          "meaning": {
+            "en": "Here, bull among brahmins, thousands upon thousands of hostile Nairritas have been created, to be seen by those of unformed selves."
+          }
         },
         {
           "n": 9,
-          "text": "अत्र मन्दरकुञ्जेषु विप्रर्षिसदनेषु च ।\nगन्धर्वा गान्ति गाथा वै चित्तबुद्धिहरा द्विज ॥"
+          "text": "अत्र मन्दरकुञ्जेषु विप्रर्षिसदनेषु च ।\nगन्धर्वा गान्ति गाथा वै चित्तबुद्धिहरा द्विज ॥",
+          "meaning": {
+            "en": "Here, in the groves of Mandara and in the dwellings of brahmin sages, Gandharvas sing songs that steal away thought and understanding."
+          }
         },
         {
           "n": 10,
-          "text": "अत्र सामानि गाथाभिः श्रुत्वा गीतानि रैवतः ।\nगतदारो गतामात्यो गतराज्यो वनं गतः ॥"
+          "text": "अत्र सामानि गाथाभिः श्रुत्वा गीतानि रैवतः ।\nगतदारो गतामात्यो गतराज्यो वनं गतः ॥",
+          "meaning": {
+            "en": "Here Raivata, hearing Samans sung with songs, left his wife, ministers and kingdom and went to the forest."
+          }
         },
         {
           "n": 11,
-          "text": "अत्र सावर्णिना चैव यवक्रीतात्मजेन च ।\nमर्यादा स्थापिता ब्रह्मन्यां सूर्यो नातिवर्तते ॥"
+          "text": "अत्र सावर्णिना चैव यवक्रीतात्मजेन च ।\nमर्यादा स्थापिता ब्रह्मन्यां सूर्यो नातिवर्तते ॥",
+          "meaning": {
+            "en": "Here the limit that the sun does not cross was set by Savarni and the son of Yavakrita, brahmin."
+          }
         },
         {
           "n": 12,
-          "text": "अत्र राक्षसराजेन पौलस्त्येन महात्मना ।\nरावणेन तपश्चीर्त्वा सुरेभ्योऽमरता वृता ॥"
+          "text": "अत्र राक्षसराजेन पौलस्त्येन महात्मना ।\nरावणेन तपश्चीर्त्वा सुरेभ्योऽमरता वृता ॥",
+          "meaning": {
+            "en": "Here Ravana, descendant of Pulastya and king of the rakshasas, practiced austerity and chose immortality from the gods."
+          }
         },
         {
           "n": 13,
-          "text": "अत्र वृत्तेन वृत्रोऽपि शक्रशत्रुत्वमीयिवान् ।\nअत्र सर्वासवः प्राप्ताः पुनर्गच्छन्ति पञ्चधा ॥"
+          "text": "अत्र वृत्तेन वृत्रोऽपि शक्रशत्रुत्वमीयिवान् ।\nअत्र सर्वासवः प्राप्ताः पुनर्गच्छन्ति पञ्चधा ॥",
+          "meaning": {
+            "en": "Here Vritra, through his conduct, became Indra's enemy; here all the vital breaths that arrive depart again in five ways."
+          }
         },
         {
           "n": 14,
-          "text": "अत्र दुष्कृतकर्माणो नराः पच्यन्ति गालव ।\nअत्र वैतरणी नाम नदी वितरणैर्वृता ।\nअत्र गत्वा सुखस्यान्तं दुःखस्यान्तं प्रपद्यते ॥"
+          "text": "अत्र दुष्कृतकर्माणो नराः पच्यन्ति गालव ।\nअत्र वैतरणी नाम नदी वितरणैर्वृता ।\nअत्र गत्वा सुखस्यान्तं दुःखस्यान्तं प्रपद्यते ॥",
+          "meaning": {
+            "en": "Here evildoers are cooked, Galava. Here flows the river named Vaitarani, filled with gifts. Having come here, one reaches the end of happiness and the end of sorrow."
+          }
         },
         {
           "n": 15,
-          "text": "अत्रावृत्तो दिनकरः क्षरते सुरसं पयः ।\nकाष्ठां चासाद्य धानिष्ठां हिममुत्सृजते पुनः ॥"
+          "text": "अत्रावृत्तो दिनकरः क्षरते सुरसं पयः ।\nकाष्ठां चासाद्य धानिष्ठां हिममुत्सृजते पुनः ॥",
+          "meaning": {
+            "en": "Here the sun, turning back, pours down sweet-tasting water, and on reaching the Dhanishtha region he releases frost again."
+          }
         },
         {
           "n": 16,
-          "text": "अत्राहं गालव पुरा क्षुधार्तः परिचिन्तयन् ।\nलब्धवान्युध्यमानौ द्वौ बृहन्तौ गजकच्छपौ ॥"
+          "text": "अत्राहं गालव पुरा क्षुधार्तः परिचिन्तयन् ।\nलब्धवान्युध्यमानौ द्वौ बृहन्तौ गजकच्छपौ ॥",
+          "meaning": {
+            "en": "Here, Galava, long ago I, tormented by hunger and brooding, found two huge creatures fighting, an elephant and a tortoise."
+          }
         },
         {
           "n": 17,
-          "text": "अत्र शक्रधनुर्नाम सूर्याज्जातो महानृषिः ।\nविदुर्यं कपिलं देवं येनात्ताः सगरात्मजाः ॥"
+          "text": "अत्र शक्रधनुर्नाम सूर्याज्जातो महानृषिः ।\nविदुर्यं कपिलं देवं येनात्ताः सगरात्मजाः ॥",
+          "meaning": {
+            "en": "Here the great sage named Shakradhanus was born of the sun; they know him as the divine Kapila, by whom the sons of Sagara were consumed."
+          }
         },
         {
           "n": 18,
-          "text": "अत्र सिद्धाः शिवा नाम ब्राह्मणा वेदपारगाः ।\nअधीत्य सखिलान्वेदानालभन्ते यमक्षयम् ॥"
+          "text": "अत्र सिद्धाः शिवा नाम ब्राह्मणा वेदपारगाः ।\nअधीत्य सखिलान्वेदानालभन्ते यमक्षयम् ॥",
+          "meaning": {
+            "en": "Here the blessed brahmins called Siddhas, masters of the Vedas, having studied all the Vedas, reach the abode of Yama."
+          }
         },
         {
           "n": 19,
-          "text": "अत्र भोगवती नाम पुरी वासुकिपालिता ।\nतक्षकेण च नागेन तथैवैरावतेन च ॥"
+          "text": "अत्र भोगवती नाम पुरी वासुकिपालिता ।\nतक्षकेण च नागेन तथैवैरावतेन च ॥",
+          "meaning": {
+            "en": "Here is the city called Bhogavati, ruled by Vasuki, the serpent Takshaka and likewise Airavata."
+          }
         },
         {
           "n": 20,
-          "text": "अत्र निर्याणकालेषु तमः संप्राप्यते महत् ।\nअभेद्यं भास्करेणापि स्वयं वा कृष्णवर्त्मना ॥"
+          "text": "अत्र निर्याणकालेषु तमः संप्राप्यते महत् ।\nअभेद्यं भास्करेणापि स्वयं वा कृष्णवर्त्मना ॥",
+          "meaning": {
+            "en": "Here at the times of departure a great darkness is reached, which not even the sun can pierce, nor the dark-pathed fire himself."
+          }
         },
         {
           "n": 21,
-          "text": "एष तस्यापि ते मार्गः परितापस्य गालव ।\nब्रूहि मे यदि गन्तव्यं प्रतीचीं शृणु वा मम ॥"
+          "text": "एष तस्यापि ते मार्गः परितापस्य गालव ।\nब्रूहि मे यदि गन्तव्यं प्रतीचीं शृणु वा मम ॥",
+          "meaning": {
+            "en": "This is the way for that distress of yours too, Galava. Tell me if we must go there; or hear of the west.'"
+          }
         }
       ]
     }

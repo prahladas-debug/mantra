@@ -22,170 +22,296 @@
       "titleEn": "Ambopakhyana Parva (The story of Amba)",
       "verses": [
         {
-          "text": "राम उवाच"
+          "text": "राम उवाच",
+          "meaning": {
+            "en": "Rama said:"
+          }
         },
         {
           "n": 1,
-          "text": "प्रत्यक्षमेतल्लोकानां सर्वेषामेव भामिनि ।\nयथा मया परं शक्त्या कृतं वै पौरुषं महत् ॥"
+          "text": "प्रत्यक्षमेतल्लोकानां सर्वेषामेव भामिनि ।\nयथा मया परं शक्त्या कृतं वै पौरुषं महत् ॥",
+          "meaning": {
+            "en": "Everyone in the world has seen this, fair lady, how I have shown great manly effort with all my strength."
+          }
         },
         {
           "n": 2,
-          "text": "न चैव युधि शक्नोमि भीष्मं शस्त्रभृतां वरम् ।\nविशेषयितुमत्यर्थमुत्तमास्त्राणि दर्शयन् ॥"
+          "text": "न चैव युधि शक्नोमि भीष्मं शस्त्रभृतां वरम् ।\nविशेषयितुमत्यर्थमुत्तमास्त्राणि दर्शयन् ॥",
+          "meaning": {
+            "en": "Even by displaying my best weapons I could not in battle gain any decisive advantage over Bhishma, the best of weapon-bearers."
+          }
         },
         {
           "n": 3,
-          "text": "एषा मे परमा शक्तिरेतन्मे परमं बलम् ।\nयथेष्टं गम्यतां भद्रे किमन्यद्वा करोमि ते ॥"
+          "text": "एषा मे परमा शक्तिरेतन्मे परमं बलम् ।\nयथेष्टं गम्यतां भद्रे किमन्यद्वा करोमि ते ॥",
+          "meaning": {
+            "en": "This is my utmost power and my utmost strength. Go where you please, good lady, or what else can I do for you?"
+          }
         },
         {
           "n": 4,
-          "text": "भीष्ममेव प्रपद्यस्व न तेऽन्या विद्यते गतिः ।\nनिर्जितो ह्यस्मि भीष्मेण महास्त्राणि प्रमुञ्चता ॥"
+          "text": "भीष्ममेव प्रपद्यस्व न तेऽन्या विद्यते गतिः ।\nनिर्जितो ह्यस्मि भीष्मेण महास्त्राणि प्रमुञ्चता ॥",
+          "meaning": {
+            "en": "Take refuge in Bhishma himself; you have no other way. I have been defeated by Bhishma as he released his great weapons."
+          }
         },
         {
-          "text": "भीष्म उवाच"
+          "text": "भीष्म उवाच",
+          "meaning": {
+            "en": "Bhishma said:"
+          }
         },
         {
           "n": 5,
-          "text": "एवमुक्त्वा ततो रामो विनिःश्वस्य महामनाः ।\nतूष्णीमासीत्तदा कन्या प्रोवाच भृगुनन्दनम् ॥"
+          "text": "एवमुक्त्वा ततो रामो विनिःश्वस्य महामनाः ।\nतूष्णीमासीत्तदा कन्या प्रोवाच भृगुनन्दनम् ॥",
+          "meaning": {
+            "en": "Having said this, great-minded Rama sighed and fell silent. Then the maiden spoke to the son of Bhrigu."
+          }
         },
         {
           "n": 6,
-          "text": "भगवन्नेवमेवैतद्यथाह भगवांस्तथा ।\nअजेयो युधि भीष्मोऽयमपि देवैरुदारधीः ॥"
+          "text": "भगवन्नेवमेवैतद्यथाह भगवांस्तथा ।\nअजेयो युधि भीष्मोऽयमपि देवैरुदारधीः ॥",
+          "meaning": {
+            "en": "\"Revered one, it is just as you say. Bhishma, noble in mind, cannot be conquered in battle even by the gods.\""
+          }
         },
         {
           "n": 7,
-          "text": "यथाशक्ति यथोत्साहं मम कार्यं कृतं त्वया ।\nअनिधाय रणे वीर्यमस्त्राणि विविधानि च ॥"
+          "text": "यथाशक्ति यथोत्साहं मम कार्यं कृतं त्वया ।\nअनिधाय रणे वीर्यमस्त्राणि विविधानि च ॥",
+          "meaning": {
+            "en": "\"You have done my work as far as your strength and effort allowed, not holding back your might or your many weapons in the fight.\""
+          }
         },
         {
           "n": 8,
-          "text": "न चैष शक्यते युद्धे विशेषयितुमन्ततः ।\nन चाहमेनं यास्यामि पुनर्भीष्मं कथंचन ॥"
+          "text": "न चैष शक्यते युद्धे विशेषयितुमन्ततः ।\nन चाहमेनं यास्यामि पुनर्भीष्मं कथंचन ॥",
+          "meaning": {
+            "en": "\"He cannot in the end be bested in battle, and I will never go to this Bhishma again.\""
+          }
         },
         {
           "n": 9,
-          "text": "गमिष्यामि तु तत्राहं यत्र भीष्मं तपोधन ।\nसमरे पातयिष्यामि स्वयमेव भृगूद्वह ॥"
+          "text": "गमिष्यामि तु तत्राहं यत्र भीष्मं तपोधन ।\nसमरे पातयिष्यामि स्वयमेव भृगूद्वह ॥",
+          "meaning": {
+            "en": "\"But I will go to the place, O ascetic, where I can bring Bhishma down in battle by myself, O best of Bhrigu's line.\""
+          }
         },
         {
           "n": 10,
-          "text": "एवमुक्त्वा ययौ कन्या रोषव्याकुललोचना ।\nतपसे धृतसंकल्पा मम चिन्तयती वधम् ॥"
+          "text": "एवमुक्त्वा ययौ कन्या रोषव्याकुललोचना ।\nतपसे धृतसंकल्पा मम चिन्तयती वधम् ॥",
+          "meaning": {
+            "en": "Having said this, the maiden went away, her eyes troubled with anger, firmly resolved on austerity and thinking of my death."
+          }
         },
         {
           "n": 11,
-          "text": "ततो महेन्द्रं सह तैर्मुनिभिर्भृगुसत्तमः ।\nयथागतं ययौ रामो मामुपामन्त्र्य भारत ॥"
+          "text": "ततो महेन्द्रं सह तैर्मुनिभिर्भृगुसत्तमः ।\nयथागतं ययौ रामो मामुपामन्त्र्य भारत ॥",
+          "meaning": {
+            "en": "Then Rama, best of Bhrigu's line, took leave of me, O Bharata, and went back to Mahendra with those sages, as he had come."
+          }
         },
         {
           "n": 12,
-          "text": "ततोऽहं रथमारुह्य स्तूयमानो द्विजातिभिः ।\nप्रविश्य नगरं मात्रे सत्यवत्यै न्यवेदयम् ।\nयथावृत्तं महाराज सा च मां प्रत्यनन्दत ॥"
+          "text": "ततोऽहं रथमारुह्य स्तूयमानो द्विजातिभिः ।\nप्रविश्य नगरं मात्रे सत्यवत्यै न्यवेदयम् ।\nयथावृत्तं महाराज सा च मां प्रत्यनन्दत ॥",
+          "meaning": {
+            "en": "Then I mounted my chariot, praised by the twice-born, entered the city, and told my mother Satyavati everything that had happened, O great king; she rejoiced at it."
+          }
         },
         {
           "n": 13,
-          "text": "पुरुषांश्चादिशं प्राज्ञान्कन्यावृत्तान्तकर्मणि ।\nदिवसे दिवसे ह्यस्या गतजल्पितचेष्टितम् ।\nप्रत्याहरंश्च मे युक्ताः स्थिताः प्रियहिते मम ॥"
+          "text": "पुरुषांश्चादिशं प्राज्ञान्कन्यावृत्तान्तकर्मणि ।\nदिवसे दिवसे ह्यस्या गतजल्पितचेष्टितम् ।\nप्रत्याहरंश्च मे युक्ताः स्थिताः प्रियहिते मम ॥",
+          "meaning": {
+            "en": "I appointed wise men to report on the maiden's doings, and day by day those men, devoted to my welfare, brought me word of her words and actions."
+          }
         },
         {
           "n": 14,
-          "text": "यदैव हि वनं प्रायात्कन्या सा तपसे धृता ।\nतदैव व्यथितो दीनो गतचेता इवाभवम् ॥"
+          "text": "यदैव हि वनं प्रायात्कन्या सा तपसे धृता ।\nतदैव व्यथितो दीनो गतचेता इवाभवम् ॥",
+          "meaning": {
+            "en": "From the moment that maiden went into the forest, set on austerity, I became troubled and wretched, almost out of my senses."
+          }
         },
         {
           "n": 15,
-          "text": "न हि मां क्षत्रियः कश्चिद्वीर्येण विजयेद्युधि ।\nऋते ब्रह्मविदस्तात तपसा संशितव्रतात् ॥"
+          "text": "न हि मां क्षत्रियः कश्चिद्वीर्येण विजयेद्युधि ।\nऋते ब्रह्मविदस्तात तपसा संशितव्रतात् ॥",
+          "meaning": {
+            "en": "For no Kshatriya can beat me in battle by strength, my friend, except a knower of Brahman, firm in his vows and strong in austerity."
+          }
         },
         {
           "n": 16,
-          "text": "अपि चैतन्मया राजन्नारदेऽपि निवेदितम् ।\nव्यासे चैव भयात्कार्यं तौ चोभौ मामवोचताम् ॥"
+          "text": "अपि चैतन्मया राजन्नारदेऽपि निवेदितम् ।\nव्यासे चैव भयात्कार्यं तौ चोभौ मामवोचताम् ॥",
+          "meaning": {
+            "en": "I also reported this matter to Narada and to Vyasa, O king, out of fear, and both of them told me:"
+          }
         },
         {
           "n": 17,
-          "text": "न विषादस्त्वया कार्यो भीष्म काशिसुतां प्रति ।\nदैवं पुरुषकारेण को निवर्तितुमुत्सहेत् ॥"
+          "text": "न विषादस्त्वया कार्यो भीष्म काशिसुतां प्रति ।\nदैवं पुरुषकारेण को निवर्तितुमुत्सहेत् ॥",
+          "meaning": {
+            "en": "\"You must not grieve, Bhishma, over the daughter of the king of Kashi. Who can turn aside fate by human effort?\""
+          }
         },
         {
           "n": 18,
-          "text": "सा तु कन्या महाराज प्रविश्याश्रममण्डलम् ।\nयमुनातीरमाश्रित्य तपस्तेपेऽतिमानुषम् ॥"
+          "text": "सा तु कन्या महाराज प्रविश्याश्रममण्डलम् ।\nयमुनातीरमाश्रित्य तपस्तेपेऽतिमानुषम् ॥",
+          "meaning": {
+            "en": "That maiden, O great king, entered a circle of hermitages and, staying on the bank of the Yamuna, practiced superhuman austerities."
+          }
         },
         {
           "n": 19,
-          "text": "निराहारा कृशा रूक्षा जटिला मलपङ्किनी ।\nषण्मासान्वायुभक्षा च स्थाणुभूता तपोधना ॥"
+          "text": "निराहारा कृशा रूक्षा जटिला मलपङ्किनी ।\nषण्मासान्वायुभक्षा च स्थाणुभूता तपोधना ॥",
+          "meaning": {
+            "en": "Without food, thin, rough, with matted hair and covered in dirt, that ascetic lived on air for six months, standing still like a post."
+          }
         },
         {
           "n": 20,
-          "text": "यमुनातीरमासाद्य संवत्सरमथापरम् ।\nउदवासं निराहारा पारयामास भामिनी ॥"
+          "text": "यमुनातीरमासाद्य संवत्सरमथापरम् ।\nउदवासं निराहारा पारयामास भामिनी ॥",
+          "meaning": {
+            "en": "Coming to the Yamuna's bank, the lady then spent another year standing in the water without eating."
+          }
         },
         {
           "n": 21,
-          "text": "शीर्णपर्णेन चैकेन पारयामास चापरम् ।\nसंवत्सरं तीव्रकोपा पादाङ्गुष्ठाग्रधिष्ठिता ॥"
+          "text": "शीर्णपर्णेन चैकेन पारयामास चापरम् ।\nसंवत्सरं तीव्रकोपा पादाङ्गुष्ठाग्रधिष्ठिता ॥",
+          "meaning": {
+            "en": "For another year, filled with fierce anger, she lived on a single fallen leaf, standing on the tip of her big toe."
+          }
         },
         {
           "n": 22,
-          "text": "एवं द्वादश वर्षाणि तापयामास रोदसी ।\nनिवर्त्यमानापि तु सा ज्ञातिभिर्नैव शक्यते ॥"
+          "text": "एवं द्वादश वर्षाणि तापयामास रोदसी ।\nनिवर्त्यमानापि तु सा ज्ञातिभिर्नैव शक्यते ॥",
+          "meaning": {
+            "en": "For twelve years she thus scorched heaven and earth, and her relatives could not turn her back."
+          }
         },
         {
           "n": 23,
-          "text": "ततोऽगमद्वत्सभूमिं सिद्धचारणसेविताम् ।\nआश्रमं पुण्यशीलानां तापसानां महात्मनाम् ॥"
+          "text": "ततोऽगमद्वत्सभूमिं सिद्धचारणसेविताम् ।\nआश्रमं पुण्यशीलानां तापसानां महात्मनाम् ॥",
+          "meaning": {
+            "en": "Then she went to the land of the Vatsas, frequented by Siddhas and Charanas, to the hermitage of great ascetics of holy conduct."
+          }
         },
         {
           "n": 24,
-          "text": "तत्र पुण्येषु देशेषु साप्लुताङ्गी दिवानिशम् ।\nव्यचरत्काशिकन्या सा यथाकामविचारिणी ॥"
+          "text": "तत्र पुण्येषु देशेषु साप्लुताङ्गी दिवानिशम् ।\nव्यचरत्काशिकन्या सा यथाकामविचारिणी ॥",
+          "meaning": {
+            "en": "In those holy places the Kashi princess bathed day and night and wandered as she wished."
+          }
         },
         {
           "n": 25,
-          "text": "नन्दाश्रमे महाराज ततोलूकाश्रमे शुभे ।\nच्यवनस्याश्रमे चैव ब्रह्मणः स्थान एव च ॥"
+          "text": "नन्दाश्रमे महाराज ततोलूकाश्रमे शुभे ।\nच्यवनस्याश्रमे चैव ब्रह्मणः स्थान एव च ॥",
+          "meaning": {
+            "en": "She went to Nanda's hermitage, then the lovely hermitage of Uluka, Chyavana's hermitage, and Brahma's abode, O great king."
+          }
         },
         {
           "n": 26,
-          "text": "प्रयागे देवयजने देवारण्येषु चैव ह ।\nभोगवत्यां तथा राजन्कौशिकस्याश्रमे तथा ॥"
+          "text": "प्रयागे देवयजने देवारण्येषु चैव ह ।\nभोगवत्यां तथा राजन्कौशिकस्याश्रमे तथा ॥",
+          "meaning": {
+            "en": "She went to Prayaga, the sacrificial ground of the gods, the forests of the gods, Bhogavati, and the hermitage of Kaushika, O king."
+          }
         },
         {
           "n": 27,
-          "text": "माण्डव्यस्याश्रमे राजन्दिलीपस्याश्रमे तथा ।\nरामह्रदे च कौरव्य पैलगार्ग्यस्य चाश्रमे ॥"
+          "text": "माण्डव्यस्याश्रमे राजन्दिलीपस्याश्रमे तथा ।\nरामह्रदे च कौरव्य पैलगार्ग्यस्य चाश्रमे ॥",
+          "meaning": {
+            "en": "She went to Mandavya's hermitage, Dilipa's hermitage, Rama's lake, and the hermitage of Paila and Gargya, O Kuru."
+          }
         },
         {
           "n": 28,
-          "text": "एतेषु तीर्थेषु तदा काशिकन्या विशां पते ।\nआप्लावयत गात्राणि तीव्रमास्थाय वै तपः ॥"
+          "text": "एतेषु तीर्थेषु तदा काशिकन्या विशां पते ।\nआप्लावयत गात्राणि तीव्रमास्थाय वै तपः ॥",
+          "meaning": {
+            "en": "At those holy places, O lord of men, the Kashi princess bathed her limbs and kept up fierce austerity."
+          }
         },
         {
           "n": 29,
-          "text": "तामब्रवीत्कौरवेय मम माता जलोत्थिता ।\nकिमर्थं क्लिश्यसे भद्रे तथ्यमेतद्ब्रवीहि मे ॥"
+          "text": "तामब्रवीत्कौरवेय मम माता जलोत्थिता ।\nकिमर्थं क्लिश्यसे भद्रे तथ्यमेतद्ब्रवीहि मे ॥",
+          "meaning": {
+            "en": "O Kuru, my mother, rising from the water, said to her: \"Why do you torment yourself, good lady? Tell me the truth.\""
+          }
         },
         {
           "n": 30,
-          "text": "सैनामथाब्रवीद्राजन्कृताञ्जलिरनिन्दिता ।\nभीष्मो रामेण समरे न जितश्चारुलोचने ॥"
+          "text": "सैनामथाब्रवीद्राजन्कृताञ्जलिरनिन्दिता ।\nभीष्मो रामेण समरे न जितश्चारुलोचने ॥",
+          "meaning": {
+            "en": "With folded hands, the blameless maiden answered her, O king: \"Bhishma was not conquered in battle by Rama, fair-eyed lady.\""
+          }
         },
         {
           "n": 31,
-          "text": "कोऽन्यस्तमुत्सहेज्जेतुमुद्यतेषुं महीपतिम् ।\nसाहं भीष्मविनाशाय तपस्तप्स्ये सुदारुणम् ॥"
+          "text": "कोऽन्यस्तमुत्सहेज्जेतुमुद्यतेषुं महीपतिम् ।\nसाहं भीष्मविनाशाय तपस्तप्स्ये सुदारुणम् ॥",
+          "meaning": {
+            "en": "\"What other king would dare to defeat him with his arrow raised? So I will practice terrible austerity to destroy Bhishma.\""
+          }
         },
         {
           "n": 32,
-          "text": "चरामि पृथिवीं देवि यथा हन्यामहं नृपम् ।\nएतद्व्रतफलं देहे परस्मिन्स्याद्यथा हि मे ॥"
+          "text": "चरामि पृथिवीं देवि यथा हन्यामहं नृपम् ।\nएतद्व्रतफलं देहे परस्मिन्स्याद्यथा हि मे ॥",
+          "meaning": {
+            "en": "\"I wander the earth, goddess, so that I may kill that king. Let this vow's fruit come to me in my next body.\""
+          }
         },
         {
           "n": 33,
-          "text": "ततोऽब्रवीत्सागरगा जिह्मं चरसि भामिनि ।\nनैष कामोऽनवद्याङ्गि शक्यः प्राप्तुं त्वयाबले ॥"
+          "text": "ततोऽब्रवीत्सागरगा जिह्मं चरसि भामिनि ।\nनैष कामोऽनवद्याङ्गि शक्यः प्राप्तुं त्वयाबले ॥",
+          "meaning": {
+            "en": "Then the goddess who goes to the sea said: \"You are following a crooked course, lady. You cannot reach this desire, weak girl.\""
+          }
         },
         {
           "n": 34,
-          "text": "यदि भीष्मविनाशाय काश्ये चरसि वै व्रतम् ।\nव्रतस्था च शरीरं त्वं यदि नाम विमोक्ष्यसि ।\nनदी भविष्यसि शुभे कुटिला वार्षिकोदका ॥"
+          "text": "यदि भीष्मविनाशाय काश्ये चरसि वै व्रतम् ।\nव्रतस्था च शरीरं त्वं यदि नाम विमोक्ष्यसि ।\nनदी भविष्यसि शुभे कुटिला वार्षिकोदका ॥",
+          "meaning": {
+            "en": "\"If, princess of Kashi, you keep this vow to destroy Bhishma, and if you give up your body while on it, you will become a river, a crooked one with water only in the rains.\""
+          }
         },
         {
           "n": 35,
-          "text": "दुस्तीर्था चानभिज्ञेया वार्षिकी नाष्टमासिकी ।\nभीमग्राहवती घोरा सर्वभूतभयंकरी ॥"
+          "text": "दुस्तीर्था चानभिज्ञेया वार्षिकी नाष्टमासिकी ।\nभीमग्राहवती घोरा सर्वभूतभयंकरी ॥",
+          "meaning": {
+            "en": "\"Hard to cross, hard to know, flowing in the rainy season and not for eight months, full of dreadful crocodiles, terrible, a fear to all creatures.\""
+          }
         },
         {
           "n": 36,
-          "text": "एवमुक्त्वा ततो राजन्काशिकन्यां न्यवर्तत ।\nमाता मम महाभागा स्मयमानेव भामिनी ॥"
+          "text": "एवमुक्त्वा ततो राजन्काशिकन्यां न्यवर्तत ।\nमाता मम महाभागा स्मयमानेव भामिनी ॥",
+          "meaning": {
+            "en": "Having said this, my glorious mother, smiling as it were, turned away from the Kashi princess, O king."
+          }
         },
         {
           "n": 37,
-          "text": "कदाचिदष्टमे मासि कदाचिद्दशमे तथा ।\nन प्राश्नीतोदकमपि पुनः सा वरवर्णिनी ॥"
+          "text": "कदाचिदष्टमे मासि कदाचिद्दशमे तथा ।\nन प्राश्नीतोदकमपि पुनः सा वरवर्णिनी ॥",
+          "meaning": {
+            "en": "But she never again drank water, sometimes through the eighth month, sometimes through the tenth."
+          }
         },
         {
           "n": 38,
-          "text": "सा वत्सभूमिं कौरव्य तीर्थलोभात्ततस्ततः ।\nपतिता परिधावन्ती पुनः काशिपतेः सुता ॥"
+          "text": "सा वत्सभूमिं कौरव्य तीर्थलोभात्ततस्ततः ।\nपतिता परिधावन्ती पुनः काशिपतेः सुता ॥",
+          "meaning": {
+            "en": "Running here and there in the land of the Vatsas out of desire for holy places, the daughter of the king of Kashi would fall down again and again, O Kuru."
+          }
         },
         {
           "n": 39,
-          "text": "सा नदी वत्सभूम्यां तु प्रथिताम्बेति भारत ।\nवार्षिकी ग्राहबहुला दुस्तीर्था कुटिला तथा ॥"
+          "text": "सा नदी वत्सभूम्यां तु प्रथिताम्बेति भारत ।\nवार्षिकी ग्राहबहुला दुस्तीर्था कुटिला तथा ॥",
+          "meaning": {
+            "en": "In the land of the Vatsas that river became famous as Amba, O Bharata, full of crocodiles, hard to cross and crooked, flowing in the rainy season."
+          }
         },
         {
           "n": 40,
-          "text": "सा कन्या तपसा तेन भागार्धेन व्यजायत ।\nनदी च राजन्वत्सेषु कन्या चैवाभवत्तदा ॥"
+          "text": "सा कन्या तपसा तेन भागार्धेन व्यजायत ।\nनदी च राजन्वत्सेषु कन्या चैवाभवत्तदा ॥",
+          "meaning": {
+            "en": "By that austerity the maiden was born in two halves: she became a river among the Vatsas, and also a maiden."
+          }
         }
       ]
     }

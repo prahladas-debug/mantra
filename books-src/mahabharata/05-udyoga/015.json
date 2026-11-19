@@ -22,150 +22,264 @@
       "titleEn": "Udyoga Parva (The preparations)",
       "verses": [
         {
-          "text": "शल्य उवाच"
+          "text": "शल्य उवाच",
+          "meaning": {
+            "en": "Shalya said:"
+          }
         },
         {
           "n": 1,
-          "text": "एवमुक्तः स भगवाञ्शच्या पुनरथाब्रवीत् ।\nविक्रमस्य न कालोऽयं नहुषो बलवत्तरः ॥"
+          "text": "एवमुक्तः स भगवाञ्शच्या पुनरथाब्रवीत् ।\nविक्रमस्य न कालोऽयं नहुषो बलवत्तरः ॥",
+          "meaning": {
+            "en": "So addressed by Shachi, the god answered: This is not the time for valor; Nahusha is stronger."
+          }
         },
         {
           "n": 2,
-          "text": "विवर्धितश्च ऋषिभिर्हव्यैः कव्यैश्च भामिनि ।\nनीतिमत्र विधास्यामि देवि तां कर्तुमर्हसि ॥"
+          "text": "विवर्धितश्च ऋषिभिर्हव्यैः कव्यैश्च भामिनि ।\nनीतिमत्र विधास्यामि देवि तां कर्तुमर्हसि ॥",
+          "meaning": {
+            "en": "He has been strengthened by the sages with offerings to gods and ancestors, lady. I shall devise a plan here; you must carry it out."
+          }
         },
         {
           "n": 3,
-          "text": "गुह्यं चैतत्त्वया कार्यं नाख्यातव्यं शुभे क्वचित् ।\nगत्वा नहुषमेकान्ते ब्रवीहि तनुमध्यमे ॥"
+          "text": "गुह्यं चैतत्त्वया कार्यं नाख्यातव्यं शुभे क्वचित् ।\nगत्वा नहुषमेकान्ते ब्रवीहि तनुमध्यमे ॥",
+          "meaning": {
+            "en": "This is a secret and must not be told to anyone, auspicious one. Go to Nahusha in private, slender-waisted one,"
+          }
         },
         {
           "n": 4,
-          "text": "ऋषियानेन दिव्येन मामुपैहि जगत्पते ।\nएवं तव वशे प्रीता भविष्यामीति तं वद ॥"
+          "text": "ऋषियानेन दिव्येन मामुपैहि जगत्पते ।\nएवं तव वशे प्रीता भविष्यामीति तं वद ॥",
+          "meaning": {
+            "en": "and tell him: Come to me, lord of the world, in a divine vehicle carried by sages; then I shall be pleased and in your power."
+          }
         },
         {
           "n": 5,
-          "text": "इत्युक्ता देवराजेन पत्नी सा कमलेक्षणा ।\nएवमस्त्वित्यथोक्त्वा तु जगाम नहुषं प्रति ॥"
+          "text": "इत्युक्ता देवराजेन पत्नी सा कमलेक्षणा ।\nएवमस्त्वित्यथोक्त्वा तु जगाम नहुषं प्रति ॥",
+          "meaning": {
+            "en": "So told by the king of gods, his lotus-eyed wife said, So be it, and went to Nahusha."
+          }
         },
         {
           "n": 6,
-          "text": "नहुषस्तां ततो दृष्ट्वा विस्मितो वाक्यमब्रवीत् ।\nस्वागतं ते वरारोहे किं करोमि शुचिस्मिते ॥"
+          "text": "नहुषस्तां ततो दृष्ट्वा विस्मितो वाक्यमब्रवीत् ।\nस्वागतं ते वरारोहे किं करोमि शुचिस्मिते ॥",
+          "meaning": {
+            "en": "Seeing her, Nahusha, astonished, said: Welcome, fair-hipped lady; what shall I do, bright-smiling one?"
+          }
         },
         {
           "n": 7,
-          "text": "भक्तं मां भज कल्याणि किमिच्छसि मनस्विनि ।\nतव कल्याणि यत्कार्यं तत्करिष्ये सुमध्यमे ॥"
+          "text": "भक्तं मां भज कल्याणि किमिच्छसि मनस्विनि ।\nतव कल्याणि यत्कार्यं तत्करिष्ये सुमध्यमे ॥",
+          "meaning": {
+            "en": "Love me who am devoted to you, good lady; what do you wish, spirited one? Whatever you need, fair one, I shall do."
+          }
         },
         {
           "n": 8,
-          "text": "न च व्रीडा त्वया कार्या सुश्रोणि मयि विश्वस ।\nसत्येन वै शपे देवि कर्तास्मि वचनं तव ॥"
+          "text": "न च व्रीडा त्वया कार्या सुश्रोणि मयि विश्वस ।\nसत्येन वै शपे देवि कर्तास्मि वचनं तव ॥",
+          "meaning": {
+            "en": "You need not feel shame, fair-hipped one; trust me. I swear by truth, goddess, that I will do what you say."
+          }
         },
         {
-          "text": "इन्द्राण्युवाच"
+          "text": "इन्द्राण्युवाच",
+          "meaning": {
+            "en": "Indrani said:"
+          }
         },
         {
           "n": 9,
-          "text": "यो मे त्वया कृतः कालस्तमाकाङ्क्षे जगत्पते ।\nततस्त्वमेव भर्ता मे भविष्यसि सुराधिप ॥"
+          "text": "यो मे त्वया कृतः कालस्तमाकाङ्क्षे जगत्पते ।\nततस्त्वमेव भर्ता मे भविष्यसि सुराधिप ॥",
+          "meaning": {
+            "en": "Lord of the world, I look for the time you set for me; after that you shall be my husband, lord of gods."
+          }
         },
         {
           "n": 10,
-          "text": "कार्यं च हृदि मे यत्तद्देवराजावधारय ।\nवक्ष्यामि यदि मे राजन्प्रियमेतत्करिष्यसि ।\nवाक्यं प्रणयसंयुक्तं ततः स्यां वशगा तव ॥"
+          "text": "कार्यं च हृदि मे यत्तद्देवराजावधारय ।\nवक्ष्यामि यदि मे राजन्प्रियमेतत्करिष्यसि ।\nवाक्यं प्रणयसंयुक्तं ततः स्यां वशगा तव ॥",
+          "meaning": {
+            "en": "But, king of gods, hear the matter in my heart; if you will do me this favor, I shall tell it, and then I would be in your power by this loving request."
+          }
         },
         {
           "n": 11,
-          "text": "इन्द्रस्य वाजिनो वाहा हस्तिनोऽथ रथास्तथा ।\nइच्छाम्यहमिहापूर्वं वाहनं ते सुराधिप ।\nयन्न विष्णोर्न रुद्रस्य नासुराणां न रक्षसाम् ॥"
+          "text": "इन्द्रस्य वाजिनो वाहा हस्तिनोऽथ रथास्तथा ।\nइच्छाम्यहमिहापूर्वं वाहनं ते सुराधिप ।\nयन्न विष्णोर्न रुद्रस्य नासुराणां न रक्षसाम् ॥",
+          "meaning": {
+            "en": "Indra has horses, elephants and chariots to carry him; I want from you, lord of gods, an unprecedented vehicle, one that belongs not to Vishnu, Rudra, the Asuras or the Rakshasas."
+          }
         },
         {
           "n": 12,
-          "text": "वहन्तु त्वां महाराज ऋषयः संगता विभो ।\nसर्वे शिबिकया राजन्नेतद्धि मम रोचते ॥"
+          "text": "वहन्तु त्वां महाराज ऋषयः संगता विभो ।\nसर्वे शिबिकया राजन्नेतद्धि मम रोचते ॥",
+          "meaning": {
+            "en": "Let sages together carry you, great king, all in a palanquin; this pleases me."
+          }
         },
         {
           "n": 13,
-          "text": "नासुरेषु न देवेषु तुल्यो भवितुमर्हसि ।\nसर्वेषां तेज आदत्स्व स्वेन वीर्येण दर्शनात् ।\nन ते प्रमुखतः स्थातुं कश्चिदिच्छति वीर्यवान् ॥"
+          "text": "नासुरेषु न देवेषु तुल्यो भवितुमर्हसि ।\nसर्वेषां तेज आदत्स्व स्वेन वीर्येण दर्शनात् ।\nन ते प्रमुखतः स्थातुं कश्चिदिच्छति वीर्यवान् ॥",
+          "meaning": {
+            "en": "You should not be equal to the Asuras or gods; take the energy of all by your own might, just by sight; no strong one wishes to stand before you."
+          }
         },
         {
-          "text": "शल्य उवाच"
+          "text": "शल्य उवाच",
+          "meaning": {
+            "en": "Shalya said:"
+          }
         },
         {
           "n": 14,
-          "text": "एवमुक्तस्तु नहुषः प्राहृष्यत तदा किल ।\nउवाच वचनं चापि सुरेन्द्रस्तामनिन्दिताम् ॥"
+          "text": "एवमुक्तस्तु नहुषः प्राहृष्यत तदा किल ।\nउवाच वचनं चापि सुरेन्द्रस्तामनिन्दिताम् ॥",
+          "meaning": {
+            "en": "Thus addressed, Nahusha was said to be delighted, and he said to that faultless lady, the lord of gods:"
+          }
         },
         {
           "n": 15,
-          "text": "अपूर्वं वाहनमिदं त्वयोक्तं वरवर्णिनि ।\nदृढं मे रुचितं देवि त्वद्वशोऽस्मि वरानने ॥"
+          "text": "अपूर्वं वाहनमिदं त्वयोक्तं वरवर्णिनि ।\nदृढं मे रुचितं देवि त्वद्वशोऽस्मि वरानने ॥",
+          "meaning": {
+            "en": "This vehicle you speak of, fair one, is unprecedented; I like it very much, goddess; I am in your power, fair-faced lady."
+          }
         },
         {
           "n": 16,
-          "text": "न ह्यल्पवीर्यो भवति यो वाहान्कुरुते मुनीन् ।\nअहं तपस्वी बलवान्भूतभव्यभवत्प्रभुः ॥"
+          "text": "न ह्यल्पवीर्यो भवति यो वाहान्कुरुते मुनीन् ।\nअहं तपस्वी बलवान्भूतभव्यभवत्प्रभुः ॥",
+          "meaning": {
+            "en": "One who makes sages his bearers is not of small power. I am an ascetic, strong, lord of past, present and future."
+          }
         },
         {
           "n": 17,
-          "text": "मयि क्रुद्धे जगन्न स्यान्मयि सर्वं प्रतिष्ठितम् ।\nदेवदानवगन्धर्वाः किंनरोरगराक्षसाः ॥"
+          "text": "मयि क्रुद्धे जगन्न स्यान्मयि सर्वं प्रतिष्ठितम् ।\nदेवदानवगन्धर्वाः किंनरोरगराक्षसाः ॥",
+          "meaning": {
+            "en": "If I am angry, the world would not stand; everything rests on me: gods, Danavas, Gandharvas, Kinnaras, serpents and Rakshasas."
+          }
         },
         {
           "n": 18,
-          "text": "न मे क्रुद्धस्य पर्याप्ताः सर्वे लोकाः शुचिस्मिते ।\nचक्षुषा यं प्रपश्यामि तस्य तेजो हराम्यहम् ॥"
+          "text": "न मे क्रुद्धस्य पर्याप्ताः सर्वे लोकाः शुचिस्मिते ।\nचक्षुषा यं प्रपश्यामि तस्य तेजो हराम्यहम् ॥",
+          "meaning": {
+            "en": "When I am angry all the worlds are no match for me, bright-smiling one; I take the energy of anyone I look at."
+          }
         },
         {
           "n": 19,
-          "text": "तस्मात्ते वचनं देवि करिष्यामि न संशयः ।\nसप्तर्षयो मां वक्ष्यन्ति सर्वे ब्रह्मर्षयस्तथा ।\nपश्य माहात्म्यमस्माकमृद्धिं च वरवर्णिनि ॥"
+          "text": "तस्मात्ते वचनं देवि करिष्यामि न संशयः ।\nसप्तर्षयो मां वक्ष्यन्ति सर्वे ब्रह्मर्षयस्तथा ।\nपश्य माहात्म्यमस्माकमृद्धिं च वरवर्णिनि ॥",
+          "meaning": {
+            "en": "So I shall surely do what you say, goddess. The seven sages and all the Brahmin sages will carry me; see our greatness and prosperity, fair lady."
+          }
         },
         {
           "n": 20,
-          "text": "एवमुक्त्वा तु तां देवीं विसृज्य च वराननाम् ।\nविमाने योजयित्वा स ऋषीन्नियममास्थितान् ॥"
+          "text": "एवमुक्त्वा तु तां देवीं विसृज्य च वराननाम् ।\nविमाने योजयित्वा स ऋषीन्नियममास्थितान् ॥",
+          "meaning": {
+            "en": "Having said this and dismissed the fair-faced goddess, he yoked to his palanquin sages devoted to their vows."
+          }
         },
         {
           "n": 21,
-          "text": "अब्रह्मण्यो बलोपेतो मत्तो वरमदेन च ।\nकामवृत्तः स दुष्टात्मा वाहयामास तानृषीन् ॥"
+          "text": "अब्रह्मण्यो बलोपेतो मत्तो वरमदेन च ।\nकामवृत्तः स दुष्टात्मा वाहयामास तानृषीन् ॥",
+          "meaning": {
+            "en": "Disrespectful to Brahmins, filled with strength, drunk with the intoxication of his boon, that evil-minded one, acting as he pleased, made those sages carry him."
+          }
         },
         {
           "n": 22,
-          "text": "नहुषेण विसृष्टा च बृहस्पतिमुवाच सा ।\nसमयोऽल्पावशेषो मे नहुषेणेह यः कृतः ।\nशक्रं मृगय शीघ्रं त्वं भक्तायाः कुरु मे दयाम् ॥"
+          "text": "नहुषेण विसृष्टा च बृहस्पतिमुवाच सा ।\nसमयोऽल्पावशेषो मे नहुषेणेह यः कृतः ।\nशक्रं मृगय शीघ्रं त्वं भक्तायाः कुरु मे दयाम् ॥",
+          "meaning": {
+            "en": "Dismissed by Nahusha, she said to Brihaspati: Little remains of the time Nahusha set me. Search quickly for Shakra and have mercy on me, your devotee."
+          }
         },
         {
           "n": 23,
-          "text": "बाढमित्येव भगवान्बृहस्पतिरुवाच ताम् ।\nन भेतव्यं त्वया देवि नहुषाद्दुष्टचेतसः ॥"
+          "text": "बाढमित्येव भगवान्बृहस्पतिरुवाच ताम् ।\nन भेतव्यं त्वया देवि नहुषाद्दुष्टचेतसः ॥",
+          "meaning": {
+            "en": "Yes, said the blessed Brihaspati to her. Do not fear Nahusha of evil mind, goddess."
+          }
         },
         {
           "n": 24,
-          "text": "न ह्येष स्थास्यति चिरं गत एष नराधमः ।\nअधर्मज्ञो महर्षीणां वाहनाच्च हतः शुभे ॥"
+          "text": "न ह्येष स्थास्यति चिरं गत एष नराधमः ।\nअधर्मज्ञो महर्षीणां वाहनाच्च हतः शुभे ॥",
+          "meaning": {
+            "en": "He will not last long, this lowest of men; he is doomed, goddess, by making the great sages carry him, not knowing dharma."
+          }
         },
         {
           "n": 25,
-          "text": "इष्टिं चाहं करिष्यामि विनाशायास्य दुर्मतेः ।\nशक्रं चाधिगमिष्यामि मा भैस्त्वं भद्रमस्तु ते ॥"
+          "text": "इष्टिं चाहं करिष्यामि विनाशायास्य दुर्मतेः ।\nशक्रं चाधिगमिष्यामि मा भैस्त्वं भद्रमस्तु ते ॥",
+          "meaning": {
+            "en": "I shall perform a sacrifice to destroy this ill-minded one, and find Shakra; do not fear, good fortune to you."
+          }
         },
         {
           "n": 26,
-          "text": "ततः प्रज्वाल्य विधिवज्जुहाव परमं हविः ।\nबृहस्पतिर्महातेजा देवराजोपलब्धये ॥"
+          "text": "ततः प्रज्वाल्य विधिवज्जुहाव परमं हविः ।\nबृहस्पतिर्महातेजा देवराजोपलब्धये ॥",
+          "meaning": {
+            "en": "Then Brihaspati, of great radiance, lit the fire and duly offered the best oblation to find the king of gods."
+          }
         },
         {
           "n": 27,
-          "text": "तस्माच्च भगवान्देवः स्वयमेव हुताशनः ।\nस्त्रीवेषमद्भुतं कृत्वा सहसान्तरधीयत ॥"
+          "text": "तस्माच्च भगवान्देवः स्वयमेव हुताशनः ।\nस्त्रीवेषमद्भुतं कृत्वा सहसान्तरधीयत ॥",
+          "meaning": {
+            "en": "From it the god Agni himself, taking a wondrous female form, suddenly disappeared."
+          }
         },
         {
           "n": 28,
-          "text": "स दिशः प्रदिशश्चैव पर्वतांश्च वनानि च ।\nपृथिवीं चान्तरिक्षं च विचीयातिमनोगतिः ।\nनिमेषान्तरमात्रेण बृहस्पतिमुपागमत् ॥"
+          "text": "स दिशः प्रदिशश्चैव पर्वतांश्च वनानि च ।\nपृथिवीं चान्तरिक्षं च विचीयातिमनोगतिः ।\nनिमेषान्तरमात्रेण बृहस्पतिमुपागमत् ॥",
+          "meaning": {
+            "en": "Searching the directions and intermediate directions, mountains and forests, earth and sky, with a mind swift as thought, in the blink of an eye he came back to Brihaspati."
+          }
         },
         {
-          "text": "अग्निरुवाच"
+          "text": "अग्निरुवाच",
+          "meaning": {
+            "en": "Agni said:"
+          }
         },
         {
           "n": 29,
-          "text": "बृहस्पते न पश्यामि देवराजमहं क्वचित् ।\nआपः शेषाः सदा चापः प्रवेष्टुं नोत्सहाम्यहम् ।\nन मे तत्र गतिर्ब्रह्मन्किमन्यत्करवाणि ते ॥"
+          "text": "बृहस्पते न पश्यामि देवराजमहं क्वचित् ।\nआपः शेषाः सदा चापः प्रवेष्टुं नोत्सहाम्यहम् ।\nन मे तत्र गतिर्ब्रह्मन्किमन्यत्करवाणि ते ॥",
+          "meaning": {
+            "en": "Brihaspati, I do not see the king of gods anywhere. Only the waters remain; I cannot go into the waters; I have no access there, brahmin; what else can I do for you?"
+          }
         },
         {
-          "text": "शल्य उवाच"
+          "text": "शल्य उवाच",
+          "meaning": {
+            "en": "Shalya said:"
+          }
         },
         {
           "n": 30,
-          "text": "तमब्रवीद्देवगुरुरपो विश महाद्युते ॥"
+          "text": "तमब्रवीद्देवगुरुरपो विश महाद्युते ॥",
+          "meaning": {
+            "en": "The teacher of the gods said to him: Enter the waters, radiant one."
+          }
         },
         {
-          "text": "अग्निरुवाच"
+          "text": "अग्निरुवाच",
+          "meaning": {
+            "en": "Agni said:"
+          }
         },
         {
           "n": 31,
-          "text": "नापः प्रवेष्टुं शक्ष्यामि क्षयो मेऽत्र भविष्यति ।\nशरणं त्वां प्रपन्नोऽस्मि स्वस्ति तेऽस्तु महाद्युते ॥"
+          "text": "नापः प्रवेष्टुं शक्ष्यामि क्षयो मेऽत्र भविष्यति ।\nशरणं त्वां प्रपन्नोऽस्मि स्वस्ति तेऽस्तु महाद्युते ॥",
+          "meaning": {
+            "en": "I shall not be able to enter the waters; I would perish there. I come to you for refuge; good fortune to you, radiant one."
+          }
         },
         {
           "n": 32,
-          "text": "अद्भ्योऽग्निर्ब्रह्मतः क्षत्रमश्मनो लोहमुत्थितम् ।\nतेषां सर्वत्रगं तेजः स्वासु योनिषु शाम्यति ॥"
+          "text": "अद्भ्योऽग्निर्ब्रह्मतः क्षत्रमश्मनो लोहमुत्थितम् ।\nतेषां सर्वत्रगं तेजः स्वासु योनिषु शाम्यति ॥",
+          "meaning": {
+            "en": "From water came fire, from Brahmins the warrior class, from stone iron; their all-pervading energy is quenched in their own sources."
+          }
         }
       ]
     }

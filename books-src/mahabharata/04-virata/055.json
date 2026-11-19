@@ -22,116 +22,203 @@
       "titleEn": "Gograhana Parva (The cattle raid)",
       "verses": [
         {
-          "text": "अर्जुन उवाच"
+          "text": "अर्जुन उवाच",
+          "meaning": {
+            "en": "Arjuna said:"
+          }
         },
         {
           "n": 1,
-          "text": "कर्ण यत्ते सभामध्ये बहु वाचा विकत्थितम् ।\nन मे युधि समोऽस्तीति तदिदं प्रत्युपस्थितम् ॥"
+          "text": "कर्ण यत्ते सभामध्ये बहु वाचा विकत्थितम् ।\nन मे युधि समोऽस्तीति तदिदं प्रत्युपस्थितम् ॥",
+          "meaning": {
+            "en": "Karna, the great boast you made in the middle of the assembly, \"There is no one equal to me in battle,\" that time has now come."
+          }
         },
         {
           "n": 2,
-          "text": "अवोचः परुषा वाचो धर्ममुत्सृज्य केवलम् ।\nइदं तु दुष्करं मन्ये यदिदं ते चिकीर्षितम् ॥"
+          "text": "अवोचः परुषा वाचो धर्ममुत्सृज्य केवलम् ।\nइदं तु दुष्करं मन्ये यदिदं ते चिकीर्षितम् ॥",
+          "meaning": {
+            "en": "You spoke harsh words, abandoning dharma entirely; but I think what you now intend to do is hard."
+          }
         },
         {
           "n": 3,
-          "text": "यत्त्वया कथितं पूर्वं मामनासाद्य किंचन ।\nतदद्य कुरु राधेय कुरुमध्ये मया सह ॥"
+          "text": "यत्त्वया कथितं पूर्वं मामनासाद्य किंचन ।\nतदद्य कुरु राधेय कुरुमध्ये मया सह ॥",
+          "meaning": {
+            "en": "Whatever you said before, when you had not yet met me, do it today against me, Radheya, in the midst of the Kurus."
+          }
         },
         {
           "n": 4,
-          "text": "यत्सभायां स्म पाञ्चालीं क्लिश्यमानां दुरात्मभिः ।\nदृष्टवानसि तस्याद्य फलमाप्नुहि केवलम् ॥"
+          "text": "यत्सभायां स्म पाञ्चालीं क्लिश्यमानां दुरात्मभिः ।\nदृष्टवानसि तस्याद्य फलमाप्नुहि केवलम् ॥",
+          "meaning": {
+            "en": "What you saw in the assembly, when Panchali was tormented by the wicked, gather now the full fruit of it."
+          }
         },
         {
           "n": 5,
-          "text": "धर्मपाशनिबद्धेन यन्मया मर्षितं पुरा ।\nतस्य राधेय कोपस्य विजयं पश्य मे मृधे ॥"
+          "text": "धर्मपाशनिबद्धेन यन्मया मर्षितं पुरा ।\nतस्य राधेय कोपस्य विजयं पश्य मे मृधे ॥",
+          "meaning": {
+            "en": "What I bore then, bound by the snares of dharma, see in battle, Radheya, the victory of that anger of mine."
+          }
         },
         {
           "n": 6,
-          "text": "एहि कर्ण मया सार्धं प्रतिपद्यस्व संगरम् ।\nप्रेक्षकाः कुरवः सर्वे भवन्तु सहसैनिकाः ॥"
+          "text": "एहि कर्ण मया सार्धं प्रतिपद्यस्व संगरम् ।\nप्रेक्षकाः कुरवः सर्वे भवन्तु सहसैनिकाः ॥",
+          "meaning": {
+            "en": "Come, Karna, take up the fight with me; let all the Kurus with their soldiers be spectators.\""
+          }
         },
         {
-          "text": "कर्ण उवाच"
+          "text": "कर्ण उवाच",
+          "meaning": {
+            "en": "Karna said:"
+          }
         },
         {
           "n": 7,
-          "text": "ब्रवीषि वाचा यत्पार्थ कर्मणा तत्समाचर ।\nअतिशेते हि वै वाचं कर्मेति प्रथितं भुवि ॥"
+          "text": "ब्रवीषि वाचा यत्पार्थ कर्मणा तत्समाचर ।\nअतिशेते हि वै वाचं कर्मेति प्रथितं भुवि ॥",
+          "meaning": {
+            "en": "\"Do in deed, Partha, what you say in words; it is known on earth that deed surpasses speech."
+          }
         },
         {
           "n": 8,
-          "text": "यत्त्वया मर्षितं पूर्वं तदशक्तेन मर्षितम् ।\nइति गृह्णामि तत्पार्थ तव दृष्ट्वापराक्रमम् ॥"
+          "text": "यत्त्वया मर्षितं पूर्वं तदशक्तेन मर्षितम् ।\nइति गृह्णामि तत्पार्थ तव दृष्ट्वापराक्रमम् ॥",
+          "meaning": {
+            "en": "What you endured before, you endured because you were unable; so I understand it, Partha, seeing your valor now."
+          }
         },
         {
           "n": 9,
-          "text": "धर्मपाशनिबद्धेन यदि ते मर्षितं पुरा ।\nतथैव बद्धमात्मानमबद्धमिव मन्यसे ॥"
+          "text": "धर्मपाशनिबद्धेन यदि ते मर्षितं पुरा ।\nतथैव बद्धमात्मानमबद्धमिव मन्यसे ॥",
+          "meaning": {
+            "en": "If you endured, bound by the snares of dharma, you still think yourself unbound though you are bound."
+          }
         },
         {
           "n": 10,
-          "text": "यदि तावद्वने वासो यथोक्तश्चरितस्त्वया ।\nतत्त्वं धर्मार्थवित्क्लिष्टः समयं भेत्तुमिच्छसि ॥"
+          "text": "यदि तावद्वने वासो यथोक्तश्चरितस्त्वया ।\nतत्त्वं धर्मार्थवित्क्लिष्टः समयं भेत्तुमिच्छसि ॥",
+          "meaning": {
+            "en": "If you carried out the forest exile as agreed, then, wise in dharma and wealth but harassed, you want to break the pact."
+          }
         },
         {
           "n": 11,
-          "text": "यदि शक्रः स्वयं पार्थ युध्यते तव कारणात् ।\nतथापि न व्यथा काचिन्मम स्याद्विक्रमिष्यतः ॥"
+          "text": "यदि शक्रः स्वयं पार्थ युध्यते तव कारणात् ।\nतथापि न व्यथा काचिन्मम स्याद्विक्रमिष्यतः ॥",
+          "meaning": {
+            "en": "Partha, even if Indra himself fought for your sake, I would have no fear as I advance."
+          }
         },
         {
           "n": 12,
-          "text": "अयं कौन्तेय कामस्ते नचिरात्समुपस्थितः ।\nयोत्स्यसे त्वं मया सार्धमद्य द्रक्ष्यसि मे बलम् ॥"
+          "text": "अयं कौन्तेय कामस्ते नचिरात्समुपस्थितः ।\nयोत्स्यसे त्वं मया सार्धमद्य द्रक्ष्यसि मे बलम् ॥",
+          "meaning": {
+            "en": "Son of Kunti, this wish of yours has come about before long; you will fight me today, and you will see my strength.\""
+          }
         },
         {
-          "text": "अर्जुन उवाच"
+          "text": "अर्जुन उवाच",
+          "meaning": {
+            "en": "Arjuna said:"
+          }
         },
         {
           "n": 13,
-          "text": "इदानीमेव तावत्त्वमपयातो रणान्मम ।\nतेन जीवसि राधेय निहतस्त्वनुजस्तव ॥"
+          "text": "इदानीमेव तावत्त्वमपयातो रणान्मम ।\nतेन जीवसि राधेय निहतस्त्वनुजस्तव ॥",
+          "meaning": {
+            "en": "\"Just now you ran from the battle before me, and so you live, Radheya, while your younger brother was killed."
+          }
         },
         {
           "n": 14,
-          "text": "भ्रातरं घातयित्वा च त्यक्त्वा रणशिरश्च कः ।\nत्वदन्यः पुरुषः सत्सु ब्रूयादेवं व्यवस्थितः ॥"
+          "text": "भ्रातरं घातयित्वा च त्यक्त्वा रणशिरश्च कः ।\nत्वदन्यः पुरुषः सत्सु ब्रूयादेवं व्यवस्थितः ॥",
+          "meaning": {
+            "en": "Having had his brother killed and having left the head of the battle, what man but you among the good would speak so, standing firm?\""
+          }
         },
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 15,
-          "text": "इति कर्णं ब्रुवन्नेव बीभत्सुरपराजितः ।\nअभ्ययाद्विसृजन्बाणान्कायावरणभेदिनः ॥"
+          "text": "इति कर्णं ब्रुवन्नेव बीभत्सुरपराजितः ।\nअभ्ययाद्विसृजन्बाणान्कायावरणभेदिनः ॥",
+          "meaning": {
+            "en": "Saying this to Karna, the undefeated Bibhatsu advanced, shooting arrows that pierce body armor."
+          }
         },
         {
           "n": 16,
-          "text": "प्रतिजग्राह तान्कर्णः शरानग्निशिखोपमान् ।\nशरवर्षेण महता वर्षमाण इवाम्बुदः ॥"
+          "text": "प्रतिजग्राह तान्कर्णः शरानग्निशिखोपमान् ।\nशरवर्षेण महता वर्षमाण इवाम्बुदः ॥",
+          "meaning": {
+            "en": "Karna met those arrows, like tongues of flame, himself raining a great shower of arrows like a cloud pouring."
+          }
         },
         {
           "n": 17,
-          "text": "उत्पेतुः शरजालानि घोररूपाणि सर्वशः ।\nअविध्यदश्वान्बाह्वोश्च हस्तावापं पृथक्पृथक् ॥"
+          "text": "उत्पेतुः शरजालानि घोररूपाणि सर्वशः ।\nअविध्यदश्वान्बाह्वोश्च हस्तावापं पृथक्पृथक् ॥",
+          "meaning": {
+            "en": "Terrible nets of arrows flew up from all sides; Karna struck the horses and, separately, his two arms and gauntlets."
+          }
         },
         {
           "n": 18,
-          "text": "सोऽमृष्यमाणः कर्णस्य निषङ्गस्यावलम्बनम् ।\nचिच्छेद निशिताग्रेण शरेण नतपर्वणा ॥"
+          "text": "सोऽमृष्यमाणः कर्णस्य निषङ्गस्यावलम्बनम् ।\nचिच्छेद निशिताग्रेण शरेण नतपर्वणा ॥",
+          "meaning": {
+            "en": "Unable to bear it, Arjuna cut the strap by which Karna's quiver hung with a sharp, smooth-jointed arrow."
+          }
         },
         {
           "n": 19,
-          "text": "उपासङ्गादुपादाय कर्णो बाणानथापरान् ।\nविव्याध पाण्डवं हस्ते तस्य मुष्टिरशीर्यत ॥"
+          "text": "उपासङ्गादुपादाय कर्णो बाणानथापरान् ।\nविव्याध पाण्डवं हस्ते तस्य मुष्टिरशीर्यत ॥",
+          "meaning": {
+            "en": "Taking other arrows from his quiver, Karna pierced the Pandava's hand, and his grip was loosened."
+          }
         },
         {
           "n": 20,
-          "text": "ततः पार्थो महाबाहुः कर्णस्य धनुरच्छिनत् ।\nस शक्तिं प्राहिणोत्तस्मै तां पार्थो व्यधमच्छरैः ॥"
+          "text": "ततः पार्थो महाबाहुः कर्णस्य धनुरच्छिनत् ।\nस शक्तिं प्राहिणोत्तस्मै तां पार्थो व्यधमच्छरैः ॥",
+          "meaning": {
+            "en": "Then the mighty-armed Partha cut Karna's bow; Karna hurled a spear at him, and Partha shattered it with arrows."
+          }
         },
         {
           "n": 21,
-          "text": "ततोऽभिपेतुर्बहवो राधेयस्य पदानुगाः ।\nतांश्च गाण्डीवनिर्मुक्तैः प्राहिणोद्यमसादनम् ॥"
+          "text": "ततोऽभिपेतुर्बहवो राधेयस्य पदानुगाः ।\nतांश्च गाण्डीवनिर्मुक्तैः प्राहिणोद्यमसादनम् ॥",
+          "meaning": {
+            "en": "Then many of Radheya's followers rushed in, and Arjuna sent them to Yama's abode with arrows shot from the Gandiva."
+          }
         },
         {
           "n": 22,
-          "text": "ततोऽस्याश्वाञ्शरैस्तीक्ष्णैर्बीभत्सुर्भारसाधनैः ।\nआकर्णमुक्तैरभ्यघ्नंस्ते हताः प्रापतन्भुवि ॥"
+          "text": "ततोऽस्याश्वाञ्शरैस्तीक्ष्णैर्बीभत्सुर्भारसाधनैः ।\nआकर्णमुक्तैरभ्यघ्नंस्ते हताः प्रापतन्भुवि ॥",
+          "meaning": {
+            "en": "Then Bibhatsu killed Karna's horses with sharp, strong arrows drawn back to the ear, and they fell dead to the ground."
+          }
         },
         {
           "n": 23,
-          "text": "अथापरेण बाणेन ज्वलितेन महाभुजः ।\nविव्याध कर्णं कौन्तेयस्तीक्ष्णेनोरसि वीर्यवान् ॥"
+          "text": "अथापरेण बाणेन ज्वलितेन महाभुजः ।\nविव्याध कर्णं कौन्तेयस्तीक्ष्णेनोरसि वीर्यवान् ॥",
+          "meaning": {
+            "en": "Then the mighty-armed, valiant son of Kunti pierced Karna in the chest with another blazing, sharp arrow."
+          }
         },
         {
           "n": 24,
-          "text": "तस्य भित्त्वा तनुत्राणं कायमभ्यपतच्छरः ।\nततः स तमसाविष्टो न स्म किंचित्प्रजज्ञिवान् ॥"
+          "text": "तस्य भित्त्वा तनुत्राणं कायमभ्यपतच्छरः ।\nततः स तमसाविष्टो न स्म किंचित्प्रजज्ञिवान् ॥",
+          "meaning": {
+            "en": "The arrow broke through his armor and entered his body, and darkness came over him so that he knew nothing."
+          }
         },
         {
           "n": 25,
-          "text": "स गाढवेदनो हित्वा रणं प्रायादुदङ्मुखः ।\nततोऽर्जुन उपाक्रोशदुत्तरश्च महारथः ॥"
+          "text": "स गाढवेदनो हित्वा रणं प्रायादुदङ्मुखः ।\nततोऽर्जुन उपाक्रोशदुत्तरश्च महारथः ॥",
+          "meaning": {
+            "en": "In deep pain he left the battle and went off facing north; then Arjuna and the great charioteer Uttara shouted after him."
+          }
         }
       ]
     }

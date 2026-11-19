@@ -22,130 +22,226 @@
       "titleEn": "Bhagavadyana Parva (Krishna's embassy)",
       "verses": [
         {
-          "text": "कुन्त्युवाच"
+          "text": "कुन्त्युवाच",
+          "meaning": {
+            "en": "Kunti said:"
+          }
         },
         {
           "n": 1,
-          "text": "अर्जुनं केशव ब्रूयास्त्वयि जाते स्म सूतके ।\nउपोपविष्टा नारीभिराश्रमे परिवारिता ॥"
+          "text": "अर्जुनं केशव ब्रूयास्त्वयि जाते स्म सूतके ।\nउपोपविष्टा नारीभिराश्रमे परिवारिता ॥",
+          "meaning": {
+            "en": "Keshava, tell Arjuna: \"When you were born and I was in confinement, I sat in the hermitage surrounded by women."
+          }
         },
         {
           "n": 2,
-          "text": "अथान्तरिक्षे वागासीद्दिव्यरूपा मनोरमा ।\nसहस्राक्षसमः कुन्ति भविष्यत्येष ते सुतः ॥"
+          "text": "अथान्तरिक्षे वागासीद्दिव्यरूपा मनोरमा ।\nसहस्राक्षसमः कुन्ति भविष्यत्येष ते सुतः ॥",
+          "meaning": {
+            "en": "Then a lovely voice of divine form spoke from the sky: 'Kunti, this son of yours will be equal to the thousand-eyed Indra."
+          }
         },
         {
           "n": 3,
-          "text": "एष जेष्यति संग्रामे कुरून्सर्वान्समागतान् ।\nभीमसेनद्वितीयश्च लोकमुद्वर्तयिष्यति ॥"
+          "text": "एष जेष्यति संग्रामे कुरून्सर्वान्समागतान् ।\nभीमसेनद्वितीयश्च लोकमुद्वर्तयिष्यति ॥",
+          "meaning": {
+            "en": "He will conquer in battle all the Kurus assembled, and with Bhimasena as his second he will overturn the world."
+          }
         },
         {
           "n": 4,
-          "text": "पुत्रस्ते पृथिवीं जेता यशश्चास्य दिवस्पृशम् ।\nहत्वा कुरून्ग्रामजन्ये वासुदेवसहायवान् ॥"
+          "text": "पुत्रस्ते पृथिवीं जेता यशश्चास्य दिवस्पृशम् ।\nहत्वा कुरून्ग्रामजन्ये वासुदेवसहायवान् ॥",
+          "meaning": {
+            "en": "Your son will conquer the earth, and his fame will touch heaven. With Vasudeva as his helper he will kill the Kurus in a war of kinsmen."
+          }
         },
         {
           "n": 5,
-          "text": "पित्र्यमंशं प्रनष्टं च पुनरप्युद्धरिष्यति ।\nभ्रातृभिः सहितः श्रीमांस्त्रीन्मेधानाहरिष्यति ॥"
+          "text": "पित्र्यमंशं प्रनष्टं च पुनरप्युद्धरिष्यति ।\nभ्रातृभिः सहितः श्रीमांस्त्रीन्मेधानाहरिष्यति ॥",
+          "meaning": {
+            "en": "He will recover again his father's share that was lost, and, glorious with his brothers, he will perform three sacrifices.'"
+          }
         },
         {
           "n": 6,
-          "text": "तं सत्यसंधं बीभत्सुं सव्यसाचिनमच्युत ।\nयथाहमेवं जानामि बलवन्तं दुरासदम् ।\nतथा तदस्तु दाशार्ह यथा वागभ्यभाषत ॥"
+          "text": "तं सत्यसंधं बीभत्सुं सव्यसाचिनमच्युत ।\nयथाहमेवं जानामि बलवन्तं दुरासदम् ।\nतथा तदस्तु दाशार्ह यथा वागभ्यभाषत ॥",
+          "meaning": {
+            "en": "Achyuta, as I know him, that truthful Bibhatsu, Savyasachin, strong and unassailable, so may that be, Dasharha, as the voice declared."
+          }
         },
         {
           "n": 7,
-          "text": "धर्मश्चेदस्ति वार्ष्णेय तथा सत्यं भविष्यति ।\nत्वं चापि तत्तथा कृष्ण सर्वं संपादयिष्यसि ॥"
+          "text": "धर्मश्चेदस्ति वार्ष्णेय तथा सत्यं भविष्यति ।\nत्वं चापि तत्तथा कृष्ण सर्वं संपादयिष्यसि ॥",
+          "meaning": {
+            "en": "If there is dharma, Vrishni hero, then it will come true; and you too, Krishna, will bring it all to pass."
+          }
         },
         {
           "n": 8,
-          "text": "नाहं तदभ्यसूयामि यथा वागभ्यभाषत ।\nनमो धर्माय महते धर्मो धारयति प्रजाः ॥"
+          "text": "नाहं तदभ्यसूयामि यथा वागभ्यभाषत ।\nनमो धर्माय महते धर्मो धारयति प्रजाः ॥",
+          "meaning": {
+            "en": "I do not doubt what the voice declared. Homage to great dharma, for dharma upholds the people."
+          }
         },
         {
           "n": 9,
-          "text": "एतद्धनंजयो वाच्यो नित्योद्युक्तो वृकोदरः ।\nयदर्थं क्षत्रिया सूते तस्य कालोऽयमागतः ।\nन हि वैरं समासाद्य सीदन्ति पुरुषर्षभाः ॥"
+          "text": "एतद्धनंजयो वाच्यो नित्योद्युक्तो वृकोदरः ।\nयदर्थं क्षत्रिया सूते तस्य कालोऽयमागतः ।\nन हि वैरं समासाद्य सीदन्ति पुरुषर्षभाः ॥",
+          "meaning": {
+            "en": "This should be said to Dhananjaya, and to Vrikodara, ever ready: the time has come for which a kshatriya woman bears sons. Bulls among men do not sink when they meet an enemy."
+          }
         },
         {
           "n": 10,
-          "text": "विदिता ते सदा बुद्धिर्भीमस्य न स शाम्यति ।\nयावदन्तं न कुरुते शत्रूणां शत्रुकर्शनः ॥"
+          "text": "विदिता ते सदा बुद्धिर्भीमस्य न स शाम्यति ।\nयावदन्तं न कुरुते शत्रूणां शत्रुकर्शनः ॥",
+          "meaning": {
+            "en": "You know Bhima's mind: he, tormentor of foes, will not rest until he has made an end of his enemies."
+          }
         },
         {
           "n": 11,
-          "text": "सर्वधर्मविशेषज्ञां स्नुषां पाण्डोर्महात्मनः ।\nब्रूया माधव कल्याणीं कृष्णां कृष्ण यशस्विनीम् ॥"
+          "text": "सर्वधर्मविशेषज्ञां स्नुषां पाण्डोर्महात्मनः ।\nब्रूया माधव कल्याणीं कृष्णां कृष्ण यशस्विनीम् ॥",
+          "meaning": {
+            "en": "Madhava, tell Krishna, the glorious and fortunate daughter-in-law of great-souled Pandu, who knows all duties distinctly:"
+          }
         },
         {
           "n": 12,
-          "text": "युक्तमेतन्महाभागे कुले जाते यशस्विनि ।\nयन्मे पुत्रेषु सर्वेषु यथावत्त्वमवर्तिथाः ॥"
+          "text": "युक्तमेतन्महाभागे कुले जाते यशस्विनि ।\nयन्मे पुत्रेषु सर्वेषु यथावत्त्वमवर्तिथाः ॥",
+          "meaning": {
+            "en": "'Illustrious one, born in a great family, it is fitting that you have behaved rightly toward all my sons.'"
+          }
         },
         {
           "n": 13,
-          "text": "माद्रीपुत्रौ च वक्तव्यौ क्षत्रधर्मरतावुभौ ।\nविक्रमेणार्जितान्भोगान्वृणीतं जीवितादपि ॥"
+          "text": "माद्रीपुत्रौ च वक्तव्यौ क्षत्रधर्मरतावुभौ ।\nविक्रमेणार्जितान्भोगान्वृणीतं जीवितादपि ॥",
+          "meaning": {
+            "en": "The two sons of Madri, both devoted to a kshatriya's duty, should be told: 'Choose enjoyments won by valor over life itself."
+          }
         },
         {
           "n": 14,
-          "text": "विक्रमाधिगता ह्यर्थाः क्षत्रधर्मेण जीवतः ।\nमनो मनुष्यस्य सदा प्रीणन्ति पुरुषोत्तम ॥"
+          "text": "विक्रमाधिगता ह्यर्थाः क्षत्रधर्मेण जीवतः ।\nमनो मनुष्यस्य सदा प्रीणन्ति पुरुषोत्तम ॥",
+          "meaning": {
+            "en": "For goods won by valor give joy always to the mind of a man living by a kshatriya's duty, best of men."
+          }
         },
         {
           "n": 15,
-          "text": "यच्च वः प्रेक्षमाणानां सर्वधर्मोपचायिनी ।\nपाञ्चाली परुषाण्युक्ता को नु तत्क्षन्तुमर्हति ॥"
+          "text": "यच्च वः प्रेक्षमाणानां सर्वधर्मोपचायिनी ।\nपाञ्चाली परुषाण्युक्ता को नु तत्क्षन्तुमर्हति ॥",
+          "meaning": {
+            "en": "And when Panchali, who adds to all dharmas, was spoken to harshly before your eyes, who can forgive that?"
+          }
         },
         {
           "n": 16,
-          "text": "न राज्यहरणं दुःखं द्यूते चापि पराजयः ।\nप्रव्राजनं सुतानां वा न मे तद्दुःखकारणम् ॥"
+          "text": "न राज्यहरणं दुःखं द्यूते चापि पराजयः ।\nप्रव्राजनं सुतानां वा न मे तद्दुःखकारणम् ॥",
+          "meaning": {
+            "en": "The seizing of the kingdom is no sorrow to me, nor the defeat at dice, nor my sons' exile; these are not the cause of my grief."
+          }
         },
         {
           "n": 17,
-          "text": "यत्तु सा बृहती श्यामा सभायां रुदती तदा ।\nअश्रौषीत्परुषा वाचस्तन्मे दुःखतरं मतम् ॥"
+          "text": "यत्तु सा बृहती श्यामा सभायां रुदती तदा ।\nअश्रौषीत्परुषा वाचस्तन्मे दुःखतरं मतम् ॥",
+          "meaning": {
+            "en": "But the harsh words that tall, dark Draupadi heard as she wept in the assembly, that I think the greater grief."
+          }
         },
         {
           "n": 18,
-          "text": "स्त्रीधर्मिणी वरारोहा क्षत्रधर्मरता सदा ।\nनाध्यगच्छत्तदा नाथं कृष्णा नाथवती सती ॥"
+          "text": "स्त्रीधर्मिणी वरारोहा क्षत्रधर्मरता सदा ।\nनाध्यगच्छत्तदा नाथं कृष्णा नाथवती सती ॥",
+          "meaning": {
+            "en": "That fair-hipped woman, devoted to women's duty and always to kshatriya duty, though she had husbands, found no protector then.'"
+          }
         },
         {
           "n": 19,
-          "text": "तं वै ब्रूहि महाबाहो सर्वशस्त्रभृतां वरम् ।\nअर्जुनं पुरुषव्याघ्रं द्रौपद्याः पदवीं चर ॥"
+          "text": "तं वै ब्रूहि महाबाहो सर्वशस्त्रभृतां वरम् ।\nअर्जुनं पुरुषव्याघ्रं द्रौपद्याः पदवीं चर ॥",
+          "meaning": {
+            "en": "Mighty-armed one, tell Arjuna, tiger among men and best of all weapon-bearers: 'Follow Draupadi's path.'"
+          }
         },
         {
           "n": 20,
-          "text": "विदितौ हि तवात्यन्तं क्रुद्धाविव यमान्तकौ ।\nभीमार्जुनौ नयेतां हि देवानपि परां गतिम् ॥"
+          "text": "विदितौ हि तवात्यन्तं क्रुद्धाविव यमान्तकौ ।\nभीमार्जुनौ नयेतां हि देवानपि परां गतिम् ॥",
+          "meaning": {
+            "en": "You know well Bhima and Arjuna, who in anger are like Yama and Death; they could bring even the gods to their end."
+          }
         },
         {
           "n": 21,
-          "text": "तयोश्चैतदवज्ञानं यत्सा कृष्णा सभागता ।\nदुःशासनश्च यद्भीमं कटुकान्यभ्यभाषत ।\nपश्यतां कुरुवीराणां तच्च संस्मारयेः पुनः ॥"
+          "text": "तयोश्चैतदवज्ञानं यत्सा कृष्णा सभागता ।\nदुःशासनश्च यद्भीमं कटुकान्यभ्यभाषत ।\nपश्यतां कुरुवीराणां तच्च संस्मारयेः पुनः ॥",
+          "meaning": {
+            "en": "That Krishna Draupadi was brought into the assembly is an insult to them both, and that Duhshasana spoke bitterly to Bhima in the sight of the Kuru heroes. Remind them of that again."
+          }
         },
         {
           "n": 22,
-          "text": "पाण्डवान्कुशलं पृच्छेः सपुत्रान्कृष्णया सह ।\nमां च कुशलिनीं ब्रूयास्तेषु भूयो जनार्दन ।\nअरिष्टं गच्छ पन्थानं पुत्रान्मे परिपालय ॥"
+          "text": "पाण्डवान्कुशलं पृच्छेः सपुत्रान्कृष्णया सह ।\nमां च कुशलिनीं ब्रूयास्तेषु भूयो जनार्दन ।\nअरिष्टं गच्छ पन्थानं पुत्रान्मे परिपालय ॥",
+          "meaning": {
+            "en": "Ask the Pandavas, with their sons and Krishna, about their welfare, Janardana, and tell them that I am well. Go by a safe road and protect my sons.\""
+          }
         },
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 23,
-          "text": "अभिवाद्याथ तां कृष्णः कृत्वा चाभिप्रदक्षिणम् ।\nनिश्चक्राम महाबाहुः सिंहखेलगतिस्ततः ॥"
+          "text": "अभिवाद्याथ तां कृष्णः कृत्वा चाभिप्रदक्षिणम् ।\nनिश्चक्राम महाबाहुः सिंहखेलगतिस्ततः ॥",
+          "meaning": {
+            "en": "Krishna bowed to her and circled her with his right side toward her, then the mighty-armed one went out with the gait of a playful lion."
+          }
         },
         {
           "n": 24,
-          "text": "ततो विसर्जयामास भीष्मादीन्कुरुपुंगवान् ।\nआरोप्य च रथे कर्णं प्रायात्सात्यकिना सह ॥"
+          "text": "ततो विसर्जयामास भीष्मादीन्कुरुपुंगवान् ।\nआरोप्य च रथे कर्णं प्रायात्सात्यकिना सह ॥",
+          "meaning": {
+            "en": "Then he dismissed Bhishma and the other bulls of the Kurus, and, placing Karna on his chariot, set out with Satyaki."
+          }
         },
         {
           "n": 25,
-          "text": "ततः प्रयाते दाशार्हे कुरवः संगता मिथः ।\nजजल्पुर्महदाश्चर्यं केशवे परमाद्भुतम् ॥"
+          "text": "ततः प्रयाते दाशार्हे कुरवः संगता मिथः ।\nजजल्पुर्महदाश्चर्यं केशवे परमाद्भुतम् ॥",
+          "meaning": {
+            "en": "When the Dasharha had left, the Kurus gathered and spoke among themselves of the great marvel connected with Keshava."
+          }
         },
         {
           "n": 26,
-          "text": "प्रमूढा पृथिवी सर्वा मृत्युपाशसिता कृता ।\nदुर्योधनस्य बालिश्यान्नैतदस्तीति चाब्रुवन् ॥"
+          "text": "प्रमूढा पृथिवी सर्वा मृत्युपाशसिता कृता ।\nदुर्योधनस्य बालिश्यान्नैतदस्तीति चाब्रुवन् ॥",
+          "meaning": {
+            "en": "They said: \"The whole earth is deluded and bound in the noose of death by Duryodhana's folly. This should not be.\""
+          }
         },
         {
           "n": 27,
-          "text": "ततो निर्याय नगरात्प्रययौ पुरुषोत्तमः ।\nमन्त्रयामास च तदा कर्णेन सुचिरं सह ॥"
+          "text": "ततो निर्याय नगरात्प्रययौ पुरुषोत्तमः ।\nमन्त्रयामास च तदा कर्णेन सुचिरं सह ॥",
+          "meaning": {
+            "en": "Then Purushottama left the city and rode on, and for a long while spoke in counsel with Karna."
+          }
         },
         {
           "n": 28,
-          "text": "विसर्जयित्वा राधेयं सर्वयादवनन्दनः ।\nततो जवेन महता तूर्णमश्वानचोदयत् ॥"
+          "text": "विसर्जयित्वा राधेयं सर्वयादवनन्दनः ।\nततो जवेन महता तूर्णमश्वानचोदयत् ॥",
+          "meaning": {
+            "en": "Having dismissed Radha's son, the delight of all the Yadavas urged his horses on swiftly with great speed."
+          }
         },
         {
           "n": 29,
-          "text": "ते पिबन्त इवाकाशं दारुकेण प्रचोदिताः ।\nहया जग्मुर्महावेगा मनोमारुतरंहसः ॥"
+          "text": "ते पिबन्त इवाकाशं दारुकेण प्रचोदिताः ।\nहया जग्मुर्महावेगा मनोमारुतरंहसः ॥",
+          "meaning": {
+            "en": "Driven by Daruka, those horses, as if drinking the sky, ran with the speed of mind and wind."
+          }
         },
         {
           "n": 30,
-          "text": "ते व्यतीत्य तमध्वानं क्षिप्रं श्येना इवाशुगाः ।\nउच्चैः सूर्यमुपप्लव्यं शार्ङ्गधन्वानमावहन् ॥"
+          "text": "ते व्यतीत्य तमध्वानं क्षिप्रं श्येना इवाशुगाः ।\nउच्चैः सूर्यमुपप्लव्यं शार्ङ्गधन्वानमावहन् ॥",
+          "meaning": {
+            "en": "Quickly crossing that road like swift hawks, they brought the bearer of the bow Sharnga loudly to Upaplavya, in the light of the sun."
+          }
         }
       ]
     }

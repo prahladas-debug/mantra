@@ -22,99 +22,171 @@
       "titleEn": "Bhagavadyana Parva (Krishna's embassy)",
       "verses": [
         {
-          "text": "भीमसेन उवाच"
+          "text": "भीमसेन उवाच",
+          "meaning": {
+            "en": "Bhimasena said:"
+          }
         },
         {
           "n": 1,
-          "text": "यथा यथैव शान्तिः स्यात्कुरूणां मधुसूदन ।\nतथा तथैव भाषेथा मा स्म युद्धेन भीषयेः ॥"
+          "text": "यथा यथैव शान्तिः स्यात्कुरूणां मधुसूदन ।\nतथा तथैव भाषेथा मा स्म युद्धेन भीषयेः ॥",
+          "meaning": {
+            "en": "Madhusudana, speak in whatever way will bring peace among the Kurus; do not frighten them with talk of war."
+          }
         },
         {
           "n": 2,
-          "text": "अमर्षी नित्यसंरब्धः श्रेयोद्वेषी महामनाः ।\nनोग्रं दुर्योधनो वाच्यः साम्नैवैनं समाचरेः ॥"
+          "text": "अमर्षी नित्यसंरब्धः श्रेयोद्वेषी महामनाः ।\nनोग्रं दुर्योधनो वाच्यः साम्नैवैनं समाचरेः ॥",
+          "meaning": {
+            "en": "Duryodhana is intolerant, always agitated, hostile to his own good and proud; do not speak harshly to him, deal with him only by conciliation."
+          }
         },
         {
           "n": 3,
-          "text": "प्रकृत्या पापसत्त्वश्च तुल्यचेताश्च दस्युभिः ।\nऐश्वर्यमदमत्तश्च कृतवैरश्च पाण्डवैः ॥"
+          "text": "प्रकृत्या पापसत्त्वश्च तुल्यचेताश्च दस्युभिः ।\nऐश्वर्यमदमत्तश्च कृतवैरश्च पाण्डवैः ॥",
+          "meaning": {
+            "en": "By nature he is of sinful mind, with a heart like that of bandits, drunk with the pride of power, and he has made enmity with the Pandavas."
+          }
         },
         {
           "n": 4,
-          "text": "अदीर्घदर्शी निष्ठूरी क्षेप्ता क्रूरपराक्रमः ।\nदीर्घमन्युरनेयश्च पापात्मा निकृतिप्रियः ॥"
+          "text": "अदीर्घदर्शी निष्ठूरी क्षेप्ता क्रूरपराक्रमः ।\nदीर्घमन्युरनेयश्च पापात्मा निकृतिप्रियः ॥",
+          "meaning": {
+            "en": "He is short-sighted, hard, abusive, cruel in his attacks, holds anger long, cannot be led, is wicked and loves deceit."
+          }
         },
         {
           "n": 5,
-          "text": "म्रियेतापि न भज्येत नैव जह्यात्स्वकं मतम् ।\nतादृशेन शमं कृष्ण मन्ये परमदुष्करम् ॥"
+          "text": "म्रियेतापि न भज्येत नैव जह्यात्स्वकं मतम् ।\nतादृशेन शमं कृष्ण मन्ये परमदुष्करम् ॥",
+          "meaning": {
+            "en": "He would die rather than bend, and would never give up his own opinion. With such a man, Krishna, I think peace is extremely hard."
+          }
         },
         {
           "n": 6,
-          "text": "सुहृदामप्यवाचीनस्त्यक्तधर्मः प्रियानृतः ।\nप्रतिहन्त्येव सुहृदां वाचश्चैव मनांसि च ॥"
+          "text": "सुहृदामप्यवाचीनस्त्यक्तधर्मः प्रियानृतः ।\nप्रतिहन्त्येव सुहृदां वाचश्चैव मनांसि च ॥",
+          "meaning": {
+            "en": "He is rude even to friends, has abandoned dharma, loves falsehood, and crushes the words and hearts of his friends."
+          }
         },
         {
           "n": 7,
-          "text": "स मन्युवशमापन्नः स्वभावं दुष्टमास्थितः ।\nस्वभावात्पापमन्वेति तृणैस्तुन्न इवोरगः ॥"
+          "text": "स मन्युवशमापन्नः स्वभावं दुष्टमास्थितः ।\nस्वभावात्पापमन्वेति तृणैस्तुन्न इवोरगः ॥",
+          "meaning": {
+            "en": "Fallen under the sway of anger and fixed in a bad nature, he follows evil by that nature, like a snake goaded with straws."
+          }
         },
         {
           "n": 8,
-          "text": "दुर्योधनो हि यत्सेनः सर्वथा विदितस्तव ।\nयच्छीलो यत्स्वभावश्च यद्बलो यत्पराक्रमः ॥"
+          "text": "दुर्योधनो हि यत्सेनः सर्वथा विदितस्तव ।\nयच्छीलो यत्स्वभावश्च यद्बलो यत्पराक्रमः ॥",
+          "meaning": {
+            "en": "You know fully what Duryodhana's army is, his character, his temperament, his strength and his prowess."
+          }
         },
         {
           "n": 9,
-          "text": "पुरा प्रसन्नाः कुरवः सहपुत्रास्तथा वयम् ।\nइन्द्रज्येष्ठा इवाभूम मोदमानाः सबान्धवाः ॥"
+          "text": "पुरा प्रसन्नाः कुरवः सहपुत्रास्तथा वयम् ।\nइन्द्रज्येष्ठा इवाभूम मोदमानाः सबान्धवाः ॥",
+          "meaning": {
+            "en": "Once the Kurus with their sons, and we also, were happy, like gods with Indra as their eldest, rejoicing with our kinsmen."
+          }
         },
         {
           "n": 10,
-          "text": "दुर्योधनस्य क्रोधेन भारता मधुसूदन ।\nधक्ष्यन्ते शिशिरापाये वनानीव हुताशनैः ॥"
+          "text": "दुर्योधनस्य क्रोधेन भारता मधुसूदन ।\nधक्ष्यन्ते शिशिरापाये वनानीव हुताशनैः ॥",
+          "meaning": {
+            "en": "Krishna, through Duryodhana's anger the Bharatas will be burned, like forests burned by fire when winter ends."
+          }
         },
         {
           "n": 11,
-          "text": "अष्टादशेमे राजानः प्रख्याता मधुसूदन ।\nये समुच्चिच्छिदुर्ज्ञातीन्सुहृदश्च सबान्धवान् ॥"
+          "text": "अष्टादशेमे राजानः प्रख्याता मधुसूदन ।\nये समुच्चिच्छिदुर्ज्ञातीन्सुहृदश्च सबान्धवान् ॥",
+          "meaning": {
+            "en": "Madhusudana, there are these eighteen famed kings who destroyed their own kin, friends and relatives."
+          }
         },
         {
           "n": 12,
-          "text": "असुराणां समृद्धानां ज्वलतामिव तेजसा ।\nपर्यायकाले धर्मस्य प्राप्ते बलिरजायत ॥"
+          "text": "असुराणां समृद्धानां ज्वलतामिव तेजसा ।\nपर्यायकाले धर्मस्य प्राप्ते बलिरजायत ॥",
+          "meaning": {
+            "en": "When the turn of dharma came round for the wealthy asuras, blazing with splendor, Bali was born among them."
+          }
         },
         {
           "n": 13,
-          "text": "हैहयानामुदावर्तो नीपानां जनमेजयः ।\nबहुलस्तालजङ्घानां कृमीणामुद्धतो वसुः ॥"
+          "text": "हैहयानामुदावर्तो नीपानां जनमेजयः ।\nबहुलस्तालजङ्घानां कृमीणामुद्धतो वसुः ॥",
+          "meaning": {
+            "en": "Udavarta among the Haihayas, Janamejaya among the Nipas, Bahula among the Talajanghas, Vasu among the Krimis, born arrogant."
+          }
         },
         {
           "n": 14,
-          "text": "अजबिन्दुः सुवीराणां सुराष्ट्राणां कुशर्द्धिकः ।\nअर्कजश्च बलीहानां चीनानां धौतमूलकः ॥"
+          "text": "अजबिन्दुः सुवीराणां सुराष्ट्राणां कुशर्द्धिकः ।\nअर्कजश्च बलीहानां चीनानां धौतमूलकः ॥",
+          "meaning": {
+            "en": "Ajabindu among the Suviras, Kushardika among the Surashtras, Arkaja among the Balihas, Dhautamulaka among the Chinas."
+          }
         },
         {
           "n": 15,
-          "text": "हयग्रीवो विदेहानां वरप्रश्च महौजसाम् ।\nबाहुः सुन्दरवेगानां दीप्ताक्षाणां पुरूरवाः ॥"
+          "text": "हयग्रीवो विदेहानां वरप्रश्च महौजसाम् ।\nबाहुः सुन्दरवेगानां दीप्ताक्षाणां पुरूरवाः ॥",
+          "meaning": {
+            "en": "Hayagriva among the Videhas, Varaprada among the Mahaujas, Bahu among the Sundaravegas, Pururavas among the Diptakshas."
+          }
         },
         {
           "n": 16,
-          "text": "सहजश्चेदिमत्स्यानां प्रचेतानां बृहद्बलः ।\nधारणश्चेन्द्रवत्सानां मुकुटानां विगाहनः ॥"
+          "text": "सहजश्चेदिमत्स्यानां प्रचेतानां बृहद्बलः ।\nधारणश्चेन्द्रवत्सानां मुकुटानां विगाहनः ॥",
+          "meaning": {
+            "en": "Sahaja among the Chedis and Matsyas, Brihadbala among the Prachetas, Dharana among the Indravatsas, Vigahana among the Mukutas."
+          }
         },
         {
           "n": 17,
-          "text": "शमश्च नन्दिवेगानामित्येते कुलपांसनाः ।\nयुगान्ते कृष्ण संभूताः कुलेषु पुरुषाधमाः ॥"
+          "text": "शमश्च नन्दिवेगानामित्येते कुलपांसनाः ।\nयुगान्ते कृष्ण संभूताः कुलेषु पुरुषाधमाः ॥",
+          "meaning": {
+            "en": "And Shama among the Nandivegas: these were the stains on their families, the lowest of men, born in their clans at the end of an age."
+          }
         },
         {
           "n": 18,
-          "text": "अप्ययं नः कुरूणां स्याद्युगान्ते कालसंभृतः ।\nदुर्योधनः कुलाङ्गारो जघन्यः पापपूरुषः ॥"
+          "text": "अप्ययं नः कुरूणां स्याद्युगान्ते कालसंभृतः ।\nदुर्योधनः कुलाङ्गारो जघन्यः पापपूरुषः ॥",
+          "meaning": {
+            "en": "So too, Krishna, Duryodhana, the firebrand of his family, base and evil, may be our Kurus' ruin, born with the end of an age."
+          }
         },
         {
           "n": 19,
-          "text": "तस्मान्मृदु शनैरेनं ब्रूया धर्मार्थसंहितम् ।\nकामानुबन्धबहुलं नोग्रमुग्रपराक्रमम् ॥"
+          "text": "तस्मान्मृदु शनैरेनं ब्रूया धर्मार्थसंहितम् ।\nकामानुबन्धबहुलं नोग्रमुग्रपराक्रमम् ॥",
+          "meaning": {
+            "en": "Therefore speak to him softly and slowly, with words full of dharma and profit and pleasing to his desires; do not be harsh with one whose prowess is harsh."
+          }
         },
         {
           "n": 20,
-          "text": "अपि दुर्योधनं कृष्ण सर्वे वयमधश्चराः ।\nनीचैर्भूत्वानुयास्यामो मा स्म नो भरता नशन् ॥"
+          "text": "अपि दुर्योधनं कृष्ण सर्वे वयमधश्चराः ।\nनीचैर्भूत्वानुयास्यामो मा स्म नो भरता नशन् ॥",
+          "meaning": {
+            "en": "Krishna, all of us will follow Duryodhana, humbled and bowing low, if only the Bharatas are not destroyed."
+          }
         },
         {
           "n": 21,
-          "text": "अप्युदासीनवृत्तिः स्याद्यथा नः कुरुभिः सह ।\nवासुदेव तथा कार्यं न कुरूननयः स्पृशेत् ॥"
+          "text": "अप्युदासीनवृत्तिः स्याद्यथा नः कुरुभिः सह ।\nवासुदेव तथा कार्यं न कुरूननयः स्पृशेत् ॥",
+          "meaning": {
+            "en": "Vasudeva, act so that, even if we keep aloof from the Kurus, no wrong policy touches them."
+          }
         },
         {
           "n": 22,
-          "text": "वाच्यः पितामहो वृद्धो ये च कृष्ण सभासदः ।\nभ्रातॄणामस्तु सौभ्रात्रं धार्तराष्ट्रः प्रशाम्यताम् ॥"
+          "text": "वाच्यः पितामहो वृद्धो ये च कृष्ण सभासदः ।\nभ्रातॄणामस्तु सौभ्रात्रं धार्तराष्ट्रः प्रशाम्यताम् ॥",
+          "meaning": {
+            "en": "Krishna, speak to the old grandsire and to the members of the assembly, so that brotherly feeling may prevail among brothers and the Dhartarashtra be pacified."
+          }
         },
         {
           "n": 23,
-          "text": "अहमेतद्ब्रवीम्येवं राजा चैव प्रशंसति ।\nअर्जुनो नैव युद्धार्थी भूयसी हि दयार्जुने ॥"
+          "text": "अहमेतद्ब्रवीम्येवं राजा चैव प्रशंसति ।\nअर्जुनो नैव युद्धार्थी भूयसी हि दयार्जुने ॥",
+          "meaning": {
+            "en": "This is what I say, and the king too approves it; Arjuna does not wish for war, for his compassion is the greater."
+          }
         }
       ]
     }

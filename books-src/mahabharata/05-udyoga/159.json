@@ -22,59 +22,101 @@
       "titleEn": "Ulukadutagamana Parva (Uluka's embassy)",
       "verses": [
         {
-          "text": "संजय उवाच"
+          "text": "संजय उवाच",
+          "meaning": {
+            "en": "Sanjaya said:"
+          }
         },
         {
           "n": 1,
-          "text": "उलूकस्त्वर्जुनं भूयो यथोक्तं वाक्यमब्रवीत् ।\nआशीविषमिव क्रुद्धं तुदन्वाक्यशलाकया ॥"
+          "text": "उलूकस्त्वर्जुनं भूयो यथोक्तं वाक्यमब्रवीत् ।\nआशीविषमिव क्रुद्धं तुदन्वाक्यशलाकया ॥",
+          "meaning": {
+            "en": "Uluka then spoke again to Arjuna the words as he had been told, piercing him with the needles of his speech like an angry venomous snake."
+          }
         },
         {
           "n": 2,
-          "text": "तस्य तद्वचनं श्रुत्वा रुषिताः पाण्डवा भृशम् ।\nप्रागेव भृशसंक्रुद्धाः कैतव्येन प्रधर्षिताः ॥"
+          "text": "तस्य तद्वचनं श्रुत्वा रुषिताः पाण्डवा भृशम् ।\nप्रागेव भृशसंक्रुद्धाः कैतव्येन प्रधर्षिताः ॥",
+          "meaning": {
+            "en": "Hearing his words, the Pandavas were greatly enraged, having been provoked already by the son of Kitava."
+          }
         },
         {
           "n": 3,
-          "text": "नासनेष्ववतिष्ठन्त बाहूंश्चैव विचिक्षिपुः ।\nआशीविषा इव क्रुद्धा वीक्षां चक्रुः परस्परम् ॥"
+          "text": "नासनेष्ववतिष्ठन्त बाहूंश्चैव विचिक्षिपुः ।\nआशीविषा इव क्रुद्धा वीक्षां चक्रुः परस्परम् ॥",
+          "meaning": {
+            "en": "They could not stay in their seats and shook their arms; angry like venomous snakes, they looked at one another."
+          }
         },
         {
           "n": 4,
-          "text": "अवाक्शिरा भीमसेनः समुदैक्षत केशवम् ।\nनेत्राभ्यां लोहितान्ताभ्यामाशीविष इव श्वसन् ॥"
+          "text": "अवाक्शिरा भीमसेनः समुदैक्षत केशवम् ।\nनेत्राभ्यां लोहितान्ताभ्यामाशीविष इव श्वसन् ॥",
+          "meaning": {
+            "en": "Bhimasena, head bowed, looked at Keshava with eyes red at the corners, hissing like a snake."
+          }
         },
         {
           "n": 5,
-          "text": "आर्तं वातात्मजं दृष्ट्वा क्रोधेनाभिहतं भृशम् ।\nउत्स्मयन्निव दाशार्हः कैतव्यं प्रत्यभाषत ॥"
+          "text": "आर्तं वातात्मजं दृष्ट्वा क्रोधेनाभिहतं भृशम् ।\nउत्स्मयन्निव दाशार्हः कैतव्यं प्रत्यभाषत ॥",
+          "meaning": {
+            "en": "Seeing the son of the Wind distressed and struck by rage, Krishna, as if smiling, answered the son of Kitava."
+          }
         },
         {
           "n": 6,
-          "text": "प्रयाहि शीघ्रं कैतव्य ब्रूयाश्चैव सुयोधनम् ।\nश्रुतं वाक्यं गृहीतोऽर्थो मतं यत्ते तथास्तु तत् ॥"
+          "text": "प्रयाहि शीघ्रं कैतव्य ब्रूयाश्चैव सुयोधनम् ।\nश्रुतं वाक्यं गृहीतोऽर्थो मतं यत्ते तथास्तु तत् ॥",
+          "meaning": {
+            "en": "Go quickly, son of Kitava, and tell Suyodhana: the message is heard, its meaning grasped, and what you intend shall be so."
+          }
         },
         {
           "n": 7,
-          "text": "मद्वचश्चापि भूयस्ते वक्तव्यः स सुयोधनः ।\nश्व इदानीं प्रदृश्येथाः पुरुषो भव दुर्मते ॥"
+          "text": "मद्वचश्चापि भूयस्ते वक्तव्यः स सुयोधनः ।\nश्व इदानीं प्रदृश्येथाः पुरुषो भव दुर्मते ॥",
+          "meaning": {
+            "en": "And Suyodhana must hear this message of mine too: you will be seen tomorrow; be a man, fool."
+          }
         },
         {
           "n": 8,
-          "text": "मन्यसे यच्च मूढ त्वं न योत्स्यति जनार्दनः ।\nसारथ्येन वृतः पार्थैरिति त्वं न बिभेषि च ॥"
+          "text": "मन्यसे यच्च मूढ त्वं न योत्स्यति जनार्दनः ।\nसारथ्येन वृतः पार्थैरिति त्वं न बिभेषि च ॥",
+          "meaning": {
+            "en": "You think, fool, that Janardana will not fight because the Parthas have chosen him as charioteer, and so you do not fear."
+          }
         },
         {
           "n": 9,
-          "text": "जघन्यकालमप्येतद्भवेद्यत्सर्वपार्थिवान् ।\nनिर्दहेयमहं क्रोधात्तृणानीव हुताशनः ॥"
+          "text": "जघन्यकालमप्येतद्भवेद्यत्सर्वपार्थिवान् ।\nनिर्दहेयमहं क्रोधात्तृणानीव हुताशनः ॥",
+          "meaning": {
+            "en": "Even in the worst of times I could burn up all the kings in my anger, as fire burns grass."
+          }
         },
         {
           "n": 10,
-          "text": "युधिष्ठिरनियोगात्तु फल्गुनस्य महात्मनः ।\nकरिष्ये युध्यमानस्य सारथ्यं विदितात्मनः ॥"
+          "text": "युधिष्ठिरनियोगात्तु फल्गुनस्य महात्मनः ।\nकरिष्ये युध्यमानस्य सारथ्यं विदितात्मनः ॥",
+          "meaning": {
+            "en": "But at Yudhishthira's command I will be the charioteer of the great-souled Arjuna as he fights, a man of known self."
+          }
         },
         {
           "n": 11,
-          "text": "यद्युत्पतसि लोकांस्त्रीन्यद्याविशसि भूतलम् ।\nतत्र तत्रार्जुनरथं प्रभाते द्रक्ष्यसेऽग्रतः ॥"
+          "text": "यद्युत्पतसि लोकांस्त्रीन्यद्याविशसि भूतलम् ।\nतत्र तत्रार्जुनरथं प्रभाते द्रक्ष्यसेऽग्रतः ॥",
+          "meaning": {
+            "en": "If you fly up through the three worlds or enter the earth, there and there you will see Arjuna's chariot before you at dawn."
+          }
         },
         {
           "n": 12,
-          "text": "यच्चापि भीमसेनस्य मन्यसे मोघगर्जितम् ।\nदुःशासनस्य रुधिरं पीतमित्यवधार्यताम् ॥"
+          "text": "यच्चापि भीमसेनस्य मन्यसे मोघगर्जितम् ।\nदुःशासनस्य रुधिरं पीतमित्यवधार्यताम् ॥",
+          "meaning": {
+            "en": "And as for what you think is vain roaring by Bhimasena, take it as settled that Duhshasana's blood is as good as drunk."
+          }
         },
         {
           "n": 13,
-          "text": "न त्वां समीक्षते पार्थो नापि राजा युधिष्ठिरः ।\nन भीमसेनो न यमौ प्रतिकूलप्रभाषिणम् ॥"
+          "text": "न त्वां समीक्षते पार्थो नापि राजा युधिष्ठिरः ।\nन भीमसेनो न यमौ प्रतिकूलप्रभाषिणम् ॥",
+          "meaning": {
+            "en": "Neither Partha, nor King Yudhishthira, nor Bhimasena, nor the twins will even look at you, who speak so hostilely."
+          }
         }
       ]
     }

@@ -22,130 +22,226 @@
       "titleEn": "Prajagara Parva (The sleepless night)",
       "verses": [
         {
-          "text": "विदुर उवाच"
+          "text": "विदुर उवाच",
+          "meaning": {
+            "en": "Vidura said:"
+          }
         },
         {
           "n": 1,
-          "text": "योऽभ्यर्थितः सद्भिरसज्जमानः\nकरोत्यर्थं शक्तिमहापयित्वा ।\nक्षिप्रं यशस्तं समुपैति सन्त-\nमलं प्रसन्ना हि सुखाय सन्तः ॥"
+          "text": "योऽभ्यर्थितः सद्भिरसज्जमानः\nकरोत्यर्थं शक्तिमहापयित्वा ।\nक्षिप्रं यशस्तं समुपैति सन्त-\nमलं प्रसन्ना हि सुखाय सन्तः ॥",
+          "meaning": {
+            "en": "He who, when asked by good men, does the task without attachment, using up his strength, quickly wins fame; for good men, when pleased, bring happiness enough."
+          }
         },
         {
           "n": 2,
-          "text": "महान्तमप्यर्थमधर्मयुक्तं\nयः संत्यजत्यनुपाक्रुष्ट एव ।\nसुखं स दुःखान्यवमुच्य शेते\nजीर्णां त्वचं सर्प इवावमुच्य ॥"
+          "text": "महान्तमप्यर्थमधर्मयुक्तं\nयः संत्यजत्यनुपाक्रुष्ट एव ।\nसुखं स दुःखान्यवमुच्य शेते\nजीर्णां त्वचं सर्प इवावमुच्य ॥",
+          "meaning": {
+            "en": "He who, though not pressed, gives up even great wealth tied to unrighteousness sleeps happily, having shed sorrows as a snake sheds its old skin."
+          }
         },
         {
           "n": 3,
-          "text": "अनृतं च समुत्कर्षे राजगामि च पैशुनम् ।\nगुरोश्चालीकनिर्बन्धः समानि ब्रह्महत्यया ॥"
+          "text": "अनृतं च समुत्कर्षे राजगामि च पैशुनम् ।\nगुरोश्चालीकनिर्बन्धः समानि ब्रह्महत्यया ॥",
+          "meaning": {
+            "en": "A lie told to raise oneself, slander carried to the king, and an insistence on a falsehood against a teacher are equal to killing a brahmin."
+          }
         },
         {
           "n": 4,
-          "text": "असूयैकपदं मृत्युरतिवादः श्रियो वधः ।\nअशुश्रूषा त्वरा श्लाघा विद्यायाः शत्रवस्त्रयः ॥"
+          "text": "असूयैकपदं मृत्युरतिवादः श्रियो वधः ।\nअशुश्रूषा त्वरा श्लाघा विद्यायाः शत्रवस्त्रयः ॥",
+          "meaning": {
+            "en": "Envy is death in one word, over-talk is the destroyer of prosperity, not wanting to serve, haste and self-praise are the three enemies of learning."
+          }
         },
         {
           "n": 5,
-          "text": "सुखार्थिनः कुतो विद्या नास्ति विद्यार्थिनः सुखम् ।\nसुखार्थी वा त्यजेद्विद्यां विद्यार्थी वा सुखं त्यजेत् ॥"
+          "text": "सुखार्थिनः कुतो विद्या नास्ति विद्यार्थिनः सुखम् ।\nसुखार्थी वा त्यजेद्विद्यां विद्यार्थी वा सुखं त्यजेत् ॥",
+          "meaning": {
+            "en": "How can one who seeks pleasure have learning? There is no pleasure for one seeking learning. Either the pleasure-seeker should give up learning or the student should give up pleasure."
+          }
         },
         {
           "n": 6,
-          "text": "नाग्निस्तृप्यति काष्ठानां नापगानां महोदधिः ।\nनान्तकः सर्वभूतानां न पुंसां वामलोचना ॥"
+          "text": "नाग्निस्तृप्यति काष्ठानां नापगानां महोदधिः ।\nनान्तकः सर्वभूतानां न पुंसां वामलोचना ॥",
+          "meaning": {
+            "en": "Fire is not satisfied with wood, nor the great ocean with rivers, nor Death with all beings, nor a fair-eyed woman with men."
+          }
         },
         {
           "n": 7,
-          "text": "आशा धृतिं हन्ति समृद्धिमन्तकः\nक्रोधः श्रियं हन्ति यशः कदर्यता ।\nअपालनं हन्ति पशूंश्च राज-\nन्नेकः क्रुद्धो ब्राह्मणो हन्ति राष्ट्रम् ॥"
+          "text": "आशा धृतिं हन्ति समृद्धिमन्तकः\nक्रोधः श्रियं हन्ति यशः कदर्यता ।\nअपालनं हन्ति पशूंश्च राज-\nन्नेकः क्रुद्धो ब्राह्मणो हन्ति राष्ट्रम् ॥",
+          "meaning": {
+            "en": "Hope kills steadiness, Death kills prosperity, anger kills fortune, stinginess kills fame, lack of care kills cattle, and one angry brahmin, king, can destroy a kingdom."
+          }
         },
         {
           "n": 8,
-          "text": "अजश्च कांस्यं च रथश्च नित्यं\nमध्वाकर्षः शकुनिः श्रोत्रियश्च ।\nवृद्धो ज्ञातिरवसन्नो वयस्य\nएतानि ते सन्तु गृहे सदैव ॥"
+          "text": "अजश्च कांस्यं च रथश्च नित्यं\nमध्वाकर्षः शकुनिः श्रोत्रियश्च ।\nवृद्धो ज्ञातिरवसन्नो वयस्य\nएतानि ते सन्तु गृहे सदैव ॥",
+          "meaning": {
+            "en": "A goat, a bronze vessel, a chariot, a honey-gatherer, a bird, a learned brahmin, an aged kinsman who has fallen, and a friend: may these always be in your house."
+          }
         },
         {
           "n": 9,
-          "text": "अजोक्षा चन्दनं वीणा आदर्शो मधुसर्पिषी ।\nविषमौदुम्बरं शङ्खः स्वर्णं नाभिश्च रोचना ॥"
+          "text": "अजोक्षा चन्दनं वीणा आदर्शो मधुसर्पिषी ।\nविषमौदुम्बरं शङ्खः स्वर्णं नाभिश्च रोचना ॥",
+          "meaning": {
+            "en": "A goat or bull, sandalwood, a lute, a mirror, honey and ghee, a copper bowl, a conch, gold, a navel-shaped vessel, and gorochana."
+          }
         },
         {
           "n": 10,
-          "text": "गृहे स्थापयितव्यानि धन्यानि मनुरब्रवीत् ।\nदेवब्राह्मणपूजार्थमतिथीनां च भारत ॥"
+          "text": "गृहे स्थापयितव्यानि धन्यानि मनुरब्रवीत् ।\nदेवब्राह्मणपूजार्थमतिथीनां च भारत ॥",
+          "meaning": {
+            "en": "Manu said that these fortunate things should be kept in the house for worshiping gods and brahmins and for guests, Bharata."
+          }
         },
         {
           "n": 11,
-          "text": "इदं च त्वां सर्वपरं ब्रवीमि\nपुण्यं पदं तात महाविशिष्टम् ।\nन जातु कामान्न भयान्न लोभा-\nद्धर्मं त्यजेज्जीवितस्यापि हेतोः ॥"
+          "text": "इदं च त्वां सर्वपरं ब्रवीमि\nपुण्यं पदं तात महाविशिष्टम् ।\nन जातु कामान्न भयान्न लोभा-\nद्धर्मं त्यजेज्जीवितस्यापि हेतोः ॥",
+          "meaning": {
+            "en": "And I tell you this, which is above all, dear friend, a holy and most excellent saying: never, out of desire, fear or greed, abandon dharma, even for the sake of life."
+          }
         },
         {
           "n": 12,
-          "text": "नित्यो धर्मः सुखदुःखे त्वनित्ये\nनित्यो जीवो धातुरस्य त्वनित्यः ।\nत्यक्त्वानित्यं प्रतितिष्ठस्व नित्ये\nसंतुष्य त्वं तोषपरो हि लाभः ॥"
+          "text": "नित्यो धर्मः सुखदुःखे त्वनित्ये\nनित्यो जीवो धातुरस्य त्वनित्यः ।\nत्यक्त्वानित्यं प्रतितिष्ठस्व नित्ये\nसंतुष्य त्वं तोषपरो हि लाभः ॥",
+          "meaning": {
+            "en": "Dharma is eternal, while pleasure and pain are not; the soul is eternal, while its cause is not. Leave the impermanent and stand on the eternal; be content, for contentment is the highest gain."
+          }
         },
         {
           "n": 13,
-          "text": "महाबलान्पश्य महानुभावा-\nन्प्रशास्य भूमिं धनधान्यपूर्णाम् ।\nराज्यानि हित्वा विपुलांश्च भोगा-\nन्गतान्नरेन्द्रान्वशमन्तकस्य ॥"
+          "text": "महाबलान्पश्य महानुभावा-\nन्प्रशास्य भूमिं धनधान्यपूर्णाम् ।\nराज्यानि हित्वा विपुलांश्च भोगा-\nन्गतान्नरेन्द्रान्वशमन्तकस्य ॥",
+          "meaning": {
+            "en": "See the very mighty and powerful kings who ruled the earth, full of wealth and grain, and went to the power of Death, leaving their kingdoms and vast pleasures."
+          }
         },
         {
           "n": 14,
-          "text": "मृतं पुत्रं दुःखपुष्टं मनुष्या\nउत्क्षिप्य राजन्स्वगृहान्निर्हरन्ति ।\nतं मुक्तकेशाः करुणं रुदन्त-\nश्चितामध्ये काष्ठमिव क्षिपन्ति ॥"
+          "text": "मृतं पुत्रं दुःखपुष्टं मनुष्या\nउत्क्षिप्य राजन्स्वगृहान्निर्हरन्ति ।\nतं मुक्तकेशाः करुणं रुदन्त-\nश्चितामध्ये काष्ठमिव क्षिपन्ति ॥",
+          "meaning": {
+            "en": "When a son has died, whom grief has nourished, people lift him up, king, and carry him out of the house; with loosened hair, weeping piteously, they throw him in the middle of the pyre like a log."
+          }
         },
         {
           "n": 15,
-          "text": "अन्यो धनं प्रेतगतस्य भुङ्क्ते\nवयांसि चाग्निश्च शरीरधातून् ।\nद्वाभ्यामयं सह गच्छत्यमुत्र\nपुण्येन पापेन च वेष्ट्यमानः ॥"
+          "text": "अन्यो धनं प्रेतगतस्य भुङ्क्ते\nवयांसि चाग्निश्च शरीरधातून् ।\nद्वाभ्यामयं सह गच्छत्यमुत्र\nपुण्येन पापेन च वेष्ट्यमानः ॥",
+          "meaning": {
+            "en": "Another enjoys the wealth of the dead man; birds and fire take the elements of the body. Only two go with him to the next world: his merit and his sin, which surround him."
+          }
         },
         {
           "n": 16,
-          "text": "उत्सृज्य विनिवर्तन्ते ज्ञातयः सुहृदः सुताः ।\nअग्नौ प्रास्तं तु पुरुषं कर्मान्वेति स्वयंकृतम् ॥"
+          "text": "उत्सृज्य विनिवर्तन्ते ज्ञातयः सुहृदः सुताः ।\nअग्नौ प्रास्तं तु पुरुषं कर्मान्वेति स्वयंकृतम् ॥",
+          "meaning": {
+            "en": "Kinsmen, friends and sons turn back, having left him; but the deed that he did follows the man cast into the fire."
+          }
         },
         {
           "n": 17,
-          "text": "अस्माल्लोकादूर्ध्वममुष्य चाधो\nमहत्तमस्तिष्ठति ह्यन्धकारम् ।\nतद्वै महामोहनमिन्द्रियाणां\nबुध्यस्व मा त्वां प्रलभेत राजन् ॥"
+          "text": "अस्माल्लोकादूर्ध्वममुष्य चाधो\nमहत्तमस्तिष्ठति ह्यन्धकारम् ।\nतद्वै महामोहनमिन्द्रियाणां\nबुध्यस्व मा त्वां प्रलभेत राजन् ॥",
+          "meaning": {
+            "en": "Above this world and below that one stands the deepest darkness, which greatly bewilders the senses; understand it, king, so that it does not deceive you."
+          }
         },
         {
           "n": 18,
-          "text": "इदं वचः शक्ष्यसि चेद्यथाव-\nन्निशम्य सर्वं प्रतिपत्तुमेवम् ।\nयशः परं प्राप्स्यसि जीवलोके\nभयं न चामुत्र न चेह तेऽस्ति ॥"
+          "text": "इदं वचः शक्ष्यसि चेद्यथाव-\nन्निशम्य सर्वं प्रतिपत्तुमेवम् ।\nयशः परं प्राप्स्यसि जीवलोके\nभयं न चामुत्र न चेह तेऽस्ति ॥",
+          "meaning": {
+            "en": "If you are able to listen to all these words and accept them as they are, you will win supreme fame in the world of the living, and have no fear here or hereafter."
+          }
         },
         {
           "n": 19,
-          "text": "आत्मा नदी भारत पुण्यतीर्था\nसत्योदका धृतिकूला दमोर्मिः ।\nतस्यां स्नातः पूयते पुण्यकर्मा\nपुण्यो ह्यात्मा नित्यमम्भोऽम्भ एव ॥"
+          "text": "आत्मा नदी भारत पुण्यतीर्था\nसत्योदका धृतिकूला दमोर्मिः ।\nतस्यां स्नातः पूयते पुण्यकर्मा\nपुण्यो ह्यात्मा नित्यमम्भोऽम्भ एव ॥",
+          "meaning": {
+            "en": "The self is a river, Bharata, with holy fords, truth for its water, steadiness its banks and self-control its waves. Bathing in it, one of pure deeds is purified; for the self is pure, and its water is always water."
+          }
         },
         {
           "n": 20,
-          "text": "कामक्रोधग्राहवतीं पञ्चेन्द्रियजलां नदीम् ।\nकृत्वा धृतिमयीं नावं जन्मदुर्गाणि संतर ॥"
+          "text": "कामक्रोधग्राहवतीं पञ्चेन्द्रियजलां नदीम् ।\nकृत्वा धृतिमयीं नावं जन्मदुर्गाणि संतर ॥",
+          "meaning": {
+            "en": "Make the river whose crocodiles are desire and anger and whose waters are the five senses into a boat made of steadiness, and cross the difficult places of birth."
+          }
         },
         {
           "n": 21,
-          "text": "प्रज्ञावृद्धं धर्मवृद्धं स्वबन्धुं\nविद्यावृद्धं वयसा चापि वृद्धम् ।\nकार्याकार्ये पूजयित्वा प्रसाद्य\nयः संपृच्छेन्न स मुह्येत्कदाचित् ॥"
+          "text": "प्रज्ञावृद्धं धर्मवृद्धं स्वबन्धुं\nविद्यावृद्धं वयसा चापि वृद्धम् ।\nकार्याकार्ये पूजयित्वा प्रसाद्य\nयः संपृच्छेन्न स मुह्येत्कदाचित् ॥",
+          "meaning": {
+            "en": "One who, having honored and pleased the one who is old in wisdom, old in dharma, his own kinsman, old in learning and old in years, asks about what should be done and what not, is never confused."
+          }
         },
         {
           "n": 22,
-          "text": "धृत्या शिश्नोदरं रक्षेत्पाणिपादं च चक्षुषा ।\nचक्षुःश्रोत्रे च मनसा मनो वाचं च कर्मणा ॥"
+          "text": "धृत्या शिश्नोदरं रक्षेत्पाणिपादं च चक्षुषा ।\nचक्षुःश्रोत्रे च मनसा मनो वाचं च कर्मणा ॥",
+          "meaning": {
+            "en": "One should guard the belly and sex organ with steadiness, hands and feet with the eye, eyes and ears with the mind, and mind and speech with action."
+          }
         },
         {
           "n": 23,
-          "text": "नित्योदकी नित्ययज्ञोपवीती\nनित्यस्वाध्यायी पतितान्नवर्जी ।\nऋतं ब्रुवन्गुरवे कर्म कुर्व-\nन्न ब्राह्मणश्च्यवते ब्रह्मलोकात् ॥"
+          "text": "नित्योदकी नित्ययज्ञोपवीती\nनित्यस्वाध्यायी पतितान्नवर्जी ।\nऋतं ब्रुवन्गुरवे कर्म कुर्व-\nन्न ब्राह्मणश्च्यवते ब्रह्मलोकात् ॥",
+          "meaning": {
+            "en": "A brahmin who daily performs ablutions and wears the sacred thread, studies daily, avoids the food of the fallen, speaks truth and serves his teacher, does not fall from the world of Brahman."
+          }
         },
         {
           "n": 24,
-          "text": "अधीत्य वेदान्परिसंस्तीर्य चाग्नी-\nनिष्ट्वा यज्ञैः पालयित्वा प्रजाश्च ।\nगोब्राह्मणार्थे शस्त्रपूतान्तरात्मा\nहतः संग्रामे क्षत्रियः स्वर्गमेति ॥"
+          "text": "अधीत्य वेदान्परिसंस्तीर्य चाग्नी-\nनिष्ट्वा यज्ञैः पालयित्वा प्रजाश्च ।\nगोब्राह्मणार्थे शस्त्रपूतान्तरात्मा\nहतः संग्रामे क्षत्रियः स्वर्गमेति ॥",
+          "meaning": {
+            "en": "A kshatriya who has studied the Vedas, laid the fires, sacrificed, protected his subjects, and, his soul purified by weapons, is killed in battle for cows and brahmins, goes to heaven."
+          }
         },
         {
           "n": 25,
-          "text": "वैश्योऽधीत्य ब्राह्मणान्क्षत्रियांश्च\nधनैः काले संविभज्याश्रितांश्च ।\nत्रेतापूतं धूममाघ्राय पुण्यं\nप्रेत्य स्वर्गे देवसुखानि भुङ्क्ते ॥"
+          "text": "वैश्योऽधीत्य ब्राह्मणान्क्षत्रियांश्च\nधनैः काले संविभज्याश्रितांश्च ।\nत्रेतापूतं धूममाघ्राय पुण्यं\nप्रेत्य स्वर्गे देवसुखानि भुङ्क्ते ॥",
+          "meaning": {
+            "en": "A vaishya who has studied, shared wealth at the right time with brahmins, kshatriyas and dependents, and breathed the holy smoke purified by the three fires, after death enjoys the delights of the gods in heaven."
+          }
         },
         {
           "n": 26,
-          "text": "ब्रह्मक्षत्रं वैश्यवर्णं च शूद्रः\nक्रमेणैतान्न्यायतः पूजयानः ।\nतुष्टेष्वेतेष्वव्यथो दग्धपाप-\nस्त्यक्त्वा देहं स्वर्गसुखानि भुङ्क्ते ॥"
+          "text": "ब्रह्मक्षत्रं वैश्यवर्णं च शूद्रः\nक्रमेणैतान्न्यायतः पूजयानः ।\nतुष्टेष्वेतेष्वव्यथो दग्धपाप-\nस्त्यक्त्वा देहं स्वर्गसुखानि भुङ्क्ते ॥",
+          "meaning": {
+            "en": "A shudra who rightly serves in order the brahmins, kshatriyas and vaishyas, when they are pleased is undisturbed, his sins burned away, and having left his body enjoys the pleasures of heaven."
+          }
         },
         {
           "n": 27,
-          "text": "चातुर्वर्ण्यस्यैष धर्मस्तवोक्तो\nहेतुं चात्र ब्रुवतो मे निबोध ।\nक्षात्राद्धर्माद्धीयते पाण्डुपुत्र-\nस्तं त्वं राजन्राजधर्मे नियुङ्क्ष्व ॥"
+          "text": "चातुर्वर्ण्यस्यैष धर्मस्तवोक्तो\nहेतुं चात्र ब्रुवतो मे निबोध ।\nक्षात्राद्धर्माद्धीयते पाण्डुपुत्र-\nस्तं त्वं राजन्राजधर्मे नियुङ्क्ष्व ॥",
+          "meaning": {
+            "en": "This is the dharma of the four classes that I have told you; hear the reason I give for it. The son of Pandu is falling away from the kshatriya dharma; engage him in the king's duty, king."
+          }
         },
         {
-          "text": "धृतराष्ट्र उवाच"
+          "text": "धृतराष्ट्र उवाच",
+          "meaning": {
+            "en": "Dhritarashtra said:"
+          }
         },
         {
           "n": 28,
-          "text": "एवमेतद्यथा मां त्वमनुशाससि नित्यदा ।\nममापि च मतिः सौम्य भवत्येवं यथात्थ माम् ॥"
+          "text": "एवमेतद्यथा मां त्वमनुशाससि नित्यदा ।\nममापि च मतिः सौम्य भवत्येवं यथात्थ माम् ॥",
+          "meaning": {
+            "en": "It is just as you always instruct me, and my own thought, gentle friend, is also as you say."
+          }
         },
         {
           "n": 29,
-          "text": "सा तु बुद्धिः कृताप्येवं पाण्डवान्प्रति मे सदा ।\nदुर्योधनं समासाद्य पुनर्विपरिवर्तते ॥"
+          "text": "सा तु बुद्धिः कृताप्येवं पाण्डवान्प्रति मे सदा ।\nदुर्योधनं समासाद्य पुनर्विपरिवर्तते ॥",
+          "meaning": {
+            "en": "But though my mind is always so made up toward the Pandavas, when it comes to Duryodhana it turns back again."
+          }
         },
         {
           "n": 30,
-          "text": "न दिष्टमभ्यतिक्रान्तुं शक्यं मर्त्येन केनचित् ।\nदिष्टमेव कृतं मन्ये पौरुषं तु निरर्थकम् ॥"
+          "text": "न दिष्टमभ्यतिक्रान्तुं शक्यं मर्त्येन केनचित् ।\nदिष्टमेव कृतं मन्ये पौरुषं तु निरर्थकम् ॥",
+          "meaning": {
+            "en": "No mortal can overstep what is ordained; I think only fate is real, and human effort is useless."
+          }
         }
       ]
     }

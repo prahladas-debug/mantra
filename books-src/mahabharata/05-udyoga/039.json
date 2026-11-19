@@ -22,296 +22,518 @@
       "titleEn": "Prajagara Parva (The sleepless night)",
       "verses": [
         {
-          "text": "धृतराष्ट्र उवाच"
+          "text": "धृतराष्ट्र उवाच",
+          "meaning": {
+            "en": "Dhritarashtra said:"
+          }
         },
         {
           "n": 1,
-          "text": "अनीश्वरोऽयं पुरुषो भवाभवे\nसूत्रप्रोता दारुमयीव योषा ।\nधात्रा तु दिष्टस्य वशे किलायं\nतस्माद्वद त्वं श्रवणे धृतोऽहम् ॥"
+          "text": "अनीश्वरोऽयं पुरुषो भवाभवे\nसूत्रप्रोता दारुमयीव योषा ।\nधात्रा तु दिष्टस्य वशे किलायं\nतस्माद्वद त्वं श्रवणे धृतोऽहम् ॥",
+          "meaning": {
+            "en": "This man has no control over being and not being; like a wooden woman strung on threads, he is surely under the power of what the Creator ordained. So tell me; I am attentive to hear."
+          }
         },
         {
-          "text": "विदुर उवाच"
+          "text": "विदुर उवाच",
+          "meaning": {
+            "en": "Vidura said:"
+          }
         },
         {
           "n": 2,
-          "text": "अप्राप्तकालं वचनं बृहस्पतिरपि ब्रुवन् ।\nलभते बुद्ध्यवज्ञानमवमानं च भारत ॥"
+          "text": "अप्राप्तकालं वचनं बृहस्पतिरपि ब्रुवन् ।\nलभते बुद्ध्यवज्ञानमवमानं च भारत ॥",
+          "meaning": {
+            "en": "Even Brihaspati, speaking words out of season, meets contempt and insult for his wisdom, Bharata."
+          }
         },
         {
           "n": 3,
-          "text": "प्रियो भवति दानेन प्रियवादेन चापरः ।\nमन्त्रं मूलबलेनान्यो यः प्रियः प्रिय एव सः ॥"
+          "text": "प्रियो भवति दानेन प्रियवादेन चापरः ।\nमन्त्रं मूलबलेनान्यो यः प्रियः प्रिय एव सः ॥",
+          "meaning": {
+            "en": "One becomes dear by giving, another by pleasant speech, another by charm and spells; but he who is dear is simply dear."
+          }
         },
         {
           "n": 4,
-          "text": "द्वेष्यो न साधुर्भवति न मेधावी न पण्डितः ।\nप्रिये शुभानि कर्माणि द्वेष्ये पापानि भारत ॥"
+          "text": "द्वेष्यो न साधुर्भवति न मेधावी न पण्डितः ।\nप्रिये शुभानि कर्माणि द्वेष्ये पापानि भारत ॥",
+          "meaning": {
+            "en": "One who is disliked is not seen as good, nor wise, nor learned; to the dear one go good deeds, to the disliked bad ones, Bharata."
+          }
         },
         {
           "n": 5,
-          "text": "न स क्षयो महाराज यः क्षयो वृद्धिमावहेत् ।\nक्षयः स त्विह मन्तव्यो यं लब्ध्वा बहु नाशयेत् ॥"
+          "text": "न स क्षयो महाराज यः क्षयो वृद्धिमावहेत् ।\nक्षयः स त्विह मन्तव्यो यं लब्ध्वा बहु नाशयेत् ॥",
+          "meaning": {
+            "en": "That is not a loss, great king, which brings gain; one should regard that as loss which, once gotten, destroys much."
+          }
         },
         {
           "n": 6,
-          "text": "समृद्धा गुणतः केचिद्भवन्ति धनतोऽपरे ।\nधनवृद्धान्गुणैर्हीनान्धृतराष्ट्र विवर्जयेत् ॥"
+          "text": "समृद्धा गुणतः केचिद्भवन्ति धनतोऽपरे ।\nधनवृद्धान्गुणैर्हीनान्धृतराष्ट्र विवर्जयेत् ॥",
+          "meaning": {
+            "en": "Some are rich in qualities, others in wealth; Dhritarashtra, avoid those who are rich in wealth but lacking in qualities."
+          }
         },
         {
-          "text": "धृतराष्ट्र उवाच"
+          "text": "धृतराष्ट्र उवाच",
+          "meaning": {
+            "en": "Dhritarashtra said:"
+          }
         },
         {
           "n": 7,
-          "text": "सर्वं त्वमायतीयुक्तं भाषसे प्राज्ञसंमतम् ।\nन चोत्सहे सुतं त्यक्तुं यतो धर्मस्ततो जयः ॥"
+          "text": "सर्वं त्वमायतीयुक्तं भाषसे प्राज्ञसंमतम् ।\nन चोत्सहे सुतं त्यक्तुं यतो धर्मस्ततो जयः ॥",
+          "meaning": {
+            "en": "You say everything bearing on the future, as the wise approve; but I cannot bring myself to abandon my son, since where dharma is, there is victory."
+          }
         },
         {
-          "text": "विदुर उवाच"
+          "text": "विदुर उवाच",
+          "meaning": {
+            "en": "Vidura said:"
+          }
         },
         {
           "n": 8,
-          "text": "स्वभावगुणसंपन्नो न जातु विनयान्वितः ।\nसुसूक्ष्ममपि भूतानामुपमर्दं प्रयोक्ष्यते ॥"
+          "text": "स्वभावगुणसंपन्नो न जातु विनयान्वितः ।\nसुसूक्ष्ममपि भूतानामुपमर्दं प्रयोक्ष्यते ॥",
+          "meaning": {
+            "en": "A man endowed with a natural bent for harm, never with humility, will inflict even the tiniest injury on creatures."
+          }
         },
         {
           "n": 9,
-          "text": "परापवादनिरताः परदुःखोदयेषु च ।\nपरस्परविरोधे च यतन्ते सततोत्थिताः ॥"
+          "text": "परापवादनिरताः परदुःखोदयेषु च ।\nपरस्परविरोधे च यतन्ते सततोत्थिताः ॥",
+          "meaning": {
+            "en": "They delight in slandering others and in the growth of others' misery, and they work ever alert to set one against another."
+          }
         },
         {
           "n": 10,
-          "text": "सदोषं दर्शनं येषां संवासे सुमहद्भयम् ।\nअर्थादाने महान्दोषः प्रदाने च महद्भयम् ॥"
+          "text": "सदोषं दर्शनं येषां संवासे सुमहद्भयम् ।\nअर्थादाने महान्दोषः प्रदाने च महद्भयम् ॥",
+          "meaning": {
+            "en": "Those whose very look is faulty, living with them is a great danger; in taking wealth from them there is great fault, and in giving there is great fear."
+          }
         },
         {
           "n": 11,
-          "text": "ये पापा इति विख्याताः संवासे परिगर्हिताः ।\nयुक्ताश्चान्यैर्महादोषैर्ये नरास्तान्विवर्जयेत् ॥"
+          "text": "ये पापा इति विख्याताः संवासे परिगर्हिताः ।\nयुक्ताश्चान्यैर्महादोषैर्ये नरास्तान्विवर्जयेत् ॥",
+          "meaning": {
+            "en": "Those who are known as sinners, condemned in company, and joined with other great faults, one should avoid."
+          }
         },
         {
           "n": 12,
-          "text": "निवर्तमाने सौहार्दे प्रीतिर्नीचे प्रणश्यति ।\nया चैव फलनिर्वृत्तिः सौहृदे चैव यत्सुखम् ॥"
+          "text": "निवर्तमाने सौहार्दे प्रीतिर्नीचे प्रणश्यति ।\nया चैव फलनिर्वृत्तिः सौहृदे चैव यत्सुखम् ॥",
+          "meaning": {
+            "en": "When goodwill ends, the friendship of a base man vanishes, as does the fruit it bore and the pleasure of friendship."
+          }
         },
         {
           "n": 13,
-          "text": "यतते चापवादाय यत्नमारभते क्षये ।\nअल्पेऽप्यपकृते मोहान्न शान्तिमुपगच्छति ॥"
+          "text": "यतते चापवादाय यत्नमारभते क्षये ।\nअल्पेऽप्यपकृते मोहान्न शान्तिमुपगच्छति ॥",
+          "meaning": {
+            "en": "He strives for slander and starts effort at ruin; even for a small wrong he does not, out of folly, come to peace."
+          }
         },
         {
           "n": 14,
-          "text": "तादृशैः संगतं नीचैर्नृशंसैरकृतात्मभिः ।\nनिशाम्य निपुणं बुद्ध्या विद्वान्दूराद्विवर्जयेत् ॥"
+          "text": "तादृशैः संगतं नीचैर्नृशंसैरकृतात्मभिः ।\nनिशाम्य निपुणं बुद्ध्या विद्वान्दूराद्विवर्जयेत् ॥",
+          "meaning": {
+            "en": "A learned man, having observed with his mind carefully, should keep far from association with such base, cruel, uncultivated men."
+          }
         },
         {
           "n": 15,
-          "text": "यो ज्ञातिमनुगृह्णाति दरिद्रं दीनमातुरम् ।\nस पुत्रपशुभिर्वृद्धिं यशश्चाव्ययमश्नुते ॥"
+          "text": "यो ज्ञातिमनुगृह्णाति दरिद्रं दीनमातुरम् ।\nस पुत्रपशुभिर्वृद्धिं यशश्चाव्ययमश्नुते ॥",
+          "meaning": {
+            "en": "He who helps a kinsman who is poor, wretched or sick gains growth in sons and cattle, and lasting fame."
+          }
         },
         {
           "n": 16,
-          "text": "ज्ञातयो वर्धनीयास्तैर्य इच्छन्त्यात्मनः शुभम् ।\nकुलवृद्धिं च राजेन्द्र तस्मात्साधु समाचर ॥"
+          "text": "ज्ञातयो वर्धनीयास्तैर्य इच्छन्त्यात्मनः शुभम् ।\nकुलवृद्धिं च राजेन्द्र तस्मात्साधु समाचर ॥",
+          "meaning": {
+            "en": "Kinsmen should be raised up by those who wish their own good and the growth of their family, king of kings; so act well."
+          }
         },
         {
           "n": 17,
-          "text": "श्रेयसा योक्ष्यसे राजन्कुर्वाणो ज्ञातिसत्क्रियाम् ।\nविगुणा ह्यपि संरक्ष्या ज्ञातयो भरतर्षभ ॥"
+          "text": "श्रेयसा योक्ष्यसे राजन्कुर्वाणो ज्ञातिसत्क्रियाम् ।\nविगुणा ह्यपि संरक्ष्या ज्ञातयो भरतर्षभ ॥",
+          "meaning": {
+            "en": "You will be united with the highest good, king, by honoring your kinsmen; even those lacking in virtues are to be protected, bull of the Bharatas."
+          }
         },
         {
           "n": 18,
-          "text": "किं पुनर्गुणवन्तस्ते त्वत्प्रसादाभिकाङ्क्षिणः ।\nप्रसादं कुरु दीनानां पाण्डवानां विशां पते ॥"
+          "text": "किं पुनर्गुणवन्तस्ते त्वत्प्रसादाभिकाङ्क्षिणः ।\nप्रसादं कुरु दीनानां पाण्डवानां विशां पते ॥",
+          "meaning": {
+            "en": "How much more those who are virtuous and who long for your favor? Show favor to the Pandavas, who are in distress, lord of the people."
+          }
         },
         {
           "n": 19,
-          "text": "दीयन्तां ग्रामकाः केचित्तेषां वृत्त्यर्थमीश्वर ।\nएवं लोके यशःप्राप्तो भविष्यसि नराधिप ॥"
+          "text": "दीयन्तां ग्रामकाः केचित्तेषां वृत्त्यर्थमीश्वर ।\nएवं लोके यशःप्राप्तो भविष्यसि नराधिप ॥",
+          "meaning": {
+            "en": "Let some villages be given to them for their livelihood, lord; thus you will gain fame in the world, king of men."
+          }
         },
         {
           "n": 20,
-          "text": "वृद्धेन हि त्वया कार्यं पुत्राणां तात रक्षणम् ।\nमया चापि हितं वाच्यं विद्धि मां त्वद्धितैषिणम् ॥"
+          "text": "वृद्धेन हि त्वया कार्यं पुत्राणां तात रक्षणम् ।\nमया चापि हितं वाच्यं विद्धि मां त्वद्धितैषिणम् ॥",
+          "meaning": {
+            "en": "You, dear friend, being old, must protect your sons, and I must tell you what is good; know that I wish you well."
+          }
         },
         {
           "n": 21,
-          "text": "ज्ञातिभिर्विग्रहस्तात न कर्तव्यो भवार्थिना ।\nसुखानि सह भोज्यानि ज्ञातिभिर्भरतर्षभ ॥"
+          "text": "ज्ञातिभिर्विग्रहस्तात न कर्तव्यो भवार्थिना ।\nसुखानि सह भोज्यानि ज्ञातिभिर्भरतर्षभ ॥",
+          "meaning": {
+            "en": "One who desires prosperity should not fight with kinsmen, dear friend; one should enjoy happiness together with kinsmen, bull of the Bharatas."
+          }
         },
         {
           "n": 22,
-          "text": "संभोजनं संकथनं संप्रीतिश्च परस्परम् ।\nज्ञातिभिः सह कार्याणि न विरोधः कथंचन ॥"
+          "text": "संभोजनं संकथनं संप्रीतिश्च परस्परम् ।\nज्ञातिभिः सह कार्याणि न विरोधः कथंचन ॥",
+          "meaning": {
+            "en": "Eating together, conversation and mutual affection are what should be done with kinsmen; never opposition."
+          }
         },
         {
           "n": 23,
-          "text": "ज्ञातयस्तारयन्तीह ज्ञातयो मज्जयन्ति च ।\nसुवृत्तास्तारयन्तीह दुर्वृत्ता मज्जयन्ति च ॥"
+          "text": "ज्ञातयस्तारयन्तीह ज्ञातयो मज्जयन्ति च ।\nसुवृत्तास्तारयन्तीह दुर्वृत्ता मज्जयन्ति च ॥",
+          "meaning": {
+            "en": "Kinsmen save here, and kinsmen drown; those of good conduct save, those of bad conduct drown."
+          }
         },
         {
           "n": 24,
-          "text": "सुवृत्तो भव राजेन्द्र पाण्डवान्प्रति मानद ।\nअधर्षणीयः शत्रूणां तैर्वृतस्त्वं भविष्यसि ॥"
+          "text": "सुवृत्तो भव राजेन्द्र पाण्डवान्प्रति मानद ।\nअधर्षणीयः शत्रूणां तैर्वृतस्त्वं भविष्यसि ॥",
+          "meaning": {
+            "en": "Be of good conduct toward the Pandavas, giver of honor; surrounded by them you will be unassailable by enemies."
+          }
         },
         {
           "n": 25,
-          "text": "श्रीमन्तं ज्ञातिमासाद्य यो ज्ञातिरवसीदति ।\nदिग्धहस्तं मृग इव स एनस्तस्य विन्दति ॥"
+          "text": "श्रीमन्तं ज्ञातिमासाद्य यो ज्ञातिरवसीदति ।\nदिग्धहस्तं मृग इव स एनस्तस्य विन्दति ॥",
+          "meaning": {
+            "en": "A kinsman who is languishing when he has gone to a prosperous kinsman is like a deer to one with poisoned hands; he gets the sin."
+          }
         },
         {
           "n": 26,
-          "text": "पश्चादपि नरश्रेष्ठ तव तापो भविष्यति ।\nतान्वा हतान्सुतान्वापि श्रुत्वा तदनुचिन्तय ॥"
+          "text": "पश्चादपि नरश्रेष्ठ तव तापो भविष्यति ।\nतान्वा हतान्सुतान्वापि श्रुत्वा तदनुचिन्तय ॥",
+          "meaning": {
+            "en": "Afterward too, best of men, you will be tormented; hearing that they or your sons are slain, think on this."
+          }
         },
         {
           "n": 27,
-          "text": "येन खट्वां समारूढः परितप्येत कर्मणा ।\nआदावेव न तत्कुर्यादध्रुवे जीविते सति ॥"
+          "text": "येन खट्वां समारूढः परितप्येत कर्मणा ।\nआदावेव न तत्कुर्यादध्रुवे जीविते सति ॥",
+          "meaning": {
+            "en": "One should not do in the first place a deed by which one, lying on his deathbed, would be tormented, since life is uncertain."
+          }
         },
         {
           "n": 28,
-          "text": "न कश्चिन्नापनयते पुमानन्यत्र भार्गवात् ।\nशेषसंप्रतिपत्तिस्तु बुद्धिमत्स्वेव तिष्ठति ॥"
+          "text": "न कश्चिन्नापनयते पुमानन्यत्र भार्गवात् ।\nशेषसंप्रतिपत्तिस्तु बुद्धिमत्स्वेव तिष्ठति ॥",
+          "meaning": {
+            "en": "There is no man who does no wrong except Bhargava; but receiving the rest is found only among the wise."
+          }
         },
         {
           "n": 29,
-          "text": "दुर्योधनेन यद्येतत्पापं तेषु पुरा कृतम् ।\nत्वया तत्कुलवृद्धेन प्रत्यानेयं नरेश्वर ॥"
+          "text": "दुर्योधनेन यद्येतत्पापं तेषु पुरा कृतम् ।\nत्वया तत्कुलवृद्धेन प्रत्यानेयं नरेश्वर ॥",
+          "meaning": {
+            "en": "If Duryodhana did this wrong to them earlier, you, as the head of the family, should repair it, lord of men."
+          }
         },
         {
           "n": 30,
-          "text": "तांस्त्वं पदे प्रतिष्ठाप्य लोके विगतकल्मषः ।\nभविष्यसि नरश्रेष्ठ पूजनीयो मनीषिणाम् ॥"
+          "text": "तांस्त्वं पदे प्रतिष्ठाप्य लोके विगतकल्मषः ।\nभविष्यसि नरश्रेष्ठ पूजनीयो मनीषिणाम् ॥",
+          "meaning": {
+            "en": "Having re-established them in their place, you will be free from sin in the world and become honored by the wise, best of men."
+          }
         },
         {
           "n": 31,
-          "text": "सुव्याहृतानि धीराणां फलतः प्रविचिन्त्य यः ।\nअध्यवस्यति कार्येषु चिरं यशसि तिष्ठति ॥"
+          "text": "सुव्याहृतानि धीराणां फलतः प्रविचिन्त्य यः ।\nअध्यवस्यति कार्येषु चिरं यशसि तिष्ठति ॥",
+          "meaning": {
+            "en": "He who, having weighed the well-spoken words of the steadfast by their results, resolves his tasks, stays long in fame."
+          }
         },
         {
           "n": 32,
-          "text": "अवृत्तिं विनयो हन्ति हन्त्यनर्थं पराक्रमः ।\nहन्ति नित्यं क्षमा क्रोधमाचारो हन्त्यलक्षणम् ॥"
+          "text": "अवृत्तिं विनयो हन्ति हन्त्यनर्थं पराक्रमः ।\nहन्ति नित्यं क्षमा क्रोधमाचारो हन्त्यलक्षणम् ॥",
+          "meaning": {
+            "en": "Humility kills lack of livelihood, valor kills harm, patience always kills anger, and good conduct kills ill omen."
+          }
         },
         {
           "n": 33,
-          "text": "परिच्छदेन क्षेत्रेण वेश्मना परिचर्यया ।\nपरीक्षेत कुलं राजन्भोजनाच्छादनेन च ॥"
+          "text": "परिच्छदेन क्षेत्रेण वेश्मना परिचर्यया ।\nपरीक्षेत कुलं राजन्भोजनाच्छादनेन च ॥",
+          "meaning": {
+            "en": "One should examine a family by its household things, field, house, service, and by its food and clothing, king."
+          }
         },
         {
           "n": 34,
-          "text": "ययोश्चित्तेन वा चित्तं नैभृतं नैभृतेन वा ।\nसमेति प्रज्ञया प्रज्ञा तयोर्मैत्री न जीर्यते ॥"
+          "text": "ययोश्चित्तेन वा चित्तं नैभृतं नैभृतेन वा ।\nसमेति प्रज्ञया प्रज्ञा तयोर्मैत्री न जीर्यते ॥",
+          "meaning": {
+            "en": "Those whose hearts agree with heart, hidden with hidden, or wisdom with wisdom, their friendship does not age."
+          }
         },
         {
           "n": 35,
-          "text": "दुर्बुद्धिमकृतप्रज्ञं छन्नं कूपं तृणैरिव ।\nविवर्जयीत मेधावी तस्मिन्मैत्री प्रणश्यति ॥"
+          "text": "दुर्बुद्धिमकृतप्रज्ञं छन्नं कूपं तृणैरिव ।\nविवर्जयीत मेधावी तस्मिन्मैत्री प्रणश्यति ॥",
+          "meaning": {
+            "en": "Avoid the ill-minded, the uncultured, like a well covered with grass; with him friendship is lost."
+          }
         },
         {
           "n": 36,
-          "text": "अवलिप्तेषु मूर्खेषु रौद्रसाहसिकेषु च ।\nतथैवापेतधर्मेषु न मैत्रीमाचरेद्बुधः ॥"
+          "text": "अवलिप्तेषु मूर्खेषु रौद्रसाहसिकेषु च ।\nतथैवापेतधर्मेषु न मैत्रीमाचरेद्बुधः ॥",
+          "meaning": {
+            "en": "The wise man should not make friendship with the arrogant, the foolish, the fierce and rash, and those who have left dharma."
+          }
         },
         {
           "n": 37,
-          "text": "कृतज्ञं धार्मिकं सत्यमक्षुद्रं दृढभक्तिकम् ।\nजितेन्द्रियं स्थितं स्थित्यां मित्रमत्यागि चेष्यते ॥"
+          "text": "कृतज्ञं धार्मिकं सत्यमक्षुद्रं दृढभक्तिकम् ।\nजितेन्द्रियं स्थितं स्थित्यां मित्रमत्यागि चेष्यते ॥",
+          "meaning": {
+            "en": "A friend is wanted who is grateful, righteous, truthful, not petty, firm in devotion, master of his senses, steady in his position, and who does not forsake."
+          }
         },
         {
           "n": 38,
-          "text": "इन्द्रियाणामनुत्सर्गो मृत्युना न विशिष्यते ।\nअत्यर्थं पुनरुत्सर्गः सादयेद्दैवतान्यपि ॥"
+          "text": "इन्द्रियाणामनुत्सर्गो मृत्युना न विशिष्यते ।\nअत्यर्थं पुनरुत्सर्गः सादयेद्दैवतान्यपि ॥",
+          "meaning": {
+            "en": "Not restraining the senses is no different from death; and going too far in letting them loose would ruin even the gods."
+          }
         },
         {
           "n": 39,
-          "text": "मार्दवं सर्वभूतानामनसूया क्षमा धृतिः ।\nआयुष्याणि बुधाः प्राहुर्मित्राणां चाविमानना ॥"
+          "text": "मार्दवं सर्वभूतानामनसूया क्षमा धृतिः ।\nआयुष्याणि बुधाः प्राहुर्मित्राणां चाविमानना ॥",
+          "meaning": {
+            "en": "Gentleness toward all beings, freedom from envy, patience and steadiness, the wise say, are life-giving; so is not despising friends."
+          }
         },
         {
           "n": 40,
-          "text": "अपनीतं सुनीतेन योऽर्थं प्रत्यानिनीषते ।\nमतिमास्थाय सुदृढां तदकापुरुषव्रतम् ॥"
+          "text": "अपनीतं सुनीतेन योऽर्थं प्रत्यानिनीषते ।\nमतिमास्थाय सुदृढां तदकापुरुषव्रतम् ॥",
+          "meaning": {
+            "en": "He who, relying on a firm resolve, wishes to recover a thing lost by good policy through bad, such a vow is a coward's."
+          }
         },
         {
           "n": 41,
-          "text": "आयत्यां प्रतिकारज्ञस्तदात्वे दृढनिश्चयः ।\nअतीते कार्यशेषज्ञो नरोऽर्थैर्न प्रहीयते ॥"
+          "text": "आयत्यां प्रतिकारज्ञस्तदात्वे दृढनिश्चयः ।\nअतीते कार्यशेषज्ञो नरोऽर्थैर्न प्रहीयते ॥",
+          "meaning": {
+            "en": "He who knows the remedy for the future, is firm in resolve in the present, and knows what remains to be done from the past, is not deprived of his aims."
+          }
         },
         {
           "n": 42,
-          "text": "कर्मणा मनसा वाचा यदभीक्ष्णं निषेवते ।\nतदेवापहरत्येनं तस्मात्कल्याणमाचरेत् ॥"
+          "text": "कर्मणा मनसा वाचा यदभीक्ष्णं निषेवते ।\nतदेवापहरत्येनं तस्मात्कल्याणमाचरेत् ॥",
+          "meaning": {
+            "en": "What one constantly practices by deed, mind and speech, that carries him off; therefore one should practice good."
+          }
         },
         {
           "n": 43,
-          "text": "मङ्गलालम्भनं योगः श्रुतमुत्थानमार्जवम् ।\nभूतिमेतानि कुर्वन्ति सतां चाभीक्ष्णदर्शनम् ॥"
+          "text": "मङ्गलालम्भनं योगः श्रुतमुत्थानमार्जवम् ।\nभूतिमेतानि कुर्वन्ति सतां चाभीक्ष्णदर्शनम् ॥",
+          "meaning": {
+            "en": "Seeking auspicious things, discipline, learning, effort, honesty, and frequent sight of the good bring prosperity."
+          }
         },
         {
           "n": 44,
-          "text": "अनिर्वेदः श्रियो मूलं दुःखनाशे सुखस्य च ।\nमहान्भवत्यनिर्विण्णः सुखं चात्यन्तमश्नुते ॥"
+          "text": "अनिर्वेदः श्रियो मूलं दुःखनाशे सुखस्य च ।\nमहान्भवत्यनिर्विण्णः सुखं चात्यन्तमश्नुते ॥",
+          "meaning": {
+            "en": "Freedom from despair is the root of prosperity, of the end of sorrow and of happiness; the undespairing man becomes great and gains happiness without limit."
+          }
         },
         {
           "n": 45,
-          "text": "नातः श्रीमत्तरं किंचिदन्यत्पथ्यतमं तथा ।\nप्रभविष्णोर्यथा तात क्षमा सर्वत्र सर्वदा ॥"
+          "text": "नातः श्रीमत्तरं किंचिदन्यत्पथ्यतमं तथा ।\nप्रभविष्णोर्यथा तात क्षमा सर्वत्र सर्वदा ॥",
+          "meaning": {
+            "en": "There is nothing more prosperous or more wholesome than this for a man of power, dear friend: forbearance, everywhere and always."
+          }
         },
         {
           "n": 46,
-          "text": "क्षमेदशक्तः सर्वस्य शक्तिमान्धर्मकारणात् ।\nअर्थानर्थौ समौ यस्य तस्य नित्यं क्षमा हिता ॥"
+          "text": "क्षमेदशक्तः सर्वस्य शक्तिमान्धर्मकारणात् ।\nअर्थानर्थौ समौ यस्य तस्य नित्यं क्षमा हिता ॥",
+          "meaning": {
+            "en": "The powerless should forgive everyone, and the powerful should, for dharma's sake; for him to whom gain and loss are the same, forgiveness is always good."
+          }
         },
         {
           "n": 47,
-          "text": "यत्सुखं सेवमानोऽपि धर्मार्थाभ्यां न हीयते ।\nकामं तदुपसेवेत न मूढव्रतमाचरेत् ॥"
+          "text": "यत्सुखं सेवमानोऽपि धर्मार्थाभ्यां न हीयते ।\nकामं तदुपसेवेत न मूढव्रतमाचरेत् ॥",
+          "meaning": {
+            "en": "The pleasure by which one, even enjoying it, is not deprived of dharma and wealth, one may pursue as one likes, but not practice the fool's vow."
+          }
         },
         {
           "n": 48,
-          "text": "दुःखार्तेषु प्रमत्तेषु नास्तिकेष्वलसेषु च ।\nन श्रीर्वसत्यदान्तेषु ये चोत्साहविवर्जिताः ॥"
+          "text": "दुःखार्तेषु प्रमत्तेषु नास्तिकेष्वलसेषु च ।\nन श्रीर्वसत्यदान्तेषु ये चोत्साहविवर्जिताः ॥",
+          "meaning": {
+            "en": "Prosperity does not live with those afflicted by sorrow, the careless, the nonbelievers, the lazy, the uncontrolled, and those lacking energy."
+          }
         },
         {
           "n": 49,
-          "text": "आर्जवेन नरं युक्तमार्जवात्सव्यपत्रपम् ।\nअशक्तिमन्तं मन्यन्तो धर्षयन्ति कुबुद्धयः ॥"
+          "text": "आर्जवेन नरं युक्तमार्जवात्सव्यपत्रपम् ।\nअशक्तिमन्तं मन्यन्तो धर्षयन्ति कुबुद्धयः ॥",
+          "meaning": {
+            "en": "Foolish people attack a man who is straightforward, and out of his honesty, modest, thinking him powerless."
+          }
         },
         {
           "n": 50,
-          "text": "अत्यार्यमतिदातारमतिशूरमतिव्रतम् ।\nप्रज्ञाभिमानिनं चैव श्रीर्भयान्नोपसर्पति ॥"
+          "text": "अत्यार्यमतिदातारमतिशूरमतिव्रतम् ।\nप्रज्ञाभिमानिनं चैव श्रीर्भयान्नोपसर्पति ॥",
+          "meaning": {
+            "en": "Prosperity does not approach, out of fear, one who is too noble, too generous, too brave, too strict in vows, or proud of his wisdom."
+          }
         },
         {
           "n": 51,
-          "text": "अग्निहोत्रफला वेदाः शीलवृत्तफलं श्रुतम् ।\nरतिपुत्रफला दारा दत्तभुक्तफलं धनम् ॥"
+          "text": "अग्निहोत्रफला वेदाः शीलवृत्तफलं श्रुतम् ।\nरतिपुत्रफला दारा दत्तभुक्तफलं धनम् ॥",
+          "meaning": {
+            "en": "The Vedas bear fruit in the agnihotra, learning in good character and conduct, wives in pleasure and sons, wealth in giving and enjoying."
+          }
         },
         {
           "n": 52,
-          "text": "अधर्मोपार्जितैरर्थैर्यः करोत्यौर्ध्वदेहिकम् ।\nन स तस्य फलं प्रेत्य भुङ्क्तेऽर्थस्य दुरागमात् ॥"
+          "text": "अधर्मोपार्जितैरर्थैर्यः करोत्यौर्ध्वदेहिकम् ।\nन स तस्य फलं प्रेत्य भुङ्क्तेऽर्थस्य दुरागमात् ॥",
+          "meaning": {
+            "en": "He who performs rites for the next world with wealth earned unrighteously does not, after death, enjoy the fruit of it, because of the bad way it was gained."
+          }
         },
         {
           "n": 53,
-          "text": "कान्तारवनदुर्गेषु कृच्छ्रास्वापत्सु संभ्रमे ।\nउद्यतेषु च शस्त्रेषु नास्ति शेषवतां भयम् ॥"
+          "text": "कान्तारवनदुर्गेषु कृच्छ्रास्वापत्सु संभ्रमे ।\nउद्यतेषु च शस्त्रेषु नास्ति शेषवतां भयम् ॥",
+          "meaning": {
+            "en": "In wilderness, forest, difficult places, hard calamities, panic and when weapons are raised, those who have a remainder have no fear."
+          }
         },
         {
           "n": 54,
-          "text": "उत्थानं संयमो दाक्ष्यमप्रमादो धृतिः स्मृतिः ।\nसमीक्ष्य च समारम्भो विद्धि मूलं भवस्य तत् ॥"
+          "text": "उत्थानं संयमो दाक्ष्यमप्रमादो धृतिः स्मृतिः ।\nसमीक्ष्य च समारम्भो विद्धि मूलं भवस्य तत् ॥",
+          "meaning": {
+            "en": "Effort, restraint, skill, carefulness, steadiness, memory, and starting after reflection: know that these are the root of prosperity."
+          }
         },
         {
           "n": 55,
-          "text": "तपो बलं तापसानां ब्रह्म ब्रह्मविदां बलम् ।\nहिंसा बलमसाधूनां क्षमा गुणवतां बलम् ॥"
+          "text": "तपो बलं तापसानां ब्रह्म ब्रह्मविदां बलम् ।\nहिंसा बलमसाधूनां क्षमा गुणवतां बलम् ॥",
+          "meaning": {
+            "en": "Austerity is the strength of ascetics, Brahman the strength of knowers of Brahman, violence the strength of the wicked, and forgiveness the strength of the virtuous."
+          }
         },
         {
           "n": 56,
-          "text": "अष्टौ तान्यव्रतघ्नानि आपो मूलं फलं पयः ।\nहविर्ब्राह्मणकाम्या च गुरोर्वचनमौषधम् ॥"
+          "text": "अष्टौ तान्यव्रतघ्नानि आपो मूलं फलं पयः ।\nहविर्ब्राह्मणकाम्या च गुरोर्वचनमौषधम् ॥",
+          "meaning": {
+            "en": "Eight things do not break a vow: water, roots, fruit, milk, the oblation, a brahmin's desire, the word of the teacher, and medicine."
+          }
         },
         {
           "n": 57,
-          "text": "न तत्परस्य संदध्यात्प्रतिकूलं यदात्मनः ।\nसंग्रहेणैष धर्मः स्यात्कामादन्यः प्रवर्तते ॥"
+          "text": "न तत्परस्य संदध्यात्प्रतिकूलं यदात्मनः ।\nसंग्रहेणैष धर्मः स्यात्कामादन्यः प्रवर्तते ॥",
+          "meaning": {
+            "en": "Do not do to another what is opposed to yourself; in brief this is dharma, and the rest proceeds from desire."
+          }
         },
         {
           "n": 58,
-          "text": "अक्रोधेन जयेत्क्रोधमसाधुं साधुना जयेत् ।\nजयेत्कदर्यं दानेन जयेत्सत्येन चानृतम् ॥"
+          "text": "अक्रोधेन जयेत्क्रोधमसाधुं साधुना जयेत् ।\nजयेत्कदर्यं दानेन जयेत्सत्येन चानृतम् ॥",
+          "meaning": {
+            "en": "One should conquer anger by freedom from anger, the bad by the good, the miser by giving, and falsehood by truth."
+          }
         },
         {
           "n": 59,
-          "text": "स्त्रीधूर्तकेऽलसे भीरौ चण्डे पुरुषमानिनि ।\nचौरे कृतघ्ने विश्वासो न कार्यो न च नास्तिके ॥"
+          "text": "स्त्रीधूर्तकेऽलसे भीरौ चण्डे पुरुषमानिनि ।\nचौरे कृतघ्ने विश्वासो न कार्यो न च नास्तिके ॥",
+          "meaning": {
+            "en": "Trust should not be placed in a woman, a cheat, a lazy man, a coward, a violent man, one who is proud of his manhood, a thief, an ingrate, or a nonbeliever."
+          }
         },
         {
           "n": 60,
-          "text": "अभिवादनशीलस्य नित्यं वृद्धोपसेविनः ।\nचत्वारि संप्रवर्धन्ते कीर्तिरायुर्यशोबलम् ॥"
+          "text": "अभिवादनशीलस्य नित्यं वृद्धोपसेविनः ।\nचत्वारि संप्रवर्धन्ते कीर्तिरायुर्यशोबलम् ॥",
+          "meaning": {
+            "en": "For one who greets constantly and serves the elders, four things grow: fame, life, glory and strength."
+          }
         },
         {
           "n": 61,
-          "text": "अतिक्लेशेन येऽर्थाः स्युर्धर्मस्यातिक्रमेण च ।\nअरेर्वा प्रणिपातेन मा स्म तेषु मनः कृथाः ॥"
+          "text": "अतिक्लेशेन येऽर्थाः स्युर्धर्मस्यातिक्रमेण च ।\nअरेर्वा प्रणिपातेन मा स्म तेषु मनः कृथाः ॥",
+          "meaning": {
+            "en": "Do not set your mind on gains made with great suffering, by overstepping dharma, or by bowing to an enemy."
+          }
         },
         {
           "n": 62,
-          "text": "अविद्यः पुरुषः शोच्यः शोच्यं मिथुनमप्रजम् ।\nनिराहाराः प्रजाः शोच्याः शोच्यं राष्ट्रमराजकम् ॥"
+          "text": "अविद्यः पुरुषः शोच्यः शोच्यं मिथुनमप्रजम् ।\nनिराहाराः प्रजाः शोच्याः शोच्यं राष्ट्रमराजकम् ॥",
+          "meaning": {
+            "en": "An uneducated man is to be pitied, a childless couple is to be pitied, people without food are to be pitied, and a kingdom without a king is to be pitied."
+          }
         },
         {
           "n": 63,
-          "text": "अध्वा जरा देहवतां पर्वतानां जलं जरा ।\nअसंभोगो जरा स्त्रीणां वाक्शल्यं मनसो जरा ॥"
+          "text": "अध्वा जरा देहवतां पर्वतानां जलं जरा ।\nअसंभोगो जरा स्त्रीणां वाक्शल्यं मनसो जरा ॥",
+          "meaning": {
+            "en": "Travel is old age for the embodied, water is old age for mountains, lack of enjoyment is old age for women, and a thorn of words is old age for the mind."
+          }
         },
         {
           "n": 64,
-          "text": "अनाम्नायमला वेदा ब्राह्मणस्याव्रतं मलम् ।\nकौतूहलमला साध्वी विप्रवासमलाः स्त्रियः ॥"
+          "text": "अनाम्नायमला वेदा ब्राह्मणस्याव्रतं मलम् ।\nकौतूहलमला साध्वी विप्रवासमलाः स्त्रियः ॥",
+          "meaning": {
+            "en": "Lack of recitation is the dirt of the Vedas, lack of vows is the dirt of a brahmin, curiosity is the dirt of a good woman, and being away from home is the dirt of women."
+          }
         },
         {
           "n": 65,
-          "text": "सुवर्णस्य मलं रूप्यं रूप्यस्यापि मलं त्रपु ।\nज्ञेयं त्रपुमलं सीसं सीसस्यापि मलं मलम् ॥"
+          "text": "सुवर्णस्य मलं रूप्यं रूप्यस्यापि मलं त्रपु ।\nज्ञेयं त्रपुमलं सीसं सीसस्यापि मलं मलम् ॥",
+          "meaning": {
+            "en": "Silver is the dirt of gold, tin is the dirt of silver, lead should be known as the dirt of tin, and the dirt of lead is dirt itself."
+          }
         },
         {
           "n": 66,
-          "text": "न स्वप्नेन जयेन्निद्रां न कामेन स्त्रियं जयेत् ।\nनेन्धनेन जयेदग्निं न पानेन सुरां जयेत् ॥"
+          "text": "न स्वप्नेन जयेन्निद्रां न कामेन स्त्रियं जयेत् ।\nनेन्धनेन जयेदग्निं न पानेन सुरां जयेत् ॥",
+          "meaning": {
+            "en": "One does not conquer sleep by sleeping, nor a woman by desire, nor fire by fuel, nor liquor by drinking."
+          }
         },
         {
           "n": 67,
-          "text": "यस्य दानजितं मित्रममित्रा युधि निर्जिताः ।\nअन्नपानजिता दाराः सफलं तस्य जीवितम् ॥"
+          "text": "यस्य दानजितं मित्रममित्रा युधि निर्जिताः ।\nअन्नपानजिता दाराः सफलं तस्य जीवितम् ॥",
+          "meaning": {
+            "en": "He whose friends are won by giving, whose enemies are defeated in battle, and whose wives are won by food and drink has a fruitful life."
+          }
         },
         {
           "n": 68,
-          "text": "सहस्रिणोऽपि जीवन्ति जीवन्ति शतिनस्तथा ।\nधृतराष्ट्रं विमुञ्चेच्छां न कथंचिन्न जीव्यते ॥"
+          "text": "सहस्रिणोऽपि जीवन्ति जीवन्ति शतिनस्तथा ।\nधृतराष्ट्रं विमुञ्चेच्छां न कथंचिन्न जीव्यते ॥",
+          "meaning": {
+            "en": "Men with thousands live, and men with hundreds live too; Dhritarashtra, give up your wish: there is no way one does not live."
+          }
         },
         {
           "n": 69,
-          "text": "यत्पृथिव्यां व्रीहियवं हिरण्यं पशवः स्त्रियः ।\nनालमेकस्य तत्सर्वमिति पश्यन्न मुह्यति ॥"
+          "text": "यत्पृथिव्यां व्रीहियवं हिरण्यं पशवः स्त्रियः ।\nनालमेकस्य तत्सर्वमिति पश्यन्न मुह्यति ॥",
+          "meaning": {
+            "en": "He who sees that all the grain, barley, gold, animals and women on earth are not enough for one man is not confused."
+          }
         },
         {
           "n": 70,
-          "text": "राजन्भूयो ब्रवीमि त्वां पुत्रेषु सममाचर ।\nसमता यदि ते राजन्स्वेषु पाण्डुसुतेषु च ॥"
+          "text": "राजन्भूयो ब्रवीमि त्वां पुत्रेषु सममाचर ।\nसमता यदि ते राजन्स्वेषु पाण्डुसुतेषु च ॥",
+          "meaning": {
+            "en": "King, I tell you again: treat your sons equally; if there is equality in you toward your own sons and the sons of Pandu."
+          }
         }
       ]
     }

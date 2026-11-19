@@ -22,99 +22,171 @@
       "titleEn": "Ambopakhyana Parva (The story of Amba)",
       "verses": [
         {
-          "text": "भीष्म उवाच"
+          "text": "भीष्म उवाच",
+          "meaning": {
+            "en": "Bhishma said:"
+          }
         },
         {
           "n": 1,
-          "text": "ततो रात्र्यां व्यतीतायां प्रतिबुद्धोऽस्मि भारत ।\nतं च संचिन्त्य वै स्वप्नमवापं हर्षमुत्तमम् ॥"
+          "text": "ततो रात्र्यां व्यतीतायां प्रतिबुद्धोऽस्मि भारत ।\nतं च संचिन्त्य वै स्वप्नमवापं हर्षमुत्तमम् ॥",
+          "meaning": {
+            "en": "Then, when the night had passed, O Bharata, I woke, and thinking over that dream I felt the greatest joy."
+          }
         },
         {
           "n": 2,
-          "text": "ततः समभवद्युद्धं मम तस्य च भारत ।\nतुमुलं सर्वभूतानां लोमहर्षणमद्भुतम् ॥"
+          "text": "ततः समभवद्युद्धं मम तस्य च भारत ।\nतुमुलं सर्वभूतानां लोमहर्षणमद्भुतम् ॥",
+          "meaning": {
+            "en": "Then the battle between him and me began, O Bharata, tumultuous and astonishing, making every creature's hair stand on end."
+          }
         },
         {
           "n": 3,
-          "text": "ततो बाणमयं वर्षं ववर्ष मयि भार्गवः ।\nन्यवारयमहं तं च शरजालेन भारत ॥"
+          "text": "ततो बाणमयं वर्षं ववर्ष मयि भार्गवः ।\nन्यवारयमहं तं च शरजालेन भारत ॥",
+          "meaning": {
+            "en": "Then the son of Bhrigu rained a shower of arrows on me, and I held it off with a net of my own arrows, O Bharata."
+          }
         },
         {
           "n": 4,
-          "text": "ततः परमसंक्रुद्धः पुनरेव महातपाः ।\nह्यस्तनेनैव कोपेन शक्तिं वै प्राहिणोन्मयि ॥"
+          "text": "ततः परमसंक्रुद्धः पुनरेव महातपाः ।\nह्यस्तनेनैव कोपेन शक्तिं वै प्राहिणोन्मयि ॥",
+          "meaning": {
+            "en": "Then the great ascetic, again enraged, hurled a spear at me with the same wrath as the day before."
+          }
         },
         {
           "n": 5,
-          "text": "इन्द्राशनिसमस्पर्शां यमदण्डोपमप्रभाम् ।\nज्वलन्तीमग्निवत्संख्ये लेलिहानां समन्ततः ॥"
+          "text": "इन्द्राशनिसमस्पर्शां यमदण्डोपमप्रभाम् ।\nज्वलन्तीमग्निवत्संख्ये लेलिहानां समन्ततः ॥",
+          "meaning": {
+            "en": "It struck with the touch of Indra's thunderbolt and shone like the rod of Yama, blazing like fire in the battle and licking at everything around."
+          }
         },
         {
           "n": 6,
-          "text": "ततो भरतशार्दूल धिष्ण्यमाकाशगं यथा ।\nसा मामभ्यहनत्तूर्णमंसदेशे च भारत ॥"
+          "text": "ततो भरतशार्दूल धिष्ण्यमाकाशगं यथा ।\nसा मामभ्यहनत्तूर्णमंसदेशे च भारत ॥",
+          "meaning": {
+            "en": "Then, O tiger among the Bharatas, it swiftly struck me on the shoulder, like a heavenly body falling from the sky."
+          }
         },
         {
           "n": 7,
-          "text": "अथासृङ्मेऽस्रवद्घोरं गिरेर्गैरिकधातुवत् ।\nरामेण सुमहाबाहो क्षतस्य क्षतजेक्षण ॥"
+          "text": "अथासृङ्मेऽस्रवद्घोरं गिरेर्गैरिकधातुवत् ।\nरामेण सुमहाबाहो क्षतस्य क्षतजेक्षण ॥",
+          "meaning": {
+            "en": "Then, O mighty-armed one, a dreadful stream of blood flowed from me, wounded by Rama, like red mineral flowing from a mountain."
+          }
         },
         {
           "n": 8,
-          "text": "ततोऽहं जामदग्न्याय भृशं क्रोधसमन्वितः ।\nप्रेषयं मृत्युसंकाशं बाणं सर्पविषोपमम् ॥"
+          "text": "ततोऽहं जामदग्न्याय भृशं क्रोधसमन्वितः ।\nप्रेषयं मृत्युसंकाशं बाणं सर्पविषोपमम् ॥",
+          "meaning": {
+            "en": "Then, filled with great anger, I sent at Jamadagni's son an arrow like death itself, like the poison of a serpent."
+          }
         },
         {
           "n": 9,
-          "text": "स तेनाभिहतो वीरो ललाटे द्विजसत्तमः ।\nअशोभत महाराज सशृङ्ग इव पर्वतः ॥"
+          "text": "स तेनाभिहतो वीरो ललाटे द्विजसत्तमः ।\nअशोभत महाराज सशृङ्ग इव पर्वतः ॥",
+          "meaning": {
+            "en": "Struck by it on the forehead, that hero, the best of Brahmins, looked like a mountain with a peak, O great king."
+          }
         },
         {
           "n": 10,
-          "text": "स संरब्धः समावृत्य बाणं कालान्तकोपमम् ।\nसंदधे बलवत्कृष्य घोरं शत्रुनिबर्हणम् ॥"
+          "text": "स संरब्धः समावृत्य बाणं कालान्तकोपमम् ।\nसंदधे बलवत्कृष्य घोरं शत्रुनिबर्हणम् ॥",
+          "meaning": {
+            "en": "Furious, he drew back and fitted to his bow a terrible arrow, deadly to enemies and like the Death that ends the age, drawing it back with force."
+          }
         },
         {
           "n": 11,
-          "text": "स वक्षसि पपातोग्रः शरो व्याल इव श्वसन् ।\nमहीं राजंस्ततश्चाहमगच्छं रुधिराविलः ॥"
+          "text": "स वक्षसि पपातोग्रः शरो व्याल इव श्वसन् ।\nमहीं राजंस्ततश्चाहमगच्छं रुधिराविलः ॥",
+          "meaning": {
+            "en": "That fierce arrow fell on my chest, hissing like a snake; then, O king, I sank to the ground covered in blood."
+          }
         },
         {
           "n": 12,
-          "text": "अवाप्य तु पुनः संज्ञां जामदग्न्याय धीमते ।\nप्राहिण्वं विमलां शक्तिं ज्वलन्तीमशनीमिव ॥"
+          "text": "अवाप्य तु पुनः संज्ञां जामदग्न्याय धीमते ।\nप्राहिण्वं विमलां शक्तिं ज्वलन्तीमशनीमिव ॥",
+          "meaning": {
+            "en": "Regaining my senses, I sent a bright spear, blazing like a thunderbolt, at the wise son of Jamadagni."
+          }
         },
         {
           "n": 13,
-          "text": "सा तस्य द्विजमुख्यस्य निपपात भुजान्तरे ।\nविह्वलश्चाभवद्राजन्वेपथुश्चैनमाविशत् ॥"
+          "text": "सा तस्य द्विजमुख्यस्य निपपात भुजान्तरे ।\nविह्वलश्चाभवद्राजन्वेपथुश्चैनमाविशत् ॥",
+          "meaning": {
+            "en": "It fell between the arms of that chief of Brahmins, and he was overcome, and a trembling seized him, O king."
+          }
         },
         {
           "n": 14,
-          "text": "तत एनं परिष्वज्य सखा विप्रो महातपाः ।\nअकृतव्रणः शुभैर्वाक्यैराश्वासयदनेकधा ॥"
+          "text": "तत एनं परिष्वज्य सखा विप्रो महातपाः ।\nअकृतव्रणः शुभैर्वाक्यैराश्वासयदनेकधा ॥",
+          "meaning": {
+            "en": "Then his friend, the Brahmin Akritavrana, a great ascetic, embraced him and comforted him in many ways with kind words."
+          }
         },
         {
           "n": 15,
-          "text": "समाश्वस्तस्तदा रामः क्रोधामर्षसमन्वितः ।\nप्रादुश्चक्रे तदा ब्राह्मं परमास्त्रं महाव्रतः ॥"
+          "text": "समाश्वस्तस्तदा रामः क्रोधामर्षसमन्वितः ।\nप्रादुश्चक्रे तदा ब्राह्मं परमास्त्रं महाव्रतः ॥",
+          "meaning": {
+            "en": "Comforted, Rama of the firm vows, full of anger and wrath, then brought forth the supreme Brahma weapon."
+          }
         },
         {
           "n": 16,
-          "text": "ततस्तत्प्रतिघातार्थं ब्राह्ममेवास्त्रमुत्तमम् ।\nमया प्रयुक्तं जज्वाल युगान्तमिव दर्शयत् ॥"
+          "text": "ततस्तत्प्रतिघातार्थं ब्राह्ममेवास्त्रमुत्तमम् ।\nमया प्रयुक्तं जज्वाल युगान्तमिव दर्शयत् ॥",
+          "meaning": {
+            "en": "To counter it, I launched the best of weapons, the Brahma weapon itself; it blazed as if showing the end of an age."
+          }
         },
         {
           "n": 17,
-          "text": "तयोर्ब्रह्मास्त्रयोरासीदन्तरा वै समागमः ।\nअसंप्राप्यैव रामं च मां च भारतसत्तम ॥"
+          "text": "तयोर्ब्रह्मास्त्रयोरासीदन्तरा वै समागमः ।\nअसंप्राप्यैव रामं च मां च भारतसत्तम ॥",
+          "meaning": {
+            "en": "The two Brahma weapons met in mid-air, O best of the Bharatas, without reaching Rama or me."
+          }
         },
         {
           "n": 18,
-          "text": "ततो व्योम्नि प्रादुरभूत्तेज एव हि केवलम् ।\nभूतानि चैव सर्वाणि जग्मुरार्तिं विशां पते ॥"
+          "text": "ततो व्योम्नि प्रादुरभूत्तेज एव हि केवलम् ।\nभूतानि चैव सर्वाणि जग्मुरार्तिं विशां पते ॥",
+          "meaning": {
+            "en": "Then in the sky there appeared only a mass of blazing radiance, and all creatures, O lord of men, were seized with distress."
+          }
         },
         {
           "n": 19,
-          "text": "ऋषयश्च सगन्धर्वा देवताश्चैव भारत ।\nसंतापं परमं जग्मुरस्त्रतेजोभिपीडिताः ॥"
+          "text": "ऋषयश्च सगन्धर्वा देवताश्चैव भारत ।\nसंतापं परमं जग्मुरस्त्रतेजोभिपीडिताः ॥",
+          "meaning": {
+            "en": "The sages, the Gandharvas and the gods, O Bharata, were tormented by the heat of the two weapons and fell into great suffering."
+          }
         },
         {
           "n": 20,
-          "text": "ततश्चचाल पृथिवी सपर्वतवनद्रुमा ।\nसंतप्तानि च भूतानि विषादं जग्मुरुत्तमम् ॥"
+          "text": "ततश्चचाल पृथिवी सपर्वतवनद्रुमा ।\nसंतप्तानि च भूतानि विषादं जग्मुरुत्तमम् ॥",
+          "meaning": {
+            "en": "Then the earth shook, with its mountains, forests and trees, and the scorched creatures sank into deep despair."
+          }
         },
         {
           "n": 21,
-          "text": "प्रजज्वाल नभो राजन्धूमायन्ते दिशो दश ।\nन स्थातुमन्तरिक्षे च शेकुराकाशगास्तदा ॥"
+          "text": "प्रजज्वाल नभो राजन्धूमायन्ते दिशो दश ।\nन स्थातुमन्तरिक्षे च शेकुराकाशगास्तदा ॥",
+          "meaning": {
+            "en": "The sky blazed, O king, the ten directions smoked, and the beings that move through the air could not remain in the sky."
+          }
         },
         {
           "n": 22,
-          "text": "ततो हाहाकृते लोके सदेवासुरराक्षसे ।\nइदमन्तरमित्येव योक्तुकामोऽस्मि भारत ॥"
+          "text": "ततो हाहाकृते लोके सदेवासुरराक्षसे ।\nइदमन्तरमित्येव योक्तुकामोऽस्मि भारत ॥",
+          "meaning": {
+            "en": "Then, as the world cried out in alarm, with its gods, demons and Rakshasas, I wished to seize that moment, O Bharata."
+          }
         },
         {
           "n": 23,
-          "text": "प्रस्वापमस्त्रं दयितं वचनाद्ब्रह्मवादिनाम् ।\nचिन्तितं च तदस्त्रं मे मनसि प्रत्यभात्तदा ॥"
+          "text": "प्रस्वापमस्त्रं दयितं वचनाद्ब्रह्मवादिनाम् ।\nचिन्तितं च तदस्त्रं मे मनसि प्रत्यभात्तदा ॥",
+          "meaning": {
+            "en": "The dear Prasvapa weapon, spoken of by the knowers of Brahman, came back to my mind and shone clear in my thought."
+          }
         }
       ]
     }

@@ -22,176 +22,311 @@
       "titleEn": "Sanatsujata Parva",
       "verses": [
         {
-          "text": "धृतराष्ट्र उवाच"
+          "text": "धृतराष्ट्र उवाच",
+          "meaning": {
+            "en": "Dhritarashtra said:"
+          }
         },
         {
           "n": 1,
-          "text": "ऋचो यजूंष्यधीते यः सामवेदं च यो द्विजः ।\nपापानि कुर्वन्पापेन लिप्यते न स लिप्यते ॥"
+          "text": "ऋचो यजूंष्यधीते यः सामवेदं च यो द्विजः ।\nपापानि कुर्वन्पापेन लिप्यते न स लिप्यते ॥",
+          "meaning": {
+            "en": "The twice-born who studies the Rig and Yajur Vedas and the Sama Veda: if he does evil, is he stained by the evil, or not?"
+          }
         },
         {
-          "text": "सनत्सुजात उवाच"
+          "text": "सनत्सुजात उवाच",
+          "meaning": {
+            "en": "Sanatsujata said:"
+          }
         },
         {
           "n": 2,
-          "text": "नैनं सामान्यृचो वापि न यजूंषि विचक्षण ।\nत्रायन्ते कर्मणः पापान्न ते मिथ्या ब्रवीम्यहम् ॥"
+          "text": "नैनं सामान्यृचो वापि न यजूंषि विचक्षण ।\nत्रायन्ते कर्मणः पापान्न ते मिथ्या ब्रवीम्यहम् ॥",
+          "meaning": {
+            "en": "Neither the Samans nor the Rik verses nor the Yajus verses, wise man, save him from the evil of his deed; I do not tell you a falsehood."
+          }
         },
         {
           "n": 3,
-          "text": "न छन्दांसि वृजिनात्तारयन्ति\nमायाविनं मायया वर्तमानम् ।\nनीडं शकुन्ता इव जातपक्षा-\nश्छन्दांस्येनं प्रजहत्यन्तकाले ॥"
+          "text": "न छन्दांसि वृजिनात्तारयन्ति\nमायाविनं मायया वर्तमानम् ।\nनीडं शकुन्ता इव जातपक्षा-\nश्छन्दांस्येनं प्रजहत्यन्तकाले ॥",
+          "meaning": {
+            "en": "The Vedas do not save a deceiver who lives by deceit from his sin; at the hour of death they leave him as fledged birds leave the nest."
+          }
         },
         {
-          "text": "धृतराष्ट्र उवाच"
+          "text": "धृतराष्ट्र उवाच",
+          "meaning": {
+            "en": "Dhritarashtra said:"
+          }
         },
         {
           "n": 4,
-          "text": "न चेद्वेदा वेदविदं शक्तास्त्रातुं विचक्षण ।\nअथ कस्मात्प्रलापोऽयं ब्राह्मणानां सनातनः ॥"
+          "text": "न चेद्वेदा वेदविदं शक्तास्त्रातुं विचक्षण ।\nअथ कस्मात्प्रलापोऽयं ब्राह्मणानां सनातनः ॥",
+          "meaning": {
+            "en": "If the Vedas cannot save even the knower of the Veda, wise one, why then is this eternal talk of the brahmins?"
+          }
         },
         {
-          "text": "सनत्सुजात उवाच"
+          "text": "सनत्सुजात उवाच",
+          "meaning": {
+            "en": "Sanatsujata said:"
+          }
         },
         {
           "n": 5,
-          "text": "अस्मिँल्लोके तपस्तप्तं फलमन्यत्र दृश्यते ।\nब्राह्मणानामिमे लोका ऋद्धे तपसि संयताः ॥"
+          "text": "अस्मिँल्लोके तपस्तप्तं फलमन्यत्र दृश्यते ।\nब्राह्मणानामिमे लोका ऋद्धे तपसि संयताः ॥",
+          "meaning": {
+            "en": "Austerity practiced in this world is seen to bear fruit in another; these worlds of the brahmins, held in check, belong to flourishing austerity."
+          }
         },
         {
-          "text": "धृतराष्ट्र उवाच"
+          "text": "धृतराष्ट्र उवाच",
+          "meaning": {
+            "en": "Dhritarashtra said:"
+          }
         },
         {
           "n": 6,
-          "text": "कथं समृद्धमप्यृद्धं तपो भवति केवलम् ।\nसनत्सुजात तद्ब्रूहि यथा विद्याम तद्वयम् ॥"
+          "text": "कथं समृद्धमप्यृद्धं तपो भवति केवलम् ।\nसनत्सुजात तद्ब्रूहि यथा विद्याम तद्वयम् ॥",
+          "meaning": {
+            "en": "How does austerity, though prosperous and full, become mere austerity alone? Sanatsujata, tell us, so that we may understand it."
+          }
         },
         {
-          "text": "सनत्सुजात उवाच"
+          "text": "सनत्सुजात उवाच",
+          "meaning": {
+            "en": "Sanatsujata said:"
+          }
         },
         {
           "n": 7,
-          "text": "क्रोधादयो द्वादश यस्य दोषा-\nस्तथा नृशंसादि षडत्र राजन् ।\nधर्मादयो द्वादश चाततानाः\nशास्त्रे गुणा ये विदिता द्विजानाम् ॥"
+          "text": "क्रोधादयो द्वादश यस्य दोषा-\nस्तथा नृशंसादि षडत्र राजन् ।\nधर्मादयो द्वादश चाततानाः\nशास्त्रे गुणा ये विदिता द्विजानाम् ॥",
+          "meaning": {
+            "en": "He who has the twelve faults beginning with anger, and the six here beginning with cruelty, king, and who lacks the twelve virtues beginning with dharma that are set out in the scripture for the twice-born, is not rich."
+          }
         },
         {
           "n": 8,
-          "text": "क्रोधः कामो लोभमोहौ विवित्सा-\nकृपासूया मानशोकौ स्पृहा च ।\nईर्ष्या जुगुप्सा च मनुष्यदोषा\nवर्ज्याः सदा द्वादशैते नरेण ॥"
+          "text": "क्रोधः कामो लोभमोहौ विवित्सा-\nकृपासूया मानशोकौ स्पृहा च ।\nईर्ष्या जुगुप्सा च मनुष्यदोषा\nवर्ज्याः सदा द्वादशैते नरेण ॥",
+          "meaning": {
+            "en": "Anger, desire, greed, delusion, the wish to know too much, lack of mercy, envy, pride, grief, longing, jealousy and disgust: these twelve faults of men should always be avoided by a man."
+          }
         },
         {
           "n": 9,
-          "text": "एकैकमेते राजेन्द्र मनुष्यान्पर्युपासते ।\nलिप्समानोऽन्तरं तेषां मृगाणामिव लुब्धकः ॥"
+          "text": "एकैकमेते राजेन्द्र मनुष्यान्पर्युपासते ।\nलिप्समानोऽन्तरं तेषां मृगाणामिव लुब्धकः ॥",
+          "meaning": {
+            "en": "Each of these, king of kings, besets men, seeking their weak spot as a hunter does with deer."
+          }
         },
         {
           "n": 10,
-          "text": "विकत्थनः स्पृहयालुर्मनस्वी\nबिभ्रत्कोपं चपलोऽरक्षणश्च ।\nएते प्राप्ताः षण्नरान्पापधर्मा-\nन्प्रकुर्वते नोत सन्तः सुदुर्गे ॥"
+          "text": "विकत्थनः स्पृहयालुर्मनस्वी\nबिभ्रत्कोपं चपलोऽरक्षणश्च ।\nएते प्राप्ताः षण्नरान्पापधर्मा-\nन्प्रकुर्वते नोत सन्तः सुदुर्गे ॥",
+          "meaning": {
+            "en": "The boaster, the covetous, the proud, the angry, the fickle and the one who does not protect: these six drag men into evil ways and do not do what the good do in hard places."
+          }
         },
         {
           "n": 11,
-          "text": "संभोगसंविद्द्विषमेधमानो\nदत्तानुतापी कृपणोऽबलीयान् ।\nवर्गप्रशंसी वनितासु द्वेष्टा\nएतेऽपरे सप्त नृशंसधर्माः ॥"
+          "text": "संभोगसंविद्द्विषमेधमानो\nदत्तानुतापी कृपणोऽबलीयान् ।\nवर्गप्रशंसी वनितासु द्वेष्टा\nएतेऽपरे सप्त नृशंसधर्माः ॥",
+          "meaning": {
+            "en": "He who thrives by hating shared enjoyment and agreement, who regrets his gifts, is wretched, weak, praises his own party and hates women: these are seven more cruel natures."
+          }
         },
         {
           "n": 12,
-          "text": "धर्मश्च सत्यं च दमस्तपश्च\nअमात्सर्यं ह्रीस्तितिक्षानसूया ।\nयज्ञश्च दानं च धृतिः श्रुतं च\nमहाव्रता द्वादश ब्राह्मणस्य ॥"
+          "text": "धर्मश्च सत्यं च दमस्तपश्च\nअमात्सर्यं ह्रीस्तितिक्षानसूया ।\nयज्ञश्च दानं च धृतिः श्रुतं च\nमहाव्रता द्वादश ब्राह्मणस्य ॥",
+          "meaning": {
+            "en": "Dharma, truth, self-control, austerity, freedom from envy, modesty, patience, absence of jealousy, sacrifice, giving, steadiness and learning: these are the twelve great vows of a brahmin."
+          }
         },
         {
           "n": 13,
-          "text": "यस्त्वेतेभ्यः प्रवसेद्द्वादशेभ्यः\nसर्वामपीमां पृथिवीं प्रशिष्यात् ।\nत्रिभिर्द्वाभ्यामेकतो वा विशिष्टो\nनास्य स्वमस्तीति स वेदितव्यः ॥"
+          "text": "यस्त्वेतेभ्यः प्रवसेद्द्वादशेभ्यः\nसर्वामपीमां पृथिवीं प्रशिष्यात् ।\nत्रिभिर्द्वाभ्यामेकतो वा विशिष्टो\nनास्य स्वमस्तीति स वेदितव्यः ॥",
+          "meaning": {
+            "en": "One who goes away from these twelve could still rule the whole earth; but one excelling in three, two, or even one of them should be known to have nothing of his own."
+          }
         },
         {
           "n": 14,
-          "text": "दमस्त्यागोऽप्रमादश्च एतेष्वमृतमाहितम् ।\nतानि सत्यमुखान्याहुर्ब्राह्मणा ये मनीषिणः ॥"
+          "text": "दमस्त्यागोऽप्रमादश्च एतेष्वमृतमाहितम् ।\nतानि सत्यमुखान्याहुर्ब्राह्मणा ये मनीषिणः ॥",
+          "meaning": {
+            "en": "Self-control, renunciation and carefulness: in these immortality is placed. Wise brahmins say these have truth at their head."
+          }
         },
         {
           "n": 15,
-          "text": "दमोऽष्टादशदोषः स्यात्प्रतिकूलं कृताकृते ।\nअनृतं चाभ्यसूया च कामार्थौ च तथा स्पृहा ॥"
+          "text": "दमोऽष्टादशदोषः स्यात्प्रतिकूलं कृताकृते ।\nअनृतं चाभ्यसूया च कामार्थौ च तथा स्पृहा ॥",
+          "meaning": {
+            "en": "Self-control has eighteen faults: opposition to what is done and not done, falsehood, envy, desire and wealth, longing,"
+          }
         },
         {
           "n": 16,
-          "text": "क्रोधः शोकस्तथा तृष्णा लोभः पैशुन्यमेव च ।\nमत्सरश्च विवित्सा च परितापस्तथा रतिः ॥"
+          "text": "क्रोधः शोकस्तथा तृष्णा लोभः पैशुन्यमेव च ।\nमत्सरश्च विवित्सा च परितापस्तथा रतिः ॥",
+          "meaning": {
+            "en": "anger, grief, thirst, greed, backbiting, resentment, the wish to know too much, torment and fondness,"
+          }
         },
         {
           "n": 17,
-          "text": "अपस्मारः सातिवादस्तथा संभावनात्मनि ।\nएतैर्विमुक्तो दोषैर्यः स दमः सद्भिरुच्यते ॥"
+          "text": "अपस्मारः सातिवादस्तथा संभावनात्मनि ।\nएतैर्विमुक्तो दोषैर्यः स दमः सद्भिरुच्यते ॥",
+          "meaning": {
+            "en": "forgetfulness, over-speech, and self-conceit. He who is free of these faults is called self-controlled by the good."
+          }
         },
         {
           "n": 18,
-          "text": "श्रेयांस्तु षड्विधस्त्यागः प्रियं प्राप्य न हृष्यति ।\nअप्रिये तु समुत्पन्ने व्यथां जातु न चार्च्छति ॥"
+          "text": "श्रेयांस्तु षड्विधस्त्यागः प्रियं प्राप्य न हृष्यति ।\nअप्रिये तु समुत्पन्ने व्यथां जातु न चार्च्छति ॥",
+          "meaning": {
+            "en": "Renunciation is sixfold and better: he does not rejoice on getting what he loves, and never feels pain when something unpleasant comes."
+          }
         },
         {
           "n": 19,
-          "text": "इष्टान्दारांश्च पुत्रांश्च न चान्यं यद्वचो भवेत् ।\nअर्हते याचमानाय प्रदेयं तद्वचो भवेत् ।\nअप्यवाच्यं वदत्येव स तृतीयो गुणः स्मृतः ॥"
+          "text": "इष्टान्दारांश्च पुत्रांश्च न चान्यं यद्वचो भवेत् ।\nअर्हते याचमानाय प्रदेयं तद्वचो भवेत् ।\nअप्यवाच्यं वदत्येव स तृतीयो गुणः स्मृतः ॥",
+          "meaning": {
+            "en": "He gives up beloved wives and sons, and what he says is not for another; what is asked by a worthy petitioner should be given; and he who speaks even the unspeakable: this is counted the third quality."
+          }
         },
         {
           "n": 20,
-          "text": "त्यक्तैर्द्रव्यैर्यो भवति नोपयुङ्क्ते च कामतः ।\nन च कर्मसु तद्धीनः शिष्यबुद्धिर्नरो यथा ।\nसर्वैरेव गुणैर्युक्तो द्रव्यवानपि यो भवेत् ॥"
+          "text": "त्यक्तैर्द्रव्यैर्यो भवति नोपयुङ्क्ते च कामतः ।\nन च कर्मसु तद्धीनः शिष्यबुद्धिर्नरो यथा ।\nसर्वैरेव गुणैर्युक्तो द्रव्यवानपि यो भवेत् ॥",
+          "meaning": {
+            "en": "One who, with possessions given up, does not use them for desire, and is not lacking in actions, like a pupil in mind, though he possesses all virtues and has wealth, is the same."
+          }
         },
         {
           "n": 21,
-          "text": "अप्रमादोऽष्टदोषः स्यात्तान्दोषान्परिवर्जयेत् ।\nइन्द्रियेभ्यश्च पञ्चभ्यो मनसश्चैव भारत ।\nअतीतानागतेभ्यश्च मुक्तो ह्येतैः सुखी भवेत् ॥"
+          "text": "अप्रमादोऽष्टदोषः स्यात्तान्दोषान्परिवर्जयेत् ।\nइन्द्रियेभ्यश्च पञ्चभ्यो मनसश्चैव भारत ।\nअतीतानागतेभ्यश्च मुक्तो ह्येतैः सुखी भवेत् ॥",
+          "meaning": {
+            "en": "Carefulness has eight faults; one should avoid those faults. Freed from the five senses and the mind, Bharata, and from the past and future, one becomes happy."
+          }
         },
         {
           "n": 22,
-          "text": "दोषैरेतैर्विमुक्तं तु गुणैरेतैः समन्वितम् ।\nएतत्समृद्धमप्यृद्धं तपो भवति केवलम् ।\nयन्मां पृच्छसि राजेन्द्र किं भूयः श्रोतुमिच्छसि ॥"
+          "text": "दोषैरेतैर्विमुक्तं तु गुणैरेतैः समन्वितम् ।\nएतत्समृद्धमप्यृद्धं तपो भवति केवलम् ।\nयन्मां पृच्छसि राजेन्द्र किं भूयः श्रोतुमिच्छसि ॥",
+          "meaning": {
+            "en": "Austerity free of these faults and joined with these virtues, though full, becomes only austerity. This is what you ask me, king of kings; what more do you wish to hear?"
+          }
         },
         {
-          "text": "धृतराष्ट्र उवाच"
+          "text": "धृतराष्ट्र उवाच",
+          "meaning": {
+            "en": "Dhritarashtra said:"
+          }
         },
         {
           "n": 23,
-          "text": "आख्यानपञ्चमैर्वेदैर्भूयिष्ठं कथ्यते जनः ।\nतथैवान्ये चतुर्वेदास्त्रिवेदाश्च तथापरे ॥"
+          "text": "आख्यानपञ्चमैर्वेदैर्भूयिष्ठं कथ्यते जनः ।\nतथैवान्ये चतुर्वेदास्त्रिवेदाश्च तथापरे ॥",
+          "meaning": {
+            "en": "People are mostly spoken of as having the Vedas with the narrative as fifth; others have four Vedas, and others three;"
+          }
         },
         {
           "n": 24,
-          "text": "द्विवेदाश्चैकवेदाश्च अनृचश्च तथापरे ।\nतेषां तु कतमः स स्याद्यमहं वेद ब्राह्मणम् ॥"
+          "text": "द्विवेदाश्चैकवेदाश्च अनृचश्च तथापरे ।\nतेषां तु कतमः स स्याद्यमहं वेद ब्राह्मणम् ॥",
+          "meaning": {
+            "en": "two Vedas, one Veda, and some are without a verse. Of these, which one is the brahmin that I know?"
+          }
         },
         {
-          "text": "सनत्सुजात उवाच"
+          "text": "सनत्सुजात उवाच",
+          "meaning": {
+            "en": "Sanatsujata said:"
+          }
         },
         {
           "n": 25,
-          "text": "एकस्य वेदस्याज्ञानाद्वेदास्ते बहवोऽभवन् ।\nसत्यस्यैकस्य राजेन्द्र सत्ये कश्चिदवस्थितः ।\nएवं वेदमनुत्साद्य प्रज्ञां महति कुर्वते ॥"
+          "text": "एकस्य वेदस्याज्ञानाद्वेदास्ते बहवोऽभवन् ।\nसत्यस्यैकस्य राजेन्द्र सत्ये कश्चिदवस्थितः ।\nएवं वेदमनुत्साद्य प्रज्ञां महति कुर्वते ॥",
+          "meaning": {
+            "en": "Through ignorance of the one Veda the Vedas became many. Someone stands in the truth of the one truth, king of kings. Thus, without destroying the Veda, they set their wisdom on the great."
+          }
         },
         {
           "n": 26,
-          "text": "दानमध्ययनं यज्ञो लोभादेतत्प्रवर्तते ।\nसत्यात्प्रच्यवमानानां संकल्पो वितथो भवेत् ॥"
+          "text": "दानमध्ययनं यज्ञो लोभादेतत्प्रवर्तते ।\nसत्यात्प्रच्यवमानानां संकल्पो वितथो भवेत् ॥",
+          "meaning": {
+            "en": "Giving, study and sacrifice go on from greed; for those who fall away from truth, the resolve is false."
+          }
         },
         {
           "n": 27,
-          "text": "ततो यज्ञः प्रतायेत सत्यस्यैवावधारणात् ।\nमनसान्यस्य भवति वाचान्यस्योत कर्मणा ।\nसंकल्पसिद्धः पुरुषः संकल्पानधितिष्ठति ॥"
+          "text": "ततो यज्ञः प्रतायेत सत्यस्यैवावधारणात् ।\nमनसान्यस्य भवति वाचान्यस्योत कर्मणा ।\nसंकल्पसिद्धः पुरुषः संकल्पानधितिष्ठति ॥",
+          "meaning": {
+            "en": "Then sacrifice would be performed from fixing on truth alone; it occurs by the mind of one, by the speech of another, or by action. The man who succeeds in his resolve rules his resolves."
+          }
         },
         {
           "n": 28,
-          "text": "अनैभृत्येन वै तस्य दीक्षितव्रतमाचरेत् ।\nनामैतद्धातुनिर्वृत्तं सत्यमेव सतां परम् ।\nज्ञानं वै नाम प्रत्यक्षं परोक्षं जायते तपः ॥"
+          "text": "अनैभृत्येन वै तस्य दीक्षितव्रतमाचरेत् ।\nनामैतद्धातुनिर्वृत्तं सत्यमेव सतां परम् ।\nज्ञानं वै नाम प्रत्यक्षं परोक्षं जायते तपः ॥",
+          "meaning": {
+            "en": "He should observe the consecration vow without unsteadiness. This is a name derived from a root; truth alone is supreme for the good. Knowledge comes forth as direct, and austerity as indirect."
+          }
         },
         {
           "n": 29,
-          "text": "विद्याद्बहु पठन्तं तु बहुपाठीति ब्राह्मणम् ।\nतस्मात्क्षत्रिय मा मंस्था जल्पितेनैव ब्राह्मणम् ।\nय एव सत्यान्नापैति स ज्ञेयो ब्राह्मणस्त्वया ॥"
+          "text": "विद्याद्बहु पठन्तं तु बहुपाठीति ब्राह्मणम् ।\nतस्मात्क्षत्रिय मा मंस्था जल्पितेनैव ब्राह्मणम् ।\nय एव सत्यान्नापैति स ज्ञेयो ब्राह्मणस्त्वया ॥",
+          "meaning": {
+            "en": "One who reads much should be known as a brahmin of much reading; therefore, kshatriya, do not think a man a brahmin merely by his talk. The one who does not depart from truth, he should be known to you as a brahmin."
+          }
         },
         {
           "n": 30,
-          "text": "छन्दांसि नाम क्षत्रिय तान्यथर्वा\nजगौ पुरस्तादृषिसर्ग एषः ।\nछन्दोविदस्ते य उ तानधीत्य\nन वेद्यवेदस्य विदुर्न वेद्यम् ॥"
+          "text": "छन्दांसि नाम क्षत्रिय तान्यथर्वा\nजगौ पुरस्तादृषिसर्ग एषः ।\nछन्दोविदस्ते य उ तानधीत्य\nन वेद्यवेदस्य विदुर्न वेद्यम् ॥",
+          "meaning": {
+            "en": "The verses, kshatriya, are called chandas; Atharvan sang them first, in the creation of the seers. Those who know the chandas and have studied them know neither the thing to be known of the Veda, nor the Veda."
+          }
         },
         {
           "n": 31,
-          "text": "न वेदानां वेदिता कश्चिदस्ति\nकश्चिद्वेदान्बुध्यते वापि राजन् ।\nयो वेद वेदान्न स वेद वेद्यं\nसत्ये स्थितो यस्तु स वेद वेद्यम् ॥"
+          "text": "न वेदानां वेदिता कश्चिदस्ति\nकश्चिद्वेदान्बुध्यते वापि राजन् ।\nयो वेद वेदान्न स वेद वेद्यं\nसत्ये स्थितो यस्तु स वेद वेद्यम् ॥",
+          "meaning": {
+            "en": "There is no knower of the Vedas, nor does anyone understand the Vedas, king; he who knows the Vedas does not know what is to be known; he who stands in truth knows what is to be known."
+          }
         },
         {
           "n": 32,
-          "text": "अभिजानामि ब्राह्मणमाख्यातारं विचक्षणम् ।\nयश्छिन्नविचिकित्सः सन्नाचष्टे सर्वसंशयान् ॥"
+          "text": "अभिजानामि ब्राह्मणमाख्यातारं विचक्षणम् ।\nयश्छिन्नविचिकित्सः सन्नाचष्टे सर्वसंशयान् ॥",
+          "meaning": {
+            "en": "I know a brahmin as the wise explainer who, with doubts cut off, explains all uncertainties."
+          }
         },
         {
           "n": 33,
-          "text": "तस्य पर्येषणं गच्छेत्प्राचीनं नोत दक्षिणम् ।\nनार्वाचीनं कुतस्तिर्यङ्नादिशं तु कथंचन ॥"
+          "text": "तस्य पर्येषणं गच्छेत्प्राचीनं नोत दक्षिणम् ।\nनार्वाचीनं कुतस्तिर्यङ्नादिशं तु कथंचन ॥",
+          "meaning": {
+            "en": "One should not seek him to the east or south, nor below, nor how in a slant, nor in any direction whatever."
+          }
         },
         {
           "n": 34,
-          "text": "तूष्णींभूत उपासीत न चेष्टेन्मनसा अपि ।\nअभ्यावर्तेत ब्रह्मास्य अन्तरात्मनि वै श्रितम् ॥"
+          "text": "तूष्णींभूत उपासीत न चेष्टेन्मनसा अपि ।\nअभ्यावर्तेत ब्रह्मास्य अन्तरात्मनि वै श्रितम् ॥",
+          "meaning": {
+            "en": "He should sit in silence, not even moving in mind; Brahman, which is set in his inner self, would turn toward him."
+          }
         },
         {
           "n": 35,
-          "text": "मौनाद्धि स मुनिर्भवति नारण्यवसनान्मुनिः ।\nअक्षरं तत्तु यो वेद स मुनिः श्रेष्ठ उच्यते ॥"
+          "text": "मौनाद्धि स मुनिर्भवति नारण्यवसनान्मुनिः ।\nअक्षरं तत्तु यो वेद स मुनिः श्रेष्ठ उच्यते ॥",
+          "meaning": {
+            "en": "By silence he becomes a muni, not by wearing forest dress; he who knows that Imperishable is called the best of munis."
+          }
         },
         {
           "n": 36,
-          "text": "सर्वार्थानां व्याकरणाद्वैयाकरण उच्यते ।\nप्रत्यक्षदर्शी लोकानां सर्वदर्शी भवेन्नरः ॥"
+          "text": "सर्वार्थानां व्याकरणाद्वैयाकरण उच्यते ।\nप्रत्यक्षदर्शी लोकानां सर्वदर्शी भवेन्नरः ॥",
+          "meaning": {
+            "en": "From explaining all meanings he is called a grammarian; a man who sees the worlds directly would become all-seeing."
+          }
         },
         {
           "n": 37,
-          "text": "सत्ये वै ब्राह्मणस्तिष्ठन्ब्रह्म पश्यति क्षत्रिय ।\nवेदानां चानुपूर्व्येण एतद्विद्वन्ब्रवीमि ते ॥"
+          "text": "सत्ये वै ब्राह्मणस्तिष्ठन्ब्रह्म पश्यति क्षत्रिय ।\nवेदानां चानुपूर्व्येण एतद्विद्वन्ब्रवीमि ते ॥",
+          "meaning": {
+            "en": "A brahmin who abides in truth, kshatriya, sees Brahman, and also in the order of the Vedas; this I tell you who are learned."
+          }
         }
       ]
     }

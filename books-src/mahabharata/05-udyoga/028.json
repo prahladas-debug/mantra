@@ -22,63 +22,108 @@
       "titleEn": "Sanjayayana Parva (Sanjaya's embassy)",
       "verses": [
         {
-          "text": "युधिष्ठिर उवाच"
+          "text": "युधिष्ठिर उवाच",
+          "meaning": {
+            "en": "Yudhishthira said:"
+          }
         },
         {
           "n": 1,
-          "text": "असंशयं संजय सत्यमेत-\nद्धर्मो वरः कर्मणां यत्त्वमात्थ ।\nज्ञात्वा तु मां संजय गर्हयेस्त्वं\nयदि धर्मं यद्यधर्मं चरामि ॥"
+          "text": "असंशयं संजय सत्यमेत-\nद्धर्मो वरः कर्मणां यत्त्वमात्थ ।\nज्ञात्वा तु मां संजय गर्हयेस्त्वं\nयदि धर्मं यद्यधर्मं चरामि ॥",
+          "meaning": {
+            "en": "Without doubt, Sanjaya, it is true, as you say, that dharma is the best of actions; but you may blame me only after you know whether I am acting by dharma or by adharma."
+          }
         },
         {
           "n": 2,
-          "text": "यत्राधर्मो धर्मरूपाणि बिभ्र-\nद्धर्मः कृत्स्नो दृश्यतेऽधर्मरूपः ।\nतथा धर्मो धारयन्धर्मरूपं\nविद्वांसस्तं संप्रपश्यन्ति बुद्ध्या ॥"
+          "text": "यत्राधर्मो धर्मरूपाणि बिभ्र-\nद्धर्मः कृत्स्नो दृश्यतेऽधर्मरूपः ।\nतथा धर्मो धारयन्धर्मरूपं\nविद्वांसस्तं संप्रपश्यन्ति बुद्ध्या ॥",
+          "meaning": {
+            "en": "Where adharma, wearing the forms of dharma, appears, and where the whole of dharma appears in the form of adharma, and where dharma is upheld in dharma's own form, the learned see it by their intellect."
+          }
         },
         {
           "n": 3,
-          "text": "एवमेतावापदि लिङ्गमेत-\nद्धर्माधर्मौ वृत्तिनित्यौ भजेताम् ।\nआद्यं लिङ्गं यस्य तस्य प्रमाण-\nमापद्धर्मं संजय तं निबोध ॥"
+          "text": "एवमेतावापदि लिङ्गमेत-\nद्धर्माधर्मौ वृत्तिनित्यौ भजेताम् ।\nआद्यं लिङ्गं यस्य तस्य प्रमाण-\nमापद्धर्मं संजय तं निबोध ॥",
+          "meaning": {
+            "en": "In an emergency this is the sign: dharma and adharma follow each other in conduct. For whoever has the first sign as his rule, Sanjaya, know that it is the emergency dharma."
+          }
         },
         {
           "n": 4,
-          "text": "लुप्तायां तु प्रकृतौ येन कर्म\nनिष्पादयेत्तत्परीप्सेद्विहीनः ।\nप्रकृतिस्थश्चापदि वर्तमान\nउभौ गर्ह्यौ भवतः संजयैतौ ॥"
+          "text": "लुप्तायां तु प्रकृतौ येन कर्म\nनिष्पादयेत्तत्परीप्सेद्विहीनः ।\nप्रकृतिस्थश्चापदि वर्तमान\nउभौ गर्ह्यौ भवतः संजयैतौ ॥",
+          "meaning": {
+            "en": "When the natural order has been disrupted, whoever, deprived, seeks to carry out his duty by the means he can; and whoever stays in his normal way during an emergency: both, Sanjaya, are blamed."
+          }
         },
         {
           "n": 5,
-          "text": "अविलोपमिच्छतां ब्राह्मणानां\nप्रायश्चित्तं विहितं यद्विधात्रा ।\nआपद्यथाकर्मसु वर्तमाना-\nन्विकर्मस्थान्संजय गर्हयेत ॥"
+          "text": "अविलोपमिच्छतां ब्राह्मणानां\nप्रायश्चित्तं विहितं यद्विधात्रा ।\nआपद्यथाकर्मसु वर्तमाना-\nन्विकर्मस्थान्संजय गर्हयेत ॥",
+          "meaning": {
+            "en": "For Brahmins who wish no interruption of duty, the Creator laid down expiation; and one should blame those who in an emergency act in forbidden ways, Sanjaya, as though acting by their usual duties."
+          }
         },
         {
           "n": 6,
-          "text": "मनीषिणां तत्त्वविच्छेदनाय\nविधीयते सत्सु वृत्तिः सदैव ।\nअब्राह्मणाः सन्ति तु ये न वैद्याः\nसर्वोच्छेदं साधु मन्येत तेभ्यः ॥"
+          "text": "मनीषिणां तत्त्वविच्छेदनाय\nविधीयते सत्सु वृत्तिः सदैव ।\nअब्राह्मणाः सन्ति तु ये न वैद्याः\nसर्वोच्छेदं साधु मन्येत तेभ्यः ॥",
+          "meaning": {
+            "en": "Among the wise, a way of life is always prescribed to continue the good; but those who are not Brahmins and not learned, one might think it right to cut off entirely."
+          }
         },
         {
           "n": 7,
-          "text": "तदर्था नः पितरो ये च पूर्वे\nपितामहा ये च तेभ्यः परेऽन्ये ।\nप्रज्ञैषिणो ये च हि कर्म चक्रु-\nर्नास्त्यन्ततो नास्ति नास्तीति मन्ये ॥"
+          "text": "तदर्था नः पितरो ये च पूर्वे\nपितामहा ये च तेभ्यः परेऽन्ये ।\nप्रज्ञैषिणो ये च हि कर्म चक्रु-\nर्नास्त्यन्ततो नास्ति नास्तीति मन्ये ॥",
+          "meaning": {
+            "en": "For that purpose our fathers and earlier forebears and still earlier ones, those who sought wisdom and acted, there is no end, I think; there is not, there is not."
+          }
         },
         {
           "n": 8,
-          "text": "यत्किंचिदेतद्वित्तमस्यां पृथिव्यां\nयद्देवानां त्रिदशानां परत्र ।\nप्राजापत्यं त्रिदिवं ब्रह्मलोकं\nनाधर्मतः संजय कामये तत् ॥"
+          "text": "यत्किंचिदेतद्वित्तमस्यां पृथिव्यां\nयद्देवानां त्रिदशानां परत्र ।\nप्राजापत्यं त्रिदिवं ब्रह्मलोकं\nनाधर्मतः संजय कामये तत् ॥",
+          "meaning": {
+            "en": "Whatever wealth there is on earth, and that of the gods, the thirty, in the other world, the heaven of Prajapati and the world of Brahma, Sanjaya, I would not want it by unrighteousness."
+          }
         },
         {
           "n": 9,
-          "text": "धर्मेश्वरः कुशलो नीतिमांश्चा-\nप्युपासिता ब्राह्मणानां मनीषी ।\nनानाविधांश्चैव महाबलांश्च\nराजन्यभोजाननुशास्ति कृष्णः ॥"
+          "text": "धर्मेश्वरः कुशलो नीतिमांश्चा-\nप्युपासिता ब्राह्मणानां मनीषी ।\nनानाविधांश्चैव महाबलांश्च\nराजन्यभोजाननुशास्ति कृष्णः ॥",
+          "meaning": {
+            "en": "Krishna, lord of dharma, skilled, wise in policy, a servant of Brahmins, rules many kinds of mighty warriors, rulers and Bhojas."
+          }
         },
         {
           "n": 10,
-          "text": "यदि ह्यहं विसृजन्स्यामगर्ह्यो\nयुध्यमानो यदि जह्यां स्वधर्मम् ।\nमहायशाः केशवस्तद्ब्रवीतु\nवासुदेवस्तूभयोरर्थकामः ॥"
+          "text": "यदि ह्यहं विसृजन्स्यामगर्ह्यो\nयुध्यमानो यदि जह्यां स्वधर्मम् ।\nमहायशाः केशवस्तद्ब्रवीतु\nवासुदेवस्तूभयोरर्थकामः ॥",
+          "meaning": {
+            "en": "If I should be blameless by giving up, or if by fighting I should abandon my own duty, let the greatly famous Keshava say; Vasudeva wishes the good of both."
+          }
         },
         {
           "n": 11,
-          "text": "शैनेया हि चैत्रकाश्चान्धकाश्च\nवार्ष्णेयभोजाः कौकुराः सृञ्जयाश्च ।\nउपासीना वासुदेवस्य बुद्धिं\nनिगृह्य शत्रून्सुहृदो नन्दयन्ति ॥"
+          "text": "शैनेया हि चैत्रकाश्चान्धकाश्च\nवार्ष्णेयभोजाः कौकुराः सृञ्जयाश्च ।\nउपासीना वासुदेवस्य बुद्धिं\nनिगृह्य शत्रून्सुहृदो नन्दयन्ति ॥",
+          "meaning": {
+            "en": "The Shaineyas, Chaitrakas, Andhakas, Vrishnis, Bhojas, Kukuras and Srinjayas, following Vasudeva's counsel, restrain their enemies and delight their friends."
+          }
         },
         {
           "n": 12,
-          "text": "वृष्ण्यन्धका ह्युग्रसेनादयो वै\nकृष्णप्रणीताः सर्व एवेन्द्रकल्पाः ।\nमनस्विनः सत्यपराक्रमाश्च\nमहाबला यादवा भोगवन्तः ॥"
+          "text": "वृष्ण्यन्धका ह्युग्रसेनादयो वै\nकृष्णप्रणीताः सर्व एवेन्द्रकल्पाः ।\nमनस्विनः सत्यपराक्रमाश्च\nमहाबला यादवा भोगवन्तः ॥",
+          "meaning": {
+            "en": "The Vrishnis and Andhakas, Ugrasena and others, all led by Krishna, all like Indra, spirited, true in valor, mighty Yadavas, prosperous."
+          }
         },
         {
           "n": 13,
-          "text": "काश्यो बभ्रुः श्रियमुत्तमां गतो\nलब्ध्वा कृष्णं भ्रातरमीशितारम् ।\nयस्मै कामान्वर्षति वासुदेवो\nग्रीष्मात्यये मेघ इव प्रजाभ्यः ॥"
+          "text": "काश्यो बभ्रुः श्रियमुत्तमां गतो\nलब्ध्वा कृष्णं भ्रातरमीशितारम् ।\nयस्मै कामान्वर्षति वासुदेवो\nग्रीष्मात्यये मेघ इव प्रजाभ्यः ॥",
+          "meaning": {
+            "en": "Babhru of Kashi has reached the highest prosperity, having Krishna as brother and lord, on whom Vasudeva rains his gifts, like a cloud at the end of summer on the people."
+          }
         },
         {
           "n": 14,
-          "text": "ईदृशोऽयं केशवस्तात भूयो\nविद्मो ह्येनं कर्मणां निश्चयज्ञम् ।\nप्रियश्च नः साधुतमश्च कृष्णो\nनातिक्रमे वचनं केशवस्य ॥"
+          "text": "ईदृशोऽयं केशवस्तात भूयो\nविद्मो ह्येनं कर्मणां निश्चयज्ञम् ।\nप्रियश्च नः साधुतमश्च कृष्णो\nनातिक्रमे वचनं केशवस्य ॥",
+          "meaning": {
+            "en": "Such is Keshava, dear one, and we know him to be one who understands the decision of actions. Krishna is dear to us and the best of the good; I would not transgress Keshava's word."
+          }
         }
       ]
     }

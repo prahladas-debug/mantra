@@ -22,55 +22,94 @@
       "titleEn": "Rathatirathasankhya Parva (Counting the warriors)",
       "verses": [
         {
-          "text": "संजय उवाच"
+          "text": "संजय उवाच",
+          "meaning": {
+            "en": "Sanjaya said:"
+          }
         },
         {
           "n": 1,
-          "text": "उलूकस्य वचः श्रुत्वा कुन्तीपुत्रो युधिष्ठिरः ।\nसेनां निर्यापयामास धृष्टद्युम्नपुरोगमाम् ॥"
+          "text": "उलूकस्य वचः श्रुत्वा कुन्तीपुत्रो युधिष्ठिरः ।\nसेनां निर्यापयामास धृष्टद्युम्नपुरोगमाम् ॥",
+          "meaning": {
+            "en": "Hearing Uluka's message, Yudhishthira, son of Kunti, led the army out, with Dhrishtadyumna at its head."
+          }
         },
         {
           "n": 2,
-          "text": "पदातिनीं नागवतीं रथिनीमश्ववृन्दिनीम् ।\nचतुर्विधबलां भीमामकम्प्यां पृथिवीमिव ॥"
+          "text": "पदातिनीं नागवतीं रथिनीमश्ववृन्दिनीम् ।\nचतुर्विधबलां भीमामकम्प्यां पृथिवीमिव ॥",
+          "meaning": {
+            "en": "It had foot soldiers, elephants, chariots and masses of horses: a fourfold force, terrible and unshakable as the earth."
+          }
         },
         {
           "n": 3,
-          "text": "भीमसेनादिभिर्गुप्तां सार्जुनैश्च महारथैः ।\nधृष्टद्युम्नवशां दुर्गां सागरस्तिमितोपमाम् ॥"
+          "text": "भीमसेनादिभिर्गुप्तां सार्जुनैश्च महारथैः ।\nधृष्टद्युम्नवशां दुर्गां सागरस्तिमितोपमाम् ॥",
+          "meaning": {
+            "en": "Guarded by Bhimasena and the others and by the great chariot-warriors with Arjuna, under Dhrishtadyumna's control, it was hard to approach and still as the sea."
+          }
         },
         {
           "n": 4,
-          "text": "तस्यास्त्वग्रे महेष्वासः पाञ्चाल्यो युद्धदुर्मदः ।\nद्रोणप्रेप्सुरनीकानि धृष्टद्युम्नः प्रकर्षति ॥"
+          "text": "तस्यास्त्वग्रे महेष्वासः पाञ्चाल्यो युद्धदुर्मदः ।\nद्रोणप्रेप्सुरनीकानि धृष्टद्युम्नः प्रकर्षति ॥",
+          "meaning": {
+            "en": "At its front the great archer of Panchala, Dhrishtadyumna, fierce in battle and eager for Drona, led the divisions forward."
+          }
         },
         {
           "n": 5,
-          "text": "यथाबलं यथोत्साहं रथिनः समुपादिशत् ।\nअर्जुनं सूतपुत्राय भीमं दुर्योधनाय च ॥"
+          "text": "यथाबलं यथोत्साहं रथिनः समुपादिशत् ।\nअर्जुनं सूतपुत्राय भीमं दुर्योधनाय च ॥",
+          "meaning": {
+            "en": "According to strength and spirit he assigned the chariot-fighters: Arjuna against the charioteer's son, and Bhima against Duryodhana."
+          }
         },
         {
           "n": 6,
-          "text": "अश्वत्थाम्ने च नकुलं शैब्यं च कृतवर्मणे ।\nसैन्धवाय च वार्ष्णेयं युयुधानमुपादिशत् ॥"
+          "text": "अश्वत्थाम्ने च नकुलं शैब्यं च कृतवर्मणे ।\nसैन्धवाय च वार्ष्णेयं युयुधानमुपादिशत् ॥",
+          "meaning": {
+            "en": "Nakula against Ashvatthaman, Shaibya against Kritavarman, and the Vrishni Satyaki against the king of Sindhu."
+          }
         },
         {
           "n": 7,
-          "text": "शिखण्डिनं च भीष्माय प्रमुखे समकल्पयत् ।\nसहदेवं शकुनये चेकितानं शलाय च ॥"
+          "text": "शिखण्डिनं च भीष्माय प्रमुखे समकल्पयत् ।\nसहदेवं शकुनये चेकितानं शलाय च ॥",
+          "meaning": {
+            "en": "He placed Shikhandin in front against Bhishma, Sahadeva against Shakuni, and Chekitana against Shala."
+          }
         },
         {
           "n": 8,
-          "text": "धृष्टकेतुं च शल्याय गौतमायोत्तमौजसम् ।\nद्रौपदेयांश्च पञ्चभ्यस्त्रिगर्तेभ्यः समादिशत् ॥"
+          "text": "धृष्टकेतुं च शल्याय गौतमायोत्तमौजसम् ।\nद्रौपदेयांश्च पञ्चभ्यस्त्रिगर्तेभ्यः समादिशत् ॥",
+          "meaning": {
+            "en": "Dhrishtaketu against Shalya, Uttamaujas against Gautama, and the five sons of Draupadi against the Trigartas."
+          }
         },
         {
           "n": 9,
-          "text": "वृषसेनाय सौभद्रं शेषाणां च महीक्षिताम् ।\nसमर्थं तं हि मेने वै पार्थादभ्यधिकं रणे ॥"
+          "text": "वृषसेनाय सौभद्रं शेषाणां च महीक्षिताम् ।\nसमर्थं तं हि मेने वै पार्थादभ्यधिकं रणे ॥",
+          "meaning": {
+            "en": "Subhadra's son Abhimanyu against Vrishasena and the remaining kings, for he considered him more capable in battle than even Partha."
+          }
         },
         {
           "n": 10,
-          "text": "एवं विभज्य योधांस्तान्पृथक्च सह चैव ह ।\nज्वालावर्णो महेष्वासो द्रोणमंशमकल्पयत् ॥"
+          "text": "एवं विभज्य योधांस्तान्पृथक्च सह चैव ह ।\nज्वालावर्णो महेष्वासो द्रोणमंशमकल्पयत् ॥",
+          "meaning": {
+            "en": "Having thus divided the warriors, separately and together, the great archer of blazing color took Drona as his own portion."
+          }
         },
         {
           "n": 11,
-          "text": "धृष्टद्युम्नो महेष्वासः सेनापतिपतिस्ततः ।\nविधिवद्व्यूह्य मेधावी युद्धाय धृतमानसः ॥"
+          "text": "धृष्टद्युम्नो महेष्वासः सेनापतिपतिस्ततः ।\nविधिवद्व्यूह्य मेधावी युद्धाय धृतमानसः ॥",
+          "meaning": {
+            "en": "Then the great archer Dhrishtadyumna, commander of commanders, wise and resolute for battle, arrayed the army duly."
+          }
         },
         {
           "n": 12,
-          "text": "यथादिष्टान्यनीकानि पाण्डवानामयोजयत् ।\nजयाय पाण्डुपुत्राणां यत्तस्तस्थौ रणाजिरे ॥"
+          "text": "यथादिष्टान्यनीकानि पाण्डवानामयोजयत् ।\nजयाय पाण्डुपुत्राणां यत्तस्तस्थौ रणाजिरे ॥",
+          "meaning": {
+            "en": "He set the Pandavas' divisions as assigned, and stood alert on the battlefield for the victory of the sons of Pandu."
+          }
         }
       ]
     }

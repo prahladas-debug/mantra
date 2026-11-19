@@ -22,181 +22,316 @@
       "titleEn": "Bhagavadyana Parva (Krishna's embassy)",
       "verses": [
         {
-          "text": "कुन्त्युवाच"
+          "text": "कुन्त्युवाच",
+          "meaning": {
+            "en": "Kunti said:"
+          }
         },
         {
           "n": 1,
-          "text": "अत्राप्युदाहरन्तीममितिहासं पुरातनम् ।\nविदुरायाश्च संवादं पुत्रस्य च परंतप ॥"
+          "text": "अत्राप्युदाहरन्तीममितिहासं पुरातनम् ।\nविदुरायाश्च संवादं पुत्रस्य च परंतप ॥",
+          "meaning": {
+            "en": "On this point they also tell an ancient tale, the conversation between Vidula and her son, scorcher of foes."
+          }
         },
         {
           "n": 2,
-          "text": "अत्र श्रेयश्च भूयश्च यथा सा वक्तुमर्हति ।\nयशस्विनी मन्युमती कुले जाता विभावरी ॥"
+          "text": "अत्र श्रेयश्च भूयश्च यथा सा वक्तुमर्हति ।\nयशस्विनी मन्युमती कुले जाता विभावरी ॥",
+          "meaning": {
+            "en": "In it she says what is best and more, as she is able to: a renowned, spirited woman, born into a good family, bright like the dawn."
+          }
         },
         {
           "n": 3,
-          "text": "क्षत्रधर्मरता धन्या विदुरा दीर्घदर्शिनी ।\nविश्रुता राजसंसत्सु श्रुतवाक्या बहुश्रुता ॥"
+          "text": "क्षत्रधर्मरता धन्या विदुरा दीर्घदर्शिनी ।\nविश्रुता राजसंसत्सु श्रुतवाक्या बहुश्रुता ॥",
+          "meaning": {
+            "en": "Fortunate Vidula, devoted to the duty of a kshatriya, far-sighted, famed in royal assemblies, learned and of weighty speech, was truthful by nature."
+          }
         },
         {
           "n": 4,
-          "text": "विदुरा नाम वै सत्या जगर्हे पुत्रमौरसम् ।\nनिर्जितं सिन्धुराजेन शयानं दीनचेतसम् ।\nअनन्दनमधर्मज्ञं द्विषतां हर्षवर्धनम् ॥"
+          "text": "विदुरा नाम वै सत्या जगर्हे पुत्रमौरसम् ।\nनिर्जितं सिन्धुराजेन शयानं दीनचेतसम् ।\nअनन्दनमधर्मज्ञं द्विषतां हर्षवर्धनम् ॥",
+          "meaning": {
+            "en": "She rebuked her own son, defeated by the king of Sindhu, lying down with a dejected heart, joyless, ignorant of dharma, and gladdening his enemies."
+          }
         },
         {
           "n": 5,
-          "text": "न मया त्वं न पित्रासि जातः क्वाभ्यागतो ह्यसि ।\nनिर्मन्युरुपशाखीयः पुरुषः क्लीबसाधनः ॥"
+          "text": "न मया त्वं न पित्रासि जातः क्वाभ्यागतो ह्यसि ।\nनिर्मन्युरुपशाखीयः पुरुषः क्लीबसाधनः ॥",
+          "meaning": {
+            "en": "\"You are not my son nor your father's. Where have you come from? You are without anger, a mere branch-sitter, a man good only as a eunuch."
+          }
         },
         {
           "n": 6,
-          "text": "यावज्जीवं निराशोऽसि कल्याणाय धुरं वह ।\nमात्मानमवमन्यस्व मैनमल्पेन बीभरः ।\nमनः कृत्वा सुकल्याणं मा भैस्त्वं प्रतिसंस्तभ ॥"
+          "text": "यावज्जीवं निराशोऽसि कल्याणाय धुरं वह ।\nमात्मानमवमन्यस्व मैनमल्पेन बीभरः ।\nमनः कृत्वा सुकल्याणं मा भैस्त्वं प्रतिसंस्तभ ॥",
+          "meaning": {
+            "en": "All your life you are without hope. For your own good, take up the burden. Do not despise yourself, do not think yourself content with little. Set your mind on great good, do not fear; stand firm."
+          }
         },
         {
           "n": 7,
-          "text": "उत्तिष्ठ हे कापुरुष मा शेष्वैवं पराजितः ।\nअमित्रान्नन्दयन्सर्वान्निर्मानो बन्धुशोकदः ॥"
+          "text": "उत्तिष्ठ हे कापुरुष मा शेष्वैवं पराजितः ।\nअमित्रान्नन्दयन्सर्वान्निर्मानो बन्धुशोकदः ॥",
+          "meaning": {
+            "en": "Rise, you coward! Do not lie there beaten, gladdening your enemies, shamed, giving grief to your kin."
+          }
         },
         {
           "n": 8,
-          "text": "सुपूरा वै कुनदिका सुपूरो मूषिकाञ्जलिः ।\nसुसंतोषः कापुरुषः स्वल्पकेनापि तुष्यति ॥"
+          "text": "सुपूरा वै कुनदिका सुपूरो मूषिकाञ्जलिः ।\nसुसंतोषः कापुरुषः स्वल्पकेनापि तुष्यति ॥",
+          "meaning": {
+            "en": "A small stream is easily filled, and a mouse's cupped palm is easily filled; a coward is easily satisfied and pleased with a trifle."
+          }
         },
         {
           "n": 9,
-          "text": "अप्यरेरारुजन्दंष्ट्रामाश्वेव निधनं व्रज ।\nअपि वा संशयं प्राप्य जीवितेऽपि पराक्रम ॥"
+          "text": "अप्यरेरारुजन्दंष्ट्रामाश्वेव निधनं व्रज ।\nअपि वा संशयं प्राप्य जीवितेऽपि पराक्रम ॥",
+          "meaning": {
+            "en": "Even if it means breaking the enemy's tooth, quickly meet your end; or, facing danger, show courage even for the sake of your life."
+          }
         },
         {
           "n": 10,
-          "text": "अप्यरेः श्येनवच्छिद्रं पश्येस्त्वं विपरिक्रमन् ।\nविनदन्वाथ वा तूष्णीं व्योम्नि वापरिशङ्कितः ॥"
+          "text": "अप्यरेः श्येनवच्छिद्रं पश्येस्त्वं विपरिक्रमन् ।\nविनदन्वाथ वा तूष्णीं व्योम्नि वापरिशङ्कितः ॥",
+          "meaning": {
+            "en": "Go about and watch for a gap in your enemy like a hawk, whether roaring or silent, or unsuspected in the sky."
+          }
         },
         {
           "n": 11,
-          "text": "त्वमेवं प्रेतवच्छेषे कस्माद्वज्रहतो यथा ।\nउत्तिष्ठ हे कापुरुष मा शेष्वैवं पराजितः ॥"
+          "text": "त्वमेवं प्रेतवच्छेषे कस्माद्वज्रहतो यथा ।\nउत्तिष्ठ हे कापुरुष मा शेष्वैवं पराजितः ॥",
+          "meaning": {
+            "en": "Why do you lie like a corpse, as though struck by lightning? Rise, you coward, do not lie there defeated."
+          }
         },
         {
           "n": 12,
-          "text": "मास्तं गमस्त्वं कृपणो विश्रूयस्व स्वकर्मणा ।\nमा मध्ये मा जघन्ये त्वं माधो भूस्तिष्ठ चोर्जितः ॥"
+          "text": "मास्तं गमस्त्वं कृपणो विश्रूयस्व स्वकर्मणा ।\nमा मध्ये मा जघन्ये त्वं माधो भूस्तिष्ठ चोर्जितः ॥",
+          "meaning": {
+            "en": "Do not sink down as a wretch; make your name known by your deeds. Do not be in the middle or at the back; do not be low, but stand strong."
+          }
         },
         {
           "n": 13,
-          "text": "अलातं तिन्दुकस्येव मुहूर्तमपि विज्वल ।\nमा तुषाग्निरिवानर्चिः काकरङ्खा जिजीविषुः ।\nमुहूर्तं ज्वलितं श्रेयो न तु धूमायितं चिरम् ॥"
+          "text": "अलातं तिन्दुकस्येव मुहूर्तमपि विज्वल ।\nमा तुषाग्निरिवानर्चिः काकरङ्खा जिजीविषुः ।\nमुहूर्तं ज्वलितं श्रेयो न तु धूमायितं चिरम् ॥",
+          "meaning": {
+            "en": "Blaze, even for a moment, like a firebrand of tinduka wood. Do not smolder without flame like a husk fire, as one who clings to life. Better a moment of blazing than long smoking."
+          }
         },
         {
           "n": 14,
-          "text": "मा ह स्म कस्यचिद्गेहे जनी राज्ञः खरीमृदुः ।\nकृत्वा मानुष्यकं कर्म सृत्वाजिं यावदुत्तमम् ।\nधर्मस्यानृण्यमाप्नोति न चात्मानं विगर्हते ॥"
+          "text": "मा ह स्म कस्यचिद्गेहे जनी राज्ञः खरीमृदुः ।\nकृत्वा मानुष्यकं कर्म सृत्वाजिं यावदुत्तमम् ।\nधर्मस्यानृण्यमाप्नोति न चात्मानं विगर्हते ॥",
+          "meaning": {
+            "en": "Let no king's woman bear a son who is soft as a she-ass. One who has done a man's work and gone into the best of battles is free from his debt to dharma and does not blame himself."
+          }
         },
         {
           "n": 15,
-          "text": "अलब्ध्वा यदि वा लब्ध्वा नानुशोचन्ति पण्डिताः ।\nआनन्तर्यं चारभते न प्राणानां धनायते ॥"
+          "text": "अलब्ध्वा यदि वा लब्ध्वा नानुशोचन्ति पण्डिताः ।\nआनन्तर्यं चारभते न प्राणानां धनायते ॥",
+          "meaning": {
+            "en": "The wise do not grieve whether they gain or not. A man should begin the next effort at once and not cling to his life-breaths as wealth."
+          }
         },
         {
           "n": 16,
-          "text": "उद्भावयस्व वीर्यं वा तां वा गच्छ ध्रुवां गतिम् ।\nधर्मं पुत्राग्रतः कृत्वा किंनिमित्तं हि जीवसि ॥"
+          "text": "उद्भावयस्व वीर्यं वा तां वा गच्छ ध्रुवां गतिम् ।\nधर्मं पुत्राग्रतः कृत्वा किंनिमित्तं हि जीवसि ॥",
+          "meaning": {
+            "en": "Show your valor, or go to that sure goal. Putting dharma before your son, why do you live at all?"
+          }
         },
         {
           "n": 17,
-          "text": "इष्टापूर्तं हि ते क्लीब कीर्तिश्च सकला हता ।\nविच्छिन्नं भोगमूलं ते किंनिमित्तं हि जीवसि ॥"
+          "text": "इष्टापूर्तं हि ते क्लीब कीर्तिश्च सकला हता ।\nविच्छिन्नं भोगमूलं ते किंनिमित्तं हि जीवसि ॥",
+          "meaning": {
+            "en": "Coward, your sacrifices and charities and all your fame are destroyed. Your root of enjoyment is cut. Why do you live at all?"
+          }
         },
         {
           "n": 18,
-          "text": "शत्रुर्निमज्जता ग्राह्यो जङ्घायां प्रपतिष्यता ।\nविपरिच्छिन्नमूलोऽपि न विषीदेत्कथंचन ।\nउद्यम्य धुरमुत्कर्षेदाजानेयकृतं स्मरन् ॥"
+          "text": "शत्रुर्निमज्जता ग्राह्यो जङ्घायां प्रपतिष्यता ।\nविपरिच्छिन्नमूलोऽपि न विषीदेत्कथंचन ।\nउद्यम्य धुरमुत्कर्षेदाजानेयकृतं स्मरन् ॥",
+          "meaning": {
+            "en": "Seize the enemy who is sinking, as he falls grip him by the thigh. Even with your root cut off, never despair; lift the yoke and pull it, remembering what noble steeds do."
+          }
         },
         {
           "n": 19,
-          "text": "कुरु सत्त्वं च मानं च विद्धि पौरुषमात्मनः ।\nउद्भावय कुलं मग्नं त्वत्कृते स्वयमेव हि ॥"
+          "text": "कुरु सत्त्वं च मानं च विद्धि पौरुषमात्मनः ।\nउद्भावय कुलं मग्नं त्वत्कृते स्वयमेव हि ॥",
+          "meaning": {
+            "en": "Show courage and self-respect, know your own manhood, and lift up your sunken family by yourself."
+          }
         },
         {
           "n": 20,
-          "text": "यस्य वृत्तं न जल्पन्ति मानवा महदद्भुतम् ।\nराशिवर्धनमात्रं स नैव स्त्री न पुनः पुमान् ॥"
+          "text": "यस्य वृत्तं न जल्पन्ति मानवा महदद्भुतम् ।\nराशिवर्धनमात्रं स नैव स्त्री न पुनः पुमान् ॥",
+          "meaning": {
+            "en": "A man whose great and wonderful conduct people do not speak of is only a heap added to the count; he is neither woman nor man."
+          }
         },
         {
           "n": 21,
-          "text": "दाने तपसि शौर्ये च यस्य न प्रथितं यशः ।\nविद्यायामर्थलाभे वा मातुरुच्चार एव सः ॥"
+          "text": "दाने तपसि शौर्ये च यस्य न प्रथितं यशः ।\nविद्यायामर्थलाभे वा मातुरुच्चार एव सः ॥",
+          "meaning": {
+            "en": "One whose fame is not spread for giving, austerity or valor, for learning or winning wealth, is merely his mother's excrement."
+          }
         },
         {
           "n": 22,
-          "text": "श्रुतेन तपसा वापि श्रिया वा विक्रमेण वा ।\nजनान्योऽभिभवत्यन्यान्कर्मणा हि स वै पुमान् ॥"
+          "text": "श्रुतेन तपसा वापि श्रिया वा विक्रमेण वा ।\nजनान्योऽभिभवत्यन्यान्कर्मणा हि स वै पुमान् ॥",
+          "meaning": {
+            "en": "He who rises above others by learning, austerity, fortune or valor is truly a man by his deeds."
+          }
         },
         {
           "n": 23,
-          "text": "न त्वेव जाल्मीं कापालीं वृत्तिमेषितुमर्हसि ।\nनृशंस्यामयशस्यां च दुःखां कापुरुषोचिताम् ॥"
+          "text": "न त्वेव जाल्मीं कापालीं वृत्तिमेषितुमर्हसि ।\nनृशंस्यामयशस्यां च दुःखां कापुरुषोचिताम् ॥",
+          "meaning": {
+            "en": "You should never seek a wretched, beggar's livelihood, cruel, inglorious and painful, fit for a coward."
+          }
         },
         {
           "n": 24,
-          "text": "यमेनमभिनन्देयुरमित्राः पुरुषं कृशम् ।\nलोकस्य समवज्ञातं निहीनाशनवाससम् ॥"
+          "text": "यमेनमभिनन्देयुरमित्राः पुरुषं कृशम् ।\nलोकस्य समवज्ञातं निहीनाशनवाससम् ॥",
+          "meaning": {
+            "en": "Enemies rejoice in a man who is thin, despised by the world, ill fed and ill clad."
+          }
         },
         {
           "n": 25,
-          "text": "अहोलाभकरं दीनमल्पजीवनमल्पकम् ।\nनेदृशं बन्धुमासाद्य बान्धवः सुखमेधते ॥"
+          "text": "अहोलाभकरं दीनमल्पजीवनमल्पकम् ।\nनेदृशं बन्धुमासाद्य बान्धवः सुखमेधते ॥",
+          "meaning": {
+            "en": "Poor, miserable, living little, a man of little worth: with such a kinsman, his kin do not thrive in happiness."
+          }
         },
         {
           "n": 26,
-          "text": "अवृत्त्यैव विपत्स्यामो वयं राष्ट्रात्प्रवासिताः ।\nसर्वकामरसैर्हीनाः स्थानभ्रष्टा अकिंचनाः ॥"
+          "text": "अवृत्त्यैव विपत्स्यामो वयं राष्ट्रात्प्रवासिताः ।\nसर्वकामरसैर्हीनाः स्थानभ्रष्टा अकिंचनाः ॥",
+          "meaning": {
+            "en": "Without a livelihood we shall perish, driven out of our land, deprived of every pleasure, fallen from our place, with nothing."
+          }
         },
         {
           "n": 27,
-          "text": "अवर्णकारिणं सत्सु कुलवंशस्य नाशनम् ।\nकलिं पुत्रप्रवादेन संजय त्वामजीजनम् ॥"
+          "text": "अवर्णकारिणं सत्सु कुलवंशस्य नाशनम् ।\nकलिं पुत्रप्रवादेन संजय त्वामजीजनम् ॥",
+          "meaning": {
+            "en": "Sanjaya, I bore you under the name of son, a disgrace among the good, a ruin of our family line, a quarrel itself."
+          }
         },
         {
           "n": 28,
-          "text": "निरमर्षं निरुत्साहं निर्वीर्यमरिनन्दनम् ।\nमा स्म सीमन्तिनी काचिज्जनयेत्पुत्रमीदृशम् ॥"
+          "text": "निरमर्षं निरुत्साहं निर्वीर्यमरिनन्दनम् ।\nमा स्म सीमन्तिनी काचिज्जनयेत्पुत्रमीदृशम् ॥",
+          "meaning": {
+            "en": "A man without anger, without effort, without strength, a delight to his foes: let no woman ever bear such a son."
+          }
         },
         {
           "n": 29,
-          "text": "मा धूमाय ज्वलात्यन्तमाक्रम्य जहि शात्रवान् ।\nज्वल मूर्धन्यमित्राणां मुहूर्तमपि वा क्षणम् ॥"
+          "text": "मा धूमाय ज्वलात्यन्तमाक्रम्य जहि शात्रवान् ।\nज्वल मूर्धन्यमित्राणां मुहूर्तमपि वा क्षणम् ॥",
+          "meaning": {
+            "en": "Do not merely smoke but blaze to the end; attack and strike down the enemies. Blaze on the heads of your foes, even for a moment or an instant."
+          }
         },
         {
           "n": 30,
-          "text": "एतावानेव पुरुषो यदमर्षी यदक्षमी ।\nक्षमावान्निरमर्षश्च नैव स्त्री न पुनः पुमान् ॥"
+          "text": "एतावानेव पुरुषो यदमर्षी यदक्षमी ।\nक्षमावान्निरमर्षश्च नैव स्त्री न पुनः पुमान् ॥",
+          "meaning": {
+            "en": "A man is just this much: one who is impatient of insult and does not endure. One who forgives and has no anger is neither woman nor man."
+          }
         },
         {
           "n": 31,
-          "text": "संतोषो वै श्रियं हन्ति तथानुक्रोश एव च ।\nअनुत्थानभये चोभे निरीहो नाश्नुते महत् ॥"
+          "text": "संतोषो वै श्रियं हन्ति तथानुक्रोश एव च ।\nअनुत्थानभये चोभे निरीहो नाश्नुते महत् ॥",
+          "meaning": {
+            "en": "Contentment destroys prosperity, and so does softness of pity; one who lacks effort and fears exertion, doing nothing, never wins greatness."
+          }
         },
         {
           "n": 32,
-          "text": "एभ्यो निकृतिपापेभ्यः प्रमुञ्चात्मानमात्मना ।\nआयसं हृदयं कृत्वा मृगयस्व पुनः स्वकम् ॥"
+          "text": "एभ्यो निकृतिपापेभ्यः प्रमुञ्चात्मानमात्मना ।\nआयसं हृदयं कृत्वा मृगयस्व पुनः स्वकम् ॥",
+          "meaning": {
+            "en": "Free yourself by your own effort from these sinful tricks. Make your heart iron and seek back what is yours."
+          }
         },
         {
           "n": 33,
-          "text": "पुरं विषहते यस्मात्तस्मात्पुरुष उच्यते ।\nतमाहुर्व्यर्थनामानं स्त्रीवद्य इह जीवति ॥"
+          "text": "पुरं विषहते यस्मात्तस्मात्पुरुष उच्यते ।\nतमाहुर्व्यर्थनामानं स्त्रीवद्य इह जीवति ॥",
+          "meaning": {
+            "en": "He is called purusha because he can withstand the city of difficulties; one who lives here like a woman is said to have a name without meaning."
+          }
         },
         {
           "n": 34,
-          "text": "शूरस्योर्जितसत्त्वस्य सिंहविक्रान्तगामिनः ।\nदिष्टभावं गतस्यापि विघसे मोदते प्रजा ॥"
+          "text": "शूरस्योर्जितसत्त्वस्य सिंहविक्रान्तगामिनः ।\nदिष्टभावं गतस्यापि विघसे मोदते प्रजा ॥",
+          "meaning": {
+            "en": "When a hero of great spirit, walking with a lion's stride, even meets his fate, the people rejoice over what he leaves behind."
+          }
         },
         {
           "n": 35,
-          "text": "य आत्मनः प्रियसुखे हित्वा मृगयते श्रियम् ।\nअमात्यानामथो हर्षमादधात्यचिरेण सः ॥"
+          "text": "य आत्मनः प्रियसुखे हित्वा मृगयते श्रियम् ।\nअमात्यानामथो हर्षमादधात्यचिरेण सः ॥",
+          "meaning": {
+            "en": "He who gives up what is pleasant and comfortable for himself and seeks prosperity soon brings joy to his ministers."
+          }
         },
         {
-          "text": "पुत्र उवाच"
+          "text": "पुत्र उवाच",
+          "meaning": {
+            "en": "The son said:"
+          }
         },
         {
           "n": 36,
-          "text": "किं नु ते मामपश्यन्त्याः पृथिव्या अपि सर्वया ।\nकिमाभरणकृत्यं ते किं भोगैर्जीवितेन वा ॥"
+          "text": "किं नु ते मामपश्यन्त्याः पृथिव्या अपि सर्वया ।\nकिमाभरणकृत्यं ते किं भोगैर्जीवितेन वा ॥",
+          "meaning": {
+            "en": "Mother, if you were not to see me, what would the whole earth be to you? What use are ornaments, pleasures, or life?"
+          }
         },
         {
-          "text": "मातोवाच"
+          "text": "मातोवाच",
+          "meaning": {
+            "en": "The mother said:"
+          }
         },
         {
           "n": 37,
-          "text": "किमद्यकानां ये लोका द्विषन्तस्तानवाप्नुयुः ।\nये त्वादृतात्मनां लोकाः सुहृदस्तान्व्रजन्तु नः ॥"
+          "text": "किमद्यकानां ये लोका द्विषन्तस्तानवाप्नुयुः ।\nये त्वादृतात्मनां लोकाः सुहृदस्तान्व्रजन्तु नः ॥",
+          "meaning": {
+            "en": "Let the enemies obtain those worlds that belong to the worthless of today; and let our friends go to the worlds of those who honor themselves."
+          }
         },
         {
           "n": 38,
-          "text": "भृत्यैर्विहीयमानानां परपिण्डोपजीविनाम् ।\nकृपणानामसत्त्वानां मा वृत्तिमनुवर्तिथाः ॥"
+          "text": "भृत्यैर्विहीयमानानां परपिण्डोपजीविनाम् ।\nकृपणानामसत्त्वानां मा वृत्तिमनुवर्तिथाः ॥",
+          "meaning": {
+            "en": "Do not follow the way of the wretched and weak, who lack servants and live on others' food."
+          }
         },
         {
           "n": 39,
-          "text": "अनु त्वां तात जीवन्तु ब्राह्मणाः सुहृदस्तथा ।\nपर्जन्यमिव भूतानि देवा इव शतक्रतुम् ॥"
+          "text": "अनु त्वां तात जीवन्तु ब्राह्मणाः सुहृदस्तथा ।\nपर्जन्यमिव भूतानि देवा इव शतक्रतुम् ॥",
+          "meaning": {
+            "en": "Child, let brahmins and friends live on you, as creatures live on the rain cloud and the gods on Indra of a hundred sacrifices."
+          }
         },
         {
           "n": 40,
-          "text": "यमाजीवन्ति पुरुषं सर्वभूतानि संजय ।\nपक्वं द्रुममिवासाद्य तस्य जीवितमर्थवत् ॥"
+          "text": "यमाजीवन्ति पुरुषं सर्वभूतानि संजय ।\nपक्वं द्रुममिवासाद्य तस्य जीवितमर्थवत् ॥",
+          "meaning": {
+            "en": "Sanjaya, the life of the man on whom all beings live, as on a ripe tree they come to, is truly worthwhile."
+          }
         },
         {
           "n": 41,
-          "text": "यस्य शूरस्य विक्रान्तैरेधन्ते बान्धवाः सुखम् ।\nत्रिदशा इव शक्रस्य साधु तस्येह जीवितम् ॥"
+          "text": "यस्य शूरस्य विक्रान्तैरेधन्ते बान्धवाः सुखम् ।\nत्रिदशा इव शक्रस्य साधु तस्येह जीवितम् ॥",
+          "meaning": {
+            "en": "His life here is good, for the hero whose valor makes his kin thrive in happiness, as the gods thrive by Shakra's."
+          }
         },
         {
           "n": 42,
-          "text": "स्वबाहुबलमाश्रित्य योऽभ्युज्जीवति मानवः ।\nस लोके लभते कीर्तिं परत्र च शुभां गतिम् ॥"
+          "text": "स्वबाहुबलमाश्रित्य योऽभ्युज्जीवति मानवः ।\nस लोके लभते कीर्तिं परत्र च शुभां गतिम् ॥",
+          "meaning": {
+            "en": "A man who lives by relying on the strength of his own arms wins fame in this world and a good course in the next."
+          }
         }
       ]
     }

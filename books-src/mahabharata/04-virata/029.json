@@ -22,119 +22,206 @@
       "titleEn": "Gograhana Parva (The cattle raid)",
       "verses": [
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 1,
-          "text": "अथ राजा त्रिगर्तानां सुशर्मा रथयूथपः ।\nप्राप्तकालमिदं वाक्यमुवाच त्वरितो भृशम् ॥"
+          "text": "अथ राजा त्रिगर्तानां सुशर्मा रथयूथपः ।\nप्राप्तकालमिदं वाक्यमुवाच त्वरितो भृशम् ॥",
+          "meaning": {
+            "en": "Then Susharman, king of the Trigartas and leader of chariot-troops, spoke these words, seasonable and in great haste."
+          }
         },
         {
           "n": 2,
-          "text": "असकृन्निकृतः पूर्वं मत्स्यैः साल्वेयकैः सह ।\nसूतेन चैव मत्स्यस्य कीचकेन पुनः पुनः ॥"
+          "text": "असकृन्निकृतः पूर्वं मत्स्यैः साल्वेयकैः सह ।\nसूतेन चैव मत्स्यस्य कीचकेन पुनः पुनः ॥",
+          "meaning": {
+            "en": "Repeatedly wronged in the past by the Matsyas together with the Shalveyakas, and again and again by the Matsya king's charioteer Kichaka,"
+          }
         },
         {
           "n": 3,
-          "text": "बाधितो बन्धुभिः सार्धं बलाद्बलवता विभो ।\nस कर्णमभ्युदीक्ष्याथ दुर्योधनमभाषत ॥"
+          "text": "बाधितो बन्धुभिः सार्धं बलाद्बलवता विभो ।\nस कर्णमभ्युदीक्ष्याथ दुर्योधनमभाषत ॥",
+          "meaning": {
+            "en": "oppressed with his kinsmen by that powerful man's force, lord, he looked at Karna and spoke to Duryodhana."
+          }
         },
         {
           "n": 4,
-          "text": "असकृन्मत्स्यराज्ञा मे राष्ट्रं बाधितमोजसा ।\nप्रणेता कीचकश्चास्य बलवानभवत्पुरा ॥"
+          "text": "असकृन्मत्स्यराज्ञा मे राष्ट्रं बाधितमोजसा ।\nप्रणेता कीचकश्चास्य बलवानभवत्पुरा ॥",
+          "meaning": {
+            "en": "\"Again and again the Matsya king has hurt my kingdom with his might, and Kichaka was formerly his strong leader."
+          }
         },
         {
           "n": 5,
-          "text": "क्रूरोऽमर्षी स दुष्टात्मा भुवि प्रख्यातविक्रमः ।\nनिहतस्तत्र गन्धर्वैः पापकर्मा नृशंसवान् ॥"
+          "text": "क्रूरोऽमर्षी स दुष्टात्मा भुवि प्रख्यातविक्रमः ।\nनिहतस्तत्र गन्धर्वैः पापकर्मा नृशंसवान् ॥",
+          "meaning": {
+            "en": "Cruel, impatient, evil-minded and famed for valor on earth, that sinful and merciless man has been killed there by gandharvas.\""
+          }
         },
         {
           "n": 6,
-          "text": "तस्मिंश्च निहते राजन्हीनदर्पो निराश्रयः ।\nभविष्यति निरुत्साहो विराट इति मे मतिः ॥"
+          "text": "तस्मिंश्च निहते राजन्हीनदर्पो निराश्रयः ।\nभविष्यति निरुत्साहो विराट इति मे मतिः ॥",
+          "meaning": {
+            "en": "\"With him killed, king, Virata, his pride gone and without support, will lose heart, I think.\""
+          }
         },
         {
           "n": 7,
-          "text": "तत्र यात्रा मम मता यदि ते रोचतेऽनघ ।\nकौरवाणां च सर्वेषां कर्णस्य च महात्मनः ॥"
+          "text": "तत्र यात्रा मम मता यदि ते रोचतेऽनघ ।\nकौरवाणां च सर्वेषां कर्णस्य च महात्मनः ॥",
+          "meaning": {
+            "en": "\"If it pleases you, blameless one, and all the Kauravas and the great-souled Karna, I think we should march against him.\""
+          }
         },
         {
           "n": 8,
-          "text": "एतत्प्राप्तमहं मन्ये कार्यमात्ययिकं हितम् ।\nराष्ट्रं तस्याभियात्वाशु बहुधान्यसमाकुलम् ॥"
+          "text": "एतत्प्राप्तमहं मन्ये कार्यमात्ययिकं हितम् ।\nराष्ट्रं तस्याभियात्वाशु बहुधान्यसमाकुलम् ॥",
+          "meaning": {
+            "en": "\"I think this is a timely, urgent and beneficial task: let us quickly attack his kingdom, rich in abundant grain.\""
+          }
         },
         {
           "n": 9,
-          "text": "आददामोऽस्य रत्नानि विविधानि वसूनि च ।\nग्रामान्राष्ट्राणि वा तस्य हरिष्यामो विभागशः ॥"
+          "text": "आददामोऽस्य रत्नानि विविधानि वसूनि च ।\nग्रामान्राष्ट्राणि वा तस्य हरिष्यामो विभागशः ॥",
+          "meaning": {
+            "en": "\"We shall take his many jewels and treasures, or seize villages and districts of his, dividing them.\""
+          }
         },
         {
           "n": 10,
-          "text": "अथ वा गोसहस्राणि बहूनि च शुभानि च ।\nविविधानि हरिष्यामः प्रतिपीड्य पुरं बलात् ॥"
+          "text": "अथ वा गोसहस्राणि बहूनि च शुभानि च ।\nविविधानि हरिष्यामः प्रतिपीड्य पुरं बलात् ॥",
+          "meaning": {
+            "en": "\"Or we shall take many thousands of fine cattle of various kinds, forcing the city under pressure.\""
+          }
         },
         {
           "n": 11,
-          "text": "कौरवैः सह संगम्य त्रिगर्तैश्च विशां पते ।\nगास्तस्यापहरामाशु सह सर्वैः सुसंहताः ॥"
+          "text": "कौरवैः सह संगम्य त्रिगर्तैश्च विशां पते ।\nगास्तस्यापहरामाशु सह सर्वैः सुसंहताः ॥",
+          "meaning": {
+            "en": "\"Joining with the Kauravas and the Trigartas, lord of the people, let us quickly carry off his cattle, all united together.\""
+          }
         },
         {
           "n": 12,
-          "text": "संधिं वा तेन कृत्वा तु निबध्नीमोऽस्य पौरुषम् ।\nहत्वा चास्य चमूं कृत्स्नां वशमन्वानयामहे ॥"
+          "text": "संधिं वा तेन कृत्वा तु निबध्नीमोऽस्य पौरुषम् ।\nहत्वा चास्य चमूं कृत्स्नां वशमन्वानयामहे ॥",
+          "meaning": {
+            "en": "\"Or having made a treaty with him, let us bind his strength; or, having destroyed his whole army, bring him under our control.\""
+          }
         },
         {
           "n": 13,
-          "text": "तं वशे न्यायतः कृत्वा सुखं वत्स्यामहे वयम् ।\nभवतो बलवृद्धिश्च भविष्यति न संशयः ॥"
+          "text": "तं वशे न्यायतः कृत्वा सुखं वत्स्यामहे वयम् ।\nभवतो बलवृद्धिश्च भविष्यति न संशयः ॥",
+          "meaning": {
+            "en": "\"Having rightly subdued him, we shall live in comfort, and your strength will surely increase.\""
+          }
         },
         {
           "n": 14,
-          "text": "तच्छ्रुत्वा वचनं तस्य कर्णो राजानमब्रवीत् ।\nसूक्तं सुशर्मणा वाक्यं प्राप्तकालं हितं च नः ॥"
+          "text": "तच्छ्रुत्वा वचनं तस्य कर्णो राजानमब्रवीत् ।\nसूक्तं सुशर्मणा वाक्यं प्राप्तकालं हितं च नः ॥",
+          "meaning": {
+            "en": "Hearing his words, Karna said to the king: \"Susharman has spoken well, timely and good for us.\""
+          }
         },
         {
           "n": 15,
-          "text": "तस्मात्क्षिप्रं विनिर्यामो योजयित्वा वरूथिनीम् ।\nविभज्य चाप्यनीकानि यथा वा मन्यसेऽनघ ॥"
+          "text": "तस्मात्क्षिप्रं विनिर्यामो योजयित्वा वरूथिनीम् ।\nविभज्य चाप्यनीकानि यथा वा मन्यसेऽनघ ॥",
+          "meaning": {
+            "en": "\"So let us march out quickly, with the army arrayed, dividing the divisions, or however you think best, blameless one.\""
+          }
         },
         {
           "n": 16,
-          "text": "प्रज्ञावान्कुरुवृद्धोऽयं सर्वेषां नः पितामहः ।\nआचार्यश्च तथा द्रोणः कृपः शारद्वतस्तथा ॥"
+          "text": "प्रज्ञावान्कुरुवृद्धोऽयं सर्वेषां नः पितामहः ।\nआचार्यश्च तथा द्रोणः कृपः शारद्वतस्तथा ॥",
+          "meaning": {
+            "en": "\"This wise elder of the Kurus, our grandfather, and the teacher Drona, and Kripa son of Sharadvat,\""
+          }
         },
         {
           "n": 17,
-          "text": "मन्यन्ते ते यथा सर्वे तथा यात्रा विधीयताम् ।\nसंमन्त्र्य चाशु गच्छामः साधनार्थं महीपतेः ॥"
+          "text": "मन्यन्ते ते यथा सर्वे तथा यात्रा विधीयताम् ।\nसंमन्त्र्य चाशु गच्छामः साधनार्थं महीपतेः ॥",
+          "meaning": {
+            "en": "\"let the expedition be arranged as they all think fit; consulting them, let us go swiftly to accomplish the king's aim.\""
+          }
         },
         {
           "n": 18,
-          "text": "किं च नः पाण्डवैः कार्यं हीनार्थबलपौरुषैः ।\nअत्यर्थं वा प्रनष्टास्ते प्राप्ता वापि यमक्षयम् ॥"
+          "text": "किं च नः पाण्डवैः कार्यं हीनार्थबलपौरुषैः ।\nअत्यर्थं वा प्रनष्टास्ते प्राप्ता वापि यमक्षयम् ॥",
+          "meaning": {
+            "en": "\"What need have we of the Pandavas, deprived of wealth, strength and manhood? They are either utterly lost or have gone to Yama's abode.\""
+          }
         },
         {
           "n": 19,
-          "text": "यामो राजन्ननुद्विग्ना विराटविषयं वयम् ।\nआदास्यामो हि गास्तस्य विविधानि वसूनि च ॥"
+          "text": "यामो राजन्ननुद्विग्ना विराटविषयं वयम् ।\nआदास्यामो हि गास्तस्य विविधानि वसूनि च ॥",
+          "meaning": {
+            "en": "\"King, let us go without worry to Virata's country and take his cattle and his various treasures.\""
+          }
         },
         {
           "n": 20,
-          "text": "ततो दुर्योधनो राजा वाक्यमादाय तस्य तत् ।\nवैकर्तनस्य कर्णस्य क्षिप्रमाज्ञापयत्स्वयम् ॥"
+          "text": "ततो दुर्योधनो राजा वाक्यमादाय तस्य तत् ।\nवैकर्तनस्य कर्णस्य क्षिप्रमाज्ञापयत्स्वयम् ॥",
+          "meaning": {
+            "en": "Then King Duryodhana, taking up his words, himself quickly instructed Karna son of Vikartana."
+          }
         },
         {
           "n": 21,
-          "text": "शासने नित्यसंयुक्तं दुःशासनमनन्तरम् ।\nसह वृद्धैस्तु संमन्त्र्य क्षिप्रं योजय वाहिनीम् ॥"
+          "text": "शासने नित्यसंयुक्तं दुःशासनमनन्तरम् ।\nसह वृद्धैस्तु संमन्त्र्य क्षिप्रं योजय वाहिनीम् ॥",
+          "meaning": {
+            "en": "He said to Duhshasana, who was always devoted to his commands: \"Consult with the elders and quickly marshal the army.\""
+          }
         },
         {
           "n": 22,
-          "text": "यथोद्देशं च गच्छामः सहिताः सर्वकौरवैः ।\nसुशर्मा तु यथोद्दिष्टं देशं यातु महारथः ॥"
+          "text": "यथोद्देशं च गच्छामः सहिताः सर्वकौरवैः ।\nसुशर्मा तु यथोद्दिष्टं देशं यातु महारथः ॥",
+          "meaning": {
+            "en": "\"Let us go together with all the Kauravas to the appointed place; let the great charioteer Susharman go to the place he specified.\""
+          }
         },
         {
           "n": 23,
-          "text": "त्रिगर्तैः सहितो राजा समग्रबलवाहनः ।\nप्रागेव हि सुसंवीतो मत्स्यस्य विषयं प्रति ॥"
+          "text": "त्रिगर्तैः सहितो राजा समग्रबलवाहनः ।\nप्रागेव हि सुसंवीतो मत्स्यस्य विषयं प्रति ॥",
+          "meaning": {
+            "en": "\"Let the king, with the Trigartas and with all his troops and vehicles, go first, well covered, to the Matsya country.\""
+          }
         },
         {
           "n": 24,
-          "text": "जघन्यतो वयं तत्र यास्यामो दिवसान्तरम् ।\nविषयं मत्स्यराजस्य सुसमृद्धं सुसंहताः ॥"
+          "text": "जघन्यतो वयं तत्र यास्यामो दिवसान्तरम् ।\nविषयं मत्स्यराजस्य सुसमृद्धं सुसंहताः ॥",
+          "meaning": {
+            "en": "\"We shall follow behind after a day, closely united, to the prosperous country of the Matsya king.\""
+          }
         },
         {
           "n": 25,
-          "text": "ते यात्वा सहसा तत्र विराटनगरं प्रति ।\nक्षिप्रं गोपान्समासाद्य गृह्णन्तु विपुलं धनम् ॥"
+          "text": "ते यात्वा सहसा तत्र विराटनगरं प्रति ।\nक्षिप्रं गोपान्समासाद्य गृह्णन्तु विपुलं धनम् ॥",
+          "meaning": {
+            "en": "\"Let them go there swiftly to Virata's city, quickly seize the cowherds and take a vast treasure.\""
+          }
         },
         {
           "n": 26,
-          "text": "गवां शतसहस्राणि श्रीमन्ति गुणवन्ति च ।\nवयमपि निगृह्णीमो द्विधा कृत्वा वरूथिनीम् ॥"
+          "text": "गवां शतसहस्राणि श्रीमन्ति गुणवन्ति च ।\nवयमपि निगृह्णीमो द्विधा कृत्वा वरूथिनीम् ॥",
+          "meaning": {
+            "en": "\"We too shall seize the hundreds of thousands of fine, excellent cattle, dividing our army in two.\""
+          }
         },
         {
           "n": 27,
-          "text": "स स्म गत्वा यथोद्दिष्टां दिशं वह्नेर्महीपतिः ।\nआदत्त गाः सुशर्माथ घर्मपक्षस्य सप्तमीम् ॥"
+          "text": "स स्म गत्वा यथोद्दिष्टां दिशं वह्नेर्महीपतिः ।\nआदत्त गाः सुशर्माथ घर्मपक्षस्य सप्तमीम् ॥",
+          "meaning": {
+            "en": "Having gone in the direction assigned, in the direction of Agni, King Susharman seized the cattle on the seventh day of the hot-season fortnight."
+          }
         },
         {
           "n": 28,
-          "text": "अपरं दिवसं सर्वे राजन्संभूय कौरवाः ।\nअष्टम्यां तान्यगृह्णन्त गोकुलानि सहस्रशः ॥"
+          "text": "अपरं दिवसं सर्वे राजन्संभूय कौरवाः ।\nअष्टम्यां तान्यगृह्णन्त गोकुलानि सहस्रशः ॥",
+          "meaning": {
+            "en": "The next day, the eighth, all the Kauravas together seized thousands of herds of cattle, king."
+          }
         }
       ]
     }

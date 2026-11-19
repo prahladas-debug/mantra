@@ -22,71 +22,122 @@
       "titleEn": "Yanasandhi Parva (Debate on peace)",
       "verses": [
         {
-          "text": "धृतराष्ट्र उवाच"
+          "text": "धृतराष्ट्र उवाच",
+          "meaning": {
+            "en": "Dhritarashtra said:"
+          }
         },
         {
           "n": 1,
-          "text": "दुर्योधन विजानीहि यत्त्वां वक्ष्यामि पुत्रक ।\nउत्पथं मन्यसे मार्गमनभिज्ञ इवाध्वगः ॥"
+          "text": "दुर्योधन विजानीहि यत्त्वां वक्ष्यामि पुत्रक ।\nउत्पथं मन्यसे मार्गमनभिज्ञ इवाध्वगः ॥",
+          "meaning": {
+            "en": "Duryodhana, my son, understand what I say: like a traveller who does not know the way, you take a wrong road for the path."
+          }
         },
         {
           "n": 2,
-          "text": "पञ्चानां पाण्डुपुत्राणां यत्तेजः प्रमिमीषसि ।\nपञ्चानामिव भूतानां महतां सुमहात्मनाम् ॥"
+          "text": "पञ्चानां पाण्डुपुत्राणां यत्तेजः प्रमिमीषसि ।\nपञ्चानामिव भूतानां महतां सुमहात्मनाम् ॥",
+          "meaning": {
+            "en": "You wish to measure the power of the five sons of Pandu, as if of the five great elements, the great ones."
+          }
         },
         {
           "n": 3,
-          "text": "युधिष्ठिरं हि कौन्तेयं परं धर्ममिहास्थितम् ।\nपरां गतिमसंप्रेक्ष्य न त्वं वेत्तुमिहार्हसि ॥"
+          "text": "युधिष्ठिरं हि कौन्तेयं परं धर्ममिहास्थितम् ।\nपरां गतिमसंप्रेक्ष्य न त्वं वेत्तुमिहार्हसि ॥",
+          "meaning": {
+            "en": "Yudhishthira, Kunti's son, stands in supreme dharma here; unable to see his highest goal, you are not fit to judge him."
+          }
         },
         {
           "n": 4,
-          "text": "भीमसेनं च कौन्तेयं यस्य नास्ति समो बले ।\nरणान्तकं तर्कयसे महावातमिव द्रुमः ॥"
+          "text": "भीमसेनं च कौन्तेयं यस्य नास्ति समो बले ।\nरणान्तकं तर्कयसे महावातमिव द्रुमः ॥",
+          "meaning": {
+            "en": "You think of Bhimasena, Kunti's son, who has no equal in strength, as the end of battle, like a tree before a great wind."
+          }
         },
         {
           "n": 5,
-          "text": "सर्वशस्त्रभृतां श्रेष्ठं मेरुं शिखरिणामिव ।\nयुधि गाण्डीवधन्वानं को नु युध्येत बुद्धिमान् ॥"
+          "text": "सर्वशस्त्रभृतां श्रेष्ठं मेरुं शिखरिणामिव ।\nयुधि गाण्डीवधन्वानं को नु युध्येत बुद्धिमान् ॥",
+          "meaning": {
+            "en": "What wise man would fight the Gandiva bowman, best of all who bear weapons, like Meru among the mountains?"
+          }
         },
         {
           "n": 6,
-          "text": "धृष्टद्युम्नश्च पाञ्चाल्यः कमिवाद्य न शातयेत् ।\nशत्रुमध्ये शरान्मुञ्चन्देवराडशनीमिव ॥"
+          "text": "धृष्टद्युम्नश्च पाञ्चाल्यः कमिवाद्य न शातयेत् ।\nशत्रुमध्ये शरान्मुञ्चन्देवराडशनीमिव ॥",
+          "meaning": {
+            "en": "Whom would Dhrishtadyumna the Panchala not strike down today, loosing arrows among his enemies like the king of gods with the thunderbolt?"
+          }
         },
         {
           "n": 7,
-          "text": "सात्यकिश्चापि दुर्धर्षः संमतोऽन्धकवृष्णिषु ।\nध्वंसयिष्यति ते सेनां पाण्डवेयहिते रतः ॥"
+          "text": "सात्यकिश्चापि दुर्धर्षः संमतोऽन्धकवृष्णिषु ।\nध्वंसयिष्यति ते सेनां पाण्डवेयहिते रतः ॥",
+          "meaning": {
+            "en": "Satyaki too, unassailable and honoured among the Andhakas and Vrishnis, devoted to the Pandavas' good, will destroy your army."
+          }
         },
         {
           "n": 8,
-          "text": "यः पुनः प्रतिमानेन त्रीँल्लोकानतिरिच्यते ।\nतं कृष्णं पुण्डरीकाक्षं को नु युध्येत बुद्धिमान् ॥"
+          "text": "यः पुनः प्रतिमानेन त्रीँल्लोकानतिरिच्यते ।\nतं कृष्णं पुण्डरीकाक्षं को नु युध्येत बुद्धिमान् ॥",
+          "meaning": {
+            "en": "And who is the wise man who would fight Krishna, lotus-eyed, who surpasses even the three worlds in his match?"
+          }
         },
         {
           "n": 9,
-          "text": "एकतो ह्यस्य दाराश्च ज्ञातयश्च सबान्धवाः ।\nआत्मा च पृथिवी चेयमेकतश्च धनंजयः ॥"
+          "text": "एकतो ह्यस्य दाराश्च ज्ञातयश्च सबान्धवाः ।\nआत्मा च पृथिवी चेयमेकतश्च धनंजयः ॥",
+          "meaning": {
+            "en": "On one side are his wives, kin and relatives, his own self and this earth; on the other, Dhananjaya."
+          }
         },
         {
           "n": 10,
-          "text": "वासुदेवोऽपि दुर्धर्षो यतात्मा यत्र पाण्डवः ।\nअविषह्यं पृथिव्यापि तद्बलं यत्र केशवः ॥"
+          "text": "वासुदेवोऽपि दुर्धर्षो यतात्मा यत्र पाण्डवः ।\nअविषह्यं पृथिव्यापि तद्बलं यत्र केशवः ॥",
+          "meaning": {
+            "en": "Vasudeva too is unassailable; where Keshava is, the Pandava's strength, even the earth cannot bear."
+          }
         },
         {
           "n": 11,
-          "text": "तिष्ठ तात सतां वाक्ये सुहृदामर्थवादिनाम् ।\nवृद्धं शांतनवं भीष्मं तितिक्षस्व पितामहम् ॥"
+          "text": "तिष्ठ तात सतां वाक्ये सुहृदामर्थवादिनाम् ।\nवृद्धं शांतनवं भीष्मं तितिक्षस्व पितामहम् ॥",
+          "meaning": {
+            "en": "Stay, child, with the words of the good, of friends who speak your good; bear with old Bhishma, Shantanu's son, the grandfather."
+          }
         },
         {
           "n": 12,
-          "text": "मां च ब्रुवाणं शुश्रूष कुरूणामर्थवादिनम् ।\nद्रोणं कृपं विकर्णं च महाराजं च बाह्लिकम् ॥"
+          "text": "मां च ब्रुवाणं शुश्रूष कुरूणामर्थवादिनम् ।\nद्रोणं कृपं विकर्णं च महाराजं च बाह्लिकम् ॥",
+          "meaning": {
+            "en": "Listen to me as I speak for the Kurus' good, and to Drona, Kripa, Vikarna and the great king Bahlika."
+          }
         },
         {
           "n": 13,
-          "text": "एते ह्यपि यथैवाहं मन्तुमर्हसि तांस्तथा ।\nसर्वे धर्मविदो ह्येते तुल्यस्नेहाश्च भारत ॥"
+          "text": "एते ह्यपि यथैवाहं मन्तुमर्हसि तांस्तथा ।\nसर्वे धर्मविदो ह्येते तुल्यस्नेहाश्च भारत ॥",
+          "meaning": {
+            "en": "You should think of them as of me; all know dharma and love you equally, Bharata."
+          }
         },
         {
           "n": 14,
-          "text": "यत्तद्विराटनगरे सह भ्रातृभिरग्रतः ।\nउत्सृज्य गाः सुसंत्रस्तं बलं ते समशीर्यत ॥"
+          "text": "यत्तद्विराटनगरे सह भ्रातृभिरग्रतः ।\nउत्सृज्य गाः सुसंत्रस्तं बलं ते समशीर्यत ॥",
+          "meaning": {
+            "en": "What happened at Virata's city, when your army, terrified, left the cattle and was scattered before the brothers,"
+          }
         },
         {
           "n": 15,
-          "text": "यच्चैव तस्मिन्नगरे श्रूयते महदद्भुतम् ।\nएकस्य च बहूनां च पर्याप्तं तन्निदर्शनम् ॥"
+          "text": "यच्चैव तस्मिन्नगरे श्रूयते महदद्भुतम् ।\nएकस्य च बहूनां च पर्याप्तं तन्निदर्शनम् ॥",
+          "meaning": {
+            "en": "and the great wonder that is told of that city, is enough proof of one against many."
+          }
         },
         {
           "n": 16,
-          "text": "अर्जुनस्तत्तथाकार्षीत्किं पुनः सर्व एव ते ।\nसभ्रातॄनभिजानीहि वृत्त्या च प्रतिपादय ॥"
+          "text": "अर्जुनस्तत्तथाकार्षीत्किं पुनः सर्व एव ते ।\nसभ्रातॄनभिजानीहि वृत्त्या च प्रतिपादय ॥",
+          "meaning": {
+            "en": "Arjuna did that alone; what then if they all come? Know them with their brothers and treat them with due conduct."
+          }
         }
       ]
     }

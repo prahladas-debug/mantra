@@ -22,73 +22,127 @@
       "titleEn": "Abhiniryana Parva (The marching out)",
       "verses": [
         {
-          "text": "जनमेजय उवाच"
+          "text": "जनमेजय उवाच",
+          "meaning": {
+            "en": "Janamejaya said:"
+          }
         },
         {
           "n": 1,
-          "text": "तथा व्यूढेष्वनीकेषु कुरुक्षेत्रे द्विजर्षभ ।\nकिमकुर्वन्त कुरवः कालेनाभिप्रचोदिताः ॥"
+          "text": "तथा व्यूढेष्वनीकेषु कुरुक्षेत्रे द्विजर्षभ ।\nकिमकुर्वन्त कुरवः कालेनाभिप्रचोदिताः ॥",
+          "meaning": {
+            "en": "When the armies were thus arrayed at Kurukshetra, best of the twice-born, what did the Kurus do, driven on by time?"
+          }
         },
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 2,
-          "text": "तथा व्यूढेष्वनीकेषु यत्तेषु भरतर्षभ ।\nधृतराष्ट्रो महाराज संजयं वाक्यमब्रवीत् ॥"
+          "text": "तथा व्यूढेष्वनीकेषु यत्तेषु भरतर्षभ ।\nधृतराष्ट्रो महाराज संजयं वाक्यमब्रवीत् ॥",
+          "meaning": {
+            "en": "When the armies were thus arrayed and ready, best of Bharatas, Dhritarashtra spoke to Sanjaya."
+          }
         },
         {
           "n": 3,
-          "text": "एहि संजय मे सर्वमाचक्ष्वानवशेषतः ।\nसेनानिवेशे यद्वृत्तं कुरुपाण्डवसेनयोः ॥"
+          "text": "एहि संजय मे सर्वमाचक्ष्वानवशेषतः ।\nसेनानिवेशे यद्वृत्तं कुरुपाण्डवसेनयोः ॥",
+          "meaning": {
+            "en": "Come, Sanjaya, tell me everything without omission about what happened in the camps of the Kuru and Pandava armies."
+          }
         },
         {
           "n": 4,
-          "text": "दिष्टमेव परं मन्ये पौरुषं चाप्यनर्थकम् ।\nयदहं जानमानोऽपि युद्धदोषान्क्षयोदयान् ॥"
+          "text": "दिष्टमेव परं मन्ये पौरुषं चाप्यनर्थकम् ।\nयदहं जानमानोऽपि युद्धदोषान्क्षयोदयान् ॥",
+          "meaning": {
+            "en": "I think fate alone is supreme and human effort useless, since although I know the faults of war and the ruin it brings,"
+          }
         },
         {
           "n": 5,
-          "text": "तथापि निकृतिप्रज्ञं पुत्रं दुर्द्यूतदेविनम् ।\nन शक्नोमि नियन्तुं वा कर्तुं वा हितमात्मनः ॥"
+          "text": "तथापि निकृतिप्रज्ञं पुत्रं दुर्द्यूतदेविनम् ।\nन शक्नोमि नियन्तुं वा कर्तुं वा हितमात्मनः ॥",
+          "meaning": {
+            "en": "I still cannot restrain or do what is good for my own son, who is crooked in mind and plays at foul dice."
+          }
         },
         {
           "n": 6,
-          "text": "भवत्येव हि मे सूत बुद्धिर्दोषानुदर्शिनी ।\nदुर्योधनं समासाद्य पुनः सा परिवर्तते ॥"
+          "text": "भवत्येव हि मे सूत बुद्धिर्दोषानुदर्शिनी ।\nदुर्योधनं समासाद्य पुनः सा परिवर्तते ॥",
+          "meaning": {
+            "en": "My mind, charioteer, does see the faults, but when it meets Duryodhana it turns back again."
+          }
         },
         {
           "n": 7,
-          "text": "एवं गते वै यद्भावि तद्भविष्यति संजय ।\nक्षत्रधर्मः किल रणे तनुत्यागोऽभिपूजितः ॥"
+          "text": "एवं गते वै यद्भावि तद्भविष्यति संजय ।\nक्षत्रधर्मः किल रणे तनुत्यागोऽभिपूजितः ॥",
+          "meaning": {
+            "en": "Things being so, what must happen will happen, Sanjaya; death in battle is indeed praised as the duty of a warrior."
+          }
         },
         {
-          "text": "संजय उवाच"
+          "text": "संजय उवाच",
+          "meaning": {
+            "en": "Sanjaya said:"
+          }
         },
         {
           "n": 8,
-          "text": "त्वद्युक्तोऽयमनुप्रश्नो महाराज यथार्हसि ।\nन तु दुर्योधने दोषमिममासक्तुमर्हसि ।\nशृणुष्वानवशेषेण वदतो मम पार्थिव ॥"
+          "text": "त्वद्युक्तोऽयमनुप्रश्नो महाराज यथार्हसि ।\nन तु दुर्योधने दोषमिममासक्तुमर्हसि ।\nशृणुष्वानवशेषेण वदतो मम पार्थिव ॥",
+          "meaning": {
+            "en": "This question is fitting for you, great king, but you should not place this fault on Duryodhana alone. Listen to me as I tell it without omission."
+          }
         },
         {
           "n": 9,
-          "text": "य आत्मनो दुश्चरितादशुभं प्राप्नुयान्नरः ।\nएनसा न स दैवं वा कालं वा गन्तुमर्हति ॥"
+          "text": "य आत्मनो दुश्चरितादशुभं प्राप्नुयान्नरः ।\nएनसा न स दैवं वा कालं वा गन्तुमर्हति ॥",
+          "meaning": {
+            "en": "A man who meets with misfortune through his own wrongdoing should not blame fate or time for his sin."
+          }
         },
         {
           "n": 10,
-          "text": "महाराज मनुष्येषु निन्द्यं यः सर्वमाचरेत् ।\nस वध्यः सर्वलोकस्य निन्दितानि समाचरन् ॥"
+          "text": "महाराज मनुष्येषु निन्द्यं यः सर्वमाचरेत् ।\nस वध्यः सर्वलोकस्य निन्दितानि समाचरन् ॥",
+          "meaning": {
+            "en": "Great king, he who practices every blameworthy act among men deserves death at the hands of all the world."
+          }
         },
         {
           "n": 11,
-          "text": "निकारा मनुजश्रेष्ठ पाण्डवैस्त्वत्प्रतीक्षया ।\nअनुभूताः सहामात्यैर्निकृतैरधिदेवने ॥"
+          "text": "निकारा मनुजश्रेष्ठ पाण्डवैस्त्वत्प्रतीक्षया ।\nअनुभूताः सहामात्यैर्निकृतैरधिदेवने ॥",
+          "meaning": {
+            "en": "Best of men, the Pandavas with their ministers, waiting for you, suffered insults when they were cheated at the gambling."
+          }
         },
         {
           "n": 12,
-          "text": "हयानां च गजानां च राज्ञां चामिततेजसाम् ।\nवैशसं समरे वृत्तं यत्तन्मे शृणु सर्वशः ॥"
+          "text": "हयानां च गजानां च राज्ञां चामिततेजसाम् ।\nवैशसं समरे वृत्तं यत्तन्मे शृणु सर्वशः ॥",
+          "meaning": {
+            "en": "Hear from me in full about the slaughter of horses, elephants and immensely powerful kings that took place in battle."
+          }
         },
         {
           "n": 13,
-          "text": "स्थिरो भूत्वा महाराज सर्वलोकक्षयोदयम् ।\nयथाभूतं महायुद्धे श्रुत्वा मा विमना भव ॥"
+          "text": "स्थिरो भूत्वा महाराज सर्वलोकक्षयोदयम् ।\nयथाभूतं महायुद्धे श्रुत्वा मा विमना भव ॥",
+          "meaning": {
+            "en": "Be steady, great king, and hearing truthfully of this great war's destruction of all the world, do not be downcast."
+          }
         },
         {
           "n": 14,
-          "text": "न ह्येव कर्ता पुरुषः कर्मणोः शुभपापयोः ।\nअस्वतन्त्रो हि पुरुषः कार्यते दारुयन्त्रवत् ॥"
+          "text": "न ह्येव कर्ता पुरुषः कर्मणोः शुभपापयोः ।\nअस्वतन्त्रो हि पुरुषः कार्यते दारुयन्त्रवत् ॥",
+          "meaning": {
+            "en": "For a man is not the doer of good and bad deeds; he is not independent but is made to act like a wooden puppet."
+          }
         },
         {
           "n": 15,
-          "text": "केचिदीश्वरनिर्दिष्टाः केचिदेव यदृच्छया ।\nपूर्वकर्मभिरप्यन्ये त्रैधमेतद्विकृष्यते ॥"
+          "text": "केचिदीश्वरनिर्दिष्टाः केचिदेव यदृच्छया ।\nपूर्वकर्मभिरप्यन्ये त्रैधमेतद्विकृष्यते ॥",
+          "meaning": {
+            "en": "Some say it is ordained by God, some say it is mere chance, and others say it is from past deeds; the world is drawn in these three ways."
+          }
         }
       ]
     }

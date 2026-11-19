@@ -37,6 +37,11 @@ def show(part, unit, en=False):
         if en: print('\tEN: %s' % (v.get('meaning') or {}).get('en', ''))
 
 def merge(part, unit, lang, side):
+    cid = os.environ.get('MB_CHUNK')
+    if cid:
+        c = [x for x in chunks('hi' if cid.startswith('H') else 'en') if x['id'] == cid][0]
+        if int(part) != c['part'] or not c['from'] <= int(unit) <= c['to']:
+            sys.exit('REFUSED: %s/%s is outside chunk %s (%s/%s-%s)' % (part, unit, cid, c['part'], c['from'], c['to']))
     p = path(part, unit)
     rel = os.path.relpath(p, ROOT)
     d = json.load(open(p))

@@ -22,136 +22,238 @@
       "titleEn": "Yanasandhi Parva (Debate on peace)",
       "verses": [
         {
-          "text": "धृतराष्ट्र उवाच"
+          "text": "धृतराष्ट्र उवाच",
+          "meaning": {
+            "en": "Dhritarashtra said:"
+          }
         },
         {
           "n": 1,
-          "text": "यदब्रूतां महात्मानौ वासुदेवधनंजयौ ।\nतन्मे ब्रूहि महाप्राज्ञ शुश्रूषे वचनं तव ॥"
+          "text": "यदब्रूतां महात्मानौ वासुदेवधनंजयौ ।\nतन्मे ब्रूहि महाप्राज्ञ शुश्रूषे वचनं तव ॥",
+          "meaning": {
+            "en": "Tell me what the two great souls, Vasudeva and Dhananjaya, said, most wise Sanjaya; I want to hear your words."
+          }
         },
         {
-          "text": "संजय उवाच"
+          "text": "संजय उवाच",
+          "meaning": {
+            "en": "Sanjaya said:"
+          }
         },
         {
           "n": 2,
-          "text": "शृणु राजन्यथा दृष्टौ मया कृष्णधनंजयौ ।\nऊचतुश्चापि यद्वीरौ तत्ते वक्ष्यामि भारत ॥"
+          "text": "शृणु राजन्यथा दृष्टौ मया कृष्णधनंजयौ ।\nऊचतुश्चापि यद्वीरौ तत्ते वक्ष्यामि भारत ॥",
+          "meaning": {
+            "en": "Hear, king, how I saw Krishna and Dhananjaya and what the heroes said; I shall tell you, Bharata."
+          }
         },
         {
           "n": 3,
-          "text": "पादाङ्गुलीरभिप्रेक्षन्प्रयतोऽहं कृताञ्जलिः ।\nशुद्धान्तं प्राविशं राजन्नाख्यातुं नरदेवयोः ॥"
+          "text": "पादाङ्गुलीरभिप्रेक्षन्प्रयतोऽहं कृताञ्जलिः ।\nशुद्धान्तं प्राविशं राजन्नाख्यातुं नरदेवयोः ॥",
+          "meaning": {
+            "en": "Looking at my toes, self-controlled, hands joined, I entered the inner apartment to deliver the message to the two lords of men."
+          }
         },
         {
           "n": 4,
-          "text": "नैवाभिमन्युर्न यमौ तं देशमभियान्ति वै ।\nयत्र कृष्णौ च कृष्णा च सत्यभामा च भामिनी ॥"
+          "text": "नैवाभिमन्युर्न यमौ तं देशमभियान्ति वै ।\nयत्र कृष्णौ च कृष्णा च सत्यभामा च भामिनी ॥",
+          "meaning": {
+            "en": "Neither Abhimanyu nor the twins go to that place where the two Krishnas, Krishna Draupadi and fair Satyabhama were."
+          }
         },
         {
           "n": 5,
-          "text": "उभौ मध्वासवक्षीबावुभौ चन्दनरूषितौ ।\nस्रग्विणौ वरवस्त्रौ तौ दिव्याभरणभूषितौ ॥"
+          "text": "उभौ मध्वासवक्षीबावुभौ चन्दनरूषितौ ।\nस्रग्विणौ वरवस्त्रौ तौ दिव्याभरणभूषितौ ॥",
+          "meaning": {
+            "en": "Both were flushed with honey wine, both anointed with sandalwood, garlanded, in fine clothes, adorned with divine ornaments."
+          }
         },
         {
           "n": 6,
-          "text": "नैकरत्नविचित्रं तु काञ्चनं महदासनम् ।\nविविधास्तरणास्तीर्णं यत्रासातामरिंदमौ ॥"
+          "text": "नैकरत्नविचित्रं तु काञ्चनं महदासनम् ।\nविविधास्तरणास्तीर्णं यत्रासातामरिंदमौ ॥",
+          "meaning": {
+            "en": "They sat on a great golden seat, bright with many jewels, spread with various coverings."
+          }
         },
         {
           "n": 7,
-          "text": "अर्जुनोत्सङ्गगौ पादौ केशवस्योपलक्षये ।\nअर्जुनस्य च कृष्णायां सत्यायां च महात्मनः ॥"
+          "text": "अर्जुनोत्सङ्गगौ पादौ केशवस्योपलक्षये ।\nअर्जुनस्य च कृष्णायां सत्यायां च महात्मनः ॥",
+          "meaning": {
+            "en": "I noticed Keshava's feet in Arjuna's lap, and Arjuna's in Krishna's and in Satyabhama's."
+          }
         },
         {
           "n": 8,
-          "text": "काञ्चनं पादपीठं तु पार्थो मे प्रादिशत्तदा ।\nतदहं पाणिना स्पृष्ट्वा ततो भूमावुपाविशम् ॥"
+          "text": "काञ्चनं पादपीठं तु पार्थो मे प्रादिशत्तदा ।\nतदहं पाणिना स्पृष्ट्वा ततो भूमावुपाविशम् ॥",
+          "meaning": {
+            "en": "Partha offered me a golden footstool; I touched it with my hand and sat on the ground."
+          }
         },
         {
           "n": 9,
-          "text": "ऊर्ध्वरेखतलौ पादौ पार्थस्य शुभलक्षणौ ।\nपादपीठादपहृतौ तत्रापश्यमहं शुभौ ॥"
+          "text": "ऊर्ध्वरेखतलौ पादौ पार्थस्य शुभलक्षणौ ।\nपादपीठादपहृतौ तत्रापश्यमहं शुभौ ॥",
+          "meaning": {
+            "en": "There I saw Partha's lucky feet, with upward lines on the soles, drawn back from the footstool."
+          }
         },
         {
           "n": 10,
-          "text": "श्यामौ बृहन्तौ तरुणौ शालस्कन्धाविवोद्गतौ ।\nएकासनगतौ दृष्ट्वा भयं मां महदाविशत् ॥"
+          "text": "श्यामौ बृहन्तौ तरुणौ शालस्कन्धाविवोद्गतौ ।\nएकासनगतौ दृष्ट्वा भयं मां महदाविशत् ॥",
+          "meaning": {
+            "en": "Seeing the dark, tall, young pair, shoulders like sal trees, sitting on one seat, great fear came upon me."
+          }
         },
         {
           "n": 11,
-          "text": "इन्द्रविष्णुसमावेतौ मन्दात्मा नावबुध्यते ।\nसंश्रयाद्द्रोणभीष्माभ्यां कर्णस्य च विकत्थनात् ॥"
+          "text": "इन्द्रविष्णुसमावेतौ मन्दात्मा नावबुध्यते ।\nसंश्रयाद्द्रोणभीष्माभ्यां कर्णस्य च विकत्थनात् ॥",
+          "meaning": {
+            "en": "The dull-minded one does not see these two as equal to Indra and Vishnu, relying on Drona and Bhishma and Karna's boasting."
+          }
         },
         {
           "n": 12,
-          "text": "निदेशस्थाविमौ यस्य मानसस्तस्य सेत्स्यते ।\nसंकल्पो धर्मराजस्य निश्चयो मे तदाभवत् ॥"
+          "text": "निदेशस्थाविमौ यस्य मानसस्तस्य सेत्स्यते ।\nसंकल्पो धर्मराजस्य निश्चयो मे तदाभवत् ॥",
+          "meaning": {
+            "en": "I became certain that the king of dharma's resolve would succeed, he whose will those two obey."
+          }
         },
         {
           "n": 13,
-          "text": "सत्कृतश्चान्नपानाभ्यामाच्छन्नो लब्धसत्क्रियः ।\nअञ्जलिं मूर्ध्नि संधाय तौ संदेशमचोदयम् ॥"
+          "text": "सत्कृतश्चान्नपानाभ्यामाच्छन्नो लब्धसत्क्रियः ।\nअञ्जलिं मूर्ध्नि संधाय तौ संदेशमचोदयम् ॥",
+          "meaning": {
+            "en": "Honoured with food and drink, clothed and received with honour, I put my joined hands on my head and urged them to hear the message."
+          }
         },
         {
           "n": 14,
-          "text": "धनुर्बाणोचितेनैकपाणिना शुभलक्षणम् ।\nपादमानमयन्पार्थः केशवं समचोदयत् ॥"
+          "text": "धनुर्बाणोचितेनैकपाणिना शुभलक्षणम् ।\nपादमानमयन्पार्थः केशवं समचोदयत् ॥",
+          "meaning": {
+            "en": "With one hand used to bow and arrows, Partha bowed Keshava's lucky-marked foot and urged him to speak."
+          }
         },
         {
           "n": 15,
-          "text": "इन्द्रकेतुरिवोत्थाय सर्वाभरणभूषितः ।\nइन्द्रवीर्योपमः कृष्णः संविष्टो माभ्यभाषत ॥"
+          "text": "इन्द्रकेतुरिवोत्थाय सर्वाभरणभूषितः ।\nइन्द्रवीर्योपमः कृष्णः संविष्टो माभ्यभाषत ॥",
+          "meaning": {
+            "en": "Rising like Indra's banner, adorned with all ornaments, Krishna, equal to Indra in valour, sat down and addressed me."
+          }
         },
         {
           "n": 16,
-          "text": "वाचं स वदतां श्रेष्ठो ह्लादिनीं वचनक्षमाम् ।\nत्रासनीं धार्तराष्ट्राणां मृदुपूर्वां सुदारुणाम् ॥"
+          "text": "वाचं स वदतां श्रेष्ठो ह्लादिनीं वचनक्षमाम् ।\nत्रासनीं धार्तराष्ट्राणां मृदुपूर्वां सुदारुणाम् ॥",
+          "meaning": {
+            "en": "That best of speakers spoke words pleasing yet bearable, gentle at first but most terrible, frightening to Dhritarashtra's sons."
+          }
         },
         {
           "n": 17,
-          "text": "वाचं तां वचनार्हस्य शिक्षाक्षरसमन्विताम् ।\nअश्रौषमहमिष्टार्थां पश्चाद्धृदयशोषिणीम् ॥"
+          "text": "वाचं तां वचनार्हस्य शिक्षाक्षरसमन्विताम् ।\nअश्रौषमहमिष्टार्थां पश्चाद्धृदयशोषिणीम् ॥",
+          "meaning": {
+            "en": "I heard those words, fit for one worthy of speech, full of training and syllables, suited to its goal, afterwards drying up the heart."
+          }
         },
         {
-          "text": "वासुदेव उवाच"
+          "text": "वासुदेव उवाच",
+          "meaning": {
+            "en": "Vasudeva said:"
+          }
         },
         {
           "n": 18,
-          "text": "संजयेदं वचो ब्रूया धृतराष्ट्रं मनीषिणम् ।\nशृण्वतः कुरुमुख्यस्य द्रोणस्यापि च शृण्वतः ॥"
+          "text": "संजयेदं वचो ब्रूया धृतराष्ट्रं मनीषिणम् ।\nशृण्वतः कुरुमुख्यस्य द्रोणस्यापि च शृण्वतः ॥",
+          "meaning": {
+            "en": "Sanjaya, say these words to wise Dhritarashtra, in the hearing of the chief of the Kurus and of Drona too:"
+          }
         },
         {
           "n": 19,
-          "text": "यजध्वं विपुलैर्यज्ञैर्विप्रेभ्यो दत्त दक्षिणाः ।\nपुत्रैर्दारैश्च मोदध्वं महद्वो भयमागतम् ॥"
+          "text": "यजध्वं विपुलैर्यज्ञैर्विप्रेभ्यो दत्त दक्षिणाः ।\nपुत्रैर्दारैश्च मोदध्वं महद्वो भयमागतम् ॥",
+          "meaning": {
+            "en": "\"Perform great sacrifices, give gifts to Brahmins, delight in sons and wives, for great fear has come on you."
+          }
         },
         {
           "n": 20,
-          "text": "अर्थांस्त्यजत पात्रेभ्यः सुतान्प्राप्नुत कामजान् ।\nप्रियं प्रियेभ्यश्चरत राजा हि त्वरते जये ॥"
+          "text": "अर्थांस्त्यजत पात्रेभ्यः सुतान्प्राप्नुत कामजान् ।\nप्रियं प्रियेभ्यश्चरत राजा हि त्वरते जये ॥",
+          "meaning": {
+            "en": "Give up your wealth to the worthy, obtain sons of your desire, do what is dear to your dear ones, for the king hurries to victory."
+          }
         },
         {
           "n": 21,
-          "text": "ऋणमेतत्प्रवृद्धं मे हृदयान्नापसर्पति ।\nयद्गोविन्देति चुक्रोश कृष्णा मां दूरवासिनम् ॥"
+          "text": "ऋणमेतत्प्रवृद्धं मे हृदयान्नापसर्पति ।\nयद्गोविन्देति चुक्रोश कृष्णा मां दूरवासिनम् ॥",
+          "meaning": {
+            "en": "This growing debt of mine does not leave my heart, that Krishna called 'Govinda!' to me when I dwelt far away."
+          }
         },
         {
           "n": 22,
-          "text": "तेजोमयं दुराधर्षं गाण्डीवं यस्य कार्मुकम् ।\nमद्द्वितीयेन तेनेह वैरं वः सव्यसाचिना ॥"
+          "text": "तेजोमयं दुराधर्षं गाण्डीवं यस्य कार्मुकम् ।\nमद्द्वितीयेन तेनेह वैरं वः सव्यसाचिना ॥",
+          "meaning": {
+            "en": "The Gandiva bow of that man is radiant and unassailable; your feud is with Savyasachin who has me as his second."
+          }
         },
         {
           "n": 23,
-          "text": "मद्द्वितीयं पुनः पार्थं कः प्रार्थयितुमिच्छति ।\nयो न कालपरीतो वाप्यपि साक्षात्पुरंदरः ॥"
+          "text": "मद्द्वितीयं पुनः पार्थं कः प्रार्थयितुमिच्छति ।\nयो न कालपरीतो वाप्यपि साक्षात्पुरंदरः ॥",
+          "meaning": {
+            "en": "Who wishes to challenge Partha who has me as his second, unless caught by Time, or even Purandara himself?"
+          }
         },
         {
           "n": 24,
-          "text": "बाहुभ्यामुद्वहेद्भूमिं दहेत्क्रुद्ध इमाः प्रजाः ।\nपातयेत्त्रिदिवाद्देवान्योऽर्जुनं समरे जयेत् ॥"
+          "text": "बाहुभ्यामुद्वहेद्भूमिं दहेत्क्रुद्ध इमाः प्रजाः ।\nपातयेत्त्रिदिवाद्देवान्योऽर्जुनं समरे जयेत् ॥",
+          "meaning": {
+            "en": "Whoever could defeat Arjuna in battle might carry the earth on his arms, burn these creatures in anger, and cast the gods down from heaven."
+          }
         },
         {
           "n": 25,
-          "text": "देवासुरमनुष्येषु यक्षगन्धर्वभोगिषु ।\nन तं पश्याम्यहं युद्धे पाण्डवं योऽभ्ययाद्रणे ॥"
+          "text": "देवासुरमनुष्येषु यक्षगन्धर्वभोगिषु ।\nन तं पश्याम्यहं युद्धे पाण्डवं योऽभ्ययाद्रणे ॥",
+          "meaning": {
+            "en": "Among gods, asuras and men, yakshas, gandharvas and nagas, I see no one in battle who could face the Pandava."
+          }
         },
         {
           "n": 26,
-          "text": "यत्तद्विराटनगरे श्रूयते महदद्भुतम् ।\nएकस्य च बहूनां च पर्याप्तं तन्निदर्शनम् ॥"
+          "text": "यत्तद्विराटनगरे श्रूयते महदद्भुतम् ।\nएकस्य च बहूनां च पर्याप्तं तन्निदर्शनम् ॥",
+          "meaning": {
+            "en": "The great wonder heard of at Virata's city is evidence enough of one against many."
+          }
         },
         {
           "n": 27,
-          "text": "एकेन पाण्डुपुत्रेण विराटनगरे यदा ।\nभग्नाः पलायन्त दिशः पर्याप्तं तन्निदर्शनम् ॥"
+          "text": "एकेन पाण्डुपुत्रेण विराटनगरे यदा ।\nभग्नाः पलायन्त दिशः पर्याप्तं तन्निदर्शनम् ॥",
+          "meaning": {
+            "en": "When the Pandava alone at Virata's city made all flee scattered in the directions, that is evidence enough."
+          }
         },
         {
           "n": 28,
-          "text": "बलं वीर्यं च तेजश्च शीघ्रता लघुहस्तता ।\nअविषादश्च धैर्यं च पार्थान्नान्यत्र विद्यते ॥"
+          "text": "बलं वीर्यं च तेजश्च शीघ्रता लघुहस्तता ।\nअविषादश्च धैर्यं च पार्थान्नान्यत्र विद्यते ॥",
+          "meaning": {
+            "en": "Strength, valour, splendour, quickness, lightness of hand, freedom from despair and steadiness are found nowhere but in Partha.\""
+          }
         },
         {
-          "text": "संजय उवाच"
+          "text": "संजय उवाच",
+          "meaning": {
+            "en": "Sanjaya said:"
+          }
         },
         {
           "n": 29,
-          "text": "इत्यब्रवीद्धृषीकेशः पार्थमुद्धर्षयन्गिरा ।\nगर्जन्समयवर्षीव गगने पाकशासनः ॥"
+          "text": "इत्यब्रवीद्धृषीकेशः पार्थमुद्धर्षयन्गिरा ।\nगर्जन्समयवर्षीव गगने पाकशासनः ॥",
+          "meaning": {
+            "en": "So Hrishikesha spoke, cheering Partha with his speech, thundering like Indra in the sky, who rains in due season."
+          }
         },
         {
           "n": 30,
-          "text": "केशवस्य वचः श्रुत्वा किरीटी श्वेतवाहनः ।\nअर्जुनस्तन्महद्वाक्यमब्रवील्लोमहर्षणम् ॥"
+          "text": "केशवस्य वचः श्रुत्वा किरीटी श्वेतवाहनः ।\nअर्जुनस्तन्महद्वाक्यमब्रवील्लोमहर्षणम् ॥",
+          "meaning": {
+            "en": "Hearing Keshava's words, the diadem-wearer Arjuna of the white horses spoke these hair-raising great words."
+          }
         }
       ]
     }
