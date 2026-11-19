@@ -26,6 +26,29 @@ Sidecars go in your own folder in the scratchpad (given in your brief), never in
 - An address to the listener ("O son of Kunti", "Bharata", "king") stays an address: "हे कुन्तीपुत्र, …".
   Never make it the doer with ने ("माता कुन्तीपुत्र ने" is wrong).
 
+## Kannada (Haiku), lang `kn`
+- Translate the English meaning into clear, natural modern Kannada prose (the register of the app's Ramayana
+  meanings: "ಅಲ್ಲಿ ಅವನು ಅಣ್ಣನೊಡನೆ ವಾಸಿಸಿದನು; ಮಾವ ಅಶ್ವಪತಿಯು ಸತ್ಕರಿಸಿ …"). Same sense and length; add nothing,
+  leave nothing out. Kannada script only: no Latin letters, no Devanagari (। ॥ allowed but not needed).
+- Names in their usual Kannada forms with case endings: ಯುಧಿಷ್ಠಿರ, ಭೀಮಸೇನ, ಅರ್ಜುನ, ದ್ರೌಪದಿ, ಧೃತರಾಷ್ಟ್ರ, ದುರ್ಯೋಧನ,
+  ಕೃಷ್ಣ, ಭೀಷ್ಮ, ದ್ರೋಣ, ಕರ್ಣ, ವೈಶಂಪಾಯನ, ಜನಮೇಜಯ, ಸಂಜಯ; the Kauravas are ಕೌರವರು, the Pandavas ಪಾಂಡವರು.
+  "X said:" is "X ಹೇಳಿದನು:" (ಹೇಳಿದಳು for a woman). An address stays an address: "ಕುಂತೀಪುತ್ರನೇ, …", "ರಾಜನೇ, …".
+- Use `show <part> <unit> --en`; read the Sanskrit alongside for names and terms, but follow the English for sense.
+- An epithet beside a name is the same person: "the great-souled Karna, son of Kunti" is "ಕುಂತೀಪುತ್ರ ಮಹಾತ್ಮ ಕರ್ಣನನ್ನು",
+  never two people joined with ಊ ("ಕರ್ಣನನ್ನೂ … ಕುಂತಿಪುತ್ರನನ್ನೂ" is wrong).
+
+## Telugu (Haiku), lang `te`
+- Translate the English meaning into clear, natural modern Telugu prose (the register of the app's Ramayana
+  meanings: "అక్కడ అతడు అన్నతో కలిసి నివసించాడు; మేనమామ అశ్వపతి అతనిని సత్కరించి …"). Same sense and length;
+  add nothing, leave nothing out. Telugu script only: no Latin letters, no Devanagari.
+- Names in their usual Telugu forms: యుధిష్ఠిరుడు, భీమసేనుడు, అర్జునుడు, ద్రౌపది, ధృతరాష్ట్రుడు, దుర్యోధనుడు,
+  కృష్ణుడు, భీష్ముడు, ద్రోణుడు, కర్ణుడు, వైశంపాయనుడు, జనమేజయుడు, సంజయుడు; the Kauravas are కౌరవులు, the
+  Pandavas పాండవులు. "X said:" is "X ఇలా అన్నాడు:" (అన్నది for a woman). An address stays an address:
+  "కుంతీపుత్రా, …", "రాజా, …".
+- Use `show <part> <unit> --en`; read the Sanskrit alongside for names and terms, but follow the English for sense.
+- An epithet beside a name is the same person: "the great-souled Karna, son of Kunti" is "కుంతీపుత్రుడైన మహాత్ముడు కర్ణుని",
+  never two people joined with ను ("కర్ణుని, కుంతీపుత్రుని" as two is wrong).
+
 ## After your chunk
 Run `python3 -I tools/builders/mahabharata/meanings/mbm.py status` (the coordinator runs the full build).
 Don't touch any other file; no git commands that change state; no prettier. Report: units done, verses,

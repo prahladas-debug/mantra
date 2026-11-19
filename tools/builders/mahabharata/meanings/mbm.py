@@ -44,7 +44,7 @@ def show(part, unit, en=False):
 def merge(part, unit, lang, side):
     cid = os.environ.get('MB_CHUNK')
     if cid:
-        c = [x for x in chunks('hi' if cid.startswith('H') else 'en') if x['id'] == cid][0]
+        c = [x for x in chunks({'E': 'en', 'H': 'hi', 'K': 'kn', 'T': 'te', 'A': 'ta', 'M': 'ml'}[cid[0]]) if x['id'] == cid][0]
         if int(part) != c['part'] or not c['from'] <= int(unit) <= c['to']:
             sys.exit('REFUSED: %s/%s is outside chunk %s (%s/%s-%s)' % (part, unit, cid, c['part'], c['from'], c['to']))
     p = path(part, unit)
@@ -59,7 +59,12 @@ def merge(part, unit, lang, side):
     miss = [k for k in keys if not str(m.get(k, '')).strip()]
     extra = [k for k in m if k not in keys]
     if miss or extra: sys.exit('REFUSED: missing %s extra %s' % (miss[:10], extra[:10]))
-    if lang == 'hi' and any(ch.isascii() and ch.isalpha() for k in keys for ch in m[k]): sys.exit('REFUSED: Latin letters in hi')
+    if lang != 'en' and any(ch.isascii() and ch.isalpha() for k in keys for ch in m[k]): sys.exit('REFUSED: Latin letters in ' + lang)
+    if lang in SCRIPT:
+        lo, hi_ = SCRIPT[lang]
+        bad = [k for k in keys if not any(lo <= ch <= hi_ for ch in m[k])]
+        if bad: sys.exit('REFUSED: no %s script in %s' % (lang, bad[:10]))
+        if lang != 'hi' and any('\u0900' <= ch <= '\u097f' and ch not in '\u0964\u0965' for k in keys for ch in m[k]): sys.exit('REFUSED: Devanagari in ' + lang)
     import re
     if any(re.match(r'\s*\d+\s*[|)\t]', m[k]) or '|' in m[k] for k in keys): sys.exit('REFUSED: a meaning carries a number prefix or | separator')
     if lang == 'en' and any('ऀ' <= ch <= 'ॿ' for k in keys for ch in m[k]): sys.exit('REFUSED: Devanagari in en')
@@ -85,13 +90,16 @@ def fix(fp):
         for f in fs:
             k, lang, t = f['key'], f['lang'], f['text'].strip()
             if k not in vs: sys.exit('REFUSED: no key %s in %s/%s' % (k, part, unit))
-            if lang not in ('en', 'hi') or not t: sys.exit('REFUSED: bad lang or empty text')
-            if lang == 'hi' and any(ch.isascii() and ch.isalpha() for ch in t): sys.exit('REFUSED: Latin letters in hi %s/%s %s' % (part, unit, k))
+            if lang not in ('en', 'hi', 'kn', 'te', 'ta', 'ml') or not t: sys.exit('REFUSED: bad lang or empty text')
+            if lang != 'en' and any(ch.isascii() and ch.isalpha() for ch in t): sys.exit('REFUSED: Latin letters in %s %s/%s %s' % (lang, part, unit, k))
             if lang == 'en' and any('\u0900' <= ch <= '\u097f' for ch in t): sys.exit('REFUSED: Devanagari in en %s/%s %s' % (part, unit, k))
             m = vs[k].setdefault('meaning', {})
             print('%s/%s %s %s\n  - %s\n  + %s' % (part, unit, k, lang, m.get(lang, ''), t))
             m[lang] = t
         open(p, 'w').write(json.dumps(d, ensure_ascii=False, indent=2) + '\n')
+
+SCRIPT = {'hi': ('\u0900', '\u097f'), 'kn': ('\u0c80', '\u0cff'), 'te': ('\u0c00', '\u0c7f'),
+          'ta': ('\u0b80', '\u0bff'), 'ml': ('\u0d00', '\u0d7f')}
 
 def chunks(lang):
     return json.load(open(os.path.join(HERE, 'chunks.json')))[lang]
@@ -104,7 +112,7 @@ def status():
             tot += 1; m = v.get('meaning') or {}
             en += bool(m.get('en')); hi += bool(m.get('hi'))
     print('verses %d  en %d  hi %d' % (tot, en, hi))
-    for lang in ('en', 'hi'):
+    for lang in ('en', 'hi', 'kn', 'te', 'ta', 'ml'):
         done = []
         for c in chunks(lang):
             ok = all(all((v.get('meaning') or {}).get(lang) for _, v in verses(json.load(open(path(c['part'], u))))) for u in range(c['from'], c['to'] + 1))
