@@ -22,83 +22,143 @@
       "titleEn": "Abhiniryana Parva (The marching out)",
       "verses": [
         {
-          "text": "वासुदेव उवाच"
+          "text": "वासुदेव उवाच",
+          "meaning": {
+            "en": "Vasudeva said:"
+          }
         },
         {
           "n": 1,
-          "text": "एवमुक्ते तु भीष्मेण द्रोणेन विदुरेण च ।\nगान्धार्या धृतराष्ट्रेण न च मन्दोऽन्वबुध्यत ॥"
+          "text": "एवमुक्ते तु भीष्मेण द्रोणेन विदुरेण च ।\nगान्धार्या धृतराष्ट्रेण न च मन्दोऽन्वबुध्यत ॥",
+          "meaning": {
+            "en": "Though Bhishma, Drona, Vidura, Gandhari and Dhritarashtra spoke thus, the fool did not understand."
+          }
         },
         {
           "n": 2,
-          "text": "अवधूयोत्थितः क्रुद्धो रोषात्संरक्तलोचनः ।\nअन्वद्रवन्त तं पश्चाद्राजानस्त्यक्तजीविताः ॥"
+          "text": "अवधूयोत्थितः क्रुद्धो रोषात्संरक्तलोचनः ।\nअन्वद्रवन्त तं पश्चाद्राजानस्त्यक्तजीविताः ॥",
+          "meaning": {
+            "en": "Angry, he shook them off and rose, his eyes red with rage, and the kings, ready to give up their lives, ran after him."
+          }
         },
         {
           "n": 3,
-          "text": "अज्ञापयच्च राज्ञस्तान्पार्थिवान्दुष्टचेतसः ।\nप्रयाध्वं वै कुरुक्षेत्रं पुष्योऽद्येति पुनः पुनः ॥"
+          "text": "अज्ञापयच्च राज्ञस्तान्पार्थिवान्दुष्टचेतसः ।\nप्रयाध्वं वै कुरुक्षेत्रं पुष्योऽद्येति पुनः पुनः ॥",
+          "meaning": {
+            "en": "The kings with wicked minds were told by him again and again: \"Set out for Kurukshetra; today is the Pushya day.\""
+          }
         },
         {
           "n": 4,
-          "text": "ततस्ते पृथिवीपालाः प्रययुः सहसैनिकाः ।\nभीष्मं सेनापतिं कृत्वा संहृष्टाः कालचोदिताः ॥"
+          "text": "ततस्ते पृथिवीपालाः प्रययुः सहसैनिकाः ।\nभीष्मं सेनापतिं कृत्वा संहृष्टाः कालचोदिताः ॥",
+          "meaning": {
+            "en": "Then those rulers of the earth set out with their armies, cheerful and driven by time, having made Bhishma their general."
+          }
         },
         {
           "n": 5,
-          "text": "अक्षौहिण्यो दशैका च पार्थिवानां समागताः ।\nतासां प्रमुखतो भीष्मस्तालकेतुर्व्यरोचत ।\nयदत्र युक्तं प्राप्तं च तद्विधत्स्व विशां पते ॥"
+          "text": "अक्षौहिण्यो दशैका च पार्थिवानां समागताः ।\nतासां प्रमुखतो भीष्मस्तालकेतुर्व्यरोचत ।\nयदत्र युक्तं प्राप्तं च तद्विधत्स्व विशां पते ॥",
+          "meaning": {
+            "en": "Eleven akshauhinis of kings have assembled, and at the head of them shone Bhishma, with the palm banner. Do now, lord of the people, what is fitting and called for here."
+          }
         },
         {
           "n": 6,
-          "text": "उक्तं भीष्मेण यद्वाक्यं द्रोणेन विदुरेण च ।\nगान्धार्या धृतराष्ट्रेण समक्षं मम भारत ।\nएतत्ते कथितं राजन्यद्वृत्तं कुरुसंसदि ॥"
+          "text": "उक्तं भीष्मेण यद्वाक्यं द्रोणेन विदुरेण च ।\nगान्धार्या धृतराष्ट्रेण समक्षं मम भारत ।\nएतत्ते कथितं राजन्यद्वृत्तं कुरुसंसदि ॥",
+          "meaning": {
+            "en": "King Bharata, I have told you what Bhishma said, and Drona, Vidura, Gandhari and Dhritarashtra, in my presence, and what took place in the Kuru assembly."
+          }
         },
         {
           "n": 7,
-          "text": "साम आदौ प्रयुक्तं मे राजन्सौभ्रात्रमिच्छता ।\nअभेदात्कुरुवंशस्य प्रजानां च विवृद्धये ॥"
+          "text": "साम आदौ प्रयुक्तं मे राजन्सौभ्रात्रमिच्छता ।\nअभेदात्कुरुवंशस्य प्रजानां च विवृद्धये ॥",
+          "meaning": {
+            "en": "King, first I used conciliation, wishing for brotherhood, so the Kuru line would remain whole and the people prosper."
+          }
         },
         {
           "n": 8,
-          "text": "पुनर्भेदश्च मे युक्तो यदा साम न गृह्यते ।\nकर्मानुकीर्तनं चैव देवमानुषसंहितम् ॥"
+          "text": "पुनर्भेदश्च मे युक्तो यदा साम न गृह्यते ।\nकर्मानुकीर्तनं चैव देवमानुषसंहितम् ॥",
+          "meaning": {
+            "en": "When conciliation was not accepted, I turned next to division and recited deeds that joined gods and men."
+          }
         },
         {
           "n": 9,
-          "text": "यदा नाद्रियते वाक्यं सामपूर्वं सुयोधनः ।\nतदा मया समानीय भेदिताः सर्वपार्थिवाः ॥"
+          "text": "यदा नाद्रियते वाक्यं सामपूर्वं सुयोधनः ।\nतदा मया समानीय भेदिताः सर्वपार्थिवाः ॥",
+          "meaning": {
+            "en": "When Suyodhana did not respect words prefaced with conciliation, I gathered all the kings together and turned them against him."
+          }
         },
         {
           "n": 10,
-          "text": "अद्भुतानि च घोराणि दारुणानि च भारत ।\nअमानुषाणि कर्माणि दर्शितानि च मे विभो ॥"
+          "text": "अद्भुतानि च घोराणि दारुणानि च भारत ।\nअमानुषाणि कर्माणि दर्शितानि च मे विभो ॥",
+          "meaning": {
+            "en": "Mighty one, I also showed wonderful, terrible, harsh, superhuman acts."
+          }
         },
         {
           "n": 11,
-          "text": "भर्त्सयित्वा तु राज्ञस्तांस्तृणीकृत्य सुयोधनम् ।\nराधेयं भीषयित्वा च सौबलं च पुनः पुनः ॥"
+          "text": "भर्त्सयित्वा तु राज्ञस्तांस्तृणीकृत्य सुयोधनम् ।\nराधेयं भीषयित्वा च सौबलं च पुनः पुनः ॥",
+          "meaning": {
+            "en": "Having rebuked those kings, made Suyodhana seem a straw, repeatedly frightened Radha's son and Shakuni son of Subala,"
+          }
         },
         {
           "n": 12,
-          "text": "न्यूनतां धार्तराष्ट्राणां निन्दां चैव पुनः पुनः ।\nभेदयित्वा नृपान्सर्वान्वाग्भिर्मन्त्रेण चासकृत् ॥"
+          "text": "न्यूनतां धार्तराष्ट्राणां निन्दां चैव पुनः पुनः ।\nभेदयित्वा नृपान्सर्वान्वाग्भिर्मन्त्रेण चासकृत् ॥",
+          "meaning": {
+            "en": "and again and again spoken of the Dhartarashtras' deficiency and shame, I divided all the kings with my words and counsel, many times."
+          }
         },
         {
           "n": 13,
-          "text": "पुनः सामाभिसंयुक्तं संप्रदानमथाब्रुवम् ।\nअभेदात्कुरुवंशस्य कार्ययोगात्तथैव च ॥"
+          "text": "पुनः सामाभिसंयुक्तं संप्रदानमथाब्रुवम् ।\nअभेदात्कुरुवंशस्य कार्ययोगात्तथैव च ॥",
+          "meaning": {
+            "en": "Then I spoke again, joining conciliation with an offer of terms, to keep the Kuru line whole and also to serve our purpose."
+          }
         },
         {
           "n": 14,
-          "text": "ते बाला धृतराष्ट्रस्य भीष्मस्य विदुरस्य च ।\nतिष्ठेयुः पाण्डवाः सर्वे हित्वा मानमधश्चराः ॥"
+          "text": "ते बाला धृतराष्ट्रस्य भीष्मस्य विदुरस्य च ।\nतिष्ठेयुः पाण्डवाः सर्वे हित्वा मानमधश्चराः ॥",
+          "meaning": {
+            "en": "I said: \"Let those boys, all the Pandavas, remain under Dhritarashtra, Bhishma and Vidura, setting pride aside and walking below them."
+          }
         },
         {
           "n": 15,
-          "text": "प्रयच्छन्तु च ते राज्यमनीशास्ते भवन्तु च ।\nयथाह राजा गाङ्गेयो विदुरश्च तथास्तु तत् ॥"
+          "text": "प्रयच्छन्तु च ते राज्यमनीशास्ते भवन्तु च ।\nयथाह राजा गाङ्गेयो विदुरश्च तथास्तु तत् ॥",
+          "meaning": {
+            "en": "Let them give up the kingdom and be powerless; let it be as King Bhishma, son of Ganga, and Vidura say."
+          }
         },
         {
           "n": 16,
-          "text": "सर्वं भवतु ते राज्यं पञ्च ग्रामान्विसर्जय ।\nअवश्यं भरणीया हि पितुस्ते राजसत्तम ॥"
+          "text": "सर्वं भवतु ते राज्यं पञ्च ग्रामान्विसर्जय ।\nअवश्यं भरणीया हि पितुस्ते राजसत्तम ॥",
+          "meaning": {
+            "en": "Let the whole kingdom be yours; but give up five villages. Your father, best of kings, must surely be supported.\""
+          }
         },
         {
           "n": 17,
-          "text": "एवमुक्तस्तु दुष्टात्मा नैव भावं व्यमुञ्चत ।\nदण्डं चतुर्थं पश्यामि तेषु पापेषु नान्यथा ॥"
+          "text": "एवमुक्तस्तु दुष्टात्मा नैव भावं व्यमुञ्चत ।\nदण्डं चतुर्थं पश्यामि तेषु पापेषु नान्यथा ॥",
+          "meaning": {
+            "en": "Though spoken to thus, the wicked-hearted one did not give up his intent. I see the fourth means, force, against those sinners, and no other."
+          }
         },
         {
           "n": 18,
-          "text": "निर्याताश्च विनाशाय कुरुक्षेत्रं नराधिपाः ।\nएतत्ते कथितं सर्वं यद्वृत्तं कुरुसंसदि ॥"
+          "text": "निर्याताश्च विनाशाय कुरुक्षेत्रं नराधिपाः ।\nएतत्ते कथितं सर्वं यद्वृत्तं कुरुसंसदि ॥",
+          "meaning": {
+            "en": "The kings have set out for Kurukshetra to their destruction. I have told you all that happened in the Kuru assembly."
+          }
         },
         {
           "n": 19,
-          "text": "न ते राज्यं प्रयच्छन्ति विना युद्धेन पाण्डव ।\nविनाशहेतवः सर्वे प्रत्युपस्थितमृत्यवः ॥"
+          "text": "न ते राज्यं प्रयच्छन्ति विना युद्धेन पाण्डव ।\nविनाशहेतवः सर्वे प्रत्युपस्थितमृत्यवः ॥",
+          "meaning": {
+            "en": "Pandava, they will not give you the kingdom without war. All of them are causes of destruction, with death standing before them.\""
+          }
         }
       ]
     }

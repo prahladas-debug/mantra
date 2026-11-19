@@ -22,98 +22,170 @@
       "titleEn": "Ambopakhyana Parva (The story of Amba)",
       "verses": [
         {
-          "text": "दुर्योधन उवाच"
+          "text": "दुर्योधन उवाच",
+          "meaning": {
+            "en": "Duryodhana said:"
+          }
         },
         {
           "n": 1,
-          "text": "किमर्थं भरतश्रेष्ठ न हन्यास्त्वं शिखण्डिनम् ।\nउद्यतेषुमथो दृष्ट्वा समरेष्वाततायिनम् ॥"
+          "text": "किमर्थं भरतश्रेष्ठ न हन्यास्त्वं शिखण्डिनम् ।\nउद्यतेषुमथो दृष्ट्वा समरेष्वाततायिनम् ॥",
+          "meaning": {
+            "en": "Why, best of Bharatas, would you not kill Shikhandin when you see him in battle with arrow raised and ready to strike?"
+          }
         },
         {
           "n": 2,
-          "text": "पूर्वमुक्त्वा महाबाहो पाण्डवान्सह सोमकैः ।\nवधिष्यामीति गाङ्गेय तन्मे ब्रूहि पितामह ॥"
+          "text": "पूर्वमुक्त्वा महाबाहो पाण्डवान्सह सोमकैः ।\nवधिष्यामीति गाङ्गेय तन्मे ब्रूहि पितामह ॥",
+          "meaning": {
+            "en": "Grandfather, son of Ganga, you said before that you would kill the Pandavas together with the Somakas; tell me why this is."
+          }
         },
         {
-          "text": "भीष्म उवाच"
+          "text": "भीष्म उवाच",
+          "meaning": {
+            "en": "Bhishma said:"
+          }
         },
         {
           "n": 3,
-          "text": "शृणु दुर्योधन कथां सहैभिर्वसुधाधिपैः ।\nयदर्थं युधि संप्रेक्ष्य नाहं हन्यां शिखण्डिनम् ॥"
+          "text": "शृणु दुर्योधन कथां सहैभिर्वसुधाधिपैः ।\nयदर्थं युधि संप्रेक्ष्य नाहं हन्यां शिखण्डिनम् ॥",
+          "meaning": {
+            "en": "Duryodhana, hear the story, together with these kings, of why I would not kill Shikhandin even when I see him in battle."
+          }
         },
         {
           "n": 4,
-          "text": "महाराजो मम पिता शंतनुर्भरतर्षभः ।\nदिष्टान्तं प्राप धर्मात्मा समये पुरुषर्षभ ॥"
+          "text": "महाराजो मम पिता शंतनुर्भरतर्षभः ।\nदिष्टान्तं प्राप धर्मात्मा समये पुरुषर्षभ ॥",
+          "meaning": {
+            "en": "My father, the great king Shantanu, best of Bharatas, righteous-souled, met his end at the appointed time, bull among men."
+          }
         },
         {
           "n": 5,
-          "text": "ततोऽहं भरतश्रेष्ठ प्रतिज्ञां परिपालयन् ।\nचित्राङ्गदं भ्रातरं वै महाराज्येऽभ्यषेचयम् ॥"
+          "text": "ततोऽहं भरतश्रेष्ठ प्रतिज्ञां परिपालयन् ।\nचित्राङ्गदं भ्रातरं वै महाराज्येऽभ्यषेचयम् ॥",
+          "meaning": {
+            "en": "Then I, keeping my vow, consecrated my brother Chitrangada to the great kingdom, best of Bharatas."
+          }
         },
         {
           "n": 6,
-          "text": "तस्मिंश्च निधनं प्राप्ते सत्यवत्या मते स्थितः ।\nविचित्रवीर्यं राजानमभ्यषिञ्चं यथाविधि ॥"
+          "text": "तस्मिंश्च निधनं प्राप्ते सत्यवत्या मते स्थितः ।\nविचित्रवीर्यं राजानमभ्यषिञ्चं यथाविधि ॥",
+          "meaning": {
+            "en": "When he met his death, I stood by Satyavati's counsel and duly consecrated Vichitravirya as king."
+          }
         },
         {
           "n": 7,
-          "text": "मयाभिषिक्तो राजेन्द्र यवीयानपि धर्मतः ।\nविचित्रवीर्यो धर्मात्मा मामेव समुदैक्षत ॥"
+          "text": "मयाभिषिक्तो राजेन्द्र यवीयानपि धर्मतः ।\nविचित्रवीर्यो धर्मात्मा मामेव समुदैक्षत ॥",
+          "meaning": {
+            "en": "Though younger, he was consecrated by me, king of kings, and the righteous Vichitravirya looked to me alone."
+          }
         },
         {
           "n": 8,
-          "text": "तस्य दारक्रियां तात चिकीर्षुरहमप्युत ।\nअनुरूपादिव कुलादिति चिन्त्य मनो दधे ॥"
+          "text": "तस्य दारक्रियां तात चिकीर्षुरहमप्युत ।\nअनुरूपादिव कुलादिति चिन्त्य मनो दधे ॥",
+          "meaning": {
+            "en": "I wished, dear one, to arrange his marriage, and set my mind on a bride from a family that matched him."
+          }
         },
         {
           "n": 9,
-          "text": "तथाश्रौषं महाबाहो तिस्रः कन्याः स्वयंवरे ।\nरूपेणाप्रतिमाः सर्वाः काशिराजसुतास्तदा ।\nअम्बा चैवाम्बिका चैव तथैवाम्बालिकापरा ॥"
+          "text": "तथाश्रौषं महाबाहो तिस्रः कन्याः स्वयंवरे ।\nरूपेणाप्रतिमाः सर्वाः काशिराजसुतास्तदा ।\nअम्बा चैवाम्बिका चैव तथैवाम्बालिकापरा ॥",
+          "meaning": {
+            "en": "Then I heard, mighty-armed one, that three maidens at a self-choice, unequalled in beauty, were the daughters of the Kashi king: Amba, Ambika, and the other, Ambalika."
+          }
         },
         {
           "n": 10,
-          "text": "राजानश्च समाहूताः पृथिव्यां भरतर्षभ ।\nअम्बा ज्येष्ठाभवत्तासामम्बिका त्वथ मध्यमा ।\nअम्बालिका च राजेन्द्र राजकन्या यवीयसी ॥"
+          "text": "राजानश्च समाहूताः पृथिव्यां भरतर्षभ ।\nअम्बा ज्येष्ठाभवत्तासामम्बिका त्वथ मध्यमा ।\nअम्बालिका च राजेन्द्र राजकन्या यवीयसी ॥",
+          "meaning": {
+            "en": "Kings of the earth were summoned, best of Bharatas; Amba was the eldest of them, Ambika the middle, and Ambalika, king, the youngest princess."
+          }
         },
         {
           "n": 11,
-          "text": "सोऽहमेकरथेनैव गतः काशिपतेः पुरीम् ।\nअपश्यं ता महाबाहो तिस्रः कन्याः स्वलंकृताः ।\nराज्ञश्चैव समावृत्तान्पार्थिवान्पृथिवीपते ॥"
+          "text": "सोऽहमेकरथेनैव गतः काशिपतेः पुरीम् ।\nअपश्यं ता महाबाहो तिस्रः कन्याः स्वलंकृताः ।\nराज्ञश्चैव समावृत्तान्पार्थिवान्पृथिवीपते ॥",
+          "meaning": {
+            "en": "I went alone in a single chariot to the city of the Kashi king and saw those three well-adorned maidens, and the kings gathered around, lord of earth."
+          }
         },
         {
           "n": 12,
-          "text": "ततोऽहं तान्नृपान्सर्वानाहूय समरे स्थितान् ।\nरथमारोपयां चक्रे कन्यास्ता भरतर्षभ ॥"
+          "text": "ततोऽहं तान्नृपान्सर्वानाहूय समरे स्थितान् ।\nरथमारोपयां चक्रे कन्यास्ता भरतर्षभ ॥",
+          "meaning": {
+            "en": "Then I challenged all those kings, standing ready for battle, and put those maidens on my chariot, best of Bharatas."
+          }
         },
         {
           "n": 13,
-          "text": "वीर्यशुल्काश्च ता ज्ञात्वा समारोप्य रथं तदा ।\nअवोचं पार्थिवान्सर्वानहं तत्र समागतान् ।\nभीष्मः शांतनवः कन्या हरतीति पुनः पुनः ॥"
+          "text": "वीर्यशुल्काश्च ता ज्ञात्वा समारोप्य रथं तदा ।\nअवोचं पार्थिवान्सर्वानहं तत्र समागतान् ।\nभीष्मः शांतनवः कन्या हरतीति पुनः पुनः ॥",
+          "meaning": {
+            "en": "Knowing they were to be won by valor, I placed them in the chariot and said to all the kings assembled there, again and again: Bhishma son of Shantanu is carrying off the maidens."
+          }
         },
         {
           "n": 14,
-          "text": "ते यतध्वं परं शक्त्या सर्वे मोक्षाय पार्थिवाः ।\nप्रसह्य हि नयाम्येष मिषतां वो नराधिपाः ॥"
+          "text": "ते यतध्वं परं शक्त्या सर्वे मोक्षाय पार्थिवाः ।\nप्रसह्य हि नयाम्येष मिषतां वो नराधिपाः ॥",
+          "meaning": {
+            "en": "Strive, all you kings, with your utmost strength to free them; for I take them by force before your eyes, lords of men."
+          }
         },
         {
           "n": 15,
-          "text": "ततस्ते पृथिवीपालाः समुत्पेतुरुदायुधाः ।\nयोगो योग इति क्रुद्धाः सारथींश्चाप्यचोदयन् ॥"
+          "text": "ततस्ते पृथिवीपालाः समुत्पेतुरुदायुधाः ।\nयोगो योग इति क्रुद्धाः सारथींश्चाप्यचोदयन् ॥",
+          "meaning": {
+            "en": "Then those kings sprang up with weapons raised, angrily calling \"Make ready, make ready!\" and urging on their charioteers."
+          }
         },
         {
           "n": 16,
-          "text": "ते रथैर्मेघसंकाशैर्गजैश्च गजयोधिनः ।\nपृष्ठ्यैश्चाश्वैर्महीपालाः समुत्पेतुरुदायुधाः ॥"
+          "text": "ते रथैर्मेघसंकाशैर्गजैश्च गजयोधिनः ।\nपृष्ठ्यैश्चाश्वैर्महीपालाः समुत्पेतुरुदायुधाः ॥",
+          "meaning": {
+            "en": "Those kings leapt up with weapons raised, with chariots like clouds, with elephants, elephant-fighters, and horses of the rear."
+          }
         },
         {
           "n": 17,
-          "text": "ततस्ते मां महीपालाः सर्व एव विशां पते ।\nरथव्रातेन महता सर्वतः पर्यवारयन् ॥"
+          "text": "ततस्ते मां महीपालाः सर्व एव विशां पते ।\nरथव्रातेन महता सर्वतः पर्यवारयन् ॥",
+          "meaning": {
+            "en": "Then all those kings, lord of the people, surrounded me from every side with a great mass of chariots."
+          }
         },
         {
           "n": 18,
-          "text": "तानहं शरवर्षेण महता प्रत्यवारयम् ।\nसर्वान्नृपांश्चाप्यजयं देवराडिव दानवान् ॥"
+          "text": "तानहं शरवर्षेण महता प्रत्यवारयम् ।\nसर्वान्नृपांश्चाप्यजयं देवराडिव दानवान् ॥",
+          "meaning": {
+            "en": "I held them off with a great shower of arrows and defeated all the kings, as the king of the gods defeats the danavas."
+          }
         },
         {
           "n": 19,
-          "text": "तेषामापततां चित्रान्ध्वजान्हेमपरिष्कृतान् ।\nएकैकेन हि बाणेन भूमौ पातितवानहम् ॥"
+          "text": "तेषामापततां चित्रान्ध्वजान्हेमपरिष्कृतान् ।\nएकैकेन हि बाणेन भूमौ पातितवानहम् ॥",
+          "meaning": {
+            "en": "As they attacked, I felled their varied banners adorned with gold, each with a single arrow, onto the ground."
+          }
         },
         {
           "n": 20,
-          "text": "हयांश्चैषां गजांश्चैव सारथींश्चाप्यहं रणे ।\nअपातयं शरैर्दीप्तैः प्रहसन्पुरुषर्षभ ॥"
+          "text": "हयांश्चैषां गजांश्चैव सारथींश्चाप्यहं रणे ।\nअपातयं शरैर्दीप्तैः प्रहसन्पुरुषर्षभ ॥",
+          "meaning": {
+            "en": "Smiling, bull among men, I brought down their horses, elephants and charioteers in the battle with blazing arrows."
+          }
         },
         {
           "n": 21,
-          "text": "ते निवृत्ताश्च भग्नाश्च दृष्ट्वा तल्लाघवं मम ।\nअथाहं हास्तिनपुरमायां जित्वा महीक्षितः ॥"
+          "text": "ते निवृत्ताश्च भग्नाश्च दृष्ट्वा तल्लाघवं मम ।\nअथाहं हास्तिनपुरमायां जित्वा महीक्षितः ॥",
+          "meaning": {
+            "en": "Seeing my lightness of hand, they turned back, broken. Then, having defeated the kings, I came to Hastinapura."
+          }
         },
         {
           "n": 22,
-          "text": "अतोऽहं ताश्च कन्या वै भ्रातुरर्थाय भारत ।\nतच्च कर्म महाबाहो सत्यवत्यै न्यवेदयम् ॥"
+          "text": "अतोऽहं ताश्च कन्या वै भ्रातुरर्थाय भारत ।\nतच्च कर्म महाबाहो सत्यवत्यै न्यवेदयम् ॥",
+          "meaning": {
+            "en": "Thus I brought those maidens, Bharata, for my brother's sake; and I reported that deed to Satyavati, mighty-armed."
+          }
         }
       ]
     }

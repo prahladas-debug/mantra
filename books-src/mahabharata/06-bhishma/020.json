@@ -22,90 +22,156 @@
       "titleEn": "Bhagavadgita Parva",
       "verses": [
         {
-          "text": "धृतराष्ट्र उवाच"
+          "text": "धृतराष्ट्र उवाच",
+          "meaning": {
+            "en": "Dhritarashtra said:"
+          }
         },
         {
           "n": 1,
-          "text": "सूर्योदये संजय के नु पूर्वं\nयुयुत्सवो हृष्यमाणा इवासन् ।\nमामका वा भीष्मनेत्राः समीके\nपाण्डवा वा भीमनेत्रास्तदानीम् ॥"
+          "text": "सूर्योदये संजय के नु पूर्वं\nयुयुत्सवो हृष्यमाणा इवासन् ।\nमामका वा भीष्मनेत्राः समीके\nपाण्डवा वा भीमनेत्रास्तदानीम् ॥",
+          "meaning": {
+            "en": "Sanjaya, at sunrise, who were glad first, as if eager to fight: my men with Bhishma as leader, or the Pandavas with Bhima as leader, in that battle?"
+          }
         },
         {
           "n": 2,
-          "text": "केषां जघन्यौ सोमसूर्यौ सवायू\nकेषां सेनां श्वापदा व्याभषन्त ।\nकेषां यूनां मुखवर्णाः प्रसन्नाः\nसर्वं ह्येतद्ब्रूहि तत्त्वं यथावत् ॥"
+          "text": "केषां जघन्यौ सोमसूर्यौ सवायू\nकेषां सेनां श्वापदा व्याभषन्त ।\nकेषां यूनां मुखवर्णाः प्रसन्नाः\nसर्वं ह्येतद्ब्रूहि तत्त्वं यथावत् ॥",
+          "meaning": {
+            "en": "For whom were the moon and sun and winds behind them, and at whose army did the beasts of prey howl? Whose young men had cheerful faces? Tell me all this truthfully and exactly."
+          }
         },
         {
-          "text": "संजय उवाच"
+          "text": "संजय उवाच",
+          "meaning": {
+            "en": "Sanjaya said:"
+          }
         },
         {
           "n": 3,
-          "text": "उभे सेने तुल्यमिवोपयाते\nउभे व्यूहे हृष्टरूपे नरेन्द्र ।\nउभे चित्रे वनराजिप्रकाशे\nतथैवोभे नागरथाश्वपूर्णे ॥"
+          "text": "उभे सेने तुल्यमिवोपयाते\nउभे व्यूहे हृष्टरूपे नरेन्द्र ।\nउभे चित्रे वनराजिप्रकाशे\nतथैवोभे नागरथाश्वपूर्णे ॥",
+          "meaning": {
+            "en": "Both armies came on as if equal, both formations looked cheerful, king; both were variegated like rows of forest trees, both full of elephants, chariots and horses."
+          }
         },
         {
           "n": 4,
-          "text": "उभे सेने बृहती भीमरूपे\nतथैवोभे भारत दुर्विषह्ये ।\nतथैवोभे स्वर्गजयाय सृष्टे\nतथा ह्युभे सत्पुरुषार्यगुप्ते ॥"
+          "text": "उभे सेने बृहती भीमरूपे\nतथैवोभे भारत दुर्विषह्ये ।\nतथैवोभे स्वर्गजयाय सृष्टे\nतथा ह्युभे सत्पुरुषार्यगुप्ते ॥",
+          "meaning": {
+            "en": "Both armies were vast and terrible, Bharata, both hard to bear; both were created to win heaven, and both were guarded by good and noble men."
+          }
         },
         {
           "n": 5,
-          "text": "पश्चान्मुखाः कुरवो धार्तराष्ट्राः\nस्थिताः पार्थाः प्राङ्मुखा योत्स्यमानाः ।\nदैत्येन्द्रसेनेव च कौरवाणां\nदेवेन्द्रसेनेव च पाण्डवानाम् ॥"
+          "text": "पश्चान्मुखाः कुरवो धार्तराष्ट्राः\nस्थिताः पार्थाः प्राङ्मुखा योत्स्यमानाः ।\nदैत्येन्द्रसेनेव च कौरवाणां\nदेवेन्द्रसेनेव च पाण्डवानाम् ॥",
+          "meaning": {
+            "en": "The Kurus, Dhritarashtra's sons, stood facing west, and the Parthas stood facing east, ready to fight; the Kauravas' army was like the army of the lord of the Daityas and the Pandavas' like the army of the lord of the gods."
+          }
         },
         {
           "n": 6,
-          "text": "शुक्रो वायुः पृष्ठतः पाण्डवानां\nधार्तराष्ट्राञ्श्वापदा व्याभषन्त ।\nगजेन्द्राणां मदगन्धांश्च तीव्रा-\nन्न सेहिरे तव पुत्रस्य नागाः ॥"
+          "text": "शुक्रो वायुः पृष्ठतः पाण्डवानां\nधार्तराष्ट्राञ्श्वापदा व्याभषन्त ।\nगजेन्द्राणां मदगन्धांश्च तीव्रा-\nन्न सेहिरे तव पुत्रस्य नागाः ॥",
+          "meaning": {
+            "en": "The wind blew dry from behind the Pandavas, and the beasts howled at the Dhritarashtras; your son's elephants could not bear the strong smell of the rut of the lordly elephants."
+          }
         },
         {
           "n": 7,
-          "text": "दुर्योधनो हस्तिनं पद्मवर्णं\nसुवर्णकक्ष्यं जातिबलं प्रभिन्नम् ।\nसमास्थितो मध्यगतः कुरूणां\nसंस्तूयमानो बन्दिभिर्मागधैश्च ॥"
+          "text": "दुर्योधनो हस्तिनं पद्मवर्णं\nसुवर्णकक्ष्यं जातिबलं प्रभिन्नम् ।\nसमास्थितो मध्यगतः कुरूणां\nसंस्तूयमानो बन्दिभिर्मागधैश्च ॥",
+          "meaning": {
+            "en": "Duryodhana sat on a lotus-coloured elephant with golden girths, of pedigree and strength and in rut, in the middle of the Kurus, praised by bards and Magadha minstrels."
+          }
         },
         {
           "n": 8,
-          "text": "चन्द्रप्रभं श्वेतमस्यातपत्रं\nसौवर्णी स्रग्भ्राजते चोत्तमाङ्गे ।\nतं सर्वतः शकुनिः पार्वतीयैः\nसार्धं गान्धारैः पाति गान्धारराजः ॥"
+          "text": "चन्द्रप्रभं श्वेतमस्यातपत्रं\nसौवर्णी स्रग्भ्राजते चोत्तमाङ्गे ।\nतं सर्वतः शकुनिः पार्वतीयैः\nसार्धं गान्धारैः पाति गान्धारराजः ॥",
+          "meaning": {
+            "en": "Over him was a white umbrella shining like the moon, and a golden garland shone on his head; the king of Gandhara, Shakuni, guarded him on all sides with the mountaineers and Gandharas."
+          }
         },
         {
           "n": 9,
-          "text": "भीष्मोऽग्रतः सर्वसैन्यस्य वृद्धः\nश्वेतच्छत्रः श्वेतधनुः सशङ्खः ।\nश्वेतोष्णीषः पाण्डुरेण ध्वजेन\nश्वेतैरश्वैः श्वेतशैलप्रकाशः ॥"
+          "text": "भीष्मोऽग्रतः सर्वसैन्यस्य वृद्धः\nश्वेतच्छत्रः श्वेतधनुः सशङ्खः ।\nश्वेतोष्णीषः पाण्डुरेण ध्वजेन\nश्वेतैरश्वैः श्वेतशैलप्रकाशः ॥",
+          "meaning": {
+            "en": "Bhishma, the old man, stood in front of the whole army with white parasol, white bow and conch, white turban and a pale banner, with white horses, shining like a white mountain."
+          }
         },
         {
           "n": 10,
-          "text": "तस्य सैन्यं धार्तराष्ट्राश्च सर्वे\nबाह्लीकानामेकदेशः शलश्च ।\nये चाम्बष्ठाः क्षत्रिया ये च सिन्धौ\nतथा सौवीराः पञ्चनदाश्च शूराः ॥"
+          "text": "तस्य सैन्यं धार्तराष्ट्राश्च सर्वे\nबाह्लीकानामेकदेशः शलश्च ।\nये चाम्बष्ठाः क्षत्रिया ये च सिन्धौ\nतथा सौवीराः पञ्चनदाश्च शूराः ॥",
+          "meaning": {
+            "en": "His army included all the Dhritarashtras, a part of the Bahlikas and Shala, the Ambashthas, the Kshatriyas of Sindhu, the Sauviras and the brave Panchanadas."
+          }
         },
         {
           "n": 11,
-          "text": "शोणैर्हयै रुक्मरथो महात्मा\nद्रोणो महाबाहुरदीनसत्त्वः ।\nआस्ते गुरुः प्रयशाः सर्वराज्ञां\nपश्चाच्चमूमिन्द्र इवाभिरक्षन् ॥"
+          "text": "शोणैर्हयै रुक्मरथो महात्मा\nद्रोणो महाबाहुरदीनसत्त्वः ।\nआस्ते गुरुः प्रयशाः सर्वराज्ञां\nपश्चाच्चमूमिन्द्र इवाभिरक्षन् ॥",
+          "meaning": {
+            "en": "The great-souled Drona, mighty-armed and of unfailing spirit, the greatly famed teacher, stood in a golden chariot with red horses, guarding the rear of the army like Indra of all the kings."
+          }
         },
         {
           "n": 12,
-          "text": "वार्द्धक्षत्रिः सर्वसैन्यस्य मध्ये\nभूरिश्रवाः पुरुमित्रो जयश्च ।\nशाल्वा मत्स्याः केकयाश्चापि सर्वे\nगजानीकैर्भ्रातरो योत्स्यमानाः ॥"
+          "text": "वार्द्धक्षत्रिः सर्वसैन्यस्य मध्ये\nभूरिश्रवाः पुरुमित्रो जयश्च ।\nशाल्वा मत्स्याः केकयाश्चापि सर्वे\nगजानीकैर्भ्रातरो योत्स्यमानाः ॥",
+          "meaning": {
+            "en": "Vriddhakshatri's son Jayadratha, with Bhurishravas, Purumitra and Jaya, and the Shalvas, Matsyas and all the Kekayas, brothers, were in the middle of the whole army with elephant divisions, ready to fight."
+          }
         },
         {
           "n": 13,
-          "text": "शारद्वतश्चोत्तरधूर्महात्मा\nमहेष्वासो गौतमश्चित्रयोधी ।\nशकैः किरातैर्यवनैः पह्लवैश्च\nसार्धं चमूमुत्तरतोऽभिपाति ॥"
+          "text": "शारद्वतश्चोत्तरधूर्महात्मा\nमहेष्वासो गौतमश्चित्रयोधी ।\nशकैः किरातैर्यवनैः पह्लवैश्च\nसार्धं चमूमुत्तरतोऽभिपाति ॥",
+          "meaning": {
+            "en": "The great-souled Sharadvata, Kripa, the great archer Gautama, a wonderful fighter, guarded the northern side of the army with Shakas, Kiratas, Yavanas and Pahlavas."
+          }
         },
         {
           "n": 14,
-          "text": "महारथैरन्धकवृष्णिभोजैः\nसौराष्ट्रकैर्नैरृतैरात्तशस्त्रैः ।\nबृहद्बलः कृतवर्माभिगुप्तो\nबलं त्वदीयं दक्षिणतोऽभिपाति ॥"
+          "text": "महारथैरन्धकवृष्णिभोजैः\nसौराष्ट्रकैर्नैरृतैरात्तशस्त्रैः ।\nबृहद्बलः कृतवर्माभिगुप्तो\nबलं त्वदीयं दक्षिणतोऽभिपाति ॥",
+          "meaning": {
+            "en": "Brihadbala, guarded by great chariot-warriors of the Andhakas, Vrishnis and Bhojas, by Saurashtrakas and Nairritas with weapons in hand, and by Kritavarman, guarded your army on the south."
+          }
         },
         {
           "n": 15,
-          "text": "संशप्तकानामयुतं रथानां\nमृत्युर्जयो वार्जुनस्येति सृष्टाः ।\nयेनार्जुनस्तेन राजन्कृतास्त्राः\nप्रयाता वै ते त्रिगर्ताश्च शूराः ॥"
+          "text": "संशप्तकानामयुतं रथानां\nमृत्युर्जयो वार्जुनस्येति सृष्टाः ।\nयेनार्जुनस्तेन राजन्कृतास्त्राः\nप्रयाता वै ते त्रिगर्ताश्च शूराः ॥",
+          "meaning": {
+            "en": "Ten thousand chariots of the Samshaptakas, created to bring either death or victory to Arjuna, and the brave Trigartas skilled in weapons, went where Arjuna was, King."
+          }
         },
         {
           "n": 16,
-          "text": "साग्रं शतसहस्रं तु नागानां तव भारत ।\nनागे नागे रथशतं शतं चाश्वा रथे रथे ॥"
+          "text": "साग्रं शतसहस्रं तु नागानां तव भारत ।\nनागे नागे रथशतं शतं चाश्वा रथे रथे ॥",
+          "meaning": {
+            "en": "Bharata, your elephants numbered over a hundred thousand; a hundred chariots for each elephant, a hundred horses for each chariot."
+          }
         },
         {
           "n": 17,
-          "text": "अश्वेऽश्वे दश धानुष्का धानुष्के दश चर्मिणः ।\nएवं व्यूढान्यनीकानि भीष्मेण तव भारत ॥"
+          "text": "अश्वेऽश्वे दश धानुष्का धानुष्के दश चर्मिणः ।\nएवं व्यूढान्यनीकानि भीष्मेण तव भारत ॥",
+          "meaning": {
+            "en": "Ten bowmen for each horse and ten shield-bearers for each bowman: so, Bharata, your armies were arrayed by Bhishma."
+          }
         },
         {
           "n": 18,
-          "text": "अव्यूहन्मानुषं व्यूहं दैवं गान्धर्वमासुरम् ।\nदिवसे दिवसे प्राप्ते भीष्मः शांतनवोऽग्रणीः ॥"
+          "text": "अव्यूहन्मानुषं व्यूहं दैवं गान्धर्वमासुरम् ।\nदिवसे दिवसे प्राप्ते भीष्मः शांतनवोऽग्रणीः ॥",
+          "meaning": {
+            "en": "As each day came, Bhishma son of Shantanu, the leader, arrayed the human, divine, Gandharva and Asura formations."
+          }
         },
         {
           "n": 19,
-          "text": "महारथौघविपुलः समुद्र इव पर्वणि ।\nभीष्मेण धार्तराष्ट्राणां व्यूहः प्रत्यङ्मुखो युधि ॥"
+          "text": "महारथौघविपुलः समुद्र इव पर्वणि ।\nभीष्मेण धार्तराष्ट्राणां व्यूहः प्रत्यङ्मुखो युधि ॥",
+          "meaning": {
+            "en": "By Bhishma, the formation of Dhritarashtra's sons facing west in the battle was like the sea at the full moon, vast with floods of great chariot-warriors."
+          }
         },
         {
           "n": 20,
-          "text": "अनन्तरूपा ध्वजिनी त्वदीया\nनरेन्द्र भीमा न तु पाण्डवानाम् ।\nतां त्वेव मन्ये बृहतीं दुष्प्रधृष्यां\nयस्या नेतारौ केशवश्चार्जुनश्च ॥"
+          "text": "अनन्तरूपा ध्वजिनी त्वदीया\nनरेन्द्र भीमा न तु पाण्डवानाम् ।\nतां त्वेव मन्ये बृहतीं दुष्प्रधृष्यां\nयस्या नेतारौ केशवश्चार्जुनश्च ॥",
+          "meaning": {
+            "en": "Your army, king, was of endless form and fearsome, not so the Pandavas'; yet I think theirs is great and hard to overcome, since Keshava and Arjuna are its leaders."
+          }
         }
       ]
     }

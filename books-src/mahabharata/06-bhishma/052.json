@@ -22,95 +22,164 @@
       "titleEn": "Bhishmavadha Parva (The fall of Bhishma)",
       "verses": [
         {
-          "text": "संजय उवाच"
+          "text": "संजय उवाच",
+          "meaning": {
+            "en": "Sanjaya said:"
+          }
         },
         {
           "n": 1,
-          "text": "प्रभातायां तु शर्वर्यां भीष्मः शांतनवस्ततः ।\nअनीकान्यनुसंयाने व्यादिदेशाथ भारत ॥"
+          "text": "प्रभातायां तु शर्वर्यां भीष्मः शांतनवस्ततः ।\nअनीकान्यनुसंयाने व्यादिदेशाथ भारत ॥",
+          "meaning": {
+            "en": "When night had turned to dawn, Bhishma, son of Shantanu, gave orders to the divisions as they marched out, O Bharata."
+          }
         },
         {
           "n": 2,
-          "text": "गारुडं च महाव्यूहं चक्रे शांतनवस्तदा ।\nपुत्राणां ते जयाकाङ्क्षी भीष्मः कुरुपितामहः ॥"
+          "text": "गारुडं च महाव्यूहं चक्रे शांतनवस्तदा ।\nपुत्राणां ते जयाकाङ्क्षी भीष्मः कुरुपितामहः ॥",
+          "meaning": {
+            "en": "Then Shantanu's son Bhishma, grandfather of the Kurus, wishing victory for your sons, made the great Garuda formation."
+          }
         },
         {
           "n": 3,
-          "text": "गरुडस्य स्वयं तुण्डे पिता देवव्रतस्तव ।\nचक्षुषी च भरद्वाजः कृतवर्मा च सात्वतः ॥"
+          "text": "गरुडस्य स्वयं तुण्डे पिता देवव्रतस्तव ।\nचक्षुषी च भरद्वाजः कृतवर्मा च सात्वतः ॥",
+          "meaning": {
+            "en": "Your father Devavrata himself was in Garuda's beak; Bharadvaja's son Drona and the Satvata Kritavarman were the eyes."
+          }
         },
         {
           "n": 4,
-          "text": "अश्वत्थामा कृपश्चैव शीर्षमास्तां यशस्विनौ ।\nत्रिगर्तैर्मत्स्यकैकेयैर्वाटधानैश्च संयुतौ ॥"
+          "text": "अश्वत्थामा कृपश्चैव शीर्षमास्तां यशस्विनौ ।\nत्रिगर्तैर्मत्स्यकैकेयैर्वाटधानैश्च संयुतौ ॥",
+          "meaning": {
+            "en": "Ashvatthama and Kripa, both renowned, formed the head, joined by the Trigartas, Matsyas, Kekayas and Vatadhanas."
+          }
         },
         {
           "n": 5,
-          "text": "भूरिश्रवाः शलः शल्यो भगदत्तश्च मारिष ।\nमद्रकाः सिन्धुसौवीरास्तथा पञ्चनदाश्च ये ॥"
+          "text": "भूरिश्रवाः शलः शल्यो भगदत्तश्च मारिष ।\nमद्रकाः सिन्धुसौवीरास्तथा पञ्चनदाश्च ये ॥",
+          "meaning": {
+            "en": "Bhurishravas, Shala, Shalya and Bhagadatta, sir, with the Madrakas, Sindhus, Sauviras and the people of the five rivers,"
+          }
         },
         {
           "n": 6,
-          "text": "जयद्रथेन सहिता ग्रीवायां संनिवेशिताः ।\nपृष्ठे दुर्योधनो राजा सोदरैः सानुगैर्वृतः ॥"
+          "text": "जयद्रथेन सहिता ग्रीवायां संनिवेशिताः ।\nपृष्ठे दुर्योधनो राजा सोदरैः सानुगैर्वृतः ॥",
+          "meaning": {
+            "en": "were placed in the neck together with Jayadratha. At the back was King Duryodhana, surrounded by his brothers and followers."
+          }
         },
         {
           "n": 7,
-          "text": "विन्दानुविन्दावावन्त्यौ काम्बोजश्च शकैः सह ।\nपुच्छमासन्महाराज शूरसेनाश्च सर्वशः ॥"
+          "text": "विन्दानुविन्दावावन्त्यौ काम्बोजश्च शकैः सह ।\nपुच्छमासन्महाराज शूरसेनाश्च सर्वशः ॥",
+          "meaning": {
+            "en": "The two Avantis, Vinda and Anuvinda, the Kamboja with the Shakas, and all the Shurasenas formed the tail, great king."
+          }
         },
         {
           "n": 8,
-          "text": "मागधाश्च कलिङ्गाश्च दाशेरकगणैः सह ।\nदक्षिणं पक्षमासाद्य स्थिता व्यूहस्य दंशिताः ॥"
+          "text": "मागधाश्च कलिङ्गाश्च दाशेरकगणैः सह ।\nदक्षिणं पक्षमासाद्य स्थिता व्यूहस्य दंशिताः ॥",
+          "meaning": {
+            "en": "The Magadhas and Kalingas with the hosts of Dasherakas, armored, took the right wing of the formation."
+          }
         },
         {
           "n": 9,
-          "text": "काननाश्च विकुञ्जाश्च मुक्ताः पुण्ड्राविषस्तथा ।\nबृहद्बलेन सहिता वामं पक्षमुपाश्रिताः ॥"
+          "text": "काननाश्च विकुञ्जाश्च मुक्ताः पुण्ड्राविषस्तथा ।\nबृहद्बलेन सहिता वामं पक्षमुपाश्रिताः ॥",
+          "meaning": {
+            "en": "The Kananas, Vikunjas, Muktas and Pundravishas, with Brihadbala, took the left wing."
+          }
         },
         {
           "n": 10,
-          "text": "व्यूढं दृष्ट्वा तु तत्सैन्यं सव्यसाची परंतपः ।\nधृष्टद्युम्नेन सहितः प्रत्यव्यूहत संयुगे ।\nअर्धचन्द्रेण व्यूहेन व्यूहं तमतिदारुणम् ॥"
+          "text": "व्यूढं दृष्ट्वा तु तत्सैन्यं सव्यसाची परंतपः ।\nधृष्टद्युम्नेन सहितः प्रत्यव्यूहत संयुगे ।\nअर्धचन्द्रेण व्यूहेन व्यूहं तमतिदारुणम् ॥",
+          "meaning": {
+            "en": "Seeing that army arrayed, the scorcher of foes Savyasachin, with Dhrishtadyumna, countered it in the battle with a crescent formation, and that formation was very fearsome."
+          }
         },
         {
           "n": 11,
-          "text": "दक्षिणं शृङ्गमास्थाय भीमसेनो व्यरोचत ।\nनानाशस्त्रौघसंपन्नैर्नानादेश्यैर्नृपैर्वृतः ॥"
+          "text": "दक्षिणं शृङ्गमास्थाय भीमसेनो व्यरोचत ।\nनानाशस्त्रौघसंपन्नैर्नानादेश्यैर्नृपैर्वृतः ॥",
+          "meaning": {
+            "en": "Taking the right horn, Bhimasena shone, surrounded by kings from many lands armed with floods of various weapons."
+          }
         },
         {
           "n": 12,
-          "text": "तदन्वेव विराटश्च द्रुपदश्च महारथः ।\nतदनन्तरमेवासीन्नीलो नीलायुधैः सह ॥"
+          "text": "तदन्वेव विराटश्च द्रुपदश्च महारथः ।\nतदनन्तरमेवासीन्नीलो नीलायुधैः सह ॥",
+          "meaning": {
+            "en": "Right after him were Virata and the great chariot-warrior Drupada, and after them Nila with his men of blue weapons."
+          }
         },
         {
           "n": 13,
-          "text": "नीलादनन्तरं चैव धृष्टकेतुर्महारथः ।\nचेदिकाशिकरूषैश्च पौरवैश्चाभिसंवृतः ॥"
+          "text": "नीलादनन्तरं चैव धृष्टकेतुर्महारथः ।\nचेदिकाशिकरूषैश्च पौरवैश्चाभिसंवृतः ॥",
+          "meaning": {
+            "en": "After Nila came the great chariot-warrior Dhrishtaketu, surrounded by the Chedis, Kashis, Karushas and Pauravas."
+          }
         },
         {
           "n": 14,
-          "text": "धृष्टद्युम्नः शिखण्डी च पाञ्चालाश्च प्रभद्रकाः ।\nमध्ये सैन्यस्य महतः स्थिता युद्धाय भारत ॥"
+          "text": "धृष्टद्युम्नः शिखण्डी च पाञ्चालाश्च प्रभद्रकाः ।\nमध्ये सैन्यस्य महतः स्थिता युद्धाय भारत ॥",
+          "meaning": {
+            "en": "Dhrishtadyumna and Shikhandi, the Panchalas and the Prabhadrakas stood in the middle of the great army for battle, O Bharata."
+          }
         },
         {
           "n": 15,
-          "text": "तथैव धर्मराजोऽपि गजानीकेन संवृतः ।\nततस्तु सात्यकी राजन्द्रौपद्याः पञ्च चात्मजाः ॥"
+          "text": "तथैव धर्मराजोऽपि गजानीकेन संवृतः ।\nततस्तु सात्यकी राजन्द्रौपद्याः पञ्च चात्मजाः ॥",
+          "meaning": {
+            "en": "So too the king of dharma, surrounded by an elephant division; then Satyaki and the five sons of Draupadi, O king,"
+          }
         },
         {
           "n": 16,
-          "text": "अभिमन्युस्ततस्तूर्णमिरावांश्च ततः परम् ।\nभैमसेनिस्ततो राजन्केकयाश्च महारथाः ॥"
+          "text": "अभिमन्युस्ततस्तूर्णमिरावांश्च ततः परम् ।\nभैमसेनिस्ततो राजन्केकयाश्च महारथाः ॥",
+          "meaning": {
+            "en": "then Abhimanyu quickly, and after him Iravan, then Bhima's son Ghatotkacha, O king, and the great chariot-warrior Kekayas."
+          }
         },
         {
           "n": 17,
-          "text": "ततोऽभूद्द्विपदां श्रेष्ठो वामं पार्श्वमुपाश्रितः ।\nसर्वस्य जगतो गोप्ता गोप्ता यस्य जनार्दनः ॥"
+          "text": "ततोऽभूद्द्विपदां श्रेष्ठो वामं पार्श्वमुपाश्रितः ।\nसर्वस्य जगतो गोप्ता गोप्ता यस्य जनार्दनः ॥",
+          "meaning": {
+            "en": "Then the best of men, Arjuna, whose protector is Janardana and who is himself protector of the whole world, took the left side."
+          }
         },
         {
           "n": 18,
-          "text": "एवमेतन्महाव्यूहं प्रत्यव्यूहन्त पाण्डवाः ।\nवधार्थं तव पुत्राणां तत्पक्षं ये च संगताः ॥"
+          "text": "एवमेतन्महाव्यूहं प्रत्यव्यूहन्त पाण्डवाः ।\nवधार्थं तव पुत्राणां तत्पक्षं ये च संगताः ॥",
+          "meaning": {
+            "en": "So the Pandavas arrayed this great formation in answer, to kill your sons and those allied with their side."
+          }
         },
         {
           "n": 19,
-          "text": "ततः प्रववृते युद्धं व्यतिषक्तरथद्विपम् ।\nतावकानां परेषां च निघ्नतामितरेतरम् ॥"
+          "text": "ततः प्रववृते युद्धं व्यतिषक्तरथद्विपम् ।\nतावकानां परेषां च निघ्नतामितरेतरम् ॥",
+          "meaning": {
+            "en": "Then the battle began, with chariots and elephants entangled, as your men and the others struck one another."
+          }
         },
         {
           "n": 20,
-          "text": "हयौघाश्च रथौघाश्च तत्र तत्र विशां पते ।\nसंपतन्तः स्म दृश्यन्ते निघ्नमानाः परस्परम् ॥"
+          "text": "हयौघाश्च रथौघाश्च तत्र तत्र विशां पते ।\nसंपतन्तः स्म दृश्यन्ते निघ्नमानाः परस्परम् ॥",
+          "meaning": {
+            "en": "Here and there masses of horses and masses of chariots were seen charging and killing one another, lord of the people."
+          }
         },
         {
           "n": 21,
-          "text": "धावतां च रथौघानां निघ्नतां च पृथक्पृथक् ।\nबभूव तुमुलः शब्दो विमिश्रो दुन्दुभिस्वनैः ॥"
+          "text": "धावतां च रथौघानां निघ्नतां च पृथक्पृथक् ।\nबभूव तुमुलः शब्दो विमिश्रो दुन्दुभिस्वनैः ॥",
+          "meaning": {
+            "en": "As the masses of chariots ran and struck separately, a tumultuous noise arose, mingled with the sound of drums."
+          }
         },
         {
           "n": 22,
-          "text": "दिवस्पृङ्नरवीराणां निघ्नतामितरेतरम् ।\nसंप्रहारे सुतुमुले तव तेषां च भारत ॥"
+          "text": "दिवस्पृङ्नरवीराणां निघ्नतामितरेतरम् ।\nसंप्रहारे सुतुमुले तव तेषां च भारत ॥",
+          "meaning": {
+            "en": "In that very tumultuous clash of your side and theirs, the heroes struck one another with a noise reaching the sky, O Bharata."
+          }
         }
       ]
     }

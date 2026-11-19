@@ -22,127 +22,220 @@
       "titleEn": "Bhishmavadha Parva (The fall of Bhishma)",
       "verses": [
         {
-          "text": "संजय उवाच"
+          "text": "संजय उवाच",
+          "meaning": {
+            "en": "Sanjaya said:"
+          }
         },
         {
           "n": 1,
-          "text": "क्रौञ्चं ततो महाव्यूहमभेद्यं तनयस्तव ।\nव्यूढं दृष्ट्वा महाघोरं पार्थेनामिततेजसा ॥"
+          "text": "क्रौञ्चं ततो महाव्यूहमभेद्यं तनयस्तव ।\nव्यूढं दृष्ट्वा महाघोरं पार्थेनामिततेजसा ॥",
+          "meaning": {
+            "en": "Then your son, seeing the great, dreadful and impenetrable Krauncha formation arrayed by the boundlessly radiant Partha,"
+          }
         },
         {
           "n": 2,
-          "text": "आचार्यमुपसंगम्य कृपं शल्यं च मारिष ।\nसौमदत्तिं विकर्णं च अश्वत्थामानमेव च ॥"
+          "text": "आचार्यमुपसंगम्य कृपं शल्यं च मारिष ।\nसौमदत्तिं विकर्णं च अश्वत्थामानमेव च ॥",
+          "meaning": {
+            "en": "went to the teacher Drona, and to Kripa, Shalya, Somadatta's son, Vikarna and Ashvatthama, sir,"
+          }
         },
         {
           "n": 3,
-          "text": "दुःशासनादीन्भ्रातॄंश्च स सर्वानेव भारत ।\nअन्यांश्च सुबहूञ्शूरान्युद्धाय समुपागतान् ॥"
+          "text": "दुःशासनादीन्भ्रातॄंश्च स सर्वानेव भारत ।\nअन्यांश्च सुबहूञ्शूरान्युद्धाय समुपागतान् ॥",
+          "meaning": {
+            "en": "and to his brothers led by Duhshasana, and to many other heroes who had come to fight."
+          }
         },
         {
           "n": 4,
-          "text": "प्राहेदं वचनं काले हर्षयंस्तनयस्तव ।\nनानाशस्त्रप्रहरणाः सर्वे शस्त्रास्त्रवेदिनः ॥"
+          "text": "प्राहेदं वचनं काले हर्षयंस्तनयस्तव ।\nनानाशस्त्रप्रहरणाः सर्वे शस्त्रास्त्रवेदिनः ॥",
+          "meaning": {
+            "en": "At that moment your son, gladdening them, said these words: \"All of you wield various weapons and know weapons and missiles.\""
+          }
         },
         {
           "n": 5,
-          "text": "एकैकशः समर्था हि यूयं सर्वे महारथाः ।\nपाण्डुपुत्रान्रणे हन्तुं ससैन्यान्किमु संहताः ॥"
+          "text": "एकैकशः समर्था हि यूयं सर्वे महारथाः ।\nपाण्डुपुत्रान्रणे हन्तुं ससैन्यान्किमु संहताः ॥",
+          "meaning": {
+            "en": "\"Each of you great chariot-warriors alone is able to kill the sons of Pandu with their army in battle; how much more together!\""
+          }
         },
         {
           "n": 6,
-          "text": "अपर्याप्तं तदस्माकं बलं भीष्माभिरक्षितम् ।\nपर्याप्तं त्विदमेतेषां बलं पार्थिवसत्तमाः ॥"
+          "text": "अपर्याप्तं तदस्माकं बलं भीष्माभिरक्षितम् ।\nपर्याप्तं त्विदमेतेषां बलं पार्थिवसत्तमाः ॥",
+          "meaning": {
+            "en": "\"That army of ours, guarded by Bhishma, is insufficient; but this army of theirs, best of kings, is sufficient.\""
+          }
         },
         {
           "n": 7,
-          "text": "संस्थानाः शूरसेनाश्च वेणिकाः कुकुरास्तथा ।\nआरेवकास्त्रिगर्ताश्च मद्रका यवनास्तथा ॥"
+          "text": "संस्थानाः शूरसेनाश्च वेणिकाः कुकुरास्तथा ।\nआरेवकास्त्रिगर्ताश्च मद्रका यवनास्तथा ॥",
+          "meaning": {
+            "en": "\"Let the Samsthanas, Shurasenas, Venikas, Kukuras, Arevakas, Trigartas, Madrakas and Yavanas,\""
+          }
         },
         {
           "n": 8,
-          "text": "शत्रुंजयेन सहितास्तथा दुःशासनेन च ।\nविकर्णेन च वीरेण तथा नन्दोपनन्दकैः ॥"
+          "text": "शत्रुंजयेन सहितास्तथा दुःशासनेन च ।\nविकर्णेन च वीरेण तथा नन्दोपनन्दकैः ॥",
+          "meaning": {
+            "en": "\"with Shatrunjaya, Duhshasana, the hero Vikarna, and Nanda and Upananda,\""
+          }
         },
         {
           "n": 9,
-          "text": "चित्रसेनेन सहिताः सहिताः पाणिभद्रकैः ।\nभीष्ममेवाभिरक्षन्तु सह सैन्यपुरस्कृताः ॥"
+          "text": "चित्रसेनेन सहिताः सहिताः पाणिभद्रकैः ।\nभीष्ममेवाभिरक्षन्तु सह सैन्यपुरस्कृताः ॥",
+          "meaning": {
+            "en": "\"with Chitrasena and the Panibhadrakas, put the army ahead of them and guard Bhishma alone.\""
+          }
         },
         {
           "n": 10,
-          "text": "ततो द्रोणश्च भीष्मश्च तव पुत्रश्च मारिष ।\nअव्यूहन्त महाव्यूहं पाण्डूनां प्रतिबाधने ॥"
+          "text": "ततो द्रोणश्च भीष्मश्च तव पुत्रश्च मारिष ।\nअव्यूहन्त महाव्यूहं पाण्डूनां प्रतिबाधने ॥",
+          "meaning": {
+            "en": "Then Drona, Bhishma and your son arrayed a great formation to resist the Pandavas."
+          }
         },
         {
           "n": 11,
-          "text": "भीष्मः सैन्येन महता समन्तात्परिवारितः ।\nययौ प्रकर्षन्महतीं वाहिनीं सुरराडिव ॥"
+          "text": "भीष्मः सैन्येन महता समन्तात्परिवारितः ।\nययौ प्रकर्षन्महतीं वाहिनीं सुरराडिव ॥",
+          "meaning": {
+            "en": "Surrounded on every side by a great army, Bhishma went forward, leading the huge host like the king of the gods."
+          }
         },
         {
           "n": 12,
-          "text": "तमन्वयान्महेष्वासो भारद्वाजः प्रतापवान् ।\nकुन्तलैश्च दशार्णैश्च मागधैश्च विशां पते ॥"
+          "text": "तमन्वयान्महेष्वासो भारद्वाजः प्रतापवान् ।\nकुन्तलैश्च दशार्णैश्च मागधैश्च विशां पते ॥",
+          "meaning": {
+            "en": "The mighty archer Drona, son of Bharadvaja, full of power, followed him, with the Kuntalas, Dasharnas and Magadhas, lord of the people,"
+          }
         },
         {
           "n": 13,
-          "text": "विदर्भैर्मेकलैश्चैव कर्णप्रावरणैरपि ।\nसहिताः सर्वसैन्येन भीष्ममाहवशोभिनम् ॥"
+          "text": "विदर्भैर्मेकलैश्चैव कर्णप्रावरणैरपि ।\nसहिताः सर्वसैन्येन भीष्ममाहवशोभिनम् ॥",
+          "meaning": {
+            "en": "the Vidarbhas, Mekalas and Karnapravaranas, together with all their forces, following Bhishma who shone in battle."
+          }
         },
         {
           "n": 14,
-          "text": "गान्धाराः सिन्धुसौवीराः शिबयोऽथ वसातयः ।\nशकुनिश्च स्वसैन्येन भारद्वाजमपालयत् ॥"
+          "text": "गान्धाराः सिन्धुसौवीराः शिबयोऽथ वसातयः ।\nशकुनिश्च स्वसैन्येन भारद्वाजमपालयत् ॥",
+          "meaning": {
+            "en": "The Gandharas, Sindhus, Sauviras, Shibis and Vasatis, and Shakuni with his own army, guarded Drona."
+          }
         },
         {
           "n": 15,
-          "text": "ततो दुर्योधनो राजा सहितः सर्वसोदरैः ।\nअश्वातकैर्विकर्णैश्च तथा शर्मिलकोसलैः ॥"
+          "text": "ततो दुर्योधनो राजा सहितः सर्वसोदरैः ।\nअश्वातकैर्विकर्णैश्च तथा शर्मिलकोसलैः ॥",
+          "meaning": {
+            "en": "Then King Duryodhana, with all his brothers, with the Ashvatakas, Vikarnas, Sharmilas and Kosalas,"
+          }
         },
         {
           "n": 16,
-          "text": "दरदैश्चूचुपैश्चैव तथा क्षुद्रकमालवैः ।\nअभ्यरक्षत संहृष्टः सौबलेयस्य वाहिनीम् ॥"
+          "text": "दरदैश्चूचुपैश्चैव तथा क्षुद्रकमालवैः ।\nअभ्यरक्षत संहृष्टः सौबलेयस्य वाहिनीम् ॥",
+          "meaning": {
+            "en": "the Daradas, Chuchupas, Kshudrakas and Malavas, gladly guarded the army of Subala's son."
+          }
         },
         {
           "n": 17,
-          "text": "भूरिश्रवाः शलः शल्यो भगदत्तश्च मारिष ।\nविन्दानुविन्दावावन्त्यौ वामं पार्श्वमपालयन् ॥"
+          "text": "भूरिश्रवाः शलः शल्यो भगदत्तश्च मारिष ।\nविन्दानुविन्दावावन्त्यौ वामं पार्श्वमपालयन् ॥",
+          "meaning": {
+            "en": "Bhurishravas, Shala, Shalya and Bhagadatta, sir, and the two Avantis, Vinda and Anuvinda, guarded the left side."
+          }
         },
         {
           "n": 18,
-          "text": "सौमदत्तिः सुशर्मा च काम्बोजश्च सुदक्षिणः ।\nशतायुश्च श्रुतायुश्च दक्षिणं पार्श्वमास्थिताः ॥"
+          "text": "सौमदत्तिः सुशर्मा च काम्बोजश्च सुदक्षिणः ।\nशतायुश्च श्रुतायुश्च दक्षिणं पार्श्वमास्थिताः ॥",
+          "meaning": {
+            "en": "Somadatta's son, Susharma, Sudakshina the Kamboja, Shatayu and Shrutayu stood on the right side."
+          }
         },
         {
           "n": 19,
-          "text": "अश्वत्थामा कृपश्चैव कृतवर्मा च सात्वतः ।\nमहत्या सेनया सार्धं सेनापृष्ठे व्यवस्थिताः ॥"
+          "text": "अश्वत्थामा कृपश्चैव कृतवर्मा च सात्वतः ।\nमहत्या सेनया सार्धं सेनापृष्ठे व्यवस्थिताः ॥",
+          "meaning": {
+            "en": "Ashvatthama, Kripa and the Satvata Kritavarman stood at the rear of the army with a large force."
+          }
         },
         {
           "n": 20,
-          "text": "पृष्ठगोपास्तु तस्यासन्नानादेश्या जनेश्वराः ।\nकेतुमान्वसुदानश्च पुत्रः काश्यस्य चाभिभूः ॥"
+          "text": "पृष्ठगोपास्तु तस्यासन्नानादेश्या जनेश्वराः ।\nकेतुमान्वसुदानश्च पुत्रः काश्यस्य चाभिभूः ॥",
+          "meaning": {
+            "en": "The protectors of its rear were kings of various countries: Ketuman, Vasudana, and Abhibhu, the son of the king of Kashi."
+          }
         },
         {
           "n": 21,
-          "text": "ततस्ते तावकाः सर्वे हृष्टा युद्धाय भारत ।\nदध्मुः शङ्खान्मुदा युक्ताः सिंहनादांश्च नादयन् ॥"
+          "text": "ततस्ते तावकाः सर्वे हृष्टा युद्धाय भारत ।\nदध्मुः शङ्खान्मुदा युक्ताः सिंहनादांश्च नादयन् ॥",
+          "meaning": {
+            "en": "Then all your men, delighted, O Bharata, eager for battle, joyfully blew their conches and roared like lions."
+          }
         },
         {
           "n": 22,
-          "text": "तेषां श्रुत्वा तु हृष्टानां कुरुवृद्धः पितामहः ।\nसिंहनादं विनद्योच्चैः शङ्खं दध्मौ प्रतापवान् ॥"
+          "text": "तेषां श्रुत्वा तु हृष्टानां कुरुवृद्धः पितामहः ।\nसिंहनादं विनद्योच्चैः शङ्खं दध्मौ प्रतापवान् ॥",
+          "meaning": {
+            "en": "Hearing their joy, the grandfather, the aged Kuru, mighty, roared a high lion's roar and blew his conch."
+          }
         },
         {
           "n": 23,
-          "text": "ततः शङ्खाश्च भेर्यश्च पेश्यश्च विविधाः परैः ।\nआनकाश्चाभ्यहन्यन्त स शब्दस्तुमुलोऽभवत् ॥"
+          "text": "ततः शङ्खाश्च भेर्यश्च पेश्यश्च विविधाः परैः ।\nआनकाश्चाभ्यहन्यन्त स शब्दस्तुमुलोऽभवत् ॥",
+          "meaning": {
+            "en": "Then conches, kettledrums, tabors and drums of various kinds were struck by the enemy, and a tumultuous noise arose."
+          }
         },
         {
           "n": 24,
-          "text": "ततः श्वेतैर्हयैर्युक्ते महति स्यन्दने स्थितौ ।\nप्रदध्मतुः शङ्खवरौ हेमरत्नपरिष्कृतौ ॥"
+          "text": "ततः श्वेतैर्हयैर्युक्ते महति स्यन्दने स्थितौ ।\nप्रदध्मतुः शङ्खवरौ हेमरत्नपरिष्कृतौ ॥",
+          "meaning": {
+            "en": "Then the two standing in a great chariot yoked to white horses, adorned with gold and jewels, blew their excellent conches."
+          }
         },
         {
           "n": 25,
-          "text": "पाञ्चजन्यं हृषीकेशो देवदत्तं धनंजयः ।\nपौण्ड्रं दध्मौ महाशङ्खं भीमकर्मा वृकोदरः ॥"
+          "text": "पाञ्चजन्यं हृषीकेशो देवदत्तं धनंजयः ।\nपौण्ड्रं दध्मौ महाशङ्खं भीमकर्मा वृकोदरः ॥",
+          "meaning": {
+            "en": "Hrishikesha blew Panchajanya, Dhananjaya Devadatta, and Vrikodara, of fearsome deeds, the great conch Paundra."
+          }
         },
         {
           "n": 26,
-          "text": "अनन्तविजयं राजा कुन्तीपुत्रो युधिष्ठिरः ।\nनकुलः सहदेवश्च सुघोषमणिपुष्पकौ ॥"
+          "text": "अनन्तविजयं राजा कुन्तीपुत्रो युधिष्ठिरः ।\nनकुलः सहदेवश्च सुघोषमणिपुष्पकौ ॥",
+          "meaning": {
+            "en": "King Yudhishthira, son of Kunti, blew Anantavijaya, and Nakula and Sahadeva blew Sughosha and Manipushpaka."
+          }
         },
         {
           "n": 27,
-          "text": "काशिराजश्च शैब्यश्च शिखण्डी च महारथः ।\nधृष्टद्युम्नो विराटश्च सात्यकिश्च महायशाः ॥"
+          "text": "काशिराजश्च शैब्यश्च शिखण्डी च महारथः ।\nधृष्टद्युम्नो विराटश्च सात्यकिश्च महायशाः ॥",
+          "meaning": {
+            "en": "The king of Kashi, Shaibya, the great chariot-warrior Shikhandi, Dhrishtadyumna, Virata, and the very famous Satyaki,"
+          }
         },
         {
           "n": 28,
-          "text": "पाञ्चाल्यश्च महेष्वासो द्रौपद्याः पञ्च चात्मजाः ।\nसर्वे दध्मुर्महाशङ्खान्सिंहनादांश्च नेदिरे ॥"
+          "text": "पाञ्चाल्यश्च महेष्वासो द्रौपद्याः पञ्च चात्मजाः ।\nसर्वे दध्मुर्महाशङ्खान्सिंहनादांश्च नेदिरे ॥",
+          "meaning": {
+            "en": "the great archer prince of Panchala, and the five sons of Draupadi, all blew their great conches and roared lion-roars."
+          }
         },
         {
           "n": 29,
-          "text": "स घोषः सुमहांस्तत्र वीरैस्तैः समुदीरितः ।\nनभश्च पृथिवीं चैव तुमुलो व्यनुनादयत् ॥"
+          "text": "स घोषः सुमहांस्तत्र वीरैस्तैः समुदीरितः ।\nनभश्च पृथिवीं चैव तुमुलो व्यनुनादयत् ॥",
+          "meaning": {
+            "en": "That great sound, raised there by those heroes, thunderously made the sky and the earth echo."
+          }
         },
         {
           "n": 30,
-          "text": "एवमेते महाराज प्रहृष्टाः कुरुपाण्डवाः ।\nपुनर्युद्धाय संजग्मुस्तापयानाः परस्परम् ॥"
+          "text": "एवमेते महाराज प्रहृष्टाः कुरुपाण्डवाः ।\nपुनर्युद्धाय संजग्मुस्तापयानाः परस्परम् ॥",
+          "meaning": {
+            "en": "So, great king, the Kurus and the Pandavas, delighted, came together again for battle, each tormenting the other."
+          }
         }
       ]
     }

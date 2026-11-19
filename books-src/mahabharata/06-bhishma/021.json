@@ -22,75 +22,129 @@
       "titleEn": "Bhagavadgita Parva",
       "verses": [
         {
-          "text": "संजय उवाच"
+          "text": "संजय उवाच",
+          "meaning": {
+            "en": "Sanjaya said:"
+          }
         },
         {
           "n": 1,
-          "text": "बृहतीं धार्तराष्ट्राणां दृष्ट्वा सेनां समुद्यताम् ।\nविषादमगमद्राजा कुन्तीपुत्रो युधिष्ठिरः ॥"
+          "text": "बृहतीं धार्तराष्ट्राणां दृष्ट्वा सेनां समुद्यताम् ।\nविषादमगमद्राजा कुन्तीपुत्रो युधिष्ठिरः ॥",
+          "meaning": {
+            "en": "Seeing the great army of Dhritarashtra's sons prepared, King Yudhishthira, son of Kunti, fell into despondency."
+          }
         },
         {
           "n": 2,
-          "text": "व्यूहं भीष्मेण चाभेद्यं कल्पितं प्रेक्ष्य पाण्डवः ।\nअभेद्यमिव संप्रेक्ष्य विषण्णोऽर्जुनमब्रवीत् ॥"
+          "text": "व्यूहं भीष्मेण चाभेद्यं कल्पितं प्रेक्ष्य पाण्डवः ।\nअभेद्यमिव संप्रेक्ष्य विषण्णोऽर्जुनमब्रवीत् ॥",
+          "meaning": {
+            "en": "Seeing the formation that Bhishma had devised as unbreakable, the Pandava, as if looking at the impregnable, spoke to Arjuna in distress."
+          }
         },
         {
           "n": 3,
-          "text": "धनंजय कथं शक्यमस्माभिर्योद्धुमाहवे ।\nधार्तराष्ट्रैर्महाबाहो येषां योद्धा पितामहः ॥"
+          "text": "धनंजय कथं शक्यमस्माभिर्योद्धुमाहवे ।\nधार्तराष्ट्रैर्महाबाहो येषां योद्धा पितामहः ॥",
+          "meaning": {
+            "en": "\"Dhananjaya, mighty-armed, how can we fight in battle against the Dhritarashtras, whose warrior is the grandsire?\""
+          }
         },
         {
           "n": 4,
-          "text": "अक्षोभ्योऽयमभेद्यश्च भीष्मेणामित्रकर्शिना ।\nकल्पितः शास्त्रदृष्टेन विधिना भूरितेजसा ॥"
+          "text": "अक्षोभ्योऽयमभेद्यश्च भीष्मेणामित्रकर्शिना ।\nकल्पितः शास्त्रदृष्टेन विधिना भूरितेजसा ॥",
+          "meaning": {
+            "en": "\"This formation is unshakable and unbreakable, devised by the great-splendoured Bhishma, tormentor of enemies, by the method seen in the treatises.\""
+          }
         },
         {
           "n": 5,
-          "text": "ते वयं संशयं प्राप्ताः ससैन्याः शत्रुकर्शन ।\nकथमस्मान्महाव्यूहादुद्यानं नो भविष्यति ॥"
+          "text": "ते वयं संशयं प्राप्ताः ससैन्याः शत्रुकर्शन ।\nकथमस्मान्महाव्यूहादुद्यानं नो भविष्यति ॥",
+          "meaning": {
+            "en": "\"Tormentor of foes, we with our army have fallen into doubt; how shall we get out of this great formation?\""
+          }
         },
         {
           "n": 6,
-          "text": "अथार्जुनोऽब्रवीत्पार्थं युधिष्ठिरममित्रहा ।\nविषण्णमभिसंप्रेक्ष्य तव राजन्ननीकिनीम् ॥"
+          "text": "अथार्जुनोऽब्रवीत्पार्थं युधिष्ठिरममित्रहा ।\nविषण्णमभिसंप्रेक्ष्य तव राजन्ननीकिनीम् ॥",
+          "meaning": {
+            "en": "Then Arjuna, slayer of enemies, seeing the Pandava Yudhishthira dejected, spoke about your army, King."
+          }
         },
         {
           "n": 7,
-          "text": "प्रज्ञयाभ्यधिकाञ्शूरान्गुणयुक्तान्बहूनपि ।\nजयन्त्यल्पतरा येन तन्निबोध विशां पते ॥"
+          "text": "प्रज्ञयाभ्यधिकाञ्शूरान्गुणयुक्तान्बहूनपि ।\nजयन्त्यल्पतरा येन तन्निबोध विशां पते ॥",
+          "meaning": {
+            "en": "\"Lord of the people, hear the reason why a smaller force defeats many brave warriors who are superior in intelligence and rich in qualities.\""
+          }
         },
         {
           "n": 8,
-          "text": "तत्तु ते कारणं राजन्प्रवक्ष्याम्यनसूयवे ।\nनारदस्तमृषिर्वेद भीष्मद्रोणौ च पाण्डव ॥"
+          "text": "तत्तु ते कारणं राजन्प्रवक्ष्याम्यनसूयवे ।\nनारदस्तमृषिर्वेद भीष्मद्रोणौ च पाण्डव ॥",
+          "meaning": {
+            "en": "\"King, I will tell you that reason, since you are free from envy. The sage Narada knows it, and so do Bhishma and Drona, Pandava.\""
+          }
         },
         {
           "n": 9,
-          "text": "एतमेवार्थमाश्रित्य युद्धे देवासुरेऽब्रवीत् ।\nपितामहः किल पुरा महेन्द्रादीन्दिवौकसः ॥"
+          "text": "एतमेवार्थमाश्रित्य युद्धे देवासुरेऽब्रवीत् ।\nपितामहः किल पुरा महेन्द्रादीन्दिवौकसः ॥",
+          "meaning": {
+            "en": "\"Relying on just this point, long ago in the war of gods and Asuras the grandsire spoke to Mahendra and the other dwellers in heaven.\""
+          }
         },
         {
           "n": 10,
-          "text": "न तथा बलवीर्याभ्यां विजयन्ते जिगीषवः ।\nयथा सत्यानृशंस्याभ्यां धर्मेणैवोद्यमेन च ॥"
+          "text": "न तथा बलवीर्याभ्यां विजयन्ते जिगीषवः ।\nयथा सत्यानृशंस्याभ्यां धर्मेणैवोद्यमेन च ॥",
+          "meaning": {
+            "en": "\"Those who seek victory do not win by strength and prowess so much as by truth and compassion, by dharma and by effort.\""
+          }
         },
         {
           "n": 11,
-          "text": "त्यक्त्वाधर्मं च लोभं च मोहं चोद्यममास्थिताः ।\nयुध्यध्वमनहंकारा यतो धर्मस्ततो जयः ॥"
+          "text": "त्यक्त्वाधर्मं च लोभं च मोहं चोद्यममास्थिताः ।\nयुध्यध्वमनहंकारा यतो धर्मस्ततो जयः ॥",
+          "meaning": {
+            "en": "\"Giving up unrighteousness, greed and delusion, and relying on effort, fight without egotism; where there is dharma, there is victory.\""
+          }
         },
         {
           "n": 12,
-          "text": "एवं राजन्विजानीहि ध्रुवोऽस्माकं रणे जयः ।\nयथा मे नारदः प्राह यतः कृष्णस्ततो जयः ॥"
+          "text": "एवं राजन्विजानीहि ध्रुवोऽस्माकं रणे जयः ।\nयथा मे नारदः प्राह यतः कृष्णस्ततो जयः ॥",
+          "meaning": {
+            "en": "\"King, understand it so: our victory in the war is certain, as Narada told me: where Krishna is, there is victory.\""
+          }
         },
         {
           "n": 13,
-          "text": "गुणभूतो जयः कृष्णे पृष्ठतोऽन्वेति माधवम् ।\nअन्यथा विजयश्चास्य संनतिश्चापरो गुणः ॥"
+          "text": "गुणभूतो जयः कृष्णे पृष्ठतोऽन्वेति माधवम् ।\nअन्यथा विजयश्चास्य संनतिश्चापरो गुणः ॥",
+          "meaning": {
+            "en": "\"Victory is a quality in Krishna and follows Madhava from behind; his victory comes in other ways too, and humility is another of his qualities.\""
+          }
         },
         {
           "n": 14,
-          "text": "अनन्ततेजा गोविन्दः शत्रुपूगेषु निर्व्यथः ।\nपुरुषः सनातनतमो यतः कृष्णस्ततो जयः ॥"
+          "text": "अनन्ततेजा गोविन्दः शत्रुपूगेषु निर्व्यथः ।\nपुरुषः सनातनतमो यतः कृष्णस्ततो जयः ॥",
+          "meaning": {
+            "en": "\"Govinda, of endless splendour, unshaken among hosts of enemies, the most ancient Person: where Krishna is, there is victory.\""
+          }
         },
         {
           "n": 15,
-          "text": "पुरा ह्येष हरिर्भूत्वा वैकुण्ठोऽकुण्ठसायकः ।\nसुरासुरानवस्फूर्जन्नब्रवीत्के जयन्त्विति ॥"
+          "text": "पुरा ह्येष हरिर्भूत्वा वैकुण्ठोऽकुण्ठसायकः ।\nसुरासुरानवस्फूर्जन्नब्रवीत्के जयन्त्विति ॥",
+          "meaning": {
+            "en": "\"Long ago this Hari, as Vaikuntha with unblunted arrows, roared at the gods and Asuras and said, 'Who shall win?'\""
+          }
         },
         {
           "n": 16,
-          "text": "अनु कृष्णं जयेमेति यैरुक्तं तत्र तैर्जितम् ।\nतत्प्रसादाद्धि त्रैलोक्यं प्राप्तं शक्रादिभिः सुरैः ॥"
+          "text": "अनु कृष्णं जयेमेति यैरुक्तं तत्र तैर्जितम् ।\nतत्प्रसादाद्धि त्रैलोक्यं प्राप्तं शक्रादिभिः सुरैः ॥",
+          "meaning": {
+            "en": "\"Those who said, 'Let us win by following Krishna,' won there; by his grace Shakra and the other gods gained the three worlds.\""
+          }
         },
         {
           "n": 17,
-          "text": "तस्य ते न व्यथां कांचिदिह पश्यामि भारत ।\nयस्य ते जयमाशास्ते विश्वभुक्त्रिदशेश्वरः ॥"
+          "text": "तस्य ते न व्यथां कांचिदिह पश्यामि भारत ।\nयस्य ते जयमाशास्ते विश्वभुक्त्रिदशेश्वरः ॥",
+          "meaning": {
+            "en": "\"Bharata, I see no cause for you to be distressed here, for the lord of the gods, who enjoys the universe, wishes you victory.\""
+          }
         }
       ]
     }

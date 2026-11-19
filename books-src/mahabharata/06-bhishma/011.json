@@ -22,66 +22,114 @@
       "titleEn": "Jambukhandavinirmana Parva (Description of Jambudvipa)",
       "verses": [
         {
-          "text": "धृतराष्ट्र उवाच"
+          "text": "धृतराष्ट्र उवाच",
+          "meaning": {
+            "en": "Dhritarashtra said:"
+          }
         },
         {
           "n": 1,
-          "text": "भारतस्यास्य वर्षस्य तथा हैमवतस्य च ।\nप्रमाणमायुषः सूत फलं चापि शुभाशुभम् ॥"
+          "text": "भारतस्यास्य वर्षस्य तथा हैमवतस्य च ।\nप्रमाणमायुषः सूत फलं चापि शुभाशुभम् ॥",
+          "meaning": {
+            "en": "Charioteer, tell me the measure of life, and the good and bad results, in this land of Bharata and in Haimavata."
+          }
         },
         {
           "n": 2,
-          "text": "अनागतमतिक्रान्तं वर्तमानं च संजय ।\nआचक्ष्व मे विस्तरेण हरिवर्षं तथैव च ॥"
+          "text": "अनागतमतिक्रान्तं वर्तमानं च संजय ।\nआचक्ष्व मे विस्तरेण हरिवर्षं तथैव च ॥",
+          "meaning": {
+            "en": "Sanjaya, tell me in detail of the future, the past and the present, and of Harivarsha as well."
+          }
         },
         {
-          "text": "संजय उवाच"
+          "text": "संजय उवाच",
+          "meaning": {
+            "en": "Sanjaya said:"
+          }
         },
         {
           "n": 3,
-          "text": "चत्वारि भारते वर्षे युगानि भरतर्षभ ।\nकृतं त्रेता द्वापरं च पुष्यं च कुरुवर्धन ॥"
+          "text": "चत्वारि भारते वर्षे युगानि भरतर्षभ ।\nकृतं त्रेता द्वापरं च पुष्यं च कुरुवर्धन ॥",
+          "meaning": {
+            "en": "In the land of Bharata, best of the Bharatas, there are four ages: Krita, Treta, Dvapara and Pushya, prosperer of the Kurus."
+          }
         },
         {
           "n": 4,
-          "text": "पूर्वं कृतयुगं नाम ततस्त्रेतायुगं विभो ।\nसंक्षेपाद्द्वापरस्याथ ततः पुष्यं प्रवर्तते ॥"
+          "text": "पूर्वं कृतयुगं नाम ततस्त्रेतायुगं विभो ।\nसंक्षेपाद्द्वापरस्याथ ततः पुष्यं प्रवर्तते ॥",
+          "meaning": {
+            "en": "First comes the age called Krita, then, Lord, the Treta; then briefly the Dvapara, and after it the Pushya sets in."
+          }
         },
         {
           "n": 5,
-          "text": "चत्वारि च सहस्राणि वर्षाणां कुरुसत्तम ।\nआयुःसंख्या कृतयुगे संख्याता राजसत्तम ॥"
+          "text": "चत्वारि च सहस्राणि वर्षाणां कुरुसत्तम ।\nआयुःसंख्या कृतयुगे संख्याता राजसत्तम ॥",
+          "meaning": {
+            "en": "Best of the Kurus, the span of life in the Krita age is reckoned at four thousand years, best of kings."
+          }
         },
         {
           "n": 6,
-          "text": "तथा त्रीणि सहस्राणि त्रेतायां मनुजाधिप ।\nद्विसहस्रं द्वापरे तु शते तिष्ठति संप्रति ॥"
+          "text": "तथा त्रीणि सहस्राणि त्रेतायां मनुजाधिप ।\nद्विसहस्रं द्वापरे तु शते तिष्ठति संप्रति ॥",
+          "meaning": {
+            "en": "In the Treta, lord of men, it is three thousand; in the Dvapara two thousand, and now it stands at a hundred."
+          }
         },
         {
           "n": 7,
-          "text": "न प्रमाणस्थितिर्ह्यस्ति पुष्येऽस्मिन्भरतर्षभ ।\nगर्भस्थाश्च म्रियन्तेऽत्र तथा जाता म्रियन्ति च ॥"
+          "text": "न प्रमाणस्थितिर्ह्यस्ति पुष्येऽस्मिन्भरतर्षभ ।\nगर्भस्थाश्च म्रियन्तेऽत्र तथा जाता म्रियन्ति च ॥",
+          "meaning": {
+            "en": "Best of the Bharatas, in this Pushya age there is no fixed measure; people die even in the womb, and die after birth."
+          }
         },
         {
           "n": 8,
-          "text": "महाबला महासत्त्वाः प्रजागुणसमन्विताः ।\nअजायन्त कृते राजन्मुनयः सुतपोधनाः ॥"
+          "text": "महाबला महासत्त्वाः प्रजागुणसमन्विताः ।\nअजायन्त कृते राजन्मुनयः सुतपोधनाः ॥",
+          "meaning": {
+            "en": "King, in the Krita age were born great sages, mighty and strong, of great austerity and endowed with the virtues of their people."
+          }
         },
         {
           "n": 9,
-          "text": "महोत्साहा महात्मानो धार्मिकाः सत्यवादिनः ।\nजाताः कृतयुगे राजन्धनिनः प्रियदर्शनाः ॥"
+          "text": "महोत्साहा महात्मानो धार्मिकाः सत्यवादिनः ।\nजाताः कृतयुगे राजन्धनिनः प्रियदर्शनाः ॥",
+          "meaning": {
+            "en": "In the Krita age, King, people were energetic, great-souled, dutiful and truthful, rich and pleasing to see."
+          }
         },
         {
           "n": 10,
-          "text": "आयुष्मन्तो महावीरा धनुर्धरवरा युधि ।\nजायन्ते क्षत्रियाः शूरास्त्रेतायां चक्रवर्तिनः ॥"
+          "text": "आयुष्मन्तो महावीरा धनुर्धरवरा युधि ।\nजायन्ते क्षत्रियाः शूरास्त्रेतायां चक्रवर्तिनः ॥",
+          "meaning": {
+            "en": "In the Treta, long-lived, great heroes arise: Kshatriyas, brave, foremost archers in battle, who become universal rulers."
+          }
         },
         {
           "n": 11,
-          "text": "सर्ववर्णा महाराज जायन्ते द्वापरे सति ।\nमहोत्साहा महावीर्याः परस्परवधैषिणः ॥"
+          "text": "सर्ववर्णा महाराज जायन्ते द्वापरे सति ।\nमहोत्साहा महावीर्याः परस्परवधैषिणः ॥",
+          "meaning": {
+            "en": "In the Dvapara, great king, people of all classes are born, full of energy and strength, and wishing to kill one another."
+          }
         },
         {
           "n": 12,
-          "text": "तेजसाल्पेन संयुक्ताः क्रोधनाः पुरुषा नृप ।\nलुब्धाश्चानृतकाश्चैव पुष्ये जायन्ति भारत ॥"
+          "text": "तेजसाल्पेन संयुक्ताः क्रोधनाः पुरुषा नृप ।\nलुब्धाश्चानृतकाश्चैव पुष्ये जायन्ति भारत ॥",
+          "meaning": {
+            "en": "King, in the Pushya age people are born with little splendour, quick to anger, greedy and false, Bharata."
+          }
         },
         {
           "n": 13,
-          "text": "ईर्ष्या मानस्तथा क्रोधो मायासूया तथैव च ।\nपुष्ये भवन्ति मर्त्यानां रागो लोभश्च भारत ॥"
+          "text": "ईर्ष्या मानस्तथा क्रोधो मायासूया तथैव च ।\nपुष्ये भवन्ति मर्त्यानां रागो लोभश्च भारत ॥",
+          "meaning": {
+            "en": "In the Pushya age, Bharata, mortals have jealousy, pride, anger, deceit, envy, desire and greed."
+          }
         },
         {
           "n": 14,
-          "text": "संक्षेपो वर्तते राजन्द्वापरेऽस्मिन्नराधिप ।\nगुणोत्तरं हैमवतं हरिवर्षं ततः परम् ॥"
+          "text": "संक्षेपो वर्तते राजन्द्वापरेऽस्मिन्नराधिप ।\nगुणोत्तरं हैमवतं हरिवर्षं ततः परम् ॥",
+          "meaning": {
+            "en": "King, in this Dvapara there is a shrinking; Haimavata excels it, and Harivarsha is better still."
+          }
         }
       ]
     }

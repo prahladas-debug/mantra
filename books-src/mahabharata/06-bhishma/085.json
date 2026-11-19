@@ -22,154 +22,268 @@
       "titleEn": "Bhishmavadha Parva (The fall of Bhishma)",
       "verses": [
         {
-          "text": "धृतराष्ट्र उवाच"
+          "text": "धृतराष्ट्र उवाच",
+          "meaning": {
+            "en": "Dhritarashtra said:"
+          }
         },
         {
           "n": 1,
-          "text": "दृष्ट्वा मम हतान्पुत्रान्बहूनेकेन संजय ।\nभीष्मो द्रोणः कृपश्चैव किमकुर्वत संयुगे ॥"
+          "text": "दृष्ट्वा मम हतान्पुत्रान्बहूनेकेन संजय ।\nभीष्मो द्रोणः कृपश्चैव किमकुर्वत संयुगे ॥",
+          "meaning": {
+            "en": "Sanjaya, when Bhishma, Drona and Kripa saw my many sons being killed by one man, what did they do in the battle?"
+          }
         },
         {
           "n": 2,
-          "text": "अहन्यहनि मे पुत्राः क्षयं गच्छन्ति संजय ।\nमन्येऽहं सर्वथा सूत दैवेनोपहता भृशम् ॥"
+          "text": "अहन्यहनि मे पुत्राः क्षयं गच्छन्ति संजय ।\nमन्येऽहं सर्वथा सूत दैवेनोपहता भृशम् ॥",
+          "meaning": {
+            "en": "Day after day my sons go to their destruction, Sanjaya. I think, charioteer, that they are utterly struck down by fate."
+          }
         },
         {
           "n": 3,
-          "text": "यत्र मे तनयाः सर्वे जीयन्ते न जयन्त्युत ।\nयत्र भीष्मस्य द्रोणस्य कृपस्य च महात्मनः ॥"
+          "text": "यत्र मे तनयाः सर्वे जीयन्ते न जयन्त्युत ।\nयत्र भीष्मस्य द्रोणस्य कृपस्य च महात्मनः ॥",
+          "meaning": {
+            "en": "Where all my sons are beaten and do not win, though Bhishma, Drona and the great-souled Kripa are there,"
+          }
         },
         {
           "n": 4,
-          "text": "सौमदत्तेश्च वीरस्य भगदत्तस्य चोभयोः ।\nअश्वत्थाम्नस्तथा तात शूराणां सुमहात्मनाम् ॥"
+          "text": "सौमदत्तेश्च वीरस्य भगदत्तस्य चोभयोः ।\nअश्वत्थाम्नस्तथा तात शूराणां सुमहात्मनाम् ॥",
+          "meaning": {
+            "en": "and the heroic son of Somadatta and Bhagadatta both, and Ashvatthama, dear one, and other brave and great-souled heroes,"
+          }
         },
         {
           "n": 5,
-          "text": "अन्येषां चैव वीराणां मध्यगास्तनया मम ।\nयदहन्यन्त संग्रामे किमन्यद्भागधेयतः ॥"
+          "text": "अन्येषां चैव वीराणां मध्यगास्तनया मम ।\nयदहन्यन्त संग्रामे किमन्यद्भागधेयतः ॥",
+          "meaning": {
+            "en": "if my sons are being killed in battle in the midst of such heroes, what is that but destiny?"
+          }
         },
         {
           "n": 6,
-          "text": "न हि दुर्योधनो मन्दः पुरा प्रोक्तमबुध्यत ।\nवार्यमाणो मया तात भीष्मेण विदुरेण च ॥"
+          "text": "न हि दुर्योधनो मन्दः पुरा प्रोक्तमबुध्यत ।\nवार्यमाणो मया तात भीष्मेण विदुरेण च ॥",
+          "meaning": {
+            "en": "For the fool Duryodhana did not take in what was said to him, though I, Bhishma and Vidura tried to restrain him, dear one,"
+          }
         },
         {
           "n": 7,
-          "text": "गान्धार्या चैव दुर्मेधाः सततं हितकाम्यया ।\nनावबुध्यत्पुरा मोहात्तस्य प्राप्तमिदं फलम् ॥"
+          "text": "गान्धार्या चैव दुर्मेधाः सततं हितकाम्यया ।\nनावबुध्यत्पुरा मोहात्तस्य प्राप्तमिदं फलम् ॥",
+          "meaning": {
+            "en": "and Gandhari too, always wishing him well. The dull-witted one did not understand in his delusion, and this is the fruit of it."
+          }
         },
         {
           "n": 8,
-          "text": "यद्भीमसेनः समरे पुत्रान्मम विचेतसः ।\nअहन्यहनि संक्रुद्धो नयते यमसादनम् ॥"
+          "text": "यद्भीमसेनः समरे पुत्रान्मम विचेतसः ।\nअहन्यहनि संक्रुद्धो नयते यमसादनम् ॥",
+          "meaning": {
+            "en": "Now Bhimasena, enraged day after day, sends my senseless sons to Yama's house in battle."
+          }
         },
         {
-          "text": "संजय उवाच"
+          "text": "संजय उवाच",
+          "meaning": {
+            "en": "Sanjaya said:"
+          }
         },
         {
           "n": 9,
-          "text": "इदं तत्समनुप्राप्तं क्षत्तुर्वचनमुत्तमम् ।\nन बुद्धवानसि विभो प्रोच्यमानं हितं तदा ॥"
+          "text": "इदं तत्समनुप्राप्तं क्षत्तुर्वचनमुत्तमम् ।\nन बुद्धवानसि विभो प्रोच्यमानं हितं तदा ॥",
+          "meaning": {
+            "en": "This is what has come of the excellent words of Kshatta, Vidura, O lord. You did not understand then the good that was said to you."
+          }
         },
         {
           "n": 10,
-          "text": "निवारय सुतान्द्यूतात्पाण्डवान्मा द्रुहेति च ।\nसुहृदां हितकामानां ब्रुवतां तत्तदेव च ॥"
+          "text": "निवारय सुतान्द्यूतात्पाण्डवान्मा द्रुहेति च ।\nसुहृदां हितकामानां ब्रुवतां तत्तदेव च ॥",
+          "meaning": {
+            "en": "\"Keep your sons from the dice game, and do not wrong the Pandavas,\" your well-wishing friends told you, saying just this again and again."
+          }
         },
         {
           "n": 11,
-          "text": "न शुश्रूषसि यद्वाक्यं मर्त्यः पथ्यमिवौषधम् ।\nतदेव त्वामनुप्राप्तं वचनं साधु भाषितम् ॥"
+          "text": "न शुश्रूषसि यद्वाक्यं मर्त्यः पथ्यमिवौषधम् ।\nतदेव त्वामनुप्राप्तं वचनं साधु भाषितम् ॥",
+          "meaning": {
+            "en": "You did not heed the advice, as a sick man does not heed wholesome medicine; those same well-spoken words have now come upon you."
+          }
         },
         {
           "n": 12,
-          "text": "विदुरद्रोणभीष्माणां तथान्येषां हितैषिणाम् ।\nअकृत्वा वचनं पथ्यं क्षयं गच्छन्ति कौरवाः ॥"
+          "text": "विदुरद्रोणभीष्माणां तथान्येषां हितैषिणाम् ।\nअकृत्वा वचनं पथ्यं क्षयं गच्छन्ति कौरवाः ॥",
+          "meaning": {
+            "en": "By not acting on the wholesome advice of Vidura, Drona, Bhishma and the other well-wishers, the Kauravas go to destruction."
+          }
         },
         {
           "n": 13,
-          "text": "तदेतत्समतिक्रान्तं पूर्वमेव विशां पते ।\nतस्मान्मे शृणु तत्त्वेन यथा युद्धमवर्तत ॥"
+          "text": "तदेतत्समतिक्रान्तं पूर्वमेव विशां पते ।\nतस्मान्मे शृणु तत्त्वेन यथा युद्धमवर्तत ॥",
+          "meaning": {
+            "en": "That is now long past, O lord of men. So listen to me truthfully about how the battle went on."
+          }
         },
         {
           "n": 14,
-          "text": "मध्याह्ने सुमहारौद्रः संग्रामः समपद्यत ।\nलोकक्षयकरो राजंस्तन्मे निगदतः शृणु ॥"
+          "text": "मध्याह्ने सुमहारौद्रः संग्रामः समपद्यत ।\nलोकक्षयकरो राजंस्तन्मे निगदतः शृणु ॥",
+          "meaning": {
+            "en": "At midday a very terrible battle took place, one that destroys the world, O king. Hear it as I tell it."
+          }
         },
         {
           "n": 15,
-          "text": "ततः सर्वाणि सैन्यानि धर्मपुत्रस्य शासनात् ।\nसंरब्धान्यभ्यधावन्त भीष्ममेव जिघांसया ॥"
+          "text": "ततः सर्वाणि सैन्यानि धर्मपुत्रस्य शासनात् ।\nसंरब्धान्यभ्यधावन्त भीष्ममेव जिघांसया ॥",
+          "meaning": {
+            "en": "Then, at the command of the son of Dharma, all the armies, roused up, ran at Bhishma, wishing to kill him."
+          }
         },
         {
           "n": 16,
-          "text": "धृष्टद्युम्नः शिखण्डी च सात्यकिश्च महारथः ।\nयुक्तानीका महाराज भीष्ममेव समभ्ययुः ॥"
+          "text": "धृष्टद्युम्नः शिखण्डी च सात्यकिश्च महारथः ।\nयुक्तानीका महाराज भीष्ममेव समभ्ययुः ॥",
+          "meaning": {
+            "en": "Dhrishtadyumna, Shikhandi and the great chariot-warrior Satyaki, with their divisions in order, went straight at Bhishma, O great king."
+          }
         },
         {
           "n": 17,
-          "text": "अर्जुनो द्रौपदेयाश्च चेकितानश्च संयुगे ।\nदुर्योधनसमादिष्टान्राज्ञः सर्वान्समभ्ययुः ॥"
+          "text": "अर्जुनो द्रौपदेयाश्च चेकितानश्च संयुगे ।\nदुर्योधनसमादिष्टान्राज्ञः सर्वान्समभ्ययुः ॥",
+          "meaning": {
+            "en": "Arjuna, the sons of Draupadi and Chekitana went in the battle against all the kings Duryodhana had appointed."
+          }
         },
         {
           "n": 18,
-          "text": "अभिमन्युस्तथा वीरो हैडिम्बश्च महारथः ।\nभीमसेनश्च संक्रुद्धस्तेऽभ्यधावन्त कौरवान् ॥"
+          "text": "अभिमन्युस्तथा वीरो हैडिम्बश्च महारथः ।\nभीमसेनश्च संक्रुद्धस्तेऽभ्यधावन्त कौरवान् ॥",
+          "meaning": {
+            "en": "Abhimanyu, the hero, the great chariot-warrior son of Hidimba, and enraged Bhimasena charged the Kauravas."
+          }
         },
         {
           "n": 19,
-          "text": "त्रिधाभूतैरवध्यन्त पाण्डवैः कौरवा युधि ।\nतथैव कौरवे राजन्नवध्यन्त परे रणे ॥"
+          "text": "त्रिधाभूतैरवध्यन्त पाण्डवैः कौरवा युधि ।\nतथैव कौरवे राजन्नवध्यन्त परे रणे ॥",
+          "meaning": {
+            "en": "The Kauravas were struck down in the battle by the Pandavas in three groups, and in the same way the enemy were struck down in the fight by the Kauravas, O king."
+          }
         },
         {
           "n": 20,
-          "text": "द्रोणस्तु रथिनां श्रेष्ठः सोमकान्सृञ्जयैः सह ।\nअभ्यद्रवत संक्रुद्धः प्रेषयिष्यन्यमक्षयम् ॥"
+          "text": "द्रोणस्तु रथिनां श्रेष्ठः सोमकान्सृञ्जयैः सह ।\nअभ्यद्रवत संक्रुद्धः प्रेषयिष्यन्यमक्षयम् ॥",
+          "meaning": {
+            "en": "Drona, best of charioteers, enraged, rushed at the Somakas and Srinjayas, wishing to send them to Yama's house."
+          }
         },
         {
           "n": 21,
-          "text": "तत्राक्रन्दो महानासीत्सृञ्जयानां महात्मनाम् ।\nवध्यतां समरे राजन्भारद्वाजेन धन्विना ॥"
+          "text": "तत्राक्रन्दो महानासीत्सृञ्जयानां महात्मनाम् ।\nवध्यतां समरे राजन्भारद्वाजेन धन्विना ॥",
+          "meaning": {
+            "en": "A great wail rose there among the great-souled Srinjayas as they were slaughtered in the battle by the archer, son of Bharadvaja."
+          }
         },
         {
           "n": 22,
-          "text": "द्रोणेन निहतास्तत्र क्षत्रिया बहवो रणे ।\nविवेष्टन्तः स्म दृश्यन्ते व्याधिक्लिष्टा नरा इव ॥"
+          "text": "द्रोणेन निहतास्तत्र क्षत्रिया बहवो रणे ।\nविवेष्टन्तः स्म दृश्यन्ते व्याधिक्लिष्टा नरा इव ॥",
+          "meaning": {
+            "en": "Many kshatriyas killed there by Drona were seen writhing like men tormented by sickness."
+          }
         },
         {
           "n": 23,
-          "text": "कूजतां क्रन्दतां चैव स्तनतां चैव संयुगे ।\nअनिशं श्रूयते शब्दः क्षुत्कृशानां नृणामिव ॥"
+          "text": "कूजतां क्रन्दतां चैव स्तनतां चैव संयुगे ।\nअनिशं श्रूयते शब्दः क्षुत्कृशानां नृणामिव ॥",
+          "meaning": {
+            "en": "Cries, wails and groans could be heard without pause in the battle, like the sounds of men wasted with hunger."
+          }
         },
         {
           "n": 24,
-          "text": "तथैव कौरवेयाणां भीमसेनो महाबलः ।\nचकार कदनं घोरं क्रुद्धः काल इवापरः ॥"
+          "text": "तथैव कौरवेयाणां भीमसेनो महाबलः ।\nचकार कदनं घोरं क्रुद्धः काल इवापरः ॥",
+          "meaning": {
+            "en": "In the same way mighty Bhimasena brought terrible slaughter on the Kauravas, enraged like a second Time."
+          }
         },
         {
           "n": 25,
-          "text": "वध्यतां तत्र सैन्यानामन्योन्येन महारणे ।\nप्रावर्तत नदी घोरा रुधिरौघप्रवाहिनी ॥"
+          "text": "वध्यतां तत्र सैन्यानामन्योन्येन महारणे ।\nप्रावर्तत नदी घोरा रुधिरौघप्रवाहिनी ॥",
+          "meaning": {
+            "en": "As the armies killed one another in that great battle, a terrible river arose, flowing in floods of blood."
+          }
         },
         {
           "n": 26,
-          "text": "स संग्रामो महाराज घोररूपोऽभवन्महान् ।\nकुरूणां पाण्डवानां च यमराष्ट्रविवर्धनः ॥"
+          "text": "स संग्रामो महाराज घोररूपोऽभवन्महान् ।\nकुरूणां पाण्डवानां च यमराष्ट्रविवर्धनः ॥",
+          "meaning": {
+            "en": "That great battle of the Kurus and the Pandavas, O great king, took on a terrible form and swelled the realm of Yama."
+          }
         },
         {
           "n": 27,
-          "text": "ततो भीमो रणे क्रुद्धो रभसश्च विशेषतः ।\nगजानीकं समासाद्य प्रेषयामास मृत्यवे ॥"
+          "text": "ततो भीमो रणे क्रुद्धो रभसश्च विशेषतः ।\nगजानीकं समासाद्य प्रेषयामास मृत्यवे ॥",
+          "meaning": {
+            "en": "Then Bhima, enraged and especially fierce in the battle, fell upon the elephant division and sent it to death."
+          }
         },
         {
           "n": 28,
-          "text": "तत्र भारत भीमेन नाराचाभिहता गजाः ।\nपेतुः सेदुश्च नेदुश्च दिशश्च परिबभ्रमुः ॥"
+          "text": "तत्र भारत भीमेन नाराचाभिहता गजाः ।\nपेतुः सेदुश्च नेदुश्च दिशश्च परिबभ्रमुः ॥",
+          "meaning": {
+            "en": "There, O Bharata, the elephants struck by Bhima's iron arrows fell, sank down, trumpeted and wandered in all directions."
+          }
         },
         {
           "n": 29,
-          "text": "छिन्नहस्ता महानागाश्छिन्नपादाश्च मारिष ।\nक्रौञ्चवद्व्यनदन्भीताः पृथिवीमधिशिश्यिरे ॥"
+          "text": "छिन्नहस्ता महानागाश्छिन्नपादाश्च मारिष ।\nक्रौञ्चवद्व्यनदन्भीताः पृथिवीमधिशिश्यिरे ॥",
+          "meaning": {
+            "en": "Great elephants with severed trunks and cut-off feet, O revered one, cried like curlews in fear and lay on the earth."
+          }
         },
         {
           "n": 30,
-          "text": "नकुलः सहदेवश्च हयानीकमभिद्रुतौ ।\nते हयाः काञ्चनापीडा रुक्मभाण्डपरिच्छदाः ।\nवध्यमाना व्यदृश्यन्त शतशोऽथ सहस्रशः ॥"
+          "text": "नकुलः सहदेवश्च हयानीकमभिद्रुतौ ।\nते हयाः काञ्चनापीडा रुक्मभाण्डपरिच्छदाः ।\nवध्यमाना व्यदृश्यन्त शतशोऽथ सहस्रशः ॥",
+          "meaning": {
+            "en": "Nakula and Sahadeva charged the horse division. Those horses, with gold fittings and golden trappings, were seen being killed by the hundreds and thousands."
+          }
         },
         {
           "n": 31,
-          "text": "पतद्भिश्च हयै राजन्समास्तीर्यत मेदिनी ।\nनिर्जिह्वैश्च श्वसद्भिश्च कूजद्भिश्च गतासुभिः ।\nहयैर्बभौ नरश्रेष्ठ नानारूपधरैर्धरा ॥"
+          "text": "पतद्भिश्च हयै राजन्समास्तीर्यत मेदिनी ।\nनिर्जिह्वैश्च श्वसद्भिश्च कूजद्भिश्च गतासुभिः ।\nहयैर्बभौ नरश्रेष्ठ नानारूपधरैर्धरा ॥",
+          "meaning": {
+            "en": "As the horses fell, O king, the ground was strewn with them. With tongues hanging out, gasping, whinnying and lifeless, the horses in many shapes made the earth look fearful, best of men."
+          }
         },
         {
           "n": 32,
-          "text": "अर्जुनेन हतैः संख्ये तथा भारत वाजिभिः ।\nप्रबभौ वसुधा घोरा तत्र तत्र विशां पते ॥"
+          "text": "अर्जुनेन हतैः संख्ये तथा भारत वाजिभिः ।\nप्रबभौ वसुधा घोरा तत्र तत्र विशां पते ॥",
+          "meaning": {
+            "en": "With the horses killed by Arjuna in the battle too, O Bharata, the earth looked terrible here and there, O lord of men."
+          }
         },
         {
           "n": 33,
-          "text": "रथैर्भग्नैर्ध्वजैश्छिन्नैश्छत्रैश्च सुमहाप्रभैः ।\nहारैर्निष्कैः सकेयूरैः शिरोभिश्च सकुण्डलैः ॥"
+          "text": "रथैर्भग्नैर्ध्वजैश्छिन्नैश्छत्रैश्च सुमहाप्रभैः ।\nहारैर्निष्कैः सकेयूरैः शिरोभिश्च सकुण्डलैः ॥",
+          "meaning": {
+            "en": "With broken chariots, cut banners and very bright umbrellas, with necklaces, gold ornaments, armlets, and heads with earrings,"
+          }
         },
         {
           "n": 34,
-          "text": "उष्णीषैरपविद्धैश्च पताकाभिश्च सर्वषः ।\nअनुकर्षैः शुभै राजन्योक्त्रैश्चव्यसुरश्मिभिः ।\nसंछन्ना वसुधा भाति वसन्ते कुसुमैरिव ॥"
+          "text": "उष्णीषैरपविद्धैश्च पताकाभिश्च सर्वषः ।\nअनुकर्षैः शुभै राजन्योक्त्रैश्चव्यसुरश्मिभिः ।\nसंछन्ना वसुधा भाति वसन्ते कुसुमैरिव ॥",
+          "meaning": {
+            "en": "with turbans thrown aside, flags everywhere, fine chariot-fittings, yoke-straps and reins, the earth looked covered, like the earth in spring with flowers."
+          }
         },
         {
           "n": 35,
-          "text": "एवमेष क्षयो वृत्तः पाण्डूनामपि भारत ।\nक्रुद्धे शांतनवे भीष्मे द्रोणे च रथसत्तमे ॥"
+          "text": "एवमेष क्षयो वृत्तः पाण्डूनामपि भारत ।\nक्रुद्धे शांतनवे भीष्मे द्रोणे च रथसत्तमे ॥",
+          "meaning": {
+            "en": "In this way destruction came to the Pandavas too, O Bharata, when Bhishma, son of Shantanu, and Drona, best of charioteers, were enraged,"
+          }
         },
         {
           "n": 36,
-          "text": "अश्वत्थाम्नि कृपे चैव तथैव कृतवर्मणि ।\nतथेतरेषु क्रुद्धेषु तावकानामपि क्षयः ॥"
+          "text": "अश्वत्थाम्नि कृपे चैव तथैव कृतवर्मणि ।\nतथेतरेषु क्रुद्धेषु तावकानामपि क्षयः ॥",
+          "meaning": {
+            "en": "and likewise Ashvatthama, Kripa and Kritavarman; and when the others were enraged, there was destruction among your men as well."
+          }
         }
       ]
     }

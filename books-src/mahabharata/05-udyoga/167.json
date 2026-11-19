@@ -22,63 +22,108 @@
       "titleEn": "Rathatirathasankhya Parva (Counting the warriors)",
       "verses": [
         {
-          "text": "भीष्म उवाच"
+          "text": "भीष्म उवाच",
+          "meaning": {
+            "en": "Bhishma said:"
+          }
         },
         {
           "n": 1,
-          "text": "द्रौपदेया महाराज सर्वे पञ्च महारथाः ।\nवैराटिरुत्तरश्चैव रथो मम महान्मतः ॥"
+          "text": "द्रौपदेया महाराज सर्वे पञ्च महारथाः ।\nवैराटिरुत्तरश्चैव रथो मम महान्मतः ॥",
+          "meaning": {
+            "en": "The sons of Draupadi, great king, are all five great chariot-warriors, and Virata's son Uttara I count as a great chariot-warrior too."
+          }
         },
         {
           "n": 2,
-          "text": "अभिमन्युर्महाराज रथयूथपयूथपः ।\nसमः पार्थेन समरे वासुदेवेन वा भवेत् ॥"
+          "text": "अभिमन्युर्महाराज रथयूथपयूथपः ।\nसमः पार्थेन समरे वासुदेवेन वा भवेत् ॥",
+          "meaning": {
+            "en": "Abhimanyu, great king, is the leader of the leaders of chariot-fighters; in battle he can match Partha or Vasudeva."
+          }
         },
         {
           "n": 3,
-          "text": "लघ्वस्त्रश्चित्रयोधी च मनस्वी दृढविक्रमः ।\nसंस्मरन्वै परिक्लेशं स्वपितुर्विक्रमिष्यति ॥"
+          "text": "लघ्वस्त्रश्चित्रयोधी च मनस्वी दृढविक्रमः ।\nसंस्मरन्वै परिक्लेशं स्वपितुर्विक्रमिष्यति ॥",
+          "meaning": {
+            "en": "Swift with weapons, a varied fighter, spirited and firm in valor, remembering the suffering of his own father, he will show his might."
+          }
         },
         {
           "n": 4,
-          "text": "सात्यकिर्माधवः शूरो रथयूथपयूथपः ।\nएष वृष्णिप्रवीराणाममर्षी जितसाध्वसः ॥"
+          "text": "सात्यकिर्माधवः शूरो रथयूथपयूथपः ।\nएष वृष्णिप्रवीराणाममर्षी जितसाध्वसः ॥",
+          "meaning": {
+            "en": "Satyaki of the Madhava line, the hero, is a leader of the leaders of chariot-fighters; he is the intolerant champion of the Vrishnis, and has conquered fear."
+          }
         },
         {
           "n": 5,
-          "text": "उत्तमौजास्तथा राजन्रथो मम महान्मतः ।\nयुधामन्युश्च विक्रान्तो रथोदारो नरर्षभः ॥"
+          "text": "उत्तमौजास्तथा राजन्रथो मम महान्मतः ।\nयुधामन्युश्च विक्रान्तो रथोदारो नरर्षभः ॥",
+          "meaning": {
+            "en": "Uttamaujas, king, I count a great chariot-warrior, and Yudhamanyu too, valiant, a noble chariot-warrior and bull among men."
+          }
         },
         {
           "n": 6,
-          "text": "एतेषां बहुसाहस्रा रथा नागा हयास्तथा ।\nयोत्स्यन्ते ते तनुं त्यक्त्वा कुन्तीपुत्रप्रियेप्सया ॥"
+          "text": "एतेषां बहुसाहस्रा रथा नागा हयास्तथा ।\nयोत्स्यन्ते ते तनुं त्यक्त्वा कुन्तीपुत्रप्रियेप्सया ॥",
+          "meaning": {
+            "en": "Many thousands of chariots, elephants and horses of theirs will fight, giving up their bodies to please the son of Kunti."
+          }
         },
         {
           "n": 7,
-          "text": "पाण्डवैः सह राजेन्द्र तव सेनासु भारत ।\nअग्निमारुतवद्राजन्नाह्वयन्तः परस्परम् ॥"
+          "text": "पाण्डवैः सह राजेन्द्र तव सेनासु भारत ।\nअग्निमारुतवद्राजन्नाह्वयन्तः परस्परम् ॥",
+          "meaning": {
+            "en": "Along with the Pandavas, king of kings, they will clash with your armies, Bharata, calling each other out like fire and wind."
+          }
         },
         {
           "n": 8,
-          "text": "अजेयौ समरे वृद्धौ विराटद्रुपदावुभौ ।\nमहारथौ महावीर्यौ मतौ मे पुरुषर्षभौ ॥"
+          "text": "अजेयौ समरे वृद्धौ विराटद्रुपदावुभौ ।\nमहारथौ महावीर्यौ मतौ मे पुरुषर्षभौ ॥",
+          "meaning": {
+            "en": "The two old kings Virata and Drupada are invincible in battle; I count them great chariot-warriors of great valor, bulls among men."
+          }
         },
         {
           "n": 9,
-          "text": "वयोवृद्धावपि तु तौ क्षत्रधर्मपरायणौ ।\nयतिष्येते परं शक्त्या स्थितौ वीरगते पथि ॥"
+          "text": "वयोवृद्धावपि तु तौ क्षत्रधर्मपरायणौ ।\nयतिष्येते परं शक्त्या स्थितौ वीरगते पथि ॥",
+          "meaning": {
+            "en": "Though old in years, they are devoted to Kshatriya duty and, standing on the hero's path, will strive with all their strength."
+          }
         },
         {
           "n": 10,
-          "text": "संबन्धकेन राजेन्द्र तौ तु वीर्यबलान्वयात् ।\nआर्यवृत्तौ महेष्वासौ स्नेहपाशसितावुभौ ॥"
+          "text": "संबन्धकेन राजेन्द्र तौ तु वीर्यबलान्वयात् ।\nआर्यवृत्तौ महेष्वासौ स्नेहपाशसितावुभौ ॥",
+          "meaning": {
+            "en": "Through their kinship, king of kings, and through strength and valor and lineage, both great archers of noble conduct are bound by cords of affection."
+          }
         },
         {
           "n": 11,
-          "text": "कारणं प्राप्य तु नराः सर्व एव महाभुजाः ।\nशूरा वा कातरा वापि भवन्ति नरपुंगव ॥"
+          "text": "कारणं प्राप्य तु नराः सर्व एव महाभुजाः ।\nशूरा वा कातरा वापि भवन्ति नरपुंगव ॥",
+          "meaning": {
+            "en": "For a cause, all mighty-armed men may become brave or cowardly, bull among men."
+          }
         },
         {
           "n": 12,
-          "text": "एकायनगतावेतौ पार्थेन दृढभक्तिकौ ।\nत्यक्त्वा प्राणान्परं शक्त्या घटितारौ नराधिप ॥"
+          "text": "एकायनगतावेतौ पार्थेन दृढभक्तिकौ ।\nत्यक्त्वा प्राणान्परं शक्त्या घटितारौ नराधिप ॥",
+          "meaning": {
+            "en": "These two, set on a single course and firmly devoted to Partha, will give up their lives and exert their utmost, lord of men."
+          }
         },
         {
           "n": 13,
-          "text": "पृथगक्षौहिणीभ्यां तावुभौ संयति दारुणौ ।\nसंबन्धिभावं रक्षन्तौ महत्कर्म करिष्यतः ॥"
+          "text": "पृथगक्षौहिणीभ्यां तावुभौ संयति दारुणौ ।\nसंबन्धिभावं रक्षन्तौ महत्कर्म करिष्यतः ॥",
+          "meaning": {
+            "en": "Each with a separate akshauhini, both fierce in battle, they will honor their bond of kinship and do a great deed."
+          }
         },
         {
           "n": 14,
-          "text": "लोकवीरौ महेष्वासौ त्यक्तात्मानौ च भारत ।\nप्रत्ययं परिरक्षन्तौ महत्कर्म करिष्यतः ॥"
+          "text": "लोकवीरौ महेष्वासौ त्यक्तात्मानौ च भारत ।\nप्रत्ययं परिरक्षन्तौ महत्कर्म करिष्यतः ॥",
+          "meaning": {
+            "en": "Heroes of the world, great archers who have given up their lives, they will keep faith and do a great deed, Bharata."
+          }
         }
       ]
     }

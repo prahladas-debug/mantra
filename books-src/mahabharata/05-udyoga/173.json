@@ -22,79 +22,136 @@
       "titleEn": "Ambopakhyana Parva (The story of Amba)",
       "verses": [
         {
-          "text": "भीष्म उवाच"
+          "text": "भीष्म उवाच",
+          "meaning": {
+            "en": "Bhishma said:"
+          }
         },
         {
           "n": 1,
-          "text": "सा निष्क्रमन्ती नगराच्चिन्तयामास भारत ।\nपृथिव्यां नास्ति युवतिर्विषमस्थतरा मया ।\nबान्धवैर्विप्रहीनास्मि शाल्वेन च निराकृता ॥"
+          "text": "सा निष्क्रमन्ती नगराच्चिन्तयामास भारत ।\nपृथिव्यां नास्ति युवतिर्विषमस्थतरा मया ।\nबान्धवैर्विप्रहीनास्मि शाल्वेन च निराकृता ॥",
+          "meaning": {
+            "en": "As she left the city she thought, Bharata: there is no young woman on earth in a worse plight than I; I am cut off from my kin and rejected by Shalva."
+          }
         },
         {
           "n": 2,
-          "text": "न च शक्यं पुनर्गन्तुं मया वारणसाह्वयम् ।\nअनुज्ञातास्मि भीष्मेण शाल्वमुद्दिश्य कारणम् ॥"
+          "text": "न च शक्यं पुनर्गन्तुं मया वारणसाह्वयम् ।\nअनुज्ञातास्मि भीष्मेण शाल्वमुद्दिश्य कारणम् ॥",
+          "meaning": {
+            "en": "I cannot go back to Hastinapura, for Bhishma released me for the sake of Shalva."
+          }
         },
         {
           "n": 3,
-          "text": "किं नु गर्हाम्यथात्मानमथ भीष्मं दुरासदम् ।\nआहोस्वित्पितरं मूढं यो मेऽकार्षीत्स्वयंवरम् ॥"
+          "text": "किं नु गर्हाम्यथात्मानमथ भीष्मं दुरासदम् ।\nआहोस्वित्पितरं मूढं यो मेऽकार्षीत्स्वयंवरम् ॥",
+          "meaning": {
+            "en": "Whom shall I blame: myself, or the unassailable Bhishma, or my foolish father who held the self-choice?"
+          }
         },
         {
           "n": 4,
-          "text": "ममायं स्वकृतो दोषो याहं भीष्मरथात्तदा ।\nप्रवृत्ते वैशसे युद्धे शाल्वार्थं नापतं पुरा ।\nतस्येयं फलनिर्वृत्तिर्यदापन्नास्मि मूढवत् ॥"
+          "text": "ममायं स्वकृतो दोषो याहं भीष्मरथात्तदा ।\nप्रवृत्ते वैशसे युद्धे शाल्वार्थं नापतं पुरा ।\nतस्येयं फलनिर्वृत्तिर्यदापन्नास्मि मूढवत् ॥",
+          "meaning": {
+            "en": "This fault is of my own making, that I did not leap from Bhishma's chariot toward Shalva when the savage fight began; this is the fruit of that, that I have fallen into trouble like a fool."
+          }
         },
         {
           "n": 5,
-          "text": "धिग्भीष्मं धिक्च मे मन्दं पितरं मूढचेतसम् ।\nयेनाहं वीर्यशुल्केन पण्यस्त्रीवत्प्रवेरिता ॥"
+          "text": "धिग्भीष्मं धिक्च मे मन्दं पितरं मूढचेतसम् ।\nयेनाहं वीर्यशुल्केन पण्यस्त्रीवत्प्रवेरिता ॥",
+          "meaning": {
+            "en": "Shame on Bhishma, and shame on my dull, foolish-minded father, who sent me out as the price of valor, like a woman for sale."
+          }
         },
         {
           "n": 6,
-          "text": "धिङ्मां धिक्शाल्वराजानं धिग्धातारमथापि च ।\nयेषां दुर्नीतभावेन प्राप्तास्म्यापदमुत्तमाम् ॥"
+          "text": "धिङ्मां धिक्शाल्वराजानं धिग्धातारमथापि च ।\nयेषां दुर्नीतभावेन प्राप्तास्म्यापदमुत्तमाम् ॥",
+          "meaning": {
+            "en": "Shame on me, shame on the king of Shalva, and shame on the Creator too, through whose wrong dealings I have met this extreme calamity."
+          }
         },
         {
           "n": 7,
-          "text": "सर्वथा भागधेयानि स्वानि प्राप्नोति मानवः ।\nअनयस्यास्य तु मुखं भीष्मः शांतनवो मम ॥"
+          "text": "सर्वथा भागधेयानि स्वानि प्राप्नोति मानवः ।\nअनयस्यास्य तु मुखं भीष्मः शांतनवो मम ॥",
+          "meaning": {
+            "en": "A man always gets his own destined portion; but Bhishma, son of Shantanu, is the source of this misfortune of mine."
+          }
         },
         {
           "n": 8,
-          "text": "सा भीष्मे प्रतिकर्तव्यमहं पश्यामि सांप्रतम् ।\nतपसा वा युधा वापि दुःखहेतुः स मे मतः ।\nको नु भीष्मं युधा जेतुमुत्सहेत महीपतिः ॥"
+          "text": "सा भीष्मे प्रतिकर्तव्यमहं पश्यामि सांप्रतम् ।\nतपसा वा युधा वापि दुःखहेतुः स मे मतः ।\nको नु भीष्मं युधा जेतुमुत्सहेत महीपतिः ॥",
+          "meaning": {
+            "en": "I see that something must now be done against Bhishma, by austerity or by war; I count him the cause of my sorrow. But what king would dare to defeat Bhishma in war?"
+          }
         },
         {
           "n": 9,
-          "text": "एवं सा परिनिश्चित्य जगाम नगराद्बहिः ।\nआश्रमं पुण्यशीलानां तापसानां महात्मनाम् ।\nततस्तामवसद्रात्रिं तापसैः परिवारिता ॥"
+          "text": "एवं सा परिनिश्चित्य जगाम नगराद्बहिः ।\nआश्रमं पुण्यशीलानां तापसानां महात्मनाम् ।\nततस्तामवसद्रात्रिं तापसैः परिवारिता ॥",
+          "meaning": {
+            "en": "Having resolved thus, she went outside the city to the hermitage of virtuous, great-souled ascetics, and spent that night surrounded by them."
+          }
         },
         {
           "n": 10,
-          "text": "आचख्यौ च यथा वृत्तं सर्वमात्मनि भारत ।\nविस्तरेण महाबाहो निखिलेन शुचिस्मिता ।\nहरणं च विसर्गं च शाल्वेन च विसर्जनम् ॥"
+          "text": "आचख्यौ च यथा वृत्तं सर्वमात्मनि भारत ।\nविस्तरेण महाबाहो निखिलेन शुचिस्मिता ।\nहरणं च विसर्गं च शाल्वेन च विसर्जनम् ॥",
+          "meaning": {
+            "en": "She told them everything that had happened to her, Bharata, fully and in detail, that fair-smiling one: the abduction, the release and Shalva's rejection."
+          }
         },
         {
           "n": 11,
-          "text": "ततस्तत्र महानासीद्ब्राह्मणः संशितव्रतः ।\nशैखावत्यस्तपोवृद्धः शास्त्रे चारण्यके गुरुः ॥"
+          "text": "ततस्तत्र महानासीद्ब्राह्मणः संशितव्रतः ।\nशैखावत्यस्तपोवृद्धः शास्त्रे चारण्यके गुरुः ॥",
+          "meaning": {
+            "en": "There was there a great Brahmin of strict vows, Shaikhavatya, old in austerity, a teacher in the forest scriptures."
+          }
         },
         {
           "n": 12,
-          "text": "आर्तां तामाह स मुनिः शैखावत्यो महातपाः ।\nनिःश्वसन्तीं सतीं बालां दुःखशोकपरायणाम् ॥"
+          "text": "आर्तां तामाह स मुनिः शैखावत्यो महातपाः ।\nनिःश्वसन्तीं सतीं बालां दुःखशोकपरायणाम् ॥",
+          "meaning": {
+            "en": "That great ascetic sage Shaikhavatya spoke to the afflicted young woman, who was sighing and given over to sorrow and grief."
+          }
         },
         {
           "n": 13,
-          "text": "एवं गते किं नु भद्रे शक्यं कर्तुं तपस्विभिः ।\nआश्रमस्थैर्महाभागैस्तपोनित्यैर्महात्मभिः ॥"
+          "text": "एवं गते किं नु भद्रे शक्यं कर्तुं तपस्विभिः ।\nआश्रमस्थैर्महाभागैस्तपोनित्यैर्महात्मभिः ॥",
+          "meaning": {
+            "en": "Things being so, good lady, what can ascetics do, great-souled ones living in the hermitage and always at their austerities?"
+          }
         },
         {
           "n": 14,
-          "text": "सा त्वेनमब्रवीद्राजन्क्रियतां मदनुग्रहः ।\nप्रव्राजितुमिहेच्छामि तपस्तप्स्यामि दुश्चरम् ॥"
+          "text": "सा त्वेनमब्रवीद्राजन्क्रियतां मदनुग्रहः ।\nप्रव्राजितुमिहेच्छामि तपस्तप्स्यामि दुश्चरम् ॥",
+          "meaning": {
+            "en": "She replied to him: Do me a favor, great one; I wish to renounce the world and practice hard austerity."
+          }
         },
         {
           "n": 15,
-          "text": "मयैवैतानि कर्माणि पूर्वदेहेषु मूढया ।\nकृतानि नूनं पापानि तेषामेतत्फलं ध्रुवम् ॥"
+          "text": "मयैवैतानि कर्माणि पूर्वदेहेषु मूढया ।\nकृतानि नूनं पापानि तेषामेतत्फलं ध्रुवम् ॥",
+          "meaning": {
+            "en": "Surely in earlier lives I, in my folly, did these sinful deeds, and this is surely their fruit."
+          }
         },
         {
           "n": 16,
-          "text": "नोत्सहेयं पुनर्गन्तुं स्वजनं प्रति तापसाः ।\nप्रत्याख्याता निरानन्दा शाल्वेन च निराकृता ॥"
+          "text": "नोत्सहेयं पुनर्गन्तुं स्वजनं प्रति तापसाः ।\nप्रत्याख्याता निरानन्दा शाल्वेन च निराकृता ॥",
+          "meaning": {
+            "en": "Ascetics, I cannot go back to my own people, rejected, joyless, and cast off by Shalva."
+          }
         },
         {
           "n": 17,
-          "text": "उपदिष्टमिहेच्छामि तापस्यं वीतकल्मषाः ।\nयुष्माभिर्देवसंकाशाः कृपा भवतु वो मयि ॥"
+          "text": "उपदिष्टमिहेच्छामि तापस्यं वीतकल्मषाः ।\nयुष्माभिर्देवसंकाशाः कृपा भवतु वो मयि ॥",
+          "meaning": {
+            "en": "Sinless ones who are like gods, I wish to be taught asceticism by you; show me mercy."
+          }
         },
         {
           "n": 18,
-          "text": "स तामाश्वासयत्कन्यां दृष्टान्तागमहेतुभिः ।\nसान्त्वयामास कार्यं च प्रतिजज्ञे द्विजैः सह ॥"
+          "text": "स तामाश्वासयत्कन्यां दृष्टान्तागमहेतुभिः ।\nसान्त्वयामास कार्यं च प्रतिजज्ञे द्विजैः सह ॥",
+          "meaning": {
+            "en": "He comforted that maiden with illustrations, scriptural authority and reasons, and promised, along with the Brahmins, to take up her cause."
+          }
         }
       ]
     }

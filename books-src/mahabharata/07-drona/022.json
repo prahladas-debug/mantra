@@ -22,262 +22,457 @@
       "titleEn": "Samshaptakavadha Parva (Slaying of the Samshaptakas)",
       "verses": [
         {
-          "text": "धृतराष्ट्र उवाच"
+          "text": "धृतराष्ट्र उवाच",
+          "meaning": {
+            "en": "Dhritarashtra said:"
+          }
         },
         {
           "n": 1,
-          "text": "सर्वेषामेव मे ब्रूहि रथचिह्नानि संजय ।\nये द्रोणमभ्यवर्तन्त क्रुद्धा भीमपुरोगमाः ॥"
+          "text": "सर्वेषामेव मे ब्रूहि रथचिह्नानि संजय ।\nये द्रोणमभ्यवर्तन्त क्रुद्धा भीमपुरोगमाः ॥",
+          "meaning": {
+            "en": "Sanjaya, tell me the chariot banners of all those, led by Bhima, who angrily advanced against Drona."
+          }
         },
         {
-          "text": "संजय उवाच"
+          "text": "संजय उवाच",
+          "meaning": {
+            "en": "Sanjaya said:"
+          }
         },
         {
           "n": 2,
-          "text": "ऋश्यवर्णैर्हयैर्दृष्ट्वा व्यायच्छन्तं वृकोदरम् ।\nरजताश्वस्ततः शूरः शैनेयः संन्यवर्तत ॥"
+          "text": "ऋश्यवर्णैर्हयैर्दृष्ट्वा व्यायच्छन्तं वृकोदरम् ।\nरजताश्वस्ततः शूरः शैनेयः संन्यवर्तत ॥",
+          "meaning": {
+            "en": "Seeing Vrikodara struggling, with horses the color of antelopes, brave Satyaki of the silver horses turned back to him."
+          }
         },
         {
           "n": 3,
-          "text": "दर्शनीयास्तु काम्बोजाः शुकपत्रपरिच्छदाः ।\nवहन्तो नकुलं शीघ्रं तावकानभिदुद्रुवुः ॥"
+          "text": "दर्शनीयास्तु काम्बोजाः शुकपत्रपरिच्छदाः ।\nवहन्तो नकुलं शीघ्रं तावकानभिदुद्रुवुः ॥",
+          "meaning": {
+            "en": "Handsome Kamboja horses, covered with parrot-feather-green trappings, carried Nakula swiftly and charged at your men."
+          }
         },
         {
           "n": 4,
-          "text": "कृष्णास्तु मेघसंकाशाः सहदेवमुदायुधम् ।\nभीमवेगा नरव्याघ्रमवहन्वातरंहसः ॥"
+          "text": "कृष्णास्तु मेघसंकाशाः सहदेवमुदायुधम् ।\nभीमवेगा नरव्याघ्रमवहन्वातरंहसः ॥",
+          "meaning": {
+            "en": "Black horses like rain-clouds, fierce in speed and swift as wind, carried Sahadeva, tiger among men, with weapon raised."
+          }
         },
         {
           "n": 5,
-          "text": "हेमोत्तमप्रतिच्छन्नैर्हयैर्वातसमैर्जवे ।\nअभ्यवर्तन्त सैन्यानि सर्वाण्येव युधिष्ठिरम् ॥"
+          "text": "हेमोत्तमप्रतिच्छन्नैर्हयैर्वातसमैर्जवे ।\nअभ्यवर्तन्त सैन्यानि सर्वाण्येव युधिष्ठिरम् ॥",
+          "meaning": {
+            "en": "All the armies advanced toward Yudhishthira on horses covered with fine gold, swift as the wind."
+          }
         },
         {
           "n": 6,
-          "text": "राज्ञस्त्वनन्तरं राजा पाञ्चाल्यो द्रुपदोऽभवत् ।\nजातरूपमयच्छत्रः सर्वैः स्वैरभिरक्षितः ॥"
+          "text": "राज्ञस्त्वनन्तरं राजा पाञ्चाल्यो द्रुपदोऽभवत् ।\nजातरूपमयच्छत्रः सर्वैः स्वैरभिरक्षितः ॥",
+          "meaning": {
+            "en": "Next after the king came the Panchala king Drupada, with a golden umbrella, guarded by all his own men."
+          }
         },
         {
           "n": 7,
-          "text": "ललामैर्हरिभिर्युक्तैः सर्वशब्दक्षमैर्युधि ।\nराज्ञां मध्ये महेष्वासः शान्तभीरभ्यवर्तत ॥"
+          "text": "ललामैर्हरिभिर्युक्तैः सर्वशब्दक्षमैर्युधि ।\nराज्ञां मध्ये महेष्वासः शान्तभीरभ्यवर्तत ॥",
+          "meaning": {
+            "en": "Among the kings, that great archer of calm courage advanced with bay horses with white forehead marks, able to bear every sound in battle."
+          }
         },
         {
           "n": 8,
-          "text": "तं विराटोऽन्वयात्पश्चात्सह शूरैर्महारथैः ।\nकेकयाश्च शिखण्डी च धृष्टकेतुस्तथैव च ।\nस्वैः स्वैः सैन्यैः परिवृता मत्स्यराजानमन्वयुः ॥"
+          "text": "तं विराटोऽन्वयात्पश्चात्सह शूरैर्महारथैः ।\nकेकयाश्च शिखण्डी च धृष्टकेतुस्तथैव च ।\nस्वैः स्वैः सैन्यैः परिवृता मत्स्यराजानमन्वयुः ॥",
+          "meaning": {
+            "en": "Virata followed him with brave great warriors, and the Kekayas, Shikhandi and Dhrishtaketu, each surrounded by their own troops, following the Matsya king."
+          }
         },
         {
           "n": 9,
-          "text": "ते तु पाटलपुष्पाणां समवर्णा हयोत्तमाः ।\nवहमाना व्यराजन्त मत्स्यस्यामित्रघातिनः ॥"
+          "text": "ते तु पाटलपुष्पाणां समवर्णा हयोत्तमाः ।\nवहमाना व्यराजन्त मत्स्यस्यामित्रघातिनः ॥",
+          "meaning": {
+            "en": "Horses the color of trumpet-flowers carried the Matsya king, slayer of foes, and shone as they went."
+          }
         },
         {
           "n": 10,
-          "text": "हारिद्रसमवर्णास्तु जवना हेममालिनः ।\nपुत्रं विराटराजस्य सत्वराः समुदावहन् ॥"
+          "text": "हारिद्रसमवर्णास्तु जवना हेममालिनः ।\nपुत्रं विराटराजस्य सत्वराः समुदावहन् ॥",
+          "meaning": {
+            "en": "Swift horses the color of turmeric and wearing gold garlands quickly carried the son of King Virata."
+          }
         },
         {
           "n": 11,
-          "text": "इन्द्रगोपकवर्णैस्तु भ्रातरः पञ्च केकयाः ।\nजातरूपसमाभासः सर्वे लोहितकध्वजाः ॥"
+          "text": "इन्द्रगोपकवर्णैस्तु भ्रातरः पञ्च केकयाः ।\nजातरूपसमाभासः सर्वे लोहितकध्वजाः ॥",
+          "meaning": {
+            "en": "The five Kekaya brothers had horses the color of red velvet mites, all shining like gold, with red banners."
+          }
         },
         {
           "n": 12,
-          "text": "ते हेममालिनः शूराः सर्वे युद्धविशारदाः ।\nवर्षन्त इव जीमूताः प्रत्यदृश्यन्त दंशिताः ॥"
+          "text": "ते हेममालिनः शूराः सर्वे युद्धविशारदाः ।\nवर्षन्त इव जीमूताः प्रत्यदृश्यन्त दंशिताः ॥",
+          "meaning": {
+            "en": "Those brave men in gold garlands, all skilled in war, armored, appeared like rain-clouds pouring."
+          }
         },
         {
           "n": 13,
-          "text": "आमपात्रनिभाकाराः पाञ्चाल्यममितौजसम् ।\nदान्तास्ताम्रारुणा युक्ताः शिखण्डिनमुदावहन् ॥"
+          "text": "आमपात्रनिभाकाराः पाञ्चाल्यममितौजसम् ।\nदान्तास्ताम्रारुणा युक्ताः शिखण्डिनमुदावहन् ॥",
+          "meaning": {
+            "en": "Tame horses of coppery red, like unbaked clay pots, carried the Panchala prince of boundless strength, Shikhandi."
+          }
         },
         {
           "n": 14,
-          "text": "तथा द्वादशसाहस्राः पाञ्चालानां महारथाः ।\nतेषां तु षट्सहस्राणि ये शिखण्डिनमन्वयुः ॥"
+          "text": "तथा द्वादशसाहस्राः पाञ्चालानां महारथाः ।\nतेषां तु षट्सहस्राणि ये शिखण्डिनमन्वयुः ॥",
+          "meaning": {
+            "en": "There were twelve thousand Panchala great chariot-warriors, and of these six thousand followed Shikhandi."
+          }
         },
         {
           "n": 15,
-          "text": "पुत्रं तु शिशुपालस्य नरसिंहस्य मारिष ।\nआक्रीडन्तो वहन्ति स्म सारङ्गशबला हयाः ॥"
+          "text": "पुत्रं तु शिशुपालस्य नरसिंहस्य मारिष ।\nआक्रीडन्तो वहन्ति स्म सारङ्गशबला हयाः ॥",
+          "meaning": {
+            "en": "Horses dappled like deer playfully carried the son of Shishupala, that lion among men, O sir."
+          }
         },
         {
           "n": 16,
-          "text": "धृष्टकेतुश्च चेदीनामृषभोऽतिबलोदितः ।\nकाम्बोजैः शबलैरश्वैरभ्यवर्तत दुर्जयः ॥"
+          "text": "धृष्टकेतुश्च चेदीनामृषभोऽतिबलोदितः ।\nकाम्बोजैः शबलैरश्वैरभ्यवर्तत दुर्जयः ॥",
+          "meaning": {
+            "en": "Dhrishtaketu, bull of the Chedis, risen to great strength and hard to conquer, advanced with dappled Kamboja horses."
+          }
         },
         {
           "n": 17,
-          "text": "बृहत्क्षत्रं तु कैकेयं सुकुमारं हयोत्तमाः ।\nपलालधूमवर्णाभाः सैन्धवाः शीघ्रमावहन् ॥"
+          "text": "बृहत्क्षत्रं तु कैकेयं सुकुमारं हयोत्तमाः ।\nपलालधूमवर्णाभाः सैन्धवाः शीघ्रमावहन् ॥",
+          "meaning": {
+            "en": "Swift Sindhu horses the color of straw-smoke carried the delicate Brihatkshatra, the Kekaya."
+          }
         },
         {
           "n": 18,
-          "text": "मल्लिकाक्षाः पद्मवर्णा बाह्लिजाताः स्वलंकृताः ।\nशूरं शिखण्डिनः पुत्रं क्षत्रदेवमुदावहन् ॥"
+          "text": "मल्लिकाक्षाः पद्मवर्णा बाह्लिजाताः स्वलंकृताः ।\nशूरं शिखण्डिनः पुत्रं क्षत्रदेवमुदावहन् ॥",
+          "meaning": {
+            "en": "Well-adorned horses born in Bahlika, with eyes like jasmine and the color of lotuses, carried the brave Kshatradeva, Shikhandi's son."
+          }
         },
         {
           "n": 19,
-          "text": "युवानमवहन्युद्धे क्रौञ्चवर्णा हयोत्तमाः ।\nकाश्यस्याभिभुवः पुत्रं सुकुमारं महारथम् ॥"
+          "text": "युवानमवहन्युद्धे क्रौञ्चवर्णा हयोत्तमाः ।\nकाश्यस्याभिभुवः पुत्रं सुकुमारं महारथम् ॥",
+          "meaning": {
+            "en": "Heron-colored horses carried the young prince of Kashi, the delicate great warrior Abhibhu's son, in battle."
+          }
         },
         {
           "n": 20,
-          "text": "श्वेतास्तु प्रतिविन्ध्यं तं कृष्णग्रीवा मनोजवाः ।\nयन्तुः प्रेष्यकरा राजन्राजपुत्रमुदावहन् ॥"
+          "text": "श्वेतास्तु प्रतिविन्ध्यं तं कृष्णग्रीवा मनोजवाः ।\nयन्तुः प्रेष्यकरा राजन्राजपुत्रमुदावहन् ॥",
+          "meaning": {
+            "en": "White horses with black necks, swift as thought, obedient to the charioteer, carried Prativindhya, the prince, O king."
+          }
         },
         {
           "n": 21,
-          "text": "सुतसोमं तु यं धौम्यात्पार्थः पुत्रमयाचत ।\nमाषपुष्पसवर्णास्तमवहन्वाजिनो रणे ॥"
+          "text": "सुतसोमं तु यं धौम्यात्पार्थः पुत्रमयाचत ।\nमाषपुष्पसवर्णास्तमवहन्वाजिनो रणे ॥",
+          "meaning": {
+            "en": "Horses the color of urad-flowers carried in battle Sutasoma, whom Arjuna asked of Dhaumya as a son."
+          }
         },
         {
           "n": 22,
-          "text": "सहस्रसोमप्रतिमा बभूवुः\nपुरे कुरूणामुदयेन्दुनाम्नि ।\nतस्मिञ्जातः सोमसंक्रन्दमध्ये\nयस्मात्तस्मात्सुतसोमोऽभवत्सः ॥"
+          "text": "सहस्रसोमप्रतिमा बभूवुः\nपुरे कुरूणामुदयेन्दुनाम्नि ।\nतस्मिञ्जातः सोमसंक्रन्दमध्ये\nयस्मात्तस्मात्सुतसोमोऽभवत्सः ॥",
+          "meaning": {
+            "en": "He was like a thousand Somas, born in the Kuru city called Udayendu amid the clamor of a Soma sacrifice; for that reason he was named Sutasoma."
+          }
         },
         {
           "n": 23,
-          "text": "नाकुलिं तु शतानीकं शालपुष्पनिभा हयाः ।\nआदित्यतरुणप्रख्याः श्लाघनीयमुदावहन् ॥"
+          "text": "नाकुलिं तु शतानीकं शालपुष्पनिभा हयाः ।\nआदित्यतरुणप्रख्याः श्लाघनीयमुदावहन् ॥",
+          "meaning": {
+            "en": "Horses like sala flowers and the young sun carried Nakula's son, the praiseworthy Shatanika."
+          }
         },
         {
           "n": 24,
-          "text": "काञ्चनप्रतिमैर्योक्त्रैर्मयूरग्रीवसंनिभाः ।\nद्रौपदेयं नरव्याघ्रं श्रुतकर्माणमावहन् ॥"
+          "text": "काञ्चनप्रतिमैर्योक्त्रैर्मयूरग्रीवसंनिभाः ।\nद्रौपदेयं नरव्याघ्रं श्रुतकर्माणमावहन् ॥",
+          "meaning": {
+            "en": "Horses with necks like peacocks, bound with golden harness, carried Shrutakarma, tiger among men, son of Draupadi."
+          }
         },
         {
           "n": 25,
-          "text": "श्रुतकीर्तिं श्रुतनिधिं द्रौपदेयं हयोत्तमाः ।\nऊहुः पार्थसमं युद्धे चाषपत्रनिभा हयाः ॥"
+          "text": "श्रुतकीर्तिं श्रुतनिधिं द्रौपदेयं हयोत्तमाः ।\nऊहुः पार्थसमं युद्धे चाषपत्रनिभा हयाः ॥",
+          "meaning": {
+            "en": "Horses the color of a blue-jay's wing carried Shrutakirti, Draupadi's son, treasury of learning, equal to Arjuna in battle."
+          }
         },
         {
           "n": 26,
-          "text": "यमाहुरध्यर्धगुणं कृष्णात्पार्थाच्च संयुगे ।\nअभिमन्युं पिशङ्गास्तं कुमारमवहन्रणे ॥"
+          "text": "यमाहुरध्यर्धगुणं कृष्णात्पार्थाच्च संयुगे ।\nअभिमन्युं पिशङ्गास्तं कुमारमवहन्रणे ॥",
+          "meaning": {
+            "en": "Tawny horses carried into the fight the young Abhimanyu, said to be one and a half times Krishna and Arjuna in virtue."
+          }
         },
         {
           "n": 27,
-          "text": "एकस्तु धार्तराष्ट्रेभ्यः पाण्डवान्यः समाश्रितः ।\nतं बृहन्तो महाकाया युयुत्सुमवहन्रणे ॥"
+          "text": "एकस्तु धार्तराष्ट्रेभ्यः पाण्डवान्यः समाश्रितः ।\nतं बृहन्तो महाकाया युयुत्सुमवहन्रणे ॥",
+          "meaning": {
+            "en": "Large, huge-bodied horses carried Yuyutsu in battle, the one son of Dhritarashtra who took refuge with the Pandavas."
+          }
         },
         {
           "n": 28,
-          "text": "पलालकाण्डवर्णास्तु वार्धक्षेमिं तरस्विनम् ।\nऊहुः सुतुमुले युद्धे हया हृष्टाः स्वलंकृताः ॥"
+          "text": "पलालकाण्डवर्णास्तु वार्धक्षेमिं तरस्विनम् ।\nऊहुः सुतुमुले युद्धे हया हृष्टाः स्वलंकृताः ॥",
+          "meaning": {
+            "en": "Joyful, well-adorned horses the color of straw stalks carried the swift Vardhakshemi in that tumultuous battle."
+          }
         },
         {
           "n": 29,
-          "text": "कुमारं शितिपादास्तु रुक्मपत्रैरुरश्छदैः ।\nसौचित्तिमवहन्युद्धे यन्तुः प्रेष्यकरा हयाः ॥"
+          "text": "कुमारं शितिपादास्तु रुक्मपत्रैरुरश्छदैः ।\nसौचित्तिमवहन्युद्धे यन्तुः प्रेष्यकरा हयाः ॥",
+          "meaning": {
+            "en": "Obedient horses with dark feet, with gold-leaf breast-plates, carried the young Sauchitti into battle."
+          }
         },
         {
           "n": 30,
-          "text": "रुक्मपृष्ठावकीर्णास्तु कौशेयसदृशा हयाः ।\nसुवर्णमालिनः क्षान्ताः श्रेणिमन्तमुदावहन् ॥"
+          "text": "रुक्मपृष्ठावकीर्णास्तु कौशेयसदृशा हयाः ।\nसुवर्णमालिनः क्षान्ताः श्रेणिमन्तमुदावहन् ॥",
+          "meaning": {
+            "en": "Horses like silk, sprinkled with gold on their backs, gentle, wearing golden garlands, carried Shrenimat."
+          }
         },
         {
           "n": 31,
-          "text": "रुक्ममालाधराः शूरा हेमवर्णाः स्वलंकृताः ।\nकाशिराजं हयश्रेष्ठाः श्लाघनीयमुदावहन् ॥"
+          "text": "रुक्ममालाधराः शूरा हेमवर्णाः स्वलंकृताः ।\nकाशिराजं हयश्रेष्ठाः श्लाघनीयमुदावहन् ॥",
+          "meaning": {
+            "en": "Excellent, well-adorned horses wearing golden garlands and shining like gold carried the praiseworthy king of Kashi."
+          }
         },
         {
           "n": 32,
-          "text": "अस्त्राणां च धनुर्वेदे ब्राह्मे वेदे च पारगम् ।\nतं सत्यधृतिमायान्तमरुणाः समुदावहन् ॥"
+          "text": "अस्त्राणां च धनुर्वेदे ब्राह्मे वेदे च पारगम् ।\nतं सत्यधृतिमायान्तमरुणाः समुदावहन् ॥",
+          "meaning": {
+            "en": "Reddish horses carried Satyadhriti, who was master of the bow, of weapons and of the Brahma Veda, as he approached."
+          }
         },
         {
           "n": 33,
-          "text": "यः स पाञ्चालसेनानीर्द्रोणमंशमकल्पयत् ।\nपारावतसवर्णाश्वा धृष्टद्युम्नमुदावहन् ॥"
+          "text": "यः स पाञ्चालसेनानीर्द्रोणमंशमकल्पयत् ।\nपारावतसवर्णाश्वा धृष्टद्युम्नमुदावहन् ॥",
+          "meaning": {
+            "en": "Horses the color of pigeons carried Dhrishtadyumna, commander of the Panchalas, who was made a portion of Drona's fate."
+          }
         },
         {
           "n": 34,
-          "text": "तमन्वयात्सत्यधृतिः सौचित्तिर्युद्धदुर्मदः ।\nश्रेणिमान्वसुदानश्च पुत्रः काश्यस्य चाभिभो ॥"
+          "text": "तमन्वयात्सत्यधृतिः सौचित्तिर्युद्धदुर्मदः ।\nश्रेणिमान्वसुदानश्च पुत्रः काश्यस्य चाभिभो ॥",
+          "meaning": {
+            "en": "Satyadhriti, Sauchitti, mad for battle, Shrenimat, Vasudana and Kashya's son Abhibhu followed him."
+          }
         },
         {
           "n": 35,
-          "text": "युक्तैः परमकाम्बोजैर्जवनैर्हेममालिभिः ।\nभीषयन्तो द्विषत्सैन्यं यमवैश्रवणोपमाः ॥"
+          "text": "युक्तैः परमकाम्बोजैर्जवनैर्हेममालिभिः ।\nभीषयन्तो द्विषत्सैन्यं यमवैश्रवणोपमाः ॥",
+          "meaning": {
+            "en": "With swift, excellent Kamboja horses in golden garlands they frightened the enemy army, like Yama and Kubera."
+          }
         },
         {
           "n": 36,
-          "text": "प्रभद्रकास्तु पाञ्चालाः षट्सहस्राण्युदायुधाः ।\nनानावर्णैर्हयश्रेष्ठैर्हेमचित्ररथध्वजाः ॥"
+          "text": "प्रभद्रकास्तु पाञ्चालाः षट्सहस्राण्युदायुधाः ।\nनानावर्णैर्हयश्रेष्ठैर्हेमचित्ररथध्वजाः ॥",
+          "meaning": {
+            "en": "The Prabhadrakas of the Panchalas, six thousand with weapons raised, with horses of many colors and chariots with golden, variegated banners,"
+          }
         },
         {
           "n": 37,
-          "text": "शरव्रातैर्विधुन्वन्तः शत्रून्विततकार्मुकाः ।\nसमानमृत्यवो भूत्वा धृष्टद्युम्नं समन्वयुः ॥"
+          "text": "शरव्रातैर्विधुन्वन्तः शत्रून्विततकार्मुकाः ।\nसमानमृत्यवो भूत्वा धृष्टद्युम्नं समन्वयुः ॥",
+          "meaning": {
+            "en": "shaking their foes with swarms of arrows and bows drawn wide, shared the same death-oath and followed Dhrishtadyumna."
+          }
         },
         {
           "n": 38,
-          "text": "बभ्रुकौशेयवर्णास्तु सुवर्णवरमालिनः ।\nऊहुरग्लानमनसश्चेकितानं हयोत्तमाः ॥"
+          "text": "बभ्रुकौशेयवर्णास्तु सुवर्णवरमालिनः ।\nऊहुरग्लानमनसश्चेकितानं हयोत्तमाः ॥",
+          "meaning": {
+            "en": "Horses the color of tawny silk, with fine gold garlands, carried the unwearied Chekitana."
+          }
         },
         {
           "n": 39,
-          "text": "इन्द्रायुधसवर्णैस्तु कुन्तिभोजो हयोत्तमैः ।\nआयात्सुवश्यैः पुरुजिन्मातुलः सव्यसाचिनः ॥"
+          "text": "इन्द्रायुधसवर्णैस्तु कुन्तिभोजो हयोत्तमैः ।\nआयात्सुवश्यैः पुरुजिन्मातुलः सव्यसाचिनः ॥",
+          "meaning": {
+            "en": "Kuntibhoja, Purujit, maternal uncle of Savyasachi, came with fine, well-controlled horses the color of rainbows."
+          }
         },
         {
           "n": 40,
-          "text": "अन्तरिक्षसवर्णास्तु तारकाचित्रिता इव ।\nराजानं रोचमानं ते हयाः संख्ये समावहन् ॥"
+          "text": "अन्तरिक्षसवर्णास्तु तारकाचित्रिता इव ।\nराजानं रोचमानं ते हयाः संख्ये समावहन् ॥",
+          "meaning": {
+            "en": "Horses the color of the sky, spangled as if with stars, carried the radiant king in battle."
+          }
         },
         {
           "n": 41,
-          "text": "कर्बुराः शितिपादास्तु स्वर्णजालपरिच्छदाः ।\nजारासंधिं हयश्रेष्ठाः सहदेवमुदावहन् ॥"
+          "text": "कर्बुराः शितिपादास्तु स्वर्णजालपरिच्छदाः ।\nजारासंधिं हयश्रेष्ठाः सहदेवमुदावहन् ॥",
+          "meaning": {
+            "en": "Dappled horses with dark feet and golden-net coverings carried Sahadeva, son of Jarasandha."
+          }
         },
         {
           "n": 42,
-          "text": "ये तु पुष्करनालस्य समवर्णा हयोत्तमाः ।\nजवे श्येनसमाश्चित्राः सुदामानमुदावहन् ॥"
+          "text": "ये तु पुष्करनालस्य समवर्णा हयोत्तमाः ।\nजवे श्येनसमाश्चित्राः सुदामानमुदावहन् ॥",
+          "meaning": {
+            "en": "Horses the color of lotus stalks, swift as hawks and varied in color, carried Sudaman."
+          }
         },
         {
           "n": 43,
-          "text": "शशलोहितवर्णास्तु पाण्डुरोद्गतराजयः ।\nपाञ्चाल्यं गोपतेः पुत्रं सिंहसेनमुदावहन् ॥"
+          "text": "शशलोहितवर्णास्तु पाण्डुरोद्गतराजयः ।\nपाञ्चाल्यं गोपतेः पुत्रं सिंहसेनमुदावहन् ॥",
+          "meaning": {
+            "en": "Horses the color of a hare's blood, with white lines rising on them, carried Simhasena, the Panchala son of Gopati."
+          }
         },
         {
           "n": 44,
-          "text": "पाञ्चालानां नरव्याघ्रो यः ख्यातो जनमेजयः ।\nतस्य सर्षपपुष्पाणां तुल्यवर्णा हयोत्तमाः ॥"
+          "text": "पाञ्चालानां नरव्याघ्रो यः ख्यातो जनमेजयः ।\nतस्य सर्षपपुष्पाणां तुल्यवर्णा हयोत्तमाः ॥",
+          "meaning": {
+            "en": "The tiger among the Panchalas, famed Janamejaya, had horses the color of mustard flowers."
+          }
         },
         {
           "n": 45,
-          "text": "माषवर्णास्तु जवना बृहन्तो हेममालिनः ।\nदधिपृष्ठाश्चन्द्रमुखाः पाञ्चाल्यमवहन्द्रुतम् ॥"
+          "text": "माषवर्णास्तु जवना बृहन्तो हेममालिनः ।\nदधिपृष्ठाश्चन्द्रमुखाः पाञ्चाल्यमवहन्द्रुतम् ॥",
+          "meaning": {
+            "en": "Swift, large horses the color of urad beans, in gold garlands, curd-backed and moon-faced, quickly carried the Panchala."
+          }
         },
         {
           "n": 46,
-          "text": "शूराश्च भद्रकाश्चैव शरकाण्डनिभा हयाः ।\nपद्मकिञ्जल्कवर्णाभा दण्डधारमुदावहन् ॥"
+          "text": "शूराश्च भद्रकाश्चैव शरकाण्डनिभा हयाः ।\nपद्मकिञ्जल्कवर्णाभा दण्डधारमुदावहन् ॥",
+          "meaning": {
+            "en": "Horses like reed stalks, the color of lotus filaments, carried the Danadhara, the brave Bhadrakas."
+          }
         },
         {
           "n": 47,
-          "text": "बिभ्रतो हेममालाश्च चक्रवाकोदरा हयाः ।\nकोसलाधिपतेः पुत्रं सुक्षत्रं वाजिनोऽवहन् ॥"
+          "text": "बिभ्रतो हेममालाश्च चक्रवाकोदरा हयाः ।\nकोसलाधिपतेः पुत्रं सुक्षत्रं वाजिनोऽवहन् ॥",
+          "meaning": {
+            "en": "Horses with gold garlands and bellies like chakravaka birds carried Sukshatra, the son of the lord of Kosala."
+          }
         },
         {
           "n": 48,
-          "text": "शबलास्तु बृहन्तोऽश्वा दान्ता जाम्बूनदस्रजः ।\nयुद्धे सत्यधृतिं क्षैमिमवहन्प्रांशवः शुभाः ॥"
+          "text": "शबलास्तु बृहन्तोऽश्वा दान्ता जाम्बूनदस्रजः ।\nयुद्धे सत्यधृतिं क्षैमिमवहन्प्रांशवः शुभाः ॥",
+          "meaning": {
+            "en": "Tall, auspicious dappled horses, tame and with Jambunada gold garlands, carried Satyadhriti Kshaimi in battle."
+          }
         },
         {
           "n": 49,
-          "text": "एकवर्णेन सर्वेण ध्वजेन कवचेन च ।\nअश्वैश्च धनुषा चैव शुक्लैः शुक्लो न्यवर्तत ॥"
+          "text": "एकवर्णेन सर्वेण ध्वजेन कवचेन च ।\nअश्वैश्च धनुषा चैव शुक्लैः शुक्लो न्यवर्तत ॥",
+          "meaning": {
+            "en": "With a single color in banner, armor, horses and bow, all white, the white warrior advanced."
+          }
         },
         {
           "n": 50,
-          "text": "समुद्रसेनपुत्रं तु सामुद्रा रुद्रतेजसम् ।\nअश्वाः शशाङ्कसदृशाश्चन्द्रदेवमुदावहन् ॥"
+          "text": "समुद्रसेनपुत्रं तु सामुद्रा रुद्रतेजसम् ।\nअश्वाः शशाङ्कसदृशाश्चन्द्रदेवमुदावहन् ॥",
+          "meaning": {
+            "en": "Moon-like Samudra horses carried Chandradeva, son of Samudrasena, who had the fire of Rudra."
+          }
         },
         {
           "n": 51,
-          "text": "नीलोत्पलसवर्णास्तु तपनीयविभूषिताः ।\nशैब्यं चित्ररथं युद्धे चित्रमाल्यावहन्हयाः ॥"
+          "text": "नीलोत्पलसवर्णास्तु तपनीयविभूषिताः ।\nशैब्यं चित्ररथं युद्धे चित्रमाल्यावहन्हयाः ॥",
+          "meaning": {
+            "en": "Horses the color of blue lotuses, decorated with gold, carried the Shaibya Chitraratha in battle, wearing varied garlands."
+          }
         },
         {
           "n": 52,
-          "text": "कलायपुष्पवर्णास्तु श्वेतलोहितराजयः ।\nरथसेनं हयश्रेष्ठाः समूहुर्युद्धदुर्मदम् ॥"
+          "text": "कलायपुष्पवर्णास्तु श्वेतलोहितराजयः ।\nरथसेनं हयश्रेष्ठाः समूहुर्युद्धदुर्मदम् ॥",
+          "meaning": {
+            "en": "Horses the color of pea-flowers, with white and red lines, carried Rathasena, mad for war."
+          }
         },
         {
           "n": 53,
-          "text": "यं तु सर्वमनुष्येभ्यः प्राहुः शूरतरं नृपम् ।\nतं पटच्चरहन्तारं शुकवर्णावहन्हयाः ॥"
+          "text": "यं तु सर्वमनुष्येभ्यः प्राहुः शूरतरं नृपम् ।\nतं पटच्चरहन्तारं शुकवर्णावहन्हयाः ॥",
+          "meaning": {
+            "en": "The king said to be the bravest of all men, slayer of Patachchara, was carried by parrot-colored horses."
+          }
         },
         {
           "n": 54,
-          "text": "चित्रायुधं चित्रमाल्यं चित्रवर्मायुधध्वजम् ।\nऊहुः किंशुकपुष्पाणां तुल्यवर्णा हयोत्तमाः ॥"
+          "text": "चित्रायुधं चित्रमाल्यं चित्रवर्मायुधध्वजम् ।\nऊहुः किंशुकपुष्पाणां तुल्यवर्णा हयोत्तमाः ॥",
+          "meaning": {
+            "en": "Horses the color of kimshuka flowers carried Chitrayudha, with his varied weapons, garlands, armor and banner."
+          }
         },
         {
           "n": 55,
-          "text": "एकवर्णेन सर्वेण ध्वजेन कवचेन च ।\nधनुषा रथवाहैश्च नीलैर्नीलोऽभ्यवर्तत ॥"
+          "text": "एकवर्णेन सर्वेण ध्वजेन कवचेन च ।\nधनुषा रथवाहैश्च नीलैर्नीलोऽभ्यवर्तत ॥",
+          "meaning": {
+            "en": "With a single color in banner, armor, bow and chariot-horses, all blue, the blue warrior advanced."
+          }
         },
         {
           "n": 56,
-          "text": "नानारूपै रत्नचित्रैर्वरूथध्वजकार्मुकैः ।\nवाजिध्वजपताकाभिश्चित्रैश्चित्रोऽभ्यवर्तत ॥"
+          "text": "नानारूपै रत्नचित्रैर्वरूथध्वजकार्मुकैः ।\nवाजिध्वजपताकाभिश्चित्रैश्चित्रोऽभ्यवर्तत ॥",
+          "meaning": {
+            "en": "The varied one advanced with varied jeweled armor, banner and bow, and horses, standards and pennants of many kinds."
+          }
         },
         {
           "n": 57,
-          "text": "ये तु पुष्करपत्रस्य तुल्यवर्णा हयोत्तमाः ।\nते रोचमानस्य सुतं हेमवर्णमुदावहन् ॥"
+          "text": "ये तु पुष्करपत्रस्य तुल्यवर्णा हयोत्तमाः ।\nते रोचमानस्य सुतं हेमवर्णमुदावहन् ॥",
+          "meaning": {
+            "en": "Horses the color of lotus leaves carried the golden-hued son of Rochamana."
+          }
         },
         {
           "n": 58,
-          "text": "योधाश्च भद्रकाराश्च शरदण्डानुदण्डजाः ।\nश्वेताण्डाः कुक्कुटाण्डाभा दण्डकेतुमुदावहन् ॥"
+          "text": "योधाश्च भद्रकाराश्च शरदण्डानुदण्डजाः ।\nश्वेताण्डाः कुक्कुटाण्डाभा दण्डकेतुमुदावहन् ॥",
+          "meaning": {
+            "en": "Horses like white eggs, like hen's eggs, carried Dandaketu, with warriors who were Bhadrakaras, born of arrow-shafts."
+          }
         },
         {
           "n": 59,
-          "text": "आटरूषकपुष्पाभा हयाः पाण्ड्यानुयायिनाम् ।\nअवहन्रथमुख्यानामयुतानि चतुर्दश ॥"
+          "text": "आटरूषकपुष्पाभा हयाः पाण्ड्यानुयायिनाम् ।\nअवहन्रथमुख्यानामयुतानि चतुर्दश ॥",
+          "meaning": {
+            "en": "Horses the color of atarushaka flowers carried fourteen thousand chief chariot-warriors who followed the Pandyas."
+          }
         },
         {
           "n": 60,
-          "text": "नानारूपेण वर्णेन नानाकृतिमुखा हयाः ।\nरथचक्रध्वजं वीरं घटोत्कचमुदावहन् ॥"
+          "text": "नानारूपेण वर्णेन नानाकृतिमुखा हयाः ।\nरथचक्रध्वजं वीरं घटोत्कचमुदावहन् ॥",
+          "meaning": {
+            "en": "Horses of many colors and of varied faces carried the hero Ghatotkacha, whose banner bore a chariot wheel."
+          }
         },
         {
           "n": 61,
-          "text": "सुवर्णवर्णा धर्मज्ञमनीकस्थं युधिष्ठिरम् ।\nराजश्रेष्ठं हयश्रेष्ठाः सर्वतः पृष्ठतोऽन्वयुः ।\nवर्णैश्चोच्चावचैर्दिव्यैः सदश्वानां प्रभद्रकाः ॥"
+          "text": "सुवर्णवर्णा धर्मज्ञमनीकस्थं युधिष्ठिरम् ।\nराजश्रेष्ठं हयश्रेष्ठाः सर्वतः पृष्ठतोऽन्वयुः ।\nवर्णैश्चोच्चावचैर्दिव्यैः सदश्वानां प्रभद्रकाः ॥",
+          "meaning": {
+            "en": "Golden-colored, excellent horses of many fine colors followed everywhere behind the righteous king Yudhishthira, best of kings, stationed in his division, and the Prabhadrakas were with them."
+          }
         },
         {
           "n": 62,
-          "text": "ते यत्ता भीमसेनेन सहिताः काञ्चनध्वजाः ।\nप्रत्यदृश्यन्त राजेन्द्र सेन्द्रा इव दिवौकसः ॥"
+          "text": "ते यत्ता भीमसेनेन सहिताः काञ्चनध्वजाः ।\nप्रत्यदृश्यन्त राजेन्द्र सेन्द्रा इव दिवौकसः ॥",
+          "meaning": {
+            "en": "Led by Bhima, with golden banners, they appeared, O king of kings, like the gods with Indra."
+          }
         },
         {
           "n": 63,
-          "text": "अत्यरोचत तान्सर्वान्धृष्टद्युम्नः समागतान् ।\nसर्वाण्यपि च सैन्यानि भारद्वाजोऽत्यरोचत ॥"
+          "text": "अत्यरोचत तान्सर्वान्धृष्टद्युम्नः समागतान् ।\nसर्वाण्यपि च सैन्यानि भारद्वाजोऽत्यरोचत ॥",
+          "meaning": {
+            "en": "Dhrishtadyumna outshone all of them gathered there, and Bharadvaja's son outshone all the armies."
+          }
         }
       ]
     }

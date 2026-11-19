@@ -22,118 +22,205 @@
       "titleEn": "Abhiniryana Parva (The marching out)",
       "verses": [
         {
-          "text": "जनमेजय उवाच"
+          "text": "जनमेजय उवाच",
+          "meaning": {
+            "en": "Janamejaya said:"
+          }
         },
         {
           "n": 1,
-          "text": "युधिष्ठिरं सहानीकमुपयान्तं युयुत्सया ।\nसंनिविष्टं कुरुक्षेत्रे वासुदेवेन पालितम् ॥"
+          "text": "युधिष्ठिरं सहानीकमुपयान्तं युयुत्सया ।\nसंनिविष्टं कुरुक्षेत्रे वासुदेवेन पालितम् ॥",
+          "meaning": {
+            "en": "Yudhishthira came with his army, eager to fight, and camped at Kurukshetra, protected by Vasudeva,"
+          }
         },
         {
           "n": 2,
-          "text": "विराटद्रुपदाभ्यां च सपुत्राभ्यां समन्वितम् ।\nकेकयैर्वृष्णिभिश्चैव पार्थिवैः शतशो वृतम् ॥"
+          "text": "विराटद्रुपदाभ्यां च सपुत्राभ्यां समन्वितम् ।\nकेकयैर्वृष्णिभिश्चैव पार्थिवैः शतशो वृतम् ॥",
+          "meaning": {
+            "en": "joined by Virata and Drupada with their sons, surrounded by hundreds of Kekayas, Vrishnis and kings,"
+          }
         },
         {
           "n": 3,
-          "text": "महेन्द्रमिव चादित्यैरभिगुप्तं महारथैः ।\nश्रुत्वा दुर्योधनो राजा किं कार्यं प्रत्यपद्यत ॥"
+          "text": "महेन्द्रमिव चादित्यैरभिगुप्तं महारथैः ।\nश्रुत्वा दुर्योधनो राजा किं कार्यं प्रत्यपद्यत ॥",
+          "meaning": {
+            "en": "guarded by great chariot-warriors as Mahendra is guarded by the Adityas. When King Duryodhana heard of this, what did he do?"
+          }
         },
         {
           "n": 4,
-          "text": "एतदिच्छाम्यहं श्रोतुं विस्तरेण तपोधन ।\nसंभ्रमे तुमुले तस्मिन्यदासीत्कुरुजाङ्गले ॥"
+          "text": "एतदिच्छाम्यहं श्रोतुं विस्तरेण तपोधन ।\nसंभ्रमे तुमुले तस्मिन्यदासीत्कुरुजाङ्गले ॥",
+          "meaning": {
+            "en": "Ascetic, I want to hear this in detail: what happened in the Kuru country in that tumultuous confusion."
+          }
         },
         {
           "n": 5,
-          "text": "व्यथयेयुर्हि देवानां सेनामपि समागमे ।\nपाण्डवा वासुदेवश्च विराटद्रुपदौ तथा ॥"
+          "text": "व्यथयेयुर्हि देवानां सेनामपि समागमे ।\nपाण्डवा वासुदेवश्च विराटद्रुपदौ तथा ॥",
+          "meaning": {
+            "en": "The Pandavas and Vasudeva, Virata and Drupada,"
+          }
         },
         {
           "n": 6,
-          "text": "धृष्टद्युम्नश्च पाञ्चाल्यः शिखण्डी च महारथः ।\nयुयुधानश्च विक्रान्तो देवैरपि दुरासदः ॥"
+          "text": "धृष्टद्युम्नश्च पाञ्चाल्यः शिखण्डी च महारथः ।\nयुयुधानश्च विक्रान्तो देवैरपि दुरासदः ॥",
+          "meaning": {
+            "en": "Dhrishtadyumna of Panchala, the great chariot-warrior Shikhandi and valiant Yuyudhana, hard to approach even for the gods, could trouble even the army of the gods in battle."
+          }
         },
         {
           "n": 7,
-          "text": "एतदिच्छाम्यहं श्रोतुं विस्तरेण तपोधन ।\nकुरूणां पाण्डवानां च यद्यदासीद्विचेष्टितम् ॥"
+          "text": "एतदिच्छाम्यहं श्रोतुं विस्तरेण तपोधन ।\nकुरूणां पाण्डवानां च यद्यदासीद्विचेष्टितम् ॥",
+          "meaning": {
+            "en": "Ascetic, I want to hear in detail all that the Kurus and the Pandavas did."
+          }
         },
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 8,
-          "text": "प्रतियाते तु दाशार्हे राजा दुर्योधनस्तदा ।\nकर्णं दुःशासनं चैव शकुनिं चाब्रवीदिदम् ॥"
+          "text": "प्रतियाते तु दाशार्हे राजा दुर्योधनस्तदा ।\nकर्णं दुःशासनं चैव शकुनिं चाब्रवीदिदम् ॥",
+          "meaning": {
+            "en": "When the Dasharha had gone, King Duryodhana said this to Karna, Duhshasana and Shakuni."
+          }
         },
         {
           "n": 9,
-          "text": "अकृतेनैव कार्येण गतः पार्थानधोक्षजः ।\nस एनान्मन्युनाविष्टो ध्रुवं वक्ष्यत्यसंशयम् ॥"
+          "text": "अकृतेनैव कार्येण गतः पार्थानधोक्षजः ।\nस एनान्मन्युनाविष्टो ध्रुवं वक्ष्यत्यसंशयम् ॥",
+          "meaning": {
+            "en": "\"Adhokshaja has gone to the Parthas without getting his purpose done; filled with anger, he will surely speak to them, no doubt."
+          }
         },
         {
           "n": 10,
-          "text": "इष्टो हि वासुदेवस्य पाण्डवैर्मम विग्रहः ।\nभीमसेनार्जुनौ चैव दाशार्हस्य मते स्थितौ ॥"
+          "text": "इष्टो हि वासुदेवस्य पाण्डवैर्मम विग्रहः ।\nभीमसेनार्जुनौ चैव दाशार्हस्य मते स्थितौ ॥",
+          "meaning": {
+            "en": "Vasudeva wants war between the Pandavas and me; Bhimasena and Arjuna also stand by the Dasharha's counsel."
+          }
         },
         {
           "n": 11,
-          "text": "अजातशत्रुरप्यद्य भीमार्जुनवशानुगः ।\nनिकृतश्च मया पूर्वं सह सर्वैः सहोदरैः ॥"
+          "text": "अजातशत्रुरप्यद्य भीमार्जुनवशानुगः ।\nनिकृतश्च मया पूर्वं सह सर्वैः सहोदरैः ॥",
+          "meaning": {
+            "en": "Even Ajatashatru now follows the will of Bhima and Arjuna, and he was wronged by me before, with all his brothers."
+          }
         },
         {
           "n": 12,
-          "text": "विराटद्रुपदौ चैव कृतवैरौ मया सह ।\nतौ च सेनाप्रणेतारौ वासुदेववशानुगौ ॥"
+          "text": "विराटद्रुपदौ चैव कृतवैरौ मया सह ।\nतौ च सेनाप्रणेतारौ वासुदेववशानुगौ ॥",
+          "meaning": {
+            "en": "Virata and Drupada, who have made enmity with me, are army leaders and follow Vasudeva's will."
+          }
         },
         {
           "n": 13,
-          "text": "भविता विग्रहः सोऽयं तुमुलो लोमहर्षणः ।\nतस्मात्सांग्रामिकं सर्वं कारयध्वमतन्द्रिताः ॥"
+          "text": "भविता विग्रहः सोऽयं तुमुलो लोमहर्षणः ।\nतस्मात्सांग्रामिकं सर्वं कारयध्वमतन्द्रिताः ॥",
+          "meaning": {
+            "en": "So this war will come, tumultuous and hair-raising. Therefore, without sloth, have everything for battle prepared."
+          }
         },
         {
           "n": 14,
-          "text": "शिबिराणि कुरुक्षेत्रे क्रियन्तां वसुधाधिपाः ।\nसुपर्याप्तावकाशानि दुरादेयानि शत्रुभिः ॥"
+          "text": "शिबिराणि कुरुक्षेत्रे क्रियन्तां वसुधाधिपाः ।\nसुपर्याप्तावकाशानि दुरादेयानि शत्रुभिः ॥",
+          "meaning": {
+            "en": "Rulers of the earth, let camps be made at Kurukshetra, with ample room and hard for enemies to enter,"
+          }
         },
         {
           "n": 15,
-          "text": "आसन्नजलकाष्ठानि शतशोऽथ सहस्रशः ।\nअच्छेद्याहारमार्गाणि रत्नोच्चयचितानि च ।\nविविधायुधपूर्णानि पताकाध्वजवन्ति च ॥"
+          "text": "आसन्नजलकाष्ठानि शतशोऽथ सहस्रशः ।\nअच्छेद्याहारमार्गाणि रत्नोच्चयचितानि च ।\nविविधायुधपूर्णानि पताकाध्वजवन्ति च ॥",
+          "meaning": {
+            "en": "with water and wood near, by the hundreds and thousands, with supply routes that cannot be cut, filled with heaps of treasure, full of weapons of many kinds, and bearing flags and banners."
+          }
         },
         {
           "n": 16,
-          "text": "समाश्च तेषां पन्थानः क्रियन्तां नगराद्बहिः ।\nप्रयाणं घुष्यतामद्य श्वोभूत इति माचिरम् ॥"
+          "text": "समाश्च तेषां पन्थानः क्रियन्तां नगराद्बहिः ।\nप्रयाणं घुष्यतामद्य श्वोभूत इति माचिरम् ॥",
+          "meaning": {
+            "en": "Let the roads to them be made level outside the city. Announce the march today, for tomorrow, without delay.\""
+          }
         },
         {
           "n": 17,
-          "text": "ते तथेति प्रतिज्ञाय श्वोभूते चक्रिरे तथा ।\nहृष्टरूपा महात्मानो विनाशाय महीक्षिताम् ॥"
+          "text": "ते तथेति प्रतिज्ञाय श्वोभूते चक्रिरे तथा ।\nहृष्टरूपा महात्मानो विनाशाय महीक्षिताम् ॥",
+          "meaning": {
+            "en": "They promised, \"So be it,\" and did so by the next day, the great-souled ones, joyful, for the destruction of kings."
+          }
         },
         {
           "n": 18,
-          "text": "ततस्ते पार्थिवाः सर्वे तच्छ्रुत्वा राजशासनम् ।\nआसनेभ्यो महार्हेभ्य उदतिष्ठन्नमर्षिताः ॥"
+          "text": "ततस्ते पार्थिवाः सर्वे तच्छ्रुत्वा राजशासनम् ।\nआसनेभ्यो महार्हेभ्य उदतिष्ठन्नमर्षिताः ॥",
+          "meaning": {
+            "en": "Then all those kings, hearing the king's command, rose impatient from their costly seats,"
+          }
         },
         {
           "n": 19,
-          "text": "बाहून्परिघसंकाशान्संस्पृशन्तः शनैः शनैः ।\nकाञ्चनाङ्गददीप्तांश्च चन्दनागरुभूषितान् ॥"
+          "text": "बाहून्परिघसंकाशान्संस्पृशन्तः शनैः शनैः ।\nकाञ्चनाङ्गददीप्तांश्च चन्दनागरुभूषितान् ॥",
+          "meaning": {
+            "en": "slowly touching their arms, which were like iron bars, shining with golden armlets and adorned with sandal and aloe,"
+          }
         },
         {
           "n": 20,
-          "text": "उष्णीषाणि नियच्छन्तः पुण्डरीकनिभैः करैः ।\nअन्तरीयोत्तरीयाणि भूषणानि च सर्वशः ॥"
+          "text": "उष्णीषाणि नियच्छन्तः पुण्डरीकनिभैः करैः ।\nअन्तरीयोत्तरीयाणि भूषणानि च सर्वशः ॥",
+          "meaning": {
+            "en": "and adjusting their turbans with hands like lotuses, and their lower and upper garments and ornaments everywhere."
+          }
         },
         {
           "n": 21,
-          "text": "ते रथान्रथिनः श्रेष्ठा हयांश्च हयकोविदाः ।\nसज्जयन्ति स्म नागांश्च नागशिक्षासु निष्ठिताः ॥"
+          "text": "ते रथान्रथिनः श्रेष्ठा हयांश्च हयकोविदाः ।\nसज्जयन्ति स्म नागांश्च नागशिक्षासु निष्ठिताः ॥",
+          "meaning": {
+            "en": "The best of charioteers made ready their chariots, those skilled with horses their horses, and those trained in elephant lore their elephants."
+          }
         },
         {
           "n": 22,
-          "text": "अथ वर्माणि चित्राणि काञ्चनानि बहूनि च ।\nविविधानि च शस्त्राणि चक्रुः सज्जानि सर्वशः ॥"
+          "text": "अथ वर्माणि चित्राणि काञ्चनानि बहूनि च ।\nविविधानि च शस्त्राणि चक्रुः सज्जानि सर्वशः ॥",
+          "meaning": {
+            "en": "They prepared many kinds of bright golden armor and weapons of various kinds everywhere."
+          }
         },
         {
           "n": 23,
-          "text": "पदातयश्च पुरुषाः शस्त्राणि विविधानि च ।\nउपजह्रुः शरीरेषु हेमचित्राण्यनेकशः ॥"
+          "text": "पदातयश्च पुरुषाः शस्त्राणि विविधानि च ।\nउपजह्रुः शरीरेषु हेमचित्राण्यनेकशः ॥",
+          "meaning": {
+            "en": "Foot soldiers brought many kinds of weapons and put on their bodies the many golden-patterned coats."
+          }
         },
         {
           "n": 24,
-          "text": "तदुत्सव इवोदग्रं संप्रहृष्टनरावृतम् ।\nनगरं धार्तराष्ट्रस्य भारतासीत्समाकुलम् ॥"
+          "text": "तदुत्सव इवोदग्रं संप्रहृष्टनरावृतम् ।\nनगरं धार्तराष्ट्रस्य भारतासीत्समाकुलम् ॥",
+          "meaning": {
+            "en": "Bharata, the city of Dhritarashtra's son, filled with joyful men, was crowded and rose high as in a festival."
+          }
         },
         {
           "n": 25,
-          "text": "जनौघसलिलावर्तो रथनागाश्वमीनवान् ।\nशङ्खदुन्दुभिनिर्घोषः कोशसंचयरत्नवान् ॥"
+          "text": "जनौघसलिलावर्तो रथनागाश्वमीनवान् ।\nशङ्खदुन्दुभिनिर्घोषः कोशसंचयरत्नवान् ॥",
+          "meaning": {
+            "en": "It was like an ocean: a whirlpool of floods of people, with chariots, elephants and horses as fish, the sound of conches and drums as its roar, full of treasure heaps and jewels,"
+          }
         },
         {
           "n": 26,
-          "text": "चित्राभरणवर्मोर्मिः शस्त्रनिर्मलफेनवान् ।\nप्रासादमालाद्रिवृतो रथ्यापणमहाह्रदः ॥"
+          "text": "चित्राभरणवर्मोर्मिः शस्त्रनिर्मलफेनवान् ।\nप्रासादमालाद्रिवृतो रथ्यापणमहाह्रदः ॥",
+          "meaning": {
+            "en": "with waves of bright ornaments and armor, the clean foam of weapons, ringed by rows of palaces for mountains, with streets and shops as its great lakes,"
+          }
         },
         {
           "n": 27,
-          "text": "योधचन्द्रोदयोद्भूतः कुरुराजमहार्णवः ।\nअदृश्यत तदा राजंश्चन्द्रोदय इवार्णवः ॥"
+          "text": "योधचन्द्रोदयोद्भूतः कुरुराजमहार्णवः ।\nअदृश्यत तदा राजंश्चन्द्रोदय इवार्णवः ॥",
+          "meaning": {
+            "en": "the moon-rise of warriors raising it up: the great ocean of the Kuru king appeared then, O king, like an ocean at moonrise."
+          }
         }
       ]
     }
