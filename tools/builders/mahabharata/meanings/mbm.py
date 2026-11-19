@@ -55,6 +55,8 @@ def merge(part, unit, lang, side):
     extra = [k for k in m if k not in keys]
     if miss or extra: sys.exit('REFUSED: missing %s extra %s' % (miss[:10], extra[:10]))
     if lang == 'hi' and any(ch.isascii() and ch.isalpha() for k in keys for ch in m[k]): sys.exit('REFUSED: Latin letters in hi')
+    import re
+    if any(re.match(r'\s*\d+\s*[|)\t]', m[k]) or '|' in m[k] for k in keys): sys.exit('REFUSED: a meaning carries a number prefix or | separator')
     if lang == 'en' and any('ऀ' <= ch <= 'ॿ' for k in keys for ch in m[k]): sys.exit('REFUSED: Devanagari in en')
     for k, v in verses(d):
         v.setdefault('meaning', {})[lang] = m[k].strip()

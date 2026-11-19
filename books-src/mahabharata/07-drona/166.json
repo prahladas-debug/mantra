@@ -22,250 +22,436 @@
       "titleEn": "Narayanastramoksha Parva (Release of the Narayana weapon)",
       "verses": [
         {
-          "text": "धृतराष्ट्र उवाच"
+          "text": "धृतराष्ट्र उवाच",
+          "meaning": {
+            "en": "Dhritarashtra said:"
+          }
         },
         {
           "n": 1,
-          "text": "अधर्मेण हतं श्रुत्वा धृष्टद्युम्नेन संजय ।\nब्राह्मणं पितरं वृद्धमश्वत्थामा किमब्रवीत् ॥"
+          "text": "अधर्मेण हतं श्रुत्वा धृष्टद्युम्नेन संजय ।\nब्राह्मणं पितरं वृद्धमश्वत्थामा किमब्रवीत् ॥",
+          "meaning": {
+            "en": "Sanjaya, when Ashvatthaman heard that the aged brahmin, his father, had been killed by Dhrishtadyumna through unrighteous means, what did he say?"
+          }
         },
         {
           "n": 2,
-          "text": "मानुषं वारुणाग्नेयं ब्राह्ममस्त्रं च वीर्यवान् ।\nऐन्द्रं नारायणं चैव यस्मिन्नित्यं प्रतिष्ठितम् ॥"
+          "text": "मानुषं वारुणाग्नेयं ब्राह्ममस्त्रं च वीर्यवान् ।\nऐन्द्रं नारायणं चैव यस्मिन्नित्यं प्रतिष्ठितम् ॥",
+          "meaning": {
+            "en": "That mighty man held in himself the human weapons, those of Varuna and Agni, the Brahma weapon, and those of Indra and Narayana, all ever established in him."
+          }
         },
         {
           "n": 3,
-          "text": "तमधर्मेण धर्मिष्ठं धृष्टद्युम्नेन संजय ।\nश्रुत्वा निहतमाचार्यमश्वत्थामा किमब्रवीत् ॥"
+          "text": "तमधर्मेण धर्मिष्ठं धृष्टद्युम्नेन संजय ।\nश्रुत्वा निहतमाचार्यमश्वत्थामा किमब्रवीत् ॥",
+          "meaning": {
+            "en": "Sanjaya, that most righteous teacher was struck down unrighteously by Dhrishtadyumna; hearing of it, what did Ashvatthaman say?"
+          }
         },
         {
           "n": 4,
-          "text": "येन रामादवाप्येह धनुर्वेदं महात्मना ।\nप्रोक्तान्यस्त्राणि दिव्यानि पुत्राय गुरुकाङ्क्षिणे ॥"
+          "text": "येन रामादवाप्येह धनुर्वेदं महात्मना ।\nप्रोक्तान्यस्त्राणि दिव्यानि पुत्राय गुरुकाङ्क्षिणे ॥",
+          "meaning": {
+            "en": "That great soul had learned the science of the bow from Rama, and had taught the divine weapons to his son, who longed for his father's teaching."
+          }
         },
         {
           "n": 5,
-          "text": "एकमेव हि लोकेऽस्मिन्नात्मनो गुणवत्तरम् ।\nइच्छन्ति पुत्रं पुरुषा लोके नान्यं कथंचन ॥"
+          "text": "एकमेव हि लोकेऽस्मिन्नात्मनो गुणवत्तरम् ।\nइच्छन्ति पुत्रं पुरुषा लोके नान्यं कथंचन ॥",
+          "meaning": {
+            "en": "In this world men wish for one thing only that is better than themselves, a worthy son, and for nothing else at all."
+          }
         },
         {
           "n": 6,
-          "text": "आचार्याणां भवन्त्येव रहस्यानि महात्मनाम् ।\nतानि पुत्राय वा दद्युः शिष्यायानुगताय वा ॥"
+          "text": "आचार्याणां भवन्त्येव रहस्यानि महात्मनाम् ।\nतानि पुत्राय वा दद्युः शिष्यायानुगताय वा ॥",
+          "meaning": {
+            "en": "Great teachers hold secret teachings, and these they give either to a son or to a devoted pupil."
+          }
         },
         {
           "n": 7,
-          "text": "स शिल्पं प्राप्य तत्सर्वं सविशेषं च संजय ।\nशूरः शारद्वतीपुत्रः संख्ये द्रोणादनन्तरः ॥"
+          "text": "स शिल्पं प्राप्य तत्सर्वं सविशेषं च संजय ।\nशूरः शारद्वतीपुत्रः संख्ये द्रोणादनन्तरः ॥",
+          "meaning": {
+            "en": "Sanjaya, Drona's son, the son of Sharadvat's daughter, mastered all that skill and more, and in battle stood next after Drona."
+          }
         },
         {
           "n": 8,
-          "text": "रामस्यानुमतः शास्त्रे पुरंदरसमो युधि ।\nकार्तवीर्यसमो वीर्ये बृहस्पतिसमो मतौ ॥"
+          "text": "रामस्यानुमतः शास्त्रे पुरंदरसमो युधि ।\nकार्तवीर्यसमो वीर्ये बृहस्पतिसमो मतौ ॥",
+          "meaning": {
+            "en": "With Rama's approval in the science of weapons, he was like Indra in battle, like Kartavirya in might, and like Brihaspati in intellect."
+          }
         },
         {
           "n": 9,
-          "text": "महीधरसमो धृत्या तेजसाग्निसमो युवा ।\nसमुद्र इव गाम्भीर्ये क्रोधे सर्पविषोपमः ॥"
+          "text": "महीधरसमो धृत्या तेजसाग्निसमो युवा ।\nसमुद्र इव गाम्भीर्ये क्रोधे सर्पविषोपमः ॥",
+          "meaning": {
+            "en": "As a young man he was steady like a mountain, blazing like fire, deep like the ocean, and in anger like a serpent's venom."
+          }
         },
         {
           "n": 10,
-          "text": "स रथी प्रथमो लोके दृढधन्वा जितक्लमः ।\nशीघ्रोऽनिल इवाक्रन्दे चरन्क्रुद्ध इवान्तकः ॥"
+          "text": "स रथी प्रथमो लोके दृढधन्वा जितक्लमः ।\nशीघ्रोऽनिल इवाक्रन्दे चरन्क्रुद्ध इवान्तकः ॥",
+          "meaning": {
+            "en": "He was the foremost charioteer in the world, a firm bowman who never tired, swift as the wind in battle, and moving like Death himself when angry."
+          }
         },
         {
           "n": 11,
-          "text": "अस्यता येन संग्रामे धरण्यभिनिपीडिता ।\nयो न व्यथति संग्रामे वीरः सत्यपराक्रमः ॥"
+          "text": "अस्यता येन संग्रामे धरण्यभिनिपीडिता ।\nयो न व्यथति संग्रामे वीरः सत्यपराक्रमः ॥",
+          "meaning": {
+            "en": "The earth was crushed by his arrows in battle; that hero of true prowess never wavers in a fight."
+          }
         },
         {
           "n": 12,
-          "text": "वेदस्नातो व्रतस्नातो धनुर्वेदे च पारगः ।\nमहोदधिरिवाक्षोभ्यो रामो दाशरथिर्यथा ॥"
+          "text": "वेदस्नातो व्रतस्नातो धनुर्वेदे च पारगः ।\nमहोदधिरिवाक्षोभ्यो रामो दाशरथिर्यथा ॥",
+          "meaning": {
+            "en": "Versed in the Vedas and in vows, a master of archery, he was unshakable like a great ocean, as Rama, son of Dasharatha, once was."
+          }
         },
         {
           "n": 13,
-          "text": "तमधर्मेण धर्मिष्ठं धृष्टद्युम्नेन संयुगे ।\nश्रुत्वा निहतमाचार्यमश्वत्थामा किमब्रवीत् ॥"
+          "text": "तमधर्मेण धर्मिष्ठं धृष्टद्युम्नेन संयुगे ।\nश्रुत्वा निहतमाचार्यमश्वत्थामा किमब्रवीत् ॥",
+          "meaning": {
+            "en": "That most righteous teacher was killed in battle by Dhrishtadyumna through unrighteous means; hearing this, what did Ashvatthaman say?"
+          }
         },
         {
           "n": 14,
-          "text": "धृष्टद्युम्नस्य यो मृत्युः सृष्टस्तेन महात्मना ।\nयथा द्रोणस्य पाञ्चाल्यो यज्ञसेनसुतोऽभवत् ॥"
+          "text": "धृष्टद्युम्नस्य यो मृत्युः सृष्टस्तेन महात्मना ।\nयथा द्रोणस्य पाञ्चाल्यो यज्ञसेनसुतोऽभवत् ॥",
+          "meaning": {
+            "en": "Dhrishtadyumna, son of Yajnasena, was born of the Panchala king to be Drona's death, and so was his death made by that great-souled one."
+          }
         },
         {
           "n": 15,
-          "text": "तं नृशंसेन पापेन क्रूरेणात्यल्पदर्शिना ।\nश्रुत्वा निहतमाचार्यमश्वत्थामा किमब्रवीत् ॥"
+          "text": "तं नृशंसेन पापेन क्रूरेणात्यल्पदर्शिना ।\nश्रुत्वा निहतमाचार्यमश्वत्थामा किमब्रवीत् ॥",
+          "meaning": {
+            "en": "That cruel, wicked, short-sighted man killed the teacher; hearing this, what did Ashvatthaman say?"
+          }
         },
         {
-          "text": "संजय उवाच"
+          "text": "संजय उवाच",
+          "meaning": {
+            "en": "Sanjaya said:"
+          }
         },
         {
           "n": 16,
-          "text": "छद्मना निहतं श्रुत्वा पितरं पापकर्मणा ।\nबाष्पेणापूर्यत द्रौणी रोषेण च नरर्षभ ॥"
+          "text": "छद्मना निहतं श्रुत्वा पितरं पापकर्मणा ।\nबाष्पेणापूर्यत द्रौणी रोषेण च नरर्षभ ॥",
+          "meaning": {
+            "en": "Hearing that his father had been killed by a sinner through trickery, Drona's son was filled with tears and with rage, O best of men."
+          }
         },
         {
           "n": 17,
-          "text": "तस्य क्रुद्धस्य राजेन्द्र वपुर्दिव्यमदृश्यत ।\nअन्तकस्येव भूतानि जिहीर्षोः कालपर्यये ॥"
+          "text": "तस्य क्रुद्धस्य राजेन्द्र वपुर्दिव्यमदृश्यत ।\nअन्तकस्येव भूतानि जिहीर्षोः कालपर्यये ॥",
+          "meaning": {
+            "en": "O king of kings, as he grew angry a divine form appeared in him, like Death wishing to take creatures at the turn of the age."
+          }
         },
         {
           "n": 18,
-          "text": "अश्रुपूर्णे ततो नेत्रे अपमृज्य पुनः पुनः ।\nउवाच कोपान्निःश्वस्य दुर्योधनमिदं वचः ॥"
+          "text": "अश्रुपूर्णे ततो नेत्रे अपमृज्य पुनः पुनः ।\nउवाच कोपान्निःश्वस्य दुर्योधनमिदं वचः ॥",
+          "meaning": {
+            "en": "Wiping his tear-filled eyes again and again, he sighed in anger and spoke these words to Duryodhana."
+          }
         },
         {
           "n": 19,
-          "text": "पिता मम यथा क्षुद्रैर्न्यस्तशस्त्रो निपातितः ।\nधर्मध्वजवता पापं कृतं तद्विदितं मम ।\nअनार्यं सुनृशंसस्य धर्मपुत्रस्य मे श्रुतम् ॥"
+          "text": "पिता मम यथा क्षुद्रैर्न्यस्तशस्त्रो निपातितः ।\nधर्मध्वजवता पापं कृतं तद्विदितं मम ।\nअनार्यं सुनृशंसस्य धर्मपुत्रस्य मे श्रुतम् ॥",
+          "meaning": {
+            "en": "I know the sin done to my father, how base men struck him down when he had laid down his weapons, and I have heard of the ignoble cruelty of the son of Dharma, who carries the banner of righteousness."
+          }
         },
         {
           "n": 20,
-          "text": "युद्धेष्वपि प्रवृत्तानां ध्रुवौ जयपराजयौ ।\nद्वयमेतद्भवेद्राजन्वधस्तत्र प्रशस्यते ॥"
+          "text": "युद्धेष्वपि प्रवृत्तानां ध्रुवौ जयपराजयौ ।\nद्वयमेतद्भवेद्राजन्वधस्तत्र प्रशस्यते ॥",
+          "meaning": {
+            "en": "For those who enter battle, victory and defeat are certain, and one or the other must come; in that case death is praised."
+          }
         },
         {
           "n": 21,
-          "text": "न्यायवृत्तो वधो यस्तु संग्रामे युध्यतो भवेत् ।\nन स दुःखाय भवति तथा दृष्टो हि स द्विजः ॥"
+          "text": "न्यायवृत्तो वधो यस्तु संग्रामे युध्यतो भवेत् ।\nन स दुःखाय भवति तथा दृष्टो हि स द्विजः ॥",
+          "meaning": {
+            "en": "A death in battle that comes by lawful means to one who fights does not cause grief, and so that brahmin was seen to fall."
+          }
         },
         {
           "n": 22,
-          "text": "गतः स वीरलोकाय पिता मम न संशयः ।\nन शोच्यः पुरुषव्याघ्रस्तथा स निधनं गतः ॥"
+          "text": "गतः स वीरलोकाय पिता मम न संशयः ।\nन शोच्यः पुरुषव्याघ्रस्तथा स निधनं गतः ॥",
+          "meaning": {
+            "en": "My father has surely gone to the world of heroes; that tiger among men met his end so, and should not be mourned."
+          }
         },
         {
           "n": 23,
-          "text": "यत्तु धर्मप्रवृत्तः सन्केशग्रहणमाप्तवान् ।\nपश्यतां सर्वसैन्यानां तन्मे मर्माणि कृन्तति ॥"
+          "text": "यत्तु धर्मप्रवृत्तः सन्केशग्रहणमाप्तवान् ।\nपश्यतां सर्वसैन्यानां तन्मे मर्माणि कृन्तति ॥",
+          "meaning": {
+            "en": "But that he, acting righteously, had his hair seized in front of the whole army, this cuts into my vital parts."
+          }
         },
         {
           "n": 24,
-          "text": "कामात्क्रोधादवज्ञानाद्दर्पाद्बाल्येन वा पुनः ।\nवैधर्मिकानि कुर्वन्ति तथा परिभवेन च ॥"
+          "text": "कामात्क्रोधादवज्ञानाद्दर्पाद्बाल्येन वा पुनः ।\nवैधर्मिकानि कुर्वन्ति तथा परिभवेन च ॥",
+          "meaning": {
+            "en": "People do unlawful deeds out of desire, anger, contempt, pride, or childishness, and also out of insolence."
+          }
         },
         {
           "n": 25,
-          "text": "तदिदं पार्षतेनेह महदाधर्मिकं कृतम् ।\nअवज्ञाय च मां नूनं नृशंसेन दुरात्मना ॥"
+          "text": "तदिदं पार्षतेनेह महदाधर्मिकं कृतम् ।\nअवज्ञाय च मां नूनं नृशंसेन दुरात्मना ॥",
+          "meaning": {
+            "en": "This great unrighteous act was done here by the son of Prishata, surely holding me in contempt, that cruel and wicked-souled man."
+          }
         },
         {
           "n": 26,
-          "text": "तस्यानुबन्धं स द्रष्टा धृष्टद्युम्नः सुदारुणम् ।\nअनार्यं परमं कृत्वा मिथ्यावादी च पाण्डवः ॥"
+          "text": "तस्यानुबन्धं स द्रष्टा धृष्टद्युम्नः सुदारुणम् ।\nअनार्यं परमं कृत्वा मिथ्यावादी च पाण्डवः ॥",
+          "meaning": {
+            "en": "Dhrishtadyumna will see its terrible consequence, and so will the Pandava who spoke a lie, having done a most ignoble deed."
+          }
         },
         {
           "n": 27,
-          "text": "यो ह्यसौ छद्मनाचार्यं शस्त्रं संन्यासयत्तदा ।\nतस्याद्य धर्मराजस्य भूमिः पास्यति शोणितम् ॥"
+          "text": "यो ह्यसौ छद्मनाचार्यं शस्त्रं संन्यासयत्तदा ।\nतस्याद्य धर्मराजस्य भूमिः पास्यति शोणितम् ॥",
+          "meaning": {
+            "en": "The king of righteousness who by trickery made the teacher lay down his weapon, today the earth will drink that man's blood."
+          }
         },
         {
           "n": 28,
-          "text": "सर्वोपायैर्यतिष्यामि पाञ्चालानामहं वधे ।\nधृष्टद्युम्नं च समरे हन्ताहं पापकारिणम् ॥"
+          "text": "सर्वोपायैर्यतिष्यामि पाञ्चालानामहं वधे ।\nधृष्टद्युम्नं च समरे हन्ताहं पापकारिणम् ॥",
+          "meaning": {
+            "en": "By every means I will strive for the slaughter of the Panchalas, and I will kill the evildoer Dhrishtadyumna in battle."
+          }
         },
         {
           "n": 29,
-          "text": "कर्मणा येन तेनेह मृदुना दारुणेन वा ।\nपाञ्चालानां वधं कृत्वा शान्तिं लब्धास्मि कौरव ॥"
+          "text": "कर्मणा येन तेनेह मृदुना दारुणेन वा ।\nपाञ्चालानां वधं कृत्वा शान्तिं लब्धास्मि कौरव ॥",
+          "meaning": {
+            "en": "By whatever deed, gentle or fierce, once I have slaughtered the Panchalas, O Kaurava, I shall find peace."
+          }
         },
         {
           "n": 30,
-          "text": "यदर्थं पुरुषव्याघ्र पुत्रमिच्छन्ति मानवाः ।\nप्रेत्य चेह च संप्राप्तं त्राणाय महतो भयात् ॥"
+          "text": "यदर्थं पुरुषव्याघ्र पुत्रमिच्छन्ति मानवाः ।\nप्रेत्य चेह च संप्राप्तं त्राणाय महतो भयात् ॥",
+          "meaning": {
+            "en": "O tiger among men, men want a son so that he may protect them from great fear, both here and in the next world."
+          }
         },
         {
           "n": 31,
-          "text": "पित्रा तु मम सावस्था प्राप्ता निर्बन्धुना यथा ।\nमयि शैलप्रतीकाशे पुत्रे शिष्ये च जीवति ॥"
+          "text": "पित्रा तु मम सावस्था प्राप्ता निर्बन्धुना यथा ।\nमयि शैलप्रतीकाशे पुत्रे शिष्ये च जीवति ॥",
+          "meaning": {
+            "en": "My father reached the state of one without kin, though I, mountain-like, his son and pupil, was alive."
+          }
         },
         {
           "n": 32,
-          "text": "धिङ्ममास्त्राणि दिव्यानि धिग्बाहू धिक्पराक्रमम् ।\nयन्मां द्रोणः सुतं प्राप्य केशग्रहणमाप्तवान् ॥"
+          "text": "धिङ्ममास्त्राणि दिव्यानि धिग्बाहू धिक्पराक्रमम् ।\nयन्मां द्रोणः सुतं प्राप्य केशग्रहणमाप्तवान् ॥",
+          "meaning": {
+            "en": "Shame on my divine weapons, shame on my arms, shame on my prowess, that Drona, having me for a son, had his hair seized."
+          }
         },
         {
           "n": 33,
-          "text": "स तथाहं करिष्यामि यथा भरतसत्तम ।\nपरलोकगतस्यापि गमिष्याम्यनृणः पितुः ॥"
+          "text": "स तथाहं करिष्यामि यथा भरतसत्तम ।\nपरलोकगतस्यापि गमिष्याम्यनृणः पितुः ॥",
+          "meaning": {
+            "en": "I shall act so, best of the Bharatas, that even though my father has gone to the other world I shall be free of my debt to him."
+          }
         },
         {
           "n": 34,
-          "text": "आर्येण तु न वक्तव्या कदाचित्स्तुतिरात्मनः ।\nपितुर्वधममृष्यंस्तु वक्ष्याम्यद्येह पौरुषम् ॥"
+          "text": "आर्येण तु न वक्तव्या कदाचित्स्तुतिरात्मनः ।\nपितुर्वधममृष्यंस्तु वक्ष्याम्यद्येह पौरुषम् ॥",
+          "meaning": {
+            "en": "A noble man should never praise himself, but unable to bear my father's killing, I shall speak of my manliness today."
+          }
         },
         {
           "n": 35,
-          "text": "अद्य पश्यन्तु मे वीर्यं पाण्डवाः सजनार्दनाः ।\nमृद्नतः सर्वसैन्यानि युगान्तमिव कुर्वतः ॥"
+          "text": "अद्य पश्यन्तु मे वीर्यं पाण्डवाः सजनार्दनाः ।\nमृद्नतः सर्वसैन्यानि युगान्तमिव कुर्वतः ॥",
+          "meaning": {
+            "en": "Today let the Pandavas with Janardana see my strength as I crush all their armies, as if bringing on the end of an age."
+          }
         },
         {
           "n": 36,
-          "text": "न हि देवा न गन्धर्वा नासुरा न च राक्षसाः ।\nअद्य शक्ता रणे जेतुं रथस्थं मां नरर्षभ ॥"
+          "text": "न हि देवा न गन्धर्वा नासुरा न च राक्षसाः ।\nअद्य शक्ता रणे जेतुं रथस्थं मां नरर्षभ ॥",
+          "meaning": {
+            "en": "Neither gods nor gandharvas, nor asuras nor rakshasas, bull among men, can defeat me in battle today as I stand in my chariot."
+          }
         },
         {
           "n": 37,
-          "text": "मदन्यो नास्ति लोकेऽस्मिन्नर्जुनाद्वास्त्रवित्तमः ।\nअहं हि ज्वलतां मध्ये मयूखानामिवांशुमान् ।\nप्रयोक्ता देवसृष्टानामस्त्राणां पृतनागतः ॥"
+          "text": "मदन्यो नास्ति लोकेऽस्मिन्नर्जुनाद्वास्त्रवित्तमः ।\nअहं हि ज्वलतां मध्ये मयूखानामिवांशुमान् ।\nप्रयोक्ता देवसृष्टानामस्त्राणां पृतनागतः ॥",
+          "meaning": {
+            "en": "No one in this world knows weapons better than Arjuna, except me. Among blazing ones I am like the sun among its rays, a user of the weapons made by the gods, standing in the army."
+          }
         },
         {
           "n": 38,
-          "text": "कृशाश्वतनया ह्यद्य मत्प्रयुक्ता महामृधे ।\nदर्शयन्तोऽऽत्मनो वीर्यं प्रमथिष्यन्ति पाण्डवान् ॥"
+          "text": "कृशाश्वतनया ह्यद्य मत्प्रयुक्ता महामृधे ।\nदर्शयन्तोऽऽत्मनो वीर्यं प्रमथिष्यन्ति पाण्डवान् ॥",
+          "meaning": {
+            "en": "Today, loosed by me in the great battle, the sons of Krishashva will show their power and crush the Pandavas."
+          }
         },
         {
           "n": 39,
-          "text": "अद्य सर्वा दिशो राजन्धाराभिरिव संकुलाः ।\nआवृताः पत्रिभिस्तीक्ष्णैर्द्रष्टारो मामकैरिह ॥"
+          "text": "अद्य सर्वा दिशो राजन्धाराभिरिव संकुलाः ।\nआवृताः पत्रिभिस्तीक्ष्णैर्द्रष्टारो मामकैरिह ॥",
+          "meaning": {
+            "en": "Today, O king, all directions will seem choked with streams of rain, covered with my sharp arrows, and people will see it."
+          }
         },
         {
           "n": 40,
-          "text": "किरन्हि शरजालानि सर्वतो भैरवस्वरम् ।\nशत्रून्निपातयिष्यामि महावात इव द्रुमान् ॥"
+          "text": "किरन्हि शरजालानि सर्वतो भैरवस्वरम् ।\nशत्रून्निपातयिष्यामि महावात इव द्रुमान् ॥",
+          "meaning": {
+            "en": "Scattering nets of arrows on every side with a dreadful sound, I will fell my enemies as a great storm fells trees."
+          }
         },
         {
           "n": 41,
-          "text": "न च जानाति बीभत्सुस्तदस्त्रं न जनार्दनः ।\nन भीमसेनो न यमौ न च राजा युधिष्ठिरः ॥"
+          "text": "न च जानाति बीभत्सुस्तदस्त्रं न जनार्दनः ।\nन भीमसेनो न यमौ न च राजा युधिष्ठिरः ॥",
+          "meaning": {
+            "en": "Bibhatsu does not know that weapon, nor does Janardana, nor Bhimasena, nor the twins, nor King Yudhishthira."
+          }
         },
         {
           "n": 42,
-          "text": "न पार्षतो दुरात्मासौ न शिखण्डी न सात्यकिः ।\nयदिदं मयि कौरव्य सकल्यं सनिवर्तनम् ॥"
+          "text": "न पार्षतो दुरात्मासौ न शिखण्डी न सात्यकिः ।\nयदिदं मयि कौरव्य सकल्यं सनिवर्तनम् ॥",
+          "meaning": {
+            "en": "Nor does the wicked son of Prishata, nor Shikhandi, nor Satyaki know this weapon that I hold, O Kaurava, with its release and its recall."
+          }
         },
         {
           "n": 43,
-          "text": "नारायणाय मे पित्रा प्रणम्य विधिपूर्वकम् ।\nउपहारः पुरा दत्तो ब्रह्मरूप उपस्थिते ॥"
+          "text": "नारायणाय मे पित्रा प्रणम्य विधिपूर्वकम् ।\nउपहारः पुरा दत्तो ब्रह्मरूप उपस्थिते ॥",
+          "meaning": {
+            "en": "Long ago my father bowed to Narayana in due form and offered him a gift when he appeared in the form of a brahmin."
+          }
         },
         {
           "n": 44,
-          "text": "तं स्वयं प्रतिगृह्याथ भगवान्स वरं ददौ ।\nवव्रे पिता मे परममस्त्रं नारायणं ततः ॥"
+          "text": "तं स्वयं प्रतिगृह्याथ भगवान्स वरं ददौ ।\nवव्रे पिता मे परममस्त्रं नारायणं ततः ॥",
+          "meaning": {
+            "en": "The Lord himself accepted it and granted a boon; my father chose as the supreme weapon the Narayana weapon."
+          }
         },
         {
           "n": 45,
-          "text": "अथैनमब्रवीद्राजन्भगवान्देवसत्तमः ।\nभविता त्वत्समो नान्यः कश्चिद्युधि नरः क्वचित् ॥"
+          "text": "अथैनमब्रवीद्राजन्भगवान्देवसत्तमः ।\nभविता त्वत्समो नान्यः कश्चिद्युधि नरः क्वचित् ॥",
+          "meaning": {
+            "en": "Then, O king, the Lord, best of gods, said to him: No other man will ever be your equal in battle."
+          }
         },
         {
           "n": 46,
-          "text": "न त्विदं सहसा ब्रह्मन्प्रयोक्तव्यं कथंचन ।\nन ह्येतदस्त्रमन्यत्र वधाच्छत्रोर्निवर्तते ॥"
+          "text": "न त्विदं सहसा ब्रह्मन्प्रयोक्तव्यं कथंचन ।\nन ह्येतदस्त्रमन्यत्र वधाच्छत्रोर्निवर्तते ॥",
+          "meaning": {
+            "en": "But, brahmin, this weapon must never be hurled rashly, for it does not turn back until the enemy is slain."
+          }
         },
         {
           "n": 47,
-          "text": "न चैतच्छक्यते ज्ञातुं को न वध्येदिति प्रभो ।\nअवध्यमपि हन्याद्धि तस्मान्नैतत्प्रयोजयेत् ॥"
+          "text": "न चैतच्छक्यते ज्ञातुं को न वध्येदिति प्रभो ।\nअवध्यमपि हन्याद्धि तस्मान्नैतत्प्रयोजयेत् ॥",
+          "meaning": {
+            "en": "Nor can it be known, lord, whom it should not kill; it may strike even one who is not to be slain, so it should not be used."
+          }
         },
         {
           "n": 48,
-          "text": "वधः संख्ये द्रवश्चैव शस्त्राणां च विसर्जनम् ।\nप्रयाचनं च शत्रूणां गमनं शरणस्य च ॥"
+          "text": "वधः संख्ये द्रवश्चैव शस्त्राणां च विसर्जनम् ।\nप्रयाचनं च शत्रूणां गमनं शरणस्य च ॥",
+          "meaning": {
+            "en": "Killing in battle, fleeing, throwing down weapons, begging the enemy, and going for refuge, these are the means of calming the great weapon, O scorcher of foes."
+          }
         },
         {
           "n": 49,
-          "text": "एते प्रशमने योगा महास्त्रस्य परंतप ।\nसर्वथा पीडितो हि स्यादवध्यान्पीडयन्रणे ॥"
+          "text": "एते प्रशमने योगा महास्त्रस्य परंतप ।\nसर्वथा पीडितो हि स्यादवध्यान्पीडयन्रणे ॥",
+          "meaning": {
+            "en": "In every way it will torment one who, using it in battle, harasses those who should not be slain."
+          }
         },
         {
           "n": 50,
-          "text": "तज्जग्राह पिता मह्यमब्रवीच्चैव स प्रभुः ।\nत्वं वर्षिष्यसि दिव्यानि शस्त्रवर्षाण्यनेकशः ।\nअनेनास्त्रेण संग्रामे तेजसा च ज्वलिष्यसि ॥"
+          "text": "तज्जग्राह पिता मह्यमब्रवीच्चैव स प्रभुः ।\nत्वं वर्षिष्यसि दिव्यानि शस्त्रवर्षाण्यनेकशः ।\nअनेनास्त्रेण संग्रामे तेजसा च ज्वलिष्यसि ॥",
+          "meaning": {
+            "en": "My father took it, and the Lord said to him: You will rain many divine showers of weapons, and with this weapon you will blaze in battle with brilliance."
+          }
         },
         {
           "n": 51,
-          "text": "एवमुक्त्वा स भगवान्दिवमाचक्रमे प्रभुः ।\nएतन्नारायणादस्त्रं तत्प्राप्तं मम बन्धुना ॥"
+          "text": "एवमुक्त्वा स भगवान्दिवमाचक्रमे प्रभुः ।\nएतन्नारायणादस्त्रं तत्प्राप्तं मम बन्धुना ॥",
+          "meaning": {
+            "en": "Having said this the Lord went up to heaven. That Narayana weapon was obtained by my kinsman, my father."
+          }
         },
         {
           "n": 52,
-          "text": "तेनाहं पाण्डवांश्चैव पाञ्चालान्मत्स्यकेकयान् ।\nविद्रावयिष्यामि रणे शचीपतिरिवासुरान् ॥"
+          "text": "तेनाहं पाण्डवांश्चैव पाञ्चालान्मत्स्यकेकयान् ।\nविद्रावयिष्यामि रणे शचीपतिरिवासुरान् ॥",
+          "meaning": {
+            "en": "With it I shall drive off the Pandavas, Panchalas, Matsyas and Kekayas in battle, as the husband of Shachi drove off the asuras."
+          }
         },
         {
           "n": 53,
-          "text": "यथा यथाहमिच्छेयं तथा भूत्वा शरा मम ।\nनिपतेयुः सपत्नेषु विक्रमत्स्वपि भारत ॥"
+          "text": "यथा यथाहमिच्छेयं तथा भूत्वा शरा मम ।\nनिपतेयुः सपत्नेषु विक्रमत्स्वपि भारत ॥",
+          "meaning": {
+            "en": "As I wish, so my arrows will become and fall on my foes, even as they strive bravely, O Bharata."
+          }
         },
         {
           "n": 54,
-          "text": "यथेष्टमश्मवर्षेण प्रवर्षिष्ये रणे स्थितः ।\nअयोमुखैश्च विहगैर्द्रावयिष्ये महारथान् ।\nपरश्वधांश्च विविधान्प्रसक्ष्येऽहमसंशयम् ॥"
+          "text": "यथेष्टमश्मवर्षेण प्रवर्षिष्ये रणे स्थितः ।\nअयोमुखैश्च विहगैर्द्रावयिष्ये महारथान् ।\nपरश्वधांश्च विविधान्प्रसक्ष्येऽहमसंशयम् ॥",
+          "meaning": {
+            "en": "Standing in battle I shall rain stones as I please, and with iron-headed birds of arrows I shall scatter great chariot-warriors, and without doubt I shall hurl many kinds of axes."
+          }
         },
         {
           "n": 55,
-          "text": "सोऽहं नारायणास्त्रेण महता शत्रुतापन ।\nशत्रून्विध्वंसयिष्यामि कदर्थीकृत्य पाण्डवान् ॥"
+          "text": "सोऽहं नारायणास्त्रेण महता शत्रुतापन ।\nशत्रून्विध्वंसयिष्यामि कदर्थीकृत्य पाण्डवान् ॥",
+          "meaning": {
+            "en": "O scorcher of foes, with the great Narayana weapon I shall destroy my enemies and make the Pandavas contemptible."
+          }
         },
         {
           "n": 56,
-          "text": "मित्रब्रह्मगुरुद्वेषी जाल्मकः सुविगर्हितः ।\nपाञ्चालापसदश्चाद्य न मे जीवन्विमोक्ष्यते ॥"
+          "text": "मित्रब्रह्मगुरुद्वेषी जाल्मकः सुविगर्हितः ।\nपाञ्चालापसदश्चाद्य न मे जीवन्विमोक्ष्यते ॥",
+          "meaning": {
+            "en": "That hater of his friend, of brahmins, and of his teacher, that despicable wretch, that vile Panchala, will not escape me alive today."
+          }
         },
         {
           "n": 57,
-          "text": "तच्छ्रुत्वा द्रोणपुत्रस्य पर्यवर्तत वाहिनी ।\nततः सर्वे महाशङ्खान्दध्मुः पुरुषसत्तमाः ॥"
+          "text": "तच्छ्रुत्वा द्रोणपुत्रस्य पर्यवर्तत वाहिनी ।\nततः सर्वे महाशङ्खान्दध्मुः पुरुषसत्तमाः ॥",
+          "meaning": {
+            "en": "Hearing this from Drona's son, the army turned back, and then all those best of men blew great conches."
+          }
         },
         {
           "n": 58,
-          "text": "भेरीश्चाभ्यहनन्हृष्टा डिण्डिमांश्च सहस्रशः ।\nतथा ननाद वसुधा खुरनेमिप्रपीडिता ।\nस शब्दस्तुमुलः खं द्यां पृथिवीं च व्यनादयत् ॥"
+          "text": "भेरीश्चाभ्यहनन्हृष्टा डिण्डिमांश्च सहस्रशः ।\nतथा ननाद वसुधा खुरनेमिप्रपीडिता ।\nस शब्दस्तुमुलः खं द्यां पृथिवीं च व्यनादयत् ॥",
+          "meaning": {
+            "en": "Joyfully they beat thousands of drums and kettledrums, and the earth, pressed by hooves and wheel-rims, resounded. That tumultuous sound filled the sky, heaven and earth."
+          }
         },
         {
           "n": 59,
-          "text": "तं शब्दं पाण्डवाः श्रुत्वा पर्जन्यनिनदोपमम् ।\nसमेत्य रथिनां श्रेष्ठाः सहिताः संन्यमन्त्रयन् ॥"
+          "text": "तं शब्दं पाण्डवाः श्रुत्वा पर्जन्यनिनदोपमम् ।\nसमेत्य रथिनां श्रेष्ठाः सहिताः संन्यमन्त्रयन् ॥",
+          "meaning": {
+            "en": "Hearing that sound like the roar of a thundercloud, the Pandavas, best of charioteers, gathered together and took counsel."
+          }
         },
         {
           "n": 60,
-          "text": "तथोक्त्वा द्रोणपुत्रोऽपि तदोपस्पृश्य भारत ।\nप्रादुश्चकार तद्दिव्यमस्त्रं नारायणं तदा ॥"
+          "text": "तथोक्त्वा द्रोणपुत्रोऽपि तदोपस्पृश्य भारत ।\nप्रादुश्चकार तद्दिव्यमस्त्रं नारायणं तदा ॥",
+          "meaning": {
+            "en": "Having spoken so, Drona's son, O Bharata, touched water and then brought forth that divine Narayana weapon."
+          }
         }
       ]
     }

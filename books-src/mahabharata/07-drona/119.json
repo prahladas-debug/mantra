@@ -22,122 +22,212 @@
       "titleEn": "Jayadrathavadha Parva (Slaying of Jayadratha)",
       "verses": [
         {
-          "text": "धृतराष्ट्र उवाच"
+          "text": "धृतराष्ट्र उवाच",
+          "meaning": {
+            "en": "Dhritarashtra said:"
+          }
         },
         {
           "n": 1,
-          "text": "अजितो द्रोणराधेयविकर्णकृतवर्मभिः ।\nतीर्णः सैन्यार्णवं वीरः प्रतिश्रुत्य युधिष्ठिरे ॥"
+          "text": "अजितो द्रोणराधेयविकर्णकृतवर्मभिः ।\nतीर्णः सैन्यार्णवं वीरः प्रतिश्रुत्य युधिष्ठिरे ॥",
+          "meaning": {
+            "en": "The hero Satyaki, who had never been beaten by Drona, Karna, Vikarna or Kritavarman, crossed the ocean of the army after making his promise to Yudhishthira."
+          }
         },
         {
           "n": 2,
-          "text": "स कथं कौरवेयेण समरेष्वनिवारितः ।\nनिगृह्य भूरिश्रवसा बलाद्भुवि निपातितः ॥"
+          "text": "स कथं कौरवेयेण समरेष्वनिवारितः ।\nनिगृह्य भूरिश्रवसा बलाद्भुवि निपातितः ॥",
+          "meaning": {
+            "en": "How was he, unchecked in so many battles, seized by Bhurishravas the Kaurava and thrown forcibly to the ground?"
+          }
         },
         {
-          "text": "संजय उवाच"
+          "text": "संजय उवाच",
+          "meaning": {
+            "en": "Sanjaya said:"
+          }
         },
         {
           "n": 3,
-          "text": "शृणु राजन्निहोत्पत्तिं शैनेयस्य यथा पुरा ।\nयथा च भूरिश्रवसो यत्र ते संशयो नृप ॥"
+          "text": "शृणु राजन्निहोत्पत्तिं शैनेयस्य यथा पुरा ।\nयथा च भूरिश्रवसो यत्र ते संशयो नृप ॥",
+          "meaning": {
+            "en": "Listen, O king, to how Satyaki's line arose long ago, and to the matter of Bhurishravas about which you are in doubt."
+          }
         },
         {
           "n": 4,
-          "text": "अत्रेः पुत्रोऽभवत्सोमः सोमस्य तु बुधः स्मृतः ।\nबुधस्यासीन्महेन्द्राभः पुत्र एकः पुरूरवाः ॥"
+          "text": "अत्रेः पुत्रोऽभवत्सोमः सोमस्य तु बुधः स्मृतः ।\nबुधस्यासीन्महेन्द्राभः पुत्र एकः पुरूरवाः ॥",
+          "meaning": {
+            "en": "Atri's son was Soma, and Soma's son is remembered as Budha. Budha had one son, Pururavas, who was like great Indra."
+          }
         },
         {
           "n": 5,
-          "text": "पुरूरवस आयुस्तु आयुषो नहुषः स्मृतः ।\nनहुषस्य ययातिस्तु राजर्षिर्देवसंमितः ॥"
+          "text": "पुरूरवस आयुस्तु आयुषो नहुषः स्मृतः ।\nनहुषस्य ययातिस्तु राजर्षिर्देवसंमितः ॥",
+          "meaning": {
+            "en": "Pururavas's son was Ayus, and Ayus's son is remembered as Nahusha. Nahusha's son was Yayati, a royal sage equal to the gods."
+          }
         },
         {
           "n": 6,
-          "text": "ययातेर्देवयान्यां तु यदुर्ज्येष्ठोऽभवत्सुतः ।\nयदोरभूदन्ववाये देवमीढ इति श्रुतः ॥"
+          "text": "ययातेर्देवयान्यां तु यदुर्ज्येष्ठोऽभवत्सुतः ।\nयदोरभूदन्ववाये देवमीढ इति श्रुतः ॥",
+          "meaning": {
+            "en": "Yayati's eldest son by Devayani was Yadu. In Yadu's line was one known as Devamidha."
+          }
         },
         {
           "n": 7,
-          "text": "यादवस्तस्य च सुतः शूरस्त्रैलोक्यसंमतः ।\nशूरस्य शौरिर्नृवरो वसुदेवो महायशाः ॥"
+          "text": "यादवस्तस्य च सुतः शूरस्त्रैलोक्यसंमतः ।\nशूरस्य शौरिर्नृवरो वसुदेवो महायशाः ॥",
+          "meaning": {
+            "en": "His son, a Yadava, was Shura, honored in the three worlds. Shura's son was Shauri Vasudeva, best of men, of great fame."
+          }
         },
         {
           "n": 8,
-          "text": "धनुष्यनवरः शूरः कार्तवीर्यसमो युधि ।\nतद्वीर्यश्चापि तत्रैव कुले शिनिरभून्नृपः ॥"
+          "text": "धनुष्यनवरः शूरः कार्तवीर्यसमो युधि ।\nतद्वीर्यश्चापि तत्रैव कुले शिनिरभून्नृपः ॥",
+          "meaning": {
+            "en": "Hero in archery, second to none, equal in battle to Kartavirya, and in that same family was King Shini, of equal might."
+          }
         },
         {
           "n": 9,
-          "text": "एतस्मिन्नेव काले तु देवकस्य महात्मनः ।\nदुहितुः स्वयंवरे राजन्सर्वक्षत्रसमागमे ॥"
+          "text": "एतस्मिन्नेव काले तु देवकस्य महात्मनः ।\nदुहितुः स्वयंवरे राजन्सर्वक्षत्रसमागमे ॥",
+          "meaning": {
+            "en": "At that time, O king, at the self-choice of the daughter of great-souled Devaka, in an assembly of all the warriors,"
+          }
         },
         {
           "n": 10,
-          "text": "तत्र वै देवकीं देवीं वसुदेवार्थमाप्तवान् ।\nनिर्जित्य पार्थिवान्सर्वान्रथमारोपयच्छिनिः ॥"
+          "text": "तत्र वै देवकीं देवीं वसुदेवार्थमाप्तवान् ।\nनिर्जित्य पार्थिवान्सर्वान्रथमारोपयच्छिनिः ॥",
+          "meaning": {
+            "en": "Shini won the divine Devaki for Vasudeva, defeated all the kings, and set her on his chariot."
+          }
         },
         {
           "n": 11,
-          "text": "तां दृष्ट्वा देवकीं शौरे रथस्थां पुरुषर्षभः ।\nनामृष्यत महातेजाः सोमदत्तः शिनेर्नृप ॥"
+          "text": "तां दृष्ट्वा देवकीं शौरे रथस्थां पुरुषर्षभः ।\nनामृष्यत महातेजाः सोमदत्तः शिनेर्नृप ॥",
+          "meaning": {
+            "en": "Seeing Devaki on the chariot, O Shauri, the mighty Somadatta, bull among men, could not bear it, O king."
+          }
         },
         {
           "n": 12,
-          "text": "तयोर्युद्धमभूद्राजन्दिनार्धं चित्रमद्भुतम् ।\nबाहुयुद्धं सुबलिनोः शक्रप्रह्रादयोरिव ॥"
+          "text": "तयोर्युद्धमभूद्राजन्दिनार्धं चित्रमद्भुतम् ।\nबाहुयुद्धं सुबलिनोः शक्रप्रह्रादयोरिव ॥",
+          "meaning": {
+            "en": "The two fought, O king, a strange and wondrous fight for half a day, a wrestling match of two strong men like Indra and Prahlada."
+          }
         },
         {
           "n": 13,
-          "text": "शिनिना सोमदत्तस्तु प्रसह्य भुवि पातितः ।\nअसिमुद्यम्य केशेषु प्रगृह्य च पदा हतः ॥"
+          "text": "शिनिना सोमदत्तस्तु प्रसह्य भुवि पातितः ।\nअसिमुद्यम्य केशेषु प्रगृह्य च पदा हतः ॥",
+          "meaning": {
+            "en": "Shini forcibly threw Somadatta to the ground, raised his sword, seized him by the hair and kicked him."
+          }
         },
         {
           "n": 14,
-          "text": "मध्ये राजसहस्राणां प्रेक्षकाणां समन्ततः ।\nकृपया च पुनस्तेन जीवेति स विसर्जितः ॥"
+          "text": "मध्ये राजसहस्राणां प्रेक्षकाणां समन्ततः ।\nकृपया च पुनस्तेन जीवेति स विसर्जितः ॥",
+          "meaning": {
+            "en": "In the midst of thousands of kings who watched all around, he then let him go in pity, saying \"Live.\""
+          }
         },
         {
           "n": 15,
-          "text": "तदवस्थः कृतस्तेन सोमदत्तोऽथ मारिष ।\nप्रसादयन्महादेवममर्षवशमास्थितः ॥"
+          "text": "तदवस्थः कृतस्तेन सोमदत्तोऽथ मारिष ।\nप्रसादयन्महादेवममर्षवशमास्थितः ॥",
+          "meaning": {
+            "en": "Reduced to that state by Shini, O sir, Somadatta, in the grip of rage, sought to please Mahadeva."
+          }
         },
         {
           "n": 16,
-          "text": "तस्य तुष्टो महादेवो वराणां वरदः प्रभुः ।\nवरेण छन्दयामास स तु वव्रे वरं नृपः ॥"
+          "text": "तस्य तुष्टो महादेवो वराणां वरदः प्रभुः ।\nवरेण छन्दयामास स तु वव्रे वरं नृपः ॥",
+          "meaning": {
+            "en": "Pleased with him, Mahadeva, the lord and giver of boons, offered him a boon, and the king chose one."
+          }
         },
         {
           "n": 17,
-          "text": "पुत्रमिच्छामि भगवन्यो निहन्याच्छिनेः सुतम् ।\nमध्ये राजसहस्राणां पदा हन्याच्च संयुगे ॥"
+          "text": "पुत्रमिच्छामि भगवन्यो निहन्याच्छिनेः सुतम् ।\nमध्ये राजसहस्राणां पदा हन्याच्च संयुगे ॥",
+          "meaning": {
+            "en": "\"Lord, I want a son who may kill Shini's son and kick him in battle in the midst of thousands of kings.\""
+          }
         },
         {
           "n": 18,
-          "text": "तस्य तद्वचनं श्रुत्वा सोमदत्तस्य पार्थिव ।\nएवमस्त्विति तत्रोक्त्वा स देवोऽन्तरधीयत ॥"
+          "text": "तस्य तद्वचनं श्रुत्वा सोमदत्तस्य पार्थिव ।\nएवमस्त्विति तत्रोक्त्वा स देवोऽन्तरधीयत ॥",
+          "meaning": {
+            "en": "Hearing Somadatta's words, O king, the god said \"So be it\" and vanished."
+          }
         },
         {
           "n": 19,
-          "text": "स तेन वरदानेन लब्धवान्भूरिदक्षिणम् ।\nन्यपातयच्च समरे सौमदत्तिः शिनेः सुतम् ॥"
+          "text": "स तेन वरदानेन लब्धवान्भूरिदक्षिणम् ।\nन्यपातयच्च समरे सौमदत्तिः शिनेः सुतम् ॥",
+          "meaning": {
+            "en": "By that boon he gained Bhurishravas of rich gifts, and the son of Somadatta threw Shini's son down in battle."
+          }
         },
         {
           "n": 20,
-          "text": "एतत्ते कथितं राजन्यन्मां त्वं परिपृच्छसि ।\nन हि शक्या रणे जेतुं सात्वता मनुजर्षभ ॥"
+          "text": "एतत्ते कथितं राजन्यन्मां त्वं परिपृच्छसि ।\nन हि शक्या रणे जेतुं सात्वता मनुजर्षभ ॥",
+          "meaning": {
+            "en": "I have told you, O king, what you asked me. The Satvatas cannot be conquered in battle, O best of men."
+          }
         },
         {
           "n": 21,
-          "text": "लब्धलक्ष्याश्च संग्रामे बहवश्चित्रयोधिनः ।\nदेवदानवगन्धर्वान्विजेतारो ह्यविस्मिताः ।\nस्ववीर्यविजये युक्ता नैते परपरिग्रहाः ॥"
+          "text": "लब्धलक्ष्याश्च संग्रामे बहवश्चित्रयोधिनः ।\nदेवदानवगन्धर्वान्विजेतारो ह्यविस्मिताः ।\nस्ववीर्यविजये युक्ता नैते परपरिग्रहाः ॥",
+          "meaning": {
+            "en": "Many are skilled fighters of wondrous ways, sure of their aim, conquerors of gods, danavas and gandharvas without arrogance; they are devoted to winning by their own strength and do not depend on others."
+          }
         },
         {
           "n": 22,
-          "text": "न तुल्यं वृष्णिभिरिह दृश्यते किंचन प्रभो ।\nभूतं भव्यं भविष्यच्च बलेन भरतर्षभ ॥"
+          "text": "न तुल्यं वृष्णिभिरिह दृश्यते किंचन प्रभो ।\nभूतं भव्यं भविष्यच्च बलेन भरतर्षभ ॥",
+          "meaning": {
+            "en": "Nothing here, my lord, is seen to equal the Vrishnis in strength, whether past, present or future, O best of Bharatas."
+          }
         },
         {
           "n": 23,
-          "text": "न ज्ञातिमवमन्यन्ते वृद्धानां शासने रताः ।\nन देवासुरगन्धर्वा न यक्षोरगराक्षसाः ।\nजेतारो वृष्णिवीराणां न पुनर्मानुषा रणे ॥"
+          "text": "न ज्ञातिमवमन्यन्ते वृद्धानां शासने रताः ।\nन देवासुरगन्धर्वा न यक्षोरगराक्षसाः ।\nजेतारो वृष्णिवीराणां न पुनर्मानुषा रणे ॥",
+          "meaning": {
+            "en": "They do not slight their kin, and are devoted to the rule of their elders. Neither gods, asuras, gandharvas, yakshas, serpents nor rakshasas, and still less men in battle, can conquer the Vrishni heroes."
+          }
         },
         {
           "n": 24,
-          "text": "ब्रह्मद्रव्ये गुरुद्रव्ये ज्ञातिद्रव्येऽप्यहिंसकाः ।\nएतेषां रक्षितारश्च ये स्युः कस्यांचिदापदि ॥"
+          "text": "ब्रह्मद्रव्ये गुरुद्रव्ये ज्ञातिद्रव्येऽप्यहिंसकाः ।\nएतेषां रक्षितारश्च ये स्युः कस्यांचिदापदि ॥",
+          "meaning": {
+            "en": "They do no harm to the property of Brahmins, teachers or relatives, and they protect those who are in any danger."
+          }
         },
         {
           "n": 25,
-          "text": "अर्थवन्तो न चोत्सिक्ता ब्रह्मण्याः सत्यवादिनः ।\nसमर्थान्नावमन्यन्ते दीनानभ्युद्धरन्ति च ॥"
+          "text": "अर्थवन्तो न चोत्सिक्ता ब्रह्मण्याः सत्यवादिनः ।\nसमर्थान्नावमन्यन्ते दीनानभ्युद्धरन्ति च ॥",
+          "meaning": {
+            "en": "Wealthy but not proud, devoted to Brahmins and truthful, they do not despise the powerful and they raise up the wretched."
+          }
         },
         {
           "n": 26,
-          "text": "नित्यं देवपरा दान्ता दातारश्चाविकत्थनाः ।\nतेन वृष्णिप्रवीराणां चक्रं न प्रतिहन्यते ॥"
+          "text": "नित्यं देवपरा दान्ता दातारश्चाविकत्थनाः ।\nतेन वृष्णिप्रवीराणां चक्रं न प्रतिहन्यते ॥",
+          "meaning": {
+            "en": "Always devoted to the gods, self-controlled, giving and not boasting, therefore the wheel of the Vrishni heroes is never checked."
+          }
         },
         {
           "n": 27,
-          "text": "अपि मेरुं वहेत्कश्चित्तरेद्वा मकरालयम् ।\nन तु वृष्णिप्रवीराणां समेत्यान्तं व्रजेन्नृप ॥"
+          "text": "अपि मेरुं वहेत्कश्चित्तरेद्वा मकरालयम् ।\nन तु वृष्णिप्रवीराणां समेत्यान्तं व्रजेन्नृप ॥",
+          "meaning": {
+            "en": "One might bear Mount Meru or cross the ocean, but no one could meet the Vrishni heroes and reach their end, O king."
+          }
         },
         {
           "n": 28,
-          "text": "एतत्ते सर्वमाख्यातं यत्र ते संशयो विभो ।\nकुरुराज नरश्रेष्ठ तव ह्यपनयो महान् ॥"
+          "text": "एतत्ते सर्वमाख्यातं यत्र ते संशयो विभो ।\nकुरुराज नरश्रेष्ठ तव ह्यपनयो महान् ॥",
+          "meaning": {
+            "en": "All this I have told you on the point where you doubted, O lord. O king of the Kurus, best of men, the great wrong is yours."
+          }
         }
       ]
     }

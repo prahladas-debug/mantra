@@ -22,167 +22,290 @@
       "titleEn": "Pratijna Parva (Arjuna's vow)",
       "verses": [
         {
-          "text": "संजय उवाच"
+          "text": "संजय उवाच",
+          "meaning": {
+            "en": "Sanjaya said:"
+          }
         },
         {
           "n": 1,
-          "text": "एतच्छ्रुत्वा वचस्तस्य केशवस्य महात्मनः ।\nसुभद्रा पुत्रशोकार्ता विललाप सुदुःखिता ॥"
+          "text": "एतच्छ्रुत्वा वचस्तस्य केशवस्य महात्मनः ।\nसुभद्रा पुत्रशोकार्ता विललाप सुदुःखिता ॥",
+          "meaning": {
+            "en": "Hearing these words of the great-souled Keshava, Subhadra, afflicted with grief for her son, lamented in deep misery."
+          }
         },
         {
           "n": 2,
-          "text": "हा पुत्र मम मन्दायाः कथं संयुगमेत्य ह ।\nनिधनं प्राप्तवांस्तात पितृतुल्यपराक्रमः ॥"
+          "text": "हा पुत्र मम मन्दायाः कथं संयुगमेत्य ह ।\nनिधनं प्राप्तवांस्तात पितृतुल्यपराक्रमः ॥",
+          "meaning": {
+            "en": "\"Alas, my son! How, unlucky as I am, did you meet your end in battle, child, you who were equal to your father in prowess?\""
+          }
         },
         {
           "n": 3,
-          "text": "कथमिन्दीवरश्यामं सुदंष्ट्रं चारुलोचनम् ।\nमुखं ते दृश्यते वत्स गुण्ठितं रणरेणुना ॥"
+          "text": "कथमिन्दीवरश्यामं सुदंष्ट्रं चारुलोचनम् ।\nमुखं ते दृश्यते वत्स गुण्ठितं रणरेणुना ॥",
+          "meaning": {
+            "en": "\"How is it that I see your face, dark like a blue lotus, with its fine teeth and lovely eyes, smeared with the dust of battle, my dear?\""
+          }
         },
         {
           "n": 4,
-          "text": "नूनं शूरं निपतितं त्वां पश्यन्त्यनिवर्तिनम् ।\nसुशिरोग्रीवबाह्वंसं व्यूढोरस्कं निरूदरम् ॥"
+          "text": "नूनं शूरं निपतितं त्वां पश्यन्त्यनिवर्तिनम् ।\nसुशिरोग्रीवबाह्वंसं व्यूढोरस्कं निरूदरम् ॥",
+          "meaning": {
+            "en": "\"Surely the creatures see you fallen, a brave man who never retreated, with your fine head, neck, arms and shoulders, broad chest and slim waist.\""
+          }
         },
         {
           "n": 5,
-          "text": "चारूपचितसर्वाङ्गं स्वक्षं शस्त्रक्षताचितम् ।\nभूतानि त्वा निरीक्षन्ते नूनं चन्द्रमिवोदितम् ॥"
+          "text": "चारूपचितसर्वाङ्गं स्वक्षं शस्त्रक्षताचितम् ।\nभूतानि त्वा निरीक्षन्ते नूनं चन्द्रमिवोदितम् ॥",
+          "meaning": {
+            "en": "\"Surely they gaze at you as at the risen moon, your whole body beautiful, with lovely eyes, covered with weapon wounds.\""
+          }
         },
         {
           "n": 6,
-          "text": "शयनीयं पुरा यस्य स्पर्ध्यास्तरणसंवृतम् ।\nभूमावद्य कथं शेषे विप्रविद्धः सुखोचितः ॥"
+          "text": "शयनीयं पुरा यस्य स्पर्ध्यास्तरणसंवृतम् ।\nभूमावद्य कथं शेषे विप्रविद्धः सुखोचितः ॥",
+          "meaning": {
+            "en": "\"You whose bed was once spread with costly coverings, how do you lie today on the ground, thrown down, though you were used to comfort?\""
+          }
         },
         {
           "n": 7,
-          "text": "योऽन्वास्यत पुरा वीरो वरस्त्रीभिर्महाभुजः ।\nकथमन्वास्यते सोऽद्य शिवाभिः पतितो मृधे ॥"
+          "text": "योऽन्वास्यत पुरा वीरो वरस्त्रीभिर्महाभुजः ।\nकथमन्वास्यते सोऽद्य शिवाभिः पतितो मृधे ॥",
+          "meaning": {
+            "en": "\"You, mighty-armed hero, who were once attended by the finest women, how are you attended today, fallen in battle, by jackals?\""
+          }
         },
         {
           "n": 8,
-          "text": "योऽस्तूयत पुरा हृष्टैः सूतमागधबन्दिभिः ।\nसोऽद्य क्रव्याद्गणैर्घोरैर्विनदद्भिरुपास्यते ॥"
+          "text": "योऽस्तूयत पुरा हृष्टैः सूतमागधबन्दिभिः ।\nसोऽद्य क्रव्याद्गणैर्घोरैर्विनदद्भिरुपास्यते ॥",
+          "meaning": {
+            "en": "\"You who were once praised by joyful charioteers, bards and panegyrists, are now surrounded by hosts of terrible, howling flesh-eaters.\""
+          }
         },
         {
           "n": 9,
-          "text": "पाण्डवेषु च नाथेषु वृष्णिवीरेषु चाभिभो ।\nपाञ्चालेषु च वीरेषु हतः केनास्यनाथवत् ॥"
+          "text": "पाण्डवेषु च नाथेषु वृष्णिवीरेषु चाभिभो ।\nपाञ्चालेषु च वीरेषु हतः केनास्यनाथवत् ॥",
+          "meaning": {
+            "en": "\"While the Pandavas, Vrishni heroes and Panchala heroes were your protectors, who struck you down as if you had no protector?\""
+          }
         },
         {
           "n": 10,
-          "text": "अतृप्तदर्शना पुत्र दर्शनस्य तवानघ ।\nमन्दभाग्या गमिष्यामि व्यक्तमद्य यमक्षयम् ॥"
+          "text": "अतृप्तदर्शना पुत्र दर्शनस्य तवानघ ।\nमन्दभाग्या गमिष्यामि व्यक्तमद्य यमक्षयम् ॥",
+          "meaning": {
+            "en": "\"Innocent son, I was never satisfied with the sight of you. Unlucky as I am, I shall surely go to Yama's abode today.\""
+          }
         },
         {
           "n": 11,
-          "text": "विशालाक्षं सुकेशान्तं चारुवाक्यं सुगन्धि च ।\nतव पुत्र कदा भूयो मुखं द्रक्ष्यामि निर्व्रणम् ॥"
+          "text": "विशालाक्षं सुकेशान्तं चारुवाक्यं सुगन्धि च ।\nतव पुत्र कदा भूयो मुखं द्रक्ष्यामि निर्व्रणम् ॥",
+          "meaning": {
+            "en": "\"Son, when shall I see again your unblemished face, with its large eyes, lovely hair, sweet words and fragrance?\""
+          }
         },
         {
           "n": 12,
-          "text": "धिग्बलं भीमसेनस्य धिक्पार्थस्य धनुष्मताम् ।\nधिग्वीर्यं वृष्णिवीराणां पाञ्चालानां च धिग्बलम् ॥"
+          "text": "धिग्बलं भीमसेनस्य धिक्पार्थस्य धनुष्मताम् ।\nधिग्वीर्यं वृष्णिवीराणां पाञ्चालानां च धिग्बलम् ॥",
+          "meaning": {
+            "en": "\"Shame on Bhimasena's strength, shame on Partha and the archers, shame on the valour of the Vrishni heroes and the strength of the Panchalas.\""
+          }
         },
         {
           "n": 13,
-          "text": "धिक्केकयांस्तथा चेदीन्मत्स्यांश्चैवाथ सृञ्जयान् ।\nये त्वा रणे गतं वीरं न जानन्ति निपातितम् ॥"
+          "text": "धिक्केकयांस्तथा चेदीन्मत्स्यांश्चैवाथ सृञ्जयान् ।\nये त्वा रणे गतं वीरं न जानन्ति निपातितम् ॥",
+          "meaning": {
+            "en": "\"Shame on the Kekayas, the Chedis, the Matsyas and the Srinjayas, who did not know when you had gone into battle and were struck down.\""
+          }
         },
         {
           "n": 14,
-          "text": "अद्य पश्यामि पृथिवीं शून्यामिव हतत्विषम् ।\nअभिमन्युमपश्यन्ती शोकव्याकुललोचना ॥"
+          "text": "अद्य पश्यामि पृथिवीं शून्यामिव हतत्विषम् ।\nअभिमन्युमपश्यन्ती शोकव्याकुललोचना ॥",
+          "meaning": {
+            "en": "\"Today I see the earth as empty, as if its lustre were lost, for my eyes are blind with grief and I cannot see Abhimanyu.\""
+          }
         },
         {
           "n": 15,
-          "text": "स्वस्रीयं वासुदेवस्य पुत्रं गाण्डीवधन्वनः ।\nकथं त्वा विरथं वीरं द्रक्ष्याम्यन्यैर्निपातितम् ॥"
+          "text": "स्वस्रीयं वासुदेवस्य पुत्रं गाण्डीवधन्वनः ।\nकथं त्वा विरथं वीरं द्रक्ष्याम्यन्यैर्निपातितम् ॥",
+          "meaning": {
+            "en": "\"You, nephew of Vasudeva and son of the Gandiva archer, how shall I see you, a hero, chariotless and struck down by others?\""
+          }
         },
         {
           "n": 16,
-          "text": "हा वीर दृष्टो नष्टश्च धनं स्वप्न इवासि मे ।\nअहो ह्यनित्यं मानुष्यं जलबुद्बुदचञ्चलम् ॥"
+          "text": "हा वीर दृष्टो नष्टश्च धनं स्वप्न इवासि मे ।\nअहो ह्यनित्यं मानुष्यं जलबुद्बुदचञ्चलम् ॥",
+          "meaning": {
+            "en": "\"Alas, hero! Seen and lost, you were like wealth seen in a dream to me. How impermanent is human life, as unsteady as a bubble on water.\""
+          }
         },
         {
           "n": 17,
-          "text": "इमां ते तरुणीं भार्यां त्वदाधिभिरभिप्लुताम् ।\nकथं संधारयिष्यामि विवत्सामिव धेनुकाम् ॥"
+          "text": "इमां ते तरुणीं भार्यां त्वदाधिभिरभिप्लुताम् ।\nकथं संधारयिष्यामि विवत्सामिव धेनुकाम् ॥",
+          "meaning": {
+            "en": "\"How shall I support this young wife of yours, overwhelmed by grief for you, like a cow whose calf is gone?\""
+          }
         },
         {
           "n": 18,
-          "text": "अहो ह्यकाले प्रस्थानं कृतवानसि पुत्रक ।\nविहाय फलकाले मां सुगृद्धां तव दर्शने ॥"
+          "text": "अहो ह्यकाले प्रस्थानं कृतवानसि पुत्रक ।\nविहाय फलकाले मां सुगृद्धां तव दर्शने ॥",
+          "meaning": {
+            "en": "\"Alas, my son, you set out at the wrong time, leaving me just at the time of fruit, when I was so eager to see you.\""
+          }
         },
         {
           "n": 19,
-          "text": "नूनं गतिः कृतान्तस्य प्राज्ञैरपि सुदुर्विदा ।\nयत्र त्वं केशवे नाथे संग्रामेऽनाथवद्धतः ॥"
+          "text": "नूनं गतिः कृतान्तस्य प्राज्ञैरपि सुदुर्विदा ।\nयत्र त्वं केशवे नाथे संग्रामेऽनाथवद्धतः ॥",
+          "meaning": {
+            "en": "\"Surely the course of the Ender is hard to understand even for the wise, since you were killed in battle as if unprotected, though Keshava was your protector.\""
+          }
         },
         {
           "n": 20,
-          "text": "यज्वनां दानशीलानां ब्राह्मणानां कृतात्मनाम् ।\nचरितब्रह्मचर्याणां पुण्यतीर्थावगाहिनाम् ॥"
+          "text": "यज्वनां दानशीलानां ब्राह्मणानां कृतात्मनाम् ।\nचरितब्रह्मचर्याणां पुण्यतीर्थावगाहिनाम् ॥",
+          "meaning": {
+            "en": "\"The goal of those who sacrifice, who give, of purified brahmins, of those who have kept celibacy and bathed at sacred places,\""
+          }
         },
         {
           "n": 21,
-          "text": "कृतज्ञानां वदान्यानां गुरुशुश्रूषिणामपि ।\nसहस्रदक्षिणानां च या गतिस्तामवाप्नुहि ॥"
+          "text": "कृतज्ञानां वदान्यानां गुरुशुश्रूषिणामपि ।\nसहस्रदक्षिणानां च या गतिस्तामवाप्नुहि ॥",
+          "meaning": {
+            "en": "\"of the grateful, the generous, those who serve their teachers, and those who give a thousand fees, may you reach that goal.\""
+          }
         },
         {
           "n": 22,
-          "text": "या गतिर्युध्यमानानां शूराणामनिवर्तिनाम् ।\nहत्वारीन्निहतानां च संग्रामे तां गतिं व्रज ॥"
+          "text": "या गतिर्युध्यमानानां शूराणामनिवर्तिनाम् ।\nहत्वारीन्निहतानां च संग्रामे तां गतिं व्रज ॥",
+          "meaning": {
+            "en": "\"The goal of brave men who fight and never turn back, and who die in battle after killing their enemies, go to that goal.\""
+          }
         },
         {
           "n": 23,
-          "text": "गोसहस्रप्रदातॄणां क्रतुदानां च या गतिः ।\nनैवेशिकं चाभिमतं ददतां या गतिः शुभा ॥"
+          "text": "गोसहस्रप्रदातॄणां क्रतुदानां च या गतिः ।\nनैवेशिकं चाभिमतं ददतां या गतिः शुभा ॥",
+          "meaning": {
+            "en": "\"The goal of those who give a thousand cows, who give for sacrifices, and who give the dwelling they hold dear, a blessed goal.\""
+          }
         },
         {
           "n": 24,
-          "text": "ब्रह्मचर्येण यां यान्ति मुनयः संशितव्रताः ।\nएकपत्न्यश्च यां यान्ति तां गतिं व्रज पुत्रक ॥"
+          "text": "ब्रह्मचर्येण यां यान्ति मुनयः संशितव्रताः ।\nएकपत्न्यश्च यां यान्ति तां गतिं व्रज पुत्रक ॥",
+          "meaning": {
+            "en": "\"The goal that firm-vowed sages reach by celibacy, and that men devoted to one wife reach, go to that goal, my son.\""
+          }
         },
         {
           "n": 25,
-          "text": "राज्ञां सुचरितैर्या च गतिर्भवति शाश्वती ।\nचतुराश्रमिणां पुण्यैः पावितानां सुरक्षितैः ॥"
+          "text": "राज्ञां सुचरितैर्या च गतिर्भवति शाश्वती ।\nचतुराश्रमिणां पुण्यैः पावितानां सुरक्षितैः ॥",
+          "meaning": {
+            "en": "\"The eternal goal that kings gain through good conduct, and that those of the four orders of life gain, purified by merit and well guarded,\""
+          }
         },
         {
           "n": 26,
-          "text": "दीनानुकम्पिनां या च सततं संविभागिनाम् ।\nपैशुन्याच्च निवृत्तानां तां गतिं व्रज पुत्रक ॥"
+          "text": "दीनानुकम्पिनां या च सततं संविभागिनाम् ।\nपैशुन्याच्च निवृत्तानां तां गतिं व्रज पुत्रक ॥",
+          "meaning": {
+            "en": "\"the goal of those who are always compassionate to the poor, who share, and who have abstained from slander, go to that goal, my son.\""
+          }
         },
         {
           "n": 27,
-          "text": "व्रतिनां धर्मशीलानां गुरुशुश्रूषिणामपि ।\nअमोघातिथिनां या च तां गतिं व्रज पुत्रक ॥"
+          "text": "व्रतिनां धर्मशीलानां गुरुशुश्रूषिणामपि ।\nअमोघातिथिनां या च तां गतिं व्रज पुत्रक ॥",
+          "meaning": {
+            "en": "\"The goal of those who keep vows, who are devoted to dharma, who serve teachers, and whose hospitality is never fruitless, go to that goal, my son.\""
+          }
         },
         {
           "n": 28,
-          "text": "ऋतुकाले स्वकां पत्नीं गच्छतां या मनस्विनाम् ।\nन चान्यदारसेवीनां तां गतिं व्रज पुत्रक ॥"
+          "text": "ऋतुकाले स्वकां पत्नीं गच्छतां या मनस्विनाम् ।\nन चान्यदारसेवीनां तां गतिं व्रज पुत्रक ॥",
+          "meaning": {
+            "en": "\"The goal of high-minded men who approach only their own wives in season and never serve another's wife, go to that goal, my son.\""
+          }
         },
         {
           "n": 29,
-          "text": "साम्ना ये सर्वभूतानि गच्छन्ति गतमत्सराः ।\nनारुंतुदानां क्षमिणां या गतिस्तामवाप्नुहि ॥"
+          "text": "साम्ना ये सर्वभूतानि गच्छन्ति गतमत्सराः ।\nनारुंतुदानां क्षमिणां या गतिस्तामवाप्नुहि ॥",
+          "meaning": {
+            "en": "\"Those who approach all beings gently, free of envy, who do not hurt others and are forgiving: may you reach their goal.\""
+          }
         },
         {
           "n": 30,
-          "text": "मधुमांसनिवृत्तानां मदाद्दम्भात्तथानृतात् ।\nपरोपतापत्यक्तानां तां गतिं व्रज पुत्रक ॥"
+          "text": "मधुमांसनिवृत्तानां मदाद्दम्भात्तथानृतात् ।\nपरोपतापत्यक्तानां तां गतिं व्रज पुत्रक ॥",
+          "meaning": {
+            "en": "\"The goal of those who abstain from honey and meat, from intoxication, pride and falsehood, who give up troubling others, go to that goal, my son.\""
+          }
         },
         {
           "n": 31,
-          "text": "ह्रीमन्तः सर्वशास्त्रज्ञा ज्ञानतृप्ता जितेन्द्रियाः ।\nयां गतिं साधवो यान्ति तां गतिं व्रज पुत्रक ॥"
+          "text": "ह्रीमन्तः सर्वशास्त्रज्ञा ज्ञानतृप्ता जितेन्द्रियाः ।\nयां गतिं साधवो यान्ति तां गतिं व्रज पुत्रक ॥",
+          "meaning": {
+            "en": "\"The goal that modest, learned, wisdom-satisfied and self-controlled good people reach, go to that goal, my son.\""
+          }
         },
         {
           "n": 32,
-          "text": "एवं विलपतीं दीनां सुभद्रां शोककर्शिताम् ।\nअभ्यपद्यत पाञ्चाली वैराटीसहिता तदा ॥"
+          "text": "एवं विलपतीं दीनां सुभद्रां शोककर्शिताम् ।\nअभ्यपद्यत पाञ्चाली वैराटीसहिता तदा ॥",
+          "meaning": {
+            "en": "As Subhadra, thin with grief, lamented thus in misery, Draupadi came to her then with Virata's daughter."
+          }
         },
         {
           "n": 33,
-          "text": "ताः प्रकामं रुदित्वा च विलप्य च सुदुःखिताः ।\nउन्मत्तवत्तदा राजन्विसंज्ञा न्यपतन्क्षितौ ॥"
+          "text": "ताः प्रकामं रुदित्वा च विलप्य च सुदुःखिताः ।\nउन्मत्तवत्तदा राजन्विसंज्ञा न्यपतन्क्षितौ ॥",
+          "meaning": {
+            "en": "After weeping and lamenting greatly in their distress, O king, they fell senseless to the ground like madwomen."
+          }
         },
         {
           "n": 34,
-          "text": "सोपचारस्तु कृष्णस्तां दुःखितां भृशदुःखितः ।\nसिक्त्वाम्भसा समाश्वास्य तत्तदुक्त्वा हितं वचः ॥"
+          "text": "सोपचारस्तु कृष्णस्तां दुःखितां भृशदुःखितः ।\nसिक्त्वाम्भसा समाश्वास्य तत्तदुक्त्वा हितं वचः ॥",
+          "meaning": {
+            "en": "Krishna, also in great grief, performed the proper acts, sprinkled water on her, comforted her, and spoke various helpful words."
+          }
         },
         {
           "n": 35,
-          "text": "विसंज्ञकल्पां रुदतीमपविद्धां प्रवेपतीम् ।\nभगिनीं पुण्डरीकाक्ष इदं वचनमब्रवीत् ॥"
+          "text": "विसंज्ञकल्पां रुदतीमपविद्धां प्रवेपतीम् ।\nभगिनीं पुण्डरीकाक्ष इदं वचनमब्रवीत् ॥",
+          "meaning": {
+            "en": "The lotus-eyed one spoke these words to his sister, who was as if unconscious, weeping, thrown down and trembling."
+          }
         },
         {
           "n": 36,
-          "text": "सुभद्रे मा शुचः पुत्रं पाञ्चाल्याश्वासयोत्तराम् ।\nगतोऽभिमन्युः प्रथितां गतिं क्षत्रियपुंगवः ॥"
+          "text": "सुभद्रे मा शुचः पुत्रं पाञ्चाल्याश्वासयोत्तराम् ।\nगतोऽभिमन्युः प्रथितां गतिं क्षत्रियपुंगवः ॥",
+          "meaning": {
+            "en": "\"Subhadra, do not grieve for your son. Comfort Uttara, Panchali. Abhimanyu, bull among kshatriyas, has gone to a renowned goal.\""
+          }
         },
         {
           "n": 37,
-          "text": "ये चान्येऽपि कुले सन्ति पुरुषा नो वरानने ।\nसर्वे ते वै गतिं यान्तु अभिमन्योर्यशस्विनः ॥"
+          "text": "ये चान्येऽपि कुले सन्ति पुरुषा नो वरानने ।\nसर्वे ते वै गतिं यान्तु अभिमन्योर्यशस्विनः ॥",
+          "meaning": {
+            "en": "\"Fair-faced one, may all the other men of our family likewise go to the goal of the glorious Abhimanyu.\""
+          }
         },
         {
           "n": 38,
-          "text": "कुर्याम तद्वयं कर्म क्रियासुः सुहृदश्च नः ।\nकृतवान्यादृगद्यैकस्तव पुत्रो महारथः ॥"
+          "text": "कुर्याम तद्वयं कर्म क्रियासुः सुहृदश्च नः ।\nकृतवान्यादृगद्यैकस्तव पुत्रो महारथः ॥",
+          "meaning": {
+            "en": "\"May we and our friends, eager to act, do the deed that your son, the great chariot-warrior, did alone today.\""
+          }
         },
         {
           "n": 39,
-          "text": "एवमाश्वास्य भगिनीं द्रौपदीमपि चोत्तराम् ।\nपार्थस्यैव महाबाहुः पार्श्वमागादरिंदमः ॥"
+          "text": "एवमाश्वास्य भगिनीं द्रौपदीमपि चोत्तराम् ।\nपार्थस्यैव महाबाहुः पार्श्वमागादरिंदमः ॥",
+          "meaning": {
+            "en": "Having comforted his sister and also Draupadi and Uttara, the mighty-armed destroyer of foes went to Partha's side."
+          }
         },
         {
           "n": 40,
-          "text": "ततोऽभ्यनुज्ञाय नृपान्कृष्णो बन्धूंस्तथाभिभूः ।\nविवेशान्तःपुरं राजंस्तेऽन्ये जग्मुर्यथालयम् ॥"
+          "text": "ततोऽभ्यनुज्ञाय नृपान्कृष्णो बन्धूंस्तथाभिभूः ।\nविवेशान्तःपुरं राजंस्तेऽन्ये जग्मुर्यथालयम् ॥",
+          "meaning": {
+            "en": "Then the lord Krishna dismissed the kings and kinsmen and entered the inner apartments, O king, and the others went each to his own quarters."
+          }
         }
       ]
     }

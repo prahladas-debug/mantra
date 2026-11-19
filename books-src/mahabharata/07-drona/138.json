@@ -22,149 +22,260 @@
       "titleEn": "Ghatotkachavadha Parva (Slaying of Ghatotkacha)",
       "verses": [
         {
-          "text": "संजय उवाच"
+          "text": "संजय उवाच",
+          "meaning": {
+            "en": "Sanjaya said:"
+          }
         },
         {
           "n": 1,
-          "text": "वर्तमाने तथा युद्धे घोररूपे भयावहे ।\nतमसा संवृते लोके रजसा च महीपते ।\nनापश्यन्त रणे योधाः परस्परमवस्थिताः ॥"
+          "text": "वर्तमाने तथा युद्धे घोररूपे भयावहे ।\nतमसा संवृते लोके रजसा च महीपते ।\nनापश्यन्त रणे योधाः परस्परमवस्थिताः ॥",
+          "meaning": {
+            "en": "As that terrible and fearful battle went on, with the world wrapped in darkness and dust, O king, the warriors standing in the fight could not see one another."
+          }
         },
         {
           "n": 2,
-          "text": "अनुमानेन संज्ञाभिर्युद्धं तद्ववृते महत् ।\nनरनागाश्वमथनं परमं लोमहर्षणम् ॥"
+          "text": "अनुमानेन संज्ञाभिर्युद्धं तद्ववृते महत् ।\nनरनागाश्वमथनं परमं लोमहर्षणम् ॥",
+          "meaning": {
+            "en": "That great battle went on by guesswork and by signs, a crushing of men, elephants and horses, most hair-raising."
+          }
         },
         {
           "n": 3,
-          "text": "द्रोणकर्णकृपा वीरा भीमपार्षतसात्यकाः ।\nअन्योन्यं क्षोभयामासुः सैन्यानि नृपसत्तम ॥"
+          "text": "द्रोणकर्णकृपा वीरा भीमपार्षतसात्यकाः ।\nअन्योन्यं क्षोभयामासुः सैन्यानि नृपसत्तम ॥",
+          "meaning": {
+            "en": "The heroes Drona, Karna and Kripa, and Bhima, Prishata's son and Satyaki, threw each other's armies into turmoil, best of kings."
+          }
         },
         {
           "n": 4,
-          "text": "वध्यमानानि सैन्यानि समन्तात्तैर्महारथैः ।\nतमसा रजसा चैव समन्ताद्विप्रदुद्रुवुः ॥"
+          "text": "वध्यमानानि सैन्यानि समन्तात्तैर्महारथैः ।\nतमसा रजसा चैव समन्ताद्विप्रदुद्रुवुः ॥",
+          "meaning": {
+            "en": "Struck down on every side by those great warriors, the armies fled in all directions in the darkness and dust."
+          }
         },
         {
           "n": 5,
-          "text": "ते सर्वतो विद्रवन्तो योधा वित्रस्तचेतसः ।\nअहन्यन्त महाराज धावमानाश्च संयुगे ॥"
+          "text": "ते सर्वतो विद्रवन्तो योधा वित्रस्तचेतसः ।\nअहन्यन्त महाराज धावमानाश्च संयुगे ॥",
+          "meaning": {
+            "en": "Those warriors, fleeing everywhere with terrified hearts, were killed, great king, even as they ran in the battle."
+          }
         },
         {
           "n": 6,
-          "text": "महारथसहस्राणि जघ्नुरन्योन्यमाहवे ।\nअन्धे तमसि मूढानि पुत्रस्य तव मन्त्रिते ॥"
+          "text": "महारथसहस्राणि जघ्नुरन्योन्यमाहवे ।\nअन्धे तमसि मूढानि पुत्रस्य तव मन्त्रिते ॥",
+          "meaning": {
+            "en": "Thousands of great warriors killed one another in the battle, bewildered in the blind darkness, through your son's counsel."
+          }
         },
         {
           "n": 7,
-          "text": "ततः सर्वाणि सैन्यानि सेनागोपाश्च भारत ।\nव्यमुह्यन्त रणे तत्र तमसा संवृते सति ॥"
+          "text": "ततः सर्वाणि सैन्यानि सेनागोपाश्च भारत ।\nव्यमुह्यन्त रणे तत्र तमसा संवृते सति ॥",
+          "meaning": {
+            "en": "Then all the armies and their commanders, Bharata, were confused in that battle, shrouded in darkness."
+          }
         },
         {
-          "text": "धृतराष्ट्र उवाच"
+          "text": "धृतराष्ट्र उवाच",
+          "meaning": {
+            "en": "Dhritarashtra said:"
+          }
         },
         {
           "n": 8,
-          "text": "तेषां संलोड्यमानानां पाण्डवैर्निहतौजसाम् ।\nअन्धे तमसि मग्नानामासीत्का वो मतिस्तदा ॥"
+          "text": "तेषां संलोड्यमानानां पाण्डवैर्निहतौजसाम् ।\nअन्धे तमसि मग्नानामासीत्का वो मतिस्तदा ॥",
+          "meaning": {
+            "en": "Stirred up by the Pandavas, their spirit broken, sunk in blind darkness, what did you all think then?"
+          }
         },
         {
           "n": 9,
-          "text": "कथं प्रकाशस्तेषां वा मम सैन्येषु वा पुनः ।\nबभूव लोके तमसा तथा संजय संवृते ॥"
+          "text": "कथं प्रकाशस्तेषां वा मम सैन्येषु वा पुनः ।\nबभूव लोके तमसा तथा संजय संवृते ॥",
+          "meaning": {
+            "en": "How did light come to them, or to my armies, Sanjaya, when the world was covered in darkness?"
+          }
         },
         {
-          "text": "संजय उवाच"
+          "text": "संजय उवाच",
+          "meaning": {
+            "en": "Sanjaya said:"
+          }
         },
         {
           "n": 10,
-          "text": "ततः सर्वाणि सैन्यानि हतशिष्टानि यानि वै ।\nसेनागोप्तॄनथादिश्य पुनर्व्यूहमकल्पयत् ॥"
+          "text": "ततः सर्वाणि सैन्यानि हतशिष्टानि यानि वै ।\nसेनागोप्तॄनथादिश्य पुनर्व्यूहमकल्पयत् ॥",
+          "meaning": {
+            "en": "Then Duryodhana, instructing the commanders, re-formed the array of all the armies, whatever was left after the slaughter."
+          }
         },
         {
           "n": 11,
-          "text": "द्रोणः पुरस्ताज्जघने तु शल्य-\nस्तथा द्रौणिः पार्श्वतः सौबलश्च ।\nस्वयं तु सर्वाणि बलानि राज-\nन्राजाभ्ययाद्गोपयन्वै निशायाम् ॥"
+          "text": "द्रोणः पुरस्ताज्जघने तु शल्य-\nस्तथा द्रौणिः पार्श्वतः सौबलश्च ।\nस्वयं तु सर्वाणि बलानि राज-\nन्राजाभ्ययाद्गोपयन्वै निशायाम् ॥",
+          "meaning": {
+            "en": "Drona was in front, Shalya at the rear, Drona's son and Shakuni's son at the sides; and the king himself went about guarding all the forces that night, O king."
+          }
         },
         {
           "n": 12,
-          "text": "उवाच सर्वांश्च पदातिसंघा-\nन्दुर्योधनः पार्थिव सान्त्वपूर्वम् ।\nउत्सृज्य सर्वे परमायुधानि\nगृह्णीत हस्तैर्ज्वलितान्प्रदीपान् ॥"
+          "text": "उवाच सर्वांश्च पदातिसंघा-\nन्दुर्योधनः पार्थिव सान्त्वपूर्वम् ।\nउत्सृज्य सर्वे परमायुधानि\nगृह्णीत हस्तैर्ज्वलितान्प्रदीपान् ॥",
+          "meaning": {
+            "en": "Duryodhana spoke to all the bands of foot soldiers with soothing words, O king: \"All of you, put down your best weapons and take blazing torches in your hands.\""
+          }
         },
         {
           "n": 13,
-          "text": "ते चोदिताः पार्थिवसत्तमेन\nततः प्रहृष्टा जगृहुः प्रदीपान् ।\nसा भूय एव ध्वजिनी विभक्ता\nव्यरोचताग्निप्रभया निशायाम् ॥"
+          "text": "ते चोदिताः पार्थिवसत्तमेन\nततः प्रहृष्टा जगृहुः प्रदीपान् ।\nसा भूय एव ध्वजिनी विभक्ता\nव्यरोचताग्निप्रभया निशायाम् ॥",
+          "meaning": {
+            "en": "Urged on by that best of kings, they happily took up torches; and the army, divided again, shone in the night with the glow of fire."
+          }
         },
         {
           "n": 14,
-          "text": "महाधनैराभरणैश्च दिव्यैः\nशस्त्रैः प्रदीप्तैरभिसंपतद्भिः ।\nक्षणेन सर्वे विहिताः प्रदीपा\nव्यदीपयंश्च ध्वजिनीं तदाशु ॥"
+          "text": "महाधनैराभरणैश्च दिव्यैः\nशस्त्रैः प्रदीप्तैरभिसंपतद्भिः ।\nक्षणेन सर्वे विहिताः प्रदीपा\nव्यदीपयंश्च ध्वजिनीं तदाशु ॥",
+          "meaning": {
+            "en": "With costly ornaments, divine weapons gleaming and rushing about, in a moment all the torches were prepared and quickly lit the army."
+          }
         },
         {
           "n": 15,
-          "text": "सर्वास्तु सेना व्यतिसेव्यमानाः\nपदातिभिः पावकतैलहस्तैः ।\nप्रकाश्यमाना ददृशुर्निशायां\nयथान्तरिक्षे जलदास्तडिद्भिः ॥"
+          "text": "सर्वास्तु सेना व्यतिसेव्यमानाः\nपदातिभिः पावकतैलहस्तैः ।\nप्रकाश्यमाना ददृशुर्निशायां\nयथान्तरिक्षे जलदास्तडिद्भिः ॥",
+          "meaning": {
+            "en": "All the forces, attended by foot soldiers with fire and oil in their hands, were lit up and seen in the night like clouds with lightning in the sky."
+          }
         },
         {
           "n": 16,
-          "text": "प्रकाशितायां तु तथा ध्वजिन्यां\nद्रोणोऽग्निकल्पः प्रतपन्समन्तात् ।\nरराज राजेन्द्र सुवर्णवर्मा\nमध्यं गतः सूर्य इवांशुमाली ॥"
+          "text": "प्रकाशितायां तु तथा ध्वजिन्यां\nद्रोणोऽग्निकल्पः प्रतपन्समन्तात् ।\nरराज राजेन्द्र सुवर्णवर्मा\nमध्यं गतः सूर्य इवांशुमाली ॥",
+          "meaning": {
+            "en": "With the army lit up, Drona, like fire, blazing on all sides, shone, O king of kings, in his golden armor like the rayed sun at midday."
+          }
         },
         {
           "n": 17,
-          "text": "जाम्बूनदेष्वाभरणेषु चैव\nनिष्केषु शुद्धेषु शरावरेषु ।\nपीतेषु शस्त्रेषु च पावकस्य\nप्रतिप्रभास्तत्र ततो बभूवुः ॥"
+          "text": "जाम्बूनदेष्वाभरणेषु चैव\nनिष्केषु शुद्धेषु शरावरेषु ।\nपीतेषु शस्त्रेषु च पावकस्य\nप्रतिप्रभास्तत्र ततो बभूवुः ॥",
+          "meaning": {
+            "en": "On golden ornaments, on pure necklaces and helmets, and on weapons dipped in fire-color, reflected glows appeared."
+          }
         },
         {
           "n": 18,
-          "text": "गदाश्च शैक्याः परिघाश्च शुभ्रा\nरथेषु शक्त्यश्च विवर्तमानाः ।\nप्रतिप्रभा रश्मिभिराजमीढ\nपुनः पुनः संजनयन्ति दीप्ताः ॥"
+          "text": "गदाश्च शैक्याः परिघाश्च शुभ्रा\nरथेषु शक्त्यश्च विवर्तमानाः ।\nप्रतिप्रभा रश्मिभिराजमीढ\nपुनः पुनः संजनयन्ति दीप्ताः ॥",
+          "meaning": {
+            "en": "Maces, slings, bright iron clubs, and spears rolling in the chariots, O descendant of Ajamidha, shone back again and again with their rays."
+          }
         },
         {
           "n": 19,
-          "text": "छत्राणि बालव्यजनानुषङ्गा\nदीप्ता महोल्काश्च तथैव राजन् ।\nव्याघूर्णमानाश्च सुवर्णमाला\nव्यायच्छतां तत्र तदा विरेजुः ॥"
+          "text": "छत्राणि बालव्यजनानुषङ्गा\nदीप्ता महोल्काश्च तथैव राजन् ।\nव्याघूर्णमानाश्च सुवर्णमाला\nव्यायच्छतां तत्र तदा विरेजुः ॥",
+          "meaning": {
+            "en": "Umbrellas, yak-tail fans and attachments, blazing large firebrands, and swaying golden garlands shone there as they were moved about."
+          }
         },
         {
           "n": 20,
-          "text": "शस्त्रप्रभाभिश्च विराजमानं\nदीपप्रभाभिश्च तदा बलं तत् ।\nप्रकाशितं चाभरणप्रभाभि-\nर्भृशं प्रकाशं नृपते बभूव ॥"
+          "text": "शस्त्रप्रभाभिश्च विराजमानं\nदीपप्रभाभिश्च तदा बलं तत् ।\nप्रकाशितं चाभरणप्रभाभि-\nर्भृशं प्रकाशं नृपते बभूव ॥",
+          "meaning": {
+            "en": "That army, shining with the glow of weapons, torches and ornaments, became brilliantly lit, O king."
+          }
         },
         {
           "n": 21,
-          "text": "पीतानि शस्त्राण्यसृगुक्षितानि\nवीरावधूतानि तनुद्रुहाणि ।\nदीप्तां प्रभां प्राजनयन्त तत्र\nतपात्यये विद्युदिवान्तरिक्षे ॥"
+          "text": "पीतानि शस्त्राण्यसृगुक्षितानि\nवीरावधूतानि तनुद्रुहाणि ।\nदीप्तां प्रभां प्राजनयन्त तत्र\nतपात्यये विद्युदिवान्तरिक्षे ॥",
+          "meaning": {
+            "en": "Weapons whetted, wet with blood, shaken off by heroes and set against their armor, gave off a blazing glow there, like lightning in the sky at the summer's end."
+          }
         },
         {
           "n": 22,
-          "text": "प्रकम्पितानामभिघातवेगै-\nरभिघ्नतां चापततां जवेन ।\nवक्त्राण्यशोभन्त तदा नराणां\nवाय्वीरितानीव महाम्बुजानि ॥"
+          "text": "प्रकम्पितानामभिघातवेगै-\nरभिघ्नतां चापततां जवेन ।\nवक्त्राण्यशोभन्त तदा नराणां\nवाय्वीरितानीव महाम्बुजानि ॥",
+          "meaning": {
+            "en": "The faces of men, shaken by the force of blows, striking and rushing in, looked beautiful then, like great lotuses stirred by the wind."
+          }
         },
         {
           "n": 23,
-          "text": "महावने दाव इव प्रदीप्ते\nयथा प्रभा भास्करस्यापि नश्येत् ।\nतथा तवासीद्ध्वजिनी प्रदीप्ता\nमहाभये भारत भीमरूपा ॥"
+          "text": "महावने दाव इव प्रदीप्ते\nयथा प्रभा भास्करस्यापि नश्येत् ।\nतथा तवासीद्ध्वजिनी प्रदीप्ता\nमहाभये भारत भीमरूपा ॥",
+          "meaning": {
+            "en": "As in a great forest set on fire the sun's light would be lost, so your army, blazing in that great fear, O Bharata, looked terrible."
+          }
         },
         {
           "n": 24,
-          "text": "तत्संप्रदीप्तं बलमस्मदीयं\nनिशाम्य पार्थास्त्वरितास्तथैव ।\nसर्वेषु सैन्येषु पदातिसंघा-\nनचोदयंस्तेऽथ चक्रुः प्रदीपान् ॥"
+          "text": "तत्संप्रदीप्तं बलमस्मदीयं\nनिशाम्य पार्थास्त्वरितास्तथैव ।\nसर्वेषु सैन्येषु पदातिसंघा-\nनचोदयंस्तेऽथ चक्रुः प्रदीपान् ॥",
+          "meaning": {
+            "en": "Seeing our army blazing, the Parthas too, in haste, urged on the bands of foot soldiers in all their armies, and they made torches."
+          }
         },
         {
           "n": 25,
-          "text": "गजे गजे सप्त कृताः प्रदीपा\nरथे रथे चैव दश प्रदीपाः ।\nद्वावश्वपृष्ठे परिपार्श्वतोऽन्ये\nध्वजेषु चान्ये जघनेषु चान्ये ॥"
+          "text": "गजे गजे सप्त कृताः प्रदीपा\nरथे रथे चैव दश प्रदीपाः ।\nद्वावश्वपृष्ठे परिपार्श्वतोऽन्ये\nध्वजेषु चान्ये जघनेषु चान्ये ॥",
+          "meaning": {
+            "en": "Seven torches on every elephant, ten on every chariot, two on each horse's back, others at the sides, others on banners, others at the rear."
+          }
         },
         {
           "n": 26,
-          "text": "सेनासु सर्वासु च पार्श्वतोऽन्ये\nपश्चात्पुरस्ताच्च समन्ततश्च ।\nमध्ये तथान्ये ज्वलिताग्निहस्ताः\nसेनाद्वयेऽपि स्म नरा विचेरुः ॥"
+          "text": "सेनासु सर्वासु च पार्श्वतोऽन्ये\nपश्चात्पुरस्ताच्च समन्ततश्च ।\nमध्ये तथान्ये ज्वलिताग्निहस्ताः\nसेनाद्वयेऽपि स्म नरा विचेरुः ॥",
+          "meaning": {
+            "en": "In all the armies others went at the sides, behind, in front and all around, and others in the middle, with burning fire in their hands; men moved about in both armies."
+          }
         },
         {
           "n": 27,
-          "text": "सर्वेषु सैन्येषु पदातिसंघा\nव्यामिश्रिता हस्तिरथाश्ववृन्दैः ।\nमध्ये तथान्ये ज्वलिताग्निहस्ता\nव्यदीपयन्पाण्डुसुतस्य सेनाम् ॥"
+          "text": "सर्वेषु सैन्येषु पदातिसंघा\nव्यामिश्रिता हस्तिरथाश्ववृन्दैः ।\nमध्ये तथान्ये ज्वलिताग्निहस्ता\nव्यदीपयन्पाण्डुसुतस्य सेनाम् ॥",
+          "meaning": {
+            "en": "In all the armies the bands of foot soldiers, mixed with groups of elephants, chariots and horses, and others in the middle with blazing fire in hand, lit up the army of Pandu's son."
+          }
         },
         {
           "n": 28,
-          "text": "तेन प्रदीप्तेन तथा प्रदीप्तं\nबलं तदासीद्बलवद्बलेन ।\nभाः कुर्वता भानुमता ग्रहेण\nदिवाकरेणाग्निरिवाभितप्तः ॥"
+          "text": "तेन प्रदीप्तेन तथा प्रदीप्तं\nबलं तदासीद्बलवद्बलेन ।\nभाः कुर्वता भानुमता ग्रहेण\nदिवाकरेणाग्निरिवाभितप्तः ॥",
+          "meaning": {
+            "en": "Lit by that fire, that army, strong with strength, was lit as fire is heated by the radiant sun."
+          }
         },
         {
           "n": 29,
-          "text": "तयोः प्रभाः पृथिवीमन्तरिक्षं\nसर्वा व्यतिक्रम्य दिशश्च वृद्धाः ।\nतेन प्रकाशेन भृशं प्रकाशं\nबभूव तेषां तव चैव सैन्यम् ॥"
+          "text": "तयोः प्रभाः पृथिवीमन्तरिक्षं\nसर्वा व्यतिक्रम्य दिशश्च वृद्धाः ।\nतेन प्रकाशेन भृशं प्रकाशं\nबभूव तेषां तव चैव सैन्यम् ॥",
+          "meaning": {
+            "en": "Their lights, rising, filled the earth, the sky and all quarters; with that light both your army and theirs became brilliantly lit."
+          }
         },
         {
           "n": 30,
-          "text": "तेन प्रकाशेन दिवंगमेन\nसंबोधिता देवगणाश्च राजन् ।\nगन्धर्वयक्षासुरसिद्धसंघाः\nसमागमन्नप्सरसश्च सर्वाः ॥"
+          "text": "तेन प्रकाशेन दिवंगमेन\nसंबोधिता देवगणाश्च राजन् ।\nगन्धर्वयक्षासुरसिद्धसंघाः\nसमागमन्नप्सरसश्च सर्वाः ॥",
+          "meaning": {
+            "en": "Awakened by that light that went up to heaven, the hosts of gods came, O king, with the groups of gandharvas, yakshas, asuras and siddhas, and all the apsarases."
+          }
         },
         {
           "n": 31,
-          "text": "तद्देवगन्धर्वसमाकुलं च\nयक्षासुरेन्द्राप्सरसां गणैश्च ।\nहतैश्च वीरैर्दिवमारुहद्भि-\nरायोधनं दिव्यकल्पं बभूव ॥"
+          "text": "तद्देवगन्धर्वसमाकुलं च\nयक्षासुरेन्द्राप्सरसां गणैश्च ।\nहतैश्च वीरैर्दिवमारुहद्भि-\nरायोधनं दिव्यकल्पं बभूव ॥",
+          "meaning": {
+            "en": "Crowded with gods and gandharvas, with throngs of yakshas, chief asuras and apsarases, and with slain heroes rising to heaven, that battlefield became like heaven itself."
+          }
         },
         {
           "n": 32,
-          "text": "रथाश्वनागाकुलदीपदीप्तं\nसंरब्धयोधाहतविद्रुताश्वम् ।\nमहद्बलं व्यूढरथाश्वनागं\nसुरासुरव्यूहसमं बभूव ॥"
+          "text": "रथाश्वनागाकुलदीपदीप्तं\nसंरब्धयोधाहतविद्रुताश्वम् ।\nमहद्बलं व्यूढरथाश्वनागं\nसुरासुरव्यूहसमं बभूव ॥",
+          "meaning": {
+            "en": "The great force, lit by torches amid crowded chariots, horses and elephants, with horses fleeing, struck by enraged warriors, its chariots, horses and elephants drawn up in array, was like the array of gods and asuras."
+          }
         },
         {
           "n": 33,
-          "text": "तच्छक्तिसंघाकुलचण्डवातं\nमहारथाभ्रं रथवाजिघोषम् ।\nशस्त्रौघवर्षं रुधिराम्बुधारं\nनिशि प्रवृत्तं नरदेवयुद्धम् ॥"
+          "text": "तच्छक्तिसंघाकुलचण्डवातं\nमहारथाभ्रं रथवाजिघोषम् ।\nशस्त्रौघवर्षं रुधिराम्बुधारं\nनिशि प्रवृत्तं नरदेवयुद्धम् ॥",
+          "meaning": {
+            "en": "It was a battle of kings in the night, with spear-throngs as a wild wind, great warriors as clouds, the noise of chariots and horses as thunder, a rain of volleys of weapons and streams of blood as water."
+          }
         },
         {
           "n": 34,
-          "text": "तस्मिन्महाग्निप्रतिमो महात्मा\nसंतापयन्पाण्डवान्विप्रमुख्यः ।\nगभस्तिभिर्मध्यगतो यथार्को\nवर्षात्यये तद्वदभून्नरेन्द्र ॥"
+          "text": "तस्मिन्महाग्निप्रतिमो महात्मा\nसंतापयन्पाण्डवान्विप्रमुख्यः ।\nगभस्तिभिर्मध्यगतो यथार्को\nवर्षात्यये तद्वदभून्नरेन्द्र ॥",
+          "meaning": {
+            "en": "In it, O lord of men, that great-souled chief of brahmins (Drona), blazing like a great fire and scorching the Pandavas, stood in the middle with his rays like the sun at the end of the rains."
+          }
         }
       ]
     }

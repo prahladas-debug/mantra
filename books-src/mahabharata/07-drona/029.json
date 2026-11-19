@@ -22,171 +22,297 @@
       "titleEn": "Samshaptakavadha Parva (Slaying of the Samshaptakas)",
       "verses": [
         {
-          "text": "संजय उवाच"
+          "text": "संजय उवाच",
+          "meaning": {
+            "en": "Sanjaya said:"
+          }
         },
         {
           "n": 1,
-          "text": "प्रियमिन्द्रस्य सततं सखायममितौजसम् ।\nहत्वा प्राग्ज्योतिषं पार्थः प्रदक्षिणमवर्तत ॥"
+          "text": "प्रियमिन्द्रस्य सततं सखायममितौजसम् ।\nहत्वा प्राग्ज्योतिषं पार्थः प्रदक्षिणमवर्तत ॥",
+          "meaning": {
+            "en": "Having killed Pragjyotisha, the boundlessly mighty and ever dear friend of Indra, Partha moved off keeping him on his right."
+          }
         },
         {
           "n": 2,
-          "text": "ततो गान्धारराजस्य सुतौ परपुरंजयौ ।\nआर्छेतामर्जुनं संख्ये भ्रातरौ वृषकाचलौ ॥"
+          "text": "ततो गान्धारराजस्य सुतौ परपुरंजयौ ।\nआर्छेतामर्जुनं संख्ये भ्रातरौ वृषकाचलौ ॥",
+          "meaning": {
+            "en": "Then the two brothers Vrishaka and Achala, sons of the king of Gandhara and conquerors of enemy cities, attacked Arjuna in battle."
+          }
         },
         {
           "n": 3,
-          "text": "तौ समेत्यार्जुनं वीरौ पुरः पश्चाच्च धन्विनौ ।\nअविध्येतां महावेगैर्निशितैराशुगैर्भृशम् ॥"
+          "text": "तौ समेत्यार्जुनं वीरौ पुरः पश्चाच्च धन्विनौ ।\nअविध्येतां महावेगैर्निशितैराशुगैर्भृशम् ॥",
+          "meaning": {
+            "en": "Those two heroes, archers, closing on Arjuna from front and back, pierced him hard with swift, sharp, fast arrows."
+          }
         },
         {
           "n": 4,
-          "text": "वृषकस्य हयान्सूतं धनुश्छत्रं रथं ध्वजम् ।\nतिलशो व्यधमत्पार्थः सौबलस्य शितैः शरैः ॥"
+          "text": "वृषकस्य हयान्सूतं धनुश्छत्रं रथं ध्वजम् ।\nतिलशो व्यधमत्पार्थः सौबलस्य शितैः शरैः ॥",
+          "meaning": {
+            "en": "Partha cut Vrishaka's horses, charioteer, bow, umbrella, chariot and banner to pieces, like sesame seeds, with sharp arrows, that son of Subala."
+          }
         },
         {
           "n": 5,
-          "text": "ततोऽर्जुनः शरव्रातैर्नानाप्रहरणैरपि ।\nगान्धारान्व्याकुलांश्चक्रे सौबलप्रमुखान्पुनः ॥"
+          "text": "ततोऽर्जुनः शरव्रातैर्नानाप्रहरणैरपि ।\nगान्धारान्व्याकुलांश्चक्रे सौबलप्रमुखान्पुनः ॥",
+          "meaning": {
+            "en": "Then Arjuna with swarms of arrows and weapons of many kinds threw the Gandharas, led by the Saubalas, into confusion again."
+          }
         },
         {
           "n": 6,
-          "text": "ततः पञ्चशतान्वीरान्गान्धारानुद्यतायुधान् ।\nप्राहिणोन्मृत्युलोकाय क्रुद्धो बाणैर्धनंजयः ॥"
+          "text": "ततः पञ्चशतान्वीरान्गान्धारानुद्यतायुधान् ।\nप्राहिणोन्मृत्युलोकाय क्रुद्धो बाणैर्धनंजयः ॥",
+          "meaning": {
+            "en": "Furious Dhananjaya sent five hundred brave Gandharas with raised weapons to the world of death with his arrows."
+          }
         },
         {
           "n": 7,
-          "text": "हताश्वात्तु रथात्तूर्णमवतीर्य महाभुजः ।\nआरुरोह रथं भ्रातुरन्यच्च धनुराददे ॥"
+          "text": "हताश्वात्तु रथात्तूर्णमवतीर्य महाभुजः ।\nआरुरोह रथं भ्रातुरन्यच्च धनुराददे ॥",
+          "meaning": {
+            "en": "The mighty-armed Vrishaka, his horses killed, quickly leapt from his chariot, mounted his brother's chariot, and took another bow."
+          }
         },
         {
           "n": 8,
-          "text": "तावेकरथमारूढौ भ्रातरौ वृषकाचलौ ।\nशरवर्षेण बीभत्सुमविध्येतां पुनः पुनः ॥"
+          "text": "तावेकरथमारूढौ भ्रातरौ वृषकाचलौ ।\nशरवर्षेण बीभत्सुमविध्येतां पुनः पुनः ॥",
+          "meaning": {
+            "en": "The two brothers Vrishaka and Achala, riding one chariot, again and again pierced Bibhatsu with showers of arrows."
+          }
         },
         {
           "n": 9,
-          "text": "स्यालौ तव महात्मानौ राजानौ वृषकाचलौ ।\nभृशं निजघ्नतुः पार्थमिन्द्रं वृत्रबलाविव ॥"
+          "text": "स्यालौ तव महात्मानौ राजानौ वृषकाचलौ ।\nभृशं निजघ्नतुः पार्थमिन्द्रं वृत्रबलाविव ॥",
+          "meaning": {
+            "en": "Those two great-souled kings, your brothers-in-law, struck Partha hard, like Vritra and Bala striking Indra."
+          }
         },
         {
           "n": 10,
-          "text": "लब्धलक्ष्यौ तु गान्धारावहतां पाण्डवं पुनः ।\nनिदाघवार्षिकौ मासौ लोकं घर्माम्बुभिर्यथा ॥"
+          "text": "लब्धलक्ष्यौ तु गान्धारावहतां पाण्डवं पुनः ।\nनिदाघवार्षिकौ मासौ लोकं घर्माम्बुभिर्यथा ॥",
+          "meaning": {
+            "en": "Those two Gandharas, having found their mark, struck the Pandava again, as the summer and rainy months strike the world with heat and water."
+          }
         },
         {
           "n": 11,
-          "text": "तौ रथस्थौ नरव्याघ्रौ राजानौ वृषकाचलौ ।\nसंश्लिष्टाङ्गौ स्थितौ राजञ्जघानैकेषुणार्जुनः ॥"
+          "text": "तौ रथस्थौ नरव्याघ्रौ राजानौ वृषकाचलौ ।\nसंश्लिष्टाङ्गौ स्थितौ राजञ्जघानैकेषुणार्जुनः ॥",
+          "meaning": {
+            "en": "The two kings, tigers among men, stood on their chariot with their bodies pressed together, and Arjuna killed both with a single arrow."
+          }
         },
         {
           "n": 12,
-          "text": "तौ रथात्सिंहसंकाशौ लोहिताक्षौ महाभुजौ ।\nगतासू पेततुर्वीरौ सोदर्यावेकलक्षणौ ॥"
+          "text": "तौ रथात्सिंहसंकाशौ लोहिताक्षौ महाभुजौ ।\nगतासू पेततुर्वीरौ सोदर्यावेकलक्षणौ ॥",
+          "meaning": {
+            "en": "Those two lion-like, red-eyed, mighty-armed heroes, brothers of the same womb and with the same marks, fell lifeless from the chariot."
+          }
         },
         {
           "n": 13,
-          "text": "तयोर्देहौ रथाद्भूमिं गतौ बन्धुजनप्रियौ ।\nयशो दश दिशः पुण्यं गमयित्वा व्यवस्थितौ ॥"
+          "text": "तयोर्देहौ रथाद्भूमिं गतौ बन्धुजनप्रियौ ।\nयशो दश दिशः पुण्यं गमयित्वा व्यवस्थितौ ॥",
+          "meaning": {
+            "en": "Their bodies, dear to their kinsmen, fell from the chariot to the earth; they had carried their holy fame to the ten directions and so remained."
+          }
         },
         {
           "n": 14,
-          "text": "दृष्ट्वा विनिहतौ संख्ये मातुलावपलायिनौ ।\nभृशं मुमुचुरश्रूणि पुत्रास्तव विशां पते ॥"
+          "text": "दृष्ट्वा विनिहतौ संख्ये मातुलावपलायिनौ ।\nभृशं मुमुचुरश्रूणि पुत्रास्तव विशां पते ॥",
+          "meaning": {
+            "en": "Seeing their two maternal uncles killed in battle, who had not fled, your sons shed many tears, O lord of men."
+          }
         },
         {
           "n": 15,
-          "text": "निहतौ भ्रातरौ दृष्ट्वा मायाशतविशारदः ।\nकृष्णौ संमोहयन्मायां विदधे शकुनिस्ततः ॥"
+          "text": "निहतौ भ्रातरौ दृष्ट्वा मायाशतविशारदः ।\nकृष्णौ संमोहयन्मायां विदधे शकुनिस्ततः ॥",
+          "meaning": {
+            "en": "Seeing his two brothers killed, Shakuni, expert in hundreds of tricks, then began to bewilder the two Krishnas with illusion."
+          }
         },
         {
           "n": 16,
-          "text": "लगुडायोगुडाश्मानः शतघ्न्यश्च सशक्तयः ।\nगदापरिघनिस्त्रिंशशूलमुद्गरपट्टिशाः ॥"
+          "text": "लगुडायोगुडाश्मानः शतघ्न्यश्च सशक्तयः ।\nगदापरिघनिस्त्रिंशशूलमुद्गरपट्टिशाः ॥",
+          "meaning": {
+            "en": "Clubs, iron balls, stones, shataghnis, spears, maces, bars, swords, tridents, mallets, clubs with spikes,"
+          }
         },
         {
           "n": 17,
-          "text": "सकम्पनर्ष्टिनखरा मुसलानि परश्वधाः ।\nक्षुराः क्षुरप्रनालीका वत्सदन्तास्त्रिसंधिनः ॥"
+          "text": "सकम्पनर्ष्टिनखरा मुसलानि परश्वधाः ।\nक्षुराः क्षुरप्रनालीका वत्सदन्तास्त्रिसंधिनः ॥",
+          "meaning": {
+            "en": "lances with trembling points, sabers, claws, pestles, axes, razors, kshurapras, nalikas, calf-tooth arrows and triple-jointed arrows,"
+          }
         },
         {
           "n": 18,
-          "text": "चक्राणि विशिखाः प्रासा विविधान्यायुधानि च ।\nप्रपेतुः सर्वतो दिग्भ्यः प्रदिग्भ्यश्चार्जुनं प्रति ॥"
+          "text": "चक्राणि विशिखाः प्रासा विविधान्यायुधानि च ।\nप्रपेतुः सर्वतो दिग्भ्यः प्रदिग्भ्यश्चार्जुनं प्रति ॥",
+          "meaning": {
+            "en": "discs, arrows, javelins and weapons of many kinds fell on Arjuna from all directions and intermediate directions."
+          }
         },
         {
           "n": 19,
-          "text": "खरोष्ट्रमहिषाः सिंहा व्याघ्राः सृमरचिल्लिकाः ।\nऋक्षाः सालावृका गृध्राः कपयोऽथ सरीसृपाः ॥"
+          "text": "खरोष्ट्रमहिषाः सिंहा व्याघ्राः सृमरचिल्लिकाः ।\nऋक्षाः सालावृका गृध्राः कपयोऽथ सरीसृपाः ॥",
+          "meaning": {
+            "en": "Donkeys, camels, buffaloes, lions, tigers, jackals, bears, wolves, vultures, monkeys and snakes,"
+          }
         },
         {
           "n": 20,
-          "text": "विविधानि च रक्षांसि क्षुधितान्यर्जुनं प्रति ।\nसंक्रुद्धान्यभ्यधावन्त विविधानि वयांसि च ॥"
+          "text": "विविधानि च रक्षांसि क्षुधितान्यर्जुनं प्रति ।\nसंक्रुद्धान्यभ्यधावन्त विविधानि वयांसि च ॥",
+          "meaning": {
+            "en": "and many kinds of Rakshasas, and birds of many kinds, hungry and furious, rushed at Arjuna."
+          }
         },
         {
           "n": 21,
-          "text": "ततो दिव्यास्त्रविच्छूरः कुन्तीपुत्रो धनंजयः ।\nविसृजन्निषुजालानि सहसा तान्यताडयत् ॥"
+          "text": "ततो दिव्यास्त्रविच्छूरः कुन्तीपुत्रो धनंजयः ।\nविसृजन्निषुजालानि सहसा तान्यताडयत् ॥",
+          "meaning": {
+            "en": "Then the brave son of Kunti, Dhananjaya, skilled in divine weapons, suddenly struck them all with nets of arrows."
+          }
         },
         {
           "n": 22,
-          "text": "ते हन्यमानाः शूरेण प्रवरैः सायकैर्दृढैः ।\nविरुवन्तो महारावान्विनेशुः सर्वतो हताः ॥"
+          "text": "ते हन्यमानाः शूरेण प्रवरैः सायकैर्दृढैः ।\nविरुवन्तो महारावान्विनेशुः सर्वतो हताः ॥",
+          "meaning": {
+            "en": "Struck by the hero with fine, firm arrows, they cried out loudly and perished everywhere."
+          }
         },
         {
           "n": 23,
-          "text": "ततस्तमः प्रादुरभूदर्जुनस्य रथं प्रति ।\nतस्माच्च तमसो वाचः क्रूराः पार्थमभर्त्सयन् ॥"
+          "text": "ततस्तमः प्रादुरभूदर्जुनस्य रथं प्रति ।\nतस्माच्च तमसो वाचः क्रूराः पार्थमभर्त्सयन् ॥",
+          "meaning": {
+            "en": "Then darkness appeared before Arjuna's chariot, and from that darkness cruel voices threatened Partha."
+          }
         },
         {
           "n": 24,
-          "text": "तत्तमोऽस्त्रेण महता ज्योतिषेणार्जुनोऽवधीत् ।\nहते तस्मिञ्जलौघास्तु प्रादुरासन्भयानकाः ॥"
+          "text": "तत्तमोऽस्त्रेण महता ज्योतिषेणार्जुनोऽवधीत् ।\nहते तस्मिञ्जलौघास्तु प्रादुरासन्भयानकाः ॥",
+          "meaning": {
+            "en": "Arjuna destroyed that darkness with a great weapon of light; when it was gone, terrible floods of water appeared."
+          }
         },
         {
           "n": 25,
-          "text": "अम्भसस्तस्य नाशार्थमादित्यास्त्रमथार्जुनः ।\nप्रायुङ्क्ताम्भस्ततस्तेन प्रायशोऽस्त्रेण शोषितम् ॥"
+          "text": "अम्भसस्तस्य नाशार्थमादित्यास्त्रमथार्जुनः ।\nप्रायुङ्क्ताम्भस्ततस्तेन प्रायशोऽस्त्रेण शोषितम् ॥",
+          "meaning": {
+            "en": "To destroy that water, Arjuna then used the Sun weapon, and with that weapon the water was mostly dried up."
+          }
         },
         {
           "n": 26,
-          "text": "एवं बहुविधा मायाः सौबलस्य कृताः कृताः ।\nजघानास्त्रबलेनाशु प्रहसन्नर्जुनस्तदा ॥"
+          "text": "एवं बहुविधा मायाः सौबलस्य कृताः कृताः ।\nजघानास्त्रबलेनाशु प्रहसन्नर्जुनस्तदा ॥",
+          "meaning": {
+            "en": "So whenever Saubala's many kinds of illusion were made, Arjuna destroyed them quickly with the power of his weapons, laughing."
+          }
         },
         {
           "n": 27,
-          "text": "तथा हतासु मायासु त्रस्तोऽर्जुनशराहतः ।\nअपायाज्जवनैरश्वैः शकुनिः प्राकृतो यथा ॥"
+          "text": "तथा हतासु मायासु त्रस्तोऽर्जुनशराहतः ।\nअपायाज्जवनैरश्वैः शकुनिः प्राकृतो यथा ॥",
+          "meaning": {
+            "en": "When those illusions were destroyed, Shakuni, terrified and struck by Arjuna's arrows, fled on swift horses like a common man."
+          }
         },
         {
           "n": 28,
-          "text": "ततोऽर्जुनोऽस्त्रविच्छ्रैष्ठ्यं दर्शयन्नात्मनोऽरिषु ।\nअभ्यवर्षच्छरौघेण कौरवाणामनीकिनीम् ॥"
+          "text": "ततोऽर्जुनोऽस्त्रविच्छ्रैष्ठ्यं दर्शयन्नात्मनोऽरिषु ।\nअभ्यवर्षच्छरौघेण कौरवाणामनीकिनीम् ॥",
+          "meaning": {
+            "en": "Then Arjuna, displaying his superior skill in weapons to his enemies, showered the Kaurava army with floods of arrows."
+          }
         },
         {
           "n": 29,
-          "text": "सा हन्यमाना पार्थेन पुत्रस्य तव वाहिनी ।\nद्वैधीभूता महाराज गङ्गेवासाद्य पर्वतम् ॥"
+          "text": "सा हन्यमाना पार्थेन पुत्रस्य तव वाहिनी ।\nद्वैधीभूता महाराज गङ्गेवासाद्य पर्वतम् ॥",
+          "meaning": {
+            "en": "Struck by Partha, your son's army split in two, O great king, like the Ganga striking a mountain."
+          }
         },
         {
           "n": 30,
-          "text": "द्रोणमेवान्वपद्यन्त केचित्तत्र महारथाः ।\nकेचिद्दुर्योधनं राजन्नर्द्यमानाः किरीटिना ॥"
+          "text": "द्रोणमेवान्वपद्यन्त केचित्तत्र महारथाः ।\nकेचिद्दुर्योधनं राजन्नर्द्यमानाः किरीटिना ॥",
+          "meaning": {
+            "en": "Some great warriors there went to Drona, and some, O king, tormented by Kiritin, to Duryodhana."
+          }
         },
         {
           "n": 31,
-          "text": "नापश्याम ततस्त्वेतत्सैन्यं वै तमसावृतम् ।\nगाण्डीवस्य च निर्घोषः श्रुतो दक्षिणतो मया ॥"
+          "text": "नापश्याम ततस्त्वेतत्सैन्यं वै तमसावृतम् ।\nगाण्डीवस्य च निर्घोषः श्रुतो दक्षिणतो मया ॥",
+          "meaning": {
+            "en": "Then we could not see that army, covered in darkness, and I heard the twang of Gandiva toward the south."
+          }
         },
         {
           "n": 32,
-          "text": "शङ्खदुन्दुभिनिर्घोषं वादित्राणां च निस्वनम् ।\nगाण्डीवस्य च निर्घोषो व्यतिक्रम्यास्पृशद्दिवम् ॥"
+          "text": "शङ्खदुन्दुभिनिर्घोषं वादित्राणां च निस्वनम् ।\nगाण्डीवस्य च निर्घोषो व्यतिक्रम्यास्पृशद्दिवम् ॥",
+          "meaning": {
+            "en": "The sound of conches, drums and instruments was overpowered, and the twang of Gandiva rose and touched heaven."
+          }
         },
         {
           "n": 33,
-          "text": "ततः पुनर्दक्षिणतः संग्रामश्चित्रयोधिनाम् ।\nसुयुद्धमर्जुनस्यासीदहं तु द्रोणमन्वगाम् ॥"
+          "text": "ततः पुनर्दक्षिणतः संग्रामश्चित्रयोधिनाम् ।\nसुयुद्धमर्जुनस्यासीदहं तु द्रोणमन्वगाम् ॥",
+          "meaning": {
+            "en": "Then again in the south there was a battle of wonderful fighters, and Arjuna fought well; but I followed Drona."
+          }
         },
         {
           "n": 34,
-          "text": "नानाविधान्यनीकानि पुत्राणां तव भारत ।\nअर्जुनो व्यधमत्काले दिवीवाभ्राणि मारुतः ॥"
+          "text": "नानाविधान्यनीकानि पुत्राणां तव भारत ।\nअर्जुनो व्यधमत्काले दिवीवाभ्राणि मारुतः ॥",
+          "meaning": {
+            "en": "In time Arjuna scattered the many kinds of your sons' divisions, O Bharata, as the wind scatters clouds in the sky."
+          }
         },
         {
           "n": 35,
-          "text": "तं वासवमिवायान्तं भूरिवर्षशरौघिणम् ।\nमहेष्वासं नरव्याघ्रं नोग्रं कश्चिदवारयत् ॥"
+          "text": "तं वासवमिवायान्तं भूरिवर्षशरौघिणम् ।\nमहेष्वासं नरव्याघ्रं नोग्रं कश्चिदवारयत् ॥",
+          "meaning": {
+            "en": "As he came like Indra, a great archer, a tiger among men, pouring a flood of arrows, no one could stop that fierce one."
+          }
         },
         {
           "n": 36,
-          "text": "ते हन्यमानाः पार्थेन त्वदीया व्यथिता भृशम् ।\nस्वानेव बहवो जघ्नुर्विद्रवन्तस्ततस्ततः ॥"
+          "text": "ते हन्यमानाः पार्थेन त्वदीया व्यथिता भृशम् ।\nस्वानेव बहवो जघ्नुर्विद्रवन्तस्ततस्ततः ॥",
+          "meaning": {
+            "en": "Struck by Partha, your men were much distressed; many fled this way and that, killing their own."
+          }
         },
         {
           "n": 37,
-          "text": "तेऽर्जुनेन शरा मुक्ताः कङ्कपत्रास्तनुच्छिदः ।\nशलभा इव संपेतुः संवृण्वाना दिशो दश ॥"
+          "text": "तेऽर्जुनेन शरा मुक्ताः कङ्कपत्रास्तनुच्छिदः ।\nशलभा इव संपेतुः संवृण्वाना दिशो दश ॥",
+          "meaning": {
+            "en": "The heron-feathered arrows loosed by Arjuna, which cut through armor, fell like locusts, covering the ten directions."
+          }
         },
         {
           "n": 38,
-          "text": "तुरगं रथिनं नागं पदातिमपि मारिष ।\nविनिर्भिद्य क्षितिं जग्मुर्वल्मीकमिव पन्नगाः ॥"
+          "text": "तुरगं रथिनं नागं पदातिमपि मारिष ।\nविनिर्भिद्य क्षितिं जग्मुर्वल्मीकमिव पन्नगाः ॥",
+          "meaning": {
+            "en": "Piercing horse, charioteer, elephant and even foot soldier, O sir, they went into the earth like snakes into an anthill."
+          }
         },
         {
           "n": 39,
-          "text": "न च द्वितीयं व्यसृजत्कुञ्जराश्वनरेषु सः ।\nपृथगेकशरारुग्णा निपेतुस्ते गतासवः ॥"
+          "text": "न च द्वितीयं व्यसृजत्कुञ्जराश्वनरेषु सः ।\nपृथगेकशरारुग्णा निपेतुस्ते गतासवः ॥",
+          "meaning": {
+            "en": "He never loosed a second arrow at elephants, horses or men; each was broken by one arrow and fell lifeless."
+          }
         },
         {
           "n": 40,
-          "text": "हतैर्मनुष्यैस्तुरगैश्च सर्वतः\nशराभिवृष्टैर्द्विरदैश्च पातितैः ।\nतदा श्वगोमायुबडाभिनादितं\nविचित्रमायोधशिरो बभूव ह ॥"
+          "text": "हतैर्मनुष्यैस्तुरगैश्च सर्वतः\nशराभिवृष्टैर्द्विरदैश्च पातितैः ।\nतदा श्वगोमायुबडाभिनादितं\nविचित्रमायोधशिरो बभूव ह ॥",
+          "meaning": {
+            "en": "With men and horses slain everywhere and elephants felled by showers of arrows, the battlefield then became strange, resounding with dogs, jackals and vultures."
+          }
         },
         {
           "n": 41,
-          "text": "पिता सुतं त्यजति सुहृद्वरं सुहृ-\nत्तथैव पुत्रः पितरं शरातुरः ।\nस्वरक्षणे कृतमतयस्तदा जना-\nस्त्यजन्ति वाहानपि पार्थपीडिताः ॥"
+          "text": "पिता सुतं त्यजति सुहृद्वरं सुहृ-\nत्तथैव पुत्रः पितरं शरातुरः ।\nस्वरक्षणे कृतमतयस्तदा जना-\nस्त्यजन्ति वाहानपि पार्थपीडिताः ॥",
+          "meaning": {
+            "en": "A father abandoned his son, a friend his best friend, and a son his father, tormented by arrows; thinking only to save themselves, men tormented by Partha even abandoned their mounts."
+          }
         }
       ]
     }

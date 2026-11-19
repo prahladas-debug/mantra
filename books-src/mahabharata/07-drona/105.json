@@ -22,154 +22,268 @@
       "titleEn": "Jayadrathavadha Parva (Slaying of Jayadratha)",
       "verses": [
         {
-          "text": "संजय उवाच"
+          "text": "संजय उवाच",
+          "meaning": {
+            "en": "Sanjaya said:"
+          }
         },
         {
           "n": 1,
-          "text": "तस्मिन्विलुलिते सैन्ये सैन्धवायार्जुने गते ।\nसात्वते भीमसेने च पुत्रस्ते द्रोणमभ्ययात् ।\nत्वरन्नेकरथेनैव बहुकृत्यं विचिन्तयन् ॥"
+          "text": "तस्मिन्विलुलिते सैन्ये सैन्धवायार्जुने गते ।\nसात्वते भीमसेने च पुत्रस्ते द्रोणमभ्ययात् ।\nत्वरन्नेकरथेनैव बहुकृत्यं विचिन्तयन् ॥",
+          "meaning": {
+            "en": "When that army was in turmoil, with Arjuna gone toward Saindhava, and the Satvata and Bhimasena as well, your son came to Drona in a hurry, in a single chariot, reflecting on the many things to be done."
+          }
         },
         {
           "n": 2,
-          "text": "स रथस्तव पुत्रस्य त्वरया परया युतः ।\nतूर्णमभ्यपतद्द्रोणं मनोमारुतवेगवान् ॥"
+          "text": "स रथस्तव पुत्रस्य त्वरया परया युतः ।\nतूर्णमभ्यपतद्द्रोणं मनोमारुतवेगवान् ॥",
+          "meaning": {
+            "en": "Your son's chariot, carrying great haste and swift as mind and wind, quickly fell on Drona."
+          }
         },
         {
           "n": 3,
-          "text": "उवाच चैनं पुत्रस्ते संरम्भाद्रक्तलोचनः ।\nअर्जुनो भीमसेनश्च सात्यकिश्चापराजितः ॥"
+          "text": "उवाच चैनं पुत्रस्ते संरम्भाद्रक्तलोचनः ।\nअर्जुनो भीमसेनश्च सात्यकिश्चापराजितः ॥",
+          "meaning": {
+            "en": "With eyes red from agitation, your son said to him, \"Arjuna, Bhimasena and the unconquered Satyaki,\""
+          }
         },
         {
           "n": 4,
-          "text": "विजित्य सर्वसैन्यानि सुमहान्ति महारथाः ।\nसंप्राप्ताः सिन्धुराजस्य समीपमरिकर्शनाः ।\nव्यायच्छन्ति च तत्रापि सर्व एवापराजिताः ॥"
+          "text": "विजित्य सर्वसैन्यानि सुमहान्ति महारथाः ।\nसंप्राप्ताः सिन्धुराजस्य समीपमरिकर्शनाः ।\nव्यायच्छन्ति च तत्रापि सर्व एवापराजिताः ॥",
+          "meaning": {
+            "en": "\"those great chariot-warriors, tormentors of foes, having defeated all the huge armies, have reached the neighborhood of the king of Sindhu, and there too they all fight unconquered.\""
+          }
         },
         {
           "n": 5,
-          "text": "यदि तावद्रणे पार्थो व्यतिक्रान्तो महारथः ।\nकथं सात्यकिभीमाभ्यां व्यतिक्रान्तोऽसि मानद ॥"
+          "text": "यदि तावद्रणे पार्थो व्यतिक्रान्तो महारथः ।\nकथं सात्यकिभीमाभ्यां व्यतिक्रान्तोऽसि मानद ॥",
+          "meaning": {
+            "en": "\"If Partha, the great chariot-warrior, has passed you in battle, how, giver of honor, were you passed by Satyaki and Bhima?\""
+          }
         },
         {
           "n": 6,
-          "text": "आश्चर्यभूतं लोकेऽस्मिन्समुद्रस्येव शोषणम् ।\nनिर्जयं तव विप्राग्र्य सात्वतेनार्जुनेन च ॥"
+          "text": "आश्चर्यभूतं लोकेऽस्मिन्समुद्रस्येव शोषणम् ।\nनिर्जयं तव विप्राग्र्य सात्वतेनार्जुनेन च ॥",
+          "meaning": {
+            "en": "\"It is a wonder in this world, like the drying up of the ocean, that you, best of Brahmins, were overcome by the Satvata and by Arjuna.\""
+          }
         },
         {
           "n": 7,
-          "text": "तथैव भीमसेनेन लोकः संवदते भृशम् ।\nकथं द्रोणो जितः संख्ये धनुर्वेदस्य पारगः ॥"
+          "text": "तथैव भीमसेनेन लोकः संवदते भृशम् ।\nकथं द्रोणो जितः संख्ये धनुर्वेदस्य पारगः ॥",
+          "meaning": {
+            "en": "\"And so too by Bhimasena the world speaks loudly: how was Drona, master of the science of archery, beaten in battle?\""
+          }
         },
         {
           "n": 8,
-          "text": "नाश एव तु मे नूनं मन्दभाग्यस्य संयुगे ।\nयत्र त्वां पुरुषव्याघ्रमतिक्रान्तास्त्रयो रथाः ॥"
+          "text": "नाश एव तु मे नूनं मन्दभाग्यस्य संयुगे ।\nयत्र त्वां पुरुषव्याघ्रमतिक्रान्तास्त्रयो रथाः ॥",
+          "meaning": {
+            "en": "\"Surely it is my ruin, unlucky as I am, that three chariot-warriors passed you, a tiger among men.\""
+          }
         },
         {
           "n": 9,
-          "text": "एवं गते तु कृत्येऽस्मिन्ब्रूहि यत्ते विवक्षितम् ।\nयद्गतं गतमेवेह शेषं चिन्तय मानद ॥"
+          "text": "एवं गते तु कृत्येऽस्मिन्ब्रूहि यत्ते विवक्षितम् ।\nयद्गतं गतमेवेह शेषं चिन्तय मानद ॥",
+          "meaning": {
+            "en": "\"Things being so, tell me what you wish to say. What has gone has gone; think of what remains, giver of honor.\""
+          }
         },
         {
           "n": 10,
-          "text": "यत्कृत्यं सिन्धुराजस्य प्राप्तकालमनन्तरम् ।\nतद्ब्रवीतु भवान्क्षिप्रं साधु तत्संविधीयताम् ॥"
+          "text": "यत्कृत्यं सिन्धुराजस्य प्राप्तकालमनन्तरम् ।\nतद्ब्रवीतु भवान्क्षिप्रं साधु तत्संविधीयताम् ॥",
+          "meaning": {
+            "en": "\"Tell me quickly what must now be done at once for the king of Sindhu, and let it be properly arranged.\""
+          }
         },
         {
-          "text": "द्रोण उवाच"
+          "text": "द्रोण उवाच",
+          "meaning": {
+            "en": "Drona said:"
+          }
         },
         {
           "n": 11,
-          "text": "चिन्त्यं बहु महाराज कृत्यं यत्तत्र मे शृणु ।\nत्रयो हि समतिक्रान्ताः पाण्डवानां महारथाः ।\nयावदेव भयं पश्चात्तावदेषां पुरःसरम् ॥"
+          "text": "चिन्त्यं बहु महाराज कृत्यं यत्तत्र मे शृणु ।\nत्रयो हि समतिक्रान्ताः पाण्डवानां महारथाः ।\nयावदेव भयं पश्चात्तावदेषां पुरःसरम् ॥",
+          "meaning": {
+            "en": "\"Great king, much must be thought about; hear what concerns me there. Three great chariot-warriors of the Pandavas have passed. As much as the danger is behind, so much is it also ahead of them.\""
+          }
         },
         {
           "n": 12,
-          "text": "तद्गरीयस्तरं मन्ये यत्र कृष्णधनंजयौ ।\nसा पुरस्ताच्च पश्चाच्च गृहीता भारती चमूः ॥"
+          "text": "तद्गरीयस्तरं मन्ये यत्र कृष्णधनंजयौ ।\nसा पुरस्ताच्च पश्चाच्च गृहीता भारती चमूः ॥",
+          "meaning": {
+            "en": "\"I think the heavier task lies where Krishna and Dhananjaya are, for the Bharata army is seized in front and behind.\""
+          }
         },
         {
           "n": 13,
-          "text": "तत्र कृत्यमहं मन्ये सैन्धवस्याभिरक्षणम् ।\nस नो रक्ष्यतमस्तात क्रुद्धाद्भीतो धनंजयात् ॥"
+          "text": "तत्र कृत्यमहं मन्ये सैन्धवस्याभिरक्षणम् ।\nस नो रक्ष्यतमस्तात क्रुद्धाद्भीतो धनंजयात् ॥",
+          "meaning": {
+            "en": "\"There I think the task is to protect Saindhava. He is the one most to be protected by us, dear son, since he fears the angry Dhananjaya.\""
+          }
         },
         {
           "n": 14,
-          "text": "गतौ हि सैन्धवं वीरौ युयुधानवृकोदरौ ।\nसंप्राप्तं तदिदं द्यूतं यत्तच्छकुनिबुद्धिजम् ॥"
+          "text": "गतौ हि सैन्धवं वीरौ युयुधानवृकोदरौ ।\nसंप्राप्तं तदिदं द्यूतं यत्तच्छकुनिबुद्धिजम् ॥",
+          "meaning": {
+            "en": "\"The two heroes, Yuyudhana and Vrikodara, have gone to Saindhava. This is that very dice game that arose from Shakuni's cunning.\""
+          }
         },
         {
           "n": 15,
-          "text": "न सभायां जयो वृत्तो नापि तत्र पराजयः ।\nइह नो ग्लहमानानामद्य तात जयाजयौ ॥"
+          "text": "न सभायां जयो वृत्तो नापि तत्र पराजयः ।\nइह नो ग्लहमानानामद्य तात जयाजयौ ॥",
+          "meaning": {
+            "en": "\"In the assembly neither victory nor defeat was reached. Today, dear son, victory or defeat is for us who are staking here.\""
+          }
         },
         {
           "n": 16,
-          "text": "यान्स्म तान्ग्लहते घोराञ्शकुनिः कुरुसंसदि ।\nअक्षान्संमन्यमानः स प्राक्शरास्ते दुरासदाः ॥"
+          "text": "यान्स्म तान्ग्लहते घोराञ्शकुनिः कुरुसंसदि ।\nअक्षान्संमन्यमानः स प्राक्शरास्ते दुरासदाः ॥",
+          "meaning": {
+            "en": "\"Those fearsome dice that Shakuni staked in the Kuru assembly, thinking of them as dice, are the arrows, hard to withstand.\""
+          }
         },
         {
           "n": 17,
-          "text": "यत्र ते बहवस्तात कुरवः पर्यवस्थिताः ।\nसेनां दुरोदरं विद्धि शरानक्षान्विशां पते ॥"
+          "text": "यत्र ते बहवस्तात कुरवः पर्यवस्थिताः ।\nसेनां दुरोदरं विद्धि शरानक्षान्विशां पते ॥",
+          "meaning": {
+            "en": "\"Know, lord of the people, that where many Kurus stand around, the army is the dice-board and the arrows are the dice.\""
+          }
         },
         {
           "n": 18,
-          "text": "ग्लहं च सैन्धवं राजन्नत्र द्यूतस्य निश्चयः ।\nसैन्धवे हि महाद्यूतं समासक्तं परैः सह ॥"
+          "text": "ग्लहं च सैन्धवं राजन्नत्र द्यूतस्य निश्चयः ।\nसैन्धवे हि महाद्यूतं समासक्तं परैः सह ॥",
+          "meaning": {
+            "en": "\"And the stake, O king, is Saindhava; the decision of the game is here. For with Saindhava a great game has been joined with our foes.\""
+          }
         },
         {
           "n": 19,
-          "text": "अत्र सर्वे महाराज त्यक्त्वा जीवितमात्मनः ।\nसैन्धवस्य रणे रक्षां विधिवत्कर्तुमर्हथ ।\nतत्र नो ग्लहमानानां ध्रुवौ तात जयाजयौ ॥"
+          "text": "अत्र सर्वे महाराज त्यक्त्वा जीवितमात्मनः ।\nसैन्धवस्य रणे रक्षां विधिवत्कर्तुमर्हथ ।\nतत्र नो ग्लहमानानां ध्रुवौ तात जयाजयौ ॥",
+          "meaning": {
+            "en": "\"Here all of you, great king, giving up your lives, should duly guard Saindhava in the battle. For us who stake there, victory or defeat is certain.\""
+          }
         },
         {
           "n": 20,
-          "text": "यत्र ते परमेष्वासा यत्ता रक्षन्ति सैन्धवम् ।\nतत्र याहि स्वयं शीघ्रं तांश्च रक्षस्व रक्षिणः ॥"
+          "text": "यत्र ते परमेष्वासा यत्ता रक्षन्ति सैन्धवम् ।\nतत्र याहि स्वयं शीघ्रं तांश्च रक्षस्व रक्षिणः ॥",
+          "meaning": {
+            "en": "\"Go yourself quickly to where those great archers guard Saindhava with care, and protect the protectors.\""
+          }
         },
         {
           "n": 21,
-          "text": "इहैव त्वहमासिष्ये प्रेषयिष्यामि चापरान् ।\nनिरोत्स्यामि च पाञ्चालान्सहितान्पाण्डुसृञ्जयैः ॥"
+          "text": "इहैव त्वहमासिष्ये प्रेषयिष्यामि चापरान् ।\nनिरोत्स्यामि च पाञ्चालान्सहितान्पाण्डुसृञ्जयैः ॥",
+          "meaning": {
+            "en": "\"I shall stay right here, and I shall send others, and I shall hold back the Panchalas together with the Pandavas and Srinjayas.\""
+          }
         },
         {
           "n": 22,
-          "text": "ततो दुर्योधनः प्रायात्तूर्णमाचार्यशासनात् ।\nउद्यम्यात्मानमुग्राय कर्मणे सपदानुगः ॥"
+          "text": "ततो दुर्योधनः प्रायात्तूर्णमाचार्यशासनात् ।\nउद्यम्यात्मानमुग्राय कर्मणे सपदानुगः ॥",
+          "meaning": {
+            "en": "Then Duryodhana quickly went at the teacher's command, steeling himself with his followers for the grim work."
+          }
         },
         {
           "n": 23,
-          "text": "चक्ररक्षौ तु पाञ्चाल्यौ युधामन्यूत्तमौजसौ ।\nबाह्येन सेनामभ्येत्य जग्मतुः सव्यसाचिनम् ॥"
+          "text": "चक्ररक्षौ तु पाञ्चाल्यौ युधामन्यूत्तमौजसौ ।\nबाह्येन सेनामभ्येत्य जग्मतुः सव्यसाचिनम् ॥",
+          "meaning": {
+            "en": "The two Panchala wheel-guards, Yudhamanyu and Uttamaujas, came around the outside of the army and went to Savyasachin."
+          }
         },
         {
           "n": 24,
-          "text": "तौ हि पूर्वं महाराज वारितौ कृतवर्मणा ।\nप्रविष्टे त्वर्जुने राजंस्तव सैन्यं युयुत्सया ॥"
+          "text": "तौ हि पूर्वं महाराज वारितौ कृतवर्मणा ।\nप्रविष्टे त्वर्जुने राजंस्तव सैन्यं युयुत्सया ॥",
+          "meaning": {
+            "en": "Earlier, great king, Kritavarman had held them back when Arjuna entered your army, as they were eager to fight."
+          }
         },
         {
           "n": 25,
-          "text": "ताभ्यां दुर्योधनः सार्धमगच्छद्युद्धमुत्तमम् ।\nत्वरितस्त्वरमाणाभ्यां भ्रातृभ्यां भारतो बली ॥"
+          "text": "ताभ्यां दुर्योधनः सार्धमगच्छद्युद्धमुत्तमम् ।\nत्वरितस्त्वरमाणाभ्यां भ्रातृभ्यां भारतो बली ॥",
+          "meaning": {
+            "en": "Duryodhana, strong Bharata, went in haste to a great fight against those two hurrying brothers."
+          }
         },
         {
           "n": 26,
-          "text": "तावभिद्रवतामेनमुभावुद्यतकार्मुकौ ।\nमहारथसमाख्यातौ क्षत्रियप्रवरौ युधि ॥"
+          "text": "तावभिद्रवतामेनमुभावुद्यतकार्मुकौ ।\nमहारथसमाख्यातौ क्षत्रियप्रवरौ युधि ॥",
+          "meaning": {
+            "en": "Both rushed at him with raised bows, those two best of kshatriyas, called great chariot-warriors, in the battle."
+          }
         },
         {
           "n": 27,
-          "text": "युधामन्युस्तु संक्रुद्धः शरांस्त्रिंशतमायसान् ।\nव्यसृजत्तव पुत्रस्य त्वरमाणः स्तनान्तरे ॥"
+          "text": "युधामन्युस्तु संक्रुद्धः शरांस्त्रिंशतमायसान् ।\nव्यसृजत्तव पुत्रस्य त्वरमाणः स्तनान्तरे ॥",
+          "meaning": {
+            "en": "Yudhamanyu, enraged, hastily sent thirty iron arrows into your son's chest."
+          }
         },
         {
           "n": 28,
-          "text": "दुर्योधनोऽपि राजेन्द्र पाञ्चाल्यस्योत्तमौजसः ।\nजघान चतुरश्चाश्वानुभौ च पार्ष्णिसारथी ॥"
+          "text": "दुर्योधनोऽपि राजेन्द्र पाञ्चाल्यस्योत्तमौजसः ।\nजघान चतुरश्चाश्वानुभौ च पार्ष्णिसारथी ॥",
+          "meaning": {
+            "en": "And Duryodhana, king of kings, killed the four horses of Uttamaujas of Panchala and both his rear guards and his charioteer."
+          }
         },
         {
           "n": 29,
-          "text": "उत्तमौजा हताश्वस्तु हतसूतश्च संयुगे ।\nआरुरोह रथं भ्रातुर्युधामन्योरभित्वरन् ॥"
+          "text": "उत्तमौजा हताश्वस्तु हतसूतश्च संयुगे ।\nआरुरोह रथं भ्रातुर्युधामन्योरभित्वरन् ॥",
+          "meaning": {
+            "en": "Uttamaujas, his horses and charioteer slain in the battle, hastily climbed onto his brother Yudhamanyu's chariot."
+          }
         },
         {
           "n": 30,
-          "text": "स रथं प्राप्य तं भ्रातुर्दुर्योधनहयाञ्शरैः ।\nबहुभिस्ताडयामास ते हताः प्रापतन्भुवि ॥"
+          "text": "स रथं प्राप्य तं भ्रातुर्दुर्योधनहयाञ्शरैः ।\nबहुभिस्ताडयामास ते हताः प्रापतन्भुवि ॥",
+          "meaning": {
+            "en": "Reaching his brother's chariot, he struck Duryodhana's horses with many arrows, and they fell to the ground dead."
+          }
         },
         {
           "n": 31,
-          "text": "हयेषु पतितेष्वस्य चिच्छेद परमेषुणा ।\nयुधामन्युर्धनुः शीघ्रं शरावापं च संयुगे ॥"
+          "text": "हयेषु पतितेष्वस्य चिच्छेद परमेषुणा ।\nयुधामन्युर्धनुः शीघ्रं शरावापं च संयुगे ॥",
+          "meaning": {
+            "en": "When his horses had fallen, Yudhamanyu quickly cut his bow and quiver with a supreme arrow in the battle."
+          }
         },
         {
           "n": 32,
-          "text": "हताश्वसूतात्स रथादवप्लुत्य महारथः ।\nगदामादाय ते पुत्रः पाञ्चाल्यावभ्यधावत ॥"
+          "text": "हताश्वसूतात्स रथादवप्लुत्य महारथः ।\nगदामादाय ते पुत्रः पाञ्चाल्यावभ्यधावत ॥",
+          "meaning": {
+            "en": "The great chariot-warrior, from his chariot with its horses and charioteer slain, leaped down, took a mace, and ran at the two Panchalas."
+          }
         },
         {
           "n": 33,
-          "text": "तमापतन्तं संप्रेक्ष्य क्रुद्धं परपुरंजयम् ।\nअवप्लुतौ रथोपस्थाद्युधामन्यूत्तमौजसौ ॥"
+          "text": "तमापतन्तं संप्रेक्ष्य क्रुद्धं परपुरंजयम् ।\nअवप्लुतौ रथोपस्थाद्युधामन्यूत्तमौजसौ ॥",
+          "meaning": {
+            "en": "Seeing your angry son, conqueror of enemy cities, coming at them, Yudhamanyu and Uttamaujas jumped down from their chariot-seat."
+          }
         },
         {
           "n": 34,
-          "text": "ततः स हेमचित्रं तं स्यन्दनप्रवरं गदी ।\nगदया पोथयामास साश्वसूतध्वजं रणे ॥"
+          "text": "ततः स हेमचित्रं तं स्यन्दनप्रवरं गदी ।\nगदया पोथयामास साश्वसूतध्वजं रणे ॥",
+          "meaning": {
+            "en": "Then, mace in hand, he smashed that best of chariots, adorned with gold, with its horses, charioteer and banner, in the battle."
+          }
         },
         {
           "n": 35,
-          "text": "हत्वा चैनं स पुत्रस्ते हताश्वो हतसारथिः ।\nमद्रराजरथं तूर्णमारुरोह परंतपः ॥"
+          "text": "हत्वा चैनं स पुत्रस्ते हताश्वो हतसारथिः ।\nमद्रराजरथं तूर्णमारुरोह परंतपः ॥",
+          "meaning": {
+            "en": "Having destroyed it, your son, his horses and charioteer slain, tormentor of foes, quickly mounted the chariot of the king of Madra."
+          }
         },
         {
           "n": 36,
-          "text": "पाञ्चालानां तु मुख्यौ तौ राजपुत्रौ महाबलौ ।\nरथमन्यं समारुह्य धनंजयमभीयतुः ॥"
+          "text": "पाञ्चालानां तु मुख्यौ तौ राजपुत्रौ महाबलौ ।\nरथमन्यं समारुह्य धनंजयमभीयतुः ॥",
+          "meaning": {
+            "en": "The two chief Panchala princes, very strong, mounted another chariot and went toward Dhananjaya."
+          }
         }
       ]
     }

@@ -22,123 +22,213 @@
       "titleEn": "Samshaptakavadha Parva (Slaying of the Samshaptakas)",
       "verses": [
         {
-          "text": "संजय उवाच"
+          "text": "संजय उवाच",
+          "meaning": {
+            "en": "Sanjaya said:"
+          }
         },
         {
           "n": 1,
-          "text": "यन्मां पार्थस्य संग्रामे कर्माणि परिपृच्छसि ।\nतच्छृणुष्व महाराज पार्थो यदकरोन्मृधे ॥"
+          "text": "यन्मां पार्थस्य संग्रामे कर्माणि परिपृच्छसि ।\nतच्छृणुष्व महाराज पार्थो यदकरोन्मृधे ॥",
+          "meaning": {
+            "en": "You ask about Partha's deeds in battle; hear, great king, what Partha did in the fight."
+          }
         },
         {
           "n": 2,
-          "text": "रजो दृष्ट्वा समुद्भूतं श्रुत्वा च गजनिस्वनम् ।\nभज्यतां भगदत्तेन कौन्तेयः कृष्णमब्रवीत् ॥"
+          "text": "रजो दृष्ट्वा समुद्भूतं श्रुत्वा च गजनिस्वनम् ।\nभज्यतां भगदत्तेन कौन्तेयः कृष्णमब्रवीत् ॥",
+          "meaning": {
+            "en": "Seeing the dust rise and hearing the elephant's trumpeting, the son of Kunti said to Krishna: \"Bhagadatta is shattering our army.\""
+          }
         },
         {
           "n": 3,
-          "text": "यथा प्राग्ज्योतिषो राजा गजेन मधुसूदन ।\nत्वरमाणोऽभ्यतिक्रान्तो ध्रुवं तस्यैष निस्वनः ॥"
+          "text": "यथा प्राग्ज्योतिषो राजा गजेन मधुसूदन ।\nत्वरमाणोऽभ्यतिक्रान्तो ध्रुवं तस्यैष निस्वनः ॥",
+          "meaning": {
+            "en": "Madhusudana, the sound of Pragjyotisha's king rushing on his elephant is surely his."
+          }
         },
         {
           "n": 4,
-          "text": "इन्द्रादनवरः संख्ये गजयानविशारदः ।\nप्रथमो वा द्वितीयो वा पृथिव्यामिति मे मतिः ॥"
+          "text": "इन्द्रादनवरः संख्ये गजयानविशारदः ।\nप्रथमो वा द्वितीयो वा पृथिव्यामिति मे मतिः ॥",
+          "meaning": {
+            "en": "In battle, in elephant warfare, he is no less than Indra, I believe; he is the first or the second on earth."
+          }
         },
         {
           "n": 5,
-          "text": "स चापि द्विरदश्रेष्ठः सदाप्रतिगजो युधि ।\nसर्वशब्दातिगः संख्ये कृतकर्मा जितक्लमः ॥"
+          "text": "स चापि द्विरदश्रेष्ठः सदाप्रतिगजो युधि ।\nसर्वशब्दातिगः संख्ये कृतकर्मा जितक्लमः ॥",
+          "meaning": {
+            "en": "And his best of elephants has always been a match for any elephant, beyond all noise in battle, trained in war and untiring."
+          }
         },
         {
           "n": 6,
-          "text": "सहः शस्त्रनिपातानामग्निस्पर्शस्य चानघ ।\nस पाण्डवबलं व्यक्तमद्यैको नाशयिष्यति ॥"
+          "text": "सहः शस्त्रनिपातानामग्निस्पर्शस्य चानघ ।\nस पाण्डवबलं व्यक्तमद्यैको नाशयिष्यति ॥",
+          "meaning": {
+            "en": "Sinless one, it can bear the fall of weapons and the touch of fire. Clearly that one alone will destroy the Pandava army today."
+          }
         },
         {
           "n": 7,
-          "text": "न चावाभ्यामृतेऽन्योऽस्ति शक्तस्तं प्रतिबाधितुम् ।\nत्वरमाणस्ततो याहि यतः प्राग्ज्योतिषाधिपः ॥"
+          "text": "न चावाभ्यामृतेऽन्योऽस्ति शक्तस्तं प्रतिबाधितुम् ।\nत्वरमाणस्ततो याहि यतः प्राग्ज्योतिषाधिपः ॥",
+          "meaning": {
+            "en": "Apart from the two of us, no one else can stop him. So go quickly where the king of Pragjyotisha is."
+          }
         },
         {
           "n": 8,
-          "text": "शक्रसख्याद्द्विपबलैर्वयसा चापि विस्मितम् ।\nअद्यैनं प्रेषयिष्यामि बलहन्तुः प्रियातिथिम् ॥"
+          "text": "शक्रसख्याद्द्विपबलैर्वयसा चापि विस्मितम् ।\nअद्यैनं प्रेषयिष्यामि बलहन्तुः प्रियातिथिम् ॥",
+          "meaning": {
+            "en": "He is proud of his friendship with Shakra, of his elephant force and of his age. Today I shall send him as a dear guest to the slayer of Bala."
+          }
         },
         {
           "n": 9,
-          "text": "वचनादथ कृष्णस्तु प्रययौ सव्यसाचिनः ।\nदार्यते भगदत्तेन यत्र पाण्डववाहिनी ॥"
+          "text": "वचनादथ कृष्णस्तु प्रययौ सव्यसाचिनः ।\nदार्यते भगदत्तेन यत्र पाण्डववाहिनी ॥",
+          "meaning": {
+            "en": "At his word, Krishna drove the chariot of Savyasachi to where Bhagadatta was tearing the Pandava army apart."
+          }
         },
         {
           "n": 10,
-          "text": "तं प्रयान्तं ततः पश्चादाह्वयन्तो महारथाः ।\nसंशप्तकाः समारोहन्सहस्राणि चतुर्दश ॥"
+          "text": "तं प्रयान्तं ततः पश्चादाह्वयन्तो महारथाः ।\nसंशप्तकाः समारोहन्सहस्राणि चतुर्दश ॥",
+          "meaning": {
+            "en": "As he went, the great chariot-warriors, the Samshaptakas, challenging him from behind, came after him, fourteen thousand of them."
+          }
         },
         {
           "n": 11,
-          "text": "दशैव तु सहस्राणि त्रिगर्तानां नराधिप ।\nचत्वारि तु सहस्राणि वासुदेवस्य येऽनुगाः ॥"
+          "text": "दशैव तु सहस्राणि त्रिगर्तानां नराधिप ।\nचत्वारि तु सहस्राणि वासुदेवस्य येऽनुगाः ॥",
+          "meaning": {
+            "en": "There were ten thousand Trigartas, O king, and four thousand who were followers of Vasudeva."
+          }
         },
         {
           "n": 12,
-          "text": "दार्यमाणां चमूं दृष्ट्वा भगदत्तेन मारिष ।\nआहूयमानस्य च तैरभवद्धृदयं द्विधा ॥"
+          "text": "दार्यमाणां चमूं दृष्ट्वा भगदत्तेन मारिष ।\nआहूयमानस्य च तैरभवद्धृदयं द्विधा ॥",
+          "meaning": {
+            "en": "Seeing his army being torn apart by Bhagadatta, and being challenged by them, Arjuna's heart was divided in two, O sir."
+          }
         },
         {
           "n": 13,
-          "text": "किं नु श्रेयस्करं कर्म भवेदिति विचिन्तयन् ।\nइतो वा विनिवर्तेयं गच्छेयं वा युधिष्ठिरम् ॥"
+          "text": "किं नु श्रेयस्करं कर्म भवेदिति विचिन्तयन् ।\nइतो वा विनिवर्तेयं गच्छेयं वा युधिष्ठिरम् ॥",
+          "meaning": {
+            "en": "He wondered what would be the better course: to turn back from here, or to go to Yudhishthira."
+          }
         },
         {
           "n": 14,
-          "text": "तस्य बुद्ध्या विचार्यैतदर्जुनस्य कुरूद्वह ।\nअभवद्भूयसी बुद्धिः संशप्तकवधे स्थिरा ॥"
+          "text": "तस्य बुद्ध्या विचार्यैतदर्जुनस्य कुरूद्वह ।\nअभवद्भूयसी बुद्धिः संशप्तकवधे स्थिरा ॥",
+          "meaning": {
+            "en": "Considering this in his mind, Arjuna, O bull of the Kurus, became firmly resolved to kill the Samshaptakas."
+          }
         },
         {
           "n": 15,
-          "text": "स संनिवृत्तः सहसा कपिप्रवरकेतनः ।\nएको रथसहस्राणि निहन्तुं वासवी रणे ॥"
+          "text": "स संनिवृत्तः सहसा कपिप्रवरकेतनः ।\nएको रथसहस्राणि निहन्तुं वासवी रणे ॥",
+          "meaning": {
+            "en": "Then suddenly turning back, the Indra's son whose banner bore the chief of apes resolved alone to destroy those thousands of chariots in battle."
+          }
         },
         {
           "n": 16,
-          "text": "सा हि दुर्योधनस्यासीन्मतिः कर्णस्य चोभयोः ।\nअर्जुनस्य वधोपाये तेन द्वैधमकल्पयत् ॥"
+          "text": "सा हि दुर्योधनस्यासीन्मतिः कर्णस्य चोभयोः ।\nअर्जुनस्य वधोपाये तेन द्वैधमकल्पयत् ॥",
+          "meaning": {
+            "en": "That plan was Duryodhana's and Karna's both, to bring about Arjuna's death; so Arjuna's mind was split in two."
+          }
         },
         {
           "n": 17,
-          "text": "स तु संवर्तयामास द्वैधीभावेन पाण्डवः ।\nरथेन तु रथाग्र्याणामकरोत्तां मृषा तदा ॥"
+          "text": "स तु संवर्तयामास द्वैधीभावेन पाण्डवः ।\nरथेन तु रथाग्र्याणामकरोत्तां मृषा तदा ॥",
+          "meaning": {
+            "en": "The Pandava carried out his purpose even so divided; but he made the plan of those best of chariot-warriors vain by his chariot."
+          }
         },
         {
           "n": 18,
-          "text": "ततः शतसहस्राणि शराणां नतपर्वणाम् ।\nव्यसृजन्नर्जुने राजन्संशप्तकमहारथाः ॥"
+          "text": "ततः शतसहस्राणि शराणां नतपर्वणाम् ।\nव्यसृजन्नर्जुने राजन्संशप्तकमहारथाः ॥",
+          "meaning": {
+            "en": "Then the great chariot-warriors, the Samshaptakas, loosed hundreds of thousands of straight-jointed arrows at Arjuna, O king."
+          }
         },
         {
           "n": 19,
-          "text": "नैव कुन्तीसुतः पार्थो नैव कृष्णो जनार्दनः ।\nन हया न रथो राजन्दृश्यन्ते स्म शरैश्चिताः ॥"
+          "text": "नैव कुन्तीसुतः पार्थो नैव कृष्णो जनार्दनः ।\nन हया न रथो राजन्दृश्यन्ते स्म शरैश्चिताः ॥",
+          "meaning": {
+            "en": "Neither Partha, son of Kunti, nor Krishna Janardana, nor the horses, nor the chariot, O king, could be seen, covered with arrows."
+          }
         },
         {
           "n": 20,
-          "text": "यदा मोहमनुप्राप्तः सस्वेदश्च जनार्दनः ।\nततस्तान्प्रायशः पार्थो वज्रास्त्रेण निजघ्निवान् ॥"
+          "text": "यदा मोहमनुप्राप्तः सस्वेदश्च जनार्दनः ।\nततस्तान्प्रायशः पार्थो वज्रास्त्रेण निजघ्निवान् ॥",
+          "meaning": {
+            "en": "When Janardana was bewildered and sweating, Partha slew most of them with the thunderbolt weapon."
+          }
         },
         {
           "n": 21,
-          "text": "शतशः पाणयश्छिन्नाः सेषुज्यातलकार्मुकाः ।\nकेतवो वाजिनः सूता रथिनश्चापतन्क्षितौ ॥"
+          "text": "शतशः पाणयश्छिन्नाः सेषुज्यातलकार्मुकाः ।\nकेतवो वाजिनः सूता रथिनश्चापतन्क्षितौ ॥",
+          "meaning": {
+            "en": "Hands by the hundreds, with arrows, bowstrings, finger-guards and bows, were cut off, and banners, horses, charioteers and chariot-warriors fell to the ground."
+          }
         },
         {
           "n": 22,
-          "text": "द्रुमाचलाग्राम्बुधरैः समरूपाः सुकल्पिताः ।\nहतारोहाः क्षितौ पेतुर्द्विपाः पार्थशराहताः ॥"
+          "text": "द्रुमाचलाग्राम्बुधरैः समरूपाः सुकल्पिताः ।\nहतारोहाः क्षितौ पेतुर्द्विपाः पार्थशराहताः ॥",
+          "meaning": {
+            "en": "Elephants, well arrayed and looking like trees, mountains, hills and clouds, fell to the ground struck by Partha's arrows, their riders slain."
+          }
         },
         {
           "n": 23,
-          "text": "विप्रविद्धकुथावल्गाश्छिन्नभाण्डाः परासवः ।\nसारोहास्तुरगाः पेतुर्मथिताः पार्थमार्गणैः ॥"
+          "text": "विप्रविद्धकुथावल्गाश्छिन्नभाण्डाः परासवः ।\nसारोहास्तुरगाः पेतुर्मथिताः पार्थमार्गणैः ॥",
+          "meaning": {
+            "en": "Horses with their riders fell, their saddle-cloths and harness torn, their trappings cut, lifeless, crushed by Partha's arrows."
+          }
         },
         {
           "n": 24,
-          "text": "सर्ष्टिचर्मासिनखराः समुद्गरपरश्वधाः ।\nसंछिन्ना बाहवः पेतुर्नृणां भल्लैः किरीटिना ॥"
+          "text": "सर्ष्टिचर्मासिनखराः समुद्गरपरश्वधाः ।\nसंछिन्ना बाहवः पेतुर्नृणां भल्लैः किरीटिना ॥",
+          "meaning": {
+            "en": "The arms of men, with their spears, shields, swords, claws, maces and axes, were cut off by Arjuna's broad-headed arrows and fell."
+          }
         },
         {
           "n": 25,
-          "text": "बालादित्याम्बुजेन्दूनां तुल्यरूपाणि मारिष ।\nसंछिन्नान्यर्जुनशरैः शिरांस्युर्वीं प्रपेदिरे ॥"
+          "text": "बालादित्याम्बुजेन्दूनां तुल्यरूपाणि मारिष ।\nसंछिन्नान्यर्जुनशरैः शिरांस्युर्वीं प्रपेदिरे ॥",
+          "meaning": {
+            "en": "O sir, heads like the young sun, lotuses and the moon, cut off by Arjuna's arrows, fell on the earth."
+          }
         },
         {
           "n": 26,
-          "text": "जज्वालालंकृतैः सेना पत्रिभिः प्राणभोजनैः ।\nनानालिङ्गैस्तदामित्रान्क्रुद्धे निघ्नति फल्गुने ॥"
+          "text": "जज्वालालंकृतैः सेना पत्रिभिः प्राणभोजनैः ।\nनानालिङ्गैस्तदामित्रान्क्रुद्धे निघ्नति फल्गुने ॥",
+          "meaning": {
+            "en": "When angry Arjuna struck his enemies, the army blazed with adorned, life-devouring arrows of many marks."
+          }
         },
         {
           "n": 27,
-          "text": "क्षोभयन्तं तदा सेनां द्विरदं नलिनीमिव ।\nधनंजयं भूतगणाः साधु साध्वित्यपूजयन् ॥"
+          "text": "क्षोभयन्तं तदा सेनां द्विरदं नलिनीमिव ।\nधनंजयं भूतगणाः साधु साध्वित्यपूजयन् ॥",
+          "meaning": {
+            "en": "The hosts of spirits cheered \"Well done, well done!\" for Dhananjaya as he threw that army into turmoil like an elephant in a lotus pond."
+          }
         },
         {
           "n": 28,
-          "text": "दृष्ट्वा तत्कर्म पार्थस्य वासवस्येव माधवः ।\nविस्मयं परमं गत्वा तलमाहत्य पूजयत् ॥"
+          "text": "दृष्ट्वा तत्कर्म पार्थस्य वासवस्येव माधवः ।\nविस्मयं परमं गत्वा तलमाहत्य पूजयत् ॥",
+          "meaning": {
+            "en": "Seeing that deed of Partha, as of Indra, Madhava was filled with great wonder and clapped his palms in praise."
+          }
         },
         {
           "n": 29,
-          "text": "ततः संशप्तकान्हत्वा भूयिष्ठं ये व्यवस्थिताः ।\nभगदत्ताय याहीति पार्थः कृष्णमचोदयत् ॥"
+          "text": "ततः संशप्तकान्हत्वा भूयिष्ठं ये व्यवस्थिताः ।\nभगदत्ताय याहीति पार्थः कृष्णमचोदयत् ॥",
+          "meaning": {
+            "en": "Then, having slain most of the Samshaptakas who stood there, Partha urged Krishna: \"Go to Bhagadatta.\""
+          }
         }
       ]
     }

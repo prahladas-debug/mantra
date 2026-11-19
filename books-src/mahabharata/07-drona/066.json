@@ -22,185 +22,323 @@
       "titleEn": "Jayadrathavadha Parva (Slaying of Jayadratha)",
       "verses": [
         {
-          "text": "संजय उवाच"
+          "text": "संजय उवाच",
+          "meaning": {
+            "en": "Sanjaya said:"
+          }
         },
         {
           "n": 1,
-          "text": "दुःशासनबलं हत्वा सव्यसाची धनंजयः ।\nसिन्धुराजं परीप्सन्वै द्रोणानीकमुपाद्रवत् ॥"
+          "text": "दुःशासनबलं हत्वा सव्यसाची धनंजयः ।\nसिन्धुराजं परीप्सन्वै द्रोणानीकमुपाद्रवत् ॥",
+          "meaning": {
+            "en": "Having destroyed Duhshasana's force, the left-handed archer Dhananjaya, seeking the king of the Sindhus, rushed toward Drona's division."
+          }
         },
         {
           "n": 2,
-          "text": "स तु द्रोणं समासाद्य व्यूहस्य प्रमुखे स्थितम् ।\nकृताञ्जलिरिदं वाक्यं कृष्णस्यानुमतेऽब्रवीत् ॥"
+          "text": "स तु द्रोणं समासाद्य व्यूहस्य प्रमुखे स्थितम् ।\nकृताञ्जलिरिदं वाक्यं कृष्णस्यानुमतेऽब्रवीत् ॥",
+          "meaning": {
+            "en": "Coming up to Drona, who stood at the head of the formation, Arjuna folded his hands and, with Krishna's assent, spoke these words."
+          }
         },
         {
           "n": 3,
-          "text": "शिवेन ध्याहि मां ब्रह्मन्स्वस्ति चैव वदस्व मे ।\nभवत्प्रसादादिच्छामि प्रवेष्टुं दुर्भिदां चमूम् ॥"
+          "text": "शिवेन ध्याहि मां ब्रह्मन्स्वस्ति चैव वदस्व मे ।\nभवत्प्रसादादिच्छामि प्रवेष्टुं दुर्भिदां चमूम् ॥",
+          "meaning": {
+            "en": "Arjuna said: Brahmana, think of me with kindness and speak blessings over me. By your grace I wish to enter this hard-to-break host."
+          }
         },
         {
           "n": 4,
-          "text": "भवान्पितृसमो मह्यं धर्मराजसमोऽपि च ।\nतथा कृष्णसमश्चैव सत्यमेतद्ब्रवीमि ते ॥"
+          "text": "भवान्पितृसमो मह्यं धर्मराजसमोऽपि च ।\nतथा कृष्णसमश्चैव सत्यमेतद्ब्रवीमि ते ॥",
+          "meaning": {
+            "en": "You are to me like a father, like King Yudhishthira, and like Krishna. I tell you this truly."
+          }
         },
         {
           "n": 5,
-          "text": "अश्वत्थामा यथा तात रक्षणीयस्तवानघ ।\nतथाहमपि ते रक्ष्यः सदैव द्विजसत्तम ॥"
+          "text": "अश्वत्थामा यथा तात रक्षणीयस्तवानघ ।\nतथाहमपि ते रक्ष्यः सदैव द्विजसत्तम ॥",
+          "meaning": {
+            "en": "Sinless one, as Ashvatthama is to be protected by you, so am I always to be protected by you, best of the twice-born."
+          }
         },
         {
           "n": 6,
-          "text": "तव प्रसादादिच्छामि सिन्धुराजानमाहवे ।\nनिहन्तुं द्विपदां श्रेष्ठ प्रतिज्ञां रक्ष मे विभो ॥"
+          "text": "तव प्रसादादिच्छामि सिन्धुराजानमाहवे ।\nनिहन्तुं द्विपदां श्रेष्ठ प्रतिज्ञां रक्ष मे विभो ॥",
+          "meaning": {
+            "en": "By your favour I wish to kill the king of the Sindhus in battle, best of men. Guard my vow, mighty lord."
+          }
         },
         {
           "n": 7,
-          "text": "एवमुक्तस्तदाचार्यः प्रत्युवाच स्मयन्निव ।\nमामजित्वा न बीभत्सो शक्यो जेतुं जयद्रथः ॥"
+          "text": "एवमुक्तस्तदाचार्यः प्रत्युवाच स्मयन्निव ।\nमामजित्वा न बीभत्सो शक्यो जेतुं जयद्रथः ॥",
+          "meaning": {
+            "en": "Thus addressed, the teacher answered, as if smiling: Bibhatsu, Jayadratha cannot be conquered without conquering me."
+          }
         },
         {
           "n": 8,
-          "text": "एतावदुक्त्वा तं द्रोणः शरव्रातैरवाकिरत् ।\nसरथाश्वध्वजं तीक्ष्णैः प्रहसन्वै ससारथिम् ॥"
+          "text": "एतावदुक्त्वा तं द्रोणः शरव्रातैरवाकिरत् ।\nसरथाश्वध्वजं तीक्ष्णैः प्रहसन्वै ससारथिम् ॥",
+          "meaning": {
+            "en": "Having said only this, Drona, laughing, covered Arjuna with showers of sharp arrows, with his chariot, horses, banner and charioteer."
+          }
         },
         {
           "n": 9,
-          "text": "ततोऽर्जुनः शरव्रातान्द्रोणस्यावार्य सायकैः ।\nद्रोणमभ्यर्दयद्बाणैर्घोररूपैर्महत्तरैः ॥"
+          "text": "ततोऽर्जुनः शरव्रातान्द्रोणस्यावार्य सायकैः ।\nद्रोणमभ्यर्दयद्बाणैर्घोररूपैर्महत्तरैः ॥",
+          "meaning": {
+            "en": "Then Arjuna warded off Drona's volleys with his shafts and pressed Drona with larger, terrible-looking arrows."
+          }
         },
         {
           "n": 10,
-          "text": "विव्याध च रणे द्रोणमनुमान्य विशां पते ।\nक्षत्रधर्मं समास्थाय नवभिः सायकैः पुनः ॥"
+          "text": "विव्याध च रणे द्रोणमनुमान्य विशां पते ।\nक्षत्रधर्मं समास्थाय नवभिः सायकैः पुनः ॥",
+          "meaning": {
+            "en": "After first honouring Drona, O lord of men, Arjuna, keeping to the warrior's duty, struck him again in the battle with nine arrows."
+          }
         },
         {
           "n": 11,
-          "text": "तस्येषूनिषुभिश्छित्त्वा द्रोणो विव्याध तावुभौ ।\nविषाग्निज्वलनप्रख्यैरिषुभिः कृष्णपाण्डवौ ॥"
+          "text": "तस्येषूनिषुभिश्छित्त्वा द्रोणो विव्याध तावुभौ ।\nविषाग्निज्वलनप्रख्यैरिषुभिः कृष्णपाण्डवौ ॥",
+          "meaning": {
+            "en": "Cutting down Arjuna's arrows with his own, Drona pierced both Krishna and the Pandava with arrows that blazed like poisoned fire."
+          }
         },
         {
           "n": 12,
-          "text": "इयेष पाण्डवस्तस्य बाणैश्छेत्तुं शरासनम् ।\nतस्य चिन्तयतस्त्वेवं फल्गुनस्य महात्मनः ।\nद्रोणः शरैरसंभ्रान्तो ज्यां चिच्छेदाशु वीर्यवान् ॥"
+          "text": "इयेष पाण्डवस्तस्य बाणैश्छेत्तुं शरासनम् ।\nतस्य चिन्तयतस्त्वेवं फल्गुनस्य महात्मनः ।\nद्रोणः शरैरसंभ्रान्तो ज्यां चिच्छेदाशु वीर्यवान् ॥",
+          "meaning": {
+            "en": "The Pandava wished to cut Drona's bow with his arrows, but as the great-souled Phalguna was thinking this, the mighty and unflustered Drona quickly cut his bowstring with arrows."
+          }
         },
         {
           "n": 13,
-          "text": "विव्याध च हयानस्य ध्वजं सारथिमेव च ।\nअर्जुनं च शरैर्वीरं स्मयमानोऽभ्यवाकिरत् ॥"
+          "text": "विव्याध च हयानस्य ध्वजं सारथिमेव च ।\nअर्जुनं च शरैर्वीरं स्मयमानोऽभ्यवाकिरत् ॥",
+          "meaning": {
+            "en": "He also pierced Arjuna's horses, banner and charioteer, and smiling, buried the hero Arjuna under arrows."
+          }
         },
         {
           "n": 14,
-          "text": "एतस्मिन्नन्तरे पार्थः सज्जं कृत्वा महद्धनुः ।\nविशेषयिष्यन्नाचार्यं सर्वास्त्रविदुषां वरम् ।\nमुमोच षट्शतान्बाणान्गृहीत्वैकमिव द्रुतम् ॥"
+          "text": "एतस्मिन्नन्तरे पार्थः सज्जं कृत्वा महद्धनुः ।\nविशेषयिष्यन्नाचार्यं सर्वास्त्रविदुषां वरम् ।\nमुमोच षट्शतान्बाणान्गृहीत्वैकमिव द्रुतम् ॥",
+          "meaning": {
+            "en": "Meanwhile Partha strung his great bow, wishing to surpass his teacher, the best of those who know all weapons, and swiftly loosed six hundred arrows as though they were one."
+          }
         },
         {
           "n": 15,
-          "text": "पुनः सप्त शतानन्यान्सहस्रं चानिवर्तिनाम् ।\nचिक्षेपायुतशश्चान्यांस्तेऽघ्नन्द्रोणस्य तां चमूम् ॥"
+          "text": "पुनः सप्त शतानन्यान्सहस्रं चानिवर्तिनाम् ।\nचिक्षेपायुतशश्चान्यांस्तेऽघ्नन्द्रोणस्य तां चमूम् ॥",
+          "meaning": {
+            "en": "Then he sent seven hundred more, and a thousand that never turned back, and tens of thousands of others; these slew Drona's army."
+          }
         },
         {
           "n": 16,
-          "text": "तैः सम्यगस्तैर्बलिना कृतिना चित्रयोधिना ।\nमनुष्यवाजिमातङ्गा विद्धाः पेतुर्गतासवः ॥"
+          "text": "तैः सम्यगस्तैर्बलिना कृतिना चित्रयोधिना ।\nमनुष्यवाजिमातङ्गा विद्धाः पेतुर्गतासवः ॥",
+          "meaning": {
+            "en": "Skilfully shot by that strong, accomplished and many-sided fighter, men, horses and elephants fell pierced and lifeless."
+          }
         },
         {
           "n": 17,
-          "text": "विद्रुताश्च रणे पेतुः संछिन्नायुधजीविताः ।\nरथिनो रथमुख्येभ्यः सहयाः शरपीडिताः ॥"
+          "text": "विद्रुताश्च रणे पेतुः संछिन्नायुधजीविताः ।\nरथिनो रथमुख्येभ्यः सहयाः शरपीडिताः ॥",
+          "meaning": {
+            "en": "Fleeing, they fell in the battle, their weapons and lives cut off; chariot-warriors with their horses, tormented by arrows, fell from their chief chariots."
+          }
         },
         {
           "n": 18,
-          "text": "चूर्णिताक्षिप्तदग्धानां वज्रानिलहुताशनैः ।\nतुल्यरूपा गजाः पेतुर्गिर्यग्राम्बुदवेश्मनाम् ॥"
+          "text": "चूर्णिताक्षिप्तदग्धानां वज्रानिलहुताशनैः ।\nतुल्यरूपा गजाः पेतुर्गिर्यग्राम्बुदवेश्मनाम् ॥",
+          "meaning": {
+            "en": "Elephants, crushed, flung down and burned as if by thunderbolt, wind and fire, fell like the summits of mountains and the homes of clouds."
+          }
         },
         {
           "n": 19,
-          "text": "पेतुरश्वसहस्राणि प्रहतान्यर्जुनेषुभिः ।\nहंसा हिमवतः पृष्ठे वारिविप्रहता इव ॥"
+          "text": "पेतुरश्वसहस्राणि प्रहतान्यर्जुनेषुभिः ।\nहंसा हिमवतः पृष्ठे वारिविप्रहता इव ॥",
+          "meaning": {
+            "en": "Thousands of horses fell struck by Arjuna's arrows, like swans on the Himalayan ridge beaten down by water."
+          }
         },
         {
           "n": 20,
-          "text": "रथाश्वद्विपपत्त्योघाः सलिलौघा इवाद्भुताः ।\nयुगान्तादित्यरश्म्याभैः पाण्डवास्तशरैर्हताः ॥"
+          "text": "रथाश्वद्विपपत्त्योघाः सलिलौघा इवाद्भुताः ।\nयुगान्तादित्यरश्म्याभैः पाण्डवास्तशरैर्हताः ॥",
+          "meaning": {
+            "en": "Floods of chariots, horses, elephants and footmen, wondrous as floods of water, were slain by the Pandava's arrows, which were bright as the sun's rays at the end of an age."
+          }
         },
         {
           "n": 21,
-          "text": "तं पाण्डवादित्यशरांशुजालं\nकुरुप्रवीरान्युधि निष्टपन्तम् ।\nस द्रोणमेघः शरवर्षवेगैः\nप्राच्छादयन्मेघ इवार्करश्मीन् ॥"
+          "text": "तं पाण्डवादित्यशरांशुजालं\nकुरुप्रवीरान्युधि निष्टपन्तम् ।\nस द्रोणमेघः शरवर्षवेगैः\nप्राच्छादयन्मेघ इवार्करश्मीन् ॥",
+          "meaning": {
+            "en": "The sun-like Pandava with his net of arrow-rays was scorching the Kuru heroes in battle; but that cloud, Drona, with rushing showers of arrows covered him, as a cloud covers the sun's rays."
+          }
         },
         {
           "n": 22,
-          "text": "अथात्यर्थविसृष्टेन द्विषतामसुभोजिना ।\nआजघ्ने वक्षसि द्रोणो नाराचेन धनंजयम् ॥"
+          "text": "अथात्यर्थविसृष्टेन द्विषतामसुभोजिना ।\nआजघ्ने वक्षसि द्रोणो नाराचेन धनंजयम् ॥",
+          "meaning": {
+            "en": "Then Drona struck Dhananjaya on the chest with an iron arrow, released with great force, that drank the lives of enemies."
+          }
         },
         {
           "n": 23,
-          "text": "स विह्वलितसर्वाङ्गः क्षितिकम्पे यथाचलः ।\nधैर्यमालम्ब्य बीभत्सुर्द्रोणं विव्याध पत्रिभिः ॥"
+          "text": "स विह्वलितसर्वाङ्गः क्षितिकम्पे यथाचलः ।\nधैर्यमालम्ब्य बीभत्सुर्द्रोणं विव्याध पत्रिभिः ॥",
+          "meaning": {
+            "en": "All his limbs shaken like a mountain in an earthquake, Bibhatsu, gathering his firmness, pierced Drona with feathered arrows."
+          }
         },
         {
           "n": 24,
-          "text": "द्रोणस्तु पञ्चभिर्बाणैर्वासुदेवमताडयत् ।\nअर्जुनं च त्रिसप्तत्या ध्वजं चास्य त्रिभिः शरैः ॥"
+          "text": "द्रोणस्तु पञ्चभिर्बाणैर्वासुदेवमताडयत् ।\nअर्जुनं च त्रिसप्तत्या ध्वजं चास्य त्रिभिः शरैः ॥",
+          "meaning": {
+            "en": "Drona struck Vasudeva with five arrows, Arjuna with seventy-three, and his banner with three."
+          }
         },
         {
           "n": 25,
-          "text": "विशेषयिष्यञ्शिष्यं च द्रोणो राजन्पराक्रमी ।\nअदृश्यमर्जुनं चक्रे निमेषाच्छरवृष्टिभिः ॥"
+          "text": "विशेषयिष्यञ्शिष्यं च द्रोणो राजन्पराक्रमी ।\nअदृश्यमर्जुनं चक्रे निमेषाच्छरवृष्टिभिः ॥",
+          "meaning": {
+            "en": "Wishing to excel his pupil, the valiant Drona, O king, made Arjuna invisible in an instant with showers of arrows."
+          }
         },
         {
           "n": 26,
-          "text": "प्रसक्तान्पततोऽद्राक्ष्म भारद्वाजस्य सायकान् ।\nमण्डलीकृतमेवास्य धनुश्चादृश्यताद्भुतम् ॥"
+          "text": "प्रसक्तान्पततोऽद्राक्ष्म भारद्वाजस्य सायकान् ।\nमण्डलीकृतमेवास्य धनुश्चादृश्यताद्भुतम् ॥",
+          "meaning": {
+            "en": "We saw the arrows of Bharadvaja's son falling thick and fast, and his bow, drawn into a circle, looked wonderful."
+          }
         },
         {
           "n": 27,
-          "text": "तेऽभ्ययुः समरे राजन्वासुदेवधनंजयौ ।\nद्रोणसृष्टाः सुबहवः कङ्कपत्रपरिच्छदाः ॥"
+          "text": "तेऽभ्ययुः समरे राजन्वासुदेवधनंजयौ ।\nद्रोणसृष्टाः सुबहवः कङ्कपत्रपरिच्छदाः ॥",
+          "meaning": {
+            "en": "Many arrows loosed by Drona, fletched with heron feathers, rushed upon Vasudeva and Dhananjaya in the battle, O king."
+          }
         },
         {
           "n": 28,
-          "text": "तद्दृष्ट्वा तादृशं युद्धं द्रोणपाण्डवयोस्तदा ।\nवासुदेवो महाबुद्धिः कार्यवत्तामचिन्तयत् ॥"
+          "text": "तद्दृष्ट्वा तादृशं युद्धं द्रोणपाण्डवयोस्तदा ।\nवासुदेवो महाबुद्धिः कार्यवत्तामचिन्तयत् ॥",
+          "meaning": {
+            "en": "Seeing that fight between Drona and the Pandava, wise Vasudeva thought of the business at hand."
+          }
         },
         {
           "n": 29,
-          "text": "ततोऽब्रवीद्वासुदेवो धनंजयमिदं वचः ।\nपार्थ पार्थ महाबाहो न नः कालात्ययो भवेत् ॥"
+          "text": "ततोऽब्रवीद्वासुदेवो धनंजयमिदं वचः ।\nपार्थ पार्थ महाबाहो न नः कालात्ययो भवेत् ॥",
+          "meaning": {
+            "en": "Then Vasudeva said to Dhananjaya: Partha, Partha, mighty-armed, let us not lose time."
+          }
         },
         {
           "n": 30,
-          "text": "द्रोणमुत्सृज्य गच्छामः कृत्यमेतन्महत्तरम् ।\nपार्थश्चाप्यब्रवीत्कृष्णं यथेष्टमिति केशव ॥"
+          "text": "द्रोणमुत्सृज्य गच्छामः कृत्यमेतन्महत्तरम् ।\nपार्थश्चाप्यब्रवीत्कृष्णं यथेष्टमिति केशव ॥",
+          "meaning": {
+            "en": "Let us leave Drona and go; this task is far greater. And Partha said to Krishna: As you wish, Keshava."
+          }
         },
         {
           "n": 31,
-          "text": "ततः प्रदक्षिणं कृत्वा द्रोणं प्रायान्महाभुजः ।\nपरिवृत्तश्च बीभत्सुरगच्छद्विसृजञ्शरान् ॥"
+          "text": "ततः प्रदक्षिणं कृत्वा द्रोणं प्रायान्महाभुजः ।\nपरिवृत्तश्च बीभत्सुरगच्छद्विसृजञ्शरान् ॥",
+          "meaning": {
+            "en": "Then the mighty-armed Arjuna circled Drona keeping him on his right and went on, turning aside and still shooting arrows."
+          }
         },
         {
           "n": 32,
-          "text": "ततोऽब्रवीत्स्मयन्द्रोणः क्वेदं पाण्डव गम्यते ।\nननु नाम रणे शत्रुमजित्वा न निवर्तसे ॥"
+          "text": "ततोऽब्रवीत्स्मयन्द्रोणः क्वेदं पाण्डव गम्यते ।\nननु नाम रणे शत्रुमजित्वा न निवर्तसे ॥",
+          "meaning": {
+            "en": "Then Drona said, smiling: Pandava, where are you going? Surely you do not turn back in battle without defeating your enemy?"
+          }
         },
         {
-          "text": "अर्जुन उवाच"
+          "text": "अर्जुन उवाच",
+          "meaning": {
+            "en": "Arjuna said:"
+          }
         },
         {
           "n": 33,
-          "text": "गुरुर्भवान्न मे शत्रुः शिष्यः पुत्रसमोऽस्मि ते ।\nन चास्ति स पुमाँल्लोके यस्त्वां युधि पराजयेत् ॥"
+          "text": "गुरुर्भवान्न मे शत्रुः शिष्यः पुत्रसमोऽस्मि ते ।\nन चास्ति स पुमाँल्लोके यस्त्वां युधि पराजयेत् ॥",
+          "meaning": {
+            "en": "You are my teacher, not my enemy; I am your pupil, like a son to you. And there is no man in the world who could defeat you in battle."
+          }
         },
         {
-          "text": "संजय उवाच"
+          "text": "संजय उवाच",
+          "meaning": {
+            "en": "Sanjaya said:"
+          }
         },
         {
           "n": 34,
-          "text": "एवं ब्रुवाणो बीभत्सुर्जयद्रथवधोत्सुकः ।\nत्वरायुक्तो महाबाहुस्तत्सैन्यं समुपाद्रवत् ॥"
+          "text": "एवं ब्रुवाणो बीभत्सुर्जयद्रथवधोत्सुकः ।\nत्वरायुक्तो महाबाहुस्तत्सैन्यं समुपाद्रवत् ॥",
+          "meaning": {
+            "en": "Saying this, mighty-armed Bibhatsu, eager to slay Jayadratha and in haste, rushed upon that army."
+          }
         },
         {
           "n": 35,
-          "text": "तं चक्ररक्षौ पाञ्चाल्यौ युधामन्यूत्तमौजसौ ।\nअन्वयातां महात्मानौ विशन्तं तावकं बलम् ॥"
+          "text": "तं चक्ररक्षौ पाञ्चाल्यौ युधामन्यूत्तमौजसौ ।\nअन्वयातां महात्मानौ विशन्तं तावकं बलम् ॥",
+          "meaning": {
+            "en": "The two great-souled Panchalas, Yudhamanyu and Uttamauja, guarding his wheels, followed him as he entered your force."
+          }
         },
         {
           "n": 36,
-          "text": "ततो जयो महाराज कृतवर्मा च सात्त्वतः ।\nकाम्बोजश्च श्रुतायुश्च धनंजयमवारयन् ॥"
+          "text": "ततो जयो महाराज कृतवर्मा च सात्त्वतः ।\nकाम्बोजश्च श्रुतायुश्च धनंजयमवारयन् ॥",
+          "meaning": {
+            "en": "Then Jaya, Kritavarman, the Satvata, the Kamboja and Shrutayudha held Dhananjaya back, O great king."
+          }
         },
         {
           "n": 37,
-          "text": "तेषां दशसहस्राणि रथानामनुयायिनाम् ।\nअभीषाहाः शूरसेनाः शिबयोऽथ वसातयः ॥"
+          "text": "तेषां दशसहस्राणि रथानामनुयायिनाम् ।\nअभीषाहाः शूरसेनाः शिबयोऽथ वसातयः ॥",
+          "meaning": {
+            "en": "Ten thousand chariots followed them, with the Abhishahas, Shurasenas, Shibis, Vasatis,"
+          }
         },
         {
           "n": 38,
-          "text": "माचेल्लका ललित्थाश्च केकया मद्रकास्तथा ।\nनारायणाश्च गोपालाः काम्बोजानां च ये गणाः ॥"
+          "text": "माचेल्लका ललित्थाश्च केकया मद्रकास्तथा ।\nनारायणाश्च गोपालाः काम्बोजानां च ये गणाः ॥",
+          "meaning": {
+            "en": "Machellakas, Lalitthas, Kekayas, Madrakas, Narayanas, the cowherd Gopalas and the groups of Kambojas."
+          }
         },
         {
           "n": 39,
-          "text": "कर्णेन विजिताः पूर्वं संग्रामे शूरसंमताः ।\nभारद्वाजं पुरस्कृत्य त्यक्तात्मानोऽर्जुनं प्रति ॥"
+          "text": "कर्णेन विजिताः पूर्वं संग्रामे शूरसंमताः ।\nभारद्वाजं पुरस्कृत्य त्यक्तात्मानोऽर्जुनं प्रति ॥",
+          "meaning": {
+            "en": "Though Karna had conquered them in battle before, they were reckoned brave; with Bharadvaja's son placed in front, they stood against Arjuna, careless of their lives."
+          }
         },
         {
           "n": 40,
-          "text": "पुत्रशोकाभिसंतप्तं क्रुद्धं मृत्युमिवान्तकम् ।\nत्यजन्तं तुमुले प्राणान्संनद्धं चित्रयोधिनम् ॥"
+          "text": "पुत्रशोकाभिसंतप्तं क्रुद्धं मृत्युमिवान्तकम् ।\nत्यजन्तं तुमुले प्राणान्संनद्धं चित्रयोधिनम् ॥",
+          "meaning": {
+            "en": "Arjuna was scorched by grief for his son, angry like Death the ender, ready to give up his life in the tumult, armoured, a varied and skilful fighter,"
+          }
         },
         {
           "n": 41,
-          "text": "गाहमानमनीकानि मातङ्गमिव यूथपम् ।\nमहेष्वासं पराक्रान्तं नरव्याघ्रमवारयन् ॥"
+          "text": "गाहमानमनीकानि मातङ्गमिव यूथपम् ।\nमहेष्वासं पराक्रान्तं नरव्याघ्रमवारयन् ॥",
+          "meaning": {
+            "en": "plunging into the ranks as a bull elephant plunges at a herd; that mighty bowman, that tiger among men, of great courage, they held back."
+          }
         },
         {
           "n": 42,
-          "text": "ततः प्रववृते युद्धं तुमुलं लोमहर्षणम् ।\nअन्योन्यं वै प्रार्थयतां योधानामर्जुनस्य च ॥"
+          "text": "ततः प्रववृते युद्धं तुमुलं लोमहर्षणम् ।\nअन्योन्यं वै प्रार्थयतां योधानामर्जुनस्य च ॥",
+          "meaning": {
+            "en": "Then a tumultuous, hair-raising battle began between Arjuna and the warriors, each eager to get at the other."
+          }
         },
         {
           "n": 43,
-          "text": "जयद्रथवधप्रेप्सुमायान्तं पुरुषर्षभम् ।\nन्यवारयन्त सहिताः क्रिया व्याधिमिवोत्थितम् ॥"
+          "text": "जयद्रथवधप्रेप्सुमायान्तं पुरुषर्षभम् ।\nन्यवारयन्त सहिताः क्रिया व्याधिमिवोत्थितम् ॥",
+          "meaning": {
+            "en": "The best of men was coming, longing to kill Jayadratha; together they blocked him, as a remedy blocks a rising disease."
+          }
         }
       ]
     }

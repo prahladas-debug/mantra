@@ -22,83 +22,143 @@
       "titleEn": "Abhimanyuvadha Parva (Slaying of Abhimanyu)",
       "verses": [
         {
-          "text": "संजय उवाच"
+          "text": "संजय उवाच",
+          "meaning": {
+            "en": "Sanjaya said:"
+          }
         },
         {
           "n": 1,
-          "text": "यन्मा पृच्छसि राजेन्द्र सिन्धुराजस्य विक्रमम् ।\nशृणु तत्सर्वमाख्यास्ये यथा पाण्डूनयोधयत् ॥"
+          "text": "यन्मा पृच्छसि राजेन्द्र सिन्धुराजस्य विक्रमम् ।\nशृणु तत्सर्वमाख्यास्ये यथा पाण्डूनयोधयत् ॥",
+          "meaning": {
+            "en": "You ask me, king of kings, about the prowess of the Sindhu king; hear it all as I tell how he fought the Pandavas."
+          }
         },
         {
           "n": 2,
-          "text": "तमूहुः सारथेर्वश्याः सैन्धवाः साधुवाहिनः ।\nविकुर्वाणा बृहन्तोऽश्वाः श्वसनोपमरंहसः ॥"
+          "text": "तमूहुः सारथेर्वश्याः सैन्धवाः साधुवाहिनः ।\nविकुर्वाणा बृहन्तोऽश्वाः श्वसनोपमरंहसः ॥",
+          "meaning": {
+            "en": "Fine Sindhu horses, obedient to the charioteer, tall and changing course, swift as the wind, carried him."
+          }
         },
         {
           "n": 3,
-          "text": "गन्धर्वनगराकारं विधिवत्कल्पितं रथम् ।\nतस्याभ्यशोभयत्केतुर्वाराहो राजतो महान् ॥"
+          "text": "गन्धर्वनगराकारं विधिवत्कल्पितं रथम् ।\nतस्याभ्यशोभयत्केतुर्वाराहो राजतो महान् ॥",
+          "meaning": {
+            "en": "His chariot, arranged by rule, was like a city of the Gandharvas, and his great silver boar banner adorned it."
+          }
         },
         {
           "n": 4,
-          "text": "श्वेतच्छत्रपताकाभिश्चामरव्यजनेन च ।\nस बभौ राजलिङ्गैस्तैस्तारापतिरिवाम्बरे ॥"
+          "text": "श्वेतच्छत्रपताकाभिश्चामरव्यजनेन च ।\nस बभौ राजलिङ्गैस्तैस्तारापतिरिवाम्बरे ॥",
+          "meaning": {
+            "en": "With white umbrella and pennants, and fans and yak-tail whisks, he shone with those royal insignia like the lord of the stars in the sky."
+          }
         },
         {
           "n": 5,
-          "text": "मुक्तावज्रमणिस्वर्णैर्भूषितं तदयस्मयम् ।\nवरूथं विबभौ तस्य ज्योतिर्भिः खमिवावृतम् ॥"
+          "text": "मुक्तावज्रमणिस्वर्णैर्भूषितं तदयस्मयम् ।\nवरूथं विबभौ तस्य ज्योतिर्भिः खमिवावृतम् ॥",
+          "meaning": {
+            "en": "The iron armor of his chariot, adorned with pearls, diamonds, gems and gold, shone like the sky covered with lights."
+          }
         },
         {
           "n": 6,
-          "text": "स विस्फार्य महच्चापं किरन्निषुगणान्बहून् ।\nतत्खण्डं पूरयामास यद्व्यदारयदार्जुनिः ॥"
+          "text": "स विस्फार्य महच्चापं किरन्निषुगणान्बहून् ।\nतत्खण्डं पूरयामास यद्व्यदारयदार्जुनिः ॥",
+          "meaning": {
+            "en": "Stretching his great bow and pouring many flights of arrows, he filled that gap which Arjuna's son had torn open."
+          }
         },
         {
           "n": 7,
-          "text": "स सात्यकिं त्रिभिर्बाणैरष्टभिश्च वृकोदरम् ।\nधृष्टद्युम्नं तथा षष्ट्या विराटं दशभिः शरैः ॥"
+          "text": "स सात्यकिं त्रिभिर्बाणैरष्टभिश्च वृकोदरम् ।\nधृष्टद्युम्नं तथा षष्ट्या विराटं दशभिः शरैः ॥",
+          "meaning": {
+            "en": "He pierced Satyaki with three arrows, Vrikodara with eight, Dhrishtadyumna with sixty, Virata with ten,"
+          }
         },
         {
           "n": 8,
-          "text": "द्रुपदं पञ्चभिस्तीक्ष्णैर्दशभिश्च शिखण्डिनम् ।\nकेकयान्पञ्चविंशत्या द्रौपदेयांस्त्रिभिस्त्रिभिः ॥"
+          "text": "द्रुपदं पञ्चभिस्तीक्ष्णैर्दशभिश्च शिखण्डिनम् ।\nकेकयान्पञ्चविंशत्या द्रौपदेयांस्त्रिभिस्त्रिभिः ॥",
+          "meaning": {
+            "en": "Drupada with five sharp arrows, Shikhandi with ten, the Kekayas with twenty-five, and each of Draupadi's sons with three,"
+          }
         },
         {
           "n": 9,
-          "text": "युधिष्ठिरं च सप्तत्या ततः शेषानपानुदत् ।\nइषुजालेन महता तदद्भुतमिवाभवत् ॥"
+          "text": "युधिष्ठिरं च सप्तत्या ततः शेषानपानुदत् ।\nइषुजालेन महता तदद्भुतमिवाभवत् ॥",
+          "meaning": {
+            "en": "and Yudhishthira with seventy, and then drove the rest back with a great net of arrows; it seemed a marvel."
+          }
         },
         {
           "n": 10,
-          "text": "अथास्य शितपीतेन भल्लेनादिश्य कार्मुकम् ।\nचिच्छेद प्रहसन्राजा धर्मपुत्रः प्रतापवान् ॥"
+          "text": "अथास्य शितपीतेन भल्लेनादिश्य कार्मुकम् ।\nचिच्छेद प्रहसन्राजा धर्मपुत्रः प्रतापवान् ॥",
+          "meaning": {
+            "en": "Then King Yudhishthira, son of Dharma and mighty, smiling, aimed a sharpened, well-whetted broad-headed arrow and cut down his bow."
+          }
         },
         {
           "n": 11,
-          "text": "अक्ष्णोर्निमेषमात्रेण सोऽन्यदादाय कार्मुकम् ।\nविव्याध दशभिः पार्थ तांश्चैवान्यांस्त्रिभिस्त्रिभिः ॥"
+          "text": "अक्ष्णोर्निमेषमात्रेण सोऽन्यदादाय कार्मुकम् ।\nविव्याध दशभिः पार्थ तांश्चैवान्यांस्त्रिभिस्त्रिभिः ॥",
+          "meaning": {
+            "en": "In the blink of an eye he took another bow and pierced Partha with ten arrows, and each of the others with three."
+          }
         },
         {
           "n": 12,
-          "text": "तस्य तल्लाघवं ज्ञात्वा भीमो भल्लैस्त्रिभिः पुनः ।\nधनुर्ध्वजं च छत्रं च क्षितौ क्षिप्रमपातयत् ॥"
+          "text": "तस्य तल्लाघवं ज्ञात्वा भीमो भल्लैस्त्रिभिः पुनः ।\nधनुर्ध्वजं च छत्रं च क्षितौ क्षिप्रमपातयत् ॥",
+          "meaning": {
+            "en": "Knowing his quickness, Bhima again with three broad-headed arrows swiftly brought down his bow, banner and umbrella to the ground."
+          }
         },
         {
           "n": 13,
-          "text": "सोऽन्यदादाय बलवान्सज्यं कृत्वा च कार्मुकम् ।\nभीमस्यापोथयत्केतुं धनुरश्वांश्च मारिष ॥"
+          "text": "सोऽन्यदादाय बलवान्सज्यं कृत्वा च कार्मुकम् ।\nभीमस्यापोथयत्केतुं धनुरश्वांश्च मारिष ॥",
+          "meaning": {
+            "en": "The strong one took another bow and strung it, and smashed Bhima's banner, bow and horses, O sir."
+          }
         },
         {
           "n": 14,
-          "text": "स हताश्वादवप्लुत्य छिन्नधन्वा रथोत्तमात् ।\nसात्यकेराप्लुतो यानं गिर्यग्रमिव केसरी ॥"
+          "text": "स हताश्वादवप्लुत्य छिन्नधन्वा रथोत्तमात् ।\nसात्यकेराप्लुतो यानं गिर्यग्रमिव केसरी ॥",
+          "meaning": {
+            "en": "Bhima, with horses killed and bow cut, leapt from that best of chariots and landed on Satyaki's chariot, like a lion on a mountain peak."
+          }
         },
         {
           "n": 15,
-          "text": "ततस्त्वदीयाः संहृष्टाः साधु साध्विति चुक्रुशुः ।\nसिन्धुराजस्य तत्कर्म प्रेक्ष्याश्रद्धेयमुत्तमम् ॥"
+          "text": "ततस्त्वदीयाः संहृष्टाः साधु साध्विति चुक्रुशुः ।\nसिन्धुराजस्य तत्कर्म प्रेक्ष्याश्रद्धेयमुत्तमम् ॥",
+          "meaning": {
+            "en": "Then your men, delighted, shouted \"Well done, well done!\" seeing that incredible, excellent deed of the Sindhu king."
+          }
         },
         {
           "n": 16,
-          "text": "संक्रुद्धान्पाण्डवानेको यद्दधारास्त्रतेजसा ।\nतत्तस्य कर्म भूतानि सर्वाण्येवाभ्यपूजयन् ॥"
+          "text": "संक्रुद्धान्पाण्डवानेको यद्दधारास्त्रतेजसा ।\nतत्तस्य कर्म भूतानि सर्वाण्येवाभ्यपूजयन् ॥",
+          "meaning": {
+            "en": "That he alone held back the angry Pandavas with the power of his weapons: all beings honored that deed of his."
+          }
         },
         {
           "n": 17,
-          "text": "सौभद्रेण हतैः पूर्वं सोत्तरायुधिभिर्द्विपैः ।\nपाण्डूनां दर्शितः पन्थाः सैन्धवेन निवारितः ॥"
+          "text": "सौभद्रेण हतैः पूर्वं सोत्तरायुधिभिर्द्विपैः ।\nपाण्डूनां दर्शितः पन्थाः सैन्धवेन निवारितः ॥",
+          "meaning": {
+            "en": "The path that Subhadra's son had shown, by slaying elephants with their riders and weapons, was blocked by the Sindhu king."
+          }
         },
         {
           "n": 18,
-          "text": "यतमानास्तु ते वीरा मत्स्यपाञ्चालकेकयाः ।\nपाण्डवाश्चान्वपद्यन्त प्रत्यैकश्येन सैन्धवम् ॥"
+          "text": "यतमानास्तु ते वीरा मत्स्यपाञ्चालकेकयाः ।\nपाण्डवाश्चान्वपद्यन्त प्रत्यैकश्येन सैन्धवम् ॥",
+          "meaning": {
+            "en": "Still, those heroes, the Matsyas, Panchalas, Kekayas and Pandavas, pressed on, each in turn, against the Sindhu king."
+          }
         },
         {
           "n": 19,
-          "text": "यो यो हि यतते भेत्तुं द्रोणानीकं तवाहितः ।\nतं तं देववरप्राप्त्या सैन्धवः प्रत्यवारयत् ॥"
+          "text": "यो यो हि यतते भेत्तुं द्रोणानीकं तवाहितः ।\nतं तं देववरप्राप्त्या सैन्धवः प्रत्यवारयत् ॥",
+          "meaning": {
+            "en": "Whoever tried to break your army of Drona, hostile to you, that man the Sindhu king held back by the grace of the best of gods."
+          }
         }
       ]
     }
