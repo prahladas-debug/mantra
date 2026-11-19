@@ -22,127 +22,220 @@
       "titleEn": "Yakshayuddha Parva (Battle with the Yakshas)",
       "verses": [
         {
-          "text": "अर्जुन उवाच"
+          "text": "अर्जुन उवाच",
+          "meaning": {
+            "en": "Arjuna said:"
+          }
         },
         {
           "n": 1,
-          "text": "ततोऽश्मवर्षं सुमहत्प्रादुरासीत्समन्ततः ।\nनगमात्रैर्महाघोरैस्तन्मां दृढमपीडयत् ॥"
+          "text": "ततोऽश्मवर्षं सुमहत्प्रादुरासीत्समन्ततः ।\nनगमात्रैर्महाघोरैस्तन्मां दृढमपीडयत् ॥",
+          "meaning": {
+            "en": "Then a huge rain of stones appeared on every side, with boulders as big as hills, and it pressed me hard."
+          }
         },
         {
           "n": 2,
-          "text": "तदहं वज्रसंकाशैः शरैरिन्द्रास्त्रचोदितैः ।\nअचूर्णयं वेगवद्भिः शतधैकैकमाहवे ॥"
+          "text": "तदहं वज्रसंकाशैः शरैरिन्द्रास्त्रचोदितैः ।\nअचूर्णयं वेगवद्भिः शतधैकैकमाहवे ॥",
+          "meaning": {
+            "en": "With swift arrows like thunderbolts, driven by the Indra weapon, I shattered each of those stones into a hundred pieces in the fight."
+          }
         },
         {
           "n": 3,
-          "text": "चूर्ण्यमानेऽश्मवर्षे तु पावकः समजायत ।\nतत्राश्मचूर्णमपतत्पावकप्रकरा इव ॥"
+          "text": "चूर्ण्यमानेऽश्मवर्षे तु पावकः समजायत ।\nतत्राश्मचूर्णमपतत्पावकप्रकरा इव ॥",
+          "meaning": {
+            "en": "As the stone-rain was being pulverized, fire arose, and the stone dust fell like showers of sparks."
+          }
         },
         {
           "n": 4,
-          "text": "ततोऽश्मवर्षे निहते जलवर्षं महत्तरम् ।\nधाराभिरक्षमात्राभिः प्रादुरासीन्ममान्तिके ॥"
+          "text": "ततोऽश्मवर्षे निहते जलवर्षं महत्तरम् ।\nधाराभिरक्षमात्राभिः प्रादुरासीन्ममान्तिके ॥",
+          "meaning": {
+            "en": "When the stone-rain was destroyed, a far greater rain of water came down near me, in streams thick as chariot axles."
+          }
         },
         {
           "n": 5,
-          "text": "नभसः प्रच्युता धारास्तिग्मवीर्याः सहस्रशः ।\nआवृण्वन्सर्वतो व्योम दिशश्चोपदिशस्तथा ॥"
+          "text": "नभसः प्रच्युता धारास्तिग्मवीर्याः सहस्रशः ।\nआवृण्वन्सर्वतो व्योम दिशश्चोपदिशस्तथा ॥",
+          "meaning": {
+            "en": "Thousands of sharp-forced streams fell from the sky and covered the heavens, the directions and the intermediate directions."
+          }
         },
         {
           "n": 6,
-          "text": "धाराणां च निपातेन वायोर्विस्फूर्जितेन च ।\nगर्जितेन च दैत्यानां न प्राज्ञायत किंचन ॥"
+          "text": "धाराणां च निपातेन वायोर्विस्फूर्जितेन च ।\nगर्जितेन च दैत्यानां न प्राज्ञायत किंचन ॥",
+          "meaning": {
+            "en": "With the falling streams, the howling of the wind and the roaring of the daityas, I could make out nothing."
+          }
         },
         {
           "n": 7,
-          "text": "धारा दिवि च संबद्धा वसुधायां च सर्वशः ।\nव्यामोहयन्त मां तत्र निपतन्त्योऽनिशं भुवि ॥"
+          "text": "धारा दिवि च संबद्धा वसुधायां च सर्वशः ।\nव्यामोहयन्त मां तत्र निपतन्त्योऽनिशं भुवि ॥",
+          "meaning": {
+            "en": "The streams, joined to the sky and spread over the earth, kept falling without pause and bewildered me."
+          }
         },
         {
           "n": 8,
-          "text": "तत्रोपदिष्टमिन्द्रेण दिव्यमस्त्रं विशोषणम् ।\nदीप्तं प्राहिणवं घोरमशुष्यत्तेन तज्जलम् ॥"
+          "text": "तत्रोपदिष्टमिन्द्रेण दिव्यमस्त्रं विशोषणम् ।\nदीप्तं प्राहिणवं घोरमशुष्यत्तेन तज्जलम् ॥",
+          "meaning": {
+            "en": "Then I hurled the blazing, fearsome divine weapon of drying that Indra had taught me, and by it that water dried up."
+          }
         },
         {
           "n": 9,
-          "text": "हतेऽश्मवर्षे तु मया जलवर्षे च शोषिते ।\nमुमुचुर्दानवा मायामग्निं वायुं च मानद ॥"
+          "text": "हतेऽश्मवर्षे तु मया जलवर्षे च शोषिते ।\nमुमुचुर्दानवा मायामग्निं वायुं च मानद ॥",
+          "meaning": {
+            "en": "When I had destroyed the stone-rain and dried the water-rain, the danavas, O giver of honor, let loose illusions of fire and wind."
+          }
         },
         {
           "n": 10,
-          "text": "ततोऽहमग्निं व्यधमं सलिलास्त्रेण सर्वशः ।\nशैलेन च महास्त्रेण वायोर्वेगमधारयम् ॥"
+          "text": "ततोऽहमग्निं व्यधमं सलिलास्त्रेण सर्वशः ।\nशैलेन च महास्त्रेण वायोर्वेगमधारयम् ॥",
+          "meaning": {
+            "en": "I quenched the fire everywhere with the water weapon, and with the great mountain weapon I held back the force of the wind."
+          }
         },
         {
           "n": 11,
-          "text": "तस्यां प्रतिहतायां तु दानवा युद्धदुर्मदाः ।\nप्राकुर्वन्विविधा माया यौगपद्येन भारत ॥"
+          "text": "तस्यां प्रतिहतायां तु दानवा युद्धदुर्मदाः ।\nप्राकुर्वन्विविधा माया यौगपद्येन भारत ॥",
+          "meaning": {
+            "en": "When that illusion was checked, the danavas, mad for battle, produced many illusions at once, O Bharata."
+          }
         },
         {
           "n": 12,
-          "text": "ततो वर्षं प्रादुरभूत्सुमहल्लोमहर्षणम् ।\nअस्त्राणां घोररूपाणामग्नेर्वायोस्तथाश्मनाम् ॥"
+          "text": "ततो वर्षं प्रादुरभूत्सुमहल्लोमहर्षणम् ।\nअस्त्राणां घोररूपाणामग्नेर्वायोस्तथाश्मनाम् ॥",
+          "meaning": {
+            "en": "Then a hair-raising rain of terrible weapons, of fire, of wind and of stones, appeared."
+          }
         },
         {
           "n": 13,
-          "text": "सा तु मायामयी वृष्टिः पीडयामास मां युधि ।\nअथ घोरं तमस्तीव्रं प्रादुरासीत्समन्ततः ॥"
+          "text": "सा तु मायामयी वृष्टिः पीडयामास मां युधि ।\nअथ घोरं तमस्तीव्रं प्रादुरासीत्समन्ततः ॥",
+          "meaning": {
+            "en": "That illusory downpour pressed me in the battle, and then a terrible, dense darkness arose on all sides."
+          }
         },
         {
           "n": 14,
-          "text": "तमसा संवृते लोके घोरेण परुषेण च ।\nतुरगा विमुखाश्चासन्प्रास्खलच्चापि मातलिः ॥"
+          "text": "तमसा संवृते लोके घोरेण परुषेण च ।\nतुरगा विमुखाश्चासन्प्रास्खलच्चापि मातलिः ॥",
+          "meaning": {
+            "en": "When the world was wrapped in that dreadful, harsh darkness, the horses turned aside and Matali faltered."
+          }
         },
         {
           "n": 15,
-          "text": "हस्ताद्धिरण्मयश्चास्य प्रतोदः प्रापतद्भुवि ।\nअसकृच्चाह मां भीतः क्वासीति भरतर्षभ ॥"
+          "text": "हस्ताद्धिरण्मयश्चास्य प्रतोदः प्रापतद्भुवि ।\nअसकृच्चाह मां भीतः क्वासीति भरतर्षभ ॥",
+          "meaning": {
+            "en": "His golden goad fell from his hand to the ground, and fearful, he called out to me again and again, \"Where are you?\" O best of the Bharatas."
+          }
         },
         {
           "n": 16,
-          "text": "मां च भीराविशत्तीव्रा तस्मिन्विगतचेतसि ।\nस च मां विगतज्ञानः संत्रस्त इदमब्रवीत् ॥"
+          "text": "मां च भीराविशत्तीव्रा तस्मिन्विगतचेतसि ।\nस च मां विगतज्ञानः संत्रस्त इदमब्रवीत् ॥",
+          "meaning": {
+            "en": "Sharp fear came over me when he lost his senses, and he, having lost his wits in terror, said this to me."
+          }
         },
         {
           "n": 17,
-          "text": "सुराणामसुराणां च संग्रामः सुमहानभूत् ।\nअमृतार्थे पुरा पार्थ स च दृष्टो मयानघ ॥"
+          "text": "सुराणामसुराणां च संग्रामः सुमहानभूत् ।\nअमृतार्थे पुरा पार्थ स च दृष्टो मयानघ ॥",
+          "meaning": {
+            "en": "\"Long ago, Partha, there was a mighty battle between gods and asuras for the nectar, and I saw it, sinless one."
+          }
         },
         {
           "n": 18,
-          "text": "शम्बरस्य वधे चापि संग्रामः सुमहानभूत् ।\nसारथ्यं देवराजस्य तत्रापि कृतवानहम् ॥"
+          "text": "शम्बरस्य वधे चापि संग्रामः सुमहानभूत् ।\nसारथ्यं देवराजस्य तत्रापि कृतवानहम् ॥",
+          "meaning": {
+            "en": "There was also a mighty battle at the slaying of Shambara, and there too I served as the charioteer of the king of the gods."
+          }
         },
         {
           "n": 19,
-          "text": "तथैव वृत्रस्य वधे संगृहीता हया मया ।\nवैरोचनेर्मया युद्धं दृष्टं चापि सुदारुणम् ॥"
+          "text": "तथैव वृत्रस्य वधे संगृहीता हया मया ।\nवैरोचनेर्मया युद्धं दृष्टं चापि सुदारुणम् ॥",
+          "meaning": {
+            "en": "Likewise at the slaying of Vritra I held the horses, and I also saw the dreadful fight with Virochana's son Bali."
+          }
         },
         {
           "n": 20,
-          "text": "एते मया महाघोराः संग्रामाः पर्युपासिताः ।\nन चापि विगतज्ञानो भूतपूर्वोऽस्मि पाण्डव ॥"
+          "text": "एते मया महाघोराः संग्रामाः पर्युपासिताः ।\nन चापि विगतज्ञानो भूतपूर्वोऽस्मि पाण्डव ॥",
+          "meaning": {
+            "en": "I have attended these terrible wars, Pandava, and never before have I lost my senses."
+          }
         },
         {
           "n": 21,
-          "text": "पितामहेन संहारः प्रजानां विहितो ध्रुवम् ।\nन हि युद्धमिदं युक्तमन्यत्र जगतः क्षयात् ॥"
+          "text": "पितामहेन संहारः प्रजानां विहितो ध्रुवम् ।\nन हि युद्धमिदं युक्तमन्यत्र जगतः क्षयात् ॥",
+          "meaning": {
+            "en": "Surely the Grandsire has ordained the dissolution of creatures, for this fight is fitting for nothing but the world's destruction.\""
+          }
         },
         {
           "n": 22,
-          "text": "तस्य तद्वचनं श्रुत्वा संस्तभ्यात्मानमात्मना ।\nमोहयिष्यन्दानवानामहं मायामयं बलम् ॥"
+          "text": "तस्य तद्वचनं श्रुत्वा संस्तभ्यात्मानमात्मना ।\nमोहयिष्यन्दानवानामहं मायामयं बलम् ॥",
+          "meaning": {
+            "en": "Hearing his words, I steadied myself by my own effort, intending to confound the illusory host of the danavas."
+          }
         },
         {
           "n": 23,
-          "text": "अब्रुवं मातलिं भीतं पश्य मे भुजयोर्बलम् ।\nअस्त्राणां च प्रभावं मे धनुषो गाण्डिवस्य च ॥"
+          "text": "अब्रुवं मातलिं भीतं पश्य मे भुजयोर्बलम् ।\nअस्त्राणां च प्रभावं मे धनुषो गाण्डिवस्य च ॥",
+          "meaning": {
+            "en": "I said to the frightened Matali, \"See the strength of my arms, and the power of my weapons and of my bow Gandiva."
+          }
         },
         {
           "n": 24,
-          "text": "अद्यास्त्रमाययैतेषां मायामेतां सुदारुणाम् ।\nविनिहन्मि तमश्चोग्रं मा भैः सूत स्थिरो भव ॥"
+          "text": "अद्यास्त्रमाययैतेषां मायामेतां सुदारुणाम् ।\nविनिहन्मि तमश्चोग्रं मा भैः सूत स्थिरो भव ॥",
+          "meaning": {
+            "en": "Today by the illusion of my weapons I will destroy this dreadful illusion of theirs and this fierce darkness. Do not fear, charioteer; be steady.\""
+          }
         },
         {
           "n": 25,
-          "text": "एवमुक्त्वाहमसृजमस्त्रमायां नराधिप ।\nमोहनीं सर्वशत्रूणां हिताय त्रिदिवौकसाम् ॥"
+          "text": "एवमुक्त्वाहमसृजमस्त्रमायां नराधिप ।\nमोहनीं सर्वशत्रूणां हिताय त्रिदिवौकसाम् ॥",
+          "meaning": {
+            "en": "Having said so, O lord of men, I released an illusion weapon that bewilders all enemies, for the good of the dwellers of heaven."
+          }
         },
         {
           "n": 26,
-          "text": "पीड्यमानासु मायासु तासु तास्वसुरेश्वराः ।\nपुनर्बहुविधा मायाः प्राकुर्वन्नमितौजसः ॥"
+          "text": "पीड्यमानासु मायासु तासु तास्वसुरेश्वराः ।\nपुनर्बहुविधा मायाः प्राकुर्वन्नमितौजसः ॥",
+          "meaning": {
+            "en": "As those illusions were being crushed, the lords of the asuras, of boundless might, produced many kinds of illusion again."
+          }
         },
         {
           "n": 27,
-          "text": "पुनः प्रकाशमभवत्तमसा ग्रस्यते पुनः ।\nव्रजत्यदर्शनं लोकः पुनरप्सु निमज्जति ॥"
+          "text": "पुनः प्रकाशमभवत्तमसा ग्रस्यते पुनः ।\nव्रजत्यदर्शनं लोकः पुनरप्सु निमज्जति ॥",
+          "meaning": {
+            "en": "Light appeared again and was again swallowed by darkness; the world vanished from sight and again sank in water."
+          }
         },
         {
           "n": 28,
-          "text": "सुसंगृहीतैर्हरिभिः प्रकाशे सति मातलिः ।\nव्यचरत्स्यन्दनाग्र्येण संग्रामे लोमहर्षणे ॥"
+          "text": "सुसंगृहीतैर्हरिभिः प्रकाशे सति मातलिः ।\nव्यचरत्स्यन्दनाग्र्येण संग्रामे लोमहर्षणे ॥",
+          "meaning": {
+            "en": "When it was light, Matali, holding the horses well in hand, drove the excellent chariot about in that hair-raising battle."
+          }
         },
         {
           "n": 29,
-          "text": "ततः पर्यपतन्नुग्रा निवातकवचा मयि ।\nतानहं विवरं दृष्ट्वा प्राहिण्वं यमसादनम् ॥"
+          "text": "ततः पर्यपतन्नुग्रा निवातकवचा मयि ।\nतानहं विवरं दृष्ट्वा प्राहिण्वं यमसादनम् ॥",
+          "meaning": {
+            "en": "Then the fierce Nivatakavachas leapt upon me, and seeing an opening I sent them to Yama's abode."
+          }
         },
         {
           "n": 30,
-          "text": "वर्तमाने तथा युद्धे निवातकवचान्तके ।\nनापश्यं सहसा सर्वान्दानवान्माययावृतान् ॥"
+          "text": "वर्तमाने तथा युद्धे निवातकवचान्तके ।\nनापश्यं सहसा सर्वान्दानवान्माययावृतान् ॥",
+          "meaning": {
+            "en": "As the fight, destroyer of the Nivatakavachas, went on, I suddenly lost sight of all the danavas, who were veiled by their illusion."
+          }
         }
       ]
     }

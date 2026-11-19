@@ -22,129 +22,225 @@
       "titleEn": "Indralokabhigamana Parva (Journey to Indra's world)",
       "verses": [
         {
-          "text": "बृहदश्व उवाच"
+          "text": "बृहदश्व उवाच",
+          "meaning": {
+            "en": "Brihadashva said:"
+          }
         },
         {
           "n": 1,
-          "text": "दमयन्ती तु तच्छ्रुत्वा वचो हंसस्य भारत ।\nतदा प्रभृति नस्वस्था नलं प्रति बभूव सा ॥"
+          "text": "दमयन्ती तु तच्छ्रुत्वा वचो हंसस्य भारत ।\nतदा प्रभृति नस्वस्था नलं प्रति बभूव सा ॥",
+          "meaning": {
+            "en": "Descendant of Bharata, from the moment Damayanti heard the swan's words, she was no longer at ease because of Nala."
+          }
         },
         {
           "n": 2,
-          "text": "ततश्चिन्तापरा दीना विवर्णवदना कृशा ।\nबभूव दमयन्ती तु निःश्वासपरमा तदा ॥"
+          "text": "ततश्चिन्तापरा दीना विवर्णवदना कृशा ।\nबभूव दमयन्ती तु निःश्वासपरमा तदा ॥",
+          "meaning": {
+            "en": "Then Damayanti became distracted and wretched, pale in face and thin, her breath coming in sighs."
+          }
         },
         {
           "n": 3,
-          "text": "ऊर्ध्वदृष्टिर्ध्यानपरा बभूवोन्मत्तदर्शना ।\nन शय्यासनभोगेषु रतिं विन्दति कर्हिचित् ॥"
+          "text": "ऊर्ध्वदृष्टिर्ध्यानपरा बभूवोन्मत्तदर्शना ।\nन शय्यासनभोगेषु रतिं विन्दति कर्हिचित् ॥",
+          "meaning": {
+            "en": "She gazed upward, absorbed in thought, with a look as of madness, and found no pleasure in bed, seat or enjoyment."
+          }
         },
         {
           "n": 4,
-          "text": "न नक्तं न दिवा शेते हा हेति वदती मुहुः ।\nतामस्वस्थां तदाकारां सख्यस्ता जज्ञुरिङ्गितैः ॥"
+          "text": "न नक्तं न दिवा शेते हा हेति वदती मुहुः ।\nतामस्वस्थां तदाकारां सख्यस्ता जज्ञुरिङ्गितैः ॥",
+          "meaning": {
+            "en": "She slept neither by night nor by day, and kept crying \"Alas, alas.\" Her friends understood from her signs that she was unwell and in that condition."
+          }
         },
         {
           "n": 5,
-          "text": "ततो विदर्भपतये दमयन्त्याः सखीगणः ।\nन्यवेदयत नस्वस्थां दमयन्तीं नरेश्वर ॥"
+          "text": "ततो विदर्भपतये दमयन्त्याः सखीगणः ।\nन्यवेदयत नस्वस्थां दमयन्तीं नरेश्वर ॥",
+          "meaning": {
+            "en": "Then the group of Damayanti's friends told the lord of Vidarbha, O king, that Damayanti was unwell."
+          }
         },
         {
           "n": 6,
-          "text": "तच्छ्रुत्वा नृपतिर्भीमो दमयन्तीसखीगणात् ।\nचिन्तयामास तत्कार्यं सुमहत्स्वां सुतां प्रति ॥"
+          "text": "तच्छ्रुत्वा नृपतिर्भीमो दमयन्तीसखीगणात् ।\nचिन्तयामास तत्कार्यं सुमहत्स्वां सुतां प्रति ॥",
+          "meaning": {
+            "en": "Hearing this from her friends, King Bhima considered what great matter this was concerning his daughter."
+          }
         },
         {
           "n": 7,
-          "text": "स समीक्ष्य महीपालः स्वां सुतां प्राप्तयौवनाम् ।\nअपश्यदात्मनः कार्यं दमयन्त्याः स्वयंवरम् ॥"
+          "text": "स समीक्ष्य महीपालः स्वां सुतां प्राप्तयौवनाम् ।\nअपश्यदात्मनः कार्यं दमयन्त्याः स्वयंवरम् ॥",
+          "meaning": {
+            "en": "The king, seeing that his daughter had come of age, saw that what must be done was a svayamvara for Damayanti."
+          }
         },
         {
           "n": 8,
-          "text": "स संनिपातयामास महीपालान्विशां पते ।\nअनुभूयतामयं वीराः स्वयंवर इति प्रभो ॥"
+          "text": "स संनिपातयामास महीपालान्विशां पते ।\nअनुभूयतामयं वीराः स्वयंवर इति प्रभो ॥",
+          "meaning": {
+            "en": "He gathered the rulers of the earth, lord of people, saying, \"Heroes, come and experience this svayamvara.\""
+          }
         },
         {
           "n": 9,
-          "text": "श्रुत्वा तु पार्थिवाः सर्वे दमयन्त्याः स्वयंवरम् ।\nअभिजग्मुस्तदा भीमं राजानो भीमशासनात् ॥"
+          "text": "श्रुत्वा तु पार्थिवाः सर्वे दमयन्त्याः स्वयंवरम् ।\nअभिजग्मुस्तदा भीमं राजानो भीमशासनात् ॥",
+          "meaning": {
+            "en": "Hearing of Damayanti's svayamvara, all the kings then came to Bhima, at Bhima's summons."
+          }
         },
         {
           "n": 10,
-          "text": "हस्त्यश्वरथघोषेण नादयन्तो वसुंधराम् ।\nविचित्रमाल्याभरणैर्बलैर्दृश्यैः स्वलंकृतैः ॥"
+          "text": "हस्त्यश्वरथघोषेण नादयन्तो वसुंधराम् ।\nविचित्रमाल्याभरणैर्बलैर्दृश्यैः स्वलंकृतैः ॥",
+          "meaning": {
+            "en": "They made the earth resound with the noise of elephants, horses and chariots, with wonderful garlands and ornaments and splendid armies richly decked."
+          }
         },
         {
           "n": 11,
-          "text": "एतस्मिन्नेव काले तु पुराणावृषिसत्तमौ ।\nअटमानौ महात्मानाविन्द्रलोकमितो गतौ ॥"
+          "text": "एतस्मिन्नेव काले तु पुराणावृषिसत्तमौ ।\nअटमानौ महात्मानाविन्द्रलोकमितो गतौ ॥",
+          "meaning": {
+            "en": "At that very time two ancient best of sages, great souls wandering about, went from here to Indra's world."
+          }
         },
         {
           "n": 12,
-          "text": "नारदः पर्वतश्चैव महात्मानौ महाव्रतौ ।\nदेवराजस्य भवनं विविशाते सुपूजितौ ॥"
+          "text": "नारदः पर्वतश्चैव महात्मानौ महाव्रतौ ।\nदेवराजस्य भवनं विविशाते सुपूजितौ ॥",
+          "meaning": {
+            "en": "They were the great souls Narada and Parvata, of great vows. Well honored, they entered the palace of the king of the gods."
+          }
         },
         {
           "n": 13,
-          "text": "तावर्चित्वा सहस्राक्षस्ततः कुशलमव्ययम् ।\nपप्रच्छानामयं चापि तयोः सर्वगतं विभुः ॥"
+          "text": "तावर्चित्वा सहस्राक्षस्ततः कुशलमव्ययम् ।\nपप्रच्छानामयं चापि तयोः सर्वगतं विभुः ॥",
+          "meaning": {
+            "en": "The thousand-eyed lord honored them, then asked after their unfailing welfare and the health of everything pertaining to them."
+          }
         },
         {
-          "text": "नारद उवाच"
+          "text": "नारद उवाच",
+          "meaning": {
+            "en": "Narada said:"
+          }
         },
         {
           "n": 14,
-          "text": "आवयोः कुशलं देव सर्वत्रगतमीश्वर ।\nलोके च मघवन्कृत्स्ने नृपाः कुशलिनो विभो ॥"
+          "text": "आवयोः कुशलं देव सर्वत्रगतमीश्वर ।\nलोके च मघवन्कृत्स्ने नृपाः कुशलिनो विभो ॥",
+          "meaning": {
+            "en": "Lord, all is well with us everywhere, and in the whole world, Maghavan, the kings are well too."
+          }
         },
         {
-          "text": "बृहदश्व उवाच"
+          "text": "बृहदश्व उवाच",
+          "meaning": {
+            "en": "Brihadashva said:"
+          }
         },
         {
           "n": 15,
-          "text": "नारदस्य वचः श्रुत्वा पप्रच्छ बलवृत्रहा ।\nधर्मज्ञाः पृथिवीपालास्त्यक्तजीवितयोधिनः ॥"
+          "text": "नारदस्य वचः श्रुत्वा पप्रच्छ बलवृत्रहा ।\nधर्मज्ञाः पृथिवीपालास्त्यक्तजीवितयोधिनः ॥",
+          "meaning": {
+            "en": "Hearing Narada's words, the slayer of Bala and Vritra asked: \"Those earth-rulers who know dharma, who fight giving up their lives,"
+          }
         },
         {
           "n": 16,
-          "text": "शस्त्रेण निधनं काले ये गच्छन्त्यपराङ्मुखाः ।\nअयं लोकोऽक्षयस्तेषां यथैव मम कामधुक् ॥"
+          "text": "शस्त्रेण निधनं काले ये गच्छन्त्यपराङ्मुखाः ।\nअयं लोकोऽक्षयस्तेषां यथैव मम कामधुक् ॥",
+          "meaning": {
+            "en": "who meet death by the sword in time without turning away, for them is an imperishable world, like a wish-granting cow for me."
+          }
         },
         {
           "n": 17,
-          "text": "क्व नु ते क्षत्रियाः शूरा न हि पश्यामि तानहम् ।\nआगच्छतो महीपालानतिथीन्दयितान्मम ॥"
+          "text": "क्व नु ते क्षत्रियाः शूरा न हि पश्यामि तानहम् ।\nआगच्छतो महीपालानतिथीन्दयितान्मम ॥",
+          "meaning": {
+            "en": "Where are those brave kshatriyas? I do not see them, my beloved guests, the rulers of earth coming here.\""
+          }
         },
         {
           "n": 18,
-          "text": "एवमुक्तस्तु शक्रेण नारदः प्रत्यभाषत ।\nशृणु मे भगवन्येन न दृश्यन्ते महीक्षितः ॥"
+          "text": "एवमुक्तस्तु शक्रेण नारदः प्रत्यभाषत ।\nशृणु मे भगवन्येन न दृश्यन्ते महीक्षितः ॥",
+          "meaning": {
+            "en": "Spoken to thus by Shakra, Narada replied: \"Listen, blessed one, to why the kings are not seen."
+          }
         },
         {
           "n": 19,
-          "text": "विदर्भराजदुहिता दमयन्तीति विश्रुता ।\nरूपेण समतिक्रान्ता पृथिव्यां सर्वयोषितः ॥"
+          "text": "विदर्भराजदुहिता दमयन्तीति विश्रुता ।\nरूपेण समतिक्रान्ता पृथिव्यां सर्वयोषितः ॥",
+          "meaning": {
+            "en": "There is the daughter of the king of Vidarbha, famed as Damayanti, who surpasses all women on earth in beauty."
+          }
         },
         {
           "n": 20,
-          "text": "तस्याः स्वयंवरः शक्र भविता नचिरादिव ।\nतत्र गच्छन्ति राजानो राजपुत्राश्च सर्वशः ॥"
+          "text": "तस्याः स्वयंवरः शक्र भविता नचिरादिव ।\nतत्र गच्छन्ति राजानो राजपुत्राश्च सर्वशः ॥",
+          "meaning": {
+            "en": "Her svayamvara will be held, Shakra, very soon, and kings and princes are going there from everywhere."
+          }
         },
         {
           "n": 21,
-          "text": "तां रत्नभूतां लोकस्य प्रार्थयन्तो महीक्षितः ।\nकाङ्क्षन्ति स्म विशेषेण बलवृत्रनिषूदन ॥"
+          "text": "तां रत्नभूतां लोकस्य प्रार्थयन्तो महीक्षितः ।\nकाङ्क्षन्ति स्म विशेषेण बलवृत्रनिषूदन ॥",
+          "meaning": {
+            "en": "The earth's rulers, seeking her as the world's jewel, especially long for her, slayer of Bala and Vritra.\""
+          }
         },
         {
           "n": 22,
-          "text": "एतस्मिन्कथ्यमाने तु लोकपालाश्च साग्निकाः ।\nआजग्मुर्देवराजस्य समीपममरोत्तमाः ॥"
+          "text": "एतस्मिन्कथ्यमाने तु लोकपालाश्च साग्निकाः ।\nआजग्मुर्देवराजस्य समीपममरोत्तमाः ॥",
+          "meaning": {
+            "en": "While this was being told, the world-guardians with Agni, the best of immortals, came near the king of the gods."
+          }
         },
         {
           "n": 23,
-          "text": "ततस्तच्छुश्रुवुः सर्वे नारदस्य वचो महत् ।\nश्रुत्वा चैवाब्रुवन्हृष्टा गच्छामो वयमप्युत ॥"
+          "text": "ततस्तच्छुश्रुवुः सर्वे नारदस्य वचो महत् ।\nश्रुत्वा चैवाब्रुवन्हृष्टा गच्छामो वयमप्युत ॥",
+          "meaning": {
+            "en": "Then all of them heard Narada's great words, and having heard, they said gladly, \"We too will go.\""
+          }
         },
         {
           "n": 24,
-          "text": "ततः सर्वे महाराज सगणाः सहवाहनाः ।\nविदर्भानभितो जग्मुर्यत्र सर्वे महीक्षितः ॥"
+          "text": "ततः सर्वे महाराज सगणाः सहवाहनाः ।\nविदर्भानभितो जग्मुर्यत्र सर्वे महीक्षितः ॥",
+          "meaning": {
+            "en": "Then all of them, great king, with their attendants and mounts, went to Vidarbha where all the kings were."
+          }
         },
         {
           "n": 25,
-          "text": "नलोऽपि राजा कौन्तेय श्रुत्वा राज्ञां समागमम् ।\nअभ्यगच्छददीनात्मा दमयन्तीमनुव्रतः ॥"
+          "text": "नलोऽपि राजा कौन्तेय श्रुत्वा राज्ञां समागमम् ।\nअभ्यगच्छददीनात्मा दमयन्तीमनुव्रतः ॥",
+          "meaning": {
+            "en": "King Nala too, Kaunteya, hearing of the gathering of kings, set out in good spirits, devoted to Damayanti."
+          }
         },
         {
           "n": 26,
-          "text": "अथ देवाः पथि नलं ददृशुर्भूतले स्थितम् ।\nसाक्षादिव स्थितं मूर्त्या मन्मथं रूपसंपदा ॥"
+          "text": "अथ देवाः पथि नलं ददृशुर्भूतले स्थितम् ।\nसाक्षादिव स्थितं मूर्त्या मन्मथं रूपसंपदा ॥",
+          "meaning": {
+            "en": "Then on the road the gods saw Nala standing on the ground, as if Manmatha himself were standing there in body, with wealth of beauty."
+          }
         },
         {
           "n": 27,
-          "text": "तं दृष्ट्वा लोकपालास्ते भ्राजमानं यथा रविम् ।\nतस्थुर्विगतसंकल्पा विस्मिता रूपसंपदा ॥"
+          "text": "तं दृष्ट्वा लोकपालास्ते भ्राजमानं यथा रविम् ।\nतस्थुर्विगतसंकल्पा विस्मिता रूपसंपदा ॥",
+          "meaning": {
+            "en": "Seeing him shining like the sun, the world-guardians stopped, their purpose forgotten, amazed at his beauty."
+          }
         },
         {
           "n": 28,
-          "text": "ततोऽन्तरिक्षे विष्टभ्य विमानानि दिवौकसः ।\nअब्रुवन्नैषधं राजन्नवतीर्य नभस्तलात् ॥"
+          "text": "ततोऽन्तरिक्षे विष्टभ्य विमानानि दिवौकसः ।\nअब्रुवन्नैषधं राजन्नवतीर्य नभस्तलात् ॥",
+          "meaning": {
+            "en": "Then the sky-dwellers halted their celestial cars in the air, came down from the heavens, and spoke to the Nishadha king."
+          }
         },
         {
           "n": 29,
-          "text": "भो भो नैषध राजेन्द्र नल सत्यव्रतो भवान् ।\nअस्माकं कुरु साहाय्यं दूतो भव नरोत्तम ॥"
+          "text": "भो भो नैषध राजेन्द्र नल सत्यव्रतो भवान् ।\nअस्माकं कुरु साहाय्यं दूतो भव नरोत्तम ॥",
+          "meaning": {
+            "en": "\"Nala, Nishadha, best of kings, you are firm in truth. Help us; be our messenger, best of men.\""
+          }
         }
       ]
     }

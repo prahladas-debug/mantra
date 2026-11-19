@@ -23,6 +23,6 @@ Sidecars go in your own folder in the scratchpad (given in your brief), never in
   nothing, leave nothing out. Devanagari only (no Latin letters). Use `show <part> <unit> --en`.
 
 ## After your chunk
-Run `npx tsx scripts/build-books.ts` and check the output has no ERROR line for your parva; then
-`python3 -I tools/builders/mahabharata/meanings/mbm.py status`. Don't touch any other file; no git commands
-that change state; no prettier. Report: units done, verses, anything unclear.
+Run `python3 -I tools/builders/mahabharata/meanings/mbm.py status` (the coordinator runs the full build).
+Don't touch any other file; no git commands that change state; no prettier. Report: units done, verses,
+anything unclear.

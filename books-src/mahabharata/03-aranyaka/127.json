@@ -22,106 +22,187 @@
       "titleEn": "Tirthayatra Parva (The pilgrimage)",
       "verses": [
         {
-          "text": "युधिष्ठिर उवाच"
+          "text": "युधिष्ठिर उवाच",
+          "meaning": {
+            "en": "Yudhishthira said:"
+          }
         },
         {
           "n": 1,
-          "text": "कथंवीर्यः स राजाभूत्सोमको वदतां वर ।\nकर्माण्यस्य प्रभावं च श्रोतुमिच्छामि तत्त्वतः ॥"
+          "text": "कथंवीर्यः स राजाभूत्सोमको वदतां वर ।\nकर्माण्यस्य प्रभावं च श्रोतुमिच्छामि तत्त्वतः ॥",
+          "meaning": {
+            "en": "Best of speakers, what was King Somaka's might? I want to hear his deeds and his power truly."
+          }
         },
         {
-          "text": "लोमश उवाच"
+          "text": "लोमश उवाच",
+          "meaning": {
+            "en": "Lomasha said:"
+          }
         },
         {
           "n": 2,
-          "text": "युधिष्ठिरासीन्नृपतिः सोमको नाम धार्मिकः ।\nतस्य भार्याशतं राजन्सदृशीनामभूत्तदा ॥"
+          "text": "युधिष्ठिरासीन्नृपतिः सोमको नाम धार्मिकः ।\nतस्य भार्याशतं राजन्सदृशीनामभूत्तदा ॥",
+          "meaning": {
+            "en": "Yudhishthira, there was a righteous king named Somaka. King, he had a hundred wives, all well matched to him."
+          }
         },
         {
           "n": 3,
-          "text": "स वै यत्नेन महता तासु पुत्रं महीपतिः ।\nकंचिन्नासादयामास कालेन महता अपि ॥"
+          "text": "स वै यत्नेन महता तासु पुत्रं महीपतिः ।\nकंचिन्नासादयामास कालेन महता अपि ॥",
+          "meaning": {
+            "en": "The king tried with great effort, but for a long time he found no son among them."
+          }
         },
         {
           "n": 4,
-          "text": "कदाचित्तस्य वृद्धस्य यतमानस्य यत्नतः ।\nजन्तुर्नाम सुतस्तस्मिन्स्त्रीशते समजायत ॥"
+          "text": "कदाचित्तस्य वृद्धस्य यतमानस्य यत्नतः ।\nजन्तुर्नाम सुतस्तस्मिन्स्त्रीशते समजायत ॥",
+          "meaning": {
+            "en": "Once, when he was old and striving hard, a son named Jantu was born to him among those hundred women."
+          }
         },
         {
           "n": 5,
-          "text": "तं जातं मातरः सर्वाः परिवार्य समासते ।\nसततं पृष्ठतः कृत्वा कामभोगान्विशां पते ॥"
+          "text": "तं जातं मातरः सर्वाः परिवार्य समासते ।\nसततं पृष्ठतः कृत्वा कामभोगान्विशां पते ॥",
+          "meaning": {
+            "en": "When he was born, all the mothers sat around him constantly, lord of the people, setting aside their pleasures and enjoyments."
+          }
         },
         {
           "n": 6,
-          "text": "ततः पिपीलिका जन्तुं कदाचिददशत्स्फिजि ।\nस दष्टो व्यनदद्राजंस्तेन दुःखेन बालकः ॥"
+          "text": "ततः पिपीलिका जन्तुं कदाचिददशत्स्फिजि ।\nस दष्टो व्यनदद्राजंस्तेन दुःखेन बालकः ॥",
+          "meaning": {
+            "en": "Once an ant bit Jantu on the buttock. Bitten, the boy cried out in pain, king."
+          }
         },
         {
           "n": 7,
-          "text": "ततस्ता मातरः सर्वाः प्राक्रोशन्भृशदुःखिताः ।\nपरिवार्य जन्तुं सहिताः स शब्दस्तुमुलोऽभवत् ॥"
+          "text": "ततस्ता मातरः सर्वाः प्राक्रोशन्भृशदुःखिताः ।\nपरिवार्य जन्तुं सहिताः स शब्दस्तुमुलोऽभवत् ॥",
+          "meaning": {
+            "en": "Then all the mothers, in great distress, cried out, gathering around Jantu, and the noise was tumultuous."
+          }
         },
         {
           "n": 8,
-          "text": "तमार्तनादं सहसा शुश्राव स महीपतिः ।\nअमात्यपरिषन्मध्ये उपविष्टः सहर्त्विजैः ॥"
+          "text": "तमार्तनादं सहसा शुश्राव स महीपतिः ।\nअमात्यपरिषन्मध्ये उपविष्टः सहर्त्विजैः ॥",
+          "meaning": {
+            "en": "The king suddenly heard that cry of distress as he sat among his council of ministers with his priests."
+          }
         },
         {
           "n": 9,
-          "text": "ततः प्रस्थापयामास किमेतदिति पार्थिवः ।\nतस्मै क्षत्ता यथावृत्तमाचचक्षे सुतं प्रति ॥"
+          "text": "ततः प्रस्थापयामास किमेतदिति पार्थिवः ।\nतस्मै क्षत्ता यथावृत्तमाचचक्षे सुतं प्रति ॥",
+          "meaning": {
+            "en": "Then the king sent word, asking what it was, and the chamberlain told him what had happened to the son."
+          }
         },
         {
           "n": 10,
-          "text": "त्वरमाणः स चोत्थाय सोमकः सह मन्त्रिभिः ।\nप्रविश्यान्तःपुरं पुत्रमाश्वासयदरिंदमः ॥"
+          "text": "त्वरमाणः स चोत्थाय सोमकः सह मन्त्रिभिः ।\nप्रविश्यान्तःपुरं पुत्रमाश्वासयदरिंदमः ॥",
+          "meaning": {
+            "en": "Hurrying, Somaka rose with his ministers, entered the inner quarters, and comforted his son, the subduer of foes."
+          }
         },
         {
           "n": 11,
-          "text": "सान्त्वयित्वा तु तं पुत्रं निष्क्रम्यान्तःपुरान्नृपः ।\nऋत्विजैः सहितो राजन्सहामात्य उपाविशत् ॥"
+          "text": "सान्त्वयित्वा तु तं पुत्रं निष्क्रम्यान्तःपुरान्नृपः ।\nऋत्विजैः सहितो राजन्सहामात्य उपाविशत् ॥",
+          "meaning": {
+            "en": "When he had calmed the boy, the king left the inner quarters and sat down with the priests and ministers."
+          }
         },
         {
-          "text": "सोमक उवाच"
+          "text": "सोमक उवाच",
+          "meaning": {
+            "en": "Somaka said:"
+          }
         },
         {
           "n": 12,
-          "text": "धिगस्त्विहैकपुत्रत्वमपुत्रत्वं वरं भवेत् ।\nनित्यातुरत्वाद्भूतानां शोक एवैकपुत्रता ॥"
+          "text": "धिगस्त्विहैकपुत्रत्वमपुत्रत्वं वरं भवेत् ।\nनित्यातुरत्वाद्भूतानां शोक एवैकपुत्रता ॥",
+          "meaning": {
+            "en": "Shame on having only one son! It would be better to have none. Because creatures are always subject to affliction, having a single son is only sorrow."
+          }
         },
         {
           "n": 13,
-          "text": "इदं भार्याशतं ब्रह्मन्परीक्ष्योपचितं प्रभो ।\nपुत्रार्थिना मया वोढं न चासां विद्यते प्रजा ॥"
+          "text": "इदं भार्याशतं ब्रह्मन्परीक्ष्योपचितं प्रभो ।\nपुत्रार्थिना मया वोढं न चासां विद्यते प्रजा ॥",
+          "meaning": {
+            "en": "Brahmin, lord, I married these hundred wives after careful examination, wanting a son, and they have no children."
+          }
         },
         {
           "n": 14,
-          "text": "एकः कथंचिदुत्पन्नः पुत्रो जन्तुरयं मम ।\nयतमानस्य सर्वासु किं नु दुःखमतः परम् ॥"
+          "text": "एकः कथंचिदुत्पन्नः पुत्रो जन्तुरयं मम ।\nयतमानस्य सर्वासु किं नु दुःखमतः परम् ॥",
+          "meaning": {
+            "en": "Somehow this one son, Jantu, was born to me while I strove with all of them. What greater sorrow is there?"
+          }
         },
         {
           "n": 15,
-          "text": "वयश्च समतीतं मे सभार्यस्य द्विजोत्तम ।\nआसां प्राणाः समायत्ता मम चात्रैकपुत्रके ॥"
+          "text": "वयश्च समतीतं मे सभार्यस्य द्विजोत्तम ।\nआसां प्राणाः समायत्ता मम चात्रैकपुत्रके ॥",
+          "meaning": {
+            "en": "Best of brahmins, my years and my wife's have gone by. The lives of these women depend on me, and mine on this single son."
+          }
         },
         {
           "n": 16,
-          "text": "स्यान्नु कर्म तथा युक्तं येन पुत्रशतं भवेत् ।\nमहता लघुना वापि कर्मणा दुष्करेण वा ॥"
+          "text": "स्यान्नु कर्म तथा युक्तं येन पुत्रशतं भवेत् ।\nमहता लघुना वापि कर्मणा दुष्करेण वा ॥",
+          "meaning": {
+            "en": "Is there any rite by which I could have a hundred sons, whether by a great or a light rite, or a hard one?"
+          }
         },
         {
-          "text": "ऋत्विगुवाच"
+          "text": "ऋत्विगुवाच",
+          "meaning": {
+            "en": "The priest said:"
+          }
         },
         {
           "n": 17,
-          "text": "अस्ति वै तादृशं कर्म येन पुत्रशतं भवेत् ।\nयदि शक्नोषि तत्कर्तुमथ वक्ष्यामि सोमक ॥"
+          "text": "अस्ति वै तादृशं कर्म येन पुत्रशतं भवेत् ।\nयदि शक्नोषि तत्कर्तुमथ वक्ष्यामि सोमक ॥",
+          "meaning": {
+            "en": "Somaka, there is such a rite, by which you would have a hundred sons. If you can perform it, I will tell you."
+          }
         },
         {
-          "text": "सोमक उवाच"
+          "text": "सोमक उवाच",
+          "meaning": {
+            "en": "Somaka said:"
+          }
         },
         {
           "n": 18,
-          "text": "कार्यं वा यदि वाकार्यं येन पुत्रशतं भवेत् ।\nकृतमेव हि तद्विद्धि भगवान्प्रब्रवीतु मे ॥"
+          "text": "कार्यं वा यदि वाकार्यं येन पुत्रशतं भवेत् ।\nकृतमेव हि तद्विद्धि भगवान्प्रब्रवीतु मे ॥",
+          "meaning": {
+            "en": "Whether it should be done or not done, if it brings a hundred sons, consider it done. Let the holy one tell me."
+          }
         },
         {
-          "text": "ऋत्विगुवाच"
+          "text": "ऋत्विगुवाच",
+          "meaning": {
+            "en": "The priest said:"
+          }
         },
         {
           "n": 19,
-          "text": "यजस्व जन्तुना राजंस्त्वं मया वितते क्रतौ ।\nततः पुत्रशतं श्रीमद्भविष्यत्यचिरेण ते ॥"
+          "text": "यजस्व जन्तुना राजंस्त्वं मया वितते क्रतौ ।\nततः पुत्रशतं श्रीमद्भविष्यत्यचिरेण ते ॥",
+          "meaning": {
+            "en": "King, in the sacrifice I shall spread out, you must offer Jantu. Then you will soon have a hundred splendid sons."
+          }
         },
         {
           "n": 20,
-          "text": "वपायां हूयमानायां धूममाघ्राय मातरः ।\nततस्ताः सुमहावीर्याञ्जनयिष्यन्ति ते सुतान् ॥"
+          "text": "वपायां हूयमानायां धूममाघ्राय मातरः ।\nततस्ताः सुमहावीर्याञ्जनयिष्यन्ति ते सुतान् ॥",
+          "meaning": {
+            "en": "When the fat is offered, the mothers will smell its smoke, and they will bear you very mighty sons."
+          }
         },
         {
           "n": 21,
-          "text": "तस्यामेव तु ते जन्तुर्भविता पुनरात्मजः ।\nउत्तरे चास्य सौवर्णं लक्ष्म पार्श्वे भविष्यति ॥"
+          "text": "तस्यामेव तु ते जन्तुर्भविता पुनरात्मजः ।\nउत्तरे चास्य सौवर्णं लक्ष्म पार्श्वे भविष्यति ॥",
+          "meaning": {
+            "en": "In the very same woman Jantu will be born again as your son, and on his left side there will be a golden mark."
+          }
         }
       ]
     }

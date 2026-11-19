@@ -22,58 +22,100 @@
       "titleEn": "Indralokabhigamana Parva (Journey to Indra's world)",
       "verses": [
         {
-          "text": "जनमेजय उवाच"
+          "text": "जनमेजय उवाच",
+          "meaning": {
+            "en": "Janamejaya said:"
+          }
         },
         {
           "n": 1,
-          "text": "यदिदं शोचितं राज्ञा धृतराष्ट्रेण वै मुने ।\nप्रव्राज्य पाण्डवान्वीरान्सर्वमेतन्निरर्थकम् ॥"
+          "text": "यदिदं शोचितं राज्ञा धृतराष्ट्रेण वै मुने ।\nप्रव्राज्य पाण्डवान्वीरान्सर्वमेतन्निरर्थकम् ॥",
+          "meaning": {
+            "en": "Sage, all this grieving by King Dhritarashtra is pointless, since he exiled the heroic Pandavas."
+          }
         },
         {
           "n": 2,
-          "text": "कथं हि राजा पुत्रं स्वमुपेक्षेताल्पचेतसम् ।\nदुर्योधनं पाण्डुपुत्रान्कोपयानं महारथान् ॥"
+          "text": "कथं हि राजा पुत्रं स्वमुपेक्षेताल्पचेतसम् ।\nदुर्योधनं पाण्डुपुत्रान्कोपयानं महारथान् ॥",
+          "meaning": {
+            "en": "How could the king ignore his own foolish son Duryodhana, who was provoking the mighty Pandava chariot-warriors?"
+          }
         },
         {
           "n": 3,
-          "text": "किमासीत्पाण्डुपुत्राणां वने भोजनमुच्यताम् ।\nवानेयमथ वा कृष्टमेतदाख्यातु मे भवान् ॥"
+          "text": "किमासीत्पाण्डुपुत्राणां वने भोजनमुच्यताम् ।\nवानेयमथ वा कृष्टमेतदाख्यातु मे भवान् ॥",
+          "meaning": {
+            "en": "Tell me what the sons of Pandu ate in the forest: wild food or cultivated grain."
+          }
         },
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 4,
-          "text": "वानेयं च मृगांश्चैव शुद्धैर्बाणैर्निपातितान् ।\nब्राह्मणानां निवेद्याग्रमभुञ्जन्पुरुषर्षभाः ॥"
+          "text": "वानेयं च मृगांश्चैव शुद्धैर्बाणैर्निपातितान् ।\nब्राह्मणानां निवेद्याग्रमभुञ्जन्पुरुषर्षभाः ॥",
+          "meaning": {
+            "en": "Those bulls among men ate forest produce and deer brought down with clean arrows, first offering it to the brahmins."
+          }
         },
         {
           "n": 5,
-          "text": "तांस्तु शूरान्महेष्वासांस्तदा निवसतो वने ।\nअन्वयुर्ब्राह्मणा राजन्साग्नयोऽनग्नयस्तथा ॥"
+          "text": "तांस्तु शूरान्महेष्वासांस्तदा निवसतो वने ।\nअन्वयुर्ब्राह्मणा राजन्साग्नयोऽनग्नयस्तथा ॥",
+          "meaning": {
+            "en": "O king, as those brave great archers lived in the forest, brahmins followed them, some keeping sacred fires and some not."
+          }
         },
         {
           "n": 6,
-          "text": "ब्राह्मणानां सहस्राणि स्नातकानां महात्मनाम् ।\nदश मोक्षविदां तद्वद्यान्बिभर्ति युधिष्ठिरः ॥"
+          "text": "ब्राह्मणानां सहस्राणि स्नातकानां महात्मनाम् ।\nदश मोक्षविदां तद्वद्यान्बिभर्ति युधिष्ठिरः ॥",
+          "meaning": {
+            "en": "Yudhishthira supported ten thousand great-souled brahmin graduates who knew the way to liberation."
+          }
         },
         {
           "n": 7,
-          "text": "रुरून्कृष्णमृगांश्चैव मेध्यांश्चान्यान्वनेचरान् ।\nबाणैरुन्मथ्य विधिवद्ब्राह्मणेभ्यो न्यवेदयत् ॥"
+          "text": "रुरून्कृष्णमृगांश्चैव मेध्यांश्चान्यान्वनेचरान् ।\nबाणैरुन्मथ्य विधिवद्ब्राह्मणेभ्यो न्यवेदयत् ॥",
+          "meaning": {
+            "en": "He would bring down ruru deer, black antelope and other pure forest animals with arrows and give them to the brahmins as the rule prescribes."
+          }
         },
         {
           "n": 8,
-          "text": "न तत्र कश्चिद्दुर्वर्णो व्याधितो वाप्यदृश्यत ।\nकृशो वा दुर्बलो वापि दीनो भीतोऽपि वा नरः ॥"
+          "text": "न तत्र कश्चिद्दुर्वर्णो व्याधितो वाप्यदृश्यत ।\nकृशो वा दुर्बलो वापि दीनो भीतोऽपि वा नरः ॥",
+          "meaning": {
+            "en": "No one there was seen discolored, sick, thin, weak, wretched or afraid."
+          }
         },
         {
           "n": 9,
-          "text": "पुत्रानिव प्रियाञ्ज्ञातीन्भ्रातॄनिव सहोदरान् ।\nपुपोष कौरवश्रेष्ठो धर्मराजो युधिष्ठिरः ॥"
+          "text": "पुत्रानिव प्रियाञ्ज्ञातीन्भ्रातॄनिव सहोदरान् ।\nपुपोष कौरवश्रेष्ठो धर्मराजो युधिष्ठिरः ॥",
+          "meaning": {
+            "en": "Yudhishthira, the king of dharma and best of the Kurus, nurtured them like beloved sons, kinsmen and brothers of the same womb."
+          }
         },
         {
           "n": 10,
-          "text": "पतींश्च द्रौपदी सर्वान्द्विजांश्चैव यशस्विनी ।\nमातेव भोजयित्वाग्रे शिष्टमाहारयत्तदा ॥"
+          "text": "पतींश्च द्रौपदी सर्वान्द्विजांश्चैव यशस्विनी ।\nमातेव भोजयित्वाग्रे शिष्टमाहारयत्तदा ॥",
+          "meaning": {
+            "en": "Glorious Draupadi fed her husbands and the brahmins first, like a mother, and ate only what remained."
+          }
         },
         {
           "n": 11,
-          "text": "प्राचीं राजा दक्षिणां भीमसेनो\nयमौ प्रतीचीमथ वाप्युदीचीम् ।\nधनुर्धरा मांसहेतोर्मृगाणां\nक्षयं चक्रुर्नित्यमेवोपगम्य ॥"
+          "text": "प्राचीं राजा दक्षिणां भीमसेनो\nयमौ प्रतीचीमथ वाप्युदीचीम् ।\nधनुर्धरा मांसहेतोर्मृगाणां\nक्षयं चक्रुर्नित्यमेवोपगम्य ॥",
+          "meaning": {
+            "en": "The king went to the east, Bhimasena to the south, the twins to the west and north; bowmen all, they daily went out and hunted deer for meat."
+          }
         },
         {
           "n": 12,
-          "text": "तथा तेषां वसतां काम्यके वै\nविहीनानामर्जुनेनोत्सुकानाम् ।\nपञ्चैव वर्षाणि तदा व्यतीयु-\nरधीयतां जपतां जुह्वतां च ॥"
+          "text": "तथा तेषां वसतां काम्यके वै\nविहीनानामर्जुनेनोत्सुकानाम् ।\nपञ्चैव वर्षाणि तदा व्यतीयु-\nरधीयतां जपतां जुह्वतां च ॥",
+          "meaning": {
+            "en": "So, while they lived in Kamyaka, longing for Arjuna in his absence, five years passed, spent in study, prayer and offerings."
+          }
         }
       ]
     }

@@ -22,75 +22,129 @@
       "titleEn": "Kairata Parva (The mountain hunter)",
       "verses": [
         {
-          "text": "वासुदेव उवाच"
+          "text": "वासुदेव उवाच",
+          "meaning": {
+            "en": "Vasudeva said:"
+          }
         },
         {
           "n": 1,
-          "text": "नेदं कृच्छ्रमनुप्राप्तो भवान्स्याद्वसुधाधिप ।\nयद्यहं द्वारकायां स्यां राजन्संनिहितः पुरा ॥"
+          "text": "नेदं कृच्छ्रमनुप्राप्तो भवान्स्याद्वसुधाधिप ।\nयद्यहं द्वारकायां स्यां राजन्संनिहितः पुरा ॥",
+          "meaning": {
+            "en": "King, you would not have fallen into this hardship if I had been near at hand in Dvaraka, lord of the earth."
+          }
         },
         {
           "n": 2,
-          "text": "आगच्छेयमहं द्यूतमनाहूतोऽपि कौरवैः ।\nआम्बिकेयेन दुर्धर्ष राज्ञा दुर्योधनेन च ॥"
+          "text": "आगच्छेयमहं द्यूतमनाहूतोऽपि कौरवैः ।\nआम्बिकेयेन दुर्धर्ष राज्ञा दुर्योधनेन च ॥",
+          "meaning": {
+            "en": "Even uninvited by the Kauravas, by Ambika's son or by King Duryodhana, I would have come to the dice game, invincible one."
+          }
         },
         {
           "n": 3,
-          "text": "वारयेयमहं द्यूतं बहून्दोषान्प्रदर्शयन् ।\nभीष्मद्रोणौ समानाय्य कृपं बाह्लीकमेव च ॥"
+          "text": "वारयेयमहं द्यूतं बहून्दोषान्प्रदर्शयन् ।\nभीष्मद्रोणौ समानाय्य कृपं बाह्लीकमेव च ॥",
+          "meaning": {
+            "en": "I would have stopped the game, pointing out its many faults, bringing together Bhishma, Drona, Kripa and Bahlika."
+          }
         },
         {
           "n": 4,
-          "text": "वैचित्रवीर्यं राजानमलं द्यूतेन कौरव ।\nपुत्राणां तव राजेन्द्र त्वन्निमित्तमिति प्रभो ॥"
+          "text": "वैचित्रवीर्यं राजानमलं द्यूतेन कौरव ।\nपुत्राणां तव राजेन्द्र त्वन्निमित्तमिति प्रभो ॥",
+          "meaning": {
+            "en": "Descendant of Kuru, I would have told Vichitravirya's son, the king: \"Enough of gambling, for the sake of your sons and for yours, lord.\""
+          }
         },
         {
           "n": 5,
-          "text": "तत्र वक्ष्याम्यहं दोषान्यैर्भवानवरोपितः ।\nवीरसेनसुतो यैश्च राज्यात्प्रभ्रंशितः पुरा ॥"
+          "text": "तत्र वक्ष्याम्यहं दोषान्यैर्भवानवरोपितः ।\nवीरसेनसुतो यैश्च राज्यात्प्रभ्रंशितः पुरा ॥",
+          "meaning": {
+            "en": "There I would have described the faults by which you have been brought low, and by which Virasena's son Nala was once driven from his kingdom."
+          }
         },
         {
           "n": 6,
-          "text": "अभक्षितविनाशं च देवनेन विशां पते ।\nसातत्यं च प्रसङ्गस्य वर्णयेयं यथातथम् ॥"
+          "text": "अभक्षितविनाशं च देवनेन विशां पते ।\nसातत्यं च प्रसङ्गस्य वर्णयेयं यथातथम् ॥",
+          "meaning": {
+            "en": "Lord of men, I would have described accurately the ruin without enjoyment that comes from gaming, and the endless compulsion it creates."
+          }
         },
         {
           "n": 7,
-          "text": "स्त्रियोऽक्षा मृगया पानमेतत्कामसमुत्थितम् ।\nव्यसनं चतुष्टयं प्रोक्तं यै राजन्भ्रश्यते श्रियः ॥"
+          "text": "स्त्रियोऽक्षा मृगया पानमेतत्कामसमुत्थितम् ।\nव्यसनं चतुष्टयं प्रोक्तं यै राजन्भ्रश्यते श्रियः ॥",
+          "meaning": {
+            "en": "Women, dice, hunting and drink: these four vices, born of desire, are said to be those by which a king loses his fortune."
+          }
         },
         {
           "n": 8,
-          "text": "तत्र सर्वत्र वक्तव्यं मन्यन्ते शास्त्रकोविदाः ।\nविशेषतश्च वक्तव्यं द्यूते पश्यन्ति तद्विदः ॥"
+          "text": "तत्र सर्वत्र वक्तव्यं मन्यन्ते शास्त्रकोविदाः ।\nविशेषतश्च वक्तव्यं द्यूते पश्यन्ति तद्विदः ॥",
+          "meaning": {
+            "en": "Experts in the scriptures hold that one should speak against all of them, and those who know say that one must speak especially against gambling."
+          }
         },
         {
           "n": 9,
-          "text": "एकाह्ना द्रव्यनाशोऽत्र ध्रुवं व्यसनमेव च ।\nअभुक्तनाशश्चार्थानां वाक्पारुष्यं च केवलम् ॥"
+          "text": "एकाह्ना द्रव्यनाशोऽत्र ध्रुवं व्यसनमेव च ।\nअभुक्तनाशश्चार्थानां वाक्पारुष्यं च केवलम् ॥",
+          "meaning": {
+            "en": "In one day it brings certain loss of wealth and calamity, loss of what was never enjoyed, and nothing but harsh speech."
+          }
         },
         {
           "n": 10,
-          "text": "एतच्चान्यच्च कौरव्य प्रसङ्गि कटुकोदयम् ।\nद्यूते ब्रूयां महाबाहो समासाद्याम्बिकासुतम् ॥"
+          "text": "एतच्चान्यच्च कौरव्य प्रसङ्गि कटुकोदयम् ।\nद्यूते ब्रूयां महाबाहो समासाद्याम्बिकासुतम् ॥",
+          "meaning": {
+            "en": "Mighty-armed one, these and other bitter results of the habit I would have set out before Ambika's son on the subject of gambling."
+          }
         },
         {
           "n": 11,
-          "text": "एवमुक्तो यदि मया गृह्णीयाद्वचनं मम ।\nअनामयं स्याद्धर्मस्य कुरूणां कुरुनन्दन ॥"
+          "text": "एवमुक्तो यदि मया गृह्णीयाद्वचनं मम ।\nअनामयं स्याद्धर्मस्य कुरूणां कुरुनन्दन ॥",
+          "meaning": {
+            "en": "Spoken to thus by me, if he had taken my advice, dharma would have remained unharmed and the Kurus too, joy of the Kurus."
+          }
         },
         {
           "n": 12,
-          "text": "न चेत्स मम राजेन्द्र गृह्णीयान्मधुरं वचः ।\nपथ्यं च भरतश्रेष्ठ निगृह्णीयां बलेन तम् ॥"
+          "text": "न चेत्स मम राजेन्द्र गृह्णीयान्मधुरं वचः ।\nपथ्यं च भरतश्रेष्ठ निगृह्णीयां बलेन तम् ॥",
+          "meaning": {
+            "en": "If, king, he would not accept my sweet and wholesome words, best of the Bharatas, I would have restrained him by force."
+          }
         },
         {
           "n": 13,
-          "text": "अथैनानभिनीयैवं सुहृदो नाम दुर्हृदः ।\nसभासदश्च तान्सर्वान्भेदयेयं दुरोदरान् ॥"
+          "text": "अथैनानभिनीयैवं सुहृदो नाम दुर्हृदः ।\nसभासदश्च तान्सर्वान्भेदयेयं दुरोदरान् ॥",
+          "meaning": {
+            "en": "And bringing to account those who are called friends but are enemies, those gamblers who attend the assembly, I would have divided them all."
+          }
         },
         {
           "n": 14,
-          "text": "असांनिध्यं तु कौरव्य ममानर्तेष्वभूत्तदा ।\nयेनेदं व्यसनं प्राप्ता भवन्तो द्यूतकारितम् ॥"
+          "text": "असांनिध्यं तु कौरव्य ममानर्तेष्वभूत्तदा ।\nयेनेदं व्यसनं प्राप्ता भवन्तो द्यूतकारितम् ॥",
+          "meaning": {
+            "en": "Descendant of Kuru, I was absent then among the Anartas, and that is why you have fallen into this disaster brought about by dice."
+          }
         },
         {
           "n": 15,
-          "text": "सोऽहमेत्य कुरुश्रेष्ठ द्वारकां पाण्डुनन्दन ।\nअश्रौषं त्वां व्यसनिनं युयुधानाद्यथातथम् ॥"
+          "text": "सोऽहमेत्य कुरुश्रेष्ठ द्वारकां पाण्डुनन्दन ।\nअश्रौषं त्वां व्यसनिनं युयुधानाद्यथातथम् ॥",
+          "meaning": {
+            "en": "Coming back to Dvaraka, best of the Kurus, son of Pandu, I heard of you in distress from Yuyudhana, just as it happened."
+          }
         },
         {
           "n": 16,
-          "text": "श्रुत्वैव चाहं राजेन्द्र परमोद्विग्नमानसः ।\nतूर्णमभ्यागतोऽस्मि त्वां द्रष्टुकामो विशां पते ॥"
+          "text": "श्रुत्वैव चाहं राजेन्द्र परमोद्विग्नमानसः ।\nतूर्णमभ्यागतोऽस्मि त्वां द्रष्टुकामो विशां पते ॥",
+          "meaning": {
+            "en": "As soon as I heard, king, my mind was deeply troubled, and I came quickly, wishing to see you, lord of men."
+          }
         },
         {
           "n": 17,
-          "text": "अहो कृच्छ्रमनुप्राप्ताः सर्वे स्म भरतर्षभ ।\nये वयं त्वां व्यसनिनं पश्यामः सह सोदरैः ॥"
+          "text": "अहो कृच्छ्रमनुप्राप्ताः सर्वे स्म भरतर्षभ ।\nये वयं त्वां व्यसनिनं पश्यामः सह सोदरैः ॥",
+          "meaning": {
+            "en": "Alas, bull of the Bharatas, we have all fallen into hardship, since we see you in distress with your brothers."
+          }
         }
       ]
     }

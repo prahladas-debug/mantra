@@ -22,98 +22,170 @@
       "titleEn": "Tirthayatra Parva (The pilgrimage)",
       "verses": [
         {
-          "text": "युधिष्ठिर उवाच"
+          "text": "युधिष्ठिर उवाच",
+          "meaning": {
+            "en": "Yudhishthira said:"
+          }
         },
         {
           "n": 1,
-          "text": "न वै निर्गुणमात्मानं मन्ये देवर्षिसत्तम ।\nतथास्मि दुःखसंतप्तो यथा नान्यो महीपतिः ॥"
+          "text": "न वै निर्गुणमात्मानं मन्ये देवर्षिसत्तम ।\nतथास्मि दुःखसंतप्तो यथा नान्यो महीपतिः ॥",
+          "meaning": {
+            "en": "Best of divine sages, I do not think myself without good qualities, yet I am tormented by grief as no other king is."
+          }
         },
         {
           "n": 2,
-          "text": "परांश्च निर्गुणान्मन्ये न च धर्मरतानपि ।\nते च लोमश लोकेऽस्मिन्नृध्यन्ते केन केतुना ॥"
+          "text": "परांश्च निर्गुणान्मन्ये न च धर्मरतानपि ।\nते च लोमश लोकेऽस्मिन्नृध्यन्ते केन केतुना ॥",
+          "meaning": {
+            "en": "And I think my enemies lack good qualities and are not devoted to dharma, Lomasha. By what banner, then, do they prosper in this world?"
+          }
         },
         {
-          "text": "लोमश उवाच"
+          "text": "लोमश उवाच",
+          "meaning": {
+            "en": "Lomasha said:"
+          }
         },
         {
           "n": 3,
-          "text": "नात्र दुःखं त्वया राजन्कार्यं पार्थ कथंचन ।\nयदधर्मेण वर्धेरन्नधर्मरुचयो जनाः ॥"
+          "text": "नात्र दुःखं त्वया राजन्कार्यं पार्थ कथंचन ।\nयदधर्मेण वर्धेरन्नधर्मरुचयो जनाः ॥",
+          "meaning": {
+            "en": "Son of Pritha, you should never grieve, king, that people fond of adharma grow strong through adharma."
+          }
         },
         {
           "n": 4,
-          "text": "वर्धत्यधर्मेण नरस्ततो भद्राणि पश्यति ।\nततः सपत्नाञ्जयति समूलस्तु विनश्यति ॥"
+          "text": "वर्धत्यधर्मेण नरस्ततो भद्राणि पश्यति ।\nततः सपत्नाञ्जयति समूलस्तु विनश्यति ॥",
+          "meaning": {
+            "en": "A man grows through adharma and sees good fortune, then conquers his rivals, but is destroyed in the end, root and all."
+          }
         },
         {
           "n": 5,
-          "text": "मया हि दृष्टा दैतेया दानवाश्च महीपते ।\nवर्धमाना ह्यधर्मेण क्षयं चोपगताः पुनः ॥"
+          "text": "मया हि दृष्टा दैतेया दानवाश्च महीपते ।\nवर्धमाना ह्यधर्मेण क्षयं चोपगताः पुनः ॥",
+          "meaning": {
+            "en": "I have seen, lord of the earth, the Daityas and Danavas grow through adharma and then come to ruin again."
+          }
         },
         {
           "n": 6,
-          "text": "पुरा देवयुगे चैव दृष्टं सर्वं मया विभो ।\nअरोचयन्सुरा धर्मं धर्मं तत्यजिरेऽसुराः ॥"
+          "text": "पुरा देवयुगे चैव दृष्टं सर्वं मया विभो ।\nअरोचयन्सुरा धर्मं धर्मं तत्यजिरेऽसुराः ॥",
+          "meaning": {
+            "en": "Long ago, in the age of the gods, I saw it all, lord: the gods loved dharma and the asuras abandoned dharma."
+          }
         },
         {
           "n": 7,
-          "text": "तीर्थानि देवा विविशुर्नाविशन्भारतासुराः ।\nतानधर्मकृतो दर्पः पूर्वमेव समाविशत् ॥"
+          "text": "तीर्थानि देवा विविशुर्नाविशन्भारतासुराः ।\nतानधर्मकृतो दर्पः पूर्वमेव समाविशत् ॥",
+          "meaning": {
+            "en": "The gods entered the holy fords; the asuras, Bharata, did not. Pride had overtaken those doers of adharma from the first."
+          }
         },
         {
           "n": 8,
-          "text": "दर्पान्मानः समभवन्मानात्क्रोधो व्यजायत ।\nक्रोधादह्रीस्ततोऽलज्जा वृत्तं तेषां ततोऽनशत् ॥"
+          "text": "दर्पान्मानः समभवन्मानात्क्रोधो व्यजायत ।\nक्रोधादह्रीस्ततोऽलज्जा वृत्तं तेषां ततोऽनशत् ॥",
+          "meaning": {
+            "en": "From pride came arrogance, from arrogance anger was born, from anger shamelessness, then lack of modesty, and their good conduct was lost."
+          }
         },
         {
           "n": 9,
-          "text": "तानलज्जान्गतह्रीकान्हीनवृत्तान्वृथाव्रतान् ।\nक्षमा लक्ष्मीश्च धर्मश्च नचिरात्प्रजहुस्ततः ।\nलक्ष्मीस्तु देवानगमदलक्ष्मीरसुरान्नृप ॥"
+          "text": "तानलज्जान्गतह्रीकान्हीनवृत्तान्वृथाव्रतान् ।\nक्षमा लक्ष्मीश्च धर्मश्च नचिरात्प्रजहुस्ततः ।\nलक्ष्मीस्तु देवानगमदलक्ष्मीरसुरान्नृप ॥",
+          "meaning": {
+            "en": "Those shameless, modesty-less, ill-conducted ones with empty vows were soon left by forbearance, prosperity and dharma. Prosperity went to the gods, king, and misfortune to the asuras."
+          }
         },
         {
           "n": 10,
-          "text": "तानलक्ष्मीसमाविष्टान्दर्पोपहतचेतसः ।\nदैतेयान्दानवांश्चैव कलिरप्याविशत्ततः ॥"
+          "text": "तानलक्ष्मीसमाविष्टान्दर्पोपहतचेतसः ।\nदैतेयान्दानवांश्चैव कलिरप्याविशत्ततः ॥",
+          "meaning": {
+            "en": "Then Kali too entered those Daityas and Danavas, possessed by misfortune and their minds ruined by pride."
+          }
         },
         {
           "n": 11,
-          "text": "तानलक्ष्मीसमाविष्टान्दानवान्कलिना तथा ।\nदर्पाभिभूतान्कौन्तेय क्रियाहीनानचेतसः ॥"
+          "text": "तानलक्ष्मीसमाविष्टान्दानवान्कलिना तथा ।\nदर्पाभिभूतान्कौन्तेय क्रियाहीनानचेतसः ॥",
+          "meaning": {
+            "en": "Son of Kunti, the Danavas, possessed by misfortune and Kali, overcome by pride, without proper action and without sense, were soon overcome by arrogance and met destruction."
+          }
         },
         {
           "n": 12,
-          "text": "मानाभिभूतानचिराद्विनाशः प्रत्यपद्यत ।\nनिर्यशस्यास्ततो दैत्याः कृत्स्नशो विलयं गताः ॥"
+          "text": "मानाभिभूतानचिराद्विनाशः प्रत्यपद्यत ।\nनिर्यशस्यास्ततो दैत्याः कृत्स्नशो विलयं गताः ॥",
+          "meaning": {
+            "en": "Soon the Daityas, deprived of glory, passed away entirely."
+          }
         },
         {
           "n": 13,
-          "text": "देवास्तु सागरांश्चैव सरितश्च सरांसि च ।\nअभ्यगच्छन्धर्मशीलाः पुण्यान्यायतनानि च ॥"
+          "text": "देवास्तु सागरांश्चैव सरितश्च सरांसि च ।\nअभ्यगच्छन्धर्मशीलाः पुण्यान्यायतनानि च ॥",
+          "meaning": {
+            "en": "The gods, devoted to dharma, went to the oceans, rivers, lakes and holy shrines."
+          }
         },
         {
           "n": 14,
-          "text": "तपोभिः क्रतुभिर्दानैराशीर्वादैश्च पाण्डव ।\nप्रजहुः सर्वपापानि श्रेयश्च प्रतिपेदिरे ॥"
+          "text": "तपोभिः क्रतुभिर्दानैराशीर्वादैश्च पाण्डव ।\nप्रजहुः सर्वपापानि श्रेयश्च प्रतिपेदिरे ॥",
+          "meaning": {
+            "en": "Pandava, by austerities, sacrifices, gifts and blessings they threw off all sins and attained the highest good."
+          }
         },
         {
           "n": 15,
-          "text": "एवं हि दानवन्तश्च क्रियावन्तश्च सर्वशः ।\nतीर्थान्यगच्छन्विबुधास्तेनापुर्भूतिमुत्तमाम् ॥"
+          "text": "एवं हि दानवन्तश्च क्रियावन्तश्च सर्वशः ।\nतीर्थान्यगच्छन्विबुधास्तेनापुर्भूतिमुत्तमाम् ॥",
+          "meaning": {
+            "en": "Thus the gods, rich in gifts and in rites everywhere, went to the fords and so gained supreme prosperity."
+          }
         },
         {
           "n": 16,
-          "text": "तथा त्वमपि राजेन्द्र स्नात्वा तीर्थेषु सानुजः ।\nपुनर्वेत्स्यसि तां लक्ष्मीमेष पन्थाः सनातनः ॥"
+          "text": "तथा त्वमपि राजेन्द्र स्नात्वा तीर्थेषु सानुजः ।\nपुनर्वेत्स्यसि तां लक्ष्मीमेष पन्थाः सनातनः ॥",
+          "meaning": {
+            "en": "So you too, king of kings, bathing at the fords with your brothers, will regain that fortune. This is the eternal way."
+          }
         },
         {
           "n": 17,
-          "text": "यथैव हि नृगो राजा शिबिरौशीनरो यथा ।\nभगीरथो वसुमना गयः पूरुः पुरूरवाः ॥"
+          "text": "यथैव हि नृगो राजा शिबिरौशीनरो यथा ।\nभगीरथो वसुमना गयः पूरुः पुरूरवाः ॥",
+          "meaning": {
+            "en": "Just as King Nriga, Shibi son of Ushinara, Bhagiratha, Vasumanas, Gaya, Puru and Pururavas did,"
+          }
         },
         {
           "n": 18,
-          "text": "चरमाणास्तपो नित्यं स्पर्शनादम्भसश्च ते ।\nतीर्थाभिगमनात्पूता दर्शनाच्च महात्मनाम् ॥"
+          "text": "चरमाणास्तपो नित्यं स्पर्शनादम्भसश्च ते ।\nतीर्थाभिगमनात्पूता दर्शनाच्च महात्मनाम् ॥",
+          "meaning": {
+            "en": "ever practising austerity, purified by the touch of water, by going to the fords and by seeing great souls,"
+          }
         },
         {
           "n": 19,
-          "text": "अलभन्त यशः पुण्यं धनानि च विशां पते ।\nतथा त्वमपि राजेन्द्र लब्धासि विपुलां श्रियम् ॥"
+          "text": "अलभन्त यशः पुण्यं धनानि च विशां पते ।\nतथा त्वमपि राजेन्द्र लब्धासि विपुलां श्रियम् ॥",
+          "meaning": {
+            "en": "they won holy fame and wealth, lord of the people. So you too, king, will gain vast fortune."
+          }
         },
         {
           "n": 20,
-          "text": "यथा चेक्ष्वाकुरचरत्सपुत्रजनबान्धवः ।\nमुचुकुन्दोऽथ मान्धाता मरुत्तश्च महीपतिः ॥"
+          "text": "यथा चेक्ष्वाकुरचरत्सपुत्रजनबान्धवः ।\nमुचुकुन्दोऽथ मान्धाता मरुत्तश्च महीपतिः ॥",
+          "meaning": {
+            "en": "As Ikshvaku, with his sons, kinsmen and relatives, and Muchukunda, Mandhata and King Marutta did,"
+          }
         },
         {
           "n": 21,
-          "text": "कीर्तिं पुण्यामविन्दन्त यथा देवास्तपोबलात् ।\nदेवर्षयश्च कार्त्स्न्येन तथा त्वमपि वेत्स्यसे ॥"
+          "text": "कीर्तिं पुण्यामविन्दन्त यथा देवास्तपोबलात् ।\nदेवर्षयश्च कार्त्स्न्येन तथा त्वमपि वेत्स्यसे ॥",
+          "meaning": {
+            "en": "and as the gods and divine sages did by the power of austerity, and won holy fame, so will you also."
+          }
         },
         {
           "n": 22,
-          "text": "धार्तराष्ट्रास्तु दर्पेण मोहेन च वशीकृताः ।\nनचिराद्विनशिष्यन्ति दैत्या इव न संशयः ॥"
+          "text": "धार्तराष्ट्रास्तु दर्पेण मोहेन च वशीकृताः ।\nनचिराद्विनशिष्यन्ति दैत्या इव न संशयः ॥",
+          "meaning": {
+            "en": "But the sons of Dhritarashtra, mastered by pride and delusion, will soon perish like the Daityas, without doubt."
+          }
         }
       ]
     }

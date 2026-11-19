@@ -22,81 +22,141 @@
       "titleEn": "Tirthayatra Parva (The pilgrimage)",
       "verses": [
         {
-          "text": "देवा ऊचुः"
+          "text": "देवा ऊचुः",
+          "meaning": {
+            "en": "The gods said:"
+          }
         },
         {
           "n": 1,
-          "text": "इतः प्रदानाद्वर्तन्ते प्रजाः सर्वाश्चतुर्विधाः ।\nता भाविता भावयन्ति हव्यकव्यैर्दिवौकसः ॥"
+          "text": "इतः प्रदानाद्वर्तन्ते प्रजाः सर्वाश्चतुर्विधाः ।\nता भाविता भावयन्ति हव्यकव्यैर्दिवौकसः ॥",
+          "meaning": {
+            "en": "From your gifts all four kinds of creatures live; nourished by them, they in turn nourish the dwellers in heaven with offerings to gods and ancestors."
+          }
         },
         {
           "n": 2,
-          "text": "लोका ह्येवं वर्तयन्ति अन्योन्यं समुपाश्रिताः ।\nत्वत्प्रसादान्निरुद्विग्नास्त्वयैव परिरक्षिताः ॥"
+          "text": "लोका ह्येवं वर्तयन्ति अन्योन्यं समुपाश्रिताः ।\nत्वत्प्रसादान्निरुद्विग्नास्त्वयैव परिरक्षिताः ॥",
+          "meaning": {
+            "en": "So the worlds go on, depending on one another, free of anxiety by your grace and guarded by you."
+          }
         },
         {
           "n": 3,
-          "text": "इदं च समनुप्राप्तं लोकानां भयमुत्तमम् ।\nन च जानीम केनेमे रात्रौ वध्यन्ति ब्राह्मणाः ॥"
+          "text": "इदं च समनुप्राप्तं लोकानां भयमुत्तमम् ।\nन च जानीम केनेमे रात्रौ वध्यन्ति ब्राह्मणाः ॥",
+          "meaning": {
+            "en": "Now this great fear has come on the worlds, and we do not know by whom the brahmins are being killed at night."
+          }
         },
         {
           "n": 4,
-          "text": "क्षीणेषु च ब्राह्मणेषु पृथिवी क्षयमेष्यति ।\nततः पृथिव्यां क्षीणायां त्रिदिवं क्षयमेष्यति ॥"
+          "text": "क्षीणेषु च ब्राह्मणेषु पृथिवी क्षयमेष्यति ।\nततः पृथिव्यां क्षीणायां त्रिदिवं क्षयमेष्यति ॥",
+          "meaning": {
+            "en": "When brahmins are gone the earth will perish, and when the earth has perished heaven will perish too."
+          }
         },
         {
           "n": 5,
-          "text": "त्वत्प्रसादान्महाबाहो लोकाः सर्वे जगत्पते ।\nविनाशं नाधिगच्छेयुस्त्वया वै परिरक्षिताः ॥"
+          "text": "त्वत्प्रसादान्महाबाहो लोकाः सर्वे जगत्पते ।\nविनाशं नाधिगच्छेयुस्त्वया वै परिरक्षिताः ॥",
+          "meaning": {
+            "en": "Mighty-armed lord of the world, by your grace, guarded by you, may all the worlds not meet destruction."
+          }
         },
         {
-          "text": "विष्णुरुवाच"
+          "text": "विष्णुरुवाच",
+          "meaning": {
+            "en": "Vishnu said:"
+          }
         },
         {
           "n": 6,
-          "text": "विदितं मे सुराः सर्वं प्रजानां क्षयकारणम् ।\nभवतां चापि वक्ष्यामि शृणुध्वं विगतज्वराः ॥"
+          "text": "विदितं मे सुराः सर्वं प्रजानां क्षयकारणम् ।\nभवतां चापि वक्ष्यामि शृणुध्वं विगतज्वराः ॥",
+          "meaning": {
+            "en": "Gods, I know the whole cause of the destruction of creatures, and I will tell you; listen, free of anxiety."
+          }
         },
         {
           "n": 7,
-          "text": "कालेय इति विख्यातो गणः परमदारुणः ।\nतैश्च वृत्रं समाश्रित्य जगत्सर्वं प्रबाधितम् ॥"
+          "text": "कालेय इति विख्यातो गणः परमदारुणः ।\nतैश्च वृत्रं समाश्रित्य जगत्सर्वं प्रबाधितम् ॥",
+          "meaning": {
+            "en": "There is a most savage host known as the Kaleyas. Relying on Vritra, they afflicted the whole world."
+          }
         },
         {
           "n": 8,
-          "text": "ते वृत्रं निहतं दृष्ट्वा सहस्राक्षेण धीमता ।\nजीवितं परिरक्षन्तः प्रविष्टा वरुणालयम् ॥"
+          "text": "ते वृत्रं निहतं दृष्ट्वा सहस्राक्षेण धीमता ।\nजीवितं परिरक्षन्तः प्रविष्टा वरुणालयम् ॥",
+          "meaning": {
+            "en": "When they saw Vritra slain by the wise thousand-eyed Indra, they entered Varuna's abode to save their lives."
+          }
         },
         {
           "n": 9,
-          "text": "ते प्रविश्योदधिं घोरं नक्रग्राहसमाकुलम् ।\nउत्सादनार्थं लोकानां रात्रौ घ्नन्ति मुनीनिह ॥"
+          "text": "ते प्रविश्योदधिं घोरं नक्रग्राहसमाकुलम् ।\nउत्सादनार्थं लोकानां रात्रौ घ्नन्ति मुनीनिह ॥",
+          "meaning": {
+            "en": "Entering the fearful sea, thick with crocodiles and sharks, they kill sages here at night to ruin the worlds."
+          }
         },
         {
           "n": 10,
-          "text": "न तु शक्याः क्षयं नेतुं समुद्राश्रयगा हि ते ।\nसमुद्रस्य क्षये बुद्धिर्भवद्भिः संप्रधार्यताम् ।\nअगस्त्येन विना को हि शक्तोऽन्योऽर्णवशोषणे ॥"
+          "text": "न तु शक्याः क्षयं नेतुं समुद्राश्रयगा हि ते ।\nसमुद्रस्य क्षये बुद्धिर्भवद्भिः संप्रधार्यताम् ।\nअगस्त्येन विना को हि शक्तोऽन्योऽर्णवशोषणे ॥",
+          "meaning": {
+            "en": "They cannot be destroyed while they rely on the sea. So you must decide on drying up the sea; who but Agastya could drain the ocean?"
+          }
         },
         {
           "n": 11,
-          "text": "एतच्छ्रुत्वा वचो देवा विष्णुना समुदाहृतम् ।\nपरमेष्ठिनमाज्ञाप्य अगस्त्यस्याश्रमं ययुः ॥"
+          "text": "एतच्छ्रुत्वा वचो देवा विष्णुना समुदाहृतम् ।\nपरमेष्ठिनमाज्ञाप्य अगस्त्यस्याश्रमं ययुः ॥",
+          "meaning": {
+            "en": "Hearing these words spoken by Vishnu, the gods took leave of Brahma and went to Agastya's hermitage."
+          }
         },
         {
           "n": 12,
-          "text": "तत्रापश्यन्महात्मानं वारुणिं दीप्ततेजसम् ।\nउपास्यमानमृषिभिर्देवैरिव पितामहम् ॥"
+          "text": "तत्रापश्यन्महात्मानं वारुणिं दीप्ततेजसम् ।\nउपास्यमानमृषिभिर्देवैरिव पितामहम् ॥",
+          "meaning": {
+            "en": "There they saw the great-souled son of Varuna, blazing with energy, waited on by sages as Brahma is by the gods."
+          }
         },
         {
           "n": 13,
-          "text": "तेऽभिगम्य महात्मानं मैत्रावरुणिमच्युतम् ।\nआश्रमस्थं तपोराशिं कर्मभिः स्वैरभिष्टुवन् ॥"
+          "text": "तेऽभिगम्य महात्मानं मैत्रावरुणिमच्युतम् ।\nआश्रमस्थं तपोराशिं कर्मभिः स्वैरभिष्टुवन् ॥",
+          "meaning": {
+            "en": "Approaching that great-souled, unfallen son of Mitra and Varuna, a mass of austerity dwelling in his hermitage, they praised him for his own deeds."
+          }
         },
         {
-          "text": "देवा ऊचुः"
+          "text": "देवा ऊचुः",
+          "meaning": {
+            "en": "The gods said:"
+          }
         },
         {
           "n": 14,
-          "text": "नहुषेणाभितप्तानां त्वं लोकानां गतिः पुरा ।\nभ्रंशितश्च सुरैश्वर्याल्लोकार्थं लोककण्टकः ॥"
+          "text": "नहुषेणाभितप्तानां त्वं लोकानां गतिः पुरा ।\nभ्रंशितश्च सुरैश्वर्याल्लोकार्थं लोककण्टकः ॥",
+          "meaning": {
+            "en": "Long ago, when the worlds were tormented by Nahusha, you were their refuge, and for their sake you threw that thorn of the worlds down from his lordship over the gods."
+          }
         },
         {
           "n": 15,
-          "text": "क्रोधात्प्रवृद्धः सहसा भास्करस्य नगोत्तमः ।\nवचस्तवानतिक्रामन्विन्ध्यः शैलो न वर्धते ॥"
+          "text": "क्रोधात्प्रवृद्धः सहसा भास्करस्य नगोत्तमः ।\nवचस्तवानतिक्रामन्विन्ध्यः शैलो न वर्धते ॥",
+          "meaning": {
+            "en": "When the best of mountains suddenly swelled in anger at the sun, the Vindhya mountain, in obedience to your word, grows no more."
+          }
         },
         {
           "n": 16,
-          "text": "तमसा चावृते लोके मृत्युनाभ्यर्दिताः प्रजाः ।\nत्वामेव नाथमासाद्य निर्वृतिं परमां गताः ॥"
+          "text": "तमसा चावृते लोके मृत्युनाभ्यर्दिताः प्रजाः ।\nत्वामेव नाथमासाद्य निर्वृतिं परमां गताः ॥",
+          "meaning": {
+            "en": "When the world was covered in darkness and creatures were stricken by death, they found you as their lord and reached the highest peace."
+          }
         },
         {
           "n": 17,
-          "text": "अस्माकं भयभीतानां नित्यशो भगवान्गतिः ।\nततस्त्वार्ताः प्रयाचामस्त्वां वरं वरदो ह्यसि ॥"
+          "text": "अस्माकं भयभीतानां नित्यशो भगवान्गतिः ।\nततस्त्वार्ताः प्रयाचामस्त्वां वरं वरदो ह्यसि ॥",
+          "meaning": {
+            "en": "You are always the refuge of us frightened ones. So, afflicted, we beg a boon of you, for you are a giver of boons."
+          }
         }
       ]
     }

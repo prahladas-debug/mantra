@@ -22,110 +22,191 @@
       "titleEn": "Indralokabhigamana Parva (Journey to Indra's world)",
       "verses": [
         {
-          "text": "नल उवाच"
+          "text": "नल उवाच",
+          "meaning": {
+            "en": "Nala said:"
+          }
         },
         {
           "n": 1,
-          "text": "यथा राज्यं पितुस्ते तत्तथा मम न संशयः ।\nन तु तत्र गमिष्यामि विषमस्थः कथंचन ॥"
+          "text": "यथा राज्यं पितुस्ते तत्तथा मम न संशयः ।\nन तु तत्र गमिष्यामि विषमस्थः कथंचन ॥",
+          "meaning": {
+            "en": "Your father's kingdom is mine as much as yours, no doubt. But I will never go there in such misfortune."
+          }
         },
         {
           "n": 2,
-          "text": "कथं समृद्धो गत्वाहं तव हर्षविवर्धनः ।\nपरिद्यूनो गमिष्यामि तव शोकविवर्धनः ॥"
+          "text": "कथं समृद्धो गत्वाहं तव हर्षविवर्धनः ।\nपरिद्यूनो गमिष्यामि तव शोकविवर्धनः ॥",
+          "meaning": {
+            "en": "I once went there prosperous, adding to your joy; how can I go gambled away, adding to your sorrow?"
+          }
         },
         {
-          "text": "बृहदश्व उवाच"
+          "text": "बृहदश्व उवाच",
+          "meaning": {
+            "en": "Brihadashva said:"
+          }
         },
         {
           "n": 3,
-          "text": "इति ब्रुवन्नलो राजा दमयन्तीं पुनः पुनः ।\nसान्त्वयामास कल्याणीं वाससोऽर्धेन संवृताम् ॥"
+          "text": "इति ब्रुवन्नलो राजा दमयन्तीं पुनः पुनः ।\nसान्त्वयामास कल्याणीं वाससोऽर्धेन संवृताम् ॥",
+          "meaning": {
+            "en": "So King Nala spoke, again and again comforting the good lady, who was covered with half his cloth."
+          }
         },
         {
           "n": 4,
-          "text": "तावेकवस्त्रसंवीतावटमानावितस्ततः ।\nक्षुत्पिपासापरिश्रान्तौ सभां कांचिदुपेयतुः ॥"
+          "text": "तावेकवस्त्रसंवीतावटमानावितस्ततः ।\nक्षुत्पिपासापरिश्रान्तौ सभां कांचिदुपेयतुः ॥",
+          "meaning": {
+            "en": "Both wrapped in a single garment, wandering here and there, wearied by hunger and thirst, they came upon a certain shelter."
+          }
         },
         {
           "n": 5,
-          "text": "तां सभामुपसंप्राप्य तदा स निषधाधिपः ।\nवैदर्भ्या सहितो राजा निषसाद महीतले ॥"
+          "text": "तां सभामुपसंप्राप्य तदा स निषधाधिपः ।\nवैदर्भ्या सहितो राजा निषसाद महीतले ॥",
+          "meaning": {
+            "en": "Reaching that shelter, the lord of the Nishadhas sat down on the ground with the Vidarbha princess."
+          }
         },
         {
           "n": 6,
-          "text": "स वै विवस्त्रो मलिनो विकचः पांसुगुण्ठितः ।\nदमयन्त्या सह श्रान्तः सुष्वाप धरणीतले ॥"
+          "text": "स वै विवस्त्रो मलिनो विकचः पांसुगुण्ठितः ।\nदमयन्त्या सह श्रान्तः सुष्वाप धरणीतले ॥",
+          "meaning": {
+            "en": "Naked, dirty, with matted hair, covered in dust, exhausted, he fell asleep on the bare earth with Damayanti."
+          }
         },
         {
           "n": 7,
-          "text": "दमयन्त्यपि कल्याणी निद्रयापहृता ततः ।\nसहसा दुःखमासाद्य सुकुमारी तपस्विनी ॥"
+          "text": "दमयन्त्यपि कल्याणी निद्रयापहृता ततः ।\nसहसा दुःखमासाद्य सुकुमारी तपस्विनी ॥",
+          "meaning": {
+            "en": "Fair Damayanti too, delicate and ascetic-like in her suffering, was overcome by sleep, having suddenly met such sorrow."
+          }
         },
         {
           "n": 8,
-          "text": "सुप्तायां दमयन्त्यां तु नलो राजा विशां पते ।\nशोकोन्मथितचित्तात्मा न स्म शेते यथा पुरा ॥"
+          "text": "सुप्तायां दमयन्त्यां तु नलो राजा विशां पते ।\nशोकोन्मथितचित्तात्मा न स्म शेते यथा पुरा ॥",
+          "meaning": {
+            "en": "While Damayanti slept, King Nala, lord of people, his mind churned by grief, could not sleep as before."
+          }
         },
         {
           "n": 9,
-          "text": "स तद्राज्यापहरणं सुहृत्त्यागं च सर्वशः ।\nवने च तं परिध्वंसं प्रेक्ष्य चिन्तामुपेयिवान् ॥"
+          "text": "स तद्राज्यापहरणं सुहृत्त्यागं च सर्वशः ।\nवने च तं परिध्वंसं प्रेक्ष्य चिन्तामुपेयिवान् ॥",
+          "meaning": {
+            "en": "He thought about the loss of his kingdom, the desertion by his friends, and his ruin in the forest, and fell into worry."
+          }
         },
         {
           "n": 10,
-          "text": "किं नु मे स्यादिदं कृत्वा किं नु मे स्यादकुर्वतः ।\nकिं नु मे मरणं श्रेयः परित्यागो जनस्य वा ॥"
+          "text": "किं नु मे स्यादिदं कृत्वा किं नु मे स्यादकुर्वतः ।\nकिं नु मे मरणं श्रेयः परित्यागो जनस्य वा ॥",
+          "meaning": {
+            "en": "\"What would come of my doing this, and what if I do not? Would death be better for me, or leaving my people?"
+          }
         },
         {
           "n": 11,
-          "text": "मामियं ह्यनुरक्तेदं दुःखमाप्नोति मत्कृते ।\nमद्विहीना त्वियं गच्छेत्कदाचित्स्वजनं प्रति ॥"
+          "text": "मामियं ह्यनुरक्तेदं दुःखमाप्नोति मत्कृते ।\nमद्विहीना त्वियं गच्छेत्कदाचित्स्वजनं प्रति ॥",
+          "meaning": {
+            "en": "She loves me and suffers this sorrow for my sake. Without me she might someday go back to her own people."
+          }
         },
         {
           "n": 12,
-          "text": "मया निःसंशयं दुःखमियं प्राप्स्यत्यनुत्तमा ।\nउत्सर्गे संशयः स्यात्तु विन्देतापि सुखं क्वचित् ॥"
+          "text": "मया निःसंशयं दुःखमियं प्राप्स्यत्यनुत्तमा ।\nउत्सर्गे संशयः स्यात्तु विन्देतापि सुखं क्वचित् ॥",
+          "meaning": {
+            "en": "With me she will surely have sorrow, the best of women. If I leave her, there is doubt, but she may find some happiness.\""
+          }
         },
         {
           "n": 13,
-          "text": "स विनिश्चित्य बहुधा विचार्य च पुनः पुनः ।\nउत्सर्गेऽमन्यत श्रेयो दमयन्त्या नराधिपः ॥"
+          "text": "स विनिश्चित्य बहुधा विचार्य च पुनः पुनः ।\nउत्सर्गेऽमन्यत श्रेयो दमयन्त्या नराधिपः ॥",
+          "meaning": {
+            "en": "After deciding in many ways and pondering again and again, the king concluded that leaving Damayanti was better."
+          }
         },
         {
           "n": 14,
-          "text": "सोऽवस्त्रतामात्मनश्च तस्याश्चाप्येकवस्त्रताम् ।\nचिन्तयित्वाध्यगाद्राजा वस्त्रार्धस्यावकर्तनम् ॥"
+          "text": "सोऽवस्त्रतामात्मनश्च तस्याश्चाप्येकवस्त्रताम् ।\nचिन्तयित्वाध्यगाद्राजा वस्त्रार्धस्यावकर्तनम् ॥",
+          "meaning": {
+            "en": "Thinking of his own nakedness and her having only one garment, the king hit upon cutting the cloth in half."
+          }
         },
         {
           "n": 15,
-          "text": "कथं वासो विकर्तेयं न च बुध्येत मे प्रिया ।\nचिन्त्यैवं नैषधो राजा सभां पर्यचरत्तदा ॥"
+          "text": "कथं वासो विकर्तेयं न च बुध्येत मे प्रिया ।\nचिन्त्यैवं नैषधो राजा सभां पर्यचरत्तदा ॥",
+          "meaning": {
+            "en": "\"How can I cut the cloth so that my beloved does not wake?\" So thinking, the Nishadha king moved about the shelter."
+          }
         },
         {
           "n": 16,
-          "text": "परिधावन्नथ नल इतश्चेतश्च भारत ।\nआससाद सभोद्देशे विकोशं खड्गमुत्तमम् ॥"
+          "text": "परिधावन्नथ नल इतश्चेतश्च भारत ।\nआससाद सभोद्देशे विकोशं खड्गमुत्तमम् ॥",
+          "meaning": {
+            "en": "As Nala ran this way and that, descendant of Bharata, he found a fine, unsheathed sword in a corner of the shelter."
+          }
         },
         {
           "n": 17,
-          "text": "तेनार्धं वाससश्छित्त्वा निवस्य च परंतपः ।\nसुप्तामुत्सृज्य वैदर्भीं प्राद्रवद्गतचेतनः ॥"
+          "text": "तेनार्धं वाससश्छित्त्वा निवस्य च परंतपः ।\nसुप्तामुत्सृज्य वैदर्भीं प्राद्रवद्गतचेतनः ॥",
+          "meaning": {
+            "en": "With it he cut the cloth in half, dressed himself in his share, and, scorcher of foes, left the sleeping Vidarbha princess and ran off, out of his senses."
+          }
         },
         {
           "n": 18,
-          "text": "ततो निबद्धहृदयः पुनरागम्य तां सभाम् ।\nदमयन्तीं तथा दृष्ट्वा रुरोद निषधाधिपः ॥"
+          "text": "ततो निबद्धहृदयः पुनरागम्य तां सभाम् ।\nदमयन्तीं तथा दृष्ट्वा रुरोद निषधाधिपः ॥",
+          "meaning": {
+            "en": "Then, his heart bound to her, he came back to the shelter, and seeing Damayanti, the lord of the Nishadhas wept."
+          }
         },
         {
           "n": 19,
-          "text": "यां न वायुर्न चादित्यः पुरा पश्यति मे प्रियाम् ।\nसेयमद्य सभामध्ये शेते भूमावनाथवत् ॥"
+          "text": "यां न वायुर्न चादित्यः पुरा पश्यति मे प्रियाम् ।\nसेयमद्य सभामध्ये शेते भूमावनाथवत् ॥",
+          "meaning": {
+            "en": "\"She whom neither wind nor sun used to see, my beloved, now lies in the middle of a shelter on the ground like one without protector."
+          }
         },
         {
           "n": 20,
-          "text": "इयं वस्त्रावकर्तेन संवीता चारुहासिनी ।\nउन्मत्तेव वरारोहा कथं बुद्ध्वा भविष्यति ॥"
+          "text": "इयं वस्त्रावकर्तेन संवीता चारुहासिनी ।\nउन्मत्तेव वरारोहा कथं बुद्ध्वा भविष्यति ॥",
+          "meaning": {
+            "en": "Wrapped in a torn cloth, sweet-smiling, fine-hipped, how will she be when she wakes, like one mad?"
+          }
         },
         {
           "n": 21,
-          "text": "कथमेका सती भैमी मया विरहिता शुभा ।\nचरिष्यति वने घोरे मृगव्यालनिषेविते ॥"
+          "text": "कथमेका सती भैमी मया विरहिता शुभा ।\nचरिष्यति वने घोरे मृगव्यालनिषेविते ॥",
+          "meaning": {
+            "en": "How will good Bhima's daughter, parted from me, go alone through a dreadful forest frequented by beasts and snakes?\""
+          }
         },
         {
           "n": 22,
-          "text": "गत्वा गत्वा नलो राजा पुनरेति सभां मुहुः ।\nआकृष्यमाणः कलिना सौहृदेनापकृष्यते ॥"
+          "text": "गत्वा गत्वा नलो राजा पुनरेति सभां मुहुः ।\nआकृष्यमाणः कलिना सौहृदेनापकृष्यते ॥",
+          "meaning": {
+            "en": "King Nala went and returned to the shelter again and again, pulled away by Kali and drawn back by love."
+          }
         },
         {
           "n": 23,
-          "text": "द्विधेव हृदयं तस्य दुःखितस्याभवत्तदा ।\nदोलेव मुहुरायाति याति चैव सभां मुहुः ॥"
+          "text": "द्विधेव हृदयं तस्य दुःखितस्याभवत्तदा ।\nदोलेव मुहुरायाति याति चैव सभां मुहुः ॥",
+          "meaning": {
+            "en": "His heart was as if split in two; in his sorrow he came and went to the shelter like a swing."
+          }
         },
         {
           "n": 24,
-          "text": "सोऽपकृष्टस्तु कलिना मोहितः प्राद्रवन्नलः ।\nसुप्तामुत्सृज्य तां भार्यां विलप्य करुणं बहु ॥"
+          "text": "सोऽपकृष्टस्तु कलिना मोहितः प्राद्रवन्नलः ।\nसुप्तामुत्सृज्य तां भार्यां विलप्य करुणं बहु ॥",
+          "meaning": {
+            "en": "Finally, dragged off by Kali and deluded, Nala ran away, leaving his sleeping wife, lamenting piteously."
+          }
         },
         {
           "n": 25,
-          "text": "नष्टात्मा कलिना स्पृष्टस्तत्तद्विगणयन्नृपः ।\nजगामैव वने शून्ये भार्यामुत्सृज्य दुःखितः ॥"
+          "text": "नष्टात्मा कलिना स्पृष्टस्तत्तद्विगणयन्नृपः ।\nजगामैव वने शून्ये भार्यामुत्सृज्य दुःखितः ॥",
+          "meaning": {
+            "en": "With his mind lost, touched by Kali, the king went into the empty forest, weighing this and that, grieving, leaving his wife behind."
+          }
         }
       ]
     }

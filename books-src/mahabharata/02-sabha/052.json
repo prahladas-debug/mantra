@@ -22,179 +22,317 @@
       "titleEn": "Dyuta Parva (The dice game)",
       "verses": [
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 1,
-          "text": "ततः प्रायाद्विदुरोऽश्वैरुदारै-\nर्महाजवैर्बलिभिः साधुदान्तैः ।\nबलान्नियुक्तो धृतराष्ट्रेण राज्ञा\nमनीषिणां पाण्डवानां सकाशम् ॥"
+          "text": "ततः प्रायाद्विदुरोऽश्वैरुदारै-\nर्महाजवैर्बलिभिः साधुदान्तैः ।\nबलान्नियुक्तो धृतराष्ट्रेण राज्ञा\nमनीषिणां पाण्डवानां सकाशम् ॥",
+          "meaning": {
+            "en": "Then Vidura set out with fine, swift, strong and well-trained horses, sent by King Dhritarashtra to the wise Pandavas."
+          }
         },
         {
           "n": 2,
-          "text": "सोऽभिपत्य तदध्वानमासाद्य नृपतेः पुरम् ।\nप्रविवेश महाबुद्धिः पूज्यमानो द्विजातिभिः ॥"
+          "text": "सोऽभिपत्य तदध्वानमासाद्य नृपतेः पुरम् ।\nप्रविवेश महाबुद्धिः पूज्यमानो द्विजातिभिः ॥",
+          "meaning": {
+            "en": "Covering the road he reached the king's city, and the greatly wise Vidura entered it, honored by the brahmins."
+          }
         },
         {
           "n": 3,
-          "text": "स राजगृहमासाद्य कुबेरभवनोपमम् ।\nअभ्यगच्छत धर्मात्मा धर्मपुत्रं युधिष्ठिरम् ॥"
+          "text": "स राजगृहमासाद्य कुबेरभवनोपमम् ।\nअभ्यगच्छत धर्मात्मा धर्मपुत्रं युधिष्ठिरम् ॥",
+          "meaning": {
+            "en": "He came to the royal palace, equal to Kubera's mansion, and the righteous Vidura approached Yudhishthira, son of Dharma."
+          }
         },
         {
           "n": 4,
-          "text": "तं वै राजा सत्यधृतिर्महात्मा\nअजातशत्रुर्विदुरं यथावत् ।\nपूजापूर्वं प्रतिगृह्याजमीढ-\nस्ततोऽपृच्छद्धृतराष्ट्रं सपुत्रम् ॥"
+          "text": "तं वै राजा सत्यधृतिर्महात्मा\nअजातशत्रुर्विदुरं यथावत् ।\nपूजापूर्वं प्रतिगृह्याजमीढ-\nस्ततोऽपृच्छद्धृतराष्ट्रं सपुत्रम् ॥",
+          "meaning": {
+            "en": "King Yudhishthira, steadfast in truth, great-souled, born with no enemy, received Vidura properly with honor, and then asked about Dhritarashtra and his sons."
+          }
         },
         {
-          "text": "युधिष्ठिर उवाच"
+          "text": "युधिष्ठिर उवाच",
+          "meaning": {
+            "en": "Yudhishthira said:"
+          }
         },
         {
           "n": 5,
-          "text": "विज्ञायते ते मनसो न प्रहर्षः\nकच्चित्क्षत्तः कुशलेनागतोऽसि ।\nकच्चित्पुत्राः स्थविरस्यानुलोमा\nवशानुगाश्चापि विशोऽपि कच्चित् ॥"
+          "text": "विज्ञायते ते मनसो न प्रहर्षः\nकच्चित्क्षत्तः कुशलेनागतोऽसि ।\nकच्चित्पुत्राः स्थविरस्यानुलोमा\nवशानुगाश्चापि विशोऽपि कच्चित् ॥",
+          "meaning": {
+            "en": "I can tell that your mind is not glad, Vidura. I hope you have come safely. Are the old king's sons obedient, and are his subjects under his sway?"
+          }
         },
         {
-          "text": "विदुर उवाच"
+          "text": "विदुर उवाच",
+          "meaning": {
+            "en": "Vidura said:"
+          }
         },
         {
           "n": 6,
-          "text": "राजा महात्मा कुशली सपुत्र\nआस्ते वृतो ज्ञातिभिरिन्द्रकल्पैः ।\nप्रीतो राजन्पुत्रगणैर्विनीतै-\nर्विशोक एवात्मरतिर्दृढात्मा ॥"
+          "text": "राजा महात्मा कुशली सपुत्र\nआस्ते वृतो ज्ञातिभिरिन्द्रकल्पैः ।\nप्रीतो राजन्पुत्रगणैर्विनीतै-\nर्विशोक एवात्मरतिर्दृढात्मा ॥",
+          "meaning": {
+            "en": "The great-souled king is well with his sons, surrounded by kinsmen like Indra's equals. He is pleased with his well-behaved sons, free from grief, content in himself, and firm of mind."
+          }
         },
         {
           "n": 7,
-          "text": "इदं तु त्वां कुरुराजोऽभ्युवाच\nपूर्वं पृष्ट्वा कुशलं चाव्ययं च ।\nइयं सभा त्वत्सभातुल्यरूपा\nभ्रातॄणां ते पश्य तामेत्य पुत्र ॥"
+          "text": "इदं तु त्वां कुरुराजोऽभ्युवाच\nपूर्वं पृष्ट्वा कुशलं चाव्ययं च ।\nइयं सभा त्वत्सभातुल्यरूपा\nभ्रातॄणां ते पश्य तामेत्य पुत्र ॥",
+          "meaning": {
+            "en": "The king of the Kurus first asked after your health and well-being, and then said this to you: This hall is like yours in form; come, my son, and see it, you and your brothers."
+          }
         },
         {
           "n": 8,
-          "text": "समागम्य भ्रातृभिः पार्थ तस्यां\nसुहृद्द्यूतं क्रियतां रम्यतां च ।\nप्रीयामहे भवतः संगमेन\nसमागताः कुरवश्चैव सर्वे ॥"
+          "text": "समागम्य भ्रातृभिः पार्थ तस्यां\nसुहृद्द्यूतं क्रियतां रम्यतां च ।\nप्रीयामहे भवतः संगमेन\nसमागताः कुरवश्चैव सर्वे ॥",
+          "meaning": {
+            "en": "Meet your brothers in it, Partha, and let a friendly dice game be played for pleasure. We are happy at meeting you, and all the Kurus have gathered."
+          }
         },
         {
           "n": 9,
-          "text": "दुरोदरा विहिता ये तु तत्र\nमहात्मना धृतराष्ट्रेण राज्ञा ।\nतान्द्रक्ष्यसे कितवान्संनिविष्टा-\nनित्यागतोऽहं नृपते तज्जुषस्व ॥"
+          "text": "दुरोदरा विहिता ये तु तत्र\nमहात्मना धृतराष्ट्रेण राज्ञा ।\nतान्द्रक्ष्यसे कितवान्संनिविष्टा-\nनित्यागतोऽहं नृपते तज्जुषस्व ॥",
+          "meaning": {
+            "en": "You will see the gamblers whom the great-souled King Dhritarashtra has arranged there, seated. I have come for that, king; accept it."
+          }
         },
         {
-          "text": "युधिष्ठिर उवाच"
+          "text": "युधिष्ठिर उवाच",
+          "meaning": {
+            "en": "Yudhishthira said:"
+          }
         },
         {
           "n": 10,
-          "text": "द्यूते क्षत्तः कलहो विद्यते नः\nको वै द्यूतं रोचयेद्बुध्यमानः ।\nकिं वा भवान्मन्यते युक्तरूपं\nभवद्वाक्ये सर्व एव स्थिताः स्म ॥"
+          "text": "द्यूते क्षत्तः कलहो विद्यते नः\nको वै द्यूतं रोचयेद्बुध्यमानः ।\nकिं वा भवान्मन्यते युक्तरूपं\nभवद्वाक्ये सर्व एव स्थिताः स्म ॥",
+          "meaning": {
+            "en": "Vidura, quarrel comes out of gambling. What man who understands would favor dicing? What do you think fitting? We all stand by your word."
+          }
         },
         {
-          "text": "विदुर उवाच"
+          "text": "विदुर उवाच",
+          "meaning": {
+            "en": "Vidura said:"
+          }
         },
         {
           "n": 11,
-          "text": "जानाम्यहं द्यूतमनर्थमूलं\nकृतश्च यत्नोऽस्य मया निवारणे ।\nराजा तु मां प्राहिणोत्त्वत्सकाशं\nश्रुत्वा विद्वञ्श्रेय इहाचरस्व ॥"
+          "text": "जानाम्यहं द्यूतमनर्थमूलं\nकृतश्च यत्नोऽस्य मया निवारणे ।\nराजा तु मां प्राहिणोत्त्वत्सकाशं\nश्रुत्वा विद्वञ्श्रेय इहाचरस्व ॥",
+          "meaning": {
+            "en": "I know that gambling is the root of ruin, and I tried to prevent it. But the king sent me to you. Hearing this, wise one, do what is best here."
+          }
         },
         {
-          "text": "युधिष्ठिर उवाच"
+          "text": "युधिष्ठिर उवाच",
+          "meaning": {
+            "en": "Yudhishthira said:"
+          }
         },
         {
           "n": 12,
-          "text": "के तत्रान्ये कितवा दीव्यमाना\nविना राज्ञो धृतराष्ट्रस्य पुत्रैः ।\nपृच्छामि त्वां विदुर ब्रूहि नस्ता-\nन्यैर्दीव्यामः शतशः संनिपत्य ॥"
+          "text": "के तत्रान्ये कितवा दीव्यमाना\nविना राज्ञो धृतराष्ट्रस्य पुत्रैः ।\nपृच्छामि त्वां विदुर ब्रूहि नस्ता-\nन्यैर्दीव्यामः शतशः संनिपत्य ॥",
+          "meaning": {
+            "en": "Who else will be gambling there besides Dhritarashtra's sons? I ask you, Vidura, tell us: with whom shall we gather in the hundreds and play?"
+          }
         },
         {
-          "text": "विदुर उवाच"
+          "text": "विदुर उवाच",
+          "meaning": {
+            "en": "Vidura said:"
+          }
         },
         {
           "n": 13,
-          "text": "गान्धारराजः शकुनिर्विशां पते\nराजातिदेवी कृतहस्तो मताक्षः ।\nविविंशतिश्चित्रसेनश्च राजा\nसत्यव्रतः पुरुमित्रो जयश्च ॥"
+          "text": "गान्धारराजः शकुनिर्विशां पते\nराजातिदेवी कृतहस्तो मताक्षः ।\nविविंशतिश्चित्रसेनश्च राजा\nसत्यव्रतः पुरुमित्रो जयश्च ॥",
+          "meaning": {
+            "en": "Shakuni, king of Gandhara, lord of the people, who plays with high stakes, has a practiced hand and wins by the dice; also Vivinshati, King Chitrasena, Satyavrata, Purumitra and Jaya."
+          }
         },
         {
-          "text": "युधिष्ठिर उवाच"
+          "text": "युधिष्ठिर उवाच",
+          "meaning": {
+            "en": "Yudhishthira said:"
+          }
         },
         {
           "n": 14,
-          "text": "महाभयाः कितवाः संनिविष्टा\nमायोपधा देवितारोऽत्र सन्ति ।\nधात्रा तु दिष्टस्य वशे किलेदं\nनादेवनं कितवैरद्य तैर्मे ॥"
+          "text": "महाभयाः कितवाः संनिविष्टा\nमायोपधा देवितारोऽत्र सन्ति ।\nधात्रा तु दिष्टस्य वशे किलेदं\nनादेवनं कितवैरद्य तैर्मे ॥",
+          "meaning": {
+            "en": "These seated gamblers are most fearsome; there are cheats who gamble with tricks. Yet all this is under the Creator's decree; I do not fear gambling with such gamblers today."
+          }
         },
         {
           "n": 15,
-          "text": "नाहं राज्ञो धृतराष्ट्रस्य शासना-\nन्न गन्तुमिच्छामि कवे दुरोदरम् ।\nइष्टो हि पुत्रस्य पिता सदैव\nतदस्मि कर्ता विदुरात्थ मां यथा ॥"
+          "text": "नाहं राज्ञो धृतराष्ट्रस्य शासना-\nन्न गन्तुमिच्छामि कवे दुरोदरम् ।\nइष्टो हि पुत्रस्य पिता सदैव\nतदस्मि कर्ता विदुरात्थ मां यथा ॥",
+          "meaning": {
+            "en": "Wise one, I do not want to refuse to go to the game at King Dhritarashtra's command. A father is always dear to his son, and so I will do as you say, Vidura."
+          }
         },
         {
           "n": 16,
-          "text": "न चाकामः शकुनिना देविताहं\nन चेन्मां धृष्णुराह्वयिता सभायाम् ।\nआहूतोऽहं न निवर्ते कदाचि-\nत्तदाहितं शाश्वतं वै व्रतं मे ॥"
+          "text": "न चाकामः शकुनिना देविताहं\nन चेन्मां धृष्णुराह्वयिता सभायाम् ।\nआहूतोऽहं न निवर्ते कदाचि-\nत्तदाहितं शाश्वतं वै व्रतं मे ॥",
+          "meaning": {
+            "en": "I do not wish to play with Shakuni against my will, but if the bold one summons me in the hall, I will not turn away when called. That is my lasting vow."
+          }
         },
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 17,
-          "text": "एवमुक्त्वा विदुरं धर्मराजः\nप्रायात्रिकं सर्वमाज्ञाप्य तूर्णम् ।\nप्रायाच्छ्वोभूते सगणः सानुयात्रः\nसह स्त्रीभिर्द्रौपदीमादिकृत्वा ॥"
+          "text": "एवमुक्त्वा विदुरं धर्मराजः\nप्रायात्रिकं सर्वमाज्ञाप्य तूर्णम् ।\nप्रायाच्छ्वोभूते सगणः सानुयात्रः\nसह स्त्रीभिर्द्रौपदीमादिकृत्वा ॥",
+          "meaning": {
+            "en": "So saying to Vidura, the king of dharma quickly ordered all preparations for the journey and set out the next day with his people and followers, and with the women led by Draupadi."
+          }
         },
         {
           "n": 18,
-          "text": "दैवं प्रज्ञां तु मुष्णाति तेजश्चक्षुरिवापतत् ।\nधातुश्च वशमन्वेति पाशैरिव नरः सितः ॥"
+          "text": "दैवं प्रज्ञां तु मुष्णाति तेजश्चक्षुरिवापतत् ।\nधातुश्च वशमन्वेति पाशैरिव नरः सितः ॥",
+          "meaning": {
+            "en": "Fate steals one's judgment, as a falling brightness takes away the sight; man follows the Creator's control, as if bound with nooses."
+          }
         },
         {
           "n": 19,
-          "text": "इत्युक्त्वा प्रययौ राजा सह क्षत्त्रा युधिष्ठिरः ।\nअमृष्यमाणस्तत्पार्थः समाह्वानमरिंदमः ॥"
+          "text": "इत्युक्त्वा प्रययौ राजा सह क्षत्त्रा युधिष्ठिरः ।\nअमृष्यमाणस्तत्पार्थः समाह्वानमरिंदमः ॥",
+          "meaning": {
+            "en": "Saying this, King Yudhishthira left with Vidura, Partha the subduer of foes, unable to bear that challenge."
+          }
         },
         {
           "n": 20,
-          "text": "बाह्लिकेन रथं दत्तमास्थाय परवीरहा ।\nपरिच्छन्नो ययौ पार्थो भ्रातृभिः सह पाण्डवः ॥"
+          "text": "बाह्लिकेन रथं दत्तमास्थाय परवीरहा ।\nपरिच्छन्नो ययौ पार्थो भ्रातृभिः सह पाण्डवः ॥",
+          "meaning": {
+            "en": "Mounting the chariot given by Bahlika, the killer of enemy heroes, Pandava Partha went forth, well covered, with his brothers."
+          }
         },
         {
           "n": 21,
-          "text": "राजश्रिया दीप्यमानो ययौ ब्रह्मपुरःसरः ।\nधृतराष्ट्रेण चाहूतः कालस्य समयेन च ॥"
+          "text": "राजश्रिया दीप्यमानो ययौ ब्रह्मपुरःसरः ।\nधृतराष्ट्रेण चाहूतः कालस्य समयेन च ॥",
+          "meaning": {
+            "en": "Blazing with royal splendor, he went with brahmins before him, called by Dhritarashtra and driven by the course of time."
+          }
         },
         {
           "n": 22,
-          "text": "स हास्तिनपुरं गत्वा धृतराष्ट्रगृहं ययौ ।\nसमियाय च धर्मात्मा धृतराष्ट्रेण पाण्डवः ॥"
+          "text": "स हास्तिनपुरं गत्वा धृतराष्ट्रगृहं ययौ ।\nसमियाय च धर्मात्मा धृतराष्ट्रेण पाण्डवः ॥",
+          "meaning": {
+            "en": "Reaching Hastinapura, he went to Dhritarashtra's house, and the righteous Pandava met Dhritarashtra."
+          }
         },
         {
           "n": 23,
-          "text": "तथा द्रोणेन भीष्मेण कर्णेन च कृपेण च ।\nसमियाय यथान्यायं द्रौणिना च विभुः सह ॥"
+          "text": "तथा द्रोणेन भीष्मेण कर्णेन च कृपेण च ।\nसमियाय यथान्यायं द्रौणिना च विभुः सह ॥",
+          "meaning": {
+            "en": "The mighty one properly met Drona, Bhishma, Karna and Kripa, and also Drona's son."
+          }
         },
         {
           "n": 24,
-          "text": "समेत्य च महाबाहुः सोमदत्तेन चैव ह ।\nदुर्योधनेन शल्येन सौबलेन च वीर्यवान् ॥"
+          "text": "समेत्य च महाबाहुः सोमदत्तेन चैव ह ।\nदुर्योधनेन शल्येन सौबलेन च वीर्यवान् ॥",
+          "meaning": {
+            "en": "The mighty-armed hero also met Somadatta, Duryodhana, Shalya and Shakuni, Subala's son."
+          }
         },
         {
           "n": 25,
-          "text": "ये चान्ये तत्र राजानः पूर्वमेव समागताः ।\nजयद्रथेन च तथा कुरुभिश्चापि सर्वशः ॥"
+          "text": "ये चान्ये तत्र राजानः पूर्वमेव समागताः ।\nजयद्रथेन च तथा कुरुभिश्चापि सर्वशः ॥",
+          "meaning": {
+            "en": "And he met the other kings who had arrived earlier, and Jayadratha, and all the Kurus."
+          }
         },
         {
           "n": 26,
-          "text": "ततः सर्वैर्महाबाहुर्भ्रातृभिः परिवारितः ।\nप्रविवेश गृहं राज्ञो धृतराष्ट्रस्य धीमतः ॥"
+          "text": "ततः सर्वैर्महाबाहुर्भ्रातृभिः परिवारितः ।\nप्रविवेश गृहं राज्ञो धृतराष्ट्रस्य धीमतः ॥",
+          "meaning": {
+            "en": "Then, surrounded by all his brothers, the mighty-armed Yudhishthira entered the house of the wise King Dhritarashtra."
+          }
         },
         {
           "n": 27,
-          "text": "ददर्श तत्र गान्धारीं देवीं पतिमनुव्रताम् ।\nस्नुषाभिः संवृतां शश्वत्ताराभिरिव रोहिणीम् ॥"
+          "text": "ददर्श तत्र गान्धारीं देवीं पतिमनुव्रताम् ।\nस्नुषाभिः संवृतां शश्वत्ताराभिरिव रोहिणीम् ॥",
+          "meaning": {
+            "en": "There he saw the goddess Gandhari, devoted to her husband, always surrounded by her daughters-in-law like Rohini among the stars."
+          }
         },
         {
           "n": 28,
-          "text": "अभिवाद्य स गान्धारीं तया च प्रतिनन्दितः ।\nददर्श पितरं वृद्धं प्रज्ञाचक्षुषमीश्वरम् ॥"
+          "text": "अभिवाद्य स गान्धारीं तया च प्रतिनन्दितः ।\nददर्श पितरं वृद्धं प्रज्ञाचक्षुषमीश्वरम् ॥",
+          "meaning": {
+            "en": "He greeted Gandhari and was welcomed by her. Then he saw his aged uncle, the lord whose eyes were wisdom."
+          }
         },
         {
           "n": 29,
-          "text": "राज्ञा मूर्धन्युपाघ्रातास्ते च कौरवनन्दनाः ।\nचत्वारः पाण्डवा राजन्भीमसेनपुरोगमाः ॥"
+          "text": "राज्ञा मूर्धन्युपाघ्रातास्ते च कौरवनन्दनाः ।\nचत्वारः पाण्डवा राजन्भीमसेनपुरोगमाः ॥",
+          "meaning": {
+            "en": "The king kissed the heads of those four Pandavas, delights of the Kurus, with Bhimasena at their head."
+          }
         },
         {
           "n": 30,
-          "text": "ततो हर्षः समभवत्कौरवाणां विशां पते ।\nतान्दृष्ट्वा पुरुषव्याघ्रान्पाण्डवान्प्रियदर्शनान् ॥"
+          "text": "ततो हर्षः समभवत्कौरवाणां विशां पते ।\nतान्दृष्ट्वा पुरुषव्याघ्रान्पाण्डवान्प्रियदर्शनान् ॥",
+          "meaning": {
+            "en": "Then joy arose among the Kauravas, lord of the people, when they saw the dear-looking Pandavas, tigers among men."
+          }
         },
         {
           "n": 31,
-          "text": "विविशुस्तेऽभ्यनुज्ञाता रत्नवन्ति गृहाण्यथ ।\nददृशुश्चोपयातास्तान्द्रौपदीप्रमुखाः स्त्रियः ॥"
+          "text": "विविशुस्तेऽभ्यनुज्ञाता रत्नवन्ति गृहाण्यथ ।\nददृशुश्चोपयातास्तान्द्रौपदीप्रमुखाः स्त्रियः ॥",
+          "meaning": {
+            "en": "With permission they entered jewel-rich houses, and the women led by Draupadi saw those who had arrived."
+          }
         },
         {
           "n": 32,
-          "text": "याज्ञसेन्याः परामृद्धिं दृष्ट्वा प्रज्वलितामिव ।\nस्नुषास्ता धृतराष्ट्रस्य नातिप्रमनसोऽभवन् ॥"
+          "text": "याज्ञसेन्याः परामृद्धिं दृष्ट्वा प्रज्वलितामिव ।\nस्नुषास्ता धृतराष्ट्रस्य नातिप्रमनसोऽभवन् ॥",
+          "meaning": {
+            "en": "Seeing Draupadi's supreme prosperity, as if blazing, Dhritarashtra's daughters-in-law were not very glad."
+          }
         },
         {
           "n": 33,
-          "text": "ततस्ते पुरुषव्याघ्रा गत्वा स्त्रीभिस्तु संविदम् ।\nकृत्वा व्यायामपूर्वाणि कृत्यानि प्रतिकर्म च ॥"
+          "text": "ततस्ते पुरुषव्याघ्रा गत्वा स्त्रीभिस्तु संविदम् ।\nकृत्वा व्यायामपूर्वाणि कृत्यानि प्रतिकर्म च ॥",
+          "meaning": {
+            "en": "Then those tigers among men, after meeting the women, did their exercises and the ordinary duties of dressing and care."
+          }
         },
         {
           "n": 34,
-          "text": "ततः कृताह्निकाः सर्वे दिव्यचन्दनरूषिताः ।\nकल्याणमनसश्चैव ब्राह्मणान्स्वस्ति वाच्य च ॥"
+          "text": "ततः कृताह्निकाः सर्वे दिव्यचन्दनरूषिताः ।\nकल्याणमनसश्चैव ब्राह्मणान्स्वस्ति वाच्य च ॥",
+          "meaning": {
+            "en": "Having done their daily rites, all anointed with divine sandal, kind of mind, they had brahmins speak blessings."
+          }
         },
         {
           "n": 35,
-          "text": "मनोज्ञमशनं भुक्त्वा विविशुः शरणान्यथ ।\nउपगीयमाना नारीभिरस्वपन्कुरुनन्दनाः ॥"
+          "text": "मनोज्ञमशनं भुक्त्वा विविशुः शरणान्यथ ।\nउपगीयमाना नारीभिरस्वपन्कुरुनन्दनाः ॥",
+          "meaning": {
+            "en": "After eating pleasing food they went into their dwellings, and the delights of the Kurus slept, sung to by women."
+          }
         },
         {
           "n": 36,
-          "text": "जगाम तेषां सा रात्रिः पुण्या रतिविहारिणाम् ।\nस्तूयमानाश्च विश्रान्ताः काले निद्रामथात्यजन् ॥"
+          "text": "जगाम तेषां सा रात्रिः पुण्या रतिविहारिणाम् ।\nस्तूयमानाश्च विश्रान्ताः काले निद्रामथात्यजन् ॥",
+          "meaning": {
+            "en": "That holy night passed for them as they enjoyed themselves; praised, they rested and at the proper hour gave up sleep."
+          }
         },
         {
           "n": 37,
-          "text": "सुखोषितास्तां रजनीं प्रातः सर्वे कृताह्निकाः ।\nसभां रम्यां प्रविविशुः कितवैरभिसंवृताम् ॥"
+          "text": "सुखोषितास्तां रजनीं प्रातः सर्वे कृताह्निकाः ।\nसभां रम्यां प्रविविशुः कितवैरभिसंवृताम् ॥",
+          "meaning": {
+            "en": "Having spent that night happily, all of them in the morning, their daily rites done, entered the lovely hall, which was filled with gamblers."
+          }
         }
       ]
     }

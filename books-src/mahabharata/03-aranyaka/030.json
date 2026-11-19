@@ -22,207 +22,360 @@
       "titleEn": "Kairata Parva (The mountain hunter)",
       "verses": [
         {
-          "text": "युधिष्ठिर उवाच"
+          "text": "युधिष्ठिर उवाच",
+          "meaning": {
+            "en": "Yudhishthira said:"
+          }
         },
         {
           "n": 1,
-          "text": "क्रोधो हन्ता मनुष्याणां क्रोधो भावयिता पुनः ।\nइति विद्धि महाप्राज्ञे क्रोधमूलौ भवाभवौ ॥"
+          "text": "क्रोधो हन्ता मनुष्याणां क्रोधो भावयिता पुनः ।\nइति विद्धि महाप्राज्ञे क्रोधमूलौ भवाभवौ ॥",
+          "meaning": {
+            "en": "\"Anger is the destroyer of men, and anger is also what makes them thrive again. Know, wise lady, that rise and ruin both have anger as their root.\""
+          }
         },
         {
           "n": 2,
-          "text": "यो हि संहरते क्रोधं भावस्तस्य सुशोभने ।\nयः पुनः पुरुषः क्रोधं नित्यं न सहते शुभे ।\nतस्याभावाय भवति क्रोधः परमदारुणः ॥"
+          "text": "यो हि संहरते क्रोधं भावस्तस्य सुशोभने ।\nयः पुनः पुरुषः क्रोधं नित्यं न सहते शुभे ।\nतस्याभावाय भवति क्रोधः परमदारुणः ॥",
+          "meaning": {
+            "en": "\"One who restrains anger, beautiful lady, prospers; but the man who never bears his anger, good woman, finds his own terrible anger turn to his ruin.\""
+          }
         },
         {
           "n": 3,
-          "text": "क्रोधमूलो विनाशो हि प्रजानामिह दृश्यते ।\nतत्कथं मादृशः क्रोधमुत्सृजेल्लोकनाशनम् ॥"
+          "text": "क्रोधमूलो विनाशो हि प्रजानामिह दृश्यते ।\nतत्कथं मादृशः क्रोधमुत्सृजेल्लोकनाशनम् ॥",
+          "meaning": {
+            "en": "\"The destruction of people is seen in this world to have anger as its root; how then could one like me let loose anger, which ruins the world?\""
+          }
         },
         {
           "n": 4,
-          "text": "क्रुद्धः पापं नरः कुर्यात्क्रुद्धो हन्याद्गुरूनपि ।\nक्रुद्धः परुषया वाचा श्रेयसोऽप्यवमन्यते ॥"
+          "text": "क्रुद्धः पापं नरः कुर्यात्क्रुद्धो हन्याद्गुरूनपि ।\nक्रुद्धः परुषया वाचा श्रेयसोऽप्यवमन्यते ॥",
+          "meaning": {
+            "en": "\"An angry man commits sin, an angry man may kill even his elders, an angry man with harsh words insults even the better.\""
+          }
         },
         {
           "n": 5,
-          "text": "वाच्यावाच्ये हि कुपितो न प्रजानाति कर्हिचित् ।\nनाकार्यमस्ति क्रुद्धस्य नावाच्यं विद्यते तथा ॥"
+          "text": "वाच्यावाच्ये हि कुपितो न प्रजानाति कर्हिचित् ।\nनाकार्यमस्ति क्रुद्धस्य नावाच्यं विद्यते तथा ॥",
+          "meaning": {
+            "en": "\"An enraged man never knows what may or may not be said; for the angry there is no deed undone and no word unsaid.\""
+          }
         },
         {
           "n": 6,
-          "text": "हिंस्यात्क्रोधादवध्यांश्च वध्यान्संपूजयेदपि ।\nआत्मानमपि च क्रुद्धः प्रेषयेद्यमसादनम् ॥"
+          "text": "हिंस्यात्क्रोधादवध्यांश्च वध्यान्संपूजयेदपि ।\nआत्मानमपि च क्रुद्धः प्रेषयेद्यमसादनम् ॥",
+          "meaning": {
+            "en": "\"From anger a man may harm those who must not be harmed and honor those who deserve punishment; angry, he may even send himself to Yama's abode.\""
+          }
         },
         {
           "n": 7,
-          "text": "एतान्दोषान्प्रपश्यद्भिर्जितः क्रोधो मनीषिभिः ।\nइच्छद्भिः परमं श्रेय इह चामुत्र चोत्तमम् ॥"
+          "text": "एतान्दोषान्प्रपश्यद्भिर्जितः क्रोधो मनीषिभिः ।\nइच्छद्भिः परमं श्रेय इह चामुत्र चोत्तमम् ॥",
+          "meaning": {
+            "en": "\"Seeing these faults, wise men seeking the highest good here and hereafter have conquered anger.\""
+          }
         },
         {
           "n": 8,
-          "text": "तं क्रोधं वर्जितं धीरैः कथमस्मद्विधश्चरेत् ।\nएतद्द्रौपदि संधाय न मे मन्युः प्रवर्धते ॥"
+          "text": "तं क्रोधं वर्जितं धीरैः कथमस्मद्विधश्चरेत् ।\nएतद्द्रौपदि संधाय न मे मन्युः प्रवर्धते ॥",
+          "meaning": {
+            "en": "\"How could one like me practice the anger that the steadfast have rejected? Keeping this in mind, Draupadi, my anger does not grow.\""
+          }
         },
         {
           "n": 9,
-          "text": "आत्मानं च परं चैव त्रायते महतो भयात् ।\nक्रुध्यन्तमप्रतिक्रुध्यन्द्वयोरेष चिकित्सकः ॥"
+          "text": "आत्मानं च परं चैव त्रायते महतो भयात् ।\nक्रुध्यन्तमप्रतिक्रुध्यन्द्वयोरेष चिकित्सकः ॥",
+          "meaning": {
+            "en": "\"One who does not return anger to the angry saves himself and the other from great danger; he is the healer of both.\""
+          }
         },
         {
           "n": 10,
-          "text": "मूढो यदि क्लिश्यमानः क्रुध्यतेऽशक्तिमान्नरः ।\nबलीयसां मनुष्याणां त्यजत्यात्मानमन्ततः ॥"
+          "text": "मूढो यदि क्लिश्यमानः क्रुध्यतेऽशक्तिमान्नरः ।\nबलीयसां मनुष्याणां त्यजत्यात्मानमन्ततः ॥",
+          "meaning": {
+            "en": "\"If a weak and foolish man, being tormented, grows angry, he finally destroys himself before stronger men.\""
+          }
         },
         {
           "n": 11,
-          "text": "तस्यात्मानं संत्यजतो लोका नश्यन्त्यनात्मनः ।\nतस्माद्द्रौपद्यशक्तस्य मन्योर्नियमनं स्मृतम् ॥"
+          "text": "तस्यात्मानं संत्यजतो लोका नश्यन्त्यनात्मनः ।\nतस्माद्द्रौपद्यशक्तस्य मन्योर्नियमनं स्मृतम् ॥",
+          "meaning": {
+            "en": "\"For one who destroys himself, the worlds are lost; so, Draupadi, restraint of anger is prescribed for the powerless.\""
+          }
         },
         {
           "n": 12,
-          "text": "विद्वांस्तथैव यः शक्तः क्लिश्यमानो न कुप्यति ।\nस नाशयित्वा क्लेष्टारं परलोके च नन्दति ॥"
+          "text": "विद्वांस्तथैव यः शक्तः क्लिश्यमानो न कुप्यति ।\nस नाशयित्वा क्लेष्टारं परलोके च नन्दति ॥",
+          "meaning": {
+            "en": "\"Likewise a wise man who is able and is not angry when tormented destroys his tormentor and rejoices in the next world.\""
+          }
         },
         {
           "n": 13,
-          "text": "तस्माद्बलवता चैव दुर्बलेन च नित्यदा ।\nक्षन्तव्यं पुरुषेणाहुरापत्स्वपि विजानता ॥"
+          "text": "तस्माद्बलवता चैव दुर्बलेन च नित्यदा ।\nक्षन्तव्यं पुरुषेणाहुरापत्स्वपि विजानता ॥",
+          "meaning": {
+            "en": "\"So both the strong and the weak, the wise say, should always forgive, even in calamities.\""
+          }
         },
         {
           "n": 14,
-          "text": "मन्योर्हि विजयं कृष्णे प्रशंसन्तीह साधवः ।\nक्षमावतो जयो नित्यं साधोरिह सतां मतम् ॥"
+          "text": "मन्योर्हि विजयं कृष्णे प्रशंसन्तीह साधवः ।\nक्षमावतो जयो नित्यं साधोरिह सतां मतम् ॥",
+          "meaning": {
+            "en": "\"Good people, Krishna, praise victory over anger; the forbearing man's victory, among the good, is held to be constant.\""
+          }
         },
         {
           "n": 15,
-          "text": "सत्यं चानृततः श्रेयो नृशंसाच्चानृशंसता ।\nतमेवं बहुदोषं तु क्रोधं साधुविवर्जितम् ।\nमादृशः प्रसृजेत्कस्मात्सुयोधनवधादपि ॥"
+          "text": "सत्यं चानृततः श्रेयो नृशंसाच्चानृशंसता ।\nतमेवं बहुदोषं तु क्रोधं साधुविवर्जितम् ।\nमादृशः प्रसृजेत्कस्मात्सुयोधनवधादपि ॥",
+          "meaning": {
+            "en": "\"Truth is better than falsehood and gentleness better than cruelty; so why should one like me let loose anger, so full of faults and shunned by good men, even for the killing of Suyodhana?\""
+          }
         },
         {
           "n": 16,
-          "text": "तेजस्वीति यमाहुर्वै पण्डिता दीर्घदर्शिनः ।\nन क्रोधोऽभ्यन्तरस्तस्य भवतीति विनिश्चितम् ॥"
+          "text": "तेजस्वीति यमाहुर्वै पण्डिता दीर्घदर्शिनः ।\nन क्रोधोऽभ्यन्तरस्तस्य भवतीति विनिश्चितम् ॥",
+          "meaning": {
+            "en": "\"The man whom the wise and far-sighted call fiery has no anger within him, that is settled.\""
+          }
         },
         {
           "n": 17,
-          "text": "यस्तु क्रोधं समुत्पन्नं प्रज्ञया प्रतिबाधते ।\nतेजस्विनं तं विद्वांसो मन्यन्ते तत्त्वदर्शिनः ॥"
+          "text": "यस्तु क्रोधं समुत्पन्नं प्रज्ञया प्रतिबाधते ।\nतेजस्विनं तं विद्वांसो मन्यन्ते तत्त्वदर्शिनः ॥",
+          "meaning": {
+            "en": "\"But the man who holds back arisen anger by wisdom is thought fiery by the learned who see the truth.\""
+          }
         },
         {
           "n": 18,
-          "text": "क्रुद्धो हि कार्यं सुश्रोणि न यथावत्प्रपश्यति ।\nन कार्यं न च मर्यादां नरः क्रुद्धोऽनुपश्यति ॥"
+          "text": "क्रुद्धो हि कार्यं सुश्रोणि न यथावत्प्रपश्यति ।\nन कार्यं न च मर्यादां नरः क्रुद्धोऽनुपश्यति ॥",
+          "meaning": {
+            "en": "\"The angry man, fair lady, does not see what must be done correctly; the angry man sees neither duty nor limit.\""
+          }
         },
         {
           "n": 19,
-          "text": "हन्त्यवध्यानपि क्रुद्धो गुरून्रूक्षैस्तुदत्यपि ।\nतस्मात्तेजसि कर्तव्ये क्रोधो दूरात्प्रतिष्ठितः ॥"
+          "text": "हन्त्यवध्यानपि क्रुद्धो गुरून्रूक्षैस्तुदत्यपि ।\nतस्मात्तेजसि कर्तव्ये क्रोधो दूरात्प्रतिष्ठितः ॥",
+          "meaning": {
+            "en": "\"The angry man kills those who may not be killed and wounds elders with harsh words; so where fire is needed, anger should stay far away.\""
+          }
         },
         {
           "n": 20,
-          "text": "दाक्ष्यं ह्यमर्षः शौर्यं च शीघ्रत्वमिति तेजसः ।\nगुणाः क्रोधाभिभूतेन न शक्याः प्राप्तुमञ्जसा ॥"
+          "text": "दाक्ष्यं ह्यमर्षः शौर्यं च शीघ्रत्वमिति तेजसः ।\nगुणाः क्रोधाभिभूतेन न शक्याः प्राप्तुमञ्जसा ॥",
+          "meaning": {
+            "en": "\"Skill, impatience with wrong, courage and swiftness are the qualities of fire; a man overcome by anger cannot readily gain them.\""
+          }
         },
         {
           "n": 21,
-          "text": "क्रोधं त्यक्त्वा तु पुरुषः सम्यक्तेजोऽभिपद्यते ।\nकालयुक्तं महाप्राज्ञे क्रुद्धैस्तेजः सुदुःसहम् ॥"
+          "text": "क्रोधं त्यक्त्वा तु पुरुषः सम्यक्तेजोऽभिपद्यते ।\nकालयुक्तं महाप्राज्ञे क्रुद्धैस्तेजः सुदुःसहम् ॥",
+          "meaning": {
+            "en": "\"A man who gives up anger rightly attains fire; hard to bear, wise lady, is the fire of the angry when it comes at the right time.\""
+          }
         },
         {
           "n": 22,
-          "text": "क्रोधस्त्वपण्डितैः शश्वत्तेज इत्यभिधीयते ।\nरजस्तल्लोकनाशाय विहितं मानुषान्प्रति ॥"
+          "text": "क्रोधस्त्वपण्डितैः शश्वत्तेज इत्यभिधीयते ।\nरजस्तल्लोकनाशाय विहितं मानुषान्प्रति ॥",
+          "meaning": {
+            "en": "\"Fools always call anger 'fire', but it is only passion, designed to destroy the world among humankind.\""
+          }
         },
         {
           "n": 23,
-          "text": "तस्माच्छश्वत्त्यजेत्क्रोधं पुरुषः सम्यगाचरन् ।\nश्रेयान्स्वधर्मानपगो न क्रुद्ध इति निश्चितम् ॥"
+          "text": "तस्माच्छश्वत्त्यजेत्क्रोधं पुरुषः सम्यगाचरन् ।\nश्रेयान्स्वधर्मानपगो न क्रुद्ध इति निश्चितम् ॥",
+          "meaning": {
+            "en": "\"So a man behaving rightly should always give up anger; it is settled that one who does not stray from his own duty is better than one who is angry.\""
+          }
         },
         {
           "n": 24,
-          "text": "यदि सर्वमबुद्धीनामतिक्रान्तममेधसाम् ।\nअतिक्रमो मद्विधस्य कथं स्वित्स्यादनिन्दिते ॥"
+          "text": "यदि सर्वमबुद्धीनामतिक्रान्तममेधसाम् ।\nअतिक्रमो मद्विधस्य कथं स्वित्स्यादनिन्दिते ॥",
+          "meaning": {
+            "en": "\"If everything has been transgressed by the foolish and mindless, how could a man like me transgress, blameless lady?\""
+          }
         },
         {
           "n": 25,
-          "text": "यदि न स्युर्मनुष्येषु क्षमिणः पृथिवीसमाः ।\nन स्यात्संधिर्मनुष्याणां क्रोधमूलो हि विग्रहः ॥"
+          "text": "यदि न स्युर्मनुष्येषु क्षमिणः पृथिवीसमाः ।\nन स्यात्संधिर्मनुष्याणां क्रोधमूलो हि विग्रहः ॥",
+          "meaning": {
+            "en": "\"If there were no forgiving people on earth, as patient as the earth, there would be no peace among men, for quarrel has anger as its root.\""
+          }
         },
         {
           "n": 26,
-          "text": "अभिषक्तो ह्यभिषजेदाहन्याद्गुरुणा हतः ।\nएवं विनाशो भूतानामधर्मः प्रथितो भवेत् ॥"
+          "text": "अभिषक्तो ह्यभिषजेदाहन्याद्गुरुणा हतः ।\nएवं विनाशो भूतानामधर्मः प्रथितो भवेत् ॥",
+          "meaning": {
+            "en": "\"If one who is abused abused in turn, if one struck by an elder struck back, then the destruction of beings and unrighteousness would spread.\""
+          }
         },
         {
           "n": 27,
-          "text": "आक्रुष्टः पुरुषः सर्वः प्रत्याक्रोशेदनन्तरम् ।\nप्रतिहन्याद्धतश्चैव तथा हिंस्याच्च हिंसितः ॥"
+          "text": "आक्रुष्टः पुरुषः सर्वः प्रत्याक्रोशेदनन्तरम् ।\nप्रतिहन्याद्धतश्चैव तथा हिंस्याच्च हिंसितः ॥",
+          "meaning": {
+            "en": "\"Every man who is reviled would revile back at once; struck, he would strike back; harmed, he would harm.\""
+          }
         },
         {
           "n": 28,
-          "text": "हन्युर्हि पितरः पुत्रान्पुत्राश्चापि तथा पितॄन् ।\nहन्युश्च पतयो भार्याः पतीन्भार्यास्तथैव च ॥"
+          "text": "हन्युर्हि पितरः पुत्रान्पुत्राश्चापि तथा पितॄन् ।\nहन्युश्च पतयो भार्याः पतीन्भार्यास्तथैव च ॥",
+          "meaning": {
+            "en": "\"Fathers would kill sons and sons fathers, husbands would kill wives and wives husbands.\""
+          }
         },
         {
           "n": 29,
-          "text": "एवं संकुपिते लोके जन्म कृष्णे न विद्यते ।\nप्रजानां संधिमूलं हि जन्म विद्धि शुभानने ॥"
+          "text": "एवं संकुपिते लोके जन्म कृष्णे न विद्यते ।\nप्रजानां संधिमूलं हि जन्म विद्धि शुभानने ॥",
+          "meaning": {
+            "en": "\"In a world thus enraged, Krishna, no birth would occur; know, fair-faced one, that birth rests on peace among the people.\""
+          }
         },
         {
           "n": 30,
-          "text": "ताः क्षीयेरन्प्रजाः सर्वाः क्षिप्रं द्रौपदि तादृशे ।\nतस्मान्मन्युर्विनाशाय प्रजानामभवाय च ॥"
+          "text": "ताः क्षीयेरन्प्रजाः सर्वाः क्षिप्रं द्रौपदि तादृशे ।\nतस्मान्मन्युर्विनाशाय प्रजानामभवाय च ॥",
+          "meaning": {
+            "en": "\"In such a case, Draupadi, all creatures would quickly perish; so anger is for the destruction and non-being of creatures.\""
+          }
         },
         {
           "n": 31,
-          "text": "यस्मात्तु लोके दृश्यन्ते क्षमिणः पृथिवीसमाः ।\nतस्माज्जन्म च भूतानां भवश्च प्रतिपद्यते ॥"
+          "text": "यस्मात्तु लोके दृश्यन्ते क्षमिणः पृथिवीसमाः ।\nतस्माज्जन्म च भूतानां भवश्च प्रतिपद्यते ॥",
+          "meaning": {
+            "en": "\"Because forgiving people, like the earth, are seen in the world, the birth and the existence of beings continue.\""
+          }
         },
         {
           "n": 32,
-          "text": "क्षन्तव्यं पुरुषेणेह सर्वास्वापत्सु शोभने ।\nक्षमा भवो हि भूतानां जन्म चैव प्रकीर्तितम् ॥"
+          "text": "क्षन्तव्यं पुरुषेणेह सर्वास्वापत्सु शोभने ।\nक्षमा भवो हि भूतानां जन्म चैव प्रकीर्तितम् ॥",
+          "meaning": {
+            "en": "\"A man should forgive in all calamities, lovely one; forgiveness is said to be the existence and the birth of beings.\""
+          }
         },
         {
           "n": 33,
-          "text": "आक्रुष्टस्ताडितः क्रुद्धः क्षमते यो बलीयसा ।\nयश्च नित्यं जितक्रोधो विद्वानुत्तमपूरुषः ॥"
+          "text": "आक्रुष्टस्ताडितः क्रुद्धः क्षमते यो बलीयसा ।\nयश्च नित्यं जितक्रोधो विद्वानुत्तमपूरुषः ॥",
+          "meaning": {
+            "en": "\"The wise best of men who forgives when abused, beaten and angered by a stronger man, and who has always conquered anger,\""
+          }
         },
         {
           "n": 34,
-          "text": "प्रभाववानपि नरस्तस्य लोकाः सनातनाः ।\nक्रोधनस्त्वल्पविज्ञानः प्रेत्य चेह च नश्यति ॥"
+          "text": "प्रभाववानपि नरस्तस्य लोकाः सनातनाः ।\nक्रोधनस्त्वल्पविज्ञानः प्रेत्य चेह च नश्यति ॥",
+          "meaning": {
+            "en": "\"even if powerful, has eternal worlds; an angry man of little understanding is ruined here and after death.\""
+          }
         },
         {
           "n": 35,
-          "text": "अत्राप्युदाहरन्तीमा गाथा नित्यं क्षमावताम् ।\nगीताः क्षमावता कृष्णे काश्यपेन महात्मना ॥"
+          "text": "अत्राप्युदाहरन्तीमा गाथा नित्यं क्षमावताम् ।\nगीताः क्षमावता कृष्णे काश्यपेन महात्मना ॥",
+          "meaning": {
+            "en": "\"On this point, Krishna, these verses sung by the great-souled Kashyapa, always forgiving, are recited about those who forgive.\""
+          }
         },
         {
           "n": 36,
-          "text": "क्षमा धर्मः क्षमा यज्ञः क्षमा वेदाः क्षमा श्रुतम् ।\nयस्तामेवं विजानाति स सर्वं क्षन्तुमर्हति ॥"
+          "text": "क्षमा धर्मः क्षमा यज्ञः क्षमा वेदाः क्षमा श्रुतम् ।\nयस्तामेवं विजानाति स सर्वं क्षन्तुमर्हति ॥",
+          "meaning": {
+            "en": "\"Forgiveness is dharma, forgiveness is sacrifice, forgiveness is the Vedas, forgiveness is sacred learning; whoever knows this is able to forgive all.\""
+          }
         },
         {
           "n": 37,
-          "text": "क्षमा ब्रह्म क्षमा सत्यं क्षमा भूतं च भावि च ।\nक्षमा तपः क्षमा शौचं क्षमया चोद्धृतं जगत् ॥"
+          "text": "क्षमा ब्रह्म क्षमा सत्यं क्षमा भूतं च भावि च ।\nक्षमा तपः क्षमा शौचं क्षमया चोद्धृतं जगत् ॥",
+          "meaning": {
+            "en": "\"Forgiveness is Brahman, forgiveness is truth, forgiveness is what was and what will be; forgiveness is austerity, forgiveness is purity, and by forgiveness the world is upheld.\""
+          }
         },
         {
           "n": 38,
-          "text": "अति ब्रह्मविदां लोकानति चापि तपस्विनाम् ।\nअति यज्ञविदां चैव क्षमिणः प्राप्नुवन्ति तान् ॥"
+          "text": "अति ब्रह्मविदां लोकानति चापि तपस्विनाम् ।\nअति यज्ञविदां चैव क्षमिणः प्राप्नुवन्ति तान् ॥",
+          "meaning": {
+            "en": "\"The forgiving attain the worlds beyond those of the knowers of Brahman, of ascetics, and of those who know sacrifice.\""
+          }
         },
         {
           "n": 39,
-          "text": "क्षमा तेजस्विनां तेजः क्षमा ब्रह्म तपस्विनाम् ।\nक्षमा सत्यं सत्यवतां क्षमा दानं क्षमा यशः ॥"
+          "text": "क्षमा तेजस्विनां तेजः क्षमा ब्रह्म तपस्विनाम् ।\nक्षमा सत्यं सत्यवतां क्षमा दानं क्षमा यशः ॥",
+          "meaning": {
+            "en": "\"Forgiveness is the splendor of the splendid, forgiveness is Brahman of the ascetics, forgiveness is the truth of the truthful; forgiveness is giving, forgiveness is fame.\""
+          }
         },
         {
           "n": 40,
-          "text": "तां क्षमामीदृशीं कृष्णे कथमस्मद्विधस्त्यजेत् ।\nयस्यां ब्रह्म च सत्यं च यज्ञा लोकाश्च विष्ठिताः ।\nभुज्यन्ते यज्वनां लोकाः क्षमिणामपरे तथा ॥"
+          "text": "तां क्षमामीदृशीं कृष्णे कथमस्मद्विधस्त्यजेत् ।\nयस्यां ब्रह्म च सत्यं च यज्ञा लोकाश्च विष्ठिताः ।\nभुज्यन्ते यज्वनां लोकाः क्षमिणामपरे तथा ॥",
+          "meaning": {
+            "en": "\"How, Krishna, could one like us give up such forgiveness, on which Brahman, truth, sacrifices and the worlds rest? The worlds of those who sacrifice and others of the forgiving are enjoyed.\""
+          }
         },
         {
           "n": 41,
-          "text": "क्षन्तव्यमेव सततं पुरुषेण विजानता ।\nयदा हि क्षमते सर्वं ब्रह्म संपद्यते तदा ॥"
+          "text": "क्षन्तव्यमेव सततं पुरुषेण विजानता ।\nयदा हि क्षमते सर्वं ब्रह्म संपद्यते तदा ॥",
+          "meaning": {
+            "en": "\"A knowing man should always forgive; for when one forgives everything, he attains Brahman.\""
+          }
         },
         {
           "n": 42,
-          "text": "क्षमावतामयं लोकः परश्चैव क्षमावताम् ।\nइह संमानमृच्छन्ति परत्र च शुभां गतिम् ॥"
+          "text": "क्षमावतामयं लोकः परश्चैव क्षमावताम् ।\nइह संमानमृच्छन्ति परत्र च शुभां गतिम् ॥",
+          "meaning": {
+            "en": "\"This world belongs to the forgiving and the next belongs to the forgiving; here they gain honor and hereafter a good destination.\""
+          }
         },
         {
           "n": 43,
-          "text": "येषां मन्युर्मनुष्याणां क्षमया निहतः सदा ।\nतेषां परतरे लोकास्तस्मात्क्षान्तिः परा मता ॥"
+          "text": "येषां मन्युर्मनुष्याणां क्षमया निहतः सदा ।\nतेषां परतरे लोकास्तस्मात्क्षान्तिः परा मता ॥",
+          "meaning": {
+            "en": "\"Those men whose anger is always slain by forgiveness have the highest worlds beyond; therefore forbearance is held supreme.\""
+          }
         },
         {
           "n": 44,
-          "text": "इति गीताः काश्यपेन गाथा नित्यं क्षमावताम् ।\nश्रुत्वा गाथाः क्षमायास्त्वं तुष्य द्रौपदि मा क्रुधः ॥"
+          "text": "इति गीताः काश्यपेन गाथा नित्यं क्षमावताम् ।\nश्रुत्वा गाथाः क्षमायास्त्वं तुष्य द्रौपदि मा क्रुधः ॥",
+          "meaning": {
+            "en": "\"These are the verses that Kashyapa sang about those who always forgive. Having heard these verses on forgiveness, Draupadi, be content and do not be angry.\""
+          }
         },
         {
           "n": 45,
-          "text": "पितामहः शांतनवः शमं संपूजयिष्यति ।\nआचार्यो विदुरः क्षत्ता शममेव वदिष्यतः ।\nकृपश्च संजयश्चैव शममेव वदिष्यतः ॥"
+          "text": "पितामहः शांतनवः शमं संपूजयिष्यति ।\nआचार्यो विदुरः क्षत्ता शममेव वदिष्यतः ।\nकृपश्च संजयश्चैव शममेव वदिष्यतः ॥",
+          "meaning": {
+            "en": "\"Grandfather Bhishma, son of Shantanu, will honor peace; the teacher Drona and Vidura the minister will speak only of peace; Kripa and Sanjaya will also speak only of peace.\""
+          }
         },
         {
           "n": 46,
-          "text": "सोमदत्तो युयुत्सुश्च द्रोणपुत्रस्तथैव च ।\nपितामहश्च नो व्यासः शमं वदति नित्यशः ॥"
+          "text": "सोमदत्तो युयुत्सुश्च द्रोणपुत्रस्तथैव च ।\nपितामहश्च नो व्यासः शमं वदति नित्यशः ॥",
+          "meaning": {
+            "en": "\"Somadatta, Yuyutsu, Drona's son, and our grandfather Vyasa always speak for peace.\""
+          }
         },
         {
           "n": 47,
-          "text": "एतैर्हि राजा नियतं चोद्यमानः शमं प्रति ।\nराज्यं दातेति मे बुद्धिर्न चेल्लोभान्नशिष्यति ॥"
+          "text": "एतैर्हि राजा नियतं चोद्यमानः शमं प्रति ।\nराज्यं दातेति मे बुद्धिर्न चेल्लोभान्नशिष्यति ॥",
+          "meaning": {
+            "en": "\"Urged by these toward peace, the king will surely give back the kingdom, I think; and if he does not, because of greed he will perish.\""
+          }
         },
         {
           "n": 48,
-          "text": "कालोऽयं दारुणः प्राप्तो भरतानामभूतये ।\nनिश्चितं मे सदैवैतत्पुरस्तादपि भामिनि ॥"
+          "text": "कालोऽयं दारुणः प्राप्तो भरतानामभूतये ।\nनिश्चितं मे सदैवैतत्पुरस्तादपि भामिनि ॥",
+          "meaning": {
+            "en": "\"This dreadful time for the destruction of the Bharatas has arrived; this I have always been sure of, even before, fair lady.\""
+          }
         },
         {
           "n": 49,
-          "text": "सुयोधनो नार्हतीति क्षमामेवं न विन्दति ।\nअर्हस्तस्याहमित्येव तस्मान्मां विन्दते क्षमा ॥"
+          "text": "सुयोधनो नार्हतीति क्षमामेवं न विन्दति ।\nअर्हस्तस्याहमित्येव तस्मान्मां विन्दते क्षमा ॥",
+          "meaning": {
+            "en": "\"Suyodhana does not deserve forgiveness, and so he does not find it; since I deserve it, forgiveness finds me.\""
+          }
         },
         {
           "n": 50,
-          "text": "एतदात्मवतां वृत्तमेष धर्मः सनातनः ।\nक्षमा चैवानृशंस्यं च तत्कर्तास्म्यहमञ्जसा ॥"
+          "text": "एतदात्मवतां वृत्तमेष धर्मः सनातनः ।\nक्षमा चैवानृशंस्यं च तत्कर्तास्म्यहमञ्जसा ॥",
+          "meaning": {
+            "en": "\"This is the conduct of the self-controlled, this is eternal dharma: forgiveness and kindness, and this I will practice without hesitation.\""
+          }
         }
       ]
     }

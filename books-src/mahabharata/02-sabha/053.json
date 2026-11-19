@@ -22,140 +22,251 @@
       "titleEn": "Dyuta Parva (The dice game)",
       "verses": [
         {
-          "text": "शकुनिरुवाच"
+          "text": "शकुनिरुवाच",
+          "meaning": {
+            "en": "Shakuni said:"
+          }
         },
         {
           "n": 1,
-          "text": "उपस्तीर्णा सभा राजन्रन्तुं चैते कृतक्षणाः ।\nअक्षानुप्त्वा देवनस्य समयोऽस्तु युधिष्ठिर ॥"
+          "text": "उपस्तीर्णा सभा राजन्रन्तुं चैते कृतक्षणाः ।\nअक्षानुप्त्वा देवनस्य समयोऽस्तु युधिष्ठिर ॥",
+          "meaning": {
+            "en": "The hall is spread with seats, king, and these men have set aside the time to play. Let the dice be cast and the terms of play be agreed, Yudhishthira."
+          }
         },
         {
-          "text": "युधिष्ठिर उवाच"
+          "text": "युधिष्ठिर उवाच",
+          "meaning": {
+            "en": "Yudhishthira said:"
+          }
         },
         {
           "n": 2,
-          "text": "निकृतिर्देवनं पापं न क्षात्रोऽत्र पराक्रमः ।\nन च नीतिर्ध्रुवा राजन्किं त्वं द्यूतं प्रशंससि ॥"
+          "text": "निकृतिर्देवनं पापं न क्षात्रोऽत्र पराक्रमः ।\nन च नीतिर्ध्रुवा राजन्किं त्वं द्यूतं प्रशंससि ॥",
+          "meaning": {
+            "en": "Gambling is cheating and sin; there is no kshatriya valor in it and no firm policy. King, why do you praise dice?"
+          }
         },
         {
           "n": 3,
-          "text": "न हि मानं प्रशंसन्ति निकृतौ कितवस्य ह ।\nशकुने मैव नो जैषीरमार्गेण नृशंसवत् ॥"
+          "text": "न हि मानं प्रशंसन्ति निकृतौ कितवस्य ह ।\nशकुने मैव नो जैषीरमार्गेण नृशंसवत् ॥",
+          "meaning": {
+            "en": "They do not praise a gambler's pride in his trickery. Shakuni, do not defeat us by a crooked path like a cruel man."
+          }
         },
         {
-          "text": "शकुनिरुवाच"
+          "text": "शकुनिरुवाच",
+          "meaning": {
+            "en": "Shakuni said:"
+          }
         },
         {
           "n": 4,
-          "text": "योऽन्वेति संख्यां निकृतौ विधिज्ञ-\nश्चेष्टास्वखिन्नः कितवोऽक्षजासु ।\nमहामतिर्यश्च जानाति द्यूतं\nस वै सर्वं सहते प्रक्रियासु ॥"
+          "text": "योऽन्वेति संख्यां निकृतौ विधिज्ञ-\nश्चेष्टास्वखिन्नः कितवोऽक्षजासु ।\nमहामतिर्यश्च जानाति द्यूतं\nस वै सर्वं सहते प्रक्रियासु ॥",
+          "meaning": {
+            "en": "The gambler who follows the count in a cheat, knows the method and is not wearied by the efforts of dice, and who is of great intelligence and knows the game, can bear everything in its procedures."
+          }
         },
         {
           "n": 5,
-          "text": "अक्षग्लहः सोऽभिभवेत्परं न-\nस्तेनैव कालो भवतीदमात्थ ।\nदीव्यामहे पार्थिव मा विशङ्कां\nकुरुष्व पाणं च चिरं च मा कृथाः ॥"
+          "text": "अक्षग्लहः सोऽभिभवेत्परं न-\nस्तेनैव कालो भवतीदमात्थ ।\nदीव्यामहे पार्थिव मा विशङ्कां\nकुरुष्व पाणं च चिरं च मा कृथाः ॥",
+          "meaning": {
+            "en": "The stake at dice may overcome the other side, but it is the time that does that to us; so you say. Let us play, king; have no doubt, place the wager, and do not delay."
+          }
         },
         {
-          "text": "युधिष्ठिर उवाच"
+          "text": "युधिष्ठिर उवाच",
+          "meaning": {
+            "en": "Yudhishthira said:"
+          }
         },
         {
           "n": 6,
-          "text": "एवमाहायमसितो देवलो मुनिसत्तमः ।\nइमानि लोकद्वाराणि यो वै संचरते सदा ॥"
+          "text": "एवमाहायमसितो देवलो मुनिसत्तमः ।\nइमानि लोकद्वाराणि यो वै संचरते सदा ॥",
+          "meaning": {
+            "en": "The sage Asita Devala, best of munis, who always wanders through these gates of the world, spoke thus."
+          }
         },
         {
           "n": 7,
-          "text": "इदं वै देवनं पापं मायया कितवैः सह ।\nधर्मेण तु जयो युद्धे तत्परं साधु देवनम् ॥"
+          "text": "इदं वै देवनं पापं मायया कितवैः सह ।\nधर्मेण तु जयो युद्धे तत्परं साधु देवनम् ॥",
+          "meaning": {
+            "en": "This gambling with deceitful gamblers is sinful. But to win in battle by righteous means is the best kind of game."
+          }
         },
         {
           "n": 8,
-          "text": "नार्या म्लेच्छन्ति भाषाभिर्मायया न चरन्त्युत ।\nअजिह्ममशठं युद्धमेतत्सत्पुरुषव्रतम् ॥"
+          "text": "नार्या म्लेच्छन्ति भाषाभिर्मायया न चरन्त्युत ।\nअजिह्ममशठं युद्धमेतत्सत्पुरुषव्रतम् ॥",
+          "meaning": {
+            "en": "Noble people do not speak foreign tongues to mislead nor act by trickery. A straight, honest fight is the vow of good men."
+          }
         },
         {
           "n": 9,
-          "text": "शक्तितो ब्राह्मणान्वन्द्याञ्शिक्षितुं प्रयतामहे ।\nतद्वै वित्तं मातिदेवीर्मा जैषीः शकुने परम् ॥"
+          "text": "शक्तितो ब्राह्मणान्वन्द्याञ्शिक्षितुं प्रयतामहे ।\nतद्वै वित्तं मातिदेवीर्मा जैषीः शकुने परम् ॥",
+          "meaning": {
+            "en": "We strive as we can to support brahmins who deserve homage. Shakuni, do not win from us that wealth by overplaying."
+          }
         },
         {
           "n": 10,
-          "text": "नाहं निकृत्या कामये सुखान्युत धनानि वा ।\nकितवस्याप्यनिकृतेर्वृत्तमेतन्न पूज्यते ॥"
+          "text": "नाहं निकृत्या कामये सुखान्युत धनानि वा ।\nकितवस्याप्यनिकृतेर्वृत्तमेतन्न पूज्यते ॥",
+          "meaning": {
+            "en": "I do not desire pleasures or wealth got by cheating. Even a gambler's honest conduct is not praised if it is crooked."
+          }
         },
         {
-          "text": "शकुनिरुवाच"
+          "text": "शकुनिरुवाच",
+          "meaning": {
+            "en": "Shakuni said:"
+          }
         },
         {
           "n": 11,
-          "text": "श्रोत्रियोऽश्रोत्रियमुत निकृत्यैव युधिष्ठिर ।\nविद्वानविदुषोऽभ्येति नाहुस्तां निकृतिं जनाः ॥"
+          "text": "श्रोत्रियोऽश्रोत्रियमुत निकृत्यैव युधिष्ठिर ।\nविद्वानविदुषोऽभ्येति नाहुस्तां निकृतिं जनाः ॥",
+          "meaning": {
+            "en": "Yudhishthira, a learned man defeats an unlearned one, and a scholar of the Vedas beats a non-scholar, and people do not call that cheating."
+          }
         },
         {
           "n": 12,
-          "text": "एवं त्वं मामिहाभ्येत्य निकृतिं यदि मन्यसे ।\nदेवनाद्विनिवर्तस्व यदि ते विद्यते भयम् ॥"
+          "text": "एवं त्वं मामिहाभ्येत्य निकृतिं यदि मन्यसे ।\nदेवनाद्विनिवर्तस्व यदि ते विद्यते भयम् ॥",
+          "meaning": {
+            "en": "If you think that this is cheating when you come against me, then withdraw from play, if you are afraid."
+          }
         },
         {
-          "text": "युधिष्ठिर उवाच"
+          "text": "युधिष्ठिर उवाच",
+          "meaning": {
+            "en": "Yudhishthira said:"
+          }
         },
         {
           "n": 13,
-          "text": "आहूतो न निवर्तेयमिति मे व्रतमाहितम् ।\nविधिश्च बलवान्राजन्दिष्टस्यास्मि वशे स्थितः ॥"
+          "text": "आहूतो न निवर्तेयमिति मे व्रतमाहितम् ।\nविधिश्च बलवान्राजन्दिष्टस्यास्मि वशे स्थितः ॥",
+          "meaning": {
+            "en": "I have taken the vow not to turn back when called. Destiny is strong, king, and I stand under fate's power."
+          }
         },
         {
           "n": 14,
-          "text": "अस्मिन्समागमे केन देवनं मे भविष्यति ।\nप्रतिपाणश्च कोऽन्योऽस्ति ततो द्यूतं प्रवर्तताम् ॥"
+          "text": "अस्मिन्समागमे केन देवनं मे भविष्यति ।\nप्रतिपाणश्च कोऽन्योऽस्ति ततो द्यूतं प्रवर्तताम् ॥",
+          "meaning": {
+            "en": "In this gathering, with whom shall my game be, and who else has a stake to match? Let the play begin."
+          }
         },
         {
-          "text": "दुर्योधन उवाच"
+          "text": "दुर्योधन उवाच",
+          "meaning": {
+            "en": "Duryodhana said:"
+          }
         },
         {
           "n": 15,
-          "text": "अहं दातास्मि रत्नानां धनानां च विशां पते ।\nमदर्थे देविता चायं शकुनिर्मातुलो मम ॥"
+          "text": "अहं दातास्मि रत्नानां धनानां च विशां पते ।\nमदर्थे देविता चायं शकुनिर्मातुलो मम ॥",
+          "meaning": {
+            "en": "I will provide the jewels and wealth, lord of the people, and my uncle Shakuni will play on my behalf."
+          }
         },
         {
-          "text": "युधिष्ठिर उवाच"
+          "text": "युधिष्ठिर उवाच",
+          "meaning": {
+            "en": "Yudhishthira said:"
+          }
         },
         {
           "n": 16,
-          "text": "अन्येनान्यस्य विषमं देवनं प्रतिभाति मे ।\nएतद्विद्वन्नुपादत्स्व काममेवं प्रवर्तताम् ॥"
+          "text": "अन्येनान्यस्य विषमं देवनं प्रतिभाति मे ।\nएतद्विद्वन्नुपादत्स्व काममेवं प्रवर्तताम् ॥",
+          "meaning": {
+            "en": "It seems to me an unequal game, one person playing for another. Wise one, understand this, and let it go on as you like."
+          }
         },
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 17,
-          "text": "उपोह्यमाने द्यूते तु राजानः सर्व एव ते ।\nधृतराष्ट्रं पुरस्कृत्य विविशुस्तां सभां ततः ॥"
+          "text": "उपोह्यमाने द्यूते तु राजानः सर्व एव ते ।\nधृतराष्ट्रं पुरस्कृत्य विविशुस्तां सभां ततः ॥",
+          "meaning": {
+            "en": "When the game was being set up, all those kings, with Dhritarashtra before them, entered the hall."
+          }
         },
         {
           "n": 18,
-          "text": "भीष्मो द्रोणः कृपश्चैव विदुरश्च महामतिः ।\nनातीवप्रीतमनसस्तेऽन्ववर्तन्त भारत ॥"
+          "text": "भीष्मो द्रोणः कृपश्चैव विदुरश्च महामतिः ।\nनातीवप्रीतमनसस्तेऽन्ववर्तन्त भारत ॥",
+          "meaning": {
+            "en": "Bhishma, Drona, Kripa and the very wise Vidura followed, Bharata, though their minds were not very pleased."
+          }
         },
         {
           "n": 19,
-          "text": "ते द्वंद्वशः पृथक्चैव सिंहग्रीवा महौजसः ।\nसिंहासनानि भूरीणि विचित्राणि च भेजिरे ॥"
+          "text": "ते द्वंद्वशः पृथक्चैव सिंहग्रीवा महौजसः ।\nसिंहासनानि भूरीणि विचित्राणि च भेजिरे ॥",
+          "meaning": {
+            "en": "Those mighty lion-necked men sat in pairs and separately on many fine, varied thrones."
+          }
         },
         {
           "n": 20,
-          "text": "शुशुभे सा सभा राजन्राजभिस्तैः समागतैः ।\nदेवैरिव महाभागैः समवेतैस्त्रिविष्टपम् ॥"
+          "text": "शुशुभे सा सभा राजन्राजभिस्तैः समागतैः ।\nदेवैरिव महाभागैः समवेतैस्त्रिविष्टपम् ॥",
+          "meaning": {
+            "en": "That hall shone with the assembled kings, like heaven with the gathered great gods."
+          }
         },
         {
           "n": 21,
-          "text": "सर्वे वेदविदः शूराः सर्वे भास्वरमूर्तयः ।\nप्रावर्तत महाराज सुहृद्द्यूतमनन्तरम् ॥"
+          "text": "सर्वे वेदविदः शूराः सर्वे भास्वरमूर्तयः ।\nप्रावर्तत महाराज सुहृद्द्यूतमनन्तरम् ॥",
+          "meaning": {
+            "en": "All were Veda-knowers and heroes, all of shining form. Then the friendly game of dice began, great king."
+          }
         },
         {
-          "text": "युधिष्ठिर उवाच"
+          "text": "युधिष्ठिर उवाच",
+          "meaning": {
+            "en": "Yudhishthira said:"
+          }
         },
         {
           "n": 22,
-          "text": "अयं बहुधनो राजन्सागरावर्तसंभवः ।\nमणिर्हारोत्तरः श्रीमान्कनकोत्तमभूषणः ॥"
+          "text": "अयं बहुधनो राजन्सागरावर्तसंभवः ।\nमणिर्हारोत्तरः श्रीमान्कनकोत्तमभूषणः ॥",
+          "meaning": {
+            "en": "King, this jewel of great value, born in the ocean's whirl, strung in a necklace and splendid, adorned with the finest gold, is my wealth."
+          }
         },
         {
           "n": 23,
-          "text": "एतद्राजन्धनं मह्यं प्रतिपाणस्तु कस्तव ।\nभवत्वेष क्रमस्तात जयाम्येनं दुरोदरम् ॥"
+          "text": "एतद्राजन्धनं मह्यं प्रतिपाणस्तु कस्तव ।\nभवत्वेष क्रमस्तात जयाम्येनं दुरोदरम् ॥",
+          "meaning": {
+            "en": "That is my wealth, king; what is your stake against it? Let this be the order of play, and I will win this gambler."
+          }
         },
         {
-          "text": "दुर्योधन उवाच"
+          "text": "दुर्योधन उवाच",
+          "meaning": {
+            "en": "Duryodhana said:"
+          }
         },
         {
           "n": 24,
-          "text": "सन्ति मे मणयश्चैव धनानि विविधानि च ।\nमत्सरश्च न मेऽर्थेषु जयाम्येनं दुरोदरम् ॥"
+          "text": "सन्ति मे मणयश्चैव धनानि विविधानि च ।\nमत्सरश्च न मेऽर्थेषु जयाम्येनं दुरोदरम् ॥",
+          "meaning": {
+            "en": "I have jewels and many kinds of wealth, and I do not begrudge my riches. I will beat this man at dice."
+          }
         },
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 25,
-          "text": "ततो जग्राह शकुनिस्तानक्षानक्षतत्त्ववित् ।\nजितमित्येव शकुनिर्युधिष्ठिरमभाषत ॥"
+          "text": "ततो जग्राह शकुनिस्तानक्षानक्षतत्त्ववित् ।\nजितमित्येव शकुनिर्युधिष्ठिरमभाषत ॥",
+          "meaning": {
+            "en": "Then Shakuni, expert in the truth of dice, took up the dice and said to Yudhishthira, I have won."
+          }
         }
       ]
     }

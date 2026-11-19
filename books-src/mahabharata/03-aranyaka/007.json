@@ -22,109 +22,190 @@
       "titleEn": "Aranyaka Parva (Into the forest)",
       "verses": [
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 1,
-          "text": "गते तु विदुरे राजन्नाश्रमं पाण्डवान्प्रति ।\nधृतराष्ट्रो महाप्राज्ञः पर्यतप्यत भारत ॥"
+          "text": "गते तु विदुरे राजन्नाश्रमं पाण्डवान्प्रति ।\nधृतराष्ट्रो महाप्राज्ञः पर्यतप्यत भारत ॥",
+          "meaning": {
+            "en": "When Vidura had gone to the hermitage of the Pandavas, king, the very wise Dhritarashtra was racked with remorse, descendant of Bharata."
+          }
         },
         {
           "n": 2,
-          "text": "स सभाद्वारमागम्य विदुरस्मारमोहितः ।\nसमक्षं पार्थिवेन्द्राणां पपाताविष्टचेतनः ॥"
+          "text": "स सभाद्वारमागम्य विदुरस्मारमोहितः ।\nसमक्षं पार्थिवेन्द्राणां पपाताविष्टचेतनः ॥",
+          "meaning": {
+            "en": "Reaching the door of the assembly hall, bewildered by his remembrance of Vidura, he collapsed senseless in front of the lords of the earth."
+          }
         },
         {
           "n": 3,
-          "text": "स तु लब्ध्वा पुनः संज्ञां समुत्थाय महीतलात् ।\nसमीपोपस्थितं राजा संजयं वाक्यमब्रवीत् ॥"
+          "text": "स तु लब्ध्वा पुनः संज्ञां समुत्थाय महीतलात् ।\nसमीपोपस्थितं राजा संजयं वाक्यमब्रवीत् ॥",
+          "meaning": {
+            "en": "Regaining consciousness, the king rose from the ground and spoke to Sanjaya, who stood near."
+          }
         },
         {
           "n": 4,
-          "text": "भ्राता मम सुहृच्चैव साक्षाद्धर्म इवापरः ।\nतस्य स्मृत्वाद्य सुभृशं हृदयं दीर्यतीव मे ॥"
+          "text": "भ्राता मम सुहृच्चैव साक्षाद्धर्म इवापरः ।\nतस्य स्मृत्वाद्य सुभृशं हृदयं दीर्यतीव मे ॥",
+          "meaning": {
+            "en": "My brother and friend, like a second Dharma in person: remembering him, my heart seems to split open."
+          }
         },
         {
           "n": 5,
-          "text": "तमानयस्व धर्मज्ञं मम भ्रातरमाशु वै ।\nइति ब्रुवन्स नृपतिः करुणं पर्यदेवयत् ॥"
+          "text": "तमानयस्व धर्मज्ञं मम भ्रातरमाशु वै ।\nइति ब्रुवन्स नृपतिः करुणं पर्यदेवयत् ॥",
+          "meaning": {
+            "en": "Bring him quickly, my brother who knows dharma. So saying, the king lamented piteously."
+          }
         },
         {
           "n": 6,
-          "text": "पश्चात्तापाभिसंतप्तो विदुरस्मारकर्शितः ।\nभ्रातृस्नेहादिदं राजन्संजयं वाक्यमब्रवीत् ॥"
+          "text": "पश्चात्तापाभिसंतप्तो विदुरस्मारकर्शितः ।\nभ्रातृस्नेहादिदं राजन्संजयं वाक्यमब्रवीत् ॥",
+          "meaning": {
+            "en": "Scorched by regret, wasted by his longing for Vidura, he spoke from brotherly love to Sanjaya, king."
+          }
         },
         {
           "n": 7,
-          "text": "गच्छ संजय जानीहि भ्रातरं विदुरं मम ।\nयदि जीवति रोषेण मया पापेन निर्धुतः ॥"
+          "text": "गच्छ संजय जानीहि भ्रातरं विदुरं मम ।\nयदि जीवति रोषेण मया पापेन निर्धुतः ॥",
+          "meaning": {
+            "en": "Go, Sanjaya, and find out whether my brother Vidura is alive, he whom I, wicked, cast out in anger."
+          }
         },
         {
           "n": 8,
-          "text": "न हि तेन मम भ्रात्रा सुसूक्ष्ममपि किंचन ।\nव्यलीकं कृतपूर्वं मे प्राज्ञेनामितबुद्धिना ॥"
+          "text": "न हि तेन मम भ्रात्रा सुसूक्ष्ममपि किंचन ।\nव्यलीकं कृतपूर्वं मे प्राज्ञेनामितबुद्धिना ॥",
+          "meaning": {
+            "en": "That wise brother of mine, of boundless intelligence, never did me the slightest wrong before."
+          }
         },
         {
           "n": 9,
-          "text": "स व्यलीकं कथं प्राप्तो मत्तः परमबुद्धिमान् ।\nन जह्याज्जीवितं प्राज्ञस्तं गच्छानय संजय ॥"
+          "text": "स व्यलीकं कथं प्राप्तो मत्तः परमबुद्धिमान् ।\nन जह्याज्जीवितं प्राज्ञस्तं गच्छानय संजय ॥",
+          "meaning": {
+            "en": "How could he, so very wise, have been wronged by me in my folly? Go and bring him, Sanjaya, lest that wise man give up his life."
+          }
         },
         {
           "n": 10,
-          "text": "तस्य तद्वचनं श्रुत्वा राज्ञस्तमनुमान्य च ।\nसंजयो बाढमित्युक्त्वा प्राद्रवत्काम्यकं वनम् ॥"
+          "text": "तस्य तद्वचनं श्रुत्वा राज्ञस्तमनुमान्य च ।\nसंजयो बाढमित्युक्त्वा प्राद्रवत्काम्यकं वनम् ॥",
+          "meaning": {
+            "en": "Hearing the king's words and honoring them, Sanjaya said \"So be it\" and hurried to the Kamyaka forest."
+          }
         },
         {
           "n": 11,
-          "text": "सोऽचिरेण समासाद्य तद्वनं यत्र पाण्डवाः ।\nरौरवाजिनसंवीतं ददर्शाथ युधिष्ठिरम् ॥"
+          "text": "सोऽचिरेण समासाद्य तद्वनं यत्र पाण्डवाः ।\nरौरवाजिनसंवीतं ददर्शाथ युधिष्ठिरम् ॥",
+          "meaning": {
+            "en": "Soon he reached the forest where the Pandavas were, and saw Yudhishthira dressed in black antelope skin."
+          }
         },
         {
           "n": 12,
-          "text": "विदुरेण सहासीनं ब्राह्मणैश्च सहस्रशः ।\nभ्रातृभिश्चाभिसंगुप्तं देवैरिव शतक्रतुम् ॥"
+          "text": "विदुरेण सहासीनं ब्राह्मणैश्च सहस्रशः ।\nभ्रातृभिश्चाभिसंगुप्तं देवैरिव शतक्रतुम् ॥",
+          "meaning": {
+            "en": "He was seated with Vidura and thousands of Brahmins, guarded by his brothers as Indra by the gods."
+          }
         },
         {
           "n": 13,
-          "text": "युधिष्ठिरमथाभ्येत्य पूजयामास संजयः ।\nभीमार्जुनयमांश्चापि तदर्हं प्रत्यपद्यत ॥"
+          "text": "युधिष्ठिरमथाभ्येत्य पूजयामास संजयः ।\nभीमार्जुनयमांश्चापि तदर्हं प्रत्यपद्यत ॥",
+          "meaning": {
+            "en": "Approaching Yudhishthira, Sanjaya paid him honor, and received due courtesy from Bhima, Arjuna and the twins."
+          }
         },
         {
           "n": 14,
-          "text": "राज्ञा पृष्टः स कुशलं सुखासीनश्च संजयः ।\nशशंसागमने हेतुमिदं चैवाब्रवीद्वचः ॥"
+          "text": "राज्ञा पृष्टः स कुशलं सुखासीनश्च संजयः ।\nशशंसागमने हेतुमिदं चैवाब्रवीद्वचः ॥",
+          "meaning": {
+            "en": "Asked about his welfare by the king, Sanjaya sat at ease and told the reason for his coming, and spoke these words."
+          }
         },
         {
           "n": 15,
-          "text": "राजा स्मरति ते क्षत्तर्धृतराष्ट्रोऽम्बिकासुतः ।\nतं पश्य गत्वा त्वं क्षिप्रं संजीवय च पार्थिवम् ॥"
+          "text": "राजा स्मरति ते क्षत्तर्धृतराष्ट्रोऽम्बिकासुतः ।\nतं पश्य गत्वा त्वं क्षिप्रं संजीवय च पार्थिवम् ॥",
+          "meaning": {
+            "en": "King Dhritarashtra, Ambika's son, remembers you, Vidura. Go to him quickly and revive the king."
+          }
         },
         {
           "n": 16,
-          "text": "सोऽनुमान्य नरश्रेष्ठान्पाण्डवान्कुरुनन्दनान् ।\nनियोगाद्राजसिंहस्य गन्तुमर्हसि मानद ॥"
+          "text": "सोऽनुमान्य नरश्रेष्ठान्पाण्डवान्कुरुनन्दनान् ।\nनियोगाद्राजसिंहस्य गन्तुमर्हसि मानद ॥",
+          "meaning": {
+            "en": "Taking leave of the Pandavas, best of men and joy of the Kurus, you should go at the lion-king's command, giver of honor."
+          }
         },
         {
           "n": 17,
-          "text": "एवमुक्तस्तु विदुरो धीमान्स्वजनवत्सलः ।\nयुधिष्ठिरस्यानुमते पुनरायाद्गजाह्वयम् ॥"
+          "text": "एवमुक्तस्तु विदुरो धीमान्स्वजनवत्सलः ।\nयुधिष्ठिरस्यानुमते पुनरायाद्गजाह्वयम् ॥",
+          "meaning": {
+            "en": "Thus told, wise Vidura, fond of his own people, went back to Hastinapura with Yudhishthira's consent."
+          }
         },
         {
           "n": 18,
-          "text": "तमब्रवीन्महाप्राज्ञं धृतराष्ट्रः प्रतापवान् ।\nदिष्ट्या प्राप्तोऽसि धर्मज्ञ दिष्ट्या स्मरसि मेऽनघ ॥"
+          "text": "तमब्रवीन्महाप्राज्ञं धृतराष्ट्रः प्रतापवान् ।\nदिष्ट्या प्राप्तोऽसि धर्मज्ञ दिष्ट्या स्मरसि मेऽनघ ॥",
+          "meaning": {
+            "en": "Mighty Dhritarashtra said to the very wise Vidura, \"By good fortune you have come, knower of dharma; by good fortune you remember me, blameless one."
+          }
         },
         {
           "n": 19,
-          "text": "अद्य रात्रौ दिवा चाहं त्वत्कृते भरतर्षभ ।\nप्रजागरे प्रपश्यामि विचित्रं देहमात्मनः ॥"
+          "text": "अद्य रात्रौ दिवा चाहं त्वत्कृते भरतर्षभ ।\nप्रजागरे प्रपश्यामि विचित्रं देहमात्मनः ॥",
+          "meaning": {
+            "en": "Today, night and day, bull of the Bharatas, I have lain sleepless on your account, seeing my own body as a strange thing.\""
+          }
         },
         {
           "n": 20,
-          "text": "सोऽङ्कमादाय विदुरं मूर्ध्न्युपाघ्राय चैव ह ।\nक्षम्यतामिति चोवाच यदुक्तोऽसि मया रुषा ॥"
+          "text": "सोऽङ्कमादाय विदुरं मूर्ध्न्युपाघ्राय चैव ह ।\nक्षम्यतामिति चोवाच यदुक्तोऽसि मया रुषा ॥",
+          "meaning": {
+            "en": "He took Vidura on his lap, smelled his head in greeting, and said, \"Forgive me for what I said to you in anger.\""
+          }
         },
         {
-          "text": "विदुर उवाच"
+          "text": "विदुर उवाच",
+          "meaning": {
+            "en": "Vidura said:"
+          }
         },
         {
           "n": 21,
-          "text": "क्षान्तमेव मया राजन्गुरुर्नः परमो भवान् ।\nतथा ह्यस्म्यागतः क्षिप्रं त्वद्दर्शनपरायणः ॥"
+          "text": "क्षान्तमेव मया राजन्गुरुर्नः परमो भवान् ।\nतथा ह्यस्म्यागतः क्षिप्रं त्वद्दर्शनपरायणः ॥",
+          "meaning": {
+            "en": "I have already forgiven it, king; you are our highest elder. I came back quickly because I was eager to see you."
+          }
         },
         {
           "n": 22,
-          "text": "भवन्ति हि नरव्याघ्र पुरुषा धर्मचेतसः ।\nदीनाभिपातिनो राजन्नात्र कार्या विचारणा ॥"
+          "text": "भवन्ति हि नरव्याघ्र पुरुषा धर्मचेतसः ।\nदीनाभिपातिनो राजन्नात्र कार्या विचारणा ॥",
+          "meaning": {
+            "en": "Tiger among men, those with a righteous mind rush to the afflicted; there is no need to wonder at it."
+          }
         },
         {
           "n": 23,
-          "text": "पाण्डोः सुता यादृशा मे तादृशा मे सुतास्तव ।\nदीना इति हि मे बुद्धिरभिपन्नाद्य तान्प्रति ॥"
+          "text": "पाण्डोः सुता यादृशा मे तादृशा मे सुतास्तव ।\nदीना इति हि मे बुद्धिरभिपन्नाद्य तान्प्रति ॥",
+          "meaning": {
+            "en": "The sons of Pandu are as dear to me as your sons are. My mind is moved toward them today only because they are in distress."
+          }
         },
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 24,
-          "text": "अन्योन्यमनुनीयैवं भ्रातरौ तौ महाद्युती ।\nविदुरो धृतराष्ट्रश्च लेभाते परमां मुदम् ॥"
+          "text": "अन्योन्यमनुनीयैवं भ्रातरौ तौ महाद्युती ।\nविदुरो धृतराष्ट्रश्च लेभाते परमां मुदम् ॥",
+          "meaning": {
+            "en": "Thus placating each other, the two brothers of great splendor, Vidura and Dhritarashtra, found the highest joy."
+          }
         }
       ]
     }

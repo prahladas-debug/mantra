@@ -22,127 +22,220 @@
       "titleEn": "Tirthayatra Parva (The pilgrimage)",
       "verses": [
         {
-          "text": "धौम्य उवाच"
+          "text": "धौम्य उवाच",
+          "meaning": {
+            "en": "Dhaumya said:"
+          }
         },
         {
           "n": 1,
-          "text": "उदीच्यां राजशार्दूल दिशि पुण्यानि यानि वै ।\nतानि ते कीर्तयिष्यामि पुण्यान्यायतनानि च ॥"
+          "text": "उदीच्यां राजशार्दूल दिशि पुण्यानि यानि वै ।\nतानि ते कीर्तयिष्यामि पुण्यान्यायतनानि च ॥",
+          "meaning": {
+            "en": "Tiger among kings, I will now tell you of the holy places and sacred shrines in the northern quarter."
+          }
         },
         {
           "n": 2,
-          "text": "सरस्वती पुण्यवहा ह्रदिनी वनमालिनी ।\nसमुद्रगा महावेगा यमुना यत्र पाण्डव ॥"
+          "text": "सरस्वती पुण्यवहा ह्रदिनी वनमालिनी ।\nसमुद्रगा महावेगा यमुना यत्र पाण्डव ॥",
+          "meaning": {
+            "en": "There flows the Sarasvati, bearing merit, full of lakes and garlanded with forests, rushing to the sea, and there too, Pandava, flows the Yamuna."
+          }
         },
         {
           "n": 3,
-          "text": "तत्र पुण्यतमं तीर्थं प्लक्षावतरणं शिवम् ।\nयत्र सारस्वतैरिष्ट्वा गच्छन्त्यवभृथं द्विजाः ॥"
+          "text": "तत्र पुण्यतमं तीर्थं प्लक्षावतरणं शिवम् ।\nयत्र सारस्वतैरिष्ट्वा गच्छन्त्यवभृथं द्विजाः ॥",
+          "meaning": {
+            "en": "There is the most sacred and auspicious ford Plakshavatarana, where brahmins who have sacrificed on the Sarasvati go to the final bath."
+          }
         },
         {
           "n": 4,
-          "text": "पुण्यं चाख्यायते दिव्यं शिवमग्निशिरोऽनघ ।\nसहदेवोऽयजद्यत्र शम्याक्षेपेण भारत ॥"
+          "text": "पुण्यं चाख्यायते दिव्यं शिवमग्निशिरोऽनघ ।\nसहदेवोऽयजद्यत्र शम्याक्षेपेण भारत ॥",
+          "meaning": {
+            "en": "Sinless one, the holy, divine and auspicious Agnishiras is also told of, where Sahadeva, Bharata, performed a sacrifice by hurling his yoke-pin."
+          }
         },
         {
           "n": 5,
-          "text": "एतस्मिन्नेव चार्थेयमिन्द्रगीता युधिष्ठिर ।\nगाथा चरति लोकेऽस्मिन्गीयमाना द्विजातिभिः ॥"
+          "text": "एतस्मिन्नेव चार्थेयमिन्द्रगीता युधिष्ठिर ।\nगाथा चरति लोकेऽस्मिन्गीयमाना द्विजातिभिः ॥",
+          "meaning": {
+            "en": "On this very matter, Yudhishthira, there is a verse sung by Indra that brahmins still chant in this world."
+          }
         },
         {
           "n": 6,
-          "text": "अग्नयः सहदेवेन ये चिता यमुनामनु ।\nशतं शतसहस्राणि सहस्रशतदक्षिणाः ॥"
+          "text": "अग्नयः सहदेवेन ये चिता यमुनामनु ।\nशतं शतसहस्राणि सहस्रशतदक्षिणाः ॥",
+          "meaning": {
+            "en": "It says that the sacrificial fires which Sahadeva piled along the Yamuna numbered a hundred times a hundred thousand, with a hundred thousand gifts at each."
+          }
         },
         {
           "n": 7,
-          "text": "तत्रैव भरतो राजा चक्रवर्ती महायशाः ।\nविंशतिं सप्त चाष्टौ च हयमेधानुपाहरत् ॥"
+          "text": "तत्रैव भरतो राजा चक्रवर्ती महायशाः ।\nविंशतिं सप्त चाष्टौ च हयमेधानुपाहरत् ॥",
+          "meaning": {
+            "en": "There too, King Bharata, the renowned emperor, offered horse sacrifices, twenty-seven and eight."
+          }
         },
         {
           "n": 8,
-          "text": "कामकृद्यो द्विजातीनां श्रुतस्तात मया पुरा ।\nअत्यन्तमाश्रमः पुण्यः सरकस्तस्य विश्रुतः ॥"
+          "text": "कामकृद्यो द्विजातीनां श्रुतस्तात मया पुरा ।\nअत्यन्तमाश्रमः पुण्यः सरकस्तस्य विश्रुतः ॥",
+          "meaning": {
+            "en": "Dear son, I heard long ago of one who fulfilled brahmins' wishes there; his holy hermitage Saraka is very famous."
+          }
         },
         {
           "n": 9,
-          "text": "सरस्वती नदी सद्भिः सततं पार्थ पूजिता ।\nवालखिल्यैर्महाराज यत्रेष्टमृषिभिः पुरा ॥"
+          "text": "सरस्वती नदी सद्भिः सततं पार्थ पूजिता ।\nवालखिल्यैर्महाराज यत्रेष्टमृषिभिः पुरा ॥",
+          "meaning": {
+            "en": "The river Sarasvati is always honoured by the good, Partha, and there, great king, the Valakhilya sages performed their sacrifices long ago."
+          }
         },
         {
           "n": 10,
-          "text": "दृषद्वती पुण्यतमा तत्र ख्याता युधिष्ठिर ।\nतत्र वैवर्ण्यवर्णौ च सुपुण्यौ मनुजाधिप ॥"
+          "text": "दृषद्वती पुण्यतमा तत्र ख्याता युधिष्ठिर ।\nतत्र वैवर्ण्यवर्णौ च सुपुण्यौ मनुजाधिप ॥",
+          "meaning": {
+            "en": "The most holy Drishadvati is renowned there, Yudhishthira, and there too, lord of men, were two very holy men of different classes."
+          }
         },
         {
           "n": 11,
-          "text": "वेदज्ञौ वेदविदितौ विद्यावेदविदावुभौ ।\nयजन्तौ क्रतुभिर्नित्यं पुण्यैर्भरतसत्तम ॥"
+          "text": "वेदज्ञौ वेदविदितौ विद्यावेदविदावुभौ ।\nयजन्तौ क्रतुभिर्नित्यं पुण्यैर्भरतसत्तम ॥",
+          "meaning": {
+            "en": "Both knew the Vedas and were known for the Vedas, learned in lore and scripture, and they sacrificed constantly with pure rites, best of Bharatas."
+          }
         },
         {
           "n": 12,
-          "text": "समेत्य बहुशो देवाः सेन्द्राः सवरुणाः पुरा ।\nविशाखयूपेऽतप्यन्त तस्मात्पुण्यतमः स वै ॥"
+          "text": "समेत्य बहुशो देवाः सेन्द्राः सवरुणाः पुरा ।\nविशाखयूपेऽतप्यन्त तस्मात्पुण्यतमः स वै ॥",
+          "meaning": {
+            "en": "Long ago the gods, with Indra and Varuna, gathered many times and performed austerities at Vishakhayupa, so that place is most holy."
+          }
         },
         {
           "n": 13,
-          "text": "ऋषिर्महान्महाभागो जमदग्निर्महायशाः ।\nपलाशकेषु पुण्येषु रम्येष्वयजताभिभूः ॥"
+          "text": "ऋषिर्महान्महाभागो जमदग्निर्महायशाः ।\nपलाशकेषु पुण्येषु रम्येष्वयजताभिभूः ॥",
+          "meaning": {
+            "en": "The great sage Jamadagni, of great fortune and fame, an overpowering ascetic, sacrificed in the pleasant, holy Palashaka groves."
+          }
         },
         {
           "n": 14,
-          "text": "यत्र सर्वाः सरिच्छ्रेष्ठाः साक्षात्तमृषिसत्तमम् ।\nस्वं स्वं तोयमुपादाय परिवार्योपतस्थिरे ॥"
+          "text": "यत्र सर्वाः सरिच्छ्रेष्ठाः साक्षात्तमृषिसत्तमम् ।\nस्वं स्वं तोयमुपादाय परिवार्योपतस्थिरे ॥",
+          "meaning": {
+            "en": "There all the finest rivers came in person to that best of sages, each bringing its own water, and stood around him in attendance."
+          }
         },
         {
           "n": 15,
-          "text": "अपि चात्र महाराज स्वयं विश्वावसुर्जगौ ।\nइमं श्लोकं तदा वीर प्रेक्ष्य वीर्यं महात्मनः ॥"
+          "text": "अपि चात्र महाराज स्वयं विश्वावसुर्जगौ ।\nइमं श्लोकं तदा वीर प्रेक्ष्य वीर्यं महात्मनः ॥",
+          "meaning": {
+            "en": "Great king, Vishvavasu himself sang this verse there, hero, when he saw the might of that great-souled man."
+          }
         },
         {
           "n": 16,
-          "text": "यजमानस्य वै देवाञ्जमदग्नेर्महात्मनः ।\nआगम्य सरितः सर्वा मधुना समतर्पयन् ॥"
+          "text": "यजमानस्य वै देवाञ्जमदग्नेर्महात्मनः ।\nआगम्य सरितः सर्वा मधुना समतर्पयन् ॥",
+          "meaning": {
+            "en": "He sang that when the great Jamadagni was sacrificing to the gods, all the rivers came and satisfied him with honey."
+          }
         },
         {
           "n": 17,
-          "text": "गन्धर्वयक्षरक्षोभिरप्सरोभिश्च शोभितम् ।\nकिरातकिंनरावासं शैलं शिखरिणां वरम् ॥"
+          "text": "गन्धर्वयक्षरक्षोभिरप्सरोभिश्च शोभितम् ।\nकिरातकिंनरावासं शैलं शिखरिणां वरम् ॥",
+          "meaning": {
+            "en": "There is a mountain, best of peaks, adorned with gandharvas, yakshas, rakshasas and apsaras, the home of Kiratas and Kinnaras."
+          }
         },
         {
           "n": 18,
-          "text": "बिभेद तरसा गङ्गा गङ्गाद्वारे युधिष्ठिर ।\nपुण्यं तत्ख्यायते राजन्ब्रह्मर्षिगणसेवितम् ॥"
+          "text": "बिभेद तरसा गङ्गा गङ्गाद्वारे युधिष्ठिर ।\nपुण्यं तत्ख्यायते राजन्ब्रह्मर्षिगणसेवितम् ॥",
+          "meaning": {
+            "en": "At Gangadvara, Yudhishthira, the Ganga burst through it with force. That place is called holy, king, and is visited by hosts of brahmin sages."
+          }
         },
         {
           "n": 19,
-          "text": "सनत्कुमारः कौरव्य पुण्यं कनखलं तथा ।\nपर्वतश्च पुरुर्नाम यत्र जातः पुरूरवाः ॥"
+          "text": "सनत्कुमारः कौरव्य पुण्यं कनखलं तथा ।\nपर्वतश्च पुरुर्नाम यत्र जातः पुरूरवाः ॥",
+          "meaning": {
+            "en": "Descendant of Kuru, Sanatkumara's holy Kanakhala is there, and the mountain called Puru, where Pururavas was born."
+          }
         },
         {
           "n": 20,
-          "text": "भृगुर्यत्र तपस्तेपे महर्षिगणसेवितः ।\nस राजन्नाश्रमः ख्यातो भृगुतुङ्गो महागिरिः ॥"
+          "text": "भृगुर्यत्र तपस्तेपे महर्षिगणसेवितः ।\nस राजन्नाश्रमः ख्यातो भृगुतुङ्गो महागिरिः ॥",
+          "meaning": {
+            "en": "The great mountain Bhriguttunga, where Bhrigu practised austerities attended by hosts of great sages, is renowned as his hermitage, king."
+          }
         },
         {
           "n": 21,
-          "text": "यच्च भूतं भविष्यच्च भवच्च पुरुषर्षभ ।\nनारायणः प्रभुर्विष्णुः शाश्वतः पुरुषोत्तमः ॥"
+          "text": "यच्च भूतं भविष्यच्च भवच्च पुरुषर्षभ ।\nनारायणः प्रभुर्विष्णुः शाश्वतः पुरुषोत्तमः ॥",
+          "meaning": {
+            "en": "Bull among men, Narayana is the lord Vishnu, eternal, the Supreme Person, who is all that was, is and will be."
+          }
         },
         {
           "n": 22,
-          "text": "तस्यातियशसः पुण्यां विशालां बदरीमनु ।\nआश्रमः ख्यायते पुण्यस्त्रिषु लोकेषु विश्रुतः ॥"
+          "text": "तस्यातियशसः पुण्यां विशालां बदरीमनु ।\nआश्रमः ख्यायते पुण्यस्त्रिषु लोकेषु विश्रुतः ॥",
+          "meaning": {
+            "en": "Near the great Badari of that supremely glorious one stands his holy hermitage, famed in the three worlds."
+          }
         },
         {
           "n": 23,
-          "text": "उष्णतोयवहा गङ्गा शीततोयवहापरा ।\nसुवर्णसिकता राजन्विशालां बदरीमनु ॥"
+          "text": "उष्णतोयवहा गङ्गा शीततोयवहापरा ।\nसुवर्णसिकता राजन्विशालां बदरीमनु ॥",
+          "meaning": {
+            "en": "Near the great Badari, king, one Ganga carries hot water and another carries cold, and its sands are golden."
+          }
         },
         {
           "n": 24,
-          "text": "ऋषयो यत्र देवाश्च महाभागा महौजसः ।\nप्राप्य नित्यं नमस्यन्ति देवं नारायणं विभुम् ॥"
+          "text": "ऋषयो यत्र देवाश्च महाभागा महौजसः ।\nप्राप्य नित्यं नमस्यन्ति देवं नारायणं विभुम् ॥",
+          "meaning": {
+            "en": "Sages and mighty, fortunate gods always come there and bow to the lord Narayana, the all-pervading God."
+          }
         },
         {
           "n": 25,
-          "text": "यत्र नारायणो देवः परमात्मा सनातनः ।\nतत्र कृत्स्नं जगत्पार्थ तीर्थान्यायतनानि च ॥"
+          "text": "यत्र नारायणो देवः परमात्मा सनातनः ।\nतत्र कृत्स्नं जगत्पार्थ तीर्थान्यायतनानि च ॥",
+          "meaning": {
+            "en": "Partha, where the God Narayana, the eternal Supreme Self, dwells, there is the whole world with all its fords and shrines."
+          }
         },
         {
           "n": 26,
-          "text": "तत्पुण्यं तत्परं ब्रह्म तत्तीर्थं तत्तपोवनम् ।\nतत्र देवर्षयः सिद्धाः सर्वे चैव तपोधनाः ॥"
+          "text": "तत्पुण्यं तत्परं ब्रह्म तत्तीर्थं तत्तपोवनम् ।\nतत्र देवर्षयः सिद्धाः सर्वे चैव तपोधनाः ॥",
+          "meaning": {
+            "en": "That is the holy place, that is the supreme Brahman, that is the ford, that is the ascetic forest, and there are all the divine sages, perfected ones and rich ascetics."
+          }
         },
         {
           "n": 27,
-          "text": "आदिदेवो महायोगी यत्रास्ते मधुसूदनः ।\nपुण्यानामपि तत्पुण्यं तत्र ते संशयोऽस्तु मा ॥"
+          "text": "आदिदेवो महायोगी यत्रास्ते मधुसूदनः ।\nपुण्यानामपि तत्पुण्यं तत्र ते संशयोऽस्तु मा ॥",
+          "meaning": {
+            "en": "Where Madhusudana, the primal God and great yogi, abides, that is the holiest of holy places. Have no doubt about it."
+          }
         },
         {
           "n": 28,
-          "text": "एतानि राजन्पुण्यानि पृथिव्यां पृथिवीपते ।\nकीर्तितानि नरश्रेष्ठ तीर्थान्यायतनानि च ॥"
+          "text": "एतानि राजन्पुण्यानि पृथिव्यां पृथिवीपते ।\nकीर्तितानि नरश्रेष्ठ तीर्थान्यायतनानि च ॥",
+          "meaning": {
+            "en": "These, king, are the holy places on earth, lord of the earth, best of men, the fords and shrines I have recounted."
+          }
         },
         {
           "n": 29,
-          "text": "एतानि वसुभिः साध्यैरादित्यैर्मरुदश्विभिः ।\nऋषिभिर्ब्रह्मकल्पैश्च सेवितानि महात्मभिः ॥"
+          "text": "एतानि वसुभिः साध्यैरादित्यैर्मरुदश्विभिः ।\nऋषिभिर्ब्रह्मकल्पैश्च सेवितानि महात्मभिः ॥",
+          "meaning": {
+            "en": "They are frequented by the Vasus, Sadhyas, Adityas, Maruts and Ashvins, and by great sages equal to Brahma."
+          }
         },
         {
           "n": 30,
-          "text": "चरनेतानि कौन्तेय सहितो ब्राह्मणर्षभैः ।\nभ्रातृभिश्च महाभागैरुत्कण्ठां विजहिष्यसि ॥"
+          "text": "चरनेतानि कौन्तेय सहितो ब्राह्मणर्षभैः ।\nभ्रातृभिश्च महाभागैरुत्कण्ठां विजहिष्यसि ॥",
+          "meaning": {
+            "en": "Wandering to these, son of Kunti, with the foremost brahmins and your fortunate brothers, you will lose your longing."
+          }
         }
       ]
     }

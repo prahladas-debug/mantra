@@ -22,143 +22,248 @@
       "titleEn": "Sabha Parva (The assembly hall)",
       "verses": [
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 1,
-          "text": "ततः प्रवेशनं चक्रे तस्यां राजा युधिष्ठिरः ।\nअयुतं भोजयामास ब्राह्मणानां नराधिपः ॥"
+          "text": "ततः प्रवेशनं चक्रे तस्यां राजा युधिष्ठिरः ।\nअयुतं भोजयामास ब्राह्मणानां नराधिपः ॥",
+          "meaning": {
+            "en": "Then King Yudhishthira held the entrance ceremony in that hall, and the ruler fed ten thousand Brahmins."
+          }
         },
         {
           "n": 2,
-          "text": "घृतपायसेन मधुना भक्ष्यैर्मूलफलैस्तथा ।\nअहतैश्चैव वासोभिर्माल्यैरुच्चावचैरपि ॥"
+          "text": "घृतपायसेन मधुना भक्ष्यैर्मूलफलैस्तथा ।\nअहतैश्चैव वासोभिर्माल्यैरुच्चावचैरपि ॥",
+          "meaning": {
+            "en": "He fed them with ghee and milk-rice, honey, cakes, roots and fruits, and gave them fresh clothes and garlands of many kinds."
+          }
         },
         {
           "n": 3,
-          "text": "ददौ तेभ्यः सहस्राणि गवां प्रत्येकशः प्रभुः ।\nपुण्याहघोषस्तत्रासीद्दिवस्पृगिव भारत ॥"
+          "text": "ददौ तेभ्यः सहस्राणि गवां प्रत्येकशः प्रभुः ।\nपुण्याहघोषस्तत्रासीद्दिवस्पृगिव भारत ॥",
+          "meaning": {
+            "en": "The lord gave each of them thousands of cows; and the cry of blessing rose as if touching the sky, O Bharata."
+          }
         },
         {
           "n": 4,
-          "text": "वादित्रैर्विविधैर्गीतैर्गन्धैरुच्चावचैरपि ।\nपूजयित्वा कुरुश्रेष्ठो दैवतानि निवेश्य च ॥"
+          "text": "वादित्रैर्विविधैर्गीतैर्गन्धैरुच्चावचैरपि ।\nपूजयित्वा कुरुश्रेष्ठो दैवतानि निवेश्य च ॥",
+          "meaning": {
+            "en": "With instruments of many kinds, songs and perfumes of every sort, the best of the Kurus honored the deities and installed them."
+          }
         },
         {
           "n": 5,
-          "text": "तत्र मल्ला नटा झल्लाः सूता वैतालिकास्तथा ।\nउपतस्थुर्महात्मानं सप्तरात्रं युधिष्ठिरम् ॥"
+          "text": "तत्र मल्ला नटा झल्लाः सूता वैतालिकास्तथा ।\nउपतस्थुर्महात्मानं सप्तरात्रं युधिष्ठिरम् ॥",
+          "meaning": {
+            "en": "There wrestlers, actors, dancers, bards and praise-singers attended the great Yudhishthira for seven nights."
+          }
         },
         {
           "n": 6,
-          "text": "तथा स कृत्वा पूजां तां भ्रातृभिः सह पाण्डवः ।\nतस्यां सभायां रम्यायां रेमे शक्रो यथा दिवि ॥"
+          "text": "तथा स कृत्वा पूजां तां भ्रातृभिः सह पाण्डवः ।\nतस्यां सभायां रम्यायां रेमे शक्रो यथा दिवि ॥",
+          "meaning": {
+            "en": "After holding that festival with his brothers, the Pandava delighted in that lovely hall like Shakra in heaven."
+          }
         },
         {
           "n": 7,
-          "text": "सभायामृषयस्तस्यां पाण्डवैः सह आसते ।\nआसां चक्रुर्नरेन्द्राश्च नानादेशसमागताः ॥"
+          "text": "सभायामृषयस्तस्यां पाण्डवैः सह आसते ।\nआसां चक्रुर्नरेन्द्राश्च नानादेशसमागताः ॥",
+          "meaning": {
+            "en": "In that hall sages sat with the Pandavas, and kings who had come from many lands sat there as well."
+          }
         },
         {
           "n": 8,
-          "text": "असितो देवलः सत्यः सर्पमाली महाशिराः ।\nअर्वावसुः सुमित्रश्च मैत्रेयः शुनको बलिः ॥"
+          "text": "असितो देवलः सत्यः सर्पमाली महाशिराः ।\nअर्वावसुः सुमित्रश्च मैत्रेयः शुनको बलिः ॥",
+          "meaning": {
+            "en": "There were Asita, Devala, Satya, Sarpamali, Mahashiras, Arvavasu, Sumitra, Maitreya, Shunaka and Bali."
+          }
         },
         {
           "n": 9,
-          "text": "बको दाल्भ्यः स्थूलशिराः कृष्णद्वैपायनः शुकः ।\nसुमन्तुर्जैमिनिः पैलो व्यासशिष्यास्तथा वयम् ॥"
+          "text": "बको दाल्भ्यः स्थूलशिराः कृष्णद्वैपायनः शुकः ।\nसुमन्तुर्जैमिनिः पैलो व्यासशिष्यास्तथा वयम् ॥",
+          "meaning": {
+            "en": "Baka, Dalbhya, Sthulashiras, Krishna Dvaipayana, Shuka, Sumantu, Jaimini and Paila, Vyasa's pupils, and I myself as well."
+          }
         },
         {
           "n": 10,
-          "text": "तित्तिरिर्याज्ञवल्क्यश्च ससुतो लोमहर्षणः ।\nअप्सुहोम्यश्च धौम्यश्च आणीमाण्डव्यकौशिकौ ॥"
+          "text": "तित्तिरिर्याज्ञवल्क्यश्च ससुतो लोमहर्षणः ।\nअप्सुहोम्यश्च धौम्यश्च आणीमाण्डव्यकौशिकौ ॥",
+          "meaning": {
+            "en": "Tittiri, Yajnavalkya, Lomaharshana with his son, Apsuhomya, Dhaumya, Animandavya and Kaushika."
+          }
         },
         {
           "n": 11,
-          "text": "दामोष्णीषस्त्रैवणिश्च पर्णादो घटजानुकः ।\nमौञ्जायनो वायुभक्षः पाराशर्यश्च सारिकौ ॥"
+          "text": "दामोष्णीषस्त्रैवणिश्च पर्णादो घटजानुकः ।\nमौञ्जायनो वायुभक्षः पाराशर्यश्च सारिकौ ॥",
+          "meaning": {
+            "en": "Damoshnisha, Traivani, Parnada, Ghatajanuka, Maunjayana, Vayubhaksha, Parasharya and the two Sarikas."
+          }
         },
         {
           "n": 12,
-          "text": "बलवाकः शिनीवाकः सुत्यपालः कृतश्रमः ।\nजातूकर्णः शिखावांश्च सुबलः पारिजातकः ॥"
+          "text": "बलवाकः शिनीवाकः सुत्यपालः कृतश्रमः ।\nजातूकर्णः शिखावांश्च सुबलः पारिजातकः ॥",
+          "meaning": {
+            "en": "Balavaka, Shinivaka, Satyapala, Kritashrama, Jatukarna, Shikhavan, Subala and Parijataka."
+          }
         },
         {
           "n": 13,
-          "text": "पर्वतश्च महाभागो मार्कण्डेयस्तथा मुनिः ।\nपवित्रपाणिः सावर्णिर्भालुकिर्गालवस्तथा ॥"
+          "text": "पर्वतश्च महाभागो मार्कण्डेयस्तथा मुनिः ।\nपवित्रपाणिः सावर्णिर्भालुकिर्गालवस्तथा ॥",
+          "meaning": {
+            "en": "The great Parvata, the sage Markandeya, Pavitrapani, Savarni, Bhaluki and Galava."
+          }
         },
         {
           "n": 14,
-          "text": "जङ्घाबन्धुश्च रैभ्यश्च कोपवेगश्रवा भृगुः ।\nहरिबभ्रुश्च कौण्डिन्यो बभ्रुमाली सनातनः ॥"
+          "text": "जङ्घाबन्धुश्च रैभ्यश्च कोपवेगश्रवा भृगुः ।\nहरिबभ्रुश्च कौण्डिन्यो बभ्रुमाली सनातनः ॥",
+          "meaning": {
+            "en": "Janghabandhu, Raibhya, Kopavega, Shrava, Bhrigu, Haribabhru, Kaundinya, Babhrumali and Sanatana."
+          }
         },
         {
           "n": 15,
-          "text": "कक्षीवानौशिजश्चैव नाचिकेतोऽथ गौतमः ।\nपैङ्गो वराहः शुनकः शाण्डिल्यश्च महातपाः ।\nकर्करो वेणुजङ्घश्च कलापः कठ एव च ॥"
+          "text": "कक्षीवानौशिजश्चैव नाचिकेतोऽथ गौतमः ।\nपैङ्गो वराहः शुनकः शाण्डिल्यश्च महातपाः ।\nकर्करो वेणुजङ्घश्च कलापः कठ एव च ॥",
+          "meaning": {
+            "en": "Kakshivan, Aushija, Nachiketa, Gautama, Painga, Varaha, Shunaka, the greatly ascetic Shandilya, Karkara, Venujangha, Kalapa and Katha."
+          }
         },
         {
           "n": 16,
-          "text": "मुनयो धर्मसहिता धृतात्मानो जितेन्द्रियाः ।\nएते चान्ये च बहवो वेदवेदाङ्गपारगाः ॥"
+          "text": "मुनयो धर्मसहिता धृतात्मानो जितेन्द्रियाः ।\nएते चान्ये च बहवो वेदवेदाङ्गपारगाः ॥",
+          "meaning": {
+            "en": "These sages, devoted to dharma, steadfast and masters of their senses, and many others who had mastered the Vedas and their branches, sat there."
+          }
         },
         {
           "n": 17,
-          "text": "उपासते महात्मानं सभायामृषिसत्तमाः ।\nकथयन्तः कथाः पुण्या धर्मज्ञाः शुचयोऽमलाः ॥"
+          "text": "उपासते महात्मानं सभायामृषिसत्तमाः ।\nकथयन्तः कथाः पुण्या धर्मज्ञाः शुचयोऽमलाः ॥",
+          "meaning": {
+            "en": "These great seers, knowing dharma, pure and spotless, waited on the great king in the hall, telling holy tales."
+          }
         },
         {
           "n": 18,
-          "text": "तथैव क्षत्रियश्रेष्ठा धर्मराजमुपासते ।\nश्रीमान्महात्मा धर्मात्मा मुञ्जकेतुर्विवर्धनः ॥"
+          "text": "तथैव क्षत्रियश्रेष्ठा धर्मराजमुपासते ।\nश्रीमान्महात्मा धर्मात्मा मुञ्जकेतुर्विवर्धनः ॥",
+          "meaning": {
+            "en": "Likewise the best of Kshatriyas attended the king of dharma: the glorious, noble and righteous Munjaketu and Vivardhana."
+          }
         },
         {
           "n": 19,
-          "text": "संग्रामजिद्दुर्मुखश्च उग्रसेनश्च वीर्यवान् ।\nकक्षसेनः क्षितिपतिः क्षेमकश्चापराजितः ।\nकाम्बोजराजः कमलः कम्पनश्च महाबलः ॥"
+          "text": "संग्रामजिद्दुर्मुखश्च उग्रसेनश्च वीर्यवान् ।\nकक्षसेनः क्षितिपतिः क्षेमकश्चापराजितः ।\nकाम्बोजराजः कमलः कम्पनश्च महाबलः ॥",
+          "meaning": {
+            "en": "Sangramajit, Durmukha, the mighty Ugrasena, King Kakshasena, Kshemaka the unconquered, the Kamboja king Kamala and the strong Kampana."
+          }
         },
         {
           "n": 20,
-          "text": "सततं कम्पयामास यवनानेक एव यः ।\nयथासुरान्कालकेयान्देवो वज्रधरस्तथा ॥"
+          "text": "सततं कम्पयामास यवनानेक एव यः ।\nयथासुरान्कालकेयान्देवो वज्रधरस्तथा ॥",
+          "meaning": {
+            "en": "He who alone kept the Yavanas in constant fear, as the thunderbolt-wielding god did the Kalakeya Asuras."
+          }
         },
         {
           "n": 21,
-          "text": "जटासुरो मद्रकान्तश्च राजा\nकुन्तिः कुणिन्दश्च किरातराजः ।\nतथाङ्गवङ्गौ सह पुण्ड्रकेण\nपाण्ड्योड्रराजौ सह चान्ध्रकेण ॥"
+          "text": "जटासुरो मद्रकान्तश्च राजा\nकुन्तिः कुणिन्दश्च किरातराजः ।\nतथाङ्गवङ्गौ सह पुण्ड्रकेण\nपाण्ड्योड्रराजौ सह चान्ध्रकेण ॥",
+          "meaning": {
+            "en": "Jatasura, the king of Madraka, Kunti, Kuninda, the king of the Kiratas, also Anga and Vanga with Pundraka, the kings of Pandya and Odra with the Andhra king."
+          }
         },
         {
           "n": 22,
-          "text": "किरातराजः सुमना यवनाधिपतिस्तथा ।\nचाणूरो देवरातश्च भोजो भीमरथश्च यः ॥"
+          "text": "किरातराजः सुमना यवनाधिपतिस्तथा ।\nचाणूरो देवरातश्च भोजो भीमरथश्च यः ॥",
+          "meaning": {
+            "en": "The Kirata king Sumana, the lord of the Yavanas, Chanura, Devarata, Bhoja, and Bhimaratha."
+          }
         },
         {
           "n": 23,
-          "text": "श्रुतायुधश्च कालिङ्गो जयत्सेनश्च मागधः ।\nसुशर्मा चेकितानश्च सुरथोऽमित्रकर्षणः ॥"
+          "text": "श्रुतायुधश्च कालिङ्गो जयत्सेनश्च मागधः ।\nसुशर्मा चेकितानश्च सुरथोऽमित्रकर्षणः ॥",
+          "meaning": {
+            "en": "Shrutayudha of Kalinga, Jayatsena of Magadha, Susharma, Chekitana, Suratha, and Amitrakarshana."
+          }
         },
         {
           "n": 24,
-          "text": "केतुमान्वसुदानश्च वैदेहोऽथ कृतक्षणः ।\nसुधर्मा चानिरुद्धश्च श्रुतायुश्च महाबलः ॥"
+          "text": "केतुमान्वसुदानश्च वैदेहोऽथ कृतक्षणः ।\nसुधर्मा चानिरुद्धश्च श्रुतायुश्च महाबलः ॥",
+          "meaning": {
+            "en": "Ketuman, Vasudana, the king of Videha, Kritakshana, Sudharma, Aniruddha and the mighty Shrutayu."
+          }
         },
         {
           "n": 25,
-          "text": "अनूपराजो दुर्धर्षः क्षेमजिच्च सुदक्षिणः ।\nशिशुपालः सहसुतः करूषाधिपतिस्तथा ॥"
+          "text": "अनूपराजो दुर्धर्षः क्षेमजिच्च सुदक्षिणः ।\nशिशुपालः सहसुतः करूषाधिपतिस्तथा ॥",
+          "meaning": {
+            "en": "The unassailable king of the Anupas, Kshemajit, Sudakshina, Shishupala with his son, and the lord of the Karushas."
+          }
         },
         {
           "n": 26,
-          "text": "वृष्णीनां चैव दुर्धर्षाः कुमारा देवरूपिणः ।\nआहुको विपृथुश्चैव गदः सारण एव च ॥"
+          "text": "वृष्णीनां चैव दुर्धर्षाः कुमारा देवरूपिणः ।\nआहुको विपृथुश्चैव गदः सारण एव च ॥",
+          "meaning": {
+            "en": "The unassailable princes of the Vrishnis, godlike in form: Ahuka, Viprithu, Gada and Sarana."
+          }
         },
         {
           "n": 27,
-          "text": "अक्रूरः कृतवर्मा च सात्यकिश्च शिनेः सुतः ।\nभीष्मकोऽथाहृतिश्चैव द्युमत्सेनश्च वीर्यवान् ।\nकेकयाश्च महेष्वासा यज्ञसेनश्च सौमकिः ॥"
+          "text": "अक्रूरः कृतवर्मा च सात्यकिश्च शिनेः सुतः ।\nभीष्मकोऽथाहृतिश्चैव द्युमत्सेनश्च वीर्यवान् ।\nकेकयाश्च महेष्वासा यज्ञसेनश्च सौमकिः ॥",
+          "meaning": {
+            "en": "Akrura, Kritavarma, Satyaki son of Shini, Bhishmaka, Ahriti, the mighty Dyumatsena, the great archers of the Kekayas, and Yajnasena, son of Somaka."
+          }
         },
         {
           "n": 28,
-          "text": "अर्जुनं चापि संश्रित्य राजपुत्रा महाबलाः ।\nअशिक्षन्त धनुर्वेदं रौरवाजिनवाससः ॥"
+          "text": "अर्जुनं चापि संश्रित्य राजपुत्रा महाबलाः ।\nअशिक्षन्त धनुर्वेदं रौरवाजिनवाससः ॥",
+          "meaning": {
+            "en": "Mighty princes, relying on Arjuna, dressed in deerskins and bark, learned the science of the bow there."
+          }
         },
         {
           "n": 29,
-          "text": "तत्रैव शिक्षिता राजन्कुमारा वृष्णिनन्दनाः ।\nरौक्मिणेयश्च साम्बश्च युयुधानश्च सात्यकिः ॥"
+          "text": "तत्रैव शिक्षिता राजन्कुमारा वृष्णिनन्दनाः ।\nरौक्मिणेयश्च साम्बश्च युयुधानश्च सात्यकिः ॥",
+          "meaning": {
+            "en": "There too, O king, Vrishni princes were trained: Rukmini's son Pradyumna, Samba, and Yuyudhana Satyaki."
+          }
         },
         {
           "n": 30,
-          "text": "एते चान्ये च बहवो राजानः पृथिवीपते ।\nधनंजयसखा चात्र नित्यमास्ते स्म तुम्बुरुः ॥"
+          "text": "एते चान्ये च बहवो राजानः पृथिवीपते ।\nधनंजयसखा चात्र नित्यमास्ते स्म तुम्बुरुः ॥",
+          "meaning": {
+            "en": "These and many other kings, O lord of the earth, were present, and Tumburu, friend of Dhananjaya, always sat there."
+          }
         },
         {
           "n": 31,
-          "text": "चित्रसेनः सहामात्यो गन्धर्वाप्सरसस्तथा ।\nगीतवादित्रकुशलाः शम्यातालविशारदाः ॥"
+          "text": "चित्रसेनः सहामात्यो गन्धर्वाप्सरसस्तथा ।\nगीतवादित्रकुशलाः शम्यातालविशारदाः ॥",
+          "meaning": {
+            "en": "Chitrasena with his ministers, and Gandharvas and Apsarases skilled in song and instruments and in the cymbal beat of the shami wood."
+          }
         },
         {
           "n": 32,
-          "text": "प्रमाणेऽथ लयस्थाने किंनराः कृतनिश्रमाः ।\nसंचोदितास्तुम्बुरुणा गन्धर्वाः सहिता जगुः ॥"
+          "text": "प्रमाणेऽथ लयस्थाने किंनराः कृतनिश्रमाः ।\nसंचोदितास्तुम्बुरुणा गन्धर्वाः सहिता जगुः ॥",
+          "meaning": {
+            "en": "The Kinnaras, practiced in measure and tempo, and the Gandharvas, urged on by Tumburu, sang together."
+          }
         },
         {
           "n": 33,
-          "text": "गायन्ति दिव्यतानैस्ते यथान्यायं मनस्विनः ।\nपाण्डुपुत्रानृषींश्चैव रमयन्त उपासते ॥"
+          "text": "गायन्ति दिव्यतानैस्ते यथान्यायं मनस्विनः ।\nपाण्डुपुत्रानृषींश्चैव रमयन्त उपासते ॥",
+          "meaning": {
+            "en": "The high-minded ones sang in heavenly melodies, properly, delighting the sons of Pandu and the sages as they attended them."
+          }
         },
         {
           "n": 34,
-          "text": "तस्यां सभायामासीनाः सुव्रताः सत्यसंगराः ।\nदिवीव देवा ब्रह्माणं युधिष्ठिरमुपासते ॥"
+          "text": "तस्यां सभायामासीनाः सुव्रताः सत्यसंगराः ।\nदिवीव देवा ब्रह्माणं युधिष्ठिरमुपासते ॥",
+          "meaning": {
+            "en": "Seated in that hall, the sages of firm vows who keep their promises attended Yudhishthira, as the gods in heaven attend Brahma."
+          }
         }
       ]
     }

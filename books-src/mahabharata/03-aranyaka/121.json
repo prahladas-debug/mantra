@@ -22,108 +22,189 @@
       "titleEn": "Tirthayatra Parva (The pilgrimage)",
       "verses": [
         {
-          "text": "लोमश उवाच"
+          "text": "लोमश उवाच",
+          "meaning": {
+            "en": "Lomasha said:"
+          }
         },
         {
           "n": 1,
-          "text": "नृगेण यजमानेन सोमेनेह पुरंदरः ।\nतर्पितः श्रूयते राजन्स तृप्तो मदमभ्यगात् ॥"
+          "text": "नृगेण यजमानेन सोमेनेह पुरंदरः ।\nतर्पितः श्रूयते राजन्स तृप्तो मदमभ्यगात् ॥",
+          "meaning": {
+            "en": "O king, it is told that here Nriga, performing a sacrifice, satisfied Indra with soma, and Indra, content, grew exhilarated."
+          }
         },
         {
           "n": 2,
-          "text": "इह देवैः सहेन्द्रैर्हि प्रजापतिभिरेव च ।\nइष्टं बहुविधैर्यज्ञैर्महद्भिर्भूरिदक्षिणैः ॥"
+          "text": "इह देवैः सहेन्द्रैर्हि प्रजापतिभिरेव च ।\nइष्टं बहुविधैर्यज्ञैर्महद्भिर्भूरिदक्षिणैः ॥",
+          "meaning": {
+            "en": "Here the gods with Indra and the Prajapatis performed many kinds of great sacrifices with abundant gifts."
+          }
         },
         {
           "n": 3,
-          "text": "आमूर्तरयसश्चेह राजा वज्रधरं प्रभुम् ।\nतर्पयामास सोमेन हयमेधेषु सप्तसु ॥"
+          "text": "आमूर्तरयसश्चेह राजा वज्रधरं प्रभुम् ।\nतर्पयामास सोमेन हयमेधेषु सप्तसु ॥",
+          "meaning": {
+            "en": "And here King Amurtarayas gratified the lord who wields the thunderbolt with soma at seven horse sacrifices."
+          }
         },
         {
           "n": 4,
-          "text": "तस्य सप्तसु यज्ञेषु सर्वमासीद्धिरण्मयम् ।\nवानस्पत्यं च भौमं च यद्द्रव्यं नियतं मखे ॥"
+          "text": "तस्य सप्तसु यज्ञेषु सर्वमासीद्धिरण्मयम् ।\nवानस्पत्यं च भौमं च यद्द्रव्यं नियतं मखे ॥",
+          "meaning": {
+            "en": "At those seven sacrifices everything was of gold, both the objects of wood and those of earth that are fixed in a sacrifice."
+          }
         },
         {
           "n": 5,
-          "text": "तेष्वेव चास्य यज्ञेषु प्रयोगाः सप्त विश्रुताः ।\nसप्तैकैकस्य यूपस्य चषालाश्चोपरि स्थिताः ॥"
+          "text": "तेष्वेव चास्य यज्ञेषु प्रयोगाः सप्त विश्रुताः ।\nसप्तैकैकस्य यूपस्य चषालाश्चोपरि स्थिताः ॥",
+          "meaning": {
+            "en": "At those same sacrifices seven famous rites were performed, and on each sacrificial post seven rings were set at the top."
+          }
         },
         {
           "n": 6,
-          "text": "तस्य स्म यूपान्यज्ञेषु भ्राजमानान्हिरण्मयान् ।\nस्वयमुत्थापयामासुर्देवाः सेन्द्रा युधिष्ठिर ॥"
+          "text": "तस्य स्म यूपान्यज्ञेषु भ्राजमानान्हिरण्मयान् ।\nस्वयमुत्थापयामासुर्देवाः सेन्द्रा युधिष्ठिर ॥",
+          "meaning": {
+            "en": "Yudhishthira, the gods with Indra themselves raised up his shining golden posts at those sacrifices."
+          }
         },
         {
           "n": 7,
-          "text": "तेषु तस्य मखाग्र्येषु गयस्य पृथिवीपतेः ।\nअमाद्यदिन्द्रः सोमेन दक्षिणाभिर्द्विजातयः ॥"
+          "text": "तेषु तस्य मखाग्र्येषु गयस्य पृथिवीपतेः ।\nअमाद्यदिन्द्रः सोमेन दक्षिणाभिर्द्विजातयः ॥",
+          "meaning": {
+            "en": "At those excellent sacrifices of King Gaya, Indra grew exhilarated with soma, and the brahmins with their fees."
+          }
         },
         {
           "n": 8,
-          "text": "सिकता वा यथा लोके यथा वा दिवि तारकाः ।\nयथा वा वर्षतो धारा असंख्येयाश्च केनचित् ॥"
+          "text": "सिकता वा यथा लोके यथा वा दिवि तारकाः ।\nयथा वा वर्षतो धारा असंख्येयाश्च केनचित् ॥",
+          "meaning": {
+            "en": "Like the sands of the world, or the stars in the sky, or the streams of falling rain, which no one can count,"
+          }
         },
         {
           "n": 9,
-          "text": "तथैव तदसंख्येयं धनं यत्प्रददौ गयः ।\nसदस्येभ्यो महाराज तेषु यज्ञेषु सप्तसु ॥"
+          "text": "तथैव तदसंख्येयं धनं यत्प्रददौ गयः ।\nसदस्येभ्यो महाराज तेषु यज्ञेषु सप्तसु ॥",
+          "meaning": {
+            "en": "so uncountable was the wealth that Gaya gave to the assembled priests at those seven sacrifices, great king."
+          }
         },
         {
           "n": 10,
-          "text": "भवेत्संख्येयमेतद्वै यदेतत्परिकीर्तितम् ।\nन सा शक्या तु संख्यातुं दक्षिणा दक्षिणावतः ॥"
+          "text": "भवेत्संख्येयमेतद्वै यदेतत्परिकीर्तितम् ।\nन सा शक्या तु संख्यातुं दक्षिणा दक्षिणावतः ॥",
+          "meaning": {
+            "en": "What has been described here might perhaps be counted, but the fee of that generous giver could not be."
+          }
         },
         {
           "n": 11,
-          "text": "हिरण्मयीभिर्गोभिश्च कृताभिर्विश्वकर्मणा ।\nब्राह्मणांस्तर्पयामास नानादिग्भ्यः समागतान् ॥"
+          "text": "हिरण्मयीभिर्गोभिश्च कृताभिर्विश्वकर्मणा ।\nब्राह्मणांस्तर्पयामास नानादिग्भ्यः समागतान् ॥",
+          "meaning": {
+            "en": "With cows of gold made by Vishvakarma he satisfied the brahmins who had come from every quarter."
+          }
         },
         {
           "n": 12,
-          "text": "अल्पावशेषा पृथिवी चैत्यैरासीन्महात्मनः ।\nगयस्य यजमानस्य तत्र तत्र विशां पते ॥"
+          "text": "अल्पावशेषा पृथिवी चैत्यैरासीन्महात्मनः ।\nगयस्य यजमानस्य तत्र तत्र विशां पते ॥",
+          "meaning": {
+            "en": "The earth, for the great-souled Gaya as he sacrificed, was left with little room, so crowded was it with shrines here and there, lord of the people."
+          }
         },
         {
           "n": 13,
-          "text": "स लोकान्प्राप्तवानैन्द्रान्कर्मणा तेन भारत ।\nसलोकतां तस्य गच्छेत्पयोष्ण्यां य उपस्पृशेत् ॥"
+          "text": "स लोकान्प्राप्तवानैन्द्रान्कर्मणा तेन भारत ।\nसलोकतां तस्य गच्छेत्पयोष्ण्यां य उपस्पृशेत् ॥",
+          "meaning": {
+            "en": "By that deed, Bharata, he won the worlds of Indra. Whoever bathes in the Payoshni will attain the same world as his."
+          }
         },
         {
           "n": 14,
-          "text": "तस्मात्त्वमत्र राजेन्द्र भ्रातृभिः सहितोऽनघ ।\nउपस्पृश्य महीपाल धूतपाप्मा भविष्यसि ॥"
+          "text": "तस्मात्त्वमत्र राजेन्द्र भ्रातृभिः सहितोऽनघ ।\nउपस्पृश्य महीपाल धूतपाप्मा भविष्यसि ॥",
+          "meaning": {
+            "en": "Therefore, sinless king, lord of the earth, bathe here with your brothers, and you will be freed from sin."
+          }
         },
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 15,
-          "text": "स पयोष्ण्यां नरश्रेष्ठः स्नात्वा वै भ्रातृभिः सह ।\nवैडूर्यपर्वतं चैव नर्मदां च महानदीम् ।\nसमाजगाम तेजस्वी भ्रातृभिः सहितोऽनघः ॥"
+          "text": "स पयोष्ण्यां नरश्रेष्ठः स्नात्वा वै भ्रातृभिः सह ।\nवैडूर्यपर्वतं चैव नर्मदां च महानदीम् ।\nसमाजगाम तेजस्वी भ्रातृभिः सहितोऽनघः ॥",
+          "meaning": {
+            "en": "That best of men bathed in the Payoshni with his brothers. The radiant, sinless king then came with his brothers to the Vaidurya mountain and the great river Narmada."
+          }
         },
         {
           "n": 16,
-          "text": "ततोऽस्य सर्वाण्याचख्यौ लोमशो भगवानृषिः ।\nतीर्थानि रमणीयानि तत्र तत्र विशां पते ॥"
+          "text": "ततोऽस्य सर्वाण्याचख्यौ लोमशो भगवानृषिः ।\nतीर्थानि रमणीयानि तत्र तत्र विशां पते ॥",
+          "meaning": {
+            "en": "Then the holy sage Lomasha told him of all the delightful fords found here and there, lord of the people."
+          }
         },
         {
           "n": 17,
-          "text": "यथायोगं यथाप्रीति प्रययौ भ्रातृभिः सह ।\nददमानोऽसकृद्वित्तं ब्राह्मणेभ्यः सहस्रशः ॥"
+          "text": "यथायोगं यथाप्रीति प्रययौ भ्रातृभिः सह ।\nददमानोऽसकृद्वित्तं ब्राह्मणेभ्यः सहस्रशः ॥",
+          "meaning": {
+            "en": "As seemed fitting and pleasing, he travelled with his brothers, giving wealth again and again to brahmins by the thousand."
+          }
         },
         {
-          "text": "लोमश उवाच"
+          "text": "लोमश उवाच",
+          "meaning": {
+            "en": "Lomasha said:"
+          }
         },
         {
           "n": 18,
-          "text": "देवानामेति कौन्तेय तथा राज्ञां सलोकताम् ।\nवैडूर्यपर्वतं दृष्ट्वा नर्मदामवतीर्य च ॥"
+          "text": "देवानामेति कौन्तेय तथा राज्ञां सलोकताम् ।\nवैडूर्यपर्वतं दृष्ट्वा नर्मदामवतीर्य च ॥",
+          "meaning": {
+            "en": "Son of Kunti, one who sees the Vaidurya mountain and descends into the Narmada reaches the world of the gods and of the kings."
+          }
         },
         {
           "n": 19,
-          "text": "संधिरेष नरश्रेष्ठ त्रेताया द्वापरस्य च ।\nएतमासाद्य कौन्तेय सर्वपापैः प्रमुच्यते ॥"
+          "text": "संधिरेष नरश्रेष्ठ त्रेताया द्वापरस्य च ।\nएतमासाद्य कौन्तेय सर्वपापैः प्रमुच्यते ॥",
+          "meaning": {
+            "en": "Best of men, this is the junction of the Treta and Dvapara ages. Reaching it, son of Kunti, one is freed from all sins."
+          }
         },
         {
           "n": 20,
-          "text": "एष शर्यातियज्ञस्य देशस्तात प्रकाशते ।\nसाक्षाद्यत्रापिबत्सोममश्विभ्यां सह कौशिकः ॥"
+          "text": "एष शर्यातियज्ञस्य देशस्तात प्रकाशते ।\nसाक्षाद्यत्रापिबत्सोममश्विभ्यां सह कौशिकः ॥",
+          "meaning": {
+            "en": "This, dear child, is the place where the sacrifice of Sharyati shines forth, where Kaushika drank soma together with the Ashvins."
+          }
         },
         {
           "n": 21,
-          "text": "चुकोप भार्गवश्चापि महेन्द्रस्य महातपाः ।\nसंस्तम्भयामास च तं वासवं च्यवनः प्रभुः ।\nसुकन्यां चापि भार्यां स राजपुत्रीमिवाप्तवान् ॥"
+          "text": "चुकोप भार्गवश्चापि महेन्द्रस्य महातपाः ।\nसंस्तम्भयामास च तं वासवं च्यवनः प्रभुः ।\nसुकन्यां चापि भार्यां स राजपुत्रीमिवाप्तवान् ॥",
+          "meaning": {
+            "en": "Here too the great ascetic Bhargava Chyavana grew angry at Mahendra, and by his power he paralysed Indra, and he gained Sukanya as his wife, a king's daughter."
+          }
         },
         {
-          "text": "युधिष्ठिर उवाच"
+          "text": "युधिष्ठिर उवाच",
+          "meaning": {
+            "en": "Yudhishthira said:"
+          }
         },
         {
           "n": 22,
-          "text": "कथं विष्टम्भितस्तेन भगवान्पाकशासनः ।\nकिमर्थं भार्गवश्चापि कोपं चक्रे महातपाः ॥"
+          "text": "कथं विष्टम्भितस्तेन भगवान्पाकशासनः ।\nकिमर्थं भार्गवश्चापि कोपं चक्रे महातपाः ॥",
+          "meaning": {
+            "en": "How did he paralyse the lord Indra, the punisher of Paka? And why did the greatly ascetic Bhargava grow angry?"
+          }
         },
         {
           "n": 23,
-          "text": "नासत्यौ च कथं ब्रह्मन्कृतवान्सोमपीथिनौ ।\nएतत्सर्वं यथावृत्तमाख्यातु भगवान्मम ॥"
+          "text": "नासत्यौ च कथं ब्रह्मन्कृतवान्सोमपीथिनौ ।\nएतत्सर्वं यथावृत्तमाख्यातु भगवान्मम ॥",
+          "meaning": {
+            "en": "And how, brahmin, did he make the two Nasatyas drinkers of soma? Let the holy one tell me all this exactly as it happened."
+          }
         }
       ]
     }

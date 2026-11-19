@@ -22,169 +22,295 @@
       "titleEn": "Tirthayatra Parva (The pilgrimage)",
       "verses": [
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 1,
-          "text": "एवमुक्तो महाबाहुर्भीमसेनः प्रतापवान् ।\nप्रणिपत्य ततः प्रीत्या भ्रातरं हृष्टमानसः ।\nउवाच श्लक्ष्णया वाचा हनूमन्तं कपीश्वरम् ॥"
+          "text": "एवमुक्तो महाबाहुर्भीमसेनः प्रतापवान् ।\nप्रणिपत्य ततः प्रीत्या भ्रातरं हृष्टमानसः ।\nउवाच श्लक्ष्णया वाचा हनूमन्तं कपीश्वरम् ॥",
+          "meaning": {
+            "en": "Addressed thus, mighty and glorious Bhimasena bowed to his brother with affection, glad at heart, and spoke gently to Hanuman, lord of monkeys."
+          }
         },
         {
           "n": 2,
-          "text": "मया धन्यतरो नास्ति यदार्यं दृष्टवानहम् ।\nअनुग्रहो मे सुमहांस्तृप्तिश्च तव दर्शनात् ॥"
+          "text": "मया धन्यतरो नास्ति यदार्यं दृष्टवानहम् ।\nअनुग्रहो मे सुमहांस्तृप्तिश्च तव दर्शनात् ॥",
+          "meaning": {
+            "en": "\"No one is more fortunate than I, for I have seen my elder. This is a very great favour to me, and I am content at seeing you.\""
+          }
         },
         {
           "n": 3,
-          "text": "एवं तु कृतमिच्छामि त्वयार्याद्य प्रियं मम ।\nयत्ते तदासीत्प्लवतः सागरं मकरालयम् ।\nरूपमप्रतिमं वीर तदिच्छामि निरीक्षितुम् ॥"
+          "text": "एवं तु कृतमिच्छामि त्वयार्याद्य प्रियं मम ।\nयत्ते तदासीत्प्लवतः सागरं मकरालयम् ।\nरूपमप्रतिमं वीर तदिच्छामि निरीक्षितुम् ॥",
+          "meaning": {
+            "en": "\"Noble one, there is one more kindness I want you to do me: I wish to see that matchless form you had when you leapt the sea, the home of sea monsters.\""
+          }
         },
         {
           "n": 4,
-          "text": "एवं तुष्टो भविष्यामि श्रद्धास्यामि च ते वचः ।\nएवमुक्तः स तेजस्वी प्रहस्य हरिरब्रवीत् ॥"
+          "text": "एवं तुष्टो भविष्यामि श्रद्धास्यामि च ते वचः ।\nएवमुक्तः स तेजस्वी प्रहस्य हरिरब्रवीत् ॥",
+          "meaning": {
+            "en": "\"Then I shall be satisfied and shall trust your words.\" Spoken to thus, the radiant monkey laughed and replied."
+          }
         },
         {
           "n": 5,
-          "text": "न तच्छक्यं त्वया द्रष्टुं रूपं नान्येन केनचित् ।\nकालावस्था तदा ह्यन्या वर्तते सा न सांप्रतम् ॥"
+          "text": "न तच्छक्यं त्वया द्रष्टुं रूपं नान्येन केनचित् ।\nकालावस्था तदा ह्यन्या वर्तते सा न सांप्रतम् ॥",
+          "meaning": {
+            "en": "\"You cannot see that form, nor can anyone else. That was a different state of time, and it is not the present one.\""
+          }
         },
         {
           "n": 6,
-          "text": "अन्यः कृतयुगे कालस्त्रेतायां द्वापरेऽपरः ।\nअयं प्रध्वंसनः कालो नाद्य तद्रूपमस्ति मे ॥"
+          "text": "अन्यः कृतयुगे कालस्त्रेतायां द्वापरेऽपरः ।\nअयं प्रध्वंसनः कालो नाद्य तद्रूपमस्ति मे ॥",
+          "meaning": {
+            "en": "\"The time of the Krita age was one thing, the Treta another, the Dvapara another. This is a time of decline, and I do not have that form today.\""
+          }
         },
         {
           "n": 7,
-          "text": "भूमिर्नद्यो नगाः शैलाः सिद्धा देवा महर्षयः ।\nकालं समनुवर्तन्ते यथा भावा युगे युगे ।\nबलवर्ष्मप्रभावा हि प्रहीयन्त्युद्भवन्ति च ॥"
+          "text": "भूमिर्नद्यो नगाः शैलाः सिद्धा देवा महर्षयः ।\nकालं समनुवर्तन्ते यथा भावा युगे युगे ।\nबलवर्ष्मप्रभावा हि प्रहीयन्त्युद्भवन्ति च ॥",
+          "meaning": {
+            "en": "\"Earth, rivers, trees, mountains, Siddhas, gods and great sages all follow time, as conditions do from age to age. Strength, body and power wane and rise again.\""
+          }
         },
         {
           "n": 8,
-          "text": "तदलं तव तद्रूपं द्रष्टुं कुरुकुलोद्वह ।\nयुगं समनुवर्तामि कालो हि दुरतिक्रमः ॥"
+          "text": "तदलं तव तद्रूपं द्रष्टुं कुरुकुलोद्वह ।\nयुगं समनुवर्तामि कालो हि दुरतिक्रमः ॥",
+          "meaning": {
+            "en": "\"So enough of wanting to see that form, bearer of the Kuru line. I conform to the age, for time is hard to overcome.\""
+          }
         },
         {
-          "text": "भीम उवाच"
+          "text": "भीम उवाच",
+          "meaning": {
+            "en": "Bhima said:"
+          }
         },
         {
           "n": 9,
-          "text": "युगसंख्यां समाचक्ष्व आचारं च युगे युगे ।\nधर्मकामार्थभावांश्च वर्ष्म वीर्यं भवाभवौ ॥"
+          "text": "युगसंख्यां समाचक्ष्व आचारं च युगे युगे ।\nधर्मकामार्थभावांश्च वर्ष्म वीर्यं भवाभवौ ॥",
+          "meaning": {
+            "en": "\"Tell me the count of the ages and the conduct in each age, and the states of dharma, desire and wealth, the body, strength, and arising and passing.\""
+          }
         },
         {
-          "text": "हनूमानुवाच"
+          "text": "हनूमानुवाच",
+          "meaning": {
+            "en": "Hanuman said:"
+          }
         },
         {
           "n": 10,
-          "text": "कृतं नाम युगं तात यत्र धर्मः सनातनः ।\nकृतमेव न कर्तव्यं तस्मिन्काले युगोत्तमे ॥"
+          "text": "कृतं नाम युगं तात यत्र धर्मः सनातनः ।\nकृतमेव न कर्तव्यं तस्मिन्काले युगोत्तमे ॥",
+          "meaning": {
+            "en": "\"The age called Krita, dear one, is where dharma is eternal. In that best of ages nothing remained to be done, hence it was called Krita, 'done'.\""
+          }
         },
         {
           "n": 11,
-          "text": "न तत्र धर्माः सीदन्ति न क्षीयन्ते च वै प्रजाः ।\nततः कृतयुगं नाम कालेन गुणतां गतम् ॥"
+          "text": "न तत्र धर्माः सीदन्ति न क्षीयन्ते च वै प्रजाः ।\nततः कृतयुगं नाम कालेन गुणतां गतम् ॥",
+          "meaning": {
+            "en": "\"Dharmas did not fail there, nor did people decline. Thus, through time, the Krita age came to have its name for its qualities.\""
+          }
         },
         {
           "n": 12,
-          "text": "देवदानवगन्धर्वयक्षराक्षसपन्नगाः ।\nनासन्कृतयुगे तात तदा न क्रयविक्रयाः ॥"
+          "text": "देवदानवगन्धर्वयक्षराक्षसपन्नगाः ।\nनासन्कृतयुगे तात तदा न क्रयविक्रयाः ॥",
+          "meaning": {
+            "en": "\"In the Krita age, dear one, there were no gods, danavas, gandharvas, yakshas, rakshasas or serpents as separate classes, and there was no buying and selling.\""
+          }
         },
         {
           "n": 13,
-          "text": "न सामयजुऋग्वर्णाः क्रिया नासीच्च मानवी ।\nअभिध्याय फलं तत्र धर्मः संन्यास एव च ॥"
+          "text": "न सामयजुऋग्वर्णाः क्रिया नासीच्च मानवी ।\nअभिध्याय फलं तत्र धर्मः संन्यास एव च ॥",
+          "meaning": {
+            "en": "\"There were no distinctions of Sama, Yajus and Rig, no human effort. Fruit came by mere intention, and dharma was renunciation.\""
+          }
         },
         {
           "n": 14,
-          "text": "न तस्मिन्युगसंसर्गे व्याधयो नेन्द्रियक्षयः ।\nनासूया नापि रुदितं न दर्पो नापि पैशुनम् ॥"
+          "text": "न तस्मिन्युगसंसर्गे व्याधयो नेन्द्रियक्षयः ।\nनासूया नापि रुदितं न दर्पो नापि पैशुनम् ॥",
+          "meaning": {
+            "en": "\"In that age there were no diseases or decay of the senses, no spite, no weeping, no pride, no slander.\""
+          }
         },
         {
           "n": 15,
-          "text": "न विग्रहः कुतस्तन्द्री न द्वेषो नापि वैकृतम् ।\nन भयं न च संतापो न चेर्ष्या न च मत्सरः ॥"
+          "text": "न विग्रहः कुतस्तन्द्री न द्वेषो नापि वैकृतम् ।\nन भयं न च संतापो न चेर्ष्या न च मत्सरः ॥",
+          "meaning": {
+            "en": "\"No quarrel, so how could there be sloth? No hatred, no perversion, no fear, no anguish, no envy and no jealousy.\""
+          }
         },
         {
           "n": 16,
-          "text": "ततः परमकं ब्रह्म या गतिर्योगिनां परा ।\nआत्मा च सर्वभूतानां शुक्लो नारायणस्तदा ॥"
+          "text": "ततः परमकं ब्रह्म या गतिर्योगिनां परा ।\nआत्मा च सर्वभूतानां शुक्लो नारायणस्तदा ॥",
+          "meaning": {
+            "en": "\"Then the supreme Brahman, the highest goal of yogis, was there, and the white Narayana was the self of all beings.\""
+          }
         },
         {
           "n": 17,
-          "text": "ब्राह्मणाः क्षत्रिया वैश्याः शूद्राश्च कृतलक्षणाः ।\nकृते युगे समभवन्स्वकर्मनिरताः प्रजाः ॥"
+          "text": "ब्राह्मणाः क्षत्रिया वैश्याः शूद्राश्च कृतलक्षणाः ।\nकृते युगे समभवन्स्वकर्मनिरताः प्रजाः ॥",
+          "meaning": {
+            "en": "\"Brahmins, Kshatriyas, Vaishyas and Shudras bore the marks of the Krita age, and in the Krita age the people were devoted to their own duties.\""
+          }
         },
         {
           "n": 18,
-          "text": "समाश्रमं समाचारं समज्ञानमतीबलम् ।\nतदा हि समकर्माणो वर्णा धर्मानवाप्नुवन् ॥"
+          "text": "समाश्रमं समाचारं समज्ञानमतीबलम् ।\nतदा हि समकर्माणो वर्णा धर्मानवाप्नुवन् ॥",
+          "meaning": {
+            "en": "\"Their stages of life, conduct, knowledge and great strength were equal; then the classes, equal in their actions, attained the dharmas.\""
+          }
         },
         {
           "n": 19,
-          "text": "एकवेदसमायुक्ता एकमन्त्रविधिक्रियाः ।\nपृथग्धर्मास्त्वेकवेदा धर्ममेकमनुव्रताः ॥"
+          "text": "एकवेदसमायुक्ता एकमन्त्रविधिक्रियाः ।\nपृथग्धर्मास्त्वेकवेदा धर्ममेकमनुव्रताः ॥",
+          "meaning": {
+            "en": "\"They were joined to a single Veda, with one set of mantras, rites and procedures. Though their dharmas differed, they had one Veda and followed one dharma.\""
+          }
         },
         {
           "n": 20,
-          "text": "चातुराश्रम्ययुक्तेन कर्मणा कालयोगिना ।\nअकामफलसंयोगात्प्राप्नुवन्ति परां गतिम् ॥"
+          "text": "चातुराश्रम्ययुक्तेन कर्मणा कालयोगिना ।\nअकामफलसंयोगात्प्राप्नुवन्ति परां गतिम् ॥",
+          "meaning": {
+            "en": "\"By action suited to the four stages of life, with time as its yoke, and by unattached fruit, they reached the highest goal.\""
+          }
         },
         {
           "n": 21,
-          "text": "आत्मयोगसमायुक्तो धर्मोऽयं कृतलक्षणः ।\nकृते युगे चतुष्पादश्चातुर्वर्ण्यस्य शाश्वतः ॥"
+          "text": "आत्मयोगसमायुक्तो धर्मोऽयं कृतलक्षणः ।\nकृते युगे चतुष्पादश्चातुर्वर्ण्यस्य शाश्वतः ॥",
+          "meaning": {
+            "en": "\"This dharma, joined to union with the self, bore the Krita marks. In the Krita age dharma is four-footed and eternal for the four classes.\""
+          }
         },
         {
           "n": 22,
-          "text": "एतत्कृतयुगं नाम त्रैगुण्यपरिवर्जितम् ।\nत्रेतामपि निबोध त्वं यस्मिन्सत्रं प्रवर्तते ॥"
+          "text": "एतत्कृतयुगं नाम त्रैगुण्यपरिवर्जितम् ।\nत्रेतामपि निबोध त्वं यस्मिन्सत्रं प्रवर्तते ॥",
+          "meaning": {
+            "en": "\"This is the age called Krita, free of the three qualities. Now learn of the Treta, in which sacrifice begins.\""
+          }
         },
         {
           "n": 23,
-          "text": "पादेन ह्रसते धर्मो रक्ततां याति चाच्युतः ।\nसत्यप्रवृत्ताश्च नराः क्रियाधर्मपरायणाः ॥"
+          "text": "पादेन ह्रसते धर्मो रक्ततां याति चाच्युतः ।\nसत्यप्रवृत्ताश्च नराः क्रियाधर्मपरायणाः ॥",
+          "meaning": {
+            "en": "\"In it dharma lessens by a quarter, and the unfallen Lord takes on redness. People are devoted to truth and to rites and dharma.\""
+          }
         },
         {
           "n": 24,
-          "text": "ततो यज्ञाः प्रवर्तन्ते धर्माश्च विविधाः क्रियाः ।\nत्रेतायां भावसंकल्पाः क्रियादानफलोदयाः ॥"
+          "text": "ततो यज्ञाः प्रवर्तन्ते धर्माश्च विविधाः क्रियाः ।\nत्रेतायां भावसंकल्पाः क्रियादानफलोदयाः ॥",
+          "meaning": {
+            "en": "\"Then sacrifices begin, with dharmas and many kinds of rites. In the Treta, intentions arise from inclination, and rewards come from rites and gifts.\""
+          }
         },
         {
           "n": 25,
-          "text": "प्रचलन्ति न वै धर्मात्तपोदानपरायणाः ।\nस्वधर्मस्थाः क्रियावन्तो जनास्त्रेतायुगेऽभवन् ॥"
+          "text": "प्रचलन्ति न वै धर्मात्तपोदानपरायणाः ।\nस्वधर्मस्थाः क्रियावन्तो जनास्त्रेतायुगेऽभवन् ॥",
+          "meaning": {
+            "en": "\"People of the Treta age, devoted to austerity and giving, did not stray from dharma; they stayed in their own duty and were active in rites.\""
+          }
         },
         {
           "n": 26,
-          "text": "द्वापरेऽपि युगे धर्मो द्विभागोनः प्रवर्तते ।\nविष्णुर्वै पीततां याति चतुर्धा वेद एव च ॥"
+          "text": "द्वापरेऽपि युगे धर्मो द्विभागोनः प्रवर्तते ।\nविष्णुर्वै पीततां याति चतुर्धा वेद एव च ॥",
+          "meaning": {
+            "en": "\"In the Dvapara age too, dharma goes on with two parts lost. Vishnu turns yellow, and the Veda itself is fourfold.\""
+          }
         },
         {
           "n": 27,
-          "text": "ततोऽन्ये च चतुर्वेदास्त्रिवेदाश्च तथापरे ।\nद्विवेदाश्चैकवेदाश्चाप्यनृचश्च तथापरे ॥"
+          "text": "ततोऽन्ये च चतुर्वेदास्त्रिवेदाश्च तथापरे ।\nद्विवेदाश्चैकवेदाश्चाप्यनृचश्च तथापरे ॥",
+          "meaning": {
+            "en": "\"Then some know four Vedas, some three, others two or one, and others none of the Rik verses.\""
+          }
         },
         {
           "n": 28,
-          "text": "एवं शास्त्रेषु भिन्नेषु बहुधा नीयते क्रिया ।\nतपोदानप्रवृत्ता च राजसी भवति प्रजा ॥"
+          "text": "एवं शास्त्रेषु भिन्नेषु बहुधा नीयते क्रिया ।\nतपोदानप्रवृत्ता च राजसी भवति प्रजा ॥",
+          "meaning": {
+            "en": "\"As the scriptures thus divide, rites are conducted in many ways, and people, intent on austerity and giving, become passionate.\""
+          }
         },
         {
           "n": 29,
-          "text": "एकवेदस्य चाज्ञानाद्वेदास्ते बहवः कृताः ।\nसत्यस्य चेह विभ्रंशात्सत्ये कश्चिदवस्थितः ॥"
+          "text": "एकवेदस्य चाज्ञानाद्वेदास्ते बहवः कृताः ।\nसत्यस्य चेह विभ्रंशात्सत्ये कश्चिदवस्थितः ॥",
+          "meaning": {
+            "en": "\"Through ignorance of the one Veda, many Vedas were made; and through lapse from truth here, hardly anyone stays in truth.\""
+          }
         },
         {
           "n": 30,
-          "text": "सत्यात्प्रच्यवमानानां व्याधयो बहवोऽभवन् ।\nकामाश्चोपद्रवाश्चैव तदा दैवतकारिताः ॥"
+          "text": "सत्यात्प्रच्यवमानानां व्याधयो बहवोऽभवन् ।\nकामाश्चोपद्रवाश्चैव तदा दैवतकारिताः ॥",
+          "meaning": {
+            "en": "\"For those falling from truth, many diseases arose, along with desires and calamities, brought on by fate.\""
+          }
         },
         {
           "n": 31,
-          "text": "यैरर्द्यमानाः सुभृशं तपस्तप्यन्ति मानवाः ।\nकामकामाः स्वर्गकामा यज्ञांस्तन्वन्ति चापरे ॥"
+          "text": "यैरर्द्यमानाः सुभृशं तपस्तप्यन्ति मानवाः ।\nकामकामाः स्वर्गकामा यज्ञांस्तन्वन्ति चापरे ॥",
+          "meaning": {
+            "en": "\"Tormented by these, people practise great austerity; some, full of desire, long for heaven and perform sacrifices.\""
+          }
         },
         {
           "n": 32,
-          "text": "एवं द्वापरमासाद्य प्रजाः क्षीयन्त्यधर्मतः ।\nपादेनैकेन कौन्तेय धर्मः कलियुगे स्थितः ॥"
+          "text": "एवं द्वापरमासाद्य प्रजाः क्षीयन्त्यधर्मतः ।\nपादेनैकेन कौन्तेय धर्मः कलियुगे स्थितः ॥",
+          "meaning": {
+            "en": "\"So, once Dvapara arrives, people decline through unrighteousness. In the Kali age, son of Kunti, dharma stands on one foot only.\""
+          }
         },
         {
           "n": 33,
-          "text": "तामसं युगमासाद्य कृष्णो भवति केशवः ।\nवेदाचाराः प्रशाम्यन्ति धर्मयज्ञक्रियास्तथा ॥"
+          "text": "तामसं युगमासाद्य कृष्णो भवति केशवः ।\nवेदाचाराः प्रशाम्यन्ति धर्मयज्ञक्रियास्तथा ॥",
+          "meaning": {
+            "en": "\"Reaching the dark age, Keshava becomes black. The Vedic conduct, dharma, sacrifices and rites die down.\""
+          }
         },
         {
           "n": 34,
-          "text": "ईतयो व्याधयस्तन्द्री दोषाः क्रोधादयस्तथा ।\nउपद्रवाश्च वर्तन्ते आधयो व्याधयस्तथा ॥"
+          "text": "ईतयो व्याधयस्तन्द्री दोषाः क्रोधादयस्तथा ।\nउपद्रवाश्च वर्तन्ते आधयो व्याधयस्तथा ॥",
+          "meaning": {
+            "en": "\"Calamities, diseases, sloth, faults like anger, and troubles, mental and bodily, appear.\""
+          }
         },
         {
           "n": 35,
-          "text": "युगेष्वावर्तमानेषु धर्मो व्यावर्तते पुनः ।\nधर्मे व्यावर्तमाने तु लोको व्यावर्तते पुनः ॥"
+          "text": "युगेष्वावर्तमानेषु धर्मो व्यावर्तते पुनः ।\nधर्मे व्यावर्तमाने तु लोको व्यावर्तते पुनः ॥",
+          "meaning": {
+            "en": "\"As the ages revolve, dharma turns away again; and when dharma turns away, the world turns away again.\""
+          }
         },
         {
           "n": 36,
-          "text": "लोके क्षीणे क्षयं यान्ति भावा लोकप्रवर्तकाः ।\nयुगक्षयकृता धर्माः प्रार्थनानि विकुर्वते ॥"
+          "text": "लोके क्षीणे क्षयं यान्ति भावा लोकप्रवर्तकाः ।\nयुगक्षयकृता धर्माः प्रार्थनानि विकुर्वते ॥",
+          "meaning": {
+            "en": "\"When the world declines, the things that sustain it decline. Dharmas that bring about the age's end distort people's prayers.\""
+          }
         },
         {
           "n": 37,
-          "text": "एतत्कलियुगं नाम अचिराद्यत्प्रवर्तते ।\nयुगानुवर्तनं त्वेतत्कुर्वन्ति चिरजीविनः ॥"
+          "text": "एतत्कलियुगं नाम अचिराद्यत्प्रवर्तते ।\nयुगानुवर्तनं त्वेतत्कुर्वन्ति चिरजीविनः ॥",
+          "meaning": {
+            "en": "\"This is the age called Kali, which is soon to begin. Those long-lived follow the course of the ages.\""
+          }
         },
         {
           "n": 38,
-          "text": "यच्च ते मत्परिज्ञाने कौतूहलमरिंदम ।\nअनर्थकेषु को भावः पुरुषस्य विजानतः ॥"
+          "text": "यच्च ते मत्परिज्ञाने कौतूहलमरिंदम ।\nअनर्थकेषु को भावः पुरुषस्य विजानतः ॥",
+          "meaning": {
+            "en": "\"As for your curiosity to know me, scourge of enemies, what is the use to a knowing man of things that serve no purpose?\""
+          }
         },
         {
           "n": 39,
-          "text": "एतत्ते सर्वमाख्यातं यन्मां त्वं परिपृच्छसि ।\nयुगसंख्यां महाबाहो स्वस्ति प्राप्नुहि गम्यताम् ॥"
+          "text": "एतत्ते सर्वमाख्यातं यन्मां त्वं परिपृच्छसि ।\nयुगसंख्यां महाबाहो स्वस्ति प्राप्नुहि गम्यताम् ॥",
+          "meaning": {
+            "en": "\"I have told you all that you asked me, the count of the ages. May you be well, mighty-armed one; now go.\""
+          }
         }
       ]
     }

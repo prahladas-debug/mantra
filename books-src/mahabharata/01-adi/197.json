@@ -22,123 +22,213 @@
       "titleEn": "Viduragamana Parva (Vidura's coming)",
       "verses": [
         {
-          "text": "विदुर उवाच"
+          "text": "विदुर उवाच",
+          "meaning": {
+            "en": "Vidura said:"
+          }
         },
         {
           "n": 1,
-          "text": "राजन्निःसंशयं श्रेयो वाच्यस्त्वमसि बान्धवैः ।\nन त्वशुश्रूषमाणेषु वाक्यं संप्रतितिष्ठति ॥"
+          "text": "राजन्निःसंशयं श्रेयो वाच्यस्त्वमसि बान्धवैः ।\nन त्वशुश्रूषमाणेषु वाक्यं संप्रतितिष्ठति ॥",
+          "meaning": {
+            "en": "King, kinsmen are surely bound to tell you what is best for you; but advice finds no footing with those who refuse to listen."
+          }
         },
         {
           "n": 2,
-          "text": "हितं हि तव तद्वाक्यमुक्तवान्कुरुसत्तमः ।\nभीष्मः शांतनवो राजन्प्रतिगृह्णासि तन्न च ॥"
+          "text": "हितं हि तव तद्वाक्यमुक्तवान्कुरुसत्तमः ।\nभीष्मः शांतनवो राजन्प्रतिगृह्णासि तन्न च ॥",
+          "meaning": {
+            "en": "Bhishma, son of Shantanu and best of the Kurus, spoke to you what was truly good for you, O king, yet you do not accept it."
+          }
         },
         {
           "n": 3,
-          "text": "तथा द्रोणेन बहुधा भाषितं हितमुत्तमम् ।\nतच्च राधासुतः कर्णो मन्यते न हितं तव ॥"
+          "text": "तथा द्रोणेन बहुधा भाषितं हितमुत्तमम् ।\nतच्च राधासुतः कर्णो मन्यते न हितं तव ॥",
+          "meaning": {
+            "en": "Drona too has urged excellent counsel for your good in many ways, but Karna, son of Radha, does not consider it good for you."
+          }
         },
         {
           "n": 4,
-          "text": "चिन्तयंश्च न पश्यामि राजंस्तव सुहृत्तमम् ।\nआभ्यां पुरुषसिंहाभ्यां यो वा स्यात्प्रज्ञयाधिकः ॥"
+          "text": "चिन्तयंश्च न पश्यामि राजंस्तव सुहृत्तमम् ।\nआभ्यां पुरुषसिंहाभ्यां यो वा स्यात्प्रज्ञयाधिकः ॥",
+          "meaning": {
+            "en": "However I reflect, O king, I see no better friend to you than these two lions among men, or anyone wiser than they."
+          }
         },
         {
           "n": 5,
-          "text": "इमौ हि वृद्धौ वयसा प्रज्ञया च श्रुतेन च ।\nसमौ च त्वयि राजेन्द्र तेषु पाण्डुसुतेषु च ॥"
+          "text": "इमौ हि वृद्धौ वयसा प्रज्ञया च श्रुतेन च ।\nसमौ च त्वयि राजेन्द्र तेषु पाण्डुसुतेषु च ॥",
+          "meaning": {
+            "en": "These two are elders in age, in wisdom and in learning, and they hold you and the sons of Pandu in equal regard."
+          }
         },
         {
           "n": 6,
-          "text": "धर्मे चानवमौ राजन्सत्यतायां च भारत ।\nरामाद्दाशरथेश्चैव गयाच्चैव न संशयः ॥"
+          "text": "धर्मे चानवमौ राजन्सत्यतायां च भारत ।\nरामाद्दाशरथेश्चैव गयाच्चैव न संशयः ॥",
+          "meaning": {
+            "en": "In righteousness and truthfulness, O Bharata, they are second to none, not even to Rama son of Dasharatha or to Gaya; of that there is no doubt."
+          }
         },
         {
           "n": 7,
-          "text": "न चोक्तवन्तावश्रेयः पुरस्तादपि किंचन ।\nन चाप्यपकृतं किंचिदनयोर्लक्ष्यते त्वयि ॥"
+          "text": "न चोक्तवन्तावश्रेयः पुरस्तादपि किंचन ।\nन चाप्यपकृतं किंचिदनयोर्लक्ष्यते त्वयि ॥",
+          "meaning": {
+            "en": "They have never given you harmful advice before, and no wrong done by them to you can be found."
+          }
         },
         {
           "n": 8,
-          "text": "ताविमौ पुरुषव्याघ्रावनागसि नृप त्वयि ।\nन मन्त्रयेतां त्वच्छ्रेयः कथं सत्यपराक्रमौ ॥"
+          "text": "ताविमौ पुरुषव्याघ्रावनागसि नृप त्वयि ।\nन मन्त्रयेतां त्वच्छ्रेयः कथं सत्यपराक्रमौ ॥",
+          "meaning": {
+            "en": "How could these two tigers among men, devoted to truth and valor, advise anything against your good when you have done them no harm?"
+          }
         },
         {
           "n": 9,
-          "text": "प्रज्ञावन्तौ नरश्रेष्ठावस्मिँल्लोके नराधिप ।\nत्वन्निमित्तमतो नेमौ किंचिज्जिह्मं वदिष्यतः ।\nइति मे नैष्ठिकी बुद्धिर्वर्तते कुरुनन्दन ॥"
+          "text": "प्रज्ञावन्तौ नरश्रेष्ठावस्मिँल्लोके नराधिप ।\nत्वन्निमित्तमतो नेमौ किंचिज्जिह्मं वदिष्यतः ।\nइति मे नैष्ठिकी बुद्धिर्वर्तते कुरुनन्दन ॥",
+          "meaning": {
+            "en": "They are the wisest of men in this world, O king; for your sake they will not say anything crooked. This is my settled conviction, O joy of the Kurus."
+          }
         },
         {
           "n": 10,
-          "text": "न चार्थहेतोर्धर्मज्ञौ वक्ष्यतः पक्षसंश्रितम् ।\nएतद्धि परमं श्रेयो मेनाते तव भारत ॥"
+          "text": "न चार्थहेतोर्धर्मज्ञौ वक्ष्यतः पक्षसंश्रितम् ।\nएतद्धि परमं श्रेयो मेनाते तव भारत ॥",
+          "meaning": {
+            "en": "Knowing dharma, they will not speak out of partisanship or for gain; they consider this the highest good for you, O Bharata."
+          }
         },
         {
           "n": 11,
-          "text": "दुर्योधनप्रभृतयः पुत्रा राजन्यथा तव ।\nतथैव पाण्डवेयास्ते पुत्रा राजन्न संशयः ॥"
+          "text": "दुर्योधनप्रभृतयः पुत्रा राजन्यथा तव ।\nतथैव पाण्डवेयास्ते पुत्रा राजन्न संशयः ॥",
+          "meaning": {
+            "en": "Just as Duryodhana and the rest are your sons, O king, so beyond doubt are the Pandavas."
+          }
         },
         {
           "n": 12,
-          "text": "तेषु चेदहितं किंचिन्मन्त्रयेयुरबुद्धितः ।\nमन्त्रिणस्ते न ते श्रेयः प्रपश्यन्ति विशेषतः ॥"
+          "text": "तेषु चेदहितं किंचिन्मन्त्रयेयुरबुद्धितः ।\nमन्त्रिणस्ते न ते श्रेयः प्रपश्यन्ति विशेषतः ॥",
+          "meaning": {
+            "en": "If your counselors were to plan some harm to them out of folly, then they do not truly see your good."
+          }
         },
         {
           "n": 13,
-          "text": "अथ ते हृदये राजन्विशेषस्तेषु वर्तते ।\nअन्तरस्थं विवृण्वानाः श्रेयः कुर्युर्न ते ध्रुवम् ॥"
+          "text": "अथ ते हृदये राजन्विशेषस्तेषु वर्तते ।\nअन्तरस्थं विवृण्वानाः श्रेयः कुर्युर्न ते ध्रुवम् ॥",
+          "meaning": {
+            "en": "And if in your heart you favor one side over the other, then by revealing that hidden leaning they would surely not serve your good either."
+          }
         },
         {
           "n": 14,
-          "text": "एतदर्थमिमौ राजन्महात्मानौ महाद्युती ।\nनोचतुर्विवृतं किंचिन्न ह्येष तव निश्चयः ॥"
+          "text": "एतदर्थमिमौ राजन्महात्मानौ महाद्युती ।\nनोचतुर्विवृतं किंचिन्न ह्येष तव निश्चयः ॥",
+          "meaning": {
+            "en": "For this reason, O king, these two great and radiant men have not spoken openly, for this is not your real resolve."
+          }
         },
         {
           "n": 15,
-          "text": "यच्चाप्यशक्यतां तेषामाहतुः पुरुषर्षभौ ।\nतत्तथा पुरुषव्याघ्र तव तद्भद्रमस्तु ते ॥"
+          "text": "यच्चाप्यशक्यतां तेषामाहतुः पुरुषर्षभौ ।\nतत्तथा पुरुषव्याघ्र तव तद्भद्रमस्तु ते ॥",
+          "meaning": {
+            "en": "And whatever those two bulls among men said about the Pandavas being unconquerable, it is so, O tiger among men; may it bring you welfare."
+          }
         },
         {
           "n": 16,
-          "text": "कथं हि पाण्डवः श्रीमान्सव्यसाची परंतपः ।\nशक्यो विजेतुं संग्रामे राजन्मघवता अपि ॥"
+          "text": "कथं हि पाण्डवः श्रीमान्सव्यसाची परंतपः ।\nशक्यो विजेतुं संग्रामे राजन्मघवता अपि ॥",
+          "meaning": {
+            "en": "How could the glorious Pandava Arjuna, the left-handed archer, scourge of foes, be defeated in battle, even by Indra himself?"
+          }
         },
         {
           "n": 17,
-          "text": "भीमसेनो महाबाहुर्नागायुतबलो महान् ।\nकथं हि युधि शक्येत विजेतुममरैरपि ॥"
+          "text": "भीमसेनो महाबाहुर्नागायुतबलो महान् ।\nकथं हि युधि शक्येत विजेतुममरैरपि ॥",
+          "meaning": {
+            "en": "How could mighty Bhimasena of long arms, with the strength of ten thousand elephants, be conquered in battle even by the immortals?"
+          }
         },
         {
           "n": 18,
-          "text": "तथैव कृतिनौ युद्धे यमौ यमसुताविव ।\nकथं विषहितुं शक्यौ रणे जीवितुमिच्छता ॥"
+          "text": "तथैव कृतिनौ युद्धे यमौ यमसुताविव ।\nकथं विषहितुं शक्यौ रणे जीवितुमिच्छता ॥",
+          "meaning": {
+            "en": "So too the twins, skilled in war like the two sons of Yama; how could anyone who wishes to live withstand them in combat?"
+          }
         },
         {
           "n": 19,
-          "text": "यस्मिन्धृतिरनुक्रोशः क्षमा सत्यं पराक्रमः ।\nनित्यानि पाण्डवश्रेष्ठे स जीयेत कथं रणे ॥"
+          "text": "यस्मिन्धृतिरनुक्रोशः क्षमा सत्यं पराक्रमः ।\nनित्यानि पाण्डवश्रेष्ठे स जीयेत कथं रणे ॥",
+          "meaning": {
+            "en": "How could he be defeated in battle in whom steadiness, compassion, forbearance, truth and valor ever dwell, the best of the Pandavas?"
+          }
         },
         {
           "n": 20,
-          "text": "येषां पक्षधरो रामो येषां मन्त्री जनार्दनः ।\nकिं नु तैरजितं संख्ये येषां पक्षे च सात्यकिः ॥"
+          "text": "येषां पक्षधरो रामो येषां मन्त्री जनार्दनः ।\nकिं नु तैरजितं संख्ये येषां पक्षे च सात्यकिः ॥",
+          "meaning": {
+            "en": "What have those not conquered in war who have Rama as their supporter, Janardana as their counselor, and Satyaki on their side?"
+          }
         },
         {
           "n": 21,
-          "text": "द्रुपदः श्वशुरो येषां येषां श्यालाश्च पार्षताः ।\nधृष्टद्युम्नमुखा वीरा भ्रातरो द्रुपदात्मजाः ॥"
+          "text": "द्रुपदः श्वशुरो येषां येषां श्यालाश्च पार्षताः ।\nधृष्टद्युम्नमुखा वीरा भ्रातरो द्रुपदात्मजाः ॥",
+          "meaning": {
+            "en": "Their father-in-law is Drupada, their brothers-in-law are the Parshatas, and the heroic sons of Drupada led by Dhrishtadyumna are their kin."
+          }
         },
         {
           "n": 22,
-          "text": "सोऽशक्यतां च विज्ञाय तेषामग्रेण भारत ।\nदायाद्यतां च धर्मेण सम्यक्तेषु समाचर ॥"
+          "text": "सोऽशक्यतां च विज्ञाय तेषामग्रेण भारत ।\nदायाद्यतां च धर्मेण सम्यक्तेषु समाचर ॥",
+          "meaning": {
+            "en": "Knowing then, O Bharata, that they are unconquerable, and that they have a rightful claim to inheritance, deal with them properly."
+          }
         },
         {
           "n": 23,
-          "text": "इदं निर्दिग्धमयशः पुरोचनकृतं महत् ।\nतेषामनुग्रहेणाद्य राजन्प्रक्षालयात्मनः ॥"
+          "text": "इदं निर्दिग्धमयशः पुरोचनकृतं महत् ।\nतेषामनुग्रहेणाद्य राजन्प्रक्षालयात्मनः ॥",
+          "meaning": {
+            "en": "This great infamy, blackened by what Purochana did, you can wash from yourself today, O king, by showing them favor."
+          }
         },
         {
           "n": 24,
-          "text": "द्रुपदोऽपि महान्राजा कृतवैरश्च नः पुरा ।\nतस्य संग्रहणं राजन्स्वपक्षस्य विवर्धनम् ॥"
+          "text": "द्रुपदोऽपि महान्राजा कृतवैरश्च नः पुरा ।\nतस्य संग्रहणं राजन्स्वपक्षस्य विवर्धनम् ॥",
+          "meaning": {
+            "en": "King Drupada is also powerful and was once our enemy; winning him over, O king, would strengthen your own side."
+          }
         },
         {
           "n": 25,
-          "text": "बलवन्तश्च दाशार्हा बहवश्च विशां पते ।\nयतः कृष्णस्ततस्ते स्युर्यतः कृष्णस्ततो जयः ॥"
+          "text": "बलवन्तश्च दाशार्हा बहवश्च विशां पते ।\nयतः कृष्णस्ततस्ते स्युर्यतः कृष्णस्ततो जयः ॥",
+          "meaning": {
+            "en": "The Dasharhas are mighty and many, O lord of the people; where Krishna is, they will be, and where Krishna is, there is victory."
+          }
         },
         {
           "n": 26,
-          "text": "यच्च साम्नैव शक्येत कार्यं साधयितुं नृप ।\nको दैवशप्तस्तत्कार्तुं विग्रहेण समाचरेत् ॥"
+          "text": "यच्च साम्नैव शक्येत कार्यं साधयितुं नृप ।\nको दैवशप्तस्तत्कार्तुं विग्रहेण समाचरेत् ॥",
+          "meaning": {
+            "en": "When a task can be accomplished by conciliation alone, O king, who, unless cursed by fate, would choose to do it by strife?"
+          }
         },
         {
           "n": 27,
-          "text": "श्रुत्वा च जीवतः पार्थान्पौरजानपदो जनः ।\nबलवद्दर्शने गृध्नुस्तेषां राजन्कुरु प्रियम् ॥"
+          "text": "श्रुत्वा च जीवतः पार्थान्पौरजानपदो जनः ।\nबलवद्दर्शने गृध्नुस्तेषां राजन्कुरु प्रियम् ॥",
+          "meaning": {
+            "en": "Having heard that the Parthas live, the townsfolk and country people are eager to see them; do what pleases them, O king."
+          }
         },
         {
           "n": 28,
-          "text": "दुर्योधनश्च कर्णश्च शकुनिश्चापि सौबलः ।\nअधर्मयुक्ता दुष्प्रज्ञा बाला मैषां वचः कृथाः ॥"
+          "text": "दुर्योधनश्च कर्णश्च शकुनिश्चापि सौबलः ।\nअधर्मयुक्ता दुष्प्रज्ञा बाला मैषां वचः कृथाः ॥",
+          "meaning": {
+            "en": "Duryodhana, Karna and Shakuni son of Subala are unrighteous, foolish and childish; do not follow their words."
+          }
         },
         {
           "n": 29,
-          "text": "उक्तमेतन्मया राजन्पुरा गुणवतस्तव ।\nदुर्योधनापराधेन प्रजेयं विनशिष्यति ॥"
+          "text": "उक्तमेतन्मया राजन्पुरा गुणवतस्तव ।\nदुर्योधनापराधेन प्रजेयं विनशिष्यति ॥",
+          "meaning": {
+            "en": "I told you this earlier, O king, when you were virtuous: through Duryodhana's offense these people will perish."
+          }
         }
       ]
     }

@@ -22,105 +22,183 @@
       "titleEn": "Shishupalavadha Parva (Slaying of Shishupala)",
       "verses": [
         {
-          "text": "भीष्म उवाच"
+          "text": "भीष्म उवाच",
+          "meaning": {
+            "en": "Bhishma said:"
+          }
         },
         {
           "n": 1,
-          "text": "चेदिराजकुले जातस्त्र्यक्ष एष चतुर्भुजः ।\nरासभारावसदृशं रुराव च ननाद च ॥"
+          "text": "चेदिराजकुले जातस्त्र्यक्ष एष चतुर्भुजः ।\nरासभारावसदृशं रुराव च ननाद च ॥",
+          "meaning": {
+            "en": "This one was born in the house of the king of Chedi with three eyes and four arms, and he cried and brayed like a donkey."
+          }
         },
         {
           "n": 2,
-          "text": "तेनास्य मातापितरौ त्रेसतुस्तौ सबान्धवौ ।\nवैकृतं तच्च तौ दृष्ट्वा त्यागाय कुरुतां मतिम् ॥"
+          "text": "तेनास्य मातापितरौ त्रेसतुस्तौ सबान्धवौ ।\nवैकृतं तच्च तौ दृष्ट्वा त्यागाय कुरुतां मतिम् ॥",
+          "meaning": {
+            "en": "His parents, with their relatives, were terrified by it, and seeing that deformity they resolved to abandon him."
+          }
         },
         {
           "n": 3,
-          "text": "ततः सभार्यं नृपतिं सामात्यं सपुरोहितम् ।\nचिन्तासंमूढहृदयं वागुवाचाशरीरिणी ॥"
+          "text": "ततः सभार्यं नृपतिं सामात्यं सपुरोहितम् ।\nचिन्तासंमूढहृदयं वागुवाचाशरीरिणी ॥",
+          "meaning": {
+            "en": "Then to the king with his wife, ministers and chaplain, their hearts bewildered by worry, a bodiless voice spoke:"
+          }
         },
         {
           "n": 4,
-          "text": "एष ते नृपते पुत्रः श्रीमाञ्जातो महाबलः ।\nतस्मादस्मान्न भेतव्यमव्यग्रः पाहि वै शिशुम् ॥"
+          "text": "एष ते नृपते पुत्रः श्रीमाञ्जातो महाबलः ।\nतस्मादस्मान्न भेतव्यमव्यग्रः पाहि वै शिशुम् ॥",
+          "meaning": {
+            "en": "Voice said: King, this son of yours is born glorious and very strong. So do not be afraid; protect the child calmly."
+          }
         },
         {
           "n": 5,
-          "text": "न चैवैतस्य मृत्युस्त्वं न कालः प्रत्युपस्थितः ।\nमृत्युर्हन्तास्य शस्त्रेण स चोत्पन्नो नराधिप ॥"
+          "text": "न चैवैतस्य मृत्युस्त्वं न कालः प्रत्युपस्थितः ।\nमृत्युर्हन्तास्य शस्त्रेण स चोत्पन्नो नराधिप ॥",
+          "meaning": {
+            "en": "Neither you nor Time is yet his death; but his slayer, who will kill him with a weapon, has already been born, king."
+          }
         },
         {
           "n": 6,
-          "text": "संश्रुत्योदाहृतं वाक्यं भूतमन्तर्हितं ततः ।\nपुत्रस्नेहाभिसंतप्ता जननी वाक्यमब्रवीत् ॥"
+          "text": "संश्रुत्योदाहृतं वाक्यं भूतमन्तर्हितं ततः ।\nपुत्रस्नेहाभिसंतप्ता जननी वाक्यमब्रवीत् ॥",
+          "meaning": {
+            "en": "Having heard those words spoken, and the being gone out of sight, the mother, tormented by love for her son, said:"
+          }
         },
         {
           "n": 7,
-          "text": "येनेदमीरितं वाक्यं ममैव तनयं प्रति ।\nप्राञ्जलिस्तं नमस्यामि ब्रवीतु स पुनर्वचः ॥"
+          "text": "येनेदमीरितं वाक्यं ममैव तनयं प्रति ।\nप्राञ्जलिस्तं नमस्यामि ब्रवीतु स पुनर्वचः ॥",
+          "meaning": {
+            "en": "Mother said: Whoever has spoken these words about my own son, with folded hands I bow to him; let him speak again."
+          }
         },
         {
           "n": 8,
-          "text": "श्रोतुमिच्छामि पुत्रस्य कोऽस्य मृत्युर्भविष्यति ।\nअन्तर्हितं ततो भूतमुवाचेदं पुनर्वचः ॥"
+          "text": "श्रोतुमिच्छामि पुत्रस्य कोऽस्य मृत्युर्भविष्यति ।\nअन्तर्हितं ततो भूतमुवाचेदं पुनर्वचः ॥",
+          "meaning": {
+            "en": "I want to hear who will be this son's death. Then the unseen being spoke these words again:"
+          }
         },
         {
           "n": 9,
-          "text": "येनोत्सङ्गे गृहीतस्य भुजावभ्यधिकावुभौ ।\nपतिष्यतः क्षितितले पञ्चशीर्षाविवोरगौ ॥"
+          "text": "येनोत्सङ्गे गृहीतस्य भुजावभ्यधिकावुभौ ।\nपतिष्यतः क्षितितले पञ्चशीर्षाविवोरगौ ॥",
+          "meaning": {
+            "en": "Voice said: The one on whose lap he is placed, and at whose touch his two extra arms fall to the ground like two five-headed serpents,"
+          }
         },
         {
           "n": 10,
-          "text": "तृतीयमेतद्बालस्य ललाटस्थं च लोचनम् ।\nनिमज्जिष्यति यं दृष्ट्वा सोऽस्य मृत्युर्भविष्यति ॥"
+          "text": "तृतीयमेतद्बालस्य ललाटस्थं च लोचनम् ।\nनिमज्जिष्यति यं दृष्ट्वा सोऽस्य मृत्युर्भविष्यति ॥",
+          "meaning": {
+            "en": "and into whom this child's third eye, set in his forehead, sinks away on seeing him, he will be his death."
+          }
         },
         {
           "n": 11,
-          "text": "त्र्यक्षं चतुर्भुजं श्रुत्वा तथा च समुदाहृतम् ।\nधरण्यां पार्थिवाः सर्वे अभ्यगच्छन्दिदृक्षवः ॥"
+          "text": "त्र्यक्षं चतुर्भुजं श्रुत्वा तथा च समुदाहृतम् ।\nधरण्यां पार्थिवाः सर्वे अभ्यगच्छन्दिदृक्षवः ॥",
+          "meaning": {
+            "en": "Hearing of the three-eyed, four-armed child and what had been said, all the kings of the earth came, wishing to see him."
+          }
         },
         {
           "n": 12,
-          "text": "तान्पूजयित्वा संप्राप्तान्यथार्हं स महीपतिः ।\nएकैकस्य नृपस्याङ्के पुत्रमारोपयत्तदा ॥"
+          "text": "तान्पूजयित्वा संप्राप्तान्यथार्हं स महीपतिः ।\nएकैकस्य नृपस्याङ्के पुत्रमारोपयत्तदा ॥",
+          "meaning": {
+            "en": "Honouring those who had come as each deserved, the king then placed the child on the lap of each king in turn."
+          }
         },
         {
           "n": 13,
-          "text": "एवं राजसहस्राणां पृथक्त्वेन यथाक्रमम् ।\nशिशुरङ्के समारूढो न तत्प्राप निदर्शनम् ॥"
+          "text": "एवं राजसहस्राणां पृथक्त्वेन यथाक्रमम् ।\nशिशुरङ्के समारूढो न तत्प्राप निदर्शनम् ॥",
+          "meaning": {
+            "en": "Thus, placed on the laps of thousands of kings, one by one in order, the child showed no sign."
+          }
         },
         {
           "n": 14,
-          "text": "ततश्चेदिपुरं प्राप्तौ संकर्षणजनार्दनौ ।\nयादवौ यादवीं द्रष्टुं स्वसारं तां पितुस्तदा ॥"
+          "text": "ततश्चेदिपुरं प्राप्तौ संकर्षणजनार्दनौ ।\nयादवौ यादवीं द्रष्टुं स्वसारं तां पितुस्तदा ॥",
+          "meaning": {
+            "en": "Then Sankarshana and Janardana, the two Yadavas, came to the city of Chedi to see the Yadava lady, their father's sister."
+          }
         },
         {
           "n": 15,
-          "text": "अभिवाद्य यथान्यायं यथाज्येष्ठं नृपांश्च तान् ।\nकुशलानामयं पृष्ट्वा निषण्णौ रामकेशवौ ॥"
+          "text": "अभिवाद्य यथान्यायं यथाज्येष्ठं नृपांश्च तान् ।\nकुशलानामयं पृष्ट्वा निषण्णौ रामकेशवौ ॥",
+          "meaning": {
+            "en": "Having saluted the kings properly in order of seniority and asked after their well-being, Rama and Keshava sat down."
+          }
         },
         {
           "n": 16,
-          "text": "अभ्यर्चितौ तदा वीरौ प्रीत्या चाभ्यधिकं ततः ।\nपुत्रं दामोदरोत्सङ्गे देवी संन्यदधात्स्वयम् ॥"
+          "text": "अभ्यर्चितौ तदा वीरौ प्रीत्या चाभ्यधिकं ततः ।\nपुत्रं दामोदरोत्सङ्गे देवी संन्यदधात्स्वयम् ॥",
+          "meaning": {
+            "en": "Honoured then and greatly with affection, the two heroes were joined by the lady, who herself placed her son on the lap of Damodara."
+          }
         },
         {
           "n": 17,
-          "text": "न्यस्तमात्रस्य तस्याङ्के भुजावभ्यधिकावुभौ ।\nपेततुस्तच्च नयनं निममज्ज ललाटजम् ॥"
+          "text": "न्यस्तमात्रस्य तस्याङ्के भुजावभ्यधिकावुभौ ।\nपेततुस्तच्च नयनं निममज्ज ललाटजम् ॥",
+          "meaning": {
+            "en": "As soon as he was placed on his lap, the two extra arms fell off and the eye in his forehead sank."
+          }
         },
         {
           "n": 18,
-          "text": "तद्दृष्ट्वा व्यथिता त्रस्ता वरं कृष्णमयाचत ।\nददस्व मे वरं कृष्ण भयार्ताया महाभुज ॥"
+          "text": "तद्दृष्ट्वा व्यथिता त्रस्ता वरं कृष्णमयाचत ।\nददस्व मे वरं कृष्ण भयार्ताया महाभुज ॥",
+          "meaning": {
+            "en": "Seeing that, she was distressed and frightened, and begged Krishna for a boon: Krishna, mighty-armed, give me a boon, for I am afflicted with fear."
+          }
         },
         {
           "n": 19,
-          "text": "त्वं ह्यार्तानां समाश्वासो भीतानामभयंकरः ।\nपितृष्वसारं मा भैषीरित्युवाच जनार्दनः ॥"
+          "text": "त्वं ह्यार्तानां समाश्वासो भीतानामभयंकरः ।\nपितृष्वसारं मा भैषीरित्युवाच जनार्दनः ॥",
+          "meaning": {
+            "en": "You are the comfort of the afflicted and the giver of fearlessness to the frightened. Janardana said to his father's sister: Do not be afraid."
+          }
         },
         {
           "n": 20,
-          "text": "ददानि कं वरं किं वा करवाणि पितृष्वसः ।\nशक्यं वा यदि वाशक्यं करिष्यामि वचस्तव ॥"
+          "text": "ददानि कं वरं किं वा करवाणि पितृष्वसः ।\nशक्यं वा यदि वाशक्यं करिष्यामि वचस्तव ॥",
+          "meaning": {
+            "en": "Krishna said: Aunt, what boon shall I give, or what shall I do? Whether possible or impossible, I will do what you say."
+          }
         },
         {
           "n": 21,
-          "text": "एवमुक्ता ततः कृष्णमब्रवीद्यदुनन्दनम् ।\nशिशुपालस्यापराधान्क्षमेथास्त्वं महाबल ॥"
+          "text": "एवमुक्ता ततः कृष्णमब्रवीद्यदुनन्दनम् ।\nशिशुपालस्यापराधान्क्षमेथास्त्वं महाबल ॥",
+          "meaning": {
+            "en": "Thus addressed, she said to Krishna, delight of the Yadus: Mighty one, forgive Shishupala his offences."
+          }
         },
         {
-          "text": "कृष्ण उवाच"
+          "text": "कृष्ण उवाच",
+          "meaning": {
+            "en": "Krishna said:"
+          }
         },
         {
           "n": 22,
-          "text": "अपराधशतं क्षाम्यं मया ह्यस्य पितृष्वसः ।\nपुत्रस्य ते वधार्हाणां मा त्वं शोके मनः कृथाः ॥"
+          "text": "अपराधशतं क्षाम्यं मया ह्यस्य पितृष्वसः ।\nपुत्रस्य ते वधार्हाणां मा त्वं शोके मनः कृथाः ॥",
+          "meaning": {
+            "en": "Aunt, I will forgive a hundred offences of his, though they deserve death. Do not set your heart on grief for your son."
+          }
         },
         {
-          "text": "भीष्म उवाच"
+          "text": "भीष्म उवाच",
+          "meaning": {
+            "en": "Bhishma said:"
+          }
         },
         {
           "n": 23,
-          "text": "एवमेष नृपः पापः शिशुपालः सुमन्दधीः ।\nत्वां समाह्वयते वीर गोविन्दवरदर्पितः ॥"
+          "text": "एवमेष नृपः पापः शिशुपालः सुमन्दधीः ।\nत्वां समाह्वयते वीर गोविन्दवरदर्पितः ॥",
+          "meaning": {
+            "en": "So it is, hero, that this sinful king Shishupala, dull-witted and proud of Govinda's boon, challenges you."
+          }
         }
       ]
     }

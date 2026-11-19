@@ -22,239 +22,416 @@
       "titleEn": "Kairata Parva (The mountain hunter)",
       "verses": [
         {
-          "text": "द्रौपद्युवाच"
+          "text": "द्रौपद्युवाच",
+          "meaning": {
+            "en": "Draupadi said:"
+          }
         },
         {
           "n": 1,
-          "text": "नावमन्ये न गर्हे च धर्मं पार्थ कथंचन ।\nईश्वरं कुत एवाहमवमंस्ये प्रजापतिम् ॥"
+          "text": "नावमन्ये न गर्हे च धर्मं पार्थ कथंचन ।\nईश्वरं कुत एवाहमवमंस्ये प्रजापतिम् ॥",
+          "meaning": {
+            "en": "\"Partha, I do not scorn or blame dharma in any way; how could I scorn the Lord, the Prajapati?\""
+          }
         },
         {
           "n": 2,
-          "text": "आर्ताहं प्रलपामीदमिति मां विद्धि भारत ।\nभूयश्च विलपिष्यामि सुमनास्तन्निबोध मे ॥"
+          "text": "आर्ताहं प्रलपामीदमिति मां विद्धि भारत ।\nभूयश्च विलपिष्यामि सुमनास्तन्निबोध मे ॥",
+          "meaning": {
+            "en": "\"Know, Bharata, that I speak this in distress, and I will lament more; listen to it calmly.\""
+          }
         },
         {
           "n": 3,
-          "text": "कर्म खल्विह कर्तव्यं जातेनामित्रकर्शन ।\nअकर्माणो हि जीवन्ति स्थावरा नेतरे जनाः ॥"
+          "text": "कर्म खल्विह कर्तव्यं जातेनामित्रकर्शन ।\nअकर्माणो हि जीवन्ति स्थावरा नेतरे जनाः ॥",
+          "meaning": {
+            "en": "\"Surely, scourge of enemies, one who is born must act; only immovable things live without action, not other beings.\""
+          }
         },
         {
           "n": 4,
-          "text": "आ मातृस्तनपानाच्च यावच्छय्योपसर्पणम् ।\nजङ्गमाः कर्मणा वृत्तिमाप्नुवन्ति युधिष्ठिर ॥"
+          "text": "आ मातृस्तनपानाच्च यावच्छय्योपसर्पणम् ।\nजङ्गमाः कर्मणा वृत्तिमाप्नुवन्ति युधिष्ठिर ॥",
+          "meaning": {
+            "en": "\"From drinking at the mother's breast until creeping into the bed, moving beings, Yudhishthira, earn their living by action.\""
+          }
         },
         {
           "n": 5,
-          "text": "जङ्गमेषु विशेषेण मनुष्या भरतर्षभ ।\nइच्छन्ति कर्मणा वृत्तिमवाप्तुं प्रेत्य चेह च ॥"
+          "text": "जङ्गमेषु विशेषेण मनुष्या भरतर्षभ ।\nइच्छन्ति कर्मणा वृत्तिमवाप्तुं प्रेत्य चेह च ॥",
+          "meaning": {
+            "en": "\"Among moving beings, best of the Bharatas, it is men especially who wish to gain a livelihood by action, here and after death.\""
+          }
         },
         {
           "n": 6,
-          "text": "उत्थानमभिजानन्ति सर्वभूतानि भारत ।\nप्रत्यक्षं फलमश्नन्ति कर्मणां लोकसाक्षिकम् ॥"
+          "text": "उत्थानमभिजानन्ति सर्वभूतानि भारत ।\nप्रत्यक्षं फलमश्नन्ति कर्मणां लोकसाक्षिकम् ॥",
+          "meaning": {
+            "en": "\"All creatures know exertion, Bharata, and they enjoy directly the fruits of actions, as the world bears witness.\""
+          }
         },
         {
           "n": 7,
-          "text": "पश्यामि स्वं समुत्थानमुपजीवन्ति जन्तवः ।\nअपि धाता विधाता च यथायमुदके बकः ॥"
+          "text": "पश्यामि स्वं समुत्थानमुपजीवन्ति जन्तवः ।\nअपि धाता विधाता च यथायमुदके बकः ॥",
+          "meaning": {
+            "en": "\"I see that creatures live by their own exertion; even the Establisher and Ordainer does, like this crane in the water.\""
+          }
         },
         {
           "n": 8,
-          "text": "स्वकर्म कुरु मा ग्लासीः कर्मणा भव दंशितः ।\nकृत्यं हि योऽभिजानाति सहस्रे नास्ति सोऽस्ति वा ॥"
+          "text": "स्वकर्म कुरु मा ग्लासीः कर्मणा भव दंशितः ।\nकृत्यं हि योऽभिजानाति सहस्रे नास्ति सोऽस्ति वा ॥",
+          "meaning": {
+            "en": "\"Do your own work, do not despair; put on the armor of action. One who truly knows what must be done is rare, perhaps not one in a thousand.\""
+          }
         },
         {
           "n": 9,
-          "text": "तस्य चापि भवेत्कार्यं विवृद्धौ रक्षणे तथा ।\nभक्ष्यमाणो ह्यनावापः क्षीयते हिमवानपि ॥"
+          "text": "तस्य चापि भवेत्कार्यं विवृद्धौ रक्षणे तथा ।\nभक्ष्यमाणो ह्यनावापः क्षीयते हिमवानपि ॥",
+          "meaning": {
+            "en": "\"Even he must act to increase and to protect his wealth; eaten away without fresh supply, even the Himalaya dwindles.\""
+          }
         },
         {
           "n": 10,
-          "text": "उत्सीदेरन्प्रजाः सर्वा न कुर्युः कर्म चेद्यदि ।\nअपि चाप्यफलं कर्म पश्यामः कुर्वतो जनान् ।\nनान्यथा ह्यभिजानन्ति वृत्तिं लोके कथंचन ॥"
+          "text": "उत्सीदेरन्प्रजाः सर्वा न कुर्युः कर्म चेद्यदि ।\nअपि चाप्यफलं कर्म पश्यामः कुर्वतो जनान् ।\nनान्यथा ह्यभिजानन्ति वृत्तिं लोके कथंचन ॥",
+          "meaning": {
+            "en": "\"All people would perish if they did not act; we see even people who act without result, but they know no other way of livelihood in the world.\""
+          }
         },
         {
           "n": 11,
-          "text": "यश्च दिष्टपरो लोके यश्चायं हठवादकः ।\nउभावपसदावेतौ कर्मबुद्धिः प्रशस्यते ॥"
+          "text": "यश्च दिष्टपरो लोके यश्चायं हठवादकः ।\nउभावपसदावेतौ कर्मबुद्धिः प्रशस्यते ॥",
+          "meaning": {
+            "en": "\"Whoever relies on fate in this world, and whoever holds that all happens by chance, are both the lowest; the mind bent on action is praised.\""
+          }
         },
         {
           "n": 12,
-          "text": "यो हि दिष्टमुपासीनो निर्विचेष्टः सुखं स्वपेत् ।\nअवसीदेत्सुदुर्बुद्धिरामो घट इवाम्भसि ॥"
+          "text": "यो हि दिष्टमुपासीनो निर्विचेष्टः सुखं स्वपेत् ।\nअवसीदेत्सुदुर्बुद्धिरामो घट इवाम्भसि ॥",
+          "meaning": {
+            "en": "\"The foolish man who sits waiting on fate, making no effort, sleeps comfortably, perishes like an unbaked pot in water.\""
+          }
         },
         {
           "n": 13,
-          "text": "तथैव हठबुद्धिर्यः शक्तः कर्मण्यकर्मकृत् ।\nआसीत न चिरं जीवेदनाथ इव दुर्बलः ॥"
+          "text": "तथैव हठबुद्धिर्यः शक्तः कर्मण्यकर्मकृत् ।\nआसीत न चिरं जीवेदनाथ इव दुर्बलः ॥",
+          "meaning": {
+            "en": "\"Likewise one who trusts to chance, though able to act, does no work; he sits and does not live long, weak like one without a protector.\""
+          }
         },
         {
           "n": 14,
-          "text": "अकस्मादपि यः कश्चिदर्थं प्राप्नोति पूरुषः ।\nतं हठेनेति मन्यन्ते स हि यत्नो न कस्यचित् ॥"
+          "text": "अकस्मादपि यः कश्चिदर्थं प्राप्नोति पूरुषः ।\nतं हठेनेति मन्यन्ते स हि यत्नो न कस्यचित् ॥",
+          "meaning": {
+            "en": "\"When a man gains something suddenly, without cause, they call it chance, since it was nobody's effort.\""
+          }
         },
         {
           "n": 15,
-          "text": "यच्चापि किंचित्पुरुषो दिष्टं नाम लभत्युत ।\nदैवेन विधिना पार्थ तद्दैवमिति निश्चितम् ॥"
+          "text": "यच्चापि किंचित्पुरुषो दिष्टं नाम लभत्युत ।\nदैवेन विधिना पार्थ तद्दैवमिति निश्चितम् ॥",
+          "meaning": {
+            "en": "\"Whatever a man gets that is decreed by fate, by the divine arrangement, Partha, that is settled as fate.\""
+          }
         },
         {
           "n": 16,
-          "text": "यत्स्वयं कर्मणा किंचित्फलमाप्नोति पूरुषः ।\nप्रत्यक्षं चक्षुषा दृष्टं तत्पौरुषमिति स्मृतम् ॥"
+          "text": "यत्स्वयं कर्मणा किंचित्फलमाप्नोति पूरुषः ।\nप्रत्यक्षं चक्षुषा दृष्टं तत्पौरुषमिति स्मृतम् ॥",
+          "meaning": {
+            "en": "\"Whatever fruit a man gains himself by his action, seen plainly with the eyes, that is called human effort.\""
+          }
         },
         {
           "n": 17,
-          "text": "स्वभावतः प्रवृत्तोऽन्यः प्राप्नोत्यर्थानकारणात् ।\nतत्स्वभावात्मकं विद्धि फलं पुरुषसत्तम ॥"
+          "text": "स्वभावतः प्रवृत्तोऽन्यः प्राप्नोत्यर्थानकारणात् ।\nतत्स्वभावात्मकं विद्धि फलं पुरुषसत्तम ॥",
+          "meaning": {
+            "en": "\"When someone else, acting by his nature, gains things without a cause, know, best of men, that fruit to be of the nature of things.\""
+          }
         },
         {
           "n": 18,
-          "text": "एवं हठाच्च दैवाच्च स्वभावात्कर्मणस्तथा ।\nयानि प्राप्नोति पुरुषस्तत्फलं पूर्वकर्मणः ॥"
+          "text": "एवं हठाच्च दैवाच्च स्वभावात्कर्मणस्तथा ।\nयानि प्राप्नोति पुरुषस्तत्फलं पूर्वकर्मणः ॥",
+          "meaning": {
+            "en": "\"Thus, whatever a man gets by chance, fate, nature or action is the fruit of earlier deeds.\""
+          }
         },
         {
           "n": 19,
-          "text": "धातापि हि स्वकर्मैव तैस्तैर्हेतुभिरीश्वरः ।\nविदधाति विभज्येह फलं पूर्वकृतं नृणाम् ॥"
+          "text": "धातापि हि स्वकर्मैव तैस्तैर्हेतुभिरीश्वरः ।\nविदधाति विभज्येह फलं पूर्वकृतं नृणाम् ॥",
+          "meaning": {
+            "en": "\"The Ordainer, as Lord, by various means and causes, apportions here the fruit of men's earlier deeds.\""
+          }
         },
         {
           "n": 20,
-          "text": "यद्ध्ययं पुरुषः किंचित्कुरुते वै शुभाशुभम् ।\nतद्धातृविहितं विद्धि पूर्वकर्मफलोदयम् ॥"
+          "text": "यद्ध्ययं पुरुषः किंचित्कुरुते वै शुभाशुभम् ।\nतद्धातृविहितं विद्धि पूर्वकर्मफलोदयम् ॥",
+          "meaning": {
+            "en": "\"Whatever good or bad a man does, know it as arranged by the Ordainer and as the rising of the fruit of earlier deeds.\""
+          }
         },
         {
           "n": 21,
-          "text": "कारणं तस्य देहोऽयं धातुः कर्मणि कर्मणि ।\nस यथा प्रेरयत्येनं तथायं कुरुतेऽवशः ॥"
+          "text": "कारणं तस्य देहोऽयं धातुः कर्मणि कर्मणि ।\nस यथा प्रेरयत्येनं तथायं कुरुतेऽवशः ॥",
+          "meaning": {
+            "en": "\"The body is the instrument for the Ordainer's doing in each deed; as he urges him, so the man, helpless, acts.\""
+          }
         },
         {
           "n": 22,
-          "text": "तेषु तेषु हि कृत्येषु विनियोक्ता महेश्वरः ।\nसर्वभूतानि कौन्तेय कारयत्यवशान्यपि ॥"
+          "text": "तेषु तेषु हि कृत्येषु विनियोक्ता महेश्वरः ।\nसर्वभूतानि कौन्तेय कारयत्यवशान्यपि ॥",
+          "meaning": {
+            "en": "\"The Great Lord, appointing beings to their tasks, makes all beings act, even when they are not free.\""
+          }
         },
         {
           "n": 23,
-          "text": "मनसार्थान्विनिश्चित्य पश्चात्प्राप्नोति कर्मणा ।\nबुद्धिपूर्वं स्वयं धीरः पुरुषस्तत्र कारणम् ॥"
+          "text": "मनसार्थान्विनिश्चित्य पश्चात्प्राप्नोति कर्मणा ।\nबुद्धिपूर्वं स्वयं धीरः पुरुषस्तत्र कारणम् ॥",
+          "meaning": {
+            "en": "\"Having decided on aims with the mind, a man later reaches them by action; the steadfast man himself, acting with intention, is the cause there.\""
+          }
         },
         {
           "n": 24,
-          "text": "संख्यातुं नैव शक्यानि कर्माणि पुरुषर्षभ ।\nअगारनगराणां हि सिद्धिः पुरुषहैतुकी ॥"
+          "text": "संख्यातुं नैव शक्यानि कर्माणि पुरुषर्षभ ।\nअगारनगराणां हि सिद्धिः पुरुषहैतुकी ॥",
+          "meaning": {
+            "en": "\"Deeds cannot be counted, best of men; the building of houses and cities depends on human effort.\""
+          }
         },
         {
           "n": 25,
-          "text": "तिले तैलं गवि क्षीरं काष्ठे पावकमन्ततः ।\nधिया धीरो विजानीयादुपायं चास्य सिद्धये ॥"
+          "text": "तिले तैलं गवि क्षीरं काष्ठे पावकमन्ततः ।\nधिया धीरो विजानीयादुपायं चास्य सिद्धये ॥",
+          "meaning": {
+            "en": "\"Oil in sesame, milk in a cow, fire in wood: the steady man should find the means to bring it out by intelligence.\""
+          }
         },
         {
           "n": 26,
-          "text": "ततः प्रवर्तते पश्चात्करणेष्वस्य सिद्धये ।\nतां सिद्धिमुपजीवन्ति कर्मणामिह जन्तवः ॥"
+          "text": "ततः प्रवर्तते पश्चात्करणेष्वस्य सिद्धये ।\nतां सिद्धिमुपजीवन्ति कर्मणामिह जन्तवः ॥",
+          "meaning": {
+            "en": "\"Then he sets about the means for this accomplishment, and by that success creatures here live by their deeds.\""
+          }
         },
         {
           "n": 27,
-          "text": "कुशलेन कृतं कर्म कर्त्रा साधु विनिश्चितम् ।\nइदं त्वकुशलेनेति विशेषादुपलभ्यते ॥"
+          "text": "कुशलेन कृतं कर्म कर्त्रा साधु विनिश्चितम् ।\nइदं त्वकुशलेनेति विशेषादुपलभ्यते ॥",
+          "meaning": {
+            "en": "\"A deed done by a skilled doer, well planned, is distinguished from this one done by an unskilled man.\""
+          }
         },
         {
           "n": 28,
-          "text": "इष्टापूर्तफलं न स्यान्न शिष्यो न गुरुर्भवेत् ।\nपुरुषः कर्मसाध्येषु स्याच्चेदयमकारणम् ॥"
+          "text": "इष्टापूर्तफलं न स्यान्न शिष्यो न गुरुर्भवेत् ।\nपुरुषः कर्मसाध्येषु स्याच्चेदयमकारणम् ॥",
+          "meaning": {
+            "en": "\"If a man were no cause in what is achieved by action, there would be no fruit of sacrifice and charity, no pupil and no teacher.\""
+          }
         },
         {
           "n": 29,
-          "text": "कर्तृत्वादेव पुरुषः कर्मसिद्धौ प्रशस्यते ।\nअसिद्धौ निन्द्यते चापि कर्मनाशः कथं त्विह ॥"
+          "text": "कर्तृत्वादेव पुरुषः कर्मसिद्धौ प्रशस्यते ।\nअसिद्धौ निन्द्यते चापि कर्मनाशः कथं त्विह ॥",
+          "meaning": {
+            "en": "\"A man is praised for success in his work because he is the doer, and blamed for failure; how then could action be set aside here?\""
+          }
         },
         {
           "n": 30,
-          "text": "सर्वमेव हठेनैके दिष्टेनैके वदन्त्युत ।\nपुरुषप्रयत्नजं केचित्त्रैधमेतन्निरुच्यते ॥"
+          "text": "सर्वमेव हठेनैके दिष्टेनैके वदन्त्युत ।\nपुरुषप्रयत्नजं केचित्त्रैधमेतन्निरुच्यते ॥",
+          "meaning": {
+            "en": "\"Some say everything comes by chance, some by fate, some by human effort; so this is told as threefold.\""
+          }
         },
         {
           "n": 31,
-          "text": "न चैवैतावता कार्यं मन्यन्त इति चापरे ।\nअस्ति सर्वमदृश्यं तु दिष्टं चैव तथा हठः ।\nदृश्यते हि हठाच्चैव दिष्टाच्चार्थस्य संततिः ॥"
+          "text": "न चैवैतावता कार्यं मन्यन्त इति चापरे ।\nअस्ति सर्वमदृश्यं तु दिष्टं चैव तथा हठः ।\nदृश्यते हि हठाच्चैव दिष्टाच्चार्थस्य संततिः ॥",
+          "meaning": {
+            "en": "\"Others hold that it is not by only these; all is unseen, both fate and chance; for gain is seen to come from chance and from fate.\""
+          }
         },
         {
           "n": 32,
-          "text": "किंचिद्दैवाद्धठात्किंचित्किंचिदेव स्वकर्मतः ।\nपुरुषः फलमाप्नोति चतुर्थं नात्र कारणम् ।\nकुशलाः प्रतिजानन्ति ये तत्त्वविदुषो जनाः ॥"
+          "text": "किंचिद्दैवाद्धठात्किंचित्किंचिदेव स्वकर्मतः ।\nपुरुषः फलमाप्नोति चतुर्थं नात्र कारणम् ।\nकुशलाः प्रतिजानन्ति ये तत्त्वविदुषो जनाः ॥",
+          "meaning": {
+            "en": "\"A man gets fruit partly from fate, partly from chance, and partly from his own action; there is no fourth cause, as the skilled and truth-knowing people affirm.\""
+          }
         },
         {
           "n": 33,
-          "text": "तथैव धाता भूतानामिष्टानिष्टफलप्रदः ।\nयदि न स्यान्न भूतानां कृपणो नाम कश्चन ॥"
+          "text": "तथैव धाता भूतानामिष्टानिष्टफलप्रदः ।\nयदि न स्यान्न भूतानां कृपणो नाम कश्चन ॥",
+          "meaning": {
+            "en": "\"So too the Ordainer gives beings the fruit of what is desired and undesired; otherwise no being would be wretched.\""
+          }
         },
         {
           "n": 34,
-          "text": "यं यमर्थमभिप्रेप्सुः कुरुते कर्म पूरुषः ।\nतत्तत्सफलमेव स्याद्यदि न स्यात्पुराकृतम् ॥"
+          "text": "यं यमर्थमभिप्रेप्सुः कुरुते कर्म पूरुषः ।\nतत्तत्सफलमेव स्याद्यदि न स्यात्पुराकृतम् ॥",
+          "meaning": {
+            "en": "\"Whatever thing a man wants and does a deed for would be fruitful, if there were not what was done before.\""
+          }
         },
         {
           "n": 35,
-          "text": "त्रिद्वारामर्थसिद्धिं तु नानुपश्यन्ति ये नराः ।\nतथैवानर्थसिद्धिं च यथा लोकास्तथैव ते ॥"
+          "text": "त्रिद्वारामर्थसिद्धिं तु नानुपश्यन्ति ये नराः ।\nतथैवानर्थसिद्धिं च यथा लोकास्तथैव ते ॥",
+          "meaning": {
+            "en": "\"People who do not see that achievement has three doors, nor that failure has them also, are like ordinary people.\""
+          }
         },
         {
           "n": 36,
-          "text": "कर्तव्यं त्वेव कर्मेति मनोरेष विनिश्चयः ।\nएकान्तेन ह्यनीहोऽयं पराभवति पूरुषः ॥"
+          "text": "कर्तव्यं त्वेव कर्मेति मनोरेष विनिश्चयः ।\nएकान्तेन ह्यनीहोऽयं पराभवति पूरुषः ॥",
+          "meaning": {
+            "en": "\"Action must be done: this is Manu's conclusion. A man who strives not at all is wholly overcome.\""
+          }
         },
         {
           "n": 37,
-          "text": "कुर्वतो हि भवत्येव प्रायेणेह युधिष्ठिर ।\nएकान्तफलसिद्धिं तु न विन्दत्यलसः क्वचित् ॥"
+          "text": "कुर्वतो हि भवत्येव प्रायेणेह युधिष्ठिर ।\nएकान्तफलसिद्धिं तु न विन्दत्यलसः क्वचित् ॥",
+          "meaning": {
+            "en": "\"Yudhishthira, for one who acts there is usually success here; but the idle never gain the certain fruit of success anywhere.\""
+          }
         },
         {
           "n": 38,
-          "text": "असंभवे त्वस्य हेतुः प्रायश्चित्तं तु लक्ष्यते ।\nकृते कर्मणि राजेन्द्र तथानृण्यमवाप्यते ॥"
+          "text": "असंभवे त्वस्य हेतुः प्रायश्चित्तं तु लक्ष्यते ।\nकृते कर्मणि राजेन्द्र तथानृण्यमवाप्यते ॥",
+          "meaning": {
+            "en": "\"When success does not come, the cause is found, and atonement is seen; when the deed is done, O king of kings, one is freed of debt.\""
+          }
         },
         {
           "n": 39,
-          "text": "अलक्ष्मीराविशत्येनं शयानमलसं नरम् ।\nनिःसंशयं फलं लब्ध्वा दक्षो भूतिमुपाश्नुते ॥"
+          "text": "अलक्ष्मीराविशत्येनं शयानमलसं नरम् ।\nनिःसंशयं फलं लब्ध्वा दक्षो भूतिमुपाश्नुते ॥",
+          "meaning": {
+            "en": "\"Misfortune enters a man sleeping and idle; having certainly gained fruit, the skilled man attains prosperity.\""
+          }
         },
         {
           "n": 40,
-          "text": "अनर्थं संशयावस्थं वृण्वते मुक्तसंशयाः ।\nधीरा नराः कर्मरता न तु निःसंशयं क्वचित् ॥"
+          "text": "अनर्थं संशयावस्थं वृण्वते मुक्तसंशयाः ।\nधीरा नराः कर्मरता न तु निःसंशयं क्वचित् ॥",
+          "meaning": {
+            "en": "\"Steady men devoted to action accept an undertaking even when its outcome is in doubt, free of hesitation; they never find it free of doubt.\""
+          }
         },
         {
           "n": 41,
-          "text": "एकान्तेन ह्यनर्थोऽयं वर्ततेऽस्मासु सांप्रतम् ।\nन तु निःसंशयं न स्यात्त्वयि कर्मण्यवस्थिते ॥"
+          "text": "एकान्तेन ह्यनर्थोऽयं वर्ततेऽस्मासु सांप्रतम् ।\nन तु निःसंशयं न स्यात्त्वयि कर्मण्यवस्थिते ॥",
+          "meaning": {
+            "en": "\"Misfortune has in fact come to us wholly now; but if you stand firm in action, it would not be without doubt.\""
+          }
         },
         {
           "n": 42,
-          "text": "अथ वा सिद्धिरेव स्यान्महिमा तु तथैव ते ।\nवृकोदरस्य बीभत्सोर्भ्रात्रोश्च यमयोरपि ॥"
+          "text": "अथ वा सिद्धिरेव स्यान्महिमा तु तथैव ते ।\nवृकोदरस्य बीभत्सोर्भ्रात्रोश्च यमयोरपि ॥",
+          "meaning": {
+            "en": "\"Or there will be success, and your greatness will be the same, and that of Vrikodara, Bibhatsu and the twin brothers.\""
+          }
         },
         {
           "n": 43,
-          "text": "अन्येषां कर्म सफलमस्माकमपि वा पुनः ।\nविप्रकर्षेण बुध्येत कृतकर्मा यथा फलम् ॥"
+          "text": "अन्येषां कर्म सफलमस्माकमपि वा पुनः ।\nविप्रकर्षेण बुध्येत कृतकर्मा यथा फलम् ॥",
+          "meaning": {
+            "en": "\"Others' actions bear fruit, or ours as well; a man who has done his work will realize the fruit over time.\""
+          }
         },
         {
           "n": 44,
-          "text": "पृथिवीं लाङ्गलेनैव भित्त्वा बीजं वपत्युत ।\nआस्तेऽथ कर्षकस्तूष्णीं पर्जन्यस्तत्र कारणम् ॥"
+          "text": "पृथिवीं लाङ्गलेनैव भित्त्वा बीजं वपत्युत ।\nआस्तेऽथ कर्षकस्तूष्णीं पर्जन्यस्तत्र कारणम् ॥",
+          "meaning": {
+            "en": "\"The farmer splits the earth with the plow, sows the seed, and then sits quietly; the rain cloud is the cause there.\""
+          }
         },
         {
           "n": 45,
-          "text": "वृष्टिश्चेन्नानुगृह्णीयादनेनास्तत्र कर्षकः ।\nयदन्यः पुरुषः कुर्यात्कृतं तत्सकलं मया ॥"
+          "text": "वृष्टिश्चेन्नानुगृह्णीयादनेनास्तत्र कर्षकः ।\nयदन्यः पुरुषः कुर्यात्कृतं तत्सकलं मया ॥",
+          "meaning": {
+            "en": "\"If the rain does not favor him, the farmer is not at fault: 'whatever another man would do, I have done in full.'\""
+          }
         },
         {
           "n": 46,
-          "text": "तच्चेदफलमस्माकं नापराधोऽस्ति नः क्वचित् ।\nइति धीरोऽन्ववेक्ष्यैव नात्मानं तत्र गर्हयेत् ॥"
+          "text": "तच्चेदफलमस्माकं नापराधोऽस्ति नः क्वचित् ।\nइति धीरोऽन्ववेक्ष्यैव नात्मानं तत्र गर्हयेत् ॥",
+          "meaning": {
+            "en": "\"If that is fruitless for us, there is no fault of ours anywhere; the steady man, reflecting thus, does not blame himself.\""
+          }
         },
         {
           "n": 47,
-          "text": "कुर्वतो नार्थसिद्धिर्मे भवतीति ह भारत ।\nनिर्वेदो नात्र गन्तव्यो द्वावेतौ ह्यस्य कर्मणः ।\nसिद्धिर्वाप्यथ वासिद्धिरप्रवृत्तिरतोऽन्यथा ॥"
+          "text": "कुर्वतो नार्थसिद्धिर्मे भवतीति ह भारत ।\nनिर्वेदो नात्र गन्तव्यो द्वावेतौ ह्यस्य कर्मणः ।\nसिद्धिर्वाप्यथ वासिद्धिरप्रवृत्तिरतोऽन्यथा ॥",
+          "meaning": {
+            "en": "\"Bharata, one should not give way to despair, thinking 'I do not gain success though I act'; this work has two outcomes, success or failure; otherwise there is no effort.\""
+          }
         },
         {
           "n": 48,
-          "text": "बहूनां समवाये हि भावानां कर्म सिध्यति ।\nगुणाभावे फलं न्यूनं भवत्यफलमेव वा ।\nअनारम्भे तु न फलं न गुणो दृश्यतेऽच्युत ॥"
+          "text": "बहूनां समवाये हि भावानां कर्म सिध्यति ।\nगुणाभावे फलं न्यूनं भवत्यफलमेव वा ।\nअनारम्भे तु न फलं न गुणो दृश्यतेऽच्युत ॥",
+          "meaning": {
+            "en": "\"When many conditions come together, the work succeeds; when a requirement is missing, the fruit is smaller or none; but without starting, Achyuta, neither fruit nor quality is seen.\""
+          }
         },
         {
           "n": 49,
-          "text": "देशकालावुपायांश्च मङ्गलं स्वस्ति वृद्धये ।\nयुनक्ति मेधया धीरो यथाशक्ति यथाबलम् ॥"
+          "text": "देशकालावुपायांश्च मङ्गलं स्वस्ति वृद्धये ।\nयुनक्ति मेधया धीरो यथाशक्ति यथाबलम् ॥",
+          "meaning": {
+            "en": "\"The wise man, by intelligence, as far as his power and strength allow, brings together place, time, means, and auspicious rites for success and growth.\""
+          }
         },
         {
           "n": 50,
-          "text": "अप्रमत्तेन तत्कार्यमुपदेष्टा पराक्रमः ।\nभूयिष्ठं कर्मयोगेषु सर्व एव पराक्रमः ॥"
+          "text": "अप्रमत्तेन तत्कार्यमुपदेष्टा पराक्रमः ।\nभूयिष्ठं कर्मयोगेषु सर्व एव पराक्रमः ॥",
+          "meaning": {
+            "en": "\"That must be done carefully, with advice and valor; in works of action, valor is mostly everything.\""
+          }
         },
         {
           "n": 51,
-          "text": "यं तु धीरोऽन्ववेक्षेत श्रेयांसं बहुभिर्गुणैः ।\nसाम्नैवार्थं ततो लिप्सेत्कर्म चास्मै प्रयोजयेत् ॥"
+          "text": "यं तु धीरोऽन्ववेक्षेत श्रेयांसं बहुभिर्गुणैः ।\nसाम्नैवार्थं ततो लिप्सेत्कर्म चास्मै प्रयोजयेत् ॥",
+          "meaning": {
+            "en": "\"The steady man should seek to gain a goal by conciliation alone from one he sees better by many qualities, and apply action to him.\""
+          }
         },
         {
           "n": 52,
-          "text": "व्यसनं वास्य काङ्क्षेत विनाशं वा युधिष्ठिर ।\nअपि सिन्धोर्गिरेर्वापि किं पुनर्मर्त्यधर्मिणः ॥"
+          "text": "व्यसनं वास्य काङ्क्षेत विनाशं वा युधिष्ठिर ।\nअपि सिन्धोर्गिरेर्वापि किं पुनर्मर्त्यधर्मिणः ॥",
+          "meaning": {
+            "en": "\"One may even hope for the downfall or ruin of such a man, Yudhishthira, though he be the ocean or a mountain, much less a mortal.\""
+          }
         },
         {
           "n": 53,
-          "text": "उत्थानयुक्तः सततं परेषामन्तरैषणे ।\nआनृण्यमाप्नोति नरः परस्यात्मन एव च ॥"
+          "text": "उत्थानयुक्तः सततं परेषामन्तरैषणे ।\nआनृण्यमाप्नोति नरः परस्यात्मन एव च ॥",
+          "meaning": {
+            "en": "\"A man always diligent in seeking the weak point of his enemies is freed of debt toward others and toward himself.\""
+          }
         },
         {
           "n": 54,
-          "text": "न चैवात्मावमन्तव्यः पुरुषेण कदाचन ।\nन ह्यात्मपरिभूतस्य भूतिर्भवति भारत ॥"
+          "text": "न चैवात्मावमन्तव्यः पुरुषेण कदाचन ।\nन ह्यात्मपरिभूतस्य भूतिर्भवति भारत ॥",
+          "meaning": {
+            "en": "\"A man should never despise himself; prosperity does not come to one who has put himself down, Bharata.\""
+          }
         },
         {
           "n": 55,
-          "text": "एवं संस्थितिका सिद्धिरियं लोकस्य भारत ।\nचित्रा सिद्धिगतिः प्रोक्ता कालावस्थाविभागतः ॥"
+          "text": "एवं संस्थितिका सिद्धिरियं लोकस्य भारत ।\nचित्रा सिद्धिगतिः प्रोक्ता कालावस्थाविभागतः ॥",
+          "meaning": {
+            "en": "\"Thus the world's success is stationed, Bharata; the course of success is said to be varied according to time and condition.\""
+          }
         },
         {
           "n": 56,
-          "text": "ब्राह्मणं मे पिता पूर्वं वासयामास पण्डितम् ।\nसोऽस्मा अर्थमिमं प्राह पित्रे मे भरतर्षभ ॥"
+          "text": "ब्राह्मणं मे पिता पूर्वं वासयामास पण्डितम् ।\nसोऽस्मा अर्थमिमं प्राह पित्रे मे भरतर्षभ ॥",
+          "meaning": {
+            "en": "\"Long ago my father kept a learned brahmin in the house; he explained this matter to my father.\""
+          }
         },
         {
           "n": 57,
-          "text": "नीतिं बृहस्पतिप्रोक्तां भ्रातॄन्मेऽग्राहयत्पुरा ।\nतेषां सांकथ्यमश्रौषमहमेतत्तदा गृहे ॥"
+          "text": "नीतिं बृहस्पतिप्रोक्तां भ्रातॄन्मेऽग्राहयत्पुरा ।\nतेषां सांकथ्यमश्रौषमहमेतत्तदा गृहे ॥",
+          "meaning": {
+            "en": "\"Earlier he taught my brothers the policy spoken by Brihaspati; I heard their discussion of this in the house at that time.\""
+          }
         },
         {
           "n": 58,
-          "text": "स मां राजन्कर्मवतीमागतामाह सान्त्वयन् ।\nशुश्रूषमाणामासीनां पितुरङ्के युधिष्ठिर ॥"
+          "text": "स मां राजन्कर्मवतीमागतामाह सान्त्वयन् ।\nशुश्रूषमाणामासीनां पितुरङ्के युधिष्ठिर ॥",
+          "meaning": {
+            "en": "\"Then, O king, as I came, busy with my duties, he spoke to me soothingly, Yudhishthira, as I sat in my father's lap, wanting to listen.\""
+          }
         }
       ]
     }

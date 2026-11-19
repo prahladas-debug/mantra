@@ -22,79 +22,136 @@
       "titleEn": "Sabha Parva (The assembly hall)",
       "verses": [
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 1,
-          "text": "संपूज्याथाभ्यनुज्ञातो महर्षेर्वचनात्परम् ।\nप्रत्युवाचानुपूर्व्येण धर्मराजो युधिष्ठिरः ॥"
+          "text": "संपूज्याथाभ्यनुज्ञातो महर्षेर्वचनात्परम् ।\nप्रत्युवाचानुपूर्व्येण धर्मराजो युधिष्ठिरः ॥",
+          "meaning": {
+            "en": "Having honored the great seer and received his leave to speak, Yudhishthira, king of dharma, replied point by point."
+          }
         },
         {
           "n": 2,
-          "text": "भगवन्न्याय्यमाहैतं यथावद्धर्मनिश्चयम् ।\nयथाशक्ति यथान्यायं क्रियतेऽयं विधिर्मया ॥"
+          "text": "भगवन्न्याय्यमाहैतं यथावद्धर्मनिश्चयम् ।\nयथाशक्ति यथान्यायं क्रियतेऽयं विधिर्मया ॥",
+          "meaning": {
+            "en": "\"Lord, what you have said is right and a true settlement of dharma; I carry out this rule as far as I am able and as is proper."
+          }
         },
         {
           "n": 3,
-          "text": "राजभिर्यद्यथा कार्यं पुरा तत्तन्न संशयः ।\nयथान्यायोपनीतार्थं कृतं हेतुमदर्थवत् ॥"
+          "text": "राजभिर्यद्यथा कार्यं पुरा तत्तन्न संशयः ।\nयथान्यायोपनीतार्थं कृतं हेतुमदर्थवत् ॥",
+          "meaning": {
+            "en": "\"Whatever kings in the past had to do, they did it, no doubt, with means lawfully gained, and with reason and purpose."
+          }
         },
         {
           "n": 4,
-          "text": "वयं तु सत्पथं तेषां यातुमिच्छामहे प्रभो ।\nन तु शक्यं तथा गन्तुं यथा तैर्नियतात्मभिः ॥"
+          "text": "वयं तु सत्पथं तेषां यातुमिच्छामहे प्रभो ।\nन तु शक्यं तथा गन्तुं यथा तैर्नियतात्मभिः ॥",
+          "meaning": {
+            "en": "\"We wish to walk the good path they walked, master; but we cannot go as those self-controlled men did.\""
+          }
         },
         {
           "n": 5,
-          "text": "एवमुक्त्वा स धर्मात्मा वाक्यं तदभिपूज्य च ।\nमुहूर्तात्प्राप्तकालं च दृष्ट्वा लोकचरं मुनिम् ॥"
+          "text": "एवमुक्त्वा स धर्मात्मा वाक्यं तदभिपूज्य च ।\nमुहूर्तात्प्राप्तकालं च दृष्ट्वा लोकचरं मुनिम् ॥",
+          "meaning": {
+            "en": "Having spoken so and honored Narada's words, the great-minded and righteous Yudhishthira, after a moment, seeing that the time was right, sat near the sage who roams the worlds, now seated at ease."
+          }
         },
         {
           "n": 6,
-          "text": "नारदं स्वस्थमासीनमुपासीनो युधिष्ठिरः ।\nअपृच्छत्पाण्डवस्तत्र राजमध्ये महामतिः ॥"
+          "text": "नारदं स्वस्थमासीनमुपासीनो युधिष्ठिरः ।\nअपृच्छत्पाण्डवस्तत्र राजमध्ये महामतिः ॥",
+          "meaning": {
+            "en": "There, in the midst of the kings, the wise Pandava questioned Narada."
+          }
         },
         {
           "n": 7,
-          "text": "भवान्संचरते लोकान्सदा नानाविधान्बहून् ।\nब्रह्मणा निर्मितान्पूर्वं प्रेक्षमाणो मनोजवः ॥"
+          "text": "भवान्संचरते लोकान्सदा नानाविधान्बहून् ।\nब्रह्मणा निर्मितान्पूर्वं प्रेक्षमाणो मनोजवः ॥",
+          "meaning": {
+            "en": "\"You always travel through the many different worlds, swift as thought, seeing what Brahma made long ago."
+          }
         },
         {
           "n": 8,
-          "text": "ईदृशी भवता काचिद्दृष्टपूर्वा सभा क्वचित् ।\nइतो वा श्रेयसी ब्रह्मंस्तन्ममाचक्ष्व पृच्छतः ॥"
+          "text": "ईदृशी भवता काचिद्दृष्टपूर्वा सभा क्वचित् ।\nइतो वा श्रेयसी ब्रह्मंस्तन्ममाचक्ष्व पृच्छतः ॥",
+          "meaning": {
+            "en": "\"Have you ever seen anywhere a hall like this one, or better than this, Brahmin? Tell me, since I ask.\""
+          }
         },
         {
           "n": 9,
-          "text": "तच्छ्रुत्वा नारदस्तस्य धर्मराजस्य भाषितम् ।\nपाण्डवं प्रत्युवाचेदं स्मयन्मधुरया गिरा ॥"
+          "text": "तच्छ्रुत्वा नारदस्तस्य धर्मराजस्य भाषितम् ।\nपाण्डवं प्रत्युवाचेदं स्मयन्मधुरया गिरा ॥",
+          "meaning": {
+            "en": "Hearing the king of dharma's words, Narada answered the Pandava, smiling, in a sweet voice."
+          }
         },
         {
           "n": 10,
-          "text": "मानुषेषु न मे तात दृष्टपूर्वा न च श्रुता ।\nसभा मणिमयी राजन्यथेयं तव भारत ॥"
+          "text": "मानुषेषु न मे तात दृष्टपूर्वा न च श्रुता ।\nसभा मणिमयी राजन्यथेयं तव भारत ॥",
+          "meaning": {
+            "en": "\"Among men, my dear, I have never before seen or heard of a hall made of jewels such as this one of yours, O Bharata."
+          }
         },
         {
           "n": 11,
-          "text": "सभां तु पितृराजस्य वरुणस्य च धीमतः ।\nकथयिष्ये तथेन्द्रस्य कैलासनिलयस्य च ॥"
+          "text": "सभां तु पितृराजस्य वरुणस्य च धीमतः ।\nकथयिष्ये तथेन्द्रस्य कैलासनिलयस्य च ॥",
+          "meaning": {
+            "en": "\"But I will tell you of the hall of the king of the fathers, and of the wise Varuna, and of Indra, and of the one who dwells on Kailasa."
+          }
         },
         {
           "n": 12,
-          "text": "ब्रह्मणश्च सभां दिव्यां कथयिष्ये गतक्लमाम् ।\nयदि ते श्रवणे बुद्धिर्वर्तते भरतर्षभ ॥"
+          "text": "ब्रह्मणश्च सभां दिव्यां कथयिष्ये गतक्लमाम् ।\nयदि ते श्रवणे बुद्धिर्वर्तते भरतर्षभ ॥",
+          "meaning": {
+            "en": "\"And I will tell you of the heavenly hall of Brahma, free of weariness, if you wish to hear, bull of the Bharatas.\""
+          }
         },
         {
           "n": 13,
-          "text": "नारदेनैवमुक्तस्तु धर्मराजो युधिष्ठिरः ।\nप्राञ्जलिर्भ्रातृभिः सार्धं तैश्च सर्वैर्नृपैर्वृतः ॥"
+          "text": "नारदेनैवमुक्तस्तु धर्मराजो युधिष्ठिरः ।\nप्राञ्जलिर्भ्रातृभिः सार्धं तैश्च सर्वैर्नृपैर्वृतः ॥",
+          "meaning": {
+            "en": "Spoken to so by Narada, Yudhishthira, king of dharma, with joined palms, surrounded by his brothers and all those kings,"
+          }
         },
         {
           "n": 14,
-          "text": "नारदं प्रत्युवाचेदं धर्मराजो महामनाः ।\nसभाः कथय ताः सर्वाः श्रोतुमिच्छामहे वयम् ॥"
+          "text": "नारदं प्रत्युवाचेदं धर्मराजो महामनाः ।\nसभाः कथय ताः सर्वाः श्रोतुमिच्छामहे वयम् ॥",
+          "meaning": {
+            "en": "the great-minded king of dharma replied to Narada, \"Tell us of all those halls; we wish to hear.\""
+          }
         },
         {
           "n": 15,
-          "text": "किंद्रव्यास्ताः सभा ब्रह्मन्किंविस्ताराः किमायताः ।\nपितामहं च के तस्यां सभायां पर्युपासते ॥"
+          "text": "किंद्रव्यास्ताः सभा ब्रह्मन्किंविस्ताराः किमायताः ।\nपितामहं च के तस्यां सभायां पर्युपासते ॥",
+          "meaning": {
+            "en": "\"Brahmin, of what are those halls made, how wide and how long are they, and who attend the grandfather in his hall?"
+          }
         },
         {
           "n": 16,
-          "text": "वासवं देवराजं च यमं वैवस्वतं च के ।\nवरुणं च कुबेरं च सभायां पर्युपासते ॥"
+          "text": "वासवं देवराजं च यमं वैवस्वतं च के ।\nवरुणं च कुबेरं च सभायां पर्युपासते ॥",
+          "meaning": {
+            "en": "\"Who attend Vasava, the king of the gods, and Yama, son of Vivasvat, and who wait upon Varuna and Kubera in their halls?"
+          }
         },
         {
           "n": 17,
-          "text": "एतत्सर्वं यथातत्त्वं देवर्षे वदतस्तव ।\nश्रोतुमिच्छाम सहिताः परं कौतूहलं हि नः ॥"
+          "text": "एतत्सर्वं यथातत्त्वं देवर्षे वदतस्तव ।\nश्रोतुमिच्छाम सहिताः परं कौतूहलं हि नः ॥",
+          "meaning": {
+            "en": "\"All this, divine seer, we all want to hear from you exactly as it is; our curiosity is very great.\""
+          }
         },
         {
           "n": 18,
-          "text": "एवमुक्तः पाण्डवेन नारदः प्रत्युवाच तम् ।\nक्रमेण राजन्दिव्यास्ताः श्रूयन्तामिह नः सभाः ॥"
+          "text": "एवमुक्तः पाण्डवेन नारदः प्रत्युवाच तम् ।\nक्रमेण राजन्दिव्यास्ताः श्रूयन्तामिह नः सभाः ॥",
+          "meaning": {
+            "en": "Addressed so by the Pandava, Narada replied, \"O king, hear now in order about those heavenly halls.\""
+          }
         }
       ]
     }

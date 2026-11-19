@@ -22,99 +22,171 @@
       "titleEn": "Sabha Parva (The assembly hall)",
       "verses": [
         {
-          "text": "नारद उवाच"
+          "text": "नारद उवाच",
+          "meaning": {
+            "en": "Narada said:"
+          }
         },
         {
           "n": 1,
-          "text": "सभा वैश्रवणी राजञ्शतयोजनमायता ।\nविस्तीर्णा सप्ततिश्चैव योजनानि सितप्रभा ॥"
+          "text": "सभा वैश्रवणी राजञ्शतयोजनमायता ।\nविस्तीर्णा सप्ततिश्चैव योजनानि सितप्रभा ॥",
+          "meaning": {
+            "en": "King, the hall of Vaishravana is a hundred yojanas long and seventy wide, and shines white."
+          }
         },
         {
           "n": 2,
-          "text": "तपसा निर्मिता राजन्स्वयं वैश्रवणेन सा ।\nशशिप्रभा खेचरीणां कैलासशिखरोपमा ॥"
+          "text": "तपसा निर्मिता राजन्स्वयं वैश्रवणेन सा ।\nशशिप्रभा खेचरीणां कैलासशिखरोपमा ॥",
+          "meaning": {
+            "en": "Vaishravana made it himself by austerity, O king; it glows like the moon and, among things that move in the sky, rises like the peak of Kailasa."
+          }
         },
         {
           "n": 3,
-          "text": "गुह्यकैरुह्यमाना सा खे विषक्तेव दृश्यते ।\nदिव्या हेममयैरुच्चैः पादपैरुपशोभिता ॥"
+          "text": "गुह्यकैरुह्यमाना सा खे विषक्तेव दृश्यते ।\nदिव्या हेममयैरुच्चैः पादपैरुपशोभिता ॥",
+          "meaning": {
+            "en": "Carried by the Guhyakas, that hall seems to hang fixed in the sky; it is heavenly and graced with tall golden trees."
+          }
         },
         {
           "n": 4,
-          "text": "रश्मिवती भास्वरा च दिव्यगन्धा मनोरमा ।\nसिताभ्रशिखराकारा प्लवमानेव दृश्यते ॥"
+          "text": "रश्मिवती भास्वरा च दिव्यगन्धा मनोरमा ।\nसिताभ्रशिखराकारा प्लवमानेव दृश्यते ॥",
+          "meaning": {
+            "en": "It is radiant and shining, heavenly in fragrance and lovely; it looks like the crest of a white cloud, seeming to float."
+          }
         },
         {
           "n": 5,
-          "text": "तस्यां वैश्रवणो राजा विचित्राभरणाम्बरः ।\nस्त्रीसहस्रावृतः श्रीमानास्ते ज्वलितकुण्डलः ॥"
+          "text": "तस्यां वैश्रवणो राजा विचित्राभरणाम्बरः ।\nस्त्रीसहस्रावृतः श्रीमानास्ते ज्वलितकुण्डलः ॥",
+          "meaning": {
+            "en": "In it King Vaishravana sits, in varied ornaments and robes, splendid, surrounded by thousands of women, his earrings blazing."
+          }
         },
         {
           "n": 6,
-          "text": "दिवाकरनिभे पुण्ये दिव्यास्तरणसंवृते ।\nदिव्यपादोपधाने च निषण्णः परमासने ॥"
+          "text": "दिवाकरनिभे पुण्ये दिव्यास्तरणसंवृते ।\nदिव्यपादोपधाने च निषण्णः परमासने ॥",
+          "meaning": {
+            "en": "He sits on the highest seat, holy, shining like the sun, covered with heavenly spreads and with a heavenly footrest."
+          }
         },
         {
           "n": 7,
-          "text": "मन्दाराणामुदाराणां वनानि सुरभीणि च ।\nसौगन्धिकानां चादाय गन्धान्गन्धवहः शुचिः ॥"
+          "text": "मन्दाराणामुदाराणां वनानि सुरभीणि च ।\nसौगन्धिकानां चादाय गन्धान्गन्धवहः शुचिः ॥",
+          "meaning": {
+            "en": "The pure wind, carrying the scents of the great mandara groves and of the fragrant sougandhika lilies,"
+          }
         },
         {
           "n": 8,
-          "text": "नलिन्याश्चालकाख्यायाश्चन्दनानां वनस्य च ।\nमनोहृदयसंह्लादी वायुस्तमुपसेवते ॥"
+          "text": "नलिन्याश्चालकाख्यायाश्चन्दनानां वनस्य च ।\nमनोहृदयसंह्लादी वायुस्तमुपसेवते ॥",
+          "meaning": {
+            "en": "and of the lotus pond named Alaka and the sandalwood forest, waits upon him, delighting mind and heart."
+          }
         },
         {
           "n": 9,
-          "text": "तत्र देवाः सगन्धर्वा गणैरप्सरसां वृताः ।\nदिव्यतानेन गीतानि गान्ति दिव्यानि भारत ॥"
+          "text": "तत्र देवाः सगन्धर्वा गणैरप्सरसां वृताः ।\nदिव्यतानेन गीतानि गान्ति दिव्यानि भारत ॥",
+          "meaning": {
+            "en": "There gods and Gandharvas, surrounded by troops of Apsarases, sing heavenly songs in divine melody, O Bharata."
+          }
         },
         {
           "n": 10,
-          "text": "मिश्रकेशी च रम्भा च चित्रसेना शुचिस्मिता ।\nचारुनेत्रा घृताची च मेनका पुञ्जिकस्थला ॥"
+          "text": "मिश्रकेशी च रम्भा च चित्रसेना शुचिस्मिता ।\nचारुनेत्रा घृताची च मेनका पुञ्जिकस्थला ॥",
+          "meaning": {
+            "en": "Mishrakeshi, Rambha, Chitrasena, the sweetly smiling Charunetra, Ghritachi, Menaka, Punjikasthala;"
+          }
         },
         {
           "n": 11,
-          "text": "विश्वाची सहजन्या च प्रम्लोचा उर्वशी इरा ।\nवर्गा च सौरभेयी च समीची बुद्बुदा लता ॥"
+          "text": "विश्वाची सहजन्या च प्रम्लोचा उर्वशी इरा ।\nवर्गा च सौरभेयी च समीची बुद्बुदा लता ॥",
+          "meaning": {
+            "en": "Vishvachi, Sahajanya, Pramlocha, Urvashi, Ira, Varga, Saurabheyi, Samichi, Budbuda and Lata;"
+          }
         },
         {
           "n": 12,
-          "text": "एताः सहस्रशश्चान्या नृत्तगीतविशारदाः ।\nउपतिष्ठन्ति धनदं पाण्डवाप्सरसां गणाः ॥"
+          "text": "एताः सहस्रशश्चान्या नृत्तगीतविशारदाः ।\nउपतिष्ठन्ति धनदं पाण्डवाप्सरसां गणाः ॥",
+          "meaning": {
+            "en": "these and thousands of other troops of Apsarases, skilled in dance and song, wait upon the giver of wealth, Pandava."
+          }
         },
         {
           "n": 13,
-          "text": "अनिशं दिव्यवादित्रैर्नृत्तैर्गीतैश्च सा सभा ।\nअशून्या रुचिरा भाति गन्धर्वाप्सरसां गणैः ॥"
+          "text": "अनिशं दिव्यवादित्रैर्नृत्तैर्गीतैश्च सा सभा ।\nअशून्या रुचिरा भाति गन्धर्वाप्सरसां गणैः ॥",
+          "meaning": {
+            "en": "That hall, never empty, shines lovely with heavenly instruments, dances and songs, and with the troops of Gandharvas and Apsarases."
+          }
         },
         {
           "n": 14,
-          "text": "किंनरा नाम गन्धर्वा नरा नाम तथापरे ।\nमणिभद्रोऽथ धनदः श्वेतभद्रश्च गुह्यकः ॥"
+          "text": "किंनरा नाम गन्धर्वा नरा नाम तथापरे ।\nमणिभद्रोऽथ धनदः श्वेतभद्रश्च गुह्यकः ॥",
+          "meaning": {
+            "en": "The Gandharvas called Kinnaras, others called Naras, Manibhadra, Dhanada, and the Guhyaka Shvetabhadra;"
+          }
         },
         {
           "n": 15,
-          "text": "कशेरको गण्डकण्डुः प्रद्योतश्च महाबलः ।\nकुस्तुम्बुरुः पिशाचश्च गजकर्णो विशालकः ॥"
+          "text": "कशेरको गण्डकण्डुः प्रद्योतश्च महाबलः ।\nकुस्तुम्बुरुः पिशाचश्च गजकर्णो विशालकः ॥",
+          "meaning": {
+            "en": "Kasheraka, Gandakandu, the mighty Pradyota, Kustumburu, Pishacha, Gajakarna, Vishalaka;"
+          }
         },
         {
           "n": 16,
-          "text": "वराहकर्णः सान्द्रोष्ठः फलभक्षः फलोदकः ।\nअङ्गचूडः शिखावर्तो हेमनेत्रो विभीषणः ॥"
+          "text": "वराहकर्णः सान्द्रोष्ठः फलभक्षः फलोदकः ।\nअङ्गचूडः शिखावर्तो हेमनेत्रो विभीषणः ॥",
+          "meaning": {
+            "en": "Varahakarna, Sandrashtha, Phalabhaksha, Phalodaka, Angachuda, Shikhavarta, Hemanetra, Vibhishana;"
+          }
         },
         {
           "n": 17,
-          "text": "पुष्पाननः पिङ्गलकः शोणितोदः प्रवालकः ।\nवृक्षवास्यनिकेतश्च चीरवासाश्च भारत ॥"
+          "text": "पुष्पाननः पिङ्गलकः शोणितोदः प्रवालकः ।\nवृक्षवास्यनिकेतश्च चीरवासाश्च भारत ॥",
+          "meaning": {
+            "en": "Pushpanana, Pingalaka, Shonitoda, Pravalaka, Vrikshavasyaniketa, and Chiravasas, O Bharata;"
+          }
         },
         {
           "n": 18,
-          "text": "एते चान्ये च बहवो यक्षाः शतसहस्रशः ।\nसदा भगवती च श्रीस्तथैव नलकूबरः ॥"
+          "text": "एते चान्ये च बहवो यक्षाः शतसहस्रशः ।\nसदा भगवती च श्रीस्तथैव नलकूबरः ॥",
+          "meaning": {
+            "en": "these and many other Yakshas, by hundreds of thousands, are there, and always the blessed Shri, and Nalakubara."
+          }
         },
         {
           "n": 19,
-          "text": "अहं च बहुशस्तस्यां भवन्त्यन्ये च मद्विधाः ।\nआचार्याश्चाभवंस्तत्र तथा देवर्षयोऽपरे ॥"
+          "text": "अहं च बहुशस्तस्यां भवन्त्यन्ये च मद्विधाः ।\nआचार्याश्चाभवंस्तत्र तथा देवर्षयोऽपरे ॥",
+          "meaning": {
+            "en": "I myself often am there, and others like me; teachers were there, and other divine seers."
+          }
         },
         {
           "n": 20,
-          "text": "भगवान्भूतसंघैश्च वृतः शतसहस्रशः ।\nउमापतिः पशुपतिः शूलधृग्भगनेत्रहा ॥"
+          "text": "भगवान्भूतसंघैश्च वृतः शतसहस्रशः ।\nउमापतिः पशुपतिः शूलधृग्भगनेत्रहा ॥",
+          "meaning": {
+            "en": "The blessed lord, surrounded by hundreds of thousands of troops of spirits, the husband of Uma, the lord of beasts, bearing the trident, the destroyer of Bhaga's eyes,"
+          }
         },
         {
           "n": 21,
-          "text": "त्र्यम्बको राजशार्दूल देवी च विगतक्लमा ।\nवामनैर्विकटैः कुब्जैः क्षतजाक्षैर्मनोजवैः ॥"
+          "text": "त्र्यम्बको राजशार्दूल देवी च विगतक्लमा ।\nवामनैर्विकटैः कुब्जैः क्षतजाक्षैर्मनोजवैः ॥",
+          "meaning": {
+            "en": "three-eyed, O tiger among kings, and the goddess, free from weariness, are there, with dwarfish, misshapen, hunchbacked, bloodshot-eyed spirits as swift as thought."
+          }
         },
         {
           "n": 22,
-          "text": "मांसमेदोवसाहारैरुग्रश्रवणदर्शनैः ।\nनानाप्रहरणैर्घोरैर्वातैरिव महाजवैः ।\nवृतः सखायमन्वास्ते सदैव धनदं नृप ॥"
+          "text": "मांसमेदोवसाहारैरुग्रश्रवणदर्शनैः ।\nनानाप्रहरणैर्घोरैर्वातैरिव महाजवैः ।\nवृतः सखायमन्वास्ते सदैव धनदं नृप ॥",
+          "meaning": {
+            "en": "Eaters of flesh, marrow and fat, with fearful ears and looks, carrying many weapons, terrible and as fast as the wind; he is always surrounded by them, and sits there with Dhanada, his friend, O king."
+          }
         },
         {
           "n": 23,
-          "text": "सा सभा तादृशी राजन्मया दृष्टान्तरिक्षगा ।\nपितामहसभां राजन्कथयिष्ये गतक्लमाम् ॥"
+          "text": "सा सभा तादृशी राजन्मया दृष्टान्तरिक्षगा ।\nपितामहसभां राजन्कथयिष्ये गतक्लमाम् ॥",
+          "meaning": {
+            "en": "Such is that hall I saw, moving through the sky; now, O king, I will tell you of the hall of the grandfather Brahma, free of weariness."
+          }
         }
       ]
     }

@@ -22,115 +22,202 @@
       "titleEn": "Tirthayatra Parva (The pilgrimage)",
       "verses": [
         {
-          "text": "लोमश उवाच"
+          "text": "लोमश उवाच",
+          "meaning": {
+            "en": "Lomasha said:"
+          }
         },
         {
           "n": 1,
-          "text": "ततः श्रुत्वा तु शर्यातिर्वयःस्थं च्यवनं कृतम् ।\nसंहृष्टः सेनया सार्धमुपायाद्भार्गवाश्रमम् ॥"
+          "text": "ततः श्रुत्वा तु शर्यातिर्वयःस्थं च्यवनं कृतम् ।\nसंहृष्टः सेनया सार्धमुपायाद्भार्गवाश्रमम् ॥",
+          "meaning": {
+            "en": "Then Sharyati heard that Chyavana had been made young again, and, delighted, he came with his army to the Bhargava's hermitage."
+          }
         },
         {
           "n": 2,
-          "text": "च्यवनं च सुकन्यां च दृष्ट्वा देवसुताविव ।\nरेमे महीपः शर्यातिः कृत्स्नां प्राप्य महीमिव ॥"
+          "text": "च्यवनं च सुकन्यां च दृष्ट्वा देवसुताविव ।\nरेमे महीपः शर्यातिः कृत्स्नां प्राप्य महीमिव ॥",
+          "meaning": {
+            "en": "Seeing Chyavana and Sukanya like two children of the gods, the king rejoiced as though he had won the whole earth."
+          }
         },
         {
           "n": 3,
-          "text": "ऋषिणा सत्कृतस्तेन सभार्यः पृथिवीपतिः ।\nउपोपविष्टः कल्याणीः कथाश्चक्रे महामनाः ॥"
+          "text": "ऋषिणा सत्कृतस्तेन सभार्यः पृथिवीपतिः ।\nउपोपविष्टः कल्याणीः कथाश्चक्रे महामनाः ॥",
+          "meaning": {
+            "en": "Honoured by the seer, the lord of the earth sat near him with his wife, and the high-minded man talked of pleasant things."
+          }
         },
         {
           "n": 4,
-          "text": "अथैनं भार्गवो राजन्नुवाच परिसान्त्वयन् ।\nयाजयिष्यामि राजंस्त्वां संभारानुपकल्पय ॥"
+          "text": "अथैनं भार्गवो राजन्नुवाच परिसान्त्वयन् ।\nयाजयिष्यामि राजंस्त्वां संभारानुपकल्पय ॥",
+          "meaning": {
+            "en": "Then the Bhargava said to him consolingly: \"King, I shall perform a sacrifice for you. Prepare the materials.\""
+          }
         },
         {
           "n": 5,
-          "text": "ततः परमसंहृष्टः शर्यातिः पृथिवीपतिः ।\nच्यवनस्य महाराज तद्वाक्यं प्रत्यपूजयत् ॥"
+          "text": "ततः परमसंहृष्टः शर्यातिः पृथिवीपतिः ।\nच्यवनस्य महाराज तद्वाक्यं प्रत्यपूजयत् ॥",
+          "meaning": {
+            "en": "Greatly pleased, King Sharyati, great king, welcomed Chyavana's words."
+          }
         },
         {
           "n": 6,
-          "text": "प्रशस्तेऽहनि यज्ञीये सर्वकामसमृद्धिमत् ।\nकारयामास शर्यातिर्यज्ञायतनमुत्तमम् ॥"
+          "text": "प्रशस्तेऽहनि यज्ञीये सर्वकामसमृद्धिमत् ।\nकारयामास शर्यातिर्यज्ञायतनमुत्तमम् ॥",
+          "meaning": {
+            "en": "On an auspicious day for a sacrifice, Sharyati had a splendid sacrificial ground prepared, rich in everything desirable."
+          }
         },
         {
           "n": 7,
-          "text": "तत्रैनं च्यवनो राजन्याजयामास भार्गवः ।\nअद्भुतानि च तत्रासन्यानि तानि निबोध मे ॥"
+          "text": "तत्रैनं च्यवनो राजन्याजयामास भार्गवः ।\nअद्भुतानि च तत्रासन्यानि तानि निबोध मे ॥",
+          "meaning": {
+            "en": "There, king, Chyavana the Bhargava conducted the sacrifice for him. Listen to the marvels that took place there."
+          }
         },
         {
           "n": 8,
-          "text": "अगृह्णाच्च्यवनः सोममश्विनोर्देवयोस्तदा ।\nतमिन्द्रो वारयामास गृह्यमाणं तयोर्ग्रहम् ॥"
+          "text": "अगृह्णाच्च्यवनः सोममश्विनोर्देवयोस्तदा ।\nतमिन्द्रो वारयामास गृह्यमाणं तयोर्ग्रहम् ॥",
+          "meaning": {
+            "en": "Chyavana then took up the soma cup for the two Ashvins, but Indra tried to stop him as he took their share."
+          }
         },
         {
-          "text": "इन्द्र उवाच"
+          "text": "इन्द्र उवाच",
+          "meaning": {
+            "en": "Indra said:"
+          }
         },
         {
           "n": 9,
-          "text": "उभावेतौ न सोमार्हौ नासत्याविति मे मतिः ।\nभिषजौ देवपुत्राणां कर्मणा नैवमर्हतः ॥"
+          "text": "उभावेतौ न सोमार्हौ नासत्याविति मे मतिः ।\nभिषजौ देवपुत्राणां कर्मणा नैवमर्हतः ॥",
+          "meaning": {
+            "en": "\"I think these two Nasatyas are not worthy of soma. As physicians of the gods' sons, they do not deserve it by their work.\""
+          }
         },
         {
-          "text": "च्यवन उवाच"
+          "text": "च्यवन उवाच",
+          "meaning": {
+            "en": "Chyavana said:"
+          }
         },
         {
           "n": 10,
-          "text": "मावमंस्था महात्मानौ रूपद्रविणवत्तरौ ।\nयौ चक्रतुर्मां मघवन्वृन्दारकमिवाजरम् ॥"
+          "text": "मावमंस्था महात्मानौ रूपद्रविणवत्तरौ ।\nयौ चक्रतुर्मां मघवन्वृन्दारकमिवाजरम् ॥",
+          "meaning": {
+            "en": "\"Do not despise these two great-souled ones, Maghavan, who are richer in beauty and wealth, who made me, as it were, a young immortal.\""
+          }
         },
         {
           "n": 11,
-          "text": "ऋते त्वां विबुधांश्चान्यान्कथं वै नार्हतः सवम् ।\nअश्विनावपि देवेन्द्र देवौ विद्धि पुरंदर ॥"
+          "text": "ऋते त्वां विबुधांश्चान्यान्कथं वै नार्हतः सवम् ।\nअश्विनावपि देवेन्द्र देवौ विद्धि पुरंदर ॥",
+          "meaning": {
+            "en": "\"Except for you and the other gods, how can the Ashvins not deserve a share in the sacrifice? Know them, Indra, to be gods too.\""
+          }
         },
         {
-          "text": "इन्द्र उवाच"
+          "text": "इन्द्र उवाच",
+          "meaning": {
+            "en": "Indra said:"
+          }
         },
         {
           "n": 12,
-          "text": "चिकित्सकौ कर्मकरौ कामरूपसमन्वितौ ।\nलोके चरन्तौ मर्त्यानां कथं सोममिहार्हतः ॥"
+          "text": "चिकित्सकौ कर्मकरौ कामरूपसमन्वितौ ।\nलोके चरन्तौ मर्त्यानां कथं सोममिहार्हतः ॥",
+          "meaning": {
+            "en": "\"They are healers and labourers, who take what shape they like and wander among mortals. How do they deserve soma here?\""
+          }
         },
         {
-          "text": "लोमश उवाच"
+          "text": "लोमश उवाच",
+          "meaning": {
+            "en": "Lomasha said:"
+          }
         },
         {
           "n": 13,
-          "text": "एतदेव यदा वाक्यमाम्रेडयति वासवः ।\nअनादृत्य ततः शक्रं ग्रहं जग्राह भार्गवः ॥"
+          "text": "एतदेव यदा वाक्यमाम्रेडयति वासवः ।\nअनादृत्य ततः शक्रं ग्रहं जग्राह भार्गवः ॥",
+          "meaning": {
+            "en": "As Vasava kept repeating just this, the Bhargava ignored Indra and took up the cup."
+          }
         },
         {
           "n": 14,
-          "text": "ग्रहीष्यन्तं तु तं सोममश्विनोरुत्तमं तदा ।\nसमीक्ष्य बलभिद्देव इदं वचनमब्रवीत् ॥"
+          "text": "ग्रहीष्यन्तं तु तं सोममश्विनोरुत्तमं तदा ।\nसमीक्ष्य बलभिद्देव इदं वचनमब्रवीत् ॥",
+          "meaning": {
+            "en": "Seeing him about to take the best of soma for the Ashvins, the god who split Bala said:"
+          }
         },
         {
           "n": 15,
-          "text": "आभ्यामर्थाय सोमं त्वं ग्रहीष्यसि यदि स्वयम् ।\nवज्रं ते प्रहरिष्यामि घोररूपमनुत्तमम् ॥"
+          "text": "आभ्यामर्थाय सोमं त्वं ग्रहीष्यसि यदि स्वयम् ।\nवज्रं ते प्रहरिष्यामि घोररूपमनुत्तमम् ॥",
+          "meaning": {
+            "en": "\"If you take soma for these two yourself, I shall hurl at you my dreadful, incomparable thunderbolt.\""
+          }
         },
         {
           "n": 16,
-          "text": "एवमुक्तः स्मयन्निन्द्रमभिवीक्ष्य स भार्गवः ।\nजग्राह विधिवत्सोममश्विभ्यामुत्तमं ग्रहम् ॥"
+          "text": "एवमुक्तः स्मयन्निन्द्रमभिवीक्ष्य स भार्गवः ।\nजग्राह विधिवत्सोममश्विभ्यामुत्तमं ग्रहम् ॥",
+          "meaning": {
+            "en": "Spoken to so, the Bhargava smiled, looked at Indra, and took the best cup of soma for the Ashvins according to rule."
+          }
         },
         {
           "n": 17,
-          "text": "ततोऽस्मै प्राहरद्वज्रं घोररूपं शचीपतिः ।\nतस्य प्रहरतो बाहुं स्तम्भयामास भार्गवः ॥"
+          "text": "ततोऽस्मै प्राहरद्वज्रं घोररूपं शचीपतिः ।\nतस्य प्रहरतो बाहुं स्तम्भयामास भार्गवः ॥",
+          "meaning": {
+            "en": "Then the husband of Shachi hurled his dreadful thunderbolt at him, but as he raised his arm to strike, the Bhargava paralysed it."
+          }
         },
         {
           "n": 18,
-          "text": "संस्तम्भयित्वा च्यवनो जुहुवे मन्त्रतोऽनलम् ।\nकृत्यार्थी सुमहातेजा देवं हिंसितुमुद्यतः ॥"
+          "text": "संस्तम्भयित्वा च्यवनो जुहुवे मन्त्रतोऽनलम् ।\nकृत्यार्थी सुमहातेजा देवं हिंसितुमुद्यतः ॥",
+          "meaning": {
+            "en": "Having paralysed it, Chyavana, of great radiance and bent on a magical creation, offered into the fire with a spell, intending to harm the god."
+          }
         },
         {
           "n": 19,
-          "text": "ततः कृत्या समभवदृषेस्तस्य तपोबलात् ।\nमदो नाम महावीर्यो बृहत्कायो महासुरः ।\nशरीरं यस्य निर्देष्टुमशक्यं तु सुरासुरैः ॥"
+          "text": "ततः कृत्या समभवदृषेस्तस्य तपोबलात् ।\nमदो नाम महावीर्यो बृहत्कायो महासुरः ।\nशरीरं यस्य निर्देष्टुमशक्यं तु सुरासुरैः ॥",
+          "meaning": {
+            "en": "Then, by the power of the seer's austerity, a creature of sorcery arose: the huge, mighty demon named Mada, whose body neither gods nor demons could describe."
+          }
         },
         {
           "n": 20,
-          "text": "तस्यास्यमभवद्घोरं तीक्ष्णाग्रदशनं महत् ।\nहनुरेका स्थिता तस्य भूमावेका दिवं गता ॥"
+          "text": "तस्यास्यमभवद्घोरं तीक्ष्णाग्रदशनं महत् ।\nहनुरेका स्थिता तस्य भूमावेका दिवं गता ॥",
+          "meaning": {
+            "en": "His mouth was huge and dreadful, with sharp-pointed teeth. One jaw rested on the earth and the other reached up to heaven."
+          }
         },
         {
           "n": 21,
-          "text": "चतस्र आयता दंष्ट्रा योजनानां शतं शतम् ।\nइतरे त्वस्य दशना बभूवुर्दशयोजनाः ।\nप्राकारसदृशाकाराः शूलाग्रसमदर्शनाः ॥"
+          "text": "चतस्र आयता दंष्ट्रा योजनानां शतं शतम् ।\nइतरे त्वस्य दशना बभूवुर्दशयोजनाः ।\nप्राकारसदृशाकाराः शूलाग्रसमदर्शनाः ॥",
+          "meaning": {
+            "en": "Four of his fangs were each a hundred leagues long, and his other teeth were ten leagues long, shaped like ramparts and looking like spear-points."
+          }
         },
         {
           "n": 22,
-          "text": "बाहू पर्वतसंकाशावायतावयुतं समौ ।\nनेत्रे रविशशिप्रख्ये वक्त्रमन्तकसंनिभम् ॥"
+          "text": "बाहू पर्वतसंकाशावायतावयुतं समौ ।\nनेत्रे रविशशिप्रख्ये वक्त्रमन्तकसंनिभम् ॥",
+          "meaning": {
+            "en": "His arms were like mountains, each ten thousand leagues long and equal. His eyes were like the sun and moon, and his mouth like Death's."
+          }
         },
         {
           "n": 23,
-          "text": "लेलिहञ्जिह्वया वक्त्रं विद्युच्चपललोलया ।\nव्यात्ताननो घोरदृष्टिर्ग्रसन्निव जगद्बलात् ॥"
+          "text": "लेलिहञ्जिह्वया वक्त्रं विद्युच्चपललोलया ।\nव्यात्ताननो घोरदृष्टिर्ग्रसन्निव जगद्बलात् ॥",
+          "meaning": {
+            "en": "He licked his gaping mouth with a tongue that flickered like lightning, his gaze terrible, as if he would swallow the world by force."
+          }
         },
         {
           "n": 24,
-          "text": "स भक्षयिष्यन्संक्रुद्धः शतक्रतुमुपाद्रवत् ।\nमहता घोररूपेण लोकाञ्शब्देन नादयन् ॥"
+          "text": "स भक्षयिष्यन्संक्रुद्धः शतक्रतुमुपाद्रवत् ।\nमहता घोररूपेण लोकाञ्शब्देन नादयन् ॥",
+          "meaning": {
+            "en": "In rage, intending to devour Indra of the hundred sacrifices, he rushed at him with a huge, terrible form, making the worlds echo with his roar."
+          }
         }
       ]
     }

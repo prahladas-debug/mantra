@@ -22,91 +22,157 @@
       "titleEn": "Kairata Parva (The mountain hunter)",
       "verses": [
         {
-          "text": "युधिष्ठिर उवाच"
+          "text": "युधिष्ठिर उवाच",
+          "meaning": {
+            "en": "Yudhishthira said:"
+          }
         },
         {
           "n": 1,
-          "text": "असंशयं भारत सत्यमेत-\nद्यन्मा तुदन्वाक्यशल्यैः क्षिणोषि ।\nन त्वा विगर्हे प्रतिकूलमेत-\nन्ममानयाद्धि व्यसनं व आगात् ॥"
+          "text": "असंशयं भारत सत्यमेत-\nद्यन्मा तुदन्वाक्यशल्यैः क्षिणोषि ।\nन त्वा विगर्हे प्रतिकूलमेत-\nन्ममानयाद्धि व्यसनं व आगात् ॥",
+          "meaning": {
+            "en": "\"Without doubt, Bharata, this is true, that you pierce me and wound me with the arrows of your words. I do not blame you for it, for this misfortune of yours came from my own folly.\""
+          }
         },
         {
           "n": 2,
-          "text": "अहं ह्यक्षानन्वपद्यं जिहीर्ष-\nन्राज्यं सराष्ट्रं धृतराष्ट्रस्य पुत्रात् ।\nतन्मा शठः कितवः प्रत्यदेवी-\nत्सुयोधनार्थं सुबलस्य पुत्रः ॥"
+          "text": "अहं ह्यक्षानन्वपद्यं जिहीर्ष-\nन्राज्यं सराष्ट्रं धृतराष्ट्रस्य पुत्रात् ।\nतन्मा शठः कितवः प्रत्यदेवी-\nत्सुयोधनार्थं सुबलस्य पुत्रः ॥",
+          "meaning": {
+            "en": "\"I took up dice, wishing to take the kingdom and realm of Dhritarashtra's son; but the cunning gambler, Shakuni son of Subala, played against me on Suyodhana's behalf.\""
+          }
         },
         {
           "n": 3,
-          "text": "महामायः शकुनिः पार्वतीयः\nसदा सभायां प्रवपन्नक्षपूगान् ।\nअमायिनं मायया प्रत्यदेवी-\nत्ततोऽपश्यं वृजिनं भीमसेन ॥"
+          "text": "महामायः शकुनिः पार्वतीयः\nसदा सभायां प्रवपन्नक्षपूगान् ।\nअमायिनं मायया प्रत्यदेवी-\nत्ततोऽपश्यं वृजिनं भीमसेन ॥",
+          "meaning": {
+            "en": "\"Shakuni, the mountain man, great in trickery, always scattering handfuls of dice in the hall, played with deceit against me, who had none; there I saw the crookedness, Bhimasena.\""
+          }
         },
         {
           "n": 4,
-          "text": "अक्षान्हि दृष्ट्वा शकुनेर्यथाव-\nत्कामानुलोमानयुजो युजश्च ।\nशक्यं नियन्तुमभविष्यदात्मा\nमन्युस्तु हन्ति पुरुषस्य धैर्यम् ॥"
+          "text": "अक्षान्हि दृष्ट्वा शकुनेर्यथाव-\nत्कामानुलोमानयुजो युजश्च ।\nशक्यं नियन्तुमभविष्यदात्मा\nमन्युस्तु हन्ति पुरुषस्य धैर्यम् ॥",
+          "meaning": {
+            "en": "\"Seeing Shakuni's dice fall as he wished, in even and odd, I could have held myself back; but anger destroys a man's steadiness.\""
+          }
         },
         {
           "n": 5,
-          "text": "यन्तुं नात्मा शक्यते पौरुषेण\nमानेन वीर्येण च तात नद्धः ।\nन ते वाचं भीमसेनाभ्यसूये\nमन्ये तथा तद्भवितव्यमासीत् ॥"
+          "text": "यन्तुं नात्मा शक्यते पौरुषेण\nमानेन वीर्येण च तात नद्धः ।\nन ते वाचं भीमसेनाभ्यसूये\nमन्ये तथा तद्भवितव्यमासीत् ॥",
+          "meaning": {
+            "en": "\"A man cannot restrain himself when he is bound by pride and valor, dear brother. I do not resent your words, Bhimasena; I think it had to happen so.\""
+          }
         },
         {
           "n": 6,
-          "text": "स नो राजा धृतराष्ट्रस्य पुत्रो\nन्यपातयद्व्यसने राज्यमिच्छन् ।\nदास्यं च नोऽगमयद्भीमसेन\nयत्राभवच्छरणं द्रौपदी नः ॥"
+          "text": "स नो राजा धृतराष्ट्रस्य पुत्रो\nन्यपातयद्व्यसने राज्यमिच्छन् ।\nदास्यं च नोऽगमयद्भीमसेन\nयत्राभवच्छरणं द्रौपदी नः ॥",
+          "meaning": {
+            "en": "\"King Duryodhana, son of Dhritarashtra, wishing for the kingdom, threw us into misfortune and made us slaves, where Draupadi was our refuge, Bhimasena.\""
+          }
         },
         {
           "n": 7,
-          "text": "त्वं चापि तद्वेत्थ धनंजयश्च\nपुनर्द्यूतायागतानां सभां नः ।\nयन्माब्रवीद्धृतराष्ट्रस्य पुत्र\nएकग्लहार्थं भरतानां समक्षम् ॥"
+          "text": "त्वं चापि तद्वेत्थ धनंजयश्च\nपुनर्द्यूतायागतानां सभां नः ।\nयन्माब्रवीद्धृतराष्ट्रस्य पुत्र\nएकग्लहार्थं भरतानां समक्षम् ॥",
+          "meaning": {
+            "en": "\"You know it, and so does Dhananjaya: when we came again to the hall for a second game, the son of Dhritarashtra said to me, in front of the Bharatas, for a single stake:\""
+          }
         },
         {
           "n": 8,
-          "text": "वने समा द्वादश राजपुत्र\nयथाकामं विदितमजातशत्रो ।\nअथापरं चाविदितं चरेथाः\nसर्वैः सह भ्रातृभिश्छद्मगूढः ॥"
+          "text": "वने समा द्वादश राजपुत्र\nयथाकामं विदितमजातशत्रो ।\nअथापरं चाविदितं चरेथाः\nसर्वैः सह भ्रातृभिश्छद्मगूढः ॥",
+          "meaning": {
+            "en": "\"'Twelve years in the forest, prince, openly known, as you like, O Ajatashatru; and another year unknown, living hidden in disguise with all your brothers.'\""
+          }
         },
         {
           "n": 9,
-          "text": "त्वां चेच्छ्रुत्वा तात तथा चरन्त-\nमवभोत्स्यन्ते भारतानां चराः स्म ।\nअन्यांश्चरेथास्तावतोऽब्दांस्ततस्त्वं\nनिश्चित्य तत्प्रतिजानीहि पार्थ ॥"
+          "text": "त्वां चेच्छ्रुत्वा तात तथा चरन्त-\nमवभोत्स्यन्ते भारतानां चराः स्म ।\nअन्यांश्चरेथास्तावतोऽब्दांस्ततस्त्वं\nनिश्चित्य तत्प्रतिजानीहि पार्थ ॥",
+          "meaning": {
+            "en": "\"'If, as you live so, my spies among the Bharatas learn of you, dear, you shall live another twelve years; decide on that and agree to it, Partha.'\""
+          }
         },
         {
           "n": 10,
-          "text": "चरैश्चेन्नोऽविदितः कालमेतं\nयुक्तो राजन्मोहयित्वा मदीयान् ।\nब्रवीमि सत्यं कुरुसंसदीह\nतवैव ता भारत पञ्च नद्यः ॥"
+          "text": "चरैश्चेन्नोऽविदितः कालमेतं\nयुक्तो राजन्मोहयित्वा मदीयान् ।\nब्रवीमि सत्यं कुरुसंसदीह\nतवैव ता भारत पञ्च नद्यः ॥",
+          "meaning": {
+            "en": "\"'If our spies do not find you during this time, you, being careful, having deceived my people, I say the truth in the Kuru assembly here: those five rivers are yours alone.'\""
+          }
         },
         {
           "n": 11,
-          "text": "वयं चैवं भ्रातरः सर्व एव\nत्वया जिताः कालमपास्य भोगान् ।\nवसेम इत्याह पुरा स राजा\nमध्ये कुरूणां स मयोक्तस्तथेति ॥"
+          "text": "वयं चैवं भ्रातरः सर्व एव\nत्वया जिताः कालमपास्य भोगान् ।\nवसेम इत्याह पुरा स राजा\nमध्ये कुरूणां स मयोक्तस्तथेति ॥",
+          "meaning": {
+            "en": "\"'And we brothers, all of us, having been defeated by you, will live for that time, giving up pleasures.' So the king spoke before, in the midst of the Kurus, and I answered, 'So be it.'\""
+          }
         },
         {
           "n": 12,
-          "text": "तत्र द्यूतमभवन्नो जघन्यं\nतस्मिञ्जिताः प्रव्रजिताश्च सर्वे ।\nइत्थं च देशाननुसंचरामो\nवनानि कृच्छ्राणि च कृच्छ्ररूपाः ॥"
+          "text": "तत्र द्यूतमभवन्नो जघन्यं\nतस्मिञ्जिताः प्रव्रजिताश्च सर्वे ।\nइत्थं च देशाननुसंचरामो\nवनानि कृच्छ्राणि च कृच्छ्ररूपाः ॥",
+          "meaning": {
+            "en": "\"There that wretched game happened to us; defeated in it, we all went into exile; and so we wander through lands and hard forests, in hard condition.\""
+          }
         },
         {
           "n": 13,
-          "text": "सुयोधनश्चापि न शान्तिमिच्छ-\nन्भूयः स मन्योर्वशमन्वगच्छत् ।\nउद्योजयामास कुरूंश्च सर्वा-\nन्ये चास्य केचिद्वशमन्वगच्छन् ॥"
+          "text": "सुयोधनश्चापि न शान्तिमिच्छ-\nन्भूयः स मन्योर्वशमन्वगच्छत् ।\nउद्योजयामास कुरूंश्च सर्वा-\nन्ये चास्य केचिद्वशमन्वगच्छन् ॥",
+          "meaning": {
+            "en": "\"Suyodhana, not wanting peace, again fell under the power of anger, and incited all the Kurus and any who fell under his sway.\""
+          }
         },
         {
           "n": 14,
-          "text": "तं संधिमास्थाय सतां सकाशे\nको नाम जह्यादिह राज्यहेतोः ।\nआर्यस्य मन्ये मरणाद्गरीयो\nयद्धर्ममुत्क्रम्य महीं प्रशिष्यात् ॥"
+          "text": "तं संधिमास्थाय सतां सकाशे\nको नाम जह्यादिह राज्यहेतोः ।\nआर्यस्य मन्ये मरणाद्गरीयो\nयद्धर्ममुत्क्रम्य महीं प्रशिष्यात् ॥",
+          "meaning": {
+            "en": "\"Who in this world would abandon such an agreement made before the good, for the sake of a kingdom? I think that for a noble man, to break dharma and rule the earth is heavier than death.\""
+          }
         },
         {
           "n": 15,
-          "text": "तदैव चेद्वीरकर्माकरिष्यो\nयदा द्यूते परिघं पर्यमृक्षः ।\nबाहू दिधक्षन्वारितः फल्गुनेन\nकिं दुष्कृतं भीम तदाभविष्यत् ॥"
+          "text": "तदैव चेद्वीरकर्माकरिष्यो\nयदा द्यूते परिघं पर्यमृक्षः ।\nबाहू दिधक्षन्वारितः फल्गुनेन\nकिं दुष्कृतं भीम तदाभविष्यत् ॥",
+          "meaning": {
+            "en": "\"If you had shown a hero's deed back then, when at the dice you rubbed your iron club wishing to burn your arms and were stopped by Phalguna, what wrong would it have been, Bhima?\""
+          }
         },
         {
           "n": 16,
-          "text": "प्रागेव चैवं समयक्रियायाः\nकिं नाब्रवीः पौरुषमाविदानः ।\nप्राप्तं तु कालं त्वभिपद्य पश्चा-\nत्किं मामिदानीमतिवेलमात्थ ॥"
+          "text": "प्रागेव चैवं समयक्रियायाः\nकिं नाब्रवीः पौरुषमाविदानः ।\nप्राप्तं तु कालं त्वभिपद्य पश्चा-\nत्किं मामिदानीमतिवेलमात्थ ॥",
+          "meaning": {
+            "en": "\"Why did you not say, knowing your manhood, 'this is what I will do,' before the pact was made? Now that the time has come and you accept it, why do you speak to me out of season?\""
+          }
         },
         {
           "n": 17,
-          "text": "भूयोऽपि दुःखं मम भीमसेन\nदूये विषस्येव रसं विदित्वा ।\nयद्याज्ञसेनीं परिकृष्यमाणां\nसंदृश्य तत्क्षान्तमिति स्म भीम ॥"
+          "text": "भूयोऽपि दुःखं मम भीमसेन\nदूये विषस्येव रसं विदित्वा ।\nयद्याज्ञसेनीं परिकृष्यमाणां\nसंदृश्य तत्क्षान्तमिति स्म भीम ॥",
+          "meaning": {
+            "en": "\"Again I am pained, Bhimasena, as if knowing the taste of poison, that Yajnaseni was dragged and we, seeing that, endured it.\""
+          }
         },
         {
           "n": 18,
-          "text": "न त्वद्य शक्यं भरतप्रवीर\nकृत्वा यदुक्तं कुरुवीरमध्ये ।\nकालं प्रतीक्षस्व सुखोदयस्य\nपक्तिं फलानामिव बीजवापः ॥"
+          "text": "न त्वद्य शक्यं भरतप्रवीर\nकृत्वा यदुक्तं कुरुवीरमध्ये ।\nकालं प्रतीक्षस्व सुखोदयस्य\nपक्तिं फलानामिव बीजवापः ॥",
+          "meaning": {
+            "en": "\"You cannot now, hero of the Bharatas, undo what was said in the midst of the Kuru heroes. Wait for the time of happy fortune, as the sower waits for the ripening of fruit.\""
+          }
         },
         {
           "n": 19,
-          "text": "यदा हि पूर्वं निकृतो निकृत्या\nवैरं सपुष्पं सफलं विदित्वा ।\nमहागुणं हरति हि पौरुषेण\nतदा वीरो जीवति जीवलोके ॥"
+          "text": "यदा हि पूर्वं निकृतो निकृत्या\nवैरं सपुष्पं सफलं विदित्वा ।\nमहागुणं हरति हि पौरुषेण\nतदा वीरो जीवति जीवलोके ॥",
+          "meaning": {
+            "en": "\"When a man once cheated by cheating knows enmity to have flowers and fruit, and wins back great quality by manliness, then the hero truly lives in the world.\""
+          }
         },
         {
           "n": 20,
-          "text": "श्रियं च लोके लभते समग्रां\nमन्ये चास्मै शत्रवः संनमन्ते ।\nमित्राणि चैनमतिरागाद्भजन्ते\nदेवा इवेन्द्रमनुजीवन्ति चैनम् ॥"
+          "text": "श्रियं च लोके लभते समग्रां\nमन्ये चास्मै शत्रवः संनमन्ते ।\nमित्राणि चैनमतिरागाद्भजन्ते\nदेवा इवेन्द्रमनुजीवन्ति चैनम् ॥",
+          "meaning": {
+            "en": "\"He wins all prosperity in the world, I think; his enemies bow to him, his friends gather around him out of love, and others live on him as the gods on Indra.\""
+          }
         },
         {
           "n": 21,
-          "text": "मम प्रतिज्ञां च निबोध सत्यां\nवृणे धर्मममृताज्जीविताच्च ।\nराज्यं च पुत्राश्च यशो धनं च\nसर्वं न सत्यस्य कलामुपैति ॥"
+          "text": "मम प्रतिज्ञां च निबोध सत्यां\nवृणे धर्मममृताज्जीविताच्च ।\nराज्यं च पुत्राश्च यशो धनं च\nसर्वं न सत्यस्य कलामुपैति ॥",
+          "meaning": {
+            "en": "\"Know my true vow: I choose dharma over immortality and life. Kingdom, sons, fame and wealth, all do not come to a fraction of truth.\""
+          }
         }
       ]
     }

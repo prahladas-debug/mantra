@@ -22,110 +22,191 @@
       "titleEn": "Viduragamana Parva (Vidura's coming)",
       "verses": [
         {
-          "text": "धृतराष्ट्र उवाच"
+          "text": "धृतराष्ट्र उवाच",
+          "meaning": {
+            "en": "Dhritarashtra said:"
+          }
         },
         {
           "n": 1,
-          "text": "भीष्मः शांतनवो विद्वान्द्रोणश्च भगवानृषिः ।\nहितं परमकं वाक्यं त्वं च सत्यं ब्रवीषि माम् ॥"
+          "text": "भीष्मः शांतनवो विद्वान्द्रोणश्च भगवानृषिः ।\nहितं परमकं वाक्यं त्वं च सत्यं ब्रवीषि माम् ॥",
+          "meaning": {
+            "en": "Bhishma son of Shantanu, the learned one, and the holy sage Drona have given supreme and beneficial counsel, and you too speak the truth to me."
+          }
         },
         {
           "n": 2,
-          "text": "यथैव पाण्डोस्ते वीराः कुन्तीपुत्रा महारथाः ।\nतथैव धर्मतः सर्वे मम पुत्रा न संशयः ॥"
+          "text": "यथैव पाण्डोस्ते वीराः कुन्तीपुत्रा महारथाः ।\nतथैव धर्मतः सर्वे मम पुत्रा न संशयः ॥",
+          "meaning": {
+            "en": "As the heroic sons of Kunti, great chariot-warriors, are Pandu's sons, so by dharma they are all my sons too; there is no doubt."
+          }
         },
         {
           "n": 3,
-          "text": "यथैव मम पुत्राणामिदं राज्यं विधीयते ।\nतथैव पाण्डुपुत्राणामिदं राज्यं न संशयः ॥"
+          "text": "यथैव मम पुत्राणामिदं राज्यं विधीयते ।\nतथैव पाण्डुपुत्राणामिदं राज्यं न संशयः ॥",
+          "meaning": {
+            "en": "As this kingdom is meant for my sons, so it is meant for the sons of Pandu; there is no doubt."
+          }
         },
         {
           "n": 4,
-          "text": "क्षत्तरानय गच्छैतान्सह मात्रा सुसत्कृतान् ।\nतया च देवरूपिण्या कृष्णया सह भारत ॥"
+          "text": "क्षत्तरानय गच्छैतान्सह मात्रा सुसत्कृतान् ।\nतया च देवरूपिण्या कृष्णया सह भारत ॥",
+          "meaning": {
+            "en": "Kshattri, go and bring them here with all honor, together with their mother and with Krishna, who is like a goddess in form, O Bharata."
+          }
         },
         {
           "n": 5,
-          "text": "दिष्ट्या जीवन्ति ते पार्था दिष्ट्या जीवति सा पृथा ।\nदिष्ट्या द्रुपदकन्यां च लब्धवन्तो महारथाः ॥"
+          "text": "दिष्ट्या जीवन्ति ते पार्था दिष्ट्या जीवति सा पृथा ।\nदिष्ट्या द्रुपदकन्यां च लब्धवन्तो महारथाः ॥",
+          "meaning": {
+            "en": "By good fortune the Parthas live, by good fortune Pritha lives, and by good fortune the great warriors have won the daughter of Drupada."
+          }
         },
         {
           "n": 6,
-          "text": "दिष्ट्या वर्धामहे सर्वे दिष्ट्या शान्तः पुरोचनः ।\nदिष्ट्या मम परं दुःखमपनीतं महाद्युते ॥"
+          "text": "दिष्ट्या वर्धामहे सर्वे दिष्ट्या शान्तः पुरोचनः ।\nदिष्ट्या मम परं दुःखमपनीतं महाद्युते ॥",
+          "meaning": {
+            "en": "By good fortune we prosper, by good fortune Purochana is dead, and by good fortune my great sorrow is removed, O radiant one."
+          }
         },
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 7,
-          "text": "ततो जगाम विदुरो धृतराष्ट्रस्य शासनात् ।\nसकाशं यज्ञसेनस्य पाण्डवानां च भारत ॥"
+          "text": "ततो जगाम विदुरो धृतराष्ट्रस्य शासनात् ।\nसकाशं यज्ञसेनस्य पाण्डवानां च भारत ॥",
+          "meaning": {
+            "en": "Then, at Dhritarashtra's command, Vidura set out for the presence of Yajnasena and the Pandavas, O Bharata."
+          }
         },
         {
           "n": 8,
-          "text": "तत्र गत्वा स धर्मज्ञः सर्वशास्त्रविशारदः ।\nद्रुपदं न्यायतो राजन्संयुक्तमुपतस्थिवान् ॥"
+          "text": "तत्र गत्वा स धर्मज्ञः सर्वशास्त्रविशारदः ।\nद्रुपदं न्यायतो राजन्संयुक्तमुपतस्थिवान् ॥",
+          "meaning": {
+            "en": "Arriving there, he who knew dharma and was skilled in all the scriptures approached Drupada, who was waiting as propriety required."
+          }
         },
         {
           "n": 9,
-          "text": "स चापि प्रतिजग्राह धर्मेण विदुरं ततः ।\nचक्रतुश्च यथान्यायं कुशलप्रश्नसंविदम् ॥"
+          "text": "स चापि प्रतिजग्राह धर्मेण विदुरं ततः ।\nचक्रतुश्च यथान्यायं कुशलप्रश्नसंविदम् ॥",
+          "meaning": {
+            "en": "Drupada received Vidura in turn with due honor, and they exchanged inquiries of welfare as custom demands."
+          }
         },
         {
           "n": 10,
-          "text": "ददर्श पाण्डवांस्तत्र वासुदेवं च भारत ।\nस्नेहात्परिष्वज्य स तान्पप्रच्छानामयं ततः ॥"
+          "text": "ददर्श पाण्डवांस्तत्र वासुदेवं च भारत ।\nस्नेहात्परिष्वज्य स तान्पप्रच्छानामयं ततः ॥",
+          "meaning": {
+            "en": "There Vidura saw the Pandavas and Vasudeva, embraced them affectionately and asked after their health."
+          }
         },
         {
           "n": 11,
-          "text": "तैश्चाप्यमितबुद्धिः स पूजितोऽथ यथाक्रमम् ।\nवचनाद्धृतराष्ट्रस्य स्नेहयुक्तं पुनः पुनः ॥"
+          "text": "तैश्चाप्यमितबुद्धिः स पूजितोऽथ यथाक्रमम् ।\nवचनाद्धृतराष्ट्रस्य स्नेहयुक्तं पुनः पुनः ॥",
+          "meaning": {
+            "en": "Of boundless wisdom, he was honored by them in due order."
+          }
         },
         {
           "n": 12,
-          "text": "पप्रच्छानामयं राजंस्ततस्तान्पाण्डुनन्दनान् ।\nप्रददौ चापि रत्नानि विविधानि वसूनि च ॥"
+          "text": "पप्रच्छानामयं राजंस्ततस्तान्पाण्डुनन्दनान् ।\nप्रददौ चापि रत्नानि विविधानि वसूनि च ॥",
+          "meaning": {
+            "en": "In Dhritarashtra's name he again and again asked the sons of Pandu about their well-being, and presented them with jewels and wealth of many kinds."
+          }
         },
         {
           "n": 13,
-          "text": "पाण्डवानां च कुन्त्याश्च द्रौपद्याश्च विशां पते ।\nद्रुपदस्य च पुत्राणां यथा दत्तानि कौरवैः ॥"
+          "text": "पाण्डवानां च कुन्त्याश्च द्रौपद्याश्च विशां पते ।\nद्रुपदस्य च पुत्राणां यथा दत्तानि कौरवैः ॥",
+          "meaning": {
+            "en": "He gave the gifts the Kauravas had sent to the Pandavas, to Kunti, to Draupadi and to the sons of Drupada, O lord of the people."
+          }
         },
         {
           "n": 14,
-          "text": "प्रोवाच चामितमतिः प्रश्रितं विनयान्वितः ।\nद्रुपदं पाण्डुपुत्राणां संनिधौ केशवस्य च ॥"
+          "text": "प्रोवाच चामितमतिः प्रश्रितं विनयान्वितः ।\nद्रुपदं पाण्डुपुत्राणां संनिधौ केशवस्य च ॥",
+          "meaning": {
+            "en": "Then Vidura of boundless wisdom, humble and courteous, spoke to Drupada in the presence of the Pandava sons and Keshava."
+          }
         },
         {
           "n": 15,
-          "text": "राजञ्शृणु सहामात्यः सपुत्रश्च वचो मम ।\nधृतराष्ट्रः सपुत्रस्त्वां सहामात्यः सबान्धवः ॥"
+          "text": "राजञ्शृणु सहामात्यः सपुत्रश्च वचो मम ।\nधृतराष्ट्रः सपुत्रस्त्वां सहामात्यः सबान्धवः ॥",
+          "meaning": {
+            "en": "Hear my words, O king, together with your ministers and sons. Dhritarashtra, with his sons, ministers and kinsmen, sends you greetings."
+          }
         },
         {
           "n": 16,
-          "text": "अब्रवीत्कुशलं राजन्प्रीयमाणः पुनः पुनः ।\nप्रीतिमांस्ते दृढं चापि संबन्धेन नराधिप ॥"
+          "text": "अब्रवीत्कुशलं राजन्प्रीयमाणः पुनः पुनः ।\nप्रीतिमांस्ते दृढं चापि संबन्धेन नराधिप ॥",
+          "meaning": {
+            "en": "He asks after your welfare again and again with delight, O king, and is firmly pleased at the bond of marriage with you."
+          }
         },
         {
           "n": 17,
-          "text": "तथा भीष्मः शांतनवः कौरवैः सह सर्वशः ।\nकुशलं त्वां महाप्राज्ञः सर्वतः परिपृच्छति ॥"
+          "text": "तथा भीष्मः शांतनवः कौरवैः सह सर्वशः ।\nकुशलं त्वां महाप्राज्ञः सर्वतः परिपृच्छति ॥",
+          "meaning": {
+            "en": "So too the wise Bhishma son of Shantanu, together with the Kauravas, inquires after your welfare in every way."
+          }
         },
         {
           "n": 18,
-          "text": "भारद्वाजो महेष्वासो द्रोणः प्रियसखस्तव ।\nसमाश्लेषमुपेत्य त्वां कुशलं परिपृच्छति ॥"
+          "text": "भारद्वाजो महेष्वासो द्रोणः प्रियसखस्तव ।\nसमाश्लेषमुपेत्य त्वां कुशलं परिपृच्छति ॥",
+          "meaning": {
+            "en": "Drona son of Bharadvaja, the great archer and your dear friend, embraces you in spirit and asks after your well-being."
+          }
         },
         {
           "n": 19,
-          "text": "धृतराष्ट्रश्च पाञ्चाल्य त्वया संबन्धमीयिवान् ।\nकृतार्थं मन्यतेऽऽत्मानं तथा सर्वेऽपि कौरवाः ॥"
+          "text": "धृतराष्ट्रश्च पाञ्चाल्य त्वया संबन्धमीयिवान् ।\nकृतार्थं मन्यतेऽऽत्मानं तथा सर्वेऽपि कौरवाः ॥",
+          "meaning": {
+            "en": "Dhritarashtra, O Panchala, regards himself as fulfilled by the connection with you, and so do all the Kauravas."
+          }
         },
         {
           "n": 20,
-          "text": "न तथा राज्यसंप्राप्तिस्तेषां प्रीतिकरी मता ।\nयथा संबन्धकं प्राप्य यज्ञसेन त्वया सह ॥"
+          "text": "न तथा राज्यसंप्राप्तिस्तेषां प्रीतिकरी मता ।\nयथा संबन्धकं प्राप्य यज्ञसेन त्वया सह ॥",
+          "meaning": {
+            "en": "Gaining the kingdom did not please them so much, O Yajnasena, as gaining this alliance with you."
+          }
         },
         {
           "n": 21,
-          "text": "एतद्विदित्वा तु भवान्प्रस्थापयतु पाण्डवान् ।\nद्रष्टुं हि पाण्डुदायादांस्त्वरन्ते कुरवो भृशम् ॥"
+          "text": "एतद्विदित्वा तु भवान्प्रस्थापयतु पाण्डवान् ।\nद्रष्टुं हि पाण्डुदायादांस्त्वरन्ते कुरवो भृशम् ॥",
+          "meaning": {
+            "en": "Knowing this, please send the Pandavas on their way, for the Kurus are most eager to see the heirs of Pandu."
+          }
         },
         {
           "n": 22,
-          "text": "विप्रोषिता दीर्घकालमिमे चापि नरर्षभाः ।\nउत्सुका नगरं द्रष्टुं भविष्यन्ति पृथा तथा ॥"
+          "text": "विप्रोषिता दीर्घकालमिमे चापि नरर्षभाः ।\nउत्सुका नगरं द्रष्टुं भविष्यन्ति पृथा तथा ॥",
+          "meaning": {
+            "en": "These bulls among men have long been away, and they too will be eager to see their city, as will Pritha."
+          }
         },
         {
           "n": 23,
-          "text": "कृष्णामपि च पाञ्चालीं सर्वाः कुरुवरस्त्रियः ।\nद्रष्टुकामाः प्रतीक्षन्ते पुरं च विषयं च नः ॥"
+          "text": "कृष्णामपि च पाञ्चालीं सर्वाः कुरुवरस्त्रियः ।\nद्रष्टुकामाः प्रतीक्षन्ते पुरं च विषयं च नः ॥",
+          "meaning": {
+            "en": "All the noble women of the Kuru house also wait, longing to see Krishna of Panchala, and our city and country as well."
+          }
         },
         {
           "n": 24,
-          "text": "स भवान्पाण्डुपुत्राणामाज्ञापयतु माचिरम् ।\nगमनं सहदाराणामेतदागमनं मम ॥"
+          "text": "स भवान्पाण्डुपुत्राणामाज्ञापयतु माचिरम् ।\nगमनं सहदाराणामेतदागमनं मम ॥",
+          "meaning": {
+            "en": "So give the command without delay for the Pandavas to depart with their wife; that is why I have come."
+          }
         },
         {
           "n": 25,
-          "text": "विसृष्टेषु त्वया राजन्पाण्डवेषु महात्मसु ।\nततोऽहं प्रेषयिष्यामि धृतराष्ट्रस्य शीघ्रगान् ।\nआगमिष्यन्ति कौन्तेयाः कुन्ती च सह कृष्णया ॥"
+          "text": "विसृष्टेषु त्वया राजन्पाण्डवेषु महात्मसु ।\nततोऽहं प्रेषयिष्यामि धृतराष्ट्रस्य शीघ्रगान् ।\nआगमिष्यन्ति कौन्तेयाः कुन्ती च सह कृष्णया ॥",
+          "meaning": {
+            "en": "Once you have let the great Pandavas go, I will send swift messengers to Dhritarashtra, and the sons of Kunti will arrive with Kunti and Krishna."
+          }
         }
       ]
     }

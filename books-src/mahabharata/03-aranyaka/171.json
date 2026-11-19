@@ -22,84 +22,147 @@
       "titleEn": "Yakshayuddha Parva (Battle with the Yakshas)",
       "verses": [
         {
-          "text": "अर्जुन उवाच"
+          "text": "अर्जुन उवाच",
+          "meaning": {
+            "en": "Arjuna said:"
+          }
         },
         {
           "n": 1,
-          "text": "ततो मामभिविश्वस्तं संरूढशरविक्षतम् ।\nदेवराजोऽनुगृह्येदं काले वचनमब्रवीत् ॥"
+          "text": "ततो मामभिविश्वस्तं संरूढशरविक्षतम् ।\nदेवराजोऽनुगृह्येदं काले वचनमब्रवीत् ॥",
+          "meaning": {
+            "en": "Then, when I had won his trust and my arrow wounds had healed, the king of the gods showed me favor and in due time spoke these words."
+          }
         },
         {
           "n": 2,
-          "text": "दिव्यान्यस्त्राणि सर्वाणि त्वयि तिष्ठन्ति भारत ।\nन त्वाभिभवितुं शक्तो मानुषो भुवि कश्चन ॥"
+          "text": "दिव्यान्यस्त्राणि सर्वाणि त्वयि तिष्ठन्ति भारत ।\nन त्वाभिभवितुं शक्तो मानुषो भुवि कश्चन ॥",
+          "meaning": {
+            "en": "\"All the divine weapons abide in you, Bharata, and no man on earth can overcome you."
+          }
         },
         {
           "n": 3,
-          "text": "भीष्मो द्रोणः कृपः कर्णः शकुनिः सह राजभिः ।\nसंग्रामस्थस्य ते पुत्र कलां नार्हन्ति षोडशीम् ॥"
+          "text": "भीष्मो द्रोणः कृपः कर्णः शकुनिः सह राजभिः ।\nसंग्रामस्थस्य ते पुत्र कलां नार्हन्ति षोडशीम् ॥",
+          "meaning": {
+            "en": "Bhishma, Drona, Kripa, Karna and Shakuni, together with the kings, are not worth a sixteenth part of you when you stand in battle, my son.\""
+          }
         },
         {
           "n": 4,
-          "text": "इदं च मे तनुत्राणं प्रायच्छन्मघवान्प्रभुः ।\nअभेद्यं कवचं दिव्यं स्रजं चैव हिरण्मयीम् ॥"
+          "text": "इदं च मे तनुत्राणं प्रायच्छन्मघवान्प्रभुः ।\nअभेद्यं कवचं दिव्यं स्रजं चैव हिरण्मयीम् ॥",
+          "meaning": {
+            "en": "Lord Indra also gave me this body-guard, an impenetrable divine armor, and a golden garland."
+          }
         },
         {
           "n": 5,
-          "text": "देवदत्तं च मे शङ्खं देवः प्रादान्महारवम् ।\nदिव्यं चेदं किरीटं मे स्वयमिन्द्रो युयोज ह ॥"
+          "text": "देवदत्तं च मे शङ्खं देवः प्रादान्महारवम् ।\nदिव्यं चेदं किरीटं मे स्वयमिन्द्रो युयोज ह ॥",
+          "meaning": {
+            "en": "The god gave me the loud conch Devadatta, and Indra himself fastened on me this divine diadem."
+          }
         },
         {
           "n": 6,
-          "text": "ततो दिव्यानि वस्त्राणि दिव्यान्याभरणानि च ।\nप्रादाच्छक्रो ममैतानि रुचिराणि बृहन्ति च ॥"
+          "text": "ततो दिव्यानि वस्त्राणि दिव्यान्याभरणानि च ।\nप्रादाच्छक्रो ममैतानि रुचिराणि बृहन्ति च ॥",
+          "meaning": {
+            "en": "Then Indra gave me these divine garments and divine ornaments, splendid and large."
+          }
         },
         {
           "n": 7,
-          "text": "एवं संपूजितस्तत्र सुखमस्म्युषितो नृप ।\nइन्द्रस्य भवने पुण्ये गन्धर्वशिशुभिः सह ॥"
+          "text": "एवं संपूजितस्तत्र सुखमस्म्युषितो नृप ।\nइन्द्रस्य भवने पुण्ये गन्धर्वशिशुभिः सह ॥",
+          "meaning": {
+            "en": "Honored in this way, king, I lived happily in Indra's holy palace with the young gandharvas."
+          }
         },
         {
           "n": 8,
-          "text": "ततो मामब्रवीच्छक्रः प्रीतिमानमरैः सह ।\nसमयोऽर्जुन गन्तुं ते भ्रातरो हि स्मरन्ति ते ॥"
+          "text": "ततो मामब्रवीच्छक्रः प्रीतिमानमरैः सह ।\nसमयोऽर्जुन गन्तुं ते भ्रातरो हि स्मरन्ति ते ॥",
+          "meaning": {
+            "en": "Then Indra, pleased, with the immortals, said to me, \"Arjuna, it is time for you to go, for your brothers are remembering you.\""
+          }
         },
         {
           "n": 9,
-          "text": "एवमिन्द्रस्य भवने पञ्च वर्षाणि भारत ।\nउषितानि मया राजन्स्मरता द्यूतजं कलिम् ॥"
+          "text": "एवमिन्द्रस्य भवने पञ्च वर्षाणि भारत ।\nउषितानि मया राजन्स्मरता द्यूतजं कलिम् ॥",
+          "meaning": {
+            "en": "Thus I spent five years in Indra's palace, O Bharata, remembering the quarrel born of the dice."
+          }
         },
         {
           "n": 10,
-          "text": "ततो भवन्तमद्राक्षं भ्रातृभिः परिवारितम् ।\nगन्धमादनमासाद्य पर्वतस्यास्य मूर्धनि ॥"
+          "text": "ततो भवन्तमद्राक्षं भ्रातृभिः परिवारितम् ।\nगन्धमादनमासाद्य पर्वतस्यास्य मूर्धनि ॥",
+          "meaning": {
+            "en": "Then I saw you surrounded by your brothers, after I reached Gandhamadana, on the top of this mountain."
+          }
         },
         {
-          "text": "युधिष्ठिर उवाच"
+          "text": "युधिष्ठिर उवाच",
+          "meaning": {
+            "en": "Yudhishthira said:"
+          }
         },
         {
           "n": 11,
-          "text": "दिष्ट्या धनंजयास्त्राणि त्वया प्राप्तानि भारत ।\nदिष्ट्या चाराधितो राजा देवानामीश्वरः प्रभुः ॥"
+          "text": "दिष्ट्या धनंजयास्त्राणि त्वया प्राप्तानि भारत ।\nदिष्ट्या चाराधितो राजा देवानामीश्वरः प्रभुः ॥",
+          "meaning": {
+            "en": "By good fortune, Dhananjaya, you have won the weapons, Bharata, and by good fortune you have pleased the king, the lord of the gods."
+          }
         },
         {
           "n": 12,
-          "text": "दिष्ट्या च भगवान्स्थाणुर्देव्या सह परंतप ।\nसाक्षाद्दृष्टः सुयुद्धेन तोषितश्च त्वयानघ ॥"
+          "text": "दिष्ट्या च भगवान्स्थाणुर्देव्या सह परंतप ।\nसाक्षाद्दृष्टः सुयुद्धेन तोषितश्च त्वयानघ ॥",
+          "meaning": {
+            "en": "By good fortune, scorcher of foes, you saw the blessed Sthanu with the goddess face to face, and you pleased him with a good fight, sinless one."
+          }
         },
         {
           "n": 13,
-          "text": "दिष्ट्या च लोकपालैस्त्वं समेतो भरतर्षभ ।\nदिष्ट्या वर्धामहे सर्वे दिष्ट्यासि पुनरागतः ॥"
+          "text": "दिष्ट्या च लोकपालैस्त्वं समेतो भरतर्षभ ।\nदिष्ट्या वर्धामहे सर्वे दिष्ट्यासि पुनरागतः ॥",
+          "meaning": {
+            "en": "By good fortune, best of the Bharatas, you have met the guardians of the world. By good fortune we all prosper, and by good fortune you have come back."
+          }
         },
         {
           "n": 14,
-          "text": "अद्य कृत्स्नामिमां देवीं विजितां पुरमालिनीम् ।\nमन्ये च धृतराष्ट्रस्य पुत्रानपि वशीकृतान् ॥"
+          "text": "अद्य कृत्स्नामिमां देवीं विजितां पुरमालिनीम् ।\nमन्ये च धृतराष्ट्रस्य पुत्रानपि वशीकृतान् ॥",
+          "meaning": {
+            "en": "Today I think this whole goddess of an earth, with her garland of cities, is conquered, and that even Dhritarashtra's sons are brought under our power."
+          }
         },
         {
           "n": 15,
-          "text": "तानि त्विच्छामि ते द्रष्टुं दिव्यान्यस्त्राणि भारत ।\nयैस्तथा वीर्यवन्तस्ते निवातकवचा हता ॥"
+          "text": "तानि त्विच्छामि ते द्रष्टुं दिव्यान्यस्त्राणि भारत ।\nयैस्तथा वीर्यवन्तस्ते निवातकवचा हता ॥",
+          "meaning": {
+            "en": "But I wish to see those divine weapons of yours, Bharata, by which you killed the mighty Nivatakavachas.\""
+          }
         },
         {
-          "text": "अर्जुन उवाच"
+          "text": "अर्जुन उवाच",
+          "meaning": {
+            "en": "Arjuna said:"
+          }
         },
         {
           "n": 16,
-          "text": "श्वः प्रभाते भवान्द्रष्टा दिव्यान्यस्त्राणि सर्वशः ।\nनिवातकवचा घोरा यैर्मया विनिपातिताः ॥"
+          "text": "श्वः प्रभाते भवान्द्रष्टा दिव्यान्यस्त्राणि सर्वशः ।\nनिवातकवचा घोरा यैर्मया विनिपातिताः ॥",
+          "meaning": {
+            "en": "\"Tomorrow at dawn you will see all the divine weapons, with which I struck down the terrible Nivatakavachas.\""
+          }
         },
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 17,
-          "text": "एवमागमनं तत्र कथयित्वा धनंजयः ।\nभ्रातृभिः सहितः सर्वै रजनीं तामुवास ह ॥"
+          "text": "एवमागमनं तत्र कथयित्वा धनंजयः ।\nभ्रातृभिः सहितः सर्वै रजनीं तामुवास ह ॥",
+          "meaning": {
+            "en": "Having told of his coming in this way, Dhananjaya, together with all his brothers, spent that night there."
+          }
         }
       ]
     }

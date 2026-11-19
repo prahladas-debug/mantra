@@ -22,91 +22,157 @@
       "titleEn": "Tirthayatra Parva (The pilgrimage)",
       "verses": [
         {
-          "text": "लोमश उवाच"
+          "text": "लोमश उवाच",
+          "meaning": {
+            "en": "Lomasha said:"
+          }
         },
         {
           "n": 1,
-          "text": "ततः स वज्री बलिभिर्दैवतैरभिरक्षितः ।\nआससाद ततो वृत्रं स्थितमावृत्य रोदसी ॥"
+          "text": "ततः स वज्री बलिभिर्दैवतैरभिरक्षितः ।\nआससाद ततो वृत्रं स्थितमावृत्य रोदसी ॥",
+          "meaning": {
+            "en": "Then the wielder of the thunderbolt, guarded by mighty gods, came upon Vritra, who stood filling heaven and earth."
+          }
         },
         {
           "n": 2,
-          "text": "कालकेयैर्महाकायैः समन्तादभिरक्षितम् ।\nसमुद्यतप्रहरणैः सशृङ्गैरिव पर्वतैः ॥"
+          "text": "कालकेयैर्महाकायैः समन्तादभिरक्षितम् ।\nसमुद्यतप्रहरणैः सशृङ्गैरिव पर्वतैः ॥",
+          "meaning": {
+            "en": "He was guarded on every side by the huge Kaleyas with weapons raised, like mountains with peaks."
+          }
         },
         {
           "n": 3,
-          "text": "ततो युद्धं समभवद्देवानां सह दानवैः ।\nमुहूर्तं भरतश्रेष्ठ लोकत्रासकरं महत् ॥"
+          "text": "ततो युद्धं समभवद्देवानां सह दानवैः ।\nमुहूर्तं भरतश्रेष्ठ लोकत्रासकरं महत् ॥",
+          "meaning": {
+            "en": "Then a battle took place between the gods and the Danavas, best of Bharatas, a great one that terrified the worlds, for a short time."
+          }
         },
         {
           "n": 4,
-          "text": "उद्यतप्रतिपिष्टानां खड्गानां वीरबाहुभिः ।\nआसीत्सुतुमुलः शब्दः शरीरेष्वभिपात्यताम् ॥"
+          "text": "उद्यतप्रतिपिष्टानां खड्गानां वीरबाहुभिः ।\nआसीत्सुतुमुलः शब्दः शरीरेष्वभिपात्यताम् ॥",
+          "meaning": {
+            "en": "There was a tremendous din of swords raised and struck by heroes' arms, and of blows falling on bodies."
+          }
         },
         {
           "n": 5,
-          "text": "शिरोभिः प्रपतद्भिश्च अन्तरिक्षान्महीतलम् ।\nतालैरिव महीपाल वृन्ताद्भ्रष्टैरदृश्यत ॥"
+          "text": "शिरोभिः प्रपतद्भिश्च अन्तरिक्षान्महीतलम् ।\nतालैरिव महीपाल वृन्ताद्भ्रष्टैरदृश्यत ॥",
+          "meaning": {
+            "en": "Heads fell from the sky to the ground, king, like palm fruits fallen from their stalks."
+          }
         },
         {
           "n": 6,
-          "text": "ते हेमकवचा भूत्वा कालेयाः परिघायुधाः ।\nत्रिदशानभ्यवर्तन्त दावदग्धा इवाद्रयः ॥"
+          "text": "ते हेमकवचा भूत्वा कालेयाः परिघायुधाः ।\nत्रिदशानभ्यवर्तन्त दावदग्धा इवाद्रयः ॥",
+          "meaning": {
+            "en": "The Kaleyas put on golden armour, took up clubs, and charged the gods like mountains blazing in a forest fire."
+          }
         },
         {
           "n": 7,
-          "text": "तेषां वेगवतां वेगं सहितानां प्रधावताम् ।\nन शेकुस्त्रिदशाः सोढुं ते भग्नाः प्राद्रवन्भयात् ॥"
+          "text": "तेषां वेगवतां वेगं सहितानां प्रधावताम् ।\nन शेकुस्त्रिदशाः सोढुं ते भग्नाः प्राद्रवन्भयात् ॥",
+          "meaning": {
+            "en": "The gods could not bear the rush of those swift, charging, massed foes, and broke and fled in fear."
+          }
         },
         {
           "n": 8,
-          "text": "तान्दृष्ट्वा द्रवतो भीतान्सहस्राक्षः पुरंदरः ।\nवृत्रे विवर्धमाने च कश्मलं महदाविशत् ॥"
+          "text": "तान्दृष्ट्वा द्रवतो भीतान्सहस्राक्षः पुरंदरः ।\nवृत्रे विवर्धमाने च कश्मलं महदाविशत् ॥",
+          "meaning": {
+            "en": "Seeing them flee in fear, a great faintness came over thousand-eyed Indra as Vritra swelled in strength."
+          }
         },
         {
           "n": 9,
-          "text": "तं शक्रं कश्मलाविष्टं दृष्ट्वा विष्णुः सनातनः ।\nस्वतेजो व्यदधाच्छक्रे बलमस्य विवर्धयन् ॥"
+          "text": "तं शक्रं कश्मलाविष्टं दृष्ट्वा विष्णुः सनातनः ।\nस्वतेजो व्यदधाच्छक्रे बलमस्य विवर्धयन् ॥",
+          "meaning": {
+            "en": "Seeing Indra overcome by faintness, eternal Vishnu put his own energy into him, increasing his strength."
+          }
         },
         {
           "n": 10,
-          "text": "विष्णुनाप्यायितं शक्रं दृष्ट्वा देवगणास्ततः ।\nस्वं स्वं तेजः समादध्युस्तथा ब्रह्मर्षयोऽमलाः ॥"
+          "text": "विष्णुनाप्यायितं शक्रं दृष्ट्वा देवगणास्ततः ।\nस्वं स्वं तेजः समादध्युस्तथा ब्रह्मर्षयोऽमलाः ॥",
+          "meaning": {
+            "en": "Seeing Indra strengthened by Vishnu, the hosts of gods, and the pure Brahmin sages, each gave him their energy."
+          }
         },
         {
           "n": 11,
-          "text": "स समाप्यायितः शक्रो विष्णुना दैवतैः सह ।\nऋषिभिश्च महाभागैर्बलवान्समपद्यत ॥"
+          "text": "स समाप्यायितः शक्रो विष्णुना दैवतैः सह ।\nऋषिभिश्च महाभागैर्बलवान्समपद्यत ॥",
+          "meaning": {
+            "en": "So refreshed by Vishnu, by the gods and by the fortunate sages, Indra became mighty."
+          }
         },
         {
           "n": 12,
-          "text": "ज्ञात्वा बलस्थं त्रिदशाधिपं तु\nननाद वृत्रो महतो निनादान् ।\nतस्य प्रणादेन धरा दिशश्च\nखं द्यौर्नगाश्चापि चचाल सर्वम् ॥"
+          "text": "ज्ञात्वा बलस्थं त्रिदशाधिपं तु\nननाद वृत्रो महतो निनादान् ।\nतस्य प्रणादेन धरा दिशश्च\nखं द्यौर्नगाश्चापि चचाल सर्वम् ॥",
+          "meaning": {
+            "en": "Knowing the lord of the gods established in strength, Vritra roared great roars. By his bellowing the earth, the quarters, the sky, heaven and the mountains all shook."
+          }
         },
         {
           "n": 13,
-          "text": "ततो महेन्द्रः परमाभितप्तः\nश्रुत्वा रवं घोररूपं महान्तम् ।\nभये निमग्नस्त्वरितं मुमोच\nवज्रं महत्तस्य वधाय राजन् ॥"
+          "text": "ततो महेन्द्रः परमाभितप्तः\nश्रुत्वा रवं घोररूपं महान्तम् ।\nभये निमग्नस्त्वरितं मुमोच\nवज्रं महत्तस्य वधाय राजन् ॥",
+          "meaning": {
+            "en": "Then Mahendra, greatly distressed at hearing that fearful, huge roar, sunk in fear, quickly hurled the great thunderbolt to kill him, king."
+          }
         },
         {
           "n": 14,
-          "text": "स शक्रवज्राभिहतः पपात\nमहासुरः काञ्चनमाल्यधारी ।\nयथा महाञ्शैलवरः पुरस्ता-\nत्स मन्दरो विष्णुकरात्प्रमुक्तः ॥"
+          "text": "स शक्रवज्राभिहतः पपात\nमहासुरः काञ्चनमाल्यधारी ।\nयथा महाञ्शैलवरः पुरस्ता-\nत्स मन्दरो विष्णुकरात्प्रमुक्तः ॥",
+          "meaning": {
+            "en": "Struck by Indra's thunderbolt, the great asura wearing golden garlands fell like the great mountain Mandara hurled from Vishnu's hand."
+          }
         },
         {
           "n": 15,
-          "text": "तस्मिन्हते दैत्यवरे भयार्तः\nशक्रः प्रदुद्राव सरः प्रवेष्टुम् ।\nवज्रं न मेने स्वकरात्प्रमुक्तं\nवृत्रं हतं चापि भयान्न मेने ॥"
+          "text": "तस्मिन्हते दैत्यवरे भयार्तः\nशक्रः प्रदुद्राव सरः प्रवेष्टुम् ।\nवज्रं न मेने स्वकरात्प्रमुक्तं\nवृत्रं हतं चापि भयान्न मेने ॥",
+          "meaning": {
+            "en": "When that best of Daityas was slain, Indra, tormented by fear, ran to enter a lake; he did not believe the thunderbolt had left his hand, nor, in his fear, that Vritra was dead."
+          }
         },
         {
           "n": 16,
-          "text": "सर्वे च देवा मुदिताः प्रहृष्टा\nमहर्षयश्चेन्द्रमभिष्टुवन्तः ।\nसर्वांश्च दैत्यांस्त्वरिताः समेत्य\nजघ्नुः सुरा वृत्रवधाभितप्तान् ॥"
+          "text": "सर्वे च देवा मुदिताः प्रहृष्टा\nमहर्षयश्चेन्द्रमभिष्टुवन्तः ।\nसर्वांश्च दैत्यांस्त्वरिताः समेत्य\nजघ्नुः सुरा वृत्रवधाभितप्तान् ॥",
+          "meaning": {
+            "en": "All the gods rejoiced and exulted, and the great sages praised Indra, and the gods quickly came together and struck down all the Daityas, who were burning with grief at Vritra's death."
+          }
         },
         {
           "n": 17,
-          "text": "ते वध्यमानास्त्रिदशैस्तदानीं\nसमुद्रमेवाविविशुर्भयार्ताः ।\nप्रविश्य चैवोदधिमप्रमेयं\nझषाकुलं रत्नसमाकुलं च ॥"
+          "text": "ते वध्यमानास्त्रिदशैस्तदानीं\nसमुद्रमेवाविविशुर्भयार्ताः ।\nप्रविश्य चैवोदधिमप्रमेयं\nझषाकुलं रत्नसमाकुलं च ॥",
+          "meaning": {
+            "en": "Struck by the gods, they fled in fear into the sea, entering the immeasurable ocean full of fish and crowded with jewels."
+          }
         },
         {
           "n": 18,
-          "text": "तदा स्म मन्त्रं सहिताः प्रचक्रु-\nस्त्रैलोक्यनाशार्थमभिस्मयन्तः ।\nतत्र स्म केचिन्मतिनिश्चयज्ञा-\nस्तांस्तानुपायाननुवर्णयन्ति ॥"
+          "text": "तदा स्म मन्त्रं सहिताः प्रचक्रु-\nस्त्रैलोक्यनाशार्थमभिस्मयन्तः ।\nतत्र स्म केचिन्मतिनिश्चयज्ञा-\nस्तांस्तानुपायाननुवर्णयन्ति ॥",
+          "meaning": {
+            "en": "There, together, smiling, they made a plan to destroy the three worlds, and some who knew the way of deciding described this and that method."
+          }
         },
         {
           "n": 19,
-          "text": "तेषां तु तत्र क्रमकालयोगा-\nद्घोरा मतिश्चिन्तयतां बभूव ।\nये सन्ति विद्यातपसोपपन्ना-\nस्तेषां विनाशः प्रथमं तु कार्यः ॥"
+          "text": "तेषां तु तत्र क्रमकालयोगा-\nद्घोरा मतिश्चिन्तयतां बभूव ।\nये सन्ति विद्यातपसोपपन्ना-\nस्तेषां विनाशः प्रथमं तु कार्यः ॥",
+          "meaning": {
+            "en": "Their dreadful thinking, as time and order allowed, settled on this: \"Those who are endowed with learning and austerity must be destroyed first."
+          }
         },
         {
           "n": 20,
-          "text": "लोका हि सर्वे तपसा ध्रियन्ते\nतस्मात्त्वरध्वं तपसः क्षयाय ।\nये सन्ति केचिद्धि वसुंधरायां\nतपस्विनो धर्मविदश्च तज्ज्ञाः ।\nतेषां वधः क्रियतां क्षिप्रमेव\nतेषु प्रनष्टेषु जगत्प्रनष्टम् ॥"
+          "text": "लोका हि सर्वे तपसा ध्रियन्ते\nतस्मात्त्वरध्वं तपसः क्षयाय ।\nये सन्ति केचिद्धि वसुंधरायां\nतपस्विनो धर्मविदश्च तज्ज्ञाः ।\nतेषां वधः क्रियतां क्षिप्रमेव\nतेषु प्रनष्टेषु जगत्प्रनष्टम् ॥",
+          "meaning": {
+            "en": "\"For all the worlds are upheld by austerity, so hurry to end austerity. Whatever ascetics and knowers of dharma there are on earth, let them be killed quickly; when they are destroyed, the world is destroyed.\""
+          }
         },
         {
           "n": 21,
-          "text": "एवं हि सर्वे गतबुद्धिभावा\nजगद्विनाशे परमप्रहृष्टाः ।\nदुर्गं समाश्रित्य महोर्मिमन्तं\nरत्नाकरं वरुणस्यालयं स्म ॥"
+          "text": "एवं हि सर्वे गतबुद्धिभावा\nजगद्विनाशे परमप्रहृष्टाः ।\nदुर्गं समाश्रित्य महोर्मिमन्तं\nरत्नाकरं वरुणस्यालयं स्म ॥",
+          "meaning": {
+            "en": "Thus, minds made up and greatly delighted at the world's ruin, they took shelter in the sea, the mine of jewels, the abode of Varuna with its great waves, as a stronghold."
+          }
         }
       ]
     }

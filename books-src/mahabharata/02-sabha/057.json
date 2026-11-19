@@ -22,94 +22,163 @@
       "titleEn": "Dyuta Parva (The dice game)",
       "verses": [
         {
-          "text": "दुर्योधन उवाच"
+          "text": "दुर्योधन उवाच",
+          "meaning": {
+            "en": "Duryodhana said:"
+          }
         },
         {
           "n": 1,
-          "text": "परेषामेव यशसा श्लाघसे त्वं\nसदा छन्नः कुत्सयन्धार्तराष्ट्रान् ।\nजानीमस्त्वां विदुर यत्प्रियस्त्वं\nबालानिवास्मानवमन्यसे त्वम् ॥"
+          "text": "परेषामेव यशसा श्लाघसे त्वं\nसदा छन्नः कुत्सयन्धार्तराष्ट्रान् ।\nजानीमस्त्वां विदुर यत्प्रियस्त्वं\nबालानिवास्मानवमन्यसे त्वम् ॥",
+          "meaning": {
+            "en": "You always praise the fame of others while hiding yourself and running down the Dhartarashtras. We know you, Vidura, and whom you love; you slight us as if we were children."
+          }
         },
         {
           "n": 2,
-          "text": "सुविज्ञेयः पुरुषोऽन्यत्रकामो\nनिन्दाप्रशंसे हि तथा युनक्ति ।\nजिह्वा मनस्ते हृदयं निर्व्यनक्ति\nज्यायो निराह मनसः प्रातिकूल्यम् ॥"
+          "text": "सुविज्ञेयः पुरुषोऽन्यत्रकामो\nनिन्दाप्रशंसे हि तथा युनक्ति ।\nजिह्वा मनस्ते हृदयं निर्व्यनक्ति\nज्यायो निराह मनसः प्रातिकूल्यम् ॥",
+          "meaning": {
+            "en": "A man whose desires lie elsewhere is easily known, for he joins blame and praise accordingly. Your tongue reveals what your mind is and your heart shows it; what you say betrays your mind's hostility."
+          }
         },
         {
           "n": 3,
-          "text": "उत्सङ्गेन व्याल इवाहृतोऽसि\nमार्जारवत्पोषकं चोपहंसि ।\nभर्तृघ्नत्वान्न हि पापीय आहु-\nस्तस्मात्क्षत्तः किं न बिभेषि पापात् ॥"
+          "text": "उत्सङ्गेन व्याल इवाहृतोऽसि\nमार्जारवत्पोषकं चोपहंसि ।\nभर्तृघ्नत्वान्न हि पापीय आहु-\nस्तस्मात्क्षत्तः किं न बिभेषि पापात् ॥",
+          "meaning": {
+            "en": "You were taken into our lap like a snake, and you strike at your feeder like a cat. They say there is no sin worse than betraying one's master; Vidura, why do you not fear that sin?"
+          }
         },
         {
           "n": 4,
-          "text": "जित्वा शत्रून्फलमाप्तं महन्नो\nमास्मान्क्षत्तः परुषाणीह वोचः ।\nद्विषद्भिस्त्वं संप्रयोगाभिनन्दी\nमुहुर्द्वेषं यासि नः संप्रमोहात् ॥"
+          "text": "जित्वा शत्रून्फलमाप्तं महन्नो\nमास्मान्क्षत्तः परुषाणीह वोचः ।\nद्विषद्भिस्त्वं संप्रयोगाभिनन्दी\nमुहुर्द्वेषं यासि नः संप्रमोहात् ॥",
+          "meaning": {
+            "en": "We have won a great reward by defeating our enemies; Vidura, do not speak harshly to us here. Delighted in dealing with our foes, you through delusion keep showing hatred toward us."
+          }
         },
         {
           "n": 5,
-          "text": "अमित्रतां याति नरोऽक्षमं ब्रुव-\nन्निगूहते गुह्यममित्रसंस्तवे ।\nतदाश्रितापत्रपा किं न बाधते\nयदिच्छसि त्वं तदिहाद्य भाषसे ॥"
+          "text": "अमित्रतां याति नरोऽक्षमं ब्रुव-\nन्निगूहते गुह्यममित्रसंस्तवे ।\nतदाश्रितापत्रपा किं न बाधते\nयदिच्छसि त्वं तदिहाद्य भाषसे ॥",
+          "meaning": {
+            "en": "A man who speaks unkindly becomes an enemy and keeps secrets for the enemy's praise. When he relies on shamelessness, what does it not harm? You say here today whatever you wish."
+          }
         },
         {
           "n": 6,
-          "text": "मा नोऽवमंस्था विद्म मनस्तवेदं\nशिक्षस्व बुद्धिं स्थविराणां सकाशात् ।\nयशो रक्षस्व विदुर संप्रणीतं\nमा व्यापृतः परकार्येषु भूस्त्वम् ॥"
+          "text": "मा नोऽवमंस्था विद्म मनस्तवेदं\nशिक्षस्व बुद्धिं स्थविराणां सकाशात् ।\nयशो रक्षस्व विदुर संप्रणीतं\nमा व्यापृतः परकार्येषु भूस्त्वम् ॥",
+          "meaning": {
+            "en": "Do not slight us; we know this mind of yours. Learn sense from the elders. Vidura, guard the fame you have been given, and do not be busy in others' affairs."
+          }
         },
         {
           "n": 7,
-          "text": "अहं कर्तेति विदुर मावमंस्था\nमा नो नित्यं परुषाणीह वोचः ।\nन त्वां पृच्छामि विदुर यद्धितं मे\nस्वस्ति क्षत्तर्मा तितिक्षून्क्षिणु त्वम् ॥"
+          "text": "अहं कर्तेति विदुर मावमंस्था\nमा नो नित्यं परुषाणीह वोचः ।\nन त्वां पृच्छामि विदुर यद्धितं मे\nस्वस्ति क्षत्तर्मा तितिक्षून्क्षिणु त्वम् ॥",
+          "meaning": {
+            "en": "Vidura, do not think I am the one who does this, nor speak harshly to us always. I do not ask you what is good for me, Vidura. Fare well, Kshatta, and do not provoke those who are patient."
+          }
         },
         {
           "n": 8,
-          "text": "एकः शास्ता न द्वितीयोऽस्ति शास्ता\nगर्भे शयानं पुरुषं शास्ति शास्ता ।\nतेनानुशिष्टः प्रवणादिवाम्भो\nयथा नियुक्तोऽस्मि तथा वहामि ॥"
+          "text": "एकः शास्ता न द्वितीयोऽस्ति शास्ता\nगर्भे शयानं पुरुषं शास्ति शास्ता ।\nतेनानुशिष्टः प्रवणादिवाम्भो\nयथा नियुक्तोऽस्मि तथा वहामि ॥",
+          "meaning": {
+            "en": "There is one ruler, and there is no second ruler; that ruler rules even a man lying in the womb. Guided by him, I flow as I am set, like water down a slope."
+          }
         },
         {
           "n": 9,
-          "text": "भिनत्ति शिरसा शैलमहिं भोजयते च यः ।\nस एव तस्य कुरुते कार्याणामनुशासनम् ॥"
+          "text": "भिनत्ति शिरसा शैलमहिं भोजयते च यः ।\nस एव तस्य कुरुते कार्याणामनुशासनम् ॥",
+          "meaning": {
+            "en": "He who breaks a mountain with his head and feeds a serpent is the very one who directs the doing of these deeds."
+          }
         },
         {
           "n": 10,
-          "text": "यो बलादनुशास्तीह सोऽमित्रं तेन विन्दति ।\nमित्रतामनुवृत्तं तु समुपेक्षेत पण्डितः ॥"
+          "text": "यो बलादनुशास्तीह सोऽमित्रं तेन विन्दति ।\nमित्रतामनुवृत्तं तु समुपेक्षेत पण्डितः ॥",
+          "meaning": {
+            "en": "He who commands by force makes an enemy of the one he commands; a wise man ignores a friend who has followed him when need be."
+          }
         },
         {
           "n": 11,
-          "text": "प्रदीप्य यः प्रदीप्ताग्निं प्राक्त्वरन्नाभिधावति ।\nभस्मापि न स विन्देत शिष्टं क्वचन भारत ॥"
+          "text": "प्रदीप्य यः प्रदीप्ताग्निं प्राक्त्वरन्नाभिधावति ।\nभस्मापि न स विन्देत शिष्टं क्वचन भारत ॥",
+          "meaning": {
+            "en": "He who lights a blazing fire and then hastens to run from it will not find even the ash left, Bharata."
+          }
         },
         {
           "n": 12,
-          "text": "न वासयेत्पारवर्ग्यं द्विषन्तं\nविशेषतः क्षत्तरहितं मनुष्यम् ।\nस यत्रेच्छसि विदुर तत्र गच्छ\nसुसान्त्वितापि ह्यसती स्त्री जहाति ॥"
+          "text": "न वासयेत्पारवर्ग्यं द्विषन्तं\nविशेषतः क्षत्तरहितं मनुष्यम् ।\nस यत्रेच्छसि विदुर तत्र गच्छ\nसुसान्त्वितापि ह्यसती स्त्री जहाति ॥",
+          "meaning": {
+            "en": "One should not house an enemy from another camp, above all a man without Kshatta's help. Go wherever you wish, Vidura; even a faithless woman, though well soothed, leaves."
+          }
         },
         {
-          "text": "विदुर उवाच"
+          "text": "विदुर उवाच",
+          "meaning": {
+            "en": "Vidura said:"
+          }
         },
         {
           "n": 13,
-          "text": "एतावता ये पुरुषं त्यजन्ति\nतेषां सख्यमन्तवद्ब्रूहि राजन् ।\nराज्ञां हि चित्तानि परिप्लुतानि\nसान्त्वं दत्त्वा मुसलैर्घातयन्ति ॥"
+          "text": "एतावता ये पुरुषं त्यजन्ति\nतेषां सख्यमन्तवद्ब्रूहि राजन् ।\nराज्ञां हि चित्तानि परिप्लुतानि\nसान्त्वं दत्त्वा मुसलैर्घातयन्ति ॥",
+          "meaning": {
+            "en": "Those who abandon a man for so little, tell me, king, their friendship is short-lived. Kings' minds are fickle; after offering comfort they have men killed with clubs."
+          }
         },
         {
           "n": 14,
-          "text": "अबालस्त्वं मन्यसे राजपुत्र\nबालोऽहमित्येव सुमन्दबुद्धे ।\nयः सौहृदे पुरुषं स्थापयित्वा\nपश्चादेनं दूषयते स बालः ॥"
+          "text": "अबालस्त्वं मन्यसे राजपुत्र\nबालोऽहमित्येव सुमन्दबुद्धे ।\nयः सौहृदे पुरुषं स्थापयित्वा\nपश्चादेनं दूषयते स बालः ॥",
+          "meaning": {
+            "en": "You, prince, think yourself no child and me a child, dull-witted one. He who sets a man in friendship and later slanders him is the child."
+          }
         },
         {
           "n": 15,
-          "text": "न श्रेयसे नीयते मन्दबुद्धिः\nस्त्री श्रोत्रियस्येव गृहे प्रदुष्टा ।\nध्रुवं न रोचेद्भरतर्षभस्य\nपतिः कुमार्या इव षष्टिवर्षः ॥"
+          "text": "न श्रेयसे नीयते मन्दबुद्धिः\nस्त्री श्रोत्रियस्येव गृहे प्रदुष्टा ।\nध्रुवं न रोचेद्भरतर्षभस्य\nपतिः कुमार्या इव षष्टिवर्षः ॥",
+          "meaning": {
+            "en": "A foolish man is not led to his good, like a corrupt wife in a Vedic scholar's house; surely a husband of sixty is not pleasing to a young girl, and so with the bull of the Bharatas."
+          }
         },
         {
           "n": 16,
-          "text": "अनुप्रियं चेदनुकाङ्क्षसे त्वं\nसर्वेषु कार्येषु हिताहितेषु ।\nस्त्रियश्च राजञ्जडपङ्गुकांश्च\nपृच्छ त्वं वै तादृशांश्चैव मूढान् ॥"
+          "text": "अनुप्रियं चेदनुकाङ्क्षसे त्वं\nसर्वेषु कार्येषु हिताहितेषु ।\nस्त्रियश्च राजञ्जडपङ्गुकांश्च\nपृच्छ त्वं वै तादृशांश्चैव मूढान् ॥",
+          "meaning": {
+            "en": "If you wish to hear only what pleases in every matter, helpful or harmful, then ask women, the dull, the lame and such fools."
+          }
         },
         {
           "n": 17,
-          "text": "लभ्यः खलु प्रातिपीय नरोऽनुप्रियवागिह ।\nअप्रियस्य तु पथ्यस्य वक्ता श्रोता च दुर्लभः ॥"
+          "text": "लभ्यः खलु प्रातिपीय नरोऽनुप्रियवागिह ।\nअप्रियस्य तु पथ्यस्य वक्ता श्रोता च दुर्लभः ॥",
+          "meaning": {
+            "en": "Son of Pratipa's line, a man who speaks pleasingly is easy to find here; but a speaker of what is unpleasant and wholesome, and one who listens to him, are rare."
+          }
         },
         {
           "n": 18,
-          "text": "यस्तु धर्मे पराश्वस्य हित्वा भर्तुः प्रियाप्रिये ।\nअप्रियाण्याह पथ्यानि तेन राजा सहायवान् ॥"
+          "text": "यस्तु धर्मे पराश्वस्य हित्वा भर्तुः प्रियाप्रिये ।\nअप्रियाण्याह पथ्यानि तेन राजा सहायवान् ॥",
+          "meaning": {
+            "en": "A man who, relying on dharma and setting aside his master's likes and dislikes, tells him unpleasant but wholesome things, makes the king well supported."
+          }
         },
         {
           "n": 19,
-          "text": "अव्याधिजं कटुकं तीक्ष्णमुष्णं\nयशोमुषं परुषं पूतिगन्धि ।\nसतां पेयं यन्न पिबन्त्यसन्तो\nमन्युं महाराज पिब प्रशाम्य ॥"
+          "text": "अव्याधिजं कटुकं तीक्ष्णमुष्णं\nयशोमुषं परुषं पूतिगन्धि ।\nसतां पेयं यन्न पिबन्त्यसन्तो\nमन्युं महाराज पिब प्रशाम्य ॥",
+          "meaning": {
+            "en": "Great king, drink down your anger and be calm: it is bitter, sharp, hot, rough and foul-smelling, rises not from illness, robs fame, and is a drink good men drink and bad men do not."
+          }
         },
         {
           "n": 20,
-          "text": "वैचित्रवीर्यस्य यशो धनं च\nवाञ्छाम्यहं सहपुत्रस्य शश्वत् ।\nयथा तथा वोऽस्तु नमश्च वोऽस्तु\nममापि च स्वस्ति दिशन्तु विप्राः ॥"
+          "text": "वैचित्रवीर्यस्य यशो धनं च\nवाञ्छाम्यहं सहपुत्रस्य शश्वत् ।\nयथा तथा वोऽस्तु नमश्च वोऽस्तु\nममापि च स्वस्ति दिशन्तु विप्राः ॥",
+          "meaning": {
+            "en": "I always want fame and wealth for Vichitravirya's son with his sons. Whatever happens to you, I bow to you; let brahmins also pronounce blessings on me."
+          }
         },
         {
           "n": 21,
-          "text": "आशीविषान्नेत्रविषान्कोपयेन्न तु पण्डितः ।\nएवं तेऽहं वदामीदं प्रयतः कुरुनन्दन ॥"
+          "text": "आशीविषान्नेत्रविषान्कोपयेन्न तु पण्डितः ।\nएवं तेऽहं वदामीदं प्रयतः कुरुनन्दन ॥",
+          "meaning": {
+            "en": "The wise man should not provoke snakes whose bite or whose gaze is poison. This I tell you, delight of the Kurus, with respect."
+          }
         }
       ]
     }

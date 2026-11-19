@@ -22,154 +22,274 @@
       "titleEn": "Indralokabhigamana Parva (Journey to Indra's world)",
       "verses": [
         {
-          "text": "दमयन्त्युवाच"
+          "text": "दमयन्त्युवाच",
+          "meaning": {
+            "en": "Damayanti said:"
+          }
         },
         {
           "n": 1,
-          "text": "गच्छ केशिनि जानीहि क एष रथवाहकः ।\nउपविष्टो रथोपस्थे विकृतो ह्रस्वबाहुकः ॥"
+          "text": "गच्छ केशिनि जानीहि क एष रथवाहकः ।\nउपविष्टो रथोपस्थे विकृतो ह्रस्वबाहुकः ॥",
+          "meaning": {
+            "en": "Go, Keshini, and find out who this charioteer is, the deformed, short-armed man sitting on the chariot."
+          }
         },
         {
           "n": 2,
-          "text": "अभ्येत्य कुशलं भद्रे मृदुपूर्वं समाहिता ।\nपृच्छेथाः पुरुषं ह्येनं यथातत्त्वमनिन्दिते ॥"
+          "text": "अभ्येत्य कुशलं भद्रे मृदुपूर्वं समाहिता ।\nपृच्छेथाः पुरुषं ह्येनं यथातत्त्वमनिन्दिते ॥",
+          "meaning": {
+            "en": "Approach him carefully, blameless girl, greet him kindly and politely, and ask him the truth about himself."
+          }
         },
         {
           "n": 3,
-          "text": "अत्र मे महती शङ्का भवेदेष नलो नृपः ।\nतथा च मे मनस्तुष्टिर्हृदयस्य च निर्वृतिः ॥"
+          "text": "अत्र मे महती शङ्का भवेदेष नलो नृपः ।\nतथा च मे मनस्तुष्टिर्हृदयस्य च निर्वृतिः ॥",
+          "meaning": {
+            "en": "I strongly suspect he may be King Nala; if so, my mind would be glad and my heart at peace."
+          }
         },
         {
           "n": 4,
-          "text": "ब्रूयाश्चैनं कथान्ते त्वं पर्णादवचनं यथा ।\nप्रतिवाक्यं च सुश्रोणि बुध्येथास्त्वमनिन्दिते ॥"
+          "text": "ब्रूयाश्चैनं कथान्ते त्वं पर्णादवचनं यथा ।\nप्रतिवाक्यं च सुश्रोणि बुध्येथास्त्वमनिन्दिते ॥",
+          "meaning": {
+            "en": "Late in the talk, repeat to him the words of the brahmin Parnada, and take note of his reply, blameless one."
+          }
         },
         {
-          "text": "बृहदश्व उवाच"
+          "text": "बृहदश्व उवाच",
+          "meaning": {
+            "en": "Brihadashva said:"
+          }
         },
         {
           "n": 5,
-          "text": "एवं समाहिता गत्वा दूती बाहुकमब्रवीत् ।\nदमयन्त्यपि कल्याणी प्रासादस्थान्ववैक्षत ॥"
+          "text": "एवं समाहिता गत्वा दूती बाहुकमब्रवीत् ।\nदमयन्त्यपि कल्याणी प्रासादस्थान्ववैक्षत ॥",
+          "meaning": {
+            "en": "Thus instructed, the maidservant went and spoke to Bahuka, while the gracious Damayanti watched from the palace."
+          }
         },
         {
-          "text": "केशिन्युवाच"
+          "text": "केशिन्युवाच",
+          "meaning": {
+            "en": "Keshini said:"
+          }
         },
         {
           "n": 6,
-          "text": "स्वागतं ते मनुष्येन्द्र कुशलं ते ब्रवीम्यहम् ।\nदमयन्त्या वचः साधु निबोध पुरुषर्षभ ॥"
+          "text": "स्वागतं ते मनुष्येन्द्र कुशलं ते ब्रवीम्यहम् ।\nदमयन्त्या वचः साधु निबोध पुरुषर्षभ ॥",
+          "meaning": {
+            "en": "Welcome, lord of men. I ask after your well-being. Listen well, best of men, to Damayanti's message."
+          }
         },
         {
           "n": 7,
-          "text": "कदा वै प्रस्थिता यूयं किमर्थमिह चागताः ।\nतत्त्वं ब्रूहि यथान्यायं वैदर्भी श्रोतुमिच्छति ॥"
+          "text": "कदा वै प्रस्थिता यूयं किमर्थमिह चागताः ।\nतत्त्वं ब्रूहि यथान्यायं वैदर्भी श्रोतुमिच्छति ॥",
+          "meaning": {
+            "en": "When did you set out, and why have you come here? Tell the truth in order; Vaidarbhi wishes to hear it."
+          }
         },
         {
-          "text": "बाहुक उवाच"
+          "text": "बाहुक उवाच",
+          "meaning": {
+            "en": "Bahuka said:"
+          }
         },
         {
           "n": 8,
-          "text": "श्रुतः स्वयंवरो राज्ञा कौसल्येन यशस्विना ।\nद्वितीयो दमयन्त्या वै श्वोभूत इति भामिनि ॥"
+          "text": "श्रुतः स्वयंवरो राज्ञा कौसल्येन यशस्विना ।\nद्वितीयो दमयन्त्या वै श्वोभूत इति भामिनि ॥",
+          "meaning": {
+            "en": "The renowned king of Kosala heard that Damayanti's second svayamvara would be held tomorrow, lady."
+          }
         },
         {
           "n": 9,
-          "text": "श्रुत्वा तं प्रस्थितो राजा शतयोजनयायिभिः ।\nहयैर्वातजवैर्मुख्यैरहमस्य च सारथिः ॥"
+          "text": "श्रुत्वा तं प्रस्थितो राजा शतयोजनयायिभिः ।\nहयैर्वातजवैर्मुख्यैरहमस्य च सारथिः ॥",
+          "meaning": {
+            "en": "On hearing it the king set out, with swift, excellent horses that run a hundred yojanas at the wind's speed, and I am his charioteer."
+          }
         },
         {
-          "text": "केशिन्युवाच"
+          "text": "केशिन्युवाच",
+          "meaning": {
+            "en": "Keshini said:"
+          }
         },
         {
           "n": 10,
-          "text": "अथ योऽसौ तृतीयो वः स कुतः कस्य वा पुनः ।\nत्वं च कस्य कथं चेदं त्वयि कर्म समाहितम् ॥"
+          "text": "अथ योऽसौ तृतीयो वः स कुतः कस्य वा पुनः ।\nत्वं च कस्य कथं चेदं त्वयि कर्म समाहितम् ॥",
+          "meaning": {
+            "en": "And the third man among you, where is he from, and whose is he? And who are you, and how did this work come to you?"
+          }
         },
         {
-          "text": "बाहुक उवाच"
+          "text": "बाहुक उवाच",
+          "meaning": {
+            "en": "Bahuka said:"
+          }
         },
         {
           "n": 11,
-          "text": "पुण्यश्लोकस्य वै सूतो वार्ष्णेय इति विश्रुतः ।\nस नले विद्रुते भद्रे भाङ्गस्वरिमुपस्थितः ॥"
+          "text": "पुण्यश्लोकस्य वै सूतो वार्ष्णेय इति विश्रुतः ।\nस नले विद्रुते भद्रे भाङ्गस्वरिमुपस्थितः ॥",
+          "meaning": {
+            "en": "He is the famed Varshneya, charioteer of Nala of holy fame. When Nala fled, he came to Rituparna."
+          }
         },
         {
           "n": 12,
-          "text": "अहमप्यश्वकुशलः सूदत्वे च सुनिष्ठितः ।\nऋतुपर्णेन सारथ्ये भोजने च वृतः स्वयम् ॥"
+          "text": "अहमप्यश्वकुशलः सूदत्वे च सुनिष्ठितः ।\nऋतुपर्णेन सारथ्ये भोजने च वृतः स्वयम् ॥",
+          "meaning": {
+            "en": "I too am skilled with horses and well trained in cooking, and Rituparna chose me himself as charioteer and cook."
+          }
         },
         {
-          "text": "केशिन्युवाच"
+          "text": "केशिन्युवाच",
+          "meaning": {
+            "en": "Keshini said:"
+          }
         },
         {
           "n": 13,
-          "text": "अथ जानाति वार्ष्णेयः क्व नु राजा नलो गतः ।\nकथंचित्त्वयि वैतेन कथितं स्यात्तु बाहुक ॥"
+          "text": "अथ जानाति वार्ष्णेयः क्व नु राजा नलो गतः ।\nकथंचित्त्वयि वैतेन कथितं स्यात्तु बाहुक ॥",
+          "meaning": {
+            "en": "Does Varshneya know where King Nala has gone? Has he perhaps told you something, Bahuka?"
+          }
         },
         {
-          "text": "बाहुक उवाच"
+          "text": "बाहुक उवाच",
+          "meaning": {
+            "en": "Bahuka said:"
+          }
         },
         {
           "n": 14,
-          "text": "इहैव पुत्रौ निक्षिप्य नलस्याशुभकर्मणः ।\nगतस्ततो यथाकामं नैष जानाति नैषधम् ॥"
+          "text": "इहैव पुत्रौ निक्षिप्य नलस्याशुभकर्मणः ।\nगतस्ततो यथाकामं नैष जानाति नैषधम् ॥",
+          "meaning": {
+            "en": "After leaving his two children here, Nala, whose luck had turned evil, went off wherever he pleased. Varshneya does not know where the lord of Nishadha is."
+          }
         },
         {
           "n": 15,
-          "text": "न चान्यः पुरुषः कश्चिन्नलं वेत्ति यशस्विनि ।\nगूढश्चरति लोकेऽस्मिन्नष्टरूपो महीपतिः ॥"
+          "text": "न चान्यः पुरुषः कश्चिन्नलं वेत्ति यशस्विनि ।\nगूढश्चरति लोकेऽस्मिन्नष्टरूपो महीपतिः ॥",
+          "meaning": {
+            "en": "No other man knows Nala either, glorious lady. The king wanders hidden in this world, his looks ruined."
+          }
         },
         {
           "n": 16,
-          "text": "आत्मैव हि नलं वेत्ति या चास्य तदनन्तरा ।\nन हि वै तानि लिङ्गानि नलं शंसन्ति कर्हिचित् ॥"
+          "text": "आत्मैव हि नलं वेत्ति या चास्य तदनन्तरा ।\nन हि वै तानि लिङ्गानि नलं शंसन्ति कर्हिचित् ॥",
+          "meaning": {
+            "en": "Only Nala himself knows Nala, and she who is next to him. For the usual signs never reveal Nala."
+          }
         },
         {
-          "text": "केशिन्युवाच"
+          "text": "केशिन्युवाच",
+          "meaning": {
+            "en": "Keshini said:"
+          }
         },
         {
           "n": 17,
-          "text": "योऽसावयोध्यां प्रथमं गतवान्ब्राह्मणस्तदा ।\nइमानि नारीवाक्यानि कथयानः पुनः पुनः ॥"
+          "text": "योऽसावयोध्यां प्रथमं गतवान्ब्राह्मणस्तदा ।\nइमानि नारीवाक्यानि कथयानः पुनः पुनः ॥",
+          "meaning": {
+            "en": "The brahmin who first went to Ayodhya kept repeating these words of a woman."
+          }
         },
         {
           "n": 18,
-          "text": "क्व नु त्वं कितव छित्त्वा वस्त्रार्धं प्रस्थितो मम ।\nउत्सृज्य विपिने सुप्तामनुरक्तां प्रियां प्रिय ॥"
+          "text": "क्व नु त्वं कितव छित्त्वा वस्त्रार्धं प्रस्थितो मम ।\nउत्सृज्य विपिने सुप्तामनुरक्तां प्रियां प्रिय ॥",
+          "meaning": {
+            "en": "\"Gambler, where have you gone, tearing off half my garment, abandoning in the forest your loving beloved as she slept?"
+          }
         },
         {
           "n": 19,
-          "text": "सा वै यथा समादिष्टा तत्रास्ते त्वत्प्रतीक्षिणी ।\nदह्यमाना दिवारात्रं वस्त्रार्धेनाभिसंवृता ॥"
+          "text": "सा वै यथा समादिष्टा तत्रास्ते त्वत्प्रतीक्षिणी ।\nदह्यमाना दिवारात्रं वस्त्रार्धेनाभिसंवृता ॥",
+          "meaning": {
+            "en": "As you ordered, she waits there for you, burning day and night, wrapped in half a cloth."
+          }
         },
         {
           "n": 20,
-          "text": "तस्या रुदन्त्याः सततं तेन दुःखेन पार्थिव ।\nप्रसादं कुरु वै वीर प्रतिवाक्यं प्रयच्छ च ॥"
+          "text": "तस्या रुदन्त्याः सततं तेन दुःखेन पार्थिव ।\nप्रसादं कुरु वै वीर प्रतिवाक्यं प्रयच्छ च ॥",
+          "meaning": {
+            "en": "Weeping always in that sorrow, she begs you, king: be kind, hero, and give her an answer."
+          }
         },
         {
           "n": 21,
-          "text": "तस्यास्तत्प्रियमाख्यानं प्रब्रवीहि महामते ।\nतदेव वाक्यं वैदर्भी श्रोतुमिच्छत्यनिन्दिता ॥"
+          "text": "तस्यास्तत्प्रियमाख्यानं प्रब्रवीहि महामते ।\nतदेव वाक्यं वैदर्भी श्रोतुमिच्छत्यनिन्दिता ॥",
+          "meaning": {
+            "en": "Wise one, tell her that dear story. The blameless Vaidarbhi wishes to hear those same words."
+          }
         },
         {
           "n": 22,
-          "text": "एतच्छ्रुत्वा प्रतिवचस्तस्य दत्तं त्वया किल ।\nयत्पुरा तत्पुनस्त्वत्तो वैदर्भी श्रोतुमिच्छति ॥"
+          "text": "एतच्छ्रुत्वा प्रतिवचस्तस्य दत्तं त्वया किल ।\nयत्पुरा तत्पुनस्त्वत्तो वैदर्भी श्रोतुमिच्छति ॥",
+          "meaning": {
+            "en": "Having heard that you gave an answer to this, she wishes to hear again from you what you said before.\""
+          }
         },
         {
-          "text": "बृहदश्व उवाच"
+          "text": "बृहदश्व उवाच",
+          "meaning": {
+            "en": "Brihadashva said:"
+          }
         },
         {
           "n": 23,
-          "text": "एवमुक्तस्य केशिन्या नलस्य कुरुनन्दन ।\nहृदयं व्यथितं चासीदश्रुपूर्णे च लोचने ॥"
+          "text": "एवमुक्तस्य केशिन्या नलस्य कुरुनन्दन ।\nहृदयं व्यथितं चासीदश्रुपूर्णे च लोचने ॥",
+          "meaning": {
+            "en": "At Keshini's words, O joy of the Kurus, Nala's heart was pained and his eyes filled with tears."
+          }
         },
         {
           "n": 24,
-          "text": "स निगृह्यात्मनो दुःखं दह्यमानो महीपतिः ।\nबाष्पसंदिग्धया वाचा पुनरेवेदमब्रवीत् ॥"
+          "text": "स निगृह्यात्मनो दुःखं दह्यमानो महीपतिः ।\nबाष्पसंदिग्धया वाचा पुनरेवेदमब्रवीत् ॥",
+          "meaning": {
+            "en": "Burning inside, the king mastered his grief and spoke again in a voice thick with tears."
+          }
         },
         {
           "n": 25,
-          "text": "वैषम्यमपि संप्राप्ता गोपायन्ति कुलस्त्रियः ।\nआत्मानमात्मना सत्यो जितस्वर्गा न संशयः ॥"
+          "text": "वैषम्यमपि संप्राप्ता गोपायन्ति कुलस्त्रियः ।\nआत्मानमात्मना सत्यो जितस्वर्गा न संशयः ॥",
+          "meaning": {
+            "en": "Even in hard times, honourable women keep themselves safe by their own strength; such truthful women have surely won heaven."
+          }
         },
         {
           "n": 26,
-          "text": "रहिता भर्तृभिश्चैव न क्रुध्यन्ति कदाचन ।\nप्राणांश्चारित्रकवचा धारयन्तीह सत्स्त्रियः ॥"
+          "text": "रहिता भर्तृभिश्चैव न क्रुध्यन्ति कदाचन ।\nप्राणांश्चारित्रकवचा धारयन्तीह सत्स्त्रियः ॥",
+          "meaning": {
+            "en": "Even when separated from their husbands they never get angry; good wives, armoured in virtue, keep their lives going."
+          }
         },
         {
           "n": 27,
-          "text": "प्राणयात्रां परिप्रेप्सोः शकुनैर्हृतवाससः ।\nआधिभिर्दह्यमानस्य श्यामा न क्रोद्धुमर्हति ॥"
+          "text": "प्राणयात्रां परिप्रेप्सोः शकुनैर्हृतवाससः ।\nआधिभिर्दह्यमानस्य श्यामा न क्रोद्धुमर्हति ॥",
+          "meaning": {
+            "en": "A young woman should not be angry with a man whose clothes were stolen by birds, who is struggling to survive and is burned by anguish."
+          }
         },
         {
           "n": 28,
-          "text": "सत्कृतासत्कृता वापि पतिं दृष्ट्वा तथागतम् ।\nभ्रष्टराज्यं श्रिया हीनं क्षुधितं व्यसनाप्लुतम् ॥"
+          "text": "सत्कृतासत्कृता वापि पतिं दृष्ट्वा तथागतम् ।\nभ्रष्टराज्यं श्रिया हीनं क्षुधितं व्यसनाप्लुतम् ॥",
+          "meaning": {
+            "en": "Whether he had treated her well or ill, she should not be angry on seeing her husband in that state, his kingdom lost, his fortune gone, hungry and sunk in trouble."
+          }
         },
         {
           "n": 29,
-          "text": "एवं ब्रुवाणस्तद्वाक्यं नलः परमदुःखितः ।\nन बाष्पमशकत्सोढुं प्ररुरोद च भारत ॥"
+          "text": "एवं ब्रुवाणस्तद्वाक्यं नलः परमदुःखितः ।\nन बाष्पमशकत्सोढुं प्ररुरोद च भारत ॥",
+          "meaning": {
+            "en": "As he said these words, Nala, deeply wretched, could not hold back his tears and wept, O Bharata."
+          }
         },
         {
           "n": 30,
-          "text": "ततः सा केशिनी गत्वा दमयन्त्यै न्यवेदयत् ।\nतत्सर्वं कथितं चैव विकारं चैव तस्य तम् ॥"
+          "text": "ततः सा केशिनी गत्वा दमयन्त्यै न्यवेदयत् ।\nतत्सर्वं कथितं चैव विकारं चैव तस्य तम् ॥",
+          "meaning": {
+            "en": "Then Keshini went and reported to Damayanti everything, and the change that had come over him."
+          }
         }
       ]
     }

@@ -22,263 +22,464 @@
       "titleEn": "Dyuta Parva (The dice game)",
       "verses": [
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 1,
-          "text": "अनुभूय तु राज्ञस्तं राजसूयं महाक्रतुम् ।\nयुधिष्ठिरस्य नृपतेर्गान्धारीपुत्रसंयुतः ॥"
+          "text": "अनुभूय तु राज्ञस्तं राजसूयं महाक्रतुम् ।\nयुधिष्ठिरस्य नृपतेर्गान्धारीपुत्रसंयुतः ॥",
+          "meaning": {
+            "en": "After witnessing King Yudhishthira's great Rajasuya sacrifice, Shakuni, with Gandhari's son,"
+          }
         },
         {
           "n": 2,
-          "text": "प्रियकृन्मतमाज्ञाय पूर्वं दुर्योधनस्य तत् ।\nप्रज्ञाचक्षुषमासीनं शकुनिः सौबलस्तदा ॥"
+          "text": "प्रियकृन्मतमाज्ञाय पूर्वं दुर्योधनस्य तत् ।\nप्रज्ञाचक्षुषमासीनं शकुनिः सौबलस्तदा ॥",
+          "meaning": {
+            "en": "knowing beforehand Duryodhana's wish and eager to please him, approached the wise king, the one who sees with the eye of insight, as he sat."
+          }
         },
         {
           "n": 3,
-          "text": "दुर्योधनवचः श्रुत्वा धृतराष्ट्रं जनाधिपम् ।\nउपगम्य महाप्राज्ञं शकुनिर्वाक्यमब्रवीत् ॥"
+          "text": "दुर्योधनवचः श्रुत्वा धृतराष्ट्रं जनाधिपम् ।\nउपगम्य महाप्राज्ञं शकुनिर्वाक्यमब्रवीत् ॥",
+          "meaning": {
+            "en": "Having heard Duryodhana's words, Shakuni went to the wise king Dhritarashtra and said:"
+          }
         },
         {
           "n": 4,
-          "text": "दुर्योधनो महाराज विवर्णो हरिणः कृशः ।\nदीनश्चिन्तापरश्चैव तद्विद्धि भरतर्षभ ॥"
+          "text": "दुर्योधनो महाराज विवर्णो हरिणः कृशः ।\nदीनश्चिन्तापरश्चैव तद्विद्धि भरतर्षभ ॥",
+          "meaning": {
+            "en": "Shakuni said: Great king, Duryodhana has turned pale, thin and yellow, dejected and absorbed in worry; know that, bull of the Bharatas."
+          }
         },
         {
           "n": 5,
-          "text": "न वै परीक्षसे सम्यगसह्यं शत्रुसंभवम् ।\nज्येष्ठपुत्रस्य शोकं त्वं किमर्थं नावबुध्यसे ॥"
+          "text": "न वै परीक्षसे सम्यगसह्यं शत्रुसंभवम् ।\nज्येष्ठपुत्रस्य शोकं त्वं किमर्थं नावबुध्यसे ॥",
+          "meaning": {
+            "en": "You do not properly examine an enemy-born grief that cannot be borne; why do you not understand your eldest son's sorrow?"
+          }
         },
         {
-          "text": "धृतराष्ट्र उवाच"
+          "text": "धृतराष्ट्र उवाच",
+          "meaning": {
+            "en": "Dhritarashtra said:"
+          }
         },
         {
           "n": 6,
-          "text": "दुर्योधन कुतोमूलं भृशमार्तोऽसि पुत्रक ।\nश्रोतव्यश्चेन्मया सोऽर्थो ब्रूहि मे कुरुनन्दन ॥"
+          "text": "दुर्योधन कुतोमूलं भृशमार्तोऽसि पुत्रक ।\nश्रोतव्यश्चेन्मया सोऽर्थो ब्रूहि मे कुरुनन्दन ॥",
+          "meaning": {
+            "en": "Dhritarashtra said: Duryodhana, what is the root of this deep distress, son? If it is fit for me to hear, tell me, joy of the Kurus."
+          }
         },
         {
           "n": 7,
-          "text": "अयं त्वां शकुनिः प्राह विवर्णं हरिणं कृशम् ।\nचिन्तयंश्च न पश्यामि शोकस्य तव संभवम् ॥"
+          "text": "अयं त्वां शकुनिः प्राह विवर्णं हरिणं कृशम् ।\nचिन्तयंश्च न पश्यामि शोकस्य तव संभवम् ॥",
+          "meaning": {
+            "en": "Shakuni here says you are pale, yellow and thin. I think and I do not see any cause of your sorrow."
+          }
         },
         {
           "n": 8,
-          "text": "ऐश्वर्यं हि महत्पुत्र त्वयि सर्वं समर्पितम् ।\nभ्रातरः सुहृदश्चैव नाचरन्ति तवाप्रियम् ॥"
+          "text": "ऐश्वर्यं हि महत्पुत्र त्वयि सर्वं समर्पितम् ।\nभ्रातरः सुहृदश्चैव नाचरन्ति तवाप्रियम् ॥",
+          "meaning": {
+            "en": "Son, all this great sovereignty has been handed to you; your brothers and friends do nothing displeasing to you."
+          }
         },
         {
           "n": 9,
-          "text": "आच्छादयसि प्रावारानश्नासि पिशितौदनम् ।\nआजानेया वहन्ति त्वां केनासि हरिणः कृशः ॥"
+          "text": "आच्छादयसि प्रावारानश्नासि पिशितौदनम् ।\nआजानेया वहन्ति त्वां केनासि हरिणः कृशः ॥",
+          "meaning": {
+            "en": "You wear fine cloaks, you eat meat and rice, and thoroughbred horses carry you; why are you yellow and thin?"
+          }
         },
         {
           "n": 10,
-          "text": "शयनानि महार्हाणि योषितश्च मनोरमाः ।\nगुणवन्ति च वेश्मानि विहाराश्च यथासुखम् ॥"
+          "text": "शयनानि महार्हाणि योषितश्च मनोरमाः ।\nगुणवन्ति च वेश्मानि विहाराश्च यथासुखम् ॥",
+          "meaning": {
+            "en": "You have costly beds, lovely women, fine houses and pleasure grounds as you wish."
+          }
         },
         {
           "n": 11,
-          "text": "देवानामिव ते सर्वं वाचि बद्धं न संशयः ।\nस दीन इव दुर्धर्षः कस्माच्छोचसि पुत्रक ॥"
+          "text": "देवानामिव ते सर्वं वाचि बद्धं न संशयः ।\nस दीन इव दुर्धर्षः कस्माच्छोचसि पुत्रक ॥",
+          "meaning": {
+            "en": "Everything, as if for the gods, is bound to your word, no doubt. Why, son, do you grieve as though poor, you who are hard to oppose?"
+          }
         },
         {
-          "text": "दुर्योधन उवाच"
+          "text": "दुर्योधन उवाच",
+          "meaning": {
+            "en": "Duryodhana said:"
+          }
         },
         {
           "n": 12,
-          "text": "अश्नाम्याच्छादये चाहं यथा कुपुरुषस्तथा ।\nअमर्षं धारये चोग्रं तितिक्षन्कालपर्ययम् ॥"
+          "text": "अश्नाम्याच्छादये चाहं यथा कुपुरुषस्तथा ।\nअमर्षं धारये चोग्रं तितिक्षन्कालपर्ययम् ॥",
+          "meaning": {
+            "en": "Duryodhana said: I eat and dress like a worthless man; I bear a fierce anger while enduring the turn of time."
+          }
         },
         {
           "n": 13,
-          "text": "अमर्षणः स्वाः प्रकृतीरभिभूय परे स्थिताः ।\nक्लेशान्मुमुक्षुः परजान्स वै पुरुष उच्यते ॥"
+          "text": "अमर्षणः स्वाः प्रकृतीरभिभूय परे स्थिताः ।\nक्लेशान्मुमुक्षुः परजान्स वै पुरुष उच्यते ॥",
+          "meaning": {
+            "en": "He is called a man who, intolerant, has mastered his own nature and stands above his rivals, seeking release from the troubles that his enemies cause."
+          }
         },
         {
           "n": 14,
-          "text": "संतोषो वै श्रियं हन्ति अभिमानश्च भारत ।\nअनुक्रोशभये चोभे यैर्वृतो नाश्नुते महत् ॥"
+          "text": "संतोषो वै श्रियं हन्ति अभिमानश्च भारत ।\nअनुक्रोशभये चोभे यैर्वृतो नाश्नुते महत् ॥",
+          "meaning": {
+            "en": "Contentment destroys prosperity, Bharata, and so do pride, pity and fear; one surrounded by these does not gain greatness."
+          }
         },
         {
           "n": 15,
-          "text": "न मामवति तद्भुक्तं श्रियं दृष्ट्वा युधिष्ठिरे ।\nज्वलन्तीमिव कौन्तेये विवर्णकरणीं मम ॥"
+          "text": "न मामवति तद्भुक्तं श्रियं दृष्ट्वा युधिष्ठिरे ।\nज्वलन्तीमिव कौन्तेये विवर्णकरणीं मम ॥",
+          "meaning": {
+            "en": "What I eat does not nourish me, seeing Yudhishthira's wealth blazing, which makes me pale."
+          }
         },
         {
           "n": 16,
-          "text": "सपत्नानृध्यतोऽऽत्मानं हीयमानं निशाम्य च ।\nअदृश्यामपि कौन्तेये स्थितां पश्यन्निवोद्यताम् ।\nतस्मादहं विवर्णश्च दीनश्च हरिणः कृशः ॥"
+          "text": "सपत्नानृध्यतोऽऽत्मानं हीयमानं निशाम्य च ।\nअदृश्यामपि कौन्तेये स्थितां पश्यन्निवोद्यताम् ।\nतस्मादहं विवर्णश्च दीनश्च हरिणः कृशः ॥",
+          "meaning": {
+            "en": "Seeing my enemies flourishing and myself declining, and seeing the son of Kunti's unseen fortune as if standing before me, I am therefore pale, dejected, yellow and thin."
+          }
         },
         {
           "n": 17,
-          "text": "अष्टाशीतिसहस्राणि स्नातका गृहमेधिनः ।\nत्रिंशद्दासीक एकैको यान्बिभर्ति युधिष्ठिरः ॥"
+          "text": "अष्टाशीतिसहस्राणि स्नातका गृहमेधिनः ।\nत्रिंशद्दासीक एकैको यान्बिभर्ति युधिष्ठिरः ॥",
+          "meaning": {
+            "en": "Yudhishthira supports eighty-eight thousand householder snatakas, each with thirty maidservants."
+          }
         },
         {
           "n": 18,
-          "text": "दशान्यानि सहस्राणि नित्यं तत्रान्नमुत्तमम् ।\nभुञ्जते रुक्मपात्रीभिर्युधिष्ठिरनिवेशने ॥"
+          "text": "दशान्यानि सहस्राणि नित्यं तत्रान्नमुत्तमम् ।\nभुञ्जते रुक्मपात्रीभिर्युधिष्ठिरनिवेशने ॥",
+          "meaning": {
+            "en": "In Yudhishthira's house ten thousand others daily eat the finest food from golden dishes."
+          }
         },
         {
           "n": 19,
-          "text": "कदलीमृगमोकानि कृष्णश्यामारुणानि च ।\nकाम्बोजः प्राहिणोत्तस्मै परार्ध्यानपि कम्बलान् ॥"
+          "text": "कदलीमृगमोकानि कृष्णश्यामारुणानि च ।\nकाम्बोजः प्राहिणोत्तस्मै परार्ध्यानपि कम्बलान् ॥",
+          "meaning": {
+            "en": "The Kamboja king sent him plantain-deer hides, black, dark and red, and the costliest blankets."
+          }
         },
         {
           "n": 20,
-          "text": "रथयोषिद्गवाश्वस्य शतशोऽथ सहस्रशः ।\nत्रिंशतं चोष्ट्रवामीनां शतानि विचरन्त्युत ॥"
+          "text": "रथयोषिद्गवाश्वस्य शतशोऽथ सहस्रशः ।\nत्रिंशतं चोष्ट्रवामीनां शतानि विचरन्त्युत ॥",
+          "meaning": {
+            "en": "Chariots, women, cows and horses, hundreds and thousands, and thirty hundreds of she-camels wander there."
+          }
         },
         {
           "n": 21,
-          "text": "पृथग्विधानि रत्नानि पार्थिवाः पृथिवीपते ।\nआहरन्क्रतुमुख्येऽस्मिन्कुन्तीपुत्राय भूरिशः ॥"
+          "text": "पृथग्विधानि रत्नानि पार्थिवाः पृथिवीपते ।\nआहरन्क्रतुमुख्येऽस्मिन्कुन्तीपुत्राय भूरिशः ॥",
+          "meaning": {
+            "en": "Lord of earth, the kings brought in abundance, to the son of Kunti at that chief of sacrifices, jewels of various kinds."
+          }
         },
         {
           "n": 22,
-          "text": "न क्वचिद्धि मया दृष्टस्तादृशो नैव च श्रुतः ।\nयादृग्धनागमो यज्ञे पाण्डुपुत्रस्य धीमतः ॥"
+          "text": "न क्वचिद्धि मया दृष्टस्तादृशो नैव च श्रुतः ।\nयादृग्धनागमो यज्ञे पाण्डुपुत्रस्य धीमतः ॥",
+          "meaning": {
+            "en": "I have nowhere seen or heard of such an inflow of wealth as at the sacrifice of wise Pandu's son."
+          }
         },
         {
           "n": 23,
-          "text": "अपर्यन्तं धनौघं तं दृष्ट्वा शत्रोरहं नृप ।\nशर्म नैवाधिगच्छामि चिन्तयानोऽनिशं विभो ॥"
+          "text": "अपर्यन्तं धनौघं तं दृष्ट्वा शत्रोरहं नृप ।\nशर्म नैवाधिगच्छामि चिन्तयानोऽनिशं विभो ॥",
+          "meaning": {
+            "en": "Seeing that boundless flood of wealth of my enemy, king, I find no peace, lord, thinking of it constantly."
+          }
         },
         {
           "n": 24,
-          "text": "ब्राह्मणा वाटधानाश्च गोमन्तः शतसंघशः ।\nत्रैखर्वं बलिमादाय द्वारि तिष्ठन्ति वारिताः ॥"
+          "text": "ब्राह्मणा वाटधानाश्च गोमन्तः शतसंघशः ।\nत्रैखर्वं बलिमादाय द्वारि तिष्ठन्ति वारिताः ॥",
+          "meaning": {
+            "en": "Brahmins, Vatadhanas and cow-keepers in hundreds of crowds stand at the door, held back, bringing tribute of three kharvas."
+          }
         },
         {
           "n": 25,
-          "text": "कमण्डलूनुपादाय जातरूपमयाञ्शुभान् ।\nएवं बलिं समादाय प्रवेशं लेभिरे ततः ॥"
+          "text": "कमण्डलूनुपादाय जातरूपमयाञ्शुभान् ।\nएवं बलिं समादाय प्रवेशं लेभिरे ततः ॥",
+          "meaning": {
+            "en": "Taking fine golden water-pots as tribute, they thus gained admittance."
+          }
         },
         {
           "n": 26,
-          "text": "यन्नैव मधु शक्राय धारयन्त्यमरस्त्रियः ।\nतदस्मै कांस्यमाहार्षीद्वारुणं कलशोदधिः ॥"
+          "text": "यन्नैव मधु शक्राय धारयन्त्यमरस्त्रियः ।\nतदस्मै कांस्यमाहार्षीद्वारुणं कलशोदधिः ॥",
+          "meaning": {
+            "en": "The honey that celestial women do not hold for Shakra, the ocean of Varuna's pitchers brought to him in a bronze vessel."
+          }
         },
         {
           "n": 27,
-          "text": "शैक्यं रुक्मसहस्रस्य बहुरत्नविभूषितम् ।\nदृष्ट्वा च मम तत्सर्वं ज्वररूपमिवाभवत् ॥"
+          "text": "शैक्यं रुक्मसहस्रस्य बहुरत्नविभूषितम् ।\nदृष्ट्वा च मम तत्सर्वं ज्वररूपमिवाभवत् ॥",
+          "meaning": {
+            "en": "I saw a sling-hung vessel worth a thousand gold pieces, adorned with many gems, and all that became like a fever to me."
+          }
         },
         {
           "n": 28,
-          "text": "गृहीत्वा तत्तु गच्छन्ति समुद्रौ पूर्वदक्षिणौ ।\nतथैव पश्चिमं यान्ति गृहीत्वा भरतर्षभ ॥"
+          "text": "गृहीत्वा तत्तु गच्छन्ति समुद्रौ पूर्वदक्षिणौ ।\nतथैव पश्चिमं यान्ति गृहीत्वा भरतर्षभ ॥",
+          "meaning": {
+            "en": "Taking it, they go to the eastern and southern seas; likewise they go west, bull of the Bharatas."
+          }
         },
         {
           "n": 29,
-          "text": "उत्तरं तु न गच्छन्ति विना तात पतत्रिभिः ।\nइदं चाद्भुतमत्रासीत्तन्मे निगदतः शृणु ॥"
+          "text": "उत्तरं तु न गच्छन्ति विना तात पतत्रिभिः ।\nइदं चाद्भुतमत्रासीत्तन्मे निगदतः शृणु ॥",
+          "meaning": {
+            "en": "But to the north none go, dear father, except birds. And hear this wonder that happened there, as I tell it."
+          }
         },
         {
           "n": 30,
-          "text": "पूर्णे शतसहस्रे तु विप्राणां परिविष्यताम् ।\nस्थापिता तत्र संज्ञाभूच्छङ्खो ध्मायति नित्यशः ॥"
+          "text": "पूर्णे शतसहस्रे तु विप्राणां परिविष्यताम् ।\nस्थापिता तत्र संज्ञाभूच्छङ्खो ध्मायति नित्यशः ॥",
+          "meaning": {
+            "en": "When a hundred thousand brahmins had been served, a signal was fixed: a conch was blown there daily."
+          }
         },
         {
           "n": 31,
-          "text": "मुहुर्मुहुः प्रणदतस्तस्य शङ्खस्य भारत ।\nउत्तमं शब्दमश्रौषं ततो रोमाणि मेऽहृषन् ॥"
+          "text": "मुहुर्मुहुः प्रणदतस्तस्य शङ्खस्य भारत ।\nउत्तमं शब्दमश्रौषं ततो रोमाणि मेऽहृषन् ॥",
+          "meaning": {
+            "en": "Hearing that conch resound again and again, Bharata, a supreme sound, my hair stood on end."
+          }
         },
         {
           "n": 32,
-          "text": "पार्थिवैर्बहुभिः कीर्णमुपस्थानं दिदृक्षुभिः ।\nसर्वरत्नान्युपादाय पार्थिवा वै जनेश्वर ॥"
+          "text": "पार्थिवैर्बहुभिः कीर्णमुपस्थानं दिदृक्षुभिः ।\nसर्वरत्नान्युपादाय पार्थिवा वै जनेश्वर ॥",
+          "meaning": {
+            "en": "The audience hall was crowded with many kings who wished to see; the kings, taking every kind of jewel,"
+          }
         },
         {
           "n": 33,
-          "text": "यज्ञे तस्य महाराज पाण्डुपुत्रस्य धीमतः ।\nवैश्या इव महीपाला द्विजातिपरिवेषकाः ॥"
+          "text": "यज्ञे तस्य महाराज पाण्डुपुत्रस्य धीमतः ।\nवैश्या इव महीपाला द्विजातिपरिवेषकाः ॥",
+          "meaning": {
+            "en": "at the sacrifice of that wise Pandu's son, great king, served the twice-born like Vaishyas."
+          }
         },
         {
           "n": 34,
-          "text": "न सा श्रीर्देवराजस्य यमस्य वरुणस्य वा ।\nगुह्यकाधिपतेर्वापि या श्री राजन्युधिष्ठिरे ॥"
+          "text": "न सा श्रीर्देवराजस्य यमस्य वरुणस्य वा ।\nगुह्यकाधिपतेर्वापि या श्री राजन्युधिष्ठिरे ॥",
+          "meaning": {
+            "en": "King, the splendour that is Yudhishthira's is not that of Indra, Yama, Varuna or the lord of the Guhyakas."
+          }
         },
         {
           "n": 35,
-          "text": "तां दृष्ट्वा पाण्डुपुत्रस्य श्रियं परमिकामहम् ।\nशान्तिं न परिगच्छामि दह्यमानेन चेतसा ॥"
+          "text": "तां दृष्ट्वा पाण्डुपुत्रस्य श्रियं परमिकामहम् ।\nशान्तिं न परिगच्छामि दह्यमानेन चेतसा ॥",
+          "meaning": {
+            "en": "Having seen that supreme prosperity of Pandu's son, I find no peace, my mind burning."
+          }
         },
         {
-          "text": "शकुनिरुवाच"
+          "text": "शकुनिरुवाच",
+          "meaning": {
+            "en": "Shakuni said:"
+          }
         },
         {
           "n": 36,
-          "text": "यामेतामुत्तमां लक्ष्मीं दृष्टवानसि पाण्डवे ।\nतस्याः प्राप्तावुपायं मे शृणु सत्यपराक्रम ॥"
+          "text": "यामेतामुत्तमां लक्ष्मीं दृष्टवानसि पाण्डवे ।\nतस्याः प्राप्तावुपायं मे शृणु सत्यपराक्रम ॥",
+          "meaning": {
+            "en": "Shakuni said: Hear from me, truly valiant one, the means of getting that supreme glory you have seen in the Pandava."
+          }
         },
         {
           "n": 37,
-          "text": "अहमक्षेष्वभिज्ञातः पृथिव्यामपि भारत ।\nहृदयज्ञः पणज्ञश्च विशेषज्ञश्च देवने ॥"
+          "text": "अहमक्षेष्वभिज्ञातः पृथिव्यामपि भारत ।\nहृदयज्ञः पणज्ञश्च विशेषज्ञश्च देवने ॥",
+          "meaning": {
+            "en": "I am known for dice on earth too, Bharata; I know the heart, know the stakes and know the fine points of play."
+          }
         },
         {
           "n": 38,
-          "text": "द्यूतप्रियश्च कौन्तेयो न च जानाति देवितुम् ।\nआहूतश्चैष्यति व्यक्तं दीव्यावेत्याह्वयस्व तम् ॥"
+          "text": "द्यूतप्रियश्च कौन्तेयो न च जानाति देवितुम् ।\nआहूतश्चैष्यति व्यक्तं दीव्यावेत्याह्वयस्व तम् ॥",
+          "meaning": {
+            "en": "The son of Kunti loves dice but does not know how to play; invited, he will certainly come. Invite him: Let us play."
+          }
         },
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 39,
-          "text": "एवमुक्तः शकुनिना राजा दुर्योधनस्तदा ।\nधृतराष्ट्रमिदं वाक्यमपदान्तरमब्रवीत् ॥"
+          "text": "एवमुक्तः शकुनिना राजा दुर्योधनस्तदा ।\nधृतराष्ट्रमिदं वाक्यमपदान्तरमब्रवीत् ॥",
+          "meaning": {
+            "en": "So addressed by Shakuni, King Duryodhana then said to Dhritarashtra, speaking so as to pause between the words:"
+          }
         },
         {
           "n": 40,
-          "text": "अयमुत्सहते राजञ्श्रियमाहर्तुमक्षवित् ।\nद्यूतेन पाण्डुपुत्रस्य तदनुज्ञातुमर्हसि ॥"
+          "text": "अयमुत्सहते राजञ्श्रियमाहर्तुमक्षवित् ।\nद्यूतेन पाण्डुपुत्रस्य तदनुज्ञातुमर्हसि ॥",
+          "meaning": {
+            "en": "Duryodhana said: King, this one skilled at dice is ready to take the Pandava's fortune by gambling; you should give leave."
+          }
         },
         {
-          "text": "धृतराष्ट्र उवाच"
+          "text": "धृतराष्ट्र उवाच",
+          "meaning": {
+            "en": "Dhritarashtra said:"
+          }
         },
         {
           "n": 41,
-          "text": "क्षत्ता मन्त्री महाप्राज्ञः स्थितो यस्यास्मि शासने ।\nतेन संगम्य वेत्स्यामि कार्यस्यास्य विनिश्चयम् ॥"
+          "text": "क्षत्ता मन्त्री महाप्राज्ञः स्थितो यस्यास्मि शासने ।\nतेन संगम्य वेत्स्यामि कार्यस्यास्य विनिश्चयम् ॥",
+          "meaning": {
+            "en": "Dhritarashtra said: Kshatta, the wise minister, at whose direction I stand: having met him, I shall decide this matter."
+          }
         },
         {
           "n": 42,
-          "text": "स हि धर्मं पुरस्कृत्य दीर्घदर्शी परं हितम् ।\nउभयोः पक्षयोर्युक्तं वक्ष्यत्यर्थविनिश्चयम् ॥"
+          "text": "स हि धर्मं पुरस्कृत्य दीर्घदर्शी परं हितम् ।\nउभयोः पक्षयोर्युक्तं वक्ष्यत्यर्थविनिश्चयम् ॥",
+          "meaning": {
+            "en": "For he, looking to dharma and far-sighted, will state the decision that is best and fit for both sides."
+          }
         },
         {
-          "text": "दुर्योधन उवाच"
+          "text": "दुर्योधन उवाच",
+          "meaning": {
+            "en": "Duryodhana said:"
+          }
         },
         {
           "n": 43,
-          "text": "निवर्तयिष्यति त्वासौ यदि क्षत्ता समेष्यति ।\nनिवृत्ते त्वयि राजेन्द्र मरिष्येऽहमसंशयम् ॥"
+          "text": "निवर्तयिष्यति त्वासौ यदि क्षत्ता समेष्यति ।\nनिवृत्ते त्वयि राजेन्द्र मरिष्येऽहमसंशयम् ॥",
+          "meaning": {
+            "en": "Duryodhana said: If Kshatta comes, he will turn you back; and if you are turned back, king of kings, I shall surely die."
+          }
         },
         {
           "n": 44,
-          "text": "स मयि त्वं मृते राजन्विदुरेण सुखी भव ।\nभोक्ष्यसे पृथिवीं कृत्स्नां किं मया त्वं करिष्यसि ॥"
+          "text": "स मयि त्वं मृते राजन्विदुरेण सुखी भव ।\nभोक्ष्यसे पृथिवीं कृत्स्नां किं मया त्वं करिष्यसि ॥",
+          "meaning": {
+            "en": "When I am dead, king, be happy with Vidura, you will enjoy the whole earth; what will you do with me?"
+          }
         },
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 45,
-          "text": "आर्तवाक्यं तु तत्तस्य प्रणयोक्तं निशम्य सः ।\nधृतराष्ट्रोऽब्रवीत्प्रेष्यान्दुर्योधनमते स्थितः ॥"
+          "text": "आर्तवाक्यं तु तत्तस्य प्रणयोक्तं निशम्य सः ।\nधृतराष्ट्रोऽब्रवीत्प्रेष्यान्दुर्योधनमते स्थितः ॥",
+          "meaning": {
+            "en": "Hearing that sorrowful, affectionate speech, Dhritarashtra, bound by Duryodhana's opinion, said to his servants:"
+          }
         },
         {
           "n": 46,
-          "text": "स्थूणासहस्रैर्बृहतीं शतद्वारां सभां मम ।\nमनोरमां दर्शनीयामाशु कुर्वन्तु शिल्पिनः ॥"
+          "text": "स्थूणासहस्रैर्बृहतीं शतद्वारां सभां मम ।\nमनोरमां दर्शनीयामाशु कुर्वन्तु शिल्पिनः ॥",
+          "meaning": {
+            "en": "Dhritarashtra said: Let craftsmen quickly build me a great hall with a thousand pillars and a hundred doors, delightful and splendid to see."
+          }
         },
         {
           "n": 47,
-          "text": "ततः संस्तीर्य रत्नैस्तामक्षानावाप्य सर्वशः ।\nसुकृतां सुप्रवेशां च निवेदयत मे शनैः ॥"
+          "text": "ततः संस्तीर्य रत्नैस्तामक्षानावाप्य सर्वशः ।\nसुकृतां सुप्रवेशां च निवेदयत मे शनैः ॥",
+          "meaning": {
+            "en": "Then, once it is spread with jewels and fitted out with dice everywhere, well made and easy to enter, report to me quietly."
+          }
         },
         {
           "n": 48,
-          "text": "दुर्योधनस्य शान्त्यर्थमिति निश्चित्य भूमिपः ।\nधृतराष्ट्रो महाराज प्राहिणोद्विदुराय वै ॥"
+          "text": "दुर्योधनस्य शान्त्यर्थमिति निश्चित्य भूमिपः ।\nधृतराष्ट्रो महाराज प्राहिणोद्विदुराय वै ॥",
+          "meaning": {
+            "en": "Deciding that it was for Duryodhana's peace, King Dhritarashtra, great king, sent a message to Vidura."
+          }
         },
         {
           "n": 49,
-          "text": "अपृष्ट्वा विदुरं ह्यस्य नासीत्कश्चिद्विनिश्चयः ।\nद्यूतदोषांश्च जानन्स पुत्रस्नेहादकृष्यत ॥"
+          "text": "अपृष्ट्वा विदुरं ह्यस्य नासीत्कश्चिद्विनिश्चयः ।\nद्यूतदोषांश्च जानन्स पुत्रस्नेहादकृष्यत ॥",
+          "meaning": {
+            "en": "Without asking Vidura he never made a decision; though he knew the faults of gambling, he was drawn by love for his son."
+          }
         },
         {
           "n": 50,
-          "text": "तच्छ्रुत्वा विदुरो धीमान्कलिद्वारमुपस्थितम् ।\nविनाशमुखमुत्पन्नं धृतराष्ट्रमुपाद्रवत् ॥"
+          "text": "तच्छ्रुत्वा विदुरो धीमान्कलिद्वारमुपस्थितम् ।\nविनाशमुखमुत्पन्नं धृतराष्ट्रमुपाद्रवत् ॥",
+          "meaning": {
+            "en": "Hearing that, wise Vidura, knowing the door of Kali had been opened and ruin had arisen, rushed to Dhritarashtra."
+          }
         },
         {
           "n": 51,
-          "text": "सोऽभिगम्य महात्मानं भ्राता भ्रातरमग्रजम् ।\nमूर्ध्ना प्रणम्य चरणाविदं वचनमब्रवीत् ॥"
+          "text": "सोऽभिगम्य महात्मानं भ्राता भ्रातरमग्रजम् ।\nमूर्ध्ना प्रणम्य चरणाविदं वचनमब्रवीत् ॥",
+          "meaning": {
+            "en": "Approaching his great-souled elder brother and bowing his head at his feet, the younger brother said these words:"
+          }
         },
         {
           "n": 52,
-          "text": "नाभिनन्दामि ते राजन्व्यवसायमिमं प्रभो ।\nपुत्रैर्भेदो यथा न स्याद्द्यूतहेतोस्तथा कुरु ॥"
+          "text": "नाभिनन्दामि ते राजन्व्यवसायमिमं प्रभो ।\nपुत्रैर्भेदो यथा न स्याद्द्यूतहेतोस्तथा कुरु ॥",
+          "meaning": {
+            "en": "Vidura said: King, lord, I do not approve this decision of yours; act so that no rift arises among your sons because of the dice."
+          }
         },
         {
-          "text": "धृतराष्ट्र उवाच"
+          "text": "धृतराष्ट्र उवाच",
+          "meaning": {
+            "en": "Dhritarashtra said:"
+          }
         },
         {
           "n": 53,
-          "text": "क्षत्तः पुत्रेषु पुत्रैर्मे कलहो न भविष्यति ।\nदिवि देवाः प्रसादं नः करिष्यन्ति न संशयः ॥"
+          "text": "क्षत्तः पुत्रेषु पुत्रैर्मे कलहो न भविष्यति ।\nदिवि देवाः प्रसादं नः करिष्यन्ति न संशयः ॥",
+          "meaning": {
+            "en": "Kshatta, there will be no quarrel between my sons and the sons of my brother; the gods in heaven will favour us, no doubt."
+          }
         },
         {
           "n": 54,
-          "text": "अशुभं वा शुभं वापि हितं वा यदि वाहितम् ।\nप्रवर्ततां सुहृद्द्यूतं दिष्टमेतन्न संशयः ॥"
+          "text": "अशुभं वा शुभं वापि हितं वा यदि वाहितम् ।\nप्रवर्ततां सुहृद्द्यूतं दिष्टमेतन्न संशयः ॥",
+          "meaning": {
+            "en": "Whether inauspicious or auspicious, helpful or harmful, let the game among friends go on; this is fated, no doubt."
+          }
         },
         {
           "n": 55,
-          "text": "मयि संनिहिते चैव भीष्मे च भरतर्षभे ।\nअनयो दैवविहितो न कथंचिद्भविष्यति ॥"
+          "text": "मयि संनिहिते चैव भीष्मे च भरतर्षभे ।\nअनयो दैवविहितो न कथंचिद्भविष्यति ॥",
+          "meaning": {
+            "en": "With me present, and Bhishma bull of the Bharatas, no misfortune ordained by fate will in any way occur."
+          }
         },
         {
           "n": 56,
-          "text": "गच्छ त्वं रथमास्थाय हयैर्वातसमैर्जवे ।\nखाण्डवप्रस्थमद्यैव समानय युधिष्ठिरम् ॥"
+          "text": "गच्छ त्वं रथमास्थाय हयैर्वातसमैर्जवे ।\nखाण्डवप्रस्थमद्यैव समानय युधिष्ठिरम् ॥",
+          "meaning": {
+            "en": "Mount a chariot with horses swift as the wind and go to Khandavaprastha today, and bring Yudhishthira here."
+          }
         },
         {
           "n": 57,
-          "text": "न वार्यो व्यवसायो मे विदुरैतद्ब्रवीमि ते ।\nदैवमेव परं मन्ये येनैतदुपपद्यते ॥"
+          "text": "न वार्यो व्यवसायो मे विदुरैतद्ब्रवीमि ते ।\nदैवमेव परं मन्ये येनैतदुपपद्यते ॥",
+          "meaning": {
+            "en": "I will not be dissuaded from my decision, Vidura; I tell you this. I consider fate supreme, by which this comes about."
+          }
         },
         {
           "n": 58,
-          "text": "इत्युक्तो विदुरो धीमान्नैतदस्तीति चिन्तयन् ।\nआपगेयं महाप्राज्ञमभ्यगच्छत्सुदुःखितः ॥"
+          "text": "इत्युक्तो विदुरो धीमान्नैतदस्तीति चिन्तयन् ।\nआपगेयं महाप्राज्ञमभ्यगच्छत्सुदुःखितः ॥",
+          "meaning": {
+            "en": "So addressed, wise Vidura, thinking This should not be, went in great distress to the greatly wise son of Ganga."
+          }
         }
       ]
     }

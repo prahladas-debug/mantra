@@ -22,171 +22,300 @@
       "titleEn": "Dyuta Parva (The dice game)",
       "verses": [
         {
-          "text": "द्रौपद्युवाच"
+          "text": "द्रौपद्युवाच",
+          "meaning": {
+            "en": "Draupadi said:"
+          }
         },
         {
           "n": 1,
-          "text": "पुरस्तात्करणीयं मे न कृतं कार्यमुत्तरम् ।\nविह्वलास्मि कृतानेन कर्षता बलिना बलात् ॥"
+          "text": "पुरस्तात्करणीयं मे न कृतं कार्यमुत्तरम् ।\nविह्वलास्मि कृतानेन कर्षता बलिना बलात् ॥",
+          "meaning": {
+            "en": "What I should have done first I did not do, and now I am bewildered, dragged by force by this strong man."
+          }
         },
         {
           "n": 2,
-          "text": "अभिवादं करोम्येषां गुरूणां कुरुसंसदि ।\nन मे स्यादपराधोऽयं यदिदं न कृतं मया ॥"
+          "text": "अभिवादं करोम्येषां गुरूणां कुरुसंसदि ।\nन मे स्यादपराधोऽयं यदिदं न कृतं मया ॥",
+          "meaning": {
+            "en": "I salute these elders in the Kuru assembly; let it be no fault of mine that I did not do so earlier."
+          }
         },
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 3,
-          "text": "सा तेन च समुद्धूता दुःखेन च तपस्विनी ।\nपतिता विललापेदं सभायामतथोचिता ॥"
+          "text": "सा तेन च समुद्धूता दुःखेन च तपस्विनी ।\nपतिता विललापेदं सभायामतथोचिता ॥",
+          "meaning": {
+            "en": "Shaken by him and by grief, that ascetic-like woman, unused to such treatment, fell and lamented in the hall."
+          }
         },
         {
-          "text": "द्रौपद्युवाच"
+          "text": "द्रौपद्युवाच",
+          "meaning": {
+            "en": "Draupadi said:"
+          }
         },
         {
           "n": 4,
-          "text": "स्वयंवरे यास्मि नृपैर्दृष्टा रङ्गे समागतैः ।\nन दृष्टपूर्वा चान्यत्र साहमद्य सभां गता ॥"
+          "text": "स्वयंवरे यास्मि नृपैर्दृष्टा रङ्गे समागतैः ।\nन दृष्टपूर्वा चान्यत्र साहमद्य सभां गता ॥",
+          "meaning": {
+            "en": "I was seen by kings who gathered in the arena at my svayamvara, and never before anywhere else; today I have come into an assembly."
+          }
         },
         {
           "n": 5,
-          "text": "यां न वायुर्न चादित्यो दृष्टवन्तौ पुरा गृहे ।\nसाहमद्य सभामध्ये दृश्यामि कुरुसंसदि ॥"
+          "text": "यां न वायुर्न चादित्यो दृष्टवन्तौ पुरा गृहे ।\nसाहमद्य सभामध्ये दृश्यामि कुरुसंसदि ॥",
+          "meaning": {
+            "en": "Whom neither wind nor sun saw before in the house, I am seen today in the midst of the hall, in the Kuru assembly."
+          }
         },
         {
           "n": 6,
-          "text": "यां न मृष्यन्ति वातेन स्पृश्यमानां पुरा गृहे ।\nस्पृश्यमानां सहन्तेऽद्य पाण्डवास्तां दुरात्मना ॥"
+          "text": "यां न मृष्यन्ति वातेन स्पृश्यमानां पुरा गृहे ।\nस्पृश्यमानां सहन्तेऽद्य पाण्डवास्तां दुरात्मना ॥",
+          "meaning": {
+            "en": "Whom the Pandavas could not bear to see touched even by the wind in the house, they now put up with being touched by a wicked man."
+          }
         },
         {
           "n": 7,
-          "text": "मृष्यन्ते कुरवश्चेमे मन्ये कालस्य पर्ययम् ।\nस्नुषां दुहितरं चैव क्लिश्यमानामनर्हतीम् ॥"
+          "text": "मृष्यन्ते कुरवश्चेमे मन्ये कालस्य पर्ययम् ।\nस्नुषां दुहितरं चैव क्लिश्यमानामनर्हतीम् ॥",
+          "meaning": {
+            "en": "These Kurus tolerate it that a daughter-in-law and daughter, undeserving, is tormented; I think it is a turn of time."
+          }
         },
         {
           "n": 8,
-          "text": "किं त्वतः कृपणं भूयो यदहं स्त्री सती शुभा ।\nसभामध्यं विगाहेऽद्य क्व नु धर्मो महीक्षिताम् ॥"
+          "text": "किं त्वतः कृपणं भूयो यदहं स्त्री सती शुभा ।\nसभामध्यं विगाहेऽद्य क्व नु धर्मो महीक्षिताम् ॥",
+          "meaning": {
+            "en": "What is more wretched than that I, a virtuous, fair woman, enter the midst of the hall today? Where is the dharma of kings?"
+          }
         },
         {
           "n": 9,
-          "text": "धर्म्याः स्त्रियः सभां पूर्वं न नयन्तीति नः श्रुतम् ।\nस नष्टः कौरवेयेषु पूर्वो धर्मः सनातनः ॥"
+          "text": "धर्म्याः स्त्रियः सभां पूर्वं न नयन्तीति नः श्रुतम् ।\nस नष्टः कौरवेयेषु पूर्वो धर्मः सनातनः ॥",
+          "meaning": {
+            "en": "We have heard that righteous women were not taken to the assembly in former times; that ancient, eternal dharma is lost among the Kauravas."
+          }
         },
         {
           "n": 10,
-          "text": "कथं हि भार्या पाण्डूनां पार्षतस्य स्वसा सती ।\nवासुदेवस्य च सखी पार्थिवानां सभामियाम् ॥"
+          "text": "कथं हि भार्या पाण्डूनां पार्षतस्य स्वसा सती ।\nवासुदेवस्य च सखी पार्थिवानां सभामियाम् ॥",
+          "meaning": {
+            "en": "How can I, wife of the Pandavas, sister of Dhrishtadyumna, friend of Vasudeva, come to this assembly of kings?"
+          }
         },
         {
           "n": 11,
-          "text": "तामिमां धर्मराजस्य भार्यां सदृशवर्णजाम् ।\nब्रूत दासीमदासीं वा तत्करिष्यामि कौरवाः ॥"
+          "text": "तामिमां धर्मराजस्य भार्यां सदृशवर्णजाम् ।\nब्रूत दासीमदासीं वा तत्करिष्यामि कौरवाः ॥",
+          "meaning": {
+            "en": "Say whether this wife of the king of dharma, born of equal caste, is a slave or not a slave, Kauravas, and I will do so."
+          }
         },
         {
           "n": 12,
-          "text": "अयं हि मां दृढं क्षुद्रः कौरवाणां यशोहरः ।\nक्लिश्नाति नाहं तत्सोढुं चिरं शक्ष्यामि कौरवाः ॥"
+          "text": "अयं हि मां दृढं क्षुद्रः कौरवाणां यशोहरः ।\nक्लिश्नाति नाहं तत्सोढुं चिरं शक्ष्यामि कौरवाः ॥",
+          "meaning": {
+            "en": "This base man, destroyer of the Kauravas' fame, torments me hard. I will not be able to bear this long, Kauravas."
+          }
         },
         {
           "n": 13,
-          "text": "जितां वाप्यजितां वापि मन्यध्वं वा यथा नृपाः ।\nतथा प्रत्युक्तमिच्छामि तत्करिष्यामि कौरवाः ॥"
+          "text": "जितां वाप्यजितां वापि मन्यध्वं वा यथा नृपाः ।\nतथा प्रत्युक्तमिच्छामि तत्करिष्यामि कौरवाः ॥",
+          "meaning": {
+            "en": "Whether you think me won or not won, kings, I want a reply in that way, and I will act accordingly, Kauravas."
+          }
         },
         {
-          "text": "भीष्म उवाच"
+          "text": "भीष्म उवाच",
+          "meaning": {
+            "en": "Bhishma said:"
+          }
         },
         {
           "n": 14,
-          "text": "उक्तवानस्मि कल्याणि धर्मस्य तु परां गतिम् ।\nलोके न शक्यते गन्तुमपि विप्रैर्महात्मभिः ॥"
+          "text": "उक्तवानस्मि कल्याणि धर्मस्य तु परां गतिम् ।\nलोके न शक्यते गन्तुमपि विप्रैर्महात्मभिः ॥",
+          "meaning": {
+            "en": "I have told you, fortunate lady, that the highest course of dharma cannot be fathomed in the world even by great brahmins."
+          }
         },
         {
           "n": 15,
-          "text": "बलवांस्तु यथा धर्मं लोके पश्यति पूरुषः ।\nस धर्मो धर्मवेलायां भवत्यभिहितः परैः ॥"
+          "text": "बलवांस्तु यथा धर्मं लोके पश्यति पूरुषः ।\nस धर्मो धर्मवेलायां भवत्यभिहितः परैः ॥",
+          "meaning": {
+            "en": "How a strong man sees dharma in the world, that becomes the dharma stated by others at the time of dharma."
+          }
         },
         {
           "n": 16,
-          "text": "न विवेक्तुं च ते प्रश्नमेतं शक्नोमि निश्चयात् ।\nसूक्ष्मत्वाद्गहनत्वाच्च कार्यस्यास्य च गौरवात् ॥"
+          "text": "न विवेक्तुं च ते प्रश्नमेतं शक्नोमि निश्चयात् ।\nसूक्ष्मत्वाद्गहनत्वाच्च कार्यस्यास्य च गौरवात् ॥",
+          "meaning": {
+            "en": "I cannot decide your question with certainty, because of its subtlety, its depth, and the weight of the matter."
+          }
         },
         {
           "n": 17,
-          "text": "नूनमन्तः कुलस्यास्य भविता नचिरादिव ।\nतथा हि कुरवः सर्वे लोभमोहपरायणाः ॥"
+          "text": "नूनमन्तः कुलस्यास्य भविता नचिरादिव ।\nतथा हि कुरवः सर्वे लोभमोहपरायणाः ॥",
+          "meaning": {
+            "en": "Surely the end of this family will come before long, since all the Kurus are given to greed and delusion."
+          }
         },
         {
           "n": 18,
-          "text": "कुलेषु जाताः कल्याणि व्यसनाभ्याहता भृशम् ।\nधर्म्यान्मार्गान्न च्यवन्ते यथा नस्त्वं वधूः स्थिता ॥"
+          "text": "कुलेषु जाताः कल्याणि व्यसनाभ्याहता भृशम् ।\nधर्म्यान्मार्गान्न च्यवन्ते यथा नस्त्वं वधूः स्थिता ॥",
+          "meaning": {
+            "en": "Though born in families, fortunate lady, and sorely struck by calamity, they do not fall from righteous paths, as you, our daughter-in-law, now stand."
+          }
         },
         {
           "n": 19,
-          "text": "उपपन्नं च पाञ्चालि तवेदं वृत्तमीदृशम् ।\nयत्कृच्छ्रमपि संप्राप्ता धर्ममेवान्ववेक्षसे ॥"
+          "text": "उपपन्नं च पाञ्चालि तवेदं वृत्तमीदृशम् ।\nयत्कृच्छ्रमपि संप्राप्ता धर्ममेवान्ववेक्षसे ॥",
+          "meaning": {
+            "en": "Such conduct, Panchali, is fitting for you, who even in distress look only to dharma."
+          }
         },
         {
           "n": 20,
-          "text": "एते द्रोणादयश्चैव वृद्धा धर्मविदो जनाः ।\nशून्यैः शरीरैस्तिष्ठन्ति गतासव इवानताः ॥"
+          "text": "एते द्रोणादयश्चैव वृद्धा धर्मविदो जनाः ।\nशून्यैः शरीरैस्तिष्ठन्ति गतासव इवानताः ॥",
+          "meaning": {
+            "en": "These elders led by Drona, who know dharma, stand with hollow bodies, bowed, as if lifeless."
+          }
         },
         {
           "n": 21,
-          "text": "युधिष्ठिरस्तु प्रश्नेऽस्मिन्प्रमाणमिति मे मतिः ।\nअजितां वा जितां वापि स्वयं व्याहर्तुमर्हति ॥"
+          "text": "युधिष्ठिरस्तु प्रश्नेऽस्मिन्प्रमाणमिति मे मतिः ।\nअजितां वा जितां वापि स्वयं व्याहर्तुमर्हति ॥",
+          "meaning": {
+            "en": "I think Yudhishthira is the authority on this question; he should himself say whether you are won or not."
+          }
         },
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 22,
-          "text": "तथा तु दृष्ट्वा बहु तत्तदेवं\nरोरूयमाणां कुररीमिवार्ताम् ।\nनोचुर्वचः साध्वथ वाप्यसाधु\nमहीक्षितो धार्तराष्ट्रस्य भीताः ॥"
+          "text": "तथा तु दृष्ट्वा बहु तत्तदेवं\nरोरूयमाणां कुररीमिवार्ताम् ।\nनोचुर्वचः साध्वथ वाप्यसाधु\nमहीक्षितो धार्तराष्ट्रस्य भीताः ॥",
+          "meaning": {
+            "en": "Seeing her thus, so many times, crying like a distressed osprey, the kings, afraid of Dhritarashtra's son, said nothing, good or bad."
+          }
         },
         {
           "n": 23,
-          "text": "दृष्ट्वा तु तान्पार्थिवपुत्रपौत्रां-\nस्तूष्णींभूतान्धृतराष्ट्रस्य पुत्रः ।\nस्मयन्निवेदं वचनं बभाषे\nपाञ्चालराजस्य सुतां तदानीम् ॥"
+          "text": "दृष्ट्वा तु तान्पार्थिवपुत्रपौत्रां-\nस्तूष्णींभूतान्धृतराष्ट्रस्य पुत्रः ।\nस्मयन्निवेदं वचनं बभाषे\nपाञ्चालराजस्य सुतां तदानीम् ॥",
+          "meaning": {
+            "en": "Seeing those sons and grandsons of kings silent, Dhritarashtra's son, smiling as it were, spoke to the daughter of the Panchala king."
+          }
         },
         {
           "n": 24,
-          "text": "तिष्ठत्वयं प्रश्न उदारसत्त्वे\nभीमेऽर्जुने सहदेवे तथैव ।\nपत्यौ च ते नकुले याज्ञसेनि\nवदन्त्वेते वचनं त्वत्प्रसूतम् ॥"
+          "text": "तिष्ठत्वयं प्रश्न उदारसत्त्वे\nभीमेऽर्जुने सहदेवे तथैव ।\nपत्यौ च ते नकुले याज्ञसेनि\nवदन्त्वेते वचनं त्वत्प्रसूतम् ॥",
+          "meaning": {
+            "en": "Let this question rest, noble lady, on Bhima, Arjuna, Sahadeva and Nakula, and your husband; let them speak a word that comes from you."
+          }
         },
         {
           "n": 25,
-          "text": "अनीश्वरं विब्रुवन्त्वार्यमध्ये\nयुधिष्ठिरं तव पाञ्चालि हेतोः ।\nकुर्वन्तु सर्वे चानृतं धर्मराजं\nपाञ्चालि त्वं मोक्ष्यसे दासभावात् ॥"
+          "text": "अनीश्वरं विब्रुवन्त्वार्यमध्ये\nयुधिष्ठिरं तव पाञ्चालि हेतोः ।\nकुर्वन्तु सर्वे चानृतं धर्मराजं\nपाञ्चालि त्वं मोक्ष्यसे दासभावात् ॥",
+          "meaning": {
+            "en": "Let them say in the midst of the nobles that Yudhishthira is not master, because of you, Panchali; let all of them call the king of dharma a liar, and you will be freed from slavery."
+          }
         },
         {
           "n": 26,
-          "text": "धर्मे स्थितो धर्मराजो महात्मा\nस्वयं चेदं कथयत्विन्द्रकल्पः ।\nईशो वा ते यद्यनीशोऽथ वैष\nवाक्यादस्य क्षिप्रमेकं भजस्व ॥"
+          "text": "धर्मे स्थितो धर्मराजो महात्मा\nस्वयं चेदं कथयत्विन्द्रकल्पः ।\nईशो वा ते यद्यनीशोऽथ वैष\nवाक्यादस्य क्षिप्रमेकं भजस्व ॥",
+          "meaning": {
+            "en": "Let the great-souled king of dharma, who stands in dharma and is like Indra, say it himself: whether he was your master or not; by his word, take one of them quickly."
+          }
         },
         {
           "n": 27,
-          "text": "सर्वे हीमे कौरवेयाः सभायां\nदुःखान्तरे वर्तमानास्तवैव ।\nन विब्रुवन्त्यार्यसत्त्वा यथाव-\nत्पतींश्च ते समवेक्ष्याल्पभाग्यान् ॥"
+          "text": "सर्वे हीमे कौरवेयाः सभायां\nदुःखान्तरे वर्तमानास्तवैव ।\nन विब्रुवन्त्यार्यसत्त्वा यथाव-\nत्पतींश्च ते समवेक्ष्याल्पभाग्यान् ॥",
+          "meaning": {
+            "en": "For all these Kauravas in the assembly, in the midst of their distress, are suffering for you; noble in nature, they do not speak properly, looking at your unfortunate husbands."
+          }
         },
         {
           "n": 28,
-          "text": "ततः सभ्याः कुरुराजस्य तत्र\nवाक्यं सर्वे प्रशशंसुस्तदोच्चैः ।\nचेलावेधांश्चापि चक्रुर्नदन्तो\nहा हेत्यासीदपि चैवात्र नादः ।\nसर्वे चासन्पार्थिवाः प्रीतिमन्तः\nकुरुश्रेष्ठं धार्मिकं पूजयन्तः ॥"
+          "text": "ततः सभ्याः कुरुराजस्य तत्र\nवाक्यं सर्वे प्रशशंसुस्तदोच्चैः ।\nचेलावेधांश्चापि चक्रुर्नदन्तो\nहा हेत्यासीदपि चैवात्र नादः ।\nसर्वे चासन्पार्थिवाः प्रीतिमन्तः\nकुरुश्रेष्ठं धार्मिकं पूजयन्तः ॥",
+          "meaning": {
+            "en": "Then the assembly all praised the Kuru king's words loudly; they waved their garments, shouting and crying Ha! Ha!, and all the kings were pleased, honoring that righteous best of the Kurus."
+          }
         },
         {
           "n": 29,
-          "text": "युधिष्ठिरं च ते सर्वे समुदैक्षन्त पार्थिवाः ।\nकिं नु वक्ष्यति धर्मज्ञ इति साचीकृताननाः ॥"
+          "text": "युधिष्ठिरं च ते सर्वे समुदैक्षन्त पार्थिवाः ।\nकिं नु वक्ष्यति धर्मज्ञ इति साचीकृताननाः ॥",
+          "meaning": {
+            "en": "All the kings looked at Yudhishthira, their faces turned aside, wondering, What will the knower of dharma say?"
+          }
         },
         {
           "n": 30,
-          "text": "किं नु वक्ष्यति बीभत्सुरजितो युधि पाण्डवः ।\nभीमसेनो यमौ चेति भृशं कौतूहलान्विताः ॥"
+          "text": "किं नु वक्ष्यति बीभत्सुरजितो युधि पाण्डवः ।\nभीमसेनो यमौ चेति भृशं कौतूहलान्विताः ॥",
+          "meaning": {
+            "en": "They were very curious what Bibhatsu, Bhimasena and the twins, unconquered in battle, would say."
+          }
         },
         {
           "n": 31,
-          "text": "तस्मिन्नुपरते शब्दे भीमसेनोऽब्रवीदिदम् ।\nप्रगृह्य विपुलं वृत्तं भुजं चन्दनरूषितम् ॥"
+          "text": "तस्मिन्नुपरते शब्दे भीमसेनोऽब्रवीदिदम् ।\nप्रगृह्य विपुलं वृत्तं भुजं चन्दनरूषितम् ॥",
+          "meaning": {
+            "en": "When that noise stopped, Bhimasena, raising his big, round, sandal-smeared arm, said this."
+          }
         },
         {
           "n": 32,
-          "text": "यद्येष गुरुरस्माकं धर्मराजो युधिष्ठिरः ।\nन प्रभुः स्यात्कुलस्यास्य न वयं मर्षयेमहि ॥"
+          "text": "यद्येष गुरुरस्माकं धर्मराजो युधिष्ठिरः ।\nन प्रभुः स्यात्कुलस्यास्य न वयं मर्षयेमहि ॥",
+          "meaning": {
+            "en": "If this Yudhishthira, king of dharma, our elder, were not lord of this family, we would not tolerate this."
+          }
         },
         {
           "n": 33,
-          "text": "ईशो नः पुण्यतपसां प्राणानामपि चेश्वरः ।\nमन्यते जितमात्मानं यद्येष विजिता वयम् ॥"
+          "text": "ईशो नः पुण्यतपसां प्राणानामपि चेश्वरः ।\nमन्यते जितमात्मानं यद्येष विजिता वयम् ॥",
+          "meaning": {
+            "en": "He is master of our merits and austerities and even of our lives. If he thinks himself won, then we are won."
+          }
         },
         {
           "n": 34,
-          "text": "न हि मुच्येत जीवन्मे पदा भूमिमुपस्पृशन् ।\nमर्त्यधर्मा परामृश्य पाञ्चाल्या मूर्धजानिमान् ॥"
+          "text": "न हि मुच्येत जीवन्मे पदा भूमिमुपस्पृशन् ।\nमर्त्यधर्मा परामृश्य पाञ्चाल्या मूर्धजानिमान् ॥",
+          "meaning": {
+            "en": "No mortal who touched these hairs of Panchali could escape from me alive, touching earth with his feet."
+          }
         },
         {
           "n": 35,
-          "text": "पश्यध्वमायतौ वृत्तौ भुजौ मे परिघाविव ।\nनैतयोरन्तरं प्राप्य मुच्येतापि शतक्रतुः ॥"
+          "text": "पश्यध्वमायतौ वृत्तौ भुजौ मे परिघाविव ।\nनैतयोरन्तरं प्राप्य मुच्येतापि शतक्रतुः ॥",
+          "meaning": {
+            "en": "Look at my two long, rounded arms like iron bars; once caught between them even Indra could not escape."
+          }
         },
         {
           "n": 36,
-          "text": "धर्मपाशसितस्त्वेवं नाधिगच्छामि संकटम् ।\nगौरवेण निरुद्धश्च निग्रहादर्जुनस्य च ॥"
+          "text": "धर्मपाशसितस्त्वेवं नाधिगच्छामि संकटम् ।\nगौरवेण निरुद्धश्च निग्रहादर्जुनस्य च ॥",
+          "meaning": {
+            "en": "Bound by the noose of dharma, I do not seek a way out of this trouble, held back by respect and by Arjuna's restraint."
+          }
         },
         {
           "n": 37,
-          "text": "धर्मराजनिसृष्टस्तु सिंहः क्षुद्रमृगानिव ।\nधार्तराष्ट्रानिमान्पापान्निष्पिषेयं तलासिभिः ॥"
+          "text": "धर्मराजनिसृष्टस्तु सिंहः क्षुद्रमृगानिव ।\nधार्तराष्ट्रानिमान्पापान्निष्पिषेयं तलासिभिः ॥",
+          "meaning": {
+            "en": "But if released by the king of dharma, I would crush these sinful Dhartarashtras with the palm of my hand, like a lion crushing little deer."
+          }
         },
         {
           "n": 38,
-          "text": "तमुवाच तदा भीष्मो द्रोणो विदुर एव च ।\nक्षम्यतामेवमित्येवं सर्वं संभवति त्वयि ॥"
+          "text": "तमुवाच तदा भीष्मो द्रोणो विदुर एव च ।\nक्षम्यतामेवमित्येवं सर्वं संभवति त्वयि ॥",
+          "meaning": {
+            "en": "Then Bhishma, Drona and Vidura said to him: Be patient; everything is possible in you."
+          }
         }
       ]
     }

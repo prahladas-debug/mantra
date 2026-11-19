@@ -22,58 +22,100 @@
       "titleEn": "Dyuta Parva (The dice game)",
       "verses": [
         {
-          "text": "दुर्योधन उवाच"
+          "text": "दुर्योधन उवाच",
+          "meaning": {
+            "en": "Duryodhana said:"
+          }
         },
         {
           "n": 1,
-          "text": "एहि क्षत्तर्द्रौपदीमानयस्व\nप्रियां भार्यां संमतां पाण्डवानाम् ।\nसंमार्जतां वेश्म परैतु शीघ्र-\nमानन्दो नः सह दासीभिरस्तु ॥"
+          "text": "एहि क्षत्तर्द्रौपदीमानयस्व\nप्रियां भार्यां संमतां पाण्डवानाम् ।\nसंमार्जतां वेश्म परैतु शीघ्र-\nमानन्दो नः सह दासीभिरस्तु ॥",
+          "meaning": {
+            "en": "Come, Kshatta, bring Draupadi, the dear and honored wife of the Pandavas. Let her sweep the house; let her go quickly, and let us have our delight with the maidservants."
+          }
         },
         {
-          "text": "विदुर उवाच"
+          "text": "विदुर उवाच",
+          "meaning": {
+            "en": "Vidura said:"
+          }
         },
         {
           "n": 2,
-          "text": "दुर्विभाव्यं भवति त्वादृशेन\nन मन्द संबुध्यसि पाशबद्धः ।\nप्रपाते त्वं लम्बमानो न वेत्सि\nव्याघ्रान्मृगः कोपयसेऽतिबाल्यात् ॥"
+          "text": "दुर्विभाव्यं भवति त्वादृशेन\nन मन्द संबुध्यसि पाशबद्धः ।\nप्रपाते त्वं लम्बमानो न वेत्सि\nव्याघ्रान्मृगः कोपयसेऽतिबाल्यात् ॥",
+          "meaning": {
+            "en": "A man like you is hard to read, fool; bound by nooses, you do not realize it. You hang over a cliff and do not know it; like a deer in your great childishness you provoke tigers."
+          }
         },
         {
           "n": 3,
-          "text": "आशीविषाः शिरसि ते पूर्णकोशा महाविषाः ।\nमा कोपिष्ठाः सुमन्दात्मन्मा गमस्त्वं यमक्षयम् ॥"
+          "text": "आशीविषाः शिरसि ते पूर्णकोशा महाविषाः ।\nमा कोपिष्ठाः सुमन्दात्मन्मा गमस्त्वं यमक्षयम् ॥",
+          "meaning": {
+            "en": "Poisonous snakes with full venom sacs are on your head. Do not anger them, you dull-witted one; do not go to Yama's abode."
+          }
         },
         {
           "n": 4,
-          "text": "न हि दासीत्वमापन्ना कृष्णा भवति भारत ।\nअनीशेन हि राज्ञैषा पणे न्यस्तेति मे मतिः ॥"
+          "text": "न हि दासीत्वमापन्ना कृष्णा भवति भारत ।\nअनीशेन हि राज्ञैषा पणे न्यस्तेति मे मतिः ॥",
+          "meaning": {
+            "en": "Krishna has not become a slave, Bharata. My view is that a king who was not master of himself staked her in the wager."
+          }
         },
         {
           "n": 5,
-          "text": "अयं धत्ते वेणुरिवात्मघाती\nफलं राजा धृतराष्ट्रस्य पुत्रः ।\nद्यूतं हि वैराय महाभयाय\nपक्वो न बुध्यत्ययमन्तकाले ॥"
+          "text": "अयं धत्ते वेणुरिवात्मघाती\nफलं राजा धृतराष्ट्रस्य पुत्रः ।\nद्यूतं हि वैराय महाभयाय\nपक्वो न बुध्यत्ययमन्तकाले ॥",
+          "meaning": {
+            "en": "Like a bamboo that bears fruit and dies, this son of King Dhritarashtra bears a fruit that kills himself. Gambling leads to enmity and great fear, and he, ripe for death, does not understand it."
+          }
         },
         {
           "n": 6,
-          "text": "नारुंतुदः स्यान्न नृशंसवादी\nन हीनतः परमभ्याददीत ।\nययास्य वाचा पर उद्विजेत\nन तां वदेद्रुशतीं पापलोक्याम् ॥"
+          "text": "नारुंतुदः स्यान्न नृशंसवादी\nन हीनतः परमभ्याददीत ।\nययास्य वाचा पर उद्विजेत\nन तां वदेद्रुशतीं पापलोक्याम् ॥",
+          "meaning": {
+            "en": "One should not wound others' vitals, nor speak cruelly, nor take from another by low means. One should not speak the biting speech, fit for sinners' worlds, by which another is pained."
+          }
         },
         {
           "n": 7,
-          "text": "समुच्चरन्त्यतिवादा हि वक्त्रा-\nद्यैराहतः शोचति रात्र्यहानि ।\nपरस्य नामर्मसु ते पतन्ति\nतान्पण्डितो नावसृजेत्परेषु ॥"
+          "text": "समुच्चरन्त्यतिवादा हि वक्त्रा-\nद्यैराहतः शोचति रात्र्यहानि ।\nपरस्य नामर्मसु ते पतन्ति\nतान्पण्डितो नावसृजेत्परेषु ॥",
+          "meaning": {
+            "en": "Harsh words come out of the mouth, and the one struck by them grieves night and day. They fall on the vitals of others; the wise do not hurl them at others."
+          }
         },
         {
           "n": 8,
-          "text": "अजो हि शस्त्रमखनत्किलैकः\nशस्त्रे विपन्ने पद्भिरपास्य भूमिम् ।\nनिकृन्तनं स्वस्य कण्ठस्य घोरं\nतद्वद्वैरं मा खनीः पाण्डुपुत्रैः ॥"
+          "text": "अजो हि शस्त्रमखनत्किलैकः\nशस्त्रे विपन्ने पद्भिरपास्य भूमिम् ।\nनिकृन्तनं स्वस्य कण्ठस्य घोरं\nतद्वद्वैरं मा खनीः पाण्डुपुत्रैः ॥",
+          "meaning": {
+            "en": "An old tale tells how a goat alone dug up a knife; when the knife was struck, it threw off the earth with its feet. So did that goat cut its own throat; likewise do not dig up enmity with the sons of Pandu."
+          }
         },
         {
           "n": 9,
-          "text": "न किंचिदीड्यं प्रवदन्ति पापं\nवनेचरं वा गृहमेधिनं वा ।\nतपस्विनं संपरिपूर्णविद्यं\nभषन्ति हैवं श्वनराः सदैव ॥"
+          "text": "न किंचिदीड्यं प्रवदन्ति पापं\nवनेचरं वा गृहमेधिनं वा ।\nतपस्विनं संपरिपूर्णविद्यं\nभषन्ति हैवं श्वनराः सदैव ॥",
+          "meaning": {
+            "en": "They say no sin is praiseworthy, whether in a forest dweller, a householder, or an ascetic perfect in knowledge, yet some low men always bark so at them."
+          }
         },
         {
           "n": 10,
-          "text": "द्वारं सुघोरं नरकस्य जिह्मं\nन बुध्यसे धृतराष्ट्रस्य पुत्र ।\nत्वामन्वेतारो बहवः कुरूणां\nद्यूतोदये सह दुःशासनेन ॥"
+          "text": "द्वारं सुघोरं नरकस्य जिह्मं\nन बुध्यसे धृतराष्ट्रस्य पुत्र ।\nत्वामन्वेतारो बहवः कुरूणां\nद्यूतोदये सह दुःशासनेन ॥",
+          "meaning": {
+            "en": "Son of Dhritarashtra, you do not see the crooked, terrible door to hell. Many of the Kurus will follow you, with Duhshasana, in the rise of gambling."
+          }
         },
         {
           "n": 11,
-          "text": "मज्जन्त्यलाबूनि शिलाः प्लवन्ते\nमुह्यन्ति नावोऽम्भसि शश्वदेव ।\nमूढो राजा धृतराष्ट्रस्य पुत्रो\nन मे वाचः पथ्यरूपाः शृणोति ॥"
+          "text": "मज्जन्त्यलाबूनि शिलाः प्लवन्ते\nमुह्यन्ति नावोऽम्भसि शश्वदेव ।\nमूढो राजा धृतराष्ट्रस्य पुत्रो\nन मे वाचः पथ्यरूपाः शृणोति ॥",
+          "meaning": {
+            "en": "Gourds sink and stones float; boats flounder in water forever. The deluded king, Dhritarashtra's son, does not hear my wholesome words."
+          }
         },
         {
           "n": 12,
-          "text": "अन्तो नूनं भवितायं कुरूणां\nसुदारुणः सर्वहरो विनाशः ।\nवाचः काव्याः सुहृदां पथ्यरूपा\nन श्रूयन्ते वर्धते लोभ एव ॥"
+          "text": "अन्तो नूनं भवितायं कुरूणां\nसुदारुणः सर्वहरो विनाशः ।\nवाचः काव्याः सुहृदां पथ्यरूपा\nन श्रूयन्ते वर्धते लोभ एव ॥",
+          "meaning": {
+            "en": "Surely this will be the end of the Kurus, a terrible destruction that takes everything. The wise words of friends, wholesome though they are, are not heard; only greed grows."
+          }
         }
       ]
     }

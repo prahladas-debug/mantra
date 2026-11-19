@@ -22,79 +22,155 @@
       "titleEn": "Svayamvara Parva (Draupadi's bridegroom choice)",
       "verses": [
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:",
+            "hi": "वैशंपायन बोले—"
+          }
         },
         {
           "n": 1,
-          "text": "तेऽलंकृताः कुण्डलिनो युवानः\nपरस्परं स्पर्धमानाः समेताः ।\nअस्त्रं बलं चात्मनि मन्यमानाः\nसर्वे समुत्पेतुरहंकृतेन ॥"
+          "text": "तेऽलंकृताः कुण्डलिनो युवानः\nपरस्परं स्पर्धमानाः समेताः ।\nअस्त्रं बलं चात्मनि मन्यमानाः\nसर्वे समुत्पेतुरहंकृतेन ॥",
+          "meaning": {
+            "en": "Those young princes, adorned and wearing earrings, gathered together vying with one another; each, thinking himself skilled in weapons and strength, leapt up in his pride.",
+            "hi": "वे आभूषणों से सजे, कुंडल पहने युवक आपस में स्पर्धा करते हुए एकत्र हुए। अस्त्र और बल को अपने में मानते हुए, वे सब अहंकार से उछल पड़े।"
+          }
         },
         {
           "n": 2,
-          "text": "रूपेण वीर्येण कुलेन चैव\nधर्मेण चैवापि च यौवनेन ।\nसमृद्धदर्पा मदवेगभिन्ना\nमत्ता यथा हैमवता गजेन्द्राः ॥"
+          "text": "रूपेण वीर्येण कुलेन चैव\nधर्मेण चैवापि च यौवनेन ।\nसमृद्धदर्पा मदवेगभिन्ना\nमत्ता यथा हैमवता गजेन्द्राः ॥",
+          "meaning": {
+            "en": "Swollen with pride in beauty, valour, lineage, righteousness and youth, and broken open by the surge of rut, they were like intoxicated lords of elephants of the Himalayas.",
+            "hi": "रूप, पराक्रम, कुल, धर्म और यौवन के अभिमान से भरे, मद के वेग से विदीर्ण वे हिमालय के मतवाले गजेंद्रों के समान थे।"
+          }
         },
         {
           "n": 3,
-          "text": "परस्परं स्पर्धया प्रेक्षमाणाः\nसंकल्पजेनापि परिप्लुताङ्गाः ।\nकृष्णा ममैषेत्यभिभाषमाणा\nनृपासनेभ्यः सहसोपतस्थुः ॥"
+          "text": "परस्परं स्पर्धया प्रेक्षमाणाः\nसंकल्पजेनापि परिप्लुताङ्गाः ।\nकृष्णा ममैषेत्यभिभाषमाणा\nनृपासनेभ्यः सहसोपतस्थुः ॥",
+          "meaning": {
+            "en": "Eyeing each other with rivalry, their bodies steeped in desire born of fancy, saying 'Krishna is mine,' they suddenly sprang up from their royal seats.",
+            "hi": "एक-दूसरे को स्पर्धा से देखते हुए, कामना से भरे अंगों वाले, “कृष्णा मेरी है” कहते हुए, वे सहसा राजसिंहासनों से उठ खड़े हुए।"
+          }
         },
         {
           "n": 4,
-          "text": "ते क्षत्रिया रङ्गगताः समेता\nजिगीषमाणा द्रुपदात्मजां ताम् ।\nचकाशिरे पर्वतराजकन्या-\nमुमां यथा देवगणाः समेताः ॥"
+          "text": "ते क्षत्रिया रङ्गगताः समेता\nजिगीषमाणा द्रुपदात्मजां ताम् ।\nचकाशिरे पर्वतराजकन्या-\nमुमां यथा देवगणाः समेताः ॥",
+          "meaning": {
+            "en": "Those Kshatriyas who had gathered in the arena, eager to win Drupada's daughter, shone like the gods assembled around Uma, daughter of the king of mountains.",
+            "hi": "रंगभूमि में एकत्र वे क्षत्रिय, द्रुपद की पुत्री को जीतने की इच्छा से ऐसे चमक उठे, जैसे पर्वतराज की कन्या उमा के चारों ओर देवगण एकत्र हों।"
+          }
         },
         {
           "n": 5,
-          "text": "कन्दर्पबाणाभिनिपीडिताङ्गाः\nकृष्णागतैस्ते हृदयैर्नरेन्द्राः ।\nरङ्गावतीर्णा द्रुपदात्मजार्थं\nद्वेष्यान्हि चक्रुः सुहृदोऽपि तत्र ॥"
+          "text": "कन्दर्पबाणाभिनिपीडिताङ्गाः\nकृष्णागतैस्ते हृदयैर्नरेन्द्राः ।\nरङ्गावतीर्णा द्रुपदात्मजार्थं\nद्वेष्यान्हि चक्रुः सुहृदोऽपि तत्र ॥",
+          "meaning": {
+            "en": "Their bodies pierced by the arrows of Kama and their hearts set on Krishna, the kings who came down into the arena for Drupada's daughter made even friends into enemies there.",
+            "hi": "काम के बाणों से विद्ध शरीर वाले, और कृष्णा में लगे हृदय वाले वे राजा द्रुपद की पुत्री के लिए रंगभूमि में उतरे, और वहाँ मित्रों को भी शत्रु बना बैठे।"
+          }
         },
         {
           "n": 6,
-          "text": "अथाययुर्देवगणा विमानै\nरुद्रादित्या वसवोऽथाश्विनौ च ।\nसाध्याश्च सर्वे मरुतस्तथैव\nयमं पुरस्कृत्य धनेश्वरं च ॥"
+          "text": "अथाययुर्देवगणा विमानै\nरुद्रादित्या वसवोऽथाश्विनौ च ।\nसाध्याश्च सर्वे मरुतस्तथैव\nयमं पुरस्कृत्य धनेश्वरं च ॥",
+          "meaning": {
+            "en": "Then the hosts of gods came in their celestial cars: Rudras, Adityas, Vasus, the two Ashvins, all the Sadhyas and the Maruts, with Yama in front and the lord of wealth.",
+            "hi": "फिर विमानों में देवगण आए: रुद्र, आदित्य, वसु और दोनों अश्विनीकुमार, सभी साध्य और मरुद्गण, यम और कुबेर को आगे करके।"
+          }
         },
         {
           "n": 7,
-          "text": "दैत्याः सुपर्णाश्च महोरगाश्च\nदेवर्षयो गुह्यकाश्चारणाश्च ।\nविश्वावसुर्नारदपर्वतौ च\nगन्धर्वमुख्याश्च सहाप्सरोभिः ॥"
+          "text": "दैत्याः सुपर्णाश्च महोरगाश्च\nदेवर्षयो गुह्यकाश्चारणाश्च ।\nविश्वावसुर्नारदपर्वतौ च\nगन्धर्वमुख्याश्च सहाप्सरोभिः ॥",
+          "meaning": {
+            "en": "Daityas, Suparnas, great serpents, divine sages, Guhyakas and Charanas came, with Vishvavasu, Narada and Parvata and the chief Gandharvas together with Apsaras.",
+            "hi": "दैत्य, सुपर्ण, महानाग, देवर्षि, गुह्यक और चारण आए; विश्वावसु, नारद, पर्वत और मुख्य गंधर्व अप्सराओं सहित आए।"
+          }
         },
         {
           "n": 8,
-          "text": "हलायुधस्तत्र च केशवश्च\nवृष्ण्यन्धकाश्चैव यथा प्रधानाः ।\nप्रेक्षां स्म चक्रुर्यदुपुंगवास्ते\nस्थिताश्च कृष्णस्य मते बभूवुः ॥"
+          "text": "हलायुधस्तत्र च केशवश्च\nवृष्ण्यन्धकाश्चैव यथा प्रधानाः ।\nप्रेक्षां स्म चक्रुर्यदुपुंगवास्ते\nस्थिताश्च कृष्णस्य मते बभूवुः ॥",
+          "meaning": {
+            "en": "Balarama with the plough for weapon and Keshava were there, with the Vrishnis and Andhakas, led by their chiefs; those bulls of the Yadus watched, and stayed by Krishna's counsel.",
+            "hi": "वहाँ हलधर बलराम और केशव भी थे, वृष्णि और अंधक प्रमुखों के साथ। यदुवंश के वे श्रेष्ठ वीर देखते रहे और कृष्ण की सम्मति से वहीं ठहरे रहे।"
+          }
         },
         {
           "n": 9,
-          "text": "दृष्ट्वा हि तान्मत्तगजेन्द्ररूपा-\nन्पञ्चाभिपद्मानिव वारणेन्द्रान् ।\nभस्मावृताङ्गानिव हव्यवाहा-\nन्पार्थान्प्रदध्यौ स यदुप्रवीरः ॥"
+          "text": "दृष्ट्वा हि तान्मत्तगजेन्द्ररूपा-\nन्पञ्चाभिपद्मानिव वारणेन्द्रान् ।\nभस्मावृताङ्गानिव हव्यवाहा-\nन्पार्थान्प्रदध्यौ स यदुप्रवीरः ॥",
+          "meaning": {
+            "en": "Seeing the five Pandavas, like rutting elephants, like five elephant lords among lotuses, like fires covered with ashes, the great Yadu hero Krishna took note of them.",
+            "hi": "मतवाले गजराजों जैसे रूप वाले, कमलों के बीच पाँच श्रेष्ठ गजों के समान, और राख से ढकी अग्नियों जैसे उन पाँचों पांडवों को देखकर, यदुवीर कृष्ण ने उन पर ध्यान दिया।"
+          }
         },
         {
           "n": 10,
-          "text": "शशंस रामाय युधिष्ठिरं च\nभीमं च जिष्णुं च यमौ च वीरौ ।\nशनैः शनैस्तांश्च निरीक्ष्य रामो\nजनार्दनं प्रीतमना ददर्श ॥"
+          "text": "शशंस रामाय युधिष्ठिरं च\nभीमं च जिष्णुं च यमौ च वीरौ ।\nशनैः शनैस्तांश्च निरीक्ष्य रामो\nजनार्दनं प्रीतमना ददर्श ॥",
+          "meaning": {
+            "en": "He pointed out to Balarama Yudhishthira, Bhima, Arjuna and the two heroic twins. Looking at them slowly, Balarama glanced at Janardana with a pleased mind.",
+            "hi": "उन्होंने बलराम को युधिष्ठिर, भीम, जिष्णु (अर्जुन) और वीर जुड़वाँ भाइयों को दिखाया। धीरे-धीरे उन्हें देखकर बलराम ने प्रसन्न मन से जनार्दन की ओर देखा।"
+          }
         },
         {
           "n": 11,
-          "text": "अन्ये तु नानानृपपुत्रपौत्राः\nकृष्णागतैर्नेत्रमनःस्वभावैः ।\nव्यायच्छमाना ददृशुर्भ्रमन्तीं\nसंदष्टदन्तच्छदताम्रवक्त्राः ॥"
+          "text": "अन्ये तु नानानृपपुत्रपौत्राः\nकृष्णागतैर्नेत्रमनःस्वभावैः ।\nव्यायच्छमाना ददृशुर्भ्रमन्तीं\nसंदष्टदन्तच्छदताम्रवक्त्राः ॥",
+          "meaning": {
+            "en": "Other sons and grandsons of various kings, their eyes, minds and feelings fixed on Krishna, strained at the bow and saw her moving about, their mouths reddened as they bit their lips.",
+            "hi": "अन्य अनेक राजाओं के पुत्र और पौत्र, जिनके नेत्र, मन और भाव कृष्णा में लगे थे, धनुष पर बल लगाते हुए उसे घूमती हुई देखते रहे, और होंठ दाँतों से दबाने से उनके मुख लाल हो गए।"
+          }
         },
         {
           "n": 12,
-          "text": "तथैव पार्थाः पृथुबाहवस्ते\nवीरौ यमौ चैव महानुभावौ ।\nतां द्रौपदीं प्रेक्ष्य तदा स्म सर्वे\nकन्दर्पबाणाभिहता बभूवुः ॥"
+          "text": "तथैव पार्थाः पृथुबाहवस्ते\nवीरौ यमौ चैव महानुभावौ ।\nतां द्रौपदीं प्रेक्ष्य तदा स्म सर्वे\nकन्दर्पबाणाभिहता बभूवुः ॥",
+          "meaning": {
+            "en": "Likewise the broad-armed sons of Pritha and the two mighty twin heroes, seeing Draupadi, were all struck by the arrows of Kama.",
+            "hi": "उसी प्रकार विशाल भुजाओं वाले पृथापुत्र और महाप्रभावशाली जुड़वाँ वीर भी द्रौपदी को देखकर कामदेव के बाणों से आहत हो गए।"
+          }
         },
         {
           "n": 13,
-          "text": "देवर्षिगन्धर्वसमाकुलं त-\nत्सुपर्णनागासुरसिद्धजुष्टम् ।\nदिव्येन गन्धेन समाकुलं च\nदिव्यैश्च माल्यैरवकीर्यमाणम् ॥"
+          "text": "देवर्षिगन्धर्वसमाकुलं त-\nत्सुपर्णनागासुरसिद्धजुष्टम् ।\nदिव्येन गन्धेन समाकुलं च\nदिव्यैश्च माल्यैरवकीर्यमाणम् ॥",
+          "meaning": {
+            "en": "That scene was crowded with divine sages and Gandharvas, attended by Suparnas, Nagas, Asuras and Siddhas, thick with divine fragrance and showered with heavenly garlands.",
+            "hi": "वह दृश्य देवर्षियों और गंधर्वों से भरा था, सुपर्ण, नाग, असुर और सिद्धों से सेवित था, दिव्य सुगंध से व्याप्त और दिव्य मालाओं की वर्षा से भरा था।"
+          }
         },
         {
           "n": 14,
-          "text": "महास्वनैर्दुन्दुभिनादितैश्च\nबभूव तत्संकुलमन्तरिक्षम् ।\nविमानसंबाधमभूत्समन्ता-\nत्सवेणुवीणापणवानुनादम् ॥"
+          "text": "महास्वनैर्दुन्दुभिनादितैश्च\nबभूव तत्संकुलमन्तरिक्षम् ।\nविमानसंबाधमभूत्समन्ता-\nत्सवेणुवीणापणवानुनादम् ॥",
+          "meaning": {
+            "en": "The sky was crowded with the loud sound of drums, jammed all round with celestial cars, and echoing with flutes, lutes and tabors.",
+            "hi": "नगाड़ों की गहरी ध्वनि से वह आकाश इतना भर गया कि विमानों से ठसाठस हो गया, और चारों ओर वेणु, वीणा और पणव की प्रतिध्वनि गूँजने लगी।"
+          }
         },
         {
           "n": 15,
-          "text": "ततस्तु ते राजगणाः क्रमेण\nकृष्णानिमित्तं नृप विक्रमन्तः ।\nतत्कार्मुकं संहननोपपन्नं\nसज्यं न शेकुस्तरसापि कर्तुम् ॥"
+          "text": "ततस्तु ते राजगणाः क्रमेण\nकृष्णानिमित्तं नृप विक्रमन्तः ।\nतत्कार्मुकं संहननोपपन्नं\nसज्यं न शेकुस्तरसापि कर्तुम् ॥",
+          "meaning": {
+            "en": "Then, one after another, those hosts of kings, striving for Krishna's sake, could not string by force that well-built bow, king.",
+            "hi": "तब हे राजन्, एक-एक करके वे राजसमूह कृष्णा के लिए पराक्रम दिखाते हुए, उस सुदृढ़ बने धनुष की प्रत्यंचा बल से भी नहीं चढ़ा सके।"
+          }
         },
         {
           "n": 16,
-          "text": "ते विक्रमन्तः स्फुरता दृढेन\nनिष्कृष्यमाणा धनुषा नरेन्द्राः ।\nविचेष्टमाना धरणीतलस्था\nदीना अदृश्यन्त विभग्नचित्ताः ॥"
+          "text": "ते विक्रमन्तः स्फुरता दृढेन\nनिष्कृष्यमाणा धनुषा नरेन्द्राः ।\nविचेष्टमाना धरणीतलस्था\nदीना अदृश्यन्त विभग्नचित्ताः ॥",
+          "meaning": {
+            "en": "As they strove, the kings, dragged by the stiff, springing bow, were seen sprawling on the ground, dejected and broken-spirited.",
+            "hi": "पराक्रम करते हुए वे नरेश उस कठोर और झटके देने वाले धनुष से खिंचकर धरती पर पड़े तड़पते दिखाई दिए; वे दीन और टूटे मन वाले हो गए।"
+          }
         },
         {
           "n": 17,
-          "text": "हाहाकृतं तद्धनुषा दृढेन\nनिष्पिष्टभग्नाङ्गदकुण्डलं च ।\nकृष्णानिमित्तं विनिवृत्तभावं\nराज्ञां तदा मण्डलमार्तमासीत् ॥"
+          "text": "हाहाकृतं तद्धनुषा दृढेन\nनिष्पिष्टभग्नाङ्गदकुण्डलं च ।\nकृष्णानिमित्तं विनिवृत्तभावं\nराज्ञां तदा मण्डलमार्तमासीत् ॥",
+          "meaning": {
+            "en": "Their armlets and earrings crushed and broken by the strong bow, amid cries of 'Alas', the circle of kings, turned back from the thought of Krishna, was afflicted.",
+            "hi": "उस कठोर धनुष से “हाय-हाय” का शोर मच गया। उनके बाजूबंद और कुंडल कुचल कर टूट गए। कृष्णा के कारण जो राजमंडल था, वह अब मन हटाकर पीड़ा से भर गया।"
+          }
         },
         {
           "n": 18,
-          "text": "तस्मिंस्तु संभ्रान्तजने समाजे\nनिक्षिप्तवादेषु नराधिपेषु ।\nकुन्तीसुतो जिष्णुरियेष कर्तुं\nसज्यं धनुस्तत्सशरं स वीरः ॥"
+          "text": "तस्मिंस्तु संभ्रान्तजने समाजे\nनिक्षिप्तवादेषु नराधिपेषु ।\nकुन्तीसुतो जिष्णुरियेष कर्तुं\nसज्यं धनुस्तत्सशरं स वीरः ॥",
+          "meaning": {
+            "en": "While the assembly was in confusion and the rulers had given up their contest, Arjuna, the son of Kunti, the hero, wished to string that bow and shoot with arrow.",
+            "hi": "उस व्याकुल सभा में, जब राजाओं ने हार मानकर अपनी बात छोड़ दी, तब कुंती-पुत्र वीर जिष्णु अर्जुन ने उस धनुष को बाण सहित चढ़ाने की इच्छा की।"
+          }
         }
       ]
     }

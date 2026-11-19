@@ -22,223 +22,391 @@
       "titleEn": "Mantra Parva (The council)",
       "verses": [
         {
-          "text": "वासुदेव उवाच"
+          "text": "वासुदेव उवाच",
+          "meaning": {
+            "en": "Vasudeva said:"
+          }
         },
         {
           "n": 1,
-          "text": "जातस्य भारते वंशे तथा कुन्त्याः सुतस्य च ।\nया वै युक्ता मतिः सेयमर्जुनेन प्रदर्शिता ॥"
+          "text": "जातस्य भारते वंशे तथा कुन्त्याः सुतस्य च ।\nया वै युक्ता मतिः सेयमर्जुनेन प्रदर्शिता ॥",
+          "meaning": {
+            "en": "This resolve that Arjuna has shown is just what suits one born in the Bharata line and a son of Kunti."
+          }
         },
         {
           "n": 2,
-          "text": "न मृत्योः समयं विद्म रात्रौ वा यदि वा दिवा ।\nन चापि कंचिदमरमयुद्धेनापि शुश्रुमः ॥"
+          "text": "न मृत्योः समयं विद्म रात्रौ वा यदि वा दिवा ।\nन चापि कंचिदमरमयुद्धेनापि शुश्रुमः ॥",
+          "meaning": {
+            "en": "We do not know the hour of death, whether by night or day, nor have we heard of anyone who became immortal by not fighting."
+          }
         },
         {
           "n": 3,
-          "text": "एतावदेव पुरुषैः कार्यं हृदयतोषणम् ।\nनयेन विधिदृष्टेन यदुपक्रमते परान् ॥"
+          "text": "एतावदेव पुरुषैः कार्यं हृदयतोषणम् ।\nनयेन विधिदृष्टेन यदुपक्रमते परान् ॥",
+          "meaning": {
+            "en": "This much is a man's task, to please the heart: to move against his enemies by policy as the rule shows."
+          }
         },
         {
           "n": 4,
-          "text": "सुनयस्यानपायस्य संयुगे परमः क्रमः ।\nसंशयो जायते साम्ये साम्यं च न भवेद्द्वयोः ॥"
+          "text": "सुनयस्यानपायस्य संयुगे परमः क्रमः ।\nसंशयो जायते साम्ये साम्यं च न भवेद्द्वयोः ॥",
+          "meaning": {
+            "en": "For one of good policy who suffers no loss, the best course in battle is clear; doubt arises among equals, and no two are ever truly equal."
+          }
         },
         {
           "n": 5,
-          "text": "ते वयं नयमास्थाय शत्रुदेहसमीपगाः ।\nकथमन्तं न गच्छेम वृक्षस्येव नदीरयाः ।\nपररन्ध्रे पराक्रान्ताः स्वरन्ध्रावरणे स्थिताः ॥"
+          "text": "ते वयं नयमास्थाय शत्रुदेहसमीपगाः ।\nकथमन्तं न गच्छेम वृक्षस्येव नदीरयाः ।\nपररन्ध्रे पराक्रान्ताः स्वरन्ध्रावरणे स्थिताः ॥",
+          "meaning": {
+            "en": "So, resting on policy and going near our enemy's person, why should we not reach the end, as river currents reach a tree's root? Attacking the enemy's weak point, we stay behind a cover over our own."
+          }
         },
         {
           "n": 6,
-          "text": "व्यूढानीकैरनुबलैर्नोपेयाद्बलवत्तरम् ।\nइति बुद्धिमतां नीतिस्तन्ममापीह रोचते ॥"
+          "text": "व्यूढानीकैरनुबलैर्नोपेयाद्बलवत्तरम् ।\nइति बुद्धिमतां नीतिस्तन्ममापीह रोचते ॥",
+          "meaning": {
+            "en": "One should not approach a stronger foe with massed troops and followers; this is the policy of the wise, and it pleases me here too."
+          }
         },
         {
           "n": 7,
-          "text": "अनवद्या ह्यसंबुद्धाः प्रविष्टाः शत्रुसद्म तत् ।\nशत्रुदेहमुपाक्रम्य तं कामं प्राप्नुयामहे ॥"
+          "text": "अनवद्या ह्यसंबुद्धाः प्रविष्टाः शत्रुसद्म तत् ।\nशत्रुदेहमुपाक्रम्य तं कामं प्राप्नुयामहे ॥",
+          "meaning": {
+            "en": "Blameless and unannounced, we will enter that enemy's house, and, closing on his person, we shall get what we want."
+          }
         },
         {
           "n": 8,
-          "text": "एको ह्येव श्रियं नित्यं बिभर्ति पुरुषर्षभ ।\nअन्तरात्मेव भूतानां तत्क्षये वै बलक्षयः ॥"
+          "text": "एको ह्येव श्रियं नित्यं बिभर्ति पुरुषर्षभ ।\nअन्तरात्मेव भूतानां तत्क्षये वै बलक्षयः ॥",
+          "meaning": {
+            "en": "One man alone always bears the fortune, like the inner self of beings; when he is gone, the strength is gone."
+          }
         },
         {
           "n": 9,
-          "text": "अथ चेत्तं निहत्याजौ शेषेणाभिसमागताः ।\nप्राप्नुयाम ततः स्वर्गं ज्ञातित्राणपरायणाः ॥"
+          "text": "अथ चेत्तं निहत्याजौ शेषेणाभिसमागताः ।\nप्राप्नुयाम ततः स्वर्गं ज्ञातित्राणपरायणाः ॥",
+          "meaning": {
+            "en": "And if we kill him in battle and return with the rest alive, devoted to saving our kin, we shall win heaven."
+          }
         },
         {
-          "text": "युधिष्ठिर उवाच"
+          "text": "युधिष्ठिर उवाच",
+          "meaning": {
+            "en": "Yudhishthira said:"
+          }
         },
         {
           "n": 10,
-          "text": "कृष्ण कोऽयं जरासंधः किंवीर्यः किंपराक्रमः ।\nयस्त्वां स्पृष्ट्वाग्निसदृशं न दग्धः शलभो यथा ॥"
+          "text": "कृष्ण कोऽयं जरासंधः किंवीर्यः किंपराक्रमः ।\nयस्त्वां स्पृष्ट्वाग्निसदृशं न दग्धः शलभो यथा ॥",
+          "meaning": {
+            "en": "Krishna, who is this Jarasandha, what is his strength and what his courage, that he touched you, who are like fire, and was not burned, like a moth?"
+          }
         },
         {
-          "text": "कृष्ण उवाच"
+          "text": "कृष्ण उवाच",
+          "meaning": {
+            "en": "Krishna said:"
+          }
         },
         {
           "n": 11,
-          "text": "शृणु राजञ्जरासंधो यद्वीर्यो यत्पराक्रमः ।\nयथा चोपेक्षितोऽस्माभिर्बहुशः कृतविप्रियः ॥"
+          "text": "शृणु राजञ्जरासंधो यद्वीर्यो यत्पराक्रमः ।\nयथा चोपेक्षितोऽस्माभिर्बहुशः कृतविप्रियः ॥",
+          "meaning": {
+            "en": "Hear, O king, of Jarasandha's strength and courage, and how he did us many wrongs, though we overlooked them."
+          }
         },
         {
           "n": 12,
-          "text": "अक्षौहिणीनां तिसृणामासीत्समरदर्पितः ।\nराजा बृहद्रथो नाम मगधाधिपतिः पतिः ॥"
+          "text": "अक्षौहिणीनां तिसृणामासीत्समरदर्पितः ।\nराजा बृहद्रथो नाम मगधाधिपतिः पतिः ॥",
+          "meaning": {
+            "en": "There was a king named Brihadratha, lord of Magadha, proud in war, with three akshauhinis."
+          }
         },
         {
           "n": 13,
-          "text": "रूपवान्वीर्यसंपन्नः श्रीमानतुलविक्रमः ।\nनित्यं दीक्षाकृशतनुः शतक्रतुरिवापरः ॥"
+          "text": "रूपवान्वीर्यसंपन्नः श्रीमानतुलविक्रमः ।\nनित्यं दीक्षाकृशतनुः शतक्रतुरिवापरः ॥",
+          "meaning": {
+            "en": "He was handsome, strong, splendid and of matchless prowess, his body thin from continual vows of consecration, like a second Shatakratu."
+          }
         },
         {
           "n": 14,
-          "text": "तेजसा सूर्यसदृशः क्षमया पृथिवीसमः ।\nयमान्तकसमः कोपे श्रिया वैश्रवणोपमः ॥"
+          "text": "तेजसा सूर्यसदृशः क्षमया पृथिवीसमः ।\nयमान्तकसमः कोपे श्रिया वैश्रवणोपमः ॥",
+          "meaning": {
+            "en": "He was like the sun in brilliance, like the earth in patience, like Yama the ender in anger, and like Vaishravana in wealth."
+          }
         },
         {
           "n": 15,
-          "text": "तस्याभिजनसंयुक्तैर्गुणैर्भरतसत्तम ।\nव्याप्तेयं पृथिवी सर्वा सूर्यस्येव गभस्तिभिः ॥"
+          "text": "तस्याभिजनसंयुक्तैर्गुणैर्भरतसत्तम ।\nव्याप्तेयं पृथिवी सर्वा सूर्यस्येव गभस्तिभिः ॥",
+          "meaning": {
+            "en": "Best of the Bharatas, the whole earth was filled with the virtues of his lineage, as with the sun's rays."
+          }
         },
         {
           "n": 16,
-          "text": "स काशिराजस्य सुते यमजे भरतर्षभ ।\nउपयेमे महावीर्यो रूपद्रविणसंमते ॥"
+          "text": "स काशिराजस्य सुते यमजे भरतर्षभ ।\nउपयेमे महावीर्यो रूपद्रविणसंमते ॥",
+          "meaning": {
+            "en": "That mighty king married the twin daughters of the king of Kashi, who were honored for their beauty and wealth."
+          }
         },
         {
           "n": 17,
-          "text": "तयोश्चकार समयं मिथः स पुरुषर्षभः ।\nनातिवर्तिष्य इत्येवं पत्नीभ्यां संनिधौ तदा ॥"
+          "text": "तयोश्चकार समयं मिथः स पुरुषर्षभः ।\nनातिवर्तिष्य इत्येवं पत्नीभ्यां संनिधौ तदा ॥",
+          "meaning": {
+            "en": "The best of men made a pact with them in private, in the presence of both wives, that he would not go beyond them."
+          }
         },
         {
           "n": 18,
-          "text": "स ताभ्यां शुशुभे राजा पत्नीभ्यां मनुजाधिप ।\nप्रियाभ्यामनुरूपाभ्यां करेणुभ्यामिव द्विपः ॥"
+          "text": "स ताभ्यां शुशुभे राजा पत्नीभ्यां मनुजाधिप ।\nप्रियाभ्यामनुरूपाभ्यां करेणुभ्यामिव द्विपः ॥",
+          "meaning": {
+            "en": "The king shone with those two fitting and beloved wives, as an elephant bull with two cow elephants, O lord of men."
+          }
         },
         {
           "n": 19,
-          "text": "तयोर्मध्यगतश्चापि रराज वसुधाधिपः ।\nगङ्गायमुनयोर्मध्ये मूर्तिमानिव सागरः ॥"
+          "text": "तयोर्मध्यगतश्चापि रराज वसुधाधिपः ।\nगङ्गायमुनयोर्मध्ये मूर्तिमानिव सागरः ॥",
+          "meaning": {
+            "en": "The ruler of the earth, standing between the two, looked like the ocean in bodily form between the Ganga and the Yamuna."
+          }
         },
         {
           "n": 20,
-          "text": "विषयेषु निमग्नस्य तस्य यौवनमत्यगात् ।\nन च वंशकरः पुत्रस्तस्याजायत कश्चन ॥"
+          "text": "विषयेषु निमग्नस्य तस्य यौवनमत्यगात् ।\nन च वंशकरः पुत्रस्तस्याजायत कश्चन ॥",
+          "meaning": {
+            "en": "Sunk in pleasures, his youth passed, and no son was born to him to continue the line."
+          }
         },
         {
           "n": 21,
-          "text": "मङ्गलैर्बहुभिर्होमैः पुत्रकामाभिरिष्टिभिः ।\nनाससाद नृपश्रेष्ठः पुत्रं कुलविवर्धनम् ॥"
+          "text": "मङ्गलैर्बहुभिर्होमैः पुत्रकामाभिरिष्टिभिः ।\nनाससाद नृपश्रेष्ठः पुत्रं कुलविवर्धनम् ॥",
+          "meaning": {
+            "en": "With many auspicious acts, fire offerings and sacrifices for a son, the best of kings did not obtain a son to increase his family."
+          }
         },
         {
           "n": 22,
-          "text": "अथ काक्षीवतः पुत्रं गौतमस्य महात्मनः ।\nशुश्राव तपसि श्रान्तमुदारं चण्डकौशिकम् ॥"
+          "text": "अथ काक्षीवतः पुत्रं गौतमस्य महात्मनः ।\nशुश्राव तपसि श्रान्तमुदारं चण्डकौशिकम् ॥",
+          "meaning": {
+            "en": "Then he heard that Chandakaushika, noble son of Kakshivat, the great Gautama, was weary from austerities."
+          }
         },
         {
           "n": 23,
-          "text": "यदृच्छयागतं तं तु वृक्षमूलमुपाश्रितम् ।\nपत्नीभ्यां सहितो राजा सर्वरत्नैरतोषयत् ॥"
+          "text": "यदृच्छयागतं तं तु वृक्षमूलमुपाश्रितम् ।\nपत्नीभ्यां सहितो राजा सर्वरत्नैरतोषयत् ॥",
+          "meaning": {
+            "en": "The sage had come by chance and was resting at the foot of a tree; the king, with his two wives, satisfied him with every kind of jewel."
+          }
         },
         {
           "n": 24,
-          "text": "तमब्रवीत्सत्यधृतिः सत्यवागृषिसत्तमः ।\nपरितुष्टोऽस्मि ते राजन्वरं वरय सुव्रत ॥"
+          "text": "तमब्रवीत्सत्यधृतिः सत्यवागृषिसत्तमः ।\nपरितुष्टोऽस्मि ते राजन्वरं वरय सुव्रत ॥",
+          "meaning": {
+            "en": "The best of seers, firm in truth and true in speech, said to him, \"I am pleased with you, king; ask a boon, you of good vows.\""
+          }
         },
         {
           "n": 25,
-          "text": "ततः सभार्यः प्रणतस्तमुवाच बृहद्रथः ।\nपुत्रदर्शननैराश्याद्बाष्पगद्गदया गिरा ॥"
+          "text": "ततः सभार्यः प्रणतस्तमुवाच बृहद्रथः ।\nपुत्रदर्शननैराश्याद्बाष्पगद्गदया गिरा ॥",
+          "meaning": {
+            "en": "Then Brihadratha, with his wife, bowed to him and said, in a voice choked with tears for despair of seeing a son,"
+          }
         },
         {
-          "text": "बृहद्रथ उवाच"
+          "text": "बृहद्रथ उवाच",
+          "meaning": {
+            "en": "Brihadratha said:"
+          }
         },
         {
           "n": 26,
-          "text": "भगवन्राज्यमुत्सृज्य प्रस्थितस्य तपोवनम् ।\nकिं वरेणाल्पभाग्यस्य किं राज्येनाप्रजस्य मे ॥"
+          "text": "भगवन्राज्यमुत्सृज्य प्रस्थितस्य तपोवनम् ।\nकिं वरेणाल्पभाग्यस्य किं राज्येनाप्रजस्य मे ॥",
+          "meaning": {
+            "en": "Blessed one, I am about to give up the kingdom and go to the forest of austerity; what is a boon to one of poor fortune, what is a kingdom to one without children?"
+          }
         },
         {
-          "text": "कृष्ण उवाच"
+          "text": "कृष्ण उवाच",
+          "meaning": {
+            "en": "Krishna said:"
+          }
         },
         {
           "n": 27,
-          "text": "एतच्छ्रुत्वा मुनिर्ध्यानमगमत्क्षुभितेन्द्रियः ।\nतस्यैव चाम्रवृक्षस्य छायायां समुपाविशत् ॥"
+          "text": "एतच्छ्रुत्वा मुनिर्ध्यानमगमत्क्षुभितेन्द्रियः ।\nतस्यैव चाम्रवृक्षस्य छायायां समुपाविशत् ॥",
+          "meaning": {
+            "en": "Hearing this, the sage, his senses stirred, went into meditation, and sat in the shade of that very mango tree."
+          }
         },
         {
           "n": 28,
-          "text": "तस्योपविष्टस्य मुनेरुत्सङ्गे निपपात ह ।\nअवातमशुकादष्टमेकमाम्रफलं किल ॥"
+          "text": "तस्योपविष्टस्य मुनेरुत्सङ्गे निपपात ह ।\nअवातमशुकादष्टमेकमाम्रफलं किल ॥",
+          "meaning": {
+            "en": "As the sage sat there, a single mango, neither shaken by wind nor bitten by a parrot, fell into his lap."
+          }
         },
         {
           "n": 29,
-          "text": "तत्प्रगृह्य मुनिश्रेष्ठो हृदयेनाभिमन्त्र्य च ।\nराज्ञे ददावप्रतिमं पुत्रसंप्राप्तिकारकम् ॥"
+          "text": "तत्प्रगृह्य मुनिश्रेष्ठो हृदयेनाभिमन्त्र्य च ।\nराज्ञे ददावप्रतिमं पुत्रसंप्राप्तिकारकम् ॥",
+          "meaning": {
+            "en": "The best of sages took it, consecrated it in his heart, and gave it to the king, a fruit without equal that brings the birth of a son."
+          }
         },
         {
           "n": 30,
-          "text": "उवाच च महाप्राज्ञस्तं राजानं महामुनिः ।\nगच्छ राजन्कृतार्थोऽसि निवर्त मनुजाधिप ॥"
+          "text": "उवाच च महाप्राज्ञस्तं राजानं महामुनिः ।\nगच्छ राजन्कृतार्थोऽसि निवर्त मनुजाधिप ॥",
+          "meaning": {
+            "en": "The very wise great sage said to the king, \"Go, king, your purpose is fulfilled; turn back, lord of men.\""
+          }
         },
         {
           "n": 31,
-          "text": "यथासमयमाज्ञाय तदा स नृपसत्तमः ।\nद्वाभ्यामेकं फलं प्रादात्पत्नीभ्यां भरतर्षभ ॥"
+          "text": "यथासमयमाज्ञाय तदा स नृपसत्तमः ।\nद्वाभ्यामेकं फलं प्रादात्पत्नीभ्यां भरतर्षभ ॥",
+          "meaning": {
+            "en": "Knowing what was fitting, the best of kings then gave the one fruit to his two wives, Bharata."
+          }
         },
         {
           "n": 32,
-          "text": "ते तदाम्रं द्विधा कृत्वा भक्षयामासतुः शुभे ।\nभावित्वादपि चार्थस्य सत्यवाक्यात्तथा मुनेः ॥"
+          "text": "ते तदाम्रं द्विधा कृत्वा भक्षयामासतुः शुभे ।\nभावित्वादपि चार्थस्य सत्यवाक्यात्तथा मुनेः ॥",
+          "meaning": {
+            "en": "The two good women cut that mango in two and ate it, both because it was bound to come to pass and because of the sage's true word."
+          }
         },
         {
           "n": 33,
-          "text": "तयोः समभवद्गर्भः फलप्राशनसंभवः ।\nते च दृष्ट्वा नरपतिः परां मुदमवाप ह ॥"
+          "text": "तयोः समभवद्गर्भः फलप्राशनसंभवः ।\nते च दृष्ट्वा नरपतिः परां मुदमवाप ह ॥",
+          "meaning": {
+            "en": "From eating the fruit both conceived, and the king, seeing it, was filled with great joy."
+          }
         },
         {
           "n": 34,
-          "text": "अथ काले महाप्राज्ञ यथासमयमागते ।\nप्रजायेतामुभे राजञ्शरीरशकले तदा ॥"
+          "text": "अथ काले महाप्राज्ञ यथासमयमागते ।\nप्रजायेतामुभे राजञ्शरीरशकले तदा ॥",
+          "meaning": {
+            "en": "When the time had come, O wise one, both of them gave birth, each to a piece of a body."
+          }
         },
         {
           "n": 35,
-          "text": "एकाक्षिबाहुचरणे अर्धोदरमुखस्फिजे ।\nदृष्ट्वा शरीरशकले प्रवेपाते उभे भृशम् ॥"
+          "text": "एकाक्षिबाहुचरणे अर्धोदरमुखस्फिजे ।\nदृष्ट्वा शरीरशकले प्रवेपाते उभे भृशम् ॥",
+          "meaning": {
+            "en": "Each had one eye, one arm, one leg, half a belly, half a face and half a hip; seeing those pieces of body, they both trembled greatly."
+          }
         },
         {
           "n": 36,
-          "text": "उद्विग्ने सह संमन्त्र्य ते भगिन्यौ तदाबले ।\nसजीवे प्राणिशकले तत्यजाते सुदुःखिते ॥"
+          "text": "उद्विग्ने सह संमन्त्र्य ते भगिन्यौ तदाबले ।\nसजीवे प्राणिशकले तत्यजाते सुदुःखिते ॥",
+          "meaning": {
+            "en": "The two sisters, helpless and terrified, took counsel together and, in deep grief, abandoned the two living pieces."
+          }
         },
         {
           "n": 37,
-          "text": "तयोर्धात्र्यौ सुसंवीते कृत्वा ते गर्भसंप्लवे ।\nनिर्गम्यान्तःपुरद्वारात्समुत्सृज्याशु जग्मतुः ॥"
+          "text": "तयोर्धात्र्यौ सुसंवीते कृत्वा ते गर्भसंप्लवे ।\nनिर्गम्यान्तःपुरद्वारात्समुत्सृज्याशु जग्मतुः ॥",
+          "meaning": {
+            "en": "Their two nurses wrapped them well in cloths, went out through the gate of the women's quarters, threw them away quickly, and went off."
+          }
         },
         {
           "n": 38,
-          "text": "ते चतुष्पथनिक्षिप्ते जरा नामाथ राक्षसी ।\nजग्राह मनुजव्याघ्र मांसशोणितभोजना ॥"
+          "text": "ते चतुष्पथनिक्षिप्ते जरा नामाथ राक्षसी ।\nजग्राह मनुजव्याघ्र मांसशोणितभोजना ॥",
+          "meaning": {
+            "en": "As they lay at the crossroads, a female Rakshasa named Jara, who ate flesh and blood, took them up, tiger among men."
+          }
         },
         {
           "n": 39,
-          "text": "कर्तुकामा सुखवहे शकले सा तु राक्षसी ।\nसंघट्टयामास तदा विधानबलचोदिता ॥"
+          "text": "कर्तुकामा सुखवहे शकले सा तु राक्षसी ।\nसंघट्टयामास तदा विधानबलचोदिता ॥",
+          "meaning": {
+            "en": "Wishing to make the two pieces easy to carry, the Rakshasa, impelled by fate's power, pressed them together."
+          }
         },
         {
           "n": 40,
-          "text": "ते समानीतमात्रे तु शकले पुरुषर्षभ ।\nएकमूर्तिकृते वीरः कुमारः समपद्यत ॥"
+          "text": "ते समानीतमात्रे तु शकले पुरुषर्षभ ।\nएकमूर्तिकृते वीरः कुमारः समपद्यत ॥",
+          "meaning": {
+            "en": "The moment the two pieces were brought together, tiger among men, a boy of heroic strength came to be, made one in form."
+          }
         },
         {
           "n": 41,
-          "text": "ततः सा राक्षसी राजन्विस्मयोत्फुल्ललोचना ।\nन शशाक समुद्वोढुं वज्रसारमयं शिशुम् ॥"
+          "text": "ततः सा राक्षसी राजन्विस्मयोत्फुल्ललोचना ।\nन शशाक समुद्वोढुं वज्रसारमयं शिशुम् ॥",
+          "meaning": {
+            "en": "Then the Rakshasa, her eyes wide with wonder, could not lift the child, whose body was as hard as a thunderbolt."
+          }
         },
         {
           "n": 42,
-          "text": "बालस्ताम्रतलं मुष्टिं कृत्वा चास्ये निधाय सः ।\nप्राक्रोशदतिसंरम्भात्सतोय इव तोयदः ॥"
+          "text": "बालस्ताम्रतलं मुष्टिं कृत्वा चास्ये निधाय सः ।\nप्राक्रोशदतिसंरम्भात्सतोय इव तोयदः ॥",
+          "meaning": {
+            "en": "The baby, making a fist of his copper-red palm and putting it in his mouth, cried out furiously, like a cloud heavy with water."
+          }
         },
         {
           "n": 43,
-          "text": "तेन शब्देन संभ्रान्तः सहसान्तःपुरे जनः ।\nनिर्जगाम नरव्याघ्र राज्ञा सह परंतप ॥"
+          "text": "तेन शब्देन संभ्रान्तः सहसान्तःपुरे जनः ।\nनिर्जगाम नरव्याघ्र राज्ञा सह परंतप ॥",
+          "meaning": {
+            "en": "At that noise the people in the women's quarters were suddenly startled, and came out with the king, tiger among men, scorcher of foes."
+          }
         },
         {
           "n": 44,
-          "text": "ते चाबले परिग्लाने पयःपूर्णपयोधरे ।\nनिराशे पुत्रलाभाय सहसैवाभ्यगच्छताम् ॥"
+          "text": "ते चाबले परिग्लाने पयःपूर्णपयोधरे ।\nनिराशे पुत्रलाभाय सहसैवाभ्यगच्छताम् ॥",
+          "meaning": {
+            "en": "The two wives, weak and wasted, their breasts full of milk, hopeless of getting a son, came forward suddenly."
+          }
         },
         {
           "n": 45,
-          "text": "अथ दृष्ट्वा तथाभूते राजानं चेष्टसंततिम् ।\nतं च बालं सुबलिनं चिन्तयामास राक्षसी ॥"
+          "text": "अथ दृष्ट्वा तथाभूते राजानं चेष्टसंततिम् ।\nतं च बालं सुबलिनं चिन्तयामास राक्षसी ॥",
+          "meaning": {
+            "en": "Seeing the king so, and his hoped-for line, and that strong child, the Rakshasa thought:"
+          }
         },
         {
           "n": 46,
-          "text": "नार्हामि विषये राज्ञो वसन्ती पुत्रगृद्धिनः ।\nबालं पुत्रमुपादातुं मेघलेखेव भास्करम् ॥"
+          "text": "नार्हामि विषये राज्ञो वसन्ती पुत्रगृद्धिनः ।\nबालं पुत्रमुपादातुं मेघलेखेव भास्करम् ॥",
+          "meaning": {
+            "en": "\"I should not take a son from the king's land, where I have lived while he longs for a son, as a streak of cloud cannot take hold of the sun.\""
+          }
         },
         {
           "n": 47,
-          "text": "सा कृत्वा मानुषं रूपमुवाच मनुजाधिपम् ।\nबृहद्रथ सुतस्तेऽयं मद्दत्तः प्रतिगृह्यताम् ॥"
+          "text": "सा कृत्वा मानुषं रूपमुवाच मनुजाधिपम् ।\nबृहद्रथ सुतस्तेऽयं मद्दत्तः प्रतिगृह्यताम् ॥",
+          "meaning": {
+            "en": "Taking human form, she said to the king, \"Brihadratha, take this son of yours, given by me."
+          }
         },
         {
           "n": 48,
-          "text": "तव पत्नीद्वये जातो द्विजातिवरशासनात् ।\nधात्रीजनपरित्यक्तो मयायं परिरक्षितः ॥"
+          "text": "तव पत्नीद्वये जातो द्विजातिवरशासनात् ।\nधात्रीजनपरित्यक्तो मयायं परिरक्षितः ॥",
+          "meaning": {
+            "en": "\"He was born to your two wives at the command of the best of Brahmins, cast away by the nurses, and kept safe by me.\""
+          }
         },
         {
           "n": 49,
-          "text": "ततस्ते भरतश्रेष्ठ काशिराजसुते शुभे ।\nतं बालमभिपत्याशु प्रस्नवैरभिषिञ्चताम् ॥"
+          "text": "ततस्ते भरतश्रेष्ठ काशिराजसुते शुभे ।\nतं बालमभिपत्याशु प्रस्नवैरभिषिञ्चताम् ॥",
+          "meaning": {
+            "en": "Then the two lovely daughters of the king of Kashi, best of the Bharatas, hastened to the baby and bathed him with their milk."
+          }
         },
         {
           "n": 50,
-          "text": "ततः स राजा संहृष्टः सर्वं तदुपलभ्य च ।\nअपृच्छन्नवहेमाभां राक्षसीं तामराक्षसीम् ॥"
+          "text": "ततः स राजा संहृष्टः सर्वं तदुपलभ्य च ।\nअपृच्छन्नवहेमाभां राक्षसीं तामराक्षसीम् ॥",
+          "meaning": {
+            "en": "Then the king, delighted and having understood everything, asked the Rakshasa, who now looked no Rakshasa, with the glow of fresh gold."
+          }
         },
         {
           "n": 51,
-          "text": "का त्वं कमलगर्भाभे मम पुत्रप्रदायिनी ।\nकामया ब्रूहि कल्याणि देवता प्रतिभासि मे ॥"
+          "text": "का त्वं कमलगर्भाभे मम पुत्रप्रदायिनी ।\nकामया ब्रूहि कल्याणि देवता प्रतिभासि मे ॥",
+          "meaning": {
+            "en": "\"Who are you, with a lotus-womb's radiance, who give me a son? Tell me what you wish, lovely one; you seem a goddess to me.\""
+          }
         }
       ]
     }

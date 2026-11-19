@@ -22,116 +22,203 @@
       "titleEn": "Tirthayatra Parva (The pilgrimage)",
       "verses": [
         {
-          "text": "भीम उवाच"
+          "text": "भीम उवाच",
+          "meaning": {
+            "en": "Bhima said:"
+          }
         },
         {
           "n": 1,
-          "text": "पाण्डवो भीमसेनोऽहं धर्मपुत्रादनन्तरः ।\nविशालां बदरीं प्राप्तो भ्रातृभिः सह राक्षसाः ॥"
+          "text": "पाण्डवो भीमसेनोऽहं धर्मपुत्रादनन्तरः ।\nविशालां बदरीं प्राप्तो भ्रातृभिः सह राक्षसाः ॥",
+          "meaning": {
+            "en": "\"Rakshasas, I am the Pandava Bhimasena, next after the son of Dharma. I have come to Vishala Badari with my brothers.\""
+          }
         },
         {
           "n": 2,
-          "text": "अपश्यत्तत्र पाञ्चाली सौगन्धिकमनुत्तमम् ।\nअनिलोढमितो नूनं सा बहूनि परीप्सति ॥"
+          "text": "अपश्यत्तत्र पाञ्चाली सौगन्धिकमनुत्तमम् ।\nअनिलोढमितो नूनं सा बहूनि परीप्सति ॥",
+          "meaning": {
+            "en": "\"There Panchali saw a peerless saugandhika flower carried here by the wind, and she wants many of them.\""
+          }
         },
         {
           "n": 3,
-          "text": "तस्या मामनवद्याङ्ग्या धर्मपत्न्याः प्रिये स्थितम् ।\nपुष्पाहारमिह प्राप्तं निबोधत निशाचराः ॥"
+          "text": "तस्या मामनवद्याङ्ग्या धर्मपत्न्याः प्रिये स्थितम् ।\nपुष्पाहारमिह प्राप्तं निबोधत निशाचराः ॥",
+          "meaning": {
+            "en": "\"Know, night-rovers, that I have come here to fetch flowers, to please that blameless wife of mine, my wedded queen.\""
+          }
         },
         {
-          "text": "राक्षसा ऊचुः"
+          "text": "राक्षसा ऊचुः",
+          "meaning": {
+            "en": "The rakshasas said:"
+          }
         },
         {
           "n": 4,
-          "text": "आक्रीडोऽयं कुबेरस्य दयितः पुरुषर्षभ ।\nनेह शक्यं मनुष्येण विहर्तुं मर्त्यधर्मिणा ॥"
+          "text": "आक्रीडोऽयं कुबेरस्य दयितः पुरुषर्षभ ।\nनेह शक्यं मनुष्येण विहर्तुं मर्त्यधर्मिणा ॥",
+          "meaning": {
+            "en": "\"Bull among men, this is Kubera's favourite pleasure ground. A human, with a mortal's nature, cannot play here.\""
+          }
         },
         {
           "n": 5,
-          "text": "देवर्षयस्तथा यक्षा देवाश्चात्र वृकोदर ।\nआमन्त्र्य यक्षप्रवरं पिबन्ति विहरन्ति च ।\nगन्धर्वाप्सरसश्चैव विहरन्त्यत्र पाण्डव ॥"
+          "text": "देवर्षयस्तथा यक्षा देवाश्चात्र वृकोदर ।\nआमन्त्र्य यक्षप्रवरं पिबन्ति विहरन्ति च ।\nगन्धर्वाप्सरसश्चैव विहरन्त्यत्र पाण्डव ॥",
+          "meaning": {
+            "en": "\"Divine sages, Yakshas and gods, Vrikodara, drink and sport here after asking leave of the chief of Yakshas, and Gandharvas and Apsarases sport here too, Pandava.\""
+          }
         },
         {
           "n": 6,
-          "text": "अन्यायेनेह यः कश्चिदवमन्य धनेश्वरम् ।\nविहर्तुमिच्छेद्दुर्वृत्तः स विनश्येदसंशयम् ॥"
+          "text": "अन्यायेनेह यः कश्चिदवमन्य धनेश्वरम् ।\nविहर्तुमिच्छेद्दुर्वृत्तः स विनश्येदसंशयम् ॥",
+          "meaning": {
+            "en": "\"Whoever of evil conduct wishes to sport here unlawfully, scorning the lord of wealth, will surely perish.\""
+          }
         },
         {
           "n": 7,
-          "text": "तमनादृत्य पद्मानि जिहीर्षसि बलादितः ।\nधर्मराजस्य चात्मानं ब्रवीषि भ्रातरं कथम् ॥"
+          "text": "तमनादृत्य पद्मानि जिहीर्षसि बलादितः ।\nधर्मराजस्य चात्मानं ब्रवीषि भ्रातरं कथम् ॥",
+          "meaning": {
+            "en": "\"You disregard him and want to take lotuses from here by force, and yet you call yourself the brother of the king of dharma. How?\""
+          }
         },
         {
-          "text": "भीम उवाच"
+          "text": "भीम उवाच",
+          "meaning": {
+            "en": "Bhima said:"
+          }
         },
         {
           "n": 8,
-          "text": "राक्षसास्तं न पश्यामि धनेश्वरमिहान्तिके ।\nदृष्ट्वापि च महाराजं नाहं याचितुमुत्सहे ॥"
+          "text": "राक्षसास्तं न पश्यामि धनेश्वरमिहान्तिके ।\nदृष्ट्वापि च महाराजं नाहं याचितुमुत्सहे ॥",
+          "meaning": {
+            "en": "\"Rakshasas, I do not see the lord of wealth anywhere near. And even if I saw the great king, I would not be willing to beg.\""
+          }
         },
         {
           "n": 9,
-          "text": "न हि याचन्ति राजान एष धर्मः सनातनः ।\nन चाहं हातुमिच्छामि क्षात्रधर्मं कथंचन ॥"
+          "text": "न हि याचन्ति राजान एष धर्मः सनातनः ।\nन चाहं हातुमिच्छामि क्षात्रधर्मं कथंचन ॥",
+          "meaning": {
+            "en": "\"Kings do not beg; that is the eternal dharma. And I do not wish to give up Kshatriya dharma in any way.\""
+          }
         },
         {
           "n": 10,
-          "text": "इयं च नलिनी रम्या जाता पर्वतनिर्झरे ।\nनेयं भवनमासाद्य कुबेरस्य महात्मनः ॥"
+          "text": "इयं च नलिनी रम्या जाता पर्वतनिर्झरे ।\nनेयं भवनमासाद्य कुबेरस्य महात्मनः ॥",
+          "meaning": {
+            "en": "\"This lovely pool was born of a mountain spring; it does not lie within the palace of the great-souled Kubera.\""
+          }
         },
         {
           "n": 11,
-          "text": "तुल्या हि सर्वभूतानामियं वैश्रवणस्य च ।\nएवंगतेषु द्रव्येषु कः कं याचितुमर्हति ॥"
+          "text": "तुल्या हि सर्वभूतानामियं वैश्रवणस्य च ।\nएवंगतेषु द्रव्येषु कः कं याचितुमर्हति ॥",
+          "meaning": {
+            "en": "\"It is shared alike by all creatures and by Vaishravana. With things like this, who should beg from whom?\""
+          }
         },
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 12,
-          "text": "इत्युक्त्वा राक्षसान्सर्वान्भीमसेनो व्यगाहत ।\nततः स राक्षसैर्वाचा प्रतिषिद्धः प्रतापवान् ।\nमा मैवमिति सक्रोधैर्भर्त्सयद्भिः समन्ततः ॥"
+          "text": "इत्युक्त्वा राक्षसान्सर्वान्भीमसेनो व्यगाहत ।\nततः स राक्षसैर्वाचा प्रतिषिद्धः प्रतापवान् ।\nमा मैवमिति सक्रोधैर्भर्त्सयद्भिः समन्ततः ॥",
+          "meaning": {
+            "en": "Having said this to all the rakshasas, Bhimasena plunged in. Then the mighty hero was forbidden by words from the rakshasas, who, angry, rebuked him on all sides saying \"No, no!\""
+          }
         },
         {
           "n": 13,
-          "text": "कदर्थीकृत्य तु स तान्राक्षसान्भीमविक्रमः ।\nव्यगाहत महातेजास्ते तं सर्वे न्यवारयन् ॥"
+          "text": "कदर्थीकृत्य तु स तान्राक्षसान्भीमविक्रमः ।\nव्यगाहत महातेजास्ते तं सर्वे न्यवारयन् ॥",
+          "meaning": {
+            "en": "Treating them with contempt, the terrible-valiant, very radiant Bhima went in all the same, and they all tried to stop him."
+          }
         },
         {
           "n": 14,
-          "text": "गृह्णीत बध्नीत निकृन्ततेमं\nपचाम खादाम च भीमसेनम् ।\nक्रुद्धा ब्रुवन्तोऽनुययुर्द्रुतं ते\nशस्त्राणि चोद्यम्य विवृत्तनेत्राः ॥"
+          "text": "गृह्णीत बध्नीत निकृन्ततेमं\nपचाम खादाम च भीमसेनम् ।\nक्रुद्धा ब्रुवन्तोऽनुययुर्द्रुतं ते\nशस्त्राणि चोद्यम्य विवृत्तनेत्राः ॥",
+          "meaning": {
+            "en": "\"Seize him, bind him, cut him down! We will cook and eat Bhimasena!\" Furious, shouting thus, they ran up quickly with weapons raised and eyes rolling."
+          }
         },
         {
           "n": 15,
-          "text": "ततः स गुर्वीं यमदण्डकल्पां\nमहागदां काञ्चनपट्टनद्धाम् ।\nप्रगृह्य तानभ्यपतत्तरस्वी\nततोऽब्रवीत्तिष्ठत तिष्ठतेति ॥"
+          "text": "ततः स गुर्वीं यमदण्डकल्पां\nमहागदां काञ्चनपट्टनद्धाम् ।\nप्रगृह्य तानभ्यपतत्तरस्वी\nततोऽब्रवीत्तिष्ठत तिष्ठतेति ॥",
+          "meaning": {
+            "en": "Then, taking up his heavy great mace, like Yama's rod and bound with gold bands, the swift Bhima fell on them and cried, \"Stand, stand!\""
+          }
         },
         {
           "n": 16,
-          "text": "ते तं तदा तोमरपट्टिशाद्यै-\nर्व्याविध्य शस्त्रैः सहसाभिपेतुः ।\nजिघांसवः क्रोधवशाः सुभीमा\nभीमं समन्तात्परिवव्रुरुग्राः ॥"
+          "text": "ते तं तदा तोमरपट्टिशाद्यै-\nर्व्याविध्य शस्त्रैः सहसाभिपेतुः ।\nजिघांसवः क्रोधवशाः सुभीमा\nभीमं समन्तात्परिवव्रुरुग्राः ॥",
+          "meaning": {
+            "en": "Whirling spears, tomaras, pattishas and other weapons, they suddenly attacked him; murderous, in anger fierce and terrible, they surrounded Bhima on every side."
+          }
         },
         {
           "n": 17,
-          "text": "वातेन कुन्त्यां बलवान्स जातः\nशूरस्तरस्वी द्विषतां निहन्ता ।\nसत्ये च धर्मे च रतः सदैव\nपराक्रमे शत्रुभिरप्रधृष्यः ॥"
+          "text": "वातेन कुन्त्यां बलवान्स जातः\nशूरस्तरस्वी द्विषतां निहन्ता ।\nसत्ये च धर्मे च रतः सदैव\nपराक्रमे शत्रुभिरप्रधृष्यः ॥",
+          "meaning": {
+            "en": "Born to Kunti by the Wind, he was strong, a brave and swift slayer of foes, ever devoted to truth and dharma, unassailable by enemies in valour."
+          }
         },
         {
           "n": 18,
-          "text": "तेषां स मार्गान्विविधान्महात्मा\nनिहत्य शस्त्राणि च शात्रवाणाम् ।\nयथाप्रवीरान्निजघान वीरः\nपरःशतान्पुष्करिणीसमीपे ॥"
+          "text": "तेषां स मार्गान्विविधान्महात्मा\nनिहत्य शस्त्राणि च शात्रवाणाम् ।\nयथाप्रवीरान्निजघान वीरः\nपरःशतान्पुष्करिणीसमीपे ॥",
+          "meaning": {
+            "en": "The great-souled hero deflected their varied weapons and struck down hundreds of the enemy's champions near the lotus pool."
+          }
         },
         {
           "n": 19,
-          "text": "ते तस्य वीर्यं च बलं च दृष्ट्वा\nविद्याबलं बाहुबलं तथैव ।\nअशक्नुवन्तः सहिताः समन्ता-\nद्धतप्रवीराः सहसा निवृत्ताः ॥"
+          "text": "ते तस्य वीर्यं च बलं च दृष्ट्वा\nविद्याबलं बाहुबलं तथैव ।\nअशक्नुवन्तः सहिताः समन्ता-\nद्धतप्रवीराः सहसा निवृत्ताः ॥",
+          "meaning": {
+            "en": "Seeing his valour and strength, his skill and the power of his arms, they could not hold together; their champions slain, they suddenly gave way on all sides."
+          }
         },
         {
           "n": 20,
-          "text": "विदीर्यमाणास्तत एव तूर्ण-\nमाकाशमास्थाय विमूढसंज्ञाः ।\nकैलासशृङ्गाण्यभिदुद्रुवुस्ते\nभीमार्दिताः क्रोधवशाः प्रभग्नाः ॥"
+          "text": "विदीर्यमाणास्तत एव तूर्ण-\nमाकाशमास्थाय विमूढसंज्ञाः ।\nकैलासशृङ्गाण्यभिदुद्रुवुस्ते\nभीमार्दिताः क्रोधवशाः प्रभग्नाः ॥",
+          "meaning": {
+            "en": "Torn apart and confused, they rose quickly into the sky and fled to the peaks of Kailasa, the Krodhavashas broken and tormented by Bhima."
+          }
         },
         {
           "n": 21,
-          "text": "स शक्रवद्दानवदैत्यसंघा-\nन्विक्रम्य जित्वा च रणेऽरिसंघान् ।\nविगाह्य तां पुष्करिणीं जितारिः\nकामाय जग्राह ततोऽम्बुजानि ॥"
+          "text": "स शक्रवद्दानवदैत्यसंघा-\nन्विक्रम्य जित्वा च रणेऽरिसंघान् ।\nविगाह्य तां पुष्करिणीं जितारिः\nकामाय जग्राह ततोऽम्बुजानि ॥",
+          "meaning": {
+            "en": "Like Shakra, having overcome in battle hosts of danavas, daityas and enemies, and having defeated his foes, he entered that pool and then gathered the lotuses at his pleasure."
+          }
         },
         {
           "n": 22,
-          "text": "ततः स पीत्वामृतकल्पमम्भो\nभूयो बभूवोत्तमवीर्यतेजाः ।\nउत्पाट्य जग्राह ततोऽम्बुजानि\nसौगन्धिकान्युत्तमगन्धवन्ति ॥"
+          "text": "ततः स पीत्वामृतकल्पमम्भो\nभूयो बभूवोत्तमवीर्यतेजाः ।\nउत्पाट्य जग्राह ततोऽम्बुजानि\nसौगन्धिकान्युत्तमगन्धवन्ति ॥",
+          "meaning": {
+            "en": "Then, having drunk the nectar-like water, he again became strong with supreme vigour and splendour; he plucked and took the saugandhika lotuses of the finest scent."
+          }
         },
         {
           "n": 23,
-          "text": "ततस्तु ते क्रोधवशाः समेत्य\nधनेश्वरं भीमबलप्रणुन्नाः ।\nभीमस्य वीर्यं च बलं च संख्ये\nयथावदाचख्युरतीव दीनाः ॥"
+          "text": "ततस्तु ते क्रोधवशाः समेत्य\nधनेश्वरं भीमबलप्रणुन्नाः ।\nभीमस्य वीर्यं च बलं च संख्ये\nयथावदाचख्युरतीव दीनाः ॥",
+          "meaning": {
+            "en": "Then the Krodhavashas gathered, driven off by Bhima's strength, and, very wretched, told the lord of wealth truly of Bhima's valour and power in the fight."
+          }
         },
         {
           "n": 24,
-          "text": "तेषां वचस्तत्तु निशम्य देवः\nप्रहस्य रक्षांशि ततोऽभ्युवाच ।\nगृह्णातु भीमो जलजानि कामं\nकृष्णानिमित्तं विदितं ममैतत् ॥"
+          "text": "तेषां वचस्तत्तु निशम्य देवः\nप्रहस्य रक्षांशि ततोऽभ्युवाच ।\nगृह्णातु भीमो जलजानि कामं\nकृष्णानिमित्तं विदितं ममैतत् ॥",
+          "meaning": {
+            "en": "Hearing their words, the god laughed and said to the rakshasas: \"Let Bhima take the lotuses as he wishes. I know this is for Krishna's sake.\""
+          }
         },
         {
           "n": 25,
-          "text": "ततोऽभ्यनुज्ञाय धनेश्वरं ते\nजग्मुः कुरूणां प्रवरं विरोषाः ।\nभीमं च तस्यां ददृशुर्नलिन्यां\nयथोपजोषं विहरन्तमेकम् ॥"
+          "text": "ततोऽभ्यनुज्ञाय धनेश्वरं ते\nजग्मुः कुरूणां प्रवरं विरोषाः ।\nभीमं च तस्यां ददृशुर्नलिन्यां\nयथोपजोषं विहरन्तमेकम् ॥",
+          "meaning": {
+            "en": "Then, permitting it by the lord of wealth, they went without anger to the best of the Kurus, and saw Bhima alone in that pool, sporting as he pleased."
+          }
         }
       ]
     }

@@ -22,103 +22,178 @@
       "titleEn": "Amshavatarana Parva (Partial incarnations)",
       "verses": [
         {
-          "text": "सूत उवाच"
+          "text": "सूत उवाच",
+          "meaning": {
+            "en": "Suta said:"
+          }
         },
         {
           "n": 1,
-          "text": "श्रुत्वा तु सर्पसत्राय दीक्षितं जनमेजयम् ।\nअभ्यागच्छदृषिर्विद्वान्कृष्णद्वैपायनस्तदा ॥"
+          "text": "श्रुत्वा तु सर्पसत्राय दीक्षितं जनमेजयम् ।\nअभ्यागच्छदृषिर्विद्वान्कृष्णद्वैपायनस्तदा ॥",
+          "meaning": {
+            "en": "Hearing that Janamejaya had been consecrated for the snake sacrifice, the learned sage Krishna Dvaipayana then came."
+          }
         },
         {
           "n": 2,
-          "text": "जनयामास यं काली शक्तेः पुत्रात्पराशरात् ।\nकन्यैव यमुनाद्वीपे पाण्डवानां पितामहम् ॥"
+          "text": "जनयामास यं काली शक्तेः पुत्रात्पराशरात् ।\nकन्यैव यमुनाद्वीपे पाण्डवानां पितामहम् ॥",
+          "meaning": {
+            "en": "He was the one whom Kali bore, while still a maiden, on an island in the Yamuna, to Parashara, son of Shakti; he is the grandfather of the Pandavas."
+          }
         },
         {
           "n": 3,
-          "text": "जातमात्रश्च यः सद्य इष्ट्या देहमवीवृधत् ।\nवेदांश्चाधिजगे साङ्गान्सेतिहासान्महायशाः ॥"
+          "text": "जातमात्रश्च यः सद्य इष्ट्या देहमवीवृधत् ।\nवेदांश्चाधिजगे साङ्गान्सेतिहासान्महायशाः ॥",
+          "meaning": {
+            "en": "As soon as he was born, he grew his body by his own will, and he mastered the Vedas with their branches and the histories, of great fame."
+          }
         },
         {
           "n": 4,
-          "text": "यं नातितपसा कश्चिन्न वेदाध्ययनेन च ।\nन व्रतैर्नोपवासैश्च न प्रसूत्या न मन्युना ॥"
+          "text": "यं नातितपसा कश्चिन्न वेदाध्ययनेन च ।\nन व्रतैर्नोपवासैश्च न प्रसूत्या न मन्युना ॥",
+          "meaning": {
+            "en": "No one has equaled him, neither by great austerity, nor by Vedic study, nor by vows, nor by fasts, nor by lineage, nor by anger."
+          }
         },
         {
           "n": 5,
-          "text": "विव्यासैकं चतुर्धा यो वेदं वेदविदां वरः ।\nपरावरज्ञो ब्रह्मर्षिः कविः सत्यव्रतः शुचिः ॥"
+          "text": "विव्यासैकं चतुर्धा यो वेदं वेदविदां वरः ।\nपरावरज्ञो ब्रह्मर्षिः कविः सत्यव्रतः शुचिः ॥",
+          "meaning": {
+            "en": "He divided the one Veda into four, the best of Veda knowers, a brahmin sage who knew the higher and the lower, a poet, true to his vows and pure."
+          }
         },
         {
           "n": 6,
-          "text": "यः पाण्डुं धृतराष्ट्रं च विदुरं चाप्यजीजनत् ।\nशंतनोः संततिं तन्वन्पुण्यकीर्तिर्महायशाः ॥"
+          "text": "यः पाण्डुं धृतराष्ट्रं च विदुरं चाप्यजीजनत् ।\nशंतनोः संततिं तन्वन्पुण्यकीर्तिर्महायशाः ॥",
+          "meaning": {
+            "en": "He begot Pandu, Dhritarashtra and Vidura, continuing the line of Shantanu, a man of holy fame and great renown."
+          }
         },
         {
           "n": 7,
-          "text": "जनमेजयस्य राजर्षेः स तद्यज्ञसदस्तदा ।\nविवेश शिष्यैः सहितो वेदवेदाङ्गपारगैः ॥"
+          "text": "जनमेजयस्य राजर्षेः स तद्यज्ञसदस्तदा ।\nविवेश शिष्यैः सहितो वेदवेदाङ्गपारगैः ॥",
+          "meaning": {
+            "en": "He entered the sacrificial assembly of the royal sage Janamejaya then, together with his disciples, who had mastered the Vedas and their branches."
+          }
         },
         {
           "n": 8,
-          "text": "तत्र राजानमासीनं ददर्श जनमेजयम् ।\nवृतं सदस्यैर्बहुभिर्देवैरिव पुरंदरम् ॥"
+          "text": "तत्र राजानमासीनं ददर्श जनमेजयम् ।\nवृतं सदस्यैर्बहुभिर्देवैरिव पुरंदरम् ॥",
+          "meaning": {
+            "en": "There he saw King Janamejaya seated, surrounded by many assembly members, like Indra among the gods."
+          }
         },
         {
           "n": 9,
-          "text": "तथा मूर्धावसिक्तैश्च नानाजनपदेश्वरैः ।\nऋत्विग्भिर्देवकल्पैश्च कुशलैर्यज्ञसंस्तरे ॥"
+          "text": "तथा मूर्धावसिक्तैश्च नानाजनपदेश्वरैः ।\nऋत्विग्भिर्देवकल्पैश्च कुशलैर्यज्ञसंस्तरे ॥",
+          "meaning": {
+            "en": "He saw also kings consecrated on their heads, lords of many realms, and priests like gods, skilled at the sacrificial ground."
+          }
         },
         {
           "n": 10,
-          "text": "जनमेजयस्तु राजर्षिर्दृष्ट्वा तमृषिमागतम् ।\nसगणोऽभ्युद्ययौ तूर्णं प्रीत्या भरतसत्तमः ॥"
+          "text": "जनमेजयस्तु राजर्षिर्दृष्ट्वा तमृषिमागतम् ।\nसगणोऽभ्युद्ययौ तूर्णं प्रीत्या भरतसत्तमः ॥",
+          "meaning": {
+            "en": "The royal sage Janamejaya, best of the Bharatas, seeing the sage arrive, hurried up with his followers, joyfully."
+          }
         },
         {
           "n": 11,
-          "text": "काञ्चनं विष्टरं तस्मै सदस्यानुमते प्रभुः ।\nआसनं कल्पयामास यथा शक्रो बृहस्पतेः ॥"
+          "text": "काञ्चनं विष्टरं तस्मै सदस्यानुमते प्रभुः ।\nआसनं कल्पयामास यथा शक्रो बृहस्पतेः ॥",
+          "meaning": {
+            "en": "With the assembly's approval the lord prepared for him a golden seat, as Indra did for Brihaspati."
+          }
         },
         {
           "n": 12,
-          "text": "तत्रोपविष्टं वरदं देवर्षिगणपूजितम् ।\nपूजयामास राजेन्द्रः शास्त्रदृष्टेन कर्मणा ॥"
+          "text": "तत्रोपविष्टं वरदं देवर्षिगणपूजितम् ।\nपूजयामास राजेन्द्रः शास्त्रदृष्टेन कर्मणा ॥",
+          "meaning": {
+            "en": "As the giver of boons sat there, honored by hosts of divine sages, the king of kings honored him by the rites shown in the scriptures."
+          }
         },
         {
           "n": 13,
-          "text": "पाद्यमाचमनीयं च अर्घ्यं गां च विधानतः ।\nपितामहाय कृष्णाय तदर्हाय न्यवेदयत् ॥"
+          "text": "पाद्यमाचमनीयं च अर्घ्यं गां च विधानतः ।\nपितामहाय कृष्णाय तदर्हाय न्यवेदयत् ॥",
+          "meaning": {
+            "en": "He offered water for the feet, water for rinsing, the guest offering and a cow, as prescribed, to his great-grandfather Krishna, who deserved them."
+          }
         },
         {
           "n": 14,
-          "text": "प्रतिगृह्य च तां पूजां पाण्डवाज्जनमेजयात् ।\nगां चैव समनुज्ञाय व्यासः प्रीतोऽभवत्तदा ॥"
+          "text": "प्रतिगृह्य च तां पूजां पाण्डवाज्जनमेजयात् ।\nगां चैव समनुज्ञाय व्यासः प्रीतोऽभवत्तदा ॥",
+          "meaning": {
+            "en": "Having accepted that honor from Janamejaya, the Pandava, and having let the cow go, Vyasa was pleased."
+          }
         },
         {
           "n": 15,
-          "text": "तथा संपूजयित्वा तं यत्नेन प्रपितामहम् ।\nउपोपविश्य प्रीतात्मा पर्यपृच्छदनामयम् ॥"
+          "text": "तथा संपूजयित्वा तं यत्नेन प्रपितामहम् ।\nउपोपविश्य प्रीतात्मा पर्यपृच्छदनामयम् ॥",
+          "meaning": {
+            "en": "Having honored his great-grandfather with care, the king sat near him and, glad at heart, asked after his welfare."
+          }
         },
         {
           "n": 16,
-          "text": "भगवानपि तं दृष्ट्वा कुशलं प्रतिवेद्य च ।\nसदस्यैः पूजितः सर्वैः सदस्यानभ्यपूजयत् ॥"
+          "text": "भगवानपि तं दृष्ट्वा कुशलं प्रतिवेद्य च ।\nसदस्यैः पूजितः सर्वैः सदस्यानभ्यपूजयत् ॥",
+          "meaning": {
+            "en": "The revered one too, having seen him and answered that he was well, and been honored by all the assembly, honored the assembly in turn."
+          }
         },
         {
           "n": 17,
-          "text": "ततस्तं सत्कृतं सर्वैः सदस्यैर्जनमेजयः ।\nइदं पश्चाद्द्विजश्रेष्ठं पर्यपृच्छत्कृताञ्जलिः ॥"
+          "text": "ततस्तं सत्कृतं सर्वैः सदस्यैर्जनमेजयः ।\nइदं पश्चाद्द्विजश्रेष्ठं पर्यपृच्छत्कृताञ्जलिः ॥",
+          "meaning": {
+            "en": "Then, when all the assembly members had paid their respects, Janamejaya, with folded hands, asked this of the best of brahmins."
+          }
         },
         {
           "n": 18,
-          "text": "कुरूणां पाण्डवानां च भवान्प्रत्यक्षदर्शिवान् ।\nतेषां चरितमिच्छामि कथ्यमानं त्वया द्विज ॥"
+          "text": "कुरूणां पाण्डवानां च भवान्प्रत्यक्षदर्शिवान् ।\nतेषां चरितमिच्छामि कथ्यमानं त्वया द्विज ॥",
+          "meaning": {
+            "en": "\"You saw with your own eyes the Kurus and the Pandavas. Brahmin, I wish to hear their deeds told by you.\""
+          }
         },
         {
           "n": 19,
-          "text": "कथं समभवद्भेदस्तेषामक्लिष्टकर्मणाम् ।\nतच्च युद्धं कथं वृत्तं भूतान्तकरणं महत् ॥"
+          "text": "कथं समभवद्भेदस्तेषामक्लिष्टकर्मणाम् ।\nतच्च युद्धं कथं वृत्तं भूतान्तकरणं महत् ॥",
+          "meaning": {
+            "en": "\"How did the quarrel arise among those of untroubled deeds? And how did that great war, which ended the lives of creatures, come about?\""
+          }
         },
         {
           "n": 20,
-          "text": "पितामहानां सर्वेषां दैवेनाविष्टचेतसाम् ।\nकार्त्स्न्येनैतत्समाचक्ष्व भगवन्कुशलो ह्यसि ॥"
+          "text": "पितामहानां सर्वेषां दैवेनाविष्टचेतसाम् ।\nकार्त्स्न्येनैतत्समाचक्ष्व भगवन्कुशलो ह्यसि ॥",
+          "meaning": {
+            "en": "\"Among all my forefathers, whose minds were seized by fate, tell it entire, lord; for you are skilled.\""
+          }
         },
         {
           "n": 21,
-          "text": "तस्य तद्वचनं श्रुत्वा कृष्णद्वैपायनस्तदा ।\nशशास शिष्यमासीनं वैशंपायनमन्तिके ॥"
+          "text": "तस्य तद्वचनं श्रुत्वा कृष्णद्वैपायनस्तदा ।\nशशास शिष्यमासीनं वैशंपायनमन्तिके ॥",
+          "meaning": {
+            "en": "Hearing his words, Krishna Dvaipayana then instructed his disciple Vaishampayana, who sat nearby."
+          }
         },
         {
           "n": 22,
-          "text": "कुरूणां पाण्डवानां च यथा भेदोऽभवत्पुरा ।\nतदस्मै सर्वमाचक्ष्व यन्मत्तः श्रुतवानसि ॥"
+          "text": "कुरूणां पाण्डवानां च यथा भेदोऽभवत्पुरा ।\nतदस्मै सर्वमाचक्ष्व यन्मत्तः श्रुतवानसि ॥",
+          "meaning": {
+            "en": "\"Tell him all about how the quarrel arose long ago between the Kurus and the Pandavas, all that you have heard from me.\""
+          }
         },
         {
           "n": 23,
-          "text": "गुरोर्वचनमाज्ञाय स तु विप्रर्षभस्तदा ।\nआचचक्षे ततः सर्वमितिहासं पुरातनम् ॥"
+          "text": "गुरोर्वचनमाज्ञाय स तु विप्रर्षभस्तदा ।\nआचचक्षे ततः सर्वमितिहासं पुरातनम् ॥",
+          "meaning": {
+            "en": "Taking his teacher's word, that bull among brahmins then told the whole ancient history."
+          }
         },
         {
           "n": 24,
-          "text": "तस्मै राज्ञे सदस्येभ्यः क्षत्रियेभ्यश्च सर्वशः ।\nभेदं राज्यविनाशं च कुरुपाण्डवयोस्तदा ॥"
+          "text": "तस्मै राज्ञे सदस्येभ्यः क्षत्रियेभ्यश्च सर्वशः ।\nभेदं राज्यविनाशं च कुरुपाण्डवयोस्तदा ॥",
+          "meaning": {
+            "en": "To that king, to the assembly members and to the kshatriyas all around, he told of the quarrel and of the ruin of the kingdom of the Kurus and the Pandavas."
+          }
         }
       ]
     }

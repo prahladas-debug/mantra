@@ -22,115 +22,205 @@
       "titleEn": "Anudyuta Parva (The second dice game)",
       "verses": [
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 1,
-          "text": "ततो व्यध्वगतं पार्थं प्रातिकामी युधिष्ठिरम् ।\nउवाच वचनाद्राज्ञो धृतराष्ट्रस्य धीमतः ॥"
+          "text": "ततो व्यध्वगतं पार्थं प्रातिकामी युधिष्ठिरम् ।\nउवाच वचनाद्राज्ञो धृतराष्ट्रस्य धीमतः ॥",
+          "meaning": {
+            "en": "Then the messenger Pratikamin, by the order of the wise King Dhritarashtra, said to Partha Yudhishthira, who had gone part of the way."
+          }
         },
         {
           "n": 2,
-          "text": "उपस्तीर्णा सभा राजन्नक्षानुप्त्वा युधिष्ठिर ।\nएहि पाण्डव दीव्येति पिता त्वामाह भारत ॥"
+          "text": "उपस्तीर्णा सभा राजन्नक्षानुप्त्वा युधिष्ठिर ।\nएहि पाण्डव दीव्येति पिता त्वामाह भारत ॥",
+          "meaning": {
+            "en": "The hall is spread, king; the dice are to be cast, Yudhishthira. Your father says: Come, Pandava, and play."
+          }
         },
         {
-          "text": "युधिष्ठिर उवाच"
+          "text": "युधिष्ठिर उवाच",
+          "meaning": {
+            "en": "Yudhishthira said:"
+          }
         },
         {
           "n": 3,
-          "text": "धातुर्नियोगाद्भूतानि प्राप्नुवन्ति शुभाशुभम् ।\nन निवृत्तिस्तयोरस्ति देवितव्यं पुनर्यदि ॥"
+          "text": "धातुर्नियोगाद्भूतानि प्राप्नुवन्ति शुभाशुभम् ।\nन निवृत्तिस्तयोरस्ति देवितव्यं पुनर्यदि ॥",
+          "meaning": {
+            "en": "By the Creator's ordinance, beings meet good and bad; there is no escaping them if one must play again."
+          }
         },
         {
           "n": 4,
-          "text": "अक्षद्यूते समाह्वानं नियोगात्स्थविरस्य च ।\nजानन्नपि क्षयकरं नातिक्रमितुमुत्सहे ॥"
+          "text": "अक्षद्यूते समाह्वानं नियोगात्स्थविरस्य च ।\nजानन्नपि क्षयकरं नातिक्रमितुमुत्सहे ॥",
+          "meaning": {
+            "en": "This summons to dice, by an elder's command, though I know it brings ruin, I cannot bring myself to refuse."
+          }
         },
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 5,
-          "text": "इति ब्रुवन्निववृते भ्रातृभिः सह पाण्डवः ।\nजानंश्च शकुनेर्मायां पार्थो द्यूतमियात्पुनः ॥"
+          "text": "इति ब्रुवन्निववृते भ्रातृभिः सह पाण्डवः ।\nजानंश्च शकुनेर्मायां पार्थो द्यूतमियात्पुनः ॥",
+          "meaning": {
+            "en": "Saying so, the Pandava turned back with his brothers. Though he knew Shakuni's trickery, Partha went again to the game."
+          }
         },
         {
           "n": 6,
-          "text": "विविशुस्ते सभां तां तु पुनरेव महारथाः ।\nव्यथयन्ति स्म चेतांसि सुहृदां भरतर्षभाः ॥"
+          "text": "विविशुस्ते सभां तां तु पुनरेव महारथाः ।\nव्यथयन्ति स्म चेतांसि सुहृदां भरतर्षभाः ॥",
+          "meaning": {
+            "en": "Those great warriors entered that hall once more, bulls of the Bharatas, pained at heart for their friends."
+          }
         },
         {
           "n": 7,
-          "text": "यथोपजोषमासीनाः पुनर्द्यूतप्रवृत्तये ।\nसर्वलोकविनाशाय दैवेनोपनिपीडिताः ॥"
+          "text": "यथोपजोषमासीनाः पुनर्द्यूतप्रवृत्तये ।\nसर्वलोकविनाशाय दैवेनोपनिपीडिताः ॥",
+          "meaning": {
+            "en": "Seated as was pleasing, to begin the game again, pressed on by fate for the destruction of all the world."
+          }
         },
         {
-          "text": "शकुनिरुवाच"
+          "text": "शकुनिरुवाच",
+          "meaning": {
+            "en": "Shakuni said:"
+          }
         },
         {
           "n": 8,
-          "text": "अमुञ्चत्स्थविरो यद्वो धनं पूजितमेव तत् ।\nमहाधनं ग्लहं त्वेकं शृणु मे भरतर्षभ ॥"
+          "text": "अमुञ्चत्स्थविरो यद्वो धनं पूजितमेव तत् ।\nमहाधनं ग्लहं त्वेकं शृणु मे भरतर्षभ ॥",
+          "meaning": {
+            "en": "The old king has released your wealth, and that is honored. Hear from me, bull of the Bharatas, one great stake."
+          }
         },
         {
           "n": 9,
-          "text": "वयं द्वादश वर्षाणि युष्माभिर्द्यूतनिर्जिताः ।\nप्रविशेम महारण्यं रौरवाजिनवाससः ॥"
+          "text": "वयं द्वादश वर्षाणि युष्माभिर्द्यूतनिर्जिताः ।\nप्रविशेम महारण्यं रौरवाजिनवाससः ॥",
+          "meaning": {
+            "en": "If we are defeated by you at dice, we shall enter the great forest for twelve years, wearing the skins of ruru deer."
+          }
         },
         {
           "n": 10,
-          "text": "त्रयोदशं च सजने अज्ञाताः परिवत्सरम् ।\nज्ञाताश्च पुनरन्यानि वने वर्षाणि द्वादश ॥"
+          "text": "त्रयोदशं च सजने अज्ञाताः परिवत्सरम् ।\nज्ञाताश्च पुनरन्यानि वने वर्षाणि द्वादश ॥",
+          "meaning": {
+            "en": "And in the thirteenth year we shall live unknown among people, and if recognized, spend twelve more years in the forest."
+          }
         },
         {
           "n": 11,
-          "text": "अस्माभिर्वा जिता यूयं वने वर्षाणि द्वादश ।\nवसध्वं कृष्णया सार्धमजिनैः प्रतिवासिताः ॥"
+          "text": "अस्माभिर्वा जिता यूयं वने वर्षाणि द्वादश ।\nवसध्वं कृष्णया सार्धमजिनैः प्रतिवासिताः ॥",
+          "meaning": {
+            "en": "Or if you are defeated by us, you shall live in the forest twelve years with Krishna, clothed in deerskins."
+          }
         },
         {
           "n": 12,
-          "text": "त्रयोदशे च निर्वृत्ते पुनरेव यथोचितम् ।\nस्वराज्यं प्रतिपत्तव्यमितरैरथ वेतरैः ॥"
+          "text": "त्रयोदशे च निर्वृत्ते पुनरेव यथोचितम् ।\nस्वराज्यं प्रतिपत्तव्यमितरैरथ वेतरैः ॥",
+          "meaning": {
+            "en": "When the thirteenth year has passed, each side shall regain its kingdom as is proper, whichever side it is."
+          }
         },
         {
           "n": 13,
-          "text": "अनेन व्यवसायेन सहास्माभिर्युधिष्ठिर ।\nअक्षानुप्त्वा पुनर्द्यूतमेहि दीव्यस्व भारत ॥"
+          "text": "अनेन व्यवसायेन सहास्माभिर्युधिष्ठिर ।\nअक्षानुप्त्वा पुनर्द्यूतमेहि दीव्यस्व भारत ॥",
+          "meaning": {
+            "en": "On these terms, Yudhishthira, come and play again with us, casting the dice, Bharata."
+          }
         },
         {
-          "text": "सभासद ऊचुः"
+          "text": "सभासद ऊचुः",
+          "meaning": {
+            "en": "The assembly members said:"
+          }
         },
         {
           "n": 14,
-          "text": "अहो धिग्बान्धवा नैनं बोधयन्ति महद्भयम् ।\nबुद्ध्या बोध्यं न बुध्यन्ते स्वयं च भरतर्षभाः ॥"
+          "text": "अहो धिग्बान्धवा नैनं बोधयन्ति महद्भयम् ।\nबुद्ध्या बोध्यं न बुध्यन्ते स्वयं च भरतर्षभाः ॥",
+          "meaning": {
+            "en": "Alas! Shame on his kinsmen, who do not warn him of the great danger. The bulls of the Bharatas do not understand, though the matter can be understood by reason."
+          }
         },
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 15,
-          "text": "जनप्रवादान्सुबहूनिति शृण्वन्नराधिपः ।\nह्रिया च धर्मसङ्गाच्च पार्थो द्यूतमियात्पुनः ॥"
+          "text": "जनप्रवादान्सुबहूनिति शृण्वन्नराधिपः ।\nह्रिया च धर्मसङ्गाच्च पार्थो द्यूतमियात्पुनः ॥",
+          "meaning": {
+            "en": "Hearing many such remarks of the people, and out of shame and attachment to dharma, Partha went again to the game."
+          }
         },
         {
           "n": 16,
-          "text": "जानन्नपि महाबुद्धिः पुनर्द्यूतमवर्तयत् ।\nअप्ययं न विनाशः स्यात्कुरूणामिति चिन्तयन् ॥"
+          "text": "जानन्नपि महाबुद्धिः पुनर्द्यूतमवर्तयत् ।\nअप्ययं न विनाशः स्यात्कुरूणामिति चिन्तयन् ॥",
+          "meaning": {
+            "en": "Though greatly wise and knowing the danger, he played again, thinking, May the Kurus not be destroyed by this."
+          }
         },
         {
-          "text": "युधिष्ठिर उवाच"
+          "text": "युधिष्ठिर उवाच",
+          "meaning": {
+            "en": "Yudhishthira said:"
+          }
         },
         {
           "n": 17,
-          "text": "कथं वै मद्विधो राजा स्वधर्ममनुपालयन् ।\nआहूतो विनिवर्तेत दीव्यामि शकुने त्वया ॥"
+          "text": "कथं वै मद्विधो राजा स्वधर्ममनुपालयन् ।\nआहूतो विनिवर्तेत दीव्यामि शकुने त्वया ॥",
+          "meaning": {
+            "en": "How could a king like me, who follows his own dharma, turn away when summoned? I will play with you, Shakuni."
+          }
         },
         {
-          "text": "शकुनिरुवाच"
+          "text": "शकुनिरुवाच",
+          "meaning": {
+            "en": "Shakuni said:"
+          }
         },
         {
           "n": 18,
-          "text": "गवाश्वं बहुधेनूकमपर्यन्तमजाविकम् ।\nगजाः कोशो हिरण्यं च दासीदासं च सर्वशः ॥"
+          "text": "गवाश्वं बहुधेनूकमपर्यन्तमजाविकम् ।\nगजाः कोशो हिरण्यं च दासीदासं च सर्वशः ॥",
+          "meaning": {
+            "en": "Cattle, horses, many milch cows, goats and sheep without limit, elephants, treasury, gold, and maids and menservants of every kind,"
+          }
         },
         {
           "n": 19,
-          "text": "एष नो ग्लह एवैको वनवासाय पाण्डवाः ।\nयूयं वयं वा विजिता वसेम वनमाश्रिताः ॥"
+          "text": "एष नो ग्लह एवैको वनवासाय पाण्डवाः ।\nयूयं वयं वा विजिता वसेम वनमाश्रिताः ॥",
+          "meaning": {
+            "en": "This is our single stake, Pandavas, for the forest: you or we, defeated, shall live resorting to the forest."
+          }
         },
         {
           "n": 20,
-          "text": "अनेन व्यवसायेन दीव्याम भरतर्षभ ।\nसमुत्क्षेपेण चैकेन वनवासाय भारत ॥"
+          "text": "अनेन व्यवसायेन दीव्याम भरतर्षभ ।\nसमुत्क्षेपेण चैकेन वनवासाय भारत ॥",
+          "meaning": {
+            "en": "On these terms, bull of the Bharatas, let us play, with a single throw, for the forest life, Bharata."
+          }
         },
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 21,
-          "text": "प्रतिजग्राह तं पार्थो ग्लहं जग्राह सौबलः ।\nजितमित्येव शकुनिर्युधिष्ठिरमभाषत ॥"
+          "text": "प्रतिजग्राह तं पार्थो ग्लहं जग्राह सौबलः ।\nजितमित्येव शकुनिर्युधिष्ठिरमभाषत ॥",
+          "meaning": {
+            "en": "Partha accepted that stake, and Subala's son took the dice. Shakuni said to Yudhishthira, I have won."
+          }
         }
       ]
     }

@@ -22,91 +22,157 @@
       "titleEn": "Jatugriha Parva (The house of lac)",
       "verses": [
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 1,
-          "text": "विदुरस्य सुहृत्कश्चित्खनकः कुशलः क्वचित् ।\nविविक्ते पाण्डवान्राजन्निदं वचनमब्रवीत् ॥"
+          "text": "विदुरस्य सुहृत्कश्चित्खनकः कुशलः क्वचित् ।\nविविक्ते पाण्डवान्राजन्निदं वचनमब्रवीत् ॥",
+          "meaning": {
+            "en": "A certain skilled miner, a friend of Vidura, came to the Pandavas in private, O king, and spoke these words."
+          }
         },
         {
           "n": 2,
-          "text": "प्रहितो विदुरेणास्मि खनकः कुशलो भृशम् ।\nपाण्डवानां प्रियं कार्यमिति किं करवाणि वः ॥"
+          "text": "प्रहितो विदुरेणास्मि खनकः कुशलो भृशम् ।\nपाण्डवानां प्रियं कार्यमिति किं करवाणि वः ॥",
+          "meaning": {
+            "en": "'I am a very able digger sent by Vidura. He said I should do what pleases the Pandavas, so what shall I do for you?"
+          }
         },
         {
           "n": 3,
-          "text": "प्रच्छन्नं विदुरेणोक्तः श्रेयस्त्वमिह पाण्डवान् ।\nप्रतिपादय विश्वासादिति किं करवाणि वः ॥"
+          "text": "प्रच्छन्नं विदुरेणोक्तः श्रेयस्त्वमिह पाण्डवान् ।\nप्रतिपादय विश्वासादिति किं करवाणि वः ॥",
+          "meaning": {
+            "en": "'Vidura told me secretly: Do the Pandavas good here, and win their trust. So what shall I do for you?"
+          }
         },
         {
           "n": 4,
-          "text": "कृष्णपक्षे चतुर्दश्यां रात्रावस्य पुरोचनः ।\nभवनस्य तव द्वारि प्रदास्यति हुताशनम् ॥"
+          "text": "कृष्णपक्षे चतुर्दश्यां रात्रावस्य पुरोचनः ।\nभवनस्य तव द्वारि प्रदास्यति हुताशनम् ॥",
+          "meaning": {
+            "en": "'On the fourteenth day of the dark fortnight, at night, Purochana will set fire at the door of your house."
+          }
         },
         {
           "n": 5,
-          "text": "मात्रा सह प्रदग्धव्याः पाण्डवाः पुरुषर्षभाः ।\nइति व्यवसितं पार्थ धार्तराष्ट्रस्य मे श्रुतम् ॥"
+          "text": "मात्रा सह प्रदग्धव्याः पाण्डवाः पुरुषर्षभाः ।\nइति व्यवसितं पार्थ धार्तराष्ट्रस्य मे श्रुतम् ॥",
+          "meaning": {
+            "en": "'The Pandavas, bulls among men, are to be burned along with their mother. Son of Pritha, I have heard this to be the sons of Dhritarashtra's resolve."
+          }
         },
         {
           "n": 6,
-          "text": "किंचिच्च विदुरेणोक्तो म्लेच्छवाचासि पाण्डव ।\nत्वया च तत्तथेत्युक्तमेतद्विश्वासकारणम् ॥"
+          "text": "किंचिच्च विदुरेणोक्तो म्लेच्छवाचासि पाण्डव ।\nत्वया च तत्तथेत्युक्तमेतद्विश्वासकारणम् ॥",
+          "meaning": {
+            "en": "'Vidura also told you something in the speech of the mlecchas, Pandava, and you answered 'So be it.' Let that be the proof of my good faith.'"
+          }
         },
         {
           "n": 7,
-          "text": "उवाच तं सत्यधृतिः कुन्तीपुत्रो युधिष्ठिरः ।\nअभिजानामि सौम्य त्वां सुहृदं विदुरस्य वै ॥"
+          "text": "उवाच तं सत्यधृतिः कुन्तीपुत्रो युधिष्ठिरः ।\nअभिजानामि सौम्य त्वां सुहृदं विदुरस्य वै ॥",
+          "meaning": {
+            "en": "Yudhishthira, son of Kunti and steadfast in truth, answered him: 'Gentle friend, I know you to be Vidura's friend."
+          }
         },
         {
           "n": 8,
-          "text": "शुचिमाप्तं प्रियं चैव सदा च दृढभक्तिकम् ।\nन विद्यते कवेः किंचिदभिज्ञानप्रयोजनम् ॥"
+          "text": "शुचिमाप्तं प्रियं चैव सदा च दृढभक्तिकम् ।\nन विद्यते कवेः किंचिदभिज्ञानप्रयोजनम् ॥",
+          "meaning": {
+            "en": "'You are pure, trustworthy, dear to him, and ever firmly loyal. The wise Vidura needs no further token of recognition."
+          }
         },
         {
           "n": 9,
-          "text": "यथा नः स तथा नस्त्वं निर्विशेषा वयं त्वयि ।\nभवतः स्म यथा तस्य पालयास्मान्यथा कविः ॥"
+          "text": "यथा नः स तथा नस्त्वं निर्विशेषा वयं त्वयि ।\nभवतः स्म यथा तस्य पालयास्मान्यथा कविः ॥",
+          "meaning": {
+            "en": "'As he is to us, so are you; we are no different to you. We are yours as we are his; protect us as the wise Vidura would."
+          }
         },
         {
           "n": 10,
-          "text": "इदं शरणमाग्नेयं मदर्थमिति मे मतिः ।\nपुरोचनेन विहितं धार्तराष्ट्रस्य शासनात् ॥"
+          "text": "इदं शरणमाग्नेयं मदर्थमिति मे मतिः ।\nपुरोचनेन विहितं धार्तराष्ट्रस्य शासनात् ॥",
+          "meaning": {
+            "en": "'I judge that this fiery lodging was made for me by Purochana at the command of Dhritarashtra's son."
+          }
         },
         {
           "n": 11,
-          "text": "स पापः कोशवांश्चैव ससहायश्च दुर्मतिः ।\nअस्मानपि च दुष्टात्मा नित्यकालं प्रबाधते ॥"
+          "text": "स पापः कोशवांश्चैव ससहायश्च दुर्मतिः ।\nअस्मानपि च दुष्टात्मा नित्यकालं प्रबाधते ॥",
+          "meaning": {
+            "en": "'That sinner, ill-minded and wicked, has treasure and helpers, and he torments us constantly."
+          }
         },
         {
           "n": 12,
-          "text": "स भवान्मोक्षयत्वस्मान्यत्नेनास्माद्धुताशनात् ।\nअस्मास्विह हि दग्धेषु सकामः स्यात्सुयोधनः ॥"
+          "text": "स भवान्मोक्षयत्वस्मान्यत्नेनास्माद्धुताशनात् ।\nअस्मास्विह हि दग्धेषु सकामः स्यात्सुयोधनः ॥",
+          "meaning": {
+            "en": "'So free us from this fire with all your effort; for if we are burned here, Suyodhana would have his wish."
+          }
         },
         {
           "n": 13,
-          "text": "समृद्धमायुधागारमिदं तस्य दुरात्मनः ।\nवप्रान्ते निष्प्रतीकारमाश्लिष्येदं कृतं महत् ॥"
+          "text": "समृद्धमायुधागारमिदं तस्य दुरात्मनः ।\nवप्रान्ते निष्प्रतीकारमाश्लिष्येदं कृतं महत् ॥",
+          "meaning": {
+            "en": "'This house of that evil man is full of arms. It was built hugging the rampart wall, and there is no remedy from outside."
+          }
         },
         {
           "n": 14,
-          "text": "इदं तदशुभं नूनं तस्य कर्म चिकीर्षितम् ।\nप्रागेव विदुरो वेद तेनास्मानन्वबोधयत् ॥"
+          "text": "इदं तदशुभं नूनं तस्य कर्म चिकीर्षितम् ।\nप्रागेव विदुरो वेद तेनास्मानन्वबोधयत् ॥",
+          "meaning": {
+            "en": "'Surely this is the foul deed he means to carry out. Vidura knew it beforehand, and so he warned us."
+          }
         },
         {
           "n": 15,
-          "text": "सेयमापदनुप्राप्ता क्षत्ता यां दृष्टवान्पुरा ।\nपुरोचनस्याविदितानस्मांस्त्वं विप्रमोचय ॥"
+          "text": "सेयमापदनुप्राप्ता क्षत्ता यां दृष्टवान्पुरा ।\nपुरोचनस्याविदितानस्मांस्त्वं विप्रमोचय ॥",
+          "meaning": {
+            "en": "'Now the very peril that Kshatta foresaw has come. Free us from it without Purochana knowing.'"
+          }
         },
         {
           "n": 16,
-          "text": "स तथेति प्रतिश्रुत्य खनको यत्नमास्थितः ।\nपरिखामुत्किरन्नाम चकार सुमहद्बिलम् ॥"
+          "text": "स तथेति प्रतिश्रुत्य खनको यत्नमास्थितः ।\nपरिखामुत्किरन्नाम चकार सुमहद्बिलम् ॥",
+          "meaning": {
+            "en": "The miner promised 'So be it' and set to work with effort. Pretending to clear the moat, he dug a very large tunnel."
+          }
         },
         {
           "n": 17,
-          "text": "चक्रे च वेश्मनस्तस्य मध्ये नातिमहन्मुखम् ।\nकपाटयुक्तमज्ञातं समं भूम्या च भारत ॥"
+          "text": "चक्रे च वेश्मनस्तस्य मध्ये नातिमहन्मुखम् ।\nकपाटयुक्तमज्ञातं समं भूम्या च भारत ॥",
+          "meaning": {
+            "en": "In the middle of that house he made an opening, not large, fitted with a door, hidden, and level with the floor, O Bharata."
+          }
         },
         {
           "n": 18,
-          "text": "पुरोचनभयाच्चैव व्यदधात्संवृतं मुखम् ।\nस तत्र च गृहद्वारि वसत्यशुभधीः सदा ॥"
+          "text": "पुरोचनभयाच्चैव व्यदधात्संवृतं मुखम् ।\nस तत्र च गृहद्वारि वसत्यशुभधीः सदा ॥",
+          "meaning": {
+            "en": "For fear of Purochana he kept the opening covered. And that evil-minded man lived always at the house's door."
+          }
         },
         {
           "n": 19,
-          "text": "तत्र ते सायुधाः सर्वे वसन्ति स्म क्षपां नृप ।\nदिवा चरन्ति मृगयां पाण्डवेया वनाद्वनम् ॥"
+          "text": "तत्र ते सायुधाः सर्वे वसन्ति स्म क्षपां नृप ।\nदिवा चरन्ति मृगयां पाण्डवेया वनाद्वनम् ॥",
+          "meaning": {
+            "en": "The Pandavas lay there at night with their weapons, O king, and by day they roamed hunting from forest to forest."
+          }
         },
         {
           "n": 20,
-          "text": "विश्वस्तवदविश्वस्ता वञ्चयन्तः पुरोचनम् ।\nअतुष्टास्तुष्टवद्राजन्नूषुः परमदुःखिताः ॥"
+          "text": "विश्वस्तवदविश्वस्ता वञ्चयन्तः पुरोचनम् ।\nअतुष्टास्तुष्टवद्राजन्नूषुः परमदुःखिताः ॥",
+          "meaning": {
+            "en": "Trusting in appearance though not trusting, deceiving Purochana, they lived there, dissatisfied but seeming content, in great distress."
+          }
         },
         {
           "n": 21,
-          "text": "न चैनानन्वबुध्यन्त नरा नगरवासिनः ।\nअन्यत्र विदुरामात्यात्तस्मात्खनकसत्तमात् ॥"
+          "text": "न चैनानन्वबुध्यन्त नरा नगरवासिनः ।\nअन्यत्र विदुरामात्यात्तस्मात्खनकसत्तमात् ॥",
+          "meaning": {
+            "en": "No townsman noticed any of this, except Vidura's minister, that best of miners."
+          }
         }
       ]
     }

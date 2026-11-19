@@ -22,75 +22,132 @@
       "titleEn": "Astika Parva",
       "verses": [
         {
-          "text": "सूत उवाच"
+          "text": "सूत उवाच",
+          "meaning": {
+            "en": "Suta's son said:"
+          }
         },
         {
           "n": 1,
-          "text": "इत्युक्तो गरुडः सर्पैस्ततो मातरमब्रवीत् ।\nगच्छाम्यमृतमाहर्तुं भक्ष्यमिच्छामि वेदितुम् ॥"
+          "text": "इत्युक्तो गरुडः सर्पैस्ततो मातरमब्रवीत् ।\nगच्छाम्यमृतमाहर्तुं भक्ष्यमिच्छामि वेदितुम् ॥",
+          "meaning": {
+            "en": "Told this by the serpents, Garuda said to his mother, \"I am going to fetch the nectar. I want to know what I may eat.\""
+          }
         },
         {
-          "text": "विनतोवाच"
+          "text": "विनतोवाच",
+          "meaning": {
+            "en": "Vinata said:"
+          }
         },
         {
           "n": 2,
-          "text": "समुद्रकुक्षावेकान्ते निषादालयमुत्तमम् ।\nसहस्राणामनेकानां तान्भुक्त्वामृतमानय ॥"
+          "text": "समुद्रकुक्षावेकान्ते निषादालयमुत्तमम् ।\nसहस्राणामनेकानां तान्भुक्त्वामृतमानय ॥",
+          "meaning": {
+            "en": "\"In a secluded spot in the ocean's depths is a great settlement of Nishadas, many thousands of them. Eat them, and then bring the nectar."
+          }
         },
         {
           "n": 3,
-          "text": "न तु ते ब्राह्मणं हन्तुं कार्या बुद्धिः कथंचन ।\nअवध्यः सर्वभूतानां ब्राह्मणो ह्यनलोपमः ॥"
+          "text": "न तु ते ब्राह्मणं हन्तुं कार्या बुद्धिः कथंचन ।\nअवध्यः सर्वभूतानां ब्राह्मणो ह्यनलोपमः ॥",
+          "meaning": {
+            "en": "But you must never think of killing a brahmin. No creature may kill a brahmin; he is like fire."
+          }
         },
         {
           "n": 4,
-          "text": "अग्निरर्को विषं शस्त्रं विप्रो भवति कोपितः ।\nभूतानामग्रभुग्विप्रो वर्णश्रेष्ठः पिता गुरुः ॥"
+          "text": "अग्निरर्को विषं शस्त्रं विप्रो भवति कोपितः ।\nभूतानामग्रभुग्विप्रो वर्णश्रेष्ठः पिता गुरुः ॥",
+          "meaning": {
+            "en": "An angered brahmin is fire, the sun, poison, a weapon. The brahmin is first to eat among beings, best of the classes, a father and teacher.\""
+          }
         },
         {
-          "text": "गरुड उवाच"
+          "text": "गरुड उवाच",
+          "meaning": {
+            "en": "Garuda said:"
+          }
         },
         {
           "n": 5,
-          "text": "यथाहमभिजानीयां ब्राह्मणं लक्षणैः शुभैः ।\nतन्मे कारणतो मातः पृच्छतो वक्तुमर्हसि ॥"
+          "text": "यथाहमभिजानीयां ब्राह्मणं लक्षणैः शुभैः ।\nतन्मे कारणतो मातः पृच्छतो वक्तुमर्हसि ॥",
+          "meaning": {
+            "en": "\"Mother, by what good signs can I recognize a brahmin? I am asking, so please tell me.\""
+          }
         },
         {
-          "text": "विनतोवाच"
+          "text": "विनतोवाच",
+          "meaning": {
+            "en": "Vinata said:"
+          }
         },
         {
           "n": 6,
-          "text": "यस्ते कण्ठमनुप्राप्तो निगीर्णं बडिशं यथा ।\nदहेदङ्गारवत्पुत्र तं विद्याद्ब्राह्मणर्षभम् ॥"
+          "text": "यस्ते कण्ठमनुप्राप्तो निगीर्णं बडिशं यथा ।\nदहेदङ्गारवत्पुत्र तं विद्याद्ब्राह्मणर्षभम् ॥",
+          "meaning": {
+            "en": "\"The one who, once swallowed, sticks in your throat like a fishhook and burns like a live coal, my son, know him as the best of brahmins.\""
+          }
         },
         {
-          "text": "सूत उवाच"
+          "text": "सूत उवाच",
+          "meaning": {
+            "en": "Suta's son said:"
+          }
         },
         {
           "n": 7,
-          "text": "प्रोवाच चैनं विनता पुत्रहार्दादिदं वचः ।\nजानन्त्यप्यतुलं वीर्यमाशीर्वादसमन्वितम् ॥"
+          "text": "प्रोवाच चैनं विनता पुत्रहार्दादिदं वचः ।\nजानन्त्यप्यतुलं वीर्यमाशीर्वादसमन्वितम् ॥",
+          "meaning": {
+            "en": "Though she knew his matchless might, Vinata, out of love for her son, spoke these words with her blessing:"
+          }
         },
         {
           "n": 8,
-          "text": "पक्षौ ते मारुतः पातु चन्द्रः पृष्ठं तु पुत्रक ।\nशिरस्तु पातु ते वह्निर्भास्करः सर्वमेव तु ॥"
+          "text": "पक्षौ ते मारुतः पातु चन्द्रः पृष्ठं तु पुत्रक ।\nशिरस्तु पातु ते वह्निर्भास्करः सर्वमेव तु ॥",
+          "meaning": {
+            "en": "\"May the wind guard your wings, my son, the moon your back, fire your head, and the sun all of you."
+          }
         },
         {
           "n": 9,
-          "text": "अहं च ते सदा पुत्र शान्तिस्वस्तिपरायणा ।\nअरिष्टं व्रज पन्थानं वत्स कार्यार्थसिद्धये ॥"
+          "text": "अहं च ते सदा पुत्र शान्तिस्वस्तिपरायणा ।\nअरिष्टं व्रज पन्थानं वत्स कार्यार्थसिद्धये ॥",
+          "meaning": {
+            "en": "And I, my son, will always be intent on peace and your welfare. Go, child, by a safe road, to accomplish your task.\""
+          }
         },
         {
           "n": 10,
-          "text": "ततः स मातुर्वचनं निशम्य\nवितत्य पक्षौ नभ उत्पपात ।\nततो निषादान्बलवानुपागम-\nद्बुभुक्षितः काल इवान्तको महान् ॥"
+          "text": "ततः स मातुर्वचनं निशम्य\nवितत्य पक्षौ नभ उत्पपात ।\nततो निषादान्बलवानुपागम-\nद्बुभुक्षितः काल इवान्तको महान् ॥",
+          "meaning": {
+            "en": "Hearing his mother's words, he spread his wings and rose into the sky. Then, hungry, the mighty one came upon the Nishadas like great Death, the ender."
+          }
         },
         {
           "n": 11,
-          "text": "स तान्निषादानुपसंहरंस्तदा\nरजः समुद्धूय नभःस्पृशं महत् ।\nसमुद्रकुक्षौ च विशोषयन्पयः\nसमीपगान्भूमिधरान्विचालयन् ॥"
+          "text": "स तान्निषादानुपसंहरंस्तदा\nरजः समुद्धूय नभःस्पृशं महत् ।\nसमुद्रकुक्षौ च विशोषयन्पयः\nसमीपगान्भूमिधरान्विचालयन् ॥",
+          "meaning": {
+            "en": "He destroyed those Nishadas, raising a great dust that touched the sky, drying up the water in the ocean's depths and shaking the mountains nearby."
+          }
         },
         {
           "n": 12,
-          "text": "ततः स चक्रे महदाननं तदा\nनिषादमार्गं प्रतिरुध्य पक्षिराट् ।\nततो निषादास्त्वरिताः प्रवव्रजु-\nर्यतो मुखं तस्य भुजंगभोजिनः ॥"
+          "text": "ततः स चक्रे महदाननं तदा\nनिषादमार्गं प्रतिरुध्य पक्षिराट् ।\nततो निषादास्त्वरिताः प्रवव्रजु-\nर्यतो मुखं तस्य भुजंगभोजिनः ॥",
+          "meaning": {
+            "en": "The king of birds then opened his huge mouth, blocking the Nishadas' way. The Nishadas rushed in a hurry toward the mouth of that snake-eater."
+          }
         },
         {
           "n": 13,
-          "text": "तदाननं विवृतमतिप्रमाणव-\nत्समभ्ययुर्गगनमिवार्दिताः खगाः ।\nसहस्रशः पवनरजोभ्रमोहिता\nमहानिलप्रचलितपादपे वने ॥"
+          "text": "तदाननं विवृतमतिप्रमाणव-\nत्समभ्ययुर्गगनमिवार्दिताः खगाः ।\nसहस्रशः पवनरजोभ्रमोहिता\nमहानिलप्रचलितपादपे वने ॥",
+          "meaning": {
+            "en": "Tormented, they flew into the huge open mouth by thousands, like birds into the sky, bewildered by the wind-borne dust, in a forest where trees shook in a great wind."
+          }
         },
         {
           "n": 14,
-          "text": "ततः खगो वदनममित्रतापनः\nसमाहरत्परिचपलो महाबलः ।\nनिषूदयन्बहुविधमत्स्यभक्षिणो\nबुभुक्षितो गगनचरेश्वरस्तदा ॥"
+          "text": "ततः खगो वदनममित्रतापनः\nसमाहरत्परिचपलो महाबलः ।\nनिषूदयन्बहुविधमत्स्यभक्षिणो\nबुभुक्षितो गगनचरेश्वरस्तदा ॥",
+          "meaning": {
+            "en": "Then the mighty bird, tormentor of foes, swift in motion, closed his mouth, killing those many fish-eaters; hungry, he was lord of the sky-goers."
+          }
         }
       ]
     }

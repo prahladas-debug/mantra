@@ -22,120 +22,210 @@
       "titleEn": "Kairata Parva (The mountain hunter)",
       "verses": [
         {
-          "text": "भगवानुवाच"
+          "text": "भगवानुवाच",
+          "meaning": {
+            "en": "The blessed one said:"
+          }
         },
         {
           "n": 1,
-          "text": "नरस्त्वं पूर्वदेहे वै नारायणसहायवान् ।\nबदर्यां तप्तवानुग्रं तपो वर्षायुतान्बहून् ॥"
+          "text": "नरस्त्वं पूर्वदेहे वै नारायणसहायवान् ।\nबदर्यां तप्तवानुग्रं तपो वर्षायुतान्बहून् ॥",
+          "meaning": {
+            "en": "\"In your former body you were Nara, with Narayana as your companion, and you practiced fierce austerity at Badari for many tens of thousands of years.\""
+          }
         },
         {
           "n": 2,
-          "text": "त्वयि वा परमं तेजो विष्णौ वा पुरुषोत्तमे ।\nयुवाभ्यां पुरुषाग्र्याभ्यां तेजसा धार्यते जगत् ॥"
+          "text": "त्वयि वा परमं तेजो विष्णौ वा पुरुषोत्तमे ।\nयुवाभ्यां पुरुषाग्र्याभ्यां तेजसा धार्यते जगत् ॥",
+          "meaning": {
+            "en": "\"The supreme energy is in you, or in Vishnu, the best of beings; by the energy of you two, foremost of men, the world is upheld.\""
+          }
         },
         {
           "n": 3,
-          "text": "शक्राभिषेके सुमहद्धनुर्जलदनिस्वनम् ।\nप्रगृह्य दानवाः शस्तास्त्वया कृष्णेन च प्रभो ॥"
+          "text": "शक्राभिषेके सुमहद्धनुर्जलदनिस्वनम् ।\nप्रगृह्य दानवाः शस्तास्त्वया कृष्णेन च प्रभो ॥",
+          "meaning": {
+            "en": "\"At Shakra's consecration, taking that very great bow with a voice like a thundercloud, you and Krishna, lord, slew the danavas.\""
+          }
         },
         {
           "n": 4,
-          "text": "एतत्तदेव गाण्डीवं तव पार्थ करोचितम् ।\nमायामास्थाय यद्ग्रस्तं मया पुरुषसत्तम ।\nतूणौ चाप्यक्षयौ भूयस्तव पार्थ यथोचितौ ॥"
+          "text": "एतत्तदेव गाण्डीवं तव पार्थ करोचितम् ।\nमायामास्थाय यद्ग्रस्तं मया पुरुषसत्तम ।\nतूणौ चाप्यक्षयौ भूयस्तव पार्थ यथोचितौ ॥",
+          "meaning": {
+            "en": "\"This is that same Gandiva, Partha, fit for your hand, which I swallowed by taking on an illusion, best of men; and the two quivers, Partha, are again inexhaustible and as befits you.\""
+          }
         },
         {
           "n": 5,
-          "text": "प्रीतिमानस्मि वै पार्थ तव सत्यपराक्रम ।\nगृहाण वरमस्मत्तः काङ्क्षितं यन्नरर्षभ ॥"
+          "text": "प्रीतिमानस्मि वै पार्थ तव सत्यपराक्रम ।\nगृहाण वरमस्मत्तः काङ्क्षितं यन्नरर्षभ ॥",
+          "meaning": {
+            "en": "\"I am pleased with you, Partha, of true valor; take from me any boon you wish, bull among men.\""
+          }
         },
         {
           "n": 6,
-          "text": "न त्वया सदृशः कश्चित्पुमान्मर्त्येषु मानद ।\nदिवि वा विद्यते क्षत्रं त्वत्प्रधानमरिंदम ॥"
+          "text": "न त्वया सदृशः कश्चित्पुमान्मर्त्येषु मानद ।\nदिवि वा विद्यते क्षत्रं त्वत्प्रधानमरिंदम ॥",
+          "meaning": {
+            "en": "\"No man among mortals, honorer of others, equals you, nor among the warriors in heaven is there one with you as chief, scourge of enemies.\""
+          }
         },
         {
-          "text": "अर्जुन उवाच"
+          "text": "अर्जुन उवाच",
+          "meaning": {
+            "en": "Arjuna said:"
+          }
         },
         {
           "n": 7,
-          "text": "भगवन्ददासि चेन्मह्यं कामं प्रीत्या वृषध्वज ।\nकामये दिव्यमस्त्रं तद्घोरं पाशुपतं प्रभो ॥"
+          "text": "भगवन्ददासि चेन्मह्यं कामं प्रीत्या वृषध्वज ।\nकामये दिव्यमस्त्रं तद्घोरं पाशुपतं प्रभो ॥",
+          "meaning": {
+            "en": "\"Blessed one, bull-bannered, if you give me a wish out of your favor, I desire that dreadful divine weapon, the Pashupata, lord.\""
+          }
         },
         {
           "n": 8,
-          "text": "यत्तद्ब्रह्मशिरो नाम रौद्रं भीमपराक्रमम् ।\nयुगान्ते दारुणे प्राप्ते कृत्स्नं संहरते जगत् ॥"
+          "text": "यत्तद्ब्रह्मशिरो नाम रौद्रं भीमपराक्रमम् ।\nयुगान्ते दारुणे प्राप्ते कृत्स्नं संहरते जगत् ॥",
+          "meaning": {
+            "en": "\"That which is called Brahmashiras, terrible and of fearsome power, which at the end of an age, when the dread time comes, withdraws the entire world,\""
+          }
         },
         {
           "n": 9,
-          "text": "दहेयं येन संग्रामे दानवान्राक्षसांस्तथा ।\nभूतानि च पिशाचांश्च गन्धर्वानथ पन्नगान् ॥"
+          "text": "दहेयं येन संग्रामे दानवान्राक्षसांस्तथा ।\nभूतानि च पिशाचांश्च गन्धर्वानथ पन्नगान् ॥",
+          "meaning": {
+            "en": "\"with which I could burn in battle the danavas and rakshasas, creatures, pishachas, gandharvas and serpents,\""
+          }
         },
         {
           "n": 10,
-          "text": "यतः शूलसहस्राणि गदाश्चोग्रप्रदर्शनाः ।\nशराश्चाशीविषाकाराः संभवन्त्यनुमन्त्रिताः ॥"
+          "text": "यतः शूलसहस्राणि गदाश्चोग्रप्रदर्शनाः ।\nशराश्चाशीविषाकाराः संभवन्त्यनुमन्त्रिताः ॥",
+          "meaning": {
+            "en": "\"from which, when charged with mantras, thousands of spears, fierce-looking maces and arrows like venomous snakes arise,\""
+          }
         },
         {
           "n": 11,
-          "text": "युध्येयं येन भीष्मेण द्रोणेन च कृपेण च ।\nसूतपुत्रेण च रणे नित्यं कटुकभाषिणा ॥"
+          "text": "युध्येयं येन भीष्मेण द्रोणेन च कृपेण च ।\nसूतपुत्रेण च रणे नित्यं कटुकभाषिणा ॥",
+          "meaning": {
+            "en": "\"with which I could fight Bhishma, Drona, Kripa, and the charioteer's son, always harsh in speech, in battle.\""
+          }
         },
         {
           "n": 12,
-          "text": "एष मे प्रथमः कामो भगवन्भगनेत्रहन् ।\nत्वत्प्रसादाद्विनिर्वृत्तः समर्थः स्यामहं यथा ॥"
+          "text": "एष मे प्रथमः कामो भगवन्भगनेत्रहन् ।\nत्वत्प्रसादाद्विनिर्वृत्तः समर्थः स्यामहं यथा ॥",
+          "meaning": {
+            "en": "\"This is my first wish, blessed one, destroyer of Bhaga's eyes; by your grace may it be fulfilled, so that I may be capable.\""
+          }
         },
         {
-          "text": "भगवानुवाच"
+          "text": "भगवानुवाच",
+          "meaning": {
+            "en": "The blessed one said:"
+          }
         },
         {
           "n": 13,
-          "text": "ददानि तेऽस्त्रं दयितमहं पाशुपतं महत् ।\nसमर्थो धारणे मोक्षे संहारे चापि पाण्डव ॥"
+          "text": "ददानि तेऽस्त्रं दयितमहं पाशुपतं महत् ।\nसमर्थो धारणे मोक्षे संहारे चापि पाण्डव ॥",
+          "meaning": {
+            "en": "\"I give you my dear great Pashupata weapon, Pandava; you are able to hold it, to release it and to withdraw it.\""
+          }
         },
         {
           "n": 14,
-          "text": "नैतद्वेद महेन्द्रोऽपि न यमो न च यक्षराट् ।\nवरुणो वाथ वा वायुः कुतो वेत्स्यन्ति मानवाः ॥"
+          "text": "नैतद्वेद महेन्द्रोऽपि न यमो न च यक्षराट् ।\nवरुणो वाथ वा वायुः कुतो वेत्स्यन्ति मानवाः ॥",
+          "meaning": {
+            "en": "\"Not even Mahendra knows it, nor Yama, nor the king of the yakshas, nor Varuna or Vayu; how then will mortals?\""
+          }
         },
         {
           "n": 15,
-          "text": "न त्वेतत्सहसा पार्थ मोक्तव्यं पुरुषे क्वचित् ।\nजगद्विनिर्दहेत्सर्वमल्पतेजसि पातितम् ॥"
+          "text": "न त्वेतत्सहसा पार्थ मोक्तव्यं पुरुषे क्वचित् ।\nजगद्विनिर्दहेत्सर्वमल्पतेजसि पातितम् ॥",
+          "meaning": {
+            "en": "\"But Partha, this must never be loosed suddenly at any man; hurled at one of little might, it would burn the whole world.\""
+          }
         },
         {
           "n": 16,
-          "text": "अवध्यो नाम नास्त्यस्य त्रैलोक्ये सचराचरे ।\nमनसा चक्षुषा वाचा धनुषा च निपात्यते ॥"
+          "text": "अवध्यो नाम नास्त्यस्य त्रैलोक्ये सचराचरे ।\nमनसा चक्षुषा वाचा धनुषा च निपात्यते ॥",
+          "meaning": {
+            "en": "\"In the three worlds with all moving and unmoving things there is none who cannot be slain by it; it is launched by mind, by eye, by word and by bow.\""
+          }
         },
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 17,
-          "text": "तच्छ्रुत्वा त्वरितः पार्थः शुचिर्भूत्वा समाहितः ।\nउपसंगृह्य विश्वेशमधीष्वेति च सोऽब्रवीत् ॥"
+          "text": "तच्छ्रुत्वा त्वरितः पार्थः शुचिर्भूत्वा समाहितः ।\nउपसंगृह्य विश्वेशमधीष्वेति च सोऽब्रवीत् ॥",
+          "meaning": {
+            "en": "Hearing that, Partha, quickly and pure and attentive, clasped the lord of the universe's feet and said, \"Teach me.\""
+          }
         },
         {
           "n": 18,
-          "text": "ततस्त्वध्यापयामास सरहस्य निवर्तनम् ।\nतदस्त्रं पाण्डवश्रेष्ठं मूर्तिमन्तमिवान्तकम् ॥"
+          "text": "ततस्त्वध्यापयामास सरहस्य निवर्तनम् ।\nतदस्त्रं पाण्डवश्रेष्ठं मूर्तिमन्तमिवान्तकम् ॥",
+          "meaning": {
+            "en": "Then he taught the best of the Pandavas that weapon, with its secret and its withdrawal, like Death himself embodied."
+          }
         },
         {
           "n": 19,
-          "text": "उपतस्थे महात्मानं यथा त्र्यक्षमुमापतिम् ।\nप्रतिजग्राह तच्चापि प्रीतिमानर्जुनस्तदा ॥"
+          "text": "उपतस्थे महात्मानं यथा त्र्यक्षमुमापतिम् ।\nप्रतिजग्राह तच्चापि प्रीतिमानर्जुनस्तदा ॥",
+          "meaning": {
+            "en": "Arjuna stood by the great-souled one, as he would by the three-eyed lord of Uma, and gladly received it."
+          }
         },
         {
           "n": 20,
-          "text": "ततश्चचाल पृथिवी सपर्वतवनद्रुमा ।\nससागरवनोद्देशा सग्रामनगराकरा ॥"
+          "text": "ततश्चचाल पृथिवी सपर्वतवनद्रुमा ।\nससागरवनोद्देशा सग्रामनगराकरा ॥",
+          "meaning": {
+            "en": "Then the earth with its mountains, forests and trees, with oceans, groves, villages, cities and mines, trembled."
+          }
         },
         {
           "n": 21,
-          "text": "शङ्खदुन्दुभिघोषाश्च भेरीणां च सहस्रशः ।\nतस्मिन्मुहूर्ते संप्राप्ते निर्घातश्च महानभूत् ॥"
+          "text": "शङ्खदुन्दुभिघोषाश्च भेरीणां च सहस्रशः ।\nतस्मिन्मुहूर्ते संप्राप्ते निर्घातश्च महानभूत् ॥",
+          "meaning": {
+            "en": "At that moment the sound of conches and kettledrums and thousands of drums arose, and a great crash of thunder was heard."
+          }
         },
         {
           "n": 22,
-          "text": "अथास्त्रं जाज्वलद्घोरं पाण्डवस्यामितौजसः ।\nमूर्तिमद्विष्ठितं पार्श्वे ददृशुर्देवदानवाः ॥"
+          "text": "अथास्त्रं जाज्वलद्घोरं पाण्डवस्यामितौजसः ।\nमूर्तिमद्विष्ठितं पार्श्वे ददृशुर्देवदानवाः ॥",
+          "meaning": {
+            "en": "Then gods and danavas saw the blazing, dreadful weapon of the Pandava of boundless might standing embodied at his side."
+          }
         },
         {
           "n": 23,
-          "text": "स्पृष्टस्य च त्र्यम्बकेन फल्गुनस्यामितौजसः ।\nयत्किंचिदशुभं देहे तत्सर्वं नाशमेयिवत् ॥"
+          "text": "स्पृष्टस्य च त्र्यम्बकेन फल्गुनस्यामितौजसः ।\nयत्किंचिदशुभं देहे तत्सर्वं नाशमेयिवत् ॥",
+          "meaning": {
+            "en": "By the touch of Tryambaka, whatever inauspicious thing there was in the body of Phalguna of boundless might vanished entirely."
+          }
         },
         {
           "n": 24,
-          "text": "स्वर्गं गच्छेत्यनुज्ञातस्त्र्यम्बकेन तदार्जुनः ।\nप्रणम्य शिरसा पार्थः प्राञ्जलिर्देवमैक्षत ॥"
+          "text": "स्वर्गं गच्छेत्यनुज्ञातस्त्र्यम्बकेन तदार्जुनः ।\nप्रणम्य शिरसा पार्थः प्राञ्जलिर्देवमैक्षत ॥",
+          "meaning": {
+            "en": "Then, given leave by Tryambaka with the words \"Go to heaven,\" Arjuna bowed his head and, hands folded, gazed at the god."
+          }
         },
         {
           "n": 25,
-          "text": "ततः प्रभुस्त्रिदिवनिवासिनां वशी\nमहामतिर्गिरिश उमापतिः शिवः ।\nधनुर्महद्दितिजपिशाचसूदनं\nददौ भवः पुरुषवराय गाण्डिवम् ॥"
+          "text": "ततः प्रभुस्त्रिदिवनिवासिनां वशी\nमहामतिर्गिरिश उमापतिः शिवः ।\nधनुर्महद्दितिजपिशाचसूदनं\nददौ भवः पुरुषवराय गाण्डिवम् ॥",
+          "meaning": {
+            "en": "Then Bhava, the lord of the dwellers in heaven, self-controlled, of great mind, Lord of the Mountain, husband of Uma, Shiva, gave to the best of men the great bow Gandiva, destroyer of Diti's sons and pishachas."
+          }
         },
         {
           "n": 26,
-          "text": "ततः शुभं गिरिवरमीश्वरस्तदा\nसहोमया सिततटसानुकन्दरम् ।\nविहाय तं पतगमहर्षिसेवितं\nजगाम खं पुरुषवरस्य पश्यतः ॥"
+          "text": "ततः शुभं गिरिवरमीश्वरस्तदा\nसहोमया सिततटसानुकन्दरम् ।\nविहाय तं पतगमहर्षिसेवितं\nजगाम खं पुरुषवरस्य पश्यतः ॥",
+          "meaning": {
+            "en": "Then the Lord, with Uma, left that lovely best of mountains, with its white slopes, peaks and caves, frequented by birds and great sages, and went into the sky as the best of men looked on."
+          }
         }
       ]
     }

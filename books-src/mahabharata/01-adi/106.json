@@ -22,63 +22,123 @@
       "titleEn": "Sambhava Parva (Origins)",
       "verses": [
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:",
+            "hi": "वैशम्पायन बोले—"
+          }
         },
         {
           "n": 1,
-          "text": "धृतराष्ट्राभ्यनुज्ञातः स्वबाहुविजितं धनम् ।\nभीष्माय सत्यवत्यै च मात्रे चोपजहार सः ॥"
+          "text": "धृतराष्ट्राभ्यनुज्ञातः स्वबाहुविजितं धनम् ।\nभीष्माय सत्यवत्यै च मात्रे चोपजहार सः ॥",
+          "meaning": {
+            "en": "With Dhritarashtra's permission, Pandu presented the wealth won by his own arms to Bhishma, to Satyavati and to his mother.",
+            "hi": "धृतराष्ट्र की अनुमति से पांडु ने अपनी भुजाओं से जीता हुआ धन भीष्म, सत्यवती और अपनी माता को भेंट किया।"
+          }
         },
         {
           "n": 2,
-          "text": "विदुराय च वै पाण्डुः प्रेषयामास तद्धनम् ।\nसुहृदश्चापि धर्मात्मा धनेन समतर्पयत् ॥"
+          "text": "विदुराय च वै पाण्डुः प्रेषयामास तद्धनम् ।\nसुहृदश्चापि धर्मात्मा धनेन समतर्पयत् ॥",
+          "meaning": {
+            "en": "Pandu also sent some of that wealth to Vidura, and the righteous man pleased his friends with the wealth as well.",
+            "hi": "पांडु ने उस धन में से कुछ विदुर को भी भेजा, और धर्मात्मा विदुर ने भी उस धन से अपने मित्रों को संतुष्ट किया।"
+          }
         },
         {
           "n": 3,
-          "text": "ततः सत्यवतीं भीष्मः कौसल्यां च यशस्विनीम् ।\nशुभैः पाण्डुजितै रत्नैस्तोषयामास भारत ॥"
+          "text": "ततः सत्यवतीं भीष्मः कौसल्यां च यशस्विनीम् ।\nशुभैः पाण्डुजितै रत्नैस्तोषयामास भारत ॥",
+          "meaning": {
+            "en": "Then, O Bharata, Bhishma pleased Satyavati and the famous Kausalya with the fine jewels that Pandu had won.",
+            "hi": "हे भारत, फिर भीष्म ने पांडु के जीते हुए उत्तम रत्नों से सत्यवती और यशस्विनी कौसल्या को प्रसन्न किया।"
+          }
         },
         {
           "n": 4,
-          "text": "ननन्द माता कौसल्या तमप्रतिमतेजसम् ।\nजयन्तमिव पौलोमी परिष्वज्य नरर्षभम् ॥"
+          "text": "ननन्द माता कौसल्या तमप्रतिमतेजसम् ।\nजयन्तमिव पौलोमी परिष्वज्य नरर्षभम् ॥",
+          "meaning": {
+            "en": "Mother Kausalya rejoiced in him, of incomparable splendor, embracing that best of men as Paulomi embraced Jayanta.",
+            "hi": "माता कौसल्या अपने अनुपम तेज वाले पुत्र को देखकर आनंदित हो गईं, जैसे पौलोमी अपने पुत्र जयंत को गले लगाकर प्रसन्न होती है, वैसे ही उन्होंने उस नरश्रेष्ठ को गले लगाया।"
+          }
         },
         {
           "n": 5,
-          "text": "तस्य वीरस्य विक्रान्तैः सहस्रशतदक्षिणैः ।\nअश्वमेधशतैरीजे धृतराष्ट्रो महामखैः ॥"
+          "text": "तस्य वीरस्य विक्रान्तैः सहस्रशतदक्षिणैः ।\nअश्वमेधशतैरीजे धृतराष्ट्रो महामखैः ॥",
+          "meaning": {
+            "en": "Dhritarashtra performed hundreds of great Ashvamedha sacrifices, with gifts of hundreds of thousands, through the valor of that hero.",
+            "hi": "उस वीर के पराक्रम से धृतराष्ट्र ने सैकड़ों अश्वमेध यज्ञ किए, जिनमें सैकड़ों-हज़ारों की दक्षिणाएँ दी गईं।"
+          }
         },
         {
           "n": 6,
-          "text": "संप्रयुक्तश्च कुन्त्या च माद्र्या च भरतर्षभ ।\nजिततन्द्रीस्तदा पाण्डुर्बभूव वनगोचरः ॥"
+          "text": "संप्रयुक्तश्च कुन्त्या च माद्र्या च भरतर्षभ ।\nजिततन्द्रीस्तदा पाण्डुर्बभूव वनगोचरः ॥",
+          "meaning": {
+            "en": "Urged by Kunti and Madri, O best of the Bharatas, Pandu, having shaken off his sloth, then became a roamer of the forest.",
+            "hi": "हे भरतश्रेष्ठ, कुंती और माद्री की प्रेरणा से पांडु ने तब आलस्य त्याग दिया और वन में विचरने वाले बन गए।"
+          }
         },
         {
           "n": 7,
-          "text": "हित्वा प्रासादनिलयं शुभानि शयनानि च ।\nअरण्यनित्यः सततं बभूव मृगयापरः ॥"
+          "text": "हित्वा प्रासादनिलयं शुभानि शयनानि च ।\nअरण्यनित्यः सततं बभूव मृगयापरः ॥",
+          "meaning": {
+            "en": "Leaving his palace residence and fine beds, he became a constant dweller in the wilds, devoted to hunting.",
+            "hi": "महल के भवन और सुंदर शय्याएँ छोड़कर वे सदा वन में रहने लगे और शिकार में लगे रहने लगे।"
+          }
         },
         {
           "n": 8,
-          "text": "स चरन्दक्षिणं पार्श्वं रम्यं हिमवतो गिरेः ।\nउवास गिरिपृष्ठेषु महाशालवनेषु च ॥"
+          "text": "स चरन्दक्षिणं पार्श्वं रम्यं हिमवतो गिरेः ।\nउवास गिरिपृष्ठेषु महाशालवनेषु च ॥",
+          "meaning": {
+            "en": "Ranging over the lovely southern slope of the Himalaya, he lived on mountain ridges and in great sal forests.",
+            "hi": "हिमालय की सुंदर दक्षिणी ढलान पर विचरते हुए वे पर्वत की चोटियों पर और विशाल साल वनों में रहे।"
+          }
         },
         {
           "n": 9,
-          "text": "रराज कुन्त्या माद्र्या च पाण्डुः सह वने वसन् ।\nकरेण्वोरिव मध्यस्थः श्रीमान्पौरंदरो गजः ॥"
+          "text": "रराज कुन्त्या माद्र्या च पाण्डुः सह वने वसन् ।\nकरेण्वोरिव मध्यस्थः श्रीमान्पौरंदरो गजः ॥",
+          "meaning": {
+            "en": "Living in the forest with Kunti and Madri, Pandu shone like the splendid elephant of Indra standing between two cow-elephants.",
+            "hi": "वन में कुंती और माद्री के साथ रहते हुए पांडु ऐसे सुशोभित हो रहे थे, जैसे दो हथिनियों के बीच खड़ा तेजस्वी इंद्र का ऐरावत हाथी।"
+          }
         },
         {
           "n": 10,
-          "text": "भारतं सह भार्याभ्यां बाणखड्गधनुर्धरम् ।\nविचित्रकवचं वीरं परमास्त्रविदं नृपम् ।\nदेवोऽयमित्यमन्यन्त चरन्तं वनवासिनः ॥"
+          "text": "भारतं सह भार्याभ्यां बाणखड्गधनुर्धरम् ।\nविचित्रकवचं वीरं परमास्त्रविदं नृपम् ।\nदेवोऽयमित्यमन्यन्त चरन्तं वनवासिनः ॥",
+          "meaning": {
+            "en": "Seeing the Bharata with his two wives, bearing arrows, sword and bow, in wondrous armor, a hero skilled in the highest weapons, the forest dwellers thought, \"This is a god,\" as he wandered.",
+            "hi": "धनुष, बाण और तलवार धारण किए हुए, विचित्र कवच पहने, परम अस्त्रों के ज्ञाता, अपनी दो पत्नियों के साथ विचरते उस वीर भरतवंशी राजा को वनवासी लोग “यह तो देवता हैं” ऐसा मानते थे।"
+          }
         },
         {
           "n": 11,
-          "text": "तस्य कामांश्च भोगांश्च नरा नित्यमतन्द्रिताः ।\nउपजह्रुर्वनान्तेषु धृतराष्ट्रेण चोदिताः ॥"
+          "text": "तस्य कामांश्च भोगांश्च नरा नित्यमतन्द्रिताः ।\nउपजह्रुर्वनान्तेषु धृतराष्ट्रेण चोदिताः ॥",
+          "meaning": {
+            "en": "Men, urged by Dhritarashtra, constantly and tirelessly brought him what he wished for and his enjoyments at the forest's edge.",
+            "hi": "धृतराष्ट्र की प्रेरणा से मनुष्य निरंतर, आलस्य रहित होकर, वन के किनारों पर उनकी इच्छाओं और भोग की वस्तुएँ पहुँचाते थे।"
+          }
         },
         {
           "n": 12,
-          "text": "अथ पारशवीं कन्यां देवकस्य महीपतेः ।\nरूपयौवनसंपन्नां स शुश्रावापगासुतः ॥"
+          "text": "अथ पारशवीं कन्यां देवकस्य महीपतेः ।\nरूपयौवनसंपन्नां स शुश्रावापगासुतः ॥",
+          "meaning": {
+            "en": "Then the son of the river Ganga heard of a daughter of King Devaka, born of a Shudra woman, endowed with beauty and youth.",
+            "hi": "फिर गंगापुत्र भीष्म ने राजा देवक की एक कन्या के विषय में सुना, जो शूद्र-स्त्री से उत्पन्न थी और रूप तथा यौवन से संपन्न थी।"
+          }
         },
         {
           "n": 13,
-          "text": "ततस्तु वरयित्वा तामानाय्य पुरुषर्षभः ।\nविवाहं कारयामास विदुरस्य महामतेः ॥"
+          "text": "ततस्तु वरयित्वा तामानाय्य पुरुषर्षभः ।\nविवाहं कारयामास विदुरस्य महामतेः ॥",
+          "meaning": {
+            "en": "Having chosen her, that best of men brought her and had the wedding of the wise Vidura performed.",
+            "hi": "उसे वर चुनकर, पुरुषश्रेष्ठ भीष्म उसे ले आए और बुद्धिमान विदुर का विवाह करवा दिया।"
+          }
         },
         {
           "n": 14,
-          "text": "तस्यां चोत्पादयामास विदुरः कुरुनन्दनः ।\nपुत्रान्विनयसंपन्नानात्मनः सदृशान्गुणैः ॥"
+          "text": "तस्यां चोत्पादयामास विदुरः कुरुनन्दनः ।\nपुत्रान्विनयसंपन्नानात्मनः सदृशान्गुणैः ॥",
+          "meaning": {
+            "en": "Vidura, the joy of the Kurus, begot on her sons, well-mannered and equal to himself in qualities.",
+            "hi": "उस कन्या से कुरुनंदन विदुर ने विनय-संपन्न पुत्र उत्पन्न किए, जो गुणों में अपने समान थे।"
+          }
         }
       ]
     }

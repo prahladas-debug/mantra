@@ -22,66 +22,114 @@
       "titleEn": "Sambhava Parva (Origins)",
       "verses": [
         {
-          "text": "जनमेजय उवाच"
+          "text": "जनमेजय उवाच",
+          "meaning": {
+            "en": "Janamejaya said:"
+          }
         },
         {
           "n": 1,
-          "text": "त्वत्तः श्रुतमिदं ब्रह्मन्देवदानवरक्षसाम् ।\nअंशावतरणं सम्यग्गन्धर्वाप्सरसां तथा ॥"
+          "text": "त्वत्तः श्रुतमिदं ब्रह्मन्देवदानवरक्षसाम् ।\nअंशावतरणं सम्यग्गन्धर्वाप्सरसां तथा ॥",
+          "meaning": {
+            "en": "Brahmin, I have heard from you in full the descent of portions of the gods, Danavas, rakshasas, gandharvas and apsarases."
+          }
         },
         {
           "n": 2,
-          "text": "इमं तु भूय इच्छामि कुरूणां वंशमादितः ।\nकथ्यमानं त्वया विप्र विप्रर्षिगणसंनिधौ ॥"
+          "text": "इमं तु भूय इच्छामि कुरूणां वंशमादितः ।\nकथ्यमानं त्वया विप्र विप्रर्षिगणसंनिधौ ॥",
+          "meaning": {
+            "en": "Now I want to hear again, from the beginning, the line of the Kurus, told by you in the presence of the company of brahmin sages."
+          }
         },
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 3,
-          "text": "पौरवाणां वंशकरो दुःषन्तो नाम वीर्यवान् ।\nपृथिव्याश्चतुरन्ताया गोप्ता भरतसत्तम ॥"
+          "text": "पौरवाणां वंशकरो दुःषन्तो नाम वीर्यवान् ।\nपृथिव्याश्चतुरन्ताया गोप्ता भरतसत्तम ॥",
+          "meaning": {
+            "en": "The founder of a line of the Pauravas was the mighty Dushyanta, best of the Bharatas, protector of the earth to its four ends."
+          }
         },
         {
           "n": 4,
-          "text": "चतुर्भागं भुवः कृत्स्नं स भुङ्क्ते मनुजेश्वरः ।\nसमुद्रावरणांश्चापि देशान्स समितिंजयः ॥"
+          "text": "चतुर्भागं भुवः कृत्स्नं स भुङ्क्ते मनुजेश्वरः ।\nसमुद्रावरणांश्चापि देशान्स समितिंजयः ॥",
+          "meaning": {
+            "en": "That lord of men enjoyed a fourth of the whole earth, and the lands encircled by the ocean too, a winner in every assembly."
+          }
         },
         {
           "n": 5,
-          "text": "आम्लेच्छाटविकान्सर्वान्स भुङ्क्ते रिपुमर्दनः ।\nरत्नाकरसमुद्रान्तांश्चातुर्वर्ण्यजनावृतान् ॥"
+          "text": "आम्लेच्छाटविकान्सर्वान्स भुङ्क्ते रिपुमर्दनः ।\nरत्नाकरसमुद्रान्तांश्चातुर्वर्ण्यजनावृतान् ॥",
+          "meaning": {
+            "en": "That crusher of foes enjoyed all the lands, wild and forested ones included, up to the sea, the source of jewels, filled with people of the four classes."
+          }
         },
         {
           "n": 6,
-          "text": "न वर्णसंकरकरो नाकृष्यकरकृज्जनः ।\nन पापकृत्कश्चिदासीत्तस्मिन्राजनि शासति ॥"
+          "text": "न वर्णसंकरकरो नाकृष्यकरकृज्जनः ।\nन पापकृत्कश्चिदासीत्तस्मिन्राजनि शासति ॥",
+          "meaning": {
+            "en": "No one mixed the classes, no one lived without tilling the soil and paying taxes, and no one did evil while that king ruled."
+          }
         },
         {
           "n": 7,
-          "text": "धर्म्यां रतिं सेवमाना धर्मार्थावभिपेदिरे ।\nतदा नरा नरव्याघ्र तस्मिञ्जनपदेश्वरे ॥"
+          "text": "धर्म्यां रतिं सेवमाना धर्मार्थावभिपेदिरे ।\nतदा नरा नरव्याघ्र तस्मिञ्जनपदेश्वरे ॥",
+          "meaning": {
+            "en": "Following lawful pleasure, tiger among men, people then pursued both dharma and wealth under that lord of the land."
+          }
         },
         {
           "n": 8,
-          "text": "नासीच्चोरभयं तात न क्षुधाभयमण्वपि ।\nनासीद्व्याधिभयं चापि तस्मिञ्जनपदेश्वरे ॥"
+          "text": "नासीच्चोरभयं तात न क्षुधाभयमण्वपि ।\nनासीद्व्याधिभयं चापि तस्मिञ्जनपदेश्वरे ॥",
+          "meaning": {
+            "en": "Dear one, there was no fear of thieves, not the least fear of hunger, and no fear of disease under that lord of the land."
+          }
         },
         {
           "n": 9,
-          "text": "स्वैर्धर्मै रेमिरे वर्णा दैवे कर्मणि निःस्पृहाः ।\nतमाश्रित्य महीपालमासंश्चैवाकुतोभयाः ॥"
+          "text": "स्वैर्धर्मै रेमिरे वर्णा दैवे कर्मणि निःस्पृहाः ।\nतमाश्रित्य महीपालमासंश्चैवाकुतोभयाः ॥",
+          "meaning": {
+            "en": "The classes delighted in their own duties and were without craving in rites for the gods; relying on that king, they were fearless."
+          }
         },
         {
           "n": 10,
-          "text": "कालवर्षी च पर्जन्यः सस्यानि फलवन्ति च ।\nसर्वरत्नसमृद्धा च मही वसुमती तदा ॥"
+          "text": "कालवर्षी च पर्जन्यः सस्यानि फलवन्ति च ।\nसर्वरत्नसमृद्धा च मही वसुमती तदा ॥",
+          "meaning": {
+            "en": "The rain-god rained in due season, the crops bore fruit, and the earth was then rich with every jewel."
+          }
         },
         {
           "n": 11,
-          "text": "स चाद्भुतमहावीर्यो वज्रसंहननो युवा ।\nउद्यम्य मन्दरं दोर्भ्यां हरेत्सवनकाननम् ॥"
+          "text": "स चाद्भुतमहावीर्यो वज्रसंहननो युवा ।\nउद्यम्य मन्दरं दोर्भ्यां हरेत्सवनकाननम् ॥",
+          "meaning": {
+            "en": "Marvelous in power, with body as hard as the thunderbolt, young, he could lift Mount Mandara with his arms, with its woods and groves, and carry it off."
+          }
         },
         {
           "n": 12,
-          "text": "धनुष्यथ गदायुद्धे त्सरुप्रहरणेषु च ।\nनागपृष्ठेऽश्वपृष्ठे च बभूव परिनिष्ठितः ॥"
+          "text": "धनुष्यथ गदायुद्धे त्सरुप्रहरणेषु च ।\nनागपृष्ठेऽश्वपृष्ठे च बभूव परिनिष्ठितः ॥",
+          "meaning": {
+            "en": "He was accomplished in the bow, in mace combat, in sword-hilt fighting, and on elephant-back and horseback."
+          }
         },
         {
           "n": 13,
-          "text": "बले विष्णुसमश्चासीत्तेजसा भास्करोपमः ।\nअक्षुब्धत्वेऽर्णवसमः सहिष्णुत्वे धरासमः ॥"
+          "text": "बले विष्णुसमश्चासीत्तेजसा भास्करोपमः ।\nअक्षुब्धत्वेऽर्णवसमः सहिष्णुत्वे धरासमः ॥",
+          "meaning": {
+            "en": "In strength he was like Vishnu, in splendor like the sun, in steadiness like the ocean, in patience like the earth."
+          }
         },
         {
           "n": 14,
-          "text": "संमतः स महीपालः प्रसन्नपुरराष्ट्रवान् ।\nभूयो धर्मपरैर्भावैर्विदितं जनमावसत् ॥"
+          "text": "संमतः स महीपालः प्रसन्नपुरराष्ट्रवान् ।\nभूयो धर्मपरैर्भावैर्विदितं जनमावसत् ॥",
+          "meaning": {
+            "en": "Esteemed, that king had cheerful cities and a cheerful country; he lived among people known for ever more righteous dispositions."
+          }
         }
       ]
     }

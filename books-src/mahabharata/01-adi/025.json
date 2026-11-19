@@ -22,151 +22,265 @@
       "titleEn": "Astika Parva",
       "verses": [
         {
-          "text": "सूत उवाच"
+          "text": "सूत उवाच",
+          "meaning": {
+            "en": "Suta's son said:"
+          }
         },
         {
           "n": 1,
-          "text": "तस्य कण्ठमनुप्राप्तो ब्राह्मणः सह भार्यया ।\nदहन्दीप्त इवाङ्गारस्तमुवाचान्तरिक्षगः ॥"
+          "text": "तस्य कण्ठमनुप्राप्तो ब्राह्मणः सह भार्यया ।\nदहन्दीप्त इवाङ्गारस्तमुवाचान्तरिक्षगः ॥",
+          "meaning": {
+            "en": "A brahmin with his wife had reached Garuda's throat, burning like a glowing coal, and the sky-goer spoke to him."
+          }
         },
         {
           "n": 2,
-          "text": "द्विजोत्तम विनिर्गच्छ तूर्णमास्यादपावृतात् ।\nन हि मे ब्राह्मणो वध्यः पापेष्वपि रतः सदा ॥"
+          "text": "द्विजोत्तम विनिर्गच्छ तूर्णमास्यादपावृतात् ।\nन हि मे ब्राह्मणो वध्यः पापेष्वपि रतः सदा ॥",
+          "meaning": {
+            "en": "\"Best of the twice-born, come out of my open mouth at once. I may not kill a brahmin, even one always engaged in sin.\""
+          }
         },
         {
           "n": 3,
-          "text": "ब्रुवाणमेवं गरुडं ब्राह्मणः समभाषत ।\nनिषादी मम भार्येयं निर्गच्छतु मया सह ॥"
+          "text": "ब्रुवाणमेवं गरुडं ब्राह्मणः समभाषत ।\nनिषादी मम भार्येयं निर्गच्छतु मया सह ॥",
+          "meaning": {
+            "en": "As Garuda said this, the brahmin replied, \"This Nishada woman is my wife. Let her come out with me.\""
+          }
         },
         {
-          "text": "गरुड उवाच"
+          "text": "गरुड उवाच",
+          "meaning": {
+            "en": "Garuda said:"
+          }
         },
         {
           "n": 4,
-          "text": "एतामपि निषादीं त्वं परिगृह्याशु निष्पत ।\nतूर्णं संभावयात्मानमजीर्णं मम तेजसा ॥"
+          "text": "एतामपि निषादीं त्वं परिगृह्याशु निष्पत ।\nतूर्णं संभावयात्मानमजीर्णं मम तेजसा ॥",
+          "meaning": {
+            "en": "\"Take this Nishada woman too and quickly get out. Hurry, and save yourself before you are digested by my fire.\""
+          }
         },
         {
-          "text": "सूत उवाच"
+          "text": "सूत उवाच",
+          "meaning": {
+            "en": "Suta's son said:"
+          }
         },
         {
           "n": 5,
-          "text": "ततः स विप्रो निष्क्रान्तो निषादीसहितस्तदा ।\nवर्धयित्वा च गरुडमिष्टं देशं जगाम ह ॥"
+          "text": "ततः स विप्रो निष्क्रान्तो निषादीसहितस्तदा ।\nवर्धयित्वा च गरुडमिष्टं देशं जगाम ह ॥",
+          "meaning": {
+            "en": "Then the brahmin came out with the Nishada woman, praised Garuda, and went to the place he wished."
+          }
         },
         {
           "n": 6,
-          "text": "सहभार्ये विनिष्क्रान्ते तस्मिन्विप्रे स पक्षिराट् ।\nवितत्य पक्षावाकाशमुत्पपात मनोजवः ॥"
+          "text": "सहभार्ये विनिष्क्रान्ते तस्मिन्विप्रे स पक्षिराट् ।\nवितत्य पक्षावाकाशमुत्पपात मनोजवः ॥",
+          "meaning": {
+            "en": "After the brahmin and his wife had left, the king of birds spread his wings and rose into the sky, swift as thought."
+          }
         },
         {
           "n": 7,
-          "text": "ततोऽपश्यत्स पितरं पृष्टश्चाख्यातवान्पितुः ।\nअहं हि सर्पैः प्रहितः सोममाहर्तुमुद्यतः ।\nमातुर्दास्यविमोक्षार्थमाहरिष्ये तमद्य वै ॥"
+          "text": "ततोऽपश्यत्स पितरं पृष्टश्चाख्यातवान्पितुः ।\nअहं हि सर्पैः प्रहितः सोममाहर्तुमुद्यतः ।\nमातुर्दास्यविमोक्षार्थमाहरिष्ये तमद्य वै ॥",
+          "meaning": {
+            "en": "He then saw his father and, asked by him, explained: \"The serpents have sent me to bring the soma, and I am set to fetch it today to free my mother from slavery."
+          }
         },
         {
           "n": 8,
-          "text": "मात्रा चास्मि समादिष्टो निषादान्भक्षयेति वै ।\nन च मे तृप्तिरभवद्भक्षयित्वा सहस्रशः ॥"
+          "text": "मात्रा चास्मि समादिष्टो निषादान्भक्षयेति वै ।\nन च मे तृप्तिरभवद्भक्षयित्वा सहस्रशः ॥",
+          "meaning": {
+            "en": "My mother told me to eat Nishadas, but eating thousands of them has not satisfied me."
+          }
         },
         {
           "n": 9,
-          "text": "तस्माद्भोक्तव्यमपरं भगवन्प्रदिशस्व मे ।\nयद्भुक्त्वामृतमाहर्तुं समर्थः स्यामहं प्रभो ॥"
+          "text": "तस्माद्भोक्तव्यमपरं भगवन्प्रदिशस्व मे ।\nयद्भुक्त्वामृतमाहर्तुं समर्थः स्यामहं प्रभो ॥",
+          "meaning": {
+            "en": "So, venerable one, tell me of something else to eat, which would give me the strength to bring the nectar.\""
+          }
         },
         {
-          "text": "कश्यप उवाच"
+          "text": "कश्यप उवाच",
+          "meaning": {
+            "en": "Kashyapa said:"
+          }
         },
         {
           "n": 10,
-          "text": "आसीद्विभावसुर्नाम महर्षिः कोपनो भृशम् ।\nभ्राता तस्यानुजश्चासीत्सुप्रतीको महातपाः ॥"
+          "text": "आसीद्विभावसुर्नाम महर्षिः कोपनो भृशम् ।\nभ्राता तस्यानुजश्चासीत्सुप्रतीको महातपाः ॥",
+          "meaning": {
+            "en": "\"There was a great sage named Vibhavasu, very hot-tempered. His younger brother was the great ascetic Supratika."
+          }
         },
         {
           "n": 11,
-          "text": "स नेच्छति धनं भ्रात्रा सहैकस्थं महामुनिः ।\nविभागं कीर्तयत्येव सुप्रतीकोऽथ नित्यशः ॥"
+          "text": "स नेच्छति धनं भ्रात्रा सहैकस्थं महामुनिः ।\nविभागं कीर्तयत्येव सुप्रतीकोऽथ नित्यशः ॥",
+          "meaning": {
+            "en": "That great sage Supratika did not wish to keep wealth jointly with his brother, and kept speaking of dividing it."
+          }
         },
         {
           "n": 12,
-          "text": "अथाब्रवीच्च तं भ्राता सुप्रतीकं विभावसुः ।\nविभागं बहवो मोहात्कर्तुमिच्छन्ति नित्यदा ।\nततो विभक्ता अन्योन्यं नाद्रियन्तेऽर्थमोहिताः ॥"
+          "text": "अथाब्रवीच्च तं भ्राता सुप्रतीकं विभावसुः ।\nविभागं बहवो मोहात्कर्तुमिच्छन्ति नित्यदा ।\nततो विभक्ता अन्योन्यं नाद्रियन्तेऽर्थमोहिताः ॥",
+          "meaning": {
+            "en": "Then his brother Vibhavasu said to Supratika, 'Many people, out of delusion, want to divide the inheritance. Once divided, deluded by wealth, they stop respecting each other."
+          }
         },
         {
           "n": 13,
-          "text": "ततः स्वार्थपरान्मूढान्पृथग्भूतान्स्वकैर्धनैः ।\nविदित्वा भेदयन्त्येतानमित्रा मित्ररूपिणः ॥"
+          "text": "ततः स्वार्थपरान्मूढान्पृथग्भूतान्स्वकैर्धनैः ।\nविदित्वा भेदयन्त्येतानमित्रा मित्ररूपिणः ॥",
+          "meaning": {
+            "en": "Seeing such foolish people, set apart with their own wealth and bent on self-interest, enemies posing as friends cause them to quarrel."
+          }
         },
         {
           "n": 14,
-          "text": "विदित्वा चापरे भिन्नानन्तरेषु पतन्त्यथ ।\nभिन्नानामतुलो नाशः क्षिप्रमेव प्रवर्तते ॥"
+          "text": "विदित्वा चापरे भिन्नानन्तरेषु पतन्त्यथ ।\nभिन्नानामतुलो नाशः क्षिप्रमेव प्रवर्तते ॥",
+          "meaning": {
+            "en": "Others, learning they are divided, find gaps to enter, and for the divided swift and unequalled ruin follows."
+          }
         },
         {
           "n": 15,
-          "text": "तस्माच्चैव विभागार्थं न प्रशंसन्ति पण्डिताः ।\nगुरुशास्त्रे निबद्धानामन्योन्यमभिशङ्किनाम् ॥"
+          "text": "तस्माच्चैव विभागार्थं न प्रशंसन्ति पण्डिताः ।\nगुरुशास्त्रे निबद्धानामन्योन्यमभिशङ्किनाम् ॥",
+          "meaning": {
+            "en": "So the wise do not approve of division among those bound by their teacher's teaching, who now suspect each other."
+          }
         },
         {
           "n": 16,
-          "text": "नियन्तुं न हि शक्यस्त्वं भेदतो धनमिच्छसि ।\nयस्मात्तस्मात्सुप्रतीक हस्तित्वं समवाप्स्यसि ॥"
+          "text": "नियन्तुं न हि शक्यस्त्वं भेदतो धनमिच्छसि ।\nयस्मात्तस्मात्सुप्रतीक हस्तित्वं समवाप्स्यसि ॥",
+          "meaning": {
+            "en": "You cannot be restrained; you want your wealth through division. Therefore, Supratika, you will become an elephant.'"
+          }
         },
         {
           "n": 17,
-          "text": "शप्तस्त्वेवं सुप्रतीको विभावसुमथाब्रवीत् ।\nत्वमप्यन्तर्जलचरः कच्छपः संभविष्यसि ॥"
+          "text": "शप्तस्त्वेवं सुप्रतीको विभावसुमथाब्रवीत् ।\nत्वमप्यन्तर्जलचरः कच्छपः संभविष्यसि ॥",
+          "meaning": {
+            "en": "Cursed thus, Supratika answered Vibhavasu, 'You too will become a tortoise moving in the water.'"
+          }
         },
         {
           "n": 18,
-          "text": "एवमन्योन्यशापात्तौ सुप्रतीकविभावसू ।\nगजकच्छपतां प्राप्तावर्थार्थं मूढचेतसौ ॥"
+          "text": "एवमन्योन्यशापात्तौ सुप्रतीकविभावसू ।\nगजकच्छपतां प्राप्तावर्थार्थं मूढचेतसौ ॥",
+          "meaning": {
+            "en": "So by each other's curse, Supratika and Vibhavasu, their minds deluded for the sake of wealth, became an elephant and a tortoise."
+          }
         },
         {
           "n": 19,
-          "text": "रोषदोषानुषङ्गेण तिर्यग्योनिगतावपि ।\nपरस्परद्वेषरतौ प्रमाणबलदर्पितौ ॥"
+          "text": "रोषदोषानुषङ्गेण तिर्यग्योनिगतावपि ।\nपरस्परद्वेषरतौ प्रमाणबलदर्पितौ ॥",
+          "meaning": {
+            "en": "Having fallen into animal births through the fault of anger, they delight in hating each other, proud of their size and strength."
+          }
         },
         {
           "n": 20,
-          "text": "सरस्यस्मिन्महाकायौ पूर्ववैरानुसारिणौ ।\nतयोरेकतरः श्रीमान्समुपैति महागजः ॥"
+          "text": "सरस्यस्मिन्महाकायौ पूर्ववैरानुसारिणौ ।\nतयोरेकतरः श्रीमान्समुपैति महागजः ॥",
+          "meaning": {
+            "en": "In this lake, huge-bodied, they follow their old enmity. One of them, a splendid great elephant, comes here."
+          }
         },
         {
           "n": 21,
-          "text": "तस्य बृंहितशब्देन कूर्मोऽप्यन्तर्जलेशयः ।\nउत्थितोऽसौ महाकायः कृत्स्नं संक्षोभयन्सरः ॥"
+          "text": "तस्य बृंहितशब्देन कूर्मोऽप्यन्तर्जलेशयः ।\nउत्थितोऽसौ महाकायः कृत्स्नं संक्षोभयन्सरः ॥",
+          "meaning": {
+            "en": "At the sound of his trumpeting, the huge tortoise lying in the water rises, stirring the whole lake."
+          }
         },
         {
           "n": 22,
-          "text": "तं दृष्ट्वावेष्टितकरः पतत्येष गजो जलम् ।\nदन्तहस्ताग्रलाङ्गूलपादवेगेन वीर्यवान् ॥"
+          "text": "तं दृष्ट्वावेष्टितकरः पतत्येष गजो जलम् ।\nदन्तहस्ताग्रलाङ्गूलपादवेगेन वीर्यवान् ॥",
+          "meaning": {
+            "en": "Seeing him, the mighty elephant plunges into the water, trunk curled, in the force of his tusks, trunk-tip, tail and feet."
+          }
         },
         {
           "n": 23,
-          "text": "तं विक्षोभयमाणं तु सरो बहुझषाकुलम् ।\nकूर्मोऽप्यभ्युद्यतशिरा युद्धायाभ्येति वीर्यवान् ॥"
+          "text": "तं विक्षोभयमाणं तु सरो बहुझषाकुलम् ।\nकूर्मोऽप्यभ्युद्यतशिरा युद्धायाभ्येति वीर्यवान् ॥",
+          "meaning": {
+            "en": "As he churns the lake full of fish, the mighty tortoise too comes with head raised for battle."
+          }
         },
         {
           "n": 24,
-          "text": "षडुच्छ्रितो योजनानि गजस्तद्द्विगुणायतः ।\nकूर्मस्त्रियोजनोत्सेधो दशयोजनमण्डलः ॥"
+          "text": "षडुच्छ्रितो योजनानि गजस्तद्द्विगुणायतः ।\nकूर्मस्त्रियोजनोत्सेधो दशयोजनमण्डलः ॥",
+          "meaning": {
+            "en": "The elephant is six yojanas tall and twice that long. The tortoise is three yojanas high and ten yojanas around."
+          }
         },
         {
           "n": 25,
-          "text": "तावेतौ युद्धसंमत्तौ परस्परजयैषिणौ ।\nउपयुज्याशु कर्मेदं साधयेप्सितमात्मनः ॥"
+          "text": "तावेतौ युद्धसंमत्तौ परस्परजयैषिणौ ।\nउपयुज्याशु कर्मेदं साधयेप्सितमात्मनः ॥",
+          "meaning": {
+            "en": "Maddened by battle and each wanting to defeat the other, they are there. Go quickly, eat them, and accomplish your desired deed.\""
+          }
         },
         {
-          "text": "सूत उवाच"
+          "text": "सूत उवाच",
+          "meaning": {
+            "en": "Suta's son said:"
+          }
         },
         {
           "n": 26,
-          "text": "स तच्छ्रुत्वा पितुर्वाक्यं भीमवेगोऽन्तरिक्षगः ।\nनखेन गजमेकेन कूर्ममेकेन चाक्षिपत् ॥"
+          "text": "स तच्छ्रुत्वा पितुर्वाक्यं भीमवेगोऽन्तरिक्षगः ।\nनखेन गजमेकेन कूर्ममेकेन चाक्षिपत् ॥",
+          "meaning": {
+            "en": "Hearing his father's words, the swift sky-goer snatched the elephant in one claw and the tortoise in the other."
+          }
         },
         {
           "n": 27,
-          "text": "समुत्पपात चाकाशं तत उच्चैर्विहंगमः ।\nसोऽलम्बतीर्थमासाद्य देववृक्षानुपागमत् ॥"
+          "text": "समुत्पपात चाकाशं तत उच्चैर्विहंगमः ।\nसोऽलम्बतीर्थमासाद्य देववृक्षानुपागमत् ॥",
+          "meaning": {
+            "en": "The bird rose high into the sky, then reached Alamba tirtha and came to the divine trees."
+          }
         },
         {
           "n": 28,
-          "text": "ते भीताः समकम्पन्त तस्य पक्षानिलाहताः ।\nन नो भञ्ज्यादिति तदा दिव्याः कनकशाखिनः ॥"
+          "text": "ते भीताः समकम्पन्त तस्य पक्षानिलाहताः ।\nन नो भञ्ज्यादिति तदा दिव्याः कनकशाखिनः ॥",
+          "meaning": {
+            "en": "Struck by the wind from his wings, those golden-branched divine trees trembled in fear, thinking, \"May he not break us.\""
+          }
         },
         {
           "n": 29,
-          "text": "प्रचलाङ्गान्स तान्दृष्ट्वा मनोरथफलाङ्कुरान् ।\nअन्यानतुलरूपाङ्गानुपचक्राम खेचरः ॥"
+          "text": "प्रचलाङ्गान्स तान्दृष्ट्वा मनोरथफलाङ्कुरान् ।\nअन्यानतुलरूपाङ्गानुपचक्राम खेचरः ॥",
+          "meaning": {
+            "en": "Seeing the trees shake, whose fruits were the sprouts of heart's desires, the sky-goer went to others of matchless form."
+          }
         },
         {
           "n": 30,
-          "text": "काञ्चनै राजतैश्चैव फलैर्वैडूर्यशाखिनः ।\nसागराम्बुपरिक्षिप्तान्भ्राजमानान्महाद्रुमान् ॥"
+          "text": "काञ्चनै राजतैश्चैव फलैर्वैडूर्यशाखिनः ।\nसागराम्बुपरिक्षिप्तान्भ्राजमानान्महाद्रुमान् ॥",
+          "meaning": {
+            "en": "There were great trees, ringed by the ocean's waters and shining, with branches of lapis lazuli and fruits of gold and silver."
+          }
         },
         {
           "n": 31,
-          "text": "तमुवाच खगश्रेष्ठं तत्र रोहिणपादपः ।\nअतिप्रवृद्धः सुमहानापतन्तं मनोजवम् ॥"
+          "text": "तमुवाच खगश्रेष्ठं तत्र रोहिणपादपः ।\nअतिप्रवृद्धः सुमहानापतन्तं मनोजवम् ॥",
+          "meaning": {
+            "en": "A huge, tall Rohina tree there addressed the best of birds as he swooped, swift as thought:"
+          }
         },
         {
           "n": 32,
-          "text": "यैषा मम महाशाखा शतयोजनमायता ।\nएतामास्थाय शाखां त्वं खादेमौ गजकच्छपौ ॥"
+          "text": "यैषा मम महाशाखा शतयोजनमायता ।\nएतामास्थाय शाखां त्वं खादेमौ गजकच्छपौ ॥",
+          "meaning": {
+            "en": "\"Perch on this great branch of mine, a hundred yojanas long, and eat the elephant and tortoise there.\""
+          }
         },
         {
           "n": 33,
-          "text": "ततो द्रुमं पतगसहस्रसेवितं\nमहीधरप्रतिमवपुः प्रकम्पयन् ।\nखगोत्तमो द्रुतमभिपत्य वेगवा-\nन्बभञ्ज तामविरलपत्रसंवृताम् ॥"
+          "text": "ततो द्रुमं पतगसहस्रसेवितं\nमहीधरप्रतिमवपुः प्रकम्पयन् ।\nखगोत्तमो द्रुतमभिपत्य वेगवा-\nन्बभञ्ज तामविरलपत्रसंवृताम् ॥",
+          "meaning": {
+            "en": "Then the swift best of birds, shaking the tree, which was frequented by thousands of birds and had a body like a mountain, fell upon it and broke that branch, thick with leaves."
+          }
         }
       ]
     }

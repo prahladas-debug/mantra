@@ -22,99 +22,171 @@
       "titleEn": "Tirthayatra Parva (The pilgrimage)",
       "verses": [
         {
-          "text": "लोमश उवाच"
+          "text": "लोमश उवाच",
+          "meaning": {
+            "en": "Lomasha said:"
+          }
         },
         {
           "n": 1,
-          "text": "कस्यचित्त्वथ कालस्य सुराणामश्विनौ नृप ।\nकृताभिषेकां विवृतां सुकन्यां तामपश्यताम् ॥"
+          "text": "कस्यचित्त्वथ कालस्य सुराणामश्विनौ नृप ।\nकृताभिषेकां विवृतां सुकन्यां तामपश्यताम् ॥",
+          "meaning": {
+            "en": "After some time, king, the two Ashvins, physicians of the gods, saw Sukanya, who had bathed and stood uncovered."
+          }
         },
         {
           "n": 2,
-          "text": "तां दृष्ट्वा दर्शनीयाङ्गीं देवराजसुतामिव ।\nऊचतुः समभिद्रुत्य नासत्यावश्विनाविदम् ॥"
+          "text": "तां दृष्ट्वा दर्शनीयाङ्गीं देवराजसुतामिव ।\nऊचतुः समभिद्रुत्य नासत्यावश्विनाविदम् ॥",
+          "meaning": {
+            "en": "Seeing her, so lovely in every limb, like a daughter of the king of the gods, the Nasatya Ashvins hurried up to her and said:"
+          }
         },
         {
           "n": 3,
-          "text": "कस्य त्वमसि वामोरु किं वने वै करोषि च ।\nइच्छाव भद्रे ज्ञातुं त्वां तत्त्वमाख्याहि शोभने ॥"
+          "text": "कस्य त्वमसि वामोरु किं वने वै करोषि च ।\nइच्छाव भद्रे ज्ञातुं त्वां तत्त्वमाख्याहि शोभने ॥",
+          "meaning": {
+            "en": "Whose are you, fair-thighed one, and what are you doing in the forest? We wish to know about you, gracious lady. Tell us the truth, lovely one."
+          }
         },
         {
           "n": 4,
-          "text": "ततः सुकन्या संवीता तावुवाच सुरोत्तमौ ।\nशर्यातितनयां वित्तं भार्यां च च्यवनस्य माम् ॥"
+          "text": "ततः सुकन्या संवीता तावुवाच सुरोत्तमौ ।\nशर्यातितनयां वित्तं भार्यां च च्यवनस्य माम् ॥",
+          "meaning": {
+            "en": "Then Sukanya, covering herself, said to the two best of the gods: \"Know me as Sharyati's daughter and Chyavana's wife.\""
+          }
         },
         {
           "n": 5,
-          "text": "अथाश्विनौ प्रहस्यैतामब्रूतां पुनरेव तु ।\nकथं त्वमसि कल्याणि पित्रा दत्ता गताध्वने ॥"
+          "text": "अथाश्विनौ प्रहस्यैतामब्रूतां पुनरेव तु ।\nकथं त्वमसि कल्याणि पित्रा दत्ता गताध्वने ॥",
+          "meaning": {
+            "en": "The Ashvins laughed and spoke again: \"How is it, fair one, that your father gave you to a man who is nearing the end of his road?\""
+          }
         },
         {
           "n": 6,
-          "text": "भ्राजसे वनमध्ये त्वं विद्युत्सौदामिनी यथा ।\nन देवेष्वपि तुल्यां हि त्वया पश्याव भामिनि ॥"
+          "text": "भ्राजसे वनमध्ये त्वं विद्युत्सौदामिनी यथा ।\nन देवेष्वपि तुल्यां हि त्वया पश्याव भामिनि ॥",
+          "meaning": {
+            "en": "You shine in the middle of the forest like lightning in the clouds. We see none among the gods who equals you, proud beauty."
+          }
         },
         {
           "n": 7,
-          "text": "सर्वाभरणसंपन्ना परमाम्बरधारिणी ।\nशोभेथास्त्वनवद्याङ्गि न त्वेवं मलपङ्किनी ॥"
+          "text": "सर्वाभरणसंपन्ना परमाम्बरधारिणी ।\nशोभेथास्त्वनवद्याङ्गि न त्वेवं मलपङ्किनी ॥",
+          "meaning": {
+            "en": "Blameless one, decked with every ornament and wearing the finest garments you would look splendid, not like this, smeared with dirt."
+          }
         },
         {
           "n": 8,
-          "text": "कस्मादेवंविधा भूत्वा जराजर्जरितं पतिम् ।\nत्वमुपास्से ह कल्याणि कामभोगबहिष्कृतम् ॥"
+          "text": "कस्मादेवंविधा भूत्वा जराजर्जरितं पतिम् ।\nत्वमुपास्से ह कल्याणि कामभोगबहिष्कृतम् ॥",
+          "meaning": {
+            "en": "Why, being such as you are, do you wait on a husband worn out by age, who is cut off from love and pleasures?"
+          }
         },
         {
           "n": 9,
-          "text": "असमर्थं परित्राणे पोषणे च शुचिस्मिते ।\nसाधु च्यवनमुत्सृज्य वरयस्वैकमावयोः ।\nपत्यर्थं देवगर्भाभे मा वृथा यौवनं कृथाः ॥"
+          "text": "असमर्थं परित्राणे पोषणे च शुचिस्मिते ।\nसाधु च्यवनमुत्सृज्य वरयस्वैकमावयोः ।\nपत्यर्थं देवगर्भाभे मा वृथा यौवनं कृथाः ॥",
+          "meaning": {
+            "en": "He cannot protect you nor support you, bright-smiling one. Leave Chyavana, and choose one of us as your husband, you who are like a child of the gods. Do not waste your youth."
+          }
         },
         {
           "n": 10,
-          "text": "एवमुक्ता सुकन्या तु सुरौ ताविदमब्रवीत् ।\nरताहं च्यवने पत्यौ मैवं मा पर्यशङ्किथाः ॥"
+          "text": "एवमुक्ता सुकन्या तु सुरौ ताविदमब्रवीत् ।\nरताहं च्यवने पत्यौ मैवं मा पर्यशङ्किथाः ॥",
+          "meaning": {
+            "en": "Spoken to thus, Sukanya answered the two gods: \"I am devoted to my husband Chyavana. Do not suspect me so.\""
+          }
         },
         {
           "n": 11,
-          "text": "तावब्रूतां पुनस्त्वेनामावां देवभिषग्वरौ ।\nयुवानं रूपसंपन्नं करिष्यावः पतिं तव ॥"
+          "text": "तावब्रूतां पुनस्त्वेनामावां देवभिषग्वरौ ।\nयुवानं रूपसंपन्नं करिष्यावः पतिं तव ॥",
+          "meaning": {
+            "en": "The two physicians of the gods said to her again: \"We shall make your husband young and handsome.\""
+          }
         },
         {
           "n": 12,
-          "text": "ततस्तस्यावयोश्चैव पतिमेकतमं वृणु ।\nएतेन समयेनैनमामन्त्रय वरानने ॥"
+          "text": "ततस्तस्यावयोश्चैव पतिमेकतमं वृणु ।\nएतेन समयेनैनमामन्त्रय वरानने ॥",
+          "meaning": {
+            "en": "\"Then choose one of him and the two of us as your husband. On this condition, fair-faced one, go and tell him.\""
+          }
         },
         {
           "n": 13,
-          "text": "सा तयोर्वचनाद्राजन्नुपसंगम्य भार्गवम् ।\nउवाच वाक्यं यत्ताभ्यामुक्तं भृगुसुतं प्रति ॥"
+          "text": "सा तयोर्वचनाद्राजन्नुपसंगम्य भार्गवम् ।\nउवाच वाक्यं यत्ताभ्यामुक्तं भृगुसुतं प्रति ॥",
+          "meaning": {
+            "en": "At their words, king, she went to the Bhargava and told the son of Bhrigu what they had said."
+          }
         },
         {
           "n": 14,
-          "text": "तच्छ्रुत्वा च्यवनो भार्यामुवाच क्रियतामिति ।\nभर्त्रा सा समनुज्ञाता क्रियतामित्यथाब्रवीत् ॥"
+          "text": "तच्छ्रुत्वा च्यवनो भार्यामुवाच क्रियतामिति ।\nभर्त्रा सा समनुज्ञाता क्रियतामित्यथाब्रवीत् ॥",
+          "meaning": {
+            "en": "Hearing it, Chyavana said to his wife, \"Let it be done.\" Having her husband's leave, she said to them, \"Do it.\""
+          }
         },
         {
           "n": 15,
-          "text": "श्रुत्वा तदश्विनौ वाक्यं तत्तस्याः क्रियतामिति ।\nऊचतू राजपुत्रीं तां पतिस्तव विशत्वपः ॥"
+          "text": "श्रुत्वा तदश्विनौ वाक्यं तत्तस्याः क्रियतामिति ।\nऊचतू राजपुत्रीं तां पतिस्तव विशत्वपः ॥",
+          "meaning": {
+            "en": "Hearing her say \"Let it be done,\" the Ashvins said to the princess: \"Let your husband enter the water.\""
+          }
         },
         {
           "n": 16,
-          "text": "ततोऽम्भश्च्यवनः शीघ्रं रूपार्थी प्रविवेश ह ।\nअश्विनावपि तद्राजन्सरः प्रविशतां प्रभो ॥"
+          "text": "ततोऽम्भश्च्यवनः शीघ्रं रूपार्थी प्रविवेश ह ।\nअश्विनावपि तद्राजन्सरः प्रविशतां प्रभो ॥",
+          "meaning": {
+            "en": "Then Chyavana, wanting beauty, quickly entered the water, and the two Ashvins too, king, entered the lake."
+          }
         },
         {
           "n": 17,
-          "text": "ततो मुहूर्तादुत्तीर्णाः सर्वे ते सरसस्ततः ।\nदिव्यरूपधराः सर्वे युवानो मृष्टकुण्डलाः ।\nतुल्यरूपधराश्चैव मनसः प्रीतिवर्धनाः ॥"
+          "text": "ततो मुहूर्तादुत्तीर्णाः सर्वे ते सरसस्ततः ।\nदिव्यरूपधराः सर्वे युवानो मृष्टकुण्डलाः ।\nतुल्यरूपधराश्चैव मनसः प्रीतिवर्धनाः ॥",
+          "meaning": {
+            "en": "After a moment all of them came out of the lake, all young, with divine forms and polished earrings, all alike in appearance and delightful to the heart."
+          }
         },
         {
           "n": 18,
-          "text": "तेऽब्रुवन्सहिताः सर्वे वृणीष्वान्यतमं शुभे ।\nअस्माकमीप्सितं भद्रे पतित्वे वरवर्णिनि ।\nयत्र वाप्यभिकामासि तं वृणीष्व सुशोभने ॥"
+          "text": "तेऽब्रुवन्सहिताः सर्वे वृणीष्वान्यतमं शुभे ।\nअस्माकमीप्सितं भद्रे पतित्वे वरवर्णिनि ।\nयत्र वाप्यभिकामासि तं वृणीष्व सुशोभने ॥",
+          "meaning": {
+            "en": "Together they said: \"Choose any one of us, lovely lady. Whomever you wish, fair one, choose him as your husband, for that is our desire.\""
+          }
         },
         {
           "n": 19,
-          "text": "सा समीक्ष्य तु तान्सर्वांस्तुल्यरूपधरान्स्थितान् ।\nनिश्चित्य मनसा बुद्ध्या देवी वव्रे स्वकं पतिम् ॥"
+          "text": "सा समीक्ष्य तु तान्सर्वांस्तुल्यरूपधरान्स्थितान् ।\nनिश्चित्य मनसा बुद्ध्या देवी वव्रे स्वकं पतिम् ॥",
+          "meaning": {
+            "en": "The goddess-like woman looked at them standing there, all alike in form. Deciding in her mind and with her judgment, she chose her own husband."
+          }
         },
         {
           "n": 20,
-          "text": "लब्ध्वा तु च्यवनो भार्यां वयोरूपं च वाञ्छितम् ।\nहृष्टोऽब्रवीन्महातेजास्तौ नासत्याविदं वचः ॥"
+          "text": "लब्ध्वा तु च्यवनो भार्यां वयोरूपं च वाञ्छितम् ।\nहृष्टोऽब्रवीन्महातेजास्तौ नासत्याविदं वचः ॥",
+          "meaning": {
+            "en": "Chyavana, having regained his wife and the youth and beauty he desired, was delighted and spoke these words to the two Nasatyas."
+          }
         },
         {
           "n": 21,
-          "text": "यथाहं रूपसंपन्नो वयसा च समन्वितः ।\nकृतो भवद्भ्यां वृद्धः सन्भार्यां च प्राप्तवानिमाम् ॥"
+          "text": "यथाहं रूपसंपन्नो वयसा च समन्वितः ।\nकृतो भवद्भ्यां वृद्धः सन्भार्यां च प्राप्तवानिमाम् ॥",
+          "meaning": {
+            "en": "\"Because you have made me, an old man, beautiful and young, and I have got this wife,\""
+          }
         },
         {
           "n": 22,
-          "text": "तस्माद्युवां करिष्यामि प्रीत्याहं सोमपीथिनौ ।\nमिषतो देवराजस्य सत्यमेतद्ब्रवीमि वाम् ॥"
+          "text": "तस्माद्युवां करिष्यामि प्रीत्याहं सोमपीथिनौ ।\nमिषतो देवराजस्य सत्यमेतद्ब्रवीमि वाम् ॥",
+          "meaning": {
+            "en": "\"I will make you two drinkers of soma, out of gratitude, before the eyes of the king of the gods. I tell you this truly.\""
+          }
         },
         {
           "n": 23,
-          "text": "तच्छ्रुत्वा हृष्टमनसौ दिवं तौ प्रतिजग्मतुः ।\nच्यवनोऽपि सुकन्या च सुराविव विजह्रतुः ॥"
+          "text": "तच्छ्रुत्वा हृष्टमनसौ दिवं तौ प्रतिजग्मतुः ।\nच्यवनोऽपि सुकन्या च सुराविव विजह्रतुः ॥",
+          "meaning": {
+            "en": "Hearing this, the two went back to heaven with glad hearts, and Chyavana and Sukanya amused themselves like a pair of gods."
+          }
         }
       ]
     }

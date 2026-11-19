@@ -22,136 +22,238 @@
       "titleEn": "Tirthayatra Parva (The pilgrimage)",
       "verses": [
         {
-          "text": "सात्यकिरुवाच"
+          "text": "सात्यकिरुवाच",
+          "meaning": {
+            "en": "Satyaki said:"
+          }
         },
         {
           "n": 1,
-          "text": "न राम कालः परिदेवनाय\nयदुत्तरं तत्र तदेव सर्वे ।\nसमाचरामो ह्यनतीतकालं\nयुधिष्ठिरो यद्यपि नाह किंचित् ॥"
+          "text": "न राम कालः परिदेवनाय\nयदुत्तरं तत्र तदेव सर्वे ।\nसमाचरामो ह्यनतीतकालं\nयुधिष्ठिरो यद्यपि नाह किंचित् ॥",
+          "meaning": {
+            "en": "Rama, this is no time for lament. Whatever is the fitting response, let us all do it, since the moment has not passed, even though Yudhishthira himself says nothing."
+          }
         },
         {
           "n": 2,
-          "text": "ये नाथवन्तो हि भवन्ति लोके\nते नात्मना कर्म समारभन्ते ।\nतेषां तु कार्येषु भवन्ति नाथाः\nशैब्यादयो राम यथा ययातेः ॥"
+          "text": "ये नाथवन्तो हि भवन्ति लोके\nते नात्मना कर्म समारभन्ते ।\nतेषां तु कार्येषु भवन्ति नाथाः\nशैब्यादयो राम यथा ययातेः ॥",
+          "meaning": {
+            "en": "Those in the world who have protectors do not start their own undertakings; their protectors act for them, as Shaibya and others did for Yayati."
+          }
         },
         {
           "n": 3,
-          "text": "येषां तथा राम समारभन्ते\nकार्याणि नाथाः स्वमतेन लोके ।\nते नाथवन्तः पुरुषप्रवीरा\nनानाथवत्कृच्छ्रमवाप्नुवन्ति ॥"
+          "text": "येषां तथा राम समारभन्ते\nकार्याणि नाथाः स्वमतेन लोके ।\nते नाथवन्तः पुरुषप्रवीरा\nनानाथवत्कृच्छ्रमवाप्नुवन्ति ॥",
+          "meaning": {
+            "en": "Rama, men whose protectors take up their affairs by their own judgment are truly well protected, and such heroes do not suffer hardship as the unprotected do."
+          }
         },
         {
           "n": 4,
-          "text": "कस्मादयं रामजनार्दनौ च\nप्रद्युम्नसाम्बौ च मया समेतौ ।\nवसत्यरण्ये सह सोदरीयै-\nस्त्रैलोक्यनाथानधिगम्य नाथान् ॥"
+          "text": "कस्मादयं रामजनार्दनौ च\nप्रद्युम्नसाम्बौ च मया समेतौ ।\nवसत्यरण्ये सह सोदरीयै-\nस्त्रैलोक्यनाथानधिगम्य नाथान् ॥",
+          "meaning": {
+            "en": "Why then do these sons of Pandu live in the forest with their brothers, when Rama and Janardana, Pradyumna and Samba, and I are here, and they have the lords of the three worlds as their protectors?"
+          }
         },
         {
           "n": 5,
-          "text": "निर्यातु साध्वद्य दशार्हसेना\nप्रभूतनानायुधचित्रवर्मा ।\nयमक्षयं गच्छतु धार्तराष्ट्रः\nसबान्धवो वृष्णिबलाभिभूतः ॥"
+          "text": "निर्यातु साध्वद्य दशार्हसेना\nप्रभूतनानायुधचित्रवर्मा ।\nयमक्षयं गच्छतु धार्तराष्ट्रः\nसबान्धवो वृष्णिबलाभिभूतः ॥",
+          "meaning": {
+            "en": "Let the Dasharha army march out today, splendid in armour and carrying many weapons. Let Dhritarashtra's son, crushed by the Vrishni force, go with his kinsmen to Yama's abode."
+          }
         },
         {
           "n": 6,
-          "text": "त्वं ह्येव कोपात्पृथिवीमपीमां\nसंवेष्टयेस्तिष्ठतु शार्ङ्गधन्वा ।\nस धार्तराष्ट्रं जहि सानुबन्धं\nवृत्रं यथा देवपतिर्महेन्द्रः ॥"
+          "text": "त्वं ह्येव कोपात्पृथिवीमपीमां\nसंवेष्टयेस्तिष्ठतु शार्ङ्गधन्वा ।\nस धार्तराष्ट्रं जहि सानुबन्धं\nवृत्रं यथा देवपतिर्महेन्द्रः ॥",
+          "meaning": {
+            "en": "Or you alone, in your anger, could roll up this whole earth; let the wielder of the Sharnga bow stand aside. Strike down Dhritarashtra's son and his followers as Indra, lord of the gods, struck Vritra."
+          }
         },
         {
           "n": 7,
-          "text": "भ्राता च मे यश्च सखा गुरुश्च\nजनार्दनस्यात्मसमश्च पार्थः ।\nयदर्थमभ्युद्यतमुत्तमं त-\nत्करोति कर्माग्र्यमपारणीयम् ॥"
+          "text": "भ्राता च मे यश्च सखा गुरुश्च\nजनार्दनस्यात्मसमश्च पार्थः ।\nयदर्थमभ्युद्यतमुत्तमं त-\nत्करोति कर्माग्र्यमपारणीयम् ॥",
+          "meaning": {
+            "en": "Arjuna, son of Pritha, is my brother, friend and teacher, and as dear to Janardana as himself. For his sake I will do a supreme, unmatched deed."
+          }
         },
         {
           "n": 8,
-          "text": "तस्यास्त्रवर्षाण्यहमुत्तमास्त्रै-\nर्विहत्य सर्वाणि रणेऽभिभूय ।\nकायाच्छिरः सर्पविषाग्निकल्पैः\nशरोत्तमैरुन्मथितास्मि राम ॥"
+          "text": "तस्यास्त्रवर्षाण्यहमुत्तमास्त्रै-\nर्विहत्य सर्वाणि रणेऽभिभूय ।\nकायाच्छिरः सर्पविषाग्निकल्पैः\nशरोत्तमैरुन्मथितास्मि राम ॥",
+          "meaning": {
+            "en": "Rama, I will break all his showers of missiles with my best weapons, overcome him in battle, and cut him down, body and head, with arrows as deadly as serpent-poison and fire."
+          }
         },
         {
           "n": 9,
-          "text": "खड्गेन चाहं निशितेन संख्ये\nकायाच्छिरस्तस्य बलात्प्रमथ्य ।\nततोऽस्य सर्वाननुगान्हनिष्ये\nदुर्योधनं चापि कुरूंश्च सर्वान् ॥"
+          "text": "खड्गेन चाहं निशितेन संख्ये\nकायाच्छिरस्तस्य बलात्प्रमथ्य ।\nततोऽस्य सर्वाननुगान्हनिष्ये\nदुर्योधनं चापि कुरूंश्च सर्वान् ॥",
+          "meaning": {
+            "en": "With a sharp sword I will tear the head from his body in battle by force. Then I will kill all his followers, Duryodhana, and all the Kurus."
+          }
         },
         {
           "n": 10,
-          "text": "आत्तायुधं मामिह रौहिणेय\nपश्यन्तु भौमा युधि जातहर्षाः ।\nनिघ्नन्तमेकं कुरुयोधमुख्या-\nन्काले महाकक्षमिवान्तकाग्निः ॥"
+          "text": "आत्तायुधं मामिह रौहिणेय\nपश्यन्तु भौमा युधि जातहर्षाः ।\nनिघ्नन्तमेकं कुरुयोधमुख्या-\nन्काले महाकक्षमिवान्तकाग्निः ॥",
+          "meaning": {
+            "en": "Son of Rohini, let the earthly kings, rejoicing in the fight, see me here with weapon in hand, killing the Kuru warriors one by one as the fire of doomsday burns a great thicket in its season."
+          }
         },
         {
           "n": 11,
-          "text": "प्रद्युम्नमुक्तान्निशितान्न शक्ताः\nसोढुं कृपद्रोणविकर्णकर्णाः ।\nजानामि वीर्यं च तवात्मजस्य\nकार्ष्णिर्भवत्येष यथा रणस्थः ॥"
+          "text": "प्रद्युम्नमुक्तान्निशितान्न शक्ताः\nसोढुं कृपद्रोणविकर्णकर्णाः ।\nजानामि वीर्यं च तवात्मजस्य\nकार्ष्णिर्भवत्येष यथा रणस्थः ॥",
+          "meaning": {
+            "en": "Kripa, Drona, Vikarna and Karna cannot withstand the sharp arrows shot by Pradyumna. I know your son's valour, and what Krishna's son is like in battle."
+          }
         },
         {
           "n": 12,
-          "text": "साम्बः ससूतं सरथं भुजाभ्यां\nदुःशासनं शास्तु बलात्प्रमथ्य ।\nन विद्यते जाम्बवतीसुतस्य\nरणेऽविषह्यं हि रणोत्कटस्य ॥"
+          "text": "साम्बः ससूतं सरथं भुजाभ्यां\nदुःशासनं शास्तु बलात्प्रमथ्य ।\nन विद्यते जाम्बवतीसुतस्य\nरणेऽविषह्यं हि रणोत्कटस्य ॥",
+          "meaning": {
+            "en": "Let Samba seize Duhshasana by force, with his charioteer and chariot, and crush him in his arms. Nothing in battle is unbearable to the fierce son of Jambavati."
+          }
         },
         {
           "n": 13,
-          "text": "एतेन बालेन हि शम्बरस्य\nदैत्यस्य सैन्यं सहसा प्रणुन्नम् ।\nवृत्तोरुरत्यायतपीनबाहु-\nरेतेन संख्ये निहतोऽश्वचक्रः ।\nको नाम साम्बस्य रणे मनुष्यो\nगत्वान्तरं वै भुजयोर्धरेत ॥"
+          "text": "एतेन बालेन हि शम्बरस्य\nदैत्यस्य सैन्यं सहसा प्रणुन्नम् ।\nवृत्तोरुरत्यायतपीनबाहु-\nरेतेन संख्ये निहतोऽश्वचक्रः ।\nको नाम साम्बस्य रणे मनुष्यो\nगत्वान्तरं वै भुजयोर्धरेत ॥",
+          "meaning": {
+            "en": "This youth once drove back the army of the demon Shambara in an instant, with his rounded thighs and long, thick arms. By him the demon Ashvachakra was slain in battle. What man could stand in the space between Samba's arms?"
+          }
         },
         {
           "n": 14,
-          "text": "यथा प्रविश्यान्तरमन्तकस्य\nकाले मनुष्यो न विनिष्क्रमेत ।\nतथा प्रविश्यान्तरमस्य संख्ये\nको नाम जीवन्पुनराव्रजेत ॥"
+          "text": "यथा प्रविश्यान्तरमन्तकस्य\nकाले मनुष्यो न विनिष्क्रमेत ।\nतथा प्रविश्यान्तरमस्य संख्ये\nको नाम जीवन्पुनराव्रजेत ॥",
+          "meaning": {
+            "en": "As a man who enters the jaws of Death at his appointed hour does not come out, so who would come back alive after entering the range of Samba in battle?"
+          }
         },
         {
           "n": 15,
-          "text": "द्रोणं च भीष्मं च महारथौ तौ\nसुतैर्वृतं चाप्यथ सोमदत्तम् ।\nसर्वाणि सैन्यानि च वासुदेवः\nप्रधक्ष्यते सायकवह्निजालैः ॥"
+          "text": "द्रोणं च भीष्मं च महारथौ तौ\nसुतैर्वृतं चाप्यथ सोमदत्तम् ।\nसर्वाणि सैन्यानि च वासुदेवः\nप्रधक्ष्यते सायकवह्निजालैः ॥",
+          "meaning": {
+            "en": "Vasudeva will burn Drona and Bhishma, those two great chariot-warriors, and Somadatta surrounded by his sons, and all their armies, with flaming sheets of arrows."
+          }
         },
         {
           "n": 16,
-          "text": "किं नाम लोकेष्वविषह्यमस्ति\nकृष्णस्य सर्वेषु सदैवतेषु ।\nआत्तायुधस्योत्तमबाणपाणे-\nश्चक्रायुधस्याप्रतिमस्य युद्धे ॥"
+          "text": "किं नाम लोकेष्वविषह्यमस्ति\nकृष्णस्य सर्वेषु सदैवतेषु ।\nआत्तायुधस्योत्तमबाणपाणे-\nश्चक्रायुधस्याप्रतिमस्य युद्धे ॥",
+          "meaning": {
+            "en": "What is there in all the worlds, among all the gods, that Krishna cannot overcome, when he takes up his weapon, holds his best arrows, and wields the discus, peerless in battle?"
+          }
         },
         {
           "n": 17,
-          "text": "ततोऽनिरुद्धोऽप्यसिचर्मपाणि-\nर्महीमिमां धार्तराष्ट्रैर्विसंज्ञैः ।\nहृतोत्तमाङ्गैर्निहतैः करोतु\nकीर्णां कुशैर्वेदिमिवाध्वरेषु ॥"
+          "text": "ततोऽनिरुद्धोऽप्यसिचर्मपाणि-\nर्महीमिमां धार्तराष्ट्रैर्विसंज्ञैः ।\nहृतोत्तमाङ्गैर्निहतैः करोतु\nकीर्णां कुशैर्वेदिमिवाध्वरेषु ॥",
+          "meaning": {
+            "en": "And let Aniruddha, sword and shield in hand, cover this earth with Dhritarashtra's sons, unconscious, beheaded, and slain, as an altar is strewn with kusha grass at sacrifices."
+          }
         },
         {
           "n": 18,
-          "text": "गदोल्मुकौ बाहुकभानुनीथाः\nशूरश्च संख्ये निशठः कुमारः ।\nरणोत्कटौ सारणचारुदेष्णौ\nकुलोचितं विप्रथयन्तु कर्म ॥"
+          "text": "गदोल्मुकौ बाहुकभानुनीथाः\nशूरश्च संख्ये निशठः कुमारः ।\nरणोत्कटौ सारणचारुदेष्णौ\nकुलोचितं विप्रथयन्तु कर्म ॥",
+          "meaning": {
+            "en": "Gada, Ulmuka, Bahuka, Bhanu, Nitha, the brave Nishatha, Kumara, the fierce Sarana and Charudeshna: let them all perform deeds worthy of their family."
+          }
         },
         {
           "n": 19,
-          "text": "सवृष्णिभोजान्धकयोधमुख्या\nसमागता क्षत्रियशूरसेना ।\nहत्वा रणे तान्धृतराष्ट्रपुत्राँ-\nल्लोके यशः स्फीतमुपाकरोतु ॥"
+          "text": "सवृष्णिभोजान्धकयोधमुख्या\nसमागता क्षत्रियशूरसेना ।\nहत्वा रणे तान्धृतराष्ट्रपुत्राँ-\nल्लोके यशः स्फीतमुपाकरोतु ॥",
+          "meaning": {
+            "en": "Let this brave kshatriya army, gathered with the leading warriors of the Vrishnis, Bhojas and Andhakas, kill Dhritarashtra's sons in battle and win a far-spreading fame in the world."
+          }
         },
         {
           "n": 20,
-          "text": "ततोऽभिमन्युः पृथिवीं प्रशास्तु\nयावद्व्रतं धर्मभृतां वरिष्ठः ।\nयुधिष्ठिरः पारयते महात्मा\nद्यूते यथोक्तं कुरुसत्तमेन ॥"
+          "text": "ततोऽभिमन्युः पृथिवीं प्रशास्तु\nयावद्व्रतं धर्मभृतां वरिष्ठः ।\nयुधिष्ठिरः पारयते महात्मा\nद्यूते यथोक्तं कुरुसत्तमेन ॥",
+          "meaning": {
+            "en": "Then let Abhimanyu rule the earth until the great-souled Yudhishthira, best of those who uphold dharma, completes his vow, as promised at the dice game to the best of the Kurus."
+          }
         },
         {
           "n": 21,
-          "text": "अस्मत्प्रमुक्तैर्विशिखैर्जितारि-\nस्ततो महीं भोक्ष्यति धर्मराजः ।\nनिर्धार्तराष्ट्रां हतसूतपुत्रा-\nमेतद्धि नः कृत्यतमं यशस्यम् ॥"
+          "text": "अस्मत्प्रमुक्तैर्विशिखैर्जितारि-\nस्ततो महीं भोक्ष्यति धर्मराजः ।\nनिर्धार्तराष्ट्रां हतसूतपुत्रा-\nमेतद्धि नः कृत्यतमं यशस्यम् ॥",
+          "meaning": {
+            "en": "Then, with his enemies conquered by arrows loosed by us, the king of dharma will enjoy an earth emptied of Dhritarashtra's sons and of Karna, the charioteer's son. That is our most necessary and glorious task."
+          }
         },
         {
-          "text": "वासुदेव उवाच"
+          "text": "वासुदेव उवाच",
+          "meaning": {
+            "en": "Vasudeva said:"
+          }
         },
         {
           "n": 22,
-          "text": "असंशयं माधव सत्यमेत-\nद्गृह्णीम ते वाक्यमदीनसत्त्व ।\nस्वाभ्यां भुजाभ्यामजितां तु भूमिं\nनेच्छेत्कुरूणामृषभः कथंचित् ॥"
+          "text": "असंशयं माधव सत्यमेत-\nद्गृह्णीम ते वाक्यमदीनसत्त्व ।\nस्वाभ्यां भुजाभ्यामजितां तु भूमिं\nनेच्छेत्कुरूणामृषभः कथंचित् ॥",
+          "meaning": {
+            "en": "Madhava, of unbroken spirit, without doubt what you say is true, and we accept your words. But the bull of the Kurus would never want an earth that he had not won with his own arms."
+          }
         },
         {
           "n": 23,
-          "text": "न ह्येष कामान्न भयान्न लोभा-\nद्युधिष्ठिरो जातु जह्यात्स्वधर्मम् ।\nभीमार्जुनौ चातिरथौ यमौ वा\nतथैव कृष्णा द्रुपदात्मजेयम् ॥"
+          "text": "न ह्येष कामान्न भयान्न लोभा-\nद्युधिष्ठिरो जातु जह्यात्स्वधर्मम् ।\nभीमार्जुनौ चातिरथौ यमौ वा\nतथैव कृष्णा द्रुपदात्मजेयम् ॥",
+          "meaning": {
+            "en": "For Yudhishthira would never abandon his own duty out of desire, fear or greed, nor would the great chariot-warriors Bhima and Arjuna, nor the twins, nor this Krishna, Drupada's daughter."
+          }
         },
         {
           "n": 24,
-          "text": "उभौ हि युद्धेऽप्रतिमौ पृथिव्यां\nवृकोदरश्चैव धनंजयश्च ।\nकस्मान्न कृत्स्नां पृथिवीं प्रशासे-\nन्माद्रीसुताभ्यां च पुरस्कृतोऽयम् ॥"
+          "text": "उभौ हि युद्धेऽप्रतिमौ पृथिव्यां\nवृकोदरश्चैव धनंजयश्च ।\nकस्मान्न कृत्स्नां पृथिवीं प्रशासे-\nन्माद्रीसुताभ्यां च पुरस्कृतोऽयम् ॥",
+          "meaning": {
+            "en": "Vrikodara and Dhananjaya are both without equal in battle on earth. Why then would he not rule the whole earth, with the sons of Madri before him?"
+          }
         },
         {
           "n": 25,
-          "text": "यदा तु पाञ्चालपतिर्महात्मा\nसकेकयश्चेदिपतिर्वयं च ।\nयोत्स्याम विक्रम्य परांस्तदा वै\nसुयोधनस्त्यक्ष्यति जीवलोकम् ॥"
+          "text": "यदा तु पाञ्चालपतिर्महात्मा\nसकेकयश्चेदिपतिर्वयं च ।\nयोत्स्याम विक्रम्य परांस्तदा वै\nसुयोधनस्त्यक्ष्यति जीवलोकम् ॥",
+          "meaning": {
+            "en": "When the great-souled lord of the Panchalas, the Kekayas, the lord of the Chedis, and we ourselves go out to fight the enemy with valour, then Suyodhana will leave the world of the living."
+          }
         },
         {
-          "text": "युधिष्ठिर उवाच"
+          "text": "युधिष्ठिर उवाच",
+          "meaning": {
+            "en": "Yudhishthira said:"
+          }
         },
         {
           "n": 26,
-          "text": "नैतच्चित्रं माधव यद्ब्रवीषि\nसत्यं तु मे रक्ष्यतमं न राज्यम् ।\nकृष्णस्तु मां वेद यथावदेकः\nकृष्णं च वेदाहमथो यथावत् ॥"
+          "text": "नैतच्चित्रं माधव यद्ब्रवीषि\nसत्यं तु मे रक्ष्यतमं न राज्यम् ।\nकृष्णस्तु मां वेद यथावदेकः\nकृष्णं च वेदाहमथो यथावत् ॥",
+          "meaning": {
+            "en": "Madhava, what you say is no surprise. But it is my truth, not the kingdom, that I must guard above all. Krishna alone knows me truly, and I too truly know Krishna."
+          }
         },
         {
           "n": 27,
-          "text": "यदैव कालं पुरुषप्रवीरो\nवेत्स्यत्ययं माधव विक्रमस्य ।\nतदा रणे त्वं च शिनिप्रवीर\nसुयोधनं जेष्यसि केशवश्च ॥"
+          "text": "यदैव कालं पुरुषप्रवीरो\nवेत्स्यत्ययं माधव विक्रमस्य ।\nतदा रणे त्वं च शिनिप्रवीर\nसुयोधनं जेष्यसि केशवश्च ॥",
+          "meaning": {
+            "en": "Madhava, when this best of men, Arjuna, learns that the time for valour has come, then you, bull of the Shini line, and Keshava will defeat Suyodhana in battle."
+          }
         },
         {
           "n": 28,
-          "text": "प्रतिप्रयान्त्वद्य दशार्हवीरा\nदृढोऽस्मि नाथैर्नरलोकनाथैः ।\nधर्मेऽप्रमादं कुरुताप्रमेया\nद्रष्टास्मि भूयः सुखिनः समेतान् ॥"
+          "text": "प्रतिप्रयान्त्वद्य दशार्हवीरा\nदृढोऽस्मि नाथैर्नरलोकनाथैः ।\nधर्मेऽप्रमादं कुरुताप्रमेया\nद्रष्टास्मि भूयः सुखिनः समेतान् ॥",
+          "meaning": {
+            "en": "Now let the Dasharha heroes go back. I am firmly supported by protectors who are lords of the human world. Be unfailing in dharma, you of measureless power. I shall see you all again, gathered in happiness."
+          }
         },
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 29,
-          "text": "तेऽन्योन्यमामन्त्र्य तथाभिवाद्य\nवृद्धान्परिष्वज्य शिशूंश्च सर्वान् ।\nयदुप्रवीराः स्वगृहाणि जग्मू\nराजापि तीर्थान्यनुसंचचार ॥"
+          "text": "तेऽन्योन्यमामन्त्र्य तथाभिवाद्य\nवृद्धान्परिष्वज्य शिशूंश्च सर्वान् ।\nयदुप्रवीराः स्वगृहाणि जग्मू\nराजापि तीर्थान्यनुसंचचार ॥",
+          "meaning": {
+            "en": "They took leave of one another and bowed, embracing the elders and all the children, and the Yadu heroes went to their own homes. The king also went on visiting holy fords."
+          }
         },
         {
           "n": 30,
-          "text": "विसृज्य कृष्णं त्वथ धर्मराजो\nविदर्भराजोपचितां सुतीर्थाम् ।\nसुतेन सोमेन विमिश्रितोदां\nततः पयोष्णीं प्रति स ह्युवास ॥"
+          "text": "विसृज्य कृष्णं त्वथ धर्मराजो\nविदर्भराजोपचितां सुतीर्थाम् ।\nसुतेन सोमेन विमिश्रितोदां\nततः पयोष्णीं प्रति स ह्युवास ॥",
+          "meaning": {
+            "en": "After sending Krishna off, the king of dharma went to a fine ford filled by the king of Vidarbha, whose waters are mingled with those of his son Soma, and stayed there by the river Payoshni."
+          }
         }
       ]
     }

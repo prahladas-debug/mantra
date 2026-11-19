@@ -22,73 +22,127 @@
       "titleEn": "Vaivahika Parva (The wedding)",
       "verses": [
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 1,
-          "text": "गत्वा तु तां भार्गवकर्मशालां\nपार्थौ पृथां प्राप्य महानुभावौ ।\nतां याज्ञसेनीं परमप्रतीतौ\nभिक्षेत्यथावेदयतां नराग्र्यौ ॥"
+          "text": "गत्वा तु तां भार्गवकर्मशालां\nपार्थौ पृथां प्राप्य महानुभावौ ।\nतां याज्ञसेनीं परमप्रतीतौ\nभिक्षेत्यथावेदयतां नराग्र्यौ ॥",
+          "meaning": {
+            "en": "The two great sons of Pritha, going to the potter's workshop and reaching their mother, were delighted with Yajnasena's daughter and told her, those best of men, 'It is alms.'"
+          }
         },
         {
           "n": 2,
-          "text": "कुटीगता सा त्वनवेक्ष्य पुत्रा-\nनुवाच भुङ्क्तेति समेत्य सर्वे ।\nपश्चात्तु कुन्ती प्रसमीक्ष्य कन्यां\nकष्टं मया भाषितमित्युवाच ॥"
+          "text": "कुटीगता सा त्वनवेक्ष्य पुत्रा-\nनुवाच भुङ्क्तेति समेत्य सर्वे ।\nपश्चात्तु कुन्ती प्रसमीक्ष्य कन्यां\nकष्टं मया भाषितमित्युवाच ॥",
+          "meaning": {
+            "en": "Kunti, inside the hut, without looking at her sons, said, 'Enjoy it all together.' Then Kunti saw the girl and said, 'I have spoken wrongly.'"
+          }
         },
         {
           "n": 3,
-          "text": "साधर्मभीता हि विलज्जमाना\nतां याज्ञसेनीं परमप्रतीताम् ।\nपाणौ गृहीत्वोपजगाम कुन्ती\nयुधिष्ठिरं वाक्यमुवाच चेदम् ॥"
+          "text": "साधर्मभीता हि विलज्जमाना\nतां याज्ञसेनीं परमप्रतीताम् ।\nपाणौ गृहीत्वोपजगाम कुन्ती\nयुधिष्ठिरं वाक्यमुवाच चेदम् ॥",
+          "meaning": {
+            "en": "Afraid of wrong against dharma and ashamed, Kunti took Yajnasena's very pleased daughter by the hand, went to Yudhishthira and said this:"
+          }
         },
         {
           "n": 4,
-          "text": "इयं हि कन्या द्रुपदस्य राज्ञ-\nस्तवानुजाभ्यां मयि संनिसृष्टा ।\nयथोचितं पुत्र मयापि चोक्तं\nसमेत्य भुङ्क्तेति नृप प्रमादात् ॥"
+          "text": "इयं हि कन्या द्रुपदस्य राज्ञ-\nस्तवानुजाभ्यां मयि संनिसृष्टा ।\nयथोचितं पुत्र मयापि चोक्तं\nसमेत्य भुङ्क्तेति नृप प्रमादात् ॥",
+          "meaning": {
+            "en": "Kunti said: This is King Drupada's daughter, handed over to me by your two younger brothers. Son, in my carelessness I said to them, as is usual, 'Enjoy it together.'"
+          }
         },
         {
           "n": 5,
-          "text": "कथं मया नानृतमुक्तमद्य\nभवेत्कुरूणामृषभ ब्रवीहि ।\nपाञ्चालराजस्य सुतामधर्मो\nन चोपवर्तेत नभूतपूर्वः ॥"
+          "text": "कथं मया नानृतमुक्तमद्य\nभवेत्कुरूणामृषभ ब्रवीहि ।\nपाञ्चालराजस्य सुतामधर्मो\nन चोपवर्तेत नभूतपूर्वः ॥",
+          "meaning": {
+            "en": "Tell me, bull of the Kurus, how my word may not become false today, and how the wrong may not befall the Panchala king's daughter, as it never has before."
+          }
         },
         {
           "n": 6,
-          "text": "मुहूर्तमात्रं त्वनुचिन्त्य राजा\nयुधिष्ठिरो मातरमुत्तमौजाः ।\nकुन्तीं समाश्वास्य कुरुप्रवीरो\nधनंजयं वाक्यमिदं बभाषे ॥"
+          "text": "मुहूर्तमात्रं त्वनुचिन्त्य राजा\nयुधिष्ठिरो मातरमुत्तमौजाः ।\nकुन्तीं समाश्वास्य कुरुप्रवीरो\nधनंजयं वाक्यमिदं बभाषे ॥",
+          "meaning": {
+            "en": "Thinking a moment, King Yudhishthira, of great vigour, comforted his mother Kunti, and that Kuru hero spoke these words to Dhananjaya:"
+          }
         },
         {
           "n": 7,
-          "text": "त्वया जिता पाण्डव याज्ञसेनी\nत्वया च तोषिष्यति राजपुत्री ।\nप्रज्वाल्यतां हूयतां चापि वह्नि-\nर्गृहाण पाणिं विधिवत्त्वमस्याः ॥"
+          "text": "त्वया जिता पाण्डव याज्ञसेनी\nत्वया च तोषिष्यति राजपुत्री ।\nप्रज्वाल्यतां हूयतां चापि वह्नि-\nर्गृहाण पाणिं विधिवत्त्वमस्याः ॥",
+          "meaning": {
+            "en": "Yudhishthira said: Pandava, you won Yajnasena's daughter, and the princess will be pleased with you. Let the fire be kindled and offerings made, and take her hand in due form."
+          }
         },
         {
-          "text": "अर्जुन उवाच"
+          "text": "अर्जुन उवाच",
+          "meaning": {
+            "en": "Arjuna said:"
+          }
         },
         {
           "n": 8,
-          "text": "मा मां नरेन्द्र त्वमधर्मभाजं\nकृथा न धर्मो ह्ययमीप्सितोऽन्यैः ।\nभवान्निवेश्यः प्रथमं ततोऽयं\nभीमो महाबाहुरचिन्त्यकर्मा ॥"
+          "text": "मा मां नरेन्द्र त्वमधर्मभाजं\nकृथा न धर्मो ह्ययमीप्सितोऽन्यैः ।\nभवान्निवेश्यः प्रथमं ततोऽयं\nभीमो महाबाहुरचिन्त्यकर्मा ॥",
+          "meaning": {
+            "en": "King, do not make me a sharer in wrong; this is not a dharma others approve. You should be wed first, then this mighty-armed Bhima of unthinkable deeds."
+          }
         },
         {
           "n": 9,
-          "text": "अहं ततो नकुलोऽनन्तरं मे\nमाद्रीसुतः सहदेवो जघन्यः ।\nवृकोदरोऽहं च यमौ च राज-\nन्नियं च कन्या भवतः स्म सर्वे ॥"
+          "text": "अहं ततो नकुलोऽनन्तरं मे\nमाद्रीसुतः सहदेवो जघन्यः ।\nवृकोदरोऽहं च यमौ च राज-\nन्नियं च कन्या भवतः स्म सर्वे ॥",
+          "meaning": {
+            "en": "Then I, next Nakula after me, and last Sahadeva, son of Madri. King, Vrikodara, I and the twins, and this maiden, are all yours."
+          }
         },
         {
           "n": 10,
-          "text": "एवंगते यत्करणीयमत्र\nधर्म्यं यशस्यं कुरु तत्प्रचिन्त्य ।\nपाञ्चालराजस्य च यत्प्रियं स्या-\nत्तद्ब्रूहि सर्वे स्म वशे स्थितास्ते ॥"
+          "text": "एवंगते यत्करणीयमत्र\nधर्म्यं यशस्यं कुरु तत्प्रचिन्त्य ।\nपाञ्चालराजस्य च यत्प्रियं स्या-\nत्तद्ब्रूहि सर्वे स्म वशे स्थितास्ते ॥",
+          "meaning": {
+            "en": "This being so, consider and do what is proper, righteous and renowned. Say whatever will please the Panchala king; we are all in your power."
+          }
         },
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 11,
-          "text": "ते दृष्ट्वा तत्र तिष्ठन्तीं सर्वे कृष्णां यशस्विनीम् ।\nसंप्रेक्ष्यान्योन्यमासीना हृदयैस्तामधारयन् ॥"
+          "text": "ते दृष्ट्वा तत्र तिष्ठन्तीं सर्वे कृष्णां यशस्विनीम् ।\nसंप्रेक्ष्यान्योन्यमासीना हृदयैस्तामधारयन् ॥",
+          "meaning": {
+            "en": "Seeing the renowned Krishna standing there, they all sat, looking at one another, and held her in their hearts."
+          }
         },
         {
           "n": 12,
-          "text": "तेषां हि द्रौपदीं दृष्ट्वा सर्वेषाममितौजसाम् ।\nसंप्रमथ्येन्द्रियग्रामं प्रादुरासीन्मनोभवः ॥"
+          "text": "तेषां हि द्रौपदीं दृष्ट्वा सर्वेषाममितौजसाम् ।\nसंप्रमथ्येन्द्रियग्रामं प्रादुरासीन्मनोभवः ॥",
+          "meaning": {
+            "en": "For all those brothers of boundless power, seeing Draupadi stirred up their whole company of senses, and love arose."
+          }
         },
         {
           "n": 13,
-          "text": "काम्यं रूपं हि पाञ्चाल्या विधात्रा विहितं स्वयम् ।\nबभूवाधिकमन्याभ्यः सर्वभूतमनोहरम् ॥"
+          "text": "काम्यं रूपं हि पाञ्चाल्या विधात्रा विहितं स्वयम् ।\nबभूवाधिकमन्याभ्यः सर्वभूतमनोहरम् ॥",
+          "meaning": {
+            "en": "The lovely form of the Panchala princess had been shaped by the Creator himself and was greater than that of other women, captivating the minds of all beings."
+          }
         },
         {
           "n": 14,
-          "text": "तेषामाकारभावज्ञः कुन्तीपुत्रो युधिष्ठिरः ।\nद्वैपायनवचः कृत्स्नं संस्मरन्वै नरर्षभ ॥"
+          "text": "तेषामाकारभावज्ञः कुन्तीपुत्रो युधिष्ठिरः ।\nद्वैपायनवचः कृत्स्नं संस्मरन्वै नरर्षभ ॥",
+          "meaning": {
+            "en": "Yudhishthira, son of Kunti, understanding their looks and feelings and recalling all of Dvaipayana's words, bull among men,"
+          }
         },
         {
           "n": 15,
-          "text": "अब्रवीत्स हि तान्भ्रातॄन्मिथोभेदभयान्नृपः ।\nसर्वेषां द्रौपदी भार्या भविष्यति हि नः शुभा ॥"
+          "text": "अब्रवीत्स हि तान्भ्रातॄन्मिथोभेदभयान्नृपः ।\nसर्वेषां द्रौपदी भार्या भविष्यति हि नः शुभा ॥",
+          "meaning": {
+            "en": "said to his brothers, fearing a split among them: Fair Draupadi shall be the wife of us all."
+          }
         }
       ]
     }

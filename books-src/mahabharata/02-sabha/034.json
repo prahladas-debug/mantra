@@ -22,99 +22,171 @@
       "titleEn": "Arghabhiharana Parva (The guest-gift)",
       "verses": [
         {
-          "text": "शिशुपाल उवाच"
+          "text": "शिशुपाल उवाच",
+          "meaning": {
+            "en": "Shishupala said:"
+          }
         },
         {
           "n": 1,
-          "text": "नायमर्हति वार्ष्णेयस्तिष्ठत्स्विह महात्मसु ।\nमहीपतिषु कौरव्य राजवत्पार्थिवार्हणम् ॥"
+          "text": "नायमर्हति वार्ष्णेयस्तिष्ठत्स्विह महात्मसु ।\nमहीपतिषु कौरव्य राजवत्पार्थिवार्हणम् ॥",
+          "meaning": {
+            "en": "With these great-souled kings present, this Vrishni does not deserve the honour due a king, Kaurava."
+          }
         },
         {
           "n": 2,
-          "text": "नायं युक्तः समाचारः पाण्डवेषु महात्मसु ।\nयत्कामात्पुण्डरीकाक्षं पाण्डवार्चितवानसि ॥"
+          "text": "नायं युक्तः समाचारः पाण्डवेषु महात्मसु ।\nयत्कामात्पुण्डरीकाक्षं पाण्डवार्चितवानसि ॥",
+          "meaning": {
+            "en": "This conduct is not fitting among the great-souled Pandavas, that out of fondness you Pandavas have honoured the lotus-eyed one."
+          }
         },
         {
           "n": 3,
-          "text": "बाला यूयं न जानीध्वं धर्मः सूक्ष्मो हि पाण्डवाः ।\nअयं तत्राभ्यतिक्रान्त आपगेयोऽल्पदर्शनः ॥"
+          "text": "बाला यूयं न जानीध्वं धर्मः सूक्ष्मो हि पाण्डवाः ।\nअयं तत्राभ्यतिक्रान्त आपगेयोऽल्पदर्शनः ॥",
+          "meaning": {
+            "en": "You are children, Pandavas, and do not know; dharma is subtle. Here this son of Ganga, of little sight, has overstepped it."
+          }
         },
         {
           "n": 4,
-          "text": "त्वादृशो धर्मयुक्तो हि कुर्वाणः प्रियकाम्यया ।\nभवत्यभ्यधिकं भीष्मो लोकेष्ववमतः सताम् ॥"
+          "text": "त्वादृशो धर्मयुक्तो हि कुर्वाणः प्रियकाम्यया ।\nभवत्यभ्यधिकं भीष्मो लोकेष्ववमतः सताम् ॥",
+          "meaning": {
+            "en": "For one like you, Bhishma, who acts out of wish to please, though bound to dharma, becomes greatly despised among the good in the world."
+          }
         },
         {
           "n": 5,
-          "text": "कथं ह्यराजा दाशार्हो मध्ये सर्वमहीक्षिताम् ।\nअर्हणामर्हति तथा यथा युष्माभिरर्चितः ॥"
+          "text": "कथं ह्यराजा दाशार्हो मध्ये सर्वमहीक्षिताम् ।\nअर्हणामर्हति तथा यथा युष्माभिरर्चितः ॥",
+          "meaning": {
+            "en": "How can the Dasharha, who is no king, deserve such honour among all the kings of the earth as you have paid him?"
+          }
         },
         {
           "n": 6,
-          "text": "अथ वा मन्यसे कृष्णं स्थविरं भरतर्षभ ।\nवसुदेवे स्थिते वृद्धे कथमर्हति तत्सुतः ॥"
+          "text": "अथ वा मन्यसे कृष्णं स्थविरं भरतर्षभ ।\nवसुदेवे स्थिते वृद्धे कथमर्हति तत्सुतः ॥",
+          "meaning": {
+            "en": "Or do you think Krishna is the elder, bull of the Bharatas? With old Vasudeva alive, how does his son deserve it?"
+          }
         },
         {
           "n": 7,
-          "text": "अथ वा वासुदेवोऽपि प्रियकामोऽनुवृत्तवान् ।\nद्रुपदे तिष्ठति कथं माधवोऽर्हति पूजनम् ॥"
+          "text": "अथ वा वासुदेवोऽपि प्रियकामोऽनुवृत्तवान् ।\nद्रुपदे तिष्ठति कथं माधवोऽर्हति पूजनम् ॥",
+          "meaning": {
+            "en": "Or has Vasudeva, wishing to please, followed you? With Drupada present, how does Madhava merit worship?"
+          }
         },
         {
           "n": 8,
-          "text": "आचार्यं मन्यसे कृष्णमथ वा कुरुपुंगव ।\nद्रोणे तिष्ठति वार्ष्णेयं कस्मादर्चितवानसि ॥"
+          "text": "आचार्यं मन्यसे कृष्णमथ वा कुरुपुंगव ।\nद्रोणे तिष्ठति वार्ष्णेयं कस्मादर्चितवानसि ॥",
+          "meaning": {
+            "en": "Or do you think Krishna a teacher, bull of the Kurus? With Drona present, why have you honoured the Vrishni?"
+          }
         },
         {
           "n": 9,
-          "text": "ऋत्विजं मन्यसे कृष्णमथ वा कुरुनन्दन ।\nद्वैपायने स्थिते विप्रे कथं कृष्णोऽर्चितस्त्वया ॥"
+          "text": "ऋत्विजं मन्यसे कृष्णमथ वा कुरुनन्दन ।\nद्वैपायने स्थिते विप्रे कथं कृष्णोऽर्चितस्त्वया ॥",
+          "meaning": {
+            "en": "Or do you think Krishna a priest, joy of the Kurus? With the brahmin Dvaipayana present, how is Krishna honoured by you?"
+          }
         },
         {
           "n": 10,
-          "text": "नैव ऋत्विङ्न चाचार्यो न राजा मधुसूदनः ।\nअर्चितश्च कुरुश्रेष्ठ किमन्यत्प्रियकाम्यया ॥"
+          "text": "नैव ऋत्विङ्न चाचार्यो न राजा मधुसूदनः ।\nअर्चितश्च कुरुश्रेष्ठ किमन्यत्प्रियकाम्यया ॥",
+          "meaning": {
+            "en": "Madhusudana is neither priest nor teacher nor king; and he has been honoured, best of Kurus, for what other reason than to please?"
+          }
         },
         {
           "n": 11,
-          "text": "अथ वाप्यर्चनीयोऽयं युष्माकं मधुसूदनः ।\nकिं राजभिरिहानीतैरवमानाय भारत ॥"
+          "text": "अथ वाप्यर्चनीयोऽयं युष्माकं मधुसूदनः ।\nकिं राजभिरिहानीतैरवमानाय भारत ॥",
+          "meaning": {
+            "en": "Or if he is to be honoured by you, Madhusudana, what was the use of bringing the kings here, only to insult them, Bharata?"
+          }
         },
         {
           "n": 12,
-          "text": "वयं तु न भयादस्य कौन्तेयस्य महात्मनः ।\nप्रयच्छामः करान्सर्वे न लोभान्न च सान्त्वनात् ॥"
+          "text": "वयं तु न भयादस्य कौन्तेयस्य महात्मनः ।\nप्रयच्छामः करान्सर्वे न लोभान्न च सान्त्वनात् ॥",
+          "meaning": {
+            "en": "We do not give tribute to this great-souled son of Kunti out of fear, nor from greed, nor from conciliation."
+          }
         },
         {
           "n": 13,
-          "text": "अस्य धर्मप्रवृत्तस्य पार्थिवत्वं चिकीर्षतः ।\nकरानस्मै प्रयच्छामः सोऽयमस्मान्न मन्यते ॥"
+          "text": "अस्य धर्मप्रवृत्तस्य पार्थिवत्वं चिकीर्षतः ।\nकरानस्मै प्रयच्छामः सोऽयमस्मान्न मन्यते ॥",
+          "meaning": {
+            "en": "He walks in dharma and wishes to be a sovereign; we give him tribute, yet he does not regard us."
+          }
         },
         {
           "n": 14,
-          "text": "किमन्यदवमानाद्धि यदिमं राजसंसदि ।\nअप्राप्तलक्षणं कृष्णमर्घ्येणार्चितवानसि ॥"
+          "text": "किमन्यदवमानाद्धि यदिमं राजसंसदि ।\nअप्राप्तलक्षणं कृष्णमर्घ्येणार्चितवानसि ॥",
+          "meaning": {
+            "en": "What is that but an insult, that in this royal assembly you have honoured with the offering Krishna, who lacks the marks of eligibility?"
+          }
         },
         {
           "n": 15,
-          "text": "अकस्माद्धर्मपुत्रस्य धर्मात्मेति यशो गतम् ।\nको हि धर्मच्युते पूजामेवं युक्तां प्रयोजयेत् ।\nयोऽयं वृष्णिकुले जातो राजानं हतवान्पुरा ॥"
+          "text": "अकस्माद्धर्मपुत्रस्य धर्मात्मेति यशो गतम् ।\nको हि धर्मच्युते पूजामेवं युक्तां प्रयोजयेत् ।\nयोऽयं वृष्णिकुले जातो राजानं हतवान्पुरा ॥",
+          "meaning": {
+            "en": "Suddenly the son of Dharma has gained the fame of being righteous. Who would pay such seemly honour to one who has fallen from dharma, this one born in the Vrishni line who earlier killed a king?"
+          }
         },
         {
           "n": 16,
-          "text": "अद्य धर्मात्मता चैव व्यपकृष्टा युधिष्ठिरात् ।\nकृपणत्वं निविष्टं च कृष्णेऽर्घ्यस्य निवेदनात् ॥"
+          "text": "अद्य धर्मात्मता चैव व्यपकृष्टा युधिष्ठिरात् ।\nकृपणत्वं निविष्टं च कृष्णेऽर्घ्यस्य निवेदनात् ॥",
+          "meaning": {
+            "en": "Today Yudhishthira's righteousness has been dragged down, and meanness has settled on him in presenting the offering to Krishna."
+          }
         },
         {
           "n": 17,
-          "text": "यदि भीताश्च कौन्तेयाः कृपणाश्च तपस्विनः ।\nननु त्वयापि बोद्धव्यं यां पूजां माधवोऽर्हति ॥"
+          "text": "यदि भीताश्च कौन्तेयाः कृपणाश्च तपस्विनः ।\nननु त्वयापि बोद्धव्यं यां पूजां माधवोऽर्हति ॥",
+          "meaning": {
+            "en": "If the sons of Kunti are afraid and poor ascetics, should you at least not have known, Janardana, what honour Madhava deserves?"
+          }
         },
         {
           "n": 18,
-          "text": "अथ वा कृपणैरेतामुपनीतां जनार्दन ।\nपूजामनर्हः कस्मात्त्वमभ्यनुज्ञातवानसि ॥"
+          "text": "अथ वा कृपणैरेतामुपनीतां जनार्दन ।\nपूजामनर्हः कस्मात्त्वमभ्यनुज्ञातवानसि ॥",
+          "meaning": {
+            "en": "Or if the poor ones brought you this honour, Janardana, why did you, unworthy, accept it?"
+          }
         },
         {
           "n": 19,
-          "text": "अयुक्तामात्मनः पूजां त्वं पुनर्बहु मन्यसे ।\nहविषः प्राप्य निष्यन्दं प्राशितुं श्वेव निर्जने ॥"
+          "text": "अयुक्तामात्मनः पूजां त्वं पुनर्बहु मन्यसे ।\nहविषः प्राप्य निष्यन्दं प्राशितुं श्वेव निर्जने ॥",
+          "meaning": {
+            "en": "You value highly an honour unfit for you, as a dog alone in a quiet place gets a drip of the offering and gulps it down."
+          }
         },
         {
           "n": 20,
-          "text": "न त्वयं पार्थिवेन्द्राणामवमानः प्रयुज्यते ।\nत्वामेव कुरवो व्यक्तं प्रलम्भन्ते जनार्दन ॥"
+          "text": "न त्वयं पार्थिवेन्द्राणामवमानः प्रयुज्यते ।\nत्वामेव कुरवो व्यक्तं प्रलम्भन्ते जनार्दन ॥",
+          "meaning": {
+            "en": "This insult is not aimed at the lords of kings, but it is you, Janardana, whom the Kurus plainly mock."
+          }
         },
         {
           "n": 21,
-          "text": "क्लीबे दारक्रिया यादृगन्धे वा रूपदर्शनम् ।\nअराज्ञो राजवत्पूजा तथा ते मधुसूदन ॥"
+          "text": "क्लीबे दारक्रिया यादृगन्धे वा रूपदर्शनम् ।\nअराज्ञो राजवत्पूजा तथा ते मधुसूदन ॥",
+          "meaning": {
+            "en": "Like marrying a eunuch, or like showing beauty to a blind man, so is the honour like a king's paid to you who are no king, Madhusudana."
+          }
         },
         {
           "n": 22,
-          "text": "दृष्टो युधिष्ठिरो राजा दृष्टो भीष्मश्च यादृशः ।\nवासुदेवोऽप्ययं दृष्टः सर्वमेतद्यथातथम् ॥"
+          "text": "दृष्टो युधिष्ठिरो राजा दृष्टो भीष्मश्च यादृशः ।\nवासुदेवोऽप्ययं दृष्टः सर्वमेतद्यथातथम् ॥",
+          "meaning": {
+            "en": "I have seen King Yudhishthira, I have seen what Bhishma is like, and I have seen this Vasudeva too; all this is just as it is."
+          }
         },
         {
           "n": 23,
-          "text": "इत्युक्त्वा शिशुपालस्तानुत्थाय परमासनात् ।\nनिर्ययौ सदसस्तस्मात्सहितो राजभिस्तदा ॥"
+          "text": "इत्युक्त्वा शिशुपालस्तानुत्थाय परमासनात् ।\nनिर्ययौ सदसस्तस्मात्सहितो राजभिस्तदा ॥",
+          "meaning": {
+            "en": "Having said this, Shishupala rose from his excellent seat and left that hall together with the kings."
+          }
         }
       ]
     }

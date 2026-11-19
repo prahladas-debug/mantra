@@ -22,159 +22,276 @@
       "titleEn": "Sabha Parva (The assembly hall)",
       "verses": [
         {
-          "text": "नारद उवाच"
+          "text": "नारद उवाच",
+          "meaning": {
+            "en": "Narada said:"
+          }
         },
         {
           "n": 1,
-          "text": "कथयिष्ये सभां दिव्यां युधिष्ठिर निबोध ताम् ।\nवैवस्वतस्य यामर्थे विश्वकर्मा चकार ह ॥"
+          "text": "कथयिष्ये सभां दिव्यां युधिष्ठिर निबोध ताम् ।\nवैवस्वतस्य यामर्थे विश्वकर्मा चकार ह ॥",
+          "meaning": {
+            "en": "I will tell you of the heavenly hall; Yudhishthira, listen. Vishvakarma made it for Vaivasvata."
+          }
         },
         {
           "n": 2,
-          "text": "तैजसी सा सभा राजन्बभूव शतयोजना ।\nविस्तारायामसंपन्ना भूयसी चापि पाण्डव ॥"
+          "text": "तैजसी सा सभा राजन्बभूव शतयोजना ।\nविस्तारायामसंपन्ना भूयसी चापि पाण्डव ॥",
+          "meaning": {
+            "en": "That hall, O king, was made of radiance, a hundred yojanas across, and, Pandava, rather more than that in length and breadth."
+          }
         },
         {
           "n": 3,
-          "text": "अर्कप्रकाशा भ्राजिष्णुः सर्वतः कामचारिणी ।\nनैवातिशीता नात्युष्णा मनसश्च प्रहर्षिणी ॥"
+          "text": "अर्कप्रकाशा भ्राजिष्णुः सर्वतः कामचारिणी ।\nनैवातिशीता नात्युष्णा मनसश्च प्रहर्षिणी ॥",
+          "meaning": {
+            "en": "It shone with the light of the sun, moved at will on every side, was neither too cold nor too hot, and delighted the mind."
+          }
         },
         {
           "n": 4,
-          "text": "न शोको न जरा तस्यां क्षुत्पिपासे न चाप्रियम् ।\nन च दैन्यं क्लमो वापि प्रतिकूलं न चाप्युत ॥"
+          "text": "न शोको न जरा तस्यां क्षुत्पिपासे न चाप्रियम् ।\nन च दैन्यं क्लमो वापि प्रतिकूलं न चाप्युत ॥",
+          "meaning": {
+            "en": "In it there is no grief or old age, no hunger or thirst, nothing unpleasant, no wretchedness or weariness or anything adverse."
+          }
         },
         {
           "n": 5,
-          "text": "सर्वे कामाः स्थितास्तस्यां ये दिव्या ये च मानुषाः ।\nरसवच्च प्रभूतं च भक्ष्यभोज्यमरिंदम ॥"
+          "text": "सर्वे कामाः स्थितास्तस्यां ये दिव्या ये च मानुषाः ।\nरसवच्च प्रभूतं च भक्ष्यभोज्यमरिंदम ॥",
+          "meaning": {
+            "en": "Every desire, divine or human, is there, and abundant, tasty food and drink, subduer of enemies."
+          }
         },
         {
           "n": 6,
-          "text": "पुण्यगन्धाः स्रजस्तत्र नित्यपुष्पफलद्रुमाः ।\nरसवन्ति च तोयानि शीतान्युष्णानि चैव ह ॥"
+          "text": "पुण्यगन्धाः स्रजस्तत्र नित्यपुष्पफलद्रुमाः ।\nरसवन्ति च तोयानि शीतान्युष्णानि चैव ह ॥",
+          "meaning": {
+            "en": "There are garlands of holy fragrance, trees ever in flower and fruit, and flavorful waters both cold and hot."
+          }
         },
         {
           "n": 7,
-          "text": "तस्यां राजर्षयः पुण्यास्तथा ब्रह्मर्षयोऽमलाः ।\nयमं वैवस्वतं तात प्रहृष्टाः पर्युपासते ॥"
+          "text": "तस्यां राजर्षयः पुण्यास्तथा ब्रह्मर्षयोऽमलाः ।\nयमं वैवस्वतं तात प्रहृष्टाः पर्युपासते ॥",
+          "meaning": {
+            "en": "In that hall holy royal seers and spotless Brahmin seers, my dear, gladly wait upon Yama, son of Vivasvat."
+          }
         },
         {
           "n": 8,
-          "text": "ययातिर्नहुषः पूरुर्मान्धाता सोमको नृगः ।\nत्रसदस्युश्च तुरयः कृतवीर्यः श्रुतश्रवाः ॥"
+          "text": "ययातिर्नहुषः पूरुर्मान्धाता सोमको नृगः ।\nत्रसदस्युश्च तुरयः कृतवीर्यः श्रुतश्रवाः ॥",
+          "meaning": {
+            "en": "Yayati, Nahusha, Puru, Mandhata, Somaka, Nriga, Trasadasyu, Turaya, Kritavirya, Shrutashravas;"
+          }
         },
         {
           "n": 9,
-          "text": "अरिप्रणुत्सुसिंहश्च कृतवेगः कृतिर्निमिः ।\nप्रतर्दनः शिबिर्मत्स्यः पृथ्वक्षोऽथ बृहद्रथः ॥"
+          "text": "अरिप्रणुत्सुसिंहश्च कृतवेगः कृतिर्निमिः ।\nप्रतर्दनः शिबिर्मत्स्यः पृथ्वक्षोऽथ बृहद्रथः ॥",
+          "meaning": {
+            "en": "Aripranut, Susimha, Kritavega, Kriti, Nimi, Pratardana, Shibi, Matsya, Prithvaksha, Brihadratha;"
+          }
         },
         {
           "n": 10,
-          "text": "ऐडो मरुत्तः कुशिकः सांकाश्यः सांकृतिर्भवः ।\nचतुरश्वः सदश्वोर्मिः कार्तवीर्यश्च पार्थिवः ॥"
+          "text": "ऐडो मरुत्तः कुशिकः सांकाश्यः सांकृतिर्भवः ।\nचतुरश्वः सदश्वोर्मिः कार्तवीर्यश्च पार्थिवः ॥",
+          "meaning": {
+            "en": "Aida, Marutta, Kushika, Sankashya, Sankriti, Bhava, Chaturashva, Sadashva, Urmi and King Kartavirya;"
+          }
         },
         {
           "n": 11,
-          "text": "भरतस्तथा सुरथः सुनीथो नैषधो नलः ।\nदिवोदासोऽथ सुमना अम्बरीषो भगीरथः ॥"
+          "text": "भरतस्तथा सुरथः सुनीथो नैषधो नलः ।\nदिवोदासोऽथ सुमना अम्बरीषो भगीरथः ॥",
+          "meaning": {
+            "en": "Bharata, Suratha, Sunitha, Nala of Nishadha, Divodasa, Sumana, Ambarisha, Bhagiratha;"
+          }
         },
         {
           "n": 12,
-          "text": "व्यश्वः सदश्वो वध्र्यश्वः पञ्चहस्तः पृथुश्रवाः ।\nरुषद्गुर्वृषसेनश्च क्षुपश्च सुमहाबलः ॥"
+          "text": "व्यश्वः सदश्वो वध्र्यश्वः पञ्चहस्तः पृथुश्रवाः ।\nरुषद्गुर्वृषसेनश्च क्षुपश्च सुमहाबलः ॥",
+          "meaning": {
+            "en": "Vyashva, Sadashva, Vadhryashva, Panchahasta, Prithushravas, Rushadgu, Vrishasena and the very mighty Kshupa;"
+          }
         },
         {
           "n": 13,
-          "text": "रुषदश्वो वसुमनाः पुरुकुत्सो ध्वजी रथी ।\nआर्ष्टिषेणो दिलीपश्च महात्मा चाप्युशीनरः ॥"
+          "text": "रुषदश्वो वसुमनाः पुरुकुत्सो ध्वजी रथी ।\nआर्ष्टिषेणो दिलीपश्च महात्मा चाप्युशीनरः ॥",
+          "meaning": {
+            "en": "Rushadashva, Vasumana, Purukutsa, Dhvaji, Ratha, Arshtishena, Dilipa and the great Ushinara;"
+          }
         },
         {
           "n": 14,
-          "text": "औशीनरः पुण्डरीकः शर्यातिः शरभः शुचिः ।\nअङ्गोऽरिष्टश्च वेनश्च दुःषन्तः संजयो जयः ॥"
+          "text": "औशीनरः पुण्डरीकः शर्यातिः शरभः शुचिः ।\nअङ्गोऽरिष्टश्च वेनश्च दुःषन्तः संजयो जयः ॥",
+          "meaning": {
+            "en": "Aushinara, Pundarika, Sharyati, Sharabha, Shuchi, Anga, Arishta, Vena, Dushyanta, Sanjaya and Jaya;"
+          }
         },
         {
           "n": 15,
-          "text": "भाङ्गास्वरिः सुनीथश्च निषधोऽथ त्विषीरथः ।\nकरंधमो बाह्लिकश्च सुद्युम्नो बलवान्मधुः ॥"
+          "text": "भाङ्गास्वरिः सुनीथश्च निषधोऽथ त्विषीरथः ।\nकरंधमो बाह्लिकश्च सुद्युम्नो बलवान्मधुः ॥",
+          "meaning": {
+            "en": "Bhangasvari, Sunitha, Nishadha, Tvisheeratha, Karandhama, Bahlika, Sudyumna and the mighty Madhu;"
+          }
         },
         {
           "n": 16,
-          "text": "कपोतरोमा तृणकः सहदेवार्जुनौ तथा ।\nरामो दाशरथिश्चैव लक्ष्मणोऽथ प्रतर्दनः ॥"
+          "text": "कपोतरोमा तृणकः सहदेवार्जुनौ तथा ।\nरामो दाशरथिश्चैव लक्ष्मणोऽथ प्रतर्दनः ॥",
+          "meaning": {
+            "en": "Kapotaroma, Trinaka, Sahadeva and Arjuna, Rama son of Dasharatha, Lakshmana, and Pratardana;"
+          }
         },
         {
           "n": 17,
-          "text": "अलर्कः कक्षसेनश्च गयो गौराश्व एव च ।\nजामदग्न्योऽथ रामोऽत्र नाभागसगरौ तथा ॥"
+          "text": "अलर्कः कक्षसेनश्च गयो गौराश्व एव च ।\nजामदग्न्योऽथ रामोऽत्र नाभागसगरौ तथा ॥",
+          "meaning": {
+            "en": "Alarka, Kakshasena, Gaya, Gauraashva, Rama son of Jamadagni, Nabhaga and Sagara;"
+          }
         },
         {
           "n": 18,
-          "text": "भूरिद्युम्नो महाश्वश्च पृथ्वश्वो जनकस्तथा ।\nवैन्यो राजा वारिषेणः पुरुजो जनमेजयः ॥"
+          "text": "भूरिद्युम्नो महाश्वश्च पृथ्वश्वो जनकस्तथा ।\nवैन्यो राजा वारिषेणः पुरुजो जनमेजयः ॥",
+          "meaning": {
+            "en": "Bhuridyumna, Mahashva, Prithvashva, Janaka, King Vainya, Varishena, Puruja and Janamejaya;"
+          }
         },
         {
           "n": 19,
-          "text": "ब्रह्मदत्तस्त्रिगर्तश्च राजोपरिचरस्तथा ।\nइन्द्रद्युम्नो भीमजानुर्गयः पृष्ठो नयोऽनघः ॥"
+          "text": "ब्रह्मदत्तस्त्रिगर्तश्च राजोपरिचरस्तथा ।\nइन्द्रद्युम्नो भीमजानुर्गयः पृष्ठो नयोऽनघः ॥",
+          "meaning": {
+            "en": "Brahmadatta, Trigarta, King Uparichara, Indradyumna, Bhimajanu, Gaya, Prishtha and the blameless Naya;"
+          }
         },
         {
           "n": 20,
-          "text": "पद्मोऽथ मुचुकुन्दश्च भूरिद्युम्नः प्रसेनजित् ।\nअरिष्टनेमिः प्रद्युम्नः पृथगश्वोऽजकस्तथा ॥"
+          "text": "पद्मोऽथ मुचुकुन्दश्च भूरिद्युम्नः प्रसेनजित् ।\nअरिष्टनेमिः प्रद्युम्नः पृथगश्वोऽजकस्तथा ॥",
+          "meaning": {
+            "en": "Padma, Muchukunda, Bhuridyumna, Prasenajit, Arishtanemi, Pradyumna, Prithagashva and Ajaka;"
+          }
         },
         {
           "n": 21,
-          "text": "शतं मत्स्या नृपतयः शतं नीपाः शतं हयाः ।\nधृतराष्ट्राश्चैकशतमशीतिर्जनमेजयाः ॥"
+          "text": "शतं मत्स्या नृपतयः शतं नीपाः शतं हयाः ।\nधृतराष्ट्राश्चैकशतमशीतिर्जनमेजयाः ॥",
+          "meaning": {
+            "en": "a hundred Matsya kings, a hundred Nipas, a hundred Hayas, a hundred and one Dhritarashtras, eighty Janamejayas;"
+          }
         },
         {
           "n": 22,
-          "text": "शतं च ब्रह्मदत्तानामीरिणां वैरिणां शतम् ।\nशंतनुश्चैव राजर्षिः पाण्डुश्चैव पिता तव ॥"
+          "text": "शतं च ब्रह्मदत्तानामीरिणां वैरिणां शतम् ।\nशंतनुश्चैव राजर्षिः पाण्डुश्चैव पिता तव ॥",
+          "meaning": {
+            "en": "a hundred Brahmadattas, a hundred Irins, a hundred Vairins, and the royal seer Shantanu and your father Pandu;"
+          }
         },
         {
           "n": 23,
-          "text": "उशद्गवः शतरथो देवराजो जयद्रथः ।\nवृषादर्भिश्च राजर्षिर्धाम्ना सह समन्त्रिणा ॥"
+          "text": "उशद्गवः शतरथो देवराजो जयद्रथः ।\nवृषादर्भिश्च राजर्षिर्धाम्ना सह समन्त्रिणा ॥",
+          "meaning": {
+            "en": "Ushadgava, Shataratha, Devaraja, Jayadratha, and the royal seer Vrishadarbhi with Dhama and his minister;"
+          }
         },
         {
           "n": 24,
-          "text": "अथापरे सहस्राणि ये गताः शशबिन्दवः ।\nइष्ट्वाश्वमेधैर्बहुभिर्महद्भिर्भूरिदक्षिणैः ॥"
+          "text": "अथापरे सहस्राणि ये गताः शशबिन्दवः ।\nइष्ट्वाश्वमेधैर्बहुभिर्महद्भिर्भूरिदक्षिणैः ॥",
+          "meaning": {
+            "en": "and thousands of others, the Shashabindus who have gone there, having offered many great horse sacrifices with abundant fees."
+          }
         },
         {
           "n": 25,
-          "text": "एते राजर्षयः पुण्याः कीर्तिमन्तो बहुश्रुताः ।\nतस्यां सभायां राजर्षे वैवस्वतमुपासते ॥"
+          "text": "एते राजर्षयः पुण्याः कीर्तिमन्तो बहुश्रुताः ।\nतस्यां सभायां राजर्षे वैवस्वतमुपासते ॥",
+          "meaning": {
+            "en": "These holy royal seers, famous and learned, attend Vaivasvata in that hall, O royal seer."
+          }
         },
         {
           "n": 26,
-          "text": "अगस्त्योऽथ मतङ्गश्च कालो मृत्युस्तथैव च ।\nयज्वानश्चैव सिद्धाश्च ये च योगशरीरिणः ॥"
+          "text": "अगस्त्योऽथ मतङ्गश्च कालो मृत्युस्तथैव च ।\nयज्वानश्चैव सिद्धाश्च ये च योगशरीरिणः ॥",
+          "meaning": {
+            "en": "Agastya and Matanga, Kala, Death, sacrificers and Siddhas, and those with bodies of yoga;"
+          }
         },
         {
           "n": 27,
-          "text": "अग्निष्वात्ताश्च पितरः फेनपाश्चोष्मपाश्च ये ।\nस्वधावन्तो बर्हिषदो मूर्तिमन्तस्तथापरे ॥"
+          "text": "अग्निष्वात्ताश्च पितरः फेनपाश्चोष्मपाश्च ये ।\nस्वधावन्तो बर्हिषदो मूर्तिमन्तस्तथापरे ॥",
+          "meaning": {
+            "en": "the Agnishvatta fathers, the foam-drinkers and heat-drinkers, the Svadha-holders and the Barhishads, and others who have bodies;"
+          }
         },
         {
           "n": 28,
-          "text": "कालचक्रं च साक्षाच्च भगवान्हव्यवाहनः ।\nनरा दुष्कृतकर्माणो दक्षिणायनमृत्यवः ॥"
+          "text": "कालचक्रं च साक्षाच्च भगवान्हव्यवाहनः ।\nनरा दुष्कृतकर्माणो दक्षिणायनमृत्यवः ॥",
+          "meaning": {
+            "en": "the Wheel of Time in person, and the blessed Agni, carrier of oblations; and men of evil deeds who die in the southern course of the sun;"
+          }
         },
         {
           "n": 29,
-          "text": "कालस्य नयने युक्ता यमस्य पुरुषाश्च ये ।\nतस्यां शिंशपपालाशास्तथा काशकुशादयः ।\nउपासते धर्मराजं मूर्तिमन्तो निरामयाः ॥"
+          "text": "कालस्य नयने युक्ता यमस्य पुरुषाश्च ये ।\nतस्यां शिंशपपालाशास्तथा काशकुशादयः ।\nउपासते धर्मराजं मूर्तिमन्तो निरामयाः ॥",
+          "meaning": {
+            "en": "and Yama's men who are engaged in leading men at Time's bidding. There the shimshapa and palasha trees, kasha and kusha grass and others, in bodily form and free of illness, wait upon the king of dharma."
+          }
         },
         {
           "n": 30,
-          "text": "एते चान्ये च बहवः पितृराजसभासदः ।\nअशक्याः परिसंख्यातुं नामभिः कर्मभिस्तथा ॥"
+          "text": "एते चान्ये च बहवः पितृराजसभासदः ।\nअशक्याः परिसंख्यातुं नामभिः कर्मभिस्तथा ॥",
+          "meaning": {
+            "en": "These and many others sit in the hall of the king of the fathers; they cannot be counted by name or by deeds."
+          }
         },
         {
           "n": 31,
-          "text": "असंबाधा हि सा पार्थ रम्या कामगमा सभा ।\nदीर्घकालं तपस्तप्त्वा निर्मिता विश्वकर्मणा ॥"
+          "text": "असंबाधा हि सा पार्थ रम्या कामगमा सभा ।\nदीर्घकालं तपस्तप्त्वा निर्मिता विश्वकर्मणा ॥",
+          "meaning": {
+            "en": "That hall, Partha, is unconfined, lovely and moves at will; Vishvakarma made it after long austerity."
+          }
         },
         {
           "n": 32,
-          "text": "प्रभासन्ती ज्वलन्तीव तेजसा स्वेन भारत ।\nतामुग्रतपसो यान्ति सुव्रताः सत्यवादिनः ॥"
+          "text": "प्रभासन्ती ज्वलन्तीव तेजसा स्वेन भारत ।\nतामुग्रतपसो यान्ति सुव्रताः सत्यवादिनः ॥",
+          "meaning": {
+            "en": "It shines and seems to blaze by its own splendor, O Bharata; those of fierce austerity, firm in their vows and truthful, go there."
+          }
         },
         {
           "n": 33,
-          "text": "शान्ताः संन्यासिनः सिद्धाः पूताः पुण्येन कर्मणा ।\nसर्वे भास्वरदेहाश्च सर्वे च विरजोम्बराः ॥"
+          "text": "शान्ताः संन्यासिनः सिद्धाः पूताः पुण्येन कर्मणा ।\nसर्वे भास्वरदेहाश्च सर्वे च विरजोम्बराः ॥",
+          "meaning": {
+            "en": "The peaceful, the renouncers, the perfected, and those purified by holy deeds go there, all with shining bodies and spotless garments."
+          }
         },
         {
           "n": 34,
-          "text": "चित्राङ्गदाश्चित्रमाल्याः सर्वे ज्वलितकुण्डलाः ।\nसुकृतैः कर्मभिः पुण्यैः परिबर्हैर्विभूषिताः ॥"
+          "text": "चित्राङ्गदाश्चित्रमाल्याः सर्वे ज्वलितकुण्डलाः ।\nसुकृतैः कर्मभिः पुण्यैः परिबर्हैर्विभूषिताः ॥",
+          "meaning": {
+            "en": "All wear bright armlets and varied garlands and blazing earrings, adorned by their good deeds and their holy possessions."
+          }
         },
         {
           "n": 35,
-          "text": "गन्धर्वाश्च महात्मानः शतशश्चाप्सरोगणाः ।\nवादित्रं नृत्तगीतं च हास्यं लास्यं च सर्वशः ॥"
+          "text": "गन्धर्वाश्च महात्मानः शतशश्चाप्सरोगणाः ।\nवादित्रं नृत्तगीतं च हास्यं लास्यं च सर्वशः ॥",
+          "meaning": {
+            "en": "Great Gandharvas and hundreds of troops of Apsarases are there, with instruments, dance, song, laughter and graceful dancing everywhere."
+          }
         },
         {
           "n": 36,
-          "text": "पुण्याश्च गन्धाः शब्दाश्च तस्यां पार्थ समन्ततः ।\nदिव्यानि माल्यानि च तामुपतिष्ठन्ति सर्वशः ॥"
+          "text": "पुण्याश्च गन्धाः शब्दाश्च तस्यां पार्थ समन्ततः ।\nदिव्यानि माल्यानि च तामुपतिष्ठन्ति सर्वशः ॥",
+          "meaning": {
+            "en": "Holy scents and sounds and heavenly garlands surround it on every side, Partha."
+          }
         },
         {
           "n": 37,
-          "text": "शतं शतसहस्राणि धर्मिणां तं प्रजेश्वरम् ।\nउपासते महात्मानं रूपयुक्ता मनस्विनः ॥"
+          "text": "शतं शतसहस्राणि धर्मिणां तं प्रजेश्वरम् ।\nउपासते महात्मानं रूपयुक्ता मनस्विनः ॥",
+          "meaning": {
+            "en": "Hundreds of thousands of righteous, handsome and high-minded people wait upon that great lord of creatures."
+          }
         },
         {
           "n": 38,
-          "text": "ईदृशी सा सभा राजन्पितृराज्ञो महात्मनः ।\nवरुणस्यापि वक्ष्यामि सभां पुष्करमालिनीम् ॥"
+          "text": "ईदृशी सा सभा राजन्पितृराज्ञो महात्मनः ।\nवरुणस्यापि वक्ष्यामि सभां पुष्करमालिनीम् ॥",
+          "meaning": {
+            "en": "Such is the hall of the great king of the fathers, O king. Now I will tell you of the hall of Varuna, wreathed with lotus garlands."
+          }
         }
       ]
     }

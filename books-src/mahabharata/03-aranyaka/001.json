@@ -22,188 +22,329 @@
       "titleEn": "Aranyaka Parva (Into the forest)",
       "verses": [
         {
-          "text": "जनमेजय उवाच"
+          "text": "जनमेजय उवाच",
+          "meaning": {
+            "en": "Janamejaya said:"
+          }
         },
         {
           "n": 1,
-          "text": "एवं द्यूतजिताः पार्थाः कोपिताश्च दुरात्मभिः ।\nधार्तराष्ट्रैः सहामात्यैर्निकृत्या द्विजसत्तम ॥"
+          "text": "एवं द्यूतजिताः पार्थाः कोपिताश्च दुरात्मभिः ।\nधार्तराष्ट्रैः सहामात्यैर्निकृत्या द्विजसत्तम ॥",
+          "meaning": {
+            "en": "Brahmin, the sons of Pritha had been beaten at dice and goaded by the wicked sons of Dhritarashtra and their ministers, who had cheated them."
+          }
         },
         {
           "n": 2,
-          "text": "श्राविताः परुषा वाचः सृजद्भिर्वैरमुत्तमम् ।\nकिमकुर्वन्त कौरव्या मम पूर्वपितामहाः ॥"
+          "text": "श्राविताः परुषा वाचः सृजद्भिर्वैरमुत्तमम् ।\nकिमकुर्वन्त कौरव्या मम पूर्वपितामहाः ॥",
+          "meaning": {
+            "en": "They had been made to hear harsh words, and enmity of the worst kind had been sown. What did those Kauravas, my forefathers, do then?"
+          }
         },
         {
           "n": 3,
-          "text": "कथं चैश्वर्यविभ्रष्टाः सहसा दुःखमेयुषः ।\nवने विजह्रिरे पार्थाः शक्रप्रतिमतेजसः ॥"
+          "text": "कथं चैश्वर्यविभ्रष्टाः सहसा दुःखमेयुषः ।\nवने विजह्रिरे पार्थाः शक्रप्रतिमतेजसः ॥",
+          "meaning": {
+            "en": "Suddenly fallen from their sovereignty and plunged in grief, how did the sons of Pritha, equal to Indra in splendor, live in the forest?"
+          }
         },
         {
           "n": 4,
-          "text": "के चैनानन्ववर्तन्त प्राप्तान्व्यसनमुत्तमम् ।\nकिमाहाराः किमाचाराः क्व च वासो महात्मनाम् ॥"
+          "text": "के चैनानन्ववर्तन्त प्राप्तान्व्यसनमुत्तमम् ।\nकिमाहाराः किमाचाराः क्व च वासो महात्मनाम् ॥",
+          "meaning": {
+            "en": "Who followed those great men in their deep misfortune? What did they eat, how did they conduct themselves, and where did they dwell?"
+          }
         },
         {
           "n": 5,
-          "text": "कथं द्वादश वर्षाणि वने तेषां महात्मनाम् ।\nव्यतीयुर्ब्राह्मणश्रेष्ठ शूराणामरिघातिनाम् ॥"
+          "text": "कथं द्वादश वर्षाणि वने तेषां महात्मनाम् ।\nव्यतीयुर्ब्राह्मणश्रेष्ठ शूराणामरिघातिनाम् ॥",
+          "meaning": {
+            "en": "Best of Brahmins, how did those heroic slayers of enemies pass twelve years in the forest?"
+          }
         },
         {
           "n": 6,
-          "text": "कथं च राजपुत्री सा प्रवरा सर्वयोषिताम् ।\nपतिव्रता महाभागा सततं सत्यवादिनी ।\nवनवासमदुःखार्हा दारुणं प्रत्यपद्यत ॥"
+          "text": "कथं च राजपुत्री सा प्रवरा सर्वयोषिताम् ।\nपतिव्रता महाभागा सततं सत्यवादिनी ।\nवनवासमदुःखार्हा दारुणं प्रत्यपद्यत ॥",
+          "meaning": {
+            "en": "And how did the princess, foremost of women, devoted to her husbands, blessed and ever truthful, who did not deserve hardship, endure the cruel forest life?"
+          }
         },
         {
           "n": 7,
-          "text": "एतदाचक्ष्व मे सर्वं विस्तरेण तपोधन ।\nश्रोतुमिच्छामि चरितं भूरिद्रविणतेजसाम् ।\nकथ्यमानं त्वया विप्र परं कौतूहलं हि मे ॥"
+          "text": "एतदाचक्ष्व मे सर्वं विस्तरेण तपोधन ।\nश्रोतुमिच्छामि चरितं भूरिद्रविणतेजसाम् ।\nकथ्यमानं त्वया विप्र परं कौतूहलं हि मे ॥",
+          "meaning": {
+            "en": "Tell me all this in detail, ascetic. I wish to hear the deeds of those men of great wealth and splendor; my curiosity about them is very great."
+          }
         },
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 8,
-          "text": "एवं द्यूतजिताः पार्थाः कोपिताश्च दुरात्मभिः ।\nधार्तराष्ट्रैः सहामात्यैर्निर्ययुर्गजसाह्वयात् ॥"
+          "text": "एवं द्यूतजिताः पार्थाः कोपिताश्च दुरात्मभिः ।\nधार्तराष्ट्रैः सहामात्यैर्निर्ययुर्गजसाह्वयात् ॥",
+          "meaning": {
+            "en": "So the sons of Pritha, beaten at dice and provoked by the wicked sons of Dhritarashtra with their counselors, set out from Hastinapura."
+          }
         },
         {
           "n": 9,
-          "text": "वर्धमानपुरद्वारेणाभिनिष्क्रम्य ते तदा ।\nउदङ्मुखाः शस्त्रभृतः प्रययुः सह कृष्णया ॥"
+          "text": "वर्धमानपुरद्वारेणाभिनिष्क्रम्य ते तदा ।\nउदङ्मुखाः शस्त्रभृतः प्रययुः सह कृष्णया ॥",
+          "meaning": {
+            "en": "They left through the Vardhamana gate and went north, bearing weapons, together with Krishna Draupadi."
+          }
         },
         {
           "n": 10,
-          "text": "इन्द्रसेनादयश्चैनान्भृत्याः परिचतुर्दश ।\nरथैरनुययुः शीघ्रैः स्त्रिय आदाय सर्वशः ॥"
+          "text": "इन्द्रसेनादयश्चैनान्भृत्याः परिचतुर्दश ।\nरथैरनुययुः शीघ्रैः स्त्रिय आदाय सर्वशः ॥",
+          "meaning": {
+            "en": "Indrasena and the others, fourteen servants in all, followed them on swift chariots, taking the women of the household."
+          }
         },
         {
           "n": 11,
-          "text": "व्रजतस्तान्विदित्वा तु पौराः शोकाभिपीडिताः ।\nगर्हयन्तोऽसकृद्भीष्मविदुरद्रोणगौतमान् ।\nऊचुर्विगतसंत्रासाः समागम्य परस्परम् ॥"
+          "text": "व्रजतस्तान्विदित्वा तु पौराः शोकाभिपीडिताः ।\nगर्हयन्तोऽसकृद्भीष्मविदुरद्रोणगौतमान् ।\nऊचुर्विगतसंत्रासाः समागम्य परस्परम् ॥",
+          "meaning": {
+            "en": "Learning that the Pandavas were leaving, the townspeople, crushed with sorrow, repeatedly reproached Bhishma, Vidura, Drona and Kripa. Fearless, they gathered and said to one another:"
+          }
         },
         {
           "n": 12,
-          "text": "नेदमस्ति कुलं सर्वं न वयं न च नो गृहाः ।\nयत्र दुर्योधनः पापः सौबलेयेन पालितः ।\nकर्णदुःशासनाभ्यां च राज्यमेतच्चिकीर्षति ॥"
+          "text": "नेदमस्ति कुलं सर्वं न वयं न च नो गृहाः ।\nयत्र दुर्योधनः पापः सौबलेयेन पालितः ।\nकर्णदुःशासनाभ्यां च राज्यमेतच्चिकीर्षति ॥",
+          "meaning": {
+            "en": "This is no longer our whole family, nor are we ourselves or our homes, when wicked Duryodhana, backed by Shakuni's son, Karna and Duhshasana, means to rule this kingdom."
+          }
         },
         {
           "n": 13,
-          "text": "नो चेत्कुलं न चाचारो न धर्मोऽर्थः कुतः सुखम् ।\nयत्र पापसहायोऽयं पापो राज्यं बुभूषते ॥"
+          "text": "नो चेत्कुलं न चाचारो न धर्मोऽर्थः कुतः सुखम् ।\nयत्र पापसहायोऽयं पापो राज्यं बुभूषते ॥",
+          "meaning": {
+            "en": "Where there is no family honor, no good conduct, no dharma and no prosperity, how can there be happiness? Here a sinner with sinful allies wants the kingdom."
+          }
         },
         {
           "n": 14,
-          "text": "दुर्योधनो गुरुद्वेषी त्यक्ताचारसुहृज्जनः ।\nअर्थलुब्धोऽभिमानी च नीचः प्रकृतिनिर्घृणः ॥"
+          "text": "दुर्योधनो गुरुद्वेषी त्यक्ताचारसुहृज्जनः ।\nअर्थलुब्धोऽभिमानी च नीचः प्रकृतिनिर्घृणः ॥",
+          "meaning": {
+            "en": "Duryodhana hates his elders, has abandoned proper conduct and his friends, is greedy for wealth, proud, base and cruel by nature."
+          }
         },
         {
           "n": 15,
-          "text": "नेयमस्ति मही कृत्स्ना यत्र दुर्योधनो नृपः ।\nसाधु गच्छामहे सर्वे यत्र गच्छन्ति पाण्डवाः ॥"
+          "text": "नेयमस्ति मही कृत्स्ना यत्र दुर्योधनो नृपः ।\nसाधु गच्छामहे सर्वे यत्र गच्छन्ति पाण्डवाः ॥",
+          "meaning": {
+            "en": "The whole earth is not worth living on where Duryodhana is king. Let us go gladly where the Pandavas go."
+          }
         },
         {
           "n": 16,
-          "text": "सानुक्रोशा महात्मानो विजितेन्द्रियशत्रवः ।\nह्रीमन्तः कीर्तिमन्तश्च धर्माचारपरायणाः ॥"
+          "text": "सानुक्रोशा महात्मानो विजितेन्द्रियशत्रवः ।\nह्रीमन्तः कीर्तिमन्तश्च धर्माचारपरायणाः ॥",
+          "meaning": {
+            "en": "They are compassionate, great-souled, masters of their senses and conquerors of foes, modest, renowned and devoted to righteous conduct."
+          }
         },
         {
           "n": 17,
-          "text": "एवमुक्त्वानुजग्मुस्तान्पाण्डवांस्ते समेत्य च ।\nऊचुः प्राञ्जलयः सर्वे तान्कुन्तीमाद्रिनन्दनान् ॥"
+          "text": "एवमुक्त्वानुजग्मुस्तान्पाण्डवांस्ते समेत्य च ।\nऊचुः प्राञ्जलयः सर्वे तान्कुन्तीमाद्रिनन्दनान् ॥",
+          "meaning": {
+            "en": "Saying this, they followed the Pandavas, and joining them, they folded their hands and spoke to Kunti's sons and Madri's sons."
+          }
         },
         {
           "n": 18,
-          "text": "क्व गमिष्यथ भद्रं वस्त्यक्त्वास्मान्दुःखभागिनः ।\nवयमप्यनुयास्यामो यत्र यूयं गमिष्यथ ॥"
+          "text": "क्व गमिष्यथ भद्रं वस्त्यक्त्वास्मान्दुःखभागिनः ।\nवयमप्यनुयास्यामो यत्र यूयं गमिष्यथ ॥",
+          "meaning": {
+            "en": "Blessings on you, but where will you go, leaving us to our grief? We will follow wherever you go."
+          }
         },
         {
           "n": 19,
-          "text": "अधर्मेण जिताञ्श्रुत्वा युष्मांस्त्यक्तघृणैः परैः ।\nउद्विग्नाः स्म भृशं सर्वे नास्मान्हातुमिहार्हथ ॥"
+          "text": "अधर्मेण जिताञ्श्रुत्वा युष्मांस्त्यक्तघृणैः परैः ।\nउद्विग्नाः स्म भृशं सर्वे नास्मान्हातुमिहार्हथ ॥",
+          "meaning": {
+            "en": "We were shaken to hear that you were beaten unjustly by enemies who threw away all pity; do not abandon us."
+          }
         },
         {
           "n": 20,
-          "text": "भक्तानुरक्ताः सुहृदः सदा प्रियहिते रतान् ।\nकुराजाधिष्ठिते राज्ये न विनश्येम सर्वशः ॥"
+          "text": "भक्तानुरक्ताः सुहृदः सदा प्रियहिते रतान् ।\nकुराजाधिष्ठिते राज्ये न विनश्येम सर्वशः ॥",
+          "meaning": {
+            "en": "We are your loyal, loving friends, always devoted to your good. Let us not be utterly ruined in a kingdom ruled by a bad king."
+          }
         },
         {
           "n": 21,
-          "text": "श्रूयतां चाभिधास्यामो गुणदोषान्नरर्षभाः ।\nशुभाशुभाधिवासेन संसर्गं कुरुते यथा ॥"
+          "text": "श्रूयतां चाभिधास्यामो गुणदोषान्नरर्षभाः ।\nशुभाशुभाधिवासेन संसर्गं कुरुते यथा ॥",
+          "meaning": {
+            "en": "Hear, bulls among men, the good and the harm we speak of, and how association works through the company one keeps, whether good or bad."
+          }
         },
         {
           "n": 22,
-          "text": "वस्त्रमापस्तिलान्भूमिं गन्धो वासयते यथा ।\nपुष्पाणामधिवासेन तथा संसर्गजा गुणाः ॥"
+          "text": "वस्त्रमापस्तिलान्भूमिं गन्धो वासयते यथा ।\nपुष्पाणामधिवासेन तथा संसर्गजा गुणाः ॥",
+          "meaning": {
+            "en": "As cloth, water, sesame seeds and earth take on the scent of whatever perfumes them, so the qualities of flowers pass into what lies near them; so too do qualities come from association."
+          }
         },
         {
           "n": 23,
-          "text": "मोहजालस्य योनिर्हि मूढैरेव समागमः ।\nअहन्यहनि धर्मस्य योनिः साधुसमागमः ॥"
+          "text": "मोहजालस्य योनिर्हि मूढैरेव समागमः ।\nअहन्यहनि धर्मस्य योनिः साधुसमागमः ॥",
+          "meaning": {
+            "en": "The source of the net of delusion is mixing with fools; the daily source of dharma is the company of the good."
+          }
         },
         {
           "n": 24,
-          "text": "तस्मात्प्राज्ञैश्च वृद्धैश्च सुस्वभावैस्तपस्विभिः ।\nसद्भिश्च सह संसर्गः कार्यः शमपरायणैः ॥"
+          "text": "तस्मात्प्राज्ञैश्च वृद्धैश्च सुस्वभावैस्तपस्विभिः ।\nसद्भिश्च सह संसर्गः कार्यः शमपरायणैः ॥",
+          "meaning": {
+            "en": "So one should keep company with the wise, the elders, the well-natured, the ascetics and the good who love peace."
+          }
         },
         {
           "n": 25,
-          "text": "येषां त्रीण्यवदातानि योनिर्विद्या च कर्म च ।\nतान्सेवेत्तैः समास्या हि शास्त्रेभ्योऽपि गरीयसी ॥"
+          "text": "येषां त्रीण्यवदातानि योनिर्विद्या च कर्म च ।\nतान्सेवेत्तैः समास्या हि शास्त्रेभ्योऽपि गरीयसी ॥",
+          "meaning": {
+            "en": "Serve those who are pure in three things: birth, learning and conduct. Associating with them is worth more than the scriptures."
+          }
         },
         {
           "n": 26,
-          "text": "निरारम्भा ह्यपि वयं पुण्यशीलेषु साधुषु ।\nपुण्यमेवाप्नुयामेह पापं पापोपसेवनात् ॥"
+          "text": "निरारम्भा ह्यपि वयं पुण्यशीलेषु साधुषु ।\nपुण्यमेवाप्नुयामेह पापं पापोपसेवनात् ॥",
+          "meaning": {
+            "en": "Even if we do nothing ourselves, among virtuous and good people we gain merit, and from keeping company with sinners we gain sin."
+          }
         },
         {
           "n": 27,
-          "text": "असतां दर्शनात्स्पर्शात्संजल्पनसहासनात् ।\nधर्माचाराः प्रहीयन्ते न च सिध्यन्ति मानवाः ॥"
+          "text": "असतां दर्शनात्स्पर्शात्संजल्पनसहासनात् ।\nधर्माचाराः प्रहीयन्ते न च सिध्यन्ति मानवाः ॥",
+          "meaning": {
+            "en": "Seeing, touching, talking with and sitting beside the wicked make righteous conduct decline, and men do not succeed."
+          }
         },
         {
           "n": 28,
-          "text": "बुद्धिश्च हीयते पुंसां नीचैः सह समागमात् ।\nमध्यमैर्मध्यतां याति श्रेष्ठतां याति चोत्तमैः ॥"
+          "text": "बुद्धिश्च हीयते पुंसां नीचैः सह समागमात् ।\nमध्यमैर्मध्यतां याति श्रेष्ठतां याति चोत्तमैः ॥",
+          "meaning": {
+            "en": "A man's intelligence declines through mixing with the low, stays middling with the middling, and rises to excellence with the best."
+          }
         },
         {
           "n": 29,
-          "text": "ये गुणाः कीर्तिता लोके धर्मकामार्थसंभवाः ।\nलोकाचारात्मसंभूता वेदोक्ताः शिष्टसंमताः ॥"
+          "text": "ये गुणाः कीर्तिता लोके धर्मकामार्थसंभवाः ।\nलोकाचारात्मसंभूता वेदोक्ताः शिष्टसंमताः ॥",
+          "meaning": {
+            "en": "All the virtues praised in the world, born of dharma, desire and wealth, grounded in custom and the Vedas and approved by the cultured, are found in you, together and singly."
+          }
         },
         {
           "n": 30,
-          "text": "ते युष्मासु समस्ताश्च व्यस्ताश्चैवेह सद्गुणाः ।\nइच्छामो गुणवन्मध्ये वस्तुं श्रेयोऽभिकाङ्क्षिणः ॥"
+          "text": "ते युष्मासु समस्ताश्च व्यस्ताश्चैवेह सद्गुणाः ।\nइच्छामो गुणवन्मध्ये वस्तुं श्रेयोऽभिकाङ्क्षिणः ॥",
+          "meaning": {
+            "en": "We who seek our welfare wish to live among people of virtue."
+          }
         },
         {
-          "text": "युधिष्ठिर उवाच"
+          "text": "युधिष्ठिर उवाच",
+          "meaning": {
+            "en": "Yudhishthira said:"
+          }
         },
         {
           "n": 31,
-          "text": "धन्या वयं यदस्माकं स्नेहकारुण्ययन्त्रिताः ।\nअसतोऽपि गुणानाहुर्ब्राह्मणप्रमुखाः प्रजाः ॥"
+          "text": "धन्या वयं यदस्माकं स्नेहकारुण्ययन्त्रिताः ।\nअसतोऽपि गुणानाहुर्ब्राह्मणप्रमुखाः प्रजाः ॥",
+          "meaning": {
+            "en": "We are blessed that the people, led by the Brahmins, bound by affection and pity, credit even us, who lack virtue, with good qualities."
+          }
         },
         {
           "n": 32,
-          "text": "तदहं भ्रातृसहितः सर्वान्विज्ञापयामि वः ।\nनान्यथा तद्धि कर्तव्यमस्मत्स्नेहानुकम्पया ॥"
+          "text": "तदहं भ्रातृसहितः सर्वान्विज्ञापयामि वः ।\nनान्यथा तद्धि कर्तव्यमस्मत्स्नेहानुकम्पया ॥",
+          "meaning": {
+            "en": "So I, with my brothers, ask all of you: you must not act otherwise, out of love and compassion for us."
+          }
         },
         {
           "n": 33,
-          "text": "भीष्मः पितामहो राजा विदुरो जननी च मे ।\nसुहृज्जनश्च प्रायो मे नगरे नागसाह्वये ॥"
+          "text": "भीष्मः पितामहो राजा विदुरो जननी च मे ।\nसुहृज्जनश्च प्रायो मे नगरे नागसाह्वये ॥",
+          "meaning": {
+            "en": "Grandfather Bhishma, King Dhritarashtra, Vidura, my mother, and most of my friends are in the city of Hastinapura."
+          }
         },
         {
           "n": 34,
-          "text": "ते त्वस्मद्धितकामार्थं पालनीयाः प्रयत्नतः ।\nयुष्माभिः सहितैः सर्वैः शोकसंतापविह्वलाः ॥"
+          "text": "ते त्वस्मद्धितकामार्थं पालनीयाः प्रयत्नतः ।\nयुष्माभिः सहितैः सर्वैः शोकसंतापविह्वलाः ॥",
+          "meaning": {
+            "en": "They are distraught with sorrow and grief; for our good, all of you together must take careful care of them."
+          }
         },
         {
           "n": 35,
-          "text": "निवर्ततागता दूरं समागमनशापिताः ।\nस्वजने न्यासभूते मे कार्या स्नेहान्विता मतिः ॥"
+          "text": "निवर्ततागता दूरं समागमनशापिताः ।\nस्वजने न्यासभूते मे कार्या स्नेहान्विता मतिः ॥",
+          "meaning": {
+            "en": "You have come far; turn back, I ask you by my entreaty. Let your minds be kind to my kinsfolk, who are left in your keeping."
+          }
         },
         {
           "n": 36,
-          "text": "एतद्धि मम कार्याणां परमं हृदि संस्थितम् ।\nसुकृतानेन मे तुष्टिः सत्कारश्च भविष्यति ॥"
+          "text": "एतद्धि मम कार्याणां परमं हृदि संस्थितम् ।\nसुकृतानेन मे तुष्टिः सत्कारश्च भविष्यति ॥",
+          "meaning": {
+            "en": "This is the weightiest of my concerns, fixed in my heart. By doing this you will gratify and honor me."
+          }
         },
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 37,
-          "text": "तथानुमन्त्रितास्तेन धर्मराजेन ताः प्रजाः ।\nचक्रुरार्तस्वरं घोरं हा राजन्निति दुःखिताः ॥"
+          "text": "तथानुमन्त्रितास्तेन धर्मराजेन ताः प्रजाः ।\nचक्रुरार्तस्वरं घोरं हा राजन्निति दुःखिताः ॥",
+          "meaning": {
+            "en": "Thus urged by King Dharma's son Yudhishthira, the people cried out in a terrible, anguished voice, \"Alas, king!\""
+          }
         },
         {
           "n": 38,
-          "text": "गुणान्पार्थस्य संस्मृत्य दुःखार्ताः परमातुराः ।\nअकामाः संन्यवर्तन्त समागम्याथ पाण्डवान् ॥"
+          "text": "गुणान्पार्थस्य संस्मृत्य दुःखार्ताः परमातुराः ।\nअकामाः संन्यवर्तन्त समागम्याथ पाण्डवान् ॥",
+          "meaning": {
+            "en": "Remembering the virtues of Pritha's son, tormented and overcome with grief, they turned back unwillingly after meeting the Pandavas."
+          }
         },
         {
           "n": 39,
-          "text": "निवृत्तेषु तु पौरेषु रथानास्थाय पाण्डवाः ।\nप्रजग्मुर्जाह्नवीतीरे प्रमाणाख्यं महावटम् ॥"
+          "text": "निवृत्तेषु तु पौरेषु रथानास्थाय पाण्डवाः ।\nप्रजग्मुर्जाह्नवीतीरे प्रमाणाख्यं महावटम् ॥",
+          "meaning": {
+            "en": "When the townspeople had gone back, the Pandavas mounted their chariots and reached the great banyan called Pramana on the bank of the Ganga."
+          }
         },
         {
           "n": 40,
-          "text": "तं ते दिवसशेषेण वटं गत्वा तु पाण्डवाः ।\nऊषुस्तां रजनीं वीराः संस्पृश्य सलिलं शुचि ।\nउदकेनैव तां रात्रिमूषुस्ते दुःखकर्शिताः ॥"
+          "text": "तं ते दिवसशेषेण वटं गत्वा तु पाण्डवाः ।\nऊषुस्तां रजनीं वीराः संस्पृश्य सलिलं शुचि ।\nउदकेनैव तां रात्रिमूषुस्ते दुःखकर्शिताः ॥",
+          "meaning": {
+            "en": "They reached that banyan at the end of the day, and those heroes spent the night there after purifying themselves with water, wasted by grief, taking only water that night."
+          }
         },
         {
           "n": 41,
-          "text": "अनुजग्मुश्च तत्रैतान्स्नेहात्केचिद्द्विजातयः ।\nसाग्नयोऽनग्नयश्चैव सशिष्यगणबान्धवाः ।\nस तैः परिवृतो राजा शुशुभे ब्रह्मवादिभिः ॥"
+          "text": "अनुजग्मुश्च तत्रैतान्स्नेहात्केचिद्द्विजातयः ।\nसाग्नयोऽनग्नयश्चैव सशिष्यगणबान्धवाः ।\nस तैः परिवृतो राजा शुशुभे ब्रह्मवादिभिः ॥",
+          "meaning": {
+            "en": "Some Brahmins out of affection followed them there, some with sacred fires and some without, with pupils and kinsmen. Surrounded by those expounders of Brahman, the king shone."
+          }
         },
         {
           "n": 42,
-          "text": "तेषां प्रादुष्कृताग्नीनां मुहूर्ते रम्यदारुणे ।\nब्रह्मघोषपुरस्कारः संजल्पः समजायत ॥"
+          "text": "तेषां प्रादुष्कृताग्नीनां मुहूर्ते रम्यदारुणे ।\nब्रह्मघोषपुरस्कारः संजल्पः समजायत ॥",
+          "meaning": {
+            "en": "At that pleasant yet fearsome hour, as they kindled their fires, a conversation arose amid the chanting of the Vedas."
+          }
         },
         {
           "n": 43,
-          "text": "राजानं तु कुरुश्रेष्ठं ते हंसमधुरस्वराः ।\nआश्वासयन्तो विप्राग्र्याः क्षपां सर्वां व्यनोदयन् ॥"
+          "text": "राजानं तु कुरुश्रेष्ठं ते हंसमधुरस्वराः ।\nआश्वासयन्तो विप्राग्र्याः क्षपां सर्वां व्यनोदयन् ॥",
+          "meaning": {
+            "en": "Those eminent Brahmins, with voices sweet as swans, comforted the best of the Kurus, King Yudhishthira, and passed the whole night with him."
+          }
         }
       ]
     }

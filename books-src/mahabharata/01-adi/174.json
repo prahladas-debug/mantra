@@ -22,61 +22,121 @@
       "titleEn": "Svayamvara Parva (Draupadi's bridegroom choice)",
       "verses": [
         {
-          "text": "अर्जुन उवाच"
+          "text": "अर्जुन उवाच",
+          "meaning": {
+            "en": "Arjuna said:",
+            "hi": "अर्जुन बोले—"
+          }
         },
         {
           "n": 1,
-          "text": "अस्माकमनुरूपो वै यः स्याद्गन्धर्व वेदवित् ।\nपुरोहितस्तमाचक्ष्व सर्वं हि विदितं तव ॥"
+          "text": "अस्माकमनुरूपो वै यः स्याद्गन्धर्व वेदवित् ।\nपुरोहितस्तमाचक्ष्व सर्वं हि विदितं तव ॥",
+          "meaning": {
+            "en": "Gandharva, tell us of a Veda-knowing priest who would suit us, for you know everything.",
+            "hi": "हे गन्धर्व, जो हमारे योग्य हो, ऐसे वेदज्ञ पुरोहित के विषय में बताइए। आप तो सब कुछ जानते हैं।"
+          }
         },
         {
-          "text": "गन्धर्व उवाच"
+          "text": "गन्धर्व उवाच",
+          "meaning": {
+            "en": "The Gandharva said:",
+            "hi": "गन्धर्व बोला—"
+          }
         },
         {
           "n": 2,
-          "text": "यवीयान्देवलस्यैष वने भ्राता तपस्यति ।\nधौम्य उत्कोचके तीर्थे तं वृणुध्वं यदीच्छथ ॥"
+          "text": "यवीयान्देवलस्यैष वने भ्राता तपस्यति ।\nधौम्य उत्कोचके तीर्थे तं वृणुध्वं यदीच्छथ ॥",
+          "meaning": {
+            "en": "Dhaumya, the younger brother of Devala, is practising austerities in the forest at the sacred ford Utkochaka. Choose him if you wish.",
+            "hi": "देवल के छोटे भाई धौम्य वन में उत्कोचक तीर्थ पर तपस्या कर रहे हैं। यदि आप चाहें तो उन्हीं को चुन लीजिए।"
+          }
         },
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:",
+            "hi": "वैशंपायन बोले—"
+          }
         },
         {
           "n": 3,
-          "text": "ततोऽर्जुनोऽस्त्रमाग्नेयं प्रददौ तद्यथाविधि ।\nगन्धर्वाय तदा प्रीतो वचनं चेदमब्रवीत् ॥"
+          "text": "ततोऽर्जुनोऽस्त्रमाग्नेयं प्रददौ तद्यथाविधि ।\nगन्धर्वाय तदा प्रीतो वचनं चेदमब्रवीत् ॥",
+          "meaning": {
+            "en": "Then Arjuna, pleased, gave the Gandharva the fire weapon in the proper manner and said these words.",
+            "hi": "तब प्रसन्न होकर अर्जुन ने विधिपूर्वक गन्धर्व को आग्नेय अस्त्र दिया, और यह वचन कहा।"
+          }
         },
         {
           "n": 4,
-          "text": "त्वय्येव तावत्तिष्ठन्तु हया गन्धर्वसत्तम ।\nकर्मकाले ग्रहीष्यामि स्वस्ति तेऽस्त्विति चाब्रवीत् ॥"
+          "text": "त्वय्येव तावत्तिष्ठन्तु हया गन्धर्वसत्तम ।\nकर्मकाले ग्रहीष्यामि स्वस्ति तेऽस्त्विति चाब्रवीत् ॥",
+          "meaning": {
+            "en": "Best of Gandharvas, let the horses stay with you for now; I will take them when the time comes. May good be with you, he said.",
+            "hi": "हे गन्धर्वश्रेष्ठ, घोड़े अभी आपके ही पास रहने दीजिए; कर्म के समय मैं उन्हें ले लूँगा। आपका कल्याण हो।"
+          }
         },
         {
           "n": 5,
-          "text": "तेऽन्योन्यमभिसंपूज्य गन्धर्वः पाण्डवाश्च ह ।\nरम्याद्भागीरथीकच्छाद्यथाकामं प्रतस्थिरे ॥"
+          "text": "तेऽन्योन्यमभिसंपूज्य गन्धर्वः पाण्डवाश्च ह ।\nरम्याद्भागीरथीकच्छाद्यथाकामं प्रतस्थिरे ॥",
+          "meaning": {
+            "en": "Having honoured one another, the Gandharva and the Pandavas departed as they pleased from the lovely bank of the Bhagirathi.",
+            "hi": "एक-दूसरे का सम्मान करके गन्धर्व और पांडव भागीरथी के रमणीय तट से इच्छानुसार चल दिए।"
+          }
         },
         {
           "n": 6,
-          "text": "तत उत्कोचकं तीर्थं गत्वा धौम्याश्रमं तु ते ।\nतं वव्रुः पाण्डवा धौम्यं पौरोहित्याय भारत ॥"
+          "text": "तत उत्कोचकं तीर्थं गत्वा धौम्याश्रमं तु ते ।\nतं वव्रुः पाण्डवा धौम्यं पौरोहित्याय भारत ॥",
+          "meaning": {
+            "en": "Then the Pandavas went to the ford Utkochaka and to Dhaumya's hermitage and chose Dhaumya as their priest, Bharata.",
+            "hi": "फिर उत्कोचक तीर्थ पहुँचकर और धौम्य के आश्रम जाकर, हे भरतवंशी, पांडवों ने पुरोहित पद के लिए धौम्य को चुना।"
+          }
         },
         {
           "n": 7,
-          "text": "तान्धौम्यः प्रतिजग्राह सर्ववेदविदां वरः ।\nपाद्येन फलमूलेन पौरोहित्येन चैव ह ॥"
+          "text": "तान्धौम्यः प्रतिजग्राह सर्ववेदविदां वरः ।\nपाद्येन फलमूलेन पौरोहित्येन चैव ह ॥",
+          "meaning": {
+            "en": "Dhaumya, best of all Veda-knowers, welcomed them with water for the feet, fruit and roots, and accepted the priesthood.",
+            "hi": "सभी वेदज्ञों में श्रेष्ठ धौम्य ने पाद्य, फल और मूल देकर उनका स्वागत किया, और पुरोहित पद स्वीकार कर लिया।"
+          }
         },
         {
           "n": 8,
-          "text": "ते तदाशंसिरे लब्धां श्रियं राज्यं च पाण्डवाः ।\nतं ब्राह्मणं पुरस्कृत्य पाञ्चाल्याश्च स्वयंवरम् ॥"
+          "text": "ते तदाशंसिरे लब्धां श्रियं राज्यं च पाण्डवाः ।\nतं ब्राह्मणं पुरस्कृत्य पाञ्चाल्याश्च स्वयंवरम् ॥",
+          "meaning": {
+            "en": "The Pandavas, with that Brahmin before them, then hoped to win wealth and a kingdom, and the Panchala princess's svayamvara.",
+            "hi": "तब पांडवों ने उन ब्राह्मण को आगे रखकर खोई हुई लक्ष्मी, राज्य और पांचाली के स्वयंवर की आशा की।"
+          }
         },
         {
           "n": 9,
-          "text": "मातृषष्ठास्तु ते तेन गुरुणा संगतास्तदा ।\nनाथवन्तमिवात्मानं मेनिरे भरतर्षभाः ॥"
+          "text": "मातृषष्ठास्तु ते तेन गुरुणा संगतास्तदा ।\nनाथवन्तमिवात्मानं मेनिरे भरतर्षभाः ॥",
+          "meaning": {
+            "en": "United with that teacher, the sons of Pritha with their mother as the sixth, best of Bharatas, felt as though they now had a protector.",
+            "hi": "गुरु से मिलकर, माता कुंती को छठा रखकर, भरतश्रेष्ठ पृथापुत्र मानो किसी रक्षक वाले हो गए, ऐसा उन्होंने माना।"
+          }
         },
         {
           "n": 10,
-          "text": "स हि वेदार्थतत्त्वज्ञस्तेषां गुरुरुदारधीः ।\nतेन धर्मविदा पार्था याज्याः सर्वविदा कृताः ॥"
+          "text": "स हि वेदार्थतत्त्वज्ञस्तेषां गुरुरुदारधीः ।\nतेन धर्मविदा पार्था याज्याः सर्वविदा कृताः ॥",
+          "meaning": {
+            "en": "For he, knowing the truth of the Vedic meaning, was the noble-minded teacher of theirs, and that knower of dharma and of everything performed rites for the Pandavas.",
+            "hi": "वेदों के अर्थ का तत्त्व जानने वाले, उदार बुद्धि वे उनके गुरु थे; उन धर्मज्ञ और सर्वज्ञ ने पार्थों के यज्ञ करवाए।"
+          }
         },
         {
           "n": 11,
-          "text": "वीरांस्तु स हि तान्मेने प्राप्तराज्यान्स्वधर्मतः ।\nबुद्धिवीर्यबलोत्साहैर्युक्तान्देवानिवापरान् ॥"
+          "text": "वीरांस्तु स हि तान्मेने प्राप्तराज्यान्स्वधर्मतः ।\nबुद्धिवीर्यबलोत्साहैर्युक्तान्देवानिवापरान् ॥",
+          "meaning": {
+            "en": "He regarded those heroes as having won kingship by their own duty, endowed with wisdom, valour, strength and energy, like other gods.",
+            "hi": "उन्होंने उन वीरों को अपने धर्म से राज्य पाए हुए माना, जो बुद्धि, वीरता, बल और उत्साह से युक्त थे, जैसे अन्य देवता हों।"
+          }
         },
         {
           "n": 12,
-          "text": "कृतस्वस्त्ययनास्तेन ततस्ते मनुजाधिपाः ।\nमेनिरे सहिता गन्तुं पाञ्चाल्यास्तं स्वयंवरम् ॥"
+          "text": "कृतस्वस्त्ययनास्तेन ततस्ते मनुजाधिपाः ।\nमेनिरे सहिता गन्तुं पाञ्चाल्यास्तं स्वयंवरम् ॥",
+          "meaning": {
+            "en": "Blessed by him with auspicious rites, those lords of men resolved to go together to the Panchala princess's svayamvara.",
+            "hi": "उनसे स्वस्तिवाचन पाकर वे नरेश पांचाली के स्वयंवर में साथ जाने का निश्चय करने लगे।"
+          }
         }
       ]
     }

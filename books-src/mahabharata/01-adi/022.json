@@ -22,27 +22,45 @@
       "titleEn": "Astika Parva",
       "verses": [
         {
-          "text": "सूत उवाच"
+          "text": "सूत उवाच",
+          "meaning": {
+            "en": "Suta's son said:"
+          }
         },
         {
           "n": 1,
-          "text": "एवं स्तुतस्तदा कद्र्वा भगवान्हरिवाहनः ।\nनीलजीमूतसंघातैर्व्योम सर्वं समावृणोत् ॥"
+          "text": "एवं स्तुतस्तदा कद्र्वा भगवान्हरिवाहनः ।\nनीलजीमूतसंघातैर्व्योम सर्वं समावृणोत् ॥",
+          "meaning": {
+            "en": "Praised thus by Kadru, the blessed rider of the tawny horses covered the whole sky with masses of dark blue clouds."
+          }
         },
         {
           "n": 2,
-          "text": "ते मेघा मुमुचुस्तोयं प्रभूतं विद्युदुज्ज्वलाः ।\nपरस्परमिवात्यर्थं गर्जन्तः सततं दिवि ॥"
+          "text": "ते मेघा मुमुचुस्तोयं प्रभूतं विद्युदुज्ज्वलाः ।\nपरस्परमिवात्यर्थं गर्जन्तः सततं दिवि ॥",
+          "meaning": {
+            "en": "Those clouds, bright with lightning, poured down abundant water, roaring constantly in the sky as if at each other."
+          }
         },
         {
           "n": 3,
-          "text": "संघातितमिवाकाशं जलदैः सुमहाद्भुतैः ।\nसृजद्भिरतुलं तोयमजस्रं सुमहारवैः ॥"
+          "text": "संघातितमिवाकाशं जलदैः सुमहाद्भुतैः ।\nसृजद्भिरतुलं तोयमजस्रं सुमहारवैः ॥",
+          "meaning": {
+            "en": "The sky seemed packed with the wondrous clouds, which loosed matchless water ceaselessly with mighty thunder."
+          }
         },
         {
           "n": 4,
-          "text": "संप्रनृत्तमिवाकाशं धारोर्मिभिरनेकशः ।\nमेघस्तनितनिर्घोषमम्बरं समपद्यत ॥"
+          "text": "संप्रनृत्तमिवाकाशं धारोर्मिभिरनेकशः ।\nमेघस्तनितनिर्घोषमम्बरं समपद्यत ॥",
+          "meaning": {
+            "en": "With its many surging sheets of rain the sky seemed to dance, and it filled with the roar of the clouds' thunder."
+          }
         },
         {
           "n": 5,
-          "text": "नागानामुत्तमो हर्षस्तदा वर्षति वासवे ।\nआपूर्यत मही चापि सलिलेन समन्ततः ॥"
+          "text": "नागानामुत्तमो हर्षस्तदा वर्षति वासवे ।\nआपूर्यत मही चापि सलिलेन समन्ततः ॥",
+          "meaning": {
+            "en": "Great was the joy of the serpents as Vasava rained, and the earth was flooded with water on every side."
+          }
         }
       ]
     }

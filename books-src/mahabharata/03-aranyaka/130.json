@@ -22,87 +22,150 @@
       "titleEn": "Tirthayatra Parva (The pilgrimage)",
       "verses": [
         {
-          "text": "लोमश उवाच"
+          "text": "लोमश उवाच",
+          "meaning": {
+            "en": "Lomasha said:"
+          }
         },
         {
           "n": 1,
-          "text": "इह मर्त्यास्तपस्तप्त्वा स्वर्गं गच्छन्ति भारत ।\nमर्तुकामा नरा राजन्निहायान्ति सहस्रशः ॥"
+          "text": "इह मर्त्यास्तपस्तप्त्वा स्वर्गं गच्छन्ति भारत ।\nमर्तुकामा नरा राजन्निहायान्ति सहस्रशः ॥",
+          "meaning": {
+            "en": "Bharata, mortals who practise austerity here go to heaven. King, men who wish to die come here in their thousands."
+          }
         },
         {
           "n": 2,
-          "text": "एवमाशीः प्रयुक्ता हि दक्षेण यजता पुरा ।\nइह ये वै मरिष्यन्ति ते वै स्वर्गजितो नराः ॥"
+          "text": "एवमाशीः प्रयुक्ता हि दक्षेण यजता पुरा ।\nइह ये वै मरिष्यन्ति ते वै स्वर्गजितो नराः ॥",
+          "meaning": {
+            "en": "For this was the blessing pronounced long ago by Daksha when he sacrificed: \"Those who die here will be men who have won heaven.\""
+          }
         },
         {
           "n": 3,
-          "text": "एषा सरस्वती पुण्या दिव्या चोघवती नदी ।\nएतद्विनशनं नाम सरस्वत्या विशां पते ॥"
+          "text": "एषा सरस्वती पुण्या दिव्या चोघवती नदी ।\nएतद्विनशनं नाम सरस्वत्या विशां पते ॥",
+          "meaning": {
+            "en": "This is the holy, divine, swift-flowing river Sarasvati. This place, lord of the people, is called Vinashana, where Sarasvati vanishes."
+          }
         },
         {
           "n": 4,
-          "text": "द्वारं निषादराष्ट्रस्य येषां द्वेषात्सरस्वती ।\nप्रविष्टा पृथिवीं वीर मा निषादा हि मां विदुः ॥"
+          "text": "द्वारं निषादराष्ट्रस्य येषां द्वेषात्सरस्वती ।\nप्रविष्टा पृथिवीं वीर मा निषादा हि मां विदुः ॥",
+          "meaning": {
+            "en": "This is the gate of the Nishada country. Out of hatred for them Sarasvati went into the earth, saying, \"Let the Nishadas not know me.\""
+          }
         },
         {
           "n": 5,
-          "text": "एष वै चमसोद्भेदो यत्र दृश्या सरस्वती ।\nयत्रैनामभ्यवर्तन्त दिव्याः पुण्याः समुद्रगाः ॥"
+          "text": "एष वै चमसोद्भेदो यत्र दृश्या सरस्वती ।\nयत्रैनामभ्यवर्तन्त दिव्याः पुण्याः समुद्रगाः ॥",
+          "meaning": {
+            "en": "This is Chamasodbheda, where the Sarasvati is seen again, where the divine, holy rivers that flow to the ocean came to meet her."
+          }
         },
         {
           "n": 6,
-          "text": "एतत्सिन्धोर्महत्तीर्थं यत्रागस्त्यमरिंदम ।\nलोपामुद्रा समागम्य भर्तारमवृणीत वै ॥"
+          "text": "एतत्सिन्धोर्महत्तीर्थं यत्रागस्त्यमरिंदम ।\nलोपामुद्रा समागम्य भर्तारमवृणीत वै ॥",
+          "meaning": {
+            "en": "Destroyer of foes, this is the great ford of the Sindhu, where Lopamudra met Agastya and chose him as husband."
+          }
         },
         {
           "n": 7,
-          "text": "एतत्प्रभासते तीर्थं प्रभासं भास्करद्युते ।\nइन्द्रस्य दयितं पुण्यं पवित्रं पापनाशनम् ॥"
+          "text": "एतत्प्रभासते तीर्थं प्रभासं भास्करद्युते ।\nइन्द्रस्य दयितं पुण्यं पवित्रं पापनाशनम् ॥",
+          "meaning": {
+            "en": "Brilliant as the sun, this ford shines: Prabhasa, dear to Indra, holy, purifying and a destroyer of sins."
+          }
         },
         {
           "n": 8,
-          "text": "एतद्विष्णुपदं नाम दृश्यते तीर्थमुत्तमम् ।\nएषा रम्या विपाशा च नदी परमपावनी ॥"
+          "text": "एतद्विष्णुपदं नाम दृश्यते तीर्थमुत्तमम् ।\nएषा रम्या विपाशा च नदी परमपावनी ॥",
+          "meaning": {
+            "en": "This excellent ford called Vishnupada is seen, and here is the lovely river Vipasha, supremely purifying."
+          }
         },
         {
           "n": 9,
-          "text": "अत्रैव पुत्रशोकेन वसिष्ठो भगवानृषिः ।\nबद्ध्वात्मानं निपतितो विपाशः पुनरुत्थितः ॥"
+          "text": "अत्रैव पुत्रशोकेन वसिष्ठो भगवानृषिः ।\nबद्ध्वात्मानं निपतितो विपाशः पुनरुत्थितः ॥",
+          "meaning": {
+            "en": "Right here the holy seer Vasishtha, in grief for his sons, bound himself and fell in, and rose again free of his bonds, whence the name Vipasha."
+          }
         },
         {
           "n": 10,
-          "text": "काश्मीरमण्डलं चैतत्सर्वपुण्यमरिंदम ।\nमहर्षिभिश्चाध्युषितं पश्येदं भ्रातृभिः सह ॥"
+          "text": "काश्मीरमण्डलं चैतत्सर्वपुण्यमरिंदम ।\nमहर्षिभिश्चाध्युषितं पश्येदं भ्रातृभिः सह ॥",
+          "meaning": {
+            "en": "And this is the region of Kashmir, entirely sacred, destroyer of foes, inhabited by great seers. Look at it with your brothers."
+          }
         },
         {
           "n": 11,
-          "text": "अत्रोत्तराणां सर्वेषामृषीणां नाहुषस्य च ।\nअग्नेश्चात्रैव संवादः काश्यपस्य च भारत ॥"
+          "text": "अत्रोत्तराणां सर्वेषामृषीणां नाहुषस्य च ।\nअग्नेश्चात्रैव संवादः काश्यपस्य च भारत ॥",
+          "meaning": {
+            "en": "Here took place the conversation of all the northern seers with Nahusha's son, and with Agni and Kashyapa, Bharata."
+          }
         },
         {
           "n": 12,
-          "text": "एतद्द्वारं महाराज मानसस्य प्रकाशते ।\nवर्षमस्य गिरेर्मध्ये रामेण श्रीमता कृतम् ॥"
+          "text": "एतद्द्वारं महाराज मानसस्य प्रकाशते ।\nवर्षमस्य गिरेर्मध्ये रामेण श्रीमता कृतम् ॥",
+          "meaning": {
+            "en": "Great king, this shines forth as the gateway to Manasa. Here the glorious Rama made a rain in the middle of the mountain."
+          }
         },
         {
           "n": 13,
-          "text": "एष वातिकषण्डो वै प्रख्यातः सत्यविक्रमः ।\nनाभ्यवर्तत यद्द्वारं विदेहानुत्तरं च यः ॥"
+          "text": "एष वातिकषण्डो वै प्रख्यातः सत्यविक्रमः ।\nनाभ्यवर्तत यद्द्वारं विदेहानुत्तरं च यः ॥",
+          "meaning": {
+            "en": "This is the famed Vatikashanda of true valour, which the gateway to Videha and the north does not turn back from."
+          }
         },
         {
           "n": 14,
-          "text": "एष उज्जानको नाम यवक्रीर्यत्र शान्तवान् ।\nअरुन्धतीसहायश्च वसिष्ठो भगवानृषिः ॥"
+          "text": "एष उज्जानको नाम यवक्रीर्यत्र शान्तवान् ।\nअरुन्धतीसहायश्च वसिष्ठो भगवानृषिः ॥",
+          "meaning": {
+            "en": "This is Ujjanaka, where Yavakri found peace, and where the holy seer Vasishtha lived with Arundhati."
+          }
         },
         {
           "n": 15,
-          "text": "ह्रदश्च कुशवानेष यत्र पद्मं कुशेशयम् ।\nआश्रमश्चैव रुक्मिण्या यत्राशाम्यदकोपना ॥"
+          "text": "ह्रदश्च कुशवानेष यत्र पद्मं कुशेशयम् ।\nआश्रमश्चैव रुक्मिण्या यत्राशाम्यदकोपना ॥",
+          "meaning": {
+            "en": "This is the lake Kushavan, where the lotus grows among the kusha grass, and the hermitage of Rukmini, where she, free of anger, found peace."
+          }
         },
         {
           "n": 16,
-          "text": "समाधीनां समासस्तु पाण्डवेय श्रुतस्त्वया ।\nतं द्रक्ष्यसि महाराज भृगुतुङ्गं महागिरिम् ॥"
+          "text": "समाधीनां समासस्तु पाण्डवेय श्रुतस्त्वया ।\nतं द्रक्ष्यसि महाराज भृगुतुङ्गं महागिरिम् ॥",
+          "meaning": {
+            "en": "Pandava, you have heard the summary of the meditative states. You will see that great mountain, Bhrigutunga."
+          }
         },
         {
           "n": 17,
-          "text": "जलां चोपजलां चैव यमुनामभितो नदीम् ।\nउशीनरो वै यत्रेष्ट्वा वासवादत्यरिच्यत ॥"
+          "text": "जलां चोपजलां चैव यमुनामभितो नदीम् ।\nउशीनरो वै यत्रेष्ट्वा वासवादत्यरिच्यत ॥",
+          "meaning": {
+            "en": "On both sides of the Yamuna are the rivers Jala and Upajala, where Ushinara, after sacrificing, rose above Indra."
+          }
         },
         {
           "n": 18,
-          "text": "तां देवसमितिं तस्य वासवश्च विशां पते ।\nअभ्यगच्छत राजानं ज्ञातुमग्निश्च भारत ॥"
+          "text": "तां देवसमितिं तस्य वासवश्च विशां पते ।\nअभ्यगच्छत राजानं ज्ञातुमग्निश्च भारत ॥",
+          "meaning": {
+            "en": "Lord of the people, Indra, and Agni too, came to that king's assembly of the gods to test him, Bharata."
+          }
         },
         {
           "n": 19,
-          "text": "जिज्ञासमानौ वरदौ महात्मानमुशीनरम् ।\nइन्द्रः श्येनः कपोतोऽग्निर्भूत्वा यज्ञेऽभिजग्मतुः ॥"
+          "text": "जिज्ञासमानौ वरदौ महात्मानमुशीनरम् ।\nइन्द्रः श्येनः कपोतोऽग्निर्भूत्वा यज्ञेऽभिजग्मतुः ॥",
+          "meaning": {
+            "en": "Wanting to test the great-souled Ushinara, the two granters of boons, Indra as a hawk and Agni as a dove, came to his sacrifice."
+          }
         },
         {
           "n": 20,
-          "text": "ऊरुं राज्ञः समासाद्य कपोतः श्येनजाद्भयात् ।\nशरणार्थी तदा राजन्निलिल्ये भयपीडितः ॥"
+          "text": "ऊरुं राज्ञः समासाद्य कपोतः श्येनजाद्भयात् ।\nशरणार्थी तदा राजन्निलिल्ये भयपीडितः ॥",
+          "meaning": {
+            "en": "Coming to the king's thigh, the dove, afraid of the hawk and seeking shelter, hid there, tormented by fear, king."
+          }
         }
       ]
     }

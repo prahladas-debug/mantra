@@ -22,308 +22,539 @@
       "titleEn": "Sabha Parva (The assembly hall)",
       "verses": [
         {
-          "text": "नारद उवाच"
+          "text": "नारद उवाच",
+          "meaning": {
+            "en": "Narada said:"
+          }
         },
         {
           "n": 1,
-          "text": "पुरा देवयुगे राजन्नादित्यो भगवान्दिवः ।\nआगच्छन्मानुषं लोकं दिदृक्षुर्विगतक्लमः ॥"
+          "text": "पुरा देवयुगे राजन्नादित्यो भगवान्दिवः ।\nआगच्छन्मानुषं लोकं दिदृक्षुर्विगतक्लमः ॥",
+          "meaning": {
+            "en": "In the age of the gods long ago, O king, the blessed sun, free of weariness, came down from heaven to the world of men, wishing to see it."
+          }
         },
         {
           "n": 2,
-          "text": "चरन्मानुषरूपेण सभां दृष्ट्वा स्वयंभुवः ।\nसभामकथयन्मह्यं ब्राह्मीं तत्त्वेन पाण्डव ॥"
+          "text": "चरन्मानुषरूपेण सभां दृष्ट्वा स्वयंभुवः ।\nसभामकथयन्मह्यं ब्राह्मीं तत्त्वेन पाण्डव ॥",
+          "meaning": {
+            "en": "Walking in human form, he had seen the hall of the Self-born, and he described to me truly that hall of Brahma, O Pandava."
+          }
         },
         {
           "n": 3,
-          "text": "अप्रमेयप्रभां दिव्यां मानसीं भरतर्षभ ।\nअनिर्देश्यां प्रभावेन सर्वभूतमनोरमाम् ॥"
+          "text": "अप्रमेयप्रभां दिव्यां मानसीं भरतर्षभ ।\nअनिर्देश्यां प्रभावेन सर्वभूतमनोरमाम् ॥",
+          "meaning": {
+            "en": "It is of immeasurable radiance, heavenly, made by the mind, O bull of the Bharatas, beyond description in its power, and delightful to the minds of all beings."
+          }
         },
         {
           "n": 4,
-          "text": "श्रुत्वा गुणानहं तस्याः सभायाः पाण्डुनन्दन ।\nदर्शनेप्सुस्तथा राजन्नादित्यमहमब्रुवम् ॥"
+          "text": "श्रुत्वा गुणानहं तस्याः सभायाः पाण्डुनन्दन ।\nदर्शनेप्सुस्तथा राजन्नादित्यमहमब्रुवम् ॥",
+          "meaning": {
+            "en": "Hearing of the merits of that hall, son of Pandu, I longed to see it, and I said to the Sun,"
+          }
         },
         {
           "n": 5,
-          "text": "भगवन्द्रष्टुमिच्छामि पितामहसभामहम् ।\nयेन सा तपसा शक्या कर्मणा वापि गोपते ॥"
+          "text": "भगवन्द्रष्टुमिच्छामि पितामहसभामहम् ।\nयेन सा तपसा शक्या कर्मणा वापि गोपते ॥",
+          "meaning": {
+            "en": "\"Blessed one, I wish to see the grandfather's hall. By what austerity or work could it be reached, lord of rays,"
+          }
         },
         {
           "n": 6,
-          "text": "औषधैर्वा तथा युक्तैरुत वा मायया यया ।\nतन्ममाचक्ष्व भगवन्पश्येयं तां सभां कथम् ॥"
+          "text": "औषधैर्वा तथा युक्तैरुत वा मायया यया ।\nतन्ममाचक्ष्व भगवन्पश्येयं तां सभां कथम् ॥",
+          "meaning": {
+            "en": "\"or by what proper remedies, or by what magic? Tell me, blessed one, how I might see that hall.\""
+          }
         },
         {
           "n": 7,
-          "text": "ततः स भगवान्सूर्यो मामुपादाय वीर्यवान् ।\nअगच्छत्तां सभां ब्राह्मीं विपापां विगतक्लमाम् ॥"
+          "text": "ततः स भगवान्सूर्यो मामुपादाय वीर्यवान् ।\nअगच्छत्तां सभां ब्राह्मीं विपापां विगतक्लमाम् ॥",
+          "meaning": {
+            "en": "Then the mighty, blessed Sun took me with him and went to that hall of Brahma, free of sin and of weariness."
+          }
         },
         {
           "n": 8,
-          "text": "एवंरूपेति सा शक्या न निर्देष्टुं जनाधिप ।\nक्षणेन हि बिभर्त्यन्यदनिर्देश्यं वपुस्तथा ॥"
+          "text": "एवंरूपेति सा शक्या न निर्देष्टुं जनाधिप ।\nक्षणेन हि बिभर्त्यन्यदनिर्देश्यं वपुस्तथा ॥",
+          "meaning": {
+            "en": "It cannot be pointed out as \"of such a form,\" O lord of the people; for in an instant it takes another form that likewise cannot be described."
+          }
         },
         {
           "n": 9,
-          "text": "न वेद परिमाणं वा संस्थानं वापि भारत ।\nन च रूपं मया तादृग्दृष्टपूर्वं कदाचन ॥"
+          "text": "न वेद परिमाणं वा संस्थानं वापि भारत ।\nन च रूपं मया तादृग्दृष्टपूर्वं कदाचन ॥",
+          "meaning": {
+            "en": "I do not know its measure or its plan, Bharata, nor had I ever seen such a form before."
+          }
         },
         {
           "n": 10,
-          "text": "सुसुखा सा सभा राजन्न शीता न च घर्मदा ।\nन क्षुत्पिपासे न ग्लानिं प्राप्य तां प्राप्नुवन्त्युत ॥"
+          "text": "सुसुखा सा सभा राजन्न शीता न च घर्मदा ।\nन क्षुत्पिपासे न ग्लानिं प्राप्य तां प्राप्नुवन्त्युत ॥",
+          "meaning": {
+            "en": "That hall is most pleasant, O king, neither cold nor hot; hunger, thirst and weariness do not touch those who reach it."
+          }
         },
         {
           "n": 11,
-          "text": "नानारूपैरिव कृता सुविचित्रैः सुभास्वरैः ।\nस्तम्भैर्न च धृता सा तु शाश्वती न च सा क्षरा ॥"
+          "text": "नानारूपैरिव कृता सुविचित्रैः सुभास्वरैः ।\nस्तम्भैर्न च धृता सा तु शाश्वती न च सा क्षरा ॥",
+          "meaning": {
+            "en": "It seems built of many varied, brilliant forms, yet no pillars hold it; it is everlasting and never decays."
+          }
         },
         {
           "n": 12,
-          "text": "अति चन्द्रं च सूर्यं च शिखिनं च स्वयंप्रभा ।\nदीप्यते नाकपृष्ठस्था भासयन्तीव भास्करम् ॥"
+          "text": "अति चन्द्रं च सूर्यं च शिखिनं च स्वयंप्रभा ।\nदीप्यते नाकपृष्ठस्था भासयन्तीव भास्करम् ॥",
+          "meaning": {
+            "en": "It shines by its own light, outshining the moon, the sun and fire, standing on the back of the sky as if it lit up the sun itself."
+          }
         },
         {
           "n": 13,
-          "text": "तस्यां स भगवानास्ते विदधद्देवमायया ।\nस्वयमेकोऽनिशं राजँल्लोकाँल्लोकपितामहः ॥"
+          "text": "तस्यां स भगवानास्ते विदधद्देवमायया ।\nस्वयमेकोऽनिशं राजँल्लोकाँल्लोकपितामहः ॥",
+          "meaning": {
+            "en": "In it the blessed one, the grandfather of the worlds, sits, creating the worlds alone by divine power, O king, without pause."
+          }
         },
         {
           "n": 14,
-          "text": "उपतिष्ठन्ति चाप्येनं प्रजानां पतयः प्रभुम् ।\nदक्षः प्रचेताः पुलहो मरीचिः कश्यपस्तथा ॥"
+          "text": "उपतिष्ठन्ति चाप्येनं प्रजानां पतयः प्रभुम् ।\nदक्षः प्रचेताः पुलहो मरीचिः कश्यपस्तथा ॥",
+          "meaning": {
+            "en": "The lords of creatures attend that lord there: Daksha, Prachetas, Pulaha, Marichi and Kashyapa;"
+          }
         },
         {
           "n": 15,
-          "text": "भृगुरत्रिर्वसिष्ठश्च गौतमश्च तथाङ्गिराः ।\nमनोऽन्तरिक्षं विद्याश्च वायुस्तेजो जलं मही ॥"
+          "text": "भृगुरत्रिर्वसिष्ठश्च गौतमश्च तथाङ्गिराः ।\nमनोऽन्तरिक्षं विद्याश्च वायुस्तेजो जलं मही ॥",
+          "meaning": {
+            "en": "Bhrigu, Atri, Vasishtha, Gautama and Angiras; Mind, space, the sciences, wind, fire, water and earth;"
+          }
         },
         {
           "n": 16,
-          "text": "शब्दः स्पर्शस्तथा रूपं रसो गन्धश्च भारत ।\nप्रकृतिश्च विकारश्च यच्चान्यत्कारणं भुवः ॥"
+          "text": "शब्दः स्पर्शस्तथा रूपं रसो गन्धश्च भारत ।\nप्रकृतिश्च विकारश्च यच्चान्यत्कारणं भुवः ॥",
+          "meaning": {
+            "en": "sound, touch, form, taste and smell, O Bharata; nature and its changes, and whatever else is a cause of the world."
+          }
         },
         {
           "n": 17,
-          "text": "चन्द्रमाः सह नक्षत्रैरादित्यश्च गभस्तिमान् ।\nवायवः क्रतवश्चैव संकल्पः प्राण एव च ॥"
+          "text": "चन्द्रमाः सह नक्षत्रैरादित्यश्च गभस्तिमान् ।\nवायवः क्रतवश्चैव संकल्पः प्राण एव च ॥",
+          "meaning": {
+            "en": "The moon with the stars, and the radiant sun; the winds and sacrifices; resolve and breath."
+          }
         },
         {
           "n": 18,
-          "text": "एते चान्ये च बहवः स्वयंभुवमुपस्थिताः ।\nअर्थो धर्मश्च कामश्च हर्षो द्वेषस्तपो दमः ॥"
+          "text": "एते चान्ये च बहवः स्वयंभुवमुपस्थिताः ।\nअर्थो धर्मश्च कामश्च हर्षो द्वेषस्तपो दमः ॥",
+          "meaning": {
+            "en": "These and many others stand before the Self-born, as do wealth, dharma and desire, joy and hatred, austerity and self-control."
+          }
         },
         {
           "n": 19,
-          "text": "आयान्ति तस्यां सहिता गन्धर्वाप्सरसस्तथा ।\nविंशतिः सप्त चैवान्ये लोकपालाश्च सर्वशः ॥"
+          "text": "आयान्ति तस्यां सहिता गन्धर्वाप्सरसस्तथा ।\nविंशतिः सप्त चैवान्ये लोकपालाश्च सर्वशः ॥",
+          "meaning": {
+            "en": "Gandharvas and Apsarases come there together, and twenty-seven others, and all the guardians of the worlds."
+          }
         },
         {
           "n": 20,
-          "text": "शुक्रो बृहस्पतिश्चैव बुधोऽङ्गारक एव च ।\nशनैश्चरश्च राहुश्च ग्रहाः सर्वे तथैव च ॥"
+          "text": "शुक्रो बृहस्पतिश्चैव बुधोऽङ्गारक एव च ।\nशनैश्चरश्च राहुश्च ग्रहाः सर्वे तथैव च ॥",
+          "meaning": {
+            "en": "Shukra, Brihaspati, Budha, Angaraka, Shanaishchara and Rahu, all the planets are there too."
+          }
         },
         {
           "n": 21,
-          "text": "मन्त्रो रथंतरश्चैव हरिमान्वसुमानपि ।\nआदित्याः साधिराजानो नानाद्वंद्वैरुदाहृताः ॥"
+          "text": "मन्त्रो रथंतरश्चैव हरिमान्वसुमानपि ।\nआदित्याः साधिराजानो नानाद्वंद्वैरुदाहृताः ॥",
+          "meaning": {
+            "en": "The mantra, the Rathantara chant, Harimat and Vasumat, the Adityas with their chief, named in many pairs,"
+          }
         },
         {
           "n": 22,
-          "text": "मरुतो विश्वकर्मा च वसवश्चैव भारत ।\nतथा पितृगणाः सर्वे सर्वाणि च हवींष्यथ ॥"
+          "text": "मरुतो विश्वकर्मा च वसवश्चैव भारत ।\nतथा पितृगणाः सर्वे सर्वाणि च हवींष्यथ ॥",
+          "meaning": {
+            "en": "the Maruts, Vishvakarma, the Vasus, O Bharata, all the groups of fathers, and all the oblations."
+          }
         },
         {
           "n": 23,
-          "text": "ऋग्वेदः सामवेदश्च यजुर्वेदश्च पाण्डव ।\nअथर्ववेदश्च तथा पर्वाणि च विशां पते ॥"
+          "text": "ऋग्वेदः सामवेदश्च यजुर्वेदश्च पाण्डव ।\nअथर्ववेदश्च तथा पर्वाणि च विशां पते ॥",
+          "meaning": {
+            "en": "The Rigveda, Samaveda, Yajurveda and Atharvaveda, Pandava, and the sacred junctures of the months, O lord of the people;"
+          }
         },
         {
           "n": 24,
-          "text": "इतिहासोपवेदाश्च वेदाङ्गानि च सर्वशः ।\nग्रहा यज्ञाश्च सोमश्च दैवतानि च सर्वशः ॥"
+          "text": "इतिहासोपवेदाश्च वेदाङ्गानि च सर्वशः ।\nग्रहा यज्ञाश्च सोमश्च दैवतानि च सर्वशः ॥",
+          "meaning": {
+            "en": "the Itihasa and the Upavedas, all the limbs of the Vedas, the planets, the sacrifices, Soma and all the deities;"
+          }
         },
         {
           "n": 25,
-          "text": "सावित्री दुर्गतरणी वाणी सप्तविधा तथा ।\nमेधा धृतिः श्रुतिश्चैव प्रज्ञा बुद्धिर्यशः क्षमा ॥"
+          "text": "सावित्री दुर्गतरणी वाणी सप्तविधा तथा ।\nमेधा धृतिः श्रुतिश्चैव प्रज्ञा बुद्धिर्यशः क्षमा ॥",
+          "meaning": {
+            "en": "Savitri, the one who carries across hard places, the sevenfold Speech, Insight, Steadfastness, Revelation, Wisdom, Understanding, Fame and Patience;"
+          }
         },
         {
           "n": 26,
-          "text": "सामानि स्तुतिशस्त्राणि गाथाश्च विविधास्तथा ।\nभाष्याणि तर्कयुक्तानि देहवन्ति विशां पते ॥"
+          "text": "सामानि स्तुतिशस्त्राणि गाथाश्च विविधास्तथा ।\nभाष्याणि तर्कयुक्तानि देहवन्ति विशां पते ॥",
+          "meaning": {
+            "en": "the Samans, hymns and recitations, the many ballads, and commentaries with their reasoning, in bodily form, O lord of the people."
+          }
         },
         {
           "n": 27,
-          "text": "क्षणा लवा मुहूर्ताश्च दिवा रात्रिस्तथैव च ।\nअर्धमासाश्च मासाश्च ऋतवः षट्च भारत ॥"
+          "text": "क्षणा लवा मुहूर्ताश्च दिवा रात्रिस्तथैव च ।\nअर्धमासाश्च मासाश्च ऋतवः षट्च भारत ॥",
+          "meaning": {
+            "en": "The moments, instants and hours, day and night, half-months and months, and the six seasons, O Bharata;"
+          }
         },
         {
           "n": 28,
-          "text": "संवत्सराः पञ्चयुगमहोरात्राश्चतुर्विधाः ।\nकालचक्रं च यद्दिव्यं नित्यमक्षयमव्ययम् ॥"
+          "text": "संवत्सराः पञ्चयुगमहोरात्राश्चतुर्विधाः ।\nकालचक्रं च यद्दिव्यं नित्यमक्षयमव्ययम् ॥",
+          "meaning": {
+            "en": "the years, the five-year cycle, the four kinds of days and nights, and the heavenly wheel of time, ever undecaying and unchanging."
+          }
         },
         {
           "n": 29,
-          "text": "अदितिर्दितिर्दनुश्चैव सुरसा विनता इरा ।\nकालका सुरभिर्देवी सरमा चाथ गौतमी ॥"
+          "text": "अदितिर्दितिर्दनुश्चैव सुरसा विनता इरा ।\nकालका सुरभिर्देवी सरमा चाथ गौतमी ॥",
+          "meaning": {
+            "en": "Aditi, Diti, Danu, Surasa, Vinata, Ira, Kalaka, the goddess Surabhi, Sarama and Gautami;"
+          }
         },
         {
           "n": 30,
-          "text": "आदित्या वसवो रुद्रा मरुतश्चाश्विनावपि ।\nविश्वेदेवाश्च साध्याश्च पितरश्च मनोजवाः ॥"
+          "text": "आदित्या वसवो रुद्रा मरुतश्चाश्विनावपि ।\nविश्वेदेवाश्च साध्याश्च पितरश्च मनोजवाः ॥",
+          "meaning": {
+            "en": "the Adityas, Vasus, Rudras, Maruts and the Ashvins, the Vishvedevas, Sadhyas, and the fathers swift as thought;"
+          }
         },
         {
           "n": 31,
-          "text": "राक्षसाश्च पिशाचाश्च दानवा गुह्यकास्तथा ।\nसुपर्णनागपशवः पितामहमुपासते ॥"
+          "text": "राक्षसाश्च पिशाचाश्च दानवा गुह्यकास्तथा ।\nसुपर्णनागपशवः पितामहमुपासते ॥",
+          "meaning": {
+            "en": "Rakshasas, Pishachas, Danavas, Guhyakas, the Suparnas, nagas and beasts attend the grandfather."
+          }
         },
         {
           "n": 32,
-          "text": "देवो नारायणस्तस्यां तथा देवर्षयश्च ये ।\nऋषयो वालखिल्याश्च योनिजायोनिजास्तथा ॥"
+          "text": "देवो नारायणस्तस्यां तथा देवर्षयश्च ये ।\nऋषयो वालखिल्याश्च योनिजायोनिजास्तथा ॥",
+          "meaning": {
+            "en": "The god Narayana is there, and the divine seers, the seers, the Valakhilyas, those born of the womb and those not."
+          }
         },
         {
           "n": 33,
-          "text": "यच्च किंचित्त्रिलोकेऽस्मिन्दृश्यते स्थाणुजङ्गमम् ।\nसर्वं तस्यां मया दृष्टं तद्विद्धि मनुजाधिप ॥"
+          "text": "यच्च किंचित्त्रिलोकेऽस्मिन्दृश्यते स्थाणुजङ्गमम् ।\nसर्वं तस्यां मया दृष्टं तद्विद्धि मनुजाधिप ॥",
+          "meaning": {
+            "en": "Whatever is seen in these three worlds, moving or still, all of it I saw there; know this, O lord of men."
+          }
         },
         {
           "n": 34,
-          "text": "अष्टाशीतिसहस्राणि यतीनामूर्ध्वरेतसाम् ।\nप्रजावतां च पञ्चाशदृषीणामपि पाण्डव ॥"
+          "text": "अष्टाशीतिसहस्राणि यतीनामूर्ध्वरेतसाम् ।\nप्रजावतां च पञ्चाशदृषीणामपि पाण्डव ॥",
+          "meaning": {
+            "en": "Eighty-eight thousand ascetics of upward-flowing seed, and fifty seers who have children, Pandava,"
+          }
         },
         {
           "n": 35,
-          "text": "ते स्म तत्र यथाकामं दृष्ट्वा सर्वे दिवौकसः ।\nप्रणम्य शिरसा तस्मै प्रतियान्ति यथागतम् ॥"
+          "text": "ते स्म तत्र यथाकामं दृष्ट्वा सर्वे दिवौकसः ।\nप्रणम्य शिरसा तस्मै प्रतियान्ति यथागतम् ॥",
+          "meaning": {
+            "en": "having seen all those who dwell in heaven there, as they wished, bow their heads to him and go back as they came."
+          }
         },
         {
           "n": 36,
-          "text": "अतिथीनागतान्देवान्दैत्यान्नागान्मुनींस्तथा ।\nयक्षान्सुपर्णान्कालेयान्गन्धर्वाप्सरसस्तथा ॥"
+          "text": "अतिथीनागतान्देवान्दैत्यान्नागान्मुनींस्तथा ।\nयक्षान्सुपर्णान्कालेयान्गन्धर्वाप्सरसस्तथा ॥",
+          "meaning": {
+            "en": "Brahma, the grandfather of the worlds, of boundless understanding and compassionate to all beings, receives them fittingly: the gods who come as guests, the Daityas, nagas, sages,"
+          }
         },
         {
           "n": 37,
-          "text": "महाभागानमितधीर्ब्रह्मा लोकपितामहः ।\nदयावान्सर्वभूतेषु यथार्हं प्रतिपद्यते ॥"
+          "text": "महाभागानमितधीर्ब्रह्मा लोकपितामहः ।\nदयावान्सर्वभूतेषु यथार्हं प्रतिपद्यते ॥",
+          "meaning": {
+            "en": "Yakshas, Suparnas, Kaleyas, Gandharvas and Apsarases, all of great fortune."
+          }
         },
         {
           "n": 38,
-          "text": "प्रतिगृह्य च विश्वात्मा स्वयंभूरमितप्रभः ।\nसान्त्वमानार्थसंभोगैर्युनक्ति मनुजाधिप ॥"
+          "text": "प्रतिगृह्य च विश्वात्मा स्वयंभूरमितप्रभः ।\nसान्त्वमानार्थसंभोगैर्युनक्ति मनुजाधिप ॥",
+          "meaning": {
+            "en": "The Self of all, the self-born, of boundless radiance, receives them and gratifies them with kind words, honor and enjoyments, O lord of men."
+          }
         },
         {
           "n": 39,
-          "text": "तथा तैरुपयातैश्च प्रतियातैश्च भारत ।\nआकुला सा सभा तात भवति स्म सुखप्रदा ॥"
+          "text": "तथा तैरुपयातैश्च प्रतियातैश्च भारत ।\nआकुला सा सभा तात भवति स्म सुखप्रदा ॥",
+          "meaning": {
+            "en": "With those arriving and those departing, that hall, my dear, is crowded and yet gives happiness, O Bharata."
+          }
         },
         {
           "n": 40,
-          "text": "सर्वतेजोमयी दिव्या ब्रह्मर्षिगणसेविता ।\nब्राह्म्या श्रिया दीप्यमाना शुशुभे विगतक्लमा ॥"
+          "text": "सर्वतेजोमयी दिव्या ब्रह्मर्षिगणसेविता ।\nब्राह्म्या श्रिया दीप्यमाना शुशुभे विगतक्लमा ॥",
+          "meaning": {
+            "en": "Heavenly, made wholly of splendor and served by troops of Brahmin seers, it shone, blazing with Brahma's glory, free of weariness."
+          }
         },
         {
           "n": 41,
-          "text": "सा सभा तादृशी दृष्टा सर्वलोकेषु दुर्लभा ।\nसभेयं राजशार्दूल मनुष्येषु यथा तव ॥"
+          "text": "सा सभा तादृशी दृष्टा सर्वलोकेषु दुर्लभा ।\nसभेयं राजशार्दूल मनुष्येषु यथा तव ॥",
+          "meaning": {
+            "en": "Such a hall I saw, one hard to find in any world; this hall of yours, tiger among kings, is the like of it among men."
+          }
         },
         {
           "n": 42,
-          "text": "एता मया दृष्टपूर्वाः सभा देवेषु पाण्डव ।\nतवेयं मानुषे लोके सर्वश्रेष्ठतमा सभा ॥"
+          "text": "एता मया दृष्टपूर्वाः सभा देवेषु पाण्डव ।\nतवेयं मानुषे लोके सर्वश्रेष्ठतमा सभा ॥",
+          "meaning": {
+            "en": "These halls I have seen before among the gods, Pandava; yours in the world of men is the best of all."
+          }
         },
         {
-          "text": "युधिष्ठिर उवाच"
+          "text": "युधिष्ठिर उवाच",
+          "meaning": {
+            "en": "Yudhishthira said:"
+          }
         },
         {
           "n": 43,
-          "text": "प्रायशो राजलोकस्ते कथितो वदतां वर ।\nवैवस्वतसभायां तु यथा वदसि वै प्रभो ॥"
+          "text": "प्रायशो राजलोकस्ते कथितो वदतां वर ।\nवैवस्वतसभायां तु यथा वदसि वै प्रभो ॥",
+          "meaning": {
+            "en": "Best of speakers, you have mostly told me about the halls of kings in the world of Vaivasvata's hall, as you say, lord."
+          }
         },
         {
           "n": 44,
-          "text": "वरुणस्य सभायां तु नागास्ते कथिता विभो ।\nदैत्येन्द्राश्चैव भूयिष्ठाः सरितः सागरास्तथा ॥"
+          "text": "वरुणस्य सभायां तु नागास्ते कथिता विभो ।\nदैत्येन्द्राश्चैव भूयिष्ठाः सरितः सागरास्तथा ॥",
+          "meaning": {
+            "en": "In Varuna's hall, great one, you spoke of nagas, chiefly of the lords of the Daityas, and of rivers and seas."
+          }
         },
         {
           "n": 45,
-          "text": "तथा धनपतेर्यक्षा गुह्यका राक्षसास्तथा ।\nगन्धर्वाप्सरसश्चैव भगवांश्च वृषध्वजः ॥"
+          "text": "तथा धनपतेर्यक्षा गुह्यका राक्षसास्तथा ।\nगन्धर्वाप्सरसश्चैव भगवांश्च वृषध्वजः ॥",
+          "meaning": {
+            "en": "In Kubera's hall, of Yakshas, Guhyakas and Rakshasas, of Gandharvas and Apsarases, and of the blessed one with the bull banner."
+          }
         },
         {
           "n": 46,
-          "text": "पितामहसभायां तु कथितास्ते महर्षयः ।\nसर्वदेवनिकायाश्च सर्वशास्त्राणि चैव हि ॥"
+          "text": "पितामहसभायां तु कथितास्ते महर्षयः ।\nसर्वदेवनिकायाश्च सर्वशास्त्राणि चैव हि ॥",
+          "meaning": {
+            "en": "In the grandfather's hall you named the great seers, all the orders of the gods and all the sciences."
+          }
         },
         {
           "n": 47,
-          "text": "शतक्रतुसभायां तु देवाः संकीर्तिता मुने ।\nउद्देशतश्च गन्धर्वा विविधाश्च महर्षयः ॥"
+          "text": "शतक्रतुसभायां तु देवाः संकीर्तिता मुने ।\nउद्देशतश्च गन्धर्वा विविधाश्च महर्षयः ॥",
+          "meaning": {
+            "en": "In the hall of Shatakratu, sage, you mentioned the gods, and in outline the Gandharvas and the various great seers."
+          }
         },
         {
           "n": 48,
-          "text": "एक एव तु राजर्षिर्हरिश्चन्द्रो महामुने ।\nकथितस्ते सभानित्यो देवेन्द्रस्य महात्मनः ॥"
+          "text": "एक एव तु राजर्षिर्हरिश्चन्द्रो महामुने ।\nकथितस्ते सभानित्यो देवेन्द्रस्य महात्मनः ॥",
+          "meaning": {
+            "en": "But of royal seers, great sage, only Harishchandra was named by you, always sitting in the hall of the great lord of the gods."
+          }
         },
         {
           "n": 49,
-          "text": "किं कर्म तेनाचरितं तपो वा नियतव्रतम् ।\nयेनासौ सह शक्रेण स्पर्धते स्म महायशाः ॥"
+          "text": "किं कर्म तेनाचरितं तपो वा नियतव्रतम् ।\nयेनासौ सह शक्रेण स्पर्धते स्म महायशाः ॥",
+          "meaning": {
+            "en": "What deed did he do, or what austerity of fixed vows, that this man of great fame rivaled Shakra?"
+          }
         },
         {
           "n": 50,
-          "text": "पितृलोकगतश्चापि त्वया विप्र पिता मम ।\nदृष्टः पाण्डुर्महाभागः कथं चासि समागतः ॥"
+          "text": "पितृलोकगतश्चापि त्वया विप्र पिता मम ।\nदृष्टः पाण्डुर्महाभागः कथं चासि समागतः ॥",
+          "meaning": {
+            "en": "And, Brahmin, you saw my father Pandu, of great fortune, when you went to the world of the fathers; how did you come to meet him?"
+          }
         },
         {
           "n": 51,
-          "text": "किमुक्तवांश्च भगवन्नेतदिच्छामि वेदितुम् ।\nत्वत्तः श्रोतुमहं सर्वं परं कौतूहलं हि मे ॥"
+          "text": "किमुक्तवांश्च भगवन्नेतदिच्छामि वेदितुम् ।\nत्वत्तः श्रोतुमहं सर्वं परं कौतूहलं हि मे ॥",
+          "meaning": {
+            "en": "What did he say, blessed one? This I wish to know; I want to hear all of it from you, for my curiosity is very great."
+          }
         },
         {
-          "text": "नारद उवाच"
+          "text": "नारद उवाच",
+          "meaning": {
+            "en": "Narada said:"
+          }
         },
         {
           "n": 52,
-          "text": "यन्मां पृच्छसि राजेन्द्र हरिश्चन्द्रं प्रति प्रभो ।\nतत्तेऽहं संप्रवक्ष्यामि माहात्म्यं तस्य धीमतः ॥"
+          "text": "यन्मां पृच्छसि राजेन्द्र हरिश्चन्द्रं प्रति प्रभो ।\nतत्तेऽहं संप्रवक्ष्यामि माहात्म्यं तस्य धीमतः ॥",
+          "meaning": {
+            "en": "What you ask me, king of kings, about Harishchandra, I will tell you, the greatness of that wise man."
+          }
         },
         {
           "n": 53,
-          "text": "स राजा बलवानासीत्सम्राट्सर्वमहीक्षिताम् ।\nतस्य सर्वे महीपालाः शासनावनताः स्थिताः ॥"
+          "text": "स राजा बलवानासीत्सम्राट्सर्वमहीक्षिताम् ।\nतस्य सर्वे महीपालाः शासनावनताः स्थिताः ॥",
+          "meaning": {
+            "en": "That king was mighty, emperor over all the earth's rulers; all the lords of the earth stood bowing to his command."
+          }
         },
         {
           "n": 54,
-          "text": "तेनैकं रथमास्थाय जैत्रं हेमविभूषितम् ।\nशस्त्रप्रतापेन जिता द्वीपाः सप्त नरेश्वर ॥"
+          "text": "तेनैकं रथमास्थाय जैत्रं हेमविभूषितम् ।\nशस्त्रप्रतापेन जिता द्वीपाः सप्त नरेश्वर ॥",
+          "meaning": {
+            "en": "Mounting a single victorious chariot adorned with gold, he conquered the seven continents by the might of his weapons, O lord of men."
+          }
         },
         {
           "n": 55,
-          "text": "स विजित्य महीं सर्वां सशैलवनकाननाम् ।\nआजहार महाराज राजसूयं महाक्रतुम् ॥"
+          "text": "स विजित्य महीं सर्वां सशैलवनकाननाम् ।\nआजहार महाराज राजसूयं महाक्रतुम् ॥",
+          "meaning": {
+            "en": "Having conquered the whole earth with its mountains, forests and groves, great king, he performed the great sacrifice, the Rajasuya."
+          }
         },
         {
           "n": 56,
-          "text": "तस्य सर्वे महीपाला धनान्याजह्रुराज्ञया ।\nद्विजानां परिवेष्टारस्तस्मिन्यज्ञे च तेऽभवन् ॥"
+          "text": "तस्य सर्वे महीपाला धनान्याजह्रुराज्ञया ।\nद्विजानां परिवेष्टारस्तस्मिन्यज्ञे च तेऽभवन् ॥",
+          "meaning": {
+            "en": "At his command all the kings brought him wealth, and at that sacrifice they served the Brahmins as attendants."
+          }
         },
         {
           "n": 57,
-          "text": "प्रादाच्च द्रविणं प्रीत्या याजकानां नरेश्वरः ।\nयथोक्तं तत्र तैस्तस्मिंस्ततः पञ्चगुणाधिकम् ॥"
+          "text": "प्रादाच्च द्रविणं प्रीत्या याजकानां नरेश्वरः ।\nयथोक्तं तत्र तैस्तस्मिंस्ततः पञ्चगुणाधिकम् ॥",
+          "meaning": {
+            "en": "That lord of men gladly gave the sacrificial priests there wealth, five times more than what had been promised."
+          }
         },
         {
           "n": 58,
-          "text": "अतर्पयच्च विविधैर्वसुभिर्ब्राह्मणांस्तथा ।\nप्रासर्पकाले संप्राप्ते नानादिग्भ्यः समागतान् ॥"
+          "text": "अतर्पयच्च विविधैर्वसुभिर्ब्राह्मणांस्तथा ।\nप्रासर्पकाले संप्राप्ते नानादिग्भ्यः समागतान् ॥",
+          "meaning": {
+            "en": "When the time for the closing rites came, he satisfied the Brahmins who had come from many directions with riches of many kinds,"
+          }
         },
         {
           "n": 59,
-          "text": "भक्ष्यैर्भोज्यैश्च विविधैर्यथाकामपुरस्कृतैः ।\nरत्नौघतर्पितैस्तुष्टैर्द्विजैश्च समुदाहृतम् ।\nतेजस्वी च यशस्वी च नृपेभ्योऽभ्यधिकोऽभवत् ॥"
+          "text": "भक्ष्यैर्भोज्यैश्च विविधैर्यथाकामपुरस्कृतैः ।\nरत्नौघतर्पितैस्तुष्टैर्द्विजैश्च समुदाहृतम् ।\nतेजस्वी च यशस्वी च नृपेभ्योऽभ्यधिकोऽभवत् ॥",
+          "meaning": {
+            "en": "and with foods and dishes of many kinds, offered as they wished; the Brahmins, pleased and gratified by heaps of jewels, spoke in his praise. He became more brilliant and more famous than all other kings."
+          }
         },
         {
           "n": 60,
-          "text": "एतस्मात्कारणात्पार्थ हरिश्चन्द्रो विराजते ।\nतेभ्यो राजसहस्रेभ्यस्तद्विद्धि भरतर्षभ ॥"
+          "text": "एतस्मात्कारणात्पार्थ हरिश्चन्द्रो विराजते ।\nतेभ्यो राजसहस्रेभ्यस्तद्विद्धि भरतर्षभ ॥",
+          "meaning": {
+            "en": "For this reason, Partha, Harishchandra shines above those thousands of kings; know this, bull of the Bharatas."
+          }
         },
         {
           "n": 61,
-          "text": "समाप्य च हरिश्चन्द्रो महायज्ञं प्रतापवान् ।\nअभिषिक्तः स शुशुभे साम्राज्येन नराधिप ॥"
+          "text": "समाप्य च हरिश्चन्द्रो महायज्ञं प्रतापवान् ।\nअभिषिक्तः स शुशुभे साम्राज्येन नराधिप ॥",
+          "meaning": {
+            "en": "When the mighty Harishchandra had finished the great sacrifice, he was consecrated and shone with imperial rule, O lord of men."
+          }
         },
         {
           "n": 62,
-          "text": "ये चान्येऽपि महीपाला राजसूयं महाक्रतुम् ।\nयजन्ते ते महेन्द्रेण मोदन्ते सह भारत ॥"
+          "text": "ये चान्येऽपि महीपाला राजसूयं महाक्रतुम् ।\nयजन्ते ते महेन्द्रेण मोदन्ते सह भारत ॥",
+          "meaning": {
+            "en": "Other kings too who perform the great Rajasuya sacrifice rejoice with the great Indra, O Bharata."
+          }
         },
         {
           "n": 63,
-          "text": "ये चापि निधनं प्राप्ताः संग्रामेष्वपलायिनः ।\nते तत्सदः समासाद्य मोदन्ते भरतर्षभ ॥"
+          "text": "ये चापि निधनं प्राप्ताः संग्रामेष्वपलायिनः ।\nते तत्सदः समासाद्य मोदन्ते भरतर्षभ ॥",
+          "meaning": {
+            "en": "And those who die in battle without turning back, O bull of the Bharatas, reach that hall and rejoice there."
+          }
         },
         {
           "n": 64,
-          "text": "तपसा ये च तीव्रेण त्यजन्तीह कलेवरम् ।\nतेऽपि तत्स्थानमासाद्य श्रीमन्तो भान्ति नित्यशः ॥"
+          "text": "तपसा ये च तीव्रेण त्यजन्तीह कलेवरम् ।\nतेऽपि तत्स्थानमासाद्य श्रीमन्तो भान्ति नित्यशः ॥",
+          "meaning": {
+            "en": "Those who give up the body here by fierce austerity also reach that place and shine there always in splendor."
+          }
         },
         {
           "n": 65,
-          "text": "पिता च त्वाह कौन्तेय पाण्डुः कौरवनन्दनः ।\nहरिश्चन्द्रे श्रियं दृष्ट्वा नृपतौ जातविस्मयः ॥"
+          "text": "पिता च त्वाह कौन्तेय पाण्डुः कौरवनन्दनः ।\nहरिश्चन्द्रे श्रियं दृष्ट्वा नृपतौ जातविस्मयः ॥",
+          "meaning": {
+            "en": "Your father Pandu, delight of the Kurus, said to you, Kaunteya, struck with wonder on seeing Harishchandra's fortune:"
+          }
         },
         {
           "n": 66,
-          "text": "समर्थोऽसि महीं जेतुं भ्रातरस्ते वशे स्थिताः ।\nराजसूयं क्रतुश्रेष्ठमाहरस्वेति भारत ॥"
+          "text": "समर्थोऽसि महीं जेतुं भ्रातरस्ते वशे स्थिताः ।\nराजसूयं क्रतुश्रेष्ठमाहरस्वेति भारत ॥",
+          "meaning": {
+            "en": "\"You are able to conquer the earth, your brothers are under your sway; perform the Rajasuya, best of sacrifices, Bharata.\""
+          }
         },
         {
           "n": 67,
-          "text": "तस्य त्वं पुरुषव्याघ्र संकल्पं कुरु पाण्डव ।\nगन्तारस्ते महेन्द्रस्य पूर्वैः सह सलोकताम् ॥"
+          "text": "तस्य त्वं पुरुषव्याघ्र संकल्पं कुरु पाण्डव ।\nगन्तारस्ते महेन्द्रस्य पूर्वैः सह सलोकताम् ॥",
+          "meaning": {
+            "en": "\"Make the resolve to do it, tiger among men, Pandava, and you will go to Mahendra's world together with your forefathers.\""
+          }
         },
         {
           "n": 68,
-          "text": "बहुविघ्नश्च नृपते क्रतुरेष स्मृतो महान् ।\nछिद्राण्यत्र हि वाञ्छन्ति यज्ञघ्ना ब्रह्मराक्षसाः ॥"
+          "text": "बहुविघ्नश्च नृपते क्रतुरेष स्मृतो महान् ।\nछिद्राण्यत्र हि वाञ्छन्ति यज्ञघ्ना ब्रह्मराक्षसाः ॥",
+          "meaning": {
+            "en": "This great sacrifice is said to have many obstacles, O king, for the Brahmin demons who destroy sacrifices look for flaws in it."
+          }
         },
         {
           "n": 69,
-          "text": "युद्धं च पृष्ठगमनं पृथिवीक्षयकारकम् ।\nकिंचिदेव निमित्तं च भवत्यत्र क्षयावहम् ॥"
+          "text": "युद्धं च पृष्ठगमनं पृथिवीक्षयकारकम् ।\nकिंचिदेव निमित्तं च भवत्यत्र क्षयावहम् ॥",
+          "meaning": {
+            "en": "War, retreat and the ruin of the earth may arise, and some small cause here can bring destruction."
+          }
         },
         {
           "n": 70,
-          "text": "एतत्संचिन्त्य राजेन्द्र यत्क्षमं तत्समाचर ।\nअप्रमत्तोत्थितो नित्यं चातुर्वर्ण्यस्य रक्षणे ।\nभव एधस्व मोदस्व दानैस्तर्पय च द्विजान् ॥"
+          "text": "एतत्संचिन्त्य राजेन्द्र यत्क्षमं तत्समाचर ।\nअप्रमत्तोत्थितो नित्यं चातुर्वर्ण्यस्य रक्षणे ।\nभव एधस्व मोदस्व दानैस्तर्पय च द्विजान् ॥",
+          "meaning": {
+            "en": "Considering this, king of kings, do what is fitting; always alert and ready to protect the four classes, rule, prosper and rejoice, and satisfy the Brahmins with gifts."
+          }
         },
         {
           "n": 71,
-          "text": "एतत्ते विस्तरेणोक्तं यन्मां त्वं परिपृच्छसि ।\nआपृच्छे त्वां गमिष्यामि दाशार्हनगरीं प्रति ॥"
+          "text": "एतत्ते विस्तरेणोक्तं यन्मां त्वं परिपृच्छसि ।\nआपृच्छे त्वां गमिष्यामि दाशार्हनगरीं प्रति ॥",
+          "meaning": {
+            "en": "All that you asked me I have told at length; I take my leave of you, for I will go to the city of the Dasharhas."
+          }
         },
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 72,
-          "text": "एवमाख्याय पार्थेभ्यो नारदो जनमेजय ।\nजगाम तैर्वृतो राजन्नृषिभिर्यैः समागतः ॥"
+          "text": "एवमाख्याय पार्थेभ्यो नारदो जनमेजय ।\nजगाम तैर्वृतो राजन्नृषिभिर्यैः समागतः ॥",
+          "meaning": {
+            "en": "Having told the Pandavas all this, Narada, O Janamejaya, went away, surrounded by the sages with whom he had come."
+          }
         },
         {
           "n": 73,
-          "text": "गते तु नारदे पार्थो भ्रातृभिः सह कौरव ।\nराजसूयं क्रतुश्रेष्ठं चिन्तयामास भारत ॥"
+          "text": "गते तु नारदे पार्थो भ्रातृभिः सह कौरव ।\nराजसूयं क्रतुश्रेष्ठं चिन्तयामास भारत ॥",
+          "meaning": {
+            "en": "When Narada had gone, Partha, with his brothers, O Kaurava, thought about the Rajasuya, the best of sacrifices."
+          }
         }
       ]
     }

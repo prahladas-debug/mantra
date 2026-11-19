@@ -22,211 +22,367 @@
       "titleEn": "Ajagara Parva (The python)",
       "verses": [
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 1,
-          "text": "स भीमसेनस्तेजस्वी तथा सर्पवशं गतः ।\nचिन्तयामास सर्पस्य वीर्यमत्यद्भुतं महत् ॥"
+          "text": "स भीमसेनस्तेजस्वी तथा सर्पवशं गतः ।\nचिन्तयामास सर्पस्य वीर्यमत्यद्भुतं महत् ॥",
+          "meaning": {
+            "en": "Thus the mighty Bhimasena, fallen under the serpent's power, pondered the great and astonishing strength of the snake."
+          }
         },
         {
           "n": 2,
-          "text": "उवाच च महासर्पं कामया ब्रूहि पन्नग ।\nकस्त्वं भो भुजगश्रेष्ठ किं मया च करिष्यसि ॥"
+          "text": "उवाच च महासर्पं कामया ब्रूहि पन्नग ।\nकस्त्वं भो भुजगश्रेष्ठ किं मया च करिष्यसि ॥",
+          "meaning": {
+            "en": "He said to the great serpent, \"Tell me willingly, serpent: who are you, best of snakes, and what will you do with me?"
+          }
         },
         {
           "n": 3,
-          "text": "पाण्डवो भीमसेनोऽहं धर्मराजादनन्तरः ।\nनागायुतसमप्राणस्त्वया नीतः कथं वशम् ॥"
+          "text": "पाण्डवो भीमसेनोऽहं धर्मराजादनन्तरः ।\nनागायुतसमप्राणस्त्वया नीतः कथं वशम् ॥",
+          "meaning": {
+            "en": "I am Bhimasena the Pandava, next after the king of dharma, with the strength of ten thousand elephants. How have you brought me into your power?"
+          }
         },
         {
           "n": 4,
-          "text": "सिंहाः केसरिणो व्याघ्रा महिषा वारणास्तथा ।\nसमागताश्च बहुशो निहताश्च मया मृधे ॥"
+          "text": "सिंहाः केसरिणो व्याघ्रा महिषा वारणास्तथा ।\nसमागताश्च बहुशो निहताश्च मया मृधे ॥",
+          "meaning": {
+            "en": "Lions with manes, tigers, buffaloes and elephants have come against me many times and I have slain them in battle."
+          }
         },
         {
           "n": 5,
-          "text": "दानवाश्च पिशाचाश्च राक्षसाश्च महाबलाः ।\nभुजवेगमशक्ता मे सोढुं पन्नगसत्तम ॥"
+          "text": "दानवाश्च पिशाचाश्च राक्षसाश्च महाबलाः ।\nभुजवेगमशक्ता मे सोढुं पन्नगसत्तम ॥",
+          "meaning": {
+            "en": "Danavas, pishachas and mighty rakshasas, best of serpents, could not bear the force of my arms."
+          }
         },
         {
           "n": 6,
-          "text": "किं नु विद्याबलं किं वा वरदानमथो तव ।\nउद्योगमपि कुर्वाणो वशगोऽस्मि कृतस्त्वया ॥"
+          "text": "किं नु विद्याबलं किं वा वरदानमथो तव ।\nउद्योगमपि कुर्वाणो वशगोऽस्मि कृतस्त्वया ॥",
+          "meaning": {
+            "en": "What is it, some power of knowledge or some boon of yours, that though I strive I have been put in your power?"
+          }
         },
         {
           "n": 7,
-          "text": "असत्यो विक्रमो नॄणामिति मे निश्चिता मतिः ।\nयथेदं मे त्वया नाग बलं प्रतिहतं महत् ॥"
+          "text": "असत्यो विक्रमो नॄणामिति मे निश्चिता मतिः ।\nयथेदं मे त्वया नाग बलं प्रतिहतं महत् ॥",
+          "meaning": {
+            "en": "My settled belief is that human valor is unreal, since you have blocked this great strength of mine, serpent.\""
+          }
         },
         {
           "n": 8,
-          "text": "इत्येवंवादिनं वीरं भीममक्लिष्टकारिणम् ।\nभोगेन महता सर्पः समन्तात्पर्यवेष्टयत् ॥"
+          "text": "इत्येवंवादिनं वीरं भीममक्लिष्टकारिणम् ।\nभोगेन महता सर्पः समन्तात्पर्यवेष्टयत् ॥",
+          "meaning": {
+            "en": "As the hero Bhima, of untiring deeds, spoke so, the serpent wound its huge coils all around him."
+          }
         },
         {
           "n": 9,
-          "text": "निगृह्य तं महाबाहुं ततः स भुजगस्तदा ।\nविमुच्यास्य भुजौ पीनाविदं वचनमब्रवीत् ॥"
+          "text": "निगृह्य तं महाबाहुं ततः स भुजगस्तदा ।\nविमुच्यास्य भुजौ पीनाविदं वचनमब्रवीत् ॥",
+          "meaning": {
+            "en": "Having subdued the mighty-armed one, the serpent then released his thick arms and spoke these words."
+          }
         },
         {
           "n": 10,
-          "text": "दिष्ट्या त्वं क्षुधितस्याद्य देवैर्भक्षो महाभुज ।\nदिष्ट्या कालस्य महतः प्रियाः प्राणा हि देहिनाम् ॥"
+          "text": "दिष्ट्या त्वं क्षुधितस्याद्य देवैर्भक्षो महाभुज ।\nदिष्ट्या कालस्य महतः प्रियाः प्राणा हि देहिनाम् ॥",
+          "meaning": {
+            "en": "\"By good fortune, mighty-armed one, you have been given to me today by the gods as food when I am hungry. By good fortune, for the life of embodied beings is dear, in the great course of time."
+          }
         },
         {
           "n": 11,
-          "text": "यथा त्विदं मया प्राप्तं भुजंगत्वमरिंदम ।\nतदवश्यं मया ख्याप्यं तवाद्य शृणु सत्तम ॥"
+          "text": "यथा त्विदं मया प्राप्तं भुजंगत्वमरिंदम ।\nतदवश्यं मया ख्याप्यं तवाद्य शृणु सत्तम ॥",
+          "meaning": {
+            "en": "How I came to this serpent state, tamer of foes, I must tell you today. Listen, good man."
+          }
         },
         {
           "n": 12,
-          "text": "इमामवस्थां संप्राप्तो ह्यहं कोपान्मनीषिणाम् ।\nशापस्यान्तं परिप्रेप्सुः सर्पस्य कथयामि तत् ॥"
+          "text": "इमामवस्थां संप्राप्तो ह्यहं कोपान्मनीषिणाम् ।\nशापस्यान्तं परिप्रेप्सुः सर्पस्य कथयामि तत् ॥",
+          "meaning": {
+            "en": "I have come to this condition through the anger of wise men, and, as a serpent seeking the end of the curse, I will tell it."
+          }
         },
         {
           "n": 13,
-          "text": "नहुषो नाम राजर्षिर्व्यक्तं ते श्रोत्रमागतः ।\nतवैव पूर्वः पूर्वेषामायोर्वंशकरः सुतः ॥"
+          "text": "नहुषो नाम राजर्षिर्व्यक्तं ते श्रोत्रमागतः ।\nतवैव पूर्वः पूर्वेषामायोर्वंशकरः सुतः ॥",
+          "meaning": {
+            "en": "You have surely heard of the royal sage Nahusha, the son of Ayu who founded his line, your own forefather among your ancestors."
+          }
         },
         {
           "n": 14,
-          "text": "सोऽहं शापादगस्त्यस्य ब्राह्मणानवमन्य च ।\nइमामवस्थामापन्नः पश्य दैवमिदं मम ॥"
+          "text": "सोऽहं शापादगस्त्यस्य ब्राह्मणानवमन्य च ।\nइमामवस्थामापन्नः पश्य दैवमिदं मम ॥",
+          "meaning": {
+            "en": "I am he. Through Agastya's curse, for having disrespected brahmins, I have fallen into this state. See this working of fate in my case."
+          }
         },
         {
           "n": 15,
-          "text": "त्वां चेदवध्यमायान्तमतीव प्रियदर्शनम् ।\nअहमद्योपयोक्ष्यामि विधानं पश्य यादृशम् ॥"
+          "text": "त्वां चेदवध्यमायान्तमतीव प्रियदर्शनम् ।\nअहमद्योपयोक्ष्यामि विधानं पश्य यादृशम् ॥",
+          "meaning": {
+            "en": "If you, whom I may not kill, come to me and are very dear to see, I will make use of you today. See what an arrangement this is."
+          }
         },
         {
           "n": 16,
-          "text": "न हि मे मुच्यते कश्चित्कथंचिद्ग्रहणं गतः ।\nगजो वा महिषो वापि षष्ठे काले नरोत्तम ॥"
+          "text": "न हि मे मुच्यते कश्चित्कथंचिद्ग्रहणं गतः ।\nगजो वा महिषो वापि षष्ठे काले नरोत्तम ॥",
+          "meaning": {
+            "en": "No one once caught by me is ever freed, whether elephant or buffalo, at the sixth part of the day, best of men."
+          }
         },
         {
           "n": 17,
-          "text": "नासि केवलसर्पेण तिर्यग्योनिषु वर्तता ।\nगृहीतः कौरवश्रेष्ठ वरदानमिदं मम ॥"
+          "text": "नासि केवलसर्पेण तिर्यग्योनिषु वर्तता ।\nगृहीतः कौरवश्रेष्ठ वरदानमिदं मम ॥",
+          "meaning": {
+            "en": "But you have not been seized by a mere snake living among animal births, best of the Kauravas; this is a boon I have."
+          }
         },
         {
           "n": 18,
-          "text": "पतता हि विमानाग्रान्मया शक्रासनाद्द्रुतम् ।\nकुरु शापान्तमित्युक्तो भगवान्मुनिसत्तमः ॥"
+          "text": "पतता हि विमानाग्रान्मया शक्रासनाद्द्रुतम् ।\nकुरु शापान्तमित्युक्तो भगवान्मुनिसत्तमः ॥",
+          "meaning": {
+            "en": "When I fell swiftly from the front of my celestial car, from Indra's seat, I begged the blessed best of sages, 'Put an end to the curse.'"
+          }
         },
         {
           "n": 19,
-          "text": "स मामुवाच तेजस्वी कृपयाभिपरिप्लुतः ।\nमोक्षस्ते भविता राजन्कस्माच्चित्कालपर्ययात् ॥"
+          "text": "स मामुवाच तेजस्वी कृपयाभिपरिप्लुतः ।\nमोक्षस्ते भविता राजन्कस्माच्चित्कालपर्ययात् ॥",
+          "meaning": {
+            "en": "That radiant one, filled with compassion, said to me, 'You will be freed, O king, after some turning of time.'"
+          }
         },
         {
           "n": 20,
-          "text": "ततोऽस्मि पतितो भूमौ न च मामजहात्स्मृतिः ।\nस्मार्तमस्ति पुराणं मे यथैवाधिगतं तथा ॥"
+          "text": "ततोऽस्मि पतितो भूमौ न च मामजहात्स्मृतिः ।\nस्मार्तमस्ति पुराणं मे यथैवाधिगतं तथा ॥",
+          "meaning": {
+            "en": "Then I fell to earth, and my memory did not leave me; I remember the ancient events just as I learned them."
+          }
         },
         {
           "n": 21,
-          "text": "यस्तु ते व्याहृतान्प्रश्नान्प्रतिब्रूयाद्विशेषवित् ।\nस त्वां मोक्षयिता शापादिति मामब्रवीदृषिः ॥"
+          "text": "यस्तु ते व्याहृतान्प्रश्नान्प्रतिब्रूयाद्विशेषवित् ।\nस त्वां मोक्षयिता शापादिति मामब्रवीदृषिः ॥",
+          "meaning": {
+            "en": "The sage told me, 'One who is discerning and answers the questions you put will free you from the curse.'"
+          }
         },
         {
           "n": 22,
-          "text": "गृहीतस्य त्वया राजन्प्राणिनोऽपि बलीयसः ।\nसत्त्वभ्रंशोऽधिकस्यापि सर्वस्याशु भविष्यति ॥"
+          "text": "गृहीतस्य त्वया राजन्प्राणिनोऽपि बलीयसः ।\nसत्त्वभ्रंशोऽधिकस्यापि सर्वस्याशु भविष्यति ॥",
+          "meaning": {
+            "en": "When you have seized a creature, O king, even one stronger than you, the courage of everyone, even a greater one, will quickly fail."
+          }
         },
         {
           "n": 23,
-          "text": "इति चाप्यहमश्रौषं वचस्तेषां दयावताम् ।\nमयि संजातहार्दानामथ तेऽन्तर्हिता द्विजाः ॥"
+          "text": "इति चाप्यहमश्रौषं वचस्तेषां दयावताम् ।\nमयि संजातहार्दानामथ तेऽन्तर्हिता द्विजाः ॥",
+          "meaning": {
+            "en": "I also heard these words of those compassionate sages who had felt kindness for me, and then those brahmins vanished."
+          }
         },
         {
           "n": 24,
-          "text": "सोऽहं परमदुष्कर्मा वसामि निरयेऽशुचौ ।\nसर्पयोनिमिमां प्राप्य कालाकाङ्क्षी महाद्युते ॥"
+          "text": "सोऽहं परमदुष्कर्मा वसामि निरयेऽशुचौ ।\nसर्पयोनिमिमां प्राप्य कालाकाङ्क्षी महाद्युते ॥",
+          "meaning": {
+            "en": "So I, who have done great wickedness, live in this foul hell, having taken on this serpent birth, O radiant one, awaiting the time.\""
+          }
         },
         {
           "n": 25,
-          "text": "तमुवाच महाबाहुर्भीमसेनो भुजंगमम् ।\nन ते कुप्ये महासर्प न चात्मानं विगर्हये ॥"
+          "text": "तमुवाच महाबाहुर्भीमसेनो भुजंगमम् ।\nन ते कुप्ये महासर्प न चात्मानं विगर्हये ॥",
+          "meaning": {
+            "en": "The mighty-armed Bhimasena said to the serpent, \"Great serpent, I am not angry with you, nor do I blame myself."
+          }
         },
         {
           "n": 26,
-          "text": "यस्मादभावी भावी वा मनुष्यः सुखदुःखयोः ।\nआगमे यदि वापाये न तत्र ग्लपयेन्मनः ॥"
+          "text": "यस्मादभावी भावी वा मनुष्यः सुखदुःखयोः ।\nआगमे यदि वापाये न तत्र ग्लपयेन्मनः ॥",
+          "meaning": {
+            "en": "For a man, whether he gains or not, in joy or sorrow, whether it comes or goes, the mind should not be dejected over it."
+          }
         },
         {
           "n": 27,
-          "text": "दैवं पुरुषकारेण को निवर्तितुमर्हति ।\nदैवमेव परं मन्ये पुरुषार्थो निरर्थकः ॥"
+          "text": "दैवं पुरुषकारेण को निवर्तितुमर्हति ।\nदैवमेव परं मन्ये पुरुषार्थो निरर्थकः ॥",
+          "meaning": {
+            "en": "Who can turn back fate by human effort? I think fate alone is supreme, and human exertion is futile."
+          }
         },
         {
           "n": 28,
-          "text": "पश्य दैवोपघाताद्धि भुजवीर्यव्यपाश्रयम् ।\nइमामवस्थां संप्राप्तमनिमित्तमिहाद्य माम् ॥"
+          "text": "पश्य दैवोपघाताद्धि भुजवीर्यव्यपाश्रयम् ।\nइमामवस्थां संप्राप्तमनिमित्तमिहाद्य माम् ॥",
+          "meaning": {
+            "en": "See how, through fate's blow, I who relied on the strength of my arms have come to this state today, for no reason."
+          }
         },
         {
           "n": 29,
-          "text": "किं तु नाद्यानुशोचामि तथात्मानं विनाशितम् ।\nयथा तु विपिने न्यस्तान्भ्रातॄन्राज्यपरिच्युतान् ॥"
+          "text": "किं तु नाद्यानुशोचामि तथात्मानं विनाशितम् ।\nयथा तु विपिने न्यस्तान्भ्रातॄन्राज्यपरिच्युतान् ॥",
+          "meaning": {
+            "en": "But I do not grieve for myself as destroyed so much as for my brothers, left in the wilderness, deprived of their kingdom."
+          }
         },
         {
           "n": 30,
-          "text": "हिमवांश्च सुदुर्गोऽयं यक्षराक्षससंकुलः ।\nमां च ते समुदीक्षन्तः प्रपतिष्यन्ति विह्वलाः ॥"
+          "text": "हिमवांश्च सुदुर्गोऽयं यक्षराक्षससंकुलः ।\nमां च ते समुदीक्षन्तः प्रपतिष्यन्ति विह्वलाः ॥",
+          "meaning": {
+            "en": "This Himalaya is very hard to cross and full of yakshas and rakshasas. Looking for me, they will fall helpless."
+          }
         },
         {
           "n": 31,
-          "text": "विनष्टमथ वा श्रुत्वा भविष्यन्ति निरुद्यमाः ।\nधर्मशीला मया ते हि बाध्यन्ते राज्यगृद्धिना ॥"
+          "text": "विनष्टमथ वा श्रुत्वा भविष्यन्ति निरुद्यमाः ।\nधर्मशीला मया ते हि बाध्यन्ते राज्यगृद्धिना ॥",
+          "meaning": {
+            "en": "Or, hearing I am lost, they will lose all effort, for those lovers of dharma have been troubled by me, greedy for a kingdom."
+          }
         },
         {
           "n": 32,
-          "text": "अथ वा नार्जुनो धीमान्विषादमुपयास्यति ।\nसर्वास्त्रविदनाधृष्यो देवगन्धर्वराक्षसैः ॥"
+          "text": "अथ वा नार्जुनो धीमान्विषादमुपयास्यति ।\nसर्वास्त्रविदनाधृष्यो देवगन्धर्वराक्षसैः ॥",
+          "meaning": {
+            "en": "Or else wise Arjuna will not fall into despair: he knows all weapons and cannot be overcome by gods, gandharvas or rakshasas."
+          }
         },
         {
           "n": 33,
-          "text": "समर्थः स महाबाहुरेकाह्ना सुमहाबलः ।\nदेवराजमपि स्थानात्प्रच्यावयितुमोजसा ॥"
+          "text": "समर्थः स महाबाहुरेकाह्ना सुमहाबलः ।\nदेवराजमपि स्थानात्प्रच्यावयितुमोजसा ॥",
+          "meaning": {
+            "en": "That mighty-armed, very strong one is able in a single day to dislodge even the king of the gods from his place by his power."
+          }
         },
         {
           "n": 34,
-          "text": "किं पुनर्धृतराष्ट्रस्य पुत्रं दुर्द्यूतदेविनम् ।\nविद्विष्टं सर्वलोकस्य दम्भलोभपरायणम् ॥"
+          "text": "किं पुनर्धृतराष्ट्रस्य पुत्रं दुर्द्यूतदेविनम् ।\nविद्विष्टं सर्वलोकस्य दम्भलोभपरायणम् ॥",
+          "meaning": {
+            "en": "How much more Dhritarashtra's son, who gambles badly, hated by the whole world and given to deceit and greed."
+          }
         },
         {
           "n": 35,
-          "text": "मातरं चैव शोचामि कृपणां पुत्रगृद्धिनीम् ।\nयास्माकं नित्यमाशास्ते महत्त्वमधिकं परैः ॥"
+          "text": "मातरं चैव शोचामि कृपणां पुत्रगृद्धिनीम् ।\nयास्माकं नित्यमाशास्ते महत्त्वमधिकं परैः ॥",
+          "meaning": {
+            "en": "And I grieve for my mother, wretched and eager for her sons, who always hopes that we will rise above others."
+          }
         },
         {
           "n": 36,
-          "text": "कथं नु तस्यानाथाया मद्विनाशाद्भुजंगम ।\nअफलास्ते भविष्यन्ति मयि सर्वे मनोरथाः ॥"
+          "text": "कथं नु तस्यानाथाया मद्विनाशाद्भुजंगम ।\nअफलास्ते भविष्यन्ति मयि सर्वे मनोरथाः ॥",
+          "meaning": {
+            "en": "Serpent, with me destroyed, how will all those hopes of that helpless woman for me prove fruitless?"
+          }
         },
         {
           "n": 37,
-          "text": "नकुलः सहदेवश्च यमजौ गुरुवर्तिनौ ।\nमद्बाहुबलसंस्तब्धौ नित्यं पुरुषमानिनौ ॥"
+          "text": "नकुलः सहदेवश्च यमजौ गुरुवर्तिनौ ।\nमद्बाहुबलसंस्तब्धौ नित्यं पुरुषमानिनौ ॥",
+          "meaning": {
+            "en": "Nakula and Sahadeva, the twins, who obey their elders, ever proud as men and sustained by the strength of my arms,"
+          }
         },
         {
           "n": 38,
-          "text": "निरुत्साहौ भविष्येते भ्रष्टवीर्यपराक्रमौ ।\nमद्विनाशात्परिद्यूनाविति मे वर्तते मतिः ॥"
+          "text": "निरुत्साहौ भविष्येते भ्रष्टवीर्यपराक्रमौ ।\nमद्विनाशात्परिद्यूनाविति मे वर्तते मतिः ॥",
+          "meaning": {
+            "en": "will lose heart and lose their vigor and valor, thoroughly stricken by my destruction. So I believe.\""
+          }
         },
         {
           "n": 39,
-          "text": "एवंविधं बहु तदा विललाप वृकोदरः ।\nभुजंगभोगसंरुद्धो नाशकच्च विचेष्टितुम् ॥"
+          "text": "एवंविधं बहु तदा विललाप वृकोदरः ।\nभुजंगभोगसंरुद्धो नाशकच्च विचेष्टितुम् ॥",
+          "meaning": {
+            "en": "In this way and in many others Bhima lamented then, held in the serpent's coils and unable to move."
+          }
         },
         {
           "n": 40,
-          "text": "युधिष्ठिरस्तु कौन्तेय बभूवास्वस्थचेतनः ।\nअनिष्टदर्शनान्घोरानुत्पातान्परिचिन्तयन् ॥"
+          "text": "युधिष्ठिरस्तु कौन्तेय बभूवास्वस्थचेतनः ।\nअनिष्टदर्शनान्घोरानुत्पातान्परिचिन्तयन् ॥",
+          "meaning": {
+            "en": "But Yudhishthira, son of Kunti, became uneasy in mind, thinking of terrible portents with ill omens."
+          }
         },
         {
           "n": 41,
-          "text": "दारुणं ह्यशिवं नादं शिवा दक्षिणतः स्थिता ।\nदीप्तायां दिशि वित्रस्ता रौति तस्याश्रमस्य ह ॥"
+          "text": "दारुणं ह्यशिवं नादं शिवा दक्षिणतः स्थिता ।\nदीप्तायां दिशि वित्रस्ता रौति तस्याश्रमस्य ह ॥",
+          "meaning": {
+            "en": "A she-jackal stood to the right and cried a dreadful, unlucky cry from the blazing quarter, frightened, at his hermitage."
+          }
         },
         {
           "n": 42,
-          "text": "एकपक्षाक्षिचरणा वर्तिका घोरदर्शना ।\nरुधिरं वमन्ती ददृशे प्रत्यादित्यमपस्वरा ॥"
+          "text": "एकपक्षाक्षिचरणा वर्तिका घोरदर्शना ।\nरुधिरं वमन्ती ददृशे प्रत्यादित्यमपस्वरा ॥",
+          "meaning": {
+            "en": "A quail with one wing, one eye and one foot, of dreadful look, was seen vomiting blood, shrieking, facing the sun."
+          }
         },
         {
           "n": 43,
-          "text": "प्रववावनिलो रूक्षश्चण्डः शर्करकर्षणः ।\nअपसव्यानि सर्वाणि मृगपक्षिरुतानि च ॥"
+          "text": "प्रववावनिलो रूक्षश्चण्डः शर्करकर्षणः ।\nअपसव्यानि सर्वाणि मृगपक्षिरुतानि च ॥",
+          "meaning": {
+            "en": "A rough, fierce wind blew, dragging gravel, and the cries of all beasts and birds were on the wrong side."
+          }
         },
         {
           "n": 44,
-          "text": "पृष्ठतो वायसः कृष्णो याहि याहीति वाशति ।\nमुहुर्मुहुः प्रस्फुरति दक्षिणोऽस्य भुजस्तथा ॥"
+          "text": "पृष्ठतो वायसः कृष्णो याहि याहीति वाशति ।\nमुहुर्मुहुः प्रस्फुरति दक्षिणोऽस्य भुजस्तथा ॥",
+          "meaning": {
+            "en": "Behind him a black crow cried, \"Go, go,\" and his right arm kept throbbing again and again."
+          }
         },
         {
           "n": 45,
-          "text": "हृदयं चरणश्चापि वामोऽस्य परिवर्तते ।\nसव्यस्याक्ष्णो विकारश्चाप्यनिष्टः समपद्यत ॥"
+          "text": "हृदयं चरणश्चापि वामोऽस्य परिवर्तते ।\nसव्यस्याक्ष्णो विकारश्चाप्यनिष्टः समपद्यत ॥",
+          "meaning": {
+            "en": "His heart and left foot also twitched, and an ominous disturbance arose in his left eye."
+          }
         },
         {
           "n": 46,
-          "text": "स धर्मराजो मेधावी शङ्कमानो महद्भयम् ।\nद्रौपदीं परिपप्रच्छ क्व भीम इति भारत ॥"
+          "text": "स धर्मराजो मेधावी शङ्कमानो महद्भयम् ।\nद्रौपदीं परिपप्रच्छ क्व भीम इति भारत ॥",
+          "meaning": {
+            "en": "The wise king of dharma, suspecting a great danger, asked Draupadi, \"Where is Bhima?\" O Bharata."
+          }
         },
         {
           "n": 47,
-          "text": "शशंस तस्मै पाञ्चाली चिरयातं वृकोदरम् ।\nस प्रतस्थे महाबाहुर्धौम्येन सहितो नृपः ॥"
+          "text": "शशंस तस्मै पाञ्चाली चिरयातं वृकोदरम् ।\nस प्रतस्थे महाबाहुर्धौम्येन सहितो नृपः ॥",
+          "meaning": {
+            "en": "Panchali told him that Bhima had been gone a long time. The mighty-armed king set out with Dhaumya."
+          }
         },
         {
           "n": 48,
-          "text": "द्रौपद्या रक्षणं कार्यमित्युवाच धनंजयम् ।\nनकुलं सहदेवं च व्यादिदेश द्विजान्प्रति ॥"
+          "text": "द्रौपद्या रक्षणं कार्यमित्युवाच धनंजयम् ।\nनकुलं सहदेवं च व्यादिदेश द्विजान्प्रति ॥",
+          "meaning": {
+            "en": "He told Dhananjaya, \"Draupadi must be guarded,\" and he charged Nakula and Sahadeva to look after the brahmins."
+          }
         },
         {
           "n": 49,
-          "text": "स तस्य पदमुन्नीय तस्मादेवाश्रमात्प्रभुः ।\nददर्श पृथिवीं चिह्नैर्भीमस्य परिचिह्निताम् ॥"
+          "text": "स तस्य पदमुन्नीय तस्मादेवाश्रमात्प्रभुः ।\nददर्श पृथिवीं चिह्नैर्भीमस्य परिचिह्निताम् ॥",
+          "meaning": {
+            "en": "The lord traced Bhima's footprints from that same hermitage and saw the earth marked with his signs."
+          }
         },
         {
           "n": 50,
-          "text": "धावतस्तस्य वीरस्य मृगार्थे वातरंहसः ।\nऊरुवातविनिर्भग्नान्द्रुमान्व्यावर्जितान्पथि ॥"
+          "text": "धावतस्तस्य वीरस्य मृगार्थे वातरंहसः ।\nऊरुवातविनिर्भग्नान्द्रुमान्व्यावर्जितान्पथि ॥",
+          "meaning": {
+            "en": "He saw trees along the path broken and bent aside by the wind of the thighs of that hero, running swiftly as the wind after game."
+          }
         },
         {
           "n": 51,
-          "text": "स गत्वा तैस्तदा चिह्नैर्ददर्श गिरिगह्वरे ।\nगृहीतं भुजगेन्द्रेण निश्चेष्टमनुजं तथा ॥"
+          "text": "स गत्वा तैस्तदा चिह्नैर्ददर्श गिरिगह्वरे ।\nगृहीतं भुजगेन्द्रेण निश्चेष्टमनुजं तथा ॥",
+          "meaning": {
+            "en": "Following those signs he then saw, in a mountain cleft, his younger brother seized by the king of serpents and lying motionless."
+          }
         }
       ]
     }

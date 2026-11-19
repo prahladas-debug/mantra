@@ -22,116 +22,206 @@
       "titleEn": "Vaivahika Parva (The wedding)",
       "verses": [
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 1,
-          "text": "ततस्ते पाण्डवाः सर्वे पाञ्चाल्यश्च महायशाः ।\nप्रत्युत्थाय महात्मानं कृष्णं दृष्ट्वाभ्यपूजयन् ॥"
+          "text": "ततस्ते पाण्डवाः सर्वे पाञ्चाल्यश्च महायशाः ।\nप्रत्युत्थाय महात्मानं कृष्णं दृष्ट्वाभ्यपूजयन् ॥",
+          "meaning": {
+            "en": "Then all the Pandavas and the greatly renowned Panchala king rose, saw the great-souled Krishna Dvaipayana, and honoured him."
+          }
         },
         {
           "n": 2,
-          "text": "प्रतिनन्द्य स तान्सर्वान्पृष्ट्वा कुशलमन्ततः ।\nआसने काञ्चने शुभ्रे निषसाद महामनाः ॥"
+          "text": "प्रतिनन्द्य स तान्सर्वान्पृष्ट्वा कुशलमन्ततः ।\nआसने काञ्चने शुभ्रे निषसाद महामनाः ॥",
+          "meaning": {
+            "en": "Greeting them all and finally asking after their welfare, the great-minded sage sat on a bright golden seat."
+          }
         },
         {
           "n": 3,
-          "text": "अनुज्ञातास्तु ते सर्वे कृष्णेनामिततेजसा ।\nआसनेषु महार्हेषु निषेदुर्द्विपदां वराः ॥"
+          "text": "अनुज्ञातास्तु ते सर्वे कृष्णेनामिततेजसा ।\nआसनेषु महार्हेषु निषेदुर्द्विपदां वराः ॥",
+          "meaning": {
+            "en": "With the leave of the immeasurably radiant Krishna Dvaipayana, all those best of men sat on their costly seats."
+          }
         },
         {
           "n": 4,
-          "text": "ततो मुहूर्तान्मधुरां वाणीमुच्चार्य पार्षतः ।\nपप्रच्छ तं महात्मानं द्रौपद्यर्थे विशां पतिः ॥"
+          "text": "ततो मुहूर्तान्मधुरां वाणीमुच्चार्य पार्षतः ।\nपप्रच्छ तं महात्मानं द्रौपद्यर्थे विशां पतिः ॥",
+          "meaning": {
+            "en": "After a moment, the lord of the people, Drupada's son, in a sweet voice, asked the great sage about Draupadi:"
+          }
         },
         {
           "n": 5,
-          "text": "कथमेका बहूनां स्यान्न च स्याद्धर्मसंकरः ।\nएतन्नो भगवान्सर्वं प्रब्रवीतु यथातथम् ॥"
+          "text": "कथमेका बहूनां स्यान्न च स्याद्धर्मसंकरः ।\nएतन्नो भगवान्सर्वं प्रब्रवीतु यथातथम् ॥",
+          "meaning": {
+            "en": "Dhrishtadyumna said: How can one woman belong to many men without a mixing of dharma? Let the venerable one tell us all this exactly as it is."
+          }
         },
         {
-          "text": "व्यास उवाच"
+          "text": "व्यास उवाच",
+          "meaning": {
+            "en": "Vyasa said:"
+          }
         },
         {
           "n": 6,
-          "text": "अस्मिन्धर्मे विप्रलम्भे लोकवेदविरोधके ।\nयस्य यस्य मतं यद्यच्छ्रोतुमिच्छामि तस्य तत् ॥"
+          "text": "अस्मिन्धर्मे विप्रलम्भे लोकवेदविरोधके ।\nयस्य यस्य मतं यद्यच्छ्रोतुमिच्छामि तस्य तत् ॥",
+          "meaning": {
+            "en": "In this matter of dharma, which is deceptive and seems to contradict the world and the Veda, I wish to hear what each of you thinks."
+          }
         },
         {
-          "text": "द्रुपद उवाच"
+          "text": "द्रुपद उवाच",
+          "meaning": {
+            "en": "Drupada said:"
+          }
         },
         {
           "n": 7,
-          "text": "अधर्मोऽयं मम मतो विरुद्धो लोकवेदयोः ।\nन ह्येका विद्यते पत्नी बहूनां द्विजसत्तम ॥"
+          "text": "अधर्मोऽयं मम मतो विरुद्धो लोकवेदयोः ।\nन ह्येका विद्यते पत्नी बहूनां द्विजसत्तम ॥",
+          "meaning": {
+            "en": "I consider this unrighteous, contrary to both the world and the Veda. Best of Brahmins, one wife for many men does not exist."
+          }
         },
         {
           "n": 8,
-          "text": "न चाप्याचरितः पूर्वैरयं धर्मो महात्मभिः ।\nन च धर्मोऽप्यनेकस्थश्चरितव्यः सनातनः ॥"
+          "text": "न चाप्याचरितः पूर्वैरयं धर्मो महात्मभिः ।\nन च धर्मोऽप्यनेकस्थश्चरितव्यः सनातनः ॥",
+          "meaning": {
+            "en": "This practice was never followed by the great-souled ancients, and an eternal dharma should not be practised by many."
+          }
         },
         {
           "n": 9,
-          "text": "अतो नाहं करोम्येवं व्यवसायं क्रियां प्रति ।\nधर्मसंदेहसंदिग्धं प्रतिभाति हि मामिदम् ॥"
+          "text": "अतो नाहं करोम्येवं व्यवसायं क्रियां प्रति ।\nधर्मसंदेहसंदिग्धं प्रतिभाति हि मामिदम् ॥",
+          "meaning": {
+            "en": "So I will not decide to do this; it strikes me as clouded with doubt about dharma."
+          }
         },
         {
-          "text": "धृष्टद्युम्न उवाच"
+          "text": "धृष्टद्युम्न उवाच",
+          "meaning": {
+            "en": "Dhrishtadyumna said:"
+          }
         },
         {
           "n": 10,
-          "text": "यवीयसः कथं भार्यां ज्येष्ठो भ्राता द्विजर्षभ ।\nब्रह्मन्समभिवर्तेत सद्वृत्तः संस्तपोधन ॥"
+          "text": "यवीयसः कथं भार्यां ज्येष्ठो भ्राता द्विजर्षभ ।\nब्रह्मन्समभिवर्तेत सद्वृत्तः संस्तपोधन ॥",
+          "meaning": {
+            "en": "Brahmin, ascetic, how can an elder brother of good conduct have relations with the wife of a younger brother?"
+          }
         },
         {
           "n": 11,
-          "text": "न तु धर्मस्य सूक्ष्मत्वाद्गतिं विद्मः कथंचन ।\nअधर्मो धर्म इति वा व्यवसायो न शक्यते ॥"
+          "text": "न तु धर्मस्य सूक्ष्मत्वाद्गतिं विद्मः कथंचन ।\nअधर्मो धर्म इति वा व्यवसायो न शक्यते ॥",
+          "meaning": {
+            "en": "Because dharma is subtle, we cannot know its course at all; no decision can be made whether it is dharma or adharma."
+          }
         },
         {
           "n": 12,
-          "text": "कर्तुमस्मद्विधैर्ब्रह्मंस्ततो न व्यवसाम्यहम् ।\nपञ्चानां महिषी कृष्णा भवत्विति कथंचन ॥"
+          "text": "कर्तुमस्मद्विधैर्ब्रह्मंस्ततो न व्यवसाम्यहम् ।\nपञ्चानां महिषी कृष्णा भवत्विति कथंचन ॥",
+          "meaning": {
+            "en": "So, Brahmin, men like us cannot decide that Krishna should be queen of five, in any way."
+          }
         },
         {
-          "text": "युधिष्ठिर उवाच"
+          "text": "युधिष्ठिर उवाच",
+          "meaning": {
+            "en": "Yudhishthira said:"
+          }
         },
         {
           "n": 13,
-          "text": "न मे वागनृतं प्राह नाधर्मे धीयते मतिः ।\nवर्तते हि मनो मेऽत्र नैषोऽधर्मः कथंचन ॥"
+          "text": "न मे वागनृतं प्राह नाधर्मे धीयते मतिः ।\nवर्तते हि मनो मेऽत्र नैषोऽधर्मः कथंचन ॥",
+          "meaning": {
+            "en": "My speech does not utter falsehood, and my mind is not set on unrighteousness. My mind inclines to this, and this is not adharma in any way."
+          }
         },
         {
           "n": 14,
-          "text": "श्रूयते हि पुराणेऽपि जटिला नाम गौतमी ।\nऋषीनध्यासितवती सप्त धर्मभृतां वर ॥"
+          "text": "श्रूयते हि पुराणेऽपि जटिला नाम गौतमी ।\nऋषीनध्यासितवती सप्त धर्मभृतां वर ॥",
+          "meaning": {
+            "en": "It is heard even in the Purana that Jatila of the Gautama line had to do with seven sages, best of the upholders of dharma."
+          }
         },
         {
           "n": 15,
-          "text": "गुरोश्च वचनं प्राहुर्धर्मं धर्मज्ञसत्तम ।\nगुरूणां चैव सर्वेषां जनित्री परमो गुरुः ॥"
+          "text": "गुरोश्च वचनं प्राहुर्धर्मं धर्मज्ञसत्तम ।\nगुरूणां चैव सर्वेषां जनित्री परमो गुरुः ॥",
+          "meaning": {
+            "en": "And they say the word of a teacher is dharma, best knower of dharma; and of all teachers the mother is the highest."
+          }
         },
         {
           "n": 16,
-          "text": "सा चाप्युक्तवती वाचं भैक्षवद्भुज्यतामिति ।\nतस्मादेतदहं मन्ये धर्मं द्विजवरोत्तम ॥"
+          "text": "सा चाप्युक्तवती वाचं भैक्षवद्भुज्यतामिति ।\nतस्मादेतदहं मन्ये धर्मं द्विजवरोत्तम ॥",
+          "meaning": {
+            "en": "She too said, 'Enjoy it as you do alms.' Therefore I hold this to be dharma, best of Brahmins."
+          }
         },
         {
-          "text": "कुन्त्युवाच"
+          "text": "कुन्त्युवाच",
+          "meaning": {
+            "en": "Kunti said:"
+          }
         },
         {
           "n": 17,
-          "text": "एवमेतद्यथाहायं धर्मचारी युधिष्ठिरः ।\nअनृतान्मे भयं तीव्रं मुच्येयमनृतात्कथम् ॥"
+          "text": "एवमेतद्यथाहायं धर्मचारी युधिष्ठिरः ।\nअनृतान्मे भयं तीव्रं मुच्येयमनृतात्कथम् ॥",
+          "meaning": {
+            "en": "It is just as Yudhishthira, who practises dharma, says. I have a sharp fear of falsehood; how am I to be freed from falsehood?"
+          }
         },
         {
-          "text": "व्यास उवाच"
+          "text": "व्यास उवाच",
+          "meaning": {
+            "en": "Vyasa said:"
+          }
         },
         {
           "n": 18,
-          "text": "अनृतान्मोक्ष्यसे भद्रे धर्मश्चैष सनातनः ।\nन तु वक्ष्यामि सर्वेषां पाञ्चाल शृणु मे स्वयम् ॥"
+          "text": "अनृतान्मोक्ष्यसे भद्रे धर्मश्चैष सनातनः ।\nन तु वक्ष्यामि सर्वेषां पाञ्चाल शृणु मे स्वयम् ॥",
+          "meaning": {
+            "en": "You will be freed from falsehood, good lady, and this is eternal dharma. But I will not say it before all; Panchala, hear it from me yourself."
+          }
         },
         {
           "n": 19,
-          "text": "यथायं विहितो धर्मो यतश्चायं सनातनः ।\nयथा च प्राह कौन्तेयस्तथा धर्मो न संशयः ॥"
+          "text": "यथायं विहितो धर्मो यतश्चायं सनातनः ।\nयथा च प्राह कौन्तेयस्तथा धर्मो न संशयः ॥",
+          "meaning": {
+            "en": "How this dharma was ordained and why it is eternal, and as the son of Kunti says, so it is dharma, without doubt."
+          }
         },
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 20,
-          "text": "तत उत्थाय भगवान्व्यासो द्वैपायनः प्रभुः ।\nकरे गृहीत्वा राजानं राजवेश्म समाविशत् ॥"
+          "text": "तत उत्थाय भगवान्व्यासो द्वैपायनः प्रभुः ।\nकरे गृहीत्वा राजानं राजवेश्म समाविशत् ॥",
+          "meaning": {
+            "en": "Then the venerable Vyasa Dvaipayana, the lord, rose, took the king by the hand and entered the royal chamber."
+          }
         },
         {
           "n": 21,
-          "text": "पाण्डवाश्चापि कुन्ती च धृष्टद्युम्नश्च पार्षतः ।\nविचेतसस्ते तत्रैव प्रतीक्षन्ते स्म तावुभौ ॥"
+          "text": "पाण्डवाश्चापि कुन्ती च धृष्टद्युम्नश्च पार्षतः ।\nविचेतसस्ते तत्रैव प्रतीक्षन्ते स्म तावुभौ ॥",
+          "meaning": {
+            "en": "The Pandavas, Kunti and Dhrishtadyumna, son of Prishata, in confusion, waited there for those two."
+          }
         },
         {
           "n": 22,
-          "text": "ततो द्वैपायनस्तस्मै नरेन्द्राय महात्मने ।\nआचख्यौ तद्यथा धर्मो बहूनामेकपत्निता ॥"
+          "text": "ततो द्वैपायनस्तस्मै नरेन्द्राय महात्मने ।\nआचख्यौ तद्यथा धर्मो बहूनामेकपत्निता ॥",
+          "meaning": {
+            "en": "Then Dvaipayana explained to that great-souled king how it is dharma for many to have one wife."
+          }
         }
       ]
     }

@@ -22,98 +22,170 @@
       "titleEn": "Kairata Parva (The mountain hunter)",
       "verses": [
         {
-          "text": "युधिष्ठिर उवाच"
+          "text": "युधिष्ठिर उवाच",
+          "meaning": {
+            "en": "Yudhishthira said:"
+          }
         },
         {
           "n": 1,
-          "text": "असांनिध्यं कथं कृष्ण तवासीद्वृष्णिनन्दन ।\nक्व चासीद्विप्रवासस्ते किं वाकार्षीः प्रवासकः ॥"
+          "text": "असांनिध्यं कथं कृष्ण तवासीद्वृष्णिनन्दन ।\nक्व चासीद्विप्रवासस्ते किं वाकार्षीः प्रवासकः ॥",
+          "meaning": {
+            "en": "Krishna, joy of the Vrishnis, how were you absent? Where did you stay away, and what did you do while abroad?"
+          }
         },
         {
-          "text": "कृष्ण उवाच"
+          "text": "कृष्ण उवाच",
+          "meaning": {
+            "en": "Krishna said:"
+          }
         },
         {
           "n": 2,
-          "text": "शाल्वस्य नगरं सौभं गतोऽहं भरतर्षभ ।\nविनिहन्तुं नरश्रेष्ठ तत्र मे शृणु कारणम् ॥"
+          "text": "शाल्वस्य नगरं सौभं गतोऽहं भरतर्षभ ।\nविनिहन्तुं नरश्रेष्ठ तत्र मे शृणु कारणम् ॥",
+          "meaning": {
+            "en": "Bull of the Bharatas, I had gone to Shalva's city Saubha to destroy him. Hear, best of men, my reason."
+          }
         },
         {
           "n": 3,
-          "text": "महातेजा महाबाहुर्यः स राजा महायशाः ।\nदमघोषात्मजो वीरः शिशुपालो मया हतः ॥"
+          "text": "महातेजा महाबाहुर्यः स राजा महायशाः ।\nदमघोषात्मजो वीरः शिशुपालो मया हतः ॥",
+          "meaning": {
+            "en": "That mighty-armed, glorious king, heroic Shishupala, son of Damaghosha, of great energy, was killed by me."
+          }
         },
         {
           "n": 4,
-          "text": "यज्ञे ते भरतश्रेष्ठ राजसूयेऽर्हणां प्रति ।\nस रोषवशसंप्राप्तो नामृष्यत दुरात्मवान् ॥"
+          "text": "यज्ञे ते भरतश्रेष्ठ राजसूयेऽर्हणां प्रति ।\nस रोषवशसंप्राप्तो नामृष्यत दुरात्मवान् ॥",
+          "meaning": {
+            "en": "At your Rajasuya sacrifice, bull of the Bharatas, over the offering of honor, that wicked man, overcome by rage, could not bear it."
+          }
         },
         {
           "n": 5,
-          "text": "श्रुत्वा तं निहतं शाल्वस्तीव्ररोषसमन्वितः ।\nउपायाद्द्वारकां शून्यामिहस्थे मयि भारत ॥"
+          "text": "श्रुत्वा तं निहतं शाल्वस्तीव्ररोषसमन्वितः ।\nउपायाद्द्वारकां शून्यामिहस्थे मयि भारत ॥",
+          "meaning": {
+            "en": "Hearing that he was killed, Shalva, filled with fierce anger, came to empty Dvaraka while I was here, descendant of Bharata."
+          }
         },
         {
           "n": 6,
-          "text": "स तत्र योधितो राजन्बालकैर्वृष्णिपुंगवैः ।\nआगतः कामगं सौभमारुह्यैव नृशंसकृत् ॥"
+          "text": "स तत्र योधितो राजन्बालकैर्वृष्णिपुंगवैः ।\nआगतः कामगं सौभमारुह्यैव नृशंसकृत् ॥",
+          "meaning": {
+            "en": "There, king, he was fought by the young Vrishni bulls; the cruel one had come mounted on Saubha, which moves at will."
+          }
         },
         {
           "n": 7,
-          "text": "ततो वृष्णिप्रवीरांस्तान्बालान्हत्वा बहूंस्तदा ।\nपुरोद्यानानि सर्वाणि भेदयामास दुर्मतिः ॥"
+          "text": "ततो वृष्णिप्रवीरांस्तान्बालान्हत्वा बहूंस्तदा ।\nपुरोद्यानानि सर्वाणि भेदयामास दुर्मतिः ॥",
+          "meaning": {
+            "en": "Then that evil-minded man, having killed many of the young Vrishni heroes, destroyed all the city gardens."
+          }
         },
         {
           "n": 8,
-          "text": "उक्तवांश्च महाबाहो क्वासौ वृष्णिकुलाधमः ।\nवासुदेवः सुमन्दात्मा वसुदेवसुतो गतः ॥"
+          "text": "उक्तवांश्च महाबाहो क्वासौ वृष्णिकुलाधमः ।\nवासुदेवः सुमन्दात्मा वसुदेवसुतो गतः ॥",
+          "meaning": {
+            "en": "And he said, \"Where is that lowest of the Vrishni line, the dull-minded Vasudeva, son of Vasudeva? Mighty-armed ones, where has he gone?\""
+          }
         },
         {
           "n": 9,
-          "text": "तस्य युद्धार्थिनो दर्पं युद्धे नाशयितास्म्यहम् ।\nआनर्ताः सत्यमाख्यात तत्र गन्तास्मि यत्र सः ॥"
+          "text": "तस्य युद्धार्थिनो दर्पं युद्धे नाशयितास्म्यहम् ।\nआनर्ताः सत्यमाख्यात तत्र गन्तास्मि यत्र सः ॥",
+          "meaning": {
+            "en": "\"I will destroy in battle the pride of one who wants to fight. Anartas, tell me truly: I will go where he is.\""
+          }
         },
         {
           "n": 10,
-          "text": "तं हत्वा विनिवर्तिष्ये कंसकेशिनिषूदनम् ।\nअहत्वा न निवर्तिष्ये सत्येनायुधमालभे ॥"
+          "text": "तं हत्वा विनिवर्तिष्ये कंसकेशिनिषूदनम् ।\nअहत्वा न निवर्तिष्ये सत्येनायुधमालभे ॥",
+          "meaning": {
+            "en": "\"I will return after killing him, the slayer of Kamsa and Keshin; without killing him I will not return. I touch my weapon on this oath.\""
+          }
         },
         {
           "n": 11,
-          "text": "क्वासौ क्वासाविति पुनस्तत्र तत्र विधावति ।\nमया किल रणे युद्धं काङ्क्षमाणः स सौभराट् ॥"
+          "text": "क्वासौ क्वासाविति पुनस्तत्र तत्र विधावति ।\nमया किल रणे युद्धं काङ्क्षमाणः स सौभराट् ॥",
+          "meaning": {
+            "en": "Again and again he ran here and there, \"Where is he, where?\", that king of Saubha, wishing to fight me in battle."
+          }
         },
         {
           "n": 12,
-          "text": "अद्य तं पापकर्माणं क्षुद्रं विश्वासघातिनम् ।\nशिशुपालवधामर्षाद्गमयिष्ये यमक्षयम् ॥"
+          "text": "अद्य तं पापकर्माणं क्षुद्रं विश्वासघातिनम् ।\nशिशुपालवधामर्षाद्गमयिष्ये यमक्षयम् ॥",
+          "meaning": {
+            "en": "\"Today, in anger at Shishupala's killing, I will send that sinful, petty traitor to Yama's abode.\""
+          }
         },
         {
           "n": 13,
-          "text": "मम पापस्वभावेन भ्राता येन निपातितः ।\nशिशुपालो महीपालस्तं वधिष्ये महीतले ॥"
+          "text": "मम पापस्वभावेन भ्राता येन निपातितः ।\nशिशुपालो महीपालस्तं वधिष्ये महीतले ॥",
+          "meaning": {
+            "en": "\"I will kill on the ground that Shishupala, king of the earth, my brother, who was struck down by his sinful nature.\""
+          }
         },
         {
           "n": 14,
-          "text": "भ्राता बालश्च राजा च न च संग्राममूर्धनि ।\nप्रमत्तश्च हतो वीरस्तं हनिष्ये जनार्दनम् ॥"
+          "text": "भ्राता बालश्च राजा च न च संग्राममूर्धनि ।\nप्रमत्तश्च हतो वीरस्तं हनिष्ये जनार्दनम् ॥",
+          "meaning": {
+            "en": "\"Brother, a boy and a king, was killed not at the head of a battle but while unwary; I will kill that Janardana.\""
+          }
         },
         {
           "n": 15,
-          "text": "एवमादि महाराज विलप्य दिवमास्थितः ।\nकामगेन स सौभेन क्षिप्त्वा मां कुरुनन्दन ॥"
+          "text": "एवमादि महाराज विलप्य दिवमास्थितः ।\nकामगेन स सौभेन क्षिप्त्वा मां कुरुनन्दन ॥",
+          "meaning": {
+            "en": "Lamenting thus and more, great king, he rose into the sky, and, having struck at me, joy of the Kurus, went off on his Saubha that goes where it wills."
+          }
         },
         {
           "n": 16,
-          "text": "तमश्रौषमहं गत्वा यथा वृत्तः सुदुर्मतिः ।\nमयि कौरव्य दुष्टात्मा मार्त्तिकावतको नृपः ॥"
+          "text": "तमश्रौषमहं गत्वा यथा वृत्तः सुदुर्मतिः ।\nमयि कौरव्य दुष्टात्मा मार्त्तिकावतको नृपः ॥",
+          "meaning": {
+            "en": "I went and heard how that very evil-minded king of Martikavata had acted against me, descendant of Kuru."
+          }
         },
         {
           "n": 17,
-          "text": "ततोऽहमपि कौरव्य रोषव्याकुललोचनः ।\nनिश्चित्य मनसा राजन्वधायास्य मनो दधे ॥"
+          "text": "ततोऽहमपि कौरव्य रोषव्याकुललोचनः ।\nनिश्चित्य मनसा राजन्वधायास्य मनो दधे ॥",
+          "meaning": {
+            "en": "Then I too, Kauravya, with eyes agitated by anger, made up my mind and set my heart on killing him."
+          }
         },
         {
           "n": 18,
-          "text": "आनर्तेषु विमर्दं च क्षेपं चात्मनि कौरव ।\nप्रवृद्धमवलेपं च तस्य दुष्कृतकर्मणः ॥"
+          "text": "आनर्तेषु विमर्दं च क्षेपं चात्मनि कौरव ।\nप्रवृद्धमवलेपं च तस्य दुष्कृतकर्मणः ॥",
+          "meaning": {
+            "en": "I considered the havoc among the Anartas, the insult to me, and the growing arrogance of that evil-doer."
+          }
         },
         {
           "n": 19,
-          "text": "ततः सौभवधायाहं प्रतस्थे पृथिवीपते ।\nस मया सागरावर्ते दृष्ट आसीत्परीप्सता ॥"
+          "text": "ततः सौभवधायाहं प्रतस्थे पृथिवीपते ।\nस मया सागरावर्ते दृष्ट आसीत्परीप्सता ॥",
+          "meaning": {
+            "en": "Then, lord of earth, I set out to destroy Saubha. I saw him in the whirlpool of the sea, as I sought him."
+          }
         },
         {
           "n": 20,
-          "text": "ततः प्रध्माप्य जलजं पाञ्चजन्यमहं नृप ।\nआहूय शाल्वं समरे युद्धाय समवस्थितः ॥"
+          "text": "ततः प्रध्माप्य जलजं पाञ्चजन्यमहं नृप ।\nआहूय शाल्वं समरे युद्धाय समवस्थितः ॥",
+          "meaning": {
+            "en": "Then, king, blowing my conch Panchajanya, I challenged Shalva and stood ready for battle."
+          }
         },
         {
           "n": 21,
-          "text": "सुमुहूर्तमभूद्युद्धं तत्र मे दानवैः सह ।\nवशीभूताश्च मे सर्वे भूतले च निपातिताः ॥"
+          "text": "सुमुहूर्तमभूद्युद्धं तत्र मे दानवैः सह ।\nवशीभूताश्च मे सर्वे भूतले च निपातिताः ॥",
+          "meaning": {
+            "en": "A very good while the fight went on there between me and the Danavas, and all of them were brought under my power and felled to the ground."
+          }
         },
         {
           "n": 22,
-          "text": "एतत्कार्यं महाबाहो येनाहं नागमं तदा ।\nश्रुत्वैव हास्तिनपुरं द्यूतं चाविनयोत्थितम् ॥"
+          "text": "एतत्कार्यं महाबाहो येनाहं नागमं तदा ।\nश्रुत्वैव हास्तिनपुरं द्यूतं चाविनयोत्थितम् ॥",
+          "meaning": {
+            "en": "This was the matter, mighty-armed one, for which I did not come then, since I heard of Hastinapura and the dice game arisen from a lack of restraint."
+          }
         }
       ]
     }

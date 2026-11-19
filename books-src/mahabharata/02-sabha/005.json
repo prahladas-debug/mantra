@@ -22,492 +22,864 @@
       "titleEn": "Sabha Parva (The assembly hall)",
       "verses": [
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 1,
-          "text": "तथा तत्रोपविष्टेषु पाण्डवेषु महात्मसु ।\nमहत्सु चोपविष्टेषु गन्धर्वेषु च भारत ॥"
+          "text": "तथा तत्रोपविष्टेषु पाण्डवेषु महात्मसु ।\nमहत्सु चोपविष्टेषु गन्धर्वेषु च भारत ॥",
+          "meaning": {
+            "en": "While the great Pandavas and the great Gandharvas were seated there, O Bharata,"
+          }
         },
         {
           "n": 2,
-          "text": "लोकाननुचरन्सर्वानागमत्तां सभामृषिः ।\nनारदः सुमहातेजा ऋषिभिः सहितस्तदा ॥"
+          "text": "लोकाननुचरन्सर्वानागमत्तां सभामृषिः ।\nनारदः सुमहातेजा ऋषिभिः सहितस्तदा ॥",
+          "meaning": {
+            "en": "the sage Narada, of great splendor, who wanders through all the worlds, came to that hall together with other sages."
+          }
         },
         {
           "n": 3,
-          "text": "पारिजातेन राजेन्द्र रैवतेन च धीमता ।\nसुमुखेन च सौम्येन देवर्षिरमितद्युतिः ।\nसभास्थान्पाण्डवान्द्रष्टुं प्रीयमाणो मनोजवः ॥"
+          "text": "पारिजातेन राजेन्द्र रैवतेन च धीमता ।\nसुमुखेन च सौम्येन देवर्षिरमितद्युतिः ।\nसभास्थान्पाण्डवान्द्रष्टुं प्रीयमाणो मनोजवः ॥",
+          "meaning": {
+            "en": "With Parijata, the wise Raivata and the gentle Sumukha, the divine seer of boundless radiance, swift as thought, came glad to see the Pandavas in the hall."
+          }
         },
         {
           "n": 4,
-          "text": "तमागतमृषिं दृष्ट्वा नारदं सर्वधर्मवित् ।\nसहसा पाण्डवश्रेष्ठः प्रत्युत्थायानुजैः सह ।\nअभ्यवादयत प्रीत्या विनयावनतस्तदा ॥"
+          "text": "तमागतमृषिं दृष्ट्वा नारदं सर्वधर्मवित् ।\nसहसा पाण्डवश्रेष्ठः प्रत्युत्थायानुजैः सह ।\nअभ्यवादयत प्रीत्या विनयावनतस्तदा ॥",
+          "meaning": {
+            "en": "Seeing the seer Narada arrive, the best of the Pandavas, who knew all dharma, rose at once with his brothers and greeted him lovingly, bowing in humility."
+          }
         },
         {
           "n": 5,
-          "text": "तदर्हमासनं तस्मै संप्रदाय यथाविधि ।\nअर्चयामास रत्नैश्च सर्वकामैश्च धर्मवित् ॥"
+          "text": "तदर्हमासनं तस्मै संप्रदाय यथाविधि ।\nअर्चयामास रत्नैश्च सर्वकामैश्च धर्मवित् ॥",
+          "meaning": {
+            "en": "The knower of dharma gave him a fitting seat according to rule and honored him with jewels and every desired thing."
+          }
         },
         {
           "n": 6,
-          "text": "सोऽर्चितः पाण्डवैः सर्वैर्महर्षिर्वेदपारगः ।\nधर्मकामार्थसंयुक्तं पप्रच्छेदं युधिष्ठिरम् ॥"
+          "text": "सोऽर्चितः पाण्डवैः सर्वैर्महर्षिर्वेदपारगः ।\nधर्मकामार्थसंयुक्तं पप्रच्छेदं युधिष्ठिरम् ॥",
+          "meaning": {
+            "en": "Honored by all the Pandavas, the great seer, master of the Vedas, then questioned Yudhishthira about matters of dharma, wealth and desire."
+          }
         },
         {
-          "text": "नारद उवाच"
+          "text": "नारद उवाच",
+          "meaning": {
+            "en": "Narada said:"
+          }
         },
         {
           "n": 7,
-          "text": "कच्चिदर्थाश्च कल्पन्ते धर्मे च रमते मनः ।\nसुखानि चानुभूयन्ते मनश्च न विहन्यते ॥"
+          "text": "कच्चिदर्थाश्च कल्पन्ते धर्मे च रमते मनः ।\nसुखानि चानुभूयन्ते मनश्च न विहन्यते ॥",
+          "meaning": {
+            "en": "Do your resources suffice, and does your mind delight in dharma? Do you enjoy pleasures, and is your mind unbroken?"
+          }
         },
         {
           "n": 8,
-          "text": "कच्चिदाचरितां पूर्वैर्नरदेव पितामहैः ।\nवर्तसे वृत्तिमक्षीणां धर्मार्थसहितां नृषु ॥"
+          "text": "कच्चिदाचरितां पूर्वैर्नरदेव पितामहैः ।\nवर्तसे वृत्तिमक्षीणां धर्मार्थसहितां नृषु ॥",
+          "meaning": {
+            "en": "O king, do you follow among men the unfailing way of life, joining dharma and wealth, that your fathers and grandfathers followed?"
+          }
         },
         {
           "n": 9,
-          "text": "कच्चिदर्थेन वा धर्मं धर्मेणार्थमथापि वा ।\nउभौ वा प्रीतिसारेण न कामेन प्रबाधसे ॥"
+          "text": "कच्चिदर्थेन वा धर्मं धर्मेणार्थमथापि वा ।\nउभौ वा प्रीतिसारेण न कामेन प्रबाधसे ॥",
+          "meaning": {
+            "en": "Do you avoid harming wealth by dharma, or dharma by wealth, or both by pursuing pleasure?"
+          }
         },
         {
           "n": 10,
-          "text": "कच्चिदर्थं च धर्मं च कामं च जयतां वर ।\nविभज्य काले कालज्ञ सदा वरद सेवसे ॥"
+          "text": "कच्चिदर्थं च धर्मं च कामं च जयतां वर ।\nविभज्य काले कालज्ञ सदा वरद सेवसे ॥",
+          "meaning": {
+            "en": "Best of victors, knowing the right time, do you ever serve wealth, dharma and desire in their proper seasons, each in turn, giver of boons?"
+          }
         },
         {
           "n": 11,
-          "text": "कच्चिद्राजगुणैः षड्भिः सप्तोपायांस्तथानघ ।\nबलाबलं तथा सम्यक्चतुर्दश परीक्षसे ॥"
+          "text": "कच्चिद्राजगुणैः षड्भिः सप्तोपायांस्तथानघ ।\nबलाबलं तथा सम्यक्चतुर्दश परीक्षसे ॥",
+          "meaning": {
+            "en": "Blameless one, do you examine rightly, through the six royal qualities and the seven means, the strengths and weaknesses, along with the fourteen?"
+          }
         },
         {
           "n": 12,
-          "text": "कच्चिदात्मानमन्वीक्ष्य परांश्च जयतां वर ।\nतथा संधाय कर्माणि अष्टौ भारत सेवसे ॥"
+          "text": "कच्चिदात्मानमन्वीक्ष्य परांश्च जयतां वर ।\nतथा संधाय कर्माणि अष्टौ भारत सेवसे ॥",
+          "meaning": {
+            "en": "Best of victors, having taken stock of yourself and your enemies, do you carry out the eight undertakings, Bharata, after due agreements?"
+          }
         },
         {
           "n": 13,
-          "text": "कच्चित्प्रकृतयः षट्ते न लुप्ता भरतर्षभ ।\nआढ्यास्तथाव्यसनिनः स्वनुरक्ताश्च सर्वशः ॥"
+          "text": "कच्चित्प्रकृतयः षट्ते न लुप्ता भरतर्षभ ।\nआढ्यास्तथाव्यसनिनः स्वनुरक्ताश्च सर्वशः ॥",
+          "meaning": {
+            "en": "Bull of the Bharatas, are your six elements of the realm unharmed, prosperous, free of trouble and well attached to you everywhere?"
+          }
         },
         {
           "n": 14,
-          "text": "कच्चिन्न तर्कैर्दूतैर्वा ये चाप्यपरिशङ्किताः ।\nत्वत्तो वा तव वामात्यैर्भिद्यते जातु मन्त्रितम् ॥"
+          "text": "कच्चिन्न तर्कैर्दूतैर्वा ये चाप्यपरिशङ्किताः ।\nत्वत्तो वा तव वामात्यैर्भिद्यते जातु मन्त्रितम् ॥",
+          "meaning": {
+            "en": "Is your counsel ever betrayed, by guesses, by messengers, or by those you do not suspect, whether from you or from your ministers?"
+          }
         },
         {
           "n": 15,
-          "text": "कच्चित्संधिं यथाकालं विग्रहं चोपसेवसे ।\nकच्चिद्वृत्तिमुदासीने मध्यमे चानुवर्तसे ॥"
+          "text": "कच्चित्संधिं यथाकालं विग्रहं चोपसेवसे ।\nकच्चिद्वृत्तिमुदासीने मध्यमे चानुवर्तसे ॥",
+          "meaning": {
+            "en": "Do you make peace or war at the proper time? Do you deal rightly with the neutral and the middling powers?"
+          }
         },
         {
           "n": 16,
-          "text": "कच्चिदात्मसमा बुद्ध्या शुचयो जीवितक्षमाः ।\nकुलीनाश्चानुरक्ताश्च कृतास्ते वीर मन्त्रिणः ॥"
+          "text": "कच्चिदात्मसमा बुद्ध्या शुचयो जीवितक्षमाः ।\nकुलीनाश्चानुरक्ताश्च कृतास्ते वीर मन्त्रिणः ॥",
+          "meaning": {
+            "en": "Hero, have you appointed as ministers men equal to yourself in wisdom, pure, able to bear hardship, well-born and devoted?"
+          }
         },
         {
           "n": 17,
-          "text": "विजयो मन्त्रमूलो हि राज्ञां भवति भारत ।\nसुसंवृतो मन्त्रधनैरमात्यैः शास्त्रकोविदैः ॥"
+          "text": "विजयो मन्त्रमूलो हि राज्ञां भवति भारत ।\nसुसंवृतो मन्त्रधनैरमात्यैः शास्त्रकोविदैः ॥",
+          "meaning": {
+            "en": "For kings, O Bharata, victory is rooted in counsel, well kept by ministers rich in counsel and learned in the treatises."
+          }
         },
         {
           "n": 18,
-          "text": "कच्चिन्निद्रावशं नैषि कच्चित्काले विबुध्यसे ।\nकच्चिच्चापररात्रेषु चिन्तयस्यर्थमर्थवित् ॥"
+          "text": "कच्चिन्निद्रावशं नैषि कच्चित्काले विबुध्यसे ।\nकच्चिच्चापररात्रेषु चिन्तयस्यर्थमर्थवित् ॥",
+          "meaning": {
+            "en": "Do you not fall under the sway of sleep? Do you wake at the right time? Do you, knowing what matters, reflect on your affairs in the last watches of the night?"
+          }
         },
         {
           "n": 19,
-          "text": "कच्चिन्मन्त्रयसे नैकः कच्चिन्न बहुभिः सह ।\nकच्चित्ते मन्त्रितो मन्त्रो न राष्ट्रमनुधावति ॥"
+          "text": "कच्चिन्मन्त्रयसे नैकः कच्चिन्न बहुभिः सह ।\nकच्चित्ते मन्त्रितो मन्त्रो न राष्ट्रमनुधावति ॥",
+          "meaning": {
+            "en": "Do you not take counsel alone, nor with too many? Does the counsel you have taken not spread through the realm?"
+          }
         },
         {
           "n": 20,
-          "text": "कच्चिदर्थान्विनिश्चित्य लघुमूलान्महोदयान् ।\nक्षिप्रमारभसे कर्तुं न विघ्नयसि तादृशान् ॥"
+          "text": "कच्चिदर्थान्विनिश्चित्य लघुमूलान्महोदयान् ।\nक्षिप्रमारभसे कर्तुं न विघ्नयसि तादृशान् ॥",
+          "meaning": {
+            "en": "Having settled on aims that are cheap in beginning and great in reward, do you quickly begin them and not obstruct such undertakings?"
+          }
         },
         {
           "n": 21,
-          "text": "कच्चिन्न सर्वे कर्मान्ताः परोक्षास्ते विशङ्किताः ।\nसर्वे वा पुनरुत्सृष्टाः संसृष्टं ह्यत्र कारणम् ॥"
+          "text": "कच्चिन्न सर्वे कर्मान्ताः परोक्षास्ते विशङ्किताः ।\nसर्वे वा पुनरुत्सृष्टाः संसृष्टं ह्यत्र कारणम् ॥",
+          "meaning": {
+            "en": "Are your works never all hidden from view and so open to suspicion, nor all abandoned? For mixing the two is the cause here."
+          }
         },
         {
           "n": 22,
-          "text": "कच्चिद्राजन्कृतान्येव कृतप्रायाणि वा पुनः ।\nविदुस्ते वीर कर्माणि नानवाप्तानि कानिचित् ॥"
+          "text": "कच्चिद्राजन्कृतान्येव कृतप्रायाणि वा पुनः ।\nविदुस्ते वीर कर्माणि नानवाप्तानि कानिचित् ॥",
+          "meaning": {
+            "en": "King, do your people know your undertakings only when they are done or nearly done, and none left unfinished?"
+          }
         },
         {
           "n": 23,
-          "text": "कच्चित्कारणिकाः सर्वे सर्वशास्त्रेषु कोविदाः ।\nकारयन्ति कुमारांश्च योधमुख्यांश्च सर्वशः ॥"
+          "text": "कच्चित्कारणिकाः सर्वे सर्वशास्त्रेषु कोविदाः ।\nकारयन्ति कुमारांश्च योधमुख्यांश्च सर्वशः ॥",
+          "meaning": {
+            "en": "Do all your investigators, learned in all the treatises, also train your princes and chief warriors everywhere?"
+          }
         },
         {
           "n": 24,
-          "text": "कच्चित्सहस्रैर्मूर्खाणामेकं क्रीणासि पण्डितम् ।\nपण्डितो ह्यर्थकृच्छ्रेषु कुर्यान्निःश्रेयसं परम् ॥"
+          "text": "कच्चित्सहस्रैर्मूर्खाणामेकं क्रीणासि पण्डितम् ।\nपण्डितो ह्यर्थकृच्छ्रेषु कुर्यान्निःश्रेयसं परम् ॥",
+          "meaning": {
+            "en": "Would you buy one wise man at the price of a thousand fools? For a wise man, in times of difficulty, brings about the greatest good."
+          }
         },
         {
           "n": 25,
-          "text": "कच्चिद्दुर्गाणि सर्वाणि धनधान्यायुधोदकैः ।\nयन्त्रैश्च परिपूर्णानि तथा शिल्पिधनुर्धरैः ॥"
+          "text": "कच्चिद्दुर्गाणि सर्वाणि धनधान्यायुधोदकैः ।\nयन्त्रैश्च परिपूर्णानि तथा शिल्पिधनुर्धरैः ॥",
+          "meaning": {
+            "en": "Are all your forts full of wealth, grain, weapons, water, machines, craftsmen and archers?"
+          }
         },
         {
           "n": 26,
-          "text": "एकोऽप्यमात्यो मेधावी शूरो दान्तो विचक्षणः ।\nराजानं राजपुत्रं वा प्रापयेन्महतीं श्रियम् ॥"
+          "text": "एकोऽप्यमात्यो मेधावी शूरो दान्तो विचक्षणः ।\nराजानं राजपुत्रं वा प्रापयेन्महतीं श्रियम् ॥",
+          "meaning": {
+            "en": "Even a single minister, wise, brave, self-controlled and sharp, can bring a king or a prince great fortune."
+          }
         },
         {
           "n": 27,
-          "text": "कच्चिदष्टादशान्येषु स्वपक्षे दश पञ्च च ।\nत्रिभिस्त्रिभिरविज्ञातैर्वेत्सि तीर्थानि चारकैः ॥"
+          "text": "कच्चिदष्टादशान्येषु स्वपक्षे दश पञ्च च ।\nत्रिभिस्त्रिभिरविज्ञातैर्वेत्सि तीर्थानि चारकैः ॥",
+          "meaning": {
+            "en": "Through your spies, do you know the key officials, eighteen among the enemy and fifteen among your own, each group with three of them unknown to the spies?"
+          }
         },
         {
           "n": 28,
-          "text": "कच्चिद्द्विषामविदितः प्रतियत्तश्च सर्वदा ।\nनित्ययुक्तो रिपून्सर्वान्वीक्षसे रिपुसूदन ॥"
+          "text": "कच्चिद्द्विषामविदितः प्रतियत्तश्च सर्वदा ।\nनित्ययुक्तो रिपून्सर्वान्वीक्षसे रिपुसूदन ॥",
+          "meaning": {
+            "en": "Slayer of foes, do you watch all your enemies, unknown to them, always on guard and ever vigilant?"
+          }
         },
         {
           "n": 29,
-          "text": "कच्चिद्विनयसंपन्नः कुलपुत्रो बहुश्रुतः ।\nअनसूयुरनुप्रष्टा सत्कृतस्ते पुरोहितः ॥"
+          "text": "कच्चिद्विनयसंपन्नः कुलपुत्रो बहुश्रुतः ।\nअनसूयुरनुप्रष्टा सत्कृतस्ते पुरोहितः ॥",
+          "meaning": {
+            "en": "Is your household priest, humble, of good family, learned, free of envy and one who questions with care, honored by you?"
+          }
         },
         {
           "n": 30,
-          "text": "कच्चिदग्निषु ते युक्तो विधिज्ञो मतिमानृजुः ।\nहुतं च होष्यमाणं च काले वेदयते सदा ॥"
+          "text": "कच्चिदग्निषु ते युक्तो विधिज्ञो मतिमानृजुः ।\nहुतं च होष्यमाणं च काले वेदयते सदा ॥",
+          "meaning": {
+            "en": "Is the one in charge of your sacred fires skilled in the rules, wise and straightforward, and does he always tell you in time what has been offered and what is to be offered?"
+          }
         },
         {
           "n": 31,
-          "text": "कच्चिदङ्गेषु निष्णातो ज्योतिषां प्रतिपादकः ।\nउत्पातेषु च सर्वेषु दैवज्ञः कुशलस्तव ॥"
+          "text": "कच्चिदङ्गेषु निष्णातो ज्योतिषां प्रतिपादकः ।\nउत्पातेषु च सर्वेषु दैवज्ञः कुशलस्तव ॥",
+          "meaning": {
+            "en": "Is your astrologer well versed in the limbs of the science, expounder of the heavenly bodies, and skilled in all portents?"
+          }
         },
         {
           "n": 32,
-          "text": "कच्चिन्मुख्या महत्स्वेव मध्यमेषु च मध्यमाः ।\nजघन्याश्च जघन्येषु भृत्याः कर्मसु योजिताः ॥"
+          "text": "कच्चिन्मुख्या महत्स्वेव मध्यमेषु च मध्यमाः ।\nजघन्याश्च जघन्येषु भृत्याः कर्मसु योजिताः ॥",
+          "meaning": {
+            "en": "Are your servants placed in tasks according to rank: the best in the greatest, the middling in the middling, the lowest in the lowest?"
+          }
         },
         {
           "n": 33,
-          "text": "अमात्यानुपधातीतान्पितृपैतामहाञ्शुचीन् ।\nश्रेष्ठाञ्श्रेष्ठेषु कच्चित्त्वं नियोजयसि कर्मसु ॥"
+          "text": "अमात्यानुपधातीतान्पितृपैतामहाञ्शुचीन् ।\nश्रेष्ठाञ्श्रेष्ठेषु कच्चित्त्वं नियोजयसि कर्मसु ॥",
+          "meaning": {
+            "en": "Do you appoint to the best offices the best ministers, untainted, pure, and loyal from your father's and grandfather's day?"
+          }
         },
         {
           "n": 34,
-          "text": "कच्चिन्नोग्रेण दण्डेन भृशमुद्वेजितप्रजाः ।\nराष्ट्रं तवानुशासन्ति मन्त्रिणो भरतर्षभ ॥"
+          "text": "कच्चिन्नोग्रेण दण्डेन भृशमुद्वेजितप्रजाः ।\nराष्ट्रं तवानुशासन्ति मन्त्रिणो भरतर्षभ ॥",
+          "meaning": {
+            "en": "Bull of the Bharatas, do your ministers rule your realm without terrifying the people with harsh punishment?"
+          }
         },
         {
           "n": 35,
-          "text": "कच्चित्त्वां नावजानन्ति याजकाः पतितं यथा ।\nउग्रप्रतिग्रहीतारं कामयानमिव स्त्रियः ॥"
+          "text": "कच्चित्त्वां नावजानन्ति याजकाः पतितं यथा ।\nउग्रप्रतिग्रहीतारं कामयानमिव स्त्रियः ॥",
+          "meaning": {
+            "en": "Do the priests not despise you as a fallen man, as women despise a lustful man, a harsh taker of gifts?"
+          }
         },
         {
           "n": 36,
-          "text": "कच्चिद्धृष्टश्च शूरश्च मतिमान्धृतिमाञ्शुचिः ।\nकुलीनश्चानुरक्तश्च दक्षः सेनापतिस्तव ॥"
+          "text": "कच्चिद्धृष्टश्च शूरश्च मतिमान्धृतिमाञ्शुचिः ।\nकुलीनश्चानुरक्तश्च दक्षः सेनापतिस्तव ॥",
+          "meaning": {
+            "en": "Is your commander bold, brave, intelligent, steady, pure, well-born, devoted and capable?"
+          }
         },
         {
           "n": 37,
-          "text": "कच्चिद्बलस्य ते मुख्याः सर्वे युद्धविशारदाः ।\nदृष्टापदाना विक्रान्तास्त्वया सत्कृत्य मानिताः ॥"
+          "text": "कच्चिद्बलस्य ते मुख्याः सर्वे युद्धविशारदाः ।\nदृष्टापदाना विक्रान्तास्त्वया सत्कृत्य मानिताः ॥",
+          "meaning": {
+            "en": "Are all the leaders of your army skilled in war, proven in deeds, courageous, and honored by you?"
+          }
         },
         {
           "n": 38,
-          "text": "कच्चिद्बलस्य भक्तं च वेतनं च यथोचितम् ।\nसंप्राप्तकालं दातव्यं ददासि न विकर्षसि ॥"
+          "text": "कच्चिद्बलस्य भक्तं च वेतनं च यथोचितम् ।\nसंप्राप्तकालं दातव्यं ददासि न विकर्षसि ॥",
+          "meaning": {
+            "en": "Do you give your troops their food and fair pay at the right time, without holding it back?"
+          }
         },
         {
           "n": 39,
-          "text": "कालातिक्रमणाद्ध्येते भक्तवेतनयोर्भृताः ।\nभर्तुः कुप्यन्ति दौर्गत्यात्सोऽनर्थः सुमहान्स्मृतः ॥"
+          "text": "कालातिक्रमणाद्ध्येते भक्तवेतनयोर्भृताः ।\nभर्तुः कुप्यन्ति दौर्गत्यात्सोऽनर्थः सुमहान्स्मृतः ॥",
+          "meaning": {
+            "en": "For when pay and food are delayed, soldiers grow angry with their master out of hardship; this is said to be a great evil."
+          }
         },
         {
           "n": 40,
-          "text": "कच्चित्सर्वेऽनुरक्तास्त्वां कुलपुत्राः प्रधानतः ।\nकच्चित्प्राणांस्तवार्थेषु संत्यजन्ति सदा युधि ॥"
+          "text": "कच्चित्सर्वेऽनुरक्तास्त्वां कुलपुत्राः प्रधानतः ।\nकच्चित्प्राणांस्तवार्थेषु संत्यजन्ति सदा युधि ॥",
+          "meaning": {
+            "en": "Are all the sons of good families chiefly attached to you, and do they always give their lives for your cause in battle?"
+          }
         },
         {
           "n": 41,
-          "text": "कच्चिन्नैको बहूनर्थान्सर्वशः सांपरायिकान् ।\nअनुशास्सि यथाकामं कामात्मा शासनातिगः ॥"
+          "text": "कच्चिन्नैको बहूनर्थान्सर्वशः सांपरायिकान् ।\nअनुशास्सि यथाकामं कामात्मा शासनातिगः ॥",
+          "meaning": {
+            "en": "Do you, driven by desire, never rule alone, beyond the law, over the many matters of war and the future?"
+          }
         },
         {
           "n": 42,
-          "text": "कच्चित्पुरुषकारेण पुरुषः कर्म शोभयन् ।\nलभते मानमधिकं भूयो वा भक्तवेतनम् ॥"
+          "text": "कच्चित्पुरुषकारेण पुरुषः कर्म शोभयन् ।\nलभते मानमधिकं भूयो वा भक्तवेतनम् ॥",
+          "meaning": {
+            "en": "Do men who bring credit to their work by their own effort receive from you greater honor or higher pay?"
+          }
         },
         {
           "n": 43,
-          "text": "कच्चिद्विद्याविनीतांश्च नराञ्ज्ञानविशारदान् ।\nयथार्हं गुणतश्चैव दानेनाभ्यवपद्यसे ॥"
+          "text": "कच्चिद्विद्याविनीतांश्च नराञ्ज्ञानविशारदान् ।\nयथार्हं गुणतश्चैव दानेनाभ्यवपद्यसे ॥",
+          "meaning": {
+            "en": "Do you reward in due measure, by merit and by gifts, men who are trained in learning and skilled in knowledge?"
+          }
         },
         {
           "n": 44,
-          "text": "कच्चिद्दारान्मनुष्याणां तवार्थे मृत्युमेयुषाम् ।\nव्यसनं चाभ्युपेतानां बिभर्षि भरतर्षभ ॥"
+          "text": "कच्चिद्दारान्मनुष्याणां तवार्थे मृत्युमेयुषाम् ।\nव्यसनं चाभ्युपेतानां बिभर्षि भरतर्षभ ॥",
+          "meaning": {
+            "en": "Bull of the Bharatas, do you support the wives of those who have died for you, and those who have fallen into distress?"
+          }
         },
         {
           "n": 45,
-          "text": "कच्चिद्भयादुपनतं क्लीबं वा रिपुमागतम् ।\nयुद्धे वा विजितं पार्थ पुत्रवत्परिरक्षसि ॥"
+          "text": "कच्चिद्भयादुपनतं क्लीबं वा रिपुमागतम् ।\nयुद्धे वा विजितं पार्थ पुत्रवत्परिरक्षसि ॥",
+          "meaning": {
+            "en": "Son of Pritha, do you protect like a son an enemy who has come to you out of fear, or a weak one, or one defeated in war?"
+          }
         },
         {
           "n": 46,
-          "text": "कच्चित्त्वमेव सर्वस्याः पृथिव्याः पृथिवीपते ।\nसमश्च नाभिशङ्क्यश्च यथा माता यथा पिता ॥"
+          "text": "कच्चित्त्वमेव सर्वस्याः पृथिव्याः पृथिवीपते ।\nसमश्च नाभिशङ्क्यश्च यथा माता यथा पिता ॥",
+          "meaning": {
+            "en": "Lord of the earth, are you the same to the whole earth, trusted and not feared, like a mother or a father?"
+          }
         },
         {
           "n": 47,
-          "text": "कच्चिद्व्यसनिनं शत्रुं निशम्य भरतर्षभ ।\nअभियासि जवेनैव समीक्ष्य त्रिविधं बलम् ॥"
+          "text": "कच्चिद्व्यसनिनं शत्रुं निशम्य भरतर्षभ ।\nअभियासि जवेनैव समीक्ष्य त्रिविधं बलम् ॥",
+          "meaning": {
+            "en": "Bull of the Bharatas, when you hear that an enemy is in trouble, do you march swiftly, after weighing your three kinds of strength?"
+          }
         },
         {
           "n": 48,
-          "text": "पार्ष्णिमूलं च विज्ञाय व्यवसायं पराजयम् ।\nबलस्य च महाराज दत्त्वा वेतनमग्रतः ॥"
+          "text": "पार्ष्णिमूलं च विज्ञाय व्यवसायं पराजयम् ।\nबलस्य च महाराज दत्त्वा वेतनमग्रतः ॥",
+          "meaning": {
+            "en": "Great king, having learned the weak points in the enemy's rear and his resolve, and having first paid your troops,"
+          }
         },
         {
           "n": 49,
-          "text": "कच्चिच्च बलमुख्येभ्यः परराष्ट्रे परंतप ।\nउपच्छन्नानि रत्नानि प्रयच्छसि यथार्हतः ॥"
+          "text": "कच्चिच्च बलमुख्येभ्यः परराष्ट्रे परंतप ।\nउपच्छन्नानि रत्नानि प्रयच्छसि यथार्हतः ॥",
+          "meaning": {
+            "en": "do you, scorcher of foes, give secretly to the chief commanders in the enemy's land the gems that are their due?"
+          }
         },
         {
           "n": 50,
-          "text": "कच्चिदात्मानमेवाग्रे विजित्य विजितेन्द्रियः ।\nपराञ्जिगीषसे पार्थ प्रमत्तानजितेन्द्रियान् ॥"
+          "text": "कच्चिदात्मानमेवाग्रे विजित्य विजितेन्द्रियः ।\nपराञ्जिगीषसे पार्थ प्रमत्तानजितेन्द्रियान् ॥",
+          "meaning": {
+            "en": "Son of Pritha, do you first conquer yourself and master your senses before you seek to conquer enemies who are careless and unrestrained?"
+          }
         },
         {
           "n": 51,
-          "text": "कच्चित्ते यास्यतः शत्रून्पूर्वं यान्ति स्वनुष्ठिताः ।\nसाम दानं च भेदश्च दण्डश्च विधिवद्गुणाः ॥"
+          "text": "कच्चित्ते यास्यतः शत्रून्पूर्वं यान्ति स्वनुष्ठिताः ।\nसाम दानं च भेदश्च दण्डश्च विधिवद्गुणाः ॥",
+          "meaning": {
+            "en": "When you march on your foes, do your well-prepared means go before you: conciliation, gifts, division and force, each rightly used?"
+          }
         },
         {
           "n": 52,
-          "text": "कच्चिन्मूलं दृढं कृत्वा यात्रां यासि विशां पते ।\nतांश्च विक्रमसे जेतुं जित्वा च परिरक्षसि ॥"
+          "text": "कच्चिन्मूलं दृढं कृत्वा यात्रां यासि विशां पते ।\nतांश्च विक्रमसे जेतुं जित्वा च परिरक्षसि ॥",
+          "meaning": {
+            "en": "Lord of the people, do you set out only after strengthening your base, and do you strive to defeat them and, having won, protect them?"
+          }
         },
         {
           "n": 53,
-          "text": "कच्चिदष्टाङ्गसंयुक्ता चतुर्विधबला चमूः ।\nबलमुख्यैः सुनीता ते द्विषतां प्रतिबाधनी ॥"
+          "text": "कच्चिदष्टाङ्गसंयुक्ता चतुर्विधबला चमूः ।\nबलमुख्यैः सुनीता ते द्विषतां प्रतिबाधनी ॥",
+          "meaning": {
+            "en": "Is your army, with its eight parts and four divisions, well led by its chief commanders, so that it holds back your enemies?"
+          }
         },
         {
           "n": 54,
-          "text": "कच्चिल्लवं च मुष्टिं च परराष्ट्रे परंतप ।\nअविहाय महाराज विहंसि समरे रिपून् ॥"
+          "text": "कच्चिल्लवं च मुष्टिं च परराष्ट्रे परंतप ।\nअविहाय महाराज विहंसि समरे रिपून् ॥",
+          "meaning": {
+            "en": "Scorcher of foes, great king, do you slay your enemies in battle without letting go the small pieces of plunder in their land, the handful and the fragment?"
+          }
         },
         {
           "n": 55,
-          "text": "कच्चित्स्वपरराष्ट्रेषु बहवोऽधिकृतास्तव ।\nअर्थान्समनुतिष्ठन्ति रक्षन्ति च परस्परम् ॥"
+          "text": "कच्चित्स्वपरराष्ट्रेषु बहवोऽधिकृतास्तव ।\nअर्थान्समनुतिष्ठन्ति रक्षन्ति च परस्परम् ॥",
+          "meaning": {
+            "en": "Do you have many officials in your own and in enemy lands who carry out tasks and guard one another?"
+          }
         },
         {
           "n": 56,
-          "text": "कच्चिदभ्यवहार्याणि गात्रसंस्पर्शकानि च ।\nघ्रेयाणि च महाराज रक्षन्त्यनुमतास्तव ॥"
+          "text": "कच्चिदभ्यवहार्याणि गात्रसंस्पर्शकानि च ।\nघ्रेयाणि च महाराज रक्षन्त्यनुमतास्तव ॥",
+          "meaning": {
+            "en": "Great king, do trusted men whom you approve guard your food, the things that touch the body, and the things that are smelled?"
+          }
         },
         {
           "n": 57,
-          "text": "कच्चित्कोशं च कोष्ठं च वाहनं द्वारमायुधम् ।\nआयश्च कृतकल्याणैस्तव भक्तैरनुष्ठितः ॥"
+          "text": "कच्चित्कोशं च कोष्ठं च वाहनं द्वारमायुधम् ।\nआयश्च कृतकल्याणैस्तव भक्तैरनुष्ठितः ॥",
+          "meaning": {
+            "en": "Are your treasury, granary, vehicles, gate, weapons and revenue managed by devoted men whose work is good?"
+          }
         },
         {
           "n": 58,
-          "text": "कच्चिदाभ्यन्तरेभ्यश्च बाह्येभ्यश्च विशां पते ।\nरक्षस्यात्मानमेवाग्रे तांश्च स्वेभ्यो मिथश्च तान् ॥"
+          "text": "कच्चिदाभ्यन्तरेभ्यश्च बाह्येभ्यश्च विशां पते ।\nरक्षस्यात्मानमेवाग्रे तांश्च स्वेभ्यो मिथश्च तान् ॥",
+          "meaning": {
+            "en": "Lord of the people, do you guard yourself first against those within and those outside, and guard those people from your own men and from each other?"
+          }
         },
         {
           "n": 59,
-          "text": "कच्चिन्न पाने द्यूते वा क्रीडासु प्रमदासु च ।\nप्रतिजानन्ति पूर्वाह्णे व्ययं व्यसनजं तव ॥"
+          "text": "कच्चिन्न पाने द्यूते वा क्रीडासु प्रमदासु च ।\nप्रतिजानन्ति पूर्वाह्णे व्ययं व्यसनजं तव ॥",
+          "meaning": {
+            "en": "Is it not so that your officers never learn in the morning of your spending caused by drink, dice, sport or women?"
+          }
         },
         {
           "n": 60,
-          "text": "कच्चिदायस्य चार्धेन चतुर्भागेन वा पुनः ।\nपादभागैस्त्रिभिर्वापि व्ययः संशोध्यते तव ॥"
+          "text": "कच्चिदायस्य चार्धेन चतुर्भागेन वा पुनः ।\nपादभागैस्त्रिभिर्वापि व्ययः संशोध्यते तव ॥",
+          "meaning": {
+            "en": "Is your spending kept within half of your income, or a quarter, or three quarters?"
+          }
         },
         {
           "n": 61,
-          "text": "कच्चिज्ज्ञातीन्गुरून्वृद्धान्वणिजः शिल्पिनः श्रितान् ।\nअभीक्ष्णमनुगृह्णासि धनधान्येन दुर्गतान् ॥"
+          "text": "कच्चिज्ज्ञातीन्गुरून्वृद्धान्वणिजः शिल्पिनः श्रितान् ।\nअभीक्ष्णमनुगृह्णासि धनधान्येन दुर्गतान् ॥",
+          "meaning": {
+            "en": "Do you constantly help with money and grain your kinsmen, elders, the aged, merchants, craftsmen and dependents who have fallen on hard times?"
+          }
         },
         {
           "n": 62,
-          "text": "कच्चिदायव्यये युक्ताः सर्वे गणकलेखकाः ।\nअनुतिष्ठन्ति पूर्वाह्णे नित्यमायव्ययं तव ॥"
+          "text": "कच्चिदायव्यये युक्ताः सर्वे गणकलेखकाः ।\nअनुतिष्ठन्ति पूर्वाह्णे नित्यमायव्ययं तव ॥",
+          "meaning": {
+            "en": "Do all your accountants and clerks in charge of income and expenditure present your accounts to you every morning?"
+          }
         },
         {
           "n": 63,
-          "text": "कच्चिदर्थेषु संप्रौढान्हितकामाननुप्रियान् ।\nनापकर्षसि कर्मभ्यः पूर्वमप्राप्य किल्बिषम् ॥"
+          "text": "कच्चिदर्थेषु संप्रौढान्हितकामाननुप्रियान् ।\nनापकर्षसि कर्मभ्यः पूर्वमप्राप्य किल्बिषम् ॥",
+          "meaning": {
+            "en": "Do you refrain from removing from their posts, without first finding a fault, men who are experienced in affairs, well-wishing and loyal?"
+          }
         },
         {
           "n": 64,
-          "text": "कच्चिद्विदित्वा पुरुषानुत्तमाधममध्यमान् ।\nत्वं कर्मस्वनुरूपेषु नियोजयसि भारत ॥"
+          "text": "कच्चिद्विदित्वा पुरुषानुत्तमाधममध्यमान् ।\nत्वं कर्मस्वनुरूपेषु नियोजयसि भारत ॥",
+          "meaning": {
+            "en": "Bharata, having judged men as best, middling or lowest, do you appoint them to tasks that suit them?"
+          }
         },
         {
           "n": 65,
-          "text": "कच्चिन्न लुब्धाश्चौरा वा वैरिणो वा विशां पते ।\nअप्राप्तव्यवहारा वा तव कर्मस्वनुष्ठिताः ॥"
+          "text": "कच्चिन्न लुब्धाश्चौरा वा वैरिणो वा विशां पते ।\nअप्राप्तव्यवहारा वा तव कर्मस्वनुष्ठिताः ॥",
+          "meaning": {
+            "en": "Lord of the people, are no greedy men, thieves, enemies or inexperienced men set to your tasks?"
+          }
         },
         {
           "n": 66,
-          "text": "कच्चिन्न लुब्धैश्चौरैर्वा कुमारैः स्त्रीबलेन वा ।\nत्वया वा पीड्यते राष्ट्रं कच्चित्पुष्टाः कृषीवलाः ॥"
+          "text": "कच्चिन्न लुब्धैश्चौरैर्वा कुमारैः स्त्रीबलेन वा ।\nत्वया वा पीड्यते राष्ट्रं कच्चित्पुष्टाः कृषीवलाः ॥",
+          "meaning": {
+            "en": "Is your realm not oppressed by greedy men, thieves, princes, the strength of women, or by yourself? Are your farmers well provided?"
+          }
         },
         {
           "n": 67,
-          "text": "कच्चिद्राष्ट्रे तडागानि पूर्णानि च महान्ति च ।\nभागशो विनिविष्टानि न कृषिर्देवमातृका ॥"
+          "text": "कच्चिद्राष्ट्रे तडागानि पूर्णानि च महान्ति च ।\nभागशो विनिविष्टानि न कृषिर्देवमातृका ॥",
+          "meaning": {
+            "en": "Are there large tanks full of water in your realm, set at fitting intervals, so that farming does not depend on rain alone?"
+          }
         },
         {
           "n": 68,
-          "text": "कच्चिद्बीजं च भक्तं च कर्षकायावसीदते ।\nप्रतिकं च शतं वृद्ध्या ददास्यृणमनुग्रहम् ॥"
+          "text": "कच्चिद्बीजं च भक्तं च कर्षकायावसीदते ।\nप्रतिकं च शतं वृद्ध्या ददास्यृणमनुग्रहम् ॥",
+          "meaning": {
+            "en": "Do farmers who run short get seed and food from you, and do you lend as a favor at a hundred for one at modest interest?"
+          }
         },
         {
           "n": 69,
-          "text": "कच्चित्स्वनुष्ठिता तात वार्त्ता ते साधुभिर्जनैः ।\nवार्त्तायां संश्रितस्तात लोकोऽयं सुखमेधते ॥"
+          "text": "कच्चित्स्वनुष्ठिता तात वार्त्ता ते साधुभिर्जनैः ।\nवार्त्तायां संश्रितस्तात लोकोऽयं सुखमेधते ॥",
+          "meaning": {
+            "en": "My dear, is your trade well managed by honest people? The world prospers, my dear, when it rests on trade."
+          }
         },
         {
           "n": 70,
-          "text": "कच्चिच्छुचिकृतः प्राज्ञाः पञ्च पञ्च स्वनुष्ठिताः ।\nक्षेमं कुर्वन्ति संहत्य राजञ्जनपदे तव ॥"
+          "text": "कच्चिच्छुचिकृतः प्राज्ञाः पञ्च पञ्च स्वनुष्ठिताः ।\nक्षेमं कुर्वन्ति संहत्य राजञ्जनपदे तव ॥",
+          "meaning": {
+            "en": "In your country, are there groups of five pure, wise and capable men who together bring about security, O king?"
+          }
         },
         {
           "n": 71,
-          "text": "कच्चिन्नगरगुप्त्यर्थं ग्रामा नगरवत्कृताः ।\nग्रामवच्च कृता रक्षा ते च सर्वे तदर्पणाः ॥"
+          "text": "कच्चिन्नगरगुप्त्यर्थं ग्रामा नगरवत्कृताः ।\nग्रामवच्च कृता रक्षा ते च सर्वे तदर्पणाः ॥",
+          "meaning": {
+            "en": "Are your villages made like towns to protect the towns, and is their protection arranged like that of villages, with all of them reporting to you?"
+          }
         },
         {
           "n": 72,
-          "text": "कच्चिद्बलेनानुगताः समानि विषमाणि च ।\nपुराणचौराः साध्यक्षाश्चरन्ति विषये तव ॥"
+          "text": "कच्चिद्बलेनानुगताः समानि विषमाणि च ।\nपुराणचौराः साध्यक्षाश्चरन्ति विषये तव ॥",
+          "meaning": {
+            "en": "Do old thieves, with their officers, no longer roam your land over smooth and rough ground, backed by force?"
+          }
         },
         {
           "n": 73,
-          "text": "कच्चित्स्त्रियः सान्त्वयसि कच्चित्ताश्च सुरक्षिताः ।\nकच्चिन्न श्रद्दधास्यासां कच्चिद्गुह्यं न भाषसे ॥"
+          "text": "कच्चित्स्त्रियः सान्त्वयसि कच्चित्ताश्च सुरक्षिताः ।\nकच्चिन्न श्रद्दधास्यासां कच्चिद्गुह्यं न भाषसे ॥",
+          "meaning": {
+            "en": "Do you comfort the women, and are they well protected? Do you not trust them too much, and do you not share secrets with them?"
+          }
         },
         {
           "n": 74,
-          "text": "कच्चिच्चारान्निशि श्रुत्वा तत्कार्यमनुचिन्त्य च ।\nप्रियाण्यनुभवञ्शेषे विदित्वाभ्यन्तरं जनम् ॥"
+          "text": "कच्चिच्चारान्निशि श्रुत्वा तत्कार्यमनुचिन्त्य च ।\nप्रियाण्यनुभवञ्शेषे विदित्वाभ्यन्तरं जनम् ॥",
+          "meaning": {
+            "en": "Having heard your spies at night and thought over the matter, do you sleep, enjoying pleasant things, once you have learned what is going on among those inside?"
+          }
         },
         {
           "n": 75,
-          "text": "कच्चिद्द्वौ प्रथमौ यामौ रात्र्यां सुप्त्वा विशां पते ।\nसंचिन्तयसि धर्मार्थौ याम उत्थाय पश्चिमे ॥"
+          "text": "कच्चिद्द्वौ प्रथमौ यामौ रात्र्यां सुप्त्वा विशां पते ।\nसंचिन्तयसि धर्मार्थौ याम उत्थाय पश्चिमे ॥",
+          "meaning": {
+            "en": "Lord of the people, do you sleep through the first two watches of the night, and rise in the last watch to think on dharma and wealth?"
+          }
         },
         {
           "n": 76,
-          "text": "कच्चिद्दर्शयसे नित्यं मनुष्यान्समलंकृतान् ।\nउत्थाय काले कालज्ञः सह पाण्डव मन्त्रिभिः ॥"
+          "text": "कच्चिद्दर्शयसे नित्यं मनुष्यान्समलंकृतान् ।\nउत्थाय काले कालज्ञः सह पाण्डव मन्त्रिभिः ॥",
+          "meaning": {
+            "en": "Pandava, knowing the right time, do you rise at the proper hour and show yourself regularly to well-dressed people, together with your ministers?"
+          }
         },
         {
           "n": 77,
-          "text": "कच्चिद्रक्ताम्बरधराः खड्गहस्ताः स्वलंकृताः ।\nअभितस्त्वामुपासन्ते रक्षणार्थमरिंदम ॥"
+          "text": "कच्चिद्रक्ताम्बरधराः खड्गहस्ताः स्वलंकृताः ।\nअभितस्त्वामुपासन्ते रक्षणार्थमरिंदम ॥",
+          "meaning": {
+            "en": "Subduer of enemies, do men in red robes, sword in hand and well adorned, stand around you for your protection?"
+          }
         },
         {
           "n": 78,
-          "text": "कच्चिद्दण्ड्येषु यमवत्पूज्येषु च विशां पते ।\nपरीक्ष्य वर्तसे सम्यगप्रियेषु प्रियेषु च ॥"
+          "text": "कच्चिद्दण्ड्येषु यमवत्पूज्येषु च विशां पते ।\nपरीक्ष्य वर्तसे सम्यगप्रियेषु प्रियेषु च ॥",
+          "meaning": {
+            "en": "Lord of the people, are you fair in your conduct toward those who deserve punishment and toward those who deserve honor, whether disliked or liked, judging each case with care, as Yama does?"
+          }
         },
         {
           "n": 79,
-          "text": "कच्चिच्छारीरमाबाधमौषधैर्नियमेन वा ।\nमानसं वृद्धसेवाभिः सदा पार्थापकर्षसि ॥"
+          "text": "कच्चिच्छारीरमाबाधमौषधैर्नियमेन वा ।\nमानसं वृद्धसेवाभिः सदा पार्थापकर्षसि ॥",
+          "meaning": {
+            "en": "Son of Pritha, do you always cure bodily illness with medicine or restraint, and mental illness by serving the elders?"
+          }
         },
         {
           "n": 80,
-          "text": "कच्चिद्वैद्याश्चिकित्सायामष्टाङ्गायां विशारदाः ।\nसुहृदश्चानुरक्ताश्च शरीरे ते हिताः सदा ॥"
+          "text": "कच्चिद्वैद्याश्चिकित्सायामष्टाङ्गायां विशारदाः ।\nसुहृदश्चानुरक्ताश्च शरीरे ते हिताः सदा ॥",
+          "meaning": {
+            "en": "Are your physicians skilled in the eightfold science of healing, and are your devoted friends always concerned for your body?"
+          }
         },
         {
           "n": 81,
-          "text": "कच्चिन्न मानान्मोहाद्वा कामाद्वापि विशां पते ।\nअर्थिप्रत्यर्थिनः प्राप्तानपास्यसि कथंचन ॥"
+          "text": "कच्चिन्न मानान्मोहाद्वा कामाद्वापि विशां पते ।\nअर्थिप्रत्यर्थिनः प्राप्तानपास्यसि कथंचन ॥",
+          "meaning": {
+            "en": "Lord of the people, do you never turn away, from pride, folly or desire, those who come as plaintiffs or defendants?"
+          }
         },
         {
           "n": 82,
-          "text": "कच्चिन्न लोभान्मोहाद्वा विश्रम्भात्प्रणयेन वा ।\nआश्रितानां मनुष्याणां वृत्तिं त्वं संरुणत्सि च ॥"
+          "text": "कच्चिन्न लोभान्मोहाद्वा विश्रम्भात्प्रणयेन वा ।\nआश्रितानां मनुष्याणां वृत्तिं त्वं संरुणत्सि च ॥",
+          "meaning": {
+            "en": "Do you never, out of greed, folly, trust or affection, withhold the living of the men who depend on you?"
+          }
         },
         {
           "n": 83,
-          "text": "कच्चित्पौरा न सहिता ये च ते राष्ट्रवासिनः ।\nत्वया सह विरुध्यन्ते परैः क्रीताः कथंचन ॥"
+          "text": "कच्चित्पौरा न सहिता ये च ते राष्ट्रवासिनः ।\nत्वया सह विरुध्यन्ते परैः क्रीताः कथंचन ॥",
+          "meaning": {
+            "en": "Do the townsmen and the people of your countryside never unite and oppose you, bought over by your enemies?"
+          }
         },
         {
           "n": 84,
-          "text": "कच्चित्ते दुर्बलः शत्रुर्बलेनोपनिपीडितः ।\nमन्त्रेण बलवान्कश्चिदुभाभ्यां वा युधिष्ठिर ॥"
+          "text": "कच्चित्ते दुर्बलः शत्रुर्बलेनोपनिपीडितः ।\nमन्त्रेण बलवान्कश्चिदुभाभ्यां वा युधिष्ठिर ॥",
+          "meaning": {
+            "en": "Yudhishthira, is your weaker enemy not being crushed by force, or a stronger one by counsel, or by both?"
+          }
         },
         {
           "n": 85,
-          "text": "कच्चित्सर्वेऽनुरक्तास्त्वां भूमिपालाः प्रधानतः ।\nकच्चित्प्राणांस्त्वदर्थेषु संत्यजन्ति त्वया हृताः ॥"
+          "text": "कच्चित्सर्वेऽनुरक्तास्त्वां भूमिपालाः प्रधानतः ।\nकच्चित्प्राणांस्त्वदर्थेषु संत्यजन्ति त्वया हृताः ॥",
+          "meaning": {
+            "en": "Are all the kings chiefly devoted to you, and do they give their lives for your purposes, won over by you?"
+          }
         },
         {
           "n": 86,
-          "text": "कच्चित्ते सर्वविद्यासु गुणतोऽर्चा प्रवर्तते ।\nब्राह्मणानां च साधूनां तव निःश्रेयसे शुभा ॥"
+          "text": "कच्चित्ते सर्वविद्यासु गुणतोऽर्चा प्रवर्तते ।\nब्राह्मणानां च साधूनां तव निःश्रेयसे शुभा ॥",
+          "meaning": {
+            "en": "Is honor shown by merit in all the sciences, and do you do well by Brahmins and good people, for your own highest good?"
+          }
         },
         {
           "n": 87,
-          "text": "कच्चिद्धर्मे त्रयीमूले पूर्वैराचरिते जनैः ।\nवर्तमानस्तथा कर्तुं तस्मिन्कर्मणि वर्तसे ॥"
+          "text": "कच्चिद्धर्मे त्रयीमूले पूर्वैराचरिते जनैः ।\nवर्तमानस्तथा कर्तुं तस्मिन्कर्मणि वर्तसे ॥",
+          "meaning": {
+            "en": "Do you keep to the dharma rooted in the three Vedas, as practiced by people of old, and do you do your work in that spirit?"
+          }
         },
         {
           "n": 88,
-          "text": "कच्चित्तव गृहेऽन्नानि स्वादून्यश्नन्ति वै द्विजाः ।\nगुणवन्ति गुणोपेतास्तवाध्यक्षं सदक्षिणम् ॥"
+          "text": "कच्चित्तव गृहेऽन्नानि स्वादून्यश्नन्ति वै द्विजाः ।\nगुणवन्ति गुणोपेतास्तवाध्यक्षं सदक्षिणम् ॥",
+          "meaning": {
+            "en": "Do the Brahmins eat tasty, good food in your house, with your overseer giving them fees as well?"
+          }
         },
         {
           "n": 89,
-          "text": "कच्चित्क्रतूनेकचित्तो वाजपेयांश्च सर्वशः ।\nपुण्डरीकांश्च कार्त्स्न्येन यतसे कर्तुमात्मवान् ॥"
+          "text": "कच्चित्क्रतूनेकचित्तो वाजपेयांश्च सर्वशः ।\nपुण्डरीकांश्च कार्त्स्न्येन यतसे कर्तुमात्मवान् ॥",
+          "meaning": {
+            "en": "With a single mind and self-controlled, do you strive to perform in full the sacrifices, the Vajapeya and the Pundarika, everywhere?"
+          }
         },
         {
           "n": 90,
-          "text": "कच्चिज्ज्ञातीन्गुरून्वृद्धान्दैवतांस्तापसानपि ।\nचैत्यांश्च वृक्षान्कल्याणान्ब्राह्मणांश्च नमस्यसि ॥"
+          "text": "कच्चिज्ज्ञातीन्गुरून्वृद्धान्दैवतांस्तापसानपि ।\nचैत्यांश्च वृक्षान्कल्याणान्ब्राह्मणांश्च नमस्यसि ॥",
+          "meaning": {
+            "en": "Do you bow to kinsmen, elders, the aged, the gods, ascetics, the sacred shrines, the auspicious trees and the Brahmins?"
+          }
         },
         {
           "n": 91,
-          "text": "कच्चिदेषा च ते बुद्धिर्वृत्तिरेषा च तेऽनघ ।\nआयुष्या च यशस्या च धर्मकामार्थदर्शिनी ॥"
+          "text": "कच्चिदेषा च ते बुद्धिर्वृत्तिरेषा च तेऽनघ ।\nआयुष्या च यशस्या च धर्मकामार्थदर्शिनी ॥",
+          "meaning": {
+            "en": "Blameless one, is this your thinking and your way of life, one that brings long life and fame and sees dharma, desire and wealth together?"
+          }
         },
         {
           "n": 92,
-          "text": "एतया वर्तमानस्य बुद्ध्या राष्ट्रं न सीदति ।\nविजित्य च महीं राजा सोऽत्यन्तं सुखमेधते ॥"
+          "text": "एतया वर्तमानस्य बुद्ध्या राष्ट्रं न सीदति ।\nविजित्य च महीं राजा सोऽत्यन्तं सुखमेधते ॥",
+          "meaning": {
+            "en": "A realm does not decline for a king who lives by this wisdom, and having conquered the earth he prospers greatly."
+          }
         },
         {
           "n": 93,
-          "text": "कच्चिदार्यो विशुद्धात्मा क्षारितश्चौरकर्मणि ।\nअदृष्टशास्त्रकुशलैर्न लोभाद्वध्यते शुचिः ॥"
+          "text": "कच्चिदार्यो विशुद्धात्मा क्षारितश्चौरकर्मणि ।\nअदृष्टशास्त्रकुशलैर्न लोभाद्वध्यते शुचिः ॥",
+          "meaning": {
+            "en": "Is a noble and pure man, falsely branded for theft, never put to death out of greed by those unskilled in the treatises who have not seen the facts?"
+          }
         },
         {
           "n": 94,
-          "text": "पृष्टो गृहीतस्तत्कारी तज्ज्ञैर्दृष्टः सकारणः ।\nकच्चिन्न मुच्यते स्तेनो द्रव्यलोभान्नरर्षभ ॥"
+          "text": "पृष्टो गृहीतस्तत्कारी तज्ज्ञैर्दृष्टः सकारणः ।\nकच्चिन्न मुच्यते स्तेनो द्रव्यलोभान्नरर्षभ ॥",
+          "meaning": {
+            "en": "Bull among men, is a thief, questioned, caught, seen doing the deed by those who know, and proven guilty, never let go from greed for money?"
+          }
         },
         {
           "n": 95,
-          "text": "व्युत्पन्ने कच्चिदाढ्यस्य दरिद्रस्य च भारत ।\nअर्थान्न मिथ्या पश्यन्ति तवामात्या हृता धनैः ॥"
+          "text": "व्युत्पन्ने कच्चिदाढ्यस्य दरिद्रस्य च भारत ।\nअर्थान्न मिथ्या पश्यन्ति तवामात्या हृता धनैः ॥",
+          "meaning": {
+            "en": "Bharata, in a dispute between a rich man and a poor one, do your ministers, bribed with wealth, never look at the matter falsely?"
+          }
         },
         {
           "n": 96,
-          "text": "नास्तिक्यमनृतं क्रोधं प्रमादं दीर्घसूत्रताम् ।\nअदर्शनं ज्ञानवतामालस्यं क्षिप्तचित्तताम् ॥"
+          "text": "नास्तिक्यमनृतं क्रोधं प्रमादं दीर्घसूत्रताम् ।\nअदर्शनं ज्ञानवतामालस्यं क्षिप्तचित्तताम् ॥",
+          "meaning": {
+            "en": "Unbelief, falsehood, anger, carelessness, procrastination, not seeing the learned, laziness, a restless mind,"
+          }
         },
         {
           "n": 97,
-          "text": "एकचिन्तनमर्थानामनर्थज्ञैश्च चिन्तनम् ।\nनिश्चितानामनारम्भं मन्त्रस्यापरिरक्षणम् ॥"
+          "text": "एकचिन्तनमर्थानामनर्थज्ञैश्च चिन्तनम् ।\nनिश्चितानामनारम्भं मन्त्रस्यापरिरक्षणम् ॥",
+          "meaning": {
+            "en": "thinking about affairs alone, taking counsel with those ignorant of the matter, not starting what has been decided, failing to guard counsel,"
+          }
         },
         {
           "n": 98,
-          "text": "मङ्गल्यस्याप्रयोगं च प्रसङ्गं विषयेषु च ।\nकच्चित्त्वं वर्जयस्येतान्राजदोषांश्चतुर्दश ॥"
+          "text": "मङ्गल्यस्याप्रयोगं च प्रसङ्गं विषयेषु च ।\nकच्चित्त्वं वर्जयस्येतान्राजदोषांश्चतुर्दश ॥",
+          "meaning": {
+            "en": "not performing auspicious acts, and attachment to the objects of sense: do you avoid these fourteen faults of kings?"
+          }
         },
         {
           "n": 99,
-          "text": "कच्चित्ते सफला वेदाः कच्चित्ते सफलं धनम् ।\nकच्चित्ते सफला दाराः कच्चित्ते सफलं श्रुतम् ॥"
+          "text": "कच्चित्ते सफला वेदाः कच्चित्ते सफलं धनम् ।\nकच्चित्ते सफला दाराः कच्चित्ते सफलं श्रुतम् ॥",
+          "meaning": {
+            "en": "Are your Vedas fruitful, is your wealth fruitful, are your wives fruitful, is your learning fruitful?"
+          }
         },
         {
-          "text": "युधिष्ठिर उवाच"
+          "text": "युधिष्ठिर उवाच",
+          "meaning": {
+            "en": "Yudhishthira said:"
+          }
         },
         {
           "n": 100,
-          "text": "कथं वै सफला वेदाः कथं वै सफलं धनम् ।\nकथं वै सफला दाराः कथं वै सफलं श्रुतम् ॥"
+          "text": "कथं वै सफला वेदाः कथं वै सफलं धनम् ।\nकथं वै सफला दाराः कथं वै सफलं श्रुतम् ॥",
+          "meaning": {
+            "en": "How are the Vedas fruitful, how is wealth fruitful, how are wives fruitful, and how is learning fruitful?"
+          }
         },
         {
-          "text": "नारद उवाच"
+          "text": "नारद उवाच",
+          "meaning": {
+            "en": "Narada said:"
+          }
         },
         {
           "n": 101,
-          "text": "अग्निहोत्रफला वेदा दत्तभुक्तफलं धनम् ।\nरतिपुत्रफला दाराः शीलवृत्तफलं श्रुतम् ॥"
+          "text": "अग्निहोत्रफला वेदा दत्तभुक्तफलं धनम् ।\nरतिपुत्रफला दाराः शीलवृत्तफलं श्रुतम् ॥",
+          "meaning": {
+            "en": "The Vedas bear fruit in the fire offering, wealth in giving and enjoying, wives in pleasure and sons, and learning in good character and conduct."
+          }
         },
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 102,
-          "text": "एतदाख्याय स मुनिर्नारदः सुमहातपाः ।\nपप्रच्छानन्तरमिदं धर्मात्मानं युधिष्ठिरम् ॥"
+          "text": "एतदाख्याय स मुनिर्नारदः सुमहातपाः ।\nपप्रच्छानन्तरमिदं धर्मात्मानं युधिष्ठिरम् ॥",
+          "meaning": {
+            "en": "Having said this, the great ascetic sage Narada next asked this of the righteous Yudhishthira."
+          }
         },
         {
-          "text": "नारद उवाच"
+          "text": "नारद उवाच",
+          "meaning": {
+            "en": "Narada said:"
+          }
         },
         {
           "n": 103,
-          "text": "कच्चिदभ्यागता दूराद्वणिजो लाभकारणात् ।\nयथोक्तमवहार्यन्ते शुल्कं शुल्कोपजीविभिः ॥"
+          "text": "कच्चिदभ्यागता दूराद्वणिजो लाभकारणात् ।\nयथोक्तमवहार्यन्ते शुल्कं शुल्कोपजीविभिः ॥",
+          "meaning": {
+            "en": "Do merchants who have come from far away for profit pay the customs due, as set down, to those who live on the tolls?"
+          }
         },
         {
           "n": 104,
-          "text": "कच्चित्ते पुरुषा राजन्पुरे राष्ट्रे च मानिताः ।\nउपानयन्ति पण्यानि उपधाभिरवञ्चिताः ॥"
+          "text": "कच्चित्ते पुरुषा राजन्पुरे राष्ट्रे च मानिताः ।\nउपानयन्ति पण्यानि उपधाभिरवञ्चिताः ॥",
+          "meaning": {
+            "en": "Are the men in your city and country honored, and do they bring their goods to you without being cheated by bribes?"
+          }
         },
         {
           "n": 105,
-          "text": "कच्चिच्छृणोषि वृद्धानां धर्मार्थसहिता गिरः ।\nनित्यमर्थविदां तात तथा धर्मानुदर्शिनाम् ॥"
+          "text": "कच्चिच्छृणोषि वृद्धानां धर्मार्थसहिता गिरः ।\nनित्यमर्थविदां तात तथा धर्मानुदर्शिनाम् ॥",
+          "meaning": {
+            "en": "My dear, do you listen to the words of the elders, who always know wealth and see dharma, which join dharma and wealth?"
+          }
         },
         {
           "n": 106,
-          "text": "कच्चित्ते कृषितन्त्रेषु गोषु पुष्पफलेषु च ।\nधर्मार्थं च द्विजातिभ्यो दीयते मधुसर्पिषी ॥"
+          "text": "कच्चित्ते कृषितन्त्रेषु गोषु पुष्पफलेषु च ।\nधर्मार्थं च द्विजातिभ्यो दीयते मधुसर्पिषी ॥",
+          "meaning": {
+            "en": "Are honey and ghee given to the twice-born, for dharma's sake, from your farms, cattle, flowers and fruits?"
+          }
         },
         {
           "n": 107,
-          "text": "द्रव्योपकरणं कच्चित्सर्वदा सर्वशिल्पिनाम् ।\nचातुर्मास्यावरं सम्यङ्नियतं संप्रयच्छसि ॥"
+          "text": "द्रव्योपकरणं कच्चित्सर्वदा सर्वशिल्पिनाम् ।\nचातुर्मास्यावरं सम्यङ्नियतं संप्रयच्छसि ॥",
+          "meaning": {
+            "en": "Do you always give all your craftsmen their materials and tools, and an allowance for at least four months, properly fixed?"
+          }
         },
         {
           "n": 108,
-          "text": "कच्चित्कृतं विजानीषे कर्तारं च प्रशंससि ।\nसतां मध्ये महाराज सत्करोषि च पूजयन् ॥"
+          "text": "कच्चित्कृतं विजानीषे कर्तारं च प्रशंससि ।\nसतां मध्ये महाराज सत्करोषि च पूजयन् ॥",
+          "meaning": {
+            "en": "Do you recognize what has been done and praise the doer, and honor and respect such people in the company of the good, great king?"
+          }
         },
         {
           "n": 109,
-          "text": "कच्चित्सूत्राणि सर्वाणि गृह्णासि भरतर्षभ ।\nहस्तिसूत्राश्वसूत्राणि रथसूत्राणि चाभिभो ॥"
+          "text": "कच्चित्सूत्राणि सर्वाणि गृह्णासि भरतर्षभ ।\nहस्तिसूत्राश्वसूत्राणि रथसूत्राणि चाभिभो ॥",
+          "meaning": {
+            "en": "Bull of the Bharatas, do you master all the manuals, those of elephants, horses and chariots, O mighty one?"
+          }
         },
         {
           "n": 110,
-          "text": "कच्चिदभ्यस्यते शश्वद्गृहे ते भरतर्षभ ।\nधनुर्वेदस्य सूत्रं च यन्त्रसूत्रं च नागरम् ॥"
+          "text": "कच्चिदभ्यस्यते शश्वद्गृहे ते भरतर्षभ ।\nधनुर्वेदस्य सूत्रं च यन्त्रसूत्रं च नागरम् ॥",
+          "meaning": {
+            "en": "Bull of the Bharatas, are the manual of archery and the city's manual of machines constantly studied in your house?"
+          }
         },
         {
           "n": 111,
-          "text": "कच्चिदस्त्राणि सर्वाणि ब्रह्मदण्डश्च तेऽनघ ।\nविषयोगाश्च ते सर्वे विदिताः शत्रुनाशनाः ॥"
+          "text": "कच्चिदस्त्राणि सर्वाणि ब्रह्मदण्डश्च तेऽनघ ।\nविषयोगाश्च ते सर्वे विदिताः शत्रुनाशनाः ॥",
+          "meaning": {
+            "en": "Blameless one, do you know all the weapons, the Brahma rod, and all the uses of poison that destroy enemies?"
+          }
         },
         {
           "n": 112,
-          "text": "कच्चिदग्निभयाच्चैव सर्पव्यालभयात्तथा ।\nरोगरक्षोभयाच्चैव राष्ट्रं स्वं परिरक्षसि ॥"
+          "text": "कच्चिदग्निभयाच्चैव सर्पव्यालभयात्तथा ।\nरोगरक्षोभयाच्चैव राष्ट्रं स्वं परिरक्षसि ॥",
+          "meaning": {
+            "en": "Do you protect your realm from fear of fire, snakes and beasts, disease and demons?"
+          }
         },
         {
           "n": 113,
-          "text": "कच्चिदन्धांश्च मूकांश्च पङ्गून्व्यङ्गानबान्धवान् ।\nपितेव पासि धर्मज्ञ तथा प्रव्रजितानपि ॥"
+          "text": "कच्चिदन्धांश्च मूकांश्च पङ्गून्व्यङ्गानबान्धवान् ।\nपितेव पासि धर्मज्ञ तथा प्रव्रजितानपि ॥",
+          "meaning": {
+            "en": "Knower of dharma, do you look after the blind, the mute, the lame, the disabled, those without kin, and also the wandering ascetics, as a father would?"
+          }
         },
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 114,
-          "text": "एताः कुरूणामृषभो महात्मा\nश्रुत्वा गिरो ब्राह्मणसत्तमस्य ।\nप्रणम्य पादावभिवाद्य हृष्टो\nराजाब्रवीन्नारदं देवरूपम् ॥"
+          "text": "एताः कुरूणामृषभो महात्मा\nश्रुत्वा गिरो ब्राह्मणसत्तमस्य ।\nप्रणम्य पादावभिवाद्य हृष्टो\nराजाब्रवीन्नारदं देवरूपम् ॥",
+          "meaning": {
+            "en": "The great bull of the Kurus, hearing these words of the best of Brahmins, bowed, touched his feet, and, delighted, spoke to Narada, who looked like a god."
+          }
         },
         {
           "n": 115,
-          "text": "एवं करिष्यामि यथा त्वयोक्तं\nप्रज्ञा हि मे भूय एवाभिवृद्धा ।\nउक्त्वा तथा चैव चकार राजा\nलेभे महीं सागरमेखलां च ॥"
+          "text": "एवं करिष्यामि यथा त्वयोक्तं\nप्रज्ञा हि मे भूय एवाभिवृद्धा ।\nउक्त्वा तथा चैव चकार राजा\nलेभे महीं सागरमेखलां च ॥",
+          "meaning": {
+            "en": "\"I will do just as you have said, for my understanding has grown greater.\" Having said so, the king did so, and gained the earth girdled by the sea."
+          }
         },
         {
-          "text": "नारद उवाच"
+          "text": "नारद उवाच",
+          "meaning": {
+            "en": "Narada said:"
+          }
         },
         {
           "n": 116,
-          "text": "एवं यो वर्तते राजा चातुर्वर्ण्यस्य रक्षणे ।\nस विहृत्येह सुसुखी शक्रस्यैति सलोकताम् ॥"
+          "text": "एवं यो वर्तते राजा चातुर्वर्ण्यस्य रक्षणे ।\nस विहृत्येह सुसुखी शक्रस्यैति सलोकताम् ॥",
+          "meaning": {
+            "en": "The king who lives so, protecting the four classes, enjoys himself happily here and attains the same world as Shakra."
+          }
         }
       ]
     }

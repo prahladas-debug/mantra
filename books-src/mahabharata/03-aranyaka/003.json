@@ -22,145 +22,253 @@
       "titleEn": "Aranyaka Parva (Into the forest)",
       "verses": [
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 1,
-          "text": "शौनकेनैवमुक्तस्तु कुन्तीपुत्रो युधिष्ठिरः ।\nपुरोहितमुपागम्य भ्रातृमध्येऽब्रवीदिदम् ॥"
+          "text": "शौनकेनैवमुक्तस्तु कुन्तीपुत्रो युधिष्ठिरः ।\nपुरोहितमुपागम्य भ्रातृमध्येऽब्रवीदिदम् ॥",
+          "meaning": {
+            "en": "Thus addressed by Shaunaka, Yudhishthira, Kunti's son, approached his priest and spoke these words among his brothers."
+          }
         },
         {
           "n": 2,
-          "text": "प्रस्थितं मानुयान्तीमे ब्राह्मणा वेदपारगाः ।\nन चास्मि पालने शक्तो बहुदुःखसमन्वितः ॥"
+          "text": "प्रस्थितं मानुयान्तीमे ब्राह्मणा वेदपारगाः ।\nन चास्मि पालने शक्तो बहुदुःखसमन्वितः ॥",
+          "meaning": {
+            "en": "These Brahmins, masters of the Vedas, are following me as I depart, and I, so burdened with grief, cannot support them."
+          }
         },
         {
           "n": 3,
-          "text": "परित्यक्तुं न शक्नोमि दानशक्तिश्च नास्ति मे ।\nकथमत्र मया कार्यं भगवांस्तद्ब्रवीतु मे ॥"
+          "text": "परित्यक्तुं न शक्नोमि दानशक्तिश्च नास्ति मे ।\nकथमत्र मया कार्यं भगवांस्तद्ब्रवीतु मे ॥",
+          "meaning": {
+            "en": "I cannot abandon them, and I have no means to give to them. Venerable sir, tell me what I should do here."
+          }
         },
         {
           "n": 4,
-          "text": "मुहूर्तमिव स ध्यात्वा धर्मेणान्विष्य तां गतिम् ।\nयुधिष्ठिरमुवाचेदं धौम्यो धर्मभृतां वरः ॥"
+          "text": "मुहूर्तमिव स ध्यात्वा धर्मेणान्विष्य तां गतिम् ।\nयुधिष्ठिरमुवाचेदं धौम्यो धर्मभृतां वरः ॥",
+          "meaning": {
+            "en": "Dhaumya, best of those who uphold dharma, reflected for a moment, searching out the way by dharma, and then said this to Yudhishthira."
+          }
         },
         {
           "n": 5,
-          "text": "पुरा सृष्टानि भूतानि पीड्यन्ते क्षुधया भृशम् ।\nततोऽनुकम्पया तेषां सविता स्वपिता इव ॥"
+          "text": "पुरा सृष्टानि भूतानि पीड्यन्ते क्षुधया भृशम् ।\nततोऽनुकम्पया तेषां सविता स्वपिता इव ॥",
+          "meaning": {
+            "en": "Long ago, when creatures had just been created, they were sorely tormented by hunger. Then, out of compassion, the Sun acted as their father."
+          }
         },
         {
           "n": 6,
-          "text": "गत्वोत्तरायणं तेजोरसानुद्धृत्य रश्मिभिः ।\nदक्षिणायनमावृत्तो महीं निविशते रविः ॥"
+          "text": "गत्वोत्तरायणं तेजोरसानुद्धृत्य रश्मिभिः ।\nदक्षिणायनमावृत्तो महीं निविशते रविः ॥",
+          "meaning": {
+            "en": "He went north, drew up the essence of moisture with his rays, then turned south and entered the earth."
+          }
         },
         {
           "n": 7,
-          "text": "क्षेत्रभूते ततस्तस्मिन्नोषधीरोषधीपतिः ।\nदिवस्तेजः समुद्धृत्य जनयामास वारिणा ॥"
+          "text": "क्षेत्रभूते ततस्तस्मिन्नोषधीरोषधीपतिः ।\nदिवस्तेजः समुद्धृत्य जनयामास वारिणा ॥",
+          "meaning": {
+            "en": "When he had become the field, the lord of plants, the Moon, drew up the radiance of heaven and with water brought forth the plants."
+          }
         },
         {
           "n": 8,
-          "text": "निषिक्तश्चन्द्रतेजोभिः सूयते भूगतो रविः ।\nओषध्यः षड्रसा मेध्यास्तदन्नं प्राणिनां भुवि ॥"
+          "text": "निषिक्तश्चन्द्रतेजोभिः सूयते भूगतो रविः ।\nओषध्यः षड्रसा मेध्यास्तदन्नं प्राणिनां भुवि ॥",
+          "meaning": {
+            "en": "Sprinkled with the Moon's radiance, the Sun, resting in the earth, brings forth the pure herbs with their six tastes, which are the food of beings on earth."
+          }
         },
         {
           "n": 9,
-          "text": "एवं भानुमयं ह्यन्नं भूतानां प्राणधारणम् ।\nपितैष सर्वभूतानां तस्मात्तं शरणं व्रज ॥"
+          "text": "एवं भानुमयं ह्यन्नं भूतानां प्राणधारणम् ।\nपितैष सर्वभूतानां तस्मात्तं शरणं व्रज ॥",
+          "meaning": {
+            "en": "Thus food is made of the Sun and sustains the life of creatures. He is the father of all beings, so take refuge in him."
+          }
         },
         {
           "n": 10,
-          "text": "राजानो हि महात्मानो योनिकर्मविशोधिताः ।\nउद्धरन्ति प्रजाः सर्वास्तप आस्थाय पुष्कलम् ॥"
+          "text": "राजानो हि महात्मानो योनिकर्मविशोधिताः ।\nउद्धरन्ति प्रजाः सर्वास्तप आस्थाय पुष्कलम् ॥",
+          "meaning": {
+            "en": "Great kings, purified by birth and by deeds, have lifted up all their subjects by practising abundant austerity."
+          }
         },
         {
           "n": 11,
-          "text": "भीमेन कार्तवीर्येण वैन्येन नहुषेण च ।\nतपोयोगसमाधिस्थैरुद्धृता ह्यापदः प्रजाः ॥"
+          "text": "भीमेन कार्तवीर्येण वैन्येन नहुषेण च ।\nतपोयोगसमाधिस्थैरुद्धृता ह्यापदः प्रजाः ॥",
+          "meaning": {
+            "en": "Bhima, Kartavirya, Vena's son Prithu and Nahusha, steadfast in austerity, yoga and concentration, rescued their subjects from calamity."
+          }
         },
         {
           "n": 12,
-          "text": "तथा त्वमपि धर्मात्मन्कर्मणा च विशोधितः ।\nतप आस्थाय धर्मेण द्विजातीन्भर भारत ॥"
+          "text": "तथा त्वमपि धर्मात्मन्कर्मणा च विशोधितः ।\nतप आस्थाय धर्मेण द्विजातीन्भर भारत ॥",
+          "meaning": {
+            "en": "You too, righteous one, purified by your deeds, take up austerity by dharma and support the twice-born, descendant of Bharata."
+          }
         },
         {
           "n": 13,
-          "text": "एवमुक्तस्तु धौम्येन तत्कालसदृशं वचः ।\nधर्मराजो विशुद्धात्मा तप आतिष्ठदुत्तमम् ॥"
+          "text": "एवमुक्तस्तु धौम्येन तत्कालसदृशं वचः ।\nधर्मराजो विशुद्धात्मा तप आतिष्ठदुत्तमम् ॥",
+          "meaning": {
+            "en": "Thus addressed by Dhaumya in words suited to the time, Dharmaraja Yudhishthira, pure in self, took up supreme austerity."
+          }
         },
         {
           "n": 14,
-          "text": "पुष्पोपहारैर्बलिभिरर्चयित्वा दिवाकरम् ।\nयोगमास्थाय धर्मात्मा वायुभक्षो जितेन्द्रियः ।\nगाङ्गेयं वार्युपस्पृष्य प्राणायामेन तस्थिवान् ॥"
+          "text": "पुष्पोपहारैर्बलिभिरर्चयित्वा दिवाकरम् ।\nयोगमास्थाय धर्मात्मा वायुभक्षो जितेन्द्रियः ।\nगाङ्गेयं वार्युपस्पृष्य प्राणायामेन तस्थिवान् ॥",
+          "meaning": {
+            "en": "Honoring the Sun with flowers and offerings, the righteous king practiced yoga, living on air with his senses subdued. He touched the water of the Ganga and stood firm in breath control."
+          }
         },
         {
-          "text": "जनमेजय उवाच"
+          "text": "जनमेजय उवाच",
+          "meaning": {
+            "en": "Janamejaya said:"
+          }
         },
         {
           "n": 15,
-          "text": "कथं कुरूणामृषभः स तु राजा युधिष्ठिरः ।\nविप्रार्थमाराधितवान्सूर्यमद्भुतविक्रमम् ॥"
+          "text": "कथं कुरूणामृषभः स तु राजा युधिष्ठिरः ।\nविप्रार्थमाराधितवान्सूर्यमद्भुतविक्रमम् ॥",
+          "meaning": {
+            "en": "How did King Yudhishthira, the bull of the Kurus, worship the Sun of wondrous valor for the sake of the Brahmins?"
+          }
         },
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 16,
-          "text": "शृणुष्वावहितो राजञ्शुचिर्भूत्वा समाहितः ।\nक्षणं च कुरु राजेन्द्र सर्वं वक्ष्याम्यशेषतः ॥"
+          "text": "शृणुष्वावहितो राजञ्शुचिर्भूत्वा समाहितः ।\nक्षणं च कुरु राजेन्द्र सर्वं वक्ष्याम्यशेषतः ॥",
+          "meaning": {
+            "en": "Listen attentively, king, pure and composed, and be still a moment, lord of kings. I will tell it all without omission."
+          }
         },
         {
           "n": 17,
-          "text": "धौम्येन तु यथ प्रोक्तं पार्थाय सुमहात्मने ।\nनाम्नामष्टशतं पुण्यं तच्छृणुष्व महामते ॥"
+          "text": "धौम्येन तु यथ प्रोक्तं पार्थाय सुमहात्मने ।\nनाम्नामष्टशतं पुण्यं तच्छृणुष्व महामते ॥",
+          "meaning": {
+            "en": "Hear, wise one, the sacred hundred and eight names that Dhaumya recited to the great-souled son of Pritha."
+          }
         },
         {
           "n": 18,
-          "text": "सूर्योऽर्यमा भगस्त्वष्टा पूषार्कः सविता रविः ।\nगभस्तिमानजः कालो मृत्युर्धाता प्रभाकरः ॥"
+          "text": "सूर्योऽर्यमा भगस्त्वष्टा पूषार्कः सविता रविः ।\nगभस्तिमानजः कालो मृत्युर्धाता प्रभाकरः ॥",
+          "meaning": {
+            "en": "Surya, Aryaman, Bhaga, Tvashtri, Pushan, Arka, Savitri, Ravi, Gabhastimat, Aja, Kala, Mrityu, Dhatri, Prabhakara,"
+          }
         },
         {
           "n": 19,
-          "text": "पृथिव्यापश्च तेजश्च खं वायुश्च परायणम् ।\nसोमो बृहस्पतिः शुक्रो बुधोऽङ्गारक एव च ॥"
+          "text": "पृथिव्यापश्च तेजश्च खं वायुश्च परायणम् ।\nसोमो बृहस्पतिः शुक्रो बुधोऽङ्गारक एव च ॥",
+          "meaning": {
+            "en": "Earth, Water, Fire, Space, Air, the supreme refuge, Soma, Brihaspati, Shukra, Budha and Angaraka,"
+          }
         },
         {
           "n": 20,
-          "text": "इन्द्रो विवस्वान्दीप्तांशुः शुचिः शौरिः शनैश्चरः ।\nब्रह्मा विष्णुश्च रुद्रश्च स्कन्दो वैश्रवणो यमः ॥"
+          "text": "इन्द्रो विवस्वान्दीप्तांशुः शुचिः शौरिः शनैश्चरः ।\nब्रह्मा विष्णुश्च रुद्रश्च स्कन्दो वैश्रवणो यमः ॥",
+          "meaning": {
+            "en": "Indra, Vivasvat, Dipta-amshu, Shuchi, Shauri, Shanaishchara, Brahma, Vishnu, Rudra, Skanda, Vaishravana, Yama,"
+          }
         },
         {
           "n": 21,
-          "text": "वैद्युतो जाठरश्चाग्निरैन्धनस्तेजसां पतिः ।\nधर्मध्वजो वेदकर्ता वेदाङ्गो वेदवाहनः ॥"
+          "text": "वैद्युतो जाठरश्चाग्निरैन्धनस्तेजसां पतिः ।\nधर्मध्वजो वेदकर्ता वेदाङ्गो वेदवाहनः ॥",
+          "meaning": {
+            "en": "the lightning fire, the digestive fire, the fire of fuel, lord of splendors, Dharma-dhvaja, Veda-kartri, Vedanga, Veda-vahana,"
+          }
         },
         {
           "n": 22,
-          "text": "कृतं त्रेता द्वापरश्च कलिः सर्वामराश्रयः ।\nकला काष्ठा मुहूर्ताश्च पक्षा मासा ऋतुस्तथा ॥"
+          "text": "कृतं त्रेता द्वापरश्च कलिः सर्वामराश्रयः ।\nकला काष्ठा मुहूर्ताश्च पक्षा मासा ऋतुस्तथा ॥",
+          "meaning": {
+            "en": "Krita, Treta, Dvapara, Kali, refuge of all the immortals, the kala, kashtha and muhurta, fortnights, months and seasons,"
+          }
         },
         {
           "n": 23,
-          "text": "संवत्सरकरोऽश्वत्थः कालचक्रो विभावसुः ।\nपुरुषः शाश्वतो योगी व्यक्ताव्यक्तः सनातनः ॥"
+          "text": "संवत्सरकरोऽश्वत्थः कालचक्रो विभावसुः ।\nपुरुषः शाश्वतो योगी व्यक्ताव्यक्तः सनातनः ॥",
+          "meaning": {
+            "en": "maker of the year, the Ashvattha tree, wheel of time, Vibhavasu, the eternal Person, the yogi, manifest and unmanifest, the ancient one,"
+          }
         },
         {
           "n": 24,
-          "text": "लोकाध्यक्षः प्रजाध्यक्षो विश्वकर्मा तमोनुदः ।\nवरुणः सागरोंऽशुश्च जीमूतो जीवनोऽरिहा ॥"
+          "text": "लोकाध्यक्षः प्रजाध्यक्षो विश्वकर्मा तमोनुदः ।\nवरुणः सागरोंऽशुश्च जीमूतो जीवनोऽरिहा ॥",
+          "meaning": {
+            "en": "overseer of the worlds, overseer of creatures, Vishvakarman, dispeller of darkness, Varuna, the ocean, the ray, the cloud, life-giver, slayer of foes,"
+          }
         },
         {
           "n": 25,
-          "text": "भूताश्रयो भूतपतिः सर्वभूतनिषेवितः ।\nमणिः सुवर्णो भूतादिः कामदः सर्वतोमुखः ॥"
+          "text": "भूताश्रयो भूतपतिः सर्वभूतनिषेवितः ।\nमणिः सुवर्णो भूतादिः कामदः सर्वतोमुखः ॥",
+          "meaning": {
+            "en": "refuge of beings, lord of beings, served by all beings, the jewel, the golden one, the origin of beings, giver of desires, facing all directions,"
+          }
         },
         {
           "n": 26,
-          "text": "जयो विशालो वरदः शीघ्रगः प्राणधारणः ।\nधन्वन्तरिर्धूमकेतुरादिदेवोऽदितेः सुतः ॥"
+          "text": "जयो विशालो वरदः शीघ्रगः प्राणधारणः ।\nधन्वन्तरिर्धूमकेतुरादिदेवोऽदितेः सुतः ॥",
+          "meaning": {
+            "en": "Jaya, Vishala, giver of boons, swift-moving, sustainer of life, Dhanvantari, Dhumaketu, the first god, son of Aditi,"
+          }
         },
         {
           "n": 27,
-          "text": "द्वादशात्मारविन्दाक्षः पिता माता पितामहः ।\nस्वर्गद्वारं प्रजाद्वारं मोक्षद्वारं त्रिविष्टपम् ॥"
+          "text": "द्वादशात्मारविन्दाक्षः पिता माता पितामहः ।\nस्वर्गद्वारं प्रजाद्वारं मोक्षद्वारं त्रिविष्टपम् ॥",
+          "meaning": {
+            "en": "twelve-formed, lotus-eyed, father, mother, grandfather, gate of heaven, gate of creatures, gate of liberation, the highest heaven,"
+          }
         },
         {
           "n": 28,
-          "text": "देहकर्ता प्रशान्तात्मा विश्वात्मा विश्वतोमुखः ।\nचराचरात्मा सूक्ष्मात्मा मैत्रेण वपुषान्वितः ॥"
+          "text": "देहकर्ता प्रशान्तात्मा विश्वात्मा विश्वतोमुखः ।\nचराचरात्मा सूक्ष्मात्मा मैत्रेण वपुषान्वितः ॥",
+          "meaning": {
+            "en": "maker of the body, tranquil in self, soul of the universe, facing all sides, self of the moving and unmoving, subtle self, endowed with a friendly form."
+          }
         },
         {
           "n": 29,
-          "text": "एतद्वै कीर्तनीयस्य सूर्यस्यैव महात्मनः ।\nनाम्नामष्टशतं पुण्यं शक्रेणोक्तं महात्मना ॥"
+          "text": "एतद्वै कीर्तनीयस्य सूर्यस्यैव महात्मनः ।\nनाम्नामष्टशतं पुण्यं शक्रेणोक्तं महात्मना ॥",
+          "meaning": {
+            "en": "This is the sacred hundred and eight names of the great-souled Surya, who is worthy of praise, as declared by the great-souled Indra."
+          }
         },
         {
           "n": 30,
-          "text": "शक्राच्च नारदः प्राप्तो धौम्यश्च तदनन्तरम् ।\nधौम्याद्युधिष्ठिरः प्राप्य सर्वान्कामानवाप्तवान् ॥"
+          "text": "शक्राच्च नारदः प्राप्तो धौम्यश्च तदनन्तरम् ।\nधौम्याद्युधिष्ठिरः प्राप्य सर्वान्कामानवाप्तवान् ॥",
+          "meaning": {
+            "en": "From Indra, Narada received it, and then Dhaumya; from Dhaumya Yudhishthira received it and gained all his wishes."
+          }
         },
         {
           "n": 31,
-          "text": "सुरपितृगणयक्षसेवितं\nह्यसुरनिशाचरसिद्धवन्दितम् ।\nवरकनकहुताशनप्रभं\nत्वमपि मनस्यभिधेहि भास्करम् ॥"
+          "text": "सुरपितृगणयक्षसेवितं\nह्यसुरनिशाचरसिद्धवन्दितम् ।\nवरकनकहुताशनप्रभं\nत्वमपि मनस्यभिधेहि भास्करम् ॥",
+          "meaning": {
+            "en": "He is served by gods, ancestors and yakshas, hymned by asuras, night-rovers and siddhas, and shines like fine gold and fire. You too, hold Bhaskara the Sun in your mind."
+          }
         },
         {
           "n": 32,
-          "text": "सूर्योदये यस्तु समाहितः पठे-\nत्स पुत्रलाभं धनरत्नसंचयान् ।\nलभेत जातिस्मरतां सदा नरः\nस्मृतिं च मेधां च स विन्दते पराम् ॥"
+          "text": "सूर्योदये यस्तु समाहितः पठे-\nत्स पुत्रलाभं धनरत्नसंचयान् ।\nलभेत जातिस्मरतां सदा नरः\nस्मृतिं च मेधां च स विन्दते पराम् ॥",
+          "meaning": {
+            "en": "A man who attentively recites this at sunrise gains a son, wealth and heaps of jewels, always remembers his past births, and attains supreme memory and intelligence."
+          }
         },
         {
           "n": 33,
-          "text": "इमं स्तवं देववरस्य यो नरः\nप्रकीर्तयेच्छुचिसुमनाः समाहितः ।\nस मुच्यते शोकदवाग्निसागरा-\nल्लभेत कामान्मनसा यथेप्सितान् ॥"
+          "text": "इमं स्तवं देववरस्य यो नरः\nप्रकीर्तयेच्छुचिसुमनाः समाहितः ।\nस मुच्यते शोकदवाग्निसागरा-\nल्लभेत कामान्मनसा यथेप्सितान् ॥",
+          "meaning": {
+            "en": "A man who, pure and with a glad mind, attentively recites this hymn to the best of gods is freed from the ocean of sorrow, a forest fire, and obtains whatever desires his mind wishes."
+          }
         }
       ]
     }

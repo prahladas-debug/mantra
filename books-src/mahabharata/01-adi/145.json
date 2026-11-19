@@ -22,179 +22,314 @@
       "titleEn": "Bakavadha Parva (Slaying of Baka)",
       "verses": [
         {
-          "text": "जनमेजय उवाच"
+          "text": "जनमेजय उवाच",
+          "meaning": {
+            "en": "Janamejaya said:"
+          }
         },
         {
           "n": 1,
-          "text": "एकचक्रां गतास्ते तु कुन्तीपुत्रा महारथाः ।\nअतः परं द्विजश्रेष्ठ किमकुर्वत पाण्डवाः ॥"
+          "text": "एकचक्रां गतास्ते तु कुन्तीपुत्रा महारथाः ।\nअतः परं द्विजश्रेष्ठ किमकुर्वत पाण्डवाः ॥",
+          "meaning": {
+            "en": "'The sons of Kunti, great chariot-warriors, had gone to Ekachakra. What did the Pandavas do after that, best of Brahmins?'"
+          }
         },
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 2,
-          "text": "एकचक्रां गतास्ते तु कुन्तीपुत्रा महारथाः ।\nऊषुर्नातिचिरं कालं ब्राह्मणस्य निवेशने ॥"
+          "text": "एकचक्रां गतास्ते तु कुन्तीपुत्रा महारथाः ।\nऊषुर्नातिचिरं कालं ब्राह्मणस्य निवेशने ॥",
+          "meaning": {
+            "en": "The great chariot-warriors, sons of Kunti, having gone to Ekachakra, stayed not very long in a Brahmin's house."
+          }
         },
         {
           "n": 3,
-          "text": "रमणीयानि पश्यन्तो वनानि विविधानि च ।\nपार्थिवानपि चोद्देशान्सरितश्च सरांसि च ॥"
+          "text": "रमणीयानि पश्यन्तो वनानि विविधानि च ।\nपार्थिवानपि चोद्देशान्सरितश्च सरांसि च ॥",
+          "meaning": {
+            "en": "They looked at lovely and varied forests, at royal places, rivers and lakes."
+          }
         },
         {
           "n": 4,
-          "text": "चेरुर्भैक्षं तदा ते तु सर्व एव विशां पते ।\nबभूवुर्नागराणां च स्वैर्गुणैः प्रियदर्शनाः ॥"
+          "text": "चेरुर्भैक्षं तदा ते तु सर्व एव विशां पते ।\nबभूवुर्नागराणां च स्वैर्गुणैः प्रियदर्शनाः ॥",
+          "meaning": {
+            "en": "All of them went begging then, lord of the people, and became dear to the townspeople's eyes by their own virtues."
+          }
         },
         {
           "n": 5,
-          "text": "निवेदयन्ति स्म च ते भैक्षं कुन्त्याः सदा निशि ।\nतया विभक्तान्भागांस्ते भुञ्जते स्म पृथक्पृथक् ॥"
+          "text": "निवेदयन्ति स्म च ते भैक्षं कुन्त्याः सदा निशि ।\nतया विभक्तान्भागांस्ते भुञ्जते स्म पृथक्पृथक् ॥",
+          "meaning": {
+            "en": "At night they always gave the alms to Kunti, and she divided it, and they ate their separate shares."
+          }
         },
         {
           "n": 6,
-          "text": "अर्धं ते भुञ्जते वीराः सह मात्रा परंतपाः ।\nअर्धं भैक्षस्य सर्वस्य भीमो भुङ्क्ते महाबलः ॥"
+          "text": "अर्धं ते भुञ्जते वीराः सह मात्रा परंतपाः ।\nअर्धं भैक्षस्य सर्वस्य भीमो भुङ्क्ते महाबलः ॥",
+          "meaning": {
+            "en": "The heroes, scorchers of foes, ate half with their mother, and mighty Bhima ate the other half of all the alms."
+          }
         },
         {
           "n": 7,
-          "text": "तथा तु तेषां वसतां तत्र राजन्महात्मनाम् ।\nअतिचक्राम सुमहान्कालोऽथ भरतर्षभ ॥"
+          "text": "तथा तु तेषां वसतां तत्र राजन्महात्मनाम् ।\nअतिचक्राम सुमहान्कालोऽथ भरतर्षभ ॥",
+          "meaning": {
+            "en": "While those great souls lived there, O king, a very long time passed, bull of the Bharatas."
+          }
         },
         {
           "n": 8,
-          "text": "ततः कदाचिद्भैक्षाय गतास्ते भरतर्षभाः ।\nसंगत्या भीमसेनस्तु तत्रास्ते पृथया सह ॥"
+          "text": "ततः कदाचिद्भैक्षाय गतास्ते भरतर्षभाः ।\nसंगत्या भीमसेनस्तु तत्रास्ते पृथया सह ॥",
+          "meaning": {
+            "en": "Then one day, when the others had gone to beg, Bhimasena stayed behind with Pritha."
+          }
         },
         {
           "n": 9,
-          "text": "अथार्तिजं महाशब्दं ब्राह्मणस्य निवेशने ।\nभृशमुत्पतितं घोरं कुन्ती शुश्राव भारत ॥"
+          "text": "अथार्तिजं महाशब्दं ब्राह्मणस्य निवेशने ।\nभृशमुत्पतितं घोरं कुन्ती शुश्राव भारत ॥",
+          "meaning": {
+            "en": "Then Kunti heard a great, terrible cry of anguish arise from the Brahmin's house, O Bharata."
+          }
         },
         {
           "n": 10,
-          "text": "रोरूयमाणांस्तान्सर्वान्परिदेवयतश्च सा ।\nकारुण्यात्साधुभावाच्च देवी राजन्न चक्षमे ॥"
+          "text": "रोरूयमाणांस्तान्सर्वान्परिदेवयतश्च सा ।\nकारुण्यात्साधुभावाच्च देवी राजन्न चक्षमे ॥",
+          "meaning": {
+            "en": "Hearing them all crying and lamenting, the lady could not bear it, from compassion and goodness, O king."
+          }
         },
         {
           "n": 11,
-          "text": "मथ्यमानेव दुःखेन हृदयेन पृथा ततः ।\nउवाच भीमं कल्याणी कृपान्वितमिदं वचः ॥"
+          "text": "मथ्यमानेव दुःखेन हृदयेन पृथा ततः ।\nउवाच भीमं कल्याणी कृपान्वितमिदं वचः ॥",
+          "meaning": {
+            "en": "Her heart as if churned by sorrow, the gracious Pritha then spoke these pitying words to Bhima."
+          }
         },
         {
           "n": 12,
-          "text": "वसामः सुसुखं पुत्र ब्राह्मणस्य निवेशने ।\nअज्ञाता धार्तराष्ट्राणां सत्कृता वीतमन्यवः ॥"
+          "text": "वसामः सुसुखं पुत्र ब्राह्मणस्य निवेशने ।\nअज्ञाता धार्तराष्ट्राणां सत्कृता वीतमन्यवः ॥",
+          "meaning": {
+            "en": "'We live very comfortably in this Brahmin's house, son, unknown to Dhritarashtra's sons, well treated and free of anger."
+          }
         },
         {
           "n": 13,
-          "text": "सा चिन्तये सदा पुत्र ब्राह्मणस्यास्य किं न्वहम् ।\nप्रियं कुर्यामिति गृहे यत्कुर्युरुषिताः सुखम् ॥"
+          "text": "सा चिन्तये सदा पुत्र ब्राह्मणस्यास्य किं न्वहम् ।\nप्रियं कुर्यामिति गृहे यत्कुर्युरुषिताः सुखम् ॥",
+          "meaning": {
+            "en": "'I keep thinking, son, what I could do to please this Brahmin, for what lodgers do for the household that gives them comfort."
+          }
         },
         {
           "n": 14,
-          "text": "एतावान्पुरुषस्तात कृतं यस्मिन्न नश्यति ।\nयावच्च कुर्यादन्योऽस्य कुर्यादभ्यधिकं ततः ॥"
+          "text": "एतावान्पुरुषस्तात कृतं यस्मिन्न नश्यति ।\nयावच्च कुर्यादन्योऽस्य कुर्यादभ्यधिकं ततः ॥",
+          "meaning": {
+            "en": "'This is what a man is, dear son: that the good done to him is not lost, and he does even more than another has done for him."
+          }
         },
         {
           "n": 15,
-          "text": "तदिदं ब्राह्मणस्यास्य दुःखमापतितं ध्रुवम् ।\nतत्रास्य यदि साहाय्यं कुर्याम सुकृतं भवेत् ॥"
+          "text": "तदिदं ब्राह्मणस्यास्य दुःखमापतितं ध्रुवम् ।\nतत्रास्य यदि साहाय्यं कुर्याम सुकृतं भवेत् ॥",
+          "meaning": {
+            "en": "'Surely sorrow has fallen on this Brahmin. If we could help him in it, it would be a good deed.'"
+          }
         },
         {
-          "text": "भीम उवाच"
+          "text": "भीम उवाच",
+          "meaning": {
+            "en": "Bhima said:"
+          }
         },
         {
           "n": 16,
-          "text": "ज्ञायतामस्य यद्दुःखं यतश्चैव समुत्थितम् ।\nविदिते व्यवसिष्यामि यद्यपि स्यात्सुदुष्करम् ॥"
+          "text": "ज्ञायतामस्य यद्दुःखं यतश्चैव समुत्थितम् ।\nविदिते व्यवसिष्यामि यद्यपि स्यात्सुदुष्करम् ॥",
+          "meaning": {
+            "en": "'Let us find out what his grief is and where it comes from. Once I know, I will set to work, even if it is very hard.'"
+          }
         },
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 17,
-          "text": "तथा हि कथयन्तौ तौ भूयः शुश्रुवतुः स्वनम् ।\nआर्तिजं तस्य विप्रस्य सभार्यस्य विशां पते ॥"
+          "text": "तथा हि कथयन्तौ तौ भूयः शुश्रुवतुः स्वनम् ।\nआर्तिजं तस्य विप्रस्य सभार्यस्य विशां पते ॥",
+          "meaning": {
+            "en": "As the two were speaking, they heard again the cry of anguish of that Brahmin and his wife, lord of the people."
+          }
         },
         {
           "n": 18,
-          "text": "अन्तःपुरं ततस्तस्य ब्राह्मणस्य महात्मनः ।\nविवेश कुन्ती त्वरिता बद्धवत्सेव सौरभी ॥"
+          "text": "अन्तःपुरं ततस्तस्य ब्राह्मणस्य महात्मनः ।\nविवेश कुन्ती त्वरिता बद्धवत्सेव सौरभी ॥",
+          "meaning": {
+            "en": "Then Kunti went quickly into the inner rooms of that great Brahmin, like the cow Surabhi to her tethered calf."
+          }
         },
         {
           "n": 19,
-          "text": "ततस्तं ब्राह्मणं तत्र भार्यया च सुतेन च ।\nदुहित्रा चैव सहितं ददर्श विकृताननम् ॥"
+          "text": "ततस्तं ब्राह्मणं तत्र भार्यया च सुतेन च ।\nदुहित्रा चैव सहितं ददर्श विकृताननम् ॥",
+          "meaning": {
+            "en": "There she saw the Brahmin with his wife, his son and his daughter, his face distorted."
+          }
         },
         {
-          "text": "ब्राह्मण उवाच"
+          "text": "ब्राह्मण उवाच",
+          "meaning": {
+            "en": "The Brahmin said:"
+          }
         },
         {
           "n": 20,
-          "text": "धिगिदं जीवितं लोकेऽनलसारमनर्थकम् ।\nदुःखमूलं पराधीनं भृशमप्रियभागि च ॥"
+          "text": "धिगिदं जीवितं लोकेऽनलसारमनर्थकम् ।\nदुःखमूलं पराधीनं भृशमप्रियभागि च ॥",
+          "meaning": {
+            "en": "'Shame on this life in the world, as empty as flame, useless, rooted in sorrow, dependent on others, and mostly unpleasant."
+          }
         },
         {
           "n": 21,
-          "text": "जीविते परमं दुःखं जीविते परमो ज्वरः ।\nजीविते वर्तमानस्य द्वन्द्वानामागमो ध्रुवः ॥"
+          "text": "जीविते परमं दुःखं जीविते परमो ज्वरः ।\nजीविते वर्तमानस्य द्वन्द्वानामागमो ध्रुवः ॥",
+          "meaning": {
+            "en": "'In life is the greatest sorrow, in life the greatest fever; for one who lives, pairs of opposites surely come."
+          }
         },
         {
           "n": 22,
-          "text": "एकात्मापि हि धर्मार्थौ कामं च न निषेवते ।\nएतैश्च विप्रयोगोऽपि दुःखं परमकं मतम् ॥"
+          "text": "एकात्मापि हि धर्मार्थौ कामं च न निषेवते ।\nएतैश्च विप्रयोगोऽपि दुःखं परमकं मतम् ॥",
+          "meaning": {
+            "en": "'Even a single self cannot fully enjoy dharma, wealth and desire; and separation from them is also counted the greatest pain."
+          }
         },
         {
           "n": 23,
-          "text": "आहुः केचित्परं मोक्षं स च नास्ति कथंचन ।\nअर्थप्राप्तौ च नरकः कृत्स्न एवोपपद्यते ॥"
+          "text": "आहुः केचित्परं मोक्षं स च नास्ति कथंचन ।\nअर्थप्राप्तौ च नरकः कृत्स्न एवोपपद्यते ॥",
+          "meaning": {
+            "en": "'Some say liberation is the highest, but it is nowhere to be had; and in getting wealth the whole of hell is found."
+          }
         },
         {
           "n": 24,
-          "text": "अर्थेप्सुता परं दुःखमर्थप्राप्तौ ततोऽधिकम् ।\nजातस्नेहस्य चार्थेषु विप्रयोगे महत्तरम् ॥"
+          "text": "अर्थेप्सुता परं दुःखमर्थप्राप्तौ ततोऽधिकम् ।\nजातस्नेहस्य चार्थेषु विप्रयोगे महत्तरम् ॥",
+          "meaning": {
+            "en": "'Longing for wealth is great sorrow, and getting it is more; and when one has grown fond of possessions, losing them is greatest."
+          }
         },
         {
           "n": 25,
-          "text": "न हि योगं प्रपश्यामि येन मुच्येयमापदः ।\nपुत्रदारेण वा सार्धं प्राद्रवेयामनामयम् ॥"
+          "text": "न हि योगं प्रपश्यामि येन मुच्येयमापदः ।\nपुत्रदारेण वा सार्धं प्राद्रवेयामनामयम् ॥",
+          "meaning": {
+            "en": "'I see no way by which I could be freed from this danger, or flee safe with my wife and son."
+          }
         },
         {
           "n": 26,
-          "text": "यतितं वै मया पूर्वं यथा त्वं वेत्थ ब्राह्मणि ।\nयतः क्षेमं ततो गन्तुं त्वया तु मम न श्रुतम् ॥"
+          "text": "यतितं वै मया पूर्वं यथा त्वं वेत्थ ब्राह्मणि ।\nयतः क्षेमं ततो गन्तुं त्वया तु मम न श्रुतम् ॥",
+          "meaning": {
+            "en": "'I tried before, as you know, Brahmin lady, to go where there was safety, but you did not listen to me."
+          }
         },
         {
           "n": 27,
-          "text": "इह जाता विवृद्धास्मि पिता चेह ममेति च ।\nउक्तवत्यसि दुर्मेधे याच्यमाना मयासकृत् ॥"
+          "text": "इह जाता विवृद्धास्मि पिता चेह ममेति च ।\nउक्तवत्यसि दुर्मेधे याच्यमाना मयासकृत् ॥",
+          "meaning": {
+            "en": "'You said, foolish woman, when I begged you again and again: I was born and grew up here, and this was my father's place."
+          }
         },
         {
           "n": 28,
-          "text": "स्वर्गतो हि पिता वृद्धस्तथा माता चिरं तव ।\nबान्धवा भूतपूर्वाश्च तत्र वासे तु का रतिः ॥"
+          "text": "स्वर्गतो हि पिता वृद्धस्तथा माता चिरं तव ।\nबान्धवा भूतपूर्वाश्च तत्र वासे तु का रतिः ॥",
+          "meaning": {
+            "en": "'Your old father and mother have long since gone to heaven, and your relatives of the past too; what pleasure is there in staying here?"
+          }
         },
         {
           "n": 29,
-          "text": "सोऽयं ते बन्धुकामाया अशृण्वन्त्या वचो मम ।\nबन्धुप्रणाशः संप्राप्तो भृशं दुःखकरो मम ॥"
+          "text": "सोऽयं ते बन्धुकामाया अशृण्वन्त्या वचो मम ।\nबन्धुप्रणाशः संप्राप्तो भृशं दुःखकरो मम ॥",
+          "meaning": {
+            "en": "'Wanting your kin, you did not listen to my words, and now the destruction of my kin has come, causing me great pain."
+          }
         },
         {
           "n": 30,
-          "text": "अथ वा मद्विनाशोऽयं न हि शक्ष्यामि कंचन ।\nपरित्यक्तुमहं बन्धुं स्वयं जीवन्नृशंसवत् ॥"
+          "text": "अथ वा मद्विनाशोऽयं न हि शक्ष्यामि कंचन ।\nपरित्यक्तुमहं बन्धुं स्वयं जीवन्नृशंसवत् ॥",
+          "meaning": {
+            "en": "'Or rather it is my own destruction. I could not, being myself alive, abandon any relative like a cruel man."
+          }
         },
         {
           "n": 31,
-          "text": "सहधर्मचरीं दान्तां नित्यं मातृसमां मम ।\nसखायं विहितां देवैर्नित्यं परमिकां गतिम् ॥"
+          "text": "सहधर्मचरीं दान्तां नित्यं मातृसमां मम ।\nसखायं विहितां देवैर्नित्यं परमिकां गतिम् ॥",
+          "meaning": {
+            "en": "'You are my partner in dharma, self-controlled, always like a mother to me, a friend given by the gods, my constant highest refuge."
+          }
         },
         {
           "n": 32,
-          "text": "मात्रा पित्रा च विहितां सदा गार्हस्थ्यभागिनीम् ।\nवरयित्वा यथान्यायं मन्त्रवत्परिणीय च ॥"
+          "text": "मात्रा पित्रा च विहितां सदा गार्हस्थ्यभागिनीम् ।\nवरयित्वा यथान्यायं मन्त्रवत्परिणीय च ॥",
+          "meaning": {
+            "en": "'You were given to me by your mother and father to share the householder's life, and I chose you by the rule and married you with mantras."
+          }
         },
         {
           "n": 33,
-          "text": "कुलीनां शीलसंपन्नामपत्यजननीं मम ।\nत्वामहं जीवितस्यार्थे साध्वीमनपकारिणीम् ।\nपरित्यक्तुं न शक्ष्यामि भार्यां नित्यमनुव्रताम् ॥"
+          "text": "कुलीनां शीलसंपन्नामपत्यजननीं मम ।\nत्वामहं जीवितस्यार्थे साध्वीमनपकारिणीम् ।\nपरित्यक्तुं न शक्ष्यामि भार्यां नित्यमनुव्रताम् ॥",
+          "meaning": {
+            "en": "'Of good family and good character, mother of my child, virtuous, never harming me, always devoted: I cannot abandon you, my wife, to save my own life."
+          }
         },
         {
           "n": 34,
-          "text": "कुत एव परित्यक्तुं सुतां शक्ष्याम्यहं स्वयम् ।\nबालामप्राप्तवयसमजातव्यञ्जनाकृतिम् ॥"
+          "text": "कुत एव परित्यक्तुं सुतां शक्ष्याम्यहं स्वयम् ।\nबालामप्राप्तवयसमजातव्यञ्जनाकृतिम् ॥",
+          "meaning": {
+            "en": "'How then could I give up my own daughter, a girl not yet grown, without the marks of womanhood?"
+          }
         },
         {
           "n": 35,
-          "text": "भर्तुरर्थाय निक्षिप्तां न्यासं धात्रा महात्मना ।\nयस्यां दौहित्रजाँल्लोकानाशंसे पितृभिः सह ।\nस्वयमुत्पाद्य तां बालां कथमुत्स्रष्टुमुत्सहे ॥"
+          "text": "भर्तुरर्थाय निक्षिप्तां न्यासं धात्रा महात्मना ।\nयस्यां दौहित्रजाँल्लोकानाशंसे पितृभिः सह ।\nस्वयमुत्पाद्य तां बालां कथमुत्स्रष्टुमुत्सहे ॥",
+          "meaning": {
+            "en": "'She was laid down by the great Creator as a trust for her husband. I hope for worlds with my ancestors through the sons she will bear. How can I, having begotten her, bring myself to cast her away?"
+          }
         },
         {
           "n": 36,
-          "text": "मन्यन्ते केचिदधिकं स्नेहं पुत्रे पितुर्नराः ।\nकन्यायां नैव तु पुनर्मम तुल्यावुभौ मतौ ॥"
+          "text": "मन्यन्ते केचिदधिकं स्नेहं पुत्रे पितुर्नराः ।\nकन्यायां नैव तु पुनर्मम तुल्यावुभौ मतौ ॥",
+          "meaning": {
+            "en": "'Some men think a father's love is greater for a son; but not for a daughter. For me the two are equal."
+          }
         },
         {
           "n": 37,
-          "text": "यस्मिँल्लोकाः प्रसूतिश्च स्थिता नित्यमथो सुखम् ।\nअपापां तामहं बालां कथमुत्स्रष्टुमुत्सहे ॥"
+          "text": "यस्मिँल्लोकाः प्रसूतिश्च स्थिता नित्यमथो सुखम् ।\nअपापां तामहं बालां कथमुत्स्रष्टुमुत्सहे ॥",
+          "meaning": {
+            "en": "'On whom the worlds, the line, and always happiness rest: how can I give up that sinless child?"
+          }
         },
         {
           "n": 38,
-          "text": "आत्मानमपि चोत्सृज्य तप्स्ये प्रेतवशं गतः ।\nत्यक्ता ह्येते मया व्यक्तं नेह शक्ष्यन्ति जीवितुम् ॥"
+          "text": "आत्मानमपि चोत्सृज्य तप्स्ये प्रेतवशं गतः ।\nत्यक्ता ह्येते मया व्यक्तं नेह शक्ष्यन्ति जीवितुम् ॥",
+          "meaning": {
+            "en": "'And if I gave up myself too, I would burn in Yama's power; for if I leave these they surely cannot live here."
+          }
         },
         {
           "n": 39,
-          "text": "एषां चान्यतमत्यागो नृशंसो गर्हितो बुधैः ।\nआत्मत्यागे कृते चेमे मरिष्यन्ति मया विना ॥"
+          "text": "एषां चान्यतमत्यागो नृशंसो गर्हितो बुधैः ।\nआत्मत्यागे कृते चेमे मरिष्यन्ति मया विना ॥",
+          "meaning": {
+            "en": "'Giving up any one of them is cruel and blamed by the wise; and if I give up myself, they will die without me."
+          }
         },
         {
           "n": 40,
-          "text": "स कृच्छ्रामहमापन्नो न शक्तस्तर्तुमापदम् ।\nअहो धिक्कां गतिं त्वद्य गमिष्यामि सबान्धवः ।\nसर्वैः सह मृतं श्रेयो न तु मे जीवितं क्षमम् ॥"
+          "text": "स कृच्छ्रामहमापन्नो न शक्तस्तर्तुमापदम् ।\nअहो धिक्कां गतिं त्वद्य गमिष्यामि सबान्धवः ।\nसर्वैः सह मृतं श्रेयो न तु मे जीवितं क्षमम् ॥",
+          "meaning": {
+            "en": "'So I have fallen into trouble and cannot cross it. Alas, what end shall I come to today with my kin? It is better to die with all of them; my own life is not worth keeping.'"
+          }
         }
       ]
     }

@@ -22,65 +22,113 @@
       "titleEn": "Astika Parva",
       "verses": [
         {
-          "text": "सूत उवाच"
+          "text": "सूत उवाच",
+          "meaning": {
+            "en": "Suta's son said:"
+          }
         },
         {
           "n": 1,
-          "text": "एलापत्रस्य तु वचः श्रुत्वा नागा द्विजोत्तम ।\nसर्वे प्रहृष्टमनसः साधु साध्वित्यपूजयन् ॥"
+          "text": "एलापत्रस्य तु वचः श्रुत्वा नागा द्विजोत्तम ।\nसर्वे प्रहृष्टमनसः साधु साध्वित्यपूजयन् ॥",
+          "meaning": {
+            "en": "Hearing Elapatra's words, all the nagas, best of brahmins, were glad at heart and praised him, saying, \"Well said, well said.\""
+          }
         },
         {
           "n": 2,
-          "text": "ततः प्रभृति तां कन्यां वासुकिः पर्यरक्षत ।\nजरत्कारुं स्वसारं वै परं हर्षमवाप च ॥"
+          "text": "ततः प्रभृति तां कन्यां वासुकिः पर्यरक्षत ।\nजरत्कारुं स्वसारं वै परं हर्षमवाप च ॥",
+          "meaning": {
+            "en": "From then on Vasuki kept his sister Jaratkaru guarded, and felt great joy."
+          }
         },
         {
           "n": 3,
-          "text": "ततो नातिमहान्कालः समतीत इवाभवत् ।\nअथ देवासुराः सर्वे ममन्थुर्वरुणालयम् ॥"
+          "text": "ततो नातिमहान्कालः समतीत इवाभवत् ।\nअथ देवासुराः सर्वे ममन्थुर्वरुणालयम् ॥",
+          "meaning": {
+            "en": "Then not very long after, it seems, the gods and asuras all churned the abode of Varuna, the ocean."
+          }
         },
         {
           "n": 4,
-          "text": "तत्र नेत्रमभून्नागो वासुकिर्बलिनां वरः ।\nसमाप्यैव च तत्कर्म पितामहमुपागमन् ॥"
+          "text": "तत्र नेत्रमभून्नागो वासुकिर्बलिनां वरः ।\nसमाप्यैव च तत्कर्म पितामहमुपागमन् ॥",
+          "meaning": {
+            "en": "There the serpent Vasuki, best of the strong, served as the rope. When that work was done, they went to the Grandfather."
+          }
         },
         {
           "n": 5,
-          "text": "देवा वासुकिना सार्धं पितामहमथाब्रुवन् ।\nभगवञ्शापभीतोऽयं वासुकिस्तप्यते भृशम् ॥"
+          "text": "देवा वासुकिना सार्धं पितामहमथाब्रुवन् ।\nभगवञ्शापभीतोऽयं वासुकिस्तप्यते भृशम् ॥",
+          "meaning": {
+            "en": "The gods with Vasuki said to the Grandfather, \"Lord, this Vasuki is greatly tormented, afraid of the curse."
+          }
         },
         {
           "n": 6,
-          "text": "तस्येदं मानसं शल्यं समुद्धर्तुं त्वमर्हसि ।\nजनन्याः शापजं देव ज्ञातीनां हितकाङ्क्षिणः ॥"
+          "text": "तस्येदं मानसं शल्यं समुद्धर्तुं त्वमर्हसि ।\nजनन्याः शापजं देव ज्ञातीनां हितकाङ्क्षिणः ॥",
+          "meaning": {
+            "en": "You should pull out this thorn in his mind, god, born of his mother's curse, for he wishes good for his kinsmen."
+          }
         },
         {
           "n": 7,
-          "text": "हितो ह्ययं सदास्माकं प्रियकारी च नागराट् ।\nकुरु प्रसादं देवेश शमयास्य मनोज्वरम् ॥"
+          "text": "हितो ह्ययं सदास्माकं प्रियकारी च नागराट् ।\nकुरु प्रसादं देवेश शमयास्य मनोज्वरम् ॥",
+          "meaning": {
+            "en": "This king of serpents is ever our well-wisher and does what pleases us. Show him favor, lord of gods, and cool the fever of his mind.\""
+          }
         },
         {
-          "text": "ब्रह्मोवाच"
+          "text": "ब्रह्मोवाच",
+          "meaning": {
+            "en": "Brahma said:"
+          }
         },
         {
           "n": 8,
-          "text": "मयैवैतद्वितीर्णं वै वचनं मनसामराः ।\nएलापत्रेण नागेन यदस्याभिहितं पुरा ॥"
+          "text": "मयैवैतद्वितीर्णं वै वचनं मनसामराः ।\nएलापत्रेण नागेन यदस्याभिहितं पुरा ॥",
+          "meaning": {
+            "en": "\"Immortals, I myself granted this in my mind, when the serpent Elapatra spoke earlier in his hearing."
+          }
         },
         {
           "n": 9,
-          "text": "तत्करोत्वेष नागेन्द्रः प्राप्तकालं वचस्तथा ।\nविनशिष्यन्ति ये पापा न तु ये धर्मचारिणः ॥"
+          "text": "तत्करोत्वेष नागेन्द्रः प्राप्तकालं वचस्तथा ।\nविनशिष्यन्ति ये पापा न तु ये धर्मचारिणः ॥",
+          "meaning": {
+            "en": "Let the serpent king do as that timely word said. Those who are wicked will perish, not those who follow dharma."
+          }
         },
         {
           "n": 10,
-          "text": "उत्पन्नः स जरत्कारुस्तपस्युग्रे रतो द्विजः ।\nतस्यैष भगिनीं काले जरत्कारुं प्रयच्छतु ॥"
+          "text": "उत्पन्नः स जरत्कारुस्तपस्युग्रे रतो द्विजः ।\nतस्यैष भगिनीं काले जरत्कारुं प्रयच्छतु ॥",
+          "meaning": {
+            "en": "The brahmin Jaratkaru has been born, devoted to severe austerity. In due time let Vasuki give his sister Jaratkaru to him."
+          }
         },
         {
           "n": 11,
-          "text": "यदेलापत्रेण वचस्तदोक्तं भुजगेन ह ।\nपन्नगानां हितं देवास्तत्तथा न तदन्यथा ॥"
+          "text": "यदेलापत्रेण वचस्तदोक्तं भुजगेन ह ।\nपन्नगानां हितं देवास्तत्तथा न तदन्यथा ॥",
+          "meaning": {
+            "en": "What the serpent Elapatra said then is for the good of the serpents, gods; it will be so, and not otherwise.\""
+          }
         },
         {
-          "text": "सूत उवाच"
+          "text": "सूत उवाच",
+          "meaning": {
+            "en": "Suta's son said:"
+          }
         },
         {
           "n": 12,
-          "text": "एतच्छ्रुत्वा स नागेन्द्रः पितामहवचस्तदा ।\nसर्पान्बहूञ्जरत्कारौ नित्ययुक्तान्समादधत् ॥"
+          "text": "एतच्छ्रुत्वा स नागेन्द्रः पितामहवचस्तदा ।\nसर्पान्बहूञ्जरत्कारौ नित्ययुक्तान्समादधत् ॥",
+          "meaning": {
+            "en": "Hearing this word of the Grandfather, the king of serpents then appointed many serpents, always attentive, to watch for Jaratkaru."
+          }
         },
         {
           "n": 13,
-          "text": "जरत्कारुर्यदा भार्यामिच्छेद्वरयितुं प्रभुः ।\nशीघ्रमेत्य ममाख्येयं तन्नः श्रेयो भविष्यति ॥"
+          "text": "जरत्कारुर्यदा भार्यामिच्छेद्वरयितुं प्रभुः ।\nशीघ्रमेत्य ममाख्येयं तन्नः श्रेयो भविष्यति ॥",
+          "meaning": {
+            "en": "\"When the mighty Jaratkaru wishes to choose a wife, come quickly and tell me. That will be good for us.\""
+          }
         }
       ]
     }

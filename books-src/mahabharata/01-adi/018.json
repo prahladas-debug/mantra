@@ -22,60 +22,105 @@
       "titleEn": "Astika Parva",
       "verses": [
         {
-          "text": "सूत उवाच"
+          "text": "सूत उवाच",
+          "meaning": {
+            "en": "Suta's son said:"
+          }
         },
         {
           "n": 1,
-          "text": "एतत्ते सर्वमाख्यातममृतं मथितं यथा ।\nयत्र सोऽश्वः समुत्पन्नः श्रीमानतुलविक्रमः ॥"
+          "text": "एतत्ते सर्वमाख्यातममृतं मथितं यथा ।\nयत्र सोऽश्वः समुत्पन्नः श्रीमानतुलविक्रमः ॥",
+          "meaning": {
+            "en": "I have told you all of how the nectar was churned, and where that glorious horse of matchless prowess was born."
+          }
         },
         {
           "n": 2,
-          "text": "यं निशाम्य तदा कद्रूर्विनतामिदमब्रवीत् ।\nउच्चैःश्रवा नु किंवर्णो भद्रे जानीहि माचिरम् ॥"
+          "text": "यं निशाम्य तदा कद्रूर्विनतामिदमब्रवीत् ।\nउच्चैःश्रवा नु किंवर्णो भद्रे जानीहि माचिरम् ॥",
+          "meaning": {
+            "en": "On seeing him, Kadru said to Vinata, \"Good lady, tell me quickly: what color is Uccaihshravas?\""
+          }
         },
         {
-          "text": "विनतोवाच"
+          "text": "विनतोवाच",
+          "meaning": {
+            "en": "Vinata said:"
+          }
         },
         {
           "n": 3,
-          "text": "श्वेत एवाश्वराजोऽयं किं वा त्वं मन्यसे शुभे ।\nब्रूहि वर्णं त्वमप्यस्य ततोऽत्र विपणावहे ॥"
+          "text": "श्वेत एवाश्वराजोऽयं किं वा त्वं मन्यसे शुभे ।\nब्रूहि वर्णं त्वमप्यस्य ततोऽत्र विपणावहे ॥",
+          "meaning": {
+            "en": "\"This king of horses is white. What do you think, fair one? Tell me your view of his color, and then let us wager on it.\""
+          }
         },
         {
-          "text": "कद्रूरुवाच"
+          "text": "कद्रूरुवाच",
+          "meaning": {
+            "en": "Kadru said:"
+          }
         },
         {
           "n": 4,
-          "text": "कृष्णवालमहं मन्ये हयमेनं शुचिस्मिते ।\nएहि सार्धं मया दीव्य दासीभावाय भामिनि ॥"
+          "text": "कृष्णवालमहं मन्ये हयमेनं शुचिस्मिते ।\nएहि सार्धं मया दीव्य दासीभावाय भामिनि ॥",
+          "meaning": {
+            "en": "\"I think this horse has a black tail, bright-smiling one. Come, lady, wager with me that the loser becomes the other's slave.\""
+          }
         },
         {
-          "text": "सूत उवाच"
+          "text": "सूत उवाच",
+          "meaning": {
+            "en": "Suta's son said:"
+          }
         },
         {
           "n": 5,
-          "text": "एवं ते समयं कृत्वा दासीभावाय वै मिथः ।\nजग्मतुः स्वगृहानेव श्वो द्रक्ष्याव इति स्म ह ॥"
+          "text": "एवं ते समयं कृत्वा दासीभावाय वै मिथः ।\nजग्मतुः स्वगृहानेव श्वो द्रक्ष्याव इति स्म ह ॥",
+          "meaning": {
+            "en": "So they made this agreement between them, that the loser would be a slave, and went home, saying, \"We shall see tomorrow.\""
+          }
         },
         {
           "n": 6,
-          "text": "ततः पुत्रसहस्रं तु कद्रूर्जिह्मं चिकीर्षती ।\nआज्ञापयामास तदा वाला भूत्वाञ्जनप्रभाः ॥"
+          "text": "ततः पुत्रसहस्रं तु कद्रूर्जिह्मं चिकीर्षती ।\nआज्ञापयामास तदा वाला भूत्वाञ्जनप्रभाः ॥",
+          "meaning": {
+            "en": "Then Kadru, wanting to cheat, ordered her thousand sons to become black hairs, dark as collyrium."
+          }
         },
         {
           "n": 7,
-          "text": "आविशध्वं हयं क्षिप्रं दासी न स्यामहं यथा ।\nतद्वाक्यं नान्वपद्यन्त ताञ्शशाप भुजंगमान् ॥"
+          "text": "आविशध्वं हयं क्षिप्रं दासी न स्यामहं यथा ।\nतद्वाक्यं नान्वपद्यन्त ताञ्शशाप भुजंगमान् ॥",
+          "meaning": {
+            "en": "\"Quickly enter the horse's tail, so I will not become a slave.\" When they did not obey her word, she cursed those serpents:"
+          }
         },
         {
           "n": 8,
-          "text": "सर्पसत्रे वर्तमाने पावको वः प्रधक्ष्यति ।\nजनमेजयस्य राजर्षेः पाण्डवेयस्य धीमतः ॥"
+          "text": "सर्पसत्रे वर्तमाने पावको वः प्रधक्ष्यति ।\nजनमेजयस्य राजर्षेः पाण्डवेयस्य धीमतः ॥",
+          "meaning": {
+            "en": "\"At the snake sacrifice of the royal sage Janamejaya, the wise Pandava descendant, fire will burn you.\""
+          }
         },
         {
           "n": 9,
-          "text": "शापमेनं तु शुश्राव स्वयमेव पितामहः ।\nअतिक्रूरं समुद्दिष्टं कद्र्वा दैवादतीव हि ॥"
+          "text": "शापमेनं तु शुश्राव स्वयमेव पितामहः ।\nअतिक्रूरं समुद्दिष्टं कद्र्वा दैवादतीव हि ॥",
+          "meaning": {
+            "en": "The grandfather Brahma himself heard this exceedingly cruel curse that Kadru pronounced, as fate would have it."
+          }
         },
         {
           "n": 10,
-          "text": "सार्धं देवगणैः सर्वैर्वाचं तामन्वमोदत ।\nबहुत्वं प्रेक्ष्य सर्पाणां प्रजानां हितकाम्यया ॥"
+          "text": "सार्धं देवगणैः सर्वैर्वाचं तामन्वमोदत ।\nबहुत्वं प्रेक्ष्य सर्पाणां प्रजानां हितकाम्यया ॥",
+          "meaning": {
+            "en": "With all the hosts of gods he approved her words, seeing how numerous the serpents had become, and wishing the good of creatures."
+          }
         },
         {
           "n": 11,
-          "text": "तिग्मवीर्यविषा ह्येते दन्दशूका महाबलाः ।\nतेषां तीक्ष्णविषत्वाद्धि प्रजानां च हिताय वै ।\nप्रादाद्विषहणीं विद्यां काश्यपाय महात्मने ॥"
+          "text": "तिग्मवीर्यविषा ह्येते दन्दशूका महाबलाः ।\nतेषां तीक्ष्णविषत्वाद्धि प्रजानां च हिताय वै ।\nप्रादाद्विषहणीं विद्यां काश्यपाय महात्मने ॥",
+          "meaning": {
+            "en": "\"These biting serpents are of fierce power and poison, and mighty. Because of their sharp venom, and for the good of creatures, Brahma gave the great-souled Kashyapa the science of curing poison.\""
+          }
         }
       ]
     }

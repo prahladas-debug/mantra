@@ -22,175 +22,304 @@
       "titleEn": "Kairata Parva (The mountain hunter)",
       "verses": [
         {
-          "text": "द्रौपद्युवाच"
+          "text": "द्रौपद्युवाच",
+          "meaning": {
+            "en": "Draupadi said:"
+          }
         },
         {
           "n": 1,
-          "text": "नमो धात्रे विधात्रे च यौ मोहं चक्रतुस्तव ।\nपितृपैतामहे वृत्ते वोढव्ये तेऽन्यथा मतिः ॥"
+          "text": "नमो धात्रे विधात्रे च यौ मोहं चक्रतुस्तव ।\nपितृपैतामहे वृत्ते वोढव्ये तेऽन्यथा मतिः ॥",
+          "meaning": {
+            "en": "\"Homage to the Ordainer and the Disposer, who have deluded you; though you follow the conduct of your father and grandfather, your mind has gone another way.\""
+          }
         },
         {
           "n": 2,
-          "text": "नेह धर्मानृशंस्याभ्यां न क्षान्त्या नार्जवेन च ।\nपुरुषः श्रियमाप्नोति न घृणित्वेन कर्हिचित् ॥"
+          "text": "नेह धर्मानृशंस्याभ्यां न क्षान्त्या नार्जवेन च ।\nपुरुषः श्रियमाप्नोति न घृणित्वेन कर्हिचित् ॥",
+          "meaning": {
+            "en": "\"In this world a man does not win prosperity by dharma, kindness, patience or straightforwardness, nor ever by tenderness.\""
+          }
         },
         {
           "n": 3,
-          "text": "त्वां चेद्व्यसनमभ्यागादिदं भारत दुःसहम् ।\nयत्त्वं नार्हसि नापीमे भ्रातरस्ते महौजसः ॥"
+          "text": "त्वां चेद्व्यसनमभ्यागादिदं भारत दुःसहम् ।\nयत्त्वं नार्हसि नापीमे भ्रातरस्ते महौजसः ॥",
+          "meaning": {
+            "en": "\"If this unbearable calamity has come upon you, Bharata, when you do not deserve it, nor do your mighty brothers,\""
+          }
         },
         {
           "n": 4,
-          "text": "न हि तेऽध्यगमञ्जातु तदानीं नाद्य भारत ।\nधर्मात्प्रियतरं किंचिदपि चेज्जीवितादिह ॥"
+          "text": "न हि तेऽध्यगमञ्जातु तदानीं नाद्य भारत ।\nधर्मात्प्रियतरं किंचिदपि चेज्जीवितादिह ॥",
+          "meaning": {
+            "en": "\"then, Bharata, nothing, not even life itself, has ever seemed dearer to you than dharma, either then or now.\""
+          }
         },
         {
           "n": 5,
-          "text": "धर्मार्थमेव ते राज्यं धर्मार्थं जीवितं च ते ।\nब्राह्मणा गुरवश्चैव जानन्त्यपि च देवताः ॥"
+          "text": "धर्मार्थमेव ते राज्यं धर्मार्थं जीवितं च ते ।\nब्राह्मणा गुरवश्चैव जानन्त्यपि च देवताः ॥",
+          "meaning": {
+            "en": "\"Your kingdom is for dharma's sake and your life is for dharma's sake; the brahmins, the elders and even the gods know it.\""
+          }
         },
         {
           "n": 6,
-          "text": "भीमसेनार्जुनौ चैव माद्रेयौ च मया सह ।\nत्यजेस्त्वमिति मे बुद्धिर्न तु धर्मं परित्यजेः ॥"
+          "text": "भीमसेनार्जुनौ चैव माद्रेयौ च मया सह ।\nत्यजेस्त्वमिति मे बुद्धिर्न तु धर्मं परित्यजेः ॥",
+          "meaning": {
+            "en": "\"I think you would give up Bhimasena, Arjuna, the sons of Madri and me, but you would never give up dharma.\""
+          }
         },
         {
           "n": 7,
-          "text": "राजानं धर्मगोप्तारं धर्मो रक्षति रक्षितः ।\nइति मे श्रुतमार्याणां त्वां तु मन्ये न रक्षति ॥"
+          "text": "राजानं धर्मगोप्तारं धर्मो रक्षति रक्षितः ।\nइति मे श्रुतमार्याणां त्वां तु मन्ये न रक्षति ॥",
+          "meaning": {
+            "en": "\"I have heard from the noble that dharma protects the king who guards dharma; but I think it does not protect you.\""
+          }
         },
         {
           "n": 8,
-          "text": "अनन्या हि नरव्याघ्र नित्यदा धर्ममेव ते ।\nबुद्धिः सततमन्वेति छायेव पुरुषं निजा ॥"
+          "text": "अनन्या हि नरव्याघ्र नित्यदा धर्ममेव ते ।\nबुद्धिः सततमन्वेति छायेव पुरुषं निजा ॥",
+          "meaning": {
+            "en": "\"O tiger among men, your mind follows dharma alone, always, like one's own shadow follows a man.\""
+          }
         },
         {
           "n": 9,
-          "text": "नावमंस्था हि सदृशान्नावराञ्श्रेयसः कुतः ।\nअवाप्य पृथिवीं कृत्स्नां न ते शृङ्गमवर्धत ॥"
+          "text": "नावमंस्था हि सदृशान्नावराञ्श्रेयसः कुतः ।\nअवाप्य पृथिवीं कृत्स्नां न ते शृङ्गमवर्धत ॥",
+          "meaning": {
+            "en": "\"You never scorned your equals, nor your inferiors, much less your betters; and even after winning the whole earth, your pride did not swell.\""
+          }
         },
         {
           "n": 10,
-          "text": "स्वाहाकारैः स्वधाभिश्च पूजाभिरपि च द्विजान् ।\nदैवतानि पितॄंश्चैव सततं पार्थ सेवसे ॥"
+          "text": "स्वाहाकारैः स्वधाभिश्च पूजाभिरपि च द्विजान् ।\nदैवतानि पितॄंश्चैव सततं पार्थ सेवसे ॥",
+          "meaning": {
+            "en": "\"With offerings of svaha and svadha and with worship, Partha, you constantly serve brahmins, gods and ancestors.\""
+          }
         },
         {
           "n": 11,
-          "text": "ब्राह्मणाः सर्वकामैस्ते सततं पार्थ तर्पिताः ।\nयतयो मोक्षिणश्चैव गृहस्थाश्चैव भारत ॥"
+          "text": "ब्राह्मणाः सर्वकामैस्ते सततं पार्थ तर्पिताः ।\nयतयो मोक्षिणश्चैव गृहस्थाश्चैव भारत ॥",
+          "meaning": {
+            "en": "\"Brahmins, ascetics seeking liberation, and householders were always satisfied by you with all they desired, Partha.\""
+          }
         },
         {
           "n": 12,
-          "text": "आरण्यकेभ्यो लौहानि भाजनानि प्रयच्छसि ।\nनादेयं ब्राह्मणेभ्यस्ते गृहे किंचन विद्यते ॥"
+          "text": "आरण्यकेभ्यो लौहानि भाजनानि प्रयच्छसि ।\nनादेयं ब्राह्मणेभ्यस्ते गृहे किंचन विद्यते ॥",
+          "meaning": {
+            "en": "\"You give iron vessels to the forest hermits; there is nothing in your house that you would not give to brahmins.\""
+          }
         },
         {
           "n": 13,
-          "text": "यदिदं वैश्वदेवान्ते सायंप्रातः प्रदीयते ।\nतद्दत्त्वातिथिभृत्येभ्यो राजञ्शेषेण जीवसि ॥"
+          "text": "यदिदं वैश्वदेवान्ते सायंप्रातः प्रदीयते ।\nतद्दत्त्वातिथिभृत्येभ्यो राजञ्शेषेण जीवसि ॥",
+          "meaning": {
+            "en": "\"After the Vaishvadeva offering, what is given morning and evening to guests and servants, king, you live on what remains.\""
+          }
         },
         {
           "n": 14,
-          "text": "इष्टयः पशुबन्धाश्च काम्यनैमित्तिकाश्च ये ।\nवर्तन्ते पाकयज्ञाश्च यज्ञकर्म च नित्यदा ॥"
+          "text": "इष्टयः पशुबन्धाश्च काम्यनैमित्तिकाश्च ये ।\nवर्तन्ते पाकयज्ञाश्च यज्ञकर्म च नित्यदा ॥",
+          "meaning": {
+            "en": "\"Your sacrifices, the animal-bound rites, the rites for desired ends and occasional ones, the cooked-food offerings and all sacrificial work went on always.\""
+          }
         },
         {
           "n": 15,
-          "text": "अस्मिन्नपि महारण्ये विजने दस्युसेविते ।\nराष्ट्रादपेत्य वसतो धार्मस्ते नावसीदति ॥"
+          "text": "अस्मिन्नपि महारण्ये विजने दस्युसेविते ।\nराष्ट्रादपेत्य वसतो धार्मस्ते नावसीदति ॥",
+          "meaning": {
+            "en": "\"Even in this great, lonely forest frequented by bandits, living away from your kingdom, your dharma does not fail.\""
+          }
         },
         {
           "n": 16,
-          "text": "अश्वमेधो राजसूयः पुण्डरीकोऽथ गोसवः ।\nएतैरपि महायज्ञैरिष्टं ते भूरिदक्षिणैः ॥"
+          "text": "अश्वमेधो राजसूयः पुण्डरीकोऽथ गोसवः ।\nएतैरपि महायज्ञैरिष्टं ते भूरिदक्षिणैः ॥",
+          "meaning": {
+            "en": "\"The Ashvamedha, Rajasuya, Pundarika and Gosava sacrifices have all been performed by you with abundant gifts.\""
+          }
         },
         {
           "n": 17,
-          "text": "राजन्परीतया बुद्ध्या विषमेऽक्षपराजये ।\nराज्यं वसून्यायुधानि भ्रातॄन्मां चासि निर्जितः ॥"
+          "text": "राजन्परीतया बुद्ध्या विषमेऽक्षपराजये ।\nराज्यं वसून्यायुधानि भ्रातॄन्मां चासि निर्जितः ॥",
+          "meaning": {
+            "en": "\"O king, with your mind overwhelmed, you were defeated at dice by foul play and lost your kingdom, wealth, weapons, brothers and me.\""
+          }
         },
         {
           "n": 18,
-          "text": "ऋजोर्मृदोर्वदान्यस्य ह्रीमतः सत्यवादिनः ।\nकथमक्षव्यसनजा बुद्धिरापतिता तव ॥"
+          "text": "ऋजोर्मृदोर्वदान्यस्य ह्रीमतः सत्यवादिनः ।\nकथमक्षव्यसनजा बुद्धिरापतिता तव ॥",
+          "meaning": {
+            "en": "\"How did a mind drawn to gambling come to you, so straightforward, gentle, generous, modest and truthful?\""
+          }
         },
         {
           "n": 19,
-          "text": "अतीव मोहमायाति मनश्च परिदूयते ।\nनिशाम्य ते दुःखमिदमिमां चापदमीदृशीम् ॥"
+          "text": "अतीव मोहमायाति मनश्च परिदूयते ।\nनिशाम्य ते दुःखमिदमिमां चापदमीदृशीम् ॥",
+          "meaning": {
+            "en": "\"My mind is greatly bewildered and tormented, seeing this sorrow of yours and such a calamity.\""
+          }
         },
         {
           "n": 20,
-          "text": "अत्राप्युदाहरन्तीममितिहासं पुरातनम् ।\nईश्वरस्य वशे लोकस्तिष्ठते नात्मनो यथा ॥"
+          "text": "अत्राप्युदाहरन्तीममितिहासं पुरातनम् ।\nईश्वरस्य वशे लोकस्तिष्ठते नात्मनो यथा ॥",
+          "meaning": {
+            "en": "\"On this point they recount an old tale: the world is in the power of the Lord and not under its own.\""
+          }
         },
         {
           "n": 21,
-          "text": "धातैव खलु भूतानां सुखदुःखे प्रियाप्रिये ।\nदधाति सर्वमीशानः पुरस्ताच्छुक्रमुच्चरन् ॥"
+          "text": "धातैव खलु भूतानां सुखदुःखे प्रियाप्रिये ।\nदधाति सर्वमीशानः पुरस्ताच्छुक्रमुच्चरन् ॥",
+          "meaning": {
+            "en": "\"The Ordainer, the Lord, assigns to beings pleasure and pain, the dear and the unpleasant, appearing first to shape all.\""
+          }
         },
         {
           "n": 22,
-          "text": "यथा दारुमयी योषा नरवीर समाहिता ।\nईरयत्यङ्गमङ्गानि तथा राजन्निमाः प्रजाः ॥"
+          "text": "यथा दारुमयी योषा नरवीर समाहिता ।\nईरयत्यङ्गमङ्गानि तथा राजन्निमाः प्रजाः ॥",
+          "meaning": {
+            "en": "\"As a wooden puppet, hero among men, is made to move its limbs by one who sets it up, so, king, do these creatures move.\""
+          }
         },
         {
           "n": 23,
-          "text": "आकाश इव भूतानि व्याप्य सर्वाणि भारत ।\nईश्वरो विदधातीह कल्याणं यच्च पापकम् ॥"
+          "text": "आकाश इव भूतानि व्याप्य सर्वाणि भारत ।\nईश्वरो विदधातीह कल्याणं यच्च पापकम् ॥",
+          "meaning": {
+            "en": "\"The Lord, pervading all beings like space, ordains here what is good and what is evil.\""
+          }
         },
         {
           "n": 24,
-          "text": "शकुनिस्तन्तुबद्धो वा नियतोऽयमनीश्वरः ।\nईश्वरस्य वशे तिष्ठन्नान्येषां नात्मनः प्रभुः ॥"
+          "text": "शकुनिस्तन्तुबद्धो वा नियतोऽयमनीश्वरः ।\nईश्वरस्य वशे तिष्ठन्नान्येषां नात्मनः प्रभुः ॥",
+          "meaning": {
+            "en": "\"This creature is like a bird tied with a string, controlled and not master of itself; it stays in the Lord's power, master neither of others nor of itself.\""
+          }
         },
         {
           "n": 25,
-          "text": "मणिः सूत्र इव प्रोतो नस्योत इव गोवृषः ।\nधातुरादेशमन्वेति तन्मयो हि तदर्पणः ॥"
+          "text": "मणिः सूत्र इव प्रोतो नस्योत इव गोवृषः ।\nधातुरादेशमन्वेति तन्मयो हि तदर्पणः ॥",
+          "meaning": {
+            "en": "\"Like a jewel strung on a thread, like a bull threaded through the nose, it follows the Ordainer's command, being made of him and offered to him.\""
+          }
         },
         {
           "n": 26,
-          "text": "नात्माधीनो मनुष्योऽयं कालं भवति कंचन ।\nस्रोतसो मध्यमापन्नः कूलाद्वृक्ष इव च्युतः ॥"
+          "text": "नात्माधीनो मनुष्योऽयं कालं भवति कंचन ।\nस्रोतसो मध्यमापन्नः कूलाद्वृक्ष इव च्युतः ॥",
+          "meaning": {
+            "en": "\"Man is never his own master for any time, like a tree fallen from the bank into the middle of the stream.\""
+          }
         },
         {
           "n": 27,
-          "text": "अज्ञो जन्तुरनीशोऽयमात्मनः सुखदुःखयोः ।\nईश्वरप्रेरितो गच्छेत्स्वर्गं नरकमेव च ॥"
+          "text": "अज्ञो जन्तुरनीशोऽयमात्मनः सुखदुःखयोः ।\nईश्वरप्रेरितो गच्छेत्स्वर्गं नरकमेव च ॥",
+          "meaning": {
+            "en": "\"This ignorant creature is not master of its own pleasure and pain; urged by the Lord it goes to heaven or to hell.\""
+          }
         },
         {
           "n": 28,
-          "text": "यथा वायोस्तृणाग्राणि वशं यान्ति बलीयसः ।\nधातुरेवं वशं यान्ति सर्वभूतानि भारत ॥"
+          "text": "यथा वायोस्तृणाग्राणि वशं यान्ति बलीयसः ।\nधातुरेवं वशं यान्ति सर्वभूतानि भारत ॥",
+          "meaning": {
+            "en": "\"As the tips of grass fall under the power of a strong wind, so all beings, Bharata, come under the Ordainer's power.\""
+          }
         },
         {
           "n": 29,
-          "text": "आर्यकर्मणि युञ्जानः पापे वा पुनरीश्वरः ।\nव्याप्य भूतानि चरते न चायमिति लक्ष्यते ॥"
+          "text": "आर्यकर्मणि युञ्जानः पापे वा पुनरीश्वरः ।\nव्याप्य भूतानि चरते न चायमिति लक्ष्यते ॥",
+          "meaning": {
+            "en": "\"The Lord, urging beings to noble deeds or to sin, moves pervading them, and is not seen.\""
+          }
         },
         {
           "n": 30,
-          "text": "हेतुमात्रमिदं धातुः शरीरं क्षेत्रसंज्ञितम् ।\nयेन कारयते कर्म शुभाशुभफलं विभुः ॥"
+          "text": "हेतुमात्रमिदं धातुः शरीरं क्षेत्रसंज्ञितम् ।\nयेन कारयते कर्म शुभाशुभफलं विभुः ॥",
+          "meaning": {
+            "en": "\"This body, called the field, is a mere instrument of the Ordainer, by which the all-pervading one makes beings do deeds with good or bad fruit.\""
+          }
         },
         {
           "n": 31,
-          "text": "पश्य मायाप्रभावोऽयमीश्वरेण यथा कृतः ।\nयो हन्ति भूतैर्भूतानि मोहयित्वात्ममायया ॥"
+          "text": "पश्य मायाप्रभावोऽयमीश्वरेण यथा कृतः ।\nयो हन्ति भूतैर्भूतानि मोहयित्वात्ममायया ॥",
+          "meaning": {
+            "en": "\"See the power of the Lord's illusion: by deluding beings with his own magic, he makes beings kill beings.\""
+          }
         },
         {
           "n": 32,
-          "text": "अन्यथा परिदृष्टानि मुनिभिर्वेददर्शिभिः ।\nअन्यथा परिवर्तन्ते वेगा इव नभस्वतः ॥"
+          "text": "अन्यथा परिदृष्टानि मुनिभिर्वेददर्शिभिः ।\nअन्यथा परिवर्तन्ते वेगा इव नभस्वतः ॥",
+          "meaning": {
+            "en": "\"The sages who see the Veda have seen things in one way, and they turn out another way, like the gusts of the wind.\""
+          }
         },
         {
           "n": 33,
-          "text": "अन्यथैव हि मन्यन्ते पुरुषास्तानि तानि च ।\nअन्यथैव प्रभुस्तानि करोति विकरोति च ॥"
+          "text": "अन्यथैव हि मन्यन्ते पुरुषास्तानि तानि च ।\nअन्यथैव प्रभुस्तानि करोति विकरोति च ॥",
+          "meaning": {
+            "en": "\"People think these things in one way, but the Lord makes and unmakes them in another.\""
+          }
         },
         {
           "n": 34,
-          "text": "यथा काष्ठेन वा काष्ठमश्मानं चाश्मना पुनः ।\nअयसा चाप्ययश्छिन्द्यान्निर्विचेष्टमचेतनम् ॥"
+          "text": "यथा काष्ठेन वा काष्ठमश्मानं चाश्मना पुनः ।\nअयसा चाप्ययश्छिन्द्यान्निर्विचेष्टमचेतनम् ॥",
+          "meaning": {
+            "en": "\"Just as one may cut wood with wood, stone with stone, and iron with iron, a thing without effort or consciousness,\""
+          }
         },
         {
           "n": 35,
-          "text": "एवं स भगवान्देवः स्वयम्भूः प्रपितामहः ।\nहिनस्ति भूतैर्भूतानि छद्म कृत्वा युधिष्ठिर ॥"
+          "text": "एवं स भगवान्देवः स्वयम्भूः प्रपितामहः ।\nहिनस्ति भूतैर्भूतानि छद्म कृत्वा युधिष्ठिर ॥",
+          "meaning": {
+            "en": "\"so, Yudhishthira, that blessed god, the self-born great-grandfather, uses disguise and destroys beings by beings.\""
+          }
         },
         {
           "n": 36,
-          "text": "संप्रयोज्य वियोज्यायं कामकारकरः प्रभुः ।\nक्रीडते भगवान्भूतैर्बालः क्रीडनकैरिव ॥"
+          "text": "संप्रयोज्य वियोज्यायं कामकारकरः प्रभुः ।\nक्रीडते भगवान्भूतैर्बालः क्रीडनकैरिव ॥",
+          "meaning": {
+            "en": "\"Joining and parting beings at his own will, the Lord plays with creatures as a child plays with toys.\""
+          }
         },
         {
           "n": 37,
-          "text": "न मातृपितृवद्राजन्धाता भूतेषु वर्तते ।\nरोषादिव प्रवृत्तोऽयं यथायमितरो जनः ॥"
+          "text": "न मातृपितृवद्राजन्धाता भूतेषु वर्तते ।\nरोषादिव प्रवृत्तोऽयं यथायमितरो जनः ॥",
+          "meaning": {
+            "en": "\"The Ordainer does not behave toward beings like a mother or father, O king; he acts as if in anger, like any other person.\""
+          }
         },
         {
           "n": 38,
-          "text": "आर्याञ्शीलवतो दृष्ट्वा ह्रीमतो वृत्तिकर्शितान् ।\nअनार्यान्सुखिनश्चैव विह्वलामीव चिन्तया ॥"
+          "text": "आर्याञ्शीलवतो दृष्ट्वा ह्रीमतो वृत्तिकर्शितान् ।\nअनार्यान्सुखिनश्चैव विह्वलामीव चिन्तया ॥",
+          "meaning": {
+            "en": "\"Seeing the noble and virtuous, the modest, worn down by want, and the ignoble prospering, I am as if distraught with worry.\""
+          }
         },
         {
           "n": 39,
-          "text": "तवेमामापदं दृष्ट्वा समृद्धिं च सुयोधने ।\nधातारं गर्हये पार्थ विषमं योऽनुपश्यति ॥"
+          "text": "तवेमामापदं दृष्ट्वा समृद्धिं च सुयोधने ।\nधातारं गर्हये पार्थ विषमं योऽनुपश्यति ॥",
+          "meaning": {
+            "en": "\"Seeing this calamity of yours and the prosperity of Suyodhana, Partha, I blame the Ordainer, who looks on so unequally.\""
+          }
         },
         {
           "n": 40,
-          "text": "आर्यशास्त्रातिगे क्रूरे लुब्धे धर्मापचायिनि ।\nधार्तराष्ट्रे श्रियं दत्त्वा धाता किं फलमश्नुते ॥"
+          "text": "आर्यशास्त्रातिगे क्रूरे लुब्धे धर्मापचायिनि ।\nधार्तराष्ट्रे श्रियं दत्त्वा धाता किं फलमश्नुते ॥",
+          "meaning": {
+            "en": "\"Having given wealth to Dhritarashtra's son, cruel, greedy, transgressing the noble teachings and ruining dharma, what fruit does the Ordainer reap?\""
+          }
         },
         {
           "n": 41,
-          "text": "कर्म चेत्कृतमन्वेति कर्तारं नान्यमृच्छति ।\nकर्मणा तेन पापेन लिप्यते नूनमीश्वरः ॥"
+          "text": "कर्म चेत्कृतमन्वेति कर्तारं नान्यमृच्छति ।\nकर्मणा तेन पापेन लिप्यते नूनमीश्वरः ॥",
+          "meaning": {
+            "en": "\"If a deed follows the doer and reaches no other, then surely the Lord is stained by that sinful deed.\""
+          }
         },
         {
           "n": 42,
-          "text": "अथ कर्म कृतं पापं न चेत्कर्तारमृच्छति ।\nकारणं बलमेवेह जनाञ्शोचामि दुर्बलान् ॥"
+          "text": "अथ कर्म कृतं पापं न चेत्कर्तारमृच्छति ।\nकारणं बलमेवेह जनाञ्शोचामि दुर्बलान् ॥",
+          "meaning": {
+            "en": "\"But if a sinful deed done does not reach the doer, then power alone is the cause here, and I grieve for the weak.\""
+          }
         }
       ]
     }

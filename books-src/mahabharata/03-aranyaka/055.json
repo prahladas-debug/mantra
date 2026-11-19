@@ -22,59 +22,101 @@
       "titleEn": "Indralokabhigamana Parva (Journey to Indra's world)",
       "verses": [
         {
-          "text": "बृहदश्व उवाच"
+          "text": "बृहदश्व उवाच",
+          "meaning": {
+            "en": "Brihadashva said:"
+          }
         },
         {
           "n": 1,
-          "text": "वृते तु नैषधे भैम्या लोकपाला महौजसः ।\nयान्तो ददृशुरायान्तं द्वापरं कलिना सह ॥"
+          "text": "वृते तु नैषधे भैम्या लोकपाला महौजसः ।\nयान्तो ददृशुरायान्तं द्वापरं कलिना सह ॥",
+          "meaning": {
+            "en": "After Bhima's daughter chose the Nishadha, the mighty world-guardians, as they left, saw Dvapara coming with Kali."
+          }
         },
         {
           "n": 2,
-          "text": "अथाब्रवीत्कलिं शक्रः संप्रेक्ष्य बलवृत्रहा ।\nद्वापरेण सहायेन कले ब्रूहि क्व यास्यसि ॥"
+          "text": "अथाब्रवीत्कलिं शक्रः संप्रेक्ष्य बलवृत्रहा ।\nद्वापरेण सहायेन कले ब्रूहि क्व यास्यसि ॥",
+          "meaning": {
+            "en": "Then Shakra, slayer of Bala and Vritra, looked at Kali and said: \"Kali, with Dvapara as your companion, tell me where you are going.\""
+          }
         },
         {
           "n": 3,
-          "text": "ततोऽब्रवीत्कलिः शक्रं दमयन्त्याः स्वयंवरम् ।\nगत्वाहं वरयिष्ये तां मनो हि मम तद्गतम् ॥"
+          "text": "ततोऽब्रवीत्कलिः शक्रं दमयन्त्याः स्वयंवरम् ।\nगत्वाहं वरयिष्ये तां मनो हि मम तद्गतम् ॥",
+          "meaning": {
+            "en": "Kali answered Shakra: \"I am going to Damayanti's svayamvara to choose her, for my heart is set on her.\""
+          }
         },
         {
           "n": 4,
-          "text": "तमब्रवीत्प्रहस्येन्द्रो निर्वृत्तः स स्वयंवरः ।\nवृतस्तया नलो राजा पतिरस्मत्समीपतः ॥"
+          "text": "तमब्रवीत्प्रहस्येन्द्रो निर्वृत्तः स स्वयंवरः ।\nवृतस्तया नलो राजा पतिरस्मत्समीपतः ॥",
+          "meaning": {
+            "en": "Indra laughed and said to him: \"The svayamvara is over. She has chosen King Nala as husband, in our presence.\""
+          }
         },
         {
           "n": 5,
-          "text": "एवमुक्तस्तु शक्रेण कलिः कोपसमन्वितः ।\nदेवानामन्त्र्य तान्सर्वानुवाचेदं वचस्तदा ॥"
+          "text": "एवमुक्तस्तु शक्रेण कलिः कोपसमन्वितः ।\nदेवानामन्त्र्य तान्सर्वानुवाचेदं वचस्तदा ॥",
+          "meaning": {
+            "en": "Told this by Shakra, Kali, full of anger, addressed all the gods and said:"
+          }
         },
         {
           "n": 6,
-          "text": "देवानां मानुषं मध्ये यत्सा पतिमविन्दत ।\nननु तस्या भवेन्न्याय्यं विपुलं दण्डधारणम् ॥"
+          "text": "देवानां मानुषं मध्ये यत्सा पतिमविन्दत ।\nननु तस्या भवेन्न्याय्यं विपुलं दण्डधारणम् ॥",
+          "meaning": {
+            "en": "\"Since she took a human as husband from among the gods, would it not be just that she bear a heavy punishment?\""
+          }
         },
         {
           "n": 7,
-          "text": "एवमुक्ते तु कलिना प्रत्यूचुस्ते दिवौकसः ।\nअस्माभिः समनुज्ञातो दमयन्त्या नलो वृतः ॥"
+          "text": "एवमुक्ते तु कलिना प्रत्यूचुस्ते दिवौकसः ।\nअस्माभिः समनुज्ञातो दमयन्त्या नलो वृतः ॥",
+          "meaning": {
+            "en": "When Kali said this, the sky-dwellers replied: \"Nala was chosen by Damayanti with our consent."
+          }
         },
         {
           "n": 8,
-          "text": "कश्च सर्वगुणोपेतं नाश्रयेत नलं नृपम् ।\nयो वेद धर्मानखिलान्यथावच्चरितव्रतः ॥"
+          "text": "कश्च सर्वगुणोपेतं नाश्रयेत नलं नृपम् ।\nयो वेद धर्मानखिलान्यथावच्चरितव्रतः ॥",
+          "meaning": {
+            "en": "Who would not rely on King Nala, endowed with every virtue, who knows all the laws of dharma and practices his vows rightly?"
+          }
         },
         {
           "n": 9,
-          "text": "यस्मिन्सत्यं धृतिर्दानं तपः शौचं दमः शमः ।\nध्रुवाणि पुरुषव्याघ्रे लोकपालसमे नृपे ॥"
+          "text": "यस्मिन्सत्यं धृतिर्दानं तपः शौचं दमः शमः ।\nध्रुवाणि पुरुषव्याघ्रे लोकपालसमे नृपे ॥",
+          "meaning": {
+            "en": "In that tiger among men, equal to the world-guardians, truth, steadiness, charity, austerity, purity, self-control and calm are fixed."
+          }
         },
         {
           "n": 10,
-          "text": "आत्मानं स शपेन्मूढो हन्याच्चात्मानमात्मना ।\nएवंगुणं नलं यो वै कामयेच्छपितुं कले ॥"
+          "text": "आत्मानं स शपेन्मूढो हन्याच्चात्मानमात्मना ।\nएवंगुणं नलं यो वै कामयेच्छपितुं कले ॥",
+          "meaning": {
+            "en": "Any fool who wishes to curse Nala of such qualities, Kali, would curse himself and kill himself by his own hand."
+          }
         },
         {
           "n": 11,
-          "text": "कृच्छ्रे स नरके मज्जेदगाधे विपुलेऽप्लवे ।\nएवमुक्त्वा कलिं देवा द्वापरं च दिवं ययुः ॥"
+          "text": "कृच्छ्रे स नरके मज्जेदगाधे विपुलेऽप्लवे ।\nएवमुक्त्वा कलिं देवा द्वापरं च दिवं ययुः ॥",
+          "meaning": {
+            "en": "He would sink into a hard, bottomless, vast, boatless hell.\" Having said this to Kali, the gods went to heaven with Dvapara."
+          }
         },
         {
           "n": 12,
-          "text": "ततो गतेषु देवेषु कलिर्द्वापरमब्रवीत् ।\nसंहर्तुं नोत्सहे कोपं नले वत्स्यामि द्वापर ॥"
+          "text": "ततो गतेषु देवेषु कलिर्द्वापरमब्रवीत् ।\nसंहर्तुं नोत्सहे कोपं नले वत्स्यामि द्वापर ॥",
+          "meaning": {
+            "en": "When the gods had gone, Kali said to Dvapara: \"I cannot swallow my anger. I will live in Nala, Dvapara."
+          }
         },
         {
           "n": 13,
-          "text": "भ्रंशयिष्यामि तं राज्यान्न भैम्या सह रंस्यते ।\nत्वमप्यक्षान्समाविश्य कर्तुं साहाय्यमर्हसि ॥"
+          "text": "भ्रंशयिष्यामि तं राज्यान्न भैम्या सह रंस्यते ।\nत्वमप्यक्षान्समाविश्य कर्तुं साहाय्यमर्हसि ॥",
+          "meaning": {
+            "en": "I will make him fall from his kingdom, and he will not enjoy himself with Bhima's daughter. You too must help by entering the dice.\""
+          }
         }
       ]
     }

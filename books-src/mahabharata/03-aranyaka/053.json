@@ -22,97 +22,169 @@
       "titleEn": "Indralokabhigamana Parva (Journey to Indra's world)",
       "verses": [
         {
-          "text": "बृहदश्व उवाच"
+          "text": "बृहदश्व उवाच",
+          "meaning": {
+            "en": "Brihadashva said:"
+          }
         },
         {
           "n": 1,
-          "text": "सा नमस्कृत्य देवेभ्यः प्रहस्य नलमब्रवीत् ।\nप्रणयस्व यथाश्रद्धं राजन्किं करवाणि ते ॥"
+          "text": "सा नमस्कृत्य देवेभ्यः प्रहस्य नलमब्रवीत् ।\nप्रणयस्व यथाश्रद्धं राजन्किं करवाणि ते ॥",
+          "meaning": {
+            "en": "Bowing to the gods, Damayanti smiled and said to Nala: \"Show your love as you trust, king. What can I do for you?"
+          }
         },
         {
           "n": 2,
-          "text": "अहं चैव हि यच्चान्यन्ममास्ति वसु किंचन ।\nसर्वं तत्तव विश्रब्धं कुरु प्रणयमीश्वर ॥"
+          "text": "अहं चैव हि यच्चान्यन्ममास्ति वसु किंचन ।\nसर्वं तत्तव विश्रब्धं कुरु प्रणयमीश्वर ॥",
+          "meaning": {
+            "en": "I myself and whatever other wealth I have is all yours; trust me and love me, lord."
+          }
         },
         {
           "n": 3,
-          "text": "हंसानां वचनं यत्तत्तन्मां दहति पार्थिव ।\nत्वत्कृते हि मया वीर राजानः संनिपातिताः ॥"
+          "text": "हंसानां वचनं यत्तत्तन्मां दहति पार्थिव ।\nत्वत्कृते हि मया वीर राजानः संनिपातिताः ॥",
+          "meaning": {
+            "en": "The words of the swans burn me, king. For your sake, hero, I gathered the kings together."
+          }
         },
         {
           "n": 4,
-          "text": "यदि चेद्भजमानां मां प्रत्याख्यास्यसि मानद ।\nविषमग्निं जलं रज्जुमास्थास्ये तव कारणात् ॥"
+          "text": "यदि चेद्भजमानां मां प्रत्याख्यास्यसि मानद ।\nविषमग्निं जलं रज्जुमास्थास्ये तव कारणात् ॥",
+          "meaning": {
+            "en": "If you reject me, who love you, giver of honor, I will take poison, fire, water or a rope for your sake.\""
+          }
         },
         {
           "n": 5,
-          "text": "एवमुक्तस्तु वैदर्भ्या नलस्तां प्रत्युवाच ह ।\nतिष्ठत्सु लोकपालेषु कथं मानुषमिच्छसि ॥"
+          "text": "एवमुक्तस्तु वैदर्भ्या नलस्तां प्रत्युवाच ह ।\nतिष्ठत्सु लोकपालेषु कथं मानुषमिच्छसि ॥",
+          "meaning": {
+            "en": "Addressed so by the Vidarbha princess, Nala replied: \"How can you want a mortal when the world-guardians are here?"
+          }
         },
         {
           "n": 6,
-          "text": "येषामहं लोककृतामीश्वराणां महात्मनाम् ।\nन पादरजसा तुल्यो मनस्ते तेषु वर्तताम् ॥"
+          "text": "येषामहं लोककृतामीश्वराणां महात्मनाम् ।\nन पादरजसा तुल्यो मनस्ते तेषु वर्तताम् ॥",
+          "meaning": {
+            "en": "I am not equal even to the dust at the feet of those great lords, the makers of the worlds. Let your mind rest on them."
+          }
         },
         {
           "n": 7,
-          "text": "विप्रियं ह्याचरन्मर्त्यो देवानां मृत्युमृच्छति ।\nत्राहि मामनवद्याङ्गि वरयस्व सुरोत्तमान् ॥"
+          "text": "विप्रियं ह्याचरन्मर्त्यो देवानां मृत्युमृच्छति ।\nत्राहि मामनवद्याङ्गि वरयस्व सुरोत्तमान् ॥",
+          "meaning": {
+            "en": "A mortal who acts against the gods meets death. Save me, faultless lady, and choose the best of gods.\""
+          }
         },
         {
           "n": 8,
-          "text": "ततो बाष्पकलां वाचं दमयन्ती शुचिस्मिता ।\nप्रव्याहरन्ती शनकैर्नलं राजानमब्रवीत् ॥"
+          "text": "ततो बाष्पकलां वाचं दमयन्ती शुचिस्मिता ।\nप्रव्याहरन्ती शनकैर्नलं राजानमब्रवीत् ॥",
+          "meaning": {
+            "en": "Then Damayanti, of pure smile, speaking in a voice choked with tears, slowly said to King Nala:"
+          }
         },
         {
           "n": 9,
-          "text": "अस्त्युपायो मया दृष्टो निरपायो नरेश्वर ।\nयेन दोषो न भविता तव राजन्कथंचन ॥"
+          "text": "अस्त्युपायो मया दृष्टो निरपायो नरेश्वर ।\nयेन दोषो न भविता तव राजन्कथंचन ॥",
+          "meaning": {
+            "en": "\"I have seen a way, lord of men, that is free of risk, by which no fault will come to you, king."
+          }
         },
         {
           "n": 10,
-          "text": "त्वं चैव हि नरश्रेष्ठ देवाश्चाग्निपुरोगमाः ।\nआयान्तु सहिताः सर्वे मम यत्र स्वयंवरः ॥"
+          "text": "त्वं चैव हि नरश्रेष्ठ देवाश्चाग्निपुरोगमाः ।\nआयान्तु सहिताः सर्वे मम यत्र स्वयंवरः ॥",
+          "meaning": {
+            "en": "You, best of men, and the gods led by Agni should all come together to where my svayamvara is."
+          }
         },
         {
           "n": 11,
-          "text": "ततोऽहं लोकपालानां संनिधौ त्वां नरेश्वर ।\nवरयिष्ये नरव्याघ्र नैवं दोषो भविष्यति ॥"
+          "text": "ततोऽहं लोकपालानां संनिधौ त्वां नरेश्वर ।\nवरयिष्ये नरव्याघ्र नैवं दोषो भविष्यति ॥",
+          "meaning": {
+            "en": "Then I will choose you, tiger among men, in the presence of the world-guardians, and so no fault will arise.\""
+          }
         },
         {
           "n": 12,
-          "text": "एवमुक्तस्तु वैदर्भ्या नलो राजा विशां पते ।\nआजगाम पुनस्तत्र यत्र देवाः समागताः ॥"
+          "text": "एवमुक्तस्तु वैदर्भ्या नलो राजा विशां पते ।\nआजगाम पुनस्तत्र यत्र देवाः समागताः ॥",
+          "meaning": {
+            "en": "Told this by the Vidarbha princess, King Nala, lord of people, returned to where the gods were assembled."
+          }
         },
         {
           "n": 13,
-          "text": "तमपश्यंस्तथायान्तं लोकपालाः सहेश्वराः ।\nदृष्ट्वा चैनं ततोऽपृच्छन्वृत्तान्तं सर्वमेव तत् ॥"
+          "text": "तमपश्यंस्तथायान्तं लोकपालाः सहेश्वराः ।\nदृष्ट्वा चैनं ततोऽपृच्छन्वृत्तान्तं सर्वमेव तत् ॥",
+          "meaning": {
+            "en": "The world-guardians with their lord saw him coming, and when they saw him they asked him all about it."
+          }
         },
         {
-          "text": "देवा ऊचुः"
+          "text": "देवा ऊचुः",
+          "meaning": {
+            "en": "The gods said:"
+          }
         },
         {
           "n": 14,
-          "text": "कच्चिद्दृष्टा त्वया राजन्दमयन्ती शुचिस्मिता ।\nकिमब्रवीच्च नः सर्वान्वद भूमिपतेऽनघ ॥"
+          "text": "कच्चिद्दृष्टा त्वया राजन्दमयन्ती शुचिस्मिता ।\nकिमब्रवीच्च नः सर्वान्वद भूमिपतेऽनघ ॥",
+          "meaning": {
+            "en": "\"King, did you see Damayanti of the pure smile? What did she say to all of us? Tell us, blameless lord of earth.\""
+          }
         },
         {
-          "text": "नल उवाच"
+          "text": "नल उवाच",
+          "meaning": {
+            "en": "Nala said:"
+          }
         },
         {
           "n": 15,
-          "text": "भवद्भिरहमादिष्टो दमयन्त्या निवेशनम् ।\nप्रविष्टः सुमहाकक्ष्यं दण्डिभिः स्थविरैर्वृतम् ॥"
+          "text": "भवद्भिरहमादिष्टो दमयन्त्या निवेशनम् ।\nप्रविष्टः सुमहाकक्ष्यं दण्डिभिः स्थविरैर्वृतम् ॥",
+          "meaning": {
+            "en": "\"Commanded by you, I entered Damayanti's residence, which has great courtyards and is surrounded by aged guards with staffs."
+          }
         },
         {
           "n": 16,
-          "text": "प्रविशन्तं च मां तत्र न कश्चिद्दृष्टवान्नरः ।\nऋते तां पार्थिवसुतां भवतामेव तेजसा ॥"
+          "text": "प्रविशन्तं च मां तत्र न कश्चिद्दृष्टवान्नरः ।\nऋते तां पार्थिवसुतां भवतामेव तेजसा ॥",
+          "meaning": {
+            "en": "As I entered, no man saw me except that king's daughter, thanks to your own power."
+          }
         },
         {
           "n": 17,
-          "text": "सख्यश्चास्या मया दृष्टास्ताभिश्चाप्युपलक्षितः ।\nविस्मिताश्चाभवन्दृष्ट्वा सर्वा मां विबुधेश्वराः ॥"
+          "text": "सख्यश्चास्या मया दृष्टास्ताभिश्चाप्युपलक्षितः ।\nविस्मिताश्चाभवन्दृष्ट्वा सर्वा मां विबुधेश्वराः ॥",
+          "meaning": {
+            "en": "I saw her friends too, and they noticed me; all of them were astonished at the sight of me, lords of the gods."
+          }
         },
         {
           "n": 18,
-          "text": "वर्ण्यमानेषु च मया भवत्सु रुचिरानना ।\nमामेव गतसंकल्पा वृणीते सुरसत्तमाः ॥"
+          "text": "वर्ण्यमानेषु च मया भवत्सु रुचिरानना ।\nमामेव गतसंकल्पा वृणीते सुरसत्तमाः ॥",
+          "meaning": {
+            "en": "As I described you, the lovely-faced one, her mind made up, chose only me, best of gods."
+          }
         },
         {
           "n": 19,
-          "text": "अब्रवीच्चैव मां बाला आयान्तु सहिताः सुराः ।\nत्वया सह नरश्रेष्ठ मम यत्र स्वयंवरः ॥"
+          "text": "अब्रवीच्चैव मां बाला आयान्तु सहिताः सुराः ।\nत्वया सह नरश्रेष्ठ मम यत्र स्वयंवरः ॥",
+          "meaning": {
+            "en": "The girl said to me: 'Let the gods come together with you, best of men, to where my svayamvara is."
+          }
         },
         {
           "n": 20,
-          "text": "तेषामहं संनिधौ त्वां वरयिष्ये नरोत्तम ।\nएवं तव महाबाहो दोषो न भवितेति ह ॥"
+          "text": "तेषामहं संनिधौ त्वां वरयिष्ये नरोत्तम ।\nएवं तव महाबाहो दोषो न भवितेति ह ॥",
+          "meaning": {
+            "en": "In their presence I will choose you, best of men.' In this way, mighty-armed one, no fault will come to you."
+          }
         },
         {
           "n": 21,
-          "text": "एतावदेव विबुधा यथावृत्तमुदाहृतम् ।\nमयाशेषं प्रमाणं तु भवन्तस्त्रिदशेश्वराः ॥"
+          "text": "एतावदेव विबुधा यथावृत्तमुदाहृतम् ।\nमयाशेषं प्रमाणं तु भवन्तस्त्रिदशेश्वराः ॥",
+          "meaning": {
+            "en": "This, wise ones, is all that happened, as I have told it. You, lords of the thirty gods, are the judge.\""
+          }
         }
       ]
     }

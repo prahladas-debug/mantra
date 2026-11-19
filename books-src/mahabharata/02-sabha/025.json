@@ -22,87 +22,150 @@
       "titleEn": "Digvijaya Parva (Conquest of the quarters)",
       "verses": [
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 1,
-          "text": "स श्वेतपर्वतं वीरः समतिक्रम्य भारत ।\nदेशं किंपुरुषावासं द्रुमपुत्रेण रक्षितम् ॥"
+          "text": "स श्वेतपर्वतं वीरः समतिक्रम्य भारत ।\nदेशं किंपुरुषावासं द्रुमपुत्रेण रक्षितम् ॥",
+          "meaning": {
+            "en": "Crossing the White Mountain, the hero, O Bharata, came to the land of the Kimpurushas, guarded by Drumaputra."
+          }
         },
         {
           "n": 2,
-          "text": "महता संनिपातेन क्षत्रियान्तकरेण ह ।\nव्यजयत्पाण्डवश्रेष्ठः करे चैव न्यवेशयत् ॥"
+          "text": "महता संनिपातेन क्षत्रियान्तकरेण ह ।\nव्यजयत्पाण्डवश्रेष्ठः करे चैव न्यवेशयत् ॥",
+          "meaning": {
+            "en": "In a great battle that was deadly to Kshatriyas, the best of the Pandavas conquered them and made them pay tribute."
+          }
         },
         {
           "n": 3,
-          "text": "तं जित्वा हाटकं नाम देशं गुह्यकरक्षितम् ।\nपाकशासनिरव्यग्रः सहसैन्यः समासदत् ॥"
+          "text": "तं जित्वा हाटकं नाम देशं गुह्यकरक्षितम् ।\nपाकशासनिरव्यग्रः सहसैन्यः समासदत् ॥",
+          "meaning": {
+            "en": "Having defeated him, Indra's son, undisturbed, came with his army to the land called Hataka, guarded by Guhyakas."
+          }
         },
         {
           "n": 4,
-          "text": "तांस्तु सान्त्वेन निर्जित्य मानसं सर उत्तमम् ।\nऋषिकुल्याश्च ताः सर्वा ददर्श कुरुनन्दनः ॥"
+          "text": "तांस्तु सान्त्वेन निर्जित्य मानसं सर उत्तमम् ।\nऋषिकुल्याश्च ताः सर्वा ददर्श कुरुनन्दनः ॥",
+          "meaning": {
+            "en": "Winning them over by conciliation, the joy of the Kurus saw the supreme Manasa lake and the sacred streams of the sages."
+          }
         },
         {
           "n": 5,
-          "text": "सरो मानसमासाद्य हाटकानभितः प्रभुः ।\nगन्धर्वरक्षितं देशं व्यजयत्पाण्डवस्ततः ॥"
+          "text": "सरो मानसमासाद्य हाटकानभितः प्रभुः ।\nगन्धर्वरक्षितं देशं व्यजयत्पाण्डवस्ततः ॥",
+          "meaning": {
+            "en": "Reaching Lake Manasa and all around Hataka, the Pandava then conquered the country guarded by Gandharvas."
+          }
         },
         {
           "n": 6,
-          "text": "तत्र तित्तिरिकल्माषान्मण्डूकाक्षान्हयोत्तमान् ।\nलेभे स करमत्यन्तं गन्धर्वनगरात्तदा ॥"
+          "text": "तत्र तित्तिरिकल्माषान्मण्डूकाक्षान्हयोत्तमान् ।\nलेभे स करमत्यन्तं गन्धर्वनगरात्तदा ॥",
+          "meaning": {
+            "en": "There he received from the city of the Gandharvas as tribute a great number of the finest horses, speckled like partridges and frog-eyed."
+          }
         },
         {
           "n": 7,
-          "text": "उत्तरं हरिवर्षं तु समासाद्य स पाण्डवः ।\nइयेष जेतुं तं देशं पाकशासननन्दनः ॥"
+          "text": "उत्तरं हरिवर्षं तु समासाद्य स पाण्डवः ।\nइयेष जेतुं तं देशं पाकशासननन्दनः ॥",
+          "meaning": {
+            "en": "Reaching the northern Harivarsha, that Pandava, son of Indra, wished to conquer that land too."
+          }
         },
         {
           "n": 8,
-          "text": "तत एनं महाकाया महावीर्या महाबलाः ।\nद्वारपालाः समासाद्य हृष्टा वचनमब्रुवन् ॥"
+          "text": "तत एनं महाकाया महावीर्या महाबलाः ।\nद्वारपालाः समासाद्य हृष्टा वचनमब्रुवन् ॥",
+          "meaning": {
+            "en": "Then huge, very mighty and strong gatekeepers came to him and said joyfully:"
+          }
         },
         {
           "n": 9,
-          "text": "पार्थ नेदं त्वया शक्यं पुरं जेतुं कथंचन ।\nउपावर्तस्व कल्याण पर्याप्तमिदमच्युत ॥"
+          "text": "पार्थ नेदं त्वया शक्यं पुरं जेतुं कथंचन ।\nउपावर्तस्व कल्याण पर्याप्तमिदमच्युत ॥",
+          "meaning": {
+            "en": "Gatekeepers said: Partha, you cannot conquer this city by any means. Turn back, good man; this is enough, steadfast one."
+          }
         },
         {
           "n": 10,
-          "text": "इदं पुरं यः प्रविशेद्ध्रुवं स न भवेन्नरः ।\nप्रीयामहे त्वया वीर पर्याप्तो विजयस्तव ॥"
+          "text": "इदं पुरं यः प्रविशेद्ध्रुवं स न भवेन्नरः ।\nप्रीयामहे त्वया वीर पर्याप्तो विजयस्तव ॥",
+          "meaning": {
+            "en": "Whoever enters this city will surely cease to be a man. We are pleased with you, hero; your victory is enough."
+          }
         },
         {
           "n": 11,
-          "text": "न चापि किंचिज्जेतव्यमर्जुनात्र प्रदृश्यते ।\nउत्तराः कुरवो ह्येते नात्र युद्धं प्रवर्तते ॥"
+          "text": "न चापि किंचिज्जेतव्यमर्जुनात्र प्रदृश्यते ।\nउत्तराः कुरवो ह्येते नात्र युद्धं प्रवर्तते ॥",
+          "meaning": {
+            "en": "Nor is there anything here for you to conquer, Arjuna: these are the Northern Kurus, and no war goes on here."
+          }
         },
         {
           "n": 12,
-          "text": "प्रविष्टश्चापि कौन्तेय नेह द्रक्ष्यसि किंचन ।\nन हि मानुषदेहेन शक्यमत्राभिवीक्षितुम् ॥"
+          "text": "प्रविष्टश्चापि कौन्तेय नेह द्रक्ष्यसि किंचन ।\nन हि मानुषदेहेन शक्यमत्राभिवीक्षितुम् ॥",
+          "meaning": {
+            "en": "Even if you enter, son of Kunti, you will see nothing here, for this cannot be viewed with a human body."
+          }
         },
         {
           "n": 13,
-          "text": "अथेह पुरुषव्याघ्र किंचिदन्यच्चिकीर्षसि ।\nतद्ब्रवीहि करिष्यामो वचनात्तव भारत ॥"
+          "text": "अथेह पुरुषव्याघ्र किंचिदन्यच्चिकीर्षसि ।\nतद्ब्रवीहि करिष्यामो वचनात्तव भारत ॥",
+          "meaning": {
+            "en": "But if, tiger among men, you wish to do something else here, tell us and we will do it at your word, Bharata."
+          }
         },
         {
           "n": 14,
-          "text": "ततस्तानब्रवीद्राजन्नर्जुनः पाकशासनिः ।\nपार्थिवत्वं चिकीर्षामि धर्मराजस्य धीमतः ॥"
+          "text": "ततस्तानब्रवीद्राजन्नर्जुनः पाकशासनिः ।\nपार्थिवत्वं चिकीर्षामि धर्मराजस्य धीमतः ॥",
+          "meaning": {
+            "en": "Then, O king, Arjuna, son of Indra, said to them: I wish to make wise Yudhishthira, king of dharma, a sovereign."
+          }
         },
         {
           "n": 15,
-          "text": "न प्रवेक्ष्यामि वो देशं बाध्यत्वं यदि मानुषैः ।\nयुधिष्ठिराय यत्किंचित्करवन्नः प्रदीयताम् ॥"
+          "text": "न प्रवेक्ष्यामि वो देशं बाध्यत्वं यदि मानुषैः ।\nयुधिष्ठिराय यत्किंचित्करवन्नः प्रदीयताम् ॥",
+          "meaning": {
+            "en": "I will not enter your land if it is closed to human beings. Let something be given as tribute for Yudhishthira."
+          }
         },
         {
           "n": 16,
-          "text": "ततो दिव्यानि वस्त्राणि दिव्यान्याभरणानि च ।\nमोकाजिनानि दिव्यानि तस्मै ते प्रददुः करम् ॥"
+          "text": "ततो दिव्यानि वस्त्राणि दिव्यान्याभरणानि च ।\nमोकाजिनानि दिव्यानि तस्मै ते प्रददुः करम् ॥",
+          "meaning": {
+            "en": "Then they gave him tribute: divine garments, divine ornaments, and divine deerskins."
+          }
         },
         {
           "n": 17,
-          "text": "एवं स पुरुषव्याघ्रो विजिग्ये दिशमुत्तराम् ।\nसंग्रामान्सुबहून्कृत्वा क्षत्रियैर्दस्युभिस्तथा ॥"
+          "text": "एवं स पुरुषव्याघ्रो विजिग्ये दिशमुत्तराम् ।\nसंग्रामान्सुबहून्कृत्वा क्षत्रियैर्दस्युभिस्तथा ॥",
+          "meaning": {
+            "en": "Thus that tiger among men conquered the northern quarter, after very many battles with Kshatriyas and bandits."
+          }
         },
         {
           "n": 18,
-          "text": "स विनिर्जित्य राज्ञस्तान्करे च विनिवेश्य ह ।\nधनान्यादाय सर्वेभ्यो रत्नानि विविधानि च ॥"
+          "text": "स विनिर्जित्य राज्ञस्तान्करे च विनिवेश्य ह ।\nधनान्यादाय सर्वेभ्यो रत्नानि विविधानि च ॥",
+          "meaning": {
+            "en": "Having defeated those kings and imposed tribute, he took from all of them wealth and jewels of many kinds,"
+          }
         },
         {
           "n": 19,
-          "text": "हयांस्तित्तिरिकल्माषाञ्शुकपत्रनिभानपि ।\nमयूरसदृशांश्चान्यान्सर्वाननिलरंहसः ॥"
+          "text": "हयांस्तित्तिरिकल्माषाञ्शुकपत्रनिभानपि ।\nमयूरसदृशांश्चान्यान्सर्वाननिलरंहसः ॥",
+          "meaning": {
+            "en": "and horses speckled like partridges, others like parrot feathers, others like peacocks, all swift as the wind."
+          }
         },
         {
           "n": 20,
-          "text": "वृतः सुमहता राजन्बलेन चतुरङ्गिणा ।\nआजगाम पुनर्वीरः शक्रप्रस्थं पुरोत्तमम् ॥"
+          "text": "वृतः सुमहता राजन्बलेन चतुरङ्गिणा ।\nआजगाम पुनर्वीरः शक्रप्रस्थं पुरोत्तमम् ॥",
+          "meaning": {
+            "en": "Surrounded by a very large four-fold army, O king, the hero returned again to Shakraprastha, the best of cities."
+          }
         }
       ]
     }

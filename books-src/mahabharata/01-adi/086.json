@@ -22,90 +22,182 @@
       "titleEn": "Sambhava Parva (Origins)",
       "verses": [
         {
-          "text": "अष्टक उवाच"
+          "text": "अष्टक उवाच",
+          "meaning": {
+            "en": "Ashtaka said:",
+            "hi": "अष्टक बोले—"
+          }
         },
         {
           "n": 1,
-          "text": "चरन्गृहस्थः कथमेति देवा-\nन्कथं भिक्षुः कथमाचार्यकर्मा ।\nवानप्रस्थः सत्पथे संनिविष्टो\nबहून्यस्मिन्संप्रति वेदयन्ति ॥"
+          "text": "चरन्गृहस्थः कथमेति देवा-\nन्कथं भिक्षुः कथमाचार्यकर्मा ।\nवानप्रस्थः सत्पथे संनिविष्टो\nबहून्यस्मिन्संप्रति वेदयन्ति ॥",
+          "meaning": {
+            "en": "'How does a householder reach the gods in his conduct? How a mendicant, how one who works as a teacher, and how a forest-dweller established on the good path? Many things are said about this now.'",
+            "hi": "गृहस्थ अपने आचरण से देवताओं तक कैसे पहुँचता है? भिक्षु कैसे, आचार्य का कार्य करने वाला कैसे, और सन्मार्ग पर स्थित वानप्रस्थ कैसे? इस विषय में अब बहुत कुछ कहा जाता है।"
+          }
         },
         {
-          "text": "ययातिरुवाच"
+          "text": "ययातिरुवाच",
+          "meaning": {
+            "en": "Yayati said:",
+            "hi": "ययाति बोले—"
+          }
         },
         {
           "n": 2,
-          "text": "आहूताध्यायी गुरुकर्मस्वचोद्यः\nपूर्वोत्थायी चरमं चोपशायी ।\nमृदुर्दान्तो धृतिमानप्रमत्तः\nस्वाध्यायशीलः सिध्यति ब्रह्मचारी ॥"
+          "text": "आहूताध्यायी गुरुकर्मस्वचोद्यः\nपूर्वोत्थायी चरमं चोपशायी ।\nमृदुर्दान्तो धृतिमानप्रमत्तः\nस्वाध्यायशीलः सिध्यति ब्रह्मचारी ॥",
+          "meaning": {
+            "en": "'A celibate student succeeds if he studies when called, needs no urging in his teacher's tasks, rises first and sleeps last, and is gentle, self-controlled, steady, attentive and devoted to study.",
+            "hi": "जो ब्रह्मचारी बुलाए जाने पर अध्ययन करता है, गुरु के कामों में बिना कहे लग जाता है, सबसे पहले उठता है और सबसे बाद में सोता है, जो कोमल, संयमी, धैर्यवान, सावधान और स्वाध्याय में लगा रहता है, वह सिद्धि प्राप्त करता है।"
+          }
         },
         {
           "n": 3,
-          "text": "धर्मागतं प्राप्य धनं यजेत\nदद्यात्सदैवातिथीन्भोजयेच्च ।\nअनाददानश्च परैरदत्तं\nसैषा गृहस्थोपनिषत्पुराणी ॥"
+          "text": "धर्मागतं प्राप्य धनं यजेत\nदद्यात्सदैवातिथीन्भोजयेच्च ।\nअनाददानश्च परैरदत्तं\nसैषा गृहस्थोपनिषत्पुराणी ॥",
+          "meaning": {
+            "en": "A householder should sacrifice with wealth gained by dharma, always give, feed guests, and take nothing not given by others; this is the ancient secret teaching of the householder.",
+            "hi": "गृहस्थ को धर्म से प्राप्त धन से यज्ञ करना चाहिए, सदा दान देना चाहिए और अतिथियों को भोजन कराना चाहिए; और दूसरों के द्वारा बिना दिए कुछ भी नहीं लेना चाहिए। यही गृहस्थ का प्राचीन रहस्य है।"
+          }
         },
         {
           "n": 4,
-          "text": "स्ववीर्यजीवी वृजिनान्निवृत्तो\nदाता परेभ्यो न परोपतापी ।\nतादृङ्मुनिः सिद्धिमुपैति मुख्यां\nवसन्नरण्ये नियताहारचेष्टः ॥"
+          "text": "स्ववीर्यजीवी वृजिनान्निवृत्तो\nदाता परेभ्यो न परोपतापी ।\nतादृङ्मुनिः सिद्धिमुपैति मुख्यां\nवसन्नरण्ये नियताहारचेष्टः ॥",
+          "meaning": {
+            "en": "A sage who lives by his own strength, has turned from wrongdoing, gives to others and does not torment others, dwelling in the forest with controlled food and conduct, attains the highest success.",
+            "hi": "जो अपने पराक्रम से जीविका चलाता है, पाप से दूर रहता है, दूसरों को दान देता है और दूसरों को कष्ट नहीं देता, वैसा मुनि वन में रहते हुए, नियमित आहार और आचरण से, सर्वोच्च सिद्धि प्राप्त करता है।"
+          }
         },
         {
           "n": 5,
-          "text": "अशिल्पजीवी नगृहश्च नित्यं\nजितेन्द्रियः सर्वतो विप्रमुक्तः ।\nअनोकसारी लघुरल्पचार-\nश्चरन्देशानेकचरः स भिक्षुः ॥"
+          "text": "अशिल्पजीवी नगृहश्च नित्यं\nजितेन्द्रियः सर्वतो विप्रमुक्तः ।\nअनोकसारी लघुरल्पचार-\nश्चरन्देशानेकचरः स भिक्षुः ॥",
+          "meaning": {
+            "en": "A mendicant lives by no craft, has no home, has conquered his senses, is freed from everything, wanders without a dwelling, light, with little business, travelling through lands alone.",
+            "hi": "जो कोई शिल्प से जीविका नहीं चलाता, जिसका कोई घर नहीं, जो सदा इंद्रियों को जीत चुका है, सबसे मुक्त है, बिना आश्रय के घूमता है, हल्का है, कम काम करता है, और अकेला अनेक देशों में विचरता है, वही भिक्षु है।"
+          }
         },
         {
           "n": 6,
-          "text": "रात्र्या यया चाभिजिताश्च लोका\nभवन्ति कामा विजिताः सुखाश्च ।\nतामेव रात्रिं प्रयतेत विद्वा-\nनरण्यसंस्थो भवितुं यतात्मा ॥"
+          "text": "रात्र्या यया चाभिजिताश्च लोका\nभवन्ति कामा विजिताः सुखाश्च ।\nतामेव रात्रिं प्रयतेत विद्वा-\nनरण्यसंस्थो भवितुं यतात्मा ॥",
+          "meaning": {
+            "en": "The night by which worlds are won and pleasures conquered and made happy: for that very night the wise, self-controlled man should strive to be established in the forest.",
+            "hi": "जिस रात्रि से लोक जीते जाते हैं और कामनाएँ वश में होकर सुख देती हैं, उसी रात्रि में विद्वान और संयमी पुरुष को वन में स्थित होने का प्रयत्न करना चाहिए।"
+          }
         },
         {
           "n": 7,
-          "text": "दशैव पूर्वान्दश चापरांस्तु\nज्ञातीन्सहात्मानमथैकविंशम् ।\nअरण्यवासी सुकृते दधाति\nविमुच्यारण्ये स्वशरीरधातून् ॥"
+          "text": "दशैव पूर्वान्दश चापरांस्तु\nज्ञातीन्सहात्मानमथैकविंशम् ।\nअरण्यवासी सुकृते दधाति\nविमुच्यारण्ये स्वशरीरधातून् ॥",
+          "meaning": {
+            "en": "A forest-dweller places ten ancestors before, ten after, his kin and himself as the twenty-first in the world of merit, by shedding his bodily elements in the forest.'",
+            "hi": "वन में रहने वाला पुण्य-लोक में दस पूर्वजों, दस बाद के संबंधियों और स्वयं को इक्कीसवाँ रखता है; वह वन में अपने शरीर के तत्वों को त्यागकर यह पुण्य प्राप्त करता है।"
+          }
         },
         {
-          "text": "अष्टक उवाच"
+          "text": "अष्टक उवाच",
+          "meaning": {
+            "en": "Ashtaka said:",
+            "hi": "अष्टक बोले—"
+          }
         },
         {
           "n": 8,
-          "text": "कति स्विदेव मुनयो मौनानि कति चाप्युत ।\nभवन्तीति तदाचक्ष्व श्रोतुमिच्छामहे वयम् ॥"
+          "text": "कति स्विदेव मुनयो मौनानि कति चाप्युत ।\nभवन्तीति तदाचक्ष्व श्रोतुमिच्छामहे वयम् ॥",
+          "meaning": {
+            "en": "'How many kinds of sages are there, and how many kinds of silence? Tell us; we wish to hear.'",
+            "hi": "मुनि कितने प्रकार के होते हैं, और मौन कितने प्रकार के होते हैं? हमें बताइए; हम सुनना चाहते हैं।"
+          }
         },
         {
-          "text": "ययातिरुवाच"
+          "text": "ययातिरुवाच",
+          "meaning": {
+            "en": "Yayati said:",
+            "hi": "ययाति बोले—"
+          }
         },
         {
           "n": 9,
-          "text": "अरण्ये वसतो यस्य ग्रामो भवति पृष्ठतः ।\nग्रामे वा वसतोऽरण्यं स मुनिः स्याज्जनाधिप ॥"
+          "text": "अरण्ये वसतो यस्य ग्रामो भवति पृष्ठतः ।\nग्रामे वा वसतोऽरण्यं स मुनिः स्याज्जनाधिप ॥",
+          "meaning": {
+            "en": "'He who, living in the forest, has the village behind him, or living in the village has the forest behind him, is a sage, king.'",
+            "hi": "हे जनाधिप, जो वन में रहता है और जिसके पीछे गाँव है, या जो गाँव में रहता है और जिसके पीछे वन है, वही मुनि है।"
+          }
         },
         {
-          "text": "अष्टक उवाच"
+          "text": "अष्टक उवाच",
+          "meaning": {
+            "en": "Ashtaka said:",
+            "hi": "अष्टक बोले—"
+          }
         },
         {
           "n": 10,
-          "text": "कथं स्विद्वसतोऽरण्ये ग्रामो भवति पृष्ठतः ।\nग्रामे वा वसतोऽरण्यं कथं भवति पृष्ठतः ॥"
+          "text": "कथं स्विद्वसतोऽरण्ये ग्रामो भवति पृष्ठतः ।\nग्रामे वा वसतोऽरण्यं कथं भवति पृष्ठतः ॥",
+          "meaning": {
+            "en": "'How does one living in the forest have the village behind him, or one living in the village the forest?'",
+            "hi": "वन में रहने वाले के पीछे गाँव कैसे होता है? या गाँव में रहने वाले के पीछे वन कैसे होता है?"
+          }
         },
         {
-          "text": "ययातिरुवाच"
+          "text": "ययातिरुवाच",
+          "meaning": {
+            "en": "Yayati said:",
+            "hi": "ययाति बोले—"
+          }
         },
         {
           "n": 11,
-          "text": "न ग्राम्यमुपयुञ्जीत य आरण्यो मुनिर्भवेत् ।\nतथास्य वसतोऽरण्ये ग्रामो भवति पृष्ठतः ॥"
+          "text": "न ग्राम्यमुपयुञ्जीत य आरण्यो मुनिर्भवेत् ।\nतथास्य वसतोऽरण्ये ग्रामो भवति पृष्ठतः ॥",
+          "meaning": {
+            "en": "'He who would be a forest sage should not use what belongs to the village; so, living in the forest, he has the village behind him.",
+            "hi": "जो वन का मुनि बनना चाहता है, उसे ग्राम का कुछ भी उपयोग नहीं करना चाहिए। इस प्रकार वन में रहते हुए उसके पीछे गाँव होता है।"
+          }
         },
         {
           "n": 12,
-          "text": "अनग्निरनिकेतश्च अगोत्रचरणो मुनिः ।\nकौपीनाच्छादनं यावत्तावदिच्छेच्च चीवरम् ॥"
+          "text": "अनग्निरनिकेतश्च अगोत्रचरणो मुनिः ।\nकौपीनाच्छादनं यावत्तावदिच्छेच्च चीवरम् ॥",
+          "meaning": {
+            "en": "A sage should have no fire, no house, and no family or practice; he should want only a loincloth and as much cloth as covers him.",
+            "hi": "मुनि को न अग्नि रखनी चाहिए, न घर, और न गोत्र या आचरण; उसे केवल कौपीन और उतना ही वस्त्र चाहिए जितना शरीर ढके।"
+          }
         },
         {
           "n": 13,
-          "text": "यावत्प्राणाभिसंधानं तावदिच्छेच्च भोजनम् ।\nतथास्य वसतो ग्रामेऽरण्यं भवति पृष्ठतः ॥"
+          "text": "यावत्प्राणाभिसंधानं तावदिच्छेच्च भोजनम् ।\nतथास्य वसतो ग्रामेऽरण्यं भवति पृष्ठतः ॥",
+          "meaning": {
+            "en": "He should want food only as much as keeps his life together; so, living in the village, he has the forest behind him.",
+            "hi": "उसे उतना ही भोजन चाहिए जितने से प्राण बने रहें। इस प्रकार गाँव में रहते हुए भी उसके पीछे वन होता है।"
+          }
         },
         {
           "n": 14,
-          "text": "यस्तु कामान्परित्यज्य त्यक्तकर्मा जितेन्द्रियः ।\nआतिष्ठेत मुनिर्मौनं स लोके सिद्धिमाप्नुयात् ॥"
+          "text": "यस्तु कामान्परित्यज्य त्यक्तकर्मा जितेन्द्रियः ।\nआतिष्ठेत मुनिर्मौनं स लोके सिद्धिमाप्नुयात् ॥",
+          "meaning": {
+            "en": "The sage who, having given up desires, abandoned actions and conquered his senses, takes up silence, attains success in the world.",
+            "hi": "जो कामनाओं को त्यागकर, कर्मों को छोड़कर, इंद्रियों को जीतकर मौन धारण करता है, वह मुनि संसार में सिद्धि प्राप्त करता है।"
+          }
         },
         {
           "n": 15,
-          "text": "धौतदन्तं कृत्तनखं सदा स्नातमलंकृतम् ।\nअसितं सितकर्मस्थं कस्तं नार्चितुमर्हति ॥"
+          "text": "धौतदन्तं कृत्तनखं सदा स्नातमलंकृतम् ।\nअसितं सितकर्मस्थं कस्तं नार्चितुमर्हति ॥",
+          "meaning": {
+            "en": "Who does not deserve to be honoured: one with clean teeth, trimmed nails, always bathed and adorned, dark yet engaged in pure acts?",
+            "hi": "जिसके दाँत साफ़ हों, नाखून कटे हों, जो सदा स्नान करके सजा हो, काला होकर भी शुद्ध कर्मों में लगा हो, उसे कौन पूजने योग्य नहीं मानेगा?"
+          }
         },
         {
           "n": 16,
-          "text": "तपसा कर्शितः क्षामः क्षीणमांसास्थिशोणितः ।\nयदा भवति निर्द्वन्द्वो मुनिर्मौनं समास्थितः ।\nअथ लोकमिमं जित्वा लोकं विजयते परम् ॥"
+          "text": "तपसा कर्शितः क्षामः क्षीणमांसास्थिशोणितः ।\nयदा भवति निर्द्वन्द्वो मुनिर्मौनं समास्थितः ।\nअथ लोकमिमं जित्वा लोकं विजयते परम् ॥",
+          "meaning": {
+            "en": "When a sage, wasted by austerity, thin, his flesh, bone and blood diminished, becomes free of dualities and is established in silence, then, having conquered this world, he conquers the highest world.",
+            "hi": "जब मुनि तप से दुबला, क्षीण, जिसके मांस, हड्डी और रक्त घट गए हों, द्वंद्वों से मुक्त होकर मौन में स्थित हो जाता है, तब वह इस लोक को जीतकर परम लोक पर विजय पाता है।"
+          }
         },
         {
           "n": 17,
-          "text": "आस्येन तु यदाहारं गोवन्मृगयते मुनिः ।\nअथास्य लोकः पूर्वो यः सोऽमृतत्वाय कल्पते ॥"
+          "text": "आस्येन तु यदाहारं गोवन्मृगयते मुनिः ।\nअथास्य लोकः पूर्वो यः सोऽमृतत्वाय कल्पते ॥",
+          "meaning": {
+            "en": "When a sage seeks his food only with his mouth, like a cow or deer, then his former world qualifies for immortality.'",
+            "hi": "जब मुनि गाय या मृग की तरह केवल मुख से ही आहार खोजता है, तब उसका पूर्व लोक अमरत्व प्राप्ति के योग्य हो जाता है।"
+          }
         }
       ]
     }

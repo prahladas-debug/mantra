@@ -22,289 +22,505 @@
       "titleEn": "Yakshayuddha Parva (Battle with the Yakshas)",
       "verses": [
         {
-          "text": "अर्जुन उवाच"
+          "text": "अर्जुन उवाच",
+          "meaning": {
+            "en": "Arjuna said:"
+          }
         },
         {
           "n": 1,
-          "text": "निवर्तमानेन मया महद्दृष्टं ततोऽपरम् ।\nपुरं कामचरं दिव्यं पावकार्कसमप्रभम् ॥"
+          "text": "निवर्तमानेन मया महद्दृष्टं ततोऽपरम् ।\nपुरं कामचरं दिव्यं पावकार्कसमप्रभम् ॥",
+          "meaning": {
+            "en": "On my way back I saw another great sight: a divine city that moved at will, shining like fire and the sun."
+          }
         },
         {
           "n": 2,
-          "text": "द्रुमै रत्नमयैश्चैत्रैर्भास्वरैश्च पतत्रिभिः ।\nपौलोमैः कालकेयैश्च नित्यहृष्टैरधिष्ठितम् ॥"
+          "text": "द्रुमै रत्नमयैश्चैत्रैर्भास्वरैश्च पतत्रिभिः ।\nपौलोमैः कालकेयैश्च नित्यहृष्टैरधिष्ठितम् ॥",
+          "meaning": {
+            "en": "It was inhabited by the Paulomas and Kalakeyas, always joyful, and there were jeweled trees and bright birds in it."
+          }
         },
         {
           "n": 3,
-          "text": "गोपुराट्टालकोपेतं चतुर्द्वारं दुरासदम् ।\nसर्वरत्नमयं दिव्यमद्भुतोपमदर्शनम् ।\nद्रुमैः पुष्पफलोपेतैर्दिव्यरत्नमयैर्वृतम् ॥"
+          "text": "गोपुराट्टालकोपेतं चतुर्द्वारं दुरासदम् ।\nसर्वरत्नमयं दिव्यमद्भुतोपमदर्शनम् ।\nद्रुमैः पुष्पफलोपेतैर्दिव्यरत्नमयैर्वृतम् ॥",
+          "meaning": {
+            "en": "It had gate towers and turrets and four gates, and was hard to approach: wholly of gems, divine, of wondrous look, surrounded by trees in flower and fruit made of divine jewels."
+          }
         },
         {
           "n": 4,
-          "text": "तथा पतत्रिभिर्दिव्यैरुपेतं सुमनोहरैः ।\nअसुरैर्नित्यमुदितैः शूलर्ष्टिमुसलायुधैः ।\nचापमुद्गरहस्तैश्च स्रग्विभिः सर्वतो वृतम् ॥"
+          "text": "तथा पतत्रिभिर्दिव्यैरुपेतं सुमनोहरैः ।\nअसुरैर्नित्यमुदितैः शूलर्ष्टिमुसलायुधैः ।\nचापमुद्गरहस्तैश्च स्रग्विभिः सर्वतो वृतम् ॥",
+          "meaning": {
+            "en": "It had lovely divine birds, and was ringed on every side by asuras ever merry, garlanded, with spears, rishti swords, clubs, bows and mallets in their hands."
+          }
         },
         {
           "n": 5,
-          "text": "तदहं प्रेक्ष्य दैत्यानां पुरमद्भुतदर्शनम् ।\nअपृच्छं मातलिं राजन्किमिदं दृश्यतेति वै ॥"
+          "text": "तदहं प्रेक्ष्य दैत्यानां पुरमद्भुतदर्शनम् ।\nअपृच्छं मातलिं राजन्किमिदं दृश्यतेति वै ॥",
+          "meaning": {
+            "en": "Seeing that marvelous city of the daityas, I asked Matali, O king, \"What is this that I see?\""
+          }
         },
         {
-          "text": "मातलिरुवाच"
+          "text": "मातलिरुवाच",
+          "meaning": {
+            "en": "Matali said:"
+          }
         },
         {
           "n": 6,
-          "text": "पुलोमा नाम दैतेयी कालका च महासुरी ।\nदिव्यं वर्षसहस्रं ते चेरतुः परमं तपः ।\nतपसोऽन्ते ततस्ताभ्यां स्वयम्भूरददाद्वरम् ॥"
+          "text": "पुलोमा नाम दैतेयी कालका च महासुरी ।\nदिव्यं वर्षसहस्रं ते चेरतुः परमं तपः ।\nतपसोऽन्ते ततस्ताभ्यां स्वयम्भूरददाद्वरम् ॥",
+          "meaning": {
+            "en": "\"There were a daitya woman named Pulomā and a great asura woman named Kalaka. For a thousand divine years they practiced supreme austerity, and at its end the Self-existent One granted them a boon."
+          }
         },
         {
           "n": 7,
-          "text": "अगृह्णीतां वरं ते तु सुतानामल्पदुःखताम् ।\nअवध्यतां च राजेन्द्र सुरराक्षसपन्नगैः ॥"
+          "text": "अगृह्णीतां वरं ते तु सुतानामल्पदुःखताम् ।\nअवध्यतां च राजेन्द्र सुरराक्षसपन्नगैः ॥",
+          "meaning": {
+            "en": "They chose that their sons should suffer little, and, O king of kings, that they should be unkillable by gods, rakshasas and serpents."
+          }
         },
         {
           "n": 8,
-          "text": "रमणीयं पुरं चेदं खचरं सुकृतप्रभम् ।\nसर्वरत्नैः समुदितं दुर्धर्षममरैरपि ।\nसयक्षगन्धर्वगणैः पन्नगासुरराक्षसैः ॥"
+          "text": "रमणीयं पुरं चेदं खचरं सुकृतप्रभम् ।\nसर्वरत्नैः समुदितं दुर्धर्षममरैरपि ।\nसयक्षगन्धर्वगणैः पन्नगासुरराक्षसैः ॥",
+          "meaning": {
+            "en": "This lovely sky-roaming city, bright with merit, rich in every jewel, is hard even for the immortals to attack, and for yakshas, gandharvas, serpents, asuras and rakshasas as well."
+          }
         },
         {
           "n": 9,
-          "text": "सर्वकामगुणोपेतं वीतशोकमनामयम् ।\nब्रह्मणा भरतश्रेष्ठ कालकेयकृते कृतम् ॥"
+          "text": "सर्वकामगुणोपेतं वीतशोकमनामयम् ।\nब्रह्मणा भरतश्रेष्ठ कालकेयकृते कृतम् ॥",
+          "meaning": {
+            "en": "Endowed with every desirable thing, free from grief and disease, it was made by Brahma for the Kalakeyas, best of the Bharatas."
+          }
         },
         {
           "n": 10,
-          "text": "तदेतत्खचरं दिव्यं चरत्यमरवर्जितम् ।\nपौलोमाध्युषितं वीर कालकेयैश्च दानवैः ॥"
+          "text": "तदेतत्खचरं दिव्यं चरत्यमरवर्जितम् ।\nपौलोमाध्युषितं वीर कालकेयैश्च दानवैः ॥",
+          "meaning": {
+            "en": "This divine city moves through the sky, free of immortals, hero, lived in by the Paulomas and the Kalakeya danavas."
+          }
         },
         {
           "n": 11,
-          "text": "हिरण्यपुरमित्येतत्ख्यायते नगरं महत् ।\nरक्षितं कालकेयैश्च पौलोमैश्च महासुरैः ॥"
+          "text": "हिरण्यपुरमित्येतत्ख्यायते नगरं महत् ।\nरक्षितं कालकेयैश्च पौलोमैश्च महासुरैः ॥",
+          "meaning": {
+            "en": "This great city is called Hiranyapura, guarded by the Kalakeyas and the Paulomas, great asuras."
+          }
         },
         {
           "n": 12,
-          "text": "त एते मुदिता नित्यमवध्याः सर्वदैवतैः ।\nनिवसन्त्यत्र राजेन्द्र गतोद्वेगा निरुत्सुकाः ।\nमानुषो मृत्युरेतेषां निर्दिष्टो ब्रह्मणा पुरा ॥"
+          "text": "त एते मुदिता नित्यमवध्याः सर्वदैवतैः ।\nनिवसन्त्यत्र राजेन्द्र गतोद्वेगा निरुत्सुकाः ।\nमानुषो मृत्युरेतेषां निर्दिष्टो ब्रह्मणा पुरा ॥",
+          "meaning": {
+            "en": "They live here always glad, unkillable by any of the gods, O king of kings, free of worry and unconcerned. Brahma long ago fixed that their death should come from a man.\""
+          }
         },
         {
-          "text": "अर्जुन उवाच"
+          "text": "अर्जुन उवाच",
+          "meaning": {
+            "en": "Arjuna said:"
+          }
         },
         {
           "n": 13,
-          "text": "सुरासुरैरवध्यांस्तानहं ज्ञात्वा ततः प्रभो ।\nअब्रुवं मातलिं हृष्टो याह्येतत्पुरमञ्जसा ॥"
+          "text": "सुरासुरैरवध्यांस्तानहं ज्ञात्वा ततः प्रभो ।\nअब्रुवं मातलिं हृष्टो याह्येतत्पुरमञ्जसा ॥",
+          "meaning": {
+            "en": "Knowing that they could not be killed by gods or asuras, I said joyfully to Matali, \"Take me straight to this city."
+          }
         },
         {
           "n": 14,
-          "text": "त्रिदशेशद्विषो यावत्क्षयमस्त्रैर्नयाम्यहम् ।\nन कथंचिद्धि मे पापा न वध्या ये सुरद्विषः ॥"
+          "text": "त्रिदशेशद्विषो यावत्क्षयमस्त्रैर्नयाम्यहम् ।\nन कथंचिद्धि मे पापा न वध्या ये सुरद्विषः ॥",
+          "meaning": {
+            "en": "I will bring to ruin with my weapons these haters of the lords of the gods. Evil ones who hate the gods must not be left unkilled by me in any way.\""
+          }
         },
         {
           "n": 15,
-          "text": "उवाह मां ततः शीघ्रं हिरण्यपुरमन्तिकात् ।\nरथेन तेन दिव्येन हरियुक्तेन मातलिः ॥"
+          "text": "उवाह मां ततः शीघ्रं हिरण्यपुरमन्तिकात् ।\nरथेन तेन दिव्येन हरियुक्तेन मातलिः ॥",
+          "meaning": {
+            "en": "Then Matali quickly carried me near Hiranyapura in that divine chariot yoked with bay horses."
+          }
         },
         {
           "n": 16,
-          "text": "ते मामालक्ष्य दैतेया विचित्राभरणाम्बराः ।\nसमुत्पेतुर्महावेगा रथानास्थाय दंशिताः ॥"
+          "text": "ते मामालक्ष्य दैतेया विचित्राभरणाम्बराः ।\nसमुत्पेतुर्महावेगा रथानास्थाय दंशिताः ॥",
+          "meaning": {
+            "en": "Seeing me, the daityas, in varied ornaments and garments, armored and mounted on chariots, rose up with great speed."
+          }
         },
         {
           "n": 17,
-          "text": "ततो नालीकनाराचैर्भल्लशक्त्यृष्टितोमरैः ।\nअभ्यघ्नन्दानवेन्द्रा मां क्रुद्धास्तीव्रपराक्रमाः ॥"
+          "text": "ततो नालीकनाराचैर्भल्लशक्त्यृष्टितोमरैः ।\nअभ्यघ्नन्दानवेन्द्रा मां क्रुद्धास्तीव्रपराक्रमाः ॥",
+          "meaning": {
+            "en": "Then those angry danava chiefs of fierce prowess struck me with nalikas, narachas, bhallas, javelins, rishtis and tomaras."
+          }
         },
         {
           "n": 18,
-          "text": "तदहं चास्त्रवर्षेण महता प्रत्यवारयम् ।\nशस्त्रवर्षं महद्राजन्विद्याबलमुपाश्रितः ॥"
+          "text": "तदहं चास्त्रवर्षेण महता प्रत्यवारयम् ।\nशस्त्रवर्षं महद्राजन्विद्याबलमुपाश्रितः ॥",
+          "meaning": {
+            "en": "Relying on the strength of my knowledge, I checked that great rain of weapons with a great rain of my own weapons, O king."
+          }
         },
         {
           "n": 19,
-          "text": "व्यामोहयं च तान्सर्वान्रथमार्गैश्चरन्रणे ।\nतेऽन्योन्यमभिसंमूढाः पातयन्ति स्म दानवाः ॥"
+          "text": "व्यामोहयं च तान्सर्वान्रथमार्गैश्चरन्रणे ।\nतेऽन्योन्यमभिसंमूढाः पातयन्ति स्म दानवाः ॥",
+          "meaning": {
+            "en": "Moving along the chariot paths in the battle, I bewildered them all, and, confused, those danavas struck one another down."
+          }
         },
         {
           "n": 20,
-          "text": "तेषामहं विमूढानामन्योन्यमभिधावताम् ।\nशिरांसि विशिखैर्दीप्तैर्व्यहरं शतसंघशः ॥"
+          "text": "तेषामहं विमूढानामन्योन्यमभिधावताम् ।\nशिरांसि विशिखैर्दीप्तैर्व्यहरं शतसंघशः ॥",
+          "meaning": {
+            "en": "As they ran confused at each other, I cut off their heads by hundreds with bright arrows."
+          }
         },
         {
           "n": 21,
-          "text": "ते वध्यमाना दैतेयाः पुरमास्थाय तत्पुनः ।\nखमुत्पेतुः सनगरा मायामास्थाय दानवीम् ॥"
+          "text": "ते वध्यमाना दैतेयाः पुरमास्थाय तत्पुनः ।\nखमुत्पेतुः सनगरा मायामास्थाय दानवीम् ॥",
+          "meaning": {
+            "en": "Struck down, the daityas entered their city again and, using danava sorcery, rose into the sky with the city."
+          }
         },
         {
           "n": 22,
-          "text": "ततोऽहं शरवर्षेण महता प्रत्यवारयम् ।\nमार्गमावृत्य दैत्यानां गतिं चैषामवारयम् ॥"
+          "text": "ततोऽहं शरवर्षेण महता प्रत्यवारयम् ।\nमार्गमावृत्य दैत्यानां गतिं चैषामवारयम् ॥",
+          "meaning": {
+            "en": "Then I held them off with a great shower of arrows, blocking the daityas' path and stopping their movement."
+          }
         },
         {
           "n": 23,
-          "text": "तत्पुरं खचरं दिव्यं कामगं दिव्यवर्चसम् ।\nदैतेयैर्वरदानेन धार्यते स्म यथासुखम् ॥"
+          "text": "तत्पुरं खचरं दिव्यं कामगं दिव्यवर्चसम् ।\nदैतेयैर्वरदानेन धार्यते स्म यथासुखम् ॥",
+          "meaning": {
+            "en": "That divine city, moving through the sky at will and shining with divine light, was kept going at ease by the daityas through their boon."
+          }
         },
         {
           "n": 24,
-          "text": "अन्तर्भूमौ निपतितं पुनरूर्ध्वं प्रतिष्ठते ।\nपुनस्तिर्यक्प्रयात्याशु पुनरप्सु निमज्जति ॥"
+          "text": "अन्तर्भूमौ निपतितं पुनरूर्ध्वं प्रतिष्ठते ।\nपुनस्तिर्यक्प्रयात्याशु पुनरप्सु निमज्जति ॥",
+          "meaning": {
+            "en": "Sometimes it sank into the ground and rose up again; sometimes it swiftly moved sideways; sometimes it plunged into water."
+          }
         },
         {
           "n": 25,
-          "text": "अमरावतिसंकाशं पुरं कामगमं तु तत् ।\nअहमस्त्रैर्बहुविधैः प्रत्यगृह्णं नराधिप ॥"
+          "text": "अमरावतिसंकाशं पुरं कामगमं तु तत् ।\nअहमस्त्रैर्बहुविधैः प्रत्यगृह्णं नराधिप ॥",
+          "meaning": {
+            "en": "That city, which moved at will and looked like Amaravati, I seized with many kinds of weapons, O lord of men."
+          }
         },
         {
           "n": 26,
-          "text": "ततोऽहं शरजालेन दिव्यास्त्रमुदितेन च ।\nन्यगृह्णं सह दैतेयैस्तत्पुरं भरतर्षभ ॥"
+          "text": "ततोऽहं शरजालेन दिव्यास्त्रमुदितेन च ।\nन्यगृह्णं सह दैतेयैस्तत्पुरं भरतर्षभ ॥",
+          "meaning": {
+            "en": "Then with a net of arrows and with divine weapons I forced the city to a stop together with the daityas, O best of the Bharatas."
+          }
         },
         {
           "n": 27,
-          "text": "विक्षतं चायसैर्बाणैर्मत्प्रयुक्तैरजिह्मगैः ।\nमहीमभ्यपतद्राजन्प्रभग्नं पुरमासुरम् ॥"
+          "text": "विक्षतं चायसैर्बाणैर्मत्प्रयुक्तैरजिह्मगैः ।\nमहीमभ्यपतद्राजन्प्रभग्नं पुरमासुरम् ॥",
+          "meaning": {
+            "en": "Shattered by my straight-flying iron arrows, the asura city fell to the earth, O king."
+          }
         },
         {
           "n": 28,
-          "text": "ते वध्यमाना मद्बाणैर्वज्रवेगैरयस्मयैः ।\nपर्यभ्रमन्त वै राजन्नसुराः कालचोदिताः ॥"
+          "text": "ते वध्यमाना मद्बाणैर्वज्रवेगैरयस्मयैः ।\nपर्यभ्रमन्त वै राजन्नसुराः कालचोदिताः ॥",
+          "meaning": {
+            "en": "Struck by my iron arrows, which had the force of thunderbolts, the asuras, driven by time, whirled about, O king."
+          }
         },
         {
           "n": 29,
-          "text": "ततो मातलिरप्याशु पुरस्तान्निपतन्निव ।\nमहीमवातरत्क्षिप्रं रथेनादित्यवर्चसा ॥"
+          "text": "ततो मातलिरप्याशु पुरस्तान्निपतन्निव ।\nमहीमवातरत्क्षिप्रं रथेनादित्यवर्चसा ॥",
+          "meaning": {
+            "en": "Then Matali too quickly swooped down in front, and swiftly landed on the earth with the sun-bright chariot."
+          }
         },
         {
           "n": 30,
-          "text": "ततो रथसहस्राणि षष्टिस्तेषाममर्षिणाम् ।\nयुयुत्सूनां मया सार्धं पर्यवर्तन्त भारत ॥"
+          "text": "ततो रथसहस्राणि षष्टिस्तेषाममर्षिणाम् ।\nयुयुत्सूनां मया सार्धं पर्यवर्तन्त भारत ॥",
+          "meaning": {
+            "en": "Then sixty thousand chariots of those angry warriors, eager to fight, came round me, O Bharata."
+          }
         },
         {
           "n": 31,
-          "text": "तानहं निशितैर्बाणैर्व्यधमं गार्ध्रवाजितैः ।\nते युद्धे संन्यवर्तन्त समुद्रस्य यथोर्मयः ॥"
+          "text": "तानहं निशितैर्बाणैर्व्यधमं गार्ध्रवाजितैः ।\nते युद्धे संन्यवर्तन्त समुद्रस्य यथोर्मयः ॥",
+          "meaning": {
+            "en": "I cut them down with sharp arrows feathered with vulture plumes, but they came back to the fight like waves of the sea."
+          }
         },
         {
           "n": 32,
-          "text": "नेमे शक्या मानुषेण युद्धेनेति प्रचिन्त्य वै ।\nततोऽहमानुपूर्व्येण सर्वाण्यस्त्राण्ययोजयम् ॥"
+          "text": "नेमे शक्या मानुषेण युद्धेनेति प्रचिन्त्य वै ।\nततोऽहमानुपूर्व्येण सर्वाण्यस्त्राण्ययोजयम् ॥",
+          "meaning": {
+            "en": "Thinking, \"These cannot be defeated by a human way of fighting,\" I then used all my weapons in order."
+          }
         },
         {
           "n": 33,
-          "text": "ततस्तानि सहस्राणि रथानां चित्रयोधिनाम् ।\nअस्त्राणि मम दिव्यानि प्रत्यघ्नञ्शनकैरिव ॥"
+          "text": "ततस्तानि सहस्राणि रथानां चित्रयोधिनाम् ।\nअस्त्राणि मम दिव्यानि प्रत्यघ्नञ्शनकैरिव ॥",
+          "meaning": {
+            "en": "Then my divine weapons slowly struck down those thousands of chariots with their wonderful fighters."
+          }
         },
         {
           "n": 34,
-          "text": "रथमार्गान्विचित्रांस्ते विचरन्तो महारथाः ।\nप्रत्यदृश्यन्त संग्रामे शतशोऽथ सहस्रशः ॥"
+          "text": "रथमार्गान्विचित्रांस्ते विचरन्तो महारथाः ।\nप्रत्यदृश्यन्त संग्रामे शतशोऽथ सहस्रशः ॥",
+          "meaning": {
+            "en": "Those great chariot-warriors, moving along varied chariot paths, were seen in the battle by the hundred and the thousand."
+          }
         },
         {
           "n": 35,
-          "text": "विचित्रमुकुटापीडा विचित्रकवचध्वजाः ।\nविचित्राभरणाश्चैव नन्दयन्तीव मे मनः ॥"
+          "text": "विचित्रमुकुटापीडा विचित्रकवचध्वजाः ।\nविचित्राभरणाश्चैव नन्दयन्तीव मे मनः ॥",
+          "meaning": {
+            "en": "With strange crowns, strange armor and banners, and strange ornaments, they almost delighted my mind."
+          }
         },
         {
           "n": 36,
-          "text": "अहं तु शरवर्षैस्तानस्त्रप्रमुदितै रणे ।\nनाशक्नुवं पीडयितुं ते तु मां पर्यपीडयन् ॥"
+          "text": "अहं तु शरवर्षैस्तानस्त्रप्रमुदितै रणे ।\nनाशक्नुवं पीडयितुं ते तु मां पर्यपीडयन् ॥",
+          "meaning": {
+            "en": "But with showers of arrows, made joyful by my weapons, I could not overcome them in the battle, and they in turn pressed me hard."
+          }
         },
         {
           "n": 37,
-          "text": "तैः पीड्यमानो बहुभिः कृतास्त्रैः कुशलैर्युधि ।\nव्यथितोऽस्मि महायुद्धे भयं चागान्महन्मम ॥"
+          "text": "तैः पीड्यमानो बहुभिः कृतास्त्रैः कुशलैर्युधि ।\nव्यथितोऽस्मि महायुद्धे भयं चागान्महन्मम ॥",
+          "meaning": {
+            "en": "Pressed by many skilled and trained fighters in that battle, I was in distress in the great war, and great fear came over me."
+          }
         },
         {
           "n": 38,
-          "text": "ततोऽहं देवदेवाय रुद्राय प्रणतो रणे ।\nस्वस्ति भूतेभ्य इत्युक्त्वा महास्त्रं समयोजयम् ।\nयत्तद्रौद्रमिति ख्यातं सर्वामित्रविनाशनम् ॥"
+          "text": "ततोऽहं देवदेवाय रुद्राय प्रणतो रणे ।\nस्वस्ति भूतेभ्य इत्युक्त्वा महास्त्रं समयोजयम् ।\nयत्तद्रौद्रमिति ख्यातं सर्वामित्रविनाशनम् ॥",
+          "meaning": {
+            "en": "Then in the battle I bowed to Rudra, the god of gods, and saying \"May it be well with all beings,\" I fitted the great weapon known as the Raudra, destroyer of all enemies."
+          }
         },
         {
           "n": 39,
-          "text": "ततोऽपश्यं त्रिशिरसं पुरुषं नवलोचनम् ।\nत्रिमुखं षड्भुजं दीप्तमर्कज्वलनमूर्धजम् ।\nलेलिहानैर्महानागैः कृतशीर्षममित्रहन् ॥"
+          "text": "ततोऽपश्यं त्रिशिरसं पुरुषं नवलोचनम् ।\nत्रिमुखं षड्भुजं दीप्तमर्कज्वलनमूर्धजम् ।\nलेलिहानैर्महानागैः कृतशीर्षममित्रहन् ॥",
+          "meaning": {
+            "en": "Then I saw a being with three heads and nine eyes, three faces and six arms, blazing, his hair flaming like the sun and fire, with great serpents licking at his head, O slayer of foes."
+          }
         },
         {
           "n": 40,
-          "text": "विभीस्ततस्तदस्त्रं तु घोरं रौद्रं सनातनम् ।\nदृष्ट्वा गाण्डीवसंयोगमानीय भरतर्षभ ॥"
+          "text": "विभीस्ततस्तदस्त्रं तु घोरं रौद्रं सनातनम् ।\nदृष्ट्वा गाण्डीवसंयोगमानीय भरतर्षभ ॥",
+          "meaning": {
+            "en": "Then, no longer afraid, having seen that terrible, eternal weapon of Rudra, I joined it to the Gandiva, O best of the Bharatas."
+          }
         },
         {
           "n": 41,
-          "text": "नमस्कृत्वा त्रिनेत्राय शर्वायामिततेजसे ।\nमुक्तवान्दानवेन्द्राणां पराभावाय भारत ॥"
+          "text": "नमस्कृत्वा त्रिनेत्राय शर्वायामिततेजसे ।\nमुक्तवान्दानवेन्द्राणां पराभावाय भारत ॥",
+          "meaning": {
+            "en": "Bowing to the three-eyed Sharva of boundless energy, I released it for the defeat of the danava chiefs, O Bharata."
+          }
         },
         {
           "n": 42,
-          "text": "मुक्तमात्रे ततस्तस्मिन्रूपाण्यासन्सहस्रशः ।\nमृगाणामथ सिंहानां व्याघ्राणां च विशां पते ।\nऋक्षाणां महिषाणां च पन्नगानां तथा गवाम् ॥"
+          "text": "मुक्तमात्रे ततस्तस्मिन्रूपाण्यासन्सहस्रशः ।\nमृगाणामथ सिंहानां व्याघ्राणां च विशां पते ।\nऋक्षाणां महिषाणां च पन्नगानां तथा गवाम् ॥",
+          "meaning": {
+            "en": "The moment it was released, forms appeared by the thousand, lord of men, of deer, lions, tigers, bears, buffaloes, serpents and cows,"
+          }
         },
         {
           "n": 43,
-          "text": "गजानां सृमराणां च शरभाणां च सर्वशः ।\nऋषभाणां वराहाणां मार्जाराणां तथैव च ।\nशालावृकाणां प्रेतानां भुरुण्डानां च सर्वशः ॥"
+          "text": "गजानां सृमराणां च शरभाणां च सर्वशः ।\nऋषभाणां वराहाणां मार्जाराणां तथैव च ।\nशालावृकाणां प्रेतानां भुरुण्डानां च सर्वशः ॥",
+          "meaning": {
+            "en": "of elephants, srimaras, sharabhas, bulls, boars, cats, jackals, ghosts and bhurundas on every side,"
+          }
         },
         {
           "n": 44,
-          "text": "गृध्राणां गरुडानां च मकराणां तथैव च ।\nपिशाचानां सयक्षाणां तथैव च सुरद्विषाम् ॥"
+          "text": "गृध्राणां गरुडानां च मकराणां तथैव च ।\nपिशाचानां सयक्षाणां तथैव च सुरद्विषाम् ॥",
+          "meaning": {
+            "en": "of vultures, garudas, makaras, pishachas with yakshas, and haters of the gods,"
+          }
         },
         {
           "n": 45,
-          "text": "गुह्यकानां च संग्रामे नैरृतानां तथैव च ।\nझषाणां गजवक्त्राणामुलूकानां तथैव च ॥"
+          "text": "गुह्यकानां च संग्रामे नैरृतानां तथैव च ।\nझषाणां गजवक्त्राणामुलूकानां तथैव च ॥",
+          "meaning": {
+            "en": "guhyakas, rakshasas, fish, elephant-faced beings, owls in the battle,"
+          }
         },
         {
           "n": 46,
-          "text": "मीनकूर्मसमूहानां नानाशस्त्रासिपाणिनाम् ।\nतथैव यातु धानानां गदामुद्गरधारिणाम् ॥"
+          "text": "मीनकूर्मसमूहानां नानाशस्त्रासिपाणिनाम् ।\nतथैव यातु धानानां गदामुद्गरधारिणाम् ॥",
+          "meaning": {
+            "en": "hosts of fish and tortoises, beings with various weapons and swords in hand, and also rakshasas bearing maces and mallets."
+          }
         },
         {
           "n": 47,
-          "text": "एतैश्चान्यैश्च बहुभिर्नानारूपधरैस्तथा ।\nसर्वमासीज्जगद्व्याप्तं तस्मिन्नस्त्रे विसर्जिते ॥"
+          "text": "एतैश्चान्यैश्च बहुभिर्नानारूपधरैस्तथा ।\nसर्वमासीज्जगद्व्याप्तं तस्मिन्नस्त्रे विसर्जिते ॥",
+          "meaning": {
+            "en": "With these and many others of varied shapes, the whole world was filled when that weapon was loosed."
+          }
         },
         {
           "n": 48,
-          "text": "त्रिशिरोभिश्चतुर्दंष्ट्रैश्चतुरास्यैश्चतुर्भुजैः ।\nअनेकरूपसंयुक्तैर्मांसमेदोवसाशिभिः ।\nअभीक्ष्णं वध्यमानास्ते दानवा ये समागताः ॥"
+          "text": "त्रिशिरोभिश्चतुर्दंष्ट्रैश्चतुरास्यैश्चतुर्भुजैः ।\nअनेकरूपसंयुक्तैर्मांसमेदोवसाशिभिः ।\nअभीक्ष्णं वध्यमानास्ते दानवा ये समागताः ॥",
+          "meaning": {
+            "en": "With three heads, four fangs, four mouths and four arms, of many forms, eating flesh, fat and marrow, they struck down again and again the danavas who had gathered."
+          }
         },
         {
           "n": 49,
-          "text": "अर्कज्वलनतेजोभिर्वज्राशनिसमप्रभैः ।\nअद्रिसारमयैश्चान्यैर्बाणैररिविदारणैः ।\nन्यहनं दानवान्सर्वान्मुहूर्तेनैव भारत ॥"
+          "text": "अर्कज्वलनतेजोभिर्वज्राशनिसमप्रभैः ।\nअद्रिसारमयैश्चान्यैर्बाणैररिविदारणैः ।\nन्यहनं दानवान्सर्वान्मुहूर्तेनैव भारत ॥",
+          "meaning": {
+            "en": "With arrows blazing like the sun and fire, shining like thunderbolts, and others made of mountain-iron that split enemies, I killed all the danavas in a single muhurta, O Bharata."
+          }
         },
         {
           "n": 50,
-          "text": "गाण्डीवास्त्रप्रणुन्नांस्तान्गतासून्नभसश्च्युतान् ।\nदृष्ट्वाहं प्राणमं भूयस्त्रिपुरघ्नाय वेधसे ॥"
+          "text": "गाण्डीवास्त्रप्रणुन्नांस्तान्गतासून्नभसश्च्युतान् ।\nदृष्ट्वाहं प्राणमं भूयस्त्रिपुरघ्नाय वेधसे ॥",
+          "meaning": {
+            "en": "Seeing them lifeless, driven by the Gandiva weapon and fallen from the sky, I bowed again to the Creator, the destroyer of Tripura."
+          }
         },
         {
           "n": 51,
-          "text": "तथा रौद्रास्त्रनिष्पिष्टान्दिव्याभरणभूषितान् ।\nनिशाम्य परमं हर्षमगमद्देवसारथिः ॥"
+          "text": "तथा रौद्रास्त्रनिष्पिष्टान्दिव्याभरणभूषितान् ।\nनिशाम्य परमं हर्षमगमद्देवसारथिः ॥",
+          "meaning": {
+            "en": "Seeing them crushed by the Raudra weapon, adorned with divine ornaments, the charioteer of the gods, Matali, was filled with great joy."
+          }
         },
         {
           "n": 52,
-          "text": "तदसह्यं कृतं कर्म देवैरपि दुरासदम् ।\nदृष्ट्वा मां पूजयामास मातलिः शक्रसारथिः ॥"
+          "text": "तदसह्यं कृतं कर्म देवैरपि दुरासदम् ।\nदृष्ट्वा मां पूजयामास मातलिः शक्रसारथिः ॥",
+          "meaning": {
+            "en": "Seeing that deed, unbearable and hard even for the gods to achieve, Matali, Indra's charioteer, honored me."
+          }
         },
         {
           "n": 53,
-          "text": "उवाच चेदं वचनं प्रीयमाणः कृताञ्जलिः ।\nसुरासुरैरसह्यं हि कर्म यत्साधितं त्वया ।\nन ह्येतत्संयुगे कर्तुमपि शक्तः सुरेश्वरः ॥"
+          "text": "उवाच चेदं वचनं प्रीयमाणः कृताञ्जलिः ।\nसुरासुरैरसह्यं हि कर्म यत्साधितं त्वया ।\nन ह्येतत्संयुगे कर्तुमपि शक्तः सुरेश्वरः ॥",
+          "meaning": {
+            "en": "Pleased, with joined palms, he said, \"You have done what gods and asuras could not bear to do. Not even the lord of the gods could do this in battle."
+          }
         },
         {
           "n": 54,
-          "text": "सुरासुरैरवध्यं हि पुरमेतत्खगं महत् ।\nत्वया विमथितं वीर स्ववीर्यास्त्रतपोबलात् ॥"
+          "text": "सुरासुरैरवध्यं हि पुरमेतत्खगं महत् ।\nत्वया विमथितं वीर स्ववीर्यास्त्रतपोबलात् ॥",
+          "meaning": {
+            "en": "This great sky-going city could not be killed by gods and asuras, yet you have crushed it, hero, by your own strength, weapons and austerity.\""
+          }
         },
         {
           "n": 55,
-          "text": "विध्वस्तेऽथ पुरे तस्मिन्दानवेषु हतेषु च ।\nविनदन्त्यः स्त्रियः सर्वा निष्पेतुर्नगराद्बहिः ॥"
+          "text": "विध्वस्तेऽथ पुरे तस्मिन्दानवेषु हतेषु च ।\nविनदन्त्यः स्त्रियः सर्वा निष्पेतुर्नगराद्बहिः ॥",
+          "meaning": {
+            "en": "When that city was ruined and the danavas slain, all the women cried out and came out of the city."
+          }
         },
         {
           "n": 56,
-          "text": "प्रकीर्णकेश्यो व्यथिताः कुरर्य इव दुःखिताः ।\nपेतुः पुत्रान्पितॄन्भ्रातॄञ्शोचमाना महीतले ॥"
+          "text": "प्रकीर्णकेश्यो व्यथिताः कुरर्य इव दुःखिताः ।\nपेतुः पुत्रान्पितॄन्भ्रातॄञ्शोचमाना महीतले ॥",
+          "meaning": {
+            "en": "With loosened hair and in anguish, like grieving ospreys, they fell on the ground mourning for sons, fathers and brothers."
+          }
         },
         {
           "n": 57,
-          "text": "रुदन्त्यो दीनकण्ठ्यस्ता विनदन्त्यो हतेश्वराः ।\nउरांसि पाणिभिर्घ्नन्त्यः प्रस्रस्तस्रग्विभूषणाः ॥"
+          "text": "रुदन्त्यो दीनकण्ठ्यस्ता विनदन्त्यो हतेश्वराः ।\nउरांसि पाणिभिर्घ्नन्त्यः प्रस्रस्तस्रग्विभूषणाः ॥",
+          "meaning": {
+            "en": "Weeping in pitiful voices, wailing for their slain lords, beating their breasts with their hands, with garlands and ornaments slipping loose,"
+          }
         },
         {
           "n": 58,
-          "text": "तच्छोकयुक्तमश्रीकं दुःखदैन्यसमाहतम् ।\nन बभौ दानवपुरं हतत्विट्कं हतेश्वरम् ॥"
+          "text": "तच्छोकयुक्तमश्रीकं दुःखदैन्यसमाहतम् ।\nन बभौ दानवपुरं हतत्विट्कं हतेश्वरम् ॥",
+          "meaning": {
+            "en": "the danava city, full of sorrow, joyless and stricken with grief and misery, its splendor dead and its lords slain, no longer shone."
+          }
         },
         {
           "n": 59,
-          "text": "गन्धर्वनगराकारं हतनागमिव ह्रदम् ।\nशुष्कवृक्षमिवारण्यमदृश्यमभवत्पुरम् ॥"
+          "text": "गन्धर्वनगराकारं हतनागमिव ह्रदम् ।\nशुष्कवृक्षमिवारण्यमदृश्यमभवत्पुरम् ॥",
+          "meaning": {
+            "en": "It looked like a gandharva city, like a lake whose elephants are dead, like a forest of dry trees, and it was hard to look at."
+          }
         },
         {
           "n": 60,
-          "text": "मां तु संहृष्टमनसं क्षिप्रं मातलिरानयत् ।\nदेवराजस्य भवनं कृतकर्माणमाहवात् ॥"
+          "text": "मां तु संहृष्टमनसं क्षिप्रं मातलिरानयत् ।\nदेवराजस्य भवनं कृतकर्माणमाहवात् ॥",
+          "meaning": {
+            "en": "Matali, with my mind delighted, quickly brought me, who had done my work in battle, to the palace of the king of the gods."
+          }
         },
         {
           "n": 61,
-          "text": "हिरण्यपुरमारुज्य निहत्य च महासुरान् ।\nनिवातकवचांश्चैव ततोऽहं शक्रमागमम् ॥"
+          "text": "हिरण्यपुरमारुज्य निहत्य च महासुरान् ।\nनिवातकवचांश्चैव ततोऽहं शक्रमागमम् ॥",
+          "meaning": {
+            "en": "Having broken Hiranyapura and killed the great asuras and the Nivatakavachas, I then came to Indra."
+          }
         },
         {
           "n": 62,
-          "text": "मम कर्म च देवेन्द्रं मातलिर्विस्तरेण तत् ।\nसर्वं विश्रावयामास यथा भूतं महाद्युते ॥"
+          "text": "मम कर्म च देवेन्द्रं मातलिर्विस्तरेण तत् ।\nसर्वं विश्रावयामास यथा भूतं महाद्युते ॥",
+          "meaning": {
+            "en": "Matali narrated to Indra in full detail all my deeds just as they had happened, O greatly radiant one."
+          }
         },
         {
           "n": 63,
-          "text": "हिरण्यपुरघातं च मायानां च निवारणम् ।\nनिवातकवचानां च वधं संख्ये महौजसाम् ॥"
+          "text": "हिरण्यपुरघातं च मायानां च निवारणम् ।\nनिवातकवचानां च वधं संख्ये महौजसाम् ॥",
+          "meaning": {
+            "en": "He told of the destruction of Hiranyapura, the countering of the illusions, and the killing in battle of the mighty Nivatakavachas."
+          }
         },
         {
           "n": 64,
-          "text": "तच्छ्रुत्वा भगवान्प्रीतः सहस्राक्षः पुरंदरः ।\nमरुद्भिः सहितः श्रीमान्साधु साध्वित्यथाब्रवीत् ॥"
+          "text": "तच्छ्रुत्वा भगवान्प्रीतः सहस्राक्षः पुरंदरः ।\nमरुद्भिः सहितः श्रीमान्साधु साध्वित्यथाब्रवीत् ॥",
+          "meaning": {
+            "en": "Hearing it, the glorious, thousand-eyed Indra, destroyer of cities, was pleased and, together with the Maruts, said, \"Well done, well done!\""
+          }
         },
         {
           "n": 65,
-          "text": "ततो मां देवराजो वै समाश्वास्य पुनः पुनः ।\nअब्रवीद्विबुधैः सार्धमिदं सुमधुरं वचः ॥"
+          "text": "ततो मां देवराजो वै समाश्वास्य पुनः पुनः ।\nअब्रवीद्विबुधैः सार्धमिदं सुमधुरं वचः ॥",
+          "meaning": {
+            "en": "Then the king of the gods, comforting me again and again, spoke these very sweet words to me in the midst of the gods."
+          }
         },
         {
           "n": 66,
-          "text": "अतिदेवासुरं कर्म कृतमेतत्त्वया रणे ।\nगुर्वर्थश्च महान्पार्थ कृतः शत्रून्घ्नता मम ॥"
+          "text": "अतिदेवासुरं कर्म कृतमेतत्त्वया रणे ।\nगुर्वर्थश्च महान्पार्थ कृतः शत्रून्घ्नता मम ॥",
+          "meaning": {
+            "en": "\"You have done in battle a deed beyond gods and asuras, Partha, and by slaying my enemies you have paid your teacher's great fee."
+          }
         },
         {
           "n": 67,
-          "text": "एवमेव सदा भाव्यं स्थिरेणाजौ धनंजय ।\nअसंमूढेन चास्त्राणां कर्तव्यं प्रतिपादनम् ॥"
+          "text": "एवमेव सदा भाव्यं स्थिरेणाजौ धनंजय ।\nअसंमूढेन चास्त्राणां कर्तव्यं प्रतिपादनम् ॥",
+          "meaning": {
+            "en": "You should always be like this, Dhananjaya, steady in battle and unbewildered in the application of weapons."
+          }
         },
         {
           "n": 68,
-          "text": "अविषह्यो रणे हि त्वं देवदानवराक्षसैः ।\nसयक्षासुरगन्धर्वैः सपक्षिगणपन्नगैः ॥"
+          "text": "अविषह्यो रणे हि त्वं देवदानवराक्षसैः ।\nसयक्षासुरगन्धर्वैः सपक्षिगणपन्नगैः ॥",
+          "meaning": {
+            "en": "In battle you cannot be withstood by gods, danavas or rakshasas, nor by yakshas, asuras, gandharvas, bird hosts or serpents."
+          }
         },
         {
           "n": 69,
-          "text": "वसुधां चापि कौन्तेय त्वद्बाहुबलनिर्जिताम् ।\nपालयिष्यति धर्मात्मा कुन्तीपुत्रो युधिष्ठिरः ॥"
+          "text": "वसुधां चापि कौन्तेय त्वद्बाहुबलनिर्जिताम् ।\nपालयिष्यति धर्मात्मा कुन्तीपुत्रो युधिष्ठिरः ॥",
+          "meaning": {
+            "en": "And the earth, son of Kunti, conquered by the strength of your arms, will be ruled by the righteous Yudhishthira, son of Kunti.\""
+          }
         }
       ]
     }

@@ -22,214 +22,373 @@
       "titleEn": "Amshavatarana Parva (Partial incarnations)",
       "verses": [
         {
-          "text": "जनमेजय उवाच"
+          "text": "जनमेजय उवाच",
+          "meaning": {
+            "en": "Janamejaya said:"
+          }
         },
         {
           "n": 1,
-          "text": "य एते कीर्तिता ब्रह्मन्ये चान्ये नानुकीर्तिताः ।\nसम्यक्ताञ्श्रोतुमिच्छामि राज्ञश्चान्यान्सुवर्चसः ॥"
+          "text": "य एते कीर्तिता ब्रह्मन्ये चान्ये नानुकीर्तिताः ।\nसम्यक्ताञ्श्रोतुमिच्छामि राज्ञश्चान्यान्सुवर्चसः ॥",
+          "meaning": {
+            "en": "Brahmin, I want to hear properly about those you have named and about the others, the kings and other radiant ones whom you have not named."
+          }
         },
         {
           "n": 2,
-          "text": "यदर्थमिह संभूता देवकल्पा महारथाः ।\nभुवि तन्मे महाभाग सम्यगाख्यातुमर्हसि ॥"
+          "text": "यदर्थमिह संभूता देवकल्पा महारथाः ।\nभुवि तन्मे महाभाग सम्यगाख्यातुमर्हसि ॥",
+          "meaning": {
+            "en": "And for what purpose those god-like great chariot-warriors were born on earth, great and fortunate one, you should tell me clearly."
+          }
         },
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 3,
-          "text": "रहस्यं खल्विदं राजन्देवानामिति नः श्रुतम् ।\nतत्तु ते कथयिष्यामि नमस्कृत्वा स्वयंभुवे ॥"
+          "text": "रहस्यं खल्विदं राजन्देवानामिति नः श्रुतम् ।\nतत्तु ते कथयिष्यामि नमस्कृत्वा स्वयंभुवे ॥",
+          "meaning": {
+            "en": "We have heard, king, that this is a secret of the gods. I will tell it to you after bowing to the Self-born."
+          }
         },
         {
           "n": 4,
-          "text": "त्रिःसप्तकृत्वः पृथिवीं कृत्वा निःक्षत्रियां पुरा ।\nजामदग्न्यस्तपस्तेपे महेन्द्रे पर्वतोत्तमे ॥"
+          "text": "त्रिःसप्तकृत्वः पृथिवीं कृत्वा निःक्षत्रियां पुरा ।\nजामदग्न्यस्तपस्तेपे महेन्द्रे पर्वतोत्तमे ॥",
+          "meaning": {
+            "en": "Long ago Jamadagni's son Parashurama, having made the earth free of kshatriyas twenty-one times, practiced austerities on Mahendra, the best of mountains."
+          }
         },
         {
           "n": 5,
-          "text": "तदा निःक्षत्रिये लोके भार्गवेण कृते सति ।\nब्राह्मणान्क्षत्रिया राजन्गर्भार्थिन्योऽभिचक्रमुः ॥"
+          "text": "तदा निःक्षत्रिये लोके भार्गवेण कृते सति ।\nब्राह्मणान्क्षत्रिया राजन्गर्भार्थिन्योऽभिचक्रमुः ॥",
+          "meaning": {
+            "en": "Then, when the world was empty of kshatriyas by the Bhargava's act, king, the kshatriya women came to the brahmins, desiring offspring."
+          }
         },
         {
           "n": 6,
-          "text": "ताभिः सह समापेतुर्ब्राह्मणाः संशितव्रताः ।\nऋतावृतौ नरव्याघ्र न कामान्नानृतौ तथा ॥"
+          "text": "ताभिः सह समापेतुर्ब्राह्मणाः संशितव्रताः ।\nऋतावृतौ नरव्याघ्र न कामान्नानृतौ तथा ॥",
+          "meaning": {
+            "en": "Brahmins of strict vows lay with them, each only at the fertile season, tiger among men, not from lust and not out of season."
+          }
         },
         {
           "n": 7,
-          "text": "तेभ्यस्तु लेभिरे गर्भान्क्षत्रियास्ताः सहस्रशः ।\nततः सुषुविरे राजन्क्षत्रियान्वीर्यसंमतान् ।\nकुमारांश्च कुमारीश्च पुनः क्षत्राभिवृद्धये ॥"
+          "text": "तेभ्यस्तु लेभिरे गर्भान्क्षत्रियास्ताः सहस्रशः ।\nततः सुषुविरे राजन्क्षत्रियान्वीर्यसंमतान् ।\nकुमारांश्च कुमारीश्च पुनः क्षत्राभिवृद्धये ॥",
+          "meaning": {
+            "en": "The kshatriya women by the thousands conceived from them. Then, king, they bore kshatriya children of proven strength, boys and girls, for the growth of the warrior class."
+          }
         },
         {
           "n": 8,
-          "text": "एवं तद्ब्राह्मणैः क्षत्रं क्षत्रियासु तपस्विभिः ।\nजातमृध्यत धर्मेण सुदीर्घेणायुषान्वितम् ।\nचत्वारोऽपि तदा वर्णा बभूवुर्ब्राह्मणोत्तराः ॥"
+          "text": "एवं तद्ब्राह्मणैः क्षत्रं क्षत्रियासु तपस्विभिः ।\nजातमृध्यत धर्मेण सुदीर्घेणायुषान्वितम् ।\nचत्वारोऽपि तदा वर्णा बभूवुर्ब्राह्मणोत्तराः ॥",
+          "meaning": {
+            "en": "In this way the warrior class, born of ascetic brahmins in kshatriya women, flourished through dharma and had very long lives. And then all four classes had the brahmins at their head."
+          }
         },
         {
           "n": 9,
-          "text": "अभ्यगच्छन्नृतौ नारीं न कामान्नानृतौ तथा ।\nतथैवान्यानि भूतानि तिर्यग्योनिगतान्यपि ।\nऋतौ दारांश्च गच्छन्ति तदा स्म भरतर्षभ ॥"
+          "text": "अभ्यगच्छन्नृतौ नारीं न कामान्नानृतौ तथा ।\nतथैवान्यानि भूतानि तिर्यग्योनिगतान्यपि ।\nऋतौ दारांश्च गच्छन्ति तदा स्म भरतर्षभ ॥",
+          "meaning": {
+            "en": "Men approached a woman only in her season, not from lust nor out of season; so too other creatures, even those born in animal wombs, went to their mates in season, bull of the Bharatas."
+          }
         },
         {
           "n": 10,
-          "text": "ततोऽवर्धन्त धर्मेण सहस्रशतजीविनः ।\nताः प्रजाः पृथिवीपाल धर्मव्रतपरायणाः ।\nआधिभिर्व्याधिभिश्चैव विमुक्ताः सर्वशो नराः ॥"
+          "text": "ततोऽवर्धन्त धर्मेण सहस्रशतजीविनः ।\nताः प्रजाः पृथिवीपाल धर्मव्रतपरायणाः ।\nआधिभिर्व्याधिभिश्चैव विमुक्ताः सर्वशो नराः ॥",
+          "meaning": {
+            "en": "Then those people prospered by dharma, living a hundred thousand years, devoted to vows of dharma, free everywhere of mental and bodily illness."
+          }
         },
         {
           "n": 11,
-          "text": "अथेमां सागरापाङ्गां गां गजेन्द्रगताखिलाम् ।\nअध्यतिष्ठत्पुनः क्षत्रं सशैलवनकाननाम् ॥"
+          "text": "अथेमां सागरापाङ्गां गां गजेन्द्रगताखिलाम् ।\nअध्यतिष्ठत्पुनः क्षत्रं सशैलवनकाननाम् ॥",
+          "meaning": {
+            "en": "Then the warrior class again took possession of this earth, bounded by the ocean, fully covered by elephants and with its mountains, forests and groves."
+          }
         },
         {
           "n": 12,
-          "text": "प्रशासति पुनः क्षत्रे धर्मेणेमां वसुंधराम् ।\nब्राह्मणाद्यास्तदा वर्णा लेभिरे मुदमुत्तमाम् ॥"
+          "text": "प्रशासति पुनः क्षत्रे धर्मेणेमां वसुंधराम् ।\nब्राह्मणाद्यास्तदा वर्णा लेभिरे मुदमुत्तमाम् ॥",
+          "meaning": {
+            "en": "With the warrior class again ruling this earth in dharma, brahmins and the other classes gained the highest joy."
+          }
         },
         {
           "n": 13,
-          "text": "कामक्रोधोद्भवान्दोषान्निरस्य च नराधिपाः ।\nदण्डं दण्ड्येषु धर्मेण प्रणयन्तोऽन्वपालयन् ॥"
+          "text": "कामक्रोधोद्भवान्दोषान्निरस्य च नराधिपाः ।\nदण्डं दण्ड्येषु धर्मेण प्रणयन्तोऽन्वपालयन् ॥",
+          "meaning": {
+            "en": "The kings cast out the faults born of desire and anger and protected the land, applying punishment justly to those who deserved it."
+          }
         },
         {
           "n": 14,
-          "text": "तथा धर्मपरे क्षत्रे सहस्राक्षः शतक्रतुः ।\nस्वादु देशे च काले च ववर्षाप्याययन्प्रजाः ॥"
+          "text": "तथा धर्मपरे क्षत्रे सहस्राक्षः शतक्रतुः ।\nस्वादु देशे च काले च ववर्षाप्याययन्प्रजाः ॥",
+          "meaning": {
+            "en": "With the warrior class devoted to dharma, thousand-eyed Indra, of a hundred sacrifices, rained sweetly in the right place and season, nourishing the people."
+          }
         },
         {
           "n": 15,
-          "text": "न बाल एव म्रियते तदा कश्चिन्नराधिप ।\nन च स्त्रियं प्रजानाति कश्चिदप्राप्तयौवनः ॥"
+          "text": "न बाल एव म्रियते तदा कश्चिन्नराधिप ।\nन च स्त्रियं प्रजानाति कश्चिदप्राप्तयौवनः ॥",
+          "meaning": {
+            "en": "No one then died as a child, lord of men, and no one knew a woman before reaching youth."
+          }
         },
         {
           "n": 16,
-          "text": "एवमायुष्मतीभिस्तु प्रजाभिर्भरतर्षभ ।\nइयं सागरपर्यन्ता समापूर्यत मेदिनी ॥"
+          "text": "एवमायुष्मतीभिस्तु प्रजाभिर्भरतर्षभ ।\nइयं सागरपर्यन्ता समापूर्यत मेदिनी ॥",
+          "meaning": {
+            "en": "With people of such long life, bull of the Bharatas, this earth, bounded by the sea, became full."
+          }
         },
         {
           "n": 17,
-          "text": "ईजिरे च महायज्ञैः क्षत्रिया बहुदक्षिणैः ।\nसाङ्गोपनिषदान्वेदान्विप्राश्चाधीयते तदा ॥"
+          "text": "ईजिरे च महायज्ञैः क्षत्रिया बहुदक्षिणैः ।\nसाङ्गोपनिषदान्वेदान्विप्राश्चाधीयते तदा ॥",
+          "meaning": {
+            "en": "The kshatriyas performed great sacrifices with rich gifts, and the brahmins studied the Vedas with their branches and Upanishads."
+          }
         },
         {
           "n": 18,
-          "text": "न च विक्रीणते ब्रह्म ब्राह्मणाः स्म तदा नृप ।\nन च शूद्रसमाभ्याशे वेदानुच्चारयन्त्युत ॥"
+          "text": "न च विक्रीणते ब्रह्म ब्राह्मणाः स्म तदा नृप ।\nन च शूद्रसमाभ्याशे वेदानुच्चारयन्त्युत ॥",
+          "meaning": {
+            "en": "Brahmins did not then sell the sacred word, king, nor did they recite the Vedas near a shudra."
+          }
         },
         {
           "n": 19,
-          "text": "कारयन्तः कृषिं गोभिस्तथा वैश्याः क्षिताविह ।\nन गामयुञ्जन्त धुरि कृशाङ्गाश्चाप्यजीवयन् ॥"
+          "text": "कारयन्तः कृषिं गोभिस्तथा वैश्याः क्षिताविह ।\nन गामयुञ्जन्त धुरि कृशाङ्गाश्चाप्यजीवयन् ॥",
+          "meaning": {
+            "en": "The vaishyas, farming the earth with oxen, did not yoke a weak cow to the plow, and they kept the thin ones alive."
+          }
         },
         {
           "n": 20,
-          "text": "फेनपांश्च तथा वत्सान्न दुहन्ति स्म मानवाः ।\nन कूटमानैर्वणिजः पण्यं विक्रीणते तदा ॥"
+          "text": "फेनपांश्च तथा वत्सान्न दुहन्ति स्म मानवाः ।\nन कूटमानैर्वणिजः पण्यं विक्रीणते तदा ॥",
+          "meaning": {
+            "en": "People did not milk cows whose calves were still drinking foam from the udder, and merchants did not sell their goods with false weights."
+          }
         },
         {
           "n": 21,
-          "text": "कर्माणि च नरव्याघ्र धर्मोपेतानि मानवाः ।\nधर्ममेवानुपश्यन्तश्चक्रुर्धर्मपरायणाः ॥"
+          "text": "कर्माणि च नरव्याघ्र धर्मोपेतानि मानवाः ।\nधर्ममेवानुपश्यन्तश्चक्रुर्धर्मपरायणाः ॥",
+          "meaning": {
+            "en": "People, tiger among men, did deeds that accorded with dharma, looking to dharma alone and devoted to it."
+          }
         },
         {
           "n": 22,
-          "text": "स्वकर्मनिरताश्चासन्सर्वे वर्णा नराधिप ।\nएवं तदा नरव्याघ्र धर्मो न ह्रसते क्वचित् ॥"
+          "text": "स्वकर्मनिरताश्चासन्सर्वे वर्णा नराधिप ।\nएवं तदा नरव्याघ्र धर्मो न ह्रसते क्वचित् ॥",
+          "meaning": {
+            "en": "All the classes were busy at their own duties, lord of men, and so then, tiger among men, dharma never declined anywhere."
+          }
         },
         {
           "n": 23,
-          "text": "काले गावः प्रसूयन्ते नार्यश्च भरतर्षभ ।\nफलन्त्यृतुषु वृक्षाश्च पुष्पाणि च फलानि च ॥"
+          "text": "काले गावः प्रसूयन्ते नार्यश्च भरतर्षभ ।\nफलन्त्यृतुषु वृक्षाश्च पुष्पाणि च फलानि च ॥",
+          "meaning": {
+            "en": "Cows and women gave birth at the proper time, bull of the Bharatas, and trees bore flowers and fruits in their seasons."
+          }
         },
         {
           "n": 24,
-          "text": "एवं कृतयुगे सम्यग्वर्तमाने तदा नृप ।\nआपूर्यत मही कृत्स्ना प्राणिभिर्बहुभिर्भृशम् ॥"
+          "text": "एवं कृतयुगे सम्यग्वर्तमाने तदा नृप ।\nआपूर्यत मही कृत्स्ना प्राणिभिर्बहुभिर्भृशम् ॥",
+          "meaning": {
+            "en": "So, king, when the Krita age was running its proper course, the whole earth was filled completely with many living beings."
+          }
         },
         {
           "n": 25,
-          "text": "ततः समुदिते लोके मानुषे भरतर्षभ ।\nअसुरा जज्ञिरे क्षेत्रे राज्ञां मनुजपुंगव ॥"
+          "text": "ततः समुदिते लोके मानुषे भरतर्षभ ।\nअसुरा जज्ञिरे क्षेत्रे राज्ञां मनुजपुंगव ॥",
+          "meaning": {
+            "en": "Then, when the human world had prospered, bull of the Bharatas, asuras were born in royal wombs, best of men."
+          }
         },
         {
           "n": 26,
-          "text": "आदित्यैर्हि तदा दैत्या बहुशो निर्जिता युधि ।\nऐश्वर्याद्भ्रंशिताश्चापि संबभूवुः क्षिताविह ॥"
+          "text": "आदित्यैर्हि तदा दैत्या बहुशो निर्जिता युधि ।\nऐश्वर्याद्भ्रंशिताश्चापि संबभूवुः क्षिताविह ॥",
+          "meaning": {
+            "en": "For the Daityas had often been defeated in battle by the Adityas and had been thrown down from their rule, and so were born on earth."
+          }
         },
         {
           "n": 27,
-          "text": "इह देवत्वमिच्छन्तो मानुषेषु मनस्विनः ।\nजज्ञिरे भुवि भूतेषु तेषु तेष्वसुरा विभो ॥"
+          "text": "इह देवत्वमिच्छन्तो मानुषेषु मनस्विनः ।\nजज्ञिरे भुवि भूतेषु तेषु तेष्वसुरा विभो ॥",
+          "meaning": {
+            "en": "Wishing for godhood here among humans, those proud asuras were born on earth in various beings, lord."
+          }
         },
         {
           "n": 28,
-          "text": "गोष्वश्वेषु च राजेन्द्र खरोष्ट्रमहिषेषु च ।\nक्रव्यादेषु च भूतेषु गजेषु च मृगेषु च ॥"
+          "text": "गोष्वश्वेषु च राजेन्द्र खरोष्ट्रमहिषेषु च ।\nक्रव्यादेषु च भूतेषु गजेषु च मृगेषु च ॥",
+          "meaning": {
+            "en": "They were born in cows, horses, donkeys, camels and buffaloes, in flesh-eating creatures, in elephants and in deer, king of kings."
+          }
         },
         {
           "n": 29,
-          "text": "जातैरिह महीपाल जायमानैश्च तैर्मही ।\nन शशाकात्मनात्मानमियं धारयितुं धरा ॥"
+          "text": "जातैरिह महीपाल जायमानैश्च तैर्मही ।\nन शशाकात्मनात्मानमियं धारयितुं धरा ॥",
+          "meaning": {
+            "en": "With those born and being born, protector of the earth, this earth could not bear herself by herself."
+          }
         },
         {
           "n": 30,
-          "text": "अथ जाता महीपालाः केचिद्बलसमन्विताः ।\nदितेः पुत्रा दनोश्चैव तस्माल्लोकादिह च्युताः ॥"
+          "text": "अथ जाता महीपालाः केचिद्बलसमन्विताः ।\nदितेः पुत्रा दनोश्चैव तस्माल्लोकादिह च्युताः ॥",
+          "meaning": {
+            "en": "Some of the sons of Diti and Danu, fallen from their own world, were born here as kings, strong and mighty."
+          }
         },
         {
           "n": 31,
-          "text": "वीर्यवन्तोऽवलिप्तास्ते नानारूपधरा महीम् ।\nइमां सागरपर्यन्तां परीयुररिमर्दनाः ॥"
+          "text": "वीर्यवन्तोऽवलिप्तास्ते नानारूपधरा महीम् ।\nइमां सागरपर्यन्तां परीयुररिमर्दनाः ॥",
+          "meaning": {
+            "en": "Vigorous and arrogant, taking many forms, those destroyers of enemies roamed this earth bounded by the sea."
+          }
         },
         {
           "n": 32,
-          "text": "ब्राह्मणान्क्षत्रियान्वैश्याञ्शूद्रांश्चैवाप्यपीडयन् ।\nअन्यानि चैव भूतानि पीडयामासुरोजसा ॥"
+          "text": "ब्राह्मणान्क्षत्रियान्वैश्याञ्शूद्रांश्चैवाप्यपीडयन् ।\nअन्यानि चैव भूतानि पीडयामासुरोजसा ॥",
+          "meaning": {
+            "en": "They oppressed brahmins, kshatriyas, vaishyas and shudras, and by their strength oppressed other beings too."
+          }
         },
         {
           "n": 33,
-          "text": "त्रासयन्तो विनिघ्नन्तस्तांस्तान्भूतगणांश्च ते ।\nविचेरुः सर्वतो राजन्महीं शतसहस्रशः ॥"
+          "text": "त्रासयन्तो विनिघ्नन्तस्तांस्तान्भूतगणांश्च ते ।\nविचेरुः सर्वतो राजन्महीं शतसहस्रशः ॥",
+          "meaning": {
+            "en": "Terrifying and killing the various groups of creatures, they wandered everywhere over the earth, king, by hundreds of thousands."
+          }
         },
         {
           "n": 34,
-          "text": "आश्रमस्थान्महर्षींश्च धर्षयन्तस्ततस्ततः ।\nअब्रह्मण्या वीर्यमदा मत्ता मदबलेन च ॥"
+          "text": "आश्रमस्थान्महर्षींश्च धर्षयन्तस्ततस्ततः ।\nअब्रह्मण्या वीर्यमदा मत्ता मदबलेन च ॥",
+          "meaning": {
+            "en": "They assaulted great sages in their hermitages here and there, disrespecting brahmins, drunk with pride in their power and with the strength of their arrogance."
+          }
         },
         {
           "n": 35,
-          "text": "एवं वीर्यबलोत्सिक्तैर्भूरियं तैर्महासुरैः ।\nपीड्यमाना महीपाल ब्रह्माणमुपचक्रमे ॥"
+          "text": "एवं वीर्यबलोत्सिक्तैर्भूरियं तैर्महासुरैः ।\nपीड्यमाना महीपाल ब्रह्माणमुपचक्रमे ॥",
+          "meaning": {
+            "en": "So the earth, crushed by those great asuras swollen with might and strength, went to Brahma, protector of the earth."
+          }
         },
         {
           "n": 36,
-          "text": "न हीमां पवनो राजन्न नागा न नगा महीम् ।\nतदा धारयितुं शेकुराक्रान्तां दानवैर्बलात् ॥"
+          "text": "न हीमां पवनो राजन्न नागा न नगा महीम् ।\nतदा धारयितुं शेकुराक्रान्तां दानवैर्बलात् ॥",
+          "meaning": {
+            "en": "King, neither the wind, nor serpents, nor mountains could then bear the earth, overrun by the Danavas by force."
+          }
         },
         {
           "n": 37,
-          "text": "ततो मही महीपाल भारार्ता भयपीडिता ।\nजगाम शरणं देवं सर्वभूतपितामहम् ॥"
+          "text": "ततो मही महीपाल भारार्ता भयपीडिता ।\nजगाम शरणं देवं सर्वभूतपितामहम् ॥",
+          "meaning": {
+            "en": "Then the earth, tormented by the burden and terrified, went for refuge to the god, grandfather of all beings."
+          }
         },
         {
           "n": 38,
-          "text": "सा संवृतं महाभागैर्देवद्विजमहर्षिभिः ।\nददर्श देवं ब्रह्माणं लोककर्तारमव्ययम् ॥"
+          "text": "सा संवृतं महाभागैर्देवद्विजमहर्षिभिः ।\nददर्श देवं ब्रह्माणं लोककर्तारमव्ययम् ॥",
+          "meaning": {
+            "en": "She saw the god Brahma, maker of the world, the imperishable, surrounded by fortunate gods, brahmins and great sages."
+          }
         },
         {
           "n": 39,
-          "text": "गन्धर्वैरप्सरोभिश्च बन्दिकर्मसु निष्ठितैः ।\nवन्द्यमानं मुदोपेतैर्ववन्दे चैनमेत्य सा ॥"
+          "text": "गन्धर्वैरप्सरोभिश्च बन्दिकर्मसु निष्ठितैः ।\nवन्द्यमानं मुदोपेतैर्ववन्दे चैनमेत्य सा ॥",
+          "meaning": {
+            "en": "Praised joyfully by Gandharvas and apsarases who were skilled in singing praises, she came and bowed to him."
+          }
         },
         {
           "n": 40,
-          "text": "अथ विज्ञापयामास भूमिस्तं शरणार्थिनी ।\nसंनिधौ लोकपालानां सर्वेषामेव भारत ॥"
+          "text": "अथ विज्ञापयामास भूमिस्तं शरणार्थिनी ।\nसंनिधौ लोकपालानां सर्वेषामेव भारत ॥",
+          "meaning": {
+            "en": "Then the earth, seeking refuge, made her plea to him in the presence of all the guardians of the world, descendant of Bharata."
+          }
         },
         {
           "n": 41,
-          "text": "तत्प्रधानात्मनस्तस्य भूमेः कृत्यं स्वयंभुवः ।\nपूर्वमेवाभवद्राजन्विदितं परमेष्ठिनः ॥"
+          "text": "तत्प्रधानात्मनस्तस्य भूमेः कृत्यं स्वयंभुवः ।\nपूर्वमेवाभवद्राजन्विदितं परमेष्ठिनः ॥",
+          "meaning": {
+            "en": "The Self-born, supreme, the one of whom the earth was the chief concern, king, had already known her need."
+          }
         },
         {
           "n": 42,
-          "text": "स्रष्टा हि जगतः कस्मान्न संबुध्येत भारत ।\nसुरासुराणां लोकानामशेषेण मनोगतम् ॥"
+          "text": "स्रष्टा हि जगतः कस्मान्न संबुध्येत भारत ।\nसुरासुराणां लोकानामशेषेण मनोगतम् ॥",
+          "meaning": {
+            "en": "How could the creator of the world, Bharata, not understand the whole of what was in the minds of the gods, asuras and worlds?"
+          }
         },
         {
           "n": 43,
-          "text": "तामुवाच महाराज भूमिं भूमिपतिर्विभुः ।\nप्रभवः सर्वभूतानामीशः शंभुः प्रजापतिः ॥"
+          "text": "तामुवाच महाराज भूमिं भूमिपतिर्विभुः ।\nप्रभवः सर्वभूतानामीशः शंभुः प्रजापतिः ॥",
+          "meaning": {
+            "en": "The lord of the earth, the all-powerful Prajapati, source of all beings, the sovereign Shambhu, spoke, great king, to the earth."
+          }
         },
         {
           "n": 44,
-          "text": "यदर्थमसि संप्राप्ता मत्सकाशं वसुंधरे ।\nतदर्थं संनियोक्ष्यामि सर्वानेव दिवौकसः ॥"
+          "text": "यदर्थमसि संप्राप्ता मत्सकाशं वसुंधरे ।\nतदर्थं संनियोक्ष्यामि सर्वानेव दिवौकसः ॥",
+          "meaning": {
+            "en": "\"Earth, for the sake of which you have come to me, for that I will charge all the dwellers of heaven.\""
+          }
         },
         {
           "n": 45,
-          "text": "इत्युक्त्वा स महीं देवो ब्रह्मा राजन्विसृज्य च ।\nआदिदेश तदा सर्वान्विबुधान्भूतकृत्स्वयम् ॥"
+          "text": "इत्युक्त्वा स महीं देवो ब्रह्मा राजन्विसृज्य च ।\nआदिदेश तदा सर्वान्विबुधान्भूतकृत्स्वयम् ॥",
+          "meaning": {
+            "en": "Having said this, king, the god Brahma dismissed the earth and himself commanded all the gods, as maker of beings."
+          }
         },
         {
           "n": 46,
-          "text": "अस्या भूमेर्निरसितुं भारं भागैः पृथक्पृथक् ।\nअस्यामेव प्रसूयध्वं विरोधायेति चाब्रवीत् ॥"
+          "text": "अस्या भूमेर्निरसितुं भारं भागैः पृथक्पृथक् ।\nअस्यामेव प्रसूयध्वं विरोधायेति चाब्रवीत् ॥",
+          "meaning": {
+            "en": "\"To remove the burden of this earth, be born, each with a portion, in this very earth, to fight against them,\" he said."
+          }
         },
         {
           "n": 47,
-          "text": "तथैव च समानीय गन्धर्वाप्सरसां गणान् ।\nउवाच भगवान्सर्वानिदं वचनमुत्तमम् ।\nस्वैरंशैः संप्रसूयध्वं यथेष्टं मानुषेष्विति ॥"
+          "text": "तथैव च समानीय गन्धर्वाप्सरसां गणान् ।\nउवाच भगवान्सर्वानिदं वचनमुत्तमम् ।\nस्वैरंशैः संप्रसूयध्वं यथेष्टं मानुषेष्विति ॥",
+          "meaning": {
+            "en": "And he also gathered the hosts of Gandharvas and apsarases, and the lord said to them all this excellent word: \"Be born among humans as you wish, each with your own portions.\""
+          }
         },
         {
           "n": 48,
-          "text": "अथ शक्रादयः सर्वे श्रुत्वा सुरगुरोर्वचः ।\nतथ्यमर्थ्यं च पथ्यं च तस्य ते जगृहुस्तदा ॥"
+          "text": "अथ शक्रादयः सर्वे श्रुत्वा सुरगुरोर्वचः ।\nतथ्यमर्थ्यं च पथ्यं च तस्य ते जगृहुस्तदा ॥",
+          "meaning": {
+            "en": "Then Indra and all the others, hearing the word of the teacher of the gods, accepted it, since it was true, useful and wholesome."
+          }
         },
         {
           "n": 49,
-          "text": "अथ ते सर्वशोंऽशैः स्वैर्गन्तुं भूमिं कृतक्षणाः ।\nनारायणममित्रघ्नं वैकुण्ठमुपचक्रमुः ॥"
+          "text": "अथ ते सर्वशोंऽशैः स्वैर्गन्तुं भूमिं कृतक्षणाः ।\nनारायणममित्रघ्नं वैकुण्ठमुपचक्रमुः ॥",
+          "meaning": {
+            "en": "Then, having resolved to go to earth each with his own portions, they approached Narayana, slayer of foes, at Vaikuntha."
+          }
         },
         {
           "n": 50,
-          "text": "यः स चक्रगदापाणिः पीतवासासितप्रभः ।\nपद्मनाभः सुरारिघ्नः पृथुचार्वञ्चितेक्षणः ॥"
+          "text": "यः स चक्रगदापाणिः पीतवासासितप्रभः ।\nपद्मनाभः सुरारिघ्नः पृथुचार्वञ्चितेक्षणः ॥",
+          "meaning": {
+            "en": "He holds a discus and a mace in his hands, wears yellow garments, is dark in color, lotus-naveled, slayer of the gods' enemies, with broad, lovely, graceful eyes."
+          }
         },
         {
           "n": 51,
-          "text": "तं भुवः शोधनायेन्द्र उवाच पुरुषोत्तमम् ।\nअंशेनावतरस्वेति तथेत्याह च तं हरिः ॥"
+          "text": "तं भुवः शोधनायेन्द्र उवाच पुरुषोत्तमम् ।\nअंशेनावतरस्वेति तथेत्याह च तं हरिः ॥",
+          "meaning": {
+            "en": "To purify the earth, Indra said to that best of persons, \"Descend with a portion of yourself,\" and Hari said to him, \"So be it.\""
+          }
         }
       ]
     }

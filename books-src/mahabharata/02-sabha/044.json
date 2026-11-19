@@ -22,110 +22,194 @@
       "titleEn": "Dyuta Parva (The dice game)",
       "verses": [
         {
-          "text": "शकुनिरुवाच"
+          "text": "शकुनिरुवाच",
+          "meaning": {
+            "en": "Shakuni said:"
+          }
         },
         {
           "n": 1,
-          "text": "दुर्योधन न तेऽमर्षः कार्यः प्रति युधिष्ठिरम् ।\nभागधेयानि हि स्वानि पाण्डवा भुञ्जते सदा ॥"
+          "text": "दुर्योधन न तेऽमर्षः कार्यः प्रति युधिष्ठिरम् ।\nभागधेयानि हि स्वानि पाण्डवा भुञ्जते सदा ॥",
+          "meaning": {
+            "en": "Duryodhana, you should not feel anger toward Yudhishthira; the Pandavas ever enjoy only their own destined share."
+          }
         },
         {
           "n": 2,
-          "text": "अनेकैरभ्युपायैश्च त्वयारब्धाः पुरासकृत् ।\nविमुक्ताश्च नरव्याघ्रा भागधेयपुरस्कृताः ॥"
+          "text": "अनेकैरभ्युपायैश्च त्वयारब्धाः पुरासकृत् ।\nविमुक्ताश्च नरव्याघ्रा भागधेयपुरस्कृताः ॥",
+          "meaning": {
+            "en": "You tried many times earlier, by many means, against them, but those tigers among men were freed, led by their good fortune."
+          }
         },
         {
           "n": 3,
-          "text": "तैर्लब्धा द्रौपदी भार्या द्रुपदश्च सुतैः सह ।\nसहायः पृथिवीलाभे वासुदेवश्च वीर्यवान् ॥"
+          "text": "तैर्लब्धा द्रौपदी भार्या द्रुपदश्च सुतैः सह ।\nसहायः पृथिवीलाभे वासुदेवश्च वीर्यवान् ॥",
+          "meaning": {
+            "en": "They won Draupadi as wife, and Drupada with his sons, and valiant Vasudeva as an ally in winning the earth."
+          }
         },
         {
           "n": 4,
-          "text": "लब्धश्च नाभिभूतोऽर्थः पित्र्योंऽशः पृथिवीपते ।\nविवृद्धस्तेजसा तेषां तत्र का परिदेवना ॥"
+          "text": "लब्धश्च नाभिभूतोऽर्थः पित्र्योंऽशः पृथिवीपते ।\nविवृद्धस्तेजसा तेषां तत्र का परिदेवना ॥",
+          "meaning": {
+            "en": "They also gained their father's share, a thing not seized from another, lord of earth, and it grew through their strength; what is there to lament?"
+          }
         },
         {
           "n": 5,
-          "text": "धनंजयेन गाण्डीवमक्षय्यौ च महेषुधी ।\nलब्धान्यस्त्राणि दिव्यानि तर्पयित्वा हुताशनम् ॥"
+          "text": "धनंजयेन गाण्डीवमक्षय्यौ च महेषुधी ।\nलब्धान्यस्त्राणि दिव्यानि तर्पयित्वा हुताशनम् ॥",
+          "meaning": {
+            "en": "Arjuna got the Gandiva, the two inexhaustible quivers and divine weapons, after satisfying Agni."
+          }
         },
         {
           "n": 6,
-          "text": "तेन कार्मुकमुख्येन बाहुवीर्येण चात्मनः ।\nकृता वशे महीपालास्तत्र का परिदेवना ॥"
+          "text": "तेन कार्मुकमुख्येन बाहुवीर्येण चात्मनः ।\nकृता वशे महीपालास्तत्र का परिदेवना ॥",
+          "meaning": {
+            "en": "With that finest of bows and his own strength of arms he brought the kings under his rule; what is there to lament?"
+          }
         },
         {
           "n": 7,
-          "text": "अग्निदाहान्मयं चापि मोक्षयित्वा स दानवम् ।\nसभां तां कारयामास सव्यसाची परंतपः ॥"
+          "text": "अग्निदाहान्मयं चापि मोक्षयित्वा स दानवम् ।\nसभां तां कारयामास सव्यसाची परंतपः ॥",
+          "meaning": {
+            "en": "Savyasachin, scourge of foes, freed the danava Maya from the burning fire, and he had that hall built."
+          }
         },
         {
           "n": 8,
-          "text": "तेन चैव मयेनोक्ताः किंकरा नाम राक्षसाः ।\nवहन्ति तां सभां भीमास्तत्र का परिदेवना ॥"
+          "text": "तेन चैव मयेनोक्ताः किंकरा नाम राक्षसाः ।\nवहन्ति तां सभां भीमास्तत्र का परिदेवना ॥",
+          "meaning": {
+            "en": "And the rakshasas called Kinkaras, terrible, whom Maya named, carry that hall; what is there to lament?"
+          }
         },
         {
           "n": 9,
-          "text": "यच्चासहायतां राजन्नुक्तवानसि भारत ।\nतन्मिथ्या भ्रातरो हीमे सहायास्ते महारथाः ॥"
+          "text": "यच्चासहायतां राजन्नुक्तवानसि भारत ।\nतन्मिथ्या भ्रातरो हीमे सहायास्ते महारथाः ॥",
+          "meaning": {
+            "en": "And that you said you have no helpers, king, is false: these brothers of yours, great chariot-warriors, are your helpers."
+          }
         },
         {
           "n": 10,
-          "text": "द्रोणस्तव महेष्वासः सह पुत्रेण धीमता ।\nसूतपुत्रश्च राधेयो गौतमश्च महारथः ॥"
+          "text": "द्रोणस्तव महेष्वासः सह पुत्रेण धीमता ।\nसूतपुत्रश्च राधेयो गौतमश्च महारथः ॥",
+          "meaning": {
+            "en": "The great archer Drona with his wise son, Karna Radheya the charioteer's son, and the great chariot-warrior Gautama,"
+          }
         },
         {
           "n": 11,
-          "text": "अहं च सह सोदर्यैः सौमदत्तिश्च वीर्यवान् ।\nएतैस्त्वं सहितः सर्वैर्जय कृत्स्नां वसुंधराम् ॥"
+          "text": "अहं च सह सोदर्यैः सौमदत्तिश्च वीर्यवान् ।\nएतैस्त्वं सहितः सर्वैर्जय कृत्स्नां वसुंधराम् ॥",
+          "meaning": {
+            "en": "I with my brothers, and valiant Bhurishravas, the son of Somadatta: with all these together, conquer the whole earth."
+          }
         },
         {
-          "text": "दुर्योधन उवाच"
+          "text": "दुर्योधन उवाच",
+          "meaning": {
+            "en": "Duryodhana said:"
+          }
         },
         {
           "n": 12,
-          "text": "त्वया च सहितो राजन्नेतैश्चान्यैर्महारथैः ।\nएतानेव विजेष्यामि यदि त्वमनुमन्यसे ॥"
+          "text": "त्वया च सहितो राजन्नेतैश्चान्यैर्महारथैः ।\nएतानेव विजेष्यामि यदि त्वमनुमन्यसे ॥",
+          "meaning": {
+            "en": "Duryodhana said: With you and these other great chariot-warriors, king, if you approve, I shall conquer these very Pandavas."
+          }
         },
         {
           "n": 13,
-          "text": "एतेषु विजितेष्वद्य भविष्यति मही मम ।\nसर्वे च पृथिवीपालाः सभा सा च महाधना ॥"
+          "text": "एतेषु विजितेष्वद्य भविष्यति मही मम ।\nसर्वे च पृथिवीपालाः सभा सा च महाधना ॥",
+          "meaning": {
+            "en": "When these are conquered, the earth will be mine today, and all the kings, and that hall of great wealth."
+          }
         },
         {
-          "text": "शकुनिरुवाच"
+          "text": "शकुनिरुवाच",
+          "meaning": {
+            "en": "Shakuni said:"
+          }
         },
         {
           "n": 14,
-          "text": "धनंजयो वासुदेवो भीमसेनो युधिष्ठिरः ।\nनकुलः सहदेवश्च द्रुपदश्च सहात्मजैः ॥"
+          "text": "धनंजयो वासुदेवो भीमसेनो युधिष्ठिरः ।\nनकुलः सहदेवश्च द्रुपदश्च सहात्मजैः ॥",
+          "meaning": {
+            "en": "Arjuna, Vasudeva, Bhimasena, Yudhishthira, Nakula, Sahadeva, and Drupada with his sons,"
+          }
         },
         {
           "n": 15,
-          "text": "नैते युधि बलाज्जेतुं शक्याः सुरगणैरपि ।\nमहारथा महेष्वासाः कृतास्त्रा युद्धदुर्मदाः ॥"
+          "text": "नैते युधि बलाज्जेतुं शक्याः सुरगणैरपि ।\nमहारथा महेष्वासाः कृतास्त्रा युद्धदुर्मदाः ॥",
+          "meaning": {
+            "en": "cannot be conquered in battle by force, even by hosts of gods; they are great chariot-warriors and great archers, skilled in weapons and fierce in war."
+          }
         },
         {
           "n": 16,
-          "text": "अहं तु तद्विजानामि विजेतुं येन शक्यते ।\nयुधिष्ठिरं स्वयं राजंस्तन्निबोध जुषस्व च ॥"
+          "text": "अहं तु तद्विजानामि विजेतुं येन शक्यते ।\nयुधिष्ठिरं स्वयं राजंस्तन्निबोध जुषस्व च ॥",
+          "meaning": {
+            "en": "But I know the means by which Yudhishthira himself can be conquered, king; hear it and approve it."
+          }
         },
         {
-          "text": "दुर्योधन उवाच"
+          "text": "दुर्योधन उवाच",
+          "meaning": {
+            "en": "Duryodhana said:"
+          }
         },
         {
           "n": 17,
-          "text": "अप्रमादेन सुहृदामन्येषां च महात्मनाम् ।\nयदि शक्या विजेतुं ते तन्ममाचक्ष्व मातुल ॥"
+          "text": "अप्रमादेन सुहृदामन्येषां च महात्मनाम् ।\nयदि शक्या विजेतुं ते तन्ममाचक्ष्व मातुल ॥",
+          "meaning": {
+            "en": "Duryodhana said: Uncle, if they can be conquered without harm to friends or other great men, tell me how."
+          }
         },
         {
-          "text": "शकुनिरुवाच"
+          "text": "शकुनिरुवाच",
+          "meaning": {
+            "en": "Shakuni said:"
+          }
         },
         {
           "n": 18,
-          "text": "द्यूतप्रियश्च कौन्तेयो न च जानाति देवितुम् ।\nसमाहूतश्च राजेन्द्रो न शक्ष्यति निवर्तितुम् ॥"
+          "text": "द्यूतप्रियश्च कौन्तेयो न च जानाति देवितुम् ।\nसमाहूतश्च राजेन्द्रो न शक्ष्यति निवर्तितुम् ॥",
+          "meaning": {
+            "en": "The son of Kunti loves dice but does not know how to play, and when invited, that king of kings will not be able to refuse."
+          }
         },
         {
           "n": 19,
-          "text": "देवने कुशलश्चाहं न मेऽस्ति सदृशो भुवि ।\nत्रिषु लोकेषु कौन्तेयं तं त्वं द्यूते समाह्वय ॥"
+          "text": "देवने कुशलश्चाहं न मेऽस्ति सदृशो भुवि ।\nत्रिषु लोकेषु कौन्तेयं तं त्वं द्यूते समाह्वय ॥",
+          "meaning": {
+            "en": "I am skilled at gambling; I have no equal on earth, or in the three worlds. Challenge that Kunti's son to a game of dice."
+          }
         },
         {
           "n": 20,
-          "text": "तस्याक्षकुशलो राजन्नादास्येऽहमसंशयम् ।\nराज्यं श्रियं च तां दीप्तां त्वदर्थं पुरुषर्षभ ॥"
+          "text": "तस्याक्षकुशलो राजन्नादास्येऽहमसंशयम् ।\nराज्यं श्रियं च तां दीप्तां त्वदर्थं पुरुषर्षभ ॥",
+          "meaning": {
+            "en": "Skilled with the dice, king, I shall without doubt take from him his kingdom and that blazing fortune for you, best of men."
+          }
         },
         {
           "n": 21,
-          "text": "इदं तु सर्वं त्वं राज्ञे दुर्योधन निवेदय ।\nअनुज्ञातस्तु ते पित्रा विजेष्ये तं न संशयः ॥"
+          "text": "इदं तु सर्वं त्वं राज्ञे दुर्योधन निवेदय ।\nअनुज्ञातस्तु ते पित्रा विजेष्ये तं न संशयः ॥",
+          "meaning": {
+            "en": "But, Duryodhana, tell all this to the king. With your father's leave, I shall conquer him, without doubt."
+          }
         },
         {
-          "text": "दुर्योधन उवाच"
+          "text": "दुर्योधन उवाच",
+          "meaning": {
+            "en": "Duryodhana said:"
+          }
         },
         {
           "n": 22,
-          "text": "त्वमेव कुरुमुख्याय धृतराष्ट्राय सौबल ।\nनिवेदय यथान्यायं नाहं शक्ष्ये निशंसितुम् ॥"
+          "text": "त्वमेव कुरुमुख्याय धृतराष्ट्राय सौबल ।\nनिवेदय यथान्यायं नाहं शक्ष्ये निशंसितुम् ॥",
+          "meaning": {
+            "en": "You yourself, son of Subala, must tell it to Dhritarashtra, the chief of the Kurus, in due manner; I shall not be able to say it."
+          }
         }
       ]
     }

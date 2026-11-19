@@ -22,111 +22,195 @@
       "titleEn": "Aranyaka Parva (Into the forest)",
       "verses": [
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 1,
-          "text": "श्रुत्वा च विदुरं प्राप्तं राज्ञा च परिसान्त्वितम् ।\nधृतराष्ट्रात्मजो राजा पर्यतप्यत दुर्मतिः ॥"
+          "text": "श्रुत्वा च विदुरं प्राप्तं राज्ञा च परिसान्त्वितम् ।\nधृतराष्ट्रात्मजो राजा पर्यतप्यत दुर्मतिः ॥",
+          "meaning": {
+            "en": "Hearing that Vidura had come back and been comforted by the king, Dhritarashtra's son, the wicked-minded king Duryodhana, burned with distress."
+          }
         },
         {
           "n": 2,
-          "text": "स सौबलं समानाय्य कर्णदुःशासनावपि ।\nअब्रवीद्वचनं राजा प्रविश्याबुद्धिजं तमः ॥"
+          "text": "स सौबलं समानाय्य कर्णदुःशासनावपि ।\nअब्रवीद्वचनं राजा प्रविश्याबुद्धिजं तमः ॥",
+          "meaning": {
+            "en": "He summoned Shakuni, Subala's son, along with Karna and Duhshasana, and, wrapped in a darkness born of folly, spoke to them."
+          }
         },
         {
           "n": 3,
-          "text": "एष प्रत्यागतो मन्त्री धृतराष्ट्रस्य संमतः ।\nविदुरः पाण्डुपुत्राणां सुहृद्विद्वान्हिते रतः ॥"
+          "text": "एष प्रत्यागतो मन्त्री धृतराष्ट्रस्य संमतः ।\nविदुरः पाण्डुपुत्राणां सुहृद्विद्वान्हिते रतः ॥",
+          "meaning": {
+            "en": "Here is Dhritarashtra's trusted counselor returned, Vidura, the learned friend of the sons of Pandu, devoted to their good."
+          }
         },
         {
           "n": 4,
-          "text": "यावदस्य पुनर्बुद्धिं विदुरो नापकर्षति ।\nपाण्डवानयने तावन्मन्त्रयध्वं हितं मम ॥"
+          "text": "यावदस्य पुनर्बुद्धिं विदुरो नापकर्षति ।\nपाण्डवानयने तावन्मन्त्रयध्वं हितं मम ॥",
+          "meaning": {
+            "en": "Before Vidura turns the king's mind around again, counsel me for my benefit on how to bring the Pandavas back here."
+          }
         },
         {
           "n": 5,
-          "text": "अथ पश्याम्यहं पार्थान्प्राप्तानिह कथंचन ।\nपुनः शोषं गमिष्यामि निरासुर्निरवग्रहः ॥"
+          "text": "अथ पश्याम्यहं पार्थान्प्राप्तानिह कथंचन ।\nपुनः शोषं गमिष्यामि निरासुर्निरवग्रहः ॥",
+          "meaning": {
+            "en": "For if somehow I see the sons of Pritha come here, I will waste away again, without breath, without restraint."
+          }
         },
         {
           "n": 6,
-          "text": "विषमुद्बन्धनं वापि शस्त्रमग्निप्रवेशनम् ।\nकरिष्ये न हि तानृद्धान्पुनर्द्रष्टुमिहोत्सहे ॥"
+          "text": "विषमुद्बन्धनं वापि शस्त्रमग्निप्रवेशनम् ।\nकरिष्ये न हि तानृद्धान्पुनर्द्रष्टुमिहोत्सहे ॥",
+          "meaning": {
+            "en": "I will take poison, or hang myself, or use a weapon, or enter the fire. I cannot bear to see them prosperous again."
+          }
         },
         {
-          "text": "शकुनिरुवाच"
+          "text": "शकुनिरुवाच",
+          "meaning": {
+            "en": "Shakuni said:"
+          }
         },
         {
           "n": 7,
-          "text": "किं बालिषां मतिं राजन्नास्थितोऽसि विशां पते ।\nगतास्ते समयं कृत्वा नैतदेवं भविष्यति ॥"
+          "text": "किं बालिषां मतिं राजन्नास्थितोऽसि विशां पते ।\nगतास्ते समयं कृत्वा नैतदेवं भविष्यति ॥",
+          "meaning": {
+            "en": "King, lord of men, why have you taken up this childish thought? They went after making an agreement; it will not be so."
+          }
         },
         {
           "n": 8,
-          "text": "सत्यवाक्ये स्थिताः सर्वे पाण्डवा भरतर्षभ ।\nपितुस्ते वचनं तात न ग्रहीष्यन्ति कर्हिचित् ॥"
+          "text": "सत्यवाक्ये स्थिताः सर्वे पाण्डवा भरतर्षभ ।\nपितुस्ते वचनं तात न ग्रहीष्यन्ति कर्हिचित् ॥",
+          "meaning": {
+            "en": "All the Pandavas stand firm on truthful speech, bull of the Bharatas. They will never accept your father's word."
+          }
         },
         {
           "n": 9,
-          "text": "अथ वा ते ग्रहीष्यन्ति पुनरेष्यन्ति वा पुरम् ।\nनिरस्य समयं भूयः पणोऽस्माकं भविष्यति ॥"
+          "text": "अथ वा ते ग्रहीष्यन्ति पुनरेष्यन्ति वा पुरम् ।\nनिरस्य समयं भूयः पणोऽस्माकं भविष्यति ॥",
+          "meaning": {
+            "en": "Or if they do accept it and return to the city, then, having cast off their agreement, we shall have another stake to play for."
+          }
         },
         {
           "n": 10,
-          "text": "सर्वे भवामो मध्यस्था राज्ञश्छन्दानुवर्तिनः ।\nछिद्रं बहु प्रपश्यन्तः पाण्डवानां सुसंवृताः ॥"
+          "text": "सर्वे भवामो मध्यस्था राज्ञश्छन्दानुवर्तिनः ।\nछिद्रं बहु प्रपश्यन्तः पाण्डवानां सुसंवृताः ॥",
+          "meaning": {
+            "en": "Let us all stay neutral, following the king's wishes, closely guarded, watching for many weak points in the Pandavas."
+          }
         },
         {
-          "text": "दुःशासन उवाच"
+          "text": "दुःशासन उवाच",
+          "meaning": {
+            "en": "Duhshasana said:"
+          }
         },
         {
           "n": 11,
-          "text": "एवमेतन्महाप्राज्ञ यथा वदसि मातुल ।\nनित्यं हि मे कथयतस्तव बुद्धिर्हि रोचते ॥"
+          "text": "एवमेतन्महाप्राज्ञ यथा वदसि मातुल ।\nनित्यं हि मे कथयतस्तव बुद्धिर्हि रोचते ॥",
+          "meaning": {
+            "en": "It is just as you say, uncle, great of mind. Whenever you speak, your counsel pleases me."
+          }
         },
         {
-          "text": "कर्ण उवाच"
+          "text": "कर्ण उवाच",
+          "meaning": {
+            "en": "Karna said:"
+          }
         },
         {
           "n": 12,
-          "text": "काममीक्षामहे सर्वे दुर्योधन तवेप्सितम् ।\nऐकमत्यं हि नो राजन्सर्वेषामेव लक्ष्यते ॥"
+          "text": "काममीक्षामहे सर्वे दुर्योधन तवेप्सितम् ।\nऐकमत्यं हि नो राजन्सर्वेषामेव लक्ष्यते ॥",
+          "meaning": {
+            "en": "Duryodhana, we all look gladly to your wishes. We see that all of us are of one mind."
+          }
         },
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 13,
-          "text": "एवमुक्तस्तु कर्णेन राजा दुर्योधनस्तदा ।\nनातिहृष्टमनाः क्षिप्रमभवत्स पराङ्मुखः ॥"
+          "text": "एवमुक्तस्तु कर्णेन राजा दुर्योधनस्तदा ।\nनातिहृष्टमनाः क्षिप्रमभवत्स पराङ्मुखः ॥",
+          "meaning": {
+            "en": "Thus addressed by Karna, King Duryodhana, not greatly pleased, quickly turned away."
+          }
         },
         {
           "n": 14,
-          "text": "उपलभ्य ततः कर्णो विवृत्य नयने शुभे ।\nरोषाद्दुःशासनं चैव सौबलेयं च तावुभौ ॥"
+          "text": "उपलभ्य ततः कर्णो विवृत्य नयने शुभे ।\nरोषाद्दुःशासनं चैव सौबलेयं च तावुभौ ॥",
+          "meaning": {
+            "en": "Karna noticed it, and with his fair eyes wide, in anger he spoke to Duhshasana and Shakuni, both."
+          }
         },
         {
           "n": 15,
-          "text": "उवाच परमक्रुद्ध उद्यम्यात्मानमात्मना ।\nअहो मम मतं यत्तन्निबोधत नराधिपाः ॥"
+          "text": "उवाच परमक्रुद्ध उद्यम्यात्मानमात्मना ।\nअहो मम मतं यत्तन्निबोधत नराधिपाः ॥",
+          "meaning": {
+            "en": "Highly enraged, rousing himself, he said, \"Listen to my plan, lords of men."
+          }
         },
         {
           "n": 16,
-          "text": "प्रियं सर्वे चिकीर्षामो राज्ञः किंकरपाणयः ।\nन चास्य शक्नुमः सर्वे प्रिये स्थातुमतन्द्रिताः ॥"
+          "text": "प्रियं सर्वे चिकीर्षामो राज्ञः किंकरपाणयः ।\nन चास्य शक्नुमः सर्वे प्रिये स्थातुमतन्द्रिताः ॥",
+          "meaning": {
+            "en": "We all wish to please the king, our hands at his service, and yet we cannot stay tirelessly in what pleases him."
+          }
         },
         {
           "n": 17,
-          "text": "वयं तु शस्त्राण्यादाय रथानास्थाय दंशिताः ।\nगच्छामः सहिता हन्तुं पाण्डवान्वनगोचरान् ॥"
+          "text": "वयं तु शस्त्राण्यादाय रथानास्थाय दंशिताः ।\nगच्छामः सहिता हन्तुं पाण्डवान्वनगोचरान् ॥",
+          "meaning": {
+            "en": "But let us take weapons, mount chariots, put on armor, and go together to kill the Pandavas wandering in the forest."
+          }
         },
         {
           "n": 18,
-          "text": "तेषु सर्वेषु शान्तेषु गतेष्वविदितां गतिम् ।\nनिर्विवादा भविष्यन्ति धार्तराष्ट्रास्तथा वयम् ॥"
+          "text": "तेषु सर्वेषु शान्तेषु गतेष्वविदितां गतिम् ।\nनिर्विवादा भविष्यन्ति धार्तराष्ट्रास्तथा वयम् ॥",
+          "meaning": {
+            "en": "When all of them are at peace, gone by a way unknown, then the Dhritarashtra sons and we shall be free of quarrel."
+          }
         },
         {
           "n": 19,
-          "text": "यावदेव परिद्यूना यावच्छोकपरायणाः ।\nयावन्मित्रविहीनाश्च तावच्छक्या मतं मम ॥"
+          "text": "यावदेव परिद्यूना यावच्छोकपरायणाः ।\nयावन्मित्रविहीनाश्च तावच्छक्या मतं मम ॥",
+          "meaning": {
+            "en": "While they are afflicted by gambling, wholly given to sorrow, and without friends, my plan can be carried out.\""
+          }
         },
         {
           "n": 20,
-          "text": "तस्य तद्वचनं श्रुत्वा पूजयन्तः पुनः पुनः ।\nबाढमित्येव ते सर्वे प्रत्यूचुः सूतजं तदा ॥"
+          "text": "तस्य तद्वचनं श्रुत्वा पूजयन्तः पुनः पुनः ।\nबाढमित्येव ते सर्वे प्रत्यूचुः सूतजं तदा ॥",
+          "meaning": {
+            "en": "Hearing his words, praising them again and again, they all replied to the charioteer's son, \"Yes, indeed.\""
+          }
         },
         {
           "n": 21,
-          "text": "एवमुक्त्वा तु संक्रुद्धा रथैः सर्वे पृथक्पृथक् ।\nनिर्ययुः पाण्डवान्हन्तुं संघशः कृतनिश्चयाः ॥"
+          "text": "एवमुक्त्वा तु संक्रुद्धा रथैः सर्वे पृथक्पृथक् ।\nनिर्ययुः पाण्डवान्हन्तुं संघशः कृतनिश्चयाः ॥",
+          "meaning": {
+            "en": "Having said so, all of them, enraged, set out on separate chariots in companies, resolved to kill the Pandavas."
+          }
         },
         {
           "n": 22,
-          "text": "तान्प्रस्थितान्परिज्ञाय कृष्णद्वैपायनस्तदा ।\nआजगाम विशुद्धात्मा दृष्ट्वा दिव्येन चक्षुषा ॥"
+          "text": "तान्प्रस्थितान्परिज्ञाय कृष्णद्वैपायनस्तदा ।\nआजगाम विशुद्धात्मा दृष्ट्वा दिव्येन चक्षुषा ॥",
+          "meaning": {
+            "en": "Knowing that they had set out, the pure-souled Krishna Dvaipayana, Vyasa, saw it with divine sight and came."
+          }
         },
         {
           "n": 23,
-          "text": "प्रतिषिध्याथ तान्सर्वान्भगवाँल्लोकपूजितः ।\nप्रज्ञाचक्षुषमासीनमुवाचाभ्येत्य सत्वरः ॥"
+          "text": "प्रतिषिध्याथ तान्सर्वान्भगवाँल्लोकपूजितः ।\nप्रज्ञाचक्षुषमासीनमुवाचाभ्येत्य सत्वरः ॥",
+          "meaning": {
+            "en": "The revered one, honored by the worlds, stopped them all, then came swiftly to the seated king, whose sight is wisdom, and spoke to him."
+          }
         }
       ]
     }
