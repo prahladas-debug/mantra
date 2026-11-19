@@ -1,0 +1,1721 @@
+{
+ "en": [
+  {
+   "part": 1,
+   "from": 1,
+   "to": 13,
+   "verses": 891,
+   "id": "E001"
+  },
+  {
+   "part": 1,
+   "from": 14,
+   "to": 45,
+   "verses": 870,
+   "id": "E002"
+  },
+  {
+   "part": 1,
+   "from": 46,
+   "to": 65,
+   "verses": 895,
+   "id": "E003"
+  },
+  {
+   "part": 1,
+   "from": 66,
+   "to": 88,
+   "verses": 890,
+   "id": "E004"
+  },
+  {
+   "part": 1,
+   "from": 89,
+   "to": 109,
+   "verses": 862,
+   "id": "E005"
+  },
+  {
+   "part": 1,
+   "from": 110,
+   "to": 133,
+   "verses": 878,
+   "id": "E006"
+  },
+  {
+   "part": 1,
+   "from": 134,
+   "to": 163,
+   "verses": 890,
+   "id": "E007"
+  },
+  {
+   "part": 1,
+   "from": 164,
+   "to": 196,
+   "verses": 900,
+   "id": "E008"
+  },
+  {
+   "part": 1,
+   "from": 197,
+   "to": 222,
+   "verses": 883,
+   "id": "E009"
+  },
+  {
+   "part": 1,
+   "from": 223,
+   "to": 225,
+   "verses": 97,
+   "id": "E010"
+  },
+  {
+   "part": 2,
+   "from": 1,
+   "to": 22,
+   "verses": 898,
+   "id": "E011"
+  },
+  {
+   "part": 2,
+   "from": 23,
+   "to": 49,
+   "verses": 888,
+   "id": "E012"
+  },
+  {
+   "part": 2,
+   "from": 50,
+   "to": 72,
+   "verses": 890,
+   "id": "E013"
+  },
+  {
+   "part": 3,
+   "from": 1,
+   "to": 23,
+   "verses": 894,
+   "id": "E014"
+  },
+  {
+   "part": 3,
+   "from": 24,
+   "to": 45,
+   "verses": 881,
+   "id": "E015"
+  },
+  {
+   "part": 3,
+   "from": 46,
+   "to": 70,
+   "verses": 880,
+   "id": "E016"
+  },
+  {
+   "part": 3,
+   "from": 71,
+   "to": 85,
+   "verses": 898,
+   "id": "E017"
+  },
+  {
+   "part": 3,
+   "from": 86,
+   "to": 118,
+   "verses": 890,
+   "id": "E018"
+  },
+  {
+   "part": 3,
+   "from": 119,
+   "to": 145,
+   "verses": 849,
+   "id": "E019"
+  },
+  {
+   "part": 3,
+   "from": 146,
+   "to": 164,
+   "verses": 892,
+   "id": "E020"
+  },
+  {
+   "part": 3,
+   "from": 165,
+   "to": 186,
+   "verses": 893,
+   "id": "E021"
+  },
+  {
+   "part": 3,
+   "from": 187,
+   "to": 204,
+   "verses": 870,
+   "id": "E022"
+  },
+  {
+   "part": 3,
+   "from": 205,
+   "to": 230,
+   "verses": 895,
+   "id": "E023"
+  },
+  {
+   "part": 3,
+   "from": 231,
+   "to": 260,
+   "verses": 872,
+   "id": "E024"
+  },
+  {
+   "part": 3,
+   "from": 261,
+   "to": 280,
+   "verses": 846,
+   "id": "E025"
+  },
+  {
+   "part": 3,
+   "from": 281,
+   "to": 299,
+   "verses": 832,
+   "id": "E026"
+  },
+  {
+   "part": 4,
+   "from": 1,
+   "to": 29,
+   "verses": 878,
+   "id": "E027"
+  },
+  {
+   "part": 4,
+   "from": 30,
+   "to": 58,
+   "verses": 867,
+   "id": "E028"
+  },
+  {
+   "part": 4,
+   "from": 59,
+   "to": 67,
+   "verses": 318,
+   "id": "E029"
+  },
+  {
+   "part": 5,
+   "from": 1,
+   "to": 29,
+   "verses": 876,
+   "id": "E030"
+  },
+  {
+   "part": 5,
+   "from": 30,
+   "to": 46,
+   "verses": 868,
+   "id": "E031"
+  },
+  {
+   "part": 5,
+   "from": 47,
+   "to": 70,
+   "verses": 877,
+   "id": "E032"
+  },
+  {
+   "part": 5,
+   "from": 71,
+   "to": 96,
+   "verses": 891,
+   "id": "E033"
+  },
+  {
+   "part": 5,
+   "from": 97,
+   "to": 127,
+   "verses": 849,
+   "id": "E034"
+  },
+  {
+   "part": 5,
+   "from": 128,
+   "to": 151,
+   "verses": 883,
+   "id": "E035"
+  },
+  {
+   "part": 5,
+   "from": 152,
+   "to": 181,
+   "verses": 894,
+   "id": "E036"
+  },
+  {
+   "part": 5,
+   "from": 182,
+   "to": 197,
+   "verses": 447,
+   "id": "E037"
+  },
+  {
+   "part": 6,
+   "from": 1,
+   "to": 22,
+   "verses": 812,
+   "id": "E038"
+  },
+  {
+   "part": 6,
+   "from": 41,
+   "to": 54,
+   "verses": 835,
+   "id": "E039"
+  },
+  {
+   "part": 6,
+   "from": 55,
+   "to": 73,
+   "verses": 880,
+   "id": "E040"
+  },
+  {
+   "part": 6,
+   "from": 74,
+   "to": 91,
+   "verses": 875,
+   "id": "E041"
+  },
+  {
+   "part": 6,
+   "from": 92,
+   "to": 107,
+   "verses": 860,
+   "id": "E042"
+  },
+  {
+   "part": 6,
+   "from": 108,
+   "to": 117,
+   "verses": 642,
+   "id": "E043"
+  },
+  {
+   "part": 7,
+   "from": 1,
+   "to": 19,
+   "verses": 860,
+   "id": "E044"
+  },
+  {
+   "part": 7,
+   "from": 20,
+   "to": 42,
+   "verses": 881,
+   "id": "E045"
+  },
+  {
+   "part": 7,
+   "from": 43,
+   "to": 63,
+   "verses": 846,
+   "id": "E046"
+  },
+  {
+   "part": 7,
+   "from": 64,
+   "to": 81,
+   "verses": 893,
+   "id": "E047"
+  },
+  {
+   "part": 7,
+   "from": 82,
+   "to": 99,
+   "verses": 896,
+   "id": "E048"
+  },
+  {
+   "part": 7,
+   "from": 100,
+   "to": 117,
+   "verses": 896,
+   "id": "E049"
+  },
+  {
+   "part": 7,
+   "from": 118,
+   "to": 133,
+   "verses": 872,
+   "id": "E050"
+  },
+  {
+   "part": 7,
+   "from": 134,
+   "to": 150,
+   "verses": 899,
+   "id": "E051"
+  },
+  {
+   "part": 7,
+   "from": 151,
+   "to": 165,
+   "verses": 896,
+   "id": "E052"
+  },
+  {
+   "part": 7,
+   "from": 166,
+   "to": 173,
+   "verses": 567,
+   "id": "E053"
+  },
+  {
+   "part": 8,
+   "from": 1,
+   "to": 16,
+   "verses": 824,
+   "id": "E054"
+  },
+  {
+   "part": 8,
+   "from": 17,
+   "to": 27,
+   "verses": 852,
+   "id": "E055"
+  },
+  {
+   "part": 8,
+   "from": 28,
+   "to": 42,
+   "verses": 898,
+   "id": "E056"
+  },
+  {
+   "part": 8,
+   "from": 43,
+   "to": 57,
+   "verses": 887,
+   "id": "E057"
+  },
+  {
+   "part": 8,
+   "from": 58,
+   "to": 69,
+   "verses": 570,
+   "id": "E058"
+  },
+  {
+   "part": 9,
+   "from": 1,
+   "to": 16,
+   "verses": 870,
+   "id": "E059"
+  },
+  {
+   "part": 9,
+   "from": 17,
+   "to": 31,
+   "verses": 898,
+   "id": "E060"
+  },
+  {
+   "part": 9,
+   "from": 32,
+   "to": 47,
+   "verses": 887,
+   "id": "E061"
+  },
+  {
+   "part": 9,
+   "from": 48,
+   "to": 64,
+   "verses": 813,
+   "id": "E062"
+  },
+  {
+   "part": 10,
+   "from": 1,
+   "to": 18,
+   "verses": 816,
+   "id": "E063"
+  },
+  {
+   "part": 11,
+   "from": 1,
+   "to": 27,
+   "verses": 785,
+   "id": "E064"
+  },
+  {
+   "part": 12,
+   "from": 1,
+   "to": 28,
+   "verses": 885,
+   "id": "E065"
+  },
+  {
+   "part": 12,
+   "from": 29,
+   "to": 49,
+   "verses": 879,
+   "id": "E066"
+  },
+  {
+   "part": 12,
+   "from": 50,
+   "to": 69,
+   "verses": 886,
+   "id": "E067"
+  },
+  {
+   "part": 12,
+   "from": 70,
+   "to": 93,
+   "verses": 869,
+   "id": "E068"
+  },
+  {
+   "part": 12,
+   "from": 94,
+   "to": 119,
+   "verses": 890,
+   "id": "E069"
+  },
+  {
+   "part": 12,
+   "from": 120,
+   "to": 136,
+   "verses": 801,
+   "id": "E070"
+  },
+  {
+   "part": 12,
+   "from": 137,
+   "to": 155,
+   "verses": 873,
+   "id": "E071"
+  },
+  {
+   "part": 12,
+   "from": 156,
+   "to": 177,
+   "verses": 883,
+   "id": "E072"
+  },
+  {
+   "part": 12,
+   "from": 178,
+   "to": 203,
+   "verses": 894,
+   "id": "E073"
+  },
+  {
+   "part": 12,
+   "from": 204,
+   "to": 223,
+   "verses": 834,
+   "id": "E074"
+  },
+  {
+   "part": 12,
+   "from": 224,
+   "to": 253,
+   "verses": 875,
+   "id": "E075"
+  },
+  {
+   "part": 12,
+   "from": 254,
+   "to": 273,
+   "verses": 881,
+   "id": "E076"
+  },
+  {
+   "part": 12,
+   "from": 274,
+   "to": 292,
+   "verses": 898,
+   "id": "E077"
+  },
+  {
+   "part": 12,
+   "from": 293,
+   "to": 311,
+   "verses": 891,
+   "id": "E078"
+  },
+  {
+   "part": 12,
+   "from": 312,
+   "to": 327,
+   "verses": 897,
+   "id": "E079"
+  },
+  {
+   "part": 12,
+   "from": 328,
+   "to": 353,
+   "verses": 830,
+   "id": "E080"
+  },
+  {
+   "part": 13,
+   "from": 1,
+   "to": 15,
+   "verses": 882,
+   "id": "E081"
+  },
+  {
+   "part": 13,
+   "from": 16,
+   "to": 29,
+   "verses": 898,
+   "id": "E082"
+  },
+  {
+   "part": 13,
+   "from": 30,
+   "to": 52,
+   "verses": 864,
+   "id": "E083"
+  },
+  {
+   "part": 13,
+   "from": 53,
+   "to": 74,
+   "verses": 894,
+   "id": "E084"
+  },
+  {
+   "part": 13,
+   "from": 75,
+   "to": 94,
+   "verses": 804,
+   "id": "E085"
+  },
+  {
+   "part": 13,
+   "from": 95,
+   "to": 108,
+   "verses": 844,
+   "id": "E086"
+  },
+  {
+   "part": 13,
+   "from": 109,
+   "to": 127,
+   "verses": 860,
+   "id": "E087"
+  },
+  {
+   "part": 13,
+   "from": 128,
+   "to": 134,
+   "verses": 452,
+   "id": "E088"
+  },
+  {
+   "part": 13,
+   "from": 136,
+   "to": 154,
+   "verses": 619,
+   "id": "E089"
+  },
+  {
+   "part": 14,
+   "from": 1,
+   "to": 28,
+   "verses": 893,
+   "id": "E090"
+  },
+  {
+   "part": 14,
+   "from": 29,
+   "to": 55,
+   "verses": 867,
+   "id": "E091"
+  },
+  {
+   "part": 14,
+   "from": 56,
+   "to": 85,
+   "verses": 880,
+   "id": "E092"
+  },
+  {
+   "part": 14,
+   "from": 86,
+   "to": 96,
+   "verses": 394,
+   "id": "E093"
+  },
+  {
+   "part": 15,
+   "from": 1,
+   "to": 39,
+   "verses": 889,
+   "id": "E094"
+  },
+  {
+   "part": 15,
+   "from": 40,
+   "to": 47,
+   "verses": 245,
+   "id": "E095"
+  },
+  {
+   "part": 16,
+   "from": 1,
+   "to": 9,
+   "verses": 288,
+   "id": "E096"
+  },
+  {
+   "part": 17,
+   "from": 1,
+   "to": 3,
+   "verses": 127,
+   "id": "E097"
+  },
+  {
+   "part": 18,
+   "from": 1,
+   "to": 5,
+   "verses": 205,
+   "id": "E098"
+  }
+ ],
+ "hi": [
+  {
+   "part": 1,
+   "from": 1,
+   "to": 2,
+   "verses": 462,
+   "id": "H001"
+  },
+  {
+   "part": 1,
+   "from": 3,
+   "to": 20,
+   "verses": 595,
+   "id": "H002"
+  },
+  {
+   "part": 1,
+   "from": 21,
+   "to": 41,
+   "verses": 583,
+   "id": "H003"
+  },
+  {
+   "part": 1,
+   "from": 42,
+   "to": 57,
+   "verses": 598,
+   "id": "H004"
+  },
+  {
+   "part": 1,
+   "from": 58,
+   "to": 68,
+   "verses": 558,
+   "id": "H005"
+  },
+  {
+   "part": 1,
+   "from": 69,
+   "to": 83,
+   "verses": 583,
+   "id": "H006"
+  },
+  {
+   "part": 1,
+   "from": 84,
+   "to": 95,
+   "verses": 579,
+   "id": "H007"
+  },
+  {
+   "part": 1,
+   "from": 96,
+   "to": 112,
+   "verses": 575,
+   "id": "H008"
+  },
+  {
+   "part": 1,
+   "from": 113,
+   "to": 126,
+   "verses": 592,
+   "id": "H009"
+  },
+  {
+   "part": 1,
+   "from": 127,
+   "to": 147,
+   "verses": 597,
+   "id": "H010"
+  },
+  {
+   "part": 1,
+   "from": 148,
+   "to": 167,
+   "verses": 599,
+   "id": "H011"
+  },
+  {
+   "part": 1,
+   "from": 168,
+   "to": 189,
+   "verses": 584,
+   "id": "H012"
+  },
+  {
+   "part": 1,
+   "from": 190,
+   "to": 209,
+   "verses": 591,
+   "id": "H013"
+  },
+  {
+   "part": 1,
+   "from": 210,
+   "to": 225,
+   "verses": 560,
+   "id": "H014"
+  },
+  {
+   "part": 2,
+   "from": 1,
+   "to": 14,
+   "verses": 590,
+   "id": "H015"
+  },
+  {
+   "part": 2,
+   "from": 15,
+   "to": 31,
+   "verses": 595,
+   "id": "H016"
+  },
+  {
+   "part": 2,
+   "from": 32,
+   "to": 48,
+   "verses": 575,
+   "id": "H017"
+  },
+  {
+   "part": 2,
+   "from": 49,
+   "to": 62,
+   "verses": 557,
+   "id": "H018"
+  },
+  {
+   "part": 2,
+   "from": 63,
+   "to": 72,
+   "verses": 359,
+   "id": "H019"
+  },
+  {
+   "part": 3,
+   "from": 1,
+   "to": 14,
+   "verses": 599,
+   "id": "H020"
+  },
+  {
+   "part": 3,
+   "from": 15,
+   "to": 32,
+   "verses": 600,
+   "id": "H021"
+  },
+  {
+   "part": 3,
+   "from": 33,
+   "to": 45,
+   "verses": 576,
+   "id": "H022"
+  },
+  {
+   "part": 3,
+   "from": 46,
+   "to": 61,
+   "verses": 594,
+   "id": "H023"
+  },
+  {
+   "part": 3,
+   "from": 62,
+   "to": 79,
+   "verses": 557,
+   "id": "H024"
+  },
+  {
+   "part": 3,
+   "from": 80,
+   "to": 83,
+   "verses": 582,
+   "id": "H025"
+  },
+  {
+   "part": 3,
+   "from": 84,
+   "to": 105,
+   "verses": 562,
+   "id": "H026"
+  },
+  {
+   "part": 3,
+   "from": 106,
+   "to": 125,
+   "verses": 563,
+   "id": "H027"
+  },
+  {
+   "part": 3,
+   "from": 126,
+   "to": 143,
+   "verses": 580,
+   "id": "H028"
+  },
+  {
+   "part": 3,
+   "from": 144,
+   "to": 156,
+   "verses": 597,
+   "id": "H029"
+  },
+  {
+   "part": 3,
+   "from": 157,
+   "to": 170,
+   "verses": 592,
+   "id": "H030"
+  },
+  {
+   "part": 3,
+   "from": 171,
+   "to": 185,
+   "verses": 544,
+   "id": "H031"
+  },
+  {
+   "part": 3,
+   "from": 186,
+   "to": 195,
+   "verses": 589,
+   "id": "H032"
+  },
+  {
+   "part": 3,
+   "from": 196,
+   "to": 210,
+   "verses": 571,
+   "id": "H033"
+  },
+  {
+   "part": 3,
+   "from": 211,
+   "to": 225,
+   "verses": 593,
+   "id": "H034"
+  },
+  {
+   "part": 3,
+   "from": 226,
+   "to": 245,
+   "verses": 578,
+   "id": "H035"
+  },
+  {
+   "part": 3,
+   "from": 246,
+   "to": 263,
+   "verses": 582,
+   "id": "H036"
+  },
+  {
+   "part": 3,
+   "from": 264,
+   "to": 277,
+   "verses": 577,
+   "id": "H037"
+  },
+  {
+   "part": 3,
+   "from": 278,
+   "to": 291,
+   "verses": 581,
+   "id": "H038"
+  },
+  {
+   "part": 3,
+   "from": 292,
+   "to": 299,
+   "verses": 375,
+   "id": "H039"
+  },
+  {
+   "part": 4,
+   "from": 1,
+   "to": 19,
+   "verses": 566,
+   "id": "H040"
+  },
+  {
+   "part": 4,
+   "from": 20,
+   "to": 37,
+   "verses": 570,
+   "id": "H041"
+  },
+  {
+   "part": 4,
+   "from": 38,
+   "to": 57,
+   "verses": 595,
+   "id": "H042"
+  },
+  {
+   "part": 4,
+   "from": 58,
+   "to": 67,
+   "verses": 332,
+   "id": "H043"
+  },
+  {
+   "part": 5,
+   "from": 1,
+   "to": 18,
+   "verses": 576,
+   "id": "H044"
+  },
+  {
+   "part": 5,
+   "from": 19,
+   "to": 33,
+   "verses": 523,
+   "id": "H045"
+  },
+  {
+   "part": 5,
+   "from": 34,
+   "to": 44,
+   "verses": 597,
+   "id": "H046"
+  },
+  {
+   "part": 5,
+   "from": 45,
+   "to": 58,
+   "verses": 596,
+   "id": "H047"
+  },
+  {
+   "part": 5,
+   "from": 59,
+   "to": 80,
+   "verses": 579,
+   "id": "H048"
+  },
+  {
+   "part": 5,
+   "from": 81,
+   "to": 94,
+   "verses": 592,
+   "id": "H049"
+  },
+  {
+   "part": 5,
+   "from": 95,
+   "to": 118,
+   "verses": 576,
+   "id": "H050"
+  },
+  {
+   "part": 5,
+   "from": 119,
+   "to": 134,
+   "verses": 598,
+   "id": "H051"
+  },
+  {
+   "part": 5,
+   "from": 135,
+   "to": 150,
+   "verses": 579,
+   "id": "H052"
+  },
+  {
+   "part": 5,
+   "from": 151,
+   "to": 171,
+   "verses": 583,
+   "id": "H053"
+  },
+  {
+   "part": 5,
+   "from": 172,
+   "to": 191,
+   "verses": 593,
+   "id": "H054"
+  },
+  {
+   "part": 5,
+   "from": 192,
+   "to": 197,
+   "verses": 193,
+   "id": "H055"
+  },
+  {
+   "part": 6,
+   "from": 1,
+   "to": 15,
+   "verses": 594,
+   "id": "H056"
+  },
+  {
+   "part": 6,
+   "from": 16,
+   "to": 22,
+   "verses": 218,
+   "id": "H057"
+  },
+  {
+   "part": 6,
+   "from": 41,
+   "to": 49,
+   "verses": 571,
+   "id": "H058"
+  },
+  {
+   "part": 6,
+   "from": 50,
+   "to": 59,
+   "verses": 557,
+   "id": "H059"
+  },
+  {
+   "part": 6,
+   "from": 60,
+   "to": 73,
+   "verses": 587,
+   "id": "H060"
+  },
+  {
+   "part": 6,
+   "from": 74,
+   "to": 85,
+   "verses": 546,
+   "id": "H061"
+  },
+  {
+   "part": 6,
+   "from": 86,
+   "to": 96,
+   "verses": 578,
+   "id": "H062"
+  },
+  {
+   "part": 6,
+   "from": 97,
+   "to": 106,
+   "verses": 555,
+   "id": "H063"
+  },
+  {
+   "part": 6,
+   "from": 107,
+   "to": 114,
+   "verses": 541,
+   "id": "H064"
+  },
+  {
+   "part": 6,
+   "from": 115,
+   "to": 117,
+   "verses": 157,
+   "id": "H065"
+  },
+  {
+   "part": 7,
+   "from": 1,
+   "to": 13,
+   "verses": 576,
+   "id": "H066"
+  },
+  {
+   "part": 7,
+   "from": 14,
+   "to": 25,
+   "verses": 579,
+   "id": "H067"
+  },
+  {
+   "part": 7,
+   "from": 26,
+   "to": 42,
+   "verses": 586,
+   "id": "H068"
+  },
+  {
+   "part": 7,
+   "from": 43,
+   "to": 56,
+   "verses": 561,
+   "id": "H069"
+  },
+  {
+   "part": 7,
+   "from": 57,
+   "to": 68,
+   "verses": 565,
+   "id": "H070"
+  },
+  {
+   "part": 7,
+   "from": 69,
+   "to": 80,
+   "verses": 565,
+   "id": "H071"
+  },
+  {
+   "part": 7,
+   "from": 81,
+   "to": 90,
+   "verses": 547,
+   "id": "H072"
+  },
+  {
+   "part": 7,
+   "from": 91,
+   "to": 101,
+   "verses": 515,
+   "id": "H073"
+  },
+  {
+   "part": 7,
+   "from": 102,
+   "to": 113,
+   "verses": 557,
+   "id": "H074"
+  },
+  {
+   "part": 7,
+   "from": 114,
+   "to": 123,
+   "verses": 588,
+   "id": "H075"
+  },
+  {
+   "part": 7,
+   "from": 124,
+   "to": 134,
+   "verses": 596,
+   "id": "H076"
+  },
+  {
+   "part": 7,
+   "from": 135,
+   "to": 147,
+   "verses": 595,
+   "id": "H077"
+  },
+  {
+   "part": 7,
+   "from": 148,
+   "to": 158,
+   "verses": 573,
+   "id": "H078"
+  },
+  {
+   "part": 7,
+   "from": 159,
+   "to": 166,
+   "verses": 598,
+   "id": "H079"
+  },
+  {
+   "part": 7,
+   "from": 167,
+   "to": 173,
+   "verses": 505,
+   "id": "H080"
+  },
+  {
+   "part": 8,
+   "from": 1,
+   "to": 11,
+   "verses": 575,
+   "id": "H081"
+  },
+  {
+   "part": 8,
+   "from": 12,
+   "to": 21,
+   "verses": 600,
+   "id": "H082"
+  },
+  {
+   "part": 8,
+   "from": 22,
+   "to": 28,
+   "verses": 570,
+   "id": "H083"
+  },
+  {
+   "part": 8,
+   "from": 29,
+   "to": 38,
+   "verses": 593,
+   "id": "H084"
+  },
+  {
+   "part": 8,
+   "from": 39,
+   "to": 48,
+   "verses": 531,
+   "id": "H085"
+  },
+  {
+   "part": 8,
+   "from": 49,
+   "to": 57,
+   "verses": 592,
+   "id": "H086"
+  },
+  {
+   "part": 8,
+   "from": 58,
+   "to": 69,
+   "verses": 570,
+   "id": "H087"
+  },
+  {
+   "part": 9,
+   "from": 1,
+   "to": 11,
+   "verses": 580,
+   "id": "H088"
+  },
+  {
+   "part": 9,
+   "from": 12,
+   "to": 22,
+   "verses": 597,
+   "id": "H089"
+  },
+  {
+   "part": 9,
+   "from": 23,
+   "to": 31,
+   "verses": 591,
+   "id": "H090"
+  },
+  {
+   "part": 9,
+   "from": 32,
+   "to": 43,
+   "verses": 583,
+   "id": "H091"
+  },
+  {
+   "part": 9,
+   "from": 44,
+   "to": 54,
+   "verses": 588,
+   "id": "H092"
+  },
+  {
+   "part": 9,
+   "from": 55,
+   "to": 64,
+   "verses": 529,
+   "id": "H093"
+  },
+  {
+   "part": 10,
+   "from": 1,
+   "to": 11,
+   "verses": 600,
+   "id": "H094"
+  },
+  {
+   "part": 10,
+   "from": 12,
+   "to": 18,
+   "verses": 216,
+   "id": "H095"
+  },
+  {
+   "part": 11,
+   "from": 1,
+   "to": 22,
+   "verses": 585,
+   "id": "H096"
+  },
+  {
+   "part": 11,
+   "from": 23,
+   "to": 27,
+   "verses": 200,
+   "id": "H097"
+  },
+  {
+   "part": 12,
+   "from": 1,
+   "to": 18,
+   "verses": 583,
+   "id": "H098"
+  },
+  {
+   "part": 12,
+   "from": 19,
+   "to": 33,
+   "verses": 583,
+   "id": "H099"
+  },
+  {
+   "part": 12,
+   "from": 34,
+   "to": 49,
+   "verses": 598,
+   "id": "H100"
+  },
+  {
+   "part": 12,
+   "from": 50,
+   "to": 63,
+   "verses": 595,
+   "id": "H101"
+  },
+  {
+   "part": 12,
+   "from": 64,
+   "to": 78,
+   "verses": 574,
+   "id": "H102"
+  },
+  {
+   "part": 12,
+   "from": 79,
+   "to": 93,
+   "verses": 586,
+   "id": "H103"
+  },
+  {
+   "part": 12,
+   "from": 94,
+   "to": 110,
+   "verses": 587,
+   "id": "H104"
+  },
+  {
+   "part": 12,
+   "from": 111,
+   "to": 124,
+   "verses": 586,
+   "id": "H105"
+  },
+  {
+   "part": 12,
+   "from": 125,
+   "to": 136,
+   "verses": 518,
+   "id": "H106"
+  },
+  {
+   "part": 12,
+   "from": 137,
+   "to": 148,
+   "verses": 561,
+   "id": "H107"
+  },
+  {
+   "part": 12,
+   "from": 149,
+   "to": 161,
+   "verses": 585,
+   "id": "H108"
+  },
+  {
+   "part": 12,
+   "from": 162,
+   "to": 176,
+   "verses": 567,
+   "id": "H109"
+  },
+  {
+   "part": 12,
+   "from": 177,
+   "to": 192,
+   "verses": 583,
+   "id": "H110"
+  },
+  {
+   "part": 12,
+   "from": 193,
+   "to": 211,
+   "verses": 594,
+   "id": "H111"
+  },
+  {
+   "part": 12,
+   "from": 212,
+   "to": 223,
+   "verses": 594,
+   "id": "H112"
+  },
+  {
+   "part": 12,
+   "from": 224,
+   "to": 242,
+   "verses": 594,
+   "id": "H113"
+  },
+  {
+   "part": 12,
+   "from": 243,
+   "to": 260,
+   "verses": 582,
+   "id": "H114"
+  },
+  {
+   "part": 12,
+   "from": 261,
+   "to": 273,
+   "verses": 580,
+   "id": "H115"
+  },
+  {
+   "part": 12,
+   "from": 274,
+   "to": 287,
+   "verses": 558,
+   "id": "H116"
+  },
+  {
+   "part": 12,
+   "from": 288,
+   "to": 298,
+   "verses": 598,
+   "id": "H117"
+  },
+  {
+   "part": 12,
+   "from": 299,
+   "to": 309,
+   "verses": 574,
+   "id": "H118"
+  },
+  {
+   "part": 12,
+   "from": 310,
+   "to": 321,
+   "verses": 547,
+   "id": "H119"
+  },
+  {
+   "part": 12,
+   "from": 322,
+   "to": 330,
+   "verses": 592,
+   "id": "H120"
+  },
+  {
+   "part": 12,
+   "from": 331,
+   "to": 349,
+   "verses": 599,
+   "id": "H121"
+  },
+  {
+   "part": 12,
+   "from": 350,
+   "to": 353,
+   "verses": 48,
+   "id": "H122"
+  },
+  {
+   "part": 13,
+   "from": 1,
+   "to": 11,
+   "verses": 561,
+   "id": "H123"
+  },
+  {
+   "part": 13,
+   "from": 12,
+   "to": 17,
+   "verses": 572,
+   "id": "H124"
+  },
+  {
+   "part": 13,
+   "from": 18,
+   "to": 27,
+   "verses": 597,
+   "id": "H125"
+  },
+  {
+   "part": 13,
+   "from": 28,
+   "to": 45,
+   "verses": 600,
+   "id": "H126"
+  },
+  {
+   "part": 13,
+   "from": 46,
+   "to": 59,
+   "verses": 599,
+   "id": "H127"
+  },
+  {
+   "part": 13,
+   "from": 60,
+   "to": 73,
+   "verses": 568,
+   "id": "H128"
+  },
+  {
+   "part": 13,
+   "from": 74,
+   "to": 86,
+   "verses": 585,
+   "id": "H129"
+  },
+  {
+   "part": 13,
+   "from": 87,
+   "to": 99,
+   "verses": 579,
+   "id": "H130"
+  },
+  {
+   "part": 13,
+   "from": 100,
+   "to": 109,
+   "verses": 597,
+   "id": "H131"
+  },
+  {
+   "part": 13,
+   "from": 110,
+   "to": 122,
+   "verses": 595,
+   "id": "H132"
+  },
+  {
+   "part": 13,
+   "from": 123,
+   "to": 133,
+   "verses": 583,
+   "id": "H133"
+  },
+  {
+   "part": 13,
+   "from": 134,
+   "to": 134,
+   "verses": 62,
+   "id": "H134"
+  },
+  {
+   "part": 13,
+   "from": 136,
+   "to": 153,
+   "verses": 584,
+   "id": "H135"
+  },
+  {
+   "part": 13,
+   "from": 154,
+   "to": 154,
+   "verses": 35,
+   "id": "H136"
+  },
+  {
+   "part": 14,
+   "from": 1,
+   "to": 18,
+   "verses": 591,
+   "id": "H137"
+  },
+  {
+   "part": 14,
+   "from": 19,
+   "to": 40,
+   "verses": 596,
+   "id": "H138"
+  },
+  {
+   "part": 14,
+   "from": 41,
+   "to": 55,
+   "verses": 573,
+   "id": "H139"
+  },
+  {
+   "part": 14,
+   "from": 56,
+   "to": 75,
+   "verses": 588,
+   "id": "H140"
+  },
+  {
+   "part": 14,
+   "from": 76,
+   "to": 93,
+   "verses": 593,
+   "id": "H141"
+  },
+  {
+   "part": 14,
+   "from": 94,
+   "to": 96,
+   "verses": 93,
+   "id": "H142"
+  },
+  {
+   "part": 15,
+   "from": 1,
+   "to": 27,
+   "verses": 590,
+   "id": "H143"
+  },
+  {
+   "part": 15,
+   "from": 28,
+   "to": 47,
+   "verses": 544,
+   "id": "H144"
+  },
+  {
+   "part": 16,
+   "from": 1,
+   "to": 9,
+   "verses": 288,
+   "id": "H145"
+  },
+  {
+   "part": 17,
+   "from": 1,
+   "to": 3,
+   "verses": 127,
+   "id": "H146"
+  },
+  {
+   "part": 18,
+   "from": 1,
+   "to": 5,
+   "verses": 205,
+   "id": "H147"
+  }
+ ]
+}
