@@ -22,206 +22,359 @@
       "titleEn": "Rajadharma Parva (Duties of kings)",
       "verses": [
         {
-          "text": "युधिष्ठिर उवाच"
+          "text": "युधिष्ठिर उवाच",
+          "meaning": {
+            "en": "Yudhishthira said:"
+          }
         },
         {
           "n": 1,
-          "text": "श्रोतुमिच्छामि भगवन्विस्तरेण महामुने ।\nराजधर्मान्द्विजश्रेष्ठ चातुर्वर्ण्यस्य चाखिलान् ॥"
+          "text": "श्रोतुमिच्छामि भगवन्विस्तरेण महामुने ।\nराजधर्मान्द्विजश्रेष्ठ चातुर्वर्ण्यस्य चाखिलान् ॥",
+          "meaning": {
+            "en": "Great sage, best of brahmins, I wish to hear in detail the full dharmas of kings and of the four classes."
+          }
         },
         {
           "n": 2,
-          "text": "आपत्सु च यथा नीतिर्विधातव्या महीक्षिता ।\nधर्म्यमालम्ब्य पन्थानं विजयेयं कथं महीम् ॥"
+          "text": "आपत्सु च यथा नीतिर्विधातव्या महीक्षिता ।\nधर्म्यमालम्ब्य पन्थानं विजयेयं कथं महीम् ॥",
+          "meaning": {
+            "en": "Tell me how a king should arrange policy in times of crisis, and how, following the path of dharma, I may win the earth."
+          }
         },
         {
           "n": 3,
-          "text": "प्रायश्चित्तकथा ह्येषा भक्ष्याभक्ष्यविवर्धिता ।\nकौतूहलानुप्रवणा हर्षं जनयतीव मे ॥"
+          "text": "प्रायश्चित्तकथा ह्येषा भक्ष्याभक्ष्यविवर्धिता ।\nकौतूहलानुप्रवणा हर्षं जनयतीव मे ॥",
+          "meaning": {
+            "en": "This talk of atonement, extended by what may and may not be eaten, rich in curiosity, almost gives me joy."
+          }
         },
         {
           "n": 4,
-          "text": "धर्मचर्या च राज्यं च नित्यमेव विरुध्यते ।\nयेन मुह्यति मे चेतश्चिन्तयानस्य नित्यशः ॥"
+          "text": "धर्मचर्या च राज्यं च नित्यमेव विरुध्यते ।\nयेन मुह्यति मे चेतश्चिन्तयानस्य नित्यशः ॥",
+          "meaning": {
+            "en": "Yet the practice of dharma and ruling a kingdom are forever in conflict, and that confuses my mind as I think on it constantly."
+          }
         },
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 5,
-          "text": "तमुवाच महातेजा व्यासो वेदविदां वरः ।\nनारदं समभिप्रेक्ष्य सर्वं जानन्पुरातनम् ॥"
+          "text": "तमुवाच महातेजा व्यासो वेदविदां वरः ।\nनारदं समभिप्रेक्ष्य सर्वं जानन्पुरातनम् ॥",
+          "meaning": {
+            "en": "The greatly radiant Vyasa, best of Veda-knowers, who knew all that was ancient, looked at Narada and spoke to him."
+          }
         },
         {
           "n": 6,
-          "text": "श्रोतुमिच्छसि चेद्धर्मानखिलेन युधिष्ठिर ।\nप्रैहि भीष्मं महाबाहो वृद्धं कुरुपितामहम् ॥"
+          "text": "श्रोतुमिच्छसि चेद्धर्मानखिलेन युधिष्ठिर ।\nप्रैहि भीष्मं महाबाहो वृद्धं कुरुपितामहम् ॥",
+          "meaning": {
+            "en": "If you wish to hear the dharmas in full, Yudhishthira, go to Bhishma, the aged grandfather of the Kurus, mighty-armed one."
+          }
         },
         {
           "n": 7,
-          "text": "स ते सर्वरहस्येषु संशयान्मनसि स्थितान् ।\nछेत्ता भागीरथीपुत्रः सर्वज्ञः सर्वधर्मवित् ॥"
+          "text": "स ते सर्वरहस्येषु संशयान्मनसि स्थितान् ।\nछेत्ता भागीरथीपुत्रः सर्वज्ञः सर्वधर्मवित् ॥",
+          "meaning": {
+            "en": "The son of Bhagirathi, all-knowing and knower of all dharma, will cut the doubts in your mind about every mystery."
+          }
         },
         {
           "n": 8,
-          "text": "जनयामास यं देवी दिव्या त्रिपथगा नदी ।\nसाक्षाद्ददर्श यो देवान्सर्वाञ्शक्रपुरोगमान् ॥"
+          "text": "जनयामास यं देवी दिव्या त्रिपथगा नदी ।\nसाक्षाद्ददर्श यो देवान्सर्वाञ्शक्रपुरोगमान् ॥",
+          "meaning": {
+            "en": "He was borne by the divine goddess river that flows in three paths; he has seen face to face all the gods led by Shakra."
+          }
         },
         {
           "n": 9,
-          "text": "बृहस्पतिपुरोगांश्च देवर्षीनसकृत्प्रभुः ।\nतोषयित्वोपचारेण राजनीतिमधीतवान् ॥"
+          "text": "बृहस्पतिपुरोगांश्च देवर्षीनसकृत्प्रभुः ।\nतोषयित्वोपचारेण राजनीतिमधीतवान् ॥",
+          "meaning": {
+            "en": "The lord often pleased the divine sages led by Brihaspati with service and learned the science of kingship."
+          }
         },
         {
           "n": 10,
-          "text": "उशना वेद यच्छास्त्रं देवासुरगुरुर्द्विजः ।\nतच्च सर्वं सवैयाख्यं प्राप्तवान्कुरुसत्तमः ॥"
+          "text": "उशना वेद यच्छास्त्रं देवासुरगुरुर्द्विजः ।\nतच्च सर्वं सवैयाख्यं प्राप्तवान्कुरुसत्तमः ॥",
+          "meaning": {
+            "en": "The scripture that the twice-born Ushanas, teacher of gods and asuras, knew, the best of the Kurus obtained all that with its commentaries."
+          }
         },
         {
           "n": 11,
-          "text": "भार्गवाच्च्यवनाच्चापि वेदानङ्गोपबृंहितान् ।\nप्रतिपेदे महाबुद्धिर्वसिष्ठाच्च यतव्रतात् ॥"
+          "text": "भार्गवाच्च्यवनाच्चापि वेदानङ्गोपबृंहितान् ।\nप्रतिपेदे महाबुद्धिर्वसिष्ठाच्च यतव्रतात् ॥",
+          "meaning": {
+            "en": "Of great intellect, he received the Vedas with their limbs and supplements from Bhargava Chyavana, and from Vasishtha of firm vows."
+          }
         },
         {
           "n": 12,
-          "text": "पितामहसुतं ज्येष्ठं कुमारं दीप्ततेजसम् ।\nअध्यात्मगतितत्त्वज्ञमुपाशिक्षत यः पुरा ॥"
+          "text": "पितामहसुतं ज्येष्ठं कुमारं दीप्ततेजसम् ।\nअध्यात्मगतितत्त्वज्ञमुपाशिक्षत यः पुरा ॥",
+          "meaning": {
+            "en": "He in the past studied under Kumara, the Grandfather's eldest son of blazing radiance, who knows the truth of the course of the self."
+          }
         },
         {
           "n": 13,
-          "text": "मार्कण्डेयमुखात्कृत्स्नं यतिधर्ममवाप्तवान् ।\nरामादस्त्राणि शक्राच्च प्राप्तवान्भरतर्षभ ॥"
+          "text": "मार्कण्डेयमुखात्कृत्स्नं यतिधर्ममवाप्तवान् ।\nरामादस्त्राणि शक्राच्च प्राप्तवान्भरतर्षभ ॥",
+          "meaning": {
+            "en": "He learned the whole dharma of ascetics from Markandeya's mouth, and obtained weapons from Rama and Shakra, bull of the Bharatas."
+          }
         },
         {
           "n": 14,
-          "text": "मृत्युरात्मेच्छया यस्य जातस्य मनुजेष्वपि ।\nतथानपत्यस्य सतः पुण्यलोका दिवि श्रुताः ॥"
+          "text": "मृत्युरात्मेच्छया यस्य जातस्य मनुजेष्वपि ।\nतथानपत्यस्य सतः पुण्यलोका दिवि श्रुताः ॥",
+          "meaning": {
+            "en": "Death comes to him only at his own will, and since he is childless, his meritorious worlds in heaven are renowned."
+          }
         },
         {
           "n": 15,
-          "text": "यस्य ब्रह्मर्षयः पुण्या नित्यमासन्सभासदः ।\nयस्य नाविदितं किंचिज्ज्ञानज्ञेयेषु विद्यते ॥"
+          "text": "यस्य ब्रह्मर्षयः पुण्या नित्यमासन्सभासदः ।\nयस्य नाविदितं किंचिज्ज्ञानज्ञेयेषु विद्यते ॥",
+          "meaning": {
+            "en": "Holy brahmin sages were always members of his assembly, and nothing that can be known or learned is unknown to him."
+          }
         },
         {
           "n": 16,
-          "text": "स ते वक्ष्यति धर्मज्ञः सूक्ष्मधर्मार्थतत्त्ववित् ।\nतमभ्येहि पुरा प्राणान्स विमुञ्चति धर्मवित् ॥"
+          "text": "स ते वक्ष्यति धर्मज्ञः सूक्ष्मधर्मार्थतत्त्ववित् ।\nतमभ्येहि पुरा प्राणान्स विमुञ्चति धर्मवित् ॥",
+          "meaning": {
+            "en": "He, knower of dharma and truth of the subtle meaning of dharma, will tell you; go to him before he gives up his life; he knows dharma."
+          }
         },
         {
           "n": 17,
-          "text": "एवमुक्तस्तु कौन्तेयो दीर्घप्रज्ञो महाद्युतिः ।\nउवाच वदतां श्रेष्ठं व्यासं सत्यवतीसुतम् ॥"
+          "text": "एवमुक्तस्तु कौन्तेयो दीर्घप्रज्ञो महाद्युतिः ।\nउवाच वदतां श्रेष्ठं व्यासं सत्यवतीसुतम् ॥",
+          "meaning": {
+            "en": "Thus addressed, Kunti's son, of deep understanding and great radiance, spoke to Vyasa, son of Satyavati, best of speakers."
+          }
         },
         {
           "n": 18,
-          "text": "वैशसं सुमहत्कृत्वा ज्ञातीनां लोमहर्षणम् ।\nआगस्कृत्सर्वलोकस्य पृथिवीनाशकारकः ॥"
+          "text": "वैशसं सुमहत्कृत्वा ज्ञातीनां लोमहर्षणम् ।\nआगस्कृत्सर्वलोकस्य पृथिवीनाशकारकः ॥",
+          "meaning": {
+            "en": "Having carried out a huge and horrifying slaughter of kinsmen, a wrongdoer to the whole world, the cause of the earth's destruction,"
+          }
         },
         {
           "n": 19,
-          "text": "घातयित्वा तमेवाजौ छलेनाजिह्मयोधिनम् ।\nउपसंप्रष्टुमर्हामि तमहं केन हेतुना ॥"
+          "text": "घातयित्वा तमेवाजौ छलेनाजिह्मयोधिनम् ।\nउपसंप्रष्टुमर्हामि तमहं केन हेतुना ॥",
+          "meaning": {
+            "en": "and having had that man killed in battle by guile, he who fought straight, for what reason am I fit to approach him and ask?"
+          }
         },
         {
           "n": 20,
-          "text": "ततस्तं नृपतिश्रेष्ठं चातुर्वर्ण्यहितेप्सया ।\nपुनराह महाबाहुर्यदुश्रेष्ठो महाद्युतिः ॥"
+          "text": "ततस्तं नृपतिश्रेष्ठं चातुर्वर्ण्यहितेप्सया ।\nपुनराह महाबाहुर्यदुश्रेष्ठो महाद्युतिः ॥",
+          "meaning": {
+            "en": "Then the radiant and mighty-armed best of Yadus, wishing welfare for the four classes, spoke again to that best of kings."
+          }
         },
         {
           "n": 21,
-          "text": "नेदानीमतिनिर्बन्धं शोके कर्तुमिहार्हसि ।\nयदाह भगवान्व्यासस्तत्कुरुष्व नृपोत्तम ॥"
+          "text": "नेदानीमतिनिर्बन्धं शोके कर्तुमिहार्हसि ।\nयदाह भगवान्व्यासस्तत्कुरुष्व नृपोत्तम ॥",
+          "meaning": {
+            "en": "Now you should not insist so much on grief; do as the blessed Vyasa says, best of kings."
+          }
         },
         {
           "n": 22,
-          "text": "ब्राह्मणास्त्वां महाबाहो भ्रातरश्च महौजसः ।\nपर्जन्यमिव घर्मार्ता आशंसाना उपासते ॥"
+          "text": "ब्राह्मणास्त्वां महाबाहो भ्रातरश्च महौजसः ।\nपर्जन्यमिव घर्मार्ता आशंसाना उपासते ॥",
+          "meaning": {
+            "en": "Mighty-armed one, the brahmins and your very mighty brothers wait on you, hoping, like people tormented by heat waiting for rain."
+          }
         },
         {
           "n": 23,
-          "text": "हतशिष्टाश्च राजानः कृत्स्नं चैव समागतम् ।\nचातुर्वर्ण्यं महाराज राष्ट्रं ते कुरुजाङ्गलम् ॥"
+          "text": "हतशिष्टाश्च राजानः कृत्स्नं चैव समागतम् ।\nचातुर्वर्ण्यं महाराज राष्ट्रं ते कुरुजाङ्गलम् ॥",
+          "meaning": {
+            "en": "The surviving kings, and the whole four-fold people of your Kuru country, have gathered, great king."
+          }
         },
         {
           "n": 24,
-          "text": "प्रियार्थमपि चैतेषां ब्राह्मणानां महात्मनाम् ।\nनियोगादस्य च गुरोर्व्यासस्यामिततेजसः ॥"
+          "text": "प्रियार्थमपि चैतेषां ब्राह्मणानां महात्मनाम् ।\nनियोगादस्य च गुरोर्व्यासस्यामिततेजसः ॥",
+          "meaning": {
+            "en": "For the sake of pleasing these great-souled brahmins, and by the command of this teacher Vyasa of boundless splendor,"
+          }
         },
         {
           "n": 25,
-          "text": "सुहृदां चास्मदादीनां द्रौपद्याश्च परंतप ।\nकुरु प्रियममित्रघ्न लोकस्य च हितं कुरु ॥"
+          "text": "सुहृदां चास्मदादीनां द्रौपद्याश्च परंतप ।\nकुरु प्रियममित्रघ्न लोकस्य च हितं कुरु ॥",
+          "meaning": {
+            "en": "for the sake of our friends, myself and the rest, and of Draupadi, scorcher of foes, do what is dear, slayer of enemies, and do what is good for the world."
+          }
         },
         {
           "n": 26,
-          "text": "एवमुक्तस्तु कृष्णेन राजा राजीवलोचनः ।\nहितार्थं सर्वलोकस्य समुत्तस्थौ महातपाः ॥"
+          "text": "एवमुक्तस्तु कृष्णेन राजा राजीवलोचनः ।\nहितार्थं सर्वलोकस्य समुत्तस्थौ महातपाः ॥",
+          "meaning": {
+            "en": "Thus addressed by Krishna, the lotus-eyed king, of great austerity, rose for the good of the whole world."
+          }
         },
         {
           "n": 27,
-          "text": "सोऽनुनीतो नरव्याघ्रो विष्टरश्रवसा स्वयम् ।\nद्वैपायनेन च तथा देवस्थानेन जिष्णुना ॥"
+          "text": "सोऽनुनीतो नरव्याघ्रो विष्टरश्रवसा स्वयम् ।\nद्वैपायनेन च तथा देवस्थानेन जिष्णुना ॥",
+          "meaning": {
+            "en": "The tiger among men was persuaded by Vishtarashravas himself, by Dvaipayana, and by Devasthana and Jishnu."
+          }
         },
         {
           "n": 28,
-          "text": "एतैश्चान्यैश्च बहुभिरनुनीतो युधिष्ठिरः ।\nव्यजहान्मानसं दुःखं संतापं च महामनाः ॥"
+          "text": "एतैश्चान्यैश्च बहुभिरनुनीतो युधिष्ठिरः ।\nव्यजहान्मानसं दुःखं संतापं च महामनाः ॥",
+          "meaning": {
+            "en": "Persuaded by these and many others, the high-minded Yudhishthira gave up the pain and torment of his mind."
+          }
         },
         {
           "n": 29,
-          "text": "श्रुतवाक्यः श्रुतनिधिः श्रुतश्रव्यविशारदः ।\nव्यवस्य मनसः शान्तिमगच्छत्पाण्डुनन्दनः ॥"
+          "text": "श्रुतवाक्यः श्रुतनिधिः श्रुतश्रव्यविशारदः ।\nव्यवस्य मनसः शान्तिमगच्छत्पाण्डुनन्दनः ॥",
+          "meaning": {
+            "en": "Learned in speech, a store of learning, expert in what is to be heard and told, the son of Pandu reached peace of mind by resolution."
+          }
         },
         {
           "n": 30,
-          "text": "स तैः परिवृतो राजा नक्षत्रैरिव चन्द्रमाः ।\nधृतराष्ट्रं पुरस्कृत्य स्वपुरं प्रविवेश ह ॥"
+          "text": "स तैः परिवृतो राजा नक्षत्रैरिव चन्द्रमाः ।\nधृतराष्ट्रं पुरस्कृत्य स्वपुरं प्रविवेश ह ॥",
+          "meaning": {
+            "en": "Surrounded by them like the moon by the stars, the king set Dhritarashtra at the front and entered his own city."
+          }
         },
         {
           "n": 31,
-          "text": "प्रविविक्षुः स धर्मज्ञः कुन्तीपुत्रो युधिष्ठिरः ।\nअर्चयामास देवांश्च ब्राह्मणांश्च सहस्रशः ॥"
+          "text": "प्रविविक्षुः स धर्मज्ञः कुन्तीपुत्रो युधिष्ठिरः ।\nअर्चयामास देवांश्च ब्राह्मणांश्च सहस्रशः ॥",
+          "meaning": {
+            "en": "About to enter, Kunti's son Yudhishthira, who knew dharma, worshiped gods and brahmins by the thousands."
+          }
         },
         {
           "n": 32,
-          "text": "ततो रथं नवं शुभ्रं कम्बलाजिनसंवृतम् ।\nयुक्तं षोडशभिर्गोभिः पाण्डुरैः शुभलक्षणैः ॥"
+          "text": "ततो रथं नवं शुभ्रं कम्बलाजिनसंवृतम् ।\nयुक्तं षोडशभिर्गोभिः पाण्डुरैः शुभलक्षणैः ॥",
+          "meaning": {
+            "en": "Then he mounted a new, shining chariot, covered with blankets and deerskin, yoked with sixteen white bulls of good marks,"
+          }
         },
         {
           "n": 33,
-          "text": "मन्त्रैरभ्यर्चितः पुण्यैः स्तूयमानो महर्षिभिः ।\nआरुरोह यथा देवः सोमोऽमृतमयं रथम् ॥"
+          "text": "मन्त्रैरभ्यर्चितः पुण्यैः स्तूयमानो महर्षिभिः ।\nआरुरोह यथा देवः सोमोऽमृतमयं रथम् ॥",
+          "meaning": {
+            "en": "honored with holy mantras and praised by great sages, as the god Soma mounts his nectar-filled chariot."
+          }
         },
         {
           "n": 34,
-          "text": "जग्राह रश्मीन्कौन्तेयो भीमो भीमपराक्रमः ।\nअर्जुनः पाण्डुरं छत्रं धारयामास भानुमत् ॥"
+          "text": "जग्राह रश्मीन्कौन्तेयो भीमो भीमपराक्रमः ।\nअर्जुनः पाण्डुरं छत्रं धारयामास भानुमत् ॥",
+          "meaning": {
+            "en": "Kunti's son Bhima, of terrible prowess, took the reins, and Arjuna held a bright white umbrella."
+          }
         },
         {
           "n": 35,
-          "text": "ध्रियमाणं तु तच्छत्रं पाण्डुरं तस्य मूर्धनि ।\nशुशुभे तारकाराजसितमभ्रमिवाम्बरे ॥"
+          "text": "ध्रियमाणं तु तच्छत्रं पाण्डुरं तस्य मूर्धनि ।\nशुशुभे तारकाराजसितमभ्रमिवाम्बरे ॥",
+          "meaning": {
+            "en": "The white umbrella held above his head shone like a white cloud in the sky with the king of the stars."
+          }
         },
         {
           "n": 36,
-          "text": "चामरव्यजने चास्य वीरौ जगृहतुस्तदा ।\nचन्द्ररश्मिप्रभे शुभ्रे माद्रीपुत्रावलंकृते ॥"
+          "text": "चामरव्यजने चास्य वीरौ जगृहतुस्तदा ।\nचन्द्ररश्मिप्रभे शुभ्रे माद्रीपुत्रावलंकृते ॥",
+          "meaning": {
+            "en": "The two sons of Madri, adorned, then took the chowries, shining white like the moon's rays."
+          }
         },
         {
           "n": 37,
-          "text": "ते पञ्च रथमास्थाय भ्रातरः समलंकृताः ।\nभूतानीव समस्तानि राजन्ददृशिरे तदा ॥"
+          "text": "ते पञ्च रथमास्थाय भ्रातरः समलंकृताः ।\nभूतानीव समस्तानि राजन्ददृशिरे तदा ॥",
+          "meaning": {
+            "en": "The five brothers, adorned and mounted on the chariot, were seen then, king, like all the elements together."
+          }
         },
         {
           "n": 38,
-          "text": "आस्थाय तु रथं शुभ्रं युक्तमश्वैर्महाजवैः ।\nअन्वयात्पृष्ठतो राजन्युयुत्सुः पाण्डवाग्रजम् ॥"
+          "text": "आस्थाय तु रथं शुभ्रं युक्तमश्वैर्महाजवैः ।\nअन्वयात्पृष्ठतो राजन्युयुत्सुः पाण्डवाग्रजम् ॥",
+          "meaning": {
+            "en": "Yuyutsu, king, mounted a shining chariot yoked with swift horses and followed behind the eldest Pandava."
+          }
         },
         {
           "n": 39,
-          "text": "रथं हेममयं शुभ्रं सैन्यसुग्रीवयोजितम् ।\nसह सात्यकिना कृष्णः समास्थायान्वयात्कुरून् ॥"
+          "text": "रथं हेममयं शुभ्रं सैन्यसुग्रीवयोजितम् ।\nसह सात्यकिना कृष्णः समास्थायान्वयात्कुरून् ॥",
+          "meaning": {
+            "en": "Krishna, with Satyaki, mounted a shining golden chariot yoked with the horses Sainya and Sugriva, and followed the Kurus."
+          }
         },
         {
           "n": 40,
-          "text": "नरयानेन तु ज्येष्ठः पिता पार्थस्य भारत ।\nअग्रतो धर्मराजस्य गान्धारीसहितो ययौ ॥"
+          "text": "नरयानेन तु ज्येष्ठः पिता पार्थस्य भारत ।\nअग्रतो धर्मराजस्य गान्धारीसहितो ययौ ॥",
+          "meaning": {
+            "en": "The blind father of Partha, the elder, went in front of Dharmaraja in a litter borne by men, with Gandhari."
+          }
         },
         {
           "n": 41,
-          "text": "कुरुस्त्रियश्च ताः सर्वाः कुन्ती कृष्णा च द्रौपदी ।\nयानैरुच्चावचैर्जग्मुर्विदुरेण पुरस्कृताः ॥"
+          "text": "कुरुस्त्रियश्च ताः सर्वाः कुन्ती कृष्णा च द्रौपदी ।\nयानैरुच्चावचैर्जग्मुर्विदुरेण पुरस्कृताः ॥",
+          "meaning": {
+            "en": "And all the Kuru women, Kunti and Draupadi Krishna, went in various vehicles with Vidura leading."
+          }
         },
         {
           "n": 42,
-          "text": "ततो रथाश्च बहुला नागाश्च समलंकृताः ।\nपादाताश्च हयाश्चैव पृष्ठतः समनुव्रजन् ॥"
+          "text": "ततो रथाश्च बहुला नागाश्च समलंकृताः ।\nपादाताश्च हयाश्चैव पृष्ठतः समनुव्रजन् ॥",
+          "meaning": {
+            "en": "Then many chariots, adorned elephants, foot soldiers and horses followed behind."
+          }
         },
         {
           "n": 43,
-          "text": "ततो वैतालिकैः सूतैर्मागधैश्च सुभाषितैः ।\nस्तूयमानो ययौ राजा नगरं नागसाह्वयम् ॥"
+          "text": "ततो वैतालिकैः सूतैर्मागधैश्च सुभाषितैः ।\nस्तूयमानो ययौ राजा नगरं नागसाह्वयम् ॥",
+          "meaning": {
+            "en": "Praised by bards, charioteers and Magadhas with fine words, the king went to the city named for the elephant."
+          }
         },
         {
           "n": 44,
-          "text": "तत्प्रयाणं महाबाहोर्बभूवाप्रतिमं भुवि ।\nआकुलाकुलमुत्सृष्टं हृष्टपुष्टजनान्वितम् ॥"
+          "text": "तत्प्रयाणं महाबाहोर्बभूवाप्रतिमं भुवि ।\nआकुलाकुलमुत्सृष्टं हृष्टपुष्टजनान्वितम् ॥",
+          "meaning": {
+            "en": "That procession of the mighty-armed one was unmatched on earth, crowded and bustling, full of delighted and well-fed people."
+          }
         },
         {
           "n": 45,
-          "text": "अभियाने तु पार्थस्य नरैर्नगरवासिभिः ।\nनगरं राजमार्गश्च यथावत्समलंकृतम् ॥"
+          "text": "अभियाने तु पार्थस्य नरैर्नगरवासिभिः ।\nनगरं राजमार्गश्च यथावत्समलंकृतम् ॥",
+          "meaning": {
+            "en": "For Partha's coming, the townspeople had adorned the city and the royal road properly."
+          }
         },
         {
           "n": 46,
-          "text": "पाण्डुरेण च माल्येन पताकाभिश्च वेदिभिः ।\nसंवृतो राजमार्गश्च धूपनैश्च सुधूपितः ॥"
+          "text": "पाण्डुरेण च माल्येन पताकाभिश्च वेदिभिः ।\nसंवृतो राजमार्गश्च धूपनैश्च सुधूपितः ॥",
+          "meaning": {
+            "en": "The royal road was covered with white garlands, banners and platforms, and was well perfumed with incense."
+          }
         },
         {
           "n": 47,
-          "text": "अथ चूर्णैश्च गन्धानां नानापुष्पैः प्रियङ्गुभिः ।\nमाल्यदामभिरासक्तै राजवेश्माभिसंवृतम् ॥"
+          "text": "अथ चूर्णैश्च गन्धानां नानापुष्पैः प्रियङ्गुभिः ।\nमाल्यदामभिरासक्तै राजवेश्माभिसंवृतम् ॥",
+          "meaning": {
+            "en": "The royal palace was covered with perfume powders, many flowers, priyangu blossoms, and hanging garlands."
+          }
         },
         {
           "n": 48,
-          "text": "कुम्भाश्च नगरद्वारि वारिपूर्णा दृढा नवाः ।\nकन्याः सुमनसश्छागाः स्थापितास्तत्र तत्र ह ॥"
+          "text": "कुम्भाश्च नगरद्वारि वारिपूर्णा दृढा नवाः ।\nकन्याः सुमनसश्छागाः स्थापितास्तत्र तत्र ह ॥",
+          "meaning": {
+            "en": "At the city gate they set strong new pitchers full of water, and girls, flowers and goats here and there."
+          }
         },
         {
           "n": 49,
-          "text": "तथा स्वलंकृतद्वारं नगरं पाण्डुनन्दनः ।\nस्तूयमानः शुभैर्वाक्यैः प्रविवेश सुहृद्वृतः ॥"
+          "text": "तथा स्वलंकृतद्वारं नगरं पाण्डुनन्दनः ।\nस्तूयमानः शुभैर्वाक्यैः प्रविवेश सुहृद्वृतः ॥",
+          "meaning": {
+            "en": "So the son of Pandu, surrounded by friends and praised with auspicious words, entered the city with its gates well adorned."
+          }
         }
       ]
     }

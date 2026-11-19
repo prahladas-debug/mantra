@@ -22,66 +22,114 @@
       "titleEn": "Rajadharma Parva (Duties of kings)",
       "verses": [
         {
-          "text": "युधिष्ठिर उवाच"
+          "text": "युधिष्ठिर उवाच",
+          "meaning": {
+            "en": "Yudhishthira said:"
+          }
         },
         {
           "n": 1,
-          "text": "स्वकर्मण्यपरे युक्तास्तथैवान्ये विकर्मणि ।\nतेषां विशेषमाचक्ष्व ब्राह्मणानां पितामह ॥"
+          "text": "स्वकर्मण्यपरे युक्तास्तथैवान्ये विकर्मणि ।\nतेषां विशेषमाचक्ष्व ब्राह्मणानां पितामह ॥",
+          "meaning": {
+            "en": "Some are engaged in their own work and others in forbidden work; tell me, grandfather, how to tell such Brahmanas apart."
+          }
         },
         {
-          "text": "भीष्म उवाच"
+          "text": "भीष्म उवाच",
+          "meaning": {
+            "en": "Bhishma said:"
+          }
         },
         {
           "n": 2,
-          "text": "विद्यालक्षणसंपन्नाः सर्वत्राम्नायदर्शिनः ।\nएते ब्रह्मसमा राजन्ब्राह्मणाः परिकीर्तिताः ॥"
+          "text": "विद्यालक्षणसंपन्नाः सर्वत्राम्नायदर्शिनः ।\nएते ब्रह्मसमा राजन्ब्राह्मणाः परिकीर्तिताः ॥",
+          "meaning": {
+            "en": "Brahmanas endowed with the marks of learning, who see the sacred tradition everywhere, are called equal to Brahman, king."
+          }
         },
         {
           "n": 3,
-          "text": "ऋत्विगाचार्यसंपन्नाः स्वेषु कर्मस्ववस्थिताः ।\nएते देवसमा राजन्ब्राह्मणानां भवन्त्युत ॥"
+          "text": "ऋत्विगाचार्यसंपन्नाः स्वेषु कर्मस्ववस्थिताः ।\nएते देवसमा राजन्ब्राह्मणानां भवन्त्युत ॥",
+          "meaning": {
+            "en": "Those endowed as officiating priests and teachers, staying in their own duties, are equal to gods among Brahmanas, king."
+          }
         },
         {
           "n": 4,
-          "text": "ऋत्विक्पुरोहितो मन्त्री दूतोऽथार्थानुशासकः ।\nएते क्षत्रसमा राजन्ब्राह्मणानां भवन्त्युत ॥"
+          "text": "ऋत्विक्पुरोहितो मन्त्री दूतोऽथार्थानुशासकः ।\nएते क्षत्रसमा राजन्ब्राह्मणानां भवन्त्युत ॥",
+          "meaning": {
+            "en": "Priest, household priest, minister, envoy and instructor in affairs: these among Brahmanas are equal to Kshatriyas, king."
+          }
         },
         {
           "n": 5,
-          "text": "अश्वारोहा गजारोहा रथिनोऽथ पदातयः ।\nएते वैश्यसमा राजन्ब्राह्मणानां भवन्त्युत ॥"
+          "text": "अश्वारोहा गजारोहा रथिनोऽथ पदातयः ।\nएते वैश्यसमा राजन्ब्राह्मणानां भवन्त्युत ॥",
+          "meaning": {
+            "en": "Those who ride horses and elephants, charioteers and foot soldiers are equal to Vaishyas among Brahmanas, king."
+          }
         },
         {
           "n": 6,
-          "text": "जन्मकर्मविहीना ये कदर्या ब्रह्मबन्धवः ।\nएते शूद्रसमा राजन्ब्राह्मणानां भवन्त्युत ॥"
+          "text": "जन्मकर्मविहीना ये कदर्या ब्रह्मबन्धवः ।\nएते शूद्रसमा राजन्ब्राह्मणानां भवन्त्युत ॥",
+          "meaning": {
+            "en": "Those lacking in birth and rites, miserly, mere kin of Brahmanas, are equal to Shudras among Brahmanas, king."
+          }
         },
         {
           "n": 7,
-          "text": "अश्रोत्रियाः सर्व एव सर्वे चानाहिताग्नयः ।\nतान्सर्वान्धार्मिको राजा बलिं विष्टिं च कारयेत् ॥"
+          "text": "अश्रोत्रियाः सर्व एव सर्वे चानाहिताग्नयः ।\nतान्सर्वान्धार्मिको राजा बलिं विष्टिं च कारयेत् ॥",
+          "meaning": {
+            "en": "All those who are not learned in the Veda and all who have not set up their sacred fires: a righteous king should make all of them pay tribute and do forced labour."
+          }
         },
         {
           "n": 8,
-          "text": "आह्वायका देवलका नक्षत्रग्रामयाजकाः ।\nएते ब्राह्मणचण्डाला महापथिकपञ्चमाः ॥"
+          "text": "आह्वायका देवलका नक्षत्रग्रामयाजकाः ।\nएते ब्राह्मणचण्डाला महापथिकपञ्चमाः ॥",
+          "meaning": {
+            "en": "Summoners, temple priests, those who sacrifice by the stars or for a village, and the fifth, those who live on the highways, are the Chandalas among Brahmanas."
+          }
         },
         {
           "n": 9,
-          "text": "एतेभ्यो बलिमादद्याद्धीनकोशो महीपतिः ।\nऋते ब्रह्मसमेभ्यश्च देवकल्पेभ्य एव च ॥"
+          "text": "एतेभ्यो बलिमादद्याद्धीनकोशो महीपतिः ।\nऋते ब्रह्मसमेभ्यश्च देवकल्पेभ्य एव च ॥",
+          "meaning": {
+            "en": "A king whose treasury is poor may take tribute from these, but not from those equal to Brahman and those like gods."
+          }
         },
         {
           "n": 10,
-          "text": "अब्राह्मणानां वित्तस्य स्वामी राजेति वैदिकम् ।\nब्राह्मणानां च ये केचिद्विकर्मस्था भवन्त्युत ॥"
+          "text": "अब्राह्मणानां वित्तस्य स्वामी राजेति वैदिकम् ।\nब्राह्मणानां च ये केचिद्विकर्मस्था भवन्त्युत ॥",
+          "meaning": {
+            "en": "The Vedic teaching is that the king is the owner of the wealth of non-Brahmanas, and also of those Brahmanas who are engaged in forbidden work."
+          }
         },
         {
           "n": 11,
-          "text": "विकर्मस्थास्तु नोपेक्ष्या जातु राज्ञा कथंचन ।\nनियम्याः संविभज्याश्च धर्मानुग्रहकाम्यया ॥"
+          "text": "विकर्मस्थास्तु नोपेक्ष्या जातु राज्ञा कथंचन ।\nनियम्याः संविभज्याश्च धर्मानुग्रहकाम्यया ॥",
+          "meaning": {
+            "en": "Those engaged in forbidden work must never be neglected by the king in any way; they are to be restrained and shared with, out of wish to favour righteousness."
+          }
         },
         {
           "n": 12,
-          "text": "यस्य स्म विषये राज्ञः स्तेनो भवति वै द्विजः ।\nराज्ञ एवापराधं तं मन्यन्ते तद्विदो जनाः ॥"
+          "text": "यस्य स्म विषये राज्ञः स्तेनो भवति वै द्विजः ।\nराज्ञ एवापराधं तं मन्यन्ते तद्विदो जनाः ॥",
+          "meaning": {
+            "en": "In whatever king's realm a twice-born becomes a thief, those who know this regard that as the king's own fault."
+          }
         },
         {
           "n": 13,
-          "text": "अवृत्त्या यो भवेत्स्तेनो वेदवित्स्नातकस्तथा ।\nराजन्स राज्ञा भर्तव्य इति धर्मविदो विदुः ॥"
+          "text": "अवृत्त्या यो भवेत्स्तेनो वेदवित्स्नातकस्तथा ।\nराजन्स राज्ञा भर्तव्य इति धर्मविदो विदुः ॥",
+          "meaning": {
+            "en": "A Brahmana who knows the Veda and is a graduate, if he becomes a thief for want of a livelihood, is to be supported by the king; so those who know righteousness say."
+          }
         },
         {
           "n": 14,
-          "text": "स चेन्नो परिवर्तेत कृतवृत्तिः परंतप ।\nततो निर्वासनीयः स्यात्तस्माद्देशात्सबान्धवः ॥"
+          "text": "स चेन्नो परिवर्तेत कृतवृत्तिः परंतप ।\nततो निर्वासनीयः स्यात्तस्माद्देशात्सबान्धवः ॥",
+          "meaning": {
+            "en": "If he does not change even after being given a livelihood, scorcher of foes, then he should be banished from that country together with his kin."
+          }
         }
       ]
     }

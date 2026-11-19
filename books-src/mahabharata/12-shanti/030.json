@@ -22,178 +22,310 @@
       "titleEn": "Rajadharma Parva (Duties of kings)",
       "verses": [
         {
-          "text": "युधिष्ठिर उवाच"
+          "text": "युधिष्ठिर उवाच",
+          "meaning": {
+            "en": "Yudhishthira said:"
+          }
         },
         {
           "n": 1,
-          "text": "स कथं काञ्चनष्ठीवी सृञ्जयस्य सुतोऽभवत् ।\nपर्वतेन किमर्थं च दत्तः केन ममार च ॥"
+          "text": "स कथं काञ्चनष्ठीवी सृञ्जयस्य सुतोऽभवत् ।\nपर्वतेन किमर्थं च दत्तः केन ममार च ॥",
+          "meaning": {
+            "en": "How did Srinjaya's son come to spit gold? Why did Parvata give him, and by whom did he die?"
+          }
         },
         {
           "n": 2,
-          "text": "यदा वर्षसहस्रायुस्तदा भवति मानवः ।\nकथमप्राप्तकौमारः सृञ्जयस्य सुतो मृतः ॥"
+          "text": "यदा वर्षसहस्रायुस्तदा भवति मानवः ।\nकथमप्राप्तकौमारः सृञ्जयस्य सुतो मृतः ॥",
+          "meaning": {
+            "en": "When a man lives a thousand years, how did Srinjaya's son die before reaching youth?"
+          }
         },
         {
           "n": 3,
-          "text": "उताहो नाममात्रं वै सुवर्णष्ठीविनोऽभवत् ।\nतथ्यं वा काञ्चनष्ठीवीत्येतदिच्छामि वेदितुम् ॥"
+          "text": "उताहो नाममात्रं वै सुवर्णष्ठीविनोऽभवत् ।\nतथ्यं वा काञ्चनष्ठीवीत्येतदिच्छामि वेदितुम् ॥",
+          "meaning": {
+            "en": "Or was \"spitting gold\" only a name for the boy, or is it true that he spat gold? I wish to know this."
+          }
         },
         {
-          "text": "वासुदेव उवाच"
+          "text": "वासुदेव उवाच",
+          "meaning": {
+            "en": "Vasudeva said:"
+          }
         },
         {
           "n": 4,
-          "text": "अत्र ते कथयिष्यामि यथा वृत्तं जनेश्वर ।\nनारदः पर्वतश्चैव प्रागृषी लोकपूजितौ ॥"
+          "text": "अत्र ते कथयिष्यामि यथा वृत्तं जनेश्वर ।\nनारदः पर्वतश्चैव प्रागृषी लोकपूजितौ ॥",
+          "meaning": {
+            "en": "Lord of men, I will tell you here what happened. Narada and Parvata were ancient sages honored by the world."
+          }
         },
         {
           "n": 5,
-          "text": "मातुलो भागिनेयश्च देवलोकादिहागतौ ।\nविहर्तुकामौ संप्रीत्या मानुष्येषु पुरा प्रभू ॥"
+          "text": "मातुलो भागिनेयश्च देवलोकादिहागतौ ।\nविहर्तुकामौ संप्रीत्या मानुष्येषु पुरा प्रभू ॥",
+          "meaning": {
+            "en": "Uncle and nephew, mighty ones, they came from the world of the gods to this world, wishing to roam happily among men."
+          }
         },
         {
           "n": 6,
-          "text": "हविःपवित्रभोज्येन देवभोज्येन चैव ह ।\nनारदो मातुलश्चैव भागिनेयश्च पर्वतः ॥"
+          "text": "हविःपवित्रभोज्येन देवभोज्येन चैव ह ।\nनारदो मातुलश्चैव भागिनेयश्च पर्वतः ॥",
+          "meaning": {
+            "en": "Narada the uncle and Parvata the nephew shared pure offerings and food fit for the gods."
+          }
         },
         {
           "n": 7,
-          "text": "तावुभौ तपसोपेताववनीतलचारिणौ ।\nभुञ्जानौ मानुषान्भोगान्यथावत्पर्यधावताम् ॥"
+          "text": "तावुभौ तपसोपेताववनीतलचारिणौ ।\nभुञ्जानौ मानुषान्भोगान्यथावत्पर्यधावताम् ॥",
+          "meaning": {
+            "en": "Both rich in austerity, they wandered the earth, enjoying human pleasures as was fitting."
+          }
         },
         {
           "n": 8,
-          "text": "प्रीतिमन्तौ मुदा युक्तौ समयं तत्र चक्रतुः ।\nयो भवेद्धृदि संकल्पः शुभो वा यदि वाशुभः ।\nअन्योन्यस्य स आख्येयो मृषा शापोऽन्यथा भवेत् ॥"
+          "text": "प्रीतिमन्तौ मुदा युक्तौ समयं तत्र चक्रतुः ।\nयो भवेद्धृदि संकल्पः शुभो वा यदि वाशुभः ।\nअन्योन्यस्य स आख्येयो मृषा शापोऽन्यथा भवेत् ॥",
+          "meaning": {
+            "en": "Fond of each other and glad, they made an agreement there: whatever thought arose in the heart, good or bad, was to be told to the other, or a false word would bring a curse."
+          }
         },
         {
           "n": 9,
-          "text": "तौ तथेति प्रतिज्ञाय महर्षी लोकपूजितौ ।\nसृञ्जयं श्वैत्यमभ्येत्य राजानमिदमूचतुः ॥"
+          "text": "तौ तथेति प्रतिज्ञाय महर्षी लोकपूजितौ ।\nसृञ्जयं श्वैत्यमभ्येत्य राजानमिदमूचतुः ॥",
+          "meaning": {
+            "en": "Having agreed \"so be it,\" the two great sages honored by the world went to King Srinjaya Shaibya and said this."
+          }
         },
         {
           "n": 10,
-          "text": "आवां भवति वत्स्यावः कंचित्कालं हिताय ते ।\nयथावत्पृथिवीपाल आवयोः प्रगुणीभव ।\nतथेति कृत्वा तौ राजा सत्कृत्योपचचार ह ॥"
+          "text": "आवां भवति वत्स्यावः कंचित्कालं हिताय ते ।\nयथावत्पृथिवीपाल आवयोः प्रगुणीभव ।\nतथेति कृत्वा तौ राजा सत्कृत्योपचचार ह ॥",
+          "meaning": {
+            "en": "\"We will stay with you for a time, for your good; make yourself ready to serve us properly.\" The king agreed and served them with honor."
+          }
         },
         {
           "n": 11,
-          "text": "ततः कदाचित्तौ राजा महात्मानौ तथागतौ ।\nअब्रवीत्परमप्रीतः सुतेयं वरवर्णिनी ॥"
+          "text": "ततः कदाचित्तौ राजा महात्मानौ तथागतौ ।\nअब्रवीत्परमप्रीतः सुतेयं वरवर्णिनी ॥",
+          "meaning": {
+            "en": "Then one day the king, greatly pleased, said to the two great souls who were there: \"This is my lovely daughter."
+          }
         },
         {
           "n": 12,
-          "text": "एकैव मम कन्यैषा युवां परिचरिष्यति ।\nदर्शनीयानवद्याङ्गी शीलवृत्तसमन्विता ।\nसुकुमारी कुमारी च पद्मकिञ्जल्कसंनिभा ॥"
+          "text": "एकैव मम कन्यैषा युवां परिचरिष्यति ।\nदर्शनीयानवद्याङ्गी शीलवृत्तसमन्विता ।\nसुकुमारी कुमारी च पद्मकिञ्जल्कसंनिभा ॥",
+          "meaning": {
+            "en": "She is my only daughter and will wait on you both. She is lovely to see, flawless in body, with good character and conduct, delicate, a maiden like a lotus filament.\""
+          }
         },
         {
           "n": 13,
-          "text": "परमं सौम्य इत्युक्तस्ताभ्यां राजा शशास ताम् ।\nकन्ये विप्रावुपचर देववत्पितृवच्च ह ॥"
+          "text": "परमं सौम्य इत्युक्तस्ताभ्यां राजा शशास ताम् ।\nकन्ये विप्रावुपचर देववत्पितृवच्च ह ॥",
+          "meaning": {
+            "en": "When the two said \"Excellent, gentle one,\" the king instructed her: \"Daughter, serve these brahmins as you would gods and elders.\""
+          }
         },
         {
           "n": 14,
-          "text": "सा तु कन्या तथेत्युक्त्वा पितरं धर्मचारिणी ।\nयथानिदेशं राज्ञस्तौ सत्कृत्योपचचार ह ॥"
+          "text": "सा तु कन्या तथेत्युक्त्वा पितरं धर्मचारिणी ।\nयथानिदेशं राज्ञस्तौ सत्कृत्योपचचार ह ॥",
+          "meaning": {
+            "en": "The dutiful maiden said \"So be it\" to her father and served the two with honor as the king commanded."
+          }
         },
         {
           "n": 15,
-          "text": "तस्यास्तथोपचारेण रूपेणाप्रतिमेन च ।\nनारदं हृच्छयस्तूर्णं सहसैवान्वपद्यत ॥"
+          "text": "तस्यास्तथोपचारेण रूपेणाप्रतिमेन च ।\nनारदं हृच्छयस्तूर्णं सहसैवान्वपद्यत ॥",
+          "meaning": {
+            "en": "Because of her service and her matchless beauty, desire for her suddenly and swiftly seized Narada."
+          }
         },
         {
           "n": 16,
-          "text": "ववृधे च ततस्तस्य हृदि कामो महात्मनः ।\nयथा शुक्लस्य पक्षस्य प्रवृत्तावुडुराट्छनैः ॥"
+          "text": "ववृधे च ततस्तस्य हृदि कामो महात्मनः ।\nयथा शुक्लस्य पक्षस्य प्रवृत्तावुडुराट्छनैः ॥",
+          "meaning": {
+            "en": "The great one's longing grew in his heart, as the moon slowly waxes when the bright fortnight begins."
+          }
         },
         {
           "n": 17,
-          "text": "न च तं भागिनेयाय पर्वताय महात्मने ।\nशशंस मन्मथं तीव्रं व्रीडमानः स धर्मवित् ॥"
+          "text": "न च तं भागिनेयाय पर्वताय महात्मने ।\nशशंस मन्मथं तीव्रं व्रीडमानः स धर्मवित् ॥",
+          "meaning": {
+            "en": "Ashamed, though he knew dharma, he did not tell his fierce desire to his great-souled nephew Parvata."
+          }
         },
         {
           "n": 18,
-          "text": "तपसा चेङ्गितेनाथ पर्वतोऽथ बुबोध तत् ।\nकामार्तं नारदं क्रुद्धः शशापैनं ततो भृशम् ॥"
+          "text": "तपसा चेङ्गितेनाथ पर्वतोऽथ बुबोध तत् ।\nकामार्तं नारदं क्रुद्धः शशापैनं ततो भृशम् ॥",
+          "meaning": {
+            "en": "Through his austerity and by Narada's gestures, Parvata understood it, and angry that Narada was tormented by desire, he cursed him harshly."
+          }
         },
         {
           "n": 19,
-          "text": "कृत्वा समयमव्यग्रो भवान्वै सहितो मया ।\nयो भवेद्धृदि संकल्पः शुभो वा यदि वाशुभः ॥"
+          "text": "कृत्वा समयमव्यग्रो भवान्वै सहितो मया ।\nयो भवेद्धृदि संकल्पः शुभो वा यदि वाशुभः ॥",
+          "meaning": {
+            "en": "\"You made an agreement with me, calmly, that whatever thought arose in the heart, good or bad,"
+          }
         },
         {
           "n": 20,
-          "text": "अन्योन्यस्य स आख्येय इति तद्वै मृषा कृतम् ।\nभवता वचनं ब्रह्मंस्तस्मादेतद्वदाम्यहम् ॥"
+          "text": "अन्योन्यस्य स आख्येय इति तद्वै मृषा कृतम् ।\nभवता वचनं ब्रह्मंस्तस्मादेतद्वदाम्यहम् ॥",
+          "meaning": {
+            "en": "would be told to the other; you have made that false. Brahmin, therefore I say this to you."
+          }
         },
         {
           "n": 21,
-          "text": "न हि कामं प्रवर्तन्तं भवानाचष्ट मे पुरा ।\nसुकुमार्यां कुमार्यां ते तस्मादेष शपाम्यहम् ॥"
+          "text": "न हि कामं प्रवर्तन्तं भवानाचष्ट मे पुरा ।\nसुकुमार्यां कुमार्यां ते तस्मादेष शपाम्यहम् ॥",
+          "meaning": {
+            "en": "You did not tell me earlier when your desire arose for the delicate maiden; so I curse you."
+          }
         },
         {
           "n": 22,
-          "text": "ब्रह्मवादी गुरुर्यस्मात्तपस्वी ब्राह्मणश्च सन् ।\nअकार्षीः समयभ्रंशमावाभ्यां यः कृतो मिथः ॥"
+          "text": "ब्रह्मवादी गुरुर्यस्मात्तपस्वी ब्राह्मणश्च सन् ।\nअकार्षीः समयभ्रंशमावाभ्यां यः कृतो मिथः ॥",
+          "meaning": {
+            "en": "Because you are a teacher, an ascetic, a brahmin and a speaker of Brahman, yet you broke the agreement made between us,"
+          }
         },
         {
           "n": 23,
-          "text": "शप्स्ये तस्मात्सुसंक्रुद्धो भवन्तं तं निबोध मे ।\nसुकुमारी च ते भार्या भविष्यति न संशयः ॥"
+          "text": "शप्स्ये तस्मात्सुसंक्रुद्धो भवन्तं तं निबोध मे ।\nसुकुमारी च ते भार्या भविष्यति न संशयः ॥",
+          "meaning": {
+            "en": "I curse you in great anger; listen to me. The delicate maiden will become your wife, no doubt,"
+          }
         },
         {
           "n": 24,
-          "text": "वानरं चैव कन्या त्वां विवाहात्प्रभृति प्रभो ।\nसंद्रक्ष्यन्ति नराश्चान्ये स्वरूपेण विनाकृतम् ॥"
+          "text": "वानरं चैव कन्या त्वां विवाहात्प्रभृति प्रभो ।\nसंद्रक्ष्यन्ति नराश्चान्ये स्वरूपेण विनाकृतम् ॥",
+          "meaning": {
+            "en": "but from the marriage onward, lord, the maiden and other men will see you as a monkey, robbed of your own form.\""
+          }
         },
         {
           "n": 25,
-          "text": "स तद्वाक्यं तु विज्ञाय नारदः पर्वतात्तदा ।\nअशपत्तमपि क्रोधाद्भागिनेयं स मातुलः ॥"
+          "text": "स तद्वाक्यं तु विज्ञाय नारदः पर्वतात्तदा ।\nअशपत्तमपि क्रोधाद्भागिनेयं स मातुलः ॥",
+          "meaning": {
+            "en": "Understanding those words, Narada in anger cursed his nephew Parvata in return, uncle cursing nephew."
+          }
         },
         {
           "n": 26,
-          "text": "तपसा ब्रह्मचर्येण सत्येन च दमेन च ।\nयुक्तोऽपि धर्मनित्यश्च न स्वर्गवासमाप्स्यसि ॥"
+          "text": "तपसा ब्रह्मचर्येण सत्येन च दमेन च ।\nयुक्तोऽपि धर्मनित्यश्च न स्वर्गवासमाप्स्यसि ॥",
+          "meaning": {
+            "en": "\"Though you are devoted to austerity, celibacy, truth and self-control, and always to dharma, you will not gain a dwelling in heaven.\""
+          }
         },
         {
           "n": 27,
-          "text": "तौ तु शप्त्वा भृशं क्रुद्धौ परस्परममर्षणौ ।\nप्रतिजग्मतुरन्योन्यं क्रुद्धाविव गजोत्तमौ ॥"
+          "text": "तौ तु शप्त्वा भृशं क्रुद्धौ परस्परममर्षणौ ।\nप्रतिजग्मतुरन्योन्यं क्रुद्धाविव गजोत्तमौ ॥",
+          "meaning": {
+            "en": "Having cursed each other, both greatly angry and intolerant, they parted like two angry great elephants."
+          }
         },
         {
           "n": 28,
-          "text": "पर्वतः पृथिवीं कृत्स्नां विचचार महामुनिः ।\nपूज्यमानो यथान्यायं तेजसा स्वेन भारत ॥"
+          "text": "पर्वतः पृथिवीं कृत्स्नां विचचार महामुनिः ।\nपूज्यमानो यथान्यायं तेजसा स्वेन भारत ॥",
+          "meaning": {
+            "en": "The great sage Parvata roamed the whole earth, honored as was proper for his own radiance, Bharata."
+          }
         },
         {
           "n": 29,
-          "text": "अथ तामलभत्कन्यां नारदः सृञ्जयात्मजाम् ।\nधर्मेण धर्मप्रवरः सुकुमारीमनिन्दिताम् ॥"
+          "text": "अथ तामलभत्कन्यां नारदः सृञ्जयात्मजाम् ।\nधर्मेण धर्मप्रवरः सुकुमारीमनिन्दिताम् ॥",
+          "meaning": {
+            "en": "Then Narada, best of the righteous, rightfully obtained Srinjaya's daughter, the blameless delicate maiden."
+          }
         },
         {
           "n": 30,
-          "text": "सा तु कन्या यथाशापं नारदं तं ददर्श ह ।\nपाणिग्रहणमन्त्राणां प्रयोगादेव वानरम् ॥"
+          "text": "सा तु कन्या यथाशापं नारदं तं ददर्श ह ।\nपाणिग्रहणमन्त्राणां प्रयोगादेव वानरम् ॥",
+          "meaning": {
+            "en": "But the maiden, as the curse foretold, saw Narada as a monkey from the moment the marriage mantras were applied."
+          }
         },
         {
           "n": 31,
-          "text": "सुकुमारी च देवर्षिं वानरप्रतिमाननम् ।\nनैवावमन्यत तदा प्रीतिमत्येव चाभवत् ॥"
+          "text": "सुकुमारी च देवर्षिं वानरप्रतिमाननम् ।\nनैवावमन्यत तदा प्रीतिमत्येव चाभवत् ॥",
+          "meaning": {
+            "en": "Yet the delicate maiden, seeing the divine sage with a monkey's face, did not despise him but grew fond of him."
+          }
         },
         {
           "n": 32,
-          "text": "उपतस्थे च भर्तारं न चान्यं मनसाप्यगात् ।\nदेवं मुनिं वा यक्षं वा पतित्वे पतिवत्सला ॥"
+          "text": "उपतस्थे च भर्तारं न चान्यं मनसाप्यगात् ।\nदेवं मुनिं वा यक्षं वा पतित्वे पतिवत्सला ॥",
+          "meaning": {
+            "en": "Devoted as a wife, she served her husband and never turned her mind even to another, god, sage or yaksha, as husband."
+          }
         },
         {
           "n": 33,
-          "text": "ततः कदाचिद्भगवान्पर्वतोऽनुससार ह ।\nवनं विरहितं किंचित्तत्रापश्यत्स नारदम् ॥"
+          "text": "ततः कदाचिद्भगवान्पर्वतोऽनुससार ह ।\nवनं विरहितं किंचित्तत्रापश्यत्स नारदम् ॥",
+          "meaning": {
+            "en": "Then one day the blessed Parvata wandered into a secluded forest and saw Narada there."
+          }
         },
         {
           "n": 34,
-          "text": "ततोऽभिवाद्य प्रोवाच नारदं पर्वतस्तदा ।\nभवान्प्रसादं कुरुतां स्वर्गादेशाय मे प्रभो ॥"
+          "text": "ततोऽभिवाद्य प्रोवाच नारदं पर्वतस्तदा ।\nभवान्प्रसादं कुरुतां स्वर्गादेशाय मे प्रभो ॥",
+          "meaning": {
+            "en": "Parvata greeted Narada and said: \"Lord, be gracious and grant me leave to go to heaven.\""
+          }
         },
         {
           "n": 35,
-          "text": "तमुवाच ततो दृष्ट्वा पर्वतं नारदस्तदा ।\nकृताञ्जलिमुपासीनं दीनं दीनतरः स्वयम् ॥"
+          "text": "तमुवाच ततो दृष्ट्वा पर्वतं नारदस्तदा ।\nकृताञ्जलिमुपासीनं दीनं दीनतरः स्वयम् ॥",
+          "meaning": {
+            "en": "Seeing Parvata sitting with joined palms, wretched, Narada, more wretched still, said to him:"
+          }
         },
         {
           "n": 36,
-          "text": "त्वयाहं प्रथमं शप्तो वानरस्त्वं भविष्यसि ।\nइत्युक्तेन मया पश्चाच्छप्तस्त्वमपि मत्सरात् ।\nअद्यप्रभृति वै वासं स्वर्गे नावाप्स्यसीति ह ॥"
+          "text": "त्वयाहं प्रथमं शप्तो वानरस्त्वं भविष्यसि ।\nइत्युक्तेन मया पश्चाच्छप्तस्त्वमपि मत्सरात् ।\nअद्यप्रभृति वै वासं स्वर्गे नावाप्स्यसीति ह ॥",
+          "meaning": {
+            "en": "\"You cursed me first, saying I would be a monkey; then I, in spite, cursed you that from this day you would not live in heaven."
+          }
         },
         {
           "n": 37,
-          "text": "तव नैतद्धि सदृशं पुत्रस्थाने हि मे भवान् ।\nनिवर्तयेतां तौ शापमन्योऽन्येन तदा मुनी ॥"
+          "text": "तव नैतद्धि सदृशं पुत्रस्थाने हि मे भवान् ।\nनिवर्तयेतां तौ शापमन्योऽन्येन तदा मुनी ॥",
+          "meaning": {
+            "en": "This is not fitting for you; you stand to me in the place of a son.\" Then the two sages withdrew the curses from each other."
+          }
         },
         {
           "n": 38,
-          "text": "श्रीसमृद्धं तदा दृष्ट्वा नारदं देवरूपिणम् ।\nसुकुमारी प्रदुद्राव परपत्यभिशङ्कया ॥"
+          "text": "श्रीसमृद्धं तदा दृष्ट्वा नारदं देवरूपिणम् ।\nसुकुमारी प्रदुद्राव परपत्यभिशङ्कया ॥",
+          "meaning": {
+            "en": "Seeing Narada radiant and splendid, godlike in form, Sukumari ran away, suspecting he was another's husband."
+          }
         },
         {
           "n": 39,
-          "text": "तां पर्वतस्ततो दृष्ट्वा प्रद्रवन्तीमनिन्दिताम् ।\nअब्रवीत्तव भर्तैष नात्र कार्या विचारणा ॥"
+          "text": "तां पर्वतस्ततो दृष्ट्वा प्रद्रवन्तीमनिन्दिताम् ।\nअब्रवीत्तव भर्तैष नात्र कार्या विचारणा ॥",
+          "meaning": {
+            "en": "Seeing the blameless girl run, Parvata said: \"This is your husband; there is no cause for doubt here."
+          }
         },
         {
           "n": 40,
-          "text": "ऋषिः परमधर्मात्मा नारदो भगवान्प्रभुः ।\nतवैवाभेद्यहृदयो मा ते भूदत्र संशयः ॥"
+          "text": "ऋषिः परमधर्मात्मा नारदो भगवान्प्रभुः ।\nतवैवाभेद्यहृदयो मा ते भूदत्र संशयः ॥",
+          "meaning": {
+            "en": "The blessed lord Narada is a sage of supreme dharma, his heart unshakably yours; let there be no doubt in you.\""
+          }
         },
         {
           "n": 41,
-          "text": "सानुनीता बहुविधं पर्वतेन महात्मना ।\nशापदोषं च तं भर्तुः श्रुत्वा स्वां प्रकृतिं गता ।\nपर्वतोऽथ ययौ स्वर्गं नारदोऽथ ययौ गृहान् ॥"
+          "text": "सानुनीता बहुविधं पर्वतेन महात्मना ।\nशापदोषं च तं भर्तुः श्रुत्वा स्वां प्रकृतिं गता ।\nपर्वतोऽथ ययौ स्वर्गं नारदोऽथ ययौ गृहान् ॥",
+          "meaning": {
+            "en": "Gently persuaded in many ways by great Parvata, and hearing that her husband's fault was from the curse, she returned to her natural state; Parvata went to heaven and Narada went home."
+          }
         },
         {
           "n": 42,
-          "text": "प्रत्यक्षकर्मा सर्वस्य नारदोऽयं महानृषिः ।\nएष वक्ष्यति वै पृष्टो यथा वृत्तं नरोत्तम ॥"
+          "text": "प्रत्यक्षकर्मा सर्वस्य नारदोऽयं महानृषिः ।\nएष वक्ष्यति वै पृष्टो यथा वृत्तं नरोत्तम ॥",
+          "meaning": {
+            "en": "This great sage Narada witnessed everything himself; if you ask him, best of men, he will tell you exactly what happened."
+          }
         }
       ]
     }

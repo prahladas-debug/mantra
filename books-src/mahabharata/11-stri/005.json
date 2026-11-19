@@ -22,98 +22,170 @@
       "titleEn": "Jalapradanika Parva (The water offerings)",
       "verses": [
         {
-          "text": "धृतराष्ट्र उवाच"
+          "text": "धृतराष्ट्र उवाच",
+          "meaning": {
+            "en": "Dhritarashtra said:"
+          }
         },
         {
           "n": 1,
-          "text": "यदिदं धर्मगहनं बुद्ध्या समनुगम्यते ।\nएतद्विस्तरशः सर्वं बुद्धिमार्गं प्रशंस मे ॥"
+          "text": "यदिदं धर्मगहनं बुद्ध्या समनुगम्यते ।\nएतद्विस्तरशः सर्वं बुद्धिमार्गं प्रशंस मे ॥",
+          "meaning": {
+            "en": "This thicket of dharma that is followed by the intellect: explain all of it to me in detail, and praise the way of understanding."
+          }
         },
         {
-          "text": "विदुर उवाच"
+          "text": "विदुर उवाच",
+          "meaning": {
+            "en": "Vidura said:"
+          }
         },
         {
           "n": 2,
-          "text": "अत्र ते वर्तयिष्यामि नमस्कृत्वा स्वयंभुवे ।\nयथा संसारगहनं वदन्ति परमर्षयः ॥"
+          "text": "अत्र ते वर्तयिष्यामि नमस्कृत्वा स्वयंभुवे ।\nयथा संसारगहनं वदन्ति परमर्षयः ॥",
+          "meaning": {
+            "en": "Bowing to the Self-born, I will tell you of it, as the great sages describe the thicket of samsara."
+          }
         },
         {
           "n": 3,
-          "text": "कश्चिन्महति संसारे वर्तमानो द्विजः किल ।\nवनं दुर्गमनुप्राप्तो महत्क्रव्यादसंकुलम् ॥"
+          "text": "कश्चिन्महति संसारे वर्तमानो द्विजः किल ।\nवनं दुर्गमनुप्राप्तो महत्क्रव्यादसंकुलम् ॥",
+          "meaning": {
+            "en": "They say that a certain brahmin, living in this great round of existence, came to a trackless forest crowded with great flesh-eating beasts."
+          }
         },
         {
           "n": 4,
-          "text": "सिंहव्याघ्रगजाकारैरतिघोरैर्महाशनैः ।\nसमन्तात्संपरिक्षिप्तं मृत्योरपि भयप्रदम् ॥"
+          "text": "सिंहव्याघ्रगजाकारैरतिघोरैर्महाशनैः ।\nसमन्तात्संपरिक्षिप्तं मृत्योरपि भयप्रदम् ॥",
+          "meaning": {
+            "en": "It was ringed on every side by fearsome, huge-eating creatures shaped like lions, tigers and elephants, terrifying even to Death."
+          }
         },
         {
           "n": 5,
-          "text": "तदस्य दृष्ट्वा हृदयमुद्वेगमगमत्परम् ।\nअभ्युच्छ्रयश्च रोम्णां वै विक्रियाश्च परंतप ॥"
+          "text": "तदस्य दृष्ट्वा हृदयमुद्वेगमगमत्परम् ।\nअभ्युच्छ्रयश्च रोम्णां वै विक्रियाश्च परंतप ॥",
+          "meaning": {
+            "en": "Seeing it, his heart was seized with great dread, tormentor of foes; his hair stood on end and his body trembled."
+          }
         },
         {
           "n": 6,
-          "text": "स तद्वनं व्यनुसरन्विप्रधावनितस्ततः ।\nवीक्षमाणो दिशः सर्वाः शरणं क्व भवेदिति ॥"
+          "text": "स तद्वनं व्यनुसरन्विप्रधावनितस्ततः ।\nवीक्षमाणो दिशः सर्वाः शरणं क्व भवेदिति ॥",
+          "meaning": {
+            "en": "He ran about that forest in every direction, looking all around: \"Where will I find shelter?\""
+          }
         },
         {
           "n": 7,
-          "text": "स तेषां छिद्रमन्विच्छन्प्रद्रुतो भयपीडितः ।\nन च निर्याति वै दूरं न च तैर्विप्रयुज्यते ॥"
+          "text": "स तेषां छिद्रमन्विच्छन्प्रद्रुतो भयपीडितः ।\nन च निर्याति वै दूरं न च तैर्विप्रयुज्यते ॥",
+          "meaning": {
+            "en": "Pressed by fear, he fled, looking for a gap among them. He could not get far from them, nor could he be rid of them."
+          }
         },
         {
           "n": 8,
-          "text": "अथापश्यद्वनं घोरं समन्ताद्वागुरावृतम् ।\nबाहुभ्यां संपरिष्वक्तं स्त्रिया परमघोरया ॥"
+          "text": "अथापश्यद्वनं घोरं समन्ताद्वागुरावृतम् ।\nबाहुभ्यां संपरिष्वक्तं स्त्रिया परमघोरया ॥",
+          "meaning": {
+            "en": "Then he saw the dreadful forest covered on every side with nets, and a terrifying woman embracing it with her arms."
+          }
         },
         {
           "n": 9,
-          "text": "पञ्चशीर्षधरैर्नागैः शैलैरिव समुन्नतैः ।\nनभःस्पृशैर्महावृक्षैः परिक्षिप्तं महावनम् ॥"
+          "text": "पञ्चशीर्षधरैर्नागैः शैलैरिव समुन्नतैः ।\nनभःस्पृशैर्महावृक्षैः परिक्षिप्तं महावनम् ॥",
+          "meaning": {
+            "en": "The great forest was ringed by five-headed serpents, tall as mountains, and by huge trees that touched the sky."
+          }
         },
         {
           "n": 10,
-          "text": "वनमध्ये च तत्राभूदुदपानः समावृतः ।\nवल्लीभिस्तृणछन्नाभिर्गूढाभिरभिसंवृतः ॥"
+          "text": "वनमध्ये च तत्राभूदुदपानः समावृतः ।\nवल्लीभिस्तृणछन्नाभिर्गूढाभिरभिसंवृतः ॥",
+          "meaning": {
+            "en": "In the middle of that forest was a well, covered over with creepers hidden under grass."
+          }
         },
         {
           "n": 11,
-          "text": "पपात स द्विजस्तत्र निगूढे सलिलाशये ।\nविलग्नश्चाभवत्तस्मिँल्लतासंतानसंकटे ॥"
+          "text": "पपात स द्विजस्तत्र निगूढे सलिलाशये ।\nविलग्नश्चाभवत्तस्मिँल्लतासंतानसंकटे ॥",
+          "meaning": {
+            "en": "The brahmin fell into that hidden pool of water and caught in a tangle of vines."
+          }
         },
         {
           "n": 12,
-          "text": "पनसस्य यथा जातं वृन्तबद्धं महाफलम् ।\nस तथा लम्बते तत्र ऊर्ध्वपादो ह्यधःशिराः ॥"
+          "text": "पनसस्य यथा जातं वृन्तबद्धं महाफलम् ।\nस तथा लम्बते तत्र ऊर्ध्वपादो ह्यधःशिराः ॥",
+          "meaning": {
+            "en": "He hung there, feet up and head down, like a great jackfruit tied to its stalk."
+          }
         },
         {
           "n": 13,
-          "text": "अथ तत्रापि चान्योऽस्य भूयो जात उपद्रवः ।\nकूपवीनाहवेलायामपश्यत महागजम् ॥"
+          "text": "अथ तत्रापि चान्योऽस्य भूयो जात उपद्रवः ।\nकूपवीनाहवेलायामपश्यत महागजम् ॥",
+          "meaning": {
+            "en": "Then another danger arose for him there: at the edge of the well he saw a huge elephant."
+          }
         },
         {
           "n": 14,
-          "text": "षड्वक्त्रं कृष्णशबलं द्विषट्कपदचारिणम् ।\nक्रमेण परिसर्पन्तं वल्लीवृक्षसमावृतम् ॥"
+          "text": "षड्वक्त्रं कृष्णशबलं द्विषट्कपदचारिणम् ।\nक्रमेण परिसर्पन्तं वल्लीवृक्षसमावृतम् ॥",
+          "meaning": {
+            "en": "It was six-faced, black and mottled, walking on twelve feet, and it crept slowly toward him, surrounded by creepers and trees."
+          }
         },
         {
           "n": 15,
-          "text": "तस्य चापि प्रशाखासु वृक्षशाखावलम्बिनः ।\nनानारूपा मधुकरा घोररूपा भयावहाः ।\nआसते मधु संभृत्य पूर्वमेव निकेतजाः ॥"
+          "text": "तस्य चापि प्रशाखासु वृक्षशाखावलम्बिनः ।\nनानारूपा मधुकरा घोररूपा भयावहाः ।\nआसते मधु संभृत्य पूर्वमेव निकेतजाः ॥",
+          "meaning": {
+            "en": "On the branches of the tree he clung to, bees of many forms, fierce and fearful, sat, having first stored honey in their hive."
+          }
         },
         {
           "n": 16,
-          "text": "भूयो भूयः समीहन्ते मधूनि भरतर्षभ ।\nस्वादनीयानि भूतानां न यैर्बालोऽपि तृप्यते ॥"
+          "text": "भूयो भूयः समीहन्ते मधूनि भरतर्षभ ।\nस्वादनीयानि भूतानां न यैर्बालोऽपि तृप्यते ॥",
+          "meaning": {
+            "en": "Again and again they seek honeys, descendant of Bharata, so sweet to creatures that not even a child is ever sated by them."
+          }
         },
         {
           "n": 17,
-          "text": "तेषां मधूनां बहुधा धारा प्रस्रवते सदा ।\nतां लम्बमानः स पुमान्धारां पिबति सर्वदा ।\nन चास्य तृष्णा विरता पिबमानस्य संकटे ॥"
+          "text": "तेषां मधूनां बहुधा धारा प्रस्रवते सदा ।\nतां लम्बमानः स पुमान्धारां पिबति सर्वदा ।\nन चास्य तृष्णा विरता पिबमानस्य संकटे ॥",
+          "meaning": {
+            "en": "Many streams of that honey flow always. Hanging there, the man drinks the stream constantly, yet his thirst does not stop even as he drinks in that peril."
+          }
         },
         {
           "n": 18,
-          "text": "अभीप्सति च तां नित्यमतृप्तः स पुनः पुनः ।\nन चास्य जीविते राजन्निर्वेदः समजायत ॥"
+          "text": "अभीप्सति च तां नित्यमतृप्तः स पुनः पुनः ।\nन चास्य जीविते राजन्निर्वेदः समजायत ॥",
+          "meaning": {
+            "en": "Never satisfied, he longs for it again and again. And, king, no disgust for life arose in him."
+          }
         },
         {
           "n": 19,
-          "text": "तत्रैव च मनुष्यस्य जीविताशा प्रतिष्ठिता ।\nकृष्णाः श्वेताश्च तं वृक्षं कुट्टयन्ति स्म मूषकाः ॥"
+          "text": "तत्रैव च मनुष्यस्य जीविताशा प्रतिष्ठिता ।\nकृष्णाः श्वेताश्च तं वृक्षं कुट्टयन्ति स्म मूषकाः ॥",
+          "meaning": {
+            "en": "There his hope of living was fixed. Black and white mice kept gnawing at the tree."
+          }
         },
         {
           "n": 20,
-          "text": "व्यालैश्च वनदुर्गान्ते स्त्रिया च परमोग्रया ।\nकूपाधस्ताच्च नागेन वीनाहे कुञ्जरेण च ॥"
+          "text": "व्यालैश्च वनदुर्गान्ते स्त्रिया च परमोग्रया ।\nकूपाधस्ताच्च नागेन वीनाहे कुञ्जरेण च ॥",
+          "meaning": {
+            "en": "Around him were wild beasts at the forest's edge, the terrible woman, a serpent beneath the well, and the elephant at its brink."
+          }
         },
         {
           "n": 21,
-          "text": "वृक्षप्रपाताच्च भयं मूषकेभ्यश्च पञ्चमम् ।\nमधुलोभान्मधुकरैः षष्ठमाहुर्महद्भयम् ॥"
+          "text": "वृक्षप्रपाताच्च भयं मूषकेभ्यश्च पञ्चमम् ।\nमधुलोभान्मधुकरैः षष्ठमाहुर्महद्भयम् ॥",
+          "meaning": {
+            "en": "They speak of a fifth fear from the tree's falling and the mice, and of a sixth great fear from the bees through greed for honey."
+          }
         },
         {
           "n": 22,
-          "text": "एवं स वसते तत्र क्षिप्तः संसारसागरे ।\nन चैव जीविताशायां निर्वेदमुपगच्छति ॥"
+          "text": "एवं स वसते तत्र क्षिप्तः संसारसागरे ।\nन चैव जीविताशायां निर्वेदमुपगच्छति ॥",
+          "meaning": {
+            "en": "So he lives there, cast into the ocean of samsara, and never turns from his hope of life."
+          }
         }
       ]
     }

@@ -22,175 +22,304 @@
       "titleEn": "Strivilapa Parva (Lament of the women)",
       "verses": [
         {
-          "text": "गान्धार्युवाच"
+          "text": "गान्धार्युवाच",
+          "meaning": {
+            "en": "Gandhari said:"
+          }
         },
         {
           "n": 1,
-          "text": "एष शल्यो हतः शेते साक्षान्नकुलमातुलः ।\nधर्मज्ञेन सता तात धर्मराजेन संयुगे ॥"
+          "text": "एष शल्यो हतः शेते साक्षान्नकुलमातुलः ।\nधर्मज्ञेन सता तात धर्मराजेन संयुगे ॥",
+          "meaning": {
+            "en": "Here lies Shalya slain, the maternal uncle of Nakula himself, killed in battle by Dharmaraja, the good and dharma-knowing, dear one."
+          }
         },
         {
           "n": 2,
-          "text": "यस्त्वया स्पर्धते नित्यं सर्वत्र पुरुषर्षभ ।\nस एष निहतः शेते मद्रराजो महारथः ॥"
+          "text": "यस्त्वया स्पर्धते नित्यं सर्वत्र पुरुषर्षभ ।\nस एष निहतः शेते मद्रराजो महारथः ॥",
+          "meaning": {
+            "en": "He who always rivaled you in everything, bull among men, this great charioteer, the king of Madra, lies slain."
+          }
         },
         {
           "n": 3,
-          "text": "येन संगृह्णता तात रथमाधिरथेर्युधि ।\nजयार्थं पाण्डुपुत्राणां तथा तेजोवधः कृतः ॥"
+          "text": "येन संगृह्णता तात रथमाधिरथेर्युधि ।\nजयार्थं पाण्डुपुत्राणां तथा तेजोवधः कृतः ॥",
+          "meaning": {
+            "en": "He who, taking the charioteer's reins of Karna in battle, thus took away his strength for the victory of Pandu's sons."
+          }
         },
         {
           "n": 4,
-          "text": "अहो धिक्पश्य शल्यस्य पूर्णचन्द्रसुदर्शनम् ।\nमुखं पद्मपलाशाक्षं वडैरादष्टमव्रणम् ॥"
+          "text": "अहो धिक्पश्य शल्यस्य पूर्णचन्द्रसुदर्शनम् ।\nमुखं पद्मपलाशाक्षं वडैरादष्टमव्रणम् ॥",
+          "meaning": {
+            "en": "Alas, shame! Look at Shalya's face, lovely as the full moon, his eyes like lotus petals, unwounded, bitten by herons."
+          }
         },
         {
           "n": 5,
-          "text": "एषा चामीकराभस्य तप्तकाञ्चनसप्रभा ।\nआस्याद्विनिःसृता जिह्वा भक्ष्यते कृष्ण पक्षिभिः ॥"
+          "text": "एषा चामीकराभस्य तप्तकाञ्चनसप्रभा ।\nआस्याद्विनिःसृता जिह्वा भक्ष्यते कृष्ण पक्षिभिः ॥",
+          "meaning": {
+            "en": "This tongue of his, bright as gold, shining like molten gold, hangs from his mouth and is eaten by birds, Krishna."
+          }
         },
         {
           "n": 6,
-          "text": "युधिष्ठिरेण निहतं शल्यं समितिशोभनम् ।\nरुदन्त्यः पर्युपासन्ते मद्रराजकुलस्त्रियः ॥"
+          "text": "युधिष्ठिरेण निहतं शल्यं समितिशोभनम् ।\nरुदन्त्यः पर्युपासन्ते मद्रराजकुलस्त्रियः ॥",
+          "meaning": {
+            "en": "The women of the Madra king's family weep and attend Shalya, glorious in assembly, slain by Yudhishthira."
+          }
         },
         {
           "n": 7,
-          "text": "एताः सुसूक्ष्मवसना मद्रराजं नरर्षभम् ।\nक्रोशन्त्यभिसमासाद्य क्षत्रियाः क्षत्रियर्षभम् ॥"
+          "text": "एताः सुसूक्ष्मवसना मद्रराजं नरर्षभम् ।\nक्रोशन्त्यभिसमासाद्य क्षत्रियाः क्षत्रियर्षभम् ॥",
+          "meaning": {
+            "en": "These women in very fine garments, kshatriya women, come to the bull among men, the king of Madra, bull among kshatriyas, and cry out."
+          }
         },
         {
           "n": 8,
-          "text": "शल्यं निपतितं नार्यः परिवार्याभितः स्थिताः ।\nवाशिता गृष्टयः पङ्के परिमग्नमिवर्षभम् ॥"
+          "text": "शल्यं निपतितं नार्यः परिवार्याभितः स्थिताः ।\nवाशिता गृष्टयः पङ्के परिमग्नमिवर्षभम् ॥",
+          "meaning": {
+            "en": "The women stand around the fallen Shalya like cows around a bull sunk in the mire."
+          }
         },
         {
           "n": 9,
-          "text": "शल्यं शरणदं शूरं पश्यैनं रथसत्तमम् ।\nशयानं वीरशयने शरैर्विशकलीकृतम् ॥"
+          "text": "शल्यं शरणदं शूरं पश्यैनं रथसत्तमम् ।\nशयानं वीरशयने शरैर्विशकलीकृतम् ॥",
+          "meaning": {
+            "en": "Look at Shalya, the brave, the giver of refuge, the best charioteer, lying on the hero's bed, pierced into pieces by arrows."
+          }
         },
         {
           "n": 10,
-          "text": "एष शैलालयो राजा भगदत्तः प्रतापवान् ।\nगजाङ्कुशधरः श्रेष्ठः शेते भुवि निपातितः ॥"
+          "text": "एष शैलालयो राजा भगदत्तः प्रतापवान् ।\nगजाङ्कुशधरः श्रेष्ठः शेते भुवि निपातितः ॥",
+          "meaning": {
+            "en": "Here lies the mighty king Bhagadatta, who lived in the mountains, holder of the elephant goad, the foremost, felled on the earth."
+          }
         },
         {
           "n": 11,
-          "text": "यस्य रुक्ममयी माला शिरस्येषा विराजते ।\nश्वापदैर्भक्ष्यमाणस्य शोभयन्तीव मूर्धजान् ॥"
+          "text": "यस्य रुक्ममयी माला शिरस्येषा विराजते ।\nश्वापदैर्भक्ष्यमाणस्य शोभयन्तीव मूर्धजान् ॥",
+          "meaning": {
+            "en": "The golden garland shining on his head, as the beasts devour him, seems to adorn his hair."
+          }
         },
         {
           "n": 12,
-          "text": "एतेन किल पार्थस्य युद्धमासीत्सुदारुणम् ।\nलोमहर्षणमत्युग्रं शक्रस्य बलिना यथा ॥"
+          "text": "एतेन किल पार्थस्य युद्धमासीत्सुदारुणम् ।\nलोमहर्षणमत्युग्रं शक्रस्य बलिना यथा ॥",
+          "meaning": {
+            "en": "It is said that Partha fought a very terrible, hair-raising and fierce battle with him, like Indra's with Bali."
+          }
         },
         {
           "n": 13,
-          "text": "योधयित्वा महाबाहुरेष पार्थं धनंजयम् ।\nसंशयं गमयित्वा च कुन्तीपुत्रेण पातितः ॥"
+          "text": "योधयित्वा महाबाहुरेष पार्थं धनंजयम् ।\nसंशयं गमयित्वा च कुन्तीपुत्रेण पातितः ॥",
+          "meaning": {
+            "en": "Having fought Partha Dhananjaya and brought him into doubt, the mighty-armed one was felled by Kunti's son."
+          }
         },
         {
           "n": 14,
-          "text": "यस्य नास्ति समो लोके शौर्ये वीर्ये च कश्चन ।\nस एष निहतः शेते भीष्मो भीष्मकृदाहवे ॥"
+          "text": "यस्य नास्ति समो लोके शौर्ये वीर्ये च कश्चन ।\nस एष निहतः शेते भीष्मो भीष्मकृदाहवे ॥",
+          "meaning": {
+            "en": "He who had no equal in the world in courage or valor, Bhishma, who inspired fear in battle, lies slain."
+          }
         },
         {
           "n": 15,
-          "text": "पश्य शांतनवं कृष्ण शयानं सूर्यवर्चसम् ।\nयुगान्त इव कालेन पातितं सूर्यमम्बरात् ॥"
+          "text": "पश्य शांतनवं कृष्ण शयानं सूर्यवर्चसम् ।\nयुगान्त इव कालेन पातितं सूर्यमम्बरात् ॥",
+          "meaning": {
+            "en": "Look at Shantanu's son lying, Krishna, with the splendor of the sun, like the sun fallen from the sky by Time at the end of an age."
+          }
         },
         {
           "n": 16,
-          "text": "एष तप्त्वा रणे शत्रूञ्शस्त्रतापेन वीर्यवान् ।\nनरसूर्योऽस्तमभ्येति सूर्योऽस्तमिव केशव ॥"
+          "text": "एष तप्त्वा रणे शत्रूञ्शस्त्रतापेन वीर्यवान् ।\nनरसूर्योऽस्तमभ्येति सूर्योऽस्तमिव केशव ॥",
+          "meaning": {
+            "en": "This mighty one, having scorched his enemies in battle with the heat of his weapons, sets, the sun among men, as the sun sets, Keshava."
+          }
         },
         {
           "n": 17,
-          "text": "शरतल्पगतं वीरं धर्मे देवापिना समम् ।\nशयानं वीरशयने पश्य शूरनिषेविते ॥"
+          "text": "शरतल्पगतं वीरं धर्मे देवापिना समम् ।\nशयानं वीरशयने पश्य शूरनिषेविते ॥",
+          "meaning": {
+            "en": "Look at the hero lying on a bed of arrows, equal to Devapi in dharma, on a hero's bed where heroes lie."
+          }
         },
         {
           "n": 18,
-          "text": "कर्णिनालीकनाराचैरास्तीर्य शयनोत्तमम् ।\nआविश्य शेते भगवान्स्कन्दः शरवणं यथा ॥"
+          "text": "कर्णिनालीकनाराचैरास्तीर्य शयनोत्तमम् ।\nआविश्य शेते भगवान्स्कन्दः शरवणं यथा ॥",
+          "meaning": {
+            "en": "Having spread the finest bed with arrows long and short, the blessed one lies on it like Skanda in a thicket of reeds."
+          }
         },
         {
           "n": 19,
-          "text": "अतूलपूर्णं गाङ्गेयस्त्रिभिर्बाणैः समन्वितम् ।\nउपधायोपधानाग्र्यं दत्तं गाण्डीवधन्वना ॥"
+          "text": "अतूलपूर्णं गाङ्गेयस्त्रिभिर्बाणैः समन्वितम् ।\nउपधायोपधानाग्र्यं दत्तं गाण्डीवधन्वना ॥",
+          "meaning": {
+            "en": "Ganga's son lies with a headrest of three arrows in place of a cushion, the finest headrest, given by the wielder of Gandiva."
+          }
         },
         {
           "n": 20,
-          "text": "पालयानः पितुः शास्त्रमूर्ध्वरेता महायशाः ।\nएष शांतनवः शेते माधवाप्रतिमो युधि ॥"
+          "text": "पालयानः पितुः शास्त्रमूर्ध्वरेता महायशाः ।\nएष शांतनवः शेते माधवाप्रतिमो युधि ॥",
+          "meaning": {
+            "en": "Of great fame, keeping his father's command and living in lifelong celibacy, Shantanu's son lies here, in battle equal to Madhava."
+          }
         },
         {
           "n": 21,
-          "text": "धर्मात्मा तात धर्मज्ञः पारंपर्येण निर्णये ।\nअमर्त्य इव मर्त्यः सन्नेष प्राणानधारयत् ॥"
+          "text": "धर्मात्मा तात धर्मज्ञः पारंपर्येण निर्णये ।\nअमर्त्य इव मर्त्यः सन्नेष प्राणानधारयत् ॥",
+          "meaning": {
+            "en": "Dear one, righteous and knowing dharma, he held his life as if immortal, though mortal, in decisions by the tradition of the ancients."
+          }
         },
         {
           "n": 22,
-          "text": "नास्ति युद्धे कृती कश्चिन्न विद्वान्न पराक्रमी ।\nयत्र शांतनवो भीष्मः शेतेऽद्य निहतः परैः ॥"
+          "text": "नास्ति युद्धे कृती कश्चिन्न विद्वान्न पराक्रमी ।\nयत्र शांतनवो भीष्मः शेतेऽद्य निहतः परैः ॥",
+          "meaning": {
+            "en": "There is no one accomplished or learned or valiant in battle where Bhishma, son of Shantanu, lies today, struck down by enemies."
+          }
         },
         {
           "n": 23,
-          "text": "स्वयमेतेन शूरेण पृच्छ्यमानेन पाण्डवैः ।\nधर्मज्ञेनाहवे मृत्युराख्यातः सत्यवादिना ॥"
+          "text": "स्वयमेतेन शूरेण पृच्छ्यमानेन पाण्डवैः ।\nधर्मज्ञेनाहवे मृत्युराख्यातः सत्यवादिना ॥",
+          "meaning": {
+            "en": "He himself, the hero, the truthful knower of dharma, when asked in battle by the Pandavas, told them how he might be killed."
+          }
         },
         {
           "n": 24,
-          "text": "प्रनष्टः कुरुवंशश्च पुनर्येन समुद्धृतः ।\nस गतः कुरुभिः सार्धं महाबुद्धिः पराभवम् ॥"
+          "text": "प्रनष्टः कुरुवंशश्च पुनर्येन समुद्धृतः ।\nस गतः कुरुभिः सार्धं महाबुद्धिः पराभवम् ॥",
+          "meaning": {
+            "en": "He who had raised up the Kuru line again when it was ruined, that wise man has gone down, with the Kurus, to defeat."
+          }
         },
         {
           "n": 25,
-          "text": "धर्मेषु कुरवः कं नु परिप्रक्ष्यन्ति माधव ।\nगते देवव्रते स्वर्गं देवकल्पे नरर्षभे ॥"
+          "text": "धर्मेषु कुरवः कं नु परिप्रक्ष्यन्ति माधव ।\nगते देवव्रते स्वर्गं देवकल्पे नरर्षभे ॥",
+          "meaning": {
+            "en": "Whom will the Kurus ask about dharma, Madhava, now that Devavrata, god-like bull among men, has gone to heaven?"
+          }
         },
         {
           "n": 26,
-          "text": "अर्जुनस्य विनेतारमाचार्यं सात्यकेस्तथा ।\nतं पश्य पतितं द्रोणं कुरूणां गुरुसत्तमम् ॥"
+          "text": "अर्जुनस्य विनेतारमाचार्यं सात्यकेस्तथा ।\nतं पश्य पतितं द्रोणं कुरूणां गुरुसत्तमम् ॥",
+          "meaning": {
+            "en": "Look at Drona, fallen, the teacher of Arjuna and Satyaki, the best teacher of the Kurus."
+          }
         },
         {
           "n": 27,
-          "text": "अस्त्रं चतुर्विधं वेद यथैव त्रिदशेश्वरः ।\nभार्गवो वा महावीर्यस्तथा द्रोणोऽपि माधव ॥"
+          "text": "अस्त्रं चतुर्विधं वेद यथैव त्रिदशेश्वरः ।\nभार्गवो वा महावीर्यस्तथा द्रोणोऽपि माधव ॥",
+          "meaning": {
+            "en": "He knew the fourfold weapons as the lord of the gods does, or as Bhargava of great power, Madhava, and Drona did likewise."
+          }
         },
         {
           "n": 28,
-          "text": "यस्य प्रसादाद्बीभत्सुः पाण्डवः कर्म दुष्करम् ।\nचकार स हतः शेते नैनमस्त्राण्यपालयन् ॥"
+          "text": "यस्य प्रसादाद्बीभत्सुः पाण्डवः कर्म दुष्करम् ।\nचकार स हतः शेते नैनमस्त्राण्यपालयन् ॥",
+          "meaning": {
+            "en": "By whose grace Bibhatsu the Pandava did his hard deeds, he lies slain, though weapons did not protect him."
+          }
         },
         {
           "n": 29,
-          "text": "यं पुरोधाय कुरव आह्वयन्ति स्म पाण्डवान् ।\nसोऽयं शस्त्रभृतां श्रेष्ठो द्रोणः शस्त्रैः पृथक्कृतः ॥"
+          "text": "यं पुरोधाय कुरव आह्वयन्ति स्म पाण्डवान् ।\nसोऽयं शस्त्रभृतां श्रेष्ठो द्रोणः शस्त्रैः पृथक्कृतः ॥",
+          "meaning": {
+            "en": "He whom the Kurus put in front when they challenged the Pandavas, this Drona, best of weapon-bearers, has been parted by weapons."
+          }
         },
         {
           "n": 30,
-          "text": "यस्य निर्दहतः सेनां गतिरग्नेरिवाभवत् ।\nस भूमौ निहतः शेते शान्तार्चिरिव पावकः ॥"
+          "text": "यस्य निर्दहतः सेनां गतिरग्नेरिवाभवत् ।\nस भूमौ निहतः शेते शान्तार्चिरिव पावकः ॥",
+          "meaning": {
+            "en": "As he burned the army, he was like the course of fire; he lies slain on the ground like a fire whose flames have gone out."
+          }
         },
         {
           "n": 31,
-          "text": "धनुर्मुष्टिरशीर्णश्च हस्तावापश्च माधव ।\nद्रोणस्य निहतस्यापि दृश्यते जीवतो यथा ॥"
+          "text": "धनुर्मुष्टिरशीर्णश्च हस्तावापश्च माधव ।\nद्रोणस्य निहतस्यापि दृश्यते जीवतो यथा ॥",
+          "meaning": {
+            "en": "Madhava, even slain, Drona's bow, its handgrip and his gloved hand still appear as if he were alive."
+          }
         },
         {
           "n": 32,
-          "text": "वेदा यस्माच्च चत्वारः सर्वास्त्राणि च केशव ।\nअनपेतानि वै शूराद्यथैवादौ प्रजापतेः ॥"
+          "text": "वेदा यस्माच्च चत्वारः सर्वास्त्राणि च केशव ।\nअनपेतानि वै शूराद्यथैवादौ प्रजापतेः ॥",
+          "meaning": {
+            "en": "Keshava, the four Vedas and all weapons never left that hero, as at the beginning they never left Prajapati."
+          }
         },
         {
           "n": 33,
-          "text": "वन्दनार्हाविमौ तस्य बन्दिभिर्वन्दितौ शुभौ ।\nगोमायवो विकर्षन्ति पादौ शिष्यशतार्चितौ ॥"
+          "text": "वन्दनार्हाविमौ तस्य बन्दिभिर्वन्दितौ शुभौ ।\nगोमायवो विकर्षन्ति पादौ शिष्यशतार्चितौ ॥",
+          "meaning": {
+            "en": "These two auspicious feet, worthy of worship, once praised by bards and honored by hundreds of pupils, jackals now drag."
+          }
         },
         {
           "n": 34,
-          "text": "द्रोणं द्रुपदपुत्रेण निहतं मधुसूदन ।\nकृपी कृपणमन्वास्ते दुःखोपहतचेतना ॥"
+          "text": "द्रोणं द्रुपदपुत्रेण निहतं मधुसूदन ।\nकृपी कृपणमन्वास्ते दुःखोपहतचेतना ॥",
+          "meaning": {
+            "en": "Madhusudana, Kripi, her mind overwhelmed by grief, sits piteously by Drona, slain by the son of Drupada."
+          }
         },
         {
           "n": 35,
-          "text": "तां पश्य रुदतीमार्तां मुक्तकेशीमधोमुखीम् ।\nहतं पतिमुपासन्तीं द्रोणं शस्त्रभृतां वरम् ॥"
+          "text": "तां पश्य रुदतीमार्तां मुक्तकेशीमधोमुखीम् ।\nहतं पतिमुपासन्तीं द्रोणं शस्त्रभृतां वरम् ॥",
+          "meaning": {
+            "en": "Look at her weeping in distress, hair loose, face downcast, attending her slain husband Drona, best of weapon-bearers."
+          }
         },
         {
           "n": 36,
-          "text": "बाणैर्भिन्नतनुत्राणं धृष्टद्युम्नेन केशव ।\nउपास्ते वै मृधे द्रोणं जटिला ब्रह्मचारिणी ॥"
+          "text": "बाणैर्भिन्नतनुत्राणं धृष्टद्युम्नेन केशव ।\nउपास्ते वै मृधे द्रोणं जटिला ब्रह्मचारिणी ॥",
+          "meaning": {
+            "en": "Keshava, in the battlefield, the matted-haired woman who lives as a celibate waits on Drona, whose armor was pierced by Dhrishtadyumna's arrows."
+          }
         },
         {
           "n": 37,
-          "text": "प्रेतकृत्ये च यतते कृपी कृपणमातुरा ।\nहतस्य समरे भर्तुः सुकुमारी यशस्विनी ॥"
+          "text": "प्रेतकृत्ये च यतते कृपी कृपणमातुरा ।\nहतस्य समरे भर्तुः सुकुमारी यशस्विनी ॥",
+          "meaning": {
+            "en": "The delicate and renowned Kripi, piteous and distressed, strives to perform the funeral rites for her husband slain in battle."
+          }
         },
         {
           "n": 38,
-          "text": "अग्नीनाहृत्य विधिवच्चितां प्रज्वाल्य सर्वशः ।\nद्रोणमाधाय गायन्ति त्रीणि सामानि सामगाः ॥"
+          "text": "अग्नीनाहृत्य विधिवच्चितां प्रज्वाल्य सर्वशः ।\nद्रोणमाधाय गायन्ति त्रीणि सामानि सामगाः ॥",
+          "meaning": {
+            "en": "Bringing the fires, kindling the pyre completely according to rule, and laying Drona on it, the Sama singers chant three Samans."
+          }
         },
         {
           "n": 39,
-          "text": "किरन्ति च चितामेते जटिला ब्रह्मचारिणः ।\nधनुर्भिः शक्तिभिश्चैव रथनीडैश्च माधव ॥"
+          "text": "किरन्ति च चितामेते जटिला ब्रह्मचारिणः ।\nधनुर्भिः शक्तिभिश्चैव रथनीडैश्च माधव ॥",
+          "meaning": {
+            "en": "These matted-haired celibates scatter on the pyre, Madhava, bows, spears and chariot-seats,"
+          }
         },
         {
           "n": 40,
-          "text": "शस्त्रैश्च विविधैरन्यैर्धक्ष्यन्ते भूरितेजसम् ।\nत एते द्रोणमाधाय शंसन्ति च रुदन्ति च ॥"
+          "text": "शस्त्रैश्च विविधैरन्यैर्धक्ष्यन्ते भूरितेजसम् ।\nत एते द्रोणमाधाय शंसन्ति च रुदन्ति च ॥",
+          "meaning": {
+            "en": "and various other weapons, and will burn the man of great splendor. Placing Drona, they praise him and weep."
+          }
         },
         {
           "n": 41,
-          "text": "सामभिस्त्रिभिरन्तःस्थैरनुशंसन्ति चापरे ।\nअग्नावग्निमिवाधाय द्रोणं हुत्वा हुताशने ॥"
+          "text": "सामभिस्त्रिभिरन्तःस्थैरनुशंसन्ति चापरे ।\nअग्नावग्निमिवाधाय द्रोणं हुत्वा हुताशने ॥",
+          "meaning": {
+            "en": "Others recite along with the three Samans in a low voice, having placed Drona in the fire as if fire in fire and offered him in the sacrificial fire."
+          }
         },
         {
           "n": 42,
-          "text": "गच्छन्त्यभिमुखा गङ्गां द्रोणशिष्या द्विजातयः ।\nअपसव्यां चितिं कृत्वा पुरस्कृत्य कृपीं तदा ॥"
+          "text": "गच्छन्त्यभिमुखा गङ्गां द्रोणशिष्या द्विजातयः ।\nअपसव्यां चितिं कृत्वा पुरस्कृत्य कृपीं तदा ॥",
+          "meaning": {
+            "en": "The twice-born pupils of Drona go toward the Ganga, having made the pyre circumambulated with the left side toward it, with Kripi before them."
+          }
         }
       ]
     }

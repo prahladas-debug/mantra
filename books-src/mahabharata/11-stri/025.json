@@ -22,200 +22,350 @@
       "titleEn": "Strivilapa Parva (Lament of the women)",
       "verses": [
         {
-          "text": "गान्धार्युवाच"
+          "text": "गान्धार्युवाच",
+          "meaning": {
+            "en": "Gandhari said:"
+          }
         },
         {
           "n": 1,
-          "text": "काम्बोजं पश्य दुर्धर्षं काम्बोजास्तरणोचितम् ।\nशयानमृषभस्कन्धं हतं पांसुशु माधव ॥"
+          "text": "काम्बोजं पश्य दुर्धर्षं काम्बोजास्तरणोचितम् ।\nशयानमृषभस्कन्धं हतं पांसुशु माधव ॥",
+          "meaning": {
+            "en": "Madhava, look at the invincible Kamboja, bull-shouldered, used to Kamboja blankets, lying slain in the dust."
+          }
         },
         {
           "n": 2,
-          "text": "यस्य क्षतजसंदिग्धौ बाहू चन्दनरूषितौ ।\nअवेक्ष्य कृपणं भार्या विलपत्यतिदुःखिता ॥"
+          "text": "यस्य क्षतजसंदिग्धौ बाहू चन्दनरूषितौ ।\nअवेक्ष्य कृपणं भार्या विलपत्यतिदुःखिता ॥",
+          "meaning": {
+            "en": "His wife, seeing his arms smeared with blood and sandal paste, laments piteously in great grief."
+          }
         },
         {
           "n": 3,
-          "text": "इमौ तौ परिघप्रख्यौ बाहू शुभतलाङ्गुली ।\nययोर्विवरमापन्नां न रतिर्मां पुराजहत् ॥"
+          "text": "इमौ तौ परिघप्रख्यौ बाहू शुभतलाङ्गुली ।\nययोर्विवरमापन्नां न रतिर्मां पुराजहत् ॥",
+          "meaning": {
+            "en": "\"These are those arms, like iron bars, with fine palms and fingers, between which, once enfolded, passion never left me."
+          }
         },
         {
           "n": 4,
-          "text": "कां गतिं नु गमिष्यामि त्वया हीना जनेश्वर ।\nदूरबन्धुरनाथेव अतीव मधुरस्वरा ॥"
+          "text": "कां गतिं नु गमिष्यामि त्वया हीना जनेश्वर ।\nदूरबन्धुरनाथेव अतीव मधुरस्वरा ॥",
+          "meaning": {
+            "en": "\"Where shall I go without you, lord of men, like one with distant kin and no protector?\" she says in a very sweet voice."
+          }
         },
         {
           "n": 5,
-          "text": "आतपे क्लाम्यमानानां विविधानामिव स्रजाम् ।\nक्लान्तानामपि नारीणां न श्रीर्जहति वै तनुम् ॥"
+          "text": "आतपे क्लाम्यमानानां विविधानामिव स्रजाम् ।\nक्लान्तानामपि नारीणां न श्रीर्जहति वै तनुम् ॥",
+          "meaning": {
+            "en": "Like various garlands wilting in the heat, even wearied women do not lose their beauty from the body."
+          }
         },
         {
           "n": 6,
-          "text": "शयानमभितः शूरं कालिङ्गं मधुसूदन ।\nपश्य दीप्ताङ्गदयुगप्रतिबद्धमहाभुजम् ॥"
+          "text": "शयानमभितः शूरं कालिङ्गं मधुसूदन ।\nपश्य दीप्ताङ्गदयुगप्रतिबद्धमहाभुजम् ॥",
+          "meaning": {
+            "en": "Madhusudana, look at the brave Kalinga lying around, his mighty arms bound with a pair of shining armlets."
+          }
         },
         {
           "n": 7,
-          "text": "मागधानामधिपतिं जयत्सेनं जनार्दन ।\nपरिवार्य प्ररुदिता मागध्यः पश्य योषितः ॥"
+          "text": "मागधानामधिपतिं जयत्सेनं जनार्दन ।\nपरिवार्य प्ररुदिता मागध्यः पश्य योषितः ॥",
+          "meaning": {
+            "en": "Janardana, look at the Magadha women weeping around Jayatsena, lord of the Magadhas."
+          }
         },
         {
           "n": 8,
-          "text": "आसामायतनेत्राणां सुस्वराणां जनार्दन ।\nमनःश्रुतिहरो नादो मनो मोहयतीव मे ॥"
+          "text": "आसामायतनेत्राणां सुस्वराणां जनार्दन ।\nमनःश्रुतिहरो नादो मनो मोहयतीव मे ॥",
+          "meaning": {
+            "en": "Janardana, the sound of these long-eyed, sweet-voiced women, which robs mind and hearing, seems to bewilder my mind."
+          }
         },
         {
           "n": 9,
-          "text": "प्रकीर्णसर्वाभरणा रुदन्त्यः शोककर्शिताः ।\nस्वास्तीर्णशयनोपेता मागध्यः शेरते भुवि ॥"
+          "text": "प्रकीर्णसर्वाभरणा रुदन्त्यः शोककर्शिताः ।\nस्वास्तीर्णशयनोपेता मागध्यः शेरते भुवि ॥",
+          "meaning": {
+            "en": "With all their ornaments scattered, weeping and wasted by grief, the Magadha women lie on the ground, though they have well-spread beds."
+          }
         },
         {
           "n": 10,
-          "text": "कोसलानामधिपतिं राजपुत्रं बृहद्बलम् ।\nभर्तारं परिवार्यैताः पृथक्प्ररुदिताः स्त्रियः ॥"
+          "text": "कोसलानामधिपतिं राजपुत्रं बृहद्बलम् ।\nभर्तारं परिवार्यैताः पृथक्प्ररुदिताः स्त्रियः ॥",
+          "meaning": {
+            "en": "Around Brihadbala, the prince of the Kosalas, their husband, these women weep, each separately."
+          }
         },
         {
           "n": 11,
-          "text": "अस्य गात्रगतान्बाणान्कार्ष्णिबाहुबलार्पितान् ।\nउद्धरन्त्यसुखाविष्टा मूर्छमानाः पुनः पुनः ॥"
+          "text": "अस्य गात्रगतान्बाणान्कार्ष्णिबाहुबलार्पितान् ।\nउद्धरन्त्यसुखाविष्टा मूर्छमानाः पुनः पुनः ॥",
+          "meaning": {
+            "en": "Pained, fainting again and again, they pull out the arrows lodged in his body, shot by the strength of Karshni Abhimanyu's arms."
+          }
         },
         {
           "n": 12,
-          "text": "आसां सर्वानवद्यानामातपेन परिश्रमात् ।\nप्रम्लाननलिनाभानि भान्ति वक्त्राणि माधव ॥"
+          "text": "आसां सर्वानवद्यानामातपेन परिश्रमात् ।\nप्रम्लाननलिनाभानि भान्ति वक्त्राणि माधव ॥",
+          "meaning": {
+            "en": "Madhava, the faces of all these blameless women, exhausted by the sun, look like faded lotuses."
+          }
         },
         {
           "n": 13,
-          "text": "द्रोणेन निहताः शूराः शेरते रुचिराङ्गदाः ।\nद्रोणेनाभिमुखाः सर्वे भ्रातरः पञ्च केकयाः ॥"
+          "text": "द्रोणेन निहताः शूराः शेरते रुचिराङ्गदाः ।\nद्रोणेनाभिमुखाः सर्वे भ्रातरः पञ्च केकयाः ॥",
+          "meaning": {
+            "en": "The heroes killed by Drona lie with lovely armlets; all five Kekaya brothers lie slain facing Drona."
+          }
         },
         {
           "n": 14,
-          "text": "तप्तकाञ्चनवर्माणस्ताम्रध्वजरथस्रजः ।\nभासयन्ति महीं भासा ज्वलिता इव पावकाः ॥"
+          "text": "तप्तकाञ्चनवर्माणस्ताम्रध्वजरथस्रजः ।\nभासयन्ति महीं भासा ज्वलिता इव पावकाः ॥",
+          "meaning": {
+            "en": "Their armor of molten gold, their copper-colored banners, chariots and garlands light up the earth with their brilliance like blazing fires."
+          }
         },
         {
           "n": 15,
-          "text": "द्रोणेन द्रुपदं संख्ये पश्य माधव पातितम् ।\nमहाद्विपमिवारण्ये सिंहेन महता हतम् ॥"
+          "text": "द्रोणेन द्रुपदं संख्ये पश्य माधव पातितम् ।\nमहाद्विपमिवारण्ये सिंहेन महता हतम् ॥",
+          "meaning": {
+            "en": "Madhava, look at Drupada, felled in battle by Drona, like a great elephant in the forest killed by a mighty lion."
+          }
         },
         {
           "n": 16,
-          "text": "पाञ्चालराज्ञो विपुलं पुण्डरीकाक्ष पाण्डुरम् ।\nआतपत्रं समाभाति शरदीव दिवाकरः ॥"
+          "text": "पाञ्चालराज्ञो विपुलं पुण्डरीकाक्ष पाण्डुरम् ।\nआतपत्रं समाभाति शरदीव दिवाकरः ॥",
+          "meaning": {
+            "en": "Lotus-eyed one, the broad white umbrella of the Panchala king shines like the autumn sun."
+          }
         },
         {
           "n": 17,
-          "text": "एतास्तु द्रुपदं वृद्धं स्नुषा भार्याश्च दुःखिताः ।\nदग्ध्वा गच्छन्ति पाञ्चाल्यं राजानमपसव्यतः ॥"
+          "text": "एतास्तु द्रुपदं वृद्धं स्नुषा भार्याश्च दुःखिताः ।\nदग्ध्वा गच्छन्ति पाञ्चाल्यं राजानमपसव्यतः ॥",
+          "meaning": {
+            "en": "These distressed daughters-in-law and wives, having cremated old Drupada, king of the Panchalas, go off with their left sides toward the pyre."
+          }
         },
         {
           "n": 18,
-          "text": "धृष्टकेतुं महेष्वासं चेदिपुंगवमङ्गनाः ।\nद्रोणेन निहतं शूरं हरन्ति हृतचेतसः ॥"
+          "text": "धृष्टकेतुं महेष्वासं चेदिपुंगवमङ्गनाः ।\nद्रोणेन निहतं शूरं हरन्ति हृतचेतसः ॥",
+          "meaning": {
+            "en": "The women, their minds bereft, carry off the brave Dhrishtaketu, great archer, bull among the Chedis, killed by Drona."
+          }
         },
         {
           "n": 19,
-          "text": "द्रोणास्त्रमभिहत्यैष विमर्दे मधुसूदन ।\nमहेष्वासो हतः शेते नद्या हृत इव द्रुमः ॥"
+          "text": "द्रोणास्त्रमभिहत्यैष विमर्दे मधुसूदन ।\nमहेष्वासो हतः शेते नद्या हृत इव द्रुमः ॥",
+          "meaning": {
+            "en": "Madhusudana, this great archer, struck by Drona's weapon in the melee, lies slain like a tree swept away by a river."
+          }
         },
         {
           "n": 20,
-          "text": "एष चेदिपतिः शूरो धृष्टकेतुर्महारथः ।\nशेते विनिहतः संख्ये हत्वा शत्रून्सहस्रशः ॥"
+          "text": "एष चेदिपतिः शूरो धृष्टकेतुर्महारथः ।\nशेते विनिहतः संख्ये हत्वा शत्रून्सहस्रशः ॥",
+          "meaning": {
+            "en": "Here lies the Chedi lord, the brave Dhrishtaketu, a great charioteer, slain in battle after killing thousands of enemies."
+          }
         },
         {
           "n": 21,
-          "text": "वितुद्यमानं विहगैस्तं भार्याः प्रत्युपस्थिताः ।\nचेदिराजं हृषीकेश हतं सबलबान्धवम् ॥"
+          "text": "वितुद्यमानं विहगैस्तं भार्याः प्रत्युपस्थिताः ।\nचेदिराजं हृषीकेश हतं सबलबान्धवम् ॥",
+          "meaning": {
+            "en": "Torn by birds, he is attended by his wives, Hrishikesha, the king of the Chedis, slain with his troops and kinsmen."
+          }
         },
         {
           "n": 22,
-          "text": "दाशार्हीपुत्रजं वीरं शयानं सत्यविक्रमम् ।\nआरोप्याङ्के रुदन्त्येताश्चेदिराजवराङ्गनाः ॥"
+          "text": "दाशार्हीपुत्रजं वीरं शयानं सत्यविक्रमम् ।\nआरोप्याङ्के रुदन्त्येताश्चेदिराजवराङ्गनाः ॥",
+          "meaning": {
+            "en": "The best of the Chedi king's women weep, holding on their laps the truly valiant hero, descended from the son of the Dasharha princess."
+          }
         },
         {
           "n": 23,
-          "text": "अस्य पुत्रं हृषीकेश सुवक्त्रं चारुकुण्डलम् ।\nद्रोणेन समरे पश्य निकृत्तं बहुधा शरैः ॥"
+          "text": "अस्य पुत्रं हृषीकेश सुवक्त्रं चारुकुण्डलम् ।\nद्रोणेन समरे पश्य निकृत्तं बहुधा शरैः ॥",
+          "meaning": {
+            "en": "Hrishikesha, look at his son, with beautiful face and earrings, cut by Drona's arrows in many pieces in battle."
+          }
         },
         {
           "n": 24,
-          "text": "पितरं नूनमाजिस्थं युध्यमानं परैः सह ।\nनाजहात्पृष्ठतो वीरमद्यापि मधुसूदन ॥"
+          "text": "पितरं नूनमाजिस्थं युध्यमानं परैः सह ।\nनाजहात्पृष्ठतो वीरमद्यापि मधुसूदन ॥",
+          "meaning": {
+            "en": "Surely, Madhusudana, even today the hero does not leave his father, who was fighting with enemies in the battlefield, but stays behind him."
+          }
         },
         {
           "n": 25,
-          "text": "एवं ममापि पुत्रस्य पुत्रः पितरमन्वगात् ।\nदुर्योधनं महाबाहो लक्ष्मणः परवीरहा ॥"
+          "text": "एवं ममापि पुत्रस्य पुत्रः पितरमन्वगात् ।\nदुर्योधनं महाबाहो लक्ष्मणः परवीरहा ॥",
+          "meaning": {
+            "en": "So too the son of my son, Lakshmana, killer of enemy heroes, followed his father Duryodhana, mighty-armed one."
+          }
         },
         {
           "n": 26,
-          "text": "विन्दानुविन्दावावन्त्यौ पतितौ पश्य माधव ।\nहिमान्ते पुष्पितौ शालौ मरुता गलिताविव ॥"
+          "text": "विन्दानुविन्दावावन्त्यौ पतितौ पश्य माधव ।\nहिमान्ते पुष्पितौ शालौ मरुता गलिताविव ॥",
+          "meaning": {
+            "en": "Madhava, look at the two Avantyas, Vinda and Anuvinda, fallen like two flowering sala trees at the end of winter brought down by the wind."
+          }
         },
         {
           "n": 27,
-          "text": "काञ्चनाङ्गदवर्माणौ बाणखड्गधनुर्धरौ ।\nऋषभप्रतिरूपाक्षौ शयानौ विमलस्रजौ ॥"
+          "text": "काञ्चनाङ्गदवर्माणौ बाणखड्गधनुर्धरौ ।\nऋषभप्रतिरूपाक्षौ शयानौ विमलस्रजौ ॥",
+          "meaning": {
+            "en": "Wearing golden armlets and armor, bearing arrows, swords and bows, with eyes like bulls', they lie with spotless garlands."
+          }
         },
         {
           "n": 28,
-          "text": "अवध्याः पाण्डवाः कृष्ण सर्व एव त्वया सह ।\nये मुक्ता द्रोणभीष्माभ्यां कर्णाद्वैकर्तनात्कृपात् ॥"
+          "text": "अवध्याः पाण्डवाः कृष्ण सर्व एव त्वया सह ।\nये मुक्ता द्रोणभीष्माभ्यां कर्णाद्वैकर्तनात्कृपात् ॥",
+          "meaning": {
+            "en": "Krishna, all the Pandavas, together with you, seem invincible, who were spared by Drona, Bhishma, Karna son of Vikartana, Kripa,"
+          }
         },
         {
           "n": 29,
-          "text": "दुर्योधनाद्द्रोणसुतात्सैन्धवाच्च महारथात् ।\nसोमदत्ताद्विकर्णाच्च शूराच्च कृतवर्मणः ।\nये हन्युः शस्त्रवेगेन देवानपि नरर्षभाः ॥"
+          "text": "दुर्योधनाद्द्रोणसुतात्सैन्धवाच्च महारथात् ।\nसोमदत्ताद्विकर्णाच्च शूराच्च कृतवर्मणः ।\nये हन्युः शस्त्रवेगेन देवानपि नरर्षभाः ॥",
+          "meaning": {
+            "en": "Duryodhana, Drona's son, the great charioteer of Sindhu, Somadatta, Vikarna and the brave Kritavarman, bulls among men who could slay even the gods with the force of their weapons."
+          }
         },
         {
           "n": 30,
-          "text": "त इमे निहताः संख्ये पश्य कालस्य पर्ययम् ।\nनातिभारोऽस्ति दैवस्य ध्रुवं माधव कश्चन ।\nयदिमे निहताः शूराः क्षत्रियैः क्षत्रियर्षभाः ॥"
+          "text": "त इमे निहताः संख्ये पश्य कालस्य पर्ययम् ।\nनातिभारोऽस्ति दैवस्य ध्रुवं माधव कश्चन ।\nयदिमे निहताः शूराः क्षत्रियैः क्षत्रियर्षभाः ॥",
+          "meaning": {
+            "en": "These have been slain in battle. See the turning of Time. Nothing is a great burden to Destiny, surely, Madhava, since these heroes, bulls among kshatriyas, were killed by kshatriyas."
+          }
         },
         {
           "n": 31,
-          "text": "तदैव निहताः कृष्ण मम पुत्रास्तरस्विनः ।\nयदैवाकृतकामस्त्वमुपप्लव्यं गतः पुनः ॥"
+          "text": "तदैव निहताः कृष्ण मम पुत्रास्तरस्विनः ।\nयदैवाकृतकामस्त्वमुपप्लव्यं गतः पुनः ॥",
+          "meaning": {
+            "en": "Krishna, my vigorous sons were killed at the very time you went back to Upaplavya, your aim unfulfilled."
+          }
         },
         {
           "n": 32,
-          "text": "शंतनोश्चैव पुत्रेण प्राज्ञेन विदुरेण च ।\nतदैवोक्तास्मि मा स्नेहं कुरुष्वात्मसुतेष्विति ॥"
+          "text": "शंतनोश्चैव पुत्रेण प्राज्ञेन विदुरेण च ।\nतदैवोक्तास्मि मा स्नेहं कुरुष्वात्मसुतेष्विति ॥",
+          "meaning": {
+            "en": "Then Shantanu's son Bhishma and wise Vidura told me: \"Do not show attachment to your own sons.\""
+          }
         },
         {
           "n": 33,
-          "text": "तयोर्न दर्शनं तात मिथ्या भवितुमर्हति ।\nअचिरेणैव मे पुत्रा भस्मीभूता जनार्दन ॥"
+          "text": "तयोर्न दर्शनं तात मिथ्या भवितुमर्हति ।\nअचिरेणैव मे पुत्रा भस्मीभूता जनार्दन ॥",
+          "meaning": {
+            "en": "Dear one, the vision of those two cannot be false. Janardana, my sons have been turned to ashes before long."
+          }
         },
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 34,
-          "text": "इत्युक्त्वा न्यपतद्भूमौ गान्धारी शोककर्शिता ।\nदुःखोपहतविज्ञाना धैर्यमुत्सृज्य भारत ॥"
+          "text": "इत्युक्त्वा न्यपतद्भूमौ गान्धारी शोककर्शिता ।\nदुःखोपहतविज्ञाना धैर्यमुत्सृज्य भारत ॥",
+          "meaning": {
+            "en": "Having said this, Gandhari, wasted with grief, fell to the ground, her understanding overcome by sorrow, descendant of Bharata, giving up her fortitude."
+          }
         },
         {
           "n": 35,
-          "text": "ततः कोपपरीताङ्गी पुत्रशोकपरिप्लुता ।\nजगाम शौरिं दोषेण गान्धारी व्यथितेन्द्रिया ॥"
+          "text": "ततः कोपपरीताङ्गी पुत्रशोकपरिप्लुता ।\nजगाम शौरिं दोषेण गान्धारी व्यथितेन्द्रिया ॥",
+          "meaning": {
+            "en": "Then, her body seized by anger and flooded with grief for her sons, Gandhari, her senses pained, went to Shauri with an accusation."
+          }
         },
         {
-          "text": "गान्धार्युवाच"
+          "text": "गान्धार्युवाच",
+          "meaning": {
+            "en": "Gandhari said:"
+          }
         },
         {
           "n": 36,
-          "text": "पाण्डवा धार्तराष्ट्राश्च द्रुग्धाः कृष्ण परस्परम् ।\nउपेक्षिता विनश्यन्तस्त्वया कस्माज्जनार्दन ॥"
+          "text": "पाण्डवा धार्तराष्ट्राश्च द्रुग्धाः कृष्ण परस्परम् ।\nउपेक्षिता विनश्यन्तस्त्वया कस्माज्जनार्दन ॥",
+          "meaning": {
+            "en": "Krishna, the Pandavas and Dhritarashtra's sons were hostile to each other. Why, Janardana, did you ignore them as they perished?"
+          }
         },
         {
           "n": 37,
-          "text": "शक्तेन बहुभृत्येन विपुले तिष्ठता बले ।\nउभयत्र समर्थेन श्रुतवाक्येन चैव ह ॥"
+          "text": "शक्तेन बहुभृत्येन विपुले तिष्ठता बले ।\nउभयत्र समर्थेन श्रुतवाक्येन चैव ह ॥",
+          "meaning": {
+            "en": "You were capable, with many followers, standing on vast strength, able to act on both sides, and learned in speech."
+          }
         },
         {
           "n": 38,
-          "text": "इच्छतोपेक्षितो नाशः कुरूणां मधुसूदन ।\nयस्मात्त्वया महाबाहो फलं तस्मादवाप्नुहि ॥"
+          "text": "इच्छतोपेक्षितो नाशः कुरूणां मधुसूदन ।\nयस्मात्त्वया महाबाहो फलं तस्मादवाप्नुहि ॥",
+          "meaning": {
+            "en": "Since, Madhusudana, you deliberately ignored the destruction of the Kurus, mighty-armed one, you shall receive its fruit."
+          }
         },
         {
           "n": 39,
-          "text": "पतिशुश्रूषया यन्मे तपः किंचिदुपार्जितम् ।\nतेन त्वां दुरवापात्मञ्शप्स्ये चक्रगदाधर ॥"
+          "text": "पतिशुश्रूषया यन्मे तपः किंचिदुपार्जितम् ।\nतेन त्वां दुरवापात्मञ्शप्स्ये चक्रगदाधर ॥",
+          "meaning": {
+            "en": "By whatever small austerity I have earned through serving my husband, by that I will curse you, bearer of discus and mace, hard to reach."
+          }
         },
         {
           "n": 40,
-          "text": "यस्मात्परस्परं घ्नन्तो ज्ञातयः कुरुपाण्डवाः ।\nउपेक्षितास्ते गोविन्द तस्माज्ज्ञातीन्वधिष्यसि ॥"
+          "text": "यस्मात्परस्परं घ्नन्तो ज्ञातयः कुरुपाण्डवाः ।\nउपेक्षितास्ते गोविन्द तस्माज्ज्ञातीन्वधिष्यसि ॥",
+          "meaning": {
+            "en": "Govinda, since you ignored the Kuru and Pandava kinsmen as they killed each other, you will kill your own kinsmen."
+          }
         },
         {
           "n": 41,
-          "text": "त्वमप्युपस्थिते वर्षे षट्त्रिंशे मधुसूदन ।\nहतज्ञातिर्हतामात्यो हतपुत्रो वनेचरः ।\nकुत्सितेनाभ्युपायेन निधनं समवाप्स्यसि ॥"
+          "text": "त्वमप्युपस्थिते वर्षे षट्त्रिंशे मधुसूदन ।\nहतज्ञातिर्हतामात्यो हतपुत्रो वनेचरः ।\nकुत्सितेनाभ्युपायेन निधनं समवाप्स्यसि ॥",
+          "meaning": {
+            "en": "Madhusudana, in the thirty-sixth year from now, with your kinsmen, ministers and sons slain, wandering in the forest, you will meet your death by a contemptible means."
+          }
         },
         {
           "n": 42,
-          "text": "तवाप्येवं हतसुता निहतज्ञातिबान्धवाः ।\nस्त्रियः परिपतिष्यन्ति यथैता भरतस्त्रियः ॥"
+          "text": "तवाप्येवं हतसुता निहतज्ञातिबान्धवाः ।\nस्त्रियः परिपतिष्यन्ति यथैता भरतस्त्रियः ॥",
+          "meaning": {
+            "en": "Your women too, their sons slain and kin and relatives destroyed, will fall about as these Bharata women have."
+          }
         },
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 43,
-          "text": "तच्छ्रुत्वा वचनं घोरं वासुदेवो महामनाः ।\nउवाच देवीं गान्धारीमीषदभ्युत्स्मयन्निव ॥"
+          "text": "तच्छ्रुत्वा वचनं घोरं वासुदेवो महामनाः ।\nउवाच देवीं गान्धारीमीषदभ्युत्स्मयन्निव ॥",
+          "meaning": {
+            "en": "Hearing those terrible words, the great-minded Vasudeva spoke to the goddess Gandhari with a slight smile, as it were."
+          }
         },
         {
           "n": 44,
-          "text": "संहर्ता वृष्णिचक्रस्य नान्यो मद्विद्यते शुभे ।\nजानेऽहमेतदप्येवं चीर्णं चरसि क्षत्रिये ॥"
+          "text": "संहर्ता वृष्णिचक्रस्य नान्यो मद्विद्यते शुभे ।\nजानेऽहमेतदप्येवं चीर्णं चरसि क्षत्रिये ॥",
+          "meaning": {
+            "en": "No one but I will be the destroyer of the Vrishni circle, auspicious lady. I know this, and you are only practicing what is already accomplished, kshatriya woman."
+          }
         },
         {
           "n": 45,
-          "text": "अवध्यास्ते नरैरन्यैरपि वा देवदानवैः ।\nपरस्परकृतं नाशमतः प्राप्स्यन्ति यादवाः ॥"
+          "text": "अवध्यास्ते नरैरन्यैरपि वा देवदानवैः ।\nपरस्परकृतं नाशमतः प्राप्स्यन्ति यादवाः ॥",
+          "meaning": {
+            "en": "They cannot be killed by other men, or by gods or demons, so the Yadavas will meet destruction brought about by one another."
+          }
         },
         {
           "n": 46,
-          "text": "इत्युक्तवति दाशार्हे पाण्डवास्त्रस्तचेतसः ।\nबभूवुर्भृशसंविग्ना निराशाश्चापि जीविते ॥"
+          "text": "इत्युक्तवति दाशार्हे पाण्डवास्त्रस्तचेतसः ।\nबभूवुर्भृशसंविग्ना निराशाश्चापि जीविते ॥",
+          "meaning": {
+            "en": "When the descendant of Dasharha had spoken, the Pandavas were terrified, deeply distressed, and despaired of life."
+          }
         }
       ]
     }

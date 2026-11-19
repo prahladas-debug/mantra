@@ -22,145 +22,253 @@
       "titleEn": "Sarasvata Parva (Balarama's pilgrimage on the Sarasvati)",
       "verses": [
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 1,
-          "text": "उषित्वा तत्र रामस्तु संपूज्याश्रमवासिनः ।\nतथा मङ्कणके प्रीतिं शुभां चक्रे हलायुधः ॥"
+          "text": "उषित्वा तत्र रामस्तु संपूज्याश्रमवासिनः ।\nतथा मङ्कणके प्रीतिं शुभां चक्रे हलायुधः ॥",
+          "meaning": {
+            "en": "After staying there and honoring the dwellers of the hermitage, Halayudha Rama also showed kindly affection to Mankanaka."
+          }
         },
         {
           "n": 2,
-          "text": "दत्त्वा दानं द्विजातिभ्यो रजनीं तामुपोष्य च ।\nपूजितो मुनिसंघैश्च प्रातरुत्थाय लाङ्गली ॥"
+          "text": "दत्त्वा दानं द्विजातिभ्यो रजनीं तामुपोष्य च ।\nपूजितो मुनिसंघैश्च प्रातरुत्थाय लाङ्गली ॥",
+          "meaning": {
+            "en": "He gave gifts to the Brahmins, spent that night fasting, was honored by the groups of sages, and rose at dawn, the plough-bearer."
+          }
         },
         {
           "n": 3,
-          "text": "अनुज्ञाप्य मुनीन्सर्वान्स्पृष्ट्वा तोयं च भारत ।\nप्रययौ त्वरितो रामस्तीर्थहेतोर्महाबलः ॥"
+          "text": "अनुज्ञाप्य मुनीन्सर्वान्स्पृष्ट्वा तोयं च भारत ।\nप्रययौ त्वरितो रामस्तीर्थहेतोर्महाबलः ॥",
+          "meaning": {
+            "en": "Having taken leave of all the sages and touched the water, Bharata, the mighty Rama set out in haste for the sake of tirthas."
+          }
         },
         {
           "n": 4,
-          "text": "तत औशनसं तीर्थमाजगाम हलायुधः ।\nकपालमोचनं नाम यत्र मुक्तो महामुनिः ॥"
+          "text": "तत औशनसं तीर्थमाजगाम हलायुधः ।\nकपालमोचनं नाम यत्र मुक्तो महामुनिः ॥",
+          "meaning": {
+            "en": "Then Halayudha came to the tirtha of Ushanas, called Kapalamochana, where a great sage was freed."
+          }
         },
         {
           "n": 5,
-          "text": "महता शिरसा राजन्ग्रस्तजङ्घो महोदरः ।\nराक्षसस्य महाराज रामक्षिप्तस्य वै पुरा ॥"
+          "text": "महता शिरसा राजन्ग्रस्तजङ्घो महोदरः ।\nराक्षसस्य महाराज रामक्षिप्तस्य वै पुरा ॥",
+          "meaning": {
+            "en": "King, the head of a rakshasa, cast down long ago by Rama, had seized the leg of Mahodara."
+          }
         },
         {
           "n": 6,
-          "text": "तत्र पूर्वं तपस्तप्तं काव्येन सुमहात्मना ।\nयत्रास्य नीतिरखिला प्रादुर्भूता महात्मनः ।\nतत्रस्थश्चिन्तयामास दैत्यदानवविग्रहम् ॥"
+          "text": "तत्र पूर्वं तपस्तप्तं काव्येन सुमहात्मना ।\nयत्रास्य नीतिरखिला प्रादुर्भूता महात्मनः ।\nतत्रस्थश्चिन्तयामास दैत्यदानवविग्रहम् ॥",
+          "meaning": {
+            "en": "There long ago the great-souled Kavya, Shukra, practiced austerity, and there all his political wisdom appeared; staying there he reflected on the war of the Daityas and Danavas."
+          }
         },
         {
           "n": 7,
-          "text": "तत्प्राप्य च बलो राजंस्तीर्थप्रवरमुत्तमम् ।\nविधिवद्धि ददौ वित्तं ब्राह्मणानां महात्मनाम् ॥"
+          "text": "तत्प्राप्य च बलो राजंस्तीर्थप्रवरमुत्तमम् ।\nविधिवद्धि ददौ वित्तं ब्राह्मणानां महात्मनाम् ॥",
+          "meaning": {
+            "en": "Reaching that best and finest tirtha, king, Balarama duly gave wealth to the great-souled Brahmins."
+          }
         },
         {
-          "text": "जनमेजय उवाच"
+          "text": "जनमेजय उवाच",
+          "meaning": {
+            "en": "Janamejaya said:"
+          }
         },
         {
           "n": 8,
-          "text": "कपालमोचनं ब्रह्मन्कथं यत्र महामुनिः ।\nमुक्तः कथं चास्य शिरो लग्नं केन च हेतुना ॥"
+          "text": "कपालमोचनं ब्रह्मन्कथं यत्र महामुनिः ।\nमुक्तः कथं चास्य शिरो लग्नं केन च हेतुना ॥",
+          "meaning": {
+            "en": "Brahmin, how was the great sage freed at Kapalamochana, how did the head cling to him, and for what reason?"
+          }
         },
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 9,
-          "text": "पुरा वै दण्डकारण्ये राघवेण महात्मना ।\nवसता राजशार्दूल राक्षसास्तत्र हिंसिताः ॥"
+          "text": "पुरा वै दण्डकारण्ये राघवेण महात्मना ।\nवसता राजशार्दूल राक्षसास्तत्र हिंसिताः ॥",
+          "meaning": {
+            "en": "Long ago, tiger among kings, when the great-souled Raghava, Rama, was living in the Dandaka forest, rakshasas there were slain."
+          }
         },
         {
           "n": 10,
-          "text": "जनस्थाने शिरश्छिन्नं राक्षसस्य दुरात्मनः ।\nक्षुरेण शितधारेण तत्पपात महावने ॥"
+          "text": "जनस्थाने शिरश्छिन्नं राक्षसस्य दुरात्मनः ।\nक्षुरेण शितधारेण तत्पपात महावने ॥",
+          "meaning": {
+            "en": "In Janasthana the head of a wicked rakshasa was cut off by a sharp-edged razor-arrow, and it fell in the great forest."
+          }
         },
         {
           "n": 11,
-          "text": "महोदरस्य तल्लग्नं जङ्घायां वै यदृच्छया ।\nवने विचरतो राजन्नस्थि भित्त्वास्फुरत्तदा ॥"
+          "text": "महोदरस्य तल्लग्नं जङ्घायां वै यदृच्छया ।\nवने विचरतो राजन्नस्थि भित्त्वास्फुरत्तदा ॥",
+          "meaning": {
+            "en": "By chance it stuck to the thigh of Mahodara as he walked in the forest, king, and pierced the bone and throbbed."
+          }
         },
         {
           "n": 12,
-          "text": "स तेन लग्नेन तदा द्विजातिर्न शशाक ह ।\nअभिगन्तुं महाप्राज्ञस्तीर्थान्यायतनानि च ॥"
+          "text": "स तेन लग्नेन तदा द्विजातिर्न शशाक ह ।\nअभिगन्तुं महाप्राज्ञस्तीर्थान्यायतनानि च ॥",
+          "meaning": {
+            "en": "Because of that attached head the twice-born sage could not go to tirthas and holy places, though he was very wise."
+          }
         },
         {
           "n": 13,
-          "text": "स पूतिना विस्रवता वेदनार्तो महामुनिः ।\nजगाम सर्वतीर्थानि पृथिव्यामिति नः श्रुतम् ॥"
+          "text": "स पूतिना विस्रवता वेदनार्तो महामुनिः ।\nजगाम सर्वतीर्थानि पृथिव्यामिति नः श्रुतम् ॥",
+          "meaning": {
+            "en": "Tormented by pain from the foul, oozing wound, that great sage, we have heard, went to all the tirthas of the earth."
+          }
         },
         {
           "n": 14,
-          "text": "स गत्वा सरितः सर्वाः समुद्रांश्च महातपाः ।\nकथयामास तत्सर्वमृषीणां भावितात्मनाम् ॥"
+          "text": "स गत्वा सरितः सर्वाः समुद्रांश्च महातपाः ।\nकथयामास तत्सर्वमृषीणां भावितात्मनाम् ॥",
+          "meaning": {
+            "en": "That greatly austere one went to all the rivers and seas, and told all of it to sages of refined souls."
+          }
         },
         {
           "n": 15,
-          "text": "आप्लुतः सर्वतीर्थेषु न च मोक्षमवाप्तवान् ।\nस तु शुश्राव विप्रेन्द्रो मुनीनां वचनं महत् ॥"
+          "text": "आप्लुतः सर्वतीर्थेषु न च मोक्षमवाप्तवान् ।\nस तु शुश्राव विप्रेन्द्रो मुनीनां वचनं महत् ॥",
+          "meaning": {
+            "en": "Though he bathed at all the tirthas, he did not gain release. Then the best of Brahmins heard the great words of the sages."
+          }
         },
         {
           "n": 16,
-          "text": "सरस्वत्यास्तीर्थवरं ख्यातमौशनसं तदा ।\nसर्वपापप्रशमनं सिद्धक्षेत्रमनुत्तमम् ॥"
+          "text": "सरस्वत्यास्तीर्थवरं ख्यातमौशनसं तदा ।\nसर्वपापप्रशमनं सिद्धक्षेत्रमनुत्तमम् ॥",
+          "meaning": {
+            "en": "They spoke of the best tirtha of the Sarasvati, famed then as the tirtha of Ushanas, the supreme sacred field of siddhas that calms all sins."
+          }
         },
         {
           "n": 17,
-          "text": "स तु गत्वा ततस्तत्र तीर्थमौशनसं द्विजः ।\nतत औशनसे तीर्थे तस्योपस्पृशतस्तदा ।\nतच्छिरश्चरणं मुक्त्वा पपातान्तर्जले तदा ॥"
+          "text": "स तु गत्वा ततस्तत्र तीर्थमौशनसं द्विजः ।\nतत औशनसे तीर्थे तस्योपस्पृशतस्तदा ।\nतच्छिरश्चरणं मुक्त्वा पपातान्तर्जले तदा ॥",
+          "meaning": {
+            "en": "That Brahmin went to the tirtha of Ushanas, and as he touched the water there, the head let go of his leg and fell into the water."
+          }
         },
         {
           "n": 18,
-          "text": "ततः स विरुजो राजन्पूतात्मा वीतकल्मषः ।\nआजगामाश्रमं प्रीतः कृतकृत्यो महोदरः ॥"
+          "text": "ततः स विरुजो राजन्पूतात्मा वीतकल्मषः ।\nआजगामाश्रमं प्रीतः कृतकृत्यो महोदरः ॥",
+          "meaning": {
+            "en": "Then, king, Mahodara, free of pain, purified and without sin, came back to his hermitage, glad and with his purpose done."
+          }
         },
         {
           "n": 19,
-          "text": "सोऽथ गत्वाश्रमं पुण्यं विप्रमुक्तो महातपाः ।\nकथयामास तत्सर्वमृषीणां भावितात्मनाम् ॥"
+          "text": "सोऽथ गत्वाश्रमं पुण्यं विप्रमुक्तो महातपाः ।\nकथयामास तत्सर्वमृषीणां भावितात्मनाम् ॥",
+          "meaning": {
+            "en": "Going to his holy hermitage, freed, that greatly austere one told all this to sages of refined souls."
+          }
         },
         {
           "n": 20,
-          "text": "ते श्रुत्वा वचनं तस्य ततस्तीर्थस्य मानद ।\nकपालमोचनमिति नाम चक्रुः समागताः ॥"
+          "text": "ते श्रुत्वा वचनं तस्य ततस्तीर्थस्य मानद ।\nकपालमोचनमिति नाम चक्रुः समागताः ॥",
+          "meaning": {
+            "en": "Hearing his words, giver of honor, those gathered gave that tirtha the name Kapalamochana, \"freeing from the skull.\""
+          }
         },
         {
           "n": 21,
-          "text": "तत्र दत्त्वा बहून्दायान्विप्रान्संपूज्य माधवः ।\nजगाम वृष्णिप्रवरो रुषङ्गोराश्रमं तदा ॥"
+          "text": "तत्र दत्त्वा बहून्दायान्विप्रान्संपूज्य माधवः ।\nजगाम वृष्णिप्रवरो रुषङ्गोराश्रमं तदा ॥",
+          "meaning": {
+            "en": "Giving many gifts there and honoring the Brahmins, Balarama, the Vrishnis' best, descendant of Madhu, then went to the hermitage of Rushangu."
+          }
         },
         {
           "n": 22,
-          "text": "यत्र तप्तं तपो घोरमार्ष्टिषेणेन भारत ।\nब्राह्मण्यं लब्धवांस्तत्र विश्वामित्रो महामुनिः ॥"
+          "text": "यत्र तप्तं तपो घोरमार्ष्टिषेणेन भारत ।\nब्राह्मण्यं लब्धवांस्तत्र विश्वामित्रो महामुनिः ॥",
+          "meaning": {
+            "en": "There, Bharata, Arshtishena practiced fierce austerity, and there the great sage Vishvamitra gained Brahmin status."
+          }
         },
         {
           "n": 23,
-          "text": "ततो हलधरः श्रीमान्ब्राह्मणैः परिवारितः ।\nजगाम यत्र राजेन्द्र रुषङ्गुस्तनुमत्यजत् ॥"
+          "text": "ततो हलधरः श्रीमान्ब्राह्मणैः परिवारितः ।\nजगाम यत्र राजेन्द्र रुषङ्गुस्तनुमत्यजत् ॥",
+          "meaning": {
+            "en": "Then the plough-bearer, glorious and surrounded by Brahmins, went to where Rushangu gave up his body, king of kings."
+          }
         },
         {
           "n": 24,
-          "text": "रुषङ्गुर्ब्राह्मणो वृद्धस्तपोनित्यश्च भारत ।\nदेहन्यासे कृतमना विचिन्त्य बहुधा बहु ॥"
+          "text": "रुषङ्गुर्ब्राह्मणो वृद्धस्तपोनित्यश्च भारत ।\nदेहन्यासे कृतमना विचिन्त्य बहुधा बहु ॥",
+          "meaning": {
+            "en": "Rushangu was an aged Brahmin, constant in austerity, Bharata; after much thought in many ways he set his mind on laying down his body."
+          }
         },
         {
           "n": 25,
-          "text": "ततः सर्वानुपादाय तनयान्वै महातपाः ।\nरुषङ्गुरब्रवीत्तत्र नयध्वं मा पृथूदकम् ॥"
+          "text": "ततः सर्वानुपादाय तनयान्वै महातपाः ।\nरुषङ्गुरब्रवीत्तत्र नयध्वं मा पृथूदकम् ॥",
+          "meaning": {
+            "en": "Then that greatly austere one, taking all his sons, said there: take me to Prithudaka."
+          }
         },
         {
           "n": 26,
-          "text": "विज्ञायातीतवयसं रुषङ्गुं ते तपोधनाः ।\nतं वै तीर्थमुपानिन्युः सरस्वत्यास्तपोधनम् ॥"
+          "text": "विज्ञायातीतवयसं रुषङ्गुं ते तपोधनाः ।\nतं वै तीर्थमुपानिन्युः सरस्वत्यास्तपोधनम् ॥",
+          "meaning": {
+            "en": "Knowing Rushangu was past his years, those ascetics brought the ascetic to that tirtha of the Sarasvati."
+          }
         },
         {
           "n": 27,
-          "text": "स तैः पुत्रैस्तदा धीमानानीतो वै सरस्वतीम् ।\nपुण्यां तीर्थशतोपेतां विप्रसंघैर्निषेविताम् ॥"
+          "text": "स तैः पुत्रैस्तदा धीमानानीतो वै सरस्वतीम् ।\nपुण्यां तीर्थशतोपेतां विप्रसंघैर्निषेविताम् ॥",
+          "meaning": {
+            "en": "Brought by his sons, that wise one reached the holy Sarasvati, with her hundred tirthas, visited by crowds of Brahmins."
+          }
         },
         {
           "n": 28,
-          "text": "स तत्र विधिना राजन्नाप्लुतः सुमहातपाः ।\nज्ञात्वा तीर्थगुणांश्चैव प्राहेदमृषिसत्तमः ।\nसुप्रीतः पुरुषव्याघ्र सर्वान्पुत्रानुपासतः ॥"
+          "text": "स तत्र विधिना राजन्नाप्लुतः सुमहातपाः ।\nज्ञात्वा तीर्थगुणांश्चैव प्राहेदमृषिसत्तमः ।\nसुप्रीतः पुरुषव्याघ्र सर्वान्पुत्रानुपासतः ॥",
+          "meaning": {
+            "en": "There, king, the greatly austere best of sages bathed by rule, and knowing the tirtha's virtues, he happily said this to all his sons attending him, tiger among men."
+          }
         },
         {
           "n": 29,
-          "text": "सरस्वत्युत्तरे तीरे यस्त्यजेदात्मनस्तनुम् ।\nपृथूदके जप्यपरो नैनं श्वोमरणं तपेत् ॥"
+          "text": "सरस्वत्युत्तरे तीरे यस्त्यजेदात्मनस्तनुम् ।\nपृथूदके जप्यपरो नैनं श्वोमरणं तपेत् ॥",
+          "meaning": {
+            "en": "Whoever gives up his body on the Sarasvati's northern bank at Prithudaka, intent on prayer, death will not trouble him on the morrow."
+          }
         },
         {
           "n": 30,
-          "text": "तत्राप्लुत्य स धर्मात्मा उपस्पृश्य हलायुधः ।\nदत्त्वा चैव बहून्दायान्विप्राणां विप्रवत्सलः ॥"
+          "text": "तत्राप्लुत्य स धर्मात्मा उपस्पृश्य हलायुधः ।\nदत्त्वा चैव बहून्दायान्विप्राणां विप्रवत्सलः ॥",
+          "meaning": {
+            "en": "The righteous Halayudha, devoted to Brahmins, bathed and touched water there and gave many gifts to Brahmins."
+          }
         },
         {
           "n": 31,
-          "text": "ससर्ज यत्र भगवाँल्लोकाँल्लोकपितामहः ।\nयत्रार्ष्टिषेणः कौरव्य ब्राह्मण्यं संशितव्रतः ।\nतपसा महता राजन्प्राप्तवानृषिसत्तमः ॥"
+          "text": "ससर्ज यत्र भगवाँल्लोकाँल्लोकपितामहः ।\nयत्रार्ष्टिषेणः कौरव्य ब्राह्मण्यं संशितव्रतः ।\nतपसा महता राजन्प्राप्तवानृषिसत्तमः ॥",
+          "meaning": {
+            "en": "Where the blessed Grandfather of the worlds created the worlds, where Arshtishena, Kaurava, of keen vows, won Brahmin status by great austerity, best of sages;"
+          }
         },
         {
           "n": 32,
-          "text": "सिन्धुद्वीपश्च राजर्षिर्देवापिश्च महातपाः ।\nब्राह्मण्यं लब्धवान्यत्र विश्वामित्रो महामुनिः ।\nमहातपस्वी भगवानुग्रतेजा महातपाः ॥"
+          "text": "सिन्धुद्वीपश्च राजर्षिर्देवापिश्च महातपाः ।\nब्राह्मण्यं लब्धवान्यत्र विश्वामित्रो महामुनिः ।\nमहातपस्वी भगवानुग्रतेजा महातपाः ॥",
+          "meaning": {
+            "en": "where the royal sage Sindhudvipa and the greatly austere Devapi, and the great sage Vishvamitra, the blessed one of fierce brilliance and great austerity, gained Brahmin status,"
+          }
         },
         {
           "n": 33,
-          "text": "तत्राजगाम बलवान्बलभद्रः प्रतापवान् ॥"
+          "text": "तत्राजगाम बलवान्बलभद्रः प्रतापवान् ॥",
+          "meaning": {
+            "en": "there came the mighty and glorious Balabhadra."
+          }
         }
       ]
     }

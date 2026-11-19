@@ -22,96 +22,168 @@
       "titleEn": "Rajadharma Parva (Duties of kings)",
       "verses": [
         {
-          "text": "युधिष्ठिर उवाच"
+          "text": "युधिष्ठिर उवाच",
+          "meaning": {
+            "en": "Yudhishthira said:"
+          }
         },
         {
           "n": 1,
-          "text": "क्वसमुत्थाः कथंशीला ऋत्विजः स्युः पितामह ।\nकथंविधाश्च राजेन्द्र तद्ब्रूहि वदतां वर ॥"
+          "text": "क्वसमुत्थाः कथंशीला ऋत्विजः स्युः पितामह ।\nकथंविधाश्च राजेन्द्र तद्ब्रूहि वदतां वर ॥",
+          "meaning": {
+            "en": "Grandfather, from where should officiating priests come and of what character should they be? Tell me what kind they should be, best of speakers, lord of kings."
+          }
         },
         {
-          "text": "भीष्म उवाच"
+          "text": "भीष्म उवाच",
+          "meaning": {
+            "en": "Bhishma said:"
+          }
         },
         {
           "n": 2,
-          "text": "प्रतिकर्म पुराचार ऋत्विजां स्म विधीयते ।\nआदौ छन्दांसि विज्ञाय द्विजानां श्रुतमेव च ॥"
+          "text": "प्रतिकर्म पुराचार ऋत्विजां स्म विधीयते ।\nआदौ छन्दांसि विज्ञाय द्विजानां श्रुतमेव च ॥",
+          "meaning": {
+            "en": "The old practice for priests is that, first, the metres and the learning of the twice-born are to be known, and then each rite assigned."
+          }
         },
         {
           "n": 3,
-          "text": "ये त्वेकरतयो नित्यं धीरा नाप्रियवादिनः ।\nपरस्परस्य सुहृदः संमताः समदर्शिनः ॥"
+          "text": "ये त्वेकरतयो नित्यं धीरा नाप्रियवादिनः ।\nपरस्परस्य सुहृदः संमताः समदर्शिनः ॥",
+          "meaning": {
+            "en": "Those who are always of one delight, steady, not given to unpleasant speech, friends to one another, agreed and even-minded,"
+          }
         },
         {
           "n": 4,
-          "text": "येष्वानृशंस्यं सत्यं चाप्यहिंसा तप आर्जवम् ।\nअद्रोहो नाभिमानश्च ह्रीस्तितिक्षा दमः शमः ॥"
+          "text": "येष्वानृशंस्यं सत्यं चाप्यहिंसा तप आर्जवम् ।\nअद्रोहो नाभिमानश्च ह्रीस्तितिक्षा दमः शमः ॥",
+          "meaning": {
+            "en": "in whom there are gentleness, truth, harmlessness, austerity, uprightness, no malice, no pride, modesty, patience, self-control and calm,"
+          }
         },
         {
           "n": 5,
-          "text": "ह्रीमान्सत्यधृतिर्दान्तो भूतानामविहिंसकः ।\nअकामद्वेषसंयुक्तस्त्रिभिः शुक्लैः समन्वितः ॥"
+          "text": "ह्रीमान्सत्यधृतिर्दान्तो भूतानामविहिंसकः ।\nअकामद्वेषसंयुक्तस्त्रिभिः शुक्लैः समन्वितः ॥",
+          "meaning": {
+            "en": "who are modest, firm in truth, self-controlled, harming no beings, free of desire and hatred, and endowed with the three pure things,"
+          }
         },
         {
           "n": 6,
-          "text": "अहिंसको ज्ञानतृप्तः स ब्रह्मासनमर्हति ।\nएते महर्त्विजस्तात सर्वे मान्या यथातथम् ॥"
+          "text": "अहिंसको ज्ञानतृप्तः स ब्रह्मासनमर्हति ।\nएते महर्त्विजस्तात सर्वे मान्या यथातथम् ॥",
+          "meaning": {
+            "en": "who are harmless and content with knowledge, deserve the seat of the Brahman priest. These, dear child, are the great priests, all to be honoured as they truly are."
+          }
         },
         {
-          "text": "युधिष्ठिर उवाच"
+          "text": "युधिष्ठिर उवाच",
+          "meaning": {
+            "en": "Yudhishthira said:"
+          }
         },
         {
           "n": 7,
-          "text": "यदिदं वेदवचनं दक्षिणासु विधीयते ।\nइदं देयमिदं देयं न क्वचिद्व्यवतिष्ठते ॥"
+          "text": "यदिदं वेदवचनं दक्षिणासु विधीयते ।\nइदं देयमिदं देयं न क्वचिद्व्यवतिष्ठते ॥",
+          "meaning": {
+            "en": "The Vedic statement on fees says, 'This is to be given, this is to be given', and nowhere does it fix a limit."
+          }
         },
         {
           "n": 8,
-          "text": "नेदं प्रति धनं शास्त्रमापद्धर्ममशास्त्रतः ।\nआज्ञा शास्त्रस्य घोरेयं न शक्तिं समवेक्षते ॥"
+          "text": "नेदं प्रति धनं शास्त्रमापद्धर्ममशास्त्रतः ।\nआज्ञा शास्त्रस्य घोरेयं न शक्तिं समवेक्षते ॥",
+          "meaning": {
+            "en": "Wealth does not suit this teaching, and the law of distress is not in the texts; the command of the text is hard, and it does not look to one's ability."
+          }
         },
         {
           "n": 9,
-          "text": "श्रद्धामारभ्य यष्टव्यमित्येषा वैदिकी श्रुतिः ।\nमिथ्योपेतस्य यज्ञस्य किमु श्रद्धा करिष्यति ॥"
+          "text": "श्रद्धामारभ्य यष्टव्यमित्येषा वैदिकी श्रुतिः ।\nमिथ्योपेतस्य यज्ञस्य किमु श्रद्धा करिष्यति ॥",
+          "meaning": {
+            "en": "'One should sacrifice beginning with faith' is the Vedic text; what will faith do for a sacrifice joined with falsehood?"
+          }
         },
         {
-          "text": "भीष्म उवाच"
+          "text": "भीष्म उवाच",
+          "meaning": {
+            "en": "Bhishma said:"
+          }
         },
         {
           "n": 10,
-          "text": "न वेदानां परिभवान्न शाठ्येन न मायया ।\nकश्चिन्महदवाप्नोति मा ते भूद्बुद्धिरीदृशी ॥"
+          "text": "न वेदानां परिभवान्न शाठ्येन न मायया ।\nकश्चिन्महदवाप्नोति मा ते भूद्बुद्धिरीदृशी ॥",
+          "meaning": {
+            "en": "No one attains greatness by disrespect to the Vedas, nor by deceit or trickery; let no such thought arise in you."
+          }
         },
         {
           "n": 11,
-          "text": "यज्ञाङ्गं दक्षिणास्तात वेदानां परिबृंहणम् ।\nन मन्त्रा दक्षिणाहीनास्तारयन्ति कथंचन ॥"
+          "text": "यज्ञाङ्गं दक्षिणास्तात वेदानां परिबृंहणम् ।\nन मन्त्रा दक्षिणाहीनास्तारयन्ति कथंचन ॥",
+          "meaning": {
+            "en": "Fees, dear child, are a limb of sacrifice and what fills out the Vedas; mantras without fees save no one in any way."
+          }
         },
         {
           "n": 12,
-          "text": "शक्तिस्तु पूर्णपात्रेण संमितानवमा भवेत् ।\nअवश्यं तात यष्टव्यं त्रिभिर्वर्णैर्यथाविधि ॥"
+          "text": "शक्तिस्तु पूर्णपात्रेण संमितानवमा भवेत् ।\nअवश्यं तात यष्टव्यं त्रिभिर्वर्णैर्यथाविधि ॥",
+          "meaning": {
+            "en": "Ability is measured by the full vessel and should not be less. The three classes must surely sacrifice, dear child, as prescribed."
+          }
         },
         {
           "n": 13,
-          "text": "सोमो राजा ब्राह्मणानामित्येषा वैदिकी श्रुतिः ।\nतं च विक्रेतुमिच्छन्ति न वृथा वृत्तिरिष्यते ।\nतेन क्रीतेन धर्मेण ततो यज्ञः प्रतायते ॥"
+          "text": "सोमो राजा ब्राह्मणानामित्येषा वैदिकी श्रुतिः ।\nतं च विक्रेतुमिच्छन्ति न वृथा वृत्तिरिष्यते ।\nतेन क्रीतेन धर्मेण ततो यज्ञः प्रतायते ॥",
+          "meaning": {
+            "en": "'Soma is the king of the Brahmanas' is the Vedic text. They wish to sell it, and a livelihood is not sought in vain; by that, bought rightly, the sacrifice is extended."
+          }
         },
         {
           "n": 14,
-          "text": "इत्येवं धर्मतः ख्यातमृषिभिर्धर्मवादिभिः ।\nपुमान्यज्ञश्च सोमश्च न्यायवृत्तो यथा भवेत् ।\nअन्यायवृत्तः पुरुषो न परस्य न चात्मनः ॥"
+          "text": "इत्येवं धर्मतः ख्यातमृषिभिर्धर्मवादिभिः ।\nपुमान्यज्ञश्च सोमश्च न्यायवृत्तो यथा भवेत् ।\nअन्यायवृत्तः पुरुषो न परस्य न चात्मनः ॥",
+          "meaning": {
+            "en": "So it is declared by sages who speak of righteousness: the man, the sacrifice and the soma should go by fair dealing; one who does not behave fairly is of no use to others or to himself."
+          }
         },
         {
           "n": 15,
-          "text": "शरीरं यज्ञपात्राणि इत्येषा श्रूयते श्रुतिः ।\nतानि सम्यक्प्रणीतानि ब्राह्मणानां महात्मनाम् ॥"
+          "text": "शरीरं यज्ञपात्राणि इत्येषा श्रूयते श्रुतिः ।\nतानि सम्यक्प्रणीतानि ब्राह्मणानां महात्मनाम् ॥",
+          "meaning": {
+            "en": "'The body is the sacrificial vessels' is the text we hear; those vessels are well arranged in great-souled Brahmanas."
+          }
         },
         {
           "n": 16,
-          "text": "तपो यज्ञादपि श्रेष्ठमित्येषा परमा श्रुतिः ।\nतत्ते तपः प्रवक्ष्यामि विद्वंस्तदपि मे शृणु ॥"
+          "text": "तपो यज्ञादपि श्रेष्ठमित्येषा परमा श्रुतिः ।\nतत्ते तपः प्रवक्ष्यामि विद्वंस्तदपि मे शृणु ॥",
+          "meaning": {
+            "en": "'Austerity is better even than sacrifice' is the highest text; learned one, I shall tell you that austerity, so hear it from me too."
+          }
         },
         {
           "n": 17,
-          "text": "अहिंसा सत्यवचनमानृशंस्यं दमो घृणा ।\nएतत्तपो विदुर्धीरा न शरीरस्य शोषणम् ॥"
+          "text": "अहिंसा सत्यवचनमानृशंस्यं दमो घृणा ।\nएतत्तपो विदुर्धीरा न शरीरस्य शोषणम् ॥",
+          "meaning": {
+            "en": "Harmlessness, truthful speech, gentleness, self-control and compassion: the steady know this as austerity, not the drying up of the body."
+          }
         },
         {
           "n": 18,
-          "text": "अप्रामाण्यं च वेदानां शास्त्राणां चातिलङ्घनम् ।\nअव्यवस्था च सर्वत्र तद्वै नाशनमात्मनः ॥"
+          "text": "अप्रामाण्यं च वेदानां शास्त्राणां चातिलङ्घनम् ।\nअव्यवस्था च सर्वत्र तद्वै नाशनमात्मनः ॥",
+          "meaning": {
+            "en": "Disbelief in the Vedas, overstepping the scriptures and disorder everywhere: that is the destruction of oneself."
+          }
         },
         {
           "n": 19,
-          "text": "निबोध दशहोतॄणां विधानं पार्थ यादृशम् ।\nचित्तिः स्रुक्चित्तमाज्यं च पवित्रं ज्ञानमुत्तमम् ॥"
+          "text": "निबोध दशहोतॄणां विधानं पार्थ यादृशम् ।\nचित्तिः स्रुक्चित्तमाज्यं च पवित्रं ज्ञानमुत्तमम् ॥",
+          "meaning": {
+            "en": "Learn, Partha, the arrangement of the ten priests as it is: thought is the ladle, mind the ghee, and knowledge the supreme purifier."
+          }
         },
         {
           "n": 20,
-          "text": "सर्वं जिह्मं मृत्युपदमार्जवं ब्रह्मणः पदम् ।\nएतावाञ्ज्ञानविषयः किं प्रलापः करिष्यति ॥"
+          "text": "सर्वं जिह्मं मृत्युपदमार्जवं ब्रह्मणः पदम् ।\nएतावाञ्ज्ञानविषयः किं प्रलापः करिष्यति ॥",
+          "meaning": {
+            "en": "All that is crooked is the path of death, and uprightness is the path of Brahman. This much is the scope of knowledge; what will idle talk do?"
+          }
         }
       ]
     }

@@ -22,217 +22,379 @@
       "titleEn": "Sarasvata Parva (Balarama's pilgrimage on the Sarasvati)",
       "verses": [
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 1,
-          "text": "यत्रेजिवानुडुपती राजसूयेन भारत ।\nतस्मिन्वृत्ते महानासीत्संग्रामस्तारकामयः ॥"
+          "text": "यत्रेजिवानुडुपती राजसूयेन भारत ।\nतस्मिन्वृत्ते महानासीत्संग्रामस्तारकामयः ॥",
+          "meaning": {
+            "en": "At the place where the lord of the stars, Soma, once performed the Rajasuya sacrifice, a great war over Tara broke out when it was over, O Bharata."
+          }
         },
         {
           "n": 2,
-          "text": "तत्राप्युपस्पृश्य बलो दत्त्वा दानानि चात्मवान् ।\nसारस्वतस्य धर्मात्मा मुनेस्तीर्थं जगाम ह ॥"
+          "text": "तत्राप्युपस्पृश्य बलो दत्त्वा दानानि चात्मवान् ।\nसारस्वतस्य धर्मात्मा मुनेस्तीर्थं जगाम ह ॥",
+          "meaning": {
+            "en": "There too, the self-controlled and righteous Balarama bathed, gave gifts, and went on to the sacred ford of the sage Sarasvata."
+          }
         },
         {
           "n": 3,
-          "text": "यत्र द्वादशवार्षिक्यामनावृष्ट्यां द्विजोत्तमान् ।\nवेदानध्यापयामास पुरा सारस्वतो मुनिः ॥"
+          "text": "यत्र द्वादशवार्षिक्यामनावृष्ट्यां द्विजोत्तमान् ।\nवेदानध्यापयामास पुरा सारस्वतो मुनिः ॥",
+          "meaning": {
+            "en": "There, long ago, during a drought lasting twelve years, the sage Sarasvata taught the Vedas to the best of brahmins."
+          }
         },
         {
-          "text": "जनमेजय उवाच"
+          "text": "जनमेजय उवाच",
+          "meaning": {
+            "en": "Janamejaya said:"
+          }
         },
         {
           "n": 4,
-          "text": "कथं द्वादशवार्षिक्यामनावृष्ट्यां तपोधनः ।\nवेदानध्यापयामास पुरा सारस्वतो मुनिः ॥"
+          "text": "कथं द्वादशवार्षिक्यामनावृष्ट्यां तपोधनः ।\nवेदानध्यापयामास पुरा सारस्वतो मुनिः ॥",
+          "meaning": {
+            "en": "How, long ago, did that ascetic, the sage Sarasvata, teach the Vedas during a drought of twelve years?"
+          }
         },
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 5,
-          "text": "आसीत्पूर्वं महाराज मुनिर्धीमान्महातपाः ।\nदधीच इति विख्यातो ब्रह्मचारी जितेन्द्रियः ॥"
+          "text": "आसीत्पूर्वं महाराज मुनिर्धीमान्महातपाः ।\nदधीच इति विख्यातो ब्रह्मचारी जितेन्द्रियः ॥",
+          "meaning": {
+            "en": "Long ago, great king, there was a wise sage of great austerity named Dadhicha, a celibate student who had mastered his senses."
+          }
         },
         {
           "n": 6,
-          "text": "तस्यातितपसः शक्रो बिभेति सततं विभो ।\nन स लोभयितुं शक्यः फलैर्बहुविधैरपि ॥"
+          "text": "तस्यातितपसः शक्रो बिभेति सततं विभो ।\nन स लोभयितुं शक्यः फलैर्बहुविधैरपि ॥",
+          "meaning": {
+            "en": "O lord, Indra was always afraid of his intense austerity, and the sage could not be tempted even by many kinds of rewards."
+          }
         },
         {
           "n": 7,
-          "text": "प्रलोभनार्थं तस्याथ प्राहिणोत्पाकशासनः ।\nदिव्यामप्सरसं पुण्यां दर्शनीयामलम्बुसाम् ॥"
+          "text": "प्रलोभनार्थं तस्याथ प्राहिणोत्पाकशासनः ।\nदिव्यामप्सरसं पुण्यां दर्शनीयामलम्बुसाम् ॥",
+          "meaning": {
+            "en": "To tempt him, Indra, the punisher of Paka, sent the divine, holy and lovely apsara Alambusa."
+          }
         },
         {
           "n": 8,
-          "text": "तस्य तर्पयतो देवान्सरस्वत्यां महात्मनः ।\nसमीपतो महाराज सोपातिष्ठत भामिनी ॥"
+          "text": "तस्य तर्पयतो देवान्सरस्वत्यां महात्मनः ।\nसमीपतो महाराज सोपातिष्ठत भामिनी ॥",
+          "meaning": {
+            "en": "As the great-souled sage was offering water to the gods in the Sarasvati, that radiant woman came and stood near him, O great king."
+          }
         },
         {
           "n": 9,
-          "text": "तां दिव्यवपुषं दृष्ट्वा तस्यर्षेर्भावितात्मनः ।\nरेतः स्कन्नं सरस्वत्यां तत्सा जग्राह निम्नगा ॥"
+          "text": "तां दिव्यवपुषं दृष्ट्वा तस्यर्षेर्भावितात्मनः ।\nरेतः स्कन्नं सरस्वत्यां तत्सा जग्राह निम्नगा ॥",
+          "meaning": {
+            "en": "Seeing her divine form, the sage, whose mind was purified by practice, let his seed fall into the Sarasvati, and the river received it."
+          }
         },
         {
           "n": 10,
-          "text": "कुक्षौ चाप्यदधद्दृष्ट्वा तद्रेतः पुरुषर्षभ ।\nसा दधार च तं गर्भं पुत्रहेतोर्महानदी ॥"
+          "text": "कुक्षौ चाप्यदधद्दृष्ट्वा तद्रेतः पुरुषर्षभ ।\nसा दधार च तं गर्भं पुत्रहेतोर्महानदी ॥",
+          "meaning": {
+            "en": "Seeing that seed, O best of men, she took it into her womb, and the great river carried that child for the sake of having a son."
+          }
         },
         {
           "n": 11,
-          "text": "सुषुवे चापि समये पुत्रं सा सरितां वरा ।\nजगाम पुत्रमादाय तमृषिं प्रति च प्रभो ॥"
+          "text": "सुषुवे चापि समये पुत्रं सा सरितां वरा ।\nजगाम पुत्रमादाय तमृषिं प्रति च प्रभो ॥",
+          "meaning": {
+            "en": "In due time that best of rivers gave birth to a son, and, O lord, she took the boy and went to the sage."
+          }
         },
         {
           "n": 12,
-          "text": "ऋषिसंसदि तं दृष्ट्वा सा नदी मुनिसत्तमम् ।\nततः प्रोवाच राजेन्द्र ददती पुत्रमस्य तम् ।\nब्रह्मर्षे तव पुत्रोऽयं त्वद्भक्त्या धारितो मया ॥"
+          "text": "ऋषिसंसदि तं दृष्ट्वा सा नदी मुनिसत्तमम् ।\nततः प्रोवाच राजेन्द्र ददती पुत्रमस्य तम् ।\nब्रह्मर्षे तव पुत्रोऽयं त्वद्भक्त्या धारितो मया ॥",
+          "meaning": {
+            "en": "Seeing that best of sages in an assembly of seers, O best of kings, the river gave him his son and said: \"Brahmin sage, this is your son, carried by me out of devotion to you.\""
+          }
         },
         {
           "n": 13,
-          "text": "दृष्ट्वा तेऽप्सरसं रेतो यत्स्कन्नं प्रागलम्बुसाम् ।\nतत्कुक्षिणा वै ब्रह्मर्षे त्वद्भक्त्या धृतवत्यहम् ॥"
+          "text": "दृष्ट्वा तेऽप्सरसं रेतो यत्स्कन्नं प्रागलम्बुसाम् ।\nतत्कुक्षिणा वै ब्रह्मर्षे त्वद्भक्त्या धृतवत्यहम् ॥",
+          "meaning": {
+            "en": "\"When I saw the seed that fell at the sight of the apsara Alambusa, I held it in my womb out of devotion to you, brahmin sage.\""
+          }
         },
         {
           "n": 14,
-          "text": "न विनाशमिदं गच्छेत्त्वत्तेज इति निश्चयात् ।\nप्रतिगृह्णीष्व पुत्रं स्वं मया दत्तमनिन्दितम् ॥"
+          "text": "न विनाशमिदं गच्छेत्त्वत्तेज इति निश्चयात् ।\nप्रतिगृह्णीष्व पुत्रं स्वं मया दत्तमनिन्दितम् ॥",
+          "meaning": {
+            "en": "\"I decided that this energy of yours must not be lost; take back your own blameless son, whom I now give to you.\""
+          }
         },
         {
           "n": 15,
-          "text": "इत्युक्तः प्रतिजग्राह प्रीतिं चावाप उत्तमाम् ।\nमन्त्रवच्चोपजिघ्रत्तं मूर्ध्नि प्रेम्णा द्विजोत्तमः ॥"
+          "text": "इत्युक्तः प्रतिजग्राह प्रीतिं चावाप उत्तमाम् ।\nमन्त्रवच्चोपजिघ्रत्तं मूर्ध्नि प्रेम्णा द्विजोत्तमः ॥",
+          "meaning": {
+            "en": "So addressed, the best of brahmins accepted him and felt the highest joy; he lovingly smelled the child's head with a mantra."
+          }
         },
         {
           "n": 16,
-          "text": "परिष्वज्य चिरं कालं तदा भरतसत्तम ।\nसरस्वत्यै वरं प्रादात्प्रीयमाणो महामुनिः ॥"
+          "text": "परिष्वज्य चिरं कालं तदा भरतसत्तम ।\nसरस्वत्यै वरं प्रादात्प्रीयमाणो महामुनिः ॥",
+          "meaning": {
+            "en": "Embracing him for a long while, O best of Bharatas, the great sage, pleased, gave the Sarasvati a boon."
+          }
         },
         {
           "n": 17,
-          "text": "विश्वे देवाः सपितरो गन्धर्वाप्सरसां गणाः ।\nतृप्तिं यास्यन्ति सुभगे तर्प्यमाणास्तवाम्भसा ॥"
+          "text": "विश्वे देवाः सपितरो गन्धर्वाप्सरसां गणाः ।\nतृप्तिं यास्यन्ति सुभगे तर्प्यमाणास्तवाम्भसा ॥",
+          "meaning": {
+            "en": "He said: \"The Vishvedevas, the ancestors, and the hosts of gandharvas and apsaras will be satisfied, fortunate one, when they are offered your water.\""
+          }
         },
         {
           "n": 18,
-          "text": "इत्युक्त्वा स तु तुष्टाव वचोभिर्वै महानदीम् ।\nप्रीतः परमहृष्टात्मा यथावच्छृणु पार्थिव ॥"
+          "text": "इत्युक्त्वा स तु तुष्टाव वचोभिर्वै महानदीम् ।\nप्रीतः परमहृष्टात्मा यथावच्छृणु पार्थिव ॥",
+          "meaning": {
+            "en": "Having said this, he praised the great river in words; listen, O king, as it was said, for he was pleased and his heart overjoyed."
+          }
         },
         {
           "n": 19,
-          "text": "प्रसृतासि महाभागे सरसो ब्रह्मणः पुरा ।\nजानन्ति त्वां सरिच्छ्रेष्ठे मुनयः संशितव्रताः ॥"
+          "text": "प्रसृतासि महाभागे सरसो ब्रह्मणः पुरा ।\nजानन्ति त्वां सरिच्छ्रेष्ठे मुनयः संशितव्रताः ॥",
+          "meaning": {
+            "en": "\"You, fortunate one, flowed long ago from the lake of Brahma; sages of firm vows know you, best of rivers.\""
+          }
         },
         {
           "n": 20,
-          "text": "मम प्रियकरी चापि सततं प्रियदर्शने ।\nतस्मात्सारस्वतः पुत्रो महांस्ते वरवर्णिनि ॥"
+          "text": "मम प्रियकरी चापि सततं प्रियदर्शने ।\nतस्मात्सारस्वतः पुत्रो महांस्ते वरवर्णिनि ॥",
+          "meaning": {
+            "en": "\"You, lovely to look upon, are always dear to me and do what pleases me; so this great son of yours will be called Sarasvata, O fair lady.\""
+          }
         },
         {
           "n": 21,
-          "text": "तवैव नाम्ना प्रथितः पुत्रस्ते लोकभावनः ।\nसारस्वत इति ख्यातो भविष्यति महातपाः ॥"
+          "text": "तवैव नाम्ना प्रथितः पुत्रस्ते लोकभावनः ।\nसारस्वत इति ख्यातो भविष्यति महातपाः ॥",
+          "meaning": {
+            "en": "\"Your son, who brings blessing to the world, will be known by your own name, as Sarasvata, a great ascetic.\""
+          }
         },
         {
           "n": 22,
-          "text": "एष द्वादशवार्षिक्यामनावृष्ट्यां द्विजर्षभान् ।\nसारस्वतो महाभागे वेदानध्यापयिष्यति ॥"
+          "text": "एष द्वादशवार्षिक्यामनावृष्ट्यां द्विजर्षभान् ।\nसारस्वतो महाभागे वेदानध्यापयिष्यति ॥",
+          "meaning": {
+            "en": "\"This Sarasvata, fortunate one, will teach the Vedas to the best of brahmins during a twelve-year drought.\""
+          }
         },
         {
           "n": 23,
-          "text": "पुण्याभ्यश्च सरिद्भ्यस्त्वं सदा पुण्यतमा शुभे ।\nभविष्यसि महाभागे मत्प्रसादात्सरस्वति ॥"
+          "text": "पुण्याभ्यश्च सरिद्भ्यस्त्वं सदा पुण्यतमा शुभे ।\nभविष्यसि महाभागे मत्प्रसादात्सरस्वति ॥",
+          "meaning": {
+            "en": "\"By my favour, auspicious Sarasvati, you will always be the holiest of all holy rivers.\""
+          }
         },
         {
           "n": 24,
-          "text": "एवं सा संस्तुता तेन वरं लब्ध्वा महानदी ।\nपुत्रमादाय मुदिता जगाम भरतर्षभ ॥"
+          "text": "एवं सा संस्तुता तेन वरं लब्ध्वा महानदी ।\nपुत्रमादाय मुदिता जगाम भरतर्षभ ॥",
+          "meaning": {
+            "en": "Thus praised by him and having received the boon, the great river, glad, took her son and went away, O best of Bharatas."
+          }
         },
         {
           "n": 25,
-          "text": "एतस्मिन्नेव काले तु विरोधे देवदानवैः ।\nशक्रः प्रहरणान्वेषी लोकांस्त्रीन्विचचार ह ॥"
+          "text": "एतस्मिन्नेव काले तु विरोधे देवदानवैः ।\nशक्रः प्रहरणान्वेषी लोकांस्त्रीन्विचचार ह ॥",
+          "meaning": {
+            "en": "At that very time, when the gods and the Danavas were at war, Indra roamed the three worlds looking for a weapon."
+          }
         },
         {
           "n": 26,
-          "text": "न चोपलेभे भगवाञ्शक्रः प्रहरणं तदा ।\nयद्वै तेषां भवेद्योग्यं वधाय विबुधद्विषाम् ॥"
+          "text": "न चोपलेभे भगवाञ्शक्रः प्रहरणं तदा ।\nयद्वै तेषां भवेद्योग्यं वधाय विबुधद्विषाम् ॥",
+          "meaning": {
+            "en": "The lord Indra could not find any weapon fit to kill those enemies of the gods."
+          }
         },
         {
           "n": 27,
-          "text": "ततोऽब्रवीत्सुराञ्शक्रो न मे शक्या महासुराः ।\nऋतेऽस्थिभिर्दधीचस्य निहन्तुं त्रिदशद्विषः ॥"
+          "text": "ततोऽब्रवीत्सुराञ्शक्रो न मे शक्या महासुराः ।\nऋतेऽस्थिभिर्दधीचस्य निहन्तुं त्रिदशद्विषः ॥",
+          "meaning": {
+            "en": "Then Indra said to the gods: \"I cannot kill these mighty asuras, the foes of the gods, without the bones of Dadhicha.\""
+          }
         },
         {
           "n": 28,
-          "text": "तस्माद्गत्वा ऋषिश्रेष्ठो याच्यतां सुरसत्तमाः ।\nदधीचास्थीनि देहीति तैर्वधिष्यामहे रिपून् ॥"
+          "text": "तस्माद्गत्वा ऋषिश्रेष्ठो याच्यतां सुरसत्तमाः ।\nदधीचास्थीनि देहीति तैर्वधिष्यामहे रिपून् ॥",
+          "meaning": {
+            "en": "\"So go, best of gods, and ask that foremost sage: 'Give us your bones,' and with them we shall slay our enemies.\""
+          }
         },
         {
           "n": 29,
-          "text": "स देवैर्याचितोऽस्थीनि यत्नादृषिवरस्तदा ।\nप्राणत्यागं कुरुष्वेति चकारैवाविचारयन् ।\nस लोकानक्षयान्प्राप्तो देवप्रियकरस्तदा ॥"
+          "text": "स देवैर्याचितोऽस्थीनि यत्नादृषिवरस्तदा ।\nप्राणत्यागं कुरुष्वेति चकारैवाविचारयन् ।\nस लोकानक्षयान्प्राप्तो देवप्रियकरस्तदा ॥",
+          "meaning": {
+            "en": "Asked by the gods, that best of sages gave up his life without hesitation, saying \"Do it,\" and having pleased the gods he gained imperishable worlds."
+          }
         },
         {
           "n": 30,
-          "text": "तस्यास्थिभिरथो शक्रः संप्रहृष्टमनास्तदा ।\nकारयामास दिव्यानि नानाप्रहरणान्युत ।\nवज्राणि चक्राणि गदा गुरुदण्डांश्च पुष्कलान् ॥"
+          "text": "तस्यास्थिभिरथो शक्रः संप्रहृष्टमनास्तदा ।\nकारयामास दिव्यानि नानाप्रहरणान्युत ।\nवज्राणि चक्राणि गदा गुरुदण्डांश्च पुष्कलान् ॥",
+          "meaning": {
+            "en": "With his bones Indra, his heart delighted, had many divine weapons made: thunderbolts, discuses, maces, and many heavy staffs."
+          }
         },
         {
           "n": 31,
-          "text": "स हि तीव्रेण तपसा संभृतः परमर्षिणा ।\nप्रजापतिसुतेनाथ भृगुणा लोकभावनः ॥"
+          "text": "स हि तीव्रेण तपसा संभृतः परमर्षिणा ।\nप्रजापतिसुतेनाथ भृगुणा लोकभावनः ॥",
+          "meaning": {
+            "en": "That bone-thunderbolt was formed by the supreme sage's fierce austerity, and by Bhrigu, son of Prajapati, benefactor of the world."
+          }
         },
         {
           "n": 32,
-          "text": "अतिकायः स तेजस्वी लोकसारविनिर्मितः ।\nजज्ञे शैलगुरुः प्रांशुर्महिम्ना प्रथितः प्रभुः ।\nनित्यमुद्विजते चास्य तेजसा पाकशासनः ॥"
+          "text": "अतिकायः स तेजस्वी लोकसारविनिर्मितः ।\nजज्ञे शैलगुरुः प्रांशुर्महिम्ना प्रथितः प्रभुः ।\nनित्यमुद्विजते चास्य तेजसा पाकशासनः ॥",
+          "meaning": {
+            "en": "It was huge, blazing, made from the essence of the world, heavy as a mountain, tall, and famed for its might; Indra, the punisher of Paka, was always shaken by its brilliance."
+          }
         },
         {
           "n": 33,
-          "text": "तेन वज्रेण भगवान्मन्त्रयुक्तेन भारत ।\nभृशं क्रोधविसृष्टेन ब्रह्मतेजोभवेन च ।\nदैत्यदानववीराणां जघान नवतीर्नव ॥"
+          "text": "तेन वज्रेण भगवान्मन्त्रयुक्तेन भारत ।\nभृशं क्रोधविसृष्टेन ब्रह्मतेजोभवेन च ।\nदैत्यदानववीराणां जघान नवतीर्नव ॥",
+          "meaning": {
+            "en": "O Bharata, the lord hurled that thunderbolt, charged with mantras, in great anger and born of the power of Brahma, and with it he killed nine times ninety of the Daitya and Danava heroes."
+          }
         },
         {
           "n": 34,
-          "text": "अथ काले व्यतिक्रान्ते महत्यतिभयंकरे ।\nअनावृष्टिरनुप्राप्ता राजन्द्वादशवार्षिकी ॥"
+          "text": "अथ काले व्यतिक्रान्ते महत्यतिभयंकरे ।\nअनावृष्टिरनुप्राप्ता राजन्द्वादशवार्षिकी ॥",
+          "meaning": {
+            "en": "Then, after a long and terrifying time had passed, a drought of twelve years came, O king."
+          }
         },
         {
           "n": 35,
-          "text": "तस्यां द्वादशवार्षिक्यामनावृष्ट्यां महर्षयः ।\nवृत्त्यर्थं प्राद्रवन्राजन्क्षुधार्ताः सर्वतोदिशम् ॥"
+          "text": "तस्यां द्वादशवार्षिक्यामनावृष्ट्यां महर्षयः ।\nवृत्त्यर्थं प्राद्रवन्राजन्क्षुधार्ताः सर्वतोदिशम् ॥",
+          "meaning": {
+            "en": "In that twelve-year drought, O king, the great sages, tormented by hunger, ran in every direction in search of a living."
+          }
         },
         {
           "n": 36,
-          "text": "दिग्भ्यस्तान्प्रद्रुतान्दृष्ट्वा मुनिः सारस्वतस्तदा ।\nगमनाय मतिं चक्रे तं प्रोवाच सरस्वती ॥"
+          "text": "दिग्भ्यस्तान्प्रद्रुतान्दृष्ट्वा मुनिः सारस्वतस्तदा ।\nगमनाय मतिं चक्रे तं प्रोवाच सरस्वती ॥",
+          "meaning": {
+            "en": "Seeing them flee in all directions, the sage Sarasvata decided to leave too, but Sarasvati said to him:"
+          }
         },
         {
           "n": 37,
-          "text": "न गन्तव्यमितः पुत्र तवाहारमहं सदा ।\nदास्यामि मत्स्यप्रवरानुष्यतामिह भारत ॥"
+          "text": "न गन्तव्यमितः पुत्र तवाहारमहं सदा ।\nदास्यामि मत्स्यप्रवरानुष्यतामिह भारत ॥",
+          "meaning": {
+            "en": "\"Do not go from here, son. I shall always give you food, the finest fish; stay here, O Bharata.\""
+          }
         },
         {
           "n": 38,
-          "text": "इत्युक्तस्तर्पयामास स पितॄन्देवतास्तथा ।\nआहारमकरोन्नित्यं प्राणान्वेदांश्च धारयन् ॥"
+          "text": "इत्युक्तस्तर्पयामास स पितॄन्देवतास्तथा ।\nआहारमकरोन्नित्यं प्राणान्वेदांश्च धारयन् ॥",
+          "meaning": {
+            "en": "Thus told, he satisfied the ancestors and the gods, and lived daily on that food, keeping up his life and the Vedas."
+          }
         },
         {
           "n": 39,
-          "text": "अथ तस्यामतीतायामनावृष्ट्यां महर्षयः ।\nअन्योन्यं परिपप्रच्छुः पुनः स्वाध्यायकारणात् ॥"
+          "text": "अथ तस्यामतीतायामनावृष्ट्यां महर्षयः ।\nअन्योन्यं परिपप्रच्छुः पुनः स्वाध्यायकारणात् ॥",
+          "meaning": {
+            "en": "When that drought had ended, the great sages again asked one another about reciting the Vedas."
+          }
         },
         {
           "n": 40,
-          "text": "तेषां क्षुधापरीतानां नष्टा वेदा विधावताम् ।\nसर्वेषामेव राजेन्द्र न कश्चित्प्रतिभानवान् ॥"
+          "text": "तेषां क्षुधापरीतानां नष्टा वेदा विधावताम् ।\nसर्वेषामेव राजेन्द्र न कश्चित्प्रतिभानवान् ॥",
+          "meaning": {
+            "en": "As they ran about overcome by hunger, the Vedas were lost to all of them, O king; none had any recall."
+          }
         },
         {
           "n": 41,
-          "text": "अथ कश्चिदृषिस्तेषां सारस्वतमुपेयिवान् ।\nकुर्वाणं संशितात्मानं स्वाध्यायमृषिसत्तमम् ॥"
+          "text": "अथ कश्चिदृषिस्तेषां सारस्वतमुपेयिवान् ।\nकुर्वाणं संशितात्मानं स्वाध्यायमृषिसत्तमम् ॥",
+          "meaning": {
+            "en": "Then one of those seers came to Sarasvata, the best of sages, who was studying the Vedas with a disciplined mind."
+          }
         },
         {
           "n": 42,
-          "text": "स गत्वाचष्ट तेभ्यश्च सारस्वतमतिप्रभम् ।\nस्वाध्यायममरप्रख्यं कुर्वाणं विजने जने ॥"
+          "text": "स गत्वाचष्ट तेभ्यश्च सारस्वतमतिप्रभम् ।\nस्वाध्यायममरप्रख्यं कुर्वाणं विजने जने ॥",
+          "meaning": {
+            "en": "He went and told the others of the brilliant Sarasvata, who was reciting the Veda like an immortal in a deserted place."
+          }
         },
         {
           "n": 43,
-          "text": "ततः सर्वे समाजग्मुस्तत्र राजन्महर्षयः ।\nसारस्वतं मुनिश्रेष्ठमिदमूचुः समागताः ॥"
+          "text": "ततः सर्वे समाजग्मुस्तत्र राजन्महर्षयः ।\nसारस्वतं मुनिश्रेष्ठमिदमूचुः समागताः ॥",
+          "meaning": {
+            "en": "Then all the great sages gathered there, O king, and said to Sarasvata, the best of sages:"
+          }
         },
         {
           "n": 44,
-          "text": "अस्मानध्यापयस्वेति तानुवाच ततो मुनिः ।\nशिष्यत्वमुपगच्छध्वं विधिवद्भो ममेत्युत ॥"
+          "text": "अस्मानध्यापयस्वेति तानुवाच ततो मुनिः ।\nशिष्यत्वमुपगच्छध्वं विधिवद्भो ममेत्युत ॥",
+          "meaning": {
+            "en": "\"Teach us.\" The sage replied to them: \"Become my pupils in due form.\""
+          }
         },
         {
           "n": 45,
-          "text": "ततोऽब्रवीदृषिगणो बालस्त्वमसि पुत्रक ।\nस तानाह न मे धर्मो नश्येदिति पुनर्मुनीन् ॥"
+          "text": "ततोऽब्रवीदृषिगणो बालस्त्वमसि पुत्रक ।\nस तानाह न मे धर्मो नश्येदिति पुनर्मुनीन् ॥",
+          "meaning": {
+            "en": "The company of seers said: \"You are only a boy, son.\" He answered those sages: \"My dharma must not be lost.\""
+          }
         },
         {
           "n": 46,
-          "text": "यो ह्यधर्मेण विब्रूयाद्गृह्णीयाद्वाप्यधर्मतः ।\nम्रियतां तावुभौ क्षिप्रं स्यातां वा वैरिणावुभौ ॥"
+          "text": "यो ह्यधर्मेण विब्रूयाद्गृह्णीयाद्वाप्यधर्मतः ।\nम्रियतां तावुभौ क्षिप्रं स्यातां वा वैरिणावुभौ ॥",
+          "meaning": {
+            "en": "\"Let one who teaches against dharma, or one who learns against dharma, quickly die, or else the two become enemies.\""
+          }
         },
         {
           "n": 47,
-          "text": "न हायनैर्न पलितैर्न वित्तेन न बन्धुभिः ।\nऋषयश्चक्रिरे धर्मं योऽनूचानः स नो महान् ॥"
+          "text": "न हायनैर्न पलितैर्न वित्तेन न बन्धुभिः ।\nऋषयश्चक्रिरे धर्मं योऽनूचानः स नो महान् ॥",
+          "meaning": {
+            "en": "\"Seers did not make dharma by years, by grey hair, by wealth or by relatives; whoever has mastered the Vedas is great among us.\""
+          }
         },
         {
           "n": 48,
-          "text": "एतच्छ्रुत्वा वचस्तस्य मुनयस्ते विधानतः ।\nतस्माद्वेदाननुप्राप्य पुनर्धर्मं प्रचक्रिरे ॥"
+          "text": "एतच्छ्रुत्वा वचस्तस्य मुनयस्ते विधानतः ।\nतस्माद्वेदाननुप्राप्य पुनर्धर्मं प्रचक्रिरे ॥",
+          "meaning": {
+            "en": "Hearing his words, those sages duly became his pupils, learned the Vedas from him, and took up dharma again."
+          }
         },
         {
           "n": 49,
-          "text": "षष्टिर्मुनिसहस्राणि शिष्यत्वं प्रतिपेदिरे ।\nसारस्वतस्य विप्रर्षेर्वेदस्वाध्यायकारणात् ॥"
+          "text": "षष्टिर्मुनिसहस्राणि शिष्यत्वं प्रतिपेदिरे ।\nसारस्वतस्य विप्रर्षेर्वेदस्वाध्यायकारणात् ॥",
+          "meaning": {
+            "en": "Sixty thousand sages became pupils of the brahmin sage Sarasvata to study the Veda."
+          }
         },
         {
           "n": 50,
-          "text": "मुष्टिं मुष्टिं ततः सर्वे दर्भाणां तेऽभ्युपाहरन् ।\nतस्यासनार्थं विप्रर्षेर्बालस्यापि वशे स्थिताः ॥"
+          "text": "मुष्टिं मुष्टिं ततः सर्वे दर्भाणां तेऽभ्युपाहरन् ।\nतस्यासनार्थं विप्रर्षेर्बालस्यापि वशे स्थिताः ॥",
+          "meaning": {
+            "en": "Each of them then brought a handful of darbha grass to make a seat for the brahmin sage, though he was only a boy, for they stood under his authority."
+          }
         },
         {
           "n": 51,
-          "text": "तत्रापि दत्त्वा वसु रौहिणेयो\nमहाबलः केशवपूर्वजोऽथ ।\nजगाम तीर्थं मुदितः क्रमेण\nख्यातं महद्वृद्धकन्या स्म यत्र ॥"
+          "text": "तत्रापि दत्त्वा वसु रौहिणेयो\nमहाबलः केशवपूर्वजोऽथ ।\nजगाम तीर्थं मुदितः क्रमेण\nख्यातं महद्वृद्धकन्या स्म यत्र ॥",
+          "meaning": {
+            "en": "There too the mighty son of Rohini, elder brother of Keshava, gave wealth, and then gladly went in due order to the great and famous ford where the old maiden lived."
+          }
         }
       ]
     }

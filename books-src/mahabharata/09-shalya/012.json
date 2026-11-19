@@ -22,187 +22,325 @@
       "titleEn": "Shalya Parva",
       "verses": [
         {
-          "text": "संजय उवाच"
+          "text": "संजय उवाच",
+          "meaning": {
+            "en": "Sanjaya said:"
+          }
         },
         {
           "n": 1,
-          "text": "पीडिते धर्मराजे तु मद्रराजेन मारिष ।\nसात्यकिर्भीमसेनश्च माद्रीपुत्रौ च पाण्डवौ ।\nपरिवार्य रथैः शल्यं पीडयामासुराहवे ॥"
+          "text": "पीडिते धर्मराजे तु मद्रराजेन मारिष ।\nसात्यकिर्भीमसेनश्च माद्रीपुत्रौ च पाण्डवौ ।\nपरिवार्य रथैः शल्यं पीडयामासुराहवे ॥",
+          "meaning": {
+            "en": "When Yudhishthira, the king of dharma, was hurt by the king of Madras, my lord, Satyaki, Bhimasena and the two Pandava sons of Madri surrounded Shalya with their chariots and harried him in the fight."
+          }
         },
         {
           "n": 2,
-          "text": "तमेकं बहुभिर्दृष्ट्वा पीड्यमानं महारथैः ।\nसाधुवादो महाञ्जज्ञे सिद्धाश्चासन्प्रहर्षिताः ।\nआश्चर्यमित्यभाषन्त मुनयश्चापि संगताः ॥"
+          "text": "तमेकं बहुभिर्दृष्ट्वा पीड्यमानं महारथैः ।\nसाधुवादो महाञ्जज्ञे सिद्धाश्चासन्प्रहर्षिताः ।\nआश्चर्यमित्यभाषन्त मुनयश्चापि संगताः ॥",
+          "meaning": {
+            "en": "Seeing that one man hard pressed by many great warriors, a great cry of applause went up, the siddhas were thrilled, and the sages gathered there said, \"How wonderful!\""
+          }
         },
         {
           "n": 3,
-          "text": "भीमसेनो रणे शल्यं शल्यभूतं पराक्रमे ।\nएकेन विद्ध्वा बाणेन पुनर्विव्याध सप्तभिः ॥"
+          "text": "भीमसेनो रणे शल्यं शल्यभूतं पराक्रमे ।\nएकेन विद्ध्वा बाणेन पुनर्विव्याध सप्तभिः ॥",
+          "meaning": {
+            "en": "In the battle Bhimasena struck Shalya, who was himself like a barb in his prowess, with one arrow and then pierced him again with seven."
+          }
         },
         {
           "n": 4,
-          "text": "सात्यकिश्च शतेनैनं धर्मपुत्रपरीप्सया ।\nमद्रेश्वरमवाकीर्य सिंहनादमथानदत् ॥"
+          "text": "सात्यकिश्च शतेनैनं धर्मपुत्रपरीप्सया ।\nमद्रेश्वरमवाकीर्य सिंहनादमथानदत् ॥",
+          "meaning": {
+            "en": "Satyaki, wanting to rescue the son of Dharma, showered the lord of Madra with a hundred arrows and roared a lion's roar."
+          }
         },
         {
           "n": 5,
-          "text": "नकुलः पञ्चभिश्चैनं सहदेवश्च सप्तभिः ।\nविद्ध्वा तं तु ततस्तूर्णं पुनर्विव्याध सप्तभिः ॥"
+          "text": "नकुलः पञ्चभिश्चैनं सहदेवश्च सप्तभिः ।\nविद्ध्वा तं तु ततस्तूर्णं पुनर्विव्याध सप्तभिः ॥",
+          "meaning": {
+            "en": "Nakula pierced him with five, Sahadeva with seven, and then both swiftly pierced him again with seven."
+          }
         },
         {
           "n": 6,
-          "text": "स तु शूरो रणे यत्तः पीडितस्तैर्महारथैः ।\nविकृष्य कार्मुकं घोरं वेगघ्नं भारसाधनम् ॥"
+          "text": "स तु शूरो रणे यत्तः पीडितस्तैर्महारथैः ।\nविकृष्य कार्मुकं घोरं वेगघ्नं भारसाधनम् ॥",
+          "meaning": {
+            "en": "But that brave man, standing firm in the battle and harried by those great warriors, drew his dreadful bow, which was swift and bore its burden well."
+          }
         },
         {
           "n": 7,
-          "text": "सात्यकिं पञ्चविंशत्या शल्यो विव्याध मारिष ।\nभीमसेनं त्रिसप्तत्या नकुलं सप्तभिस्तथा ॥"
+          "text": "सात्यकिं पञ्चविंशत्या शल्यो विव्याध मारिष ।\nभीमसेनं त्रिसप्तत्या नकुलं सप्तभिस्तथा ॥",
+          "meaning": {
+            "en": "Shalya, my lord, pierced Satyaki with twenty-five arrows, Bhimasena with seventy-three, and Nakula with seven."
+          }
         },
         {
           "n": 8,
-          "text": "ततः सविशिखं चापं सहदेवस्य धन्विनः ।\nछित्त्वा भल्लेन समरे विव्याधैनं त्रिसप्तभिः ॥"
+          "text": "ततः सविशिखं चापं सहदेवस्य धन्विनः ।\nछित्त्वा भल्लेन समरे विव्याधैनं त्रिसप्तभिः ॥",
+          "meaning": {
+            "en": "Then, cutting with a broad-headed arrow the bow of archer Sahadeva, arrow and all, he pierced him with seventy-three more."
+          }
         },
         {
           "n": 9,
-          "text": "सहदेवस्तु समरे मातुलं भूरिवर्चसम् ।\nसज्यमन्यद्धनुः कृत्वा पञ्चभिः समताडयत् ।\nशरैराशीविषाकारैर्ज्वलज्ज्वलनसंनिभैः ॥"
+          "text": "सहदेवस्तु समरे मातुलं भूरिवर्चसम् ।\nसज्यमन्यद्धनुः कृत्वा पञ्चभिः समताडयत् ।\nशरैराशीविषाकारैर्ज्वलज्ज्वलनसंनिभैः ॥",
+          "meaning": {
+            "en": "Sahadeva, strapping another bow, in the battle struck his maternal uncle of great radiance with five arrows like venomous snakes, blazing like fire."
+          }
         },
         {
           "n": 10,
-          "text": "सारथिं चास्य समरे शरेणानतपर्वणा ।\nविव्याध भृशसंक्रुद्धस्तं च भूयस्त्रिभिः शरैः ॥"
+          "text": "सारथिं चास्य समरे शरेणानतपर्वणा ।\nविव्याध भृशसंक्रुद्धस्तं च भूयस्त्रिभिः शरैः ॥",
+          "meaning": {
+            "en": "Greatly enraged, he also pierced Shalya's charioteer with an arrow with bent joints, and then pierced Shalya again with three arrows."
+          }
         },
         {
           "n": 11,
-          "text": "भीमसेनस्त्रिसप्तत्या सात्यकिर्नवभिः शरैः ।\nधर्मराजस्तथा षष्ट्या गात्रे शल्यं समर्पयत् ॥"
+          "text": "भीमसेनस्त्रिसप्तत्या सात्यकिर्नवभिः शरैः ।\nधर्मराजस्तथा षष्ट्या गात्रे शल्यं समर्पयत् ॥",
+          "meaning": {
+            "en": "Bhimasena pierced Shalya's body with seventy-three arrows, Satyaki with nine, and the king of dharma with sixty."
+          }
         },
         {
           "n": 12,
-          "text": "ततः शल्यो महाराज निर्विद्धस्तैर्महारथैः ।\nसुस्राव रुधिरं गात्रैर्गैरिकं पर्वतो यथा ॥"
+          "text": "ततः शल्यो महाराज निर्विद्धस्तैर्महारथैः ।\nसुस्राव रुधिरं गात्रैर्गैरिकं पर्वतो यथा ॥",
+          "meaning": {
+            "en": "Pierced by those great warriors, great king, Shalya bled from his limbs like a mountain streaming red ochre."
+          }
         },
         {
           "n": 13,
-          "text": "तांश्च सर्वान्महेष्वासान्पञ्चभिः पञ्चभिः शरैः ।\nविव्याध तरसा राजंस्तदद्भुतमिवाभवत् ॥"
+          "text": "तांश्च सर्वान्महेष्वासान्पञ्चभिः पञ्चभिः शरैः ।\nविव्याध तरसा राजंस्तदद्भुतमिवाभवत् ॥",
+          "meaning": {
+            "en": "Then he swiftly pierced all those great archers with five arrows each, O king, and that seemed a wonder."
+          }
         },
         {
           "n": 14,
-          "text": "ततोऽपरेण भल्लेन धर्मपुत्रस्य मारिष ।\nधनुश्चिच्छेद समरे सज्यं स सुमहारथः ॥"
+          "text": "ततोऽपरेण भल्लेन धर्मपुत्रस्य मारिष ।\nधनुश्चिच्छेद समरे सज्यं स सुमहारथः ॥",
+          "meaning": {
+            "en": "Then with another broad-headed arrow that great warrior cut the strung bow of the son of Dharma in the battle, my lord."
+          }
         },
         {
           "n": 15,
-          "text": "अथान्यद्धनुरादाय धर्मपुत्रो महारथः ।\nसाश्वसूतध्वजरथं शल्यं प्राच्छादयच्छरैः ॥"
+          "text": "अथान्यद्धनुरादाय धर्मपुत्रो महारथः ।\nसाश्वसूतध्वजरथं शल्यं प्राच्छादयच्छरैः ॥",
+          "meaning": {
+            "en": "The great warrior son of Dharma took another bow and covered Shalya, with his horses, charioteer, banner and chariot, with arrows."
+          }
         },
         {
           "n": 16,
-          "text": "स च्छाद्यमानः समरे धर्मपुत्रस्य सायकैः ।\nयुधिष्ठिरमथाविध्यद्दशभिर्निशितैः शरैः ॥"
+          "text": "स च्छाद्यमानः समरे धर्मपुत्रस्य सायकैः ।\nयुधिष्ठिरमथाविध्यद्दशभिर्निशितैः शरैः ॥",
+          "meaning": {
+            "en": "Covered in the battle by the arrows of the son of Dharma, Shalya pierced Yudhishthira with ten sharp arrows."
+          }
         },
         {
           "n": 17,
-          "text": "सात्यकिस्तु ततः क्रुद्धो धर्मपुत्रे शरार्दिते ।\nमद्राणामधिपं शूरं शरौघैः समवारयत् ॥"
+          "text": "सात्यकिस्तु ततः क्रुद्धो धर्मपुत्रे शरार्दिते ।\nमद्राणामधिपं शूरं शरौघैः समवारयत् ॥",
+          "meaning": {
+            "en": "Then Satyaki, angry that the son of Dharma was hurt by arrows, checked the brave lord of the Madras with floods of arrows."
+          }
         },
         {
           "n": 18,
-          "text": "स सात्यकेः प्रचिच्छेद क्षुरप्रेण महद्धनुः ।\nभीमसेनमुखांस्तांश्च त्रिभिस्त्रिभिरताडयत् ॥"
+          "text": "स सात्यकेः प्रचिच्छेद क्षुरप्रेण महद्धनुः ।\nभीमसेनमुखांस्तांश्च त्रिभिस्त्रिभिरताडयत् ॥",
+          "meaning": {
+            "en": "Shalya cut Satyaki's great bow with a razor-edged arrow and struck Bhimasena and the others with three arrows each."
+          }
         },
         {
           "n": 19,
-          "text": "तस्य क्रुद्धो महाराज सात्यकिः सत्यविक्रमः ।\nतोमरं प्रेषयामास स्वर्णदण्डं महाधनम् ॥"
+          "text": "तस्य क्रुद्धो महाराज सात्यकिः सत्यविक्रमः ।\nतोमरं प्रेषयामास स्वर्णदण्डं महाधनम् ॥",
+          "meaning": {
+            "en": "Then Satyaki, true in valor, enraged, great king, hurled at him a very valuable spear with a golden shaft."
+          }
         },
         {
           "n": 20,
-          "text": "भीमसेनोऽथ नाराचं ज्वलन्तमिव पन्नगम् ।\nनकुलः समरे शक्तिं सहदेवो गदां शुभाम् ।\nधर्मराजः शतघ्नीं तु जिघांसुः शल्यमाहवे ॥"
+          "text": "भीमसेनोऽथ नाराचं ज्वलन्तमिव पन्नगम् ।\nनकुलः समरे शक्तिं सहदेवो गदां शुभाम् ।\nधर्मराजः शतघ्नीं तु जिघांसुः शल्यमाहवे ॥",
+          "meaning": {
+            "en": "Bhima hurled an iron arrow like a blazing snake, Nakula a lance, Sahadeva a fine mace, and the king of dharma a hundred-slayer, each wanting to kill Shalya in the battle."
+          }
         },
         {
           "n": 21,
-          "text": "तानापतत एवाशु पञ्चानां वै भुजच्युतान् ।\nसात्यकिप्रहितं शल्यो भल्लैश्चिच्छेद तोमरम् ॥"
+          "text": "तानापतत एवाशु पञ्चानां वै भुजच्युतान् ।\nसात्यकिप्रहितं शल्यो भल्लैश्चिच्छेद तोमरम् ॥",
+          "meaning": {
+            "en": "As these five weapons flew from the arms of the five, Shalya quickly cut the spear that Satyaki had sent with broad-headed arrows."
+          }
         },
         {
           "n": 22,
-          "text": "भीमेन प्रहितं चापि शरं कनकभूषणम् ।\nद्विधा चिच्छेद समरे कृतहस्तः प्रतापवान् ॥"
+          "text": "भीमेन प्रहितं चापि शरं कनकभूषणम् ।\nद्विधा चिच्छेद समरे कृतहस्तः प्रतापवान् ॥",
+          "meaning": {
+            "en": "The golden-adorned arrow sent by Bhima he cut in two in the battle, that powerful, skilled man."
+          }
         },
         {
           "n": 23,
-          "text": "नकुलप्रेषितां शक्तिं हेमदण्डां भयावहाम् ।\nगदां च सहदेवेन शरौघैः समवारयत् ॥"
+          "text": "नकुलप्रेषितां शक्तिं हेमदण्डां भयावहाम् ।\nगदां च सहदेवेन शरौघैः समवारयत् ॥",
+          "meaning": {
+            "en": "He checked the fearsome lance with a golden shaft sent by Nakula, and the mace sent by Sahadeva, with floods of arrows."
+          }
         },
         {
           "n": 24,
-          "text": "शराभ्यां च शतघ्नीं तां राज्ञश्चिच्छेद भारत ।\nपश्यतां पाण्डुपुत्राणां सिंहनादं ननाद च ।\nनामृष्यत्तं तु शैनेयः शत्रोर्विजयमाहवे ॥"
+          "text": "शराभ्यां च शतघ्नीं तां राज्ञश्चिच्छेद भारत ।\nपश्यतां पाण्डुपुत्राणां सिंहनादं ननाद च ।\nनामृष्यत्तं तु शैनेयः शत्रोर्विजयमाहवे ॥",
+          "meaning": {
+            "en": "With two arrows, Bharata, he cut that hundred-slayer of the king, and roared a lion's roar as the sons of Pandu watched; but Shini's descendant could not bear the enemy's triumph in battle."
+          }
         },
         {
           "n": 25,
-          "text": "अथान्यद्धनुरादाय सात्यकिः क्रोधमूर्छितः ।\nद्वाभ्यां मद्रेश्वरं विद्ध्वा सारथिं च त्रिभिः शरैः ॥"
+          "text": "अथान्यद्धनुरादाय सात्यकिः क्रोधमूर्छितः ।\nद्वाभ्यां मद्रेश्वरं विद्ध्वा सारथिं च त्रिभिः शरैः ॥",
+          "meaning": {
+            "en": "Then Satyaki, faint with rage, took another bow, pierced the lord of Madra with two arrows and his charioteer with three."
+          }
         },
         {
           "n": 26,
-          "text": "ततः शल्यो महाराज सर्वांस्तान्दशभिः शरैः ।\nविव्याध सुभृशं क्रुद्धस्तोत्त्रैरिव महाद्विपान् ॥"
+          "text": "ततः शल्यो महाराज सर्वांस्तान्दशभिः शरैः ।\nविव्याध सुभृशं क्रुद्धस्तोत्त्रैरिव महाद्विपान् ॥",
+          "meaning": {
+            "en": "Then Shalya, greatly enraged, great king, pierced all of them with ten arrows each, as goads pierce great elephants."
+          }
         },
         {
           "n": 27,
-          "text": "ते वार्यमाणाः समरे मद्रराज्ञा महारथाः ।\nन शेकुः प्रमुखे स्थातुं तस्य शत्रुनिषूदनाः ॥"
+          "text": "ते वार्यमाणाः समरे मद्रराज्ञा महारथाः ।\nन शेकुः प्रमुखे स्थातुं तस्य शत्रुनिषूदनाः ॥",
+          "meaning": {
+            "en": "Checked by the king of Madras in the battle, those great slayers of foes could not stand before him."
+          }
         },
         {
           "n": 28,
-          "text": "ततो दुर्योधनो राजा दृष्ट्वा शल्यस्य विक्रमम् ।\nनिहतान्पाण्डवान्मेने पाञ्चालानथ सृञ्जयान् ॥"
+          "text": "ततो दुर्योधनो राजा दृष्ट्वा शल्यस्य विक्रमम् ।\nनिहतान्पाण्डवान्मेने पाञ्चालानथ सृञ्जयान् ॥",
+          "meaning": {
+            "en": "Then King Duryodhana, seeing Shalya's prowess, thought that the Pandavas, Panchalas and Srinjayas had been killed."
+          }
         },
         {
           "n": 29,
-          "text": "ततो राजन्महाबाहुर्भीमसेनः प्रतापवान् ।\nसंत्यज्य मनसा प्राणान्मद्राधिपमयोधयत् ॥"
+          "text": "ततो राजन्महाबाहुर्भीमसेनः प्रतापवान् ।\nसंत्यज्य मनसा प्राणान्मद्राधिपमयोधयत् ॥",
+          "meaning": {
+            "en": "Then, O king, mighty-armed, powerful Bhimasena, giving up all thought of life, fought the lord of Madra."
+          }
         },
         {
           "n": 30,
-          "text": "नकुलः सहदेवश्च सात्यकिश्च महारथः ।\nपरिवार्य तदा शल्यं समन्ताद्व्यकिरञ्शरैः ॥"
+          "text": "नकुलः सहदेवश्च सात्यकिश्च महारथः ।\nपरिवार्य तदा शल्यं समन्ताद्व्यकिरञ्शरैः ॥",
+          "meaning": {
+            "en": "Nakula, Sahadeva and the great warrior Satyaki surrounded Shalya on every side and scattered arrows over him."
+          }
         },
         {
           "n": 31,
-          "text": "स चतुर्भिर्महेष्वासैः पाण्डवानां महारथैः ।\nवृतस्तान्योधयामास मद्रराजः प्रतापवान् ॥"
+          "text": "स चतुर्भिर्महेष्वासैः पाण्डवानां महारथैः ।\nवृतस्तान्योधयामास मद्रराजः प्रतापवान् ॥",
+          "meaning": {
+            "en": "Surrounded by those four great archers, great warriors of the Pandavas, the mighty king of Madras fought them."
+          }
         },
         {
           "n": 32,
-          "text": "तस्य धर्मसुतो राजन्क्षुरप्रेण महाहवे ।\nचक्ररक्षं जघानाशु मद्रराजस्य पार्थिव ॥"
+          "text": "तस्य धर्मसुतो राजन्क्षुरप्रेण महाहवे ।\nचक्ररक्षं जघानाशु मद्रराजस्य पार्थिव ॥",
+          "meaning": {
+            "en": "Then, O king, the son of Dharma quickly killed Shalya's wheel-guard with a razor-edged arrow in that great battle."
+          }
         },
         {
           "n": 33,
-          "text": "तस्मिंस्तु निहते शूरे चक्ररक्षे महारथे ।\nमद्रराजोऽतिबलवान्सैनिकानास्तृणोच्छरैः ॥"
+          "text": "तस्मिंस्तु निहते शूरे चक्ररक्षे महारथे ।\nमद्रराजोऽतिबलवान्सैनिकानास्तृणोच्छरैः ॥",
+          "meaning": {
+            "en": "When that brave great warrior, his wheel-guard, was killed, the very strong king of Madras covered the soldiers with arrows."
+          }
         },
         {
           "n": 34,
-          "text": "समाच्छन्नांस्ततस्तांस्तु राजन्वीक्ष्य स सैनिकान् ।\nचिन्तयामास समरे धर्मराजो युधिष्ठिरः ॥"
+          "text": "समाच्छन्नांस्ततस्तांस्तु राजन्वीक्ष्य स सैनिकान् ।\nचिन्तयामास समरे धर्मराजो युधिष्ठिरः ॥",
+          "meaning": {
+            "en": "Seeing his soldiers so covered in the battle, King Yudhishthira, the king of dharma, thought,"
+          }
         },
         {
           "n": 35,
-          "text": "कथं नु न भवेत्सत्यं तन्माधववचो महत् ।\nन हि क्रुद्धो रणे राजा क्षपयेत बलं मम ॥"
+          "text": "कथं नु न भवेत्सत्यं तन्माधववचो महत् ।\nन हि क्रुद्धो रणे राजा क्षपयेत बलं मम ॥",
+          "meaning": {
+            "en": "\"How can that great word of Madhava fail to be true? For an angry king in battle would not let my army be destroyed.\""
+          }
         },
         {
           "n": 36,
-          "text": "ततः सरथनागाश्वाः पाण्डवाः पाण्डुपूर्वज ।\nमद्रेश्वरं समासेदुः पीडयन्तः समन्ततः ॥"
+          "text": "ततः सरथनागाश्वाः पाण्डवाः पाण्डुपूर्वज ।\nमद्रेश्वरं समासेदुः पीडयन्तः समन्ततः ॥",
+          "meaning": {
+            "en": "Then the Pandavas, O elder of Pandu's line, with their chariots, elephants and horses, approached the lord of Madra, pressing him on every side."
+          }
         },
         {
           "n": 37,
-          "text": "नानाशस्त्रौघबहुलां शस्त्रवृष्टिं समुत्थिताम् ।\nव्यधमत्समरे राजन्महाभ्राणीव मारुतः ॥"
+          "text": "नानाशस्त्रौघबहुलां शस्त्रवृष्टिं समुत्थिताम् ।\nव्यधमत्समरे राजन्महाभ्राणीव मारुतः ॥",
+          "meaning": {
+            "en": "In the battle he scattered like wind scattering great clouds the rising downpour of weapons, thick with floods of many arms."
+          }
         },
         {
           "n": 38,
-          "text": "ततः कनकपुङ्खां तां शल्यक्षिप्तां वियद्गताम् ।\nशरवृष्टिमपश्याम शलभानामिवाततिम् ॥"
+          "text": "ततः कनकपुङ्खां तां शल्यक्षिप्तां वियद्गताम् ।\nशरवृष्टिमपश्याम शलभानामिवाततिम् ॥",
+          "meaning": {
+            "en": "Then we saw the shower of arrows with golden feathers shot by Shalya, flying through the sky like a swarm of locusts."
+          }
         },
         {
           "n": 39,
-          "text": "ते शरा मद्रराजेन प्रेषिता रणमूर्धनि ।\nसंपतन्तः स्म दृश्यन्ते शलभानां व्रजा इव ॥"
+          "text": "ते शरा मद्रराजेन प्रेषिता रणमूर्धनि ।\nसंपतन्तः स्म दृश्यन्ते शलभानां व्रजा इव ॥",
+          "meaning": {
+            "en": "Those arrows sent by the king of Madras at the head of the battle were seen falling like flights of locusts."
+          }
         },
         {
           "n": 40,
-          "text": "मद्रराजधनुर्मुक्तैः शरैः कनकभूषणैः ।\nनिरन्तरमिवाकाशं संबभूव जनाधिप ॥"
+          "text": "मद्रराजधनुर्मुक्तैः शरैः कनकभूषणैः ।\nनिरन्तरमिवाकाशं संबभूव जनाधिप ॥",
+          "meaning": {
+            "en": "With the golden-adorned arrows loosed from the bow of the king of Madras the sky became, lord of the people, as if without a gap."
+          }
         },
         {
           "n": 41,
-          "text": "न पाण्डवानां नास्माकं तत्र कश्चिद्व्यदृश्यत ।\nबाणान्धकारे महति कृते तत्र महाभये ॥"
+          "text": "न पाण्डवानां नास्माकं तत्र कश्चिद्व्यदृश्यत ।\nबाणान्धकारे महति कृते तत्र महाभये ॥",
+          "meaning": {
+            "en": "In the great arrow-darkness made there in that great terror, none of the Pandavas or of our side could be seen."
+          }
         },
         {
           "n": 42,
-          "text": "मद्रराजेन बलिना लाघवाच्छरवृष्टिभिः ।\nलोड्यमानं तथा दृष्ट्वा पाण्डवानां बलार्णवम् ।\nविस्मयं परमं जग्मुर्देवगन्धर्वदानवाः ॥"
+          "text": "मद्रराजेन बलिना लाघवाच्छरवृष्टिभिः ।\nलोड्यमानं तथा दृष्ट्वा पाण्डवानां बलार्णवम् ।\nविस्मयं परमं जग्मुर्देवगन्धर्वदानवाः ॥",
+          "meaning": {
+            "en": "Seeing the Pandavas' ocean of an army churned by the strong king of Madras with his quick showers of arrows, gods, gandharvas and danavas were filled with great wonder."
+          }
         },
         {
           "n": 43,
-          "text": "स तु तान्सर्वतो यत्ताञ्शरैः संपीड्य मारिष ।\nधर्मराजमवच्छाद्य सिंहवद्व्यनदन्मुहुः ॥"
+          "text": "स तु तान्सर्वतो यत्ताञ्शरैः संपीड्य मारिष ।\nधर्मराजमवच्छाद्य सिंहवद्व्यनदन्मुहुः ॥",
+          "meaning": {
+            "en": "But pressing them all hard on every side with arrows, my lord, and covering Yudhishthira, he roared again and again like a lion."
+          }
         },
         {
           "n": 44,
-          "text": "ते छन्नाः समरे तेन पाण्डवानां महारथाः ।\nन शेकुस्तं तदा युद्धे प्रत्युद्यातुं महारथम् ॥"
+          "text": "ते छन्नाः समरे तेन पाण्डवानां महारथाः ।\nन शेकुस्तं तदा युद्धे प्रत्युद्यातुं महारथम् ॥",
+          "meaning": {
+            "en": "Covered by him in the battle, the great warriors of the Pandavas could not then advance against that great warrior in the fight."
+          }
         },
         {
           "n": 45,
-          "text": "धर्मराजपुरोगास्तु भीमसेनमुखा रथाः ।\nन जहुः समरे शूरं शल्यमाहवशोभिनम् ॥"
+          "text": "धर्मराजपुरोगास्तु भीमसेनमुखा रथाः ।\nन जहुः समरे शूरं शल्यमाहवशोभिनम् ॥",
+          "meaning": {
+            "en": "Yet the chariots led by the king of dharma, with Bhimasena at their head, did not leave brave Shalya, who shone in the fight."
+          }
         }
       ]
     }

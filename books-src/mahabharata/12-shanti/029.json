@@ -22,577 +22,1009 @@
       "titleEn": "Rajadharma Parva (Duties of kings)",
       "verses": [
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 1,
-          "text": "अव्याहरति कौन्तेये धर्मपुत्रे युधिष्ठिरे ।\nगुडाकेशो हृषीकेशमभ्यभाषत पाण्डवः ॥"
+          "text": "अव्याहरति कौन्तेये धर्मपुत्रे युधिष्ठिरे ।\nगुडाकेशो हृषीकेशमभ्यभाषत पाण्डवः ॥",
+          "meaning": {
+            "en": "While Yudhishthira, Kunti's son and the son of Dharma, stayed silent, the Pandava Arjuna, lord of sleep, spoke to Hrishikesha."
+          }
         },
         {
           "n": 2,
-          "text": "ज्ञातिशोकाभिसंतप्तो धर्मराजः परंतपः ।\nएष शोकार्णवे मग्नस्तमाश्वासय माधव ॥"
+          "text": "ज्ञातिशोकाभिसंतप्तो धर्मराजः परंतपः ।\nएष शोकार्णवे मग्नस्तमाश्वासय माधव ॥",
+          "meaning": {
+            "en": "Dharmaraja Yudhishthira, scorcher of foes, is tormented by grief for his kinsmen and has sunk into an ocean of sorrow; console him, Madhava."
+          }
         },
         {
           "n": 3,
-          "text": "सर्वे स्म ते संशयिताः पुनरेव जनार्दन ।\nअस्य शोकं महाबाहो प्रणाशयितुमर्हसि ॥"
+          "text": "सर्वे स्म ते संशयिताः पुनरेव जनार्दन ।\nअस्य शोकं महाबाहो प्रणाशयितुमर्हसि ॥",
+          "meaning": {
+            "en": "Janardana, all of us are again in doubt; mighty-armed one, you alone can remove his grief."
+          }
         },
         {
           "n": 4,
-          "text": "एवमुक्तस्तु गोविन्दो विजयेन महात्मना ।\nपर्यवर्तत राजानं पुण्डरीकेक्षणोऽच्युतः ॥"
+          "text": "एवमुक्तस्तु गोविन्दो विजयेन महात्मना ।\nपर्यवर्तत राजानं पुण्डरीकेक्षणोऽच्युतः ॥",
+          "meaning": {
+            "en": "Spoken to thus by the great-souled Arjuna, Govinda, the lotus-eyed and unfallen, turned toward the king."
+          }
         },
         {
           "n": 5,
-          "text": "अनतिक्रमणीयो हि धर्मराजस्य केशवः ।\nबाल्यात्प्रभृति गोविन्दः प्रीत्या चाभ्यधिकोऽर्जुनात् ॥"
+          "text": "अनतिक्रमणीयो हि धर्मराजस्य केशवः ।\nबाल्यात्प्रभृति गोविन्दः प्रीत्या चाभ्यधिकोऽर्जुनात् ॥",
+          "meaning": {
+            "en": "For Keshava could not cross Dharmaraja's wishes, and from childhood Govinda loved him even more than Arjuna."
+          }
         },
         {
           "n": 6,
-          "text": "संप्रगृह्य महाबाहुर्भुजं चन्दनभूषितम् ।\nशैलस्तम्भोपमं शौरिरुवाचाभिविनोदयन् ॥"
+          "text": "संप्रगृह्य महाबाहुर्भुजं चन्दनभूषितम् ।\nशैलस्तम्भोपमं शौरिरुवाचाभिविनोदयन् ॥",
+          "meaning": {
+            "en": "The mighty-armed Shauri took the king's sandal-smeared arm, as firm as a mountain pillar, and spoke to cheer him."
+          }
         },
         {
           "n": 7,
-          "text": "शुशुभे वदनं तस्य सुदंष्ट्रं चारुलोचनम् ।\nव्याकोशमिव विस्पष्टं पद्मं सूर्यविबोधितम् ॥"
+          "text": "शुशुभे वदनं तस्य सुदंष्ट्रं चारुलोचनम् ।\nव्याकोशमिव विस्पष्टं पद्मं सूर्यविबोधितम् ॥",
+          "meaning": {
+            "en": "His face with its fine teeth and lovely eyes shone clearly, like a lotus opened wide by the sun."
+          }
         },
         {
           "n": 8,
-          "text": "मा कृथाः पुरुषव्याघ्र शोकं त्वं गात्रशोषणम् ।\nन हि ते सुलभा भूयो ये हतास्मिन्रणाजिरे ॥"
+          "text": "मा कृथाः पुरुषव्याघ्र शोकं त्वं गात्रशोषणम् ।\nन हि ते सुलभा भूयो ये हतास्मिन्रणाजिरे ॥",
+          "meaning": {
+            "en": "Tiger among men, do not give way to grief that wastes the body; those who have fallen on this battlefield are not easy to find again."
+          }
         },
         {
           "n": 9,
-          "text": "स्वप्नलब्धा यथा लाभा वितथाः प्रतिबोधने ।\nएवं ते क्षत्रिया राजन्ये व्यतीता महारणे ॥"
+          "text": "स्वप्नलब्धा यथा लाभा वितथाः प्रतिबोधने ।\nएवं ते क्षत्रिया राजन्ये व्यतीता महारणे ॥",
+          "meaning": {
+            "en": "Like gains won in a dream that prove false on waking, so those warriors, O king, have passed away in the great war."
+          }
         },
         {
           "n": 10,
-          "text": "सर्वे ह्यभिमुखाः शूरा विगता रणशोभिनः ।\nनैषां कश्चित्पृष्ठतो वा पलायन्वापि पातितः ॥"
+          "text": "सर्वे ह्यभिमुखाः शूरा विगता रणशोभिनः ।\nनैषां कश्चित्पृष्ठतो वा पलायन्वापि पातितः ॥",
+          "meaning": {
+            "en": "All those heroes, who adorned the battle, faced the enemy; not one of them was struck down while fleeing or turning his back."
+          }
         },
         {
           "n": 11,
-          "text": "सर्वे त्यक्त्वात्मनः प्राणान्युद्ध्वा वीरा महाहवे ।\nशस्त्रपूता दिवं प्राप्ता न ताञ्शोचितुमर्हसि ॥"
+          "text": "सर्वे त्यक्त्वात्मनः प्राणान्युद्ध्वा वीरा महाहवे ।\nशस्त्रपूता दिवं प्राप्ता न ताञ्शोचितुमर्हसि ॥",
+          "meaning": {
+            "en": "All those heroes gave up their lives fighting in the great battle, and purified by weapons they reached heaven; you should not grieve for them."
+          }
         },
         {
           "n": 12,
-          "text": "अत्रैवोदाहरन्तीममितिहासं पुरातनम् ।\nसृञ्जयं पुत्रशोकार्तं यथायं प्राह नारदः ॥"
+          "text": "अत्रैवोदाहरन्तीममितिहासं पुरातनम् ।\nसृञ्जयं पुत्रशोकार्तं यथायं प्राह नारदः ॥",
+          "meaning": {
+            "en": "On this very point they tell an ancient tale, how Narada once spoke to Srinjaya, who was stricken with grief for his son."
+          }
         },
         {
           "n": 13,
-          "text": "सुखदुःखैरहं त्वं च प्रजाः सर्वाश्च सृञ्जय ।\nअविमुक्तं चरिष्यामस्तत्र का परिदेवना ॥"
+          "text": "सुखदुःखैरहं त्वं च प्रजाः सर्वाश्च सृञ्जय ।\nअविमुक्तं चरिष्यामस्तत्र का परिदेवना ॥",
+          "meaning": {
+            "en": "Narada said: Srinjaya, you and I and all creatures move through pleasure and pain without ever being free of them; so what use is lamenting?"
+          }
         },
         {
           "n": 14,
-          "text": "महाभाग्यं परं राज्ञां कीर्त्यमानं मया शृणु ।\nगच्छावधानं नृपते ततो दुःखं प्रहास्यसि ॥"
+          "text": "महाभाग्यं परं राज्ञां कीर्त्यमानं मया शृणु ।\nगच्छावधानं नृपते ततो दुःखं प्रहास्यसि ॥",
+          "meaning": {
+            "en": "Listen to me recount the supreme greatness of kings; give me your attention, O king, and you will cast off your sorrow."
+          }
         },
         {
           "n": 15,
-          "text": "मृतान्महानुभावांस्त्वं श्रुत्वैव तु महीपतीन् ।\nश्रुत्वापनय संतापं शृणु विस्तरशश्च मे ॥"
+          "text": "मृतान्महानुभावांस्त्वं श्रुत्वैव तु महीपतीन् ।\nश्रुत्वापनय संतापं शृणु विस्तरशश्च मे ॥",
+          "meaning": {
+            "en": "Hearing only that these mighty rulers died, put away your torment; listen to me in detail."
+          }
         },
         {
           "n": 16,
-          "text": "आविक्षितं मरुत्तं मे मृतं सृञ्जय शुश्रुहि ।\nयस्य सेन्द्राः सवरुणा बृहस्पतिपुरोगमाः ।\nदेवा विश्वसृजो राज्ञो यज्ञमीयुर्महात्मनः ॥"
+          "text": "आविक्षितं मरुत्तं मे मृतं सृञ्जय शुश्रुहि ।\nयस्य सेन्द्राः सवरुणा बृहस्पतिपुरोगमाः ।\nदेवा विश्वसृजो राज्ञो यज्ञमीयुर्महात्मनः ॥",
+          "meaning": {
+            "en": "Srinjaya, hear that Marutta, son of Avikshit, also died; for his sacrifice the gods came, with Indra, Varuna and Brihaspati leading, the makers of the world."
+          }
         },
         {
           "n": 17,
-          "text": "यः स्पर्धामनयच्छक्रं देवराजं शतक्रतुम् ।\nशक्रप्रियैषी यं विद्वान्प्रत्याचष्ट बृहस्पतिः ।\nसंवर्तो याजयामास यं पीडार्थं बृहस्पतेः ॥"
+          "text": "यः स्पर्धामनयच्छक्रं देवराजं शतक्रतुम् ।\nशक्रप्रियैषी यं विद्वान्प्रत्याचष्ट बृहस्पतिः ।\nसंवर्तो याजयामास यं पीडार्थं बृहस्पतेः ॥",
+          "meaning": {
+            "en": "He was the one who challenged Indra of the hundred sacrifices; wise Brihaspati, wishing to please Indra, refused to officiate for him, and Samvarta performed his rites to spite Brihaspati."
+          }
         },
         {
           "n": 18,
-          "text": "यस्मिन्प्रशासति सतां नृपतौ नृपसत्तम ।\nअकृष्टपच्या पृथिवी विबभौ चैत्यमालिनी ॥"
+          "text": "यस्मिन्प्रशासति सतां नृपतौ नृपसत्तम ।\nअकृष्टपच्या पृथिवी विबभौ चैत्यमालिनी ॥",
+          "meaning": {
+            "en": "Best of kings, while that good king ruled, the earth shone with sacred shrines like garlands and bore crops without being ploughed."
+          }
         },
         {
           "n": 19,
-          "text": "आविक्षितस्य वै सत्रे विश्वे देवाः सभासदः ।\nमरुतः परिवेष्टारः साध्याश्चासन्महात्मनः ॥"
+          "text": "आविक्षितस्य वै सत्रे विश्वे देवाः सभासदः ।\nमरुतः परिवेष्टारः साध्याश्चासन्महात्मनः ॥",
+          "meaning": {
+            "en": "At Marutta's sacrifice the Vishvedevas were the assembly, the Maruts the servers, and the Sadhyas were there too."
+          }
         },
         {
           "n": 20,
-          "text": "मरुद्गणा मरुत्तस्य यत्सोममपिबन्त ते ।\nदेवान्मनुष्यान्गन्धर्वानत्यरिच्यन्त दक्षिणाः ॥"
+          "text": "मरुद्गणा मरुत्तस्य यत्सोममपिबन्त ते ।\nदेवान्मनुष्यान्गन्धर्वानत्यरिच्यन्त दक्षिणाः ॥",
+          "meaning": {
+            "en": "The Marut hosts drank Marutta's soma, and his sacrificial gifts surpassed those given to gods, men and gandharvas."
+          }
         },
         {
           "n": 21,
-          "text": "स चेन्ममार सृञ्जय चतुर्भद्रतरस्त्वया ।\nपुत्रात्पुण्यतरश्चैव मा पुत्रमनुतप्यथाः ॥"
+          "text": "स चेन्ममार सृञ्जय चतुर्भद्रतरस्त्वया ।\nपुत्रात्पुण्यतरश्चैव मा पुत्रमनुतप्यथाः ॥",
+          "meaning": {
+            "en": "Srinjaya, if he died, who was four times better than you and more virtuous than your son, do not grieve for your son."
+          }
         },
         {
           "n": 22,
-          "text": "सुहोत्रं चेद्वैतिथिनं मृतं सृञ्जय शुश्रुम ।\nयस्मै हिरण्यं ववृषे मघवान्परिवत्सरम् ॥"
+          "text": "सुहोत्रं चेद्वैतिथिनं मृतं सृञ्जय शुश्रुम ।\nयस्मै हिरण्यं ववृषे मघवान्परिवत्सरम् ॥",
+          "meaning": {
+            "en": "Srinjaya, we have heard that Suhotra, son of Vitithi, also died; for him Indra rained gold for a whole year."
+          }
         },
         {
           "n": 23,
-          "text": "सत्यनामा वसुमती यं प्राप्यासीज्जनाधिप ।\nहिरण्यमवहन्नद्यस्तस्मिञ्जनपदेश्वरे ॥"
+          "text": "सत्यनामा वसुमती यं प्राप्यासीज्जनाधिप ।\nहिरण्यमवहन्नद्यस्तस्मिञ्जनपदेश्वरे ॥",
+          "meaning": {
+            "en": "Lord of men, the earth became truly worthy of her name, rich in treasure, when she gained him; rivers carried gold in that king's land."
+          }
         },
         {
           "n": 24,
-          "text": "कूर्मान्कर्कटकान्नक्रान्मकराञ्शिंशुकानपि ।\nनदीष्वपातयद्राजन्मघवा लोकपूजितः ॥"
+          "text": "कूर्मान्कर्कटकान्नक्रान्मकराञ्शिंशुकानपि ।\nनदीष्वपातयद्राजन्मघवा लोकपूजितः ॥",
+          "meaning": {
+            "en": "The world-honored Indra dropped into the rivers turtles, crabs, crocodiles, sea monsters and porpoises, all of gold."
+          }
         },
         {
           "n": 25,
-          "text": "हैरण्यान्पतितान्दृष्ट्वा मत्स्यान्मकरकच्छपान् ।\nसहस्रशोऽथ शतशस्ततोऽस्मयत वैतिथिः ॥"
+          "text": "हैरण्यान्पतितान्दृष्ट्वा मत्स्यान्मकरकच्छपान् ।\nसहस्रशोऽथ शतशस्ततोऽस्मयत वैतिथिः ॥",
+          "meaning": {
+            "en": "Seeing golden fish, makaras and tortoises fall by the hundreds and thousands, Vaitithi smiled."
+          }
         },
         {
           "n": 26,
-          "text": "तद्धिरण्यमपर्यन्तमावृत्तं कुरुजाङ्गले ।\nईजानो वितते यज्ञे ब्राह्मणेभ्यः समाहितः ॥"
+          "text": "तद्धिरण्यमपर्यन्तमावृत्तं कुरुजाङ्गले ।\nईजानो वितते यज्ञे ब्राह्मणेभ्यः समाहितः ॥",
+          "meaning": {
+            "en": "At his wide-spread sacrifice he gave away that endless gold, gathered in Kurujangala, with focused mind to the brahmins."
+          }
         },
         {
           "n": 27,
-          "text": "स चेन्ममार सृञ्जय चतुर्भद्रतरस्त्वया ।\nपुत्रात्पुण्यतरश्चैव मा पुत्रमनुतप्यथाः ।\nअदक्षिणमयज्वानं श्वैत्य संशाम्य मा शुचः ॥"
+          "text": "स चेन्ममार सृञ्जय चतुर्भद्रतरस्त्वया ।\nपुत्रात्पुण्यतरश्चैव मा पुत्रमनुतप्यथाः ।\nअदक्षिणमयज्वानं श्वैत्य संशाम्य मा शुचः ॥",
+          "meaning": {
+            "en": "Srinjaya, if he died, who was four times better than you and more virtuous than your son, do not grieve for your son; calm yourself, Shaibya, and do not mourn one who gave no fees and performed no sacrifice."
+          }
         },
         {
           "n": 28,
-          "text": "अङ्गं बृहद्रथं चैव मृतं शुश्रुम सृञ्जय ।\nयः सहस्रं सहस्राणां श्वेतानश्वानवासृजत् ॥"
+          "text": "अङ्गं बृहद्रथं चैव मृतं शुश्रुम सृञ्जय ।\nयः सहस्रं सहस्राणां श्वेतानश्वानवासृजत् ॥",
+          "meaning": {
+            "en": "Srinjaya, we have heard that Anga Brihadratha also died, who let loose a thousand times a thousand white horses."
+          }
         },
         {
           "n": 29,
-          "text": "सहस्रं च सहस्राणां कन्या हेमविभूषिताः ।\nईजानो वितते यज्ञे दक्षिणामत्यकालयत् ॥"
+          "text": "सहस्रं च सहस्राणां कन्या हेमविभूषिताः ।\nईजानो वितते यज्ञे दक्षिणामत्यकालयत् ॥",
+          "meaning": {
+            "en": "At his wide-spread sacrifice he drove forth as fees a thousand times a thousand maidens adorned with gold."
+          }
         },
         {
           "n": 30,
-          "text": "शतं शतसहस्राणां वृषाणां हेममालिनाम् ।\nगवां सहस्रानुचरं दक्षिणामत्यकालयत् ॥"
+          "text": "शतं शतसहस्राणां वृषाणां हेममालिनाम् ।\nगवां सहस्रानुचरं दक्षिणामत्यकालयत् ॥",
+          "meaning": {
+            "en": "He drove forth as fees a hundred times a hundred thousand bulls wearing golden garlands, each with a thousand cows following."
+          }
         },
         {
           "n": 31,
-          "text": "अङ्गस्य यजमानस्य तदा विष्णुपदे गिरौ ।\nअमाद्यदिन्द्रः सोमेन दक्षिणाभिर्द्विजातयः ॥"
+          "text": "अङ्गस्य यजमानस्य तदा विष्णुपदे गिरौ ।\nअमाद्यदिन्द्रः सोमेन दक्षिणाभिर्द्विजातयः ॥",
+          "meaning": {
+            "en": "While Anga performed his sacrifice on the Vishnupada mountain, Indra was exhilarated by the soma and the brahmins by the fees."
+          }
         },
         {
           "n": 32,
-          "text": "यस्य यज्ञेषु राजेन्द्र शतसंख्येषु वै पुनः ।\nदेवान्मनुष्यान्गन्धर्वानत्यरिच्यन्त दक्षिणाः ॥"
+          "text": "यस्य यज्ञेषु राजेन्द्र शतसंख्येषु वै पुनः ।\nदेवान्मनुष्यान्गन्धर्वानत्यरिच्यन्त दक्षिणाः ॥",
+          "meaning": {
+            "en": "Great king, at his hundred sacrifices the fees surpassed those given to gods, men and gandharvas."
+          }
         },
         {
           "n": 33,
-          "text": "न जातो जनिता चान्यः पुमान्यस्तत्प्रदास्यति ।\nयदङ्गः प्रददौ वित्तं सोमसंस्थासु सप्तसु ॥"
+          "text": "न जातो जनिता चान्यः पुमान्यस्तत्प्रदास्यति ।\nयदङ्गः प्रददौ वित्तं सोमसंस्थासु सप्तसु ॥",
+          "meaning": {
+            "en": "No other man has been born or will be born who could give what Anga gave at the seven soma sacrifices."
+          }
         },
         {
           "n": 34,
-          "text": "स चेन्ममार सृञ्जय चतुर्भद्रतरस्त्वया ।\nपुत्रात्पुण्यतरश्चैव मा पुत्रमनुतप्यथाः ॥"
+          "text": "स चेन्ममार सृञ्जय चतुर्भद्रतरस्त्वया ।\nपुत्रात्पुण्यतरश्चैव मा पुत्रमनुतप्यथाः ॥",
+          "meaning": {
+            "en": "Srinjaya, if he died, who was four times better than you and more virtuous than your son, do not grieve for your son."
+          }
         },
         {
           "n": 35,
-          "text": "शिबिमौशीनरं चैव मृतं शुश्रुम सृञ्जय ।\nय इमां पृथिवीं कृत्स्नां चर्मवत्समवेष्टयत् ॥"
+          "text": "शिबिमौशीनरं चैव मृतं शुश्रुम सृञ्जय ।\nय इमां पृथिवीं कृत्स्नां चर्मवत्समवेष्टयत् ॥",
+          "meaning": {
+            "en": "Srinjaya, we have heard that Shibi Aushinara also died, who wrapped up this whole earth like a hide."
+          }
         },
         {
           "n": 36,
-          "text": "महता रथघोषेण पृथिवीमनुनादयन् ।\nएकच्छत्रां महीं चक्रे जैत्रेणैकरथेन यः ॥"
+          "text": "महता रथघोषेण पृथिवीमनुनादयन् ।\nएकच्छत्रां महीं चक्रे जैत्रेणैकरथेन यः ॥",
+          "meaning": {
+            "en": "Filling the earth with the great roar of his chariot, he made it one realm under a single umbrella with his single victorious chariot."
+          }
         },
         {
           "n": 37,
-          "text": "यावदद्य गवाश्वं स्यादारण्यैः पशुभिः सह ।\nतावतीः प्रददौ गाः स शिबिरौशीनरोऽध्वरे ॥"
+          "text": "यावदद्य गवाश्वं स्यादारण्यैः पशुभिः सह ।\nतावतीः प्रददौ गाः स शिबिरौशीनरोऽध्वरे ॥",
+          "meaning": {
+            "en": "As many cows and horses as exist today together with wild animals, that many cows Shibi Aushinara gave at his sacrifice."
+          }
         },
         {
           "n": 38,
-          "text": "नोद्यन्तारं धुरं तस्य कंचिन्मेने प्रजापतिः ।\nन भूतं न भविष्यन्तं सर्वराजसु भारत ।\nअन्यत्रौशीनराच्छैब्याद्राजर्षेरिन्द्रविक्रमात् ॥"
+          "text": "नोद्यन्तारं धुरं तस्य कंचिन्मेने प्रजापतिः ।\nन भूतं न भविष्यन्तं सर्वराजसु भारत ।\nअन्यत्रौशीनराच्छैब्याद्राजर्षेरिन्द्रविक्रमात् ॥",
+          "meaning": {
+            "en": "The Creator knew no one, past or future, among all kings who could bear his burden, Bharata, except the royal sage Shibi Aushinara, with Indra's prowess."
+          }
         },
         {
           "n": 39,
-          "text": "स चेन्ममार सृञ्जय चतुर्भद्रतरस्त्वया ।\nपुत्रात्पुण्यतरश्चैव मा पुत्रमनुतप्यथाः ।\nअदक्षिणमयज्वानं तं वै संशाम्य मा शुचः ॥"
+          "text": "स चेन्ममार सृञ्जय चतुर्भद्रतरस्त्वया ।\nपुत्रात्पुण्यतरश्चैव मा पुत्रमनुतप्यथाः ।\nअदक्षिणमयज्वानं तं वै संशाम्य मा शुचः ॥",
+          "meaning": {
+            "en": "Srinjaya, if he died, who was four times better than you and more virtuous than your son, do not grieve for your son; calm yourself over one who gave no fees and performed no sacrifice."
+          }
         },
         {
           "n": 40,
-          "text": "भरतं चैव दौःषन्तिं मृतं सृञ्जय शुश्रुम ।\nशाकुन्तलिं महेष्वासं भूरिद्रविणतेजसम् ॥"
+          "text": "भरतं चैव दौःषन्तिं मृतं सृञ्जय शुश्रुम ।\nशाकुन्तलिं महेष्वासं भूरिद्रविणतेजसम् ॥",
+          "meaning": {
+            "en": "Srinjaya, we have heard that Bharata, son of Dushyanta and Shakuntala, the great archer of vast wealth and splendor, also died."
+          }
         },
         {
           "n": 41,
-          "text": "यो बद्ध्वा त्रिंशतो ह्यश्वान्देवेभ्यो यमुनामनु ।\nसरस्वतीं विंशतिं च गङ्गामनु चतुर्दश ॥"
+          "text": "यो बद्ध्वा त्रिंशतो ह्यश्वान्देवेभ्यो यमुनामनु ।\nसरस्वतीं विंशतिं च गङ्गामनु चतुर्दश ॥",
+          "meaning": {
+            "en": "He tied thirty horses for the gods along the Yamuna, twenty along the Sarasvati, and fourteen along the Ganga."
+          }
         },
         {
           "n": 42,
-          "text": "अश्वमेधसहस्रेण राजसूयशतेन च ।\nइष्टवान्स महातेजा दौःषन्तिर्भरतः पुरा ॥"
+          "text": "अश्वमेधसहस्रेण राजसूयशतेन च ।\nइष्टवान्स महातेजा दौःषन्तिर्भरतः पुरा ॥",
+          "meaning": {
+            "en": "In the past the radiant Bharata, Dushyanta's son, performed a thousand horse sacrifices and a hundred royal consecrations."
+          }
         },
         {
           "n": 43,
-          "text": "भरतस्य महत्कर्म सर्वराजसु पार्थिवाः ।\nखं मर्त्या इव बाहुभ्यां नानुगन्तुमशक्नुवन् ॥"
+          "text": "भरतस्य महत्कर्म सर्वराजसु पार्थिवाः ।\nखं मर्त्या इव बाहुभ्यां नानुगन्तुमशक्नुवन् ॥",
+          "meaning": {
+            "en": "Kings, mortals could not follow Bharata's great deed among all rulers, as men cannot follow the sky with their arms."
+          }
         },
         {
           "n": 44,
-          "text": "परं सहस्राद्यो बद्ध्वा हयान्वेदीं विचित्य च ।\nसहस्रं यत्र पद्मानां कण्वाय भरतो ददौ ॥"
+          "text": "परं सहस्राद्यो बद्ध्वा हयान्वेदीं विचित्य च ।\nसहस्रं यत्र पद्मानां कण्वाय भरतो ददौ ॥",
+          "meaning": {
+            "en": "He tied up more than a thousand horses and searched out the altar, and there Bharata gave Kanva a thousand padmas."
+          }
         },
         {
           "n": 45,
-          "text": "स चेन्ममार सृञ्जय चतुर्भद्रतरस्त्वया ।\nपुत्रात्पुण्यतरश्चैव मा पुत्रमनुतप्यथाः ॥"
+          "text": "स चेन्ममार सृञ्जय चतुर्भद्रतरस्त्वया ।\nपुत्रात्पुण्यतरश्चैव मा पुत्रमनुतप्यथाः ॥",
+          "meaning": {
+            "en": "Srinjaya, if he died, who was four times better than you and more virtuous than your son, do not grieve for your son."
+          }
         },
         {
           "n": 46,
-          "text": "रामं दाशरथिं चैव मृतं शुश्रुम सृञ्जय ।\nयोऽन्वकम्पत वै नित्यं प्रजाः पुत्रानिवौरसान् ॥"
+          "text": "रामं दाशरथिं चैव मृतं शुश्रुम सृञ्जय ।\nयोऽन्वकम्पत वै नित्यं प्रजाः पुत्रानिवौरसान् ॥",
+          "meaning": {
+            "en": "Srinjaya, we have heard that Rama, son of Dasharatha, also died, who always showed his subjects the kindness he would show his own sons."
+          }
         },
         {
           "n": 47,
-          "text": "विधवा यस्य विषये नानाथाः काश्चनाभवन् ।\nसर्वस्यासीत्पितृसमो रामो राज्यं यदान्वशात् ॥"
+          "text": "विधवा यस्य विषये नानाथाः काश्चनाभवन् ।\nसर्वस्यासीत्पितृसमो रामो राज्यं यदान्वशात् ॥",
+          "meaning": {
+            "en": "In his kingdom no widow lacked a protector; while Rama ruled, he was like a father to all."
+          }
         },
         {
           "n": 48,
-          "text": "कालवर्षाश्च पर्जन्याः सस्यानि रसवन्ति च ।\nनित्यं सुभिक्षमेवासीद्रामे राज्यं प्रशासति ॥"
+          "text": "कालवर्षाश्च पर्जन्याः सस्यानि रसवन्ति च ।\nनित्यं सुभिक्षमेवासीद्रामे राज्यं प्रशासति ॥",
+          "meaning": {
+            "en": "Rains came in their season, crops were full of sap, and there was always plenty while Rama ruled."
+          }
         },
         {
           "n": 49,
-          "text": "प्राणिनो नाप्सु मज्जन्ति नानर्थे पावकोऽदहत् ।\nन व्यालजं भयं चासीद्रामे राज्यं प्रशासति ॥"
+          "text": "प्राणिनो नाप्सु मज्जन्ति नानर्थे पावकोऽदहत् ।\nन व्यालजं भयं चासीद्रामे राज्यं प्रशासति ॥",
+          "meaning": {
+            "en": "While Rama ruled, creatures did not drown in water, fire burned only to purpose, and there was no fear from beasts of prey."
+          }
         },
         {
           "n": 50,
-          "text": "आसन्वर्षसहस्राणि तथा पुत्रसहस्रिकाः ।\nअरोगाः सर्वसिद्धार्थाः प्रजा रामे प्रशासति ॥"
+          "text": "आसन्वर्षसहस्राणि तथा पुत्रसहस्रिकाः ।\nअरोगाः सर्वसिद्धार्थाः प्रजा रामे प्रशासति ॥",
+          "meaning": {
+            "en": "While Rama ruled, subjects lived for thousands of years with thousands of sons, free of disease and with all aims fulfilled."
+          }
         },
         {
           "n": 51,
-          "text": "नान्योन्येन विवादोऽभूत्स्त्रीणामपि कुतो नृणाम् ।\nधर्मनित्याः प्रजाश्चासन्रामे राज्यं प्रशासति ॥"
+          "text": "नान्योन्येन विवादोऽभूत्स्त्रीणामपि कुतो नृणाम् ।\nधर्मनित्याः प्रजाश्चासन्रामे राज्यं प्रशासति ॥",
+          "meaning": {
+            "en": "While Rama ruled, there was no quarrel among men, let alone among women, and the people were constant in dharma."
+          }
         },
         {
           "n": 52,
-          "text": "नित्यपुष्पफलाश्चैव पादपा निरुपद्रवाः ।\nसर्वा द्रोणदुघा गावो रामे राज्यं प्रशासति ॥"
+          "text": "नित्यपुष्पफलाश्चैव पादपा निरुपद्रवाः ।\nसर्वा द्रोणदुघा गावो रामे राज्यं प्रशासति ॥",
+          "meaning": {
+            "en": "While Rama ruled, trees bore flowers and fruit all year without harm, and all cows gave a full measure of milk."
+          }
         },
         {
           "n": 53,
-          "text": "स चतुर्दश वर्षाणि वने प्रोष्य महातपाः ।\nदशाश्वमेधाञ्जारूथ्यानाजहार निरर्गलान् ॥"
+          "text": "स चतुर्दश वर्षाणि वने प्रोष्य महातपाः ।\nदशाश्वमेधाञ्जारूथ्यानाजहार निरर्गलान् ॥",
+          "meaning": {
+            "en": "That great ascetic spent fourteen years in the forest and then performed ten unrestricted horse sacrifices with the closing bath."
+          }
         },
         {
           "n": 54,
-          "text": "श्यामो युवा लोहिताक्षो मत्तवारणविक्रमः ।\nदश वर्षसहस्राणि रामो राज्यमकारयत् ॥"
+          "text": "श्यामो युवा लोहिताक्षो मत्तवारणविक्रमः ।\nदश वर्षसहस्राणि रामो राज्यमकारयत् ॥",
+          "meaning": {
+            "en": "Dark, young and red-eyed, moving like a rutting elephant, Rama ruled the kingdom for ten thousand years."
+          }
         },
         {
           "n": 55,
-          "text": "स चेन्ममार सृञ्जय चतुर्भद्रतरस्त्वया ।\nपुत्रात्पुण्यतरश्चैव मा पुत्रमनुतप्यथाः ॥"
+          "text": "स चेन्ममार सृञ्जय चतुर्भद्रतरस्त्वया ।\nपुत्रात्पुण्यतरश्चैव मा पुत्रमनुतप्यथाः ॥",
+          "meaning": {
+            "en": "Srinjaya, if he died, who was four times better than you and more virtuous than your son, do not grieve for your son."
+          }
         },
         {
           "n": 56,
-          "text": "भगीरथं च राजानं मृतं शुश्रुम सृञ्जय ।\nयस्येन्द्रो वितते यज्ञे सोमं पीत्वा मदोत्कटः ॥"
+          "text": "भगीरथं च राजानं मृतं शुश्रुम सृञ्जय ।\nयस्येन्द्रो वितते यज्ञे सोमं पीत्वा मदोत्कटः ॥",
+          "meaning": {
+            "en": "Srinjaya, we have heard that King Bhagiratha also died, at whose wide-spread sacrifice Indra, wild with drinking soma,"
+          }
         },
         {
           "n": 57,
-          "text": "असुराणां सहस्राणि बहूनि सुरसत्तमः ।\nअजयद्बाहुवीर्येण भगवान्पाकशासनः ॥"
+          "text": "असुराणां सहस्राणि बहूनि सुरसत्तमः ।\nअजयद्बाहुवीर्येण भगवान्पाकशासनः ॥",
+          "meaning": {
+            "en": "the blessed best of gods, punisher of Paka, conquered many thousands of asuras with the strength of his arms."
+          }
         },
         {
           "n": 58,
-          "text": "यः सहस्रं सहस्राणां कन्या हेमविभूषिताः ।\nईजानो वितते यज्ञे दक्षिणामत्यकालयत् ॥"
+          "text": "यः सहस्रं सहस्राणां कन्या हेमविभूषिताः ।\nईजानो वितते यज्ञे दक्षिणामत्यकालयत् ॥",
+          "meaning": {
+            "en": "Bhagiratha gave as fees at his wide-spread sacrifice a thousand times a thousand maidens adorned with gold."
+          }
         },
         {
           "n": 59,
-          "text": "सर्वा रथगताः कन्या रथाः सर्वे चतुर्युजः ।\nरथे रथे शतं नागाः पद्मिनो हेममालिनः ॥"
+          "text": "सर्वा रथगताः कन्या रथाः सर्वे चतुर्युजः ।\nरथे रथे शतं नागाः पद्मिनो हेममालिनः ॥",
+          "meaning": {
+            "en": "All the maidens rode in chariots, all the chariots had four horses, and with each chariot went a hundred elephants wearing lotus garlands and gold."
+          }
         },
         {
           "n": 60,
-          "text": "सहस्रमश्वा एकैकं हस्तिनं पृष्ठतोऽन्वयुः ।\nगवां सहस्रमश्वेऽश्वे सहस्रं गव्यजाविकम् ॥"
+          "text": "सहस्रमश्वा एकैकं हस्तिनं पृष्ठतोऽन्वयुः ।\nगवां सहस्रमश्वेऽश्वे सहस्रं गव्यजाविकम् ॥",
+          "meaning": {
+            "en": "A thousand horses followed behind each elephant, a thousand cows followed each horse, and a thousand goats and sheep followed each cow."
+          }
         },
         {
           "n": 61,
-          "text": "उपह्वरे निवसतो यस्याङ्के निषसाद ह ।\nगङ्गा भागीरथी तस्मादुर्वशी ह्यभवत्पुरा ॥"
+          "text": "उपह्वरे निवसतो यस्याङ्के निषसाद ह ।\nगङ्गा भागीरथी तस्मादुर्वशी ह्यभवत्पुरा ॥",
+          "meaning": {
+            "en": "When he lived in his retreat, Ganga, Bhagiratha's daughter, once sat on his lap, and so she became Urvashi in the past."
+          }
         },
         {
           "n": 62,
-          "text": "भूरिदक्षिणमिक्ष्वाकुं यजमानं भगीरथम् ।\nत्रिलोकपथगा गङ्गा दुहितृत्वमुपेयुषी ॥"
+          "text": "भूरिदक्षिणमिक्ष्वाकुं यजमानं भगीरथम् ।\nत्रिलोकपथगा गङ्गा दुहितृत्वमुपेयुषी ॥",
+          "meaning": {
+            "en": "Ganga, who travels the three worlds, became the daughter of Bhagiratha, the Ikshvaku who gave rich fees at his sacrifices."
+          }
         },
         {
           "n": 63,
-          "text": "स चेन्ममार सृञ्जय चतुर्भद्रतरस्त्वया ।\nपुत्रात्पुण्यतरश्चैव मा पुत्रमनुतप्यथाः ॥"
+          "text": "स चेन्ममार सृञ्जय चतुर्भद्रतरस्त्वया ।\nपुत्रात्पुण्यतरश्चैव मा पुत्रमनुतप्यथाः ॥",
+          "meaning": {
+            "en": "Srinjaya, if he died, who was four times better than you and more virtuous than your son, do not grieve for your son."
+          }
         },
         {
           "n": 64,
-          "text": "दिलीपं चैवैलविलं मृतं शुश्रुम सृञ्जय ।\nयस्य कर्माणि भूरीणि कथयन्ति द्विजातयः ॥"
+          "text": "दिलीपं चैवैलविलं मृतं शुश्रुम सृञ्जय ।\nयस्य कर्माणि भूरीणि कथयन्ति द्विजातयः ॥",
+          "meaning": {
+            "en": "Srinjaya, we have heard that Dilipa, son of Ila, also died, whose many deeds the brahmins recite."
+          }
         },
         {
           "n": 65,
-          "text": "इमां वै वसुसंपन्नां वसुधां वसुधाधिपः ।\nददौ तस्मिन्महायज्ञे ब्राह्मणेभ्यः समाहितः ॥"
+          "text": "इमां वै वसुसंपन्नां वसुधां वसुधाधिपः ।\nददौ तस्मिन्महायज्ञे ब्राह्मणेभ्यः समाहितः ॥",
+          "meaning": {
+            "en": "That lord of the earth gave this earth, rich in treasure, to the brahmins at his great sacrifice, with focused mind."
+          }
         },
         {
           "n": 66,
-          "text": "तस्येह यजमानस्य यज्ञे यज्ञे पुरोहितः ।\nसहस्रं वारणान्हैमान्दक्षिणामत्यकालयत् ॥"
+          "text": "तस्येह यजमानस्य यज्ञे यज्ञे पुरोहितः ।\nसहस्रं वारणान्हैमान्दक्षिणामत्यकालयत् ॥",
+          "meaning": {
+            "en": "At each sacrifice of that sacrificer, the priest drove away a thousand golden elephants as fees."
+          }
         },
         {
           "n": 67,
-          "text": "यस्य यज्ञे महानासीद्यूपः श्रीमान्हिरण्मयः ।\nतं देवाः कर्म कुर्वाणाः शक्रज्येष्ठा उपाश्रयन् ॥"
+          "text": "यस्य यज्ञे महानासीद्यूपः श्रीमान्हिरण्मयः ।\nतं देवाः कर्म कुर्वाणाः शक्रज्येष्ठा उपाश्रयन् ॥",
+          "meaning": {
+            "en": "At his sacrifice the great, splendid golden sacrificial post stood, and the gods, led by Indra, resorted to it as they did their work."
+          }
         },
         {
           "n": 68,
-          "text": "चषालो यस्य सौवर्णस्तस्मिन्यूपे हिरण्मये ।\nननृतुर्देवगन्धर्वाः षट्सहस्राणि सप्तधा ॥"
+          "text": "चषालो यस्य सौवर्णस्तस्मिन्यूपे हिरण्मये ।\nननृतुर्देवगन्धर्वाः षट्सहस्राणि सप्तधा ॥",
+          "meaning": {
+            "en": "On the golden post of his sacrifice, on its golden ring, six thousand gods and gandharvas danced in seven troupes."
+          }
         },
         {
           "n": 69,
-          "text": "अवादयत्तत्र वीणां मध्ये विश्वावसुः स्वयम् ।\nसर्वभूतान्यमन्यन्त मम वादयतीत्ययम् ॥"
+          "text": "अवादयत्तत्र वीणां मध्ये विश्वावसुः स्वयम् ।\nसर्वभूतान्यमन्यन्त मम वादयतीत्ययम् ॥",
+          "meaning": {
+            "en": "Among them Vishvavasu himself played the lute, and all beings thought he was playing for them."
+          }
         },
         {
           "n": 70,
-          "text": "एतद्राज्ञो दिलीपस्य राजानो नानुचक्रिरे ।\nयत्स्त्रियो हेमसंपन्नाः पथि मत्ताः स्म शेरते ॥"
+          "text": "एतद्राज्ञो दिलीपस्य राजानो नानुचक्रिरे ।\nयत्स्त्रियो हेमसंपन्नाः पथि मत्ताः स्म शेरते ॥",
+          "meaning": {
+            "en": "Other kings did not imitate this deed of King Dilipa, that women rich in gold lay drunk on the road."
+          }
         },
         {
           "n": 71,
-          "text": "राजानमुग्रधन्वानं दिलीपं सत्यवादिनम् ।\nयेऽपश्यन्सुमहात्मानं तेऽपि स्वर्गजितो नराः ॥"
+          "text": "राजानमुग्रधन्वानं दिलीपं सत्यवादिनम् ।\nयेऽपश्यन्सुमहात्मानं तेऽपि स्वर्गजितो नराः ॥",
+          "meaning": {
+            "en": "Even those men who saw the truthful king Dilipa, great-souled, with his terrible bow, conquered heaven."
+          }
         },
         {
           "n": 72,
-          "text": "त्रयः शब्दा न जीर्यन्ते दिलीपस्य निवेशने ।\nस्वाध्यायघोषो ज्याघोषो दीयतामिति चैव हि ॥"
+          "text": "त्रयः शब्दा न जीर्यन्ते दिलीपस्य निवेशने ।\nस्वाध्यायघोषो ज्याघोषो दीयतामिति चैव हि ॥",
+          "meaning": {
+            "en": "Three sounds never ceased in Dilipa's house: the sound of Vedic study, the twang of the bowstring, and the cry \"Let it be given!\""
+          }
         },
         {
           "n": 73,
-          "text": "स चेन्ममार सृञ्जय चतुर्भद्रतरस्त्वया ।\nपुत्रात्पुण्यतरश्चैव मा पुत्रमनुतप्यथाः ॥"
+          "text": "स चेन्ममार सृञ्जय चतुर्भद्रतरस्त्वया ।\nपुत्रात्पुण्यतरश्चैव मा पुत्रमनुतप्यथाः ॥",
+          "meaning": {
+            "en": "Srinjaya, if he died, who was four times better than you and more virtuous than your son, do not grieve for your son."
+          }
         },
         {
           "n": 74,
-          "text": "मान्धातारं यौवनाश्वं मृतं शुश्रुम सृञ्जय ।\nयं देवा मरुतो गर्भं पितुः पार्श्वादपाहरन् ॥"
+          "text": "मान्धातारं यौवनाश्वं मृतं शुश्रुम सृञ्जय ।\nयं देवा मरुतो गर्भं पितुः पार्श्वादपाहरन् ॥",
+          "meaning": {
+            "en": "Srinjaya, we have heard that Mandhata, son of Yuvanashva, also died, whom the gods and Maruts took from his father's side as an unborn child."
+          }
         },
         {
           "n": 75,
-          "text": "संवृद्धो युवनाश्वस्य जठरे यो महात्मनः ।\nपृषदाज्योद्भवः श्रीमांस्त्रिलोकविजयी नृपः ॥"
+          "text": "संवृद्धो युवनाश्वस्य जठरे यो महात्मनः ।\nपृषदाज्योद्भवः श्रीमांस्त्रिलोकविजयी नृपः ॥",
+          "meaning": {
+            "en": "That king, who grew in the womb of great-souled Yuvanashva, was born from ghee and conquered the three worlds, splendid."
+          }
         },
         {
           "n": 76,
-          "text": "यं दृष्ट्वा पितुरुत्सङ्गे शयानं देवरूपिणम् ।\nअन्योन्यमब्रुवन्देवाः कमयं धास्यतीति वै ॥"
+          "text": "यं दृष्ट्वा पितुरुत्सङ्गे शयानं देवरूपिणम् ।\nअन्योन्यमब्रुवन्देवाः कमयं धास्यतीति वै ॥",
+          "meaning": {
+            "en": "Seeing him lying in his father's lap, with the form of a god, the gods asked one another, \"Whom will he suckle?\""
+          }
         },
         {
           "n": 77,
-          "text": "मामेव धास्यतीत्येवमिन्द्रो अभ्यवपद्यत ।\nमान्धातेति ततस्तस्य नाम चक्रे शतक्रतुः ॥"
+          "text": "मामेव धास्यतीत्येवमिन्द्रो अभ्यवपद्यत ।\nमान्धातेति ततस्तस्य नाम चक्रे शतक्रतुः ॥",
+          "meaning": {
+            "en": "\"He will suckle me,\" said Indra, and the hundred-sacrifice god named him Mandhata."
+          }
         },
         {
           "n": 78,
-          "text": "ततस्तु पयसो धारां पुष्टिहेतोर्महात्मनः ।\nतस्यास्ये यौवनाश्वस्य पाणिरिन्द्रस्य चास्रवत् ॥"
+          "text": "ततस्तु पयसो धारां पुष्टिहेतोर्महात्मनः ।\nतस्यास्ये यौवनाश्वस्य पाणिरिन्द्रस्य चास्रवत् ॥",
+          "meaning": {
+            "en": "Then, for the great one's nourishment, a stream of milk flowed from Indra's hand into the mouth of Yuvanashva's son."
+          }
         },
         {
           "n": 79,
-          "text": "तं पिबन्पाणिमिन्द्रस्य समामह्ना व्यवर्धत ।\nस आसीद्द्वादशसमो द्वादशाहेन पार्थिव ॥"
+          "text": "तं पिबन्पाणिमिन्द्रस्य समामह्ना व्यवर्धत ।\nस आसीद्द्वादशसमो द्वादशाहेन पार्थिव ॥",
+          "meaning": {
+            "en": "Drinking from Indra's hand, in a day he grew as much as a normal child grows in a year; in twelve days, O king, he was like a youth of twelve."
+          }
         },
         {
           "n": 80,
-          "text": "तमियं पृथिवी सर्वा एकाह्ना समपद्यत ।\nधर्मात्मानं महात्मानं शूरमिन्द्रसमं युधि ॥"
+          "text": "तमियं पृथिवी सर्वा एकाह्ना समपद्यत ।\nधर्मात्मानं महात्मानं शूरमिन्द्रसमं युधि ॥",
+          "meaning": {
+            "en": "In one day the whole earth came under the sway of that righteous, great-souled hero, equal to Indra in battle."
+          }
         },
         {
           "n": 81,
-          "text": "य आङ्गारं हि नृपतिं मरुत्तमसितं गयम् ।\nअङ्गं बृहद्रथं चैव मान्धाता समरेऽजयत् ॥"
+          "text": "य आङ्गारं हि नृपतिं मरुत्तमसितं गयम् ।\nअङ्गं बृहद्रथं चैव मान्धाता समरेऽजयत् ॥",
+          "meaning": {
+            "en": "Mandhata defeated in battle King Angara, Marutta, Asita, Gaya and Anga Brihadratha."
+          }
         },
         {
           "n": 82,
-          "text": "यौवनाश्वो यदाङ्गारं समरे समयोधयत् ।\nविस्फारैर्धनुषो देवा द्यौरभेदीति मेनिरे ॥"
+          "text": "यौवनाश्वो यदाङ्गारं समरे समयोधयत् ।\nविस्फारैर्धनुषो देवा द्यौरभेदीति मेनिरे ॥",
+          "meaning": {
+            "en": "When Yuvanashva's son fought Angara in battle, the gods thought the sky was split by the twanging of his bow."
+          }
         },
         {
           "n": 83,
-          "text": "यतः सूर्य उदेति स्म यत्र च प्रतितिष्ठति ।\nसर्वं तद्यौवनाश्वस्य मान्धातुः क्षेत्रमुच्यते ॥"
+          "text": "यतः सूर्य उदेति स्म यत्र च प्रतितिष्ठति ।\nसर्वं तद्यौवनाश्वस्य मान्धातुः क्षेत्रमुच्यते ॥",
+          "meaning": {
+            "en": "Wherever the sun rises and wherever it sets, all of it is called the domain of Mandhata, son of Yuvanashva."
+          }
         },
         {
           "n": 84,
-          "text": "अश्वमेधशतेनेष्ट्वा राजसूयशतेन च ।\nअददाद्रोहितान्मत्स्यान्ब्राह्मणेभ्यो महीपतिः ॥"
+          "text": "अश्वमेधशतेनेष्ट्वा राजसूयशतेन च ।\nअददाद्रोहितान्मत्स्यान्ब्राह्मणेभ्यो महीपतिः ॥",
+          "meaning": {
+            "en": "After sacrificing with a hundred horse sacrifices and a hundred royal consecrations, that lord of the earth gave brahmins red fish."
+          }
         },
         {
           "n": 85,
-          "text": "हैरण्यान्योजनोत्सेधानायतान्दशयोजनम् ।\nअतिरिक्तान्द्विजातिभ्यो व्यभजन्नितरे जनाः ॥"
+          "text": "हैरण्यान्योजनोत्सेधानायतान्दशयोजनम् ।\nअतिरिक्तान्द्विजातिभ्यो व्यभजन्नितरे जनाः ॥",
+          "meaning": {
+            "en": "Those golden fish, a yojana high and ten yojanas long, were so many that others divided the surplus among the brahmins."
+          }
         },
         {
           "n": 86,
-          "text": "स चेन्ममार सृञ्जय चतुर्भद्रतरस्त्वया ।\nपुत्रात्पुण्यतरश्चैव मा पुत्रमनुतप्यथाः ॥"
+          "text": "स चेन्ममार सृञ्जय चतुर्भद्रतरस्त्वया ।\nपुत्रात्पुण्यतरश्चैव मा पुत्रमनुतप्यथाः ॥",
+          "meaning": {
+            "en": "Srinjaya, if he died, who was four times better than you and more virtuous than your son, do not grieve for your son."
+          }
         },
         {
           "n": 87,
-          "text": "ययातिं नाहुषं चैव मृतं शुश्रुम सृञ्जय ।\nय इमां पृथिवीं सर्वां विजित्य सहसागराम् ॥"
+          "text": "ययातिं नाहुषं चैव मृतं शुश्रुम सृञ्जय ।\nय इमां पृथिवीं सर्वां विजित्य सहसागराम् ॥",
+          "meaning": {
+            "en": "Srinjaya, we have heard that Yayati, son of Nahusha, also died, who conquered this whole earth with its oceans."
+          }
         },
         {
           "n": 88,
-          "text": "शम्यापातेनाभ्यतीयाद्वेदीभिश्चित्रयन्नृप ।\nईजानः क्रतुभिः पुण्यैः पर्यगच्छद्वसुंधराम् ॥"
+          "text": "शम्यापातेनाभ्यतीयाद्वेदीभिश्चित्रयन्नृप ।\nईजानः क्रतुभिः पुण्यैः पर्यगच्छद्वसुंधराम् ॥",
+          "meaning": {
+            "en": "King, he adorned the land with altars as far as a thrown yoke-pin would fly, and by his holy sacrifices he traversed the earth."
+          }
         },
         {
           "n": 89,
-          "text": "इष्ट्वा क्रतुसहस्रेण वाजिमेधशतेन च ।\nतर्पयामास देवेन्द्रं त्रिभिः काञ्चनपर्वतैः ॥"
+          "text": "इष्ट्वा क्रतुसहस्रेण वाजिमेधशतेन च ।\nतर्पयामास देवेन्द्रं त्रिभिः काञ्चनपर्वतैः ॥",
+          "meaning": {
+            "en": "Having sacrificed with a thousand rites and a hundred horse sacrifices, he gratified Indra with three golden mountains."
+          }
         },
         {
           "n": 90,
-          "text": "व्यूढे देवासुरे युद्धे हत्वा दैतेयदानवान् ।\nव्यभजत्पृथिवीं कृत्स्नां ययातिर्नहुषात्मजः ॥"
+          "text": "व्यूढे देवासुरे युद्धे हत्वा दैतेयदानवान् ।\nव्यभजत्पृथिवीं कृत्स्नां ययातिर्नहुषात्मजः ॥",
+          "meaning": {
+            "en": "When the battle of gods and asuras was joined, Yayati, son of Nahusha, killed the Daityas and Danavas and divided the whole earth."
+          }
         },
         {
           "n": 91,
-          "text": "अन्तेषु पुत्रान्निक्षिप्य यदुद्रुह्युपुरोगमान् ।\nपूरुं राज्येऽभिषिच्य स्वे सदारः प्रस्थितो वनम् ॥"
+          "text": "अन्तेषु पुत्रान्निक्षिप्य यदुद्रुह्युपुरोगमान् ।\nपूरुं राज्येऽभिषिच्य स्वे सदारः प्रस्थितो वनम् ॥",
+          "meaning": {
+            "en": "Placing his sons, Yadu, Druhyu and the others, at the borders, he installed Puru in his kingdom and set out for the forest with his wife."
+          }
         },
         {
           "n": 92,
-          "text": "स चेन्ममार सृञ्जय चतुर्भद्रतरस्त्वया ।\nपुत्रात्पुण्यतरश्चैव मा पुत्रमनुतप्यथाः ॥"
+          "text": "स चेन्ममार सृञ्जय चतुर्भद्रतरस्त्वया ।\nपुत्रात्पुण्यतरश्चैव मा पुत्रमनुतप्यथाः ॥",
+          "meaning": {
+            "en": "Srinjaya, if he died, who was four times better than you and more virtuous than your son, do not grieve for your son."
+          }
         },
         {
           "n": 93,
-          "text": "अम्बरीषं च नाभागं मृतं शुश्रुम सृञ्जय ।\nयं प्रजा वव्रिरे पुण्यं गोप्तारं नृपसत्तम ॥"
+          "text": "अम्बरीषं च नाभागं मृतं शुश्रुम सृञ्जय ।\nयं प्रजा वव्रिरे पुण्यं गोप्तारं नृपसत्तम ॥",
+          "meaning": {
+            "en": "Srinjaya, we have heard that Ambarisha, son of Nabhaga, also died, whom the people chose as their virtuous protector, best of kings."
+          }
         },
         {
           "n": 94,
-          "text": "यः सहस्रं सहस्राणां राज्ञामयुत याजिनाम् ।\nईजानो वितते यज्ञे ब्राह्मणेभ्यः समाहितः ॥"
+          "text": "यः सहस्रं सहस्राणां राज्ञामयुत याजिनाम् ।\nईजानो वितते यज्ञे ब्राह्मणेभ्यः समाहितः ॥",
+          "meaning": {
+            "en": "At his wide-spread sacrifice he gave to the brahmins, with focused mind, a thousand times a thousand kings who performed ten thousand sacrifices."
+          }
         },
         {
           "n": 95,
-          "text": "नैतत्पूर्वे जनाश्चक्रुर्न करिष्यन्ति चापरे ।\nइत्यम्बरीषं नाभागमन्वमोदन्त दक्षिणाः ॥"
+          "text": "नैतत्पूर्वे जनाश्चक्रुर्न करिष्यन्ति चापरे ।\nइत्यम्बरीषं नाभागमन्वमोदन्त दक्षिणाः ॥",
+          "meaning": {
+            "en": "\"Neither those before nor those after will do this,\" said the fees in praise of Ambarisha, son of Nabhaga."
+          }
         },
         {
           "n": 96,
-          "text": "शतं राजसहस्राणि शतं राजशतानि च ।\nसर्वेऽश्वमेधैरीजानास्तेऽभ्ययुर्दक्षिणायनम् ॥"
+          "text": "शतं राजसहस्राणि शतं राजशतानि च ।\nसर्वेऽश्वमेधैरीजानास्तेऽभ्ययुर्दक्षिणायनम् ॥",
+          "meaning": {
+            "en": "A hundred thousand kings and a hundred hundred more, all having performed horse sacrifices, went to the southern path."
+          }
         },
         {
           "n": 97,
-          "text": "स चेन्ममार सृञ्जय चतुर्भद्रतरस्त्वया ।\nपुत्रात्पुण्यतरश्चैव मा पुत्रमनुतप्यथाः ॥"
+          "text": "स चेन्ममार सृञ्जय चतुर्भद्रतरस्त्वया ।\nपुत्रात्पुण्यतरश्चैव मा पुत्रमनुतप्यथाः ॥",
+          "meaning": {
+            "en": "Srinjaya, if he died, who was four times better than you and more virtuous than your son, do not grieve for your son."
+          }
         },
         {
           "n": 98,
-          "text": "शशबिन्दुं चैत्ररथं मृतं शुश्रुम सृञ्जय ।\nयस्य भार्यासहस्राणां शतमासीन्महात्मनः ॥"
+          "text": "शशबिन्दुं चैत्ररथं मृतं शुश्रुम सृञ्जय ।\nयस्य भार्यासहस्राणां शतमासीन्महात्मनः ॥",
+          "meaning": {
+            "en": "Srinjaya, we have heard that Shashabindu, son of Chitraratha, also died, the great soul who had a hundred thousand wives."
+          }
         },
         {
           "n": 99,
-          "text": "सहस्रं तु सहस्राणां यस्यासञ्शाशबिन्दवः ।\nहिरण्यकवचाः सर्वे सर्वे चोत्तमधन्विनः ॥"
+          "text": "सहस्रं तु सहस्राणां यस्यासञ्शाशबिन्दवः ।\nहिरण्यकवचाः सर्वे सर्वे चोत्तमधन्विनः ॥",
+          "meaning": {
+            "en": "A thousand times a thousand sons were born to him, the Shashabindus, all in golden armor and all superb archers."
+          }
         },
         {
           "n": 100,
-          "text": "शतं कन्या राजपुत्रमेकैकं पृष्ठतोऽन्वयुः ।\nकन्यां कन्यां शतं नागा नागं नागं शतं रथाः ॥"
+          "text": "शतं कन्या राजपुत्रमेकैकं पृष्ठतोऽन्वयुः ।\nकन्यां कन्यां शतं नागा नागं नागं शतं रथाः ॥",
+          "meaning": {
+            "en": "A hundred maidens followed each prince, a hundred elephants each maiden, a hundred chariots each elephant."
+          }
         },
         {
           "n": 101,
-          "text": "रथं रथं शतं चाश्वा देशजा हेममालिनः ।\nअश्वमश्वं शतं गावो गां गां तद्वदजाविकम् ॥"
+          "text": "रथं रथं शतं चाश्वा देशजा हेममालिनः ।\nअश्वमश्वं शतं गावो गां गां तद्वदजाविकम् ॥",
+          "meaning": {
+            "en": "A hundred horses of good breed with golden garlands followed each chariot, a hundred cows each horse, and as many goats and sheep each cow."
+          }
         },
         {
           "n": 102,
-          "text": "एतद्धनमपर्यन्तमश्वमेधे महामखे ।\nशशबिन्दुर्महाराज ब्राह्मणेभ्यः समादिशत् ॥"
+          "text": "एतद्धनमपर्यन्तमश्वमेधे महामखे ।\nशशबिन्दुर्महाराज ब्राह्मणेभ्यः समादिशत् ॥",
+          "meaning": {
+            "en": "Great king, Shashabindu assigned all this endless wealth to the brahmins at his great horse sacrifice."
+          }
         },
         {
           "n": 103,
-          "text": "स चेन्ममार सृञ्जय चतुर्भद्रतरस्त्वया ।\nपुत्रात्पुण्यतरश्चैव मा पुत्रमनुतप्यथाः ॥"
+          "text": "स चेन्ममार सृञ्जय चतुर्भद्रतरस्त्वया ।\nपुत्रात्पुण्यतरश्चैव मा पुत्रमनुतप्यथाः ॥",
+          "meaning": {
+            "en": "Srinjaya, if he died, who was four times better than you and more virtuous than your son, do not grieve for your son."
+          }
         },
         {
           "n": 104,
-          "text": "गयमामूर्तरयसं मृतं शुश्रुम सृञ्जय ।\nयः स वर्षशतं राजा हुतशिष्टाशनोऽभवत् ॥"
+          "text": "गयमामूर्तरयसं मृतं शुश्रुम सृञ्जय ।\nयः स वर्षशतं राजा हुतशिष्टाशनोऽभवत् ॥",
+          "meaning": {
+            "en": "Srinjaya, we have heard that Gaya, of swift and embodied energy, also died, who for a hundred years lived on what remained of the offerings."
+          }
         },
         {
           "n": 105,
-          "text": "यस्मै वह्निर्वरान्प्रादात्ततो वव्रे वरान्गयः ।\nददतो मेऽक्षया चास्तु धर्मे श्रद्धा च वर्धताम् ॥"
+          "text": "यस्मै वह्निर्वरान्प्रादात्ततो वव्रे वरान्गयः ।\nददतो मेऽक्षया चास्तु धर्मे श्रद्धा च वर्धताम् ॥",
+          "meaning": {
+            "en": "When Agni gave him boons, Gaya chose: \"May my giving never run out, may my faith in dharma grow.\""
+          }
         },
         {
           "n": 106,
-          "text": "मनो मे रमतां सत्ये त्वत्प्रसादाद्धुताशन ।\nलेभे च कामांस्तान्सर्वान्पावकादिति नः श्रुतम् ॥"
+          "text": "मनो मे रमतां सत्ये त्वत्प्रसादाद्धुताशन ।\nलेभे च कामांस्तान्सर्वान्पावकादिति नः श्रुतम् ॥",
+          "meaning": {
+            "en": "\"Let my mind delight in truth, by your grace, Eater of oblations.\" We have heard that he obtained all those wishes from Agni."
+          }
         },
         {
           "n": 107,
-          "text": "दर्शेन पौर्णमासेन चातुर्मास्यैः पुनः पुनः ।\nअयजत्स महातेजाः सहस्रं परिवत्सरान् ॥"
+          "text": "दर्शेन पौर्णमासेन चातुर्मास्यैः पुनः पुनः ।\nअयजत्स महातेजाः सहस्रं परिवत्सरान् ॥",
+          "meaning": {
+            "en": "That radiant king sacrificed with the new-moon, full-moon and four-monthly rites again and again for a thousand years."
+          }
         },
         {
           "n": 108,
-          "text": "शतं गवां सहस्राणि शतमश्वशतानि च ।\nउत्थायोत्थाय वै प्रादात्सहस्रं परिवत्सरान् ॥"
+          "text": "शतं गवां सहस्राणि शतमश्वशतानि च ।\nउत्थायोत्थाय वै प्रादात्सहस्रं परिवत्सरान् ॥",
+          "meaning": {
+            "en": "He rose each time and gave a hundred thousand cows and a hundred hundred horses, for a thousand years."
+          }
         },
         {
           "n": 109,
-          "text": "तर्पयामास सोमेन देवान्वित्तैर्द्विजानपि ।\nपितॄन्स्वधाभिः कामैश्च स्त्रियः स्वाः पुरुषर्षभ ॥"
+          "text": "तर्पयामास सोमेन देवान्वित्तैर्द्विजानपि ।\nपितॄन्स्वधाभिः कामैश्च स्त्रियः स्वाः पुरुषर्षभ ॥",
+          "meaning": {
+            "en": "Bull among men, he gratified the gods with soma, the brahmins with wealth, the ancestors with offerings, and his wives with their desires."
+          }
         },
         {
           "n": 110,
-          "text": "सौवर्णां पृथिवीं कृत्वा दशव्यामां द्विरायताम् ।\nदक्षिणामददद्राजा वाजिमेधमहामखे ॥"
+          "text": "सौवर्णां पृथिवीं कृत्वा दशव्यामां द्विरायताम् ।\nदक्षिणामददद्राजा वाजिमेधमहामखे ॥",
+          "meaning": {
+            "en": "At his great horse sacrifice the king made a golden earth, ten vyamas wide and twice as long, and gave it as the fee."
+          }
         },
         {
           "n": 111,
-          "text": "यावत्यः सिकता राजन्गङ्गायाः पुरुषर्षभ ।\nतावतीरेव गाः प्रादादामूर्तरयसो गयः ॥"
+          "text": "यावत्यः सिकता राजन्गङ्गायाः पुरुषर्षभ ।\nतावतीरेव गाः प्रादादामूर्तरयसो गयः ॥",
+          "meaning": {
+            "en": "King, bull among men, as many grains of sand as lie in the Ganga, that many cows Gaya of swift energy gave."
+          }
         },
         {
           "n": 112,
-          "text": "स चेन्ममार सृञ्जय चतुर्भद्रतरस्त्वया ।\nपुत्रात्पुण्यतरश्चैव मा पुत्रमनुतप्यथाः ॥"
+          "text": "स चेन्ममार सृञ्जय चतुर्भद्रतरस्त्वया ।\nपुत्रात्पुण्यतरश्चैव मा पुत्रमनुतप्यथाः ॥",
+          "meaning": {
+            "en": "Srinjaya, if he died, who was four times better than you and more virtuous than your son, do not grieve for your son."
+          }
         },
         {
           "n": 113,
-          "text": "रन्तिदेवं च साङ्कृत्यं मृतं शुश्रुम सृञ्जय ।\nसम्यगाराध्य यः शक्रं वरं लेभे महायशाः ॥"
+          "text": "रन्तिदेवं च साङ्कृत्यं मृतं शुश्रुम सृञ्जय ।\nसम्यगाराध्य यः शक्रं वरं लेभे महायशाः ॥",
+          "meaning": {
+            "en": "Srinjaya, we have heard that Rantideva Sankritya also died, the greatly famed who won a boon after properly worshiping Indra."
+          }
         },
         {
           "n": 114,
-          "text": "अन्नं च नो बहु भवेदतिथींश्च लभेमहि ।\nश्रद्धा च नो मा व्यगमन्मा च याचिष्म कंचन ॥"
+          "text": "अन्नं च नो बहु भवेदतिथींश्च लभेमहि ।\nश्रद्धा च नो मा व्यगमन्मा च याचिष्म कंचन ॥",
+          "meaning": {
+            "en": "\"May we have plenty of food, may we find guests, may our faith never leave us, and may we never beg from anyone.\""
+          }
         },
         {
           "n": 115,
-          "text": "उपातिष्ठन्त पशवः स्वयं तं संशितव्रतम् ।\nग्राम्यारण्या महात्मानं रन्तिदेवं यशस्विनम् ॥"
+          "text": "उपातिष्ठन्त पशवः स्वयं तं संशितव्रतम् ।\nग्राम्यारण्या महात्मानं रन्तिदेवं यशस्विनम् ॥",
+          "meaning": {
+            "en": "Domestic and wild animals came of themselves to the great, famous Rantideva, firm in his vows."
+          }
         },
         {
           "n": 116,
-          "text": "महानदी चर्मराशेरुत्क्लेदात्सुस्रुवे यतः ।\nततश्चर्मण्वतीत्येवं विख्याता सा महानदी ॥"
+          "text": "महानदी चर्मराशेरुत्क्लेदात्सुस्रुवे यतः ।\nततश्चर्मण्वतीत्येवं विख्याता सा महानदी ॥",
+          "meaning": {
+            "en": "From the oozing of heaps of hides, a great river flowed, and so that great river became known as Charmanvati."
+          }
         },
         {
           "n": 117,
-          "text": "ब्राह्मणेभ्यो ददौ निष्कान्सदसि प्रतते नृपः ।\nतुभ्यं तुभ्यं निष्कमिति यत्राक्रोशन्ति वै द्विजाः ।\nसहस्रं तुभ्यमित्युक्त्वा ब्राह्मणान्स्म प्रपद्यते ॥"
+          "text": "ब्राह्मणेभ्यो ददौ निष्कान्सदसि प्रतते नृपः ।\nतुभ्यं तुभ्यं निष्कमिति यत्राक्रोशन्ति वै द्विजाः ।\nसहस्रं तुभ्यमित्युक्त्वा ब्राह्मणान्स्म प्रपद्यते ॥",
+          "meaning": {
+            "en": "In his crowded hall the king gave brahmins gold coins, and the brahmins there cried out, \"To you, to you the coin!\" and he approached them saying, \"A thousand to you.\""
+          }
         },
         {
           "n": 118,
-          "text": "अन्वाहार्योपकरणं द्रव्योपकरणं च यत् ।\nघटाः स्थाल्यः कटाहाश्च पात्र्यश्च पिठरा अपि ।\nन तत्किंचिदसौवर्णं रन्तिदेवस्य धीमतः ॥"
+          "text": "अन्वाहार्योपकरणं द्रव्योपकरणं च यत् ।\nघटाः स्थाल्यः कटाहाश्च पात्र्यश्च पिठरा अपि ।\nन तत्किंचिदसौवर्णं रन्तिदेवस्य धीमतः ॥",
+          "meaning": {
+            "en": "Whatever he used for his utensils and implements, pots, pans, cauldrons, dishes and jars, nothing of wise Rantideva's was not of gold."
+          }
         },
         {
           "n": 119,
-          "text": "साङ्कृते रन्तिदेवस्य यां रात्रिमवसद्गृहे ।\nआलभ्यन्त शतं गावः सहस्राणि च विंशतिः ॥"
+          "text": "साङ्कृते रन्तिदेवस्य यां रात्रिमवसद्गृहे ।\nआलभ्यन्त शतं गावः सहस्राणि च विंशतिः ॥",
+          "meaning": {
+            "en": "On the night that guests stayed in Rantideva's house, a hundred cows and twenty thousand more were sacrificed."
+          }
         },
         {
           "n": 120,
-          "text": "तत्र स्म सूदाः क्रोशन्ति सुमृष्टमणिकुण्डलाः ।\nसूपभूयिष्ठमश्नीध्वं नाद्य मांसं यथा पुरा ॥"
+          "text": "तत्र स्म सूदाः क्रोशन्ति सुमृष्टमणिकुण्डलाः ।\nसूपभूयिष्ठमश्नीध्वं नाद्य मांसं यथा पुरा ॥",
+          "meaning": {
+            "en": "There the cooks, with polished jewelled earrings, would call out, \"Eat plenty of soup; there is not as much meat today as before.\""
+          }
         },
         {
           "n": 121,
-          "text": "स चेन्ममार सृञ्जय चतुर्भद्रतरस्त्वया ।\nपुत्रात्पुण्यतरश्चैव मा पुत्रमनुतप्यथाः ॥"
+          "text": "स चेन्ममार सृञ्जय चतुर्भद्रतरस्त्वया ।\nपुत्रात्पुण्यतरश्चैव मा पुत्रमनुतप्यथाः ॥",
+          "meaning": {
+            "en": "Srinjaya, if he died, who was four times better than you and more virtuous than your son, do not grieve for your son."
+          }
         },
         {
           "n": 122,
-          "text": "सगरं च महात्मानं मृतं शुश्रुम सृञ्जय ।\nऐक्ष्वाकं पुरुषव्याघ्रमतिमानुषविक्रमम् ॥"
+          "text": "सगरं च महात्मानं मृतं शुश्रुम सृञ्जय ।\nऐक्ष्वाकं पुरुषव्याघ्रमतिमानुषविक्रमम् ॥",
+          "meaning": {
+            "en": "Srinjaya, we have heard that great-souled Sagara also died, the Ikshvaku, tiger among men, of superhuman valor."
+          }
         },
         {
           "n": 123,
-          "text": "षष्टिः पुत्रसहस्राणि यं यान्तं पृष्ठतोऽन्वयुः ।\nनक्षत्रराजं वर्षान्ते व्यभ्रे ज्योतिर्गणा इव ॥"
+          "text": "षष्टिः पुत्रसहस्राणि यं यान्तं पृष्ठतोऽन्वयुः ।\nनक्षत्रराजं वर्षान्ते व्यभ्रे ज्योतिर्गणा इव ॥",
+          "meaning": {
+            "en": "Sixty thousand sons followed him as he went, like stars attending the king of the stars in a cloudless sky at the end of the rains."
+          }
         },
         {
           "n": 124,
-          "text": "एकच्छत्रा मही यस्य प्रणता ह्यभवत्पुरा ।\nयोऽश्वमेधसहस्रेण तर्पयामास देवताः ॥"
+          "text": "एकच्छत्रा मही यस्य प्रणता ह्यभवत्पुरा ।\nयोऽश्वमेधसहस्रेण तर्पयामास देवताः ॥",
+          "meaning": {
+            "en": "In the past the whole earth bowed under one umbrella to him, and he gratified the gods with a thousand horse sacrifices."
+          }
         },
         {
           "n": 125,
-          "text": "यः प्रादात्काञ्चनस्तम्भं प्रासादं सर्वकाञ्चनम् ।\nपूर्णं पद्मदलाक्षीणां स्त्रीणां शयनसंकुलम् ॥"
+          "text": "यः प्रादात्काञ्चनस्तम्भं प्रासादं सर्वकाञ्चनम् ।\nपूर्णं पद्मदलाक्षीणां स्त्रीणां शयनसंकुलम् ॥",
+          "meaning": {
+            "en": "He gave a palace with golden pillars, all of gold, filled with lotus-eyed women and crowded with couches."
+          }
         },
         {
           "n": 126,
-          "text": "द्विजातिभ्योऽनुरूपेभ्यः कामानुच्चावचांस्तथा ।\nयस्यादेशेन तद्वित्तं व्यभजन्त द्विजातयः ॥"
+          "text": "द्विजातिभ्योऽनुरूपेभ्यः कामानुच्चावचांस्तथा ।\nयस्यादेशेन तद्वित्तं व्यभजन्त द्विजातयः ॥",
+          "meaning": {
+            "en": "At his command the brahmins divided that wealth among themselves, giving suitable brahmins desires of every kind."
+          }
         },
         {
           "n": 127,
-          "text": "खानयामास यः कोपात्पृथिवीं सागराङ्किताम् ।\nयस्य नाम्ना समुद्रश्च सागरत्वमुपागतः ॥"
+          "text": "खानयामास यः कोपात्पृथिवीं सागराङ्किताम् ।\nयस्य नाम्ना समुद्रश्च सागरत्वमुपागतः ॥",
+          "meaning": {
+            "en": "In anger he had the earth, marked by oceans, dug out, and through his name the ocean came to be called a sagara."
+          }
         },
         {
           "n": 128,
-          "text": "स चेन्ममार सृञ्जय चतुर्भद्रतरस्त्वया ।\nपुत्रात्पुण्यतरश्चैव मा पुत्रमनुतप्यथाः ॥"
+          "text": "स चेन्ममार सृञ्जय चतुर्भद्रतरस्त्वया ।\nपुत्रात्पुण्यतरश्चैव मा पुत्रमनुतप्यथाः ॥",
+          "meaning": {
+            "en": "Srinjaya, if he died, who was four times better than you and more virtuous than your son, do not grieve for your son."
+          }
         },
         {
           "n": 129,
-          "text": "राजानं च पृथुं वैन्यं मृतं शुश्रुम सृञ्जय ।\nयमभ्यषिञ्चन्संभूय महारण्ये महर्षयः ॥"
+          "text": "राजानं च पृथुं वैन्यं मृतं शुश्रुम सृञ्जय ।\nयमभ्यषिञ्चन्संभूय महारण्ये महर्षयः ॥",
+          "meaning": {
+            "en": "Srinjaya, we have heard that King Prithu, son of Vena, also died, whom the great sages gathered together in the great forest and consecrated."
+          }
         },
         {
           "n": 130,
-          "text": "प्रथयिष्यति वै लोकान्पृथुरित्येव शब्दितः ।\nक्षताच्च नस्त्रायतीति स तस्मात्क्षत्रियः स्मृतः ॥"
+          "text": "प्रथयिष्यति वै लोकान्पृथुरित्येव शब्दितः ।\nक्षताच्च नस्त्रायतीति स तस्मात्क्षत्रियः स्मृतः ॥",
+          "meaning": {
+            "en": "\"He will make the worlds widely known, being called Prithu, and he saves us from harm,\" so he is remembered as a kshatriya."
+          }
         },
         {
           "n": 131,
-          "text": "पृथुं वैन्यं प्रजा दृष्ट्वा रक्ताः स्मेति यदब्रुवन् ।\nततो राजेति नामास्य अनुरागादजायत ॥"
+          "text": "पृथुं वैन्यं प्रजा दृष्ट्वा रक्ताः स्मेति यदब्रुवन् ।\nततो राजेति नामास्य अनुरागादजायत ॥",
+          "meaning": {
+            "en": "When the people saw Prithu, Vena's son, they said, \"We are delighted\"; so from their affection the name \"king\" arose for him."
+          }
         },
         {
           "n": 132,
-          "text": "अकृष्टपच्या पृथिवी पुटके पुटके मधु ।\nसर्वा द्रोणदुघा गावो वैन्यस्यासन्प्रशासतः ॥"
+          "text": "अकृष्टपच्या पृथिवी पुटके पुटके मधु ।\nसर्वा द्रोणदुघा गावो वैन्यस्यासन्प्रशासतः ॥",
+          "meaning": {
+            "en": "While Vena's son ruled, the earth bore crops unploughed, honey filled every leaf-cup, and all cows gave a full measure of milk."
+          }
         },
         {
           "n": 133,
-          "text": "अरोगाः सर्वसिद्धार्था मनुष्या अकुतोभयाः ।\nयथाभिकाममवसन्क्षेत्रेषु च गृहेषु च ॥"
+          "text": "अरोगाः सर्वसिद्धार्था मनुष्या अकुतोभयाः ।\nयथाभिकाममवसन्क्षेत्रेषु च गृहेषु च ॥",
+          "meaning": {
+            "en": "Men were free of disease, all their aims fulfilled and fearless, and they lived as they wished in fields and in houses."
+          }
         },
         {
           "n": 134,
-          "text": "आपः संस्तम्भिरे यस्य समुद्रस्य यियासतः ।\nसरितश्चानुदीर्यन्त ध्वजसङ्गश्च नाभवत् ॥"
+          "text": "आपः संस्तम्भिरे यस्य समुद्रस्य यियासतः ।\nसरितश्चानुदीर्यन्त ध्वजसङ्गश्च नाभवत् ॥",
+          "meaning": {
+            "en": "When he wished to cross the ocean the waters stood firm, rivers rose up, and his banner was never obstructed."
+          }
         },
         {
           "n": 135,
-          "text": "हैरण्यांस्त्रिनलोत्सेधान्पर्वतानेकविंशतिम् ।\nब्राह्मणेभ्यो ददौ राजा योऽश्वमेधे महामखे ॥"
+          "text": "हैरण्यांस्त्रिनलोत्सेधान्पर्वतानेकविंशतिम् ।\nब्राह्मणेभ्यो ददौ राजा योऽश्वमेधे महामखे ॥",
+          "meaning": {
+            "en": "At his great horse sacrifice the king gave the brahmins twenty-one golden mountains, each three nalas high."
+          }
         },
         {
           "n": 136,
-          "text": "स चेन्ममार सृञ्जय चतुर्भद्रतरस्त्वया ।\nपुत्रात्पुण्यतरश्चैव मा पुत्रमनुतप्यथाः ॥"
+          "text": "स चेन्ममार सृञ्जय चतुर्भद्रतरस्त्वया ।\nपुत्रात्पुण्यतरश्चैव मा पुत्रमनुतप्यथाः ॥",
+          "meaning": {
+            "en": "Srinjaya, if he died, who was four times better than you and more virtuous than your son, do not grieve for your son."
+          }
         },
         {
           "n": 137,
-          "text": "किं वै तूष्णीं ध्यायसि सृञ्जय त्वं\nन मे राजन्वाचमिमां शृणोषि ।\nन चेन्मोघं विप्रलप्तं मयेदं\nपथ्यं मुमूर्षोरिव सम्यगुक्तम् ॥"
+          "text": "किं वै तूष्णीं ध्यायसि सृञ्जय त्वं\nन मे राजन्वाचमिमां शृणोषि ।\nन चेन्मोघं विप्रलप्तं मयेदं\nपथ्यं मुमूर्षोरिव सम्यगुक्तम् ॥",
+          "meaning": {
+            "en": "Why do you sit silent in thought, Srinjaya? King, do you not hear these words of mine? I hope my speech, like good counsel to a dying man, was not spoken in vain."
+          }
         },
         {
-          "text": "सृञ्जय उवाच"
+          "text": "सृञ्जय उवाच",
+          "meaning": {
+            "en": "Srinjaya said:"
+          }
         },
         {
           "n": 138,
-          "text": "शृणोमि ते नारद वाचमेतां\nविचित्रार्थां स्रजमिव पुण्यगन्धाम् ।\nराजर्षीणां पुण्यकृतां महात्मनां\nकीर्त्या युक्तां शोकनिर्णाशनार्थम् ॥"
+          "text": "शृणोमि ते नारद वाचमेतां\nविचित्रार्थां स्रजमिव पुण्यगन्धाम् ।\nराजर्षीणां पुण्यकृतां महात्मनां\nकीर्त्या युक्तां शोकनिर्णाशनार्थम् ॥",
+          "meaning": {
+            "en": "Narada, I hear your words, of varied meaning like a garland of sacred fragrance, joined with the glory of virtuous, great-souled royal sages, and meant to destroy grief."
+          }
         },
         {
           "n": 139,
-          "text": "न ते मोघं विप्रलप्तं महर्षे\nदृष्ट्वैव त्वां नारदाहं विशोकः ।\nशुश्रूषे ते वचनं ब्रह्मवादि-\nन्न ते तृप्याम्यमृतस्येव पानात् ॥"
+          "text": "न ते मोघं विप्रलप्तं महर्षे\nदृष्ट्वैव त्वां नारदाहं विशोकः ।\nशुश्रूषे ते वचनं ब्रह्मवादि-\nन्न ते तृप्याम्यमृतस्येव पानात् ॥",
+          "meaning": {
+            "en": "Great sage, your speech was not spoken in vain; at the mere sight of you, Narada, I am free of sorrow. I wish to hear you, teller of Brahman, and like drinking nectar I am never satisfied."
+          }
         },
         {
           "n": 140,
-          "text": "अमोघदर्शिन्मम चेत्प्रसादं\nसुताघदग्धस्य विभो प्रकुर्याः ।\nमृतस्य संजीवनमद्य मे स्या-\nत्तव प्रसादात्सुतसंगमश्च ॥"
+          "text": "अमोघदर्शिन्मम चेत्प्रसादं\nसुताघदग्धस्य विभो प्रकुर्याः ।\nमृतस्य संजीवनमद्य मे स्या-\nत्तव प्रसादात्सुतसंगमश्च ॥",
+          "meaning": {
+            "en": "Seer whose vision is never fruitless, if you would show me grace, scorched as I am by my son's misfortune, then today, lord, let there be life for my dead son and reunion with him by your favor."
+          }
         },
         {
-          "text": "नारद उवाच"
+          "text": "नारद उवाच",
+          "meaning": {
+            "en": "Narada said:"
+          }
         },
         {
           "n": 141,
-          "text": "यस्ते पुत्रो दयितोऽयं वियातः\nस्वर्णष्ठीवी यमदात्पर्वतस्ते ।\nपुनस्ते तं पुत्रमहं ददामि\nहिरण्यनाभं वर्षसहस्रिणं च ॥"
+          "text": "यस्ते पुत्रो दयितोऽयं वियातः\nस्वर्णष्ठीवी यमदात्पर्वतस्ते ।\nपुनस्ते तं पुत्रमहं ददामि\nहिरण्यनाभं वर्षसहस्रिणं च ॥",
+          "meaning": {
+            "en": "Your beloved son who has died, whom the mountain Parvata gave you, he of the golden spit, I give back to you, with the name Hiranyanabha, to live a thousand years."
+          }
         }
       ]
     }

@@ -22,67 +22,115 @@
       "titleEn": "Jalapradanika Parva (The water offerings)",
       "verses": [
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 1,
-          "text": "तत एनमुपातिष्ठञ्शौचार्थं परिचारकाः ।\nकृतशौचं पुनश्चैनं प्रोवाच मधुसूदनः ॥"
+          "text": "तत एनमुपातिष्ठञ्शौचार्थं परिचारकाः ।\nकृतशौचं पुनश्चैनं प्रोवाच मधुसूदनः ॥",
+          "meaning": {
+            "en": "Then attendants came to him for his purification, and after he had bathed, Madhusudana spoke to him again."
+          }
         },
         {
           "n": 2,
-          "text": "राजन्नधीता वेदास्ते शास्त्राणि विविधानि च ।\nश्रुतानि च पुराणानि राजधर्माश्च केवलाः ॥"
+          "text": "राजन्नधीता वेदास्ते शास्त्राणि विविधानि च ।\nश्रुतानि च पुराणानि राजधर्माश्च केवलाः ॥",
+          "meaning": {
+            "en": "King, you have studied the Vedas and the many treatises, and you have heard the Puranas and all the duties of kings."
+          }
         },
         {
           "n": 3,
-          "text": "एवं विद्वान्महाप्राज्ञ नाकार्षीर्वचनं तदा ।\nपाण्डवानधिकाञ्जानन्बले शौर्ये च कौरव ॥"
+          "text": "एवं विद्वान्महाप्राज्ञ नाकार्षीर्वचनं तदा ।\nपाण्डवानधिकाञ्जानन्बले शौर्ये च कौरव ॥",
+          "meaning": {
+            "en": "Though so learned and so wise, you did not heed our counsel then, Kaurava, though you knew the Pandavas were greater in strength and valor."
+          }
         },
         {
           "n": 4,
-          "text": "राजा हि यः स्थिरप्रज्ञः स्वयं दोषानवेक्षते ।\nदेशकालविभागं च परं श्रेयः स विन्दति ॥"
+          "text": "राजा हि यः स्थिरप्रज्ञः स्वयं दोषानवेक्षते ।\nदेशकालविभागं च परं श्रेयः स विन्दति ॥",
+          "meaning": {
+            "en": "A king who is steady in judgment and sees his own faults himself, and the division of place and time, attains the highest good."
+          }
         },
         {
           "n": 5,
-          "text": "उच्यमानं च यः श्रेयो गृह्णीते नो हिताहिते ।\nआपदं समनुप्राप्य स शोचत्यनये स्थितः ॥"
+          "text": "उच्यमानं च यः श्रेयो गृह्णीते नो हिताहिते ।\nआपदं समनुप्राप्य स शोचत्यनये स्थितः ॥",
+          "meaning": {
+            "en": "One who does not accept what is for his good when it is told, whether it helps or harms, grieves when disaster comes, standing in injustice."
+          }
         },
         {
           "n": 6,
-          "text": "ततोऽन्यवृत्तमात्मानं समवेक्षस्व भारत ।\nराजंस्त्वं ह्यविधेयात्मा दुर्योधनवशे स्थितः ॥"
+          "text": "ततोऽन्यवृत्तमात्मानं समवेक्षस्व भारत ।\nराजंस्त्वं ह्यविधेयात्मा दुर्योधनवशे स्थितः ॥",
+          "meaning": {
+            "en": "So now look at yourself, who acted otherwise, descendant of Bharata. You, king, were not master of yourself, and stood under Duryodhana's sway."
+          }
         },
         {
           "n": 7,
-          "text": "आत्मापराधादायस्तस्तत्किं भीमं जिघांससि ।\nतस्मात्संयच्छ कोपं त्वं स्वमनुस्मृत्य दुष्कृतम् ॥"
+          "text": "आत्मापराधादायस्तस्तत्किं भीमं जिघांससि ।\nतस्मात्संयच्छ कोपं त्वं स्वमनुस्मृत्य दुष्कृतम् ॥",
+          "meaning": {
+            "en": "Distressed by your own fault, why do you want to kill Bhima? So restrain your anger and remember your own wrongdoing."
+          }
         },
         {
           "n": 8,
-          "text": "यस्तु तां स्पर्धया क्षुद्रः पाञ्चालीमानयत्सभाम् ।\nस हतो भीमसेनेन वैरं प्रतिचिकीर्षता ॥"
+          "text": "यस्तु तां स्पर्धया क्षुद्रः पाञ्चालीमानयत्सभाम् ।\nस हतो भीमसेनेन वैरं प्रतिचिकीर्षता ॥",
+          "meaning": {
+            "en": "The petty man who in spite dragged Panchali into the assembly was killed by Bhimasena, who wished to repay the enmity."
+          }
         },
         {
           "n": 9,
-          "text": "आत्मनोऽतिक्रमं पश्य पुत्रस्य च दुरात्मनः ।\nयदनागसि पाण्डूनां परित्यागः परंतप ॥"
+          "text": "आत्मनोऽतिक्रमं पश्य पुत्रस्य च दुरात्मनः ।\nयदनागसि पाण्डूनां परित्यागः परंतप ॥",
+          "meaning": {
+            "en": "See the transgression of yourself and of your wicked son, tormentor of foes, in abandoning the Pandavas who had done no wrong."
+          }
         },
         {
           "n": 10,
-          "text": "एवमुक्तः स कृष्णेन सर्वं सत्यं जनाधिप ।\nउवाच देवकीपुत्रं धृतराष्ट्रो महीपतिः ॥"
+          "text": "एवमुक्तः स कृष्णेन सर्वं सत्यं जनाधिप ।\nउवाच देवकीपुत्रं धृतराष्ट्रो महीपतिः ॥",
+          "meaning": {
+            "en": "So addressed by Krishna, king, the lord of the earth Dhritarashtra said to the son of Devaki, \"All this is true.\""
+          }
         },
         {
           "n": 11,
-          "text": "एवमेतन्महाबाहो यथा वदसि माधव ।\nपुत्रस्नेहस्तु धर्मात्मन्धैर्यान्मां समचालयत् ॥"
+          "text": "एवमेतन्महाबाहो यथा वदसि माधव ।\nपुत्रस्नेहस्तु धर्मात्मन्धैर्यान्मां समचालयत् ॥",
+          "meaning": {
+            "en": "It is just as you say, mighty-armed Madhava. But love for my son moved me from steadiness, righteous one."
+          }
         },
         {
           "n": 12,
-          "text": "दिष्ट्या तु पुरुषव्याघ्रो बलवान्सत्यविक्रमः ।\nत्वद्गुप्तो नागमत्कृष्ण भीमो बाह्वन्तरं मम ॥"
+          "text": "दिष्ट्या तु पुरुषव्याघ्रो बलवान्सत्यविक्रमः ।\nत्वद्गुप्तो नागमत्कृष्ण भीमो बाह्वन्तरं मम ॥",
+          "meaning": {
+            "en": "By good fortune, Krishna, the mighty tiger among men, Bhima of true valor, protected by you, did not come between my arms."
+          }
         },
         {
           "n": 13,
-          "text": "इदानीं त्वहमेकाग्रो गतमन्युर्गतज्वरः ।\nमध्यमं पाण्डवं वीरं स्प्रष्टुमिच्छामि केशव ॥"
+          "text": "इदानीं त्वहमेकाग्रो गतमन्युर्गतज्वरः ।\nमध्यमं पाण्डवं वीरं स्प्रष्टुमिच्छामि केशव ॥",
+          "meaning": {
+            "en": "Now, my mind fixed and my anger and fever gone, I wish to touch the middle Pandava, the hero, Keshava."
+          }
         },
         {
           "n": 14,
-          "text": "हतेषु पार्थिवेन्द्रेषु पुत्रेषु निहतेषु च ।\nपाण्डुपुत्रेषु मे शर्म प्रीतिश्चाप्यवतिष्ठते ॥"
+          "text": "हतेषु पार्थिवेन्द्रेषु पुत्रेषु निहतेषु च ।\nपाण्डुपुत्रेषु मे शर्म प्रीतिश्चाप्यवतिष्ठते ॥",
+          "meaning": {
+            "en": "With the great kings and my sons killed, peace and affection remain in me toward the sons of Pandu."
+          }
         },
         {
           "n": 15,
-          "text": "ततः स भीमं च धनंजयं च\nमाद्र्याश्च पुत्रौ पुरुषप्रवीरौ ।\nपस्पर्श गात्रैः प्ररुदन्सुगात्रा-\nनाश्वास्य कल्याणमुवाच चैनान् ॥"
+          "text": "ततः स भीमं च धनंजयं च\nमाद्र्याश्च पुत्रौ पुरुषप्रवीरौ ।\nपस्पर्श गात्रैः प्ररुदन्सुगात्रा-\nनाश्वास्य कल्याणमुवाच चैनान् ॥",
+          "meaning": {
+            "en": "Then, weeping, he touched Bhima, Dhananjaya and the two sons of Madri, those heroes among men, with his hands, comforting these fine-limbed men, and spoke kind words to them."
+          }
         }
       ]
     }

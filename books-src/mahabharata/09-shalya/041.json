@@ -22,166 +22,289 @@
       "titleEn": "Sarasvata Parva (Balarama's pilgrimage on the Sarasvati)",
       "verses": [
         {
-          "text": "जनमेजय उवाच"
+          "text": "जनमेजय उवाच",
+          "meaning": {
+            "en": "Janamejaya said:"
+          }
         },
         {
           "n": 1,
-          "text": "वसिष्ठस्यापवाहो वै भीमवेगः कथं नु सः ।\nकिमर्थं च सरिच्छ्रेष्ठा तमृषिं प्रत्यवाहयत् ॥"
+          "text": "वसिष्ठस्यापवाहो वै भीमवेगः कथं नु सः ।\nकिमर्थं च सरिच्छ्रेष्ठा तमृषिं प्रत्यवाहयत् ॥",
+          "meaning": {
+            "en": "How did that Vasishthapavaha, \"Vasishtha's carrying away,\" come to have such fearful speed, and why did the best of rivers carry that sage away?"
+          }
         },
         {
           "n": 2,
-          "text": "केन चास्याभवद्वैरं कारणं किं च तत्प्रभो ।\nशंस पृष्टो महाप्राज्ञ न हि तृप्यामि कथ्यताम् ॥"
+          "text": "केन चास्याभवद्वैरं कारणं किं च तत्प्रभो ।\nशंस पृष्टो महाप्राज्ञ न हि तृप्यामि कथ्यताम् ॥",
+          "meaning": {
+            "en": "What caused his enmity, and what was the reason, lord? Tell me, great sage, for I am not satisfied; please relate it."
+          }
         },
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 3,
-          "text": "विश्वामित्रस्य चैवर्षेर्वसिष्ठस्य च भारत ।\nभृशं वैरमभूद्राजंस्तपःस्पर्धाकृतं महत् ॥"
+          "text": "विश्वामित्रस्य चैवर्षेर्वसिष्ठस्य च भारत ।\nभृशं वैरमभूद्राजंस्तपःस्पर्धाकृतं महत् ॥",
+          "meaning": {
+            "en": "Bharata, there was great enmity between the sage Vishvamitra and Vasishtha, born of rivalry in austerity."
+          }
         },
         {
           "n": 4,
-          "text": "आश्रमो वै वसिष्ठस्य स्थाणुतीर्थेऽभवन्महान् ।\nपूर्वतः पश्चिमश्चासीद्विश्वामित्रस्य धीमतः ॥"
+          "text": "आश्रमो वै वसिष्ठस्य स्थाणुतीर्थेऽभवन्महान् ।\nपूर्वतः पश्चिमश्चासीद्विश्वामित्रस्य धीमतः ॥",
+          "meaning": {
+            "en": "The great hermitage of Vasishtha stood at Sthanutirtha, and to the west of it was that of the wise Vishvamitra."
+          }
         },
         {
           "n": 5,
-          "text": "यत्र स्थाणुर्महाराज तप्तवान्सुमहत्तपः ।\nयत्रास्य कर्म तद्घोरं प्रवदन्ति मनीषिणः ॥"
+          "text": "यत्र स्थाणुर्महाराज तप्तवान्सुमहत्तपः ।\nयत्रास्य कर्म तद्घोरं प्रवदन्ति मनीषिणः ॥",
+          "meaning": {
+            "en": "There, great king, Sthanu, Shiva, performed very great austerity, and the wise speak of his fierce deed there."
+          }
         },
         {
           "n": 6,
-          "text": "यत्रेष्ट्वा भगवान्स्थाणुः पूजयित्वा सरस्वतीम् ।\nस्थापयामास तत्तीर्थं स्थाणुतीर्थमिति प्रभो ॥"
+          "text": "यत्रेष्ट्वा भगवान्स्थाणुः पूजयित्वा सरस्वतीम् ।\nस्थापयामास तत्तीर्थं स्थाणुतीर्थमिति प्रभो ॥",
+          "meaning": {
+            "en": "There the blessed Sthanu, having sacrificed and honored the Sarasvati, founded that tirtha, which is called Sthanutirtha, lord."
+          }
         },
         {
           "n": 7,
-          "text": "तत्र सर्वे सुराः स्कन्दमभ्यषिञ्चन्नराधिप ।\nसेनापत्येन महता सुरारिविनिबर्हणम् ॥"
+          "text": "तत्र सर्वे सुराः स्कन्दमभ्यषिञ्चन्नराधिप ।\nसेनापत्येन महता सुरारिविनिबर्हणम् ॥",
+          "meaning": {
+            "en": "There all the gods, king, anointed Skanda to the great generalship for the destruction of the gods' enemies."
+          }
         },
         {
           "n": 8,
-          "text": "तस्मिन्सरस्वतीतीर्थे विश्वामित्रो महामुनिः ।\nवसिष्ठं चालयामास तपसोग्रेण तच्छृणु ॥"
+          "text": "तस्मिन्सरस्वतीतीर्थे विश्वामित्रो महामुनिः ।\nवसिष्ठं चालयामास तपसोग्रेण तच्छृणु ॥",
+          "meaning": {
+            "en": "At that tirtha of the Sarasvati the great sage Vishvamitra, by fierce austerity, shook Vasishtha; hear how."
+          }
         },
         {
           "n": 9,
-          "text": "विश्वामित्रवसिष्ठौ तावहन्यहनि भारत ।\nस्पर्धां तपःकृतां तीव्रां चक्रतुस्तौ तपोधनौ ॥"
+          "text": "विश्वामित्रवसिष्ठौ तावहन्यहनि भारत ।\nस्पर्धां तपःकृतां तीव्रां चक्रतुस्तौ तपोधनौ ॥",
+          "meaning": {
+            "en": "Day after day, Bharata, Vishvamitra and Vasishtha, both rich in austerity, carried on a bitter rivalry in austerity."
+          }
         },
         {
           "n": 10,
-          "text": "तत्राप्यधिकसंतापो विश्वामित्रो महामुनिः ।\nदृष्ट्वा तेजो वसिष्ठस्य चिन्तामभिजगाम ह ।\nतस्य बुद्धिरियं ह्यासीद्धर्मनित्यस्य भारत ॥"
+          "text": "तत्राप्यधिकसंतापो विश्वामित्रो महामुनिः ।\nदृष्ट्वा तेजो वसिष्ठस्य चिन्तामभिजगाम ह ।\nतस्य बुद्धिरियं ह्यासीद्धर्मनित्यस्य भारत ॥",
+          "meaning": {
+            "en": "There Vishvamitra, the great sage, was the more tormented; seeing Vasishtha's radiance he fell into worry. This was the thought of that man constant in dharma, Bharata."
+          }
         },
         {
           "n": 11,
-          "text": "इयं सरस्वती तूर्णं मत्समीपं तपोधनम् ।\nआनयिष्यति वेगेन वसिष्ठं जपतां वरम् ।\nइहागतं द्विजश्रेष्ठं हनिष्यामि न संशयः ॥"
+          "text": "इयं सरस्वती तूर्णं मत्समीपं तपोधनम् ।\nआनयिष्यति वेगेन वसिष्ठं जपतां वरम् ।\nइहागतं द्विजश्रेष्ठं हनिष्यामि न संशयः ॥",
+          "meaning": {
+            "en": "This Sarasvati will quickly bring Vasishtha, the ascetic and best of those who recite prayers, to me with her current. When he comes here I will kill that best of Brahmins, without doubt."
+          }
         },
         {
           "n": 12,
-          "text": "एवं निश्चित्य भगवान्विश्वामित्रो महामुनिः ।\nसस्मार सरितां श्रेष्ठां क्रोधसंरक्तलोचनः ॥"
+          "text": "एवं निश्चित्य भगवान्विश्वामित्रो महामुनिः ।\nसस्मार सरितां श्रेष्ठां क्रोधसंरक्तलोचनः ॥",
+          "meaning": {
+            "en": "Having so resolved, the blessed great sage Vishvamitra, his eyes red with anger, called to mind the best of rivers."
+          }
         },
         {
           "n": 13,
-          "text": "सा ध्याता मुनिना तेन व्याकुलत्वं जगाम ह ।\nजज्ञे चैनं महावीर्यं महाकोपं च भामिनी ॥"
+          "text": "सा ध्याता मुनिना तेन व्याकुलत्वं जगाम ह ।\nजज्ञे चैनं महावीर्यं महाकोपं च भामिनी ॥",
+          "meaning": {
+            "en": "Thought of by that sage, she was thrown into distress, and the lovely river knew him to be of great power and great wrath."
+          }
         },
         {
           "n": 14,
-          "text": "तत एनं वेपमाना विवर्णा प्राञ्जलिस्तदा ।\nउपतस्थे मुनिवरं विश्वामित्रं सरस्वती ॥"
+          "text": "तत एनं वेपमाना विवर्णा प्राञ्जलिस्तदा ।\nउपतस्थे मुनिवरं विश्वामित्रं सरस्वती ॥",
+          "meaning": {
+            "en": "Then, trembling and pale, with joined palms, the Sarasvati stood before Vishvamitra, best of sages."
+          }
         },
         {
           "n": 15,
-          "text": "हतवीरा यथा नारी साभवद्दुःखिता भृशम् ।\nब्रूहि किं करवाणीति प्रोवाच मुनिसत्तमम् ॥"
+          "text": "हतवीरा यथा नारी साभवद्दुःखिता भृशम् ।\nब्रूहि किं करवाणीति प्रोवाच मुनिसत्तमम् ॥",
+          "meaning": {
+            "en": "She was greatly grieved, like a woman whose hero is slain, and said to the best of sages: tell me, what shall I do?"
+          }
         },
         {
           "n": 16,
-          "text": "तामुवाच मुनिः क्रुद्धो वसिष्ठं शीघ्रमानय ।\nयावदेनं निहन्म्यद्य तच्छ्रुत्वा व्यथिता नदी ॥"
+          "text": "तामुवाच मुनिः क्रुद्धो वसिष्ठं शीघ्रमानय ।\nयावदेनं निहन्म्यद्य तच्छ्रुत्वा व्यथिता नदी ॥",
+          "meaning": {
+            "en": "The angry sage said to her: bring Vasishtha quickly, so that I may kill him today. Hearing that, the river was pained."
+          }
         },
         {
           "n": 17,
-          "text": "साञ्जलिं तु ततः कृत्वा पुण्डरीकनिभेक्षणा ।\nविव्यथे सुविरूढेव लता वायुसमीरिता ॥"
+          "text": "साञ्जलिं तु ततः कृत्वा पुण्डरीकनिभेक्षणा ।\nविव्यथे सुविरूढेव लता वायुसमीरिता ॥",
+          "meaning": {
+            "en": "Making the gesture of joined palms, lotus-eyed, she shook like a well-grown creeper stirred by the wind."
+          }
         },
         {
           "n": 18,
-          "text": "तथागतां तु तां दृष्ट्वा वेपमानां कृताञ्जलिम् ।\nविश्वामित्रोऽब्रवीत्क्रुद्धो वसिष्ठं शीघ्रमानय ॥"
+          "text": "तथागतां तु तां दृष्ट्वा वेपमानां कृताञ्जलिम् ।\nविश्वामित्रोऽब्रवीत्क्रुद्धो वसिष्ठं शीघ्रमानय ॥",
+          "meaning": {
+            "en": "Seeing her so, trembling with joined palms, Vishvamitra said angrily: bring Vasishtha quickly."
+          }
         },
         {
           "n": 19,
-          "text": "ततो भीता सरिच्छ्रेष्ठा चिन्तयामास भारत ।\nउभयोः शापयोर्भीता कथमेतद्भविष्यति ॥"
+          "text": "ततो भीता सरिच्छ्रेष्ठा चिन्तयामास भारत ।\nउभयोः शापयोर्भीता कथमेतद्भविष्यति ॥",
+          "meaning": {
+            "en": "Then, Bharata, the best of rivers, frightened, thought: afraid of the curses of both, how will this turn out?"
+          }
         },
         {
           "n": 20,
-          "text": "साभिगम्य वसिष्ठं तु इममर्थमचोदयत् ।\nयदुक्ता सरितां श्रेष्ठा विश्वामित्रेण धीमता ॥"
+          "text": "साभिगम्य वसिष्ठं तु इममर्थमचोदयत् ।\nयदुक्ता सरितां श्रेष्ठा विश्वामित्रेण धीमता ॥",
+          "meaning": {
+            "en": "She went to Vasishtha and told him this matter, what had been said to the best of rivers by the wise Vishvamitra."
+          }
         },
         {
           "n": 21,
-          "text": "उभयोः शापयोर्भीता वेपमाना पुनः पुनः ।\nचिन्तयित्वा महाशापमृषिवित्रासिता भृशम् ॥"
+          "text": "उभयोः शापयोर्भीता वेपमाना पुनः पुनः ।\nचिन्तयित्वा महाशापमृषिवित्रासिता भृशम् ॥",
+          "meaning": {
+            "en": "Trembling again and again, afraid of the two curses, and terrified by the sage's great curse as she considered it,"
+          }
         },
         {
           "n": 22,
-          "text": "तां कृशां च विवर्णां च दृष्ट्वा चिन्तासमन्विताम् ।\nउवाच राजन्धर्मात्मा वसिष्ठो द्विपदां वरः ॥"
+          "text": "तां कृशां च विवर्णां च दृष्ट्वा चिन्तासमन्विताम् ।\nउवाच राजन्धर्मात्मा वसिष्ठो द्विपदां वरः ॥",
+          "meaning": {
+            "en": "seeing her thin, pale and full of worry, the righteous Vasishtha, best of men, said to her, king:"
+          }
         },
         {
           "n": 23,
-          "text": "त्राह्यात्मानं सरिच्छ्रेष्ठे वह मां शीघ्रगामिनी ।\nविश्वामित्रः शपेद्धि त्वां मा कृथास्त्वं विचारणाम् ॥"
+          "text": "त्राह्यात्मानं सरिच्छ्रेष्ठे वह मां शीघ्रगामिनी ।\nविश्वामित्रः शपेद्धि त्वां मा कृथास्त्वं विचारणाम् ॥",
+          "meaning": {
+            "en": "Save yourself, best of rivers; carry me swiftly away. Vishvamitra might curse you, so do not hesitate."
+          }
         },
         {
           "n": 24,
-          "text": "तस्य तद्वचनं श्रुत्वा कृपाशीलस्य सा सरित् ।\nचिन्तयामास कौरव्य किं कृतं सुकृतं भवेत् ॥"
+          "text": "तस्य तद्वचनं श्रुत्वा कृपाशीलस्य सा सरित् ।\nचिन्तयामास कौरव्य किं कृतं सुकृतं भवेत् ॥",
+          "meaning": {
+            "en": "Hearing the words of that compassionate man, the river thought, Kaurava: what act would be a good deed here?"
+          }
         },
         {
           "n": 25,
-          "text": "तस्याश्चिन्ता समुत्पन्ना वसिष्ठो मय्यतीव हि ।\nकृतवान्हि दयां नित्यं तस्य कार्यं हितं मया ॥"
+          "text": "तस्याश्चिन्ता समुत्पन्ना वसिष्ठो मय्यतीव हि ।\nकृतवान्हि दयां नित्यं तस्य कार्यं हितं मया ॥",
+          "meaning": {
+            "en": "She reflected: Vasishtha has always shown great kindness to me, so I must do what is good for him."
+          }
         },
         {
           "n": 26,
-          "text": "अथ कूले स्वके राजञ्जपन्तमृषिसत्तमम् ।\nजुह्वानं कौशिकं प्रेक्ष्य सरस्वत्यभ्यचिन्तयत् ॥"
+          "text": "अथ कूले स्वके राजञ्जपन्तमृषिसत्तमम् ।\nजुह्वानं कौशिकं प्रेक्ष्य सरस्वत्यभ्यचिन्तयत् ॥",
+          "meaning": {
+            "en": "Then, king, seeing the best of sages reciting prayers on her bank and Kaushika making offerings, the Sarasvati considered."
+          }
         },
         {
           "n": 27,
-          "text": "इदमन्तरमित्येव ततः सा सरितां वरा ।\nकूलापहारमकरोत्स्वेन वेगेन सा सरित् ॥"
+          "text": "इदमन्तरमित्येव ततः सा सरितां वरा ।\nकूलापहारमकरोत्स्वेन वेगेन सा सरित् ॥",
+          "meaning": {
+            "en": "Thinking \"this is the chance,\" that best of rivers then undercut her bank with her own current."
+          }
         },
         {
           "n": 28,
-          "text": "तेन कूलापहारेण मैत्रावरुणिरौह्यत ।\nउह्यमानश्च तुष्टाव तदा राजन्सरस्वतीम् ॥"
+          "text": "तेन कूलापहारेण मैत्रावरुणिरौह्यत ।\nउह्यमानश्च तुष्टाव तदा राजन्सरस्वतीम् ॥",
+          "meaning": {
+            "en": "By that collapse of the bank the son of Mitra and Varuna, Vasishtha, was carried away, and as he was carried, king, he praised the Sarasvati."
+          }
         },
         {
           "n": 29,
-          "text": "पितामहस्य सरसः प्रवृत्तासि सरस्वति ।\nव्याप्तं चेदं जगत्सर्वं तवैवाम्भोभिरुत्तमैः ॥"
+          "text": "पितामहस्य सरसः प्रवृत्तासि सरस्वति ।\nव्याप्तं चेदं जगत्सर्वं तवैवाम्भोभिरुत्तमैः ॥",
+          "meaning": {
+            "en": "You flow from the lake of the Grandfather, Sarasvati; this whole world is pervaded by your excellent waters."
+          }
         },
         {
           "n": 30,
-          "text": "त्वमेवाकाशगा देवि मेघेषूत्सृजसे पयः ।\nसर्वाश्चापस्त्वमेवेति त्वत्तो वयमधीमहे ॥"
+          "text": "त्वमेवाकाशगा देवि मेघेषूत्सृजसे पयः ।\nसर्वाश्चापस्त्वमेवेति त्वत्तो वयमधीमहे ॥",
+          "meaning": {
+            "en": "You alone, goddess, travel in the sky and pour water into the clouds; you are all the waters, and from you we study."
+          }
         },
         {
           "n": 31,
-          "text": "पुष्टिर्द्युतिस्तथा कीर्तिः सिद्धिर्वृद्धिरुमा तथा ।\nत्वमेव वाणी स्वाहा त्वं त्वय्यायत्तमिदं जगत् ।\nत्वमेव सर्वभूतेषु वससीह चतुर्विधा ॥"
+          "text": "पुष्टिर्द्युतिस्तथा कीर्तिः सिद्धिर्वृद्धिरुमा तथा ।\nत्वमेव वाणी स्वाहा त्वं त्वय्यायत्तमिदं जगत् ।\nत्वमेव सर्वभूतेषु वससीह चतुर्विधा ॥",
+          "meaning": {
+            "en": "You are nourishment, radiance, fame, success, growth and Uma; you alone are speech and Svaha; this world depends on you; you dwell in all beings here in four forms."
+          }
         },
         {
           "n": 32,
-          "text": "एवं सरस्वती राजन्स्तूयमाना महर्षिणा ।\nवेगेनोवाह तं विप्रं विश्वामित्राश्रमं प्रति ।\nन्यवेदयत चाभीक्ष्णं विश्वामित्राय तं मुनिम् ॥"
+          "text": "एवं सरस्वती राजन्स्तूयमाना महर्षिणा ।\nवेगेनोवाह तं विप्रं विश्वामित्राश्रमं प्रति ।\nन्यवेदयत चाभीक्ष्णं विश्वामित्राय तं मुनिम् ॥",
+          "meaning": {
+            "en": "Thus praised by the great sage, king, the Sarasvati bore that Brahmin swiftly toward Vishvamitra's hermitage, and kept presenting the sage to Vishvamitra."
+          }
         },
         {
           "n": 33,
-          "text": "तमानीतं सरस्वत्या दृष्ट्वा कोपसमन्वितः ।\nअथान्वेषत्प्रहरणं वसिष्ठान्तकरं तदा ॥"
+          "text": "तमानीतं सरस्वत्या दृष्ट्वा कोपसमन्वितः ।\nअथान्वेषत्प्रहरणं वसिष्ठान्तकरं तदा ॥",
+          "meaning": {
+            "en": "Seeing him brought by the Sarasvati, Vishvamitra was filled with rage, and then looked for a weapon to kill Vasishtha."
+          }
         },
         {
           "n": 34,
-          "text": "तं तु क्रुद्धमभिप्रेक्ष्य ब्रह्महत्याभयान्नदी ।\nअपोवाह वसिष्ठं तु प्राचीं दिशमतन्द्रिता ।\nउभयोः कुर्वती वाक्यं वञ्चयित्वा तु गाधिजम् ॥"
+          "text": "तं तु क्रुद्धमभिप्रेक्ष्य ब्रह्महत्याभयान्नदी ।\nअपोवाह वसिष्ठं तु प्राचीं दिशमतन्द्रिता ।\nउभयोः कुर्वती वाक्यं वञ्चयित्वा तु गाधिजम् ॥",
+          "meaning": {
+            "en": "Seeing him enraged, the river, fearing the killing of a Brahmin, carried Vasishtha off to the eastern quarter, tireless, obeying both and deceiving the son of Gadhi."
+          }
         },
         {
           "n": 35,
-          "text": "ततोऽपवाहितं दृष्ट्वा वसिष्ठमृषिसत्तमम् ।\nअब्रवीदथ संक्रुद्धो विश्वामित्रो ह्यमर्षणः ॥"
+          "text": "ततोऽपवाहितं दृष्ट्वा वसिष्ठमृषिसत्तमम् ।\nअब्रवीदथ संक्रुद्धो विश्वामित्रो ह्यमर्षणः ॥",
+          "meaning": {
+            "en": "Then, seeing the best of sages Vasishtha carried away, Vishvamitra, furious and intolerant, said:"
+          }
         },
         {
           "n": 36,
-          "text": "यस्मान्मा त्वं सरिच्छ्रेष्ठे वञ्चयित्वा पुनर्गता ।\nशोणितं वह कल्याणि रक्षोग्रामणिसंमतम् ॥"
+          "text": "यस्मान्मा त्वं सरिच्छ्रेष्ठे वञ्चयित्वा पुनर्गता ।\nशोणितं वह कल्याणि रक्षोग्रामणिसंमतम् ॥",
+          "meaning": {
+            "en": "Since you deceived me, best of rivers, and left, then flow with blood, fair one, which the chiefs of rakshasas approve."
+          }
         },
         {
           "n": 37,
-          "text": "ततः सरस्वती शप्ता विश्वामित्रेण धीमता ।\nअवहच्छोणितोन्मिश्रं तोयं संवत्सरं तदा ॥"
+          "text": "ततः सरस्वती शप्ता विश्वामित्रेण धीमता ।\nअवहच्छोणितोन्मिश्रं तोयं संवत्सरं तदा ॥",
+          "meaning": {
+            "en": "Then the Sarasvati, cursed by the wise Vishvamitra, flowed for a year with water mixed with blood."
+          }
         },
         {
           "n": 38,
-          "text": "अथर्षयश्च देवाश्च गन्धर्वाप्सरसस्तथा ।\nसरस्वतीं तथा दृष्ट्वा बभूवुर्भृशदुःखिताः ॥"
+          "text": "अथर्षयश्च देवाश्च गन्धर्वाप्सरसस्तथा ।\nसरस्वतीं तथा दृष्ट्वा बभूवुर्भृशदुःखिताः ॥",
+          "meaning": {
+            "en": "Then the sages, gods, gandharvas and apsaras, seeing the Sarasvati so, became deeply grieved."
+          }
         },
         {
           "n": 39,
-          "text": "एवं वसिष्ठापवाहो लोके ख्यातो जनाधिप ।\nआगच्छच्च पुनर्मार्गं स्वमेव सरितां वरा ॥"
+          "text": "एवं वसिष्ठापवाहो लोके ख्यातो जनाधिप ।\nआगच्छच्च पुनर्मार्गं स्वमेव सरितां वरा ॥",
+          "meaning": {
+            "en": "Thus, lord of men, the Vasishthapavaha became famous in the world, and the best of rivers came back to her own course."
+          }
         }
       ]
     }

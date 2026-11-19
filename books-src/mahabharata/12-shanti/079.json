@@ -22,206 +22,365 @@
       "titleEn": "Rajadharma Parva (Duties of kings)",
       "verses": [
         {
-          "text": "युधिष्ठिर उवाच"
+          "text": "युधिष्ठिर उवाच",
+          "meaning": {
+            "en": "Yudhishthira said:"
+          }
         },
         {
           "n": 1,
-          "text": "व्याख्याता क्षत्रधर्मेण वृत्तिरापत्सु भारत ।\nकथंचिद्वैश्यधर्मेण जीवेद्वा ब्राह्मणो न वा ॥"
+          "text": "व्याख्याता क्षत्रधर्मेण वृत्तिरापत्सु भारत ।\nकथंचिद्वैश्यधर्मेण जीवेद्वा ब्राह्मणो न वा ॥",
+          "meaning": {
+            "en": "The livelihood of the Kshatriya in times of distress has been explained, Bharata. Should a Brahmana somehow live by the Vaishya's duty, or not?"
+          }
         },
         {
-          "text": "भीष्म उवाच"
+          "text": "भीष्म उवाच",
+          "meaning": {
+            "en": "Bhishma said:"
+          }
         },
         {
           "n": 2,
-          "text": "अशक्तः क्षत्रधर्मेण वैश्यधर्मेण वर्तयेत् ।\nकृषिगोरक्षमास्थाय व्यसने वृत्तिसंक्षये ॥"
+          "text": "अशक्तः क्षत्रधर्मेण वैश्यधर्मेण वर्तयेत् ।\nकृषिगोरक्षमास्थाय व्यसने वृत्तिसंक्षये ॥",
+          "meaning": {
+            "en": "If unable to live by the Kshatriya duty, a man may live by the Vaishya duty, taking up farming and cattle-keeping, when in misfortune and his livelihood is lost."
+          }
         },
         {
-          "text": "युधिष्ठिर उवाच"
+          "text": "युधिष्ठिर उवाच",
+          "meaning": {
+            "en": "Yudhishthira said:"
+          }
         },
         {
           "n": 3,
-          "text": "कानि पण्यानि विक्रीणन्स्वर्गलोकान्न हीयते ।\nब्राह्मणो वैश्यधर्मेण वर्तयन्भरतर्षभ ॥"
+          "text": "कानि पण्यानि विक्रीणन्स्वर्गलोकान्न हीयते ।\nब्राह्मणो वैश्यधर्मेण वर्तयन्भरतर्षभ ॥",
+          "meaning": {
+            "en": "Best of the Bharatas, by selling which goods does a Brahmana living by the Vaishya duty not fall from the heavenly worlds?"
+          }
         },
         {
-          "text": "भीष्म उवाच"
+          "text": "भीष्म उवाच",
+          "meaning": {
+            "en": "Bhishma said:"
+          }
         },
         {
           "n": 4,
-          "text": "सुरा लवणमित्येव तिलान्केसरिणः पशून् ।\nऋषभान्मधु मांसं च कृतान्नं च युधिष्ठिर ॥"
+          "text": "सुरा लवणमित्येव तिलान्केसरिणः पशून् ।\nऋषभान्मधु मांसं च कृतान्नं च युधिष्ठिर ॥",
+          "meaning": {
+            "en": "Liquor and salt, sesame, animals with manes, bulls, honey, meat and cooked food, Yudhishthira."
+          }
         },
         {
           "n": 5,
-          "text": "सर्वास्ववस्थास्वेतानि ब्राह्मणः परिवर्जयेत् ।\nएतेषां विक्रयात्तात ब्राह्मणो नरकं व्रजेत् ॥"
+          "text": "सर्वास्ववस्थास्वेतानि ब्राह्मणः परिवर्जयेत् ।\nएतेषां विक्रयात्तात ब्राह्मणो नरकं व्रजेत् ॥",
+          "meaning": {
+            "en": "A Brahmana should avoid these in every circumstance; by selling these, dear child, a Brahmana would go to hell."
+          }
         },
         {
           "n": 6,
-          "text": "अजोऽग्निर्वरुणो मेषः सूर्योऽश्वः पृथिवी विराट् ।\nधेनुर्यज्ञश्च सोमश्च न विक्रेयाः कथंचन ॥"
+          "text": "अजोऽग्निर्वरुणो मेषः सूर्योऽश्वः पृथिवी विराट् ।\nधेनुर्यज्ञश्च सोमश्च न विक्रेयाः कथंचन ॥",
+          "meaning": {
+            "en": "The goat, fire, Varuna, the ram, the sun, the horse, the earth, Virat, the cow, sacrifice and soma must never be sold in any way."
+          }
         },
         {
           "n": 7,
-          "text": "पक्वेनामस्य निमयं न प्रशंसन्ति साधवः ।\nनिमयेत्पक्वमामेन भोजनार्थाय भारत ॥"
+          "text": "पक्वेनामस्य निमयं न प्रशंसन्ति साधवः ।\nनिमयेत्पक्वमामेन भोजनार्थाय भारत ॥",
+          "meaning": {
+            "en": "The good do not approve of exchanging raw for cooked; but one may exchange cooked for raw for the sake of a meal, Bharata."
+          }
         },
         {
           "n": 8,
-          "text": "वयं सिद्धमशिष्यामो भवान्साधयतामिदम् ।\nएवं समीक्ष्य निमयन्नाधर्मोऽस्ति कदाचन ॥"
+          "text": "वयं सिद्धमशिष्यामो भवान्साधयतामिदम् ।\nएवं समीक्ष्य निमयन्नाधर्मोऽस्ति कदाचन ॥",
+          "meaning": {
+            "en": "Thinking, 'We will eat what is cooked; you prepare this', there is never any wrong in exchanging so."
+          }
         },
         {
           "n": 9,
-          "text": "अत्र ते वर्तयिष्यामि यथा धर्मः पुरातनः ।\nव्यवहारप्रवृत्तानां तन्निबोध युधिष्ठिर ॥"
+          "text": "अत्र ते वर्तयिष्यामि यथा धर्मः पुरातनः ।\nव्यवहारप्रवृत्तानां तन्निबोध युधिष्ठिर ॥",
+          "meaning": {
+            "en": "Here I shall tell you the ancient rule for those engaged in dealings; listen to it, Yudhishthira."
+          }
         },
         {
           "n": 10,
-          "text": "भवतेऽहं ददानीदं भवानेतत्प्रयच्छतु ।\nरुचिते वर्तते धर्मो न बलात्संप्रवर्तते ॥"
+          "text": "भवतेऽहं ददानीदं भवानेतत्प्रयच्छतु ।\nरुचिते वर्तते धर्मो न बलात्संप्रवर्तते ॥",
+          "meaning": {
+            "en": "'I give this to you; you give me that': righteousness lies in mutual liking and does not arise by force."
+          }
         },
         {
           "n": 11,
-          "text": "इत्येवं संप्रवर्तन्त व्यवहाराः पुरातनाः ।\nऋषीणामितरेषां च साधु चेदमसंशयम् ॥"
+          "text": "इत्येवं संप्रवर्तन्त व्यवहाराः पुरातनाः ।\nऋषीणामितरेषां च साधु चेदमसंशयम् ॥",
+          "meaning": {
+            "en": "So the ancient dealings of sages and of others went on, and this is good, without doubt."
+          }
         },
         {
-          "text": "युधिष्ठिर उवाच"
+          "text": "युधिष्ठिर उवाच",
+          "meaning": {
+            "en": "Yudhishthira said:"
+          }
         },
         {
           "n": 12,
-          "text": "अथ तात यदा सर्वाः शस्त्रमाददते प्रजाः ।\nव्युत्क्रामन्ति स्वधर्मेभ्यः क्षत्रस्य क्षीयते बलम् ॥"
+          "text": "अथ तात यदा सर्वाः शस्त्रमाददते प्रजाः ।\nव्युत्क्रामन्ति स्वधर्मेभ्यः क्षत्रस्य क्षीयते बलम् ॥",
+          "meaning": {
+            "en": "Dear grandfather, when all the people take up weapons and leave their own duties, the Kshatriya's strength is wasted."
+          }
         },
         {
           "n": 13,
-          "text": "राजा त्राता न लोके स्यात्किं तदा स्यात्परायणम् ।\nएतन्मे संशयं ब्रूहि विस्तरेण पितामह ॥"
+          "text": "राजा त्राता न लोके स्यात्किं तदा स्यात्परायणम् ।\nएतन्मे संशयं ब्रूहि विस्तरेण पितामह ॥",
+          "meaning": {
+            "en": "If the king is not the world's protector, what then is the refuge? Tell me this doubt of mine in detail, grandfather."
+          }
         },
         {
-          "text": "भीष्म उवाच"
+          "text": "भीष्म उवाच",
+          "meaning": {
+            "en": "Bhishma said:"
+          }
         },
         {
           "n": 14,
-          "text": "दानेन तपसा यज्ञैरद्रोहेण दमेन च ।\nब्राह्मणप्रमुखा वर्णाः क्षेममिच्छेयुरात्मनः ॥"
+          "text": "दानेन तपसा यज्ञैरद्रोहेण दमेन च ।\nब्राह्मणप्रमुखा वर्णाः क्षेममिच्छेयुरात्मनः ॥",
+          "meaning": {
+            "en": "By giving, austerity, sacrifice, harmlessness and self-control, the classes, with Brahmanas at the head, should seek their own welfare."
+          }
         },
         {
           "n": 15,
-          "text": "तेषां ये वेदबलिनस्त उत्थाय समन्ततः ।\nराज्ञो बलं वर्धयेयुर्महेन्द्रस्येव देवताः ॥"
+          "text": "तेषां ये वेदबलिनस्त उत्थाय समन्ततः ।\nराज्ञो बलं वर्धयेयुर्महेन्द्रस्येव देवताः ॥",
+          "meaning": {
+            "en": "Among them those strong in the Veda should rise up on every side and increase the king's strength, as the gods did for great Indra."
+          }
         },
         {
           "n": 16,
-          "text": "राज्ञो हि क्षीयमाणस्य ब्रह्मैवाहुः परायणम् ।\nतस्माद्ब्रह्मबलेनैव समुत्थेयं विजानता ॥"
+          "text": "राज्ञो हि क्षीयमाणस्य ब्रह्मैवाहुः परायणम् ।\nतस्माद्ब्रह्मबलेनैव समुत्थेयं विजानता ॥",
+          "meaning": {
+            "en": "They say that when a king is declining, Brahman is his refuge; so a wise man should rise by Brahmana strength alone."
+          }
         },
         {
           "n": 17,
-          "text": "यदा तु विजयी राजा क्षेमं राष्ट्रेऽभिसंदधेत् ।\nतदा वर्णा यथाधर्ममाविशेयुः स्वकर्मसु ॥"
+          "text": "यदा तु विजयी राजा क्षेमं राष्ट्रेऽभिसंदधेत् ।\nतदा वर्णा यथाधर्ममाविशेयुः स्वकर्मसु ॥",
+          "meaning": {
+            "en": "When a victorious king establishes peace in the realm, then the classes should enter their own duties according to righteousness."
+          }
         },
         {
           "n": 18,
-          "text": "उन्मर्यादे प्रवृत्ते तु दस्युभिः संकरे कृते ।\nसर्वे वर्णा न दुष्येयुः शस्त्रवन्तो युधिष्ठिर ॥"
+          "text": "उन्मर्यादे प्रवृत्ते तु दस्युभिः संकरे कृते ।\nसर्वे वर्णा न दुष्येयुः शस्त्रवन्तो युधिष्ठिर ॥",
+          "meaning": {
+            "en": "When there is no bounds-keeping and mixture is made by robbers, no class incurs fault by taking up arms, Yudhishthira."
+          }
         },
         {
-          "text": "युधिष्ठिर उवाच"
+          "text": "युधिष्ठिर उवाच",
+          "meaning": {
+            "en": "Yudhishthira said:"
+          }
         },
         {
           "n": 19,
-          "text": "अथ चेत्सर्वतः क्षत्रं प्रदुष्येद्ब्राह्मणान्प्रति ।\nकस्तस्य ब्राह्मणस्त्राता को धर्मः किं परायणम् ॥"
+          "text": "अथ चेत्सर्वतः क्षत्रं प्रदुष्येद्ब्राह्मणान्प्रति ।\nकस्तस्य ब्राह्मणस्त्राता को धर्मः किं परायणम् ॥",
+          "meaning": {
+            "en": "And if the warrior class turns on every side against the Brahmanas, who is the Brahmana's protector, what is the law, and what the refuge?"
+          }
         },
         {
-          "text": "भीष्म उवाच"
+          "text": "भीष्म उवाच",
+          "meaning": {
+            "en": "Bhishma said:"
+          }
         },
         {
           "n": 20,
-          "text": "तपसा ब्रह्मचर्येण शस्त्रेण च बलेन च ।\nअमायया मायया च नियन्तव्यं तदा भवेत् ॥"
+          "text": "तपसा ब्रह्मचर्येण शस्त्रेण च बलेन च ।\nअमायया मायया च नियन्तव्यं तदा भवेत् ॥",
+          "meaning": {
+            "en": "Then it must be restrained by austerity, celibacy, weapons and force, by straightforward means and by trickery."
+          }
         },
         {
           "n": 21,
-          "text": "क्षत्रस्याभिप्रवृद्धस्य ब्राह्मणेषु विशेषतः ।\nब्रह्मैव संनियन्तृ स्यात्क्षत्रं हि ब्रह्मसंभवम् ॥"
+          "text": "क्षत्रस्याभिप्रवृद्धस्य ब्राह्मणेषु विशेषतः ।\nब्रह्मैव संनियन्तृ स्यात्क्षत्रं हि ब्रह्मसंभवम् ॥",
+          "meaning": {
+            "en": "When the warrior class has grown excessive, especially against Brahmanas, the priestly power alone is its restrainer, for the warrior power is born of the priestly."
+          }
         },
         {
           "n": 22,
-          "text": "अद्भ्योऽग्निर्ब्रह्मतः क्षत्रमश्मनो लोहमुत्थितम् ।\nतेषां सर्वत्रगं तेजः स्वासु योनिषु शाम्यति ॥"
+          "text": "अद्भ्योऽग्निर्ब्रह्मतः क्षत्रमश्मनो लोहमुत्थितम् ।\nतेषां सर्वत्रगं तेजः स्वासु योनिषु शाम्यति ॥",
+          "meaning": {
+            "en": "Fire came from water, the warrior from the priest, iron from stone; their all-penetrating energy is calmed in their own wombs."
+          }
         },
         {
           "n": 23,
-          "text": "यदा छिनत्त्ययोऽश्मानमग्निश्चापोऽभिपद्यते ।\nक्षत्रं च ब्राह्मणं द्वेष्टि तदा शाम्यन्ति ते त्रयः ॥"
+          "text": "यदा छिनत्त्ययोऽश्मानमग्निश्चापोऽभिपद्यते ।\nक्षत्रं च ब्राह्मणं द्वेष्टि तदा शाम्यन्ति ते त्रयः ॥",
+          "meaning": {
+            "en": "When iron strikes stone, fire meets water, and the warrior hates the priest, then these three are quelled."
+          }
         },
         {
           "n": 24,
-          "text": "तस्माद्ब्रह्मणि शाम्यन्ति क्षत्रियाणां युधिष्ठिर ।\nसमुदीर्णान्यजेयानि तेजांसि च बलानि च ॥"
+          "text": "तस्माद्ब्रह्मणि शाम्यन्ति क्षत्रियाणां युधिष्ठिर ।\nसमुदीर्णान्यजेयानि तेजांसि च बलानि च ॥",
+          "meaning": {
+            "en": "Therefore, Yudhishthira, the risen and unconquerable energies and strengths of Kshatriyas are quelled in the priestly power."
+          }
         },
         {
           "n": 25,
-          "text": "ब्रह्मवीर्ये मृदूभूते क्षत्रवीर्ये च दुर्बले ।\nदुष्टेषु सर्ववर्णेषु ब्राह्मणान्प्रति सर्वशः ॥"
+          "text": "ब्रह्मवीर्ये मृदूभूते क्षत्रवीर्ये च दुर्बले ।\nदुष्टेषु सर्ववर्णेषु ब्राह्मणान्प्रति सर्वशः ॥",
+          "meaning": {
+            "en": "When the Brahmana's strength has grown soft and the Kshatriya's weak, and all classes are wicked toward Brahmanas on every side,"
+          }
         },
         {
           "n": 26,
-          "text": "ये तत्र युद्धं कुर्वन्ति त्यक्त्वा जीवितमात्मनः ।\nब्राह्मणान्परिरक्षन्तो धर्ममात्मानमेव च ॥"
+          "text": "ये तत्र युद्धं कुर्वन्ति त्यक्त्वा जीवितमात्मनः ।\nब्राह्मणान्परिरक्षन्तो धर्ममात्मानमेव च ॥",
+          "meaning": {
+            "en": "those who fight there, giving up their own lives, protecting Brahmanas, righteousness and themselves,"
+          }
         },
         {
           "n": 27,
-          "text": "मनस्विनो मन्युमन्तः पुण्यलोका भवन्ति ते ।\nब्राह्मणार्थं हि सर्वेषां शस्त्रग्रहणमिष्यते ॥"
+          "text": "मनस्विनो मन्युमन्तः पुण्यलोका भवन्ति ते ।\nब्राह्मणार्थं हि सर्वेषां शस्त्रग्रहणमिष्यते ॥",
+          "meaning": {
+            "en": "are men of spirit and fire, and they become holders of the worlds of merit; taking up weapons for the sake of Brahmanas is approved for all."
+          }
         },
         {
           "n": 28,
-          "text": "अति स्विष्टस्वधीतानां लोकानति तपस्विनाम् ।\nअनाशकाग्न्योर्विशतां शूरा यान्ति परां गतिम् ।\nएवमेवात्मनस्त्यागान्नान्यं धर्मं विदुर्जनाः ॥"
+          "text": "अति स्विष्टस्वधीतानां लोकानति तपस्विनाम् ।\nअनाशकाग्न्योर्विशतां शूरा यान्ति परां गतिम् ।\nएवमेवात्मनस्त्यागान्नान्यं धर्मं विदुर्जनाः ॥",
+          "meaning": {
+            "en": "Heroes who enter battle go to a supreme end beyond the worlds of those who have sacrificed and studied well and of ascetics, and of those who enter fasting or fire. People know no other duty like this giving up of one's own life."
+          }
         },
         {
           "n": 29,
-          "text": "तेभ्यो नमश्च भद्रं च ये शरीराणि जुह्वति ।\nब्रह्मद्विषो नियच्छन्तस्तेषां नोऽस्तु सलोकता ।\nब्रह्मलोकजितः स्वर्ग्यान्वीरांस्तान्मनुरब्रवीत् ॥"
+          "text": "तेभ्यो नमश्च भद्रं च ये शरीराणि जुह्वति ।\nब्रह्मद्विषो नियच्छन्तस्तेषां नोऽस्तु सलोकता ।\nब्रह्मलोकजितः स्वर्ग्यान्वीरांस्तान्मनुरब्रवीत् ॥",
+          "meaning": {
+            "en": "Homage and blessing to those who offer their bodies in sacrifice, restraining the haters of Brahmanas; may we share their world. Manu called them heroes who win the Brahma world and heaven."
+          }
         },
         {
           "n": 30,
-          "text": "यथाश्वमेधावभृथे स्नाताः पूता भवन्त्युत ।\nदुष्कृतः सुकृतश्चैव तथा शस्त्रहता रणे ॥"
+          "text": "यथाश्वमेधावभृथे स्नाताः पूता भवन्त्युत ।\nदुष्कृतः सुकृतश्चैव तथा शस्त्रहता रणे ॥",
+          "meaning": {
+            "en": "As those bathed at the close of the horse sacrifice become purified, whether they have done wrong or right, so are those struck down by weapons in battle."
+          }
         },
         {
           "n": 31,
-          "text": "भवत्यधर्मो धर्मो हि धर्माधर्मावुभावपि ।\nकारणाद्देशकालस्य देशकालः स तादृशः ॥"
+          "text": "भवत्यधर्मो धर्मो हि धर्माधर्मावुभावपि ।\nकारणाद्देशकालस्य देशकालः स तादृशः ॥",
+          "meaning": {
+            "en": "Unrighteousness becomes righteousness, and righteousness unrighteousness, both of them, by reason of place and time; the place and time are such."
+          }
         },
         {
           "n": 32,
-          "text": "मैत्राः क्रूराणि कुर्वन्तो जयन्ति स्वर्गमुत्तमम् ।\nधर्म्याः पापानि कुर्वन्तो गच्छन्ति परमां गतिम् ॥"
+          "text": "मैत्राः क्रूराणि कुर्वन्तो जयन्ति स्वर्गमुत्तमम् ।\nधर्म्याः पापानि कुर्वन्तो गच्छन्ति परमां गतिम् ॥",
+          "meaning": {
+            "en": "Friends who do cruel acts win the highest heaven, and righteous men who do evil deeds go to the supreme end."
+          }
         },
         {
           "n": 33,
-          "text": "ब्राह्मणस्त्रिषु कालेषु शस्त्रं गृह्णन्न दुष्यति ।\nआत्मत्राणे वर्णदोषे दुर्गस्य नियमेषु च ॥"
+          "text": "ब्राह्मणस्त्रिषु कालेषु शस्त्रं गृह्णन्न दुष्यति ।\nआत्मत्राणे वर्णदोषे दुर्गस्य नियमेषु च ॥",
+          "meaning": {
+            "en": "A Brahmana taking up arms at three times does no wrong: for his own protection, when the classes are corrupted, and in rules for a fortress."
+          }
         },
         {
-          "text": "युधिष्ठिर उवाच"
+          "text": "युधिष्ठिर उवाच",
+          "meaning": {
+            "en": "Yudhishthira said:"
+          }
         },
         {
           "n": 34,
-          "text": "अभ्युत्थिते दस्युबले क्षत्रार्थे वर्णसंकरे ।\nसंप्रमूढेषु वर्णेषु यद्यन्योऽभिभवेद्बली ॥"
+          "text": "अभ्युत्थिते दस्युबले क्षत्रार्थे वर्णसंकरे ।\nसंप्रमूढेषु वर्णेषु यद्यन्योऽभिभवेद्बली ॥",
+          "meaning": {
+            "en": "When a robber army has arisen, the warrior class is gone, the classes are mixed and confused, and some other strong man overcomes them,"
+          }
         },
         {
           "n": 35,
-          "text": "ब्राह्मणो यदि वा वैश्यः शूद्रो वा राजसत्तम ।\nदस्युभ्योऽथ प्रजा रक्षेद्दण्डं धर्मेण धारयन् ॥"
+          "text": "ब्राह्मणो यदि वा वैश्यः शूद्रो वा राजसत्तम ।\nदस्युभ्योऽथ प्रजा रक्षेद्दण्डं धर्मेण धारयन् ॥",
+          "meaning": {
+            "en": "best of kings, whether a Brahmana, a Vaishya or a Shudra, if he protects the people from robbers, holding the rod rightly,"
+          }
         },
         {
           "n": 36,
-          "text": "कार्यं कुर्यान्न वा कुर्यात्संवार्यो वा भवेन्न वा ।\nन स्म शस्त्रं ग्रहीतव्यमन्यत्र क्षत्रबन्धुतः ॥"
+          "text": "कार्यं कुर्यान्न वा कुर्यात्संवार्यो वा भवेन्न वा ।\nन स्म शस्त्रं ग्रहीतव्यमन्यत्र क्षत्रबन्धुतः ॥",
+          "meaning": {
+            "en": "whether he does the task or not, whether he can be stopped or not, must arms be taken by none except one of Kshatriya birth?"
+          }
         },
         {
-          "text": "भीष्म उवाच"
+          "text": "भीष्म उवाच",
+          "meaning": {
+            "en": "Bhishma said:"
+          }
         },
         {
           "n": 37,
-          "text": "अपारे यो भवेत्पारमप्लवे यः प्लवो भवेत् ।\nशूद्रो वा यदि वाप्यन्यः सर्वथा मानमर्हति ॥"
+          "text": "अपारे यो भवेत्पारमप्लवे यः प्लवो भवेत् ।\nशूद्रो वा यदि वाप्यन्यः सर्वथा मानमर्हति ॥",
+          "meaning": {
+            "en": "One who becomes the shore where there is no shore, the raft where there is no raft, whether a Shudra or anyone else, deserves honour in every way."
+          }
         },
         {
           "n": 38,
-          "text": "यमाश्रित्य नरा राजन्वर्तयेयुर्यथासुखम् ।\nअनाथाः पाल्यमाना वै दस्युभिः परिपीडिताः ॥"
+          "text": "यमाश्रित्य नरा राजन्वर्तयेयुर्यथासुखम् ।\nअनाथाः पाल्यमाना वै दस्युभिः परिपीडिताः ॥",
+          "meaning": {
+            "en": "The one on whom men depend to live in comfort, the helpless protected and oppressed by robbers,"
+          }
         },
         {
           "n": 39,
-          "text": "तमेव पूजयेरंस्ते प्रीत्या स्वमिव बान्धवम् ।\nमहद्ध्यभीक्ष्णं कौरव्य कर्ता सन्मानमर्हति ॥"
+          "text": "तमेव पूजयेरंस्ते प्रीत्या स्वमिव बान्धवम् ।\nमहद्ध्यभीक्ष्णं कौरव्य कर्ता सन्मानमर्हति ॥",
+          "meaning": {
+            "en": "him they should honour with love as their own kin; one who does great deeds again and again deserves respect, descendant of Kuru."
+          }
         },
         {
           "n": 40,
-          "text": "किमुक्ष्णावहता कृत्यं किं धेन्वा चाप्यदुग्धया ।\nवन्ध्यया भार्यया कोऽर्थः कोऽर्थो राज्ञाप्यरक्षता ॥"
+          "text": "किमुक्ष्णावहता कृत्यं किं धेन्वा चाप्यदुग्धया ।\nवन्ध्यया भार्यया कोऽर्थः कोऽर्थो राज्ञाप्यरक्षता ॥",
+          "meaning": {
+            "en": "What use is a bull that does not carry, or a cow that gives no milk? What use is a barren wife, and what use a king who does not protect?"
+          }
         },
         {
           "n": 41,
-          "text": "यथा दारुमयो हस्ती यथा चर्ममयो मृगः ।\nयथा ह्यनेत्रः शकटः पथि क्षेत्रं यथोषरम् ॥"
+          "text": "यथा दारुमयो हस्ती यथा चर्ममयो मृगः ।\nयथा ह्यनेत्रः शकटः पथि क्षेत्रं यथोषरम् ॥",
+          "meaning": {
+            "en": "As a wooden elephant, a leather deer, a cart without a pole or axle on a road, a salt field,"
+          }
         },
         {
           "n": 42,
-          "text": "एवं ब्रह्मानधीयानं राजा यश्च न रक्षिता ।\nन वर्षति च यो मेघः सर्व एते निरर्थकाः ॥"
+          "text": "एवं ब्रह्मानधीयानं राजा यश्च न रक्षिता ।\nन वर्षति च यो मेघः सर्व एते निरर्थकाः ॥",
+          "meaning": {
+            "en": "so are a Brahmana who does not study, a king who does not protect, and a cloud that does not rain; all these are useless."
+          }
         },
         {
           "n": 43,
-          "text": "नित्यं यस्तु सतो रक्षेदसतश्च निबर्हयेत् ।\nस एव राजा कर्तव्यस्तेन सर्वमिदं धृतम् ॥"
+          "text": "नित्यं यस्तु सतो रक्षेदसतश्च निबर्हयेत् ।\nस एव राजा कर्तव्यस्तेन सर्वमिदं धृतम् ॥",
+          "meaning": {
+            "en": "The one who always protects the good and destroys the wicked is the one to be made king; by him all this is upheld."
+          }
         }
       ]
     }

@@ -22,130 +22,226 @@
       "titleEn": "Rajadharma Parva (Duties of kings)",
       "verses": [
         {
-          "text": "भीष्म उवाच"
+          "text": "भीष्म उवाच",
+          "meaning": {
+            "en": "Bhishma said:"
+          }
         },
         {
           "n": 1,
-          "text": "एतत्ते राजधर्माणां नवनीतं युधिष्ठिर ।\nबृहस्पतिर्हि भगवान्नान्यं धर्मं प्रशंसति ॥"
+          "text": "एतत्ते राजधर्माणां नवनीतं युधिष्ठिर ।\nबृहस्पतिर्हि भगवान्नान्यं धर्मं प्रशंसति ॥",
+          "meaning": {
+            "en": "This, Yudhishthira, is the cream of the duties of kings; for the blessed Brihaspati praises no other duty."
+          }
         },
         {
           "n": 2,
-          "text": "विशालाक्षश्च भगवान्काव्यश्चैव महातपाः ।\nसहस्राक्षो महेन्द्रश्च तथा प्राचेतसो मनुः ॥"
+          "text": "विशालाक्षश्च भगवान्काव्यश्चैव महातपाः ।\nसहस्राक्षो महेन्द्रश्च तथा प्राचेतसो मनुः ॥",
+          "meaning": {
+            "en": "The blessed Vishalaksha, the great ascetic Kavya, thousand-eyed great Indra, Manu son of Prachetas,"
+          }
         },
         {
           "n": 3,
-          "text": "भरद्वाजश्च भगवांस्तथा गौरशिरा मुनिः ।\nराजशास्त्रप्रणेतारो ब्रह्मण्या ब्रह्मवादिनः ॥"
+          "text": "भरद्वाजश्च भगवांस्तथा गौरशिरा मुनिः ।\nराजशास्त्रप्रणेतारो ब्रह्मण्या ब्रह्मवादिनः ॥",
+          "meaning": {
+            "en": "the blessed Bharadvaja, and the sage Gaurashiras, authors of the science of kings, devoted to brahmins and speakers of Brahman,"
+          }
         },
         {
           "n": 4,
-          "text": "रक्षामेव प्रशंसन्ति धर्मं धर्मभृतां वर ।\nराज्ञां राजीवताम्राक्ष साधनं चात्र वै शृणु ॥"
+          "text": "रक्षामेव प्रशंसन्ति धर्मं धर्मभृतां वर ।\nराज्ञां राजीवताम्राक्ष साधनं चात्र वै शृणु ॥",
+          "meaning": {
+            "en": "praise protection alone as the best duty among upholders of dharma; hear now the means of kings, lotus-eyed one."
+          }
         },
         {
           "n": 5,
-          "text": "चारश्च प्रणिधिश्चैव काले दानममत्सरः ।\nयुक्त्यादानं न चादानमयोगेन युधिष्ठिर ॥"
+          "text": "चारश्च प्रणिधिश्चैव काले दानममत्सरः ।\nयुक्त्यादानं न चादानमयोगेन युधिष्ठिर ॥",
+          "meaning": {
+            "en": "Spies and agents, giving at the proper time without envy, taking by proper means and never taking improperly, Yudhishthira,"
+          }
         },
         {
           "n": 6,
-          "text": "सतां संग्रहणं शौर्यं दाक्ष्यं सत्यं प्रजाहितम् ।\nअनार्जवैरार्जवैश्च शत्रुपक्षस्य भेदनम् ॥"
+          "text": "सतां संग्रहणं शौर्यं दाक्ष्यं सत्यं प्रजाहितम् ।\nअनार्जवैरार्जवैश्च शत्रुपक्षस्य भेदनम् ॥",
+          "meaning": {
+            "en": "gathering the good around him, valor, skill, truth, welfare of the people, and breaking the enemy's side by straightness and by crookedness,"
+          }
         },
         {
           "n": 7,
-          "text": "साधूनामपरित्यागः कुलीनानां च धारणम् ।\nनिचयश्च निचेयानां सेवा बुद्धिमतामपि ॥"
+          "text": "साधूनामपरित्यागः कुलीनानां च धारणम् ।\nनिचयश्च निचेयानां सेवा बुद्धिमतामपि ॥",
+          "meaning": {
+            "en": "never abandoning the good, upholding people of good family, storing what should be stored, and serving the wise,"
+          }
         },
         {
           "n": 8,
-          "text": "बलानां हर्षणं नित्यं प्रजानामन्ववेक्षणम् ।\nकार्येष्वखेदः कोशस्य तथैव च विवर्धनम् ॥"
+          "text": "बलानां हर्षणं नित्यं प्रजानामन्ववेक्षणम् ।\nकार्येष्वखेदः कोशस्य तथैव च विवर्धनम् ॥",
+          "meaning": {
+            "en": "always cheering the troops, looking after the subjects, not tiring in affairs, and increasing the treasury,"
+          }
         },
         {
           "n": 9,
-          "text": "पुरगुप्तिरविश्वासः पौरसंघातभेदनम् ।\nकेतनानां च जीर्णानामवेक्षा चैव सीदताम् ॥"
+          "text": "पुरगुप्तिरविश्वासः पौरसंघातभेदनम् ।\nकेतनानां च जीर्णानामवेक्षा चैव सीदताम् ॥",
+          "meaning": {
+            "en": "guarding the city, mistrust, splitting up gatherings of townsmen, and looking after old and decaying buildings,"
+          }
         },
         {
           "n": 10,
-          "text": "द्विविधस्य च दण्डस्य प्रयोगः कालचोदितः ।\nअरिमध्यस्थमित्राणां यथावच्चान्ववेक्षणम् ॥"
+          "text": "द्विविधस्य च दण्डस्य प्रयोगः कालचोदितः ।\nअरिमध्यस्थमित्राणां यथावच्चान्ववेक्षणम् ॥",
+          "meaning": {
+            "en": "using both kinds of punishment as the time demands, and rightly watching enemies, neutrals and friends,"
+          }
         },
         {
           "n": 11,
-          "text": "उपजापश्च भृत्यानामात्मनः परदर्शनात् ।\nअविश्वासः स्वयं चैव परस्याश्वासनं तथा ॥"
+          "text": "उपजापश्च भृत्यानामात्मनः परदर्शनात् ।\nअविश्वासः स्वयं चैव परस्याश्वासनं तथा ॥",
+          "meaning": {
+            "en": "winning over the enemy's servants by observing his side, himself mistrusting while reassuring others,"
+          }
         },
         {
           "n": 12,
-          "text": "नीतिधर्मानुसरणं नित्यमुत्थानमेव च ।\nरिपूणामनवज्ञानं नित्यं चानार्यवर्जनम् ॥"
+          "text": "नीतिधर्मानुसरणं नित्यमुत्थानमेव च ।\nरिपूणामनवज्ञानं नित्यं चानार्यवर्जनम् ॥",
+          "meaning": {
+            "en": "following the duty of policy, constant effort, never despising enemies, and always avoiding ignoble men:"
+          }
         },
         {
           "n": 13,
-          "text": "उत्थानं हि नरेन्द्राणां बृहस्पतिरभाषत ।\nराजधर्मस्य यन्मूलं श्लोकांश्चात्र निबोध मे ॥"
+          "text": "उत्थानं हि नरेन्द्राणां बृहस्पतिरभाषत ।\nराजधर्मस्य यन्मूलं श्लोकांश्चात्र निबोध मे ॥",
+          "meaning": {
+            "en": "Brihaspati taught that effort is the root of the duty of kings; hear the verses on this from me."
+          }
         },
         {
           "n": 14,
-          "text": "उत्थानेनामृतं लब्धमुत्थानेनासुरा हताः ।\nउत्थानेन महेन्द्रेण श्रैष्ठ्यं प्राप्तं दिवीह च ॥"
+          "text": "उत्थानेनामृतं लब्धमुत्थानेनासुरा हताः ।\nउत्थानेन महेन्द्रेण श्रैष्ठ्यं प्राप्तं दिवीह च ॥",
+          "meaning": {
+            "en": "By effort the nectar was gained, by effort the asuras were slain, and by effort great Indra won supremacy in heaven and here."
+          }
         },
         {
           "n": 15,
-          "text": "उत्थानधीरः पुरुषो वाग्धीरानधितिष्ठति ।\nउत्थानधीरं वाग्धीरा रमयन्त उपासते ॥"
+          "text": "उत्थानधीरः पुरुषो वाग्धीरानधितिष्ठति ।\nउत्थानधीरं वाग्धीरा रमयन्त उपासते ॥",
+          "meaning": {
+            "en": "The man who is steady in effort surpasses those who are steady only in speech, and those steady in speech wait on him happily."
+          }
         },
         {
           "n": 16,
-          "text": "उत्थानहीनो राजा हि बुद्धिमानपि नित्यशः ।\nधर्षणीयो रिपूणां स्याद्भुजंग इव निर्विषः ॥"
+          "text": "उत्थानहीनो राजा हि बुद्धिमानपि नित्यशः ।\nधर्षणीयो रिपूणां स्याद्भुजंग इव निर्विषः ॥",
+          "meaning": {
+            "en": "A king without effort, even if wise, is always open to the assaults of his enemies, like a snake without venom."
+          }
         },
         {
           "n": 17,
-          "text": "न च शत्रुरवज्ञेयो दुर्बलोऽपि बलीयसा ।\nअल्पोऽपि हि दहत्यग्निर्विषमल्पं हिनस्ति च ॥"
+          "text": "न च शत्रुरवज्ञेयो दुर्बलोऽपि बलीयसा ।\nअल्पोऽपि हि दहत्यग्निर्विषमल्पं हिनस्ति च ॥",
+          "meaning": {
+            "en": "A strong man must never despise an enemy, even a weak one; a little fire burns, and a little poison kills."
+          }
         },
         {
           "n": 18,
-          "text": "एकाश्वेनापि संभूतः शत्रुर्दुर्गसमाश्रितः ।\nतं तं तापयते देशमपि राज्ञः समृद्धिनः ॥"
+          "text": "एकाश्वेनापि संभूतः शत्रुर्दुर्गसमाश्रितः ।\nतं तं तापयते देशमपि राज्ञः समृद्धिनः ॥",
+          "meaning": {
+            "en": "Even an enemy with a single horse, who has gathered strength and holds a fortress, torments region after region of a prosperous king."
+          }
         },
         {
           "n": 19,
-          "text": "राज्ञो रहस्यं यद्वाक्यं जयार्थं लोकसंग्रहः ।\nहृदि यच्चास्य जिह्मं स्यात्कारणार्थं च यद्भवेत् ॥"
+          "text": "राज्ञो रहस्यं यद्वाक्यं जयार्थं लोकसंग्रहः ।\nहृदि यच्चास्य जिह्मं स्यात्कारणार्थं च यद्भवेत् ॥",
+          "meaning": {
+            "en": "The king's secret speech, whatever is for victory and winning the world, whatever is crooked in his heart or has a purpose behind it,"
+          }
         },
         {
           "n": 20,
-          "text": "यच्चास्य कार्यं वृजिनमार्जवेनैव धार्यते ।\nदम्भनार्थाय लोकस्य धर्मिष्ठामाचरेत्क्रियाम् ॥"
+          "text": "यच्चास्य कार्यं वृजिनमार्जवेनैव धार्यते ।\nदम्भनार्थाय लोकस्य धर्मिष्ठामाचरेत्क्रियाम् ॥",
+          "meaning": {
+            "en": "and whatever wrong act of his is held only by straightforwardness, he should disguise by performing a most righteous-seeming rite to beguile the world."
+          }
         },
         {
           "n": 21,
-          "text": "राज्यं हि सुमहत्तन्त्रं दुर्धार्यमकृतात्मभिः ।\nन शक्यं मृदुना वोढुमाघातस्थानमुत्तमम् ॥"
+          "text": "राज्यं हि सुमहत्तन्त्रं दुर्धार्यमकृतात्मभिः ।\nन शक्यं मृदुना वोढुमाघातस्थानमुत्तमम् ॥",
+          "meaning": {
+            "en": "Kingship is a very great machine, hard to carry for those who have not mastered themselves, and the highest seat of blows cannot be borne by a gentle man."
+          }
         },
         {
           "n": 22,
-          "text": "राज्यं सर्वामिषं नित्यमार्जवेनेह धार्यते ।\nतस्मान्मिश्रेण सततं वर्तितव्यं युधिष्ठिर ॥"
+          "text": "राज्यं सर्वामिषं नित्यमार्जवेनेह धार्यते ।\nतस्मान्मिश्रेण सततं वर्तितव्यं युधिष्ठिर ॥",
+          "meaning": {
+            "en": "Kingship, which is a feast for all, is always held up here by uprightness; therefore, Yudhishthira, one must always act with a mixture."
+          }
         },
         {
           "n": 23,
-          "text": "यद्यप्यस्य विपत्तिः स्याद्रक्षमाणस्य वै प्रजाः ।\nसोऽप्यस्य विपुलो धर्म एवंवृत्ता हि भूमिपाः ॥"
+          "text": "यद्यप्यस्य विपत्तिः स्याद्रक्षमाणस्य वै प्रजाः ।\nसोऽप्यस्य विपुलो धर्म एवंवृत्ता हि भूमिपाः ॥",
+          "meaning": {
+            "en": "Even if he suffers misfortune while protecting his subjects, that is a great dharma for him; such is the conduct of kings."
+          }
         },
         {
           "n": 24,
-          "text": "एष ते राजधर्माणां लेशः समनुवर्णितः ।\nभूयस्ते यत्र संदेहस्तद्ब्रूहि वदतां वर ॥"
+          "text": "एष ते राजधर्माणां लेशः समनुवर्णितः ।\nभूयस्ते यत्र संदेहस्तद्ब्रूहि वदतां वर ॥",
+          "meaning": {
+            "en": "This is a brief account of the duties of kings I have given you; whatever doubt you still have, speak of it, best of speakers."
+          }
         },
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 25,
-          "text": "ततो व्यासश्च भगवान्देवस्थानोऽश्मना सह ।\nवासुदेवः कृपश्चैव सात्यकिः संजयस्तथा ॥"
+          "text": "ततो व्यासश्च भगवान्देवस्थानोऽश्मना सह ।\nवासुदेवः कृपश्चैव सात्यकिः संजयस्तथा ॥",
+          "meaning": {
+            "en": "Then the blessed Vyasa, Devasthana with Ashma, Vasudeva, Kripa, Satyaki and Sanjaya,"
+          }
         },
         {
           "n": 26,
-          "text": "साधु साध्विति संहृष्टाः पुष्यमाणैरिवाननैः ।\nअस्तुवंस्ते नरव्याघ्रं भीष्मं धर्मभृतां वरम् ॥"
+          "text": "साधु साध्विति संहृष्टाः पुष्यमाणैरिवाननैः ।\nअस्तुवंस्ते नरव्याघ्रं भीष्मं धर्मभृतां वरम् ॥",
+          "meaning": {
+            "en": "delighted, praised Bhishma, tiger among men and best of upholders of dharma, saying \"Well said, well said,\" with faces glowing."
+          }
         },
         {
           "n": 27,
-          "text": "ततो दीनमना भीष्ममुवाच कुरुसत्तमः ।\nनेत्राभ्यामश्रुपूर्णाभ्यां पादौ तस्य शनैः स्पृशन् ॥"
+          "text": "ततो दीनमना भीष्ममुवाच कुरुसत्तमः ।\nनेत्राभ्यामश्रुपूर्णाभ्यां पादौ तस्य शनैः स्पृशन् ॥",
+          "meaning": {
+            "en": "Then the best of the Kurus, sad at heart, with eyes full of tears, slowly touched Bhishma's feet and said:"
+          }
         },
         {
           "n": 28,
-          "text": "श्व इदानीं स्वसंदेहं प्रक्ष्यामि त्वा पितामह ।\nउपैति सविताप्यस्तं रसमापीय पार्थिवम् ॥"
+          "text": "श्व इदानीं स्वसंदेहं प्रक्ष्यामि त्वा पितामह ।\nउपैति सविताप्यस्तं रसमापीय पार्थिवम् ॥",
+          "meaning": {
+            "en": "Grandfather, tomorrow I shall ask you about my own doubts; for the sun, having drunk up the earth's moisture, is going to its setting."
+          }
         },
         {
           "n": 29,
-          "text": "ततो द्विजातीनभिवाद्य केशवः\nकृपश्च ते चैव युधिष्ठिरादयः ।\nप्रदक्षिणीकृत्य महानदीसुतं\nततो रथानारुरुहुर्मुदा युताः ॥"
+          "text": "ततो द्विजातीनभिवाद्य केशवः\nकृपश्च ते चैव युधिष्ठिरादयः ।\nप्रदक्षिणीकृत्य महानदीसुतं\nततो रथानारुरुहुर्मुदा युताः ॥",
+          "meaning": {
+            "en": "Then Keshava saluted the brahmins, and Kripa and Yudhishthira and the others did so too; they circled the son of the great river and happily mounted their chariots."
+          }
         },
         {
           "n": 30,
-          "text": "दृषद्वतीं चाप्यवगाह्य सुव्रताः\nकृतोदकार्याः कृतजप्यमङ्गलाः ।\nउपास्य संध्यां विधिवत्परंतपा-\nस्ततः पुरं ते विविशुर्गजाह्वयम् ॥"
+          "text": "दृषद्वतीं चाप्यवगाह्य सुव्रताः\nकृतोदकार्याः कृतजप्यमङ्गलाः ।\nउपास्य संध्यां विधिवत्परंतपा-\nस्ततः पुरं ते विविशुर्गजाह्वयम् ॥",
+          "meaning": {
+            "en": "Of good vows, they bathed in the Drishadvati, performed the water rites, and made their prayers and blessings; tormentors of foes, they duly worshipped the evening twilight, and then entered the city called Gajahvaya."
+          }
         }
       ]
     }

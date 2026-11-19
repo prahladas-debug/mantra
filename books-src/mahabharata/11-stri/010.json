@@ -22,99 +22,171 @@
       "titleEn": "Jalapradanika Parva (The water offerings)",
       "verses": [
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 1,
-          "text": "क्रोशमात्रं ततो गत्वा ददृशुस्तान्महारथान् ।\nशारद्वतं कृपं द्रौणिं कृतवर्माणमेव च ॥"
+          "text": "क्रोशमात्रं ततो गत्वा ददृशुस्तान्महारथान् ।\nशारद्वतं कृपं द्रौणिं कृतवर्माणमेव च ॥",
+          "meaning": {
+            "en": "After going a krosha, they saw the great charioteers Kripa son of Sharadvat, Drona's son Ashvatthaman, and Kritavarman."
+          }
         },
         {
           "n": 2,
-          "text": "ते तु दृष्ट्वैव राजानं प्रज्ञाचक्षुषमीश्वरम् ।\nअश्रुकण्ठा विनिःश्वस्य रुदन्तमिदमब्रुवन् ॥"
+          "text": "ते तु दृष्ट्वैव राजानं प्रज्ञाचक्षुषमीश्वरम् ।\nअश्रुकण्ठा विनिःश्वस्य रुदन्तमिदमब्रुवन् ॥",
+          "meaning": {
+            "en": "The moment they saw the king, the lord with the eye of wisdom, they sighed with tears in their throats and spoke to him as he wept."
+          }
         },
         {
           "n": 3,
-          "text": "पुत्रस्तव महाराज कृत्वा कर्म सुदुष्करम् ।\nगतः सानुचरो राजञ्शक्रलोकं महीपतिः ॥"
+          "text": "पुत्रस्तव महाराज कृत्वा कर्म सुदुष्करम् ।\nगतः सानुचरो राजञ्शक्रलोकं महीपतिः ॥",
+          "meaning": {
+            "en": "Great king, your son the lord of the earth has gone with his followers to Indra's world, having done a most difficult deed."
+          }
         },
         {
           "n": 4,
-          "text": "दुर्योधनबलान्मुक्ता वयमेव त्रयो रथाः ।\nसर्वमन्यत्परिक्षीणं सैन्यं ते भरतर्षभ ॥"
+          "text": "दुर्योधनबलान्मुक्ता वयमेव त्रयो रथाः ।\nसर्वमन्यत्परिक्षीणं सैन्यं ते भरतर्षभ ॥",
+          "meaning": {
+            "en": "Of Duryodhana's host only we three charioteers are left, bull of the Bharatas. All the rest of your army is destroyed."
+          }
         },
         {
           "n": 5,
-          "text": "इत्येवमुक्त्वा राजानं कृपः शारद्वतस्तदा ।\nगान्धारीं पुत्रशोकार्तामिदं वचनमब्रवीत् ॥"
+          "text": "इत्येवमुक्त्वा राजानं कृपः शारद्वतस्तदा ।\nगान्धारीं पुत्रशोकार्तामिदं वचनमब्रवीत् ॥",
+          "meaning": {
+            "en": "Having said this to the king, Kripa son of Sharadvat then spoke to Gandhari, who was afflicted with grief for her sons."
+          }
         },
         {
           "n": 6,
-          "text": "अभीता युध्यमानास्ते घ्नन्तः शत्रुगणान्बहून् ।\nवीरकर्माणि कुर्वाणाः पुत्रास्ते निधनं गताः ॥"
+          "text": "अभीता युध्यमानास्ते घ्नन्तः शत्रुगणान्बहून् ।\nवीरकर्माणि कुर्वाणाः पुत्रास्ते निधनं गताः ॥",
+          "meaning": {
+            "en": "Fearless, fighting, slaying many bands of enemies and performing heroic deeds, your sons met their end."
+          }
         },
         {
           "n": 7,
-          "text": "ध्रुवं संप्राप्य लोकांस्ते निर्मलाञ्शस्त्रनिर्जितान् ।\nभास्वरं देहमास्थाय विहरन्त्यमरा इव ॥"
+          "text": "ध्रुवं संप्राप्य लोकांस्ते निर्मलाञ्शस्त्रनिर्जितान् ।\nभास्वरं देहमास्थाय विहरन्त्यमरा इव ॥",
+          "meaning": {
+            "en": "Surely they have reached spotless worlds won by weapons and, taking radiant bodies, they sport like immortals."
+          }
         },
         {
           "n": 8,
-          "text": "न हि कश्चिद्धि शूराणां युध्यमानः पराङ्मुखः ।\nशस्त्रेण निधनं प्राप्तो न च कश्चित्कृताञ्जलिः ॥"
+          "text": "न हि कश्चिद्धि शूराणां युध्यमानः पराङ्मुखः ।\nशस्त्रेण निधनं प्राप्तो न च कश्चित्कृताञ्जलिः ॥",
+          "meaning": {
+            "en": "No hero fighting turned his back, no one died by a weapon with joined palms in surrender."
+          }
         },
         {
           "n": 9,
-          "text": "एतां तां क्षत्रियस्याहुः पुराणां परमां गतिम् ।\nशस्त्रेण निधनं संख्ये तान्न शोचितुमर्हसि ॥"
+          "text": "एतां तां क्षत्रियस्याहुः पुराणां परमां गतिम् ।\nशस्त्रेण निधनं संख्ये तान्न शोचितुमर्हसि ॥",
+          "meaning": {
+            "en": "The ancients call this the highest goal of a kshatriya: death in battle by the weapon. You should not grieve for them."
+          }
         },
         {
           "n": 10,
-          "text": "न चापि शत्रवस्तेषामृध्यन्ते राज्ञि पाण्डवाः ।\nशृणु यत्कृतमस्माभिरश्वत्थामपुरोगमैः ॥"
+          "text": "न चापि शत्रवस्तेषामृध्यन्ते राज्ञि पाण्डवाः ।\nशृणु यत्कृतमस्माभिरश्वत्थामपुरोगमैः ॥",
+          "meaning": {
+            "en": "And their enemies, the Pandavas, do not prosper, queen. Hear what we did, led by Ashvatthaman."
+          }
         },
         {
           "n": 11,
-          "text": "अधर्मेण हतं श्रुत्वा भीमसेनेन ते सुतम् ।\nसुप्तं शिबिरमाविश्य पाण्डूनां कदनं कृतम् ॥"
+          "text": "अधर्मेण हतं श्रुत्वा भीमसेनेन ते सुतम् ।\nसुप्तं शिबिरमाविश्य पाण्डूनां कदनं कृतम् ॥",
+          "meaning": {
+            "en": "Hearing that your son was struck down unfairly by Bhimasena, we entered the camp while the Pandavas slept and made a slaughter."
+          }
         },
         {
           "n": 12,
-          "text": "पाञ्चाला निहताः सर्वे धृष्टद्युम्नपुरोगमाः ।\nद्रुपदस्यात्मजाश्चैव द्रौपदेयाश्च पातिताः ॥"
+          "text": "पाञ्चाला निहताः सर्वे धृष्टद्युम्नपुरोगमाः ।\nद्रुपदस्यात्मजाश्चैव द्रौपदेयाश्च पातिताः ॥",
+          "meaning": {
+            "en": "All the Panchalas led by Dhrishtadyumna were killed, and Drupada's sons and the sons of Draupadi were felled."
+          }
         },
         {
           "n": 13,
-          "text": "तथा विशसनं कृत्वा पुत्रशत्रुगणस्य ते ।\nप्राद्रवाम रणे स्थातुं न हि शक्यामहे त्रयः ॥"
+          "text": "तथा विशसनं कृत्वा पुत्रशत्रुगणस्य ते ।\nप्राद्रवाम रणे स्थातुं न हि शक्यामहे त्रयः ॥",
+          "meaning": {
+            "en": "Having thus slaughtered the host of enemies of your son, we fled, for we three cannot stand in battle."
+          }
         },
         {
           "n": 14,
-          "text": "ते हि शूरा महेष्वासाः क्षिप्रमेष्यन्ति पाण्डवाः ।\nअमर्षवशमापन्ना वैरं प्रतिजिहीर्षवः ॥"
+          "text": "ते हि शूरा महेष्वासाः क्षिप्रमेष्यन्ति पाण्डवाः ।\nअमर्षवशमापन्ना वैरं प्रतिजिहीर्षवः ॥",
+          "meaning": {
+            "en": "Those heroic great archers, the Pandavas, will come quickly, possessed by wrath and wanting to repay the enmity."
+          }
         },
         {
           "n": 15,
-          "text": "निहतानात्मजाञ्श्रुत्वा प्रमत्तान्पुरुषर्षभाः ।\nनिनीषन्तः पदं शूराः क्षिप्रमेव यशस्विनि ॥"
+          "text": "निहतानात्मजाञ्श्रुत्वा प्रमत्तान्पुरुषर्षभाः ।\nनिनीषन्तः पदं शूराः क्षिप्रमेव यशस्विनि ॥",
+          "meaning": {
+            "en": "Hearing that their sons had been killed in negligence, those bull-like heroes, glorious queen, will come to track us down quickly."
+          }
         },
         {
           "n": 16,
-          "text": "पाण्डूनां किल्बिषं कृत्वा संस्थातुं नोत्सहामहे ।\nअनुजानीहि नो राज्ञि मा च शोके मनः कृथाः ॥"
+          "text": "पाण्डूनां किल्बिषं कृत्वा संस्थातुं नोत्सहामहे ।\nअनुजानीहि नो राज्ञि मा च शोके मनः कृथाः ॥",
+          "meaning": {
+            "en": "Having wronged the Pandavas, we have no courage to stay. Give us leave, queen, and do not set your mind on grief."
+          }
         },
         {
           "n": 17,
-          "text": "राजंस्त्वमनुजानीहि धैर्यमातिष्ठ चोत्तमम् ।\nनिष्ठान्तं पश्य चापि त्वं क्षत्रधर्मं च केवलम् ॥"
+          "text": "राजंस्त्वमनुजानीहि धैर्यमातिष्ठ चोत्तमम् ।\nनिष्ठान्तं पश्य चापि त्वं क्षत्रधर्मं च केवलम् ॥",
+          "meaning": {
+            "en": "King, give us leave and take up the highest steadiness. See that the end has come, and that kshatriya dharma alone remains."
+          }
         },
         {
           "n": 18,
-          "text": "इत्येवमुक्त्वा राजानं कृत्वा चाभिप्रदक्षिणम् ।\nकृपश्च कृतवर्मा च द्रोणपुत्रश्च भारत ॥"
+          "text": "इत्येवमुक्त्वा राजानं कृत्वा चाभिप्रदक्षिणम् ।\nकृपश्च कृतवर्मा च द्रोणपुत्रश्च भारत ॥",
+          "meaning": {
+            "en": "Having spoken thus to the king and circled him with respect, Kripa, Kritavarman and Drona's son,"
+          }
         },
         {
           "n": 19,
-          "text": "अवेक्षमाणा राजानं धृतराष्ट्रं मनीषिणम् ।\nगङ्गामनु महात्मानस्तूर्णमश्वानचोदयन् ॥"
+          "text": "अवेक्षमाणा राजानं धृतराष्ट्रं मनीषिणम् ।\nगङ्गामनु महात्मानस्तूर्णमश्वानचोदयन् ॥",
+          "meaning": {
+            "en": "looking back at the wise King Dhritarashtra, great-souled, quickly drove their horses along the Ganga."
+          }
         },
         {
           "n": 20,
-          "text": "अपक्रम्य तु ते राजन्सर्व एव महारथाः ।\nआमन्त्र्यान्योन्यमुद्विग्नास्त्रिधा ते प्रययुस्ततः ॥"
+          "text": "अपक्रम्य तु ते राजन्सर्व एव महारथाः ।\nआमन्त्र्यान्योन्यमुद्विग्नास्त्रिधा ते प्रययुस्ततः ॥",
+          "meaning": {
+            "en": "Going away, king, all those great charioteers, distressed, took leave of one another and went off in three directions."
+          }
         },
         {
           "n": 21,
-          "text": "जगाम हास्तिनपुरं कृपः शारद्वतस्तदा ।\nस्वमेव राष्ट्रं हार्दिक्यो द्रौणिर्व्यासाश्रमं ययौ ॥"
+          "text": "जगाम हास्तिनपुरं कृपः शारद्वतस्तदा ।\nस्वमेव राष्ट्रं हार्दिक्यो द्रौणिर्व्यासाश्रमं ययौ ॥",
+          "meaning": {
+            "en": "Kripa son of Sharadvat went to Hastinapura, Kritavarman, son of Hridika, to his own kingdom, and Drona's son to Vyasa's hermitage."
+          }
         },
         {
           "n": 22,
-          "text": "एवं ते प्रययुर्वीरा वीक्षमाणाः परस्परम् ।\nभयार्ताः पाण्डुपुत्राणामागस्कृत्वा महात्मनाम् ॥"
+          "text": "एवं ते प्रययुर्वीरा वीक्षमाणाः परस्परम् ।\nभयार्ताः पाण्डुपुत्राणामागस्कृत्वा महात्मनाम् ॥",
+          "meaning": {
+            "en": "So those heroes went, looking at one another, in fear of the great-souled sons of Pandu, whom they had wronged."
+          }
         },
         {
           "n": 23,
-          "text": "समेत्य वीरा राजानं तदा त्वनुदिते रवौ ।\nविप्रजग्मुर्महाराज यथेच्छकमरिंदमाः ॥"
+          "text": "समेत्य वीरा राजानं तदा त्वनुदिते रवौ ।\nविप्रजग्मुर्महाराज यथेच्छकमरिंदमाः ॥",
+          "meaning": {
+            "en": "Having met the king, those heroes, tamers of foes, parted as they wished, great king, when the sun had not yet risen."
+          }
         }
       ]
     }

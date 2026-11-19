@@ -22,199 +22,346 @@
       "titleEn": "Jalapradanika Parva (The water offerings)",
       "verses": [
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 1,
-          "text": "विदुरस्य तु तद्वाक्यं निशम्य कुरुसत्तमः ।\nपुत्रशोकाभिसंतप्तः पपात भुवि मूर्छितः ॥"
+          "text": "विदुरस्य तु तद्वाक्यं निशम्य कुरुसत्तमः ।\nपुत्रशोकाभिसंतप्तः पपात भुवि मूर्छितः ॥",
+          "meaning": {
+            "en": "Hearing Vidura's words, the best of the Kurus, burning with grief for his sons, fell fainting to the ground."
+          }
         },
         {
           "n": 2,
-          "text": "तं तथा पतितं भूमौ निःसंज्ञं प्रेक्ष्य बान्धवाः ।\nकृष्णद्वैपायनश्चैव क्षत्ता च विदुरस्तथा ॥"
+          "text": "तं तथा पतितं भूमौ निःसंज्ञं प्रेक्ष्य बान्धवाः ।\nकृष्णद्वैपायनश्चैव क्षत्ता च विदुरस्तथा ॥",
+          "meaning": {
+            "en": "Seeing him lying there senseless, his kinsmen, Krishna Dvaipayana, the counselor Vidura,"
+          }
         },
         {
           "n": 3,
-          "text": "संजयः सुहृदश्चान्ये द्वाःस्था ये चास्य संमताः ।\nजलेन सुखशीतेन तालवृन्तैश्च भारत ॥"
+          "text": "संजयः सुहृदश्चान्ये द्वाःस्था ये चास्य संमताः ।\nजलेन सुखशीतेन तालवृन्तैश्च भारत ॥",
+          "meaning": {
+            "en": "Sanjaya, other friends, and the trusted gatekeepers sprinkled him with pleasantly cool water and fanned him with palm-leaf fans, descendant of Bharata."
+          }
         },
         {
           "n": 4,
-          "text": "पस्पृशुश्च करैर्गात्रं वीजमानाश्च यत्नतः ।\nअन्वासन्सुचिरं कालं धृतराष्ट्रं तथागतम् ॥"
+          "text": "पस्पृशुश्च करैर्गात्रं वीजमानाश्च यत्नतः ।\nअन्वासन्सुचिरं कालं धृतराष्ट्रं तथागतम् ॥",
+          "meaning": {
+            "en": "They touched his body with their hands and fanned him diligently, and they sat with Dhritarashtra a long time as he lay in that state."
+          }
         },
         {
           "n": 5,
-          "text": "अथ दीर्घस्य कालस्य लब्धसंज्ञो महीपतिः ।\nविललाप चिरं कालं पुत्राधिभिरभिप्लुतः ॥"
+          "text": "अथ दीर्घस्य कालस्य लब्धसंज्ञो महीपतिः ।\nविललाप चिरं कालं पुत्राधिभिरभिप्लुतः ॥",
+          "meaning": {
+            "en": "After a long while the king regained consciousness and lamented for a long time, flooded with anxiety for his sons."
+          }
         },
         {
           "n": 6,
-          "text": "धिगस्तु खलु मानुष्यं मानुष्ये च परिग्रहम् ।\nयतोमूलानि दुःखानि संभवन्ति मुहुर्मुहुः ॥"
+          "text": "धिगस्तु खलु मानुष्यं मानुष्ये च परिग्रहम् ।\nयतोमूलानि दुःखानि संभवन्ति मुहुर्मुहुः ॥",
+          "meaning": {
+            "en": "Shame on human life, and shame on human possessions, from which sorrows arise again and again."
+          }
         },
         {
           "n": 7,
-          "text": "पुत्रनाशेऽर्थनाशे च ज्ञातिसंबन्धिनामपि ।\nप्राप्यते सुमहद्दुःखं विषाग्निप्रतिमं विभो ॥"
+          "text": "पुत्रनाशेऽर्थनाशे च ज्ञातिसंबन्धिनामपि ।\nप्राप्यते सुमहद्दुःखं विषाग्निप्रतिमं विभो ॥",
+          "meaning": {
+            "en": "Lord, in the loss of sons, of wealth, and of relatives and in-laws, one suffers a very great pain like poison and fire."
+          }
         },
         {
           "n": 8,
-          "text": "येन दह्यन्ति गात्राणि येन प्रज्ञा विनश्यति ।\nयेनाभिभूतः पुरुषो मरणं बहु मन्यते ॥"
+          "text": "येन दह्यन्ति गात्राणि येन प्रज्ञा विनश्यति ।\nयेनाभिभूतः पुरुषो मरणं बहु मन्यते ॥",
+          "meaning": {
+            "en": "It burns the body, it destroys the mind, and overcome by it a man thinks well of death."
+          }
         },
         {
           "n": 9,
-          "text": "तदिदं व्यसनं प्राप्तं मया भाग्यविपर्ययात् ।\nतच्चैवाहं करिष्यामि अद्यैव द्विजसत्तम ॥"
+          "text": "तदिदं व्यसनं प्राप्तं मया भाग्यविपर्ययात् ।\nतच्चैवाहं करिष्यामि अद्यैव द्विजसत्तम ॥",
+          "meaning": {
+            "en": "This calamity has come upon me through a reversal of fortune, best of brahmins, and I will do that very thing, die, today itself."
+          }
         },
         {
           "n": 10,
-          "text": "इत्युक्त्वा तु महात्मानं पितरं ब्रह्मवित्तमम् ।\nधृतराष्ट्रोऽभवन्मूढः शोकं च परमं गतः ।\nअभूच्च तूष्णीं राजासौ ध्यायमानो महीपते ॥"
+          "text": "इत्युक्त्वा तु महात्मानं पितरं ब्रह्मवित्तमम् ।\nधृतराष्ट्रोऽभवन्मूढः शोकं च परमं गतः ।\nअभूच्च तूष्णीं राजासौ ध्यायमानो महीपते ॥",
+          "meaning": {
+            "en": "Having said this to his father, the great-souled best of Brahman-knowers, Dhritarashtra fell into bewilderment and utmost grief, and the king fell silent, brooding."
+          }
         },
         {
           "n": 11,
-          "text": "तस्य तद्वचनं श्रुत्वा कृष्णद्वैपायनः प्रभुः ।\nपुत्रशोकाभिसंतप्तं पुत्रं वचनमब्रवीत् ॥"
+          "text": "तस्य तद्वचनं श्रुत्वा कृष्णद्वैपायनः प्रभुः ।\nपुत्रशोकाभिसंतप्तं पुत्रं वचनमब्रवीत् ॥",
+          "meaning": {
+            "en": "Hearing his words, the lord Krishna Dvaipayana spoke to his son, who was burning with grief for his sons."
+          }
         },
         {
           "n": 12,
-          "text": "धृतराष्ट्र महाबाहो यत्त्वां वक्ष्यामि तच्छृणु ।\nश्रुतवानसि मेधावी धर्मार्थकुशलस्तथा ॥"
+          "text": "धृतराष्ट्र महाबाहो यत्त्वां वक्ष्यामि तच्छृणु ।\nश्रुतवानसि मेधावी धर्मार्थकुशलस्तथा ॥",
+          "meaning": {
+            "en": "Dhritarashtra, mighty-armed, hear what I will tell you. You are learned and intelligent, and skilled in dharma and in worldly aims."
+          }
         },
         {
           "n": 13,
-          "text": "न तेऽस्त्यविदितं किंचिद्वेदितव्यं परंतप ।\nअनित्यतां हि मर्त्यानां विजानासि न संशयः ॥"
+          "text": "न तेऽस्त्यविदितं किंचिद्वेदितव्यं परंतप ।\nअनित्यतां हि मर्त्यानां विजानासि न संशयः ॥",
+          "meaning": {
+            "en": "There is nothing you do not know, nothing left to be learned, tormentor of foes. You surely understand the impermanence of mortals."
+          }
         },
         {
           "n": 14,
-          "text": "अध्रुवे जीवलोके च स्थाने वाशाश्वते सति ।\nजीविते मरणान्ते च कस्माच्छोचसि भारत ॥"
+          "text": "अध्रुवे जीवलोके च स्थाने वाशाश्वते सति ।\nजीविते मरणान्ते च कस्माच्छोचसि भारत ॥",
+          "meaning": {
+            "en": "In this uncertain world of the living, where nothing stays and all ends in death, why do you grieve, descendant of Bharata?"
+          }
         },
         {
           "n": 15,
-          "text": "प्रत्यक्षं तव राजेन्द्र वैरस्यास्य समुद्भवः ।\nपुत्रं ते कारणं कृत्वा कालयोगेन कारितः ॥"
+          "text": "प्रत्यक्षं तव राजेन्द्र वैरस्यास्य समुद्भवः ।\nपुत्रं ते कारणं कृत्वा कालयोगेन कारितः ॥",
+          "meaning": {
+            "en": "You saw with your own eyes, great king, how this enmity arose; it was brought about through the course of Time, with your son as the cause."
+          }
         },
         {
           "n": 16,
-          "text": "अवश्यं भवितव्ये च कुरूणां वैशसे नृप ।\nकस्माच्छोचसि ताञ्शूरान्गतान्परमिकां गतिम् ॥"
+          "text": "अवश्यं भवितव्ये च कुरूणां वैशसे नृप ।\nकस्माच्छोचसि ताञ्शूरान्गतान्परमिकां गतिम् ॥",
+          "meaning": {
+            "en": "Since the destruction of the Kurus was bound to be, king, why do you grieve for those heroes who have gone to the highest goal?"
+          }
         },
         {
           "n": 17,
-          "text": "जानता च महाबाहो विदुरेण महात्मना ।\nयतितं सर्वयत्नेन शमं प्रति जनेश्वर ॥"
+          "text": "जानता च महाबाहो विदुरेण महात्मना ।\nयतितं सर्वयत्नेन शमं प्रति जनेश्वर ॥",
+          "meaning": {
+            "en": "Great-souled Vidura, who knew this, strove with every effort for peace, lord of men."
+          }
         },
         {
           "n": 18,
-          "text": "न च दैवकृतो मार्गः शक्यो भूतेन केनचित् ।\nघटतापि चिरं कालं नियन्तुमिति मे मतिः ॥"
+          "text": "न च दैवकृतो मार्गः शक्यो भूतेन केनचित् ।\nघटतापि चिरं कालं नियन्तुमिति मे मतिः ॥",
+          "meaning": {
+            "en": "But no one, however long he strives, can hold back the course ordained by fate. That is my view."
+          }
         },
         {
           "n": 19,
-          "text": "देवतानां हि यत्कार्यं मया प्रत्यक्षतः श्रुतम् ।\nतत्तेऽहं संप्रवक्ष्यामि कथं स्थैर्यं भवेत्तव ॥"
+          "text": "देवतानां हि यत्कार्यं मया प्रत्यक्षतः श्रुतम् ।\nतत्तेऽहं संप्रवक्ष्यामि कथं स्थैर्यं भवेत्तव ॥",
+          "meaning": {
+            "en": "I will tell you what I myself heard directly about the work of the gods, so that you may be steady."
+          }
         },
         {
           "n": 20,
-          "text": "पुराहं त्वरितो यातः सभामैन्द्रीं जितक्लमः ।\nअपश्यं तत्र च तदा समवेतान्दिवौकसः ।\nनारदप्रमुखांश्चापि सर्वान्देवऋषींस्तथा ॥"
+          "text": "पुराहं त्वरितो यातः सभामैन्द्रीं जितक्लमः ।\nअपश्यं तत्र च तदा समवेतान्दिवौकसः ।\nनारदप्रमुखांश्चापि सर्वान्देवऋषींस्तथा ॥",
+          "meaning": {
+            "en": "Once I went in haste to the court of Indra, my weariness conquered, and there I saw the gods assembled, and all the divine sages led by Narada."
+          }
         },
         {
           "n": 21,
-          "text": "तत्र चापि मया दृष्टा पृथिवी पृथिवीपते ।\nकार्यार्थमुपसंप्राप्ता देवतानां समीपतः ॥"
+          "text": "तत्र चापि मया दृष्टा पृथिवी पृथिवीपते ।\nकार्यार्थमुपसंप्राप्ता देवतानां समीपतः ॥",
+          "meaning": {
+            "en": "There too, king, I saw the Earth, come before the gods on some business."
+          }
         },
         {
           "n": 22,
-          "text": "उपगम्य तदा धात्री देवानाह समागतान् ।\nयत्कार्यं मम युष्माभिर्ब्रह्मणः सदने तदा ।\nप्रतिज्ञातं महाभागास्तच्छीघ्रं संविधीयताम् ॥"
+          "text": "उपगम्य तदा धात्री देवानाह समागतान् ।\nयत्कार्यं मम युष्माभिर्ब्रह्मणः सदने तदा ।\nप्रतिज्ञातं महाभागास्तच्छीघ्रं संविधीयताम् ॥",
+          "meaning": {
+            "en": "Approaching, the Earth, the supporter, said to the gathered gods: \"The task you promised me in Brahma's hall, great ones, let it be accomplished quickly.\""
+          }
         },
         {
           "n": 23,
-          "text": "तस्यास्तद्वचनं श्रुत्वा विष्णुर्लोकनमस्कृतः ।\nउवाच प्रहसन्वाक्यं पृथिवीं देवसंसदि ॥"
+          "text": "तस्यास्तद्वचनं श्रुत्वा विष्णुर्लोकनमस्कृतः ।\nउवाच प्रहसन्वाक्यं पृथिवीं देवसंसदि ॥",
+          "meaning": {
+            "en": "Hearing her words, Vishnu, to whom the worlds bow, laughed and said to the Earth in the divine assembly:"
+          }
         },
         {
           "n": 24,
-          "text": "धृतराष्ट्रस्य पुत्राणां यस्तु ज्येष्ठः शतस्य वै ।\nदुर्योधन इति ख्यातः स ते कार्यं करिष्यति ।\nतं च प्राप्य महीपालं कृतकृत्या भविष्यसि ॥"
+          "text": "धृतराष्ट्रस्य पुत्राणां यस्तु ज्येष्ठः शतस्य वै ।\nदुर्योधन इति ख्यातः स ते कार्यं करिष्यति ।\nतं च प्राप्य महीपालं कृतकृत्या भविष्यसि ॥",
+          "meaning": {
+            "en": "\"The eldest of Dhritarashtra's hundred sons, famed as Duryodhana, will do your task. When you have obtained that king, your purpose will be done."
+          }
         },
         {
           "n": 25,
-          "text": "तस्यार्थे पृथिवीपालाः कुरुक्षेत्रे समागताः ।\nअन्योन्यं घातयिष्यन्ति दृढैः शस्त्रैः प्रहारिणः ॥"
+          "text": "तस्यार्थे पृथिवीपालाः कुरुक्षेत्रे समागताः ।\nअन्योन्यं घातयिष्यन्ति दृढैः शस्त्रैः प्रहारिणः ॥",
+          "meaning": {
+            "en": "For his sake the earth's kings will gather at Kurukshetra and strike one another down with strong weapons."
+          }
         },
         {
           "n": 26,
-          "text": "ततस्ते भविता देवि भारस्य युधि नाशनम् ।\nगच्छ शीघ्रं स्वकं स्थानं लोकान्धारय शोभने ॥"
+          "text": "ततस्ते भविता देवि भारस्य युधि नाशनम् ।\nगच्छ शीघ्रं स्वकं स्थानं लोकान्धारय शोभने ॥",
+          "meaning": {
+            "en": "Then, goddess, your burden will be removed in battle. Go quickly to your own place, fair one, and sustain the worlds.\""
+          }
         },
         {
           "n": 27,
-          "text": "स एष ते सुतो राजँल्लोकसंहारकारणात् ।\nकलेरंशः समुत्पन्नो गान्धार्या जठरे नृप ॥"
+          "text": "स एष ते सुतो राजँल्लोकसंहारकारणात् ।\nकलेरंशः समुत्पन्नो गान्धार्या जठरे नृप ॥",
+          "meaning": {
+            "en": "King, that son of yours, born in Gandhari's womb, is a portion of Kali, born to bring about the destruction of the worlds."
+          }
         },
         {
           "n": 28,
-          "text": "अमर्षी चपलश्चापि क्रोधनो दुष्प्रसाधनः ।\nदैवयोगात्समुत्पन्ना भ्रातरश्चास्य तादृशाः ॥"
+          "text": "अमर्षी चपलश्चापि क्रोधनो दुष्प्रसाधनः ।\nदैवयोगात्समुत्पन्ना भ्रातरश्चास्य तादृशाः ॥",
+          "meaning": {
+            "en": "He was impatient, fickle, wrathful and hard to manage; by the working of fate his brothers were born of the same kind."
+          }
         },
         {
           "n": 29,
-          "text": "शकुनिर्मातुलश्चैव कर्णश्च परमः सखा ।\nसमुत्पन्ना विनाशार्थं पृथिव्यां सहिता नृपाः ।\nएतमर्थं महाबाहो नारदो वेद तत्त्वतः ॥"
+          "text": "शकुनिर्मातुलश्चैव कर्णश्च परमः सखा ।\nसमुत्पन्ना विनाशार्थं पृथिव्यां सहिता नृपाः ।\nएतमर्थं महाबाहो नारदो वेद तत्त्वतः ॥",
+          "meaning": {
+            "en": "His uncle Shakuni and his dearest friend Karna were born together with kings for the earth's destruction. Narada knows the truth of this, mighty-armed."
+          }
         },
         {
           "n": 30,
-          "text": "आत्मापराधात्पुत्रास्ते विनष्टाः पृथिवीपते ।\nमा ताञ्शोचस्व राजेन्द्र न हि शोकेऽस्ति कारणम् ॥"
+          "text": "आत्मापराधात्पुत्रास्ते विनष्टाः पृथिवीपते ।\nमा ताञ्शोचस्व राजेन्द्र न हि शोकेऽस्ति कारणम् ॥",
+          "meaning": {
+            "en": "Your sons perished through their own fault, lord of the earth. Do not grieve for them, king; there is no ground for grief."
+          }
         },
         {
           "n": 31,
-          "text": "न हि ते पाण्डवाः स्वल्पमपराध्यन्ति भारत ।\nपुत्रास्तव दुरात्मानो यैरियं घातिता मही ॥"
+          "text": "न हि ते पाण्डवाः स्वल्पमपराध्यन्ति भारत ।\nपुत्रास्तव दुरात्मानो यैरियं घातिता मही ॥",
+          "meaning": {
+            "en": "The Pandavas have not wronged you even slightly, descendant of Bharata. It was your wicked sons who brought about this slaughter of the earth."
+          }
         },
         {
           "n": 32,
-          "text": "नारदेन च भद्रं ते पूर्वमेव न संशयः ।\nयुधिष्ठिरस्य समितौ राजसूये निवेदितम् ॥"
+          "text": "नारदेन च भद्रं ते पूर्वमेव न संशयः ।\nयुधिष्ठिरस्य समितौ राजसूये निवेदितम् ॥",
+          "meaning": {
+            "en": "Narada, blessings on you, declared this long ago, without doubt, in the assembly at Yudhishthira's Rajasuya sacrifice:"
+          }
         },
         {
           "n": 33,
-          "text": "पाण्डवाः कौरवाश्चैव समासाद्य परस्परम् ।\nन भविष्यन्ति कौन्तेय यत्ते कृत्यं तदाचर ॥"
+          "text": "पाण्डवाः कौरवाश्चैव समासाद्य परस्परम् ।\nन भविष्यन्ति कौन्तेय यत्ते कृत्यं तदाचर ॥",
+          "meaning": {
+            "en": "\"The Pandavas and the Kauravas, coming together, will not survive, son of Kunti; do what you must do.\""
+          }
         },
         {
           "n": 34,
-          "text": "नारदस्य वचः श्रुत्वा तदाशोचन्त पाण्डवाः ।\nएतत्ते सर्वमाख्यातं देवगुह्यं सनातनम् ॥"
+          "text": "नारदस्य वचः श्रुत्वा तदाशोचन्त पाण्डवाः ।\nएतत्ते सर्वमाख्यातं देवगुह्यं सनातनम् ॥",
+          "meaning": {
+            "en": "Hearing Narada's words, the Pandavas grieved then. I have told you all of this, an eternal secret of the gods."
+          }
         },
         {
           "n": 35,
-          "text": "कथं ते शोकनाशः स्यात्प्राणेषु च दया प्रभो ।\nस्नेहश्च पाण्डुपुत्रेषु ज्ञात्वा दैवकृतं विधिम् ॥"
+          "text": "कथं ते शोकनाशः स्यात्प्राणेषु च दया प्रभो ।\nस्नेहश्च पाण्डुपुत्रेषु ज्ञात्वा दैवकृतं विधिम् ॥",
+          "meaning": {
+            "en": "How may your grief be ended, lord, and how may you show care for your life and affection for Pandu's sons, once you know the ordinance made by fate?"
+          }
         },
         {
           "n": 36,
-          "text": "एष चार्थो महाबाहो पूर्वमेव मया श्रुतः ।\nकथितो धर्मराजस्य राजसूये क्रतूत्तमे ॥"
+          "text": "एष चार्थो महाबाहो पूर्वमेव मया श्रुतः ।\nकथितो धर्मराजस्य राजसूये क्रतूत्तमे ॥",
+          "meaning": {
+            "en": "This matter, mighty-armed, I had heard of long before and told to Dharmaraja Yudhishthira at the Rajasuya, best of sacrifices."
+          }
         },
         {
           "n": 37,
-          "text": "यतितं धर्मपुत्रेण मया गुह्ये निवेदिते ।\nअविग्रहे कौरवाणां दैवं तु बलवत्तरम् ॥"
+          "text": "यतितं धर्मपुत्रेण मया गुह्ये निवेदिते ।\nअविग्रहे कौरवाणां दैवं तु बलवत्तरम् ॥",
+          "meaning": {
+            "en": "When I revealed the secret, the son of Dharma strove for no war among the Kauravas, but fate is stronger."
+          }
         },
         {
           "n": 38,
-          "text": "अनतिक्रमणीयो हि विधी राजन्कथंचन ।\nकृतान्तस्य हि भूतेन स्थावरेण त्रसेन च ॥"
+          "text": "अनतिक्रमणीयो हि विधी राजन्कथंचन ।\nकृतान्तस्य हि भूतेन स्थावरेण त्रसेन च ॥",
+          "meaning": {
+            "en": "The ordinance of fate, king, can in no way be overstepped by any being, moving or unmoving, because of the working of the Ender."
+          }
         },
         {
           "n": 39,
-          "text": "भवान्धर्मपरो यत्र बुद्धिश्रेष्ठश्च भारत ।\nमुह्यते प्राणिनां ज्ञात्वा गतिं चागतिमेव च ॥"
+          "text": "भवान्धर्मपरो यत्र बुद्धिश्रेष्ठश्च भारत ।\nमुह्यते प्राणिनां ज्ञात्वा गतिं चागतिमेव च ॥",
+          "meaning": {
+            "en": "You are devoted to dharma and the best in understanding, yet you are bewildered, though you know the coming and going of creatures."
+          }
         },
         {
           "n": 40,
-          "text": "त्वां तु शोकेन संतप्तं मुह्यमानं मुहुर्मुहुः ।\nज्ञात्वा युधिष्ठिरो राजा प्राणानपि परित्यजेत् ॥"
+          "text": "त्वां तु शोकेन संतप्तं मुह्यमानं मुहुर्मुहुः ।\nज्ञात्वा युधिष्ठिरो राजा प्राणानपि परित्यजेत् ॥",
+          "meaning": {
+            "en": "Seeing you consumed by grief and repeatedly bewildered, King Yudhishthira might even give up his life."
+          }
         },
         {
           "n": 41,
-          "text": "कृपालुर्नित्यशो वीरस्तिर्यग्योनिगतेष्वपि ।\nस कथं त्वयि राजेन्द्र कृपां वै न करिष्यति ॥"
+          "text": "कृपालुर्नित्यशो वीरस्तिर्यग्योनिगतेष्वपि ।\nस कथं त्वयि राजेन्द्र कृपां वै न करिष्यति ॥",
+          "meaning": {
+            "en": "He is ever compassionate, the hero, even to animals. How then would he not show compassion to you, king?"
+          }
         },
         {
           "n": 42,
-          "text": "मम चैव नियोगेन विधेश्चाप्यनिवर्तनात् ।\nपाण्डवानां च कारुण्यात्प्राणान्धारय भारत ॥"
+          "text": "मम चैव नियोगेन विधेश्चाप्यनिवर्तनात् ।\nपाण्डवानां च कारुण्यात्प्राणान्धारय भारत ॥",
+          "meaning": {
+            "en": "By my command, because fate cannot be turned back, and out of pity for the Pandavas, sustain your life, descendant of Bharata."
+          }
         },
         {
           "n": 43,
-          "text": "एवं ते वर्तमानस्य लोके कीर्तिर्भविष्यति ।\nधर्मश्च सुमहांस्तात तप्तं स्याच्च तपश्चिरात् ॥"
+          "text": "एवं ते वर्तमानस्य लोके कीर्तिर्भविष्यति ।\nधर्मश्च सुमहांस्तात तप्तं स्याच्च तपश्चिरात् ॥",
+          "meaning": {
+            "en": "If you live so, glory will be yours in the world, great dharma will come to you, dear son, and you will have performed long austerity."
+          }
         },
         {
           "n": 44,
-          "text": "पुत्रशोकसमुत्पन्नं हुताशं ज्वलितं यथा ।\nप्रज्ञाम्भसा महाराज निर्वापय सदा सदा ॥"
+          "text": "पुत्रशोकसमुत्पन्नं हुताशं ज्वलितं यथा ।\nप्रज्ञाम्भसा महाराज निर्वापय सदा सदा ॥",
+          "meaning": {
+            "en": "Quench with the water of wisdom, always and ever, the blazing fire that has arisen from grief for your sons, great king."
+          }
         },
         {
           "n": 45,
-          "text": "एतच्छ्रुत्वा तु वचनं व्यासस्यामिततेजसः ।\nमुहूर्तं समनुध्याय धृतराष्ट्रोऽभ्यभाषत ॥"
+          "text": "एतच्छ्रुत्वा तु वचनं व्यासस्यामिततेजसः ।\nमुहूर्तं समनुध्याय धृतराष्ट्रोऽभ्यभाषत ॥",
+          "meaning": {
+            "en": "Hearing these words of Vyasa of immeasurable splendor, Dhritarashtra thought for a moment and then spoke."
+          }
         },
         {
           "n": 46,
-          "text": "महता शोकजालेन प्रणुन्नोऽस्मि द्विजोत्तम ।\nनात्मानमवबुध्यामि मुह्यमानो मुहुर्मुहुः ॥"
+          "text": "महता शोकजालेन प्रणुन्नोऽस्मि द्विजोत्तम ।\nनात्मानमवबुध्यामि मुह्यमानो मुहुर्मुहुः ॥",
+          "meaning": {
+            "en": "I am driven by a great net of sorrow, best of brahmins. Repeatedly bewildered, I cannot gather myself."
+          }
         },
         {
           "n": 47,
-          "text": "इदं तु वचनं श्रुत्वा तव दैवनियोगजम् ।\nधारयिष्याम्यहं प्राणान्यतिष्ये च नशोचितुम् ॥"
+          "text": "इदं तु वचनं श्रुत्वा तव दैवनियोगजम् ।\nधारयिष्याम्यहं प्राणान्यतिष्ये च नशोचितुम् ॥",
+          "meaning": {
+            "en": "But having heard your words, born of the ordinance of fate, I will keep myself alive and try not to grieve."
+          }
         },
         {
           "n": 48,
-          "text": "एतच्छ्रुत्वा तु वचनं व्यासः सत्यवतीसुतः ।\nधृतराष्ट्रस्य राजेन्द्र तत्रैवान्तरधीयत ॥"
+          "text": "एतच्छ्रुत्वा तु वचनं व्यासः सत्यवतीसुतः ।\nधृतराष्ट्रस्य राजेन्द्र तत्रैवान्तरधीयत ॥",
+          "meaning": {
+            "en": "Hearing this from Dhritarashtra, king, Vyasa, son of Satyavati, vanished right there."
+          }
         }
       ]
     }

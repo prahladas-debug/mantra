@@ -22,274 +22,478 @@
       "titleEn": "Sauptika Parva (The night massacre)",
       "verses": [
         {
-          "text": "संजय उवाच"
+          "text": "संजय उवाच",
+          "meaning": {
+            "en": "Sanjaya said:"
+          }
         },
         {
           "n": 1,
-          "text": "स एवं चिन्तयित्वा तु द्रोणपुत्रो विशां पते ।\nअवतीर्य रथोपस्थाद्दध्यौ संप्रयतः स्थितः ॥"
+          "text": "स एवं चिन्तयित्वा तु द्रोणपुत्रो विशां पते ।\nअवतीर्य रथोपस्थाद्दध्यौ संप्रयतः स्थितः ॥",
+          "meaning": {
+            "en": "Having thought thus, the son of Drona, lord of men, got down from the chariot's seat and stood composed in meditation."
+          }
         },
         {
-          "text": "द्रौणिरुवाच"
+          "text": "द्रौणिरुवाच",
+          "meaning": {
+            "en": "Drona's son said:"
+          }
         },
         {
           "n": 2,
-          "text": "उग्रं स्थाणुं शिवं रुद्रं शर्वमीशानमीश्वरम् ।\nगिरिशं वरदं देवं भवं भावनमव्ययम् ॥"
+          "text": "उग्रं स्थाणुं शिवं रुद्रं शर्वमीशानमीश्वरम् ।\nगिरिशं वरदं देवं भवं भावनमव्ययम् ॥",
+          "meaning": {
+            "en": "I take refuge in the fierce one, Sthanu, Shiva, Rudra, Sharva, Ishana, Ishvara, Girisha, the boon-giving god, Bhava, the source of being, the imperishable."
+          }
         },
         {
           "n": 3,
-          "text": "शितिकण्ठमजं शक्रं क्रथं क्रतुहरं हरम् ।\nविश्वरूपं विरूपाक्षं बहुरूपमुमापतिम् ॥"
+          "text": "शितिकण्ठमजं शक्रं क्रथं क्रतुहरं हरम् ।\nविश्वरूपं विरूपाक्षं बहुरूपमुमापतिम् ॥",
+          "meaning": {
+            "en": "The blue-necked, unborn one, Shakra, Kratha, destroyer of Daksha's sacrifice, Hara; the one of all forms, of strange eyes, of many forms, lord of Uma."
+          }
         },
         {
           "n": 4,
-          "text": "श्मशानवासिनं दृप्तं महागणपतिं प्रभुम् ।\nखट्वाङ्गधारिणं मुण्डं जटिलं ब्रह्मचारिणम् ॥"
+          "text": "श्मशानवासिनं दृप्तं महागणपतिं प्रभुम् ।\nखट्वाङ्गधारिणं मुण्डं जटिलं ब्रह्मचारिणम् ॥",
+          "meaning": {
+            "en": "The dweller in cremation grounds, the proud, the great lord of the hosts, the master, bearer of the skull-topped staff, shaven and matted, the celibate."
+          }
         },
         {
           "n": 5,
-          "text": "मनसाप्यसुचिन्त्येन दुष्करेणाल्पचेतसा ।\nसोऽहमात्मोपहारेण यक्ष्ये त्रिपुरघातिनम् ॥"
+          "text": "मनसाप्यसुचिन्त्येन दुष्करेणाल्पचेतसा ।\nसोऽहमात्मोपहारेण यक्ष्ये त्रिपुरघातिनम् ॥",
+          "meaning": {
+            "en": "With a mind hard to bring into thought, though I am of small understanding, I shall offer my own self in sacrifice to the slayer of Tripura."
+          }
         },
         {
           "n": 6,
-          "text": "स्तुतं स्तुत्यं स्तूयमानममोघं चर्मवाससम् ।\nविलोहितं नीलकण्ठमपृक्तं दुर्निवारणम् ॥"
+          "text": "स्तुतं स्तुत्यं स्तूयमानममोघं चर्मवाससम् ।\nविलोहितं नीलकण्ठमपृक्तं दुर्निवारणम् ॥",
+          "meaning": {
+            "en": "To the praised, the worthy of praise, the ever-praised, the infallible, clad in hide, the deep red, blue-necked, untouched, impossible to turn aside."
+          }
         },
         {
           "n": 7,
-          "text": "शुक्रं विश्वसृजं ब्रह्म ब्रह्मचारिणमेव च ।\nव्रतवन्तं तपोनित्यमनन्तं तपतां गतिम् ॥"
+          "text": "शुक्रं विश्वसृजं ब्रह्म ब्रह्मचारिणमेव च ।\nव्रतवन्तं तपोनित्यमनन्तं तपतां गतिम् ॥",
+          "meaning": {
+            "en": "The bright one, creator of the universe, the Brahman, the celibate, the keeper of vows, ever in austerity, the endless, the goal of ascetics."
+          }
         },
         {
           "n": 8,
-          "text": "बहुरूपं गणाध्यक्षं त्र्यक्षं पारिषदप्रियम् ।\nगणाध्यक्षेक्षितमुखं गौरीहृदयवल्लभम् ॥"
+          "text": "बहुरूपं गणाध्यक्षं त्र्यक्षं पारिषदप्रियम् ।\nगणाध्यक्षेक्षितमुखं गौरीहृदयवल्लभम् ॥",
+          "meaning": {
+            "en": "The many-formed lord of hosts, the three-eyed, dear to his attendants, whose face is watched by the leader of his hosts, the beloved of Gauri's heart."
+          }
         },
         {
           "n": 9,
-          "text": "कुमारपितरं पिङ्गं गोवृषोत्तमवाहनम् ।\nतनुवाससमत्युग्रमुमाभूषणतत्परम् ॥"
+          "text": "कुमारपितरं पिङ्गं गोवृषोत्तमवाहनम् ।\nतनुवाससमत्युग्रमुमाभूषणतत्परम् ॥",
+          "meaning": {
+            "en": "The father of Kumara, the tawny one, whose mount is the best of bulls, thinly clad, utterly fierce, intent on adorning Uma."
+          }
         },
         {
           "n": 10,
-          "text": "परं परेभ्यः परमं परं यस्मान्न विद्यते ।\nइष्वस्त्रोत्तमभर्तारं दिगन्तं चैव दक्षिणम् ॥"
+          "text": "परं परेभ्यः परमं परं यस्मान्न विद्यते ।\nइष्वस्त्रोत्तमभर्तारं दिगन्तं चैव दक्षिणम् ॥",
+          "meaning": {
+            "en": "Higher than the highest, beyond whom there is none higher, the lord of the best arrows and missiles, the one who fills the ends of the quarters, the favorable."
+          }
         },
         {
           "n": 11,
-          "text": "हिरण्यकवचं देवं चन्द्रमौलिविभूषितम् ।\nप्रपद्ये शरणं देवं परमेण समाधिना ॥"
+          "text": "हिरण्यकवचं देवं चन्द्रमौलिविभूषितम् ।\nप्रपद्ये शरणं देवं परमेण समाधिना ॥",
+          "meaning": {
+            "en": "Him, the god in golden armor, adorned with the moon on his crown, I approach as refuge with deepest concentration."
+          }
         },
         {
           "n": 12,
-          "text": "इमां चाप्यापदं घोरां तराम्यद्य सुदुस्तराम् ।\nसर्वभूतोपहारेण यक्ष्येऽहं शुचिना शुचिम् ॥"
+          "text": "इमां चाप्यापदं घोरां तराम्यद्य सुदुस्तराम् ।\nसर्वभूतोपहारेण यक्ष्येऽहं शुचिना शुचिम् ॥",
+          "meaning": {
+            "en": "Today I cross this dreadful, hard-to-cross calamity; pure myself, I will sacrifice to the pure one with an offering of all beings."
+          }
         },
         {
           "n": 13,
-          "text": "इति तस्य व्यवसितं ज्ञात्वा त्यागात्मकं मनः ।\nपुरस्तात्काञ्चनी वेदिः प्रादुरासीन्महात्मनः ॥"
+          "text": "इति तस्य व्यवसितं ज्ञात्वा त्यागात्मकं मनः ।\nपुरस्तात्काञ्चनी वेदिः प्रादुरासीन्महात्मनः ॥",
+          "meaning": {
+            "en": "Knowing that resolve of the great-souled man, his mind ready for self-sacrifice, a golden altar appeared before him."
+          }
         },
         {
           "n": 14,
-          "text": "तस्यां वेद्यां तदा राजंश्चित्रभानुरजायत ।\nद्यां दिशो विदिशः खं च ज्वालाभिरभिपूरयन् ॥"
+          "text": "तस्यां वेद्यां तदा राजंश्चित्रभानुरजायत ।\nद्यां दिशो विदिशः खं च ज्वालाभिरभिपूरयन् ॥",
+          "meaning": {
+            "en": "On that altar then, O king, a fire arose, filling the sky, the directions, the intermediate directions and the heavens with its flames."
+          }
         },
         {
           "n": 15,
-          "text": "दीप्तास्यनयनाश्चात्र नैकपादशिरोभुजाः ।\nद्विपशैलप्रतीकाशाः प्रादुरासन्महाननाः ॥"
+          "text": "दीप्तास्यनयनाश्चात्र नैकपादशिरोभुजाः ।\nद्विपशैलप्रतीकाशाः प्रादुरासन्महाननाः ॥",
+          "meaning": {
+            "en": "Blazing-faced, blazing-eyed beings appeared there, with many feet, heads and arms, huge-mouthed, looking like elephants and mountains."
+          }
         },
         {
           "n": 16,
-          "text": "श्ववराहोष्ट्ररूपाश्च हयगोमायुगोमुखाः ।\nऋक्षमार्जारवदना व्याघ्रद्वीपिमुखास्तथा ॥"
+          "text": "श्ववराहोष्ट्ररूपाश्च हयगोमायुगोमुखाः ।\nऋक्षमार्जारवदना व्याघ्रद्वीपिमुखास्तथा ॥",
+          "meaning": {
+            "en": "Some had the forms of dogs, boars and camels, with faces of horses, jackals and cows, of bears and cats, of tigers and leopards."
+          }
         },
         {
           "n": 17,
-          "text": "काकवक्त्राः प्लवमुखाः शुकवक्त्रास्तथैव च ।\nमहाजगरवक्त्राश्च हंसवक्त्राः सितप्रभाः ॥"
+          "text": "काकवक्त्राः प्लवमुखाः शुकवक्त्रास्तथैव च ।\nमहाजगरवक्त्राश्च हंसवक्त्राः सितप्रभाः ॥",
+          "meaning": {
+            "en": "Some had crow faces, monkey faces, parrot faces, the faces of huge pythons, and swan faces, white and shining."
+          }
         },
         {
           "n": 18,
-          "text": "दार्वाघाटमुखाश्चैव चाषवक्त्राश्च भारत ।\nकूर्मनक्रमुखाश्चैव शिशुमारमुखास्तथा ॥"
+          "text": "दार्वाघाटमुखाश्चैव चाषवक्त्राश्च भारत ।\nकूर्मनक्रमुखाश्चैव शिशुमारमुखास्तथा ॥",
+          "meaning": {
+            "en": "Some had the faces of woodpeckers and blue jays, O Bharata, and of turtles, crocodiles and porpoises."
+          }
         },
         {
           "n": 19,
-          "text": "महामकरवक्त्राश्च तिमिवक्त्रास्तथैव च ।\nहरिवक्त्राः क्रौञ्चमुखाः कपोतेभमुखास्तथा ॥"
+          "text": "महामकरवक्त्राश्च तिमिवक्त्रास्तथैव च ।\nहरिवक्त्राः क्रौञ्चमुखाः कपोतेभमुखास्तथा ॥",
+          "meaning": {
+            "en": "Some had the faces of great sea monsters and whales, of lions, curlews, and of pigeons and elephants."
+          }
         },
         {
           "n": 20,
-          "text": "पारावतमुखाश्चैव मद्गुवक्त्रास्तथैव च ।\nपाणिकर्णाः सहस्राक्षास्तथैव च शतोदराः ॥"
+          "text": "पारावतमुखाश्चैव मद्गुवक्त्रास्तथैव च ।\nपाणिकर्णाः सहस्राक्षास्तथैव च शतोदराः ॥",
+          "meaning": {
+            "en": "Some had dove faces and cormorant faces; some had hands for ears, a thousand eyes, or a hundred bellies."
+          }
         },
         {
           "n": 21,
-          "text": "निर्मांसाः कोकवक्त्राश्च श्येनवक्त्राश्च भारत ।\nतथैवाशिरसो राजन्नृक्षवक्त्राश्च भीषणाः ॥"
+          "text": "निर्मांसाः कोकवक्त्राश्च श्येनवक्त्राश्च भारत ।\nतथैवाशिरसो राजन्नृक्षवक्त्राश्च भीषणाः ॥",
+          "meaning": {
+            "en": "Some were fleshless, with ruddy-goose faces and hawk faces, O Bharata; and some, O king, were headless, others bear-faced and frightful."
+          }
         },
         {
           "n": 22,
-          "text": "प्रदीप्तनेत्रजिह्वाश्च ज्वालावक्त्रास्तथैव च ।\nमेषवक्त्रास्तथैवान्ये तथा छागमुखा नृप ॥"
+          "text": "प्रदीप्तनेत्रजिह्वाश्च ज्वालावक्त्रास्तथैव च ।\nमेषवक्त्रास्तथैवान्ये तथा छागमुखा नृप ॥",
+          "meaning": {
+            "en": "Some had blazing eyes and tongues, or mouths of flame; others had ram faces, and others goat faces, O king."
+          }
         },
         {
           "n": 23,
-          "text": "शङ्खाभाः शङ्खवक्त्राश्च शङ्खकर्णास्तथैव च ।\nशङ्खमालापरिकराः शङ्खध्वनिसमस्वनाः ॥"
+          "text": "शङ्खाभाः शङ्खवक्त्राश्च शङ्खकर्णास्तथैव च ।\nशङ्खमालापरिकराः शङ्खध्वनिसमस्वनाः ॥",
+          "meaning": {
+            "en": "Some were conch-colored, conch-faced and conch-eared, wearing garlands of conch shells and sounding like conches."
+          }
         },
         {
           "n": 24,
-          "text": "जटाधराः पञ्चशिखास्तथा मुण्डाः कृशोदराः ।\nचतुर्दंष्ट्राश्चतुर्जिह्वाः शङ्कुकर्णाः किरीटिनः ॥"
+          "text": "जटाधराः पञ्चशिखास्तथा मुण्डाः कृशोदराः ।\nचतुर्दंष्ट्राश्चतुर्जिह्वाः शङ्कुकर्णाः किरीटिनः ॥",
+          "meaning": {
+            "en": "Some had matted hair or five tufts, were shaven or lean-bellied, had four tusks and four tongues, stake-like ears and crowns."
+          }
         },
         {
           "n": 25,
-          "text": "मौलीधराश्च राजेन्द्र तथाकुञ्चितमूर्धजाः ।\nउष्णीषिणो मुकुटिनश्चारुवक्त्राः स्वलंकृताः ॥"
+          "text": "मौलीधराश्च राजेन्द्र तथाकुञ्चितमूर्धजाः ।\nउष्णीषिणो मुकुटिनश्चारुवक्त्राः स्वलंकृताः ॥",
+          "meaning": {
+            "en": "Lord of kings, some wore crests, had curled hair, turbans and diadems, with lovely faces and fine ornaments."
+          }
         },
         {
           "n": 26,
-          "text": "पद्मोत्पलापीडधरास्तथा कुमुदधारिणः ।\nमाहात्म्येन च संयुक्ताः शतशोऽथ सहस्रशः ॥"
+          "text": "पद्मोत्पलापीडधरास्तथा कुमुदधारिणः ।\nमाहात्म्येन च संयुक्ताः शतशोऽथ सहस्रशः ॥",
+          "meaning": {
+            "en": "Some wore lotus and lily wreaths and carried water lilies; they were endowed with greatness, by hundreds and thousands."
+          }
         },
         {
           "n": 27,
-          "text": "शतघ्नीचक्रहस्ताश्च तथा मुसलपाणयः ।\nभुशुण्डीपाशहस्ताश्च गदाहस्ताश्च भारत ॥"
+          "text": "शतघ्नीचक्रहस्ताश्च तथा मुसलपाणयः ।\nभुशुण्डीपाशहस्ताश्च गदाहस्ताश्च भारत ॥",
+          "meaning": {
+            "en": "Some held shataghnis and discs, others clubs, bhushundis and nooses, and others maces, O Bharata."
+          }
         },
         {
           "n": 28,
-          "text": "पृष्ठेषु बद्धेषुधयश्चित्रबाणा रणोत्कटाः ।\nसध्वजाः सपताकाश्च सघण्टाः सपरश्वधाः ॥"
+          "text": "पृष्ठेषु बद्धेषुधयश्चित्रबाणा रणोत्कटाः ।\nसध्वजाः सपताकाश्च सघण्टाः सपरश्वधाः ॥",
+          "meaning": {
+            "en": "Their quivers were bound on their backs, with varied arrows, they were fierce for battle, with banners and flags, bells and battle-axes."
+          }
         },
         {
           "n": 29,
-          "text": "महापाशोद्यतकरास्तथा लगुडपाणयः ।\nस्थूणाहस्ताः खड्गहस्ताः सर्पोच्छ्रितकिरीटिनः ।\nमहासर्पाङ्गदधराश्चित्राभरणधारिणः ॥"
+          "text": "महापाशोद्यतकरास्तथा लगुडपाणयः ।\nस्थूणाहस्ताः खड्गहस्ताः सर्पोच्छ्रितकिरीटिनः ।\nमहासर्पाङ्गदधराश्चित्राभरणधारिणः ॥",
+          "meaning": {
+            "en": "Some raised great nooses, some carried staves, posts or swords; some had cobras rising in their crowns, great serpents as armlets, and wore varied jewels."
+          }
         },
         {
           "n": 30,
-          "text": "रजोध्वस्ताः पङ्कदिग्धाः सर्वे शुक्लाम्बरस्रजः ।\nनीलाङ्गाः कमलाङ्गाश्च मुण्डवक्त्रास्तथैव च ॥"
+          "text": "रजोध्वस्ताः पङ्कदिग्धाः सर्वे शुक्लाम्बरस्रजः ।\nनीलाङ्गाः कमलाङ्गाश्च मुण्डवक्त्रास्तथैव च ॥",
+          "meaning": {
+            "en": "They were dusty and smeared with mud, all in white robes and garlands; some were blue-limbed, some lotus-limbed, some shaven-faced."
+          }
         },
         {
           "n": 31,
-          "text": "भेरीशङ्खमृदङ्गांस्ते झर्झरानकगोमुखान् ।\nअवादयन्पारिषदाः प्रहृष्टाः कनकप्रभाः ॥"
+          "text": "भेरीशङ्खमृदङ्गांस्ते झर्झरानकगोमुखान् ।\nअवादयन्पारिषदाः प्रहृष्टाः कनकप्रभाः ॥",
+          "meaning": {
+            "en": "Those joyous attendants, shining like gold, played kettledrums, conches, mridangas, jharjharas, anakas and cow-horns."
+          }
         },
         {
           "n": 32,
-          "text": "गायमानास्तथैवान्ये नृत्यमानास्तथापरे ।\nलङ्घयन्तः प्लवन्तश्च वल्गन्तश्च महाबलाः ॥"
+          "text": "गायमानास्तथैवान्ये नृत्यमानास्तथापरे ।\nलङ्घयन्तः प्लवन्तश्च वल्गन्तश्च महाबलाः ॥",
+          "meaning": {
+            "en": "Others sang, others danced, and the mighty ones leaped, jumped and pranced about."
+          }
         },
         {
           "n": 33,
-          "text": "धावन्तो जवनाश्चण्डाः पवनोद्धूतमूर्धजाः ।\nमत्ता इव महानागा विनदन्तो मुहुर्मुहुः ॥"
+          "text": "धावन्तो जवनाश्चण्डाः पवनोद्धूतमूर्धजाः ।\nमत्ता इव महानागा विनदन्तो मुहुर्मुहुः ॥",
+          "meaning": {
+            "en": "Swift and fierce, with hair tossed in the wind, they ran, bellowing again and again like maddened great elephants."
+          }
         },
         {
           "n": 34,
-          "text": "सुभीमा घोररूपाश्च शूलपट्टिशपाणयः ।\nनानाविरागवसनाश्चित्रमाल्यानुलेपनाः ॥"
+          "text": "सुभीमा घोररूपाश्च शूलपट्टिशपाणयः ।\nनानाविरागवसनाश्चित्रमाल्यानुलेपनाः ॥",
+          "meaning": {
+            "en": "Fearsome and dreadful in form, they carried spears and pattishas, wore clothes of many dyes, and were decked with varied garlands and ointments."
+          }
         },
         {
           "n": 35,
-          "text": "रत्नचित्राङ्गदधराः समुद्यतकरास्तथा ।\nहन्तारो द्विषतां शूराः प्रसह्यासह्यविक्रमाः ॥"
+          "text": "रत्नचित्राङ्गदधराः समुद्यतकरास्तथा ।\nहन्तारो द्विषतां शूराः प्रसह्यासह्यविक्रमाः ॥",
+          "meaning": {
+            "en": "Wearing gem-studded armlets, with weapons raised, they were heroes, slayers of enemies, whose might was irresistible and overwhelming."
+          }
         },
         {
           "n": 36,
-          "text": "पातारोऽसृग्वसाद्यानां मांसान्त्रकृतभोजनाः ।\nचूडालाः कर्णिकालाश्च प्रकृशाः पिठरोदराः ॥"
+          "text": "पातारोऽसृग्वसाद्यानां मांसान्त्रकृतभोजनाः ।\nचूडालाः कर्णिकालाश्च प्रकृशाः पिठरोदराः ॥",
+          "meaning": {
+            "en": "They were drinkers of blood and fat, who made meals of flesh and entrails; some had crests, some earrings, some were very lean, some pot-bellied."
+          }
         },
         {
           "n": 37,
-          "text": "अतिह्रस्वातिदीर्घाश्च प्रबलाश्चातिभैरवाः ।\nविकटाः काललम्बोष्ठा बृहच्छेफास्थिपिण्डिकाः ॥"
+          "text": "अतिह्रस्वातिदीर्घाश्च प्रबलाश्चातिभैरवाः ।\nविकटाः काललम्बोष्ठा बृहच्छेफास्थिपिण्डिकाः ॥",
+          "meaning": {
+            "en": "Some were very short or very tall, some very strong and very terrible, grotesque, with lips hanging like death, with large organs and bony lumps."
+          }
         },
         {
           "n": 38,
-          "text": "महार्हनानामुकुटा मुण्डाश्च जटिलाः परे ।\nसार्केन्दुग्रहनक्षत्रां द्यां कुर्युर्ये महीतले ॥"
+          "text": "महार्हनानामुकुटा मुण्डाश्च जटिलाः परे ।\nसार्केन्दुग्रहनक्षत्रां द्यां कुर्युर्ये महीतले ॥",
+          "meaning": {
+            "en": "Some wore many costly crowns, others were shaven or matted; they could set the sky with its sun, moon, planets and stars upon the earth."
+          }
         },
         {
           "n": 39,
-          "text": "उत्सहेरंश्च ये हन्तुं भूतग्रामं चतुर्विधम् ।\nये च वीतभया नित्यं हरस्य भ्रुकुटीभटाः ॥"
+          "text": "उत्सहेरंश्च ये हन्तुं भूतग्रामं चतुर्विधम् ।\nये च वीतभया नित्यं हरस्य भ्रुकुटीभटाः ॥",
+          "meaning": {
+            "en": "They could slay the whole fourfold host of beings, and they were ever fearless, warriors at the frown of Hara."
+          }
         },
         {
           "n": 40,
-          "text": "कामकारकराः सिद्धास्त्रैलोक्यस्येश्वरेश्वराः ।\nनित्यानन्दप्रमुदिता वागीशा वीतमत्सराः ॥"
+          "text": "कामकारकराः सिद्धास्त्रैलोक्यस्येश्वरेश्वराः ।\nनित्यानन्दप्रमुदिता वागीशा वीतमत्सराः ॥",
+          "meaning": {
+            "en": "Perfected beings who did as they pleased, lords of the lords of the three worlds, ever blissful and glad, masters of speech and free of envy,"
+          }
         },
         {
           "n": 41,
-          "text": "प्राप्याष्टगुणमैश्वर्यं ये न यान्ति च विस्मयम् ।\nयेषां विस्मयते नित्यं भगवान्कर्मभिर्हरः ॥"
+          "text": "प्राप्याष्टगुणमैश्वर्यं ये न यान्ति च विस्मयम् ।\nयेषां विस्मयते नित्यं भगवान्कर्मभिर्हरः ॥",
+          "meaning": {
+            "en": "who, having attained the eightfold lordship, felt no pride, and at whose deeds the lord Hara himself is ever amazed."
+          }
         },
         {
           "n": 42,
-          "text": "मनोवाक्कर्मभिर्भक्तैर्नित्यमाराधितश्च यैः ।\nमनोवाक्कर्मभिर्भक्तान्पाति पुत्रानिवौरसान् ॥"
+          "text": "मनोवाक्कर्मभिर्भक्तैर्नित्यमाराधितश्च यैः ।\nमनोवाक्कर्मभिर्भक्तान्पाति पुत्रानिवौरसान् ॥",
+          "meaning": {
+            "en": "Constantly worshipped by devotees in thought, word and deed, he protects his devotees in thought, word and deed as if they were sons of his own body."
+          }
         },
         {
           "n": 43,
-          "text": "पिबन्तोऽसृग्वसास्त्वन्ये क्रुद्धा ब्रह्मद्विषां सदा ।\nचतुर्विंशात्मकं सोमं ये पिबन्ति च नित्यदा ॥"
+          "text": "पिबन्तोऽसृग्वसास्त्वन्ये क्रुद्धा ब्रह्मद्विषां सदा ।\nचतुर्विंशात्मकं सोमं ये पिबन्ति च नित्यदा ॥",
+          "meaning": {
+            "en": "Others, always angered at haters of brahmins, drank blood and fat; and some always drank the Soma of twenty-four parts."
+          }
         },
         {
           "n": 44,
-          "text": "श्रुतेन ब्रह्मचर्येण तपसा च दमेन च ।\nये समाराध्य शूलाङ्कं भवसायुज्यमागताः ॥"
+          "text": "श्रुतेन ब्रह्मचर्येण तपसा च दमेन च ।\nये समाराध्य शूलाङ्कं भवसायुज्यमागताः ॥",
+          "meaning": {
+            "en": "Through learning, celibacy, austerity and self-control, having worshipped the trident-marked god, they had attained union with Bhava."
+          }
         },
         {
           "n": 45,
-          "text": "यैरात्मभूतैर्भगवान्पार्वत्या च महेश्वरः ।\nसह भूतगणान्भुङ्क्ते भूतभव्यभवत्प्रभुः ॥"
+          "text": "यैरात्मभूतैर्भगवान्पार्वत्या च महेश्वरः ।\nसह भूतगणान्भुङ्क्ते भूतभव्यभवत्प्रभुः ॥",
+          "meaning": {
+            "en": "With those who were his own essence, the lord Maheshvara and Parvati enjoy the hosts of beings, he who is master of past, future and present."
+          }
         },
         {
           "n": 46,
-          "text": "नानाविचित्रहसितक्ष्वेडितोत्क्रुष्टगर्जितैः ।\nसंनादयन्तस्ते विश्वमश्वत्थामानमभ्ययुः ॥"
+          "text": "नानाविचित्रहसितक्ष्वेडितोत्क्रुष्टगर्जितैः ।\nसंनादयन्तस्ते विश्वमश्वत्थामानमभ्ययुः ॥",
+          "meaning": {
+            "en": "With many strange laughs, hisses, shouts and roars, filling the universe with sound, they came toward Ashvatthaman."
+          }
         },
         {
           "n": 47,
-          "text": "संस्तुवन्तो महादेवं भाः कुर्वाणाः सुवर्चसः ।\nविवर्धयिषवो द्रौणेर्महिमानं महात्मनः ॥"
+          "text": "संस्तुवन्तो महादेवं भाः कुर्वाणाः सुवर्चसः ।\nविवर्धयिषवो द्रौणेर्महिमानं महात्मनः ॥",
+          "meaning": {
+            "en": "Praising Mahadeva and shining with radiance, they wished to increase the glory of the great-souled son of Drona."
+          }
         },
         {
           "n": 48,
-          "text": "जिज्ञासमानास्तत्तेजः सौप्तिकं च दिदृक्षवः ।\nभीमोग्रपरिघालातशूलपट्टिशपाणयः ।\nघोररूपाः समाजग्मुर्भूतसंघाः समन्ततः ॥"
+          "text": "जिज्ञासमानास्तत्तेजः सौप्तिकं च दिदृक्षवः ।\nभीमोग्रपरिघालातशूलपट्टिशपाणयः ।\nघोररूपाः समाजग्मुर्भूतसंघाः समन्ततः ॥",
+          "meaning": {
+            "en": "Wishing to see his strength and the night attack, they came from all sides, hosts of beings of dreadful form, holding fearsome spiked clubs, firebrands, spears and pattishas."
+          }
         },
         {
           "n": 49,
-          "text": "जनयेयुर्भयं ये स्म त्रैलोक्यस्यापि दर्शनात् ।\nतान्प्रेक्षमाणोऽपि व्यथां न चकार महाबलः ॥"
+          "text": "जनयेयुर्भयं ये स्म त्रैलोक्यस्यापि दर्शनात् ।\nतान्प्रेक्षमाणोऽपि व्यथां न चकार महाबलः ॥",
+          "meaning": {
+            "en": "Even the sight of them would bring fear to the three worlds; yet the mighty one was not shaken as he looked at them."
+          }
         },
         {
           "n": 50,
-          "text": "अथ द्रौणिर्धनुष्पाणिर्बद्धगोधाङ्गुलित्रवान् ।\nस्वयमेवात्मनात्मानमुपहारमुपाहरत् ॥"
+          "text": "अथ द्रौणिर्धनुष्पाणिर्बद्धगोधाङ्गुलित्रवान् ।\nस्वयमेवात्मनात्मानमुपहारमुपाहरत् ॥",
+          "meaning": {
+            "en": "Then the son of Drona, bow in hand, with finger-guards of iguana skin bound on, offered himself, by himself, as the oblation."
+          }
         },
         {
           "n": 51,
-          "text": "धनूंषि समिधस्तत्र पवित्राणि शिताः शराः ।\nहविरात्मवतश्चात्मा तस्मिन्भारत कर्मणि ॥"
+          "text": "धनूंषि समिधस्तत्र पवित्राणि शिताः शराः ।\nहविरात्मवतश्चात्मा तस्मिन्भारत कर्मणि ॥",
+          "meaning": {
+            "en": "Bows were the fuel-sticks there, sharp arrows the purifying grass, and the offering, O Bharata, was the self-possessed man's own self in that rite."
+          }
         },
         {
           "n": 52,
-          "text": "ततः सौम्येन मन्त्रेण द्रोणपुत्रः प्रतापवान् ।\nउपहारं महामन्युरथात्मानमुपाहरत् ॥"
+          "text": "ततः सौम्येन मन्त्रेण द्रोणपुत्रः प्रतापवान् ।\nउपहारं महामन्युरथात्मानमुपाहरत् ॥",
+          "meaning": {
+            "en": "Then the glorious son of Drona, in great fury, offered himself as the oblation with a gentle mantra."
+          }
         },
         {
           "n": 53,
-          "text": "तं रुद्रं रौद्रकर्माणं रौद्रैः कर्मभिरच्युतम् ।\nअभिष्टुत्य महात्मानमित्युवाच कृताञ्जलिः ॥"
+          "text": "तं रुद्रं रौद्रकर्माणं रौद्रैः कर्मभिरच्युतम् ।\nअभिष्टुत्य महात्मानमित्युवाच कृताञ्जलिः ॥",
+          "meaning": {
+            "en": "Having praised Rudra, great-souled and unfailing, of terrible deeds, with Rudra's own terrible deeds, he spoke with joined palms."
+          }
         },
         {
           "n": 54,
-          "text": "इममात्मानमद्याहं जातमाङ्गिरसे कुले ।\nअग्नौ जुहोमि भगवन्प्रतिगृह्णीष्व मां बलिम् ॥"
+          "text": "इममात्मानमद्याहं जातमाङ्गिरसे कुले ।\nअग्नौ जुहोमि भगवन्प्रतिगृह्णीष्व मां बलिम् ॥",
+          "meaning": {
+            "en": "Born in the family of Angiras, I offer this self into the fire today, lord; accept me as your offering."
+          }
         },
         {
           "n": 55,
-          "text": "भवद्भक्त्या महादेव परमेण समाधिना ।\nअस्यामापदि विश्वात्मन्नुपाकुर्मि तवाग्रतः ॥"
+          "text": "भवद्भक्त्या महादेव परमेण समाधिना ।\nअस्यामापदि विश्वात्मन्नुपाकुर्मि तवाग्रतः ॥",
+          "meaning": {
+            "en": "Out of devotion to you, Mahadeva, with deepest concentration, soul of the universe, in this calamity I make this offering before you."
+          }
         },
         {
           "n": 56,
-          "text": "त्वयि सर्वाणि भूतानि सर्वभूतेषु चासि वै ।\nगुणानां हि प्रधानानामेकत्वं त्वयि तिष्ठति ॥"
+          "text": "त्वयि सर्वाणि भूतानि सर्वभूतेषु चासि वै ।\nगुणानां हि प्रधानानामेकत्वं त्वयि तिष्ठति ॥",
+          "meaning": {
+            "en": "All beings are in you and you are in all beings; in you the oneness of the primal qualities abides."
+          }
         },
         {
           "n": 57,
-          "text": "सर्वभूताशय विभो हविर्भूतमुपस्थितम् ।\nप्रतिगृहाण मां देव यद्यशक्याः परे मया ॥"
+          "text": "सर्वभूताशय विभो हविर्भूतमुपस्थितम् ।\nप्रतिगृहाण मां देव यद्यशक्याः परे मया ॥",
+          "meaning": {
+            "en": "Lord, dwelling in the hearts of all beings, here stands the offering made ready; accept me, god, if the enemies cannot be mastered by me."
+          }
         },
         {
           "n": 58,
-          "text": "इत्युक्त्वा द्रौणिरास्थाय तां वेदीं दीप्तपावकाम् ।\nसंत्यक्तात्मा समारुह्य कृष्णवर्त्मन्युपाविशत् ॥"
+          "text": "इत्युक्त्वा द्रौणिरास्थाय तां वेदीं दीप्तपावकाम् ।\nसंत्यक्तात्मा समारुह्य कृष्णवर्त्मन्युपाविशत् ॥",
+          "meaning": {
+            "en": "Having said this, the son of Drona climbed onto that altar with its blazing fire, gave up his body to it and sat down in the path of the black-trailed fire."
+          }
         },
         {
           "n": 59,
-          "text": "तमूर्ध्वबाहुं निश्चेष्टं दृष्ट्वा हविरुपस्थितम् ।\nअब्रवीद्भगवान्साक्षान्महादेवो हसन्निव ॥"
+          "text": "तमूर्ध्वबाहुं निश्चेष्टं दृष्ट्वा हविरुपस्थितम् ।\nअब्रवीद्भगवान्साक्षान्महादेवो हसन्निव ॥",
+          "meaning": {
+            "en": "Seeing him motionless with arms raised, offered as the oblation, the lord Mahadeva himself spoke, as if smiling."
+          }
         },
         {
           "n": 60,
-          "text": "सत्यशौचार्जवत्यागैस्तपसा नियमेन च ।\nक्षान्त्या भक्त्या च धृत्या च बुद्ध्या च वचसा तथा ॥"
+          "text": "सत्यशौचार्जवत्यागैस्तपसा नियमेन च ।\nक्षान्त्या भक्त्या च धृत्या च बुद्ध्या च वचसा तथा ॥",
+          "meaning": {
+            "en": "By truth, purity, uprightness, renunciation, austerity and discipline, by patience, devotion, steadiness, intellect and speech,"
+          }
         },
         {
           "n": 61,
-          "text": "यथावदहमाराद्धः कृष्णेनाक्लिष्टकर्मणा ।\nतस्मादिष्टतमः कृष्णादन्यो मम न विद्यते ॥"
+          "text": "यथावदहमाराद्धः कृष्णेनाक्लिष्टकर्मणा ।\nतस्मादिष्टतमः कृष्णादन्यो मम न विद्यते ॥",
+          "meaning": {
+            "en": "I was properly worshipped by Krishna of untiring deeds; so no one other than Krishna is dearer to me."
+          }
         },
         {
           "n": 62,
-          "text": "कुर्वता तस्य संमानं त्वां च जिज्ञासता मया ।\nपाञ्चालाः सहसा गुप्ता मायाश्च बहुशः कृताः ॥"
+          "text": "कुर्वता तस्य संमानं त्वां च जिज्ञासता मया ।\nपाञ्चालाः सहसा गुप्ता मायाश्च बहुशः कृताः ॥",
+          "meaning": {
+            "en": "Honoring him, and wishing to test you, I protected the Panchalas suddenly and worked many illusions."
+          }
         },
         {
           "n": 63,
-          "text": "कृतस्तस्यैष संमानः पाञ्चालान्रक्षता मया ।\nअभिभूतास्तु कालेन नैषामद्यास्ति जीवितम् ॥"
+          "text": "कृतस्तस्यैष संमानः पाञ्चालान्रक्षता मया ।\nअभिभूतास्तु कालेन नैषामद्यास्ति जीवितम् ॥",
+          "meaning": {
+            "en": "This honor was done to him by me in guarding the Panchalas; but now they are overcome by time, and there is no life left in them today."
+          }
         },
         {
           "n": 64,
-          "text": "एवमुक्त्वा महेष्वासं भगवानात्मनस्तनुम् ।\nआविवेश ददौ चास्मै विमलं खड्गमुत्तमम् ॥"
+          "text": "एवमुक्त्वा महेष्वासं भगवानात्मनस्तनुम् ।\nआविवेश ददौ चास्मै विमलं खड्गमुत्तमम् ॥",
+          "meaning": {
+            "en": "Having spoken thus, the lord entered the body of the mighty archer and gave him a bright, excellent sword."
+          }
         },
         {
           "n": 65,
-          "text": "अथाविष्टो भगवता भूयो जज्वाल तेजसा ।\nवर्ष्मवांश्चाभवद्युद्धे देवसृष्टेन तेजसा ॥"
+          "text": "अथाविष्टो भगवता भूयो जज्वाल तेजसा ।\nवर्ष्मवांश्चाभवद्युद्धे देवसृष्टेन तेजसा ॥",
+          "meaning": {
+            "en": "Then, entered by the god, he blazed up again with brilliance, and in battle became radiant with the energy created by the god."
+          }
         },
         {
           "n": 66,
-          "text": "तमदृश्यानि भूतानि रक्षांसि च समाद्रवन् ।\nअभितः शत्रुशिबिरं यान्तं साक्षादिवेश्वरम् ॥"
+          "text": "तमदृश्यानि भूतानि रक्षांसि च समाद्रवन् ।\nअभितः शत्रुशिबिरं यान्तं साक्षादिवेश्वरम् ॥",
+          "meaning": {
+            "en": "Unseen beings and rakshasas ran along with him as he went toward the enemy camp, like the Lord himself."
+          }
         }
       ]
     }

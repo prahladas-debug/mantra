@@ -22,63 +22,108 @@
       "titleEn": "Strivilapa Parva (Lament of the women)",
       "verses": [
         {
-          "text": "गान्धार्युवाच"
+          "text": "गान्धार्युवाच",
+          "meaning": {
+            "en": "Gandhari said:"
+          }
         },
         {
           "n": 1,
-          "text": "एष वैकर्तनः शेते महेष्वासो महारथः ।\nज्वलितानलवत्संख्ये संशान्तः पार्थतेजसा ॥"
+          "text": "एष वैकर्तनः शेते महेष्वासो महारथः ।\nज्वलितानलवत्संख्ये संशान्तः पार्थतेजसा ॥",
+          "meaning": {
+            "en": "Here lies Vaikartana Karna, the great archer and great charioteer, quenched in battle by Partha's might like a blazing fire."
+          }
         },
         {
           "n": 2,
-          "text": "पश्य वैकर्तनं कर्णं निहत्यातिरथान्बहून् ।\nशोणितौघपरीताङ्गं शयानं पतितं भुवि ॥"
+          "text": "पश्य वैकर्तनं कर्णं निहत्यातिरथान्बहून् ।\nशोणितौघपरीताङ्गं शयानं पतितं भुवि ॥",
+          "meaning": {
+            "en": "Look at Vaikartana Karna, who killed many atharathas, lying fallen on the ground, his limbs covered in streams of blood."
+          }
         },
         {
           "n": 3,
-          "text": "अमर्षी दीर्घरोषश्च महेष्वासो महारथः ।\nरणे विनिहतः शेते शूरो गाण्डीवधन्वना ॥"
+          "text": "अमर्षी दीर्घरोषश्च महेष्वासो महारथः ।\nरणे विनिहतः शेते शूरो गाण्डीवधन्वना ॥",
+          "meaning": {
+            "en": "The intolerant, long-wrathful great archer, the hero, lies slain in battle by the wielder of Gandiva."
+          }
         },
         {
           "n": 4,
-          "text": "यं स्म पाण्डवसंत्रासान्मम पुत्रा महारथाः ।\nप्रायुध्यन्त पुरस्कृत्य मातङ्गा इव यूथपम् ॥"
+          "text": "यं स्म पाण्डवसंत्रासान्मम पुत्रा महारथाः ।\nप्रायुध्यन्त पुरस्कृत्य मातङ्गा इव यूथपम् ॥",
+          "meaning": {
+            "en": "My sons, great charioteers, fought putting him in front in fear of the Pandavas, like elephants with their leader."
+          }
         },
         {
           "n": 5,
-          "text": "शार्दूलमिव सिंहेन समरे सव्यसाचिना ।\nमातङ्गमिव मत्तेन मातङ्गेन निपातितम् ॥"
+          "text": "शार्दूलमिव सिंहेन समरे सव्यसाचिना ।\nमातङ्गमिव मत्तेन मातङ्गेन निपातितम् ॥",
+          "meaning": {
+            "en": "He was felled in battle by Savyasachin like a tiger by a lion, like an elephant by a rutting elephant."
+          }
         },
         {
           "n": 6,
-          "text": "समेताः पुरुषव्याघ्र निहतं शूरमाहवे ।\nप्रकीर्णमूर्धजाः पत्न्यो रुदत्यः पर्युपासते ॥"
+          "text": "समेताः पुरुषव्याघ्र निहतं शूरमाहवे ।\nप्रकीर्णमूर्धजाः पत्न्यो रुदत्यः पर्युपासते ॥",
+          "meaning": {
+            "en": "Tiger among men, his wives, gathered together with scattered hair, weep and attend the hero slain in battle."
+          }
         },
         {
           "n": 7,
-          "text": "उद्विग्नः सततं यस्माद्धर्मराजो युधिष्ठिरः ।\nत्रयोदश समा निद्रां चिन्तयन्नाध्यगच्छत ॥"
+          "text": "उद्विग्नः सततं यस्माद्धर्मराजो युधिष्ठिरः ।\nत्रयोदश समा निद्रां चिन्तयन्नाध्यगच्छत ॥",
+          "meaning": {
+            "en": "Because of him Dharmaraja Yudhishthira was constantly troubled and, brooding, found no sleep for thirteen years."
+          }
         },
         {
           "n": 8,
-          "text": "अनाधृष्यः परैर्युद्धे शत्रुभिर्मघवानिव ।\nयुगान्ताग्निरिवार्चिष्मान्हिमवानिव च स्थिरः ॥"
+          "text": "अनाधृष्यः परैर्युद्धे शत्रुभिर्मघवानिव ।\nयुगान्ताग्निरिवार्चिष्मान्हिमवानिव च स्थिरः ॥",
+          "meaning": {
+            "en": "Unassailable in battle by enemies like Indra, blazing like the fire at the end of an age and steady as the Himalaya,"
+          }
         },
         {
           "n": 9,
-          "text": "स भूत्वा शरणं वीरो धार्तराष्ट्रस्य माधव ।\nभूमौ विनिहतः शेते वातरुग्ण इव द्रुमः ॥"
+          "text": "स भूत्वा शरणं वीरो धार्तराष्ट्रस्य माधव ।\nभूमौ विनिहतः शेते वातरुग्ण इव द्रुमः ॥",
+          "meaning": {
+            "en": "that hero, Madhava, who was the refuge of Dhritarashtra's son, lies slain on the ground like a tree broken by the wind."
+          }
         },
         {
           "n": 10,
-          "text": "पश्य कर्णस्य पत्नीं त्वं वृषसेनस्य मातरम् ।\nलालप्यमानाः करुणं रुदतीं पतितां भुवि ॥"
+          "text": "पश्य कर्णस्य पत्नीं त्वं वृषसेनस्य मातरम् ।\nलालप्यमानाः करुणं रुदतीं पतितां भुवि ॥",
+          "meaning": {
+            "en": "Look at Karna's wife, the mother of Vrishasena, lamenting piteously, weeping and fallen on the ground."
+          }
         },
         {
           "n": 11,
-          "text": "आचार्यशापोऽनुगतो ध्रुवं त्वां\nयदग्रसच्चक्रमियं धरा ते ।\nततः शरेणापहृतं शिरस्ते\nधनंजयेनाहवे शत्रुमध्ये ॥"
+          "text": "आचार्यशापोऽनुगतो ध्रुवं त्वां\nयदग्रसच्चक्रमियं धरा ते ।\nततः शरेणापहृतं शिरस्ते\nधनंजयेनाहवे शत्रुमध्ये ॥",
+          "meaning": {
+            "en": "\"Surely your teacher's curse followed you, since the earth swallowed your wheel; then Dhananjaya cut off your head with an arrow amid your enemies in battle.\""
+          }
         },
         {
           "n": 12,
-          "text": "अहो धिगेषा पतिता विसंज्ञा\nसमीक्ष्य जाम्बूनदबद्धनिष्कम् ।\nकर्णं महाबाहुमदीनसत्त्वं\nसुषेणमाता रुदती भृशार्ता ॥"
+          "text": "अहो धिगेषा पतिता विसंज्ञा\nसमीक्ष्य जाम्बूनदबद्धनिष्कम् ।\nकर्णं महाबाहुमदीनसत्त्वं\nसुषेणमाता रुदती भृशार्ता ॥",
+          "meaning": {
+            "en": "Alas, shame! Here this woman has fallen senseless, seeing mighty-armed, undaunted Karna wearing his gold-bound necklace. Sushena's mother weeps, deeply afflicted."
+          }
         },
         {
           "n": 13,
-          "text": "अल्पावशेषो हि कृतो महात्मा\nशरीरभक्षैः परिभक्षयद्भिः ।\nद्रष्टुं न संप्रीतिकरः शशीव\nकृष्णश्य पक्षस्य चतुर्दशाहे ॥"
+          "text": "अल्पावशेषो हि कृतो महात्मा\nशरीरभक्षैः परिभक्षयद्भिः ।\nद्रष्टुं न संप्रीतिकरः शशीव\nकृष्णश्य पक्षस्य चतुर्दशाहे ॥",
+          "meaning": {
+            "en": "The great one was left with little remaining, eaten away by the body-devouring creatures, and not pleasing to behold, like the moon on the fourteenth day of the dark fortnight."
+          }
         },
         {
           "n": 14,
-          "text": "सावर्तमाना पतिता पृथिव्या-\nमुत्थाय दीना पुनरेव चैषा ।\nकर्णस्य वक्त्रं परिजिघ्रमाणा\nरोरूयते पुत्रवधाभितप्ता ॥"
+          "text": "सावर्तमाना पतिता पृथिव्या-\nमुत्थाय दीना पुनरेव चैषा ।\nकर्णस्य वक्त्रं परिजिघ्रमाणा\nरोरूयते पुत्रवधाभितप्ता ॥",
+          "meaning": {
+            "en": "Rolling on the ground, fallen, she rises again in distress, smelling Karna's face, and wails, burning with grief for his death."
+          }
         }
       ]
     }

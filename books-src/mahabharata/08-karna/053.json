@@ -22,63 +22,108 @@
       "titleEn": "Karna Parva",
       "verses": [
         {
-          "text": "संजय उवाच"
+          "text": "संजय उवाच",
+          "meaning": {
+            "en": "Sanjaya said:"
+          }
         },
         {
           "n": 1,
-          "text": "तेषामनीकानि बृहद्ध्वजानि\nरणे समृद्धानि समागतानि ।\nगर्जन्ति भेरीनिनदोन्मुखानि\nमेघैर्यथा मेघगणास्तपान्ते ॥"
+          "text": "तेषामनीकानि बृहद्ध्वजानि\nरणे समृद्धानि समागतानि ।\nगर्जन्ति भेरीनिनदोन्मुखानि\nमेघैर्यथा मेघगणास्तपान्ते ॥",
+          "meaning": {
+            "en": "Their armies with tall banners, rich in the battle, came together, roaring with the sound of drums, like clouds in a mass of clouds at the end of summer."
+          }
         },
         {
           "n": 2,
-          "text": "महागजाभ्राकुलमस्त्रतोयं\nवादित्रनेमीतलशब्दवच्च ।\nहिरण्यचित्रायुधवैद्युतं च\nमहारथैरावृतशब्दवच्च ॥"
+          "text": "महागजाभ्राकुलमस्त्रतोयं\nवादित्रनेमीतलशब्दवच्च ।\nहिरण्यचित्रायुधवैद्युतं च\nमहारथैरावृतशब्दवच्च ॥",
+          "meaning": {
+            "en": "It was crowded with great elephants like clouds, with weapons for rain, the beat of instruments for thunder, flashing with gold-adorned arms like lightning, and surrounded by great chariot-warriors who sounded like thunder."
+          }
         },
         {
           "n": 3,
-          "text": "तद्भीमवेगं रुधिरौघवाहि\nखड्गाकुलं क्षत्रियजीववाहि ।\nअनार्तवं क्रूरमनिष्टवर्षं\nबभूव तत्संहरणं प्रजानाम् ॥"
+          "text": "तद्भीमवेगं रुधिरौघवाहि\nखड्गाकुलं क्षत्रियजीववाहि ।\nअनार्तवं क्रूरमनिष्टवर्षं\nबभूव तत्संहरणं प्रजानाम् ॥",
+          "meaning": {
+            "en": "Terrible in its speed and carrying floods of blood, thick with swords and carrying away the lives of kshatriyas, out of season, cruel and raining ill fortune, that clash became a slaughter of the people."
+          }
         },
         {
           "n": 4,
-          "text": "रथान्ससूतान्सहयान्गजांश्च\nसर्वानरीन्मृत्युवशं शरौघैः ।\nनिन्ये हयांश्चैव तथा ससादी-\nन्पदातिसंघांश्च तथैव पार्थः ॥"
+          "text": "रथान्ससूतान्सहयान्गजांश्च\nसर्वानरीन्मृत्युवशं शरौघैः ।\nनिन्ये हयांश्चैव तथा ससादी-\nन्पदातिसंघांश्च तथैव पार्थः ॥",
+          "meaning": {
+            "en": "Partha sent chariots with their charioteers and horses, elephants, and all his enemies, with horses and riders and masses of foot soldiers, into the power of death with floods of arrows."
+          }
         },
         {
           "n": 5,
-          "text": "कृपः शिखण्डी च रणे समेतौ\nदुर्योधनं सात्यकिरभ्यगच्छत ।\nश्रुतश्रवा द्रोणसुतेन सार्धं\nयुधामन्युश्चित्रसेनेन चापि ॥"
+          "text": "कृपः शिखण्डी च रणे समेतौ\nदुर्योधनं सात्यकिरभ्यगच्छत ।\nश्रुतश्रवा द्रोणसुतेन सार्धं\nयुधामन्युश्चित्रसेनेन चापि ॥",
+          "meaning": {
+            "en": "Kripa and Shikhandin met in the battle. Satyaki went at Duryodhana. Shrutashrava met Drona's son, and Yudhamanyu met Chitrasena."
+          }
         },
         {
           "n": 6,
-          "text": "कर्णस्य पुत्रस्तु रथी सुषेणं\nसमागतः सृञ्जयांश्चोत्तमौजाः ।\nगान्धारराजं सहदेवः क्षुधार्तो\nमहर्षभं सिंह इवाभ्यधावत् ॥"
+          "text": "कर्णस्य पुत्रस्तु रथी सुषेणं\nसमागतः सृञ्जयांश्चोत्तमौजाः ।\nगान्धारराजं सहदेवः क्षुधार्तो\nमहर्षभं सिंह इवाभ्यधावत् ॥",
+          "meaning": {
+            "en": "Karna's son, the chariot-warrior, met Sushena, and Uttamaujas met the Srinjayas. Sahadeva, hungry as a lion, ran at the king of Gandhara, the great bull."
+          }
         },
         {
           "n": 7,
-          "text": "शतानीको नाकुलिः कर्णपुत्रं\nयुवा युवानं वृषसेनं शरौघैः ।\nसमार्दयत्कर्णसुतश्च वीरः\nपाञ्चालेयं शरवर्षैरनेकैः ॥"
+          "text": "शतानीको नाकुलिः कर्णपुत्रं\nयुवा युवानं वृषसेनं शरौघैः ।\nसमार्दयत्कर्णसुतश्च वीरः\nपाञ्चालेयं शरवर्षैरनेकैः ॥",
+          "meaning": {
+            "en": "Shatanika, Nakula's son, a young man, tormented young Vrishasena, Karna's son, with floods of arrows, and Karna's heroic son pressed the Panchala with many showers of arrows."
+          }
         },
         {
           "n": 8,
-          "text": "रथर्षभः कृतवर्माणमार्च्छ-\nन्माद्रीपुत्रो नकुलश्चित्रयोधी ।\nपाञ्चालानामधिपो याज्ञसेनिः\nसेनापतिं कर्णमार्च्छत्ससैन्यम् ॥"
+          "text": "रथर्षभः कृतवर्माणमार्च्छ-\nन्माद्रीपुत्रो नकुलश्चित्रयोधी ।\nपाञ्चालानामधिपो याज्ञसेनिः\nसेनापतिं कर्णमार्च्छत्ससैन्यम् ॥",
+          "meaning": {
+            "en": "The bull among chariot-warriors, Madri's son Nakula, a wonderful fighter, met Kritavarman, and the Panchala prince, Yajnasena's son, with his army met Karna, the commander."
+          }
         },
         {
           "n": 9,
-          "text": "दुःशासनो भारत भारती च\nसंशप्तकानां पृतना समृद्धा ।\nभीमं रणे शस्त्रभृतां वरिष्ठं\nतदा समार्च्छत्तमसह्यवेगम् ॥"
+          "text": "दुःशासनो भारत भारती च\nसंशप्तकानां पृतना समृद्धा ।\nभीमं रणे शस्त्रभृतां वरिष्ठं\nतदा समार्च्छत्तमसह्यवेगम् ॥",
+          "meaning": {
+            "en": "Bharata, Duhshasana, and the army of the Samshaptakas, now strong, met Bhima in the battle, best of weapon-bearers, whose speed no one could bear."
+          }
         },
         {
           "n": 10,
-          "text": "कर्णात्मजं तत्र जघान शूर-\nस्तथाच्छिनच्चोत्तमौजाः प्रसह्य ।\nतस्योत्तमाङ्गं निपपात भूमौ\nनिनादयद्गां निनदेन खं च ॥"
+          "text": "कर्णात्मजं तत्र जघान शूर-\nस्तथाच्छिनच्चोत्तमौजाः प्रसह्य ।\nतस्योत्तमाङ्गं निपपात भूमौ\nनिनादयद्गां निनदेन खं च ॥",
+          "meaning": {
+            "en": "There the brave Uttamaujas by force killed Karna's son and cut off his head, which fell to the ground and made the earth and sky ring with its crash."
+          }
         },
         {
           "n": 11,
-          "text": "सुषेणशीर्षं पतितं पृथिव्यां\nविलोक्य कर्णोऽथ तदार्तरूपः ।\nक्रोधाद्धयांस्तस्य रथं ध्वजं च\nबाणैः सुधारैर्निशितैर्न्यकृन्तत् ॥"
+          "text": "सुषेणशीर्षं पतितं पृथिव्यां\nविलोक्य कर्णोऽथ तदार्तरूपः ।\nक्रोधाद्धयांस्तस्य रथं ध्वजं च\nबाणैः सुधारैर्निशितैर्न्यकृन्तत् ॥",
+          "meaning": {
+            "en": "Seeing Sushena's head fallen on the earth, Karna was stricken, and in anger cut down Uttamaujas's horses, chariot and banner with sharp, keen-edged arrows."
+          }
         },
         {
           "n": 12,
-          "text": "स तूत्तमौजा निशितैः पृषत्कै-\nर्विव्याध खड्गेन च भास्वरेण ।\nपार्ष्णिं हयांश्चैव कृपस्य हत्वा\nशिखण्डिवाहं स ततोऽभ्यरोहत् ॥"
+          "text": "स तूत्तमौजा निशितैः पृषत्कै-\nर्विव्याध खड्गेन च भास्वरेण ।\nपार्ष्णिं हयांश्चैव कृपस्य हत्वा\nशिखण्डिवाहं स ततोऽभ्यरोहत् ॥",
+          "meaning": {
+            "en": "Uttamaujas pierced Karna with sharp arrows and a shining sword. Having killed Kripa's rear guard and horses, he then climbed into Shikhandin's chariot."
+          }
         },
         {
           "n": 13,
-          "text": "कृपं तु दृष्ट्वा विरथं रथस्थो\nनैच्छच्छरैस्ताडयितुं शिखण्डी ।\nतं द्रौणिरावार्य रथं कृपं स्म\nसमुज्जह्रे पङ्कगतां यथा गाम् ॥"
+          "text": "कृपं तु दृष्ट्वा विरथं रथस्थो\nनैच्छच्छरैस्ताडयितुं शिखण्डी ।\nतं द्रौणिरावार्य रथं कृपं स्म\nसमुज्जह्रे पङ्कगतां यथा गाम् ॥",
+          "meaning": {
+            "en": "Seeing Kripa without a chariot, Shikhandin on his chariot did not want to strike him with arrows. Drona's son stopped Shikhandin and carried Kripa away, as one lifts a cow stuck in mud."
+          }
         },
         {
           "n": 14,
-          "text": "हिरण्यवर्मा निशितैः पृषत्कै-\nस्तवात्मजानामनिलात्मजो वै ।\nअतापयत्सैन्यमतीव भीमः\nकाले शुचौ मध्यगतो यथार्कः ॥"
+          "text": "हिरण्यवर्मा निशितैः पृषत्कै-\nस्तवात्मजानामनिलात्मजो वै ।\nअतापयत्सैन्यमतीव भीमः\nकाले शुचौ मध्यगतो यथार्कः ॥",
+          "meaning": {
+            "en": "Meanwhile Bhima, the wind's son, with sharp arrows, scorched your sons' army terribly, like the sun at midday in the heat of summer."
+          }
         }
       ]
     }

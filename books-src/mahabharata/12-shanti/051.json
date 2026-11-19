@@ -22,82 +22,142 @@
       "titleEn": "Rajadharma Parva (Duties of kings)",
       "verses": [
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 1,
-          "text": "श्रुत्वा तु वचनं भीष्मो वासुदेवस्य धीमतः ।\nकिंचिदुन्नाम्य वदनं प्राञ्जलिर्वाक्यमब्रवीत् ॥"
+          "text": "श्रुत्वा तु वचनं भीष्मो वासुदेवस्य धीमतः ।\nकिंचिदुन्नाम्य वदनं प्राञ्जलिर्वाक्यमब्रवीत् ॥",
+          "meaning": {
+            "en": "Hearing the words of wise Vasudeva, Bhishma raised his face a little and, with joined palms, spoke."
+          }
         },
         {
           "n": 2,
-          "text": "नमस्ते भगवन्विष्णो लोकानां निधनोद्भव ।\nत्वं हि कर्ता हृषीकेश संहर्ता चापराजितः ॥"
+          "text": "नमस्ते भगवन्विष्णो लोकानां निधनोद्भव ।\nत्वं हि कर्ता हृषीकेश संहर्ता चापराजितः ॥",
+          "meaning": {
+            "en": "Homage to you, blessed Vishnu, from whom the worlds arise and into whom they dissolve. You, Hrishikesha, are the maker and the unconquered destroyer."
+          }
         },
         {
           "n": 3,
-          "text": "विश्वकर्मन्नमस्तेऽस्तु विश्वात्मन्विश्वसंभव ।\nअपवर्गोऽसि भूतानां पञ्चानां परतः स्थितः ॥"
+          "text": "विश्वकर्मन्नमस्तेऽस्तु विश्वात्मन्विश्वसंभव ।\nअपवर्गोऽसि भूतानां पञ्चानां परतः स्थितः ॥",
+          "meaning": {
+            "en": "Homage to you, maker of the universe, soul of the universe, source of the universe. You are the final release of beings, standing beyond the five elements."
+          }
         },
         {
           "n": 4,
-          "text": "नमस्ते त्रिषु लोकेषु नमस्ते परतस्त्रिषु ।\nयोगेश्वर नमस्तेऽस्तु त्वं हि सर्वपरायणम् ॥"
+          "text": "नमस्ते त्रिषु लोकेषु नमस्ते परतस्त्रिषु ।\nयोगेश्वर नमस्तेऽस्तु त्वं हि सर्वपरायणम् ॥",
+          "meaning": {
+            "en": "Homage to you in the three worlds, homage to you beyond the three. Homage, lord of yoga, for you are the final refuge of all."
+          }
         },
         {
           "n": 5,
-          "text": "मत्संश्रितं यदात्थ त्वं वचः पुरुषसत्तम ।\nतेन पश्यामि ते दिव्यान्भावान्हि त्रिषु वर्त्मसु ॥"
+          "text": "मत्संश्रितं यदात्थ त्वं वचः पुरुषसत्तम ।\nतेन पश्यामि ते दिव्यान्भावान्हि त्रिषु वर्त्मसु ॥",
+          "meaning": {
+            "en": "Because of the word you spoke, relying on me, best of men, I behold your divine forms along the three paths."
+          }
         },
         {
           "n": 6,
-          "text": "तच्च पश्यामि तत्त्वेन यत्ते रूपं सनातनम् ।\nसप्त मार्गा निरुद्धास्ते वायोरमिततेजसः ॥"
+          "text": "तच्च पश्यामि तत्त्वेन यत्ते रूपं सनातनम् ।\nसप्त मार्गा निरुद्धास्ते वायोरमिततेजसः ॥",
+          "meaning": {
+            "en": "And I truly see your eternal form: the seven paths of the immeasurably radiant wind are held back by you."
+          }
         },
         {
           "n": 7,
-          "text": "दिवं ते शिरसा व्याप्तं पद्भ्यां देवी वसुंधरा ।\nदिशो भुजौ रविश्चक्षुर्वीर्ये शक्रः प्रतिष्ठितः ॥"
+          "text": "दिवं ते शिरसा व्याप्तं पद्भ्यां देवी वसुंधरा ।\nदिशो भुजौ रविश्चक्षुर्वीर्ये शक्रः प्रतिष्ठितः ॥",
+          "meaning": {
+            "en": "Heaven is filled by your head, the goddess Earth by your feet, the directions are your arms, the sun your eye, and Indra's might rests in your strength."
+          }
         },
         {
           "n": 8,
-          "text": "अतसीपुष्पसंकाशं पीतवाससमच्युतम् ।\nवपुर्ह्यनुमिमीमस्ते मेघस्येव सविद्युतः ॥"
+          "text": "अतसीपुष्पसंकाशं पीतवाससमच्युतम् ।\nवपुर्ह्यनुमिमीमस्ते मेघस्येव सविद्युतः ॥",
+          "meaning": {
+            "en": "Clad in yellow, Achyuta, dark like the flax flower, your body I take to be like a cloud with lightning."
+          }
         },
         {
           "n": 9,
-          "text": "त्वत्प्रपन्नाय भक्ताय गतिमिष्टां जिगीषवे ।\nयच्छ्रेयः पुण्डरीकाक्ष तद्ध्यायस्व सुरोत्तम ॥"
+          "text": "त्वत्प्रपन्नाय भक्ताय गतिमिष्टां जिगीषवे ।\nयच्छ्रेयः पुण्डरीकाक्ष तद्ध्यायस्व सुरोत्तम ॥",
+          "meaning": {
+            "en": "For me, devoted to you and taking refuge in you, who long for the goal I desire, lotus-eyed best of gods, think on whatever is good for me."
+          }
         },
         {
-          "text": "वासुदेव उवाच"
+          "text": "वासुदेव उवाच",
+          "meaning": {
+            "en": "Vasudeva said:"
+          }
         },
         {
           "n": 10,
-          "text": "यतः खलु परा भक्तिर्मयि ते पुरुषर्षभ ।\nततो वपुर्मया दिव्यं तव राजन्प्रदर्शितम् ॥"
+          "text": "यतः खलु परा भक्तिर्मयि ते पुरुषर्षभ ।\nततो वपुर्मया दिव्यं तव राजन्प्रदर्शितम् ॥",
+          "meaning": {
+            "en": "Because your devotion to me is supreme, best of men, king, I showed you my divine form."
+          }
         },
         {
           "n": 11,
-          "text": "न ह्यभक्ताय राजेन्द्र भक्तायानृजवे न च ।\nदर्शयाम्यहमात्मानं न चादान्ताय भारत ॥"
+          "text": "न ह्यभक्ताय राजेन्द्र भक्तायानृजवे न च ।\nदर्शयाम्यहमात्मानं न चादान्ताय भारत ॥",
+          "meaning": {
+            "en": "King of kings, I do not show myself to one without devotion, nor to one who is crooked or whose senses are uncontrolled, descendant of Bharata."
+          }
         },
         {
           "n": 12,
-          "text": "भवांस्तु मम भक्तश्च नित्यं चार्जवमास्थितः ।\nदमे तपसि सत्ये च दाने च निरतः शुचिः ॥"
+          "text": "भवांस्तु मम भक्तश्च नित्यं चार्जवमास्थितः ।\nदमे तपसि सत्ये च दाने च निरतः शुचिः ॥",
+          "meaning": {
+            "en": "But you are my devotee, always upright, devoted to self-control, austerity, truth and giving, and pure."
+          }
         },
         {
           "n": 13,
-          "text": "अर्हस्त्वं भीष्म मां द्रष्टुं तपसा स्वेन पार्थिव ।\nतव ह्युपस्थिता लोका येभ्यो नावर्तते पुनः ॥"
+          "text": "अर्हस्त्वं भीष्म मां द्रष्टुं तपसा स्वेन पार्थिव ।\nतव ह्युपस्थिता लोका येभ्यो नावर्तते पुनः ॥",
+          "meaning": {
+            "en": "Bhishma, you deserve to see me through your own austerity, king; the worlds from which one does not return stand ready for you."
+          }
         },
         {
           "n": 14,
-          "text": "पञ्चाशतं षट्च कुरुप्रवीर\nशेषं दिनानां तव जीवितस्य ।\nततः शुभैः कर्मफलोदयैस्त्वं\nसमेष्यसे भीष्म विमुच्य देहम् ॥"
+          "text": "पञ्चाशतं षट्च कुरुप्रवीर\nशेषं दिनानां तव जीवितस्य ।\nततः शुभैः कर्मफलोदयैस्त्वं\nसमेष्यसे भीष्म विमुच्य देहम् ॥",
+          "meaning": {
+            "en": "Hero of the Kurus, fifty-six days remain of your life; then, casting off your body, you will meet the good results of your deeds."
+          }
         },
         {
           "n": 15,
-          "text": "एते हि देवा वसवो विमाना-\nन्यास्थाय सर्वे ज्वलिताग्निकल्पाः ।\nअन्तर्हितास्त्वां प्रतिपालयन्ति\nकाष्ठां प्रपद्यन्तमुदक्पतंगम् ॥"
+          "text": "एते हि देवा वसवो विमाना-\nन्यास्थाय सर्वे ज्वलिताग्निकल्पाः ।\nअन्तर्हितास्त्वां प्रतिपालयन्ति\nकाष्ठां प्रपद्यन्तमुदक्पतंगम् ॥",
+          "meaning": {
+            "en": "These Vasus, all blazing like fire, have taken their celestial chariots and, unseen, are waiting for you, like a bird bound for the northern goal."
+          }
         },
         {
           "n": 16,
-          "text": "व्यावृत्तमात्रे भगवत्युदीचीं\nसूर्ये दिशं कालवशात्प्रपन्ने ।\nगन्तासि लोकान्पुरुषप्रवीर\nनावर्तते यानुपलभ्य विद्वान् ॥"
+          "text": "व्यावृत्तमात्रे भगवत्युदीचीं\nसूर्ये दिशं कालवशात्प्रपन्ने ।\nगन्तासि लोकान्पुरुषप्रवीर\nनावर्तते यानुपलभ्य विद्वान् ॥",
+          "meaning": {
+            "en": "As soon as the blessed sun, by the turn of time, passes to the northern quarter, you will go, foremost of men, to the worlds a knower never returns from once he has reached them."
+          }
         },
         {
           "n": 17,
-          "text": "अमुं च लोकं त्वयि भीष्म याते\nज्ञानानि नङ्क्ष्यन्त्यखिलेन वीर ।\nअतः स्म सर्वे त्वयि संनिकर्षं\nसमागता धर्मविवेचनाय ॥"
+          "text": "अमुं च लोकं त्वयि भीष्म याते\nज्ञानानि नङ्क्ष्यन्त्यखिलेन वीर ।\nअतः स्म सर्वे त्वयि संनिकर्षं\nसमागता धर्मविवेचनाय ॥",
+          "meaning": {
+            "en": "When you depart to the other world, Bhishma, hero, all knowledge will vanish entirely; so we have all come close to you to learn dharma."
+          }
         },
         {
           "n": 18,
-          "text": "तज्ज्ञातिशोकोपहतश्रुताय\nसत्याभिसंधाय युधिष्ठिराय ।\nप्रब्रूहि धर्मार्थसमाधियुक्त-\nमर्थ्यं वचोऽस्यापनुदास्य शोकम् ॥"
+          "text": "तज्ज्ञातिशोकोपहतश्रुताय\nसत्याभिसंधाय युधिष्ठिराय ।\nप्रब्रूहि धर्मार्थसमाधियुक्त-\nमर्थ्यं वचोऽस्यापनुदास्य शोकम् ॥",
+          "meaning": {
+            "en": "So tell Yudhishthira, whose learning is overwhelmed by grief for his kin and who holds to truth, words full of dharma and purpose and fit for his need, and take away his sorrow."
+          }
         }
       ]
     }

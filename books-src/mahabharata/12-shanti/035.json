@@ -22,138 +22,240 @@
       "titleEn": "Rajadharma Parva (Duties of kings)",
       "verses": [
         {
-          "text": "युधिष्ठिर उवाच"
+          "text": "युधिष्ठिर उवाच",
+          "meaning": {
+            "en": "Yudhishthira said:"
+          }
         },
         {
           "n": 1,
-          "text": "कानि कृत्वेह कर्माणि प्रायश्चित्तीयते नरः ।\nकिं कृत्वा चैव मुच्येत तन्मे ब्रूहि पितामह ॥"
+          "text": "कानि कृत्वेह कर्माणि प्रायश्चित्तीयते नरः ।\nकिं कृत्वा चैव मुच्येत तन्मे ब्रूहि पितामह ॥",
+          "meaning": {
+            "en": "Tell me, grandfather, by doing what deeds does a man need atonement here, and by doing what is he freed?"
+          }
         },
         {
-          "text": "व्यास उवाच"
+          "text": "व्यास उवाच",
+          "meaning": {
+            "en": "Vyasa said:"
+          }
         },
         {
           "n": 2,
-          "text": "अकुर्वन्विहितं कर्म प्रतिषिद्धानि चाचरन् ।\nप्रायश्चित्तीयते ह्येवं नरो मिथ्या च वर्तयन् ॥"
+          "text": "अकुर्वन्विहितं कर्म प्रतिषिद्धानि चाचरन् ।\nप्रायश्चित्तीयते ह्येवं नरो मिथ्या च वर्तयन् ॥",
+          "meaning": {
+            "en": "A man needs atonement when he fails to do the prescribed act, does what is forbidden, and lives by falsehood."
+          }
         },
         {
           "n": 3,
-          "text": "सूर्येणाभ्युदितो यश्च ब्रह्मचारी भवत्युत ।\nतथा सूर्याभिनिर्मुक्तः कुनखी श्यावदन्नपि ॥"
+          "text": "सूर्येणाभ्युदितो यश्च ब्रह्मचारी भवत्युत ।\nतथा सूर्याभिनिर्मुक्तः कुनखी श्यावदन्नपि ॥",
+          "meaning": {
+            "en": "Also one who is a celibate student but is found asleep at sunrise or sunset, and one with deformed nails or black teeth."
+          }
         },
         {
           "n": 4,
-          "text": "परिवित्तिः परिवेत्ता ब्रह्मोज्झो यश्च कुत्सकः ।\nदिधिषूपतिस्तथा यः स्यादग्रेदिधिषुरेव च ॥"
+          "text": "परिवित्तिः परिवेत्ता ब्रह्मोज्झो यश्च कुत्सकः ।\nदिधिषूपतिस्तथा यः स्यादग्रेदिधिषुरेव च ॥",
+          "meaning": {
+            "en": "The younger brother who marries before his elder, the elder who stays unmarried while the younger weds, one who abandons the Veda, one who slanders, the husband of a twice-married woman, and the man who first married such a woman."
+          }
         },
         {
           "n": 5,
-          "text": "अवकीर्णी भवेद्यश्च द्विजातिवधकस्तथा ।\nअतीर्थे ब्रह्मणस्त्यागी तीर्थे चाप्रतिपादकः ॥"
+          "text": "अवकीर्णी भवेद्यश्च द्विजातिवधकस्तथा ।\nअतीर्थे ब्रह्मणस्त्यागी तीर्थे चाप्रतिपादकः ॥",
+          "meaning": {
+            "en": "One who breaks his celibate vow, one who kills a twice-born, one who gives the Veda to the unfit and does not give it to the worthy."
+          }
         },
         {
           "n": 6,
-          "text": "ग्रामयाजी च कौन्तेय राज्ञश्च परिविक्रयी ।\nशूद्रस्त्रीवधको यश्च पूर्वः पूर्वस्तु गर्हितः ॥"
+          "text": "ग्रामयाजी च कौन्तेय राज्ञश्च परिविक्रयी ।\nशूद्रस्त्रीवधको यश्च पूर्वः पूर्वस्तु गर्हितः ॥",
+          "meaning": {
+            "en": "Son of Kunti, a village priest, one who sells a king's property, and one who kills a Shudra woman, each earlier one in this list being the more blameworthy."
+          }
         },
         {
           "n": 7,
-          "text": "वृथापशुसमालम्भी वनदाहस्य कारकः ।\nअनृतेनोपचर्ता च प्रतिरोद्धा गुरोस्तथा ॥"
+          "text": "वृथापशुसमालम्भी वनदाहस्य कारकः ।\nअनृतेनोपचर्ता च प्रतिरोद्धा गुरोस्तथा ॥",
+          "meaning": {
+            "en": "One who slaughters animals pointlessly, one who sets the forest on fire, one who serves with falsehood, and one who obstructs his teacher."
+          }
         },
         {
           "n": 8,
-          "text": "यश्चाग्नीनपविध्येत तथैव ब्रह्मविक्रयी ।\nएतान्येनांसि सर्वाणि व्युत्क्रान्तसमयश्च यः ॥"
+          "text": "यश्चाग्नीनपविध्येत तथैव ब्रह्मविक्रयी ।\nएतान्येनांसि सर्वाणि व्युत्क्रान्तसमयश्च यः ॥",
+          "meaning": {
+            "en": "One who casts away the sacred fires, and one who sells the Veda; all these are sinners, as is one who has broken an agreement."
+          }
         },
         {
           "n": 9,
-          "text": "अकार्याण्यपि वक्ष्यामि यानि तानि निबोध मे ।\nलोकवेदविरुद्धानि तान्येकाग्रमनाः शृणु ॥"
+          "text": "अकार्याण्यपि वक्ष्यामि यानि तानि निबोध मे ।\nलोकवेदविरुद्धानि तान्येकाग्रमनाः शृणु ॥",
+          "meaning": {
+            "en": "Now I will also tell you the acts that must not be done; listen to them with a single mind, for they are against the world and the Veda."
+          }
         },
         {
           "n": 10,
-          "text": "स्वधर्मस्य परित्यागः परधर्मस्य च क्रिया ।\nअयाज्ययाजनं चैव तथाभक्ष्यस्य भक्षणम् ॥"
+          "text": "स्वधर्मस्य परित्यागः परधर्मस्य च क्रिया ।\nअयाज्ययाजनं चैव तथाभक्ष्यस्य भक्षणम् ॥",
+          "meaning": {
+            "en": "Abandoning one's own dharma, practicing another's dharma, performing sacrifices for those unfit for them, and eating what may not be eaten."
+          }
         },
         {
           "n": 11,
-          "text": "शरणागतसंत्यागो भृत्यस्याभरणं तथा ।\nरसानां विक्रयश्चापि तिर्यग्योनिवधस्तथा ॥"
+          "text": "शरणागतसंत्यागो भृत्यस्याभरणं तथा ।\nरसानां विक्रयश्चापि तिर्यग्योनिवधस्तथा ॥",
+          "meaning": {
+            "en": "Abandoning one who has come for refuge, failing to support one's dependents, selling liquids and juices, and killing animals born in animal wombs."
+          }
         },
         {
           "n": 12,
-          "text": "आधानादीनि कर्माणि शक्तिमान्न करोति यः ।\nअप्रयच्छंश्च सर्वाणि नित्यं देयानि भारत ॥"
+          "text": "आधानादीनि कर्माणि शक्तिमान्न करोति यः ।\nअप्रयच्छंश्च सर्वाणि नित्यं देयानि भारत ॥",
+          "meaning": {
+            "en": "One who, though able, does not perform the rites beginning with the setting up of the fires, and does not give all that must always be given, Bharata."
+          }
         },
         {
           "n": 13,
-          "text": "दक्षिणानामदानं च ब्राह्मणस्वाभिमर्शनम् ।\nसर्वाण्येतान्यकार्याणि प्राहुर्धर्मविदो जनाः ॥"
+          "text": "दक्षिणानामदानं च ब्राह्मणस्वाभिमर्शनम् ।\nसर्वाण्येतान्यकार्याणि प्राहुर्धर्मविदो जनाः ॥",
+          "meaning": {
+            "en": "Not giving the sacrificial fees and touching a brahmin's property by force; the knowers of dharma call all these things that must not be done."
+          }
         },
         {
           "n": 14,
-          "text": "पित्रा विभजते पुत्रो यश्च स्याद्गुरुतल्पगः ।\nअप्रजायन्नधर्मेण भवत्याधर्मिको जनः ॥"
+          "text": "पित्रा विभजते पुत्रो यश्च स्याद्गुरुतल्पगः ।\nअप्रजायन्नधर्मेण भवत्याधर्मिको जनः ॥",
+          "meaning": {
+            "en": "A son who divides the inheritance while his father lives, one who violates his teacher's bed, and a man who remains without children by wrongful conduct becomes unrighteous."
+          }
         },
         {
           "n": 15,
-          "text": "उक्तान्येतानि कर्माणि विस्तरेणेतरेण च ।\nयानि कुर्वन्नकुर्वंश्च प्रायश्चित्तीयते जनः ॥"
+          "text": "उक्तान्येतानि कर्माणि विस्तरेणेतरेण च ।\nयानि कुर्वन्नकुर्वंश्च प्रायश्चित्तीयते जनः ॥",
+          "meaning": {
+            "en": "These deeds have been told in detail and in outline, which when done or left undone make a person need atonement."
+          }
         },
         {
           "n": 16,
-          "text": "एतान्येव तु कर्माणि क्रियमाणानि मानवान् ।\nयेषु येषु निमित्तेषु न लिम्पन्त्यथ तच्छृणु ॥"
+          "text": "एतान्येव तु कर्माणि क्रियमाणानि मानवान् ।\nयेषु येषु निमित्तेषु न लिम्पन्त्यथ तच्छृणु ॥",
+          "meaning": {
+            "en": "Now hear the cases in which these very acts, done for certain reasons, do not stain people."
+          }
         },
         {
           "n": 17,
-          "text": "प्रगृह्य शस्त्रमायान्तमपि वेदान्तगं रणे ।\nजिघांसन्तं निहत्याजौ न तेन ब्रह्महा भवेत् ॥"
+          "text": "प्रगृह्य शस्त्रमायान्तमपि वेदान्तगं रणे ।\nजिघांसन्तं निहत्याजौ न तेन ब्रह्महा भवेत् ॥",
+          "meaning": {
+            "en": "If someone raises a weapon in battle against you and means to kill you, even a master of Vedanta, and you kill him in the fight, you do not become a killer of a brahmin."
+          }
         },
         {
           "n": 18,
-          "text": "अपि चाप्यत्र कौन्तेय मन्त्रो वेदेषु पठ्यते ।\nवेदप्रमाणविहितं तं धर्मं प्रब्रवीमि ते ॥"
+          "text": "अपि चाप्यत्र कौन्तेय मन्त्रो वेदेषु पठ्यते ।\nवेदप्रमाणविहितं तं धर्मं प्रब्रवीमि ते ॥",
+          "meaning": {
+            "en": "Kunti's son, on this point a verse is recited in the Vedas; I will tell you that dharma as laid down on Vedic authority."
+          }
         },
         {
           "n": 19,
-          "text": "अपेतं ब्राह्मणं वृत्ताद्यो हन्यादाततायिनम् ।\nन तेन ब्रह्महा स स्यान्मन्युस्तं मन्युमृच्छति ॥"
+          "text": "अपेतं ब्राह्मणं वृत्ताद्यो हन्यादाततायिनम् ।\nन तेन ब्रह्महा स स्यान्मन्युस्तं मन्युमृच्छति ॥",
+          "meaning": {
+            "en": "One who kills a brahmin who has fallen from good conduct and attacks with murderous intent does not become a killer of a brahmin; anger meets that anger."
+          }
         },
         {
           "n": 20,
-          "text": "प्राणात्यये तथाज्ञानादाचरन्मदिरामपि ।\nअचोदितो धर्मपरः पुनः संस्कारमर्हति ॥"
+          "text": "प्राणात्यये तथाज्ञानादाचरन्मदिरामपि ।\nअचोदितो धर्मपरः पुनः संस्कारमर्हति ॥",
+          "meaning": {
+            "en": "One who is dutiful and, when life is in danger, or from ignorance, drinks liquor without being urged, deserves purification again."
+          }
         },
         {
           "n": 21,
-          "text": "एतत्ते सर्वमाख्यातं कौन्तेयाभक्ष्यभक्षणम् ।\nप्रायश्चित्तविधानेन सर्वमेतेन शुध्यति ॥"
+          "text": "एतत्ते सर्वमाख्यातं कौन्तेयाभक्ष्यभक्षणम् ।\nप्रायश्चित्तविधानेन सर्वमेतेन शुध्यति ॥",
+          "meaning": {
+            "en": "All this about eating what may not be eaten has been told to you, Kunti's son; by the rule of atonement all of it is cleansed."
+          }
         },
         {
           "n": 22,
-          "text": "गुरुतल्पं हि गुर्वर्थे न दूषयति मानवम् ।\nउद्दालकः श्वेतकेतुं जनयामास शिष्यतः ॥"
+          "text": "गुरुतल्पं हि गुर्वर्थे न दूषयति मानवम् ।\nउद्दालकः श्वेतकेतुं जनयामास शिष्यतः ॥",
+          "meaning": {
+            "en": "Going to a teacher's bed for the teacher's sake does not defile a man; Uddalaka begot Shvetaketu through his pupil."
+          }
         },
         {
           "n": 23,
-          "text": "स्तेयं कुर्वंस्तु गुर्वर्थमापत्सु न निबध्यते ।\nबहुशः कामकारेण न चेद्यः संप्रवर्तते ॥"
+          "text": "स्तेयं कुर्वंस्तु गुर्वर्थमापत्सु न निबध्यते ।\nबहुशः कामकारेण न चेद्यः संप्रवर्तते ॥",
+          "meaning": {
+            "en": "One who steals for his teacher's sake in distress is not bound, provided he does not act repeatedly out of desire."
+          }
         },
         {
           "n": 24,
-          "text": "अन्यत्र ब्राह्मणस्वेभ्य आददानो न दुष्यति ।\nस्वयमप्राशिता यश्च न स पापेन लिप्यते ॥"
+          "text": "अन्यत्र ब्राह्मणस्वेभ्य आददानो न दुष्यति ।\nस्वयमप्राशिता यश्च न स पापेन लिप्यते ॥",
+          "meaning": {
+            "en": "One who takes from others except from brahmins' property is not defiled, and one who has not himself eaten is not stained by sin."
+          }
         },
         {
           "n": 25,
-          "text": "प्राणत्राणेऽनृतं वाच्यमात्मनो वा परस्य वा ।\nगुर्वर्थे स्त्रीषु चैव स्याद्विवाहकरणेषु च ॥"
+          "text": "प्राणत्राणेऽनृतं वाच्यमात्मनो वा परस्य वा ।\nगुर्वर्थे स्त्रीषु चैव स्याद्विवाहकरणेषु च ॥",
+          "meaning": {
+            "en": "To save a life, one's own or another's, falsehood may be spoken, and also for a teacher, for women, and at the arranging of marriages."
+          }
         },
         {
           "n": 26,
-          "text": "नावर्तते व्रतं स्वप्ने शुक्रमोक्षे कथंचन ।\nआज्यहोमः समिद्धेऽग्नौ प्रायश्चित्तं विधीयते ॥"
+          "text": "नावर्तते व्रतं स्वप्ने शुक्रमोक्षे कथंचन ।\nआज्यहोमः समिद्धेऽग्नौ प्रायश्चित्तं विधीयते ॥",
+          "meaning": {
+            "en": "A vow is not broken by a nocturnal emission in a dream; the rule of atonement is an offering of ghee into a kindled fire."
+          }
         },
         {
           "n": 27,
-          "text": "पारिवित्त्यं च पतिते नास्ति प्रव्रजिते तथा ।\nभिक्षिते पारदार्यं च न तद्धर्मस्य दूषकम् ॥"
+          "text": "पारिवित्त्यं च पतिते नास्ति प्रव्रजिते तथा ।\nभिक्षिते पारदार्यं च न तद्धर्मस्य दूषकम् ॥",
+          "meaning": {
+            "en": "Marrying before an elder brother is no fault when the elder is fallen or has gone forth as an ascetic, and union with another's wife when it is begging for a son does not harm dharma."
+          }
         },
         {
           "n": 28,
-          "text": "वृथापशुसमालम्भं नैव कुर्यान्न कारयेत् ।\nअनुग्रहः पशूणां हि संस्कारो विधिचोदितः ॥"
+          "text": "वृथापशुसमालम्भं नैव कुर्यान्न कारयेत् ।\nअनुग्रहः पशूणां हि संस्कारो विधिचोदितः ॥",
+          "meaning": {
+            "en": "One should not slaughter animals pointlessly or have it done; the consecration of animals is a favor to them, as the rule prescribes."
+          }
         },
         {
           "n": 29,
-          "text": "अनर्हे ब्राह्मणे दत्तमज्ञानात्तन्न दूषकम् ।\nसकारणं तथा तीर्थेऽतीर्थे वा प्रतिपादनम् ॥"
+          "text": "अनर्हे ब्राह्मणे दत्तमज्ञानात्तन्न दूषकम् ।\nसकारणं तथा तीर्थेऽतीर्थे वा प्रतिपादनम् ॥",
+          "meaning": {
+            "en": "A gift given to an unworthy brahmin out of ignorance is not a fault, nor is a gift given with good reason, whether to a fitting person or not."
+          }
         },
         {
           "n": 30,
-          "text": "स्त्रियस्तथापचारिण्यो निष्कृतिः स्याददूषिका ।\nअपि सा पूयते तेन न तु भर्ता प्रदुष्यते ॥"
+          "text": "स्त्रियस्तथापचारिण्यो निष्कृतिः स्याददूषिका ।\nअपि सा पूयते तेन न तु भर्ता प्रदुष्यते ॥",
+          "meaning": {
+            "en": "Women who have strayed have an atonement that is not defiling; she is purified by it, and her husband is not defiled."
+          }
         },
         {
           "n": 31,
-          "text": "तत्त्वं ज्ञात्वा तु सोमस्य विक्रयः स्याददूषकः ।\nअसमर्थस्य भृत्यस्य विसर्गः स्याददोषवान् ।\nवनदाहो गवामर्थे क्रियमाणो न दूषकः ॥"
+          "text": "तत्त्वं ज्ञात्वा तु सोमस्य विक्रयः स्याददूषकः ।\nअसमर्थस्य भृत्यस्य विसर्गः स्याददोषवान् ।\nवनदाहो गवामर्थे क्रियमाणो न दूषकः ॥",
+          "meaning": {
+            "en": "Selling soma for its real purpose is no fault; releasing a servant who cannot work is without blame; burning a forest done for the sake of cows is no fault."
+          }
         },
         {
           "n": 32,
-          "text": "उक्तान्येतानि कर्माणि यानि कुर्वन्न दुष्यति ।\nप्रायश्चित्तानि वक्ष्यामि विस्तरेणैव भारत ॥"
+          "text": "उक्तान्येतानि कर्माणि यानि कुर्वन्न दुष्यति ।\nप्रायश्चित्तानि वक्ष्यामि विस्तरेणैव भारत ॥",
+          "meaning": {
+            "en": "These acts have been told, which do not defile when done; now I will tell the atonements in detail, Bharata."
+          }
         }
       ]
     }

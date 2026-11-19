@@ -22,132 +22,231 @@
       "titleEn": "Sarasvata Parva (Balarama's pilgrimage on the Sarasvati)",
       "verses": [
         {
-          "text": "जनमेजय उवाच"
+          "text": "जनमेजय उवाच",
+          "meaning": {
+            "en": "Janamejaya said:"
+          }
         },
         {
           "n": 1,
-          "text": "अत्यद्भुतमिदं ब्रह्मञ्श्रुतवानस्मि तत्त्वतः ।\nअभिषेकं कुमारस्य विस्तरेण यथाविधि ॥"
+          "text": "अत्यद्भुतमिदं ब्रह्मञ्श्रुतवानस्मि तत्त्वतः ।\nअभिषेकं कुमारस्य विस्तरेण यथाविधि ॥",
+          "meaning": {
+            "en": "Brahmin, I have heard truly this most wonderful account of Kumara's consecration, told in full and properly."
+          }
         },
         {
           "n": 2,
-          "text": "यच्छ्रुत्वा पूतमात्मानं विजानामि तपोधन ।\nप्रहृष्टानि च रोमाणि प्रसन्नं च मनो मम ॥"
+          "text": "यच्छ्रुत्वा पूतमात्मानं विजानामि तपोधन ।\nप्रहृष्टानि च रोमाणि प्रसन्नं च मनो मम ॥",
+          "meaning": {
+            "en": "Hearing it, ascetic, I feel myself purified; my hair stands on end and my mind is clear."
+          }
         },
         {
           "n": 3,
-          "text": "अभिषेकं कुमारस्य दैत्यानां च वधं तथा ।\nश्रुत्वा मे परमा प्रीतिर्भूयः कौतूहलं हि मे ॥"
+          "text": "अभिषेकं कुमारस्य दैत्यानां च वधं तथा ।\nश्रुत्वा मे परमा प्रीतिर्भूयः कौतूहलं हि मे ॥",
+          "meaning": {
+            "en": "Hearing of Kumara's consecration and the slaying of the Daityas, I am supremely pleased and my curiosity grows."
+          }
         },
         {
           "n": 4,
-          "text": "अपां पतिः कथं ह्यस्मिन्नभिषिक्तः सुरासुरैः ।\nतन्मे ब्रूहि महाप्राज्ञ कुशलो ह्यसि सत्तम ॥"
+          "text": "अपां पतिः कथं ह्यस्मिन्नभिषिक्तः सुरासुरैः ।\nतन्मे ब्रूहि महाप्राज्ञ कुशलो ह्यसि सत्तम ॥",
+          "meaning": {
+            "en": "How was the lord of waters consecrated at this tirtha by gods and asuras? Tell me that, greatly wise one, for you are skilled, best of men."
+          }
         },
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 5,
-          "text": "शृणु राजन्निदं चित्रं पूर्वकल्पे यथातथम् ।\nआदौ कृतयुगे तस्मिन्वर्तमाने यथाविधि ।\nवरुणं देवताः सर्वाः समेत्येदमथाब्रुवन् ॥"
+          "text": "शृणु राजन्निदं चित्रं पूर्वकल्पे यथातथम् ।\nआदौ कृतयुगे तस्मिन्वर्तमाने यथाविधि ।\nवरुणं देवताः सर्वाः समेत्येदमथाब्रुवन् ॥",
+          "meaning": {
+            "en": "Hear, king, this wonderful account exactly as it was in an earlier age, at the beginning, when the Krita age was properly under way: all the gods gathered and spoke thus to Varuna."
+          }
         },
         {
           "n": 6,
-          "text": "यथास्मान्सुरराट्शक्रो भयेभ्यः पाति सर्वदा ।\nतथा त्वमपि सर्वासां सरितां वै पतिर्भव ॥"
+          "text": "यथास्मान्सुरराट्शक्रो भयेभ्यः पाति सर्वदा ।\nतथा त्वमपि सर्वासां सरितां वै पतिर्भव ॥",
+          "meaning": {
+            "en": "As Indra, king of the gods, always protects us from fears, so you too be lord of all the rivers."
+          }
         },
         {
           "n": 7,
-          "text": "वासश्च ते सदा देव सागरे मकरालये ।\nसमुद्रोऽयं तव वशे भविष्यति नदीपतिः ॥"
+          "text": "वासश्च ते सदा देव सागरे मकरालये ।\nसमुद्रोऽयं तव वशे भविष्यति नदीपतिः ॥",
+          "meaning": {
+            "en": "Your home shall always be, god, in the ocean, the abode of makaras; and this ocean, lord of rivers, will be under your sway."
+          }
         },
         {
           "n": 8,
-          "text": "सोमेन सार्धं च तव हानिवृद्धी भविष्यतः ।\nएवमस्त्विति तान्देवान्वरुणो वाक्यमब्रवीत् ॥"
+          "text": "सोमेन सार्धं च तव हानिवृद्धी भविष्यतः ।\nएवमस्त्विति तान्देवान्वरुणो वाक्यमब्रवीत् ॥",
+          "meaning": {
+            "en": "Your waning and waxing will go together with the Moon's. Varuna said to the gods: so be it."
+          }
         },
         {
           "n": 9,
-          "text": "समागम्य ततः सर्वे वरुणं सागरालयम् ।\nअपां पतिं प्रचक्रुर्हि विधिदृष्टेन कर्मणा ॥"
+          "text": "समागम्य ततः सर्वे वरुणं सागरालयम् ।\nअपां पतिं प्रचक्रुर्हि विधिदृष्टेन कर्मणा ॥",
+          "meaning": {
+            "en": "Then all gathered around Varuna, whose home is the sea, and made him lord of waters by the rite seen in the scriptures."
+          }
         },
         {
           "n": 10,
-          "text": "अभिषिच्य ततो देवा वरुणं यादसां पतिम् ।\nजग्मुः स्वान्येव स्थानानि पूजयित्वा जलेश्वरम् ॥"
+          "text": "अभिषिच्य ततो देवा वरुणं यादसां पतिम् ।\nजग्मुः स्वान्येव स्थानानि पूजयित्वा जलेश्वरम् ॥",
+          "meaning": {
+            "en": "Having consecrated Varuna, lord of water creatures, the gods honored the lord of waters and went to their own places."
+          }
         },
         {
           "n": 11,
-          "text": "अभिषिक्तस्ततो देवैर्वरुणोऽपि महायशाः ।\nसरितः सागरांश्चैव नदांश्चैव सरांसि च ।\nपालयामास विधिना यथा देवाञ्शतक्रतुः ॥"
+          "text": "अभिषिक्तस्ततो देवैर्वरुणोऽपि महायशाः ।\nसरितः सागरांश्चैव नदांश्चैव सरांसि च ।\nपालयामास विधिना यथा देवाञ्शतक्रतुः ॥",
+          "meaning": {
+            "en": "Consecrated thus by the gods, the greatly renowned Varuna too protected the rivers, seas, great rivers and lakes by rule, as Indra of a hundred sacrifices protects the gods."
+          }
         },
         {
           "n": 12,
-          "text": "ततस्तत्राप्युपस्पृश्य दत्त्वा च विविधं वसु ।\nअग्नितीर्थं महाप्राज्ञः स जगाम प्रलम्बहा ।\nनष्टो न दृश्यते यत्र शमीगर्भे हुताशनः ॥"
+          "text": "ततस्तत्राप्युपस्पृश्य दत्त्वा च विविधं वसु ।\nअग्नितीर्थं महाप्राज्ञः स जगाम प्रलम्बहा ।\nनष्टो न दृश्यते यत्र शमीगर्भे हुताशनः ॥",
+          "meaning": {
+            "en": "Then Balarama, slayer of Pralamba, greatly wise, touched the water there too, gave wealth of many kinds, and went to Agnitirtha, where Agni, hidden, was not to be seen inside a shami tree."
+          }
         },
         {
           "n": 13,
-          "text": "लोकालोकविनाशे च प्रादुर्भूते तदानघ ।\nउपतस्थुर्महात्मानं सर्वलोकपितामहम् ॥"
+          "text": "लोकालोकविनाशे च प्रादुर्भूते तदानघ ।\nउपतस्थुर्महात्मानं सर्वलोकपितामहम् ॥",
+          "meaning": {
+            "en": "Sinless one, when the destruction of the world and the worlds beyond appeared imminent, the gods approached the great-souled Grandfather of all worlds."
+          }
         },
         {
           "n": 14,
-          "text": "अग्निः प्रनष्टो भगवान्कारणं च न विद्महे ।\nसर्वलोकक्षयो मा भूत्संपादयतु नोऽनलम् ॥"
+          "text": "अग्निः प्रनष्टो भगवान्कारणं च न विद्महे ।\nसर्वलोकक्षयो मा भूत्संपादयतु नोऽनलम् ॥",
+          "meaning": {
+            "en": "The blessed Agni is lost and we do not know why. Let there be no ruin of all the worlds; let him give us fire back."
+          }
         },
         {
-          "text": "जनमेजय उवाच"
+          "text": "जनमेजय उवाच",
+          "meaning": {
+            "en": "Janamejaya said:"
+          }
         },
         {
           "n": 15,
-          "text": "किमर्थं भगवानग्निः प्रनष्टो लोकभावनः ।\nविज्ञातश्च कथं देवैस्तन्ममाचक्ष्व तत्त्वतः ॥"
+          "text": "किमर्थं भगवानग्निः प्रनष्टो लोकभावनः ।\nविज्ञातश्च कथं देवैस्तन्ममाचक्ष्व तत्त्वतः ॥",
+          "meaning": {
+            "en": "Why was the blessed Agni, the sustainer of the worlds, lost, and how did the gods find him? Tell me that truly."
+          }
         },
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 16,
-          "text": "भृगोः शापाद्भृशं भीतो जातवेदाः प्रतापवान् ।\nशमीगर्भमथासाद्य ननाश भगवांस्ततः ॥"
+          "text": "भृगोः शापाद्भृशं भीतो जातवेदाः प्रतापवान् ।\nशमीगर्भमथासाद्य ननाश भगवांस्ततः ॥",
+          "meaning": {
+            "en": "Jatavedas, the mighty one, deeply afraid of Bhrigu's curse, went into the heart of a shami tree and so vanished."
+          }
         },
         {
           "n": 17,
-          "text": "प्रनष्टे तु तदा वह्नौ देवाः सर्वे सवासवाः ।\nअन्वेषन्त तदा नष्टं ज्वलनं भृशदुःखिताः ॥"
+          "text": "प्रनष्टे तु तदा वह्नौ देवाः सर्वे सवासवाः ।\nअन्वेषन्त तदा नष्टं ज्वलनं भृशदुःखिताः ॥",
+          "meaning": {
+            "en": "When Agni was lost, all the gods with Indra, deeply distressed, searched for the vanished fire."
+          }
         },
         {
           "n": 18,
-          "text": "ततोऽग्नितीर्थमासाद्य शमीगर्भस्थमेव हि ।\nददृशुर्ज्वलनं तत्र वसमानं यथाविधि ॥"
+          "text": "ततोऽग्नितीर्थमासाद्य शमीगर्भस्थमेव हि ।\nददृशुर्ज्वलनं तत्र वसमानं यथाविधि ॥",
+          "meaning": {
+            "en": "Then, reaching Agnitirtha, they saw fire dwelling in the heart of the shami tree as he had been."
+          }
         },
         {
           "n": 19,
-          "text": "देवाः सर्वे नरव्याघ्र बृहस्पतिपुरोगमाः ।\nज्वलनं तं समासाद्य प्रीताभूवन्सवासवाः ।\nपुनर्यथागतं जग्मुः सर्वभक्षश्च सोऽभवत् ॥"
+          "text": "देवाः सर्वे नरव्याघ्र बृहस्पतिपुरोगमाः ।\nज्वलनं तं समासाद्य प्रीताभूवन्सवासवाः ।\nपुनर्यथागतं जग्मुः सर्वभक्षश्च सोऽभवत् ॥",
+          "meaning": {
+            "en": "All the gods, tiger among men, led by Brihaspati, reached that fire and, with Indra, were pleased; they went back as they came, and he became the eater of all things."
+          }
         },
         {
           "n": 20,
-          "text": "भृगोः शापान्महीपाल यदुक्तं ब्रह्मवादिना ।\nतत्राप्याप्लुत्य मतिमान्ब्रह्मयोनिं जगाम ह ॥"
+          "text": "भृगोः शापान्महीपाल यदुक्तं ब्रह्मवादिना ।\nतत्राप्याप्लुत्य मतिमान्ब्रह्मयोनिं जगाम ह ॥",
+          "meaning": {
+            "en": "Because of Bhrigu's curse, lord of the earth, as the Brahmin spoke it, the wise one bathed there too and went to Brahmayoni."
+          }
         },
         {
           "n": 21,
-          "text": "ससर्ज भगवान्यत्र सर्वलोकपितामहः ।\nतत्राप्लुत्य ततो ब्रह्मा सह देवैः प्रभुः पुरा ।\nससर्ज चान्नानि तथा देवतानां यथाविधि ॥"
+          "text": "ससर्ज भगवान्यत्र सर्वलोकपितामहः ।\nतत्राप्लुत्य ततो ब्रह्मा सह देवैः प्रभुः पुरा ।\nससर्ज चान्नानि तथा देवतानां यथाविधि ॥",
+          "meaning": {
+            "en": "Where the blessed Grandfather of all worlds created, there Brahma, the lord, long ago bathed with the gods and created foods for the gods by rule."
+          }
         },
         {
           "n": 22,
-          "text": "तत्र स्नात्वा च दत्त्वा च वसूनि विविधानि च ।\nकौबेरं प्रययौ तीर्थं तत्र तप्त्वा महत्तपः ।\nधनाधिपत्यं संप्राप्तो राजन्नैलबिलः प्रभुः ॥"
+          "text": "तत्र स्नात्वा च दत्त्वा च वसूनि विविधानि च ।\nकौबेरं प्रययौ तीर्थं तत्र तप्त्वा महत्तपः ।\nधनाधिपत्यं संप्राप्तो राजन्नैलबिलः प्रभुः ॥",
+          "meaning": {
+            "en": "Having bathed there and given wealth of many kinds, Balarama went to Kubera's tirtha, where, king, the lord Ailabila, Kubera, having practiced great austerity, gained lordship over wealth."
+          }
         },
         {
           "n": 23,
-          "text": "तत्रस्थमेव तं राजन्धनानि निधयस्तथा ।\nउपतस्थुर्नरश्रेष्ठ तत्तीर्थं लाङ्गली ततः ।\nगत्वा स्नात्वा च विधिवद्ब्राह्मणेभ्यो धनं ददौ ॥"
+          "text": "तत्रस्थमेव तं राजन्धनानि निधयस्तथा ।\nउपतस्थुर्नरश्रेष्ठ तत्तीर्थं लाङ्गली ततः ।\nगत्वा स्नात्वा च विधिवद्ब्राह्मणेभ्यो धनं ददौ ॥",
+          "meaning": {
+            "en": "While he stood there, king, treasures and riches waited on him, best of men; the plough-bearer then went to that tirtha, bathed by rule and gave wealth to Brahmins."
+          }
         },
         {
           "n": 24,
-          "text": "ददृशे तत्र तत्स्थानं कौबेरे काननोत्तमे ।\nपुरा यत्र तपस्तप्तं विपुलं सुमहात्मना ॥"
+          "text": "ददृशे तत्र तत्स्थानं कौबेरे काननोत्तमे ।\nपुरा यत्र तपस्तप्तं विपुलं सुमहात्मना ॥",
+          "meaning": {
+            "en": "There he saw that place in Kubera's best of forests where long ago the great-souled one had practiced vast austerity,"
+          }
         },
         {
           "n": 25,
-          "text": "यत्र राज्ञा कुबेरेण वरा लब्धाश्च पुष्कलाः ।\nधनाधिपत्यं सख्यं च रुद्रेणामिततेजसा ॥"
+          "text": "यत्र राज्ञा कुबेरेण वरा लब्धाश्च पुष्कलाः ।\nधनाधिपत्यं सख्यं च रुद्रेणामिततेजसा ॥",
+          "meaning": {
+            "en": "where King Kubera gained abundant boons: lordship of wealth, friendship with the immeasurably brilliant Rudra,"
+          }
         },
         {
           "n": 26,
-          "text": "सुरत्वं लोकपालत्वं पुत्रं च नलकूबरम् ।\nयत्र लेभे महाबाहो धनाधिपतिरञ्जसा ॥"
+          "text": "सुरत्वं लोकपालत्वं पुत्रं च नलकूबरम् ।\nयत्र लेभे महाबाहो धनाधिपतिरञ्जसा ॥",
+          "meaning": {
+            "en": "godhood, the post of guardian of the world, and a son, Nalakubara, which the lord of wealth readily gained there, mighty-armed one."
+          }
         },
         {
           "n": 27,
-          "text": "अभिषिक्तश्च तत्रैव समागम्य मरुद्गणैः ।\nवाहनं चास्य तद्दत्तं हंसयुक्तं मनोरमम् ।\nविमानं पुष्पकं दिव्यं नैरृतैश्वर्यमेव च ॥"
+          "text": "अभिषिक्तश्च तत्रैव समागम्य मरुद्गणैः ।\nवाहनं चास्य तद्दत्तं हंसयुक्तं मनोरमम् ।\nविमानं पुष्पकं दिव्यं नैरृतैश्वर्यमेव च ॥",
+          "meaning": {
+            "en": "He was consecrated there as well, meeting the troops of Maruts; and there was given to him a charming vehicle yoked with swans, the divine Pushpaka aerial car, and sovereignty over the night-roamers."
+          }
         },
         {
           "n": 28,
-          "text": "तत्राप्लुत्य बलो राजन्दत्त्वा दायांश्च पुष्कलान् ।\nजगाम त्वरितो रामस्तीर्थं श्वेतानुलेपनः ॥"
+          "text": "तत्राप्लुत्य बलो राजन्दत्त्वा दायांश्च पुष्कलान् ।\nजगाम त्वरितो रामस्तीर्थं श्वेतानुलेपनः ॥",
+          "meaning": {
+            "en": "Bathing there, king, and giving abundant gifts, Balarama in white unguents went in haste to a tirtha"
+          }
         },
         {
           "n": 29,
-          "text": "निषेवितं सर्वसत्त्वैर्नाम्ना बदरपाचनम् ।\nनानर्तुकवनोपेतं सदापुष्पफलं शुभम् ॥"
+          "text": "निषेवितं सर्वसत्त्वैर्नाम्ना बदरपाचनम् ।\nनानर्तुकवनोपेतं सदापुष्पफलं शुभम् ॥",
+          "meaning": {
+            "en": "visited by all creatures, named Badarapachana, with forests of all seasons, always with flowers and fruit, and lovely."
+          }
         }
       ]
     }

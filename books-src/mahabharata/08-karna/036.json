@@ -22,167 +22,290 @@
       "titleEn": "Karna Parva",
       "verses": [
         {
-          "text": "संजय उवाच"
+          "text": "संजय उवाच",
+          "meaning": {
+            "en": "Sanjaya said:"
+          }
         },
         {
           "n": 1,
-          "text": "क्षत्रियास्ते महाराज परस्परवधैषिणः ।\nअन्योन्यं समरे जघ्नुः कृतवैराः परस्परम् ॥"
+          "text": "क्षत्रियास्ते महाराज परस्परवधैषिणः ।\nअन्योन्यं समरे जघ्नुः कृतवैराः परस्परम् ॥",
+          "meaning": {
+            "en": "Great king, those kshatriyas, each bent on killing the other, fought one another in the battle, their enmity now open."
+          }
         },
         {
           "n": 2,
-          "text": "रथौघाश्च हयौघाश्च नरौघाश्च समन्ततः ।\nगजौघाश्च महाराज संसक्ताः स्म परस्परम् ॥"
+          "text": "रथौघाश्च हयौघाश्च नरौघाश्च समन्ततः ।\nगजौघाश्च महाराज संसक्ताः स्म परस्परम् ॥",
+          "meaning": {
+            "en": "Great king, masses of chariots, horses, men and elephants pressed in on every side, jammed against one another."
+          }
         },
         {
           "n": 3,
-          "text": "गदानां परिघाणां च कणपानां च सर्पताम् ।\nप्रासानां भिण्डिपालानां भुशुण्डीनां च सर्वशः ॥"
+          "text": "गदानां परिघाणां च कणपानां च सर्पताम् ।\nप्रासानां भिण्डिपालानां भुशुण्डीनां च सर्वशः ॥",
+          "meaning": {
+            "en": "In that terrible fight we saw clubs, iron bars, kanapas, hurtling spears, lances, bhindipalas and bhushundis falling all around."
+          }
         },
         {
           "n": 4,
-          "text": "संपातं चान्वपश्याम संग्रामे भृशदारुणे ।\nशलभा इव संपेतुः समन्ताच्छरवृष्टयः ॥"
+          "text": "संपातं चान्वपश्याम संग्रामे भृशदारुणे ।\nशलभा इव संपेतुः समन्ताच्छरवृष्टयः ॥",
+          "meaning": {
+            "en": "Showers of arrows dropped from every side like swarms of locusts."
+          }
         },
         {
           "n": 5,
-          "text": "नागा नागान्समासाद्य व्यधमन्त परस्परम् ।\nहया हयांश्च समरे रथिनो रथिनस्तथा ।\nपत्तयः पत्तिसंघैश्च हयसंघैर्हयास्तथा ॥"
+          "text": "नागा नागान्समासाद्य व्यधमन्त परस्परम् ।\nहया हयांश्च समरे रथिनो रथिनस्तथा ।\nपत्तयः पत्तिसंघैश्च हयसंघैर्हयास्तथा ॥",
+          "meaning": {
+            "en": "Elephants met elephants and tore at each other; horses fought horses, charioteers fought charioteers, foot soldiers fought troops of foot soldiers, and horse-troops fought horse-troops."
+          }
         },
         {
           "n": 6,
-          "text": "पत्तयो रथमातङ्गान्रथा हस्त्यश्वमेव च ।\nनागाश्च समरे त्र्यङ्गं ममृदुः शीघ्रगा नृप ॥"
+          "text": "पत्तयो रथमातङ्गान्रथा हस्त्यश्वमेव च ।\nनागाश्च समरे त्र्यङ्गं ममृदुः शीघ्रगा नृप ॥",
+          "meaning": {
+            "en": "King, foot soldiers crushed chariots and elephants, chariots crushed elephants and horses, and swift elephants trampled the three limbs of the army in the battle."
+          }
         },
         {
           "n": 7,
-          "text": "पततां तत्र शूराणां क्रोशतां च परस्परम् ।\nघोरमायोधनं जज्ञे पशूनां वैशसं यथा ॥"
+          "text": "पततां तत्र शूराणां क्रोशतां च परस्परम् ।\nघोरमायोधनं जज्ञे पशूनां वैशसं यथा ॥",
+          "meaning": {
+            "en": "As the heroes fell and shouted at one another, a dreadful battlefield arose, like the slaughter of cattle at a sacrifice."
+          }
         },
         {
           "n": 8,
-          "text": "रुधिरेण समास्तीर्णा भाति भारत मेदिनी ।\nशक्रगोपगणाकीर्णा प्रावृषीव यथा धरा ॥"
+          "text": "रुधिरेण समास्तीर्णा भाति भारत मेदिनी ।\nशक्रगोपगणाकीर्णा प्रावृषीव यथा धरा ॥",
+          "meaning": {
+            "en": "Bharata, the earth, covered in blood and scattered with red velvet mites, looked like the ground in the rainy season."
+          }
         },
         {
           "n": 9,
-          "text": "यथा वा वाससी शुक्ले महारजनरञ्जिते ।\nबिभृयाद्युवतिः श्यामा तद्वदासीद्वसुंधरा ।\nमांसशोणितचित्रेव शातकौम्भमयीव च ॥"
+          "text": "यथा वा वाससी शुक्ले महारजनरञ्जिते ।\nबिभृयाद्युवतिः श्यामा तद्वदासीद्वसुंधरा ।\nमांसशोणितचित्रेव शातकौम्भमयीव च ॥",
+          "meaning": {
+            "en": "Or the earth looked like a dark young woman wearing two white garments dyed deep red, streaked with flesh and blood, as if made of gold."
+          }
         },
         {
           "n": 10,
-          "text": "छिन्नानां चोत्तमाङ्गानां बाहूनां चोरुभिः सह ।\nकुण्डलानां प्रविद्धानां भूषणानां च भारत ॥"
+          "text": "छिन्नानां चोत्तमाङ्गानां बाहूनां चोरुभिः सह ।\nकुण्डलानां प्रविद्धानां भूषणानां च भारत ॥",
+          "meaning": {
+            "en": "Bharata, severed heads, arms with thighs, flung-off earrings and ornaments fell there on the ground."
+          }
         },
         {
           "n": 11,
-          "text": "निष्काणामधिसूत्राणां शरीराणां च धन्विनाम् ।\nवर्मणां सपताकानां संघास्तत्रापतन्भुवि ॥"
+          "text": "निष्काणामधिसूत्राणां शरीराणां च धन्विनाम् ।\nवर्मणां सपताकानां संघास्तत्रापतन्भुवि ॥",
+          "meaning": {
+            "en": "Gold necklaces, belts, the bodies of archers and armour with banners, in heaps, dropped to the earth."
+          }
         },
         {
           "n": 12,
-          "text": "गजान्गजाः समासाद्य विषाणाग्रैरदारयन् ।\nविषाणाभिहतास्ते च भ्राजन्ते द्विरदा यथा ॥"
+          "text": "गजान्गजाः समासाद्य विषाणाग्रैरदारयन् ।\nविषाणाभिहतास्ते च भ्राजन्ते द्विरदा यथा ॥",
+          "meaning": {
+            "en": "Elephants came against elephants and ripped at each other with the tips of their tusks; struck by the tusks, they shone like glittering beasts."
+          }
         },
         {
           "n": 13,
-          "text": "रुधिरेणावसिक्ताङ्गा गैरिकप्रस्रवा इव ।\nयथा भ्राजन्ति स्यन्दन्तः पर्वता धातुमण्डिताः ॥"
+          "text": "रुधिरेणावसिक्ताङ्गा गैरिकप्रस्रवा इव ।\nयथा भ्राजन्ति स्यन्दन्तः पर्वता धातुमण्डिताः ॥",
+          "meaning": {
+            "en": "With their bodies drenched in blood they looked like mountains streaked with minerals, running with red streams."
+          }
         },
         {
           "n": 14,
-          "text": "तोमरान्गजिभिर्मुक्तान्प्रतीपानास्थितान्बहून् ।\nहस्तैर्विचेरुस्ते नागा बभञ्जुश्चापरे तथा ॥"
+          "text": "तोमरान्गजिभिर्मुक्तान्प्रतीपानास्थितान्बहून् ।\nहस्तैर्विचेरुस्ते नागा बभञ्जुश्चापरे तथा ॥",
+          "meaning": {
+            "en": "Elephants flung away the spears hurled by riders and, facing them, wandered about; some seized them in their trunks and others broke them."
+          }
         },
         {
           "n": 15,
-          "text": "नाराचैश्छिन्नवर्माणो भ्राजन्ते स्म गजोत्तमाः ।\nहिमागमे महाराज व्यभ्रा इव महीधराः ॥"
+          "text": "नाराचैश्छिन्नवर्माणो भ्राजन्ते स्म गजोत्तमाः ।\nहिमागमे महाराज व्यभ्रा इव महीधराः ॥",
+          "meaning": {
+            "en": "Great king, the finest elephants, their armour cut by iron arrows, shone like cloudless mountains when winter comes."
+          }
         },
         {
           "n": 16,
-          "text": "शरैः कनकपुङ्खैस्तु चिता रेजुर्गजोत्तमाः ।\nउल्काभिः संप्रदीप्ताग्राः पर्वता इव मारिष ॥"
+          "text": "शरैः कनकपुङ्खैस्तु चिता रेजुर्गजोत्तमाः ।\nउल्काभिः संप्रदीप्ताग्राः पर्वता इव मारिष ॥",
+          "meaning": {
+            "en": "Lord, the best elephants, covered with arrows with golden shafts, shone like mountains whose peaks are blazing with torches."
+          }
         },
         {
           "n": 17,
-          "text": "केचिदभ्याहता नागा नागैर्नगनिभा भुवि ।\nनिपेतुः समरे तस्मिन्पक्षवन्त इवाद्रयः ॥"
+          "text": "केचिदभ्याहता नागा नागैर्नगनिभा भुवि ।\nनिपेतुः समरे तस्मिन्पक्षवन्त इवाद्रयः ॥",
+          "meaning": {
+            "en": "Some elephants, struck down by other elephants, fell in that battle like mountains, as if winged mountains had dropped to earth."
+          }
         },
         {
           "n": 18,
-          "text": "अपरे प्राद्रवन्नागाः शल्यार्ता व्रणपीडिताः ।\nप्रतिमानैश्च कुम्भैश्च पेतुरुर्व्यां महाहवे ॥"
+          "text": "अपरे प्राद्रवन्नागाः शल्यार्ता व्रणपीडिताः ।\nप्रतिमानैश्च कुम्भैश्च पेतुरुर्व्यां महाहवे ॥",
+          "meaning": {
+            "en": "Other elephants, tormented by arrow-points and wounds, fled, and in the great fight they fell to the ground along with their frontlets and ornaments."
+          }
         },
         {
           "n": 19,
-          "text": "निषेदुः सिंहवच्चान्ये नदन्तो भैरवान्रवान् ।\nमम्लुश्च बहवो राजंश्चुकूजुश्चापरे तथा ॥"
+          "text": "निषेदुः सिंहवच्चान्ये नदन्तो भैरवान्रवान् ।\nमम्लुश्च बहवो राजंश्चुकूजुश्चापरे तथा ॥",
+          "meaning": {
+            "en": "Others sank down like lions, bellowing fearful cries; many, O king, grew faint and others trumpeted."
+          }
         },
         {
           "n": 20,
-          "text": "हयाश्च निहता बाणैः स्वर्णभाण्डपरिच्छदाः ।\nनिषेदुश्चैव मम्लुश्च बभ्रमुश्च दिशो दश ॥"
+          "text": "हयाश्च निहता बाणैः स्वर्णभाण्डपरिच्छदाः ।\nनिषेदुश्चैव मम्लुश्च बभ्रमुश्च दिशो दश ॥",
+          "meaning": {
+            "en": "Horses killed by arrows, with their golden trappings, sank down, fainted, or whirled around in all ten directions."
+          }
         },
         {
           "n": 21,
-          "text": "अपरे कृष्यमाणाश्च विवेष्टन्तो महीतले ।\nभावान्बहुविधांश्चक्रुस्ताडिताः शरतोमरैः ॥"
+          "text": "अपरे कृष्यमाणाश्च विवेष्टन्तो महीतले ।\nभावान्बहुविधांश्चक्रुस्ताडिताः शरतोमरैः ॥",
+          "meaning": {
+            "en": "Others, dragged along and struck by arrows and spears, rolled on the ground and made many different movements."
+          }
         },
         {
           "n": 22,
-          "text": "नरास्तु निहता भूमौ कूजन्तस्तत्र मारिष ।\nदृष्ट्वा च बान्धवानन्ये पितॄनन्ये पितामहान् ॥"
+          "text": "नरास्तु निहता भूमौ कूजन्तस्तत्र मारिष ।\nदृष्ट्वा च बान्धवानन्ये पितॄनन्ये पितामहान् ॥",
+          "meaning": {
+            "en": "Lord, men lay slain on the ground, crying out there; some, seeing their kinsmen, others their fathers and grandfathers, called out."
+          }
         },
         {
           "n": 23,
-          "text": "धावमानान्परांश्चैव दृष्ट्वान्ये तत्र भारत ।\nगोत्रनामानि ख्यातानि शशंसुरितरेतरम् ॥"
+          "text": "धावमानान्परांश्चैव दृष्ट्वान्ये तत्र भारत ।\nगोत्रनामानि ख्यातानि शशंसुरितरेतरम् ॥",
+          "meaning": {
+            "en": "Bharata, others who saw enemies rushing at them there called out to one another their clan and family names."
+          }
         },
         {
           "n": 24,
-          "text": "तेषां छिन्ना महाराज भुजाः कनकभूषणाः ।\nउद्वेष्टन्ते विवेष्टन्ते पतन्ते चोत्पतन्ति च ॥"
+          "text": "तेषां छिन्ना महाराज भुजाः कनकभूषणाः ।\nउद्वेष्टन्ते विवेष्टन्ते पतन्ते चोत्पतन्ति च ॥",
+          "meaning": {
+            "en": "Great king, their severed arms with golden ornaments writhed, twisted, fell and leaped up."
+          }
         },
         {
           "n": 25,
-          "text": "निपतन्ति तथा भूमौ स्फुरन्ति च सहस्रशः ।\nवेगांश्चान्ये रणे चक्रुः स्फुरन्त इव पन्नगाः ॥"
+          "text": "निपतन्ति तथा भूमौ स्फुरन्ति च सहस्रशः ।\nवेगांश्चान्ये रणे चक्रुः स्फुरन्त इव पन्नगाः ॥",
+          "meaning": {
+            "en": "They fell to the ground and quivered in their thousands; some, in the battle, made movements like twitching snakes."
+          }
         },
         {
           "n": 26,
-          "text": "ते भुजा भोगिभोगाभाश्चन्दनाक्ता विशां पते ।\nलोहितार्द्रा भृशं रेजुस्तपनीयध्वजा इव ॥"
+          "text": "ते भुजा भोगिभोगाभाश्चन्दनाक्ता विशां पते ।\nलोहितार्द्रा भृशं रेजुस्तपनीयध्वजा इव ॥",
+          "meaning": {
+            "en": "Lord of men, those arms, like the bodies of serpents, smeared with sandal and wet with blood, shone brightly like banners of gold."
+          }
         },
         {
           "n": 27,
-          "text": "वर्तमाने तथा घोरे संकुले सर्वतोदिशम् ।\nअविज्ञाताः स्म युध्यन्ते विनिघ्नन्तः परस्परम् ॥"
+          "text": "वर्तमाने तथा घोरे संकुले सर्वतोदिशम् ।\nअविज्ञाताः स्म युध्यन्ते विनिघ्नन्तः परस्परम् ॥",
+          "meaning": {
+            "en": "While that dreadful fight went on, crowded in every direction, men fought unrecognized, striking one another down."
+          }
         },
         {
           "n": 28,
-          "text": "भौमेन रजसा कीर्णे शस्त्रसंपातसंकुले ।\nनैव स्वे न परे राजन्व्यज्ञायन्त तमोवृते ॥"
+          "text": "भौमेन रजसा कीर्णे शस्त्रसंपातसंकुले ।\nनैव स्वे न परे राजन्व्यज्ञायन्त तमोवृते ॥",
+          "meaning": {
+            "en": "King, filled with the dust of the earth and the fall of weapons, wrapped in darkness, neither their own men nor the enemy could be told apart."
+          }
         },
         {
           "n": 29,
-          "text": "तथा तदभवद्युद्धं घोररूपं भयानकम् ।\nशोणितोदा महानद्यः प्रसस्रुस्तत्र चासकृत् ॥"
+          "text": "तथा तदभवद्युद्धं घोररूपं भयानकम् ।\nशोणितोदा महानद्यः प्रसस्रुस्तत्र चासकृत् ॥",
+          "meaning": {
+            "en": "So that battle became terrible and fearsome; great rivers of blood flowed there again and again."
+          }
         },
         {
           "n": 30,
-          "text": "शीर्षपाषाणसंछन्नाः केशशैवलशाद्वलाः ।\nअस्थिसंघातसंकीर्णा धनुःशरवरोत्तमाः ॥"
+          "text": "शीर्षपाषाणसंछन्नाः केशशैवलशाद्वलाः ।\nअस्थिसंघातसंकीर्णा धनुःशरवरोत्तमाः ॥",
+          "meaning": {
+            "en": "They were covered with heads for stones, with hair for moss and grass, and strewn with heaps of bones; the best of bows and arrows lay in them."
+          }
         },
         {
           "n": 31,
-          "text": "मांसकर्दमपङ्काश्च शोणितौघाः सुदारुणाः ।\nनदीः प्रवर्तयामासुर्यमराष्ट्रविवर्धनीः ॥"
+          "text": "मांसकर्दमपङ्काश्च शोणितौघाः सुदारुणाः ।\nनदीः प्रवर्तयामासुर्यमराष्ट्रविवर्धनीः ॥",
+          "meaning": {
+            "en": "Dreadful floods of blood, with flesh for mud and slime, produced rivers that swelled the realm of Yama."
+          }
         },
         {
           "n": 32,
-          "text": "ता नद्यो घोररूपाश्च नयन्त्यो यमसादनम् ।\nअवगाढा मज्जयन्त्यः क्षत्रस्याजनयन्भयम् ॥"
+          "text": "ता नद्यो घोररूपाश्च नयन्त्यो यमसादनम् ।\nअवगाढा मज्जयन्त्यः क्षत्रस्याजनयन्भयम् ॥",
+          "meaning": {
+            "en": "Those fearsome rivers, bearing men toward Yama's house, drowned those who entered them and brought fear to the kshatriyas."
+          }
         },
         {
           "n": 33,
-          "text": "क्रव्यादानां नरव्याघ्र नर्दतां तत्र तत्र ह ।\nघोरमायोधनं जज्ञे प्रेतराजपुरोपमम् ॥"
+          "text": "क्रव्यादानां नरव्याघ्र नर्दतां तत्र तत्र ह ।\nघोरमायोधनं जज्ञे प्रेतराजपुरोपमम् ॥",
+          "meaning": {
+            "en": "Tiger among men, where flesh-eaters roared here and there, the battlefield became fearsome, like the city of the king of the dead."
+          }
         },
         {
           "n": 34,
-          "text": "उत्थितान्यगणेयानि कबन्धानि समन्ततः ।\nनृत्यन्ति वै भूतगणाः संतृप्ता मांसशोणितैः ॥"
+          "text": "उत्थितान्यगणेयानि कबन्धानि समन्ततः ।\nनृत्यन्ति वै भूतगणाः संतृप्ता मांसशोणितैः ॥",
+          "meaning": {
+            "en": "Countless headless trunks rose up on every side, and troops of spirits, sated with flesh and blood, danced."
+          }
         },
         {
           "n": 35,
-          "text": "पीत्वा च शोणितं तत्र वसां पीत्वा च भारत ।\nमेदोमज्जावसातृप्तास्तृप्ता मांसस्य चैव हि ।\nधावमानाश्च दृश्यन्ते काकगृध्रबलास्तथा ॥"
+          "text": "पीत्वा च शोणितं तत्र वसां पीत्वा च भारत ।\nमेदोमज्जावसातृप्तास्तृप्ता मांसस्य चैव हि ।\nधावमानाश्च दृश्यन्ते काकगृध्रबलास्तथा ॥",
+          "meaning": {
+            "en": "Bharata, crows, vultures and herons were seen running about, drinking blood and fat, filled with marrow and fat and flesh."
+          }
         },
         {
           "n": 36,
-          "text": "शूरास्तु समरे राजन्भयं त्यक्त्वा सुदुस्त्यजम् ।\nयोधव्रतसमाख्याताश्चक्रुः कर्माण्यभीतवत् ॥"
+          "text": "शूरास्तु समरे राजन्भयं त्यक्त्वा सुदुस्त्यजम् ।\nयोधव्रतसमाख्याताश्चक्रुः कर्माण्यभीतवत् ॥",
+          "meaning": {
+            "en": "But the heroes in the battle, giving up the fear that is so hard to give up, did their deeds as if unafraid, keeping the vow of warriors."
+          }
         },
         {
           "n": 37,
-          "text": "शरशक्तिसमाकीर्णे क्रव्यादगणसंकुले ।\nव्यचरन्त गणैः शूराः ख्यापयन्तः स्वपौरुषम् ॥"
+          "text": "शरशक्तिसमाकीर्णे क्रव्यादगणसंकुले ।\nव्यचरन्त गणैः शूराः ख्यापयन्तः स्वपौरुषम् ॥",
+          "meaning": {
+            "en": "In the field strewn with arrows and spears and crowded with flesh-eaters, the heroes moved in bands, proclaiming their own manliness."
+          }
         },
         {
           "n": 38,
-          "text": "अन्योन्यं श्रावयन्ति स्म नामगोत्राणि भारत ।\nपितृनामानि च रणे गोत्रनामानि चाभितः ॥"
+          "text": "अन्योन्यं श्रावयन्ति स्म नामगोत्राणि भारत ।\nपितृनामानि च रणे गोत्रनामानि चाभितः ॥",
+          "meaning": {
+            "en": "Bharata, they called out to one another their names and clans, and in the battle the names of their fathers and of their families on all sides."
+          }
         },
         {
           "n": 39,
-          "text": "श्रावयन्तो हि बहवस्तत्र योधा विशां पते ।\nअन्योन्यमवमृद्नन्तः शक्तितोमरपट्टिशैः ॥"
+          "text": "श्रावयन्तो हि बहवस्तत्र योधा विशां पते ।\nअन्योन्यमवमृद्नन्तः शक्तितोमरपट्टिशैः ॥",
+          "meaning": {
+            "en": "Lord of the people, many warriors there called out in this way while trampling one another with spears, lances and battle-axes."
+          }
         },
         {
           "n": 40,
-          "text": "वर्तमाने तदा युद्धे घोररूपे सुदारुणे ।\nव्यषीदत्कौरवी सेना भिन्ना नौरिव सागरे ॥"
+          "text": "वर्तमाने तदा युद्धे घोररूपे सुदारुणे ।\nव्यषीदत्कौरवी सेना भिन्ना नौरिव सागरे ॥",
+          "meaning": {
+            "en": "While that dreadful, very terrible battle was going on, the Kuru army sank down like a broken ship in the ocean."
+          }
         }
       ]
     }

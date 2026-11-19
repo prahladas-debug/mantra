@@ -22,165 +22,288 @@
       "titleEn": "Sauptika Parva (The night massacre)",
       "verses": [
         {
-          "text": "कृप उवाच"
+          "text": "कृप उवाच",
+          "meaning": {
+            "en": "Kripa said:"
+          }
         },
         {
           "n": 1,
-          "text": "शुश्रूषुरपि दुर्मेधाः पुरुषोऽनियतेन्द्रियः ।\nनालं वेदयितुं कृत्स्नौ धर्मार्थाविति मे मतिः ॥"
+          "text": "शुश्रूषुरपि दुर्मेधाः पुरुषोऽनियतेन्द्रियः ।\nनालं वेदयितुं कृत्स्नौ धर्मार्थाविति मे मतिः ॥",
+          "meaning": {
+            "en": "I think a dull-witted man with unrestrained senses, though he is willing to listen, is not able to grasp both dharma and profit in full."
+          }
         },
         {
           "n": 2,
-          "text": "तथैव तावन्मेधावी विनयं यो न शिक्षति ।\nन च किंचन जानाति सोऽपि धर्मार्थनिश्चयम् ॥"
+          "text": "तथैव तावन्मेधावी विनयं यो न शिक्षति ।\nन च किंचन जानाति सोऽपि धर्मार्थनिश्चयम् ॥",
+          "meaning": {
+            "en": "Likewise even an intelligent man who has not learned humility knows nothing and cannot decide what is right and what is useful."
+          }
         },
         {
           "n": 3,
-          "text": "शुश्रूषुस्त्वेव मेधावी पुरुषो नियतेन्द्रियः ।\nजानीयादागमान्सर्वान्ग्राह्यं च न विरोधयेत् ॥"
+          "text": "शुश्रूषुस्त्वेव मेधावी पुरुषो नियतेन्द्रियः ।\nजानीयादागमान्सर्वान्ग्राह्यं च न विरोधयेत् ॥",
+          "meaning": {
+            "en": "But an intelligent man who is willing to listen and has his senses under control can learn all the teachings and does not oppose what is to be accepted."
+          }
         },
         {
           "n": 4,
-          "text": "अनेयस्त्ववमानी यो दुरात्मा पापपूरुषः ।\nदिष्टमुत्सृज्य कल्याणं करोति बहुपापकम् ॥"
+          "text": "अनेयस्त्ववमानी यो दुरात्मा पापपूरुषः ।\nदिष्टमुत्सृज्य कल्याणं करोति बहुपापकम् ॥",
+          "meaning": {
+            "en": "But one who cannot be led, who is arrogant, wicked and sinful, discards what destiny offers and does great evil."
+          }
         },
         {
           "n": 5,
-          "text": "नाथवन्तं तु सुहृदः प्रतिषेधन्ति पातकात् ।\nनिवर्तते तु लक्ष्मीवान्नालक्ष्मीवान्निवर्तते ॥"
+          "text": "नाथवन्तं तु सुहृदः प्रतिषेधन्ति पातकात् ।\nनिवर्तते तु लक्ष्मीवान्नालक्ष्मीवान्निवर्तते ॥",
+          "meaning": {
+            "en": "Friends hold back a man who has protectors from sin; the fortunate man turns back, while the unfortunate one does not."
+          }
         },
         {
           "n": 6,
-          "text": "यथा ह्युच्चावचैर्वाक्यैः क्षिप्तचित्तो नियम्यते ।\nतथैव सुहृदा शक्यो नशक्यस्त्ववसीदति ॥"
+          "text": "यथा ह्युच्चावचैर्वाक्यैः क्षिप्तचित्तो नियम्यते ।\nतथैव सुहृदा शक्यो नशक्यस्त्ववसीदति ॥",
+          "meaning": {
+            "en": "Just as a distracted person is calmed by words of all kinds, so one with a friend can be restrained; one who cannot be restrained sinks."
+          }
         },
         {
           "n": 7,
-          "text": "तथैव सुहृदं प्राज्ञं कुर्वाणं कर्म पापकम् ।\nप्राज्ञाः संप्रतिषेधन्ते यथाशक्ति पुनः पुनः ॥"
+          "text": "तथैव सुहृदं प्राज्ञं कुर्वाणं कर्म पापकम् ।\nप्राज्ञाः संप्रतिषेधन्ते यथाशक्ति पुनः पुनः ॥",
+          "meaning": {
+            "en": "In the same way, the wise repeatedly forbid, as best they can, a clever friend who is doing a wicked deed."
+          }
         },
         {
           "n": 8,
-          "text": "स कल्याणे मतिं कृत्वा नियम्यात्मानमात्मना ।\nकुरु मे वचनं तात येन पश्चान्न तप्यसे ॥"
+          "text": "स कल्याणे मतिं कृत्वा नियम्यात्मानमात्मना ।\nकुरु मे वचनं तात येन पश्चान्न तप्यसे ॥",
+          "meaning": {
+            "en": "So set your mind on what is good, restrain yourself by yourself, and follow my words, dear one, so that you do not suffer afterward."
+          }
         },
         {
           "n": 9,
-          "text": "न वधः पूज्यते लोके सुप्तानामिह धर्मतः ।\nतथैव न्यस्तशस्त्राणां विमुक्तरथवाजिनाम् ॥"
+          "text": "न वधः पूज्यते लोके सुप्तानामिह धर्मतः ।\nतथैव न्यस्तशस्त्राणां विमुक्तरथवाजिनाम् ॥",
+          "meaning": {
+            "en": "By dharma, killing the sleeping is not praised in the world, nor of those who have laid down their weapons or who have unyoked their chariots and horses."
+          }
         },
         {
           "n": 10,
-          "text": "ये च ब्रूयुस्तवास्मीति ये च स्युः शरणागताः ।\nविमुक्तमूर्धजा ये च ये चापि हतवाहनाः ॥"
+          "text": "ये च ब्रूयुस्तवास्मीति ये च स्युः शरणागताः ।\nविमुक्तमूर्धजा ये च ये चापि हतवाहनाः ॥",
+          "meaning": {
+            "en": "Nor of those who say \"I am yours,\" or who have come for refuge, or whose hair is loosed, or whose chariots are destroyed."
+          }
         },
         {
           "n": 11,
-          "text": "अद्य स्वप्स्यन्ति पाञ्चाला विमुक्तकवचा विभो ।\nविश्वस्ता रजनीं सर्वे प्रेता इव विचेतसः ॥"
+          "text": "अद्य स्वप्स्यन्ति पाञ्चाला विमुक्तकवचा विभो ।\nविश्वस्ता रजनीं सर्वे प्रेता इव विचेतसः ॥",
+          "meaning": {
+            "en": "Tonight, lord, the Panchalas will sleep with their armor off, all of them trusting and senseless as the dead."
+          }
         },
         {
           "n": 12,
-          "text": "यस्तेषां तदवस्थानां द्रुह्येत पुरुषोऽनृजुः ।\nव्यक्तं स नरके मज्जेदगाधे विपुलेऽप्लवे ॥"
+          "text": "यस्तेषां तदवस्थानां द्रुह्येत पुरुषोऽनृजुः ।\nव्यक्तं स नरके मज्जेदगाधे विपुलेऽप्लवे ॥",
+          "meaning": {
+            "en": "The crooked man who wrongs them in that state will surely sink in a vast hell without a raft."
+          }
         },
         {
           "n": 13,
-          "text": "सर्वास्त्रविदुषां लोके श्रेष्ठस्त्वमसि विश्रुतः ।\nन च ते जातु लोकेऽस्मिन्सुसूक्ष्ममपि किल्बिषम् ॥"
+          "text": "सर्वास्त्रविदुषां लोके श्रेष्ठस्त्वमसि विश्रुतः ।\nन च ते जातु लोकेऽस्मिन्सुसूक्ष्ममपि किल्बिषम् ॥",
+          "meaning": {
+            "en": "You are renowned as the best among those who know all weapons, and there is not the slightest fault in you anywhere in this world."
+          }
         },
         {
           "n": 14,
-          "text": "त्वं पुनः सूर्यसंकाशः श्वोभूत उदिते रवौ ।\nप्रकाशे सर्वभूतानां विजेता युधि शात्रवान् ॥"
+          "text": "त्वं पुनः सूर्यसंकाशः श्वोभूत उदिते रवौ ।\nप्रकाशे सर्वभूतानां विजेता युधि शात्रवान् ॥",
+          "meaning": {
+            "en": "But tomorrow, when the sun has risen, you will shine like the sun and conquer your enemies in battle in the sight of all beings."
+          }
         },
         {
           "n": 15,
-          "text": "असंभावितरूपं हि त्वयि कर्म विगर्हितम् ।\nशुक्ले रक्तमिव न्यस्तं भवेदिति मतिर्मम ॥"
+          "text": "असंभावितरूपं हि त्वयि कर्म विगर्हितम् ।\nशुक्ले रक्तमिव न्यस्तं भवेदिति मतिर्मम ॥",
+          "meaning": {
+            "en": "This blamable act is unthinkable in you; I feel it would be like a red stain placed on white cloth."
+          }
         },
         {
-          "text": "अश्वत्थामोवाच"
+          "text": "अश्वत्थामोवाच",
+          "meaning": {
+            "en": "Ashvatthaman said:"
+          }
         },
         {
           "n": 16,
-          "text": "एवमेतद्यथात्थ त्वमनुशास्मीह मातुल ।\nतैस्तु पूर्वमयं सेतुः शतधा विदलीकृतः ॥"
+          "text": "एवमेतद्यथात्थ त्वमनुशास्मीह मातुल ।\nतैस्तु पूर्वमयं सेतुः शतधा विदलीकृतः ॥",
+          "meaning": {
+            "en": "What you say is so, uncle, and I accept your instruction; but they already shattered this bridge of dharma into a hundred pieces."
+          }
         },
         {
           "n": 17,
-          "text": "प्रत्यक्षं भूमिपालानां भवतां चापि संनिधौ ।\nन्यस्तशस्त्रो मम पिता धृष्टद्युम्नेन पातितः ॥"
+          "text": "प्रत्यक्षं भूमिपालानां भवतां चापि संनिधौ ।\nन्यस्तशस्त्रो मम पिता धृष्टद्युम्नेन पातितः ॥",
+          "meaning": {
+            "en": "Before the eyes of the kings, and in your presence too, my father, with his weapons laid down, was struck down by Dhrishtadyumna."
+          }
         },
         {
           "n": 18,
-          "text": "कर्णश्च पतिते चक्रे रथस्य रथिनां वरः ।\nउत्तमे व्यसने सन्नो हतो गाण्डीवधन्वना ॥"
+          "text": "कर्णश्च पतिते चक्रे रथस्य रथिनां वरः ।\nउत्तमे व्यसने सन्नो हतो गाण्डीवधन्वना ॥",
+          "meaning": {
+            "en": "Karna, best of charioteers, was killed by the wielder of the Gandiva when his chariot wheel had sunk, and he was in the worst plight."
+          }
         },
         {
           "n": 19,
-          "text": "तथा शांतनवो भीष्मो न्यस्तशस्त्रो निरायुधः ।\nशिखण्डिनं पुरस्कृत्य हतो गाण्डीवधन्वना ॥"
+          "text": "तथा शांतनवो भीष्मो न्यस्तशस्त्रो निरायुधः ।\nशिखण्डिनं पुरस्कृत्य हतो गाण्डीवधन्वना ॥",
+          "meaning": {
+            "en": "So too Bhishma, the son of Shantanu, with his weapons laid down and unarmed, was killed by the wielder of the Gandiva using Shikhandin as his shield."
+          }
         },
         {
           "n": 20,
-          "text": "भूरिश्रवा महेष्वासस्तथा प्रायगतो रणे ।\nक्रोशतां भूमिपालानां युयुधानेन पातितः ॥"
+          "text": "भूरिश्रवा महेष्वासस्तथा प्रायगतो रणे ।\nक्रोशतां भूमिपालानां युयुधानेन पातितः ॥",
+          "meaning": {
+            "en": "Likewise Bhurishravas, the great archer, who was fasting to death in the battle, was cut down by Yuyudhana while the kings cried out."
+          }
         },
         {
           "n": 21,
-          "text": "दुर्योधनश्च भीमेन समेत्य गदया मृधे ।\nपश्यतां भूमिपालानामधर्मेण निपातितः ॥"
+          "text": "दुर्योधनश्च भीमेन समेत्य गदया मृधे ।\nपश्यतां भूमिपालानामधर्मेण निपातितः ॥",
+          "meaning": {
+            "en": "Duryodhana, meeting Bhima in a mace fight, was felled unfairly in the sight of the kings."
+          }
         },
         {
           "n": 22,
-          "text": "एकाकी बहुभिस्तत्र परिवार्य महारथैः ।\nअधर्मेण नरव्याघ्रो भीमसेनेन पातितः ॥"
+          "text": "एकाकी बहुभिस्तत्र परिवार्य महारथैः ।\nअधर्मेण नरव्याघ्रो भीमसेनेन पातितः ॥",
+          "meaning": {
+            "en": "Alone, surrounded there by many great charioteers, that tiger among men was unfairly struck down by Bhimasena."
+          }
         },
         {
           "n": 23,
-          "text": "विलापो भग्नसक्थस्य यो मे राज्ञः परिश्रुतः ।\nवार्त्तिकानां कथयतां स मे मर्माणि कृन्तति ॥"
+          "text": "विलापो भग्नसक्थस्य यो मे राज्ञः परिश्रुतः ।\nवार्त्तिकानां कथयतां स मे मर्माणि कृन्तति ॥",
+          "meaning": {
+            "en": "The lament of my king with broken thighs, which I heard from the messengers as they told it, cuts my vitals."
+          }
         },
         {
           "n": 24,
-          "text": "एवमधार्मिकाः पापाः पाञ्चाला भिन्नसेतवः ।\nतानेवं भिन्नमर्यादान्किं भवान्न विगर्हति ॥"
+          "text": "एवमधार्मिकाः पापाः पाञ्चाला भिन्नसेतवः ।\nतानेवं भिन्नमर्यादान्किं भवान्न विगर्हति ॥",
+          "meaning": {
+            "en": "Such are the sinful, lawless Panchalas, who broke the bridge; why do you not blame them, who have so broken all bounds?"
+          }
         },
         {
           "n": 25,
-          "text": "पितृहन्तॄनहं हत्वा पाञ्चालान्निशि सौप्तिके ।\nकामं कीटः पतंगो वा जन्म प्राप्य भवामि वै ॥"
+          "text": "पितृहन्तॄनहं हत्वा पाञ्चालान्निशि सौप्तिके ।\nकामं कीटः पतंगो वा जन्म प्राप्य भवामि वै ॥",
+          "meaning": {
+            "en": "Having killed the Panchalas, the slayers of my father, in a night attack, I would gladly be born as an insect or a moth."
+          }
         },
         {
           "n": 26,
-          "text": "त्वरे चाहमनेनाद्य यदिदं मे चिकीर्षितम् ।\nतस्य मे त्वरमाणस्य कुतो निद्रा कुतः सुखम् ॥"
+          "text": "त्वरे चाहमनेनाद्य यदिदं मे चिकीर्षितम् ।\nतस्य मे त्वरमाणस्य कुतो निद्रा कुतः सुखम् ॥",
+          "meaning": {
+            "en": "I am in a hurry today over this thing I mean to do; and for me in my haste, where is sleep, where is ease?"
+          }
         },
         {
           "n": 27,
-          "text": "न स जातः पुमाँल्लोके कश्चिन्न च भविष्यति ।\nयो मे व्यावर्तयेदेतां वधे तेषां कृतां मतिम् ॥"
+          "text": "न स जातः पुमाँल्लोके कश्चिन्न च भविष्यति ।\nयो मे व्यावर्तयेदेतां वधे तेषां कृतां मतिम् ॥",
+          "meaning": {
+            "en": "No man has been born in this world, nor will be, who could turn me from this resolve to kill them."
+          }
         },
         {
-          "text": "संजय उवाच"
+          "text": "संजय उवाच",
+          "meaning": {
+            "en": "Sanjaya said:"
+          }
         },
         {
           "n": 28,
-          "text": "एवमुक्त्वा महाराज द्रोणपुत्रः प्रतापवान् ।\nएकान्ते योजयित्वाश्वान्प्रायादभिमुखः परान् ॥"
+          "text": "एवमुक्त्वा महाराज द्रोणपुत्रः प्रतापवान् ।\nएकान्ते योजयित्वाश्वान्प्रायादभिमुखः परान् ॥",
+          "meaning": {
+            "en": "Having spoken thus, O great king, the mighty son of Drona yoked his horses apart and set out facing the enemy."
+          }
         },
         {
           "n": 29,
-          "text": "तमब्रूतां महात्मानौ भोजशारद्वतावुभौ ।\nकिमयं स्यन्दनो युक्तः किं च कार्यं चिकीर्षितम् ॥"
+          "text": "तमब्रूतां महात्मानौ भोजशारद्वतावुभौ ।\nकिमयं स्यन्दनो युक्तः किं च कार्यं चिकीर्षितम् ॥",
+          "meaning": {
+            "en": "The two great-souled ones, the Bhoja and the descendant of Sharadvat, said to him, \"Why is your chariot yoked, and what do you intend to do?"
+          }
         },
         {
           "n": 30,
-          "text": "एकसार्थं प्रयातौ स्वस्त्वया सह नरर्षभ ।\nसमदुःखसुखौ चैव नावां शङ्कितुमर्हसि ॥"
+          "text": "एकसार्थं प्रयातौ स्वस्त्वया सह नरर्षभ ।\nसमदुःखसुखौ चैव नावां शङ्कितुमर्हसि ॥",
+          "meaning": {
+            "en": "We two set out with you in common cause, best of men, and share your pain and pleasure; you should not doubt us.\""
+          }
         },
         {
           "n": 31,
-          "text": "अश्वत्थामा तु संक्रुद्धः पितुर्वधमनुस्मरन् ।\nताभ्यां तथ्यं तदाचख्यौ यदस्यात्मचिकीर्षितम् ॥"
+          "text": "अश्वत्थामा तु संक्रुद्धः पितुर्वधमनुस्मरन् ।\nताभ्यां तथ्यं तदाचख्यौ यदस्यात्मचिकीर्षितम् ॥",
+          "meaning": {
+            "en": "But Ashvatthaman, furious, remembering his father's death, told them truthfully what he intended."
+          }
         },
         {
           "n": 32,
-          "text": "हत्वा शतसहस्राणि योधानां निशितैः शरैः ।\nन्यस्तशस्त्रो मम पिता धृष्टद्युम्नेन पातितः ॥"
+          "text": "हत्वा शतसहस्राणि योधानां निशितैः शरैः ।\nन्यस्तशस्त्रो मम पिता धृष्टद्युम्नेन पातितः ॥",
+          "meaning": {
+            "en": "\"After killing hundreds of thousands of warriors with sharp arrows, my father, with his weapons laid down, was struck down by Dhrishtadyumna."
+          }
         },
         {
           "n": 33,
-          "text": "तं तथैव हनिष्यामि न्यस्तवर्माणमद्य वै ।\nपुत्रं पाञ्चालराजस्य पापं पापेन कर्मणा ॥"
+          "text": "तं तथैव हनिष्यामि न्यस्तवर्माणमद्य वै ।\nपुत्रं पाञ्चालराजस्य पापं पापेन कर्मणा ॥",
+          "meaning": {
+            "en": "I will kill that sinful son of the Panchala king in the very same way, with his armor off, repaying his wicked deed with a wicked deed."
+          }
         },
         {
           "n": 34,
-          "text": "कथं च निहतः पापः पाञ्चालः पशुवन्मया ।\nशस्त्राहवजितां लोकान्प्राप्नुयादिति मे मतिः ॥"
+          "text": "कथं च निहतः पापः पाञ्चालः पशुवन्मया ।\nशस्त्राहवजितां लोकान्प्राप्नुयादिति मे मतिः ॥",
+          "meaning": {
+            "en": "And I think that if that sinner of a Panchala is slain by me like a sacrificial beast, he will reach the worlds of those who die by weapons in battle."
+          }
         },
         {
           "n": 35,
-          "text": "क्षिप्रं संनद्धकवचौ सखड्गावात्तकार्मुकौ ।\nसमास्थाय प्रतीक्षेतां रथवर्यौ परंतपौ ॥"
+          "text": "क्षिप्रं संनद्धकवचौ सखड्गावात्तकार्मुकौ ।\nसमास्थाय प्रतीक्षेतां रथवर्यौ परंतपौ ॥",
+          "meaning": {
+            "en": "Quickly, armored and with swords and bows in hand, mount your fine chariot, you two tormentors of the foe, and wait.\""
+          }
         },
         {
           "n": 36,
-          "text": "इत्युक्त्वा रथमास्थाय प्रायादभिमुखः परान् ।\nतमन्वगात्कृपो राजन्कृतवर्मा च सात्वतः ॥"
+          "text": "इत्युक्त्वा रथमास्थाय प्रायादभिमुखः परान् ।\nतमन्वगात्कृपो राजन्कृतवर्मा च सात्वतः ॥",
+          "meaning": {
+            "en": "Having said this, he mounted his chariot and set out toward the enemy, and Kripa and Kritavarman of the Satvatas followed him, O king."
+          }
         },
         {
           "n": 37,
-          "text": "ते प्रयाता व्यरोचन्त परानभिमुखास्त्रयः ।\nहूयमाना यथा यज्ञे समिद्धा हव्यवाहनाः ॥"
+          "text": "ते प्रयाता व्यरोचन्त परानभिमुखास्त्रयः ।\nहूयमाना यथा यज्ञे समिद्धा हव्यवाहनाः ॥",
+          "meaning": {
+            "en": "Setting out, the three, facing the foe, shone like kindled sacrificial fires being invoked at a sacrifice."
+          }
         },
         {
           "n": 38,
-          "text": "ययुश्च शिबिरं तेषां संप्रसुप्तजनं विभो ।\nद्वारदेशं तु संप्राप्य द्रौणिस्तस्थौ रथोत्तमे ॥"
+          "text": "ययुश्च शिबिरं तेषां संप्रसुप्तजनं विभो ।\nद्वारदेशं तु संप्राप्य द्रौणिस्तस्थौ रथोत्तमे ॥",
+          "meaning": {
+            "en": "They went to the camp of the enemy, where the people lay fast asleep, lord; arriving at the gate, the son of Drona halted in his fine chariot."
+          }
         }
       ]
     }

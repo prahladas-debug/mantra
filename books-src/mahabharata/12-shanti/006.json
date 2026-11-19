@@ -22,55 +22,94 @@
       "titleEn": "Rajadharma Parva (Duties of kings)",
       "verses": [
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 1,
-          "text": "एतावदुक्त्वा देवर्षिर्विरराम स नारदः ।\nयुधिष्ठिरस्तु राजर्षिर्दध्यौ शोकपरिप्लुतः ॥"
+          "text": "एतावदुक्त्वा देवर्षिर्विरराम स नारदः ।\nयुधिष्ठिरस्तु राजर्षिर्दध्यौ शोकपरिप्लुतः ॥",
+          "meaning": {
+            "en": "Having said this much, the divine sage Narada fell silent, and the royal sage Yudhishthira sank into thought, flooded with grief."
+          }
         },
         {
           "n": 2,
-          "text": "तं दीनमनसं वीरमधोवदनमातुरम् ।\nनिःश्वसन्तं यथा नागं पर्यश्रुनयनं तथा ॥"
+          "text": "तं दीनमनसं वीरमधोवदनमातुरम् ।\nनिःश्वसन्तं यथा नागं पर्यश्रुनयनं तथा ॥",
+          "meaning": {
+            "en": "Kunti, seeing that hero downcast, with lowered face, afflicted, sighing like a serpent, with tears in his eyes,"
+          }
         },
         {
           "n": 3,
-          "text": "कुन्ती शोकपरीताङ्गी दुःखोपहतचेतना ।\nअब्रवीन्मधुराभाषा काले वचनमर्थवत् ॥"
+          "text": "कुन्ती शोकपरीताङ्गी दुःखोपहतचेतना ।\nअब्रवीन्मधुराभाषा काले वचनमर्थवत् ॥",
+          "meaning": {
+            "en": "her body overcome by sorrow and her mind crushed by grief, spoke to him at the right time in sweet words full of meaning."
+          }
         },
         {
           "n": 4,
-          "text": "युधिष्ठिर महाबाहो नैनं शोचितुमर्हसि ।\nजहि शोकं महाप्राज्ञ शृणु चेदं वचो मम ॥"
+          "text": "युधिष्ठिर महाबाहो नैनं शोचितुमर्हसि ।\nजहि शोकं महाप्राज्ञ शृणु चेदं वचो मम ॥",
+          "meaning": {
+            "en": "Kunti said: Yudhishthira, mighty-armed, you should not grieve for him. Put away your sorrow, wise one, and hear these words of mine."
+          }
         },
         {
           "n": 5,
-          "text": "यतितः स मया पूर्वं भ्रात्र्यं ज्ञापयितुं तव ।\nभास्करेण च देवेन पित्रा धर्मभृतां वर ॥"
+          "text": "यतितः स मया पूर्वं भ्रात्र्यं ज्ञापयितुं तव ।\nभास्करेण च देवेन पित्रा धर्मभृतां वर ॥",
+          "meaning": {
+            "en": "I tried long ago to make known to you that he was your brother, best of those who uphold dharma; and his father, the god Surya, tried too."
+          }
         },
         {
           "n": 6,
-          "text": "यद्वाच्यं हितकामेन सुहृदा भूतिमिच्छता ।\nतथा दिवाकरेणोक्तः स्वप्नान्ते मम चाग्रतः ॥"
+          "text": "यद्वाच्यं हितकामेन सुहृदा भूतिमिच्छता ।\nतथा दिवाकरेणोक्तः स्वप्नान्ते मम चाग्रतः ॥",
+          "meaning": {
+            "en": "Whatever a friend who wishes you well and desires your prosperity should say, the sun god told me at the end of a dream, in front of me."
+          }
         },
         {
           "n": 7,
-          "text": "न चैनमशकद्भानुरहं वा स्नेहकारणैः ।\nपुरा प्रत्यनुनेतुं वा नेतुं वाप्येकतां त्वया ॥"
+          "text": "न चैनमशकद्भानुरहं वा स्नेहकारणैः ।\nपुरा प्रत्यनुनेतुं वा नेतुं वाप्येकतां त्वया ॥",
+          "meaning": {
+            "en": "But neither Surya nor I could, with affectionate reasons, win him over beforehand or bring him into unity with you."
+          }
         },
         {
           "n": 8,
-          "text": "ततः कालपरीतः स वैरस्योद्धुक्षणे रतः ।\nप्रतीपकारी युष्माकमिति चोपेक्षितो मया ॥"
+          "text": "ततः कालपरीतः स वैरस्योद्धुक्षणे रतः ।\nप्रतीपकारी युष्माकमिति चोपेक्षितो मया ॥",
+          "meaning": {
+            "en": "Then, in the grip of fate and intent on feeding his hatred, he became your opponent, and I let him be."
+          }
         },
         {
           "n": 9,
-          "text": "इत्युक्तो धर्मराजस्तु मात्रा बाष्पाकुलेक्षणः ।\nउवाच वाक्यं धर्मात्मा शोकव्याकुलचेतनः ॥"
+          "text": "इत्युक्तो धर्मराजस्तु मात्रा बाष्पाकुलेक्षणः ।\nउवाच वाक्यं धर्मात्मा शोकव्याकुलचेतनः ॥",
+          "meaning": {
+            "en": "Spoken to by his mother thus, Dharmaraja, his eyes filled with tears and his mind distracted by grief, the one of dharma-soul replied."
+          }
         },
         {
           "n": 10,
-          "text": "भवत्या गूढमन्त्रत्वात्पीडितोऽस्मीत्युवाच ताम् ।\nशशाप च महातेजाः सर्वलोकेषु च स्त्रियः ।\nन गुह्यं धारयिष्यन्तीत्यतिदुःखसमन्वितः ॥"
+          "text": "भवत्या गूढमन्त्रत्वात्पीडितोऽस्मीत्युवाच ताम् ।\nशशाप च महातेजाः सर्वलोकेषु च स्त्रियः ।\nन गुह्यं धारयिष्यन्तीत्यतिदुःखसमन्वितः ॥",
+          "meaning": {
+            "en": "He told her, \"I have been hurt by your keeping the secret.\" And, in great pain, the greatly radiant man cursed women in all the worlds: \"They shall never be able to keep a secret.\""
+          }
         },
         {
           "n": 11,
-          "text": "स राजा पुत्रपौत्राणां संबन्धिसुहृदां तथा ।\nस्मरन्नुद्विग्नहृदयो बभूवास्वस्थचेतनः ॥"
+          "text": "स राजा पुत्रपौत्राणां संबन्धिसुहृदां तथा ।\nस्मरन्नुद्विग्नहृदयो बभूवास्वस्थचेतनः ॥",
+          "meaning": {
+            "en": "Remembering his sons, grandsons, relatives and friends, the king became troubled at heart and ill at ease."
+          }
         },
         {
           "n": 12,
-          "text": "ततः शोकपरीतात्मा सधूम इव पावकः ।\nनिर्वेदमकरोद्धीमान्राजा संतापपीडितः ॥"
+          "text": "ततः शोकपरीतात्मा सधूम इव पावकः ।\nनिर्वेदमकरोद्धीमान्राजा संतापपीडितः ॥",
+          "meaning": {
+            "en": "Then, his mind overwhelmed by grief like a fire shrouded in smoke, the wise king, tormented with sorrow, came to feel disgust with the world."
+          }
         }
       ]
     }

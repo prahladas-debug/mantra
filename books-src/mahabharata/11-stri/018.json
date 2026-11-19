@@ -22,119 +22,206 @@
       "titleEn": "Strivilapa Parva (Lament of the women)",
       "verses": [
         {
-          "text": "गान्धार्युवाच"
+          "text": "गान्धार्युवाच",
+          "meaning": {
+            "en": "Gandhari said:"
+          }
         },
         {
           "n": 1,
-          "text": "पश्य माधव पुत्रान्मे शतसंख्याञ्जितक्लमान् ।\nगदया भीमसेनेन भूयिष्ठं निहतान्रणे ॥"
+          "text": "पश्य माधव पुत्रान्मे शतसंख्याञ्जितक्लमान् ।\nगदया भीमसेनेन भूयिष्ठं निहतान्रणे ॥",
+          "meaning": {
+            "en": "Look, Madhava, at my hundred sons who had conquered weariness, most of them struck down in battle by Bhimasena with his mace."
+          }
         },
         {
           "n": 2,
-          "text": "इदं दुःखतरं मेऽद्य यदिमा मुक्तमूर्धजाः ।\nहतपुत्रा रणे बालाः परिधावन्ति मे स्नुषाः ॥"
+          "text": "इदं दुःखतरं मेऽद्य यदिमा मुक्तमूर्धजाः ।\nहतपुत्रा रणे बालाः परिधावन्ति मे स्नुषाः ॥",
+          "meaning": {
+            "en": "This is a harder grief to me today, that these young daughters-in-law of mine, their sons slain, run about in the battle with loosened hair."
+          }
         },
         {
           "n": 3,
-          "text": "प्रासादतलचारिण्यश्चरणैर्भूषणान्वितैः ।\nआपन्ना यत्स्पृशन्तीमा रुधिरार्द्रां वसुंधराम् ॥"
+          "text": "प्रासादतलचारिण्यश्चरणैर्भूषणान्वितैः ।\nआपन्ना यत्स्पृशन्तीमा रुधिरार्द्रां वसुंधराम् ॥",
+          "meaning": {
+            "en": "Women who once walked on palace floors with ornamented feet now, in distress, touch the blood-wet earth."
+          }
         },
         {
           "n": 4,
-          "text": "गृध्रानुत्सारयन्त्यश्च गोमायून्वायसांस्तथा ।\nशोकेनार्ता विघूर्णन्त्यो मत्ता इव चरन्त्युत ॥"
+          "text": "गृध्रानुत्सारयन्त्यश्च गोमायून्वायसांस्तथा ।\nशोकेनार्ता विघूर्णन्त्यो मत्ता इव चरन्त्युत ॥",
+          "meaning": {
+            "en": "Driving off vultures, jackals and crows, afflicted by grief, reeling, they wander about as if drunk."
+          }
         },
         {
           "n": 5,
-          "text": "एषान्या त्वनवद्याङ्गी करसंमितमध्यमा ।\nघोरं तद्वैशसं दृष्ट्वा निपतत्यतिदुःखिता ॥"
+          "text": "एषान्या त्वनवद्याङ्गी करसंमितमध्यमा ।\nघोरं तद्वैशसं दृष्ट्वा निपतत्यतिदुःखिता ॥",
+          "meaning": {
+            "en": "Here is another, blameless in her limbs, her waist small enough to be clasped by a hand; seeing that terrible slaughter, she falls down in great grief."
+          }
         },
         {
           "n": 6,
-          "text": "दृष्ट्वा मे पार्थिवसुतामेतां लक्ष्मणमातरम् ।\nराजपुत्रीं महाबाहो मनो न व्युपशाम्यति ॥"
+          "text": "दृष्ट्वा मे पार्थिवसुतामेतां लक्ष्मणमातरम् ।\nराजपुत्रीं महाबाहो मनो न व्युपशाम्यति ॥",
+          "meaning": {
+            "en": "Seeing this princess, mother of Lakshmana, my mind does not grow calm, mighty-armed one."
+          }
         },
         {
           "n": 7,
-          "text": "भ्रातॄंश्चान्याः पतींश्चान्याः पुत्रांश्च निहतान्भुवि ।\nदृष्ट्वा परिपतन्त्येताः प्रगृह्य सुभुजा भुजान् ॥"
+          "text": "भ्रातॄंश्चान्याः पतींश्चान्याः पुत्रांश्च निहतान्भुवि ।\nदृष्ट्वा परिपतन्त्येताः प्रगृह्य सुभुजा भुजान् ॥",
+          "meaning": {
+            "en": "Some women, seeing brothers, others husbands, others sons slain on the ground, rush around and seize their arms with their own fair arms."
+          }
         },
         {
           "n": 8,
-          "text": "मध्यमानां तु नारीणां वृद्धानां चापराजित ।\nआक्रन्दं हतबन्धूनां दारुणे वैशसे शृणु ॥"
+          "text": "मध्यमानां तु नारीणां वृद्धानां चापराजित ।\nआक्रन्दं हतबन्धूनां दारुणे वैशसे शृणु ॥",
+          "meaning": {
+            "en": "Unconquered one, hear in this dreadful slaughter the wailing of the middle-aged and elderly women whose kin are dead."
+          }
         },
         {
           "n": 9,
-          "text": "रथनीडानि देहांश्च हतानां गजवाजिनाम् ।\nआश्रिताः श्रममोहार्ताः स्थिताः पश्य महाबल ॥"
+          "text": "रथनीडानि देहांश्च हतानां गजवाजिनाम् ।\nआश्रिताः श्रममोहार्ताः स्थिताः पश्य महाबल ॥",
+          "meaning": {
+            "en": "Mighty one, look how, exhausted and bewildered, they stand taking shelter by chariot-seats and the bodies of the slain elephants and horses."
+          }
         },
         {
           "n": 10,
-          "text": "अन्या चापहृतं कायाच्चारुकुण्डलमुन्नसम् ।\nस्वस्य बन्धोः शिरः कृष्ण गृहीत्वा पश्य तिष्ठति ॥"
+          "text": "अन्या चापहृतं कायाच्चारुकुण्डलमुन्नसम् ।\nस्वस्य बन्धोः शिरः कृष्ण गृहीत्वा पश्य तिष्ठति ॥",
+          "meaning": {
+            "en": "Krishna, look at another woman standing holding the head of her own kinsman, with its beautiful earrings and fine nose, taken from his body."
+          }
         },
         {
           "n": 11,
-          "text": "पूर्वजातिकृतं पापं मन्ये नाल्पमिवानघ ।\nएताभिरनवद्याभिर्मया चैवाल्पमेधया ॥"
+          "text": "पूर्वजातिकृतं पापं मन्ये नाल्पमिवानघ ।\nएताभिरनवद्याभिर्मया चैवाल्पमेधया ॥",
+          "meaning": {
+            "en": "Blameless one, I think the sin committed in a former life by these blameless women and by me, of little understanding, was not small."
+          }
         },
         {
           "n": 12,
-          "text": "तदिदं धर्मराजेन यातितं नो जनार्दन ।\nन हि नाशोऽस्ति वार्ष्णेय कर्मणोः शुभपापयोः ॥"
+          "text": "तदिदं धर्मराजेन यातितं नो जनार्दन ।\nन हि नाशोऽस्ति वार्ष्णेय कर्मणोः शुभपापयोः ॥",
+          "meaning": {
+            "en": "Janardana, Dharmaraja strove to prevent this for us, but there is no loss, Vrishni, of deeds good and bad."
+          }
         },
         {
           "n": 13,
-          "text": "प्रत्यग्रवयसः पश्य दर्शनीयकुचोदराः ।\nकुलेषु जाता ह्रीमत्यः कृष्णपक्षाक्षिमूर्धजाः ॥"
+          "text": "प्रत्यग्रवयसः पश्य दर्शनीयकुचोदराः ।\nकुलेषु जाता ह्रीमत्यः कृष्णपक्षाक्षिमूर्धजाः ॥",
+          "meaning": {
+            "en": "Look at these young women, with lovely breasts and waists, born in good families, modest, with dark-edged eyes and hair,"
+          }
         },
         {
           "n": 14,
-          "text": "हंसगद्गदभाषिण्यो दुःखशोकप्रमोहिताः ।\nसारस्य इव वाशन्त्यः पतिताः पश्य माधव ॥"
+          "text": "हंसगद्गदभाषिण्यो दुःखशोकप्रमोहिताः ।\nसारस्य इव वाशन्त्यः पतिताः पश्य माधव ॥",
+          "meaning": {
+            "en": "speaking in voices thick like geese, bewildered by grief and sorrow, fallen and crying like cranes, Madhava."
+          }
         },
         {
           "n": 15,
-          "text": "फुल्लपद्मप्रकाशानि पुण्डरीकाक्ष योषिताम् ।\nअनवद्यानि वक्त्राणि तपत्यसुखरश्मिवान् ॥"
+          "text": "फुल्लपद्मप्रकाशानि पुण्डरीकाक्ष योषिताम् ।\nअनवद्यानि वक्त्राणि तपत्यसुखरश्मिवान् ॥",
+          "meaning": {
+            "en": "Lotus-eyed one, the faultless faces of these women, bright as blossomed lotuses, are scorched by the unpleasant sun."
+          }
         },
         {
           "n": 16,
-          "text": "ईर्षूणां मम पुत्राणां वासुदेवावरोधनम् ।\nमत्तमातङ्गदर्पाणां पश्यन्त्यद्य पृथग्जनाः ॥"
+          "text": "ईर्षूणां मम पुत्राणां वासुदेवावरोधनम् ।\nमत्तमातङ्गदर्पाणां पश्यन्त्यद्य पृथग्जनाः ॥",
+          "meaning": {
+            "en": "Vasudeva, common people see today the women's quarters of my jealous sons, proud as rutting elephants."
+          }
         },
         {
           "n": 17,
-          "text": "शतचन्द्राणि चर्माणि ध्वजांश्चादित्यसंनिभान् ।\nरौक्माणि चैव वर्माणि निष्कानपि च काञ्चनान् ॥"
+          "text": "शतचन्द्राणि चर्माणि ध्वजांश्चादित्यसंनिभान् ।\nरौक्माणि चैव वर्माणि निष्कानपि च काञ्चनान् ॥",
+          "meaning": {
+            "en": "On the ground are my sons' shields with a hundred moons, their banners bright as the sun, their golden armor and golden necklaces,"
+          }
         },
         {
           "n": 18,
-          "text": "शीर्षत्राणानि चैतानि पुत्राणां मे महीतले ।\nपश्य दीप्तानि गोविन्द पावकान्सुहुतानिव ॥"
+          "text": "शीर्षत्राणानि चैतानि पुत्राणां मे महीतले ।\nपश्य दीप्तानि गोविन्द पावकान्सुहुतानिव ॥",
+          "meaning": {
+            "en": "and their helmets, Govinda; look, they shine like fires well fed with offerings."
+          }
         },
         {
           "n": 19,
-          "text": "एष दुःशासनः शेते शूरेणामित्रघातिना ।\nपीतशोणितसर्वाङ्गो भीमसेनेन पातितः ॥"
+          "text": "एष दुःशासनः शेते शूरेणामित्रघातिना ।\nपीतशोणितसर्वाङ्गो भीमसेनेन पातितः ॥",
+          "meaning": {
+            "en": "Here lies Duhshasana, felled by the hero who slays his enemies, Bhimasena, every limb of whom had drunk blood."
+          }
         },
         {
           "n": 20,
-          "text": "गदया वीरघातिन्या पश्य माधव मे सुतम् ।\nद्यूतक्लेशाननुस्मृत्य द्रौपद्या चोदितेन च ॥"
+          "text": "गदया वीरघातिन्या पश्य माधव मे सुतम् ।\nद्यूतक्लेशाननुस्मृत्य द्रौपद्या चोदितेन च ॥",
+          "meaning": {
+            "en": "Look, Madhava, at my son, killed by the hero-slaying mace, remembering the torments of the dice game and urged on by Draupadi."
+          }
         },
         {
           "n": 21,
-          "text": "उक्ता ह्यनेन पाञ्चाली सभायां द्यूतनिर्जिता ।\nप्रियं चिकीर्षता भ्रातुः कर्णस्य च जनार्दन ॥"
+          "text": "उक्ता ह्यनेन पाञ्चाली सभायां द्यूतनिर्जिता ।\nप्रियं चिकीर्षता भ्रातुः कर्णस्य च जनार्दन ॥",
+          "meaning": {
+            "en": "Wishing to please his brother and Karna, he said in the assembly to Panchali, who had been won at dice:"
+          }
         },
         {
           "n": 22,
-          "text": "सहैव सहदेवेन नकुलेनार्जुनेन च ।\nदासभार्यासि पाञ्चालि क्षिप्रं प्रविश नो गृहान् ॥"
+          "text": "सहैव सहदेवेन नकुलेनार्जुनेन च ।\nदासभार्यासि पाञ्चालि क्षिप्रं प्रविश नो गृहान् ॥",
+          "meaning": {
+            "en": "\"Panchali, you are a slave's wife, together with Sahadeva, Nakula and Arjuna. Quickly enter our house.\""
+          }
         },
         {
           "n": 23,
-          "text": "ततोऽहमब्रुवं कृष्ण तदा दुर्योधनं नृपम् ।\nमृत्युपाशपरिक्षिप्तं शकुनिं पुत्र वर्जय ॥"
+          "text": "ततोऽहमब्रुवं कृष्ण तदा दुर्योधनं नृपम् ।\nमृत्युपाशपरिक्षिप्तं शकुनिं पुत्र वर्जय ॥",
+          "meaning": {
+            "en": "Then, Krishna, I told King Duryodhana: \"Son, give up Shakuni, who is wrapped in the noose of death."
+          }
         },
         {
           "n": 24,
-          "text": "निबोधैनं सुदुर्बुद्धिं मातुलं कलहप्रियम् ।\nक्षिप्रमेनं परित्यज्य पुत्र शाम्यस्व पाण्डवैः ॥"
+          "text": "निबोधैनं सुदुर्बुद्धिं मातुलं कलहप्रियम् ।\nक्षिप्रमेनं परित्यज्य पुत्र शाम्यस्व पाण्डवैः ॥",
+          "meaning": {
+            "en": "Know him as an evil-minded uncle who loves quarrels. Quickly abandon him, son, and make peace with the Pandavas."
+          }
         },
         {
           "n": 25,
-          "text": "न बुध्यसे त्वं दुर्बुद्धे भीमसेनममर्षणम् ।\nवाङ्नाराचैस्तुदंस्तीक्ष्णैरुल्काभिरिव कुञ्जरम् ॥"
+          "text": "न बुध्यसे त्वं दुर्बुद्धे भीमसेनममर्षणम् ।\nवाङ्नाराचैस्तुदंस्तीक्ष्णैरुल्काभिरिव कुञ्जरम् ॥",
+          "meaning": {
+            "en": "You do not understand, foolish one, that Bhimasena is intolerant, and you torment him with sharp arrows of words as one torments an elephant with torches.\""
+          }
         },
         {
           "n": 26,
-          "text": "तानेष रभसः क्रूरो वाक्शल्यानवधारयन् ।\nउत्ससर्ज विषं तेषु सर्पो गोवृषभेष्विव ॥"
+          "text": "तानेष रभसः क्रूरो वाक्शल्यानवधारयन् ।\nउत्ससर्ज विषं तेषु सर्पो गोवृषभेष्विव ॥",
+          "meaning": {
+            "en": "That fierce, impetuous man, taking those thorns of words to heart, released his poison on them, as a serpent on bulls and cows."
+          }
         },
         {
           "n": 27,
-          "text": "एष दुःशासनः शेते विक्षिप्य विपुलौ भुजौ ।\nनिहतो भीमसेनेन सिंहेनेव महर्षभः ॥"
+          "text": "एष दुःशासनः शेते विक्षिप्य विपुलौ भुजौ ।\nनिहतो भीमसेनेन सिंहेनेव महर्षभः ॥",
+          "meaning": {
+            "en": "Here lies Duhshasana, arms flung wide, killed by Bhimasena like a great bull by a lion."
+          }
         },
         {
           "n": 28,
-          "text": "अत्यर्थमकरोद्रौद्रं भीमसेनोऽत्यमर्षणः ।\nदुःशासनस्य यत्क्रुद्धोऽपिबच्छोणितमाहवे ॥"
+          "text": "अत्यर्थमकरोद्रौद्रं भीमसेनोऽत्यमर्षणः ।\nदुःशासनस्य यत्क्रुद्धोऽपिबच्छोणितमाहवे ॥",
+          "meaning": {
+            "en": "Bhimasena, in his great anger, did something exceedingly savage, that in his rage he drank Duhshasana's blood in battle."
+          }
         }
       ]
     }

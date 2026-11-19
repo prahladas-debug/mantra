@@ -22,137 +22,242 @@
       "titleEn": "Rajadharma Parva (Duties of kings)",
       "verses": [
         {
-          "text": "अर्जुन उवाच"
+          "text": "अर्जुन उवाच",
+          "meaning": {
+            "en": "Arjuna said:"
+          }
         },
         {
           "n": 1,
-          "text": "अत्रैवोदाहरन्तीममितिहासं पुरातनम् ।\nतापसैः सह संवादं शक्रस्य भरतर्षभ ॥"
+          "text": "अत्रैवोदाहरन्तीममितिहासं पुरातनम् ।\nतापसैः सह संवादं शक्रस्य भरतर्षभ ॥",
+          "meaning": {
+            "en": "On this very point they tell an ancient story, best of the Bharatas, of a conversation between Indra and some ascetics."
+          }
         },
         {
           "n": 2,
-          "text": "केचिद्गृहान्परित्यज्य वनमभ्यगमन्द्विजाः ।\nअजातश्मश्रवो मन्दाः कुले जाताः प्रवव्रजुः ॥"
+          "text": "केचिद्गृहान्परित्यज्य वनमभ्यगमन्द्विजाः ।\nअजातश्मश्रवो मन्दाः कुले जाताः प्रवव्रजुः ॥",
+          "meaning": {
+            "en": "Some brahmin boys, foolish and not yet bearded, left their homes and went to the forest. Born into good families, they took up the life of wanderers."
+          }
         },
         {
           "n": 3,
-          "text": "धर्मोऽयमिति मन्वाना ब्रह्मचर्ये व्यवस्थिताः ।\nत्यक्त्वा गृहान्पितॄंश्चैव तानिन्द्रोऽन्वकृपायत ॥"
+          "text": "धर्मोऽयमिति मन्वाना ब्रह्मचर्ये व्यवस्थिताः ।\nत्यक्त्वा गृहान्पितॄंश्चैव तानिन्द्रोऽन्वकृपायत ॥",
+          "meaning": {
+            "en": "Thinking, \"This is dharma,\" they settled into celibate student life, abandoning their homes and their fathers. Indra took pity on them."
+          }
         },
         {
           "n": 4,
-          "text": "तानाबभाषे भगवान्पक्षी भूत्वा हिरण्मयः ।\nसुदुष्करं मनुष्यैश्च यत्कृतं विघसाशिभिः ॥"
+          "text": "तानाबभाषे भगवान्पक्षी भूत्वा हिरण्मयः ।\nसुदुष्करं मनुष्यैश्च यत्कृतं विघसाशिभिः ॥",
+          "meaning": {
+            "en": "The lord Indra, taking the form of a golden bird, spoke to them: \"What those men who live on the remains of offerings have done is very hard for human beings."
+          }
         },
         {
           "n": 5,
-          "text": "पुण्यं च बत कर्मैषां प्रशस्तं चैव जीवितम् ।\nसंसिद्धास्ते गतिं मुख्यां प्राप्ता धर्मपरायणाः ॥"
+          "text": "पुण्यं च बत कर्मैषां प्रशस्तं चैव जीवितम् ।\nसंसिद्धास्ते गतिं मुख्यां प्राप्ता धर्मपरायणाः ॥",
+          "meaning": {
+            "en": "How meritorious is their deed and how praiseworthy their life! They are perfected and, devoted to dharma, have reached the highest goal.\""
+          }
         },
         {
-          "text": "ऋषय ऊचुः"
+          "text": "ऋषय ऊचुः",
+          "meaning": {
+            "en": "The sages said:"
+          }
         },
         {
           "n": 6,
-          "text": "अहो बतायं शकुनिर्विघसाशान्प्रशंसति ।\nअस्मान्नूनमयं शास्ति वयं च विघसाशिनः ॥"
+          "text": "अहो बतायं शकुनिर्विघसाशान्प्रशंसति ।\nअस्मान्नूनमयं शास्ति वयं च विघसाशिनः ॥",
+          "meaning": {
+            "en": "Oh, this bird is praising those who eat the remnants of offerings! Surely he is instructing us, and we are indeed such eaters of remnants."
+          }
         },
         {
-          "text": "शकुनिरुवाच"
+          "text": "शकुनिरुवाच",
+          "meaning": {
+            "en": "The bird said:"
+          }
         },
         {
           "n": 7,
-          "text": "नाहं युष्मान्प्रशंसामि पङ्कदिग्धान्रजस्वलान् ।\nउच्छिष्टभोजिनो मन्दानन्ये वै विघसाशिनः ॥"
+          "text": "नाहं युष्मान्प्रशंसामि पङ्कदिग्धान्रजस्वलान् ।\nउच्छिष्टभोजिनो मन्दानन्ये वै विघसाशिनः ॥",
+          "meaning": {
+            "en": "I am not praising you, who are smeared with mud and dust and eat the leavings of others, the dull ones. The remnant-eaters are different people."
+          }
         },
         {
-          "text": "ऋषय ऊचुः"
+          "text": "ऋषय ऊचुः",
+          "meaning": {
+            "en": "The sages said:"
+          }
         },
         {
           "n": 8,
-          "text": "इदं श्रेयः परमिति वयमेवाभ्युपास्महे ।\nशकुने ब्रूहि यच्छ्रेयो भृशं वै श्रद्दधाम ते ॥"
+          "text": "इदं श्रेयः परमिति वयमेवाभ्युपास्महे ।\nशकुने ब्रूहि यच्छ्रेयो भृशं वै श्रद्दधाम ते ॥",
+          "meaning": {
+            "en": "We ourselves follow this as the highest good. Tell us, bird, what is the good; we have great faith in you."
+          }
         },
         {
-          "text": "शकुनिरुवाच"
+          "text": "शकुनिरुवाच",
+          "meaning": {
+            "en": "The bird said:"
+          }
         },
         {
           "n": 9,
-          "text": "यदि मां नाभिशङ्कध्वं विभज्यात्मानमात्मना ।\nततोऽहं वः प्रवक्ष्यामि याथातथ्यं हितं वचः ॥"
+          "text": "यदि मां नाभिशङ्कध्वं विभज्यात्मानमात्मना ।\nततोऽहं वः प्रवक्ष्यामि याथातथ्यं हितं वचः ॥",
+          "meaning": {
+            "en": "If you will not distrust me, and will divide yourselves within yourselves, then I will tell you the true and helpful word."
+          }
         },
         {
-          "text": "ऋषय ऊचुः"
+          "text": "ऋषय ऊचुः",
+          "meaning": {
+            "en": "The sages said:"
+          }
         },
         {
           "n": 10,
-          "text": "शृणुमस्ते वचस्तात पन्थानो विदितास्तव ।\nनियोगे चैव धर्मात्मन्स्थातुमिच्छाम शाधि नः ॥"
+          "text": "शृणुमस्ते वचस्तात पन्थानो विदितास्तव ।\nनियोगे चैव धर्मात्मन्स्थातुमिच्छाम शाधि नः ॥",
+          "meaning": {
+            "en": "We will listen to your words, dear one. You know the paths. We wish to abide by your direction, O one of dharma; instruct us."
+          }
         },
         {
-          "text": "शकुनिरुवाच"
+          "text": "शकुनिरुवाच",
+          "meaning": {
+            "en": "The bird said:"
+          }
         },
         {
           "n": 11,
-          "text": "चतुष्पदां गौः प्रवरा लोहानां काञ्चनं वरम् ।\nशब्दानां प्रवरो मन्त्रो ब्राह्मणो द्विपदां वरः ॥"
+          "text": "चतुष्पदां गौः प्रवरा लोहानां काञ्चनं वरम् ।\nशब्दानां प्रवरो मन्त्रो ब्राह्मणो द्विपदां वरः ॥",
+          "meaning": {
+            "en": "Among four-footed creatures the cow is best; among metals gold is best; among utterances the sacred formula is best; among two-footed beings the brahmin is best."
+          }
         },
         {
           "n": 12,
-          "text": "मन्त्रोऽयं जातकर्मादि ब्राह्मणस्य विधीयते ।\nजीवतो यो यथाकालं श्मशाननिधनादिति ॥"
+          "text": "मन्त्रोऽयं जातकर्मादि ब्राह्मणस्य विधीयते ।\nजीवतो यो यथाकालं श्मशाननिधनादिति ॥",
+          "meaning": {
+            "en": "This sacred formula, beginning with the birth rite, is laid down for the brahmin in life, at the proper times, up to the end at the cremation ground."
+          }
         },
         {
           "n": 13,
-          "text": "कर्माणि वैदिकान्यस्य स्वर्ग्यः पन्थास्त्वनुत्तमः ।\nअथ सर्वाणि कर्माणि मन्त्रसिद्धानि चक्षते ॥"
+          "text": "कर्माणि वैदिकान्यस्य स्वर्ग्यः पन्थास्त्वनुत्तमः ।\nअथ सर्वाणि कर्माणि मन्त्रसिद्धानि चक्षते ॥",
+          "meaning": {
+            "en": "His Vedic rites form the unsurpassed path to heaven, and all rites are said to be perfected by the sacred formula."
+          }
         },
         {
           "n": 14,
-          "text": "आम्नायदृढवादीनि तथा सिद्धिरिहेष्यते ।\nमासार्धमासा ऋतव आदित्यशशितारकम् ॥"
+          "text": "आम्नायदृढवादीनि तथा सिद्धिरिहेष्यते ।\nमासार्धमासा ऋतव आदित्यशशितारकम् ॥",
+          "meaning": {
+            "en": "Success here is sought through firm adherence to the revealed tradition. The half-months, months and seasons, the sun, moon and stars,"
+          }
         },
         {
           "n": 15,
-          "text": "ईहन्ते सर्वभूतानि तदृतं कर्मसङ्गिनाम् ।\nसिद्धिक्षेत्रमिदं पुण्यमयमेवाश्रमो महान् ॥"
+          "text": "ईहन्ते सर्वभूतानि तदृतं कर्मसङ्गिनाम् ।\nसिद्धिक्षेत्रमिदं पुण्यमयमेवाश्रमो महान् ॥",
+          "meaning": {
+            "en": "and all beings, strive according to this order, which is the law for those attached to action. This is the holy field of success, and this is the great stage of life."
+          }
         },
         {
           "n": 16,
-          "text": "अथ ये कर्म निन्दन्तो मनुष्याः कापथं गताः ।\nमूढानामर्थहीनानां तेषामेनस्तु विद्यते ॥"
+          "text": "अथ ये कर्म निन्दन्तो मनुष्याः कापथं गताः ।\nमूढानामर्थहीनानां तेषामेनस्तु विद्यते ॥",
+          "meaning": {
+            "en": "But those men who condemn action and have gone down a wrong road are fools without purpose, and the fault is theirs."
+          }
         },
         {
           "n": 17,
-          "text": "देववंशान्पितृवंशान्ब्रह्मवंशांश्च शाश्वतान् ।\nसंत्यज्य मूढा वर्तन्ते ततो यान्त्यश्रुतीपथम् ॥"
+          "text": "देववंशान्पितृवंशान्ब्रह्मवंशांश्च शाश्वतान् ।\nसंत्यज्य मूढा वर्तन्ते ततो यान्त्यश्रुतीपथम् ॥",
+          "meaning": {
+            "en": "Fools abandon the lines of the gods, ancestors and Brahman, which are eternal, and so they go off the path of the Veda."
+          }
         },
         {
           "n": 18,
-          "text": "एतद्वोऽस्तु तपो युक्तं ददानीत्यृषिचोदितम् ।\nतस्मात्तदध्यवसतस्तपस्वि तप उच्यते ॥"
+          "text": "एतद्वोऽस्तु तपो युक्तं ददानीत्यृषिचोदितम् ।\nतस्मात्तदध्यवसतस्तपस्वि तप उच्यते ॥",
+          "meaning": {
+            "en": "\"Let this be your fitting austerity; I will give,\" the sage urges; therefore one who is set on it is called an ascetic."
+          }
         },
         {
           "n": 19,
-          "text": "देववंशान्पितृवंशान्ब्रह्मवंशांश्च शाश्वतान् ।\nसंविभज्य गुरोश्चर्यां तद्वै दुष्करमुच्यते ॥"
+          "text": "देववंशान्पितृवंशान्ब्रह्मवंशांश्च शाश्वतान् ।\nसंविभज्य गुरोश्चर्यां तद्वै दुष्करमुच्यते ॥",
+          "meaning": {
+            "en": "To divide the eternal lines of gods, ancestors and Brahman among them, and to serve one's teacher, is what is called hard."
+          }
         },
         {
           "n": 20,
-          "text": "देवा वै दुष्करं कृत्वा विभूतिं परमां गताः ।\nतस्माद्गार्हस्थ्यमुद्वोढुं दुष्करं प्रब्रवीमि वः ॥"
+          "text": "देवा वै दुष्करं कृत्वा विभूतिं परमां गताः ।\nतस्माद्गार्हस्थ्यमुद्वोढुं दुष्करं प्रब्रवीमि वः ॥",
+          "meaning": {
+            "en": "The gods did what is hard and reached supreme glory. Therefore I tell you that bearing the householder's life is hard."
+          }
         },
         {
           "n": 21,
-          "text": "तपः श्रेष्ठं प्रजानां हि मूलमेतन्न संशयः ।\nकुटुम्बविधिनानेन यस्मिन्सर्वं प्रतिष्ठितम् ॥"
+          "text": "तपः श्रेष्ठं प्रजानां हि मूलमेतन्न संशयः ।\nकुटुम्बविधिनानेन यस्मिन्सर्वं प्रतिष्ठितम् ॥",
+          "meaning": {
+            "en": "Austerity is the best, and certainly the root of all creatures, and it is fulfilled in this ordering of the household, in which everything stands."
+          }
         },
         {
           "n": 22,
-          "text": "एतद्विदुस्तपो विप्रा द्वंद्वातीता विमत्सराः ।\nतस्माद्वनं मध्यमं च लोकेषु तप उच्यते ॥"
+          "text": "एतद्विदुस्तपो विप्रा द्वंद्वातीता विमत्सराः ।\nतस्माद्वनं मध्यमं च लोकेषु तप उच्यते ॥",
+          "meaning": {
+            "en": "Brahmins who have gone beyond the pairs of opposites and are free of envy know this as austerity. Therefore the middle way of the forest-dweller is called an austerity in the worlds."
+          }
         },
         {
           "n": 23,
-          "text": "दुराधर्षं पदं चैव गच्छन्ति विघसाशिनः ।\nसायंप्रातर्विभज्यान्नं स्वकुटुम्बे यथाविधि ॥"
+          "text": "दुराधर्षं पदं चैव गच्छन्ति विघसाशिनः ।\nसायंप्रातर्विभज्यान्नं स्वकुटुम्बे यथाविधि ॥",
+          "meaning": {
+            "en": "Those who eat the remnants go to a place hard to assail: those who, morning and evening, divide their food within their own household as the rule requires,"
+          }
         },
         {
           "n": 24,
-          "text": "दत्त्वातिथिभ्यो देवेभ्यः पितृभ्यः स्वजनस्य च ।\nअवशिष्टानि येऽश्नन्ति तानाहुर्विघसाशिनः ॥"
+          "text": "दत्त्वातिथिभ्यो देवेभ्यः पितृभ्यः स्वजनस्य च ।\nअवशिष्टानि येऽश्नन्ति तानाहुर्विघसाशिनः ॥",
+          "meaning": {
+            "en": "giving it to guests, gods, ancestors and their own people, and eat what is left over. They are called remnant-eaters."
+          }
         },
         {
           "n": 25,
-          "text": "तस्मात्स्वधर्ममास्थाय सुव्रताः सत्यवादिनः ।\nलोकस्य गुरवो भूत्वा ते भवन्त्यनुपस्कृताः ॥"
+          "text": "तस्मात्स्वधर्ममास्थाय सुव्रताः सत्यवादिनः ।\nलोकस्य गुरवो भूत्वा ते भवन्त्यनुपस्कृताः ॥",
+          "meaning": {
+            "en": "Therefore, standing firm in their own dharma, keeping fine vows and speaking truth, they become teachers of the world and are not made lowly."
+          }
         },
         {
           "n": 26,
-          "text": "त्रिदिवं प्राप्य शक्रस्य स्वर्गलोके विमत्सराः ।\nवसन्ति शाश्वतीर्वर्षा जना दुष्करकारिणः ॥"
+          "text": "त्रिदिवं प्राप्य शक्रस्य स्वर्गलोके विमत्सराः ।\nवसन्ति शाश्वतीर्वर्षा जना दुष्करकारिणः ॥",
+          "meaning": {
+            "en": "Reaching the third heaven, the realm of Shakra (Indra), these people who did what is hard live in the world of heaven for endless years, free of envy."
+          }
         },
         {
           "n": 27,
-          "text": "ततस्ते तद्वचः श्रुत्वा तस्य धर्मार्थसंहितम् ।\nउत्सृज्य नास्तिकगतिं गार्हस्थ्यं धर्ममाश्रिताः ॥"
+          "text": "ततस्ते तद्वचः श्रुत्वा तस्य धर्मार्थसंहितम् ।\nउत्सृज्य नास्तिकगतिं गार्हस्थ्यं धर्ममाश्रिताः ॥",
+          "meaning": {
+            "en": "Then those young ascetics, hearing his words, which joined dharma and purpose, gave up the path of unbelievers and took to the householder's life."
+          }
         },
         {
           "n": 28,
-          "text": "तस्मात्त्वमपि दुर्धर्ष धैर्यमालम्ब्य शाश्वतम् ।\nप्रशाधि पृथिवीं कृत्स्नां हतामित्रां नरोत्तम ॥"
+          "text": "तस्मात्त्वमपि दुर्धर्ष धैर्यमालम्ब्य शाश्वतम् ।\nप्रशाधि पृथिवीं कृत्स्नां हतामित्रां नरोत्तम ॥",
+          "meaning": {
+            "en": "Therefore you too, invincible one, take up your eternal steadfastness, and rule the whole earth, with your enemies destroyed, best of men."
+          }
         }
       ]
     }

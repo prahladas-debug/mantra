@@ -22,167 +22,293 @@
       "titleEn": "Jalapradanika Parva (The water offerings)",
       "verses": [
         {
-          "text": "जनमेजय उवाच"
+          "text": "जनमेजय उवाच",
+          "meaning": {
+            "en": "Janamejaya said:"
+          }
         },
         {
           "n": 1,
-          "text": "हते दुर्योधने चैव हते सैन्ये च सर्वशः ।\nधृतराष्ट्रो महाराजः श्रुत्वा किमकरोन्मुने ॥"
+          "text": "हते दुर्योधने चैव हते सैन्ये च सर्वशः ।\nधृतराष्ट्रो महाराजः श्रुत्वा किमकरोन्मुने ॥",
+          "meaning": {
+            "en": "Venerable sage, Duryodhana was slain and his whole army destroyed. What did King Dhritarashtra do when he heard of it?"
+          }
         },
         {
           "n": 2,
-          "text": "तथैव कौरवो राजा धर्मपुत्रो महामनाः ।\nकृपप्रभृतयश्चैव किमकुर्वत ते त्रयः ॥"
+          "text": "तथैव कौरवो राजा धर्मपुत्रो महामनाः ।\nकृपप्रभृतयश्चैव किमकुर्वत ते त्रयः ॥",
+          "meaning": {
+            "en": "And what did the magnanimous Kuru king Yudhishthira, son of Dharma, do, and what did those three, Kripa and the others, do?"
+          }
         },
         {
           "n": 3,
-          "text": "अश्वत्थाम्नः श्रुतं कर्म शापश्चान्योन्यकारितः ।\nवृत्तान्तमुत्तरं ब्रूहि यदभाषत संजयः ॥"
+          "text": "अश्वत्थाम्नः श्रुतं कर्म शापश्चान्योन्यकारितः ।\nवृत्तान्तमुत्तरं ब्रूहि यदभाषत संजयः ॥",
+          "meaning": {
+            "en": "Tell me of Ashvatthaman's deed that was heard of, the curses the two sides laid on each other, and the later events, and what Sanjaya said."
+          }
         },
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 4,
-          "text": "हते पुत्रशते दीनं छिन्नशाखमिव द्रुमम् ।\nपुत्रशोकाभिसंतप्तं धृतराष्ट्रं महीपतिम् ॥"
+          "text": "हते पुत्रशते दीनं छिन्नशाखमिव द्रुमम् ।\nपुत्रशोकाभिसंतप्तं धृतराष्ट्रं महीपतिम् ॥",
+          "meaning": {
+            "en": "King Dhritarashtra, wretched and burning with grief for his sons, was like a tree whose branches had been cut off, his hundred sons dead."
+          }
         },
         {
           "n": 5,
-          "text": "ध्यानमूकत्वमापन्नं चिन्तया समभिप्लुतम् ।\nअभिगम्य महाप्राज्ञः संजयो वाक्यमब्रवीत् ॥"
+          "text": "ध्यानमूकत्वमापन्नं चिन्तया समभिप्लुतम् ।\nअभिगम्य महाप्राज्ञः संजयो वाक्यमब्रवीत् ॥",
+          "meaning": {
+            "en": "Sunk in thought and struck dumb with brooding, he was approached by the wise Sanjaya, who spoke to him."
+          }
         },
         {
           "n": 6,
-          "text": "किं शोचसि महाराज नास्ति शोके सहायता ।\nअक्षौहिण्यो हताश्चाष्टौ दश चैव विशां पते ।\nनिर्जनेयं वसुमती शून्या संप्रति केवला ॥"
+          "text": "किं शोचसि महाराज नास्ति शोके सहायता ।\nअक्षौहिण्यो हताश्चाष्टौ दश चैव विशां पते ।\nनिर्जनेयं वसुमती शून्या संप्रति केवला ॥",
+          "meaning": {
+            "en": "Why do you grieve, great king? Grief helps no one. Eighteen akshauhinis have fallen, lord of men, and this earth is now empty and desolate."
+          }
         },
         {
           "n": 7,
-          "text": "नानादिग्भ्यः समागम्य नानादेश्या नराधिपाः ।\nसहितास्तव पुत्रेण सर्वे वै निधनं गताः ॥"
+          "text": "नानादिग्भ्यः समागम्य नानादेश्या नराधिपाः ।\nसहितास्तव पुत्रेण सर्वे वै निधनं गताः ॥",
+          "meaning": {
+            "en": "Kings from many lands gathered from every direction, and all of them, together with your son, have met their end."
+          }
         },
         {
           "n": 8,
-          "text": "पितॄणां पुत्रपौत्राणां ज्ञातीनां सुहृदां तथा ।\nगुरूणां चानुपूर्व्येण प्रेतकार्याणि कारय ॥"
+          "text": "पितॄणां पुत्रपौत्राणां ज्ञातीनां सुहृदां तथा ।\nगुरूणां चानुपूर्व्येण प्रेतकार्याणि कारय ॥",
+          "meaning": {
+            "en": "Have the funeral rites performed in due order for your fathers, sons, grandsons, kinsmen, friends and elders."
+          }
         },
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 9,
-          "text": "तच्छ्रुत्वा करुणं वाक्यं पुत्रपौत्रवधार्दितः ।\nपपात भुवि दुर्धर्षो वाताहत इव द्रुमः ॥"
+          "text": "तच्छ्रुत्वा करुणं वाक्यं पुत्रपौत्रवधार्दितः ।\nपपात भुवि दुर्धर्षो वाताहत इव द्रुमः ॥",
+          "meaning": {
+            "en": "Hearing those piteous words, the unconquerable king, tormented by the killing of his sons and grandsons, fell to the ground like a tree struck by the wind."
+          }
         },
         {
-          "text": "धृतराष्ट्र उवाच"
+          "text": "धृतराष्ट्र उवाच",
+          "meaning": {
+            "en": "Dhritarashtra said:"
+          }
         },
         {
           "n": 10,
-          "text": "हतपुत्रो हतामात्यो हतसर्वसुहृज्जनः ।\nदुःखं नूनं भविष्यामि विचरन्पृथिवीमिमाम् ॥"
+          "text": "हतपुत्रो हतामात्यो हतसर्वसुहृज्जनः ।\nदुःखं नूनं भविष्यामि विचरन्पृथिवीमिमाम् ॥",
+          "meaning": {
+            "en": "With my sons, ministers and friends all slain, I shall surely wander this earth in misery."
+          }
         },
         {
           "n": 11,
-          "text": "किं नु बन्धुविहीनस्य जीवितेन ममाद्य वै ।\nलूनपक्षस्य इव मे जराजीर्णस्य पक्षिणः ॥"
+          "text": "किं नु बन्धुविहीनस्य जीवितेन ममाद्य वै ।\nलूनपक्षस्य इव मे जराजीर्णस्य पक्षिणः ॥",
+          "meaning": {
+            "en": "What is life to me now, without kin, like an old bird whose wings have been clipped?"
+          }
         },
         {
           "n": 12,
-          "text": "हृतराज्यो हतसुहृद्धतचक्षुश्च वै तथा ।\nन भ्राजिष्ये महाप्राज्ञ क्षीणरश्मिरिवांशुमान् ॥"
+          "text": "हृतराज्यो हतसुहृद्धतचक्षुश्च वै तथा ।\nन भ्राजिष्ये महाप्राज्ञ क्षीणरश्मिरिवांशुमान् ॥",
+          "meaning": {
+            "en": "My kingdom taken, my friends dead, and my eyes gone, wise Sanjaya, I shall not shine, like the sun whose rays have faded."
+          }
         },
         {
           "n": 13,
-          "text": "न कृतं सुहृदां वाक्यं जामदग्न्यस्य जल्पतः ।\nनारदस्य च देवर्षेः कृष्णद्वैपायनस्य च ॥"
+          "text": "न कृतं सुहृदां वाक्यं जामदग्न्यस्य जल्पतः ।\nनारदस्य च देवर्षेः कृष्णद्वैपायनस्य च ॥",
+          "meaning": {
+            "en": "I did not heed my friends' advice, nor Parashurama's, nor the divine sage Narada's, nor Krishna Dvaipayana's."
+          }
         },
         {
           "n": 14,
-          "text": "सभामध्ये तु कृष्णेन यच्छ्रेयोऽभिहितं मम ।\nअलं वैरेण ते राजन्पुत्रः संगृह्यतामिति ॥"
+          "text": "सभामध्ये तु कृष्णेन यच्छ्रेयोऽभिहितं मम ।\nअलं वैरेण ते राजन्पुत्रः संगृह्यतामिति ॥",
+          "meaning": {
+            "en": "In the midst of the assembly Krishna told me what was best: \"Enough of enmity, king; take your son in hand.\""
+          }
         },
         {
           "n": 15,
-          "text": "तच्च वाक्यमकृत्वाहं भृशं तप्यामि दुर्मतिः ।\nन हि श्रोतास्मि भीष्मस्य धर्मयुक्तं प्रभाषितम् ॥"
+          "text": "तच्च वाक्यमकृत्वाहं भृशं तप्यामि दुर्मतिः ।\nन हि श्रोतास्मि भीष्मस्य धर्मयुक्तं प्रभाषितम् ॥",
+          "meaning": {
+            "en": "I, foolish, did not follow that counsel and now burn with remorse. I did not listen to Bhishma's words, full of dharma, either."
+          }
         },
         {
           "n": 16,
-          "text": "दुर्योधनस्य च तथा वृषभस्येव नर्दतः ।\nदुःशासनवधं श्रुत्वा कर्णस्य च विपर्ययम् ।\nद्रोणसूर्योपरागं च हृदयं मे विदीर्यते ॥"
+          "text": "दुर्योधनस्य च तथा वृषभस्येव नर्दतः ।\nदुःशासनवधं श्रुत्वा कर्णस्य च विपर्ययम् ।\nद्रोणसूर्योपरागं च हृदयं मे विदीर्यते ॥",
+          "meaning": {
+            "en": "My heart breaks as I hear of Duryodhana roaring like a bull, of Duhshasana's death, of Karna's overthrow, and of the eclipse of Drona the sun."
+          }
         },
         {
           "n": 17,
-          "text": "न स्मराम्यात्मनः किंचित्पुरा संजय दुष्कृतम् ।\nयस्येदं फलमद्येह मया मूढेन भुज्यते ॥"
+          "text": "न स्मराम्यात्मनः किंचित्पुरा संजय दुष्कृतम् ।\nयस्येदं फलमद्येह मया मूढेन भुज्यते ॥",
+          "meaning": {
+            "en": "Sanjaya, I recall no evil I did before, of which I now foolishly enjoy this fruit."
+          }
         },
         {
           "n": 18,
-          "text": "नूनं ह्यपकृतं किंचिन्मया पूर्वेषु जन्मसु ।\nयेन मां दुःखभागेषु धाता कर्मसु युक्तवान् ॥"
+          "text": "नूनं ह्यपकृतं किंचिन्मया पूर्वेषु जन्मसु ।\nयेन मां दुःखभागेषु धाता कर्मसु युक्तवान् ॥",
+          "meaning": {
+            "en": "Surely I must have wronged someone in former births, since the Creator has bound me to these sorrowful fates."
+          }
         },
         {
           "n": 19,
-          "text": "परिणामश्च वयसः सर्वबन्धुक्षयश्च मे ।\nसुहृन्मित्रविनाशश्च दैवयोगादुपागतः ।\nकोऽन्योऽस्ति दुःखिततरो मया लोके पुमानिह ॥"
+          "text": "परिणामश्च वयसः सर्वबन्धुक्षयश्च मे ।\nसुहृन्मित्रविनाशश्च दैवयोगादुपागतः ।\nकोऽन्योऽस्ति दुःखिततरो मया लोके पुमानिह ॥",
+          "meaning": {
+            "en": "Old age has come, all my kin are destroyed, friends and allies are lost, all by the working of fate. What man in this world is more afflicted than I?"
+          }
         },
         {
           "n": 20,
-          "text": "तन्मामद्यैव पश्यन्तु पाण्डवाः संशितव्रतम् ।\nविवृतं ब्रह्मलोकस्य दीर्घमध्वानमास्थितम् ॥"
+          "text": "तन्मामद्यैव पश्यन्तु पाण्डवाः संशितव्रतम् ।\nविवृतं ब्रह्मलोकस्य दीर्घमध्वानमास्थितम् ॥",
+          "meaning": {
+            "en": "Let the Pandavas see me today, steadfast in my vow, setting out on the long open road to the world of Brahma."
+          }
         },
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 21,
-          "text": "तस्य लालप्यमानस्य बहुशोकं विचिन्वतः ।\nशोकापहं नरेन्द्रस्य संजयो वाक्यमब्रवीत् ॥"
+          "text": "तस्य लालप्यमानस्य बहुशोकं विचिन्वतः ।\nशोकापहं नरेन्द्रस्य संजयो वाक्यमब्रवीत् ॥",
+          "meaning": {
+            "en": "As the king lamented, searching through his many sorrows, Sanjaya spoke words to take his grief away."
+          }
         },
         {
           "n": 22,
-          "text": "शोकं राजन्व्यपनुद श्रुतास्ते वेदनिश्चयाः ।\nशास्त्रागमाश्च विविधा वृद्धेभ्यो नृपसत्तम ।\nसृञ्जये पुत्रशोकार्ते यदूचुर्मुनयः पुरा ॥"
+          "text": "शोकं राजन्व्यपनुद श्रुतास्ते वेदनिश्चयाः ।\nशास्त्रागमाश्च विविधा वृद्धेभ्यो नृपसत्तम ।\nसृञ्जये पुत्रशोकार्ते यदूचुर्मुनयः पुरा ॥",
+          "meaning": {
+            "en": "Put away your grief, king. You have heard the conclusions of the Vedas and the many scriptures from the elders, and what the sages once told Srinjaya when he was grieving for his son."
+          }
         },
         {
           "n": 23,
-          "text": "तथा यौवनजं दर्पमास्थिते ते सुते नृप ।\nन त्वया सुहृदां वाक्यं ब्रुवतामवधारितम् ।\nस्वार्थश्च न कृतः कश्चिल्लुब्धेन फलगृद्धिना ॥"
+          "text": "तथा यौवनजं दर्पमास्थिते ते सुते नृप ।\nन त्वया सुहृदां वाक्यं ब्रुवतामवधारितम् ।\nस्वार्थश्च न कृतः कश्चिल्लुब्धेन फलगृद्धिना ॥",
+          "meaning": {
+            "en": "Your sons were swollen with the pride of youth, and you did not take in what your friends told you. Greedy and hungry for results, you did nothing for your true good."
+          }
         },
         {
           "n": 24,
-          "text": "तव दुःशासनो मन्त्री राधेयश्च दुरात्मवान् ।\nशकुनिश्चैव दुष्टात्मा चित्रसेनश्च दुर्मतिः ।\nशल्यश्च येन वै सर्वं शल्यभूतं कृतं जगत् ॥"
+          "text": "तव दुःशासनो मन्त्री राधेयश्च दुरात्मवान् ।\nशकुनिश्चैव दुष्टात्मा चित्रसेनश्च दुर्मतिः ।\nशल्यश्च येन वै सर्वं शल्यभूतं कृतं जगत् ॥",
+          "meaning": {
+            "en": "Your ministers were Duhshasana, the evil Radheya Karna, the wicked Shakuni and the foolish Chitrasena, and Shalya, who made the whole world a thorn."
+          }
         },
         {
           "n": 25,
-          "text": "कुरुवृद्धस्य भीष्मस्य गान्धार्या विदुरस्य च ।\nन कृतं वचनं तेन तव पुत्रेण भारत ॥"
+          "text": "कुरुवृद्धस्य भीष्मस्य गान्धार्या विदुरस्य च ।\nन कृतं वचनं तेन तव पुत्रेण भारत ॥",
+          "meaning": {
+            "en": "Your son did not follow the words of Bhishma the Kuru elder, of Gandhari, or of Vidura, descendant of Bharata."
+          }
         },
         {
           "n": 26,
-          "text": "न धर्मः सत्कृतः कश्चिन्नित्यं युद्धमिति ब्रुवन् ।\nक्षपिताः क्षत्रियाः सर्वे शत्रूणां वर्धितं यशः ॥"
+          "text": "न धर्मः सत्कृतः कश्चिन्नित्यं युद्धमिति ब्रुवन् ।\nक्षपिताः क्षत्रियाः सर्वे शत्रूणां वर्धितं यशः ॥",
+          "meaning": {
+            "en": "He honored no dharma, always saying \"war!\" All the kshatriyas were destroyed and the enemies' fame increased."
+          }
         },
         {
           "n": 27,
-          "text": "मध्यस्थो हि त्वमप्यासीर्न क्षमं किंचिदुक्तवान् ।\nधूर्धरेण त्वया भारस्तुलया न समं धृतः ॥"
+          "text": "मध्यस्थो हि त्वमप्यासीर्न क्षमं किंचिदुक्तवान् ।\nधूर्धरेण त्वया भारस्तुलया न समं धृतः ॥",
+          "meaning": {
+            "en": "You too stood neutral and said nothing fitting. You, the one who bears the yoke, did not hold the burden evenly as a balance."
+          }
         },
         {
           "n": 28,
-          "text": "आदावेव मनुष्येण वर्तितव्यं यथा क्षमम् ।\nयथा नातीतमर्थं वै पश्चात्तापेन युज्यते ॥"
+          "text": "आदावेव मनुष्येण वर्तितव्यं यथा क्षमम् ।\nयथा नातीतमर्थं वै पश्चात्तापेन युज्यते ॥",
+          "meaning": {
+            "en": "A man should act at the very start as is fitting, so that afterward he is not troubled with remorse over what is past."
+          }
         },
         {
           "n": 29,
-          "text": "पुत्रगृद्ध्या त्वया राजन्प्रियं तस्य चिकीर्षता ।\nपश्चात्तापमिदं प्राप्तं न त्वं शोचितुमर्हसि ॥"
+          "text": "पुत्रगृद्ध्या त्वया राजन्प्रियं तस्य चिकीर्षता ।\nपश्चात्तापमिदं प्राप्तं न त्वं शोचितुमर्हसि ॥",
+          "meaning": {
+            "en": "Out of attachment to your son, wishing to please him, you incurred this remorse. You should not grieve now."
+          }
         },
         {
           "n": 30,
-          "text": "मधु यः केवलं दृष्ट्वा प्रपातं नानुपश्यति ।\nस भ्रष्टो मधुलोभेन शोचत्येव यथा भवान् ॥"
+          "text": "मधु यः केवलं दृष्ट्वा प्रपातं नानुपश्यति ।\nस भ्रष्टो मधुलोभेन शोचत्येव यथा भवान् ॥",
+          "meaning": {
+            "en": "The man who sees only the honey and not the precipice, and falls through greed for honey, grieves just as you do."
+          }
         },
         {
           "n": 31,
-          "text": "अर्थान्न शोचन्प्राप्नोति न शोचन्विन्दते सुखम् ।\nन शोचञ्श्रियमाप्नोति न शोचन्विन्दते परम् ॥"
+          "text": "अर्थान्न शोचन्प्राप्नोति न शोचन्विन्दते सुखम् ।\nन शोचञ्श्रियमाप्नोति न शोचन्विन्दते परम् ॥",
+          "meaning": {
+            "en": "By grieving a man gains no wealth, no happiness, no prosperity, nothing higher."
+          }
         },
         {
           "n": 32,
-          "text": "स्वयमुत्पादयित्वाग्निं वस्त्रेण परिवेष्टयेत् ।\nदह्यमानो मनस्तापं भजते न स पण्डितः ॥"
+          "text": "स्वयमुत्पादयित्वाग्निं वस्त्रेण परिवेष्टयेत् ।\nदह्यमानो मनस्तापं भजते न स पण्डितः ॥",
+          "meaning": {
+            "en": "A man who kindles a fire himself and wraps it in cloth, and then is burned and feels torment, is no wise man."
+          }
         },
         {
           "n": 33,
-          "text": "त्वयैव ससुतेनायं वाक्यवायुसमीरितः ।\nलोभाज्येन च संसिक्तो ज्वलितः पार्थपावकः ॥"
+          "text": "त्वयैव ससुतेनायं वाक्यवायुसमीरितः ।\nलोभाज्येन च संसिक्तो ज्वलितः पार्थपावकः ॥",
+          "meaning": {
+            "en": "It was you with your sons who fanned the fire of Pritha's son Arjuna with the wind of your words and fed it with the ghee of greed, and it blazed up."
+          }
         },
         {
           "n": 34,
-          "text": "तस्मिन्समिद्धे पतिताः शलभा इव ते सुताः ।\nतान्केशवार्चिर्निर्दग्धान्न त्वं शोचितुमर्हसि ॥"
+          "text": "तस्मिन्समिद्धे पतिताः शलभा इव ते सुताः ।\nतान्केशवार्चिर्निर्दग्धान्न त्वं शोचितुमर्हसि ॥",
+          "meaning": {
+            "en": "Your sons fell into that blaze like moths. Burned by the flames of Keshava, they should not be mourned by you."
+          }
         },
         {
           "n": 35,
-          "text": "यच्चाश्रुपातकलिलं वदनं वहसे नृप ।\nअशास्त्रदृष्टमेतद्धि न प्रशंसन्ति पण्डिताः ॥"
+          "text": "यच्चाश्रुपातकलिलं वदनं वहसे नृप ।\nअशास्त्रदृष्टमेतद्धि न प्रशंसन्ति पण्डिताः ॥",
+          "meaning": {
+            "en": "The face you carry, streaked with falling tears, is not approved in the scriptures, and the wise do not praise it."
+          }
         },
         {
           "n": 36,
-          "text": "विस्फुलिङ्गा इव ह्येतान्दहन्ति किल मानवान् ।\nजहीहि मन्युं बुद्ध्या वै धारयात्मानमात्मना ॥"
+          "text": "विस्फुलिङ्गा इव ह्येतान्दहन्ति किल मानवान् ।\nजहीहि मन्युं बुद्ध्या वै धारयात्मानमात्मना ॥",
+          "meaning": {
+            "en": "Tears are like sparks that burn people. Give up your anger, steady yourself with your own mind and wisdom."
+          }
         },
         {
           "n": 37,
-          "text": "एवमाश्वासितस्तेन संजयेन महात्मना ।\nविदुरो भूय एवाह बुद्धिपूर्वं परंतप ॥"
+          "text": "एवमाश्वासितस्तेन संजयेन महात्मना ।\nविदुरो भूय एवाह बुद्धिपूर्वं परंतप ॥",
+          "meaning": {
+            "en": "Thus comforted by the great-souled Sanjaya, Vidura spoke again, tormentor of foes, with deliberate wisdom."
+          }
         }
       ]
     }

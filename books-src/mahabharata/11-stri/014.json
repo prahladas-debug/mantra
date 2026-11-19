@@ -22,104 +22,182 @@
       "titleEn": "Jalapradanika Parva (The water offerings)",
       "verses": [
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 1,
-          "text": "तच्छ्रुत्वा वचनं तस्या भीमसेनोऽथ भीतवत् ।\nगान्धारीं प्रत्युवाचेदं वचः सानुनयं तदा ॥"
+          "text": "तच्छ्रुत्वा वचनं तस्या भीमसेनोऽथ भीतवत् ।\nगान्धारीं प्रत्युवाचेदं वचः सानुनयं तदा ॥",
+          "meaning": {
+            "en": "Hearing her words, Bhimasena, as if frightened, replied to Gandhari with a conciliatory speech."
+          }
         },
         {
           "n": 2,
-          "text": "अधर्मो यदि वा धर्मस्त्रासात्तत्र मया कृतः ।\nआत्मानं त्रातुकामेन तन्मे त्वं क्षन्तुमर्हसि ॥"
+          "text": "अधर्मो यदि वा धर्मस्त्रासात्तत्र मया कृतः ।\nआत्मानं त्रातुकामेन तन्मे त्वं क्षन्तुमर्हसि ॥",
+          "meaning": {
+            "en": "Whether it was adharma or dharma, I did it out of fear, wishing to protect myself. You should forgive me for it."
+          }
         },
         {
           "n": 3,
-          "text": "न हि युद्धेन पुत्रस्ते धर्मेण स महाबलः ।\nशक्यः केनचिदुद्यन्तुमतो विषममाचरम् ॥"
+          "text": "न हि युद्धेन पुत्रस्ते धर्मेण स महाबलः ।\nशक्यः केनचिदुद्यन्तुमतो विषममाचरम् ॥",
+          "meaning": {
+            "en": "No one could have lifted up your mighty son in fair fight, so I acted unfairly."
+          }
         },
         {
           "n": 4,
-          "text": "सैन्यस्यैकोऽवशिष्टोऽयं गदायुद्धे च वीर्यवान् ।\nमां हत्वा न हरेद्राज्यमिति चैतत्कृतं मया ॥"
+          "text": "सैन्यस्यैकोऽवशिष्टोऽयं गदायुद्धे च वीर्यवान् ।\nमां हत्वा न हरेद्राज्यमिति चैतत्कृतं मया ॥",
+          "meaning": {
+            "en": "He was the one survivor of the army, and strong in the mace fight, and I did it so that he would not kill me and take the kingdom."
+          }
         },
         {
           "n": 5,
-          "text": "राजपुत्रीं च पाञ्चालीमेकवस्त्रां रजस्वलाम् ।\nभवत्या विदितं सर्वमुक्तवान्यत्सुतस्तव ॥"
+          "text": "राजपुत्रीं च पाञ्चालीमेकवस्त्रां रजस्वलाम् ।\nभवत्या विदितं सर्वमुक्तवान्यत्सुतस्तव ॥",
+          "meaning": {
+            "en": "You know everything your son said to the princess of Panchala, wearing one cloth in her monthly course."
+          }
         },
         {
           "n": 6,
-          "text": "सुयोधनमसंगृह्य न शक्या भूः ससागरा ।\nकेवला भोक्तुमस्माभिरतश्चैतत्कृतं मया ॥"
+          "text": "सुयोधनमसंगृह्य न शक्या भूः ससागरा ।\nकेवला भोक्तुमस्माभिरतश्चैतत्कृतं मया ॥",
+          "meaning": {
+            "en": "Without taking Suyodhana, we could not enjoy the whole earth with its seas, so I did this."
+          }
         },
         {
           "n": 7,
-          "text": "तच्चाप्यप्रियमस्माकं पुत्रस्ते समुपाचरत् ।\nद्रौपद्या यत्सभामध्ये सव्यमूरुमदर्शयत् ॥"
+          "text": "तच्चाप्यप्रियमस्माकं पुत्रस्ते समुपाचरत् ।\nद्रौपद्या यत्सभामध्ये सव्यमूरुमदर्शयत् ॥",
+          "meaning": {
+            "en": "And your son also did us this disagreeable thing: in the middle of the assembly he showed his left thigh to Draupadi."
+          }
         },
         {
           "n": 8,
-          "text": "तत्रैव वध्यः सोऽस्माकं दुराचारोऽम्ब ते सुतः ।\nधर्मराजाज्ञया चैव स्थिताः स्म समये तदा ॥"
+          "text": "तत्रैव वध्यः सोऽस्माकं दुराचारोऽम्ब ते सुतः ।\nधर्मराजाज्ञया चैव स्थिताः स्म समये तदा ॥",
+          "meaning": {
+            "en": "Right there, mother, your ill-behaved son should have been killed by us; but by Dharmaraja's command we kept to the agreement then."
+          }
         },
         {
           "n": 9,
-          "text": "वैरमुद्धुक्षितं राज्ञि पुत्रेण तव तन्महत् ।\nक्लेशिताश्च वने नित्यं तत एतत्कृतं मया ॥"
+          "text": "वैरमुद्धुक्षितं राज्ञि पुत्रेण तव तन्महत् ।\nक्लेशिताश्च वने नित्यं तत एतत्कृतं मया ॥",
+          "meaning": {
+            "en": "Queen, your son stirred up that great enmity, and we were always tormented in the forest. Therefore I did this."
+          }
         },
         {
           "n": 10,
-          "text": "वैरस्यास्य गतः पारं हत्वा दुर्योधनं रणे ।\nराज्यं युधिष्ठिरः प्राप्तो वयं च गतमन्यवः ॥"
+          "text": "वैरस्यास्य गतः पारं हत्वा दुर्योधनं रणे ।\nराज्यं युधिष्ठिरः प्राप्तो वयं च गतमन्यवः ॥",
+          "meaning": {
+            "en": "With Duryodhana killed in battle, we have crossed to the far shore of this enmity; Yudhishthira has got the kingdom, and our anger is gone."
+          }
         },
         {
-          "text": "गान्धार्युवाच"
+          "text": "गान्धार्युवाच",
+          "meaning": {
+            "en": "Gandhari said:"
+          }
         },
         {
           "n": 11,
-          "text": "न तस्यैष वधस्तात यत्प्रशंससि मे सुतम् ।\nकृतवांश्चापि तत्सर्वं यदिदं भाषसे मयि ॥"
+          "text": "न तस्यैष वधस्तात यत्प्रशंससि मे सुतम् ।\nकृतवांश्चापि तत्सर्वं यदिदं भाषसे मयि ॥",
+          "meaning": {
+            "en": "Son, this is not his killing, that you praise my son to me. You have also done all that you are now telling me of."
+          }
         },
         {
           "n": 12,
-          "text": "हताश्वे नकुले यत्तद्वृषसेनेन भारत ।\nअपिबः शोणितं संख्ये दुःशासनशरीरजम् ॥"
+          "text": "हताश्वे नकुले यत्तद्वृषसेनेन भारत ।\nअपिबः शोणितं संख्ये दुःशासनशरीरजम् ॥",
+          "meaning": {
+            "en": "When Nakula's horses were killed by Vrishasena, you drank in battle the blood from Duhshasana's body."
+          }
         },
         {
           "n": 13,
-          "text": "सद्भिर्विगर्हितं घोरमनार्यजनसेवितम् ।\nक्रूरं कर्माकरोः कस्मात्तदयुक्तं वृकोदर ॥"
+          "text": "सद्भिर्विगर्हितं घोरमनार्यजनसेवितम् ।\nक्रूरं कर्माकरोः कस्मात्तदयुक्तं वृकोदर ॥",
+          "meaning": {
+            "en": "That cruel deed, condemned by the good and practiced by ignoble men, why did you do it, Vrikodara? It was improper."
+          }
         },
         {
-          "text": "भीमसेन उवाच"
+          "text": "भीमसेन उवाच",
+          "meaning": {
+            "en": "Bhimasena said:"
+          }
         },
         {
           "n": 14,
-          "text": "अन्यस्यापि न पातव्यं रुधिरं किं पुनः स्वकम् ।\nयथैवात्मा तथा भ्राता विशेषो नास्ति कश्चन ॥"
+          "text": "अन्यस्यापि न पातव्यं रुधिरं किं पुनः स्वकम् ।\nयथैवात्मा तथा भ्राता विशेषो नास्ति कश्चन ॥",
+          "meaning": {
+            "en": "One should not drink even another's blood, much less one's own. A brother is like oneself; there is no difference."
+          }
         },
         {
           "n": 15,
-          "text": "रुधिरं न व्यतिक्रामद्दन्तोष्ठं मेऽम्ब मा शुचः ।\nवैवस्वतस्तु तद्वेद हस्तौ मे रुधिरोक्षितौ ॥"
+          "text": "रुधिरं न व्यतिक्रामद्दन्तोष्ठं मेऽम्ब मा शुचः ।\nवैवस्वतस्तु तद्वेद हस्तौ मे रुधिरोक्षितौ ॥",
+          "meaning": {
+            "en": "The blood did not pass my teeth and lips, mother; do not grieve. Vaivasvata Yama knows that only my hands were smeared with blood."
+          }
         },
         {
           "n": 16,
-          "text": "हताश्वं नकुलं दृष्ट्वा वृषसेनेन संयुगे ।\nभ्रातॄणां संप्रहृष्टानां त्रासः संजनितो मया ॥"
+          "text": "हताश्वं नकुलं दृष्ट्वा वृषसेनेन संयुगे ।\nभ्रातॄणां संप्रहृष्टानां त्रासः संजनितो मया ॥",
+          "meaning": {
+            "en": "Seeing Nakula's horses killed by Vrishasena in battle, I struck fear into my exultant brothers' enemies."
+          }
         },
         {
           "n": 17,
-          "text": "केशपक्षपरामर्शे द्रौपद्या द्यूतकारिते ।\nक्रोधाद्यदब्रुवं चाहं तच्च मे हृदि वर्तते ॥"
+          "text": "केशपक्षपरामर्शे द्रौपद्या द्यूतकारिते ।\nक्रोधाद्यदब्रुवं चाहं तच्च मे हृदि वर्तते ॥",
+          "meaning": {
+            "en": "What I said in anger when Draupadi's hair was seized in the gambling match is still in my heart."
+          }
         },
         {
           "n": 18,
-          "text": "क्षत्रधर्माच्च्युतो राज्ञि भवेयं शाश्वतीः समाः ।\nप्रतिज्ञां तामनिस्तीर्य ततस्तत्कृतवानहम् ॥"
+          "text": "क्षत्रधर्माच्च्युतो राज्ञि भवेयं शाश्वतीः समाः ।\nप्रतिज्ञां तामनिस्तीर्य ततस्तत्कृतवानहम् ॥",
+          "meaning": {
+            "en": "Queen, I would have fallen from kshatriya dharma for all years had I not fulfilled that vow; so I did it."
+          }
         },
         {
           "n": 19,
-          "text": "न मामर्हसि गान्धारि दोषेण परिशङ्कितुम् ।\nअनिगृह्य पुरा पुत्रानस्मास्वनपकारिषु ॥"
+          "text": "न मामर्हसि गान्धारि दोषेण परिशङ्कितुम् ।\nअनिगृह्य पुरा पुत्रानस्मास्वनपकारिषु ॥",
+          "meaning": {
+            "en": "Gandhari, you should not suspect me of a fault, since earlier you did not restrain your sons from wrongs against us who had done none."
+          }
         },
         {
-          "text": "गान्धार्युवाच"
+          "text": "गान्धार्युवाच",
+          "meaning": {
+            "en": "Gandhari said:"
+          }
         },
         {
           "n": 20,
-          "text": "वृद्धस्यास्य शतं पुत्रान्निघ्नंस्त्वमपराजितः ।\nकस्मान्न शेषयः कंचिद्येनाल्पमपराधितम् ॥"
+          "text": "वृद्धस्यास्य शतं पुत्रान्निघ्नंस्त्वमपराजितः ।\nकस्मान्न शेषयः कंचिद्येनाल्पमपराधितम् ॥",
+          "meaning": {
+            "en": "Unconquered one, killing a hundred sons of this old man, why did you not leave even one, who had offended only slightly?"
+          }
         },
         {
           "n": 21,
-          "text": "संतानमावयोस्तात वृद्धयोर्हृतराज्ययोः ।\nकथमन्धद्वयस्यास्य यष्टिरेका न वर्जिता ॥"
+          "text": "संतानमावयोस्तात वृद्धयोर्हृतराज्ययोः ।\nकथमन्धद्वयस्यास्य यष्टिरेका न वर्जिता ॥",
+          "meaning": {
+            "en": "Son, the staff for us two old, kingdomless people, the lineage of us both, why was not even one staff spared for us two blind ones?"
+          }
         },
         {
           "n": 22,
-          "text": "शेषे ह्यवस्थिते तात पुत्राणामन्तके त्वयि ।\nन मे दुःखं भवेदेतद्यदि त्वं धर्ममाचरः ॥"
+          "text": "शेषे ह्यवस्थिते तात पुत्राणामन्तके त्वयि ।\nन मे दुःखं भवेदेतद्यदि त्वं धर्ममाचरः ॥",
+          "meaning": {
+            "en": "If you had acted by dharma, with one of my sons left alive and you the slayer of the rest, this grief would not be mine."
+          }
         }
       ]
     }

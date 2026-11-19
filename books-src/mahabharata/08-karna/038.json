@@ -22,175 +22,304 @@
       "titleEn": "Karna Parva",
       "verses": [
         {
-          "text": "संजय उवाच"
+          "text": "संजय उवाच",
+          "meaning": {
+            "en": "Sanjaya said:"
+          }
         },
         {
           "n": 1,
-          "text": "कृतवर्मा कृपो द्रौणिः सूतपुत्रश्च मारिष ।\nउलूकः सौबलश्चैव राजा च सह सोदरैः ॥"
+          "text": "कृतवर्मा कृपो द्रौणिः सूतपुत्रश्च मारिष ।\nउलूकः सौबलश्चैव राजा च सह सोदरैः ॥",
+          "meaning": {
+            "en": "Lord, Kritavarma, Kripa, Ashvatthama, the charioteer's son Karna, Uluka, Shakuni son of Subala, and King Duryodhana with his brothers saw the army sinking, tormented by fear of the sons of Pandu."
+          }
         },
         {
           "n": 2,
-          "text": "सीदमानां चमूं दृष्ट्वा पाण्डुपुत्रभयार्दिताम् ।\nसमुज्जिहीर्षुर्वेगेन भिन्नां नावमिवार्णवे ॥"
+          "text": "सीदमानां चमूं दृष्ट्वा पाण्डुपुत्रभयार्दिताम् ।\nसमुज्जिहीर्षुर्वेगेन भिन्नां नावमिवार्णवे ॥",
+          "meaning": {
+            "en": "They wished to lift it up quickly, like a broken ship in the ocean."
+          }
         },
         {
           "n": 3,
-          "text": "ततो युद्धमतीवासीन्मुहूर्तमिव भारत ।\nभीरूणां त्रासजननं शूराणां हर्षवर्धनम् ॥"
+          "text": "ततो युद्धमतीवासीन्मुहूर्तमिव भारत ।\nभीरूणां त्रासजननं शूराणां हर्षवर्धनम् ॥",
+          "meaning": {
+            "en": "Bharata, then a fierce battle began that lasted a short while, bringing terror to cowards and delight to heroes."
+          }
         },
         {
           "n": 4,
-          "text": "कृपेण शरवर्षाणि विप्रमुक्तानि संयुगे ।\nसृञ्जयाः शातयामासुः शलभानां व्रजा इव ॥"
+          "text": "कृपेण शरवर्षाणि विप्रमुक्तानि संयुगे ।\nसृञ्जयाः शातयामासुः शलभानां व्रजा इव ॥",
+          "meaning": {
+            "en": "The Srinjayas cut down the showers of arrows that Kripa loosed in the battle, as if they were swarms of locusts."
+          }
         },
         {
           "n": 5,
-          "text": "शिखण्डी तु ततः क्रुद्धो गौतमं त्वरितो ययौ ।\nववर्ष शरवर्षाणि समन्तादेव ब्राह्मणे ॥"
+          "text": "शिखण्डी तु ततः क्रुद्धो गौतमं त्वरितो ययौ ।\nववर्ष शरवर्षाणि समन्तादेव ब्राह्मणे ॥",
+          "meaning": {
+            "en": "Then Shikhandi, angry, swiftly went against Kripa, son of Gautama, and rained showers of arrows on the brahmin from every side."
+          }
         },
         {
           "n": 6,
-          "text": "कृपस्तु शरवर्षं तद्विनिहत्य महास्त्रवित् ।\nशिखण्डिनं रणे क्रुद्धो विव्याध दशभिः शरैः ॥"
+          "text": "कृपस्तु शरवर्षं तद्विनिहत्य महास्त्रवित् ।\nशिखण्डिनं रणे क्रुद्धो विव्याध दशभिः शरैः ॥",
+          "meaning": {
+            "en": "But Kripa, skilled in great weapons, struck down that shower of arrows and in anger pierced Shikhandi in the battle with ten arrows."
+          }
         },
         {
           "n": 7,
-          "text": "ततः शिखण्डी कुपीतः शरैः सप्तभिराहवे ।\nकृपं विव्याध सुभृशं कङ्कपत्रैरजिह्मगैः ॥"
+          "text": "ततः शिखण्डी कुपीतः शरैः सप्तभिराहवे ।\nकृपं विव्याध सुभृशं कङ्कपत्रैरजिह्मगैः ॥",
+          "meaning": {
+            "en": "Then Shikhandi, enraged, pierced Kripa hard in the fight with seven straight-flying arrows with heron feathers."
+          }
         },
         {
           "n": 8,
-          "text": "ततः कृपः शरैस्तीक्ष्णैः सोऽतिविद्धो महारथः ।\nव्यश्वसूतरथं चक्रे पार्षतं तु द्विजोत्तमः ॥"
+          "text": "ततः कृपः शरैस्तीक्ष्णैः सोऽतिविद्धो महारथः ।\nव्यश्वसूतरथं चक्रे पार्षतं तु द्विजोत्तमः ॥",
+          "meaning": {
+            "en": "Kripa, the great chariot-warrior and best of brahmins, badly wounded, then with sharp arrows left the son of Prishata without horses, charioteer or chariot."
+          }
         },
         {
           "n": 9,
-          "text": "हताश्वात्तु ततो यानादवप्लुत्य महारथः ।\nचर्मखड्गे च संगृह्य सत्वरं ब्राह्मणं ययौ ॥"
+          "text": "हताश्वात्तु ततो यानादवप्लुत्य महारथः ।\nचर्मखड्गे च संगृह्य सत्वरं ब्राह्मणं ययौ ॥",
+          "meaning": {
+            "en": "That great chariot-warrior jumped down from his chariot whose horses were slain, took up shield and sword, and went swiftly at the brahmin."
+          }
         },
         {
           "n": 10,
-          "text": "तमापतन्तं सहसा शरैः संनतपर्वभिः ।\nछादयामास समरे तदद्भुतमिवाभवत् ॥"
+          "text": "तमापतन्तं सहसा शरैः संनतपर्वभिः ।\nछादयामास समरे तदद्भुतमिवाभवत् ॥",
+          "meaning": {
+            "en": "As Shikhandi rushed on him suddenly, Kripa covered him in the battle with arrows with bent joints, and it was a marvel."
+          }
         },
         {
           "n": 11,
-          "text": "तत्राद्भुतमपश्याम शिलानां प्लवनं यथा ।\nनिश्चेष्टो यद्रणे राजञ्शिखण्डी समतिष्ठत ॥"
+          "text": "तत्राद्भुतमपश्याम शिलानां प्लवनं यथा ।\nनिश्चेष्टो यद्रणे राजञ्शिखण्डी समतिष्ठत ॥",
+          "meaning": {
+            "en": "We saw a wonder there, king: Shikhandi stood motionless in the battle, like stones afloat."
+          }
         },
         {
           "n": 12,
-          "text": "कृपेण छादितं दृष्ट्वा नृपोत्तम शिखण्डिनम् ।\nप्रत्युद्ययौ कृपं तूर्णं धृष्टद्युम्नो महारथः ॥"
+          "text": "कृपेण छादितं दृष्ट्वा नृपोत्तम शिखण्डिनम् ।\nप्रत्युद्ययौ कृपं तूर्णं धृष्टद्युम्नो महारथः ॥",
+          "meaning": {
+            "en": "Best of kings, seeing Shikhandi covered by Kripa, the great chariot-warrior Dhrishtadyumna quickly went against Kripa."
+          }
         },
         {
           "n": 13,
-          "text": "धृष्टद्युम्नं ततो यान्तं शारद्वतरथं प्रति ।\nप्रतिजग्राह वेगेन कृतवर्मा महारथः ॥"
+          "text": "धृष्टद्युम्नं ततो यान्तं शारद्वतरथं प्रति ।\nप्रतिजग्राह वेगेन कृतवर्मा महारथः ॥",
+          "meaning": {
+            "en": "As Dhrishtadyumna advanced against the chariot of Kripa, son of Sharadvan, the great chariot-warrior Kritavarma swiftly checked him."
+          }
         },
         {
           "n": 14,
-          "text": "युधिष्ठिरमथायान्तं शारद्वतरथं प्रति ।\nसपुत्रं सहसेनं च द्रोणपुत्रो न्यवारयत् ॥"
+          "text": "युधिष्ठिरमथायान्तं शारद्वतरथं प्रति ।\nसपुत्रं सहसेनं च द्रोणपुत्रो न्यवारयत् ॥",
+          "meaning": {
+            "en": "And Yudhishthira, as he came toward the chariot of Kripa, son of Sharadvan, was held back along with his son and army by Ashvatthama, son of Drona."
+          }
         },
         {
           "n": 15,
-          "text": "नकुलं सहदेवं च त्वरमाणौ महारथौ ।\nप्रतिजग्राह ते पुत्रः शरवर्षेण वारयन् ॥"
+          "text": "नकुलं सहदेवं च त्वरमाणौ महारथौ ।\nप्रतिजग्राह ते पुत्रः शरवर्षेण वारयन् ॥",
+          "meaning": {
+            "en": "Your son Duryodhana, holding off the two great chariot-warriors Nakula and Sahadeva as they hurried on, checked them with a shower of arrows."
+          }
         },
         {
           "n": 16,
-          "text": "भीमसेनं करूषांश्च केकयान्सहसृञ्जयान् ।\nकर्णो वैकर्तनो युद्धे वारयामास भारत ॥"
+          "text": "भीमसेनं करूषांश्च केकयान्सहसृञ्जयान् ।\nकर्णो वैकर्तनो युद्धे वारयामास भारत ॥",
+          "meaning": {
+            "en": "Bharata, Karna, son of Vikartana, held back in the battle Bhimasena, the Karushas, the Kekayas and the Srinjayas."
+          }
         },
         {
           "n": 17,
-          "text": "शिखण्डिनस्ततो बाणान्कृपः शारद्वतो युधि ।\nप्राहिणोत्त्वरया युक्तो दिधक्षुरिव मारिष ॥"
+          "text": "शिखण्डिनस्ततो बाणान्कृपः शारद्वतो युधि ।\nप्राहिणोत्त्वरया युक्तो दिधक्षुरिव मारिष ॥",
+          "meaning": {
+            "en": "Then Kripa, son of Sharadvan, eager in the fight, sent his arrows at Shikhandi as if wishing to burn him, lord."
+          }
         },
         {
           "n": 18,
-          "text": "ताञ्शरान्प्रेषितांस्तेन समन्ताद्धेमभूषणान् ।\nचिच्छेद खड्गमाविध्य भ्रामयंश्च पुनः पुनः ॥"
+          "text": "ताञ्शरान्प्रेषितांस्तेन समन्ताद्धेमभूषणान् ।\nचिच्छेद खड्गमाविध्य भ्रामयंश्च पुनः पुनः ॥",
+          "meaning": {
+            "en": "Whirling his sword round and round, Shikhandi cut down those golden-adorned arrows that Kripa had sent from every side."
+          }
         },
         {
           "n": 19,
-          "text": "शतचन्द्रं ततश्चर्म गौतमः पार्षतस्य ह ।\nव्यधमत्सायकैस्तूर्णं तत उच्चुक्रुशुर्जनाः ॥"
+          "text": "शतचन्द्रं ततश्चर्म गौतमः पार्षतस्य ह ।\nव्यधमत्सायकैस्तूर्णं तत उच्चुक्रुशुर्जनाः ॥",
+          "meaning": {
+            "en": "Then Kripa, son of Gautama, quickly destroyed with his arrows the shield of the son of Prishata, which was marked with a hundred moons, and people cried out."
+          }
         },
         {
           "n": 20,
-          "text": "स विचर्मा महाराज खड्गपाणिरुपाद्रवत् ।\nकृपस्य वशमापन्नो मृत्योरास्यमिवातुरः ॥"
+          "text": "स विचर्मा महाराज खड्गपाणिरुपाद्रवत् ।\nकृपस्य वशमापन्नो मृत्योरास्यमिवातुरः ॥",
+          "meaning": {
+            "en": "Great king, Shikhandi, now without a shield, sword in hand, ran forward, fallen into Kripa's power like a sick man into the jaws of death."
+          }
         },
         {
           "n": 21,
-          "text": "शारद्वतशरैर्ग्रस्तं क्लिश्यमानं महाबलम् ।\nचित्रकेतुसुतो राजन्सुकेतुस्त्वरितो ययौ ॥"
+          "text": "शारद्वतशरैर्ग्रस्तं क्लिश्यमानं महाबलम् ।\nचित्रकेतुसुतो राजन्सुकेतुस्त्वरितो ययौ ॥",
+          "meaning": {
+            "en": "King, as that mighty man was gripped and tormented by the arrows of Kripa, Suketu, son of Chitraketu, hurried to him."
+          }
         },
         {
           "n": 22,
-          "text": "विकिरन्ब्राह्मणं युद्धे बहुभिर्निशितैः शरैः ।\nअभ्यापतदमेयात्मा गौतमस्य रथं प्रति ॥"
+          "text": "विकिरन्ब्राह्मणं युद्धे बहुभिर्निशितैः शरैः ।\nअभ्यापतदमेयात्मा गौतमस्य रथं प्रति ॥",
+          "meaning": {
+            "en": "Scattering many sharp arrows at the brahmin in the battle, that man of immeasurable spirit attacked Gautama's chariot."
+          }
         },
         {
           "n": 23,
-          "text": "दृष्ट्वाविषह्यं तं युद्धे ब्राह्मणं चरितव्रतम् ।\nअपयातस्ततस्तूर्णं शिखण्डी राजसत्तम ॥"
+          "text": "दृष्ट्वाविषह्यं तं युद्धे ब्राह्मणं चरितव्रतम् ।\nअपयातस्ततस्तूर्णं शिखण्डी राजसत्तम ॥",
+          "meaning": {
+            "en": "Best of kings, seeing that the brahmin who had kept his vows was too strong to resist, Shikhandi quickly withdrew."
+          }
         },
         {
           "n": 24,
-          "text": "सुकेतुस्तु ततो राजन्गौतमं नवभिः शरैः ।\nविद्ध्वा विव्याध सप्तत्या पुनश्चैनं त्रिभिः शरैः ॥"
+          "text": "सुकेतुस्तु ततो राजन्गौतमं नवभिः शरैः ।\nविद्ध्वा विव्याध सप्तत्या पुनश्चैनं त्रिभिः शरैः ॥",
+          "meaning": {
+            "en": "King, Suketu then wounded Gautama with nine arrows, and again with seventy, and once more with three."
+          }
         },
         {
           "n": 25,
-          "text": "अथास्य सशरं चापं पुनश्चिच्छेद मारिष ।\nसारथिं च शरेणास्य भृशं मर्मण्यताडयत् ॥"
+          "text": "अथास्य सशरं चापं पुनश्चिच्छेद मारिष ।\nसारथिं च शरेणास्य भृशं मर्मण्यताडयत् ॥",
+          "meaning": {
+            "en": "Lord, he then cut Kripa's bow along with its arrow once again, and struck his charioteer badly in a vital spot with an arrow."
+          }
         },
         {
           "n": 26,
-          "text": "गौतमस्तु ततः क्रुद्धो धनुर्गृह्य नवं दृढम् ।\nसुकेतुं त्रिंशता बाणैः सर्वमर्मस्वताडयत् ॥"
+          "text": "गौतमस्तु ततः क्रुद्धो धनुर्गृह्य नवं दृढम् ।\nसुकेतुं त्रिंशता बाणैः सर्वमर्मस्वताडयत् ॥",
+          "meaning": {
+            "en": "Then Gautama, angry, took up a new, strong bow and struck Suketu in all his vital parts with thirty arrows."
+          }
         },
         {
           "n": 27,
-          "text": "स विह्वलितसर्वाङ्गः प्रचचाल रथोत्तमे ।\nभूमिचाले यथा वृक्षश्चलत्याकम्पितो भृशम् ॥"
+          "text": "स विह्वलितसर्वाङ्गः प्रचचाल रथोत्तमे ।\nभूमिचाले यथा वृक्षश्चलत्याकम्पितो भृशम् ॥",
+          "meaning": {
+            "en": "With all his limbs shaken, Suketu trembled on his excellent chariot, as a tree shakes violently in an earthquake."
+          }
         },
         {
           "n": 28,
-          "text": "चलतस्तस्य कायात्तु शिरो ज्वलितकुण्डलम् ।\nसोष्णीषं सशिरस्त्राणं क्षुरप्रेणान्वपातयत् ॥"
+          "text": "चलतस्तस्य कायात्तु शिरो ज्वलितकुण्डलम् ।\nसोष्णीषं सशिरस्त्राणं क्षुरप्रेणान्वपातयत् ॥",
+          "meaning": {
+            "en": "As his body shook, Kripa struck off with a razor-edged arrow his head with its blazing earrings, turban and helmet."
+          }
         },
         {
           "n": 29,
-          "text": "तच्छिरः प्रापतद्भूमौ श्येनाहृतमिवामिषम् ।\nततोऽस्य कायो वसुधां पश्चात्प्राप तदा च्युतः ॥"
+          "text": "तच्छिरः प्रापतद्भूमौ श्येनाहृतमिवामिषम् ।\nततोऽस्य कायो वसुधां पश्चात्प्राप तदा च्युतः ॥",
+          "meaning": {
+            "en": "That head fell to the ground like meat carried off by a hawk, and then the body, too, dropped to earth."
+          }
         },
         {
           "n": 30,
-          "text": "तस्मिन्हते महाराज त्रस्तास्तस्य पदानुगाः ।\nगौतमं समरे त्यक्त्वा दुद्रुवुस्ते दिशो दश ॥"
+          "text": "तस्मिन्हते महाराज त्रस्तास्तस्य पदानुगाः ।\nगौतमं समरे त्यक्त्वा दुद्रुवुस्ते दिशो दश ॥",
+          "meaning": {
+            "en": "Great king, when he was slain, his followers, terrified, left Gautama in the battle and ran off in all ten directions."
+          }
         },
         {
           "n": 31,
-          "text": "धृष्टद्युम्नं तु समरे संनिवार्य महाबलः ।\nकृतवर्माब्रवीद्धृष्टस्तिष्ठ तिष्ठेति पार्षतम् ॥"
+          "text": "धृष्टद्युम्नं तु समरे संनिवार्य महाबलः ।\nकृतवर्माब्रवीद्धृष्टस्तिष्ठ तिष्ठेति पार्षतम् ॥",
+          "meaning": {
+            "en": "Then the mighty Kritavarma, having held back Dhrishtadyumna in the battle, cheerfully said to the son of Prishata, \"Stand, stand!\""
+          }
         },
         {
           "n": 32,
-          "text": "तदभूत्तुमुलं युद्धं वृष्णिपार्षतयो रणे ।\nआमिषार्थे यथा युद्धं श्येनयोर्गृद्धयोर्नृप ॥"
+          "text": "तदभूत्तुमुलं युद्धं वृष्णिपार्षतयो रणे ।\nआमिषार्थे यथा युद्धं श्येनयोर्गृद्धयोर्नृप ॥",
+          "meaning": {
+            "en": "King, a tumultuous fight began in the battle between the Vrishni and the son of Prishata, like the fight of two hungry hawks over meat."
+          }
         },
         {
           "n": 33,
-          "text": "धृष्टद्युम्नस्तु समरे हार्दिक्यं नवभिः शरैः ।\nआजघानोरसि क्रुद्धः पीडयन्हृदिकात्मजम् ॥"
+          "text": "धृष्टद्युम्नस्तु समरे हार्दिक्यं नवभिः शरैः ।\nआजघानोरसि क्रुद्धः पीडयन्हृदिकात्मजम् ॥",
+          "meaning": {
+            "en": "Dhrishtadyumna, angry in the battle, struck Hridika's son Kritavarma in the chest with nine arrows, tormenting him."
+          }
         },
         {
           "n": 34,
-          "text": "कृतवर्मा तु समरे पार्षतेन दृढाहतः ।\nपार्षतं सरथं साश्वं छादयामास सायकैः ॥"
+          "text": "कृतवर्मा तु समरे पार्षतेन दृढाहतः ।\nपार्षतं सरथं साश्वं छादयामास सायकैः ॥",
+          "meaning": {
+            "en": "Kritavarma, hard hit in the battle by the son of Prishata, covered Dhrishtadyumna together with his chariot and horses with arrows."
+          }
         },
         {
           "n": 35,
-          "text": "सरथश्छादितो राजन्धृष्टद्युम्नो न दृश्यते ।\nमेघैरिव परिच्छन्नो भास्करो जलदागमे ॥"
+          "text": "सरथश्छादितो राजन्धृष्टद्युम्नो न दृश्यते ।\nमेघैरिव परिच्छन्नो भास्करो जलदागमे ॥",
+          "meaning": {
+            "en": "King, Dhrishtadyumna, covered with his chariot, could no longer be seen, like the sun hidden by clouds when the rains come."
+          }
         },
         {
           "n": 36,
-          "text": "विधूय तं बाणगणं शरैः कनकभूषणैः ।\nव्यरोचत रणे राजन्धृष्टद्युम्नः कृतव्रणः ॥"
+          "text": "विधूय तं बाणगणं शरैः कनकभूषणैः ।\nव्यरोचत रणे राजन्धृष्टद्युम्नः कृतव्रणः ॥",
+          "meaning": {
+            "en": "Shaking off that mass of arrows with golden-adorned arrows of his own, Dhrishtadyumna, though wounded, shone in the battle, king."
+          }
         },
         {
           "n": 37,
-          "text": "ततस्तु पार्षतः क्रुद्धः शस्त्रवृष्टिं सुदारुणाम् ।\nकृतवर्माणमासाद्य व्यसृजत्पृतनापतिः ॥"
+          "text": "ततस्तु पार्षतः क्रुद्धः शस्त्रवृष्टिं सुदारुणाम् ।\nकृतवर्माणमासाद्य व्यसृजत्पृतनापतिः ॥",
+          "meaning": {
+            "en": "Then the son of Prishata, the commander, angry, came up to Kritavarma and let loose a terrible shower of weapons."
+          }
         },
         {
           "n": 38,
-          "text": "तामापतन्तीं सहसा शस्त्रवृष्टिं निरन्तराम् ।\nशरैरनेकसाहस्रैर्हार्दिक्यो व्यधमद्युधि ॥"
+          "text": "तामापतन्तीं सहसा शस्त्रवृष्टिं निरन्तराम् ।\nशरैरनेकसाहस्रैर्हार्दिक्यो व्यधमद्युधि ॥",
+          "meaning": {
+            "en": "The son of Hridika destroyed in the fight, with many thousands of arrows, that dense shower of weapons as it rushed suddenly upon him."
+          }
         },
         {
           "n": 39,
-          "text": "दृष्ट्वा तु दारितां युद्धे शस्त्रवृष्टिं दुरुत्तराम् ।\nकृतवर्माणमभ्येत्य वारयामास पार्षतः ॥"
+          "text": "दृष्ट्वा तु दारितां युद्धे शस्त्रवृष्टिं दुरुत्तराम् ।\nकृतवर्माणमभ्येत्य वारयामास पार्षतः ॥",
+          "meaning": {
+            "en": "But seeing that hard-to-cross shower of weapons torn apart in the battle, the son of Prishata went up to Kritavarma and checked him."
+          }
         },
         {
           "n": 40,
-          "text": "सारथिं चास्य तरसा प्राहिणोद्यमसादनम् ।\nभल्लेन शितधारेण स हतः प्रापतद्रथात् ॥"
+          "text": "सारथिं चास्य तरसा प्राहिणोद्यमसादनम् ।\nभल्लेन शितधारेण स हतः प्रापतद्रथात् ॥",
+          "meaning": {
+            "en": "With a sharp-edged broad-headed arrow he quickly sent Kritavarma's charioteer to Yama's abode, and the charioteer, slain, fell from the chariot."
+          }
         },
         {
           "n": 41,
-          "text": "धृष्टद्युम्नस्तु बलवाञ्जित्वा शत्रुं महारथम् ।\nकौरवान्समरे तूर्णं वारयामास सायकैः ॥"
+          "text": "धृष्टद्युम्नस्तु बलवाञ्जित्वा शत्रुं महारथम् ।\nकौरवान्समरे तूर्णं वारयामास सायकैः ॥",
+          "meaning": {
+            "en": "Mighty Dhrishtadyumna, having overcome that great chariot-warrior, his enemy, quickly held back the Kauravas in the battle with his arrows."
+          }
         },
         {
           "n": 42,
-          "text": "ततस्ते तावका योधा धृष्टद्युम्नमुपाद्रवन् ।\nसिंहनादरवं कृत्वा ततो युद्धमवर्तत ॥"
+          "text": "ततस्ते तावका योधा धृष्टद्युम्नमुपाद्रवन् ।\nसिंहनादरवं कृत्वा ततो युद्धमवर्तत ॥",
+          "meaning": {
+            "en": "Then your warriors rushed upon Dhrishtadyumna with lion-roars, and the fighting went on."
+          }
         }
       ]
     }

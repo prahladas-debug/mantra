@@ -22,182 +22,317 @@
       "titleEn": "Rajadharma Parva (Duties of kings)",
       "verses": [
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 1,
-          "text": "एवमुक्तो भगवता धर्मराजो युधिष्ठिरः ।\nचिन्तयित्वा मुहूर्तं तु प्रत्युवाच तपोधनम् ॥"
+          "text": "एवमुक्तो भगवता धर्मराजो युधिष्ठिरः ।\nचिन्तयित्वा मुहूर्तं तु प्रत्युवाच तपोधनम् ॥",
+          "meaning": {
+            "en": "Spoken to thus by the blessed Vyasa, Dharmaraja Yudhishthira thought for a moment and answered the ascetic."
+          }
         },
         {
           "n": 2,
-          "text": "किं भक्ष्यं किमभक्ष्यं च किं च देयं प्रशस्यते ।\nकिं च पात्रमपात्रं वा तन्मे ब्रूहि पितामह ॥"
+          "text": "किं भक्ष्यं किमभक्ष्यं च किं च देयं प्रशस्यते ।\nकिं च पात्रमपात्रं वा तन्मे ब्रूहि पितामह ॥",
+          "meaning": {
+            "en": "Grandfather, tell me what may be eaten and what not, what is praised as fit to give, and who is a worthy recipient and who is not."
+          }
         },
         {
-          "text": "व्यास उवाच"
+          "text": "व्यास उवाच",
+          "meaning": {
+            "en": "Vyasa said:"
+          }
         },
         {
           "n": 3,
-          "text": "अत्राप्युदाहरन्तीममितिहासं पुरातनम् ।\nसिद्धानां चैव संवादं मनोश्चैव प्रजापतेः ॥"
+          "text": "अत्राप्युदाहरन्तीममितिहासं पुरातनम् ।\nसिद्धानां चैव संवादं मनोश्चैव प्रजापतेः ॥",
+          "meaning": {
+            "en": "On this too they tell an ancient tale, a conversation between the Siddhas and Manu, the lord of creatures."
+          }
         },
         {
           "n": 4,
-          "text": "सिद्धास्तपोव्रतपराः समागम्य पुरा विभुम् ।\nधर्मं पप्रच्छुरासीनमादिकाले प्रजापतिम् ॥"
+          "text": "सिद्धास्तपोव्रतपराः समागम्य पुरा विभुम् ।\nधर्मं पप्रच्छुरासीनमादिकाले प्रजापतिम् ॥",
+          "meaning": {
+            "en": "In the beginning, the Siddhas, devoted to austerity and vows, gathered and asked about dharma of the lord Prajapati as he sat."
+          }
         },
         {
           "n": 5,
-          "text": "कथमन्नं कथं दानं कथमध्ययनं तपः ।\nकार्याकार्यं च नः सर्वं शंस वै त्वं प्रजापते ॥"
+          "text": "कथमन्नं कथं दानं कथमध्ययनं तपः ।\nकार्याकार्यं च नः सर्वं शंस वै त्वं प्रजापते ॥",
+          "meaning": {
+            "en": "\"How should one eat, how give, how study, how practice austerity? Tell us, Prajapati, all that is to be done and not done.\""
+          }
         },
         {
           "n": 6,
-          "text": "तैरेवमुक्तो भगवान्मनुः स्वायंभुवोऽब्रवीत् ।\nशुश्रूषध्वं यथावृत्तं धर्मं व्याससमासतः ॥"
+          "text": "तैरेवमुक्तो भगवान्मनुः स्वायंभुवोऽब्रवीत् ।\nशुश्रूषध्वं यथावृत्तं धर्मं व्याससमासतः ॥",
+          "meaning": {
+            "en": "Spoken to thus, the blessed Manu Svayambhuva said: \"Listen to dharma as it is, in brief and in detail."
+          }
         },
         {
           "n": 7,
-          "text": "अदत्तस्यानुपादानं दानमध्ययनं तपः ।\nअहिंसा सत्यमक्रोधः क्षमेज्या धर्मलक्षणम् ॥"
+          "text": "अदत्तस्यानुपादानं दानमध्ययनं तपः ।\nअहिंसा सत्यमक्रोधः क्षमेज्या धर्मलक्षणम् ॥",
+          "meaning": {
+            "en": "Not taking what is not given, giving, study, austerity, non-violence, truth, freedom from anger, forbearance and sacrifice are the marks of dharma."
+          }
         },
         {
           "n": 8,
-          "text": "य एव धर्मः सोऽधर्मोऽदेशेऽकाले प्रतिष्ठितः ।\nआदानमनृतं हिंसा धर्मो व्यावस्थिकः स्मृतः ॥"
+          "text": "य एव धर्मः सोऽधर्मोऽदेशेऽकाले प्रतिष्ठितः ।\nआदानमनृतं हिंसा धर्मो व्यावस्थिकः स्मृतः ॥",
+          "meaning": {
+            "en": "What is dharma becomes adharma when it is done in the wrong place or time; taking, falsehood and violence are held to be dharma depending on circumstance."
+          }
         },
         {
           "n": 9,
-          "text": "द्विविधौ चाप्युभावेतौ धर्माधर्मौ विजानताम् ।\nअप्रवृत्तिः प्रवृत्तिश्च द्वैविध्यं लोकवेदयोः ॥"
+          "text": "द्विविधौ चाप्युभावेतौ धर्माधर्मौ विजानताम् ।\nअप्रवृत्तिः प्रवृत्तिश्च द्वैविध्यं लोकवेदयोः ॥",
+          "meaning": {
+            "en": "For those who know, both dharma and adharma are twofold: abstaining and acting; this two-fold division is in both the world and the Veda."
+          }
         },
         {
           "n": 10,
-          "text": "अप्रवृत्तेरमर्त्यत्वं मर्त्यत्वं कर्मणः फलम् ।\nअशुभस्याशुभं विद्याच्छुभस्य शुभमेव च ॥"
+          "text": "अप्रवृत्तेरमर्त्यत्वं मर्त्यत्वं कर्मणः फलम् ।\nअशुभस्याशुभं विद्याच्छुभस्य शुभमेव च ॥",
+          "meaning": {
+            "en": "From abstaining comes deathlessness; from acting, mortality as fruit. Know that bad action has a bad result and good action a good one."
+          }
         },
         {
           "n": 11,
-          "text": "एतयोश्चोभयोः स्यातां शुभाशुभतया तथा ।\nदैवं च दैवयुक्तं च प्राणश्च प्रलयश्च ह ॥"
+          "text": "एतयोश्चोभयोः स्यातां शुभाशुभतया तथा ।\nदैवं च दैवयुक्तं च प्राणश्च प्रलयश्च ह ॥",
+          "meaning": {
+            "en": "Both of these have their good and bad kinds, and with them are the divine and what is bound to the divine, and life-breath and dissolution."
+          }
         },
         {
           "n": 12,
-          "text": "अप्रेक्षापूर्वकरणादशुभानां शुभं फलम् ।\nऊर्ध्वं भवति संदेहादिह दृष्टार्थमेव वा ।\nअप्रेक्षापूर्वकरणात्प्रायश्चित्तं विधीयते ॥"
+          "text": "अप्रेक्षापूर्वकरणादशुभानां शुभं फलम् ।\nऊर्ध्वं भवति संदेहादिह दृष्टार्थमेव वा ।\nअप्रेक्षापूर्वकरणात्प्रायश्चित्तं विधीयते ॥",
+          "meaning": {
+            "en": "Acts done without forethought have a result for their bad deeds, whether beyond, in doubt, or visible here; atonement is prescribed for what is done without forethought."
+          }
         },
         {
           "n": 13,
-          "text": "क्रोधमोहकृते चैव दृष्टान्तागमहेतुभिः ।\nशरीराणामुपक्लेशो मनसश्च प्रियाप्रिये ।\nतदौषधैश्च मन्त्रैश्च प्रायश्चित्तैश्च शाम्यति ॥"
+          "text": "क्रोधमोहकृते चैव दृष्टान्तागमहेतुभिः ।\nशरीराणामुपक्लेशो मनसश्च प्रियाप्रिये ।\nतदौषधैश्च मन्त्रैश्च प्रायश्चित्तैश्च शाम्यति ॥",
+          "meaning": {
+            "en": "The injuries to the body and the pleasant and unpleasant feelings of the mind that come from anger or delusion are settled by medicines, mantras and atonements, according to examples, scripture and reason."
+          }
         },
         {
           "n": 14,
-          "text": "जातिश्रेण्यधिवासानां कुलधर्मांश्च सर्वतः ।\nवर्जयेन्न हि तं धर्मं येषां धर्मो न विद्यते ॥"
+          "text": "जातिश्रेण्यधिवासानां कुलधर्मांश्च सर्वतः ।\nवर्जयेन्न हि तं धर्मं येषां धर्मो न विद्यते ॥",
+          "meaning": {
+            "en": "One should never reject the dharma of caste, guild, residence and family everywhere, but not that of people who have no dharma."
+          }
         },
         {
           "n": 15,
-          "text": "दश वा वेदशास्त्रज्ञास्त्रयो वा धर्मपाठकाः ।\nयद्ब्रूयुः कार्य उत्पन्ने स धर्मो धर्मसंशये ॥"
+          "text": "दश वा वेदशास्त्रज्ञास्त्रयो वा धर्मपाठकाः ।\nयद्ब्रूयुः कार्य उत्पन्ने स धर्मो धर्मसंशये ॥",
+          "meaning": {
+            "en": "Whatever ten who know the Veda and its sciences, or three who recite dharma, declare when a matter arises, that is dharma in a case of doubt."
+          }
         },
         {
           "n": 16,
-          "text": "अरुणा मृत्तिका चैव तथा चैव पिपीलकाः ।\nश्लेष्मातकस्तथा विप्रैरभक्ष्यं विषमेव च ॥"
+          "text": "अरुणा मृत्तिका चैव तथा चैव पिपीलकाः ।\nश्लेष्मातकस्तथा विप्रैरभक्ष्यं विषमेव च ॥",
+          "meaning": {
+            "en": "Brahmins should not eat red clay, ants, the slesmataka fruit, or poison."
+          }
         },
         {
           "n": 17,
-          "text": "अभक्ष्या ब्राह्मणैर्मत्स्याः शकलैर्ये विवर्जिताः ।\nचतुष्पात्कच्छपादन्यो मण्डूका जलजाश्च ये ॥"
+          "text": "अभक्ष्या ब्राह्मणैर्मत्स्याः शकलैर्ये विवर्जिताः ।\nचतुष्पात्कच्छपादन्यो मण्डूका जलजाश्च ये ॥",
+          "meaning": {
+            "en": "Brahmins should not eat fish without scales, nor any four-footed creature other than the tortoise, nor frogs and water creatures."
+          }
         },
         {
           "n": 18,
-          "text": "भासा हंसाः सुपर्णाश्च चक्रवाका बकाः प्लवाः ।\nकङ्को मद्गुश्च गृध्राश्च काकोलूकं तथैव च ॥"
+          "text": "भासा हंसाः सुपर्णाश्च चक्रवाका बकाः प्लवाः ।\nकङ्को मद्गुश्च गृध्राश्च काकोलूकं तथैव च ॥",
+          "meaning": {
+            "en": "Nor the bhasa, swans, suparnas, chakravakas, cranes, plavas, kanka, madgu, vultures, crows and owls."
+          }
         },
         {
           "n": 19,
-          "text": "क्रव्यादाः पक्षिणः सर्वे चतुष्पादाश्च दंष्ट्रिणः ।\nयेषां चोभयतो दन्ताश्चतुर्दंष्ट्राश्च सर्वशः ॥"
+          "text": "क्रव्यादाः पक्षिणः सर्वे चतुष्पादाश्च दंष्ट्रिणः ।\nयेषां चोभयतो दन्ताश्चतुर्दंष्ट्राश्च सर्वशः ॥",
+          "meaning": {
+            "en": "Nor all flesh-eating birds, nor four-footed beasts with fangs, those with teeth in both jaws, nor those with four fangs."
+          }
         },
         {
           "n": 20,
-          "text": "एडकाश्वखरोष्ट्रीणां सूतिकानां गवामपि ।\nमानुषीणां मृगीणां च न पिबेद्ब्राह्मणः पयः ॥"
+          "text": "एडकाश्वखरोष्ट्रीणां सूतिकानां गवामपि ।\nमानुषीणां मृगीणां च न पिबेद्ब्राह्मणः पयः ॥",
+          "meaning": {
+            "en": "A brahmin should not drink the milk of sheep, mares, she-asses, camels, cows that have just calved, women or deer."
+          }
         },
         {
           "n": 21,
-          "text": "प्रेतान्नं सूतिकान्नं च यच्च किंचिदनिर्दशम् ।\nअभोज्यं चाप्यपेयं च धेन्वा दुग्धमनिर्दशम् ॥"
+          "text": "प्रेतान्नं सूतिकान्नं च यच्च किंचिदनिर्दशम् ।\nअभोज्यं चाप्यपेयं च धेन्वा दुग्धमनिर्दशम् ॥",
+          "meaning": {
+            "en": "Food of the dead, food of a birthing house, anything not yet duly set apart, and the milk of a cow within ten days after calving are unfit to eat or drink."
+          }
         },
         {
           "n": 22,
-          "text": "तक्ष्णश्चर्मावकर्तुश्च पुंश्चल्या रजकस्य च ।\nचिकित्सकस्य यच्चान्नमभोज्यं रक्षिणस्तथा ॥"
+          "text": "तक्ष्णश्चर्मावकर्तुश्च पुंश्चल्या रजकस्य च ।\nचिकित्सकस्य यच्चान्नमभोज्यं रक्षिणस्तथा ॥",
+          "meaning": {
+            "en": "The food of a carpenter, a leather worker, a loose woman, a washerman, a physician, and a watchman is not to be eaten."
+          }
         },
         {
           "n": 23,
-          "text": "गणग्रामाभिशस्तानां रङ्गस्त्रीजीविनश्च ये ।\nपरिवित्तिनपुंषां च बन्दिद्यूतविदां तथा ॥"
+          "text": "गणग्रामाभिशस्तानां रङ्गस्त्रीजीविनश्च ये ।\nपरिवित्तिनपुंषां च बन्दिद्यूतविदां तथा ॥",
+          "meaning": {
+            "en": "Nor the food of those condemned by their group or village, those who live by women who perform on stage, the parivitti, eunuchs, bards and gamblers."
+          }
         },
         {
           "n": 24,
-          "text": "वार्यमाणाहृतं चान्नं शुक्तं पर्युषितं च यत् ।\nसुरानुगतमुच्छिष्टमभोज्यं शेषितं च यत् ॥"
+          "text": "वार्यमाणाहृतं चान्नं शुक्तं पर्युषितं च यत् ।\nसुरानुगतमुच्छिष्टमभोज्यं शेषितं च यत् ॥",
+          "meaning": {
+            "en": "Food brought when forbidden, soured food, stale food, food touched by liquor, leftovers, and what has been set aside is not to be eaten."
+          }
         },
         {
           "n": 25,
-          "text": "पिष्टमांसेक्षुशाकानां विकाराः पयसस्तथा ।\nसक्तुधानाकरम्भाश्च नोपभोज्याश्चिरस्थिताः ॥"
+          "text": "पिष्टमांसेक्षुशाकानां विकाराः पयसस्तथा ।\nसक्तुधानाकरम्भाश्च नोपभोज्याश्चिरस्थिताः ॥",
+          "meaning": {
+            "en": "Preparations of flour, meat, sugarcane and greens, and of milk, barley meal, grains and gruel that have stood long are not to be eaten."
+          }
         },
         {
           "n": 26,
-          "text": "पायसं कृसरं मांसमपूपाश्च वृथा कृताः ।\nअभोज्याश्चाप्यभक्ष्याश्च ब्राह्मणैर्गृहमेधिभिः ॥"
+          "text": "पायसं कृसरं मांसमपूपाश्च वृथा कृताः ।\nअभोज्याश्चाप्यभक्ष्याश्च ब्राह्मणैर्गृहमेधिभिः ॥",
+          "meaning": {
+            "en": "Milk rice, rice with sesame, meat and cakes prepared for no purpose are neither to be eaten nor fit as food for householder brahmins."
+          }
         },
         {
           "n": 27,
-          "text": "देवान्पितॄन्मनुष्यांश्च मुनीन्गृह्याश्च देवताः ।\nपूजयित्वा ततः पश्चाद्गृहस्थो भोक्तुमर्हति ॥"
+          "text": "देवान्पितॄन्मनुष्यांश्च मुनीन्गृह्याश्च देवताः ।\nपूजयित्वा ततः पश्चाद्गृहस्थो भोक्तुमर्हति ॥",
+          "meaning": {
+            "en": "After honoring the gods, ancestors, men, sages and household deities, a householder is then fit to eat."
+          }
         },
         {
           "n": 28,
-          "text": "यथा प्रव्रजितो भिक्षुर्गृहस्थः स्वगृहे वसेत् ।\nएवंवृत्तः प्रियैर्दारैः संवसन्धर्ममाप्नुयात् ॥"
+          "text": "यथा प्रव्रजितो भिक्षुर्गृहस्थः स्वगृहे वसेत् ।\nएवंवृत्तः प्रियैर्दारैः संवसन्धर्ममाप्नुयात् ॥",
+          "meaning": {
+            "en": "As a wandering monk might, a householder should live in his own house; living so with his dear wives, he gains dharma."
+          }
         },
         {
           "n": 29,
-          "text": "न दद्याद्यशसे दानं न भयान्नोपकारिणे ।\nन नृत्तगीतशीलेषु हासकेषु च धार्मिकः ॥"
+          "text": "न दद्याद्यशसे दानं न भयान्नोपकारिणे ।\nन नृत्तगीतशीलेषु हासकेषु च धार्मिकः ॥",
+          "meaning": {
+            "en": "A dutiful man should not give a gift for fame, from fear, to one who has helped him, or to dancers, singers and jesters."
+          }
         },
         {
           "n": 30,
-          "text": "न मत्ते नैव चोन्मत्ते न स्तेने न चिकित्सके ।\nन वाग्घीने विवर्णे वा नाङ्गहीने न वामने ॥"
+          "text": "न मत्ते नैव चोन्मत्ते न स्तेने न चिकित्सके ।\nन वाग्घीने विवर्णे वा नाङ्गहीने न वामने ॥",
+          "meaning": {
+            "en": "Not to the drunk or mad, not to a thief or a physician, not to one who cannot speak, who is discolored, has deformed limbs or is dwarfish."
+          }
         },
         {
           "n": 31,
-          "text": "न दुर्जने दौष्कुले वा व्रतैर्वा यो न संस्कृतः ।\nअश्रोत्रिये मृतं दानं ब्राह्मणेऽब्रह्मवादिनि ॥"
+          "text": "न दुर्जने दौष्कुले वा व्रतैर्वा यो न संस्कृतः ।\nअश्रोत्रिये मृतं दानं ब्राह्मणेऽब्रह्मवादिनि ॥",
+          "meaning": {
+            "en": "Not to a wicked person, one of a bad family, one not trained by vows, one who has not studied the Veda, or a brahmin who is not a speaker of Brahman; a gift to such is dead."
+          }
         },
         {
           "n": 32,
-          "text": "असम्यक्चैव यद्दत्तमसम्यक्च प्रतिग्रहः ।\nउभयोः स्यादनर्थाय दातुरादातुरेव च ॥"
+          "text": "असम्यक्चैव यद्दत्तमसम्यक्च प्रतिग्रहः ।\nउभयोः स्यादनर्थाय दातुरादातुरेव च ॥",
+          "meaning": {
+            "en": "A gift given improperly, and a gift accepted improperly, lead to harm for both the giver and the taker."
+          }
         },
         {
           "n": 33,
-          "text": "यथा खदिरमालम्ब्य शिलां वाप्यर्णवं तरन् ।\nमज्जते मज्जते तद्वद्दाता यश्च प्रतीच्छकः ॥"
+          "text": "यथा खदिरमालम्ब्य शिलां वाप्यर्णवं तरन् ।\nमज्जते मज्जते तद्वद्दाता यश्च प्रतीच्छकः ॥",
+          "meaning": {
+            "en": "As a man trying to cross the ocean holding a catechu log or a stone sinks, so the giver and the receiver sink."
+          }
         },
         {
           "n": 34,
-          "text": "काष्ठैरार्द्रैर्यथा वह्निरुपस्तीर्णो न दीप्यते ।\nतपःस्वाध्यायचारित्रैरेवं हीनः प्रतिग्रही ॥"
+          "text": "काष्ठैरार्द्रैर्यथा वह्निरुपस्तीर्णो न दीप्यते ।\nतपःस्वाध्यायचारित्रैरेवं हीनः प्रतिग्रही ॥",
+          "meaning": {
+            "en": "As fire does not blaze when covered with wet wood, so a receiver lacking austerity, study and conduct."
+          }
         },
         {
           "n": 35,
-          "text": "कपाले यद्वदापः स्युः श्वदृतौ वा यथा पयः ।\nआश्रयस्थानदोषेण वृत्तहीने तथा श्रुतम् ॥"
+          "text": "कपाले यद्वदापः स्युः श्वदृतौ वा यथा पयः ।\nआश्रयस्थानदोषेण वृत्तहीने तथा श्रुतम् ॥",
+          "meaning": {
+            "en": "As water in a skull, or milk in a dog's skin, so learning in a man of bad conduct, through the fault of the vessel where it rests."
+          }
         },
         {
           "n": 36,
-          "text": "निर्मन्त्रो निर्व्रतो यः स्यादशास्त्रज्ञोऽनसूयकः ।\nअनुक्रोशात्प्रदातव्यं दीनेष्वेवं नरेष्वपि ॥"
+          "text": "निर्मन्त्रो निर्व्रतो यः स्यादशास्त्रज्ञोऽनसूयकः ।\nअनुक्रोशात्प्रदातव्यं दीनेष्वेवं नरेष्वपि ॥",
+          "meaning": {
+            "en": "One who is without mantras, without vows, ignorant of scripture and envious: only out of compassion should something be given to such needy men."
+          }
         },
         {
           "n": 37,
-          "text": "न वै देयमनुक्रोशाद्दीनायाप्यपकारिणे ।\nआप्ताचरितमित्येव धर्म इत्येव वा पुनः ॥"
+          "text": "न वै देयमनुक्रोशाद्दीनायाप्यपकारिणे ।\nआप्ताचरितमित्येव धर्म इत्येव वा पुनः ॥",
+          "meaning": {
+            "en": "Not even out of compassion should one give to a poor man who harms others, and what is said to be practiced by trustworthy persons or called dharma."
+          }
         },
         {
           "n": 38,
-          "text": "निष्कारणं स्म तद्दत्तं ब्राह्मणे धर्मवर्जिते ।\nभवेदपात्रदोषेण न मेऽत्रास्ति विचारणा ॥"
+          "text": "निष्कारणं स्म तद्दत्तं ब्राह्मणे धर्मवर्जिते ।\nभवेदपात्रदोषेण न मेऽत्रास्ति विचारणा ॥",
+          "meaning": {
+            "en": "A gift to a brahmin without dharma is given for no reason, and through the fault of the unworthy recipient it is useless, I have no doubt of it."
+          }
         },
         {
           "n": 39,
-          "text": "यथा दारुमयो हस्ती यथा चर्ममयो मृगः ।\nब्राह्मणश्चानधीयानस्त्रयस्ते नामधारकाः ॥"
+          "text": "यथा दारुमयो हस्ती यथा चर्ममयो मृगः ।\nब्राह्मणश्चानधीयानस्त्रयस्ते नामधारकाः ॥",
+          "meaning": {
+            "en": "A wooden elephant, a leather deer, and a brahmin who has not studied: these three bear only a name."
+          }
         },
         {
           "n": 40,
-          "text": "यथा षण्ढोऽफलः स्त्रीषु यथा गौर्गवि चाफला ।\nशकुनिर्वाप्यपक्षः स्यान्निर्मन्त्रो ब्राह्मणस्तथा ॥"
+          "text": "यथा षण्ढोऽफलः स्त्रीषु यथा गौर्गवि चाफला ।\nशकुनिर्वाप्यपक्षः स्यान्निर्मन्त्रो ब्राह्मणस्तथा ॥",
+          "meaning": {
+            "en": "As a eunuch is fruitless with women, a cow with a cow, and a bird without wings, so a brahmin without mantras."
+          }
         },
         {
           "n": 41,
-          "text": "ग्रामधान्यं यथा शून्यं यथा कूपश्च निर्जलः ।\nयथा हुतमनग्नौ च तथैव स्यान्निराकृतौ ॥"
+          "text": "ग्रामधान्यं यथा शून्यं यथा कूपश्च निर्जलः ।\nयथा हुतमनग्नौ च तथैव स्यान्निराकृतौ ॥",
+          "meaning": {
+            "en": "As a village's grain is empty, as a well is waterless, as an offering made where there is no fire, so is a brahmin who has been rejected."
+          }
         },
         {
           "n": 42,
-          "text": "देवतानां पितॄणां च हव्यकव्यविनाशनः ।\nशत्रुरर्थहरो मूर्खो न लोकान्प्राप्तुमर्हति ॥"
+          "text": "देवतानां पितॄणां च हव्यकव्यविनाशनः ।\nशत्रुरर्थहरो मूर्खो न लोकान्प्राप्तुमर्हति ॥",
+          "meaning": {
+            "en": "A fool who destroys the offerings to the gods and ancestors, an enemy, and one who steals wealth are not fit to attain the worlds."
+          }
         },
         {
           "n": 43,
-          "text": "एतत्ते कथितं सर्वं यथा वृत्तं युधिष्ठिर ।\nसमासेन महद्ध्येतच्छ्रोतव्यं भरतर्षभ ॥"
+          "text": "एतत्ते कथितं सर्वं यथा वृत्तं युधिष्ठिर ।\nसमासेन महद्ध्येतच्छ्रोतव्यं भरतर्षभ ॥",
+          "meaning": {
+            "en": "All this has been told to you, Yudhishthira, just as it is, in brief; but it is great and should be listened to, bull of the Bharatas."
+          }
         }
       ]
     }

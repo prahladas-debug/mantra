@@ -22,91 +22,157 @@
       "titleEn": "Strivilapa Parva (Lament of the women)",
       "verses": [
         {
-          "text": "गान्धार्युवाच"
+          "text": "गान्धार्युवाच",
+          "meaning": {
+            "en": "Gandhari said:"
+          }
         },
         {
           "n": 1,
-          "text": "एष माधव पुत्रो मे विकर्णः प्राज्ञसंमतः ।\nभूमौ विनिहतः शेते भीमेन शतधा कृतः ॥"
+          "text": "एष माधव पुत्रो मे विकर्णः प्राज्ञसंमतः ।\nभूमौ विनिहतः शेते भीमेन शतधा कृतः ॥",
+          "meaning": {
+            "en": "Madhava, here is my son Vikarna, whom the wise respected, lying struck down on the ground, cut apart by Bhima."
+          }
         },
         {
           "n": 2,
-          "text": "गजमध्यगतः शेते विकर्णो मधुसूदन ।\nनीलमेघपरिक्षिप्तः शरदीव दिवाकरः ॥"
+          "text": "गजमध्यगतः शेते विकर्णो मधुसूदन ।\nनीलमेघपरिक्षिप्तः शरदीव दिवाकरः ॥",
+          "meaning": {
+            "en": "Madhusudana, Vikarna lies in the midst of elephants, like the sun in autumn ringed by dark clouds."
+          }
         },
         {
           "n": 3,
-          "text": "अस्य चापग्रहेणैष पाणिः कृतकिणो महान् ।\nकथंचिच्छिद्यते गृध्रैरत्तुकामैस्तलत्रवान् ॥"
+          "text": "अस्य चापग्रहेणैष पाणिः कृतकिणो महान् ।\nकथंचिच्छिद्यते गृध्रैरत्तुकामैस्तलत्रवान् ॥",
+          "meaning": {
+            "en": "The great hand of this one, calloused by the bowstring and wearing its glove, is being torn by vultures who want to eat it."
+          }
         },
         {
           "n": 4,
-          "text": "अस्य भार्यामिषप्रेप्सून्गृध्रानेतांस्तपस्विनी ।\nवारयत्यनिशं बाला न च शक्नोति माधव ॥"
+          "text": "अस्य भार्यामिषप्रेप्सून्गृध्रानेतांस्तपस्विनी ।\nवारयत्यनिशं बाला न च शक्नोति माधव ॥",
+          "meaning": {
+            "en": "His young wife, the poor woman, keeps driving away the vultures that crave flesh, but she cannot, Madhava."
+          }
         },
         {
           "n": 5,
-          "text": "युवा वृन्दारकः शूरो विकर्णः पुरुषर्षभ ।\nसुखोचितः सुखार्हश्च शेते पांसुषु माधव ॥"
+          "text": "युवा वृन्दारकः शूरो विकर्णः पुरुषर्षभ ।\nसुखोचितः सुखार्हश्च शेते पांसुषु माधव ॥",
+          "meaning": {
+            "en": "Madhava, bull among men, the young, splendid hero Vikarna, used to comfort and worthy of comfort, lies in the dust."
+          }
         },
         {
           "n": 6,
-          "text": "कर्णिनालीकनाराचैर्भिन्नमर्माणमाहवे ।\nअद्यापि न जहात्येनं लक्ष्मीर्भरतसत्तमम् ॥"
+          "text": "कर्णिनालीकनाराचैर्भिन्नमर्माणमाहवे ।\nअद्यापि न जहात्येनं लक्ष्मीर्भरतसत्तमम् ॥",
+          "meaning": {
+            "en": "His vital parts were pierced in battle by arrows, long and short, but even now glory does not leave this best of the Bharatas."
+          }
         },
         {
           "n": 7,
-          "text": "एष संग्रामशूरेण प्रतिज्ञां पालयिष्यता ।\nदुर्मुखोऽभिमुखः शेते हतोऽरिगणहा रणे ॥"
+          "text": "एष संग्रामशूरेण प्रतिज्ञां पालयिष्यता ।\nदुर्मुखोऽभिमुखः शेते हतोऽरिगणहा रणे ॥",
+          "meaning": {
+            "en": "Here lies Durmukha, slayer of enemy hosts, struck in battle facing the foe, keeping the vow of a hero in battle."
+          }
         },
         {
           "n": 8,
-          "text": "तस्यैतद्वदनं कृष्ण श्वापदैरर्धभक्षितम् ।\nविभात्यभ्यधिकं तात सप्तम्यामिव चन्द्रमाः ॥"
+          "text": "तस्यैतद्वदनं कृष्ण श्वापदैरर्धभक्षितम् ।\nविभात्यभ्यधिकं तात सप्तम्यामिव चन्द्रमाः ॥",
+          "meaning": {
+            "en": "Krishna, his face, half eaten by beasts, shines all the more, dear one, like the moon on the seventh day."
+          }
         },
         {
           "n": 9,
-          "text": "शूरस्य हि रणे कृष्ण यस्याननमथेदृशम् ।\nस कथं निहतोऽमित्रैः पांसून्ग्रसति मे सुतः ॥"
+          "text": "शूरस्य हि रणे कृष्ण यस्याननमथेदृशम् ।\nस कथं निहतोऽमित्रैः पांसून्ग्रसति मे सुतः ॥",
+          "meaning": {
+            "en": "Krishna, how does my son, the hero in battle whose face is like this, lie slain by enemies, eating the dust?"
+          }
         },
         {
           "n": 10,
-          "text": "यस्याहवमुखे सौम्य स्थाता नैवोपपद्यते ।\nस कथं दुर्मुखोऽमित्रैर्हतो विबुधलोकजित् ॥"
+          "text": "यस्याहवमुखे सौम्य स्थाता नैवोपपद्यते ।\nस कथं दुर्मुखोऽमित्रैर्हतो विबुधलोकजित् ॥",
+          "meaning": {
+            "en": "How has Durmukha, who conquered the world of the gods, been killed by his enemies, he before whom no one could stand at the head of battle, gentle one?"
+          }
         },
         {
           "n": 11,
-          "text": "चित्रसेनं हतं भूमौ शयानं मधुसूदन ।\nधार्तराष्ट्रमिमं पश्य प्रतिमानं दनुष्मताम् ॥"
+          "text": "चित्रसेनं हतं भूमौ शयानं मधुसूदन ।\nधार्तराष्ट्रमिमं पश्य प्रतिमानं दनुष्मताम् ॥",
+          "meaning": {
+            "en": "Madhusudana, look at Chitrasena, slain and lying on the ground, this son of Dhritarashtra, equal to the greatest archers."
+          }
         },
         {
           "n": 12,
-          "text": "तं चित्रमाल्याभरणं युवत्यः शोककर्शिताः ।\nक्रव्यादसंघैः सहिता रुदन्त्यः पर्युपासते ॥"
+          "text": "तं चित्रमाल्याभरणं युवत्यः शोककर्शिताः ।\nक्रव्यादसंघैः सहिता रुदन्त्यः पर्युपासते ॥",
+          "meaning": {
+            "en": "Young women wasted with grief, weeping, sit with flocks of flesh-eaters around him, who wore bright garlands and ornaments."
+          }
         },
         {
           "n": 13,
-          "text": "स्त्रीणां रुदितनिर्घोषः श्वापदानां च गर्जितम् ।\nचित्ररूपमिदं कृष्ण विचित्रं प्रतिभाति मे ॥"
+          "text": "स्त्रीणां रुदितनिर्घोषः श्वापदानां च गर्जितम् ।\nचित्ररूपमिदं कृष्ण विचित्रं प्रतिभाति मे ॥",
+          "meaning": {
+            "en": "The weeping cries of the women and the roars of the beasts together seem to me strange and various, Krishna."
+          }
         },
         {
           "n": 14,
-          "text": "युवा वृन्दारको नित्यं प्रवरस्त्रीनिषेवितः ।\nविविंशतिरसौ शेते ध्वस्तः पांसुषु माधव ॥"
+          "text": "युवा वृन्दारको नित्यं प्रवरस्त्रीनिषेवितः ।\nविविंशतिरसौ शेते ध्वस्तः पांसुषु माधव ॥",
+          "meaning": {
+            "en": "Here lies Vivimshati, ever young and splendid, attended by the best of women, destroyed in the dust, Madhava."
+          }
         },
         {
           "n": 15,
-          "text": "शरसंकृत्तवर्माणं वीरं विशसने हतम् ।\nपरिवार्यासते गृध्राः परिविंशा विविंशतिम् ॥"
+          "text": "शरसंकृत्तवर्माणं वीरं विशसने हतम् ।\nपरिवार्यासते गृध्राः परिविंशा विविंशतिम् ॥",
+          "meaning": {
+            "en": "Vultures surround the hero Vivimshati, killed in the slaughter, his armor cut by arrows, as if they were his kin."
+          }
         },
         {
           "n": 16,
-          "text": "प्रविश्य समरे वीरः पाण्डवानामनीकिनीम् ।\nआविश्य शयने शेते पुनः सत्पुरुषोचितम् ॥"
+          "text": "प्रविश्य समरे वीरः पाण्डवानामनीकिनीम् ।\nआविश्य शयने शेते पुनः सत्पुरुषोचितम् ॥",
+          "meaning": {
+            "en": "Entering the Pandava army in battle, the hero lies on the bed as is fit for a good man."
+          }
         },
         {
           "n": 17,
-          "text": "स्मितोपपन्नं सुनसं सुभ्रु ताराधिपोपमम् ।\nअतीव शुभ्रं वदनं पश्य कृष्ण विविंशतेः ॥"
+          "text": "स्मितोपपन्नं सुनसं सुभ्रु ताराधिपोपमम् ।\nअतीव शुभ्रं वदनं पश्य कृष्ण विविंशतेः ॥",
+          "meaning": {
+            "en": "Look, Krishna, at Vivimshati's face, still with a smile, fine-nosed, fine-browed, like the lord of stars, exceedingly bright."
+          }
         },
         {
           "n": 18,
-          "text": "यं स्म तं पर्युपासन्ते वसुं वासवयोषितः ।\nक्रीडन्तमिव गन्धर्वं देवकन्याः सहस्रशः ॥"
+          "text": "यं स्म तं पर्युपासन्ते वसुं वासवयोषितः ।\nक्रीडन्तमिव गन्धर्वं देवकन्याः सहस्रशः ॥",
+          "meaning": {
+            "en": "He whom the women of Indra attended, like the Vasu, as if he were a gandharva at play, with thousands of divine maidens,"
+          }
         },
         {
           "n": 19,
-          "text": "हन्तारं वीरसेनानां शूरं समितिशोभनम् ।\nनिबर्हणममित्राणां दुःसहं विषहेत कः ॥"
+          "text": "हन्तारं वीरसेनानां शूरं समितिशोभनम् ।\nनिबर्हणममित्राणां दुःसहं विषहेत कः ॥",
+          "meaning": {
+            "en": "slayer of the heroes' armies, brave, glorious in assemblies, destroyer of foes: who could withstand that hard-to-bear one?"
+          }
         },
         {
           "n": 20,
-          "text": "दुःसहस्यैतदाभाति शरीरं संवृतं शरैः ।\nगिरिरात्मरुहैः फुल्लैः कर्णिकारैरिवावृतः ॥"
+          "text": "दुःसहस्यैतदाभाति शरीरं संवृतं शरैः ।\nगिरिरात्मरुहैः फुल्लैः कर्णिकारैरिवावृतः ॥",
+          "meaning": {
+            "en": "The body of Duhsaha, pierced by arrows, shines like a mountain covered with flowering karnikara trees that have grown on it."
+          }
         },
         {
           "n": 21,
-          "text": "शातकौम्भ्या स्रजा भाति कवचेन च भास्वता ।\nअग्निनेव गिरिः श्वेतो गतासुरपि दुःसहः ॥"
+          "text": "शातकौम्भ्या स्रजा भाति कवचेन च भास्वता ।\nअग्निनेव गिरिः श्वेतो गतासुरपि दुःसहः ॥",
+          "meaning": {
+            "en": "With his golden garland and shining armor, even lifeless he is hard to bear, shining like a white mountain with fire upon it."
+          }
         }
       ]
     }

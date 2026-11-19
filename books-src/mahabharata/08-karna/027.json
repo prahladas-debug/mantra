@@ -22,436 +22,763 @@
       "titleEn": "Karna Parva",
       "verses": [
         {
-          "text": "संजय उवाच"
+          "text": "संजय उवाच",
+          "meaning": {
+            "en": "Sanjaya said:"
+          }
         },
         {
           "n": 1,
-          "text": "प्रयानेव तदा कर्णो हर्षयन्वाहिनीं तव ।\nएकैकं समरे दृष्ट्वा पाण्डवं पर्यपृच्छत ॥"
+          "text": "प्रयानेव तदा कर्णो हर्षयन्वाहिनीं तव ।\nएकैकं समरे दृष्ट्वा पाण्डवं पर्यपृच्छत ॥",
+          "meaning": {
+            "en": "As Karna advanced, cheering your army, he looked at the Pandava warriors one by one in the battle and then made an announcement."
+          }
         },
         {
           "n": 2,
-          "text": "यो ममाद्य महात्मानं दर्शयेच्छ्वेतवाहनम् ।\nतस्मै दद्यामभिप्रेतं वरं यं मनसेच्छति ॥"
+          "text": "यो ममाद्य महात्मानं दर्शयेच्छ्वेतवाहनम् ।\nतस्मै दद्यामभिप्रेतं वरं यं मनसेच्छति ॥",
+          "meaning": {
+            "en": "\"Whoever shows me the great-souled Arjuna of the white horses today, I will give him whatever boon his heart desires.\""
+          }
         },
         {
           "n": 3,
-          "text": "स चेत्तदभिमन्येत तस्मै दद्यामहं पुनः ।\nशकटं रत्नसंपूर्णं यो मे ब्रूयाद्धनंजयम् ॥"
+          "text": "स चेत्तदभिमन्येत तस्मै दद्यामहं पुनः ।\nशकटं रत्नसंपूर्णं यो मे ब्रूयाद्धनंजयम् ॥",
+          "meaning": {
+            "en": "\"And if he is still not satisfied, I will give a cart full of jewels to the man who points out Dhananjaya to me.\""
+          }
         },
         {
           "n": 4,
-          "text": "स चेत्तदभिमन्येत पुरुषोऽर्जुनदर्शिवान् ।\nअन्यं तस्मै पुनर्दद्यां सौवर्णं हस्तिषड्गवम् ॥"
+          "text": "स चेत्तदभिमन्येत पुरुषोऽर्जुनदर्शिवान् ।\nअन्यं तस्मै पुनर्दद्यां सौवर्णं हस्तिषड्गवम् ॥",
+          "meaning": {
+            "en": "\"If that man who has seen Arjuna is still not satisfied, I will give him yet another gift: gold, with an elephant and six cows.\""
+          }
         },
         {
           "n": 5,
-          "text": "तथा तस्मै पुनर्दद्यां स्त्रीणां शतमलंकृतम् ।\nश्यामानां निष्ककण्ठीनां गीतवाद्यविपश्चिताम् ॥"
+          "text": "तथा तस्मै पुनर्दद्यां स्त्रीणां शतमलंकृतम् ।\nश्यामानां निष्ककण्ठीनां गीतवाद्यविपश्चिताम् ॥",
+          "meaning": {
+            "en": "\"I will also give him a hundred ornamented young women, necklaced with gold, skilled in song and music.\""
+          }
         },
         {
           "n": 6,
-          "text": "स चेत्तदभिमन्येत पुरुषोऽर्जुनदर्शिवान् ।\nअन्यं तस्मै वरं दद्यां श्वेतान्पञ्चशतान्हयान् ॥"
+          "text": "स चेत्तदभिमन्येत पुरुषोऽर्जुनदर्शिवान् ।\nअन्यं तस्मै वरं दद्यां श्वेतान्पञ्चशतान्हयान् ॥",
+          "meaning": {
+            "en": "\"If he is still not content, I will give him another boon: five hundred white horses.\""
+          }
         },
         {
           "n": 7,
-          "text": "हेमभाण्डपरिच्छन्नान्सुमृष्टमणिकुण्डलान् ।\nसुदान्तानपि चैवाहं दद्यामष्टशतान्परान् ॥"
+          "text": "हेमभाण्डपरिच्छन्नान्सुमृष्टमणिकुण्डलान् ।\nसुदान्तानपि चैवाहं दद्यामष्टशतान्परान् ॥",
+          "meaning": {
+            "en": "\"They will be covered in golden trappings, with polished jeweled earrings, and I will add a further eight hundred well-trained horses.\""
+          }
         },
         {
           "n": 8,
-          "text": "रथं च शुभ्रं सौवर्णं दद्यां तस्मै स्वलंकृतम् ।\nयुक्तं परमकाम्बोजैर्यो मे ब्रूयाद्धनंजयम् ॥"
+          "text": "रथं च शुभ्रं सौवर्णं दद्यां तस्मै स्वलंकृतम् ।\nयुक्तं परमकाम्बोजैर्यो मे ब्रूयाद्धनंजयम् ॥",
+          "meaning": {
+            "en": "\"To whoever tells me where Dhananjaya is, I will give a bright golden chariot, finely decked and yoked to the best Kamboja horses.\""
+          }
         },
         {
           "n": 9,
-          "text": "अन्यं तस्मै वरं दद्यां कुञ्जराणां शतानि षट् ।\nकाञ्चनैर्विविधैर्भाण्डैराच्छन्नान्हेममालिनः ।\nउत्पन्नानपरान्तेषु विनीतान्हस्तिशिक्षकैः ॥"
+          "text": "अन्यं तस्मै वरं दद्यां कुञ्जराणां शतानि षट् ।\nकाञ्चनैर्विविधैर्भाण्डैराच्छन्नान्हेममालिनः ।\nउत्पन्नानपरान्तेषु विनीतान्हस्तिशिक्षकैः ॥",
+          "meaning": {
+            "en": "\"I would give him still another boon: six hundred elephants wearing golden garlands and covered with varied golden gear, born in the western lands and trained by skilled elephant-handlers.\""
+          }
         },
         {
           "n": 10,
-          "text": "स चेत्तदभिमन्येत पुरुषोऽर्जुनदर्शिवान् ।\nअन्यं तस्मै वरं दद्यां यमसौ कामयेत्स्वयम् ॥"
+          "text": "स चेत्तदभिमन्येत पुरुषोऽर्जुनदर्शिवान् ।\nअन्यं तस्मै वरं दद्यां यमसौ कामयेत्स्वयम् ॥",
+          "meaning": {
+            "en": "\"If that man who has seen Arjuna is still not satisfied, I will give him another boon, whatever he himself wishes.\""
+          }
         },
         {
           "n": 11,
-          "text": "पुत्रदारान्विहारांश्च यदन्यद्वित्तमस्ति मे ।\nतच्च तस्मै पुनर्दद्यां यद्यत्स मनसेच्छति ॥"
+          "text": "पुत्रदारान्विहारांश्च यदन्यद्वित्तमस्ति मे ।\nतच्च तस्मै पुनर्दद्यां यद्यत्स मनसेच्छति ॥",
+          "meaning": {
+            "en": "\"My sons, my wives, my pleasure grounds and any other wealth I have, I will give him all of it, whatever he desires.\""
+          }
         },
         {
           "n": 12,
-          "text": "हत्वा च सहितौ कृष्णौ तयोर्वित्तानि सर्वशः ।\nतस्मै दद्यामहं यो मे प्रब्रूयात्केशवार्जुनौ ॥"
+          "text": "हत्वा च सहितौ कृष्णौ तयोर्वित्तानि सर्वशः ।\nतस्मै दद्यामहं यो मे प्रब्रूयात्केशवार्जुनौ ॥",
+          "meaning": {
+            "en": "\"And once I have killed the two Krishnas together, I will give all their wealth to the man who points out Keshava and Arjuna to me.\""
+          }
         },
         {
           "n": 13,
-          "text": "एता वाचः सुबहुशः कर्ण उच्चारयन्युधि ।\nदध्मौ सागरसंभूतं सुस्वनं शङ्खमुत्तमम् ॥"
+          "text": "एता वाचः सुबहुशः कर्ण उच्चारयन्युधि ।\nदध्मौ सागरसंभूतं सुस्वनं शङ्खमुत्तमम् ॥",
+          "meaning": {
+            "en": "Saying such words many times over in the battle, Karna blew his excellent, sweet-sounding conch, born of the ocean."
+          }
         },
         {
           "n": 14,
-          "text": "ता वाचः सूतपुत्रस्य तथा युक्ता निशम्य तु ।\nदुर्योधनो महाराज प्रहृष्टः सानुगोऽभवत् ॥"
+          "text": "ता वाचः सूतपुत्रस्य तथा युक्ता निशम्य तु ।\nदुर्योधनो महाराज प्रहृष्टः सानुगोऽभवत् ॥",
+          "meaning": {
+            "en": "O great king, Duryodhana heard the charioteer's son speak this way and became delighted, together with his followers."
+          }
         },
         {
           "n": 15,
-          "text": "ततो दुन्दुभिनिर्घोषो मृदङ्गानां च सर्वशः ।\nसिंहनादः सवादित्रः कुञ्जराणां च निस्वनः ॥"
+          "text": "ततो दुन्दुभिनिर्घोषो मृदङ्गानां च सर्वशः ।\nसिंहनादः सवादित्रः कुञ्जराणां च निस्वनः ॥",
+          "meaning": {
+            "en": "Then, O king, O best of the Bharatas, there arose in your army the booming of drums and kettledrums, lion-roars, the sound of instruments and the trumpeting of elephants."
+          }
         },
         {
           "n": 16,
-          "text": "प्रादुरासीत्तदा राजंस्त्वत्सैन्ये भरतर्षभ ।\nयोधानां संप्रहृष्टानां तथा समभवत्स्वनः ॥"
+          "text": "प्रादुरासीत्तदा राजंस्त्वत्सैन्ये भरतर्षभ ।\nयोधानां संप्रहृष्टानां तथा समभवत्स्वनः ॥",
+          "meaning": {
+            "en": "And so the delighted warriors raised a great din."
+          }
         },
         {
           "n": 17,
-          "text": "तथा प्रहृष्टे सैन्ये तु प्लवमानं महारथम् ।\nविकत्थमानं समरे राधेयमरिकर्शनम् ।\nमद्रराजः प्रहस्येदं वचनं प्रत्यभाषत ॥"
+          "text": "तथा प्रहृष्टे सैन्ये तु प्लवमानं महारथम् ।\nविकत्थमानं समरे राधेयमरिकर्शनम् ।\nमद्रराजः प्रहस्येदं वचनं प्रत्यभाषत ॥",
+          "meaning": {
+            "en": "While the army rejoiced like this, the king of Madra laughed and replied to Radha's son, the great chariot-warrior and tormentor of foes, who was surging forward and boasting in the battle."
+          }
         },
         {
           "n": 18,
-          "text": "मा सूतपुत्र मानेन सौवर्णं हस्तिषड्गवम् ।\nप्रयच्छ पुरुषायाद्य द्रक्ष्यसि त्वं धनंजयम् ॥"
+          "text": "मा सूतपुत्र मानेन सौवर्णं हस्तिषड्गवम् ।\nप्रयच्छ पुरुषायाद्य द्रक्ष्यसि त्वं धनंजयम् ॥",
+          "meaning": {
+            "en": "\"Do not, in your pride, give away gold and an elephant with six cows to some man, son of a charioteer. You will see Dhananjaya anyway.\""
+          }
         },
         {
           "n": 19,
-          "text": "बाल्यादिव त्वं त्यजसि वसु वैश्रवणो यथा ।\nअयत्नेनैव राधेय द्रष्टास्यद्य धनंजयम् ॥"
+          "text": "बाल्यादिव त्वं त्यजसि वसु वैश्रवणो यथा ।\nअयत्नेनैव राधेय द्रष्टास्यद्य धनंजयम् ॥",
+          "meaning": {
+            "en": "\"You throw wealth away like a child, as Vaishravana might. Radha's son, you will see Dhananjaya today without any effort.\""
+          }
         },
         {
           "n": 20,
-          "text": "परासृजसि मिथ्या किं किं च त्वं बहु मूढवत् ।\nअपात्रदाने ये दोषास्तान्मोहान्नावबुध्यसे ॥"
+          "text": "परासृजसि मिथ्या किं किं च त्वं बहु मूढवत् ।\nअपात्रदाने ये दोषास्तान्मोहान्नावबुध्यसे ॥",
+          "meaning": {
+            "en": "\"Why do you scatter wealth in vain and talk so much like a fool? In your folly you do not grasp the faults of giving to the unworthy.\""
+          }
         },
         {
           "n": 21,
-          "text": "यत्प्रवेदयसे वित्तं बहुत्वेन खलु त्वया ।\nशक्यं बहुविधैर्यज्ञैर्यष्टुं सूत यजस्व तैः ॥"
+          "text": "यत्प्रवेदयसे वित्तं बहुत्वेन खलु त्वया ।\nशक्यं बहुविधैर्यज्ञैर्यष्टुं सूत यजस्व तैः ॥",
+          "meaning": {
+            "en": "\"The wealth you keep announcing, charioteer, could be spent on many kinds of sacrifice. Sacrifice with it instead.\""
+          }
         },
         {
           "n": 22,
-          "text": "यच्च प्रार्थयसे हन्तुं कृष्णौ मोहान्मृषैव तत् ।\nन हि शुश्रुम संमर्दे क्रोष्ट्रा सिंहौ निपातितौ ॥"
+          "text": "यच्च प्रार्थयसे हन्तुं कृष्णौ मोहान्मृषैव तत् ।\nन हि शुश्रुम संमर्दे क्रोष्ट्रा सिंहौ निपातितौ ॥",
+          "meaning": {
+            "en": "\"Your wish to kill the two Krishnas is just a deluded fantasy. We have never heard that a jackal brought down two lions in battle.\""
+          }
         },
         {
           "n": 23,
-          "text": "अप्रार्थितं प्रार्थयसे सुहृदो न हि सन्ति ते ।\nये त्वां न वारयन्त्याशु प्रपतन्तं हुताशने ॥"
+          "text": "अप्रार्थितं प्रार्थयसे सुहृदो न हि सन्ति ते ।\nये त्वां न वारयन्त्याशु प्रपतन्तं हुताशने ॥",
+          "meaning": {
+            "en": "\"You seek what ought not to be sought, for you have no friends, since none of them stops you quickly as you rush into the fire.\""
+          }
         },
         {
           "n": 24,
-          "text": "कालकार्यं न जानीषे कालपक्वोऽस्यसंशयम् ।\nबह्वबद्धमकर्णीयं को हि ब्रूयाज्जिजीविषुः ॥"
+          "text": "कालकार्यं न जानीषे कालपक्वोऽस्यसंशयम् ।\nबह्वबद्धमकर्णीयं को हि ब्रूयाज्जिजीविषुः ॥",
+          "meaning": {
+            "en": "\"You do not know what the time demands. Without doubt you are ripened by Time. What man who wished to live would speak such loose, unfit words?\""
+          }
         },
         {
           "n": 25,
-          "text": "समुद्रतरणं दोर्भ्यां कण्ठे बद्ध्वा यथा शिलाम् ।\nगिर्यग्राद्वा निपतनं तादृक्तव चिकीर्षितम् ॥"
+          "text": "समुद्रतरणं दोर्भ्यां कण्ठे बद्ध्वा यथा शिलाम् ।\nगिर्यग्राद्वा निपतनं तादृक्तव चिकीर्षितम् ॥",
+          "meaning": {
+            "en": "\"What you intend is like crossing the ocean with your arms after tying a stone round your neck, or like leaping from a mountain peak.\""
+          }
         },
         {
           "n": 26,
-          "text": "सहितः सर्वयोधैस्त्वं व्यूढानीकैः सुरक्षितः ।\nधनंजयेन युध्यस्व श्रेयश्चेत्प्राप्तुमिच्छसि ॥"
+          "text": "सहितः सर्वयोधैस्त्वं व्यूढानीकैः सुरक्षितः ।\nधनंजयेन युध्यस्व श्रेयश्चेत्प्राप्तुमिच्छसि ॥",
+          "meaning": {
+            "en": "\"If you want to attain what is good for you, fight Dhananjaya surrounded by all your warriors, with the ranks drawn up and guarding you.\""
+          }
         },
         {
           "n": 27,
-          "text": "हितार्थं धार्तराष्ट्रस्य ब्रवीमि त्वा न हिंसया ।\nश्रद्धत्स्वैतन्मया प्रोक्तं यदि तेऽस्ति जिजीविषा ॥"
+          "text": "हितार्थं धार्तराष्ट्रस्य ब्रवीमि त्वा न हिंसया ।\nश्रद्धत्स्वैतन्मया प्रोक्तं यदि तेऽस्ति जिजीविषा ॥",
+          "meaning": {
+            "en": "\"I say this for the good of Dhritarashtra's son, not out of malice. Trust what I have said, if you wish to live.\""
+          }
         },
         {
-          "text": "कर्ण उवाच"
+          "text": "कर्ण उवाच",
+          "meaning": {
+            "en": "Karna said:"
+          }
         },
         {
           "n": 28,
-          "text": "स्ववीर्येऽहं पराश्वस्य प्रार्थयाम्यर्जुनं रणे ।\nत्वं तु मित्रमुखः शत्रुर्मां भीषयितुमिच्छसि ॥"
+          "text": "स्ववीर्येऽहं पराश्वस्य प्रार्थयाम्यर्जुनं रणे ।\nत्वं तु मित्रमुखः शत्रुर्मां भीषयितुमिच्छसि ॥",
+          "meaning": {
+            "en": "\"I trust in my own strength and seek out Arjuna in battle, but you, a foe wearing a friend's face, want to frighten me.\""
+          }
         },
         {
           "n": 29,
-          "text": "न मामस्मादभिप्रायात्कश्चिदद्य निवर्तयेत् ।\nअपीन्द्रो वज्रमुद्यम्य किं नु मर्त्यः करिष्यति ॥"
+          "text": "न मामस्मादभिप्रायात्कश्चिदद्य निवर्तयेत् ।\nअपीन्द्रो वज्रमुद्यम्य किं नु मर्त्यः करिष्यति ॥",
+          "meaning": {
+            "en": "\"No one can turn me back from this purpose today. Even if Indra raised his thunderbolt, what could a mortal do?\""
+          }
         },
         {
-          "text": "संजय उवाच"
+          "text": "संजय उवाच",
+          "meaning": {
+            "en": "Sanjaya said:"
+          }
         },
         {
           "n": 30,
-          "text": "इति कर्णस्य वाक्यान्ते शल्यः प्राहोत्तरं वचः ।\nचुकोपयिषुरत्यर्थं कर्णं मद्रेश्वरः पुनः ॥"
+          "text": "इति कर्णस्य वाक्यान्ते शल्यः प्राहोत्तरं वचः ।\nचुकोपयिषुरत्यर्थं कर्णं मद्रेश्वरः पुनः ॥",
+          "meaning": {
+            "en": "When Karna had finished, Shalya, lord of Madra, answered, wanting to anger Karna even more."
+          }
         },
         {
           "n": 31,
-          "text": "यदा वै त्वां फल्गुनवेगनुन्ना\nज्याचोदिता हस्तवता विसृष्टाः ।\nअन्वेतारः कङ्कपत्राः शिताग्रा-\nस्तदा तप्स्यस्यर्जुनस्याभियोगात् ॥"
+          "text": "यदा वै त्वां फल्गुनवेगनुन्ना\nज्याचोदिता हस्तवता विसृष्टाः ।\nअन्वेतारः कङ्कपत्राः शिताग्रा-\nस्तदा तप्स्यस्यर्जुनस्याभियोगात् ॥",
+          "meaning": {
+            "en": "\"When Phalguna's arrows, driven by his speed, loosed from the string by his skilled hand, fly after you, feathered with heron plumes and sharp-pointed, you will suffer under Arjuna's attack.\""
+          }
         },
         {
           "n": 32,
-          "text": "यदा दिव्यं धनुरादाय पार्थः\nप्रभासयन्पृतनां सव्यसाची ।\nत्वामर्दयेत निशितैः पृषत्कै-\nस्तदा पश्चात्तप्स्यसे सूतपुत्र ॥"
+          "text": "यदा दिव्यं धनुरादाय पार्थः\nप्रभासयन्पृतनां सव्यसाची ।\nत्वामर्दयेत निशितैः पृषत्कै-\nस्तदा पश्चात्तप्स्यसे सूतपुत्र ॥",
+          "meaning": {
+            "en": "\"When Partha, the left-handed archer, takes up his divine bow and lights up the army, and crushes you with his sharp arrows, then you will regret it, son of a charioteer.\""
+          }
         },
         {
           "n": 33,
-          "text": "बालश्चन्द्रं मातुरङ्के शयानो\nयथा कश्चित्प्रार्थयतेऽपहर्तुम् ।\nतद्वन्मोहाद्यतमानो रथस्थ-\nस्त्वं प्रार्थयस्यर्जुनमद्य जेतुम् ॥"
+          "text": "बालश्चन्द्रं मातुरङ्के शयानो\nयथा कश्चित्प्रार्थयतेऽपहर्तुम् ।\nतद्वन्मोहाद्यतमानो रथस्थ-\nस्त्वं प्रार्थयस्यर्जुनमद्य जेतुम् ॥",
+          "meaning": {
+            "en": "\"Like a child lying in his mother's lap who wants to snatch the moon, so you, standing in your chariot, foolishly try to conquer Arjuna today.\""
+          }
         },
         {
           "n": 34,
-          "text": "त्रिशूलमाश्लिष्य सुतीक्ष्णधारं\nसर्वाणि गात्राणि निघर्षसि त्वम् ।\nसुतीक्ष्णधारोपमकर्मणा त्वं\nयुयुत्ससे योऽर्जुनेनाद्य कर्ण ॥"
+          "text": "त्रिशूलमाश्लिष्य सुतीक्ष्णधारं\nसर्वाणि गात्राणि निघर्षसि त्वम् ।\nसुतीक्ष्णधारोपमकर्मणा त्वं\nयुयुत्ससे योऽर्जुनेनाद्य कर्ण ॥",
+          "meaning": {
+            "en": "\"Karna, in wanting to fight Arjuna today with your deeds, you are like a man who hugs a razor-sharp trident and scrapes his whole body on it.\""
+          }
         },
         {
           "n": 35,
-          "text": "सिद्धं सिंहं केसरिणं बृहन्तं\nबालो मूढः क्षुद्रमृगस्तरस्वी ।\nसमाह्वयेत्तद्वदेतत्तवाद्य\nसमाह्वानं सूतपुत्रार्जुनस्य ॥"
+          "text": "सिद्धं सिंहं केसरिणं बृहन्तं\nबालो मूढः क्षुद्रमृगस्तरस्वी ।\nसमाह्वयेत्तद्वदेतत्तवाद्य\nसमाह्वानं सूतपुत्रार्जुनस्य ॥",
+          "meaning": {
+            "en": "\"Just as a foolish child or a small, swift deer might challenge a great, accomplished, maned lion, so this challenge of yours to Arjuna, son of a charioteer, is the same.\""
+          }
         },
         {
           "n": 36,
-          "text": "मा सूतपुत्राह्वय राजपुत्रं\nमहावीर्यं केसरिणं यथैव ।\nवने सृगालः पिशितस्य तृप्तो\nमा पार्थमासाद्य विनङ्क्ष्यसि त्वम् ॥"
+          "text": "मा सूतपुत्राह्वय राजपुत्रं\nमहावीर्यं केसरिणं यथैव ।\nवने सृगालः पिशितस्य तृप्तो\nमा पार्थमासाद्य विनङ्क्ष्यसि त्वम् ॥",
+          "meaning": {
+            "en": "\"Do not challenge the prince, son of a charioteer, who is as mighty as a lion. Like a jackal in the forest, well fed on meat, you will perish if you meet Partha.\""
+          }
         },
         {
           "n": 37,
-          "text": "ईषादन्तं महानागं प्रभिन्नकरटामुखम् ।\nशशकाह्वयसे युद्धे कर्ण पार्थं धनंजयम् ॥"
+          "text": "ईषादन्तं महानागं प्रभिन्नकरटामुखम् ।\nशशकाह्वयसे युद्धे कर्ण पार्थं धनंजयम् ॥",
+          "meaning": {
+            "en": "\"Karna, you are calling out to Partha Dhananjaya in battle, as a hare might challenge a great tusked elephant with temples streaming rut.\""
+          }
         },
         {
           "n": 38,
-          "text": "बिलस्थं कृष्णसर्पं त्वं बाल्यात्काष्ठेन विध्यसि ।\nमहाविषं पूर्णकोशं यत्पार्थं योद्धुमिच्छसि ॥"
+          "text": "बिलस्थं कृष्णसर्पं त्वं बाल्यात्काष्ठेन विध्यसि ।\nमहाविषं पूर्णकोशं यत्पार्थं योद्धुमिच्छसि ॥",
+          "meaning": {
+            "en": "\"In your childish folly you jab a black snake in its hole with a stick, since you want to fight Partha, a fully venomous, deadly serpent.\""
+          }
         },
         {
           "n": 39,
-          "text": "सिंहं केसरिणं क्रुद्धमतिक्रम्याभिनर्दसि ।\nसृगाल इव मूढत्वान्नृसिंहं कर्ण पाण्डवम् ॥"
+          "text": "सिंहं केसरिणं क्रुद्धमतिक्रम्याभिनर्दसि ।\nसृगाल इव मूढत्वान्नृसिंहं कर्ण पाण्डवम् ॥",
+          "meaning": {
+            "en": "\"Karna, you pass by an enraged maned lion and howl, like a jackal in your stupidity, at the Pandava, the lion among men.\""
+          }
         },
         {
           "n": 40,
-          "text": "सुपर्णं पतगश्रेष्ठं वैनतेयं तरस्विनम् ।\nलट्वेवाह्वयसे पाते कर्ण पार्थं धनंजयम् ॥"
+          "text": "सुपर्णं पतगश्रेष्ठं वैनतेयं तरस्विनम् ।\nलट्वेवाह्वयसे पाते कर्ण पार्थं धनंजयम् ॥",
+          "meaning": {
+            "en": "\"Karna, you challenge Partha Dhananjaya, as a lapwing might call out to Garuda, son of Vinata, the swift and best of birds, as he swoops.\""
+          }
         },
         {
           "n": 41,
-          "text": "सर्वाम्भोनिलयं भीममूर्मिमन्तं झषायुतम् ।\nचन्द्रोदये विवर्तन्तमप्लवः संतितीर्षसि ॥"
+          "text": "सर्वाम्भोनिलयं भीममूर्मिमन्तं झषायुतम् ।\nचन्द्रोदये विवर्तन्तमप्लवः संतितीर्षसि ॥",
+          "meaning": {
+            "en": "\"Without a boat, you want to cross the terrible sea, home of all waters, full of waves and teeming with fish, as it heaves at moonrise.\""
+          }
         },
         {
           "n": 42,
-          "text": "ऋषभं दुन्दुभिग्रीवं तीक्ष्णशृङ्गं प्रहारिणम् ।\nवत्स आह्वयसे युद्धे कर्ण पार्थं धनंजयम् ॥"
+          "text": "ऋषभं दुन्दुभिग्रीवं तीक्ष्णशृङ्गं प्रहारिणम् ।\nवत्स आह्वयसे युद्धे कर्ण पार्थं धनंजयम् ॥",
+          "meaning": {
+            "en": "\"As a calf bellows at a bull with a neck like a drum, sharp horns and a fierce charge, so, Karna, you challenge Partha Dhananjaya in battle.\""
+          }
         },
         {
           "n": 43,
-          "text": "महाघोषं महामेघं दर्दुरः प्रतिनर्दसि ।\nकामतोयप्रदं लोके नरपर्जन्यमर्जुनम् ॥"
+          "text": "महाघोषं महामेघं दर्दुरः प्रतिनर्दसि ।\nकामतोयप्रदं लोके नरपर्जन्यमर्जुनम् ॥",
+          "meaning": {
+            "en": "\"You are a frog croaking back at a great thundering cloud, at Arjuna, the rain-cloud among men, who grants men's wishes in the world.\""
+          }
         },
         {
           "n": 44,
-          "text": "यथा च स्वगृहस्थः श्वा व्याघ्रं वनगतं भषेत् ।\nतथा त्वं भषसे कर्ण नरव्याघ्रं धनंजयम् ॥"
+          "text": "यथा च स्वगृहस्थः श्वा व्याघ्रं वनगतं भषेत् ।\nतथा त्वं भषसे कर्ण नरव्याघ्रं धनंजयम् ॥",
+          "meaning": {
+            "en": "\"As a dog sitting in its master's house might bark at a tiger in the forest, so, Karna, you bark at Dhananjaya, the tiger among men.\""
+          }
         },
         {
           "n": 45,
-          "text": "सृगालोऽपि वने कर्ण शशैः परिवृतो वसन् ।\nमन्यते सिंहमात्मानं यावत्सिंहं न पश्यति ॥"
+          "text": "सृगालोऽपि वने कर्ण शशैः परिवृतो वसन् ।\nमन्यते सिंहमात्मानं यावत्सिंहं न पश्यति ॥",
+          "meaning": {
+            "en": "\"Karna, even a jackal living in the forest among hares thinks himself a lion, until he sees a lion.\""
+          }
         },
         {
           "n": 46,
-          "text": "तथा त्वमपि राधेय सिंहमात्मानमिच्छसि ।\nअपश्यञ्शत्रुदमनं नरव्याघ्रं धनंजयम् ॥"
+          "text": "तथा त्वमपि राधेय सिंहमात्मानमिच्छसि ।\nअपश्यञ्शत्रुदमनं नरव्याघ्रं धनंजयम् ॥",
+          "meaning": {
+            "en": "\"In the same way, son of Radha, you think yourself a lion because you have not seen Dhananjaya, the tiger among men and subduer of enemies.\""
+          }
         },
         {
           "n": 47,
-          "text": "व्याघ्रं त्वं मन्यसेऽऽत्मानं यावत्कृष्णौ न पश्यसि ।\nसमास्थितावेकरथे सूर्याचन्द्रमसाविव ॥"
+          "text": "व्याघ्रं त्वं मन्यसेऽऽत्मानं यावत्कृष्णौ न पश्यसि ।\nसमास्थितावेकरथे सूर्याचन्द्रमसाविव ॥",
+          "meaning": {
+            "en": "\"You think yourself a tiger as long as you do not see the two Krishnas standing on one chariot like the sun and moon.\""
+          }
         },
         {
           "n": 48,
-          "text": "यावद्गाण्डीवनिर्घोषं न शृणोषि महाहवे ।\nतावदेव त्वया कर्ण शक्यं वक्तुं यथेच्छसि ॥"
+          "text": "यावद्गाण्डीवनिर्घोषं न शृणोषि महाहवे ।\nतावदेव त्वया कर्ण शक्यं वक्तुं यथेच्छसि ॥",
+          "meaning": {
+            "en": "\"Karna, you can say whatever you like only as long as you do not hear the twang of the Gandiva in the great battle.\""
+          }
         },
         {
           "n": 49,
-          "text": "रथशब्दधनुःशब्दैर्नादयन्तं दिशो दश ।\nनर्दन्तमिव शार्दूलं दृष्ट्वा क्रोष्टा भविष्यसि ॥"
+          "text": "रथशब्दधनुःशब्दैर्नादयन्तं दिशो दश ।\nनर्दन्तमिव शार्दूलं दृष्ट्वा क्रोष्टा भविष्यसि ॥",
+          "meaning": {
+            "en": "\"When you see him filling the ten directions with the sound of his chariot and bow, roaring like a tiger, you will turn into a jackal.\""
+          }
         },
         {
           "n": 50,
-          "text": "नित्यमेव सृगालस्त्वं नित्यं सिंहो धनंजयः ।\nवीरप्रद्वेषणान्मूढ नित्यं क्रोष्टेव लक्ष्यसे ॥"
+          "text": "नित्यमेव सृगालस्त्वं नित्यं सिंहो धनंजयः ।\nवीरप्रद्वेषणान्मूढ नित्यं क्रोष्टेव लक्ष्यसे ॥",
+          "meaning": {
+            "en": "\"You are always the jackal and Dhananjaya is always the lion. Foolish man, because you hate heroes, you are always seen as a jackal.\""
+          }
         },
         {
           "n": 51,
-          "text": "यथाखुः स्याद्बिडालश्च श्वा व्याघ्रश्च बलाबले ।\nयथा सृगालः सिंहश्च यथा च शशकुञ्जरौ ॥"
+          "text": "यथाखुः स्याद्बिडालश्च श्वा व्याघ्रश्च बलाबले ।\nयथा सृगालः सिंहश्च यथा च शशकुञ्जरौ ॥",
+          "meaning": {
+            "en": "\"As a mouse stands to a cat, a dog to a tiger, a jackal to a lion, a hare to an elephant in strength and weakness...\""
+          }
         },
         {
           "n": 52,
-          "text": "यथानृतं च सत्यं च यथा चापि विषामृते ।\nतथा त्वमपि पार्थश्च प्रख्यातावात्मकर्मभिः ॥"
+          "text": "यथानृतं च सत्यं च यथा चापि विषामृते ।\nतथा त्वमपि पार्थश्च प्रख्यातावात्मकर्मभिः ॥",
+          "meaning": {
+            "en": "\"...as falsehood stands to truth, and poison to nectar, so you and Partha are known by your deeds.\""
+          }
         },
         {
-          "text": "संजय उवाच"
+          "text": "संजय उवाच",
+          "meaning": {
+            "en": "Sanjaya said:"
+          }
         },
         {
           "n": 53,
-          "text": "अधिक्षिप्तस्तु राधेयः शल्येनामिततेजसा ।\nशल्यमाह सुसंक्रुद्धो वाक्शल्यमवधारयन् ॥"
+          "text": "अधिक्षिप्तस्तु राधेयः शल्येनामिततेजसा ।\nशल्यमाह सुसंक्रुद्धो वाक्शल्यमवधारयन् ॥",
+          "meaning": {
+            "en": "Insulted by Shalya of boundless might, Radha's son became furious and, taking those words as a spear in his heart, replied to Shalya."
+          }
         },
         {
           "n": 54,
-          "text": "गुणान्गुणवतः शल्य गुणवान्वेत्ति नागुणः ।\nत्वं तु नित्यं गुणैर्हीनः किं ज्ञास्यस्यगुणो गुणान् ॥"
+          "text": "गुणान्गुणवतः शल्य गुणवान्वेत्ति नागुणः ।\nत्वं तु नित्यं गुणैर्हीनः किं ज्ञास्यस्यगुणो गुणान् ॥",
+          "meaning": {
+            "en": "\"Shalya, only one with virtues knows the virtues of the virtuous; one without virtues does not. You are always devoid of virtues, so how will you know them?\""
+          }
         },
         {
           "n": 55,
-          "text": "अर्जुनस्य महास्त्राणि क्रोधं वीर्यं धनुः शरान् ।\nअहं शल्याभिजानामि न त्वं जानासि तत्तथा ॥"
+          "text": "अर्जुनस्य महास्त्राणि क्रोधं वीर्यं धनुः शरान् ।\nअहं शल्याभिजानामि न त्वं जानासि तत्तथा ॥",
+          "meaning": {
+            "en": "\"Shalya, I know Arjuna's great weapons, his anger, his strength, his bow and his arrows. You do not know them as I do.\""
+          }
         },
         {
           "n": 56,
-          "text": "एवमेवात्मनो वीर्यमहं वीर्यं च पाण्डवे ।\nजानन्नेवाह्वये युद्धे शल्य नाग्निं पतंगवत् ॥"
+          "text": "एवमेवात्मनो वीर्यमहं वीर्यं च पाण्डवे ।\nजानन्नेवाह्वये युद्धे शल्य नाग्निं पतंगवत् ॥",
+          "meaning": {
+            "en": "\"Just as I know my own strength and the Pandava's strength, so, knowing it, I challenge him in battle, Shalya, and not like a moth flying into a fire.\""
+          }
         },
         {
           "n": 57,
-          "text": "अस्ति चायमिषुः शल्य सुपुङ्खो रक्तभोजनः ।\nएकतूणीशयः पत्री सुधौतः समलंकृतः ॥"
+          "text": "अस्ति चायमिषुः शल्य सुपुङ्खो रक्तभोजनः ।\nएकतूणीशयः पत्री सुधौतः समलंकृतः ॥",
+          "meaning": {
+            "en": "\"Shalya, I have this arrow, well-feathered, fed on blood, resting alone in one quiver, winged, well cleaned and richly adorned.\""
+          }
         },
         {
           "n": 58,
-          "text": "शेते चन्दनपूर्णेन पूजितो बहुलाः समाः ।\nआहेयो विषवानुग्रो नराश्वद्विपसंघहा ॥"
+          "text": "शेते चन्दनपूर्णेन पूजितो बहुलाः समाः ।\nआहेयो विषवानुग्रो नराश्वद्विपसंघहा ॥",
+          "meaning": {
+            "en": "\"For many years it has lain in sandalwood powder, honored. It is serpent-like, venomous and fierce, a destroyer of masses of men, horses and elephants.\""
+          }
         },
         {
           "n": 59,
-          "text": "एकवीरो महारौद्रस्तनुत्रास्थिविदारणः ।\nनिर्भिन्द्यां येन रुष्टोऽहमपि मेरुं महागिरिम् ॥"
+          "text": "एकवीरो महारौद्रस्तनुत्रास्थिविदारणः ।\nनिर्भिन्द्यां येन रुष्टोऽहमपि मेरुं महागिरिम् ॥",
+          "meaning": {
+            "en": "\"It is the sole hero, terrible, tearing through armor and bone. In anger I could pierce even the great mountain Meru with it.\""
+          }
         },
         {
           "n": 60,
-          "text": "तमहं जातु नास्येयमन्यस्मिन्फल्गुनादृते ।\nकृष्णाद्वा देवकीपुत्रात्सत्यं चात्र शृणुष्व मे ॥"
+          "text": "तमहं जातु नास्येयमन्यस्मिन्फल्गुनादृते ।\nकृष्णाद्वा देवकीपुत्रात्सत्यं चात्र शृणुष्व मे ॥",
+          "meaning": {
+            "en": "\"I will never shoot it at anyone except Phalguna, or Krishna, son of Devaki. Hear this truth from me.\""
+          }
         },
         {
           "n": 61,
-          "text": "तेनाहमिषुणा शल्य वासुदेवधनंजयौ ।\nयोत्स्ये परमसंक्रुद्धस्तत्कर्म सदृशं मम ॥"
+          "text": "तेनाहमिषुणा शल्य वासुदेवधनंजयौ ।\nयोत्स्ये परमसंक्रुद्धस्तत्कर्म सदृशं मम ॥",
+          "meaning": {
+            "en": "\"With that arrow, Shalya, I will fight Vasudeva and Dhananjaya in towering rage. That deed is fitting for me.\""
+          }
         },
         {
           "n": 62,
-          "text": "सर्वेषां वासुदेवानां कृष्णे लक्ष्मीः प्रतिष्ठिता ।\nसर्वेषां पाण्डुपुत्राणां जयः पार्थे प्रतिष्ठितः ।\nउभयं तत्समासाद्य कोऽतिवर्तितुमर्हति ॥"
+          "text": "सर्वेषां वासुदेवानां कृष्णे लक्ष्मीः प्रतिष्ठिता ।\nसर्वेषां पाण्डुपुत्राणां जयः पार्थे प्रतिष्ठितः ।\nउभयं तत्समासाद्य कोऽतिवर्तितुमर्हति ॥",
+          "meaning": {
+            "en": "\"Among all the Vasudevas, fortune rests in Krishna. Among all the sons of Pandu, victory rests in Partha. Who can overcome the two combined?\""
+          }
         },
         {
           "n": 63,
-          "text": "तावेतौ पुरुषव्याघ्रौ समेतौ स्यन्दने स्थितौ ।\nमामेकमभिसंयातौ सुजातं शल्य पश्य मे ॥"
+          "text": "तावेतौ पुरुषव्याघ्रौ समेतौ स्यन्दने स्थितौ ।\nमामेकमभिसंयातौ सुजातं शल्य पश्य मे ॥",
+          "meaning": {
+            "en": "\"Those two tigers among men stand together in one chariot and have come against me alone. Shalya, see how well born I am.\""
+          }
         },
         {
           "n": 64,
-          "text": "पितृष्वसामातुलजौ भ्रातरावपराजितौ ।\nमणी सूत्र इव प्रोतौ द्रष्टासि निहतौ मया ॥"
+          "text": "पितृष्वसामातुलजौ भ्रातरावपराजितौ ।\nमणी सूत्र इव प्रोतौ द्रष्टासि निहतौ मया ॥",
+          "meaning": {
+            "en": "\"They are cousins, born of my father's sister and my mother's brother, and unconquered brothers. Strung together like two jewels on a thread, you will see them slain by me.\""
+          }
         },
         {
           "n": 65,
-          "text": "अर्जुने गाण्डिवं कृष्णे चक्रं तार्क्ष्यकपिध्वजौ ।\nभीरूणां त्रासजननौ शल्य हर्षकरौ मम ॥"
+          "text": "अर्जुने गाण्डिवं कृष्णे चक्रं तार्क्ष्यकपिध्वजौ ।\nभीरूणां त्रासजननौ शल्य हर्षकरौ मम ॥",
+          "meaning": {
+            "en": "\"Shalya, Arjuna's Gandiva and Krishna's discus, and Garuda and the monkey banner, strike fear in the timid but bring me joy.\""
+          }
         },
         {
           "n": 66,
-          "text": "त्वं तु दुष्प्रकृतिर्मूढो महायुद्धेष्वकोविदः ।\nभयावतीर्णः संत्रासादबद्धं बहु भाषसे ॥"
+          "text": "त्वं तु दुष्प्रकृतिर्मूढो महायुद्धेष्वकोविदः ।\nभयावतीर्णः संत्रासादबद्धं बहु भाषसे ॥",
+          "meaning": {
+            "en": "\"But you are of base nature, a fool, ignorant of great battles. Frightened and shaken, you babble much incoherent talk.\""
+          }
         },
         {
           "n": 67,
-          "text": "संस्तौषि त्वं तु केनापि हेतुना तौ कुदेशज ।\nतौ हत्वा समरे हन्ता त्वामद्धा सहबान्धवम् ॥"
+          "text": "संस्तौषि त्वं तु केनापि हेतुना तौ कुदेशज ।\nतौ हत्वा समरे हन्ता त्वामद्धा सहबान्धवम् ॥",
+          "meaning": {
+            "en": "\"You are praising those two for some reason, you man from a vile land. After I kill them in battle, I will certainly kill you too, with your kinsmen.\""
+          }
         },
         {
           "n": 68,
-          "text": "पापदेशज दुर्बुद्धे क्षुद्र क्षत्रियपांसन ।\nसुहृद्भूत्वा रिपुः किं मां कृष्णाभ्यां भीषयन्नसि ॥"
+          "text": "पापदेशज दुर्बुद्धे क्षुद्र क्षत्रियपांसन ।\nसुहृद्भूत्वा रिपुः किं मां कृष्णाभ्यां भीषयन्नसि ॥",
+          "meaning": {
+            "en": "\"You evil-minded, base man from a sinful land, disgrace of the warrior class, why do you, an enemy posing as a friend, try to frighten me with the two Krishnas?\""
+          }
         },
         {
           "n": 69,
-          "text": "तौ वा ममाद्य हन्तारौ हन्तास्मि समरे स्थितौ ।\nनाहं बिभेमि कृष्णाभ्यां विजानन्नात्मनो बलम् ॥"
+          "text": "तौ वा ममाद्य हन्तारौ हन्तास्मि समरे स्थितौ ।\nनाहं बिभेमि कृष्णाभ्यां विजानन्नात्मनो बलम् ॥",
+          "meaning": {
+            "en": "\"Either those two will kill me today, or I will kill them as they stand in battle. I do not fear the two Krishnas, for I know my own strength.\""
+          }
         },
         {
           "n": 70,
-          "text": "वासुदेवसहस्रं वा फल्गुनानां शतानि च ।\nअहमेको हनिष्यामि जोषमास्स्व कुदेशज ॥"
+          "text": "वासुदेवसहस्रं वा फल्गुनानां शतानि च ।\nअहमेको हनिष्यामि जोषमास्स्व कुदेशज ॥",
+          "meaning": {
+            "en": "\"I alone will kill a thousand Vasudevas and hundreds of Phalgunas. Be silent, you man from a vile land.\""
+          }
         },
         {
           "n": 71,
-          "text": "स्त्रियो बालाश्च वृद्धाश्च प्रायः क्रीडागता जनाः ।\nया गाथाः संप्रगायन्ति कुर्वन्तोऽध्ययनं यथा ।\nता गाथाः शृणु मे शल्य मद्रकेषु दुरात्मसु ॥"
+          "text": "स्त्रियो बालाश्च वृद्धाश्च प्रायः क्रीडागता जनाः ।\nया गाथाः संप्रगायन्ति कुर्वन्तोऽध्ययनं यथा ।\nता गाथाः शृणु मे शल्य मद्रकेषु दुरात्मसु ॥",
+          "meaning": {
+            "en": "\"Women, children, old people and idle folk usually sing songs, reciting them as if studying. Shalya, hear those songs about the wicked Madrakas.\""
+          }
         },
         {
           "n": 72,
-          "text": "ब्राह्मणैः कथिताः पूर्वं यथावद्राजसंनिधौ ।\nश्रुत्वा चैकमना मूढ क्षम वा ब्रूहि वोत्तरम् ॥"
+          "text": "ब्राह्मणैः कथिताः पूर्वं यथावद्राजसंनिधौ ।\nश्रुत्वा चैकमना मूढ क्षम वा ब्रूहि वोत्तरम् ॥",
+          "meaning": {
+            "en": "\"They were told long ago by brahmins, correctly, in a king's presence. Fool, listen with a single mind, then either bear it or give an answer.\""
+          }
         },
         {
           "n": 73,
-          "text": "मित्रध्रुङ्मद्रको नित्यं यो नो द्वेष्टि स मद्रकः ।\nमद्रके संगतं नास्ति क्षुद्रवाक्ये नराधमे ॥"
+          "text": "मित्रध्रुङ्मद्रको नित्यं यो नो द्वेष्टि स मद्रकः ।\nमद्रके संगतं नास्ति क्षुद्रवाक्ये नराधमे ॥",
+          "meaning": {
+            "en": "\"A Madraka is always a betrayer of friends. Whoever hates us is a Madraka. There is no friendship with a Madraka, a base and petty-spoken man.\""
+          }
         },
         {
           "n": 74,
-          "text": "दुरात्मा मद्रको नित्यं नित्यं चानृतिकोऽनृजुः ।\nयावदन्तं हि दौरात्म्यं मद्रकेष्विति नः श्रुतम् ॥"
+          "text": "दुरात्मा मद्रको नित्यं नित्यं चानृतिकोऽनृजुः ।\nयावदन्तं हि दौरात्म्यं मद्रकेष्विति नः श्रुतम् ॥",
+          "meaning": {
+            "en": "\"The Madraka is always wicked, always false and crooked. We have heard that wickedness among the Madrakas lasts to the very end.\""
+          }
         },
         {
           "n": 75,
-          "text": "पिता माता च पुत्रश्च श्वश्रूश्वशुरमातुलाः ।\nजामाता दुहिता भ्राता नप्ता ते ते च बान्धवाः ॥"
+          "text": "पिता माता च पुत्रश्च श्वश्रूश्वशुरमातुलाः ।\nजामाता दुहिता भ्राता नप्ता ते ते च बान्धवाः ॥",
+          "meaning": {
+            "en": "\"Father, mother, son, mother-in-law, father-in-law, maternal uncles, son-in-law, daughter, brother, grandson, and those who are kin, and...\""
+          }
         },
         {
           "n": 76,
-          "text": "वयस्याभ्यागताश्चान्ये दासीदासं च संगतम् ।\nपुंभिर्विमिश्रा नार्यश्च ज्ञाताज्ञाताः स्वयेच्छया ॥"
+          "text": "वयस्याभ्यागताश्चान्ये दासीदासं च संगतम् ।\nपुंभिर्विमिश्रा नार्यश्च ज्ञाताज्ञाताः स्वयेच्छया ॥",
+          "meaning": {
+            "en": "\"...friends, guests, and slave-women and slave-men all mingle together, and women mix with men, known or unknown, as they please.\""
+          }
         },
         {
           "n": 77,
-          "text": "येषां गृहेषु शिष्टानां सक्तुमन्थाशिनां सदा ।\nपीत्वा सीधुं सगोमांसं नर्दन्ति च हसन्ति च ॥"
+          "text": "येषां गृहेषु शिष्टानां सक्तुमन्थाशिनां सदा ।\nपीत्वा सीधुं सगोमांसं नर्दन्ति च हसन्ति च ॥",
+          "meaning": {
+            "en": "\"In their households the respectable ones always eat barley gruel, drink liquor, eat beef, and then roar and laugh.\""
+          }
         },
         {
           "n": 78,
-          "text": "यानि चैवाप्यबद्धानि प्रवर्तन्ते च कामतः ।\nकामप्रलापिनोऽन्योन्यं तेषु धर्मः कथं भवेत् ॥"
+          "text": "यानि चैवाप्यबद्धानि प्रवर्तन्ते च कामतः ।\nकामप्रलापिनोऽन्योन्यं तेषु धर्मः कथं भवेत् ॥",
+          "meaning": {
+            "en": "\"What they say without restraint and do as they please, as they babble to each other at will, how could there be any dharma in that?\""
+          }
         },
         {
           "n": 79,
-          "text": "मद्रकेषु विलुप्तेषु प्रख्याताशुभकर्मसु ।\nनापि वैरं न सौहार्दं मद्रकेषु समाचरेत् ॥"
+          "text": "मद्रकेषु विलुप्तेषु प्रख्याताशुभकर्मसु ।\nनापि वैरं न सौहार्दं मद्रकेषु समाचरेत् ॥",
+          "meaning": {
+            "en": "\"Among the ruined Madrakas, known for wicked deeds, one should keep neither enmity nor friendship.\""
+          }
         },
         {
           "n": 80,
-          "text": "मद्रके संगतं नास्ति मद्रको हि सचापलः ।\nमद्रकेषु च दुःस्पर्शं शौचं गान्धारकेषु च ॥"
+          "text": "मद्रके संगतं नास्ति मद्रको हि सचापलः ।\nमद्रकेषु च दुःस्पर्शं शौचं गान्धारकेषु च ॥",
+          "meaning": {
+            "en": "\"There is no friendship with a Madraka, for a Madraka is fickle. And among the Madrakas, and among the Gandharas too, purity is hard to find.\""
+          }
         },
         {
           "n": 81,
-          "text": "राजयाजकयाज्येन नष्टं दत्तं हविर्भवेत् ॥"
+          "text": "राजयाजकयाज्येन नष्टं दत्तं हविर्भवेत् ॥",
+          "meaning": {
+            "en": "\"An offering made through a priest of kings and for those who sacrifice for all becomes a lost gift, a wasted oblation.\""
+          }
         },
         {
           "n": 82,
-          "text": "शूद्रसंस्कारको विप्रो यथा याति पराभवम् ।\nतथा ब्रह्मद्विषो नित्यं गच्छन्तीह पराभवम् ॥"
+          "text": "शूद्रसंस्कारको विप्रो यथा याति पराभवम् ।\nतथा ब्रह्मद्विषो नित्यं गच्छन्तीह पराभवम् ॥",
+          "meaning": {
+            "en": "\"As a brahmin who performs rites for a Shudra comes to ruin, so those who hate brahmins always come to ruin here.\""
+          }
         },
         {
           "n": 83,
-          "text": "मद्रके संगतं नास्ति हतं वृश्चिकतो विषम् ।\nआथर्वणेन मन्त्रेण सर्वा शान्तिः कृता भवेत् ॥"
+          "text": "मद्रके संगतं नास्ति हतं वृश्चिकतो विषम् ।\nआथर्वणेन मन्त्रेण सर्वा शान्तिः कृता भवेत् ॥",
+          "meaning": {
+            "en": "\"There is no friendship with a Madraka. Poison from a scorpion's sting can be calmed entirely by an Atharvan spell.\""
+          }
         },
         {
           "n": 84,
-          "text": "इति वृश्चिकदष्टस्य नानाविषहतस्य च ।\nकुर्वन्ति भेषजं प्राज्ञाः सत्यं तच्चापि दृश्यते ।\nएवं विद्वञ्जोषमास्स्व शृणु चात्रोत्तरं वचः ॥"
+          "text": "इति वृश्चिकदष्टस्य नानाविषहतस्य च ।\nकुर्वन्ति भेषजं प्राज्ञाः सत्यं तच्चापि दृश्यते ।\nएवं विद्वञ्जोषमास्स्व शृणु चात्रोत्तरं वचः ॥",
+          "meaning": {
+            "en": "\"So the wise treat one bitten by a scorpion, or struck by various poisons, and that remedy is seen to work. Knowing this, stay silent, and hear my further reply.\""
+          }
         },
         {
           "n": 85,
-          "text": "वासांस्युत्सृज्य नृत्यन्ति स्त्रियो या मद्यमोहिताः ।\nमिथुनेऽसंयताश्चापि यथाकामचराश्च ताः ।\nतासां पुत्रः कथं धर्मं मद्रको वक्तुमर्हति ॥"
+          "text": "वासांस्युत्सृज्य नृत्यन्ति स्त्रियो या मद्यमोहिताः ।\nमिथुनेऽसंयताश्चापि यथाकामचराश्च ताः ।\nतासां पुत्रः कथं धर्मं मद्रको वक्तुमर्हति ॥",
+          "meaning": {
+            "en": "\"Women who dance without clothes, maddened by drink, unrestrained in intercourse and going about as they like, how can a son of such women speak of dharma, you Madraka?\""
+          }
         },
         {
           "n": 86,
-          "text": "यास्तिष्ठन्त्यः प्रमेहन्ति यथैवोष्ट्रीदशेरके ।\nतासां विभ्रष्टलज्जानां निर्लज्जानां ततस्ततः ।\nत्वं पुत्रस्तादृशीनां हि धर्मं वक्तुमिहेच्छसि ॥"
+          "text": "यास्तिष्ठन्त्यः प्रमेहन्ति यथैवोष्ट्रीदशेरके ।\nतासां विभ्रष्टलज्जानां निर्लज्जानां ततस्ततः ।\nत्वं पुत्रस्तादृशीनां हि धर्मं वक्तुमिहेच्छसि ॥",
+          "meaning": {
+            "en": "\"Women who stand and urinate like she-camels, shameless and without modesty, here and there, you are the son of such women, and you want to teach dharma here?\""
+          }
         },
         {
           "n": 87,
-          "text": "सुवीरकं याच्यमाना मद्रका कषति स्फिजौ ।\nअदातुकामा वचनमिदं वदति दारुणम् ॥"
+          "text": "सुवीरकं याच्यमाना मद्रका कषति स्फिजौ ।\nअदातुकामा वचनमिदं वदति दारुणम् ॥",
+          "meaning": {
+            "en": "\"When asked for Suviraka, a Madraka woman scratches her buttocks and, unwilling to give, says these harsh words.\""
+          }
         },
         {
           "n": 88,
-          "text": "मा मा सुवीरकं कश्चिद्याचतां दयितो मम ।\nपुत्रं दद्यां प्रतिपदं न तु दद्यां सुवीरकम् ॥"
+          "text": "मा मा सुवीरकं कश्चिद्याचतां दयितो मम ।\nपुत्रं दद्यां प्रतिपदं न तु दद्यां सुवीरकम् ॥",
+          "meaning": {
+            "en": "\"'Let no one ask me for Suviraka, which is dear to me. I would give my son at every step, but I would not give Suviraka.'\""
+          }
         },
         {
           "n": 89,
-          "text": "नार्यो बृहत्यो निर्ह्रीका मद्रकाः कम्बलावृताः ।\nघस्मरा नष्टशौचाश्च प्राय इत्यनुशुश्रुम ॥"
+          "text": "नार्यो बृहत्यो निर्ह्रीका मद्रकाः कम्बलावृताः ।\nघस्मरा नष्टशौचाश्च प्राय इत्यनुशुश्रुम ॥",
+          "meaning": {
+            "en": "\"We have heard that Madraka women are tall, shameless, wrapped in blankets, gluttonous and lacking in purity, for the most part.\""
+          }
         },
         {
           "n": 90,
-          "text": "एवमादि मयान्यैर्वा शक्यं वक्तुं भवेद्बहु ।\nआ केशाग्रान्नखाग्राच्च वक्तव्येषु कुवर्त्मसु ॥"
+          "text": "एवमादि मयान्यैर्वा शक्यं वक्तुं भवेद्बहु ।\nआ केशाग्रान्नखाग्राच्च वक्तव्येषु कुवर्त्मसु ॥",
+          "meaning": {
+            "en": "\"I or others could say much more like this, from the hair-tips to the nail-tips, about these perverse ways that are to be spoken of.\""
+          }
         },
         {
           "n": 91,
-          "text": "मद्रकाः सिन्धुसौवीरा धर्मं विद्युः कथं त्विह ।\nपापदेशोद्भवा म्लेच्छा धर्माणामविचक्षणाः ॥"
+          "text": "मद्रकाः सिन्धुसौवीरा धर्मं विद्युः कथं त्विह ।\nपापदेशोद्भवा म्लेच्छा धर्माणामविचक्षणाः ॥",
+          "meaning": {
+            "en": "\"How could the Madrakas and the Sindhu-Sauviras know dharma? They are barbarians born in a sinful land, unskilled in the duties of dharma.\""
+          }
         },
         {
           "n": 92,
-          "text": "एष मुख्यतमो धर्मः क्षत्रियस्येति नः श्रुतम् ।\nयदाजौ निहतः शेते सद्भिः समभिपूजितः ॥"
+          "text": "एष मुख्यतमो धर्मः क्षत्रियस्येति नः श्रुतम् ।\nयदाजौ निहतः शेते सद्भिः समभिपूजितः ॥",
+          "meaning": {
+            "en": "\"We have heard this is the foremost dharma of a kshatriya: to lie slain in battle, honored by the good.\""
+          }
         },
         {
           "n": 93,
-          "text": "आयुधानां संपराये यन्मुच्येयमहं ततः ।\nन मे स प्रथमः कल्पो निधने स्वर्गमिच्छतः ॥"
+          "text": "आयुधानां संपराये यन्मुच्येयमहं ततः ।\nन मे स प्रथमः कल्पो निधने स्वर्गमिच्छतः ॥",
+          "meaning": {
+            "en": "\"If I were to escape from the clash of weapons, that would not be the first course for me, since I wish for heaven in death.\""
+          }
         },
         {
           "n": 94,
-          "text": "सोऽहं प्रियः सखा चास्मि धार्तराष्ट्रस्य धीमतः ।\nतदर्थे हि मम प्राणा यच्च मे विद्यते वसु ॥"
+          "text": "सोऽहं प्रियः सखा चास्मि धार्तराष्ट्रस्य धीमतः ।\nतदर्थे हि मम प्राणा यच्च मे विद्यते वसु ॥",
+          "meaning": {
+            "en": "\"I am the dear friend of the wise son of Dhritarashtra. My life and whatever wealth I have are for his sake.\""
+          }
         },
         {
           "n": 95,
-          "text": "व्यक्तं त्वमप्युपहितः पाण्डवैः पापदेशज ।\nयथा ह्यमित्रवत्सर्वं त्वमस्मासु प्रवर्तसे ॥"
+          "text": "व्यक्तं त्वमप्युपहितः पाण्डवैः पापदेशज ।\nयथा ह्यमित्रवत्सर्वं त्वमस्मासु प्रवर्तसे ॥",
+          "meaning": {
+            "en": "\"Plainly, you have been planted among us by the Pandavas, you man from a sinful land, for you act toward us in every way like an enemy.\""
+          }
         },
         {
           "n": 96,
-          "text": "कामं न खलु शक्योऽहं त्वद्विधानां शतैरपि ।\nसंग्रामाद्विमुखः कर्तुं धर्मज्ञ इव नास्तिकैः ॥"
+          "text": "कामं न खलु शक्योऽहं त्वद्विधानां शतैरपि ।\nसंग्रामाद्विमुखः कर्तुं धर्मज्ञ इव नास्तिकैः ॥",
+          "meaning": {
+            "en": "\"I could not, even if hundreds of men like you tried, be turned away from battle, any more than a knower of dharma could be turned by atheists.\""
+          }
         },
         {
           "n": 97,
-          "text": "सारङ्ग इव घर्मार्तः कामं विलप शुष्य च ।\nनाहं भीषयितुं शक्यः क्षत्रवृत्ते व्यवस्थितः ॥"
+          "text": "सारङ्ग इव घर्मार्तः कामं विलप शुष्य च ।\nनाहं भीषयितुं शक्यः क्षत्रवृत्ते व्यवस्थितः ॥",
+          "meaning": {
+            "en": "\"Wail and wither like a thirsty chataka bird in the heat if you like. I cannot be frightened, standing firm in the warrior's way.\""
+          }
         },
         {
           "n": 98,
-          "text": "तनुत्यजां नृसिंहानामाहवेष्वनिवर्तिनाम् ।\nया गतिर्गुरुणा प्राङ्मे प्रोक्ता रामेण तां स्मर ॥"
+          "text": "तनुत्यजां नृसिंहानामाहवेष्वनिवर्तिनाम् ।\nया गतिर्गुरुणा प्राङ्मे प्रोक्ता रामेण तां स्मर ॥",
+          "meaning": {
+            "en": "\"Remember the destination that my teacher Rama told me long ago, for lions among men who give up their bodies and never turn back from battles.\""
+          }
         },
         {
           "n": 99,
-          "text": "स्वेषां त्राणार्थमुद्युक्तं वधाय द्विषतामपि ।\nविद्धि मामास्थितं वृत्तं पौरूरवसमुत्तमम् ॥"
+          "text": "स्वेषां त्राणार्थमुद्युक्तं वधाय द्विषतामपि ।\nविद्धि मामास्थितं वृत्तं पौरूरवसमुत्तमम् ॥",
+          "meaning": {
+            "en": "\"Know that I follow the best conduct of Pururavas, set out to protect my own side and also to kill the enemy.\""
+          }
         },
         {
           "n": 100,
-          "text": "न तद्भूतं प्रपश्यामि त्रिषु लोकेषु मद्रक ।\nयो मामस्मादभिप्रायाद्वारयेदिति मे मतिः ॥"
+          "text": "न तद्भूतं प्रपश्यामि त्रिषु लोकेषु मद्रक ।\nयो मामस्मादभिप्रायाद्वारयेदिति मे मतिः ॥",
+          "meaning": {
+            "en": "\"I see no being in the three worlds, Madraka, who could turn me from this purpose. That is my conviction.\""
+          }
         },
         {
           "n": 101,
-          "text": "एवं विद्वञ्जोषमास्स्व त्रासात्किं बहु भाषसे ।\nमा त्वा हत्वा प्रदास्यामि क्रव्याद्भ्यो मद्रकाधम ॥"
+          "text": "एवं विद्वञ्जोषमास्स्व त्रासात्किं बहु भाषसे ।\nमा त्वा हत्वा प्रदास्यामि क्रव्याद्भ्यो मद्रकाधम ॥",
+          "meaning": {
+            "en": "\"Knowing this, be silent. Why do you talk so much out of fear? Lowest of the Madrakas, I will not kill you and give you to the flesh-eaters.\""
+          }
         },
         {
           "n": 102,
-          "text": "मित्रप्रतीक्षया शल्य धार्तराष्ट्रस्य चोभयोः ।\nअपवादतितिक्षाभिस्त्रिभिरेतैर्हि जीवसि ॥"
+          "text": "मित्रप्रतीक्षया शल्य धार्तराष्ट्रस्य चोभयोः ।\nअपवादतितिक्षाभिस्त्रिभिरेतैर्हि जीवसि ॥",
+          "meaning": {
+            "en": "\"Shalya, you live only by these three things: your regard for a friend, your regard for Dhritarashtra's son, and your tolerance of insults.\""
+          }
         },
         {
           "n": 103,
-          "text": "पुनश्चेदीदृशं वाक्यं मद्रराज वदिष्यसि ।\nशिरस्ते पातयिष्यामि गदया वज्रकल्पया ॥"
+          "text": "पुनश्चेदीदृशं वाक्यं मद्रराज वदिष्यसि ।\nशिरस्ते पातयिष्यामि गदया वज्रकल्पया ॥",
+          "meaning": {
+            "en": "\"King of Madra, if you speak such words again, I will strike off your head with a mace like a thunderbolt.\""
+          }
         },
         {
           "n": 104,
-          "text": "श्रोतारस्त्विदमद्येह द्रष्टारो वा कुदेशज ।\nकर्णं वा जघ्नतुः कृष्णौ कर्णो वापि जघान तौ ॥"
+          "text": "श्रोतारस्त्विदमद्येह द्रष्टारो वा कुदेशज ।\nकर्णं वा जघ्नतुः कृष्णौ कर्णो वापि जघान तौ ॥",
+          "meaning": {
+            "en": "\"You man from a vile land, those here today will hear and see it: either the two Krishnas kill Karna, or Karna kills them.\""
+          }
         },
         {
           "n": 105,
-          "text": "एवमुक्त्वा तु राधेयः पुनरेव विशां पते ।\nअब्रवीन्मद्रराजानं याहि याहीत्यसंभ्रमम् ॥"
+          "text": "एवमुक्त्वा तु राधेयः पुनरेव विशां पते ।\nअब्रवीन्मद्रराजानं याहि याहीत्यसंभ्रमम् ॥",
+          "meaning": {
+            "en": "Having said this, Radha's son, O lord of men, calmly told the king of Madra again, \"Drive on, drive on!\""
+          }
         }
       ]
     }

@@ -22,123 +22,216 @@
       "titleEn": "Rajadharma Parva (Duties of kings)",
       "verses": [
         {
-          "text": "भीष्म उवाच"
+          "text": "भीष्म उवाच",
+          "meaning": {
+            "en": "Bhishma said:"
+          }
         },
         {
           "n": 1,
-          "text": "य एव तु सतो रक्षेदसतश्च निबर्हयेत् ।\nस एव राज्ञा कर्तव्यो राजन्राजपुरोहितः ॥"
+          "text": "य एव तु सतो रक्षेदसतश्च निबर्हयेत् ।\nस एव राज्ञा कर्तव्यो राजन्राजपुरोहितः ॥",
+          "meaning": {
+            "en": "Lord of men, the one who protects the good and destroys the wicked is the one a king should appoint as his household priest."
+          }
         },
         {
           "n": 2,
-          "text": "अत्राप्युदाहरन्तीममितिहासं पुरातनम् ।\nपुरूरवस ऐलस्य संवादं मातरिश्वनः ॥"
+          "text": "अत्राप्युदाहरन्तीममितिहासं पुरातनम् ।\nपुरूरवस ऐलस्य संवादं मातरिश्वनः ॥",
+          "meaning": {
+            "en": "On this they cite an ancient tale, the conversation of Pururavas, son of Ila, with Matarishvan, the wind."
+          }
         },
         {
-          "text": "ऐल उवाच"
+          "text": "ऐल उवाच",
+          "meaning": {
+            "en": "Aila said:"
+          }
         },
         {
           "n": 3,
-          "text": "कुतः स्विद्ब्राह्मणो जातो वर्णाश्चापि कुतस्त्रयः ।\nकस्माच्च भवति श्रेयानेतद्वायो विचक्ष्व मे ॥"
+          "text": "कुतः स्विद्ब्राह्मणो जातो वर्णाश्चापि कुतस्त्रयः ।\nकस्माच्च भवति श्रेयानेतद्वायो विचक्ष्व मे ॥",
+          "meaning": {
+            "en": "Wind, tell me: from where was the Brahmana born, and from where the three other classes? And why does he become the best?"
+          }
         },
         {
-          "text": "वायुरुवाच"
+          "text": "वायुरुवाच",
+          "meaning": {
+            "en": "Vayu said:"
+          }
         },
         {
           "n": 4,
-          "text": "ब्रह्मणो मुखतः सृष्टो ब्राह्मणो राजसत्तम ।\nबाहुभ्यां क्षत्रियः सृष्ट ऊरुभ्यां वैश्य उच्यते ॥"
+          "text": "ब्रह्मणो मुखतः सृष्टो ब्राह्मणो राजसत्तम ।\nबाहुभ्यां क्षत्रियः सृष्ट ऊरुभ्यां वैश्य उच्यते ॥",
+          "meaning": {
+            "en": "Best of kings, the Brahmana was created from the mouth of Brahma, the Kshatriya from his arms, and the Vaishya is said to come from his thighs."
+          }
         },
         {
           "n": 5,
-          "text": "वर्णानां परिचर्यार्थं त्रयाणां पुरुषर्षभ ।\nवर्णश्चतुर्थः पश्चात्तु पद्भ्यां शूद्रो विनिर्मितः ॥"
+          "text": "वर्णानां परिचर्यार्थं त्रयाणां पुरुषर्षभ ।\nवर्णश्चतुर्थः पश्चात्तु पद्भ्यां शूद्रो विनिर्मितः ॥",
+          "meaning": {
+            "en": "Bull among men, for the service of the three classes the fourth, the Shudra, was afterwards formed from his feet."
+          }
         },
         {
           "n": 6,
-          "text": "ब्राह्मणो जातमात्रस्तु पृथिवीमन्वजायत ।\nईश्वरः सर्वभूतानां धर्मकोशस्य गुप्तये ॥"
+          "text": "ब्राह्मणो जातमात्रस्तु पृथिवीमन्वजायत ।\nईश्वरः सर्वभूतानां धर्मकोशस्य गुप्तये ॥",
+          "meaning": {
+            "en": "As soon as born, the Brahmana came to the earth as lord of all beings, to guard the treasury of righteousness."
+          }
         },
         {
           "n": 7,
-          "text": "ततः पृथिव्या गोप्तारं क्षत्रियं दण्डधारिणम् ।\nद्वितीयं वर्णमकरोत्प्रजानामनुगुप्तये ॥"
+          "text": "ततः पृथिव्या गोप्तारं क्षत्रियं दण्डधारिणम् ।\nद्वितीयं वर्णमकरोत्प्रजानामनुगुप्तये ॥",
+          "meaning": {
+            "en": "Then for the protection of the people he made the second class, the Kshatriya, protector of the earth and bearer of the rod."
+          }
         },
         {
           "n": 8,
-          "text": "वैश्यस्तु धनधान्येन त्रीन्वर्णान्बिभृयादिमान् ।\nशूद्रो ह्येनान्परिचरेदिति ब्रह्मानुशासनम् ॥"
+          "text": "वैश्यस्तु धनधान्येन त्रीन्वर्णान्बिभृयादिमान् ।\nशूद्रो ह्येनान्परिचरेदिति ब्रह्मानुशासनम् ॥",
+          "meaning": {
+            "en": "The Vaishya was to support these three classes with wealth and grain, and the Shudra was to serve them; such is Brahma's command."
+          }
         },
         {
-          "text": "ऐल उवाच"
+          "text": "ऐल उवाच",
+          "meaning": {
+            "en": "Aila said:"
+          }
         },
         {
           "n": 9,
-          "text": "द्विजस्य क्षत्रबन्धोर्वा कस्येयं पृथिवी भवेत् ।\nधर्मतः सह वित्तेन सम्यग्वायो प्रचक्ष्व मे ॥"
+          "text": "द्विजस्य क्षत्रबन्धोर्वा कस्येयं पृथिवी भवेत् ।\nधर्मतः सह वित्तेन सम्यग्वायो प्रचक्ष्व मे ॥",
+          "meaning": {
+            "en": "Wind, tell me fully, according to righteousness and wealth: to whom does this earth belong, to the twice-born or to the Kshatriya?"
+          }
         },
         {
-          "text": "वायुरुवाच"
+          "text": "वायुरुवाच",
+          "meaning": {
+            "en": "Vayu said:"
+          }
         },
         {
           "n": 10,
-          "text": "विप्रस्य सर्वमेवैतद्यत्किंचिज्जगतीगतम् ।\nज्येष्ठेनाभिजनेनेह तद्धर्मकुशला विदुः ॥"
+          "text": "विप्रस्य सर्वमेवैतद्यत्किंचिज्जगतीगतम् ।\nज्येष्ठेनाभिजनेनेह तद्धर्मकुशला विदुः ॥",
+          "meaning": {
+            "en": "All that there is on earth belongs to the Brahmana; so those skilled in righteousness know, by reason of being eldest and of birth."
+          }
         },
         {
           "n": 11,
-          "text": "स्वमेव ब्राह्मणो भुङ्क्ते स्वं वस्ते स्वं ददाति च ।\nगुरुर्हि सर्ववर्णानां ज्येष्ठः श्रेष्ठश्च वै द्विजः ॥"
+          "text": "स्वमेव ब्राह्मणो भुङ्क्ते स्वं वस्ते स्वं ददाति च ।\nगुरुर्हि सर्ववर्णानां ज्येष्ठः श्रेष्ठश्च वै द्विजः ॥",
+          "meaning": {
+            "en": "The Brahmana enjoys only his own, wears only his own, and gives only his own; for the twice-born is the teacher, eldest and best of all classes."
+          }
         },
         {
           "n": 12,
-          "text": "पत्यभावे यथा स्त्री हि देवरं कुरुते पतिम् ।\nआनन्तर्यात्तथा क्षत्रं पृथिवी कुरुते पतिम् ॥"
+          "text": "पत्यभावे यथा स्त्री हि देवरं कुरुते पतिम् ।\nआनन्तर्यात्तथा क्षत्रं पृथिवी कुरुते पतिम् ॥",
+          "meaning": {
+            "en": "As a woman takes her husband's brother as husband when she has no husband, so, by being next in order, the earth takes the Kshatriya as her husband."
+          }
         },
         {
           "n": 13,
-          "text": "एष ते प्रथमः कल्प आपद्यन्यो भवेदतः ।\nयदि स्वर्गे परं स्थानं धर्मतः परिमार्गसि ॥"
+          "text": "एष ते प्रथमः कल्प आपद्यन्यो भवेदतः ।\nयदि स्वर्गे परं स्थानं धर्मतः परिमार्गसि ॥",
+          "meaning": {
+            "en": "This is the first rule for you; the other is for times of distress, if you seek the highest place in heaven by righteousness."
+          }
         },
         {
           "n": 14,
-          "text": "यः कश्चिद्विजयेद्भूमिं ब्राह्मणाय निवेदयेत् ।\nश्रुतवृत्तोपपन्नाय धर्मज्ञाय तपस्विने ॥"
+          "text": "यः कश्चिद्विजयेद्भूमिं ब्राह्मणाय निवेदयेत् ।\nश्रुतवृत्तोपपन्नाय धर्मज्ञाय तपस्विने ॥",
+          "meaning": {
+            "en": "Whoever conquers land should hand it over to a Brahmana who is learned and of good conduct, who knows righteousness and practises austerity."
+          }
         },
         {
           "n": 15,
-          "text": "स्वधर्मपरितृप्ताय यो न वित्तपरो भवेत् ।\nयो राजानं नयेद्बुद्ध्या सर्वतः परिपूर्णया ॥"
+          "text": "स्वधर्मपरितृप्ताय यो न वित्तपरो भवेत् ।\nयो राजानं नयेद्बुद्ध्या सर्वतः परिपूर्णया ॥",
+          "meaning": {
+            "en": "He should give it to one content with his own duty and not bent on wealth, who can guide the king with understanding that is complete on every side."
+          }
         },
         {
           "n": 16,
-          "text": "ब्राह्मणो हि कुले जातः कृतप्रज्ञो विनीतवाक् ।\nश्रेयो नयति राजानं ब्रुवंश्चित्रां सरस्वतीम् ॥"
+          "text": "ब्राह्मणो हि कुले जातः कृतप्रज्ञो विनीतवाक् ।\nश्रेयो नयति राजानं ब्रुवंश्चित्रां सरस्वतीम् ॥",
+          "meaning": {
+            "en": "A Brahmana born in a good family, wise and gentle in speech, leads the king to what is best, speaking in varied and fine words."
+          }
         },
         {
           "n": 17,
-          "text": "राजा चरति यं धर्मं ब्राह्मणेन निदर्शितम् ।\nशुश्रूषुरनहंवादी क्षत्रधर्मव्रते स्थितः ॥"
+          "text": "राजा चरति यं धर्मं ब्राह्मणेन निदर्शितम् ।\nशुश्रूषुरनहंवादी क्षत्रधर्मव्रते स्थितः ॥",
+          "meaning": {
+            "en": "The king who obeys, free of conceit, and keeps to the vow of the Kshatriya duty, follows the righteousness shown by the Brahmana."
+          }
         },
         {
           "n": 18,
-          "text": "तावता स कृतप्रज्ञश्चिरं यशसि तिष्ठति ।\nतस्य धर्मस्य सर्वस्य भागी राजपुरोहितः ॥"
+          "text": "तावता स कृतप्रज्ञश्चिरं यशसि तिष्ठति ।\nतस्य धर्मस्य सर्वस्य भागी राजपुरोहितः ॥",
+          "meaning": {
+            "en": "By that much he, accomplished in wisdom, stays long in fame; and the king's household priest shares in all that righteousness."
+          }
         },
         {
           "n": 19,
-          "text": "एवमेव प्रजाः सर्वा राजानमभिसंश्रिताः ।\nसम्यग्वृत्ताः स्वधर्मस्था न कुतश्चिद्भयान्विताः ॥"
+          "text": "एवमेव प्रजाः सर्वा राजानमभिसंश्रिताः ।\nसम्यग्वृत्ताः स्वधर्मस्था न कुतश्चिद्भयान्विताः ॥",
+          "meaning": {
+            "en": "So too all the people who take refuge in the king and live rightly in their own duties are free of fear from any side."
+          }
         },
         {
           "n": 20,
-          "text": "राष्ट्रे चरन्ति यं धर्मं राज्ञा साध्वभिरक्षिताः ।\nचतुर्थं तस्य धर्मस्य राजा भागं स विन्दति ॥"
+          "text": "राष्ट्रे चरन्ति यं धर्मं राज्ञा साध्वभिरक्षिताः ।\nचतुर्थं तस्य धर्मस्य राजा भागं स विन्दति ॥",
+          "meaning": {
+            "en": "The righteousness the people practise in the kingdom, well protected by the king, a fourth part of it the king obtains."
+          }
         },
         {
           "n": 21,
-          "text": "देवा मनुष्याः पितरो गन्धर्वोरगराक्षसाः ।\nयज्ञमेवोपजीवन्ति नास्ति चेष्टमराजके ॥"
+          "text": "देवा मनुष्याः पितरो गन्धर्वोरगराक्षसाः ।\nयज्ञमेवोपजीवन्ति नास्ति चेष्टमराजके ॥",
+          "meaning": {
+            "en": "Gods, men, ancestors, gandharvas, serpents and rakshasas all live on sacrifice, and there is no sacrifice where there is no king."
+          }
         },
         {
           "n": 22,
-          "text": "इतो दत्तेन जीवन्ति देवताः पितरस्तथा ।\nराजन्येवास्य धर्मस्य योगक्षेमः प्रतिष्ठितः ॥"
+          "text": "इतो दत्तेन जीवन्ति देवताः पितरस्तथा ।\nराजन्येवास्य धर्मस्य योगक्षेमः प्रतिष्ठितः ॥",
+          "meaning": {
+            "en": "What is given from here sustains the gods and ancestors, and in the king rests the gaining and keeping of this righteousness."
+          }
         },
         {
           "n": 23,
-          "text": "छायायामप्सु वायौ च सुखमुष्णेऽधिगच्छति ।\nअग्नौ वाससि सूर्ये च सुखं शीतेऽधिगच्छति ॥"
+          "text": "छायायामप्सु वायौ च सुखमुष्णेऽधिगच्छति ।\nअग्नौ वाससि सूर्ये च सुखं शीतेऽधिगच्छति ॥",
+          "meaning": {
+            "en": "In shade, in water and in wind a man finds comfort in heat; in fire, in clothing and in the sun he finds comfort in cold."
+          }
         },
         {
           "n": 24,
-          "text": "शब्दे स्पर्शे रसे रूपे गन्धे च रमते मनः ।\nतेषु भोगेषु सर्वेषु नभीतो लभते सुखम् ॥"
+          "text": "शब्दे स्पर्शे रसे रूपे गन्धे च रमते मनः ।\nतेषु भोगेषु सर्वेषु नभीतो लभते सुखम् ॥",
+          "meaning": {
+            "en": "The mind delights in sound, touch, taste, form and smell; a man finds happiness in all these pleasures when he is unafraid."
+          }
         },
         {
           "n": 25,
-          "text": "अभयस्यैव यो दाता तस्यैव सुमहत्फलम् ।\nन हि प्राणसमं दानं त्रिषु लोकेषु विद्यते ॥"
+          "text": "अभयस्यैव यो दाता तस्यैव सुमहत्फलम् ।\nन हि प्राणसमं दानं त्रिषु लोकेषु विद्यते ॥",
+          "meaning": {
+            "en": "The one who gives fearlessness has the greatest reward; no gift in the three worlds equals the gift of life."
+          }
         },
         {
           "n": 26,
-          "text": "इन्द्रो राजा यमो राजा धर्मो राजा तथैव च ।\nराजा बिभर्ति रूपाणि राज्ञा सर्वमिदं धृतम् ॥"
+          "text": "इन्द्रो राजा यमो राजा धर्मो राजा तथैव च ।\nराजा बिभर्ति रूपाणि राज्ञा सर्वमिदं धृतम् ॥",
+          "meaning": {
+            "en": "The king is Indra, the king is Yama, the king is Dharma too; the king bears many forms, and by the king all this is upheld."
+          }
         }
       ]
     }

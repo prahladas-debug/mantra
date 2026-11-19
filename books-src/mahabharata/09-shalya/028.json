@@ -22,384 +22,672 @@
       "titleEn": "Shalya Parva",
       "verses": [
         {
-          "text": "संजय उवाच"
+          "text": "संजय उवाच",
+          "meaning": {
+            "en": "Sanjaya said:"
+          }
         },
         {
           "n": 1,
-          "text": "ततः क्रुद्धा महाराज सौबलस्य पदानुगाः ।\nत्यक्त्वा जीवितमाक्रन्दे पाण्डवान्पर्यवारयन् ॥"
+          "text": "ततः क्रुद्धा महाराज सौबलस्य पदानुगाः ।\nत्यक्त्वा जीवितमाक्रन्दे पाण्डवान्पर्यवारयन् ॥",
+          "meaning": {
+            "en": "Then Shakuni's followers, enraged, O great king, gave up hope of life and surrounded the Pandavas in the uproar."
+          }
         },
         {
           "n": 2,
-          "text": "तानर्जुनः प्रत्यगृह्णात्सहदेवजये धृतः ।\nभीमसेनश्च तेजस्वी क्रुद्धाशीविषदर्शनः ॥"
+          "text": "तानर्जुनः प्रत्यगृह्णात्सहदेवजये धृतः ।\nभीमसेनश्च तेजस्वी क्रुद्धाशीविषदर्शनः ॥",
+          "meaning": {
+            "en": "Arjuna, set on Sahadeva's victory, met them, and so did the radiant Bhimasena, looking like an angry venomous snake."
+          }
         },
         {
           "n": 3,
-          "text": "शक्त्यृष्टिप्रासहस्तानां सहदेवं जिघांसताम् ।\nसंकल्पमकरोन्मोघं गाण्डीवेन धनंजयः ॥"
+          "text": "शक्त्यृष्टिप्रासहस्तानां सहदेवं जिघांसताम् ।\nसंकल्पमकरोन्मोघं गाण्डीवेन धनंजयः ॥",
+          "meaning": {
+            "en": "Against those who held spears, darts and lances and wished to kill Sahadeva, Dhananjaya made their intent fruitless with the Gandiva."
+          }
         },
         {
           "n": 4,
-          "text": "प्रगृहीतायुधान्बाहून्योधानामभिधावताम् ।\nभल्लैश्चिच्छेद बीभत्सुः शिरांस्यपि हयानपि ॥"
+          "text": "प्रगृहीतायुधान्बाहून्योधानामभिधावताम् ।\nभल्लैश्चिच्छेद बीभत्सुः शिरांस्यपि हयानपि ॥",
+          "meaning": {
+            "en": "As the warriors rushed on with weapons raised, Bibhatsu cut off their arms with broad-headed arrows, and their heads and horses too."
+          }
         },
         {
           "n": 5,
-          "text": "ते हताः प्रत्यपद्यन्त वसुधां विगतासवः ।\nत्वरिता लोकवीरेण प्रहताः सव्यसाचिना ॥"
+          "text": "ते हताः प्रत्यपद्यन्त वसुधां विगतासवः ।\nत्वरिता लोकवीरेण प्रहताः सव्यसाचिना ॥",
+          "meaning": {
+            "en": "Struck down, they lay lifeless on the earth, hurried to death by Savyasachin, the hero of the world."
+          }
         },
         {
           "n": 6,
-          "text": "ततो दुर्योधनो राजा दृष्ट्वा स्वबलसंक्षयम् ।\nहतशेषान्समानीय क्रुद्धो रथशतान्विभो ॥"
+          "text": "ततो दुर्योधनो राजा दृष्ट्वा स्वबलसंक्षयम् ।\nहतशेषान्समानीय क्रुद्धो रथशतान्विभो ॥",
+          "meaning": {
+            "en": "Then King Duryodhana, seeing his force destroyed, enraged, gathered the remnant, O lord, hundreds of chariots,"
+          }
         },
         {
           "n": 7,
-          "text": "कुञ्जरांश्च हयांश्चैव पादातांश्च परंतप ।\nउवाच सहितान्सर्वान्धार्तराष्ट्र इदं वचः ॥"
+          "text": "कुञ्जरांश्च हयांश्चैव पादातांश्च परंतप ।\nउवाच सहितान्सर्वान्धार्तराष्ट्र इदं वचः ॥",
+          "meaning": {
+            "en": "elephants, horses and foot soldiers, O scorcher of foes, and the Dhartarashtra spoke these words to them all together:"
+          }
         },
         {
           "n": 8,
-          "text": "समासाद्य रणे सर्वान्पाण्डवान्ससुहृद्गणान् ।\nपाञ्चाल्यं चापि सबलं हत्वा शीघ्रं निवर्तत ॥"
+          "text": "समासाद्य रणे सर्वान्पाण्डवान्ससुहृद्गणान् ।\nपाञ्चाल्यं चापि सबलं हत्वा शीघ्रं निवर्तत ॥",
+          "meaning": {
+            "en": "\"Meet all the Pandavas and their friends in the battle, kill the Panchala too with his force, and then quickly return.\""
+          }
         },
         {
           "n": 9,
-          "text": "तस्य ते शिरसा गृह्य वचनं युद्धदुर्मदाः ।\nप्रत्युद्ययू रणे पार्थांस्तव पुत्रस्य शासनात् ॥"
+          "text": "तस्य ते शिरसा गृह्य वचनं युद्धदुर्मदाः ।\nप्रत्युद्ययू रणे पार्थांस्तव पुत्रस्य शासनात् ॥",
+          "meaning": {
+            "en": "Taking his words on their heads, those men, wild for battle, advanced against the Parthas at your son's command."
+          }
         },
         {
           "n": 10,
-          "text": "तानभ्यापततः शीघ्रं हतशेषान्महारणे ।\nशरैराशीविषाकारैः पाण्डवाः समवाकिरन् ॥"
+          "text": "तानभ्यापततः शीघ्रं हतशेषान्महारणे ।\nशरैराशीविषाकारैः पाण्डवाः समवाकिरन् ॥",
+          "meaning": {
+            "en": "As the remnant rushed swiftly in that great battle, the Pandavas covered them with arrows shaped like venomous snakes."
+          }
         },
         {
           "n": 11,
-          "text": "तत्सैन्यं भरतश्रेष्ठ मुहूर्तेन महात्मभिः ।\nअवध्यत रणं प्राप्य त्रातारं नाभ्यविन्दत ।\nप्रतिष्ठमानं तु भयान्नावतिष्ठत दंशितम् ॥"
+          "text": "तत्सैन्यं भरतश्रेष्ठ मुहूर्तेन महात्मभिः ।\nअवध्यत रणं प्राप्य त्रातारं नाभ्यविन्दत ।\nप्रतिष्ठमानं तु भयान्नावतिष्ठत दंशितम् ॥",
+          "meaning": {
+            "en": "That army, O best of the Bharatas, was cut down in a moment by the great-souled men; having entered the battle, it found no protector. The armored men, setting out in fear, did not stand firm."
+          }
         },
         {
           "n": 12,
-          "text": "अश्वैर्विपरिधावद्भिः सैन्येन रजसा वृते ।\nन प्राज्ञायन्त समरे दिशश्च प्रदिशस्तथा ॥"
+          "text": "अश्वैर्विपरिधावद्भिः सैन्येन रजसा वृते ।\nन प्राज्ञायन्त समरे दिशश्च प्रदिशस्तथा ॥",
+          "meaning": {
+            "en": "With horses running in every direction and the army wrapped in dust, neither the quarters nor the intermediate directions could be told apart in the battle."
+          }
         },
         {
           "n": 13,
-          "text": "ततस्तु पाण्डवानीकान्निःसृत्य बहवो जनाः ।\nअभ्यघ्नंस्तावकान्युद्धे मुहूर्तादिव भारत ।\nततो निःशेषमभवत्तत्सैन्यं तव भारत ॥"
+          "text": "ततस्तु पाण्डवानीकान्निःसृत्य बहवो जनाः ।\nअभ्यघ्नंस्तावकान्युद्धे मुहूर्तादिव भारत ।\nततो निःशेषमभवत्तत्सैन्यं तव भारत ॥",
+          "meaning": {
+            "en": "Then many men came out of the Pandava force and struck your men in the battle, as if in a moment, O Bharata; and so your army was left without a remnant, O Bharata."
+          }
         },
         {
           "n": 14,
-          "text": "अक्षौहिण्यः समेतास्तु तव पुत्रस्य भारत ।\nएकादश हता युद्धे ताः प्रभो पाण्डुसृञ्जयैः ॥"
+          "text": "अक्षौहिण्यः समेतास्तु तव पुत्रस्य भारत ।\nएकादश हता युद्धे ताः प्रभो पाण्डुसृञ्जयैः ॥",
+          "meaning": {
+            "en": "The eleven akshauhinis gathered for your son, O Bharata, were killed in battle by the Pandavas and Srinjayas, O lord."
+          }
         },
         {
           "n": 15,
-          "text": "तेषु राजसहस्रेषु तावकेषु महात्मसु ।\nएको दुर्योधनो राजन्नदृश्यत भृशं क्षतः ॥"
+          "text": "तेषु राजसहस्रेषु तावकेषु महात्मसु ।\nएको दुर्योधनो राजन्नदृश्यत भृशं क्षतः ॥",
+          "meaning": {
+            "en": "Among those thousands of your great-souled kings, Duryodhana alone, O king, was seen, badly wounded."
+          }
         },
         {
           "n": 16,
-          "text": "ततो वीक्ष्य दिशः सर्वा दृष्ट्वा शून्यां च मेदिनीम् ।\nविहीनः सर्वयोधैश्च पाण्डवान्वीक्ष्य संयुगे ॥"
+          "text": "ततो वीक्ष्य दिशः सर्वा दृष्ट्वा शून्यां च मेदिनीम् ।\nविहीनः सर्वयोधैश्च पाण्डवान्वीक्ष्य संयुगे ॥",
+          "meaning": {
+            "en": "Then, looking in all directions and seeing the earth empty, deprived of all his warriors, looking at the Pandavas in the battle,"
+          }
         },
         {
           "n": 17,
-          "text": "मुदितान्सर्वसिद्धार्थान्नर्दमानान्समन्ततः ।\nबाणशब्दरवांश्चैव श्रुत्वा तेषां महात्मनाम् ॥"
+          "text": "मुदितान्सर्वसिद्धार्थान्नर्दमानान्समन्ततः ।\nबाणशब्दरवांश्चैव श्रुत्वा तेषां महात्मनाम् ॥",
+          "meaning": {
+            "en": "joyful, with every aim achieved, roaring on every side, and hearing the sound of arrows from those great-souled men,"
+          }
         },
         {
           "n": 18,
-          "text": "दुर्योधनो महाराज कश्मलेनाभिसंवृतः ।\nअपयाने मनश्चक्रे विहीनबलवाहनः ॥"
+          "text": "दुर्योधनो महाराज कश्मलेनाभिसंवृतः ।\nअपयाने मनश्चक्रे विहीनबलवाहनः ॥",
+          "meaning": {
+            "en": "Duryodhana, O great king, overcome by dejection and robbed of force and mount, made up his mind to flee."
+          }
         },
         {
-          "text": "धृतराष्ट्र उवाच"
+          "text": "धृतराष्ट्र उवाच",
+          "meaning": {
+            "en": "Dhritarashtra said:"
+          }
         },
         {
           "n": 19,
-          "text": "निहते मामके सैन्ये निःशेषे शिबिरे कृते ।\nपाण्डवानां बलं सूत किं नु शेषमभूत्तदा ।\nएतन्मे पृच्छतो ब्रूहि कुशलो ह्यसि संजय ॥"
+          "text": "निहते मामके सैन्ये निःशेषे शिबिरे कृते ।\nपाण्डवानां बलं सूत किं नु शेषमभूत्तदा ।\nएतन्मे पृच्छतो ब्रूहि कुशलो ह्यसि संजय ॥",
+          "meaning": {
+            "en": "When my army had been killed and the camp left empty, Sanjaya, what was then left of the Pandavas' force? Tell me when I ask this, for you are skilled."
+          }
         },
         {
           "n": 20,
-          "text": "यच्च दुर्योधनो मन्दः कृतवांस्तनयो मम ।\nबलक्षयं तथा दृष्ट्वा स एकः पृथिवीपतिः ॥"
+          "text": "यच्च दुर्योधनो मन्दः कृतवांस्तनयो मम ।\nबलक्षयं तथा दृष्ट्वा स एकः पृथिवीपतिः ॥",
+          "meaning": {
+            "en": "And what did Duryodhana, my foolish son, do, that lord of the earth, alone, seeing his army destroyed?"
+          }
         },
         {
-          "text": "संजय उवाच"
+          "text": "संजय उवाच",
+          "meaning": {
+            "en": "Sanjaya said:"
+          }
         },
         {
           "n": 21,
-          "text": "रथानां द्वे सहस्रे तु सप्त नागशतानि च ।\nपञ्च चाश्वसहस्राणि पत्तीनां च शतं शताः ॥"
+          "text": "रथानां द्वे सहस्रे तु सप्त नागशतानि च ।\nपञ्च चाश्वसहस्राणि पत्तीनां च शतं शताः ॥",
+          "meaning": {
+            "en": "Two thousand chariots, seven hundred elephants, five thousand horses and a hundred hundreds of foot soldiers:"
+          }
         },
         {
           "n": 22,
-          "text": "एतच्छेषमभूद्राजन्पाण्डवानां महद्बलम् ।\nपरिगृह्य हि यद्युद्धे धृष्टद्युम्नो व्यवस्थितः ॥"
+          "text": "एतच्छेषमभूद्राजन्पाण्डवानां महद्बलम् ।\nपरिगृह्य हि यद्युद्धे धृष्टद्युम्नो व्यवस्थितः ॥",
+          "meaning": {
+            "en": "this was all that remained of the Pandavas' great force, which Dhrishtadyumna took and stood with in the battle."
+          }
         },
         {
           "n": 23,
-          "text": "एकाकी भरतश्रेष्ठ ततो दुर्योधनो नृपः ।\nनापश्यत्समरे कंचित्सहायं रथिनां वरः ॥"
+          "text": "एकाकी भरतश्रेष्ठ ततो दुर्योधनो नृपः ।\nनापश्यत्समरे कंचित्सहायं रथिनां वरः ॥",
+          "meaning": {
+            "en": "Then King Duryodhana, O best of the Bharatas, that best of chariot-fighters, saw no companion at all in the battle, alone as he was."
+          }
         },
         {
           "n": 24,
-          "text": "नर्दमानान्परांश्चैव स्वबलस्य च संक्षयम् ।\nहतं स्वहयमुत्सृज्य प्राङ्मुखः प्राद्रवद्भयात् ॥"
+          "text": "नर्दमानान्परांश्चैव स्वबलस्य च संक्षयम् ।\nहतं स्वहयमुत्सृज्य प्राङ्मुखः प्राद्रवद्भयात् ॥",
+          "meaning": {
+            "en": "Seeing the enemies roaring and his own force destroyed, he abandoned his dead horse and fled in fear, facing east."
+          }
         },
         {
           "n": 25,
-          "text": "एकादशचमूभर्ता पुत्रो दुर्योधनस्तव ।\nगदामादाय तेजस्वी पदातिः प्रस्थितो ह्रदम् ॥"
+          "text": "एकादशचमूभर्ता पुत्रो दुर्योधनस्तव ।\nगदामादाय तेजस्वी पदातिः प्रस्थितो ह्रदम् ॥",
+          "meaning": {
+            "en": "Your son Duryodhana, who had commanded eleven armies, took up his mace and, radiant, set out on foot for a lake."
+          }
         },
         {
           "n": 26,
-          "text": "नातिदूरं ततो गत्वा पद्भ्यामेव नराधिपः ।\nसस्मार वचनं क्षत्तुर्धर्मशीलस्य धीमतः ॥"
+          "text": "नातिदूरं ततो गत्वा पद्भ्यामेव नराधिपः ।\nसस्मार वचनं क्षत्तुर्धर्मशीलस्य धीमतः ॥",
+          "meaning": {
+            "en": "Having gone not far on foot, the king remembered the words of Kshattri, wise and devoted to dharma."
+          }
         },
         {
           "n": 27,
-          "text": "इदं नूनं महाप्राज्ञो विदुरो दृष्टवान्पुरा ।\nमहद्वैशसमस्माकं क्षत्रियाणां च संयुगे ॥"
+          "text": "इदं नूनं महाप्राज्ञो विदुरो दृष्टवान्पुरा ।\nमहद्वैशसमस्माकं क्षत्रियाणां च संयुगे ॥",
+          "meaning": {
+            "en": "\"Surely the greatly wise Vidura foresaw this long ago: a great slaughter in battle for us and for the kshatriyas.\""
+          }
         },
         {
           "n": 28,
-          "text": "एवं विचिन्तयानस्तु प्रविविक्षुर्ह्रदं नृपः ।\nदुःखसंतप्तहृदयो दृष्ट्वा राजन्बलक्षयम् ॥"
+          "text": "एवं विचिन्तयानस्तु प्रविविक्षुर्ह्रदं नृपः ।\nदुःखसंतप्तहृदयो दृष्ट्वा राजन्बलक्षयम् ॥",
+          "meaning": {
+            "en": "Thinking so, the king, wishing to enter the lake, his heart burning with grief at the destruction of his force, O king,"
+          }
         },
         {
           "n": 29,
-          "text": "पाण्डवाश्च महाराज धृष्टद्युम्नपुरोगमाः ।\nअभ्यधावन्त संक्रुद्धास्तव राजन्बलं प्रति ॥"
+          "text": "पाण्डवाश्च महाराज धृष्टद्युम्नपुरोगमाः ।\nअभ्यधावन्त संक्रुद्धास्तव राजन्बलं प्रति ॥",
+          "meaning": {
+            "en": "while the Pandavas, O great king, with Dhrishtadyumna at their head, enraged, ran at your force, O king."
+          }
         },
         {
           "n": 30,
-          "text": "शक्त्यृष्टिप्रासहस्तानां बलानामभिगर्जताम् ।\nसंकल्पमकरोन्मोघं गाण्डीवेन धनंजयः ॥"
+          "text": "शक्त्यृष्टिप्रासहस्तानां बलानामभिगर्जताम् ।\nसंकल्पमकरोन्मोघं गाण्डीवेन धनंजयः ॥",
+          "meaning": {
+            "en": "Against those who roared, holding spears, darts and lances, Dhananjaya made their intent fruitless with the Gandiva."
+          }
         },
         {
           "n": 31,
-          "text": "तान्हत्वा निशितैर्बाणैः सामात्यान्सह बन्धुभिः ।\nरथे श्वेतहये तिष्ठन्नर्जुनो बह्वशोभत ॥"
+          "text": "तान्हत्वा निशितैर्बाणैः सामात्यान्सह बन्धुभिः ।\nरथे श्वेतहये तिष्ठन्नर्जुनो बह्वशोभत ॥",
+          "meaning": {
+            "en": "Having killed them with sharp arrows, with their counselors and kinsmen, Arjuna, standing in his chariot with white horses, shone greatly."
+          }
         },
         {
           "n": 32,
-          "text": "सुबलस्य हते पुत्रे सवाजिरथकुञ्जरे ।\nमहावनमिव छिन्नमभवत्तावकं बलम् ॥"
+          "text": "सुबलस्य हते पुत्रे सवाजिरथकुञ्जरे ।\nमहावनमिव छिन्नमभवत्तावकं बलम् ॥",
+          "meaning": {
+            "en": "When Subala's son was killed together with his horses, chariot and elephants, your force became like a great forest cut down."
+          }
         },
         {
           "n": 33,
-          "text": "अनेकशतसाहस्रे बले दुर्योधनस्य ह ।\nनान्यो महारथो राजञ्जीवमानो व्यदृश्यत ॥"
+          "text": "अनेकशतसाहस्रे बले दुर्योधनस्य ह ।\nनान्यो महारथो राजञ्जीवमानो व्यदृश्यत ॥",
+          "meaning": {
+            "en": "In the force of Duryodhana, of many hundreds of thousands, no other great chariot-fighter, O king, was seen alive"
+          }
         },
         {
           "n": 34,
-          "text": "द्रोणपुत्रादृते वीरात्तथैव कृतवर्मणः ।\nकृपाच्च गौतमाद्राजन्पार्थिवाच्च तवात्मजात् ॥"
+          "text": "द्रोणपुत्रादृते वीरात्तथैव कृतवर्मणः ।\nकृपाच्च गौतमाद्राजन्पार्थिवाच्च तवात्मजात् ॥",
+          "meaning": {
+            "en": "except Drona's heroic son, Kritavarman, Kripa the Gautama, and your own son the king."
+          }
         },
         {
           "n": 35,
-          "text": "धृष्टद्युम्नस्तु मां दृष्ट्वा हसन्सात्यकिमब्रवीत् ।\nकिमनेन गृहीतेन नानेनार्थोऽस्ति जीवता ॥"
+          "text": "धृष्टद्युम्नस्तु मां दृष्ट्वा हसन्सात्यकिमब्रवीत् ।\nकिमनेन गृहीतेन नानेनार्थोऽस्ति जीवता ॥",
+          "meaning": {
+            "en": "Dhrishtadyumna, seeing me, said laughing to Satyaki: \"What use is it to have taken this one? There is no purpose in his being alive.\""
+          }
         },
         {
           "n": 36,
-          "text": "धृष्टद्युम्नवचः श्रुत्वा शिनेर्नप्ता महारथः ।\nउद्यम्य निशितं खड्गं हन्तुं मामुद्यतस्तदा ॥"
+          "text": "धृष्टद्युम्नवचः श्रुत्वा शिनेर्नप्ता महारथः ।\nउद्यम्य निशितं खड्गं हन्तुं मामुद्यतस्तदा ॥",
+          "meaning": {
+            "en": "Hearing Dhrishtadyumna's words, the great chariot-fighter, grandson of Shini, raised a sharp sword to kill me."
+          }
         },
         {
           "n": 37,
-          "text": "तमागम्य महाप्राज्ञः कृष्णद्वैपायनोऽब्रवीत् ।\nमुच्यतां संजयो जीवन्न हन्तव्यः कथंचन ॥"
+          "text": "तमागम्य महाप्राज्ञः कृष्णद्वैपायनोऽब्रवीत् ।\nमुच्यतां संजयो जीवन्न हन्तव्यः कथंचन ॥",
+          "meaning": {
+            "en": "Then the greatly wise Krishna Dvaipayana came up to him and said: \"Let Sanjaya go; he is not to be killed in any way.\""
+          }
         },
         {
           "n": 38,
-          "text": "द्वैपायनवचः श्रुत्वा शिनेर्नप्ता कृताञ्जलिः ।\nततो मामब्रवीन्मुक्त्वा स्वस्ति संजय साधय ॥"
+          "text": "द्वैपायनवचः श्रुत्वा शिनेर्नप्ता कृताञ्जलिः ।\nततो मामब्रवीन्मुक्त्वा स्वस्ति संजय साधय ॥",
+          "meaning": {
+            "en": "Hearing Dvaipayana's words, the grandson of Shini, hands folded, released me and said, \"Go in peace, Sanjaya, and see to your affairs.\""
+          }
         },
         {
           "n": 39,
-          "text": "अनुज्ञातस्त्वहं तेन न्यस्तवर्मा निरायुधः ।\nप्रातिष्ठं येन नगरं सायाह्ने रुधिरोक्षितः ॥"
+          "text": "अनुज्ञातस्त्वहं तेन न्यस्तवर्मा निरायुधः ।\nप्रातिष्ठं येन नगरं सायाह्ने रुधिरोक्षितः ॥",
+          "meaning": {
+            "en": "Permitted by him, I set out for the city in the evening, my armor laid down, without weapons and smeared with blood."
+          }
         },
         {
           "n": 40,
-          "text": "क्रोशमात्रमपक्रान्तं गदापाणिमवस्थितम् ।\nएकं दुर्योधनं राजन्नपश्यं भृशविक्षतम् ॥"
+          "text": "क्रोशमात्रमपक्रान्तं गदापाणिमवस्थितम् ।\nएकं दुर्योधनं राजन्नपश्यं भृशविक्षतम् ॥",
+          "meaning": {
+            "en": "About a krosha away, O king, I saw Duryodhana alone, badly wounded, standing with mace in hand."
+          }
         },
         {
           "n": 41,
-          "text": "स तु मामश्रुपूर्णाक्षो नाशक्नोदभिवीक्षितुम् ।\nउपप्रैक्षत मां दृष्ट्वा तदा दीनमवस्थितम् ॥"
+          "text": "स तु मामश्रुपूर्णाक्षो नाशक्नोदभिवीक्षितुम् ।\nउपप्रैक्षत मां दृष्ट्वा तदा दीनमवस्थितम् ॥",
+          "meaning": {
+            "en": "With eyes full of tears, he could not look at me; he only glanced at me, seeing me standing there in distress."
+          }
         },
         {
           "n": 42,
-          "text": "तं चाहमपि शोचन्तं दृष्ट्वैकाकिनमाहवे ।\nमुहूर्तं नाशकं वक्तुं किंचिद्दुःखपरिप्लुतः ॥"
+          "text": "तं चाहमपि शोचन्तं दृष्ट्वैकाकिनमाहवे ।\nमुहूर्तं नाशकं वक्तुं किंचिद्दुःखपरिप्लुतः ॥",
+          "meaning": {
+            "en": "And I, seeing him grieving alone after the battle, was overwhelmed with sorrow and could say nothing for a moment."
+          }
         },
         {
           "n": 43,
-          "text": "ततोऽस्मै तदहं सर्वमुक्तवान्ग्रहणं तदा ।\nद्वैपायनप्रसादाच्च जीवतो मोक्षमाहवे ॥"
+          "text": "ततोऽस्मै तदहं सर्वमुक्तवान्ग्रहणं तदा ।\nद्वैपायनप्रसादाच्च जीवतो मोक्षमाहवे ॥",
+          "meaning": {
+            "en": "Then I told him everything: my capture, and my release from the battle alive by Dvaipayana's grace."
+          }
         },
         {
           "n": 44,
-          "text": "मुहूर्तमिव च ध्यात्वा प्रतिलभ्य च चेतनाम् ।\nभ्रातॄंश्च सर्वसैन्यानि पर्यपृच्छत मां ततः ॥"
+          "text": "मुहूर्तमिव च ध्यात्वा प्रतिलभ्य च चेतनाम् ।\nभ्रातॄंश्च सर्वसैन्यानि पर्यपृच्छत मां ततः ॥",
+          "meaning": {
+            "en": "After thinking for a moment and regaining his senses, he asked me about his brothers and all the armies."
+          }
         },
         {
           "n": 45,
-          "text": "तस्मै तदहमाचक्षं सर्वं प्रत्यक्षदर्शिवान् ।\nभ्रातॄंश्च निहतान्सर्वान्सैन्यं च विनिपातितम् ॥"
+          "text": "तस्मै तदहमाचक्षं सर्वं प्रत्यक्षदर्शिवान् ।\nभ्रातॄंश्च निहतान्सर्वान्सैन्यं च विनिपातितम् ॥",
+          "meaning": {
+            "en": "I told him everything, as an eyewitness: that all his brothers were killed and his army struck down."
+          }
         },
         {
           "n": 46,
-          "text": "त्रयः किल रथाः शिष्टास्तावकानां नराधिप ।\nइति प्रस्थानकाले मां कृष्णद्वैपायनोऽब्रवीत् ॥"
+          "text": "त्रयः किल रथाः शिष्टास्तावकानां नराधिप ।\nइति प्रस्थानकाले मां कृष्णद्वैपायनोऽब्रवीत् ॥",
+          "meaning": {
+            "en": "\"Only three of your chariot-fighters remain, O lord of men,\" Krishna Dvaipayana told me as I was leaving."
+          }
         },
         {
           "n": 47,
-          "text": "स दीर्घमिव निःश्वस्य विप्रेक्ष्य च पुनः पुनः ।\nअंसे मां पाणिना स्पृष्ट्वा पुत्रस्ते पर्यभाषत ॥"
+          "text": "स दीर्घमिव निःश्वस्य विप्रेक्ष्य च पुनः पुनः ।\nअंसे मां पाणिना स्पृष्ट्वा पुत्रस्ते पर्यभाषत ॥",
+          "meaning": {
+            "en": "Your son, sighing deeply as it were and looking at me again and again, touched my shoulder with his hand and said:"
+          }
         },
         {
           "n": 48,
-          "text": "त्वदन्यो नेह संग्रामे कश्चिज्जीवति संजय ।\nद्वितीयं नेह पश्यामि ससहायाश्च पाण्डवाः ॥"
+          "text": "त्वदन्यो नेह संग्रामे कश्चिज्जीवति संजय ।\nद्वितीयं नेह पश्यामि ससहायाश्च पाण्डवाः ॥",
+          "meaning": {
+            "en": "\"No one but you is alive here in this battle, Sanjaya; I see no second one here, while the Pandavas have their allies."
+          }
         },
         {
           "n": 49,
-          "text": "ब्रूयाः संजय राजानं प्रज्ञाचक्षुषमीश्वरम् ।\nदुर्योधनस्तव सुतः प्रविष्टो ह्रदमित्युत ॥"
+          "text": "ब्रूयाः संजय राजानं प्रज्ञाचक्षुषमीश्वरम् ।\nदुर्योधनस्तव सुतः प्रविष्टो ह्रदमित्युत ॥",
+          "meaning": {
+            "en": "Tell the king with the eye of wisdom, the lord, Sanjaya: 'Your son Duryodhana has entered a lake.'"
+          }
         },
         {
           "n": 50,
-          "text": "सुहृद्भिस्तादृशैर्हीनः पुत्रैर्भ्रातृभिरेव च ।\nपाण्डवैश्च हृते राज्ये को नु जीवति मादृशः ॥"
+          "text": "सुहृद्भिस्तादृशैर्हीनः पुत्रैर्भ्रातृभिरेव च ।\nपाण्डवैश्च हृते राज्ये को नु जीवति मादृशः ॥",
+          "meaning": {
+            "en": "Bereft of such friends, of sons and of brothers, and with the kingdom taken by the Pandavas, who like me would go on living?"
+          }
         },
         {
           "n": 51,
-          "text": "आचक्षेथाः सर्वमिदं मां च मुक्तं महाहवात् ।\nअस्मिंस्तोयह्रदे सुप्तं जीवन्तं भृशविक्षतम् ॥"
+          "text": "आचक्षेथाः सर्वमिदं मां च मुक्तं महाहवात् ।\nअस्मिंस्तोयह्रदे सुप्तं जीवन्तं भृशविक्षतम् ॥",
+          "meaning": {
+            "en": "Tell all this, and that I escaped the great battle and lie in this pool of water, alive, badly wounded.\""
+          }
         },
         {
           "n": 52,
-          "text": "एवमुक्त्वा महाराज प्राविशत्तं ह्रदं नृपः ।\nअस्तम्भयत तोयं च मायया मनुजाधिपः ॥"
+          "text": "एवमुक्त्वा महाराज प्राविशत्तं ह्रदं नृपः ।\nअस्तम्भयत तोयं च मायया मनुजाधिपः ॥",
+          "meaning": {
+            "en": "Having said this, O great king, the king entered that lake, and the lord of men stilled its water by his power of illusion."
+          }
         },
         {
           "n": 53,
-          "text": "तस्मिन्ह्रदं प्रविष्टे तु त्रीन्रथाञ्श्रान्तवाहनान् ।\nअपश्यं सहितानेकस्तं देशं समुपेयुषः ॥"
+          "text": "तस्मिन्ह्रदं प्रविष्टे तु त्रीन्रथाञ्श्रान्तवाहनान् ।\nअपश्यं सहितानेकस्तं देशं समुपेयुषः ॥",
+          "meaning": {
+            "en": "When he had entered the lake, I saw three chariot-fighters with weary mounts, together, approaching that place."
+          }
         },
         {
           "n": 54,
-          "text": "कृपं शारद्वतं वीरं द्रौणिं च रथिनां वरम् ।\nभोजं च कृतवर्माणं सहिताञ्शरविक्षतान् ॥"
+          "text": "कृपं शारद्वतं वीरं द्रौणिं च रथिनां वरम् ।\nभोजं च कृतवर्माणं सहिताञ्शरविक्षतान् ॥",
+          "meaning": {
+            "en": "They were the hero Kripa, son of Sharadvat, Drona's son, best of chariot-fighters, and Kritavarman of the Bhojas, together and wounded by arrows."
+          }
         },
         {
           "n": 55,
-          "text": "ते सर्वे मामभिप्रेक्ष्य तूर्णमश्वानचोदयन् ।\nउपयाय च मामूचुर्दिष्ट्या जीवसि संजय ॥"
+          "text": "ते सर्वे मामभिप्रेक्ष्य तूर्णमश्वानचोदयन् ।\nउपयाय च मामूचुर्दिष्ट्या जीवसि संजय ॥",
+          "meaning": {
+            "en": "All of them, seeing me, quickly urged their horses on, came up to me and said, \"By good fortune you live, Sanjaya.\""
+          }
         },
         {
           "n": 56,
-          "text": "अपृच्छंश्चैव मां सर्वे पुत्रं तव जनाधिपम् ।\nकच्चिद्दुर्योधनो राजा स नो जीवति संजय ॥"
+          "text": "अपृच्छंश्चैव मां सर्वे पुत्रं तव जनाधिपम् ।\nकच्चिद्दुर्योधनो राजा स नो जीवति संजय ॥",
+          "meaning": {
+            "en": "And all of them asked me about your son the king: \"Is Duryodhana, our king, alive, Sanjaya?\""
+          }
         },
         {
           "n": 57,
-          "text": "आख्यातवानहं तेभ्यस्तदा कुशलिनं नृपम् ।\nतच्चैव सर्वमाचक्षं यन्मां दुर्योधनोऽब्रवीत् ।\nह्रदं चैवाहमाचष्ट यं प्रविष्टो नराधिपः ॥"
+          "text": "आख्यातवानहं तेभ्यस्तदा कुशलिनं नृपम् ।\nतच्चैव सर्वमाचक्षं यन्मां दुर्योधनोऽब्रवीत् ।\nह्रदं चैवाहमाचष्ट यं प्रविष्टो नराधिपः ॥",
+          "meaning": {
+            "en": "I told them then that the king was well, and I told them all that Duryodhana had said to me, and the lake he had entered."
+          }
         },
         {
           "n": 58,
-          "text": "अश्वत्थामा तु तद्राजन्निशम्य वचनं मम ।\nतं ह्रदं विपुलं प्रेक्ष्य करुणं पर्यदेवयत् ॥"
+          "text": "अश्वत्थामा तु तद्राजन्निशम्य वचनं मम ।\nतं ह्रदं विपुलं प्रेक्ष्य करुणं पर्यदेवयत् ॥",
+          "meaning": {
+            "en": "Hearing my words, O king, Ashvatthama looked at that wide lake and lamented piteously:"
+          }
         },
         {
           "n": 59,
-          "text": "अहो धिङ्न स जानाति जीवतोऽस्मान्नराधिपः ।\nपर्याप्ता हि वयं तेन सह योधयितुं परान् ॥"
+          "text": "अहो धिङ्न स जानाति जीवतोऽस्मान्नराधिपः ।\nपर्याप्ता हि वयं तेन सह योधयितुं परान् ॥",
+          "meaning": {
+            "en": "\"Ah, shame! The king does not know we are alive. Together with him we are enough to fight the enemy.\""
+          }
         },
         {
           "n": 60,
-          "text": "ते तु तत्र चिरं कालं विलप्य च महारथाः ।\nप्राद्रवन्रथिनां श्रेष्ठा दृष्ट्वा पाण्डुसुतान्रणे ॥"
+          "text": "ते तु तत्र चिरं कालं विलप्य च महारथाः ।\nप्राद्रवन्रथिनां श्रेष्ठा दृष्ट्वा पाण्डुसुतान्रणे ॥",
+          "meaning": {
+            "en": "Those great chariot-fighters, best of chariot-fighters, having lamented there for a long time, fled on seeing the sons of Pandu in the battle."
+          }
         },
         {
           "n": 61,
-          "text": "ते तु मां रथमारोप्य कृपस्य सुपरिष्कृतम् ।\nसेनानिवेशमाजग्मुर्हतशेषास्त्रयो रथाः ॥"
+          "text": "ते तु मां रथमारोप्य कृपस्य सुपरिष्कृतम् ।\nसेनानिवेशमाजग्मुर्हतशेषास्त्रयो रथाः ॥",
+          "meaning": {
+            "en": "The three surviving chariot-fighters put me in Kripa's well-furnished chariot and came to the army camp."
+          }
         },
         {
           "n": 62,
-          "text": "तत्र गुल्माः परित्रस्ताः सूर्ये चास्तमिते सति ।\nसर्वे विचुक्रुशुः श्रुत्वा पुत्राणां तव संक्षयम् ॥"
+          "text": "तत्र गुल्माः परित्रस्ताः सूर्ये चास्तमिते सति ।\nसर्वे विचुक्रुशुः श्रुत्वा पुत्राणां तव संक्षयम् ॥",
+          "meaning": {
+            "en": "There, as the sun set, the troops in the camp, terrified, all cried out on hearing of the destruction of your sons."
+          }
         },
         {
           "n": 63,
-          "text": "ततो वृद्धा महाराज योषितां रक्षणो नराः ।\nराजदारानुपादाय प्रययुर्नगरं प्रति ॥"
+          "text": "ततो वृद्धा महाराज योषितां रक्षणो नराः ।\nराजदारानुपादाय प्रययुर्नगरं प्रति ॥",
+          "meaning": {
+            "en": "Then old men, guardians of the women, took the king's wives, O great king, and set out for the city."
+          }
         },
         {
           "n": 64,
-          "text": "तत्र विक्रोशतीनां च रुदतीनां च सर्वशः ।\nप्रादुरासीन्महाञ्शब्दः श्रुत्वा तद्बलसंक्षयम् ॥"
+          "text": "तत्र विक्रोशतीनां च रुदतीनां च सर्वशः ।\nप्रादुरासीन्महाञ्शब्दः श्रुत्वा तद्बलसंक्षयम् ॥",
+          "meaning": {
+            "en": "A great sound arose there from the women, crying out and weeping on every side, on hearing the destruction of that force."
+          }
         },
         {
           "n": 65,
-          "text": "ततस्ता योषितो राजन्क्रन्दन्त्यो वै मुहुर्मुहुः ।\nकुरर्य इव शब्देन नादयन्त्यो महीतलम् ॥"
+          "text": "ततस्ता योषितो राजन्क्रन्दन्त्यो वै मुहुर्मुहुः ।\nकुरर्य इव शब्देन नादयन्त्यो महीतलम् ॥",
+          "meaning": {
+            "en": "Those women, wailing again and again, O king, made the ground resound with cries like ospreys."
+          }
         },
         {
           "n": 66,
-          "text": "आजघ्नुः करजैश्चापि पाणिभिश्च शिरांस्युत ।\nलुलुवुश्च तदा केशान्क्रोशन्त्यस्तत्र तत्र ह ॥"
+          "text": "आजघ्नुः करजैश्चापि पाणिभिश्च शिरांस्युत ।\nलुलुवुश्च तदा केशान्क्रोशन्त्यस्तत्र तत्र ह ॥",
+          "meaning": {
+            "en": "They struck their heads with their nails and hands, and tore out their hair, crying out here and there."
+          }
         },
         {
           "n": 67,
-          "text": "हाहाकारविनादिन्यो विनिघ्नन्त्य उरांसि च ।\nक्रोशन्त्यस्तत्र रुरुदुः क्रन्दमाना विशां पते ॥"
+          "text": "हाहाकारविनादिन्यो विनिघ्नन्त्य उरांसि च ।\nक्रोशन्त्यस्तत्र रुरुदुः क्रन्दमाना विशां पते ॥",
+          "meaning": {
+            "en": "Wailing \"Alas, alas!\" and beating their breasts, they cried and wept, O lord of the people."
+          }
         },
         {
           "n": 68,
-          "text": "ततो दुर्योधनामात्याः साश्रुकण्ठा भृशातुराः ।\nराजदारानुपादाय प्रययुर्नगरं प्रति ॥"
+          "text": "ततो दुर्योधनामात्याः साश्रुकण्ठा भृशातुराः ।\nराजदारानुपादाय प्रययुर्नगरं प्रति ॥",
+          "meaning": {
+            "en": "Then Duryodhana's counselors, their throats choked with tears and in deep distress, took the king's wives and set out for the city."
+          }
         },
         {
           "n": 69,
-          "text": "वेत्रजर्झरहस्ताश्च द्वाराध्यक्षा विशां पते ।\nशयनीयानि शुभ्राणि स्पर्ध्यास्तरणवन्ति च ।\nसमादाय ययुस्तूर्णं नगरं दाररक्षिणः ॥"
+          "text": "वेत्रजर्झरहस्ताश्च द्वाराध्यक्षा विशां पते ।\nशयनीयानि शुभ्राणि स्पर्ध्यास्तरणवन्ति च ।\nसमादाय ययुस्तूर्णं नगरं दाररक्षिणः ॥",
+          "meaning": {
+            "en": "Doorkeepers with canes and staffs in hand, O lord of the people, took bright couches and rich spreads and quickly went to the city, guarding the women."
+          }
         },
         {
           "n": 70,
-          "text": "आस्थायाश्वतरीयुक्तान्स्यन्दनानपरे जनाः ।\nस्वान्स्वान्दारानुपादाय प्रययुर्नगरं प्रति ॥"
+          "text": "आस्थायाश्वतरीयुक्तान्स्यन्दनानपरे जनाः ।\nस्वान्स्वान्दारानुपादाय प्रययुर्नगरं प्रति ॥",
+          "meaning": {
+            "en": "Others mounted chariots yoked with mules, took their own wives and went toward the city."
+          }
         },
         {
           "n": 71,
-          "text": "अदृष्टपूर्वा या नार्यो भास्करेणापि वेश्मसु ।\nददृशुस्ता महाराज जना यान्तीः पुरं प्रति ॥"
+          "text": "अदृष्टपूर्वा या नार्यो भास्करेणापि वेश्मसु ।\nददृशुस्ता महाराज जना यान्तीः पुरं प्रति ॥",
+          "meaning": {
+            "en": "Women who had never been seen even by the sun in their houses were seen by people as they went to the city."
+          }
         },
         {
           "n": 72,
-          "text": "ताः स्त्रियो भरतश्रेष्ठ सौकुमार्यसमन्विताः ।\nप्रययुर्नगरं तूर्णं हतस्वजनबान्धवाः ॥"
+          "text": "ताः स्त्रियो भरतश्रेष्ठ सौकुमार्यसमन्विताः ।\nप्रययुर्नगरं तूर्णं हतस्वजनबान्धवाः ॥",
+          "meaning": {
+            "en": "Those delicate women, O best of the Bharatas, their kinsmen and relatives slain, went quickly to the city."
+          }
         },
         {
           "n": 73,
-          "text": "आ गोपालाविपालेभ्यो द्रवन्तो नगरं प्रति ।\nययुर्मनुष्याः संभ्रान्ता भीमसेनभयार्दिताः ॥"
+          "text": "आ गोपालाविपालेभ्यो द्रवन्तो नगरं प्रति ।\nययुर्मनुष्याः संभ्रान्ता भीमसेनभयार्दिताः ॥",
+          "meaning": {
+            "en": "Men, from cowherds and shepherds on up, ran toward the city in confusion, tormented by fear of Bhimasena."
+          }
         },
         {
           "n": 74,
-          "text": "अपि चैषां भयं तीव्रं पार्थेभ्योऽभूत्सुदारुणम् ।\nप्रेक्षमाणास्तदान्योन्यमाधावन्नगरं प्रति ॥"
+          "text": "अपि चैषां भयं तीव्रं पार्थेभ्योऽभूत्सुदारुणम् ।\nप्रेक्षमाणास्तदान्योन्यमाधावन्नगरं प्रति ॥",
+          "meaning": {
+            "en": "They also had a dreadful, intense fear of the Parthas, and looking at one another they ran toward the city."
+          }
         },
         {
           "n": 75,
-          "text": "तस्मिंस्तदा वर्तमाने विद्रवे भृशदारुणे ।\nयुयुत्सुः शोकसंमूढः प्राप्तकालमचिन्तयत् ॥"
+          "text": "तस्मिंस्तदा वर्तमाने विद्रवे भृशदारुणे ।\nयुयुत्सुः शोकसंमूढः प्राप्तकालमचिन्तयत् ॥",
+          "meaning": {
+            "en": "While that terrible flight went on, Yuyutsu, bewildered by sorrow, thought about what the time required:"
+          }
         },
         {
           "n": 76,
-          "text": "जितो दुर्योधनः संख्ये पाण्डवैर्भीमविक्रमैः ।\nएकादशचमूभर्ता भ्रातरश्चास्य सूदिताः ।\nहताश्च कुरवः सर्वे भीष्मद्रोणपुरःसराः ॥"
+          "text": "जितो दुर्योधनः संख्ये पाण्डवैर्भीमविक्रमैः ।\nएकादशचमूभर्ता भ्रातरश्चास्य सूदिताः ।\nहताश्च कुरवः सर्वे भीष्मद्रोणपुरःसराः ॥",
+          "meaning": {
+            "en": "\"Duryodhana has been beaten in battle by the Pandavas of fearsome valor, he who commanded eleven armies; his brothers have been slain, and all the Kurus, with Bhishma and Drona at their head, are dead."
+          }
         },
         {
           "n": 77,
-          "text": "अहमेको विमुक्तस्तु भाग्ययोगाद्यदृच्छया ।\nविद्रुतानि च सर्वाणि शिबिराणि समन्ततः ॥"
+          "text": "अहमेको विमुक्तस्तु भाग्ययोगाद्यदृच्छया ।\nविद्रुतानि च सर्वाणि शिबिराणि समन्ततः ॥",
+          "meaning": {
+            "en": "I alone have been spared, by good fortune and chance. All the camps have fled on every side."
+          }
         },
         {
           "n": 78,
-          "text": "दुर्योधनस्य सचिवा ये केचिदवशेषिताः ।\nराजदारानुपादाय व्यधावन्नगरं प्रति ॥"
+          "text": "दुर्योधनस्य सचिवा ये केचिदवशेषिताः ।\nराजदारानुपादाय व्यधावन्नगरं प्रति ॥",
+          "meaning": {
+            "en": "Whatever counselors of Duryodhana remain have taken the king's wives and run toward the city."
+          }
         },
         {
           "n": 79,
-          "text": "प्राप्तकालमहं मन्ये प्रवेशं तैः सहाभिभो ।\nयुधिष्ठिरमनुज्ञाप्य भीमसेनं तथैव च ॥"
+          "text": "प्राप्तकालमहं मन्ये प्रवेशं तैः सहाभिभो ।\nयुधिष्ठिरमनुज्ञाप्य भीमसेनं तथैव च ॥",
+          "meaning": {
+            "en": "I think the time has come, O lord, for me to enter with them, once Yudhishthira and Bhimasena have given leave.\""
+          }
         },
         {
           "n": 80,
-          "text": "एतमर्थं महाबाहुरुभयोः स न्यवेदयत् ।\nतस्य प्रीतोऽभवद्राजा नित्यं करुणवेदिता ।\nपरिष्वज्य महाबाहुर्वैश्यापुत्रं व्यसर्जयत् ॥"
+          "text": "एतमर्थं महाबाहुरुभयोः स न्यवेदयत् ।\nतस्य प्रीतोऽभवद्राजा नित्यं करुणवेदिता ।\nपरिष्वज्य महाबाहुर्वैश्यापुत्रं व्यसर्जयत् ॥",
+          "meaning": {
+            "en": "The strong-armed man reported this matter to them both. The king, ever compassionate, was pleased with him, and the strong-armed Yudhishthira embraced the Vaishya woman's son and let him go."
+          }
         },
         {
           "n": 81,
-          "text": "ततः स रथमास्थाय द्रुतमश्वानचोदयत् ।\nअसंभावितवांश्चापि राजदारान्पुरं प्रति ॥"
+          "text": "ततः स रथमास्थाय द्रुतमश्वानचोदयत् ।\nअसंभावितवांश्चापि राजदारान्पुरं प्रति ॥",
+          "meaning": {
+            "en": "Then he mounted his chariot and quickly urged on the horses, and escorted the royal women toward the city."
+          }
         },
         {
           "n": 82,
-          "text": "तैश्चैव सहितः क्षिप्रमस्तं गच्छति भास्करे ।\nप्रविष्टो हास्तिनपुरं बाष्पकण्ठोऽश्रुलोचनः ॥"
+          "text": "तैश्चैव सहितः क्षिप्रमस्तं गच्छति भास्करे ।\nप्रविष्टो हास्तिनपुरं बाष्पकण्ठोऽश्रुलोचनः ॥",
+          "meaning": {
+            "en": "With them, as the sun was setting, he quickly entered Hastinapura, his throat choked and his eyes full of tears."
+          }
         },
         {
           "n": 83,
-          "text": "अपश्यत महाप्राज्ञं विदुरं साश्रुलोचनम् ।\nराज्ञः समीपान्निष्क्रान्तं शोकोपहतचेतसम् ॥"
+          "text": "अपश्यत महाप्राज्ञं विदुरं साश्रुलोचनम् ।\nराज्ञः समीपान्निष्क्रान्तं शोकोपहतचेतसम् ॥",
+          "meaning": {
+            "en": "He saw the greatly wise Vidura, tears in his eyes and his mind struck by grief, coming out from the king's side."
+          }
         },
         {
           "n": 84,
-          "text": "तमब्रवीत्सत्यधृतिः प्रणतं त्वग्रतः स्थितम् ।\nअस्मिन्कुरुक्षये वृत्ते दिष्ट्या त्वं पुत्र जीवसि ॥"
+          "text": "तमब्रवीत्सत्यधृतिः प्रणतं त्वग्रतः स्थितम् ।\nअस्मिन्कुरुक्षये वृत्ते दिष्ट्या त्वं पुत्र जीवसि ॥",
+          "meaning": {
+            "en": "Vidura, firm in truth, said to him as he stood bowing in front: \"In this destruction of the Kurus, by good fortune you live, my son."
+          }
         },
         {
           "n": 85,
-          "text": "विना राज्ञः प्रवेशाद्वै किमसि त्वमिहागतः ।\nएतन्मे कारणं सर्वं विस्तरेण निवेदय ॥"
+          "text": "विना राज्ञः प्रवेशाद्वै किमसि त्वमिहागतः ।\nएतन्मे कारणं सर्वं विस्तरेण निवेदय ॥",
+          "meaning": {
+            "en": "Why have you come here, without the king having entered? Tell me all the reason in detail.\""
+          }
         },
         {
-          "text": "युयुत्सुरुवाच"
+          "text": "युयुत्सुरुवाच",
+          "meaning": {
+            "en": "Yuyutsu said:"
+          }
         },
         {
           "n": 86,
-          "text": "निहते शकुनौ तात सज्ञातिसुतबान्धवे ।\nहतशेषपरीवारो राजा दुर्योधनस्ततः ।\nस्वकं स हयमुत्सृज्य प्राङ्मुखः प्राद्रवद्भयात् ॥"
+          "text": "निहते शकुनौ तात सज्ञातिसुतबान्धवे ।\nहतशेषपरीवारो राजा दुर्योधनस्ततः ।\nस्वकं स हयमुत्सृज्य प्राङ्मुखः प्राद्रवद्भयात् ॥",
+          "meaning": {
+            "en": "\"When Shakuni was killed, father, with his kinsmen, sons and relatives, King Duryodhana, with his retinue reduced to a remnant, abandoned his own horse and fled in fear, facing east."
+          }
         },
         {
           "n": 87,
-          "text": "अपक्रान्ते तु नृपतौ स्कन्धावारनिवेशनात् ।\nभयव्याकुलितं सर्वं प्राद्रवन्नगरं प्रति ॥"
+          "text": "अपक्रान्ते तु नृपतौ स्कन्धावारनिवेशनात् ।\nभयव्याकुलितं सर्वं प्राद्रवन्नगरं प्रति ॥",
+          "meaning": {
+            "en": "When the king had gone from the camp, everyone, thrown into confusion by fear, fled toward the city."
+          }
         },
         {
           "n": 88,
-          "text": "ततो राज्ञः कलत्राणि भ्रातॄणां चास्य सर्वशः ।\nवाहनेषु समारोप्य स्त्र्यध्यक्षाः प्राद्रवन्भयात् ॥"
+          "text": "ततो राज्ञः कलत्राणि भ्रातॄणां चास्य सर्वशः ।\nवाहनेषु समारोप्य स्त्र्यध्यक्षाः प्राद्रवन्भयात् ॥",
+          "meaning": {
+            "en": "Then the women's overseers put the wives of the king and of his brothers on carriages and fled in fear."
+          }
         },
         {
           "n": 89,
-          "text": "ततोऽहं समनुज्ञाप्य राजानं सहकेशवम् ।\nप्रविष्टो हास्तिनपुरं रक्षँल्लोकाद्धि वाच्यताम् ॥"
+          "text": "ततोऽहं समनुज्ञाप्य राजानं सहकेशवम् ।\nप्रविष्टो हास्तिनपुरं रक्षँल्लोकाद्धि वाच्यताम् ॥",
+          "meaning": {
+            "en": "Then I took leave of the king and of Keshava and entered Hastinapura, guarding against the world's reproach.\""
+          }
         },
         {
           "n": 90,
-          "text": "एतच्छ्रुत्वा तु वचनं वैश्यापुत्रेण भाषितम् ।\nप्राप्तकालमिति ज्ञात्वा विदुरः सर्वधर्मवित् ।\nअपूजयदमेयात्मा युयुत्सुं वाक्यकोविदम् ॥"
+          "text": "एतच्छ्रुत्वा तु वचनं वैश्यापुत्रेण भाषितम् ।\nप्राप्तकालमिति ज्ञात्वा विदुरः सर्वधर्मवित् ।\nअपूजयदमेयात्मा युयुत्सुं वाक्यकोविदम् ॥",
+          "meaning": {
+            "en": "Hearing these words spoken by the Vaishya woman's son, and knowing the time had come, Vidura, knower of all dharma and of immeasurable spirit, praised Yuyutsu, skilled in speech."
+          }
         },
         {
           "n": 91,
-          "text": "प्राप्तकालमिदं सर्वं भवतो भरतक्षये ।\nअद्य त्वमिह विश्रान्तः श्वोऽभिगन्ता युधिष्ठिरम् ॥"
+          "text": "प्राप्तकालमिदं सर्वं भवतो भरतक्षये ।\nअद्य त्वमिह विश्रान्तः श्वोऽभिगन्ता युधिष्ठिरम् ॥",
+          "meaning": {
+            "en": "\"All this has come at the right time for you in this destruction of the Bharatas. Rest here today, and tomorrow you will go to Yudhishthira.\""
+          }
         },
         {
           "n": 92,
-          "text": "एतावदुक्त्वा वचनं विदुरः सर्वधर्मवित् ।\nयुयुत्सुं समनुज्ञाप्य प्रविवेश नृपक्षयम् ।\nयुयुत्सुरपि तां रात्रिं स्वगृहे न्यवसत्तदा ॥"
+          "text": "एतावदुक्त्वा वचनं विदुरः सर्वधर्मवित् ।\nयुयुत्सुं समनुज्ञाप्य प्रविवेश नृपक्षयम् ।\nयुयुत्सुरपि तां रात्रिं स्वगृहे न्यवसत्तदा ॥",
+          "meaning": {
+            "en": "Having said just this, Vidura, knower of all dharma, gave Yuyutsu leave and went into the king's house of grief; and Yuyutsu spent that night in his own house."
+          }
         }
       ]
     }

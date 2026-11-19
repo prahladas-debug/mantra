@@ -22,90 +22,156 @@
       "titleEn": "Jalapradanika Parva (The water offerings)",
       "verses": [
         {
-          "text": "धृतराष्ट्र उवाच"
+          "text": "धृतराष्ट्र उवाच",
+          "meaning": {
+            "en": "Dhritarashtra said:"
+          }
         },
         {
           "n": 1,
-          "text": "अहोऽभिहितमाख्यानं भवता तत्त्वदर्शिना ।\nभूय एव तु मे हर्षः श्रोतुं वागमृतं तव ॥"
+          "text": "अहोऽभिहितमाख्यानं भवता तत्त्वदर्शिना ।\nभूय एव तु मे हर्षः श्रोतुं वागमृतं तव ॥",
+          "meaning": {
+            "en": "Ah, what a tale you have told, seer of the truth! My delight in hearing the nectar of your words grows still more."
+          }
         },
         {
-          "text": "विदुर उवाच"
+          "text": "विदुर उवाच",
+          "meaning": {
+            "en": "Vidura said:"
+          }
         },
         {
           "n": 2,
-          "text": "शृणु भूयः प्रवक्ष्यामि मार्गस्यैतस्य विस्तरम् ।\nयच्छ्रुत्वा विप्रमुच्यन्ते संसारेभ्यो विचक्षणाः ॥"
+          "text": "शृणु भूयः प्रवक्ष्यामि मार्गस्यैतस्य विस्तरम् ।\nयच्छ्रुत्वा विप्रमुच्यन्ते संसारेभ्यो विचक्षणाः ॥",
+          "meaning": {
+            "en": "Listen again; I will describe this road more fully, hearing which the discerning are freed from the cycles of rebirth."
+          }
         },
         {
           "n": 3,
-          "text": "यथा तु पुरुषो राजन्दीर्घमध्वानमास्थितः ।\nक्वचित्क्वचिच्छ्रमात्स्थाता कुरुते वासमेव वा ॥"
+          "text": "यथा तु पुरुषो राजन्दीर्घमध्वानमास्थितः ।\nक्वचित्क्वचिच्छ्रमात्स्थाता कुरुते वासमेव वा ॥",
+          "meaning": {
+            "en": "As a man on a long road stops to rest or takes lodging here and there from weariness,"
+          }
         },
         {
           "n": 4,
-          "text": "एवं संसारपर्याये गर्भवासेषु भारत ।\nकुर्वन्ति दुर्बुधा वासं मुच्यन्ते तत्र पण्डिताः ॥"
+          "text": "एवं संसारपर्याये गर्भवासेषु भारत ।\nकुर्वन्ति दुर्बुधा वासं मुच्यन्ते तत्र पण्डिताः ॥",
+          "meaning": {
+            "en": "so in the revolution of samsara the foolish make their dwelling in one womb after another, descendant of Bharata, while the wise are freed there."
+          }
         },
         {
           "n": 5,
-          "text": "तस्मादध्वानमेवैतमाहुः शास्त्रविदो जनाः ।\nयत्तु संसारगहनं वनमाहुर्मनीषिणः ॥"
+          "text": "तस्मादध्वानमेवैतमाहुः शास्त्रविदो जनाः ।\nयत्तु संसारगहनं वनमाहुर्मनीषिणः ॥",
+          "meaning": {
+            "en": "Therefore those who know the scriptures call this a road, and what the thoughtful call the thicket of samsara is the forest."
+          }
         },
         {
           "n": 6,
-          "text": "सोऽयं लोकसमावर्तो मर्त्यानां भरतर्षभ ।\nचराणां स्थावराणां च गृध्येत्तत्र न पण्डितः ॥"
+          "text": "सोऽयं लोकसमावर्तो मर्त्यानां भरतर्षभ ।\nचराणां स्थावराणां च गृध्येत्तत्र न पण्डितः ॥",
+          "meaning": {
+            "en": "This is the whirl of the world of mortals, best of the Bharatas, among moving and unmoving things. A wise man would not cling to it."
+          }
         },
         {
           "n": 7,
-          "text": "शारीरा मानसाश्चैव मर्त्यानां ये तु व्याधयः ।\nप्रत्यक्षाश्च परोक्षाश्च ते व्यालाः कथिता बुधैः ॥"
+          "text": "शारीरा मानसाश्चैव मर्त्यानां ये तु व्याधयः ।\nप्रत्यक्षाश्च परोक्षाश्च ते व्यालाः कथिता बुधैः ॥",
+          "meaning": {
+            "en": "The diseases of mortals, bodily and mental, visible and invisible, are called the beasts by the wise."
+          }
         },
         {
           "n": 8,
-          "text": "क्लिश्यमानाश्च तैर्नित्यं हन्यमानाश्च भारत ।\nस्वकर्मभिर्महाव्यालैर्नोद्विजन्त्यल्पबुद्धयः ॥"
+          "text": "क्लिश्यमानाश्च तैर्नित्यं हन्यमानाश्च भारत ।\nस्वकर्मभिर्महाव्यालैर्नोद्विजन्त्यल्पबुद्धयः ॥",
+          "meaning": {
+            "en": "Constantly tormented and struck by these great beasts born of their own deeds, those of small understanding are still not alarmed."
+          }
         },
         {
           "n": 9,
-          "text": "अथापि तैर्विमुच्येत व्याधिभिः पुरुषो नृप ।\nआवृणोत्येव तं पश्चाज्जरा रूपविनाशिनी ॥"
+          "text": "अथापि तैर्विमुच्येत व्याधिभिः पुरुषो नृप ।\nआवृणोत्येव तं पश्चाज्जरा रूपविनाशिनी ॥",
+          "meaning": {
+            "en": "Even if a man is freed from those diseases, king, old age, destroyer of beauty, afterward covers him."
+          }
         },
         {
           "n": 10,
-          "text": "शब्दरूपरसस्पर्शैर्गन्धैश्च विविधैरपि ।\nमज्जमानं महापङ्के निरालम्बे समन्ततः ॥"
+          "text": "शब्दरूपरसस्पर्शैर्गन्धैश्च विविधैरपि ।\nमज्जमानं महापङ्के निरालम्बे समन्ततः ॥",
+          "meaning": {
+            "en": "He sinks on every side into a great mire with no support, made of sounds, forms, tastes, touches and the many smells."
+          }
         },
         {
           "n": 11,
-          "text": "संवत्सरर्तवो मासाः पक्षाहोरात्रसंधयः ।\nक्रमेणास्य प्रलुम्पन्ति रूपमायुस्तथैव च ॥"
+          "text": "संवत्सरर्तवो मासाः पक्षाहोरात्रसंधयः ।\nक्रमेणास्य प्रलुम्पन्ति रूपमायुस्तथैव च ॥",
+          "meaning": {
+            "en": "The years, seasons, months, fortnights, and the junctures of day and night in turn rob him of his beauty and his lifespan."
+          }
         },
         {
           "n": 12,
-          "text": "एते कालस्य निधयो नैताञ्जानन्ति दुर्बुधाः ।\nअत्राभिलिखितान्याहुः सर्वभूतानि कर्मणा ॥"
+          "text": "एते कालस्य निधयो नैताञ्जानन्ति दुर्बुधाः ।\nअत्राभिलिखितान्याहुः सर्वभूतानि कर्मणा ॥",
+          "meaning": {
+            "en": "These are the storehouses of Time, which the foolish do not know. All beings, they say, are inscribed here according to their deeds."
+          }
         },
         {
           "n": 13,
-          "text": "रथं शरीरं भूतानां सत्त्वमाहुस्तु सारथिम् ।\nइन्द्रियाणि हयानाहुः कर्म बुद्धिश्च रश्मयः ॥"
+          "text": "रथं शरीरं भूतानां सत्त्वमाहुस्तु सारथिम् ।\nइन्द्रियाणि हयानाहुः कर्म बुद्धिश्च रश्मयः ॥",
+          "meaning": {
+            "en": "They call the body the chariot of beings, the sattva the charioteer, the senses the horses, and action and intellect the reins."
+          }
         },
         {
           "n": 14,
-          "text": "तेषां हयानां यो वेगं धावतामनुधावति ।\nस तु संसारचक्रेऽस्मिंश्चक्रवत्परिवर्तते ॥"
+          "text": "तेषां हयानां यो वेगं धावतामनुधावति ।\nस तु संसारचक्रेऽस्मिंश्चक्रवत्परिवर्तते ॥",
+          "meaning": {
+            "en": "He who runs after the speed of those running horses turns round like a wheel on the wheel of samsara."
+          }
         },
         {
           "n": 15,
-          "text": "यस्तान्यमयते बुद्ध्या स यन्ता न निवर्तते ।\nयाम्यमाहू रथं ह्येनं मुह्यन्ते येन दुर्बुधाः ॥"
+          "text": "यस्तान्यमयते बुद्ध्या स यन्ता न निवर्तते ।\nयाम्यमाहू रथं ह्येनं मुह्यन्ते येन दुर्बुधाः ॥",
+          "meaning": {
+            "en": "He who holds them in check with his mind is the true driver and does not return. They call this chariot Yama's, by which the foolish are bewildered."
+          }
         },
         {
           "n": 16,
-          "text": "स चैतत्प्राप्नुते राजन्यत्त्वं प्राप्तो नराधिप ।\nराज्यनाशं सुहृन्नाशं सुतनाशं च भारत ॥"
+          "text": "स चैतत्प्राप्नुते राजन्यत्त्वं प्राप्तो नराधिप ।\nराज्यनाशं सुहृन्नाशं सुतनाशं च भारत ॥",
+          "meaning": {
+            "en": "Such a man meets what you have met, lord of men: the loss of the kingdom, the loss of friends, the loss of sons, descendant of Bharata."
+          }
         },
         {
           "n": 17,
-          "text": "अनुतर्षुलमेवैतद्दुःखं भवति भारत ।\nसाधुः परमदुःखानां दुःखभैषज्यमाचरेत् ॥"
+          "text": "अनुतर्षुलमेवैतद्दुःखं भवति भारत ।\nसाधुः परमदुःखानां दुःखभैषज्यमाचरेत् ॥",
+          "meaning": {
+            "en": "This sorrow is rooted in craving. A good man should apply the medicine for the sorest sorrows."
+          }
         },
         {
           "n": 18,
-          "text": "न विक्रमो न चाप्यर्थो न मित्रं न सुहृज्जनः ।\nतथोन्मोचयते दुःखाद्यथात्मा स्थिरसंयमः ॥"
+          "text": "न विक्रमो न चाप्यर्थो न मित्रं न सुहृज्जनः ।\nतथोन्मोचयते दुःखाद्यथात्मा स्थिरसंयमः ॥",
+          "meaning": {
+            "en": "Neither valor, nor wealth, nor friend, nor kinsman frees one from sorrow as a self steady in restraint does."
+          }
         },
         {
           "n": 19,
-          "text": "तस्मान्मैत्रं समास्थाय शीलमापद्य भारत ।\nदमस्त्यागोऽप्रमादश्च ते त्रयो ब्रह्मणो हयाः ॥"
+          "text": "तस्मान्मैत्रं समास्थाय शीलमापद्य भारत ।\nदमस्त्यागोऽप्रमादश्च ते त्रयो ब्रह्मणो हयाः ॥",
+          "meaning": {
+            "en": "Therefore, descendant of Bharata, adopt friendliness and good conduct. Self-control, renunciation and heedfulness are the three horses of Brahman."
+          }
         },
         {
           "n": 20,
-          "text": "शीलरश्मिसमायुक्ते स्थितो यो मानसे रथे ।\nत्यक्त्वा मृत्युभयं राजन्ब्रह्मलोकं स गच्छति ॥"
+          "text": "शीलरश्मिसमायुक्ते स्थितो यो मानसे रथे ।\nत्यक्त्वा मृत्युभयं राजन्ब्रह्मलोकं स गच्छति ॥",
+          "meaning": {
+            "en": "Whoever stands in the chariot of the mind, equipped with the reins of good conduct, casts off the fear of death, king, and goes to the world of Brahma."
+          }
         }
       ]
     }
