@@ -22,215 +22,374 @@
       "titleEn": "Mokshadharma Parva (Duties for liberation)",
       "verses": [
         {
-          "text": "भीष्म उवाच"
+          "text": "भीष्म उवाच",
+          "meaning": {
+            "en": "Bhishma said:"
+          }
         },
         {
           "n": 1,
-          "text": "इत्युक्तः स तदा तेन तुलाधारेण धीमता ।\nप्रोवाच वचनं धीमाञ्जाजलिर्जपतां वरः ॥"
+          "text": "इत्युक्तः स तदा तेन तुलाधारेण धीमता ।\nप्रोवाच वचनं धीमाञ्जाजलिर्जपतां वरः ॥",
+          "meaning": {
+            "en": "Addressed in this way by the wise Tuladhara, Jajali, best of those who mutter prayers, spoke to him."
+          }
         },
         {
           "n": 2,
-          "text": "विक्रीणानः सर्वरसान्सर्वगन्धांश्च वाणिज ।\nवनस्पतीनोषधीश्च तेषां मूलफलानि च ॥"
+          "text": "विक्रीणानः सर्वरसान्सर्वगन्धांश्च वाणिज ।\nवनस्पतीनोषधीश्च तेषां मूलफलानि च ॥",
+          "meaning": {
+            "en": "You are a merchant selling every kind of juice and perfume, plants and herbs, with their roots and fruits."
+          }
         },
         {
           "n": 3,
-          "text": "अध्यगा नैष्ठिकीं बुद्धिं कुतस्त्वामिदमागतम् ।\nएतदाचक्ष्व मे सर्वं निखिलेन महामते ॥"
+          "text": "अध्यगा नैष्ठिकीं बुद्धिं कुतस्त्वामिदमागतम् ।\nएतदाचक्ष्व मे सर्वं निखिलेन महामते ॥",
+          "meaning": {
+            "en": "Whence did you come by this settled, final wisdom? Tell me all of it fully, O man of great mind."
+          }
         },
         {
           "n": 4,
-          "text": "एवमुक्तस्तुलाधारो ब्राह्मणेन यशस्विना ।\nउवाच धर्मसूक्ष्माणि वैश्यो धर्मार्थतत्त्ववित् ।\nजाजलिं कष्टतपसं ज्ञानतृप्तस्तदा नृप ॥"
+          "text": "एवमुक्तस्तुलाधारो ब्राह्मणेन यशस्विना ।\nउवाच धर्मसूक्ष्माणि वैश्यो धर्मार्थतत्त्ववित् ।\nजाजलिं कष्टतपसं ज्ञानतृप्तस्तदा नृप ॥",
+          "meaning": {
+            "en": "Thus questioned by the renowned brahmin, the vaishya Tuladhara, who knew the truth of dharma and profit, spoke on the subtleties of dharma to Jajali, hard in austerity, O king, he being content with knowledge."
+          }
         },
         {
           "n": 5,
-          "text": "वेदाहं जाजले धर्मं सरहस्यं सनातनम् ।\nसर्वभूतहितं मैत्रं पुराणं यं जना विदुः ॥"
+          "text": "वेदाहं जाजले धर्मं सरहस्यं सनातनम् ।\nसर्वभूतहितं मैत्रं पुराणं यं जना विदुः ॥",
+          "meaning": {
+            "en": "Jajali, I know the eternal dharma with its secrets, kind to all beings, the ancient dharma that people know."
+          }
         },
         {
           "n": 6,
-          "text": "अद्रोहेणैव भूतानामल्पद्रोहेण वा पुनः ।\nया वृत्तिः स परो धर्मस्तेन जीवामि जाजले ॥"
+          "text": "अद्रोहेणैव भूतानामल्पद्रोहेण वा पुनः ।\nया वृत्तिः स परो धर्मस्तेन जीवामि जाजले ॥",
+          "meaning": {
+            "en": "Living by a way that harms no creature, or harms only slightly, is the highest dharma; by that I live, Jajali."
+          }
         },
         {
           "n": 7,
-          "text": "परिच्छिन्नैः काष्ठतृणैर्मयेदं शरणं कृतम् ।\nअलक्तं पद्मकं तुङ्गं गन्धांश्चोच्चावचांस्तथा ॥"
+          "text": "परिच्छिन्नैः काष्ठतृणैर्मयेदं शरणं कृतम् ।\nअलक्तं पद्मकं तुङ्गं गन्धांश्चोच्चावचांस्तथा ॥",
+          "meaning": {
+            "en": "With cut wood and grass I have made this shop, and I deal in lac, padmaka, tall aromatics and perfumes of all grades."
+          }
         },
         {
           "n": 8,
-          "text": "रसांश्च तांस्तान्विप्रर्षे मद्यवर्जानहं बहून् ।\nक्रीत्वा वै प्रतिविक्रीणे परहस्तादमायया ॥"
+          "text": "रसांश्च तांस्तान्विप्रर्षे मद्यवर्जानहं बहून् ।\nक्रीत्वा वै प्रतिविक्रीणे परहस्तादमायया ॥",
+          "meaning": {
+            "en": "Brahmin sage, I buy many kinds of juices, except liquor, and sell them again, taking from others' hands without deceit."
+          }
         },
         {
           "n": 9,
-          "text": "सर्वेषां यः सुहृन्नित्यं सर्वेषां च हिते रतः ।\nकर्मणा मनसा वाचा स धर्मं वेद जाजले ॥"
+          "text": "सर्वेषां यः सुहृन्नित्यं सर्वेषां च हिते रतः ।\nकर्मणा मनसा वाचा स धर्मं वेद जाजले ॥",
+          "meaning": {
+            "en": "One who is always a friend to all and devoted to the good of all, in act, thought and word, knows dharma, Jajali."
+          }
         },
         {
           "n": 10,
-          "text": "नाहं परेषां कर्माणि प्रशंसामि शपामि वा ।\nआकाशस्येव विप्रर्षे पश्यँल्लोकस्य चित्रताम् ॥"
+          "text": "नाहं परेषां कर्माणि प्रशंसामि शपामि वा ।\nआकाशस्येव विप्रर्षे पश्यँल्लोकस्य चित्रताम् ॥",
+          "meaning": {
+            "en": "I neither praise nor curse others' deeds, but watch the world's variety as if from the sky, O sage."
+          }
         },
         {
           "n": 11,
-          "text": "नानुरुध्ये विरुध्ये वा न द्वेष्मि न च कामये ।\nसमोऽस्मि सर्वभूतेषु पश्य मे जाजले व्रतम् ॥"
+          "text": "नानुरुध्ये विरुध्ये वा न द्वेष्मि न च कामये ।\nसमोऽस्मि सर्वभूतेषु पश्य मे जाजले व्रतम् ॥",
+          "meaning": {
+            "en": "I do not favor or oppose, hate or desire; I am even toward all beings. See my vow, Jajali."
+          }
         },
         {
           "n": 12,
-          "text": "इष्टानिष्टविमुक्तस्य प्रीतिरागबहिष्कृतः ।\nतुला मे सर्वभूतेषु समा तिष्ठति जाजले ॥"
+          "text": "इष्टानिष्टविमुक्तस्य प्रीतिरागबहिष्कृतः ।\nतुला मे सर्वभूतेषु समा तिष्ठति जाजले ॥",
+          "meaning": {
+            "en": "Freed from liking and disliking, and without attachment or affection, my scale stands level toward all beings, Jajali."
+          }
         },
         {
           "n": 13,
-          "text": "इति मां त्वं विजानीहि सर्वलोकस्य जाजले ।\nसमं मतिमतां श्रेष्ठ समलोष्टाश्मकाञ्चनम् ॥"
+          "text": "इति मां त्वं विजानीहि सर्वलोकस्य जाजले ।\nसमं मतिमतां श्रेष्ठ समलोष्टाश्मकाञ्चनम् ॥",
+          "meaning": {
+            "en": "Know me thus, Jajali, best of the wise: the same to the whole world, seeing clod, stone and gold alike."
+          }
         },
         {
           "n": 14,
-          "text": "यथान्धबधिरोन्मत्ता उच्छ्वासपरमाः सदा ।\nदेवैरपिहितद्वाराः सोपमा पश्यतो मम ॥"
+          "text": "यथान्धबधिरोन्मत्ता उच्छ्वासपरमाः सदा ।\nदेवैरपिहितद्वाराः सोपमा पश्यतो मम ॥",
+          "meaning": {
+            "en": "Just as the blind, deaf and mad live ever bound to their breath alone, their doors shut by the gods, so is the comparison with me as I look on."
+          }
         },
         {
           "n": 15,
-          "text": "यथा वृद्धातुरकृशा निःस्पृहा विषयान्प्रति ।\nतथार्थकामभोगेषु ममापि विगता स्पृहा ॥"
+          "text": "यथा वृद्धातुरकृशा निःस्पृहा विषयान्प्रति ।\nतथार्थकामभोगेषु ममापि विगता स्पृहा ॥",
+          "meaning": {
+            "en": "As the old, sick and wasted lose longing for sense objects, so my longing for wealth, desire and enjoyment too has gone."
+          }
         },
         {
           "n": 16,
-          "text": "यदा चायं न बिभेति यदा चास्मान्न बिभ्यति ।\nयदा नेच्छति न द्वेष्टि तदा सिध्यति वै द्विजः ॥"
+          "text": "यदा चायं न बिभेति यदा चास्मान्न बिभ्यति ।\nयदा नेच्छति न द्वेष्टि तदा सिध्यति वै द्विजः ॥",
+          "meaning": {
+            "en": "When a person fears nothing and nothing fears him, when he neither wishes nor hates, then the twice-born attains perfection."
+          }
         },
         {
           "n": 17,
-          "text": "यदा न कुरुते भावं सर्वभूतेषु पापकम् ।\nकर्मणा मनसा वाचा ब्रह्म संपद्यते तदा ॥"
+          "text": "यदा न कुरुते भावं सर्वभूतेषु पापकम् ।\nकर्मणा मनसा वाचा ब्रह्म संपद्यते तदा ॥",
+          "meaning": {
+            "en": "When one bears no evil intent toward any being in deed, thought or word, then he becomes fit for Brahman."
+          }
         },
         {
           "n": 18,
-          "text": "न भूतो न भविष्यश्च न च धर्मोऽस्ति कश्चन ।\nयोऽभयः सर्वभूतानां स प्राप्नोत्यभयं पदम् ॥"
+          "text": "न भूतो न भविष्यश्च न च धर्मोऽस्ति कश्चन ।\nयोऽभयः सर्वभूतानां स प्राप्नोत्यभयं पदम् ॥",
+          "meaning": {
+            "en": "There is no dharma, past or future, like this: one who is fearless toward all beings reaches the state of fearlessness."
+          }
         },
         {
           "n": 19,
-          "text": "यस्मादुद्विजते लोकः सर्वो मृत्युमुखादिव ।\nवाक्क्रूराद्दण्डपारुष्यात्स प्राप्नोति महद्भयम् ॥"
+          "text": "यस्मादुद्विजते लोकः सर्वो मृत्युमुखादिव ।\nवाक्क्रूराद्दण्डपारुष्यात्स प्राप्नोति महद्भयम् ॥",
+          "meaning": {
+            "en": "One from whom the whole world shrinks as from the jaws of death, through cruel speech and harsh punishment, meets great fear."
+          }
         },
         {
           "n": 20,
-          "text": "यथावद्वर्तमानानां वृद्धानां पुत्रपौत्रिणाम् ।\nअनुवर्तामहे वृत्तमहिंस्राणां महात्मनाम् ॥"
+          "text": "यथावद्वर्तमानानां वृद्धानां पुत्रपौत्रिणाम् ।\nअनुवर्तामहे वृत्तमहिंस्राणां महात्मनाम् ॥",
+          "meaning": {
+            "en": "We follow the conduct of the elders, with sons and grandsons, who live rightly, the great-souled who do no harm."
+          }
         },
         {
           "n": 21,
-          "text": "प्रनष्टः शाश्वतो धर्मः सदाचारेण मोहितः ।\nतेन वैद्यस्तपस्वी वा बलवान्वा विमोह्यते ॥"
+          "text": "प्रनष्टः शाश्वतो धर्मः सदाचारेण मोहितः ।\nतेन वैद्यस्तपस्वी वा बलवान्वा विमोह्यते ॥",
+          "meaning": {
+            "en": "The eternal dharma has been lost, confused by mere customary practice; by that even a physician, ascetic or strong man is deluded."
+          }
         },
         {
           "n": 22,
-          "text": "आचाराज्जाजले प्राज्ञः क्षिप्रं धर्ममवाप्नुयात् ।\nएवं यः साधुभिर्दान्तश्चरेदद्रोहचेतसा ॥"
+          "text": "आचाराज्जाजले प्राज्ञः क्षिप्रं धर्ममवाप्नुयात् ।\nएवं यः साधुभिर्दान्तश्चरेदद्रोहचेतसा ॥",
+          "meaning": {
+            "en": "By right conduct, Jajali, a wise man quickly attains dharma, if he lives self-controlled among the good with a heart free of malice."
+          }
         },
         {
           "n": 23,
-          "text": "नद्यां यथा चेह काष्ठमुह्यमानं यदृच्छया ।\nयदृच्छयैव काष्ठेन संधिं गच्छेत केनचित् ॥"
+          "text": "नद्यां यथा चेह काष्ठमुह्यमानं यदृच्छया ।\nयदृच्छयैव काष्ठेन संधिं गच्छेत केनचित् ॥",
+          "meaning": {
+            "en": "As a log carried along in a river by chance may by chance meet another log,"
+          }
         },
         {
           "n": 24,
-          "text": "तत्रापराणि दारूणि संसृज्यन्ते ततस्ततः ।\nतृणकाष्ठकरीषाणि कदा चिन्नसमीक्षया ।\nएवमेवायमाचारः प्रादुर्भूतो यतस्ततः ॥"
+          "text": "तत्रापराणि दारूणि संसृज्यन्ते ततस्ततः ।\nतृणकाष्ठकरीषाणि कदा चिन्नसमीक्षया ।\nएवमेवायमाचारः प्रादुर्भूतो यतस्ततः ॥",
+          "meaning": {
+            "en": "and other pieces, straw, wood and dung join it from here and there, unplanned, so did this conduct arise from here and there."
+          }
         },
         {
           "n": 25,
-          "text": "यस्मान्नोद्विजते भूतं जातु किंचित्कथंचन ।\nअभयं सर्वभूतेभ्यः स प्राप्नोति सदा मुने ॥"
+          "text": "यस्मान्नोद्विजते भूतं जातु किंचित्कथंचन ।\nअभयं सर्वभूतेभ्यः स प्राप्नोति सदा मुने ॥",
+          "meaning": {
+            "en": "He from whom no creature is ever in any way alarmed always gains fearlessness from all creatures, sage."
+          }
         },
         {
           "n": 26,
-          "text": "यस्मादुद्विजते विद्वन्सर्वलोको वृकादिव ।\nक्रोशतस्तीरमासाद्य यथा सर्वे जलेचराः ॥"
+          "text": "यस्मादुद्विजते विद्वन्सर्वलोको वृकादिव ।\nक्रोशतस्तीरमासाद्य यथा सर्वे जलेचराः ॥",
+          "meaning": {
+            "en": "From whom the whole world shrinks, learned one, as from a wolf, as water creatures all flee when someone stands on the bank shouting,"
+          }
         },
         {
           "n": 27,
-          "text": "सहायवान्द्रव्यवान्यः सुभगोऽन्योऽपरस्तथा ।\nततस्तानेव कवयः शास्त्रेषु प्रवदन्त्युत ।\nकीर्त्यर्थमल्पहृल्लेखाः पटवः कृत्स्ननिर्णयाः ॥"
+          "text": "सहायवान्द्रव्यवान्यः सुभगोऽन्योऽपरस्तथा ।\nततस्तानेव कवयः शास्त्रेषु प्रवदन्त्युत ।\nकीर्त्यर्थमल्पहृल्लेखाः पटवः कृत्स्ननिर्णयाः ॥",
+          "meaning": {
+            "en": "those with helpers, with wealth, the fortunate and others: the poets in the scriptures speak of these, and the clever, who write on a few words for fame, claim complete decision."
+          }
         },
         {
           "n": 28,
-          "text": "तपोभिर्यज्ञदानैश्च वाक्यैः प्रज्ञाश्रितैस्तथा ।\nप्राप्नोत्यभयदानस्य यद्यत्फलमिहाश्नुते ॥"
+          "text": "तपोभिर्यज्ञदानैश्च वाक्यैः प्रज्ञाश्रितैस्तथा ।\nप्राप्नोत्यभयदानस्य यद्यत्फलमिहाश्नुते ॥",
+          "meaning": {
+            "en": "Whatever fruit one here enjoys through austerities, sacrifices, gifts and wise words, the same is the fruit of the gift of fearlessness."
+          }
         },
         {
           "n": 29,
-          "text": "लोके यः सर्वभूतेभ्यो ददात्यभयदक्षिणाम् ।\nस सर्वयज्ञैरीजानः प्राप्नोत्यभयदक्षिणाम् ।\nन भूतानामहिंसाया ज्यायान्धर्मोऽस्ति कश्चन ॥"
+          "text": "लोके यः सर्वभूतेभ्यो ददात्यभयदक्षिणाम् ।\nस सर्वयज्ञैरीजानः प्राप्नोत्यभयदक्षिणाम् ।\nन भूतानामहिंसाया ज्यायान्धर्मोऽस्ति कश्चन ॥",
+          "meaning": {
+            "en": "He who gives all beings the gift of fearlessness in the world gains that gift of fearlessness as though he had sacrificed with every rite; no dharma is greater than non-harming of beings."
+          }
         },
         {
           "n": 30,
-          "text": "यस्मान्नोद्विजते भूतं जातु किंचित्कथंचन ।\nसोऽभयं सर्वभूतेभ्यः संप्राप्नोति महामुने ॥"
+          "text": "यस्मान्नोद्विजते भूतं जातु किंचित्कथंचन ।\nसोऽभयं सर्वभूतेभ्यः संप्राप्नोति महामुने ॥",
+          "meaning": {
+            "en": "He from whom no creature is ever alarmed in any way gains fearlessness from all creatures, great sage."
+          }
         },
         {
           "n": 31,
-          "text": "यस्मादुद्विजते लोकः सर्पाद्वेश्मगतादिव ।\nन स धर्ममवाप्नोति इह लोके परत्र च ॥"
+          "text": "यस्मादुद्विजते लोकः सर्पाद्वेश्मगतादिव ।\nन स धर्ममवाप्नोति इह लोके परत्र च ॥",
+          "meaning": {
+            "en": "He from whom the world shrinks as from a snake in the house gains no dharma, in this world or the next."
+          }
         },
         {
           "n": 32,
-          "text": "सर्वभूतात्मभूतस्य सम्यग्भूतानि पश्यतः ।\nदेवापि मार्गे मुह्यन्ति अपदस्य पदैषिणः ॥"
+          "text": "सर्वभूतात्मभूतस्य सम्यग्भूतानि पश्यतः ।\nदेवापि मार्गे मुह्यन्ति अपदस्य पदैषिणः ॥",
+          "meaning": {
+            "en": "For one who sees all beings as his own self and views creatures rightly, even the gods are confused on the path, seeking the footprint of the footless."
+          }
         },
         {
           "n": 33,
-          "text": "दानं भूताभयस्याहुः सर्वदानेभ्य उत्तमम् ।\nब्रवीमि ते सत्यमिदं श्रद्दधस्व च जाजले ॥"
+          "text": "दानं भूताभयस्याहुः सर्वदानेभ्य उत्तमम् ।\nब्रवीमि ते सत्यमिदं श्रद्दधस्व च जाजले ॥",
+          "meaning": {
+            "en": "They say the gift of safety to creatures is the best of all gifts. I tell you this truth; believe it, Jajali."
+          }
         },
         {
           "n": 34,
-          "text": "स एव सुभगो भूत्वा पुनर्भवति दुर्भगः ।\nव्यापत्तिं कर्मणां दृष्ट्वा जुगुप्सन्ति जनाः सदा ॥"
+          "text": "स एव सुभगो भूत्वा पुनर्भवति दुर्भगः ।\nव्यापत्तिं कर्मणां दृष्ट्वा जुगुप्सन्ति जनाः सदा ॥",
+          "meaning": {
+            "en": "The same man who was fortunate becomes unfortunate again; seeing the misfortune that follows deeds, people always feel disgust."
+          }
         },
         {
           "n": 35,
-          "text": "अकारणो हि नेहास्ति धर्मः सूक्ष्मोऽपि जाजले ।\nभूतभव्यार्थमेवेह धर्मप्रवचनं कृतम् ॥"
+          "text": "अकारणो हि नेहास्ति धर्मः सूक्ष्मोऽपि जाजले ।\nभूतभव्यार्थमेवेह धर्मप्रवचनं कृतम् ॥",
+          "meaning": {
+            "en": "Even the subtlest dharma here, Jajali, is not without cause; the teaching of dharma was made for the welfare of beings, present and future."
+          }
         },
         {
           "n": 36,
-          "text": "सूक्ष्मत्वान्न स विज्ञातुं शक्यते बहुनिह्नवः ।\nउपलभ्यान्तरा चान्यानाचारानवबुध्यते ॥"
+          "text": "सूक्ष्मत्वान्न स विज्ञातुं शक्यते बहुनिह्नवः ।\nउपलभ्यान्तरा चान्यानाचारानवबुध्यते ॥",
+          "meaning": {
+            "en": "Being subtle, it cannot easily be known, and it has many concealments; one grasps other practices only after finding something in between."
+          }
         },
         {
           "n": 37,
-          "text": "ये च छिन्दन्ति वृषणान्ये च भिन्दन्ति नस्तकान् ।\nवहन्ति महतो भारान्बध्नन्ति दमयन्ति च ॥"
+          "text": "ये च छिन्दन्ति वृषणान्ये च भिन्दन्ति नस्तकान् ।\nवहन्ति महतो भारान्बध्नन्ति दमयन्ति च ॥",
+          "meaning": {
+            "en": "Some castrate bulls and some pierce their noses, they load them with heavy burdens, tie and tame them."
+          }
         },
         {
           "n": 38,
-          "text": "हत्वा सत्त्वानि खादन्ति तान्कथं न विगर्हसे ।\nमानुषा मानुषानेव दासभोगेन भुञ्जते ॥"
+          "text": "हत्वा सत्त्वानि खादन्ति तान्कथं न विगर्हसे ।\nमानुषा मानुषानेव दासभोगेन भुञ्जते ॥",
+          "meaning": {
+            "en": "They kill creatures and eat them; why do you not condemn them? Men even enjoy other men as slaves."
+          }
         },
         {
           "n": 39,
-          "text": "वधबन्धविरोधेन कारयन्ति दिवानिशम् ।\nआत्मना चापि जानासि यद्दुःखं वधताडने ॥"
+          "text": "वधबन्धविरोधेन कारयन्ति दिवानिशम् ।\nआत्मना चापि जानासि यद्दुःखं वधताडने ॥",
+          "meaning": {
+            "en": "By killing, binding and opposing they make them work day and night; you yourself know the pain of killing and beating."
+          }
         },
         {
           "n": 40,
-          "text": "पञ्चेन्द्रियेषु भूतेषु सर्वं वसति दैवतम् ।\nआदित्यश्चन्द्रमा वायुर्ब्रह्मा प्राणः क्रतुर्यमः ॥"
+          "text": "पञ्चेन्द्रियेषु भूतेषु सर्वं वसति दैवतम् ।\nआदित्यश्चन्द्रमा वायुर्ब्रह्मा प्राणः क्रतुर्यमः ॥",
+          "meaning": {
+            "en": "All divinity dwells in beings with five senses: the sun, moon, wind, Brahma, life-breath, sacrifice and Yama."
+          }
         },
         {
           "n": 41,
-          "text": "तानि जीवानि विक्रीय का मृतेषु विचारणा ।\nका तैले का घृते ब्रह्मन्मधुन्यप्स्वौषधेषु वा ॥"
+          "text": "तानि जीवानि विक्रीय का मृतेषु विचारणा ।\nका तैले का घृते ब्रह्मन्मधुन्यप्स्वौषधेषु वा ॥",
+          "meaning": {
+            "en": "Having sold those living beings, what is the care for dead ones? What does it matter about oil, ghee, honey, water or herbs, brahmin?"
+          }
         },
         {
           "n": 42,
-          "text": "अदंशमशके देशे सुखं संवर्धितान्पशून् ।\nतांश्च मातुः प्रियाञ्जानन्नाक्रम्य बहुधा नराः ।\nबहुदंशकुशान्देशान्नयन्ति बहुकर्दमान् ॥"
+          "text": "अदंशमशके देशे सुखं संवर्धितान्पशून् ।\nतांश्च मातुः प्रियाञ्जानन्नाक्रम्य बहुधा नराः ।\nबहुदंशकुशान्देशान्नयन्ति बहुकर्दमान् ॥",
+          "meaning": {
+            "en": "Cattle raised happily in a place without gadflies and mosquitoes, dear to their mothers, men drive by force to places full of gadflies, thin grass and mud."
+          }
         },
         {
           "n": 43,
-          "text": "वाहसंपीडिता धुर्याः सीदन्त्यविधिनापरे ।\nन मन्ये भ्रूणहत्यापि विशिष्टा तेन कर्मणा ॥"
+          "text": "वाहसंपीडिता धुर्याः सीदन्त्यविधिनापरे ।\nन मन्ये भ्रूणहत्यापि विशिष्टा तेन कर्मणा ॥",
+          "meaning": {
+            "en": "Draft animals tormented by loads sink down unlawfully; I think even killing an embryo is not worse than that deed."
+          }
         },
         {
           "n": 44,
-          "text": "कृषिं साध्विति मन्यन्ते सा च वृत्तिः सुदारुणा ।\nभूमिं भूमिशयांश्चैव हन्ति काष्ठमयोमुखम् ।\nतथैवानडुहो युक्तान्समवेक्षस्व जाजले ॥"
+          "text": "कृषिं साध्विति मन्यन्ते सा च वृत्तिः सुदारुणा ।\nभूमिं भूमिशयांश्चैव हन्ति काष्ठमयोमुखम् ।\nतथैवानडुहो युक्तान्समवेक्षस्व जाजले ॥",
+          "meaning": {
+            "en": "They think farming good, yet that livelihood is very cruel: the iron-tipped wooden plough kills the earth and the creatures lying in it. Look likewise at the yoked oxen, Jajali."
+          }
         },
         {
           "n": 45,
-          "text": "अघ्न्या इति गवां नाम क एनान्हन्तुमर्हति ।\nमहच्चकाराकुशलं पृषध्रो गालभन्निव ॥"
+          "text": "अघ्न्या इति गवां नाम क एनान्हन्तुमर्हति ।\nमहच्चकाराकुशलं पृषध्रो गालभन्निव ॥",
+          "meaning": {
+            "en": "Cows are called \"not to be killed\"; who may kill them? Nahusha did a great wrong, like a locust attacking a flame."
+          }
         },
         {
           "n": 46,
-          "text": "ऋषयो यतयो ह्येतन्नहुषे प्रत्यवेदयन् ।\nगां मातरं चाप्यवधीर्वृषभं च प्रजापतिम् ।\nअकार्यं नहुषाकार्षीर्लप्स्यामस्त्वत्कृते भयम् ॥"
+          "text": "ऋषयो यतयो ह्येतन्नहुषे प्रत्यवेदयन् ।\nगां मातरं चाप्यवधीर्वृषभं च प्रजापतिम् ।\nअकार्यं नहुषाकार्षीर्लप्स्यामस्त्वत्कृते भयम् ॥",
+          "meaning": {
+            "en": "Sages and ascetics told Nahusha this: \"You killed the cow, mother, and the bull, the lord of creatures. Nahusha, you did a forbidden thing; through you we shall have fear.\""
+          }
         },
         {
           "n": 47,
-          "text": "शतं चैकं च रोगाणां सर्वभूतेष्वपातयन् ।\nऋषयस्ते महाभागाः प्रजास्वेव हि जाजले ।\nभ्रूणहं नहुषं त्वाहुर्न ते होष्यामहे हविः ॥"
+          "text": "शतं चैकं च रोगाणां सर्वभूतेष्वपातयन् ।\nऋषयस्ते महाभागाः प्रजास्वेव हि जाजले ।\nभ्रूणहं नहुषं त्वाहुर्न ते होष्यामहे हविः ॥",
+          "meaning": {
+            "en": "They brought down a hundred and one diseases on all beings, those glorious sages, on the creatures, Jajali. They called Nahusha an embryo-killer: \"We will not offer oblations to you.\""
+          }
         },
         {
           "n": 48,
-          "text": "इत्युक्त्वा ते महात्मानः सर्वे तत्त्वार्थदर्शिनः ।\nऋषयो यतयः शान्तास्तरसा प्रत्यवेदयन् ॥"
+          "text": "इत्युक्त्वा ते महात्मानः सर्वे तत्त्वार्थदर्शिनः ।\nऋषयो यतयः शान्तास्तरसा प्रत्यवेदयन् ॥",
+          "meaning": {
+            "en": "Having said so, those great-souled seers of the truth of things, the calm ascetics, swiftly made this declaration."
+          }
         },
         {
           "n": 49,
-          "text": "ईदृशानशिवान्घोरानाचारानिह जाजले ।\nकेवलाचरितत्वात्तु निपुणान्नावबुध्यसे ॥"
+          "text": "ईदृशानशिवान्घोरानाचारानिह जाजले ।\nकेवलाचरितत्वात्तु निपुणान्नावबुध्यसे ॥",
+          "meaning": {
+            "en": "Such inauspicious, terrible practices exist here, Jajali, but because you only follow custom you do not discern them skillfully."
+          }
         },
         {
           "n": 50,
-          "text": "कारणाद्धर्ममन्विच्छेन्न लोकचरितं चरेत् ।\nयो हन्याद्यश्च मां स्तौति तत्रापि शृणु जाजले ॥"
+          "text": "कारणाद्धर्ममन्विच्छेन्न लोकचरितं चरेत् ।\nयो हन्याद्यश्च मां स्तौति तत्रापि शृणु जाजले ॥",
+          "meaning": {
+            "en": "Seek dharma by reason; do not simply follow the world's custom. Hear this too, Jajali: whether one kills me or praises me,"
+          }
         },
         {
           "n": 51,
-          "text": "समौ तावपि मे स्यातां न हि मे स्तः प्रियाप्रिये ।\nएतदीदृशकं धर्मं प्रशंसन्ति मनीषिणः ॥"
+          "text": "समौ तावपि मे स्यातां न हि मे स्तः प्रियाप्रिये ।\nएतदीदृशकं धर्मं प्रशंसन्ति मनीषिणः ॥",
+          "meaning": {
+            "en": "both would be the same to me, for I have neither liking nor disliking. Such a dharma the wise praise."
+          }
         },
         {
           "n": 52,
-          "text": "उपपत्त्या हि संपन्नो यतिभिश्चैव सेव्यते ।\nसततं धर्मशीलैश्च नैपुण्येनोपलक्षितः ॥"
+          "text": "उपपत्त्या हि संपन्नो यतिभिश्चैव सेव्यते ।\nसततं धर्मशीलैश्च नैपुण्येनोपलक्षितः ॥",
+          "meaning": {
+            "en": "It is complete with reasoning, followed by ascetics, always practiced by those devoted to dharma, and recognized through skill."
+          }
         }
       ]
     }

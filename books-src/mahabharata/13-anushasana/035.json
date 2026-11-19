@@ -22,99 +22,171 @@
       "titleEn": "Anushasanika Parva (The instructions)",
       "verses": [
         {
-          "text": "भीष्म उवाच"
+          "text": "भीष्म उवाच",
+          "meaning": {
+            "en": "Bhishma said:"
+          }
         },
         {
           "n": 1,
-          "text": "जन्मनैव महाभागो ब्राह्मणो नाम जायते ।\nनमस्यः सर्वभूतानामतिथिः प्रसृताग्रभुक् ॥"
+          "text": "जन्मनैव महाभागो ब्राह्मणो नाम जायते ।\nनमस्यः सर्वभूतानामतिथिः प्रसृताग्रभुक् ॥",
+          "meaning": {
+            "en": "By birth alone a brahmin is born greatly blessed, to be bowed to by all beings, a guest who eats first with outstretched hand."
+          }
         },
         {
           "n": 2,
-          "text": "सर्वान्नः सुहृदस्तात ब्राह्मणाः सुमनोमुखाः ।\nगीर्भिर्मङ्गलयुक्ताभिरनुध्यायन्ति पूजिताः ॥"
+          "text": "सर्वान्नः सुहृदस्तात ब्राह्मणाः सुमनोमुखाः ।\nगीर्भिर्मङ्गलयुक्ताभिरनुध्यायन्ति पूजिताः ॥",
+          "meaning": {
+            "en": "Dear son, brahmins are friends to us all. When honored, with cheerful faces they bless us with auspicious words."
+          }
         },
         {
           "n": 3,
-          "text": "सर्वान्नो द्विषतस्तात ब्राह्मणा जातमन्यवः ।\nगीर्भिर्दारुणयुक्ताभिरभिहन्युरपूजिताः ॥"
+          "text": "सर्वान्नो द्विषतस्तात ब्राह्मणा जातमन्यवः ।\nगीर्भिर्दारुणयुक्ताभिरभिहन्युरपूजिताः ॥",
+          "meaning": {
+            "en": "Dear son, when their anger is roused against all who hate us, and they are not honored, they can strike with harsh words."
+          }
         },
         {
           "n": 4,
-          "text": "अत्र गाथा ब्रह्मगीताः कीर्तयन्ति पुराविदः ।\nसृष्ट्वा द्विजातीन्धाता हि यथापूर्वं समादधत् ॥"
+          "text": "अत्र गाथा ब्रह्मगीताः कीर्तयन्ति पुराविदः ।\nसृष्ट्वा द्विजातीन्धाता हि यथापूर्वं समादधत् ॥",
+          "meaning": {
+            "en": "On this point those who know the old stories recite verses sung by Brahma: after creating the twice-born, the Creator laid down for them as before:"
+          }
         },
         {
           "n": 5,
-          "text": "न वोऽन्यदिह कर्तव्यं किंचिदूर्ध्वं यथाविधि ।\nगुप्ता गोपायत ब्रह्म श्रेयो वस्तेन शोभनम् ॥"
+          "text": "न वोऽन्यदिह कर्तव्यं किंचिदूर्ध्वं यथाविधि ।\nगुप्ता गोपायत ब्रह्म श्रेयो वस्तेन शोभनम् ॥",
+          "meaning": {
+            "en": "You have nothing else to do here beyond what is prescribed. Protected, protect the Veda; that is your good and what suits you."
+          }
         },
         {
           "n": 6,
-          "text": "स्वमेव कुर्वतां कर्म श्रीर्वो ब्राह्मी भविष्यति ।\nप्रमाणं सर्वभूतानां प्रग्रहं च गमिष्यथ ॥"
+          "text": "स्वमेव कुर्वतां कर्म श्रीर्वो ब्राह्मी भविष्यति ।\nप्रमाणं सर्वभूतानां प्रग्रहं च गमिष्यथ ॥",
+          "meaning": {
+            "en": "By doing only your own work you will have the splendor of Brahman, and you will become the measure and the restraint of all beings."
+          }
         },
         {
           "n": 7,
-          "text": "न शौद्रं कर्म कर्तव्यं ब्राह्मणेन विपश्चिता ।\nशौद्रं हि कुर्वतः कर्म धर्मः समुपरुध्यते ॥"
+          "text": "न शौद्रं कर्म कर्तव्यं ब्राह्मणेन विपश्चिता ।\nशौद्रं हि कुर्वतः कर्म धर्मः समुपरुध्यते ॥",
+          "meaning": {
+            "en": "A wise brahmin must not do a shudra's work, for one who does a shudra's work damages his dharma."
+          }
         },
         {
           "n": 8,
-          "text": "श्रीश्च बुद्धिश्च तेजश्च विभूतिश्च प्रतापिनी ।\nस्वाध्यायेनैव माहात्म्यं विमलं प्रतिपत्स्यथ ॥"
+          "text": "श्रीश्च बुद्धिश्च तेजश्च विभूतिश्च प्रतापिनी ।\nस्वाध्यायेनैव माहात्म्यं विमलं प्रतिपत्स्यथ ॥",
+          "meaning": {
+            "en": "Prosperity, wisdom, brilliance and glorious power you will gain, and an untainted greatness through study of the Veda alone."
+          }
         },
         {
           "n": 9,
-          "text": "हुत्वा चाहवनीयस्थं महाभाग्ये प्रतिष्ठिताः ।\nअग्रभोज्याः प्रसूतीनां श्रिया ब्राह्म्यानुकल्पिताः ॥"
+          "text": "हुत्वा चाहवनीयस्थं महाभाग्ये प्रतिष्ठिताः ।\nअग्रभोज्याः प्रसूतीनां श्रिया ब्राह्म्यानुकल्पिताः ॥",
+          "meaning": {
+            "en": "Having poured oblations into the sacrificial fire, you stand established in great fortune, first to be fed at the births and rites of families, and arranged by the splendor of Brahman."
+          }
         },
         {
           "n": 10,
-          "text": "श्रद्धया परया युक्ता ह्यनभिद्रोहलब्धया ।\nदमस्वाध्यायनिरताः सर्वान्कामानवाप्स्यथ ॥"
+          "text": "श्रद्धया परया युक्ता ह्यनभिद्रोहलब्धया ।\nदमस्वाध्यायनिरताः सर्वान्कामानवाप्स्यथ ॥",
+          "meaning": {
+            "en": "Endowed with supreme faith, gained by harming no one, and devoted to self-control and study, you will obtain all your desires."
+          }
         },
         {
           "n": 11,
-          "text": "यच्चैव मानुषे लोके यच्च देवेषु किंचन ।\nसर्वं तत्तपसा साध्यं ज्ञानेन विनयेन च ॥"
+          "text": "यच्चैव मानुषे लोके यच्च देवेषु किंचन ।\nसर्वं तत्तपसा साध्यं ज्ञानेन विनयेन च ॥",
+          "meaning": {
+            "en": "Whatever there is in the human world, and whatever among the gods, all of it is to be achieved by austerity, knowledge and discipline."
+          }
         },
         {
           "n": 12,
-          "text": "इत्येता ब्रह्मगीतास्ते समाख्याता मयानघ ।\nविप्रानुकम्पार्थमिदं तेन प्रोक्तं हि धीमता ॥"
+          "text": "इत्येता ब्रह्मगीतास्ते समाख्याता मयानघ ।\nविप्रानुकम्पार्थमिदं तेन प्रोक्तं हि धीमता ॥",
+          "meaning": {
+            "en": "Sinless one, these are the songs of Brahma that I have recounted to you. The wise one said them out of compassion for brahmins."
+          }
         },
         {
           "n": 13,
-          "text": "भूयस्तेषां बलं मन्ये यथा राज्ञस्तपस्विनः ।\nदुरासदाश्च चण्डाश्च रभसाः क्षिप्रकारिणः ॥"
+          "text": "भूयस्तेषां बलं मन्ये यथा राज्ञस्तपस्विनः ।\nदुरासदाश्च चण्डाश्च रभसाः क्षिप्रकारिणः ॥",
+          "meaning": {
+            "en": "I think their strength is even greater than a king's, since they are ascetics: hard to approach, fierce, impetuous and swift to act."
+          }
         },
         {
           "n": 14,
-          "text": "सन्त्येषां सिंहसत्त्वाश्च व्याघ्रसत्त्वास्तथापरे ।\nवराहमृगसत्त्वाश्च गजसत्त्वास्तथापरे ॥"
+          "text": "सन्त्येषां सिंहसत्त्वाश्च व्याघ्रसत्त्वास्तथापरे ।\nवराहमृगसत्त्वाश्च गजसत्त्वास्तथापरे ॥",
+          "meaning": {
+            "en": "Some of them have the nature of lions, others of tigers, others of boars and deer, and others of elephants."
+          }
         },
         {
           "n": 15,
-          "text": "कर्पासमृदवः केचित्तथान्ये मकरस्पृशः ।\nविभाष्यघातिनः केचित्तथा चक्षुर्हणोऽपरे ॥"
+          "text": "कर्पासमृदवः केचित्तथान्ये मकरस्पृशः ।\nविभाष्यघातिनः केचित्तथा चक्षुर्हणोऽपरे ॥",
+          "meaning": {
+            "en": "Some are soft as cotton, others bite like crocodiles. Some kill with a word, others with a glance."
+          }
         },
         {
           "n": 16,
-          "text": "सन्ति चाशीविषनिभाः सन्ति मन्दास्तथापरे ।\nविविधानीह वृत्तानि ब्राह्मणानां युधिष्ठिर ॥"
+          "text": "सन्ति चाशीविषनिभाः सन्ति मन्दास्तथापरे ।\nविविधानीह वृत्तानि ब्राह्मणानां युधिष्ठिर ॥",
+          "meaning": {
+            "en": "Some are like venomous snakes, and others are mild. Yudhishthira, the ways of life of brahmins are of many kinds."
+          }
         },
         {
           "n": 17,
-          "text": "मेकला द्रमिडाः काशाः पौण्ड्राः कोल्लगिरास्तथा ।\nशौण्डिका दरदा दर्वाश्चौराः शबरबर्बराः ॥"
+          "text": "मेकला द्रमिडाः काशाः पौण्ड्राः कोल्लगिरास्तथा ।\nशौण्डिका दरदा दर्वाश्चौराः शबरबर्बराः ॥",
+          "meaning": {
+            "en": "The Mekalas, Dramidas, Kashas, Paundras, Kollagiras, Shaundikas, Daradas, Darvas, Churas, Shabaras and Barbaras,"
+          }
         },
         {
           "n": 18,
-          "text": "किराता यवनाश्चैव तास्ताः क्षत्रियजातयः ।\nवृषलत्वमनुप्राप्ता ब्राह्मणानामदर्शनात् ॥"
+          "text": "किराता यवनाश्चैव तास्ताः क्षत्रियजातयः ।\nवृषलत्वमनुप्राप्ता ब्राह्मणानामदर्शनात् ॥",
+          "meaning": {
+            "en": "the Kiratas and Yavanas, those kshatriya peoples fell to the status of outcastes through lack of sight of brahmins."
+          }
         },
         {
           "n": 19,
-          "text": "ब्राह्मणानां परिभवादसुराः सलिलेशयाः ।\nब्राह्मणानां प्रसादाच्च देवाः स्वर्गनिवासिनः ॥"
+          "text": "ब्राह्मणानां परिभवादसुराः सलिलेशयाः ।\nब्राह्मणानां प्रसादाच्च देवाः स्वर्गनिवासिनः ॥",
+          "meaning": {
+            "en": "Through contempt of brahmins the asuras came to lie in the waters, and through brahmins' favor the gods dwell in heaven."
+          }
         },
         {
           "n": 20,
-          "text": "अशक्यं स्प्रष्टुमाकाशमचाल्यो हिमवान्गिरिः ।\nअवार्या सेतुना गङ्गा दुर्जया ब्राह्मणा भुवि ॥"
+          "text": "अशक्यं स्प्रष्टुमाकाशमचाल्यो हिमवान्गिरिः ।\nअवार्या सेतुना गङ्गा दुर्जया ब्राह्मणा भुवि ॥",
+          "meaning": {
+            "en": "The sky cannot be touched, the Himalaya cannot be moved, and the Ganga cannot be held back by a dam. Brahmins on earth are hard to conquer."
+          }
         },
         {
           "n": 21,
-          "text": "न ब्राह्मणविरोधेन शक्या शास्तुं वसुंधरा ।\nब्राह्मणा हि महात्मानो देवानामपि देवताः ॥"
+          "text": "न ब्राह्मणविरोधेन शक्या शास्तुं वसुंधरा ।\nब्राह्मणा हि महात्मानो देवानामपि देवताः ॥",
+          "meaning": {
+            "en": "The earth cannot be ruled by opposing brahmins, for brahmins are great-souled, the gods even of the gods."
+          }
         },
         {
           "n": 22,
-          "text": "तान्पूजयस्व सततं दानेन परिचर्यया ।\nयदीच्छसि महीं भोक्तुमिमां सागरमेखलाम् ॥"
+          "text": "तान्पूजयस्व सततं दानेन परिचर्यया ।\nयदीच्छसि महीं भोक्तुमिमां सागरमेखलाम् ॥",
+          "meaning": {
+            "en": "If you wish to enjoy this earth girdled by the ocean, honor them always with gifts and service."
+          }
         },
         {
           "n": 23,
-          "text": "प्रतिग्रहेण तेजो हि विप्राणां शाम्यतेऽनघ ।\nप्रतिग्रहं ये नेच्छेयुस्तेऽपि रक्ष्यास्त्वयानघ ॥"
+          "text": "प्रतिग्रहेण तेजो हि विप्राणां शाम्यतेऽनघ ।\nप्रतिग्रहं ये नेच्छेयुस्तेऽपि रक्ष्यास्त्वयानघ ॥",
+          "meaning": {
+            "en": "Sinless one, the brilliance of brahmins is cooled by accepting gifts. You should protect even those who do not wish to accept gifts."
+          }
         }
       ]
     }

@@ -22,65 +22,113 @@
       "titleEn": "Mokshadharma Parva (Duties for liberation)",
       "verses": [
         {
-          "text": "भीष्म उवाच"
+          "text": "भीष्म उवाच",
+          "meaning": {
+            "en": "Bhishma said:"
+          }
         },
         {
           "n": 1,
-          "text": "अत्राप्युदाहरन्तीममितिहासं पुरातनम् ।\nप्रजानामनुकम्पार्थं गीतं राज्ञा विचख्नुना ॥"
+          "text": "अत्राप्युदाहरन्तीममितिहासं पुरातनम् ।\nप्रजानामनुकम्पार्थं गीतं राज्ञा विचख्नुना ॥",
+          "meaning": {
+            "en": "On this too they tell this ancient tale, sung by King Vichakhnu for the compassion of beings."
+          }
         },
         {
           "n": 2,
-          "text": "छिन्नस्थूणं वृषं दृष्ट्वा विरावं च गवां भृशम् ।\nगोग्रहे यज्ञवाटस्य प्रेक्षमाणः स पार्थिवः ॥"
+          "text": "छिन्नस्थूणं वृषं दृष्ट्वा विरावं च गवां भृशम् ।\nगोग्रहे यज्ञवाटस्य प्रेक्षमाणः स पार्थिवः ॥",
+          "meaning": {
+            "en": "Seeing a bull with its tether-post cut and hearing the loud cries of the cows seized at the sacrificial enclosure, the king looked on."
+          }
         },
         {
           "n": 3,
-          "text": "स्वस्ति गोभ्योऽस्तु लोकेषु ततो निर्वचनं कृतम् ।\nहिंसायां हि प्रवृत्तायामाशीरेषानुकल्पिता ॥"
+          "text": "स्वस्ति गोभ्योऽस्तु लोकेषु ततो निर्वचनं कृतम् ।\nहिंसायां हि प्रवृत्तायामाशीरेषानुकल्पिता ॥",
+          "meaning": {
+            "en": "\"May the cows be well in the worlds!\" So he declared. For when violence is under way, this blessing is only a substitute."
+          }
         },
         {
           "n": 4,
-          "text": "अव्यवस्थितमर्यादैर्विमूढैर्नास्तिकैर्नरैः ।\nसंशयात्मभिरव्यक्तैर्हिंसा समनुकीर्तिता ॥"
+          "text": "अव्यवस्थितमर्यादैर्विमूढैर्नास्तिकैर्नरैः ।\nसंशयात्मभिरव्यक्तैर्हिंसा समनुकीर्तिता ॥",
+          "meaning": {
+            "en": "Violence has been extolled by confused unbelievers, doubting and obscure, who keep no fixed limits."
+          }
         },
         {
           "n": 5,
-          "text": "सर्वकर्मस्वहिंसा हि धर्मात्मा मनुरब्रवीत् ।\nकामरागाद्विहिंसन्ति बहिर्वेद्यां पशून्नराः ॥"
+          "text": "सर्वकर्मस्वहिंसा हि धर्मात्मा मनुरब्रवीत् ।\nकामरागाद्विहिंसन्ति बहिर्वेद्यां पशून्नराः ॥",
+          "meaning": {
+            "en": "The righteous Manu said non-violence holds in all acts. Men kill animals outside the altar from desire and passion."
+          }
         },
         {
           "n": 6,
-          "text": "तस्मात्प्रमाणतः कार्यो धर्मः सूक्ष्मो विजानता ।\nअहिंसैव हि सर्वेभ्यो धर्मेभ्यो ज्यायसी मता ॥"
+          "text": "तस्मात्प्रमाणतः कार्यो धर्मः सूक्ष्मो विजानता ।\nअहिंसैव हि सर्वेभ्यो धर्मेभ्यो ज्यायसी मता ॥",
+          "meaning": {
+            "en": "So dharma, which is subtle, should be practiced by one who knows, by authority. Non-violence alone is considered greater than all dharmas."
+          }
         },
         {
           "n": 7,
-          "text": "उपोष्य संशितो भूत्वा हित्वा वेदकृताः श्रुतीः ।\nआचार इत्यनाचाराः कृपणाः फलहेतवः ॥"
+          "text": "उपोष्य संशितो भूत्वा हित्वा वेदकृताः श्रुतीः ।\nआचार इत्यनाचाराः कृपणाः फलहेतवः ॥",
+          "meaning": {
+            "en": "Fasting and keen, but abandoning the Vedic texts, wretched, doing wrong, they call it \"conduct,\" for the sake of fruit."
+          }
         },
         {
           "n": 8,
-          "text": "यदि यज्ञांश्च वृक्षांश्च यूपांश्चोद्दिश्य मानवाः ।\nवृथा मांसानि खादन्ति नैष धर्मः प्रशस्यते ॥"
+          "text": "यदि यज्ञांश्च वृक्षांश्च यूपांश्चोद्दिश्य मानवाः ।\nवृथा मांसानि खादन्ति नैष धर्मः प्रशस्यते ॥",
+          "meaning": {
+            "en": "If men eat meat in vain in the name of sacrifices, trees or sacrificial posts, that dharma is not praised."
+          }
         },
         {
           "n": 9,
-          "text": "मांसं मधु सुरा मत्स्या आसवं कृसरौदनम् ।\nधूर्तैः प्रवर्तितं ह्येतन्नैतद्वेदेषु कल्पितम् ॥"
+          "text": "मांसं मधु सुरा मत्स्या आसवं कृसरौदनम् ।\nधूर्तैः प्रवर्तितं ह्येतन्नैतद्वेदेषु कल्पितम् ॥",
+          "meaning": {
+            "en": "Meat, honey, liquor, fish, spirits and rice with sesame are things brought in by rogues; they are not prescribed in the Vedas."
+          }
         },
         {
           "n": 10,
-          "text": "कामान्मोहाच्च लोभाच्च लौल्यमेतत्प्रवर्तितम् ।\nविष्णुमेवाभिजानन्ति सर्वयज्ञेषु ब्राह्मणाः ।\nपायसैः सुमनोभिश्च तस्यापि यजनं स्मृतम् ॥"
+          "text": "कामान्मोहाच्च लोभाच्च लौल्यमेतत्प्रवर्तितम् ।\nविष्णुमेवाभिजानन्ति सर्वयज्ञेषु ब्राह्मणाः ।\nपायसैः सुमनोभिश्च तस्यापि यजनं स्मृतम् ॥",
+          "meaning": {
+            "en": "This indulgence was introduced from desire, delusion and greed. Brahmins know Vishnu alone in all sacrifices, and worship of him is said to be with rice pudding and flowers."
+          }
         },
         {
           "n": 11,
-          "text": "यज्ञियाश्चैव ये वृक्षा वेदेषु परिकल्पिताः ।\nयच्चापि किंचित्कर्तव्यमन्यच्चोक्षैः सुसंस्कृतम् ।\nमहासत्त्वैः शुद्धभावैः सर्वं देवार्हमेव तत् ॥"
+          "text": "यज्ञियाश्चैव ये वृक्षा वेदेषु परिकल्पिताः ।\nयच्चापि किंचित्कर्तव्यमन्यच्चोक्षैः सुसंस्कृतम् ।\nमहासत्त्वैः शुद्धभावैः सर्वं देवार्हमेव तत् ॥",
+          "meaning": {
+            "en": "The trees fit for sacrifice that are laid down in the Vedas, and anything else that must be done, well prepared with purified things, by great-minded men of pure heart, all that is fit for the gods."
+          }
         },
         {
-          "text": "युधिष्ठिर उवाच"
+          "text": "युधिष्ठिर उवाच",
+          "meaning": {
+            "en": "Yudhishthira said:"
+          }
         },
         {
           "n": 12,
-          "text": "शरीरमापदश्चापि विवदन्त्यविहिंसतः ।\nकथं यात्रा शरीरस्य निरारम्भस्य सेत्स्यति ॥"
+          "text": "शरीरमापदश्चापि विवदन्त्यविहिंसतः ।\nकथं यात्रा शरीरस्य निरारम्भस्य सेत्स्यति ॥",
+          "meaning": {
+            "en": "Body and misfortune contend against one who does no harm. How will life's journey of one who undertakes nothing be accomplished?"
+          }
         },
         {
-          "text": "भीष्म उवाच"
+          "text": "भीष्म उवाच",
+          "meaning": {
+            "en": "Bhishma said:"
+          }
         },
         {
           "n": 13,
-          "text": "यथा शरीरं न ग्लायेन्नेयान्मृत्युवशं यथा ।\nतथा कर्मसु वर्तेत समर्थो धर्ममाचरेत् ॥"
+          "text": "यथा शरीरं न ग्लायेन्नेयान्मृत्युवशं यथा ।\nतथा कर्मसु वर्तेत समर्थो धर्ममाचरेत् ॥",
+          "meaning": {
+            "en": "Act so that the body does not waste away and does not fall under death's power; a capable man should practice dharma in his actions in that way."
+          }
         }
       ]
     }

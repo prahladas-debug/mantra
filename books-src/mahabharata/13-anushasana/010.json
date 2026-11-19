@@ -22,314 +22,554 @@
       "titleEn": "Anushasanika Parva (The instructions)",
       "verses": [
         {
-          "text": "युधिष्ठिर उवाच"
+          "text": "युधिष्ठिर उवाच",
+          "meaning": {
+            "en": "Yudhishthira said:"
+          }
         },
         {
           "n": 1,
-          "text": "मित्रसौहृदभावेन उपदेशं करोति यः ।\nजात्यावरस्य राजर्षे दोषस्तस्य भवेन्न वा ॥"
+          "text": "मित्रसौहृदभावेन उपदेशं करोति यः ।\nजात्यावरस्य राजर्षे दोषस्तस्य भवेन्न वा ॥",
+          "meaning": {
+            "en": "A man who gives instruction out of friendship and goodwill to one of lower birth, royal sage: is there fault in him or not?"
+          }
         },
         {
           "n": 2,
-          "text": "एतदिच्छामि तत्त्वेन व्याख्यातुं वै पितामह ।\nसूक्ष्मा गतिर्हि धर्मस्य यत्र मुह्यन्ति मानवाः ॥"
+          "text": "एतदिच्छामि तत्त्वेन व्याख्यातुं वै पितामह ।\nसूक्ष्मा गतिर्हि धर्मस्य यत्र मुह्यन्ति मानवाः ॥",
+          "meaning": {
+            "en": "Grandfather, I wish you to explain this truly, for the course of dharma is subtle, and people are confused about it."
+          }
         },
         {
-          "text": "भीष्म उवाच"
+          "text": "भीष्म उवाच",
+          "meaning": {
+            "en": "Bhishma said:"
+          }
         },
         {
           "n": 3,
-          "text": "अत्र ते वर्तयिष्यामि शृणु राजन्यथागमम् ।\nऋषीणां वदतां पूर्वं श्रुतमासीद्यथा मया ॥"
+          "text": "अत्र ते वर्तयिष्यामि शृणु राजन्यथागमम् ।\nऋषीणां वदतां पूर्वं श्रुतमासीद्यथा मया ॥",
+          "meaning": {
+            "en": "I will tell you about it, king, as the tradition goes, as I heard it long ago when the sages were speaking."
+          }
         },
         {
           "n": 4,
-          "text": "उपदेशो न कर्तव्यो जातिहीनस्य कस्यचित् ।\nउपदेशे महान्दोष उपाध्यायस्य भाष्यते ॥"
+          "text": "उपदेशो न कर्तव्यो जातिहीनस्य कस्यचित् ।\nउपदेशे महान्दोष उपाध्यायस्य भाष्यते ॥",
+          "meaning": {
+            "en": "Instruction should not be given to anyone of low birth; great fault is said to attach to the teacher who instructs."
+          }
         },
         {
           "n": 5,
-          "text": "निदर्शनमिदं राजञ्शृणु मे भरतर्षभ ।\nदुरुक्तवचने राजन्यथा पूर्वं युधिष्ठिर ।\nब्रह्माश्रमपदे वृत्तं पार्श्वे हिमवतः शुभे ॥"
+          "text": "निदर्शनमिदं राजञ्शृणु मे भरतर्षभ ।\nदुरुक्तवचने राजन्यथा पूर्वं युधिष्ठिर ।\nब्रह्माश्रमपदे वृत्तं पार्श्वे हिमवतः शुभे ॥",
+          "meaning": {
+            "en": "Hear this illustration from me, king, best of Bharatas, of how ill-spoken words once led to harm, in an event that took place at a hermitage of Brahma on a fair slope of the Himalaya."
+          }
         },
         {
           "n": 6,
-          "text": "तत्राश्रमपदं पुण्यं नानावृक्षगणायुतम् ।\nबहुगुल्मलताकीर्णं मृगद्विजनिषेवितम् ॥"
+          "text": "तत्राश्रमपदं पुण्यं नानावृक्षगणायुतम् ।\nबहुगुल्मलताकीर्णं मृगद्विजनिषेवितम् ॥",
+          "meaning": {
+            "en": "That holy hermitage was filled with many kinds of trees and spread with many bushes and creepers, and was frequented by deer and birds."
+          }
         },
         {
           "n": 7,
-          "text": "सिद्धचारणसंघुष्टं रम्यं पुष्पितकाननम् ।\nव्रतिभिर्बहुभिः कीर्णं तापसैरुपशोभितम् ॥"
+          "text": "सिद्धचारणसंघुष्टं रम्यं पुष्पितकाननम् ।\nव्रतिभिर्बहुभिः कीर्णं तापसैरुपशोभितम् ॥",
+          "meaning": {
+            "en": "It was charming, with flowering groves, resounding with perfected ones and bards, crowded with many men of vows and adorned with ascetics."
+          }
         },
         {
           "n": 8,
-          "text": "ब्राह्मणैश्च महाभागैः सूर्यज्वलनसंनिभैः ।\nनियमव्रतसंपन्नैः समाकीर्णं तपस्विभिः ।\nदीक्षितैर्भरतश्रेष्ठ यताहारैः कृतात्मभिः ॥"
+          "text": "ब्राह्मणैश्च महाभागैः सूर्यज्वलनसंनिभैः ।\nनियमव्रतसंपन्नैः समाकीर्णं तपस्विभिः ।\nदीक्षितैर्भरतश्रेष्ठ यताहारैः कृतात्मभिः ॥",
+          "meaning": {
+            "en": "It was thronged with fortunate brahmins who shone like the sun and fire, ascetics of discipline and vows, consecrated, moderate in eating and self-mastered."
+          }
         },
         {
           "n": 9,
-          "text": "वेदाध्ययनघोषैश्च नादितं भरतर्षभ ।\nवालखिल्यैश्च बहुभिर्यतिभिश्च निषेवितम् ॥"
+          "text": "वेदाध्ययनघोषैश्च नादितं भरतर्षभ ।\nवालखिल्यैश्च बहुभिर्यतिभिश्च निषेवितम् ॥",
+          "meaning": {
+            "en": "It echoed with the sound of Vedic study, and was frequented by many Valakhilyas and ascetics."
+          }
         },
         {
           "n": 10,
-          "text": "तत्र कश्चित्समुत्साहं कृत्वा शूद्रो दयान्वितः ।\nआगतो ह्याश्रमपदं पूजितश्च तपस्विभिः ॥"
+          "text": "तत्र कश्चित्समुत्साहं कृत्वा शूद्रो दयान्वितः ।\nआगतो ह्याश्रमपदं पूजितश्च तपस्विभिः ॥",
+          "meaning": {
+            "en": "A certain Shudra, full of compassion, made up his mind and came to that hermitage and was honored by the ascetics."
+          }
         },
         {
           "n": 11,
-          "text": "तांस्तु दृष्ट्वा मुनिगणान्देवकल्पान्महौजसः ।\nवहतो विविधा दीक्षाः संप्रहृष्यत भारत ॥"
+          "text": "तांस्तु दृष्ट्वा मुनिगणान्देवकल्पान्महौजसः ।\nवहतो विविधा दीक्षाः संप्रहृष्यत भारत ॥",
+          "meaning": {
+            "en": "Seeing those companies of sages, mighty and godlike, observing varied consecrations, he rejoiced greatly."
+          }
         },
         {
           "n": 12,
-          "text": "अथास्य बुद्धिरभवत्तपस्ये भरतर्षभ ।\nततोऽब्रवीत्कुलपतिं पादौ संगृह्य भारत ॥"
+          "text": "अथास्य बुद्धिरभवत्तपस्ये भरतर्षभ ।\nततोऽब्रवीत्कुलपतिं पादौ संगृह्य भारत ॥",
+          "meaning": {
+            "en": "Then a desire for austerity arose in him, and, clasping the feet of the head of the hermitage, he spoke to him."
+          }
         },
         {
           "n": 13,
-          "text": "भवत्प्रसादादिच्छामि धर्मं चर्तुं द्विजर्षभ ।\nतन्मां त्वं भगवन्वक्तुं प्रव्राजयितुमर्हसि ॥"
+          "text": "भवत्प्रसादादिच्छामि धर्मं चर्तुं द्विजर्षभ ।\nतन्मां त्वं भगवन्वक्तुं प्रव्राजयितुमर्हसि ॥",
+          "meaning": {
+            "en": "\"By your grace, best of brahmins, I wish to practice dharma; please instruct me and let me take up the ascetic life."
+          }
         },
         {
           "n": 14,
-          "text": "वर्णावरोऽहं भगवञ्शूद्रो जात्यास्मि सत्तम ।\nशुश्रूषां कर्तुमिच्छामि प्रपन्नाय प्रसीद मे ॥"
+          "text": "वर्णावरोऽहं भगवञ्शूद्रो जात्यास्मि सत्तम ।\nशुश्रूषां कर्तुमिच्छामि प्रपन्नाय प्रसीद मे ॥",
+          "meaning": {
+            "en": "Blessed one, I am of the lowest class, a Shudra by birth, good sir. I wish to serve; be kind to me, who have come to you.\""
+          }
         },
         {
-          "text": "कुलपतिरुवाच"
+          "text": "कुलपतिरुवाच",
+          "meaning": {
+            "en": "The head of the hermitage said:"
+          }
         },
         {
           "n": 15,
-          "text": "न शक्यमिह शूद्रेण लिङ्गमाश्रित्य वर्तितुम् ।\nआस्यतां यदि ते बुद्धिः शुश्रूषानिरतो भव ॥"
+          "text": "न शक्यमिह शूद्रेण लिङ्गमाश्रित्य वर्तितुम् ।\nआस्यतां यदि ते बुद्धिः शुश्रूषानिरतो भव ॥",
+          "meaning": {
+            "en": "A Shudra cannot live here by assuming the marks of an ascetic. If you wish, stay and be devoted to service."
+          }
         },
         {
-          "text": "भीष्म उवाच"
+          "text": "भीष्म उवाच",
+          "meaning": {
+            "en": "Bhishma said:"
+          }
         },
         {
           "n": 16,
-          "text": "एवमुक्तस्तु मुनिना स शूद्रोऽचिन्तयन्नृप ।\nकथमत्र मया कार्यं श्रद्धा धर्मे परा च मे ।\nविज्ञातमेवं भवतु करिष्ये प्रियमात्मनः ॥"
+          "text": "एवमुक्तस्तु मुनिना स शूद्रोऽचिन्तयन्नृप ।\nकथमत्र मया कार्यं श्रद्धा धर्मे परा च मे ।\nविज्ञातमेवं भवतु करिष्ये प्रियमात्मनः ॥",
+          "meaning": {
+            "en": "Thus addressed by the sage, the Shudra thought, \"What shall I do here? My faith in dharma is supreme. Let it be so, I shall do what pleases my own self.\""
+          }
         },
         {
           "n": 17,
-          "text": "गत्वाश्रमपदाद्दूरमुटजं कृतवांस्तु सः ।\nतत्र वेदिं च भूमिं च देवतायतनानि च ।\nनिवेश्य भरतश्रेष्ठ नियमस्थोऽभवत्सुखम् ॥"
+          "text": "गत्वाश्रमपदाद्दूरमुटजं कृतवांस्तु सः ।\nतत्र वेदिं च भूमिं च देवतायतनानि च ।\nनिवेश्य भरतश्रेष्ठ नियमस्थोऽभवत्सुखम् ॥",
+          "meaning": {
+            "en": "He went far from the hermitage and made a hut. There, having set up an altar, a plot of ground and shrines of the gods, he lived happily in discipline."
+          }
         },
         {
           "n": 18,
-          "text": "अभिषेकांश्च नियमान्देवतायतनेषु च ।\nबलिं च कृत्वा हुत्वा च देवतां चाप्यपूजयत् ॥"
+          "text": "अभिषेकांश्च नियमान्देवतायतनेषु च ।\nबलिं च कृत्वा हुत्वा च देवतां चाप्यपूजयत् ॥",
+          "meaning": {
+            "en": "He performed ablutions and observances at the shrines, made offerings and oblations, and worshiped the deity."
+          }
         },
         {
           "n": 19,
-          "text": "संकल्पनियमोपेतः फलाहारो जितेन्द्रियः ।\nनित्यं संनिहिताभिश्च ओषधीभिः फलैस्तथा ॥"
+          "text": "संकल्पनियमोपेतः फलाहारो जितेन्द्रियः ।\nनित्यं संनिहिताभिश्च ओषधीभिः फलैस्तथा ॥",
+          "meaning": {
+            "en": "Keeping resolve and discipline, living on fruit and with senses subdued, with herbs and fruits kept always at hand,"
+          }
         },
         {
           "n": 20,
-          "text": "अतिथीन्पूजयामास यथावत्समुपागतान् ।\nएवं हि सुमहान्कालो व्यत्यक्रामत्स तस्य वै ॥"
+          "text": "अतिथीन्पूजयामास यथावत्समुपागतान् ।\nएवं हि सुमहान्कालो व्यत्यक्रामत्स तस्य वै ॥",
+          "meaning": {
+            "en": "he honored guests who came, in due form. In this way a very long time passed for him."
+          }
         },
         {
           "n": 21,
-          "text": "अथास्य मुनिरागच्छत्संगत्या वै तमाश्रमम् ।\nसंपूज्य स्वागतेनर्षिं विधिवत्पर्यतोषयत् ॥"
+          "text": "अथास्य मुनिरागच्छत्संगत्या वै तमाश्रमम् ।\nसंपूज्य स्वागतेनर्षिं विधिवत्पर्यतोषयत् ॥",
+          "meaning": {
+            "en": "Then a sage, by chance, came to that hermitage; the Shudra honored him with a welcome and satisfied him by the rite."
+          }
         },
         {
           "n": 22,
-          "text": "अनुकूलाः कथाः कृत्वा यथावत्पर्यपृच्छत ।\nऋषिः परमतेजस्वी धर्मात्मा संयतेन्द्रियः ॥"
+          "text": "अनुकूलाः कथाः कृत्वा यथावत्पर्यपृच्छत ।\nऋषिः परमतेजस्वी धर्मात्मा संयतेन्द्रियः ॥",
+          "meaning": {
+            "en": "The sage, brilliant, righteous and with senses restrained, conversed pleasantly and asked about him in due form."
+          }
         },
         {
           "n": 23,
-          "text": "एवं स बहुशस्तस्य शूद्रस्य भरतर्षभ ।\nसोऽगच्छदाश्रममृषिः शूद्रं द्रष्टुं नरर्षभ ॥"
+          "text": "एवं स बहुशस्तस्य शूद्रस्य भरतर्षभ ।\nसोऽगच्छदाश्रममृषिः शूद्रं द्रष्टुं नरर्षभ ॥",
+          "meaning": {
+            "en": "In this way, best of Bharatas, that sage came many times to the hermitage to see the Shudra."
+          }
         },
         {
           "n": 24,
-          "text": "अथ तं तापसं शूद्रः सोऽब्रवीद्भरतर्षभ ।\nपितृकार्यं करिष्यामि तत्र मेऽनुग्रहं कुरु ॥"
+          "text": "अथ तं तापसं शूद्रः सोऽब्रवीद्भरतर्षभ ।\nपितृकार्यं करिष्यामि तत्र मेऽनुग्रहं कुरु ॥",
+          "meaning": {
+            "en": "Then the Shudra said to that ascetic, \"I wish to perform a rite for my ancestors; please favor me in it.\""
+          }
         },
         {
           "n": 25,
-          "text": "बाढमित्येव तं विप्र उवाच भरतर्षभ ।\nशुचिर्भूत्वा स शूद्रस्तु तस्यर्षेः पाद्यमानयत् ॥"
+          "text": "बाढमित्येव तं विप्र उवाच भरतर्षभ ।\nशुचिर्भूत्वा स शूद्रस्तु तस्यर्षेः पाद्यमानयत् ॥",
+          "meaning": {
+            "en": "\"Very well,\" the brahmin said to him. Then the Shudra, having made himself pure, brought water for the sage's feet."
+          }
         },
         {
           "n": 26,
-          "text": "अथ दर्भांश्च वन्याश्च ओषधीर्भरतर्षभ ।\nपवित्रमासनं चैव बृसीं च समुपानयत् ॥"
+          "text": "अथ दर्भांश्च वन्याश्च ओषधीर्भरतर्षभ ।\nपवित्रमासनं चैव बृसीं च समुपानयत् ॥",
+          "meaning": {
+            "en": "He then brought darbha grass and forest herbs, a purified seat and a cushion."
+          }
         },
         {
           "n": 27,
-          "text": "अथ दक्षिणमावृत्य बृसीं परमशीर्षिकाम् ।\nकृतामन्यायतो दृष्ट्वा ततस्तमृषिरब्रवीत् ॥"
+          "text": "अथ दक्षिणमावृत्य बृसीं परमशीर्षिकाम् ।\nकृतामन्यायतो दृष्ट्वा ततस्तमृषिरब्रवीत् ॥",
+          "meaning": {
+            "en": "Seeing the cushion placed with its head toward the south, wrongly laid, the sage said to him:"
+          }
         },
         {
           "n": 28,
-          "text": "कुरुष्वैतां पूर्वशीर्षां भव चोदङ्मुखः शुचिः ।\nस च तत्कृतवाञ्शूद्रः सर्वं यदृषिरब्रवीत् ॥"
+          "text": "कुरुष्वैतां पूर्वशीर्षां भव चोदङ्मुखः शुचिः ।\nस च तत्कृतवाञ्शूद्रः सर्वं यदृषिरब्रवीत् ॥",
+          "meaning": {
+            "en": "\"Place it with its head to the east, and be pure and face north.\" The Shudra did all as the sage said."
+          }
         },
         {
           "n": 29,
-          "text": "यथोपदिष्टं मेधावी दर्भादींस्तान्यथातथम् ।\nहव्यकव्यविधिं कृत्स्नमुक्तं तेन तपस्विना ॥"
+          "text": "यथोपदिष्टं मेधावी दर्भादींस्तान्यथातथम् ।\nहव्यकव्यविधिं कृत्स्नमुक्तं तेन तपस्विना ॥",
+          "meaning": {
+            "en": "The wise man did the darbha grass and the rest just as instructed, and the whole procedure for offerings to gods and ancestors that the ascetic told him."
+          }
         },
         {
           "n": 30,
-          "text": "ऋषिणा पितृकार्ये च स च धर्मपथे स्थितः ।\nपितृकार्ये कृते चापि विसृष्टः स जगाम ह ॥"
+          "text": "ऋषिणा पितृकार्ये च स च धर्मपथे स्थितः ।\nपितृकार्ये कृते चापि विसृष्टः स जगाम ह ॥",
+          "meaning": {
+            "en": "The sage was in the ancestors' rite and the Shudra was on the path of dharma; when the ancestors' rite was done, the sage was dismissed and left."
+          }
         },
         {
           "n": 31,
-          "text": "अथ दीर्घस्य कालस्य स तप्यञ्शूद्रतापसः ।\nवने पञ्चत्वमगमत्सुकृतेन च तेन वै ।\nअजायत महाराजराजवंशे महाद्युतिः ॥"
+          "text": "अथ दीर्घस्य कालस्य स तप्यञ्शूद्रतापसः ।\nवने पञ्चत्वमगमत्सुकृतेन च तेन वै ।\nअजायत महाराजराजवंशे महाद्युतिः ॥",
+          "meaning": {
+            "en": "After a long time, the Shudra ascetic, practicing austerity in the forest, died; and by that merit he was born, great king, as a very radiant prince in a royal line."
+          }
         },
         {
           "n": 32,
-          "text": "तथैव स ऋषिस्तात कालधर्ममवाप्य ह ।\nपुरोहितकुले विप्र आजातो भरतर्षभ ॥"
+          "text": "तथैव स ऋषिस्तात कालधर्ममवाप्य ह ।\nपुरोहितकुले विप्र आजातो भरतर्षभ ॥",
+          "meaning": {
+            "en": "The sage too, son, having met the law of time, was born as a brahmin in the household of a royal chaplain, best of Bharatas."
+          }
         },
         {
           "n": 33,
-          "text": "एवं तौ तत्र संभूतावुभौ शूद्रमुनी तदा ।\nक्रमेण वर्धितौ चापि विद्यासु कुशलावुभौ ॥"
+          "text": "एवं तौ तत्र संभूतावुभौ शूद्रमुनी तदा ।\nक्रमेण वर्धितौ चापि विद्यासु कुशलावुभौ ॥",
+          "meaning": {
+            "en": "So those two, the Shudra and the sage, were born there and grew up in due order, both skilled in the sciences."
+          }
         },
         {
           "n": 34,
-          "text": "अथर्ववेदे वेदे च बभूवर्षिः सुनिश्चितः ।\nकल्पप्रयोगे चोत्पन्ने ज्योतिषे च परं गतः ।\nसख्ये चापि परा प्रीतिस्तयोश्चापि व्यवर्धत ॥"
+          "text": "अथर्ववेदे वेदे च बभूवर्षिः सुनिश्चितः ।\nकल्पप्रयोगे चोत्पन्ने ज्योतिषे च परं गतः ।\nसख्ये चापि परा प्रीतिस्तयोश्चापि व्यवर्धत ॥",
+          "meaning": {
+            "en": "The sage became well versed in the Atharva Veda and the Vedas, in ritual practice, and went to the farthest end of astronomy; and the deep affection between the two also grew."
+          }
         },
         {
           "n": 35,
-          "text": "पितर्युपरते चापि कृतशौचः स भारत ।\nअभिषिक्तः प्रकृतिभी राजपुत्रः स पार्थिवः ।\nअभिषिक्तेन स ऋषिरभिषिक्तः पुरोहितः ॥"
+          "text": "पितर्युपरते चापि कृतशौचः स भारत ।\nअभिषिक्तः प्रकृतिभी राजपुत्रः स पार्थिवः ।\nअभिषिक्तेन स ऋषिरभिषिक्तः पुरोहितः ॥",
+          "meaning": {
+            "en": "When his father died, Bharata, the prince, having done the purifications, was consecrated king by the subjects; and the sage was consecrated chaplain by the consecrated king."
+          }
         },
         {
           "n": 36,
-          "text": "स तं पुरोधाय सुखमवसद्भरतर्षभ ।\nराज्यं शशास धर्मेण प्रजाश्च परिपालयन् ॥"
+          "text": "स तं पुरोधाय सुखमवसद्भरतर्षभ ।\nराज्यं शशास धर्मेण प्रजाश्च परिपालयन् ॥",
+          "meaning": {
+            "en": "Having made him his chaplain, the king lived happily, ruling by dharma and protecting the people."
+          }
         },
         {
           "n": 37,
-          "text": "पुण्याहवाचने नित्यं धर्मकार्येषु चासकृत् ।\nउत्स्मयन्प्राहसच्चापि दृष्ट्वा राजा पुरोहितम् ।\nएवं स बहुशो राजन्पुरोधसमुपाहसत् ॥"
+          "text": "पुण्याहवाचने नित्यं धर्मकार्येषु चासकृत् ।\nउत्स्मयन्प्राहसच्चापि दृष्ट्वा राजा पुरोहितम् ।\nएवं स बहुशो राजन्पुरोधसमुपाहसत् ॥",
+          "meaning": {
+            "en": "Whenever the auspicious-day blessing was recited and in religious works again and again, the king would smile and laugh on seeing the chaplain. So, king, he laughed at his chaplain many times."
+          }
         },
         {
           "n": 38,
-          "text": "लक्षयित्वा पुरोधास्तु बहुशस्तं नराधिपम् ।\nउत्स्मयन्तं च सततं दृष्ट्वासौ मन्युमानभूत् ॥"
+          "text": "लक्षयित्वा पुरोधास्तु बहुशस्तं नराधिपम् ।\nउत्स्मयन्तं च सततं दृष्ट्वासौ मन्युमानभूत् ॥",
+          "meaning": {
+            "en": "Having noticed that the king smiled constantly, the chaplain became angry."
+          }
         },
         {
           "n": 39,
-          "text": "अथ शून्ये पुरोधास्तु सह राज्ञा समागतः ।\nकथाभिरनुकूलाभी राजानमभिरामयत् ॥"
+          "text": "अथ शून्ये पुरोधास्तु सह राज्ञा समागतः ।\nकथाभिरनुकूलाभी राजानमभिरामयत् ॥",
+          "meaning": {
+            "en": "Then, in private, the chaplain met the king and pleased him with agreeable talk."
+          }
         },
         {
           "n": 40,
-          "text": "ततोऽब्रवीन्नरेन्द्रं स पुरोधा भरतर्षभ ।\nवरमिच्छाम्यहं त्वेकं त्वया दत्तं महाद्युते ॥"
+          "text": "ततोऽब्रवीन्नरेन्द्रं स पुरोधा भरतर्षभ ।\nवरमिच्छाम्यहं त्वेकं त्वया दत्तं महाद्युते ॥",
+          "meaning": {
+            "en": "Then the chaplain said to the king, best of Bharatas, \"Radiant one, I wish to ask one boon from you.\""
+          }
         },
         {
-          "text": "राजोवाच"
+          "text": "राजोवाच",
+          "meaning": {
+            "en": "The king said:"
+          }
         },
         {
           "n": 41,
-          "text": "वराणां ते शतं दद्यां किमुतैकं द्विजोत्तम ।\nस्नेहाच्च बहुमानाच्च नास्त्यदेयं हि मे तव ॥"
+          "text": "वराणां ते शतं दद्यां किमुतैकं द्विजोत्तम ।\nस्नेहाच्च बहुमानाच्च नास्त्यदेयं हि मे तव ॥",
+          "meaning": {
+            "en": "I would give you a hundred boons, best of brahmins, much less one; out of affection and esteem, there is nothing I would not give you."
+          }
         },
         {
-          "text": "पुरोहित उवाच"
+          "text": "पुरोहित उवाच",
+          "meaning": {
+            "en": "The chaplain said:"
+          }
         },
         {
           "n": 42,
-          "text": "एकं वै वरमिच्छामि यदि तुष्टोऽसि पार्थिव ।\nयद्ददासि महाराज सत्यं तद्वद मानृतम् ॥"
+          "text": "एकं वै वरमिच्छामि यदि तुष्टोऽसि पार्थिव ।\nयद्ददासि महाराज सत्यं तद्वद मानृतम् ॥",
+          "meaning": {
+            "en": "I want one boon, king, if you are pleased: tell me the truth, great king, and not a falsehood, about what you give."
+          }
         },
         {
-          "text": "भीष्म उवाच"
+          "text": "भीष्म उवाच",
+          "meaning": {
+            "en": "Bhishma said:"
+          }
         },
         {
           "n": 43,
-          "text": "बाढमित्येव तं राजा प्रत्युवाच युधिष्ठिर ।\nयदि ज्ञास्यामि वक्ष्यामि अजानन्न तु संवदे ॥"
+          "text": "बाढमित्येव तं राजा प्रत्युवाच युधिष्ठिर ।\nयदि ज्ञास्यामि वक्ष्यामि अजानन्न तु संवदे ॥",
+          "meaning": {
+            "en": "\"Very well,\" said the king to him, Yudhishthira. \"If I know, I will say; if I do not know, I will not speak.\""
+          }
         },
         {
-          "text": "पुरोहित उवाच"
+          "text": "पुरोहित उवाच",
+          "meaning": {
+            "en": "The chaplain said:"
+          }
         },
         {
           "n": 44,
-          "text": "पुण्याहवाचने नित्यं धर्मकृत्येषु चासकृत् ।\nशान्तिहोमेषु च सदा किं त्वं हससि वीक्ष्य माम् ॥"
+          "text": "पुण्याहवाचने नित्यं धर्मकृत्येषु चासकृत् ।\nशान्तिहोमेषु च सदा किं त्वं हससि वीक्ष्य माम् ॥",
+          "meaning": {
+            "en": "When the auspicious-day blessing is spoken, in religious works again and again, and in rites of pacification, why do you laugh on seeing me?"
+          }
         },
         {
           "n": 45,
-          "text": "सव्रीडं वै भवति हि मनो मे हसता त्वया ।\nकामया शापितो राजन्नान्यथा वक्तुमर्हसि ॥"
+          "text": "सव्रीडं वै भवति हि मनो मे हसता त्वया ।\nकामया शापितो राजन्नान्यथा वक्तुमर्हसि ॥",
+          "meaning": {
+            "en": "My mind is ashamed at your laughing, king. I adjure you by my wish; you must not answer otherwise."
+          }
         },
         {
           "n": 46,
-          "text": "भाव्यं हि कारणेनात्र न ते हास्यमकारणम् ।\nकौतूहलं मे सुभृशं तत्त्वेन कथयस्व मे ॥"
+          "text": "भाव्यं हि कारणेनात्र न ते हास्यमकारणम् ।\nकौतूहलं मे सुभृशं तत्त्वेन कथयस्व मे ॥",
+          "meaning": {
+            "en": "There must be a reason here, for you do not laugh without cause. My curiosity is great; tell me truly."
+          }
         },
         {
-          "text": "राजोवाच"
+          "text": "राजोवाच",
+          "meaning": {
+            "en": "The king said:"
+          }
         },
         {
           "n": 47,
-          "text": "एवमुक्ते त्वया विप्र यदवाच्यं भवेदपि ।\nअवश्यमेव वक्तव्यं शृणुष्वैकमना द्विज ॥"
+          "text": "एवमुक्ते त्वया विप्र यदवाच्यं भवेदपि ।\nअवश्यमेव वक्तव्यं शृणुष्वैकमना द्विज ॥",
+          "meaning": {
+            "en": "Since you have said this, brahmin, though it may be unspeakable, it must certainly be told. Listen with a single mind, twice-born."
+          }
         },
         {
           "n": 48,
-          "text": "पूर्वदेहे यथा वृत्तं तन्निबोध द्विजोत्तम ।\nजातिं स्मराम्यहं ब्रह्मन्नवधानेन मे शृणु ॥"
+          "text": "पूर्वदेहे यथा वृत्तं तन्निबोध द्विजोत्तम ।\nजातिं स्मराम्यहं ब्रह्मन्नवधानेन मे शृणु ॥",
+          "meaning": {
+            "en": "Understand, best of brahmins, what happened in my former body. I remember my birth, brahmin; listen with attention."
+          }
         },
         {
           "n": 49,
-          "text": "शूद्रोऽहमभवं पूर्वं तापसो भृशसंयुतः ।\nऋषिरुग्रतपास्त्वं च तदाभूर्द्विजसत्तम ॥"
+          "text": "शूद्रोऽहमभवं पूर्वं तापसो भृशसंयुतः ।\nऋषिरुग्रतपास्त्वं च तदाभूर्द्विजसत्तम ॥",
+          "meaning": {
+            "en": "I was formerly a Shudra, an ascetic of great discipline, and you at that time, best of brahmins, were a sage of fierce austerity."
+          }
         },
         {
           "n": 50,
-          "text": "प्रीयता हि तदा ब्रह्मन्ममानुग्रहबुद्धिना ।\nपितृकार्ये त्वया पूर्वमुपदेशः कृतोऽनघ ।\nबृस्यां दर्भेषु हव्ये च कव्ये च मुनिसत्तम ॥"
+          "text": "प्रीयता हि तदा ब्रह्मन्ममानुग्रहबुद्धिना ।\nपितृकार्ये त्वया पूर्वमुपदेशः कृतोऽनघ ।\nबृस्यां दर्भेषु हव्ये च कव्ये च मुनिसत्तम ॥",
+          "meaning": {
+            "en": "Being kind then, brahmin, with a mind to favor me, you gave me instruction at the ancestors' rite, faultless one, about the cushion, the darbha grass, and the offerings to gods and ancestors."
+          }
         },
         {
           "n": 51,
-          "text": "एतेन कर्मदोषेण पुरोधास्त्वमजायथाः ।\nअहं राजा च विप्रेन्द्र पश्य कालस्य पर्ययम् ।\nमत्कृते ह्युपदेशेन त्वया प्राप्तमिदं फलम् ॥"
+          "text": "एतेन कर्मदोषेण पुरोधास्त्वमजायथाः ।\nअहं राजा च विप्रेन्द्र पश्य कालस्य पर्ययम् ।\nमत्कृते ह्युपदेशेन त्वया प्राप्तमिदं फलम् ॥",
+          "meaning": {
+            "en": "By that fault of action you were born as a chaplain. I am king, and you are a brahmin; see the turn of time. By giving instruction on my account, you obtained this fruit."
+          }
         },
         {
           "n": 52,
-          "text": "एतस्मात्कारणाद्ब्रह्मन्प्रहसे त्वां द्विजोत्तम ।\nन त्वां परिभवन्ब्रह्मन्प्रहसामि गुरुर्भवान् ॥"
+          "text": "एतस्मात्कारणाद्ब्रह्मन्प्रहसे त्वां द्विजोत्तम ।\nन त्वां परिभवन्ब्रह्मन्प्रहसामि गुरुर्भवान् ॥",
+          "meaning": {
+            "en": "For this reason, brahmin, I laugh at you, best of the twice-born, not out of contempt, for you are my teacher."
+          }
         },
         {
           "n": 53,
-          "text": "विपर्ययेण मे मन्युस्तेन संतप्यते मनः ।\nजातिं स्मराम्यहं तुभ्यमतस्त्वां प्रहसामि वै ॥"
+          "text": "विपर्ययेण मे मन्युस्तेन संतप्यते मनः ।\nजातिं स्मराम्यहं तुभ्यमतस्त्वां प्रहसामि वै ॥",
+          "meaning": {
+            "en": "My mind is troubled and pained at the reversal; because I remember my birth, I laugh at you."
+          }
         },
         {
           "n": 54,
-          "text": "एवं तवोग्रं हि तप उपदेशेन नाशितम् ।\nपुरोहितत्वमुत्सृज्य यतस्व त्वं पुनर्भवे ॥"
+          "text": "एवं तवोग्रं हि तप उपदेशेन नाशितम् ।\nपुरोहितत्वमुत्सृज्य यतस्व त्वं पुनर्भवे ॥",
+          "meaning": {
+            "en": "In this way your fierce austerity was destroyed by instruction. Give up the chaplaincy and strive in your next birth."
+          }
         },
         {
           "n": 55,
-          "text": "इतस्त्वमधमामन्यां मा योनिं प्राप्स्यसे द्विज ।\nगृह्यतां द्रविणं विप्र पूतात्मा भव सत्तम ॥"
+          "text": "इतस्त्वमधमामन्यां मा योनिं प्राप्स्यसे द्विज ।\nगृह्यतां द्रविणं विप्र पूतात्मा भव सत्तम ॥",
+          "meaning": {
+            "en": "Do not fall into some other lower womb from here, brahmin. Take wealth, brahmin, and be of purified self, good sir."
+          }
         },
         {
-          "text": "भीष्म उवाच"
+          "text": "भीष्म उवाच",
+          "meaning": {
+            "en": "Bhishma said:"
+          }
         },
         {
           "n": 56,
-          "text": "ततो विसृष्टो राज्ञा तु विप्रो दानान्यनेकशः ।\nब्राह्मणेभ्यो ददौ वित्तं भूमिं ग्रामांश्च सर्वशः ॥"
+          "text": "ततो विसृष्टो राज्ञा तु विप्रो दानान्यनेकशः ।\nब्राह्मणेभ्यो ददौ वित्तं भूमिं ग्रामांश्च सर्वशः ॥",
+          "meaning": {
+            "en": "Then, dismissed by the king, the brahmin gave many gifts to brahmins, wealth, land and villages everywhere."
+          }
         },
         {
           "n": 57,
-          "text": "कृच्छ्राणि चीर्त्वा च ततो यथोक्तानि द्विजोत्तमः ।\nतीर्थानि चाभिगत्वा वै दानानि विविधानि च ॥"
+          "text": "कृच्छ्राणि चीर्त्वा च ततो यथोक्तानि द्विजोत्तमः ।\nतीर्थानि चाभिगत्वा वै दानानि विविधानि च ॥",
+          "meaning": {
+            "en": "Then the best of the twice-born performed the penances as prescribed, visited holy places and gave gifts of many kinds."
+          }
         },
         {
           "n": 58,
-          "text": "दत्त्वा गाश्चैव विप्राणां पूतात्मा सोऽभवद्द्विजः ।\nतमेव चाश्रमं गत्वा चचार विपुलं तपः ॥"
+          "text": "दत्त्वा गाश्चैव विप्राणां पूतात्मा सोऽभवद्द्विजः ।\nतमेव चाश्रमं गत्वा चचार विपुलं तपः ॥",
+          "meaning": {
+            "en": "Having given cows to brahmins, he became purified in self; and going to that same hermitage, he practiced great austerity."
+          }
         },
         {
           "n": 59,
-          "text": "ततः सिद्धिं परां प्राप्तो ब्राह्मणो राजसत्तम ।\nसंमतश्चाभवत्तेषामाश्रमेऽऽश्रमवासिनाम् ॥"
+          "text": "ततः सिद्धिं परां प्राप्तो ब्राह्मणो राजसत्तम ।\nसंमतश्चाभवत्तेषामाश्रमेऽऽश्रमवासिनाम् ॥",
+          "meaning": {
+            "en": "Then that brahmin, best of kings, attained supreme perfection and was honored by the dwellers of that hermitage."
+          }
         },
         {
           "n": 60,
-          "text": "एवं प्राप्तो महत्कृच्छ्रमृषिः स नृपसत्तम ।\nब्राह्मणेन न वक्तव्यं तस्माद्वर्णावरे जने ॥"
+          "text": "एवं प्राप्तो महत्कृच्छ्रमृषिः स नृपसत्तम ।\nब्राह्मणेन न वक्तव्यं तस्माद्वर्णावरे जने ॥",
+          "meaning": {
+            "en": "In this way that sage suffered great hardship, best of kings. Therefore a brahmin should not speak to those of lower class."
+          }
         },
         {
           "n": 61,
-          "text": "वर्जयेदुपदेशं च सदैव ब्राह्मणो नृप ।\nउपदेशं हि कुर्वाणो द्विजः कृच्छ्रमवाप्नुयात् ॥"
+          "text": "वर्जयेदुपदेशं च सदैव ब्राह्मणो नृप ।\nउपदेशं हि कुर्वाणो द्विजः कृच्छ्रमवाप्नुयात् ॥",
+          "meaning": {
+            "en": "A brahmin, king, should always avoid giving instruction; a twice-born who gives instruction may fall into hardship."
+          }
         },
         {
           "n": 62,
-          "text": "एषितव्यं सदा वाचा नृपेण द्विजसत्तमात् ।\nन प्रवक्तव्यमिह हि किंचिद्वर्णावरे जने ॥"
+          "text": "एषितव्यं सदा वाचा नृपेण द्विजसत्तमात् ।\nन प्रवक्तव्यमिह हि किंचिद्वर्णावरे जने ॥",
+          "meaning": {
+            "en": "A king should always seek counsel in words from the best of brahmins; nothing should be taught here to those of lower class."
+          }
         },
         {
           "n": 63,
-          "text": "ब्राह्मणाः क्षत्रिया वैश्यास्त्रयो वर्णा द्विजातयः ।\nएतेषु कथयन्राजन्ब्राह्मणो न प्रदुष्यति ॥"
+          "text": "ब्राह्मणाः क्षत्रिया वैश्यास्त्रयो वर्णा द्विजातयः ।\nएतेषु कथयन्राजन्ब्राह्मणो न प्रदुष्यति ॥",
+          "meaning": {
+            "en": "Brahmins, Kshatriyas and Vaishyas, the three twice-born classes: a brahmin who speaks to them, king, is not tainted."
+          }
         },
         {
           "n": 64,
-          "text": "तस्मात्सद्भिर्न वक्तव्यं कस्यचित्किंचिदग्रतः ।\nसूक्ष्मा गतिर्हि धर्मस्य दुर्ज्ञेया ह्यकृतात्मभिः ॥"
+          "text": "तस्मात्सद्भिर्न वक्तव्यं कस्यचित्किंचिदग्रतः ।\nसूक्ष्मा गतिर्हि धर्मस्य दुर्ज्ञेया ह्यकृतात्मभिः ॥",
+          "meaning": {
+            "en": "So the good should not say anything to anyone beforehand; the course of dharma is subtle and hard for the unrefined to know."
+          }
         },
         {
           "n": 65,
-          "text": "तस्मान्मौनानि मुनयो दीक्षां कुर्वन्ति चादृताः ।\nदुरुक्तस्य भयाद्राजन्नानुभाषन्ति किंचन ॥"
+          "text": "तस्मान्मौनानि मुनयो दीक्षां कुर्वन्ति चादृताः ।\nदुरुक्तस्य भयाद्राजन्नानुभाषन्ति किंचन ॥",
+          "meaning": {
+            "en": "Therefore sages observe silence and honor consecration; out of fear of ill-spoken words, king, they say nothing."
+          }
         },
         {
           "n": 66,
-          "text": "धार्मिका गुणसंपन्नाः सत्यार्जवपरायणाः ।\nदुरुक्तवाचाभिहताः प्राप्नुवन्तीह दुष्कृतम् ॥"
+          "text": "धार्मिका गुणसंपन्नाः सत्यार्जवपरायणाः ।\nदुरुक्तवाचाभिहताः प्राप्नुवन्तीह दुष्कृतम् ॥",
+          "meaning": {
+            "en": "Righteous people, virtuous, devoted to truth and honesty, are struck by ill-spoken words and reap evil here."
+          }
         },
         {
           "n": 67,
-          "text": "उपदेशो न कर्तव्यः कदाचिदपि कस्यचित् ।\nउपदेशाद्धि तत्पापं ब्राह्मणः समवाप्नुयात् ॥"
+          "text": "उपदेशो न कर्तव्यः कदाचिदपि कस्यचित् ।\nउपदेशाद्धि तत्पापं ब्राह्मणः समवाप्नुयात् ॥",
+          "meaning": {
+            "en": "Instruction should never be given to anyone at any time; by instruction a brahmin would incur that sin."
+          }
         },
         {
           "n": 68,
-          "text": "विमृश्य तस्मात्प्राज्ञेन वक्तव्यं धर्ममिच्छता ।\nसत्यानृतेन हि कृत उपदेशो हिनस्ति वै ॥"
+          "text": "विमृश्य तस्मात्प्राज्ञेन वक्तव्यं धर्ममिच्छता ।\nसत्यानृतेन हि कृत उपदेशो हिनस्ति वै ॥",
+          "meaning": {
+            "en": "So the wise man who wishes for dharma should speak only after reflection; instruction given with truth mixed with falsehood harms."
+          }
         },
         {
           "n": 69,
-          "text": "वक्तव्यमिह पृष्टेन विनिश्चित्य विपर्ययम् ।\nस चोपदेशः कर्तव्यो येन धर्ममवाप्नुयात् ॥"
+          "text": "वक्तव्यमिह पृष्टेन विनिश्चित्य विपर्ययम् ।\nस चोपदेशः कर्तव्यो येन धर्ममवाप्नुयात् ॥",
+          "meaning": {
+            "en": "When asked, one should speak here after determining the reverse; and the instruction to be given is that by which one may gain dharma."
+          }
         },
         {
           "n": 70,
-          "text": "एतत्ते सर्वमाख्यातमुपदेशे कृते सति ।\nमहान्क्लेशो हि भवति तस्मान्नोपदिशेत्क्वचित् ॥"
+          "text": "एतत्ते सर्वमाख्यातमुपदेशे कृते सति ।\nमहान्क्लेशो हि भवति तस्मान्नोपदिशेत्क्वचित् ॥",
+          "meaning": {
+            "en": "I have told you all this: when instruction is given, great trouble results; so one should not instruct anywhere."
+          }
         }
       ]
     }

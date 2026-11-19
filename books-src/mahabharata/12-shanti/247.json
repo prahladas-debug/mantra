@@ -22,65 +22,129 @@
       "titleEn": "Mokshadharma Parva (Duties for liberation)",
       "verses": [
         {
-          "text": "भीष्म उवाच"
+          "text": "भीष्म उवाच",
+          "meaning": {
+            "en": "Bhishma said:",
+            "hi": "भीष्म बोले—"
+          }
         },
         {
           "n": 1,
-          "text": "भूतानां गुणसंख्यानं भूयः पुत्र निशामय ।\nद्वैपायनमुखाद्भ्रष्टं श्लाघया परयानघ ॥"
+          "text": "भूतानां गुणसंख्यानं भूयः पुत्र निशामय ।\nद्वैपायनमुखाद्भ्रष्टं श्लाघया परयानघ ॥",
+          "meaning": {
+            "en": "Hear again, my son, the enumeration of the qualities of the elements, which came forth from the mouth of Dvaipayana, with great praise, sinless one.",
+            "hi": "हे पुत्र! फिर से भूतों के गुणों की गणना सुनो, जो निष्पाप द्वैपायन (व्यास) के मुख से बड़ी प्रशंसा के साथ निकली थी।"
+          }
         },
         {
           "n": 2,
-          "text": "दीप्तानलनिभः प्राह भगवान्धूम्रवर्चसे ।\nततोऽहमपि वक्ष्यामि भूयः पुत्र निदर्शनम् ॥"
+          "text": "दीप्तानलनिभः प्राह भगवान्धूम्रवर्चसे ।\nततोऽहमपि वक्ष्यामि भूयः पुत्र निदर्शनम् ॥",
+          "meaning": {
+            "en": "The venerable one, blazing like a bright fire, taught it to Dhumravarchas; so I too will give you another illustration, my son.",
+            "hi": "प्रज्ज्वलित अग्नि के समान तेजस्वी भगवान ने धूम्रवर्चस से यह कहा था; इसलिए हे पुत्र! मैं भी एक और उदाहरण बताऊँगा।"
+          }
         },
         {
           "n": 3,
-          "text": "भूमेः स्थैर्यं पृथुत्वं च काठिन्यं प्रसवात्मता ।\nगन्धो गुरुत्वं शक्तिश्च संघातः स्थापना धृतिः ॥"
+          "text": "भूमेः स्थैर्यं पृथुत्वं च काठिन्यं प्रसवात्मता ।\nगन्धो गुरुत्वं शक्तिश्च संघातः स्थापना धृतिः ॥",
+          "meaning": {
+            "en": "Of earth: steadiness, breadth, hardness, productivity, smell, heaviness, strength, cohesion, support and firmness.",
+            "hi": "पृथ्वी के गुण: स्थिरता, विस्तार, कठोरता, उत्पादकता, गंध, भारीपन, शक्ति, संघात (जुड़ाव), आधार और दृढ़ता।"
+          }
         },
         {
           "n": 4,
-          "text": "अपां शैत्यं रसः क्लेदो द्रवत्वं स्नेहसौम्यता ।\nजिह्वा विष्यन्दिनी चैव भौमाप्यास्रवणं तथा ॥"
+          "text": "अपां शैत्यं रसः क्लेदो द्रवत्वं स्नेहसौम्यता ।\nजिह्वा विष्यन्दिनी चैव भौमाप्यास्रवणं तथा ॥",
+          "meaning": {
+            "en": "Of water: coolness, taste, moisture, fluidity, oiliness and mildness, a flowing tongue, and the oozing of earth and water.",
+            "hi": "जल के गुण: शीतलता, रस, गीलापन, द्रवता, स्निग्धता और मृदुता; बहने वाली जिह्वा, और पृथ्वी तथा जल का रिसना।"
+          }
         },
         {
           "n": 5,
-          "text": "अग्नेर्दुर्धर्षता तेजस्तापः पाकः प्रकाशनम् ।\nशौचं रागो लघुस्तैक्ष्ण्यं दशमं चोर्ध्वभागिता ॥"
+          "text": "अग्नेर्दुर्धर्षता तेजस्तापः पाकः प्रकाशनम् ।\nशौचं रागो लघुस्तैक्ष्ण्यं दशमं चोर्ध्वभागिता ॥",
+          "meaning": {
+            "en": "Of fire: unassailability, brilliance, heat, cooking and shining, purity, colour, lightness, sharpness, and the tenth, rising upward.",
+            "hi": "अग्नि के गुण: दुर्धर्षता (जिसे दबाया न जा सके), तेज, ताप, पकाना और प्रकाश देना; शुद्धता, रंग, हलकापन, तीक्ष्णता, और दसवाँ, ऊपर की ओर उठना।"
+          }
         },
         {
           "n": 6,
-          "text": "वायोरनियमः स्पर्शो वादस्थानं स्वतन्त्रता ।\nबलं शैघ्र्यं च मोहश्च चेष्टा कर्मकृता भवः ॥"
+          "text": "वायोरनियमः स्पर्शो वादस्थानं स्वतन्त्रता ।\nबलं शैघ्र्यं च मोहश्च चेष्टा कर्मकृता भवः ॥",
+          "meaning": {
+            "en": "Of wind: freedom from rule, touch, a place for speech, independence, strength, speed, bewilderment, motion, and being made by action.",
+            "hi": "वायु के गुण: नियमहीनता, स्पर्श, वाणी का स्थान, स्वतंत्रता, बल, वेग, मोह, गति, और कर्म से उत्पन्न होना।"
+          }
         },
         {
           "n": 7,
-          "text": "आकाशस्य गुणः शब्दो व्यापित्वं छिद्रतापि च ।\nअनाश्रयमनालम्बमव्यक्तमविकारिता ॥"
+          "text": "आकाशस्य गुणः शब्दो व्यापित्वं छिद्रतापि च ।\nअनाश्रयमनालम्बमव्यक्तमविकारिता ॥",
+          "meaning": {
+            "en": "Of space: sound, pervasiveness and the quality of holes, being without support or hold, unmanifest, unchanging,",
+            "hi": "आकाश के गुण: शब्द, व्यापकता और छिद्रयुक्तता; बिना आश्रय, बिना सहारे, अव्यक्त और अविकारी होना।"
+          }
         },
         {
           "n": 8,
-          "text": "अप्रतीघातता चैव भूतत्वं विकृतानि च ।\nगुणाः पञ्चाशतं प्रोक्ताः पञ्चभूतात्मभाविताः ॥"
+          "text": "अप्रतीघातता चैव भूतत्वं विकृतानि च ।\nगुणाः पञ्चाशतं प्रोक्ताः पञ्चभूतात्मभाविताः ॥",
+          "meaning": {
+            "en": "unobstructedness, existence as an element, and transformations. Fifty qualities are named, shaped by the nature of the five elements.",
+            "hi": "अप्रतिहतता (जिसे रोका न जा सके), तत्त्व होना और विकार; पाँच महाभूतों से प्रभावित ये पचास गुण कहे गए हैं।"
+          }
         },
         {
           "n": 9,
-          "text": "चलोपपत्तिर्व्यक्तिश्च विसर्गः कल्पना क्षमा ।\nसदसच्चाशुता चैव मनसो नव वै गुणाः ॥"
+          "text": "चलोपपत्तिर्व्यक्तिश्च विसर्गः कल्पना क्षमा ।\nसदसच्चाशुता चैव मनसो नव वै गुणाः ॥",
+          "meaning": {
+            "en": "The mind has nine qualities: unsteady attainment, manifestation, emission, imagination, forbearance, being and non-being, and swiftness.",
+            "hi": "मन के नौ गुण हैं: चंचल प्राप्ति, अभिव्यक्ति, विसर्ग (त्याग), कल्पना, क्षमा, सत और असत, और शीघ्रता।"
+          }
         },
         {
           "n": 10,
-          "text": "इष्टानिष्टविकल्पश्च व्यवसायः समाधिता ।\nसंशयः प्रतिपत्तिश्च बुद्धौ पञ्चेह ये गुणाः ॥"
+          "text": "इष्टानिष्टविकल्पश्च व्यवसायः समाधिता ।\nसंशयः प्रतिपत्तिश्च बुद्धौ पञ्चेह ये गुणाः ॥",
+          "meaning": {
+            "en": "The five qualities here in the intellect are: discrimination of liked and disliked, decision, concentration, doubt and conviction.",
+            "hi": "बुद्धि के पाँच गुण यहाँ हैं: इष्ट-अनिष्ट का भेद, निश्चय, समाधि, संशय और निश्चित ज्ञान।"
+          }
         },
         {
-          "text": "युधिष्ठिर उवाच"
+          "text": "युधिष्ठिर उवाच",
+          "meaning": {
+            "en": "Yudhishthira said:",
+            "hi": "युधिष्ठिर बोले—"
+          }
         },
         {
           "n": 11,
-          "text": "कथं पञ्चगुणा बुद्धिः कथं पञ्चेन्द्रिया गुणाः ।\nएतन्मे सर्वमाचक्ष्व सूक्ष्मज्ञानं पितामह ॥"
+          "text": "कथं पञ्चगुणा बुद्धिः कथं पञ्चेन्द्रिया गुणाः ।\nएतन्मे सर्वमाचक्ष्व सूक्ष्मज्ञानं पितामह ॥",
+          "meaning": {
+            "en": "How is the intellect of five qualities, and how are the senses of five qualities? Tell me all this, grandfather, subtle knowledge.",
+            "hi": "बुद्धि पाँच गुणों वाली कैसे है, और पाँच इंद्रियाँ गुणों वाली कैसे हैं? हे पितामह! सूक्ष्म ज्ञान के रूप में यह सब मुझे बताइए।"
+          }
         },
         {
-          "text": "भीष्म उवाच"
+          "text": "भीष्म उवाच",
+          "meaning": {
+            "en": "Bhishma said:",
+            "hi": "भीष्म बोले—"
+          }
         },
         {
           "n": 12,
-          "text": "आहुः षष्टिं भूतगुणान्वै\nभूतविशिष्टा नित्यविषक्ताः ।\nभूतविषक्ताश्चाक्षरसृष्टाः\nपुत्र न नित्यं तदिह वदन्ति ॥"
+          "text": "आहुः षष्टिं भूतगुणान्वै\nभूतविशिष्टा नित्यविषक्ताः ।\nभूतविषक्ताश्चाक्षरसृष्टाः\nपुत्र न नित्यं तदिह वदन्ति ॥",
+          "meaning": {
+            "en": "They speak of sixty qualities of the elements, specific to the elements, ever clinging; clinging to the elements and made by the imperishable, my son, they say these are not eternal here.",
+            "hi": "वे भूतों के साठ गुण बताते हैं, जो भूतों से विशेष रूप से जुड़े रहते हैं और सदा संलग्न रहते हैं; भूतों से संलग्न होकर वे अक्षर (परमात्मा) द्वारा रचे गए हैं, हे पुत्र! परंतु यहाँ उन्हें नित्य नहीं कहा गया है।"
+          }
         },
         {
           "n": 13,
-          "text": "तत्पुत्र चिन्ताकलितं यदुक्त-\nमनागतं वै तव संप्रतीह ।\nभूतार्थतत्त्वं तदवाप्य सर्वं\nभूतप्रभावाद्भव शान्तबुद्धिः ॥"
+          "text": "तत्पुत्र चिन्ताकलितं यदुक्त-\nमनागतं वै तव संप्रतीह ।\nभूतार्थतत्त्वं तदवाप्य सर्वं\nभूतप्रभावाद्भव शान्तबुद्धिः ॥",
+          "meaning": {
+            "en": "My son, what has been said here, shaped by thought, concerns what is not yet come for you now; having grasped all the truth about the elements, become calm-minded by the power of the elements.",
+            "hi": "हे पुत्र! जो चिंता से युक्त होकर यहाँ कहा गया है, वह अभी तुम्हारे लिए अनागत विषय है। भूतों के तत्त्व को पूरी तरह समझकर, भूतों के प्रभाव से शांत-बुद्धि हो जाओ।"
+          }
         }
       ]
     }

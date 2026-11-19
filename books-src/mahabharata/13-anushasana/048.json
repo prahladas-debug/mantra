@@ -22,212 +22,371 @@
       "titleEn": "Anushasanika Parva (The instructions)",
       "verses": [
         {
-          "text": "युधिष्ठिर उवाच"
+          "text": "युधिष्ठिर उवाच",
+          "meaning": {
+            "en": "Yudhishthira said:"
+          }
         },
         {
           "n": 1,
-          "text": "अर्थाश्रयाद्वा कामाद्वा वर्णानां वाप्यनिश्चयात् ।\nअज्ञानाद्वापि वर्णानां जायते वर्णसंकरः ॥"
+          "text": "अर्थाश्रयाद्वा कामाद्वा वर्णानां वाप्यनिश्चयात् ।\nअज्ञानाद्वापि वर्णानां जायते वर्णसंकरः ॥",
+          "meaning": {
+            "en": "Through dependence on wealth, through desire, through uncertainty about the classes or through ignorance, a mixing of classes arises."
+          }
         },
         {
           "n": 2,
-          "text": "तेषामेतेन विधिना जातानां वर्णसंकरे ।\nको धर्मः कानि कर्माणि तन्मे ब्रूहि पितामह ॥"
+          "text": "तेषामेतेन विधिना जातानां वर्णसंकरे ।\nको धर्मः कानि कर्माणि तन्मे ब्रूहि पितामह ॥",
+          "meaning": {
+            "en": "Grandfather, for those born by this method in a mixing of classes, what is their dharma and what are their occupations? Tell me."
+          }
         },
         {
-          "text": "भीष्म उवाच"
+          "text": "भीष्म उवाच",
+          "meaning": {
+            "en": "Bhishma said:"
+          }
         },
         {
           "n": 3,
-          "text": "चातुर्वर्ण्यस्य कर्माणि चातुर्वर्ण्यं च केवलम् ।\nअसृजत्स ह यज्ञार्थे पूर्वमेव प्रजापतिः ॥"
+          "text": "चातुर्वर्ण्यस्य कर्माणि चातुर्वर्ण्यं च केवलम् ।\nअसृजत्स ह यज्ञार्थे पूर्वमेव प्रजापतिः ॥",
+          "meaning": {
+            "en": "The occupations of the fourfold order, and the fourfold order itself alone, were created by Prajapati in the very beginning for the sake of sacrifice."
+          }
         },
         {
           "n": 4,
-          "text": "भार्याश्चतस्रो विप्रस्य द्वयोरात्मास्य जायते ।\nआनुपूर्व्याद्द्वयोर्हीनौ मातृजात्यौ प्रसूयतः ॥"
+          "text": "भार्याश्चतस्रो विप्रस्य द्वयोरात्मास्य जायते ।\nआनुपूर्व्याद्द्वयोर्हीनौ मातृजात्यौ प्रसूयतः ॥",
+          "meaning": {
+            "en": "A brahmin has four wives. From two of them, his own self is born as a child. From the other two, in order, children of lesser status are born, taking their mothers' caste."
+          }
         },
         {
           "n": 5,
-          "text": "परं शवाद्ब्राह्मणस्यैष पुत्रः\nशूद्रापुत्रं पारशवं तमाहुः ।\nशुश्रूषकः स्वस्य कुलस्य स स्या-\nत्स्वं चारित्रं नित्यमथो न जह्यात् ॥"
+          "text": "परं शवाद्ब्राह्मणस्यैष पुत्रः\nशूद्रापुत्रं पारशवं तमाहुः ।\nशुश्रूषकः स्वस्य कुलस्य स स्या-\nत्स्वं चारित्रं नित्यमथो न जह्यात् ॥",
+          "meaning": {
+            "en": "The son of a brahmin by a shudra woman is called a Parashava, higher than a corpse. He should serve his own family and never abandon his own conduct."
+          }
         },
         {
           "n": 6,
-          "text": "सर्वानुपायानपि संप्रधार्य\nसमुद्धरेत्स्वस्य कुलस्य तन्तुम् ।\nज्येष्ठो यवीयानपि यो द्विजस्य\nशुश्रूषवान्दानपरायणः स्यात् ॥"
+          "text": "सर्वानुपायानपि संप्रधार्य\nसमुद्धरेत्स्वस्य कुलस्य तन्तुम् ।\nज्येष्ठो यवीयानपि यो द्विजस्य\nशुश्रूषवान्दानपरायणः स्यात् ॥",
+          "meaning": {
+            "en": "Weighing every means, he should uphold the thread of his family: whoever, elder or younger, of the twice-born, is devoted to service and to giving."
+          }
         },
         {
           "n": 7,
-          "text": "तिस्रः क्षत्रियसंबन्धाद्द्वयोरात्मास्य जायते ।\nहीनवर्णस्तृतीयायां शूद्र उग्र इति स्मृतः ॥"
+          "text": "तिस्रः क्षत्रियसंबन्धाद्द्वयोरात्मास्य जायते ।\nहीनवर्णस्तृतीयायां शूद्र उग्र इति स्मृतः ॥",
+          "meaning": {
+            "en": "From a kshatriya's marriages with three kinds of women, his own self is born from two. The child of the third, of lower class, born of a shudra woman, is remembered as an Ugra."
+          }
         },
         {
           "n": 8,
-          "text": "द्वे चापि भार्ये वैश्यस्य द्वयोरात्मास्य जायते ।\nशूद्रा शूद्रस्य चाप्येका शूद्रमेव प्रजायते ॥"
+          "text": "द्वे चापि भार्ये वैश्यस्य द्वयोरात्मास्य जायते ।\nशूद्रा शूद्रस्य चाप्येका शूद्रमेव प्रजायते ॥",
+          "meaning": {
+            "en": "A vaishya also has two wives and his own self is born from two; a shudra has one wife, and a shudra alone is born to him."
+          }
         },
         {
           "n": 9,
-          "text": "अतो विशिष्टस्त्वधमो गुरुदारप्रधर्षकः ।\nबाह्यं वर्णं जनयति चातुर्वर्ण्यविगर्हितम् ॥"
+          "text": "अतो विशिष्टस्त्वधमो गुरुदारप्रधर्षकः ।\nबाह्यं वर्णं जनयति चातुर्वर्ण्यविगर्हितम् ॥",
+          "meaning": {
+            "en": "Beyond these, the worst of men, one who violates his teacher's wife, begets an outcaste, condemned by the fourfold order."
+          }
         },
         {
           "n": 10,
-          "text": "अयाज्यं क्षत्रियो व्रात्यं सूतं स्तोमक्रियापरम् ।\nवैश्यो वैदेहकं चापि मौद्गल्यमपवर्जितम् ॥"
+          "text": "अयाज्यं क्षत्रियो व्रात्यं सूतं स्तोमक्रियापरम् ।\nवैश्यो वैदेहकं चापि मौद्गल्यमपवर्जितम् ॥",
+          "meaning": {
+            "en": "A kshatriya fathers an Ayajya or a Vratya, a Suta engaged in praising rites; a vaishya a Vaidehaka and a Maudgalya, cast out."
+          }
         },
         {
           "n": 11,
-          "text": "शूद्रश्चण्डालमत्युग्रं वध्यघ्नं बाह्यवासिनम् ।\nब्राह्मण्यां संप्रजायन्त इत्येते कुलपांसनाः ।\nएते मतिमतां श्रेष्ठ वर्णसंकरजाः प्रभो ॥"
+          "text": "शूद्रश्चण्डालमत्युग्रं वध्यघ्नं बाह्यवासिनम् ।\nब्राह्मण्यां संप्रजायन्त इत्येते कुलपांसनाः ।\nएते मतिमतां श्रेष्ठ वर्णसंकरजाः प्रभो ॥",
+          "meaning": {
+            "en": "A shudra, with a brahmin woman, fathers a Chandala, extremely fierce, an executioner dwelling outside the village. These are destroyers of their family. Best of the wise, lord, these are born of mixing of classes."
+          }
         },
         {
           "n": 12,
-          "text": "बन्दी तु जायते वैश्यान्मागधो वाक्यजीवनः ।\nशूद्रान्निषादो मत्स्यघ्नः क्षत्रियायां व्यतिक्रमात् ॥"
+          "text": "बन्दी तु जायते वैश्यान्मागधो वाक्यजीवनः ।\nशूद्रान्निषादो मत्स्यघ्नः क्षत्रियायां व्यतिक्रमात् ॥",
+          "meaning": {
+            "en": "A Bandi, a Magadha who lives by speech, is born of a vaishya man; a Nishada, a fisherman, of a shudra by a kshatriya woman through transgression."
+          }
         },
         {
           "n": 13,
-          "text": "शूद्रादायोगवश्चापि वैश्यायां ग्रामधर्मिणः ।\nब्राह्मणैरप्रतिग्राह्यस्तक्षा स वनजीवनः ॥"
+          "text": "शूद्रादायोगवश्चापि वैश्यायां ग्रामधर्मिणः ।\nब्राह्मणैरप्रतिग्राह्यस्तक्षा स वनजीवनः ॥",
+          "meaning": {
+            "en": "From a shudra with a vaishya woman an Ayogava is born, living by village trades; a carpenter, living in the forest, cannot be accepted from by brahmins."
+          }
         },
         {
           "n": 14,
-          "text": "एतेऽपि सदृशं वर्णं जनयन्ति स्वयोनिषु ।\nमातृजात्यां प्रसूयन्ते प्रवरा हीनयोनिषु ॥"
+          "text": "एतेऽपि सदृशं वर्णं जनयन्ति स्वयोनिषु ।\nमातृजात्यां प्रसूयन्ते प्रवरा हीनयोनिषु ॥",
+          "meaning": {
+            "en": "These too beget a child of a similar class in their own wombs. Those born of mothers of the same class in lower wombs are the better ones."
+          }
         },
         {
           "n": 15,
-          "text": "यथा चतुर्षु वर्णेषु द्वयोरात्मास्य जायते ।\nआनन्तर्यात्तु जायन्ते तथा बाह्याः प्रधानतः ॥"
+          "text": "यथा चतुर्षु वर्णेषु द्वयोरात्मास्य जायते ।\nआनन्तर्यात्तु जायन्ते तथा बाह्याः प्रधानतः ॥",
+          "meaning": {
+            "en": "As in the four classes his own self is born from two, so the outsiders are born in order, chiefly by immediate succession."
+          }
         },
         {
           "n": 16,
-          "text": "ते चापि सदृशं वर्णं जनयन्ति स्वयोनिषु ।\nपरस्परस्य वर्तन्तो जनयन्ति विगर्हितान् ॥"
+          "text": "ते चापि सदृशं वर्णं जनयन्ति स्वयोनिषु ।\nपरस्परस्य वर्तन्तो जनयन्ति विगर्हितान् ॥",
+          "meaning": {
+            "en": "These too beget their like in their own wombs. Living by mutual union, they beget despised children."
+          }
         },
         {
           "n": 17,
-          "text": "यथा च शूद्रो ब्राह्मण्यां जन्तुं बाह्यं प्रसूयते ।\nएवं बाह्यतराद्बाह्यश्चातुर्वर्ण्यात्प्रसूयते ॥"
+          "text": "यथा च शूद्रो ब्राह्मण्यां जन्तुं बाह्यं प्रसूयते ।\nएवं बाह्यतराद्बाह्यश्चातुर्वर्ण्यात्प्रसूयते ॥",
+          "meaning": {
+            "en": "As a shudra with a brahmin woman begets an outsider, so from the outsider there is begotten a still more outsider, from the fourfold order."
+          }
         },
         {
           "n": 18,
-          "text": "प्रतिलोमं तु वर्तन्तो बाह्याद्बाह्यतरं पुनः ।\nहीना हीनात्प्रसूयन्ते वर्णाः पञ्चदशैव ते ॥"
+          "text": "प्रतिलोमं तु वर्तन्तो बाह्याद्बाह्यतरं पुनः ।\nहीना हीनात्प्रसूयन्ते वर्णाः पञ्चदशैव ते ॥",
+          "meaning": {
+            "en": "Proceeding in reversed order, from outsider to more outsider again, fifteen low classes are born from the lowly, no more."
+          }
         },
         {
           "n": 19,
-          "text": "अगम्यागमनाच्चैव वर्तते वर्णसंकरः ।\nव्रात्यानामत्र जायन्ते सैरन्ध्रा मागधेषु च ।\nप्रसाधनोपचारज्ञमदासं दासजीवनम् ॥"
+          "text": "अगम्यागमनाच्चैव वर्तते वर्णसंकरः ।\nव्रात्यानामत्र जायन्ते सैरन्ध्रा मागधेषु च ।\nप्रसाधनोपचारज्ञमदासं दासजीवनम् ॥",
+          "meaning": {
+            "en": "The mixing of classes also continues through union with those not to be approached. Among Vratyas are born the Sairandhra and, among the Magadhas, one who knows dressing and attendance, not a slave but living as a slave."
+          }
         },
         {
           "n": 20,
-          "text": "अतश्चायोगवं सूते वागुरावनजीवनम् ।\nमैरेयकं च वैदेहः संप्रसूतेऽथ माधुकम् ॥"
+          "text": "अतश्चायोगवं सूते वागुरावनजीवनम् ।\nमैरेयकं च वैदेहः संप्रसूतेऽथ माधुकम् ॥",
+          "meaning": {
+            "en": "From these an Ayogava fathers a hunter who lives by the snare and forest; a Vaidehaka fathers a Maireyaka and a Madhuka."
+          }
         },
         {
           "n": 21,
-          "text": "निषादो मुद्गरं सूते दाशं नावोपजीविनम् ।\nमृतपं चापि चण्डालः श्वपाकमतिकुत्सितम् ॥"
+          "text": "निषादो मुद्गरं सूते दाशं नावोपजीविनम् ।\nमृतपं चापि चण्डालः श्वपाकमतिकुत्सितम् ॥",
+          "meaning": {
+            "en": "A Nishada fathers a Mudgara and a Dasha who lives by boats; a Chandala fathers a Mritapa, and the very despised Shvapaka."
+          }
         },
         {
           "n": 22,
-          "text": "चतुरो मागधी सूते क्रूरान्मायोपजीविनः ।\nमांसस्वादुकरं सूदं सौगन्धमिति संज्ञितम् ॥"
+          "text": "चतुरो मागधी सूते क्रूरान्मायोपजीविनः ।\nमांसस्वादुकरं सूदं सौगन्धमिति संज्ञितम् ॥",
+          "meaning": {
+            "en": "A Magadha woman bears four: cruel men who live by deceit, and a cook who makes meat tasty, called Saugandha."
+          }
         },
         {
           "n": 23,
-          "text": "वैदेहकाच्च पापिष्ठं क्रूरं भार्योपजीविनम् ।\nनिषादान्मद्रनाभं च खरयानप्रयायिनम् ॥"
+          "text": "वैदेहकाच्च पापिष्ठं क्रूरं भार्योपजीविनम् ।\nनिषादान्मद्रनाभं च खरयानप्रयायिनम् ॥",
+          "meaning": {
+            "en": "From a Vaidehaka comes the most sinful, a cruel man living off his wife, and from a Nishada a Madranabha who travels on donkeys."
+          }
         },
         {
           "n": 24,
-          "text": "चण्डालात्पुल्कसं चापि खराश्वगजभोजिनम् ।\nमृतचेलप्रतिच्छन्नं भिन्नभाजनभोजिनम् ॥"
+          "text": "चण्डालात्पुल्कसं चापि खराश्वगजभोजिनम् ।\nमृतचेलप्रतिच्छन्नं भिन्नभाजनभोजिनम् ॥",
+          "meaning": {
+            "en": "From a Chandala come a Pulkasa who eats donkeys, horses and elephants, covered in the clothes of the dead and eating from broken vessels."
+          }
         },
         {
           "n": 25,
-          "text": "आयोगवीषु जायन्ते हीनवर्णासु ते त्रयः ।\nक्षुद्रो वैदेहकादन्ध्रो बहिर्ग्रामप्रतिश्रयः ॥"
+          "text": "आयोगवीषु जायन्ते हीनवर्णासु ते त्रयः ।\nक्षुद्रो वैदेहकादन्ध्रो बहिर्ग्रामप्रतिश्रयः ॥",
+          "meaning": {
+            "en": "Of Ayogava women of lower class, three are born: a Kshudra, and from a Vaidehaka an Andhra, who lives outside the village."
+          }
         },
         {
           "n": 26,
-          "text": "कारावरो निषाद्यां तु चर्मकारात्प्रजायते ।\nचण्डालात्पाण्डुसौपाकस्त्वक्सारव्यवहारवान् ॥"
+          "text": "कारावरो निषाद्यां तु चर्मकारात्प्रजायते ।\nचण्डालात्पाण्डुसौपाकस्त्वक्सारव्यवहारवान् ॥",
+          "meaning": {
+            "en": "A Karavara is born of a Nishada woman by a leather worker, and from a Chandala a Pandusopaka, dealing in bark and strips."
+          }
         },
         {
           "n": 27,
-          "text": "आहिण्डिको निषादेन वैदेह्यां संप्रजायते ।\nचण्डालेन तु सौपाको मौद्गल्यसमवृत्तिमान् ॥"
+          "text": "आहिण्डिको निषादेन वैदेह्यां संप्रजायते ।\nचण्डालेन तु सौपाको मौद्गल्यसमवृत्तिमान् ॥",
+          "meaning": {
+            "en": "An Ahindika is born of a Nishada by a Vaidehi woman, and from a Chandala a Sopaka, whose livelihood is like a Maudgalya's."
+          }
         },
         {
           "n": 28,
-          "text": "निषादी चापि चण्डालात्पुत्रमन्तावसायिनम् ।\nश्मशानगोचरं सूते बाह्यैरपि बहिष्कृतम् ॥"
+          "text": "निषादी चापि चण्डालात्पुत्रमन्तावसायिनम् ।\nश्मशानगोचरं सूते बाह्यैरपि बहिष्कृतम् ॥",
+          "meaning": {
+            "en": "A Nishada woman also bears to a Chandala a son called Antavasayin, who haunts cremation grounds and is shunned even by outsiders."
+          }
         },
         {
           "n": 29,
-          "text": "इत्येताः संकरे जात्यः पितृमातृव्यतिक्रमात् ।\nप्रच्छन्ना वा प्रकाशा वा वेदितव्याः स्वकर्मभिः ॥"
+          "text": "इत्येताः संकरे जात्यः पितृमातृव्यतिक्रमात् ।\nप्रच्छन्ना वा प्रकाशा वा वेदितव्याः स्वकर्मभिः ॥",
+          "meaning": {
+            "en": "These are the castes in the mixing, born of transgression against father or mother. Hidden or open, they are to be known by their own deeds."
+          }
         },
         {
           "n": 30,
-          "text": "चतुर्णामेव वर्णानां धर्मो नान्यस्य विद्यते ।\nवर्णानां धर्महीनेषु संज्ञा नास्तीह कस्यचित् ॥"
+          "text": "चतुर्णामेव वर्णानां धर्मो नान्यस्य विद्यते ।\nवर्णानां धर्महीनेषु संज्ञा नास्तीह कस्यचित् ॥",
+          "meaning": {
+            "en": "Dharma belongs only to the four classes, and to no other. Among those fallen from dharma, none has any standing here."
+          }
         },
         {
           "n": 31,
-          "text": "यदृच्छयोपसंपन्नैर्यज्ञसाधुबहिष्कृतैः ।\nबाह्या बाह्यैस्तु जायन्ते यथावृत्ति यथाश्रयम् ॥"
+          "text": "यदृच्छयोपसंपन्नैर्यज्ञसाधुबहिष्कृतैः ।\nबाह्या बाह्यैस्तु जायन्ते यथावृत्ति यथाश्रयम् ॥",
+          "meaning": {
+            "en": "Outsiders are born to outsiders, according to their livelihood and refuge, when they come together by chance and are cast out from good sacrifice."
+          }
         },
         {
           "n": 32,
-          "text": "चतुष्पथश्मशानानि शैलांश्चान्यान्वनस्पतीन् ।\nयुञ्जन्ते चाप्यलंकारांस्तथोपकरणानि च ॥"
+          "text": "चतुष्पथश्मशानानि शैलांश्चान्यान्वनस्पतीन् ।\nयुञ्जन्ते चाप्यलंकारांस्तथोपकरणानि च ॥",
+          "meaning": {
+            "en": "They use crossroads, cremation grounds, hills, and other trees, and they wear ornaments and use implements."
+          }
         },
         {
           "n": 33,
-          "text": "गोब्राह्मणार्थे साहाय्यं कुर्वाणा वै न संशयः ।\nआनृशंस्यमनुक्रोशः सत्यवाक्यमथ क्षमा ॥"
+          "text": "गोब्राह्मणार्थे साहाय्यं कुर्वाणा वै न संशयः ।\nआनृशंस्यमनुक्रोशः सत्यवाक्यमथ क्षमा ॥",
+          "meaning": {
+            "en": "Without doubt, when they give help for the sake of cows and brahmins, with compassion, pity, truthful words and forbearance,"
+          }
         },
         {
           "n": 34,
-          "text": "स्वशरीरैः परित्राणं बाह्यानां सिद्धिकारकम् ।\nमनुजव्याघ्र भवति तत्र मे नास्ति संशयः ॥"
+          "text": "स्वशरीरैः परित्राणं बाह्यानां सिद्धिकारकम् ।\nमनुजव्याघ्र भवति तत्र मे नास्ति संशयः ॥",
+          "meaning": {
+            "en": "and protect others with their own bodies, it brings success to the outsiders, tiger among men. I have no doubt about that."
+          }
         },
         {
           "n": 35,
-          "text": "यथोपदेशं परिकीर्तितासु\nनरः प्रजायेत विचार्य बुद्धिमान् ।\nविहीनयोनिर्हि सुतोऽवसादये-\nत्तितीर्षमाणं सलिले यथोपलम् ॥"
+          "text": "यथोपदेशं परिकीर्तितासु\nनरः प्रजायेत विचार्य बुद्धिमान् ।\nविहीनयोनिर्हि सुतोऽवसादये-\nत्तितीर्षमाणं सलिले यथोपलम् ॥",
+          "meaning": {
+            "en": "A wise man should consider and beget children only in the women described by the teaching. For a son of a low womb pulls a man down as a stone pulls down one wishing to cross water."
+          }
         },
         {
           "n": 36,
-          "text": "अविद्वांसमलं लोके विद्वांसमपि वा पुनः ।\nनयन्ते ह्युत्पथं नार्यः कामक्रोधवशानुगम् ॥"
+          "text": "अविद्वांसमलं लोके विद्वांसमपि वा पुनः ।\nनयन्ते ह्युत्पथं नार्यः कामक्रोधवशानुगम् ॥",
+          "meaning": {
+            "en": "Women lead astray from the path, in this world, a man who is ignorant or even a learned one, if he is subject to desire and anger."
+          }
         },
         {
           "n": 37,
-          "text": "स्वभावश्चैव नारीणां नराणामिह दूषणम् ।\nइत्यर्थं न प्रसज्जन्ते प्रमदासु विपश्चितः ॥"
+          "text": "स्वभावश्चैव नारीणां नराणामिह दूषणम् ।\nइत्यर्थं न प्रसज्जन्ते प्रमदासु विपश्चितः ॥",
+          "meaning": {
+            "en": "The nature of women is the very fault of men here. Therefore the wise do not become attached to women."
+          }
         },
         {
-          "text": "युधिष्ठिर उवाच"
+          "text": "युधिष्ठिर उवाच",
+          "meaning": {
+            "en": "Yudhishthira said:"
+          }
         },
         {
           "n": 38,
-          "text": "वर्णापेतमविज्ञातं नरं कलुषयोनिजम् ।\nआर्यरूपमिवानार्यं कथं विद्यामहे नृप ॥"
+          "text": "वर्णापेतमविज्ञातं नरं कलुषयोनिजम् ।\nआर्यरूपमिवानार्यं कथं विद्यामहे नृप ॥",
+          "meaning": {
+            "en": "King, how can we recognize a man outside the classes, unknown, born of a tainted womb, an unworthy man who looks like a noble one?"
+          }
         },
         {
-          "text": "भीष्म उवाच"
+          "text": "भीष्म उवाच",
+          "meaning": {
+            "en": "Bhishma said:"
+          }
         },
         {
           "n": 39,
-          "text": "योनिसंकलुषे जातं नानाचारसमाहितम् ।\nकर्मभिः सज्जनाचीर्णैर्विज्ञेया योनिशुद्धता ॥"
+          "text": "योनिसंकलुषे जातं नानाचारसमाहितम् ।\nकर्मभिः सज्जनाचीर्णैर्विज्ञेया योनिशुद्धता ॥",
+          "meaning": {
+            "en": "A man born of a tainted womb who has a variety of behaviors; his purity of birth is to be known by actions practiced by the good."
+          }
         },
         {
           "n": 40,
-          "text": "अनार्यत्वमनाचारः क्रूरत्वं निष्क्रियात्मता ।\nपुरुषं व्यञ्जयन्तीह लोके कलुषयोनिजम् ॥"
+          "text": "अनार्यत्वमनाचारः क्रूरत्वं निष्क्रियात्मता ।\nपुरुषं व्यञ्जयन्तीह लोके कलुषयोनिजम् ॥",
+          "meaning": {
+            "en": "Ignoble conduct, bad behavior, cruelty and inactivity reveal in this world a man born of a tainted womb."
+          }
         },
         {
           "n": 41,
-          "text": "पित्र्यं वा भजते शीलं मातृजं वा तथोभयम् ।\nन कथंचन संकीर्णः प्रकृतिं स्वां नियच्छति ॥"
+          "text": "पित्र्यं वा भजते शीलं मातृजं वा तथोभयम् ।\nन कथंचन संकीर्णः प्रकृतिं स्वां नियच्छति ॥",
+          "meaning": {
+            "en": "He follows his father's nature, or his mother's, or both. A mixed man never fully restrains his own nature."
+          }
         },
         {
           "n": 42,
-          "text": "यथैव सदृशो रूपे मातापित्रोर्हि जायते ।\nव्याघ्रश्चित्रैस्तथा योनिं पुरुषः स्वां नियच्छति ॥"
+          "text": "यथैव सदृशो रूपे मातापित्रोर्हि जायते ।\nव्याघ्रश्चित्रैस्तथा योनिं पुरुषः स्वां नियच्छति ॥",
+          "meaning": {
+            "en": "As a child comes to resemble his mother and father in appearance, so a tiger with its stripes, so a man holds to his own origin."
+          }
         },
         {
           "n": 43,
-          "text": "कुलस्रोतसि संछन्ने यस्य स्याद्योनिसंकरः ।\nसंश्रयत्येव तच्छीलं नरोऽल्पमपि वा बहु ॥"
+          "text": "कुलस्रोतसि संछन्ने यस्य स्याद्योनिसंकरः ।\nसंश्रयत्येव तच्छीलं नरोऽल्पमपि वा बहु ॥",
+          "meaning": {
+            "en": "When the stream of a family is hidden, a man of mixed origin takes on that nature, little or much."
+          }
         },
         {
           "n": 44,
-          "text": "आर्यरूपसमाचारं चरन्तं कृतके पथि ।\nस्ववर्णमन्यवर्णं वा स्वशीलं शास्ति निश्चये ॥"
+          "text": "आर्यरूपसमाचारं चरन्तं कृतके पथि ।\nस्ववर्णमन्यवर्णं वा स्वशीलं शास्ति निश्चये ॥",
+          "meaning": {
+            "en": "One who follows noble looks and conduct on a feigned path, whether of his own class or another, is ruled in the end by his own nature."
+          }
         },
         {
           "n": 45,
-          "text": "नानावृत्तेषु भूतेषु नानाकर्मरतेषु च ।\nजन्मवृत्तसमं लोके सुश्लिष्टं न विरज्यते ॥"
+          "text": "नानावृत्तेषु भूतेषु नानाकर्मरतेषु च ।\nजन्मवृत्तसमं लोके सुश्लिष्टं न विरज्यते ॥",
+          "meaning": {
+            "en": "Among beings of varied behavior and varied delights in action, a man whose conduct matches his birth in the world is well bound and not discontented."
+          }
         },
         {
           "n": 46,
-          "text": "शरीरमिह सत्त्वेन नरस्य परिकृष्यते ।\nज्येष्ठमध्यावरं सत्त्वं तुल्यसत्त्वं प्रमोदते ॥"
+          "text": "शरीरमिह सत्त्वेन नरस्य परिकृष्यते ।\nज्येष्ठमध्यावरं सत्त्वं तुल्यसत्त्वं प्रमोदते ॥",
+          "meaning": {
+            "en": "Here a man's body is drawn along by his inner nature. A higher, middle or lower nature delights in an equal nature."
+          }
         },
         {
           "n": 47,
-          "text": "ज्यायांसमपि शीलेन विहीनं नैव पूजयेत् ।\nअपि शूद्रं तु सद्वृत्तं धर्मज्ञमभिपूजयेत् ॥"
+          "text": "ज्यायांसमपि शीलेन विहीनं नैव पूजयेत् ।\nअपि शूद्रं तु सद्वृत्तं धर्मज्ञमभिपूजयेत् ॥",
+          "meaning": {
+            "en": "One should not honor even an elder who lacks good character, but should honor even a shudra of good conduct who knows dharma."
+          }
         },
         {
           "n": 48,
-          "text": "आत्मानमाख्याति हि कर्मभिर्नरः\nस्वशीलचारित्रकृतैः शुभाशुभैः ।\nप्रनष्टमप्यात्मकुलं तथा नरः\nपुनः प्रकाशं कुरुते स्वकर्मभिः ॥"
+          "text": "आत्मानमाख्याति हि कर्मभिर्नरः\nस्वशीलचारित्रकृतैः शुभाशुभैः ।\nप्रनष्टमप्यात्मकुलं तथा नरः\nपुनः प्रकाशं कुरुते स्वकर्मभिः ॥",
+          "meaning": {
+            "en": "A man declares himself by his deeds, the good and bad done by his own character and conduct. And a man may bring his lost family back to light by his own deeds."
+          }
         },
         {
           "n": 49,
-          "text": "योनिष्वेतासु सर्वासु संकीर्णास्वितरासु च ।\nयत्रात्मानं न जनयेद्बुधस्ताः परिवर्जयेत् ॥"
+          "text": "योनिष्वेतासु सर्वासु संकीर्णास्वितरासु च ।\nयत्रात्मानं न जनयेद्बुधस्ताः परिवर्जयेत् ॥",
+          "meaning": {
+            "en": "In all these wombs and other mixed ones, the wise man should avoid those in which he would not beget himself."
+          }
         }
       ]
     }

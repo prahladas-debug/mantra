@@ -22,221 +22,386 @@
       "titleEn": "Mokshadharma Parva (Duties for liberation)",
       "verses": [
         {
-          "text": "जनमेजय उवाच"
+          "text": "जनमेजय उवाच",
+          "meaning": {
+            "en": "Janamejaya said:"
+          }
         },
         {
           "n": 1,
-          "text": "ब्रह्मन्सुमहदाख्यानं भवता परिकीर्तितम् ।\nयच्छ्रुत्वा मुनयः सर्वे विस्मयं परमं गताः ॥"
+          "text": "ब्रह्मन्सुमहदाख्यानं भवता परिकीर्तितम् ।\nयच्छ्रुत्वा मुनयः सर्वे विस्मयं परमं गताः ॥",
+          "meaning": {
+            "en": "Brahmin, you have told a very great story, and hearing it all the sages were filled with the highest wonder."
+          }
         },
         {
           "n": 2,
-          "text": "इदं शतसहस्राद्धि भारताख्यानविस्तरात् ।\nआमथ्य मतिमन्थेन ज्ञानोदधिमनुत्तमम् ॥"
+          "text": "इदं शतसहस्राद्धि भारताख्यानविस्तरात् ।\nआमथ्य मतिमन्थेन ज्ञानोदधिमनुत्तमम् ॥",
+          "meaning": {
+            "en": "With the churning-stick of intellect you have churned the matchless ocean of knowledge out of the hundred-thousand-verse Bharata narrative,"
+          }
         },
         {
           "n": 3,
-          "text": "नवनीतं यथा दध्नो मलयाच्चन्दनं यथा ।\nआरण्यकं च वेदेभ्य ओषधिभ्योऽमृतं यथा ॥"
+          "text": "नवनीतं यथा दध्नो मलयाच्चन्दनं यथा ।\nआरण्यकं च वेदेभ्य ओषधिभ्योऽमृतं यथा ॥",
+          "meaning": {
+            "en": "and drawn this out as butter from curd, sandal from the Malaya mountain, the Aranyaka from the Vedas, and nectar from herbs."
+          }
         },
         {
           "n": 4,
-          "text": "समुद्धृतमिदं ब्रह्मन्कथामृतमनुत्तमम् ।\nतपोनिधे त्वयोक्तं हि नारायणकथाश्रयम् ॥"
+          "text": "समुद्धृतमिदं ब्रह्मन्कथामृतमनुत्तमम् ।\nतपोनिधे त्वयोक्तं हि नारायणकथाश्रयम् ॥",
+          "meaning": {
+            "en": "Treasury of austerity, you have drawn out this supreme nectar of a tale, resting on the story of Narayana."
+          }
         },
         {
           "n": 5,
-          "text": "स हीशो भगवान्देवः सर्वभूतात्मभावनः ।\nअहो नारायणं तेजो दुर्दर्शं द्विजसत्तम ॥"
+          "text": "स हीशो भगवान्देवः सर्वभूतात्मभावनः ।\nअहो नारायणं तेजो दुर्दर्शं द्विजसत्तम ॥",
+          "meaning": {
+            "en": "He is the lord, the blessed god, who makes himself the self of all beings. Ah, best of the twice-born, how hard to behold is Narayana's radiance!"
+          }
         },
         {
           "n": 6,
-          "text": "यत्राविशन्ति कल्पान्ते सर्वे ब्रह्मादयः सुराः ।\nऋषयश्च सगन्धर्वा यच्च किंचिच्चराचरम् ।\nन ततोऽस्ति परं मन्ये पावनं दिवि चेह च ॥"
+          "text": "यत्राविशन्ति कल्पान्ते सर्वे ब्रह्मादयः सुराः ।\nऋषयश्च सगन्धर्वा यच्च किंचिच्चराचरम् ।\nन ततोऽस्ति परं मन्ये पावनं दिवि चेह च ॥",
+          "meaning": {
+            "en": "Into it at the end of the aeon all the gods headed by Brahma, the sages, the gandharvas, and everything moving and unmoving enter; I think nothing in heaven or here is more purifying than it."
+          }
         },
         {
           "n": 7,
-          "text": "सर्वाश्रमाभिगमनं सर्वतीर्थावगाहनम् ।\nन तथा फलदं चापि नारायणकथा यथा ॥"
+          "text": "सर्वाश्रमाभिगमनं सर्वतीर्थावगाहनम् ।\nन तथा फलदं चापि नारायणकथा यथा ॥",
+          "meaning": {
+            "en": "Visiting every hermitage and bathing at every holy place does not bear fruit as the story of Narayana does."
+          }
         },
         {
           "n": 8,
-          "text": "सर्वथा पाविताः स्मेह श्रुत्वेमामादितः कथाम् ।\nहरेर्विश्वेश्वरस्येह सर्वपापप्रणाशनीम् ॥"
+          "text": "सर्वथा पाविताः स्मेह श्रुत्वेमामादितः कथाम् ।\nहरेर्विश्वेश्वरस्येह सर्वपापप्रणाशनीम् ॥",
+          "meaning": {
+            "en": "Hearing this tale of Hari, lord of the universe, from the beginning, which destroys all sins, we have been entirely purified here."
+          }
         },
         {
           "n": 9,
-          "text": "न चित्रं कृतवांस्तत्र यदार्यो मे धनंजयः ।\nवासुदेवसहायो यः प्राप्तवाञ्जयमुत्तमम् ॥"
+          "text": "न चित्रं कृतवांस्तत्र यदार्यो मे धनंजयः ।\nवासुदेवसहायो यः प्राप्तवाञ्जयमुत्तमम् ॥",
+          "meaning": {
+            "en": "It was no wonder that my noble ancestor Dhananjaya, aided by Vasudeva, won the highest victory."
+          }
         },
         {
           "n": 10,
-          "text": "न चास्य किंचिदप्राप्यं मन्ये लोकेष्वपि त्रिषु ।\nत्रैलोक्यनाथो विष्णुः स यस्यासीत्साह्यकृत्सखा ॥"
+          "text": "न चास्य किंचिदप्राप्यं मन्ये लोकेष्वपि त्रिषु ।\nत्रैलोक्यनाथो विष्णुः स यस्यासीत्साह्यकृत्सखा ॥",
+          "meaning": {
+            "en": "I think nothing in the three worlds is beyond his reach, for Vishnu, lord of the three worlds, was his helper and friend."
+          }
         },
         {
           "n": 11,
-          "text": "धन्याश्च सर्व एवासन्ब्रह्मंस्ते मम पूर्वकाः ।\nहिताय श्रेयसे चैव येषामासीज्जनार्दनः ॥"
+          "text": "धन्याश्च सर्व एवासन्ब्रह्मंस्ते मम पूर्वकाः ।\nहिताय श्रेयसे चैव येषामासीज्जनार्दनः ॥",
+          "meaning": {
+            "en": "Brahmin, all my forefathers were blessed, for whom Janardana was a source of good and welfare."
+          }
         },
         {
           "n": 12,
-          "text": "तपसापि न दृश्यो हि भगवाँल्लोकपूजितः ।\nयं दृष्टवन्तस्ते साक्षाच्छ्रीवत्साङ्कविभूषणम् ॥"
+          "text": "तपसापि न दृश्यो हि भगवाँल्लोकपूजितः ।\nयं दृष्टवन्तस्ते साक्षाच्छ्रीवत्साङ्कविभूषणम् ॥",
+          "meaning": {
+            "en": "The blessed one, honored by the worlds, cannot be seen even by austerity; yet they saw him in person, adorned with the Shrivatsa mark."
+          }
         },
         {
           "n": 13,
-          "text": "तेभ्यो धन्यतरश्चैव नारदः परमेष्ठिजः ।\nन चाल्पतेजसमृषिं वेद्मि नारदमव्ययम् ।\nश्वेतद्वीपं समासाद्य येन दृष्टः स्वयं हरिः ॥"
+          "text": "तेभ्यो धन्यतरश्चैव नारदः परमेष्ठिजः ।\nन चाल्पतेजसमृषिं वेद्मि नारदमव्ययम् ।\nश्वेतद्वीपं समासाद्य येन दृष्टः स्वयं हरिः ॥",
+          "meaning": {
+            "en": "More blessed even than they was Narada, born of Brahma; I do not take the imperishable sage Narada to be of small power, since he reached the White Island and saw Hari himself."
+          }
         },
         {
           "n": 14,
-          "text": "देवप्रसादानुगतं व्यक्तं तत्तस्य दर्शनम् ।\nयद्दृष्टवांस्तदा देवमनिरुद्धतनौ स्थितम् ॥"
+          "text": "देवप्रसादानुगतं व्यक्तं तत्तस्य दर्शनम् ।\nयद्दृष्टवांस्तदा देवमनिरुद्धतनौ स्थितम् ॥",
+          "meaning": {
+            "en": "His vision was clearly due to the god's favor, in that he beheld the god dwelling in the body of Aniruddha."
+          }
         },
         {
           "n": 15,
-          "text": "बदरीमाश्रमं यत्तु नारदः प्राद्रवत्पुनः ।\nनरनारायणौ द्रष्टुं किं नु तत्कारणं मुने ॥"
+          "text": "बदरीमाश्रमं यत्तु नारदः प्राद्रवत्पुनः ।\nनरनारायणौ द्रष्टुं किं नु तत्कारणं मुने ॥",
+          "meaning": {
+            "en": "Sage, why did Narada then hurry again to the Badari hermitage to see Nara and Narayana?"
+          }
         },
         {
           "n": 16,
-          "text": "श्वेतद्वीपान्निवृत्तश्च नारदः परमेष्ठिजः ।\nबदरीमाश्रमं प्राप्य समागम्य च तावृषी ॥"
+          "text": "श्वेतद्वीपान्निवृत्तश्च नारदः परमेष्ठिजः ।\nबदरीमाश्रमं प्राप्य समागम्य च तावृषी ॥",
+          "meaning": {
+            "en": "After Brahma-born Narada returned from the White Island, he reached the Badari hermitage and met those two sages."
+          }
         },
         {
           "n": 17,
-          "text": "कियन्तं कालमवसत्काः कथाः पृष्टवांश्च सः ।\nश्वेतद्वीपादुपावृत्ते तस्मिन्वा सुमहात्मनि ॥"
+          "text": "कियन्तं कालमवसत्काः कथाः पृष्टवांश्च सः ।\nश्वेतद्वीपादुपावृत्ते तस्मिन्वा सुमहात्मनि ॥",
+          "meaning": {
+            "en": "How long did he stay, and what did he ask about? When that great soul had returned from the White Island,"
+          }
         },
         {
           "n": 18,
-          "text": "किमब्रूतां महात्मानौ नरनारायणावृषी ।\nतदेतन्मे यथातत्त्वं सर्वमाख्यातुमर्हसि ॥"
+          "text": "किमब्रूतां महात्मानौ नरनारायणावृषी ।\nतदेतन्मे यथातत्त्वं सर्वमाख्यातुमर्हसि ॥",
+          "meaning": {
+            "en": "what did the great souls, the sages Nara and Narayana, say? You should tell me all this exactly as it was."
+          }
         },
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 19,
-          "text": "नमो भगवते तस्मै व्यासायामिततेजसे ।\nयस्य प्रसादाद्वक्ष्यामि नारायणकथामिमाम् ॥"
+          "text": "नमो भगवते तस्मै व्यासायामिततेजसे ।\nयस्य प्रसादाद्वक्ष्यामि नारायणकथामिमाम् ॥",
+          "meaning": {
+            "en": "Homage to the blessed Vyasa of boundless splendor; by his grace I will tell this story of Narayana."
+          }
         },
         {
           "n": 20,
-          "text": "प्राप्य श्वेतं महाद्वीपं दृष्ट्वा च हरिमव्ययम् ।\nनिवृत्तो नारदो राजंस्तरसा मेरुमागमत् ।\nहृदयेनोद्वहन्भारं यदुक्तं परमात्मना ॥"
+          "text": "प्राप्य श्वेतं महाद्वीपं दृष्ट्वा च हरिमव्ययम् ।\nनिवृत्तो नारदो राजंस्तरसा मेरुमागमत् ।\nहृदयेनोद्वहन्भारं यदुक्तं परमात्मना ॥",
+          "meaning": {
+            "en": "Having reached the great White Island and seen the imperishable Hari, Narada returned, king, and quickly came to Meru, carrying in his heart the burden of what the Supreme Self had said."
+          }
         },
         {
           "n": 21,
-          "text": "पश्चादस्याभवद्राजन्नात्मनः साध्वसं महत् ।\nयद्गत्वा दूरमध्वानं क्षेमी पुनरिहागतः ॥"
+          "text": "पश्चादस्याभवद्राजन्नात्मनः साध्वसं महत् ।\nयद्गत्वा दूरमध्वानं क्षेमी पुनरिहागतः ॥",
+          "meaning": {
+            "en": "Afterward, king, he felt great awe within himself that, having gone so far, he had come back here safe."
+          }
         },
         {
           "n": 22,
-          "text": "ततो मेरोः प्रचक्राम पर्वतं गन्धमादनम् ।\nनिपपात च खात्तूर्णं विशालां बदरीमनु ॥"
+          "text": "ततो मेरोः प्रचक्राम पर्वतं गन्धमादनम् ।\nनिपपात च खात्तूर्णं विशालां बदरीमनु ॥",
+          "meaning": {
+            "en": "Then he crossed Meru to the mountain Gandhamadana and swiftly dropped from the sky near the spacious Badari."
+          }
         },
         {
           "n": 23,
-          "text": "ततः स ददृशे देवौ पुराणावृषिसत्तमौ ।\nतपश्चरन्तौ सुमहदात्मनिष्ठौ महाव्रतौ ॥"
+          "text": "ततः स ददृशे देवौ पुराणावृषिसत्तमौ ।\nतपश्चरन्तौ सुमहदात्मनिष्ठौ महाव्रतौ ॥",
+          "meaning": {
+            "en": "There he saw the two ancient gods, best of sages, performing great austerity, devoted to the Self and keeping great vows,"
+          }
         },
         {
           "n": 24,
-          "text": "तेजसाभ्यधिकौ सूर्यात्सर्वलोकविरोचनात् ।\nश्रीवत्सलक्षणौ पूज्यौ जटामण्डलधारिणौ ॥"
+          "text": "तेजसाभ्यधिकौ सूर्यात्सर्वलोकविरोचनात् ।\nश्रीवत्सलक्षणौ पूज्यौ जटामण्डलधारिणौ ॥",
+          "meaning": {
+            "en": "brighter in radiance than the sun that lights all worlds, worthy of worship, marked with the Shrivatsa, and wearing circles of matted hair."
+          }
         },
         {
           "n": 25,
-          "text": "जालपादभुजौ तौ तु पादयोश्चक्रलक्षणौ ।\nव्यूढोरस्कौ दीर्घभुजौ तथा मुष्कचतुष्किणौ ॥"
+          "text": "जालपादभुजौ तौ तु पादयोश्चक्रलक्षणौ ।\nव्यूढोरस्कौ दीर्घभुजौ तथा मुष्कचतुष्किणौ ॥",
+          "meaning": {
+            "en": "Their hands and feet were webbed, their feet bore the sign of the discus, their chests were broad, their arms long, and each had four testicles."
+          }
         },
         {
           "n": 26,
-          "text": "षष्टिदन्तावष्टदंष्ट्रौ मेघौघसदृशस्वनौ ।\nस्वास्यौ पृथुललाटौ च सुहनू सुभ्रुनासिकौ ॥"
+          "text": "षष्टिदन्तावष्टदंष्ट्रौ मेघौघसदृशस्वनौ ।\nस्वास्यौ पृथुललाटौ च सुहनू सुभ्रुनासिकौ ॥",
+          "meaning": {
+            "en": "They had sixty teeth and eight tusks, voices like masses of thunderclouds, fair faces, broad foreheads, fine jaws, brows, and noses."
+          }
         },
         {
           "n": 27,
-          "text": "आतपत्रेण सदृशे शिरसी देवयोस्तयोः ।\nएवं लक्षणसंपन्नौ महापुरुषसंज्ञितौ ॥"
+          "text": "आतपत्रेण सदृशे शिरसी देवयोस्तयोः ।\nएवं लक्षणसंपन्नौ महापुरुषसंज्ञितौ ॥",
+          "meaning": {
+            "en": "The heads of the two gods were like parasols. Thus endowed with such marks, they were called great Persons."
+          }
         },
         {
           "n": 28,
-          "text": "तौ दृष्ट्वा नारदो हृष्टस्ताभ्यां च प्रतिपूजितः ।\nस्वागतेनाभिभाष्याथ पृष्टश्चानामयं तदा ॥"
+          "text": "तौ दृष्ट्वा नारदो हृष्टस्ताभ्यां च प्रतिपूजितः ।\nस्वागतेनाभिभाष्याथ पृष्टश्चानामयं तदा ॥",
+          "meaning": {
+            "en": "Seeing them, Narada was glad; they honored him in return, greeted him with a welcome, and asked after his wellbeing."
+          }
         },
         {
           "n": 29,
-          "text": "बभूवान्तर्गतमतिर्निरीक्ष्य पुरुषोत्तमौ ।\nसदोगतास्तत्र ये वै सर्वभूतनमस्कृताः ॥"
+          "text": "बभूवान्तर्गतमतिर्निरीक्ष्य पुरुषोत्तमौ ।\nसदोगतास्तत्र ये वै सर्वभूतनमस्कृताः ॥",
+          "meaning": {
+            "en": "Looking at the two best of persons, he grew thoughtful: those seated in the assembly there, whom all beings bow to, I saw on the White Island; such are these two best of sages too."
+          }
         },
         {
           "n": 30,
-          "text": "श्वेतद्वीपे मया दृष्टास्तादृशावृषिसत्तमौ ।\nइति संचिन्त्य मनसा कृत्वा चाभिप्रदक्षिणम् ।\nउपोपविविशे तत्र पीठे कुशमये शुभे ॥"
+          "text": "श्वेतद्वीपे मया दृष्टास्तादृशावृषिसत्तमौ ।\nइति संचिन्त्य मनसा कृत्वा चाभिप्रदक्षिणम् ।\nउपोपविविशे तत्र पीठे कुशमये शुभे ॥",
+          "meaning": {
+            "en": "Thinking so, he circled them respectfully and sat down on a lovely seat of kusha grass."
+          }
         },
         {
           "n": 31,
-          "text": "ततस्तौ तपसां वासौ यशसां तेजसामपि ।\nऋषी शमदमोपेतौ कृत्वा पूर्वाह्णिकं विधिम् ॥"
+          "text": "ततस्तौ तपसां वासौ यशसां तेजसामपि ।\nऋषी शमदमोपेतौ कृत्वा पूर्वाह्णिकं विधिम् ॥",
+          "meaning": {
+            "en": "Then the two sages, abodes of austerity, fame, and radiance, endowed with calm and self-control, having completed their morning duties,"
+          }
         },
         {
           "n": 32,
-          "text": "पश्चान्नारदमव्यग्रौ पाद्यार्घ्याभ्यां प्रपूज्य च ।\nपीठयोश्चोपविष्टौ तौ कृतातिथ्याह्निकौ नृप ॥"
+          "text": "पश्चान्नारदमव्यग्रौ पाद्यार्घ्याभ्यां प्रपूज्य च ।\nपीठयोश्चोपविष्टौ तौ कृतातिथ्याह्निकौ नृप ॥",
+          "meaning": {
+            "en": "calmly honored Narada with foot-water and the guest offering, and, their daily hospitality done, sat down on their seats, king."
+          }
         },
         {
           "n": 33,
-          "text": "तेषु तत्रोपविष्टेषु स देशोऽभिव्यराजत ।\nआज्याहुतिमहाज्वालैर्यज्ञवाटोऽग्निभिर्यथा ॥"
+          "text": "तेषु तत्रोपविष्टेषु स देशोऽभिव्यराजत ।\nआज्याहुतिमहाज्वालैर्यज्ञवाटोऽग्निभिर्यथा ॥",
+          "meaning": {
+            "en": "As they sat there, the place shone like a sacrificial ground with fires blazing high from ghee offerings."
+          }
         },
         {
           "n": 34,
-          "text": "अथ नारायणस्तत्र नारदं वाक्यमब्रवीत् ।\nसुखोपविष्टं विश्रान्तं कृतातिथ्यं सुखस्थितम् ॥"
+          "text": "अथ नारायणस्तत्र नारदं वाक्यमब्रवीत् ।\nसुखोपविष्टं विश्रान्तं कृतातिथ्यं सुखस्थितम् ॥",
+          "meaning": {
+            "en": "Then Narayana spoke to Narada, who sat comfortably, rested, honored as guest, and at ease."
+          }
         },
         {
           "n": 35,
-          "text": "अपीदानीं स भगवान्परमात्मा सनातनः ।\nश्वेतद्वीपे त्वया दृष्ट आवयोः प्रकृतिः परा ॥"
+          "text": "अपीदानीं स भगवान्परमात्मा सनातनः ।\nश्वेतद्वीपे त्वया दृष्ट आवयोः प्रकृतिः परा ॥",
+          "meaning": {
+            "en": "\"Now, did you see on the White Island the blessed one, the eternal Supreme Self, our highest nature?\""
+          }
         },
         {
-          "text": "नारद उवाच"
+          "text": "नारद उवाच",
+          "meaning": {
+            "en": "Narada said:"
+          }
         },
         {
           "n": 36,
-          "text": "दृष्टो मे पुरुषः श्रीमान्विश्वरूपधरोऽव्ययः ।\nसर्वे हि लोकास्तत्रस्थास्तथा देवाः सहर्षिभिः ।\nअद्यापि चैनं पश्यामि युवां पश्यन्सनातनौ ॥"
+          "text": "दृष्टो मे पुरुषः श्रीमान्विश्वरूपधरोऽव्ययः ।\nसर्वे हि लोकास्तत्रस्थास्तथा देवाः सहर्षिभिः ।\nअद्यापि चैनं पश्यामि युवां पश्यन्सनातनौ ॥",
+          "meaning": {
+            "en": "I saw the glorious imperishable Person bearing the universal form; all the worlds, and the gods with the sages, dwell in him. Even now I see him, as I look at you two eternal ones."
+          }
         },
         {
           "n": 37,
-          "text": "यैर्लक्षणैरुपेतः स हरिरव्यक्तरूपधृक् ।\nतैर्लक्षणैरुपेतौ हि व्यक्तरूपधरौ युवाम् ॥"
+          "text": "यैर्लक्षणैरुपेतः स हरिरव्यक्तरूपधृक् ।\nतैर्लक्षणैरुपेतौ हि व्यक्तरूपधरौ युवाम् ॥",
+          "meaning": {
+            "en": "With the very marks that Hari bears in his unmanifest form, you two are endowed in manifest forms."
+          }
         },
         {
           "n": 38,
-          "text": "दृष्टौ मया युवां तत्र तस्य देवस्य पार्श्वतः ।\nइह चैवागतोऽस्म्यद्य विसृष्टः परमात्मना ॥"
+          "text": "दृष्टौ मया युवां तत्र तस्य देवस्य पार्श्वतः ।\nइह चैवागतोऽस्म्यद्य विसृष्टः परमात्मना ॥",
+          "meaning": {
+            "en": "I saw you two there, at the side of that god, and now I have come here, sent off by the Supreme Self."
+          }
         },
         {
           "n": 39,
-          "text": "को हि नाम भवेत्तस्य तेजसा यशसा श्रिया ।\nसदृशस्त्रिषु लोकेषु ऋते धर्मात्मजौ युवाम् ॥"
+          "text": "को हि नाम भवेत्तस्य तेजसा यशसा श्रिया ।\nसदृशस्त्रिषु लोकेषु ऋते धर्मात्मजौ युवाम् ॥",
+          "meaning": {
+            "en": "Who in the three worlds could equal him in splendor, fame, and glory, except you two, sons of Dharma?"
+          }
         },
         {
           "n": 40,
-          "text": "तेन मे कथितं पूर्वं नाम क्षेत्रज्ञसंज्ञितम् ।\nप्रादुर्भावाश्च कथिता भविष्यन्ति हि ये यथा ॥"
+          "text": "तेन मे कथितं पूर्वं नाम क्षेत्रज्ञसंज्ञितम् ।\nप्रादुर्भावाश्च कथिता भविष्यन्ति हि ये यथा ॥",
+          "meaning": {
+            "en": "He told me earlier the name called Kshetrajna, and the incarnations that are to come, and how."
+          }
         },
         {
           "n": 41,
-          "text": "तत्र ये पुरुषाः श्वेताः पञ्चेन्द्रियविवर्जिताः ।\nप्रतिबुद्धाश्च ते सर्वे भक्ताश्च पुरुषोत्तमम् ॥"
+          "text": "तत्र ये पुरुषाः श्वेताः पञ्चेन्द्रियविवर्जिताः ।\nप्रतिबुद्धाश्च ते सर्वे भक्ताश्च पुरुषोत्तमम् ॥",
+          "meaning": {
+            "en": "The white men there, without the five senses, are all awakened and devoted to the Supreme Person."
+          }
         },
         {
           "n": 42,
-          "text": "तेऽर्चयन्ति सदा देवं तैः सार्धं रमते च सः ।\nप्रियभक्तो हि भगवान्परमात्मा द्विजप्रियः ॥"
+          "text": "तेऽर्चयन्ति सदा देवं तैः सार्धं रमते च सः ।\nप्रियभक्तो हि भगवान्परमात्मा द्विजप्रियः ॥",
+          "meaning": {
+            "en": "They always worship the god, and he delights in their company; the blessed Supreme Self loves his devotees and loves brahmins."
+          }
         },
         {
           "n": 43,
-          "text": "रमते सोऽर्च्यमानो हि सदा भागवतप्रियः ।\nविश्वभुक्सर्वगो देवो बान्धवो भक्तवत्सलः ।\nस कर्ता कारणं चैव कार्यं चातिबलद्युतिः ॥"
+          "text": "रमते सोऽर्च्यमानो हि सदा भागवतप्रियः ।\nविश्वभुक्सर्वगो देवो बान्धवो भक्तवत्सलः ।\nस कर्ता कारणं चैव कार्यं चातिबलद्युतिः ॥",
+          "meaning": {
+            "en": "Being worshipped, he always delights, fond of the Bhagavatas; the god, enjoyer of the universe, all-pervading, kinsman, tender to devotees, is the doer, the cause, and the effect, of great strength and splendor."
+          }
         },
         {
           "n": 44,
-          "text": "तपसा योज्य सोऽऽत्मानं श्वेतद्वीपात्परं हि यत् ।\nतेज इत्यभिविख्यातं स्वयंभासावभासितम् ॥"
+          "text": "तपसा योज्य सोऽऽत्मानं श्वेतद्वीपात्परं हि यत् ।\nतेज इत्यभिविख्यातं स्वयंभासावभासितम् ॥",
+          "meaning": {
+            "en": "Joining himself to austerity, he stays in the light beyond the White Island, famed as radiance and illumined by its own shining."
+          }
         },
         {
           "n": 45,
-          "text": "शान्तिः सा त्रिषु लोकेषु सिद्धानां भावितात्मनाम् ।\nएतया शुभया बुद्ध्या नैष्ठिकं व्रतमास्थितः ॥"
+          "text": "शान्तिः सा त्रिषु लोकेषु सिद्धानां भावितात्मनाम् ।\nएतया शुभया बुद्ध्या नैष्ठिकं व्रतमास्थितः ॥",
+          "meaning": {
+            "en": "That is the peace in the three worlds of the perfected, whose souls are cultivated. With this auspicious resolve he has undertaken a lifelong vow."
+          }
         },
         {
           "n": 46,
-          "text": "न तत्र सूर्यस्तपति न सोमोऽभिविराजते ।\nन वायुर्वाति देवेशे तपश्चरति दुश्चरम् ॥"
+          "text": "न तत्र सूर्यस्तपति न सोमोऽभिविराजते ।\nन वायुर्वाति देवेशे तपश्चरति दुश्चरम् ॥",
+          "meaning": {
+            "en": "There the sun does not burn and the moon does not shine; no wind blows where the lord of gods practices hard austerity."
+          }
         },
         {
           "n": 47,
-          "text": "वेदीमष्टतलोत्सेधां भूमावास्थाय विश्वभुक् ।\nएकपादस्थितो देव ऊर्ध्वबाहुरुदङ्मुखः ।\nसाङ्गानावर्तयन्वेदांस्तपस्तेपे सुदुश्चरम् ॥"
+          "text": "वेदीमष्टतलोत्सेधां भूमावास्थाय विश्वभुक् ।\nएकपादस्थितो देव ऊर्ध्वबाहुरुदङ्मुखः ।\nसाङ्गानावर्तयन्वेदांस्तपस्तेपे सुदुश्चरम् ॥",
+          "meaning": {
+            "en": "Standing on the earth on a platform eight palms high, the enjoyer of the universe, standing on one foot, arms raised, facing north, recited the Vedas with their limbs and practiced extremely hard austerity."
+          }
         },
         {
           "n": 48,
-          "text": "यद्ब्रह्मा ऋषयश्चैव स्वयं पशुपतिश्च यत् ।\nशेषाश्च विबुधश्रेष्ठा दैत्यदानवराक्षसाः ॥"
+          "text": "यद्ब्रह्मा ऋषयश्चैव स्वयं पशुपतिश्च यत् ।\nशेषाश्च विबुधश्रेष्ठा दैत्यदानवराक्षसाः ॥",
+          "meaning": {
+            "en": "All that Brahma, the sages, Pashupati himself, Shesha, the best of gods, the daityas, danavas, and rakshasas,"
+          }
         },
         {
           "n": 49,
-          "text": "नागाः सुपर्णा गन्धर्वाः सिद्धा राजर्षयश्च ये ।\nहव्यं कव्यं च सततं विधिपूर्वं प्रयुञ्जते ।\nकृत्स्नं तत्तस्य देवस्य चरणावुपतिष्ठति ॥"
+          "text": "नागाः सुपर्णा गन्धर्वाः सिद्धा राजर्षयश्च ये ।\nहव्यं कव्यं च सततं विधिपूर्वं प्रयुञ्जते ।\nकृत्स्नं तत्तस्य देवस्य चरणावुपतिष्ठति ॥",
+          "meaning": {
+            "en": "nagas, garudas, gandharvas, siddhas, and royal sages continually offer as oblations to gods and ancestors by rule, reaches the feet of that god entire."
+          }
         },
         {
           "n": 50,
-          "text": "याः क्रियाः संप्रयुक्तास्तु एकान्तगतबुद्धिभिः ।\nताः सर्वाः शिरसा देवः प्रतिगृह्णाति वै स्वयम् ॥"
+          "text": "याः क्रियाः संप्रयुक्तास्तु एकान्तगतबुद्धिभिः ।\nताः सर्वाः शिरसा देवः प्रतिगृह्णाति वै स्वयम् ॥",
+          "meaning": {
+            "en": "All rites performed by those whose minds are single-pointed, the god himself receives with his head."
+          }
         },
         {
           "n": 51,
-          "text": "न तस्यान्यः प्रियतरः प्रतिबुद्धैर्महात्मभिः ।\nविद्यते त्रिषु लोकेषु ततोऽस्म्यैकान्तिकं गतः ।\nइह चैवागतस्तेन विसृष्टः परमात्मना ॥"
+          "text": "न तस्यान्यः प्रियतरः प्रतिबुद्धैर्महात्मभिः ।\nविद्यते त्रिषु लोकेषु ततोऽस्म्यैकान्तिकं गतः ।\nइह चैवागतस्तेन विसृष्टः परमात्मना ॥",
+          "meaning": {
+            "en": "No one in the three worlds is dearer to him than the awakened great souls; so I have taken the single-minded way, and I have come here sent off by the Supreme Self."
+          }
         },
         {
           "n": 52,
-          "text": "एवं मे भगवान्देवः स्वयमाख्यातवान्हरिः ।\nआसिष्ये तत्परो भूत्वा युवाभ्यां सह नित्यशः ॥"
+          "text": "एवं मे भगवान्देवः स्वयमाख्यातवान्हरिः ।\nआसिष्ये तत्परो भूत्वा युवाभ्यां सह नित्यशः ॥",
+          "meaning": {
+            "en": "So the blessed god Hari told me himself; I will stay with you two always, intent on that."
+          }
         }
       ]
     }

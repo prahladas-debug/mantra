@@ -22,170 +22,296 @@
       "titleEn": "Anushasanika Parva (The instructions)",
       "verses": [
         {
-          "text": "युधिष्ठिर उवाच"
+          "text": "युधिष्ठिर उवाच",
+          "meaning": {
+            "en": "Yudhishthira said:"
+          }
         },
         {
           "n": 1,
-          "text": "यानीमानि बहिर्वेद्यां दानानि परिचक्षते ।\nतेभ्यो विशिष्टं किं दानं मतं ते कुरुपुंगव ॥"
+          "text": "यानीमानि बहिर्वेद्यां दानानि परिचक्षते ।\nतेभ्यो विशिष्टं किं दानं मतं ते कुरुपुंगव ॥",
+          "meaning": {
+            "en": "\"Among these gifts that are spoken of as made outside the sacrificial altar, which gift do you consider the best, tiger of the Kurus?"
+          }
         },
         {
           "n": 2,
-          "text": "कौतूहलं हि परमं तत्र मे वर्तते प्रभो ।\nदातारं दत्तमन्वेति यद्दानं तत्प्रचक्ष्व मे ॥"
+          "text": "कौतूहलं हि परमं तत्र मे वर्तते प्रभो ।\nदातारं दत्तमन्वेति यद्दानं तत्प्रचक्ष्व मे ॥",
+          "meaning": {
+            "en": "I have great curiosity about it, lord; tell me which gift follows the giver.\""
+          }
         },
         {
-          "text": "भीष्म उवाच"
+          "text": "भीष्म उवाच",
+          "meaning": {
+            "en": "Bhishma said:"
+          }
         },
         {
           "n": 3,
-          "text": "अभयं सर्वभूतेभ्यो व्यसने चाप्यनुग्रहम् ।\nयच्चाभिलषितं दद्यात्तृषितायाभियाचते ॥"
+          "text": "अभयं सर्वभूतेभ्यो व्यसने चाप्यनुग्रहम् ।\nयच्चाभिलषितं दद्यात्तृषितायाभियाचते ॥",
+          "meaning": {
+            "en": "\"Safety for all creatures, kindness in distress, and giving what a thirsty beggar desires,"
+          }
         },
         {
           "n": 4,
-          "text": "दत्तं मन्येत यद्दत्त्वा तद्दानं श्रेष्ठमुच्यते ।\nदत्तं दातारमन्वेति यद्दानं भरतर्षभ ॥"
+          "text": "दत्तं मन्येत यद्दत्त्वा तद्दानं श्रेष्ठमुच्यते ।\nदत्तं दातारमन्वेति यद्दानं भरतर्षभ ॥",
+          "meaning": {
+            "en": "a gift that the giver feels is truly given: that gift is called the best, the gift that follows the giver, best of Bharatas."
+          }
         },
         {
           "n": 5,
-          "text": "हिरण्यदानं गोदानं पृथिवीदानमेव च ।\nएतानि वै पवित्राणि तारयन्त्यपि दुष्कृतम् ॥"
+          "text": "हिरण्यदानं गोदानं पृथिवीदानमेव च ।\nएतानि वै पवित्राणि तारयन्त्यपि दुष्कृतम् ॥",
+          "meaning": {
+            "en": "Gifts of gold, cows and land are purifying, and they carry even the sinner across."
+          }
         },
         {
           "n": 6,
-          "text": "एतानि पुरुषव्याघ्र साधुभ्यो देहि नित्यदा ।\nदानानि हि नरं पापान्मोक्षयन्ति न संशयः ॥"
+          "text": "एतानि पुरुषव्याघ्र साधुभ्यो देहि नित्यदा ।\nदानानि हि नरं पापान्मोक्षयन्ति न संशयः ॥",
+          "meaning": {
+            "en": "Give these constantly to good people, tiger among men; gifts free a man from sin, without doubt."
+          }
         },
         {
           "n": 7,
-          "text": "यद्यदिष्टतमं लोके यच्चास्य दयितं गृहे ।\nतत्तद्गुणवते देयं तदेवाक्षयमिच्छता ॥"
+          "text": "यद्यदिष्टतमं लोके यच्चास्य दयितं गृहे ।\nतत्तद्गुणवते देयं तदेवाक्षयमिच्छता ॥",
+          "meaning": {
+            "en": "Whatever is dearest in the world and whatever is cherished in his house, that should be given to a worthy person by one who wants it to be imperishable."
+          }
         },
         {
           "n": 8,
-          "text": "प्रियाणि लभते लोके प्रियदः प्रियकृत्तथा ।\nप्रियो भवति भूतानामिह चैव परत्र च ॥"
+          "text": "प्रियाणि लभते लोके प्रियदः प्रियकृत्तथा ।\nप्रियो भवति भूतानामिह चैव परत्र च ॥",
+          "meaning": {
+            "en": "One who gives what is dear, and does what is dear, gains what is dear in the world; he becomes dear to beings here and hereafter."
+          }
         },
         {
           "n": 9,
-          "text": "याचमानमभीमानादाशावन्तमकिंचनम् ।\nयो नार्चति यथाशक्ति स नृशंसो युधिष्ठिर ॥"
+          "text": "याचमानमभीमानादाशावन्तमकिंचनम् ।\nयो नार्चति यथाशक्ति स नृशंसो युधिष्ठिर ॥",
+          "meaning": {
+            "en": "One who does not honour, as best he can, a hopeful, humble beggar without possessions is cruel, Yudhishthira."
+          }
         },
         {
           "n": 10,
-          "text": "अमित्रमपि चेद्दीनं शरणैषिणमागतम् ।\nव्यसने योऽनुगृह्णाति स वै पुरुषसत्तमः ॥"
+          "text": "अमित्रमपि चेद्दीनं शरणैषिणमागतम् ।\nव्यसने योऽनुगृह्णाति स वै पुरुषसत्तमः ॥",
+          "meaning": {
+            "en": "Even if an enemy comes in distress seeking refuge, the one who helps him in his misfortune is the best of men."
+          }
         },
         {
           "n": 11,
-          "text": "कृशाय ह्रीमते तात वृत्तिक्षीणाय सीदते ।\nअपहन्यात्क्षुधं यस्तु न तेन पुरुषः समः ॥"
+          "text": "कृशाय ह्रीमते तात वृत्तिक्षीणाय सीदते ।\nअपहन्यात्क्षुधं यस्तु न तेन पुरुषः समः ॥",
+          "meaning": {
+            "en": "One who removes the hunger of a thin, modest person ruined in livelihood and sinking is not equal to other men."
+          }
         },
         {
           "n": 12,
-          "text": "ह्रिया तु नियतान्साधून्पुत्रदारैश्च कर्शितान् ।\nअयाचमानान्कौन्तेय सर्वोपायैर्निमन्त्रय ॥"
+          "text": "ह्रिया तु नियतान्साधून्पुत्रदारैश्च कर्शितान् ।\nअयाचमानान्कौन्तेय सर्वोपायैर्निमन्त्रय ॥",
+          "meaning": {
+            "en": "Invite, by every means, Kaunteya, the good who are restrained by modesty, weakened by wife and children, and who do not beg."
+          }
         },
         {
           "n": 13,
-          "text": "आशिषं ये न देवेषु न मर्त्येषु च कुर्वते ।\nअर्हन्तो नित्यसत्त्वस्था यथालब्धोपजीविनः ॥"
+          "text": "आशिषं ये न देवेषु न मर्त्येषु च कुर्वते ।\nअर्हन्तो नित्यसत्त्वस्था यथालब्धोपजीविनः ॥",
+          "meaning": {
+            "en": "Those worthy ones who offer no blessing to gods or to mortals, ever steadfast, living on whatever they get,"
+          }
         },
         {
           "n": 14,
-          "text": "आशीविषसमेभ्यश्च तेभ्यो रक्षस्व भारत ।\nतान्युक्तैरुपजिज्ञास्य तथा द्विजवरोत्तमान् ॥"
+          "text": "आशीविषसमेभ्यश्च तेभ्यो रक्षस्व भारत ।\nतान्युक्तैरुपजिज्ञास्य तथा द्विजवरोत्तमान् ॥",
+          "meaning": {
+            "en": "protect against them as if from poisonous snakes, Bharata; and learning of them through trusted people, also the best of the brahmins."
+          }
         },
         {
           "n": 15,
-          "text": "कृतैरावसथैर्नित्यं सप्रेष्यैः सपरिच्छदैः ।\nनिमन्त्रयेथाः कौरव्य सर्वकामसुखावहैः ॥"
+          "text": "कृतैरावसथैर्नित्यं सप्रेष्यैः सपरिच्छदैः ।\nनिमन्त्रयेथाः कौरव्य सर्वकामसुखावहैः ॥",
+          "meaning": {
+            "en": "Invite them, Kaurava, to dwellings you have built, with attendants and furnishings, giving every desired comfort."
+          }
         },
         {
           "n": 16,
-          "text": "यदि ते प्रतिगृह्णीयुः श्रद्धापूतं युधिष्ठिर ।\nकार्यमित्येव मन्वाना धार्मिकाः पुण्यकर्मिणः ॥"
+          "text": "यदि ते प्रतिगृह्णीयुः श्रद्धापूतं युधिष्ठिर ।\nकार्यमित्येव मन्वाना धार्मिकाः पुण्यकर्मिणः ॥",
+          "meaning": {
+            "en": "If those righteous and virtuous ones accept what is purified by faith, Yudhishthira, thinking it a duty,"
+          }
         },
         {
           "n": 17,
-          "text": "विद्यास्नाता व्रतस्नाता ये व्यपाश्रित्यजीविनः ।\nगूढस्वाध्यायतपसो ब्राह्मणाः संशितव्रताः ॥"
+          "text": "विद्यास्नाता व्रतस्नाता ये व्यपाश्रित्यजीविनः ।\nगूढस्वाध्यायतपसो ब्राह्मणाः संशितव्रताः ॥",
+          "meaning": {
+            "en": "those brahmins who are graduates of learning and of vows, who depend on no one, who keep their study and austerity hidden, and whose vows are sharp,"
+          }
         },
         {
           "n": 18,
-          "text": "तेषु शुद्धेषु दान्तेषु स्वदारनिरतेषु च ।\nयत्करिष्यसि कल्याणं तत्त्वा लोकेषु धास्यति ॥"
+          "text": "तेषु शुद्धेषु दान्तेषु स्वदारनिरतेषु च ।\nयत्करिष्यसि कल्याणं तत्त्वा लोकेषु धास्यति ॥",
+          "meaning": {
+            "en": "whatever good you do for those pure, self-controlled ones devoted to their own wives will support you in the worlds."
+          }
         },
         {
           "n": 19,
-          "text": "यथाग्निहोत्रं सुहुतं सायं प्रातर्द्विजातिना ।\nतथा भवति दत्तं वै द्विजेभ्योऽथ कृतात्मना ॥"
+          "text": "यथाग्निहोत्रं सुहुतं सायं प्रातर्द्विजातिना ।\nतथा भवति दत्तं वै द्विजेभ्योऽथ कृतात्मना ॥",
+          "meaning": {
+            "en": "As an offering into the fire well made morning and evening by a twice-born, so is a gift to brahmins by one of controlled self."
+          }
         },
         {
           "n": 20,
-          "text": "एष ते विततो यज्ञः श्रद्धापूतः सदक्षिणः ।\nविशिष्टः सर्वयज्ञेभ्यो ददतस्तात वर्तताम् ॥"
+          "text": "एष ते विततो यज्ञः श्रद्धापूतः सदक्षिणः ।\nविशिष्टः सर्वयज्ञेभ्यो ददतस्तात वर्तताम् ॥",
+          "meaning": {
+            "en": "This is your sacrifice spread out, purified by faith and with fees, better than all sacrifices, for one who gives, dear one."
+          }
         },
         {
           "n": 21,
-          "text": "निवापो दानसदृशस्तादृशेषु युधिष्ठिर ।\nनिवपन्पूजयंश्चैव तेष्वानृण्यं निगच्छति ॥"
+          "text": "निवापो दानसदृशस्तादृशेषु युधिष्ठिर ।\nनिवपन्पूजयंश्चैव तेष्वानृण्यं निगच्छति ॥",
+          "meaning": {
+            "en": "Offering to such people is equal to a gift, Yudhishthira; offering and honouring them, one is freed from debt toward them."
+          }
         },
         {
           "n": 22,
-          "text": "य एव नो न कुप्यन्ति न लुभ्यन्ति तृणेष्वपि ।\nत एव नः पूज्यतमा ये चान्ये प्रियवादिनः ॥"
+          "text": "य एव नो न कुप्यन्ति न लुभ्यन्ति तृणेष्वपि ।\nत एव नः पूज्यतमा ये चान्ये प्रियवादिनः ॥",
+          "meaning": {
+            "en": "Those who do not get angry with us and are not greedy even for a blade of grass, and others who speak kindly, are the most to be honoured by us."
+          }
         },
         {
           "n": 23,
-          "text": "ये नो न बहु मन्यन्ते न प्रवर्तन्ति चापरे ।\nपुत्रवत्परिपाल्यास्ते नमस्तेभ्यस्तथाभयम् ॥"
+          "text": "ये नो न बहु मन्यन्ते न प्रवर्तन्ति चापरे ।\nपुत्रवत्परिपाल्यास्ते नमस्तेभ्यस्तथाभयम् ॥",
+          "meaning": {
+            "en": "Those who do not think much of us and do not act on our behalf should be protected like sons; reverence to them, and safety."
+          }
         },
         {
           "n": 24,
-          "text": "ऋत्विक्पुरोहिताचार्या मृदुब्रह्मधरा हि ते ।\nक्षत्रेणापि हि संसृष्टं तेजः शाम्यति वै द्विजे ॥"
+          "text": "ऋत्विक्पुरोहिताचार्या मृदुब्रह्मधरा हि ते ।\nक्षत्रेणापि हि संसृष्टं तेजः शाम्यति वै द्विजे ॥",
+          "meaning": {
+            "en": "Priests, family priests and teachers bear the soft power of Brahma; for even the splendour of a kshatriya joined with it is calmed in a brahmin."
+          }
         },
         {
           "n": 25,
-          "text": "अस्ति मे बलवानस्मि राजास्मीति युधिष्ठिर ।\nब्राह्मणान्मा स्म पर्यश्नीर्वासोभिरशनेन च ॥"
+          "text": "अस्ति मे बलवानस्मि राजास्मीति युधिष्ठिर ।\nब्राह्मणान्मा स्म पर्यश्नीर्वासोभिरशनेन च ॥",
+          "meaning": {
+            "en": "Do not, Yudhishthira, think 'I have wealth, I am strong, I am king,' and cheat brahmins of clothing and food."
+          }
         },
         {
           "n": 26,
-          "text": "यच्छोभार्थं बलार्थं वा वित्तमस्ति तवानघ ।\nतेन ते ब्राह्मणाः पूज्याः स्वधर्ममनुतिष्ठता ॥"
+          "text": "यच्छोभार्थं बलार्थं वा वित्तमस्ति तवानघ ।\nतेन ते ब्राह्मणाः पूज्याः स्वधर्ममनुतिष्ठता ॥",
+          "meaning": {
+            "en": "With whatever wealth you have for show or for strength, blameless one, you should honour brahmins while following your own duty."
+          }
         },
         {
           "n": 27,
-          "text": "नमस्कार्यास्त्वया विप्रा वर्तमाना यथातथम् ।\nयथासुखं यथोत्साहं ललन्तु त्वयि पुत्रवत् ॥"
+          "text": "नमस्कार्यास्त्वया विप्रा वर्तमाना यथातथम् ।\nयथासुखं यथोत्साहं ललन्तु त्वयि पुत्रवत् ॥",
+          "meaning": {
+            "en": "Brahmins as they are should be saluted by you; let them dote on you like a son, at their ease and with enthusiasm."
+          }
         },
         {
           "n": 28,
-          "text": "को ह्यन्यः सुप्रसादानां सुहृदामल्पतोषिणाम् ।\nवृत्तिमर्हत्युपक्षेप्तुं त्वदन्यः कुरुसत्तम ॥"
+          "text": "को ह्यन्यः सुप्रसादानां सुहृदामल्पतोषिणाम् ।\nवृत्तिमर्हत्युपक्षेप्तुं त्वदन्यः कुरुसत्तम ॥",
+          "meaning": {
+            "en": "Who else but you, best of the Kurus, deserves to bestow a livelihood on those who are gracious and satisfied with little?"
+          }
         },
         {
           "n": 29,
-          "text": "यथा पत्याश्रयो धर्मः स्त्रीणां लोके सनातनः ।\nस देवः सा गतिर्नान्या तथास्माकं द्विजातयः ॥"
+          "text": "यथा पत्याश्रयो धर्मः स्त्रीणां लोके सनातनः ।\nस देवः सा गतिर्नान्या तथास्माकं द्विजातयः ॥",
+          "meaning": {
+            "en": "As a husband is the eternal refuge of wives in this world, he is their god and their only path, so the twice-born are for us."
+          }
         },
         {
           "n": 30,
-          "text": "यदि नो ब्राह्मणास्तात संत्यजेयुरपूजिताः ।\nपश्यन्तो दारुणं कर्म सततं क्षत्रिये स्थितम् ॥"
+          "text": "यदि नो ब्राह्मणास्तात संत्यजेयुरपूजिताः ।\nपश्यन्तो दारुणं कर्म सततं क्षत्रिये स्थितम् ॥",
+          "meaning": {
+            "en": "If the brahmins, unhonoured, were to abandon us, seeing the cruel deeds ever present in a kshatriya,"
+          }
         },
         {
           "n": 31,
-          "text": "अवेदानामकीर्तीनामलोकानामयज्वनाम् ।\nकोऽस्माकं जीवितेनार्थस्तद्धि नो ब्राह्मणाश्रयम् ॥"
+          "text": "अवेदानामकीर्तीनामलोकानामयज्वनाम् ।\nकोऽस्माकं जीवितेनार्थस्तद्धि नो ब्राह्मणाश्रयम् ॥",
+          "meaning": {
+            "en": "what use would our lives be, without Vedas, without fame, without worlds, without sacrifices? For our existence depends on brahmins."
+          }
         },
         {
           "n": 32,
-          "text": "अत्र ते वर्तयिष्यामि यथा धर्मः सनातनः ।\nराजन्यो ब्राह्मणं राजन्पुरा परिचचार ह ।\nवैश्यो राजन्यमित्येव शूद्रो वैश्यमिति श्रुतिः ॥"
+          "text": "अत्र ते वर्तयिष्यामि यथा धर्मः सनातनः ।\nराजन्यो ब्राह्मणं राजन्पुरा परिचचार ह ।\nवैश्यो राजन्यमित्येव शूद्रो वैश्यमिति श्रुतिः ॥",
+          "meaning": {
+            "en": "Here I will tell you how the eternal dharma stands. In ancient times a kshatriya served a brahmin, a vaishya a kshatriya, and a shudra a vaishya; so the tradition says."
+          }
         },
         {
           "n": 33,
-          "text": "दूराच्छूद्रेणोपचर्यो ब्राह्मणोऽग्निरिव ज्वलन् ।\nसंस्पर्शपरिचर्यस्तु वैश्येन क्षत्रियेण च ॥"
+          "text": "दूराच्छूद्रेणोपचर्यो ब्राह्मणोऽग्निरिव ज्वलन् ।\nसंस्पर्शपरिचर्यस्तु वैश्येन क्षत्रियेण च ॥",
+          "meaning": {
+            "en": "A brahmin, blazing like fire, should be served from afar by a shudra; but a vaishya and a kshatriya may serve him by touch."
+          }
         },
         {
           "n": 34,
-          "text": "मृदुभावान्सत्यशीलान्सत्यधर्मानुपालकान् ।\nआशीविषानिव क्रुद्धांस्तानुपाचरत द्विजान् ॥"
+          "text": "मृदुभावान्सत्यशीलान्सत्यधर्मानुपालकान् ।\nआशीविषानिव क्रुद्धांस्तानुपाचरत द्विजान् ॥",
+          "meaning": {
+            "en": "Serve those brahmins who are gentle, truthful and keepers of truth and dharma, though when angry they are like poisonous snakes."
+          }
         },
         {
           "n": 35,
-          "text": "अपरेषां परेषां च परेभ्यश्चैव ये परे ।\nक्षत्रियाणां प्रतपतां तेजसा च बलेन च ।\nब्राह्मणेष्वेव शाम्यन्ति तेजांसि च तपांसि च ॥"
+          "text": "अपरेषां परेषां च परेभ्यश्चैव ये परे ।\nक्षत्रियाणां प्रतपतां तेजसा च बलेन च ।\nब्राह्मणेष्वेव शाम्यन्ति तेजांसि च तपांसि च ॥",
+          "meaning": {
+            "en": "For the kshatriyas, blazing with splendour and strength, for those who come after others, and for those beyond them, all splendours and austerities are calmed in brahmins alone."
+          }
         },
         {
           "n": 36,
-          "text": "न मे पिता प्रियतरो न त्वं तात तथा प्रियः ।\nन मे पितुः पिता राजन्न चात्मा न च जीवितम् ॥"
+          "text": "न मे पिता प्रियतरो न त्वं तात तथा प्रियः ।\nन मे पितुः पिता राजन्न चात्मा न च जीवितम् ॥",
+          "meaning": {
+            "en": "My father is not dearer to me, nor are you, dear one, nor my father's father, nor my own self, nor my life."
+          }
         },
         {
           "n": 37,
-          "text": "त्वत्तश्च मे प्रियतरः पृथिव्यां नास्ति कश्चन ।\nत्वत्तोऽपि मे प्रियतरा ब्राह्मणा भरतर्षभ ॥"
+          "text": "त्वत्तश्च मे प्रियतरः पृथिव्यां नास्ति कश्चन ।\nत्वत्तोऽपि मे प्रियतरा ब्राह्मणा भरतर्षभ ॥",
+          "meaning": {
+            "en": "There is no one on earth dearer to me than you; yet brahmins are dearer to me than you, best of Bharatas."
+          }
         },
         {
           "n": 38,
-          "text": "ब्रवीमि सत्यमेतच्च यथाहं पाण्डुनन्दन ।\nतेन सत्येन गच्छेयं लोकान्यत्र स शंतनुः ॥"
+          "text": "ब्रवीमि सत्यमेतच्च यथाहं पाण्डुनन्दन ।\nतेन सत्येन गच्छेयं लोकान्यत्र स शंतनुः ॥",
+          "meaning": {
+            "en": "I speak this truth, son of Pandu; by that truth may I go to the worlds where Shantanu is."
+          }
         },
         {
           "n": 39,
-          "text": "पश्येयं च सतां लोकाञ्छुचीन्ब्रह्मपुरस्कृतान् ।\nतत्र मे तात गन्तव्यमह्नाय च चिराय च ॥"
+          "text": "पश्येयं च सतां लोकाञ्छुचीन्ब्रह्मपुरस्कृतान् ।\nतत्र मे तात गन्तव्यमह्नाय च चिराय च ॥",
+          "meaning": {
+            "en": "And may I see the pure worlds of the good, with brahmins at their head; there I must go, sooner or later."
+          }
         },
         {
           "n": 40,
-          "text": "सोऽहमेतादृशाँल्लोकान्दृष्ट्वा भरतसत्तम ।\nयन्मे कृतं ब्राह्मणेषु न तप्ये तेन पार्थिव ॥"
+          "text": "सोऽहमेतादृशाँल्लोकान्दृष्ट्वा भरतसत्तम ।\nयन्मे कृतं ब्राह्मणेषु न तप्ये तेन पार्थिव ॥",
+          "meaning": {
+            "en": "Having seen such worlds, best of Bharatas, I do not grieve, king, over what I have done to brahmins.\""
+          }
         }
       ]
     }

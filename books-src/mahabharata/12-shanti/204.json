@@ -22,71 +22,139 @@
       "titleEn": "Mokshadharma Parva (Duties for liberation)",
       "verses": [
         {
-          "text": "गुरुरुवाच"
+          "text": "गुरुरुवाच",
+          "meaning": {
+            "en": "The teacher said:",
+            "hi": "गुरु बोले—"
+          }
         },
         {
           "n": 1,
-          "text": "चतुर्विधानि भूतानि स्थावराणि चराणि च ।\nअव्यक्तप्रभवान्याहुरव्यक्तनिधनानि च ।\nअव्यक्तनिधनं विद्यादव्यक्तात्मात्मकं मनः ॥"
+          "text": "चतुर्विधानि भूतानि स्थावराणि चराणि च ।\nअव्यक्तप्रभवान्याहुरव्यक्तनिधनानि च ।\nअव्यक्तनिधनं विद्यादव्यक्तात्मात्मकं मनः ॥",
+          "meaning": {
+            "en": "Beings are of four kinds, moving and unmoving; they are said to arise from the unmanifest and to end in the unmanifest. Know that the mind too ends in the unmanifest and is made of the unmanifest self.",
+            "hi": "प्राणी चार प्रकार के हैं—स्थावर और चर। उन्हें अव्यक्त से उत्पन्न और अव्यक्त में लय होने वाला कहा जाता है। मन को भी अव्यक्त में लय होने वाला और अव्यक्त-आत्मा से बना हुआ जानो।"
+          }
         },
         {
           "n": 2,
-          "text": "यथाश्वत्थकणीकायामन्तर्भूतो महाद्रुमः ।\nनिष्पन्नो दृश्यते व्यक्तमव्यक्तात्संभवस्तथा ॥"
+          "text": "यथाश्वत्थकणीकायामन्तर्भूतो महाद्रुमः ।\nनिष्पन्नो दृश्यते व्यक्तमव्यक्तात्संभवस्तथा ॥",
+          "meaning": {
+            "en": "Just as a great tree lies hidden inside the tiny seed-bud of a fig tree and is seen in manifest form once grown, so the manifest comes from the unmanifest.",
+            "hi": "जैसे पीपल के छोटे बीज-कोष में छिपा हुआ विशाल वृक्ष होता है, जो बढ़कर व्यक्त रूप में दिखाई देता है; वैसे ही व्यक्त अव्यक्त से उत्पन्न होता है।"
+          }
         },
         {
           "n": 3,
-          "text": "अभिद्रवत्ययस्कान्तमयो निश्चेतनावुभौ ।\nस्वभावहेतुजा भावा यद्वदन्यदपीदृशम् ॥"
+          "text": "अभिद्रवत्ययस्कान्तमयो निश्चेतनावुभौ ।\nस्वभावहेतुजा भावा यद्वदन्यदपीदृशम् ॥",
+          "meaning": {
+            "en": "As iron and the lodestone, both insentient, are drawn together, and as other things like this arise from their own nature, so too...",
+            "hi": "जैसे लोहा और चुंबक, दोनों चेतनाहीन होते हुए भी एक-दूसरे की ओर खिंच जाते हैं; और जैसे अपने स्वभाव और हेतु से ऐसे अन्य भाव भी उत्पन्न होते हैं, वैसे ही—"
+          }
         },
         {
           "n": 4,
-          "text": "तद्वदव्यक्तजा भावाः कर्तुः कारणलक्षणाः ।\nअचेतनाश्चेतयितुः कारणादभिसंहिताः ॥"
+          "text": "तद्वदव्यक्तजा भावाः कर्तुः कारणलक्षणाः ।\nअचेतनाश्चेतयितुः कारणादभिसंहिताः ॥",
+          "meaning": {
+            "en": "...the things born of the unmanifest take their character from the cause of the doer; though insentient, they are directed by the cause that belongs to the conscious knower.",
+            "hi": "वैसे ही अव्यक्त से उत्पन्न भाव कर्ता के कारण-लक्षण वाले होते हैं; अचेतन होते हुए भी वे चेतयिता (ज्ञाता) के कारण से संचालित होते हैं।"
+          }
         },
         {
           "n": 5,
-          "text": "न भूः खं द्यौर्न भूतानि नर्षयो न सुरासुराः ।\nनान्यदासीदृते जीवमासेदुर्न तु संहितम् ॥"
+          "text": "न भूः खं द्यौर्न भूतानि नर्षयो न सुरासुराः ।\nनान्यदासीदृते जीवमासेदुर्न तु संहितम् ॥",
+          "meaning": {
+            "en": "There was no earth, sky or heaven, no beings, no sages, gods or demons; nothing else existed apart from the living self, though they did not reach that union.",
+            "hi": "न पृथ्वी थी, न आकाश, न स्वर्ग, न भूत, न ऋषि, न सुर-असुर। जीव के सिवा कुछ और नहीं था; वे (सब) उस संयोग को प्राप्त नहीं हुए थे।"
+          }
         },
         {
           "n": 6,
-          "text": "सर्वनीत्या सर्वगतं मनोहेतु सलक्षणम् ।\nअज्ञानकर्म निर्दिष्टमेतत्कारणलक्षणम् ॥"
+          "text": "सर्वनीत्या सर्वगतं मनोहेतु सलक्षणम् ।\nअज्ञानकर्म निर्दिष्टमेतत्कारणलक्षणम् ॥",
+          "meaning": {
+            "en": "By every principle it is all-pervading, the cause of the mind, with its marks; this is declared to be the nature of the cause, consisting of ignorance and action.",
+            "hi": "सभी नीतियों से वह सर्वव्यापी है, मन का हेतु है, अपने लक्षणों सहित; यह अज्ञान और कर्म से युक्त कारण का स्वरूप बताया गया है।"
+          }
         },
         {
           "n": 7,
-          "text": "तत्कारणैर्हि संयुक्तं कार्यसंग्रहकारकम् ।\nयेनैतद्वर्तते चक्रमनादिनिधनं महत् ॥"
+          "text": "तत्कारणैर्हि संयुक्तं कार्यसंग्रहकारकम् ।\nयेनैतद्वर्तते चक्रमनादिनिधनं महत् ॥",
+          "meaning": {
+            "en": "Joined with those causes, it brings together the effects, and by it this great wheel, without beginning or end, keeps turning.",
+            "hi": "उन कारणों से युक्त होकर वह कार्यों को एकत्र करने वाला है; उसी से यह महान चक्र, आदि और अंत से रहित, चलता रहता है।"
+          }
         },
         {
           "n": 8,
-          "text": "अव्यक्तनाभं व्यक्तारं विकारपरिमण्डलम् ।\nक्षेत्रज्ञाधिष्ठितं चक्रं स्निग्धाक्षं वर्तते ध्रुवम् ॥"
+          "text": "अव्यक्तनाभं व्यक्तारं विकारपरिमण्डलम् ।\nक्षेत्रज्ञाधिष्ठितं चक्रं स्निग्धाक्षं वर्तते ध्रुवम् ॥",
+          "meaning": {
+            "en": "The wheel has the unmanifest as its hub, the manifest as its spokes, and the transformations as its rim; presided over by the knower of the field, the smooth-axled wheel turns steadily.",
+            "hi": "इस चक्र की नाभि अव्यक्त है, अरे (तीलियाँ) व्यक्त हैं, और उसकी परिधि विकार हैं; क्षेत्रज्ञ द्वारा अधिष्ठित यह चिकनी धुरी वाला चक्र स्थिर रूप से घूमता है।"
+          }
         },
         {
           "n": 9,
-          "text": "स्निग्धत्वात्तिलवत्सर्वं चक्रेऽस्मिन्पीड्यते जगत् ।\nतिलपीडैरिवाक्रम्य भोगैरज्ञानसंभवैः ॥"
+          "text": "स्निग्धत्वात्तिलवत्सर्वं चक्रेऽस्मिन्पीड्यते जगत् ।\nतिलपीडैरिवाक्रम्य भोगैरज्ञानसंभवैः ॥",
+          "meaning": {
+            "en": "Because of its smoothness, the whole world is crushed on this wheel like sesame seeds, pressed by enjoyments born of ignorance as by oil-pressers.",
+            "hi": "इस चक्र में चिकनेपन के कारण पूरा जगत तिलों की भाँति पीसा जाता है, अज्ञान से उत्पन्न भोगों द्वारा, जैसे तेल पेरने वाले कोल्हू में दबाए जाते हैं।"
+          }
         },
         {
           "n": 10,
-          "text": "कर्म तत्कुरुते तर्षादहंकारपरिग्रहम् ।\nकार्यकारणसंयोगे स हेतुरुपपादितः ॥"
+          "text": "कर्म तत्कुरुते तर्षादहंकारपरिग्रहम् ।\nकार्यकारणसंयोगे स हेतुरुपपादितः ॥",
+          "meaning": {
+            "en": "Out of craving one performs action, taking up the sense of ego; in the joining of effect and cause, that is shown to be the reason.",
+            "hi": "तृष्णा से मनुष्य कर्म करता है, और अहंकार को ग्रहण करता है; कार्य और कारण के संयोग में वही (कर्म) हेतु बताया गया है।"
+          }
         },
         {
           "n": 11,
-          "text": "नात्येति कारणं कार्यं न कार्यं कारणं तथा ।\nकार्याणां तूपकरणे कालो भवति हेतुमान् ॥"
+          "text": "नात्येति कारणं कार्यं न कार्यं कारणं तथा ।\nकार्याणां तूपकरणे कालो भवति हेतुमान् ॥",
+          "meaning": {
+            "en": "The cause does not go beyond the effect, nor the effect beyond the cause; but in producing effects, time acts as the reason.",
+            "hi": "कारण कार्य को पार नहीं करता, और न कार्य कारण को; परंतु कार्यों के उत्पादन में काल ही हेतु बनता है।"
+          }
         },
         {
           "n": 12,
-          "text": "हेतुयुक्ताः प्रकृतयो विकाराश्च परस्परम् ।\nअन्योन्यमभिवर्तन्ते पुरुषाधिष्ठिताः सदा ॥"
+          "text": "हेतुयुक्ताः प्रकृतयो विकाराश्च परस्परम् ।\nअन्योन्यमभिवर्तन्ते पुरुषाधिष्ठिताः सदा ॥",
+          "meaning": {
+            "en": "Natures and their transformations, bound by cause, constantly act on one another, always overseen by the spirit.",
+            "hi": "प्रकृतियाँ और उनके विकार, हेतु से युक्त होकर, परस्पर एक-दूसरे पर क्रिया करते हैं, और सदा पुरुष से अधिष्ठित रहते हैं।"
+          }
         },
         {
           "n": 13,
-          "text": "सरजस्तामसैर्भावैश्च्युतो हेतुबलान्वितः ।\nक्षेत्रज्ञमेवानुयाति पांसुर्वातेरितो यथा ।\nन च तैः स्पृश्यते भावो न ते तेन महात्मना ॥"
+          "text": "सरजस्तामसैर्भावैश्च्युतो हेतुबलान्वितः ।\nक्षेत्रज्ञमेवानुयाति पांसुर्वातेरितो यथा ।\nन च तैः स्पृश्यते भावो न ते तेन महात्मना ॥",
+          "meaning": {
+            "en": "Fallen from the states of passion and darkness yet strong with the power of cause, it follows only the knower of the field, like dust blown by the wind; yet that great one is not touched by them, nor they by him.",
+            "hi": "रजस् और तमस् भावों से च्युत होकर, हेतु के बल से युक्त (जीव) क्षेत्रज्ञ का ही अनुसरण करता है, जैसे हवा से उड़ी हुई धूल। फिर भी वह भाव उन (गुणों) से स्पर्श नहीं होता, और न वे उस महात्मा से (स्पर्श होते हैं)।"
+          }
         },
         {
           "n": 14,
-          "text": "सरजस्कोऽरजस्कश्च स वै वायुर्यथा भवेत् ।\nतथैतदन्तरं विद्यात्क्षेत्रक्षेत्रज्ञयोर्बुधः ।\nअभ्यासात्स तथा युक्तो न गच्छेत्प्रकृतिं पुनः ॥"
+          "text": "सरजस्कोऽरजस्कश्च स वै वायुर्यथा भवेत् ।\nतथैतदन्तरं विद्यात्क्षेत्रक्षेत्रज्ञयोर्बुधः ।\nअभ्यासात्स तथा युक्तो न गच्छेत्प्रकृतिं पुनः ॥",
+          "meaning": {
+            "en": "As the wind may be dusty or dustless, so the wise should know the difference between the field and the knower of the field; by practice, one so united does not return again to nature.",
+            "hi": "जैसे वायु धूल-युक्त भी हो सकती है और धूल-रहित भी; वैसे ही बुद्धिमान को क्षेत्र और क्षेत्रज्ञ का अंतर जानना चाहिए। अभ्यास से वैसे युक्त होकर वह फिर प्रकृति को प्राप्त नहीं होता।"
+          }
         },
         {
           "n": 15,
-          "text": "संदेहमेतमुत्पन्नमच्छिनद्भगवानृषिः ।\nतथा वार्तां समीक्षेत कृतलक्षणसंमिताम् ॥"
+          "text": "संदेहमेतमुत्पन्नमच्छिनद्भगवानृषिः ।\nतथा वार्तां समीक्षेत कृतलक्षणसंमिताम् ॥",
+          "meaning": {
+            "en": "The divine sage cut through this doubt that had arisen; likewise one should regard the matter as measured by the marks that have been made.",
+            "hi": "भगवान ऋषि ने उत्पन्न हुए इस संदेह को काट दिया; इसी प्रकार बताए गए लक्षणों से मापी गई इस बात पर भी विचार करना चाहिए।"
+          }
         },
         {
           "n": 16,
-          "text": "बीजान्यग्न्युपदग्धानि न रोहन्ति यथा पुनः ।\nज्ञानदग्धैस्तथा क्लेशैर्नात्मा संबध्यते पुनः ॥"
+          "text": "बीजान्यग्न्युपदग्धानि न रोहन्ति यथा पुनः ।\nज्ञानदग्धैस्तथा क्लेशैर्नात्मा संबध्यते पुनः ॥",
+          "meaning": {
+            "en": "As seeds burnt by fire do not sprout again, so when afflictions are burnt by knowledge, the self is not bound again.",
+            "hi": "जैसे आग से जले हुए बीज फिर से नहीं उगते; वैसे ही ज्ञान से जले हुए क्लेशों के कारण आत्मा फिर से नहीं बँधती।"
+          }
         }
       ]
     }

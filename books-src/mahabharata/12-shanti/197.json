@@ -22,87 +22,171 @@
       "titleEn": "Mokshadharma Parva (Duties for liberation)",
       "verses": [
         {
-          "text": "मनुरुवाच"
+          "text": "मनुरुवाच",
+          "meaning": {
+            "en": "Manu said:",
+            "hi": "मनु बोले—"
+          }
         },
         {
           "n": 1,
-          "text": "यथा व्यक्तमिदं शेते स्वप्ने चरति चेतनम् ।\nज्ञानमिन्द्रियसंयुक्तं तद्वत्प्रेत्य भवाभवौ ॥"
+          "text": "यथा व्यक्तमिदं शेते स्वप्ने चरति चेतनम् ।\nज्ञानमिन्द्रियसंयुक्तं तद्वत्प्रेत्य भवाभवौ ॥",
+          "meaning": {
+            "en": "As this manifest body lies asleep while the conscious one moves in a dream, knowledge joined to the senses, so it is with coming into being and ceasing after death.",
+            "hi": "जैसे यह प्रकट शरीर सोता है और चेतन (आत्मा) स्वप्न में विचरण करता है, इंद्रियों से युक्त ज्ञान (विचरता है); वैसे ही मृत्यु के बाद जन्म और लय होते हैं।"
+          }
         },
         {
           "n": 2,
-          "text": "यथाम्भसि प्रसन्ने तु रूपं पश्यति चक्षुषा ।\nतद्वत्प्रसन्नेन्द्रियवाञ्ज्ञेयं ज्ञानेन पश्यति ॥"
+          "text": "यथाम्भसि प्रसन्ने तु रूपं पश्यति चक्षुषा ।\nतद्वत्प्रसन्नेन्द्रियवाञ्ज्ञेयं ज्ञानेन पश्यति ॥",
+          "meaning": {
+            "en": "As one sees a form with the eye in clear water, so one whose senses are clear sees the knowable by knowledge.",
+            "hi": "जैसे स्वच्छ जल में आँख से रूप दिखाई देता है; वैसे ही जिसकी इंद्रियाँ निर्मल हैं, वह ज्ञान से ज्ञेय को देखता है।"
+          }
         },
         {
           "n": 3,
-          "text": "स एव लुलिते तस्मिन्यथा रूपं न पश्यति ।\nतथेन्द्रियाकुलीभावे ज्ञेयं ज्ञाने न पश्यति ॥"
+          "text": "स एव लुलिते तस्मिन्यथा रूपं न पश्यति ।\nतथेन्द्रियाकुलीभावे ज्ञेयं ज्ञाने न पश्यति ॥",
+          "meaning": {
+            "en": "As one does not see the form when that same water is stirred, so when the senses are agitated one does not see the knowable in knowledge.",
+            "hi": "जैसे उसी जल के हिलने पर रूप दिखाई नहीं देता; वैसे ही इंद्रियों के व्याकुल होने पर ज्ञान में ज्ञेय नहीं दिखता।"
+          }
         },
         {
           "n": 4,
-          "text": "अबुद्धिरज्ञानकृता अबुद्ध्या दुष्यते मनः ।\nदुष्टस्य मनसः पञ्च संप्रदुष्यन्ति मानसाः ॥"
+          "text": "अबुद्धिरज्ञानकृता अबुद्ध्या दुष्यते मनः ।\nदुष्टस्य मनसः पञ्च संप्रदुष्यन्ति मानसाः ॥",
+          "meaning": {
+            "en": "Lack of understanding is made by ignorance; by want of understanding the mind is spoiled; and when the mind is spoiled, its five mental faculties are spoiled.",
+            "hi": "बुद्धिहीनता अज्ञान से उत्पन्न होती है; बुद्धि के अभाव से मन दूषित होता है; और दूषित मन की पाँचों मानसिक शक्तियाँ भी दूषित हो जाती हैं।"
+          }
         },
         {
           "n": 5,
-          "text": "अज्ञानतृप्तो विषयेष्ववगाढो न दृश्यते ।\nअदृष्ट्वैव तु पूतात्मा विषयेभ्यो निवर्तते ॥"
+          "text": "अज्ञानतृप्तो विषयेष्ववगाढो न दृश्यते ।\nअदृष्ट्वैव तु पूतात्मा विषयेभ्यो निवर्तते ॥",
+          "meaning": {
+            "en": "One sated with ignorance and plunged into sense objects is not seen; but the purified self, without even looking, turns away from sense objects.",
+            "hi": "अज्ञान से तृप्त और विषयों में गहरे डूबा हुआ मनुष्य नहीं दिखता; पर पवित्र आत्मा बिना देखे ही विषयों से लौट आता है।"
+          }
         },
         {
           "n": 6,
-          "text": "तर्षच्छेदो न भवति पुरुषस्येह कल्मषात् ।\nनिवर्तते तथा तर्षः पापमन्तं गतं यथा ॥"
+          "text": "तर्षच्छेदो न भवति पुरुषस्येह कल्मषात् ।\nनिवर्तते तथा तर्षः पापमन्तं गतं यथा ॥",
+          "meaning": {
+            "en": "A man's thirst is not cut off here because of his stain; thirst turns away only when sin has reached its end.",
+            "hi": "यहाँ पुरुष की तृष्णा का नाश उसके पाप के कारण नहीं होता; तृष्णा तभी लौटती है जब पाप का अंत हो जाता है।"
+          }
         },
         {
           "n": 7,
-          "text": "विषयेषु च संसर्गाच्छाश्वतस्य नसंश्रयात् ।\nमनसा चान्यदाकाङ्क्षन्परं न प्रतिपद्यते ॥"
+          "text": "विषयेषु च संसर्गाच्छाश्वतस्य नसंश्रयात् ।\nमनसा चान्यदाकाङ्क्षन्परं न प्रतिपद्यते ॥",
+          "meaning": {
+            "en": "Through attachment to sense objects and lack of resting on the eternal, one who desires something else with the mind does not reach the supreme.",
+            "hi": "विषयों के संसर्ग से और शाश्वत (ब्रह्म) का आश्रय न लेने से, जो मन से कुछ और चाहता है, वह परम को प्राप्त नहीं होता।"
+          }
         },
         {
           "n": 8,
-          "text": "ज्ञानमुत्पद्यते पुंसां क्षयात्पापस्य कर्मणः ।\nअथादर्शतलप्रख्ये पश्यत्यात्मानमात्मनि ॥"
+          "text": "ज्ञानमुत्पद्यते पुंसां क्षयात्पापस्य कर्मणः ।\nअथादर्शतलप्रख्ये पश्यत्यात्मानमात्मनि ॥",
+          "meaning": {
+            "en": "Knowledge arises in men from the destruction of sinful action; then he sees the Self in the Self, as in the surface of a mirror.",
+            "hi": "पाप-कर्म के क्षय से मनुष्यों में ज्ञान उत्पन्न होता है; तब वह आत्मा को आत्मा में दर्पण की सतह के समान देखता है।"
+          }
         },
         {
           "n": 9,
-          "text": "प्रसृतैरिन्द्रियैर्दुःखी तैरेव नियतैः सुखी ।\nतस्मादिन्द्रियरूपेभ्यो यच्छेदात्मानमात्मना ॥"
+          "text": "प्रसृतैरिन्द्रियैर्दुःखी तैरेव नियतैः सुखी ।\nतस्मादिन्द्रियरूपेभ्यो यच्छेदात्मानमात्मना ॥",
+          "meaning": {
+            "en": "Through senses let loose he is pained, through the same held in check he is happy; therefore one should restrain the self by the self from the forms of the senses.",
+            "hi": "इंद्रियों के खुले रहने से वह दुःखी होता है, और उन्हीं के नियंत्रित रहने से सुखी होता है; इसलिए इंद्रिय-रूपी विषयों से आत्मा को आत्मा द्वारा संयमित करना चाहिए।"
+          }
         },
         {
           "n": 10,
-          "text": "इन्द्रियेभ्यो मनः पूर्वं बुद्धिः परतरा ततः ।\nबुद्धेः परतरं ज्ञानं ज्ञानात्परतरं परम् ॥"
+          "text": "इन्द्रियेभ्यो मनः पूर्वं बुद्धिः परतरा ततः ।\nबुद्धेः परतरं ज्ञानं ज्ञानात्परतरं परम् ॥",
+          "meaning": {
+            "en": "The mind is before the senses, the intellect is higher than that, knowledge is higher than the intellect, and the supreme is higher than knowledge.",
+            "hi": "इंद्रियों से पहले मन है, मन से ऊँची बुद्धि है; बुद्धि से ऊँचा ज्ञान है, और ज्ञान से ऊँचा परम है।"
+          }
         },
         {
           "n": 11,
-          "text": "अव्यक्तात्प्रसृतं ज्ञानं ततो बुद्धिस्ततो मनः ।\nमनः श्रोत्रादिभिर्युक्तं शब्दादीन्साधु पश्यति ॥"
+          "text": "अव्यक्तात्प्रसृतं ज्ञानं ततो बुद्धिस्ततो मनः ।\nमनः श्रोत्रादिभिर्युक्तं शब्दादीन्साधु पश्यति ॥",
+          "meaning": {
+            "en": "From the unmanifest knowledge spreads, then the intellect, then the mind; the mind, joined with ear and the rest, sees sounds and the other objects well.",
+            "hi": "अव्यक्त से ज्ञान फैलता है, फिर बुद्धि, फिर मन; कान आदि से युक्त मन शब्द आदि विषयों को भली-भाँति देखता है।"
+          }
         },
         {
           "n": 12,
-          "text": "यस्तांस्त्यजति शब्दादीन्सर्वाश्च व्यक्तयस्तथा ।\nविमुञ्चत्याकृतिग्रामांस्तान्मुक्त्वामृतमश्नुते ॥"
+          "text": "यस्तांस्त्यजति शब्दादीन्सर्वाश्च व्यक्तयस्तथा ।\nविमुञ्चत्याकृतिग्रामांस्तान्मुक्त्वामृतमश्नुते ॥",
+          "meaning": {
+            "en": "He who gives up those sounds and the rest, and all manifestations, and releases the hosts of forms, having released them, enjoys the immortal.",
+            "hi": "जो उन शब्द आदि विषयों को और सभी प्रकट रूपों को त्याग देता है, और रूपों के समूह को छोड़ देता है, वह उन्हें छोड़कर अमृत को प्राप्त करता है।"
+          }
         },
         {
           "n": 13,
-          "text": "उद्यन्हि सविता यद्वत्सृजते रश्मिमण्डलम् ।\nस एवास्तमुपागच्छंस्तदेवात्मनि यच्छति ॥"
+          "text": "उद्यन्हि सविता यद्वत्सृजते रश्मिमण्डलम् ।\nस एवास्तमुपागच्छंस्तदेवात्मनि यच्छति ॥",
+          "meaning": {
+            "en": "As the rising sun sends out its circle of rays, and the same sun, as it sets, draws them into itself,",
+            "hi": "जैसे उदय होता हुआ सूर्य अपने किरण-मंडल को फैलाता है, और वही सूर्य अस्त होते हुए उसे फिर अपने में समेट लेता है,"
+          }
         },
         {
           "n": 14,
-          "text": "अन्तरात्मा तथा देहमाविश्येन्द्रियरश्मिभिः ।\nप्राप्येन्द्रियगुणान्पञ्च सोऽस्तमावृत्य गच्छति ॥"
+          "text": "अन्तरात्मा तथा देहमाविश्येन्द्रियरश्मिभिः ।\nप्राप्येन्द्रियगुणान्पञ्च सोऽस्तमावृत्य गच्छति ॥",
+          "meaning": {
+            "en": "so the inner Self, having entered the body with the rays of the senses and obtained the five qualities of the senses, withdraws them and sets.",
+            "hi": "वैसे ही अंतरात्मा शरीर में इंद्रिय-रूपी किरणों के साथ प्रवेश करके, पाँच इंद्रिय-गुणों को पाकर, उन्हें समेटकर अस्त हो जाता है।"
+          }
         },
         {
           "n": 15,
-          "text": "प्रणीतं कर्मणा मार्गं नीयमानः पुनः पुनः ।\nप्राप्नोत्ययं कर्मफलं प्रवृद्धं धर्ममात्मवान् ॥"
+          "text": "प्रणीतं कर्मणा मार्गं नीयमानः पुनः पुनः ।\nप्राप्नोत्ययं कर्मफलं प्रवृद्धं धर्ममात्मवान् ॥",
+          "meaning": {
+            "en": "Led again and again along the path laid down by action, the self-possessed one obtains the grown fruit of action and righteousness.",
+            "hi": "कर्म द्वारा बनाए गए मार्ग पर बार-बार ले जाया जाता हुआ, आत्मसंयमी जीव बढ़े हुए कर्मफल और धर्म को प्राप्त करता है।"
+          }
         },
         {
           "n": 16,
-          "text": "विषया विनिवर्तन्ते निराहारस्य देहिनः ।\nरसवर्जं रसोऽप्यस्य परं दृष्ट्वा निवर्तते ॥"
+          "text": "विषया विनिवर्तन्ते निराहारस्य देहिनः ।\nरसवर्जं रसोऽप्यस्य परं दृष्ट्वा निवर्तते ॥",
+          "meaning": {
+            "en": "Sense objects turn away from an embodied being who does not feed on them; and his taste, apart from the taste for them, turns away on seeing the supreme.",
+            "hi": "जो देहधारी विषयों रूपी आहार को ग्रहण नहीं करता, उससे विषय लौट जाते हैं; और विषयों के रस को छोड़कर उसका रस (आसक्ति) भी परम को देखकर लौट जाता है।"
+          }
         },
         {
           "n": 17,
-          "text": "बुद्धिः कर्मगुणैर्हीना यदा मनसि वर्तते ।\nतदा संपद्यते ब्रह्म तत्रैव प्रलयं गतम् ॥"
+          "text": "बुद्धिः कर्मगुणैर्हीना यदा मनसि वर्तते ।\nतदा संपद्यते ब्रह्म तत्रैव प्रलयं गतम् ॥",
+          "meaning": {
+            "en": "When the intellect, free from the qualities of action, abides in the mind, then it becomes Brahman, merged just there.",
+            "hi": "जब कर्म के गुणों से रहित बुद्धि मन में स्थित होती है, तब वह ब्रह्म हो जाती है, वहीं लय को प्राप्त होकर।"
+          }
         },
         {
           "n": 18,
-          "text": "अस्पर्शनमशृण्वानमनास्वादमदर्शनम् ।\nअघ्राणमवितर्कं च सत्त्वं प्रविशते परम् ॥"
+          "text": "अस्पर्शनमशृण्वानमनास्वादमदर्शनम् ।\nअघ्राणमवितर्कं च सत्त्वं प्रविशते परम् ॥",
+          "meaning": {
+            "en": "Without touch, hearing, taste, sight, smell or reasoning, one enters the supreme being.",
+            "hi": "स्पर्श, श्रवण, स्वाद, दर्शन, गंध और तर्क के बिना, मनुष्य सत्त्व के द्वारा परम सत्त्व में प्रवेश करता है।"
+          }
         },
         {
           "n": 19,
-          "text": "मनस्याकृतयो मग्ना मनस्त्वतिगतं मतिम् ।\nमतिस्त्वतिगता ज्ञानं ज्ञानं त्वभिगतं परम् ॥"
+          "text": "मनस्याकृतयो मग्ना मनस्त्वतिगतं मतिम् ।\nमतिस्त्वतिगता ज्ञानं ज्ञानं त्वभिगतं परम् ॥",
+          "meaning": {
+            "en": "Forms are sunk in the mind; the mind has passed into the intellect; the intellect has passed into knowledge, and knowledge has reached the supreme.",
+            "hi": "आकृतियाँ मन में लीन हो जाती हैं; मन बुद्धि को पार कर जाता है; बुद्धि ज्ञान को पार कर जाती है, और ज्ञान परम तक पहुँच जाता है।"
+          }
         },
         {
           "n": 20,
-          "text": "इन्द्रियैर्मनसः सिद्धिर्न बुद्धिं बुध्यते मनः ।\nन बुद्धिर्बुध्यतेऽव्यक्तं सूक्ष्मस्त्वेतानि पश्यति ॥"
+          "text": "इन्द्रियैर्मनसः सिद्धिर्न बुद्धिं बुध्यते मनः ।\nन बुद्धिर्बुध्यतेऽव्यक्तं सूक्ष्मस्त्वेतानि पश्यति ॥",
+          "meaning": {
+            "en": "The mind's success comes through the senses, but the mind does not know the intellect; the intellect does not know the unmanifest, and the subtle one sees all these.",
+            "hi": "मन की सिद्धि इंद्रियों के द्वारा होती है, पर मन बुद्धि को नहीं जानता; बुद्धि अव्यक्त को नहीं जानती, और सूक्ष्म (आत्मा) इन सबको देखता है।"
+          }
         }
       ]
     }

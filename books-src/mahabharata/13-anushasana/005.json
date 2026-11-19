@@ -22,134 +22,233 @@
       "titleEn": "Anushasanika Parva (The instructions)",
       "verses": [
         {
-          "text": "युधिष्ठिर उवाच"
+          "text": "युधिष्ठिर उवाच",
+          "meaning": {
+            "en": "Yudhishthira said:"
+          }
         },
         {
           "n": 1,
-          "text": "आनृशंसस्य धर्मस्य गुणान्भक्तजनस्य च ।\nश्रोतुमिच्छामि कार्त्स्न्येन तन्मे ब्रूहि पितामह ॥"
+          "text": "आनृशंसस्य धर्मस्य गुणान्भक्तजनस्य च ।\nश्रोतुमिच्छामि कार्त्स्न्येन तन्मे ब्रूहि पितामह ॥",
+          "meaning": {
+            "en": "Grandfather, I wish to hear in full about the virtues of the dharma of compassion and of a devoted person; tell me that."
+          }
         },
         {
-          "text": "भीष्म उवाच"
+          "text": "भीष्म उवाच",
+          "meaning": {
+            "en": "Bhishma said:"
+          }
         },
         {
           "n": 2,
-          "text": "विषये काशिराजस्य ग्रामान्निष्क्रम्य लुब्धकः ।\nसविषं काण्डमादाय मृगयामास वै मृगम् ॥"
+          "text": "विषये काशिराजस्य ग्रामान्निष्क्रम्य लुब्धकः ।\nसविषं काण्डमादाय मृगयामास वै मृगम् ॥",
+          "meaning": {
+            "en": "In the realm of the king of Kashi, a hunter left his village and went hunting for deer, taking a poisoned arrow."
+          }
         },
         {
           "n": 3,
-          "text": "तत्र चामिषलुब्धेन लुब्धकेन महावने ।\nअविदूरे मृगं दृष्ट्वा बाणः प्रतिसमाहितः ॥"
+          "text": "तत्र चामिषलुब्धेन लुब्धकेन महावने ।\nअविदूरे मृगं दृष्ट्वा बाणः प्रतिसमाहितः ॥",
+          "meaning": {
+            "en": "In a great forest, that hunter, greedy for meat, saw a deer not far off and set an arrow to his bow."
+          }
         },
         {
           "n": 4,
-          "text": "तेन दुर्वारितास्त्रेण निमित्तचपलेषुणा ।\nमहान्वनतरुर्विद्धो मृगं तत्र जिघांसता ॥"
+          "text": "तेन दुर्वारितास्त्रेण निमित्तचपलेषुणा ।\nमहान्वनतरुर्विद्धो मृगं तत्र जिघांसता ॥",
+          "meaning": {
+            "en": "With that hard-to-check missile, whose shaft wavered with his aim, he struck a great forest tree as he tried to kill the deer."
+          }
         },
         {
           "n": 5,
-          "text": "स तीक्ष्णविषदिग्धेन शरेणातिबलात्कृतः ।\nउत्सृज्य फलपत्राणि पादपः शोषमागतः ॥"
+          "text": "स तीक्ष्णविषदिग्धेन शरेणातिबलात्कृतः ।\nउत्सृज्य फलपत्राणि पादपः शोषमागतः ॥",
+          "meaning": {
+            "en": "Hit with great force by that arrow smeared with sharp poison, the tree shed its fruits and leaves and withered."
+          }
         },
         {
           "n": 6,
-          "text": "तस्मिन्वृक्षे तथाभूते कोटरेषु चिरोषितः ।\nन जहाति शुको वासं तस्य भक्त्या वनस्पतेः ॥"
+          "text": "तस्मिन्वृक्षे तथाभूते कोटरेषु चिरोषितः ।\nन जहाति शुको वासं तस्य भक्त्या वनस्पतेः ॥",
+          "meaning": {
+            "en": "A parrot who had long lived in the hollows of that tree, now in such a state, would not leave his home, out of devotion to the lord of the forest."
+          }
         },
         {
           "n": 7,
-          "text": "निष्प्रचारो निराहारो ग्लानः शिथिलवागपि ।\nकृतज्ञः सह वृक्षेण धर्मात्मा स व्यशुष्यत ॥"
+          "text": "निष्प्रचारो निराहारो ग्लानः शिथिलवागपि ।\nकृतज्ञः सह वृक्षेण धर्मात्मा स व्यशुष्यत ॥",
+          "meaning": {
+            "en": "Not moving about, not eating, wasting away, his voice faint, that grateful and righteous parrot dried up along with the tree."
+          }
         },
         {
           "n": 8,
-          "text": "तमुदारं महासत्त्वमतिमानुषचेष्टितम् ।\nसमदुःखसुखं ज्ञात्वा विस्मितः पाकशासनः ॥"
+          "text": "तमुदारं महासत्त्वमतिमानुषचेष्टितम् ।\nसमदुःखसुखं ज्ञात्वा विस्मितः पाकशासनः ॥",
+          "meaning": {
+            "en": "Knowing that noble, great-hearted bird, whose conduct was beyond the human and who shared the tree's pain and joy, Indra, the punisher of Paka, was astonished."
+          }
         },
         {
           "n": 9,
-          "text": "ततश्चिन्तामुपगतः शक्रः कथमयं द्विजः ।\nतिर्यग्योनावसंभाव्यमानृशंस्यं समास्थितः ॥"
+          "text": "ततश्चिन्तामुपगतः शक्रः कथमयं द्विजः ।\nतिर्यग्योनावसंभाव्यमानृशंस्यं समास्थितः ॥",
+          "meaning": {
+            "en": "Then Indra fell into thought: \"How has this bird, born in an animal womb, taken up compassion, which is hardly to be expected of such?\""
+          }
         },
         {
           "n": 10,
-          "text": "अथ वा नात्र चित्रं हीत्यभवद्वासवस्य तु ।\nप्राणिनामिह सर्वेषां सर्वं सर्वत्र दृश्यते ॥"
+          "text": "अथ वा नात्र चित्रं हीत्यभवद्वासवस्य तु ।\nप्राणिनामिह सर्वेषां सर्वं सर्वत्र दृश्यते ॥",
+          "meaning": {
+            "en": "Or \"perhaps it is no wonder,\" thought Indra, \"for in this world all things are seen in all creatures everywhere.\""
+          }
         },
         {
           "n": 11,
-          "text": "ततो ब्राह्मणवेषेण मानुषं रूपमास्थितः ।\nअवतीर्य महीं शक्रस्तं पक्षिणमुवाच ह ॥"
+          "text": "ततो ब्राह्मणवेषेण मानुषं रूपमास्थितः ।\nअवतीर्य महीं शक्रस्तं पक्षिणमुवाच ह ॥",
+          "meaning": {
+            "en": "Then Indra took a human form in the guise of a brahmin, descended to earth, and spoke to the bird."
+          }
         },
         {
           "n": 12,
-          "text": "शुक भोः पक्षिणां श्रेष्ठ दाक्षेयी सुप्रजास्त्वया ।\nपृच्छे त्वा शुष्कमेतं वै कस्मान्न त्यजसि द्रुमम् ॥"
+          "text": "शुक भोः पक्षिणां श्रेष्ठ दाक्षेयी सुप्रजास्त्वया ।\nपृच्छे त्वा शुष्कमेतं वै कस्मान्न त्यजसि द्रुमम् ॥",
+          "meaning": {
+            "en": "\"Parrot, best of birds, child of Dakshi's line, with good offspring, I ask you: why do you not leave this withered tree?\""
+          }
         },
         {
           "n": 13,
-          "text": "अथ पृष्टः शुकः प्राह मूर्ध्ना समभिवाद्य तम् ।\nस्वागतं देवराजाय विज्ञातस्तपसा मया ॥"
+          "text": "अथ पृष्टः शुकः प्राह मूर्ध्ना समभिवाद्य तम् ।\nस्वागतं देवराजाय विज्ञातस्तपसा मया ॥",
+          "meaning": {
+            "en": "Asked thus, the parrot bowed his head to him and said, \"Welcome, king of gods; I have recognized you by my austerity.\""
+          }
         },
         {
           "n": 14,
-          "text": "ततो दशशताक्षेण साधु साध्विति भाषितम् ।\nअहो विज्ञानमित्येवं तपसा पूजितस्ततः ॥"
+          "text": "ततो दशशताक्षेण साधु साध्विति भाषितम् ।\nअहो विज्ञानमित्येवं तपसा पूजितस्ततः ॥",
+          "meaning": {
+            "en": "Then the thousand-eyed god said, \"Well done, well done! What insight!\" and so honored the parrot for his austerity."
+          }
         },
         {
           "n": 15,
-          "text": "तमेवं शुभकर्माणं शुकं परमधार्मिकम् ।\nविजानन्नपि तां प्राप्तिं पप्रच्छ बलसूदनः ॥"
+          "text": "तमेवं शुभकर्माणं शुकं परमधार्मिकम् ।\nविजानन्नपि तां प्राप्तिं पप्रच्छ बलसूदनः ॥",
+          "meaning": {
+            "en": "Though he knew the reason, Indra, destroyer of Bala, asked that parrot of noble deeds and great righteousness:"
+          }
         },
         {
           "n": 16,
-          "text": "निष्पत्रमफलं शुष्कमशरण्यं पतत्रिणाम् ।\nकिमर्थं सेवसे वृक्षं यदा महदिदं वनम् ॥"
+          "text": "निष्पत्रमफलं शुष्कमशरण्यं पतत्रिणाम् ।\nकिमर्थं सेवसे वृक्षं यदा महदिदं वनम् ॥",
+          "meaning": {
+            "en": "\"This tree is leafless, fruitless, withered, and no shelter for birds. Why do you serve it when this forest is so large?"
+          }
         },
         {
           "n": 17,
-          "text": "अन्येऽपि बहवो वृक्षाः पत्रसंछन्नकोटराः ।\nशुभाः पर्याप्तसंचारा विद्यन्तेऽस्मिन्महावने ॥"
+          "text": "अन्येऽपि बहवो वृक्षाः पत्रसंछन्नकोटराः ।\nशुभाः पर्याप्तसंचारा विद्यन्तेऽस्मिन्महावने ॥",
+          "meaning": {
+            "en": "In this great forest there are many other trees whose hollows are covered with leaves, fine and with ample room to move."
+          }
         },
         {
           "n": 18,
-          "text": "गतायुषमसामर्थ्यं क्षीणसारं हतश्रियम् ।\nविमृश्य प्रज्ञया धीर जहीमं ह्यस्थिरं द्रुमम् ॥"
+          "text": "गतायुषमसामर्थ्यं क्षीणसारं हतश्रियम् ।\nविमृश्य प्रज्ञया धीर जहीमं ह्यस्थिरं द्रुमम् ॥",
+          "meaning": {
+            "en": "Reflect with your wisdom, steadfast one, and leave this unstable tree whose life is spent, which is powerless, drained of sap and robbed of splendor.\""
+          }
         },
         {
           "n": 19,
-          "text": "तदुपश्रुत्य धर्मात्मा शुकः शक्रेण भाषितम् ।\nसुदीर्घमभिनिःश्वस्य दीनो वाक्यमुवाच ह ॥"
+          "text": "तदुपश्रुत्य धर्मात्मा शुकः शक्रेण भाषितम् ।\nसुदीर्घमभिनिःश्वस्य दीनो वाक्यमुवाच ह ॥",
+          "meaning": {
+            "en": "Hearing what Indra said, the righteous parrot sighed deeply and spoke sadly."
+          }
         },
         {
           "n": 20,
-          "text": "अनतिक्रमणीयानि दैवतानि शचीपते ।\nयत्राभवस्तत्र भवस्तन्निबोध सुराधिप ॥"
+          "text": "अनतिक्रमणीयानि दैवतानि शचीपते ।\nयत्राभवस्तत्र भवस्तन्निबोध सुराधिप ॥",
+          "meaning": {
+            "en": "\"Husband of Shachi, the gods cannot be transgressed; chief of the gods, understand that where there was birth, there should be devotion."
+          }
         },
         {
           "n": 21,
-          "text": "अस्मिन्नहं द्रुमे जातः साधुभिश्च गुणैर्युतः ।\nबालभावे च संगुप्तः शत्रुभिश्च न धर्षितः ॥"
+          "text": "अस्मिन्नहं द्रुमे जातः साधुभिश्च गुणैर्युतः ।\nबालभावे च संगुप्तः शत्रुभिश्च न धर्षितः ॥",
+          "meaning": {
+            "en": "I was born in this tree, endowed with good qualities, protected in my childhood, and never harmed by enemies."
+          }
         },
         {
           "n": 22,
-          "text": "किमनुक्रोशवैफल्यमुत्पादयसि मेऽनघ ।\nआनृशंस्येऽनुरक्तस्य भक्तस्यानुगतस्य च ॥"
+          "text": "किमनुक्रोशवैफल्यमुत्पादयसि मेऽनघ ।\nआनृशंस्येऽनुरक्तस्य भक्तस्यानुगतस्य च ॥",
+          "meaning": {
+            "en": "Blameless one, why do you make my compassion fruitless, when I am attached to compassion, devoted and loyal?"
+          }
         },
         {
           "n": 23,
-          "text": "अनुक्रोशो हि साधूनां सुमहद्धर्मलक्षणम् ।\nअनुक्रोशश्च साधूनां सदा प्रीतिं प्रयच्छति ॥"
+          "text": "अनुक्रोशो हि साधूनां सुमहद्धर्मलक्षणम् ।\nअनुक्रोशश्च साधूनां सदा प्रीतिं प्रयच्छति ॥",
+          "meaning": {
+            "en": "Compassion is the great mark of dharma among the good, and the compassion of the good always brings joy."
+          }
         },
         {
           "n": 24,
-          "text": "त्वमेव दैवतैः सर्वैः पृच्छ्यसे धर्मसंशयान् ।\nअतस्त्वं देव देवानामाधिपत्ये प्रतिष्ठितः ॥"
+          "text": "त्वमेव दैवतैः सर्वैः पृच्छ्यसे धर्मसंशयान् ।\nअतस्त्वं देव देवानामाधिपत्ये प्रतिष्ठितः ॥",
+          "meaning": {
+            "en": "You are asked by all the gods about doubts of dharma; that is why you are established as sovereign of the gods."
+          }
         },
         {
           "n": 25,
-          "text": "नार्हसि त्वं सहस्राक्ष त्याजयित्वेह भक्तितः ।\nसमर्थमुपजीव्येमं त्यजेयं कथमद्य वै ॥"
+          "text": "नार्हसि त्वं सहस्राक्ष त्याजयित्वेह भक्तितः ।\nसमर्थमुपजीव्येमं त्यजेयं कथमद्य वै ॥",
+          "meaning": {
+            "en": "You should not, thousand-eyed one, make me abandon my devotion here. Having lived by this tree when it was strong, how could I leave it today?\""
+          }
         },
         {
           "n": 26,
-          "text": "तस्य वाक्येन सौम्येन हर्षितः पाकशासनः ।\nशुकं प्रोवाच धर्मज्ञमानृशंस्येन तोषितः ॥"
+          "text": "तस्य वाक्येन सौम्येन हर्षितः पाकशासनः ।\nशुकं प्रोवाच धर्मज्ञमानृशंस्येन तोषितः ॥",
+          "meaning": {
+            "en": "Delighted by his gentle words and pleased with his compassion, Indra said to the parrot, who knew dharma:"
+          }
         },
         {
           "n": 27,
-          "text": "वरं वृणीष्वेति तदा स च वव्रे वरं शुकः ।\nआनृशंस्यपरो नित्यं तस्य वृक्षस्य संभवम् ॥"
+          "text": "वरं वृणीष्वेति तदा स च वव्रे वरं शुकः ।\nआनृशंस्यपरो नित्यं तस्य वृक्षस्य संभवम् ॥",
+          "meaning": {
+            "en": "\"Choose a boon.\" And the parrot, ever devoted to compassion, chose the revival of that tree."
+          }
         },
         {
           "n": 28,
-          "text": "विदित्वा च दृढां शक्रस्तां शुके शीलसंपदम् ।\nप्रीतः क्षिप्रमथो वृक्षममृतेनावसिक्तवान् ॥"
+          "text": "विदित्वा च दृढां शक्रस्तां शुके शीलसंपदम् ।\nप्रीतः क्षिप्रमथो वृक्षममृतेनावसिक्तवान् ॥",
+          "meaning": {
+            "en": "Knowing the parrot's firm excellence of character, Indra was pleased and quickly sprinkled the tree with nectar."
+          }
         },
         {
           "n": 29,
-          "text": "ततः फलानि पत्राणि शाखाश्चापि मनोरमाः ।\nशुकस्य दृढभक्तित्वाच्छ्रीमत्त्वं चाप स द्रुमः ॥"
+          "text": "ततः फलानि पत्राणि शाखाश्चापि मनोरमाः ।\nशुकस्य दृढभक्तित्वाच्छ्रीमत्त्वं चाप स द्रुमः ॥",
+          "meaning": {
+            "en": "Then, through the parrot's firm devotion, the tree gained fruits, leaves, lovely branches and splendor."
+          }
         },
         {
           "n": 30,
-          "text": "शुकश्च कर्मणा तेन आनृशंस्यकृतेन ह ।\nआयुषोऽन्ते महाराज प्राप शक्रसलोकताम् ॥"
+          "text": "शुकश्च कर्मणा तेन आनृशंस्यकृतेन ह ।\nआयुषोऽन्ते महाराज प्राप शक्रसलोकताम् ॥",
+          "meaning": {
+            "en": "And by that deed of compassion, O great king, the parrot at the end of his life attained Indra's world."
+          }
         },
         {
           "n": 31,
-          "text": "एवमेव मनुष्येन्द्र भक्तिमन्तं समाश्रितः ।\nसर्वार्थसिद्धिं लभते शुकं प्राप्य यथा द्रुमः ॥"
+          "text": "एवमेव मनुष्येन्द्र भक्तिमन्तं समाश्रितः ।\nसर्वार्थसिद्धिं लभते शुकं प्राप्य यथा द्रुमः ॥",
+          "meaning": {
+            "en": "In the same way, lord of men, one who relies on a devoted person gains success in every aim, as the tree did by getting the parrot."
+          }
         }
       ]
     }

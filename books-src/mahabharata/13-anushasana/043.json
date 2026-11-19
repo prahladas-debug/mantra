@@ -22,123 +22,216 @@
       "titleEn": "Anushasanika Parva (The instructions)",
       "verses": [
         {
-          "text": "भीष्म उवाच"
+          "text": "भीष्म उवाच",
+          "meaning": {
+            "en": "Bhishma said:"
+          }
         },
         {
           "n": 1,
-          "text": "तमागतमभिप्रेक्ष्य शिष्यं वाक्यमथाब्रवीत् ।\nदेवशर्मा महातेजा यत्तच्छृणु नराधिप ॥"
+          "text": "तमागतमभिप्रेक्ष्य शिष्यं वाक्यमथाब्रवीत् ।\nदेवशर्मा महातेजा यत्तच्छृणु नराधिप ॥",
+          "meaning": {
+            "en": "Seeing his pupil arrived, the greatly radiant Devasharma spoke to him. Hear what he said, lord of men."
+          }
         },
         {
-          "text": "देवशर्मोवाच"
+          "text": "देवशर्मोवाच",
+          "meaning": {
+            "en": "Devasharma said:"
+          }
         },
         {
           "n": 2,
-          "text": "किं ते विपुल दृष्टं वै तस्मिन्नद्य महावने ।\nते त्वा जानन्ति निपुण आत्मा च रुचिरेव च ॥"
+          "text": "किं ते विपुल दृष्टं वै तस्मिन्नद्य महावने ।\nते त्वा जानन्ति निपुण आत्मा च रुचिरेव च ॥",
+          "meaning": {
+            "en": "Vipula, what did you see today in that great forest? They know you well, they and you yourself, and Ruchi too."
+          }
         },
         {
-          "text": "विपुल उवाच"
+          "text": "विपुल उवाच",
+          "meaning": {
+            "en": "Vipula said:"
+          }
         },
         {
           "n": 3,
-          "text": "ब्रह्मर्षे मिथुनं किं तत्के च ते पुरुषा विभो ।\nये मां जानन्ति तत्त्वेन तांश्च मे वक्तुमर्हसि ॥"
+          "text": "ब्रह्मर्षे मिथुनं किं तत्के च ते पुरुषा विभो ।\nये मां जानन्ति तत्त्वेन तांश्च मे वक्तुमर्हसि ॥",
+          "meaning": {
+            "en": "Brahmin sage, who was that couple, and who were those men, lord, who know me truly? You should tell me about them."
+          }
         },
         {
-          "text": "देवशर्मोवाच"
+          "text": "देवशर्मोवाच",
+          "meaning": {
+            "en": "Devasharma said:"
+          }
         },
         {
           "n": 4,
-          "text": "यद्वै तन्मिथुनं ब्रह्मन्नहोरात्रं हि विद्धि तत् ।\nचक्रवत्परिवर्तेत तत्ते जानाति दुष्कृतम् ॥"
+          "text": "यद्वै तन्मिथुनं ब्रह्मन्नहोरात्रं हि विद्धि तत् ।\nचक्रवत्परिवर्तेत तत्ते जानाति दुष्कृतम् ॥",
+          "meaning": {
+            "en": "Brahmin, know that the couple was Day and Night, revolving like a wheel. That pair knows your misdeed."
+          }
         },
         {
           "n": 5,
-          "text": "ये च ते पुरुषा विप्र अक्षैर्दीव्यन्ति हृष्टवत् ।\nऋतूंस्तानभिजानीहि ते ते जानन्ति दुष्कृतम् ॥"
+          "text": "ये च ते पुरुषा विप्र अक्षैर्दीव्यन्ति हृष्टवत् ।\nऋतूंस्तानभिजानीहि ते ते जानन्ति दुष्कृतम् ॥",
+          "meaning": {
+            "en": "And those men, brahmin, who played dice so merrily, know them to be the Seasons. They too know your misdeed."
+          }
         },
         {
           "n": 6,
-          "text": "न मां कश्चिद्विजानीत इति कृत्वा न विश्वसेत् ।\nनरो रहसि पापात्मा पापकं कर्म वै द्विज ॥"
+          "text": "न मां कश्चिद्विजानीत इति कृत्वा न विश्वसेत् ।\nनरो रहसि पापात्मा पापकं कर्म वै द्विज ॥",
+          "meaning": {
+            "en": "A sinful man should not feel secure, thinking, No one knows me, when he does an evil deed in secret, brahmin."
+          }
         },
         {
           "n": 7,
-          "text": "कुर्वाणं हि नरं कर्म पापं रहसि सर्वदा ।\nपश्यन्ति ऋतवश्चापि तथा दिननिशेऽप्युत ॥"
+          "text": "कुर्वाणं हि नरं कर्म पापं रहसि सर्वदा ।\nपश्यन्ति ऋतवश्चापि तथा दिननिशेऽप्युत ॥",
+          "meaning": {
+            "en": "For the Seasons, and likewise Day and Night, always see a man doing an evil deed in secret."
+          }
         },
         {
           "n": 8,
-          "text": "ते त्वां हर्षस्मितं दृष्ट्वा गुरोः कर्मानिवेदकम् ।\nस्मारयन्तस्तथा प्राहुस्ते यथा श्रुतवान्भवान् ॥"
+          "text": "ते त्वां हर्षस्मितं दृष्ट्वा गुरोः कर्मानिवेदकम् ।\nस्मारयन्तस्तथा प्राहुस्ते यथा श्रुतवान्भवान् ॥",
+          "meaning": {
+            "en": "Seeing you smiling with pleasure and not reporting your deed to your teacher, they reminded you and spoke so that you would hear."
+          }
         },
         {
           "n": 9,
-          "text": "अहोरात्रं विजानाति ऋतवश्चापि नित्यशः ।\nपुरुषे पापकं कर्म शुभं वा शुभकर्मणः ॥"
+          "text": "अहोरात्रं विजानाति ऋतवश्चापि नित्यशः ।\nपुरुषे पापकं कर्म शुभं वा शुभकर्मणः ॥",
+          "meaning": {
+            "en": "Day and Night and the Seasons always know a person's evil deed, or the good deed of one who does good."
+          }
         },
         {
           "n": 10,
-          "text": "तत्त्वया मम यत्कर्म व्यभिचाराद्भयात्मकम् ।\nनाख्यातमिति जानन्तस्ते त्वामाहुस्तथा द्विज ॥"
+          "text": "तत्त्वया मम यत्कर्म व्यभिचाराद्भयात्मकम् ।\nनाख्यातमिति जानन्तस्ते त्वामाहुस्तथा द्विज ॥",
+          "meaning": {
+            "en": "Knowing that you had not told me of what you did in my regard out of fear of wrongdoing, they spoke to you thus, brahmin."
+          }
         },
         {
           "n": 11,
-          "text": "ते चैव हि भवेयुस्ते लोकाः पापकृतो यथा ।\nकृत्वा नाचक्षतः कर्म मम यच्च त्वया कृतम् ॥"
+          "text": "ते चैव हि भवेयुस्ते लोकाः पापकृतो यथा ।\nकृत्वा नाचक्षतः कर्म मम यच्च त्वया कृतम् ॥",
+          "meaning": {
+            "en": "Those worlds of the sinful would indeed have been yours, had you done that deed and not told me, the deed you did concerning me."
+          }
         },
         {
           "n": 12,
-          "text": "तथा शक्या च दुर्वृत्ता रक्षितुं प्रमदा द्विज ।\nन च त्वं कृतवान्किंचिदागः प्रीतोऽस्मि तेन ते ॥"
+          "text": "तथा शक्या च दुर्वृत्ता रक्षितुं प्रमदा द्विज ।\nन च त्वं कृतवान्किंचिदागः प्रीतोऽस्मि तेन ते ॥",
+          "meaning": {
+            "en": "Thus even a woman of bad conduct can be guarded, brahmin. And you did no wrong at all, and I am pleased with you for it."
+          }
         },
         {
           "n": 13,
-          "text": "यदि त्वहं त्वा दुर्वृत्तमद्राक्षं द्विजसत्तम ।\nशपेयं त्वामहं क्रोधान्न मेऽत्रास्ति विचारणा ॥"
+          "text": "यदि त्वहं त्वा दुर्वृत्तमद्राक्षं द्विजसत्तम ।\nशपेयं त्वामहं क्रोधान्न मेऽत्रास्ति विचारणा ॥",
+          "meaning": {
+            "en": "If I had seen you misbehaving, best of brahmins, I would have cursed you in anger. I have no doubt about that."
+          }
         },
         {
           "n": 14,
-          "text": "सज्जन्ति पुरुषे नार्यः पुंसां सोऽर्थश्च पुष्कलः ।\nअन्यथा रक्षतः शापोऽभविष्यत्ते गतिश्च सा ॥"
+          "text": "सज्जन्ति पुरुषे नार्यः पुंसां सोऽर्थश्च पुष्कलः ।\nअन्यथा रक्षतः शापोऽभविष्यत्ते गतिश्च सा ॥",
+          "meaning": {
+            "en": "Women cling to men, and that is the great purpose of men. Had you guarded her otherwise, a curse would have fallen on you, and that fate."
+          }
         },
         {
           "n": 15,
-          "text": "रक्षिता सा त्वया पुत्र मम चापि निवेदिता ।\nअहं ते प्रीतिमांस्तात स्वस्ति स्वर्गं गमिष्यसि ॥"
+          "text": "रक्षिता सा त्वया पुत्र मम चापि निवेदिता ।\nअहं ते प्रीतिमांस्तात स्वस्ति स्वर्गं गमिष्यसि ॥",
+          "meaning": {
+            "en": "Son, you guarded her and also told me. I am pleased with you, dear son. Blessings. You will go to heaven."
+          }
         },
         {
-          "text": "भीष्म उवाच"
+          "text": "भीष्म उवाच",
+          "meaning": {
+            "en": "Bhishma said:"
+          }
         },
         {
           "n": 16,
-          "text": "इत्युक्त्वा विपुलं प्रीतो देवशर्मा महानृषिः ।\nमुमोद स्वर्गमास्थाय सहभार्यः सशिष्यकः ॥"
+          "text": "इत्युक्त्वा विपुलं प्रीतो देवशर्मा महानृषिः ।\nमुमोद स्वर्गमास्थाय सहभार्यः सशिष्यकः ॥",
+          "meaning": {
+            "en": "So saying to Vipula, the great sage Devasharma, pleased, rejoiced and went to heaven with his wife and pupil."
+          }
         },
         {
           "n": 17,
-          "text": "इदमाख्यातवांश्चापि ममाख्यानं महामुनिः ।\nमार्कण्डेयः पुरा राजन्गङ्गाकूले कथान्तरे ॥"
+          "text": "इदमाख्यातवांश्चापि ममाख्यानं महामुनिः ।\nमार्कण्डेयः पुरा राजन्गङ्गाकूले कथान्तरे ॥",
+          "meaning": {
+            "en": "The great sage Markandeya once told me this tale, king, on the bank of the Ganga, in the course of conversation."
+          }
         },
         {
           "n": 18,
-          "text": "तस्माद्ब्रवीमि पार्थ त्वा स्त्रियः सर्वाः सदैव च ।\nउभयं दृश्यते तासु सततं साध्वसाधु च ॥"
+          "text": "तस्माद्ब्रवीमि पार्थ त्वा स्त्रियः सर्वाः सदैव च ।\nउभयं दृश्यते तासु सततं साध्वसाधु च ॥",
+          "meaning": {
+            "en": "Therefore I tell you, son of Pritha: both are always seen in women, the good and the bad."
+          }
         },
         {
           "n": 19,
-          "text": "स्त्रियः साध्व्यो महाभागाः संमता लोकमातरः ।\nधारयन्ति महीं राजन्निमां सवनकाननाम् ॥"
+          "text": "स्त्रियः साध्व्यो महाभागाः संमता लोकमातरः ।\nधारयन्ति महीं राजन्निमां सवनकाननाम् ॥",
+          "meaning": {
+            "en": "Good women, greatly blessed, honored as mothers of the world, support this earth with its forests and groves, king."
+          }
         },
         {
           "n": 20,
-          "text": "असाध्व्यश्चापि दुर्वृत्ताः कुलघ्न्यः पापनिश्चयाः ।\nविज्ञेया लक्षणैर्दुष्टैः स्वगात्रसहजैर्नृप ॥"
+          "text": "असाध्व्यश्चापि दुर्वृत्ताः कुलघ्न्यः पापनिश्चयाः ।\nविज्ञेया लक्षणैर्दुष्टैः स्वगात्रसहजैर्नृप ॥",
+          "meaning": {
+            "en": "And those who are not good, of bad conduct, destroyers of their families and set on evil, are to be known by foul marks born on their own bodies, king."
+          }
         },
         {
           "n": 21,
-          "text": "एवमेतासु रक्षा वै शक्या कर्तुं महात्मभिः ।\nअन्यथा राजशार्दूल न शक्या रक्षितुं स्त्रियः ॥"
+          "text": "एवमेतासु रक्षा वै शक्या कर्तुं महात्मभिः ।\nअन्यथा राजशार्दूल न शक्या रक्षितुं स्त्रियः ॥",
+          "meaning": {
+            "en": "Thus great-souled men can guard them. Otherwise, tiger among kings, women cannot be guarded."
+          }
         },
         {
           "n": 22,
-          "text": "एता हि मनुजव्याघ्र तीक्ष्णास्तीक्ष्णपराक्रमाः ।\nनासामस्ति प्रियो नाम मैथुने संगमे नृभिः ॥"
+          "text": "एता हि मनुजव्याघ्र तीक्ष्णास्तीक्ष्णपराक्रमाः ।\nनासामस्ति प्रियो नाम मैथुने संगमे नृभिः ॥",
+          "meaning": {
+            "en": "Tiger among men, they are sharp, of sharp power, and have no real fondness for men in union and intercourse."
+          }
         },
         {
           "n": 23,
-          "text": "एताः कृत्याश्च कार्याश्च कृताश्च भरतर्षभ ।\nन चैकस्मिन्रमन्त्येताः पुरुषे पाण्डुनन्दन ॥"
+          "text": "एताः कृत्याश्च कार्याश्च कृताश्च भरतर्षभ ।\nन चैकस्मिन्रमन्त्येताः पुरुषे पाण्डुनन्दन ॥",
+          "meaning": {
+            "en": "Bull of the Bharatas, they are spells, they are things to be done, and things already done. Son of Pandu, they do not delight in one man alone."
+          }
         },
         {
           "n": 24,
-          "text": "नासु स्नेहो नृभिः कार्यस्तथैवेर्ष्या जनेश्वर ।\nखेदमास्थाय भुञ्जीत धर्ममास्थाय चैव हि ॥"
+          "text": "नासु स्नेहो नृभिः कार्यस्तथैवेर्ष्या जनेश्वर ।\nखेदमास्थाय भुञ्जीत धर्ममास्थाय चैव हि ॥",
+          "meaning": {
+            "en": "Men should not form attachment to them, nor jealousy, lord of men. One should enjoy them with effort and with dharma as support."
+          }
         },
         {
           "n": 25,
-          "text": "विहन्येतान्यथा कुर्वन्नरः कौरवनन्दन ।\nसर्वथा राजशार्दूल युक्तिः सर्वत्र पूज्यते ॥"
+          "text": "विहन्येतान्यथा कुर्वन्नरः कौरवनन्दन ।\nसर्वथा राजशार्दूल युक्तिः सर्वत्र पूज्यते ॥",
+          "meaning": {
+            "en": "A man who acts otherwise comes to grief, delight of the Kurus. In every way, tiger among kings, prudence is honored everywhere."
+          }
         },
         {
           "n": 26,
-          "text": "तेनैकेन तु रक्षा वै विपुलेन कृता स्त्रियाः ।\nनान्यः शक्तो नृलोकेऽस्मिन्रक्षितुं नृप योषितः ॥"
+          "text": "तेनैकेन तु रक्षा वै विपुलेन कृता स्त्रियाः ।\nनान्यः शक्तो नृलोकेऽस्मिन्रक्षितुं नृप योषितः ॥",
+          "meaning": {
+            "en": "Only Vipula, in this way, protected a woman. No other in the world of men is able to guard women, king."
+          }
         }
       ]
     }

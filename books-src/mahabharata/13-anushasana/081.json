@@ -22,141 +22,252 @@
       "titleEn": "Anushasanika Parva (The instructions)",
       "verses": [
         {
-          "text": "युधिष्ठिर उवाच"
+          "text": "युधिष्ठिर उवाच",
+          "meaning": {
+            "en": "Yudhishthira said:"
+          }
         },
         {
           "n": 1,
-          "text": "मया गवां पुरीषं वै श्रिया जुष्टमिति श्रुतम् ।\nएतदिच्छाम्यहं श्रोतुं संशयोऽत्र हि मे महान् ॥"
+          "text": "मया गवां पुरीषं वै श्रिया जुष्टमिति श्रुतम् ।\nएतदिच्छाम्यहं श्रोतुं संशयोऽत्र हि मे महान् ॥",
+          "meaning": {
+            "en": "I have heard that the dung of cows is favoured by Shri. I wish to hear about this, for I have a great doubt here."
+          }
         },
         {
-          "text": "भीष्म उवाच"
+          "text": "भीष्म उवाच",
+          "meaning": {
+            "en": "Bhishma said:"
+          }
         },
         {
           "n": 2,
-          "text": "अत्राप्युदाहरन्तीममितिहासं पुरातनम् ।\nगोभिर्नृपेह संवादं श्रिया भरतसत्तम ॥"
+          "text": "अत्राप्युदाहरन्तीममितिहासं पुरातनम् ।\nगोभिर्नृपेह संवादं श्रिया भरतसत्तम ॥",
+          "meaning": {
+            "en": "On this too they tell an old account, O best of the Bharatas, a conversation between the cows and Shri, O king."
+          }
         },
         {
           "n": 3,
-          "text": "श्रीः कृत्वेह वपुः कान्तं गोमध्यं प्रविवेश ह ।\nगावोऽथ विस्मितास्तस्या दृष्ट्वा रूपस्य संपदम् ॥"
+          "text": "श्रीः कृत्वेह वपुः कान्तं गोमध्यं प्रविवेश ह ।\nगावोऽथ विस्मितास्तस्या दृष्ट्वा रूपस्य संपदम् ॥",
+          "meaning": {
+            "en": "Shri, taking a lovely form here, once entered the midst of the cows. The cows, seeing the richness of her beauty, were amazed."
+          }
         },
         {
-          "text": "गाव ऊचुः"
+          "text": "गाव ऊचुः",
+          "meaning": {
+            "en": "The cows said:"
+          }
         },
         {
           "n": 4,
-          "text": "कासि देवि कुतो वा त्वं रूपेणाप्रतिमा भुवि ।\nविस्मिताः स्म महाभागे तव रूपस्य संपदा ॥"
+          "text": "कासि देवि कुतो वा त्वं रूपेणाप्रतिमा भुवि ।\nविस्मिताः स्म महाभागे तव रूपस्य संपदा ॥",
+          "meaning": {
+            "en": "Goddess, who are you, and where do you come from, you of unmatched beauty on earth? Greatly blessed one, we are amazed at the richness of your form."
+          }
         },
         {
           "n": 5,
-          "text": "इच्छामस्त्वां वयं ज्ञातुं का त्वं क्व च गमिष्यसि ।\nतत्त्वेन च सुवर्णाभे सर्वमेतद्ब्रवीहि नः ॥"
+          "text": "इच्छामस्त्वां वयं ज्ञातुं का त्वं क्व च गमिष्यसि ।\nतत्त्वेन च सुवर्णाभे सर्वमेतद्ब्रवीहि नः ॥",
+          "meaning": {
+            "en": "We wish to know who you are and where you will go. Golden-hued one, tell us all this truly."
+          }
         },
         {
-          "text": "श्रीरुवाच"
+          "text": "श्रीरुवाच",
+          "meaning": {
+            "en": "Shri said:"
+          }
         },
         {
           "n": 6,
-          "text": "लोककान्तास्मि भद्रं वः श्रीर्नाम्नेह परिश्रुता ।\nमया दैत्याः परित्यक्ता विनष्टाः शाश्वतीः समाः ॥"
+          "text": "लोककान्तास्मि भद्रं वः श्रीर्नाम्नेह परिश्रुता ।\nमया दैत्याः परित्यक्ता विनष्टाः शाश्वतीः समाः ॥",
+          "meaning": {
+            "en": "I am the beloved of the world, and am renowned here by the name of Shri. By me the Daityas were abandoned and perished for endless years."
+          }
         },
         {
           "n": 7,
-          "text": "इन्द्रो विवस्वान्सोमश्च विष्णुरापोऽग्निरेव च ।\nमयाभिपन्ना ऋध्यन्ते ऋषयो देवतास्तथा ॥"
+          "text": "इन्द्रो विवस्वान्सोमश्च विष्णुरापोऽग्निरेव च ।\nमयाभिपन्ना ऋध्यन्ते ऋषयो देवतास्तथा ॥",
+          "meaning": {
+            "en": "Indra, Vivasvan, Soma, Vishnu, the waters, Agni, the sages and the gods all prosper when I come to them."
+          }
         },
         {
           "n": 8,
-          "text": "यांश्च द्विषाम्यहं गावस्ते विनश्यन्ति सर्वशः ।\nधर्मार्थकामहीनाश्च ते भवन्त्यसुखान्विताः ॥"
+          "text": "यांश्च द्विषाम्यहं गावस्ते विनश्यन्ति सर्वशः ।\nधर्मार्थकामहीनाश्च ते भवन्त्यसुखान्विताः ॥",
+          "meaning": {
+            "en": "Those whom I hate, cows, are destroyed in every way; lacking dharma, wealth and pleasure, they are unhappy."
+          }
         },
         {
           "n": 9,
-          "text": "एवंप्रभावां मां गावो विजानीत सुखप्रदाम् ।\nइच्छामि चापि युष्मासु वस्तुं सर्वासु नित्यदा ।\nआगता प्रार्थयानाहं श्रीजुष्टा भवतानघाः ॥"
+          "text": "एवंप्रभावां मां गावो विजानीत सुखप्रदाम् ।\nइच्छामि चापि युष्मासु वस्तुं सर्वासु नित्यदा ।\nआगता प्रार्थयानाहं श्रीजुष्टा भवतानघाः ॥",
+          "meaning": {
+            "en": "Know me, cows, as one of such power, a giver of happiness. I wish to dwell always in all of you. I have come asking; be favoured by Shri, sinless ones."
+          }
         },
         {
-          "text": "गाव ऊचुः"
+          "text": "गाव ऊचुः",
+          "meaning": {
+            "en": "The cows said:"
+          }
         },
         {
           "n": 10,
-          "text": "अध्रुवां चञ्चलां च त्वां सामान्यां बहुभिः सह ।\nन त्वामिच्छामि भद्रं ते गम्यतां यत्र रोचते ॥"
+          "text": "अध्रुवां चञ्चलां च त्वां सामान्यां बहुभिः सह ।\nन त्वामिच्छामि भद्रं ते गम्यतां यत्र रोचते ॥",
+          "meaning": {
+            "en": "You are unsteady and fickle, shared with many others. We do not want you; good luck to you, go where you like."
+          }
         },
         {
           "n": 11,
-          "text": "वपुष्मन्त्यो वयं सर्वाः किमस्माकं त्वयाद्य वै ।\nयत्रेष्टं गम्यतां तत्र कृतकार्या वयं त्वया ॥"
+          "text": "वपुष्मन्त्यो वयं सर्वाः किमस्माकं त्वयाद्य वै ।\nयत्रेष्टं गम्यतां तत्र कृतकार्या वयं त्वया ॥",
+          "meaning": {
+            "en": "We are all beautiful already. What need have we of you? Go where you wish; our purpose is done without you."
+          }
         },
         {
-          "text": "श्रीरुवाच"
+          "text": "श्रीरुवाच",
+          "meaning": {
+            "en": "Shri said:"
+          }
         },
         {
           "n": 12,
-          "text": "किमेतद्वः क्षमं गावो यन्मां नेहाभ्यनन्दथ ।\nन मां संप्रति गृह्णीथ कस्माद्वै दुर्लभां सतीम् ॥"
+          "text": "किमेतद्वः क्षमं गावो यन्मां नेहाभ्यनन्दथ ।\nन मां संप्रति गृह्णीथ कस्माद्वै दुर्लभां सतीम् ॥",
+          "meaning": {
+            "en": "Cows, is this proper of you, that you do not welcome me here? Why do you not accept me now, when I am good and hard to get?"
+          }
         },
         {
           "n": 13,
-          "text": "सत्यश्च लोकवादोऽयं लोके चरति सुव्रताः ।\nस्वयं प्राप्ते परिभवो भवतीति विनिश्चयः ॥"
+          "text": "सत्यश्च लोकवादोऽयं लोके चरति सुव्रताः ।\nस्वयं प्राप्ते परिभवो भवतीति विनिश्चयः ॥",
+          "meaning": {
+            "en": "This saying is true and goes about the world, O you of good vows: when something comes of itself, it is despised. That is certain."
+          }
         },
         {
           "n": 14,
-          "text": "महदुग्रं तपः कृत्वा मां निषेवन्ति मानवाः ।\nदेवदानवगन्धर्वाः पिशाचोरगराक्षसाः ॥"
+          "text": "महदुग्रं तपः कृत्वा मां निषेवन्ति मानवाः ।\nदेवदानवगन्धर्वाः पिशाचोरगराक्षसाः ॥",
+          "meaning": {
+            "en": "People seek me after doing great and fierce austerity, and so do gods, Danavas, Gandharvas, Pishachas, serpents and Rakshasas."
+          }
         },
         {
           "n": 15,
-          "text": "क्षममेतद्धि वो गावः प्रतिगृह्णीत मामिह ।\nनावमन्या ह्यहं सौम्यास्त्रैलोक्ये सचराचरे ॥"
+          "text": "क्षममेतद्धि वो गावः प्रतिगृह्णीत मामिह ।\nनावमन्या ह्यहं सौम्यास्त्रैलोक्ये सचराचरे ॥",
+          "meaning": {
+            "en": "It is proper for you, cows, to accept me here. In the three worlds with all moving and unmoving things, I am not to be scorned, gentle ones."
+          }
         },
         {
-          "text": "गाव ऊचुः"
+          "text": "गाव ऊचुः",
+          "meaning": {
+            "en": "The cows said:"
+          }
         },
         {
           "n": 16,
-          "text": "नावमन्यामहे देवि न त्वां परिभवामहे ।\nअध्रुवा चलचित्तासि ततस्त्वां वर्जयामहे ॥"
+          "text": "नावमन्यामहे देवि न त्वां परिभवामहे ।\nअध्रुवा चलचित्तासि ततस्त्वां वर्जयामहे ॥",
+          "meaning": {
+            "en": "Goddess, we do not scorn you, nor do we insult you. But you are unsteady and fickle-minded, therefore we shun you."
+          }
         },
         {
           "n": 17,
-          "text": "बहुनात्र किमुक्तेन गम्यतां यत्र वाञ्छसि ।\nवपुष्मत्यो वयं सर्वाः किमस्माकं त्वयानघे ॥"
+          "text": "बहुनात्र किमुक्तेन गम्यतां यत्र वाञ्छसि ।\nवपुष्मत्यो वयं सर्वाः किमस्माकं त्वयानघे ॥",
+          "meaning": {
+            "en": "What more is there to say? Go where you wish. We are all beautiful; what need have we of you, sinless one?"
+          }
         },
         {
-          "text": "श्रीरुवाच"
+          "text": "श्रीरुवाच",
+          "meaning": {
+            "en": "Shri said:"
+          }
         },
         {
           "n": 18,
-          "text": "अवज्ञाता भविष्यामि सर्वलोकेषु मानदाः ।\nप्रत्याख्यानेन युष्माभिः प्रसादः क्रियतामिति ॥"
+          "text": "अवज्ञाता भविष्यामि सर्वलोकेषु मानदाः ।\nप्रत्याख्यानेन युष्माभिः प्रसादः क्रियतामिति ॥",
+          "meaning": {
+            "en": "I shall be despised in all the worlds, O givers of honour, if you refuse me. Grant me your favour."
+          }
         },
         {
           "n": 19,
-          "text": "महाभागा भवत्यो वै शरण्याः शरणागताम् ।\nपरित्रायन्तु मां नित्यं भजमानामनिन्दिताम् ।\nमाननां त्वहमिच्छामि भवत्यः सततं शुभाः ॥"
+          "text": "महाभागा भवत्यो वै शरण्याः शरणागताम् ।\nपरित्रायन्तु मां नित्यं भजमानामनिन्दिताम् ।\nमाननां त्वहमिच्छामि भवत्यः सततं शुभाः ॥",
+          "meaning": {
+            "en": "Greatly blessed ones, you are a refuge, and I have come to you for refuge. Protect me always, a blameless one who serves you. Auspicious ones, I ask to be honoured by you constantly."
+          }
         },
         {
           "n": 20,
-          "text": "अप्येकाङ्गे तु वो वस्तुमिच्छामि च सुकुत्सिते ।\nन वोऽस्ति कुत्सितं किंचिदङ्गेष्वालक्ष्यतेऽनघाः ॥"
+          "text": "अप्येकाङ्गे तु वो वस्तुमिच्छामि च सुकुत्सिते ।\nन वोऽस्ति कुत्सितं किंचिदङ्गेष्वालक्ष्यतेऽनघाः ॥",
+          "meaning": {
+            "en": "I would dwell even in one part of you, even a most despised one; yet no part of yours, sinless ones, looks despicable."
+          }
         },
         {
           "n": 21,
-          "text": "पुण्याः पवित्राः सुभगा ममादेशं प्रयच्छत ।\nवसेयं यत्र चाङ्गेऽहं तन्मे व्याख्यातुमर्हथ ॥"
+          "text": "पुण्याः पवित्राः सुभगा ममादेशं प्रयच्छत ।\nवसेयं यत्र चाङ्गेऽहं तन्मे व्याख्यातुमर्हथ ॥",
+          "meaning": {
+            "en": "Holy, pure and fortunate ones, give me your command. You should tell me in which part of your body I should live."
+          }
         },
         {
-          "text": "भीष्म उवाच"
+          "text": "भीष्म उवाच",
+          "meaning": {
+            "en": "Bhishma said:"
+          }
         },
         {
           "n": 22,
-          "text": "एवमुक्तास्तु ता गावः शुभाः करुणवत्सलाः ।\nसंमन्त्र्य सहिताः सर्वाः श्रियमूचुर्नराधिप ॥"
+          "text": "एवमुक्तास्तु ता गावः शुभाः करुणवत्सलाः ।\nसंमन्त्र्य सहिताः सर्वाः श्रियमूचुर्नराधिप ॥",
+          "meaning": {
+            "en": "Thus addressed, those auspicious cows, kind and affectionate, all consulted together, O king, and said to Shri:"
+          }
         },
         {
           "n": 23,
-          "text": "अवश्यं मानना कार्या तवास्माभिर्यशस्विनि ।\nशकृन्मूत्रे निवस नः पुण्यमेतद्धि नः शुभे ॥"
+          "text": "अवश्यं मानना कार्या तवास्माभिर्यशस्विनि ।\nशकृन्मूत्रे निवस नः पुण्यमेतद्धि नः शुभे ॥",
+          "meaning": {
+            "en": "'Glorious one, we must certainly honour you. Dwell in our dung and urine, for this is holy for us, auspicious one.'"
+          }
         },
         {
-          "text": "श्रीरुवाच"
+          "text": "श्रीरुवाच",
+          "meaning": {
+            "en": "Shri said:"
+          }
         },
         {
           "n": 24,
-          "text": "दिष्ट्या प्रसादो युष्माभिः कृतो मेऽनुग्रहात्मकः ।\nएवं भवतु भद्रं वः पूजितास्मि सुखप्रदाः ॥"
+          "text": "दिष्ट्या प्रसादो युष्माभिः कृतो मेऽनुग्रहात्मकः ।\nएवं भवतु भद्रं वः पूजितास्मि सुखप्रदाः ॥",
+          "meaning": {
+            "en": "'By good fortune you have shown me favour and kindness. So be it; good luck to you. I am honoured, givers of happiness.'"
+          }
         },
         {
-          "text": "भीष्म उवाच"
+          "text": "भीष्म उवाच",
+          "meaning": {
+            "en": "Bhishma said:"
+          }
         },
         {
           "n": 25,
-          "text": "एवं कृत्वा तु समयं श्रीर्गोभिः सह भारत ।\nपश्यन्तीनां ततस्तासां तत्रैवान्तरधीयत ॥"
+          "text": "एवं कृत्वा तु समयं श्रीर्गोभिः सह भारत ।\nपश्यन्तीनां ततस्तासां तत्रैवान्तरधीयत ॥",
+          "meaning": {
+            "en": "Having made this agreement with the cows, O Bharata, Shri vanished from there while they watched."
+          }
         },
         {
           "n": 26,
-          "text": "एतद्गोशकृतः पुत्र माहात्म्यं तेऽनुवर्णितम् ।\nमाहात्म्यं च गवां भूयः श्रूयतां गदतो मम ॥"
+          "text": "एतद्गोशकृतः पुत्र माहात्म्यं तेऽनुवर्णितम् ।\nमाहात्म्यं च गवां भूयः श्रूयतां गदतो मम ॥",
+          "meaning": {
+            "en": "Son, I have described to you this greatness of cow dung. Hear again from me, as I speak, the greatness of the cows."
+          }
         }
       ]
     }

@@ -22,295 +22,514 @@
       "titleEn": "Apaddharma Parva (Duties in distress)",
       "verses": [
         {
-          "text": "भीष्म उवाच"
+          "text": "भीष्म उवाच",
+          "meaning": {
+            "en": "Bhishma said:"
+          }
         },
         {
           "n": 1,
-          "text": "कृतार्थो यक्ष्यमाणश्च सर्ववेदान्तगश्च यः ।\nआचार्यपितृभार्यार्थं स्वाध्यायार्थमथापि वा ॥"
+          "text": "कृतार्थो यक्ष्यमाणश्च सर्ववेदान्तगश्च यः ।\nआचार्यपितृभार्यार्थं स्वाध्यायार्थमथापि वा ॥",
+          "meaning": {
+            "en": "One who has fulfilled his purpose, or is about to sacrifice, or has mastered all the Vedanta, or needs wealth for his teacher, for a father's wife or for his own study,"
+          }
         },
         {
           "n": 2,
-          "text": "एते वै साधवो दृष्टा ब्राह्मणा धर्मभिक्षवः ।\nअस्वेभ्यो देयमेतेभ्यो दानं विद्याविशेषतः ॥"
+          "text": "एते वै साधवो दृष्टा ब्राह्मणा धर्मभिक्षवः ।\nअस्वेभ्यो देयमेतेभ्यो दानं विद्याविशेषतः ॥",
+          "meaning": {
+            "en": "these are seen to be good brahmins, living as mendicants of dharma. Gifts, especially to the learned, may be taken from those who are not their own kin."
+          }
         },
         {
           "n": 3,
-          "text": "अन्यत्र दक्षिणा या तु देया भरतसत्तम ।\nअन्येभ्यो हि बहिर्वेद्यां नाकृतान्नं विधीयते ॥"
+          "text": "अन्यत्र दक्षिणा या तु देया भरतसत्तम ।\nअन्येभ्यो हि बहिर्वेद्यां नाकृतान्नं विधीयते ॥",
+          "meaning": {
+            "en": "Best of the Bharatas, sacrificial fees are to be given in other ways; for others outside the altar, uncooked grain is not prescribed."
+          }
         },
         {
           "n": 4,
-          "text": "सर्वरत्नानि राजा च यथार्हं प्रतिपादयेत् ।\nब्राह्मणाश्चैव यज्ञाश्च सहान्नाः सहदक्षिणाः ॥"
+          "text": "सर्वरत्नानि राजा च यथार्हं प्रतिपादयेत् ।\nब्राह्मणाश्चैव यज्ञाश्च सहान्नाः सहदक्षिणाः ॥",
+          "meaning": {
+            "en": "The king should present all jewels fittingly; brahmins and sacrifices should have food and fees together."
+          }
         },
         {
           "n": 5,
-          "text": "यस्य त्रैवार्षिकं भक्तं पर्याप्तं भृत्यवृत्तये ।\nअधिकं वापि विद्येत स सोमं पातुमर्हति ॥"
+          "text": "यस्य त्रैवार्षिकं भक्तं पर्याप्तं भृत्यवृत्तये ।\nअधिकं वापि विद्येत स सोमं पातुमर्हति ॥",
+          "meaning": {
+            "en": "A man who has food for three years enough to support his dependants, or more, deserves to drink soma."
+          }
         },
         {
           "n": 6,
-          "text": "यज्ञश्चेत्प्रतिविद्धः स्यादङ्गेनैकेन यज्वनः ।\nब्राह्मणस्य विशेषेण धार्मिके सति राजनि ॥"
+          "text": "यज्ञश्चेत्प्रतिविद्धः स्यादङ्गेनैकेन यज्वनः ।\nब्राह्मणस्य विशेषेण धार्मिके सति राजनि ॥",
+          "meaning": {
+            "en": "If a sacrificer's rite is obstructed by even a single limb of it, especially a brahmin's, while the king is righteous,"
+          }
         },
         {
           "n": 7,
-          "text": "यो वैश्यः स्याद्बहुपशुर्हीनक्रतुरसोमपः ।\nकुटुम्बात्तस्य तद्द्रव्यं यज्ञार्थं पार्थिवो हरेत् ॥"
+          "text": "यो वैश्यः स्याद्बहुपशुर्हीनक्रतुरसोमपः ।\nकुटुम्बात्तस्य तद्द्रव्यं यज्ञार्थं पार्थिवो हरेत् ॥",
+          "meaning": {
+            "en": "then a vaishya who owns many cattle yet performs no rites and drinks no soma may have that wealth taken from his household by the king for the sacrifice."
+          }
         },
         {
           "n": 8,
-          "text": "आहरेद्वेश्मतः किंचित्कामं शूद्रस्य द्रव्यतः ।\nन हि वेश्मनि शूद्रस्य कश्चिदस्ति परिग्रहः ॥"
+          "text": "आहरेद्वेश्मतः किंचित्कामं शूद्रस्य द्रव्यतः ।\nन हि वेश्मनि शूद्रस्य कश्चिदस्ति परिग्रहः ॥",
+          "meaning": {
+            "en": "The king may also take something from a shudra's house, as he wishes, for a shudra has no ownership of his own in his house."
+          }
         },
         {
           "n": 9,
-          "text": "योऽनाहिताग्निः शतगुरयज्वा च सहस्रगुः ।\nतयोरपि कुटुम्बाभ्यामाहरेदविचारयन् ॥"
+          "text": "योऽनाहिताग्निः शतगुरयज्वा च सहस्रगुः ।\nतयोरपि कुटुम्बाभ्यामाहरेदविचारयन् ॥",
+          "meaning": {
+            "en": "Without hesitation he may take from the households of one who owns a hundred cows but keeps no fires, and one who owns a thousand but does not sacrifice."
+          }
         },
         {
           "n": 10,
-          "text": "अदातृभ्यो हरेन्नित्यं व्याख्याप्य नृपतिः प्रभो ।\nतथा ह्याचरतो धर्मो नृपतेः स्यादथाखिलः ॥"
+          "text": "अदातृभ्यो हरेन्नित्यं व्याख्याप्य नृपतिः प्रभो ।\nतथा ह्याचरतो धर्मो नृपतेः स्यादथाखिलः ॥",
+          "meaning": {
+            "en": "The king should always take from those who give nothing, after announcing it, lord; thereby the king's practice of dharma is complete."
+          }
         },
         {
           "n": 11,
-          "text": "तथैव सप्तमे भक्ते भक्तानि षडनश्नता ।\nअश्वस्तनविधानेन हर्तव्यं हीनकर्मणः ।\nखलात्क्षेत्रात्तथागाराद्यतो वाप्युपपद्यते ॥"
+          "text": "तथैव सप्तमे भक्ते भक्तानि षडनश्नता ।\nअश्वस्तनविधानेन हर्तव्यं हीनकर्मणः ।\nखलात्क्षेत्रात्तथागाराद्यतो वाप्युपपद्यते ॥",
+          "meaning": {
+            "en": "Likewise, from a man neglecting his rites who has gone without food for six meals, at the seventh meal it may be taken, by the rule of not leaving anything for tomorrow, from his threshing floor, field or house, or wherever it can be got."
+          }
         },
         {
           "n": 12,
-          "text": "आख्यातव्यं नृपस्यैतत्पृच्छतोऽपृच्छतोऽपि वा ।\nन तस्मै धारयेद्दण्डं राजा धर्मेण धर्मवित् ॥"
+          "text": "आख्यातव्यं नृपस्यैतत्पृच्छतोऽपृच्छतोऽपि वा ।\nन तस्मै धारयेद्दण्डं राजा धर्मेण धर्मवित् ॥",
+          "meaning": {
+            "en": "This should be reported to the king, whether he asks or not; a king who knows dharma should not impose punishment on such a man, in keeping with dharma."
+          }
         },
         {
           "n": 13,
-          "text": "क्षत्रियस्य हि बालिश्याद्ब्राह्मणः क्लिश्यते क्षुधा ।\nश्रुतशीले समाज्ञाय वृत्तिमस्य प्रकल्पयेत् ।\nअथैनं परिरक्षेत पिता पुत्रमिवौरसम् ॥"
+          "text": "क्षत्रियस्य हि बालिश्याद्ब्राह्मणः क्लिश्यते क्षुधा ।\nश्रुतशीले समाज्ञाय वृत्तिमस्य प्रकल्पयेत् ।\nअथैनं परिरक्षेत पिता पुत्रमिवौरसम् ॥",
+          "meaning": {
+            "en": "If a brahmin suffers hunger through a kshatriya's folly, the king, recognising the man's learning and character, should arrange a livelihood for him and protect him as a father protects his own son."
+          }
         },
         {
           "n": 14,
-          "text": "इष्टिं वैश्वानरीं नित्यं निर्वपेदब्दपर्यये ।\nअविकल्पः पुराधर्मो धर्मवादैस्तु केवलम् ॥"
+          "text": "इष्टिं वैश्वानरीं नित्यं निर्वपेदब्दपर्यये ।\nअविकल्पः पुराधर्मो धर्मवादैस्तु केवलम् ॥",
+          "meaning": {
+            "en": "He should offer the Vaishvanara oblation every year at its turn. This was the old rule without options; options belong only to talk about dharma."
+          }
         },
         {
           "n": 15,
-          "text": "विश्वैस्तु देवैः साध्यैश्च ब्राह्मणैश्च महर्षिभिः ।\nआपत्सु मरणाद्भीतैर्लिङ्गप्रतिनिधिः कृतः ॥"
+          "text": "विश्वैस्तु देवैः साध्यैश्च ब्राह्मणैश्च महर्षिभिः ।\nआपत्सु मरणाद्भीतैर्लिङ्गप्रतिनिधिः कृतः ॥",
+          "meaning": {
+            "en": "The Vishvedevas, Sadhyas, brahmins and great seers, afraid of death in times of distress, have allowed substitute rules."
+          }
         },
         {
           "n": 16,
-          "text": "प्रभुः प्रथमकल्पस्य योऽनुकल्पेन वर्तते ।\nन सांपरायिकं तस्य दुर्मतेर्विद्यते फलम् ॥"
+          "text": "प्रभुः प्रथमकल्पस्य योऽनुकल्पेन वर्तते ।\nन सांपरायिकं तस्य दुर्मतेर्विद्यते फलम् ॥",
+          "meaning": {
+            "en": "One able to follow the first rule who follows a substitute gains no fruit in the next world; his mind is bad."
+          }
         },
         {
           "n": 17,
-          "text": "न ब्राह्मणान्वेदयेत कश्चिद्राजनि मानवः ।\nअवीर्यो वेदनाद्विद्यात्सुवीर्यो वीर्यवत्तरम् ॥"
+          "text": "न ब्राह्मणान्वेदयेत कश्चिद्राजनि मानवः ।\nअवीर्यो वेदनाद्विद्यात्सुवीर्यो वीर्यवत्तरम् ॥",
+          "meaning": {
+            "en": "No man should inform against brahmins to the king; a weak man who informs knows it, and a strong one more strongly."
+          }
         },
         {
           "n": 18,
-          "text": "तस्माद्राज्ञा सदा तेजो दुःसहं ब्रह्मवादिनाम् ।\nमन्ता शास्ता विधाता च ब्राह्मणो देव उच्यते ।\nतस्मिन्नाकुशलं ब्रूयान्न शुक्तामीरयेद्गिरम् ॥"
+          "text": "तस्माद्राज्ञा सदा तेजो दुःसहं ब्रह्मवादिनाम् ।\nमन्ता शास्ता विधाता च ब्राह्मणो देव उच्यते ।\nतस्मिन्नाकुशलं ब्रूयान्न शुक्तामीरयेद्गिरम् ॥",
+          "meaning": {
+            "en": "Hence the king should respect the unbearable power of those who speak of Brahman. The brahmin is called a god: thinker, ruler and ordainer. One should never speak ill of him or utter sour words against him."
+          }
         },
         {
           "n": 19,
-          "text": "क्षत्रियो बाहुवीर्येण तरत्यापदमात्मनः ।\nधनेन वैश्यः शूद्रश्च मन्त्रैर्होमैश्च वै द्विजः ॥"
+          "text": "क्षत्रियो बाहुवीर्येण तरत्यापदमात्मनः ।\nधनेन वैश्यः शूद्रश्च मन्त्रैर्होमैश्च वै द्विजः ॥",
+          "meaning": {
+            "en": "A kshatriya crosses his own distress by the strength of his arms, a vaishya and a shudra by wealth, and a twice-born by mantras and offerings."
+          }
         },
         {
           "n": 20,
-          "text": "न वै कन्या न युवतिर्नामन्त्रो न च बालिशः ।\nपरिवेष्टाग्निहोत्रस्य भवेन्नासंस्कृतस्तथा ।\nनरके निपतन्त्येते जुह्वानाः स च यस्य तत् ॥"
+          "text": "न वै कन्या न युवतिर्नामन्त्रो न च बालिशः ।\nपरिवेष्टाग्निहोत्रस्य भवेन्नासंस्कृतस्तथा ।\nनरके निपतन्त्येते जुह्वानाः स च यस्य तत् ॥",
+          "meaning": {
+            "en": "A girl, a young woman, one without mantras, a fool, or an unconsecrated person should not serve the fire-rite. Those who offer and the one whose rite it is fall into hell."
+          }
         },
         {
           "n": 21,
-          "text": "प्राजापत्यमदत्त्वाश्वमग्न्याधेयस्य दक्षिणाम् ।\nअनाहिताग्निरिति स प्रोच्यते धर्मदर्शिभिः ॥"
+          "text": "प्राजापत्यमदत्त्वाश्वमग्न्याधेयस्य दक्षिणाम् ।\nअनाहिताग्निरिति स प्रोच्यते धर्मदर्शिभिः ॥",
+          "meaning": {
+            "en": "One who has not given the Prajapati horse as the fee for setting up the fires is called one without fires by those who know dharma."
+          }
         },
         {
           "n": 22,
-          "text": "पुण्यान्यन्यानि कुर्वीत श्रद्दधानो जितेन्द्रियः ।\nअनाप्तदक्षिणैर्यज्ञैर्न यजेत कथंचन ॥"
+          "text": "पुण्यान्यन्यानि कुर्वीत श्रद्दधानो जितेन्द्रियः ।\nअनाप्तदक्षिणैर्यज्ञैर्न यजेत कथंचन ॥",
+          "meaning": {
+            "en": "A believing man in control of his senses should perform other good works, but never sacrifice with rites whose fees cannot be obtained."
+          }
         },
         {
           "n": 23,
-          "text": "प्रजाः पशूंश्च स्वर्गं च हन्ति यज्ञो ह्यदक्षिणः ।\nइन्द्रियाणि यशः कीर्तिमायुश्चास्योपकृन्तति ॥"
+          "text": "प्रजाः पशूंश्च स्वर्गं च हन्ति यज्ञो ह्यदक्षिणः ।\nइन्द्रियाणि यशः कीर्तिमायुश्चास्योपकृन्तति ॥",
+          "meaning": {
+            "en": "A sacrifice without fees destroys offspring, cattle and heaven; it cuts away the man's senses, fame, renown and life."
+          }
         },
         {
           "n": 24,
-          "text": "उदक्या ह्यासते ये च ये च केचिदनग्नयः ।\nकुलं चाश्रोत्रियं येषां सर्वे ते शूद्रधर्मिणः ॥"
+          "text": "उदक्या ह्यासते ये च ये च केचिदनग्नयः ।\nकुलं चाश्रोत्रियं येषां सर्वे ते शूद्रधर्मिणः ॥",
+          "meaning": {
+            "en": "Those who sit with a menstruating woman, those who keep no fires, and those whose families have no learned brahmin all follow a shudra's dharma."
+          }
         },
         {
           "n": 25,
-          "text": "उदपानोदके ग्रामे ब्राह्मणो वृषलीपतिः ।\nउषित्वा द्वादश समाः शूद्रकर्मेह गच्छति ॥"
+          "text": "उदपानोदके ग्रामे ब्राह्मणो वृषलीपतिः ।\nउषित्वा द्वादश समाः शूद्रकर्मेह गच्छति ॥",
+          "meaning": {
+            "en": "A brahmin who lives in a village with a well and is the husband of a shudra woman goes to a shudra's condition here after twelve years."
+          }
         },
         {
           "n": 26,
-          "text": "अनार्यां शयने बिभ्रदुज्झन्बिभ्रच्च यो द्विजाम् ।\nअब्राह्मणो मन्यमानस्तृणेष्वासीत पृष्ठतः ।\nतथा स शुध्यते राजञ्शृणु चात्र वचो मम ॥"
+          "text": "अनार्यां शयने बिभ्रदुज्झन्बिभ्रच्च यो द्विजाम् ।\nअब्राह्मणो मन्यमानस्तृणेष्वासीत पृष्ठतः ।\nतथा स शुध्यते राजञ्शृणु चात्र वचो मम ॥",
+          "meaning": {
+            "en": "One who keeps a low woman in his bed, or abandons or keeps a brahmin woman, and thinks himself no brahmin, should sit on grass with his back to it. Thus he is purified, king; hear my words on this."
+          }
         },
         {
           "n": 27,
-          "text": "यदेकरात्रेण करोति पापं\nकृष्णं वर्णं ब्राह्मणः सेवमानः ।\nस्थानासनाभ्यां विचरन्व्रती सं-\nस्त्रिभिर्वर्षैः शमयेदात्मपापम् ॥"
+          "text": "यदेकरात्रेण करोति पापं\nकृष्णं वर्णं ब्राह्मणः सेवमानः ।\nस्थानासनाभ्यां विचरन्व्रती सं-\nस्त्रिभिर्वर्षैः शमयेदात्मपापम् ॥",
+          "meaning": {
+            "en": "The sin that a brahmin commits in one night by serving a dark woman he should remove in three years, living by vow, standing and sitting through the day."
+          }
         },
         {
           "n": 28,
-          "text": "न नर्मयुक्तं वचनं हिनस्ति\nन स्त्रीषु राजन्न विवाहकाले ।\nन गुर्वर्थे नात्मनो जीवितार्थे\nपञ्चानृतान्याहुरपातकानि ॥"
+          "text": "न नर्मयुक्तं वचनं हिनस्ति\nन स्त्रीषु राजन्न विवाहकाले ।\nन गुर्वर्थे नात्मनो जीवितार्थे\nपञ्चानृतान्याहुरपातकानि ॥",
+          "meaning": {
+            "en": "Five untruths are said to be without sin: words spoken in jest, with women, at a wedding, for a teacher's sake, and to save one's own life."
+          }
         },
         {
           "n": 29,
-          "text": "श्रद्दधानः शुभां विद्यां हीनादपि समाचरेत् ।\nसुवर्णमपि चामेध्यादाददीतेति धारणा ॥"
+          "text": "श्रद्दधानः शुभां विद्यां हीनादपि समाचरेत् ।\nसुवर्णमपि चामेध्यादाददीतेति धारणा ॥",
+          "meaning": {
+            "en": "A believing man may learn good knowledge even from a low person, and take gold even from filth; this is the held view."
+          }
         },
         {
           "n": 30,
-          "text": "स्त्रीरत्नं दुष्कुलाच्चापि विषादप्यमृतं पिबेत् ।\nअदुष्टा हि स्त्रियो रत्नमाप इत्येव धर्मतः ॥"
+          "text": "स्त्रीरत्नं दुष्कुलाच्चापि विषादप्यमृतं पिबेत् ।\nअदुष्टा हि स्त्रियो रत्नमाप इत्येव धर्मतः ॥",
+          "meaning": {
+            "en": "One may take a jewel of a wife even from a bad family, and drink nectar even from poison; for blameless women are jewels, like water, by dharma."
+          }
         },
         {
           "n": 31,
-          "text": "गोब्राह्मणहितार्थं च वर्णानां संकरेषु च ।\nगृह्णीयात्तु धनुर्वैश्यः परित्राणाय चात्मनः ॥"
+          "text": "गोब्राह्मणहितार्थं च वर्णानां संकरेषु च ।\nगृह्णीयात्तु धनुर्वैश्यः परित्राणाय चात्मनः ॥",
+          "meaning": {
+            "en": "For the good of cows and brahmins, when classes are mixed, and to protect himself, a vaishya may take up the bow."
+          }
         },
         {
           "n": 32,
-          "text": "सुरापानं ब्रह्महत्या गुरुतल्पमथापि वा ।\nअनिर्देश्यानि मन्यन्ते प्राणान्तानीति धारणा ॥"
+          "text": "सुरापानं ब्रह्महत्या गुरुतल्पमथापि वा ।\nअनिर्देश्यानि मन्यन्ते प्राणान्तानीति धारणा ॥",
+          "meaning": {
+            "en": "Drinking liquor, killing a brahmin, and lying with a teacher's wife are held to be beyond any prescribed atonement, ending only in death."
+          }
         },
         {
           "n": 33,
-          "text": "सुवर्णहरणं स्तैन्यं विप्रासङ्गश्च पातकम् ।\nविहरन्मद्यपानं चाप्यगम्यागमनं तथा ॥"
+          "text": "सुवर्णहरणं स्तैन्यं विप्रासङ्गश्च पातकम् ।\nविहरन्मद्यपानं चाप्यगम्यागमनं तथा ॥",
+          "meaning": {
+            "en": "Stealing gold, theft, association with brahmins' wives, drinking liquor while living at ease, and approaching a forbidden woman are sins."
+          }
         },
         {
           "n": 34,
-          "text": "पतितैः संप्रयोगाच्च ब्राह्मणैर्योनितस्तथा ।\nअचिरेण महाराज तादृशो वै भवत्युत ॥"
+          "text": "पतितैः संप्रयोगाच्च ब्राह्मणैर्योनितस्तथा ।\nअचिरेण महाराज तादृशो वै भवत्युत ॥",
+          "meaning": {
+            "en": "By keeping company with the fallen, and by birth or marriage ties among brahmins, a man soon becomes such a one himself, great king."
+          }
         },
         {
           "n": 35,
-          "text": "संवत्सरेण पतति पतितेन सहाचरन् ।\nयाजनाध्यापनाद्यौनान्न तु यानासनाशनात् ॥"
+          "text": "संवत्सरेण पतति पतितेन सहाचरन् ।\nयाजनाध्यापनाद्यौनान्न तु यानासनाशनात् ॥",
+          "meaning": {
+            "en": "One who lives with a fallen man falls within a year through officiating, teaching or marriage, but not through riding, sitting or eating together."
+          }
         },
         {
           "n": 36,
-          "text": "एतानि च ततोऽन्यानि निर्देश्यानीति धारणा ।\nनिर्देश्यकेन विधिना कालेनाव्यसनी भवेत् ॥"
+          "text": "एतानि च ततोऽन्यानि निर्देश्यानीति धारणा ।\nनिर्देश्यकेन विधिना कालेनाव्यसनी भवेत् ॥",
+          "meaning": {
+            "en": "These and others are held to need prescribed atonement; by the rule laid down, in time he is freed from affliction."
+          }
         },
         {
           "n": 37,
-          "text": "अन्नं तिर्यङ्न होतव्यं प्रेतकर्मण्यपातिते ।\nत्रिषु त्वेतेषु पूर्वेषु न कुर्वीत विचारणाम् ॥"
+          "text": "अन्नं तिर्यङ्न होतव्यं प्रेतकर्मण्यपातिते ।\nत्रिषु त्वेतेषु पूर्वेषु न कुर्वीत विचारणाम् ॥",
+          "meaning": {
+            "en": "Food should not be offered crosswise in a funeral rite when the corpse has not fallen; in the first three of these cases no deliberation is required."
+          }
         },
         {
           "n": 38,
-          "text": "अमात्यान्वा गुरून्वापि जह्याद्धर्मेण धार्मिकः ।\nप्रायश्चित्तमकुर्वाणैर्नैतैरर्हति संविदम् ॥"
+          "text": "अमात्यान्वा गुरून्वापि जह्याद्धर्मेण धार्मिकः ।\nप्रायश्चित्तमकुर्वाणैर्नैतैरर्हति संविदम् ॥",
+          "meaning": {
+            "en": "A righteous man may, by dharma, forsake ministers or teachers; with those who do not perform atonement he should not associate."
+          }
         },
         {
           "n": 39,
-          "text": "अधर्मकारी धर्मेण तपसा हन्ति किल्बिषम् ।\nब्रुवन्स्तेन इति स्तेनं तावत्प्राप्नोति किल्बिषम् ।\nअस्तेनं स्तेन इत्युक्त्वा द्विगुणं पापमाप्नुयात् ॥"
+          "text": "अधर्मकारी धर्मेण तपसा हन्ति किल्बिषम् ।\nब्रुवन्स्तेन इति स्तेनं तावत्प्राप्नोति किल्बिषम् ।\nअस्तेनं स्तेन इत्युक्त्वा द्विगुणं पापमाप्नुयात् ॥",
+          "meaning": {
+            "en": "A wrongdoer destroys his sin by dharma and austerity. One who calls a thief a thief takes on that much sin, but one who calls an innocent man a thief takes on double the sin."
+          }
         },
         {
           "n": 40,
-          "text": "त्रिभागं ब्रह्महत्यायाः कन्या प्राप्नोति दुष्यती ।\nयस्तु दूषयिता तस्याः शेषं प्राप्नोति किल्बिषम् ॥"
+          "text": "त्रिभागं ब्रह्महत्यायाः कन्या प्राप्नोति दुष्यती ।\nयस्तु दूषयिता तस्याः शेषं प्राप्नोति किल्बिषम् ॥",
+          "meaning": {
+            "en": "A girl who is corrupted takes a third of the sin of brahmin-killing; the one who corrupted her takes the rest."
+          }
         },
         {
           "n": 41,
-          "text": "ब्राह्मणायावगूर्येह स्पृष्ट्वा गुरुतरं भवेत् ।\nवर्षाणां हि शतं पापः प्रतिष्ठां नाधिगच्छति ॥"
+          "text": "ब्राह्मणायावगूर्येह स्पृष्ट्वा गुरुतरं भवेत् ।\nवर्षाणां हि शतं पापः प्रतिष्ठां नाधिगच्छति ॥",
+          "meaning": {
+            "en": "Raising a weapon at a brahmin, or touching him, makes the sin heavier: the sinner finds no firm ground for a hundred years."
+          }
         },
         {
           "n": 42,
-          "text": "सहस्रं त्वेव वर्षाणां निपात्य नरके वसेत् ।\nतस्मान्नैवावगूर्याद्धि नैव जातु निपातयेत् ॥"
+          "text": "सहस्रं त्वेव वर्षाणां निपात्य नरके वसेत् ।\nतस्मान्नैवावगूर्याद्धि नैव जातु निपातयेत् ॥",
+          "meaning": {
+            "en": "One who strikes a brahmin down lives in hell for a thousand years; therefore one should never raise a weapon against a brahmin or strike him down."
+          }
         },
         {
           "n": 43,
-          "text": "शोणितं यावतः पांसून्संगृह्णीयाद्द्विजक्षतात् ।\nतावतीः स समा राजन्नरके परिवर्तते ॥"
+          "text": "शोणितं यावतः पांसून्संगृह्णीयाद्द्विजक्षतात् ।\nतावतीः स समा राजन्नरके परिवर्तते ॥",
+          "meaning": {
+            "en": "For as many grains of dust as the blood of a wounded brahmin gathers, king, so many years that man turns about in hell."
+          }
         },
         {
           "n": 44,
-          "text": "भ्रूणहाहवमध्ये तु शुध्यते शस्त्रपातितः ।\nआत्मानं जुहुयाद्वह्नौ समिद्धे तेन शुध्यति ॥"
+          "text": "भ्रूणहाहवमध्ये तु शुध्यते शस्त्रपातितः ।\nआत्मानं जुहुयाद्वह्नौ समिद्धे तेन शुध्यति ॥",
+          "meaning": {
+            "en": "The slayer of an embryo is purified when struck down by weapons in the midst of battle, or by offering himself in a blazing fire."
+          }
         },
         {
           "n": 45,
-          "text": "सुरापो वारुणीमुष्णां पीत्वा पापाद्विमुच्यते ।\nतया स काये निर्दग्धे मृत्युना प्रेत्य शुध्यति ।\nलोकांश्च लभते विप्रो नान्यथा लभते हि सः ॥"
+          "text": "सुरापो वारुणीमुष्णां पीत्वा पापाद्विमुच्यते ।\nतया स काये निर्दग्धे मृत्युना प्रेत्य शुध्यति ।\nलोकांश्च लभते विप्रो नान्यथा लभते हि सः ॥",
+          "meaning": {
+            "en": "A liquor-drinker is freed from sin by drinking hot liquor; when his body is burnt by it, he is purified by death. The brahmin then gains the worlds; he gains them in no other way."
+          }
         },
         {
           "n": 46,
-          "text": "गुरुतल्पमधिष्ठाय दुरात्मा पापचेतनः ।\nसूर्मीं ज्वलन्तीमाश्लिष्य मृत्युना स विशुध्यति ॥"
+          "text": "गुरुतल्पमधिष्ठाय दुरात्मा पापचेतनः ।\nसूर्मीं ज्वलन्तीमाश्लिष्य मृत्युना स विशुध्यति ॥",
+          "meaning": {
+            "en": "A wicked-minded man who has defiled a teacher's bed is purified by death, embracing a glowing iron figure."
+          }
         },
         {
           "n": 47,
-          "text": "अथ वा शिश्नवृषणावादायाञ्जलिना स्वयम् ।\nनैरृतीं दिशमास्थाय निपतेत्स त्वजिह्मगः ॥"
+          "text": "अथ वा शिश्नवृषणावादायाञ्जलिना स्वयम् ।\nनैरृतीं दिशमास्थाय निपतेत्स त्वजिह्मगः ॥",
+          "meaning": {
+            "en": "Or he may take his own organ and testicles in his joined hands, face the south-west, and go straight on until he falls."
+          }
         },
         {
           "n": 48,
-          "text": "ब्राह्मणार्थेऽपि वा प्राणान्संत्यजेत्तेन शुध्यति ।\nअश्वमेधेन वापीष्ट्वा गोमेधेनापि वा पुनः ।\nअग्निष्टोमेन वा सम्यगिह प्रेत्य च पूयते ॥"
+          "text": "ब्राह्मणार्थेऽपि वा प्राणान्संत्यजेत्तेन शुध्यति ।\nअश्वमेधेन वापीष्ट्वा गोमेधेनापि वा पुनः ।\nअग्निष्टोमेन वा सम्यगिह प्रेत्य च पूयते ॥",
+          "meaning": {
+            "en": "Or he may give up his life for a brahmin and be purified by that. Or by a horse sacrifice, a cow sacrifice or an Agnishtoma properly performed, he is cleansed here and hereafter."
+          }
         },
         {
           "n": 49,
-          "text": "तथैव द्वादश समाः कपाली ब्रह्महा भवेत् ।\nब्रह्मचारी चरेद्भैक्षं स्वकर्मोदाहरन्मुनिः ॥"
+          "text": "तथैव द्वादश समाः कपाली ब्रह्महा भवेत् ।\nब्रह्मचारी चरेद्भैक्षं स्वकर्मोदाहरन्मुनिः ॥",
+          "meaning": {
+            "en": "So too a brahmin-killer should live twelve years with a skull as his bowl, a celibate begging, proclaiming his own deed, as a silent sage."
+          }
         },
         {
           "n": 50,
-          "text": "एवं वा तपसा युक्तो ब्रह्महा सवनी भवेत् ।\nएवं वा गर्भमज्ञाता चात्रेयीं योऽभिगच्छति ।\nद्विगुणा ब्रह्महत्या वै आत्रेयीव्यसने भवेत् ॥"
+          "text": "एवं वा तपसा युक्तो ब्रह्महा सवनी भवेत् ।\nएवं वा गर्भमज्ञाता चात्रेयीं योऽभिगच्छति ।\nद्विगुणा ब्रह्महत्या वै आत्रेयीव्यसने भवेत् ॥",
+          "meaning": {
+            "en": "Or, practising austerity, a brahmin-killer may become a sacrificer. One who unknowingly approaches a woman of Atri's line who is with child commits twice the sin of brahmin-killing in the offence against an Atreyi."
+          }
         },
         {
           "n": 51,
-          "text": "सुरापो नियताहारो ब्रह्मचारी क्षमाचरः ।\nऊर्ध्वं त्रिभ्योऽथ वर्षेभ्यो यजेताग्निष्टुता परम् ।\nऋषभैकसहस्रं गा दत्त्वा शुभमवाप्नुयात् ॥"
+          "text": "सुरापो नियताहारो ब्रह्मचारी क्षमाचरः ।\nऊर्ध्वं त्रिभ्योऽथ वर्षेभ्यो यजेताग्निष्टुता परम् ।\nऋषभैकसहस्रं गा दत्त्वा शुभमवाप्नुयात् ॥",
+          "meaning": {
+            "en": "A liquor-drinker, restrained in diet, celibate and patient, after three years should perform the Agnishtut sacrifice, and by giving a thousand cows with one bull he gains the good."
+          }
         },
         {
           "n": 52,
-          "text": "वैश्यं हत्वा तु वर्षे द्वे ऋषभैकशताश्च गाः ।\nशूद्रं हत्वाब्दमेवैकमृषभैकादशाश्च गाः ॥"
+          "text": "वैश्यं हत्वा तु वर्षे द्वे ऋषभैकशताश्च गाः ।\nशूद्रं हत्वाब्दमेवैकमृषभैकादशाश्च गाः ॥",
+          "meaning": {
+            "en": "For killing a vaishya the penance is two years and a hundred cows with one bull; for killing a shudra, one year and ten cows with one bull."
+          }
         },
         {
           "n": 53,
-          "text": "श्वबर्बरखरान्हत्वा शौद्रमेव व्रतं चरेत् ।\nमार्जारचाषमण्डूकान्काकं भासं च मूषकम् ॥"
+          "text": "श्वबर्बरखरान्हत्वा शौद्रमेव व्रतं चरेत् ।\nमार्जारचाषमण्डूकान्काकं भासं च मूषकम् ॥",
+          "meaning": {
+            "en": "For killing a dog, a barbarian or a donkey, he should keep a shudra's vow; likewise for a cat, a blue jay, a frog, a crow, a vulture or a rat."
+          }
         },
         {
           "n": 54,
-          "text": "उक्तः पशुसमो धर्मो राजन्प्राणिनिपातनात् ।\nप्रायश्चित्तान्यथान्यानि प्रवक्ष्याम्यनुपूर्वशः ॥"
+          "text": "उक्तः पशुसमो धर्मो राजन्प्राणिनिपातनात् ।\nप्रायश्चित्तान्यथान्यानि प्रवक्ष्याम्यनुपूर्वशः ॥",
+          "meaning": {
+            "en": "King, the law for killing creatures is said to equal that for cattle. Now I shall tell you other atonements in order."
+          }
         },
         {
           "n": 55,
-          "text": "तल्पे चान्यस्य चौर्ये च पृथक्संवत्सरं चरेत् ।\nत्रीणि श्रोत्रियभार्यायां परदारे तु द्वे स्मृते ॥"
+          "text": "तल्पे चान्यस्य चौर्ये च पृथक्संवत्सरं चरेत् ।\nत्रीणि श्रोत्रियभार्यायां परदारे तु द्वे स्मृते ॥",
+          "meaning": {
+            "en": "For stealing another's bed, and for theft, he should observe it for a year each; three years for the wife of a learned brahmin, and two for another man's wife."
+          }
         },
         {
           "n": 56,
-          "text": "काले चतुर्थे भुञ्जानो ब्रह्मचारी व्रती भवेत् ।\nस्थानासनाभ्यां विहरेत्त्रिरह्नोऽभ्युदितादपः ।\nएवमेव निराचान्तो यश्चाग्नीनपविध्यति ॥"
+          "text": "काले चतुर्थे भुञ्जानो ब्रह्मचारी व्रती भवेत् ।\nस्थानासनाभ्यां विहरेत्त्रिरह्नोऽभ्युदितादपः ।\nएवमेव निराचान्तो यश्चाग्नीनपविध्यति ॥",
+          "meaning": {
+            "en": "He should eat at the fourth mealtime, as a celibate under vow, spending the days standing and sitting, and for three days taking water at sunrise. The same applies to one who abandons his fires."
+          }
         },
         {
           "n": 57,
-          "text": "त्यजत्यकारणे यश्च पितरं मातरं तथा ।\nपतितः स्यात्स कौरव्य तथा धर्मेषु निश्चयः ॥"
+          "text": "त्यजत्यकारणे यश्च पितरं मातरं तथा ।\nपतितः स्यात्स कौरव्य तथा धर्मेषु निश्चयः ॥",
+          "meaning": {
+            "en": "One who abandons his father and mother without cause is fallen, descendant of Kuru; so is the rule in dharma."
+          }
         },
         {
           "n": 58,
-          "text": "ग्रासाच्छादनमत्यर्थं दद्यादिति निदर्शनम् ।\nभार्यायां व्यभिचारिण्यां निरुद्धायां विशेषतः ।\nयत्पुंसां परदारेषु तच्चैनां चारयेद्व्रतम् ॥"
+          "text": "ग्रासाच्छादनमत्यर्थं दद्यादिति निदर्शनम् ।\nभार्यायां व्यभिचारिण्यां निरुद्धायां विशेषतः ।\nयत्पुंसां परदारेषु तच्चैनां चारयेद्व्रतम् ॥",
+          "meaning": {
+            "en": "As an example, one should give a wife who has strayed food and clothing, and especially if confined; whatever vow men follow for lying with others' wives, she should follow it."
+          }
         },
         {
           "n": 59,
-          "text": "श्रेयांसं शयने हित्वा या पापीयांसमृच्छति ।\nश्वभिस्तां खादयेद्राजा संस्थाने बहुसंवृते ॥"
+          "text": "श्रेयांसं शयने हित्वा या पापीयांसमृच्छति ।\nश्वभिस्तां खादयेद्राजा संस्थाने बहुसंवृते ॥",
+          "meaning": {
+            "en": "A woman who leaves a better man in her bed for a worse should be devoured by dogs, the king having her put in a crowded public place."
+          }
         },
         {
           "n": 60,
-          "text": "पुमांसं बन्धयेत्प्राज्ञः शयने तप्त आयसे ।\nअप्यादधीत दारूणि तत्र दह्येत पापकृत् ॥"
+          "text": "पुमांसं बन्धयेत्प्राज्ञः शयने तप्त आयसे ।\nअप्यादधीत दारूणि तत्र दह्येत पापकृत् ॥",
+          "meaning": {
+            "en": "The wise king should bind the man on a heated iron bed and lay wood on it; there the evildoer should be burnt."
+          }
         },
         {
           "n": 61,
-          "text": "एष दण्डो महाराज स्त्रीणां भर्तृव्यतिक्रमे ।\nसंवत्सराभिशस्तस्य दुष्टस्य द्विगुणो भवेत् ॥"
+          "text": "एष दण्डो महाराज स्त्रीणां भर्तृव्यतिक्रमे ।\nसंवत्सराभिशस्तस्य दुष्टस्य द्विगुणो भवेत् ॥",
+          "meaning": {
+            "en": "This, great king, is the punishment for women who betray their husbands; for a wrongdoer accused for a year it is doubled."
+          }
         },
         {
           "n": 62,
-          "text": "द्वे तस्य त्रीणि वर्षाणि चत्वारि सहसेविनः ।\nकुचरः पञ्च वर्षाणि चरेद्भैक्षं मुनिव्रतः ॥"
+          "text": "द्वे तस्य त्रीणि वर्षाणि चत्वारि सहसेविनः ।\nकुचरः पञ्च वर्षाणि चरेद्भैक्षं मुनिव्रतः ॥",
+          "meaning": {
+            "en": "For him it is two or three years; four for one who lives with her; a wanderer who strays should beg for five years as a silent sage."
+          }
         },
         {
           "n": 63,
-          "text": "परिवित्तिः परिवेत्ता यया च परिविद्यते ।\nपाणिग्राहश्च धर्मेण सर्वे ते पतिताः स्मृताः ॥"
+          "text": "परिवित्तिः परिवेत्ता यया च परिविद्यते ।\nपाणिग्राहश्च धर्मेण सर्वे ते पतिताः स्मृताः ॥",
+          "meaning": {
+            "en": "The younger brother who marries first, the elder who is passed over, the woman involved, and the one who weds her are all said to be fallen."
+          }
         },
         {
           "n": 64,
-          "text": "चरेयुः सर्व एवैते वीरहा यद्व्रतं चरेत् ।\nचान्द्रायणं चरेन्मासं कृच्छ्रं वा पापशुद्धये ॥"
+          "text": "चरेयुः सर्व एवैते वीरहा यद्व्रतं चरेत् ।\nचान्द्रायणं चरेन्मासं कृच्छ्रं वा पापशुद्धये ॥",
+          "meaning": {
+            "en": "All of them should perform the penance of a hero-killer, the lunar vow for a month, or the hard penance, for purification from sin."
+          }
         },
         {
           "n": 65,
-          "text": "परिवेत्ता प्रयच्छेत परिवित्ताय तां स्नुषाम् ।\nज्येष्ठेन त्वभ्यनुज्ञातो यवीयान्प्रत्यनन्तरम् ।\nएनसो मोक्षमाप्नोति सा च तौ चैव धर्मतः ॥"
+          "text": "परिवेत्ता प्रयच्छेत परिवित्ताय तां स्नुषाम् ।\nज्येष्ठेन त्वभ्यनुज्ञातो यवीयान्प्रत्यनन्तरम् ।\nएनसो मोक्षमाप्नोति सा च तौ चैव धर्मतः ॥",
+          "meaning": {
+            "en": "The younger brother should hand his wife over to the elder as a daughter-in-law, with the permission of the eldest and the next in order. By dharma the woman and both men are freed from sin."
+          }
         },
         {
           "n": 66,
-          "text": "अमानुषीषु गोवर्जमनावृष्टिर्न दुष्यति ।\nअधिष्ठातारमत्तारं पशूनां पुरुषं विदुः ॥"
+          "text": "अमानुषीषु गोवर्जमनावृष्टिर्न दुष्यति ।\nअधिष्ठातारमत्तारं पशूनां पुरुषं विदुः ॥",
+          "meaning": {
+            "en": "With non-human females, apart from cows, sin does not stain, nor lack of rain; the man is known as the master and consumer of cattle."
+          }
         },
         {
           "n": 67,
-          "text": "परिधायोर्ध्ववालं तु पात्रमादाय मृन्मयम् ।\nचरेत्सप्त गृहान्भैक्षं स्वकर्म परिकीर्तयन् ॥"
+          "text": "परिधायोर्ध्ववालं तु पात्रमादाय मृन्मयम् ।\nचरेत्सप्त गृहान्भैक्षं स्वकर्म परिकीर्तयन् ॥",
+          "meaning": {
+            "en": "Wearing a cloth with the hair tied up, taking an earthen bowl, he should beg at seven houses, proclaiming his own deed."
+          }
         },
         {
           "n": 68,
-          "text": "तत्रैव लब्धभोजी स्याद्द्वादशाहात्स शुध्यति ।\nचरेत्संवत्सरं चापि तद्व्रतं यन्निराकृति ॥"
+          "text": "तत्रैव लब्धभोजी स्याद्द्वादशाहात्स शुध्यति ।\nचरेत्संवत्सरं चापि तद्व्रतं यन्निराकृति ॥",
+          "meaning": {
+            "en": "There he should live on what he receives and is purified in twelve days; or he should observe that vow for a year if the deed was one he cannot atone for."
+          }
         },
         {
           "n": 69,
-          "text": "भवेत्तु मानुषेष्वेवं प्रायश्चित्तमनुत्तमम् ।\nदानं वादानसक्तेषु सर्वमेव प्रकल्पयेत् ।\nअनास्तिकेषु गोमात्रं प्राणमेकं प्रचक्षते ॥"
+          "text": "भवेत्तु मानुषेष्वेवं प्रायश्चित्तमनुत्तमम् ।\nदानं वादानसक्तेषु सर्वमेव प्रकल्पयेत् ।\nअनास्तिकेषु गोमात्रं प्राणमेकं प्रचक्षते ॥",
+          "meaning": {
+            "en": "Among human beings this is the best atonement; gifts should be arranged in full for those attached to taking; for those without faith, a cow alone is said to be one life."
+          }
         },
         {
           "n": 70,
-          "text": "श्ववराहमनुष्याणां कुक्कुटस्य खरस्य च ।\nमांसं मूत्रपुरीषं च प्राश्य संस्कारमर्हति ॥"
+          "text": "श्ववराहमनुष्याणां कुक्कुटस्य खरस्य च ।\nमांसं मूत्रपुरीषं च प्राश्य संस्कारमर्हति ॥",
+          "meaning": {
+            "en": "One who eats the flesh, urine or dung of a dog, pig, human, fowl or donkey needs purification."
+          }
         },
         {
           "n": 71,
-          "text": "ब्राह्मणस्य सुरापस्य गन्धमाघ्राय सोमपः ।\nअपस्त्र्यहं पिबेदुष्णास्त्र्यहमुष्णं पयः पिबेत् ।\nत्र्यहमुष्णं घृतं पीत्वा वायुभक्षो भवेत्त्र्यहम् ॥"
+          "text": "ब्राह्मणस्य सुरापस्य गन्धमाघ्राय सोमपः ।\nअपस्त्र्यहं पिबेदुष्णास्त्र्यहमुष्णं पयः पिबेत् ।\nत्र्यहमुष्णं घृतं पीत्वा वायुभक्षो भवेत्त्र्यहम् ॥",
+          "meaning": {
+            "en": "A soma-drinker who smells the breath of a brahmin who drinks liquor should drink hot water for three days, hot milk for three days, hot ghee for three days, and live on air for three days."
+          }
         },
         {
           "n": 72,
-          "text": "एवमेतत्समुद्दिष्टं प्रायश्चित्तं सनातनम् ।\nब्राह्मणस्य विशेषेण तत्त्वज्ञानेन जायते ॥"
+          "text": "एवमेतत्समुद्दिष्टं प्रायश्चित्तं सनातनम् ।\nब्राह्मणस्य विशेषेण तत्त्वज्ञानेन जायते ॥",
+          "meaning": {
+            "en": "Thus has been declared the eternal atonement, especially for a brahmin; it comes about through knowledge of the truth."
+          }
         }
       ]
     }

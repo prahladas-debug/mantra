@@ -22,109 +22,190 @@
       "titleEn": "Anushasanika Parva (The instructions)",
       "verses": [
         {
-          "text": "भीष्म उवाच"
+          "text": "भीष्म उवाच",
+          "meaning": {
+            "en": "Bhishma said:"
+          }
         },
         {
           "n": 1,
-          "text": "एतस्मिन्नेव काले तु वसिष्ठमृषिसत्तमम् ।\nइक्ष्वाकुवंशजो राजा सौदासो ददतां वरः ॥"
+          "text": "एतस्मिन्नेव काले तु वसिष्ठमृषिसत्तमम् ।\nइक्ष्वाकुवंशजो राजा सौदासो ददतां वरः ॥",
+          "meaning": {
+            "en": "At this very time, Saudasa, king born in Ikshvaku's line and best of givers, approached Vasishtha, the best of sages."
+          }
         },
         {
           "n": 2,
-          "text": "सर्वलोकचरं सिद्धं ब्रह्मकोशं सनातनम् ।\nपुरोहितमिदं प्रष्टुमभिवाद्योपचक्रमे ॥"
+          "text": "सर्वलोकचरं सिद्धं ब्रह्मकोशं सनातनम् ।\nपुरोहितमिदं प्रष्टुमभिवाद्योपचक्रमे ॥",
+          "meaning": {
+            "en": "He greeted his priest, the perfected sage who travels all worlds, the eternal treasury of Brahman, and began to ask him this."
+          }
         },
         {
-          "text": "सौदास उवाच"
+          "text": "सौदास उवाच",
+          "meaning": {
+            "en": "Saudasa said:"
+          }
         },
         {
           "n": 3,
-          "text": "त्रैलोक्ये भगवन्किं स्वित्पवित्रं कथ्यतेऽनघ ।\nयत्कीर्तयन्सदा मर्त्यः प्राप्नुयात्पुण्यमुत्तमम् ॥"
+          "text": "त्रैलोक्ये भगवन्किं स्वित्पवित्रं कथ्यतेऽनघ ।\nयत्कीर्तयन्सदा मर्त्यः प्राप्नुयात्पुण्यमुत्तमम् ॥",
+          "meaning": {
+            "en": "Blessed sir, sinless one, what in the three worlds is called most sacred, by always reciting which a mortal gains the highest merit?"
+          }
         },
         {
-          "text": "भीष्म उवाच"
+          "text": "भीष्म उवाच",
+          "meaning": {
+            "en": "Bhishma said:"
+          }
         },
         {
           "n": 4,
-          "text": "तस्मै प्रोवाच वचनं प्रणताय हितं तदा ।\nगवामुपनिषद्विद्वान्नमस्कृत्य गवां शुचिः ॥"
+          "text": "तस्मै प्रोवाच वचनं प्रणताय हितं तदा ।\nगवामुपनिषद्विद्वान्नमस्कृत्य गवां शुचिः ॥",
+          "meaning": {
+            "en": "To him, bowing, the learned sage then spoke beneficial words, himself pure and having bowed to the cows, about the secret teaching of the cows."
+          }
         },
         {
           "n": 5,
-          "text": "गावः सुरभिगन्धिन्यस्तथा गुग्गुलुगन्धिकाः ।\nगावः प्रतिष्ठा भूतानां गावः स्वस्त्ययनं महत् ॥"
+          "text": "गावः सुरभिगन्धिन्यस्तथा गुग्गुलुगन्धिकाः ।\nगावः प्रतिष्ठा भूतानां गावः स्वस्त्ययनं महत् ॥",
+          "meaning": {
+            "en": "Cows have the scent of sweet fragrance and of guggulu resin. Cows are the support of beings and a great blessing."
+          }
         },
         {
           "n": 6,
-          "text": "गावो भूतं भविष्यच्च गावः पुष्टिः सनातनी ।\nगावो लक्ष्म्यास्तथा मूलं गोषु दत्तं न नश्यति ।\nअन्नं हि सततं गावो देवानां परमं हविः ॥"
+          "text": "गावो भूतं भविष्यच्च गावः पुष्टिः सनातनी ।\nगावो लक्ष्म्यास्तथा मूलं गोषु दत्तं न नश्यति ।\nअन्नं हि सततं गावो देवानां परमं हविः ॥",
+          "meaning": {
+            "en": "Cows are the past and the future; cows are lasting nourishment. Cows are the root of Lakshmi; what is given to cows is never lost. Cows are food, and the highest oblation of the gods."
+          }
         },
         {
           "n": 7,
-          "text": "स्वाहाकारवषट्कारौ गोषु नित्यं प्रतिष्ठितौ ।\nगावो यज्ञस्य हि फलं गोषु यज्ञाः प्रतिष्ठिताः ॥"
+          "text": "स्वाहाकारवषट्कारौ गोषु नित्यं प्रतिष्ठितौ ।\nगावो यज्ञस्य हि फलं गोषु यज्ञाः प्रतिष्ठिताः ॥",
+          "meaning": {
+            "en": "The words svaha and vashat are ever established in cows. Cows are the fruit of sacrifice, and sacrifices rest on cows."
+          }
         },
         {
           "n": 8,
-          "text": "सायं प्रातश्च सततं होमकाले महामते ।\nगावो ददति वै होम्यमृषिभ्यः पुरुषर्षभ ॥"
+          "text": "सायं प्रातश्च सततं होमकाले महामते ।\nगावो ददति वै होम्यमृषिभ्यः पुरुषर्षभ ॥",
+          "meaning": {
+            "en": "O wise one, O best of men, morning and evening, at the time of the fire-offering, the cows constantly supply the sages with what is to be offered."
+          }
         },
         {
           "n": 9,
-          "text": "कानिचिद्यानि दुर्गाणि दुष्कृतानि कृतानि च ।\nतरन्ति चैव पाप्मानं धेनुं ये ददति प्रभो ॥"
+          "text": "कानिचिद्यानि दुर्गाणि दुष्कृतानि कृतानि च ।\nतरन्ति चैव पाप्मानं धेनुं ये ददति प्रभो ॥",
+          "meaning": {
+            "en": "Whatever hard passages and evil deeds there are, those who give a milch cow, my lord, cross over the sin."
+          }
         },
         {
           "n": 10,
-          "text": "एकां च दशगुर्दद्याद्दश दद्याच्च गोशती ।\nशतं सहस्रगुर्दद्यात्सर्वे तुल्यफला हि ते ॥"
+          "text": "एकां च दशगुर्दद्याद्दश दद्याच्च गोशती ।\nशतं सहस्रगुर्दद्यात्सर्वे तुल्यफला हि ते ॥",
+          "meaning": {
+            "en": "One with ten cows should give one; one with a hundred should give ten; one with a thousand should give a hundred: all of these have the same fruit."
+          }
         },
         {
           "n": 11,
-          "text": "अनाहिताग्निः शतगुरयज्वा च सहस्रगुः ।\nसमृद्धो यश्च कीनाशो नार्घ्यमर्हन्ति ते त्रयः ॥"
+          "text": "अनाहिताग्निः शतगुरयज्वा च सहस्रगुः ।\nसमृद्धो यश्च कीनाशो नार्घ्यमर्हन्ति ते त्रयः ॥",
+          "meaning": {
+            "en": "One with a hundred cows who keeps no sacred fire, one with a thousand who does not sacrifice, and a rich miser: these three are not worthy of the welcome-offering."
+          }
         },
         {
           "n": 12,
-          "text": "कपिलां ये प्रयच्छन्ति सवत्सां कांस्यदोहनाम् ।\nसुव्रतां वस्त्रसंवीतामुभौ लोकौ जयन्ति ते ॥"
+          "text": "कपिलां ये प्रयच्छन्ति सवत्सां कांस्यदोहनाम् ।\nसुव्रतां वस्त्रसंवीतामुभौ लोकौ जयन्ति ते ॥",
+          "meaning": {
+            "en": "Those who give a tawny cow with her calf, with a bronze milk pail, well-behaved and covered in cloth, win both worlds."
+          }
         },
         {
           "n": 13,
-          "text": "युवानमिन्द्रियोपेतं शतेन सह यूथपम् ।\nगवेन्द्रं ब्राह्मणेन्द्राय भूरिशृङ्गमलंकृतम् ॥"
+          "text": "युवानमिन्द्रियोपेतं शतेन सह यूथपम् ।\nगवेन्द्रं ब्राह्मणेन्द्राय भूरिशृङ्गमलंकृतम् ॥",
+          "meaning": {
+            "en": "A young bull, strong, leader of a herd with a hundred cows, lord of the cattle, with big horns and adorned, is to be given to the lord of brahmins."
+          }
         },
         {
           "n": 14,
-          "text": "वृषभं ये प्रयच्छन्ति श्रोत्रियाय परंतप ।\nऐश्वर्यं तेऽभिजायन्ते जायमानाः पुनः पुनः ॥"
+          "text": "वृषभं ये प्रयच्छन्ति श्रोत्रियाय परंतप ।\nऐश्वर्यं तेऽभिजायन्ते जायमानाः पुनः पुनः ॥",
+          "meaning": {
+            "en": "O scorcher of foes, those who give such a bull to a learned brahmin gain lordship, being born again and again."
+          }
         },
         {
           "n": 15,
-          "text": "नाकीर्तयित्वा गाः सुप्यान्नास्मृत्य पुनरुत्पतेत् ।\nसायं प्रातर्नमस्येच्च गास्ततः पुष्टिमाप्नुयात् ॥"
+          "text": "नाकीर्तयित्वा गाः सुप्यान्नास्मृत्य पुनरुत्पतेत् ।\nसायं प्रातर्नमस्येच्च गास्ततः पुष्टिमाप्नुयात् ॥",
+          "meaning": {
+            "en": "One should not sleep without praising the cows, nor rise again without remembering them. Morning and evening one should bow to the cows; thereby one gains prosperity."
+          }
         },
         {
           "n": 16,
-          "text": "गवां मूत्रपुरीषस्य नोद्विजेत कदाचन ।\nन चासां मांसमश्नीयाद्गवां व्युष्टिं तथाश्नुते ॥"
+          "text": "गवां मूत्रपुरीषस्य नोद्विजेत कदाचन ।\nन चासां मांसमश्नीयाद्गवां व्युष्टिं तथाश्नुते ॥",
+          "meaning": {
+            "en": "One should never be disgusted by the urine and dung of cows, and should not eat their flesh; thus one gains the cows' blessing."
+          }
         },
         {
           "n": 17,
-          "text": "गाश्च संकीर्तयेन्नित्यं नावमन्येत गास्तथा ।\nअनिष्टं स्वप्नमालक्ष्य गां नरः संप्रकीर्तयेत् ॥"
+          "text": "गाश्च संकीर्तयेन्नित्यं नावमन्येत गास्तथा ।\nअनिष्टं स्वप्नमालक्ष्य गां नरः संप्रकीर्तयेत् ॥",
+          "meaning": {
+            "en": "One should always praise the cows and never slight them. Seeing a bad dream, a man should recite the praise of the cow."
+          }
         },
         {
           "n": 18,
-          "text": "गोमयेन सदा स्नायाद्गोकरीषे च संविशेत् ।\nश्लेष्ममूत्रपुरीषाणि प्रतिघातं च वर्जयेत् ॥"
+          "text": "गोमयेन सदा स्नायाद्गोकरीषे च संविशेत् ।\nश्लेष्ममूत्रपुरीषाणि प्रतिघातं च वर्जयेत् ॥",
+          "meaning": {
+            "en": "One should always bathe with cow dung and sit on dried cow dung; one should avoid spitting phlegm, urine, and excrement, and abuse of them."
+          }
         },
         {
           "n": 19,
-          "text": "सार्द्रचर्मणि भुञ्जीत निरीक्षन्वारुणीं दिशम् ।\nवाग्यतः सर्पिषा भूमौ गवां व्युष्टिं तथाश्नुते ॥"
+          "text": "सार्द्रचर्मणि भुञ्जीत निरीक्षन्वारुणीं दिशम् ।\nवाग्यतः सर्पिषा भूमौ गवां व्युष्टिं तथाश्नुते ॥",
+          "meaning": {
+            "en": "One should eat sitting on a moist hide facing the western quarter, silent, with ghee, on the ground; thus one gains the cows' blessing."
+          }
         },
         {
           "n": 20,
-          "text": "घृतेन जुहुयादग्निं घृतेन स्वस्ति वाचयेत् ।\nघृतं दद्याद्घृतं प्राशेद्गवां व्युष्टिं तथाश्नुते ॥"
+          "text": "घृतेन जुहुयादग्निं घृतेन स्वस्ति वाचयेत् ।\nघृतं दद्याद्घृतं प्राशेद्गवां व्युष्टिं तथाश्नुते ॥",
+          "meaning": {
+            "en": "One should offer ghee into the fire, have blessings spoken with ghee, give ghee and eat ghee; thus one gains the cows' blessing."
+          }
         },
         {
           "n": 21,
-          "text": "गोमत्या विद्यया धेनुं तिलानामभिमन्त्र्य यः ।\nरसरत्नमयीं दद्यान्न स शोचेत्कृताकृते ॥"
+          "text": "गोमत्या विद्यया धेनुं तिलानामभिमन्त्र्य यः ।\nरसरत्नमयीं दद्यान्न स शोचेत्कृताकृते ॥",
+          "meaning": {
+            "en": "One who, with the Gomati spell, consecrates a cow made of sesame seeds and gives it, made of jewels and sweet essences, does not grieve over what was done or left undone."
+          }
         },
         {
           "n": 22,
-          "text": "गावो मामुपतिष्ठन्तु हेमशृङ्गाः पयोमुचः ।\nसुरभ्यः सौरभेयाश्च सरितः सागरं यथा ॥"
+          "text": "गावो मामुपतिष्ठन्तु हेमशृङ्गाः पयोमुचः ।\nसुरभ्यः सौरभेयाश्च सरितः सागरं यथा ॥",
+          "meaning": {
+            "en": "'May cows with golden horns, shedding milk, fragrant, the Saurabheyi cows, come to me, as rivers come to the sea."
+          }
         },
         {
           "n": 23,
-          "text": "गावः पश्यन्तु मां नित्यं गावः पश्याम्यहं तदा ।\nगावोऽस्माकं वयं तासां यतो गावस्ततो वयम् ॥"
+          "text": "गावः पश्यन्तु मां नित्यं गावः पश्याम्यहं तदा ।\nगावोऽस्माकं वयं तासां यतो गावस्ततो वयम् ॥",
+          "meaning": {
+            "en": "May the cows always look on me, and may I look on the cows. The cows are ours, and we are theirs; where the cows are, there we are.'"
+          }
         },
         {
           "n": 24,
-          "text": "एवं रात्रौ दिवा चैव समेषु विषमेषु च ।\nमहाभयेषु च नरः कीर्तयन्मुच्यते भयात् ॥"
+          "text": "एवं रात्रौ दिवा चैव समेषु विषमेषु च ।\nमहाभयेषु च नरः कीर्तयन्मुच्यते भयात् ॥",
+          "meaning": {
+            "en": "Thus a man who recites this by night and day, in smooth places and rough, and in great dangers is freed from fear."
+          }
         }
       ]
     }

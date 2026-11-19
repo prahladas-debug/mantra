@@ -22,77 +22,153 @@
       "titleEn": "Mokshadharma Parva (Duties for liberation)",
       "verses": [
         {
-          "text": "भृगुरुवाच"
+          "text": "भृगुरुवाच",
+          "meaning": {
+            "en": "Bhrigu said:",
+            "hi": "भृगु बोले—"
+          }
         },
         {
           "n": 1,
-          "text": "सत्यं ब्रह्म तपः सत्यं सत्यं सृजति च प्रजाः ।\nसत्येन धार्यते लोकः स्वर्गं सत्येन गच्छति ॥"
+          "text": "सत्यं ब्रह्म तपः सत्यं सत्यं सृजति च प्रजाः ।\nसत्येन धार्यते लोकः स्वर्गं सत्येन गच्छति ॥",
+          "meaning": {
+            "en": "Truth is Brahman, truth is austerity, and truth creates creatures; by truth the world is upheld, and by truth one goes to heaven.",
+            "hi": "सत्य ही ब्रह्म है, सत्य ही तप है, और सत्य ही प्रजाओं की रचना करता है। सत्य से लोक धारण होता है, और सत्य से मनुष्य स्वर्ग जाता है।"
+          }
         },
         {
           "n": 2,
-          "text": "अनृतं तमसो रूपं तमसा नीयते ह्यधः ।\nतमोग्रस्ता न पश्यन्ति प्रकाशं तमसावृतम् ॥"
+          "text": "अनृतं तमसो रूपं तमसा नीयते ह्यधः ।\nतमोग्रस्ता न पश्यन्ति प्रकाशं तमसावृतम् ॥",
+          "meaning": {
+            "en": "Falsehood is the form of darkness, and darkness leads one downward; those seized by darkness do not see the light, being veiled in darkness.",
+            "hi": "असत्य अंधकार का रूप है, और अंधकार नीचे की ओर ले जाता है। अंधकार से ग्रस्त लोग प्रकाश को नहीं देखते, क्योंकि वह अंधकार से ढका होता है।"
+          }
         },
         {
           "n": 3,
-          "text": "स्वर्गः प्रकाश इत्याहुर्नरकं तम एव च ।\nसत्यानृतात्तदुभयं प्राप्यते जगतीचरैः ॥"
+          "text": "स्वर्गः प्रकाश इत्याहुर्नरकं तम एव च ।\nसत्यानृतात्तदुभयं प्राप्यते जगतीचरैः ॥",
+          "meaning": {
+            "en": "They call heaven light and hell darkness; and dwellers on earth reach each of the two through truth or falsehood.",
+            "hi": "स्वर्ग को प्रकाश कहते हैं और नरक को अंधकार; पृथ्वी पर विचरने वाले प्राणी सत्य या असत्य से इन दोनों में से किसी एक को पाते हैं।"
+          }
         },
         {
           "n": 4,
-          "text": "तत्र त्वेवंविधा वृत्तिर्लोके सत्यानृता भवेत् ।\nधर्माधर्मौ प्रकाशश्च तमो दुःखं सुखं तथा ॥"
+          "text": "तत्र त्वेवंविधा वृत्तिर्लोके सत्यानृता भवेत् ।\nधर्माधर्मौ प्रकाशश्च तमो दुःखं सुखं तथा ॥",
+          "meaning": {
+            "en": "In this world, then, conduct is of this sort, made of truth and falsehood: righteousness and unrighteousness, light and darkness, pain and pleasure.",
+            "hi": "तो इस लोक में आचरण इस प्रकार का होता है, जो सत्य और असत्य से बना है: धर्म और अधर्म, प्रकाश और अंधकार, सुख और दुःख।"
+          }
         },
         {
           "n": 5,
-          "text": "तत्र यत्सत्यं स धर्मो यो धर्मः स प्रकाशो यः प्रकाशस्तत्सुखमिति ।\nतत्र यदनृतं सोऽधर्मो योऽधर्मस्तत्तमो यत्तमस्तद्दुःखमिति ॥"
+          "text": "तत्र यत्सत्यं स धर्मो यो धर्मः स प्रकाशो यः प्रकाशस्तत्सुखमिति ।\nतत्र यदनृतं सोऽधर्मो योऽधर्मस्तत्तमो यत्तमस्तद्दुःखमिति ॥",
+          "meaning": {
+            "en": "Of these, what is truth is righteousness, what is righteousness is light, and what is light is pleasure. And what is falsehood is unrighteousness, what is unrighteousness is darkness, and what is darkness is pain.",
+            "hi": "इनमें जो सत्य है वह धर्म है; जो धर्म है वह प्रकाश है; और जो प्रकाश है वह सुख है। और जो असत्य है वह अधर्म है; जो अधर्म है वह अंधकार है; और जो अंधकार है वह दुःख है।"
+          }
         },
         {
           "n": 6,
-          "text": "अत्रोच्यते ।\nशारीरैर्मानसैर्दुःखैः सुखैश्चाप्यसुखोदयैः ।\nलोकसृष्टिं प्रपश्यन्तो न मुह्यन्ति विचक्षणाः ॥"
+          "text": "अत्रोच्यते ।\nशारीरैर्मानसैर्दुःखैः सुखैश्चाप्यसुखोदयैः ।\nलोकसृष्टिं प्रपश्यन्तो न मुह्यन्ति विचक्षणाः ॥",
+          "meaning": {
+            "en": "On this it is said: the discerning, seeing the creation of the world through pains and pleasures of body and mind, and through the rise of unhappiness, are not bewildered.",
+            "hi": "इस विषय में कहा जाता है: शारीरिक और मानसिक दुःखों तथा अप्रिय उदय वाले सुखों से लोक की सृष्टि को देखते हुए विचक्षण लोग मोहित नहीं होते।"
+          }
         },
         {
           "n": 7,
-          "text": "तत्र दुःखविमोक्षार्थं प्रयतेत विचक्षणः ।\nसुखं ह्यनित्यं भूतानामिह लोके परत्र च ॥"
+          "text": "तत्र दुःखविमोक्षार्थं प्रयतेत विचक्षणः ।\nसुखं ह्यनित्यं भूतानामिह लोके परत्र च ॥",
+          "meaning": {
+            "en": "Therefore a discerning man should strive to be freed from pain; for the pleasure of beings, in this world and the next, is not lasting.",
+            "hi": "इसलिए विचक्षण मनुष्य को दुःख से मुक्ति के लिए प्रयत्न करना चाहिए; क्योंकि प्राणियों का सुख इस लोक और परलोक में अनित्य है।"
+          }
         },
         {
           "n": 8,
-          "text": "राहुग्रस्तस्य सोमस्य यथा ज्योत्स्ना न भासते ।\nतथा तमोभिभूतानां भूतानां भ्रश्यते सुखम् ॥"
+          "text": "राहुग्रस्तस्य सोमस्य यथा ज्योत्स्ना न भासते ।\nतथा तमोभिभूतानां भूतानां भ्रश्यते सुखम् ॥",
+          "meaning": {
+            "en": "As the moon's light does not shine when Rahu has seized it, so the pleasure of beings overcome by darkness slips away.",
+            "hi": "जैसे राहु से ग्रस्त चंद्रमा की चाँदनी नहीं चमकती, वैसे ही अंधकार से अभिभूत प्राणियों का सुख नष्ट हो जाता है।"
+          }
         },
         {
           "n": 9,
-          "text": "तत्खलु द्विविधं सुखमुच्यते शारीरं मानसं च ।\nइह खल्वमुष्मिंश्च लोके सर्वारम्भप्रवृत्तयः सुखार्था अभिधीयन्ते ।\nन ह्यतस्त्रिवर्गफलं विशिष्टतरमस्ति ।\nस एष काम्यो गुणविशेषो धर्मार्थयोरारम्भस्तद्धेतुरस्योत्पत्तिः सुखप्रयोजना ॥"
+          "text": "तत्खलु द्विविधं सुखमुच्यते शारीरं मानसं च ।\nइह खल्वमुष्मिंश्च लोके सर्वारम्भप्रवृत्तयः सुखार्था अभिधीयन्ते ।\nन ह्यतस्त्रिवर्गफलं विशिष्टतरमस्ति ।\nस एष काम्यो गुणविशेषो धर्मार्थयोरारम्भस्तद्धेतुरस्योत्पत्तिः सुखप्रयोजना ॥",
+          "meaning": {
+            "en": "That pleasure is said to be of two kinds, of the body and of the mind. In this world and the next, all undertakings are said to aim at pleasure; nothing is higher than the fruit of the three aims. That desirable special quality is the reason for undertaking righteousness and wealth, and its coming into being has pleasure as its purpose.",
+            "hi": "वह सुख दो प्रकार का कहा गया है: शारीरिक और मानसिक। इस लोक और परलोक में सब कर्मों के प्रयत्न सुख के लिए कहे जाते हैं। त्रिवर्ग के फल से बढ़कर कुछ नहीं है। वह वांछनीय विशेष गुण ही धर्म और अर्थ के आरंभ का कारण है, और उसकी उत्पत्ति का प्रयोजन सुख है।"
+          }
         },
         {
-          "text": "भरद्वाज उवाच"
+          "text": "भरद्वाज उवाच",
+          "meaning": {
+            "en": "Bharadvaja said:",
+            "hi": "भरद्वाज बोले—"
+          }
         },
         {
           "n": 10,
-          "text": "यदेतद्भवताभिहितं सुखानां परमाः स्त्रिय इति तन्न गृह्णीमः ।\nन ह्येषामृषीणां महति स्थितानामप्राप्य एष गुणविशेषो न चैनमभिलषन्ति ।\nश्रूयते च भगवांस्त्रिलोककृद्ब्रह्मा प्रभुरेकाकी तिष्ठति ।\nब्रह्मचारी न कामसुखेष्वात्मानमवदधाति ।\nअपि च भगवान्विश्वेश्वर उमापतिः काममभिवर्तमानमनङ्गत्वेन शममनयत् ।\nतस्माद्ब्रूमो न महात्मभिरयं प्रतिगृहीतो न त्वेष तावद्विशिष्टो गुण इति नैतद्भगवतः प्रत्येमि ।\nभगवता तूक्तं सुखानां परमाः स्त्रिय इति ।\nलोकप्रवादोऽपि च भवति द्विविधः फलोदयः सुकृतात्सुखमवाप्यते दुष्कृताद्दुःखमिति ।\nअत्रोच्यताम् ॥"
+          "text": "यदेतद्भवताभिहितं सुखानां परमाः स्त्रिय इति तन्न गृह्णीमः ।\nन ह्येषामृषीणां महति स्थितानामप्राप्य एष गुणविशेषो न चैनमभिलषन्ति ।\nश्रूयते च भगवांस्त्रिलोककृद्ब्रह्मा प्रभुरेकाकी तिष्ठति ।\nब्रह्मचारी न कामसुखेष्वात्मानमवदधाति ।\nअपि च भगवान्विश्वेश्वर उमापतिः काममभिवर्तमानमनङ्गत्वेन शममनयत् ।\nतस्माद्ब्रूमो न महात्मभिरयं प्रतिगृहीतो न त्वेष तावद्विशिष्टो गुण इति नैतद्भगवतः प्रत्येमि ।\nभगवता तूक्तं सुखानां परमाः स्त्रिय इति ।\nलोकप्रवादोऽपि च भवति द्विविधः फलोदयः सुकृतात्सुखमवाप्यते दुष्कृताद्दुःखमिति ।\nअत्रोच्यताम् ॥",
+          "meaning": {
+            "en": "What you have said, that women are the highest of pleasures, we do not accept. These sages, established in greatness, cannot be without that special quality, yet they do not long for it. It is heard that the blessed Brahma, maker of the three worlds, remains alone as a celibate and does not give himself to the pleasures of desire. The blessed lord of the universe, the husband of Uma, also brought Desire, as he advanced, to peace by leaving him bodiless. So we say the great-souled do not accept this, and that it is not so supreme a quality; this I do not accept from you. Yet you said women are the highest of pleasures. There is also a saying among people that the fruit is twofold: pleasure comes from good deeds and pain from bad. Let it be explained here.",
+            "hi": "आपने जो कहा कि स्त्रियाँ सुखों में सबसे श्रेष्ठ हैं, उसे हम स्वीकार नहीं करते। महान पद पर स्थित इन ऋषियों के लिए यह विशेष गुण अप्राप्य नहीं है, फिर भी वे उसकी इच्छा नहीं करते। सुना जाता है कि त्रिलोक के रचयिता भगवान ब्रह्मा अकेले और ब्रह्मचारी रहते हैं, और कामसुखों में अपने को नहीं लगाते। और भगवान विश्वेश्वर, उमापति, ने भी इच्छा से आगे बढ़ते हुए काम को अनंग करके शांत कर दिया। इसलिए हम कहते हैं कि महात्मा इसे स्वीकार नहीं करते, और यह इतना श्रेष्ठ गुण नहीं है; यह मैं आपसे नहीं मानता। पर आपने कहा कि स्त्रियाँ सुखों में सबसे श्रेष्ठ हैं। लोक में यह भी कहावत है कि फल दो प्रकार का होता है: पुण्य से सुख मिलता है और पाप से दुःख। इस पर कहिए।"
+          }
         },
         {
-          "text": "भृगुरुवाच"
+          "text": "भृगुरुवाच",
+          "meaning": {
+            "en": "Bhrigu said:",
+            "hi": "भृगु बोले—"
+          }
         },
         {
           "n": 11,
-          "text": "अनृतात्खलु तमः प्रादुर्भूतं तमोग्रस्ता अधर्ममेवानुवर्तन्ते न धर्मम् ।\nक्रोधलोभमोहमानानृतादिभिरवच्छन्ना न खल्वस्मिँल्लोके न चामुत्र सुखमाप्नुवन्ति ।\nविविधव्याधिगणोपतापैरवकीर्यन्ते ।\nवधबन्धरोगपरिक्लेशादिभिश्च क्षुत्पिपासाश्रमकृतैरुपतापैरुपतप्यन्ते ।\nचण्डवातात्युष्णातिशीतकृतैश्च प्रतिभयैः शारीरैर्दुःखैरुपतप्यन्ते ।\nबन्धुधनविनाशविप्रयोगकृतैश्च मानसैः शोकैरभिभूयन्ते जरामृत्युकृतैश्चान्यैरिति ॥"
+          "text": "अनृतात्खलु तमः प्रादुर्भूतं तमोग्रस्ता अधर्ममेवानुवर्तन्ते न धर्मम् ।\nक्रोधलोभमोहमानानृतादिभिरवच्छन्ना न खल्वस्मिँल्लोके न चामुत्र सुखमाप्नुवन्ति ।\nविविधव्याधिगणोपतापैरवकीर्यन्ते ।\nवधबन्धरोगपरिक्लेशादिभिश्च क्षुत्पिपासाश्रमकृतैरुपतापैरुपतप्यन्ते ।\nचण्डवातात्युष्णातिशीतकृतैश्च प्रतिभयैः शारीरैर्दुःखैरुपतप्यन्ते ।\nबन्धुधनविनाशविप्रयोगकृतैश्च मानसैः शोकैरभिभूयन्ते जरामृत्युकृतैश्चान्यैरिति ॥",
+          "meaning": {
+            "en": "From falsehood darkness arose, and those seized by darkness follow unrighteousness, not righteousness. Covered by anger, greed, delusion, pride, falsehood and the like, they gain no pleasure in this world or the next. They are scattered by the torments of many kinds of disease; they are tormented by killing, bonds, illness and distress, and by pains of hunger, thirst and weariness; they suffer bodily pains from fierce winds, great heat and great cold, and fears; and they are overwhelmed by mental griefs from the loss and parting of kin and wealth, and by others born of old age and death.",
+            "hi": "असत्य से निश्चय ही अंधकार उत्पन्न हुआ; अंधकार से ग्रस्त लोग अधर्म का ही अनुसरण करते हैं, धर्म का नहीं। क्रोध, लोभ, मोह, अभिमान और असत्य आदि से ढके हुए लोग न इस लोक में सुख पाते हैं, न परलोक में। वे अनेक प्रकार के रोगों के समूह के कष्टों से बिखर जाते हैं; वध, बंधन, रोग और क्लेश आदि से, तथा भूख, प्यास और थकान से उत्पन्न पीड़ाओं से तप्त होते हैं। प्रचंड वायु, अत्यधिक गर्मी और ठंड से उत्पन्न भयानक शारीरिक दुःखों से वे पीड़ित होते हैं; और बंधु और धन के नाश तथा वियोग से उत्पन्न मानसिक शोकों से अभिभूत होते हैं, तथा बुढ़ापे और मृत्यु से उत्पन्न अन्य दुःखों से भी।"
+          }
         },
         {
           "n": 12,
-          "text": "यस्त्वेतैः शारीरैर्मानसैर्दुःखैर्न स्पृश्यते स सुखं वेद ।\nन चैते दोषाः स्वर्गे प्रादुर्भवन्ति ।\nतत्र भवति खलु ॥"
+          "text": "यस्त्वेतैः शारीरैर्मानसैर्दुःखैर्न स्पृश्यते स सुखं वेद ।\nन चैते दोषाः स्वर्गे प्रादुर्भवन्ति ।\nतत्र भवति खलु ॥",
+          "meaning": {
+            "en": "But he who is not touched by these pains of body and mind knows pleasure. These faults do not arise in heaven. There indeed it is so:",
+            "hi": "जो इन शारीरिक और मानसिक दुःखों से नहीं छुआ जाता, वही सुख जानता है। स्वर्ग में ये दोष उत्पन्न नहीं होते। वहाँ निश्चय ही ऐसा होता है:"
+          }
         },
         {
           "n": 13,
-          "text": "सुसुखः पवनः स्वर्गे गन्धश्च सुरभिस्तथा ।\nक्षुत्पिपासाश्रमो नास्ति न जरा न च पापकम् ॥"
+          "text": "सुसुखः पवनः स्वर्गे गन्धश्च सुरभिस्तथा ।\nक्षुत्पिपासाश्रमो नास्ति न जरा न च पापकम् ॥",
+          "meaning": {
+            "en": "In heaven the wind is very pleasant and the scent sweet; there is no hunger, thirst or weariness, no old age and no sin.",
+            "hi": "स्वर्ग में वायु अत्यंत सुखद और गंध सुगंधित होती है; वहाँ न भूख है, न प्यास, न थकान, न बुढ़ापा और न पाप।"
+          }
         },
         {
           "n": 14,
-          "text": "नित्यमेव सुखं स्वर्गे सुखं दुःखमिहोभयम् ।\nनरके दुःखमेवाहुः समं तु परमं पदम् ॥"
+          "text": "नित्यमेव सुखं स्वर्गे सुखं दुःखमिहोभयम् ।\nनरके दुःखमेवाहुः समं तु परमं पदम् ॥",
+          "meaning": {
+            "en": "In heaven there is always pleasure; in this world there is both pleasure and pain; in hell they say there is only pain; and the highest state is even, neither.",
+            "hi": "स्वर्ग में सदा सुख ही रहता है; यहाँ इस लोक में सुख और दुःख दोनों हैं; नरक में केवल दुःख कहा गया है; और परम पद सम है, अर्थात न सुख, न दुःख।"
+          }
         },
         {
           "n": 15,
-          "text": "पृथिवी सर्वभूतानां जनित्री तद्विधाः स्त्रियः ।\nपुमान्प्रजापतिस्तत्र शुक्रं तेजोमयं विदुः ॥"
+          "text": "पृथिवी सर्वभूतानां जनित्री तद्विधाः स्त्रियः ।\nपुमान्प्रजापतिस्तत्र शुक्रं तेजोमयं विदुः ॥",
+          "meaning": {
+            "en": "Earth is the mother of all beings, and women are of her kind; man is Prajapati there, and his seed is known to be made of radiance.",
+            "hi": "पृथ्वी सब प्राणियों की माता है, और स्त्रियाँ उसी के समान हैं। वहाँ पुरुष प्रजापति है, और उसका वीर्य तेजोमय माना गया है।"
+          }
         },
         {
           "n": 16,
-          "text": "इत्येतल्लोकनिर्माणं ब्रह्मणा विहितं पुरा ।\nप्रजा विपरिवर्तन्ते स्वैः स्वैः कर्मभिरावृताः ॥"
+          "text": "इत्येतल्लोकनिर्माणं ब्रह्मणा विहितं पुरा ।\nप्रजा विपरिवर्तन्ते स्वैः स्वैः कर्मभिरावृताः ॥",
+          "meaning": {
+            "en": "Thus this making of the world was arranged by Brahma long ago; creatures revolve, bound by their own deeds.",
+            "hi": "इस प्रकार लोक का यह निर्माण पहले ब्रह्मा द्वारा विहित किया गया था। प्रजाएँ अपने-अपने कर्मों से बँधी हुई इसमें घूमती रहती हैं।"
+          }
         }
       ]
     }

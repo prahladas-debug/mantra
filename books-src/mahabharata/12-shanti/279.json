@@ -22,110 +22,191 @@
       "titleEn": "Mokshadharma Parva (Duties for liberation)",
       "verses": [
         {
-          "text": "युधिष्ठिर उवाच"
+          "text": "युधिष्ठिर उवाच",
+          "meaning": {
+            "en": "Yudhishthira said:"
+          }
         },
         {
           "n": 1,
-          "text": "अतः परं महाबाहो यच्छ्रेयस्तद्वदस्व मे ।\nन तृप्याम्यमृतस्येव वचसस्ते पितामह ॥"
+          "text": "अतः परं महाबाहो यच्छ्रेयस्तद्वदस्व मे ।\nन तृप्याम्यमृतस्येव वचसस्ते पितामह ॥",
+          "meaning": {
+            "en": "Mighty-armed one, now tell me what is the highest good beyond this. Grandfather, I am never satisfied with your words, which are like nectar."
+          }
         },
         {
           "n": 2,
-          "text": "किं कर्म पुरुषः कृत्वा शुभं पुरुषसत्तम ।\nश्रेयः परमवाप्नोति प्रेत्य चेह च तद्वद ॥"
+          "text": "किं कर्म पुरुषः कृत्वा शुभं पुरुषसत्तम ।\nश्रेयः परमवाप्नोति प्रेत्य चेह च तद्वद ॥",
+          "meaning": {
+            "en": "Best of men, tell me what good action a man should perform to gain the supreme good, both here and after death."
+          }
         },
         {
-          "text": "भीष्म उवाच"
+          "text": "भीष्म उवाच",
+          "meaning": {
+            "en": "Bhishma said:"
+          }
         },
         {
           "n": 3,
-          "text": "अत्र ते वर्तयिष्यामि यथा पूर्वं महायशाः ।\nपराशरं महात्मानं पप्रच्छ जनको नृपः ॥"
+          "text": "अत्र ते वर्तयिष्यामि यथा पूर्वं महायशाः ।\nपराशरं महात्मानं पप्रच्छ जनको नृपः ॥",
+          "meaning": {
+            "en": "On this I will relate to you what the greatly renowned King Janaka asked the great sage Parashara long ago."
+          }
         },
         {
           "n": 4,
-          "text": "किं श्रेयः सर्वभूतानामस्मिँल्लोके परत्र च ।\nयद्भवेत्प्रतिपत्तव्यं तद्भवान्प्रब्रवीतु मे ॥"
+          "text": "किं श्रेयः सर्वभूतानामस्मिँल्लोके परत्र च ।\nयद्भवेत्प्रतिपत्तव्यं तद्भवान्प्रब्रवीतु मे ॥",
+          "meaning": {
+            "en": "What is the highest good for all beings, in this world and the next, and what ought to be taken up? Please tell me."
+          }
         },
         {
           "n": 5,
-          "text": "ततः स तपसा युक्तः सर्वधर्मविधानवित् ।\nनृपायानुग्रहमना मुनिर्वाक्यमथाब्रवीत् ॥"
+          "text": "ततः स तपसा युक्तः सर्वधर्मविधानवित् ।\nनृपायानुग्रहमना मुनिर्वाक्यमथाब्रवीत् ॥",
+          "meaning": {
+            "en": "Then the sage, rich in austerity and knowing all the rules of dharma, with a mind to favor the king, spoke these words."
+          }
         },
         {
           "n": 6,
-          "text": "धर्म एव कृतः श्रेयानिह लोके परत्र च ।\nतस्माद्धि परमं नास्ति यथा प्राहुर्मनीषिणः ॥"
+          "text": "धर्म एव कृतः श्रेयानिह लोके परत्र च ।\nतस्माद्धि परमं नास्ति यथा प्राहुर्मनीषिणः ॥",
+          "meaning": {
+            "en": "Dharma alone, when practiced, is the highest good here and in the next world; as the wise say, there is nothing higher than it."
+          }
         },
         {
           "n": 7,
-          "text": "प्रतिपद्य नरो धर्मं स्वर्गलोके महीयते ।\nधर्मात्मकः कर्मविधिर्देहिनां नृपसत्तम ।\nतस्मिन्नाश्रमिणः सन्तः स्वकर्माणीह कुर्वते ॥"
+          "text": "प्रतिपद्य नरो धर्मं स्वर्गलोके महीयते ।\nधर्मात्मकः कर्मविधिर्देहिनां नृपसत्तम ।\nतस्मिन्नाश्रमिणः सन्तः स्वकर्माणीह कुर्वते ॥",
+          "meaning": {
+            "en": "Taking up dharma, a man is honored in the world of heaven. The rule of action for embodied beings, best of kings, is rooted in dharma, and the good who are in the orders of life perform their own duties within it."
+          }
         },
         {
           "n": 8,
-          "text": "चतुर्विधा हि लोकस्य यात्रा तात विधीयते ।\nमर्त्या यत्रावतिष्ठन्ते सा च कामात्प्रवर्तते ॥"
+          "text": "चतुर्विधा हि लोकस्य यात्रा तात विधीयते ।\nमर्त्या यत्रावतिष्ठन्ते सा च कामात्प्रवर्तते ॥",
+          "meaning": {
+            "en": "The conduct of the world, dear one, is laid down as fourfold; the state in which mortals stand arises from desire."
+          }
         },
         {
           "n": 9,
-          "text": "सुकृतासुकृतं कर्म निषेव्य विविधैः क्रमैः ।\nदशार्धप्रविभक्तानां भूतानां बहुधा गतिः ॥"
+          "text": "सुकृतासुकृतं कर्म निषेव्य विविधैः क्रमैः ।\nदशार्धप्रविभक्तानां भूतानां बहुधा गतिः ॥",
+          "meaning": {
+            "en": "Having followed good and bad action in various ways, the course of beings, divided into five kinds, is manifold."
+          }
         },
         {
           "n": 10,
-          "text": "सौवर्णं राजतं वापि यथा भाण्डं निषिच्यते ।\nतथा निषिच्यते जन्तुः पूर्वकर्मवशानुगः ॥"
+          "text": "सौवर्णं राजतं वापि यथा भाण्डं निषिच्यते ।\nतथा निषिच्यते जन्तुः पूर्वकर्मवशानुगः ॥",
+          "meaning": {
+            "en": "As a vessel of gold or silver is filled, so a creature is filled, following the force of its earlier action."
+          }
         },
         {
           "n": 11,
-          "text": "नाबीजाज्जायते किंचिन्नाकृत्वा सुखमेधते ।\nसुकृती विन्दति सुखं प्राप्य देहक्षयं नरः ॥"
+          "text": "नाबीजाज्जायते किंचिन्नाकृत्वा सुखमेधते ।\nसुकृती विन्दति सुखं प्राप्य देहक्षयं नरः ॥",
+          "meaning": {
+            "en": "Nothing is born without a seed, and no one prospers in happiness without having acted; the doer of good finds happiness when he reaches the end of his body."
+          }
         },
         {
           "n": 12,
-          "text": "दैवं तात न पश्यामि नास्ति दैवस्य साधनम् ।\nस्वभावतो हि संसिद्धा देवगन्धर्वदानवाः ॥"
+          "text": "दैवं तात न पश्यामि नास्ति दैवस्य साधनम् ।\nस्वभावतो हि संसिद्धा देवगन्धर्वदानवाः ॥",
+          "meaning": {
+            "en": "Dear one, I do not see fate as a cause, and fate has no means; even gods, Gandharvas and Danavas are perfected by their own nature."
+          }
         },
         {
           "n": 13,
-          "text": "प्रेत्य जातिकृतं कर्म न स्मरन्ति सदा जनाः ।\nते वै तस्य फलप्राप्तौ कर्म चापि चतुर्विधम् ॥"
+          "text": "प्रेत्य जातिकृतं कर्म न स्मरन्ति सदा जनाः ।\nते वै तस्य फलप्राप्तौ कर्म चापि चतुर्विधम् ॥",
+          "meaning": {
+            "en": "After death people do not always remember the action done in a past birth; and in reaching its fruit, action is of four kinds."
+          }
         },
         {
           "n": 14,
-          "text": "लोकयात्राश्रयश्चैव शब्दो वेदाश्रयः कृतः ।\nशान्त्यर्थं मनसस्तात नैतद्वृद्धानुशासनम् ॥"
+          "text": "लोकयात्राश्रयश्चैव शब्दो वेदाश्रयः कृतः ।\nशान्त्यर्थं मनसस्तात नैतद्वृद्धानुशासनम् ॥",
+          "meaning": {
+            "en": "The Vedic word has been made to rest on the conduct of the world, for the peace of the mind, dear one; this is not the teaching of the elders."
+          }
         },
         {
           "n": 15,
-          "text": "चक्षुषा मनसा वाचा कर्मणा च चतुर्विधम् ।\nकुरुते यादृशं कर्म तादृशं प्रतिपद्यते ॥"
+          "text": "चक्षुषा मनसा वाचा कर्मणा च चतुर्विधम् ।\nकुरुते यादृशं कर्म तादृशं प्रतिपद्यते ॥",
+          "meaning": {
+            "en": "Whatever kind of action one does by eye, mind, speech and deed, the fourfold, he receives the same kind in return."
+          }
         },
         {
           "n": 16,
-          "text": "निरन्तरं च मिश्रं च फलते कर्म पार्थिव ।\nकल्याणं यदि वा पापं न तु नाशोऽस्य विद्यते ॥"
+          "text": "निरन्तरं च मिश्रं च फलते कर्म पार्थिव ।\nकल्याणं यदि वा पापं न तु नाशोऽस्य विद्यते ॥",
+          "meaning": {
+            "en": "Action bears fruit, king, continuously or mixed, whether good or evil; but it is never lost."
+          }
         },
         {
           "n": 17,
-          "text": "कदाचित्सुकृतं तात कूटस्थमिव तिष्ठति ।\nमज्जमानस्य संसारे यावद्दुःखाद्विमुच्यते ॥"
+          "text": "कदाचित्सुकृतं तात कूटस्थमिव तिष्ठति ।\nमज्जमानस्य संसारे यावद्दुःखाद्विमुच्यते ॥",
+          "meaning": {
+            "en": "Sometimes good deeds stand by, as if unmoving, for one who is sinking in the cycle of rebirth, until he is freed from suffering."
+          }
         },
         {
           "n": 18,
-          "text": "ततो दुःखक्षयं कृत्वा सुकृतं कर्म सेवते ।\nसुकृतक्षयाद्दुष्कृतं च तद्विद्धि मनुजाधिप ॥"
+          "text": "ततो दुःखक्षयं कृत्वा सुकृतं कर्म सेवते ।\nसुकृतक्षयाद्दुष्कृतं च तद्विद्धि मनुजाधिप ॥",
+          "meaning": {
+            "en": "Then, after exhausting his suffering, he enjoys his good action; and when the good action is exhausted, evil follows. Know that, lord of men."
+          }
         },
         {
           "n": 19,
-          "text": "दमः क्षमा धृतिस्तेजः संतोषः सत्यवादिता ।\nह्रीरहिंसाव्यसनिता दाक्ष्यं चेति सुखावहाः ॥"
+          "text": "दमः क्षमा धृतिस्तेजः संतोषः सत्यवादिता ।\nह्रीरहिंसाव्यसनिता दाक्ष्यं चेति सुखावहाः ॥",
+          "meaning": {
+            "en": "Self-control, forbearance, steadiness, splendor, contentment, truthfulness, modesty, nonviolence, freedom from vice and skill: these bring happiness."
+          }
         },
         {
           "n": 20,
-          "text": "दुष्कृते सुकृते वापि न जन्तुरयतो भवेत् ।\nनित्यं मनःसमाधाने प्रयतेत विचक्षणः ॥"
+          "text": "दुष्कृते सुकृते वापि न जन्तुरयतो भवेत् ।\nनित्यं मनःसमाधाने प्रयतेत विचक्षणः ॥",
+          "meaning": {
+            "en": "A creature should not become unrestrained, whether in evil or in good; the discerning man should always strive to keep his mind collected."
+          }
         },
         {
           "n": 21,
-          "text": "नायं परस्य सुकृतं दुष्कृतं वापि सेवते ।\nकरोति यादृशं कर्म तादृशं प्रतिपद्यते ॥"
+          "text": "नायं परस्य सुकृतं दुष्कृतं वापि सेवते ।\nकरोति यादृशं कर्म तादृशं प्रतिपद्यते ॥",
+          "meaning": {
+            "en": "One does not enjoy another's good or bad deed; whatever action one does, one gets its like."
+          }
         },
         {
           "n": 22,
-          "text": "सुखदुःखे समाधाय पुमानन्येन गच्छति ।\nअन्येनैव जनः सर्वः संगतो यश्च पार्थिव ॥"
+          "text": "सुखदुःखे समाधाय पुमानन्येन गच्छति ।\nअन्येनैव जनः सर्वः संगतो यश्च पार्थिव ॥",
+          "meaning": {
+            "en": "Having laid up happiness and sorrow, a person goes on with another body; and every person, king, is joined with yet another."
+          }
         },
         {
           "n": 23,
-          "text": "परेषां यदसूयेत न तत्कुर्यात्स्वयं नरः ।\nयो ह्यसूयुस्तथायुक्तः सोऽवहासं नियच्छति ॥"
+          "text": "परेषां यदसूयेत न तत्कुर्यात्स्वयं नरः ।\nयो ह्यसूयुस्तथायुक्तः सोऽवहासं नियच्छति ॥",
+          "meaning": {
+            "en": "A man should not do himself what he resents in others; for the resentful man who acts so draws ridicule on himself."
+          }
         },
         {
           "n": 24,
-          "text": "भीरू राजन्यो ब्राह्मणः सर्वभक्षो\nवैश्योऽनीहावान्हीनवर्णोऽलसश्च ।\nविद्वांश्चाशीलो वृत्तहीनः कुलीनः\nसत्याद्भ्रष्टो ब्राह्मणः स्त्री च दुष्टा ॥"
+          "text": "भीरू राजन्यो ब्राह्मणः सर्वभक्षो\nवैश्योऽनीहावान्हीनवर्णोऽलसश्च ।\nविद्वांश्चाशीलो वृत्तहीनः कुलीनः\nसत्याद्भ्रष्टो ब्राह्मणः स्त्री च दुष्टा ॥",
+          "meaning": {
+            "en": "A timid Kshatriya, a Brahmin who eats anything, a Vaishya without effort, a man of low class who is idle, a learned man without character, a man of good family who lacks conduct, a Brahmin who has fallen from truth, and a wicked woman,"
+          }
         },
         {
           "n": 25,
-          "text": "रागी मुक्तः पचमानोऽऽत्महेतो-\nर्मूर्खो वक्ता नृपहीनं च राष्ट्रम् ।\nएते सर्वे शोच्यतां यान्ति राज-\nन्यश्चायुक्तः स्नेहहीनः प्रजासु ॥"
+          "text": "रागी मुक्तः पचमानोऽऽत्महेतो-\nर्मूर्खो वक्ता नृपहीनं च राष्ट्रम् ।\nएते सर्वे शोच्यतां यान्ति राज-\nन्यश्चायुक्तः स्नेहहीनः प्रजासु ॥",
+          "meaning": {
+            "en": "a passionate man who is said to be freed, one who cooks only for himself, a foolish speaker, a kingdom without a king: all these come to be pitied, king; so does an undisciplined king without affection for his subjects."
+          }
         }
       ]
     }

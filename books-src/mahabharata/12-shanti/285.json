@@ -22,190 +22,337 @@
       "titleEn": "Mokshadharma Parva (Duties for liberation)",
       "verses": [
         {
-          "text": "जनक उवाच"
+          "text": "जनक उवाच",
+          "meaning": {
+            "en": "Janaka said:"
+          }
         },
         {
           "n": 1,
-          "text": "वर्णो विशेषवर्णानां महर्षे केन जायते ।\nएतदिच्छाम्यहं श्रोतुं तद्ब्रूहि वदतां वर ॥"
+          "text": "वर्णो विशेषवर्णानां महर्षे केन जायते ।\nएतदिच्छाम्यहं श्रोतुं तद्ब्रूहि वदतां वर ॥",
+          "meaning": {
+            "en": "Great sage, how do the distinct classes come to have their particular class? I wish to hear this; tell it, best of speakers."
+          }
         },
         {
           "n": 2,
-          "text": "यदेतज्जायतेऽपत्यं स एवायमिति श्रुतिः ।\nकथं ब्राह्मणतो जातो विशेषग्रहणं गतः ॥"
+          "text": "यदेतज्जायतेऽपत्यं स एवायमिति श्रुतिः ।\nकथं ब्राह्मणतो जातो विशेषग्रहणं गतः ॥",
+          "meaning": {
+            "en": "Scripture says that the offspring who is born is the same as the one who begets. How then does one born of a Brahmin come to take a different class?"
+          }
         },
         {
-          "text": "पराशर उवाच"
+          "text": "पराशर उवाच",
+          "meaning": {
+            "en": "Parashara said:"
+          }
         },
         {
           "n": 3,
-          "text": "एवमेतन्महाराज येन जातः स एव सः ।\nतपसस्त्वपकर्षेण जातिग्रहणतां गतः ॥"
+          "text": "एवमेतन्महाराज येन जातः स एव सः ।\nतपसस्त्वपकर्षेण जातिग्रहणतां गतः ॥",
+          "meaning": {
+            "en": "It is so, great king; he is the same as the one by whom he was born. But through a decline in austerity he comes to be taken as of another birth-class."
+          }
         },
         {
           "n": 4,
-          "text": "सुक्षेत्राच्च सुबीजाच्च पुण्यो भवति संभवः ।\nअतोऽन्यतरतो हीनादवरो नाम जायते ॥"
+          "text": "सुक्षेत्राच्च सुबीजाच्च पुण्यो भवति संभवः ।\nअतोऽन्यतरतो हीनादवरो नाम जायते ॥",
+          "meaning": {
+            "en": "From good soil and good seed a pure birth results; from either one being poor, an inferior is born."
+          }
         },
         {
           "n": 5,
-          "text": "वक्त्राद्भुजाभ्यामूरुभ्यां पद्भ्यां चैवाथ जज्ञिरे ।\nसृजतः प्रजापतेर्लोकानिति धर्मविदो विदुः ॥"
+          "text": "वक्त्राद्भुजाभ्यामूरुभ्यां पद्भ्यां चैवाथ जज्ञिरे ।\nसृजतः प्रजापतेर्लोकानिति धर्मविदो विदुः ॥",
+          "meaning": {
+            "en": "Those who know dharma say that, as Prajapati created the worlds, people were born from his mouth, arms, thighs and feet."
+          }
         },
         {
           "n": 6,
-          "text": "मुखजा ब्राह्मणास्तात बाहुजाः क्षत्रबन्धवः ।\nऊरुजा धनिनो राजन्पादजाः परिचारकाः ॥"
+          "text": "मुखजा ब्राह्मणास्तात बाहुजाः क्षत्रबन्धवः ।\nऊरुजा धनिनो राजन्पादजाः परिचारकाः ॥",
+          "meaning": {
+            "en": "Dear one, those born of the mouth are Brahmins, those of the arms Kshatriyas, those of the thighs, king, the wealthy, and those of the feet the servants."
+          }
         },
         {
           "n": 7,
-          "text": "चतुर्णामेव वर्णानामागमः पुरुषर्षभ ।\nअतोऽन्ये त्वतिरिक्ता ये ते वै संकरजाः स्मृताः ॥"
+          "text": "चतुर्णामेव वर्णानामागमः पुरुषर्षभ ।\nअतोऽन्ये त्वतिरिक्ता ये ते वै संकरजाः स्मृताः ॥",
+          "meaning": {
+            "en": "Bull among men, the origin is of the four classes only; any others besides these are remembered as born of mixture."
+          }
         },
         {
           "n": 8,
-          "text": "क्षत्रजातिरथाम्बष्ठा उग्रा वैदेहकास्तथा ।\nश्वपाकाः पुल्कसाः स्तेना निषादाः सूतमागधाः ॥"
+          "text": "क्षत्रजातिरथाम्बष्ठा उग्रा वैदेहकास्तथा ।\nश्वपाकाः पुल्कसाः स्तेना निषादाः सूतमागधाः ॥",
+          "meaning": {
+            "en": "They are the Kshatriya-born, the Ambashthas, Ugras, Vaidehakas, Shvapakas, Pulkasas, Stenas, Nishadas, Sutas and Magadhas,"
+          }
         },
         {
           "n": 9,
-          "text": "आयोगाः करणा व्रात्याश्चण्डालाश्च नराधिप ।\nएते चतुर्भ्यो वर्णेभ्यो जायन्ते वै परस्परम् ॥"
+          "text": "आयोगाः करणा व्रात्याश्चण्डालाश्च नराधिप ।\nएते चतुर्भ्यो वर्णेभ्यो जायन्ते वै परस्परम् ॥",
+          "meaning": {
+            "en": "the Ayogas, Karanas, Vratyas and Chandalas, lord of men; these are born from the four classes by mixing with one another."
+          }
         },
         {
-          "text": "जनक उवाच"
+          "text": "जनक उवाच",
+          "meaning": {
+            "en": "Janaka said:"
+          }
         },
         {
           "n": 10,
-          "text": "ब्रह्मणैकेन जातानां नानात्वं गोत्रतः कथम् ।\nबहूनीह हि लोके वै गोत्राणि मुनिसत्तम ॥"
+          "text": "ब्रह्मणैकेन जातानां नानात्वं गोत्रतः कथम् ।\nबहूनीह हि लोके वै गोत्राणि मुनिसत्तम ॥",
+          "meaning": {
+            "en": "How is there diversity of lineage among those born of the one Brahma? In this world, best of sages, there are many lineages."
+          }
         },
         {
           "n": 11,
-          "text": "यत्र तत्र कथं जाताः स्वयोनिं मुनयो गताः ।\nशूद्रयोनौ समुत्पन्ना वियोनौ च तथापरे ॥"
+          "text": "यत्र तत्र कथं जाताः स्वयोनिं मुनयो गताः ।\nशूद्रयोनौ समुत्पन्ना वियोनौ च तथापरे ॥",
+          "meaning": {
+            "en": "How is it that sages born here and there reached their own station, some born of Shudra wombs and others of non-human wombs?"
+          }
         },
         {
-          "text": "पराशर उवाच"
+          "text": "पराशर उवाच",
+          "meaning": {
+            "en": "Parashara said:"
+          }
         },
         {
           "n": 12,
-          "text": "राजन्नैतद्भवेद्ग्राह्यमपकृष्टेन जन्मना ।\nमहात्मनां समुत्पत्तिस्तपसा भावितात्मनाम् ॥"
+          "text": "राजन्नैतद्भवेद्ग्राह्यमपकृष्टेन जन्मना ।\nमहात्मनां समुत्पत्तिस्तपसा भावितात्मनाम् ॥",
+          "meaning": {
+            "en": "King, this should not be judged by lowly birth; the origins of the great-souled, whose selves are purified by austerity, are another matter."
+          }
         },
         {
           "n": 13,
-          "text": "उत्पाद्य पुत्रान्मुनयो नृपते यत्र तत्र ह ।\nस्वेनैव तपसा तेषामृषित्वं विदधुः पुनः ॥"
+          "text": "उत्पाद्य पुत्रान्मुनयो नृपते यत्र तत्र ह ।\nस्वेनैव तपसा तेषामृषित्वं विदधुः पुनः ॥",
+          "meaning": {
+            "en": "Having fathered sons here and there, king, the sages again gave them the rank of sages by their own austerity."
+          }
         },
         {
           "n": 14,
-          "text": "पितामहश्च मे पूर्वमृश्यशृङ्गश्च काश्यपः ।\nवटस्ताण्ड्यः कृपश्चैव कक्षीवान्कमठादयः ॥"
+          "text": "पितामहश्च मे पूर्वमृश्यशृङ्गश्च काश्यपः ।\nवटस्ताण्ड्यः कृपश्चैव कक्षीवान्कमठादयः ॥",
+          "meaning": {
+            "en": "My grandfather before, and Rishyashringa, Kashyapa, Vata, Tandya, Kripa, Kakshivan, Kamatha and others,"
+          }
         },
         {
           "n": 15,
-          "text": "यवक्रीतश्च नृपते द्रोणश्च वदतां वरः ।\nआयुर्मतङ्गो दत्तश्च द्रुपदो मत्स्य एव च ॥"
+          "text": "यवक्रीतश्च नृपते द्रोणश्च वदतां वरः ।\nआयुर्मतङ्गो दत्तश्च द्रुपदो मत्स्य एव च ॥",
+          "meaning": {
+            "en": "and Yavakrita, king, and Drona, best of speakers, Ayu, Matanga, Datta, Drupada and Matsya,"
+          }
         },
         {
           "n": 16,
-          "text": "एते स्वां प्रकृतिं प्राप्ता वैदेह तपसोऽऽश्रयात् ।\nप्रतिष्ठिता वेदविदो दमे तपसि चैव हि ॥"
+          "text": "एते स्वां प्रकृतिं प्राप्ता वैदेह तपसोऽऽश्रयात् ।\nप्रतिष्ठिता वेदविदो दमे तपसि चैव हि ॥",
+          "meaning": {
+            "en": "these, Videha, reached their own true nature by resorting to austerity. They became established in the Vedas, in self-control and in austerity."
+          }
         },
         {
           "n": 17,
-          "text": "मूलगोत्राणि चत्वारि समुत्पन्नानि पार्थिव ।\nअङ्गिराः कश्यपश्चैव वसिष्ठो भृगुरेव च ॥"
+          "text": "मूलगोत्राणि चत्वारि समुत्पन्नानि पार्थिव ।\nअङ्गिराः कश्यपश्चैव वसिष्ठो भृगुरेव च ॥",
+          "meaning": {
+            "en": "Four root lineages have arisen, king: Angiras, Kashyapa, Vasishtha and Bhrigu."
+          }
         },
         {
           "n": 18,
-          "text": "कर्मतोऽन्यानि गोत्राणि समुत्पन्नानि पार्थिव ।\nनामधेयानि तपसा तानि च ग्रहणं सताम् ॥"
+          "text": "कर्मतोऽन्यानि गोत्राणि समुत्पन्नानि पार्थिव ।\nनामधेयानि तपसा तानि च ग्रहणं सताम् ॥",
+          "meaning": {
+            "en": "Other lineages have arisen from action, king; those names are adopted by the good through austerity."
+          }
         },
         {
-          "text": "जनक उवाच"
+          "text": "जनक उवाच",
+          "meaning": {
+            "en": "Janaka said:"
+          }
         },
         {
           "n": 19,
-          "text": "विशेषधर्मान्वर्णानां प्रब्रूहि भगवन्मम ।\nतथा सामान्यधर्मांश्च सर्वत्र कुशलो ह्यसि ॥"
+          "text": "विशेषधर्मान्वर्णानां प्रब्रूहि भगवन्मम ।\nतथा सामान्यधर्मांश्च सर्वत्र कुशलो ह्यसि ॥",
+          "meaning": {
+            "en": "Revered sir, tell me the special duties of the classes, and also the common duties; for you are skilled in everything."
+          }
         },
         {
-          "text": "पराशर उवाच"
+          "text": "पराशर उवाच",
+          "meaning": {
+            "en": "Parashara said:"
+          }
         },
         {
           "n": 20,
-          "text": "प्रतिग्रहो याजनं च तथैवाध्यापनं नृप ।\nविशेषधर्मो विप्राणां रक्षा क्षत्रस्य शोभना ॥"
+          "text": "प्रतिग्रहो याजनं च तथैवाध्यापनं नृप ।\nविशेषधर्मो विप्राणां रक्षा क्षत्रस्य शोभना ॥",
+          "meaning": {
+            "en": "Accepting gifts, performing sacrifices for others, and teaching, king, are the special duties of Brahmins; protection is the fine duty of the Kshatriya."
+          }
         },
         {
           "n": 21,
-          "text": "कृषिश्च पाशुपाल्यं च वाणिज्यं च विशामपि ।\nद्विजानां परिचर्या च शूद्रकर्म नराधिप ॥"
+          "text": "कृषिश्च पाशुपाल्यं च वाणिज्यं च विशामपि ।\nद्विजानां परिचर्या च शूद्रकर्म नराधिप ॥",
+          "meaning": {
+            "en": "Farming, cattle-keeping and trade belong to the Vaishyas; and serving the twice-born is the work of the Shudra, lord of men."
+          }
         },
         {
           "n": 22,
-          "text": "विशेषधर्मा नृपते वर्णानां परिकीर्तिताः ।\nधर्मान्साधारणांस्तात विस्तरेण शृणुष्व मे ॥"
+          "text": "विशेषधर्मा नृपते वर्णानां परिकीर्तिताः ।\nधर्मान्साधारणांस्तात विस्तरेण शृणुष्व मे ॥",
+          "meaning": {
+            "en": "King, the special duties of the classes have been declared. Now hear from me at length the common duties, dear one."
+          }
         },
         {
           "n": 23,
-          "text": "आनृशंस्यमहिंसा चाप्रमादः संविभागिता ।\nश्राद्धकर्मातिथेयं च सत्यमक्रोध एव च ॥"
+          "text": "आनृशंस्यमहिंसा चाप्रमादः संविभागिता ।\nश्राद्धकर्मातिथेयं च सत्यमक्रोध एव च ॥",
+          "meaning": {
+            "en": "Kindness, nonviolence, vigilance, sharing, rites for the ancestors, hospitality, truthfulness and freedom from anger,"
+          }
         },
         {
           "n": 24,
-          "text": "स्वेषु दारेषु संतोषः शौचं नित्यानसूयता ।\nआत्मज्ञानं तितिक्षा च धर्माः साधारणा नृप ॥"
+          "text": "स्वेषु दारेषु संतोषः शौचं नित्यानसूयता ।\nआत्मज्ञानं तितिक्षा च धर्माः साधारणा नृप ॥",
+          "meaning": {
+            "en": "contentment with one's own wives, purity, constant freedom from envy, knowledge of the self and patience: these are the common duties, king."
+          }
         },
         {
           "n": 25,
-          "text": "ब्राह्मणाः क्षत्रिया वैश्यास्त्रयो वर्णा द्विजातयः ।\nअत्र तेषामधीकारो धर्मेषु द्विपदां वर ॥"
+          "text": "ब्राह्मणाः क्षत्रिया वैश्यास्त्रयो वर्णा द्विजातयः ।\nअत्र तेषामधीकारो धर्मेषु द्विपदां वर ॥",
+          "meaning": {
+            "en": "Brahmins, Kshatriyas and Vaishyas are the three twice-born classes, and they have authority over these duties, best of men."
+          }
         },
         {
           "n": 26,
-          "text": "विकर्मावस्थिता वर्णाः पतन्ति नृपते त्रयः ।\nउन्नमन्ति यथासन्तमाश्रित्येह स्वकर्मसु ॥"
+          "text": "विकर्मावस्थिता वर्णाः पतन्ति नृपते त्रयः ।\nउन्नमन्ति यथासन्तमाश्रित्येह स्वकर्मसु ॥",
+          "meaning": {
+            "en": "The three classes, king, fall when they are engaged in wrong action; and they rise up by resorting to the good in their own duties."
+          }
         },
         {
           "n": 27,
-          "text": "न चापि शूद्रः पततीति निश्चयो\nन चापि संस्कारमिहार्हतीति वा ।\nश्रुतिप्रवृत्तं न च धर्ममाप्नुते\nन चास्य धर्मे प्रतिषेधनं कृतम् ॥"
+          "text": "न चापि शूद्रः पततीति निश्चयो\nन चापि संस्कारमिहार्हतीति वा ।\nश्रुतिप्रवृत्तं न च धर्ममाप्नुते\nन चास्य धर्मे प्रतिषेधनं कृतम् ॥",
+          "meaning": {
+            "en": "It is settled that a Shudra does not fall, nor does he deserve the sacramental rites here; he does not obtain the dharma that stems from the Veda, yet no prohibition has been made against his following dharma."
+          }
         },
         {
           "n": 28,
-          "text": "वैदेहकं शूद्रमुदाहरन्ति\nद्विजा महाराज श्रुतोपपन्नाः ।\nअहं हि पश्यामि नरेन्द्र देवं\nविश्वस्य विष्णुं जगतः प्रधानम् ॥"
+          "text": "वैदेहकं शूद्रमुदाहरन्ति\nद्विजा महाराज श्रुतोपपन्नाः ।\nअहं हि पश्यामि नरेन्द्र देवं\nविश्वस्य विष्णुं जगतः प्रधानम् ॥",
+          "meaning": {
+            "en": "The learned twice-born, great king, cite a Vaidehaka as an example of a Shudra. I indeed see, lord of men, Vishnu, the god, the chief of the whole world."
+          }
         },
         {
           "n": 29,
-          "text": "सतां वृत्तमनुष्ठाय निहीना उज्जिहीर्षवः ।\nमन्त्रवर्जं न दुष्यन्ति कुर्वाणाः पौष्टिकीः क्रियाः ॥"
+          "text": "सतां वृत्तमनुष्ठाय निहीना उज्जिहीर्षवः ।\nमन्त्रवर्जं न दुष्यन्ति कुर्वाणाः पौष्टिकीः क्रियाः ॥",
+          "meaning": {
+            "en": "The lowly who wish to raise themselves, by following the conduct of the good and doing rites for prosperity without mantras, are not at fault."
+          }
         },
         {
           "n": 30,
-          "text": "यथा यथा हि सद्वृत्तमालम्बन्तीतरे जनाः ।\nतथा तथा सुखं प्राप्य प्रेत्य चेह च शेरते ॥"
+          "text": "यथा यथा हि सद्वृत्तमालम्बन्तीतरे जनाः ।\nतथा तथा सुखं प्राप्य प्रेत्य चेह च शेरते ॥",
+          "meaning": {
+            "en": "As other people increasingly take up good conduct, so they gain happiness here and hereafter and rest in it."
+          }
         },
         {
-          "text": "जनक उवाच"
+          "text": "जनक उवाच",
+          "meaning": {
+            "en": "Janaka said:"
+          }
         },
         {
           "n": 31,
-          "text": "किं कर्म दूषयत्येनमथ जातिर्महामुने ।\nसंदेहो मे समुत्पन्नस्तन्मे व्याख्यातुमर्हसि ॥"
+          "text": "किं कर्म दूषयत्येनमथ जातिर्महामुने ।\nसंदेहो मे समुत्पन्नस्तन्मे व्याख्यातुमर्हसि ॥",
+          "meaning": {
+            "en": "Great sage, what corrupts a man: his action or his birth? A doubt has arisen in me; please explain it to me."
+          }
         },
         {
-          "text": "पराशर उवाच"
+          "text": "पराशर उवाच",
+          "meaning": {
+            "en": "Parashara said:"
+          }
         },
         {
           "n": 32,
-          "text": "असंशयं महाराज उभयं दोषकारकम् ।\nकर्म चैव हि जातिश्च विशेषं तु निशामय ॥"
+          "text": "असंशयं महाराज उभयं दोषकारकम् ।\nकर्म चैव हि जातिश्च विशेषं तु निशामय ॥",
+          "meaning": {
+            "en": "Without doubt, great king, both can be causes of fault, action and birth. But hear the difference."
+          }
         },
         {
           "n": 33,
-          "text": "जात्या च कर्मणा चैव दुष्टं कर्म निषेवते ।\nजात्या दुष्टश्च यः पापं न करोति स पूरुषः ॥"
+          "text": "जात्या च कर्मणा चैव दुष्टं कर्म निषेवते ।\nजात्या दुष्टश्च यः पापं न करोति स पूरुषः ॥",
+          "meaning": {
+            "en": "He who is corrupt by birth and by action follows corrupt action; but the man who is corrupt by birth and yet does not commit sin is a true man."
+          }
         },
         {
           "n": 34,
-          "text": "जात्या प्रधानं पुरुषं कुर्वाणं कर्म धिक्कृतम् ।\nकर्म तद्दूषयत्येनं तस्मात्कर्म नशोभनम् ॥"
+          "text": "जात्या प्रधानं पुरुषं कुर्वाणं कर्म धिक्कृतम् ।\nकर्म तद्दूषयत्येनं तस्मात्कर्म नशोभनम् ॥",
+          "meaning": {
+            "en": "When a man high by birth does a deed that is condemned, that action corrupts him; therefore such action is not good."
+          }
         },
         {
-          "text": "जनक उवाच"
+          "text": "जनक उवाच",
+          "meaning": {
+            "en": "Janaka said:"
+          }
         },
         {
           "n": 35,
-          "text": "कानि कर्माणि धर्म्याणि लोकेऽस्मिन्द्विजसत्तम ।\nन हिंसन्तीह भूतानि क्रियमाणानि सर्वदा ॥"
+          "text": "कानि कर्माणि धर्म्याणि लोकेऽस्मिन्द्विजसत्तम ।\nन हिंसन्तीह भूतानि क्रियमाणानि सर्वदा ॥",
+          "meaning": {
+            "en": "Best of the twice-born, which actions in this world are righteous and, when done, never injure beings?"
+          }
         },
         {
-          "text": "पराशर उवाच"
+          "text": "पराशर उवाच",
+          "meaning": {
+            "en": "Parashara said:"
+          }
         },
         {
           "n": 36,
-          "text": "शृणु मेऽत्र महाराज यन्मां त्वं परिपृच्छसि ।\nयानि कर्माण्यहिंस्राणि नरं त्रायन्ति सर्वदा ॥"
+          "text": "शृणु मेऽत्र महाराज यन्मां त्वं परिपृच्छसि ।\nयानि कर्माण्यहिंस्राणि नरं त्रायन्ति सर्वदा ॥",
+          "meaning": {
+            "en": "Hear from me here, great king, what you ask me: which actions free of violence always protect a man."
+          }
         },
         {
           "n": 37,
-          "text": "संन्यस्याग्नीनुपासीनाः पश्यन्ति विगतज्वराः ।\nनैःश्रेयसं धर्मपथं समारुह्य यथाक्रमम् ॥"
+          "text": "संन्यस्याग्नीनुपासीनाः पश्यन्ति विगतज्वराः ।\nनैःश्रेयसं धर्मपथं समारुह्य यथाक्रमम् ॥",
+          "meaning": {
+            "en": "Those who have given up the sacrificial fires, who sit in meditation and are free of fever, see; having climbed the path of dharma that leads to the highest good in due order,"
+          }
         },
         {
           "n": 38,
-          "text": "प्रश्रिता विनयोपेता दमनित्याः सुसंशिताः ।\nप्रयान्ति स्थानमजरं सर्वकर्मविवर्जिताः ॥"
+          "text": "प्रश्रिता विनयोपेता दमनित्याः सुसंशिताः ।\nप्रयान्ति स्थानमजरं सर्वकर्मविवर्जिताः ॥",
+          "meaning": {
+            "en": "humble, well-mannered, constant in self-control and sharp of mind, they go to the changeless state, free of all action."
+          }
         },
         {
           "n": 39,
-          "text": "सर्वे वर्णा धर्मकार्याणि सम्य-\nक्कृत्वा राजन्सत्यवाक्यानि चोक्त्वा ।\nत्यक्त्वाधर्मं दारुणं जीवलोके\nयान्ति स्वर्गं नात्र कार्यो विचारः ॥"
+          "text": "सर्वे वर्णा धर्मकार्याणि सम्य-\nक्कृत्वा राजन्सत्यवाक्यानि चोक्त्वा ।\nत्यक्त्वाधर्मं दारुणं जीवलोके\nयान्ति स्वर्गं नात्र कार्यो विचारः ॥",
+          "meaning": {
+            "en": "When all classes have properly done the works of dharma and spoken truthful words, king, and given up the cruel adharma of the living world, they go to heaven; on this there is nothing to ponder."
+          }
         }
       ]
     }

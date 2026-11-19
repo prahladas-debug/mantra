@@ -22,67 +22,131 @@
       "titleEn": "Rajadharma Parva (Duties of kings)",
       "verses": [
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:",
+            "hi": "वैशम्पायन बोले—"
+          }
         },
         {
           "n": 1,
-          "text": "तस्मिन्वाक्यान्तरे वाक्यं पुनरेवार्जुनोऽब्रवीत् ।\nविषण्णमनसं ज्येष्ठमिदं भ्रातरमीश्वरम् ॥"
+          "text": "तस्मिन्वाक्यान्तरे वाक्यं पुनरेवार्जुनोऽब्रवीत् ।\nविषण्णमनसं ज्येष्ठमिदं भ्रातरमीश्वरम् ॥",
+          "meaning": {
+            "en": "In a pause in that talk, Arjuna again spoke these words to his eldest brother and lord, whose mind was despondent.",
+            "hi": "उस बात के बीच में अर्जुन ने फिर से अपने ज्येष्ठ भाई और स्वामी से ये शब्द कहे, जिनका मन खिन्न था।"
+          }
         },
         {
           "n": 2,
-          "text": "क्षत्रधर्मेण धर्मज्ञ प्राप्य राज्यमनुत्तमम् ।\nजित्वा चारीन्नरश्रेष्ठ तप्यते किं भवान्भृशम् ॥"
+          "text": "क्षत्रधर्मेण धर्मज्ञ प्राप्य राज्यमनुत्तमम् ।\nजित्वा चारीन्नरश्रेष्ठ तप्यते किं भवान्भृशम् ॥",
+          "meaning": {
+            "en": "Arjuna said: Knower of dharma, having gained the supreme kingdom by the warrior's dharma and having conquered your foes, best of men, why do you burn with such grief?",
+            "hi": "अर्जुन बोले: हे धर्म के ज्ञाता, हे नरश्रेष्ठ, क्षत्रिय-धर्म से उत्तम राज्य पाकर और शत्रुओं को जीतकर आप इतना अधिक क्यों संताप कर रहे हैं?"
+          }
         },
         {
           "n": 3,
-          "text": "क्षत्रियाणां महाराज संग्रामे निधनं स्मृतम् ।\nविशिष्टं बहुभिर्यज्ञैः क्षत्रधर्ममनुस्मर ॥"
+          "text": "क्षत्रियाणां महाराज संग्रामे निधनं स्मृतम् ।\nविशिष्टं बहुभिर्यज्ञैः क्षत्रधर्ममनुस्मर ॥",
+          "meaning": {
+            "en": "Great king, for kshatriyas death in battle is remembered as the best, better than many sacrifices. Remember the warrior's dharma.",
+            "hi": "हे महाराज, क्षत्रियों के लिए युद्ध में मृत्यु को बहुत यज्ञों से भी श्रेष्ठ माना गया है। क्षत्रिय-धर्म का स्मरण कीजिए।"
+          }
         },
         {
           "n": 4,
-          "text": "ब्राह्मणानां तपस्त्यागः प्रेत्यधर्मविधिः स्मृतः ।\nक्षत्रियाणां च विहितं संग्रामे निधनं विभो ॥"
+          "text": "ब्राह्मणानां तपस्त्यागः प्रेत्यधर्मविधिः स्मृतः ।\nक्षत्रियाणां च विहितं संग्रामे निधनं विभो ॥",
+          "meaning": {
+            "en": "For brahmins, austerity and renunciation are remembered as the rule for the next world, and for kshatriyas, mighty lord, death in battle is the prescribed one.",
+            "hi": "हे विभो, ब्राह्मणों के लिए तप और त्याग परलोक के धर्म की विधि माने गए हैं, और क्षत्रियों के लिए युद्ध में मृत्यु ही विहित है।"
+          }
         },
         {
           "n": 5,
-          "text": "क्षत्रधर्मो महारौद्रः शस्त्रनित्य इति स्मृतः ।\nवधश्च भरतश्रेष्ठ काले शस्त्रेण संयुगे ॥"
+          "text": "क्षत्रधर्मो महारौद्रः शस्त्रनित्य इति स्मृतः ।\nवधश्च भरतश्रेष्ठ काले शस्त्रेण संयुगे ॥",
+          "meaning": {
+            "en": "The warrior's dharma is said to be most terrible, always bound up with weapons; and killing, best of the Bharatas, is done in due time with a weapon in battle.",
+            "hi": "क्षत्रिय-धर्म अत्यंत भयंकर और सदा शस्त्रों से जुड़ा हुआ कहा गया है। हे भरतश्रेष्ठ, युद्ध में उचित समय पर शस्त्र से वध किया जाता है।"
+          }
         },
         {
           "n": 6,
-          "text": "ब्राह्मणस्यापि चेद्राजन्क्षत्रधर्मेण तिष्ठतः ।\nप्रशस्तं जीवितं लोके क्षत्रं हि ब्रह्मसंस्थितम् ॥"
+          "text": "ब्राह्मणस्यापि चेद्राजन्क्षत्रधर्मेण तिष्ठतः ।\nप्रशस्तं जीवितं लोके क्षत्रं हि ब्रह्मसंस्थितम् ॥",
+          "meaning": {
+            "en": "Even a brahmin who lives by the warrior's dharma, O king, has a praiseworthy life in this world, for the warrior class rests on brahmanhood.",
+            "hi": "हे राजन, यदि क्षत्रिय-धर्म का पालन करने वाला ब्राह्मण भी हो, तो संसार में उसका जीवन प्रशंसनीय होता है, क्योंकि क्षत्रिय वर्ग ब्रह्मत्व पर टिका है।"
+          }
         },
         {
           "n": 7,
-          "text": "न त्यागो न पुनर्याच्ञा न तपो मनुजेश्वर ।\nक्षत्रियस्य विधीयन्ते न परस्वोपजीवनम् ॥"
+          "text": "न त्यागो न पुनर्याच्ञा न तपो मनुजेश्वर ।\nक्षत्रियस्य विधीयन्ते न परस्वोपजीवनम् ॥",
+          "meaning": {
+            "en": "Neither renunciation, nor begging, nor austerity, lord of men, is prescribed for a kshatriya, nor living on what belongs to another.",
+            "hi": "हे नरेश्वर, क्षत्रिय के लिए न त्याग, न फिर से याचना, न तप विहित है, और न दूसरे के धन पर जीना।"
+          }
         },
         {
           "n": 8,
-          "text": "स भवान्सर्वधर्मज्ञः सर्वात्मा भरतर्षभ ।\nराजा मनीषी निपुणो लोके दृष्टपरावरः ॥"
+          "text": "स भवान्सर्वधर्मज्ञः सर्वात्मा भरतर्षभ ।\nराजा मनीषी निपुणो लोके दृष्टपरावरः ॥",
+          "meaning": {
+            "en": "You, who know all dharmas, who are the self of all, bull of the Bharatas, a king, thoughtful, skilled and having seen both high and low in the world,",
+            "hi": "आप, जो सब धर्मों के ज्ञाता, सबकी आत्मा, भरतों में श्रेष्ठ, राजा, बुद्धिमान, निपुण और संसार में ऊँच-नीच देख चुके हैं,"
+          }
         },
         {
           "n": 9,
-          "text": "त्यक्त्वा संतापजं शोकं दंशितो भव कर्मणि ।\nक्षत्रियस्य विशेषेण हृदयं वज्रसंहतम् ॥"
+          "text": "त्यक्त्वा संतापजं शोकं दंशितो भव कर्मणि ।\nक्षत्रियस्य विशेषेण हृदयं वज्रसंहतम् ॥",
+          "meaning": {
+            "en": "cast off the grief born of torment and gird yourself for your task. A kshatriya's heart, above all, is joined as hard as a thunderbolt.",
+            "hi": "संताप से उत्पन्न शोक को त्यागकर अपने कर्म के लिए कमर कस लीजिए। क्षत्रिय का हृदय विशेष रूप से वज्र के समान कठोर होता है।"
+          }
         },
         {
           "n": 10,
-          "text": "जित्वारीन्क्षत्रधर्मेण प्राप्य राज्यमकण्टकम् ।\nविजितात्मा मनुष्येन्द्र यज्ञदानपरो भव ॥"
+          "text": "जित्वारीन्क्षत्रधर्मेण प्राप्य राज्यमकण्टकम् ।\nविजितात्मा मनुष्येन्द्र यज्ञदानपरो भव ॥",
+          "meaning": {
+            "en": "Having conquered your enemies by the warrior's dharma and won a kingdom without thorns, O lord of men, with your self mastered, devote yourself to sacrifice and giving.",
+            "hi": "क्षत्रिय-धर्म से शत्रुओं को जीतकर और निष्कंटक राज्य पाकर, हे मनुष्यों के इंद्र, मन को वश में करके यज्ञ और दान में लगे रहिए।"
+          }
         },
         {
           "n": 11,
-          "text": "इन्द्रो वै ब्रह्मणः पुत्रः कर्मणा क्षत्रियोऽभवत् ।\nज्ञातीनां पापवृत्तीनां जघान नवतीर्नव ॥"
+          "text": "इन्द्रो वै ब्रह्मणः पुत्रः कर्मणा क्षत्रियोऽभवत् ।\nज्ञातीनां पापवृत्तीनां जघान नवतीर्नव ॥",
+          "meaning": {
+            "en": "Indra, son of Brahma, became a kshatriya by his deed. He killed nine times nine of his kinsmen who lived in sin.",
+            "hi": "इंद्र, जो ब्रह्मा के पुत्र हैं, अपने कर्म से क्षत्रिय हुए। उन्होंने पाप-वृत्ति वाले अपने बंधुओं में से नौ गुना नौ का वध किया।"
+          }
         },
         {
           "n": 12,
-          "text": "तच्चास्य कर्म पूज्यं हि प्रशस्यं च विशां पते ।\nतेन चेन्द्रत्वमापेदे देवानामिति नः श्रुतम् ॥"
+          "text": "तच्चास्य कर्म पूज्यं हि प्रशस्यं च विशां पते ।\nतेन चेन्द्रत्वमापेदे देवानामिति नः श्रुतम् ॥",
+          "meaning": {
+            "en": "That deed of his is honored and praised, lord of the people, and by it, we have heard, he gained the lordship of the gods.",
+            "hi": "हे प्रजाओं के स्वामी, उनका वह कर्म पूज्य और प्रशंसनीय है। हमने सुना है कि उसी से उन्होंने देवताओं का इंद्रपद पाया।"
+          }
         },
         {
           "n": 13,
-          "text": "स त्वं यज्ञैर्महाराज यजस्व बहुदक्षिणैः ।\nयथैवेन्द्रो मनुष्येन्द्र चिराय विगतज्वरः ॥"
+          "text": "स त्वं यज्ञैर्महाराज यजस्व बहुदक्षिणैः ।\nयथैवेन्द्रो मनुष्येन्द्र चिराय विगतज्वरः ॥",
+          "meaning": {
+            "en": "So you, great king, sacrifice with sacrifices with many fees, as Indra did, lord of men, and be long free of fever.",
+            "hi": "इसलिए हे महाराज, आप भी बहुत दक्षिणा वाले यज्ञों से यज्ञ कीजिए, जैसे इंद्र ने किया था, हे मनुष्यों के इंद्र, ताकि आप चिरकाल तक संताप से मुक्त रहें।"
+          }
         },
         {
           "n": 14,
-          "text": "मा त्वमेवंगते किंचित्क्षत्रियर्षभ शोचिथाः ।\nगतास्ते क्षत्रधर्मेण शस्त्रपूताः परां गतिम् ॥"
+          "text": "मा त्वमेवंगते किंचित्क्षत्रियर्षभ शोचिथाः ।\nगतास्ते क्षत्रधर्मेण शस्त्रपूताः परां गतिम् ॥",
+          "meaning": {
+            "en": "Bull of the kshatriyas, do not grieve at all now that it has come to this. They went by the warrior's dharma, purified by weapons, to the highest goal.",
+            "hi": "हे क्षत्रियों में श्रेष्ठ, ऐसी स्थिति में आप कुछ भी शोक मत कीजिए। वे लोग क्षत्रिय-धर्म से, शस्त्रों से पवित्र होकर, परम गति को गए हैं।"
+          }
         },
         {
           "n": 15,
-          "text": "भवितव्यं तथा तच्च यद्वृत्तं भरतर्षभ ।\nदिष्टं हि राजशार्दूल न शक्यमतिवर्तितुम् ॥"
+          "text": "भवितव्यं तथा तच्च यद्वृत्तं भरतर्षभ ।\nदिष्टं हि राजशार्दूल न शक्यमतिवर्तितुम् ॥",
+          "meaning": {
+            "en": "What happened was bound to happen, best of the Bharatas. Fate, tiger among kings, cannot be overstepped.",
+            "hi": "हे भरतश्रेष्ठ, जो हुआ, वह होना ही था। हे राजाओं में बाघ, भाग्य का उल्लंघन नहीं किया जा सकता।"
+          }
         }
       ]
     }

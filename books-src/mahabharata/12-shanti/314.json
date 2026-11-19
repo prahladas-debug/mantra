@@ -22,203 +22,353 @@
       "titleEn": "Mokshadharma Parva (Duties for liberation)",
       "verses": [
         {
-          "text": "भीष्म उवाच"
+          "text": "भीष्म उवाच",
+          "meaning": {
+            "en": "Bhishma said:"
+          }
         },
         {
           "n": 1,
-          "text": "एतच्छ्रुत्वा तु वचनं कृतात्मा कृतनिश्चयः ।\nआत्मनात्मानमास्थाय दृष्ट्वा चात्मानमात्मना ॥"
+          "text": "एतच्छ्रुत्वा तु वचनं कृतात्मा कृतनिश्चयः ।\nआत्मनात्मानमास्थाय दृष्ट्वा चात्मानमात्मना ॥",
+          "meaning": {
+            "en": "Hearing these words, Shuka, his self perfected and his resolve fixed, abiding in the Self and seeing the Self by the Self,"
+          }
         },
         {
           "n": 2,
-          "text": "कृतकार्यः सुखी शान्तस्तूष्णीं प्रायादुदङ्मुखः ।\nशैशिरं गिरिमुद्दिश्य सधर्मा मातरिश्वनः ॥"
+          "text": "कृतकार्यः सुखी शान्तस्तूष्णीं प्रायादुदङ्मुखः ।\nशैशिरं गिरिमुद्दिश्य सधर्मा मातरिश्वनः ॥",
+          "meaning": {
+            "en": "his task done, happy and at peace, set off silently toward the north, aiming for the snowy mountain, moving like the wind."
+          }
         },
         {
           "n": 3,
-          "text": "एतस्मिन्नेव काले तु देवर्षिर्नारदस्तदा ।\nहिमवन्तमियाद्द्रष्टुं सिद्धचारणसेवितम् ॥"
+          "text": "एतस्मिन्नेव काले तु देवर्षिर्नारदस्तदा ।\nहिमवन्तमियाद्द्रष्टुं सिद्धचारणसेवितम् ॥",
+          "meaning": {
+            "en": "At that very time the divine sage Narada came to see the Himalaya, frequented by siddhas and charanas,"
+          }
         },
         {
           "n": 4,
-          "text": "तमप्सरोगणाकीर्णं गीतस्वननिनादितम् ।\nकिंनराणां समूहैश्च भृङ्गराजैस्तथैव च ॥"
+          "text": "तमप्सरोगणाकीर्णं गीतस्वननिनादितम् ।\nकिंनराणां समूहैश्च भृङ्गराजैस्तथैव च ॥",
+          "meaning": {
+            "en": "crowded with throngs of apsaras, resounding with song, with troops of kinnaras and with bhringaraja birds,"
+          }
         },
         {
           "n": 5,
-          "text": "मद्गुभिः खञ्जरीटैश्च विचित्रैर्जीवजीवकैः ।\nचित्रवर्णैर्मयूरैश्च केकाशतविराजितैः ।\nराजहंससमूहैश्च हृष्टैः परभृतैस्तथा ॥"
+          "text": "मद्गुभिः खञ्जरीटैश्च विचित्रैर्जीवजीवकैः ।\nचित्रवर्णैर्मयूरैश्च केकाशतविराजितैः ।\nराजहंससमूहैश्च हृष्टैः परभृतैस्तथा ॥",
+          "meaning": {
+            "en": "with divers, wagtails, colorful jivajivaka pheasants, and multicolored peacocks gleaming with hundreds of cries, with flocks of royal swans and joyful cuckoos."
+          }
         },
         {
           "n": 6,
-          "text": "पक्षिराजो गरुत्मांश्च यं नित्यमधिगच्छति ।\nचत्वारो लोकपालाश्च देवाः सर्षिगणास्तथा ।\nयत्र नित्यं समायान्ति लोकस्य हितकाम्यया ॥"
+          "text": "पक्षिराजो गरुत्मांश्च यं नित्यमधिगच्छति ।\nचत्वारो लोकपालाश्च देवाः सर्षिगणास्तथा ।\nयत्र नित्यं समायान्ति लोकस्य हितकाम्यया ॥",
+          "meaning": {
+            "en": "That mountain which Garuda, king of birds, always visits, and where the four guardians of the world, gods, and groups of seers always gather, wishing the world well."
+          }
         },
         {
           "n": 7,
-          "text": "विष्णुना यत्र पुत्रार्थे तपस्तप्तं महात्मना ।\nयत्रैव च कुमारेण बाल्ये क्षिप्ता दिवौकसः ॥"
+          "text": "विष्णुना यत्र पुत्रार्थे तपस्तप्तं महात्मना ।\nयत्रैव च कुमारेण बाल्ये क्षिप्ता दिवौकसः ॥",
+          "meaning": {
+            "en": "There Vishnu, the great-souled, performed austerities for the sake of a son, and there the boy Kumara in childhood challenged the gods."
+          }
         },
         {
           "n": 8,
-          "text": "शक्तिर्न्यस्ता क्षितितले त्रैलोक्यमवमन्य वै ।\nयत्रोवाच जगत्स्कन्दः क्षिपन्वाक्यमिदं तदा ॥"
+          "text": "शक्तिर्न्यस्ता क्षितितले त्रैलोक्यमवमन्य वै ।\nयत्रोवाच जगत्स्कन्दः क्षिपन्वाक्यमिदं तदा ॥",
+          "meaning": {
+            "en": "There he planted his spear in the earth, scorning the three worlds, and Skanda, upholder of the world, spoke these challenging words:"
+          }
         },
         {
           "n": 9,
-          "text": "योऽन्योऽस्ति मत्तोऽभ्यधिको विप्रा यस्याधिकं प्रियाः ।\nयो ब्रह्मण्यो द्वितीयोऽस्ति त्रिषु लोकेषु वीर्यवान् ॥"
+          "text": "योऽन्योऽस्ति मत्तोऽभ्यधिको विप्रा यस्याधिकं प्रियाः ।\nयो ब्रह्मण्यो द्वितीयोऽस्ति त्रिषु लोकेषु वीर्यवान् ॥",
+          "meaning": {
+            "en": "\"Brahmins, whoever is greater than I, whoever is dearer to those who revere him, whoever is a second devoted to brahmins and mighty in the three worlds,"
+          }
         },
         {
           "n": 10,
-          "text": "सोऽभ्युद्धरत्विमां शक्तिमथ वा कम्पयत्विति ।\nतच्छ्रुत्वा व्यथिता लोकाः क इमामुद्धरेदिति ॥"
+          "text": "सोऽभ्युद्धरत्विमां शक्तिमथ वा कम्पयत्विति ।\nतच्छ्रुत्वा व्यथिता लोकाः क इमामुद्धरेदिति ॥",
+          "meaning": {
+            "en": "let him pull out this spear or at least shake it.\" Hearing this, the worlds were troubled: who could pull it out?"
+          }
         },
         {
           "n": 11,
-          "text": "अथ देवगणं सर्वं संभ्रान्तेन्द्रियमानसम् ।\nअपश्यद्भगवान्विष्णुः क्षिप्तं सासुरराक्षसम् ।\nकिं न्वत्र सुकृतं कार्यं भवेदिति विचिन्तयन् ॥"
+          "text": "अथ देवगणं सर्वं संभ्रान्तेन्द्रियमानसम् ।\nअपश्यद्भगवान्विष्णुः क्षिप्तं सासुरराक्षसम् ।\nकिं न्वत्र सुकृतं कार्यं भवेदिति विचिन्तयन् ॥",
+          "meaning": {
+            "en": "Then the blessed Vishnu saw all the host of gods, with asuras and rakshasas, their senses and minds bewildered by the challenge, and thought, \"What good thing should be done here?\""
+          }
         },
         {
           "n": 12,
-          "text": "स नामृष्यत तं क्षेपमवैक्षत च पावकिम् ।\nस प्रहस्य विशुद्धात्मा शक्तिं प्रज्वलितां तदा ।\nकम्पयामास सव्येन पाणिना पुरुषोत्तमः ॥"
+          "text": "स नामृष्यत तं क्षेपमवैक्षत च पावकिम् ।\nस प्रहस्य विशुद्धात्मा शक्तिं प्रज्वलितां तदा ।\nकम्पयामास सव्येन पाणिना पुरुषोत्तमः ॥",
+          "meaning": {
+            "en": "He could not bear that taunt and looked at the fire-god's son. Smiling, that pure-souled Supreme Person shook the blazing spear with his left hand."
+          }
         },
         {
           "n": 13,
-          "text": "शक्त्यां तु कम्पमानायां विष्णुना बलिना तदा ।\nमेदिनी कम्पिता सर्वा सशैलवनकानना ॥"
+          "text": "शक्त्यां तु कम्पमानायां विष्णुना बलिना तदा ।\nमेदिनी कम्पिता सर्वा सशैलवनकानना ॥",
+          "meaning": {
+            "en": "When mighty Vishnu shook the spear, the whole earth, with its mountains, woods, and forests, trembled."
+          }
         },
         {
           "n": 14,
-          "text": "शक्तेनापि समुद्धर्तुं कम्पिता सा न तूद्धृता ।\nरक्षता स्कन्दराजस्य धर्षणां प्रभविष्णुना ॥"
+          "text": "शक्तेनापि समुद्धर्तुं कम्पिता सा न तूद्धृता ।\nरक्षता स्कन्दराजस्य धर्षणां प्रभविष्णुना ॥",
+          "meaning": {
+            "en": "Though Vishnu was able to pull it out, the earth only shook and the spear was not lifted, for the powerful god was protecting Skanda, the chief, from humiliation."
+          }
         },
         {
           "n": 15,
-          "text": "तां कम्पयित्वा भगवान्प्रह्रादमिदमब्रवीत् ।\nपश्य वीर्यं कुमारस्य नैतदन्यः करिष्यति ॥"
+          "text": "तां कम्पयित्वा भगवान्प्रह्रादमिदमब्रवीत् ।\nपश्य वीर्यं कुमारस्य नैतदन्यः करिष्यति ॥",
+          "meaning": {
+            "en": "Having shaken it, the god said to Prahlada, \"See the boy's power; no one else will do this.\""
+          }
         },
         {
           "n": 16,
-          "text": "सोऽमृष्यमाणस्तद्वाक्यं समुद्धरणनिश्चितः ।\nजग्राह तां तस्य शक्तिं न चैनामप्यकम्पयत् ॥"
+          "text": "सोऽमृष्यमाणस्तद्वाक्यं समुद्धरणनिश्चितः ।\nजग्राह तां तस्य शक्तिं न चैनामप्यकम्पयत् ॥",
+          "meaning": {
+            "en": "Unable to bear those words and determined to pull it out, he seized the spear but could not even shake it."
+          }
         },
         {
           "n": 17,
-          "text": "नादं महान्तं मुक्त्वा स मूर्छितो गिरिमूर्धनि ।\nविह्वलः प्रापतद्भूमौ हिरण्यकशिपोः सुतः ॥"
+          "text": "नादं महान्तं मुक्त्वा स मूर्छितो गिरिमूर्धनि ।\nविह्वलः प्रापतद्भूमौ हिरण्यकशिपोः सुतः ॥",
+          "meaning": {
+            "en": "Giving a great cry, Hiranyakashipu's son fainted on the mountain top and fell stricken to the ground."
+          }
         },
         {
           "n": 18,
-          "text": "यत्रोत्तरां दिशं गत्वा शैलराजस्य पार्श्वतः ।\nतपोऽतप्यत दुर्धर्षस्तात नित्यं वृषध्वजः ॥"
+          "text": "यत्रोत्तरां दिशं गत्वा शैलराजस्य पार्श्वतः ।\nतपोऽतप्यत दुर्धर्षस्तात नित्यं वृषध्वजः ॥",
+          "meaning": {
+            "en": "Going north from there, beside the king of mountains, the ever invincible Shiva, bearer of the bull banner, always practiced austerities."
+          }
         },
         {
           "n": 19,
-          "text": "पावकेन परिक्षिप्तो दीप्यता तस्य चाश्रमः ।\nआदित्यबन्धनं नाम दुर्धर्षमकृतात्मभिः ॥"
+          "text": "पावकेन परिक्षिप्तो दीप्यता तस्य चाश्रमः ।\nआदित्यबन्धनं नाम दुर्धर्षमकृतात्मभिः ॥",
+          "meaning": {
+            "en": "His hermitage, ringed by blazing fire, called Adityabandhana, was unassailable by those of unrefined self."
+          }
         },
         {
           "n": 20,
-          "text": "न तत्र शक्यते गन्तुं यक्षराक्षसदानवैः ।\nदशयोजनविस्तारमग्निज्वालासमावृतम् ॥"
+          "text": "न तत्र शक्यते गन्तुं यक्षराक्षसदानवैः ।\nदशयोजनविस्तारमग्निज्वालासमावृतम् ॥",
+          "meaning": {
+            "en": "Yakshas, rakshasas, and danavas cannot go there; it spreads over ten yojanas, wrapped in flames of fire."
+          }
         },
         {
           "n": 21,
-          "text": "भगवान्पावकस्तत्र स्वयं तिष्ठति वीर्यवान् ।\nसर्वविघ्नान्प्रशमयन्महादेवस्य धीमतः ॥"
+          "text": "भगवान्पावकस्तत्र स्वयं तिष्ठति वीर्यवान् ।\nसर्वविघ्नान्प्रशमयन्महादेवस्य धीमतः ॥",
+          "meaning": {
+            "en": "The mighty, blessed fire-god himself stands there, quelling all obstacles for the wise Mahadeva."
+          }
         },
         {
           "n": 22,
-          "text": "दिव्यं वर्षसहस्रं हि पादेनैकेन तिष्ठतः ।\nदेवान्संतापयंस्तत्र महादेवो धृतव्रतः ॥"
+          "text": "दिव्यं वर्षसहस्रं हि पादेनैकेन तिष्ठतः ।\nदेवान्संतापयंस्तत्र महादेवो धृतव्रतः ॥",
+          "meaning": {
+            "en": "For a divine thousand years Mahadeva, firm in his vow, stood on one foot there, tormenting the gods."
+          }
         },
         {
           "n": 23,
-          "text": "ऐन्द्रीं तु दिशमास्थाय शैलराजस्य धीमतः ।\nविविक्ते पर्वततटे पाराशर्यो महातपाः ।\nवेदानध्यापयामास व्यासः शिष्यान्महातपाः ॥"
+          "text": "ऐन्द्रीं तु दिशमास्थाय शैलराजस्य धीमतः ।\nविविक्ते पर्वततटे पाराशर्यो महातपाः ।\nवेदानध्यापयामास व्यासः शिष्यान्महातपाः ॥",
+          "meaning": {
+            "en": "Taking the eastern direction of that wise king of mountains, on a secluded mountain slope, Vyasa, Parashara's son, of great austerity, taught the Vedas to his disciples."
+          }
         },
         {
           "n": 24,
-          "text": "सुमन्तुं च महाभागं वैशंपायनमेव च ।\nजैमिनिं च महाप्राज्ञं पैलं चापि तपस्विनम् ॥"
+          "text": "सुमन्तुं च महाभागं वैशंपायनमेव च ।\nजैमिनिं च महाप्राज्ञं पैलं चापि तपस्विनम् ॥",
+          "meaning": {
+            "en": "His pupils were the illustrious Sumantu, Vaishampayana, the very wise Jaimini, and the ascetic Paila."
+          }
         },
         {
           "n": 25,
-          "text": "एभिः शिष्यैः परिवृतो व्यास आस्ते महातपाः ।\nतत्राश्रमपदं पुण्यं ददर्श पितुरुत्तमम् ।\nआरणेयो विशुद्धात्मा नभसीव दिवाकरः ॥"
+          "text": "एभिः शिष्यैः परिवृतो व्यास आस्ते महातपाः ।\nतत्राश्रमपदं पुण्यं ददर्श पितुरुत्तमम् ।\nआरणेयो विशुद्धात्मा नभसीव दिवाकरः ॥",
+          "meaning": {
+            "en": "Great Vyasa stayed surrounded by these pupils. There Shuka, pure in self, saw his father's excellent holy hermitage, like the sun in the sky."
+          }
         },
         {
           "n": 26,
-          "text": "अथ व्यासः परिक्षिप्तं ज्वलन्तमिव पावकम् ।\nददर्श सुतमायान्तं दिवाकरसमप्रभम् ॥"
+          "text": "अथ व्यासः परिक्षिप्तं ज्वलन्तमिव पावकम् ।\nददर्श सुतमायान्तं दिवाकरसमप्रभम् ॥",
+          "meaning": {
+            "en": "Then Vyasa saw his son coming, blazing like fire, with the radiance of the sun, as if ringed in flame."
+          }
         },
         {
           "n": 27,
-          "text": "असज्जमानं वृक्षेषु शैलेषु विषमेषु च ।\nयोगयुक्तं महात्मानं यथा बाणं गुणच्युतम् ॥"
+          "text": "असज्जमानं वृक्षेषु शैलेषु विषमेषु च ।\nयोगयुक्तं महात्मानं यथा बाणं गुणच्युतम् ॥",
+          "meaning": {
+            "en": "The great soul, joined in yoga, was unimpeded by trees and rugged mountains, like an arrow loosed from the bowstring."
+          }
         },
         {
           "n": 28,
-          "text": "सोऽभिगम्य पितुः पादावगृह्णादरणीसुतः ।\nयथोपजोषं तैश्चापि समागच्छन्महामुनिः ॥"
+          "text": "सोऽभिगम्य पितुः पादावगृह्णादरणीसुतः ।\nयथोपजोषं तैश्चापि समागच्छन्महामुनिः ॥",
+          "meaning": {
+            "en": "The son of Arani approached and clasped his father's feet, and then met those pupils, as was fitting, that great sage."
+          }
         },
         {
           "n": 29,
-          "text": "ततो निवेदयामास पित्रे सर्वमशेषतः ।\nशुको जनकराजेन संवादं प्रीतमानसः ॥"
+          "text": "ततो निवेदयामास पित्रे सर्वमशेषतः ।\nशुको जनकराजेन संवादं प्रीतमानसः ॥",
+          "meaning": {
+            "en": "Then, glad at heart, Shuka told his father everything in full about his conversation with King Janaka."
+          }
         },
         {
           "n": 30,
-          "text": "एवमध्यापयञ्शिष्यान्व्यासः पुत्रं च वीर्यवान् ।\nउवास हिमवत्पृष्ठे पाराशर्यो महामुनिः ॥"
+          "text": "एवमध्यापयञ्शिष्यान्व्यासः पुत्रं च वीर्यवान् ।\nउवास हिमवत्पृष्ठे पाराशर्यो महामुनिः ॥",
+          "meaning": {
+            "en": "So the mighty Vyasa, son of Parashara, lived on the Himalayan ridge, teaching his pupils and his son."
+          }
         },
         {
           "n": 31,
-          "text": "ततः कदाचिच्छिष्यास्तं परिवार्यावतस्थिरे ।\nवेदाध्ययनसंपन्नाः शान्तात्मानो जितेन्द्रियाः ॥"
+          "text": "ततः कदाचिच्छिष्यास्तं परिवार्यावतस्थिरे ।\nवेदाध्ययनसंपन्नाः शान्तात्मानो जितेन्द्रियाः ॥",
+          "meaning": {
+            "en": "Once, his pupils, accomplished in Vedic study, peaceful and self-controlled, gathered around him."
+          }
         },
         {
           "n": 32,
-          "text": "वेदेषु निष्ठां संप्राप्य साङ्गेष्वतितपस्विनः ।\nअथोचुस्ते तदा व्यासं शिष्याः प्राञ्जलयो गुरुम् ॥"
+          "text": "वेदेषु निष्ठां संप्राप्य साङ्गेष्वतितपस्विनः ।\nअथोचुस्ते तदा व्यासं शिष्याः प्राञ्जलयो गुरुम् ॥",
+          "meaning": {
+            "en": "Having reached mastery of the Vedas and their limbs, those great ascetics folded their hands and said to Vyasa, their teacher:"
+          }
         },
         {
           "n": 33,
-          "text": "महता श्रेयसा युक्ता यशसा च स्म वर्धिताः ।\nएकं त्विदानीमिच्छामो गुरुणानुग्रहं कृतम् ॥"
+          "text": "महता श्रेयसा युक्ता यशसा च स्म वर्धिताः ।\nएकं त्विदानीमिच्छामो गुरुणानुग्रहं कृतम् ॥",
+          "meaning": {
+            "en": "\"Endowed with great good fortune and increased in fame, we now wish for one favor from our teacher.\""
+          }
         },
         {
           "n": 34,
-          "text": "इति तेषां वचः श्रुत्वा ब्रह्मर्षिस्तानुवाच ह ।\nउच्यतामिति तद्वत्सा यद्वः कार्यं प्रियं मया ॥"
+          "text": "इति तेषां वचः श्रुत्वा ब्रह्मर्षिस्तानुवाच ह ।\nउच्यतामिति तद्वत्सा यद्वः कार्यं प्रियं मया ॥",
+          "meaning": {
+            "en": "Hearing their words, the brahmin sage said to them: \"Say it, children, what is the wish of yours that I may do.\""
+          }
         },
         {
           "n": 35,
-          "text": "एतद्वाक्यं गुरोः श्रुत्वा शिष्यास्ते हृष्टमानसाः ।\nपुनः प्राञ्जलयो भूत्वा प्रणम्य शिरसा गुरुम् ॥"
+          "text": "एतद्वाक्यं गुरोः श्रुत्वा शिष्यास्ते हृष्टमानसाः ।\nपुनः प्राञ्जलयो भूत्वा प्रणम्य शिरसा गुरुम् ॥",
+          "meaning": {
+            "en": "Hearing the teacher's words, the pupils were delighted; they again folded hands, bowed their heads to him,"
+          }
         },
         {
           "n": 36,
-          "text": "ऊचुस्ते सहिता राजन्निदं वचनमुत्तमम् ।\nयदि प्रीत उपाध्यायो धन्याः स्मो मुनिसत्तम ॥"
+          "text": "ऊचुस्ते सहिता राजन्निदं वचनमुत्तमम् ।\nयदि प्रीत उपाध्यायो धन्याः स्मो मुनिसत्तम ॥",
+          "meaning": {
+            "en": "and together said these excellent words, O king: \"If our teacher is pleased, we are fortunate, best of sages."
+          }
         },
         {
           "n": 37,
-          "text": "काङ्क्षामस्तु वयं सर्वे वरं दत्तं महर्षिणा ।\nषष्ठः शिष्यो न ते ख्यातिं गच्छेदत्र प्रसीद नः ॥"
+          "text": "काङ्क्षामस्तु वयं सर्वे वरं दत्तं महर्षिणा ।\nषष्ठः शिष्यो न ते ख्यातिं गच्छेदत्र प्रसीद नः ॥",
+          "meaning": {
+            "en": "We all ask for the boon the great sage has offered: let there be no sixth pupil of yours who gains renown here; be gracious to us."
+          }
         },
         {
           "n": 38,
-          "text": "चत्वारस्ते वयं शिष्या गुरुपुत्रश्च पञ्चमः ।\nइह वेदाः प्रतिष्ठेरन्नेष नः काङ्क्षितो वरः ॥"
+          "text": "चत्वारस्ते वयं शिष्या गुरुपुत्रश्च पञ्चमः ।\nइह वेदाः प्रतिष्ठेरन्नेष नः काङ्क्षितो वरः ॥",
+          "meaning": {
+            "en": "We four are your pupils and the teacher's son is the fifth; let the Vedas be established through us here. This is the boon we desire.\""
+          }
         },
         {
           "n": 39,
-          "text": "शिष्याणां वचनं श्रुत्वा व्यासो वेदार्थतत्त्ववित् ।\nपराशरात्मजो धीमान्परलोकार्थचिन्तकः ।\nउवाच शिष्यान्धर्मात्मा धर्म्यं नैःश्रेयसं वचः ॥"
+          "text": "शिष्याणां वचनं श्रुत्वा व्यासो वेदार्थतत्त्ववित् ।\nपराशरात्मजो धीमान्परलोकार्थचिन्तकः ।\nउवाच शिष्यान्धर्मात्मा धर्म्यं नैःश्रेयसं वचः ॥",
+          "meaning": {
+            "en": "Hearing his pupils' words, Vyasa, who knew the true meaning of the Vedas, Parashara's wise son, who thought of the welfare of the next world, righteous in soul, spoke to them words that were lawful and conducive to the highest good."
+          }
         },
         {
           "n": 40,
-          "text": "ब्राह्मणाय सदा देयं ब्रह्म शुश्रूषवे भवेत् ।\nब्रह्मलोके निवासं यो ध्रुवं समभिकाङ्क्षति ॥"
+          "text": "ब्राह्मणाय सदा देयं ब्रह्म शुश्रूषवे भवेत् ।\nब्रह्मलोके निवासं यो ध्रुवं समभिकाङ्क्षति ॥",
+          "meaning": {
+            "en": "\"Sacred knowledge should always be given to a brahmin who wishes to learn, for one who surely desires a place in the world of Brahman."
+          }
         },
         {
           "n": 41,
-          "text": "भवन्तो बहुलाः सन्तु वेदो विस्तार्यतामयम् ।\nनाशिष्ये संप्रदातव्यो नाव्रते नाकृतात्मनि ॥"
+          "text": "भवन्तो बहुलाः सन्तु वेदो विस्तार्यतामयम् ।\nनाशिष्ये संप्रदातव्यो नाव्रते नाकृतात्मनि ॥",
+          "meaning": {
+            "en": "May you be many; let this Veda be spread. But it must not be given to a non-pupil, to one without vows, or to one whose self is unformed."
+          }
         },
         {
           "n": 42,
-          "text": "एते शिष्यगुणाः सर्वे विज्ञातव्या यथार्थतः ।\nनापरीक्षितचारित्रे विद्या देया कथंचन ॥"
+          "text": "एते शिष्यगुणाः सर्वे विज्ञातव्या यथार्थतः ।\nनापरीक्षितचारित्रे विद्या देया कथंचन ॥",
+          "meaning": {
+            "en": "All these qualities of a pupil must be truly understood; learning should never be given to one whose conduct is untested."
+          }
         },
         {
           "n": 43,
-          "text": "यथा हि कनकं शुद्धं तापच्छेदनिघर्षणैः ।\nपरीक्षेत तथा शिष्यानीक्षेत्कुलगुणादिभिः ॥"
+          "text": "यथा हि कनकं शुद्धं तापच्छेदनिघर्षणैः ।\nपरीक्षेत तथा शिष्यानीक्षेत्कुलगुणादिभिः ॥",
+          "meaning": {
+            "en": "As pure gold is tested by heating, cutting, and rubbing, so pupils should be examined by their family, qualities, and the like."
+          }
         },
         {
           "n": 44,
-          "text": "न नियोज्याश्च वः शिष्या अनियोगे महाभये ।\nयथामति यथापाठं तथा विद्या फलिष्यति ॥"
+          "text": "न नियोज्याश्च वः शिष्या अनियोगे महाभये ।\nयथामति यथापाठं तथा विद्या फलिष्यति ॥",
+          "meaning": {
+            "en": "And you must not press pupils to teach when there is no need and no great danger; as each one understands and recites, so the learning will bear fruit."
+          }
         },
         {
           "n": 45,
-          "text": "सर्वस्तरतु दुर्गाणि सर्वो भद्राणि पश्यतु ।\nश्रावयेच्चतुरो वर्णान्कृत्वा ब्राह्मणमग्रतः ॥"
+          "text": "सर्वस्तरतु दुर्गाणि सर्वो भद्राणि पश्यतु ।\nश्रावयेच्चतुरो वर्णान्कृत्वा ब्राह्मणमग्रतः ॥",
+          "meaning": {
+            "en": "Let everyone cross through difficulties, let everyone see good things. Let one recite to all four classes, placing the brahmin first."
+          }
         },
         {
           "n": 46,
-          "text": "वेदस्याध्ययनं हीदं तच्च कार्यं महत्स्मृतम् ।\nस्तुत्यर्थमिह देवानां वेदाः सृष्टाः स्वयंभुवा ॥"
+          "text": "वेदस्याध्ययनं हीदं तच्च कार्यं महत्स्मृतम् ।\nस्तुत्यर्थमिह देवानां वेदाः सृष्टाः स्वयंभुवा ॥",
+          "meaning": {
+            "en": "This study of the Veda is declared a great duty; the Vedas were created by the Self-born for the praise of the gods."
+          }
         },
         {
           "n": 47,
-          "text": "यो निर्वदेत संमोहाद्ब्राह्मणं वेदपारगम् ।\nसोऽपध्यानाद्ब्राह्मणस्य पराभूयादसंशयम् ॥"
+          "text": "यो निर्वदेत संमोहाद्ब्राह्मणं वेदपारगम् ।\nसोऽपध्यानाद्ब्राह्मणस्य पराभूयादसंशयम् ॥",
+          "meaning": {
+            "en": "He who through delusion reviles a brahmin who has mastered the Veda will surely be brought low by his ill thought of that brahmin."
+          }
         },
         {
           "n": 48,
-          "text": "यश्चाधर्मेण विब्रूयाद्यश्चाधर्मेण पृच्छति ।\nतयोरन्यतरः प्रैति विद्वेषं वाधिगच्छति ॥"
+          "text": "यश्चाधर्मेण विब्रूयाद्यश्चाधर्मेण पृच्छति ।\nतयोरन्यतरः प्रैति विद्वेषं वाधिगच्छति ॥",
+          "meaning": {
+            "en": "Whoever teaches unlawfully, and whoever asks unlawfully, one of the two dies or meets with enmity."
+          }
         },
         {
           "n": 49,
-          "text": "एतद्वः सर्वमाख्यातं स्वाध्यायस्य विधिं प्रति ।\nउपकुर्याच्च शिष्याणामेतच्च हृदि वो भवेत् ॥"
+          "text": "एतद्वः सर्वमाख्यातं स्वाध्यायस्य विधिं प्रति ।\nउपकुर्याच्च शिष्याणामेतच्च हृदि वो भवेत् ॥",
+          "meaning": {
+            "en": "All this I have told you about the rule of Vedic recitation. Do good to your pupils, and keep this in your hearts.\""
+          }
         }
       ]
     }

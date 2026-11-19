@@ -22,86 +22,170 @@
       "titleEn": "Mokshadharma Parva (Duties for liberation)",
       "verses": [
         {
-          "text": "युधिष्ठिर उवाच"
+          "text": "युधिष्ठिर उवाच",
+          "meaning": {
+            "en": "Yudhishthira said:",
+            "hi": "युधिष्ठिर बोले—"
+          }
         },
         {
           "n": 1,
-          "text": "मोक्षः पितामहेनोक्त उपायान्नानुपायतः ।\nतमुपायं यथान्यायं श्रोतुमिच्छामि भारत ॥"
+          "text": "मोक्षः पितामहेनोक्त उपायान्नानुपायतः ।\nतमुपायं यथान्यायं श्रोतुमिच्छामि भारत ॥",
+          "meaning": {
+            "en": "Grandfather, you said liberation comes by means and not without means. I wish to hear that means rightly, Bharata.",
+            "hi": "पितामह, आपने कहा कि मोक्ष उपाय से मिलता है, अनुपाय से नहीं। हे भारत, मैं उस उपाय को यथोचित रीति से सुनना चाहता हूँ।"
+          }
         },
         {
-          "text": "भीष्म उवाच"
+          "text": "भीष्म उवाच",
+          "meaning": {
+            "en": "Bhishma said:",
+            "hi": "भीष्म बोले—"
+          }
         },
         {
           "n": 2,
-          "text": "त्वय्येवैतन्महाप्राज्ञ युक्तं निपुणदर्शनम् ।\nयदुपायेन सर्वार्थान्नित्यं मृगयसेऽनघ ॥"
+          "text": "त्वय्येवैतन्महाप्राज्ञ युक्तं निपुणदर्शनम् ।\nयदुपायेन सर्वार्थान्नित्यं मृगयसेऽनघ ॥",
+          "meaning": {
+            "en": "This subtle insight befits you alone, great wise one, sinless, since you always seek all ends by right means.",
+            "hi": "हे महाप्राज्ञ, यह सूक्ष्म दृष्टि तुम्हीं को शोभा देती है, क्योंकि हे निष्पाप, तुम सदा उपाय से ही सब प्रयोजनों को खोजते हो।"
+          }
         },
         {
           "n": 3,
-          "text": "करणे घटस्य या बुद्धिर्घटोत्पत्तौ न सानघ ।\nएवं धर्माभ्युपायेषु नान्यद्धर्मेषु कारणम् ॥"
+          "text": "करणे घटस्य या बुद्धिर्घटोत्पत्तौ न सानघ ।\nएवं धर्माभ्युपायेषु नान्यद्धर्मेषु कारणम् ॥",
+          "meaning": {
+            "en": "The understanding that is in making a pot is not in the pot's coming into being. So in the means to dharma, nothing else is the cause in the dharmas.",
+            "hi": "हे निष्पाप, घड़ा बनाने में जो बुद्धि है, वह घड़े के उत्पन्न होने में नहीं है। इसी प्रकार धर्म के उपायों में, धर्मों के बीच कोई दूसरा कारण नहीं है।"
+          }
         },
         {
           "n": 4,
-          "text": "पूर्वे समुद्रे यः पन्था न स गच्छति पश्चिमम् ।\nएकः पन्था हि मोक्षस्य तन्मे विस्तरतः शृणु ॥"
+          "text": "पूर्वे समुद्रे यः पन्था न स गच्छति पश्चिमम् ।\nएकः पन्था हि मोक्षस्य तन्मे विस्तरतः शृणु ॥",
+          "meaning": {
+            "en": "The road to the eastern sea does not go to the west. The path to liberation is one; hear it from me in detail.",
+            "hi": "पूर्व के समुद्र का जो मार्ग है, वह पश्चिम को नहीं जाता। मोक्ष का मार्ग एक ही है; उसे मुझसे विस्तार से सुनो।"
+          }
         },
         {
           "n": 5,
-          "text": "क्षमया क्रोधमुच्छिन्द्यात्कामं संकल्पवर्जनात् ।\nसत्त्वसंसेवनाद्धीरो निद्रामुच्छेतुमर्हति ॥"
+          "text": "क्षमया क्रोधमुच्छिन्द्यात्कामं संकल्पवर्जनात् ।\nसत्त्वसंसेवनाद्धीरो निद्रामुच्छेतुमर्हति ॥",
+          "meaning": {
+            "en": "Cut off anger by forgiveness and desire by abandoning willful intention; the steady man, by cultivating goodness, may overcome sleep.",
+            "hi": "क्षमा से क्रोध को काटे, और संकल्प त्यागने से काम को। सत्त्व (सात्त्विक गुण) की सेवा से धीर पुरुष निद्रा को भी नष्ट कर सकता है।"
+          }
         },
         {
           "n": 6,
-          "text": "अप्रमादाद्भयं रक्षेच्छ्वासं क्षेत्रज्ञशीलनात् ।\nइच्छां द्वेषं च कामं च धैर्येण विनिवर्तयेत् ॥"
+          "text": "अप्रमादाद्भयं रक्षेच्छ्वासं क्षेत्रज्ञशीलनात् ।\nइच्छां द्वेषं च कामं च धैर्येण विनिवर्तयेत् ॥",
+          "meaning": {
+            "en": "Guard against fear by vigilance, breath by studying the knower of the field; turn back wish, hatred and desire by steadiness.",
+            "hi": "सावधानी से भय की रक्षा करे, और क्षेत्रज्ञ के शील का अभ्यास करके श्वास को। इच्छा, द्वेष और काम को धैर्य से लौटाए।"
+          }
         },
         {
           "n": 7,
-          "text": "भ्रमं प्रमोहमावर्तमभ्यासाद्विनिवर्तयेत् ।\nनिद्रां च प्रतिभां चैव ज्ञानाभ्यासेन तत्त्ववित् ॥"
+          "text": "भ्रमं प्रमोहमावर्तमभ्यासाद्विनिवर्तयेत् ।\nनिद्रां च प्रतिभां चैव ज्ञानाभ्यासेन तत्त्ववित् ॥",
+          "meaning": {
+            "en": "One who knows truth should turn back error, bewilderment and whirl by practice, and sleep and flashes of fancy by practice of knowledge.",
+            "hi": "तत्त्वज्ञ भ्रम, मोह और आवर्त (चक्कर) को अभ्यास से लौटाए, और निद्रा तथा कल्पना की चमक को ज्ञान के अभ्यास से।"
+          }
         },
         {
           "n": 8,
-          "text": "उपद्रवांस्तथा रोगान्हितजीर्णमिताशनात् ।\nलोभं मोहं च संतोषाद्विषयांस्तत्त्वदर्शनात् ॥"
+          "text": "उपद्रवांस्तथा रोगान्हितजीर्णमिताशनात् ।\nलोभं मोहं च संतोषाद्विषयांस्तत्त्वदर्शनात् ॥",
+          "meaning": {
+            "en": "Troubles and diseases are overcome by eating what is wholesome, digested and measured; greed and delusion by contentment; sense objects by seeing the truth.",
+            "hi": "उपद्रव और रोगों को हितकारी, सुपाच्य और परिमित भोजन से जीते। लोभ और मोह को संतोष से, और विषयों को तत्त्वदर्शन से।"
+          }
         },
         {
           "n": 9,
-          "text": "अनुक्रोशादधर्मं च जयेद्धर्ममुपेक्षया ।\nआयत्या च जयेदाशामर्थं सङ्गविवर्जनात् ॥"
+          "text": "अनुक्रोशादधर्मं च जयेद्धर्ममुपेक्षया ।\nआयत्या च जयेदाशामर्थं सङ्गविवर्जनात् ॥",
+          "meaning": {
+            "en": "One should conquer adharma by compassion and dharma by indifference, hope by foresight, wealth by renouncing attachment.",
+            "hi": "अनुकंपा से अधर्म को और उपेक्षा से धर्म को जीते। भविष्य की दृष्टि से आशा को, और आसक्ति त्यागने से धन को जीते।"
+          }
         },
         {
           "n": 10,
-          "text": "अनित्यत्वेन च स्नेहं क्षुधं योगेन पण्डितः ।\nकारुण्येनात्मनो मानं तृष्णां च परितोषतः ॥"
+          "text": "अनित्यत्वेन च स्नेहं क्षुधं योगेन पण्डितः ।\nकारुण्येनात्मनो मानं तृष्णां च परितोषतः ॥",
+          "meaning": {
+            "en": "The wise conquer affection by seeing impermanence, hunger by yoga, pride of self by compassion, and thirst by satisfaction.",
+            "hi": "बुद्धिमान अनित्यता देखकर स्नेह को, योग से भूख को, करुणा से आत्माभिमान को, और संतोष से तृष्णा को जीते।"
+          }
         },
         {
           "n": 11,
-          "text": "उत्थानेन जयेत्तन्द्रीं वितर्कं निश्चयाज्जयेत् ।\nमौनेन बहुभाष्यं च शौर्येण च भयं जयेत् ॥"
+          "text": "उत्थानेन जयेत्तन्द्रीं वितर्कं निश्चयाज्जयेत् ।\nमौनेन बहुभाष्यं च शौर्येण च भयं जयेत् ॥",
+          "meaning": {
+            "en": "Conquer drowsiness by exertion, speculation by certainty, talkativeness by silence, and fear by courage.",
+            "hi": "उद्यम से तंद्रा को, निश्चय से वितर्क को, मौन से बहुत बोलने को, और शौर्य से भय को जीते।"
+          }
         },
         {
           "n": 12,
-          "text": "यच्छेद्वाङ्मनसी बुद्ध्या तां यच्छेज्ज्ञानचक्षुषा ।\nज्ञानमात्मा महान्यच्छेत्तं यच्छेच्छान्तिरात्मनः ॥"
+          "text": "यच्छेद्वाङ्मनसी बुद्ध्या तां यच्छेज्ज्ञानचक्षुषा ।\nज्ञानमात्मा महान्यच्छेत्तं यच्छेच्छान्तिरात्मनः ॥",
+          "meaning": {
+            "en": "Restrain speech and mind by understanding; restrain that by the eye of knowledge; restrain knowledge by the great self, and restrain that by the peace of the self.",
+            "hi": "वाणी और मन को बुद्धि से संयमित करे; उसे ज्ञान-रूपी नेत्र से संयमित करे; ज्ञान को महान आत्मा से संयमित करे, और उसे भी आत्मा की शांति से संयमित करे।"
+          }
         },
         {
           "n": 13,
-          "text": "तदेतदुपशान्तेन बोद्धव्यं शुचिकर्मणा ।\nयोगदोषान्समुच्छिद्य पञ्च यान्कवयो विदुः ॥"
+          "text": "तदेतदुपशान्तेन बोद्धव्यं शुचिकर्मणा ।\nयोगदोषान्समुच्छिद्य पञ्च यान्कवयो विदुः ॥",
+          "meaning": {
+            "en": "This is to be understood by the calm man of pure deeds, having cut off the five faults of yoga that the wise know.",
+            "hi": "इसे शांत और शुद्ध कर्म वाले पुरुष को समझना चाहिए, योग के उन पाँच दोषों को काटकर, जिन्हें ज्ञानी जानते हैं।"
+          }
         },
         {
           "n": 14,
-          "text": "कामं क्रोधं च लोभं च भयं स्वप्नं च पञ्चमम् ।\nपरित्यज्य निषेवेत तथेमान्योगसाधनान् ॥"
+          "text": "कामं क्रोधं च लोभं च भयं स्वप्नं च पञ्चमम् ।\nपरित्यज्य निषेवेत तथेमान्योगसाधनान् ॥",
+          "meaning": {
+            "en": "Giving up desire, anger, greed, fear and sleep as the fifth, one should then practice these means to yoga.",
+            "hi": "काम, क्रोध, लोभ, भय और पाँचवीं निद्रा का त्याग करके, फिर इन योग-साधनों का सेवन करे।"
+          }
         },
         {
           "n": 15,
-          "text": "ध्यानमध्ययनं दानं सत्यं ह्रीरार्जवं क्षमा ।\nशौचमाहारतः शुद्धिरिन्द्रियाणां च संयमः ॥"
+          "text": "ध्यानमध्ययनं दानं सत्यं ह्रीरार्जवं क्षमा ।\nशौचमाहारतः शुद्धिरिन्द्रियाणां च संयमः ॥",
+          "meaning": {
+            "en": "Meditation, study, giving, truth, modesty, uprightness, forgiveness, purity, cleanliness through food, and restraint of the senses:",
+            "hi": "ध्यान, अध्ययन, दान, सत्य, लज्जा, सरलता, क्षमा, शौच, आहार से शुद्धि, और इंद्रियों का संयम—"
+          }
         },
         {
           "n": 16,
-          "text": "एतैर्विवर्धते तेजः पाप्मानमपहन्ति च ।\nसिध्यन्ति चास्य संकल्पा विज्ञानं च प्रवर्तते ॥"
+          "text": "एतैर्विवर्धते तेजः पाप्मानमपहन्ति च ।\nसिध्यन्ति चास्य संकल्पा विज्ञानं च प्रवर्तते ॥",
+          "meaning": {
+            "en": "by these radiance grows and sin is destroyed; his resolves succeed and discernment arises.",
+            "hi": "इनसे तेज बढ़ता है और पाप नष्ट होता है; उसके संकल्प सिद्ध होते हैं और विवेक उत्पन्न होता है।"
+          }
         },
         {
           "n": 17,
-          "text": "धूतपापः स तेजस्वी लघ्वाहारो जितेन्द्रियः ।\nकामक्रोधौ वशे कृत्वा निनीषेद्ब्रह्मणः पदम् ॥"
+          "text": "धूतपापः स तेजस्वी लघ्वाहारो जितेन्द्रियः ।\nकामक्रोधौ वशे कृत्वा निनीषेद्ब्रह्मणः पदम् ॥",
+          "meaning": {
+            "en": "With sin shaken off, radiant, eating lightly, with senses conquered and desire and anger under control, he should wish to lead himself to the abode of Brahman.",
+            "hi": "पाप को झाड़ देने वाला, तेजस्वी, हल्का आहार लेने वाला, जितेन्द्रिय पुरुष काम और क्रोध को वश में करके ब्रह्म के पद तक पहुँचने की इच्छा करे।"
+          }
         },
         {
           "n": 18,
-          "text": "अमूढत्वमसङ्गित्वं कामक्रोधविवर्जनम् ।\nअदैन्यमनुदीर्णत्वमनुद्वेगो व्यवस्थितिः ॥"
+          "text": "अमूढत्वमसङ्गित्वं कामक्रोधविवर्जनम् ।\nअदैन्यमनुदीर्णत्वमनुद्वेगो व्यवस्थितिः ॥",
+          "meaning": {
+            "en": "Freedom from bewilderment, nonattachment, rejecting desire and anger, no dejection, no excess, no agitation, steadiness:",
+            "hi": "मोह-रहितता, आसक्ति-रहितता, काम और क्रोध का त्याग, दीनता का अभाव, उग्रता का अभाव, उद्वेग-रहितता और स्थिरता—"
+          }
         },
         {
           "n": 19,
-          "text": "एष मार्गो हि मोक्षस्य प्रसन्नो विमलः शुचिः ।\nतथा वाक्कायमनसां नियमः कामतोऽन्यथा ॥"
+          "text": "एष मार्गो हि मोक्षस्य प्रसन्नो विमलः शुचिः ।\nतथा वाक्कायमनसां नियमः कामतोऽन्यथा ॥",
+          "meaning": {
+            "en": "this is the path of liberation, clear, stainless and pure; and so is the control of speech, body and mind; otherwise it is by desire.",
+            "hi": "यही मोक्ष का मार्ग है, जो निर्मल, स्वच्छ और पवित्र है; और वाणी, शरीर तथा मन का संयम भी वैसा ही है। अन्यथा वह इच्छा से (होता) है।"
+          }
         }
       ]
     }

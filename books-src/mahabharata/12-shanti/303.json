@@ -22,91 +22,157 @@
       "titleEn": "Mokshadharma Parva (Duties for liberation)",
       "verses": [
         {
-          "text": "याज्ञवल्क्य उवाच"
+          "text": "याज्ञवल्क्य उवाच",
+          "meaning": {
+            "en": "Yajnavalkya said:"
+          }
         },
         {
           "n": 1,
-          "text": "न शक्यो निर्गुणस्तात गुणीकर्तुं विशां पते ।\nगुणवांश्चाप्यगुणवान्यथातत्त्वं निबोध मे ॥"
+          "text": "न शक्यो निर्गुणस्तात गुणीकर्तुं विशां पते ।\nगुणवांश्चाप्यगुणवान्यथातत्त्वं निबोध मे ॥",
+          "meaning": {
+            "en": "Dear one, lord of men, the qualityless cannot be made to have qualities. Hear from me truly how one has qualities and also lacks them."
+          }
         },
         {
           "n": 2,
-          "text": "गुणैर्हि गुणवानेव निर्गुणश्चागुणस्तथा ।\nप्राहुरेवं महात्मानो मुनयस्तत्त्वदर्शिनः ॥"
+          "text": "गुणैर्हि गुणवानेव निर्गुणश्चागुणस्तथा ।\nप्राहुरेवं महात्मानो मुनयस्तत्त्वदर्शिनः ॥",
+          "meaning": {
+            "en": "Through the qualities one is possessed of qualities, and the qualityless is without them; so the great-souled sages who see the truth say."
+          }
         },
         {
           "n": 3,
-          "text": "गुणस्वभावस्त्वव्यक्तो गुणानेवाभिवर्तते ।\nउपयुङ्क्ते च तानेव स चैवाज्ञः स्वभावतः ॥"
+          "text": "गुणस्वभावस्त्वव्यक्तो गुणानेवाभिवर्तते ।\nउपयुङ्क्ते च तानेव स चैवाज्ञः स्वभावतः ॥",
+          "meaning": {
+            "en": "The unmanifest, whose nature is the qualities, turns only toward the qualities and makes use of them; and by nature it is ignorant."
+          }
         },
         {
           "n": 4,
-          "text": "अव्यक्तस्तु न जानीते पुरुषो ज्ञः स्वभावतः ।\nन मत्तः परमस्तीति नित्यमेवाभिमन्यते ॥"
+          "text": "अव्यक्तस्तु न जानीते पुरुषो ज्ञः स्वभावतः ।\nन मत्तः परमस्तीति नित्यमेवाभिमन्यते ॥",
+          "meaning": {
+            "en": "The unmanifest does not know; the Person is by nature the knower. The unmanifest always thinks, \"There is nothing higher than I.\""
+          }
         },
         {
           "n": 5,
-          "text": "अनेन कारणेनैतदव्यक्तं स्यादचेतनम् ।\nनित्यत्वादक्षरत्वाच्च क्षराणां तत्त्वतोऽन्यथा ॥"
+          "text": "अनेन कारणेनैतदव्यक्तं स्यादचेतनम् ।\nनित्यत्वादक्षरत्वाच्च क्षराणां तत्त्वतोऽन्यथा ॥",
+          "meaning": {
+            "en": "For this reason the unmanifest is unconscious; and in truth it differs from the perishable things by being eternal and imperishable."
+          }
         },
         {
           "n": 6,
-          "text": "यदाज्ञानेन कुर्वीत गुणसर्गं पुनः पुनः ।\nयदात्मानं न जानीते तदाव्यक्तमिहोच्यते ॥"
+          "text": "यदाज्ञानेन कुर्वीत गुणसर्गं पुनः पुनः ।\nयदात्मानं न जानीते तदाव्यक्तमिहोच्यते ॥",
+          "meaning": {
+            "en": "When through ignorance one makes the creation of qualities again and again, and does not know the Self, then it is called the unmanifest here."
+          }
         },
         {
           "n": 7,
-          "text": "कर्तृत्वाच्चापि तत्त्वानां तत्त्वधर्मी तथोच्यते ।\nकर्तृत्वाच्चैव योनीनां योनिधर्मा तथोच्यते ॥"
+          "text": "कर्तृत्वाच्चापि तत्त्वानां तत्त्वधर्मी तथोच्यते ।\nकर्तृत्वाच्चैव योनीनां योनिधर्मा तथोच्यते ॥",
+          "meaning": {
+            "en": "Because it is the maker of the principles it is called the possessor of the nature of principles; and because it makes the wombs it is called of the nature of the wombs."
+          }
         },
         {
           "n": 8,
-          "text": "कर्तृत्वात्प्रकृतीनां तु तथा प्रकृतिधर्मिता ।\nकर्तृत्वाच्चापि बीजानां बीजधर्मी तथोच्यते ॥"
+          "text": "कर्तृत्वात्प्रकृतीनां तु तथा प्रकृतिधर्मिता ।\nकर्तृत्वाच्चापि बीजानां बीजधर्मी तथोच्यते ॥",
+          "meaning": {
+            "en": "Because it makes the natures it is of the nature of natures; and because it makes the seeds it is called of the nature of seeds."
+          }
         },
         {
           "n": 9,
-          "text": "गुणानां प्रसवत्वाच्च तथा प्रसवधर्मवान् ।\nकर्तृत्वात्प्रलयानां च तथा प्रलयधर्मिता ॥"
+          "text": "गुणानां प्रसवत्वाच्च तथा प्रसवधर्मवान् ।\nकर्तृत्वात्प्रलयानां च तथा प्रलयधर्मिता ॥",
+          "meaning": {
+            "en": "Because it brings forth the qualities it has the nature of bringing forth, and because it makes dissolutions it has the nature of dissolution."
+          }
         },
         {
           "n": 10,
-          "text": "बीजत्वात्प्रकृतित्वाच्च प्रलयत्वात्तथैव च ।\nउपेक्षकत्वादन्यत्वादभिमानाच्च केवलम् ॥"
+          "text": "बीजत्वात्प्रकृतित्वाच्च प्रलयत्वात्तथैव च ।\nउपेक्षकत्वादन्यत्वादभिमानाच्च केवलम् ॥",
+          "meaning": {
+            "en": "Because it is seed, nature and dissolution, and also because it is indifferent, other, and merely self-regarding..."
+          }
         },
         {
           "n": 11,
-          "text": "मन्यन्ते यतयः शुद्धा अध्यात्मविगतज्वराः ।\nअनित्यं नित्यमव्यक्तमेवमेतद्धि शुश्रुम ॥"
+          "text": "मन्यन्ते यतयः शुद्धा अध्यात्मविगतज्वराः ।\nअनित्यं नित्यमव्यक्तमेवमेतद्धि शुश्रुम ॥",
+          "meaning": {
+            "en": "...pure ascetics, free of the fever of the Self, think so: the unmanifest is both noneternal and eternal; so we have heard."
+          }
         },
         {
           "n": 12,
-          "text": "अव्यक्तैकत्वमित्याहुर्नानात्वं पुरुषस्तथा ।\nसर्वभूतदयावन्तः केवलं ज्ञानमास्थिताः ॥"
+          "text": "अव्यक्तैकत्वमित्याहुर्नानात्वं पुरुषस्तथा ।\nसर्वभूतदयावन्तः केवलं ज्ञानमास्थिताः ॥",
+          "meaning": {
+            "en": "They say the unmanifest is one and the Person is many; those who are compassionate to all beings rest in aloneness of knowledge."
+          }
         },
         {
           "n": 13,
-          "text": "अन्यः स पुरुषोऽव्यक्तस्त्वध्रुवो ध्रुवसंज्ञकः ।\nयथा मुञ्ज इषीकायास्तथैवैतद्धि जायते ॥"
+          "text": "अन्यः स पुरुषोऽव्यक्तस्त्वध्रुवो ध्रुवसंज्ञकः ।\nयथा मुञ्ज इषीकायास्तथैवैतद्धि जायते ॥",
+          "meaning": {
+            "en": "That Person is other than the unmanifest, the unstable and the stable; it arises just as the reed arises from the munja grass."
+          }
         },
         {
           "n": 14,
-          "text": "अन्यं च मशकं विद्यादन्यच्चोदुम्बरं तथा ।\nन चोदुम्बरसंयोगैर्मशकस्तत्र लिप्यते ॥"
+          "text": "अन्यं च मशकं विद्यादन्यच्चोदुम्बरं तथा ।\nन चोदुम्बरसंयोगैर्मशकस्तत्र लिप्यते ॥",
+          "meaning": {
+            "en": "Know the gnat to be one thing and the fig another; the gnat is not stained by contact with the fig there."
+          }
         },
         {
           "n": 15,
-          "text": "अन्य एव तथा मत्स्यस्तथान्यदुदकं स्मृतम् ।\nन चोदकस्य स्पर्शेन मत्स्यो लिप्यति सर्वशः ॥"
+          "text": "अन्य एव तथा मत्स्यस्तथान्यदुदकं स्मृतम् ।\nन चोदकस्य स्पर्शेन मत्स्यो लिप्यति सर्वशः ॥",
+          "meaning": {
+            "en": "The fish is another and the water held to be another; the fish is in no way stained by touching the water."
+          }
         },
         {
           "n": 16,
-          "text": "अन्यो ह्यग्निरुखाप्यन्या नित्यमेवमवैहि भोः ।\nन चोपलिप्यते सोऽग्निरुखासंस्पर्शनेन वै ॥"
+          "text": "अन्यो ह्यग्निरुखाप्यन्या नित्यमेवमवैहि भोः ।\nन चोपलिप्यते सोऽग्निरुखासंस्पर्शनेन वै ॥",
+          "meaning": {
+            "en": "Fire is one thing and the pot another; know this always: the fire is not stained by touching the pot."
+          }
         },
         {
           "n": 17,
-          "text": "पुष्करं त्वन्यदेवात्र तथान्यदुदकं स्मृतम् ।\nन चोदकस्य स्पर्शेन लिप्यते तत्र पुष्करम् ॥"
+          "text": "पुष्करं त्वन्यदेवात्र तथान्यदुदकं स्मृतम् ।\nन चोदकस्य स्पर्शेन लिप्यते तत्र पुष्करम् ॥",
+          "meaning": {
+            "en": "The lotus is one thing here and the water another; the lotus is not stained there by touching the water."
+          }
         },
         {
           "n": 18,
-          "text": "एतेषां सह संवासं विवासं चैव नित्यशः ।\nयथा तथैनं पश्यन्ति न नित्यं प्राकृता जनाः ॥"
+          "text": "एतेषां सह संवासं विवासं चैव नित्यशः ।\nयथा तथैनं पश्यन्ति न नित्यं प्राकृता जनाः ॥",
+          "meaning": {
+            "en": "Ordinary people do not always see how these dwell together and apart."
+          }
         },
         {
           "n": 19,
-          "text": "ये त्वन्यथैव पश्यन्ति न सम्यक्तेषु दर्शनम् ।\nते व्यक्तं निरयं घोरं प्रविशन्ति पुनः पुनः ॥"
+          "text": "ये त्वन्यथैव पश्यन्ति न सम्यक्तेषु दर्शनम् ।\nते व्यक्तं निरयं घोरं प्रविशन्ति पुनः पुनः ॥",
+          "meaning": {
+            "en": "Those who see otherwise do not see rightly; they enter the manifest, terrible hell again and again."
+          }
         },
         {
           "n": 20,
-          "text": "सांख्यदर्शनमेतत्ते परिसंख्यातमुत्तमम् ।\nएवं हि परिसंख्याय सांख्याः केवलतां गताः ॥"
+          "text": "सांख्यदर्शनमेतत्ते परिसंख्यातमुत्तमम् ।\nएवं हि परिसंख्याय सांख्याः केवलतां गताः ॥",
+          "meaning": {
+            "en": "This is the excellent Sankhya view, counted out for you; so counting, the Sankhyas have reached aloneness."
+          }
         },
         {
           "n": 21,
-          "text": "ये त्वन्ये तत्त्वकुशलास्तेषामेतन्निदर्शनम् ।\nअतः परं प्रवक्ष्यामि योगानामपि दर्शनम् ॥"
+          "text": "ये त्वन्ये तत्त्वकुशलास्तेषामेतन्निदर्शनम् ।\nअतः परं प्रवक्ष्यामि योगानामपि दर्शनम् ॥",
+          "meaning": {
+            "en": "This is the illustration of the others who are skilled in principles. Next I shall tell you the vision of the Yogis too."
+          }
         }
       ]
     }

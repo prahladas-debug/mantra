@@ -22,54 +22,93 @@
       "titleEn": "Mokshadharma Parva (Duties for liberation)",
       "verses": [
         {
-          "text": "युधिष्ठिर उवाच"
+          "text": "युधिष्ठिर उवाच",
+          "meaning": {
+            "en": "Yudhishthira said:"
+          }
         },
         {
           "n": 1,
-          "text": "कीदृशो जापको याति निरयं वर्णयस्व मे ।\nकौतूहलं हि मे जातं तद्भवान्वक्तुमर्हति ॥"
+          "text": "कीदृशो जापको याति निरयं वर्णयस्व मे ।\nकौतूहलं हि मे जातं तद्भवान्वक्तुमर्हति ॥",
+          "meaning": {
+            "en": "Describe to me what sort of reciter goes to hell. Curiosity has arisen in me, and you should tell it."
+          }
         },
         {
-          "text": "भीष्म उवाच"
+          "text": "भीष्म उवाच",
+          "meaning": {
+            "en": "Bhishma said:"
+          }
         },
         {
           "n": 2,
-          "text": "धर्मस्यांशः प्रसूतोऽसि धर्मिष्ठोऽसि स्वभावतः ।\nधर्ममूलाश्रयं वाक्यं शृणुष्वावहितोऽनघ ॥"
+          "text": "धर्मस्यांशः प्रसूतोऽसि धर्मिष्ठोऽसि स्वभावतः ।\nधर्ममूलाश्रयं वाक्यं शृणुष्वावहितोऽनघ ॥",
+          "meaning": {
+            "en": "You were born as a part of Dharma and are by nature most righteous; sinless one, listen attentively to words that rest on the root of righteousness."
+          }
         },
         {
           "n": 3,
-          "text": "अमूनि यानि स्थानानि देवानां परमात्मनाम् ।\nनानासंस्थानवर्णानि नानारूपफलानि च ॥"
+          "text": "अमूनि यानि स्थानानि देवानां परमात्मनाम् ।\nनानासंस्थानवर्णानि नानारूपफलानि च ॥",
+          "meaning": {
+            "en": "These abodes of the gods, who are great-souled, have varied shapes and colours and varied forms and fruits."
+          }
         },
         {
           "n": 4,
-          "text": "दिव्यानि कामचारीणि विमानानि सभास्तथा ।\nआक्रीडा विविधा राजन्पद्मिन्यश्चामलोदकाः ॥"
+          "text": "दिव्यानि कामचारीणि विमानानि सभास्तथा ।\nआक्रीडा विविधा राजन्पद्मिन्यश्चामलोदकाः ॥",
+          "meaning": {
+            "en": "There are divine chariots that go at will, assembly halls, many pleasure-grounds, king, and lotus pools of clear water."
+          }
         },
         {
           "n": 5,
-          "text": "चतुर्णां लोकपालानां शुक्रस्याथ बृहस्पतेः ।\nमरुतां विश्वदेवानां साध्यानामश्विनोरपि ॥"
+          "text": "चतुर्णां लोकपालानां शुक्रस्याथ बृहस्पतेः ।\nमरुतां विश्वदेवानां साध्यानामश्विनोरपि ॥",
+          "meaning": {
+            "en": "They belong to the four guardians of the world, to Shukra and Brihaspati, to the Maruts, the Vishvedevas, the Sadhyas and the two Ashvins,"
+          }
         },
         {
           "n": 6,
-          "text": "रुद्रादित्यवसूनां च तथान्येषां दिवौकसाम् ।\nएते वै निरयास्तात स्थानस्य परमात्मनः ॥"
+          "text": "रुद्रादित्यवसूनां च तथान्येषां दिवौकसाम् ।\nएते वै निरयास्तात स्थानस्य परमात्मनः ॥",
+          "meaning": {
+            "en": "to the Rudras, Adityas and Vasus, and to the other dwellers in heaven. These, my son, are the hells compared with the abode of the Supreme Self."
+          }
         },
         {
           "n": 7,
-          "text": "अभयं चानिमित्तं च न च क्लेशभयावृतम् ।\nद्वाभ्यां मुक्तं त्रिभिर्मुक्तमष्टाभिस्त्रिभिरेव च ॥"
+          "text": "अभयं चानिमित्तं च न च क्लेशभयावृतम् ।\nद्वाभ्यां मुक्तं त्रिभिर्मुक्तमष्टाभिस्त्रिभिरेव च ॥",
+          "meaning": {
+            "en": "That abode is fearless and without cause, not enveloped by distress or fear; free from two, free from three, from eight and from three again."
+          }
         },
         {
           "n": 8,
-          "text": "चतुर्लक्षणवर्जं तु चतुष्कारणवर्जितम् ।\nअप्रहर्षमनानन्दमशोकं विगतक्लमम् ॥"
+          "text": "चतुर्लक्षणवर्जं तु चतुष्कारणवर्जितम् ।\nअप्रहर्षमनानन्दमशोकं विगतक्लमम् ॥",
+          "meaning": {
+            "en": "It is without four marks and lacks four causes; it has no joy and no delight, no grief and no weariness."
+          }
         },
         {
           "n": 9,
-          "text": "कालः संपच्यते तत्र न कालस्तत्र वै प्रभुः ।\nस कालस्य प्रभू राजन्स्वर्गस्यापि तथेश्वरः ॥"
+          "text": "कालः संपच्यते तत्र न कालस्तत्र वै प्रभुः ।\nस कालस्य प्रभू राजन्स्वर्गस्यापि तथेश्वरः ॥",
+          "meaning": {
+            "en": "Time ripens things there, yet Time is not lord there; the one who is lord of Time, king, is also the master of heaven."
+          }
         },
         {
           "n": 10,
-          "text": "आत्मकेवलतां प्राप्तस्तत्र गत्वा न शोचति ।\nईदृशं परमं स्थानं निरयास्ते च तादृशाः ॥"
+          "text": "आत्मकेवलतां प्राप्तस्तत्र गत्वा न शोचति ।\nईदृशं परमं स्थानं निरयास्ते च तादृशाः ॥",
+          "meaning": {
+            "en": "One who has reached the aloneness of the Self goes there and does not grieve. Such is the supreme abode, and such are those hells beside it."
+          }
         },
         {
           "n": 11,
-          "text": "एते ते निरयाः प्रोक्ताः सर्व एव यथातथम् ।\nतस्य स्थानवरस्येह सर्वे निरयसंज्ञिताः ॥"
+          "text": "एते ते निरयाः प्रोक्ताः सर्व एव यथातथम् ।\nतस्य स्थानवरस्येह सर्वे निरयसंज्ञिताः ॥",
+          "meaning": {
+            "en": "All these hells have been described to you exactly as they are; compared with that best of abodes, all are called hells."
+          }
         }
       ]
     }

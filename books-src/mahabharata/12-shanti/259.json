@@ -22,165 +22,291 @@
       "titleEn": "Mokshadharma Parva (Duties for liberation)",
       "verses": [
         {
-          "text": "युधिष्ठिर उवाच"
+          "text": "युधिष्ठिर उवाच",
+          "meaning": {
+            "en": "Yudhishthira said:"
+          }
         },
         {
           "n": 1,
-          "text": "कथं राजा प्रजा रक्षेन्न च किंचित्प्रतापयेत् ।\nपृच्छामि त्वां सतां श्रेष्ठ तन्मे ब्रूहि पितामह ॥"
+          "text": "कथं राजा प्रजा रक्षेन्न च किंचित्प्रतापयेत् ।\nपृच्छामि त्वां सतां श्रेष्ठ तन्मे ब्रूहि पितामह ॥",
+          "meaning": {
+            "en": "How should a king protect his subjects without tormenting anyone? I ask you, best of the good; tell me this, grandfather."
+          }
         },
         {
-          "text": "भीष्म उवाच"
+          "text": "भीष्म उवाच",
+          "meaning": {
+            "en": "Bhishma said:"
+          }
         },
         {
           "n": 2,
-          "text": "अत्राप्युदाहरन्तीममितिहासं पुरातनम् ।\nद्युमत्सेनस्य संवादं राज्ञा सत्यवता सह ॥"
+          "text": "अत्राप्युदाहरन्तीममितिहासं पुरातनम् ।\nद्युमत्सेनस्य संवादं राज्ञा सत्यवता सह ॥",
+          "meaning": {
+            "en": "On this too they tell this ancient tale, the dialogue of Dyumatsena with King Satyavan."
+          }
         },
         {
           "n": 3,
-          "text": "अव्याहृतं व्याजहार सत्यवानिति नः श्रुतम् ।\nवधाय नीयमानेषु पितुरेवानुशासनात् ॥"
+          "text": "अव्याहृतं व्याजहार सत्यवानिति नः श्रुतम् ।\nवधाय नीयमानेषु पितुरेवानुशासनात् ॥",
+          "meaning": {
+            "en": "We have heard that Satyavan spoke what had not been said before, when people were being led to execution by his father's own command."
+          }
         },
         {
           "n": 4,
-          "text": "अधर्मतां याति धर्मो यात्यधर्मश्च धर्मताम् ।\nवधो नाम भवेद्धर्मो नैतद्भवितुमर्हति ॥"
+          "text": "अधर्मतां याति धर्मो यात्यधर्मश्च धर्मताम् ।\nवधो नाम भवेद्धर्मो नैतद्भवितुमर्हति ॥",
+          "meaning": {
+            "en": "\"Dharma becomes adharma, and adharma becomes dharma. Killing as dharma cannot properly be.\""
+          }
         },
         {
-          "text": "द्युमत्सेन उवाच"
+          "text": "द्युमत्सेन उवाच",
+          "meaning": {
+            "en": "Dyumatsena said:"
+          }
         },
         {
           "n": 5,
-          "text": "अथ चेदवधो धर्मो धर्मः को जातु चिद्भवेत् ।\nदस्यवश्चेन्न हन्येरन्सत्यवन्संकरो भवेत् ॥"
+          "text": "अथ चेदवधो धर्मो धर्मः को जातु चिद्भवेत् ।\nदस्यवश्चेन्न हन्येरन्सत्यवन्संकरो भवेत् ॥",
+          "meaning": {
+            "en": "If not killing is dharma, then what could ever be dharma? Satyavan, if robbers were not killed there would be confusion."
+          }
         },
         {
           "n": 6,
-          "text": "ममेदमिति नास्यैतत्प्रवर्तेत कलौ युगे ।\nलोकयात्रा न चैव स्यादथ चेद्वेत्थ शंस नः ॥"
+          "text": "ममेदमिति नास्यैतत्प्रवर्तेत कलौ युगे ।\nलोकयात्रा न चैव स्यादथ चेद्वेत्थ शंस नः ॥",
+          "meaning": {
+            "en": "\"This is mine\" would not hold for anyone in the Kali age, and the world's course would not go on. If you know otherwise, tell us."
+          }
         },
         {
-          "text": "सत्यवानुवाच"
+          "text": "सत्यवानुवाच",
+          "meaning": {
+            "en": "Satyavan said:"
+          }
         },
         {
           "n": 7,
-          "text": "सर्व एव त्रयो वर्णाः कार्या ब्राह्मणबन्धनाः ।\nधर्मपाशनिबद्धानामल्पो व्यपचरिष्यति ॥"
+          "text": "सर्व एव त्रयो वर्णाः कार्या ब्राह्मणबन्धनाः ।\nधर्मपाशनिबद्धानामल्पो व्यपचरिष्यति ॥",
+          "meaning": {
+            "en": "All three classes should be bound to the brahmins. Of those bound by the noose of dharma, few will go astray."
+          }
         },
         {
           "n": 8,
-          "text": "यो यस्तेषामपचरेत्तमाचक्षीत वै द्विजः ।\nअयं मे न शृणोतीति तस्मिन्राजा प्रधारयेत् ॥"
+          "text": "यो यस्तेषामपचरेत्तमाचक्षीत वै द्विजः ।\nअयं मे न शृणोतीति तस्मिन्राजा प्रधारयेत् ॥",
+          "meaning": {
+            "en": "Whoever among them strays, the brahmin should report: \"This one does not listen to me\"; and the king should decide the matter regarding him."
+          }
         },
         {
           "n": 9,
-          "text": "तत्त्वाभेदेन यच्छास्त्रं तत्कार्यं नान्यथा वधः ।\nअसमीक्ष्यैव कर्माणि नीतिशास्त्रं यथाविधि ॥"
+          "text": "तत्त्वाभेदेन यच्छास्त्रं तत्कार्यं नान्यथा वधः ।\nअसमीक्ष्यैव कर्माणि नीतिशास्त्रं यथाविधि ॥",
+          "meaning": {
+            "en": "What the scripture prescribes by true insight should be done, and not killing otherwise; the science of policy, without examining deeds, is not to be applied as it should."
+          }
         },
         {
           "n": 10,
-          "text": "दस्यून्हिनस्ति वै राजा भूयसो वाप्यनागसः ।\nभार्या माता पिता पुत्रो हन्यते पुरुषे हते ।\nपरेणापकृते राजा तस्मात्सम्यक्प्रधारयेत् ॥"
+          "text": "दस्यून्हिनस्ति वै राजा भूयसो वाप्यनागसः ।\nभार्या माता पिता पुत्रो हन्यते पुरुषे हते ।\nपरेणापकृते राजा तस्मात्सम्यक्प्रधारयेत् ॥",
+          "meaning": {
+            "en": "A king may kill robbers, or even many who are innocent. When a man is killed, his wife, mother, father and son are killed too. When wronged by another, the king should therefore consider well."
+          }
         },
         {
           "n": 11,
-          "text": "असाधुश्चैव पुरुषो लभते शीलमेकदा ।\nसाधोश्चापि ह्यसाधुभ्यो जायतेऽशोभना प्रजा ॥"
+          "text": "असाधुश्चैव पुरुषो लभते शीलमेकदा ।\nसाधोश्चापि ह्यसाधुभ्यो जायतेऽशोभना प्रजा ॥",
+          "meaning": {
+            "en": "A wicked man may at some time gain good character, and from the good wicked offspring may be born."
+          }
         },
         {
           "n": 12,
-          "text": "न मूलघातः कर्तव्यो नैष धर्मः सनातनः ।\nअपि खल्ववधेनैव प्रायश्चित्तं विधीयते ॥"
+          "text": "न मूलघातः कर्तव्यो नैष धर्मः सनातनः ।\nअपि खल्ववधेनैव प्रायश्चित्तं विधीयते ॥",
+          "meaning": {
+            "en": "One should not cut the root; this is not the eternal dharma. Atonement is indeed prescribed even without killing."
+          }
         },
         {
           "n": 13,
-          "text": "उद्वेजनेन बन्धेन विरूपकरणेन च ।\nवधदण्डेन ते क्लेश्या न पुरोऽहितसंपदा ॥"
+          "text": "उद्वेजनेन बन्धेन विरूपकरणेन च ।\nवधदण्डेन ते क्लेश्या न पुरोऽहितसंपदा ॥",
+          "meaning": {
+            "en": "They should be troubled by harassment, imprisonment, disfigurement or the penalty of death, but not first by one who has gained wealth to harm them."
+          }
         },
         {
           "n": 14,
-          "text": "यदा पुरोहितं वा ते पर्येयुः शरणैषिणः ।\nकरिष्यामः पुनर्ब्रह्मन्न पापमिति वादिनः ॥"
+          "text": "यदा पुरोहितं वा ते पर्येयुः शरणैषिणः ।\nकरिष्यामः पुनर्ब्रह्मन्न पापमिति वादिनः ॥",
+          "meaning": {
+            "en": "When, seeking refuge, they come to the household priest and say, \"Brahmin, we shall not do it again; it is no sin,\""
+          }
         },
         {
           "n": 15,
-          "text": "तदा विसर्गमर्हाः स्युरितीदं नृपशासनम् ।\nबिभ्रद्दण्डाजिनं मुण्डो ब्राह्मणोऽर्हति वासनम् ॥"
+          "text": "तदा विसर्गमर्हाः स्युरितीदं नृपशासनम् ।\nबिभ्रद्दण्डाजिनं मुण्डो ब्राह्मणोऽर्हति वासनम् ॥",
+          "meaning": {
+            "en": "then they deserve release; this is the king's rule. A shaven brahmin carrying staff and deerskin deserves a seat."
+          }
         },
         {
           "n": 16,
-          "text": "गरीयांसो गरीयांसमपराधे पुनः पुनः ।\nतथा विसर्गमर्हन्ति न यथा प्रथमे तथा ॥"
+          "text": "गरीयांसो गरीयांसमपराधे पुनः पुनः ।\nतथा विसर्गमर्हन्ति न यथा प्रथमे तथा ॥",
+          "meaning": {
+            "en": "The greater, offending again and again, deserve release too, but not as they did the first time."
+          }
         },
         {
-          "text": "द्युमत्सेन उवाच"
+          "text": "द्युमत्सेन उवाच",
+          "meaning": {
+            "en": "Dyumatsena said:"
+          }
         },
         {
           "n": 17,
-          "text": "यत्र यत्रैव शक्येरन्संयन्तुं समये प्रजाः ।\nस तावत्प्रोच्यते धर्मो यावन्न प्रतिलङ्घ्यते ॥"
+          "text": "यत्र यत्रैव शक्येरन्संयन्तुं समये प्रजाः ।\nस तावत्प्रोच्यते धर्मो यावन्न प्रतिलङ्घ्यते ॥",
+          "meaning": {
+            "en": "Wherever the people can be held to an agreement, that is called dharma so long as it is not transgressed."
+          }
         },
         {
           "n": 18,
-          "text": "अहन्यमानेषु पुनः सर्वमेव पराभवेत् ।\nपूर्वे पूर्वतरे चैव सुशास्या अभवञ्जनाः ॥"
+          "text": "अहन्यमानेषु पुनः सर्वमेव पराभवेत् ।\nपूर्वे पूर्वतरे चैव सुशास्या अभवञ्जनाः ॥",
+          "meaning": {
+            "en": "But if the unpunished were left, everything would be overturned. In earlier and still earlier times the people were easy to govern."
+          }
         },
         {
           "n": 19,
-          "text": "मृदवः सत्यभूयिष्ठा अल्पद्रोहाल्पमन्यवः ।\nपुरा धिग्दण्ड एवासीद्वाग्दण्डस्तदनन्तरम् ॥"
+          "text": "मृदवः सत्यभूयिष्ठा अल्पद्रोहाल्पमन्यवः ।\nपुरा धिग्दण्ड एवासीद्वाग्दण्डस्तदनन्तरम् ॥",
+          "meaning": {
+            "en": "They were gentle, mostly truthful, with little malice and little anger. In the old days only the rebuke \"Shame!\" was the punishment, then verbal punishment after that."
+          }
         },
         {
           "n": 20,
-          "text": "आसीदादानदण्डोऽपि वधदण्डोऽद्य वर्तते ।\nवधेनापि न शक्यन्ते नियन्तुमपरे जनाः ॥"
+          "text": "आसीदादानदण्डोऽपि वधदण्डोऽद्य वर्तते ।\nवधेनापि न शक्यन्ते नियन्तुमपरे जनाः ॥",
+          "meaning": {
+            "en": "Then came the punishment of seizing, and today death is the punishment. Yet even by killing other people cannot be controlled."
+          }
         },
         {
           "n": 21,
-          "text": "नैव दस्युर्मनुष्याणां न देवानामिति श्रुतिः ।\nन गन्धर्वपितॄणां च कः कस्येह न कश्चन ॥"
+          "text": "नैव दस्युर्मनुष्याणां न देवानामिति श्रुतिः ।\nन गन्धर्वपितॄणां च कः कस्येह न कश्चन ॥",
+          "meaning": {
+            "en": "The scripture says the robber belongs neither to men nor to gods, nor to gandharvas and ancestors; who here is whose? No one."
+          }
         },
         {
           "n": 22,
-          "text": "पद्मं श्मशानादादत्ते पिशाचाच्चापि दैवतम् ।\nतेषु यः समयं कुर्यादज्ञेषु हतबुद्धिषु ॥"
+          "text": "पद्मं श्मशानादादत्ते पिशाचाच्चापि दैवतम् ।\nतेषु यः समयं कुर्यादज्ञेषु हतबुद्धिषु ॥",
+          "meaning": {
+            "en": "He takes a lotus from the cremation ground, and an offering from a pisacha. Who would make an agreement with such ignorant, witless ones?"
+          }
         },
         {
-          "text": "सत्यवानुवाच"
+          "text": "सत्यवानुवाच",
+          "meaning": {
+            "en": "Satyavan said:"
+          }
         },
         {
           "n": 23,
-          "text": "तान्न शक्नोषि चेत्साधून्परित्रातुमहिंसया ।\nकस्यचिद्भूतभव्यस्य लाभेनान्तं तथा कुरु ॥"
+          "text": "तान्न शक्नोषि चेत्साधून्परित्रातुमहिंसया ।\nकस्यचिद्भूतभव्यस्य लाभेनान्तं तथा कुरु ॥",
+          "meaning": {
+            "en": "If you cannot protect the good from them without violence, then bring them to an end by gaining something for some being, present or future."
+          }
         },
         {
-          "text": "द्युमत्सेन उवाच"
+          "text": "द्युमत्सेन उवाच",
+          "meaning": {
+            "en": "Dyumatsena said:"
+          }
         },
         {
           "n": 24,
-          "text": "राजानो लोकयात्रार्थं तप्यन्ते परमं तपः ।\nअपत्रपन्ति तादृग्भ्यस्तथावृत्ता भवन्ति च ॥"
+          "text": "राजानो लोकयात्रार्थं तप्यन्ते परमं तपः ।\nअपत्रपन्ति तादृग्भ्यस्तथावृत्ता भवन्ति च ॥",
+          "meaning": {
+            "en": "Kings practice supreme austerity for the world's welfare. They are ashamed before such men and conduct themselves accordingly."
+          }
         },
         {
           "n": 25,
-          "text": "वित्रास्यमानाः सुकृतो न कामाद्घ्नन्ति दुष्कृतीन् ।\nसुकृतेनैव राजानो भूयिष्ठं शासते प्रजाः ॥"
+          "text": "वित्रास्यमानाः सुकृतो न कामाद्घ्नन्ति दुष्कृतीन् ।\nसुकृतेनैव राजानो भूयिष्ठं शासते प्रजाः ॥",
+          "meaning": {
+            "en": "The virtuous, when frightened, do not kill evildoers from desire. By good deeds alone the kings mostly govern their subjects."
+          }
         },
         {
           "n": 26,
-          "text": "श्रेयसः श्रेयसीमेवं वृत्तिं लोकोऽनुवर्तते ।\nसदैव हि गुरोर्वृत्तमनुवर्तन्ति मानवाः ॥"
+          "text": "श्रेयसः श्रेयसीमेवं वृत्तिं लोकोऽनुवर्तते ।\nसदैव हि गुरोर्वृत्तमनुवर्तन्ति मानवाः ॥",
+          "meaning": {
+            "en": "The world follows the better and still better way of life; people always follow the conduct of the elder."
+          }
         },
         {
           "n": 27,
-          "text": "आत्मानमसमाधाय समाधित्सति यः परान् ।\nविषयेष्विन्द्रियवशं मानवाः प्रहसन्ति तम् ॥"
+          "text": "आत्मानमसमाधाय समाधित्सति यः परान् ।\nविषयेष्विन्द्रियवशं मानवाः प्रहसन्ति तम् ॥",
+          "meaning": {
+            "en": "Those who try to steady others without steadying themselves, being ruled by the senses among their objects, are laughed at by men."
+          }
         },
         {
           "n": 28,
-          "text": "यो राज्ञो दम्भमोहेन किंचित्कुर्यादसांप्रतम् ।\nसर्वोपायैर्नियम्यः स तथा पापान्निवर्तते ॥"
+          "text": "यो राज्ञो दम्भमोहेन किंचित्कुर्यादसांप्रतम् ।\nसर्वोपायैर्नियम्यः स तथा पापान्निवर्तते ॥",
+          "meaning": {
+            "en": "One who through the king's pride or delusion does something improper should be restrained by every means, so that he turns from sin."
+          }
         },
         {
           "n": 29,
-          "text": "आत्मैवादौ नियन्तव्यो दुष्कृतं संनियच्छता ।\nदण्डयेच्च महादण्डैरपि बन्धूननन्तरान् ॥"
+          "text": "आत्मैवादौ नियन्तव्यो दुष्कृतं संनियच्छता ।\nदण्डयेच्च महादण्डैरपि बन्धूननन्तरान् ॥",
+          "meaning": {
+            "en": "First one's own self must be controlled by one who restrains wrongdoing, and he should punish even close kinsmen with heavy punishments."
+          }
         },
         {
           "n": 30,
-          "text": "यत्र वै पापकृत्क्लेश्यो न महद्दुःखमर्छति ।\nवर्धन्ते तत्र पापानि धर्मो ह्रसति च ध्रुवम् ।\nइति कारुण्यशीलस्तु विद्वान्वै ब्राह्मणोऽन्वशात् ॥"
+          "text": "यत्र वै पापकृत्क्लेश्यो न महद्दुःखमर्छति ।\nवर्धन्ते तत्र पापानि धर्मो ह्रसति च ध्रुवम् ।\nइति कारुण्यशीलस्तु विद्वान्वै ब्राह्मणोऽन्वशात् ॥",
+          "meaning": {
+            "en": "Where the wrongdoer is not made to suffer great pain, sins increase there and dharma surely declines. So taught the learned brahmin, of compassionate nature."
+          }
         },
         {
           "n": 31,
-          "text": "इति चैवानुशिष्टोऽस्मि पूर्वैस्तात पितामहैः ।\nआश्वासयद्भिः सुभृशमनुक्रोशात्तथैव च ॥"
+          "text": "इति चैवानुशिष्टोऽस्मि पूर्वैस्तात पितामहैः ।\nआश्वासयद्भिः सुभृशमनुक्रोशात्तथैव च ॥",
+          "meaning": {
+            "en": "\"So I was taught, dear son, by my forefathers, who comforted me greatly and with compassion.\""
+          }
         },
         {
           "n": 32,
-          "text": "एतत्प्रथमकल्पेन राजा कृतयुगेऽभजत् ।\nपादोनेनापि धर्मेण गच्छेत्त्रेतायुगे तथा ।\nद्वापरे तु द्विपादेन पादेन त्वपरे युगे ॥"
+          "text": "एतत्प्रथमकल्पेन राजा कृतयुगेऽभजत् ।\nपादोनेनापि धर्मेण गच्छेत्त्रेतायुगे तथा ।\nद्वापरे तु द्विपादेन पादेन त्वपरे युगे ॥",
+          "meaning": {
+            "en": "\"In the first age the king followed this first rule. In the Treta age he would follow with dharma reduced by a quarter, in the Dvapara with two quarters, and in the last age with one quarter.\""
+          }
         },
         {
           "n": 33,
-          "text": "तथा कलियुगे प्राप्ते राज्ञां दुश्चरितेन ह ।\nभवेत्कालविशेषेण कला धर्मस्य षोडशी ॥"
+          "text": "तथा कलियुगे प्राप्ते राज्ञां दुश्चरितेन ह ।\nभवेत्कालविशेषेण कला धर्मस्य षोडशी ॥",
+          "meaning": {
+            "en": "So when the Kali age arrives, through the kings' misconduct, the sixteenth part of dharma may be left, by the special nature of the time."
+          }
         },
         {
           "n": 34,
-          "text": "अथ प्रथमकल्पेन सत्यवन्संकरो भवेत् ।\nआयुः शक्तिं च कालं च निर्दिश्य तप आदिशेत् ॥"
+          "text": "अथ प्रथमकल्पेन सत्यवन्संकरो भवेत् ।\nआयुः शक्तिं च कालं च निर्दिश्य तप आदिशेत् ॥",
+          "meaning": {
+            "en": "\"Then, Satyavan, by the first rule there would be confusion. Considering age, strength and time, one should prescribe austerity.\""
+          }
         },
         {
           "n": 35,
-          "text": "सत्याय हि यथा नेह जह्याद्धर्मफलं महत् ।\nभूतानामनुकम्पार्थं मनुः स्वायंभुवोऽब्रवीत् ॥"
+          "text": "सत्याय हि यथा नेह जह्याद्धर्मफलं महत् ।\nभूतानामनुकम्पार्थं मनुः स्वायंभुवोऽब्रवीत् ॥",
+          "meaning": {
+            "en": "\"So that, here, one does not abandon the great fruit of dharma for truth's sake, Svayambhuva Manu taught this, for compassion to beings.\""
+          }
         }
       ]
     }

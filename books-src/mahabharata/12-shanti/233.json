@@ -22,90 +22,178 @@
       "titleEn": "Mokshadharma Parva (Duties for liberation)",
       "verses": [
         {
-          "text": "शुक उवाच"
+          "text": "शुक उवाच",
+          "meaning": {
+            "en": "Shuka said:",
+            "hi": "शुक बोले—"
+          }
         },
         {
           "n": 1,
-          "text": "यदिदं वेदवचनं कुरु कर्म त्यजेति च ।\nकां दिशं विद्यया यान्ति कां च गच्छन्ति कर्मणा ॥"
+          "text": "यदिदं वेदवचनं कुरु कर्म त्यजेति च ।\nकां दिशं विद्यया यान्ति कां च गच्छन्ति कर्मणा ॥",
+          "meaning": {
+            "en": "The Veda says both \"perform action\" and \"abandon it.\" To what destination do people go by knowledge, and to what by action?",
+            "hi": "वेद का यह वचन है, \"कर्म करो\" और \"कर्म छोड़ो\"। ज्ञान से लोग किस गंतव्य को जाते हैं, और कर्म से किसको?"
+          }
         },
         {
           "n": 2,
-          "text": "एतद्वै श्रोतुमिच्छामि तद्भवान्प्रब्रवीतु मे ।\nएतत्त्वन्योन्यवैरूप्ये वर्तते प्रतिकूलतः ॥"
+          "text": "एतद्वै श्रोतुमिच्छामि तद्भवान्प्रब्रवीतु मे ।\nएतत्त्वन्योन्यवैरूप्ये वर्तते प्रतिकूलतः ॥",
+          "meaning": {
+            "en": "I wish to hear this; please tell me. These two seem to run in opposition, contrary to each other.",
+            "hi": "मैं यही सुनना चाहता हूँ; आप इसे मुझे बताइए। ये दोनों परस्पर विरुद्ध और एक-दूसरे के प्रतिकूल प्रतीत होते हैं।"
+          }
         },
         {
-          "text": "भीष्म उवाच"
+          "text": "भीष्म उवाच",
+          "meaning": {
+            "en": "Bhishma said:",
+            "hi": "भीष्म बोले—"
+          }
         },
         {
           "n": 3,
-          "text": "इत्युक्तः प्रत्युवाचेदं पराशरसुतः सुतम् ।\nकर्मविद्यामयावेतौ व्याख्यास्यामि क्षराक्षरौ ॥"
+          "text": "इत्युक्तः प्रत्युवाचेदं पराशरसुतः सुतम् ।\nकर्मविद्यामयावेतौ व्याख्यास्यामि क्षराक्षरौ ॥",
+          "meaning": {
+            "en": "Thus asked, Parashara's son answered his son: I will explain these two, the perishable and the imperishable, one made of action and the other of knowledge.",
+            "hi": "इस प्रकार पूछे जाने पर पराशर के पुत्र (व्यास) ने अपने पुत्र को उत्तर दिया: मैं इन दोनों, क्षर और अक्षर, की व्याख्या करूँगा; एक कर्म-मय है और दूसरा ज्ञान-मय।"
+          }
         },
         {
           "n": 4,
-          "text": "यां दिशं विद्यया यान्ति यां च गच्छन्ति कर्मणा ।\nशृणुष्वैकमनाः पुत्र गह्वरं ह्येतदन्तरम् ॥"
+          "text": "यां दिशं विद्यया यान्ति यां च गच्छन्ति कर्मणा ।\nशृणुष्वैकमनाः पुत्र गह्वरं ह्येतदन्तरम् ॥",
+          "meaning": {
+            "en": "Listen with one mind, my son, to the destination reached by knowledge and by action; the difference between them is deep.",
+            "hi": "हे पुत्र! एकाग्र मन से सुनो, ज्ञान से जिस गंतव्य को लोग जाते हैं और कर्म से जहाँ जाते हैं, उनके बीच का अंतर गहरा है।"
+          }
         },
         {
           "n": 5,
-          "text": "अस्ति धर्म इति प्रोक्तं नास्तीत्यत्रैव यो वदेत् ।\nतस्य पक्षस्य सदृशमिदं मम भवेदथ ॥"
+          "text": "अस्ति धर्म इति प्रोक्तं नास्तीत्यत्रैव यो वदेत् ।\nतस्य पक्षस्य सदृशमिदं मम भवेदथ ॥",
+          "meaning": {
+            "en": "One who says \"there is dharma\" and another who says here \"there is none\" would take the same position as mine on this, were I to say it.",
+            "hi": "कहा गया है कि धर्म है, और जो यहीं पर कहता है कि धर्म नहीं है, यदि मैं यह कहूँ, तो मेरा मत भी उसी पक्ष के समान होगा।"
+          }
         },
         {
           "n": 6,
-          "text": "द्वाविमावथ पन्थानौ यत्र वेदाः प्रतिष्ठिताः ।\nप्रवृत्तिलक्षणो धर्मो निवृत्तौ च सुभाषितः ॥"
+          "text": "द्वाविमावथ पन्थानौ यत्र वेदाः प्रतिष्ठिताः ।\nप्रवृत्तिलक्षणो धर्मो निवृत्तौ च सुभाषितः ॥",
+          "meaning": {
+            "en": "There are these two paths on which the Vedas rest: dharma marked by action, and the well-taught dharma of withdrawal.",
+            "hi": "ये दो मार्ग हैं, जिन पर वेद प्रतिष्ठित हैं: कर्म-लक्षण वाला धर्म, और निवृत्ति में कहा गया सुभाषित धर्म।"
+          }
         },
         {
           "n": 7,
-          "text": "कर्मणा बध्यते जन्तुर्विद्यया तु प्रमुच्यते ।\nतस्मात्कर्म न कुर्वन्ति यतयः पारदर्शिनः ॥"
+          "text": "कर्मणा बध्यते जन्तुर्विद्यया तु प्रमुच्यते ।\nतस्मात्कर्म न कुर्वन्ति यतयः पारदर्शिनः ॥",
+          "meaning": {
+            "en": "By action a creature is bound, but by knowledge he is freed; therefore the ascetics who see the far shore do not act.",
+            "hi": "कर्म से प्राणी बंधता है, और ज्ञान से मुक्त होता है; इसीलिए पार को देखने वाले संन्यासी कर्म नहीं करते।"
+          }
         },
         {
           "n": 8,
-          "text": "कर्मणा जायते प्रेत्य मूर्तिमान्षोडशात्मकः ।\nविद्यया जायते नित्यमव्ययो ह्यव्ययात्मकः ॥"
+          "text": "कर्मणा जायते प्रेत्य मूर्तिमान्षोडशात्मकः ।\nविद्यया जायते नित्यमव्ययो ह्यव्ययात्मकः ॥",
+          "meaning": {
+            "en": "By action one is born after death embodied and made of sixteen parts; by knowledge one is born as the ever-unchanging, whose nature is imperishable.",
+            "hi": "कर्म से मृत्यु के बाद प्राणी सोलह अंगों वाला मूर्तिमान शरीर पाकर जन्म लेता है; ज्ञान से वह सदा अविनाशी स्वरूप वाला होकर जन्म लेता है।"
+          }
         },
         {
           "n": 9,
-          "text": "कर्म त्वेके प्रशंसन्ति स्वल्पबुद्धितरा नराः ।\nतेन ते देहजालानि रमयन्त उपासते ॥"
+          "text": "कर्म त्वेके प्रशंसन्ति स्वल्पबुद्धितरा नराः ।\nतेन ते देहजालानि रमयन्त उपासते ॥",
+          "meaning": {
+            "en": "Some people of small understanding praise action, and so they delight in nets of bodies and attend on them.",
+            "hi": "कुछ अल्प बुद्धि वाले लोग कर्म की प्रशंसा करते हैं, और इसलिए वे शरीरों के जाल में रमते हुए उनकी उपासना करते हैं।"
+          }
         },
         {
           "n": 10,
-          "text": "ये तु बुद्धिं परां प्राप्ता धर्मनैपुण्यदर्शिनः ।\nन ते कर्म प्रशंसन्ति कूपं नद्यां पिबन्निव ॥"
+          "text": "ये तु बुद्धिं परां प्राप्ता धर्मनैपुण्यदर्शिनः ।\nन ते कर्म प्रशंसन्ति कूपं नद्यां पिबन्निव ॥",
+          "meaning": {
+            "en": "But those who have attained the highest understanding and see the skill in dharma do not praise action, like one drinking from a well beside a river.",
+            "hi": "पर जो परम बुद्धि को प्राप्त हैं और धर्म की निपुणता देखते हैं, वे कर्म की प्रशंसा नहीं करते, जैसे नदी के किनारे कुआँ खोदकर पानी पीने वाले की प्रशंसा नहीं होती।"
+          }
         },
         {
           "n": 11,
-          "text": "कर्मणः फलमाप्नोति सुखदुःखे भवाभवौ ।\nविद्यया तदवाप्नोति यत्र गत्वा न शोचति ॥"
+          "text": "कर्मणः फलमाप्नोति सुखदुःखे भवाभवौ ।\nविद्यया तदवाप्नोति यत्र गत्वा न शोचति ॥",
+          "meaning": {
+            "en": "By action one obtains its fruit, pleasure and pain, being and not being; by knowledge one obtains that which, once reached, one never grieves.",
+            "hi": "कर्म से मनुष्य उसका फल पाता है—सुख-दुख, होना और न होना; ज्ञान से वह उसे पाता है, जिसे पाकर फिर शोक नहीं होता।"
+          }
         },
         {
           "n": 12,
-          "text": "यत्र गत्वा न म्रियते यत्र गत्वा न जायते ।\nन जीर्यते यत्र गत्वा यत्र गत्वा न वर्धते ॥"
+          "text": "यत्र गत्वा न म्रियते यत्र गत्वा न जायते ।\nन जीर्यते यत्र गत्वा यत्र गत्वा न वर्धते ॥",
+          "meaning": {
+            "en": "Where, once gone, one does not die, is not born, does not age and does not grow;",
+            "hi": "जिसे पाकर न मृत्यु होती है, न जन्म; जिसे पाकर न बुढ़ापा आता है, न वृद्धि होती है।"
+          }
         },
         {
           "n": 13,
-          "text": "यत्र तद्ब्रह्म परममव्यक्तमजरं ध्रुवम् ।\nअव्याहतमनायासममृतं चावियोगि च ॥"
+          "text": "यत्र तद्ब्रह्म परममव्यक्तमजरं ध्रुवम् ।\nअव्याहतमनायासममृतं चावियोगि च ॥",
+          "meaning": {
+            "en": "where there is that supreme Brahman, unmanifest, ageless, steady, unobstructed, effortless, immortal and never parted;",
+            "hi": "जहाँ वह परम ब्रह्म है, जो अव्यक्त, अजर, स्थिर, बाधारहित, सहज, अमर और कभी अलग न होने वाला है।"
+          }
         },
         {
           "n": 14,
-          "text": "द्वंद्वैर्यत्र न बाध्यन्ते मानसेन च कर्मणा ।\nसमाः सर्वत्र मैत्राश्च सर्वभूतहिते रताः ॥"
+          "text": "द्वंद्वैर्यत्र न बाध्यन्ते मानसेन च कर्मणा ।\nसमाः सर्वत्र मैत्राश्च सर्वभूतहिते रताः ॥",
+          "meaning": {
+            "en": "where beings are not troubled by the pairs of opposites or by mental and bodily action, but are equal everywhere, friendly and devoted to the good of all creatures.",
+            "hi": "जहाँ प्राणी द्वंद्वों से या मानसिक और शारीरिक कर्मों से पीड़ित नहीं होते, बल्कि सर्वत्र समान, मैत्रीपूर्ण और सभी प्राणियों के हित में लगे रहते हैं।"
+          }
         },
         {
           "n": 15,
-          "text": "विद्यामयोऽन्यः पुरुषस्तात कर्ममयोऽपरः ।\nविद्धि चन्द्रमसं दर्शे सूक्ष्मया कलया स्थितम् ॥"
+          "text": "विद्यामयोऽन्यः पुरुषस्तात कर्ममयोऽपरः ।\nविद्धि चन्द्रमसं दर्शे सूक्ष्मया कलया स्थितम् ॥",
+          "meaning": {
+            "en": "One person, my son, is made of knowledge and another of action. Know the moon at the new moon, resting in its subtle part.",
+            "hi": "हे पुत्र! एक पुरुष ज्ञान-मय है और दूसरा कर्म-मय। अमावस्या के चंद्रमा को उसकी सूक्ष्म कला में स्थित जानो।"
+          }
         },
         {
           "n": 16,
-          "text": "तदेतदृषिणा प्रोक्तं विस्तरेणानुमीयते ।\nनवजं शशिनं दृष्ट्वा वक्रं तन्तुमिवाम्बरे ॥"
+          "text": "तदेतदृषिणा प्रोक्तं विस्तरेणानुमीयते ।\nनवजं शशिनं दृष्ट्वा वक्रं तन्तुमिवाम्बरे ॥",
+          "meaning": {
+            "en": "This was stated by the sage and is inferred at length, as seeing the new moon like a curved thread in the sky.",
+            "hi": "यह बात ऋषि ने कही है और विस्तार से अनुमान की जाती है; जैसे आकाश में नवजात चंद्रमा को टेढ़े धागे के समान देखा जाता है।"
+          }
         },
         {
           "n": 17,
-          "text": "एकादशविकारात्मा कलासंभारसंभृतः ।\nमूर्तिमानिति तं विद्धि तात कर्मगुणात्मकम् ॥"
+          "text": "एकादशविकारात्मा कलासंभारसंभृतः ।\nमूर्तिमानिति तं विद्धि तात कर्मगुणात्मकम् ॥",
+          "meaning": {
+            "en": "Know him as embodied, of eleven transformations, made up of a collection of parts, and constituted of the qualities of action, my son.",
+            "hi": "हे पुत्र! उसे ग्यारह विकारों वाला, कलाओं के समूह से बना हुआ, मूर्तिमान, और कर्म के गुणों से युक्त जानो।"
+          }
         },
         {
           "n": 18,
-          "text": "देवो यः संश्रितस्तस्मिन्नब्बिन्दुरिव पुष्करे ।\nक्षेत्रज्ञं तं विजानीयान्नित्यं त्यागजितात्मकम् ॥"
+          "text": "देवो यः संश्रितस्तस्मिन्नब्बिन्दुरिव पुष्करे ।\nक्षेत्रज्ञं तं विजानीयान्नित्यं त्यागजितात्मकम् ॥",
+          "meaning": {
+            "en": "The god who is lodged in him like a drop of water on a lotus leaf, know as the knower of the field, always won over by renunciation.",
+            "hi": "जो देवता उसमें वैसे ही आश्रित है जैसे कमल के पत्ते पर जल की बूँद, उसे क्षेत्रज्ञ जानो, जो सदा त्याग से जीत लिया गया है।"
+          }
         },
         {
           "n": 19,
-          "text": "तमो रजश्च सत्त्वं च विद्धि जीवगुणानिमान् ।\nजीवमात्मगुणं विद्यादात्मानं परमात्मनः ॥"
+          "text": "तमो रजश्च सत्त्वं च विद्धि जीवगुणानिमान् ।\nजीवमात्मगुणं विद्यादात्मानं परमात्मनः ॥",
+          "meaning": {
+            "en": "Know darkness, passion and goodness as the qualities of the living self; know the living self as the quality of the Self, and the Self as of the Supreme Self.",
+            "hi": "तम, रज और सत्त्व को जीव के गुण जानो; जीव को आत्मा का गुण जानो, और आत्मा को परमात्मा का।"
+          }
         },
         {
           "n": 20,
-          "text": "सचेतनं जीवगुणं वदन्ति\nस चेष्टते चेष्टयते च सर्वम् ।\nततः परं क्षेत्रविदो वदन्ति\nप्रावर्तयद्यो भुवनानि सप्त ॥"
+          "text": "सचेतनं जीवगुणं वदन्ति\nस चेष्टते चेष्टयते च सर्वम् ।\nततः परं क्षेत्रविदो वदन्ति\nप्रावर्तयद्यो भुवनानि सप्त ॥",
+          "meaning": {
+            "en": "They say the conscious one is the quality of the living self; he acts and makes everything act. Beyond him, say the knowers of the field, is he who set the seven worlds in motion.",
+            "hi": "चेतन को जीव का गुण कहते हैं; वह चेष्टा करता है और सबको चेष्टा कराता है। उससे भी परे, क्षेत्रज्ञ जानने वाले उसे बताते हैं जिसने सात लोकों को गति दी।"
+          }
         }
       ]
     }

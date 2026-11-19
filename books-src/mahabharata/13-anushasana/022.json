@@ -22,92 +22,161 @@
       "titleEn": "Anushasanika Parva (The instructions)",
       "verses": [
         {
-          "text": "युधिष्ठिर उवाच"
+          "text": "युधिष्ठिर उवाच",
+          "meaning": {
+            "en": "Yudhishthira said:"
+          }
         },
         {
           "n": 1,
-          "text": "न बिभेति कथं सा स्त्री शापस्य परमद्युतेः ।\nकथं निवृत्तो भगवांस्तद्भवान्प्रब्रवीतु मे ॥"
+          "text": "न बिभेति कथं सा स्त्री शापस्य परमद्युतेः ।\nकथं निवृत्तो भगवांस्तद्भवान्प्रब्रवीतु मे ॥",
+          "meaning": {
+            "en": "How was that woman not afraid of the curse of the supremely radiant sage, and how did the Blessed One turn back? Please tell me that."
+          }
         },
         {
-          "text": "भीष्म उवाच"
+          "text": "भीष्म उवाच",
+          "meaning": {
+            "en": "Bhishma said:"
+          }
         },
         {
           "n": 2,
-          "text": "अष्टावक्रोऽन्वपृच्छत्तां रूपं विकुरुषे कथम् ।\nन चानृतं ते वक्तव्यं ब्रूहि ब्राह्मणकाम्यया ॥"
+          "text": "अष्टावक्रोऽन्वपृच्छत्तां रूपं विकुरुषे कथम् ।\nन चानृतं ते वक्तव्यं ब्रूहि ब्राह्मणकाम्यया ॥",
+          "meaning": {
+            "en": "Ashtavakra asked her, 'How do you change your form? Do not speak untruth; tell me, by the wish of a brahmin.'"
+          }
         },
         {
-          "text": "स्त्र्युवाच"
+          "text": "स्त्र्युवाच",
+          "meaning": {
+            "en": "The woman said:"
+          }
         },
         {
           "n": 3,
-          "text": "द्यावापृथिवीमात्रैषा काम्या ब्राह्मणसत्तम ।\nशृणुष्वावहितः सर्वं यदिदं सत्यविक्रम ॥"
+          "text": "द्यावापृथिवीमात्रैषा काम्या ब्राह्मणसत्तम ।\nशृणुष्वावहितः सर्वं यदिदं सत्यविक्रम ॥",
+          "meaning": {
+            "en": "Best of brahmins, this desire is only that of heaven and earth. Listen attentively to all this, you who are true in valor."
+          }
         },
         {
           "n": 4,
-          "text": "उत्तरां मां दिशं विद्धि दृष्टं स्त्रीचापलं च ते ।\nअव्युत्थानेन ते लोका जिताः सत्यपराक्रम ॥"
+          "text": "उत्तरां मां दिशं विद्धि दृष्टं स्त्रीचापलं च ते ।\nअव्युत्थानेन ते लोका जिताः सत्यपराक्रम ॥",
+          "meaning": {
+            "en": "Know me as the northern direction; you have seen a woman's fickleness. By your not breaking, you have won those worlds, true in valor."
+          }
         },
         {
           "n": 5,
-          "text": "जिज्ञासेयं प्रयुक्ता मे स्थिरीकर्तुं तवानघ ।\nस्थविराणामपि स्त्रीणां बाधते मैथुनज्वरः ॥"
+          "text": "जिज्ञासेयं प्रयुक्ता मे स्थिरीकर्तुं तवानघ ।\nस्थविराणामपि स्त्रीणां बाधते मैथुनज्वरः ॥",
+          "meaning": {
+            "en": "This test was applied by me to make you firm, sinless one; the fever of desire troubles even old women."
+          }
         },
         {
           "n": 6,
-          "text": "तुष्टः पितामहस्तेऽद्य तथा देवाः सवासवाः ।\nस त्वं येन च कार्येण संप्राप्तो भगवानिह ॥"
+          "text": "तुष्टः पितामहस्तेऽद्य तथा देवाः सवासवाः ।\nस त्वं येन च कार्येण संप्राप्तो भगवानिह ॥",
+          "meaning": {
+            "en": "Today the Grandsire and the gods with Indra are pleased with you. And you, blessed one, for the purpose for which you came here,"
+          }
         },
         {
           "n": 7,
-          "text": "प्रेषितस्तेन विप्रेण कन्यापित्रा द्विजर्षभ ।\nतवोपदेशं कर्तुं वै तच्च सर्वं कृतं मया ॥"
+          "text": "प्रेषितस्तेन विप्रेण कन्यापित्रा द्विजर्षभ ।\nतवोपदेशं कर्तुं वै तच्च सर्वं कृतं मया ॥",
+          "meaning": {
+            "en": "were sent by that brahmin, the maiden's father, best of brahmins, to receive instruction from you; all that has been done by me."
+          }
         },
         {
           "n": 8,
-          "text": "क्षेमी गमिष्यसि गृहाञ्श्रमश्च न भविष्यति ।\nकन्यां प्राप्स्यसि तां विप्र पुत्रिणी च भविष्यति ॥"
+          "text": "क्षेमी गमिष्यसि गृहाञ्श्रमश्च न भविष्यति ।\nकन्यां प्राप्स्यसि तां विप्र पुत्रिणी च भविष्यति ॥",
+          "meaning": {
+            "en": "You will go home safely and with no weariness. You will get that maiden, brahmin, and she will bear sons."
+          }
         },
         {
           "n": 9,
-          "text": "काम्यया पृष्टवांस्त्वं मां ततो व्याहृतमुत्तरम् ।\nअनतिक्रमणीयैषा कृत्स्नैर्लोकैस्त्रिभिः सदा ॥"
+          "text": "काम्यया पृष्टवांस्त्वं मां ततो व्याहृतमुत्तरम् ।\nअनतिक्रमणीयैषा कृत्स्नैर्लोकैस्त्रिभिः सदा ॥",
+          "meaning": {
+            "en": "You asked me in your wish to know, and I gave the answer. This answer can never be transgressed by all three worlds."
+          }
         },
         {
           "n": 10,
-          "text": "गच्छस्व सुकृतं कृत्वा किं वान्यच्छ्रोतुमिच्छसि ।\nयावद्ब्रवीमि विप्रर्षे अष्टावक्र यथातथम् ॥"
+          "text": "गच्छस्व सुकृतं कृत्वा किं वान्यच्छ्रोतुमिच्छसि ।\nयावद्ब्रवीमि विप्रर्षे अष्टावक्र यथातथम् ॥",
+          "meaning": {
+            "en": "Go, having done good. Or what else do you wish to hear, brahmin sage Ashtavakra, while I tell you as it is?"
+          }
         },
         {
           "n": 11,
-          "text": "ऋषिणा प्रसादिता चास्मि तव हेतोर्द्विजर्षभ ।\nतस्य संमाननार्थं मे त्वयि वाक्यं प्रभाषितम् ॥"
+          "text": "ऋषिणा प्रसादिता चास्मि तव हेतोर्द्विजर्षभ ।\nतस्य संमाननार्थं मे त्वयि वाक्यं प्रभाषितम् ॥",
+          "meaning": {
+            "en": "I have been propitiated by the sage for your sake, best of brahmins; to honor him I have spoken these words to you."
+          }
         },
         {
           "n": 12,
-          "text": "श्रुत्वा तु वचनं तस्याः स विप्रः प्राञ्जलिः स्थितः ।\nअनुज्ञातस्तया चापि स्वगृहं पुनराव्रजत् ॥"
+          "text": "श्रुत्वा तु वचनं तस्याः स विप्रः प्राञ्जलिः स्थितः ।\nअनुज्ञातस्तया चापि स्वगृहं पुनराव्रजत् ॥",
+          "meaning": {
+            "en": "Hearing her words, the brahmin stood with joined palms, and with her leave he returned to his own house."
+          }
         },
         {
           "n": 13,
-          "text": "गृहमागम्य विश्रान्तः स्वजनं प्रतिपूज्य च ।\nअभ्यगच्छत तं विप्रं न्यायतः कुरुनन्दन ॥"
+          "text": "गृहमागम्य विश्रान्तः स्वजनं प्रतिपूज्य च ।\nअभ्यगच्छत तं विप्रं न्यायतः कुरुनन्दन ॥",
+          "meaning": {
+            "en": "Having reached home and rested, and having honored his people, he went to that brahmin in due form, descendant of Kuru."
+          }
         },
         {
           "n": 14,
-          "text": "पृष्टश्च तेन विप्रेण दृष्टं त्वेतन्निदर्शनम् ।\nप्राह विप्रं तदा विप्रः सुप्रीतेनान्तरात्मना ॥"
+          "text": "पृष्टश्च तेन विप्रेण दृष्टं त्वेतन्निदर्शनम् ।\nप्राह विप्रं तदा विप्रः सुप्रीतेनान्तरात्मना ॥",
+          "meaning": {
+            "en": "Asked by that brahmin about what he had seen there, the brahmin answered him with a very glad heart."
+          }
         },
         {
           "n": 15,
-          "text": "भवताहमनुज्ञातः प्रस्थितो गन्धमादनम् ।\nतस्य चोत्तरतो देशे दृष्टं तद्दैवतं महत् ॥"
+          "text": "भवताहमनुज्ञातः प्रस्थितो गन्धमादनम् ।\nतस्य चोत्तरतो देशे दृष्टं तद्दैवतं महत् ॥",
+          "meaning": {
+            "en": "'With your leave I set out to Gandhamadana, and to its north I saw that great divine being."
+          }
         },
         {
           "n": 16,
-          "text": "तया चाहमनुज्ञातो भवांश्चापि प्रकीर्तितः ।\nश्रावितश्चापि तद्वाक्यं गृहमभ्यागतः प्रभो ॥"
+          "text": "तया चाहमनुज्ञातो भवांश्चापि प्रकीर्तितः ।\nश्रावितश्चापि तद्वाक्यं गृहमभ्यागतः प्रभो ॥",
+          "meaning": {
+            "en": "She gave me leave, and you were praised by her; I have also come home and told you her words, lord.'"
+          }
         },
         {
           "n": 17,
-          "text": "तमुवाच ततो विप्रः प्रतिगृह्णीष्व मे सुताम् ।\nनक्षत्रतिथिसंयोगे पात्रं हि परमं भवान् ॥"
+          "text": "तमुवाच ततो विप्रः प्रतिगृह्णीष्व मे सुताम् ।\nनक्षत्रतिथिसंयोगे पात्रं हि परमं भवान् ॥",
+          "meaning": {
+            "en": "Then the brahmin said to him, 'Accept my daughter. At a conjunction of star and lunar day, you are the highest worthy recipient.'"
+          }
         },
         {
-          "text": "भीष्म उवाच"
+          "text": "भीष्म उवाच",
+          "meaning": {
+            "en": "Bhishma said:"
+          }
         },
         {
           "n": 18,
-          "text": "अष्टावक्रस्तथेत्युक्त्वा प्रतिगृह्य च तां प्रभो ।\nकन्यां परमधर्मात्मा प्रीतिमांश्चाभवत्तदा ॥"
+          "text": "अष्टावक्रस्तथेत्युक्त्वा प्रतिगृह्य च तां प्रभो ।\nकन्यां परमधर्मात्मा प्रीतिमांश्चाभवत्तदा ॥",
+          "meaning": {
+            "en": "Ashtavakra said, 'So be it,' and, lord, took the maiden, and the supremely righteous man was glad then."
+          }
         },
         {
           "n": 19,
-          "text": "कन्यां तां प्रतिगृह्यैव भार्यां परमशोभनाम् ।\nउवास मुदितस्तत्र आश्रमे स्वे गतज्वरः ॥"
+          "text": "कन्यां तां प्रतिगृह्यैव भार्यां परमशोभनाम् ।\nउवास मुदितस्तत्र आश्रमे स्वे गतज्वरः ॥",
+          "meaning": {
+            "en": "Having taken that maiden as his most beautiful wife, he stayed there in his own hermitage, joyful and free from fever."
+          }
         }
       ]
     }

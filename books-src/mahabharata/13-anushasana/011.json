@@ -22,90 +22,156 @@
       "titleEn": "Anushasanika Parva (The instructions)",
       "verses": [
         {
-          "text": "युधिष्ठिर उवाच"
+          "text": "युधिष्ठिर उवाच",
+          "meaning": {
+            "en": "Yudhishthira said:"
+          }
         },
         {
           "n": 1,
-          "text": "कीदृशे पुरुषे तात स्त्रीषु वा भरतर्षभ ।\nश्रीः पद्मा वसते नित्यं तन्मे ब्रूहि पितामह ॥"
+          "text": "कीदृशे पुरुषे तात स्त्रीषु वा भरतर्षभ ।\nश्रीः पद्मा वसते नित्यं तन्मे ब्रूहि पितामह ॥",
+          "meaning": {
+            "en": "In what kind of man, or among women, dear Bhishma, does Shri, the lotus-goddess, always dwell? Tell me, grandfather."
+          }
         },
         {
-          "text": "भीष्म उवाच"
+          "text": "भीष्म उवाच",
+          "meaning": {
+            "en": "Bhishma said:"
+          }
         },
         {
           "n": 2,
-          "text": "अत्र ते वर्तयिष्यामि यथादृष्टं यथाश्रुतम् ।\nरुक्मिणी देवकीपुत्रसंनिधौ पर्यपृच्छत ॥"
+          "text": "अत्र ते वर्तयिष्यामि यथादृष्टं यथाश्रुतम् ।\nरुक्मिणी देवकीपुत्रसंनिधौ पर्यपृच्छत ॥",
+          "meaning": {
+            "en": "I will tell you what was seen and heard on this: Rukmini once asked in the presence of Krishna, son of Devaki."
+          }
         },
         {
           "n": 3,
-          "text": "नारायणस्याङ्कगतां ज्वलन्तीं\nदृष्ट्वा श्रियं पद्मसमानवक्त्राम् ।\nकौतूहलाद्विस्मितचारुनेत्रा\nपप्रच्छ माता मकरध्वजस्य ॥"
+          "text": "नारायणस्याङ्कगतां ज्वलन्तीं\nदृष्ट्वा श्रियं पद्मसमानवक्त्राम् ।\nकौतूहलाद्विस्मितचारुनेत्रा\nपप्रच्छ माता मकरध्वजस्य ॥",
+          "meaning": {
+            "en": "Seeing Shri blazing on Narayana's lap, her face like a lotus, Rukmini, the mother of Pradyumna, with beautiful eyes wide with wonder, asked out of curiosity:"
+          }
         },
         {
           "n": 4,
-          "text": "कानीह भूतान्युपसेवसे त्वं\nसंतिष्ठती कानि न सेवसे त्वम् ।\nतानि त्रिलोकेश्वरभूतकान्ते\nतत्त्वेन मे ब्रूहि महर्षिकन्ये ॥"
+          "text": "कानीह भूतान्युपसेवसे त्वं\nसंतिष्ठती कानि न सेवसे त्वम् ।\nतानि त्रिलोकेश्वरभूतकान्ते\nतत्त्वेन मे ब्रूहि महर्षिकन्ये ॥",
+          "meaning": {
+            "en": "\"Which beings do you serve as you stay here, and which do you not serve? Tell me truly, beloved of the Lord of the three worlds, daughter of the great sage.\""
+          }
         },
         {
           "n": 5,
-          "text": "एवं तदा श्रीरभिभाष्यमाणा\nदेव्या समक्षं गरुडध्वजस्य ।\nउवाच वाक्यं मधुराभिधानं\nमनोहरं चन्द्रमुखी प्रसन्ना ॥"
+          "text": "एवं तदा श्रीरभिभाष्यमाणा\nदेव्या समक्षं गरुडध्वजस्य ।\nउवाच वाक्यं मधुराभिधानं\nमनोहरं चन्द्रमुखी प्रसन्ना ॥",
+          "meaning": {
+            "en": "Thus questioned in the presence of the goddess whose banner is Garuda, Shri, moon-faced and pleased, spoke sweet and charming words."
+          }
         },
         {
           "n": 6,
-          "text": "वसामि सत्ये सुभगे प्रगल्भे\nदक्षे नरे कर्मणि वर्तमाने ।\nनाकर्मशीले पुरुषे वसामि\nन नास्तिके सांकरिके कृतघ्ने ।\nन भिन्नवृत्ते न नृशंसवृत्ते\nन चापि चौरे न गुरुष्वसूये ॥"
+          "text": "वसामि सत्ये सुभगे प्रगल्भे\nदक्षे नरे कर्मणि वर्तमाने ।\nनाकर्मशीले पुरुषे वसामि\nन नास्तिके सांकरिके कृतघ्ने ।\nन भिन्नवृत्ते न नृशंसवृत्ते\nन चापि चौरे न गुरुष्वसूये ॥",
+          "meaning": {
+            "en": "\"I dwell in a man who is truthful, fortunate, bold, skilled and active in work. I do not dwell in a man who does no work, nor in an unbeliever, a mixer of classes, an ungrateful man, one of broken conduct, one of cruel conduct, a thief, or one who is spiteful toward his elders.\""
+          }
         },
         {
           "n": 7,
-          "text": "ये चाल्पतेजोबलसत्त्वसारा\nहृष्यन्ति कुप्यन्ति च यत्र तत्र ।\nन देवि तिष्ठामि तथाविधेषु\nनरेषु संसुप्तमनोरथेषु ॥"
+          "text": "ये चाल्पतेजोबलसत्त्वसारा\nहृष्यन्ति कुप्यन्ति च यत्र तत्र ।\nन देवि तिष्ठामि तथाविधेषु\nनरेषु संसुप्तमनोरथेषु ॥",
+          "meaning": {
+            "en": "\"Goddess, I do not stay among men who are weak in energy, strength, spirit and substance, who rejoice and rage here and there, and whose aims are asleep.\""
+          }
         },
         {
           "n": 8,
-          "text": "यश्चात्मनि प्रार्थयते न किंचि-\nद्यश्च स्वभावोपहतान्तरात्मा ।\nतेष्वल्पसंतोषरतेषु नित्यं\nनरेषु नाहं निवसामि देवि ॥"
+          "text": "यश्चात्मनि प्रार्थयते न किंचि-\nद्यश्च स्वभावोपहतान्तरात्मा ।\nतेष्वल्पसंतोषरतेषु नित्यं\nनरेषु नाहं निवसामि देवि ॥",
+          "meaning": {
+            "en": "\"Goddess, I do not live among men who ask nothing for themselves, whose inner self is ruined by their nature, and who always delight in small contentment.\""
+          }
         },
         {
           "n": 9,
-          "text": "वसामि धर्मशीलेषु धर्मज्ञेषु महात्मसु ।\nवृद्धसेविषु दान्तेषु सत्त्वज्ञेषु महात्मसु ॥"
+          "text": "वसामि धर्मशीलेषु धर्मज्ञेषु महात्मसु ।\nवृद्धसेविषु दान्तेषु सत्त्वज्ञेषु महात्मसु ॥",
+          "meaning": {
+            "en": "\"I dwell among the righteous, those who know dharma, the great-souled, who serve elders, are self-controlled and know the nature of beings.\""
+          }
         },
         {
           "n": 10,
-          "text": "स्त्रीषु क्षान्तासु दान्तासु देवद्विजपरासु च ।\nवसामि सत्यशीलासु स्वभावनिरतासु च ॥"
+          "text": "स्त्रीषु क्षान्तासु दान्तासु देवद्विजपरासु च ।\nवसामि सत्यशीलासु स्वभावनिरतासु च ॥",
+          "meaning": {
+            "en": "\"I dwell among women who are patient and self-controlled, devoted to gods and brahmins, truthful in character and fond of their natural duties.\""
+          }
         },
         {
           "n": 11,
-          "text": "प्रकीर्णभाण्डामनवेक्ष्यकारिणीं\nसदा च भर्तुः प्रतिकूलवादिनीम् ।\nपरस्य वेश्माभिरतामलज्जा-\nमेवंविधां स्त्रीं परिवर्जयामि ॥"
+          "text": "प्रकीर्णभाण्डामनवेक्ष्यकारिणीं\nसदा च भर्तुः प्रतिकूलवादिनीम् ।\nपरस्य वेश्माभिरतामलज्जा-\nमेवंविधां स्त्रीं परिवर्जयामि ॥",
+          "meaning": {
+            "en": "\"I avoid a woman who scatters her goods, acts without looking, always speaks against her husband, and is fond of other people's houses and shameless.\""
+          }
         },
         {
           "n": 12,
-          "text": "लोलामचोक्षामवलेहिनीं च\nव्यपेतधैर्यां कलहप्रियां च ।\nनिद्राभिभूतां सततं शयाना-\nमेवंविधां स्त्रीं परिवर्जयामि ॥"
+          "text": "लोलामचोक्षामवलेहिनीं च\nव्यपेतधैर्यां कलहप्रियां च ।\nनिद्राभिभूतां सततं शयाना-\nमेवंविधां स्त्रीं परिवर्जयामि ॥",
+          "meaning": {
+            "en": "\"I avoid a woman who is fickle, unclean, gluttonous, without steadiness, fond of quarrels, overcome by sleep and always lying down.\""
+          }
         },
         {
           "n": 13,
-          "text": "सत्यासु नित्यं प्रियदर्शनासु\nसौभाग्ययुक्तासु गुणान्वितासु ।\nवसामि नारीषु पतिव्रतासु\nकल्याणशीलासु विभूषितासु ॥"
+          "text": "सत्यासु नित्यं प्रियदर्शनासु\nसौभाग्ययुक्तासु गुणान्वितासु ।\nवसामि नारीषु पतिव्रतासु\nकल्याणशीलासु विभूषितासु ॥",
+          "meaning": {
+            "en": "\"I dwell among women who are truthful, pleasant to look at, fortunate and virtuous, devoted to their husbands, kind in nature and well adorned.\""
+          }
         },
         {
           "n": 14,
-          "text": "यानेषु कन्यासु विभूषणेषु\nयज्ञेषु मेघेषु च वृष्टिमत्सु ।\nवसामि फुल्लासु च पद्मिनीषु\nनक्षत्रवीथीषु च शारदीषु ॥"
+          "text": "यानेषु कन्यासु विभूषणेषु\nयज्ञेषु मेघेषु च वृष्टिमत्सु ।\nवसामि फुल्लासु च पद्मिनीषु\nनक्षत्रवीथीषु च शारदीषु ॥",
+          "meaning": {
+            "en": "\"I dwell in vehicles, in maidens, in ornaments, in sacrifices, in rain-bearing clouds, in blooming lotus pools, and in the starry paths of autumn.\""
+          }
         },
         {
           "n": 15,
-          "text": "शैलेषु गोष्ठेषु तथा वनेषु\nसरःसु फुल्लोत्पलपङ्कजेषु ।\nनदीषु हंसस्वननादितासु\nक्रौञ्चावघुष्टस्वरशोभितासु ॥"
+          "text": "शैलेषु गोष्ठेषु तथा वनेषु\nसरःसु फुल्लोत्पलपङ्कजेषु ।\nनदीषु हंसस्वननादितासु\nक्रौञ्चावघुष्टस्वरशोभितासु ॥",
+          "meaning": {
+            "en": "\"I dwell in mountains, cow-pens and forests, in lakes full of blooming lotuses, in rivers that echo with the cries of swans and are made lovely by the calls of cranes.\""
+          }
         },
         {
           "n": 16,
-          "text": "विस्तीर्णकूलह्रदशोभितासु\nतपस्विसिद्धद्विजसेवितासु ।\nवसामि नित्यं सुबहूदकासु\nसिंहैर्गजैश्चाकुलितोदकासु ।\nमत्ते गजे गोवृषभे नरेन्द्रे\nसिंहासने सत्पुरुषे च नित्यम् ॥"
+          "text": "विस्तीर्णकूलह्रदशोभितासु\nतपस्विसिद्धद्विजसेवितासु ।\nवसामि नित्यं सुबहूदकासु\nसिंहैर्गजैश्चाकुलितोदकासु ।\nमत्ते गजे गोवृषभे नरेन्द्रे\nसिंहासने सत्पुरुषे च नित्यम् ॥",
+          "meaning": {
+            "en": "\"I dwell always in rivers adorned with broad banks and pools, frequented by ascetics, perfected ones and brahmins, with abundant water, and with water stirred by lions and elephants; and always in a rutting elephant, a bull, a king, a throne and a good man.\""
+          }
         },
         {
           "n": 17,
-          "text": "यस्मिन्गृहे हूयते हव्यवाहो\nगोब्राह्मणश्चार्च्यते देवताश्च ।\nकाले च पुष्पैर्बलयः क्रियन्ते\nतस्मिन्गृहे नित्यमुपैमि वासम् ॥"
+          "text": "यस्मिन्गृहे हूयते हव्यवाहो\nगोब्राह्मणश्चार्च्यते देवताश्च ।\nकाले च पुष्पैर्बलयः क्रियन्ते\nतस्मिन्गृहे नित्यमुपैमि वासम् ॥",
+          "meaning": {
+            "en": "\"In the house where the fire is offered oblations, cows, brahmins and gods are honored, and offerings of flowers are made at the proper time, I always take up residence.\""
+          }
         },
         {
           "n": 18,
-          "text": "स्वाध्यायनित्येषु द्विजेषु नित्यं\nक्षत्रे च धर्माभिरते सदैव ।\nवैश्ये च कृष्याभिरते वसामि\nशूद्रे च शुश्रूषणनित्ययुक्ते ॥"
+          "text": "स्वाध्यायनित्येषु द्विजेषु नित्यं\nक्षत्रे च धर्माभिरते सदैव ।\nवैश्ये च कृष्याभिरते वसामि\nशूद्रे च शुश्रूषणनित्ययुक्ते ॥",
+          "meaning": {
+            "en": "\"I dwell among brahmins who are always devoted to study, among Kshatriyas ever delighted in dharma, among Vaishyas devoted to farming, and among Shudras always engaged in service.\""
+          }
         },
         {
           "n": 19,
-          "text": "नारायणे त्वेकमना वसामि\nसर्वेण भावेन शरीरभूता ।\nतस्मिन्हि धर्मः सुमहान्निविष्टो\nब्रह्मण्यता चात्र तथा प्रियत्वम् ॥"
+          "text": "नारायणे त्वेकमना वसामि\nसर्वेण भावेन शरीरभूता ।\nतस्मिन्हि धर्मः सुमहान्निविष्टो\nब्रह्मण्यता चात्र तथा प्रियत्वम् ॥",
+          "meaning": {
+            "en": "\"In Narayana I dwell with single mind, in my whole being, as his own body, for in him great dharma is established, and devotion to brahmins and love for them.\""
+          }
         },
         {
           "n": 20,
-          "text": "नाहं शरीरेण वसामि देवि\nनैवं मया शक्यमिहाभिधातुम् ।\nयस्मिंस्तु भावेन वसामि पुंसि\nस वर्धते धर्मयशोर्थकामैः ॥"
+          "text": "नाहं शरीरेण वसामि देवि\nनैवं मया शक्यमिहाभिधातुम् ।\nयस्मिंस्तु भावेन वसामि पुंसि\nस वर्धते धर्मयशोर्थकामैः ॥",
+          "meaning": {
+            "en": "\"Goddess, I do not dwell with my body; I cannot say it so here. The man in whom I dwell in spirit prospers in dharma, fame, wealth and desire.\""
+          }
         }
       ]
     }

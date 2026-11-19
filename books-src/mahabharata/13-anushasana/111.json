@@ -22,94 +22,163 @@
       "titleEn": "Anushasanika Parva (The instructions)",
       "verses": [
         {
-          "text": "युधिष्ठिर उवाच"
+          "text": "युधिष्ठिर उवाच",
+          "meaning": {
+            "en": "Yudhishthira said:"
+          }
         },
         {
           "n": 1,
-          "text": "यद्वरं सर्वतीर्थानां तद्ब्रवीहि पितामह ।\nयत्र वै परमं शौचं तन्मे व्याख्यातुमर्हसि ॥"
+          "text": "यद्वरं सर्वतीर्थानां तद्ब्रवीहि पितामह ।\nयत्र वै परमं शौचं तन्मे व्याख्यातुमर्हसि ॥",
+          "meaning": {
+            "en": "Grandfather, tell me which is the best of all holy places, where the highest purity is found; you ought to explain this to me."
+          }
         },
         {
-          "text": "भीष्म उवाच"
+          "text": "भीष्म उवाच",
+          "meaning": {
+            "en": "Bhishma said:"
+          }
         },
         {
           "n": 2,
-          "text": "सर्वाणि खलु तीर्थानि गुणवन्ति मनीषिणाम् ।\nयत्तु तीर्थं च शौचं च तन्मे शृणु समाहितः ॥"
+          "text": "सर्वाणि खलु तीर्थानि गुणवन्ति मनीषिणाम् ।\nयत्तु तीर्थं च शौचं च तन्मे शृणु समाहितः ॥",
+          "meaning": {
+            "en": "All holy places are indeed beneficial for the wise; but listen attentively to me about what is both a holy place and purity."
+          }
         },
         {
           "n": 3,
-          "text": "अगाधे विमले शुद्धे सत्यतोये धृतिह्रदे ।\nस्नातव्यं मानसे तीर्थे सत्त्वमालम्ब्य शाश्वतम् ॥"
+          "text": "अगाधे विमले शुद्धे सत्यतोये धृतिह्रदे ।\nस्नातव्यं मानसे तीर्थे सत्त्वमालम्ब्य शाश्वतम् ॥",
+          "meaning": {
+            "en": "One should bathe in the holy place of the mind, resting on lasting goodness: a deep, clear, pure water whose water is truth and whose lake is steadfastness."
+          }
         },
         {
           "n": 4,
-          "text": "तीर्थशौचमनर्थित्वमार्दवं सत्यमार्जवम् ।\nअहिंसा सर्वभूतानामानृशंस्यं दमः शमः ॥"
+          "text": "तीर्थशौचमनर्थित्वमार्दवं सत्यमार्जवम् ।\nअहिंसा सर्वभूतानामानृशंस्यं दमः शमः ॥",
+          "meaning": {
+            "en": "The purity of a holy place is freedom from wants, gentleness, truthfulness, honesty, non-violence toward all creatures, kindness, self-control and tranquillity."
+          }
         },
         {
           "n": 5,
-          "text": "निर्ममा निरहंकारा निर्द्वंद्वा निष्परिग्रहाः ।\nशुचयस्तीर्थभूतास्ते ये भैक्षमुपभुञ्जते ॥"
+          "text": "निर्ममा निरहंकारा निर्द्वंद्वा निष्परिग्रहाः ।\nशुचयस्तीर्थभूतास्ते ये भैक्षमुपभुञ्जते ॥",
+          "meaning": {
+            "en": "Those who are free of possessiveness and ego, beyond the pairs of opposites, without belongings, and who live on alms, are pure and are themselves holy places."
+          }
         },
         {
           "n": 6,
-          "text": "तत्त्ववित्त्वनहंबुद्धिस्तीर्थं परममुच्यते ।\nशौचलक्षणमेतत्ते सर्वत्रैवान्ववेक्षणम् ॥"
+          "text": "तत्त्ववित्त्वनहंबुद्धिस्तीर्थं परममुच्यते ।\nशौचलक्षणमेतत्ते सर्वत्रैवान्ववेक्षणम् ॥",
+          "meaning": {
+            "en": "A knower of truth without the sense of ego is called the supreme holy place; this is the mark of purity for you: seeing the same everywhere."
+          }
         },
         {
           "n": 7,
-          "text": "रजस्तमः सत्त्वमथो येषां निर्धौतमात्मनः ।\nशौचाशौचे न ते सक्ताः स्वकार्यपरिमार्गिणः ॥"
+          "text": "रजस्तमः सत्त्वमथो येषां निर्धौतमात्मनः ।\nशौचाशौचे न ते सक्ताः स्वकार्यपरिमार्गिणः ॥",
+          "meaning": {
+            "en": "Those whose self has been washed clean of rajas, tamas and sattva are not attached to purity or impurity, and they pursue their own proper aim."
+          }
         },
         {
           "n": 8,
-          "text": "सर्वत्यागेष्वभिरताः सर्वज्ञाः सर्वदर्शिनः ।\nशौचेन वृत्तशौचार्थास्ते तीर्थाः शुचयश्च ते ॥"
+          "text": "सर्वत्यागेष्वभिरताः सर्वज्ञाः सर्वदर्शिनः ।\nशौचेन वृत्तशौचार्थास्ते तीर्थाः शुचयश्च ते ॥",
+          "meaning": {
+            "en": "Those delighted in renouncing everything, all-knowing and all-seeing, whose purity lies in purifying conduct, are holy places and pure."
+          }
         },
         {
           "n": 9,
-          "text": "नोदकक्लिन्नगात्रस्तु स्नात इत्यभिधीयते ।\nस स्नातो यो दमस्नातः सबाह्याभ्यन्तरः शुचिः ॥"
+          "text": "नोदकक्लिन्नगात्रस्तु स्नात इत्यभिधीयते ।\nस स्नातो यो दमस्नातः सबाह्याभ्यन्तरः शुचिः ॥",
+          "meaning": {
+            "en": "One is not called bathed merely because the body is wet with water; he who is bathed in self-control is pure within and without."
+          }
         },
         {
           "n": 10,
-          "text": "अतीतेष्वनपेक्षा ये प्राप्तेष्वर्थेषु निर्ममाः ।\nशौचमेव परं तेषां येषां नोत्पद्यते स्पृहा ॥"
+          "text": "अतीतेष्वनपेक्षा ये प्राप्तेष्वर्थेषु निर्ममाः ।\nशौचमेव परं तेषां येषां नोत्पद्यते स्पृहा ॥",
+          "meaning": {
+            "en": "Those who have no longing for what is past and no possessiveness over what has come, and in whom no craving arises, have the highest purity."
+          }
         },
         {
           "n": 11,
-          "text": "प्रज्ञानं शौचमेवेह शरीरस्य विशेषतः ।\nतथा निष्किंचनत्वं च मनसश्च प्रसन्नता ॥"
+          "text": "प्रज्ञानं शौचमेवेह शरीरस्य विशेषतः ।\nतथा निष्किंचनत्वं च मनसश्च प्रसन्नता ॥",
+          "meaning": {
+            "en": "Here, for the body especially, purity is true knowledge, as are owning nothing and a serene mind."
+          }
         },
         {
           "n": 12,
-          "text": "वृत्तशौचं मनःशौचं तीर्थशौचं परं हितम् ।\nज्ञानोत्पन्नं च यच्छौचं तच्छौचं परमं मतम् ॥"
+          "text": "वृत्तशौचं मनःशौचं तीर्थशौचं परं हितम् ।\nज्ञानोत्पन्नं च यच्छौचं तच्छौचं परमं मतम् ॥",
+          "meaning": {
+            "en": "Purity of conduct, purity of mind and the purity of holy places are most beneficial; the purity born of knowledge is held to be the highest."
+          }
         },
         {
           "n": 13,
-          "text": "मनसाथ प्रदीपेन ब्रह्मज्ञानबलेन च ।\nस्नाता ये मानसे तीर्थे तज्ज्ञाः क्षेत्रज्ञदर्शिनः ॥"
+          "text": "मनसाथ प्रदीपेन ब्रह्मज्ञानबलेन च ।\nस्नाता ये मानसे तीर्थे तज्ज्ञाः क्षेत्रज्ञदर्शिनः ॥",
+          "meaning": {
+            "en": "Those who have bathed in the holy place of the mind, with the lamp of the mind and the strength of knowledge of Brahman, know it and see the knower of the field."
+          }
         },
         {
           "n": 14,
-          "text": "समारोपितशौचस्तु नित्यं भावसमन्वितः ।\nकेवलं गुणसंपन्नः शुचिरेव नरः सदा ॥"
+          "text": "समारोपितशौचस्तु नित्यं भावसमन्वितः ।\nकेवलं गुणसंपन्नः शुचिरेव नरः सदा ॥",
+          "meaning": {
+            "en": "A man in whom purity is firmly established, always possessed of right feeling and endowed with virtues alone, is always pure."
+          }
         },
         {
           "n": 15,
-          "text": "शरीरस्थानि तीर्थानि प्रोक्तान्येतानि भारत ।\nपृथिव्यां यानि तीर्थानि पुण्यानि शृणु तान्यपि ॥"
+          "text": "शरीरस्थानि तीर्थानि प्रोक्तान्येतानि भारत ।\nपृथिव्यां यानि तीर्थानि पुण्यानि शृणु तान्यपि ॥",
+          "meaning": {
+            "en": "Bharata, these are the holy places that are in the body; now hear about the sacred holy places on earth."
+          }
         },
         {
           "n": 16,
-          "text": "यथा शरीरस्योद्देशाः शुचयः परिनिर्मिताः ।\nतथा पृथिव्या भागाश्च पुण्यानि सलिलानि च ॥"
+          "text": "यथा शरीरस्योद्देशाः शुचयः परिनिर्मिताः ।\nतथा पृथिव्या भागाश्च पुण्यानि सलिलानि च ॥",
+          "meaning": {
+            "en": "Just as the parts of the body are made pure, so are parts of the earth and its waters sacred."
+          }
         },
         {
           "n": 17,
-          "text": "प्रार्थनाच्चैव तीर्थस्य स्नानाच्च पितृतर्पणात् ।\nधुनन्ति पापं तीर्थेषु पूता यान्ति दिवं सुखम् ॥"
+          "text": "प्रार्थनाच्चैव तीर्थस्य स्नानाच्च पितृतर्पणात् ।\nधुनन्ति पापं तीर्थेषु पूता यान्ति दिवं सुखम् ॥",
+          "meaning": {
+            "en": "By resorting to a holy place, bathing, and offering water to ancestors, people shake off sin at holy places and, purified, go happily to heaven."
+          }
         },
         {
           "n": 18,
-          "text": "परिग्रहाच्च साधूनां पृथिव्याश्चैव तेजसा ।\nअतीव पुण्यास्ते भागाः सलिलस्य च तेजसा ॥"
+          "text": "परिग्रहाच्च साधूनां पृथिव्याश्चैव तेजसा ।\nअतीव पुण्यास्ते भागाः सलिलस्य च तेजसा ॥",
+          "meaning": {
+            "en": "Through the presence of the virtuous, the power of the earth and the power of the water, those places become exceedingly holy."
+          }
         },
         {
           "n": 19,
-          "text": "मनसश्च पृथिव्याश्च पुण्यतीर्थास्तथापरे ।\nउभयोरेव यः स्नातः स सिद्धिं शीघ्रमाप्नुयात् ॥"
+          "text": "मनसश्च पृथिव्याश्च पुण्यतीर्थास्तथापरे ।\nउभयोरेव यः स्नातः स सिद्धिं शीघ्रमाप्नुयात् ॥",
+          "meaning": {
+            "en": "There are other holy places holy by mind and by earth; one who bathes in both quickly attains perfection."
+          }
         },
         {
           "n": 20,
-          "text": "यथा बलं क्रियाहीनं क्रिया वा बलवर्जिता ।\nनेह साधयते कार्यं समायुक्तस्तु सिध्यति ॥"
+          "text": "यथा बलं क्रियाहीनं क्रिया वा बलवर्जिता ।\nनेह साधयते कार्यं समायुक्तस्तु सिध्यति ॥",
+          "meaning": {
+            "en": "As strength without action, or action without strength, does not accomplish a task here, but the two joined succeed,"
+          }
         },
         {
           "n": 21,
-          "text": "एवं शरीरशौचेन तीर्थशौचेन चान्वितः ।\nततः सिद्धिमवाप्नोति द्विविधं शौचमुत्तमम् ॥"
+          "text": "एवं शरीरशौचेन तीर्थशौचेन चान्वितः ।\nततः सिद्धिमवाप्नोति द्विविधं शौचमुत्तमम् ॥",
+          "meaning": {
+            "en": "so one endowed with purity of body and purity of holy places then attains perfection; the twofold purity is the best."
+          }
         }
       ]
     }

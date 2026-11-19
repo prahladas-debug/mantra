@@ -22,158 +22,314 @@
       "titleEn": "Rajadharma Parva (Duties of kings)",
       "verses": [
         {
-          "text": "युधिष्ठिर उवाच"
+          "text": "युधिष्ठिर उवाच",
+          "meaning": {
+            "en": "Yudhishthira said:",
+            "hi": "युधिष्ठिर बोले—"
+          }
         },
         {
           "n": 1,
-          "text": "श्रुता मे कथिताः पूर्वैश्चत्वारो मानवाश्रमाः ।\nव्याख्यानमेषामाचक्ष्व पृच्छतो मे पितामह ॥"
+          "text": "श्रुता मे कथिताः पूर्वैश्चत्वारो मानवाश्रमाः ।\nव्याख्यानमेषामाचक्ष्व पृच्छतो मे पितामह ॥",
+          "meaning": {
+            "en": "I have heard that the four human stages of life were spoken of by those before; explain them to me, grandfather, as I ask.",
+            "hi": "पूर्वजों द्वारा कहे गए मानव जीवन के चारों आश्रम मैंने सुने हैं; हे पितामह, मेरे पूछने पर इनकी व्याख्या कीजिए।"
+          }
         },
         {
-          "text": "भीष्म उवाच"
+          "text": "भीष्म उवाच",
+          "meaning": {
+            "en": "Bhishma said:",
+            "hi": "भीष्म बोले—"
+          }
         },
         {
           "n": 2,
-          "text": "विदिताः सर्व एवेह धर्मास्तव युधिष्ठिर ।\nयथा मम महाबाहो विदिताः साधुसंमताः ॥"
+          "text": "विदिताः सर्व एवेह धर्मास्तव युधिष्ठिर ।\nयथा मम महाबाहो विदिताः साधुसंमताः ॥",
+          "meaning": {
+            "en": "All these duties are known to you here, Yudhishthira, as they are to me, mighty-armed one, those approved by the good.",
+            "hi": "हे युधिष्ठिर, तुम्हें यहाँ ये सभी धर्म ज्ञात हैं, जैसे मुझे ज्ञात हैं; हे महाबाहो, जो साधु-पुरुषों द्वारा मान्य हैं।"
+          }
         },
         {
           "n": 3,
-          "text": "यत्तु लिङ्गान्तरगतं पृच्छसे मां युधिष्ठिर ।\nधर्मं धर्मभृतां श्रेष्ठ तन्निबोध नराधिप ॥"
+          "text": "यत्तु लिङ्गान्तरगतं पृच्छसे मां युधिष्ठिर ।\nधर्मं धर्मभृतां श्रेष्ठ तन्निबोध नराधिप ॥",
+          "meaning": {
+            "en": "But what you ask me about, Yudhishthira, concerning dharma gone to other signs, best of the upholders of dharma, listen to it, lord of men.",
+            "hi": "हे युधिष्ठिर, हे धर्मधारियों में श्रेष्ठ, जो तुम अन्य चिह्नों में गए धर्म के विषय में मुझसे पूछते हो, हे नराधिप, उसे सुनो।"
+          }
         },
         {
           "n": 4,
-          "text": "सर्वाण्येतानि कौन्तेय विद्यन्ते मनुजर्षभ ।\nसाध्वाचारप्रवृत्तानां चातुराश्रम्यकर्मणाम् ॥"
+          "text": "सर्वाण्येतानि कौन्तेय विद्यन्ते मनुजर्षभ ।\nसाध्वाचारप्रवृत्तानां चातुराश्रम्यकर्मणाम् ॥",
+          "meaning": {
+            "en": "All these, son of Kunti, bull among men, exist for those who act with good conduct in the works of the four stages of life.",
+            "hi": "हे कौन्तेय, हे मनुजों में श्रेष्ठ, ये सब चारों आश्रमों के कर्मों में लगे और उत्तम आचरण वाले पुरुषों के लिए विद्यमान हैं।"
+          }
         },
         {
           "n": 5,
-          "text": "अकामद्वेषयुक्तस्य दण्डनीत्या युधिष्ठिर ।\nसमेक्षिणश्च भूतेषु भैक्षाश्रमपदं भवेत् ॥"
+          "text": "अकामद्वेषयुक्तस्य दण्डनीत्या युधिष्ठिर ।\nसमेक्षिणश्च भूतेषु भैक्षाश्रमपदं भवेत् ॥",
+          "meaning": {
+            "en": "For one free of desire and hatred, who looks on all beings equally by the science of punishment, there would be the position of the mendicant's stage.",
+            "hi": "हे युधिष्ठिर, जो कामना और द्वेष से रहित है, दण्डनीति से चलता है और सब प्राणियों को समदृष्टि से देखता है, उसके लिए भिक्षु-आश्रम का स्थान होगा।"
+          }
         },
         {
           "n": 6,
-          "text": "वेत्त्यादानविसर्गं यो निग्रहानुग्रहौ तथा ।\nयथोक्तवृत्तेर्वीरस्य क्षेमाश्रमपदं भवेत् ॥"
+          "text": "वेत्त्यादानविसर्गं यो निग्रहानुग्रहौ तथा ।\nयथोक्तवृत्तेर्वीरस्य क्षेमाश्रमपदं भवेत् ॥",
+          "meaning": {
+            "en": "The hero who knows taking and giving, restraint and favor, and whose conduct is as stated, would be in the stage of safety.",
+            "hi": "जो वीर लेने और देने, निग्रह और अनुग्रह को जानता है, और जिसका आचरण कहे अनुसार है, उसके लिए क्षेम (रक्षा) आश्रम का स्थान होगा।"
+          }
         },
         {
           "n": 7,
-          "text": "ज्ञातिसंबन्धिमित्राणि व्यापन्नानि युधिष्ठिर ।\nसमभ्युद्धरमाणस्य दीक्षाश्रमपदं भवेत् ॥"
+          "text": "ज्ञातिसंबन्धिमित्राणि व्यापन्नानि युधिष्ठिर ।\nसमभ्युद्धरमाणस्य दीक्षाश्रमपदं भवेत् ॥",
+          "meaning": {
+            "en": "For one who rescues kinsmen, relatives and friends in trouble, Yudhishthira, there would be the position of the consecration stage.",
+            "hi": "हे युधिष्ठिर, जो संकट में पड़े हुए ज्ञाति, सम्बन्धी और मित्रों का भली प्रकार उद्धार करता है, उसके लिए दीक्षा-आश्रम का स्थान होगा।"
+          }
         },
         {
           "n": 8,
-          "text": "आह्निकं भूतयज्ञांश्च पितृयज्ञांश्च मानुषान् ।\nकुर्वतः पार्थ विपुलान्वन्याश्रमपदं भवेत् ॥"
+          "text": "आह्निकं भूतयज्ञांश्च पितृयज्ञांश्च मानुषान् ।\nकुर्वतः पार्थ विपुलान्वन्याश्रमपदं भवेत् ॥",
+          "meaning": {
+            "en": "For one who performs daily rites and the many sacrifices to beings, ancestors and men, Pandava, there would be the forest stage.",
+            "hi": "हे पार्थ, जो नित्य कर्म, भूतयज्ञ, पितृयज्ञ और मनुष्य-यज्ञ विपुल रूप से करता है, उसके लिए वन-आश्रम का स्थान होगा।"
+          }
         },
         {
           "n": 9,
-          "text": "पालनात्सर्वभूतानां स्वराष्ट्रपरिपालनात् ।\nदीक्षा बहुविधा राज्ञो वन्याश्रमपदं भवेत् ॥"
+          "text": "पालनात्सर्वभूतानां स्वराष्ट्रपरिपालनात् ।\nदीक्षा बहुविधा राज्ञो वन्याश्रमपदं भवेत् ॥",
+          "meaning": {
+            "en": "By protecting all beings and guarding his own kingdom, the king's many kinds of consecration would be the position of the forest stage.",
+            "hi": "सब प्राणियों का पालन करने और अपने राष्ट्र की रक्षा करने से राजा की अनेक प्रकार की दीक्षाएँ वन-आश्रम का स्थान होंगी।"
+          }
         },
         {
           "n": 10,
-          "text": "वेदाध्ययननित्यत्वं क्षमाथाचार्यपूजनम् ।\nतथोपाध्यायशुश्रूषा ब्रह्माश्रमपदं भवेत् ॥"
+          "text": "वेदाध्ययननित्यत्वं क्षमाथाचार्यपूजनम् ।\nतथोपाध्यायशुश्रूषा ब्रह्माश्रमपदं भवेत् ॥",
+          "meaning": {
+            "en": "Constant study of the Veda, forbearance, honoring the teacher, and service to the sub-teacher would be the position of the student stage.",
+            "hi": "नित्य वेद-अध्ययन, क्षमा, आचार्य का पूजन और उपाध्याय की सेवा, यह ब्रह्मचर्य-आश्रम का स्थान होगा।"
+          }
         },
         {
           "n": 11,
-          "text": "अजिह्ममशठं मार्गं सेवमानस्य भारत ।\nसर्वदा सर्वभूतेषु ब्रह्माश्रमपदं भवेत् ॥"
+          "text": "अजिह्ममशठं मार्गं सेवमानस्य भारत ।\nसर्वदा सर्वभूतेषु ब्रह्माश्रमपदं भवेत् ॥",
+          "meaning": {
+            "en": "For one who follows an upright and honest path toward all beings at all times, there would be the position of the student stage.",
+            "hi": "हे भारत, जो सदा सब प्राणियों के प्रति सरल और निष्कपट मार्ग का सेवन करता है, उसके लिए ब्रह्मचर्य-आश्रम का स्थान होगा।"
+          }
         },
         {
           "n": 12,
-          "text": "वानप्रस्थेषु विप्रेषु त्रैविद्येषु च भारत ।\nप्रयच्छतोऽर्थान्विपुलान्वन्याश्रमपदं भवेत् ॥"
+          "text": "वानप्रस्थेषु विप्रेषु त्रैविद्येषु च भारत ।\nप्रयच्छतोऽर्थान्विपुलान्वन्याश्रमपदं भवेत् ॥",
+          "meaning": {
+            "en": "For one who gives great wealth to forest-dwellers and to brahmins learned in the three Vedas, there would be the forest stage.",
+            "hi": "हे भारत, वानप्रस्थ ब्राह्मणों और त्रैविद्य विप्रों को जो विपुल धन देता है, उसके लिए वन-आश्रम का स्थान होगा।"
+          }
         },
         {
           "n": 13,
-          "text": "सर्वभूतेष्वनुक्रोशं कुर्वतस्तस्य भारत ।\nआनृशंस्यप्रवृत्तस्य सर्वावस्थं पदं भवेत् ॥"
+          "text": "सर्वभूतेष्वनुक्रोशं कुर्वतस्तस्य भारत ।\nआनृशंस्यप्रवृत्तस्य सर्वावस्थं पदं भवेत् ॥",
+          "meaning": {
+            "en": "For one who shows compassion to all beings and acts without cruelty, Bharata, there is a position in every condition.",
+            "hi": "हे भारत, जो सब प्राणियों पर करुणा करता है और अहिंसा में प्रवृत्त है, उसके लिए सब अवस्थाओं में स्थान होगा।"
+          }
         },
         {
           "n": 14,
-          "text": "बालवृद्धेषु कौरव्य सर्वावस्थं युधिष्ठिर ।\nअनुक्रोशं विदधतः सर्वावस्थं पदं भवेत् ॥"
+          "text": "बालवृद्धेषु कौरव्य सर्वावस्थं युधिष्ठिर ।\nअनुक्रोशं विदधतः सर्वावस्थं पदं भवेत् ॥",
+          "meaning": {
+            "en": "For one who shows compassion to children and the old, descendant of Kuru, Yudhishthira, there is a position in every condition.",
+            "hi": "हे कौरव्य, हे युधिष्ठिर, जो बालकों और वृद्धों पर करुणा करता है, उसके लिए सब अवस्थाओं में स्थान होगा।"
+          }
         },
         {
           "n": 15,
-          "text": "बलात्कृतेषु भूतेषु परित्राणं कुरूद्वह ।\nशरणागतेषु कौरव्य कुर्वन्गार्हस्थ्यमावसेत् ॥"
+          "text": "बलात्कृतेषु भूतेषु परित्राणं कुरूद्वह ।\nशरणागतेषु कौरव्य कुर्वन्गार्हस्थ्यमावसेत् ॥",
+          "meaning": {
+            "en": "Giving protection to beings who are wronged by force, bearer of the Kuru line, and to those who take refuge, descendant of Kuru, he would live the householder's life.",
+            "hi": "हे कुरुकुलश्रेष्ठ, बल से पीड़ित प्राणियों की रक्षा करते हुए, और हे कौरव्य, शरण में आए हुओं की रक्षा करते हुए, वह गृहस्थ-जीवन बिताए।"
+          }
         },
         {
           "n": 16,
-          "text": "चराचराणां भूतानां रक्षामपि च सर्वशः ।\nयथार्हपूजां च सदा कुर्वन्गार्हस्थ्यमावसेत् ॥"
+          "text": "चराचराणां भूतानां रक्षामपि च सर्वशः ।\nयथार्हपूजां च सदा कुर्वन्गार्हस्थ्यमावसेत् ॥",
+          "meaning": {
+            "en": "Giving protection to moving and unmoving beings in every way, and always giving due honor, he would live the householder's life.",
+            "hi": "चर और अचर सभी प्राणियों की सब प्रकार से रक्षा करते हुए, और सदा यथायोग्य सम्मान करते हुए, वह गृहस्थ-जीवन बिताए।"
+          }
         },
         {
           "n": 17,
-          "text": "ज्येष्ठानुज्येष्ठपत्नीनां भ्रातॄणां पुत्रनप्तृणाम् ।\nनिग्रहानुग्रहौ पार्थ गार्हस्थ्यमिति तत्तपः ॥"
+          "text": "ज्येष्ठानुज्येष्ठपत्नीनां भ्रातॄणां पुत्रनप्तृणाम् ।\nनिग्रहानुग्रहौ पार्थ गार्हस्थ्यमिति तत्तपः ॥",
+          "meaning": {
+            "en": "Restraining and favoring the elder and younger wives, the brothers, sons and grandsons, Pandava, that is the householder's austerity.",
+            "hi": "हे पार्थ, ज्येष्ठ और कनिष्ठ पत्नियों, भाइयों, पुत्रों और पौत्रों पर निग्रह और अनुग्रह करना, यही गृहस्थ-आश्रम की तपस्या है।"
+          }
         },
         {
           "n": 18,
-          "text": "साधूनामर्चनीयानां प्रजासु विदितात्मनाम् ।\nपालनं पुरुषव्याघ्र गृहाश्रमपदं भवेत् ॥"
+          "text": "साधूनामर्चनीयानां प्रजासु विदितात्मनाम् ।\nपालनं पुरुषव्याघ्र गृहाश्रमपदं भवेत् ॥",
+          "meaning": {
+            "en": "Protecting the good who deserve honor and who are known as self-knowers among the people, tiger among men, would be the householder's stage.",
+            "hi": "हे पुरुषव्याघ्र, प्रजाओं में जो आत्मज्ञानी और पूजनीय साधु हैं, उनका पालन करना गृहस्थ-आश्रम का स्थान होगा।"
+          }
         },
         {
           "n": 19,
-          "text": "आश्रमस्थानि सर्वाणि यस्तु वेश्मनि भारत ।\nआददीतेह भोज्येन तद्गार्हस्थ्यं युधिष्ठिर ॥"
+          "text": "आश्रमस्थानि सर्वाणि यस्तु वेश्मनि भारत ।\nआददीतेह भोज्येन तद्गार्हस्थ्यं युधिष्ठिर ॥",
+          "meaning": {
+            "en": "Whoever in his own house takes in, by food, all those who live in the stages of life, that is householdership, Yudhishthira.",
+            "hi": "हे भारत, हे युधिष्ठिर, जो अपने घर में आश्रमों में रहने वाले सबको भोजन देकर आश्रय देता है, वही गृहस्थ-धर्म है।"
+          }
         },
         {
           "n": 20,
-          "text": "यः स्थितः पुरुषो धर्मे धात्रा सृष्टे यथार्थवत् ।\nआश्रमाणां स सर्वेषां फलं प्राप्नोत्यनुत्तमम् ॥"
+          "text": "यः स्थितः पुरुषो धर्मे धात्रा सृष्टे यथार्थवत् ।\nआश्रमाणां स सर्वेषां फलं प्राप्नोत्यनुत्तमम् ॥",
+          "meaning": {
+            "en": "The man who stands in the dharma created by the Creator, in its true form, gains the highest fruit of all the stages of life.",
+            "hi": "जो पुरुष विधाता द्वारा रचे गए धर्म में यथार्थ रूप से स्थित रहता है, वह सभी आश्रमों का सर्वोत्तम फल प्राप्त करता है।"
+          }
         },
         {
           "n": 21,
-          "text": "यस्मिन्न नश्यन्ति गुणाः कौन्तेय पुरुषे सदा ।\nआश्रमस्थं तमप्याहुर्नरश्रेष्ठं युधिष्ठिर ॥"
+          "text": "यस्मिन्न नश्यन्ति गुणाः कौन्तेय पुरुषे सदा ।\nआश्रमस्थं तमप्याहुर्नरश्रेष्ठं युधिष्ठिर ॥",
+          "meaning": {
+            "en": "The man in whom virtues never perish, son of Kunti, they call best of men, and as dwelling in a stage of life as well.",
+            "hi": "हे कौन्तेय, जिस पुरुष में गुण सदा नष्ट नहीं होते, हे युधिष्ठिर, उस नरश्रेष्ठ को आश्रम में स्थित ही कहते हैं।"
+          }
         },
         {
           "n": 22,
-          "text": "स्थानमानं वयोमानं कुलमानं तथैव च ।\nकुर्वन्वसति सर्वेषु ह्याश्रमेषु युधिष्ठिर ॥"
+          "text": "स्थानमानं वयोमानं कुलमानं तथैव च ।\nकुर्वन्वसति सर्वेषु ह्याश्रमेषु युधिष्ठिर ॥",
+          "meaning": {
+            "en": "Observing rank, age and family, he lives in all the stages of life, Yudhishthira.",
+            "hi": "हे युधिष्ठिर, स्थान, मान, आयु और कुल का ध्यान रखते हुए वह सभी आश्रमों में निवास करता है।"
+          }
         },
         {
           "n": 23,
-          "text": "देशधर्मांश्च कौन्तेय कुलधर्मांस्तथैव च ।\nपालयन्पुरुषव्याघ्र राजा सर्वाश्रमी भवेत् ॥"
+          "text": "देशधर्मांश्च कौन्तेय कुलधर्मांस्तथैव च ।\nपालयन्पुरुषव्याघ्र राजा सर्वाश्रमी भवेत् ॥",
+          "meaning": {
+            "en": "A king who protects the duties of the land and of the family, tiger among men, would be a man of all stages.",
+            "hi": "हे कौन्तेय, हे पुरुषव्याघ्र, देश के धर्मों और कुल के धर्मों का पालन करता हुआ राजा सर्व-आश्रमी होता है।"
+          }
         },
         {
           "n": 24,
-          "text": "काले विभूतिं भूतानामुपहारांस्तथैव च ।\nअर्हयन्पुरुषव्याघ्र साधूनामाश्रमे वसेत् ॥"
+          "text": "काले विभूतिं भूतानामुपहारांस्तथैव च ।\nअर्हयन्पुरुषव्याघ्र साधूनामाश्रमे वसेत् ॥",
+          "meaning": {
+            "en": "Honoring at the proper time the prosperity and offerings of beings, tiger among men, he would dwell in the stage of the good.",
+            "hi": "हे पुरुषव्याघ्र, समय पर प्राणियों की समृद्धि और उपहारों से साधुओं का सत्कार करते हुए (राजा) साधुओं के आश्रम में निवास करे।"
+          }
         },
         {
           "n": 25,
-          "text": "दशधर्मगतश्चापि यो धर्मं प्रत्यवेक्षते ।\nसर्वलोकस्य कौन्तेय राजा भवति सोऽऽश्रमी ॥"
+          "text": "दशधर्मगतश्चापि यो धर्मं प्रत्यवेक्षते ।\nसर्वलोकस्य कौन्तेय राजा भवति सोऽऽश्रमी ॥",
+          "meaning": {
+            "en": "Whoever, though gone to the ten duties, watches over dharma, becomes, son of Kunti, a king in the stage of life of the whole world.",
+            "hi": "हे कौन्तेय, जो दस धर्मों में स्थित होकर भी धर्म की रक्षा करता है, वह राजा सम्पूर्ण लोक के आश्रम में आश्रमी होता है।"
+          }
         },
         {
           "n": 26,
-          "text": "ये धर्मकुशला लोके धर्मं कुर्वन्ति साधवः ।\nपालिता यस्य विषये पादोंऽशस्तस्य भूपतेः ॥"
+          "text": "ये धर्मकुशला लोके धर्मं कुर्वन्ति साधवः ।\nपालिता यस्य विषये पादोंऽशस्तस्य भूपतेः ॥",
+          "meaning": {
+            "en": "The king in whose realm the good, skilled in dharma, practise dharma under protection receives a fourth share of it.",
+            "hi": "लोक में धर्म में कुशल जो साधु लोग धर्म का आचरण करते हैं, जिसके राज्य में वे संरक्षित होते हैं, उस भूपति को उस धर्म का चौथाई भाग मिलता है।"
+          }
         },
         {
           "n": 27,
-          "text": "धर्मारामान्धर्मपरान्ये न रक्षन्ति मानवान् ।\nपार्थिवाः पुरुषव्याघ्र तेषां पापं हरन्ति ते ॥"
+          "text": "धर्मारामान्धर्मपरान्ये न रक्षन्ति मानवान् ।\nपार्थिवाः पुरुषव्याघ्र तेषां पापं हरन्ति ते ॥",
+          "meaning": {
+            "en": "Kings who do not protect men who delight in dharma and are intent on dharma, tiger among men, are relieved of their own sin by those men.",
+            "hi": "हे पुरुषव्याघ्र, जो राजा धर्म में रमे हुए और धर्मपरायण मनुष्यों की रक्षा नहीं करते, उन राजाओं के पाप को वे मनुष्य हर लेते हैं।"
+          }
         },
         {
           "n": 28,
-          "text": "ये च रक्षासहायाः स्युः पार्थिवानां युधिष्ठिर ।\nते चैवांशहराः सर्वे धर्मे परकृतेऽनघ ॥"
+          "text": "ये च रक्षासहायाः स्युः पार्थिवानां युधिष्ठिर ।\nते चैवांशहराः सर्वे धर्मे परकृतेऽनघ ॥",
+          "meaning": {
+            "en": "And those who are the helpers of kings in protection take a share of the dharma done by others too, blameless one.",
+            "hi": "हे युधिष्ठिर, जो राजाओं की रक्षा में सहायक होते हैं, वे भी दूसरों द्वारा किए गए धर्म में, हे निष्पाप, सब अंश के भागी होते हैं।"
+          }
         },
         {
           "n": 29,
-          "text": "सर्वाश्रमपदे ह्याहुर्गार्हस्थ्यं दीप्तनिर्णयम् ।\nपावनं पुरुषव्याघ्र यं वयं पर्युपास्महे ॥"
+          "text": "सर्वाश्रमपदे ह्याहुर्गार्हस्थ्यं दीप्तनिर्णयम् ।\nपावनं पुरुषव्याघ्र यं वयं पर्युपास्महे ॥",
+          "meaning": {
+            "en": "They say that householdership, of brightly settled conclusion, is the best of all the positions of the stages of life; it is purifying, tiger among men, and we practise it.",
+            "hi": "सभी आश्रमों के स्थान में गृहस्थ-आश्रम को निर्मल निश्चय वाला श्रेष्ठ कहते हैं; हे पुरुषव्याघ्र, वह पवित्र करने वाला है, जिसकी हम उपासना करते हैं।"
+          }
         },
         {
           "n": 30,
-          "text": "आत्मोपमस्तु भूतेषु यो वै भवति मानवः ।\nन्यस्तदण्डो जितक्रोधः स प्रेत्य लभते सुखम् ॥"
+          "text": "आत्मोपमस्तु भूतेषु यो वै भवति मानवः ।\nन्यस्तदण्डो जितक्रोधः स प्रेत्य लभते सुखम् ॥",
+          "meaning": {
+            "en": "The man who is like himself toward all beings, lays down the rod and masters anger, finds happiness after death.",
+            "hi": "जो मनुष्य प्राणियों के प्रति अपने समान भाव रखता है, दण्ड त्याग देता है और क्रोध को जीत लेता है, वह मृत्यु के बाद सुख पाता है।"
+          }
         },
         {
           "n": 31,
-          "text": "धर्मोत्थिता सत्त्ववीर्या धर्मसेतुवटाकरा ।\nत्यागवाताध्वगा शीघ्रा नौस्त्वा संतारयिष्यति ॥"
+          "text": "धर्मोत्थिता सत्त्ववीर्या धर्मसेतुवटाकरा ।\nत्यागवाताध्वगा शीघ्रा नौस्त्वा संतारयिष्यति ॥",
+          "meaning": {
+            "en": "A boat born of dharma, with the strength of sattva, with dharma as its dikes and tanks, and renunciation as its wind, will carry you swiftly across.",
+            "hi": "धर्म से उत्पन्न, सत्त्व और वीर्य वाली, धर्म-रूपी सेतु और जलाशयों वाली, त्याग की वायु से चलने वाली, शीघ्र गति वाली नाव तुम्हें पार ले जाएगी।"
+          }
         },
         {
           "n": 32,
-          "text": "यदा निवृत्तः सर्वस्मात्कामो योऽस्य हृदि स्थितः ।\nतदा भवति सत्त्वस्थस्ततो ब्रह्म समश्नुते ॥"
+          "text": "यदा निवृत्तः सर्वस्मात्कामो योऽस्य हृदि स्थितः ।\nतदा भवति सत्त्वस्थस्ततो ब्रह्म समश्नुते ॥",
+          "meaning": {
+            "en": "When every desire that stood in his heart has turned away from all, then he becomes established in sattva, and from that he reaches Brahman.",
+            "hi": "जब हृदय में स्थित जो भी कामना सबसे निवृत्त हो जाती है, तब वह सत्त्व में स्थित होता है, और उससे ब्रह्म को प्राप्त करता है।"
+          }
         },
         {
           "n": 33,
-          "text": "सुप्रसन्नस्तु भावेन योगेन च नराधिप ।\nधर्मं पुरुषशार्दूल प्राप्स्यसे पालने रतः ॥"
+          "text": "सुप्रसन्नस्तु भावेन योगेन च नराधिप ।\nधर्मं पुरुषशार्दूल प्राप्स्यसे पालने रतः ॥",
+          "meaning": {
+            "en": "With a very clear mind, in disposition and in yoga, lord of men, tiger among men, you will attain dharma by delighting in protecting.",
+            "hi": "हे नराधिप, हे पुरुषशार्दूल, तुम भाव और योग से अत्यन्त प्रसन्न होकर, पालन में रत रहते हुए धर्म को प्राप्त करोगे।"
+          }
         },
         {
           "n": 34,
-          "text": "वेदाध्ययनशीलानां विप्राणां साधुकर्मणाम् ।\nपालने यत्नमातिष्ठ सर्वलोकस्य चानघ ॥"
+          "text": "वेदाध्ययनशीलानां विप्राणां साधुकर्मणाम् ।\nपालने यत्नमातिष्ठ सर्वलोकस्य चानघ ॥",
+          "meaning": {
+            "en": "Put your effort into protecting brahmins who are devoted to study of the Veda and good in their works, and into protecting the whole world, blameless one.",
+            "hi": "हे निष्पाप, वेद-अध्ययन में लगे और साधु कर्म करने वाले ब्राह्मणों के पालन में, तथा सम्पूर्ण लोक के पालन में यत्न करो।"
+          }
         },
         {
           "n": 35,
-          "text": "वने चरति यो धर्ममाश्रमेषु च भारत ।\nरक्षया तच्छतगुणं धर्मं प्राप्नोति पार्थिवः ॥"
+          "text": "वने चरति यो धर्ममाश्रमेषु च भारत ।\nरक्षया तच्छतगुणं धर्मं प्राप्नोति पार्थिवः ॥",
+          "meaning": {
+            "en": "The king who protects dharma practised in the forest and in the stages of life gains a hundred times the dharma by his protection, Bharata.",
+            "hi": "हे भारत, जो राजा वन में और आश्रमों में आचरित धर्म की रक्षा करता है, वह अपनी रक्षा से उस धर्म का सौ गुना फल प्राप्त करता है।"
+          }
         },
         {
           "n": 36,
-          "text": "एष ते विविधो धर्मः पाण्डवश्रेष्ठ कीर्तितः ।\nअनुतिष्ठ त्वमेनं वै पूर्वैर्दृष्टं सनातनम् ॥"
+          "text": "एष ते विविधो धर्मः पाण्डवश्रेष्ठ कीर्तितः ।\nअनुतिष्ठ त्वमेनं वै पूर्वैर्दृष्टं सनातनम् ॥",
+          "meaning": {
+            "en": "This manifold dharma has been told to you, best of the Pandavas; follow it, the eternal dharma seen by those before.",
+            "hi": "हे पाण्डवश्रेष्ठ, तुम्हें यह विविध धर्म कहा गया है; इसी का अनुष्ठान करो, जो पूर्वजों द्वारा देखा गया सनातन धर्म है।"
+          }
         },
         {
           "n": 37,
-          "text": "चातुराश्रम्यमेकाग्रः चातुर्वर्ण्यं च पाण्डव ।\nधर्मं पुरुषशार्दूल प्राप्स्यसे पालने रतः ॥"
+          "text": "चातुराश्रम्यमेकाग्रः चातुर्वर्ण्यं च पाण्डव ।\nधर्मं पुरुषशार्दूल प्राप्स्यसे पालने रतः ॥",
+          "meaning": {
+            "en": "With a single mind, practise the four stages of life and the duties of the four classes, Pandava; delighting in protection, tiger among men, you will attain dharma.",
+            "hi": "हे पाण्डव, एकाग्र मन से चारों आश्रमों और चारों वर्णों का धर्म (पालन करो); हे पुरुषशार्दूल, पालन में रत रहकर तुम धर्म को प्राप्त करोगे।"
+          }
         }
       ]
     }

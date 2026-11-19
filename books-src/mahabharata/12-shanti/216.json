@@ -22,140 +22,248 @@
       "titleEn": "Mokshadharma Parva (Duties for liberation)",
       "verses": [
         {
-          "text": "युधिष्ठिर उवाच"
+          "text": "युधिष्ठिर उवाच",
+          "meaning": {
+            "en": "Yudhishthira said:"
+          }
         },
         {
           "n": 1,
-          "text": "यया बुद्ध्या महीपालो भ्रष्टश्रीर्विचरेन्महीम् ।\nकालदण्डविनिष्पिष्टस्तन्मे ब्रूहि पितामह ॥"
+          "text": "यया बुद्ध्या महीपालो भ्रष्टश्रीर्विचरेन्महीम् ।\nकालदण्डविनिष्पिष्टस्तन्मे ब्रूहि पितामह ॥",
+          "meaning": {
+            "en": "Grandfather, tell me by what understanding a king who has lost his fortune, crushed by the rod of time, may live on in the world."
+          }
         },
         {
-          "text": "भीष्म उवाच"
+          "text": "भीष्म उवाच",
+          "meaning": {
+            "en": "Bhishma said:"
+          }
         },
         {
           "n": 2,
-          "text": "अत्राप्युदाहरन्तीममितिहासं पुरातनम् ।\nवासवस्य च संवादं बलेर्वैरोचनस्य च ॥"
+          "text": "अत्राप्युदाहरन्तीममितिहासं पुरातनम् ।\nवासवस्य च संवादं बलेर्वैरोचनस्य च ॥",
+          "meaning": {
+            "en": "On this they tell this ancient account, the conversation of Indra and Bali, son of Virochana."
+          }
         },
         {
           "n": 3,
-          "text": "पितामहमुपागत्य प्रणिपत्य कृताञ्जलिः ।\nसर्वानेवासुराञ्जित्वा बलिं पप्रच्छ वासवः ॥"
+          "text": "पितामहमुपागत्य प्रणिपत्य कृताञ्जलिः ।\nसर्वानेवासुराञ्जित्वा बलिं पप्रच्छ वासवः ॥",
+          "meaning": {
+            "en": "After conquering all the asuras, Indra approached his grandfather Brahma, bowed with joined palms, and asked about Bali."
+          }
         },
         {
           "n": 4,
-          "text": "यस्य स्म ददतो वित्तं न कदाचन हीयते ।\nतं बलिं नाधिगच्छामि ब्रह्मन्नाचक्ष्व मे बलिम् ॥"
+          "text": "यस्य स्म ददतो वित्तं न कदाचन हीयते ।\nतं बलिं नाधिगच्छामि ब्रह्मन्नाचक्ष्व मे बलिम् ॥",
+          "meaning": {
+            "en": "'Brahma, I cannot find that Bali whose wealth never failed him as he gave it away. Tell me where Bali is.'"
+          }
         },
         {
           "n": 5,
-          "text": "स एव ह्यस्तमयते स स्म विद्योतते दिशः ।\nस वर्षति स्म वर्षाणि यथाकालमतन्द्रितः ।\nतं बलिं नाधिगच्छामि ब्रह्मन्नाचक्ष्व मे बलिम् ॥"
+          "text": "स एव ह्यस्तमयते स स्म विद्योतते दिशः ।\nस वर्षति स्म वर्षाणि यथाकालमतन्द्रितः ।\nतं बलिं नाधिगच्छामि ब्रह्मन्नाचक्ष्व मे बलिम् ॥",
+          "meaning": {
+            "en": "'He alone set, he lit up the quarters, and he rained down rains in season, untiring. I cannot find that Bali; tell me where he is.'"
+          }
         },
         {
           "n": 6,
-          "text": "स वायुर्वरुणश्चैव स रविः स च चन्द्रमाः ।\nसोऽग्निस्तपति भूतानि पृथिवी च भवत्युत ।\nतं बलिं नाधिगच्छामि ब्रह्मन्नाचक्ष्व मे बलिम् ॥"
+          "text": "स वायुर्वरुणश्चैव स रविः स च चन्द्रमाः ।\nसोऽग्निस्तपति भूतानि पृथिवी च भवत्युत ।\nतं बलिं नाधिगच्छामि ब्रह्मन्नाचक्ष्व मे बलिम् ॥",
+          "meaning": {
+            "en": "'He was wind and Varuna, the sun and the moon; as fire he warmed beings, and he was the earth. I cannot find that Bali; tell me where he is.'"
+          }
         },
         {
-          "text": "ब्रह्मोवाच"
+          "text": "ब्रह्मोवाच",
+          "meaning": {
+            "en": "Brahma said:"
+          }
         },
         {
           "n": 7,
-          "text": "नैतत्ते साधु मघवन्यदेतदनुपृच्छसि ।\nपृष्टस्तु नानृतं ब्रूयात्तस्माद्वक्ष्यामि ते बलिम् ॥"
+          "text": "नैतत्ते साधु मघवन्यदेतदनुपृच्छसि ।\nपृष्टस्तु नानृतं ब्रूयात्तस्माद्वक्ष्यामि ते बलिम् ॥",
+          "meaning": {
+            "en": "Maghavan, it is not good that you ask this. Yet one who is asked should not speak untruth, so I will tell you of Bali."
+          }
         },
         {
           "n": 8,
-          "text": "उष्ट्रेषु यदि वा गोषु खरेष्वश्वेषु वा पुनः ।\nवरिष्ठो भविता जन्तुः शून्यागारे शचीपते ॥"
+          "text": "उष्ट्रेषु यदि वा गोषु खरेष्वश्वेषु वा पुनः ।\nवरिष्ठो भविता जन्तुः शून्यागारे शचीपते ॥",
+          "meaning": {
+            "en": "Among camels, or cows, or donkeys or horses, lord of Shachi, that being will be in an empty house, the best of them."
+          }
         },
         {
-          "text": "शक्र उवाच"
+          "text": "शक्र उवाच",
+          "meaning": {
+            "en": "Indra said:"
+          }
         },
         {
           "n": 9,
-          "text": "यदि स्म बलिना ब्रह्मञ्शून्यागारे समेयिवान् ।\nहन्यामेनं न वा हन्यां तद्ब्रह्मन्ननुशाधि माम् ॥"
+          "text": "यदि स्म बलिना ब्रह्मञ्शून्यागारे समेयिवान् ।\nहन्यामेनं न वा हन्यां तद्ब्रह्मन्ननुशाधि माम् ॥",
+          "meaning": {
+            "en": "Brahma, if I meet Bali in an empty house, instruct me whether I should strike him or not."
+          }
         },
         {
-          "text": "ब्रह्मोवाच"
+          "text": "ब्रह्मोवाच",
+          "meaning": {
+            "en": "Brahma said:"
+          }
         },
         {
           "n": 10,
-          "text": "मा स्म शक्र बलिं हिंसीर्न बलिर्वधमर्हति ।\nन्यायांस्तु शक्र प्रष्टव्यस्त्वया वासव काम्यया ॥"
+          "text": "मा स्म शक्र बलिं हिंसीर्न बलिर्वधमर्हति ।\nन्यायांस्तु शक्र प्रष्टव्यस्त्वया वासव काम्यया ॥",
+          "meaning": {
+            "en": "Indra, do not harm Bali; Bali does not deserve to be killed. You should, Indra, question him as you wish, on matters of right."
+          }
         },
         {
-          "text": "भीष्म उवाच"
+          "text": "भीष्म उवाच",
+          "meaning": {
+            "en": "Bhishma said:"
+          }
         },
         {
           "n": 11,
-          "text": "एवमुक्तो भगवता महेन्द्रः पृथिवीं तदा ।\nचचारैरावतस्कन्धमधिरुह्य श्रिया वृतः ॥"
+          "text": "एवमुक्तो भगवता महेन्द्रः पृथिवीं तदा ।\nचचारैरावतस्कन्धमधिरुह्य श्रिया वृतः ॥",
+          "meaning": {
+            "en": "Thus addressed by the lord, Mahendra then roamed the earth, mounted on the shoulders of Airavata and surrounded by splendour."
+          }
         },
         {
           "n": 12,
-          "text": "ततो ददर्श स बलिं खरवेषेण संवृतम् ।\nयथाख्यातं भगवता शून्यागारकृतालयम् ॥"
+          "text": "ततो ददर्श स बलिं खरवेषेण संवृतम् ।\nयथाख्यातं भगवता शून्यागारकृतालयम् ॥",
+          "meaning": {
+            "en": "Then he saw Bali, covered in the form of a donkey, dwelling in an empty house as the lord had said."
+          }
         },
         {
-          "text": "शक्र उवाच"
+          "text": "शक्र उवाच",
+          "meaning": {
+            "en": "Indra said:"
+          }
         },
         {
           "n": 13,
-          "text": "खरयोनिमनुप्राप्तस्तुषभक्षोऽसि दानव ।\nइयं ते योनिरधमा शोचस्याहो न शोचसि ॥"
+          "text": "खरयोनिमनुप्राप्तस्तुषभक्षोऽसि दानव ।\nइयं ते योनिरधमा शोचस्याहो न शोचसि ॥",
+          "meaning": {
+            "en": "You have come to a donkey's birth, Danava, eating husks. This is your lowly state; do you grieve, or not?"
+          }
         },
         {
           "n": 14,
-          "text": "अदृष्टं बत पश्यामि द्विषतां वशमागतम् ।\nश्रिया विहीनं मित्रैश्च भ्रष्टवीर्यपराक्रमम् ॥"
+          "text": "अदृष्टं बत पश्यामि द्विषतां वशमागतम् ।\nश्रिया विहीनं मित्रैश्च भ्रष्टवीर्यपराक्रमम् ॥",
+          "meaning": {
+            "en": "Alas, I see what I never saw: you in the power of your foes, stripped of fortune and friends, your might and valour gone."
+          }
         },
         {
           "n": 15,
-          "text": "यत्तद्यानसहस्रेण ज्ञातिभिः परिवारितः ।\nलोकान्प्रतापयन्सर्वान्यास्यस्मानवितर्कयन् ॥"
+          "text": "यत्तद्यानसहस्रेण ज्ञातिभिः परिवारितः ।\nलोकान्प्रतापयन्सर्वान्यास्यस्मानवितर्कयन् ॥",
+          "meaning": {
+            "en": "You who once went in a thousand chariots, surrounded by kin, scorching all the worlds and heeding us not,"
+          }
         },
         {
           "n": 16,
-          "text": "त्वन्मुखाश्चैव दैतेया व्यतिष्ठंस्तव शासने ।\nअकृष्टपच्या पृथिवी तवैश्वर्ये बभूव ह ।\nइदं च तेऽद्य व्यसनं शोचस्याहो न शोचसि ॥"
+          "text": "त्वन्मुखाश्चैव दैतेया व्यतिष्ठंस्तव शासने ।\nअकृष्टपच्या पृथिवी तवैश्वर्ये बभूव ह ।\nइदं च तेऽद्य व्यसनं शोचस्याहो न शोचसि ॥",
+          "meaning": {
+            "en": "with the Daityas at your head standing at your command, and the earth bearing crops unploughed in your rule: and this is your calamity today. Do you grieve, or not?"
+          }
         },
         {
           "n": 17,
-          "text": "यदातिष्ठः समुद्रस्य पूर्वकूले विलेलिहन् ।\nज्ञातिभ्यो विभजन्वित्तं तदासीत्ते मनः कथम् ॥"
+          "text": "यदातिष्ठः समुद्रस्य पूर्वकूले विलेलिहन् ।\nज्ञातिभ्यो विभजन्वित्तं तदासीत्ते मनः कथम् ॥",
+          "meaning": {
+            "en": "When you stayed on the eastern shore of the sea, tasting wealth as you shared it among your kin, what was in your mind then?"
+          }
         },
         {
           "n": 18,
-          "text": "यत्ते सहस्रसमिता ननृतुर्देवयोषितः ।\nबहूनि वर्षपूगानि विहारे दीप्यतः श्रिया ॥"
+          "text": "यत्ते सहस्रसमिता ननृतुर्देवयोषितः ।\nबहूनि वर्षपूगानि विहारे दीप्यतः श्रिया ॥",
+          "meaning": {
+            "en": "When thousands of heavenly women danced for you, shining with splendour at your pleasure-garden, for many years,"
+          }
         },
         {
           "n": 19,
-          "text": "सर्वाः पुष्करमालिन्यः सर्वाः काञ्चनसप्रभाः ।\nकथमद्य तदा चैव मनस्ते दानवेश्वर ॥"
+          "text": "सर्वाः पुष्करमालिन्यः सर्वाः काञ्चनसप्रभाः ।\nकथमद्य तदा चैव मनस्ते दानवेश्वर ॥",
+          "meaning": {
+            "en": "all garlanded with lotuses, all gleaming like gold: how is your mind now, lord of the Danavas, compared with then?"
+          }
         },
         {
           "n": 20,
-          "text": "छत्रं तवासीत्सुमहत्सौवर्णं मणिभूषितम् ।\nननृतुर्यत्र गन्धर्वाः षट्सहस्राणि सप्तधा ॥"
+          "text": "छत्रं तवासीत्सुमहत्सौवर्णं मणिभूषितम् ।\nननृतुर्यत्र गन्धर्वाः षट्सहस्राणि सप्तधा ॥",
+          "meaning": {
+            "en": "You had a great golden parasol adorned with jewels, where six thousand Gandharvas danced in seven groups."
+          }
         },
         {
           "n": 21,
-          "text": "यूपस्तवासीत्सुमहान्यजतः सर्वकाञ्चनः ।\nयत्राददः सहस्राणामयुतानि गवां दश ॥"
+          "text": "यूपस्तवासीत्सुमहान्यजतः सर्वकाञ्चनः ।\nयत्राददः सहस्राणामयुतानि गवां दश ॥",
+          "meaning": {
+            "en": "You had a very great sacrificial post of solid gold when you sacrificed, at which you gave ten times ten thousands of thousands of cows."
+          }
         },
         {
           "n": 22,
-          "text": "यदा तु पृथिवीं सर्वां यजमानोऽनुपर्ययाः ।\nशम्याक्षेपेण विधिना तदासीत्किं नु ते हृदि ॥"
+          "text": "यदा तु पृथिवीं सर्वां यजमानोऽनुपर्ययाः ।\nशम्याक्षेपेण विधिना तदासीत्किं नु ते हृदि ॥",
+          "meaning": {
+            "en": "And when, as sacrificer, you went around the whole earth with the rite of the throwing of the peg, what was in your heart then?"
+          }
         },
         {
           "n": 23,
-          "text": "न ते पश्यामि भृङ्गारं न छत्रं व्यजनं न च ।\nब्रह्मदत्तां च ते मालां न पश्याम्यसुराधिप ॥"
+          "text": "न ते पश्यामि भृङ्गारं न छत्रं व्यजनं न च ।\nब्रह्मदत्तां च ते मालां न पश्याम्यसुराधिप ॥",
+          "meaning": {
+            "en": "I do not see your water-jar, your parasol, your fan, nor the garland Brahma gave you, lord of the asuras."
+          }
         },
         {
-          "text": "बलिरुवाच"
+          "text": "बलिरुवाच",
+          "meaning": {
+            "en": "Bali said:"
+          }
         },
         {
           "n": 24,
-          "text": "न त्वं पश्यसि भृङ्गारं न छत्रं व्यजनं न च ।\nब्रह्मदत्तां च मे मालां न त्वं द्रक्ष्यसि वासव ॥"
+          "text": "न त्वं पश्यसि भृङ्गारं न छत्रं व्यजनं न च ।\nब्रह्मदत्तां च मे मालां न त्वं द्रक्ष्यसि वासव ॥",
+          "meaning": {
+            "en": "You do not see my water-jar, parasol or fan, nor the garland Brahma gave me, Indra; and you will not see them."
+          }
         },
         {
           "n": 25,
-          "text": "गुहायां निहितानि त्वं मम रत्नानि पृच्छसि ।\nयदा मे भविता कालस्तदा त्वं तानि द्रक्ष्यसि ॥"
+          "text": "गुहायां निहितानि त्वं मम रत्नानि पृच्छसि ।\nयदा मे भविता कालस्तदा त्वं तानि द्रक्ष्यसि ॥",
+          "meaning": {
+            "en": "You ask after my jewels, laid away in a cave; when my time comes, you will see them."
+          }
         },
         {
           "n": 26,
-          "text": "न त्वेतदनुरूपं ते यशसो वा कुलस्य वा ।\nसमृद्धार्थोऽसमृद्धार्थं यन्मां कत्थितुमिच्छसि ॥"
+          "text": "न त्वेतदनुरूपं ते यशसो वा कुलस्य वा ।\nसमृद्धार्थोऽसमृद्धार्थं यन्मां कत्थितुमिच्छसि ॥",
+          "meaning": {
+            "en": "This is not worthy of your fame or your family, that you, prosperous, wish to boast to me, who am not."
+          }
         },
         {
           "n": 27,
-          "text": "न हि दुःखेषु शोचन्ति न प्रहृष्यन्ति चर्द्धिषु ।\nकृतप्रज्ञा ज्ञानतृप्ताः क्षान्ताः सन्तो मनीषिणः ॥"
+          "text": "न हि दुःखेषु शोचन्ति न प्रहृष्यन्ति चर्द्धिषु ।\nकृतप्रज्ञा ज्ञानतृप्ताः क्षान्ताः सन्तो मनीषिणः ॥",
+          "meaning": {
+            "en": "The wise, of settled understanding, content with knowledge and patient, do not grieve in sorrows nor exult in prosperity."
+          }
         },
         {
           "n": 28,
-          "text": "त्वं तु प्राकृतया बुद्ध्या पुरंदर विकत्थसे ।\nयदाहमिव भावी त्वं तदा नैवं वदिष्यसि ॥"
+          "text": "त्वं तु प्राकृतया बुद्ध्या पुरंदर विकत्थसे ।\nयदाहमिव भावी त्वं तदा नैवं वदिष्यसि ॥",
+          "meaning": {
+            "en": "But you, Purandara, brag with a common mind; when you come to be as I am, you will not speak this way."
+          }
         }
       ]
     }

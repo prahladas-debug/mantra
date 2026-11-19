@@ -22,55 +22,94 @@
       "titleEn": "Anushasanika Parva (The instructions)",
       "verses": [
         {
-          "text": "युधिष्ठिर उवाच"
+          "text": "युधिष्ठिर उवाच",
+          "meaning": {
+            "en": "Yudhishthira said:"
+          }
         },
         {
           "n": 1,
-          "text": "इमे वै मानवा लोके स्त्रीषु सज्जन्त्यभीक्ष्णशः ।\nमोहेन परमाविष्टा दैवादिष्टेन पार्थिव ।\nस्त्रियश्च पुरुषेष्वेव प्रत्यक्षं लोकसाक्षिकम् ॥"
+          "text": "इमे वै मानवा लोके स्त्रीषु सज्जन्त्यभीक्ष्णशः ।\nमोहेन परमाविष्टा दैवादिष्टेन पार्थिव ।\nस्त्रियश्च पुरुषेष्वेव प्रत्यक्षं लोकसाक्षिकम् ॥",
+          "meaning": {
+            "en": "King, men in this world cling to women again and again, overcome by delusion that fate has ordained, and women likewise cling to men, as everyone can see."
+          }
         },
         {
           "n": 2,
-          "text": "अत्र मे संशयस्तीव्रो हृदि संपरिवर्तते ।\nकथमासां नराः सङ्गं कुर्वते कुरुनन्दन ।\nस्त्रियो वा तेषु रज्यन्ते विरज्यन्तेऽथ वा पुनः ॥"
+          "text": "अत्र मे संशयस्तीव्रो हृदि संपरिवर्तते ।\nकथमासां नराः सङ्गं कुर्वते कुरुनन्दन ।\nस्त्रियो वा तेषु रज्यन्ते विरज्यन्तेऽथ वा पुनः ॥",
+          "meaning": {
+            "en": "A sharp doubt turns in my heart here, delight of the Kurus: how do men come to attach themselves to women, and do women love them, or turn away again?"
+          }
         },
         {
           "n": 3,
-          "text": "इति ताः पुरुषव्याघ्र कथं शक्याः स्म रक्षितुम् ।\nप्रमदाः पुरुषेणेह तन्मे व्याख्यातुमर्हसि ॥"
+          "text": "इति ताः पुरुषव्याघ्र कथं शक्याः स्म रक्षितुम् ।\nप्रमदाः पुरुषेणेह तन्मे व्याख्यातुमर्हसि ॥",
+          "meaning": {
+            "en": "Tiger among men, how can such women be guarded by a man in this world? Please explain that to me."
+          }
         },
         {
           "n": 4,
-          "text": "एता हि मयमायाभिर्वञ्चयन्तीह मानवान् ।\nन चासां मुच्यते कश्चित्पुरुषो हस्तमागतः ।\nगावो नवतृणानीव गृह्णन्त्येव नवान्नवान् ॥"
+          "text": "एता हि मयमायाभिर्वञ्चयन्तीह मानवान् ।\nन चासां मुच्यते कश्चित्पुरुषो हस्तमागतः ।\nगावो नवतृणानीव गृह्णन्त्येव नवान्नवान् ॥",
+          "meaning": {
+            "en": "They deceive men with the tricks of the Maya, and no man who falls into their hands is let go. Like cows taking fresh grass, they take up one new man after another."
+          }
         },
         {
           "n": 5,
-          "text": "शम्बरस्य च या माया या माया नमुचेरपि ।\nबलेः कुम्भीनसेश्चैव सर्वास्ता योषितो विदुः ॥"
+          "text": "शम्बरस्य च या माया या माया नमुचेरपि ।\nबलेः कुम्भीनसेश्चैव सर्वास्ता योषितो विदुः ॥",
+          "meaning": {
+            "en": "The illusions of Shambara, of Namuchi, of Bali and of Kumbhinasi are all known to women."
+          }
         },
         {
           "n": 6,
-          "text": "हसन्तं प्रहसन्त्येता रुदन्तं प्ररुदन्ति च ।\nअप्रियं प्रियवाक्यैश्च गृह्णते कालयोगतः ॥"
+          "text": "हसन्तं प्रहसन्त्येता रुदन्तं प्ररुदन्ति च ।\nअप्रियं प्रियवाक्यैश्च गृह्णते कालयोगतः ॥",
+          "meaning": {
+            "en": "They laugh with one who laughs and weep with one who weeps, and by sweet words, at the right moment, they win over even one they dislike."
+          }
         },
         {
           "n": 7,
-          "text": "उशना वेद यच्छास्त्रं यच्च वेद बृहस्पतिः ।\nस्त्रीबुद्ध्या न विशिष्येते ताः स्म रक्ष्याः कथं नरैः ॥"
+          "text": "उशना वेद यच्छास्त्रं यच्च वेद बृहस्पतिः ।\nस्त्रीबुद्ध्या न विशिष्येते ताः स्म रक्ष्याः कथं नरैः ॥",
+          "meaning": {
+            "en": "What Ushanas knows and what Brihaspati knows of the science of policy is not superior to a woman's wit. How can men guard them?"
+          }
         },
         {
           "n": 8,
-          "text": "अनृतं सत्यमित्याहुः सत्यं चापि तथानृतम् ।\nइति यास्ताः कथं वीर संरक्ष्याः पुरुषैरिह ॥"
+          "text": "अनृतं सत्यमित्याहुः सत्यं चापि तथानृतम् ।\nइति यास्ताः कथं वीर संरक्ष्याः पुरुषैरिह ॥",
+          "meaning": {
+            "en": "They call falsehood truth and truth falsehood. Hero, how can men here protect such women?"
+          }
         },
         {
           "n": 9,
-          "text": "स्त्रीणां बुद्ध्युपनिष्कर्षादर्थशास्त्राणि शत्रुहन् ।\nबृहस्पतिप्रभृतिभिर्मन्ये सद्भिः कृतानि वै ॥"
+          "text": "स्त्रीणां बुद्ध्युपनिष्कर्षादर्थशास्त्राणि शत्रुहन् ।\nबृहस्पतिप्रभृतिभिर्मन्ये सद्भिः कृतानि वै ॥",
+          "meaning": {
+            "en": "Enemy-slayer, I think the treatises on statecraft were composed by the wise, Brihaspati and others, by drawing on the cleverness of women."
+          }
         },
         {
           "n": 10,
-          "text": "संपूज्यमानाः पुरुषैर्विकुर्वन्ति मनो नृषु ।\nअपास्ताश्च तथा राजन्विकुर्वन्ति मनः स्त्रियः ॥"
+          "text": "संपूज्यमानाः पुरुषैर्विकुर्वन्ति मनो नृषु ।\nअपास्ताश्च तथा राजन्विकुर्वन्ति मनः स्त्रियः ॥",
+          "meaning": {
+            "en": "When honored by men they unsettle men's minds, and when rejected, king, they unsettle them too."
+          }
         },
         {
           "n": 11,
-          "text": "कस्ताः शक्तो रक्षितुं स्यादिति मे संशयो महान् ।\nतन्मे ब्रूहि महाबाहो कुरूणां वंशवर्धन ॥"
+          "text": "कस्ताः शक्तो रक्षितुं स्यादिति मे संशयो महान् ।\nतन्मे ब्रूहि महाबाहो कुरूणां वंशवर्धन ॥",
+          "meaning": {
+            "en": "Who could be able to guard them? That is my great doubt. Tell me, mighty-armed prosperer of the Kuru line."
+          }
         },
         {
           "n": 12,
-          "text": "यदि शक्या कुरुश्रेष्ठ रक्षा तासां कथंचन ।\nकर्तुं वा कृतपूर्वा वा तन्मे व्याख्यातुमर्हसि ॥"
+          "text": "यदि शक्या कुरुश्रेष्ठ रक्षा तासां कथंचन ।\nकर्तुं वा कृतपूर्वा वा तन्मे व्याख्यातुमर्हसि ॥",
+          "meaning": {
+            "en": "Best of the Kurus, if their protection can somehow be managed, or was managed before, please explain that to me."
+          }
         }
       ]
     }

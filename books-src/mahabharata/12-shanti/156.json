@@ -22,114 +22,198 @@
       "titleEn": "Apaddharma Parva (Duties in distress)",
       "verses": [
         {
-          "text": "युधिष्ठिर उवाच"
+          "text": "युधिष्ठिर उवाच",
+          "meaning": {
+            "en": "Yudhishthira said:"
+          }
         },
         {
           "n": 1,
-          "text": "सत्यं धर्मे प्रशंसन्ति विप्रर्षिपितृदेवताः ।\nसत्यमिच्छाम्यहं श्रोतुं तन्मे ब्रूहि पितामह ॥"
+          "text": "सत्यं धर्मे प्रशंसन्ति विप्रर्षिपितृदेवताः ।\nसत्यमिच्छाम्यहं श्रोतुं तन्मे ब्रूहि पितामह ॥",
+          "meaning": {
+            "en": "Brahmin sages, ancestors and gods all praise truth as part of dharma. Grandfather, I want to hear about truth; please tell me."
+          }
         },
         {
           "n": 2,
-          "text": "सत्यं किंलक्षणं राजन्कथं वा तदवाप्यते ।\nसत्यं प्राप्य भवेत्किं च कथं चैव तदुच्यते ॥"
+          "text": "सत्यं किंलक्षणं राजन्कथं वा तदवाप्यते ।\nसत्यं प्राप्य भवेत्किं च कथं चैव तदुच्यते ॥",
+          "meaning": {
+            "en": "King, what marks truth out, and how is it attained? What does one gain by attaining it, and how is that explained?"
+          }
         },
         {
-          "text": "भीष्म उवाच"
+          "text": "भीष्म उवाच",
+          "meaning": {
+            "en": "Bhishma said:"
+          }
         },
         {
           "n": 3,
-          "text": "चातुर्वर्ण्यस्य धर्माणां संकरो न प्रशस्यते ।\nअविकारितमं सत्यं सर्ववर्णेषु भारत ॥"
+          "text": "चातुर्वर्ण्यस्य धर्माणां संकरो न प्रशस्यते ।\nअविकारितमं सत्यं सर्ववर्णेषु भारत ॥",
+          "meaning": {
+            "en": "A mixing up of the duties of the four classes is not approved, Bharata; but truth is the one thing that stays unaltered in every class."
+          }
         },
         {
           "n": 4,
-          "text": "सत्यं सत्सु सदा धर्मः सत्यं धर्मः सनातनः ।\nसत्यमेव नमस्येत सत्यं हि परमा गतिः ॥"
+          "text": "सत्यं सत्सु सदा धर्मः सत्यं धर्मः सनातनः ।\nसत्यमेव नमस्येत सत्यं हि परमा गतिः ॥",
+          "meaning": {
+            "en": "Truth is ever the dharma of the good; truth is the eternal dharma. One should bow to truth alone, for truth is the highest goal."
+          }
         },
         {
           "n": 5,
-          "text": "सत्यं धर्मस्तपो योगः सत्यं ब्रह्म सनातनम् ।\nसत्यं यज्ञः परः प्रोक्तः सत्ये सर्वं प्रतिष्ठितम् ॥"
+          "text": "सत्यं धर्मस्तपो योगः सत्यं ब्रह्म सनातनम् ।\nसत्यं यज्ञः परः प्रोक्तः सत्ये सर्वं प्रतिष्ठितम् ॥",
+          "meaning": {
+            "en": "Truth is dharma, austerity and yoga; truth is the eternal Brahman. Truth is called the supreme sacrifice, and everything rests upon truth."
+          }
         },
         {
           "n": 6,
-          "text": "आचारानिह सत्यस्य यथावदनुपूर्वशः ।\nलक्षणं च प्रवक्ष्यामि सत्यस्येह यथाक्रमम् ॥"
+          "text": "आचारानिह सत्यस्य यथावदनुपूर्वशः ।\nलक्षणं च प्रवक्ष्यामि सत्यस्येह यथाक्रमम् ॥",
+          "meaning": {
+            "en": "Here I will tell you in due order the practices of truth and its marks, step by step."
+          }
         },
         {
           "n": 7,
-          "text": "प्राप्यते हि यथा सत्यं तच्च श्रोतुं त्वमर्हसि ।\nसत्यं त्रयोदशविधं सर्वलोकेषु भारत ॥"
+          "text": "प्राप्यते हि यथा सत्यं तच्च श्रोतुं त्वमर्हसि ।\nसत्यं त्रयोदशविधं सर्वलोकेषु भारत ॥",
+          "meaning": {
+            "en": "You should also hear how truth is attained. In all the worlds, Bharata, truth has thirteen forms."
+          }
         },
         {
           "n": 8,
-          "text": "सत्यं च समता चैव दमश्चैव न संशयः ।\nअमात्सर्यं क्षमा चैव ह्रीस्तितिक्षानसूयता ॥"
+          "text": "सत्यं च समता चैव दमश्चैव न संशयः ।\nअमात्सर्यं क्षमा चैव ह्रीस्तितिक्षानसूयता ॥",
+          "meaning": {
+            "en": "They are truth itself, even-mindedness, self-control, freedom from envy, forbearance, modesty, endurance, freedom from spite, renunciation, contemplation, nobility, steady fortitude and non-violence. These, king, are the thirteen aspects of truth."
+          }
         },
         {
           "n": 9,
-          "text": "त्यागो ध्यानमथार्यत्वं धृतिश्च सततं स्थिरा ।\nअहिंसा चैव राजेन्द्र सत्याकारास्त्रयोदश ॥"
+          "text": "त्यागो ध्यानमथार्यत्वं धृतिश्च सततं स्थिरा ।\nअहिंसा चैव राजेन्द्र सत्याकारास्त्रयोदश ॥",
+          "meaning": {
+            "en": "Truth is imperishable, eternal and unchanging, and it contradicts no dharma; it is gained through yoga."
+          }
         },
         {
           "n": 10,
-          "text": "सत्यं नामाव्ययं नित्यमविकारि तथैव च ।\nसर्वधर्माविरुद्धं च योगेनैतदवाप्यते ॥"
+          "text": "सत्यं नामाव्ययं नित्यमविकारि तथैव च ।\nसर्वधर्माविरुद्धं च योगेनैतदवाप्यते ॥",
+          "meaning": {
+            "en": "Even-mindedness is the same attitude toward what is dear, what is unwelcome and an enemy, reached by ending desire and hatred, lust and anger."
+          }
         },
         {
           "n": 11,
-          "text": "आत्मनीष्टे तथानिष्टे रिपौ च समता तथा ।\nइच्छाद्वेषक्षयं प्राप्य कामक्रोधक्षयं तथा ॥"
+          "text": "आत्मनीष्टे तथानिष्टे रिपौ च समता तथा ।\nइच्छाद्वेषक्षयं प्राप्य कामक्रोधक्षयं तथा ॥",
+          "meaning": {
+            "en": "Self-control means never coveting what belongs to others; with steadiness, depth, fearlessness and the calming of anger. These are gained through knowledge."
+          }
         },
         {
           "n": 12,
-          "text": "दमो नान्यस्पृहा नित्यं धैर्यं गाम्भीर्यमेव च ।\nअभयं क्रोधशमनं ज्ञानेनैतदवाप्यते ॥"
+          "text": "दमो नान्यस्पृहा नित्यं धैर्यं गाम्भीर्यमेव च ।\nअभयं क्रोधशमनं ज्ञानेनैतदवाप्यते ॥",
+          "meaning": {
+            "en": "The wise say freedom from envy lies in giving and in restraint within dharma; one who stays firm in truth becomes free of envy."
+          }
         },
         {
           "n": 13,
-          "text": "अमात्सर्यं बुधाः प्राहुर्दानं धर्मे च संयमम् ।\nअवस्थितेन नित्यं च सत्येनामत्सरी भवेत् ॥"
+          "text": "अमात्सर्यं बुधाः प्राहुर्दानं धर्मे च संयमम् ।\nअवस्थितेन नित्यं च सत्येनामत्सरी भवेत् ॥",
+          "meaning": {
+            "en": "A good person bears pleasant and unpleasant things, and the forbearing and the unforgiving alike; and a truthful person gains good by this."
+          }
         },
         {
           "n": 14,
-          "text": "अक्षमायाः क्षमायाश्च प्रियाणीहाप्रियाणि च ।\nक्षमते सर्वतः साधुः साध्वाप्नोति च सत्यवान् ॥"
+          "text": "अक्षमायाः क्षमायाश्च प्रियाणीहाप्रियाणि च ।\nक्षमते सर्वतः साधुः साध्वाप्नोति च सत्यवान् ॥",
+          "meaning": {
+            "en": "The modest person does good deeply and never boasts; with calm speech and mind. Modesty is gained from dharma."
+          }
         },
         {
           "n": 15,
-          "text": "कल्याणं कुरुते गाढं ह्रीमान्न श्लाघते क्वचित् ।\nप्रशान्तवाङ्मना नित्यं ह्रीस्तु धर्मादवाप्यते ॥"
+          "text": "कल्याणं कुरुते गाढं ह्रीमान्न श्लाघते क्वचित् ।\nप्रशान्तवाङ्मना नित्यं ह्रीस्तु धर्मादवाप्यते ॥",
+          "meaning": {
+            "en": "Enduring for the sake of dharma and wealth is called endurance; but forbearance for the sake of holding society together is gained through fortitude."
+          }
         },
         {
           "n": 16,
-          "text": "धर्मार्थहेतोः क्षमते तितिक्षा क्षान्तिरुच्यते ।\nलोकसंग्रहणार्थं तु सा तु धैर्येण लभ्यते ॥"
+          "text": "धर्मार्थहेतोः क्षमते तितिक्षा क्षान्तिरुच्यते ।\nलोकसंग्रहणार्थं तु सा तु धैर्येण लभ्यते ॥",
+          "meaning": {
+            "en": "Renunciation means giving up attachment and sense objects; it comes only to one free of passion and hatred, not otherwise."
+          }
         },
         {
           "n": 17,
-          "text": "त्यागः स्नेहस्य यस्त्यागो विषयाणां तथैव च ।\nरागद्वेषप्रहीणस्य त्यागो भवति नान्यथा ॥"
+          "text": "त्यागः स्नेहस्य यस्त्यागो विषयाणां तथैव च ।\nरागद्वेषप्रहीणस्य त्यागो भवति नान्यथा ॥",
+          "meaning": {
+            "en": "Nobility is when a person, without selfish form, strives to do good to beings and is free of attachment."
+          }
         },
         {
           "n": 18,
-          "text": "आर्यता नाम भूतानां यः करोति प्रयत्नतः ।\nशुभं कर्म निराकारो वीतरागत्वमेव च ॥"
+          "text": "आर्यता नाम भूतानां यः करोति प्रयत्नतः ।\nशुभं कर्म निराकारो वीतरागत्वमेव च ॥",
+          "meaning": {
+            "en": "Fortitude is remaining unshaken in pleasure and pain. A wise person who wants his own welfare should always cultivate it."
+          }
         },
         {
           "n": 19,
-          "text": "धृतिर्नाम सुखे दुःखे यथा नाप्नोति विक्रियाम् ।\nतां भजेत सदा प्राज्ञो य इच्छेद्भूतिमात्मनः ॥"
+          "text": "धृतिर्नाम सुखे दुःखे यथा नाप्नोति विक्रियाम् ।\nतां भजेत सदा प्राज्ञो य इच्छेद्भूतिमात्मनः ॥",
+          "meaning": {
+            "en": "One should always be forbearing and devoted to truth; the wise person, rid of joy, fear and anger, attains fortitude."
+          }
         },
         {
           "n": 20,
-          "text": "सर्वथा क्षमिणा भाव्यं तथा सत्यपरेण च ।\nवीतहर्षभयक्रोधो धृतिमाप्नोति पण्डितः ॥"
+          "text": "सर्वथा क्षमिणा भाव्यं तथा सत्यपरेण च ।\nवीतहर्षभयक्रोधो धृतिमाप्नोति पण्डितः ॥",
+          "meaning": {
+            "en": "Harming no being in deed, thought or word, showing kindness and giving: this is the eternal dharma of the good."
+          }
         },
         {
           "n": 21,
-          "text": "अद्रोहः सर्वभूतेषु कर्मणा मनसा गिरा ।\nअनुग्रहश्च दानं च सतां धर्मः सनातनः ॥"
+          "text": "अद्रोहः सर्वभूतेषु कर्मणा मनसा गिरा ।\nअनुग्रहश्च दानं च सतां धर्मः सनातनः ॥",
+          "meaning": {
+            "en": "These thirteen forms, each marked by truth alone, serve truth here and strengthen it, Bharata."
+          }
         },
         {
           "n": 22,
-          "text": "एते त्रयोदशाकाराः पृथक्सत्यैकलक्षणाः ।\nभजन्ते सत्यमेवेह बृंहयन्ति च भारत ॥"
+          "text": "एते त्रयोदशाकाराः पृथक्सत्यैकलक्षणाः ।\nभजन्ते सत्यमेवेह बृंहयन्ति च भारत ॥",
+          "meaning": {
+            "en": "The virtues of truth cannot be counted to their end, Bharata; therefore brahmins, with ancestors and gods, praise truth."
+          }
         },
         {
           "n": 23,
-          "text": "नान्तः शक्यो गुणानां हि वक्तुं सत्यस्य भारत ।\nअतः सत्यं प्रशंसन्ति विप्राः सपितृदेवताः ॥"
+          "text": "नान्तः शक्यो गुणानां हि वक्तुं सत्यस्य भारत ।\nअतः सत्यं प्रशंसन्ति विप्राः सपितृदेवताः ॥",
+          "meaning": {
+            "en": "There is no dharma higher than truth and no sin greater than falsehood. Truth is the foundation of dharma, so one should never abandon it."
+          }
         },
         {
           "n": 24,
-          "text": "नास्ति सत्यात्परो धर्मो नानृतात्पातकं परम् ।\nस्थितिर्हि सत्यं धर्मस्य तस्मात्सत्यं न लोपयेत् ॥"
+          "text": "नास्ति सत्यात्परो धर्मो नानृतात्पातकं परम् ।\nस्थितिर्हि सत्यं धर्मस्य तस्मात्सत्यं न लोपयेत् ॥",
+          "meaning": {
+            "en": "Giving, sacrifices with fees, vows, the fire-rite, the Vedas and all other settled rules of dharma come from truth."
+          }
         },
         {
           "n": 25,
-          "text": "उपैति सत्याद्दानं हि तथा यज्ञाः सदक्षिणाः ।\nव्रताग्निहोत्रं वेदाश्च ये चान्ये धर्मनिश्चयाः ॥"
+          "text": "उपैति सत्याद्दानं हि तथा यज्ञाः सदक्षिणाः ।\nव्रताग्निहोत्रं वेदाश्च ये चान्ये धर्मनिश्चयाः ॥",
+          "meaning": {
+            "en": "Giving, sacrifices with fees, vows, the fire-rite, the Vedas and all other settled rules of dharma come from truth."
+          }
         },
         {
           "n": 26,
-          "text": "अश्वमेधसहस्रं च सत्यं च तुलया धृतम् ।\nअश्वमेधसहस्राद्धि सत्यमेवातिरिच्यते ॥"
+          "text": "अश्वमेधसहस्रं च सत्यं च तुलया धृतम् ।\nअश्वमेधसहस्राद्धि सत्यमेवातिरिच्यते ॥",
+          "meaning": {
+            "en": "A thousand horse sacrifices and truth were once placed on a balance; truth outweighed the thousand horse sacrifices."
+          }
         }
       ]
     }

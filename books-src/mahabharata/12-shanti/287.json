@@ -22,193 +22,337 @@
       "titleEn": "Mokshadharma Parva (Duties for liberation)",
       "verses": [
         {
-          "text": "भीष्म उवाच"
+          "text": "भीष्म उवाच",
+          "meaning": {
+            "en": "Bhishma said:"
+          }
         },
         {
           "n": 1,
-          "text": "पुनरेव तु पप्रच्छ जनको मिथिलाधिपः ।\nपराशरं महात्मानं धर्मे परमनिश्चयम् ॥"
+          "text": "पुनरेव तु पप्रच्छ जनको मिथिलाधिपः ।\nपराशरं महात्मानं धर्मे परमनिश्चयम् ॥",
+          "meaning": {
+            "en": "Janaka, lord of Mithila, asked once more the great-souled Parashara, who was supremely settled in dharma."
+          }
         },
         {
           "n": 2,
-          "text": "किं श्रेयः का गतिर्ब्रह्मन्किं कृतं न विनश्यति ।\nक्व गतो न निवर्तेत तन्मे ब्रूहि महामुने ॥"
+          "text": "किं श्रेयः का गतिर्ब्रह्मन्किं कृतं न विनश्यति ।\nक्व गतो न निवर्तेत तन्मे ब्रूहि महामुने ॥",
+          "meaning": {
+            "en": "Brahmin, what is the highest good? What is the goal? What, once done, is never lost? Where, once gone, does one not return? Tell me this, great sage."
+          }
         },
         {
-          "text": "पराशर उवाच"
+          "text": "पराशर उवाच",
+          "meaning": {
+            "en": "Parashara said:"
+          }
         },
         {
           "n": 3,
-          "text": "असङ्गः श्रेयसो मूलं ज्ञानं ज्ञानगतिः परा ।\nचीर्णं तपो न प्रणश्येद्वापः क्षेत्रे न नश्यति ॥"
+          "text": "असङ्गः श्रेयसो मूलं ज्ञानं ज्ञानगतिः परा ।\nचीर्णं तपो न प्रणश्येद्वापः क्षेत्रे न नश्यति ॥",
+          "meaning": {
+            "en": "Non-attachment is the root of the highest good, and knowledge, and the goal of knowledge is supreme. Austerity once practiced is not lost, as seed sown in a field is not lost."
+          }
         },
         {
           "n": 4,
-          "text": "छित्त्वाधर्ममयं पाशं यदा धर्मेऽभिरज्यते ।\nदत्त्वाभयकृतं दानं तदा सिद्धिमवाप्नुयात् ॥"
+          "text": "छित्त्वाधर्ममयं पाशं यदा धर्मेऽभिरज्यते ।\nदत्त्वाभयकृतं दानं तदा सिद्धिमवाप्नुयात् ॥",
+          "meaning": {
+            "en": "When a man has cut the bond made of adharma, delights in dharma, and gives the gift of freedom from fear, then he attains perfection."
+          }
         },
         {
           "n": 5,
-          "text": "यो ददाति सहस्राणि गवामश्वशतानि च ।\nअभयं सर्वभूतेभ्यस्तद्दानमतिवर्तते ॥"
+          "text": "यो ददाति सहस्राणि गवामश्वशतानि च ।\nअभयं सर्वभूतेभ्यस्तद्दानमतिवर्तते ॥",
+          "meaning": {
+            "en": "He who gives thousands of cows and hundreds of horses is surpassed by the gift of freedom from fear to all beings."
+          }
         },
         {
           "n": 6,
-          "text": "वसन्विषयमध्येऽपि न वसत्येव बुद्धिमान् ।\nसंवसत्येव दुर्बुद्धिरसत्सु विषयेष्वपि ॥"
+          "text": "वसन्विषयमध्येऽपि न वसत्येव बुद्धिमान् ।\nसंवसत्येव दुर्बुद्धिरसत्सु विषयेष्वपि ॥",
+          "meaning": {
+            "en": "The wise man, though living among the objects of the senses, does not really live in them; the dull-witted man lives with them even when they are poor ones."
+          }
         },
         {
           "n": 7,
-          "text": "नाधर्मः श्लिष्यते प्राज्ञमापः पुष्करपर्णवत् ।\nअप्राज्ञमधिकं पापं श्लिष्यते जतु काष्ठवत् ॥"
+          "text": "नाधर्मः श्लिष्यते प्राज्ञमापः पुष्करपर्णवत् ।\nअप्राज्ञमधिकं पापं श्लिष्यते जतु काष्ठवत् ॥",
+          "meaning": {
+            "en": "Adharma does not cling to a wise man, as water does not cling to a lotus leaf; but great sin clings to the unwise like lac to wood."
+          }
         },
         {
           "n": 8,
-          "text": "नाधर्मः कारणापेक्षी कर्तारमभिमुञ्चति ।\nकर्ता खलु यथाकालं तत्सर्वमभिपद्यते ।\nन भिद्यन्ते कृतात्मान आत्मप्रत्ययदर्शिनः ॥"
+          "text": "नाधर्मः कारणापेक्षी कर्तारमभिमुञ्चति ।\nकर्ता खलु यथाकालं तत्सर्वमभिपद्यते ।\nन भिद्यन्ते कृतात्मान आत्मप्रत्ययदर्शिनः ॥",
+          "meaning": {
+            "en": "Adharma does not wait for a cause before leaving the doer; the doer gets all of it in due time. Those whose selves are accomplished and who see by their own certainty are not split."
+          }
         },
         {
           "n": 9,
-          "text": "बुद्धिकर्मेन्द्रियाणां हि प्रमत्तो यो न बुध्यते ।\nशुभाशुभेषु सक्तात्मा प्राप्नोति सुमहद्भयम् ॥"
+          "text": "बुद्धिकर्मेन्द्रियाणां हि प्रमत्तो यो न बुध्यते ।\nशुभाशुभेषु सक्तात्मा प्राप्नोति सुमहद्भयम् ॥",
+          "meaning": {
+            "en": "He who, heedless, does not understand the intellect, the organs of action and the senses, and is attached to good and bad, meets very great fear."
+          }
         },
         {
           "n": 10,
-          "text": "वीतरागो जितक्रोधः सम्यग्भवति यः सदा ।\nविषये वर्तमानोऽपि न स पापेन युज्यते ॥"
+          "text": "वीतरागो जितक्रोधः सम्यग्भवति यः सदा ।\nविषये वर्तमानोऽपि न स पापेन युज्यते ॥",
+          "meaning": {
+            "en": "He who is free of passion, has conquered anger and is always right is not joined with sin even while living among sense objects."
+          }
         },
         {
           "n": 11,
-          "text": "मर्यादायां धर्मसेतुर्निबद्धो नैव सीदति ।\nपुष्टस्रोत इवायत्तः स्फीतो भवति संचयः ॥"
+          "text": "मर्यादायां धर्मसेतुर्निबद्धो नैव सीदति ।\nपुष्टस्रोत इवायत्तः स्फीतो भवति संचयः ॥",
+          "meaning": {
+            "en": "The dam of dharma, once fixed in its boundary, does not give way; and a store grows full, as a stream does when fed."
+          }
         },
         {
           "n": 12,
-          "text": "यथा भानुगतं तेजो मणिः शुद्धः समाधिना ।\nआदत्ते राजशार्दूल तथा योगः प्रवर्तते ॥"
+          "text": "यथा भानुगतं तेजो मणिः शुद्धः समाधिना ।\nआदत्ते राजशार्दूल तथा योगः प्रवर्तते ॥",
+          "meaning": {
+            "en": "As a pure jewel takes in the light that has reached it from the sun through concentration, tiger among kings, so yoga works."
+          }
         },
         {
           "n": 13,
-          "text": "यथा तिलानामिह पुष्पसंश्रया-\nत्पृथक्पृथग्याति गुणोऽतिसौम्यताम् ।\nतथा नराणां भुवि भावितात्मनां\nयथाश्रयं सत्त्वगुणः प्रवर्तते ॥"
+          "text": "यथा तिलानामिह पुष्पसंश्रया-\nत्पृथक्पृथग्याति गुणोऽतिसौम्यताम् ।\nतथा नराणां भुवि भावितात्मनां\nयथाश्रयं सत्त्वगुणः प्रवर्तते ॥",
+          "meaning": {
+            "en": "As, in this world, the quality of sesame seeds, by contact with flowers, takes on separate and very delicate scents, so the quality of sattva works in men on earth whose selves are cultivated, according to what they rest upon."
+          }
         },
         {
           "n": 14,
-          "text": "जहाति दारानिहते न संपदः\nसदश्वयानं विविधाश्च याः क्रियाः ।\nत्रिविष्टपे जातमतिर्यदा नर-\nस्तदास्य बुद्धिर्विषयेषु भिद्यते ॥"
+          "text": "जहाति दारानिहते न संपदः\nसदश्वयानं विविधाश्च याः क्रियाः ।\nत्रिविष्टपे जातमतिर्यदा नर-\nस्तदास्य बुद्धिर्विषयेषु भिद्यते ॥",
+          "meaning": {
+            "en": "When a man's mind turns to heaven, he does not give up wives, wealth, good horses and carriages, and the various rites; and then his mind is divided among the objects of sense."
+          }
         },
         {
           "n": 15,
-          "text": "प्रसक्तबुद्धिर्विषयेषु यो नरो\nयो बुध्यते ह्यात्महितं कदा च न ।\nस सर्वभावानुगतेन चेतसा\nनृपामिषेणेव झषो विकृष्यते ॥"
+          "text": "प्रसक्तबुद्धिर्विषयेषु यो नरो\nयो बुध्यते ह्यात्महितं कदा च न ।\nस सर्वभावानुगतेन चेतसा\nनृपामिषेणेव झषो विकृष्यते ॥",
+          "meaning": {
+            "en": "The man whose mind is bound to the objects of sense and who never knows what is good for himself is dragged along, with a mind following every state, as a fish is dragged by the bait of a king."
+          }
         },
         {
           "n": 16,
-          "text": "संघातवान्मर्त्यलोकः परस्परमपाश्रितः ।\nकदलीगर्भनिःसारो नौरिवाप्सु निमज्जति ॥"
+          "text": "संघातवान्मर्त्यलोकः परस्परमपाश्रितः ।\nकदलीगर्भनिःसारो नौरिवाप्सु निमज्जति ॥",
+          "meaning": {
+            "en": "The world of mortals is a gathering of things resting on one another; like a boat made of plantain pith, empty at its core, it sinks in water."
+          }
         },
         {
           "n": 17,
-          "text": "न धर्मकालः पुरुषस्य निश्चितो\nन चापि मृत्युः पुरुषं प्रतीक्षते ।\nक्रिया हि धर्मस्य सदैव शोभना\nयदा नरो मृत्युमुखेऽभिवर्तते ॥"
+          "text": "न धर्मकालः पुरुषस्य निश्चितो\nन चापि मृत्युः पुरुषं प्रतीक्षते ।\nक्रिया हि धर्मस्य सदैव शोभना\nयदा नरो मृत्युमुखेऽभिवर्तते ॥",
+          "meaning": {
+            "en": "For a man the time for dharma is not fixed, nor does death wait for him; the practice of dharma is always good when a man is walking into the mouth of death."
+          }
         },
         {
           "n": 18,
-          "text": "यथान्धः स्वगृहे युक्तो ह्यभ्यासादेव गच्छति ।\nतथा युक्तेन मनसा प्राज्ञो गच्छति तां गतिम् ॥"
+          "text": "यथान्धः स्वगृहे युक्तो ह्यभ्यासादेव गच्छति ।\nतथा युक्तेन मनसा प्राज्ञो गच्छति तां गतिम् ॥",
+          "meaning": {
+            "en": "As a blind man in his own house moves by habit, so a wise man, with a disciplined mind, reaches that goal."
+          }
         },
         {
           "n": 19,
-          "text": "मरणं जन्मनि प्रोक्तं जन्म वै मरणाश्रितम् ।\nअविद्वान्मोक्षधर्मेषु बद्धो भ्रमति चक्रवत् ॥"
+          "text": "मरणं जन्मनि प्रोक्तं जन्म वै मरणाश्रितम् ।\nअविद्वान्मोक्षधर्मेषु बद्धो भ्रमति चक्रवत् ॥",
+          "meaning": {
+            "en": "Death is said to be in birth, and birth depends on death; the one who does not know the ways of liberation, bound, goes round like a wheel."
+          }
         },
         {
           "n": 20,
-          "text": "यथा मृणालोऽनुगतमाशु मुञ्चति कर्दमम् ।\nतथात्मा पुरुषस्येह मनसा परिमुच्यते ।\nमनः प्रणयतेऽऽत्मानं स एनमभियुञ्जति ॥"
+          "text": "यथा मृणालोऽनुगतमाशु मुञ्चति कर्दमम् ।\nतथात्मा पुरुषस्येह मनसा परिमुच्यते ।\nमनः प्रणयतेऽऽत्मानं स एनमभियुञ्जति ॥",
+          "meaning": {
+            "en": "As a lotus stalk quickly leaves the mud that clings to it, so the self of a person is freed by the mind here. The mind leads the self, and it is the mind that binds it."
+          }
         },
         {
           "n": 21,
-          "text": "परार्थे वर्तमानस्तु स्वकार्यं योऽभिमन्यते ।\nइन्द्रियार्थेषु सक्तः सन्स्वकार्यात्परिहीयते ॥"
+          "text": "परार्थे वर्तमानस्तु स्वकार्यं योऽभिमन्यते ।\nइन्द्रियार्थेषु सक्तः सन्स्वकार्यात्परिहीयते ॥",
+          "meaning": {
+            "en": "He who, working for another's purpose, thinks it is his own, being attached to the objects of the senses, falls away from his own purpose."
+          }
         },
         {
           "n": 22,
-          "text": "अधस्तिर्यग्गतिं चैव स्वर्गे चैव परां गतिम् ।\nप्राप्नोति स्वकृतैरात्मा प्राज्ञस्येहेतरस्य च ॥"
+          "text": "अधस्तिर्यग्गतिं चैव स्वर्गे चैव परां गतिम् ।\nप्राप्नोति स्वकृतैरात्मा प्राज्ञस्येहेतरस्य च ॥",
+          "meaning": {
+            "en": "By their own deeds, the self of the wise man and of the other goes to a lower or an animal state, or to the highest goal in heaven."
+          }
         },
         {
           "n": 23,
-          "text": "मृन्मये भाजने पक्वे यथा वै न्यस्यते द्रवः ।\nतथा शरीरं तपसा तप्तं विषयमश्नुते ॥"
+          "text": "मृन्मये भाजने पक्वे यथा वै न्यस्यते द्रवः ।\nतथा शरीरं तपसा तप्तं विषयमश्नुते ॥",
+          "meaning": {
+            "en": "As liquid is put into a clay vessel once it is baked, so the body heated by austerity takes in the objects of sense."
+          }
         },
         {
           "n": 24,
-          "text": "विषयानश्नुते यस्तु न स भोक्ष्यत्यसंशयम् ।\nयस्तु भोगांस्त्यजेदात्मा स वै भोक्तुं व्यवस्यति ॥"
+          "text": "विषयानश्नुते यस्तु न स भोक्ष्यत्यसंशयम् ।\nयस्तु भोगांस्त्यजेदात्मा स वै भोक्तुं व्यवस्यति ॥",
+          "meaning": {
+            "en": "He who takes in the objects will without doubt not enjoy; but the self that gives up enjoyments is the one fit to enjoy."
+          }
         },
         {
           "n": 25,
-          "text": "नीहारेण हि संवीतः शिश्नोदरपरायणः ।\nजात्यन्ध इव पन्थानमावृतात्मा न बुध्यते ॥"
+          "text": "नीहारेण हि संवीतः शिश्नोदरपरायणः ।\nजात्यन्ध इव पन्थानमावृतात्मा न बुध्यते ॥",
+          "meaning": {
+            "en": "Wrapped in a mist, devoted to the genitals and the belly, a man with covered self does not perceive the path, like one blind from birth."
+          }
         },
         {
           "n": 26,
-          "text": "वणिग्यथा समुद्राद्वै यथार्थं लभते धनम् ।\nतथा मर्त्यार्णवे जन्तोः कर्मविज्ञानतो गतिः ॥"
+          "text": "वणिग्यथा समुद्राद्वै यथार्थं लभते धनम् ।\nतथा मर्त्यार्णवे जन्तोः कर्मविज्ञानतो गतिः ॥",
+          "meaning": {
+            "en": "As a merchant gets wealth as is fit from the sea, so in the ocean of mortals a creature's course comes from the knowledge of action."
+          }
         },
         {
           "n": 27,
-          "text": "अहोरात्रमये लोके जरारूपेण संचरन् ।\nमृत्युर्ग्रसति भूतानि पवनं पन्नगो यथा ॥"
+          "text": "अहोरात्रमये लोके जरारूपेण संचरन् ।\nमृत्युर्ग्रसति भूतानि पवनं पन्नगो यथा ॥",
+          "meaning": {
+            "en": "In a world made of days and nights, death moves in the form of old age and consumes beings, as a serpent consumes the wind."
+          }
         },
         {
           "n": 28,
-          "text": "स्वयं कृतानि कर्माणि जातो जन्तुः प्रपद्यते ।\nनाकृतं लभते कश्चित्किंचिदत्र प्रियाप्रियम् ॥"
+          "text": "स्वयं कृतानि कर्माणि जातो जन्तुः प्रपद्यते ।\nनाकृतं लभते कश्चित्किंचिदत्र प्रियाप्रियम् ॥",
+          "meaning": {
+            "en": "A creature, once born, receives the deeds he has done himself; no one gets any pleasant or unpleasant thing here that he has not done."
+          }
         },
         {
           "n": 29,
-          "text": "शयानं यान्तमासीनं प्रवृत्तं विषयेषु च ।\nशुभाशुभानि कर्माणि प्रपद्यन्ते नरं सदा ॥"
+          "text": "शयानं यान्तमासीनं प्रवृत्तं विषयेषु च ।\nशुभाशुभानि कर्माणि प्रपद्यन्ते नरं सदा ॥",
+          "meaning": {
+            "en": "Whether lying, going, sitting or engaged in the objects of the senses, good and bad deeds always follow a man."
+          }
         },
         {
           "n": 30,
-          "text": "न ह्यन्यत्तीरमासाद्य पुनस्तर्तुं व्यवस्यति ।\nदुर्लभो दृश्यते ह्यस्य विनिपातो महार्णवे ॥"
+          "text": "न ह्यन्यत्तीरमासाद्य पुनस्तर्तुं व्यवस्यति ।\nदुर्लभो दृश्यते ह्यस्य विनिपातो महार्णवे ॥",
+          "meaning": {
+            "en": "For having reached the other shore, one does not decide to cross again; and for him a fall into the great ocean is seen as hard to come by."
+          }
         },
         {
           "n": 31,
-          "text": "यथा भारावसक्ता हि नौर्महाम्भसि तन्तुना ।\nतथा मनोऽभियोगाद्वै शरीरं प्रतिकर्षति ॥"
+          "text": "यथा भारावसक्ता हि नौर्महाम्भसि तन्तुना ।\nतथा मनोऽभियोगाद्वै शरीरं प्रतिकर्षति ॥",
+          "meaning": {
+            "en": "As a boat heavy with load is pulled in great waters by a rope, so the body is dragged by the mind through its drive."
+          }
         },
         {
           "n": 32,
-          "text": "यथा समुद्रमभितः संस्यूताः सरितोऽपराः ।\nतथाद्या प्रकृतिर्योगादभिसंस्यूयते सदा ॥"
+          "text": "यथा समुद्रमभितः संस्यूताः सरितोऽपराः ।\nतथाद्या प्रकृतिर्योगादभिसंस्यूयते सदा ॥",
+          "meaning": {
+            "en": "As other rivers are all stitched together around the sea, so the primal nature is always stitched together through yoga."
+          }
         },
         {
           "n": 33,
-          "text": "स्नेहपाशैर्बहुविधैरासक्तमनसो नराः ।\nप्रकृतिस्था विषीदन्ति जले सैकतवेश्मवत् ॥"
+          "text": "स्नेहपाशैर्बहुविधैरासक्तमनसो नराः ।\nप्रकृतिस्था विषीदन्ति जले सैकतवेश्मवत् ॥",
+          "meaning": {
+            "en": "Men whose minds are fastened by many kinds of bonds of affection, staying in their nature, sink like a house of sand in water."
+          }
         },
         {
           "n": 34,
-          "text": "शरीरगृहसंस्थस्य शौचतीर्थस्य देहिनः ।\nबुद्धिमार्गप्रयातस्य सुखं त्विह परत्र च ॥"
+          "text": "शरीरगृहसंस्थस्य शौचतीर्थस्य देहिनः ।\nबुद्धिमार्गप्रयातस्य सुखं त्विह परत्र च ॥",
+          "meaning": {
+            "en": "For the embodied one who dwells in the house of the body, whose place of pilgrimage is purity, and who has gone on the path of understanding, there is happiness here and hereafter."
+          }
         },
         {
           "n": 35,
-          "text": "विस्तराः क्लेशसंयुक्ताः संक्षेपास्तु सुखावहाः ।\nपरार्थं विस्तराः सर्वे त्यागमात्महितं विदुः ॥"
+          "text": "विस्तराः क्लेशसंयुक्ताः संक्षेपास्तु सुखावहाः ।\nपरार्थं विस्तराः सर्वे त्यागमात्महितं विदुः ॥",
+          "meaning": {
+            "en": "Expansions bring troubles, but brevity brings happiness; all expansions are for others, and renunciation, they know, is for one's own good."
+          }
         },
         {
           "n": 36,
-          "text": "संकल्पजो मित्रवर्गो ज्ञातयः कारणात्मकाः ।\nभार्या दासाश्च पुत्राश्च स्वमर्थमनुयुञ्जते ॥"
+          "text": "संकल्पजो मित्रवर्गो ज्ञातयः कारणात्मकाः ।\nभार्या दासाश्च पुत्राश्च स्वमर्थमनुयुञ्जते ॥",
+          "meaning": {
+            "en": "A circle of friends arises from thought, and kinsmen are from cause; wives, servants and sons serve their own interest."
+          }
         },
         {
           "n": 37,
-          "text": "न माता न पिता किंचित्कस्यचित्प्रतिपद्यते ।\nदानपथ्योदनो जन्तुः स्वकर्मफलमश्नुते ॥"
+          "text": "न माता न पिता किंचित्कस्यचित्प्रतिपद्यते ।\nदानपथ्योदनो जन्तुः स्वकर्मफलमश्नुते ॥",
+          "meaning": {
+            "en": "No mother or father gives anything to anyone; the creature enjoys the fruit of his own deeds, his road-provisions being his gifts."
+          }
         },
         {
           "n": 38,
-          "text": "माता पुत्रः पिता भ्राता भार्या मित्रजनस्तथा ।\nअष्टापदपदस्थाने त्वक्षमुद्रेव न्यस्यते ॥"
+          "text": "माता पुत्रः पिता भ्राता भार्या मित्रजनस्तथा ।\nअष्टापदपदस्थाने त्वक्षमुद्रेव न्यस्यते ॥",
+          "meaning": {
+            "en": "Mother, son, father, brother, wife and friends are set down like a die in a square of the gaming board."
+          }
         },
         {
           "n": 39,
-          "text": "सर्वाणि कर्माणि पुरा कृतानि\nशुभाशुभान्यात्मनो यान्ति जन्तोः ।\nउपस्थितं कर्मफलं विदित्वा\nबुद्धिं तथा चोदयतेऽन्तरात्मा ॥"
+          "text": "सर्वाणि कर्माणि पुरा कृतानि\nशुभाशुभान्यात्मनो यान्ति जन्तोः ।\nउपस्थितं कर्मफलं विदित्वा\nबुद्धिं तथा चोदयतेऽन्तरात्मा ॥",
+          "meaning": {
+            "en": "All the deeds, good and bad, done earlier go to the creature's self; knowing the fruit of action has arrived, the inner self urges the mind accordingly."
+          }
         },
         {
           "n": 40,
-          "text": "व्यवसायं समाश्रित्य सहायान्योऽधिगच्छति ।\nन तस्य कश्चिदारम्भः कदाचिदवसीदति ॥"
+          "text": "व्यवसायं समाश्रित्य सहायान्योऽधिगच्छति ।\nन तस्य कश्चिदारम्भः कदाचिदवसीदति ॥",
+          "meaning": {
+            "en": "He who resorts to resolve and gains helpers never finds any of his undertakings ever failing."
+          }
         },
         {
           "n": 41,
-          "text": "अद्वैधमनसं युक्तं शूरं धीरं विपश्चितम् ।\nन श्रीः संत्यजते नित्यमादित्यमिव रश्मयः ॥"
+          "text": "अद्वैधमनसं युक्तं शूरं धीरं विपश्चितम् ।\nन श्रीः संत्यजते नित्यमादित्यमिव रश्मयः ॥",
+          "meaning": {
+            "en": "Fortune never abandons the man of undivided mind who is disciplined, brave, steady and learned, as rays never leave the sun."
+          }
         },
         {
           "n": 42,
-          "text": "आस्तिक्यव्यवसायाभ्यामुपायाद्विस्मयाद्धिया ।\nयमारभत्यनिन्द्यात्मा न सोऽर्थः परिसीदति ॥"
+          "text": "आस्तिक्यव्यवसायाभ्यामुपायाद्विस्मयाद्धिया ।\nयमारभत्यनिन्द्यात्मा न सोऽर्थः परिसीदति ॥",
+          "meaning": {
+            "en": "The matter that a man of blameless self undertakes with faith and resolve, with means, wonder and intelligence does not fail."
+          }
         },
         {
           "n": 43,
-          "text": "सर्वः स्वानि शुभाशुभानि नियतं कर्माणि जन्तुः स्वयं\nगर्भात्संप्रतिपद्यते तदुभयं यत्तेन पूर्वं कृतम् ।\nमृत्युश्चापरिहारवान्समगतिः कालेन विच्छेदिता\nदारोश्चूर्णमिवाश्मसारविहितं कर्मान्तिकं प्रापयेत् ॥"
+          "text": "सर्वः स्वानि शुभाशुभानि नियतं कर्माणि जन्तुः स्वयं\nगर्भात्संप्रतिपद्यते तदुभयं यत्तेन पूर्वं कृतम् ।\nमृत्युश्चापरिहारवान्समगतिः कालेन विच्छेदिता\nदारोश्चूर्णमिवाश्मसारविहितं कर्मान्तिकं प्रापयेत् ॥",
+          "meaning": {
+            "en": "Every creature takes from the womb its own good and bad deeds, both that were done by it earlier; and death, unavoidable, impartial, cut short by time, brings it to the end of action, as a hammer on a stone pulverizes wood."
+          }
         },
         {
           "n": 44,
-          "text": "स्वरूपतामात्मकृतं च विस्तरं\nकुलान्वयं द्रव्यसमृद्धिसंचयम् ।\nनरो हि सर्वो लभते यथाकृतं\nशुभाशुभेनात्मकृतेन कर्मणा ॥"
+          "text": "स्वरूपतामात्मकृतं च विस्तरं\nकुलान्वयं द्रव्यसमृद्धिसंचयम् ।\nनरो हि सर्वो लभते यथाकृतं\nशुभाशुभेनात्मकृतेन कर्मणा ॥",
+          "meaning": {
+            "en": "Every man gets his appearance, his own extension, his family line, and his heap of wealth as he has done, by the good or bad action that he himself has done."
+          }
         },
         {
-          "text": "भीष्म उवाच"
+          "text": "भीष्म उवाच",
+          "meaning": {
+            "en": "Bhishma said:"
+          }
         },
         {
           "n": 45,
-          "text": "इत्युक्तो जनको राजन्यथातथ्यं मनीषिणा ।\nश्रुत्वा धर्मविदां श्रेष्ठः परां मुदमवाप ह ॥"
+          "text": "इत्युक्तो जनको राजन्यथातथ्यं मनीषिणा ।\nश्रुत्वा धर्मविदां श्रेष्ठः परां मुदमवाप ह ॥",
+          "meaning": {
+            "en": "So addressed by the wise one as it truly is, Janaka, best of those who know dharma, heard it and felt supreme joy."
+          }
         }
       ]
     }

@@ -22,34 +22,58 @@
       "titleEn": "Anushasanika Parva (The instructions)",
       "verses": [
         {
-          "text": "युधिष्ठिर उवाच"
+          "text": "युधिष्ठिर उवाच",
+          "meaning": {
+            "en": "Yudhishthira said:"
+          }
         },
         {
           "n": 1,
-          "text": "किं कर्तव्यं मनुष्येण लोकयात्राहितार्थिना ।\nकथं वै लोकयात्रां तु किंशीलश्च समाचरेत् ॥"
+          "text": "किं कर्तव्यं मनुष्येण लोकयात्राहितार्थिना ।\nकथं वै लोकयात्रां तु किंशीलश्च समाचरेत् ॥",
+          "meaning": {
+            "en": "What should a man do who wants to do good in the course of worldly life? How should he conduct himself in the world, and with what character?"
+          }
         },
         {
-          "text": "भीष्म उवाच"
+          "text": "भीष्म उवाच",
+          "meaning": {
+            "en": "Bhishma said:"
+          }
         },
         {
           "n": 2,
-          "text": "कायेन त्रिविधं कर्म वाचा चापि चतुर्विधम् ।\nमनसा त्रिविधं चैव दश कर्मपथांस्त्यजेत् ॥"
+          "text": "कायेन त्रिविधं कर्म वाचा चापि चतुर्विधम् ।\nमनसा त्रिविधं चैव दश कर्मपथांस्त्यजेत् ॥",
+          "meaning": {
+            "en": "There are three kinds of action by the body, four by speech, and three by the mind; one should avoid these ten paths of action."
+          }
         },
         {
           "n": 3,
-          "text": "प्राणातिपातं स्तैन्यं च परदारमथापि च ।\nत्रीणि पापानि कायेन सर्वतः परिवर्जयेत् ॥"
+          "text": "प्राणातिपातं स्तैन्यं च परदारमथापि च ।\nत्रीणि पापानि कायेन सर्वतः परिवर्जयेत् ॥",
+          "meaning": {
+            "en": "Killing, theft and adultery: these three sins of the body one should shun entirely."
+          }
         },
         {
           "n": 4,
-          "text": "असत्प्रलापं पारुष्यं पैशुन्यमनृतं तथा ।\nचत्वारि वाचा राजेन्द्र न जल्पेन्नानुचिन्तयेत् ॥"
+          "text": "असत्प्रलापं पारुष्यं पैशुन्यमनृतं तथा ।\nचत्वारि वाचा राजेन्द्र न जल्पेन्नानुचिन्तयेत् ॥",
+          "meaning": {
+            "en": "Idle talk, harshness, slander and lying: these four of speech, king of kings, one should neither utter nor dwell on."
+          }
         },
         {
           "n": 5,
-          "text": "अनभिध्या परस्वेषु सर्वसत्त्वेषु सौहृदम् ।\nकर्मणां फलमस्तीति त्रिविधं मनसा चरेत् ॥"
+          "text": "अनभिध्या परस्वेषु सर्वसत्त्वेषु सौहृदम् ।\nकर्मणां फलमस्तीति त्रिविधं मनसा चरेत् ॥",
+          "meaning": {
+            "en": "Not coveting others' property, goodwill toward all beings, and the belief that deeds have fruit: one should practice these three in the mind."
+          }
         },
         {
           "n": 6,
-          "text": "तस्माद्वाक्कायमनसा नाचरेदशुभं नरः ।\nशुभाशुभान्याचरन्हि तस्य तस्याश्नुते फलम् ॥"
+          "text": "तस्माद्वाक्कायमनसा नाचरेदशुभं नरः ।\nशुभाशुभान्याचरन्हि तस्य तस्याश्नुते फलम् ॥",
+          "meaning": {
+            "en": "So a man should do nothing inauspicious by speech, body or mind; for in doing good and evil he reaps the fruit of each."
+          }
         }
       ]
     }

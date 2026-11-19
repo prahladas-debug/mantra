@@ -22,113 +22,197 @@
       "titleEn": "Mokshadharma Parva (Duties for liberation)",
       "verses": [
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 1,
-          "text": "कस्यचित्त्वथ कालस्य नारदः परमेष्ठिजः ।\nदैवं कृत्वा यथान्यायं पित्र्यं चक्रे ततः परम् ॥"
+          "text": "कस्यचित्त्वथ कालस्य नारदः परमेष्ठिजः ।\nदैवं कृत्वा यथान्यायं पित्र्यं चक्रे ततः परम् ॥",
+          "meaning": {
+            "en": "After some time Narada, born of Brahma, having done the rite for the gods properly, then performed the rite for the ancestors."
+          }
         },
         {
           "n": 2,
-          "text": "ततस्तं वचनं प्राह ज्येष्ठो धर्मात्मजः प्रभुः ।\nक इज्यते द्विजश्रेष्ठ दैवे पित्र्ये च कल्पिते ॥"
+          "text": "ततस्तं वचनं प्राह ज्येष्ठो धर्मात्मजः प्रभुः ।\nक इज्यते द्विजश्रेष्ठ दैवे पित्र्ये च कल्पिते ॥",
+          "meaning": {
+            "en": "Then the elder one, the lord, son of Dharma, said to him: \"Best of brahmins, whom do you worship when the rites for the gods and ancestors are arranged?"
+          }
         },
         {
           "n": 3,
-          "text": "त्वया मतिमतां श्रेष्ठ तन्मे शंस यथागमम् ।\nकिमेतत्क्रियते कर्म फलं चास्य किमिष्यते ॥"
+          "text": "त्वया मतिमतां श्रेष्ठ तन्मे शंस यथागमम् ।\nकिमेतत्क्रियते कर्म फलं चास्य किमिष्यते ॥",
+          "meaning": {
+            "en": "Best of the wise, tell me this as the tradition has it. What is this rite that is performed, and what fruit is sought from it?\""
+          }
         },
         {
-          "text": "नारद उवाच"
+          "text": "नारद उवाच",
+          "meaning": {
+            "en": "Narada said:"
+          }
         },
         {
           "n": 4,
-          "text": "त्वयैतत्कथितं पूर्वं दैवं कर्तव्यमित्यपि ।\nदैवतं च परो यज्ञः परमात्मा सनातनः ॥"
+          "text": "त्वयैतत्कथितं पूर्वं दैवं कर्तव्यमित्यपि ।\nदैवतं च परो यज्ञः परमात्मा सनातनः ॥",
+          "meaning": {
+            "en": "You yourself told me earlier that the rite for the gods should be done. The deity and the supreme sacrifice is the eternal Supreme Self."
+          }
         },
         {
           "n": 5,
-          "text": "ततस्तद्भावितो नित्यं यजे वैकुण्ठमव्ययम् ।\nतस्माच्च प्रसृतः पूर्वं ब्रह्मा लोकपितामहः ॥"
+          "text": "ततस्तद्भावितो नित्यं यजे वैकुण्ठमव्ययम् ।\nतस्माच्च प्रसृतः पूर्वं ब्रह्मा लोकपितामहः ॥",
+          "meaning": {
+            "en": "Therefore, cultivated by that thought, I always worship the imperishable Vaikuntha. From him Brahma, grandfather of the worlds, came forth in the beginning."
+          }
         },
         {
           "n": 6,
-          "text": "मम वै पितरं प्रीतः परमेष्ठ्यप्यजीजनत् ।\nअहं संकल्पजस्तस्य पुत्रः प्रथमकल्पितः ॥"
+          "text": "मम वै पितरं प्रीतः परमेष्ठ्यप्यजीजनत् ।\nअहं संकल्पजस्तस्य पुत्रः प्रथमकल्पितः ॥",
+          "meaning": {
+            "en": "The pleased Parameshthin, Brahma, begot my father, and I, born of his intention, was first made his son."
+          }
         },
         {
           "n": 7,
-          "text": "यजाम्यहं पितॄन्साधो नारायणविधौ कृते ।\nएवं स एव भगवान्पिता माता पितामहः ।\nइज्यते पितृयज्ञेषु मया नित्यं जगत्पतिः ॥"
+          "text": "यजाम्यहं पितॄन्साधो नारायणविधौ कृते ।\nएवं स एव भगवान्पिता माता पितामहः ।\nइज्यते पितृयज्ञेषु मया नित्यं जगत्पतिः ॥",
+          "meaning": {
+            "en": "Good sir, I honor the ancestors with the rite prescribed for Narayana. So the blessed lord of the world, father, mother, and grandfather, is always worshipped by me in the ancestral offerings."
+          }
         },
         {
           "n": 8,
-          "text": "श्रुतिश्चाप्यपरा देव पुत्रान्हि पितरोऽयजन् ।\nवेदश्रुतिः प्रणष्टा च पुनरध्यापिता सुतैः ।\nततस्ते मन्त्रदाः पुत्राः पितृत्वमुपपेदिरे ॥"
+          "text": "श्रुतिश्चाप्यपरा देव पुत्रान्हि पितरोऽयजन् ।\nवेदश्रुतिः प्रणष्टा च पुनरध्यापिता सुतैः ।\nततस्ते मन्त्रदाः पुत्राः पितृत्वमुपपेदिरे ॥",
+          "meaning": {
+            "en": "Divine one, another scripture too says that the ancestors worshipped their sons; when the Vedic text was lost, it was taught again by the sons; so those sons, who gave the mantras, attained the status of fathers."
+          }
         },
         {
           "n": 9,
-          "text": "नूनं पुरैतद्विदितं युवयोर्भावितात्मनोः ।\nपुत्राश्च पितरश्चैव परस्परमपूजयन् ॥"
+          "text": "नूनं पुरैतद्विदितं युवयोर्भावितात्मनोः ।\nपुत्राश्च पितरश्चैव परस्परमपूजयन् ॥",
+          "meaning": {
+            "en": "Surely you two, of cultivated souls, knew this long ago, that sons and fathers honored each other."
+          }
         },
         {
           "n": 10,
-          "text": "त्रीन्पिण्डान्न्यस्य वै पृथ्व्यां पूर्वं दत्त्वा कुशानिति ।\nकथं तु पिण्डसंज्ञां ते पितरो लेभिरे पुरा ॥"
+          "text": "त्रीन्पिण्डान्न्यस्य वै पृथ्व्यां पूर्वं दत्त्वा कुशानिति ।\nकथं तु पिण्डसंज्ञां ते पितरो लेभिरे पुरा ॥",
+          "meaning": {
+            "en": "Having placed three balls on the earth over kusha grass first, how did the ancestors long ago come to be called pinda?"
+          }
         },
         {
-          "text": "नरनारायणावूचतुः"
+          "text": "नरनारायणावूचतुः",
+          "meaning": {
+            "en": "Nara and Narayana said:"
+          }
         },
         {
           "n": 11,
-          "text": "इमां हि धरणीं पूर्वं नष्टां सागरमेखलाम् ।\nगोविन्द उज्जहाराशु वाराहं रूपमाश्रितः ॥"
+          "text": "इमां हि धरणीं पूर्वं नष्टां सागरमेखलाम् ।\nगोविन्द उज्जहाराशु वाराहं रूपमाश्रितः ॥",
+          "meaning": {
+            "en": "Long ago, this earth, girded by the ocean, was lost, and Govinda swiftly raised it, taking the form of a boar."
+          }
         },
         {
           "n": 12,
-          "text": "स्थापयित्वा तु धरणीं स्वे स्थाने पुरुषोत्तमः ।\nजलकर्दमलिप्ताङ्गो लोककार्यार्थमुद्यतः ॥"
+          "text": "स्थापयित्वा तु धरणीं स्वे स्थाने पुरुषोत्तमः ।\nजलकर्दमलिप्ताङ्गो लोककार्यार्थमुद्यतः ॥",
+          "meaning": {
+            "en": "Having set the earth in her place, the Supreme Person, his body smeared with water and mud, was busy with the work of the worlds."
+          }
         },
         {
           "n": 13,
-          "text": "प्राप्ते चाह्निककाले स मध्यंदिनगते रवौ ।\nदंष्ट्राविलग्नान्मृत्पिण्डान्विधूय सहसा प्रभुः ।\nस्थापयामास वै पृथ्व्यां कुशानास्तीर्य नारद ॥"
+          "text": "प्राप्ते चाह्निककाले स मध्यंदिनगते रवौ ।\nदंष्ट्राविलग्नान्मृत्पिण्डान्विधूय सहसा प्रभुः ।\nस्थापयामास वै पृथ्व्यां कुशानास्तीर्य नारद ॥",
+          "meaning": {
+            "en": "When the time of his daily rite came, with the sun at midday, the lord suddenly shook the clods of earth clinging to his tusks and set them on the ground, Narada, spreading kusha grass."
+          }
         },
         {
           "n": 14,
-          "text": "स तेष्वात्मानमुद्दिश्य पित्र्यं चक्रे यथाविधि ।\nसंकल्पयित्वा त्रीन्पिण्डान्स्वेनैव विधिना प्रभुः ॥"
+          "text": "स तेष्वात्मानमुद्दिश्य पित्र्यं चक्रे यथाविधि ।\nसंकल्पयित्वा त्रीन्पिण्डान्स्वेनैव विधिना प्रभुः ॥",
+          "meaning": {
+            "en": "Taking those as himself, the lord performed the ancestral rite as prescribed, designating three balls by his own method."
+          }
         },
         {
           "n": 15,
-          "text": "आत्मगात्रोष्मसंभूतैः स्नेहगर्भैस्तिलैरपि ।\nप्रोक्ष्यापवर्गं देवेशः प्राङ्मुखः कृतवान्स्वयम् ॥"
+          "text": "आत्मगात्रोष्मसंभूतैः स्नेहगर्भैस्तिलैरपि ।\nप्रोक्ष्यापवर्गं देवेशः प्राङ्मुखः कृतवान्स्वयम् ॥",
+          "meaning": {
+            "en": "The lord of gods himself, facing east, sprinkled sesame seeds, produced from the warmth of his own body and filled with oil, and completed the rite."
+          }
         },
         {
           "n": 16,
-          "text": "मर्यादास्थापनार्थं च ततो वचनमुक्तवान् ।\nअहं हि पितरः स्रष्टुमुद्यतो लोककृत्स्वयम् ॥"
+          "text": "मर्यादास्थापनार्थं च ततो वचनमुक्तवान् ।\nअहं हि पितरः स्रष्टुमुद्यतो लोककृत्स्वयम् ॥",
+          "meaning": {
+            "en": "Then, to set the rule, he said: \"I, the maker of the worlds, am myself about to create the ancestors."
+          }
         },
         {
           "n": 17,
-          "text": "तस्य चिन्तयतः सद्यः पितृकार्यविधिं परम् ।\nदंष्ट्राभ्यां प्रविनिर्धूता ममैते दक्षिणां दिशम् ।\nआश्रिता धरणीं पिण्डास्तस्मात्पितर एव ते ॥"
+          "text": "तस्य चिन्तयतः सद्यः पितृकार्यविधिं परम् ।\nदंष्ट्राभ्यां प्रविनिर्धूता ममैते दक्षिणां दिशम् ।\nआश्रिता धरणीं पिण्डास्तस्मात्पितर एव ते ॥",
+          "meaning": {
+            "en": "As he thought of the supreme rite for the ancestors, these balls shaken from my tusks fell and rested on the earth toward the south; therefore they are the ancestors."
+          }
         },
         {
           "n": 18,
-          "text": "त्रयो मूर्तिविहीना वै पिण्डमूर्तिधरास्त्विमे ।\nभवन्तु पितरो लोके मया सृष्टाः सनातनाः ॥"
+          "text": "त्रयो मूर्तिविहीना वै पिण्डमूर्तिधरास्त्विमे ।\nभवन्तु पितरो लोके मया सृष्टाः सनातनाः ॥",
+          "meaning": {
+            "en": "Let these three, who lack forms and bear the form of balls, be the eternal ancestors in the world, created by me."
+          }
         },
         {
           "n": 19,
-          "text": "पिता पितामहश्चैव तथैव प्रपितामहः ।\nअहमेवात्र विज्ञेयस्त्रिषु पिण्डेषु संस्थितः ॥"
+          "text": "पिता पितामहश्चैव तथैव प्रपितामहः ।\nअहमेवात्र विज्ञेयस्त्रिषु पिण्डेषु संस्थितः ॥",
+          "meaning": {
+            "en": "Father, grandfather, and likewise great-grandfather: know that I alone am present here in the three balls."
+          }
         },
         {
           "n": 20,
-          "text": "नास्ति मत्तोऽधिकः कश्चित्को वाभ्यर्च्यो मया स्वयम् ।\nको वा मम पिता लोके अहमेव पितामहः ॥"
+          "text": "नास्ति मत्तोऽधिकः कश्चित्को वाभ्यर्च्यो मया स्वयम् ।\nको वा मम पिता लोके अहमेव पितामहः ॥",
+          "meaning": {
+            "en": "No one is greater than I; whom else should I myself worship? Who is my father in the world? I alone am the grandfather."
+          }
         },
         {
           "n": 21,
-          "text": "पितामहपिता चैव अहमेवात्र कारणम् ।\nइत्येवमुक्त्वा वचनं देवदेवो वृषाकपिः ॥"
+          "text": "पितामहपिता चैव अहमेवात्र कारणम् ।\nइत्येवमुक्त्वा वचनं देवदेवो वृषाकपिः ॥",
+          "meaning": {
+            "en": "And the father of the grandfather too. I alone am the cause here.\" So saying, the god of gods, Vrishakapi,"
+          }
         },
         {
           "n": 22,
-          "text": "वराहपर्वते विप्र दत्त्वा पिण्डान्सविस्तरान् ।\nआत्मानं पूजयित्वैव तत्रैवादर्शनं गतः ॥"
+          "text": "वराहपर्वते विप्र दत्त्वा पिण्डान्सविस्तरान् ।\nआत्मानं पूजयित्वैव तत्रैवादर्शनं गतः ॥",
+          "meaning": {
+            "en": "brahmin, on Mount Varaha, having offered the balls in full and worshipped himself, vanished right there."
+          }
         },
         {
           "n": 23,
-          "text": "एतदर्थं शुभमते पितरः पिण्डसंज्ञिताः ।\nलभन्ते सततं पूजां वृषाकपिवचो यथा ॥"
+          "text": "एतदर्थं शुभमते पितरः पिण्डसंज्ञिताः ।\nलभन्ते सततं पूजां वृषाकपिवचो यथा ॥",
+          "meaning": {
+            "en": "For this reason, wise one, the ancestors, called pindas, always receive worship, as Vrishakapi said."
+          }
         },
         {
           "n": 24,
-          "text": "ये यजन्ति पितॄन्देवान्गुरूंश्चैवातिथींस्तथा ।\nगाश्चैव द्विजमुख्यांश्च पृथिवीं मातरं तथा ।\nकर्मणा मनसा वाचा विष्णुमेव यजन्ति ते ॥"
+          "text": "ये यजन्ति पितॄन्देवान्गुरूंश्चैवातिथींस्तथा ।\nगाश्चैव द्विजमुख्यांश्च पृथिवीं मातरं तथा ।\nकर्मणा मनसा वाचा विष्णुमेव यजन्ति ते ॥",
+          "meaning": {
+            "en": "Those who worship the ancestors, gods, teachers, guests, cows, chief brahmins, and mother earth, worship Vishnu alone, by deed, thought, and word."
+          }
         },
         {
           "n": 25,
-          "text": "अन्तर्गतः स भगवान्सर्वसत्त्वशरीरगः ।\nसमः सर्वेषु भूतेषु ईश्वरः सुखदुःखयोः ।\nमहान्महात्मा सर्वात्मा नारायण इति श्रुतः ॥"
+          "text": "अन्तर्गतः स भगवान्सर्वसत्त्वशरीरगः ।\nसमः सर्वेषु भूतेषु ईश्वरः सुखदुःखयोः ।\nमहान्महात्मा सर्वात्मा नारायण इति श्रुतः ॥",
+          "meaning": {
+            "en": "That blessed one dwells within, in the body of every living thing, the same in all beings, lord over their pleasure and pain, great, great-souled, the soul of all, known as Narayana."
+          }
         }
       ]
     }

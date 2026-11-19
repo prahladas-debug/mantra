@@ -22,115 +22,199 @@
       "titleEn": "Anushasanika Parva (The instructions)",
       "verses": [
         {
-          "text": "वसिष्ठ उवाच"
+          "text": "वसिष्ठ उवाच",
+          "meaning": {
+            "en": "Vasishtha said:"
+          }
         },
         {
           "n": 1,
-          "text": "शतं वर्षसहस्राणां तपस्तप्तं सुदुश्चरम् ।\nगोभिः पूर्वविसृष्टाभिर्गच्छेम श्रेष्ठतामिति ॥"
+          "text": "शतं वर्षसहस्राणां तपस्तप्तं सुदुश्चरम् ।\nगोभिः पूर्वविसृष्टाभिर्गच्छेम श्रेष्ठतामिति ॥",
+          "meaning": {
+            "en": "The cows, who were created earlier, practised a very hard austerity for a hundred thousand years, thinking, 'May we reach excellence.'"
+          }
         },
         {
           "n": 2,
-          "text": "लोकेऽस्मिन्दक्षिणानां च सर्वासां वयमुत्तमाः ।\nभवेम न च लिप्येम दोषेणेति परंतप ॥"
+          "text": "लोकेऽस्मिन्दक्षिणानां च सर्वासां वयमुत्तमाः ।\nभवेम न च लिप्येम दोषेणेति परंतप ॥",
+          "meaning": {
+            "en": "'O scorcher of foes, may we be the best of all gifts in this world, and may no fault stain us.'"
+          }
         },
         {
           "n": 3,
-          "text": "स एव चेतसा तेन हतो लिप्येत सर्वदा ।\nशकृता च पवित्रार्थं कुर्वीरन्देवमानुषाः ॥"
+          "text": "स एव चेतसा तेन हतो लिप्येत सर्वदा ।\nशकृता च पवित्रार्थं कुर्वीरन्देवमानुषाः ॥",
+          "meaning": {
+            "en": "'One who is struck down by that very thought would always be stained; and gods and men should use our dung for purification.'"
+          }
         },
         {
           "n": 4,
-          "text": "तथा सर्वाणि भूतानि स्थावराणि चराणि च ।\nप्रदातारश्च गोलोकान्गच्छेयुरिति मानद ॥"
+          "text": "तथा सर्वाणि भूतानि स्थावराणि चराणि च ।\nप्रदातारश्च गोलोकान्गच्छेयुरिति मानद ॥",
+          "meaning": {
+            "en": "'And may all beings, moving and unmoving, and the givers of cows, O giver of honour, go to the world of cows.'"
+          }
         },
         {
           "n": 5,
-          "text": "ताभ्यो वरं ददौ ब्रह्मा तपसोऽन्ते स्वयं प्रभुः ।\nएवं भवत्विति विभुर्लोकांस्तारयतेति च ॥"
+          "text": "ताभ्यो वरं ददौ ब्रह्मा तपसोऽन्ते स्वयं प्रभुः ।\nएवं भवत्विति विभुर्लोकांस्तारयतेति च ॥",
+          "meaning": {
+            "en": "At the end of their austerity the lord Brahma himself gave them a boon: 'So be it; and may you carry the worlds across.'"
+          }
         },
         {
           "n": 6,
-          "text": "उत्तस्थुः सिद्धिकामास्ता भूतभव्यस्य मातरः ।\nतपसोऽन्ते महाराज गावो लोकपरायणाः ॥"
+          "text": "उत्तस्थुः सिद्धिकामास्ता भूतभव्यस्य मातरः ।\nतपसोऽन्ते महाराज गावो लोकपरायणाः ॥",
+          "meaning": {
+            "en": "At the end of the austerity, O great king, those mothers of what was and will be, the cows, who are the refuge of the worlds, rose up, desiring success."
+          }
         },
         {
           "n": 7,
-          "text": "तस्माद्गावो महाभागाः पवित्रं परमुच्यते ।\nतथैव सर्वभूतानां गावस्तिष्ठन्ति मूर्धनि ॥"
+          "text": "तस्माद्गावो महाभागाः पवित्रं परमुच्यते ।\nतथैव सर्वभूतानां गावस्तिष्ठन्ति मूर्धनि ॥",
+          "meaning": {
+            "en": "Therefore the greatly blessed cows are called supremely pure, and the cows stand on the heads of all beings."
+          }
         },
         {
           "n": 8,
-          "text": "समानवत्सां कपिलां धेनुं दत्त्वा पयस्विनीम् ।\nसुव्रतां वस्त्रसंवीतां ब्रह्मलोके महीयते ॥"
+          "text": "समानवत्सां कपिलां धेनुं दत्त्वा पयस्विनीम् ।\nसुव्रतां वस्त्रसंवीतां ब्रह्मलोके महीयते ॥",
+          "meaning": {
+            "en": "One who gives a tawny milch cow with a calf of equal colour, well-behaved and covered in cloth, is honoured in Brahma's world."
+          }
         },
         {
           "n": 9,
-          "text": "रोहिणीं तुल्यवत्सां तु धेनुं दत्त्वा पयस्विनीम् ।\nसुव्रतां वस्त्रसंवीतां सूर्यलोके महीयते ॥"
+          "text": "रोहिणीं तुल्यवत्सां तु धेनुं दत्त्वा पयस्विनीम् ।\nसुव्रतां वस्त्रसंवीतां सूर्यलोके महीयते ॥",
+          "meaning": {
+            "en": "One who gives a Rohini cow giving milk with a calf like her, well-behaved and covered in cloth, is honoured in the sun's world."
+          }
         },
         {
           "n": 10,
-          "text": "समानवत्सां शबलां धेनुं दत्त्वा पयस्विनीम् ।\nसुव्रतां वस्त्रसंवीतां सोमलोके महीयते ॥"
+          "text": "समानवत्सां शबलां धेनुं दत्त्वा पयस्विनीम् ।\nसुव्रतां वस्त्रसंवीतां सोमलोके महीयते ॥",
+          "meaning": {
+            "en": "One who gives a dappled milch cow with a matching calf, well-behaved and covered in cloth, is honoured in the moon's world."
+          }
         },
         {
           "n": 11,
-          "text": "समानवत्सां श्वेतां तु धेनुं दत्त्वा पयस्विनीम् ।\nसुव्रतां वस्त्रसंवीतामिन्द्रलोके महीयते ॥"
+          "text": "समानवत्सां श्वेतां तु धेनुं दत्त्वा पयस्विनीम् ।\nसुव्रतां वस्त्रसंवीतामिन्द्रलोके महीयते ॥",
+          "meaning": {
+            "en": "One who gives a white milch cow with a matching calf, well-behaved and covered in cloth, is honoured in Indra's world."
+          }
         },
         {
           "n": 12,
-          "text": "समानवत्सां कृष्णां तु धेनुं दत्त्वा पयस्विनीम् ।\nसुव्रतां वस्त्रसंवीतामग्निलोके महीयते ॥"
+          "text": "समानवत्सां कृष्णां तु धेनुं दत्त्वा पयस्विनीम् ।\nसुव्रतां वस्त्रसंवीतामग्निलोके महीयते ॥",
+          "meaning": {
+            "en": "One who gives a black milch cow with a matching calf, well-behaved and covered in cloth, is honoured in the world of Agni."
+          }
         },
         {
           "n": 13,
-          "text": "समानवत्सां धूम्रां तु धेनुं दत्त्वा पयस्विनीम् ।\nसुव्रतां वस्त्रसंवीतां याम्यलोके महीयते ॥"
+          "text": "समानवत्सां धूम्रां तु धेनुं दत्त्वा पयस्विनीम् ।\nसुव्रतां वस्त्रसंवीतां याम्यलोके महीयते ॥",
+          "meaning": {
+            "en": "One who gives a smoke-grey milch cow with a matching calf, well-behaved and covered in cloth, is honoured in the world of Yama."
+          }
         },
         {
           "n": 14,
-          "text": "अपां फेनसवर्णां तु सवत्सां कांस्यदोहनाम् ।\nप्रदाय वस्त्रसंवीतां वारुणं लोकमश्नुते ॥"
+          "text": "अपां फेनसवर्णां तु सवत्सां कांस्यदोहनाम् ।\nप्रदाय वस्त्रसंवीतां वारुणं लोकमश्नुते ॥",
+          "meaning": {
+            "en": "One who gives a cow the colour of water-foam, with her calf and a bronze milk pail, covered in cloth, reaches the world of Varuna."
+          }
         },
         {
           "n": 15,
-          "text": "वातरेणुसवर्णां तु सवत्सां कांस्यदोहनाम् ।\nप्रदाय वस्त्रसंवीतां वायुलोके महीयते ॥"
+          "text": "वातरेणुसवर्णां तु सवत्सां कांस्यदोहनाम् ।\nप्रदाय वस्त्रसंवीतां वायुलोके महीयते ॥",
+          "meaning": {
+            "en": "One who gives a cow the colour of wind-blown dust, with her calf and a bronze milk pail, covered in cloth, is honoured in the world of Vayu."
+          }
         },
         {
           "n": 16,
-          "text": "हिरण्यवर्णां पिङ्गाक्षीं सवत्सां कांस्यदोहनाम् ।\nप्रदाय वस्त्रसंवीतां कौबेरं लोकमश्नुते ॥"
+          "text": "हिरण्यवर्णां पिङ्गाक्षीं सवत्सां कांस्यदोहनाम् ।\nप्रदाय वस्त्रसंवीतां कौबेरं लोकमश्नुते ॥",
+          "meaning": {
+            "en": "One who gives a golden cow with tawny eyes, with her calf and a bronze milk pail, covered in cloth, reaches the world of Kubera."
+          }
         },
         {
           "n": 17,
-          "text": "पलालधूम्रवर्णां तु सवत्सां कांस्यदोहनाम् ।\nप्रदाय वस्त्रसंवीतां पितृलोके महीयते ॥"
+          "text": "पलालधूम्रवर्णां तु सवत्सां कांस्यदोहनाम् ।\nप्रदाय वस्त्रसंवीतां पितृलोके महीयते ॥",
+          "meaning": {
+            "en": "One who gives a cow the colour of straw-smoke, with her calf and a bronze milk pail, covered in cloth, is honoured in the world of the ancestors."
+          }
         },
         {
           "n": 18,
-          "text": "सवत्सां पीवरीं दत्त्वा शितिकण्ठामलंकृताम् ।\nवैश्वदेवमसंबाधं स्थानं श्रेष्ठं प्रपद्यते ॥"
+          "text": "सवत्सां पीवरीं दत्त्वा शितिकण्ठामलंकृताम् ।\nवैश्वदेवमसंबाधं स्थानं श्रेष्ठं प्रपद्यते ॥",
+          "meaning": {
+            "en": "One who gives a plump cow with her calf and a dark neck, adorned, reaches the excellent unobstructed place of the Vishvadevas."
+          }
         },
         {
           "n": 19,
-          "text": "समानवत्सां गौरीं तु धेनुं दत्त्वा पयस्विनीम् ।\nसुव्रतां वस्त्रसंवीतां वसूनां लोकमश्नुते ॥"
+          "text": "समानवत्सां गौरीं तु धेनुं दत्त्वा पयस्विनीम् ।\nसुव्रतां वस्त्रसंवीतां वसूनां लोकमश्नुते ॥",
+          "meaning": {
+            "en": "One who gives a fair milch cow with a matching calf, well-behaved and covered in cloth, reaches the world of the Vasus."
+          }
         },
         {
           "n": 20,
-          "text": "पाण्डुकम्बलवर्णां तु सवत्सां कांस्यदोहनाम् ।\nप्रदाय वस्त्रसंवीतां साध्यानां लोकमश्नुते ॥"
+          "text": "पाण्डुकम्बलवर्णां तु सवत्सां कांस्यदोहनाम् ।\nप्रदाय वस्त्रसंवीतां साध्यानां लोकमश्नुते ॥",
+          "meaning": {
+            "en": "One who gives a cow the colour of a pale blanket, with her calf and a bronze milk pail, covered in cloth, reaches the world of the Sadhyas."
+          }
         },
         {
           "n": 21,
-          "text": "वैराटपृष्ठमुक्षाणं सर्वरत्नैरलंकृतम् ।\nप्रदाय मरुतां लोकानजरान्प्रतिपद्यते ॥"
+          "text": "वैराटपृष्ठमुक्षाणं सर्वरत्नैरलंकृतम् ।\nप्रदाय मरुतां लोकानजरान्प्रतिपद्यते ॥",
+          "meaning": {
+            "en": "One who gives a bull with a back like a Virata, adorned with all kinds of jewels, gains the ageless worlds of the Maruts."
+          }
         },
         {
           "n": 22,
-          "text": "वत्सोपपन्नां नीलाङ्गां सर्वरत्नसमन्विताम् ।\nगन्धर्वाप्सरसां लोकान्दत्त्वा प्राप्नोति मानवः ॥"
+          "text": "वत्सोपपन्नां नीलाङ्गां सर्वरत्नसमन्विताम् ।\nगन्धर्वाप्सरसां लोकान्दत्त्वा प्राप्नोति मानवः ॥",
+          "meaning": {
+            "en": "A man who gives a dark-bodied cow with her calf and all kinds of jewels gains the worlds of the Gandharvas and Apsarases."
+          }
         },
         {
           "n": 23,
-          "text": "शितिकण्ठमनड्वाहं सर्वरत्नैरलंकृतम् ।\nदत्त्वा प्रजापतेर्लोकान्विशोकः प्रतिपद्यते ॥"
+          "text": "शितिकण्ठमनड्वाहं सर्वरत्नैरलंकृतम् ।\nदत्त्वा प्रजापतेर्लोकान्विशोकः प्रतिपद्यते ॥",
+          "meaning": {
+            "en": "One who gives a dark-necked ox adorned with all jewels reaches the worlds of Prajapati, free from sorrow."
+          }
         },
         {
           "n": 24,
-          "text": "गोप्रदानरतो याति भित्त्वा जलदसंचयान् ।\nविमानेनार्कवर्णेन दिवि राजन्विराजता ॥"
+          "text": "गोप्रदानरतो याति भित्त्वा जलदसंचयान् ।\nविमानेनार्कवर्णेन दिवि राजन्विराजता ॥",
+          "meaning": {
+            "en": "One devoted to giving cows goes, O king, breaking through the masses of clouds, in a heavenly chariot shining like the sun."
+          }
         },
         {
           "n": 25,
-          "text": "तं चारुवेषाः सुश्रोण्यः सहस्रं वरयोषितः ।\nरमयन्ति नरश्रेष्ठ गोप्रदानरतं नरम् ॥"
+          "text": "तं चारुवेषाः सुश्रोण्यः सहस्रं वरयोषितः ।\nरमयन्ति नरश्रेष्ठ गोप्रदानरतं नरम् ॥",
+          "meaning": {
+            "en": "O best of men, a thousand fine women of beautiful form and lovely hips delight that man devoted to giving cows."
+          }
         },
         {
           "n": 26,
-          "text": "वीणानां वल्लकीनां च नूपुराणां च शिञ्जितैः ।\nहासैश्च हरिणाक्षीणां प्रसुप्तः प्रतिबोध्यते ॥"
+          "text": "वीणानां वल्लकीनां च नूपुराणां च शिञ्जितैः ।\nहासैश्च हरिणाक्षीणां प्रसुप्तः प्रतिबोध्यते ॥",
+          "meaning": {
+            "en": "As he sleeps he is woken by the sound of lutes, veenas and anklets, and by the laughter of the deer-eyed women."
+          }
         },
         {
           "n": 27,
-          "text": "यावन्ति लोमानि भवन्ति धेन्वा-\nस्तावन्ति वर्षाणि महीयते सः ।\nस्वर्गाच्च्युतश्चापि ततो नृलोके\nकुले समुत्पत्स्यति गोमिनां सः ॥"
+          "text": "यावन्ति लोमानि भवन्ति धेन्वा-\nस्तावन्ति वर्षाणि महीयते सः ।\nस्वर्गाच्च्युतश्चापि ततो नृलोके\nकुले समुत्पत्स्यति गोमिनां सः ॥",
+          "meaning": {
+            "en": "For as many years as there are hairs on the cow, he is honoured; and when he falls from heaven, he will be born in the world of men in a family that owns cows."
+          }
         }
       ]
     }

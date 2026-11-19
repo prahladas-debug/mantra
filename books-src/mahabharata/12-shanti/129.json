@@ -22,72 +22,144 @@
       "titleEn": "Apaddharma Parva (Duties in distress)",
       "verses": [
         {
-          "text": "युधिष्ठिर उवाच"
+          "text": "युधिष्ठिर उवाच",
+          "meaning": {
+            "en": "Yudhishthira said:",
+            "hi": "युधिष्ठिर बोले—"
+          }
         },
         {
           "n": 1,
-          "text": "क्षीणस्य दीर्घसूत्रस्य सानुक्रोशस्य बन्धुषु ।\nविरक्तपौरराष्ट्रस्य निर्द्रव्यनिचयस्य च ॥"
+          "text": "क्षीणस्य दीर्घसूत्रस्य सानुक्रोशस्य बन्धुषु ।\nविरक्तपौरराष्ट्रस्य निर्द्रव्यनिचयस्य च ॥",
+          "meaning": {
+            "en": "Tell me, Bharata, what remains to be done by a king who is weakened and dilatory, who is compassionate toward his kin, whose citizens and countryside have turned away and whose store of wealth is gone,",
+            "hi": "हे भरत, बताइए कि जो राजा क्षीण हो गया है, जो काम को टालता है, जो अपने बंधुओं पर दया करता है, जिसकी प्रजा और राष्ट्र उससे विरक्त हो गए हैं, और जिसका धन-संग्रह समाप्त हो गया है, उसके लिए क्या करना शेष रहता है?"
+          }
         },
         {
           "n": 2,
-          "text": "परिशङ्कितमुख्यस्य स्रुतमन्त्रस्य भारत ।\nअसंभावितमित्रस्य भिन्नामात्यस्य सर्वशः ॥"
+          "text": "परिशङ्कितमुख्यस्य स्रुतमन्त्रस्य भारत ।\nअसंभावितमित्रस्य भिन्नामात्यस्य सर्वशः ॥",
+          "meaning": {
+            "en": "whose chief men are suspected, whose counsel has leaked, whose friends cannot be counted on and whose ministers are divided on every side,",
+            "hi": "जिसके प्रमुख लोग संदेह के घेरे में हैं, जिसकी मंत्रणा बाहर फूट गई है, जिसके मित्र विश्वसनीय नहीं रहे, और जिसके मंत्री सब ओर से बँट गए हैं,"
+          }
         },
         {
           "n": 3,
-          "text": "परचक्राभियातस्य दुर्बलस्य बलीयसा ।\nआपन्नचेतसो ब्रूहि किं कार्यमवशिष्यते ॥"
+          "text": "परचक्राभियातस्य दुर्बलस्य बलीयसा ।\nआपन्नचेतसो ब्रूहि किं कार्यमवशिष्यते ॥",
+          "meaning": {
+            "en": "who is attacked by a stronger king's army, who is weak, and whose mind is in distress?",
+            "hi": "जिस पर किसी बलवान राजा की सेना चढ़ाई कर रही है, जो दुर्बल है और जिसका चित्त संकट में पड़ा है, उसके लिए क्या करना शेष रहता है?"
+          }
         },
         {
-          "text": "भीष्म उवाच"
+          "text": "भीष्म उवाच",
+          "meaning": {
+            "en": "Bhishma said:",
+            "hi": "भीष्म बोले—"
+          }
         },
         {
           "n": 4,
-          "text": "बाह्यश्चेद्विजिगीषुः स्याद्धर्मार्थकुशलः शुचिः ।\nजवेन संधिं कुर्वीत पूर्वान्पूर्वान्विमोक्षयन् ॥"
+          "text": "बाह्यश्चेद्विजिगीषुः स्याद्धर्मार्थकुशलः शुचिः ।\nजवेन संधिं कुर्वीत पूर्वान्पूर्वान्विमोक्षयन् ॥",
+          "meaning": {
+            "en": "If the outside attacker is skilled in dharma and wealth and honest, one should quickly make peace, releasing the former ones one by one.",
+            "hi": "यदि बाहर का विजय चाहने वाला शत्रु धर्म और अर्थ में कुशल तथा शुद्ध आचरण वाला हो, तो शीघ्र ही संधि कर लेनी चाहिए, और पहले बंदी बनाए गए लोगों को एक-एक करके छोड़ देना चाहिए।"
+          }
         },
         {
           "n": 5,
-          "text": "अधर्मविजिगीषुश्चेद्बलवान्पापनिश्चयः ।\nआत्मनः संनिरोधेन संधिं तेनाभियोजयेत् ॥"
+          "text": "अधर्मविजिगीषुश्चेद्बलवान्पापनिश्चयः ।\nआत्मनः संनिरोधेन संधिं तेनाभियोजयेत् ॥",
+          "meaning": {
+            "en": "If he is strong, bent on conquest by adharma and of sinful resolve, one should deal with him by confining oneself and making peace with him.",
+            "hi": "यदि शत्रु अधर्म से विजय चाहने वाला, बलवान और पाप का निश्चय करने वाला हो, तो अपने आप को रोककर, उससे संधि का प्रयास करना चाहिए।"
+          }
         },
         {
           "n": 6,
-          "text": "अपास्य राजधानीं वा तरेदन्येन वापदम् ।\nतद्भावभावे द्रव्याणि जीवन्पुनरुपार्जयेत् ॥"
+          "text": "अपास्य राजधानीं वा तरेदन्येन वापदम् ।\nतद्भावभावे द्रव्याणि जीवन्पुनरुपार्जयेत् ॥",
+          "meaning": {
+            "en": "Or one may abandon the capital, or cross the calamity by some other means; and if that is possible, living, one may acquire wealth again.",
+            "hi": "या राजधानी छोड़कर किसी दूसरे उपाय से संकट पार करना चाहिए। यदि ऐसा संभव हो, तो जीवित रहकर फिर से धन अर्जित किया जा सकता है।"
+          }
         },
         {
           "n": 7,
-          "text": "यास्तु स्युः केवलत्यागाच्छक्यास्तरितुमापदः ।\nकस्तत्राधिकमात्मानं संत्यजेदर्थधर्मवित् ॥"
+          "text": "यास्तु स्युः केवलत्यागाच्छक्यास्तरितुमापदः ।\nकस्तत्राधिकमात्मानं संत्यजेदर्थधर्मवित् ॥",
+          "meaning": {
+            "en": "For calamities that can be crossed simply by giving something up, what man who knows wealth and dharma would give up himself in addition?",
+            "hi": "जो संकट केवल कुछ छोड़ देने से पार किए जा सकते हों, उनमें धन और धर्म को जानने वाला कौन सा मनुष्य अपने आप को भी त्याग देगा?"
+          }
         },
         {
           "n": 8,
-          "text": "अवरोधाज्जुगुप्सेत का सपत्नधने दया ।\nन त्वेवात्मा प्रदातव्यः शक्ये सति कथंचन ॥"
+          "text": "अवरोधाज्जुगुप्सेत का सपत्नधने दया ।\nन त्वेवात्मा प्रदातव्यः शक्ये सति कथंचन ॥",
+          "meaning": {
+            "en": "He should shrink from confinement; what pity is there for an enemy's wealth? But one should never give up one's own self in any way, when it is possible not to.",
+            "hi": "कैद होने से घृणा करनी चाहिए। शत्रु के धन पर दया कैसी? परंतु जब संभव हो, तब किसी भी प्रकार से अपने आप को नहीं सौंपना चाहिए।"
+          }
         },
         {
-          "text": "युधिष्ठिर उवाच"
+          "text": "युधिष्ठिर उवाच",
+          "meaning": {
+            "en": "Yudhishthira said:",
+            "hi": "युधिष्ठिर बोले—"
+          }
         },
         {
           "n": 9,
-          "text": "आभ्यन्तरे प्रकुपिते बाह्ये चोपनिपीडिते ।\nक्षीणे कोशे स्रुते मन्त्रे किं कार्यमवशिष्यते ॥"
+          "text": "आभ्यन्तरे प्रकुपिते बाह्ये चोपनिपीडिते ।\nक्षीणे कोशे स्रुते मन्त्रे किं कार्यमवशिष्यते ॥",
+          "meaning": {
+            "en": "When trouble breaks out within, pressure comes from outside, the treasury is exhausted and counsel has leaked, what remains to be done?",
+            "hi": "जब भीतर विद्रोह भड़क उठे, बाहर से दबाव पड़े, कोष क्षीण हो जाए और मंत्रणा फूट जाए, तो फिर क्या करना शेष रहता है?"
+          }
         },
         {
-          "text": "भीष्म उवाच"
+          "text": "भीष्म उवाच",
+          "meaning": {
+            "en": "Bhishma said:",
+            "hi": "भीष्म बोले—"
+          }
         },
         {
           "n": 10,
-          "text": "क्षिप्रं वा संधिकामः स्यात्क्षिप्रं वा तीक्ष्णविक्रमः ।\nपदापनयनं क्षिप्रमेतावत्सांपरायिकम् ॥"
+          "text": "क्षिप्रं वा संधिकामः स्यात्क्षिप्रं वा तीक्ष्णविक्रमः ।\nपदापनयनं क्षिप्रमेतावत्सांपरायिकम् ॥",
+          "meaning": {
+            "en": "Either he should seek peace quickly or he should act with sharp valor; withdrawing quickly is also a fitting step in a crisis.",
+            "hi": "या तो शीघ्र संधि की इच्छा करे, या शीघ्र तीखा पराक्रम दिखाए। संकट में शीघ्र पीछे हट जाना भी उचित कदम है।"
+          }
         },
         {
           "n": 11,
-          "text": "अनुरक्तेन पुष्टेन हृष्टेन जगतीपते ।\nअल्पेनापि हि सैन्येन महीं जयति पार्थिवः ॥"
+          "text": "अनुरक्तेन पुष्टेन हृष्टेन जगतीपते ।\nअल्पेनापि हि सैन्येन महीं जयति पार्थिवः ॥",
+          "meaning": {
+            "en": "With a loyal, well-nourished, cheerful army, even a small one, O lord of the earth, a king conquers the land.",
+            "hi": "हे पृथ्वीपति, अनुरक्त, पुष्ट और प्रसन्न सेना के साथ, छोटी सेना होने पर भी, राजा पृथ्वी को जीत लेता है।"
+          }
         },
         {
           "n": 12,
-          "text": "हतो वा दिवमारोहेद्विजयी क्षितिमावसेत् ।\nयुद्धे तु संत्यजन्प्राणाञ्शक्रस्यैति सलोकताम् ॥"
+          "text": "हतो वा दिवमारोहेद्विजयी क्षितिमावसेत् ।\nयुद्धे तु संत्यजन्प्राणाञ्शक्रस्यैति सलोकताम् ॥",
+          "meaning": {
+            "en": "Either slain he rises to heaven, or victorious he dwells on earth; giving up his life in battle, he attains Indra's world.",
+            "hi": "या तो मारा जाकर वह स्वर्ग पहुँचता है, या विजयी होकर पृथ्वी पर रहता है। युद्ध में प्राण त्यागकर वह इंद्र के लोक को पाता है।"
+          }
         },
         {
           "n": 13,
-          "text": "सर्वलोकागमं कृत्वा मृदुत्वं गन्तुमेव च ।\nविश्वासाद्विनयं कुर्याद्व्यवस्येद्वाप्युपानहौ ॥"
+          "text": "सर्वलोकागमं कृत्वा मृदुत्वं गन्तुमेव च ।\nविश्वासाद्विनयं कुर्याद्व्यवस्येद्वाप्युपानहौ ॥",
+          "meaning": {
+            "en": "Having made himself accessible to all, he should be gentle, in confidence show humility, and also be prepared with shoes ready for departure.",
+            "hi": "सब लोगों के लिए सुलभ होकर और कोमल व्यवहार करते हुए, विश्वास से विनय दिखाए, और जाने के लिए जूते भी तैयार रखे।"
+          }
         },
         {
           "n": 14,
-          "text": "अपक्रमितुमिच्छेद्वा यथाकामं तु सान्त्वयेत् ।\nविलिङ्गमित्वा मित्रेण ततः स्वयमुपक्रमेत् ॥"
+          "text": "अपक्रमितुमिच्छेद्वा यथाकामं तु सान्त्वयेत् ।\nविलिङ्गमित्वा मित्रेण ततः स्वयमुपक्रमेत् ॥",
+          "meaning": {
+            "en": "Or if he wishes to withdraw, he should conciliate as he pleases; after slipping out disguised with the help of a friend, then he should go forth himself.",
+            "hi": "यदि वह पीछे हटना चाहता हो, तो इच्छानुसार सांत्वना दे। फिर मित्र की सहायता से वेश बदलकर निकल जाए, और तब स्वयं आगे बढ़े।"
+          }
         }
       ]
     }

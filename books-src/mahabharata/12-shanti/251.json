@@ -22,114 +22,198 @@
       "titleEn": "Mokshadharma Parva (Duties for liberation)",
       "verses": [
         {
-          "text": "युधिष्ठिर उवाच"
+          "text": "युधिष्ठिर उवाच",
+          "meaning": {
+            "en": "Yudhishthira said:"
+          }
         },
         {
           "n": 1,
-          "text": "इमे वै मानवाः सर्वे धर्मं प्रति विशङ्किताः ।\nकोऽयं धर्मः कुतो धर्मस्तन्मे ब्रूहि पितामह ॥"
+          "text": "इमे वै मानवाः सर्वे धर्मं प्रति विशङ्किताः ।\nकोऽयं धर्मः कुतो धर्मस्तन्मे ब्रूहि पितामह ॥",
+          "meaning": {
+            "en": "All these people are in doubt about dharma. What is this dharma and where does it come from? Tell me, grandfather."
+          }
         },
         {
           "n": 2,
-          "text": "धर्मो न्वयमिहार्थः किममुत्रार्थोऽपि वा भवेत् ।\nउभयार्थोऽपि वा धर्मस्तन्मे ब्रूहि पितामह ॥"
+          "text": "धर्मो न्वयमिहार्थः किममुत्रार्थोऽपि वा भवेत् ।\nउभयार्थोऽपि वा धर्मस्तन्मे ब्रूहि पितामह ॥",
+          "meaning": {
+            "en": "Is this dharma for the sake of this world, or for the next, or for both? Tell me that, grandfather."
+          }
         },
         {
-          "text": "भीष्म उवाच"
+          "text": "भीष्म उवाच",
+          "meaning": {
+            "en": "Bhishma said:"
+          }
         },
         {
           "n": 3,
-          "text": "सदाचारः स्मृतिर्वेदास्त्रिविधं धर्मलक्षणम् ।\nचतुर्थमर्थमित्याहुः कवयो धर्मलक्षणम् ॥"
+          "text": "सदाचारः स्मृतिर्वेदास्त्रिविधं धर्मलक्षणम् ।\nचतुर्थमर्थमित्याहुः कवयो धर्मलक्षणम् ॥",
+          "meaning": {
+            "en": "Good conduct, tradition and the Vedas are the threefold mark of dharma; the wise call the fourth, purpose, also a mark of dharma."
+          }
         },
         {
           "n": 4,
-          "text": "अपि ह्युक्तानि कर्माणि व्यवस्यन्त्युत्तरावरे ।\nलोकयात्रार्थमेवेह धर्मस्य नियमः कृतः ।\nउभयत्र सुखोदर्क इह चैव परत्र च ॥"
+          "text": "अपि ह्युक्तानि कर्माणि व्यवस्यन्त्युत्तरावरे ।\nलोकयात्रार्थमेवेह धर्मस्य नियमः कृतः ।\nउभयत्र सुखोदर्क इह चैव परत्र च ॥",
+          "meaning": {
+            "en": "Even the prescribed acts decide the higher and the lower; the rule of dharma is made only for the conduct of the world, and it brings happy results both here and hereafter."
+          }
         },
         {
           "n": 5,
-          "text": "अलब्ध्वा निपुणं धर्मं पापः पापे प्रसज्जति ।\nन च पापकृतः पापान्मुच्यन्ते केचिदापदि ॥"
+          "text": "अलब्ध्वा निपुणं धर्मं पापः पापे प्रसज्जति ।\nन च पापकृतः पापान्मुच्यन्ते केचिदापदि ॥",
+          "meaning": {
+            "en": "Without finding subtle dharma, the sinner clings to sin, and none who do sin are freed from it in calamity."
+          }
         },
         {
           "n": 6,
-          "text": "अपापवादी भवति यदा भवति धर्मवित् ।\nधर्मस्य निष्ठा स्वाचारस्तमेवाश्रित्य भोत्स्यसे ॥"
+          "text": "अपापवादी भवति यदा भवति धर्मवित् ।\nधर्मस्य निष्ठा स्वाचारस्तमेवाश्रित्य भोत्स्यसे ॥",
+          "meaning": {
+            "en": "One becomes free of blame when he becomes a knower of dharma; the foundation of dharma is one's own conduct, and relying on it you will understand."
+          }
         },
         {
           "n": 7,
-          "text": "यदाधर्मसमाविष्टो धनं गृह्णाति तस्करः ।\nरमते निर्हरन्स्तेनः परवित्तमराजके ॥"
+          "text": "यदाधर्मसमाविष्टो धनं गृह्णाति तस्करः ।\nरमते निर्हरन्स्तेनः परवित्तमराजके ॥",
+          "meaning": {
+            "en": "When a thief, filled with adharma, takes wealth, he enjoys himself, carrying off others' goods where there is no king."
+          }
         },
         {
           "n": 8,
-          "text": "यदास्य तद्धरन्त्यन्ये तदा राजानमिच्छति ।\nतदा तेषां स्पृहयते ये वै तुष्टाः स्वकैर्धनैः ॥"
+          "text": "यदास्य तद्धरन्त्यन्ये तदा राजानमिच्छति ।\nतदा तेषां स्पृहयते ये वै तुष्टाः स्वकैर्धनैः ॥",
+          "meaning": {
+            "en": "When others take his own, then he wants a king, and then he envies those who are content with their own wealth."
+          }
         },
         {
           "n": 9,
-          "text": "अभीतः शुचिरभ्येति राजद्वारमशङ्कितः ।\nन हि दुश्चरितं किंचिदन्तरात्मनि पश्यति ॥"
+          "text": "अभीतः शुचिरभ्येति राजद्वारमशङ्कितः ।\nन हि दुश्चरितं किंचिदन्तरात्मनि पश्यति ॥",
+          "meaning": {
+            "en": "The pure man goes to the king's door fearless and unsuspecting, for he sees no ill deed in his heart."
+          }
         },
         {
           "n": 10,
-          "text": "सत्यस्य वचनं साधु न सत्याद्विद्यते परम् ।\nसत्येन विधृतं सर्वं सर्वं सत्ये प्रतिष्ठितम् ॥"
+          "text": "सत्यस्य वचनं साधु न सत्याद्विद्यते परम् ।\nसत्येन विधृतं सर्वं सर्वं सत्ये प्रतिष्ठितम् ॥",
+          "meaning": {
+            "en": "Speaking truth is good, and there is nothing higher than truth; by truth all is upheld, and all rests in truth."
+          }
         },
         {
           "n": 11,
-          "text": "अपि पापकृतो रौद्राः सत्यं कृत्वा पृथक्पृथक् ।\nअद्रोहमविसंवादं प्रवर्तन्ते तदाश्रयाः ।\nते चेन्मिथोऽधृतिं कुर्युर्विनश्येयुरसंशयम् ॥"
+          "text": "अपि पापकृतो रौद्राः सत्यं कृत्वा पृथक्पृथक् ।\nअद्रोहमविसंवादं प्रवर्तन्ते तदाश्रयाः ।\nते चेन्मिथोऽधृतिं कुर्युर्विनश्येयुरसंशयम् ॥",
+          "meaning": {
+            "en": "Even terrible sinners, having each made a promise of truth, act without treachery or deceit, relying on it; if they made each other uneasy, they would surely perish."
+          }
         },
         {
           "n": 12,
-          "text": "न हर्तव्यं परधनमिति धर्मः सनातनः ।\nमन्यन्ते बलवन्तस्तं दुर्बलैः संप्रवर्तितम् ।\nयदा नियतिदौर्बल्यमथैषामेव रोचते ॥"
+          "text": "न हर्तव्यं परधनमिति धर्मः सनातनः ।\nमन्यन्ते बलवन्तस्तं दुर्बलैः संप्रवर्तितम् ।\nयदा नियतिदौर्बल्यमथैषामेव रोचते ॥",
+          "meaning": {
+            "en": "\"Another's wealth must not be taken\" is eternal dharma. The strong think it was set up by the weak, until fate makes weakness fall to themselves."
+          }
         },
         {
           "n": 13,
-          "text": "न ह्यत्यन्तं बलयुता भवन्ति सुखिनोऽपि वा ।\nतस्मादनार्जवे बुद्धिर्न कार्या ते कथंचन ॥"
+          "text": "न ह्यत्यन्तं बलयुता भवन्ति सुखिनोऽपि वा ।\nतस्मादनार्जवे बुद्धिर्न कार्या ते कथंचन ॥",
+          "meaning": {
+            "en": "Those who have great strength are not extremely strong or happy for ever; so you should never set your mind on crookedness."
+          }
         },
         {
           "n": 14,
-          "text": "असाधुभ्योऽस्य न भयं न चोरेभ्यो न राजतः ।\nन किंचित्कस्यचित्कुर्वन्निर्भयः शुचिरावसेत् ॥"
+          "text": "असाधुभ्योऽस्य न भयं न चोरेभ्यो न राजतः ।\nन किंचित्कस्यचित्कुर्वन्निर्भयः शुचिरावसेत् ॥",
+          "meaning": {
+            "en": "The honest man has no fear from the wicked, from thieves, or from the king; doing nothing to anyone, he lives fearless and pure."
+          }
         },
         {
           "n": 15,
-          "text": "सर्वतः शङ्कते स्तेनो मृगो ग्राममिवेयिवान् ।\nबहुधाचरितं पापमन्यत्रैवानुपश्यति ॥"
+          "text": "सर्वतः शङ्कते स्तेनो मृगो ग्राममिवेयिवान् ।\nबहुधाचरितं पापमन्यत्रैवानुपश्यति ॥",
+          "meaning": {
+            "en": "The thief suspects everyone on every side, like a deer that has entered a village; he sees the sins he has done many times elsewhere."
+          }
         },
         {
           "n": 16,
-          "text": "मुदितः शुचिरभ्येति सर्वतो निर्भयः सदा ।\nन हि दुश्चरितं किंचिदात्मनोऽन्येषु पश्यति ॥"
+          "text": "मुदितः शुचिरभ्येति सर्वतो निर्भयः सदा ।\nन हि दुश्चरितं किंचिदात्मनोऽन्येषु पश्यति ॥",
+          "meaning": {
+            "en": "The cheerful and pure man goes everywhere, always fearless, for he sees no ill deed of his own in others."
+          }
         },
         {
           "n": 17,
-          "text": "दातव्यमित्ययं धर्म उक्तो भूतहिते रतैः ।\nतं मन्यन्ते धनयुताः कृपणैः संप्रवर्तितम् ॥"
+          "text": "दातव्यमित्ययं धर्म उक्तो भूतहिते रतैः ।\nतं मन्यन्ते धनयुताः कृपणैः संप्रवर्तितम् ॥",
+          "meaning": {
+            "en": "\"It must be given\" is a dharma spoken by those devoted to the good of beings; the wealthy think it was set up by the miserly,"
+          }
         },
         {
           "n": 18,
-          "text": "यदा नियतिकार्पण्यमथैषामेव रोचते ।\nन ह्यत्यन्तं धनवन्तो भवन्ति सुखिनोऽपि वा ॥"
+          "text": "यदा नियतिकार्पण्यमथैषामेव रोचते ।\nन ह्यत्यन्तं धनवन्तो भवन्ति सुखिनोऽपि वा ॥",
+          "meaning": {
+            "en": "until fate's meanness falls on themselves; for the rich too are not extremely happy."
+          }
         },
         {
           "n": 19,
-          "text": "यदन्यैर्विहितं नेच्छेदात्मनः कर्म पूरुषः ।\nन तत्परेषु कुर्वीत जानन्नप्रियमात्मनः ॥"
+          "text": "यदन्यैर्विहितं नेच्छेदात्मनः कर्म पूरुषः ।\nन तत्परेषु कुर्वीत जानन्नप्रियमात्मनः ॥",
+          "meaning": {
+            "en": "What a man would not wish others to do to him, he should not do to others, knowing it to be unpleasant to himself."
+          }
         },
         {
           "n": 20,
-          "text": "योऽन्यस्य स्यादुपपतिः स कं किं वक्तुमर्हति ।\nयदन्यस्तस्य तत्कुर्यान्न मृष्येदिति मे मतिः ॥"
+          "text": "योऽन्यस्य स्यादुपपतिः स कं किं वक्तुमर्हति ।\nयदन्यस्तस्य तत्कुर्यान्न मृष्येदिति मे मतिः ॥",
+          "meaning": {
+            "en": "He who is another's lover, what can he say to anyone? My view is that he would not tolerate what another does to him."
+          }
         },
         {
           "n": 21,
-          "text": "जीवितुं यः स्वयं चेच्छेत्कथं सोऽन्यं प्रघातयेत् ।\nयद्यदात्मन इच्छेत तत्परस्यापि चिन्तयेत् ॥"
+          "text": "जीवितुं यः स्वयं चेच्छेत्कथं सोऽन्यं प्रघातयेत् ।\nयद्यदात्मन इच्छेत तत्परस्यापि चिन्तयेत् ॥",
+          "meaning": {
+            "en": "How can he who wants to live himself have another killed? Whatever he wishes for himself, he should think of for others also."
+          }
         },
         {
           "n": 22,
-          "text": "अतिरिक्तैः संविभजेद्भोगैरन्यानकिंचनान् ।\nएतस्मात्कारणाद्धात्रा कुसीदं संप्रवर्तितम् ॥"
+          "text": "अतिरिक्तैः संविभजेद्भोगैरन्यानकिंचनान् ।\nएतस्मात्कारणाद्धात्रा कुसीदं संप्रवर्तितम् ॥",
+          "meaning": {
+            "en": "He should share his surplus enjoyments with the poor; for this reason the Creator set up lending at interest."
+          }
         },
         {
           "n": 23,
-          "text": "यस्मिंस्तु देवाः समये संतिष्ठेरंस्तथा भवेत् ।\nअथ चेल्लाभसमये स्थितिर्धर्मेऽपि शोभना ॥"
+          "text": "यस्मिंस्तु देवाः समये संतिष्ठेरंस्तथा भवेत् ।\nअथ चेल्लाभसमये स्थितिर्धर्मेऽपि शोभना ॥",
+          "meaning": {
+            "en": "Where the gods would stand firm in an agreement, so it should be; and if there is a fair rule even in dharma at the time of gain,"
+          }
         },
         {
           "n": 24,
-          "text": "सर्वं प्रियाभ्युपगतं धर्ममाहुर्मनीषिणः ।\nपश्यैतं लक्षणोद्देशं धर्माधर्मे युधिष्ठिर ॥"
+          "text": "सर्वं प्रियाभ्युपगतं धर्ममाहुर्मनीषिणः ।\nपश्यैतं लक्षणोद्देशं धर्माधर्मे युधिष्ठिर ॥",
+          "meaning": {
+            "en": "the wise say dharma is whatever is accepted as dear to all. See this mark, Yudhishthira, of dharma and adharma."
+          }
         },
         {
           "n": 25,
-          "text": "लोकसंग्रहसंयुक्तं विधात्रा विहितं पुरा ।\nसूक्ष्मधर्मार्थनियतं सतां चरितमुत्तमम् ॥"
+          "text": "लोकसंग्रहसंयुक्तं विधात्रा विहितं पुरा ।\nसूक्ष्मधर्मार्थनियतं सतां चरितमुत्तमम् ॥",
+          "meaning": {
+            "en": "It was laid down by the Maker long ago, joined with the maintenance of the world; the best conduct of the good is bound to subtle dharma and purpose."
+          }
         },
         {
           "n": 26,
-          "text": "धर्मलक्षणमाख्यातमेतत्ते कुरुसत्तम ।\nतस्मादनार्जवे बुद्धिर्न कार्या ते कथंचन ॥"
+          "text": "धर्मलक्षणमाख्यातमेतत्ते कुरुसत्तम ।\nतस्मादनार्जवे बुद्धिर्न कार्या ते कथंचन ॥",
+          "meaning": {
+            "en": "I have told you the mark of dharma, best of Kurus; therefore you should never set your mind on crookedness."
+          }
         }
       ]
     }

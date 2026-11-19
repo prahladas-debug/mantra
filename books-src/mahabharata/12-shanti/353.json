@@ -22,43 +22,73 @@
       "titleEn": "Mokshadharma Parva (Duties for liberation)",
       "verses": [
         {
-          "text": "भीष्म उवाच"
+          "text": "भीष्म उवाच",
+          "meaning": {
+            "en": "Bhishma said:"
+          }
         },
         {
           "n": 1,
-          "text": "स चामन्त्र्योरगश्रेष्ठं ब्राह्मणः कृतनिश्चयः ।\nदीक्षाकाङ्क्षी तदा राजंश्च्यवनं भार्गवं श्रितः ॥"
+          "text": "स चामन्त्र्योरगश्रेष्ठं ब्राह्मणः कृतनिश्चयः ।\nदीक्षाकाङ्क्षी तदा राजंश्च्यवनं भार्गवं श्रितः ॥",
+          "meaning": {
+            "en": "Having taken leave of the best of serpents, the brahmin, resolved and wishing for initiation, went to Chyavana of the Bhrigu line, king."
+          }
         },
         {
           "n": 2,
-          "text": "स तेन कृतसंस्कारो धर्ममेवोपतस्थिवान् ।\nतथैव च कथामेतां राजन्कथितवांस्तदा ॥"
+          "text": "स तेन कृतसंस्कारो धर्ममेवोपतस्थिवान् ।\nतथैव च कथामेतां राजन्कथितवांस्तदा ॥",
+          "meaning": {
+            "en": "Consecrated by him, he attended to dharma alone. And in the same way, king, he told this story then."
+          }
         },
         {
           "n": 3,
-          "text": "भार्गवेणापि राजेन्द्र जनकस्य निवेशने ।\nकथैषा कथिता पुण्या नारदाय महात्मने ॥"
+          "text": "भार्गवेणापि राजेन्द्र जनकस्य निवेशने ।\nकथैषा कथिता पुण्या नारदाय महात्मने ॥",
+          "meaning": {
+            "en": "And the Bhargava, best of kings, in Janaka's house, told this holy tale to the great Narada."
+          }
         },
         {
           "n": 4,
-          "text": "नारदेनापि राजेन्द्र देवेन्द्रस्य निवेशने ।\nकथिता भरतश्रेष्ठ पृष्टेनाक्लिष्टकर्मणा ॥"
+          "text": "नारदेनापि राजेन्द्र देवेन्द्रस्य निवेशने ।\nकथिता भरतश्रेष्ठ पृष्टेनाक्लिष्टकर्मणा ॥",
+          "meaning": {
+            "en": "Narada, best of kings, in the house of the king of gods, told it, Bharata, to Indra when he, of untroubled deeds, asked."
+          }
         },
         {
           "n": 5,
-          "text": "देवराजेन च पुरा कथैषा कथिता शुभा ।\nसमस्तेभ्यः प्रशस्तेभ्यो वसुभ्यो वसुधाधिप ॥"
+          "text": "देवराजेन च पुरा कथैषा कथिता शुभा ।\nसमस्तेभ्यः प्रशस्तेभ्यो वसुभ्यो वसुधाधिप ॥",
+          "meaning": {
+            "en": "The king of gods told this auspicious tale long ago to all the praised Vasus, lord of earth."
+          }
         },
         {
           "n": 6,
-          "text": "यदा च मम रामेण युद्धमासीत्सुदारुणम् ।\nवसुभिश्च तदा राजन्कथेयं कथिता मम ॥"
+          "text": "यदा च मम रामेण युद्धमासीत्सुदारुणम् ।\nवसुभिश्च तदा राजन्कथेयं कथिता मम ॥",
+          "meaning": {
+            "en": "When I fought a dreadful battle with Rama, king, the Vasus then told me this tale."
+          }
         },
         {
           "n": 7,
-          "text": "पृच्छमानाय तत्त्वेन मया तुभ्यं विशां पते ।\nकथेयं कथिता पुण्या धर्म्या धर्मभृतां वर ॥"
+          "text": "पृच्छमानाय तत्त्वेन मया तुभ्यं विशां पते ।\nकथेयं कथिता पुण्या धर्म्या धर्मभृतां वर ॥",
+          "meaning": {
+            "en": "Lord of the people, best of those who uphold dharma, I have told you this holy, righteous story as you asked, truly."
+          }
         },
         {
           "n": 8,
-          "text": "तदेष परमो धर्मो यन्मां पृच्छसि भारत ।\nअसन्नधीरनाकाङ्क्षी धर्मार्थकरणे नृप ॥"
+          "text": "तदेष परमो धर्मो यन्मां पृच्छसि भारत ।\nअसन्नधीरनाकाङ्क्षी धर्मार्थकरणे नृप ॥",
+          "meaning": {
+            "en": "This is the highest dharma that you ask me about, Bharata: to be unattached, steady, and free of desire in carrying out dharma and purpose, king."
+          }
         },
         {
           "n": 9,
-          "text": "स च किल कृतनिश्चयो द्विजाग्र्यो\nभुजगपतिप्रतिदेशितार्थकृत्यः ।\nयमनियमसमाहितो वनान्तं\nपरिगणितोञ्छशिलाशनः प्रविष्टः ॥"
+          "text": "स च किल कृतनिश्चयो द्विजाग्र्यो\nभुजगपतिप्रतिदेशितार्थकृत्यः ।\nयमनियमसमाहितो वनान्तं\nपरिगणितोञ्छशिलाशनः प्रविष्टः ॥",
+          "meaning": {
+            "en": "And that best of brahmins, with his resolve made, having his task shown by the lord of serpents, composed in restraint and observances, entered the forest, living on a counted measure of gleaned grain."
+          }
         }
       ]
     }

@@ -22,116 +22,206 @@
       "titleEn": "Anushasanika Parva (The instructions)",
       "verses": [
         {
-          "text": "युधिष्ठिर उवाच"
+          "text": "युधिष्ठिर उवाच",
+          "meaning": {
+            "en": "Yudhishthira said:"
+          }
         },
         {
           "n": 1,
-          "text": "एवं तदा प्रयाचन्तं भास्करं मुनिसत्तमः ।\nजमदग्निर्महातेजाः किं कार्यं प्रत्यपद्यत ॥"
+          "text": "एवं तदा प्रयाचन्तं भास्करं मुनिसत्तमः ।\nजमदग्निर्महातेजाः किं कार्यं प्रत्यपद्यत ॥",
+          "meaning": {
+            "en": "When the Sun pleaded thus, what course did the great Jamadagni, best of sages and of mighty energy, take?"
+          }
         },
         {
-          "text": "भीष्म उवाच"
+          "text": "भीष्म उवाच",
+          "meaning": {
+            "en": "Bhishma said:"
+          }
         },
         {
           "n": 2,
-          "text": "तथा प्रयाचमानस्य मुनिरग्निसमप्रभः ।\nजमदग्निः शमं नैव जगाम कुरुनन्दन ॥"
+          "text": "तथा प्रयाचमानस्य मुनिरग्निसमप्रभः ।\nजमदग्निः शमं नैव जगाम कुरुनन्दन ॥",
+          "meaning": {
+            "en": "Though the Sun pleaded so, the sage Jamadagni, bright as fire, did not calm down, joy of the Kurus."
+          }
         },
         {
           "n": 3,
-          "text": "ततः सूर्यो मधुरया वाचा तमिदमब्रवीत् ।\nकृताञ्जलिर्विप्ररूपी प्रणम्येदं विशां पते ॥"
+          "text": "ततः सूर्यो मधुरया वाचा तमिदमब्रवीत् ।\nकृताञ्जलिर्विप्ररूपी प्रणम्येदं विशां पते ॥",
+          "meaning": {
+            "en": "Then the Sun, in the form of a Brahmin, spoke to him in a sweet voice, palms joined and bowing, lord of the people."
+          }
         },
         {
           "n": 4,
-          "text": "चलं निमित्तं विप्रर्षे सदा सूर्यस्य गच्छतः ।\nकथं चलं वेत्स्यसि त्वं सदा यान्तं दिवाकरम् ॥"
+          "text": "चलं निमित्तं विप्रर्षे सदा सूर्यस्य गच्छतः ।\nकथं चलं वेत्स्यसि त्वं सदा यान्तं दिवाकरम् ॥",
+          "meaning": {
+            "en": "\"Brahmin sage, the Sun's mark is always moving as he goes; how will you take aim at the Sun, who is always moving?\""
+          }
         },
         {
-          "text": "जमदग्निरुवाच"
+          "text": "जमदग्निरुवाच",
+          "meaning": {
+            "en": "Jamadagni said:"
+          }
         },
         {
           "n": 5,
-          "text": "स्थिरं वापि चलं वापि जाने त्वां ज्ञानचक्षुषा ।\nअवश्यं विनयाधानं कार्यमद्य मया तव ॥"
+          "text": "स्थिरं वापि चलं वापि जाने त्वां ज्ञानचक्षुषा ।\nअवश्यं विनयाधानं कार्यमद्य मया तव ॥",
+          "meaning": {
+            "en": "\"Whether you are still or moving, I know you with the eye of knowledge; today I must certainly teach you discipline.\""
+          }
         },
         {
           "n": 6,
-          "text": "अपराह्णे निमेषार्धं तिष्ठसि त्वं दिवाकर ।\nतत्र वेत्स्यामि सूर्य त्वां न मेऽत्रास्ति विचारणा ॥"
+          "text": "अपराह्णे निमेषार्धं तिष्ठसि त्वं दिवाकर ।\nतत्र वेत्स्यामि सूर्य त्वां न मेऽत्रास्ति विचारणा ॥",
+          "meaning": {
+            "en": "\"In the afternoon, Sun, you stand still for half a moment; I will strike you then, and I have no doubt about it.\""
+          }
         },
         {
-          "text": "सूर्य उवाच"
+          "text": "सूर्य उवाच",
+          "meaning": {
+            "en": "The Sun said:"
+          }
         },
         {
           "n": 7,
-          "text": "असंशयं मां विप्रर्षे वेत्स्यसे धन्विनां वर ।\nअपकारिणं तु मां विद्धि भगवञ्शरणागतम् ॥"
+          "text": "असंशयं मां विप्रर्षे वेत्स्यसे धन्विनां वर ।\nअपकारिणं तु मां विद्धि भगवञ्शरणागतम् ॥",
+          "meaning": {
+            "en": "\"Without doubt, best of archers, Brahmin sage, you will strike me; but know, venerable one, that I am an offender who has come to you for refuge.\""
+          }
         },
         {
-          "text": "भीष्म उवाच"
+          "text": "भीष्म उवाच",
+          "meaning": {
+            "en": "Bhishma said:"
+          }
         },
         {
           "n": 8,
-          "text": "ततः प्रहस्य भगवाञ्जमदग्निरुवाच तम् ।\nन भीः सूर्य त्वया कार्या प्रणिपातगतो ह्यसि ॥"
+          "text": "ततः प्रहस्य भगवाञ्जमदग्निरुवाच तम् ।\nन भीः सूर्य त्वया कार्या प्रणिपातगतो ह्यसि ॥",
+          "meaning": {
+            "en": "Then the revered Jamadagni laughed and said to him: \"Sun, you need not fear; you have come and bowed down to me.\""
+          }
         },
         {
           "n": 9,
-          "text": "ब्राह्मणेष्वार्जवं यच्च स्थैर्यं च धरणीतले ।\nसौम्यतां चैव सोमस्य गाम्भीर्यं वरुणस्य च ॥"
+          "text": "ब्राह्मणेष्वार्जवं यच्च स्थैर्यं च धरणीतले ।\nसौम्यतां चैव सोमस्य गाम्भीर्यं वरुणस्य च ॥",
+          "meaning": {
+            "en": "\"Uprightness among Brahmins, steadiness on the earth, the gentleness of the Moon and the depth of Varuna,\""
+          }
         },
         {
           "n": 10,
-          "text": "दीप्तिमग्नेः प्रभां मेरोः प्रतापं तपनस्य च ।\nएतान्यतिक्रमेद्यो वै स हन्याच्छरणागतम् ॥"
+          "text": "दीप्तिमग्नेः प्रभां मेरोः प्रतापं तपनस्य च ।\nएतान्यतिक्रमेद्यो वै स हन्याच्छरणागतम् ॥",
+          "meaning": {
+            "en": "\"the blaze of Fire, the splendour of Meru and the heat of the Sun: whoever transgresses these would kill one who has come for refuge.\""
+          }
         },
         {
           "n": 11,
-          "text": "भवेत्स गुरुतल्पी च ब्रह्महा च तथा भवेत् ।\nसुरापानं च कुर्यात्स यो हन्याच्छरणागतम् ॥"
+          "text": "भवेत्स गुरुतल्पी च ब्रह्महा च तथा भवेत् ।\nसुरापानं च कुर्यात्स यो हन्याच्छरणागतम् ॥",
+          "meaning": {
+            "en": "\"He who kills one who has come for refuge would be one who violates his teacher's bed, a killer of a Brahmin, and a drinker of liquor.\""
+          }
         },
         {
           "n": 12,
-          "text": "एतस्य त्वपनीतस्य समाधिं तात चिन्तय ।\nयथा सुखगमः पन्था भवेत्त्वद्रश्मितापितः ॥"
+          "text": "एतस्य त्वपनीतस्य समाधिं तात चिन्तय ।\nयथा सुखगमः पन्था भवेत्त्वद्रश्मितापितः ॥",
+          "meaning": {
+            "en": "\"Now think, dear one, of a remedy for what this woman has suffered, so that her road may be easy to travel though scorched by your rays.\""
+          }
         },
         {
-          "text": "भीष्म उवाच"
+          "text": "भीष्म उवाच",
+          "meaning": {
+            "en": "Bhishma said:"
+          }
         },
         {
           "n": 13,
-          "text": "एतावदुक्त्वा स तदा तूष्णीमासीद्भृगूद्वहः ।\nअथ सूर्यो ददौ तस्मै छत्रोपानहमाशु वै ॥"
+          "text": "एतावदुक्त्वा स तदा तूष्णीमासीद्भृगूद्वहः ।\nअथ सूर्यो ददौ तस्मै छत्रोपानहमाशु वै ॥",
+          "meaning": {
+            "en": "Having said only this, that scion of Bhrigu fell silent. Then the Sun quickly gave him an umbrella and sandals."
+          }
         },
         {
-          "text": "सूर्य उवाच"
+          "text": "सूर्य उवाच",
+          "meaning": {
+            "en": "The Sun said:"
+          }
         },
         {
           "n": 14,
-          "text": "महर्षे शिरसस्त्राणं छत्रं मद्रश्मिवारणम् ।\nप्रतिगृह्णीष्व पद्भ्यां च त्राणार्थं चर्मपादुके ॥"
+          "text": "महर्षे शिरसस्त्राणं छत्रं मद्रश्मिवारणम् ।\nप्रतिगृह्णीष्व पद्भ्यां च त्राणार्थं चर्मपादुके ॥",
+          "meaning": {
+            "en": "\"Great sage, take this umbrella, which shields the head by warding off my rays, and these leather sandals for protecting the feet.\""
+          }
         },
         {
           "n": 15,
-          "text": "अद्यप्रभृति चैवैतल्लोके संप्रचरिष्यति ।\nपुण्यदानेषु सर्वेषु परमक्षय्यमेव च ॥"
+          "text": "अद्यप्रभृति चैवैतल्लोके संप्रचरिष्यति ।\nपुण्यदानेषु सर्वेषु परमक्षय्यमेव च ॥",
+          "meaning": {
+            "en": "\"From today these will go about in the world, and among all meritorious gifts they will be supremely imperishable.\""
+          }
         },
         {
-          "text": "भीष्म उवाच"
+          "text": "भीष्म उवाच",
+          "meaning": {
+            "en": "Bhishma said:"
+          }
         },
         {
           "n": 16,
-          "text": "उपानच्छत्रमेतद्वै सूर्येणेह प्रवर्तितम् ।\nपुण्यमेतदभिख्यातं त्रिषु लोकेषु भारत ॥"
+          "text": "उपानच्छत्रमेतद्वै सूर्येणेह प्रवर्तितम् ।\nपुण्यमेतदभिख्यातं त्रिषु लोकेषु भारत ॥",
+          "meaning": {
+            "en": "Thus the sandals and umbrella were brought into use here by the Sun; this is declared meritorious in the three worlds, Bharata."
+          }
         },
         {
           "n": 17,
-          "text": "तस्मात्प्रयच्छ विप्रेभ्यश्छत्रोपानहमुत्तमम् ।\nधर्मस्ते सुमहान्भावी न मेऽत्रास्ति विचारणा ॥"
+          "text": "तस्मात्प्रयच्छ विप्रेभ्यश्छत्रोपानहमुत्तमम् ।\nधर्मस्ते सुमहान्भावी न मेऽत्रास्ति विचारणा ॥",
+          "meaning": {
+            "en": "So give excellent umbrellas and sandals to Brahmins; you will gain great dharma, and I have no doubt of it."
+          }
         },
         {
           "n": 18,
-          "text": "छत्रं हि भरतश्रेष्ठ यः प्रदद्याद्द्विजातये ।\nशुभ्रं शतशलाकं वै स प्रेत्य सुखमेधते ॥"
+          "text": "छत्रं हि भरतश्रेष्ठ यः प्रदद्याद्द्विजातये ।\nशुभ्रं शतशलाकं वै स प्रेत्य सुखमेधते ॥",
+          "meaning": {
+            "en": "Best of Bharatas, he who gives a white umbrella with a hundred ribs to a twice-born man prospers in happiness after death."
+          }
         },
         {
           "n": 19,
-          "text": "स शक्रलोके वसति पूज्यमानो द्विजातिभिः ।\nअप्सरोभिश्च सततं देवैश्च भरतर्षभ ॥"
+          "text": "स शक्रलोके वसति पूज्यमानो द्विजातिभिः ।\nअप्सरोभिश्च सततं देवैश्च भरतर्षभ ॥",
+          "meaning": {
+            "en": "He lives in Indra's world, honoured by the twice-born, by apsarases, and always by the gods, best of Bharatas."
+          }
         },
         {
           "n": 20,
-          "text": "दह्यमानाय विप्राय यः प्रयच्छत्युपानहौ ।\nस्नातकाय महाबाहो संशिताय द्विजातये ॥"
+          "text": "दह्यमानाय विप्राय यः प्रयच्छत्युपानहौ ।\nस्नातकाय महाबाहो संशिताय द्विजातये ॥",
+          "meaning": {
+            "en": "Mighty-armed one, he who gives sandals to a scorched Brahmin, a snataka of strict vows, a twice-born man,"
+          }
         },
         {
           "n": 21,
-          "text": "सोऽपि लोकानवाप्नोति दैवतैरभिपूजितान् ।\nगोलोके स मुदा युक्तो वसति प्रेत्य भारत ॥"
+          "text": "सोऽपि लोकानवाप्नोति दैवतैरभिपूजितान् ।\nगोलोके स मुदा युक्तो वसति प्रेत्य भारत ॥",
+          "meaning": {
+            "en": "also wins worlds honoured by the gods; after death, Bharata, he lives joyfully in Goloka."
+          }
         },
         {
           "n": 22,
-          "text": "एतत्ते भरतश्रेष्ठ मया कार्त्स्न्येन कीर्तितम् ।\nछत्रोपानहदानस्य फलं भरतसत्तम ॥"
+          "text": "एतत्ते भरतश्रेष्ठ मया कार्त्स्न्येन कीर्तितम् ।\nछत्रोपानहदानस्य फलं भरतसत्तम ॥",
+          "meaning": {
+            "en": "This, best of Bharatas, I have told you in full: the reward of giving an umbrella and sandals."
+          }
         }
       ]
     }

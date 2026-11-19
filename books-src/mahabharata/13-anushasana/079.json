@@ -22,78 +22,135 @@
       "titleEn": "Anushasanika Parva (The instructions)",
       "verses": [
         {
-          "text": "वसिष्ठ उवाच"
+          "text": "वसिष्ठ उवाच",
+          "meaning": {
+            "en": "Vasishtha said:"
+          }
         },
         {
           "n": 1,
-          "text": "घृतक्षीरप्रदा गावो घृतयोन्यो घृतोद्भवाः ।\nघृतनद्यो घृतावर्तास्ता मे सन्तु सदा गृहे ॥"
+          "text": "घृतक्षीरप्रदा गावो घृतयोन्यो घृतोद्भवाः ।\nघृतनद्यो घृतावर्तास्ता मे सन्तु सदा गृहे ॥",
+          "meaning": {
+            "en": "'May the cows that give ghee and milk, whose source is ghee and who are born of ghee, rivers of ghee and whirlpools of ghee, always be in my house."
+          }
         },
         {
           "n": 2,
-          "text": "घृतं मे हृदये नित्यं घृतं नाभ्यां प्रतिष्ठितम् ।\nघृतं सर्वेषु गात्रेषु घृतं मे मनसि स्थितम् ॥"
+          "text": "घृतं मे हृदये नित्यं घृतं नाभ्यां प्रतिष्ठितम् ।\nघृतं सर्वेषु गात्रेषु घृतं मे मनसि स्थितम् ॥",
+          "meaning": {
+            "en": "Ghee is ever in my heart, ghee is set in my navel, ghee is in all my limbs, and ghee abides in my mind."
+          }
         },
         {
           "n": 3,
-          "text": "गावो ममाग्रतो नित्यं गावः पृष्ठत एव च ।\nगावो मे सर्वतश्चैव गवां मध्ये वसाम्यहम् ॥"
+          "text": "गावो ममाग्रतो नित्यं गावः पृष्ठत एव च ।\nगावो मे सर्वतश्चैव गवां मध्ये वसाम्यहम् ॥",
+          "meaning": {
+            "en": "The cows are always before me and always behind me; the cows are on every side of me, and I dwell among the cows.'"
+          }
         },
         {
           "n": 4,
-          "text": "इत्याचम्य जपेत्सायं प्रातश्च पुरुषः सदा ।\nयदह्ना कुरुते पापं तस्मात्स परिमुच्यते ॥"
+          "text": "इत्याचम्य जपेत्सायं प्रातश्च पुरुषः सदा ।\nयदह्ना कुरुते पापं तस्मात्स परिमुच्यते ॥",
+          "meaning": {
+            "en": "A man who sips water and recites this evening and morning is freed from whatever sin he does in the day."
+          }
         },
         {
           "n": 5,
-          "text": "प्रासादा यत्र सौवर्णा वसोर्धारा च यत्र सा ।\nगन्धर्वाप्सरसो यत्र तत्र यान्ति सहस्रदाः ॥"
+          "text": "प्रासादा यत्र सौवर्णा वसोर्धारा च यत्र सा ।\nगन्धर्वाप्सरसो यत्र तत्र यान्ति सहस्रदाः ॥",
+          "meaning": {
+            "en": "Where there are golden palaces and the stream of wealth, where there are Gandharvas and Apsarases, there go those who give a thousand."
+          }
         },
         {
           "n": 6,
-          "text": "नवनीतपङ्काः क्षीरोदा दधिशैवलसंकुलाः ।\nवहन्ति यत्र नद्यो वै तत्र यान्ति सहस्रदाः ॥"
+          "text": "नवनीतपङ्काः क्षीरोदा दधिशैवलसंकुलाः ।\nवहन्ति यत्र नद्यो वै तत्र यान्ति सहस्रदाः ॥",
+          "meaning": {
+            "en": "Where rivers flow with mud of butter, water of milk, and thick with the moss of curds, there go those who give a thousand."
+          }
         },
         {
           "n": 7,
-          "text": "गवां शतसहस्रं तु यः प्रयच्छेद्यथाविधि ।\nपरामृद्धिमवाप्याथ स गोलोके महीयते ॥"
+          "text": "गवां शतसहस्रं तु यः प्रयच्छेद्यथाविधि ।\nपरामृद्धिमवाप्याथ स गोलोके महीयते ॥",
+          "meaning": {
+            "en": "One who duly gives a hundred thousand cows gains supreme prosperity and is honoured in the world of cows."
+          }
         },
         {
           "n": 8,
-          "text": "दश चोभयतः प्रेत्य मातापित्रोः पितामहान् ।\nदधाति सुकृताँल्लोकान्पुनाति च कुलं नरः ॥"
+          "text": "दश चोभयतः प्रेत्य मातापित्रोः पितामहान् ।\nदधाति सुकृताँल्लोकान्पुनाति च कुलं नरः ॥",
+          "meaning": {
+            "en": "Passing on, that man establishes in worlds of merit ten generations on both sides, of the mother's and the father's line, and purifies his family."
+          }
         },
         {
           "n": 9,
-          "text": "धेन्वाः प्रमाणेन समप्रमाणां\nधेनुं तिलानामपि च प्रदाय ।\nपानीयदाता च यमस्य लोके\nन यातनां कांचिदुपैति तत्र ॥"
+          "text": "धेन्वाः प्रमाणेन समप्रमाणां\nधेनुं तिलानामपि च प्रदाय ।\nपानीयदाता च यमस्य लोके\nन यातनां कांचिदुपैति तत्र ॥",
+          "meaning": {
+            "en": "One who gives a cow made of sesame seeds equal in measure to a real cow, and who gives water to drink, meets no torment in the world of Yama."
+          }
         },
         {
           "n": 10,
-          "text": "पवित्रमग्र्यं जगतः प्रतिष्ठा\nदिवौकसां मातरोऽथाप्रमेयाः ।\nअन्वालभेद्दक्षिणतो व्रजेच्च\nदद्याच्च पात्रे प्रसमीक्ष्य कालम् ॥"
+          "text": "पवित्रमग्र्यं जगतः प्रतिष्ठा\nदिवौकसां मातरोऽथाप्रमेयाः ।\nअन्वालभेद्दक्षिणतो व्रजेच्च\nदद्याच्च पात्रे प्रसमीक्ष्य कालम् ॥",
+          "meaning": {
+            "en": "They are pure, foremost, the support of the world, immeasurable mothers of the gods. One should touch them, walk to their right, and give them to a worthy recipient, having considered the time."
+          }
         },
         {
           "n": 11,
-          "text": "धेनुं सवत्सां कपिलां भूरिशृङ्गां\nकांस्योपदोहां वसनोत्तरीयाम् ।\nप्रदाय तां गाहति दुर्विगाह्यां\nयाम्यां सभां वीतभयो मनुष्यः ॥"
+          "text": "धेनुं सवत्सां कपिलां भूरिशृङ्गां\nकांस्योपदोहां वसनोत्तरीयाम् ।\nप्रदाय तां गाहति दुर्विगाह्यां\nयाम्यां सभां वीतभयो मनुष्यः ॥",
+          "meaning": {
+            "en": "A man who gives a tawny cow with her calf, large-horned, with a bronze milk pail and a cloth cover, enters fearless the hard-to-enter assembly of Yama."
+          }
         },
         {
           "n": 12,
-          "text": "सुरूपा बहुरूपाश्च विश्वरूपाश्च मातरः ।\nगावो मामुपतिष्ठन्तामिति नित्यं प्रकीर्तयेत् ॥"
+          "text": "सुरूपा बहुरूपाश्च विश्वरूपाश्च मातरः ।\nगावो मामुपतिष्ठन्तामिति नित्यं प्रकीर्तयेत् ॥",
+          "meaning": {
+            "en": "One should always recite: 'May the mothers, beautiful, many-formed and all-formed, the cows, come to me.'"
+          }
         },
         {
           "n": 13,
-          "text": "नातः पुण्यतरं दानं नातः पुण्यतरं फलम् ।\nनातो विशिष्टं लोकेषु भूतं भवितुमर्हति ॥"
+          "text": "नातः पुण्यतरं दानं नातः पुण्यतरं फलम् ।\nनातो विशिष्टं लोकेषु भूतं भवितुमर्हति ॥",
+          "meaning": {
+            "en": "There is no gift more meritorious than this, no fruit more meritorious than this, and nothing more excellent in the worlds can exist."
+          }
         },
         {
           "n": 14,
-          "text": "त्वचा लोम्नाथ शृङ्गैश्च वालैः क्षीरेण मेदसा ।\nयज्ञं वहन्ति संभूय किमस्त्यभ्यधिकं ततः ॥"
+          "text": "त्वचा लोम्नाथ शृङ्गैश्च वालैः क्षीरेण मेदसा ।\nयज्ञं वहन्ति संभूय किमस्त्यभ्यधिकं ततः ॥",
+          "meaning": {
+            "en": "With hide, hair, horns, tail-hair, milk and fat, they together carry the sacrifice. What is greater than that?"
+          }
         },
         {
           "n": 15,
-          "text": "यया सर्वमिदं व्याप्तं जगत्स्थावरजङ्गमम् ।\nतां धेनुं शिरसा वन्दे भूतभव्यस्य मातरम् ॥"
+          "text": "यया सर्वमिदं व्याप्तं जगत्स्थावरजङ्गमम् ।\nतां धेनुं शिरसा वन्दे भूतभव्यस्य मातरम् ॥",
+          "meaning": {
+            "en": "By whom all this world, moving and unmoving, is pervaded: that cow, mother of what was and will be, I salute with my head."
+          }
         },
         {
           "n": 16,
-          "text": "गुणवचनसमुच्चयैकदेशो\nनृवर मयैष गवां प्रकीर्तितस्ते ।\nन हि परमिह दानमस्ति गोभ्यो\nभवन्ति न चापि परायणं तथान्यत् ॥"
+          "text": "गुणवचनसमुच्चयैकदेशो\nनृवर मयैष गवां प्रकीर्तितस्ते ।\nन हि परमिह दानमस्ति गोभ्यो\nभवन्ति न चापि परायणं तथान्यत् ॥",
+          "meaning": {
+            "en": "O best of men, I have told you only a part of the collected words on the merits of cows. For there is no greater gift here than cows, nor is there any other higher refuge."
+          }
         },
         {
-          "text": "भीष्म उवाच"
+          "text": "भीष्म उवाच",
+          "meaning": {
+            "en": "Bhishma said:"
+          }
         },
         {
           "n": 17,
-          "text": "परमिदमिति भूमिपो विचिन्त्य\nप्रवरमृषेर्वचनं ततो महात्मा ।\nव्यसृजत नियतात्मवान्द्विजेभ्यः\nसुबहु च गोधनमाप्तवांश्च लोकान् ॥"
+          "text": "परमिदमिति भूमिपो विचिन्त्य\nप्रवरमृषेर्वचनं ततो महात्मा ।\nव्यसृजत नियतात्मवान्द्विजेभ्यः\nसुबहु च गोधनमाप्तवांश्च लोकान् ॥",
+          "meaning": {
+            "en": "The great-souled king, considering the sage's word to be supreme, with self-control gave cows to brahmins, and gained many cattle and worlds."
+          }
         }
       ]
     }

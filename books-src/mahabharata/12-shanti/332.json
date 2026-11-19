@@ -22,114 +22,198 @@
       "titleEn": "Mokshadharma Parva (Duties for liberation)",
       "verses": [
         {
-          "text": "नरनारायणावूचतुः"
+          "text": "नरनारायणावूचतुः",
+          "meaning": {
+            "en": "Nara and Narayana said:"
+          }
         },
         {
           "n": 1,
-          "text": "धन्योऽस्यनुगृहीतोऽसि यत्ते दृष्टः स्वयं प्रभुः ।\nन हि तं दृष्टवान्कश्चित्पद्मयोनिरपि स्वयम् ॥"
+          "text": "धन्योऽस्यनुगृहीतोऽसि यत्ते दृष्टः स्वयं प्रभुः ।\nन हि तं दृष्टवान्कश्चित्पद्मयोनिरपि स्वयम् ॥",
+          "meaning": {
+            "en": "You are blessed and favored, for you have seen the Lord himself; no one has seen him, not even the lotus-born Brahma."
+          }
         },
         {
           "n": 2,
-          "text": "अव्यक्तयोनिर्भगवान्दुर्दर्शः पुरुषोत्तमः ।\nनारदैतद्धि ते सत्यं वचनं समुदाहृतम् ॥"
+          "text": "अव्यक्तयोनिर्भगवान्दुर्दर्शः पुरुषोत्तमः ।\nनारदैतद्धि ते सत्यं वचनं समुदाहृतम् ॥",
+          "meaning": {
+            "en": "The blessed Supreme Person, whose source is the unmanifest, is hard to see. Narada, what you have said is true."
+          }
         },
         {
           "n": 3,
-          "text": "नास्य भक्तैः प्रियतरो लोके कश्चन विद्यते ।\nततः स्वयं दर्शितवान्स्वमात्मानं द्विजोत्तम ॥"
+          "text": "नास्य भक्तैः प्रियतरो लोके कश्चन विद्यते ।\nततः स्वयं दर्शितवान्स्वमात्मानं द्विजोत्तम ॥",
+          "meaning": {
+            "en": "No one in the world is dearer to him than his devotees, so, best of brahmins, he showed you his own self."
+          }
         },
         {
           "n": 4,
-          "text": "तपो हि तप्यतस्तस्य यत्स्थानं परमात्मनः ।\nन तत्संप्राप्नुते कश्चिदृते ह्यावां द्विजोत्तम ॥"
+          "text": "तपो हि तप्यतस्तस्य यत्स्थानं परमात्मनः ।\nन तत्संप्राप्नुते कश्चिदृते ह्यावां द्विजोत्तम ॥",
+          "meaning": {
+            "en": "Best of brahmins, that abode of the Supreme Self, where he practices austerity, no one reaches except us two."
+          }
         },
         {
           "n": 5,
-          "text": "या हि सूर्यसहस्रस्य समस्तस्य भवेद्द्युतिः ।\nस्थानस्य सा भवेत्तस्य स्वयं तेन विराजता ॥"
+          "text": "या हि सूर्यसहस्रस्य समस्तस्य भवेद्द्युतिः ।\nस्थानस्य सा भवेत्तस्य स्वयं तेन विराजता ॥",
+          "meaning": {
+            "en": "The brilliance of all thousand suns together would be the brilliance of that abode, shining by his own presence."
+          }
         },
         {
           "n": 6,
-          "text": "तस्मादुत्तिष्ठते विप्र देवाद्विश्वभुवः पतेः ।\nक्षमा क्षमावतां श्रेष्ठ यया भूमिस्तु युज्यते ॥"
+          "text": "तस्मादुत्तिष्ठते विप्र देवाद्विश्वभुवः पतेः ।\nक्षमा क्षमावतां श्रेष्ठ यया भूमिस्तु युज्यते ॥",
+          "meaning": {
+            "en": "From that god, lord of the universe, brahmin, arises forbearance, best of the forbearing, by which the earth is held together."
+          }
         },
         {
           "n": 7,
-          "text": "तस्माच्चोत्तिष्ठते देवात्सर्वभूतहितो रसः ।\nआपो येन हि युज्यन्ते द्रवत्वं प्राप्नुवन्ति च ॥"
+          "text": "तस्माच्चोत्तिष्ठते देवात्सर्वभूतहितो रसः ।\nआपो येन हि युज्यन्ते द्रवत्वं प्राप्नुवन्ति च ॥",
+          "meaning": {
+            "en": "From that god also arises taste, beneficial to all beings, by which the waters are united and gain fluidity."
+          }
         },
         {
           "n": 8,
-          "text": "तस्मादेव समुद्भूतं तेजो रूपगुणात्मकम् ।\nयेन स्म युज्यते सूर्यस्ततो लोकान्विराजते ॥"
+          "text": "तस्मादेव समुद्भूतं तेजो रूपगुणात्मकम् ।\nयेन स्म युज्यते सूर्यस्ततो लोकान्विराजते ॥",
+          "meaning": {
+            "en": "From him too is born radiance, whose nature is form and quality, by which the sun is united and so lights the worlds."
+          }
         },
         {
           "n": 9,
-          "text": "तस्माद्देवात्समुद्भूतः स्पर्शस्तु पुरुषोत्तमात् ।\nयेन स्म युज्यते वायुस्ततो लोकान्विवात्यसौ ॥"
+          "text": "तस्माद्देवात्समुद्भूतः स्पर्शस्तु पुरुषोत्तमात् ।\nयेन स्म युज्यते वायुस्ततो लोकान्विवात्यसौ ॥",
+          "meaning": {
+            "en": "From that god, the Supreme Person, is born touch, by which the wind is united and so blows through the worlds."
+          }
         },
         {
           "n": 10,
-          "text": "तस्माच्चोत्तिष्ठते शब्दः सर्वलोकेश्वरात्प्रभोः ।\nआकाशं युज्यते येन ततस्तिष्ठत्यसंवृतम् ॥"
+          "text": "तस्माच्चोत्तिष्ठते शब्दः सर्वलोकेश्वरात्प्रभोः ।\nआकाशं युज्यते येन ततस्तिष्ठत्यसंवृतम् ॥",
+          "meaning": {
+            "en": "From that lord of all worlds also arises sound, by which space is united and so stays unconfined."
+          }
         },
         {
           "n": 11,
-          "text": "तस्माच्चोत्तिष्ठते देवात्सर्वभूतगतं मनः ।\nचन्द्रमा येन संयुक्तः प्रकाशगुणधारणः ॥"
+          "text": "तस्माच्चोत्तिष्ठते देवात्सर्वभूतगतं मनः ।\nचन्द्रमा येन संयुक्तः प्रकाशगुणधारणः ॥",
+          "meaning": {
+            "en": "From that god too arises the mind present in all beings, by which the moon is united, bearing the quality of light."
+          }
         },
         {
           "n": 12,
-          "text": "षड्भूतोत्पादकं नाम तत्स्थानं वेदसंज्ञितम् ।\nविद्यासहायो यत्रास्ते भगवान्हव्यकव्यभुक् ॥"
+          "text": "षड्भूतोत्पादकं नाम तत्स्थानं वेदसंज्ञितम् ।\nविद्यासहायो यत्रास्ते भगवान्हव्यकव्यभुक् ॥",
+          "meaning": {
+            "en": "That abode, called the producer of the six elements and named the Veda, is where the blessed enjoyer of offerings to gods and ancestors dwells, with knowledge as his companion."
+          }
         },
         {
           "n": 13,
-          "text": "ये हि निष्कल्मषा लोके पुण्यपापविवर्जिताः ।\nतेषां वै क्षेममध्वानं गच्छतां द्विजसत्तम ।\nसर्वलोकतमोहन्ता आदित्यो द्वारमुच्यते ॥"
+          "text": "ये हि निष्कल्मषा लोके पुण्यपापविवर्जिताः ।\nतेषां वै क्षेममध्वानं गच्छतां द्विजसत्तम ।\nसर्वलोकतमोहन्ता आदित्यो द्वारमुच्यते ॥",
+          "meaning": {
+            "en": "Best of brahmins, for those in the world who are stainless, free of merit and sin, going on the safe road, the sun, destroyer of the darkness of all worlds, is called the gate."
+          }
         },
         {
           "n": 14,
-          "text": "आदित्यदग्धसर्वाङ्गा अदृश्याः केनचित्क्वचित् ।\nपरमाणुभूता भूत्वा तु तं देवं प्रविशन्त्युत ॥"
+          "text": "आदित्यदग्धसर्वाङ्गा अदृश्याः केनचित्क्वचित् ।\nपरमाणुभूता भूत्वा तु तं देवं प्रविशन्त्युत ॥",
+          "meaning": {
+            "en": "With all their limbs burned by the sun, unseen by anyone anywhere, they become atoms and enter that god."
+          }
         },
         {
           "n": 15,
-          "text": "तस्मादपि विनिर्मुक्ता अनिरुद्धतनौ स्थिताः ।\nमनोभूतास्ततो भूयः प्रद्युम्नं प्रविशन्त्युत ॥"
+          "text": "तस्मादपि विनिर्मुक्ता अनिरुद्धतनौ स्थिताः ।\nमनोभूतास्ततो भूयः प्रद्युम्नं प्रविशन्त्युत ॥",
+          "meaning": {
+            "en": "Released from that too, they stay in the body of Aniruddha, become mind, and then enter Pradyumna."
+          }
         },
         {
           "n": 16,
-          "text": "प्रद्युम्नाच्चापि निर्मुक्ता जीवं संकर्षणं तथा ।\nविशन्ति विप्रप्रवराः सांख्या भागवतैः सह ॥"
+          "text": "प्रद्युम्नाच्चापि निर्मुक्ता जीवं संकर्षणं तथा ।\nविशन्ति विप्रप्रवराः सांख्या भागवतैः सह ॥",
+          "meaning": {
+            "en": "Freed from Pradyumna too, the best of brahmins, the Samkhyas with the Bhagavatas, enter Jiva, Samkarshana."
+          }
         },
         {
           "n": 17,
-          "text": "ततस्त्रैगुण्यहीनास्ते परमात्मानमञ्जसा ।\nप्रविशन्ति द्विजश्रेष्ठ क्षेत्रज्ञं निर्गुणात्मकम् ।\nसर्वावासं वासुदेवं क्षेत्रज्ञं विद्धि तत्त्वतः ॥"
+          "text": "ततस्त्रैगुण्यहीनास्ते परमात्मानमञ्जसा ।\nप्रविशन्ति द्विजश्रेष्ठ क्षेत्रज्ञं निर्गुणात्मकम् ।\nसर्वावासं वासुदेवं क्षेत्रज्ञं विद्धि तत्त्वतः ॥",
+          "meaning": {
+            "en": "Then, free of the three qualities, they directly enter the Supreme Self, best of brahmins, the Kshetrajna without qualities. Know Vasudeva, the dwelling of all, truly as the Kshetrajna."
+          }
         },
         {
           "n": 18,
-          "text": "समाहितमनस्काश्च नियताः संयतेन्द्रियाः ।\nएकान्तभावोपगता वासुदेवं विशन्ति ते ॥"
+          "text": "समाहितमनस्काश्च नियताः संयतेन्द्रियाः ।\nएकान्तभावोपगता वासुदेवं विशन्ति ते ॥",
+          "meaning": {
+            "en": "Those with concentrated minds, disciplined and with controlled senses, attaining single-minded devotion, enter Vasudeva."
+          }
         },
         {
           "n": 19,
-          "text": "आवामपि च धर्मस्य गृहे जातौ द्विजोत्तम ।\nरम्यां विशालामाश्रित्य तप उग्रं समास्थितौ ॥"
+          "text": "आवामपि च धर्मस्य गृहे जातौ द्विजोत्तम ।\nरम्यां विशालामाश्रित्य तप उग्रं समास्थितौ ॥",
+          "meaning": {
+            "en": "We two also, best of brahmins, were born in Dharma's house, and, resorting to lovely Vishala, have undertaken fierce austerity."
+          }
         },
         {
           "n": 20,
-          "text": "ये तु तस्यैव देवस्य प्रादुर्भावाः सुरप्रियाः ।\nभविष्यन्ति त्रिलोकस्थास्तेषां स्वस्तीत्यतो द्विज ॥"
+          "text": "ये तु तस्यैव देवस्य प्रादुर्भावाः सुरप्रियाः ।\nभविष्यन्ति त्रिलोकस्थास्तेषां स्वस्तीत्यतो द्विज ॥",
+          "meaning": {
+            "en": "For those manifestations of that same god that are dear to the gods and will dwell in the three worlds, brahmin, this is our blessing."
+          }
         },
         {
           "n": 21,
-          "text": "विधिना स्वेन युक्ताभ्यां यथापूर्वं द्विजोत्तम ।\nआस्थिताभ्यां सर्वकृच्छ्रं व्रतं सम्यक्तदुत्तमम् ॥"
+          "text": "विधिना स्वेन युक्ताभ्यां यथापूर्वं द्विजोत्तम ।\nआस्थिताभ्यां सर्वकृच्छ्रं व्रतं सम्यक्तदुत्तमम् ॥",
+          "meaning": {
+            "en": "Best of brahmins, we two, applying our own rule as before, are keeping that excellent vow which involves every hardship."
+          }
         },
         {
           "n": 22,
-          "text": "आवाभ्यामपि दृष्टस्त्वं श्वेतद्वीपे तपोधन ।\nसमागतो भगवता संजल्पं कृतवान्यथा ॥"
+          "text": "आवाभ्यामपि दृष्टस्त्वं श्वेतद्वीपे तपोधन ।\nसमागतो भगवता संजल्पं कृतवान्यथा ॥",
+          "meaning": {
+            "en": "We too saw you on the White Island, rich in austerity, when you came and conversed with the blessed one."
+          }
         },
         {
           "n": 23,
-          "text": "सर्वं हि नौ संविदितं त्रैलोक्ये सचराचरे ।\nयद्भविष्यति वृत्तं वा वर्तते वा शुभाशुभम् ॥"
+          "text": "सर्वं हि नौ संविदितं त्रैलोक्ये सचराचरे ।\nयद्भविष्यति वृत्तं वा वर्तते वा शुभाशुभम् ॥",
+          "meaning": {
+            "en": "We both know all that in the three worlds, moving and unmoving, will happen, or has happened, or is happening, good and bad."
+          }
         },
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 24,
-          "text": "एतच्छ्रुत्वा तयोर्वाक्यं तपस्युग्रेऽभ्यवर्तत ।\nनारदः प्राञ्जलिर्भूत्वा नारायणपरायणः ॥"
+          "text": "एतच्छ्रुत्वा तयोर्वाक्यं तपस्युग्रेऽभ्यवर्तत ।\nनारदः प्राञ्जलिर्भूत्वा नारायणपरायणः ॥",
+          "meaning": {
+            "en": "Hearing their words, Narada, with folded hands, devoted to Narayana, turned to fierce austerity."
+          }
         },
         {
           "n": 25,
-          "text": "जजाप विधिवन्मन्त्रान्नारायणगतान्बहून् ।\nदिव्यं वर्षसहस्रं हि नरनारायणाश्रमे ॥"
+          "text": "जजाप विधिवन्मन्त्रान्नारायणगतान्बहून् ।\nदिव्यं वर्षसहस्रं हि नरनारायणाश्रमे ॥",
+          "meaning": {
+            "en": "He duly recited many mantras addressed to Narayana,"
+          }
         },
         {
           "n": 26,
-          "text": "अवसत्स महातेजा नारदो भगवानृषिः ।\nतमेवाभ्यर्चयन्देवं नरनारायणौ च तौ ॥"
+          "text": "अवसत्स महातेजा नारदो भगवानृषिः ।\nतमेवाभ्यर्चयन्देवं नरनारायणौ च तौ ॥",
+          "meaning": {
+            "en": "and the great, radiant sage Narada stayed a divine thousand years in the hermitage of Nara and Narayana, worshipping that god and those two."
+          }
         }
       ]
     }

@@ -22,59 +22,101 @@
       "titleEn": "Apaddharma Parva (Duties in distress)",
       "verses": [
         {
-          "text": "भीष्म उवाच"
+          "text": "भीष्म उवाच",
+          "meaning": {
+            "en": "Bhishma said:"
+          }
         },
         {
           "n": 1,
-          "text": "सर्वमेतत्तपोमूलं कवयः परिचक्षते ।\nन ह्यतप्ततपा मूढः क्रियाफलमवाप्यते ॥"
+          "text": "सर्वमेतत्तपोमूलं कवयः परिचक्षते ।\nन ह्यतप्ततपा मूढः क्रियाफलमवाप्यते ॥",
+          "meaning": {
+            "en": "The wise declare that all this has austerity as its root; a fool who has not practiced austerity does not obtain the fruit of actions."
+          }
         },
         {
           "n": 2,
-          "text": "प्रजापतिरिदं सर्वं तपसैवासृजत्प्रभुः ।\nतथैव वेदानृषयस्तपसा प्रतिपेदिरे ॥"
+          "text": "प्रजापतिरिदं सर्वं तपसैवासृजत्प्रभुः ।\nतथैव वेदानृषयस्तपसा प्रतिपेदिरे ॥",
+          "meaning": {
+            "en": "The lord Prajapati created all this by austerity alone; likewise the sages gained the Vedas through austerity."
+          }
         },
         {
           "n": 3,
-          "text": "तपसो ह्यानुपूर्व्येण फलमूलानिलाशनाः ।\nत्रीँल्लोकांस्तपसा सिद्धाः पश्यन्ति सुसमाहिताः ॥"
+          "text": "तपसो ह्यानुपूर्व्येण फलमूलानिलाशनाः ।\nत्रीँल्लोकांस्तपसा सिद्धाः पश्यन्ति सुसमाहिताः ॥",
+          "meaning": {
+            "en": "By austerity in due order, those who live on fruits, roots, and air, perfected and well concentrated, see the three worlds by austerity."
+          }
         },
         {
           "n": 4,
-          "text": "औषधान्यगदादीनि तिस्रो विद्याश्च संस्कृताः ।\nतपसैव हि सिध्यन्ति तपोमूलं हि साधनम् ॥"
+          "text": "औषधान्यगदादीनि तिस्रो विद्याश्च संस्कृताः ।\nतपसैव हि सिध्यन्ति तपोमूलं हि साधनम् ॥",
+          "meaning": {
+            "en": "Medicines, remedies and the like, and the three Vedas when refined, are all accomplished by austerity alone; austerity is the root of every means."
+          }
         },
         {
           "n": 5,
-          "text": "यद्दुरापं दुराम्नायं दुराधर्षं दुरुत्सहम् ।\nसर्वं तत्तपसा शक्यं तपो हि दुरतिक्रमम् ॥"
+          "text": "यद्दुरापं दुराम्नायं दुराधर्षं दुरुत्सहम् ।\nसर्वं तत्तपसा शक्यं तपो हि दुरतिक्रमम् ॥",
+          "meaning": {
+            "en": "Whatever is hard to obtain, hard to learn, hard to overcome, hard to bear, all that can be done by austerity, for austerity is not to be overcome."
+          }
         },
         {
           "n": 6,
-          "text": "सुरापोऽसंमतादायी भ्रूणहा गुरुतल्पगः ।\nतपसैव सुतप्तेन नरः पापाद्विमुच्यते ॥"
+          "text": "सुरापोऽसंमतादायी भ्रूणहा गुरुतल्पगः ।\nतपसैव सुतप्तेन नरः पापाद्विमुच्यते ॥",
+          "meaning": {
+            "en": "A drinker of liquor, a thief, a killer of a fetus, one who has defiled his teacher's bed, is freed from sin by well-performed austerity alone."
+          }
         },
         {
           "n": 7,
-          "text": "तपसो बहुरूपस्य तैस्तैर्द्वारैः प्रवर्ततः ।\nनिवृत्त्या वर्तमानस्य तपो नानशनात्परम् ॥"
+          "text": "तपसो बहुरूपस्य तैस्तैर्द्वारैः प्रवर्ततः ।\nनिवृत्त्या वर्तमानस्य तपो नानशनात्परम् ॥",
+          "meaning": {
+            "en": "Austerity, of many forms, proceeds through various gates; for one who lives in withdrawal, there is no austerity higher than fasting."
+          }
         },
         {
           "n": 8,
-          "text": "अहिंसा सत्यवचनं दानमिन्द्रियनिग्रहः ।\nएतेभ्यो हि महाराज तपो नानशनात्परम् ॥"
+          "text": "अहिंसा सत्यवचनं दानमिन्द्रियनिग्रहः ।\nएतेभ्यो हि महाराज तपो नानशनात्परम् ॥",
+          "meaning": {
+            "en": "Non-violence, truthful speech, giving, and restraint of the senses: of these, great king, austerity is not higher than fasting."
+          }
         },
         {
           "n": 9,
-          "text": "न दुष्करतरं दानान्नातिमातरमाश्रमः ।\nत्रैविद्येभ्यः परं नास्ति संन्यासः परमं तपः ॥"
+          "text": "न दुष्करतरं दानान्नातिमातरमाश्रमः ।\nत्रैविद्येभ्यः परं नास्ति संन्यासः परमं तपः ॥",
+          "meaning": {
+            "en": "Nothing is harder than giving, nothing greater than the mother's way, nothing above the three Vedas; renunciation is the highest austerity."
+          }
         },
         {
           "n": 10,
-          "text": "इन्द्रियाणीह रक्षन्ति धनधान्याभिगुप्तये ।\nतस्मादर्थे च धर्मे च तपो नानशनात्परम् ॥"
+          "text": "इन्द्रियाणीह रक्षन्ति धनधान्याभिगुप्तये ।\nतस्मादर्थे च धर्मे च तपो नानशनात्परम् ॥",
+          "meaning": {
+            "en": "The senses guard wealth and grain; so for wealth and for dharma no austerity is higher than fasting."
+          }
         },
         {
           "n": 11,
-          "text": "ऋषयः पितरो देवा मनुष्या मृगसत्तमाः ।\nयानि चान्यानि भूतानि स्थावराणि चराणि च ॥"
+          "text": "ऋषयः पितरो देवा मनुष्या मृगसत्तमाः ।\nयानि चान्यानि भूतानि स्थावराणि चराणि च ॥",
+          "meaning": {
+            "en": "Sages, ancestors, gods, men, the best of animals, and all other beings, moving or unmoving,"
+          }
         },
         {
           "n": 12,
-          "text": "तपःपरायणाः सर्वे सिध्यन्ति तपसा च ते ।\nइत्येवं तपसा देवा महत्त्वं चाप्यवाप्नुवन् ॥"
+          "text": "तपःपरायणाः सर्वे सिध्यन्ति तपसा च ते ।\nइत्येवं तपसा देवा महत्त्वं चाप्यवाप्नुवन् ॥",
+          "meaning": {
+            "en": "all who are devoted to austerity gain success through austerity. So even the gods gained greatness through austerity."
+          }
         },
         {
           "n": 13,
-          "text": "इमानीष्टविभागानि फलानि तपसा सदा ।\nतपसा शक्यते प्राप्तुं देवत्वमपि निश्चयात् ॥"
+          "text": "इमानीष्टविभागानि फलानि तपसा सदा ।\nतपसा शक्यते प्राप्तुं देवत्वमपि निश्चयात् ॥",
+          "meaning": {
+            "en": "These are the fruits, divided by what one wishes, always gained by austerity; by austerity one can certainly even attain godhood."
+          }
         }
       ]
     }

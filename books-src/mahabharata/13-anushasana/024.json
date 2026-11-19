@@ -22,420 +22,735 @@
       "titleEn": "Anushasanika Parva (The instructions)",
       "verses": [
         {
-          "text": "युधिष्ठिर उवाच"
+          "text": "युधिष्ठिर उवाच",
+          "meaning": {
+            "en": "Yudhishthira said:"
+          }
         },
         {
           "n": 1,
-          "text": "श्राद्धकाले च दैवे च धर्मे चापि पितामह ।\nइच्छामीह त्वयाख्यातं विहितं यत्सुरर्षिभिः ॥"
+          "text": "श्राद्धकाले च दैवे च धर्मे चापि पितामह ।\nइच्छामीह त्वयाख्यातं विहितं यत्सुरर्षिभिः ॥",
+          "meaning": {
+            "en": "Grandfather, I wish you to tell me here what the divine sages have laid down for ancestral rites, for the gods' rites, and for dharma."
+          }
         },
         {
-          "text": "भीष्म उवाच"
+          "text": "भीष्म उवाच",
+          "meaning": {
+            "en": "Bhishma said:"
+          }
         },
         {
           "n": 2,
-          "text": "दैवं पूर्वाह्णिके कुर्यादपराह्णे तु पैतृकम् ।\nमङ्गलाचारसंपन्नः कृतशौचः प्रयत्नवान् ॥"
+          "text": "दैवं पूर्वाह्णिके कुर्यादपराह्णे तु पैतृकम् ।\nमङ्गलाचारसंपन्नः कृतशौचः प्रयत्नवान् ॥",
+          "meaning": {
+            "en": "One should perform the rite of the gods in the forenoon and that of the ancestors in the afternoon, observing auspicious customs, purified and careful."
+          }
         },
         {
           "n": 3,
-          "text": "मनुष्याणां तु मध्याह्ने प्रदद्यादुपपत्तितः ।\nकालहीनं तु यद्दानं तं भागं रक्षसां विदुः ॥"
+          "text": "मनुष्याणां तु मध्याह्ने प्रदद्यादुपपत्तितः ।\nकालहीनं तु यद्दानं तं भागं रक्षसां विदुः ॥",
+          "meaning": {
+            "en": "One should give to men at midday as appropriate. A gift made at the wrong time is known as the share of the rakshasas."
+          }
         },
         {
           "n": 4,
-          "text": "लङ्घितं चावलीढं च कलिपूर्वं च यत्कृतम् ।\nरजस्वलाभिर्दृष्टं च तं भागं रक्षसां विदुः ॥"
+          "text": "लङ्घितं चावलीढं च कलिपूर्वं च यत्कृतम् ।\nरजस्वलाभिर्दृष्टं च तं भागं रक्षसां विदुः ॥",
+          "meaning": {
+            "en": "What has been stepped over or licked, what was begun with a quarrel, and what has been seen by menstruating women is known as the share of the rakshasas."
+          }
         },
         {
           "n": 5,
-          "text": "अवघुष्टं च यद्भुक्तमव्रतेन च भारत ।\nपरामृष्टं शुना चैव तं भागं रक्षसां विदुः ॥"
+          "text": "अवघुष्टं च यद्भुक्तमव्रतेन च भारत ।\nपरामृष्टं शुना चैव तं भागं रक्षसां विदुः ॥",
+          "meaning": {
+            "en": "Food eaten after being announced aloud, or eaten by one without a vow, Bharata, or touched by a dog, is known as the share of the rakshasas."
+          }
         },
         {
           "n": 6,
-          "text": "केशकीटावपतितं क्षुतं श्वभिरवेक्षितम् ।\nरुदितं चावधूतं च तं भागं रक्षसां विदुः ॥"
+          "text": "केशकीटावपतितं क्षुतं श्वभिरवेक्षितम् ।\nरुदितं चावधूतं च तं भागं रक्षसां विदुः ॥",
+          "meaning": {
+            "en": "Food into which a hair or insect has fallen, or that was sneezed on, looked at by dogs, wept over or shaken is known as the share of the rakshasas."
+          }
         },
         {
           "n": 7,
-          "text": "निरोंकारेण यद्भुक्तं सशस्त्रेण च भारत ।\nदुरात्मना च यद्भुक्तं तं भागं रक्षसां विदुः ॥"
+          "text": "निरोंकारेण यद्भुक्तं सशस्त्रेण च भारत ।\nदुरात्मना च यद्भुक्तं तं भागं रक्षसां विदुः ॥",
+          "meaning": {
+            "en": "Food eaten without Om, or with weapons in hand, Bharata, or eaten by a wicked person, is known as the share of the rakshasas."
+          }
         },
         {
           "n": 8,
-          "text": "परोच्छिष्टं च यद्भुक्तं परिभुक्तं च यद्भवेत् ।\nदैवे पित्र्ये च सततं तं भागं रक्षसां विदुः ॥"
+          "text": "परोच्छिष्टं च यद्भुक्तं परिभुक्तं च यद्भवेत् ।\nदैवे पित्र्ये च सततं तं भागं रक्षसां विदुः ॥",
+          "meaning": {
+            "en": "What is eaten as another's leftovers or has been consumed in part, always in rites for gods or ancestors, is known as the share of the rakshasas."
+          }
         },
         {
           "n": 9,
-          "text": "गर्हितं निन्दितं चैव परिविष्टं समन्युना ।\nदैवं वाप्यथ वा पैत्र्यं तं भागं रक्षसां विदुः ॥"
+          "text": "गर्हितं निन्दितं चैव परिविष्टं समन्युना ।\nदैवं वाप्यथ वा पैत्र्यं तं भागं रक्षसां विदुः ॥",
+          "meaning": {
+            "en": "What is censured or reviled, or served by someone angry, whether in a rite for the gods or the ancestors, is known as the share of the rakshasas."
+          }
         },
         {
           "n": 10,
-          "text": "मन्त्रहीनं क्रियाहीनं यच्छ्राद्धं परिविष्यते ।\nत्रिभिर्वर्णैर्नरश्रेष्ठ तं भागं रक्षसां विदुः ॥"
+          "text": "मन्त्रहीनं क्रियाहीनं यच्छ्राद्धं परिविष्यते ।\nत्रिभिर्वर्णैर्नरश्रेष्ठ तं भागं रक्षसां विदुः ॥",
+          "meaning": {
+            "en": "A shraddha served without mantras and without rites, by men of the three classes, best of men, is known as the share of the rakshasas."
+          }
         },
         {
           "n": 11,
-          "text": "आज्याहुतिं विना चैव यत्किंचित्परिविष्यते ।\nदुराचारैश्च यद्भुक्तं तं भागं रक्षसां विदुः ॥"
+          "text": "आज्याहुतिं विना चैव यत्किंचित्परिविष्यते ।\nदुराचारैश्च यद्भुक्तं तं भागं रक्षसां विदुः ॥",
+          "meaning": {
+            "en": "Anything served without a ghee oblation, or eaten by those of evil conduct, is known as the share of the rakshasas."
+          }
         },
         {
           "n": 12,
-          "text": "ये भागा रक्षसां प्रोक्तास्त उक्ता भरतर्षभ ।\nअत ऊर्ध्वं विसर्गस्य परीक्षां ब्राह्मणे शृणु ॥"
+          "text": "ये भागा रक्षसां प्रोक्तास्त उक्ता भरतर्षभ ।\nअत ऊर्ध्वं विसर्गस्य परीक्षां ब्राह्मणे शृणु ॥",
+          "meaning": {
+            "en": "Bharata, I have told you which shares belong to the rakshasas. Next, hear the examination of a brahmin for the dismissal."
+          }
         },
         {
           "n": 13,
-          "text": "यावन्तः पतिता विप्रा जडोन्मत्तास्तथैव च ।\nदैवे वाप्यथ वा पित्र्ये राजन्नार्हन्ति केतनम् ॥"
+          "text": "यावन्तः पतिता विप्रा जडोन्मत्तास्तथैव च ।\nदैवे वाप्यथ वा पित्र्ये राजन्नार्हन्ति केतनम् ॥",
+          "meaning": {
+            "en": "All fallen brahmins, dull or mad ones, king, are not fit to be invited, whether for the gods' or the ancestors' rites."
+          }
         },
         {
           "n": 14,
-          "text": "श्वित्री कुष्ठी च क्लीबश्च तथा यक्ष्महतश्च यः ।\nअपस्मारी च यश्चान्धो राजन्नार्हन्ति सत्कृतिम् ॥"
+          "text": "श्वित्री कुष्ठी च क्लीबश्च तथा यक्ष्महतश्च यः ।\nअपस्मारी च यश्चान्धो राजन्नार्हन्ति सत्कृतिम् ॥",
+          "meaning": {
+            "en": "A leper, one with white skin disease, a eunuch, one afflicted with consumption, an epileptic or a blind man, king, deserves no honor."
+          }
         },
         {
           "n": 15,
-          "text": "चिकित्सका देवलका वृथानियमधारिणः ।\nसोमविक्रयिणश्चैव श्राद्धे नार्हन्ति केतनम् ॥"
+          "text": "चिकित्सका देवलका वृथानियमधारिणः ।\nसोमविक्रयिणश्चैव श्राद्धे नार्हन्ति केतनम् ॥",
+          "meaning": {
+            "en": "Physicians, temple priests, those who keep vows in vain, and sellers of soma are not fit to be invited to a shraddha."
+          }
         },
         {
           "n": 16,
-          "text": "गायना नर्तकाश्चैव प्लवका वादकास्तथा ।\nकथका योधकाश्चैव राजन्नार्हन्ति केतनम् ॥"
+          "text": "गायना नर्तकाश्चैव प्लवका वादकास्तथा ।\nकथका योधकाश्चैव राजन्नार्हन्ति केतनम् ॥",
+          "meaning": {
+            "en": "Singers, dancers, acrobats, musicians, storytellers and fighters, king, are not fit to be invited."
+          }
         },
         {
           "n": 17,
-          "text": "होतारो वृषलानां च वृषलाध्यापकास्तथा ।\nतथा वृषलशिष्याश्च राजन्नार्हन्ति केतनम् ॥"
+          "text": "होतारो वृषलानां च वृषलाध्यापकास्तथा ।\nतथा वृषलशिष्याश्च राजन्नार्हन्ति केतनम् ॥",
+          "meaning": {
+            "en": "Priests of shudras, teachers of shudras and disciples of shudras, king, are not fit to be invited."
+          }
         },
         {
           "n": 18,
-          "text": "अनुयोक्ता च यो विप्रो अनुयुक्तश्च भारत ।\nनार्हतस्तावपि श्राद्धं ब्रह्मविक्रयिणौ हि तौ ॥"
+          "text": "अनुयोक्ता च यो विप्रो अनुयुक्तश्च भारत ।\nनार्हतस्तावपि श्राद्धं ब्रह्मविक्रयिणौ हि तौ ॥",
+          "meaning": {
+            "en": "A brahmin who asks questions and one who is questioned, Bharata, are not fit for shraddha, for they sell Brahman."
+          }
         },
         {
           "n": 19,
-          "text": "अग्रणीर्यः कृतः पूर्वं वर्णावरपरिग्रहः ।\nब्राह्मणः सर्वविद्योऽपि राजन्नार्हति केतनम् ॥"
+          "text": "अग्रणीर्यः कृतः पूर्वं वर्णावरपरिग्रहः ।\nब्राह्मणः सर्वविद्योऽपि राजन्नार्हति केतनम् ॥",
+          "meaning": {
+            "en": "A brahmin who was first made a leader and takes in lower and other classes, king, is not fit, even if he knows every science."
+          }
         },
         {
           "n": 20,
-          "text": "अनग्नयश्च ये विप्रा मृतनिर्यातकाश्च ये ।\nस्तेनाश्च पतिताश्चैव राजन्नार्हन्ति केतनम् ॥"
+          "text": "अनग्नयश्च ये विप्रा मृतनिर्यातकाश्च ये ।\nस्तेनाश्च पतिताश्चैव राजन्नार्हन्ति केतनम् ॥",
+          "meaning": {
+            "en": "Brahmins without sacred fires, those who carry out the dead, thieves and the fallen, king, are not fit to be invited."
+          }
         },
         {
           "n": 21,
-          "text": "अपरिज्ञातपूर्वाश्च गणपूर्वाश्च भारत ।\nपुत्रिकापूर्वपुत्राश्च श्राद्धे नार्हन्ति केतनम् ॥"
+          "text": "अपरिज्ञातपूर्वाश्च गणपूर्वाश्च भारत ।\nपुत्रिकापूर्वपुत्राश्च श्राद्धे नार्हन्ति केतनम् ॥",
+          "meaning": {
+            "en": "Those whose background is unknown, those who belong to a band, and sons of appointed daughters, Bharata, are not fit for shraddha."
+          }
         },
         {
           "n": 22,
-          "text": "ऋणकर्ता च यो राजन्यश्च वार्धुषिको द्विजः ।\nप्राणिविक्रयवृत्तिश्च राजन्नार्हन्ति केतनम् ॥"
+          "text": "ऋणकर्ता च यो राजन्यश्च वार्धुषिको द्विजः ।\nप्राणिविक्रयवृत्तिश्च राजन्नार्हन्ति केतनम् ॥",
+          "meaning": {
+            "en": "One who incurs debts, king, a brahmin moneylender, and one who lives by selling living beings are not fit to be invited."
+          }
         },
         {
           "n": 23,
-          "text": "स्त्रीपूर्वाः काण्डपृष्ठाश्च यावन्तो भरतर्षभ ।\nअजपा ब्राह्मणाश्चैव श्राद्धे नार्हन्ति केतनम् ॥"
+          "text": "स्त्रीपूर्वाः काण्डपृष्ठाश्च यावन्तो भरतर्षभ ।\nअजपा ब्राह्मणाश्चैव श्राद्धे नार्हन्ति केतनम् ॥",
+          "meaning": {
+            "en": "Those who are ruled by women, those who have arrows on their backs, best of Bharatas, and brahmins who do not chant are not fit for shraddha."
+          }
         },
         {
           "n": 24,
-          "text": "श्राद्धे दैवे च निर्दिष्टा ब्राह्मणा भरतर्षभ ।\nदातुः प्रतिग्रहीतुश्च शृणुष्वानुग्रहं पुनः ॥"
+          "text": "श्राद्धे दैवे च निर्दिष्टा ब्राह्मणा भरतर्षभ ।\nदातुः प्रतिग्रहीतुश्च शृणुष्वानुग्रहं पुनः ॥",
+          "meaning": {
+            "en": "Best of Bharatas, I have told you which brahmins are barred in shraddha and gods' rites. Now hear again the favor to giver and receiver."
+          }
         },
         {
           "n": 25,
-          "text": "चीर्णव्रता गुणैर्युक्ता भवेयुर्येऽपि कर्षकाः ।\nसावित्रीज्ञाः क्रियावन्तस्ते राजन्केतनक्षमाः ॥"
+          "text": "चीर्णव्रता गुणैर्युक्ता भवेयुर्येऽपि कर्षकाः ।\nसावित्रीज्ञाः क्रियावन्तस्ते राजन्केतनक्षमाः ॥",
+          "meaning": {
+            "en": "Even cultivators, king, who have kept their vows and have good qualities, know the Savitri and perform rites, are fit to be invited."
+          }
         },
         {
           "n": 26,
-          "text": "क्षात्रधर्मिणमप्याजौ केतयेत्कुलजं द्विजम् ।\nन त्वेव वणिजं तात श्राद्धेषु परिकल्पयेत् ॥"
+          "text": "क्षात्रधर्मिणमप्याजौ केतयेत्कुलजं द्विजम् ।\nन त्वेव वणिजं तात श्राद्धेषु परिकल्पयेत् ॥",
+          "meaning": {
+            "en": "One may invite even a well-born brahmin of warrior's dharma in a battle, but never, dear one, should one appoint a merchant at shraddhas."
+          }
         },
         {
           "n": 27,
-          "text": "अग्निहोत्री च यो विप्रो ग्रामवासी च यो भवेत् ।\nअस्तेनश्चातिथिज्ञश्च स राजन्केतनक्षमः ॥"
+          "text": "अग्निहोत्री च यो विप्रो ग्रामवासी च यो भवेत् ।\nअस्तेनश्चातिथिज्ञश्च स राजन्केतनक्षमः ॥",
+          "meaning": {
+            "en": "A brahmin who keeps the sacred fire, lives in a village, is not a thief, and knows how to treat guests is fit to be invited, king."
+          }
         },
         {
           "n": 28,
-          "text": "सावित्रीं जपते यस्तु त्रिकालं भरतर्षभ ।\nभिक्षावृत्तिः क्रियावांश्च स राजन्केतनक्षमः ॥"
+          "text": "सावित्रीं जपते यस्तु त्रिकालं भरतर्षभ ।\nभिक्षावृत्तिः क्रियावांश्च स राजन्केतनक्षमः ॥",
+          "meaning": {
+            "en": "One who recites the Savitri at three times of day, best of Bharatas, lives by alms and performs rites is fit to be invited, king."
+          }
         },
         {
           "n": 29,
-          "text": "उदितास्तमितो यश्च तथैवास्तमितोदितः ।\nअहिंस्रश्चाल्पदोषश्च स राजन्केतनक्षमः ॥"
+          "text": "उदितास्तमितो यश्च तथैवास्तमितोदितः ।\nअहिंस्रश्चाल्पदोषश्च स राजन्केतनक्षमः ॥",
+          "meaning": {
+            "en": "One who is up from sunrise to sunset and the reverse, who is not violent and has few faults, is fit to be invited, king."
+          }
         },
         {
           "n": 30,
-          "text": "अकल्कको ह्यतर्कश्च ब्राह्मणो भरतर्षभ ।\nससंज्ञो भैक्ष्यवृत्तिश्च स राजन्केतनक्षमः ॥"
+          "text": "अकल्कको ह्यतर्कश्च ब्राह्मणो भरतर्षभ ।\nससंज्ञो भैक्ष्यवृत्तिश्च स राजन्केतनक्षमः ॥",
+          "meaning": {
+            "en": "A brahmin who is without deceit and without argument, who is self-aware and lives by alms, is fit to be invited, king."
+          }
         },
         {
           "n": 31,
-          "text": "अव्रती कितवः स्तेनः प्राणिविक्रय्यथो वणिक् ।\nपश्चाच्च पीतवान्सोमं स राजन्केतनक्षमः ॥"
+          "text": "अव्रती कितवः स्तेनः प्राणिविक्रय्यथो वणिक् ।\nपश्चाच्च पीतवान्सोमं स राजन्केतनक्षमः ॥",
+          "meaning": {
+            "en": "One who was without vows, a gambler, a thief, a seller of living beings, or a merchant, but later drank soma, is fit to be invited, king."
+          }
         },
         {
           "n": 32,
-          "text": "अर्जयित्वा धनं पूर्वं दारुणैः कृषिकर्मभिः ।\nभवेत्सर्वातिथिः पश्चात्स राजन्केतनक्षमः ॥"
+          "text": "अर्जयित्वा धनं पूर्वं दारुणैः कृषिकर्मभिः ।\nभवेत्सर्वातिथिः पश्चात्स राजन्केतनक्षमः ॥",
+          "meaning": {
+            "en": "One who earned wealth first through harsh farming and later became a host to all guests is fit to be invited, king."
+          }
         },
         {
           "n": 33,
-          "text": "ब्रह्मविक्रयनिर्दिष्टं स्त्रिया यच्चार्जितं धनम् ।\nअदेयं पितृदेवेभ्यो यच्च क्लैब्यादुपार्जितम् ॥"
+          "text": "ब्रह्मविक्रयनिर्दिष्टं स्त्रिया यच्चार्जितं धनम् ।\nअदेयं पितृदेवेभ्यो यच्च क्लैब्यादुपार्जितम् ॥",
+          "meaning": {
+            "en": "Wealth that is declared to come from selling Brahman, that earned by a woman, and that gained through unmanliness is not to be given to the ancestors or gods."
+          }
         },
         {
           "n": 34,
-          "text": "क्रियमाणेऽपवर्गे तु यो द्विजो भरतर्षभ ।\nन व्याहरति यद्युक्तं तस्याधर्मो गवानृतम् ॥"
+          "text": "क्रियमाणेऽपवर्गे तु यो द्विजो भरतर्षभ ।\nन व्याहरति यद्युक्तं तस्याधर्मो गवानृतम् ॥",
+          "meaning": {
+            "en": "Best of Bharatas, a brahmin who does not say what is proper when the dismissal is performed incurs the sin of a false statement about a cow."
+          }
         },
         {
           "n": 35,
-          "text": "श्राद्धस्य ब्राह्मणः कालः प्राप्तं दधि घृतं तथा ।\nसोमक्षयश्च मांसं च यदारण्यं युधिष्ठिर ॥"
+          "text": "श्राद्धस्य ब्राह्मणः कालः प्राप्तं दधि घृतं तथा ।\nसोमक्षयश्च मांसं च यदारण्यं युधिष्ठिर ॥",
+          "meaning": {
+            "en": "The brahmin's time for shraddha has come, with curd, ghee, the waning moon and forest meat, Yudhishthira."
+          }
         },
         {
           "n": 36,
-          "text": "श्राद्धापवर्गे विप्रस्य स्वधा वै स्वदिता भवेत् ।\nक्षत्रियस्याप्यथो ब्रूयात्प्रीयन्तां पितरस्त्विति ॥"
+          "text": "श्राद्धापवर्गे विप्रस्य स्वधा वै स्वदिता भवेत् ।\nक्षत्रियस्याप्यथो ब्रूयात्प्रीयन्तां पितरस्त्विति ॥",
+          "meaning": {
+            "en": "At the close of a shraddha a brahmin says 'Svadha', and one should say to a kshatriya, 'May the ancestors be pleased.'"
+          }
         },
         {
           "n": 37,
-          "text": "अपवर्गे तु वैश्यस्य श्राद्धकर्मणि भारत ।\nअक्षय्यमभिधातव्यं स्वस्ति शूद्रस्य भारत ॥"
+          "text": "अपवर्गे तु वैश्यस्य श्राद्धकर्मणि भारत ।\nअक्षय्यमभिधातव्यं स्वस्ति शूद्रस्य भारत ॥",
+          "meaning": {
+            "en": "At the close of a shraddha rite for a vaishya, Bharata, one should say 'Akshayya'; for a shudra, 'Svasti.'"
+          }
         },
         {
           "n": 38,
-          "text": "पुण्याहवाचनं दैवे ब्राह्मणस्य विधीयते ।\nएतदेव निरोंकारं क्षत्रियस्य विधीयते ।\nवैश्यस्य चैव वक्तव्यं प्रीयन्तां देवता इति ॥"
+          "text": "पुण्याहवाचनं दैवे ब्राह्मणस्य विधीयते ।\nएतदेव निरोंकारं क्षत्रियस्य विधीयते ।\nवैश्यस्य चैव वक्तव्यं प्रीयन्तां देवता इति ॥",
+          "meaning": {
+            "en": "The 'Punyaha' blessing is prescribed for a brahmin in the gods' rite; the same without Om is prescribed for a kshatriya, and for a vaishya one should say, 'May the gods be pleased.'"
+          }
         },
         {
           "n": 39,
-          "text": "कर्मणामानुपूर्वीं च विधिपूर्वकृतं शृणु ।\nजातकर्मादिकान्सर्वांस्त्रिषु वर्णेषु भारत ।\nब्रह्मक्षत्रे हि मन्त्रोक्ता वैश्यस्य च युधिष्ठिर ॥"
+          "text": "कर्मणामानुपूर्वीं च विधिपूर्वकृतं शृणु ।\nजातकर्मादिकान्सर्वांस्त्रिषु वर्णेषु भारत ।\nब्रह्मक्षत्रे हि मन्त्रोक्ता वैश्यस्य च युधिष्ठिर ॥",
+          "meaning": {
+            "en": "Hear the order of rites as ordained in the earlier rule: jatakarma and all the rest for the three classes, Bharata, are by mantra for brahmins and kshatriyas, and, Yudhishthira, for the vaishya too."
+          }
         },
         {
           "n": 40,
-          "text": "विप्रस्य रशना मौञ्जी मौर्वी राजन्यगामिनी ।\nबाल्वजीत्येव वैश्यस्य धर्म एष युधिष्ठिर ॥"
+          "text": "विप्रस्य रशना मौञ्जी मौर्वी राजन्यगामिनी ।\nबाल्वजीत्येव वैश्यस्य धर्म एष युधिष्ठिर ॥",
+          "meaning": {
+            "en": "For a brahmin the girdle is of munja grass, for a kshatriya of moorva, and for a vaishya of balbaja; this is the rule, Yudhishthira."
+          }
         },
         {
           "n": 41,
-          "text": "दातुः प्रतिग्रहीतुश्च धर्माधर्माविमौ शृणु ।\nब्राह्मणस्यानृतेऽधर्मः प्रोक्तः पातकसंज्ञितः ।\nचतुर्गुणः क्षत्रियस्य वैश्यस्याष्टगुणः स्मृतः ॥"
+          "text": "दातुः प्रतिग्रहीतुश्च धर्माधर्माविमौ शृणु ।\nब्राह्मणस्यानृतेऽधर्मः प्रोक्तः पातकसंज्ञितः ।\nचतुर्गुणः क्षत्रियस्य वैश्यस्याष्टगुणः स्मृतः ॥",
+          "meaning": {
+            "en": "Now hear the dharma and adharma of the giver and the receiver. For a brahmin, falsehood is declared a sin called a grave offense; for a kshatriya it is fourfold and for a vaishya eightfold."
+          }
         },
         {
           "n": 42,
-          "text": "नान्यत्र ब्राह्मणोऽश्नीयात्पूर्वं विप्रेण केतितः ।\nयवीयान्पशुहिंसायां तुल्यधर्मो भवेत्स हि ॥"
+          "text": "नान्यत्र ब्राह्मणोऽश्नीयात्पूर्वं विप्रेण केतितः ।\nयवीयान्पशुहिंसायां तुल्यधर्मो भवेत्स हि ॥",
+          "meaning": {
+            "en": "A brahmin who has been invited first by a brahmin should not eat elsewhere. If a junior does, he bears equal guilt in the slaying of animals."
+          }
         },
         {
           "n": 43,
-          "text": "अथ राजन्यवैश्याभ्यां यद्यश्नीयात्तु केतितः ।\nयवीयान्पशुहिंसायां भागार्धं समवाप्नुयात् ॥"
+          "text": "अथ राजन्यवैश्याभ्यां यद्यश्नीयात्तु केतितः ।\nयवीयान्पशुहिंसायां भागार्धं समवाप्नुयात् ॥",
+          "meaning": {
+            "en": "But if one invited eats at the house of a kshatriya or vaishya, the junior takes half of the share of guilt in killing animals."
+          }
         },
         {
           "n": 44,
-          "text": "दैवं वाप्यथ वा पित्र्यं योऽश्नीयाद्ब्राह्मणादिषु ।\nअस्नातो ब्राह्मणो राजंस्तस्याधर्मो गवानृतम् ॥"
+          "text": "दैवं वाप्यथ वा पित्र्यं योऽश्नीयाद्ब्राह्मणादिषु ।\nअस्नातो ब्राह्मणो राजंस्तस्याधर्मो गवानृतम् ॥",
+          "meaning": {
+            "en": "King, a brahmin who has not bathed and eats a rite for gods or ancestors with brahmins incurs the sin of a false statement about a cow."
+          }
         },
         {
           "n": 45,
-          "text": "आशौचो ब्राह्मणो राजन्योऽश्नीयाद्ब्राह्मणादिषु ।\nज्ञानपूर्वमथो लोभात्तस्याधर्मो गवानृतम् ॥"
+          "text": "आशौचो ब्राह्मणो राजन्योऽश्नीयाद्ब्राह्मणादिषु ।\nज्ञानपूर्वमथो लोभात्तस्याधर्मो गवानृतम् ॥",
+          "meaning": {
+            "en": "A brahmin who is impure and eats with brahmins, knowingly and out of greed, incurs the sin of a false statement about a cow."
+          }
         },
         {
           "n": 46,
-          "text": "अन्नेनान्नं च यो लिप्सेत्कर्मार्थं चैव भारत ।\nआमन्त्रयति राजेन्द्र तस्याधर्मोऽनृतं स्मृतम् ॥"
+          "text": "अन्नेनान्नं च यो लिप्सेत्कर्मार्थं चैव भारत ।\nआमन्त्रयति राजेन्द्र तस्याधर्मोऽनृतं स्मृतम् ॥",
+          "meaning": {
+            "en": "Bharata, one who hopes to gain food through food, or invites for the sake of a rite, bears the sin of falsehood."
+          }
         },
         {
           "n": 47,
-          "text": "अवेदव्रतचारित्रास्त्रिभिर्वर्णैर्युधिष्ठिर ।\nमन्त्रवत्परिविष्यन्ते तेष्वधर्मो गवानृतम् ॥"
+          "text": "अवेदव्रतचारित्रास्त्रिभिर्वर्णैर्युधिष्ठिर ।\nमन्त्रवत्परिविष्यन्ते तेष्वधर्मो गवानृतम् ॥",
+          "meaning": {
+            "en": "Yudhishthira, if brahmins ignorant of the Vedas, vows and conduct are served with mantras by those of three classes, the sin of a false statement about a cow falls on them."
+          }
         },
         {
-          "text": "युधिष्ठिर उवाच"
+          "text": "युधिष्ठिर उवाच",
+          "meaning": {
+            "en": "Yudhishthira said:"
+          }
         },
         {
           "n": 48,
-          "text": "पित्र्यं वाप्यथ वा दैवं दीयते यत्पितामह ।\nएतदिच्छाम्यहं श्रोतुं दत्तं येषु महाफलम् ॥"
+          "text": "पित्र्यं वाप्यथ वा दैवं दीयते यत्पितामह ।\nएतदिच्छाम्यहं श्रोतुं दत्तं येषु महाफलम् ॥",
+          "meaning": {
+            "en": "Grandfather, I wish to hear to whom a gift, whether for ancestors or gods, bears great fruit."
+          }
         },
         {
-          "text": "भीष्म उवाच"
+          "text": "भीष्म उवाच",
+          "meaning": {
+            "en": "Bhishma said:"
+          }
         },
         {
           "n": 49,
-          "text": "येषां दाराः प्रतीक्षन्ते सुवृष्टिमिव कर्षकाः ।\nउच्छेषपरिशेषं हि तान्भोजय युधिष्ठिर ॥"
+          "text": "येषां दाराः प्रतीक्षन्ते सुवृष्टिमिव कर्षकाः ।\nउच्छेषपरिशेषं हि तान्भोजय युधिष्ठिर ॥",
+          "meaning": {
+            "en": "Feed those whose wives wait for them as farmers wait for good rain, with what is left over, Yudhishthira."
+          }
         },
         {
           "n": 50,
-          "text": "चारित्रनियता राजन्ये कृशाः कृशवृत्तयः ।\nअर्थिनश्चोपगच्छन्ति तेषु दत्तं महाफलम् ॥"
+          "text": "चारित्रनियता राजन्ये कृशाः कृशवृत्तयः ।\nअर्थिनश्चोपगच्छन्ति तेषु दत्तं महाफलम् ॥",
+          "meaning": {
+            "en": "Gifts bear great fruit to those, king, who are bound by conduct, are thin and live thinly, and come to ask for things."
+          }
         },
         {
           "n": 51,
-          "text": "तद्भक्तास्तद्गृहा राजंस्तद्धनास्तदपाश्रयाः ।\nअर्थिनश्च भवन्त्यर्थे तेषु दत्तं महाफलम् ॥"
+          "text": "तद्भक्तास्तद्गृहा राजंस्तद्धनास्तदपाश्रयाः ।\nअर्थिनश्च भवन्त्यर्थे तेषु दत्तं महाफलम् ॥",
+          "meaning": {
+            "en": "Gifts bear great fruit to those who are devoted to him, whose houses and wealth are his and who depend on him, and who in need come for something."
+          }
         },
         {
           "n": 52,
-          "text": "तस्करेभ्यः परेभ्यो वा ये भयार्ता युधिष्ठिर ।\nअर्थिनो भोक्तुमिच्छन्ति तेषु दत्तं महाफलम् ॥"
+          "text": "तस्करेभ्यः परेभ्यो वा ये भयार्ता युधिष्ठिर ।\nअर्थिनो भोक्तुमिच्छन्ति तेषु दत्तं महाफलम् ॥",
+          "meaning": {
+            "en": "Gifts bear great fruit to those, Yudhishthira, who are afraid of thieves or enemies and wish to eat."
+          }
         },
         {
           "n": 53,
-          "text": "अकल्ककस्य विप्रस्य भैक्षोत्करकृतात्मनः ।\nबटवो यस्य भिक्षन्ति तेभ्यो दत्तं महाफलम् ॥"
+          "text": "अकल्ककस्य विप्रस्य भैक्षोत्करकृतात्मनः ।\nबटवो यस्य भिक्षन्ति तेभ्यो दत्तं महाफलम् ॥",
+          "meaning": {
+            "en": "Gifts bear great fruit to those for whom the students of a deceitless brahmin, who lives by gathered alms, beg."
+          }
         },
         {
           "n": 54,
-          "text": "हृतस्वा हृतदाराश्च ये विप्रा देशसंप्लवे ।\nअर्थार्थमभिगच्छन्ति तेभ्यो दत्तं महाफलम् ॥"
+          "text": "हृतस्वा हृतदाराश्च ये विप्रा देशसंप्लवे ।\nअर्थार्थमभिगच्छन्ति तेभ्यो दत्तं महाफलम् ॥",
+          "meaning": {
+            "en": "Gifts bear great fruit to brahmins who have lost wealth and wives in a country's ruin and come seeking wealth."
+          }
         },
         {
           "n": 55,
-          "text": "व्रतिनो नियमस्थाश्च ये विप्राः श्रुतसंमताः ।\nतत्समाप्त्यर्थमिच्छन्ति तेषु दत्तं महाफलम् ॥"
+          "text": "व्रतिनो नियमस्थाश्च ये विप्राः श्रुतसंमताः ।\nतत्समाप्त्यर्थमिच्छन्ति तेषु दत्तं महाफलम् ॥",
+          "meaning": {
+            "en": "Gifts bear great fruit to brahmins keeping vows and observances, respected for learning, who seek to complete them."
+          }
         },
         {
           "n": 56,
-          "text": "अव्युत्क्रान्ताश्च धर्मेषु पाषण्डसमयेषु च ।\nकृशप्राणाः कृशधनास्तेषु दत्तं महाफलम् ॥"
+          "text": "अव्युत्क्रान्ताश्च धर्मेषु पाषण्डसमयेषु च ।\nकृशप्राणाः कृशधनास्तेषु दत्तं महाफलम् ॥",
+          "meaning": {
+            "en": "Gifts bear great fruit to those who have not transgressed dharma or sects, and are of thin vitality and wealth."
+          }
         },
         {
           "n": 57,
-          "text": "कृतसर्वस्वहरणा निर्दोषाः प्रभविष्णुभिः ।\nस्पृहयन्ति च भुक्तान्नं तेषु दत्तं महाफलम् ॥"
+          "text": "कृतसर्वस्वहरणा निर्दोषाः प्रभविष्णुभिः ।\nस्पृहयन्ति च भुक्तान्नं तेषु दत्तं महाफलम् ॥",
+          "meaning": {
+            "en": "Gifts bear great fruit to the blameless whose all has been taken away by the powerful, who long for a cooked meal."
+          }
         },
         {
           "n": 58,
-          "text": "तपस्विनस्तपोनिष्ठास्तेषां भैक्षचराश्च ये ।\nअर्थिनः किंचिदिच्छन्ति तेषु दत्तं महाफलम् ॥"
+          "text": "तपस्विनस्तपोनिष्ठास्तेषां भैक्षचराश्च ये ।\nअर्थिनः किंचिदिच्छन्ति तेषु दत्तं महाफलम् ॥",
+          "meaning": {
+            "en": "Gifts bear great fruit to ascetics devoted to austerity and to their alms-wanderers who ask for something."
+          }
         },
         {
           "n": 59,
-          "text": "महाफलविधिर्दाने श्रुतस्ते भरतर्षभ ।\nनिरयं येन गच्छन्ति स्वर्गं चैव हि तच्छृणु ॥"
+          "text": "महाफलविधिर्दाने श्रुतस्ते भरतर्षभ ।\nनिरयं येन गच्छन्ति स्वर्गं चैव हि तच्छृणु ॥",
+          "meaning": {
+            "en": "Best of Bharatas, you have heard the rule of greatly fruitful giving. Now hear the ways people go to hell and to heaven."
+          }
         },
         {
           "n": 60,
-          "text": "गुर्वर्थं वाभयार्थं वा वर्जयित्वा युधिष्ठिर ।\nयेऽनृतं कथयन्ति स्म ते वै निरयगामिनः ॥"
+          "text": "गुर्वर्थं वाभयार्थं वा वर्जयित्वा युधिष्ठिर ।\nयेऽनृतं कथयन्ति स्म ते वै निरयगामिनः ॥",
+          "meaning": {
+            "en": "Yudhishthira, except for a teacher's sake or to relieve fear, those who speak falsely go to hell."
+          }
         },
         {
           "n": 61,
-          "text": "परदाराभिहर्तारः परदाराभिमर्शिनः ।\nपरदारप्रयोक्तारस्ते वै निरयगामिनः ॥"
+          "text": "परदाराभिहर्तारः परदाराभिमर्शिनः ।\nपरदारप्रयोक्तारस्ते वै निरयगामिनः ॥",
+          "meaning": {
+            "en": "Those who abduct others' wives, touch others' wives or employ others' wives go to hell."
+          }
         },
         {
           "n": 62,
-          "text": "ये परस्वापहर्तारः परस्वानां च नाशकाः ।\nसूचकाश्च परेषां ये ते वै निरयगामिनः ॥"
+          "text": "ये परस्वापहर्तारः परस्वानां च नाशकाः ।\nसूचकाश्च परेषां ये ते वै निरयगामिनः ॥",
+          "meaning": {
+            "en": "Those who steal others' property, destroy others' property or are informers against others go to hell."
+          }
         },
         {
           "n": 63,
-          "text": "प्रपाणां च सभानां च संक्रमाणां च भारत ।\nअगाराणां च भेत्तारो नरा निरयगामिनः ॥"
+          "text": "प्रपाणां च सभानां च संक्रमाणां च भारत ।\nअगाराणां च भेत्तारो नरा निरयगामिनः ॥",
+          "meaning": {
+            "en": "Bharata, those who destroy water-huts, assembly halls, bridges and houses go to hell."
+          }
         },
         {
           "n": 64,
-          "text": "अनाथां प्रमदां बालां वृद्धां भीतां तपस्विनीम् ।\nवञ्चयन्ति नरा ये च ते वै निरयगामिनः ॥"
+          "text": "अनाथां प्रमदां बालां वृद्धां भीतां तपस्विनीम् ।\nवञ्चयन्ति नरा ये च ते वै निरयगामिनः ॥",
+          "meaning": {
+            "en": "Those who cheat helpless women, girls, the old, the frightened or female ascetics go to hell."
+          }
         },
         {
           "n": 65,
-          "text": "वृत्तिच्छेदं गृहच्छेदं दारच्छेदं च भारत ।\nमित्रच्छेदं तथाशायास्ते वै निरयगामिनः ॥"
+          "text": "वृत्तिच्छेदं गृहच्छेदं दारच्छेदं च भारत ।\nमित्रच्छेदं तथाशायास्ते वै निरयगामिनः ॥",
+          "meaning": {
+            "en": "Those who cut off a person's livelihood, home, wife or friend, or someone's hope, go to hell."
+          }
         },
         {
           "n": 66,
-          "text": "सूचकाः संधिभेत्तारः परवृत्त्युपजीवकाः ।\nअकृतज्ञाश्च मित्राणां ते वै निरयगामिनः ॥"
+          "text": "सूचकाः संधिभेत्तारः परवृत्त्युपजीवकाः ।\nअकृतज्ञाश्च मित्राणां ते वै निरयगामिनः ॥",
+          "meaning": {
+            "en": "Informers, those who break agreements, those who live on others' livelihood and ingrates to friends go to hell."
+          }
         },
         {
           "n": 67,
-          "text": "पाषण्डा दूषकाश्चैव समयानां च दूषकाः ।\nये प्रत्यवसिताश्चैव ते वै निरयगामिनः ॥"
+          "text": "पाषण्डा दूषकाश्चैव समयानां च दूषकाः ।\nये प्रत्यवसिताश्चैव ते वै निरयगामिनः ॥",
+          "meaning": {
+            "en": "Heretics, slanderers, those who spoil agreements, and those who have returned to deceit go to hell."
+          }
         },
         {
           "n": 68,
-          "text": "कृताशं कृतनिर्वेशं कृतभक्तं कृतश्रमम् ।\nभेदैर्ये व्यपकर्षन्ति ते वै निरयगामिनः ॥"
+          "text": "कृताशं कृतनिर्वेशं कृतभक्तं कृतश्रमम् ।\nभेदैर्ये व्यपकर्षन्ति ते वै निरयगामिनः ॥",
+          "meaning": {
+            "en": "Those who by tricks draw away a person who was hoping, has been fixed up, has been fed and has worked go to hell."
+          }
         },
         {
           "n": 69,
-          "text": "पर्यश्नन्ति च ये दारानग्निभृत्यातिथींस्तथा ।\nउत्सन्नपितृदेवेज्यास्ते वै निरयगामिनः ॥"
+          "text": "पर्यश्नन्ति च ये दारानग्निभृत्यातिथींस्तथा ।\nउत्सन्नपितृदेवेज्यास्ते वै निरयगामिनः ॥",
+          "meaning": {
+            "en": "Those who eat before wives, fire, servants and guests, who neglect rites to ancestors and gods, go to hell."
+          }
         },
         {
           "n": 70,
-          "text": "वेदविक्रयिणश्चैव वेदानां चैव दूषकाः ।\nवेदानां लेखकाश्चैव ते वै निरयगामिनः ॥"
+          "text": "वेदविक्रयिणश्चैव वेदानां चैव दूषकाः ।\nवेदानां लेखकाश्चैव ते वै निरयगामिनः ॥",
+          "meaning": {
+            "en": "Sellers of the Vedas, slanderers of the Vedas, and writers of the Vedas go to hell."
+          }
         },
         {
           "n": 71,
-          "text": "चातुराश्रम्यबाह्याश्च श्रुतिबाह्याश्च ये नराः ।\nविकर्मभिश्च जीवन्ति ते वै निरयगामिनः ॥"
+          "text": "चातुराश्रम्यबाह्याश्च श्रुतिबाह्याश्च ये नराः ।\nविकर्मभिश्च जीवन्ति ते वै निरयगामिनः ॥",
+          "meaning": {
+            "en": "Men outside the four stages and outside the Shruti, who live by wrong actions, go to hell."
+          }
         },
         {
           "n": 72,
-          "text": "केशविक्रयिका राजन्विषविक्रयिकाश्च ये ।\nक्षीरविक्रयिकाश्चैव ते वै निरयगामिनः ॥"
+          "text": "केशविक्रयिका राजन्विषविक्रयिकाश्च ये ।\nक्षीरविक्रयिकाश्चैव ते वै निरयगामिनः ॥",
+          "meaning": {
+            "en": "Sellers of hair, king, sellers of poison and sellers of milk go to hell."
+          }
         },
         {
           "n": 73,
-          "text": "ब्राह्मणानां गवां चैव कन्यानां च युधिष्ठिर ।\nयेऽन्तरं यान्ति कार्येषु ते वै निरयगामिनः ॥"
+          "text": "ब्राह्मणानां गवां चैव कन्यानां च युधिष्ठिर ।\nयेऽन्तरं यान्ति कार्येषु ते वै निरयगामिनः ॥",
+          "meaning": {
+            "en": "Yudhishthira, those who intervene against brahmins, cows and maidens in their affairs go to hell."
+          }
         },
         {
           "n": 74,
-          "text": "शस्त्रविक्रयकाश्चैव कर्तारश्च युधिष्ठिर ।\nशल्यानां धनुषां चैव ते वै निरयगामिनः ॥"
+          "text": "शस्त्रविक्रयकाश्चैव कर्तारश्च युधिष्ठिर ।\nशल्यानां धनुषां चैव ते वै निरयगामिनः ॥",
+          "meaning": {
+            "en": "Sellers of weapons and makers of arrows and bows, Yudhishthira, go to hell."
+          }
         },
         {
           "n": 75,
-          "text": "शल्यैर्वा शङ्कुभिर्वापि श्वभ्रैर्वा भरतर्षभ ।\nये मार्गमनुरुन्धन्ति ते वै निरयगामिनः ॥"
+          "text": "शल्यैर्वा शङ्कुभिर्वापि श्वभ्रैर्वा भरतर्षभ ।\nये मार्गमनुरुन्धन्ति ते वै निरयगामिनः ॥",
+          "meaning": {
+            "en": "Best of Bharatas, those who block a road with arrows, stakes or pits go to hell."
+          }
         },
         {
           "n": 76,
-          "text": "उपाध्यायांश्च भृत्यांश्च भक्तांश्च भरतर्षभ ।\nये त्यजन्त्यसमर्थांस्तांस्ते वै निरयगामिनः ॥"
+          "text": "उपाध्यायांश्च भृत्यांश्च भक्तांश्च भरतर्षभ ।\nये त्यजन्त्यसमर्थांस्तांस्ते वै निरयगामिनः ॥",
+          "meaning": {
+            "en": "Those who abandon teachers, servants and devotees who are helpless, best of Bharatas, go to hell."
+          }
         },
         {
           "n": 77,
-          "text": "अप्राप्तदमकाश्चैव नासानां वेधकास्तथा ।\nबन्धकाश्च पशूनां ये ते वै निरयगामिनः ॥"
+          "text": "अप्राप्तदमकाश्चैव नासानां वेधकास्तथा ।\nबन्धकाश्च पशूनां ये ते वै निरयगामिनः ॥",
+          "meaning": {
+            "en": "Those who punish before the time, pierce noses or confine cattle go to hell."
+          }
         },
         {
           "n": 78,
-          "text": "अगोप्तारश्छलद्रव्या बलिषड्भागतत्पराः ।\nसमर्थाश्चाप्यदातारस्ते वै निरयगामिनः ॥"
+          "text": "अगोप्तारश्छलद्रव्या बलिषड्भागतत्पराः ।\nसमर्थाश्चाप्यदातारस्ते वै निरयगामिनः ॥",
+          "meaning": {
+            "en": "Those who do not protect, who take things by deceit, who are intent on a sixth share as tax, and who are able but do not give go to hell."
+          }
         },
         {
           "n": 79,
-          "text": "क्षान्तान्दान्तांस्तथा प्राज्ञान्दीर्घकालं सहोषितान् ।\nत्यजन्ति कृतकृत्या ये ते वै निरयगामिनः ॥"
+          "text": "क्षान्तान्दान्तांस्तथा प्राज्ञान्दीर्घकालं सहोषितान् ।\nत्यजन्ति कृतकृत्या ये ते वै निरयगामिनः ॥",
+          "meaning": {
+            "en": "Those who, having had their purpose met, abandon the patient, self-controlled and wise who lived with them long go to hell."
+          }
         },
         {
           "n": 80,
-          "text": "बालानामथ वृद्धानां दासानां चैव ये नराः ।\nअदत्त्वा भक्षयन्त्यग्रे ते वै निरयगामिनः ॥"
+          "text": "बालानामथ वृद्धानां दासानां चैव ये नराः ।\nअदत्त्वा भक्षयन्त्यग्रे ते वै निरयगामिनः ॥",
+          "meaning": {
+            "en": "Those who eat first without giving to children, the old and the servants go to hell."
+          }
         },
         {
           "n": 81,
-          "text": "एते पूर्वर्षिभिर्दृष्टाः प्रोक्ता निरयगामिनः ।\nभागिनः स्वर्गलोकस्य वक्ष्यामि भरतर्षभ ॥"
+          "text": "एते पूर्वर्षिभिर्दृष्टाः प्रोक्ता निरयगामिनः ।\nभागिनः स्वर्गलोकस्य वक्ष्यामि भरतर्षभ ॥",
+          "meaning": {
+            "en": "These are the ones the earlier sages saw and named as going to hell. Best of Bharatas, I will now tell you who share in heaven."
+          }
         },
         {
           "n": 82,
-          "text": "सर्वेष्वेव तु कार्येषु दैवपूर्वेषु भारत ।\nहन्ति पुत्रान्पशून्कृत्स्नान्ब्राह्मणातिक्रमः कृतः ॥"
+          "text": "सर्वेष्वेव तु कार्येषु दैवपूर्वेषु भारत ।\nहन्ति पुत्रान्पशून्कृत्स्नान्ब्राह्मणातिक्रमः कृतः ॥",
+          "meaning": {
+            "en": "Bharata, in all rites that begin with the gods, an offense against brahmins destroys one's sons and all one's cattle."
+          }
         },
         {
           "n": 83,
-          "text": "दानेन तपसा चैव सत्येन च युधिष्ठिर ।\nये धर्ममनुवर्तन्ते ते नराः स्वर्गगामिनः ॥"
+          "text": "दानेन तपसा चैव सत्येन च युधिष्ठिर ।\nये धर्ममनुवर्तन्ते ते नराः स्वर्गगामिनः ॥",
+          "meaning": {
+            "en": "Yudhishthira, men who follow dharma through giving, austerity and truth go to heaven."
+          }
         },
         {
           "n": 84,
-          "text": "शुश्रूषाभिस्तपोभिश्च श्रुतमादाय भारत ।\nये प्रतिग्रहनिःस्नेहास्ते नराः स्वर्गगामिनः ॥"
+          "text": "शुश्रूषाभिस्तपोभिश्च श्रुतमादाय भारत ।\nये प्रतिग्रहनिःस्नेहास्ते नराः स्वर्गगामिनः ॥",
+          "meaning": {
+            "en": "Bharata, men who, having gained learning through service and austerities, are free from desire for gifts go to heaven."
+          }
         },
         {
           "n": 85,
-          "text": "भयात्पापात्तथाबाधाद्दारिद्र्याद्व्याधिधर्षणात् ।\nयत्कृते प्रतिमुच्यन्ते ते नराः स्वर्गगामिनः ॥"
+          "text": "भयात्पापात्तथाबाधाद्दारिद्र्याद्व्याधिधर्षणात् ।\nयत्कृते प्रतिमुच्यन्ते ते नराः स्वर्गगामिनः ॥",
+          "meaning": {
+            "en": "Men who free others from fear, sin, distress, poverty and the attack of disease go to heaven."
+          }
         },
         {
           "n": 86,
-          "text": "क्षमावन्तश्च धीराश्च धर्मकार्येषु चोत्थिताः ।\nमङ्गलाचारयुक्ताश्च ते नराः स्वर्गगामिनः ॥"
+          "text": "क्षमावन्तश्च धीराश्च धर्मकार्येषु चोत्थिताः ।\nमङ्गलाचारयुक्ताश्च ते नराः स्वर्गगामिनः ॥",
+          "meaning": {
+            "en": "Those who are patient and steady, are active in works of dharma and have auspicious conduct go to heaven."
+          }
         },
         {
           "n": 87,
-          "text": "निवृत्ता मधुमांसेभ्यः परदारेभ्य एव च ।\nनिवृत्ताश्चैव मद्येभ्यस्ते नराः स्वर्गगामिनः ॥"
+          "text": "निवृत्ता मधुमांसेभ्यः परदारेभ्य एव च ।\nनिवृत्ताश्चैव मद्येभ्यस्ते नराः स्वर्गगामिनः ॥",
+          "meaning": {
+            "en": "Those who abstain from honey, meat, others' wives and liquor go to heaven."
+          }
         },
         {
           "n": 88,
-          "text": "आश्रमाणां च कर्तारः कुलानां चैव भारत ।\nदेशानां नगराणां च ते नराः स्वर्गगामिनः ॥"
+          "text": "आश्रमाणां च कर्तारः कुलानां चैव भारत ।\nदेशानां नगराणां च ते नराः स्वर्गगामिनः ॥",
+          "meaning": {
+            "en": "Bharata, those who found hermitages, families, regions and cities go to heaven."
+          }
         },
         {
           "n": 89,
-          "text": "वस्त्राभरणदातारो भक्षपानान्नदास्तथा ।\nकुटुम्बानां च दातारस्ते नराः स्वर्गगामिनः ॥"
+          "text": "वस्त्राभरणदातारो भक्षपानान्नदास्तथा ।\nकुटुम्बानां च दातारस्ते नराः स्वर्गगामिनः ॥",
+          "meaning": {
+            "en": "Those who give clothes, ornaments, food and drink and provide for households go to heaven."
+          }
         },
         {
           "n": 90,
-          "text": "सर्वहिंसानिवृत्ताश्च नराः सर्वसहाश्च ये ।\nसर्वस्याश्रयभूताश्च ते नराः स्वर्गगामिनः ॥"
+          "text": "सर्वहिंसानिवृत्ताश्च नराः सर्वसहाश्च ये ।\nसर्वस्याश्रयभूताश्च ते नराः स्वर्गगामिनः ॥",
+          "meaning": {
+            "en": "Men who abstain from all violence, endure all things, and are a refuge for all go to heaven."
+          }
         },
         {
           "n": 91,
-          "text": "मातरं पितरं चैव शुश्रूषन्ति जितेन्द्रियाः ।\nभ्रातॄणां चैव सस्नेहास्ते नराः स्वर्गगामिनः ॥"
+          "text": "मातरं पितरं चैव शुश्रूषन्ति जितेन्द्रियाः ।\nभ्रातॄणां चैव सस्नेहास्ते नराः स्वर्गगामिनः ॥",
+          "meaning": {
+            "en": "Those who, with senses mastered, serve mother and father and are affectionate toward their brothers go to heaven."
+          }
         },
         {
           "n": 92,
-          "text": "आढ्याश्च बलवन्तश्च यौवनस्थाश्च भारत ।\nये वै जितेन्द्रिया धीरास्ते नराः स्वर्गगामिनः ॥"
+          "text": "आढ्याश्च बलवन्तश्च यौवनस्थाश्च भारत ।\nये वै जितेन्द्रिया धीरास्ते नराः स्वर्गगामिनः ॥",
+          "meaning": {
+            "en": "Bharata, those who are rich, strong and in youth, and yet have mastered their senses and are steady, go to heaven."
+          }
         },
         {
           "n": 93,
-          "text": "अपराद्धेषु सस्नेहा मृदवो मित्रवत्सलाः ।\nआराधनसुखाश्चापि ते नराः स्वर्गगामिनः ॥"
+          "text": "अपराद्धेषु सस्नेहा मृदवो मित्रवत्सलाः ।\nआराधनसुखाश्चापि ते नराः स्वर्गगामिनः ॥",
+          "meaning": {
+            "en": "Those who are kind toward the offending, gentle, friendly and easily pleased go to heaven."
+          }
         },
         {
           "n": 94,
-          "text": "सहस्रपरिवेष्टारस्तथैव च सहस्रदाः ।\nत्रातारश्च सहस्राणां पुरुषाः स्वर्गगामिनः ॥"
+          "text": "सहस्रपरिवेष्टारस्तथैव च सहस्रदाः ।\nत्रातारश्च सहस्राणां पुरुषाः स्वर्गगामिनः ॥",
+          "meaning": {
+            "en": "Men who maintain a thousand, give a thousand, and rescue thousands go to heaven."
+          }
         },
         {
           "n": 95,
-          "text": "सुवर्णस्य च दातारो गवां च भरतर्षभ ।\nयानानां वाहनानां च ते नराः स्वर्गगामिनः ॥"
+          "text": "सुवर्णस्य च दातारो गवां च भरतर्षभ ।\nयानानां वाहनानां च ते नराः स्वर्गगामिनः ॥",
+          "meaning": {
+            "en": "Best of Bharatas, givers of gold, cows, carriages and mounts go to heaven."
+          }
         },
         {
           "n": 96,
-          "text": "वैवाहिकानां कन्यानां प्रेष्याणां च युधिष्ठिर ।\nदातारो वाससां चैव ते नराः स्वर्गगामिनः ॥"
+          "text": "वैवाहिकानां कन्यानां प्रेष्याणां च युधिष्ठिर ।\nदातारो वाससां चैव ते नराः स्वर्गगामिनः ॥",
+          "meaning": {
+            "en": "Yudhishthira, those who give brides for marriage, servants and clothes go to heaven."
+          }
         },
         {
           "n": 97,
-          "text": "विहारावसथोद्यानकूपारामसभाप्रदाः ।\nवप्राणां चैव कर्तारस्ते नराः स्वर्गगामिनः ॥"
+          "text": "विहारावसथोद्यानकूपारामसभाप्रदाः ।\nवप्राणां चैव कर्तारस्ते नराः स्वर्गगामिनः ॥",
+          "meaning": {
+            "en": "Those who give pleasure houses, lodgings, gardens, wells, groves, halls and who make embankments go to heaven."
+          }
         },
         {
           "n": 98,
-          "text": "निवेशनानां क्षेत्राणां वसतीनां च भारत ।\nदातारः प्रार्थितानां च ते नराः स्वर्गगामिनः ॥"
+          "text": "निवेशनानां क्षेत्राणां वसतीनां च भारत ।\nदातारः प्रार्थितानां च ते नराः स्वर्गगामिनः ॥",
+          "meaning": {
+            "en": "Bharata, those who give houses, fields and dwellings, and give to those who ask, go to heaven."
+          }
         },
         {
           "n": 99,
-          "text": "रसानामथ बीजानां धान्यानां च युधिष्ठिर ।\nस्वयमुत्पाद्य दातारः पुरुषाः स्वर्गगामिनः ॥"
+          "text": "रसानामथ बीजानां धान्यानां च युधिष्ठिर ।\nस्वयमुत्पाद्य दातारः पुरुषाः स्वर्गगामिनः ॥",
+          "meaning": {
+            "en": "Yudhishthira, men who produce juices, seeds and grains themselves and give them go to heaven."
+          }
         },
         {
           "n": 100,
-          "text": "यस्मिन्कस्मिन्कुले जाता बहुपुत्राः शतायुषः ।\nसानुक्रोशा जितक्रोधाः पुरुषाः स्वर्गगामिनः ॥"
+          "text": "यस्मिन्कस्मिन्कुले जाता बहुपुत्राः शतायुषः ।\nसानुक्रोशा जितक्रोधाः पुरुषाः स्वर्गगामिनः ॥",
+          "meaning": {
+            "en": "Men born into any family who have many sons, live a hundred years, and are merciful and have conquered anger go to heaven."
+          }
         },
         {
           "n": 101,
-          "text": "एतदुक्तममुत्रार्थं दैवं पित्र्यं च भारत ।\nधर्माधर्मौ च दानस्य यथा पूर्वर्षिभिः कृतौ ॥"
+          "text": "एतदुक्तममुत्रार्थं दैवं पित्र्यं च भारत ।\nधर्माधर्मौ च दानस्य यथा पूर्वर्षिभिः कृतौ ॥",
+          "meaning": {
+            "en": "Bharata, this has been told for the sake of the next world: the rites for gods and ancestors, and the dharma and adharma of giving as the earlier sages made them."
+          }
         }
       ]
     }

@@ -22,86 +22,170 @@
       "titleEn": "Mokshadharma Parva (Duties for liberation)",
       "verses": [
         {
-          "text": "युधिष्ठिर उवाच"
+          "text": "युधिष्ठिर उवाच",
+          "meaning": {
+            "en": "Yudhishthira said:",
+            "hi": "युधिष्ठिर बोले—"
+          }
         },
         {
           "n": 1,
-          "text": "बहूनां यज्ञतपसामेकार्थानां पितामह ।\nधर्मार्थं न सुखार्थार्थं कथं यज्ञः समाहितः ॥"
+          "text": "बहूनां यज्ञतपसामेकार्थानां पितामह ।\nधर्मार्थं न सुखार्थार्थं कथं यज्ञः समाहितः ॥",
+          "meaning": {
+            "en": "Grandfather, among the many sacrifices and austerities with one aim, how is a sacrifice rightly performed for the sake of dharma and not for pleasure?",
+            "hi": "हे पितामह, अनेक यज्ञ और तप एक ही प्रयोजन वाले हैं; यज्ञ धर्म के लिए कैसे सम्यक रूप से किया जाता है, न कि सुख के लिए?"
+          }
         },
         {
-          "text": "भीष्म उवाच"
+          "text": "भीष्म उवाच",
+          "meaning": {
+            "en": "Bhishma said:",
+            "hi": "भीष्म बोले—"
+          }
         },
         {
           "n": 2,
-          "text": "अत्र ते वर्तयिष्यामि नारदेनानुकीर्तितम् ।\nउञ्छवृत्तेः पुरावृत्तं यज्ञार्थे ब्राह्मणस्य ह ॥"
+          "text": "अत्र ते वर्तयिष्यामि नारदेनानुकीर्तितम् ।\nउञ्छवृत्तेः पुरावृत्तं यज्ञार्थे ब्राह्मणस्य ह ॥",
+          "meaning": {
+            "en": "On this I will tell you what Narada related, an old story of a brahmin who lived by gleaning, concerning sacrifice.",
+            "hi": "इस विषय पर मैं तुम्हें वह बताऊँगा जो नारद ने कहा था: उञ्छवृत्ति वाले एक ब्राह्मण की प्राचीन कथा, जो यज्ञ के लिए थी।"
+          }
         },
         {
           "n": 3,
-          "text": "राष्ट्रे धर्मोत्तरे श्रेष्ठे विदर्भेष्वभवद्द्विजः ।\nउञ्छवृत्तिरृषिः कश्चिद्यज्ञे यज्ञं समादधे ॥"
+          "text": "राष्ट्रे धर्मोत्तरे श्रेष्ठे विदर्भेष्वभवद्द्विजः ।\nउञ्छवृत्तिरृषिः कश्चिद्यज्ञे यज्ञं समादधे ॥",
+          "meaning": {
+            "en": "In the excellent realm of Vidarbha, rich in dharma, there was a twice-born sage who lived by gleaning and who performed sacrifice within sacrifice.",
+            "hi": "धर्म से श्रेष्ठ विदर्भ देश के उत्तम राष्ट्र में एक द्विज हुआ। वह उञ्छवृत्ति से जीने वाला कोई ऋषि था, जो यज्ञ में यज्ञ का आधान करता था।"
+          }
         },
         {
           "n": 4,
-          "text": "श्यामाकमशनं तत्र सूर्यपत्नी सुवर्चला ।\nतिक्तं च विरसं शाकं तपसा स्वादुतां गतम् ॥"
+          "text": "श्यामाकमशनं तत्र सूर्यपत्नी सुवर्चला ।\nतिक्तं च विरसं शाकं तपसा स्वादुतां गतम् ॥",
+          "meaning": {
+            "en": "There Suvarchala, the sun's wife, was his meal of wild millet, and by austerity bitter, tasteless greens had become sweet.",
+            "hi": "वहाँ उसका भोजन जंगली सावाँ (श्यामाक) था, और उसकी पत्नी सूर्य की पत्नी सुवर्चला थी; तपस्या से कड़वे, स्वादहीन साग भी मीठे हो गए थे।"
+          }
         },
         {
           "n": 5,
-          "text": "उपगम्य वने पृथ्वीं सर्वभूतविहिंसया ।\nअपि मूलफलैरिज्यो यज्ञः स्वर्ग्यः परंतप ॥"
+          "text": "उपगम्य वने पृथ्वीं सर्वभूतविहिंसया ।\nअपि मूलफलैरिज्यो यज्ञः स्वर्ग्यः परंतप ॥",
+          "meaning": {
+            "en": "Approaching the earth in the forest, without harming any being, a sacrifice even with roots and fruits is to be offered, one that leads to heaven, scorcher of foes.",
+            "hi": "हे परंतप, वन में पृथ्वी के पास जाकर, किसी भी प्राणी की हिंसा किए बिना, मूल और फलों से भी किया गया यज्ञ स्वर्ग देने वाला होता है।"
+          }
         },
         {
           "n": 6,
-          "text": "तस्य भार्या व्रतकृशा शुचिः पुष्करचारिणी ।\nयज्ञपत्नीत्वमानीता सत्येनानुविधीयते ।\nसा तु शापपरित्रस्ता न स्वभावानुवर्तिनी ॥"
+          "text": "तस्य भार्या व्रतकृशा शुचिः पुष्करचारिणी ।\nयज्ञपत्नीत्वमानीता सत्येनानुविधीयते ।\nसा तु शापपरित्रस्ता न स्वभावानुवर्तिनी ॥",
+          "meaning": {
+            "en": "His wife, thin with vows, pure, living among lotuses, brought to be the sacrificer's wife, followed him in truth; but terrified by a curse, she did not follow her own nature.",
+            "hi": "उसकी पत्नी व्रतों से दुर्बल, पवित्र और कमलों के बीच विचरने वाली थी। यज्ञ-पत्नी बनाई जाकर वह सत्य से (पति का) अनुसरण करती थी; पर शाप से भयभीत होकर वह अपने स्वभाव के अनुसार नहीं चलती थी।"
+          }
         },
         {
           "n": 7,
-          "text": "मयूरजीर्णपर्णानां वस्त्रं तस्याश्च पर्णिनाम् ।\nअकामायाः कृतं तत्र यज्ञे होत्रानुमार्गतः ॥"
+          "text": "मयूरजीर्णपर्णानां वस्त्रं तस्याश्च पर्णिनाम् ।\nअकामायाः कृतं तत्र यज्ञे होत्रानुमार्गतः ॥",
+          "meaning": {
+            "en": "Of old peacock leaves and the leaves of leafy plants was her garment, made unwillingly there in the sacrifice, following the hotri's rite.",
+            "hi": "उसका वस्त्र मोर के पुराने जीर्ण पत्तों और पत्तेदार पौधों के पत्तों का था, जो वहाँ अनिच्छा से होत्रा की विधि के अनुसार यज्ञ में बनाया गया था।"
+          }
         },
         {
           "n": 8,
-          "text": "शुक्रस्य पुनराजातिरपध्यानादधर्मवित् ।\nतस्मिन्वने समीपस्थो मृगोऽभूत्सहचारिकः ।\nवचोभिरब्रवीत्सत्यं त्वया दुष्कृतकं कृतम् ॥"
+          "text": "शुक्रस्य पुनराजातिरपध्यानादधर्मवित् ।\nतस्मिन्वने समीपस्थो मृगोऽभूत्सहचारिकः ।\nवचोभिरब्रवीत्सत्यं त्वया दुष्कृतकं कृतम् ॥",
+          "meaning": {
+            "en": "Through a wrong thought, the rebirth of Shukra: in that forest a deer stood near as a companion, ignorant of dharma, and spoke truthfully in words: \"You have done a wrong deed.\"",
+            "hi": "एक बुरे विचार के कारण शुक्र का पुनर्जन्म हुआ: उस वन में पास ही एक मृग साथी बनकर रहता था, जो धर्म को नहीं जानता था, और सत्य वचन से बोला: “तुमने दुष्कर्म किया है।”"
+          }
         },
         {
           "n": 9,
-          "text": "यदि मन्त्राङ्गहीनोऽयं यज्ञो भवति वैकृतः ।\nमां भोः प्रक्षिप होत्रे त्वं गच्छ स्वर्गमतन्द्रितः ॥"
+          "text": "यदि मन्त्राङ्गहीनोऽयं यज्ञो भवति वैकृतः ।\nमां भोः प्रक्षिप होत्रे त्वं गच्छ स्वर्गमतन्द्रितः ॥",
+          "meaning": {
+            "en": "\"If this sacrifice, lacking a part of the mantras, becomes defective, then throw me into the hotri's fire, and go to heaven without sloth.\"",
+            "hi": "“यदि यह यज्ञ मंत्र के अंग से रहित होकर दोषपूर्ण हो गया है, तो मुझे होत्रा की अग्नि में डाल दो, और तुम बिना आलस्य के स्वर्ग चले जाओ।”"
+          }
         },
         {
           "n": 10,
-          "text": "ततस्तु यज्ञे सावित्री साक्षात्तं संन्यमन्त्रयत् ।\nनिमन्त्रयन्ती प्रत्युक्ता न हन्यां सहवासिनम् ॥"
+          "text": "ततस्तु यज्ञे सावित्री साक्षात्तं संन्यमन्त्रयत् ।\nनिमन्त्रयन्ती प्रत्युक्ता न हन्यां सहवासिनम् ॥",
+          "meaning": {
+            "en": "Then at the sacrifice Savitri herself invited him; being invited, she was answered, \"I will not kill my fellow-dweller.\"",
+            "hi": "तब यज्ञ में सावित्री ने स्वयं उसे आमंत्रित किया; पर आमंत्रित होने पर उसने उत्तर दिया, “मैं अपने साथ रहने वाले (प्राणी) को नहीं मारूँगा।”"
+          }
         },
         {
           "n": 11,
-          "text": "एवमुक्ता निवृत्ता सा प्रविष्टा यज्ञपावकम् ।\nकिं नु दुश्चरितं यज्ञे दिदृक्षुः सा रसातलम् ॥"
+          "text": "एवमुक्ता निवृत्ता सा प्रविष्टा यज्ञपावकम् ।\nकिं नु दुश्चरितं यज्ञे दिदृक्षुः सा रसातलम् ॥",
+          "meaning": {
+            "en": "So spoken to, she turned back and entered the sacrificial fire; wishing to see what wrong deed there was in the sacrifice, she went to the underworld.",
+            "hi": "ऐसा कहे जाने पर वह लौट गई और यज्ञ की अग्नि में प्रवेश कर गई; यज्ञ में कौन-सा दुष्कर्म है, यह देखने की इच्छा से वह रसातल को चली गई।"
+          }
         },
         {
           "n": 12,
-          "text": "सा तु बद्धाञ्जलिं सत्यमयाचद्धरिणं पुनः ।\nसत्येन संपरिष्वज्य संदिष्टो गम्यतामिति ॥"
+          "text": "सा तु बद्धाञ्जलिं सत्यमयाचद्धरिणं पुनः ।\nसत्येन संपरिष्वज्य संदिष्टो गम्यतामिति ॥",
+          "meaning": {
+            "en": "With joined palms she again begged the deer for truth; embracing him with truth, she was told, \"Go.\"",
+            "hi": "पर उसने हाथ जोड़कर फिर से मृग से सत्य की याचना की; सत्य से उसका आलिंगन करके उसे “जाओ” का आदेश दिया गया।"
+          }
         },
         {
           "n": 13,
-          "text": "ततः स हरिणो गत्वा पदान्यष्टौ न्यवर्तत ।\nसाधु हिंसय मां सत्य हतो यास्यामि सद्गतिम् ॥"
+          "text": "ततः स हरिणो गत्वा पदान्यष्टौ न्यवर्तत ।\nसाधु हिंसय मां सत्य हतो यास्यामि सद्गतिम् ॥",
+          "meaning": {
+            "en": "Then the deer, having gone eight steps, turned back: \"Kill me well, truthful one; killed, I shall go to a good state.\"",
+            "hi": "तब वह मृग जाकर आठ पग चलकर लौट आया: “हे सत्यवान, मुझे भली प्रकार मारो; मारे जाने पर मैं सद्गति को जाऊँगा।”"
+          }
         },
         {
           "n": 14,
-          "text": "पश्य ह्यप्सरसो दिव्या मया दत्तेन चक्षुषा ।\nविमानानि विचित्राणि गन्धर्वाणां महात्मनाम् ॥"
+          "text": "पश्य ह्यप्सरसो दिव्या मया दत्तेन चक्षुषा ।\nविमानानि विचित्राणि गन्धर्वाणां महात्मनाम् ॥",
+          "meaning": {
+            "en": "\"See the divine apsarases and the varied aerial cars of the great gandharvas, with the eye I have given.\"",
+            "hi": "“देखो, मेरे दिए हुए दिव्य नेत्रों से अप्सराएँ देखो, और महात्मा गंधर्वों के विचित्र विमान देखो।”"
+          }
         },
         {
           "n": 15,
-          "text": "ततः सुरुचिरं दृष्ट्वा स्पृहालग्नेन चक्षुषा ।\nमृगमालोक्य हिंसायां स्वर्गवासं समर्थयत् ॥"
+          "text": "ततः सुरुचिरं दृष्ट्वा स्पृहालग्नेन चक्षुषा ।\nमृगमालोक्य हिंसायां स्वर्गवासं समर्थयत् ॥",
+          "meaning": {
+            "en": "Then, seeing the very beautiful sight with eyes clinging in longing, looking at the deer, he approved of killing for the sake of living in heaven.",
+            "hi": "तब अत्यंत सुंदर दृश्य देखकर, लालसा में लगी आँखों से मृग को देखते हुए उसने स्वर्गवास के लिए हिंसा का समर्थन किया।"
+          }
         },
         {
           "n": 16,
-          "text": "स तु धर्मो मृगो भूत्वा बहुवर्षोषितो वने ।\nतस्य निष्कृतिमाधत्त न ह्यसौ यज्ञसंविधिः ॥"
+          "text": "स तु धर्मो मृगो भूत्वा बहुवर्षोषितो वने ।\nतस्य निष्कृतिमाधत्त न ह्यसौ यज्ञसंविधिः ॥",
+          "meaning": {
+            "en": "But Dharma, having become a deer and lived many years in the forest, made atonement for him, for that was not the ordering of the sacrifice.",
+            "hi": "पर धर्म मृग होकर वन में बहुत वर्षों तक रहा, और उसने (उस ब्राह्मण के लिए) प्रायश्चित्त किया, क्योंकि वह यज्ञ की विधि नहीं थी।"
+          }
         },
         {
           "n": 17,
-          "text": "तस्य तेन तु भावेन मृगहिंसात्मनस्तदा ।\nतपो महत्समुच्छिन्नं तस्माद्धिंसा न यज्ञिया ॥"
+          "text": "तस्य तेन तु भावेन मृगहिंसात्मनस्तदा ।\nतपो महत्समुच्छिन्नं तस्माद्धिंसा न यज्ञिया ॥",
+          "meaning": {
+            "en": "By that intention of his, intent on killing the deer, his great austerity was destroyed; therefore killing is not fit for sacrifice.",
+            "hi": "उस हिंसा के भाव से, जो मृग को मारने वाले ने रखा था, उसकी महान तपस्या नष्ट हो गई; इसलिए हिंसा यज्ञ के योग्य नहीं है।"
+          }
         },
         {
           "n": 18,
-          "text": "ततस्तं भगवान्धर्मो यज्ञं याजयत स्वयम् ।\nसमाधानं च भार्याया लेभे स तपसा परम् ॥"
+          "text": "ततस्तं भगवान्धर्मो यज्ञं याजयत स्वयम् ।\nसमाधानं च भार्याया लेभे स तपसा परम् ॥",
+          "meaning": {
+            "en": "Then the blessed Dharma himself had that sacrifice performed, and he obtained through austerity the highest peace of mind for his wife.",
+            "hi": "तब भगवान धर्म ने स्वयं उस यज्ञ को सम्पन्न कराया, और तपस्या से उसने अपनी पत्नी के लिए परम चित्त-शांति प्राप्त की।"
+          }
         },
         {
           "n": 19,
-          "text": "अहिंसा सकलो धर्मो हिंसा यज्ञेऽसमाहिता ।\nसत्यं तेऽहं प्रवक्ष्यामि यो धर्मः सत्यवादिनाम् ॥"
+          "text": "अहिंसा सकलो धर्मो हिंसा यज्ञेऽसमाहिता ।\nसत्यं तेऽहं प्रवक्ष्यामि यो धर्मः सत्यवादिनाम् ॥",
+          "meaning": {
+            "en": "Non-harm is the whole of dharma; violence in sacrifice is not rightly composed. I will tell you the truth, the dharma of truth-speakers.",
+            "hi": "अहिंसा ही संपूर्ण धर्म है; यज्ञ में हिंसा असम्यक् है। सत्यवादियों का जो धर्म है, वह मैं तुम्हें सत्य कहूँगा।"
+          }
         }
       ]
     }

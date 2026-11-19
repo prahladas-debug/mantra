@@ -22,108 +22,189 @@
       "titleEn": "Mokshadharma Parva (Duties for liberation)",
       "verses": [
         {
-          "text": "युधिष्ठिर उवाच"
+          "text": "युधिष्ठिर उवाच",
+          "meaning": {
+            "en": "Yudhishthira said:"
+          }
         },
         {
           "n": 1,
-          "text": "प्रियः सर्वस्य लोकस्य सर्वसत्त्वाभिनन्दिता ।\nगुणैः सर्वैरुपेतश्च को न्वस्ति भुवि मानवः ॥"
+          "text": "प्रियः सर्वस्य लोकस्य सर्वसत्त्वाभिनन्दिता ।\nगुणैः सर्वैरुपेतश्च को न्वस्ति भुवि मानवः ॥",
+          "meaning": {
+            "en": "Who on earth is a man beloved by the whole world, delighting all beings and endowed with every virtue?"
+          }
         },
         {
-          "text": "भीष्म उवाच"
+          "text": "भीष्म उवाच",
+          "meaning": {
+            "en": "Bhishma said:"
+          }
         },
         {
           "n": 2,
-          "text": "अत्र ते वर्तयिष्यामि पृच्छतो भरतर्षभ ।\nउग्रसेनस्य संवादं नारदे केशवस्य च ॥"
+          "text": "अत्र ते वर्तयिष्यामि पृच्छतो भरतर्षभ ।\nउग्रसेनस्य संवादं नारदे केशवस्य च ॥",
+          "meaning": {
+            "en": "On this, bull of the Bharatas, since you ask, I will relate the conversation of Ugrasena with Keshava about Narada."
+          }
         },
         {
-          "text": "उग्रसेन उवाच"
+          "text": "उग्रसेन उवाच",
+          "meaning": {
+            "en": "Ugrasena said:"
+          }
         },
         {
           "n": 3,
-          "text": "पश्य संकल्पते लोको नारदस्य प्रकीर्तने ।\nमन्ये स गुणसंपन्नो ब्रूहि तन्मम पृच्छतः ॥"
+          "text": "पश्य संकल्पते लोको नारदस्य प्रकीर्तने ।\nमन्ये स गुणसंपन्नो ब्रूहि तन्मम पृच्छतः ॥",
+          "meaning": {
+            "en": "See how the whole world is stirred at the mention of Narada. I think he is full of virtues; tell me, who ask."
+          }
         },
         {
-          "text": "वासुदेव उवाच"
+          "text": "वासुदेव उवाच",
+          "meaning": {
+            "en": "Vasudeva said:"
+          }
         },
         {
           "n": 4,
-          "text": "कुकुराधिप यान्मन्ये शृणु तान्मे विवक्षतः ।\nनारदस्य गुणान्साधून्संक्षेपेण नराधिप ॥"
+          "text": "कुकुराधिप यान्मन्ये शृणु तान्मे विवक्षतः ।\nनारदस्य गुणान्साधून्संक्षेपेण नराधिप ॥",
+          "meaning": {
+            "en": "Lord of the Kukuras, hear from me, as I speak, those good qualities of Narada that I consider, in brief, king of men."
+          }
         },
         {
           "n": 5,
-          "text": "न चारित्रनिमित्तोऽस्याहंकारो देहपातनः ।\nअभिन्नश्रुतचारित्रस्तस्मात्सर्वत्र पूजितः ॥"
+          "text": "न चारित्रनिमित्तोऽस्याहंकारो देहपातनः ।\nअभिन्नश्रुतचारित्रस्तस्मात्सर्वत्र पूजितः ॥",
+          "meaning": {
+            "en": "His pride does not rest on his conduct, nor does it ruin his body; his learning and conduct are unbroken, and so he is honoured everywhere."
+          }
         },
         {
           "n": 6,
-          "text": "तपस्वी नारदो बाढं वाचि नास्य व्यतिक्रमः ।\nकामाद्वा यदि वा लोभात्तस्मात्सर्वत्र पूजितः ॥"
+          "text": "तपस्वी नारदो बाढं वाचि नास्य व्यतिक्रमः ।\nकामाद्वा यदि वा लोभात्तस्मात्सर्वत्र पूजितः ॥",
+          "meaning": {
+            "en": "Narada is truly an ascetic, and there is no slip in his speech, from desire or from greed; therefore he is honoured everywhere."
+          }
         },
         {
           "n": 7,
-          "text": "अध्यात्मविधितत्त्वज्ञः क्षान्तः शक्तो जितेन्द्रियः ।\nऋजुश्च सत्यवादी च तस्मात्सर्वत्र पूजितः ॥"
+          "text": "अध्यात्मविधितत्त्वज्ञः क्षान्तः शक्तो जितेन्द्रियः ।\nऋजुश्च सत्यवादी च तस्मात्सर्वत्र पूजितः ॥",
+          "meaning": {
+            "en": "He knows the truth of the rules of the self, is patient, able, master of his senses, upright and truthful; therefore he is honoured everywhere."
+          }
         },
         {
           "n": 8,
-          "text": "तेजसा यशसा बुद्ध्या नयेन विनयेन च ।\nजन्मना तपसा वृद्धस्तस्मात्सर्वत्र पूजितः ॥"
+          "text": "तेजसा यशसा बुद्ध्या नयेन विनयेन च ।\nजन्मना तपसा वृद्धस्तस्मात्सर्वत्र पूजितः ॥",
+          "meaning": {
+            "en": "He is advanced in radiance, fame, intellect, policy, humility, birth and austerity; therefore he is honoured everywhere."
+          }
         },
         {
           "n": 9,
-          "text": "सुखशीलः सुसंभोगः सुभोज्यः स्वादरः शुचिः ।\nसुवाक्यश्चाप्यनीर्ष्यश्च तस्मात्सर्वत्र पूजितः ॥"
+          "text": "सुखशीलः सुसंभोगः सुभोज्यः स्वादरः शुचिः ।\nसुवाक्यश्चाप्यनीर्ष्यश्च तस्मात्सर्वत्र पूजितः ॥",
+          "meaning": {
+            "en": "He is of pleasant disposition, easy to be with, good to feed, respectful, pure, good in speech and free of envy; therefore he is honoured everywhere."
+          }
         },
         {
           "n": 10,
-          "text": "कल्याणं कुरुते बाढं पापमस्मिन्न विद्यते ।\nन प्रीयते परानर्थैस्तस्मात्सर्वत्र पूजितः ॥"
+          "text": "कल्याणं कुरुते बाढं पापमस्मिन्न विद्यते ।\nन प्रीयते परानर्थैस्तस्मात्सर्वत्र पूजितः ॥",
+          "meaning": {
+            "en": "He does only good and there is no sin in him; he takes no pleasure in others' misfortunes; therefore he is honoured everywhere."
+          }
         },
         {
           "n": 11,
-          "text": "वेदश्रुतिभिराख्यानैरर्थानभिजिगीषते ।\nतितिक्षुरनवज्ञश्च तस्मात्सर्वत्र पूजितः ॥"
+          "text": "वेदश्रुतिभिराख्यानैरर्थानभिजिगीषते ।\nतितिक्षुरनवज्ञश्च तस्मात्सर्वत्र पूजितः ॥",
+          "meaning": {
+            "en": "He seeks understanding of things through the Vedas, scripture and stories; he is patient and does not despise anyone; therefore he is honoured everywhere."
+          }
         },
         {
           "n": 12,
-          "text": "समत्वाद्धि प्रियो नास्ति नाप्रियश्च कथंचन ।\nमनोनुकूलवादी च तस्मात्सर्वत्र पूजितः ॥"
+          "text": "समत्वाद्धि प्रियो नास्ति नाप्रियश्च कथंचन ।\nमनोनुकूलवादी च तस्मात्सर्वत्र पूजितः ॥",
+          "meaning": {
+            "en": "Through evenness, no one is dear or disliked to him in any way, and he speaks to please the mind; therefore he is honoured everywhere."
+          }
         },
         {
           "n": 13,
-          "text": "बहुश्रुतश्चैत्रकथः पण्डितोऽनलसोऽशठः ।\nअदीनोऽक्रोधनोऽलुब्धस्तस्मात्सर्वत्र पूजितः ॥"
+          "text": "बहुश्रुतश्चैत्रकथः पण्डितोऽनलसोऽशठः ।\nअदीनोऽक्रोधनोऽलुब्धस्तस्मात्सर्वत्र पूजितः ॥",
+          "meaning": {
+            "en": "He is much learned, a teller of wonderful tales, wise, diligent, not deceitful, undepressed, free of anger and greed; therefore he is honoured everywhere."
+          }
         },
         {
           "n": 14,
-          "text": "नार्थे न धर्मे कामे वा भूतपूर्वोऽस्य विग्रहः ।\nदोषाश्चास्य समुच्छिन्नास्तस्मात्सर्वत्र पूजितः ॥"
+          "text": "नार्थे न धर्मे कामे वा भूतपूर्वोऽस्य विग्रहः ।\nदोषाश्चास्य समुच्छिन्नास्तस्मात्सर्वत्र पूजितः ॥",
+          "meaning": {
+            "en": "He has never quarrelled over wealth, dharma or desire, and his faults are cut off; therefore he is honoured everywhere."
+          }
         },
         {
           "n": 15,
-          "text": "दृढभक्तिरनिन्द्यात्मा श्रुतवाननृशंसवान् ।\nवीतसंमोहदोषश्च तस्मात्सर्वत्र पूजितः ॥"
+          "text": "दृढभक्तिरनिन्द्यात्मा श्रुतवाननृशंसवान् ।\nवीतसंमोहदोषश्च तस्मात्सर्वत्र पूजितः ॥",
+          "meaning": {
+            "en": "He is firmly devoted, of blameless self, learned and gentle, free of the fault of delusion; therefore he is honoured everywhere."
+          }
         },
         {
           "n": 16,
-          "text": "असक्तः सर्वसङ्गेषु सक्तात्मेव च लक्ष्यते ।\nअदीर्घसंशयो वाग्मी तस्मात्सर्वत्र पूजितः ॥"
+          "text": "असक्तः सर्वसङ्गेषु सक्तात्मेव च लक्ष्यते ।\nअदीर्घसंशयो वाग्मी तस्मात्सर्वत्र पूजितः ॥",
+          "meaning": {
+            "en": "Unattached amid all attachments, he yet seems attached; he is not long in doubt and is eloquent; therefore he is honoured everywhere."
+          }
         },
         {
           "n": 17,
-          "text": "समाधिर्नास्य मानार्थे नात्मानं स्तौति कर्हिचित् ।\nअनीर्ष्युर्दृढसंभाषस्तस्मात्सर्वत्र पूजितः ॥"
+          "text": "समाधिर्नास्य मानार्थे नात्मानं स्तौति कर्हिचित् ।\nअनीर्ष्युर्दृढसंभाषस्तस्मात्सर्वत्र पूजितः ॥",
+          "meaning": {
+            "en": "His concentration is not for the sake of honour, and he never praises himself; he is free of envy and firm in speech; therefore he is honoured everywhere."
+          }
         },
         {
           "n": 18,
-          "text": "लोकस्य विविधं वृत्तं प्रकृतेश्चाप्यकुत्सयन् ।\nसंसर्गविद्याकुशलस्तस्मात्सर्वत्र पूजितः ॥"
+          "text": "लोकस्य विविधं वृत्तं प्रकृतेश्चाप्यकुत्सयन् ।\nसंसर्गविद्याकुशलस्तस्मात्सर्वत्र पूजितः ॥",
+          "meaning": {
+            "en": "He does not disparage the various ways of the world or of nature, and is skilled in the knowledge of company; therefore he is honoured everywhere."
+          }
         },
         {
           "n": 19,
-          "text": "नासूयत्यागमं कंचित्स्वं तपो नोपजीवति ।\nअवन्ध्यकालो वश्यात्मा तस्मात्सर्वत्र पूजितः ॥"
+          "text": "नासूयत्यागमं कंचित्स्वं तपो नोपजीवति ।\nअवन्ध्यकालो वश्यात्मा तस्मात्सर्वत्र पूजितः ॥",
+          "meaning": {
+            "en": "He does not scorn anyone's scripture, and does not live off his own austerity; no time of his is wasted and his self is controlled; therefore he is honoured everywhere."
+          }
         },
         {
           "n": 20,
-          "text": "कृतश्रमः कृतप्रज्ञो न च तृप्तः समाधितः ।\nनियमस्थोऽप्रमत्तश्च तस्मात्सर्वत्र पूजितः ॥"
+          "text": "कृतश्रमः कृतप्रज्ञो न च तृप्तः समाधितः ।\nनियमस्थोऽप्रमत्तश्च तस्मात्सर्वत्र पूजितः ॥",
+          "meaning": {
+            "en": "He has toiled and gained wisdom, yet is never satisfied with his concentration; he keeps to his rules and is careful; therefore he is honoured everywhere."
+          }
         },
         {
           "n": 21,
-          "text": "सापत्रपश्च युक्तश्च सुनेयः श्रेयसे परैः ।\nअभेत्ता परगुह्यानां तस्मात्सर्वत्र पूजितः ॥"
+          "text": "सापत्रपश्च युक्तश्च सुनेयः श्रेयसे परैः ।\nअभेत्ता परगुह्यानां तस्मात्सर्वत्र पूजितः ॥",
+          "meaning": {
+            "en": "He is modest and disciplined, easily led by others toward the good, and does not reveal others' secrets; therefore he is honoured everywhere."
+          }
         },
         {
           "n": 22,
-          "text": "न हृष्यत्यर्थलाभेषु नालाभेषु व्यथत्यपि ।\nस्थिरबुद्धिरसक्तात्मा तस्मात्सर्वत्र पूजितः ॥"
+          "text": "न हृष्यत्यर्थलाभेषु नालाभेषु व्यथत्यपि ।\nस्थिरबुद्धिरसक्तात्मा तस्मात्सर्वत्र पूजितः ॥",
+          "meaning": {
+            "en": "He does not rejoice at gains nor suffer at losses; his mind is steady and his self unattached; therefore he is honoured everywhere."
+          }
         },
         {
           "n": 23,
-          "text": "तं सर्वगुणसंपन्नं दक्षं शुचिमकातरम् ।\nकालज्ञं च नयज्ञं च कः प्रियं न करिष्यति ॥"
+          "text": "तं सर्वगुणसंपन्नं दक्षं शुचिमकातरम् ।\nकालज्ञं च नयज्ञं च कः प्रियं न करिष्यति ॥",
+          "meaning": {
+            "en": "Who would not hold dear one endowed with all virtues, capable, pure, fearless, knowing the right time and the right policy?"
+          }
         }
       ]
     }

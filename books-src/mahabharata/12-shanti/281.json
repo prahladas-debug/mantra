@@ -22,99 +22,171 @@
       "titleEn": "Mokshadharma Parva (Duties for liberation)",
       "verses": [
         {
-          "text": "पराशर उवाच"
+          "text": "पराशर उवाच",
+          "meaning": {
+            "en": "Parashara said:"
+          }
         },
         {
           "n": 1,
-          "text": "कः कस्य चोपकुरुते कश्च कस्मै प्रयच्छति ।\nप्राणी करोत्ययं कर्म सर्वमात्मार्थमात्मना ॥"
+          "text": "कः कस्य चोपकुरुते कश्च कस्मै प्रयच्छति ।\nप्राणी करोत्ययं कर्म सर्वमात्मार्थमात्मना ॥",
+          "meaning": {
+            "en": "Who helps whom, and who gives to whom? A living being does all his actions himself, for his own sake."
+          }
         },
         {
           "n": 2,
-          "text": "गौरवेण परित्यक्तं निःस्नेहं परिवर्जयेत् ।\nसोदर्यं भ्रातरमपि किमुतान्यं पृथग्जनम् ॥"
+          "text": "गौरवेण परित्यक्तं निःस्नेहं परिवर्जयेत् ।\nसोदर्यं भ्रातरमपि किमुतान्यं पृथग्जनम् ॥",
+          "meaning": {
+            "en": "One should avoid a person who has abandoned one out of pride and has no affection, even a brother from the same womb, and much more an ordinary stranger."
+          }
         },
         {
           "n": 3,
-          "text": "विशिष्टस्य विशिष्टाच्च तुल्यौ दानप्रतिग्रहौ ।\nतयोः पुण्यतरं दानं तद्द्विजस्य प्रयच्छतः ॥"
+          "text": "विशिष्टस्य विशिष्टाच्च तुल्यौ दानप्रतिग्रहौ ।\nतयोः पुण्यतरं दानं तद्द्विजस्य प्रयच्छतः ॥",
+          "meaning": {
+            "en": "Giving and receiving between a distinguished giver and a distinguished receiver are equal; but of the two, the gift is the more meritorious one made to a Brahmin."
+          }
         },
         {
           "n": 4,
-          "text": "न्यायागतं धनं वर्णैर्न्यायेनैव विवर्धितम् ।\nसंरक्ष्यं यत्नमास्थाय धर्मार्थमिति निश्चयः ॥"
+          "text": "न्यायागतं धनं वर्णैर्न्यायेनैव विवर्धितम् ।\nसंरक्ष्यं यत्नमास्थाय धर्मार्थमिति निश्चयः ॥",
+          "meaning": {
+            "en": "Wealth that has come by right means and been increased by right means, among all the classes, should be guarded with effort for the sake of dharma; so it is settled."
+          }
         },
         {
           "n": 5,
-          "text": "न धर्मार्थी नृशंसेन कर्मणा धनमर्जयेत् ।\nशक्तितः सर्वकार्याणि कुर्यान्नर्द्धिमनुस्मरेत् ॥"
+          "text": "न धर्मार्थी नृशंसेन कर्मणा धनमर्जयेत् ।\nशक्तितः सर्वकार्याणि कुर्यान्नर्द्धिमनुस्मरेत् ॥",
+          "meaning": {
+            "en": "One who seeks dharma should not earn wealth by cruel action. He should do all tasks according to his strength and should not keep thinking of prosperity."
+          }
         },
         {
           "n": 6,
-          "text": "अपो हि प्रयतः शीतास्तापिता ज्वलनेन वा ।\nशक्तितोऽतिथये दत्त्वा क्षुधार्तायाश्नुते फलम् ॥"
+          "text": "अपो हि प्रयतः शीतास्तापिता ज्वलनेन वा ।\nशक्तितोऽतिथये दत्त्वा क्षुधार्तायाश्नुते फलम् ॥",
+          "meaning": {
+            "en": "Even pure water, cold or heated by fire, given according to one's ability to a guest tormented by hunger, earns the fruit."
+          }
         },
         {
           "n": 7,
-          "text": "रन्तिदेवेन लोकेष्टा सिद्धिः प्राप्ता महात्मना ।\nफलपत्रैरथो मूलैर्मुनीनर्चितवानसौ ॥"
+          "text": "रन्तिदेवेन लोकेष्टा सिद्धिः प्राप्ता महात्मना ।\nफलपत्रैरथो मूलैर्मुनीनर्चितवानसौ ॥",
+          "meaning": {
+            "en": "The great-souled Rantideva attained the perfection that people long for; he honored sages with fruits, leaves and roots."
+          }
         },
         {
           "n": 8,
-          "text": "तैरेव फलपत्रैश्च स माठरमतोषयत् ।\nतस्माल्लेभे परं स्थानं शैब्योऽपि पृथिवीपतिः ॥"
+          "text": "तैरेव फलपत्रैश्च स माठरमतोषयत् ।\nतस्माल्लेभे परं स्थानं शैब्योऽपि पृथिवीपतिः ॥",
+          "meaning": {
+            "en": "With those same fruits and leaves he pleased Mathara; and from this the king of the Shibis too gained a supreme state."
+          }
         },
         {
           "n": 9,
-          "text": "देवतातिथिभृत्येभ्यः पितृभ्योऽथात्मनस्तथा ।\nऋणवाञ्जायते मर्त्यस्तस्मादनृणतां व्रजेत् ॥"
+          "text": "देवतातिथिभृत्येभ्यः पितृभ्योऽथात्मनस्तथा ।\nऋणवाञ्जायते मर्त्यस्तस्मादनृणतां व्रजेत् ॥",
+          "meaning": {
+            "en": "A mortal is born in debt to the gods, to guests, to dependents, to the ancestors and to himself; so he should become free of debt."
+          }
         },
         {
           "n": 10,
-          "text": "स्वाध्यायेन महर्षिभ्यो देवेभ्यो यज्ञकर्मणा ।\nपितृभ्यः श्राद्धदानेन नृणामभ्यर्चनेन च ॥"
+          "text": "स्वाध्यायेन महर्षिभ्यो देवेभ्यो यज्ञकर्मणा ।\nपितृभ्यः श्राद्धदानेन नृणामभ्यर्चनेन च ॥",
+          "meaning": {
+            "en": "He does so by study to the great sages, by sacrifice to the gods, by the offering of shraddha to the ancestors, and by honoring men."
+          }
         },
         {
           "n": 11,
-          "text": "वाचः शेषावहार्येण पालनेनात्मनोऽपि च ।\nयथावद्भृत्यवर्गस्य चिकीर्षेद्धर्ममादितः ॥"
+          "text": "वाचः शेषावहार्येण पालनेनात्मनोऽपि च ।\nयथावद्भृत्यवर्गस्य चिकीर्षेद्धर्ममादितः ॥",
+          "meaning": {
+            "en": "One should wish to practice dharma from the start by keeping the remainder of one's speech under control, by protecting oneself, and by properly caring for the group of dependents."
+          }
         },
         {
           "n": 12,
-          "text": "प्रयत्नेन च संसिद्धा धनैरपि विवर्जिताः ।\nसम्यग्घुत्वा हुतवहं मुनयः सिद्धिमागताः ॥"
+          "text": "प्रयत्नेन च संसिद्धा धनैरपि विवर्जिताः ।\nसम्यग्घुत्वा हुतवहं मुनयः सिद्धिमागताः ॥",
+          "meaning": {
+            "en": "Even without wealth, sages who strove hard and offered rightly into the fire reached perfection."
+          }
         },
         {
           "n": 13,
-          "text": "विश्वामित्रस्य पुत्रत्वमृचीकतनयोऽगमत् ।\nऋग्भिः स्तुत्वा महाभागो देवान्वै यज्ञभागिनः ॥"
+          "text": "विश्वामित्रस्य पुत्रत्वमृचीकतनयोऽगमत् ।\nऋग्भिः स्तुत्वा महाभागो देवान्वै यज्ञभागिनः ॥",
+          "meaning": {
+            "en": "The son of Richika became the son of Vishvamitra, having praised with Rig verses the gods who share in sacrifice and being greatly fortunate."
+          }
         },
         {
           "n": 14,
-          "text": "गतः शुक्रत्वमुशना देवदेवप्रसादनात् ।\nदेवीं स्तुत्वा तु गगने मोदते तेजसा वृतः ॥"
+          "text": "गतः शुक्रत्वमुशना देवदेवप्रसादनात् ।\nदेवीं स्तुत्वा तु गगने मोदते तेजसा वृतः ॥",
+          "meaning": {
+            "en": "Ushanas gained the state of Shukra by pleasing the god of gods; and having praised the goddess he rejoices in the sky, surrounded by radiance."
+          }
         },
         {
           "n": 15,
-          "text": "असितो देवलश्चैव तथा नारदपर्वतौ ।\nकक्षीवाञ्जामदग्न्यश्च रामस्ताण्ड्यस्तथांशुमान् ॥"
+          "text": "असितो देवलश्चैव तथा नारदपर्वतौ ।\nकक्षीवाञ्जामदग्न्यश्च रामस्ताण्ड्यस्तथांशुमान् ॥",
+          "meaning": {
+            "en": "Asita and Devala, Narada and Parvata, Kakshivan, the son of Jamadagni, Rama, Tandya and Amshuman,"
+          }
         },
         {
           "n": 16,
-          "text": "वसिष्ठो जमदग्निश्च विश्वामित्रोऽत्रिरेव च ।\nभरद्वाजो हरिश्मश्रुः कुण्डधारः श्रुतश्रवाः ॥"
+          "text": "वसिष्ठो जमदग्निश्च विश्वामित्रोऽत्रिरेव च ।\nभरद्वाजो हरिश्मश्रुः कुण्डधारः श्रुतश्रवाः ॥",
+          "meaning": {
+            "en": "Vasishtha, Jamadagni, Vishvamitra and Atri, Bharadvaja, Harishmashru, Kundadhara and Shrutashravas:"
+          }
         },
         {
           "n": 17,
-          "text": "एते महर्षयः स्तुत्वा विष्णुमृग्भिः समाहिताः ।\nलेभिरे तपसा सिद्धिं प्रसादात्तस्य धीमतः ॥"
+          "text": "एते महर्षयः स्तुत्वा विष्णुमृग्भिः समाहिताः ।\nलेभिरे तपसा सिद्धिं प्रसादात्तस्य धीमतः ॥",
+          "meaning": {
+            "en": "these great sages, having praised Vishnu with Rig verses, collected in mind, gained perfection through austerity by the grace of that wise one."
+          }
         },
         {
           "n": 18,
-          "text": "अनर्हाश्चार्हतां प्राप्ताः सन्तः स्तुत्वा तमेव ह ।\nन तु वृद्धिमिहान्विच्छेत्कर्म कृत्वा जुगुप्सितम् ॥"
+          "text": "अनर्हाश्चार्हतां प्राप्ताः सन्तः स्तुत्वा तमेव ह ।\nन तु वृद्धिमिहान्विच्छेत्कर्म कृत्वा जुगुप्सितम् ॥",
+          "meaning": {
+            "en": "Some who were unworthy attained worthiness by praising him alone; but one should not seek prosperity here by doing despised action."
+          }
         },
         {
           "n": 19,
-          "text": "येऽर्था धर्मेण ते सत्या येऽधर्मेण धिगस्तु तान् ।\nधर्मं वै शाश्वतं लोके न जह्याद्धनकाङ्क्षया ॥"
+          "text": "येऽर्था धर्मेण ते सत्या येऽधर्मेण धिगस्तु तान् ।\nधर्मं वै शाश्वतं लोके न जह्याद्धनकाङ्क्षया ॥",
+          "meaning": {
+            "en": "Wealth gained by dharma is true wealth; as for that gained by adharma, shame on it. One should not abandon the eternal dharma in the world out of desire for wealth."
+          }
         },
         {
           "n": 20,
-          "text": "आहिताग्निर्हि धर्मात्मा यः स पुण्यकृदुत्तमः ।\nवेदा हि सर्वे राजेन्द्र स्थितास्त्रिष्वग्निषु प्रभो ॥"
+          "text": "आहिताग्निर्हि धर्मात्मा यः स पुण्यकृदुत्तमः ।\nवेदा हि सर्वे राजेन्द्र स्थितास्त्रिष्वग्निषु प्रभो ॥",
+          "meaning": {
+            "en": "For the man of dharma who keeps the sacred fires is the best of the merit-doers; and all the Vedas, king of kings, rest in the three fires."
+          }
         },
         {
           "n": 21,
-          "text": "स चाप्यग्न्याहितो विप्रः क्रिया यस्य न हीयते ।\nश्रेयो ह्यनाहिताग्नित्वमग्निहोत्रं न निष्क्रियम् ॥"
+          "text": "स चाप्यग्न्याहितो विप्रः क्रिया यस्य न हीयते ।\nश्रेयो ह्यनाहिताग्नित्वमग्निहोत्रं न निष्क्रियम् ॥",
+          "meaning": {
+            "en": "That Brahmin too, whose rites do not lapse, is a keeper of the fires; better to keep no fire than an Agnihotra with no action."
+          }
         },
         {
           "n": 22,
-          "text": "अग्निरात्मा च माता च पिता जनयिता तथा ।\nगुरुश्च नरशार्दूल परिचर्या यथातथम् ॥"
+          "text": "अग्निरात्मा च माता च पिता जनयिता तथा ।\nगुरुश्च नरशार्दूल परिचर्या यथातथम् ॥",
+          "meaning": {
+            "en": "Fire, the self, mother, father, the begetter and the teacher: service to these, tiger among men, is to be done as is right."
+          }
         },
         {
           "n": 23,
-          "text": "मानं त्यक्त्वा यो नरो वृद्धसेवी\nविद्वान्क्लीबः पश्यति प्रीतियोगात् ।\nदाक्ष्येणाहीनो धर्मयुक्तो नदान्तो\nलोकेऽस्मिन्वै पूज्यते सद्भिरार्यः ॥"
+          "text": "मानं त्यक्त्वा यो नरो वृद्धसेवी\nविद्वान्क्लीबः पश्यति प्रीतियोगात् ।\nदाक्ष्येणाहीनो धर्मयुक्तो नदान्तो\nलोकेऽस्मिन्वै पूज्यते सद्भिरार्यः ॥",
+          "meaning": {
+            "en": "The man who, giving up pride, serves the elders, the learned even if gentle and unmanly, who sees things through affection and is not lacking in skill, who is joined to dharma and self-controlled, is honored in this world by the good as a noble one."
+          }
         }
       ]
     }

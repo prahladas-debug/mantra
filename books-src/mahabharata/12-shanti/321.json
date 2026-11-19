@@ -22,185 +22,323 @@
       "titleEn": "Mokshadharma Parva (Duties for liberation)",
       "verses": [
         {
-          "text": "युधिष्ठिर उवाच"
+          "text": "युधिष्ठिर उवाच",
+          "meaning": {
+            "en": "Yudhishthira said:"
+          }
         },
         {
           "n": 1,
-          "text": "गृहस्थो ब्रह्मचारी वा वानप्रस्थोऽथ भिक्षुकः ।\nय इच्छेत्सिद्धिमास्थातुं देवतां कां यजेत सः ॥"
+          "text": "गृहस्थो ब्रह्मचारी वा वानप्रस्थोऽथ भिक्षुकः ।\nय इच्छेत्सिद्धिमास्थातुं देवतां कां यजेत सः ॥",
+          "meaning": {
+            "en": "A householder, a student, a forest dweller, or a mendicant who wishes to attain perfection: which deity should he worship?"
+          }
         },
         {
           "n": 2,
-          "text": "कुतो ह्यस्य ध्रुवः स्वर्गः कुतो निःश्रेयसं परम् ।\nविधिना केन जुहुयाद्दैवं पित्र्यं तथैव च ॥"
+          "text": "कुतो ह्यस्य ध्रुवः स्वर्गः कुतो निःश्रेयसं परम् ।\nविधिना केन जुहुयाद्दैवं पित्र्यं तथैव च ॥",
+          "meaning": {
+            "en": "How does he gain a lasting heaven, and how the supreme highest good? By what rite should he offer to the gods and to the ancestors?"
+          }
         },
         {
           "n": 3,
-          "text": "मुक्तश्च कां गतिं गच्छेन्मोक्षश्चैव किमात्मकः ।\nस्वर्गतश्चैव किं कुर्याद्येन न च्यवते दिवः ॥"
+          "text": "मुक्तश्च कां गतिं गच्छेन्मोक्षश्चैव किमात्मकः ।\nस्वर्गतश्चैव किं कुर्याद्येन न च्यवते दिवः ॥",
+          "meaning": {
+            "en": "What state does the liberated one reach, and what is the nature of liberation itself? And what should one in heaven do so as not to fall from it?"
+          }
         },
         {
           "n": 4,
-          "text": "देवतानां च को देवः पितॄणां च तथा पिता ।\nतस्मात्परतरं यच्च तन्मे ब्रूहि पितामह ॥"
+          "text": "देवतानां च को देवः पितॄणां च तथा पिता ।\nतस्मात्परतरं यच्च तन्मे ब्रूहि पितामह ॥",
+          "meaning": {
+            "en": "Who is the god of the gods and the father of the ancestors? And what is higher than that? Tell me, grandfather."
+          }
         },
         {
-          "text": "भीष्म उवाच"
+          "text": "भीष्म उवाच",
+          "meaning": {
+            "en": "Bhishma said:"
+          }
         },
         {
           "n": 5,
-          "text": "गूढं मां प्रश्नवित्प्रश्नं पृच्छसे त्वमिहानघ ।\nन ह्येष तर्कया शक्यो वक्तुं वर्षशतैरपि ॥"
+          "text": "गूढं मां प्रश्नवित्प्रश्नं पृच्छसे त्वमिहानघ ।\nन ह्येष तर्कया शक्यो वक्तुं वर्षशतैरपि ॥",
+          "meaning": {
+            "en": "You ask me, blameless one, a hidden question that only one who knows how to question could ask; it cannot be answered by argument even in hundreds of years,"
+          }
         },
         {
           "n": 6,
-          "text": "ऋते देवप्रसादाद्वा राजञ्ज्ञानागमेन वा ।\nगहनं ह्येतदाख्यानं व्याख्यातव्यं तवारिहन् ॥"
+          "text": "ऋते देवप्रसादाद्वा राजञ्ज्ञानागमेन वा ।\nगहनं ह्येतदाख्यानं व्याख्यातव्यं तवारिहन् ॥",
+          "meaning": {
+            "en": "except by the grace of a god or through the tradition of knowledge. This account is deep and must be explained to you, slayer of foes."
+          }
         },
         {
           "n": 7,
-          "text": "अत्राप्युदाहरन्तीममितिहासं पुरातनम् ।\nनारदस्य च संवादमृषेर्नारायणस्य च ॥"
+          "text": "अत्राप्युदाहरन्तीममितिहासं पुरातनम् ।\nनारदस्य च संवादमृषेर्नारायणस्य च ॥",
+          "meaning": {
+            "en": "On this they cite an ancient account, the conversation of Narada with the sage Narayana."
+          }
         },
         {
           "n": 8,
-          "text": "नारायणो हि विश्वात्मा चतुर्मूर्तिः सनातनः ।\nधर्मात्मजः संबभूव पितैवं मेऽभ्यभाषत ॥"
+          "text": "नारायणो हि विश्वात्मा चतुर्मूर्तिः सनातनः ।\nधर्मात्मजः संबभूव पितैवं मेऽभ्यभाषत ॥",
+          "meaning": {
+            "en": "Narayana, the soul of the universe, eternal, of four forms, was born as Dharma's son; my father told me so."
+          }
         },
         {
           "n": 9,
-          "text": "कृते युगे महाराज पुरा स्वायंभुवेऽन्तरे ।\nनरो नारायणश्चैव हरिः कृष्णस्तथैव च ॥"
+          "text": "कृते युगे महाराज पुरा स्वायंभुवेऽन्तरे ।\nनरो नारायणश्चैव हरिः कृष्णस्तथैव च ॥",
+          "meaning": {
+            "en": "In the Krita age, great king, in the first Manu's interval, there were Nara, Narayana, Hari, and Krishna."
+          }
         },
         {
           "n": 10,
-          "text": "तेभ्यो नारायणनरौ तपस्तेपतुरव्ययौ ।\nबदर्याश्रममासाद्य शकटे कनकामये ॥"
+          "text": "तेभ्यो नारायणनरौ तपस्तेपतुरव्ययौ ।\nबदर्याश्रममासाद्य शकटे कनकामये ॥",
+          "meaning": {
+            "en": "Of these, Narayana and Nara, the imperishable, practiced austerity at the hermitage of Badari, in a golden cart."
+          }
         },
         {
           "n": 11,
-          "text": "अष्टचक्रं हि तद्यानं भूतयुक्तं मनोरमम् ।\nतत्राद्यौ लोकनाथौ तौ कृशौ धमनिसंततौ ॥"
+          "text": "अष्टचक्रं हि तद्यानं भूतयुक्तं मनोरमम् ।\nतत्राद्यौ लोकनाथौ तौ कृशौ धमनिसंततौ ॥",
+          "meaning": {
+            "en": "That vehicle was eight-wheeled, delightful, and yoked with beings. There the two original lords of the world, lean, with veins showing,"
+          }
         },
         {
           "n": 12,
-          "text": "तपसा तेजसा चैव दुर्निरीक्षौ सुरैरपि ।\nयस्य प्रसादं कुर्वाते स देवौ द्रष्टुमर्हति ॥"
+          "text": "तपसा तेजसा चैव दुर्निरीक्षौ सुरैरपि ।\nयस्य प्रसादं कुर्वाते स देवौ द्रष्टुमर्हति ॥",
+          "meaning": {
+            "en": "hard to look at even for the gods because of their austerity and splendor: only one to whom they show favor may see those two gods."
+          }
         },
         {
           "n": 13,
-          "text": "नूनं तयोरनुमते हृदि हृच्छयचोदितः ।\nमहामेरोर्गिरेः शृङ्गात्प्रच्युतो गन्धमादनम् ॥"
+          "text": "नूनं तयोरनुमते हृदि हृच्छयचोदितः ।\nमहामेरोर्गिरेः शृङ्गात्प्रच्युतो गन्धमादनम् ॥",
+          "meaning": {
+            "en": "Surely with their consent, driven by the love-god in his heart, Narada came down from the peak of the great mountain Meru to Gandhamadana,"
+          }
         },
         {
           "n": 14,
-          "text": "नारदः सुमहद्भूतं लोकान्सर्वानचीचरत् ।\nतं देशमगमद्राजन्बदर्याश्रममाशुगः ॥"
+          "text": "नारदः सुमहद्भूतं लोकान्सर्वानचीचरत् ।\nतं देशमगमद्राजन्बदर्याश्रममाशुगः ॥",
+          "meaning": {
+            "en": "that being of great stature who roamed all the worlds, and swiftly came to the hermitage of Badari, king."
+          }
         },
         {
           "n": 15,
-          "text": "तयोराह्निकवेलायां तस्य कौतूहलं त्वभूत् ।\nइदं तदास्पदं कृत्स्नं यस्मिँल्लोकाः प्रतिष्ठिताः ॥"
+          "text": "तयोराह्निकवेलायां तस्य कौतूहलं त्वभूत् ।\nइदं तदास्पदं कृत्स्नं यस्मिँल्लोकाः प्रतिष्ठिताः ॥",
+          "meaning": {
+            "en": "At the time of their daily rites, curiosity arose in him: \"This is the entire seat on which the worlds rest,"
+          }
         },
         {
           "n": 16,
-          "text": "सदेवासुरगन्धर्वाः सर्षिकिंनरलेलिहाः ।\nएका मूर्तिरियं पूर्वं जाता भूयश्चतुर्विधा ॥"
+          "text": "सदेवासुरगन्धर्वाः सर्षिकिंनरलेलिहाः ।\nएका मूर्तिरियं पूर्वं जाता भूयश्चतुर्विधा ॥",
+          "meaning": {
+            "en": "with gods, asuras, and gandharvas, with sages, kinnaras, and snakes. This one form was first born, then again fourfold."
+          }
         },
         {
           "n": 17,
-          "text": "धर्मस्य कुलसंतानो महानेभिर्विवर्धितः ।\nअहो ह्यनुगृहीतोऽद्य धर्म एभिः सुरैरिह ।\nनरनारायणाभ्यां च कृष्णेन हरिणा तथा ॥"
+          "text": "धर्मस्य कुलसंतानो महानेभिर्विवर्धितः ।\nअहो ह्यनुगृहीतोऽद्य धर्म एभिः सुरैरिह ।\nनरनारायणाभ्यां च कृष्णेन हरिणा तथा ॥",
+          "meaning": {
+            "en": "By them the great family line of Dharma has grown. Oh, how Dharma has been favored today by these gods here, by Nara and Narayana, and by Krishna and Hari."
+          }
         },
         {
           "n": 18,
-          "text": "तत्र कृष्णो हरिश्चैव कस्मिंश्चित्कारणान्तरे ।\nस्थितौ धर्मोत्तरौ ह्येतौ तथा तपसि धिष्ठितौ ॥"
+          "text": "तत्र कृष्णो हरिश्चैव कस्मिंश्चित्कारणान्तरे ।\nस्थितौ धर्मोत्तरौ ह्येतौ तथा तपसि धिष्ठितौ ॥",
+          "meaning": {
+            "en": "Of these, Krishna and Hari for some other reason stay here, supreme in dharma and intent on austerity."
+          }
         },
         {
           "n": 19,
-          "text": "एतौ हि परमं धाम कानयोराह्निकक्रिया ।\nपितरौ सर्वभूतानां दैवतं च यशस्विनौ ।\nकां देवतां नु यजतः पितॄन्वा कान्महामती ॥"
+          "text": "एतौ हि परमं धाम कानयोराह्निकक्रिया ।\nपितरौ सर्वभूतानां दैवतं च यशस्विनौ ।\nकां देवतां नु यजतः पितॄन्वा कान्महामती ॥",
+          "meaning": {
+            "en": "These are the highest abode; what is their daily rite? These renowned parents and deities of all beings, great-minded ones: which deity do they worship, or which ancestors?\""
+          }
         },
         {
           "n": 20,
-          "text": "इति संचिन्त्य मनसा भक्त्या नारायणस्य ह ।\nसहसा प्रादुरभवत्समीपे देवयोस्तदा ॥"
+          "text": "इति संचिन्त्य मनसा भक्त्या नारायणस्य ह ।\nसहसा प्रादुरभवत्समीपे देवयोस्तदा ॥",
+          "meaning": {
+            "en": "So reflecting, by devotion to Narayana he suddenly appeared before the two gods."
+          }
         },
         {
           "n": 21,
-          "text": "कृते दैवे च पित्र्ये च ततस्ताभ्यां निरीक्षितः ।\nपूजितश्चैव विधिना यथाप्रोक्तेन शास्त्रतः ॥"
+          "text": "कृते दैवे च पित्र्ये च ततस्ताभ्यां निरीक्षितः ।\nपूजितश्चैव विधिना यथाप्रोक्तेन शास्त्रतः ॥",
+          "meaning": {
+            "en": "The two had completed their rites to gods and ancestors, and then they looked at him and honored him by the rite as prescribed in the texts."
+          }
         },
         {
           "n": 22,
-          "text": "तं दृष्ट्वा महदाश्चर्यमपूर्वं विधिविस्तरम् ।\nउपोपविष्टः सुप्रीतो नारदो भगवानृषिः ॥"
+          "text": "तं दृष्ट्वा महदाश्चर्यमपूर्वं विधिविस्तरम् ।\nउपोपविष्टः सुप्रीतो नारदो भगवानृषिः ॥",
+          "meaning": {
+            "en": "Seeing that great and unprecedented marvel of ritual detail, the blessed sage Narada sat beside them, delighted."
+          }
         },
         {
           "n": 23,
-          "text": "नारायणं संनिरीक्ष्य प्रसन्नेनान्तरात्मना ।\nनमस्कृत्वा महादेवमिदं वचनमब्रवीत् ॥"
+          "text": "नारायणं संनिरीक्ष्य प्रसन्नेनान्तरात्मना ।\nनमस्कृत्वा महादेवमिदं वचनमब्रवीत् ॥",
+          "meaning": {
+            "en": "Looking at Narayana with a serene heart, he bowed to the great god and spoke these words."
+          }
         },
         {
           "n": 24,
-          "text": "वेदेषु सपुराणेषु साङ्गोपाङ्गेषु गीयसे ।\nत्वमजः शाश्वतो धाता मतोऽमृतमनुत्तमम् ।\nप्रतिष्ठितं भूतभव्यं त्वयि सर्वमिदं जगत् ॥"
+          "text": "वेदेषु सपुराणेषु साङ्गोपाङ्गेषु गीयसे ।\nत्वमजः शाश्वतो धाता मतोऽमृतमनुत्तमम् ।\nप्रतिष्ठितं भूतभव्यं त्वयि सर्वमिदं जगत् ॥",
+          "meaning": {
+            "en": "\"You are sung in the Vedas with the Puranas and their limbs and sub-limbs as unborn, eternal, the creator, held to be the supreme nectar. In you is established this whole world, past and future."
+          }
         },
         {
           "n": 25,
-          "text": "चत्वारो ह्याश्रमा देव सर्वे गार्हस्थ्यमूलकाः ।\nयजन्ते त्वामहरहर्नानामूर्तिसमास्थितम् ॥"
+          "text": "चत्वारो ह्याश्रमा देव सर्वे गार्हस्थ्यमूलकाः ।\nयजन्ते त्वामहरहर्नानामूर्तिसमास्थितम् ॥",
+          "meaning": {
+            "en": "All four stages of life, O god, have the householder's as root; they worship you daily, abiding in many forms."
+          }
         },
         {
           "n": 26,
-          "text": "पिता माता च सर्वस्य जगतः शाश्वतो गुरुः ।\nकं त्वद्य यजसे देवं पितरं कं न विद्महे ॥"
+          "text": "पिता माता च सर्वस्य जगतः शाश्वतो गुरुः ।\nकं त्वद्य यजसे देवं पितरं कं न विद्महे ॥",
+          "meaning": {
+            "en": "You are the father and mother of the whole world, its eternal teacher. Which god do you worship today? We do not know of any father of yours.\""
+          }
         },
         {
-          "text": "श्रीभगवानुवाच"
+          "text": "श्रीभगवानुवाच",
+          "meaning": {
+            "en": "The Blessed One said:"
+          }
         },
         {
           "n": 27,
-          "text": "अवाच्यमेतद्वक्तव्यमात्मगुह्यं सनातनम् ।\nतव भक्तिमतो ब्रह्मन्वक्ष्यामि तु यथातथम् ॥"
+          "text": "अवाच्यमेतद्वक्तव्यमात्मगुह्यं सनातनम् ।\nतव भक्तिमतो ब्रह्मन्वक्ष्यामि तु यथातथम् ॥",
+          "meaning": {
+            "en": "This is not to be spoken, yet it must be told: an eternal secret of the Self. To you, devoted, brahmin, I will tell it truly."
+          }
         },
         {
           "n": 28,
-          "text": "यत्तत्सूक्ष्ममविज्ञेयमव्यक्तमचलं ध्रुवम् ।\nइन्द्रियैरिन्द्रियार्थैश्च सर्वभूतैश्च वर्जितम् ॥"
+          "text": "यत्तत्सूक्ष्ममविज्ञेयमव्यक्तमचलं ध्रुवम् ।\nइन्द्रियैरिन्द्रियार्थैश्च सर्वभूतैश्च वर्जितम् ॥",
+          "meaning": {
+            "en": "That which is subtle, unknowable, unmanifest, unmoving, constant, free of the senses and their objects and of all beings,"
+          }
         },
         {
           "n": 29,
-          "text": "स ह्यन्तरात्मा भूतानां क्षेत्रज्ञश्चेति कथ्यते ।\nत्रिगुणव्यतिरिक्तोऽसौ पुरुषश्चेति कल्पितः ।\nतस्मादव्यक्तमुत्पन्नं त्रिगुणं द्विजसत्तम ॥"
+          "text": "स ह्यन्तरात्मा भूतानां क्षेत्रज्ञश्चेति कथ्यते ।\nत्रिगुणव्यतिरिक्तोऽसौ पुरुषश्चेति कल्पितः ।\nतस्मादव्यक्तमुत्पन्नं त्रिगुणं द्विजसत्तम ॥",
+          "meaning": {
+            "en": "is the inner Self of beings and is called the knower of the field. It is conceived as the Person, apart from the three qualities. From it the unmanifest with three qualities arose, best of the twice-born."
+          }
         },
         {
           "n": 30,
-          "text": "अव्यक्ता व्यक्तभावस्था या सा प्रकृतिरव्यया ।\nतां योनिमावयोर्विद्धि योऽसौ सदसदात्मकः ।\nआवाभ्यां पूज्यतेऽसौ हि दैवे पित्र्ये च कल्पिते ॥"
+          "text": "अव्यक्ता व्यक्तभावस्था या सा प्रकृतिरव्यया ।\nतां योनिमावयोर्विद्धि योऽसौ सदसदात्मकः ।\nआवाभ्यां पूज्यतेऽसौ हि दैवे पित्र्ये च कल्पिते ॥",
+          "meaning": {
+            "en": "The unmanifest abiding in the manifest state is imperishable nature. Know that as the source of us two; that which is both being and non-being is worshiped by us two, in rites for gods and ancestors prescribed."
+          }
         },
         {
           "n": 31,
-          "text": "नास्ति तस्मात्परोऽन्यो हि पिता देवोऽथ वा द्विजः ।\nआत्मा हि नौ स विज्ञेयस्ततस्तं पूजयावहे ॥"
+          "text": "नास्ति तस्मात्परोऽन्यो हि पिता देवोऽथ वा द्विजः ।\nआत्मा हि नौ स विज्ञेयस्ततस्तं पूजयावहे ॥",
+          "meaning": {
+            "en": "Than that there is no other father, god, or brahmin higher. It is to be known as our Self, and so we two worship it."
+          }
         },
         {
           "n": 32,
-          "text": "तेनैषा प्रथिता ब्रह्मन्मर्यादा लोकभाविनी ।\nदैवं पित्र्यं च कर्तव्यमिति तस्यानुशासनम् ॥"
+          "text": "तेनैषा प्रथिता ब्रह्मन्मर्यादा लोकभाविनी ।\nदैवं पित्र्यं च कर्तव्यमिति तस्यानुशासनम् ॥",
+          "meaning": {
+            "en": "By it was established this boundary that sustains the world: rites to gods and ancestors must be done; this is its command."
+          }
         },
         {
           "n": 33,
-          "text": "ब्रह्मा स्थाणुर्मनुर्दक्षो भृगुर्धर्मस्तपो दमः ।\nमरीचिरङ्गिरात्रिश्च पुलस्त्यः पुलहः क्रतुः ॥"
+          "text": "ब्रह्मा स्थाणुर्मनुर्दक्षो भृगुर्धर्मस्तपो दमः ।\nमरीचिरङ्गिरात्रिश्च पुलस्त्यः पुलहः क्रतुः ॥",
+          "meaning": {
+            "en": "Brahma, Sthanu, Manu, Daksha, Bhrigu, Dharma, Tapas, Dama, Marichi, Angiras, Atri, Pulastya, Pulaha, Kratu,"
+          }
         },
         {
           "n": 34,
-          "text": "वसिष्ठः परमेष्ठी च विवस्वान्सोम एव च ।\nकर्दमश्चापि यः प्रोक्तः क्रोधो विक्रीत एव च ॥"
+          "text": "वसिष्ठः परमेष्ठी च विवस्वान्सोम एव च ।\nकर्दमश्चापि यः प्रोक्तः क्रोधो विक्रीत एव च ॥",
+          "meaning": {
+            "en": "Vasishtha, Parameshthi, Vivasvan, Soma, Kardama who was mentioned, Krodha, and Vikrita:"
+          }
         },
         {
           "n": 35,
-          "text": "एकविंशतिरुत्पन्नास्ते प्रजापतयः स्मृताः ।\nतस्य देवस्य मर्यादां पूजयन्ति सनातनीम् ॥"
+          "text": "एकविंशतिरुत्पन्नास्ते प्रजापतयः स्मृताः ।\nतस्य देवस्य मर्यादां पूजयन्ति सनातनीम् ॥",
+          "meaning": {
+            "en": "these twenty-one born ones are remembered as the Prajapatis. They honor that god's eternal boundary."
+          }
         },
         {
           "n": 36,
-          "text": "दैवं पित्र्यं च सततं तस्य विज्ञाय तत्त्वतः ।\nआत्मप्राप्तानि च ततो जानन्ति द्विजसत्तमाः ॥"
+          "text": "दैवं पित्र्यं च सततं तस्य विज्ञाय तत्त्वतः ।\nआत्मप्राप्तानि च ततो जानन्ति द्विजसत्तमाः ॥",
+          "meaning": {
+            "en": "Knowing truly his rites to gods and ancestors, the best of the twice-born also know what is attained by the Self."
+          }
         },
         {
           "n": 37,
-          "text": "स्वर्गस्था अपि ये केचित्तं नमस्यन्ति देहिनः ।\nते तत्प्रसादाद्गच्छन्ति तेनादिष्टफलां गतिम् ॥"
+          "text": "स्वर्गस्था अपि ये केचित्तं नमस्यन्ति देहिनः ।\nते तत्प्रसादाद्गच्छन्ति तेनादिष्टफलां गतिम् ॥",
+          "meaning": {
+            "en": "Even those embodied beings who are in heaven and bow to him go, by his grace, to the destination whose fruit he has appointed."
+          }
         },
         {
           "n": 38,
-          "text": "ये हीनाः सप्तदशभिर्गुणैः कर्मभिरेव च ।\nकलाः पञ्चदश त्यक्त्वा ते मुक्ता इति निश्चयः ॥"
+          "text": "ये हीनाः सप्तदशभिर्गुणैः कर्मभिरेव च ।\nकलाः पञ्चदश त्यक्त्वा ते मुक्ता इति निश्चयः ॥",
+          "meaning": {
+            "en": "Those who are free of the seventeen qualities and of deeds, having left the fifteen parts, are certainly liberated."
+          }
         },
         {
           "n": 39,
-          "text": "मुक्तानां तु गतिर्ब्रह्मन्क्षेत्रज्ञ इति कल्पितः ।\nस हि सर्वगतश्चैव निर्गुणश्चैव कथ्यते ॥"
+          "text": "मुक्तानां तु गतिर्ब्रह्मन्क्षेत्रज्ञ इति कल्पितः ।\nस हि सर्वगतश्चैव निर्गुणश्चैव कथ्यते ॥",
+          "meaning": {
+            "en": "The destination of the liberated, brahmin, is conceived as the knower of the field, who is said to be all-pervading and free of qualities."
+          }
         },
         {
           "n": 40,
-          "text": "दृश्यते ज्ञानयोगेन आवां च प्रसृतौ ततः ।\nएवं ज्ञात्वा तमात्मानं पूजयावः सनातनम् ॥"
+          "text": "दृश्यते ज्ञानयोगेन आवां च प्रसृतौ ततः ।\nएवं ज्ञात्वा तमात्मानं पूजयावः सनातनम् ॥",
+          "meaning": {
+            "en": "He is seen by the yoga of knowledge, and we two have spread from him. Knowing that Self thus, we two worship the eternal one."
+          }
         },
         {
           "n": 41,
-          "text": "तं वेदाश्चाश्रमाश्चैव नानातनुसमास्थिताः ।\nभक्त्या संपूजयन्त्याद्यं गतिं चैषां ददाति सः ॥"
+          "text": "तं वेदाश्चाश्रमाश्चैव नानातनुसमास्थिताः ।\nभक्त्या संपूजयन्त्याद्यं गतिं चैषां ददाति सः ॥",
+          "meaning": {
+            "en": "The Vedas and the stages of life, abiding in many bodies, worship him, the original one, with devotion, and he gives them their destination."
+          }
         },
         {
           "n": 42,
-          "text": "ये तु तद्भाविता लोके एकान्तित्वं समास्थिताः ।\nएतदभ्यधिकं तेषां यत्ते तं प्रविशन्त्युत ॥"
+          "text": "ये तु तद्भाविता लोके एकान्तित्वं समास्थिताः ।\nएतदभ्यधिकं तेषां यत्ते तं प्रविशन्त्युत ॥",
+          "meaning": {
+            "en": "Those in the world who are devoted to him and have taken to exclusive devotion have this extra: they enter into him."
+          }
         },
         {
           "n": 43,
-          "text": "इति गुह्यसमुद्देशस्तव नारद कीर्तितः ।\nभक्त्या प्रेम्णा च विप्रर्षे अस्मद्भक्त्या च ते श्रुतः ॥"
+          "text": "इति गुह्यसमुद्देशस्तव नारद कीर्तितः ।\nभक्त्या प्रेम्णा च विप्रर्षे अस्मद्भक्त्या च ते श्रुतः ॥",
+          "meaning": {
+            "en": "Thus the secret instruction has been recounted to you, Narada, and you have heard it through your devotion and love, brahmin sage, and through devotion to us.\""
+          }
         }
       ]
     }

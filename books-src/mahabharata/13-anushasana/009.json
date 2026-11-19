@@ -22,106 +22,184 @@
       "titleEn": "Anushasanika Parva (The instructions)",
       "verses": [
         {
-          "text": "युधिष्ठिर उवाच"
+          "text": "युधिष्ठिर उवाच",
+          "meaning": {
+            "en": "Yudhishthira said:"
+          }
         },
         {
           "n": 1,
-          "text": "ब्राह्मणानां तु ये लोके प्रतिश्रुत्य पितामह ।\nन प्रयच्छन्ति मोहात्ते के भवन्ति महामते ॥"
+          "text": "ब्राह्मणानां तु ये लोके प्रतिश्रुत्य पितामह ।\nन प्रयच्छन्ति मोहात्ते के भवन्ति महामते ॥",
+          "meaning": {
+            "en": "Grandfather, great-minded one, what do those people become who, having promised brahmins something, do not give it out of delusion?"
+          }
         },
         {
           "n": 2,
-          "text": "एतन्मे तत्त्वतो ब्रूहि धर्मं धर्मभृतां वर ।\nप्रतिश्रुत्य दुरात्मानो न प्रयच्छन्ति ये नराः ॥"
+          "text": "एतन्मे तत्त्वतो ब्रूहि धर्मं धर्मभृतां वर ।\nप्रतिश्रुत्य दुरात्मानो न प्रयच्छन्ति ये नराः ॥",
+          "meaning": {
+            "en": "Tell me truly this dharma, best of the upholders of dharma: what becomes of wicked men who promise and do not give?"
+          }
         },
         {
-          "text": "भीष्म उवाच"
+          "text": "भीष्म उवाच",
+          "meaning": {
+            "en": "Bhishma said:"
+          }
         },
         {
           "n": 3,
-          "text": "यो न दद्यात्प्रतिश्रुत्य स्वल्पं वा यदि वा बहु ।\nआशास्तस्य हताः सर्वाः क्लीबस्येव प्रजाफलम् ॥"
+          "text": "यो न दद्यात्प्रतिश्रुत्य स्वल्पं वा यदि वा बहु ।\nआशास्तस्य हताः सर्वाः क्लीबस्येव प्रजाफलम् ॥",
+          "meaning": {
+            "en": "One who does not give what he promised, little or much, has all his hopes destroyed, like the hope of children for an impotent man."
+          }
         },
         {
           "n": 4,
-          "text": "यां रात्रिं जायते पापो यां च रात्रिं विनश्यति ।\nएतस्मिन्नन्तरे यद्यत्सुकृतं तस्य भारत ।\nयच्च तस्य हुतं किंचित्सर्वं तस्योपहन्यते ॥"
+          "text": "यां रात्रिं जायते पापो यां च रात्रिं विनश्यति ।\nएतस्मिन्नन्तरे यद्यत्सुकृतं तस्य भारत ।\nयच्च तस्य हुतं किंचित्सर्वं तस्योपहन्यते ॥",
+          "meaning": {
+            "en": "From the night a sinner is born to the night he dies, whatever good he has done and whatever he has offered in the fire, Bharata, is all destroyed."
+          }
         },
         {
           "n": 5,
-          "text": "अत्रैतद्वचनं प्राहुर्धर्मशास्त्रविदो जनाः ।\nनिशम्य भरतश्रेष्ठ बुद्ध्या परमयुक्तया ॥"
+          "text": "अत्रैतद्वचनं प्राहुर्धर्मशास्त्रविदो जनाः ।\nनिशम्य भरतश्रेष्ठ बुद्ध्या परमयुक्तया ॥",
+          "meaning": {
+            "en": "On this, people who know the law books have a saying; listen, best of Bharatas, and take it in with the best understanding."
+          }
         },
         {
           "n": 6,
-          "text": "अपि चोदाहरन्तीमं धर्मशास्त्रविदो जनाः ।\nअश्वानां श्यामकर्णानां सहस्रेण स मुच्यते ॥"
+          "text": "अपि चोदाहरन्तीमं धर्मशास्त्रविदो जनाः ।\nअश्वानां श्यामकर्णानां सहस्रेण स मुच्यते ॥",
+          "meaning": {
+            "en": "Those who know the law books also cite this: such a person is released only by a thousand horses with black ears."
+          }
         },
         {
           "n": 7,
-          "text": "अत्रैवोदाहरन्तीममितिहासं पुरातनम् ।\nसृगालस्य च संवादं वानरस्य च भारत ॥"
+          "text": "अत्रैवोदाहरन्तीममितिहासं पुरातनम् ।\nसृगालस्य च संवादं वानरस्य च भारत ॥",
+          "meaning": {
+            "en": "On this they cite an ancient tale, Bharata: the dialogue of a jackal and a monkey."
+          }
         },
         {
           "n": 8,
-          "text": "तौ सखायौ पुरा ह्यास्तां मानुषत्वे परंतप ।\nअन्यां योनिं समापन्नौ सार्गालीं वानरीं तथा ॥"
+          "text": "तौ सखायौ पुरा ह्यास्तां मानुषत्वे परंतप ।\nअन्यां योनिं समापन्नौ सार्गालीं वानरीं तथा ॥",
+          "meaning": {
+            "en": "Long ago, scorcher of foes, those two were friends when they were human; then they entered other wombs, one a jackal and the other a monkey."
+          }
         },
         {
           "n": 9,
-          "text": "ततः परासून्खादन्तं सृगालं वानरोऽब्रवीत् ।\nश्मशानमध्ये संप्रेक्ष्य पूर्वजातिमनुस्मरन् ॥"
+          "text": "ततः परासून्खादन्तं सृगालं वानरोऽब्रवीत् ।\nश्मशानमध्ये संप्रेक्ष्य पूर्वजातिमनुस्मरन् ॥",
+          "meaning": {
+            "en": "Then the monkey, seeing the jackal eating corpses amid a cremation ground and remembering their earlier birth, said to him:"
+          }
         },
         {
           "n": 10,
-          "text": "किं त्वया पापकं कर्म कृतं पूर्वं सुदारुणम् ।\nयस्त्वं श्मशाने मृतकान्पूतिकानत्सि कुत्सितान् ॥"
+          "text": "किं त्वया पापकं कर्म कृतं पूर्वं सुदारुणम् ।\nयस्त्वं श्मशाने मृतकान्पूतिकानत्सि कुत्सितान् ॥",
+          "meaning": {
+            "en": "\"What dreadful evil deed did you do before, that you eat putrid, loathsome corpses in a charnel ground?\""
+          }
         },
         {
           "n": 11,
-          "text": "एवमुक्तः प्रत्युवाच सृगालो वानरं तदा ।\nब्राह्मणस्य प्रतिश्रुत्य न मया तदुपाकृतम् ॥"
+          "text": "एवमुक्तः प्रत्युवाच सृगालो वानरं तदा ।\nब्राह्मणस्य प्रतिश्रुत्य न मया तदुपाकृतम् ॥",
+          "meaning": {
+            "en": "Thus addressed, the jackal replied to the monkey: \"I promised something to a brahmin and did not carry it out."
+          }
         },
         {
           "n": 12,
-          "text": "तत्कृते पापिकां योनिमापन्नोऽस्मि प्लवंगम ।\nतस्मादेवंविधं भक्ष्यं भक्षयामि बुभुक्षितः ॥"
+          "text": "तत्कृते पापिकां योनिमापन्नोऽस्मि प्लवंगम ।\nतस्मादेवंविधं भक्ष्यं भक्षयामि बुभुक्षितः ॥",
+          "meaning": {
+            "en": "Because of that, monkey, I have fallen into a sinful womb; that is why, when hungry, I eat food like this.\""
+          }
         },
         {
           "n": 13,
-          "text": "इत्येतद्ब्रुवतो राजन्ब्राह्मणस्य मया श्रुतम् ।\nकथां कथयतः पुण्यां धर्मज्ञस्य पुरातनीम् ॥"
+          "text": "इत्येतद्ब्रुवतो राजन्ब्राह्मणस्य मया श्रुतम् ।\nकथां कथयतः पुण्यां धर्मज्ञस्य पुरातनीम् ॥",
+          "meaning": {
+            "en": "King, I heard this from a brahmin, a knower of dharma, as he told that ancient holy story."
+          }
         },
         {
           "n": 14,
-          "text": "श्रुतं चापि मया भूयः कृष्णस्यापि विशां पते ।\nकथां कथयतः पूर्वं ब्राह्मणं प्रति पाण्डव ॥"
+          "text": "श्रुतं चापि मया भूयः कृष्णस्यापि विशां पते ।\nकथां कथयतः पूर्वं ब्राह्मणं प्रति पाण्डव ॥",
+          "meaning": {
+            "en": "And I have also heard it again, lord of men, Pandava, from Krishna, who told the tale to a brahmin long ago."
+          }
         },
         {
           "n": 15,
-          "text": "एवमेव च मां नित्यं ब्राह्मणाः संदिशन्ति वै ।\nप्रतिश्रुत्य भवेद्देयं नाशा कार्या हि ब्राह्मणैः ॥"
+          "text": "एवमेव च मां नित्यं ब्राह्मणाः संदिशन्ति वै ।\nप्रतिश्रुत्य भवेद्देयं नाशा कार्या हि ब्राह्मणैः ॥",
+          "meaning": {
+            "en": "In just this way brahmins always instruct me: what is promised must be given, and brahmins must not be left in hope."
+          }
         },
         {
           "n": 16,
-          "text": "ब्राह्मणो ह्याशया पूर्वं कृतया पृथिवीपते ।\nसुसमिद्धो यथा दीप्तः पावकस्तद्विधः स्मृतः ॥"
+          "text": "ब्राह्मणो ह्याशया पूर्वं कृतया पृथिवीपते ।\nसुसमिद्धो यथा दीप्तः पावकस्तद्विधः स्मृतः ॥",
+          "meaning": {
+            "en": "A brahmin who has been given hope earlier, lord of the earth, is said to be like a blazing, well-kindled fire."
+          }
         },
         {
           "n": 17,
-          "text": "यं निरीक्षेत संक्रुद्ध आशया पूर्वजातया ।\nप्रदहेत हि तं राजन्कक्षमक्षय्यभुग्यथा ॥"
+          "text": "यं निरीक्षेत संक्रुद्ध आशया पूर्वजातया ।\nप्रदहेत हि तं राजन्कक्षमक्षय्यभुग्यथा ॥",
+          "meaning": {
+            "en": "Whomever he looks upon in anger because of a hope raised earlier, king, he burns, as fire burns dry grass."
+          }
         },
         {
           "n": 18,
-          "text": "स एव हि यदा तुष्टो वचसा प्रतिनन्दति ।\nभवत्यगदसंकाशो विषये तस्य भारत ॥"
+          "text": "स एव हि यदा तुष्टो वचसा प्रतिनन्दति ।\nभवत्यगदसंकाशो विषये तस्य भारत ॥",
+          "meaning": {
+            "en": "When he is pleased and welcomes with his words, then, Bharata, he becomes like a remedy in his realm."
+          }
         },
         {
           "n": 19,
-          "text": "पुत्रान्पौत्रान्पशूंश्चैव बान्धवान्सचिवांस्तथा ।\nपुरं जनपदं चैव शान्तिरिष्टेव पुष्यति ॥"
+          "text": "पुत्रान्पौत्रान्पशूंश्चैव बान्धवान्सचिवांस्तथा ।\nपुरं जनपदं चैव शान्तिरिष्टेव पुष्यति ॥",
+          "meaning": {
+            "en": "Sons, grandsons, cattle, kinsmen, ministers, city and country: all prosper, like peace brought about by a cherished rite."
+          }
         },
         {
           "n": 20,
-          "text": "एतद्धि परमं तेजो ब्राह्मणस्येह दृश्यते ।\nसहस्रकिरणस्येव सवितुर्धरणीतले ॥"
+          "text": "एतद्धि परमं तेजो ब्राह्मणस्येह दृश्यते ।\nसहस्रकिरणस्येव सवितुर्धरणीतले ॥",
+          "meaning": {
+            "en": "This is seen to be the supreme radiance of a brahmin here, like that of the thousand-rayed sun on earth."
+          }
         },
         {
           "n": 21,
-          "text": "तस्माद्दातव्यमेवेह प्रतिश्रुत्य युधिष्ठिर ।\nयदीच्छेच्छोभनां जातिं प्राप्तुं भरतसत्तम ॥"
+          "text": "तस्माद्दातव्यमेवेह प्रतिश्रुत्य युधिष्ठिर ।\nयदीच्छेच्छोभनां जातिं प्राप्तुं भरतसत्तम ॥",
+          "meaning": {
+            "en": "Therefore, Yudhishthira, what has been promised must be given here, if one wishes to gain a fine birth, best of Bharatas."
+          }
         },
         {
           "n": 22,
-          "text": "ब्राह्मणस्य हि दत्तेन ध्रुवं स्वर्गो ह्यनुत्तमः ।\nशक्यं प्राप्तुं विशेषेण दानं हि महती क्रिया ॥"
+          "text": "ब्राह्मणस्य हि दत्तेन ध्रुवं स्वर्गो ह्यनुत्तमः ।\nशक्यं प्राप्तुं विशेषेण दानं हि महती क्रिया ॥",
+          "meaning": {
+            "en": "By giving to a brahmin one surely wins the best of heavens; giving is a great act, and especially so."
+          }
         },
         {
           "n": 23,
-          "text": "इतो दत्तेन जीवन्ति देवताः पितरस्तथा ।\nतस्माद्दानानि देयानि ब्राह्मणेभ्यो विजानता ॥"
+          "text": "इतो दत्तेन जीवन्ति देवताः पितरस्तथा ।\nतस्माद्दानानि देयानि ब्राह्मणेभ्यो विजानता ॥",
+          "meaning": {
+            "en": "The gods and ancestors live by what is given from here; so one who knows should give gifts to brahmins."
+          }
         },
         {
           "n": 24,
-          "text": "महद्धि भरतश्रेष्ठ ब्राह्मणस्तीर्थमुच्यते ।\nवेलायां न तु कस्यांचिद्गच्छेद्विप्रो ह्यपूजितः ॥"
+          "text": "महद्धि भरतश्रेष्ठ ब्राह्मणस्तीर्थमुच्यते ।\nवेलायां न तु कस्यांचिद्गच्छेद्विप्रो ह्यपूजितः ॥",
+          "meaning": {
+            "en": "A brahmin is said to be a great holy ford, best of Bharatas; a brahmin should never leave unhonored at any time."
+          }
         }
       ]
     }

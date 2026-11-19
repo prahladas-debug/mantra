@@ -17,3 +17,16 @@
 - 12.74.15 "यदा ब्रह्मा ब्रह्मणि त्राणमिच्छेत्": "ब्रह्मा" looks like a slip for "ब्रह्म"/"ब्राह्मणः"; rendered by the evident sense, a fallen non-celibate seeking protection in Brahmanahood.
 - 9.26.25 "मम ह्येतदशक्तं वै वाजिवृन्दमरिंदम": "मम" looks like a slip for "तस्य"/"तव" (it is the enemy's horses that cannot bear the bowstring's twang); rendered as "This herd of horses cannot bear the twang of the bowstring".
 - 9.28.83 "असंभावितवांश्चापि राजदारान्पुरं प्रति": "असंभावितवान्" looks like a slip for "संभावितवान्"/"अन्वगमत्"; rendered as "escorted the royal women toward the city".
+- 12.91.15 "धनात्स्रवति धर्मो हि धारणाद्वेति निश्चयः": "धनात्स्रवति ... धारणाद्वेति" is unclear (possibly a slip for "धनात्सुखं ... "); rendered loosely as "righteousness flows from wealth, or comes from upholding".
+
+- 12.123 v8 (0.9) and 12.126 v33-34, 12.136 v44 look garbled in the source text; rendered loosely (E070).
+
+- 12.264 v4-v19 (0.5-0.20) look garbled in the source text (e.g. "सूर्यपत्नी सुवर्चला", "शुक्रस्य पुनराजातिः", the deer episode); rendered loosely (E076).
+
+- 12.293-12.296 (Vasishtha-Janaka Sankhya), 12.300 v12-13, 12.309 v24-31 and v33-45, 12.295 v44 ("पुनर्दधि पुनः शरः") look garbled or very obscure in the source text; rendered loosely (E078).
+
+- 12.291 v35 (0.37) "एतदक्षरमित्युक्तं क्षरतीदं यथा जगत्": "अक्षरम्" looks like a slip for "क्षरम्" (the context defines the perishable); rendered as "called the imperishable ... this world perishes" following the text (E077).
+- 12.275 v3 (0.5) "उरसेव प्रणमसे बाहुभ्यां तरसीव च", 12.279 v8-v14 (0.9-0.15), 12.280 v1-v2 and 12.286 v12-v17 look obscure/garbled in the source text; rendered loosely (E077).
+
+- 12-347 0.4 (v4): "न खल्वस्यकृतार्थेन" reads oddly; meaning rendered loosely ("someone with a purpose unfulfilled"); possible slip.
+- 12-337 0.51-0.52 (v47-48): sentence runs across two verses (Vasishtha ... in his line Parashara); rendered separately.

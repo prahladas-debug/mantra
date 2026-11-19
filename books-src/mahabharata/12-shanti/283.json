@@ -22,127 +22,220 @@
       "titleEn": "Mokshadharma Parva (Duties for liberation)",
       "verses": [
         {
-          "text": "पराशर उवाच"
+          "text": "पराशर उवाच",
+          "meaning": {
+            "en": "Parashara said:"
+          }
         },
         {
           "n": 1,
-          "text": "प्रतिग्रहागता विप्रे क्षत्रिये शस्त्रनिर्जिताः ।\nवैश्ये न्यायार्जिताश्चैव शूद्रे शुश्रूषयार्जिताः ।\nस्वल्पाप्यर्थाः प्रशस्यन्ते धर्मस्यार्थे महाफलाः ॥"
+          "text": "प्रतिग्रहागता विप्रे क्षत्रिये शस्त्रनिर्जिताः ।\nवैश्ये न्यायार्जिताश्चैव शूद्रे शुश्रूषयार्जिताः ।\nस्वल्पाप्यर्थाः प्रशस्यन्ते धर्मस्यार्थे महाफलाः ॥",
+          "meaning": {
+            "en": "Gains that come to a Brahmin by gifts, to a Kshatriya by conquest with weapons, to a Vaishya by just earnings, and to a Shudra by service are praised, even when small, and bear great fruit for dharma."
+          }
         },
         {
           "n": 2,
-          "text": "नित्यं त्रयाणां वर्णानां शूद्रः शुश्रूषुरुच्यते ।\nक्षत्रधर्मा वैश्यधर्मा नावृत्तिः पतति द्विजः ।\nशूद्रकर्मा यदा तु स्यात्तदा पतति वै द्विजः ॥"
+          "text": "नित्यं त्रयाणां वर्णानां शूद्रः शुश्रूषुरुच्यते ।\nक्षत्रधर्मा वैश्यधर्मा नावृत्तिः पतति द्विजः ।\nशूद्रकर्मा यदा तु स्यात्तदा पतति वै द्विजः ॥",
+          "meaning": {
+            "en": "A Shudra is said always to serve the three classes. A twice-born who lacks a livelihood does not fall by following the duty of a Kshatriya or a Vaishya; but when he takes up a Shudra's work, then the twice-born does fall."
+          }
         },
         {
           "n": 3,
-          "text": "वाणिज्यं पाशुपाल्यं च तथा शिल्पोपजीवनम् ।\nशूद्रस्यापि विधीयन्ते यदा वृत्तिर्न जायते ॥"
+          "text": "वाणिज्यं पाशुपाल्यं च तथा शिल्पोपजीवनम् ।\nशूद्रस्यापि विधीयन्ते यदा वृत्तिर्न जायते ॥",
+          "meaning": {
+            "en": "Trade, cattle-herding and living by crafts are also allowed to a Shudra when no livelihood is to be had."
+          }
         },
         {
           "n": 4,
-          "text": "रङ्गावतरणं चैव तथा रूपोपजीवनम् ।\nमद्यमांसोपजीव्यं च विक्रयो लोहचर्मणोः ॥"
+          "text": "रङ्गावतरणं चैव तथा रूपोपजीवनम् ।\nमद्यमांसोपजीव्यं च विक्रयो लोहचर्मणोः ॥",
+          "meaning": {
+            "en": "So too are acting on a stage and living by one's looks, living by liquor and meat, and selling iron and leather."
+          }
         },
         {
           "n": 5,
-          "text": "अपूर्विणा न कर्तव्यं कर्म लोके विगर्हितम् ।\nकृतपूर्विणस्तु त्यजतो महान्धर्म इति श्रुतिः ॥"
+          "text": "अपूर्विणा न कर्तव्यं कर्म लोके विगर्हितम् ।\nकृतपूर्विणस्तु त्यजतो महान्धर्म इति श्रुतिः ॥",
+          "meaning": {
+            "en": "One who has not done a censured action before should not do it in the world; but for one who did it before and gives it up, there is great dharma, so scripture says."
+          }
         },
         {
           "n": 6,
-          "text": "संसिद्धः पुरुषो लोके यदाचरति पापकम् ।\nमदेनाभिप्लुतमनास्तच्च नग्राह्यमुच्यते ॥"
+          "text": "संसिद्धः पुरुषो लोके यदाचरति पापकम् ।\nमदेनाभिप्लुतमनास्तच्च नग्राह्यमुच्यते ॥",
+          "meaning": {
+            "en": "When a man who is perfected in the world does something sinful with a mind flooded by intoxication, that is not to be taken up."
+          }
         },
         {
           "n": 7,
-          "text": "श्रूयन्ते हि पुराणे वै प्रजा धिग्दण्डशासनाः ।\nदान्ता धर्मप्रधानाश्च न्यायधर्मानुवर्तकाः ॥"
+          "text": "श्रूयन्ते हि पुराणे वै प्रजा धिग्दण्डशासनाः ।\nदान्ता धर्मप्रधानाश्च न्यायधर्मानुवर्तकाः ॥",
+          "meaning": {
+            "en": "For it is heard in the old tradition that the people were ruled by the penalty of reproach, self-controlled, putting dharma first, and following justice and dharma."
+          }
         },
         {
           "n": 8,
-          "text": "धर्म एव सदा नॄणामिह राजन्प्रशस्यते ।\nधर्मवृद्धा गुणानेव सेवन्ते हि नरा भुवि ॥"
+          "text": "धर्म एव सदा नॄणामिह राजन्प्रशस्यते ।\nधर्मवृद्धा गुणानेव सेवन्ते हि नरा भुवि ॥",
+          "meaning": {
+            "en": "Dharma alone is always praised for men here, king; for those grown in dharma practice only good qualities on earth."
+          }
         },
         {
           "n": 9,
-          "text": "तं धर्ममसुरास्तात नामृष्यन्त जनाधिप ।\nविवर्धमानाः क्रमशस्तत्र तेऽन्वाविशन्प्रजाः ॥"
+          "text": "तं धर्ममसुरास्तात नामृष्यन्त जनाधिप ।\nविवर्धमानाः क्रमशस्तत्र तेऽन्वाविशन्प्रजाः ॥",
+          "meaning": {
+            "en": "The Asuras, dear one, lord of men, could not bear that dharma. Growing by degrees, they entered into the people there."
+          }
         },
         {
           "n": 10,
-          "text": "तेषां दर्पः समभवत्प्रजानां धर्मनाशनः ।\nदर्पात्मनां ततः क्रोधः पुनस्तेषामजायत ॥"
+          "text": "तेषां दर्पः समभवत्प्रजानां धर्मनाशनः ।\nदर्पात्मनां ततः क्रोधः पुनस्तेषामजायत ॥",
+          "meaning": {
+            "en": "Among those people arrogance arose, destroying dharma; and from that arrogance, anger arose in them again."
+          }
         },
         {
           "n": 11,
-          "text": "ततः क्रोधाभिभूतानां वृत्तं लज्जासमन्वितम् ।\nह्रीश्चैवाप्यनशद्राजंस्ततो मोहो व्यजायत ॥"
+          "text": "ततः क्रोधाभिभूतानां वृत्तं लज्जासमन्वितम् ।\nह्रीश्चैवाप्यनशद्राजंस्ततो मोहो व्यजायत ॥",
+          "meaning": {
+            "en": "Then in those overcome by anger, conduct with modesty, and shame itself, king, vanished, and then delusion was born."
+          }
         },
         {
           "n": 12,
-          "text": "ततो मोहपरीतास्ते नापश्यन्त यथा पुरा ।\nपरस्परावमर्देन वर्तयन्ति यथासुखम् ॥"
+          "text": "ततो मोहपरीतास्ते नापश्यन्त यथा पुरा ।\nपरस्परावमर्देन वर्तयन्ति यथासुखम् ॥",
+          "meaning": {
+            "en": "Then, wrapped in delusion, they did not see as before and went on living as they pleased by trampling one another."
+          }
         },
         {
           "n": 13,
-          "text": "तान्प्राप्य तु स धिग्दण्डो नकारणमतोऽभवत् ।\nततोऽभ्यगच्छन्देवांश्च ब्राह्मणांश्चावमन्य ह ॥"
+          "text": "तान्प्राप्य तु स धिग्दण्डो नकारणमतोऽभवत् ।\nततोऽभ्यगच्छन्देवांश्च ब्राह्मणांश्चावमन्य ह ॥",
+          "meaning": {
+            "en": "When the penalty of reproach reached them, it was no longer effective; and so they went against the gods and despised the Brahmins."
+          }
         },
         {
           "n": 14,
-          "text": "एतस्मिन्नेव काले तु देवा देववरं शिवम् ।\nअगच्छञ्शरणं वीरं बहुरूपं गणाधिपम् ॥"
+          "text": "एतस्मिन्नेव काले तु देवा देववरं शिवम् ।\nअगच्छञ्शरणं वीरं बहुरूपं गणाधिपम् ॥",
+          "meaning": {
+            "en": "At just that time the gods went for refuge to the best of gods, Shiva, the hero of many forms, lord of the hosts."
+          }
         },
         {
           "n": 15,
-          "text": "तेन स्म ते गगनगाः सपुराः पातिताः क्षितौ ।\nतिस्रोऽप्येकेन बाणेन देवाप्यायिततेजसा ॥"
+          "text": "तेन स्म ते गगनगाः सपुराः पातिताः क्षितौ ।\nतिस्रोऽप्येकेन बाणेन देवाप्यायिततेजसा ॥",
+          "meaning": {
+            "en": "By him, with one arrow charged with the gods' strength, the three sky-moving cities with their dwellers were felled to the earth."
+          }
         },
         {
           "n": 16,
-          "text": "तेषामधिपतिस्त्वासीद्भीमो भीमपराक्रमः ।\nदेवतानां भयकरः स हतः शूलपाणिना ॥"
+          "text": "तेषामधिपतिस्त्वासीद्भीमो भीमपराक्रमः ।\nदेवतानां भयकरः स हतः शूलपाणिना ॥",
+          "meaning": {
+            "en": "Their chief was a terrible one of terrible might, a source of fear to the gods, and he was slain by the one who bears the trident."
+          }
         },
         {
           "n": 17,
-          "text": "तस्मिन्हतेऽथ स्वं भावं प्रत्यपद्यन्त मानवाः ।\nप्रावर्तन्त च वेदा वै शास्त्राणि च यथा पुरा ॥"
+          "text": "तस्मिन्हतेऽथ स्वं भावं प्रत्यपद्यन्त मानवाः ।\nप्रावर्तन्त च वेदा वै शास्त्राणि च यथा पुरा ॥",
+          "meaning": {
+            "en": "When he was slain, men returned to their true nature, and the Vedas and the scriptures flowed again as before."
+          }
         },
         {
           "n": 18,
-          "text": "ततोऽभ्यषिञ्चन्राज्येन देवानां दिवि वासवम् ।\nसप्तर्षयश्चान्वयुञ्जन्नराणां दण्डधारणे ॥"
+          "text": "ततोऽभ्यषिञ्चन्राज्येन देवानां दिवि वासवम् ।\nसप्तर्षयश्चान्वयुञ्जन्नराणां दण्डधारणे ॥",
+          "meaning": {
+            "en": "Then they consecrated Indra as king of the gods in heaven, and the seven sages appointed rulers to hold the rod of punishment over men."
+          }
         },
         {
           "n": 19,
-          "text": "सप्तर्षीणामथोर्ध्वं च विपृथुर्नाम पार्थिवः ।\nराजानः क्षत्रियाश्चैव मण्डलेषु पृथक्पृथक् ॥"
+          "text": "सप्तर्षीणामथोर्ध्वं च विपृथुर्नाम पार्थिवः ।\nराजानः क्षत्रियाश्चैव मण्डलेषु पृथक्पृथक् ॥",
+          "meaning": {
+            "en": "Above the seven sages there was a king named Vipruthu, and there were the kings and Kshatriyas in their separate territories."
+          }
         },
         {
           "n": 20,
-          "text": "महाकुलेषु ये जाता वृत्ताः पूर्वतराश्च ये ।\nतेषामथासुरो भावो हृदयान्नापसर्पति ॥"
+          "text": "महाकुलेषु ये जाता वृत्ताः पूर्वतराश्च ये ।\nतेषामथासुरो भावो हृदयान्नापसर्पति ॥",
+          "meaning": {
+            "en": "Those born in great families and those who came before still have the Asura temper, which does not leave the heart."
+          }
         },
         {
           "n": 21,
-          "text": "तस्मात्तेनैव भावेन सानुषङ्गेन पार्थिवाः ।\nआसुराण्येव कर्माणि न्यषेवन्भीमविक्रमाः ॥"
+          "text": "तस्मात्तेनैव भावेन सानुषङ्गेन पार्थिवाः ।\nआसुराण्येव कर्माणि न्यषेवन्भीमविक्रमाः ॥",
+          "meaning": {
+            "en": "So by that very disposition, with its attachments, the kings of terrible might followed Asura practices."
+          }
         },
         {
           "n": 22,
-          "text": "प्रत्यतिष्ठंश्च तेष्वेव तान्येव स्थापयन्ति च ।\nभजन्ते तानि चाद्यापि ये बालिशतमा नराः ॥"
+          "text": "प्रत्यतिष्ठंश्च तेष्वेव तान्येव स्थापयन्ति च ।\nभजन्ते तानि चाद्यापि ये बालिशतमा नराः ॥",
+          "meaning": {
+            "en": "They took their stand on those, they establish them, and even today the most foolish of men follow them."
+          }
         },
         {
           "n": 23,
-          "text": "तस्मादहं ब्रवीमि त्वां राजन्संचिन्त्य शास्त्रतः ।\nसंसिद्धाधिगमं कुर्यात्कर्म हिंसात्मकं त्यजेत् ॥"
+          "text": "तस्मादहं ब्रवीमि त्वां राजन्संचिन्त्य शास्त्रतः ।\nसंसिद्धाधिगमं कुर्यात्कर्म हिंसात्मकं त्यजेत् ॥",
+          "meaning": {
+            "en": "So I tell you, king, after reflecting on the scriptures: one should make gains in a perfected way and give up violent action."
+          }
         },
         {
           "n": 24,
-          "text": "न संकरेण द्रविणं विचिन्वीत विचक्षणः ।\nधर्मार्थं न्यायमुत्सृज्य न तत्कल्याणमुच्यते ॥"
+          "text": "न संकरेण द्रविणं विचिन्वीत विचक्षणः ।\nधर्मार्थं न्यायमुत्सृज्य न तत्कल्याणमुच्यते ॥",
+          "meaning": {
+            "en": "The discerning man should not collect wealth by mixing means; giving up justice for the sake of dharma and wealth is not called good."
+          }
         },
         {
           "n": 25,
-          "text": "स त्वमेवंविधो दान्तः क्षत्रियः प्रियबान्धवः ।\nप्रजा भृत्यांश्च पुत्रांश्च स्वधर्मेणानुपालय ॥"
+          "text": "स त्वमेवंविधो दान्तः क्षत्रियः प्रियबान्धवः ।\nप्रजा भृत्यांश्च पुत्रांश्च स्वधर्मेणानुपालय ॥",
+          "meaning": {
+            "en": "So, such as you are, self-controlled, a Kshatriya dear to your kin, protect your subjects, dependents and sons by your own dharma."
+          }
         },
         {
           "n": 26,
-          "text": "इष्टानिष्टसमायोगो वैरं सौहार्दमेव च ।\nअथ जातिसहस्राणि बहूनि परिवर्तते ॥"
+          "text": "इष्टानिष्टसमायोगो वैरं सौहार्दमेव च ।\nअथ जातिसहस्राणि बहूनि परिवर्तते ॥",
+          "meaning": {
+            "en": "Meeting with the loved and the unloved, enmity and friendship: the soul passes through many thousands of births."
+          }
         },
         {
           "n": 27,
-          "text": "तस्माद्गुणेषु रज्येथा मा दोषेषु कदाचन ।\nनिर्गुणो यो हि दुर्बुद्धिरात्मनः सोऽरिरुच्यते ॥"
+          "text": "तस्माद्गुणेषु रज्येथा मा दोषेषु कदाचन ।\nनिर्गुणो यो हि दुर्बुद्धिरात्मनः सोऽरिरुच्यते ॥",
+          "meaning": {
+            "en": "So take delight in good qualities and never in faults; for the ill-minded man without good qualities is called his own enemy."
+          }
         },
         {
           "n": 28,
-          "text": "मानुषेषु महाराज धर्माधर्मौ प्रवर्ततः ।\nन तथान्येषु भूतेषु मनुष्यरहितेष्विह ॥"
+          "text": "मानुषेषु महाराज धर्माधर्मौ प्रवर्ततः ।\nन तथान्येषु भूतेषु मनुष्यरहितेष्विह ॥",
+          "meaning": {
+            "en": "In human beings, great king, dharma and adharma are at work; not so among other creatures here without humans."
+          }
         },
         {
           "n": 29,
-          "text": "धर्मशीलो नरो विद्वानीहकोऽनीहकोऽपि वा ।\nआत्मभूतः सदा लोके चरेद्भूतान्यहिंसयन् ॥"
+          "text": "धर्मशीलो नरो विद्वानीहकोऽनीहकोऽपि वा ।\nआत्मभूतः सदा लोके चरेद्भूतान्यहिंसयन् ॥",
+          "meaning": {
+            "en": "A man of dharma, learned, whether he acts for ends or not, should always move through the world regarding beings as himself, harming none."
+          }
         },
         {
           "n": 30,
-          "text": "यदा व्यपेतहृल्लेखं मनो भवति तस्य वै ।\nनानृतं चैव भवति तदा कल्याणमृच्छति ॥"
+          "text": "यदा व्यपेतहृल्लेखं मनो भवति तस्य वै ।\nनानृतं चैव भवति तदा कल्याणमृच्छति ॥",
+          "meaning": {
+            "en": "When his mind becomes free of inner stain, then he is without falsehood and gains well-being."
+          }
         }
       ]
     }

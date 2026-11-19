@@ -22,94 +22,186 @@
       "titleEn": "Mokshadharma Parva (Duties for liberation)",
       "verses": [
         {
-          "text": "युधिष्ठिर उवाच"
+          "text": "युधिष्ठिर उवाच",
+          "meaning": {
+            "en": "Yudhishthira said:",
+            "hi": "युधिष्ठिर बोले—"
+          }
         },
         {
           "n": 1,
-          "text": "चातुराश्रम्यमुक्तं ते राजधर्मास्तथैव च ।\nनानाश्रयाश्च बहव इतिहासाः पृथग्विधाः ॥"
+          "text": "चातुराश्रम्यमुक्तं ते राजधर्मास्तथैव च ।\nनानाश्रयाश्च बहव इतिहासाः पृथग्विधाः ॥",
+          "meaning": {
+            "en": "You have told me of the four stages of life and of the duties of kings, and of many kinds of old tales resting on various themes.",
+            "hi": "आपने मुझे चार आश्रमों और राजधर्मों के विषय में बताया है, और अनेक प्रकार के आश्रयों वाले विविध इतिहास भी।"
+          }
         },
         {
           "n": 2,
-          "text": "श्रुतास्त्वत्तः कथाश्चैव धर्मयुक्ता महामते ।\nसंदेहोऽस्ति तु कश्चिन्मे तद्भवान्वक्तुमर्हति ॥"
+          "text": "श्रुतास्त्वत्तः कथाश्चैव धर्मयुक्ता महामते ।\nसंदेहोऽस्ति तु कश्चिन्मे तद्भवान्वक्तुमर्हति ॥",
+          "meaning": {
+            "en": "I have heard from you tales joined with righteousness, greatly wise one; but I have a certain doubt, and you should clear it.",
+            "hi": "हे महामति! मैंने आपसे धर्मयुक्त कथाएँ सुनी हैं; पर मेरे मन में कुछ संदेह है, उसे आप स्पष्ट करें।"
+          }
         },
         {
           "n": 3,
-          "text": "जापकानां फलावाप्तिं श्रोतुमिच्छामि भारत ।\nकिं फलं जपतामुक्तं क्व वा तिष्ठन्ति जापकाः ॥"
+          "text": "जापकानां फलावाप्तिं श्रोतुमिच्छामि भारत ।\nकिं फलं जपतामुक्तं क्व वा तिष्ठन्ति जापकाः ॥",
+          "meaning": {
+            "en": "Bharata, I wish to hear what the reciters of prayer attain: what fruit is said to come to those who recite, and where do the reciters stay?",
+            "hi": "हे भरतवंशी! मैं जप करने वालों को मिलने वाला फल सुनना चाहता हूँ। जप करने वालों को क्या फल कहा गया है, और जप करने वाले कहाँ रहते हैं?"
+          }
         },
         {
           "n": 4,
-          "text": "जपस्य च विधिं कृत्स्नं वक्तुमर्हसि मेऽनघ ।\nजापका इति किं चैतत्सांख्ययोगक्रियाविधिः ॥"
+          "text": "जपस्य च विधिं कृत्स्नं वक्तुमर्हसि मेऽनघ ।\nजापका इति किं चैतत्सांख्ययोगक्रियाविधिः ॥",
+          "meaning": {
+            "en": "Sinless one, tell me the whole rule of recitation. And what is meant by \"reciters\"? Is it a rule of acts of Sankhya and yoga?",
+            "hi": "हे निष्पाप! जप की पूरी विधि मुझे बताइए। और \"जापक\" से क्या अभिप्राय है? क्या यह सांख्य और योग के कर्मों की विधि है?"
+          }
         },
         {
           "n": 5,
-          "text": "किं यज्ञविधिरेवैष किमेतज्जप्यमुच्यते ।\nएतन्मे सर्वमाचक्ष्व सर्वज्ञो ह्यसि मे मतः ॥"
+          "text": "किं यज्ञविधिरेवैष किमेतज्जप्यमुच्यते ।\nएतन्मे सर्वमाचक्ष्व सर्वज्ञो ह्यसि मे मतः ॥",
+          "meaning": {
+            "en": "Is it only a rule of sacrifice, or is this called something to be recited? Tell me all this, for I think you know everything.",
+            "hi": "क्या यह केवल यज्ञ की विधि है, या इसे जप्य कहा जाता है? यह सब मुझे बताइए, क्योंकि मेरे मत में आप सर्वज्ञ हैं।"
+          }
         },
         {
-          "text": "भीष्म उवाच"
+          "text": "भीष्म उवाच",
+          "meaning": {
+            "en": "Bhishma said:",
+            "hi": "भीष्म बोले—"
+          }
         },
         {
           "n": 6,
-          "text": "अत्राप्युदाहरन्तीममितिहासं पुरातनम् ।\nयमस्य यत्पुरा वृत्तं कालस्य ब्राह्मणस्य च ॥"
+          "text": "अत्राप्युदाहरन्तीममितिहासं पुरातनम् ।\nयमस्य यत्पुरा वृत्तं कालस्य ब्राह्मणस्य च ॥",
+          "meaning": {
+            "en": "On this they cite an ancient tale, what once happened among Yama, Time and a brahmin.",
+            "hi": "इस विषय में लोग एक प्राचीन कथा सुनाते हैं, जो पहले यम, काल और एक ब्राह्मण के बीच घटी थी।"
+          }
         },
         {
           "n": 7,
-          "text": "संन्यास एव वेदान्ते वर्तते जपनं प्रति ।\nवेदवादाभिनिर्वृत्ता शान्तिर्ब्रह्मण्यवस्थितौ ।\nमार्गौ तावप्युभावेतौ संश्रितौ न च संश्रितौ ॥"
+          "text": "संन्यास एव वेदान्ते वर्तते जपनं प्रति ।\nवेदवादाभिनिर्वृत्ता शान्तिर्ब्रह्मण्यवस्थितौ ।\nमार्गौ तावप्युभावेतौ संश्रितौ न च संश्रितौ ॥",
+          "meaning": {
+            "en": "Renunciation alone is found in the Vedanta with regard to recitation; peace, born of the Vedic teaching, lies in standing in Brahman. Both these paths are resorted to and yet not resorted to.",
+            "hi": "वेदांत में जप के विषय में संन्यास ही स्थित है; वेद-वचनों से उत्पन्न शांति ब्रह्म में स्थित होने में है। ये दोनों मार्ग अपनाए भी जाते हैं और अपनाए भी नहीं जाते।"
+          }
         },
         {
           "n": 8,
-          "text": "यथा संश्रूयते राजन्कारणं चात्र वक्ष्यते ।\nमनःसमाधिरत्रापि तथेन्द्रियजयः स्मृतः ॥"
+          "text": "यथा संश्रूयते राजन्कारणं चात्र वक्ष्यते ।\nमनःसमाधिरत्रापि तथेन्द्रियजयः स्मृतः ॥",
+          "meaning": {
+            "en": "King, the reason will be told as it is heard. Here too concentration of mind and conquest of the senses are remembered.",
+            "hi": "हे राजन! जैसा सुना जाता है, वैसा ही इसका कारण बताया जाएगा। यहाँ भी मन की एकाग्रता और इंद्रियों पर विजय ही स्मरण की गई है।"
+          }
         },
         {
           "n": 9,
-          "text": "सत्यमग्निपरीचारो विविक्तानां च सेवनम् ।\nध्यानं तपो दमः क्षान्तिरनसूया मिताशनम् ॥"
+          "text": "सत्यमग्निपरीचारो विविक्तानां च सेवनम् ।\nध्यानं तपो दमः क्षान्तिरनसूया मिताशनम् ॥",
+          "meaning": {
+            "en": "Truth, tending the fire, attending the secluded, meditation, austerity, self-control, patience, freedom from envy and moderate eating;",
+            "hi": "सत्य, अग्नि की सेवा, एकांत का सेवन, ध्यान, तप, दम, क्षमा, ईर्ष्या-रहितता और मिताहार;"
+          }
         },
         {
           "n": 10,
-          "text": "विषयप्रतिसंहारो मितजल्पस्तथा शमः ।\nएष प्रवृत्तको धर्मो निवृत्तकमथो शृणु ॥"
+          "text": "विषयप्रतिसंहारो मितजल्पस्तथा शमः ।\nएष प्रवृत्तको धर्मो निवृत्तकमथो शृणु ॥",
+          "meaning": {
+            "en": "withdrawal from the objects of sense, moderate speech and calm: this is the righteousness of action; now hear the righteousness of withdrawal.",
+            "hi": "विषयों से इंद्रियों को हटाना, मितभाषण और शांति; यह प्रवृत्ति-धर्म है। अब निवृत्ति-धर्म सुनो।"
+          }
         },
         {
           "n": 11,
-          "text": "यथा निवर्तते कर्म जपतो ब्रह्मचारिणः ।\nएतत्सर्वमशेषेण यथोक्तं परिवर्जयेत् ।\nत्रिविधं मार्गमासाद्य व्यक्ताव्यक्तमनाश्रयम् ॥"
+          "text": "यथा निवर्तते कर्म जपतो ब्रह्मचारिणः ।\nएतत्सर्वमशेषेण यथोक्तं परिवर्जयेत् ।\nत्रिविधं मार्गमासाद्य व्यक्ताव्यक्तमनाश्रयम् ॥",
+          "meaning": {
+            "en": "How action ceases for the celibate who recites: one should leave all this entirely, as described, taking up the threefold path, manifest and unmanifest, without support.",
+            "hi": "जप करने वाले ब्रह्मचारी का कर्म जिस प्रकार निवृत्त होता है, वह सब जैसा कहा गया है पूरी तरह त्याग देना चाहिए। व्यक्त, अव्यक्त और आश्रय-रहित, तीन प्रकार का मार्ग अपनाकर।"
+          }
         },
         {
           "n": 12,
-          "text": "कुशोच्चयनिषण्णः सन्कुशहस्तः कुशैः शिखी ।\nचीरैः परिवृतस्तस्मिन्मध्ये छन्नः कुशैस्तथा ॥"
+          "text": "कुशोच्चयनिषण्णः सन्कुशहस्तः कुशैः शिखी ।\nचीरैः परिवृतस्तस्मिन्मध्ये छन्नः कुशैस्तथा ॥",
+          "meaning": {
+            "en": "Seated on a heap of kusha grass, with kusha in hand and a topknot tied with kusha, clothed in bark garments, and covered with kusha in the midst of it,",
+            "hi": "कुशों के ढेर पर बैठकर, हाथ में कुश लेकर, कुश की शिखा बाँधकर, वल्कल वस्त्र पहनकर, और उसी के बीच कुशों से ढका हुआ।"
+          }
         },
         {
           "n": 13,
-          "text": "विषयेभ्यो नमस्कुर्याद्विषयान्न च भावयेत् ।\nसाम्यमुत्पाद्य मनसो मनस्येव मनो दधत् ॥"
+          "text": "विषयेभ्यो नमस्कुर्याद्विषयान्न च भावयेत् ।\nसाम्यमुत्पाद्य मनसो मनस्येव मनो दधत् ॥",
+          "meaning": {
+            "en": "he should bow to the objects of sense without dwelling on them; having produced evenness of mind, he should fix mind within mind.",
+            "hi": "इंद्रियों के विषयों को प्रणाम करे, पर उनका चिंतन न करे। मन में समता उत्पन्न करके, मन को मन में ही स्थापित करे।"
+          }
         },
         {
           "n": 14,
-          "text": "तद्धिया ध्यायति ब्रह्म जपन्वै संहितां हिताम् ।\nसंन्यस्यत्यथ वा तां वै समाधौ पर्यवस्थितः ॥"
+          "text": "तद्धिया ध्यायति ब्रह्म जपन्वै संहितां हिताम् ।\nसंन्यस्यत्यथ वा तां वै समाधौ पर्यवस्थितः ॥",
+          "meaning": {
+            "en": "With that intent, reciting the beneficial collection of verses, he meditates on Brahman, or else renounces even it, firm in concentration.",
+            "hi": "उसी बुद्धि से वह ब्रह्म का ध्यान करता है, हितकारी संहिता का जप करते हुए; या फिर उसे भी त्यागकर समाधि में स्थित होता है।"
+          }
         },
         {
           "n": 15,
-          "text": "ध्यानमुत्पादयत्यत्र संहिताबलसंश्रयात् ।\nशुद्धात्मा तपसा दान्तो निवृत्तद्वेषकामवान् ॥"
+          "text": "ध्यानमुत्पादयत्यत्र संहिताबलसंश्रयात् ।\nशुद्धात्मा तपसा दान्तो निवृत्तद्वेषकामवान् ॥",
+          "meaning": {
+            "en": "Meditation arises here through resorting to the power of the recitation; he becomes pure in self, restrained by austerity, free from hatred and desire.",
+            "hi": "यहाँ संहिता के बल का आश्रय लेने से ध्यान उत्पन्न होता है; तप से दमन पाकर वह शुद्ध आत्मा वाला हो जाता है, और द्वेष तथा कामना से मुक्त हो जाता है।"
+          }
         },
         {
           "n": 16,
-          "text": "अरागमोहो निर्द्वंद्वो न शोचति न सज्जते ।\nन कर्ताकरणीयानां न कार्याणामिति स्थितिः ॥"
+          "text": "अरागमोहो निर्द्वंद्वो न शोचति न सज्जते ।\nन कर्ताकरणीयानां न कार्याणामिति स्थितिः ॥",
+          "meaning": {
+            "en": "Free from passion and delusion, beyond opposites, he neither grieves nor clings; his state is that he is not the doer of what is to be done or what ought to be done.",
+            "hi": "वह राग और मोह से रहित, द्वंद्वों से परे, न शोक करता है, न आसक्त होता है; उसकी स्थिति ऐसी है कि वह न करने योग्य का कर्ता है, न करने योग्य कार्यों का।"
+          }
         },
         {
           "n": 17,
-          "text": "न चाहंकारयोगेन मनः प्रस्थापयेत्क्वचित् ।\nन चात्मग्रहणे युक्तो नावमानी न चाक्रियः ॥"
+          "text": "न चाहंकारयोगेन मनः प्रस्थापयेत्क्वचित् ।\nन चात्मग्रहणे युक्तो नावमानी न चाक्रियः ॥",
+          "meaning": {
+            "en": "He should not fix his mind anywhere by egoism, nor be absorbed in seizing on self, nor despise others, nor be inactive.",
+            "hi": "अहंकार के योग से वह मन को कहीं भी नहीं लगाता; न आत्मा के ग्रहण में लगा रहता है, न दूसरों का अपमान करता है, और न निष्क्रिय रहता है।"
+          }
         },
         {
           "n": 18,
-          "text": "ध्यानक्रियापरो युक्तो ध्यानवान्ध्याननिश्चयः ।\nध्याने समाधिमुत्पाद्य तदपि त्यजति क्रमात् ॥"
+          "text": "ध्यानक्रियापरो युक्तो ध्यानवान्ध्याननिश्चयः ।\nध्याने समाधिमुत्पाद्य तदपि त्यजति क्रमात् ॥",
+          "meaning": {
+            "en": "Devoted to the work of meditation, disciplined, a meditator resolved on meditation, having reached concentration in meditation, he gradually gives up even that.",
+            "hi": "ध्यान-क्रिया में लगा, संयमी, ध्यान-निश्चय वाला, ध्यान में समाधि उत्पन्न करके, वह क्रम से उसे भी त्याग देता है।"
+          }
         },
         {
           "n": 19,
-          "text": "स वै तस्यामवस्थायां सर्वत्यागकृतः सुखी ।\nनिरीहस्त्यजति प्राणान्ब्राह्मीं संश्रयते तनुम् ॥"
+          "text": "स वै तस्यामवस्थायां सर्वत्यागकृतः सुखी ।\nनिरीहस्त्यजति प्राणान्ब्राह्मीं संश्रयते तनुम् ॥",
+          "meaning": {
+            "en": "In that state, having renounced everything, he is happy; free of wishes, he gives up his breath and takes a body of Brahman.",
+            "hi": "उस अवस्था में, सब कुछ त्याग देने से वह सुखी होता है; इच्छा-रहित होकर वह प्राण त्यागता है और ब्राह्मी देह धारण करता है।"
+          }
         },
         {
           "n": 20,
-          "text": "अथ वा नेच्छते तत्र ब्रह्मकायनिषेवणम् ।\nउत्क्रामति च मार्गस्थो नैव क्वचन जायते ॥"
+          "text": "अथ वा नेच्छते तत्र ब्रह्मकायनिषेवणम् ।\nउत्क्रामति च मार्गस्थो नैव क्वचन जायते ॥",
+          "meaning": {
+            "en": "Or he does not wish for the service of that Brahman-body; remaining on the path he departs and is never born anywhere.",
+            "hi": "या फिर वह वहाँ ब्रह्म-देह की सेवा की इच्छा नहीं करता; मार्ग पर स्थित होकर वह प्रयाण करता है और फिर कहीं जन्म नहीं लेता।"
+          }
         },
         {
           "n": 21,
-          "text": "आत्मबुद्धिं समास्थाय शान्तीभूतो निरामयः ।\nअमृतं विरजःशुद्धमात्मानं प्रतिपद्यते ॥"
+          "text": "आत्मबुद्धिं समास्थाय शान्तीभूतो निरामयः ।\nअमृतं विरजःशुद्धमात्मानं प्रतिपद्यते ॥",
+          "meaning": {
+            "en": "Resting in the knowledge of the Self, become calm and free of illness, he reaches the Self, immortal, stainless and pure.",
+            "hi": "आत्म-ज्ञान में स्थित होकर, शांत और रोग-रहित होकर, वह अमृत, निर्मल और शुद्ध आत्मा को प्राप्त होता है।"
+          }
         }
       ]
     }

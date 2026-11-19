@@ -22,79 +22,136 @@
       "titleEn": "Mokshadharma Parva (Duties for liberation)",
       "verses": [
         {
-          "text": "याज्ञवल्क्य उवाच"
+          "text": "याज्ञवल्क्य उवाच",
+          "meaning": {
+            "en": "Yajnavalkya said:"
+          }
         },
         {
           "n": 1,
-          "text": "अव्यक्तस्य नरश्रेष्ठ कालसंख्यां निबोध मे ।\nपञ्च कल्पसहस्राणि द्विगुणान्यहरुच्यते ॥"
+          "text": "अव्यक्तस्य नरश्रेष्ठ कालसंख्यां निबोध मे ।\nपञ्च कल्पसहस्राणि द्विगुणान्यहरुच्यते ॥",
+          "meaning": {
+            "en": "Best of men, now learn from me the reckoning of time for the unmanifest: its day is said to be twice five thousand kalpas."
+          }
         },
         {
           "n": 2,
-          "text": "रात्रिरेतावती चास्य प्रतिबुद्धो नराधिप ।\nसृजत्योषधिमेवाग्रे जीवनं सर्वदेहिनाम् ॥"
+          "text": "रात्रिरेतावती चास्य प्रतिबुद्धो नराधिप ।\nसृजत्योषधिमेवाग्रे जीवनं सर्वदेहिनाम् ॥",
+          "meaning": {
+            "en": "Its night is of the same length. When it awakens, king, it first creates the plants, the livelihood of all embodied beings."
+          }
         },
         {
           "n": 3,
-          "text": "ततो ब्रह्माणमसृजद्धैरण्याण्डसमुद्भवम् ।\nसा मूर्तिः सर्वभूतानामित्येवमनुशुश्रुम ॥"
+          "text": "ततो ब्रह्माणमसृजद्धैरण्याण्डसमुद्भवम् ।\nसा मूर्तिः सर्वभूतानामित्येवमनुशुश्रुम ॥",
+          "meaning": {
+            "en": "Then it creates Brahma, born from the golden egg; we have heard that he is the embodiment of all beings."
+          }
         },
         {
           "n": 4,
-          "text": "संवत्सरमुषित्वाण्डे निष्क्रम्य च महामुनिः ।\nसंदधेऽर्धं महीं कृत्स्नां दिवमर्धं प्रजापतिः ॥"
+          "text": "संवत्सरमुषित्वाण्डे निष्क्रम्य च महामुनिः ।\nसंदधेऽर्धं महीं कृत्स्नां दिवमर्धं प्रजापतिः ॥",
+          "meaning": {
+            "en": "The great sage Prajapati, having dwelt a year in the egg, came out and set half of it as the whole earth and half as heaven."
+          }
         },
         {
           "n": 5,
-          "text": "द्यावापृथिव्योरित्येष राजन्वेदेषु पठ्यते ।\nतयोः शकलयोर्मध्यमाकाशमकरोत्प्रभुः ॥"
+          "text": "द्यावापृथिव्योरित्येष राजन्वेदेषु पठ्यते ।\nतयोः शकलयोर्मध्यमाकाशमकरोत्प्रभुः ॥",
+          "meaning": {
+            "en": "King, this is read in the Vedas as \"heaven and earth\"; between those two halves the lord made space."
+          }
         },
         {
           "n": 6,
-          "text": "एतस्यापि च संख्यानं वेदवेदाङ्गपारगैः ।\nदश कल्पसहस्राणि पादोनान्यहरुच्यते ।\nरात्रिमेतावतीं चास्य प्राहुरध्यात्मचिन्तकाः ॥"
+          "text": "एतस्यापि च संख्यानं वेदवेदाङ्गपारगैः ।\nदश कल्पसहस्राणि पादोनान्यहरुच्यते ।\nरात्रिमेतावतीं चास्य प्राहुरध्यात्मचिन्तकाः ॥",
+          "meaning": {
+            "en": "Those who have crossed the Vedas and their limbs give his reckoning too: his day is said to be ten thousand kalpas less a quarter, and those who reflect on the Self say his night is as long."
+          }
         },
         {
           "n": 7,
-          "text": "सृजत्यहंकारमृषिर्भूतं दिव्यात्मकं तथा ।\nचतुरश्चापरान्पुत्रान्देहात्पूर्वं महानृषिः ।\nते वै पितृभ्यः पितरः श्रूयन्ते राजसत्तम ॥"
+          "text": "सृजत्यहंकारमृषिर्भूतं दिव्यात्मकं तथा ।\nचतुरश्चापरान्पुत्रान्देहात्पूर्वं महानृषिः ।\nते वै पितृभ्यः पितरः श्रूयन्ते राजसत्तम ॥",
+          "meaning": {
+            "en": "The sage creates egoism and a being of divine nature, and four other sons before the body, the great seer. Best of kings, they are heard of as the fathers of the fathers."
+          }
         },
         {
           "n": 8,
-          "text": "देवाः पितॄणां च सुता देवैर्लोकाः समावृताः ।\nचराचरा नरश्रेष्ठ इत्येवमनुशुश्रुम ॥"
+          "text": "देवाः पितॄणां च सुता देवैर्लोकाः समावृताः ।\nचराचरा नरश्रेष्ठ इत्येवमनुशुश्रुम ॥",
+          "meaning": {
+            "en": "The gods are the sons of the fathers, and the worlds are covered by the gods, moving and unmoving, best of men; so we have heard."
+          }
         },
         {
           "n": 9,
-          "text": "परमेष्ठी त्वहंकारोऽसृजद्भूतानि पञ्चधा ।\nपृथिवी वायुराकाशमापो ज्योतिश्च पञ्चमम् ॥"
+          "text": "परमेष्ठी त्वहंकारोऽसृजद्भूतानि पञ्चधा ।\nपृथिवी वायुराकाशमापो ज्योतिश्च पञ्चमम् ॥",
+          "meaning": {
+            "en": "Egoism, the Supreme One, created the elements in five ways: earth, air, space, water, and fire as the fifth."
+          }
         },
         {
           "n": 10,
-          "text": "एतस्यापि निशामाहुस्तृतीयमिह कुर्वतः ।\nपञ्च कल्पसहस्राणि तावदेवाहरुच्यते ॥"
+          "text": "एतस्यापि निशामाहुस्तृतीयमिह कुर्वतः ।\nपञ्च कल्पसहस्राणि तावदेवाहरुच्यते ॥",
+          "meaning": {
+            "en": "For him, who in this way makes the third, they say the night is five thousand kalpas, and the day is just as long."
+          }
         },
         {
           "n": 11,
-          "text": "शब्दः स्पर्शश्च रूपं च रसो गन्धश्च पञ्चमः ।\nएते विशेषा राजेन्द्र महाभूतेषु पञ्चसु ।\nयैराविष्टानि भूतानि अहन्यहनि पार्थिव ॥"
+          "text": "शब्दः स्पर्शश्च रूपं च रसो गन्धश्च पञ्चमः ।\nएते विशेषा राजेन्द्र महाभूतेषु पञ्चसु ।\nयैराविष्टानि भूतानि अहन्यहनि पार्थिव ॥",
+          "meaning": {
+            "en": "Sound, touch, form, taste and smell as the fifth are the specifics, king of kings, in the five great elements, by which beings are entered day after day, king."
+          }
         },
         {
           "n": 12,
-          "text": "अन्योन्यं स्पृहयन्त्येते अन्योन्यस्य हिते रताः ।\nअन्योन्यमभिमन्यन्ते अन्योन्यस्पर्धिनस्तथा ॥"
+          "text": "अन्योन्यं स्पृहयन्त्येते अन्योन्यस्य हिते रताः ।\nअन्योन्यमभिमन्यन्ते अन्योन्यस्पर्धिनस्तथा ॥",
+          "meaning": {
+            "en": "They long for one another, delight in one another's good, think highly of one another, and likewise compete with one another."
+          }
         },
         {
           "n": 13,
-          "text": "ते वध्यमाना अन्योन्यं गुणैर्हारिभिरव्ययाः ।\nइहैव परिवर्तन्ते तिर्यग्योनिप्रवेशिनः ॥"
+          "text": "ते वध्यमाना अन्योन्यं गुणैर्हारिभिरव्ययाः ।\nइहैव परिवर्तन्ते तिर्यग्योनिप्रवेशिनः ॥",
+          "meaning": {
+            "en": "Striking one another with their captivating qualities, the undying ones turn about right here, entering animal wombs."
+          }
         },
         {
           "n": 14,
-          "text": "त्रीणि कल्पसहस्राणि एतेषामहरुच्यते ।\nरात्रिरेतावती चैव मनसश्च नराधिप ॥"
+          "text": "त्रीणि कल्पसहस्राणि एतेषामहरुच्यते ।\nरात्रिरेतावती चैव मनसश्च नराधिप ॥",
+          "meaning": {
+            "en": "The day of these is said to be three thousand kalpas, and the night as long, and likewise for the mind, lord of men."
+          }
         },
         {
           "n": 15,
-          "text": "मनश्चरति राजेन्द्र चरितं सर्वमिन्द्रियैः ।\nन चेन्द्रियाणि पश्यन्ति मन एवात्र पश्यति ॥"
+          "text": "मनश्चरति राजेन्द्र चरितं सर्वमिन्द्रियैः ।\nन चेन्द्रियाणि पश्यन्ति मन एवात्र पश्यति ॥",
+          "meaning": {
+            "en": "King, the mind moves, and all that is done is done through the senses; the senses do not see, only the mind sees here."
+          }
         },
         {
           "n": 16,
-          "text": "चक्षुः पश्यति रूपाणि मनसा तु न चक्षुषा ।\nमनसि व्याकुले चक्षुः पश्यन्नपि न पश्यति ।\nतथेन्द्रियाणि सर्वाणि पश्यन्तीत्यभिचक्षते ॥"
+          "text": "चक्षुः पश्यति रूपाणि मनसा तु न चक्षुषा ।\nमनसि व्याकुले चक्षुः पश्यन्नपि न पश्यति ।\nतथेन्द्रियाणि सर्वाणि पश्यन्तीत्यभिचक्षते ॥",
+          "meaning": {
+            "en": "The eye sees forms through the mind and not by the eye; when the mind is distracted, the eye, though seeing, does not see. So they say that all the senses see."
+          }
         },
         {
           "n": 17,
-          "text": "मनस्युपरते राजन्निन्द्रियोपरमो भवेत् ।\nन चेन्द्रियव्युपरमे मनस्युपरमो भवेत् ।\nएवं मनःप्रधानानि इन्द्रियाणि विभावयेत् ॥"
+          "text": "मनस्युपरते राजन्निन्द्रियोपरमो भवेत् ।\nन चेन्द्रियव्युपरमे मनस्युपरमो भवेत् ।\nएवं मनःप्रधानानि इन्द्रियाणि विभावयेत् ॥",
+          "meaning": {
+            "en": "When the mind ceases, king, the senses cease; but when the senses cease, the mind does not necessarily cease. So one should understand that the senses have the mind as their chief."
+          }
         },
         {
           "n": 18,
-          "text": "इन्द्रियाणां हि सर्वेषामीश्वरं मन उच्यते ।\nएतद्विशन्ति भूतानि सर्वाणीह महायशाः ॥"
+          "text": "इन्द्रियाणां हि सर्वेषामीश्वरं मन उच्यते ।\nएतद्विशन्ति भूतानि सर्वाणीह महायशाः ॥",
+          "meaning": {
+            "en": "The mind is called the lord of all the senses; all beings here enter into it, great one."
+          }
         }
       ]
     }

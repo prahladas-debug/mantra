@@ -22,115 +22,199 @@
       "titleEn": "Mokshadharma Parva (Duties for liberation)",
       "verses": [
         {
-          "text": "याज्ञवल्क्य उवाच"
+          "text": "याज्ञवल्क्य उवाच",
+          "meaning": {
+            "en": "Yajnavalkya said:"
+          }
         },
         {
           "n": 1,
-          "text": "पादावध्यात्ममित्याहुर्ब्राह्मणास्तत्त्वदर्शिनः ।\nगन्तव्यमधिभूतं च विष्णुस्तत्राधिदैवतम् ॥"
+          "text": "पादावध्यात्ममित्याहुर्ब्राह्मणास्तत्त्वदर्शिनः ।\nगन्तव्यमधिभूतं च विष्णुस्तत्राधिदैवतम् ॥",
+          "meaning": {
+            "en": "Brahmins who see the truth call the feet the Self-related, what is to be gone to the elemental, and Vishnu the divinity there."
+          }
         },
         {
           "n": 2,
-          "text": "पायुरध्यात्ममित्याहुर्यथातत्त्वार्थदर्शिनः ।\nविसर्गमधिभूतं च मित्रस्तत्राधिदैवतम् ॥"
+          "text": "पायुरध्यात्ममित्याहुर्यथातत्त्वार्थदर्शिनः ।\nविसर्गमधिभूतं च मित्रस्तत्राधिदैवतम् ॥",
+          "meaning": {
+            "en": "Those who see the meaning of the principles call the organ of excretion the Self-related, discharge the elemental, and Mitra the divinity there."
+          }
         },
         {
           "n": 3,
-          "text": "उपस्थोऽध्यात्ममित्याहुर्यथायोगनिदर्शनम् ।\nअधिभूतं तथानन्दो दैवतं च प्रजापतिः ॥"
+          "text": "उपस्थोऽध्यात्ममित्याहुर्यथायोगनिदर्शनम् ।\nअधिभूतं तथानन्दो दैवतं च प्रजापतिः ॥",
+          "meaning": {
+            "en": "As Yoga teaches, the organ of generation is called Self-related, delight the elemental, and Prajapati the divinity."
+          }
         },
         {
           "n": 4,
-          "text": "हस्तावध्यात्ममित्याहुर्यथासांख्यनिदर्शनम् ।\nकर्तव्यमधिभूतं तु इन्द्रस्तत्राधिदैवतम् ॥"
+          "text": "हस्तावध्यात्ममित्याहुर्यथासांख्यनिदर्शनम् ।\nकर्तव्यमधिभूतं तु इन्द्रस्तत्राधिदैवतम् ॥",
+          "meaning": {
+            "en": "As Sankhya teaches, the two hands are called Self-related, what is to be done the elemental, and Indra the divinity there."
+          }
         },
         {
           "n": 5,
-          "text": "वागध्यात्ममिति प्राहुर्यथाश्रुतिनिदर्शनम् ।\nवक्तव्यमधिभूतं तु वह्निस्तत्राधिदैवतम् ॥"
+          "text": "वागध्यात्ममिति प्राहुर्यथाश्रुतिनिदर्शनम् ।\nवक्तव्यमधिभूतं तु वह्निस्तत्राधिदैवतम् ॥",
+          "meaning": {
+            "en": "As the tradition teaches, speech is called Self-related, what is to be said the elemental, and Agni the divinity there."
+          }
         },
         {
           "n": 6,
-          "text": "चक्षुरध्यात्ममित्याहुर्यथाश्रुतिनिदर्शनम् ।\nरूपमत्राधिभूतं तु सूर्यस्तत्राधिदैवतम् ॥"
+          "text": "चक्षुरध्यात्ममित्याहुर्यथाश्रुतिनिदर्शनम् ।\nरूपमत्राधिभूतं तु सूर्यस्तत्राधिदैवतम् ॥",
+          "meaning": {
+            "en": "As the tradition teaches, the eye is called Self-related, form here the elemental, and the Sun the divinity there."
+          }
         },
         {
           "n": 7,
-          "text": "श्रोत्रमध्यात्ममित्याहुर्यथाश्रुतिनिदर्शनम् ।\nशब्दस्तत्राधिभूतं तु दिशस्तत्राधिदैवतम् ॥"
+          "text": "श्रोत्रमध्यात्ममित्याहुर्यथाश्रुतिनिदर्शनम् ।\nशब्दस्तत्राधिभूतं तु दिशस्तत्राधिदैवतम् ॥",
+          "meaning": {
+            "en": "As the tradition teaches, the ear is called Self-related, sound here the elemental, and the directions the divinity there."
+          }
         },
         {
           "n": 8,
-          "text": "जिह्वामध्यात्ममित्याहुर्यथातत्त्वनिदर्शनम् ।\nरस एवाधिभूतं तु आपस्तत्राधिदैवतम् ॥"
+          "text": "जिह्वामध्यात्ममित्याहुर्यथातत्त्वनिदर्शनम् ।\nरस एवाधिभूतं तु आपस्तत्राधिदैवतम् ॥",
+          "meaning": {
+            "en": "As the principles teach, the tongue is called Self-related, taste itself the elemental, and the waters the divinity there."
+          }
         },
         {
           "n": 9,
-          "text": "घ्राणमध्यात्ममित्याहुर्यथाश्रुतिनिदर्शनम् ।\nगन्ध एवाधिभूतं तु पृथिवी चाधिदैवतम् ॥"
+          "text": "घ्राणमध्यात्ममित्याहुर्यथाश्रुतिनिदर्शनम् ।\nगन्ध एवाधिभूतं तु पृथिवी चाधिदैवतम् ॥",
+          "meaning": {
+            "en": "As the tradition teaches, the nose is called Self-related, smell itself the elemental, and Earth the divinity."
+          }
         },
         {
           "n": 10,
-          "text": "त्वगध्यात्ममिति प्राहुस्तत्त्वबुद्धिविशारदाः ।\nस्पर्श एवाधिभूतं तु पवनश्चाधिदैवतम् ॥"
+          "text": "त्वगध्यात्ममिति प्राहुस्तत्त्वबुद्धिविशारदाः ।\nस्पर्श एवाधिभूतं तु पवनश्चाधिदैवतम् ॥",
+          "meaning": {
+            "en": "Those skilled in the intellect of principles call the skin Self-related, touch itself the elemental, and the wind the divinity."
+          }
         },
         {
           "n": 11,
-          "text": "मनोऽध्यात्ममिति प्राहुर्यथाश्रुतिनिदर्शनम् ।\nमन्तव्यमधिभूतं तु चन्द्रमाश्चाधिदैवतम् ॥"
+          "text": "मनोऽध्यात्ममिति प्राहुर्यथाश्रुतिनिदर्शनम् ।\nमन्तव्यमधिभूतं तु चन्द्रमाश्चाधिदैवतम् ॥",
+          "meaning": {
+            "en": "As the tradition teaches, the mind is called Self-related, what is to be thought the elemental, and the Moon the divinity."
+          }
         },
         {
           "n": 12,
-          "text": "अहंकारिकमध्यात्ममाहुस्तत्त्वनिदर्शनम् ।\nअभिमानोऽधिभूतं तु भवस्तत्राधिदैवतम् ॥"
+          "text": "अहंकारिकमध्यात्ममाहुस्तत्त्वनिदर्शनम् ।\nअभिमानोऽधिभूतं तु भवस्तत्राधिदैवतम् ॥",
+          "meaning": {
+            "en": "The wise call the egoistic Self-related, as the principles teach; self-regard is the elemental, and Bhava the divinity there."
+          }
         },
         {
           "n": 13,
-          "text": "बुद्धिरध्यात्ममित्याहुर्यथावेदनिदर्शनम् ।\nबोद्धव्यमधिभूतं तु क्षेत्रज्ञोऽत्राधिदैवतम् ॥"
+          "text": "बुद्धिरध्यात्ममित्याहुर्यथावेदनिदर्शनम् ।\nबोद्धव्यमधिभूतं तु क्षेत्रज्ञोऽत्राधिदैवतम् ॥",
+          "meaning": {
+            "en": "As the Veda teaches, the intellect is called Self-related, what is to be known the elemental, and the knower of the field the divinity here."
+          }
         },
         {
           "n": 14,
-          "text": "एषा ते व्यक्ततो राजन्विभूतिरनुवर्णिता ।\nआदौ मध्ये तथा चान्ते यथातत्त्वेन तत्त्ववित् ॥"
+          "text": "एषा ते व्यक्ततो राजन्विभूतिरनुवर्णिता ।\nआदौ मध्ये तथा चान्ते यथातत्त्वेन तत्त्ववित् ॥",
+          "meaning": {
+            "en": "King, this glory of the manifest has been described to you, at beginning, middle and end, as it truly is, by one who knows the truth."
+          }
         },
         {
           "n": 15,
-          "text": "प्रकृतिर्गुणान्विकुरुते स्वच्छन्देनात्मकाम्यया ।\nक्रीडार्थं तु महाराज शतशोऽथ सहस्रशः ॥"
+          "text": "प्रकृतिर्गुणान्विकुरुते स्वच्छन्देनात्मकाम्यया ।\nक्रीडार्थं तु महाराज शतशोऽथ सहस्रशः ॥",
+          "meaning": {
+            "en": "Nature, of her own free will and for her own wish, transforms the qualities, hundreds and thousands of times, king, for play."
+          }
         },
         {
           "n": 16,
-          "text": "यथा दीपसहस्राणि दीपान्मर्त्याः प्रकुर्वते ।\nप्रकृतिस्तथा विकुरुते पुरुषस्य गुणान्बहून् ॥"
+          "text": "यथा दीपसहस्राणि दीपान्मर्त्याः प्रकुर्वते ।\nप्रकृतिस्तथा विकुरुते पुरुषस्य गुणान्बहून् ॥",
+          "meaning": {
+            "en": "As mortals make thousands of lamps from one lamp, so Nature produces many qualities of the Person."
+          }
         },
         {
           "n": 17,
-          "text": "सत्त्वमानन्द उद्रेकः प्रीतिः प्राकाश्यमेव च ।\nसुखं शुद्धित्वमारोग्यं संतोषः श्रद्दधानता ॥"
+          "text": "सत्त्वमानन्द उद्रेकः प्रीतिः प्राकाश्यमेव च ।\nसुखं शुद्धित्वमारोग्यं संतोषः श्रद्दधानता ॥",
+          "meaning": {
+            "en": "Goodness: joy, abundance, delight, illumination, happiness, purity, health, contentment, faith..."
+          }
         },
         {
           "n": 18,
-          "text": "अकार्पण्यमसंरम्भः क्षमा धृतिरहिंसता ।\nसमता सत्यमानृण्यं मार्दवं ह्रीरचापलम् ॥"
+          "text": "अकार्पण्यमसंरम्भः क्षमा धृतिरहिंसता ।\nसमता सत्यमानृण्यं मार्दवं ह्रीरचापलम् ॥",
+          "meaning": {
+            "en": "...generosity, calm, patience, steadiness, harmlessness, equanimity, truth, freedom from debt, gentleness, modesty, steadiness of mind..."
+          }
         },
         {
           "n": 19,
-          "text": "शौचमार्जवमाचारमलौल्यं हृद्यसंभ्रमः ।\nइष्टानिष्टवियोगानां कृतानामविकत्थनम् ॥"
+          "text": "शौचमार्जवमाचारमलौल्यं हृद्यसंभ्रमः ।\nइष्टानिष्टवियोगानां कृतानामविकत्थनम् ॥",
+          "meaning": {
+            "en": "...cleanness, uprightness, good conduct, freedom from greed, a gladdened heart, not boasting of deeds done or of the loss of what is liked or disliked..."
+          }
         },
         {
           "n": 20,
-          "text": "दानेन चानुग्रहणमस्पृहार्थे परार्थता ।\nसर्वभूतदया चैव सत्त्वस्यैते गुणाः स्मृताः ॥"
+          "text": "दानेन चानुग्रहणमस्पृहार्थे परार्थता ।\nसर्वभूतदया चैव सत्त्वस्यैते गुणाः स्मृताः ॥",
+          "meaning": {
+            "en": "...helping through gifts, working for others without desire for gain, and compassion for all beings: these are held to be the qualities of goodness."
+          }
         },
         {
           "n": 21,
-          "text": "रजोगुणानां संघातो रूपमैश्वर्यविग्रहे ।\nअत्याशित्वमकारुण्यं सुखदुःखोपसेवनम् ॥"
+          "text": "रजोगुणानां संघातो रूपमैश्वर्यविग्रहे ।\nअत्याशित्वमकारुण्यं सुखदुःखोपसेवनम् ॥",
+          "meaning": {
+            "en": "The group of the qualities of passion is beauty, power, and quarrelsomeness, overeating, cruelty, and indulgence in pleasure and pain."
+          }
         },
         {
           "n": 22,
-          "text": "परापवादेषु रतिर्विवादानां च सेवनम् ।\nअहंकारस्त्वसत्कारश्चिन्ता वैरोपसेवनम् ॥"
+          "text": "परापवादेषु रतिर्विवादानां च सेवनम् ।\nअहंकारस्त्वसत्कारश्चिन्ता वैरोपसेवनम् ॥",
+          "meaning": {
+            "en": "Delight in slander of others, indulgence in disputes, egoism, disrespect, worry, and keeping enmity..."
+          }
         },
         {
           "n": 23,
-          "text": "परितापोऽपहरणं ह्रीनाशोऽनार्जवं तथा ।\nभेदः परुषता चैव कामक्रोधौ मदस्तथा ।\nदर्पो द्वेषोऽतिवादश्च एते प्रोक्ता रजोगुणाः ॥"
+          "text": "परितापोऽपहरणं ह्रीनाशोऽनार्जवं तथा ।\nभेदः परुषता चैव कामक्रोधौ मदस्तथा ।\nदर्पो द्वेषोऽतिवादश्च एते प्रोक्ता रजोगुणाः ॥",
+          "meaning": {
+            "en": "...remorse, theft, loss of shame, crookedness, division, harshness, desire, anger, intoxication, pride, hatred and overtalk: these are said to be the qualities of passion."
+          }
         },
         {
           "n": 24,
-          "text": "तामसानां तु संघातं प्रवक्ष्याम्युपधार्यताम् ।\nमोहोऽप्रकाशस्तामिस्रमन्धतामिस्रसंज्ञितम् ॥"
+          "text": "तामसानां तु संघातं प्रवक्ष्याम्युपधार्यताम् ।\nमोहोऽप्रकाशस्तामिस्रमन्धतामिस्रसंज्ञितम् ॥",
+          "meaning": {
+            "en": "Now I shall describe the group of the qualities of darkness; listen. Delusion, lack of light, and what are called tamisra and andhatamisra."
+          }
         },
         {
           "n": 25,
-          "text": "मरणं चान्धतामिस्रं तामिस्रं क्रोध उच्यते ।\nतमसो लक्षणानीह भक्षाणामभिरोचनम् ॥"
+          "text": "मरणं चान्धतामिस्रं तामिस्रं क्रोध उच्यते ।\nतमसो लक्षणानीह भक्षाणामभिरोचनम् ॥",
+          "meaning": {
+            "en": "Death is andhatamisra, and anger is called tamisra. Here the marks of darkness are a liking for things to eat..."
+          }
         },
         {
           "n": 26,
-          "text": "भोजनानामपर्याप्तिस्तथा पेयेष्वतृप्तता ।\nगन्धवासो विहारेषु शयनेष्वासनेषु च ॥"
+          "text": "भोजनानामपर्याप्तिस्तथा पेयेष्वतृप्तता ।\nगन्धवासो विहारेषु शयनेष्वासनेषु च ॥",
+          "meaning": {
+            "en": "...never being satisfied with food or drink, fondness for perfumes in pleasures, beds and seats..."
+          }
         },
         {
           "n": 27,
-          "text": "दिवास्वप्ने विवादे च प्रमादेषु च वै रतिः ।\nनृत्यवादित्रगीतानामज्ञानाच्छ्रद्दधानता ।\nद्वेषो धर्मविशेषाणामेते वै तामसा गुणाः ॥"
+          "text": "दिवास्वप्ने विवादे च प्रमादेषु च वै रतिः ।\nनृत्यवादित्रगीतानामज्ञानाच्छ्रद्दधानता ।\nद्वेषो धर्मविशेषाणामेते वै तामसा गुणाः ॥",
+          "meaning": {
+            "en": "...love of sleeping by day, of quarrels and of heedlessness, faith in dance, music and song through ignorance, and hatred of special forms of dharma: these are the qualities of darkness."
+          }
         }
       ]
     }

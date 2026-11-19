@@ -22,78 +22,154 @@
       "titleEn": "Mokshadharma Parva (Duties for liberation)",
       "verses": [
         {
-          "text": "भरद्वाज उवाच"
+          "text": "भरद्वाज उवाच",
+          "meaning": {
+            "en": "Bharadvaja said:",
+            "hi": "भरद्वाज बोले—"
+          }
         },
         {
           "n": 1,
-          "text": "ब्राह्मणः केन भवति क्षत्रियो वा द्विजोत्तम ।\nवैश्यः शूद्रश्च विप्रर्षे तद्ब्रूहि वदतां वर ॥"
+          "text": "ब्राह्मणः केन भवति क्षत्रियो वा द्विजोत्तम ।\nवैश्यः शूद्रश्च विप्रर्षे तद्ब्रूहि वदतां वर ॥",
+          "meaning": {
+            "en": "By what does one become a brahmin, best of the twice-born, or a kshatriya, a vaishya or a shudra, sage? Tell me, best of speakers.",
+            "hi": "हे द्विजोत्तम! मनुष्य किससे ब्राह्मण होता है, या क्षत्रिय, वैश्य और शूद्र होता है? हे विप्रर्षि, हे वक्ताओं में श्रेष्ठ! वह मुझे बताइए।"
+          }
         },
         {
-          "text": "भृगुरुवाच"
+          "text": "भृगुरुवाच",
+          "meaning": {
+            "en": "Bhrigu said:",
+            "hi": "भृगु बोले—"
+          }
         },
         {
           "n": 2,
-          "text": "जातकर्मादिभिर्यस्तु संस्कारैः संस्कृतः शुचिः ।\nवेदाध्ययनसंपन्नः षट्सु कर्मस्ववस्थितः ॥"
+          "text": "जातकर्मादिभिर्यस्तु संस्कारैः संस्कृतः शुचिः ।\nवेदाध्ययनसंपन्नः षट्सु कर्मस्ववस्थितः ॥",
+          "meaning": {
+            "en": "He who is purified by the sacraments beginning with the birth-rite, is pure, well versed in the study of the Veda, and steady in the six duties.",
+            "hi": "जो जातकर्म आदि संस्कारों से संस्कारित होकर पवित्र है, वेद-अध्ययन में निपुण है, और छह कर्मों में स्थित है,"
+          }
         },
         {
           "n": 3,
-          "text": "शौचाचारस्थितः सम्यग्विघसाशी गुरुप्रियः ।\nनित्यव्रती सत्यपरः स वै ब्राह्मण उच्यते ॥"
+          "text": "शौचाचारस्थितः सम्यग्विघसाशी गुरुप्रियः ।\nनित्यव्रती सत्यपरः स वै ब्राह्मण उच्यते ॥",
+          "meaning": {
+            "en": "He who is firm in purity and right conduct, eats only what remains after the offering, is dear to his teacher, keeps constant vows and is devoted to truth, is truly called a brahmin.",
+            "hi": "जो शौच और सदाचार में भली-भाँति स्थित है, यज्ञ के शेष अन्न का भोजन करता है, गुरु को प्रिय है, नित्य व्रती है और सत्य में तत्पर है, वही ब्राह्मण कहा जाता है।"
+          }
         },
         {
           "n": 4,
-          "text": "सत्यं दानं दमोऽद्रोह आनृशंस्यं क्षमा घृणा ।\nतपश्च दृश्यते यत्र स ब्राह्मण इति स्मृतः ॥"
+          "text": "सत्यं दानं दमोऽद्रोह आनृशंस्यं क्षमा घृणा ।\nतपश्च दृश्यते यत्र स ब्राह्मण इति स्मृतः ॥",
+          "meaning": {
+            "en": "Where truth, giving, self-control, freedom from malice, gentleness, forgiveness, compassion and austerity are seen, that person is remembered as a brahmin.",
+            "hi": "जिसमें सत्य, दान, संयम, द्रोह-रहितता, कोमलता, क्षमा, करुणा और तप दिखाई देते हैं, उसे ब्राह्मण माना गया है।"
+          }
         },
         {
           "n": 5,
-          "text": "क्षत्रजं सेवते कर्म वेदाध्ययनसंमतः ।\nदानादानरतिर्यश्च स वै क्षत्रिय उच्यते ॥"
+          "text": "क्षत्रजं सेवते कर्म वेदाध्ययनसंमतः ।\nदानादानरतिर्यश्च स वै क्षत्रिय उच्यते ॥",
+          "meaning": {
+            "en": "He who follows the work of the warrior, is approved in the study of the Veda, and delights in giving and taking, is truly called a kshatriya.",
+            "hi": "जो क्षत्रिय-कर्म करता है, वेद-अध्ययन में मान्य है, और दान देने और लेने में रुचि रखता है, वही क्षत्रिय कहा जाता है।"
+          }
         },
         {
           "n": 6,
-          "text": "कृषिगोरक्ष्यवाणिज्यं यो विशत्यनिशं शुचिः ।\nवेदाध्ययनसंपन्नः स वैश्य इति संज्ञितः ॥"
+          "text": "कृषिगोरक्ष्यवाणिज्यं यो विशत्यनिशं शुचिः ।\nवेदाध्ययनसंपन्नः स वैश्य इति संज्ञितः ॥",
+          "meaning": {
+            "en": "The pure man, learned in the Veda, who ever takes up farming, cattle-keeping and trade is known as a vaishya.",
+            "hi": "जो पवित्र मनुष्य वेद-अध्ययन से संपन्न होकर सदा कृषि, गोरक्षा और व्यापार में लगा रहता है, वह वैश्य कहलाता है।"
+          }
         },
         {
           "n": 7,
-          "text": "सर्वभक्षरतिर्नित्यं सर्वकर्मकरोऽशुचिः ।\nत्यक्तवेदस्त्वनाचारः स वै शूद्र इति स्मृतः ॥"
+          "text": "सर्वभक्षरतिर्नित्यं सर्वकर्मकरोऽशुचिः ।\nत्यक्तवेदस्त्वनाचारः स वै शूद्र इति स्मृतः ॥",
+          "meaning": {
+            "en": "He who always delights in eating anything, does any work at all, is impure, has abandoned the Veda and is without proper conduct is remembered as a shudra.",
+            "hi": "जो सदा सब कुछ खाने में रुचि रखता है, हर प्रकार का काम करता है, अपवित्र है, वेद त्याग चुका है और जिसका आचरण ठीक नहीं है, उसे शूद्र माना गया है।"
+          }
         },
         {
           "n": 8,
-          "text": "शूद्रे चैतद्भवेल्लक्ष्यं द्विजे चैतन्न विद्यते ।\nन वै शूद्रो भवेच्छूद्रो ब्राह्मणो न च ब्राह्मणः ॥"
+          "text": "शूद्रे चैतद्भवेल्लक्ष्यं द्विजे चैतन्न विद्यते ।\nन वै शूद्रो भवेच्छूद्रो ब्राह्मणो न च ब्राह्मणः ॥",
+          "meaning": {
+            "en": "If this mark is found in a shudra and is not found in a twice-born, then the shudra is not a shudra, nor the brahmin a brahmin.",
+            "hi": "यदि यह लक्षण शूद्र में मिले और द्विज में न मिले, तो शूद्र शूद्र नहीं है, और ब्राह्मण ब्राह्मण नहीं है।"
+          }
         },
         {
           "n": 9,
-          "text": "सर्वोपायैस्तु लोभस्य क्रोधस्य च विनिग्रहः ।\nएतत्पवित्रं ज्ञातव्यं तथा चैवात्मसंयमः ॥"
+          "text": "सर्वोपायैस्तु लोभस्य क्रोधस्य च विनिग्रहः ।\nएतत्पवित्रं ज्ञातव्यं तथा चैवात्मसंयमः ॥",
+          "meaning": {
+            "en": "By every means one must restrain greed and anger; know this to be purifying, as is self-restraint.",
+            "hi": "हर उपाय से लोभ और क्रोध पर नियंत्रण रखना चाहिए। इसे पवित्र करने वाला जानना चाहिए, और इसी प्रकार आत्म-संयम भी।"
+          }
         },
         {
           "n": 10,
-          "text": "नित्यं क्रोधात्तपो रक्षेच्छ्रियं रक्षेत मत्सरात् ।\nविद्यां मानावमानाभ्यामात्मानं तु प्रमादतः ॥"
+          "text": "नित्यं क्रोधात्तपो रक्षेच्छ्रियं रक्षेत मत्सरात् ।\nविद्यां मानावमानाभ्यामात्मानं तु प्रमादतः ॥",
+          "meaning": {
+            "en": "Always guard austerity from anger, wealth from envy, learning from pride and insult, and oneself from carelessness.",
+            "hi": "सदा क्रोध से तप की रक्षा करे, ईर्ष्या से धन की रक्षा करे, मान और अपमान से विद्या की रक्षा करे, और असावधानी से अपनी रक्षा करे।"
+          }
         },
         {
           "n": 11,
-          "text": "यस्य सर्वे समारम्भा निराशीर्बन्धनास्त्विह ।\nत्यागे यस्य हुतं सर्वं स त्यागी स च बुद्धिमान् ॥"
+          "text": "यस्य सर्वे समारम्भा निराशीर्बन्धनास्त्विह ।\nत्यागे यस्य हुतं सर्वं स त्यागी स च बुद्धिमान् ॥",
+          "meaning": {
+            "en": "He whose every undertaking here is free from bonds of desire, and for whom everything is offered in renunciation, is a renouncer and is wise.",
+            "hi": "जिसके सारे प्रयत्न यहाँ कामना के बंधनों से मुक्त हैं, और जिसके त्याग में सब कुछ अर्पित है, वह त्यागी है और वही बुद्धिमान है।"
+          }
         },
         {
           "n": 12,
-          "text": "अहिंस्रः सर्वभूतानां मैत्रायणगतश्चरेत् ।\nअविस्रम्भे न गन्तव्यं विस्रम्भे धारयेन्मनः ॥"
+          "text": "अहिंस्रः सर्वभूतानां मैत्रायणगतश्चरेत् ।\nअविस्रम्भे न गन्तव्यं विस्रम्भे धारयेन्मनः ॥",
+          "meaning": {
+            "en": "Harming no creature, one should live in friendliness; one should not go among the untrustworthy, but should keep the mind steady with the trustworthy.",
+            "hi": "सब प्राणियों को हानि न पहुँचाते हुए मैत्री-भाव से विचरे। जो विश्वसनीय न हो उसके पास न जाए, और विश्वसनीय के प्रति मन को स्थिर रखे।"
+          }
         },
         {
           "n": 13,
-          "text": "परिग्रहान्परित्यज्य भवेद्बुद्ध्या जितेन्द्रियः ।\nअशोकं स्थानमातिष्ठेदिह चामुत्र चाभयम् ॥"
+          "text": "परिग्रहान्परित्यज्य भवेद्बुद्ध्या जितेन्द्रियः ।\nअशोकं स्थानमातिष्ठेदिह चामुत्र चाभयम् ॥",
+          "meaning": {
+            "en": "Having given up possessions, one should master the senses by understanding and take up a state free from sorrow, fearless here and hereafter.",
+            "hi": "संग्रह त्यागकर, बुद्धि से इंद्रियों को जीतकर, शोक-रहित स्थान में स्थित हो; जहाँ इस लोक और परलोक में भय न हो।"
+          }
         },
         {
           "n": 14,
-          "text": "तपोनित्येन दान्तेन मुनिना संयतात्मना ।\nअजितं जेतुकामेन भाव्यं सङ्गेष्वसङ्गिना ॥"
+          "text": "तपोनित्येन दान्तेन मुनिना संयतात्मना ।\nअजितं जेतुकामेन भाव्यं सङ्गेष्वसङ्गिना ॥",
+          "meaning": {
+            "en": "One who wishes to conquer what is not yet conquered should be constant in austerity, self-controlled, a restrained sage, and unattached amid attachments.",
+            "hi": "जो तप में नित्य लगा है, दान्त, मुनि और संयमी है, और जो अजेय को जीतने की इच्छा रखता है, उसे आसक्तियों के बीच अनासक्त होना चाहिए।"
+          }
         },
         {
           "n": 15,
-          "text": "इन्द्रियैर्गृह्यते यद्यत्तत्तद्व्यक्तमिति स्थितिः ।\nअव्यक्तमिति विज्ञेयं लिङ्गग्राह्यमतीन्द्रियम् ॥"
+          "text": "इन्द्रियैर्गृह्यते यद्यत्तत्तद्व्यक्तमिति स्थितिः ।\nअव्यक्तमिति विज्ञेयं लिङ्गग्राह्यमतीन्द्रियम् ॥",
+          "meaning": {
+            "en": "Whatever is grasped by the senses is called manifest; the unmanifest should be known as beyond the senses, grasped only by its signs.",
+            "hi": "जो इंद्रियों से ग्रहण होता है, वह व्यक्त कहलाता है; अव्यक्त को इंद्रियों से परे, केवल उसके लक्षणों से ग्रहण होने वाला जानना चाहिए।"
+          }
         },
         {
           "n": 16,
-          "text": "मनः प्राणे निगृह्णीयात्प्राणं ब्रह्मणि धारयेत् ।\nनिर्वाणादेव निर्वाणो न च किंचिद्विचिन्तयेत् ।\nसुखं वै ब्राह्मणो ब्रह्म स वै तेनाधिगच्छति ॥"
+          "text": "मनः प्राणे निगृह्णीयात्प्राणं ब्रह्मणि धारयेत् ।\nनिर्वाणादेव निर्वाणो न च किंचिद्विचिन्तयेत् ।\nसुखं वै ब्राह्मणो ब्रह्म स वै तेनाधिगच्छति ॥",
+          "meaning": {
+            "en": "One should hold the mind in the breath and the breath in Brahman; liberated through liberation itself, one should think of nothing. Brahman is bliss for the brahmin, and by it he attains it.",
+            "hi": "मन को प्राण में रोके, प्राण को ब्रह्म में धारण करे। निर्वाण से ही निर्वाण पाकर कुछ भी न सोचे। ब्रह्म ब्राह्मण के लिए आनंद है, और उसी से वह उसे प्राप्त करता है।"
+          }
         },
         {
           "n": 17,
-          "text": "शौचेन सततं युक्तस्तथाचारसमन्वितः ।\nसानुक्रोशश्च भूतेषु तद्द्विजातिषु लक्षणम् ॥"
+          "text": "शौचेन सततं युक्तस्तथाचारसमन्वितः ।\nसानुक्रोशश्च भूतेषु तद्द्विजातिषु लक्षणम् ॥",
+          "meaning": {
+            "en": "One who is constantly pure, endowed with good conduct and compassionate toward creatures: that is the mark of the twice-born.",
+            "hi": "जो सदा पवित्रता से युक्त है, श्रेष्ठ आचरण से संपन्न है, और प्राणियों के प्रति दयालु है — वही द्विजाति का लक्षण है।"
+          }
         }
       ]
     }

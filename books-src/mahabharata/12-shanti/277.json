@@ -22,204 +22,357 @@
       "titleEn": "Mokshadharma Parva (Duties for liberation)",
       "verses": [
         {
-          "text": "युधिष्ठिर उवाच"
+          "text": "युधिष्ठिर उवाच",
+          "meaning": {
+            "en": "Yudhishthira said:"
+          }
         },
         {
           "n": 1,
-          "text": "कथं नु मुक्तः पृथिवीं चरेदस्मद्विधो नृपः ।\nनित्यं कैश्च गुणैर्युक्तः सङ्गपाशाद्विमुच्यते ॥"
+          "text": "कथं नु मुक्तः पृथिवीं चरेदस्मद्विधो नृपः ।\nनित्यं कैश्च गुणैर्युक्तः सङ्गपाशाद्विमुच्यते ॥",
+          "meaning": {
+            "en": "How can a king like us, being free, move about the earth, and by what qualities, constantly practiced, is he released from the snare of attachment?"
+          }
         },
         {
-          "text": "भीष्म उवाच"
+          "text": "भीष्म उवाच",
+          "meaning": {
+            "en": "Bhishma said:"
+          }
         },
         {
           "n": 2,
-          "text": "अत्र ते वर्तयिष्यामि इतिहासं पुरातनम् ।\nअरिष्टनेमिना प्रोक्तं सगरायानुपृच्छते ॥"
+          "text": "अत्र ते वर्तयिष्यामि इतिहासं पुरातनम् ।\nअरिष्टनेमिना प्रोक्तं सगरायानुपृच्छते ॥",
+          "meaning": {
+            "en": "On this I will relate to you an ancient account, spoken by Arishtanemi to Sagara, who questioned him."
+          }
         },
         {
-          "text": "सगर उवाच"
+          "text": "सगर उवाच",
+          "meaning": {
+            "en": "Sagara said:"
+          }
         },
         {
           "n": 3,
-          "text": "किं श्रेयः परमं ब्रह्मन्कृत्वेह सुखमश्नुते ।\nकथं न शोचेन्न क्षुभ्येदेतदिच्छामि वेदितुम् ॥"
+          "text": "किं श्रेयः परमं ब्रह्मन्कृत्वेह सुखमश्नुते ।\nकथं न शोचेन्न क्षुभ्येदेतदिच्छामि वेदितुम् ॥",
+          "meaning": {
+            "en": "Brahmin, what supreme good, once done, brings happiness here? How may one not grieve and not be disturbed? I wish to know this."
+          }
         },
         {
-          "text": "भीष्म उवाच"
+          "text": "भीष्म उवाच",
+          "meaning": {
+            "en": "Bhishma said:"
+          }
         },
         {
           "n": 4,
-          "text": "एवमुक्तस्तदा तार्क्ष्यः सर्वशास्त्रविशारदः ।\nविबुध्य संपदं चाग्र्यां सद्वाक्यमिदमब्रवीत् ॥"
+          "text": "एवमुक्तस्तदा तार्क्ष्यः सर्वशास्त्रविशारदः ।\nविबुध्य संपदं चाग्र्यां सद्वाक्यमिदमब्रवीत् ॥",
+          "meaning": {
+            "en": "Thus addressed, Tarkshya, learned in all the scriptures, recognized the excellence of the question and spoke these good words."
+          }
         },
         {
           "n": 5,
-          "text": "सुखं मोक्षसुखं लोके न च लोकोऽवगच्छति ।\nप्रसक्तः पुत्रपशुषु धनधान्यसमाकुलः ॥"
+          "text": "सुखं मोक्षसुखं लोके न च लोकोऽवगच्छति ।\nप्रसक्तः पुत्रपशुषु धनधान्यसमाकुलः ॥",
+          "meaning": {
+            "en": "Happiness, the happiness of liberation, is not understood by people in the world, who cling to sons and cattle and are crowded with wealth and grain."
+          }
         },
         {
           "n": 6,
-          "text": "सक्तबुद्धिरशान्तात्मा न स शक्यश्चिकित्सितुम् ।\nस्नेहपाशसितो मूढो न स मोक्षाय कल्पते ॥"
+          "text": "सक्तबुद्धिरशान्तात्मा न स शक्यश्चिकित्सितुम् ।\nस्नेहपाशसितो मूढो न स मोक्षाय कल्पते ॥",
+          "meaning": {
+            "en": "One whose mind is attached and whose self is restless cannot be cured; the fool bound in the snare of affection is not fit for liberation."
+          }
         },
         {
           "n": 7,
-          "text": "स्नेहजानिह ते पाशान्वक्ष्यामि शृणु तान्मम ।\nसकर्णकेन शिरसा शक्याश्छेत्तुं विजानता ॥"
+          "text": "स्नेहजानिह ते पाशान्वक्ष्यामि शृणु तान्मम ।\nसकर्णकेन शिरसा शक्याश्छेत्तुं विजानता ॥",
+          "meaning": {
+            "en": "I will tell you of the snares born of affection here; listen to me. A knowing man can cut them with his own head, ears and all."
+          }
         },
         {
           "n": 8,
-          "text": "संभाव्य पुत्रान्कालेन यौवनस्थान्निवेश्य च ।\nसमर्थाञ्जीवने ज्ञात्वा मुक्तश्चर यथासुखम् ॥"
+          "text": "संभाव्य पुत्रान्कालेन यौवनस्थान्निवेश्य च ।\nसमर्थाञ्जीवने ज्ञात्वा मुक्तश्चर यथासुखम् ॥",
+          "meaning": {
+            "en": "When you have brought your sons up in due time, and settled them in married life, and know them capable of earning a living, wander free and as you please."
+          }
         },
         {
           "n": 9,
-          "text": "भार्यां पुत्रवतीं वृद्धां लालितां पुत्रवत्सलाम् ।\nज्ञात्वा प्रजहि काले त्वं परार्थमनुदृश्य च ॥"
+          "text": "भार्यां पुत्रवतीं वृद्धां लालितां पुत्रवत्सलाम् ।\nज्ञात्वा प्रजहि काले त्वं परार्थमनुदृश्य च ॥",
+          "meaning": {
+            "en": "Knowing your wife, mother of sons, now old, pampered and fond of her children, dispose of her in due time, keeping in view the good of others."
+          }
         },
         {
           "n": 10,
-          "text": "सापत्यो निरपत्यो वा मुक्तश्चर यथासुखम् ।\nइन्द्रियैरिन्द्रियार्थांस्त्वमनुभूय यथाविधि ॥"
+          "text": "सापत्यो निरपत्यो वा मुक्तश्चर यथासुखम् ।\nइन्द्रियैरिन्द्रियार्थांस्त्वमनुभूय यथाविधि ॥",
+          "meaning": {
+            "en": "With children or without, wander free and as you please, having enjoyed the objects of the senses with the senses, as prescribed."
+          }
         },
         {
           "n": 11,
-          "text": "कृतकौतूहलस्तेषु मुक्तश्चर यथासुखम् ।\nउपपत्त्योपलब्धेषु लाभेषु च समो भव ॥"
+          "text": "कृतकौतूहलस्तेषु मुक्तश्चर यथासुखम् ।\nउपपत्त्योपलब्धेषु लाभेषु च समो भव ॥",
+          "meaning": {
+            "en": "Having satisfied your curiosity about them, wander free and as you please, and be even-minded in gains obtained by fitting means."
+          }
         },
         {
           "n": 12,
-          "text": "एष तावत्समासेन तव संकीर्तितो मया ।\nमोक्षार्थो विस्तरेणापि भूयो वक्ष्यामि तच्छृणु ॥"
+          "text": "एष तावत्समासेन तव संकीर्तितो मया ।\nमोक्षार्थो विस्तरेणापि भूयो वक्ष्यामि तच्छृणु ॥",
+          "meaning": {
+            "en": "This I have briefly declared to you as the aim of liberation. Listen, and I will tell it again at greater length."
+          }
         },
         {
           "n": 13,
-          "text": "मुक्ता वीतभया लोके चरन्ति सुखिनो नराः ।\nसक्तभावा विनश्यन्ति नरास्तत्र न संशयः ॥"
+          "text": "मुक्ता वीतभया लोके चरन्ति सुखिनो नराः ।\nसक्तभावा विनश्यन्ति नरास्तत्र न संशयः ॥",
+          "meaning": {
+            "en": "Free people, rid of fear, move about the world happily; people who are attached perish there, without doubt."
+          }
         },
         {
           "n": 14,
-          "text": "आहारसंचयाश्चैव तथा कीटपिपीलिकाः ।\nअसक्ताः सुखिनो लोके सक्ताश्चैव विनाशिनः ॥"
+          "text": "आहारसंचयाश्चैव तथा कीटपिपीलिकाः ।\nअसक्ताः सुखिनो लोके सक्ताश्चैव विनाशिनः ॥",
+          "meaning": {
+            "en": "Even insects and ants that store up food are happy in the world when unattached, and perish when attached."
+          }
         },
         {
           "n": 15,
-          "text": "स्वजने न च ते चिन्ता कर्तव्या मोक्षबुद्धिना ।\nइमे मया विनाभूता भविष्यन्ति कथं त्विति ॥"
+          "text": "स्वजने न च ते चिन्ता कर्तव्या मोक्षबुद्धिना ।\nइमे मया विनाभूता भविष्यन्ति कथं त्विति ॥",
+          "meaning": {
+            "en": "One who wants liberation should not worry about his own people, thinking, \"How will these fare without me?\""
+          }
         },
         {
           "n": 16,
-          "text": "स्वयमुत्पद्यते जन्तुः स्वयमेव विवर्धते ।\nसुखदुःखे तथा मृत्युं स्वयमेवाधिगच्छति ॥"
+          "text": "स्वयमुत्पद्यते जन्तुः स्वयमेव विवर्धते ।\nसुखदुःखे तथा मृत्युं स्वयमेवाधिगच्छति ॥",
+          "meaning": {
+            "en": "A creature is born by itself, grows by itself, and comes by itself to pleasure, pain and death."
+          }
         },
         {
           "n": 17,
-          "text": "भोजनाच्छादने चैव मात्रा पित्रा च संग्रहम् ।\nस्वकृतेनाधिगच्छन्ति लोके नास्त्यकृतं पुरा ॥"
+          "text": "भोजनाच्छादने चैव मात्रा पित्रा च संग्रहम् ।\nस्वकृतेनाधिगच्छन्ति लोके नास्त्यकृतं पुरा ॥",
+          "meaning": {
+            "en": "Their food and clothing, and the support of mother and father, people obtain through what they themselves have done; in the world nothing arises that was not done before."
+          }
         },
         {
           "n": 18,
-          "text": "धात्रा विहितभक्ष्याणि सर्वभूतानि मेदिनीम् ।\nलोके विपरिधावन्ति रक्षितानि स्वकर्मभिः ॥"
+          "text": "धात्रा विहितभक्ष्याणि सर्वभूतानि मेदिनीम् ।\nलोके विपरिधावन्ति रक्षितानि स्वकर्मभिः ॥",
+          "meaning": {
+            "en": "All beings go about the earth on foods set out by the Creator, protected by their own deeds."
+          }
         },
         {
           "n": 19,
-          "text": "स्वयं मृत्पिण्डभूतस्य परतन्त्रस्य सर्वदा ।\nको हेतुः स्वजनं पोष्टुं रक्षितुं वादृढात्मनः ॥"
+          "text": "स्वयं मृत्पिण्डभूतस्य परतन्त्रस्य सर्वदा ।\nको हेतुः स्वजनं पोष्टुं रक्षितुं वादृढात्मनः ॥",
+          "meaning": {
+            "en": "Himself a lump of clay, always dependent on others, what reason has a person of weak self to feed or protect his own people?"
+          }
         },
         {
           "n": 20,
-          "text": "स्वजनं हि यदा मृत्युर्हन्त्येव तव पश्यतः ।\nकृतेऽपि यत्ने महति तत्र बोद्धव्यमात्मना ॥"
+          "text": "स्वजनं हि यदा मृत्युर्हन्त्येव तव पश्यतः ।\nकृतेऽपि यत्ने महति तत्र बोद्धव्यमात्मना ॥",
+          "meaning": {
+            "en": "When death kills your own people before your very eyes, though great effort was made, you must understand this for yourself."
+          }
         },
         {
           "n": 21,
-          "text": "जीवन्तमपि चैवैनं भरणे रक्षणे तथा ।\nअसमाप्ते परित्यज्य पश्चादपि मरिष्यसि ॥"
+          "text": "जीवन्तमपि चैवैनं भरणे रक्षणे तथा ।\nअसमाप्ते परित्यज्य पश्चादपि मरिष्यसि ॥",
+          "meaning": {
+            "en": "Even a living kinsman, if you leave him before his upkeep and protection are completed, you will die later too."
+          }
         },
         {
           "n": 22,
-          "text": "यदा मृतश्च स्वजनं न ज्ञास्यसि कथंचन ।\nसुखितं दुःखितं वापि ननु बोद्धव्यमात्मना ॥"
+          "text": "यदा मृतश्च स्वजनं न ज्ञास्यसि कथंचन ।\nसुखितं दुःखितं वापि ननु बोद्धव्यमात्मना ॥",
+          "meaning": {
+            "en": "When you are dead you will not know in any way whether your kin are happy or unhappy; surely you must understand this for yourself."
+          }
         },
         {
           "n": 23,
-          "text": "मृते वा त्वयि जीवे वा यदि भोक्ष्यति वै जनः ।\nस्वकृतं ननु बुद्ध्वैवं कर्तव्यं हितमात्मनः ॥"
+          "text": "मृते वा त्वयि जीवे वा यदि भोक्ष्यति वै जनः ।\nस्वकृतं ननु बुद्ध्वैवं कर्तव्यं हितमात्मनः ॥",
+          "meaning": {
+            "en": "Whether you are dead or alive, people will eat as they have earned; understanding this, you should do what is good for yourself."
+          }
         },
         {
           "n": 24,
-          "text": "एवं विजानँल्लोकेऽस्मिन्कः कस्येत्यभिनिश्चितः ।\nमोक्षे निवेशय मनो भूयश्चाप्युपधारय ॥"
+          "text": "एवं विजानँल्लोकेऽस्मिन्कः कस्येत्यभिनिश्चितः ।\nमोक्षे निवेशय मनो भूयश्चाप्युपधारय ॥",
+          "meaning": {
+            "en": "Knowing this, and settled in the thought \"who belongs to whom in this world?\", set your mind on liberation and reflect on it again and again."
+          }
         },
         {
           "n": 25,
-          "text": "क्षुत्पिपासादयो भावा जिता यस्येह देहिनः ।\nक्रोधो लोभस्तथा मोहः सत्त्ववान्मुक्त एव सः ॥"
+          "text": "क्षुत्पिपासादयो भावा जिता यस्येह देहिनः ।\nक्रोधो लोभस्तथा मोहः सत्त्ववान्मुक्त एव सः ॥",
+          "meaning": {
+            "en": "The embodied one who has conquered hunger, thirst and the like, anger, greed and delusion, that person of strength is indeed liberated."
+          }
         },
         {
           "n": 26,
-          "text": "द्यूते पाने तथा स्त्रीषु मृगयायां च यो नरः ।\nन प्रमाद्यति संमोहात्सततं मुक्त एव सः ॥"
+          "text": "द्यूते पाने तथा स्त्रीषु मृगयायां च यो नरः ।\nन प्रमाद्यति संमोहात्सततं मुक्त एव सः ॥",
+          "meaning": {
+            "en": "The man who never becomes heedless through infatuation in gambling, drink, women and hunting is liberated indeed."
+          }
         },
         {
           "n": 27,
-          "text": "दिवसे दिवसे नाम रात्रौ रात्रौ सदा सदा ।\nभोक्तव्यमिति यः खिन्नो दोषबुद्धिः स उच्यते ॥"
+          "text": "दिवसे दिवसे नाम रात्रौ रात्रौ सदा सदा ।\nभोक्तव्यमिति यः खिन्नो दोषबुद्धिः स उच्यते ॥",
+          "meaning": {
+            "en": "He who is weary at the thought that day after day, night after night, one must always eat, is said to have the insight that sees fault."
+          }
         },
         {
           "n": 28,
-          "text": "आत्मभावं तथा स्त्रीषु मुक्तमेव पुनः पुनः ।\nयः पश्यति सदा युक्तो यथावन्मुक्त एव सः ॥"
+          "text": "आत्मभावं तथा स्त्रीषु मुक्तमेव पुनः पुनः ।\nयः पश्यति सदा युक्तो यथावन्मुक्त एव सः ॥",
+          "meaning": {
+            "en": "He who always, with discipline, sees again and again the true nature of the self in women as already free, is truly liberated."
+          }
         },
         {
           "n": 29,
-          "text": "संभवं च विनाशं च भूतानां चेष्टितं तथा ।\nयस्तत्त्वतो विजानाति लोकेऽस्मिन्मुक्त एव सः ॥"
+          "text": "संभवं च विनाशं च भूतानां चेष्टितं तथा ।\nयस्तत्त्वतो विजानाति लोकेऽस्मिन्मुक्त एव सः ॥",
+          "meaning": {
+            "en": "He who knows truly the birth and destruction of beings and their activity is liberated in this world."
+          }
         },
         {
           "n": 30,
-          "text": "प्रस्थं वाहसहस्रेषु यात्रार्थं चैव कोटिषु ।\nप्रासादे मञ्चकस्थानं यः पश्यति स मुच्यते ॥"
+          "text": "प्रस्थं वाहसहस्रेषु यात्रार्थं चैव कोटिषु ।\nप्रासादे मञ्चकस्थानं यः पश्यति स मुच्यते ॥",
+          "meaning": {
+            "en": "He who sees that a single measure of grain is enough among thousands of cartloads, and that for the journey, even among millions, only a seat on a couch in a palace is used, is freed."
+          }
         },
         {
           "n": 31,
-          "text": "मृत्युनाभ्याहतं लोकं व्याधिभिश्चोपपीडितम् ।\nअवृत्तिकर्शितं चैव यः पश्यति स मुच्यते ॥"
+          "text": "मृत्युनाभ्याहतं लोकं व्याधिभिश्चोपपीडितम् ।\nअवृत्तिकर्शितं चैव यः पश्यति स मुच्यते ॥",
+          "meaning": {
+            "en": "He who sees the world struck by death, afflicted by diseases and worn down by lack of livelihood is freed."
+          }
         },
         {
           "n": 32,
-          "text": "यः पश्यति सुखी तुष्टो नपश्यंश्च विहन्यते ।\nयश्चाप्यल्पेन संतुष्टो लोकेऽस्मिन्मुक्त एव सः ॥"
+          "text": "यः पश्यति सुखी तुष्टो नपश्यंश्च विहन्यते ।\nयश्चाप्यल्पेन संतुष्टो लोकेऽस्मिन्मुक्त एव सः ॥",
+          "meaning": {
+            "en": "He who sees this is happy and content, and one who does not is struck down; and he who is content with little is liberated in this world."
+          }
         },
         {
           "n": 33,
-          "text": "अग्नीषोमाविदं सर्वमिति यश्चानुपश्यति ।\nन च संस्पृश्यते भावैरद्भुतैर्मुक्त एव सः ॥"
+          "text": "अग्नीषोमाविदं सर्वमिति यश्चानुपश्यति ।\nन च संस्पृश्यते भावैरद्भुतैर्मुक्त एव सः ॥",
+          "meaning": {
+            "en": "He who sees that all this is Agni and Soma, and is not touched by wondrous states, is liberated indeed."
+          }
         },
         {
           "n": 34,
-          "text": "पर्यङ्कशय्या भूमिश्च समाने यस्य देहिनः ।\nशालयश्च कदन्नं च यस्य स्यान्मुक्त एव सः ॥"
+          "text": "पर्यङ्कशय्या भूमिश्च समाने यस्य देहिनः ।\nशालयश्च कदन्नं च यस्य स्यान्मुक्त एव सः ॥",
+          "meaning": {
+            "en": "The embodied person for whom a couch and the bare ground are equal, and rice and poor food are equal, is liberated."
+          }
         },
         {
           "n": 35,
-          "text": "क्षौमं च कुशचीरं च कौशेयं वल्कलानि च ।\nआविकं चर्म च समं यस्य स्यान्मुक्त एव सः ॥"
+          "text": "क्षौमं च कुशचीरं च कौशेयं वल्कलानि च ।\nआविकं चर्म च समं यस्य स्यान्मुक्त एव सः ॥",
+          "meaning": {
+            "en": "He for whom linen, kusha-grass garments, silk, bark and sheepskin are all alike is liberated."
+          }
         },
         {
           "n": 36,
-          "text": "पञ्चभूतसमुद्भूतं लोकं यश्चानुपश्यति ।\nतथा च वर्तते दृष्ट्वा लोकेऽस्मिन्मुक्त एव सः ॥"
+          "text": "पञ्चभूतसमुद्भूतं लोकं यश्चानुपश्यति ।\nतथा च वर्तते दृष्ट्वा लोकेऽस्मिन्मुक्त एव सः ॥",
+          "meaning": {
+            "en": "He who sees the world as arisen from the five elements and acts accordingly in this world is liberated."
+          }
         },
         {
           "n": 37,
-          "text": "सुखदुःखे समे यस्य लाभालाभौ जयाजयौ ।\nइच्छाद्वेषौ भयोद्वेगौ सर्वथा मुक्त एव सः ॥"
+          "text": "सुखदुःखे समे यस्य लाभालाभौ जयाजयौ ।\nइच्छाद्वेषौ भयोद्वेगौ सर्वथा मुक्त एव सः ॥",
+          "meaning": {
+            "en": "He for whom pleasure and pain are the same, gain and loss, victory and defeat, desire and hatred, fear and agitation, is liberated in every way."
+          }
         },
         {
           "n": 38,
-          "text": "रक्तमूत्रपुरीषाणां दोषाणां संचयं तथा ।\nशरीरं दोषबहुलं दृष्ट्वा चेदं विमुच्यते ॥"
+          "text": "रक्तमूत्रपुरीषाणां दोषाणां संचयं तथा ।\nशरीरं दोषबहुलं दृष्ट्वा चेदं विमुच्यते ॥",
+          "meaning": {
+            "en": "Seeing the body as a heap of blood, urine, feces and humors, full of faults, one is freed from it."
+          }
         },
         {
           "n": 39,
-          "text": "वलीपलितसंयोगं कार्श्यं वैवर्ण्यमेव च ।\nकुब्जभावं च जरया यः पश्यति स मुच्यते ॥"
+          "text": "वलीपलितसंयोगं कार्श्यं वैवर्ण्यमेव च ।\nकुब्जभावं च जरया यः पश्यति स मुच्यते ॥",
+          "meaning": {
+            "en": "He who sees through old age the wrinkles and gray hair, the thinness, the discoloring and the stooping is freed."
+          }
         },
         {
           "n": 40,
-          "text": "पुंस्त्वोपघातं कालेन दर्शनोपरमं तथा ।\nबाधिर्यं प्राणमन्दत्वं यः पश्यति स मुच्यते ॥"
+          "text": "पुंस्त्वोपघातं कालेन दर्शनोपरमं तथा ।\nबाधिर्यं प्राणमन्दत्वं यः पश्यति स मुच्यते ॥",
+          "meaning": {
+            "en": "He who sees, in time, the loss of manhood, the failing of sight, deafness and the weakening of breath is freed."
+          }
         },
         {
           "n": 41,
-          "text": "गतानृषींस्तथा देवानसुरांश्च तथा गतान् ।\nलोकादस्मात्परं लोकं यः पश्यति स मुच्यते ॥"
+          "text": "गतानृषींस्तथा देवानसुरांश्च तथा गतान् ।\nलोकादस्मात्परं लोकं यः पश्यति स मुच्यते ॥",
+          "meaning": {
+            "en": "He who sees that sages, gods and Asuras have gone from this world to another is freed."
+          }
         },
         {
           "n": 42,
-          "text": "प्रभावैरन्वितास्तैस्तैः पार्थिवेन्द्राः सहस्रशः ।\nये गताः पृथिवीं त्यक्त्वा इति ज्ञात्वा विमुच्यते ॥"
+          "text": "प्रभावैरन्वितास्तैस्तैः पार्थिवेन्द्राः सहस्रशः ।\nये गताः पृथिवीं त्यक्त्वा इति ज्ञात्वा विमुच्यते ॥",
+          "meaning": {
+            "en": "Knowing that thousands of kings of the earth, endowed with all kinds of powers, have gone, leaving the earth, one is freed."
+          }
         },
         {
           "n": 43,
-          "text": "अर्थांश्च दुर्लभाँल्लोके क्लेशांश्च सुलभांस्तथा ।\nदुःखं चैव कुटुम्बार्थे यः पश्यति स मुच्यते ॥"
+          "text": "अर्थांश्च दुर्लभाँल्लोके क्लेशांश्च सुलभांस्तथा ।\nदुःखं चैव कुटुम्बार्थे यः पश्यति स मुच्यते ॥",
+          "meaning": {
+            "en": "He who sees that wealth is hard to obtain in the world, troubles easy to come by, and that family life brings sorrow is freed."
+          }
         },
         {
           "n": 44,
-          "text": "अपत्यानां च वैगुण्यं जनं विगुणमेव च ।\nपश्यन्भूयिष्ठशो लोके को मोक्षं नाभिपूजयेत् ॥"
+          "text": "अपत्यानां च वैगुण्यं जनं विगुणमेव च ।\nपश्यन्भूयिष्ठशो लोके को मोक्षं नाभिपूजयेत् ॥",
+          "meaning": {
+            "en": "Seeing so often in the world the failings of children and of people generally, who would not hold liberation in honor?"
+          }
         },
         {
           "n": 45,
-          "text": "शास्त्राल्लोकाच्च यो बुद्धः सर्वं पश्यति मानवः ।\nअसारमिव मानुष्यं सर्वथा मुक्त एव सः ॥"
+          "text": "शास्त्राल्लोकाच्च यो बुद्धः सर्वं पश्यति मानवः ।\nअसारमिव मानुष्यं सर्वथा मुक्त एव सः ॥",
+          "meaning": {
+            "en": "The man enlightened by scripture and by the world who sees all human life as empty is liberated in every way."
+          }
         },
         {
           "n": 46,
-          "text": "एतच्छ्रुत्वा मम वचो भवांश्चरतु मुक्तवत् ।\nगार्हस्थ्ये यदि ते मोक्षे कृता बुद्धिरविक्लवा ॥"
+          "text": "एतच्छ्रुत्वा मम वचो भवांश्चरतु मुक्तवत् ।\nगार्हस्थ्ये यदि ते मोक्षे कृता बुद्धिरविक्लवा ॥",
+          "meaning": {
+            "en": "Having heard my words, may you live like one liberated, if in household life your mind is firmly set on liberation."
+          }
         },
         {
           "n": 47,
-          "text": "तत्तस्य वचनं श्रुत्वा सम्यक्स पृथिवीपतिः ।\nमोक्षजैश्च गुणैर्युक्तः पालयामास च प्रजाः ॥"
+          "text": "तत्तस्य वचनं श्रुत्वा सम्यक्स पृथिवीपतिः ।\nमोक्षजैश्च गुणैर्युक्तः पालयामास च प्रजाः ॥",
+          "meaning": {
+            "en": "Having duly heard those words, that lord of the earth, endowed with the qualities born of liberation, ruled his subjects."
+          }
         }
       ]
     }

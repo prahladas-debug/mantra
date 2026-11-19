@@ -22,82 +22,142 @@
       "titleEn": "Mokshadharma Parva (Duties for liberation)",
       "verses": [
         {
-          "text": "याज्ञवल्क्य उवाच"
+          "text": "याज्ञवल्क्य उवाच",
+          "meaning": {
+            "en": "Yajnavalkya said:"
+          }
         },
         {
           "n": 1,
-          "text": "एते प्रधानस्य गुणास्त्रयः पुरुषसत्तम ।\nकृत्स्नस्य चैव जगतस्तिष्ठन्त्यनपगाः सदा ॥"
+          "text": "एते प्रधानस्य गुणास्त्रयः पुरुषसत्तम ।\nकृत्स्नस्य चैव जगतस्तिष्ठन्त्यनपगाः सदा ॥",
+          "meaning": {
+            "en": "These three qualities, best of men, belong to the primal Nature and abide always, never departing, in the whole world."
+          }
         },
         {
           "n": 2,
-          "text": "शतधा सहस्रधा चैव तथा शतसहस्रधा ।\nकोटिशश्च करोत्येष प्रत्यगात्मानमात्मना ॥"
+          "text": "शतधा सहस्रधा चैव तथा शतसहस्रधा ।\nकोटिशश्च करोत्येष प्रत्यगात्मानमात्मना ॥",
+          "meaning": {
+            "en": "In hundreds, thousands, hundreds of thousands and millions of ways, this one makes the inner Self through the Self."
+          }
         },
         {
           "n": 3,
-          "text": "सात्त्विकस्योत्तमं स्थानं राजसस्येह मध्यमम् ।\nतामसस्याधमं स्थानं प्राहुरध्यात्मचिन्तकाः ॥"
+          "text": "सात्त्विकस्योत्तमं स्थानं राजसस्येह मध्यमम् ।\nतामसस्याधमं स्थानं प्राहुरध्यात्मचिन्तकाः ॥",
+          "meaning": {
+            "en": "Those who reflect on the Self say the highest place belongs to the one of goodness, the middle to the one of passion, and the lowest to the one of darkness."
+          }
         },
         {
           "n": 4,
-          "text": "केवलेनेह पुण्येन गतिमूर्ध्वामवाप्नुयात् ।\nपुण्यपापेन मानुष्यमधर्मेणाप्यधोगतिम् ॥"
+          "text": "केवलेनेह पुण्येन गतिमूर्ध्वामवाप्नुयात् ।\nपुण्यपापेन मानुष्यमधर्मेणाप्यधोगतिम् ॥",
+          "meaning": {
+            "en": "By pure merit alone one reaches an upward course; by a mixture of merit and sin, a human birth; and by unrighteousness, a downward course."
+          }
         },
         {
           "n": 5,
-          "text": "द्वंद्वमेषां त्रयाणां तु संनिपातं च तत्त्वतः ।\nसत्त्वस्य रजसश्चैव तमसश्च शृणुष्व मे ॥"
+          "text": "द्वंद्वमेषां त्रयाणां तु संनिपातं च तत्त्वतः ।\nसत्त्वस्य रजसश्चैव तमसश्च शृणुष्व मे ॥",
+          "meaning": {
+            "en": "Now hear from me the pairing and the combination of these three, goodness, passion and darkness, in truth."
+          }
         },
         {
           "n": 6,
-          "text": "सत्त्वस्य तु रजो दृष्टं रजसश्च तमस्तथा ।\nतमसश्च तथा सत्त्वं सत्त्वस्याव्यक्तमेव च ॥"
+          "text": "सत्त्वस्य तु रजो दृष्टं रजसश्च तमस्तथा ।\nतमसश्च तथा सत्त्वं सत्त्वस्याव्यक्तमेव च ॥",
+          "meaning": {
+            "en": "Passion is seen in goodness, darkness in passion, goodness in darkness, and the unmanifest in goodness."
+          }
         },
         {
           "n": 7,
-          "text": "अव्यक्तसत्त्वसंयुक्तो देवलोकमवाप्नुयात् ।\nरजःसत्त्वसमायुक्तो मनुष्येषूपपद्यते ॥"
+          "text": "अव्यक्तसत्त्वसंयुक्तो देवलोकमवाप्नुयात् ।\nरजःसत्त्वसमायुक्तो मनुष्येषूपपद्यते ॥",
+          "meaning": {
+            "en": "One joined with the unmanifest and goodness reaches the world of the gods; one joined with passion and goodness is born among humans."
+          }
         },
         {
           "n": 8,
-          "text": "रजस्तमोभ्यां संयुक्तस्तिर्यग्योनिषु जायते ।\nरजस्तामससत्त्वैश्च युक्तो मानुष्यमाप्नुयात् ॥"
+          "text": "रजस्तमोभ्यां संयुक्तस्तिर्यग्योनिषु जायते ।\nरजस्तामससत्त्वैश्च युक्तो मानुष्यमाप्नुयात् ॥",
+          "meaning": {
+            "en": "One joined with passion and darkness is born in animal wombs; one joined with passion, darkness and goodness attains human birth."
+          }
         },
         {
           "n": 9,
-          "text": "पुण्यपापवियुक्तानां स्थानमाहुर्मनीषिणाम् ।\nशाश्वतं चाव्ययं चैव अक्षरं चाभयं च यत् ॥"
+          "text": "पुण्यपापवियुक्तानां स्थानमाहुर्मनीषिणाम् ।\nशाश्वतं चाव्ययं चैव अक्षरं चाभयं च यत् ॥",
+          "meaning": {
+            "en": "The wise speak of a place for those free of merit and sin: the eternal, undying, imperishable and fearless one."
+          }
         },
         {
           "n": 10,
-          "text": "ज्ञानिनां संभवं श्रेष्ठं स्थानमव्रणमच्युतम् ।\nअतीन्द्रियमबीजं च जन्ममृत्युतमोनुदम् ॥"
+          "text": "ज्ञानिनां संभवं श्रेष्ठं स्थानमव्रणमच्युतम् ।\nअतीन्द्रियमबीजं च जन्ममृत्युतमोनुदम् ॥",
+          "meaning": {
+            "en": "It is the best origin of the knowing, a place unwounded and unfallen, beyond the senses, seedless, dispelling the darkness of birth and death."
+          }
         },
         {
           "n": 11,
-          "text": "अव्यक्तस्थं परं यत्तत्पृष्टस्तेऽहं नराधिप ।\nस एष प्रकृतिष्ठो हि तस्थुरित्यभिधीयते ॥"
+          "text": "अव्यक्तस्थं परं यत्तत्पृष्टस्तेऽहं नराधिप ।\nस एष प्रकृतिष्ठो हि तस्थुरित्यभिधीयते ॥",
+          "meaning": {
+            "en": "What you have asked about, king, is the supreme that abides in the unmanifest; this one, abiding in Nature, is spoken of as \"standing\"."
+          }
         },
         {
           "n": 12,
-          "text": "अचेतनश्चैष मतः प्रकृतिस्थश्च पार्थिव ।\nएतेनाधिष्ठितश्चैव सृजते संहरत्यपि ॥"
+          "text": "अचेतनश्चैष मतः प्रकृतिस्थश्च पार्थिव ।\nएतेनाधिष्ठितश्चैव सृजते संहरत्यपि ॥",
+          "meaning": {
+            "en": "He is held to be unconscious and situated in Nature, king; and presided over by this, Nature creates and also withdraws."
+          }
         },
         {
-          "text": "जनक उवाच"
+          "text": "जनक उवाच",
+          "meaning": {
+            "en": "Janaka said:"
+          }
         },
         {
           "n": 13,
-          "text": "अनादिनिधनावेतावुभावेव महामुने ।\nअमूर्तिमन्तावचलावप्रकम्प्यौ च निर्व्रणौ ॥"
+          "text": "अनादिनिधनावेतावुभावेव महामुने ।\nअमूर्तिमन्तावचलावप्रकम्प्यौ च निर्व्रणौ ॥",
+          "meaning": {
+            "en": "Great sage, both these are without beginning or end, formless, unmoving, unshakable and unwounded..."
+          }
         },
         {
           "n": 14,
-          "text": "अग्राह्यावृषिशार्दूल कथमेको ह्यचेतनः ।\nचेतनावांस्तथा चैकः क्षेत्रज्ञ इति भाषितः ॥"
+          "text": "अग्राह्यावृषिशार्दूल कथमेको ह्यचेतनः ।\nचेतनावांस्तथा चैकः क्षेत्रज्ञ इति भाषितः ॥",
+          "meaning": {
+            "en": "...and ungraspable, tiger among sages; how is one of them unconscious and the other conscious, called the knower of the field?"
+          }
         },
         {
           "n": 15,
-          "text": "त्वं हि विप्रेन्द्र कार्त्स्न्येन मोक्षधर्ममुपाससे ।\nसाकल्यं मोक्षधर्मस्य श्रोतुमिच्छामि तत्त्वतः ॥"
+          "text": "त्वं हि विप्रेन्द्र कार्त्स्न्येन मोक्षधर्ममुपाससे ।\nसाकल्यं मोक्षधर्मस्य श्रोतुमिच्छामि तत्त्वतः ॥",
+          "meaning": {
+            "en": "You, chief of brahmins, practice the dharma of liberation completely; I wish to hear the whole of the dharma of liberation in truth."
+          }
         },
         {
           "n": 16,
-          "text": "अस्तित्वं केवलत्वं च विनाभावं तथैव च ।\nतथैवोत्क्रमणस्थानं देहिनोऽपि वियुज्यतः ॥"
+          "text": "अस्तित्वं केवलत्वं च विनाभावं तथैव च ।\nतथैवोत्क्रमणस्थानं देहिनोऽपि वियुज्यतः ॥",
+          "meaning": {
+            "en": "Tell me about existence, aloneness, and separation, and likewise the place of departure of the embodied one when he is separated."
+          }
         },
         {
           "n": 17,
-          "text": "कालेन यद्धि प्राप्नोति स्थानं तद्ब्रूहि मे द्विज ।\nसांख्यज्ञानं च तत्त्वेन पृथग्योगं तथैव च ॥"
+          "text": "कालेन यद्धि प्राप्नोति स्थानं तद्ब्रूहि मे द्विज ।\nसांख्यज्ञानं च तत्त्वेन पृथग्योगं तथैव च ॥",
+          "meaning": {
+            "en": "Tell me, brahmin, the place one reaches in time, and truly the knowledge of Sankhya and the separate Yoga."
+          }
         },
         {
           "n": 18,
-          "text": "अरिष्टानि च तत्त्वेन वक्तुमर्हसि सत्तम ।\nविदितं सर्वमेतत्ते पाणावामलकं यथा ॥"
+          "text": "अरिष्टानि च तत्त्वेन वक्तुमर्हसि सत्तम ।\nविदितं सर्वमेतत्ते पाणावामलकं यथा ॥",
+          "meaning": {
+            "en": "Best of men, you should also tell me truly of the omens of death. All this is known to you like a myrobalan fruit in the palm of your hand."
+          }
         }
       ]
     }

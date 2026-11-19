@@ -22,122 +22,212 @@
       "titleEn": "Rajadharma Parva (Duties of kings)",
       "verses": [
         {
-          "text": "युधिष्ठिर उवाच"
+          "text": "युधिष्ठिर उवाच",
+          "meaning": {
+            "en": "Yudhishthira said:"
+          }
         },
         {
           "n": 1,
-          "text": "महानयं धर्मपथो बहुशाखश्च भारत ।\nकिं स्विदेवेह धर्माणामनुष्ठेयतमं मतम् ॥"
+          "text": "महानयं धर्मपथो बहुशाखश्च भारत ।\nकिं स्विदेवेह धर्माणामनुष्ठेयतमं मतम् ॥",
+          "meaning": {
+            "en": "This path of dharma is great and has many branches, Bharata. Which of the duties is considered the most worth doing here?"
+          }
         },
         {
           "n": 2,
-          "text": "किं कार्यं सर्वधर्माणां गरीयो भवतो मतम् ।\nयथायं पुरुषो धर्ममिह च प्रेत्य चाप्नुयात् ॥"
+          "text": "किं कार्यं सर्वधर्माणां गरीयो भवतो मतम् ।\nयथायं पुरुषो धर्ममिह च प्रेत्य चाप्नुयात् ॥",
+          "meaning": {
+            "en": "What is the weightiest act of all duties in your view, by which a man may gain dharma both here and hereafter?"
+          }
         },
         {
-          "text": "भीष्म उवाच"
+          "text": "भीष्म उवाच",
+          "meaning": {
+            "en": "Bhishma said:"
+          }
         },
         {
           "n": 3,
-          "text": "मातापित्रोर्गुरूणां च पूजा बहुमता मम ।\nअत्र युक्तो नरो लोकान्यशश्च महदश्नुते ॥"
+          "text": "मातापित्रोर्गुरूणां च पूजा बहुमता मम ।\nअत्र युक्तो नरो लोकान्यशश्च महदश्नुते ॥",
+          "meaning": {
+            "en": "I hold in high regard the worship of mother, father and teachers; a man devoted to this gains the worlds and great fame."
+          }
         },
         {
           "n": 4,
-          "text": "यदेते ह्यभिजानीयुः कर्म तात सुपूजिताः ।\nधर्म्यं धर्मविरुद्धं वा तत्कर्तव्यं युधिष्ठिर ॥"
+          "text": "यदेते ह्यभिजानीयुः कर्म तात सुपूजिताः ।\nधर्म्यं धर्मविरुद्धं वा तत्कर्तव्यं युधिष्ठिर ॥",
+          "meaning": {
+            "en": "Whatever act they approve when they are well honoured, my son, righteous or not, that must be done, Yudhishthira."
+          }
         },
         {
           "n": 5,
-          "text": "न तैरनभ्यनुज्ञातो धर्ममन्यं प्रकल्पयेत् ।\nयमेतेऽभ्यनुजानीयुः स धर्म इति निश्चयः ॥"
+          "text": "न तैरनभ्यनुज्ञातो धर्ममन्यं प्रकल्पयेत् ।\nयमेतेऽभ्यनुजानीयुः स धर्म इति निश्चयः ॥",
+          "meaning": {
+            "en": "Without their leave one should not devise another dharma; whatever they approve is certainly dharma."
+          }
         },
         {
           "n": 6,
-          "text": "एत एव त्रयो लोका एत एवाश्रमास्त्रयः ।\nएत एव त्रयो वेदा एत एव त्रयोऽग्नयः ॥"
+          "text": "एत एव त्रयो लोका एत एवाश्रमास्त्रयः ।\nएत एव त्रयो वेदा एत एव त्रयोऽग्नयः ॥",
+          "meaning": {
+            "en": "These three are the three worlds, these the three stages of life, these the three Vedas, and these the three fires."
+          }
         },
         {
           "n": 7,
-          "text": "पिता ह्यग्निर्गार्हपत्यो माताग्निर्दक्षिणः स्मृतः ।\nगुरुराहवनीयस्तु साग्नित्रेता गरीयसी ॥"
+          "text": "पिता ह्यग्निर्गार्हपत्यो माताग्निर्दक्षिणः स्मृतः ।\nगुरुराहवनीयस्तु साग्नित्रेता गरीयसी ॥",
+          "meaning": {
+            "en": "The father is the Garhapatya fire, the mother is called the Dakshina fire, and the teacher is the Ahavaniya; this triad of fires is the more weighty."
+          }
         },
         {
           "n": 8,
-          "text": "त्रिष्वप्रमाद्यन्नेतेषु त्रीँल्लोकानवजेष्यसि ।\nपितृवृत्त्या त्विमं लोकं मातृवृत्त्या तथापरम् ।\nब्रह्मलोकं गुरोर्वृत्त्या नित्यमेव चरिष्यसि ॥"
+          "text": "त्रिष्वप्रमाद्यन्नेतेषु त्रीँल्लोकानवजेष्यसि ।\nपितृवृत्त्या त्विमं लोकं मातृवृत्त्या तथापरम् ।\nब्रह्मलोकं गुरोर्वृत्त्या नित्यमेव चरिष्यसि ॥",
+          "meaning": {
+            "en": "If you are not careless toward these three, you will win the three worlds: this world by serving your father, the next by serving your mother, and the world of Brahma by serving your teacher, always."
+          }
         },
         {
           "n": 9,
-          "text": "सम्यगेतेषु वर्तस्व त्रिषु लोकेषु भारत ।\nयशः प्राप्स्यसि भद्रं ते धर्मं च सुमहाफलम् ॥"
+          "text": "सम्यगेतेषु वर्तस्व त्रिषु लोकेषु भारत ।\nयशः प्राप्स्यसि भद्रं ते धर्मं च सुमहाफलम् ॥",
+          "meaning": {
+            "en": "Behave properly toward these three, Bharata, and you will gain fame and blessing and a dharma of great fruit."
+          }
         },
         {
           "n": 10,
-          "text": "नैतानतिशयेज्जातु नात्यश्नीयान्न दूषयेत् ।\nनित्यं परिचरेच्चैव तद्वै सुकृतमुत्तमम् ।\nकीर्तिं पुण्यं यशो लोकान्प्राप्स्यसे च जनाधिप ॥"
+          "text": "नैतानतिशयेज्जातु नात्यश्नीयान्न दूषयेत् ।\nनित्यं परिचरेच्चैव तद्वै सुकृतमुत्तमम् ।\nकीर्तिं पुण्यं यशो लोकान्प्राप्स्यसे च जनाधिप ॥",
+          "meaning": {
+            "en": "One should never surpass them, nor eat more than they, nor slight them; one should always attend to them, for that is the best good deed. You will gain renown, merit, fame and worlds, king."
+          }
         },
         {
           "n": 11,
-          "text": "सर्वे तस्यादृता लोका यस्यैते त्रय आदृताः ।\nअनादृतास्तु यस्यैते सर्वास्तस्याफलाः क्रियाः ॥"
+          "text": "सर्वे तस्यादृता लोका यस्यैते त्रय आदृताः ।\nअनादृतास्तु यस्यैते सर्वास्तस्याफलाः क्रियाः ॥",
+          "meaning": {
+            "en": "All the worlds are honoured by the one who honours these three; for one who does not honour them, all rites are fruitless."
+          }
         },
         {
           "n": 12,
-          "text": "नैवायं न परो लोकस्तस्य चैव परंतप ।\nअमानिता नित्यमेव यस्यैते गुरवस्त्रयः ॥"
+          "text": "नैवायं न परो लोकस्तस्य चैव परंतप ।\nअमानिता नित्यमेव यस्यैते गुरवस्त्रयः ॥",
+          "meaning": {
+            "en": "Neither this world nor the next is for him, scourge of foes, whose three elders are always unhonoured."
+          }
         },
         {
           "n": 13,
-          "text": "न चास्मिन्न परे लोके यशस्तस्य प्रकाशते ।\nन चान्यदपि कल्याणं पारत्रं समुदाहृतम् ॥"
+          "text": "न चास्मिन्न परे लोके यशस्तस्य प्रकाशते ।\nन चान्यदपि कल्याणं पारत्रं समुदाहृतम् ॥",
+          "meaning": {
+            "en": "Neither here nor in the next world does fame shine for him, nor is any other good for the next world told of him."
+          }
         },
         {
           "n": 14,
-          "text": "तेभ्य एव तु तत्सर्वं कृत्यया विसृजाम्यहम् ।\nतदासीन्मे शतगुणं सहस्रगुणमेव च ।\nतस्मान्मे संप्रकाशन्ते त्रयो लोका युधिष्ठिर ॥"
+          "text": "तेभ्य एव तु तत्सर्वं कृत्यया विसृजाम्यहम् ।\nतदासीन्मे शतगुणं सहस्रगुणमेव च ।\nतस्मान्मे संप्रकाशन्ते त्रयो लोका युधिष्ठिर ॥",
+          "meaning": {
+            "en": "I gave all of it to them with devotion; it became for me a hundredfold and a thousandfold. Therefore the three worlds shine for me, Yudhishthira."
+          }
         },
         {
           "n": 15,
-          "text": "दशैव तु सदाचार्यः श्रोत्रियानतिरिच्यते ।\nदशाचार्यानुपाध्याय उपाध्यायान्पिता दश ॥"
+          "text": "दशैव तु सदाचार्यः श्रोत्रियानतिरिच्यते ।\nदशाचार्यानुपाध्याय उपाध्यायान्पिता दश ॥",
+          "meaning": {
+            "en": "A good teacher surpasses ten Vedic scholars; a preceptor surpasses ten teachers; a father surpasses ten preceptors."
+          }
         },
         {
           "n": 16,
-          "text": "पितॄन्दश तु मातैका सर्वां वा पृथिवीमपि ।\nगुरुत्वेनाभिभवति नास्ति मातृसमो गुरुः ।\nगुरुर्गरीयान्पितृतो मातृतश्चेति मे मतिः ॥"
+          "text": "पितॄन्दश तु मातैका सर्वां वा पृथिवीमपि ।\nगुरुत्वेनाभिभवति नास्ति मातृसमो गुरुः ।\nगुरुर्गरीयान्पितृतो मातृतश्चेति मे मतिः ॥",
+          "meaning": {
+            "en": "A mother alone surpasses ten fathers, or even the whole earth, in weight; there is no teacher like a mother. I hold that the mother is the heaviest teacher, heavier than the father."
+          }
         },
         {
           "n": 17,
-          "text": "उभौ हि मातापितरौ जन्मनि व्युपयुज्यतः ।\nशरीरमेतौ सृजतः पिता माता च भारत ।\nआचार्यशिष्टा या जातिः सा दिव्या साजरामरा ॥"
+          "text": "उभौ हि मातापितरौ जन्मनि व्युपयुज्यतः ।\nशरीरमेतौ सृजतः पिता माता च भारत ।\nआचार्यशिष्टा या जातिः सा दिव्या साजरामरा ॥",
+          "meaning": {
+            "en": "Both mother and father serve in one's birth; they make the body, Bharata. But the birth given by the teacher is divine, ageless and deathless."
+          }
         },
         {
           "n": 18,
-          "text": "अवध्या हि सदा माता पिता चाप्यपकारिणौ ।\nन संदुष्यति तत्कृत्वा न च ते दूषयन्ति तम् ।\nधर्माय यतमानानां विदुर्देवाः सहर्षिभिः ॥"
+          "text": "अवध्या हि सदा माता पिता चाप्यपकारिणौ ।\nन संदुष्यति तत्कृत्वा न च ते दूषयन्ति तम् ।\nधर्माय यतमानानां विदुर्देवाः सहर्षिभिः ॥",
+          "meaning": {
+            "en": "A mother and a father who do wrong must still never be killed; he is not stained by doing so, nor do they stain him; the gods and sages know this of those who strive for dharma."
+          }
         },
         {
           "n": 19,
-          "text": "य आवृणोत्यवितथेन कर्णा-\nवृतं ब्रुवन्नमृतं संप्रयच्छन् ।\nतं वै मन्ये पितरं मातरं च\nतस्मै न द्रुह्येत्कृतमस्य जानन् ॥"
+          "text": "य आवृणोत्यवितथेन कर्णा-\nवृतं ब्रुवन्नमृतं संप्रयच्छन् ।\nतं वै मन्ये पितरं मातरं च\nतस्मै न द्रुह्येत्कृतमस्य जानन् ॥",
+          "meaning": {
+            "en": "One who fills the ears with truth, speaking right and giving the immortal: him I regard as father and mother; one should not harm him, remembering what he has done."
+          }
         },
         {
           "n": 20,
-          "text": "विद्यां श्रुत्वा ये गुरुं नाद्रियन्ते\nप्रत्यासन्नं मनसा कर्मणा वा ।\nयथैव ते गुरुभिर्भावनीया-\nस्तथा तेषां गुरवोऽप्यर्चनीयाः ॥"
+          "text": "विद्यां श्रुत्वा ये गुरुं नाद्रियन्ते\nप्रत्यासन्नं मनसा कर्मणा वा ।\nयथैव ते गुरुभिर्भावनीया-\nस्तथा तेषां गुरवोऽप्यर्चनीयाः ॥",
+          "meaning": {
+            "en": "Those who, having heard knowledge, do not respect the teacher who is near them in mind or deed: just as they should be honoured by their own teachers, so their teachers too should be honoured."
+          }
         },
         {
           "n": 21,
-          "text": "तस्मात्पूजयितव्याश्च संविभज्याश्च यत्नतः ।\nगुरवोऽर्चयितव्याश्च पुराणं धर्ममिच्छता ॥"
+          "text": "तस्मात्पूजयितव्याश्च संविभज्याश्च यत्नतः ।\nगुरवोऽर्चयितव्याश्च पुराणं धर्ममिच्छता ॥",
+          "meaning": {
+            "en": "So, one who wants the ancient dharma should honour teachers with effort, share with them, and revere them."
+          }
         },
         {
           "n": 22,
-          "text": "येन प्रीताश्च पितरस्तेन प्रीतः पितामहः ।\nप्रीणाति मातरं येन पृथिवी तेन पूजिता ॥"
+          "text": "येन प्रीताश्च पितरस्तेन प्रीतः पितामहः ।\nप्रीणाति मातरं येन पृथिवी तेन पूजिता ॥",
+          "meaning": {
+            "en": "By what pleases the father, the grandfather is pleased; by what pleases the mother, the earth is honoured."
+          }
         },
         {
           "n": 23,
-          "text": "येन प्रीणात्युपाध्यायं तेन स्याद्ब्रह्म पूजितम् ।\nमातृतः पितृतश्चैव तस्मात्पूज्यतमो गुरुः ।\nऋषयश्च हि देवाश्च प्रीयन्ते पितृभिः सह ॥"
+          "text": "येन प्रीणात्युपाध्यायं तेन स्याद्ब्रह्म पूजितम् ।\nमातृतः पितृतश्चैव तस्मात्पूज्यतमो गुरुः ।\nऋषयश्च हि देवाश्च प्रीयन्ते पितृभिः सह ॥",
+          "meaning": {
+            "en": "By what pleases the teacher, Brahman is honoured. Therefore the teacher is more to be honoured than mother or father; and sages and gods are pleased together with the ancestors."
+          }
         },
         {
           "n": 24,
-          "text": "न केनचन वृत्तेन ह्यवज्ञेयो गुरुर्भवेत् ।\nन च माता न च पिता तादृशो यादृशो गुरुः ॥"
+          "text": "न केनचन वृत्तेन ह्यवज्ञेयो गुरुर्भवेत् ।\nन च माता न च पिता तादृशो यादृशो गुरुः ॥",
+          "meaning": {
+            "en": "The teacher should never be slighted by any conduct; neither mother nor father is as the teacher is."
+          }
         },
         {
           "n": 25,
-          "text": "न तेऽवमानमर्हन्ति न च ते दूषयन्ति तम् ।\nगुरूणामेव सत्कारं विदुर्देवाः सहर्षिभिः ॥"
+          "text": "न तेऽवमानमर्हन्ति न च ते दूषयन्ति तम् ।\nगुरूणामेव सत्कारं विदुर्देवाः सहर्षिभिः ॥",
+          "meaning": {
+            "en": "They do not deserve contempt, nor do they stain him; the gods with the sages know the respect due to teachers."
+          }
         },
         {
           "n": 26,
-          "text": "उपाध्यायं पितरं मातरं च\nयेऽभिद्रुह्यन्ति मनसा कर्मणा वा ।\nतेषां पापं भ्रूणहत्याविशिष्टं\nतस्मान्नान्यः पापकृदस्ति लोके ॥"
+          "text": "उपाध्यायं पितरं मातरं च\nयेऽभिद्रुह्यन्ति मनसा कर्मणा वा ।\nतेषां पापं भ्रूणहत्याविशिष्टं\nतस्मान्नान्यः पापकृदस्ति लोके ॥",
+          "meaning": {
+            "en": "Those who wrong a teacher, father or mother in mind or deed bear a sin worse than killing an embryo; there is no other sinner in the world like them."
+          }
         },
         {
           "n": 27,
-          "text": "मित्रद्रुहः कृतघ्नस्य स्त्रीघ्नस्य पिशुनस्य च ।\nचतुर्णां वयमेतेषां निष्कृतिं नानुशुश्रुमः ॥"
+          "text": "मित्रद्रुहः कृतघ्नस्य स्त्रीघ्नस्य पिशुनस्य च ।\nचतुर्णां वयमेतेषां निष्कृतिं नानुशुश्रुमः ॥",
+          "meaning": {
+            "en": "For one who betrays a friend, an ungrateful man, a killer of a woman, and a slanderer, we have not heard of atonement for these four."
+          }
         },
         {
           "n": 28,
-          "text": "एतत्सर्वमतिदेशेन सृष्टं\nयत्कर्तव्यं पुरुषेणेह लोके ।\nएतच्छ्रेयो नान्यदस्माद्विशिष्टं\nसर्वान्धर्माननुसृत्यैतदुक्तम् ॥"
+          "text": "एतत्सर्वमतिदेशेन सृष्टं\nयत्कर्तव्यं पुरुषेणेह लोके ।\nएतच्छ्रेयो नान्यदस्माद्विशिष्टं\nसर्वान्धर्माननुसृत्यैतदुक्तम् ॥",
+          "meaning": {
+            "en": "All this has been set out by way of extension, whatever a man should do in this world; this is the highest good and nothing is better than this; it has been said after following all the dharmas."
+          }
         }
       ]
     }

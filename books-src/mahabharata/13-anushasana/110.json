@@ -22,558 +22,975 @@
       "titleEn": "Anushasanika Parva (The instructions)",
       "verses": [
         {
-          "text": "युधिष्ठिर उवाच"
+          "text": "युधिष्ठिर उवाच",
+          "meaning": {
+            "en": "Yudhishthira said:"
+          }
         },
         {
           "n": 1,
-          "text": "पितामहेन विधिवद्यज्ञाः प्रोक्ता महात्मना ।\nगुणाश्चैषां यथातत्त्वं प्रेत्य चेह च सर्वशः ॥"
+          "text": "पितामहेन विधिवद्यज्ञाः प्रोक्ता महात्मना ।\nगुणाश्चैषां यथातत्त्वं प्रेत्य चेह च सर्वशः ॥",
+          "meaning": {
+            "en": "Grandfather, you have properly explained the sacrifices, and fully and truly their merits, both here and after death."
+          }
         },
         {
           "n": 2,
-          "text": "न ते शक्या दरिद्रेण यज्ञाः प्राप्तुं पितामह ।\nबहूपकरणा यज्ञा नानासंभारविस्तराः ॥"
+          "text": "न ते शक्या दरिद्रेण यज्ञाः प्राप्तुं पितामह ।\nबहूपकरणा यज्ञा नानासंभारविस्तराः ॥",
+          "meaning": {
+            "en": "But a poor man cannot perform those sacrifices, grandfather, which need many implements and a vast array of materials."
+          }
         },
         {
           "n": 3,
-          "text": "पार्थिवै राजपुत्रैर्वा शक्याः प्राप्तुं पितामह ।\nनार्थन्यूनैरवगुणैरेकात्मभिरसंहतैः ॥"
+          "text": "पार्थिवै राजपुत्रैर्वा शक्याः प्राप्तुं पितामह ।\nनार्थन्यूनैरवगुणैरेकात्मभिरसंहतैः ॥",
+          "meaning": {
+            "en": "Kings and princes can perform them, grandfather, but not those short of wealth, lacking helpers, and alone and unsupported."
+          }
         },
         {
           "n": 4,
-          "text": "यो दरिद्रैरपि विधिः शक्यः प्राप्तुं सदा भवेत् ।\nतुल्यो यज्ञफलैरेतैस्तन्मे ब्रूहि पितामह ॥"
+          "text": "यो दरिद्रैरपि विधिः शक्यः प्राप्तुं सदा भवेत् ।\nतुल्यो यज्ञफलैरेतैस्तन्मे ब्रूहि पितामह ॥",
+          "meaning": {
+            "en": "Tell me, grandfather, what rule might always be within the reach even of the poor, that equals these sacrifices in fruit."
+          }
         },
         {
-          "text": "भीष्म उवाच"
+          "text": "भीष्म उवाच",
+          "meaning": {
+            "en": "Bhishma said:"
+          }
         },
         {
           "n": 5,
-          "text": "इदमङ्गिरसा प्रोक्तमुपवासफलात्मकम् ।\nविधिं यज्ञफलैस्तुल्यं तन्निबोध युधिष्ठिर ॥"
+          "text": "इदमङ्गिरसा प्रोक्तमुपवासफलात्मकम् ।\nविधिं यज्ञफलैस्तुल्यं तन्निबोध युधिष्ठिर ॥",
+          "meaning": {
+            "en": "Yudhishthira, learn this rule that Angiras taught, whose substance is the fruit of fasting and which equals the fruits of sacrifices."
+          }
         },
         {
           "n": 6,
-          "text": "यस्तु कल्यं तथा सायं भुञ्जानो नान्तरा पिबेत् ।\nअहिंसानिरतो नित्यं जुह्वानो जातवेदसम् ॥"
+          "text": "यस्तु कल्यं तथा सायं भुञ्जानो नान्तरा पिबेत् ।\nअहिंसानिरतो नित्यं जुह्वानो जातवेदसम् ॥",
+          "meaning": {
+            "en": "One who eats in the morning and evening, drinks nothing in between, is ever devoted to non-violence and offers oblations to Agni,"
+          }
         },
         {
           "n": 7,
-          "text": "षड्भिरेव तु वर्षैः स सिध्यते नात्र संशयः ।\nतप्तकाञ्चनवर्णं च विमानं लभते नरः ॥"
+          "text": "षड्भिरेव तु वर्षैः स सिध्यते नात्र संशयः ।\nतप्तकाञ्चनवर्णं च विमानं लभते नरः ॥",
+          "meaning": {
+            "en": "attains perfection in just six years, without doubt, and gains a celestial car the colour of molten gold."
+          }
         },
         {
           "n": 8,
-          "text": "देवस्त्रीणामधीवासे नृत्यगीतनिनादिते ।\nप्राजापत्ये वसेत्पद्मं वर्षाणामग्निसंनिभे ॥"
+          "text": "देवस्त्रीणामधीवासे नृत्यगीतनिनादिते ।\nप्राजापत्ये वसेत्पद्मं वर्षाणामग्निसंनिभे ॥",
+          "meaning": {
+            "en": "In the realm of the divine women, resounding with dance and song, he dwells for a padma of years in the fiery realm of Prajapati."
+          }
         },
         {
           "n": 9,
-          "text": "त्रीणि वर्षाणि यः प्राशेत्सततं त्वेकभोजनम् ।\nधर्मपत्नीरतो नित्यमग्निष्टोमफलं लभेत् ॥"
+          "text": "त्रीणि वर्षाणि यः प्राशेत्सततं त्वेकभोजनम् ।\nधर्मपत्नीरतो नित्यमग्निष्टोमफलं लभेत् ॥",
+          "meaning": {
+            "en": "One who eats only one meal a day for three years, always devoted to his lawful wife, gains the fruit of the Agnishtoma."
+          }
         },
         {
           "n": 10,
-          "text": "द्वितीये दिवसे यस्तु प्राश्नीयादेकभोजनम् ।\nसदा द्वादशमासांस्तु जुह्वानो जातवेदसम् ।\nयज्ञं बहुसुवर्णं वा वासवप्रियमाहरेत् ॥"
+          "text": "द्वितीये दिवसे यस्तु प्राश्नीयादेकभोजनम् ।\nसदा द्वादशमासांस्तु जुह्वानो जातवेदसम् ।\nयज्ञं बहुसुवर्णं वा वासवप्रियमाहरेत् ॥",
+          "meaning": {
+            "en": "One who eats one meal only on the second day, for twelve months always, offering oblations to Agni, would perform a sacrifice with abundant gold, one dear to Indra."
+          }
         },
         {
           "n": 11,
-          "text": "सत्यवाग्दानशीलश्च ब्रह्मण्यश्चानसूयकः ।\nक्षान्तो दान्तो जितक्रोधः स गच्छति परां गतिम् ॥"
+          "text": "सत्यवाग्दानशीलश्च ब्रह्मण्यश्चानसूयकः ।\nक्षान्तो दान्तो जितक्रोधः स गच्छति परां गतिम् ॥",
+          "meaning": {
+            "en": "Truthful, generous, devoted to Brahmins, free of envy, patient, self-restrained and rid of anger, he goes to the highest state."
+          }
         },
         {
           "n": 12,
-          "text": "पाण्डुराभ्रप्रतीकाशे विमाने हंसलक्षणे ।\nद्वे समाप्ते ततः पद्मे सोऽप्सरोभिर्वसेत्सह ॥"
+          "text": "पाण्डुराभ्रप्रतीकाशे विमाने हंसलक्षणे ।\nद्वे समाप्ते ततः पद्मे सोऽप्सरोभिर्वसेत्सह ॥",
+          "meaning": {
+            "en": "In a car like a pale cloud, marked with swans, he then dwells with the Apsaras for two completed padmas."
+          }
         },
         {
           "n": 13,
-          "text": "तृतीये दिवसे यस्तु प्राश्नीयादेकभोजनम् ।\nसदा द्वादशमासांस्तु जुह्वानो जातवेदसम् ॥"
+          "text": "तृतीये दिवसे यस्तु प्राश्नीयादेकभोजनम् ।\nसदा द्वादशमासांस्तु जुह्वानो जातवेदसम् ॥",
+          "meaning": {
+            "en": "One who eats one meal only on the third day, for twelve months always, offering oblations to Agni,"
+          }
         },
         {
           "n": 14,
-          "text": "अतिरात्रस्य यज्ञस्य फलं प्राप्नोत्यनुत्तमम् ।\nमयूरहंससंयुक्तं विमानं लभते नरः ॥"
+          "text": "अतिरात्रस्य यज्ञस्य फलं प्राप्नोत्यनुत्तमम् ।\nमयूरहंससंयुक्तं विमानं लभते नरः ॥",
+          "meaning": {
+            "en": "gains the peerless fruit of the Atiratra sacrifice and a car yoked with peacocks and swans."
+          }
         },
         {
           "n": 15,
-          "text": "सप्तर्षीणां सदा लोके सोऽप्सरोभिर्वसेत्सह ।\nनिवर्तनं च तत्रास्य त्रीणि पद्मानि वै विदुः ॥"
+          "text": "सप्तर्षीणां सदा लोके सोऽप्सरोभिर्वसेत्सह ।\nनिवर्तनं च तत्रास्य त्रीणि पद्मानि वै विदुः ॥",
+          "meaning": {
+            "en": "He dwells with the Apsaras in the world of the Seven Sages; his stay there, they say, lasts three padmas."
+          }
         },
         {
           "n": 16,
-          "text": "दिवसे यश्चतुर्थे तु प्राश्नीयादेकभोजनम् ।\nसदा द्वादशमासान्वै जुह्वानो जातवेदसम् ॥"
+          "text": "दिवसे यश्चतुर्थे तु प्राश्नीयादेकभोजनम् ।\nसदा द्वादशमासान्वै जुह्वानो जातवेदसम् ॥",
+          "meaning": {
+            "en": "One who eats one meal only on the fourth day, for twelve months always, offering oblations to Agni,"
+          }
         },
         {
           "n": 17,
-          "text": "वाजपेयस्य यज्ञस्य फलं प्राप्नोत्यनुत्तमम् ।\nइन्द्रकन्याभिरूढं च विमानं लभते नरः ॥"
+          "text": "वाजपेयस्य यज्ञस्य फलं प्राप्नोत्यनुत्तमम् ।\nइन्द्रकन्याभिरूढं च विमानं लभते नरः ॥",
+          "meaning": {
+            "en": "gains the peerless fruit of the Vajapeya sacrifice and a car mounted by the daughters of Indra."
+          }
         },
         {
           "n": 18,
-          "text": "सागरस्य च पर्यन्ते वासवं लोकमावसेत् ।\nदेवराजस्य च क्रीडां नित्यकालमवेक्षते ॥"
+          "text": "सागरस्य च पर्यन्ते वासवं लोकमावसेत् ।\nदेवराजस्य च क्रीडां नित्यकालमवेक्षते ॥",
+          "meaning": {
+            "en": "At the edge of the ocean he lives in Indra's world and always watches the sport of the king of the gods."
+          }
         },
         {
           "n": 19,
-          "text": "दिवसे पञ्चमे यस्तु प्राश्नीयादेकभोजनम् ।\nसदा द्वादशमासांस्तु जुह्वानो जातवेदसम् ॥"
+          "text": "दिवसे पञ्चमे यस्तु प्राश्नीयादेकभोजनम् ।\nसदा द्वादशमासांस्तु जुह्वानो जातवेदसम् ॥",
+          "meaning": {
+            "en": "One who eats one meal only on the fifth day, for twelve months always, offering oblations to Agni,"
+          }
         },
         {
           "n": 20,
-          "text": "अलुब्धः सत्यवादी च ब्रह्मण्यश्चाविहिंसकः ।\nअनसूयुरपापस्थो द्वादशाहफलं लभेत् ॥"
+          "text": "अलुब्धः सत्यवादी च ब्रह्मण्यश्चाविहिंसकः ।\nअनसूयुरपापस्थो द्वादशाहफलं लभेत् ॥",
+          "meaning": {
+            "en": "free of greed, truthful, devoted to Brahmins, harmless, not envious and free from wrongdoing, gains the fruit of the Dvadashaha sacrifice."
+          }
         },
         {
           "n": 21,
-          "text": "जाम्बूनदमयं दिव्यं विमानं हंसलक्षणम् ।\nसूर्यमालासमाभासमारोहेत्पाण्डुरं गृहम् ॥"
+          "text": "जाम्बूनदमयं दिव्यं विमानं हंसलक्षणम् ।\nसूर्यमालासमाभासमारोहेत्पाण्डुरं गृहम् ॥",
+          "meaning": {
+            "en": "He rises into a pale mansion, a divine car of Jambunada gold marked with swans, shining like a garland of suns."
+          }
         },
         {
           "n": 22,
-          "text": "आवर्तनानि चत्वारि तथा पद्मानि द्वादश ।\nशराग्निपरिमाणं च तत्रासौ वसते सुखम् ॥"
+          "text": "आवर्तनानि चत्वारि तथा पद्मानि द्वादश ।\nशराग्निपरिमाणं च तत्रासौ वसते सुखम् ॥",
+          "meaning": {
+            "en": "There he lives happily for four cycles and twelve padmas, a span measured by the number of reeds and fires."
+          }
         },
         {
           "n": 23,
-          "text": "दिवसे यस्तु षष्ठे वै मुनिः प्राशेत भोजनम् ।\nसदा द्वादशमासान्वै जुह्वानो जातवेदसम् ॥"
+          "text": "दिवसे यस्तु षष्ठे वै मुनिः प्राशेत भोजनम् ।\nसदा द्वादशमासान्वै जुह्वानो जातवेदसम् ॥",
+          "meaning": {
+            "en": "The sage who eats one meal only on the sixth day, for twelve months always, offering oblations to Agni,"
+          }
         },
         {
           "n": 24,
-          "text": "सदा त्रिषवणस्नायी ब्रह्मचार्यनसूयकः ।\nगवामयस्य यज्ञस्य फलं प्राप्नोत्यनुत्तमम् ॥"
+          "text": "सदा त्रिषवणस्नायी ब्रह्मचार्यनसूयकः ।\nगवामयस्य यज्ञस्य फलं प्राप्नोत्यनुत्तमम् ॥",
+          "meaning": {
+            "en": "bathing always at the three junctures, celibate and free of envy, gains the peerless fruit of the Gavamayana sacrifice."
+          }
         },
         {
           "n": 25,
-          "text": "अग्निज्वालासमाभासं हंसबर्हिणसेवितम् ।\nशातकुम्भमयं युक्तं साधयेद्यानमुत्तमम् ॥"
+          "text": "अग्निज्वालासमाभासं हंसबर्हिणसेवितम् ।\nशातकुम्भमयं युक्तं साधयेद्यानमुत्तमम् ॥",
+          "meaning": {
+            "en": "He attains an excellent vehicle of pure gold, blazing like flames of fire and attended by swans and peacocks."
+          }
         },
         {
           "n": 26,
-          "text": "तथैवाप्सरसामङ्के प्रसुप्तः प्रतिबुध्यते ।\nनूपुराणां निनादेन मेखलानां च निस्वनैः ॥"
+          "text": "तथैवाप्सरसामङ्के प्रसुप्तः प्रतिबुध्यते ।\nनूपुराणां निनादेन मेखलानां च निस्वनैः ॥",
+          "meaning": {
+            "en": "There, sleeping in the laps of the Apsaras, he is awakened by the sound of anklets and the tinkling of girdles."
+          }
         },
         {
           "n": 27,
-          "text": "कोटीसहस्रं वर्षाणां त्रीणि कोटिशतानि च ।\nपद्मान्यष्टादश तथा पताके द्वे तथैव च ॥"
+          "text": "कोटीसहस्रं वर्षाणां त्रीणि कोटिशतानि च ।\nपद्मान्यष्टादश तथा पताके द्वे तथैव च ॥",
+          "meaning": {
+            "en": "For a thousand crores of years, plus three hundred crores, eighteen padmas and two patakas,"
+          }
         },
         {
           "n": 28,
-          "text": "अयुतानि च पञ्चाशदृक्षचर्मशतस्य च ।\nलोम्नां प्रमाणेन समं ब्रह्मलोके महीयते ॥"
+          "text": "अयुतानि च पञ्चाशदृक्षचर्मशतस्य च ।\nलोम्नां प्रमाणेन समं ब्रह्मलोके महीयते ॥",
+          "meaning": {
+            "en": "and fifty ayutas, equal to the number of hairs on a hundred bearskins, he is honoured in the world of Brahma."
+          }
         },
         {
           "n": 29,
-          "text": "दिवसे सप्तमे यस्तु प्राश्नीयादेकभोजनम् ।\nसदा द्वादशमासान्वै जुह्वानो जातवेदसम् ॥"
+          "text": "दिवसे सप्तमे यस्तु प्राश्नीयादेकभोजनम् ।\nसदा द्वादशमासान्वै जुह्वानो जातवेदसम् ॥",
+          "meaning": {
+            "en": "One who eats one meal only on the seventh day, for twelve months always, offering oblations to Agni,"
+          }
         },
         {
           "n": 30,
-          "text": "सरस्वतीं गोपयानो ब्रह्मचर्यं समाचरन् ।\nसुमनोवर्णकं चैव मधुमांसं च वर्जयेत् ॥"
+          "text": "सरस्वतीं गोपयानो ब्रह्मचर्यं समाचरन् ।\nसुमनोवर्णकं चैव मधुमांसं च वर्जयेत् ॥",
+          "meaning": {
+            "en": "guarding the Sarasvati, practising celibacy, and avoiding flower-coloured cosmetics, honey and meat,"
+          }
         },
         {
           "n": 31,
-          "text": "पुरुषो मरुतां लोकमिन्द्रलोकं च गच्छति ।\nतत्र तत्र च सिद्धार्थो देवकन्याभिरुह्यते ॥"
+          "text": "पुरुषो मरुतां लोकमिन्द्रलोकं च गच्छति ।\nतत्र तत्र च सिद्धार्थो देवकन्याभिरुह्यते ॥",
+          "meaning": {
+            "en": "goes to the world of the Maruts and to Indra's world; wherever he goes he succeeds and is carried by divine maidens."
+          }
         },
         {
           "n": 32,
-          "text": "फलं बहुसुवर्णस्य यज्ञस्य लभते नरः ।\nसंख्यामतिगुणां चापि तेषु लोकेषु मोदते ॥"
+          "text": "फलं बहुसुवर्णस्य यज्ञस्य लभते नरः ।\nसंख्यामतिगुणां चापि तेषु लोकेषु मोदते ॥",
+          "meaning": {
+            "en": "He gains the fruit of a sacrifice with abundant gold, and he rejoices in those worlds for periods beyond counting."
+          }
         },
         {
           "n": 33,
-          "text": "यस्तु संवत्सरं क्षान्तो भुङ्क्तेऽहन्यष्टमे नरः ।\nदेवकार्यपरो नित्यं जुह्वानो जातवेदसम् ॥"
+          "text": "यस्तु संवत्सरं क्षान्तो भुङ्क्तेऽहन्यष्टमे नरः ।\nदेवकार्यपरो नित्यं जुह्वानो जातवेदसम् ॥",
+          "meaning": {
+            "en": "A patient man who eats on the eighth day for a year, always devoted to the gods' rites and offering oblations to Agni,"
+          }
         },
         {
           "n": 34,
-          "text": "पौण्डरीकस्य यज्ञस्य फलं प्राप्नोत्यनुत्तमम् ।\nपद्मवर्णनिभं चैव विमानमधिरोहति ॥"
+          "text": "पौण्डरीकस्य यज्ञस्य फलं प्राप्नोत्यनुत्तमम् ।\nपद्मवर्णनिभं चैव विमानमधिरोहति ॥",
+          "meaning": {
+            "en": "gains the peerless fruit of the Paundarika sacrifice and ascends a car the colour of a lotus."
+          }
         },
         {
           "n": 35,
-          "text": "कृष्णाः कनकगौर्यश्च नार्यः श्यामास्तथापराः ।\nवयोरूपविलासिन्यो लभते नात्र संशयः ॥"
+          "text": "कृष्णाः कनकगौर्यश्च नार्यः श्यामास्तथापराः ।\nवयोरूपविलासिन्यो लभते नात्र संशयः ॥",
+          "meaning": {
+            "en": "Without doubt he gains women, dark ones, golden-fair ones and others of dusky hue, playful in youth and beauty."
+          }
         },
         {
           "n": 36,
-          "text": "यस्तु संवत्सरं भुङ्क्ते नवमे नवमेऽहनि ।\nसदा द्वादशमासान्वै जुह्वानो जातवेदसम् ॥"
+          "text": "यस्तु संवत्सरं भुङ्क्ते नवमे नवमेऽहनि ।\nसदा द्वादशमासान्वै जुह्वानो जातवेदसम् ॥",
+          "meaning": {
+            "en": "One who eats on every ninth day for a year, for twelve months always, offering oblations to Agni,"
+          }
         },
         {
           "n": 37,
-          "text": "अश्वमेधस्य यज्ञस्य फलं प्राप्नोति मानवः ।\nपुण्डरीकप्रकाशं च विमानं लभते नरः ॥"
+          "text": "अश्वमेधस्य यज्ञस्य फलं प्राप्नोति मानवः ।\nपुण्डरीकप्रकाशं च विमानं लभते नरः ॥",
+          "meaning": {
+            "en": "gains the fruit of the Ashvamedha sacrifice and a car shining like a white lotus."
+          }
         },
         {
           "n": 38,
-          "text": "दीप्तसूर्याग्नितेजोभिर्दिव्यमालाभिरेव च ।\nनीयते रुद्रकन्याभिः सोऽन्तरिक्षं सनातनम् ॥"
+          "text": "दीप्तसूर्याग्नितेजोभिर्दिव्यमालाभिरेव च ।\nनीयते रुद्रकन्याभिः सोऽन्तरिक्षं सनातनम् ॥",
+          "meaning": {
+            "en": "With the splendour of blazing sun and fire, and with divine garlands, the daughters of Rudra carry him through the eternal sky."
+          }
         },
         {
           "n": 39,
-          "text": "अष्टादशसहस्राणि वर्षाणां कल्पमेव च ।\nकोटीशतसहस्रं च तेषु लोकेषु मोदते ॥"
+          "text": "अष्टादशसहस्राणि वर्षाणां कल्पमेव च ।\nकोटीशतसहस्रं च तेषु लोकेषु मोदते ॥",
+          "meaning": {
+            "en": "For eighteen thousand years, an aeon, and a hundred thousand crores he rejoices in those worlds."
+          }
         },
         {
           "n": 40,
-          "text": "यस्तु संवत्सरं भुङ्क्ते दशाहे वै गते गते ।\nसदा द्वादशमासान्वै जुह्वानो जातवेदसम् ॥"
+          "text": "यस्तु संवत्सरं भुङ्क्ते दशाहे वै गते गते ।\nसदा द्वादशमासान्वै जुह्वानो जातवेदसम् ॥",
+          "meaning": {
+            "en": "One who eats each time ten days have passed, for a year, for twelve months always, offering oblations to Agni,"
+          }
         },
         {
           "n": 41,
-          "text": "ब्रह्मकन्यानिवेशे च सर्वभूतमनोहरे ।\nअश्वमेधसहस्रस्य फलं प्राप्नोत्यनुत्तमम् ॥"
+          "text": "ब्रह्मकन्यानिवेशे च सर्वभूतमनोहरे ।\nअश्वमेधसहस्रस्य फलं प्राप्नोत्यनुत्तमम् ॥",
+          "meaning": {
+            "en": "in the abode of Brahma's daughters, charming to all beings, gains the peerless fruit of a thousand Ashvamedhas."
+          }
         },
         {
           "n": 42,
-          "text": "रूपवत्यश्च तं कन्या रमयन्ति सदा नरम् ।\nनीलोत्पलनिभैर्वर्णै रक्तोत्पलनिभैस्तथा ॥"
+          "text": "रूपवत्यश्च तं कन्या रमयन्ति सदा नरम् ।\nनीलोत्पलनिभैर्वर्णै रक्तोत्पलनिभैस्तथा ॥",
+          "meaning": {
+            "en": "Beautiful maidens always delight that man, with complexions like blue lotuses and like red lotuses."
+          }
         },
         {
           "n": 43,
-          "text": "विमानं मण्डलावर्तमावर्तगहनावृतम् ।\nसागरोर्मिप्रतीकाशं साधयेद्यानमुत्तमम् ॥"
+          "text": "विमानं मण्डलावर्तमावर्तगहनावृतम् ।\nसागरोर्मिप्रतीकाशं साधयेद्यानमुत्तमम् ॥",
+          "meaning": {
+            "en": "He gains an excellent vehicle, a car with circular whirls, enclosed in dense spirals, resembling the waves of the sea."
+          }
         },
         {
           "n": 44,
-          "text": "विचित्रमणिमालाभिर्नादितं शङ्खपुष्करैः ।\nस्फाटिकैर्वज्रसारैश्च स्तम्भैः सुकृतवेदिकम् ।\nआरोहति महद्यानं हंससारसवाहनम् ॥"
+          "text": "विचित्रमणिमालाभिर्नादितं शङ्खपुष्करैः ।\nस्फाटिकैर्वज्रसारैश्च स्तम्भैः सुकृतवेदिकम् ।\nआरोहति महद्यानं हंससारसवाहनम् ॥",
+          "meaning": {
+            "en": "It resounds with strings of many-hued jewels, conches and drums, and has pillars of crystal and diamond with well-made platforms; he mounts that great vehicle drawn by swans and cranes."
+          }
         },
         {
           "n": 45,
-          "text": "एकादशे तु दिवसे यः प्राप्ते प्राशते हविः ।\nसदा द्वादशमासान्वै जुह्वानो जातवेदसम् ॥"
+          "text": "एकादशे तु दिवसे यः प्राप्ते प्राशते हविः ।\nसदा द्वादशमासान्वै जुह्वानो जातवेदसम् ॥",
+          "meaning": {
+            "en": "One who eats his oblation-food on the eleventh day when it comes, for twelve months always, offering oblations to Agni,"
+          }
         },
         {
           "n": 46,
-          "text": "परस्त्रियो नाभिलषेद्वाचाथ मनसापि वा ।\nअनृतं च न भाषेत मातापित्रोः कृतेऽपि वा ॥"
+          "text": "परस्त्रियो नाभिलषेद्वाचाथ मनसापि वा ।\nअनृतं च न भाषेत मातापित्रोः कृतेऽपि वा ॥",
+          "meaning": {
+            "en": "not desiring others' wives in word or even thought, and not speaking falsehood, even for the sake of mother or father,"
+          }
         },
         {
           "n": 47,
-          "text": "अभिगच्छेन्महादेवं विमानस्थं महाबलम् ।\nस्वयंभुवं च पश्येत विमानं समुपस्थितम् ॥"
+          "text": "अभिगच्छेन्महादेवं विमानस्थं महाबलम् ।\nस्वयंभुवं च पश्येत विमानं समुपस्थितम् ॥",
+          "meaning": {
+            "en": "will approach the mighty Mahadeva seated in his car, and will see Svayambhu, whose car stands ready."
+          }
         },
         {
           "n": 48,
-          "text": "कुमार्यः काञ्चनाभासा रूपवत्यो नयन्ति तम् ।\nरुद्राणां तमधीवासं दिवि दिव्यं मनोहरम् ॥"
+          "text": "कुमार्यः काञ्चनाभासा रूपवत्यो नयन्ति तम् ।\nरुद्राणां तमधीवासं दिवि दिव्यं मनोहरम् ॥",
+          "meaning": {
+            "en": "Radiant, beautiful maidens lead him to the divine, lovely heavenly abode of the Rudras."
+          }
         },
         {
           "n": 49,
-          "text": "वर्षाण्यपरिमेयानि युगान्तमपि चावसेत् ।\nकोटीशतसहस्रं च दश कोटिशतानि च ॥"
+          "text": "वर्षाण्यपरिमेयानि युगान्तमपि चावसेत् ।\nकोटीशतसहस्रं च दश कोटिशतानि च ॥",
+          "meaning": {
+            "en": "He lives for unmeasured years, even to the end of the age, a hundred thousand crores and ten hundred crores."
+          }
         },
         {
           "n": 50,
-          "text": "रुद्रं नित्यं प्रणमते देवदानवसंमतम् ।\nस तस्मै दर्शनं प्राप्तो दिवसे दिवसे भवेत् ॥"
+          "text": "रुद्रं नित्यं प्रणमते देवदानवसंमतम् ।\nस तस्मै दर्शनं प्राप्तो दिवसे दिवसे भवेत् ॥",
+          "meaning": {
+            "en": "He always bows to Rudra, honoured by gods and demons, and Rudra grants him audience every day."
+          }
         },
         {
           "n": 51,
-          "text": "दिवसे द्वादशे यस्तु प्राप्ते वै प्राशते हविः ।\nसदा द्वादशमासान्वै सर्वमेधफलं लभेत् ॥"
+          "text": "दिवसे द्वादशे यस्तु प्राप्ते वै प्राशते हविः ।\nसदा द्वादशमासान्वै सर्वमेधफलं लभेत् ॥",
+          "meaning": {
+            "en": "One who eats his oblation-food on the twelfth day when it comes, for twelve months always, gains the fruit of the Sarvamedha."
+          }
         },
         {
           "n": 52,
-          "text": "आदित्यैर्द्वादशैस्तस्य विमानं संविधीयते ।\nमणिमुक्ताप्रवालैश्च महार्हैरुपशोभितम् ॥"
+          "text": "आदित्यैर्द्वादशैस्तस्य विमानं संविधीयते ।\nमणिमुक्ताप्रवालैश्च महार्हैरुपशोभितम् ॥",
+          "meaning": {
+            "en": "A car is prepared for him by the twelve Adityas, adorned with costly gems, pearls and corals."
+          }
         },
         {
           "n": 53,
-          "text": "हंसमालापरिक्षिप्तं नागवीथीसमाकुलम् ।\nमयूरैश्चक्रवाकैश्च कूजद्भिरुपशोभितम् ॥"
+          "text": "हंसमालापरिक्षिप्तं नागवीथीसमाकुलम् ।\nमयूरैश्चक्रवाकैश्च कूजद्भिरुपशोभितम् ॥",
+          "meaning": {
+            "en": "It is ringed with garlands of swans, crowded with serpent-like avenues, adorned with calling peacocks and chakravakas,"
+          }
         },
         {
           "n": 54,
-          "text": "अट्टैर्महद्भिः संयुक्तं ब्रह्मलोके प्रतिष्ठितम् ।\nनित्यमावसते राजन्नरनारीसमावृतम् ।\nऋषिरेवं महाभागस्त्वङ्गिराः प्राह धर्मवित् ॥"
+          "text": "अट्टैर्महद्भिः संयुक्तं ब्रह्मलोके प्रतिष्ठितम् ।\nनित्यमावसते राजन्नरनारीसमावृतम् ।\nऋषिरेवं महाभागस्त्वङ्गिराः प्राह धर्मवित् ॥",
+          "meaning": {
+            "en": "furnished with great turrets and set in the world of Brahma. He lives there always, O king, surrounded by men and women; so the greatly blessed sage Angiras, knower of dharma, declared."
+          }
         },
         {
           "n": 55,
-          "text": "त्रयोदशे तु दिवसे यः प्राप्ते प्राशते हविः ।\nसदा द्वादश मासान्वै देवसत्रफलं लभेत् ॥"
+          "text": "त्रयोदशे तु दिवसे यः प्राप्ते प्राशते हविः ।\nसदा द्वादश मासान्वै देवसत्रफलं लभेत् ॥",
+          "meaning": {
+            "en": "One who eats his oblation-food on the thirteenth day when it comes, for twelve months always, gains the fruit of a divine sacrificial session."
+          }
         },
         {
           "n": 56,
-          "text": "रक्तपद्मोदयं नाम विमानं साधयेन्नरः ।\nजातरूपप्रयुक्तं च रत्नसंचयभूषितम् ॥"
+          "text": "रक्तपद्मोदयं नाम विमानं साधयेन्नरः ।\nजातरूपप्रयुक्तं च रत्नसंचयभूषितम् ॥",
+          "meaning": {
+            "en": "He gains a car named Raktapadmodaya, made of gold and adorned with heaps of jewels,"
+          }
         },
         {
           "n": 57,
-          "text": "देवकन्याभिराकीर्णं दिव्याभरणभूषितम् ।\nपुण्यगन्धोदयं दिव्यं वायव्यैरुपशोभितम् ॥"
+          "text": "देवकन्याभिराकीर्णं दिव्याभरणभूषितम् ।\nपुण्यगन्धोदयं दिव्यं वायव्यैरुपशोभितम् ॥",
+          "meaning": {
+            "en": "crowded with divine maidens, decked with divine ornaments, with the fragrance of virtue, and adorned with the winds' gifts."
+          }
         },
         {
           "n": 58,
-          "text": "तत्र शङ्कुपताकं च युगान्तं कल्पमेव च ।\nअयुतायुतं तथा पद्मं समुद्रं च तथा वसेत् ॥"
+          "text": "तत्र शङ्कुपताकं च युगान्तं कल्पमेव च ।\nअयुतायुतं तथा पद्मं समुद्रं च तथा वसेत् ॥",
+          "meaning": {
+            "en": "There he would dwell to the end of the age, an aeon, and for a myriad myriad years, a padma and an ocean, with banners marking a shanku count of years."
+          }
         },
         {
           "n": 59,
-          "text": "गीतगन्धर्वघोषैश्च भेरीपणवनिस्वनैः ।\nसदा प्रमुदितस्ताभिर्देवकन्याभिरीड्यते ॥"
+          "text": "गीतगन्धर्वघोषैश्च भेरीपणवनिस्वनैः ।\nसदा प्रमुदितस्ताभिर्देवकन्याभिरीड्यते ॥",
+          "meaning": {
+            "en": "With the sounds of song and Gandharvas, with the noise of kettledrums and tabors, he is ever delighted, and the divine maidens praise him."
+          }
         },
         {
           "n": 60,
-          "text": "चतुर्दशे तु दिवसे यः पूर्णे प्राशते हविः ।\nसदा द्वादश मासान्वै महामेधफलं लभेत् ॥"
+          "text": "चतुर्दशे तु दिवसे यः पूर्णे प्राशते हविः ।\nसदा द्वादश मासान्वै महामेधफलं लभेत् ॥",
+          "meaning": {
+            "en": "One who eats his oblation-food on the fourteenth day when it is complete, for twelve months always, gains the fruit of the Mahamedha."
+          }
         },
         {
           "n": 61,
-          "text": "अनिर्देश्यवयोरूपा देवकन्याः स्वलंकृताः ।\nमृष्टतप्ताङ्गदधरा विमानैरनुयान्ति तम् ॥"
+          "text": "अनिर्देश्यवयोरूपा देवकन्याः स्वलंकृताः ।\nमृष्टतप्ताङ्गदधरा विमानैरनुयान्ति तम् ॥",
+          "meaning": {
+            "en": "Divine maidens of indescribable age and beauty, finely adorned and wearing polished, glowing armlets, follow him in their cars."
+          }
         },
         {
           "n": 62,
-          "text": "कलहंसविनिर्घोषैर्नूपुराणां च निस्वनैः ।\nकाञ्चीनां च समुत्कर्षैस्तत्र तत्र विबोध्यते ॥"
+          "text": "कलहंसविनिर्घोषैर्नूपुराणां च निस्वनैः ।\nकाञ्चीनां च समुत्कर्षैस्तत्र तत्र विबोध्यते ॥",
+          "meaning": {
+            "en": "Here and there he is awakened by the notes of swans, the sound of anklets and the pull of girdles."
+          }
         },
         {
           "n": 63,
-          "text": "देवकन्यानिवासे च तस्मिन्वसति मानवः ।\nजाह्नवीवालुकाकीर्णे पूर्णं संवत्सरं नरः ॥"
+          "text": "देवकन्यानिवासे च तस्मिन्वसति मानवः ।\nजाह्नवीवालुकाकीर्णे पूर्णं संवत्सरं नरः ॥",
+          "meaning": {
+            "en": "That man lives for a full year in the dwelling of the divine maidens, strewn with sands of the Ganga."
+          }
         },
         {
           "n": 64,
-          "text": "यस्तु पक्षे गते भुङ्क्ते एकभक्तं जितेन्द्रियः ।\nसदा द्वादश मासांस्तु जुह्वानो जातवेदसम् ।\nराजसूयसहस्रस्य फलं प्राप्नोत्यनुत्तमम् ॥"
+          "text": "यस्तु पक्षे गते भुङ्क्ते एकभक्तं जितेन्द्रियः ।\nसदा द्वादश मासांस्तु जुह्वानो जातवेदसम् ।\nराजसूयसहस्रस्य फलं प्राप्नोत्यनुत्तमम् ॥",
+          "meaning": {
+            "en": "One who, with senses controlled, eats a single meal once each fortnight, for twelve months always, offering oblations to Agni, gains the peerless fruit of a thousand Rajasuyas."
+          }
         },
         {
           "n": 65,
-          "text": "यानमारोहते नित्यं हंसबर्हिणसेवितम् ।\nमणिमण्डलकैश्चित्रं जातरूपसमावृतम् ॥"
+          "text": "यानमारोहते नित्यं हंसबर्हिणसेवितम् ।\nमणिमण्डलकैश्चित्रं जातरूपसमावृतम् ॥",
+          "meaning": {
+            "en": "He always mounts a vehicle served by swans and peacocks, many-coloured with jewelled circles, overlaid with gold,"
+          }
         },
         {
           "n": 66,
-          "text": "दिव्याभरणशोभाभिर्वरस्त्रीभिरलंकृतम् ।\nएकस्तम्भं चतुर्द्वारं सप्तभौमं सुमङ्गलम् ।\nवैजयन्तीसहस्रैश्च शोभितं गीतनिस्वनैः ॥"
+          "text": "दिव्याभरणशोभाभिर्वरस्त्रीभिरलंकृतम् ।\nएकस्तम्भं चतुर्द्वारं सप्तभौमं सुमङ्गलम् ।\nवैजयन्तीसहस्रैश्च शोभितं गीतनिस्वनैः ॥",
+          "meaning": {
+            "en": "adorned with fine women in splendid divine ornaments, with one pillar, four doors and seven storeys, most auspicious, shining with thousands of banners and sounds of song."
+          }
         },
         {
           "n": 67,
-          "text": "दिव्यं दिव्यगुणोपेतं विमानमधिरोहति ।\nमणिमुक्ताप्रवालैश्च भूषितं वैद्युतप्रभम् ।\nवसेद्युगसहस्रं च खड्गकुञ्जरवाहनः ॥"
+          "text": "दिव्यं दिव्यगुणोपेतं विमानमधिरोहति ।\nमणिमुक्ताप्रवालैश्च भूषितं वैद्युतप्रभम् ।\nवसेद्युगसहस्रं च खड्गकुञ्जरवाहनः ॥",
+          "meaning": {
+            "en": "He mounts a divine car endowed with divine qualities, adorned with gems, pearls and corals and bright as lightning; he lives for a thousand ages, travelling on sword-bearing elephants."
+          }
         },
         {
           "n": 68,
-          "text": "षोडशे दिवसे यस्तु संप्राप्ते प्राशते हविः ।\nसदा द्वादश मासान्वै सोमयज्ञफलं लभेत् ॥"
+          "text": "षोडशे दिवसे यस्तु संप्राप्ते प्राशते हविः ।\nसदा द्वादश मासान्वै सोमयज्ञफलं लभेत् ॥",
+          "meaning": {
+            "en": "One who eats his oblation-food on the sixteenth day when it comes, for twelve months always, gains the fruit of the Soma sacrifice."
+          }
         },
         {
           "n": 69,
-          "text": "सोमकन्यानिवासेषु सोऽध्यावसति नित्यदा ।\nसौम्यगन्धानुलिप्तश्च कामचारगतिर्भवेत् ॥"
+          "text": "सोमकन्यानिवासेषु सोऽध्यावसति नित्यदा ।\nसौम्यगन्धानुलिप्तश्च कामचारगतिर्भवेत् ॥",
+          "meaning": {
+            "en": "He always dwells in the abodes of the Soma maidens, anointed with Soma's fragrance, moving wherever he wishes."
+          }
         },
         {
           "n": 70,
-          "text": "सुदर्शनाभिर्नारीभिर्मधुराभिस्तथैव च ।\nअर्च्यते वै विमानस्थः कामभोगैश्च सेव्यते ॥"
+          "text": "सुदर्शनाभिर्नारीभिर्मधुराभिस्तथैव च ।\nअर्च्यते वै विमानस्थः कामभोगैश्च सेव्यते ॥",
+          "meaning": {
+            "en": "In his car he is honoured by lovely, charming women and served with every delight."
+          }
         },
         {
           "n": 71,
-          "text": "फलं पद्मशतप्रख्यं महाकल्पं दशाधिकम् ।\nआवर्तनानि चत्वारि सागरे यात्यसौ नरः ॥"
+          "text": "फलं पद्मशतप्रख्यं महाकल्पं दशाधिकम् ।\nआवर्तनानि चत्वारि सागरे यात्यसौ नरः ॥",
+          "meaning": {
+            "en": "That man travels the sea for four cycles, with a fruit like a hundred padmas, an aeon and ten more."
+          }
         },
         {
           "n": 72,
-          "text": "दिवसे सप्तदशमे यः प्राप्ते प्राशते हविः ।\nसदा द्वादश मासान्वै जुह्वानो जातवेदसम् ॥"
+          "text": "दिवसे सप्तदशमे यः प्राप्ते प्राशते हविः ।\nसदा द्वादश मासान्वै जुह्वानो जातवेदसम् ॥",
+          "meaning": {
+            "en": "One who eats his oblation-food on the seventeenth day when it comes, for twelve months always, offering oblations to Agni,"
+          }
         },
         {
           "n": 73,
-          "text": "स्थानं वारुणमैन्द्रं च रौद्रं चैवाधिगच्छति ।\nमारुतौशनसे चैव ब्रह्मलोकं च गच्छति ॥"
+          "text": "स्थानं वारुणमैन्द्रं च रौद्रं चैवाधिगच्छति ।\nमारुतौशनसे चैव ब्रह्मलोकं च गच्छति ॥",
+          "meaning": {
+            "en": "He reaches the realms of Varuna, Indra and Rudra, and those of Marut and Ushanas, and goes to the world of Brahma."
+          }
         },
         {
           "n": 74,
-          "text": "तत्र दैवतकन्याभिरासनेनोपचर्यते ।\nभूर्भुवं चापि देवर्षिं विश्वरूपमवेक्षते ॥"
+          "text": "तत्र दैवतकन्याभिरासनेनोपचर्यते ।\nभूर्भुवं चापि देवर्षिं विश्वरूपमवेक्षते ॥",
+          "meaning": {
+            "en": "There divine maidens attend him with seats, and he beholds the divine sage of Bhur and Bhuvah, the universal form."
+          }
         },
         {
           "n": 75,
-          "text": "तत्र देवाधिदेवस्य कुमार्यो रमयन्ति तम् ।\nद्वात्रिंशद्रूपधारिण्यो मधुराः समलंकृताः ॥"
+          "text": "तत्र देवाधिदेवस्य कुमार्यो रमयन्ति तम् ।\nद्वात्रिंशद्रूपधारिण्यो मधुराः समलंकृताः ॥",
+          "meaning": {
+            "en": "There young women of the God of gods delight him, sweet and well adorned, taking thirty-two forms."
+          }
         },
         {
           "n": 76,
-          "text": "चन्द्रादित्यावुभौ यावद्गगने चरतः प्रभो ।\nतावच्चरत्यसौ वीरः सुधामृतरसाशनः ॥"
+          "text": "चन्द्रादित्यावुभौ यावद्गगने चरतः प्रभो ।\nतावच्चरत्यसौ वीरः सुधामृतरसाशनः ॥",
+          "meaning": {
+            "en": "As long as the moon and sun both travel in the sky, my lord, so long that hero ranges there, feeding on the essence of nectar."
+          }
         },
         {
           "n": 77,
-          "text": "अष्टादशे तु दिवसे प्राश्नीयादेकभोजनम् ।\nसदा द्वादश मासान्वै सप्त लोकान्स पश्यति ॥"
+          "text": "अष्टादशे तु दिवसे प्राश्नीयादेकभोजनम् ।\nसदा द्वादश मासान्वै सप्त लोकान्स पश्यति ॥",
+          "meaning": {
+            "en": "One who eats only one meal on the eighteenth day, for twelve months always, sees the seven worlds."
+          }
         },
         {
           "n": 78,
-          "text": "रथैः सनन्दिघोषैश्च पृष्ठतः सोऽनुगम्यते ।\nदेवकन्याधिरूढैस्तु भ्राजमानैः स्वलंकृतैः ॥"
+          "text": "रथैः सनन्दिघोषैश्च पृष्ठतः सोऽनुगम्यते ।\nदेवकन्याधिरूढैस्तु भ्राजमानैः स्वलंकृतैः ॥",
+          "meaning": {
+            "en": "Behind him follow chariots with joyful sounds, shining and finely adorned, mounted by divine maidens."
+          }
         },
         {
           "n": 79,
-          "text": "व्याघ्रसिंहप्रयुक्तं च मेघस्वननिनादितम् ।\nविमानमुत्तमं दिव्यं सुसुखी ह्यधिरोहति ॥"
+          "text": "व्याघ्रसिंहप्रयुक्तं च मेघस्वननिनादितम् ।\nविमानमुत्तमं दिव्यं सुसुखी ह्यधिरोहति ॥",
+          "meaning": {
+            "en": "Very happy, he ascends an excellent divine car yoked to tigers and lions and rumbling like thunder-clouds."
+          }
         },
         {
           "n": 80,
-          "text": "तत्र कल्पसहस्रं स कान्ताभिः सह मोदते ।\nसुधारसं च भुञ्जीत अमृतोपममुत्तमम् ॥"
+          "text": "तत्र कल्पसहस्रं स कान्ताभिः सह मोदते ।\nसुधारसं च भुञ्जीत अमृतोपममुत्तमम् ॥",
+          "meaning": {
+            "en": "There for a thousand aeons he rejoices with beloved women and enjoys the best essence of nectar, like ambrosia."
+          }
         },
         {
           "n": 81,
-          "text": "एकोनविंशे दिवसे यो भुङ्क्ते एकभोजनम् ।\nसदा द्वादश मासान्वै सप्त लोकान्स पश्यति ॥"
+          "text": "एकोनविंशे दिवसे यो भुङ्क्ते एकभोजनम् ।\nसदा द्वादश मासान्वै सप्त लोकान्स पश्यति ॥",
+          "meaning": {
+            "en": "One who eats one meal only on the nineteenth day, for twelve months always, sees the seven worlds."
+          }
         },
         {
           "n": 82,
-          "text": "उत्तमं लभते स्थानमप्सरोगणसेवितम् ।\nगन्धर्वैरुपगीतं च विमानं सूर्यवर्चसम् ॥"
+          "text": "उत्तमं लभते स्थानमप्सरोगणसेवितम् ।\nगन्धर्वैरुपगीतं च विमानं सूर्यवर्चसम् ॥",
+          "meaning": {
+            "en": "He gains an excellent abode served by hosts of Apsaras, and a car bright as the sun and sung to by Gandharvas."
+          }
         },
         {
           "n": 83,
-          "text": "तत्रामरवरस्त्रीभिर्मोदते विगतज्वरः ।\nदिव्याम्बरधरः श्रीमानयुतानां शतं समाः ॥"
+          "text": "तत्रामरवरस्त्रीभिर्मोदते विगतज्वरः ।\nदिव्याम्बरधरः श्रीमानयुतानां शतं समाः ॥",
+          "meaning": {
+            "en": "There, free of fever, wearing divine garments and splendid, he rejoices with the finest divine women for a hundred ayutas of years."
+          }
         },
         {
           "n": 84,
-          "text": "पूर्णेऽथ दिवसे विंशे यो भुङ्क्ते ह्येकभोजनम् ।\nसदा द्वादश मासांस्तु सत्यवादी धृतव्रतः ॥"
+          "text": "पूर्णेऽथ दिवसे विंशे यो भुङ्क्ते ह्येकभोजनम् ।\nसदा द्वादश मासांस्तु सत्यवादी धृतव्रतः ॥",
+          "meaning": {
+            "en": "One who eats one meal on the full twentieth day, for twelve months always, truthful and firm in his vow,"
+          }
         },
         {
           "n": 85,
-          "text": "अमांसाशी ब्रह्मचारी सर्वभूतहिते रतः ।\nस लोकान्विपुलान्दिव्यानादित्यानामुपाश्नुते ॥"
+          "text": "अमांसाशी ब्रह्मचारी सर्वभूतहिते रतः ।\nस लोकान्विपुलान्दिव्यानादित्यानामुपाश्नुते ॥",
+          "meaning": {
+            "en": "eating no meat, celibate and devoted to the welfare of all beings, gains the vast divine worlds of the Adityas."
+          }
         },
         {
           "n": 86,
-          "text": "गन्धर्वैरप्सरोभिश्च दिव्यमाल्यानुलेपनैः ।\nविमानैः काञ्चनैर्दिव्यैः पृष्ठतश्चानुगम्यते ॥"
+          "text": "गन्धर्वैरप्सरोभिश्च दिव्यमाल्यानुलेपनैः ।\nविमानैः काञ्चनैर्दिव्यैः पृष्ठतश्चानुगम्यते ॥",
+          "meaning": {
+            "en": "Gandharvas and Apsaras in golden divine cars, wearing divine garlands and perfumes, follow behind him."
+          }
         },
         {
           "n": 87,
-          "text": "एकविंशे तु दिवसे यो भुङ्क्ते ह्येकभोजनम् ।\nसदा द्वादश मासान्वै जुह्वानो जातवेदसम् ॥"
+          "text": "एकविंशे तु दिवसे यो भुङ्क्ते ह्येकभोजनम् ।\nसदा द्वादश मासान्वै जुह्वानो जातवेदसम् ॥",
+          "meaning": {
+            "en": "One who eats one meal on the twenty-first day, for twelve months always, offering oblations to Agni,"
+          }
         },
         {
           "n": 88,
-          "text": "लोकमौशनसं दिव्यं शक्रलोकं च गच्छति ।\nअश्विनोर्मरुतां चैव सुखेष्वभिरतः सदा ॥"
+          "text": "लोकमौशनसं दिव्यं शक्रलोकं च गच्छति ।\nअश्विनोर्मरुतां चैव सुखेष्वभिरतः सदा ॥",
+          "meaning": {
+            "en": "goes to the divine world of Ushanas and Shakra's world, always delighting in the pleasures of the Ashvins and the Maruts."
+          }
         },
         {
           "n": 89,
-          "text": "अनभिज्ञश्च दुःखानां विमानवरमास्थितः ।\nसेव्यमानो वरस्त्रीभिः क्रीडत्यमरवत्प्रभुः ॥"
+          "text": "अनभिज्ञश्च दुःखानां विमानवरमास्थितः ।\nसेव्यमानो वरस्त्रीभिः क्रीडत्यमरवत्प्रभुः ॥",
+          "meaning": {
+            "en": "Knowing no sorrows, seated in an excellent car and served by the finest women, the lord plays like an immortal."
+          }
         },
         {
           "n": 90,
-          "text": "द्वाविंशे दिवसे प्राप्ते यो भुङ्क्ते ह्येकभोजनम् ।\nसदा द्वादश मासान्वै जुह्वानो जातवेदसम् ॥"
+          "text": "द्वाविंशे दिवसे प्राप्ते यो भुङ्क्ते ह्येकभोजनम् ।\nसदा द्वादश मासान्वै जुह्वानो जातवेदसम् ॥",
+          "meaning": {
+            "en": "One who eats one meal when the twenty-second day arrives, for twelve months always, offering oblations to Agni,"
+          }
         },
         {
           "n": 91,
-          "text": "धृतिमानहिंसानिरतः सत्यवागनसूयकः ।\nलोकान्वसूनामाप्नोति दिवाकरसमप्रभः ॥"
+          "text": "धृतिमानहिंसानिरतः सत्यवागनसूयकः ।\nलोकान्वसूनामाप्नोति दिवाकरसमप्रभः ॥",
+          "meaning": {
+            "en": "steadfast, devoted to non-violence, truthful and free of envy, reaches the worlds of the Vasus, shining like the sun."
+          }
         },
         {
           "n": 92,
-          "text": "कामचारी सुधाहारो विमानवरमास्थितः ।\nरमते देवकन्याभिर्दिव्याभरणभूषितः ॥"
+          "text": "कामचारी सुधाहारो विमानवरमास्थितः ।\nरमते देवकन्याभिर्दिव्याभरणभूषितः ॥",
+          "meaning": {
+            "en": "Moving as he wishes and feeding on nectar, seated in an excellent car and decked with divine ornaments, he delights with divine maidens."
+          }
         },
         {
           "n": 93,
-          "text": "त्रयोविंशे तु दिवसे प्राशेद्यस्त्वेकभोजनम् ।\nसदा द्वादश मासांस्तु मिताहारो जितेन्द्रियः ॥"
+          "text": "त्रयोविंशे तु दिवसे प्राशेद्यस्त्वेकभोजनम् ।\nसदा द्वादश मासांस्तु मिताहारो जितेन्द्रियः ॥",
+          "meaning": {
+            "en": "One who eats one meal on the twenty-third day, for twelve months always, moderate in food and in command of his senses,"
+          }
         },
         {
           "n": 94,
-          "text": "वायोरुशनसश्चैव रुद्रलोकं च गच्छति ।\nकामचारी कामगमः पूज्यमानोऽप्सरोगणैः ॥"
+          "text": "वायोरुशनसश्चैव रुद्रलोकं च गच्छति ।\nकामचारी कामगमः पूज्यमानोऽप्सरोगणैः ॥",
+          "meaning": {
+            "en": "goes to the worlds of Vayu, Ushanas and Rudra, moving and going where he wishes, honoured by hosts of Apsaras."
+          }
         },
         {
           "n": 95,
-          "text": "अनेकगुणपर्यन्तं विमानवरमास्थितः ।\nरमते देवकन्याभिर्दिव्याभरणभूषितः ॥"
+          "text": "अनेकगुणपर्यन्तं विमानवरमास्थितः ।\nरमते देवकन्याभिर्दिव्याभरणभूषितः ॥",
+          "meaning": {
+            "en": "Seated in an excellent car with limitless excellences, adorned with divine ornaments, he delights with divine maidens."
+          }
         },
         {
           "n": 96,
-          "text": "चतुर्विंशे तु दिवसे यः प्राशेदेकभोजनम् ।\nसदा द्वादश मासान्वै जुह्वानो जातवेदसम् ॥"
+          "text": "चतुर्विंशे तु दिवसे यः प्राशेदेकभोजनम् ।\nसदा द्वादश मासान्वै जुह्वानो जातवेदसम् ॥",
+          "meaning": {
+            "en": "One who eats one meal on the twenty-fourth day, for twelve months always, offering oblations to Agni,"
+          }
         },
         {
           "n": 97,
-          "text": "आदित्यानामधीवासे मोदमानो वसेच्चिरम् ।\nदिव्यमाल्याम्बरधरो दिव्यगन्धानुलेपनः ॥"
+          "text": "आदित्यानामधीवासे मोदमानो वसेच्चिरम् ।\nदिव्यमाल्याम्बरधरो दिव्यगन्धानुलेपनः ॥",
+          "meaning": {
+            "en": "lives long and joyfully in the abode of the Adityas, wearing divine garlands and garments and anointed with divine scents."
+          }
         },
         {
           "n": 98,
-          "text": "विमाने काञ्चने दिव्ये हंसयुक्ते मनोरमे ।\nरमते देवकन्यानां सहस्रैरयुतैस्तथा ॥"
+          "text": "विमाने काञ्चने दिव्ये हंसयुक्ते मनोरमे ।\nरमते देवकन्यानां सहस्रैरयुतैस्तथा ॥",
+          "meaning": {
+            "en": "In a lovely golden divine car yoked with swans, he delights with thousands and tens of thousands of divine maidens."
+          }
         },
         {
           "n": 99,
-          "text": "पञ्चविंशे तु दिवसे यः प्राशेदेकभोजनम् ।\nसदा द्वादश मासांस्तु पुष्कलं यानमारुहेत् ॥"
+          "text": "पञ्चविंशे तु दिवसे यः प्राशेदेकभोजनम् ।\nसदा द्वादश मासांस्तु पुष्कलं यानमारुहेत् ॥",
+          "meaning": {
+            "en": "One who eats one meal on the twenty-fifth day, for twelve months always, ascends a splendid vehicle."
+          }
         },
         {
           "n": 100,
-          "text": "सिंहव्याघ्रप्रयुक्तैश्च मेघस्वननिनादितैः ।\nरथैः सनन्दिघोषैश्च पृष्ठतः सोऽनुगम्यते ॥"
+          "text": "सिंहव्याघ्रप्रयुक्तैश्च मेघस्वननिनादितैः ।\nरथैः सनन्दिघोषैश्च पृष्ठतः सोऽनुगम्यते ॥",
+          "meaning": {
+            "en": "Behind him follow chariots yoked with lions and tigers, rumbling like clouds and sounding with joyful noise,"
+          }
         },
         {
           "n": 101,
-          "text": "देवकन्यासमारूढै राजतैर्विमलैः शुभैः ।\nविमानमुत्तमं दिव्यमास्थाय सुमनोहरम् ॥"
+          "text": "देवकन्यासमारूढै राजतैर्विमलैः शुभैः ।\nविमानमुत्तमं दिव्यमास्थाय सुमनोहरम् ॥",
+          "meaning": {
+            "en": "bright, pure and auspicious silver ones mounted by divine maidens, while he rides an excellent, divine, enchanting car."
+          }
         },
         {
           "n": 102,
-          "text": "तत्र कल्पसहस्रं वै वसते स्त्रीशतावृते ।\nसुधारसं चोपजीवन्नमृतोपममुत्तमम् ॥"
+          "text": "तत्र कल्पसहस्रं वै वसते स्त्रीशतावृते ।\nसुधारसं चोपजीवन्नमृतोपममुत्तमम् ॥",
+          "meaning": {
+            "en": "There he lives for a thousand aeons surrounded by hundreds of women, living on the essence of nectar, supreme and like ambrosia."
+          }
         },
         {
           "n": 103,
-          "text": "षड्विंशे दिवसे यस्तु प्राश्नीयादेकभोजनम् ।\nसदा द्वादश मासांस्तु नियतो नियताशनः ॥"
+          "text": "षड्विंशे दिवसे यस्तु प्राश्नीयादेकभोजनम् ।\nसदा द्वादश मासांस्तु नियतो नियताशनः ॥",
+          "meaning": {
+            "en": "One who eats one meal on the twenty-sixth day, for twelve months always, disciplined and restrained in food,"
+          }
         },
         {
           "n": 104,
-          "text": "जितेन्द्रियो वीतरागो जुह्वानो जातवेदसम् ।\nस प्राप्नोति महाभागः पूज्यमानोऽप्सरोगणैः ॥"
+          "text": "जितेन्द्रियो वीतरागो जुह्वानो जातवेदसम् ।\nस प्राप्नोति महाभागः पूज्यमानोऽप्सरोगणैः ॥",
+          "meaning": {
+            "en": "master of his senses and free of passion, offering oblations to Agni, that greatly fortunate man is honoured by hosts of Apsaras and attains"
+          }
         },
         {
           "n": 105,
-          "text": "सप्तानां मरुतां लोकान्वसूनां चापि सोऽश्नुते ।\nविमाने स्फाटिके दिव्ये सर्वरत्नैरलंकृते ॥"
+          "text": "सप्तानां मरुतां लोकान्वसूनां चापि सोऽश्नुते ।\nविमाने स्फाटिके दिव्ये सर्वरत्नैरलंकृते ॥",
+          "meaning": {
+            "en": "the worlds of the seven Maruts and the Vasus, in a divine crystal car adorned with all jewels, honoured and delighted by Gandharvas and Apsaras for two thousand ages, in divine splendour."
+          }
         },
         {
           "n": 106,
-          "text": "गन्धर्वैरप्सरोभिश्च पूज्यमानः प्रमोदते ।\nद्वे युगानां सहस्रे तु दिव्ये दिव्येन तेजसा ॥"
+          "text": "गन्धर्वैरप्सरोभिश्च पूज्यमानः प्रमोदते ।\nद्वे युगानां सहस्रे तु दिव्ये दिव्येन तेजसा ॥",
+          "meaning": {
+            "en": "One who eats one meal on the twenty-seventh day, for twelve months always, offering oblations to Agni,"
+          }
         },
         {
           "n": 107,
-          "text": "सप्तविंशे तु दिवसे यः प्राशेदेकभोजनम् ।\nसदा द्वादश मासांस्तु जुह्वानो जातवेदसम् ॥"
+          "text": "सप्तविंशे तु दिवसे यः प्राशेदेकभोजनम् ।\nसदा द्वादश मासांस्तु जुह्वानो जातवेदसम् ॥",
+          "meaning": {
+            "en": "gains vast fruit and is honoured in the world of the gods; living there on nectar, he rejoices fully satisfied."
+          }
         },
         {
           "n": 108,
-          "text": "फलं प्राप्नोति विपुलं देवलोके च पूज्यते ।\nअमृताशी वसंस्तत्र स वितृप्तः प्रमोदते ॥"
+          "text": "फलं प्राप्नोति विपुलं देवलोके च पूज्यते ।\nअमृताशी वसंस्तत्र स वितृप्तः प्रमोदते ॥",
+          "meaning": {
+            "en": "O king, that divine-souled man, seated in an excellent car, dwells in the place frequented by divine sages and royal sages."
+          }
         },
         {
           "n": 109,
-          "text": "देवर्षिचरितं राजन्राजर्षिभिरधिष्ठितम् ।\nअध्यावसति दिव्यात्मा विमानवरमास्थितः ॥"
+          "text": "देवर्षिचरितं राजन्राजर्षिभिरधिष्ठितम् ।\nअध्यावसति दिव्यात्मा विमानवरमास्थितः ॥",
+          "meaning": {
+            "en": "Delighting with charming women and in the flush of joy, he lives happily for three thousand ages and aeons."
+          }
         },
         {
           "n": 110,
-          "text": "स्त्रीभिर्मनोभिरामाभी रममाणो मदोत्कटः ।\nयुगकल्पसहस्राणि त्रीण्यावसति वै सुखम् ॥"
+          "text": "स्त्रीभिर्मनोभिरामाभी रममाणो मदोत्कटः ।\nयुगकल्पसहस्राणि त्रीण्यावसति वै सुखम् ॥",
+          "meaning": {
+            "en": "One who eats one meal on the twenty-eighth day, for twelve months always, with mind and senses subdued,"
+          }
         },
         {
           "n": 111,
-          "text": "योऽष्टाविंशे तु दिवसे प्राश्नीयादेकभोजनम् ।\nसदा द्वादश मासांस्तु जितात्मा विजितेन्द्रियः ॥"
+          "text": "योऽष्टाविंशे तु दिवसे प्राश्नीयादेकभोजनम् ।\nसदा द्वादश मासांस्तु जितात्मा विजितेन्द्रियः ॥",
+          "meaning": {
+            "en": "gains the vast fruit won by divine sages; enjoying pleasures, he shines with splendour like the spotless thousand-rayed sun."
+          }
         },
         {
           "n": 112,
-          "text": "फलं देवर्षिचरितं विपुलं समुपाश्नुते ।\nभोगवांस्तेजसा भाति सहस्रांशुरिवामलः ॥"
+          "text": "फलं देवर्षिचरितं विपुलं समुपाश्नुते ।\nभोगवांस्तेजसा भाति सहस्रांशुरिवामलः ॥",
+          "meaning": {
+            "en": "Delicate, radiant women with full breasts and hips, adorned with divine ornaments, delight him."
+          }
         },
         {
           "n": 113,
-          "text": "सुकुमार्यश्च नार्यस्तं रममाणाः सुवर्चसः ।\nपीनस्तनोरुजघना दिव्याभरणभूषिताः ॥"
+          "text": "सुकुमार्यश्च नार्यस्तं रममाणाः सुवर्चसः ।\nपीनस्तनोरुजघना दिव्याभरणभूषिताः ॥",
+          "meaning": {
+            "en": "Beloved women please his mind in a car like the sun, divine and going wherever desired, for a hundred ayutas of aeon-years."
+          }
         },
         {
           "n": 114,
-          "text": "रमयन्ति मनः कान्ता विमाने सूर्यसंनिभे ।\nसर्वकामगमे दिव्ये कल्पायुतशतं समाः ॥"
+          "text": "रमयन्ति मनः कान्ता विमाने सूर्यसंनिभे ।\nसर्वकामगमे दिव्ये कल्पायुतशतं समाः ॥",
+          "meaning": {
+            "en": "One who eats one meal on the twenty-ninth day, for twelve months always, devoted to his vow of truth,"
+          }
         },
         {
           "n": 115,
-          "text": "एकोनत्रिंशे दिवसे यः प्राशेदेकभोजनम् ।\nसदा द्वादश मासान्वै सत्यव्रतपरायणः ॥"
+          "text": "एकोनत्रिंशे दिवसे यः प्राशेदेकभोजनम् ।\nसदा द्वादश मासान्वै सत्यव्रतपरायणः ॥",
+          "meaning": {
+            "en": "gains auspicious divine worlds honoured by the king of the gods and the royal sages, and a divine car white as the moon."
+          }
         },
         {
           "n": 116,
-          "text": "तस्य लोकाः शुभा दिव्या देवराजर्षिपूजिताः ।\nविमानं चन्द्रशुभ्राभं दिव्यं समधिगच्छति ॥"
+          "text": "तस्य लोकाः शुभा दिव्या देवराजर्षिपूजिताः ।\nविमानं चन्द्रशुभ्राभं दिव्यं समधिगच्छति ॥",
+          "meaning": {
+            "en": "It is made of gold, adorned with all gems, filled with hosts of Apsaras and resounding with Gandharvas."
+          }
         },
         {
           "n": 117,
-          "text": "जातरूपमयं युक्तं सर्वरत्नविभूषितम् ।\nअप्सरोगणसंपूर्णं गन्धर्वैरभिनादितम् ॥"
+          "text": "जातरूपमयं युक्तं सर्वरत्नविभूषितम् ।\nअप्सरोगणसंपूर्णं गन्धर्वैरभिनादितम् ॥",
+          "meaning": {
+            "en": "There auspicious women in divine ornaments, charming, sweet and ardent, delight him."
+          }
         },
         {
           "n": 118,
-          "text": "तत्र चैनं शुभा नार्यो दिव्याभरणभूषिताः ।\nमनोभिरामा मधुरा रमयन्ति मदोत्कटाः ॥"
+          "text": "तत्र चैनं शुभा नार्यो दिव्याभरणभूषिताः ।\nमनोभिरामा मधुरा रमयन्ति मदोत्कटाः ॥",
+          "meaning": {
+            "en": "Enjoying pleasures, endowed with radiance and shining like Vaishvanara, he gleams like an immortal in a divine body."
+          }
         },
         {
           "n": 119,
-          "text": "भोगवांस्तेजसा युक्तो वैश्वानरसमप्रभः ।\nदिव्यो दिव्येन वपुषा भ्राजमान इवामरः ॥"
+          "text": "भोगवांस्तेजसा युक्तो वैश्वानरसमप्रभः ।\nदिव्यो दिव्येन वपुषा भ्राजमान इवामरः ॥",
+          "meaning": {
+            "en": "He goes to the worlds of the Vasus, Maruts, Sadhyas, Ashvins and Rudras, and to the world of Brahma."
+          }
         },
         {
           "n": 120,
-          "text": "वसूनां मरुतां चैव साध्यानामश्विनोस्तथा ।\nरुद्राणां च तथा लोकान्ब्रह्मलोकं च गच्छति ॥"
+          "text": "वसूनां मरुतां चैव साध्यानामश्विनोस्तथा ।\nरुद्राणां च तथा लोकान्ब्रह्मलोकं च गच्छति ॥",
+          "meaning": {
+            "en": "One of tranquil nature who eats a single meal once a month, for twelve months always, would reach the world of Brahma."
+          }
         },
         {
           "n": 121,
-          "text": "यस्तु मासे गते भुङ्क्ते एकभक्तं शमात्मकः ।\nसदा द्वादश मासान्वै ब्रह्मलोकमवाप्नुयात् ॥"
+          "text": "यस्तु मासे गते भुङ्क्ते एकभक्तं शमात्मकः ।\nसदा द्वादश मासान्वै ब्रह्मलोकमवाप्नुयात् ॥",
+          "meaning": {
+            "en": "Feeding on the essence of nectar, splendid and charming to all, he shines like the sun with radiance, body and glory."
+          }
         },
         {
           "n": 122,
-          "text": "सुधारसकृताहारः श्रीमान्सर्वमनोहरः ।\nतेजसा वपुषा लक्ष्म्या भ्राजते रश्मिवानिव ॥"
+          "text": "सुधारसकृताहारः श्रीमान्सर्वमनोहरः ।\nतेजसा वपुषा लक्ष्म्या भ्राजते रश्मिवानिव ॥",
+          "meaning": {
+            "en": "Wearing divine garlands and garments, anointed with divine perfumes, devoted to pleasures, the yogi knows no sorrows."
+          }
         },
         {
           "n": 123,
-          "text": "दिव्यमाल्याम्बरधरो दिव्यगन्धानुलेपनः ।\nसुखेष्वभिरतो योगी दुःखानामविजानकः ॥"
+          "text": "दिव्यमाल्याम्बरधरो दिव्यगन्धानुलेपनः ।\nसुखेष्वभिरतो योगी दुःखानामविजानकः ॥",
+          "meaning": {
+            "en": "Seated in his car, he is honoured by self-luminous women and constantly worshipped by daughters of the Rudras and of the divine sages."
+          }
         },
         {
           "n": 124,
-          "text": "स्वयंप्रभाभिर्नारीभिर्विमानस्थो महीयते ।\nरुद्रदेवर्षिकन्याभिः सततं चाभिपूज्यते ॥"
+          "text": "स्वयंप्रभाभिर्नारीभिर्विमानस्थो महीयते ।\nरुद्रदेवर्षिकन्याभिः सततं चाभिपूज्यते ॥",
+          "meaning": {
+            "en": "They are of many fine forms, many passions, many sweet ways of speaking and many delights."
+          }
         },
         {
           "n": 125,
-          "text": "नानाविधसुरूपाभिर्नानारागाभिरेव च ।\nनानामधुरभाषाभिर्नानारतिभिरेव च ॥"
+          "text": "नानाविधसुरूपाभिर्नानारागाभिरेव च ।\nनानामधुरभाषाभिर्नानारतिभिरेव च ॥",
+          "meaning": {
+            "en": "In a car shaped like a city, bright as the sun, moon-like behind him and cloud-like to the north,"
+          }
         },
         {
           "n": 126,
-          "text": "विमाने नगराकारे सूर्यवत्सूर्यसंनिभे ।\nपृष्ठतः सोमसंकाशे उदक्चैवाभ्रसंनिभे ॥"
+          "text": "विमाने नगराकारे सूर्यवत्सूर्यसंनिभे ।\nपृष्ठतः सोमसंकाशे उदक्चैवाभ्रसंनिभे ॥",
+          "meaning": {
+            "en": "reddish to the south, with a blue circle beneath and a wondrous gleam above, he lives there alone, honoured."
+          }
         },
         {
           "n": 127,
-          "text": "दक्षिणायां तु रक्ताभे अधस्तान्नीलमण्डले ।\nऊर्ध्वं चित्राभिसंकाशे नैको वसति पूजितः ॥"
+          "text": "दक्षिणायां तु रक्ताभे अधस्तान्नीलमण्डले ।\nऊर्ध्वं चित्राभिसंकाशे नैको वसति पूजितः ॥",
+          "meaning": {
+            "en": "For as many years as a thousand years of rain falling on Jambudvipa, that many years are declared for the wise one's stay in Brahma's world."
+          }
         },
         {
           "n": 128,
-          "text": "यावद्वर्षसहस्रं तु जम्बूद्वीपे प्रवर्षति ।\nतावत्संवत्सराः प्रोक्ता ब्रह्मलोकस्य धीमतः ॥"
+          "text": "यावद्वर्षसहस्रं तु जम्बूद्वीपे प्रवर्षति ।\nतावत्संवत्सराः प्रोक्ता ब्रह्मलोकस्य धीमतः ॥",
+          "meaning": {
+            "en": "As many drops as fall from the sky in the rainy season, so many years he lives with the splendour of an immortal."
+          }
         },
         {
           "n": 129,
-          "text": "विप्रुषश्चैव यावन्त्यो निपतन्ति नभस्तलात् ।\nवर्षासु वर्षतस्तावन्निवसत्यमरप्रभः ॥"
+          "text": "विप्रुषश्चैव यावन्त्यो निपतन्ति नभस्तलात् ।\nवर्षासु वर्षतस्तावन्निवसत्यमरप्रभः ॥",
+          "meaning": {
+            "en": "One who fasts for a month, for ten years, gains the best heaven; becoming a great sage, he goes there in his own body."
+          }
         },
         {
           "n": 130,
-          "text": "मासोपवासी वर्षैस्तु दशभिः स्वर्गमुत्तमम् ।\nमहर्षित्वमथासाद्य सशरीरगतिर्भवेत् ॥"
+          "text": "मासोपवासी वर्षैस्तु दशभिः स्वर्गमुत्तमम् ।\nमहर्षित्वमथासाद्य सशरीरगतिर्भवेत् ॥",
+          "meaning": {
+            "en": "A sage, self-controlled, master of his anger, always in command of belly and sexual desire, offering oblations to the fires, disciplined and attending the twilight worship,"
+          }
         },
         {
           "n": 131,
-          "text": "मुनिर्दान्तो जितक्रोधो जितशिश्नोदरः सदा ।\nजुह्वन्नग्नींश्च नियतः संध्योपासनसेविता ॥"
+          "text": "मुनिर्दान्तो जितक्रोधो जितशिश्नोदरः सदा ।\nजुह्वन्नग्नींश्च नियतः संध्योपासनसेविता ॥",
+          "meaning": {
+            "en": "and one who thus fasts for months with many observances and lives under the open sky: his dwelling is thus described."
+          }
         },
         {
           "n": 132,
-          "text": "बहुभिर्नियमैरेवं मासानश्नाति यो नरः ।\nअभ्रावकाशशीलश्च तस्य वासो निरुच्यते ॥"
+          "text": "बहुभिर्नियमैरेवं मासानश्नाति यो नरः ।\nअभ्रावकाशशीलश्च तस्य वासो निरुच्यते ॥",
+          "meaning": {
+            "en": "King, having gone to heaven in his own body like an immortal, he enjoys meritorious heaven as he wishes, in due order."
+          }
         },
         {
           "n": 133,
-          "text": "दिवं गत्वा शरीरेण स्वेन राजन्यथामरः ।\nस्वर्गं पुण्यं यथाकाममुपभुङ्क्ते यथाविधि ॥"
+          "text": "दिवं गत्वा शरीरेण स्वेन राजन्यथामरः ।\nस्वर्गं पुण्यं यथाकाममुपभुङ्क्ते यथाविधि ॥",
+          "meaning": {
+            "en": "Best of Bharatas, I have thus explained to you in order the highest rule of sacrifices, whose substance is the fruit of fasting."
+          }
         },
         {
           "n": 134,
-          "text": "एष ते भरतश्रेष्ठ यज्ञानां विधिरुत्तमः ।\nव्याख्यातो ह्यानुपूर्व्येण उपवासफलात्मकः ॥"
+          "text": "एष ते भरतश्रेष्ठ यज्ञानां विधिरुत्तमः ।\nव्याख्यातो ह्यानुपूर्व्येण उपवासफलात्मकः ॥",
+          "meaning": {
+            "en": "Partha, by keeping this fast, poor men may obtain the fruit of sacrifices and go to the highest state, if devoted to honouring gods and Brahmins, best of Bharatas."
+          }
         },
         {
           "n": 135,
-          "text": "दरिद्रैर्मनुजैः पार्थ प्राप्यं यज्ञफलं यथा ।\nउपवासमिमं कृत्वा गच्छेच्च परमां गतिम् ।\nदेवद्विजातिपूजायां रतो भरतसत्तम ॥"
+          "text": "दरिद्रैर्मनुजैः पार्थ प्राप्यं यज्ञफलं यथा ।\nउपवासमिमं कृत्वा गच्छेच्च परमां गतिम् ।\nदेवद्विजातिपूजायां रतो भरतसत्तम ॥",
+          "meaning": {
+            "en": "This rule of fasting has been fully described, for the disciplined, the vigilant, the pure and the great-souled,"
+          }
         },
         {
           "n": 136,
-          "text": "उपवासविधिस्त्वेष विस्तरेण प्रकीर्तितः ।\nनियतेष्वप्रमत्तेषु शौचवत्सु महात्मसु ॥"
+          "text": "उपवासविधिस्त्वेष विस्तरेण प्रकीर्तितः ।\nनियतेष्वप्रमत्तेषु शौचवत्सु महात्मसु ॥",
+          "meaning": {
+            "en": "for those free of hypocrisy and malice, of fixed resolve, steady and unshaken, Bharata; let there be no doubt in you about this."
+          }
         },
         {
           "n": 137,
-          "text": "दम्भद्रोहनिवृत्तेषु कृतबुद्धिषु भारत ।\nअचलेष्वप्रकम्पेषु मा ते भूदत्र संशयः ॥"
+          "text": "दम्भद्रोहनिवृत्तेषु कृतबुद्धिषु भारत ।\nअचलेष्वप्रकम्पेषु मा ते भूदत्र संशयः ॥",
+          "meaning": {
+            "en": "Do not let any doubt arise in you about this."
+          }
         }
       ]
     }

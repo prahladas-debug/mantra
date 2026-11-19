@@ -22,82 +22,142 @@
       "titleEn": "Mokshadharma Parva (Duties for liberation)",
       "verses": [
         {
-          "text": "युधिष्ठिर उवाच"
+          "text": "युधिष्ठिर उवाच",
+          "meaning": {
+            "en": "Yudhishthira said:"
+          }
         },
         {
           "n": 1,
-          "text": "किं कुर्वन्सुखमाप्नोति किं कुर्वन्दुःखमाप्नुते ।\nकिं कुर्वन्निर्भयो लोके सिद्धश्चरति भारत ॥"
+          "text": "किं कुर्वन्सुखमाप्नोति किं कुर्वन्दुःखमाप्नुते ।\nकिं कुर्वन्निर्भयो लोके सिद्धश्चरति भारत ॥",
+          "meaning": {
+            "en": "Doing what does one find happiness, doing what does one meet sorrow, and doing what does one go through the world fearless and accomplished, Bharata?"
+          }
         },
         {
-          "text": "भीष्म उवाच"
+          "text": "भीष्म उवाच",
+          "meaning": {
+            "en": "Bhishma said:"
+          }
         },
         {
           "n": 2,
-          "text": "दममेव प्रशंसन्ति वृद्धाः श्रुतिसमाधयः ।\nसर्वेषामेव वर्णानां ब्राह्मणस्य विशेषतः ॥"
+          "text": "दममेव प्रशंसन्ति वृद्धाः श्रुतिसमाधयः ।\nसर्वेषामेव वर्णानां ब्राह्मणस्य विशेषतः ॥",
+          "meaning": {
+            "en": "The elders, steeped in scripture, praise self-control above all, for all the classes and especially for a Brahmana."
+          }
         },
         {
           "n": 3,
-          "text": "नादान्तस्य क्रियासिद्धिर्यथावदुपलभ्यते ।\nक्रिया तपश्च वेदाश्च दमे सर्वं प्रतिष्ठितम् ॥"
+          "text": "नादान्तस्य क्रियासिद्धिर्यथावदुपलभ्यते ।\nक्रिया तपश्च वेदाश्च दमे सर्वं प्रतिष्ठितम् ॥",
+          "meaning": {
+            "en": "Success in rites is not truly found in one who lacks self-control; ritual, austerity and the Vedas all rest on self-control."
+          }
         },
         {
           "n": 4,
-          "text": "दमस्तेजो वर्धयति पवित्रं दम उच्यते ।\nविपाप्मा निर्भयो दान्तः पुरुषो विन्दते महत् ॥"
+          "text": "दमस्तेजो वर्धयति पवित्रं दम उच्यते ।\nविपाप्मा निर्भयो दान्तः पुरुषो विन्दते महत् ॥",
+          "meaning": {
+            "en": "Self-control increases one's radiance and is called purifying; the self-controlled man, free of sin and fear, gains greatness."
+          }
         },
         {
           "n": 5,
-          "text": "सुखं दान्तः प्रस्वपिति सुखं च प्रतिबुध्यते ।\nसुखं लोके विपर्येति मनश्चास्य प्रसीदति ॥"
+          "text": "सुखं दान्तः प्रस्वपिति सुखं च प्रतिबुध्यते ।\nसुखं लोके विपर्येति मनश्चास्य प्रसीदति ॥",
+          "meaning": {
+            "en": "The self-controlled sleeps happily and wakes happily; he moves happily in the world, and his mind is serene."
+          }
         },
         {
           "n": 6,
-          "text": "तेजो दमेन ध्रियते न तत्तीक्ष्णोऽधिगच्छति ।\nअमित्रांश्च बहून्नित्यं पृथगात्मनि पश्यति ॥"
+          "text": "तेजो दमेन ध्रियते न तत्तीक्ष्णोऽधिगच्छति ।\nअमित्रांश्च बहून्नित्यं पृथगात्मनि पश्यति ॥",
+          "meaning": {
+            "en": "Radiance is held in check by self-control; the harsh person does not attain it, and he sees many enemies apart from himself."
+          }
         },
         {
           "n": 7,
-          "text": "क्रव्याद्भ्य इव भूतानामदान्तेभ्यः सदा भयम् ।\nतेषां विप्रतिषेधार्थं राजा सृष्टः स्वयंभुवा ॥"
+          "text": "क्रव्याद्भ्य इव भूतानामदान्तेभ्यः सदा भयम् ।\nतेषां विप्रतिषेधार्थं राजा सृष्टः स्वयंभुवा ॥",
+          "meaning": {
+            "en": "As beings fear flesh-eaters, so the uncontrolled are always feared; to restrain them the Self-born created the king."
+          }
         },
         {
           "n": 8,
-          "text": "आश्रमेषु च सर्वेषु दम एव विशिष्यते ।\nयच्च तेषु फलं धर्मे भूयो दान्ते तदुच्यते ॥"
+          "text": "आश्रमेषु च सर्वेषु दम एव विशिष्यते ।\nयच्च तेषु फलं धर्मे भूयो दान्ते तदुच्यते ॥",
+          "meaning": {
+            "en": "In all the stages of life self-control stands out; the fruit of dharma in them is said to be greater in the self-controlled."
+          }
         },
         {
           "n": 9,
-          "text": "तेषां लिङ्गानि वक्ष्यामि येषां समुदयो दमः ।\nअकार्पण्यमसंरम्भः संतोषः श्रद्दधानता ॥"
+          "text": "तेषां लिङ्गानि वक्ष्यामि येषां समुदयो दमः ।\nअकार्पण्यमसंरम्भः संतोषः श्रद्दधानता ॥",
+          "meaning": {
+            "en": "I will tell the signs of those in whom self-control is fully present: freedom from meanness and from agitation, contentment, and faith."
+          }
         },
         {
           "n": 10,
-          "text": "अक्रोध आर्जवं नित्यं नातिवादो न मानिता ।\nगुरुपूजानसूया च दया भूतेष्वपैशुनम् ॥"
+          "text": "अक्रोध आर्जवं नित्यं नातिवादो न मानिता ।\nगुरुपूजानसूया च दया भूतेष्वपैशुनम् ॥",
+          "meaning": {
+            "en": "Freedom from anger, uprightness always, no boasting and no pride, honouring the teacher, freedom from envy, kindness to beings, and absence of slander."
+          }
         },
         {
           "n": 11,
-          "text": "जनवादमृषावादस्तुतिनिन्दाविवर्जनम् ।\nसाधुकामश्चास्पृहयन्नायाति प्रत्ययं नृषु ॥"
+          "text": "जनवादमृषावादस्तुतिनिन्दाविवर्जनम् ।\nसाधुकामश्चास्पृहयन्नायाति प्रत्ययं नृषु ॥",
+          "meaning": {
+            "en": "Avoiding gossip, falsehood, praise and blame; wishing good to the good, free of craving, he does not rely on people."
+          }
         },
         {
           "n": 12,
-          "text": "अवैरकृत्सूपचारः समो निन्दाप्रशंसयोः ।\nसुवृत्तः शीलसंपन्नः प्रसन्नात्मात्मवान्बुधः ।\nप्राप्य लोके च सत्कारं स्वर्गं वै प्रेत्य गच्छति ॥"
+          "text": "अवैरकृत्सूपचारः समो निन्दाप्रशंसयोः ।\nसुवृत्तः शीलसंपन्नः प्रसन्नात्मात्मवान्बुधः ।\nप्राप्य लोके च सत्कारं स्वर्गं वै प्रेत्य गच्छति ॥",
+          "meaning": {
+            "en": "He makes no enmity, serves well, is even toward blame and praise, of good conduct and character, serene and self-possessed, wise; he gains honour in the world and goes to heaven after death."
+          }
         },
         {
           "n": 13,
-          "text": "सर्वभूतहिते युक्तो न स्मयाद्द्वेष्टि वै जनम् ।\nमहाह्रद इवाक्षोभ्य प्रज्ञातृप्तः प्रसीदति ॥"
+          "text": "सर्वभूतहिते युक्तो न स्मयाद्द्वेष्टि वै जनम् ।\nमहाह्रद इवाक्षोभ्य प्रज्ञातृप्तः प्रसीदति ॥",
+          "meaning": {
+            "en": "Devoted to the welfare of all beings, he does not hate anyone from pride; like a great deep lake, unshaken, content with wisdom, he is serene."
+          }
         },
         {
           "n": 14,
-          "text": "अभयं सर्वभूतेभ्यः सर्वेषामभयं यतः ।\nनमस्यः सर्वभूतानां दान्तो भवति ज्ञानवान् ॥"
+          "text": "अभयं सर्वभूतेभ्यः सर्वेषामभयं यतः ।\nनमस्यः सर्वभूतानां दान्तो भवति ज्ञानवान् ॥",
+          "meaning": {
+            "en": "He gives safety to all beings, and from him all are safe; the self-controlled man of knowledge becomes worthy of the homage of all beings."
+          }
         },
         {
           "n": 15,
-          "text": "न हृष्यति महत्यर्थे व्यसने च न शोचति ।\nस वै परिमितप्रज्ञः स दान्तो द्विज उच्यते ॥"
+          "text": "न हृष्यति महत्यर्थे व्यसने च न शोचति ।\nस वै परिमितप्रज्ञः स दान्तो द्विज उच्यते ॥",
+          "meaning": {
+            "en": "He does not rejoice at great gain nor grieve in calamity; he is of measured wisdom, and he is called a self-controlled twice-born."
+          }
         },
         {
           "n": 16,
-          "text": "कर्मभिः श्रुतसंपन्नः सद्भिराचरितैः शुभैः ।\nसदैव दमसंयुक्तस्तस्य भुङ्क्ते महत्फलम् ॥"
+          "text": "कर्मभिः श्रुतसंपन्नः सद्भिराचरितैः शुभैः ।\nसदैव दमसंयुक्तस्तस्य भुङ्क्ते महत्फलम् ॥",
+          "meaning": {
+            "en": "One endowed with learning and good deeds, following the practices of the good, and always joined with self-control, enjoys a great fruit."
+          }
         },
         {
           "n": 17,
-          "text": "अनसूया क्षमा शान्तिः संतोषः प्रियवादिता ।\nसत्यं दानमनायासो नैष मार्गो दुरात्मनाम् ॥"
+          "text": "अनसूया क्षमा शान्तिः संतोषः प्रियवादिता ।\nसत्यं दानमनायासो नैष मार्गो दुरात्मनाम् ॥",
+          "meaning": {
+            "en": "Freedom from envy, patience, tranquillity, contentment, pleasant speech, truth, giving and freedom from strain: this is not the path of the evil-minded."
+          }
         },
         {
           "n": 18,
-          "text": "कामक्रोधौ वशे कृत्वा ब्रह्मचारी जितेन्द्रियः ।\nविक्रम्य घोरे तपसि ब्राह्मणः संशितव्रतः ।\nकालाकाङ्क्षी चरेल्लोकान्निरपाय इवात्मवान् ॥"
+          "text": "कामक्रोधौ वशे कृत्वा ब्रह्मचारी जितेन्द्रियः ।\nविक्रम्य घोरे तपसि ब्राह्मणः संशितव्रतः ।\nकालाकाङ्क्षी चरेल्लोकान्निरपाय इवात्मवान् ॥",
+          "meaning": {
+            "en": "Having brought desire and anger under control, a celibate who has conquered his senses, a Brahmana of firm vows, striving in fierce austerity and awaiting the proper time, should wander the worlds as one self-possessed and secure."
+          }
         }
       ]
     }

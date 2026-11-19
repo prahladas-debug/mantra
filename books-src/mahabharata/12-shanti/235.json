@@ -22,115 +22,227 @@
       "titleEn": "Mokshadharma Parva (Duties for liberation)",
       "verses": [
         {
-          "text": "व्यास उवाच"
+          "text": "व्यास उवाच",
+          "meaning": {
+            "en": "Vyasa said:",
+            "hi": "व्यास बोले—"
+          }
         },
         {
           "n": 1,
-          "text": "द्वितीयमायुषो भागं गृहमेधी गृहे वसेत् ।\nधर्मलब्धैर्युतो दारैरग्नीनुत्पाद्य सुव्रतः ॥"
+          "text": "द्वितीयमायुषो भागं गृहमेधी गृहे वसेत् ।\nधर्मलब्धैर्युतो दारैरग्नीनुत्पाद्य सुव्रतः ॥",
+          "meaning": {
+            "en": "For the second part of life the householder should dwell at home, joined to a wife won by dharma, having lit the fires, firm in his vows.",
+            "hi": "आयु के दूसरे भाग में गृहस्थ घर में निवास करे, धर्म से प्राप्त पत्नी के साथ, अग्नियों को प्रज्वलित करके, व्रतों में दृढ़ रहकर।"
+          }
         },
         {
           "n": 2,
-          "text": "गृहस्थवृत्तयश्चैव चतस्रः कविभिः स्मृताः ।\nकुसूलधान्यः प्रथमः कुम्भीधान्यस्त्वनन्तरम् ॥"
+          "text": "गृहस्थवृत्तयश्चैव चतस्रः कविभिः स्मृताः ।\nकुसूलधान्यः प्रथमः कुम्भीधान्यस्त्वनन्तरम् ॥",
+          "meaning": {
+            "en": "The wise recall four livelihoods for householders: first the one with a granary of grain, next the one with a jar of grain,",
+            "hi": "कवियों ने गृहस्थ की जीविका के चार प्रकार बताए हैं: पहली, जिसके पास अन्न का कोठार हो; फिर वह, जिसके पास घड़े में अन्न हो;"
+          }
         },
         {
           "n": 3,
-          "text": "अश्वस्तनोऽथ कापोतीमाश्रितो वृत्तिमाहरेत् ।\nतेषां परः परो ज्यायान्धर्मतो लोकजित्तमः ॥"
+          "text": "अश्वस्तनोऽथ कापोतीमाश्रितो वृत्तिमाहरेत् ।\nतेषां परः परो ज्यायान्धर्मतो लोकजित्तमः ॥",
+          "meaning": {
+            "en": "then the one who keeps nothing for tomorrow, and the one who lives on gleaning like a dove. Each later one is better, more righteous and a better winner of worlds.",
+            "hi": "फिर वह, जो कल के लिए कुछ न रखे; और वह, जो कबूतर की तरह बीनकर जीविका चलाए। इनमें हर बाद वाला पहले से श्रेष्ठ, अधिक धर्मिष्ठ और लोकों को जीतने वाला है।"
+          }
         },
         {
           "n": 4,
-          "text": "षट्कर्मा वर्तयत्येकस्त्रिभिरन्यः प्रवर्तते ।\nद्वाभ्यामेकश्चतुर्थस्तु ब्रह्मसत्रे व्यवस्थितः ।\nगृहमेधिव्रतान्यत्र महान्तीह प्रचक्षते ॥"
+          "text": "षट्कर्मा वर्तयत्येकस्त्रिभिरन्यः प्रवर्तते ।\nद्वाभ्यामेकश्चतुर्थस्तु ब्रह्मसत्रे व्यवस्थितः ।\nगृहमेधिव्रतान्यत्र महान्तीह प्रचक्षते ॥",
+          "meaning": {
+            "en": "One lives by six works, another by three, another by two, and the fourth is fixed in the sacrifice of Brahman; the great vows of the householder are described here.",
+            "hi": "एक छह कर्मों से जीवन चलाता है, दूसरा तीन से; एक दो से, और चौथा ब्रह्म-यज्ञ में स्थित रहता है। गृहस्थ के महान व्रत यहाँ बताए गए हैं।"
+          }
         },
         {
           "n": 5,
-          "text": "नात्मार्थं पाचयेदन्नं न वृथा घातयेत्पशून् ।\nप्राणी वा यदि वाप्राणी संस्कारं यजुषार्हति ॥"
+          "text": "नात्मार्थं पाचयेदन्नं न वृथा घातयेत्पशून् ।\nप्राणी वा यदि वाप्राणी संस्कारं यजुषार्हति ॥",
+          "meaning": {
+            "en": "He should not cook food for himself alone or kill animals in vain; any creature, living or not, deserves its rite by a Yajus mantra.",
+            "hi": "अपने लिए अन्न न पकाए, और व्यर्थ पशुओं का वध न कराए; प्राणी हो या अप्राणी, यजुर्वेद के मंत्र से ही उसका संस्कार होना चाहिए।"
+          }
         },
         {
           "n": 6,
-          "text": "न दिवा प्रस्वपेज्जातु न पूर्वापररात्रयोः ।\nन भुञ्जीतान्तराकाले नानृतावाह्वयेत्स्त्रियम् ॥"
+          "text": "न दिवा प्रस्वपेज्जातु न पूर्वापररात्रयोः ।\nन भुञ्जीतान्तराकाले नानृतावाह्वयेत्स्त्रियम् ॥",
+          "meaning": {
+            "en": "He should never sleep by day nor in the first or last parts of the night, never eat between meals, nor call his wife out of season.",
+            "hi": "दिन में कभी न सोए, न पूर्वरात्रि और उत्तररात्रि में; भोजन के बीच में न खाए, और ऋतु के बिना पत्नी को न बुलाए।"
+          }
         },
         {
           "n": 7,
-          "text": "नास्यानश्नन्वसेद्विप्रो गृहे कश्चिदपूजितः ।\nतथास्यातिथयः पूज्या हव्यकव्यवहाः सदा ॥"
+          "text": "नास्यानश्नन्वसेद्विप्रो गृहे कश्चिदपूजितः ।\nतथास्यातिथयः पूज्या हव्यकव्यवहाः सदा ॥",
+          "meaning": {
+            "en": "No brahmin should stay in his house unfed and unhonoured, and guests who carry the offerings to gods and ancestors must always be honoured.",
+            "hi": "कोई ब्राह्मण उसके घर में भूखा और बिना सम्मान के न रहे; और जो अतिथि देवताओं और पितरों के लिए हव्य-कव्य पहुँचाते हैं, उनका सदा सम्मान करना चाहिए।"
+          }
         },
         {
           "n": 8,
-          "text": "वेदविद्याव्रतस्नाताः श्रोत्रिया वेदपारगाः ।\nस्वधर्मजीविनो दान्ताः क्रियावन्तस्तपस्विनः ।\nतेषां हव्यं च कव्यं चाप्यर्हणार्थं विधीयते ॥"
+          "text": "वेदविद्याव्रतस्नाताः श्रोत्रिया वेदपारगाः ।\nस्वधर्मजीविनो दान्ताः क्रियावन्तस्तपस्विनः ।\nतेषां हव्यं च कव्यं चाप्यर्हणार्थं विधीयते ॥",
+          "meaning": {
+            "en": "They are those who are bathed after Vedic study and vow, learned in the Veda, masters of it, living by their own duty, self-controlled, active and austere; offerings for the gods and the ancestors are prescribed to honour them.",
+            "hi": "वेद-विद्या और व्रत से स्नान किए हुए, श्रोत्रिय, वेद के पारगामी, अपने धर्म से जीविका चलाने वाले, संयमी, कर्मनिष्ठ और तपस्वी—उनके सम्मान के लिए हव्य और कव्य का विधान है।"
+          }
         },
         {
           "n": 9,
-          "text": "न खरैः संप्रयातस्य स्वधर्माज्ञानकस्य च ।\nअपविद्धाग्निहोत्रस्य गुरोर्वालीककारिणः ॥"
+          "text": "न खरैः संप्रयातस्य स्वधर्माज्ञानकस्य च ।\nअपविद्धाग्निहोत्रस्य गुरोर्वालीककारिणः ॥",
+          "meaning": {
+            "en": "Not for one who travels with donkeys, who does not know his own duty, who has cast away the fire sacrifice, or who deceives his teacher.",
+            "hi": "गधों के साथ यात्रा करने वाले, अपने धर्म को न जानने वाले, अग्निहोत्र त्यागने वाले, या गुरु से झूठ बोलने वाले को (यह हव्य-कव्य) नहीं दिया जाना चाहिए।"
+          }
         },
         {
           "n": 10,
-          "text": "संविभागोऽत्र भूतानां सर्वेषामेव शिष्यते ।\nतथैवापचमानेभ्यः प्रदेयं गृहमेधिना ॥"
+          "text": "संविभागोऽत्र भूतानां सर्वेषामेव शिष्यते ।\nतथैवापचमानेभ्यः प्रदेयं गृहमेधिना ॥",
+          "meaning": {
+            "en": "Here a share is to be left for all beings; so too the householder must give to those who cannot cook.",
+            "hi": "यहाँ सभी प्राणियों का हिस्सा निश्चित है; उसी प्रकार गृहस्थ को उनको भी देना चाहिए जो अपने लिए नहीं पका सकते।"
+          }
         },
         {
           "n": 11,
-          "text": "विघसाशी भवेन्नित्यं नित्यं चामृतभोजनः ।\nअमृतं यज्ञशेषं स्याद्भोजनं हविषा समम् ।\nभृत्यशेषं तु योऽश्नाति तमाहुर्विघसाशिनम् ॥"
+          "text": "विघसाशी भवेन्नित्यं नित्यं चामृतभोजनः ।\nअमृतं यज्ञशेषं स्याद्भोजनं हविषा समम् ।\nभृत्यशेषं तु योऽश्नाति तमाहुर्विघसाशिनम् ॥",
+          "meaning": {
+            "en": "He should always eat the remains of the guests' meal, always an immortal food; the remains of sacrifice are the immortal food, equal to the offering; one who eats what servants leave is said to eat the remains.",
+            "hi": "वह सदा अतिथियों के भोजन के शेष का सेवन करे, और सदा अमृत-भोजन करे। यज्ञ का शेष अमृत है, और हविष्य के समान है; जो सेवकों के छोड़े हुए अन्न को खाता है, उसे विघसाशी (शेष खाने वाला) कहा जाता है।"
+          }
         },
         {
           "n": 12,
-          "text": "स्वदारनिरतो दान्तो ह्यनसूयुर्जितेन्द्रियः ।\nऋत्विक्पुरोहिताचार्यैर्मातुलातिथिसंश्रितैः ॥"
+          "text": "स्वदारनिरतो दान्तो ह्यनसूयुर्जितेन्द्रियः ।\nऋत्विक्पुरोहिताचार्यैर्मातुलातिथिसंश्रितैः ॥",
+          "meaning": {
+            "en": "Devoted to his own wife, self-controlled, free of envy, with senses conquered, he should not quarrel with priests, house-priests and teachers, with maternal uncles and guests, dependants,",
+            "hi": "अपनी पत्नी में रत, संयमी, ईर्ष्या-रहित और इंद्रियों को जीतने वाला, ऋत्विज, पुरोहित और आचार्यों से, मामा और अतिथियों के आश्रित लोगों से,"
+          }
         },
         {
           "n": 13,
-          "text": "वृद्धबालातुरैर्वैद्यैर्ज्ञातिसंबन्धिबान्धवैः ।\nमातापितृभ्यां जामीभिर्भ्रात्रा पुत्रेण भार्यया ॥"
+          "text": "वृद्धबालातुरैर्वैद्यैर्ज्ञातिसंबन्धिबान्धवैः ।\nमातापितृभ्यां जामीभिर्भ्रात्रा पुत्रेण भार्यया ॥",
+          "meaning": {
+            "en": "the old, the young, the sick, physicians, kinsmen, in-laws and relatives, mother and father, sisters, brother, son, wife,",
+            "hi": "वृद्धों, बालकों, रोगियों, वैद्यों, संबंधियों, श्वसुर-पक्ष और बंधुओं से, माता-पिता से, बहनों से, भाई से, पुत्र से, पत्नी से,"
+          }
         },
         {
           "n": 14,
-          "text": "दुहित्रा दासवर्गेण विवादं न समाचरेत् ।\nएतान्विमुच्य संवादान्सर्वपापैः प्रमुच्यते ॥"
+          "text": "दुहित्रा दासवर्गेण विवादं न समाचरेत् ।\nएतान्विमुच्य संवादान्सर्वपापैः प्रमुच्यते ॥",
+          "meaning": {
+            "en": "daughter and the group of servants. Avoiding these quarrels, he is freed from all sins.",
+            "hi": "पुत्री और दास-वर्ग से विवाद न करे। इन झगड़ों को छोड़ने वाला सभी पापों से मुक्त हो जाता है।"
+          }
         },
         {
           "n": 15,
-          "text": "एतैर्जितैस्तु जयति सर्वाँल्लोकान्न संशयः ।\nआचार्यो ब्रह्मलोकेशः प्राजापत्ये पिता प्रभुः ॥"
+          "text": "एतैर्जितैस्तु जयति सर्वाँल्लोकान्न संशयः ।\nआचार्यो ब्रह्मलोकेशः प्राजापत्ये पिता प्रभुः ॥",
+          "meaning": {
+            "en": "When these are won over, he conquers all the worlds without doubt: the teacher is lord of Brahma's world, the father of Prajapati's.",
+            "hi": "इनको जीत लेने पर वह निस्संदेह सभी लोकों को जीत लेता है; आचार्य ब्रह्मलोक के स्वामी हैं, और प्रजापति के लोक के स्वामी पिता हैं।"
+          }
         },
         {
           "n": 16,
-          "text": "अतिथिस्त्विन्द्रलोकेशो देवलोकस्य चर्त्विजः ।\nजामयोऽप्सरसां लोके वैश्वदेवे तु ज्ञातयः ॥"
+          "text": "अतिथिस्त्विन्द्रलोकेशो देवलोकस्य चर्त्विजः ।\nजामयोऽप्सरसां लोके वैश्वदेवे तु ज्ञातयः ॥",
+          "meaning": {
+            "en": "The guest is lord of Indra's world, priests of the gods' world, sisters of the apsarases' world, and relatives of the Vishvedevas' world.",
+            "hi": "अतिथि इंद्रलोक के स्वामी हैं, ऋत्विज देवलोक के; बहनें अप्सराओं के लोक में, और संबंधी विश्वेदेवों के लोक में हैं।"
+          }
         },
         {
           "n": 17,
-          "text": "संबन्धिबान्धवा दिक्षु पृथिव्यां मातृमातुलौ ।\nवृद्धबालातुरकृशास्त्वाकाशे प्रभविष्णवः ॥"
+          "text": "संबन्धिबान्धवा दिक्षु पृथिव्यां मातृमातुलौ ।\nवृद्धबालातुरकृशास्त्वाकाशे प्रभविष्णवः ॥",
+          "meaning": {
+            "en": "In-laws and kin are lords of the directions, the mother and mother's brother of the earth, and the old, young, sick and weak have power in the sky.",
+            "hi": "संबंधी और बंधु दिशाओं के स्वामी हैं; पृथ्वी पर माता और मामा हैं; वृद्ध, बालक, रोगी और दुर्बल आकाश में प्रभावशाली हैं।"
+          }
         },
         {
           "n": 18,
-          "text": "भ्राता ज्येष्ठः समः पित्रा भार्या पुत्रः स्वका तनुः ।\nछाया स्वा दाशवर्गस्तु दुहिता कृपणं परम् ॥"
+          "text": "भ्राता ज्येष्ठः समः पित्रा भार्या पुत्रः स्वका तनुः ।\nछाया स्वा दाशवर्गस्तु दुहिता कृपणं परम् ॥",
+          "meaning": {
+            "en": "The elder brother is like a father, the wife and son are one's own body, servants are one's shadow, and a daughter is a pitiable one.",
+            "hi": "बड़ा भाई पिता के समान है, पत्नी और पुत्र अपना ही शरीर हैं, सेवक अपनी छाया हैं, और पुत्री अत्यंत दीन है।"
+          }
         },
         {
           "n": 19,
-          "text": "तस्मादेतैरधिक्षिप्तः सहेन्नित्यमसंज्वरः ।\nगृहधर्मरतो विद्वान्धर्मनित्यो जितक्लमः ॥"
+          "text": "तस्मादेतैरधिक्षिप्तः सहेन्नित्यमसंज्वरः ।\nगृहधर्मरतो विद्वान्धर्मनित्यो जितक्लमः ॥",
+          "meaning": {
+            "en": "So, though insulted by these, he should always bear it without fever of anger, devoted to household dharma, learned, always righteous and untired.",
+            "hi": "इसलिए इनके द्वारा अपमानित होकर भी वह सदा सहन करे, क्रोध की ज्वाला में न जले; गृहस्थ-धर्म में लगा, विद्वान, नित्य धर्मनिष्ठ और थकान को जीतने वाला रहे।"
+          }
         },
         {
           "n": 20,
-          "text": "न चार्थबद्धः कर्माणि धर्मं वा कंचिदाचरेत् ।\nगृहस्थवृत्तयस्तिस्रस्तासां निःश्रेयसं परम् ॥"
+          "text": "न चार्थबद्धः कर्माणि धर्मं वा कंचिदाचरेत् ।\nगृहस्थवृत्तयस्तिस्रस्तासां निःश्रेयसं परम् ॥",
+          "meaning": {
+            "en": "He should not do any actions or dharma bound by wealth. Of the three livelihoods of the householder, the highest good lies beyond them.",
+            "hi": "धन से बँधा हुआ होकर वह कर्म या कोई धर्म न करे। गृहस्थ की तीन जीविकाएँ हैं; उनसे परे परम कल्याण है।"
+          }
         },
         {
           "n": 21,
-          "text": "परस्परं तथैवाहुश्चातुराश्रम्यमेव तत् ।\nये चोक्ता नियमास्तेषां सर्वं कार्यं बुभूषता ॥"
+          "text": "परस्परं तथैवाहुश्चातुराश्रम्यमेव तत् ।\nये चोक्ता नियमास्तेषां सर्वं कार्यं बुभूषता ॥",
+          "meaning": {
+            "en": "They say these are mutually bound and make up the four stages; one who wants to prosper should observe all the rules stated for them.",
+            "hi": "परस्पर जुड़े होने के कारण ये चारों आश्रम ही हैं, ऐसा कहा गया है; जो भी नियम उनके लिए कहे गए हैं, उन सबका पालन उसे करना चाहिए जो उन्नति चाहता है।"
+          }
         },
         {
           "n": 22,
-          "text": "कुम्भीधान्यैरुञ्छशिलैः कापोतीं चास्थितैस्तथा ।\nयस्मिंश्चैते वसन्त्यर्हास्तद्राष्ट्रमभिवर्धते ॥"
+          "text": "कुम्भीधान्यैरुञ्छशिलैः कापोतीं चास्थितैस्तथा ।\nयस्मिंश्चैते वसन्त्यर्हास्तद्राष्ट्रमभिवर्धते ॥",
+          "meaning": {
+            "en": "The kingdom where those who live on jars of grain, on gleaning of ears, and on dove-like gleaning dwell, worthy, prospers.",
+            "hi": "जिस राज्य में कुंभी-धान्य वाले, उञ्छ-शिला (बाल बीनकर) वाले और कपोती वृत्ति वाले योग्य लोग निवास करते हैं, वह राज्य समृद्ध होता है।"
+          }
         },
         {
           "n": 23,
-          "text": "दश पूर्वान्दश परान्पुनाति च पितामहान् ।\nगृहस्थवृत्तयस्त्वेता वर्तयेद्यो गतव्यथः ॥"
+          "text": "दश पूर्वान्दश परान्पुनाति च पितामहान् ।\nगृहस्थवृत्तयस्त्वेता वर्तयेद्यो गतव्यथः ॥",
+          "meaning": {
+            "en": "He who lives by these livelihoods of the householder without distress purifies ten ancestors before and ten after, and his grandfathers.",
+            "hi": "जो इन गृहस्थ-जीविकाओं से बिना व्यथा के जीता है, वह आगे के दस और पीछे के दस पूर्वजों, और पितामहों को भी पवित्र कर देता है।"
+          }
         },
         {
           "n": 24,
-          "text": "स चक्रचरलोकानां सदृशीं प्राप्नुयाद्गतिम् ।\nयतेन्द्रियाणामथ वा गतिरेषा विधीयते ॥"
+          "text": "स चक्रचरलोकानां सदृशीं प्राप्नुयाद्गतिम् ।\nयतेन्द्रियाणामथ वा गतिरेषा विधीयते ॥",
+          "meaning": {
+            "en": "He reaches the same state as those who move in the world's cycle; or this is the path ordained for those with restrained senses.",
+            "hi": "वह चक्र में घूमने वाले लोकों के समान गति पाता है; अथवा संयमी इंद्रियों वालों के लिए यही मार्ग विहित है।"
+          }
         },
         {
           "n": 25,
-          "text": "स्वर्गलोको गृहस्थानामुदारमनसां हितः ।\nस्वर्गो विमानसंयुक्तो वेददृष्टः सुपुष्पितः ॥"
+          "text": "स्वर्गलोको गृहस्थानामुदारमनसां हितः ।\nस्वर्गो विमानसंयुक्तो वेददृष्टः सुपुष्पितः ॥",
+          "meaning": {
+            "en": "The world of heaven is the good of the householders of generous mind; it is a heaven with celestial cars, seen in the Veda, richly flowered.",
+            "hi": "उदार मन वाले गृहस्थों के लिए स्वर्गलोक हितकारी है; वह विमानों से युक्त, वेदों में देखा गया और अत्यंत पुष्पों से सुशोभित स्वर्ग है।"
+          }
         },
         {
           "n": 26,
-          "text": "स्वर्गलोके गृहस्थानां प्रतिष्ठा नियतात्मनाम् ।\nब्रह्मणा विहिता श्रेणिरेषा यस्मात्प्रमुच्यते ।\nद्वितीयं क्रमशः प्राप्य स्वर्गलोके महीयते ॥"
+          "text": "स्वर्गलोके गृहस्थानां प्रतिष्ठा नियतात्मनाम् ।\nब्रह्मणा विहिता श्रेणिरेषा यस्मात्प्रमुच्यते ।\nद्वितीयं क्रमशः प्राप्य स्वर्गलोके महीयते ॥",
+          "meaning": {
+            "en": "In the world of heaven householders of disciplined self have their place. This ladder was laid down by Brahma, and from it one is freed; having reached the second step in order, one is honoured in heaven.",
+            "hi": "स्वर्गलोक में संयमी आत्मा वाले गृहस्थों की प्रतिष्ठा है। यह सीढ़ी ब्रह्मा ने विहित की है, जिससे मनुष्य मुक्त होता है; दूसरे पायदान को क्रम से पाकर वह स्वर्गलोक में सम्मानित होता है।"
+          }
         },
         {
           "n": 27,
-          "text": "अतः परं परममुदारमाश्रमं\nतृतीयमाहुस्त्यजतां कलेवरम् ।\nवनौकसां गृहपतिनामनुत्तमं\nशृणुष्वैतत्क्लिष्टशरीरकारिणाम् ॥"
+          "text": "अतः परं परममुदारमाश्रमं\nतृतीयमाहुस्त्यजतां कलेवरम् ।\nवनौकसां गृहपतिनामनुत्तमं\nशृणुष्वैतत्क्लिष्टशरीरकारिणाम् ॥",
+          "meaning": {
+            "en": "Beyond this, they say, is the supreme, noble third stage, for those who leave the body: the highest of forest dwellers and householders. Hear this, as it concerns those who afflict their bodies.",
+            "hi": "इससे परे, उन्होंने तीसरे उत्तम आश्रम को शरीर त्यागने वालों के लिए बताया है—वनवासियों और गृहपतियों में सर्वश्रेष्ठ। अपने शरीर को कष्ट देने वालों के विषय में यह सुनो।"
+          }
         }
       ]
     }

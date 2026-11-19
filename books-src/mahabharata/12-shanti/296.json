@@ -22,210 +22,366 @@
       "titleEn": "Mokshadharma Parva (Duties for liberation)",
       "verses": [
         {
-          "text": "वसिष्ठ उवाच"
+          "text": "वसिष्ठ उवाच",
+          "meaning": {
+            "en": "Vasishtha said:"
+          }
         },
         {
           "n": 1,
-          "text": "अप्रबुद्धमथाव्यक्तमिमं गुणविधिं शृणु ।\nगुणान्धारयते ह्येषा सृजत्याक्षिपते तथा ॥"
+          "text": "अप्रबुद्धमथाव्यक्तमिमं गुणविधिं शृणु ।\nगुणान्धारयते ह्येषा सृजत्याक्षिपते तथा ॥",
+          "meaning": {
+            "en": "Now hear this rule of the qualities concerning the unawakened unmanifest: she holds the qualities, and she sends them forth and draws them back."
+          }
         },
         {
           "n": 2,
-          "text": "अजस्रं त्विह क्रीडार्थं विकुर्वन्ती नराधिप ।\nआत्मानं बहुधा कृत्वा तान्येव च विचक्षते ॥"
+          "text": "अजस्रं त्विह क्रीडार्थं विकुर्वन्ती नराधिप ।\nआत्मानं बहुधा कृत्वा तान्येव च विचक्षते ॥",
+          "meaning": {
+            "en": "Ceaselessly, king, she transforms herself here for play, making herself manifold, and those very forms are what they perceive."
+          }
         },
         {
           "n": 3,
-          "text": "एतदेवं विकुर्वाणां बुध्यमानो न बुध्यते ।\nअव्यक्तबोधनाच्चैव बुध्यमानं वदन्त्यपि ॥"
+          "text": "एतदेवं विकुर्वाणां बुध्यमानो न बुध्यते ।\nअव्यक्तबोधनाच्चैव बुध्यमानं वदन्त्यपि ॥",
+          "meaning": {
+            "en": "The awakening one does not awaken to her as she thus transforms; yet because of awakening to the unmanifest, they call him the awakening one."
+          }
         },
         {
           "n": 4,
-          "text": "न त्वेव बुध्यतेऽव्यक्तं सगुणं वाथ निर्गुणम् ।\nकदाचित्त्वेव खल्वेतदाहुरप्रतिबुद्धकम् ॥"
+          "text": "न त्वेव बुध्यतेऽव्यक्तं सगुणं वाथ निर्गुणम् ।\nकदाचित्त्वेव खल्वेतदाहुरप्रतिबुद्धकम् ॥",
+          "meaning": {
+            "en": "Still, he does not truly awaken to the unmanifest, whether with or without qualities; at times they indeed call this the unawakened."
+          }
         },
         {
           "n": 5,
-          "text": "बुध्यते यदि वाव्यक्तमेतद्वै पञ्चविंशकम् ।\nबुध्यमानो भवत्येष सङ्गात्मक इति श्रुतिः ॥"
+          "text": "बुध्यते यदि वाव्यक्तमेतद्वै पञ्चविंशकम् ।\nबुध्यमानो भवत्येष सङ्गात्मक इति श्रुतिः ॥",
+          "meaning": {
+            "en": "If the twenty-fifth does awaken to the unmanifest, then, as the tradition says, he becomes the awakening one, of the nature of attachment."
+          }
         },
         {
           "n": 6,
-          "text": "अनेनाप्रतिबुद्धेति वदन्त्यव्यक्तमच्युतम् ।\nअव्यक्तबोधनाच्चैव बुध्यमानं वदन्त्युत ॥"
+          "text": "अनेनाप्रतिबुद्धेति वदन्त्यव्यक्तमच्युतम् ।\nअव्यक्तबोधनाच्चैव बुध्यमानं वदन्त्युत ॥",
+          "meaning": {
+            "en": "By this they call the unmanifest imperishable \"unawakened\"; and because of awakening to the unmanifest they call him the awakening one."
+          }
         },
         {
           "n": 7,
-          "text": "पञ्चविंशं महात्मानं न चासावपि बुध्यते ।\nषड्विंशं विमलं बुद्धमप्रमेयं सनातनम् ॥"
+          "text": "पञ्चविंशं महात्मानं न चासावपि बुध्यते ।\nषड्विंशं विमलं बुद्धमप्रमेयं सनातनम् ॥",
+          "meaning": {
+            "en": "Nor does even he awaken to the great-souled twenty-fifth; the twenty-sixth is stainless, awakened, immeasurable and eternal."
+          }
         },
         {
           "n": 8,
-          "text": "सततं पञ्चविंशं च चतुर्विंशं च बुध्यते ।\nदृश्यादृश्ये ह्यनुगतमुभावेव महाद्युती ॥"
+          "text": "सततं पञ्चविंशं च चतुर्विंशं च बुध्यते ।\nदृश्यादृश्ये ह्यनुगतमुभावेव महाद्युती ॥",
+          "meaning": {
+            "en": "The twenty-sixth ever knows both the twenty-fifth and the twenty-fourth, the two great radiances that follow the seen and the unseen."
+          }
         },
         {
           "n": 9,
-          "text": "अव्यक्तं न तु तद्ब्रह्म बुध्यते तात केवलम् ।\nकेवलं पञ्चविंशं च चतुर्विंशं न पश्यति ॥"
+          "text": "अव्यक्तं न तु तद्ब्रह्म बुध्यते तात केवलम् ।\nकेवलं पञ्चविंशं च चतुर्विंशं न पश्यति ॥",
+          "meaning": {
+            "en": "But, dear one, that Brahman does not know the unmanifest alone; it is alone, and does not see the twenty-fifth or the twenty-fourth."
+          }
         },
         {
           "n": 10,
-          "text": "बुध्यमानो यदात्मानमन्योऽहमिति मन्यते ।\nतदा प्रकृतिमानेष भवत्यव्यक्तलोचनः ॥"
+          "text": "बुध्यमानो यदात्मानमन्योऽहमिति मन्यते ।\nतदा प्रकृतिमानेष भवत्यव्यक्तलोचनः ॥",
+          "meaning": {
+            "en": "When the awakening one thinks of himself, \"I am other,\" then he possesses Nature, with the eyes of the unmanifest."
+          }
         },
         {
           "n": 11,
-          "text": "बुध्यते च परां बुद्धिं विशुद्धाममलां यदा ।\nषड्विंशो राजशार्दूल तदा बुद्धत्वमाव्रजेत् ॥"
+          "text": "बुध्यते च परां बुद्धिं विशुद्धाममलां यदा ।\nषड्विंशो राजशार्दूल तदा बुद्धत्वमाव्रजेत् ॥",
+          "meaning": {
+            "en": "And when the twenty-sixth, tiger among kings, awakens to the supreme, pure, spotless intelligence, he then attains awakenedness."
+          }
         },
         {
           "n": 12,
-          "text": "ततस्त्यजति सोऽव्यक्तं सर्गप्रलयधर्मिणम् ।\nनिर्गुणः प्रकृतिं वेद गुणयुक्तामचेतनाम् ॥"
+          "text": "ततस्त्यजति सोऽव्यक्तं सर्गप्रलयधर्मिणम् ।\nनिर्गुणः प्रकृतिं वेद गुणयुक्तामचेतनाम् ॥",
+          "meaning": {
+            "en": "Then he abandons the unmanifest, which is subject to creation and dissolution, and, qualityless, knows Nature as endowed with qualities and unconscious."
+          }
         },
         {
           "n": 13,
-          "text": "ततः केवलधर्मासौ भवत्यव्यक्तदर्शनात् ।\nकेवलेन समागम्य विमुक्तोऽऽत्मानमाप्नुयात् ॥"
+          "text": "ततः केवलधर्मासौ भवत्यव्यक्तदर्शनात् ।\nकेवलेन समागम्य विमुक्तोऽऽत्मानमाप्नुयात् ॥",
+          "meaning": {
+            "en": "Then, through seeing the unmanifest, he becomes of the nature of aloneness; joined with the alone, being freed, he attains the Self."
+          }
         },
         {
           "n": 14,
-          "text": "एतत्तत्तत्त्वमित्याहुर्निस्तत्त्वमजरामरम् ।\nतत्त्वसंश्रयणादेतत्तत्त्ववन्न च मानद ।\nपञ्चविंशतितत्त्वानि प्रवदन्ति मनीषिणः ॥"
+          "text": "एतत्तत्तत्त्वमित्याहुर्निस्तत्त्वमजरामरम् ।\nतत्त्वसंश्रयणादेतत्तत्त्ववन्न च मानद ।\nपञ्चविंशतितत्त्वानि प्रवदन्ति मनीषिणः ॥",
+          "meaning": {
+            "en": "They call this the principle; the principle-less is ageless and deathless. Because it relies on principles it is not truly possessed of principles, honorable one; the wise speak of twenty-five principles."
+          }
         },
         {
           "n": 15,
-          "text": "न चैष तत्त्ववांस्तात निस्तत्त्वस्त्वेष बुद्धिमान् ।\nएष मुञ्चति तत्त्वं हि क्षिप्रं बुद्धस्य लक्षणम् ॥"
+          "text": "न चैष तत्त्ववांस्तात निस्तत्त्वस्त्वेष बुद्धिमान् ।\nएष मुञ्चति तत्त्वं हि क्षिप्रं बुद्धस्य लक्षणम् ॥",
+          "meaning": {
+            "en": "He is not possessed of principles, dear one; this wise one is principle-less. He quickly lets go of the principle; this is the mark of the awakened."
+          }
         },
         {
           "n": 16,
-          "text": "षड्विंशोऽहमिति प्राज्ञो गृह्यमाणोऽजरामरः ।\nकेवलेन बलेनैव समतां यात्यसंशयम् ॥"
+          "text": "षड्विंशोऽहमिति प्राज्ञो गृह्यमाणोऽजरामरः ।\nकेवलेन बलेनैव समतां यात्यसंशयम् ॥",
+          "meaning": {
+            "en": "\"I am the twenty-sixth,\" the wise one, held to be ageless and deathless, comes undoubtedly to equality by the strength of aloneness alone."
+          }
         },
         {
           "n": 17,
-          "text": "षड्विंशेन प्रबुद्धेन बुध्यमानोऽप्यबुद्धिमान् ।\nएतन्नानात्वमित्युक्तं सांख्यश्रुतिनिदर्शनात् ॥"
+          "text": "षड्विंशेन प्रबुद्धेन बुध्यमानोऽप्यबुद्धिमान् ।\nएतन्नानात्वमित्युक्तं सांख्यश्रुतिनिदर्शनात् ॥",
+          "meaning": {
+            "en": "Through the twenty-sixth, who is awakened, the one awakening yet unwise is told of; this is what is called manyness, from the illustration in the Sankhya tradition."
+          }
         },
         {
           "n": 18,
-          "text": "चेतनेन समेतस्य पञ्चविंशतिकस्य च ।\nएकत्वं वै भवत्यस्य यदा बुद्ध्या न बुध्यते ॥"
+          "text": "चेतनेन समेतस्य पञ्चविंशतिकस्य च ।\nएकत्वं वै भवत्यस्य यदा बुद्ध्या न बुध्यते ॥",
+          "meaning": {
+            "en": "When the twenty-fifth, joined with the conscious, does not awaken through intellect, oneness arises for him."
+          }
         },
         {
           "n": 19,
-          "text": "बुध्यमानोऽप्रबुद्धेन समतां याति मैथिल ।\nसङ्गधर्मा भवत्येष निःसङ्गात्मा नराधिप ॥"
+          "text": "बुध्यमानोऽप्रबुद्धेन समतां याति मैथिल ।\nसङ्गधर्मा भवत्येष निःसङ्गात्मा नराधिप ॥",
+          "meaning": {
+            "en": "The awakening one, king of Mithila, comes to equality with the unawakened; he becomes of the nature of attachment, whereas the other is of detached nature."
+          }
         },
         {
           "n": 20,
-          "text": "निःसङ्गात्मानमासाद्य षड्विंशकमजं विदुः ।\nविभुस्त्यजति चाव्यक्तं यदा त्वेतद्विबुध्यते ।\nचतुर्विंशमगाधं च षड्विंशस्य प्रबोधनात् ॥"
+          "text": "निःसङ्गात्मानमासाद्य षड्विंशकमजं विदुः ।\nविभुस्त्यजति चाव्यक्तं यदा त्वेतद्विबुध्यते ।\nचतुर्विंशमगाधं च षड्विंशस्य प्रबोधनात् ॥",
+          "meaning": {
+            "en": "Reaching the detached Self they know the unborn twenty-sixth. The all-pervading one abandons the unmanifest when he understands this, and the unfathomable twenty-fourth, through awakening to the twenty-sixth."
+          }
         },
         {
           "n": 21,
-          "text": "एष ह्यप्रतिबुद्धश्च बुध्यमानश्च तेऽनघ ।\nप्रोक्तो बुद्धश्च तत्त्वेन यथाश्रुतिनिदर्शनात् ।\nनानात्वैकत्वमेतावद्द्रष्टव्यं शास्त्रदृष्टिभिः ॥"
+          "text": "एष ह्यप्रतिबुद्धश्च बुध्यमानश्च तेऽनघ ।\nप्रोक्तो बुद्धश्च तत्त्वेन यथाश्रुतिनिदर्शनात् ।\nनानात्वैकत्वमेतावद्द्रष्टव्यं शास्त्रदृष्टिभिः ॥",
+          "meaning": {
+            "en": "This one, sinless king, has been described to you as unawakened, awakening and awakened, in truth, according to the tradition; so much of manyness and oneness is to be seen by those who see by the treatises."
+          }
         },
         {
           "n": 22,
-          "text": "मशकोदुम्बरे यद्वदन्यत्वं तद्वदेतयोः ।\nमत्स्योऽम्भसि यथा तद्वदन्यत्वमुपलभ्यते ॥"
+          "text": "मशकोदुम्बरे यद्वदन्यत्वं तद्वदेतयोः ।\nमत्स्योऽम्भसि यथा तद्वदन्यत्वमुपलभ्यते ॥",
+          "meaning": {
+            "en": "As the gnat and the fig tree are different, so are these two; as the fish in the water, so their otherness is perceived."
+          }
         },
         {
           "n": 23,
-          "text": "एवमेवावगन्तव्यं नानात्वैकत्वमेतयोः ।\nएतद्विमोक्ष इत्युक्तमव्यक्तज्ञानसंहितम् ॥"
+          "text": "एवमेवावगन्तव्यं नानात्वैकत्वमेतयोः ।\nएतद्विमोक्ष इत्युक्तमव्यक्तज्ञानसंहितम् ॥",
+          "meaning": {
+            "en": "In just this way the manyness and oneness of the two are to be understood; this is called liberation, joined with knowledge of the unmanifest."
+          }
         },
         {
           "n": 24,
-          "text": "पञ्चविंशतिकस्यास्य योऽयं देहेषु वर्तते ।\nएष मोक्षयितव्येति प्राहुरव्यक्तगोचरात् ॥"
+          "text": "पञ्चविंशतिकस्यास्य योऽयं देहेषु वर्तते ।\nएष मोक्षयितव्येति प्राहुरव्यक्तगोचरात् ॥",
+          "meaning": {
+            "en": "\"This one who dwells in the bodies, of the twenty-fifth, is to be freed,\" they say, from the range of the unmanifest."
+          }
         },
         {
           "n": 25,
-          "text": "सोऽयमेवं विमुच्येत नान्यथेति विनिश्चयः ।\nपरेण परधर्मा च भवत्येष समेत्य वै ॥"
+          "text": "सोऽयमेवं विमुच्येत नान्यथेति विनिश्चयः ।\nपरेण परधर्मा च भवत्येष समेत्य वै ॥",
+          "meaning": {
+            "en": "He is freed in just this way and not otherwise; this is settled. Joining with the supreme, he becomes of supreme nature."
+          }
         },
         {
           "n": 26,
-          "text": "विशुद्धधर्मा शुद्धेन बुद्धेन च स बुद्धिमान् ।\nविमुक्तधर्मा मुक्तेन समेत्य पुरुषर्षभ ॥"
+          "text": "विशुद्धधर्मा शुद्धेन बुद्धेन च स बुद्धिमान् ।\nविमुक्तधर्मा मुक्तेन समेत्य पुरुषर्षभ ॥",
+          "meaning": {
+            "en": "Joined with the pure, the awakened and the freed, O best of men, the wise one becomes pure in nature, awakened and freed in nature."
+          }
         },
         {
           "n": 27,
-          "text": "नियोगधर्मिणा चैव नियोगात्मा भवत्यपि ।\nविमोक्षिणा विमोक्षश्च समेत्येह तथा भवेत् ॥"
+          "text": "नियोगधर्मिणा चैव नियोगात्मा भवत्यपि ।\nविमोक्षिणा विमोक्षश्च समेत्येह तथा भवेत् ॥",
+          "meaning": {
+            "en": "By joining the one bound by duty he becomes bound to duty, and by joining the liberator he attains liberation here."
+          }
         },
         {
           "n": 28,
-          "text": "शुचिकर्मा शुचिश्चैव भवत्यमितदीप्तिमान् ।\nविमलात्मा च भवति समेत्य विमलात्मना ॥"
+          "text": "शुचिकर्मा शुचिश्चैव भवत्यमितदीप्तिमान् ।\nविमलात्मा च भवति समेत्य विमलात्मना ॥",
+          "meaning": {
+            "en": "He becomes pure in deeds and pure, of limitless splendor, and, joining the spotless Self, his own self becomes spotless."
+          }
         },
         {
           "n": 29,
-          "text": "केवलात्मा तथा चैव केवलेन समेत्य वै ।\nस्वतन्त्रश्च स्वतन्त्रेण स्वतन्त्रत्वमवाप्नुते ॥"
+          "text": "केवलात्मा तथा चैव केवलेन समेत्य वै ।\nस्वतन्त्रश्च स्वतन्त्रेण स्वतन्त्रत्वमवाप्नुते ॥",
+          "meaning": {
+            "en": "So, joined with the alone, he becomes alone in self, and joining the independent, the independent attains independence."
+          }
         },
         {
           "n": 30,
-          "text": "एतावदेतत्कथितं मया ते\nतथ्यं महाराज यथार्थतत्त्वम् ।\nअमत्सरत्वं प्रतिगृह्य चार्थं\nसनातनं ब्रह्म विशुद्धमाद्यम् ॥"
+          "text": "एतावदेतत्कथितं मया ते\nतथ्यं महाराज यथार्थतत्त्वम् ।\nअमत्सरत्वं प्रतिगृह्य चार्थं\nसनातनं ब्रह्म विशुद्धमाद्यम् ॥",
+          "meaning": {
+            "en": "This much I have told you, great king, truly, as the real principle: having accepted this meaning without envy, you have the eternal, pure and primal Brahman."
+          }
         },
         {
           "n": 31,
-          "text": "न वेदनिष्ठस्य जनस्य राज-\nन्प्रदेयमेतत्परमं त्वया भवेत् ।\nविवित्समानाय विबोधकारकं\nप्रबोधहेतोः प्रणतस्य शासनम् ॥"
+          "text": "न वेदनिष्ठस्य जनस्य राज-\nन्प्रदेयमेतत्परमं त्वया भवेत् ।\nविवित्समानाय विबोधकारकं\nप्रबोधहेतोः प्रणतस्य शासनम् ॥",
+          "meaning": {
+            "en": "King, you should not give this supreme teaching to a man not devoted to the Veda; it is for one who seeks to know and bows, an instruction that gives awakening for the sake of awakening."
+          }
         },
         {
           "n": 32,
-          "text": "न देयमेतच्च तथानृतात्मने\nशठाय क्लीबाय न जिह्मबुद्धये ।\nन पण्डितज्ञानपरोपतापिने\nदेयं त्वयेदं विनिबोध यादृशे ॥"
+          "text": "न देयमेतच्च तथानृतात्मने\nशठाय क्लीबाय न जिह्मबुद्धये ।\nन पण्डितज्ञानपरोपतापिने\nदेयं त्वयेदं विनिबोध यादृशे ॥",
+          "meaning": {
+            "en": "It should not be given to one false in spirit, nor to a rogue, a weakling or a crooked mind, nor to one who torments the learning of the wise. Understand to whom you should give it."
+          }
         },
         {
           "n": 33,
-          "text": "श्रद्धान्वितायाथ गुणान्विताय\nपरापवादाद्विरताय नित्यम् ।\nविशुद्धयोगाय बुधाय चैव\nक्रियावतेऽथ क्षमिणे हिताय ॥"
+          "text": "श्रद्धान्वितायाथ गुणान्विताय\nपरापवादाद्विरताय नित्यम् ।\nविशुद्धयोगाय बुधाय चैव\nक्रियावतेऽथ क्षमिणे हिताय ॥",
+          "meaning": {
+            "en": "Give it to one full of faith and virtue, always refraining from slander, of pure Yoga, wise, active, patient and well-wishing."
+          }
         },
         {
           "n": 34,
-          "text": "विविक्तशीलाय विधिप्रियाय\nविवादहीनाय बहुश्रुताय ।\nविजानते चैव न चाहितक्षमे\nदमे च शक्ताय शमे च देहिनाम् ॥"
+          "text": "विविक्तशीलाय विधिप्रियाय\nविवादहीनाय बहुश्रुताय ।\nविजानते चैव न चाहितक्षमे\nदमे च शक्ताय शमे च देहिनाम् ॥",
+          "meaning": {
+            "en": "Give it to one of secluded conduct, fond of rule, free of quarrel, widely learned, discerning, not tolerant of harm to others, and capable of self-control and of calm among embodied beings."
+          }
         },
         {
           "n": 35,
-          "text": "एतैर्गुणैर्हीनतमे न देय-\nमेतत्परं ब्रह्म विशुद्धमाहुः ।\nन श्रेयसा योक्ष्यति तादृशे कृतं\nधर्मप्रवक्तारमपात्रदानात् ॥"
+          "text": "एतैर्गुणैर्हीनतमे न देय-\nमेतत्परं ब्रह्म विशुद्धमाहुः ।\nन श्रेयसा योक्ष्यति तादृशे कृतं\nधर्मप्रवक्तारमपात्रदानात् ॥",
+          "meaning": {
+            "en": "This supreme pure Brahman should not be given to one lacking these qualities; one who gives to an unworthy person, speaking dharma, will not be joined with good."
+          }
         },
         {
           "n": 36,
-          "text": "पृथ्वीमिमां यद्यपि रत्नपूर्णां\nदद्यान्नदेयं त्विदमव्रताय ।\nजितेन्द्रियायैतदसंशयं ते\nभवेत्प्रदेयं परमं नरेन्द्र ॥"
+          "text": "पृथ्वीमिमां यद्यपि रत्नपूर्णां\nदद्यान्नदेयं त्विदमव्रताय ।\nजितेन्द्रियायैतदसंशयं ते\nभवेत्प्रदेयं परमं नरेन्द्र ॥",
+          "meaning": {
+            "en": "Even if one were to give this whole earth full of jewels, this is not to be given to one who keeps no vows; but to one of conquered senses, lord of men, this supreme teaching may undoubtedly be given."
+          }
         },
         {
           "n": 37,
-          "text": "कराल मा ते भयमस्तु किंचि-\nदेतच्छ्रुतं ब्रह्म परं त्वयाद्य ।\nयथावदुक्तं परमं पवित्रं\nनिःशोकमत्यन्तमनादिमध्यम् ॥"
+          "text": "कराल मा ते भयमस्तु किंचि-\nदेतच्छ्रुतं ब्रह्म परं त्वयाद्य ।\nयथावदुक्तं परमं पवित्रं\nनिःशोकमत्यन्तमनादिमध्यम् ॥",
+          "meaning": {
+            "en": "Karala, let you have no fear at all; you have today heard the supreme Brahman, stated truly, highest and purifying, free of sorrow, without beginning, middle or end."
+          }
         },
         {
           "n": 38,
-          "text": "अगाधजन्मामरणं च राज-\nन्निरामयं वीतभयं शिवं च ।\nसमीक्ष्य मोहं त्यज चाद्य सर्वं\nज्ञानस्य तत्त्वार्थमिदं विदित्वा ॥"
+          "text": "अगाधजन्मामरणं च राज-\nन्निरामयं वीतभयं शिवं च ।\nसमीक्ष्य मोहं त्यज चाद्य सर्वं\nज्ञानस्य तत्त्वार्थमिदं विदित्वा ॥",
+          "meaning": {
+            "en": "King, it is of fathomless birth and death, free of ailment, fearless and auspicious. Having considered it, abandon all delusion today, knowing this to be the truth of knowledge."
+          }
         },
         {
           "n": 39,
-          "text": "अवाप्तमेतद्धि पुरा सनातना-\nद्धिरण्यगर्भाद्गदतो नराधिप ।\nप्रसाद्य यत्नेन तमुग्रतेजसं\nसनातनं ब्रह्म यथाद्य वै त्वया ॥"
+          "text": "अवाप्तमेतद्धि पुरा सनातना-\nद्धिरण्यगर्भाद्गदतो नराधिप ।\nप्रसाद्य यत्नेन तमुग्रतेजसं\nसनातनं ब्रह्म यथाद्य वै त्वया ॥",
+          "meaning": {
+            "en": "King, this was obtained long ago from the eternal Hiranyagarbha as he spoke, by pleasing that fierce-splendored one with effort, just as you have today sought the eternal Brahman."
+          }
         },
         {
           "n": 40,
-          "text": "पृष्टस्त्वया चास्मि यथा नरेन्द्र\nतथा मयेदं त्वयि चोक्तमद्य ।\nतथावाप्तं ब्रह्मणो मे नरेन्द्र\nमहज्ज्ञानं मोक्षविदां पुराणम् ॥"
+          "text": "पृष्टस्त्वया चास्मि यथा नरेन्द्र\nतथा मयेदं त्वयि चोक्तमद्य ।\nतथावाप्तं ब्रह्मणो मे नरेन्द्र\nमहज्ज्ञानं मोक्षविदां पुराणम् ॥",
+          "meaning": {
+            "en": "As you asked me, king of men, so I have told you this today, just as I received from Brahma the great and ancient knowledge of those who know liberation."
+          }
         },
         {
-          "text": "भीष्म उवाच"
+          "text": "भीष्म उवाच",
+          "meaning": {
+            "en": "Bhishma said:"
+          }
         },
         {
           "n": 41,
-          "text": "एतदुक्तं परं ब्रह्म यस्मान्नावर्तते पुनः ।\nपञ्चविंशो महाराज परमर्षिनिदर्शनात् ॥"
+          "text": "एतदुक्तं परं ब्रह्म यस्मान्नावर्तते पुनः ।\nपञ्चविंशो महाराज परमर्षिनिदर्शनात् ॥",
+          "meaning": {
+            "en": "This supreme Brahman, from which there is no return, has been told, great king; the twenty-fifth is taught by the illustration of the great seers."
+          }
         },
         {
           "n": 42,
-          "text": "पुनरावृत्तिमाप्नोति परं ज्ञानमवाप्य च ।\nनावबुध्यति तत्त्वेन बुध्यमानोऽजरामरः ॥"
+          "text": "पुनरावृत्तिमाप्नोति परं ज्ञानमवाप्य च ।\nनावबुध्यति तत्त्वेन बुध्यमानोऽजरामरः ॥",
+          "meaning": {
+            "en": "One who has reached supreme knowledge yet returns again; the awakening one, ageless and deathless, does not truly awaken."
+          }
         },
         {
           "n": 43,
-          "text": "एतन्निःश्रेयसकरं ज्ञानानां ते परं मया ।\nकथितं तत्त्वतस्तात श्रुत्वा देवर्षितो नृप ॥"
+          "text": "एतन्निःश्रेयसकरं ज्ञानानां ते परं मया ।\nकथितं तत्त्वतस्तात श्रुत्वा देवर्षितो नृप ॥",
+          "meaning": {
+            "en": "This, the highest of knowledges, which brings the supreme good, I have told you truly, dear one, having heard it from the divine sage."
+          }
         },
         {
           "n": 44,
-          "text": "हिरण्यगर्भादृषिणा वसिष्ठेन महात्मना ।\nवसिष्ठादृषिशार्दूलान्नारदोऽवाप्तवानिदम् ॥"
+          "text": "हिरण्यगर्भादृषिणा वसिष्ठेन महात्मना ।\nवसिष्ठादृषिशार्दूलान्नारदोऽवाप्तवानिदम् ॥",
+          "meaning": {
+            "en": "From Hiranyagarbha the great-souled sage Vasishtha received it; from Vasishtha, tiger among sages, Narada received it."
+          }
         },
         {
           "n": 45,
-          "text": "नारदाद्विदितं मह्यमेतद्ब्रह्म सनातनम् ।\nमा शुचः कौरवेन्द्र त्वं श्रुत्वैतत्परमं पदम् ॥"
+          "text": "नारदाद्विदितं मह्यमेतद्ब्रह्म सनातनम् ।\nमा शुचः कौरवेन्द्र त्वं श्रुत्वैतत्परमं पदम् ॥",
+          "meaning": {
+            "en": "From Narada this eternal Brahman became known to me. Do not grieve, lord of the Kurus, having heard this supreme state."
+          }
         },
         {
           "n": 46,
-          "text": "येन क्षराक्षरे वित्ते न भयं तस्य विद्यते ।\nविद्यते तु भयं तस्य यो नैतद्वेत्ति पार्थिव ॥"
+          "text": "येन क्षराक्षरे वित्ते न भयं तस्य विद्यते ।\nविद्यते तु भयं तस्य यो नैतद्वेत्ति पार्थिव ॥",
+          "meaning": {
+            "en": "One who knows the perishable and imperishable has no fear; but fear belongs to the one, king, who does not know this."
+          }
         },
         {
           "n": 47,
-          "text": "अविज्ञानाच्च मूढात्मा पुनः पुनरुपद्रवन् ।\nप्रेत्य जातिसहस्राणि मरणान्तान्युपाश्नुते ॥"
+          "text": "अविज्ञानाच्च मूढात्मा पुनः पुनरुपद्रवन् ।\nप्रेत्य जातिसहस्राणि मरणान्तान्युपाश्नुते ॥",
+          "meaning": {
+            "en": "Through ignorance the deluded one, harassed again and again, after death undergoes thousands of births ending in death."
+          }
         },
         {
           "n": 48,
-          "text": "देवलोकं तथा तिर्यङ्मानुष्यमपि चाश्नुते ।\nयदि शुध्यति कालेन तस्मादज्ञानसागरात् ॥"
+          "text": "देवलोकं तथा तिर्यङ्मानुष्यमपि चाश्नुते ।\nयदि शुध्यति कालेन तस्मादज्ञानसागरात् ॥",
+          "meaning": {
+            "en": "He goes to the world of the gods, and also to animal and human birth, unless in time he is purified from that ocean of ignorance."
+          }
         },
         {
           "n": 49,
-          "text": "अज्ञानसागरो घोरो ह्यव्यक्तोऽगाध उच्यते ।\nअहन्यहनि मज्जन्ति यत्र भूतानि भारत ॥"
+          "text": "अज्ञानसागरो घोरो ह्यव्यक्तोऽगाध उच्यते ।\nअहन्यहनि मज्जन्ति यत्र भूतानि भारत ॥",
+          "meaning": {
+            "en": "The ocean of ignorance is terrible, called unmanifest and fathomless, in which beings sink day after day, Bharata."
+          }
         },
         {
           "n": 50,
-          "text": "यस्मादगाधादव्यक्तादुत्तीर्णस्त्वं सनातनात् ।\nतस्मात्त्वं विरजाश्चैव वितमस्कश्च पार्थिव ॥"
+          "text": "यस्मादगाधादव्यक्तादुत्तीर्णस्त्वं सनातनात् ।\nतस्मात्त्वं विरजाश्चैव वितमस्कश्च पार्थिव ॥",
+          "meaning": {
+            "en": "Since you have crossed over from that fathomless, eternal unmanifest, therefore you are free of dust and free of darkness, king."
+          }
         }
       ]
     }

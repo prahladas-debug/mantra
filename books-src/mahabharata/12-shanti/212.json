@@ -22,215 +22,374 @@
       "titleEn": "Mokshadharma Parva (Duties for liberation)",
       "verses": [
         {
-          "text": "भीष्म उवाच"
+          "text": "भीष्म उवाच",
+          "meaning": {
+            "en": "Bhishma said:"
+          }
         },
         {
           "n": 1,
-          "text": "जनको जनदेवस्तु ज्ञापितः परमर्षिणा ।\nपुनरेवानुपप्रच्छ सांपराये भवाभवौ ॥"
+          "text": "जनको जनदेवस्तु ज्ञापितः परमर्षिणा ।\nपुनरेवानुपप्रच्छ सांपराये भवाभवौ ॥",
+          "meaning": {
+            "en": "Janaka Janadeva, though taught by the great sage, asked once more about being and non-being in the life to come."
+          }
         },
         {
           "n": 2,
-          "text": "भगवन्यदिदं प्रेत्य संज्ञा भवति कस्यचित् ।\nएवं सति किमज्ञानं ज्ञानं वा किं करिष्यति ॥"
+          "text": "भगवन्यदिदं प्रेत्य संज्ञा भवति कस्यचित् ।\nएवं सति किमज्ञानं ज्ञानं वा किं करिष्यति ॥",
+          "meaning": {
+            "en": "'Lord, if a person has consciousness after death in this way, what will ignorance or knowledge accomplish?'"
+          }
         },
         {
           "n": 3,
-          "text": "सर्वमुच्छेदनिष्ठं स्यात्पश्य चैतद्द्विजोत्तम ।\nअप्रमत्तः प्रमत्तो वा किं विशेषं करिष्यति ॥"
+          "text": "सर्वमुच्छेदनिष्ठं स्यात्पश्य चैतद्द्विजोत्तम ।\nअप्रमत्तः प्रमत्तो वा किं विशेषं करिष्यति ॥",
+          "meaning": {
+            "en": "'If everything ends in annihilation, consider this, best of the twice-born: what difference will it make whether one is careful or careless?'"
+          }
         },
         {
           "n": 4,
-          "text": "असंसर्गो हि भूतेषु संसर्गो वा विनाशिषु ।\nकस्मै क्रियेत कल्पेन निश्चयः कोऽत्र तत्त्वतः ॥"
+          "text": "असंसर्गो हि भूतेषु संसर्गो वा विनाशिषु ।\nकस्मै क्रियेत कल्पेन निश्चयः कोऽत्र तत्त्वतः ॥",
+          "meaning": {
+            "en": "'Non-attachment among beings, or attachment among perishable things: for whom would it be done, and what is the true conclusion here?'"
+          }
         },
         {
           "n": 5,
-          "text": "तमसा हि प्रतिच्छन्नं विभ्रान्तमिव चातुरम् ।\nपुनः प्रशमयन्वाक्यैः कविः पञ्चशिखोऽब्रवीत् ॥"
+          "text": "तमसा हि प्रतिच्छन्नं विभ्रान्तमिव चातुरम् ।\nपुनः प्रशमयन्वाक्यैः कविः पञ्चशिखोऽब्रवीत् ॥",
+          "meaning": {
+            "en": "Then the sage Panchashikha, seeing him veiled in darkness, like one bewildered and distressed, spoke to calm him again with words."
+          }
         },
         {
           "n": 6,
-          "text": "उच्छेदनिष्ठा नेहास्ति भावनिष्ठा न विद्यते ।\nअयं ह्यपि समाहारः शरीरेन्द्रियचेतसाम् ।\nवर्तते पृथगन्योन्यमप्यपाश्रित्य कर्मसु ॥"
+          "text": "उच्छेदनिष्ठा नेहास्ति भावनिष्ठा न विद्यते ।\nअयं ह्यपि समाहारः शरीरेन्द्रियचेतसाम् ।\nवर्तते पृथगन्योन्यमप्यपाश्रित्य कर्मसु ॥",
+          "meaning": {
+            "en": "'Here there is no firm doctrine of annihilation, nor of existence. This is a composite of body, senses and mind, which act separately yet depend on one another in their functions.'"
+          }
         },
         {
           "n": 7,
-          "text": "धातवः पञ्चशाखोऽयं खं वायुर्ज्योतिरम्बु भूः ।\nते स्वभावेन तिष्ठन्ति वियुज्यन्ते स्वभावतः ॥"
+          "text": "धातवः पञ्चशाखोऽयं खं वायुर्ज्योतिरम्बु भूः ।\nते स्वभावेन तिष्ठन्ति वियुज्यन्ते स्वभावतः ॥",
+          "meaning": {
+            "en": "'The elements are five: space, wind, fire, water and earth. They stay by their nature and separate by their nature.'"
+          }
         },
         {
           "n": 8,
-          "text": "आकाशं वायुरूष्मा च स्नेहो यच्चापि पार्थिवम् ।\nएष पञ्चसमाहारः शरीरमिति नैकधा ।\nज्ञानमूष्मा च वायुश्च त्रिविधः कर्मसंग्रहः ॥"
+          "text": "आकाशं वायुरूष्मा च स्नेहो यच्चापि पार्थिवम् ।\nएष पञ्चसमाहारः शरीरमिति नैकधा ।\nज्ञानमूष्मा च वायुश्च त्रिविधः कर्मसंग्रहः ॥",
+          "meaning": {
+            "en": "'Space, air, heat, moisture and the earthy: this union of five is what is called the body, in many ways. Knowledge, heat and air make a threefold collection of action.'"
+          }
         },
         {
           "n": 9,
-          "text": "इन्द्रियाणीन्द्रियार्थाश्च स्वभावश्चेतना मनः ।\nप्राणापानौ विकारश्च धातवश्चात्र निःसृताः ॥"
+          "text": "इन्द्रियाणीन्द्रियार्थाश्च स्वभावश्चेतना मनः ।\nप्राणापानौ विकारश्च धातवश्चात्र निःसृताः ॥",
+          "meaning": {
+            "en": "'The senses, their objects, own nature, consciousness, mind, prana and apana, change and the elements are all produced here.'"
+          }
         },
         {
           "n": 10,
-          "text": "श्रवणं स्पर्शनं जिह्वा दृष्टिर्नासा तथैव च ।\nइन्द्रियाणीति पञ्चैते चित्तपूर्वंगमा गुणाः ॥"
+          "text": "श्रवणं स्पर्शनं जिह्वा दृष्टिर्नासा तथैव च ।\nइन्द्रियाणीति पञ्चैते चित्तपूर्वंगमा गुणाः ॥",
+          "meaning": {
+            "en": "'Hearing, touch, tongue, sight and likewise the nose: these five are the senses, qualities led by the mind.'"
+          }
         },
         {
           "n": 11,
-          "text": "तत्र विज्ञानसंयुक्ता त्रिविधा वेदना ध्रुवा ।\nसुखदुःखेति यामाहुरदुःखेत्यसुखेति च ॥"
+          "text": "तत्र विज्ञानसंयुक्ता त्रिविधा वेदना ध्रुवा ।\nसुखदुःखेति यामाहुरदुःखेत्यसुखेति च ॥",
+          "meaning": {
+            "en": "'In them, joined with awareness, feeling is steadily threefold: what they call pleasure, pain, and neither pain nor pleasure.'"
+          }
         },
         {
           "n": 12,
-          "text": "शब्दः स्पर्शश्च रूपं च रसो गन्धश्च मूर्त्यथ ।\nएते ह्यामरणात्पञ्च षड्गुणा ज्ञानसिद्धये ॥"
+          "text": "शब्दः स्पर्शश्च रूपं च रसो गन्धश्च मूर्त्यथ ।\nएते ह्यामरणात्पञ्च षड्गुणा ज्ञानसिद्धये ॥",
+          "meaning": {
+            "en": "'Sound, touch, form, taste, smell and, with it, the physical: these six qualities exist until death for the sake of knowing.'"
+          }
         },
         {
           "n": 13,
-          "text": "तेषु कर्मनिसर्गश्च सर्वतत्त्वार्थनिश्चयः ।\nतमाहुः परमं शुक्रं बुद्धिरित्यव्ययं महत् ॥"
+          "text": "तेषु कर्मनिसर्गश्च सर्वतत्त्वार्थनिश्चयः ।\nतमाहुः परमं शुक्रं बुद्धिरित्यव्ययं महत् ॥",
+          "meaning": {
+            "en": "'In them lie the release of action and the settling of the truth of all things; they call that the highest seed, the intellect, great and imperishable.'"
+          }
         },
         {
           "n": 14,
-          "text": "इमं गुणसमाहारमात्मभावेन पश्यतः ।\nअसम्यग्दर्शनैर्दुःखमनन्तं नोपशाम्यति ॥"
+          "text": "इमं गुणसमाहारमात्मभावेन पश्यतः ।\nअसम्यग्दर्शनैर्दुःखमनन्तं नोपशाम्यति ॥",
+          "meaning": {
+            "en": "'For one who sees this combination of qualities as the self, through wrong views endless sorrow does not subside.'"
+          }
         },
         {
           "n": 15,
-          "text": "अनात्मेति च यद्दृष्टं तेनाहं न ममेत्यपि ।\nवर्तते किमधिष्ठाना प्रसक्ता दुःखसंततिः ॥"
+          "text": "अनात्मेति च यद्दृष्टं तेनाहं न ममेत्यपि ।\nवर्तते किमधिष्ठाना प्रसक्ता दुःखसंततिः ॥",
+          "meaning": {
+            "en": "'What is seen as not-self, by that one thinks, I am not, it is not mine; then on what does the unbroken chain of sorrow rest?'"
+          }
         },
         {
           "n": 16,
-          "text": "तत्र सम्यङ्मनो नाम त्यागशास्त्रमनुत्तमम् ।\nशृणु यत्तव मोक्षाय भाष्यमाणं भविष्यति ॥"
+          "text": "तत्र सम्यङ्मनो नाम त्यागशास्त्रमनुत्तमम् ।\nशृणु यत्तव मोक्षाय भाष्यमाणं भविष्यति ॥",
+          "meaning": {
+            "en": "'In this regard, hear that unsurpassed treatise on renunciation called right-mindedness, which, as it is told, will serve your liberation.'"
+          }
         },
         {
           "n": 17,
-          "text": "त्याग एव हि सर्वेषामुक्तानामपि कर्मणाम् ।\nनित्यं मिथ्याविनीतानां क्लेशो दुःखावहो मतः ॥"
+          "text": "त्याग एव हि सर्वेषामुक्तानामपि कर्मणाम् ।\nनित्यं मिथ्याविनीतानां क्लेशो दुःखावहो मतः ॥",
+          "meaning": {
+            "en": "'Renunciation is the thing in all prescribed actions; for those always wrongly trained, affliction is held to bring sorrow.'"
+          }
         },
         {
           "n": 18,
-          "text": "द्रव्यत्यागे तु कर्माणि भोगत्यागे व्रतान्यपि ।\nसुखत्यागे तपोयोगः सर्वत्यागे समापना ॥"
+          "text": "द्रव्यत्यागे तु कर्माणि भोगत्यागे व्रतान्यपि ।\nसुखत्यागे तपोयोगः सर्वत्यागे समापना ॥",
+          "meaning": {
+            "en": "'In giving up wealth, there are rites; in giving up enjoyment, vows; in giving up pleasure, the discipline of austerity; in giving up everything, completion.'"
+          }
         },
         {
           "n": 19,
-          "text": "तस्य मार्गोऽयमद्वैधः सर्वत्यागस्य दर्शितः ।\nविप्रहाणाय दुःखस्य दुर्गतिर्ह्यन्यथा भवेत् ॥"
+          "text": "तस्य मार्गोऽयमद्वैधः सर्वत्यागस्य दर्शितः ।\nविप्रहाणाय दुःखस्य दुर्गतिर्ह्यन्यथा भवेत् ॥",
+          "meaning": {
+            "en": "'This undivided path of total renunciation is shown for the abandoning of sorrow; otherwise there would be misfortune.'"
+          }
         },
         {
           "n": 20,
-          "text": "पञ्च ज्ञानेन्द्रियाण्युक्त्वा मनःषष्ठानि चेतसि ।\nमनःषष्ठानि वक्ष्यामि पञ्च कर्मेन्द्रियाणि तु ॥"
+          "text": "पञ्च ज्ञानेन्द्रियाण्युक्त्वा मनःषष्ठानि चेतसि ।\nमनःषष्ठानि वक्ष्यामि पञ्च कर्मेन्द्रियाणि तु ॥",
+          "meaning": {
+            "en": "'Having named the five senses of knowledge, with the mind as sixth in the heart, I will tell of the five organs of action, with the mind as the sixth.'"
+          }
         },
         {
           "n": 21,
-          "text": "हस्तौ कर्मेन्द्रियं ज्ञेयमथ पादौ गतीन्द्रियम् ।\nप्रजनानन्दयोः शेफो विसर्गे पायुरिन्द्रियम् ॥"
+          "text": "हस्तौ कर्मेन्द्रियं ज्ञेयमथ पादौ गतीन्द्रियम् ।\nप्रजनानन्दयोः शेफो विसर्गे पायुरिन्द्रियम् ॥",
+          "meaning": {
+            "en": "'The hands are known as the organ of action, and the feet the organ of movement; the generative organ is for procreation and pleasure; the anus is the organ of discharge.'"
+          }
         },
         {
           "n": 22,
-          "text": "वाक्तु शब्दविशेषार्थं गतिं पञ्चान्वितां विदुः ।\nएवमेकादशैतानि बुद्ध्या त्ववसृजेन्मनः ॥"
+          "text": "वाक्तु शब्दविशेषार्थं गतिं पञ्चान्वितां विदुः ।\nएवमेकादशैतानि बुद्ध्या त्ववसृजेन्मनः ॥",
+          "meaning": {
+            "en": "'Speech, for the sake of particular sounds, they know as the fifth of those. So the mind should let go of these eleven by means of the intellect.'"
+          }
         },
         {
           "n": 23,
-          "text": "कर्णौ शब्दश्च चित्तं च त्रयः श्रवणसंग्रहे ।\nतथा स्पर्शे तथा रूपे तथैव रसगन्धयोः ॥"
+          "text": "कर्णौ शब्दश्च चित्तं च त्रयः श्रवणसंग्रहे ।\nतथा स्पर्शे तथा रूपे तथैव रसगन्धयोः ॥",
+          "meaning": {
+            "en": "'Ear, sound and mind are three in the act of hearing; so it is in touch, in form, and likewise in taste and smell.'"
+          }
         },
         {
           "n": 24,
-          "text": "एवं पञ्चत्रिका ह्येते गुणास्तदुपलब्धये ।\nयेन यस्त्रिविधो भावः पर्यायात्समुपस्थितः ॥"
+          "text": "एवं पञ्चत्रिका ह्येते गुणास्तदुपलब्धये ।\nयेन यस्त्रिविधो भावः पर्यायात्समुपस्थितः ॥",
+          "meaning": {
+            "en": "'So these qualities are five triads for perceiving it, by which the threefold state arises in turn.'"
+          }
         },
         {
           "n": 25,
-          "text": "सात्त्विको राजसश्चैव तामसश्चैव ते त्रयः ।\nत्रिविधा वेदना येषु प्रसूता सर्वसाधना ॥"
+          "text": "सात्त्विको राजसश्चैव तामसश्चैव ते त्रयः ।\nत्रिविधा वेदना येषु प्रसूता सर्वसाधना ॥",
+          "meaning": {
+            "en": "'They are the three: sattvic, rajasic and tamasic, in which threefold feeling arises, the means of everything.'"
+          }
         },
         {
           "n": 26,
-          "text": "प्रहर्षः प्रीतिरानन्दः सुखं संशान्तचित्तता ।\nअकुतश्चित्कुतश्चिद्वा चित्ततः सात्त्विको गुणः ॥"
+          "text": "प्रहर्षः प्रीतिरानन्दः सुखं संशान्तचित्तता ।\nअकुतश्चित्कुतश्चिद्वा चित्ततः सात्त्विको गुणः ॥",
+          "meaning": {
+            "en": "'Joy, delight, bliss, happiness and calm of mind, arising from the mind with or without a cause, are the sattva quality.'"
+          }
         },
         {
           "n": 27,
-          "text": "अतुष्टिः परितापश्च शोको लोभस्तथाक्षमा ।\nलिङ्गानि रजसस्तानि दृश्यन्ते हेत्वहेतुतः ॥"
+          "text": "अतुष्टिः परितापश्च शोको लोभस्तथाक्षमा ।\nलिङ्गानि रजसस्तानि दृश्यन्ते हेत्वहेतुतः ॥",
+          "meaning": {
+            "en": "'Dissatisfaction, distress, grief, greed and impatience are the signs of rajas, seen with or without cause.'"
+          }
         },
         {
           "n": 28,
-          "text": "अविवेकस्तथा मोहः प्रमादः स्वप्नतन्द्रिता ।\nकथंचिदपि वर्तन्ते विविधास्तामसा गुणाः ॥"
+          "text": "अविवेकस्तथा मोहः प्रमादः स्वप्नतन्द्रिता ।\nकथंचिदपि वर्तन्ते विविधास्तामसा गुणाः ॥",
+          "meaning": {
+            "en": "'Lack of discernment, delusion, carelessness, sleep and drowsiness, in whatever way they occur, are the various qualities of tamas.'"
+          }
         },
         {
           "n": 29,
-          "text": "तत्र यत्प्रीतिसंयुक्तं काये मनसि वा भवेत् ।\nवर्तते सात्त्विको भाव इत्यपेक्षेत तत्तथा ॥"
+          "text": "तत्र यत्प्रीतिसंयुक्तं काये मनसि वा भवेत् ।\nवर्तते सात्त्विको भाव इत्यपेक्षेत तत्तथा ॥",
+          "meaning": {
+            "en": "'Of these, what is joined with joy, in body or mind, is a sattvic state; one should regard it so.'"
+          }
         },
         {
           "n": 30,
-          "text": "यत्तु संतापसंयुक्तमप्रीतिकरमात्मनः ।\nप्रवृत्तं रज इत्येव ततस्तदभिचिन्तयेत् ॥"
+          "text": "यत्तु संतापसंयुक्तमप्रीतिकरमात्मनः ।\nप्रवृत्तं रज इत्येव ततस्तदभिचिन्तयेत् ॥",
+          "meaning": {
+            "en": "'What is joined with distress and displeasing to oneself, and has arisen, one should consider rajas.'"
+          }
         },
         {
           "n": 31,
-          "text": "अथ यन्मोहसंयुक्तं काये मनसि वा भवेत् ।\nअप्रतर्क्यमविज्ञेयं तमस्तदुपधारयेत् ॥"
+          "text": "अथ यन्मोहसंयुक्तं काये मनसि वा भवेत् ।\nअप्रतर्क्यमविज्ञेयं तमस्तदुपधारयेत् ॥",
+          "meaning": {
+            "en": "'And what is joined with delusion, in body or mind, beyond reasoning and knowing, one should take as tamas.'"
+          }
         },
         {
           "n": 32,
-          "text": "तद्धि श्रोत्राश्रयं भूतं शब्दः श्रोत्रं समाश्रितः ।\nनोभयं शब्दविज्ञाने विज्ञानस्येतरस्य वा ॥"
+          "text": "तद्धि श्रोत्राश्रयं भूतं शब्दः श्रोत्रं समाश्रितः ।\nनोभयं शब्दविज्ञाने विज्ञानस्येतरस्य वा ॥",
+          "meaning": {
+            "en": "'The element that rests in the ear is sound; the ear depends on it. Neither alone is the knowing of sound, or of the other.'"
+          }
         },
         {
           "n": 33,
-          "text": "एवं त्वक्चक्षुषी जिह्वा नासिका चैव पञ्चमी ।\nस्पर्शे रूपे रसे गन्धे तानि चेतो मनश्च तत् ॥"
+          "text": "एवं त्वक्चक्षुषी जिह्वा नासिका चैव पञ्चमी ।\nस्पर्शे रूपे रसे गन्धे तानि चेतो मनश्च तत् ॥",
+          "meaning": {
+            "en": "'So too the skin, eye, tongue and nose as the fifth, for touch, form, taste and smell; those, with the heart and the mind.'"
+          }
         },
         {
           "n": 34,
-          "text": "स्वकर्मयुगपद्भावो दशस्वेतेषु तिष्ठति ।\nचित्तमेकादशं विद्धि बुद्धिर्द्वादशमी भवेत् ॥"
+          "text": "स्वकर्मयुगपद्भावो दशस्वेतेषु तिष्ठति ।\nचित्तमेकादशं विद्धि बुद्धिर्द्वादशमी भवेत् ॥",
+          "meaning": {
+            "en": "'Their own actions, occurring together, are present in these ten. Know the heart as the eleventh, and the intellect would be the twelfth.'"
+          }
         },
         {
           "n": 35,
-          "text": "तेषामयुगपद्भाव उच्छेदो नास्ति तामसः ।\nआस्थितो युगपद्भावे व्यवहारः स लौकिकः ॥"
+          "text": "तेषामयुगपद्भाव उच्छेदो नास्ति तामसः ।\nआस्थितो युगपद्भावे व्यवहारः स लौकिकः ॥",
+          "meaning": {
+            "en": "'Since they do not occur all together, there is no annihilation of tamas; worldly dealing rests on their occurring together.'"
+          }
         },
         {
           "n": 36,
-          "text": "इन्द्रियाण्यवसृज्यापि दृष्ट्वा पूर्वं श्रुतागमम् ।\nचिन्तयन्नानुपर्येति त्रिभिरेवान्वितो गुणैः ॥"
+          "text": "इन्द्रियाण्यवसृज्यापि दृष्ट्वा पूर्वं श्रुतागमम् ।\nचिन्तयन्नानुपर्येति त्रिभिरेवान्वितो गुणैः ॥",
+          "meaning": {
+            "en": "'Even after letting the senses go, recalling what was heard in scripture before, one goes on thinking, still joined with the three qualities.'"
+          }
         },
         {
           "n": 37,
-          "text": "यत्तमोपहतं चित्तमाशु संचारमध्रुवम् ।\nकरोत्युपरमं काले तदाहुस्तामसं सुखम् ॥"
+          "text": "यत्तमोपहतं चित्तमाशु संचारमध्रुवम् ।\nकरोत्युपरमं काले तदाहुस्तामसं सुखम् ॥",
+          "meaning": {
+            "en": "'The mind struck by darkness, swift in movement and unsteady, which at times makes a stop: they call that the pleasure of tamas.'"
+          }
         },
         {
           "n": 38,
-          "text": "यद्यदागमसंयुक्तं न कृत्स्नमुपशाम्यति ।\nअथ तत्राप्युपादत्ते तमो व्यक्तमिवानृतम् ॥"
+          "text": "यद्यदागमसंयुक्तं न कृत्स्नमुपशाम्यति ।\nअथ तत्राप्युपादत्ते तमो व्यक्तमिवानृतम् ॥",
+          "meaning": {
+            "en": "'Whatever is joined with scripture does not wholly subside; then even there it takes up darkness, like an evident falsehood.'"
+          }
         },
         {
           "n": 39,
-          "text": "एवमेष प्रसंख्यातः स्वकर्मप्रत्ययी गुणः ।\nकथंचिद्वर्तते सम्यक्केषांचिद्वा न वर्तते ॥"
+          "text": "एवमेष प्रसंख्यातः स्वकर्मप्रत्ययी गुणः ।\nकथंचिद्वर्तते सम्यक्केषांचिद्वा न वर्तते ॥",
+          "meaning": {
+            "en": "'So this quality, which has its own action as its cause, has been enumerated; in some way it operates rightly in some, and not in others.'"
+          }
         },
         {
           "n": 40,
-          "text": "एवमाहुः समाहारं क्षेत्रमध्यात्मचिन्तकाः ।\nस्थितो मनसि यो भावः स वै क्षेत्रज्ञ उच्यते ॥"
+          "text": "एवमाहुः समाहारं क्षेत्रमध्यात्मचिन्तकाः ।\nस्थितो मनसि यो भावः स वै क्षेत्रज्ञ उच्यते ॥",
+          "meaning": {
+            "en": "'So those who ponder the self call the collection the field; the state that stands in the mind is called the knower of the field.'"
+          }
         },
         {
           "n": 41,
-          "text": "एवं सति क उच्छेदः शाश्वतो वा कथं भवेत् ।\nस्वभावाद्वर्तमानेषु सर्वभूतेषु हेतुतः ॥"
+          "text": "एवं सति क उच्छेदः शाश्वतो वा कथं भवेत् ।\nस्वभावाद्वर्तमानेषु सर्वभूतेषु हेतुतः ॥",
+          "meaning": {
+            "en": "'If so, what annihilation is there, or how could there be permanence, when all beings act according to their nature and by cause?'"
+          }
         },
         {
           "n": 42,
-          "text": "यथार्णवगता नद्यो व्यक्तीर्जहति नाम च ।\nन च स्वतां नियच्छन्ति तादृशः सत्त्वसंक्षयः ॥"
+          "text": "यथार्णवगता नद्यो व्यक्तीर्जहति नाम च ।\nन च स्वतां नियच्छन्ति तादृशः सत्त्वसंक्षयः ॥",
+          "meaning": {
+            "en": "'As rivers that reach the ocean lose their forms and names, yet do not keep their own selfhood, such is the wasting of being.'"
+          }
         },
         {
           "n": 43,
-          "text": "एवं सति कुतः संज्ञा प्रेत्यभावे पुनर्भवेत् ।\nप्रतिसंमिश्रिते जीवे गृह्यमाणे च मध्यतः ॥"
+          "text": "एवं सति कुतः संज्ञा प्रेत्यभावे पुनर्भवेत् ।\nप्रतिसंमिश्रिते जीवे गृह्यमाणे च मध्यतः ॥",
+          "meaning": {
+            "en": "'If so, whence consciousness after death and again in rebirth, when the living being is mixed together and grasped in the middle?'"
+          }
         },
         {
           "n": 44,
-          "text": "इमां तु यो वेद विमोक्षबुद्धि-\nमात्मानमन्विच्छति चाप्रमत्तः ।\nन लिप्यते कर्मफलैरनिष्टैः\nपत्रं बिसस्येव जलेन सिक्तम् ॥"
+          "text": "इमां तु यो वेद विमोक्षबुद्धि-\nमात्मानमन्विच्छति चाप्रमत्तः ।\nन लिप्यते कर्मफलैरनिष्टैः\nपत्रं बिसस्येव जलेन सिक्तम् ॥",
+          "meaning": {
+            "en": "'One who knows this understanding of liberation and, carefully, seeks the self is not stained by unwelcome fruits of action, like a lotus leaf sprinkled with water.'"
+          }
         },
         {
           "n": 45,
-          "text": "दृढैश्च पाशैर्बहुभिर्विमुक्तः\nप्रजानिमित्तैरपि दैवतैश्च ।\nयदा ह्यसौ सुखदुःखे जहाति\nमुक्तस्तदाग्र्यां गतिमेत्यलिङ्गः ।\nश्रुतिप्रमाणागममङ्गलैश्च\nशेते जरामृत्युभयादतीतः ॥"
+          "text": "दृढैश्च पाशैर्बहुभिर्विमुक्तः\nप्रजानिमित्तैरपि दैवतैश्च ।\nयदा ह्यसौ सुखदुःखे जहाति\nमुक्तस्तदाग्र्यां गतिमेत्यलिङ्गः ।\nश्रुतिप्रमाणागममङ्गलैश्च\nशेते जरामृत्युभयादतीतः ॥",
+          "meaning": {
+            "en": "'Freed from many firm bonds, and even from those of offspring and the gods, when he gives up pleasure and pain he is released and, without marks, reaches the highest goal. He sleeps, beyond fear of age and death, with the blessings of scripture, authority and tradition.'"
+          }
         },
         {
           "n": 46,
-          "text": "क्षीणे च पुण्ये विगते च पापे\nततोनिमित्ते च फले विनष्टे ।\nअलेपमाकाशमलिङ्गमेव-\nमास्थाय पश्यन्ति महद्ध्यसक्ताः ॥"
+          "text": "क्षीणे च पुण्ये विगते च पापे\nततोनिमित्ते च फले विनष्टे ।\nअलेपमाकाशमलिङ्गमेव-\nमास्थाय पश्यन्ति महद्ध्यसक्ताः ॥",
+          "meaning": {
+            "en": "'When merit is spent and sin gone, and the fruit with its cause destroyed, the unattached see this great one, unstained as space, without marks, having taken that stand.'"
+          }
         },
         {
           "n": 47,
-          "text": "यथोर्णनाभिः परिवर्तमान-\nस्तन्तुक्षये तिष्ठति पात्यमानः ।\nतथा विमुक्तः प्रजहाति दुःखं\nविध्वंसते लोष्ट इवाद्रिमर्च्छन् ॥"
+          "text": "यथोर्णनाभिः परिवर्तमान-\nस्तन्तुक्षये तिष्ठति पात्यमानः ।\nतथा विमुक्तः प्रजहाति दुःखं\nविध्वंसते लोष्ट इवाद्रिमर्च्छन् ॥",
+          "meaning": {
+            "en": "'As a spider moving about on its thread stays when the thread is cut, though falling, so the freed one casts off sorrow, shattering like a clod striking a mountain.'"
+          }
         },
         {
           "n": 48,
-          "text": "यथा रुरुः शृङ्गमथो पुराणं\nहित्वा त्वचं वाप्युरगो यथावत् ।\nविहाय गच्छत्यनवेक्षमाण-\nस्तथा विमुक्तो विजहाति दुःखम् ॥"
+          "text": "यथा रुरुः शृङ्गमथो पुराणं\nहित्वा त्वचं वाप्युरगो यथावत् ।\nविहाय गच्छत्यनवेक्षमाण-\nस्तथा विमुक्तो विजहाति दुःखम् ॥",
+          "meaning": {
+            "en": "'As the deer sheds its old horn, or the snake its skin, and goes without looking back, so the freed one casts off sorrow.'"
+          }
         },
         {
           "n": 49,
-          "text": "द्रुमं यथा वाप्युदके पतन्त-\nमुत्सृज्य पक्षी प्रपतत्यसक्तः ।\nतथा ह्यसौ सुखदुःखे विहाय\nमुक्तः परार्ध्यां गतिमेत्यलिङ्गः ॥"
+          "text": "द्रुमं यथा वाप्युदके पतन्त-\nमुत्सृज्य पक्षी प्रपतत्यसक्तः ।\nतथा ह्यसौ सुखदुःखे विहाय\nमुक्तः परार्ध्यां गतिमेत्यलिङ्गः ॥",
+          "meaning": {
+            "en": "'As a bird leaves a tree falling into water and flies off unattached, so, leaving pleasure and pain, he is freed and, without marks, reaches the highest goal.'"
+          }
         },
         {
           "n": 50,
-          "text": "अपि च भवति मैथिलेन गीतं\nनगरमुपाहितमग्निनाभिवीक्ष्य ।\nन खलु मम तुषोऽपि दह्यतेऽत्र\nस्वयमिदमाह किल स्म भूमिपालः ॥"
+          "text": "अपि च भवति मैथिलेन गीतं\nनगरमुपाहितमग्निनाभिवीक्ष्य ।\nन खलु मम तुषोऽपि दह्यतेऽत्र\nस्वयमिदमाह किल स्म भूमिपालः ॥",
+          "meaning": {
+            "en": "There is also a verse sung by the king of Mithila: seeing his city set on fire, the king himself is said to have declared, 'Not even a husk of mine is burning here.'"
+          }
         },
         {
           "n": 51,
-          "text": "इदममृतपदं विदेहराजः\nस्वयमिह पञ्चशिखेन भाष्यमाणः ।\nनिखिलमभिसमीक्ष्य निश्चितार्थं\nपरमसुखी विजहार वीतशोकः ॥"
+          "text": "इदममृतपदं विदेहराजः\nस्वयमिह पञ्चशिखेन भाष्यमाणः ।\nनिखिलमभिसमीक्ष्य निश्चितार्थं\nपरमसुखी विजहार वीतशोकः ॥",
+          "meaning": {
+            "en": "Thus, as Panchashikha himself taught him this deathless state, the king of Videha, having considered it all and fixed its meaning, lived supremely happy and free from grief."
+          }
         },
         {
           "n": 52,
-          "text": "इमं हि यः पठति विमोक्षनिश्चयं\nन हीयते सततमवेक्षते तथा ।\nउपद्रवान्नानुभवत्यदुःखितः\nप्रमुच्यते कपिलमिवैत्य मैथिलः ॥"
+          "text": "इमं हि यः पठति विमोक्षनिश्चयं\nन हीयते सततमवेक्षते तथा ।\nउपद्रवान्नानुभवत्यदुःखितः\nप्रमुच्यते कपिलमिवैत्य मैथिलः ॥",
+          "meaning": {
+            "en": "One who reads this settled teaching of liberation is not diminished, and keeps reflecting on it; free of sorrow he meets no afflictions, and is liberated as the Maithila was, having reached Kapila's heir."
+          }
         }
       ]
     }

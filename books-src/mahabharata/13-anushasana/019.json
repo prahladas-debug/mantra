@@ -22,116 +22,203 @@
       "titleEn": "Anushasanika Parva (The instructions)",
       "verses": [
         {
-          "text": "युधिष्ठिर उवाच"
+          "text": "युधिष्ठिर उवाच",
+          "meaning": {
+            "en": "Yudhishthira said:"
+          }
         },
         {
           "n": 1,
-          "text": "यदिदं सहधर्मेति प्रोच्यते भरतर्षभ ।\nपाणिग्रहणकाले तु स्त्रीणामेतत्कथं स्मृतम् ॥"
+          "text": "यदिदं सहधर्मेति प्रोच्यते भरतर्षभ ।\nपाणिग्रहणकाले तु स्त्रीणामेतत्कथं स्मृतम् ॥",
+          "meaning": {
+            "en": "Best of the Bharatas, this saying 'together in dharma' is spoken at the time of taking the bride's hand. How is it remembered as applying to women?"
+          }
         },
         {
           "n": 2,
-          "text": "आर्ष एष भवेद्धर्मः प्राजापत्योऽथ वासुरः ।\nयदेतत्सहधर्मेति पूर्वमुक्तं महर्षिभिः ॥"
+          "text": "आर्ष एष भवेद्धर्मः प्राजापत्योऽथ वासुरः ।\nयदेतत्सहधर्मेति पूर्वमुक्तं महर्षिभिः ॥",
+          "meaning": {
+            "en": "Whether the marriage be of the Arsha, the Prajapatya or the Asura kind, this phrase 'together in dharma' was stated of old by the great sages."
+          }
         },
         {
           "n": 3,
-          "text": "संदेहः सुमहानेष विरुद्ध इति मे मतिः ।\nइह यः सहधर्मो वै प्रेत्यायं विहितः क्व नु ॥"
+          "text": "संदेहः सुमहानेष विरुद्ध इति मे मतिः ।\nइह यः सहधर्मो वै प्रेत्यायं विहितः क्व नु ॥",
+          "meaning": {
+            "en": "I think this is a very great doubt and a contradiction. Where, after death, is this 'together in dharma' ordained?"
+          }
         },
         {
           "n": 4,
-          "text": "स्वर्गे मृतानां भवति सहधर्मः पितामह ।\nपूर्वमेकस्तु म्रियते क्व चैकस्तिष्ठते वद ॥"
+          "text": "स्वर्गे मृतानां भवति सहधर्मः पितामह ।\nपूर्वमेकस्तु म्रियते क्व चैकस्तिष्ठते वद ॥",
+          "meaning": {
+            "en": "Grandfather, the shared dharma of the dead applies in heaven; but when one dies first, where does the other remain? Tell me."
+          }
         },
         {
           "n": 5,
-          "text": "नानाकर्मफलोपेता नानाकर्मनिवासिनः ।\nनानानिरयनिष्ठान्ता मानुषा बहवो यदा ॥"
+          "text": "नानाकर्मफलोपेता नानाकर्मनिवासिनः ।\nनानानिरयनिष्ठान्ता मानुषा बहवो यदा ॥",
+          "meaning": {
+            "en": "People are bound with fruits of many kinds of action, dwell in many works, and end in many hells, as so many humans do."
+          }
         },
         {
           "n": 6,
-          "text": "अनृताः स्त्रिय इत्येवं सूत्रकारो व्यवस्यति ।\nयदानृताः स्त्रियस्तात सहधर्मः कुतः स्मृतः ॥"
+          "text": "अनृताः स्त्रिय इत्येवं सूत्रकारो व्यवस्यति ।\nयदानृताः स्त्रियस्तात सहधर्मः कुतः स्मृतः ॥",
+          "meaning": {
+            "en": "The author of the Sutra settles that women are untruthful. If women are untruthful, father, how is a shared dharma remembered?"
+          }
         },
         {
           "n": 7,
-          "text": "अनृताः स्त्रिय इत्येवं वेदेष्वपि हि पठ्यते ।\nधर्मोऽयं पौर्विकी संज्ञा उपचारः क्रियाविधिः ॥"
+          "text": "अनृताः स्त्रिय इत्येवं वेदेष्वपि हि पठ्यते ।\nधर्मोऽयं पौर्विकी संज्ञा उपचारः क्रियाविधिः ॥",
+          "meaning": {
+            "en": "It is read even in the Vedas that women are untruthful. This is dharma by an old designation, a courtesy and a ritual rule."
+          }
         },
         {
           "n": 8,
-          "text": "गह्वरं प्रतिभात्येतन्मम चिन्तयतोऽनिशम् ।\nनिःसंदेहमिदं सर्वं पितामह यथा श्रुतिः ॥"
+          "text": "गह्वरं प्रतिभात्येतन्मम चिन्तयतोऽनिशम् ।\nनिःसंदेहमिदं सर्वं पितामह यथा श्रुतिः ॥",
+          "meaning": {
+            "en": "This seems to me a deep thicket as I think on it ceaselessly. Grandfather, all of this is beyond doubt as the Shruti says."
+          }
         },
         {
           "n": 9,
-          "text": "यदेतद्यादृशं चैतद्यथा चैतत्प्रवर्तितम् ।\nनिखिलेन महाप्राज्ञ भवानेतद्ब्रवीतु मे ॥"
+          "text": "यदेतद्यादृशं चैतद्यथा चैतत्प्रवर्तितम् ।\nनिखिलेन महाप्राज्ञ भवानेतद्ब्रवीतु मे ॥",
+          "meaning": {
+            "en": "Great sage, please explain to me fully what this is, of what kind, and how it came to be established."
+          }
         },
         {
-          "text": "भीष्म उवाच"
+          "text": "भीष्म उवाच",
+          "meaning": {
+            "en": "Bhishma said:"
+          }
         },
         {
           "n": 10,
-          "text": "अत्राप्युदाहरन्तीममितिहासं पुरातनम् ।\nअष्टावक्रस्य संवादं दिशया सह भारत ॥"
+          "text": "अत्राप्युदाहरन्तीममितिहासं पुरातनम् ।\nअष्टावक्रस्य संवादं दिशया सह भारत ॥",
+          "meaning": {
+            "en": "On this they cite an ancient tale, the dialogue of Ashtavakra with the Direction, Bharata."
+          }
         },
         {
           "n": 11,
-          "text": "निवेष्टुकामस्तु पुरा अष्टावक्रो महातपाः ।\nऋषेरथ वदान्यस्य कन्यां वव्रे महात्मनः ॥"
+          "text": "निवेष्टुकामस्तु पुरा अष्टावक्रो महातपाः ।\nऋषेरथ वदान्यस्य कन्यां वव्रे महात्मनः ॥",
+          "meaning": {
+            "en": "Long ago the great ascetic Ashtavakra, wishing to marry, asked for the daughter of the generous, great-souled sage Vadanya."
+          }
         },
         {
           "n": 12,
-          "text": "सुप्रभां नाम वै नाम्ना रूपेणाप्रतिमां भुवि ।\nगुणप्रबर्हां शीलेन साध्वीं चारित्रशोभनाम् ॥"
+          "text": "सुप्रभां नाम वै नाम्ना रूपेणाप्रतिमां भुवि ।\nगुणप्रबर्हां शीलेन साध्वीं चारित्रशोभनाम् ॥",
+          "meaning": {
+            "en": "Her name was Suprabha, peerless on earth in beauty, outstanding in virtues, virtuous in character and adorned with good conduct."
+          }
         },
         {
           "n": 13,
-          "text": "सा तस्य दृष्ट्वैव मनो जहार शुभलोचना ।\nवनराजी यथा चित्रा वसन्ते कुसुमाचिता ॥"
+          "text": "सा तस्य दृष्ट्वैव मनो जहार शुभलोचना ।\nवनराजी यथा चित्रा वसन्ते कुसुमाचिता ॥",
+          "meaning": {
+            "en": "Fair-eyed, she captured his mind at a glance, like a forest row blooming with spring flowers in many colors."
+          }
         },
         {
           "n": 14,
-          "text": "ऋषिस्तमाह देया मे सुता तुभ्यं शृणुष्व मे ।\nगच्छ तावद्दिशं पुण्यामुत्तरां द्रक्ष्यसे ततः ॥"
+          "text": "ऋषिस्तमाह देया मे सुता तुभ्यं शृणुष्व मे ।\nगच्छ तावद्दिशं पुण्यामुत्तरां द्रक्ष्यसे ततः ॥",
+          "meaning": {
+            "en": "The sage said to him, 'I will give you my daughter; listen to me. First go to the holy northern direction; then you will see.'"
+          }
         },
         {
-          "text": "अष्टावक्र उवाच"
+          "text": "अष्टावक्र उवाच",
+          "meaning": {
+            "en": "Ashtavakra said:"
+          }
         },
         {
           "n": 15,
-          "text": "किं द्रष्टव्यं मया तत्र वक्तुमर्हति मे भवान् ।\nतथेदानीं मया कार्यं यथा वक्ष्यति मां भवान् ॥"
+          "text": "किं द्रष्टव्यं मया तत्र वक्तुमर्हति मे भवान् ।\nतथेदानीं मया कार्यं यथा वक्ष्यति मां भवान् ॥",
+          "meaning": {
+            "en": "What should I see there? You should tell me. And I shall do just as you tell me."
+          }
         },
         {
-          "text": "वदान्य उवाच"
+          "text": "वदान्य उवाच",
+          "meaning": {
+            "en": "Vadanya said:"
+          }
         },
         {
           "n": 16,
-          "text": "धनदं समतिक्रम्य हिमवन्तं तथैव च ।\nरुद्रस्यायतनं दृष्ट्वा सिद्धचारणसेवितम् ॥"
+          "text": "धनदं समतिक्रम्य हिमवन्तं तथैव च ।\nरुद्रस्यायतनं दृष्ट्वा सिद्धचारणसेवितम् ॥",
+          "meaning": {
+            "en": "Passing Kubera's realm and the Himalaya, you will see Rudra's abode, frequented by siddhas and charanas,"
+          }
         },
         {
           "n": 17,
-          "text": "प्रहृष्टैः पार्षदैर्जुष्टं नृत्यद्भिर्विविधाननैः ।\nदिव्याङ्गरागैः पैशाचैर्वन्यैर्नानाविधैस्तथा ॥"
+          "text": "प्रहृष्टैः पार्षदैर्जुष्टं नृत्यद्भिर्विविधाननैः ।\nदिव्याङ्गरागैः पैशाचैर्वन्यैर्नानाविधैस्तथा ॥",
+          "meaning": {
+            "en": "filled with joyful attendants dancing with many faces, with divine ointments, and with forest pishachas of many kinds."
+          }
         },
         {
           "n": 18,
-          "text": "पाणितालसतालैश्च शम्यातालैः समैस्तथा ।\nसंप्रहृष्टैः प्रनृत्यद्भिः शर्वस्तत्र निषेव्यते ॥"
+          "text": "पाणितालसतालैश्च शम्यातालैः समैस्तथा ।\nसंप्रहृष्टैः प्रनृत्यद्भिः शर्वस्तत्र निषेव्यते ॥",
+          "meaning": {
+            "en": "Shiva is served there by gleeful dancers who clap hands, cymbals and shami-wood time-beats in rhythm."
+          }
         },
         {
           "n": 19,
-          "text": "इष्टं किल गिरौ स्थानं तद्दिव्यमनुशुश्रुम ।\nनित्यं संनिहितो देवस्तथा पारिषदाः शुभाः ॥"
+          "text": "इष्टं किल गिरौ स्थानं तद्दिव्यमनुशुश्रुम ।\nनित्यं संनिहितो देवस्तथा पारिषदाः शुभाः ॥",
+          "meaning": {
+            "en": "We have heard that the mountain place is dear to him and divine; the God and his fine attendants are always present."
+          }
         },
         {
           "n": 20,
-          "text": "तत्र देव्या तपस्तप्तं शंकरार्थं सुदुश्चरम् ।\nअतस्तदिष्टं देवस्य तथोमाया इति श्रुतिः ॥"
+          "text": "तत्र देव्या तपस्तप्तं शंकरार्थं सुदुश्चरम् ।\nअतस्तदिष्टं देवस्य तथोमाया इति श्रुतिः ॥",
+          "meaning": {
+            "en": "There the Goddess performed a very hard austerity for Shankara's sake; so, tradition says, that place is dear to the God and to Uma."
+          }
         },
         {
           "n": 21,
-          "text": "तत्र कूपो महान्पार्श्वे देवस्योत्तरतस्तथा ।\nऋतवः कालरात्रिश्च ये दिव्या ये च मानुषाः ॥"
+          "text": "तत्र कूपो महान्पार्श्वे देवस्योत्तरतस्तथा ।\nऋतवः कालरात्रिश्च ये दिव्या ये च मानुषाः ॥",
+          "meaning": {
+            "en": "There is a great well beside the God, to his north. The seasons and the dark night, divine and human alike,"
+          }
         },
         {
           "n": 22,
-          "text": "सर्वे देवमुपासन्ते रूपिणः किल तत्र ह ।\nतदतिक्रम्य भवनं त्वया यातव्यमेव हि ॥"
+          "text": "सर्वे देवमुपासन्ते रूपिणः किल तत्र ह ।\nतदतिक्रम्य भवनं त्वया यातव्यमेव हि ॥",
+          "meaning": {
+            "en": "all attend the God there in bodily form. Passing beyond that dwelling, you must go on."
+          }
         },
         {
           "n": 23,
-          "text": "ततो नीलं वनोद्देशं द्रक्ष्यसे मेघसंनिभम् ।\nरमणीयं मनोग्राहि तत्र द्रक्ष्यसि वै स्त्रियम् ॥"
+          "text": "ततो नीलं वनोद्देशं द्रक्ष्यसे मेघसंनिभम् ।\nरमणीयं मनोग्राहि तत्र द्रक्ष्यसि वै स्त्रियम् ॥",
+          "meaning": {
+            "en": "Then you will see a blue, cloud-like stretch of forest, lovely and mind-capturing, and there you will see a woman."
+          }
         },
         {
           "n": 24,
-          "text": "तपस्विनीं महाभागां वृद्धां दीक्षामनुष्ठिताम् ।\nद्रष्टव्या सा त्वया तत्र संपूज्या चैव यत्नतः ॥"
+          "text": "तपस्विनीं महाभागां वृद्धां दीक्षामनुष्ठिताम् ।\nद्रष्टव्या सा त्वया तत्र संपूज्या चैव यत्नतः ॥",
+          "meaning": {
+            "en": "She is a fortunate ascetic, old and under a vow of consecration. You must see her there and respect her with care."
+          }
         },
         {
           "n": 25,
-          "text": "तां दृष्ट्वा विनिवृत्तस्त्वं ततः पाणिं ग्रहीष्यसि ।\nयद्येष समयः सत्यः साध्यतां तत्र गम्यताम् ॥"
+          "text": "तां दृष्ट्वा विनिवृत्तस्त्वं ततः पाणिं ग्रहीष्यसि ।\nयद्येष समयः सत्यः साध्यतां तत्र गम्यताम् ॥",
+          "meaning": {
+            "en": "After seeing her you will turn back, and then you will take my daughter's hand. If this condition is acceptable, go there and accomplish it."
+          }
         }
       ]
     }

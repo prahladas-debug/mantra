@@ -22,123 +22,213 @@
       "titleEn": "Mokshadharma Parva (Duties for liberation)",
       "verses": [
         {
-          "text": "गुरुरुवाच"
+          "text": "गुरुरुवाच",
+          "meaning": {
+            "en": "The teacher said:"
+          }
         },
         {
           "n": 1,
-          "text": "अत्रोपायं प्रवक्ष्यामि यथावच्छास्त्रचक्षुषा ।\nतद्विज्ञानाच्चरन्प्राज्ञः प्राप्नुयात्परमां गतिम् ॥"
+          "text": "अत्रोपायं प्रवक्ष्यामि यथावच्छास्त्रचक्षुषा ।\nतद्विज्ञानाच्चरन्प्राज्ञः प्राप्नुयात्परमां गतिम् ॥",
+          "meaning": {
+            "en": "Here I will explain the means, as seen through the eye of scripture; knowing it and living by it, the wise reach the highest goal."
+          }
         },
         {
           "n": 2,
-          "text": "सर्वेषामेव भूतानां पुरुषः श्रेष्ठ उच्यते ।\nपुरुषेभ्यो द्विजानाहुर्द्विजेभ्यो मन्त्रवादिनः ॥"
+          "text": "सर्वेषामेव भूतानां पुरुषः श्रेष्ठ उच्यते ।\nपुरुषेभ्यो द्विजानाहुर्द्विजेभ्यो मन्त्रवादिनः ॥",
+          "meaning": {
+            "en": "Among all beings, the human is called best; among humans, the twice-born; and among the twice-born, those who speak the mantras."
+          }
         },
         {
           "n": 3,
-          "text": "सर्वभूतविशिष्टास्ते सर्वज्ञाः सर्वदर्शिनः ।\nब्राह्मणा वेदतत्त्वज्ञास्तत्त्वार्थगतिनिश्चयाः ॥"
+          "text": "सर्वभूतविशिष्टास्ते सर्वज्ञाः सर्वदर्शिनः ।\nब्राह्मणा वेदतत्त्वज्ञास्तत्त्वार्थगतिनिश्चयाः ॥",
+          "meaning": {
+            "en": "These are the foremost of all beings, all-knowing and all-seeing: the Brahmanas, who know the essence of the Veda and are sure of the way to the true meaning."
+          }
         },
         {
           "n": 4,
-          "text": "नेत्रहीनो यथा ह्येकः कृच्छ्राणि लभतेऽध्वनि ।\nज्ञानहीनस्तथा लोके तस्माज्ज्ञानविदोऽधिकाः ॥"
+          "text": "नेत्रहीनो यथा ह्येकः कृच्छ्राणि लभतेऽध्वनि ।\nज्ञानहीनस्तथा लोके तस्माज्ज्ञानविदोऽधिकाः ॥",
+          "meaning": {
+            "en": "As a blind man alone on a road meets hardship, so does one without knowledge in the world; therefore those who know are greater."
+          }
         },
         {
           "n": 5,
-          "text": "तांस्तानुपासते धर्मान्धर्मकामा यथागमम् ।\nन त्वेषामर्थसामान्यमन्तरेण गुणानिमान् ॥"
+          "text": "तांस्तानुपासते धर्मान्धर्मकामा यथागमम् ।\nन त्वेषामर्थसामान्यमन्तरेण गुणानिमान् ॥",
+          "meaning": {
+            "en": "Those who love dharma follow those various duties according to scripture; yet without these virtues they do not reach the common aim."
+          }
         },
         {
           "n": 6,
-          "text": "वाग्देहमनसां शौचं क्षमा सत्यं धृतिः स्मृतिः ।\nसर्वधर्मेषु धर्मज्ञा ज्ञापयन्ति गुणानिमान् ॥"
+          "text": "वाग्देहमनसां शौचं क्षमा सत्यं धृतिः स्मृतिः ।\nसर्वधर्मेषु धर्मज्ञा ज्ञापयन्ति गुणानिमान् ॥",
+          "meaning": {
+            "en": "Purity of speech, body and mind, patience, truth, steadiness and memory: those who know dharma teach these virtues in all duties."
+          }
         },
         {
           "n": 7,
-          "text": "यदिदं ब्रह्मणो रूपं ब्रह्मचर्यमिति स्मृतम् ।\nपरं तत्सर्वभूतेभ्यस्तेन यान्ति परां गतिम् ॥"
+          "text": "यदिदं ब्रह्मणो रूपं ब्रह्मचर्यमिति स्मृतम् ।\nपरं तत्सर्वभूतेभ्यस्तेन यान्ति परां गतिम् ॥",
+          "meaning": {
+            "en": "This form of Brahman that is called brahmacharya is supreme above all beings; by it people reach the highest goal."
+          }
         },
         {
           "n": 8,
-          "text": "लिङ्गसंयोगहीनं यच्छरीरस्पर्शवर्जितम् ।\nश्रोत्रेण श्रवणं चैव चक्षुषा चैव दर्शनम् ॥"
+          "text": "लिङ्गसंयोगहीनं यच्छरीरस्पर्शवर्जितम् ।\nश्रोत्रेण श्रवणं चैव चक्षुषा चैव दर्शनम् ॥",
+          "meaning": {
+            "en": "It is free from union of the sexual organs and from touching bodies; and from hearing with the ear and seeing with the eye,"
+          }
         },
         {
           "n": 9,
-          "text": "जिह्वया रसनं यच्च तदेव परिवर्जितम् ।\nबुद्ध्या च व्यवसायेन ब्रह्मचर्यमकल्मषम् ॥"
+          "text": "जिह्वया रसनं यच्च तदेव परिवर्जितम् ।\nबुद्ध्या च व्यवसायेन ब्रह्मचर्यमकल्मषम् ॥",
+          "meaning": {
+            "en": "and tasting with the tongue: that too is given up. With the resolve of understanding, brahmacharya is without stain."
+          }
         },
         {
           "n": 10,
-          "text": "सम्यग्वृत्तिर्ब्रह्मलोकं प्राप्नुयान्मध्यमः सुरान् ।\nद्विजाग्र्यो जायते विद्वान्कन्यसीं वृत्तिमास्थितः ॥"
+          "text": "सम्यग्वृत्तिर्ब्रह्मलोकं प्राप्नुयान्मध्यमः सुरान् ।\nद्विजाग्र्यो जायते विद्वान्कन्यसीं वृत्तिमास्थितः ॥",
+          "meaning": {
+            "en": "One of right conduct reaches the world of Brahma; the middling reaches the gods; one who follows the lowest course is born a learned best of the twice-born."
+          }
         },
         {
           "n": 11,
-          "text": "सुदुष्करं ब्रह्मचर्यमुपायं तत्र मे शृणु ।\nसंप्रवृत्तमुदीर्णं च निगृह्णीयाद्द्विजो मनः ॥"
+          "text": "सुदुष्करं ब्रह्मचर्यमुपायं तत्र मे शृणु ।\nसंप्रवृत्तमुदीर्णं च निगृह्णीयाद्द्विजो मनः ॥",
+          "meaning": {
+            "en": "Brahmacharya is very hard; hear from me the means. The twice-born should restrain the mind when it has arisen and surges up."
+          }
         },
         {
           "n": 12,
-          "text": "योषितां न कथाः श्राव्या न निरीक्ष्या निरम्बराः ।\nकदाचिद्दर्शनादासां दुर्बलानाविशेद्रजः ॥"
+          "text": "योषितां न कथाः श्राव्या न निरीक्ष्या निरम्बराः ।\nकदाचिद्दर्शनादासां दुर्बलानाविशेद्रजः ॥",
+          "meaning": {
+            "en": "Talk about women should not be listened to, nor should they be looked at unclothed; at times the sight of them can stir passion in the weak."
+          }
         },
         {
           "n": 13,
-          "text": "रागोत्पत्तौ चरेत्कृच्छ्रमह्नस्त्रिः प्रविशेदपः ।\nमग्नः स्वप्ने च मनसा त्रिर्जपेदघमर्षणम् ॥"
+          "text": "रागोत्पत्तौ चरेत्कृच्छ्रमह्नस्त्रिः प्रविशेदपः ।\nमग्नः स्वप्ने च मनसा त्रिर्जपेदघमर्षणम् ॥",
+          "meaning": {
+            "en": "When desire arises one should do hard penance, enter water three times a day, and in a dream, plunged in water, recite the Aghamarshana three times in the mind."
+          }
         },
         {
           "n": 14,
-          "text": "पाप्मानं निर्दहेदेवमन्तर्भूतं रजोमयम् ।\nज्ञानयुक्तेन मनसा संततेन विचक्षणः ॥"
+          "text": "पाप्मानं निर्दहेदेवमन्तर्भूतं रजोमयम् ।\nज्ञानयुक्तेन मनसा संततेन विचक्षणः ॥",
+          "meaning": {
+            "en": "In this way the wise man should burn away the sin of rajas that lies within, with a mind steadily joined to knowledge."
+          }
         },
         {
           "n": 15,
-          "text": "कुणपामेध्यसंयुक्तं यद्वदच्छिद्रबन्धनम् ।\nतद्वद्देहगतं विद्यादात्मानं देहबन्धनम् ॥"
+          "text": "कुणपामेध्यसंयुक्तं यद्वदच्छिद्रबन्धनम् ।\nतद्वद्देहगतं विद्यादात्मानं देहबन्धनम् ॥",
+          "meaning": {
+            "en": "As a flawless bond joined with corpse and filth, so know the self in the body to be bound by the body."
+          }
         },
         {
           "n": 16,
-          "text": "वातपित्तकफान्रक्तं त्वङ्मांसं स्नायुमस्थि च ।\nमज्जां चैव सिराजालैस्तर्पयन्ति रसा नृणाम् ॥"
+          "text": "वातपित्तकफान्रक्तं त्वङ्मांसं स्नायुमस्थि च ।\nमज्जां चैव सिराजालैस्तर्पयन्ति रसा नृणाम् ॥",
+          "meaning": {
+            "en": "The fluids feed in men the wind, bile and phlegm, the blood, skin, flesh, sinews, bone and marrow, through networks of vessels."
+          }
         },
         {
           "n": 17,
-          "text": "दश विद्याद्धमन्योऽत्र पञ्चेन्द्रियगुणावहाः ।\nयाभिः सूक्ष्माः प्रतायन्ते धमन्योऽन्याः सहस्रशः ॥"
+          "text": "दश विद्याद्धमन्योऽत्र पञ्चेन्द्रियगुणावहाः ।\nयाभिः सूक्ष्माः प्रतायन्ते धमन्योऽन्याः सहस्रशः ॥",
+          "meaning": {
+            "en": "Know there to be ten channels that carry the qualities of the five senses, from which thousands of other fine channels spread."
+          }
         },
         {
           "n": 18,
-          "text": "एवमेताः सिरानद्यो रसोदा देहसागरम् ।\nतर्पयन्ति यथाकालमापगा इव सागरम् ॥"
+          "text": "एवमेताः सिरानद्यो रसोदा देहसागरम् ।\nतर्पयन्ति यथाकालमापगा इव सागरम् ॥",
+          "meaning": {
+            "en": "So these river-like vessels carry fluid into the sea of the body at the proper time, as rivers feed the sea."
+          }
         },
         {
           "n": 19,
-          "text": "मध्ये च हृदयस्यैका सिरा त्वत्र मनोवहा ।\nशुक्रं संकल्पजं नॄणां सर्वगात्रैर्विमुञ्चति ॥"
+          "text": "मध्ये च हृदयस्यैका सिरा त्वत्र मनोवहा ।\nशुक्रं संकल्पजं नॄणां सर्वगात्रैर्विमुञ्चति ॥",
+          "meaning": {
+            "en": "In the middle of the heart is one vessel that carries the mind; from it, semen born of thought is released through all the limbs of men."
+          }
         },
         {
           "n": 20,
-          "text": "सर्वगात्रप्रतायिन्यस्तस्या ह्यनुगताः सिराः ।\nनेत्रयोः प्रतिपद्यन्ते वहन्त्यस्तैजसं गुणम् ॥"
+          "text": "सर्वगात्रप्रतायिन्यस्तस्या ह्यनुगताः सिराः ।\nनेत्रयोः प्रतिपद्यन्ते वहन्त्यस्तैजसं गुणम् ॥",
+          "meaning": {
+            "en": "The vessels spreading through all the limbs follow it and reach the two eyes, carrying the quality of light."
+          }
         },
         {
           "n": 21,
-          "text": "पयस्यन्तर्हितं सर्पिर्यद्वन्निर्मथ्यते खजैः ।\nशुक्रं निर्मथ्यते तद्वद्देहसंकल्पजैः खजैः ॥"
+          "text": "पयस्यन्तर्हितं सर्पिर्यद्वन्निर्मथ्यते खजैः ।\nशुक्रं निर्मथ्यते तद्वद्देहसंकल्पजैः खजैः ॥",
+          "meaning": {
+            "en": "As ghee hidden in milk is churned out by the churning-sticks, so semen is churned out by the stirrings born of the body's thoughts."
+          }
         },
         {
           "n": 22,
-          "text": "स्वप्नेऽप्येवं यथाभ्येति मनःसंकल्पजं रजः ।\nशुक्रमस्पर्शजं देहात्सृजन्त्यस्य मनोवहा ॥"
+          "text": "स्वप्नेऽप्येवं यथाभ्येति मनःसंकल्पजं रजः ।\nशुक्रमस्पर्शजं देहात्सृजन्त्यस्य मनोवहा ॥",
+          "meaning": {
+            "en": "So in dream too, the passion born of the mind's thought comes; the mind-carrying vessels release semen from his body without any touch."
+          }
         },
         {
           "n": 23,
-          "text": "महर्षिर्भगवानत्रिर्वेद तच्छुक्रसंभवम् ।\nत्रिबीजमिन्द्रदैवत्यं तस्मादिन्द्रियमुच्यते ॥"
+          "text": "महर्षिर्भगवानत्रिर्वेद तच्छुक्रसंभवम् ।\nत्रिबीजमिन्द्रदैवत्यं तस्मादिन्द्रियमुच्यते ॥",
+          "meaning": {
+            "en": "The great sage, the lord Atri, knows how that semen comes to be; it has three seeds and Indra as its deity, so it is called indriya."
+          }
         },
         {
           "n": 24,
-          "text": "ये वै शुक्रगतिं विद्युर्भूतसंकरकारिकाम् ।\nविरागा दग्धदोषास्ते नाप्नुयुर्देहसंभवम् ॥"
+          "text": "ये वै शुक्रगतिं विद्युर्भूतसंकरकारिकाम् ।\nविरागा दग्धदोषास्ते नाप्नुयुर्देहसंभवम् ॥",
+          "meaning": {
+            "en": "Those who know the course of semen, which causes the mixing of beings, become dispassionate with their faults burnt away, and do not take birth in a body."
+          }
         },
         {
           "n": 25,
-          "text": "गुणानां साम्यमागम्य मनसैव मनोवहम् ।\nदेहकर्म नुदन्प्राणानन्तकाले विमुच्यते ॥"
+          "text": "गुणानां साम्यमागम्य मनसैव मनोवहम् ।\nदेहकर्म नुदन्प्राणानन्तकाले विमुच्यते ॥",
+          "meaning": {
+            "en": "Reaching the evenness of the qualities, driving the mind-carrier by the mind alone, and pushing away the body's actions and breaths, one is freed at the end of time."
+          }
         },
         {
           "n": 26,
-          "text": "भविता मनसो ज्ञानं मन एव प्रतायते ।\nज्योतिष्मद्विरजो दिव्यमत्र सिद्धं महात्मनाम् ॥"
+          "text": "भविता मनसो ज्ञानं मन एव प्रतायते ।\nज्योतिष्मद्विरजो दिव्यमत्र सिद्धं महात्मनाम् ॥",
+          "meaning": {
+            "en": "Knowledge will arise from the mind, and the mind itself expands; here the luminous, passionless, divine state is attained by the great-souled."
+          }
         },
         {
           "n": 27,
-          "text": "तस्मात्तदविघाताय कर्म कुर्यादकल्मषम् ।\nरजस्तमश्च हित्वेह न तिर्यग्गतिमाप्नुयात् ॥"
+          "text": "तस्मात्तदविघाताय कर्म कुर्यादकल्मषम् ।\nरजस्तमश्च हित्वेह न तिर्यग्गतिमाप्नुयात् ॥",
+          "meaning": {
+            "en": "So, to keep it unhindered, one should do stainless work; having given up rajas and tamas here, one does not reach an animal birth."
+          }
         },
         {
           "n": 28,
-          "text": "तरुणाधिगतं ज्ञानं जरादुर्बलतां गतम् ।\nपरिपक्वबुद्धिः कालेन आदत्ते मानसं बलम् ॥"
+          "text": "तरुणाधिगतं ज्ञानं जरादुर्बलतां गतम् ।\nपरिपक्वबुद्धिः कालेन आदत्ते मानसं बलम् ॥",
+          "meaning": {
+            "en": "Knowledge gained in youth, though weakened by old age, is taken up by one of ripened understanding in time as strength of mind."
+          }
         },
         {
           "n": 29,
-          "text": "सुदुर्गमिव पन्थानमतीत्य गुणबन्धनम् ।\nयदा पश्येत्तदा दोषानतीत्यामृतमश्नुते ॥"
+          "text": "सुदुर्गमिव पन्थानमतीत्य गुणबन्धनम् ।\nयदा पश्येत्तदा दोषानतीत्यामृतमश्नुते ॥",
+          "meaning": {
+            "en": "Having crossed the bond of the qualities, like a very hard road, when one sees thus, then, passing beyond faults, one enjoys immortality."
+          }
         }
       ]
     }

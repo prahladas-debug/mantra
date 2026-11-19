@@ -22,220 +22,385 @@
       "titleEn": "Mokshadharma Parva (Duties for liberation)",
       "verses": [
         {
-          "text": "भीष्म उवाच"
+          "text": "भीष्म उवाच",
+          "meaning": {
+            "en": "Bhishma said:"
+          }
         },
         {
           "n": 1,
-          "text": "अत्राप्युदाहरन्तीममितिहासं पुरातनम् ।\nतुलाधारस्य वाक्यानि धर्मे जाजलिना सह ॥"
+          "text": "अत्राप्युदाहरन्तीममितिहासं पुरातनम् ।\nतुलाधारस्य वाक्यानि धर्मे जाजलिना सह ॥",
+          "meaning": {
+            "en": "On this too they tell an ancient story: the words of Tuladhara to Jajali on dharma."
+          }
         },
         {
           "n": 2,
-          "text": "वने वनचरः कश्चिज्जाजलिर्नाम वै द्विजः ।\nसागरोद्देशमागम्य तपस्तेपे महातपाः ॥"
+          "text": "वने वनचरः कश्चिज्जाजलिर्नाम वै द्विजः ।\nसागरोद्देशमागम्य तपस्तेपे महातपाः ॥",
+          "meaning": {
+            "en": "In the forest there was a brahmin of the woods named Jajali, who came to the seashore and practised great austerity."
+          }
         },
         {
           "n": 3,
-          "text": "नियतो नियताहारश्चीराजिनजटाधरः ।\nमलपङ्कधरो धीमान्बहून्वर्षगणान्मुनिः ॥"
+          "text": "नियतो नियताहारश्चीराजिनजटाधरः ।\nमलपङ्कधरो धीमान्बहून्वर्षगणान्मुनिः ॥",
+          "meaning": {
+            "en": "Disciplined, disciplined in food, wearing bark, antelope skin and matted hair, bearing dirt and mud, the wise sage did so for many years."
+          }
         },
         {
           "n": 4,
-          "text": "स कदाचिन्महातेजा जलवासो महीपते ।\nचचार लोकान्विप्रर्षिः प्रेक्षमाणो मनोजवः ॥"
+          "text": "स कदाचिन्महातेजा जलवासो महीपते ।\nचचार लोकान्विप्रर्षिः प्रेक्षमाणो मनोजवः ॥",
+          "meaning": {
+            "en": "Once, king, that radiant brahmin sage, living in the water, travelled the worlds, quick as thought, looking about."
+          }
         },
         {
           "n": 5,
-          "text": "स चिन्तयामास मुनिर्जलमध्ये कदाचन ।\nविप्रेक्ष्य सागरान्तां वै महीं सवनकाननाम् ॥"
+          "text": "स चिन्तयामास मुनिर्जलमध्ये कदाचन ।\nविप्रेक्ष्य सागरान्तां वै महीं सवनकाननाम् ॥",
+          "meaning": {
+            "en": "Once, in the midst of the water, the sage, looking at the earth bounded by the sea with its forests and groves, thought:"
+          }
         },
         {
           "n": 6,
-          "text": "न मया सदृशोऽस्तीह लोके स्थावरजङ्गमे ।\nअप्सु वैहायसं गच्छेन्मया योऽन्यः सहेति वै ॥"
+          "text": "न मया सदृशोऽस्तीह लोके स्थावरजङ्गमे ।\nअप्सु वैहायसं गच्छेन्मया योऽन्यः सहेति वै ॥",
+          "meaning": {
+            "en": "\"There is no one in the world like me, among the moving and unmoving; who else could go with me through the water or through the sky?\""
+          }
         },
         {
           "n": 7,
-          "text": "स दृश्यमानो रक्षोभिर्जलमध्येऽवदत्ततः ।\nअब्रुवंश्च पिशाचास्तं नैवं त्वं वक्तुमर्हसि ॥"
+          "text": "स दृश्यमानो रक्षोभिर्जलमध्येऽवदत्ततः ।\nअब्रुवंश्च पिशाचास्तं नैवं त्वं वक्तुमर्हसि ॥",
+          "meaning": {
+            "en": "Seen by rakshasas in the water, he said this, and the pishachas told him, \"You should not speak so."
+          }
         },
         {
           "n": 8,
-          "text": "तुलाधारो वणिग्धर्मा वाराणस्यां महायशाः ।\nसोऽप्येवं नार्हते वक्तुं यथा त्वं द्विजसत्तम ॥"
+          "text": "तुलाधारो वणिग्धर्मा वाराणस्यां महायशाः ।\nसोऽप्येवं नार्हते वक्तुं यथा त्वं द्विजसत्तम ॥",
+          "meaning": {
+            "en": "Tuladhara, of the merchant's dharma, famous, in Varanasi, does not say such a thing as you, best of brahmins.\""
+          }
         },
         {
           "n": 9,
-          "text": "इत्युक्तो जाजलिर्भूतैः प्रत्युवाच महातपाः ।\nपश्येयं तमहं प्राज्ञं तुलाधारं यशस्विनम् ॥"
+          "text": "इत्युक्तो जाजलिर्भूतैः प्रत्युवाच महातपाः ।\nपश्येयं तमहं प्राज्ञं तुलाधारं यशस्विनम् ॥",
+          "meaning": {
+            "en": "Thus addressed by the spirits, the very austere Jajali replied: \"I would like to see that wise and renowned Tuladhara.\""
+          }
         },
         {
           "n": 10,
-          "text": "इति ब्रुवाणं तमृषिं रक्षांस्युद्धृत्य सागरात् ।\nअब्रुवन्गच्छ पन्थानमास्थायेमं द्विजोत्तम ॥"
+          "text": "इति ब्रुवाणं तमृषिं रक्षांस्युद्धृत्य सागरात् ।\nअब्रुवन्गच्छ पन्थानमास्थायेमं द्विजोत्तम ॥",
+          "meaning": {
+            "en": "As the sage said so, the rakshasas lifted him out of the sea and said, \"Go, best of brahmins, by this road.\""
+          }
         },
         {
           "n": 11,
-          "text": "इत्युक्तो जाजलिर्भूतैर्जगाम विमनास्तदा ।\nवाराणस्यां तुलाधारं समासाद्याब्रवीद्वचः ॥"
+          "text": "इत्युक्तो जाजलिर्भूतैर्जगाम विमनास्तदा ।\nवाराणस्यां तुलाधारं समासाद्याब्रवीद्वचः ॥",
+          "meaning": {
+            "en": "So addressed by the spirits, Jajali went, downcast, and reaching Tuladhara in Varanasi, spoke to him."
+          }
         },
         {
-          "text": "युधिष्ठिर उवाच"
+          "text": "युधिष्ठिर उवाच",
+          "meaning": {
+            "en": "Yudhishthira said:"
+          }
         },
         {
           "n": 12,
-          "text": "किं कृतं सुकृतं कर्म तात जाजलिना पुरा ।\nयेन सिद्धिं परां प्राप्तस्तन्नो व्याख्यातुमर्हसि ॥"
+          "text": "किं कृतं सुकृतं कर्म तात जाजलिना पुरा ।\nयेन सिद्धिं परां प्राप्तस्तन्नो व्याख्यातुमर्हसि ॥",
+          "meaning": {
+            "en": "What good deed did Jajali do before, grandfather, by which he reached high success? Please explain this to us."
+          }
         },
         {
-          "text": "भीष्म उवाच"
+          "text": "भीष्म उवाच",
+          "meaning": {
+            "en": "Bhishma said:"
+          }
         },
         {
           "n": 13,
-          "text": "अतीव तपसा युक्तो घोरेण स बभूव ह ।\nनद्युपस्पर्शनरतः सायं प्रातर्महातपाः ॥"
+          "text": "अतीव तपसा युक्तो घोरेण स बभूव ह ।\nनद्युपस्पर्शनरतः सायं प्रातर्महातपाः ॥",
+          "meaning": {
+            "en": "He became exceedingly devoted to terrible austerity, delighting in bathing in the river morning and evening, a great ascetic."
+          }
         },
         {
           "n": 14,
-          "text": "अग्नीन्परिचरन्सम्यक्स्वाध्यायपरमो द्विजः ।\nवानप्रस्थविधानज्ञो जाजलिर्ज्वलितः श्रिया ॥"
+          "text": "अग्नीन्परिचरन्सम्यक्स्वाध्यायपरमो द्विजः ।\nवानप्रस्थविधानज्ञो जाजलिर्ज्वलितः श्रिया ॥",
+          "meaning": {
+            "en": "That brahmin, tending the fires properly and devoted to Vedic recitation, knowing the rules of the forest-dweller, Jajali, blazed with splendour."
+          }
         },
         {
           "n": 15,
-          "text": "सत्ये तपसि तिष्ठन्स न च धर्ममवैक्षत ।\nवर्षास्वाकाशशायी स हेमन्ते जलसंश्रयः ॥"
+          "text": "सत्ये तपसि तिष्ठन्स न च धर्ममवैक्षत ।\nवर्षास्वाकाशशायी स हेमन्ते जलसंश्रयः ॥",
+          "meaning": {
+            "en": "Standing in truth and austerity, he did not look to dharma. In the rains he lay in the open, in winter he stayed in water,"
+          }
         },
         {
           "n": 16,
-          "text": "वातातपसहो ग्रीष्मे न च धर्ममविन्दत ।\nदुःखशय्याश्च विविधा भूमौ च परिवर्तनम् ॥"
+          "text": "वातातपसहो ग्रीष्मे न च धर्ममविन्दत ।\nदुःखशय्याश्च विविधा भूमौ च परिवर्तनम् ॥",
+          "meaning": {
+            "en": "in summer he endured wind and sun; yet he did not find dharma. He suffered painful beds of many kinds and rolled on the ground."
+          }
         },
         {
           "n": 17,
-          "text": "ततः कदाचित्स मुनिर्वर्षास्वाकाशमास्थितः ।\nअन्तरिक्षाज्जलं मूर्ध्ना प्रत्यगृह्णान्मुहुर्मुहुः ॥"
+          "text": "ततः कदाचित्स मुनिर्वर्षास्वाकाशमास्थितः ।\nअन्तरिक्षाज्जलं मूर्ध्ना प्रत्यगृह्णान्मुहुर्मुहुः ॥",
+          "meaning": {
+            "en": "Once, as the sage stood in the open in the rainy season, he again and again caught the water from the sky on his head."
+          }
         },
         {
           "n": 18,
-          "text": "अथ तस्य जटाः क्लिन्ना बभूवुर्ग्रथिताः प्रभो ।\nअरण्यगमनान्नित्यं मलिनो मलसंयुताः ॥"
+          "text": "अथ तस्य जटाः क्लिन्ना बभूवुर्ग्रथिताः प्रभो ।\nअरण्यगमनान्नित्यं मलिनो मलसंयुताः ॥",
+          "meaning": {
+            "en": "Then his matted locks, my lord, became wet and tangled, dirty from constant wandering in the forest."
+          }
         },
         {
           "n": 19,
-          "text": "स कदाचिन्निराहारो वायुभक्षो महातपाः ।\nतस्थौ काष्ठवदव्यग्रो न चचाल च कर्हिचित् ॥"
+          "text": "स कदाचिन्निराहारो वायुभक्षो महातपाः ।\nतस्थौ काष्ठवदव्यग्रो न चचाल च कर्हिचित् ॥",
+          "meaning": {
+            "en": "Once the great ascetic, fasting and living on air, stood like a log, undisturbed, and never moved."
+          }
         },
         {
           "n": 20,
-          "text": "तस्य स्म स्थाणुभूतस्य निर्विचेष्टस्य भारत ।\nकुलिङ्गशकुनौ राजन्नीडं शिरसि चक्रतुः ॥"
+          "text": "तस्य स्म स्थाणुभूतस्य निर्विचेष्टस्य भारत ।\nकुलिङ्गशकुनौ राजन्नीडं शिरसि चक्रतुः ॥",
+          "meaning": {
+            "en": "As he stood like a post, motionless, Bharata, a pair of kulinga birds made a nest on his head."
+          }
         },
         {
           "n": 21,
-          "text": "स तौ दयावान्विप्रर्षिरुपप्रैक्षत दम्पती ।\nकुर्वाणं नीडकं तत्र जटासु तृणतन्तुभिः ॥"
+          "text": "स तौ दयावान्विप्रर्षिरुपप्रैक्षत दम्पती ।\nकुर्वाणं नीडकं तत्र जटासु तृणतन्तुभिः ॥",
+          "meaning": {
+            "en": "The compassionate brahmin sage watched the couple making their nest in his locks with grass and threads."
+          }
         },
         {
           "n": 22,
-          "text": "यदा स न चलत्येव स्थाणुभूतो महातपाः ।\nततस्तौ परिविश्वस्तौ सुखं तत्रोषतुस्तदा ॥"
+          "text": "यदा स न चलत्येव स्थाणुभूतो महातपाः ।\nततस्तौ परिविश्वस्तौ सुखं तत्रोषतुस्तदा ॥",
+          "meaning": {
+            "en": "Since the great ascetic did not move at all, standing like a post, the two grew trusting and lived there happily."
+          }
         },
         {
           "n": 23,
-          "text": "अतीतास्वथ वर्षासु शरत्काल उपस्थिते ।\nप्राजापत्येन विधिना विश्वासात्काममोहितौ ॥"
+          "text": "अतीतास्वथ वर्षासु शरत्काल उपस्थिते ।\nप्राजापत्येन विधिना विश्वासात्काममोहितौ ॥",
+          "meaning": {
+            "en": "When the rains had passed and autumn came, the two birds, trusting him and carried away by desire, according to the rule of Prajapati,"
+          }
         },
         {
           "n": 24,
-          "text": "तत्रापातयतां राजञ्शिरस्यण्डानि खेचरौ ।\nतान्यबुध्यत तेजस्वी स विप्रः संशितव्रतः ॥"
+          "text": "तत्रापातयतां राजञ्शिरस्यण्डानि खेचरौ ।\nतान्यबुध्यत तेजस्वी स विप्रः संशितव्रतः ॥",
+          "meaning": {
+            "en": "dropped eggs on his head, king. The radiant brahmin of strict vows noticed them."
+          }
         },
         {
           "n": 25,
-          "text": "बुद्ध्वा च स महातेजा न चचालैव जाजलिः ।\nधर्मे धृतमना नित्यं नाधर्मं स त्वरोचयत् ॥"
+          "text": "बुद्ध्वा च स महातेजा न चचालैव जाजलिः ।\nधर्मे धृतमना नित्यं नाधर्मं स त्वरोचयत् ॥",
+          "meaning": {
+            "en": "Though he knew, the very radiant Jajali did not move; his mind was always set on dharma, and he did not like adharma."
+          }
         },
         {
           "n": 26,
-          "text": "अहन्यहनि चागम्य ततस्तौ तस्य मूर्धनि ।\nआश्वासितौ वै वसतः संप्रहृष्टौ तदा विभो ॥"
+          "text": "अहन्यहनि चागम्य ततस्तौ तस्य मूर्धनि ।\nआश्वासितौ वै वसतः संप्रहृष्टौ तदा विभो ॥",
+          "meaning": {
+            "en": "Day after day the two came to his head and lived there reassured and delighted."
+          }
         },
         {
           "n": 27,
-          "text": "अण्डेभ्यस्त्वथ पुष्टेभ्यः प्रजायन्त शकुन्तकाः ।\nव्यवर्धन्त च तत्रैव न चाकम्पत जाजलिः ॥"
+          "text": "अण्डेभ्यस्त्वथ पुष्टेभ्यः प्रजायन्त शकुन्तकाः ।\nव्यवर्धन्त च तत्रैव न चाकम्पत जाजलिः ॥",
+          "meaning": {
+            "en": "From the nourished eggs fledglings were born, and they grew there, and Jajali did not stir."
+          }
         },
         {
           "n": 28,
-          "text": "स रक्षमाणस्त्वण्डानि कुलिङ्गानां यतव्रतः ।\nतथैव तस्थौ धर्मात्मा निर्विचेष्टः समाहितः ॥"
+          "text": "स रक्षमाणस्त्वण्डानि कुलिङ्गानां यतव्रतः ।\nतथैव तस्थौ धर्मात्मा निर्विचेष्टः समाहितः ॥",
+          "meaning": {
+            "en": "Guarding the kulinga eggs, the disciplined and righteous one stood so, motionless and composed."
+          }
         },
         {
           "n": 29,
-          "text": "ततस्तु कालसमये बभूवुस्तेऽथ पक्षिणः ।\nबुबुधे तांश्च स मुनिर्जातपक्षाञ्शकुन्तकान् ॥"
+          "text": "ततस्तु कालसमये बभूवुस्तेऽथ पक्षिणः ।\nबुबुधे तांश्च स मुनिर्जातपक्षाञ्शकुन्तकान् ॥",
+          "meaning": {
+            "en": "Then in time the birds were born, and the sage knew the fledglings had grown wings."
+          }
         },
         {
           "n": 30,
-          "text": "ततः कदाचित्तांस्तत्र पश्यन्पक्षीन्यतव्रतः ।\nबभूव परमप्रीतस्तदा मतिमतां वरः ॥"
+          "text": "ततः कदाचित्तांस्तत्र पश्यन्पक्षीन्यतव्रतः ।\nबभूव परमप्रीतस्तदा मतिमतां वरः ॥",
+          "meaning": {
+            "en": "Then once, seeing those birds there, the disciplined one, best of the wise, was exceedingly pleased."
+          }
         },
         {
           "n": 31,
-          "text": "तथा तानभिसंवृद्धान्दृष्ट्वा चाप्नुवतां मुदम् ।\nशकुनौ निर्भयौ तत्र ऊषतुश्चात्मजैः सह ॥"
+          "text": "तथा तानभिसंवृद्धान्दृष्ट्वा चाप्नुवतां मुदम् ।\nशकुनौ निर्भयौ तत्र ऊषतुश्चात्मजैः सह ॥",
+          "meaning": {
+            "en": "Seeing them grown and happy, the two birds lived there fearless with their young."
+          }
         },
         {
           "n": 32,
-          "text": "जातपक्षांश्च सोऽपश्यदुड्डीनान्पुनरागतान् ।\nसायं सायं द्विजान्विप्रो न चाकम्पत जाजलिः ॥"
+          "text": "जातपक्षांश्च सोऽपश्यदुड्डीनान्पुनरागतान् ।\nसायं सायं द्विजान्विप्रो न चाकम्पत जाजलिः ॥",
+          "meaning": {
+            "en": "He saw them with wings, fly off and return; the brahmin, evening after evening, did not stir."
+          }
         },
         {
           "n": 33,
-          "text": "कदाचित्पुनरभ्येत्य पुनर्गच्छन्ति संततम् ।\nत्यक्ता मातृपितृभ्यां ते न चाकम्पत जाजलिः ॥"
+          "text": "कदाचित्पुनरभ्येत्य पुनर्गच्छन्ति संततम् ।\nत्यक्ता मातृपितृभ्यां ते न चाकम्पत जाजलिः ॥",
+          "meaning": {
+            "en": "Sometimes they came back and again went away, again and again; abandoned by mother and father, they did so, and Jajali did not move."
+          }
         },
         {
           "n": 34,
-          "text": "अथ ते दिवसं चारीं गत्वा सायं पुनर्नृप ।\nउपावर्तन्त तत्रैव निवासार्थं शकुन्तकाः ॥"
+          "text": "अथ ते दिवसं चारीं गत्वा सायं पुनर्नृप ।\nउपावर्तन्त तत्रैव निवासार्थं शकुन्तकाः ॥",
+          "meaning": {
+            "en": "Then the birds, having gone a day's range, returned there in the evening to stay."
+          }
         },
         {
           "n": 35,
-          "text": "कदाचिद्दिवसान्पञ्च समुत्पत्य विहंगमाः ।\nषष्ठेऽहनि समाजग्मुर्न चाकम्पत जाजलिः ॥"
+          "text": "कदाचिद्दिवसान्पञ्च समुत्पत्य विहंगमाः ।\nषष्ठेऽहनि समाजग्मुर्न चाकम्पत जाजलिः ॥",
+          "meaning": {
+            "en": "Sometimes the birds would fly off for five days and return on the sixth; Jajali did not stir."
+          }
         },
         {
           "n": 36,
-          "text": "क्रमेण च पुनः सर्वे दिवसानि बहून्यपि ।\nनोपावर्तन्त शकुना जातप्राणाः स्म ते यदा ॥"
+          "text": "क्रमेण च पुनः सर्वे दिवसानि बहून्यपि ।\nनोपावर्तन्त शकुना जातप्राणाः स्म ते यदा ॥",
+          "meaning": {
+            "en": "Gradually all the birds, for many days, no longer came back when they had grown strong."
+          }
         },
         {
           "n": 37,
-          "text": "कदाचिन्मासमात्रेण समुत्पत्य विहंगमाः ।\nनैवागच्छंस्ततो राजन्प्रातिष्ठत स जाजलिः ॥"
+          "text": "कदाचिन्मासमात्रेण समुत्पत्य विहंगमाः ।\nनैवागच्छंस्ततो राजन्प्रातिष्ठत स जाजलिः ॥",
+          "meaning": {
+            "en": "Once the birds flew away for a whole month and did not come back, king, so Jajali moved off."
+          }
         },
         {
           "n": 38,
-          "text": "ततस्तेषु प्रलीनेषु जाजलिर्जातविस्मयः ।\nसिद्धोऽस्मीति मतिं चक्रे ततस्तं मान आविशत् ॥"
+          "text": "ततस्तेषु प्रलीनेषु जाजलिर्जातविस्मयः ।\nसिद्धोऽस्मीति मतिं चक्रे ततस्तं मान आविशत् ॥",
+          "meaning": {
+            "en": "When they had gone, Jajali was amazed and thought, \"I am perfected,\" and then pride entered him."
+          }
         },
         {
           "n": 39,
-          "text": "स तथा निर्गतान्दृष्ट्वा शकुन्तान्नियतव्रतः ।\nसंभावितात्मा संभाव्य भृशं प्रीतस्तदाभवन् ॥"
+          "text": "स तथा निर्गतान्दृष्ट्वा शकुन्तान्नियतव्रतः ।\nसंभावितात्मा संभाव्य भृशं प्रीतस्तदाभवन् ॥",
+          "meaning": {
+            "en": "Seeing the birds gone out so, the disciplined and self-regarding one, having thought well of himself, was very pleased."
+          }
         },
         {
           "n": 40,
-          "text": "स नद्यां समुपस्पृश्य तर्पयित्वा हुताशनम् ।\nउदयन्तमथादित्यमभ्यगच्छन्महातपाः ॥"
+          "text": "स नद्यां समुपस्पृश्य तर्पयित्वा हुताशनम् ।\nउदयन्तमथादित्यमभ्यगच्छन्महातपाः ॥",
+          "meaning": {
+            "en": "Having bathed in the river and satisfied the fire, the great ascetic went toward the rising sun."
+          }
         },
         {
           "n": 41,
-          "text": "संभाव्य चटकान्मूर्ध्नि जाजलिर्जपतां वरः ।\nआस्फोटयत्तदाकाशे धर्मः प्राप्तो मयेति वै ॥"
+          "text": "संभाव्य चटकान्मूर्ध्नि जाजलिर्जपतां वरः ।\nआस्फोटयत्तदाकाशे धर्मः प्राप्तो मयेति वै ॥",
+          "meaning": {
+            "en": "Thinking well of the sparrows on his head, Jajali, best of those who recite, slapped his arms in the sky and said, \"I have attained dharma!\""
+          }
         },
         {
           "n": 42,
-          "text": "अथान्तरिक्षे वागासीत्तां स शुश्राव जाजलिः ।\nधर्मेण न समस्त्वं वै तुलाधारस्य जाजले ॥"
+          "text": "अथान्तरिक्षे वागासीत्तां स शुश्राव जाजलिः ।\nधर्मेण न समस्त्वं वै तुलाधारस्य जाजले ॥",
+          "meaning": {
+            "en": "Then a voice in the sky spoke, and Jajali heard it: \"Jajali, you are not equal to Tuladhara in dharma.\""
+          }
         },
         {
           "n": 43,
-          "text": "वाराणस्यां महाप्राज्ञस्तुलाधारः प्रतिष्ठितः ।\nसोऽप्येवं नार्हते वक्तुं यथा त्वं भाषसे द्विज ॥"
+          "text": "वाराणस्यां महाप्राज्ञस्तुलाधारः प्रतिष्ठितः ।\nसोऽप्येवं नार्हते वक्तुं यथा त्वं भाषसे द्विज ॥",
+          "meaning": {
+            "en": "\"The very wise Tuladhara is established in Varanasi; he too does not speak as you speak, brahmin.\""
+          }
         },
         {
           "n": 44,
-          "text": "सोऽमर्षवशमापन्नस्तुलाधारदिदृक्षया ।\nपृथिवीमचरद्राजन्यत्रसायंगृहो मुनिः ॥"
+          "text": "सोऽमर्षवशमापन्नस्तुलाधारदिदृक्षया ।\nपृथिवीमचरद्राजन्यत्रसायंगृहो मुनिः ॥",
+          "meaning": {
+            "en": "Overcome by impatience, wishing to see Tuladhara, the sage wandered the earth, stopping where evening found him."
+          }
         },
         {
           "n": 45,
-          "text": "कालेन महतागच्छत्स तु वाराणसीं पुरीम् ।\nविक्रीणन्तं च पण्यानि तुलाधारं ददर्श सः ॥"
+          "text": "कालेन महतागच्छत्स तु वाराणसीं पुरीम् ।\nविक्रीणन्तं च पण्यानि तुलाधारं ददर्श सः ॥",
+          "meaning": {
+            "en": "After a long time he came to the city of Varanasi, and there he saw Tuladhara selling his wares."
+          }
         },
         {
           "n": 46,
-          "text": "सोऽपि दृष्ट्वैव तं विप्रमायान्तं भाण्डजीवनः ।\nसमुत्थाय सुसंहृष्टः स्वागतेनाभ्यपूजयत् ॥"
+          "text": "सोऽपि दृष्ट्वैव तं विप्रमायान्तं भाण्डजीवनः ।\nसमुत्थाय सुसंहृष्टः स्वागतेनाभ्यपूजयत् ॥",
+          "meaning": {
+            "en": "Seeing the brahmin coming, the shopkeeper rose, very glad, and honoured him with a welcome."
+          }
         },
         {
-          "text": "तुलाधार उवाच"
+          "text": "तुलाधार उवाच",
+          "meaning": {
+            "en": "Tuladhara said:"
+          }
         },
         {
           "n": 47,
-          "text": "आयानेवासि विदितो मम ब्रह्मन्न संशयः ।\nब्रवीमि यत्तु वचनं तच्छृणुष्व द्विजोत्तम ॥"
+          "text": "आयानेवासि विदितो मम ब्रह्मन्न संशयः ।\nब्रवीमि यत्तु वचनं तच्छृणुष्व द्विजोत्तम ॥",
+          "meaning": {
+            "en": "Brahmin, I knew you were coming, without doubt. Hear, best of brahmins, what I say."
+          }
         },
         {
           "n": 48,
-          "text": "सागरानूपमाश्रित्य तपस्तप्तं त्वया महत् ।\nन च धर्मस्य संज्ञां त्वं पुरा वेत्थ कथंचन ॥"
+          "text": "सागरानूपमाश्रित्य तपस्तप्तं त्वया महत् ।\nन च धर्मस्य संज्ञां त्वं पुरा वेत्थ कथंचन ॥",
+          "meaning": {
+            "en": "You practised great austerity by the seashore, but you did not know the name of dharma before."
+          }
         },
         {
           "n": 49,
-          "text": "ततः सिद्धस्य तपसा तव विप्र शकुन्तकाः ।\nक्षिप्रं शिरस्यजायन्त ते च संभावितास्त्वया ॥"
+          "text": "ततः सिद्धस्य तपसा तव विप्र शकुन्तकाः ।\nक्षिप्रं शिरस्यजायन्त ते च संभावितास्त्वया ॥",
+          "meaning": {
+            "en": "Then, brahmin, perfected by your austerity, birds were soon born on your head, and you thought well of them."
+          }
         },
         {
           "n": 50,
-          "text": "जातपक्षा यदा ते च गताश्चारीमितस्ततः ।\nमन्यमानस्ततो धर्मं चटकप्रभवं द्विज ।\nखे वाचं त्वमथाश्रौषीर्मां प्रति द्विजसत्तम ॥"
+          "text": "जातपक्षा यदा ते च गताश्चारीमितस्ततः ।\nमन्यमानस्ततो धर्मं चटकप्रभवं द्विज ।\nखे वाचं त्वमथाश्रौषीर्मां प्रति द्विजसत्तम ॥",
+          "meaning": {
+            "en": "When they had wings and went off on their daily rounds here and there, thinking dharma had come from the sparrows, brahmin, you then heard a voice in the sky about me, best of brahmins."
+          }
         },
         {
           "n": 51,
-          "text": "अमर्षवशमापन्नस्ततः प्राप्तो भवानिह ।\nकरवाणि प्रियं किं ते तद्ब्रूहि द्विजसत्तम ॥"
+          "text": "अमर्षवशमापन्नस्ततः प्राप्तो भवानिह ।\nकरवाणि प्रियं किं ते तद्ब्रूहि द्विजसत्तम ॥",
+          "meaning": {
+            "en": "Overcome by impatience, you have come here. What can I do that is dear to you? Tell me, best of brahmins."
+          }
         }
       ]
     }
