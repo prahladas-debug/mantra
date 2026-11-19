@@ -22,90 +22,178 @@
       "titleEn": "Ashvamedhika Parva (The horse sacrifice)",
       "verses": [
         {
-          "text": "जनमेजय उवाच"
+          "text": "जनमेजय उवाच",
+          "meaning": {
+            "en": "Janamejaya said:",
+            "hi": "जनमेजय बोले—"
+          }
         },
         {
           "n": 1,
-          "text": "उत्तङ्काय वरं दत्त्वा गोविन्दो द्विजसत्तम ।\nअत ऊर्ध्वं महाबाहुः किं चकार महायशाः ॥"
+          "text": "उत्तङ्काय वरं दत्त्वा गोविन्दो द्विजसत्तम ।\nअत ऊर्ध्वं महाबाहुः किं चकार महायशाः ॥",
+          "meaning": {
+            "en": "Best of brahmins, after granting a boon to Uttanka, what did the mighty-armed and renowned Govinda do next?",
+            "hi": "हे द्विजसत्तम, उत्तंक को वर देने के बाद महाबाहु और महायशस्वी गोविन्द ने फिर क्या किया?"
+          }
         },
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:",
+            "hi": "वैशम्पायन बोले—"
+          }
         },
         {
           "n": 2,
-          "text": "दत्त्वा वरमुत्तङ्काय प्रायात्सात्यकिना सह ।\nद्वारकामेव गोविन्दः शीघ्रवेगैर्महाहयैः ॥"
+          "text": "दत्त्वा वरमुत्तङ्काय प्रायात्सात्यकिना सह ।\nद्वारकामेव गोविन्दः शीघ्रवेगैर्महाहयैः ॥",
+          "meaning": {
+            "en": "Having granted Uttanka the boon, Govinda set out for Dvaraka with Satyaki, on great horses of swift speed.",
+            "hi": "उत्तंक को वर देकर गोविन्द सात्यकि के साथ तीव्र वेग वाले महान् घोड़ों पर द्वारका की ओर चल पड़े।"
+          }
         },
         {
           "n": 3,
-          "text": "सरांसि च नदीश्चैव वनानि विविधानि च ।\nअतिक्रम्य ससादाथ रम्यां द्वारवतीं पुरीम् ॥"
+          "text": "सरांसि च नदीश्चैव वनानि विविधानि च ।\nअतिक्रम्य ससादाथ रम्यां द्वारवतीं पुरीम् ॥",
+          "meaning": {
+            "en": "Passing lakes, rivers and many kinds of forests, he reached the lovely city of Dvaravati.",
+            "hi": "सरोवर, नदियों और अनेक प्रकार के वनों को पार करके वे सुंदर द्वारवती नगरी पहुँचे।"
+          }
         },
         {
           "n": 4,
-          "text": "वर्तमाने महाराज महे रैवतकस्य च ।\nउपायात्पुण्डरीकाक्षो युयुधानानुगस्तदा ॥"
+          "text": "वर्तमाने महाराज महे रैवतकस्य च ।\nउपायात्पुण्डरीकाक्षो युयुधानानुगस्तदा ॥",
+          "meaning": {
+            "en": "Great king, the festival of Raivataka was then under way when the lotus-eyed Krishna arrived, with Yuyudhana following.",
+            "hi": "हे महाराज, उस समय रैवतक पर्वत का उत्सव चल रहा था, जब कमलनयन कृष्ण युयुधान के साथ वहाँ पहुँचे।"
+          }
         },
         {
           "n": 5,
-          "text": "अलंकृतस्तु स गिरिर्नानारूपविचित्रितैः ।\nबभौ रुक्ममयैः काशैः सर्वतः पुरुषर्षभ ॥"
+          "text": "अलंकृतस्तु स गिरिर्नानारूपविचित्रितैः ।\nबभौ रुक्ममयैः काशैः सर्वतः पुरुषर्षभ ॥",
+          "meaning": {
+            "en": "The mountain, bull among men, was decked with many varied things and shone all around with golden kasa grass.",
+            "hi": "हे पुरुषश्रेष्ठ, वह पर्वत अनेक प्रकार की सजावट से अलंकृत था और चारों ओर स्वर्णमय कास के फूलों से चमक रहा था।"
+          }
         },
         {
           "n": 6,
-          "text": "काञ्चनस्रग्भिरग्र्याभिः सुमनोभिस्तथैव च ।\nवासोभिश्च महाशैलः कल्पवृक्षैश्च सर्वशः ॥"
+          "text": "काञ्चनस्रग्भिरग्र्याभिः सुमनोभिस्तथैव च ।\nवासोभिश्च महाशैलः कल्पवृक्षैश्च सर्वशः ॥",
+          "meaning": {
+            "en": "The great mountain was adorned everywhere with garlands of gold, with the finest flowers, with cloths, and with wish-granting trees.",
+            "hi": "वह महान् पर्वत सोने की मालाओं, उत्तम पुष्पों, वस्त्रों और कल्पवृक्षों से सब ओर सजा हुआ था।"
+          }
         },
         {
           "n": 7,
-          "text": "दीपवृक्षैश्च सौवर्णैरभीक्ष्णमुपशोभितः ।\nगुहानिर्झरदेशेषु दिवाभूतो बभूव ह ॥"
+          "text": "दीपवृक्षैश्च सौवर्णैरभीक्ष्णमुपशोभितः ।\nगुहानिर्झरदेशेषु दिवाभूतो बभूव ह ॥",
+          "meaning": {
+            "en": "It was constantly beautified by golden lamp-trees, so that even in its caves and spring-places it became like daylight.",
+            "hi": "वह सुनहरे दीप-वृक्षों से निरंतर सुशोभित था, इसलिए गुफाओं और झरनों के स्थानों में भी दिन जैसा प्रकाश हो गया था।"
+          }
         },
         {
           "n": 8,
-          "text": "पताकाभिर्विचित्राभिः सघण्टाभिः समन्ततः ।\nपुंभिः स्त्रीभिश्च संघुष्टः प्रगीत इव चाभवत् ।\nअतीव प्रेक्षणीयोऽभून्मेरुर्मुनिगणैरिव ॥"
+          "text": "पताकाभिर्विचित्राभिः सघण्टाभिः समन्ततः ।\nपुंभिः स्त्रीभिश्च संघुष्टः प्रगीत इव चाभवत् ।\nअतीव प्रेक्षणीयोऽभून्मेरुर्मुनिगणैरिव ॥",
+          "meaning": {
+            "en": "With colorful flags and bells on every side, and resounding with men and women, it seemed to sing; it was lovely to behold, as Meru is with its crowds of sages.",
+            "hi": "रंग-बिरंगी पताकाओं और घंटियों से चारों ओर सजा हुआ, पुरुषों और स्त्रियों के स्वर से गूँजता हुआ वह मानो गा रहा था। मुनियों के समूहों से भरे मेरु पर्वत के समान वह अत्यंत मनोहर दिखता था।"
+          }
         },
         {
           "n": 9,
-          "text": "मत्तानां हृष्टरूपाणां स्त्रीणां पुंसां च भारत ।\nगायतां पर्वतेन्द्रस्य दिवस्पृगिव निस्वनः ॥"
+          "text": "मत्तानां हृष्टरूपाणां स्त्रीणां पुंसां च भारत ।\nगायतां पर्वतेन्द्रस्य दिवस्पृगिव निस्वनः ॥",
+          "meaning": {
+            "en": "Bharata, the sound of the intoxicated, joyful men and women singing there rose as if it touched heaven, from the lord of mountains.",
+            "hi": "हे भारत, उस पर्वतराज पर मत्त, प्रसन्न मुख वाले स्त्री-पुरुषों के गाने का स्वर मानो स्वर्ग को छू रहा था।"
+          }
         },
         {
           "n": 10,
-          "text": "प्रमत्तमत्तसंमत्तक्ष्वेडितोत्कृष्टसंकुला ।\nतथा किलकिलाशब्दैर्भूरभूत्सुमनोहरा ॥"
+          "text": "प्रमत्तमत्तसंमत्तक्ष्वेडितोत्कृष्टसंकुला ।\nतथा किलकिलाशब्दैर्भूरभूत्सुमनोहरा ॥",
+          "meaning": {
+            "en": "The ground was thronged with the merry and the drunk, with shouts and roars, and by cries of joy it became very charming.",
+            "hi": "उन्मत्त, मदमस्त और उत्साहित लोगों के शोर और गर्जन से भरी भूमि, किलकारियों के शब्दों से अत्यंत मनोहर हो गई थी।"
+          }
         },
         {
           "n": 11,
-          "text": "विपणापणवान्रम्यो भक्ष्यभोज्यविहारवान् ।\nवस्त्रमाल्योत्करयुतो वीणावेणुमृदङ्गवान् ॥"
+          "text": "विपणापणवान्रम्यो भक्ष्यभोज्यविहारवान् ।\nवस्त्रमाल्योत्करयुतो वीणावेणुमृदङ्गवान् ॥",
+          "meaning": {
+            "en": "It was delightful with shops and market stalls, with food, feasting and pleasure, with heaps of cloth and garlands, and with lutes, flutes and drums.",
+            "hi": "वह दुकानों और बाज़ारों से सुंदर था, खाने-पीने और विहार से भरा था, वस्त्रों और मालाओं के ढेरों से युक्त था, और वीणा, बाँसुरी और मृदंग से गूँज रहा था।"
+          }
         },
         {
           "n": 12,
-          "text": "सुरामैरेयमिश्रेण भक्ष्यभोज्येन चैव ह ।\nदीनान्धकृपणादिभ्यो दीयमानेन चानिशम् ।\nबभौ परमकल्याणो महस्तस्य महागिरेः ॥"
+          "text": "सुरामैरेयमिश्रेण भक्ष्यभोज्येन चैव ह ।\nदीनान्धकृपणादिभ्यो दीयमानेन चानिशम् ।\nबभौ परमकल्याणो महस्तस्य महागिरेः ॥",
+          "meaning": {
+            "en": "With food and drinks mixed with surā and maireya, and with gifts constantly given to the poor, the blind and the wretched, the festival of that great mountain shone with highest auspiciousness.",
+            "hi": "सुरा और मैरेय मद्य मिश्रित खान-पान से, तथा दीन, अंधे और दरिद्र लोगों को लगातार दिए जा रहे दानों से, उस महान् पर्वत का उत्सव अत्यंत मंगलमय होकर चमक रहा था।"
+          }
         },
         {
           "n": 13,
-          "text": "पुण्यावसथवान्वीर पुण्यकृद्भिर्निषेवितः ।\nविहारो वृष्णिवीराणां महे रैवतकस्य ह ।\nस नगो वेश्मसंकीर्णो देवलोक इवाबभौ ॥"
+          "text": "पुण्यावसथवान्वीर पुण्यकृद्भिर्निषेवितः ।\nविहारो वृष्णिवीराणां महे रैवतकस्य ह ।\nस नगो वेश्मसंकीर्णो देवलोक इवाबभौ ॥",
+          "meaning": {
+            "en": "Hero, it had holy dwellings and was frequented by the virtuous. It was the pleasure-ground of the Vrishni heroes at the Raivataka festival, and the mountain, crowded with houses, looked like the world of the gods.",
+            "hi": "हे वीर, वहाँ पुण्यकारी भवन थे और पुण्यात्मा लोग वहाँ आते थे। रैवतक के उत्सव में वह वृष्णि वीरों का विहार-स्थल था। वह पर्वत घरों से भरा हुआ था और देवलोक जैसा दिखता था।"
+          }
         },
         {
           "n": 14,
-          "text": "तदा च कृष्णसांनिध्यमासाद्य भरतर्षभ ।\nशक्रसद्मप्रतीकाशो बभूव स हि शैलराट् ॥"
+          "text": "तदा च कृष्णसांनिध्यमासाद्य भरतर्षभ ।\nशक्रसद्मप्रतीकाशो बभूव स हि शैलराट् ॥",
+          "meaning": {
+            "en": "And then, bull of the Bharatas, by gaining Krishna's presence that king of mountains became like the palace of Indra.",
+            "hi": "हे भरतश्रेष्ठ, कृष्ण की उपस्थिति पाकर वह पर्वतराज इंद्र के भवन के समान हो गया।"
+          }
         },
         {
           "n": 15,
-          "text": "ततः संपूज्यमानः स विवेश भवनं शुभम् ।\nगोविन्दः सात्यकिश्चैव जगाम भवनं स्वकम् ॥"
+          "text": "ततः संपूज्यमानः स विवेश भवनं शुभम् ।\nगोविन्दः सात्यकिश्चैव जगाम भवनं स्वकम् ॥",
+          "meaning": {
+            "en": "Honored by all, Govinda then entered his fine palace, and Satyaki went to his own house.",
+            "hi": "सबसे सम्मानित होकर गोविन्द अपने सुंदर भवन में प्रविष्ट हुए, और सात्यकि अपने घर चले गए।"
+          }
         },
         {
           "n": 16,
-          "text": "विवेश च स हृष्टात्मा चिरकालप्रवासकः ।\nकृत्वा नसुकरं कर्म दानवेष्विव वासवः ॥"
+          "text": "विवेश च स हृष्टात्मा चिरकालप्रवासकः ।\nकृत्वा नसुकरं कर्म दानवेष्विव वासवः ॥",
+          "meaning": {
+            "en": "Joyful at heart after a long absence, Krishna entered, having done a hard deed as Indra did against the danavas.",
+            "hi": "लंबे प्रवास के बाद प्रसन्न मन से कृष्ण ने भवन में प्रवेश किया, मानो इंद्र दानवों पर विजय पाकर लौटे हों, क्योंकि उन्होंने एक कठिन कार्य पूरा किया था।"
+          }
         },
         {
           "n": 17,
-          "text": "उपयातं तु वार्ष्णेयं भोजवृष्ण्यन्धकास्तदा ।\nअभ्यगच्छन्महात्मानं देवा इव शतक्रतुम् ॥"
+          "text": "उपयातं तु वार्ष्णेयं भोजवृष्ण्यन्धकास्तदा ।\nअभ्यगच्छन्महात्मानं देवा इव शतक्रतुम् ॥",
+          "meaning": {
+            "en": "The Bhojas, Vrishnis and Andhakas then came to meet the great-souled Vrishni, as the gods go to Indra of a hundred sacrifices.",
+            "hi": "तब भोज, वृष्णि और अंधक वंश के लोग वार्ष्णेय के पास आए। जैसे देवता शतक्रतु इंद्र के पास जाते हैं, वैसे ही वे महात्मा के पास गए।"
+          }
         },
         {
           "n": 18,
-          "text": "स तानभ्यर्च्य मेधावी पृष्ट्वा च कुशलं तदा ।\nअभ्यवादयत प्रीतः पितरं मातरं तथा ॥"
+          "text": "स तानभ्यर्च्य मेधावी पृष्ट्वा च कुशलं तदा ।\nअभ्यवादयत प्रीतः पितरं मातरं तथा ॥",
+          "meaning": {
+            "en": "The wise one honored them and asked after their welfare, and joyfully greeted his father and mother.",
+            "hi": "उस बुद्धिमान ने उन सबका सत्कार किया, उनका कुशल-क्षेम पूछा, और प्रसन्न होकर अपने पिता और माता को प्रणाम किया।"
+          }
         },
         {
           "n": 19,
-          "text": "ताभ्यां च संपरिष्वक्तः सान्त्वितश्च महाभुजः ।\nउपोपविष्टस्तैः सर्वैर्वृष्णिभिः परिवारितः ॥"
+          "text": "ताभ्यां च संपरिष्वक्तः सान्त्वितश्च महाभुजः ।\nउपोपविष्टस्तैः सर्वैर्वृष्णिभिः परिवारितः ॥",
+          "meaning": {
+            "en": "Embraced and comforted by the two, the mighty-armed Krishna sat down beside them, surrounded by all the Vrishnis.",
+            "hi": "माता-पिता ने उन्हें गले लगाया और सांत्वना दी। फिर वह महाभुज कृष्ण बैठ गए, और सभी वृष्णि उन्हें घेरकर बैठ गए।"
+          }
         },
         {
           "n": 20,
-          "text": "स विश्रान्तो महातेजाः कृतपादावसेचनः ।\nकथयामास तं कृष्णः पृष्टः पित्रा महाहवम् ॥"
+          "text": "स विश्रान्तो महातेजाः कृतपादावसेचनः ।\nकथयामास तं कृष्णः पृष्टः पित्रा महाहवम् ॥",
+          "meaning": {
+            "en": "Rested and with his feet washed, the very radiant Krishna, asked by his father, recounted the great battle.",
+            "hi": "विश्राम करके, पैर धोकर, तेजस्वी कृष्ण से जब पिता ने पूछा, तब उन्होंने उस महान् युद्ध का वर्णन किया।"
+          }
         }
       ]
     }

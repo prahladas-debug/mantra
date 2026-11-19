@@ -22,57 +22,113 @@
       "titleEn": "Anushasanika Parva (The instructions)",
       "verses": [
         {
-          "text": "युधिष्ठिर उवाच"
+          "text": "युधिष्ठिर उवाच",
+          "meaning": {
+            "en": "Yudhishthira said:",
+            "hi": "युधिष्ठिर बोले—"
+          }
         },
         {
           "n": 1,
-          "text": "अहिंसा वैदिकं कर्म ध्यानमिन्द्रियसंयमः ।\nतपोऽथ गुरुशुश्रूषा किं श्रेयः पुरुषं प्रति ॥"
+          "text": "अहिंसा वैदिकं कर्म ध्यानमिन्द्रियसंयमः ।\nतपोऽथ गुरुशुश्रूषा किं श्रेयः पुरुषं प्रति ॥",
+          "meaning": {
+            "en": "Non-violence, Vedic rites, meditation, control of the senses, austerity and service to the teacher: which of these is best for a man?",
+            "hi": "अहिंसा, वैदिक अनुष्ठान, ध्यान, इंद्रिय-संयम, तप और गुरु-सेवा, इनमें से मनुष्य के लिए कौन-सा सबसे श्रेष्ठ है?"
+          }
         },
         {
-          "text": "बृहस्पतिरुवाच"
+          "text": "बृहस्पतिरुवाच",
+          "meaning": {
+            "en": "Brihaspati said:",
+            "hi": "बृहस्पति बोले—"
+          }
         },
         {
           "n": 2,
-          "text": "सर्वाण्येतानि धर्मस्य पृथग्द्वाराणि सर्वशः ।\nशृणु संकीर्त्यमानानि षडेव भरतर्षभ ॥"
+          "text": "सर्वाण्येतानि धर्मस्य पृथग्द्वाराणि सर्वशः ।\nशृणु संकीर्त्यमानानि षडेव भरतर्षभ ॥",
+          "meaning": {
+            "en": "All these are separate doors to dharma in every way; hear them, bull of the Bharatas, as I name them, exactly six.",
+            "hi": "ये सब हर प्रकार से धर्म के अलग-अलग द्वार हैं; भरतवंश में श्रेष्ठ, इन्हें सुनो, जैसे मैं इन्हें गिनाता हूँ—ठीक छह।"
+          }
         },
         {
           "n": 3,
-          "text": "हन्त निःश्रेयसं जन्तोरहं वक्ष्याम्यनुत्तमम् ।\nअहिंसापाश्रयं धर्मं यः साधयति वै नरः ॥"
+          "text": "हन्त निःश्रेयसं जन्तोरहं वक्ष्याम्यनुत्तमम् ।\nअहिंसापाश्रयं धर्मं यः साधयति वै नरः ॥",
+          "meaning": {
+            "en": "Now I shall tell the creature's supreme highest good: the dharma resting on non-violence, which a man can practise.",
+            "hi": "अब मैं प्राणियों के परम और सर्वोच्च कल्याण को बताता हूँ: अहिंसा पर टिका धर्म, जिसका पालन मनुष्य कर सकता है।"
+          }
         },
         {
           "n": 4,
-          "text": "त्रीन्दोषान्सर्वभूतेषु निधाय पुरुषः सदा ।\nकामक्रोधौ च संयम्य ततः सिद्धिमवाप्नुते ॥"
+          "text": "त्रीन्दोषान्सर्वभूतेषु निधाय पुरुषः सदा ।\nकामक्रोधौ च संयम्य ततः सिद्धिमवाप्नुते ॥",
+          "meaning": {
+            "en": "A man who always sets the three faults aside toward all beings, and restrains desire and anger, then gains perfection.",
+            "hi": "जो मनुष्य सभी प्राणियों के प्रति सदा तीन दोषों को दूर रखता है और काम तथा क्रोध को वश में रखता है, वह सिद्धि पाता है।"
+          }
         },
         {
           "n": 5,
-          "text": "अहिंसकानि भूतानि दण्डेन विनिहन्ति यः ।\nआत्मनः सुखमन्विच्छन्न स प्रेत्य सुखी भवेत् ॥"
+          "text": "अहिंसकानि भूतानि दण्डेन विनिहन्ति यः ।\nआत्मनः सुखमन्विच्छन्न स प्रेत्य सुखी भवेत् ॥",
+          "meaning": {
+            "en": "One who, seeking his own happiness, strikes down harmless beings with the rod does not become happy after death.",
+            "hi": "जो अपने सुख की चाह में निरपराध प्राणियों को दंड से मारता है, वह मृत्यु के बाद सुखी नहीं होता।"
+          }
         },
         {
           "n": 6,
-          "text": "आत्मोपमश्च भूतेषु यो वै भवति पूरुषः ।\nन्यस्तदण्डो जितक्रोधः स प्रेत्य सुखमेधते ॥"
+          "text": "आत्मोपमश्च भूतेषु यो वै भवति पूरुषः ।\nन्यस्तदण्डो जितक्रोधः स प्रेत्य सुखमेधते ॥",
+          "meaning": {
+            "en": "The man who regards all beings as himself, lays down the rod and conquers anger, prospers in happiness after death.",
+            "hi": "जो सभी प्राणियों को अपने समान मानता है, दंड का त्याग करता है और क्रोध को जीत लेता है, वह मृत्यु के बाद सुख में समृद्ध होता है।"
+          }
         },
         {
           "n": 7,
-          "text": "सर्वभूतात्मभूतस्य सर्वभूतानि पश्यतः ।\nदेवापि मार्गे मुह्यन्ति अपदस्य पदैषिणः ॥"
+          "text": "सर्वभूतात्मभूतस्य सर्वभूतानि पश्यतः ।\nदेवापि मार्गे मुह्यन्ति अपदस्य पदैषिणः ॥",
+          "meaning": {
+            "en": "Even the gods are bewildered on the path of one who has become the self of all beings and sees all beings in himself, as they seek the footprints of one who leaves none.",
+            "hi": "जो सभी प्राणियों की आत्मा बन गया है और सभी प्राणियों को अपने भीतर देखता है, उसके मार्ग पर देवता भी मोहित हो जाते हैं, जब वे उसके पदचिह्न खोजते हैं जो कोई चिह्न नहीं छोड़ता।"
+          }
         },
         {
           "n": 8,
-          "text": "न तत्परस्य संदद्यात्प्रतिकूलं यदात्मनः ।\nएष संक्षेपतो धर्मः कामादन्यः प्रवर्तते ॥"
+          "text": "न तत्परस्य संदद्यात्प्रतिकूलं यदात्मनः ।\nएष संक्षेपतो धर्मः कामादन्यः प्रवर्तते ॥",
+          "meaning": {
+            "en": "One should not do to another what is unpleasant to oneself. This is dharma in brief; other conduct springs from desire.",
+            "hi": "जो व्यवहार स्वयं को अप्रिय लगे, वह दूसरे के साथ न करे। संक्षेप में यही धर्म है; और आचरण इच्छा से उत्पन्न होता है।"
+          }
         },
         {
           "n": 9,
-          "text": "प्रत्याख्याने च दाने च सुखदुःखे प्रियाप्रिये ।\nआत्मौपम्येन पुरुषः समाधिमधिगच्छति ॥"
+          "text": "प्रत्याख्याने च दाने च सुखदुःखे प्रियाप्रिये ।\nआत्मौपम्येन पुरुषः समाधिमधिगच्छति ॥",
+          "meaning": {
+            "en": "In refusing and in giving, in pleasure and pain, in the pleasant and the unpleasant, a man reaches composure by regarding others as himself.",
+            "hi": "अस्वीकार और दान में, सुख और दुःख में, प्रिय और अप्रिय में, मनुष्य दूसरों को अपने समान मानकर चित्त की शांति पाता है।"
+          }
         },
         {
           "n": 10,
-          "text": "यथा परः प्रक्रमतेऽपरेषु\nतथापरः प्रक्रमते परस्मिन् ।\nएषैव तेऽस्तूपमा जीवलोके\nयथा धर्मो नैपुणेनोपदिष्टः ॥"
+          "text": "यथा परः प्रक्रमतेऽपरेषु\nतथापरः प्रक्रमते परस्मिन् ।\nएषैव तेऽस्तूपमा जीवलोके\nयथा धर्मो नैपुणेनोपदिष्टः ॥",
+          "meaning": {
+            "en": "As one person acts toward others, so another acts toward him. Let this be your comparison in the world of the living; thus dharma has been taught skilfully.",
+            "hi": "जैसे कोई व्यक्ति दूसरों के साथ आचरण करता है, वैसे ही दूसरा उसके साथ आचरण करता है। जीवित संसार में इसी को अपनी तुलना मानो; इस प्रकार धर्म कुशलता से समझाया गया है।"
+          }
         },
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:",
+            "hi": "वैशम्पायन बोले—"
+          }
         },
         {
           "n": 11,
-          "text": "इत्युक्त्वा तं सुरगुरुर्धर्मराजं युधिष्ठिरम् ।\nदिवमाचक्रमे धीमान्पश्यतामेव नस्तदा ॥"
+          "text": "इत्युक्त्वा तं सुरगुरुर्धर्मराजं युधिष्ठिरम् ।\nदिवमाचक्रमे धीमान्पश्यतामेव नस्तदा ॥",
+          "meaning": {
+            "en": "Having spoken thus to Yudhishthira, king of dharma, the wise teacher of the gods then rose into the sky while we looked on.",
+            "hi": "युधिष्ठिर, धर्मराज से ऐसा कहकर, बुद्धिमान देवगुरु हमारे देखते-देखते आकाश में उठ गए।"
+          }
         }
       ]
     }

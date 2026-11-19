@@ -22,43 +22,83 @@
       "titleEn": "Anushasanika Parva (The instructions)",
       "verses": [
         {
-          "text": "भीष्म उवाच"
+          "text": "भीष्म उवाच",
+          "meaning": {
+            "en": "Bhishma said:",
+            "hi": "भीष्म बोले—"
+          }
         },
         {
           "n": 1,
-          "text": "कार्यते यच्च क्रियते सच्चासच्च कृतं ततः ।\nतत्राश्वसीत सत्कृत्वा असत्कृत्वा न विश्वसेत् ॥"
+          "text": "कार्यते यच्च क्रियते सच्चासच्च कृतं ततः ।\nतत्राश्वसीत सत्कृत्वा असत्कृत्वा न विश्वसेत् ॥",
+          "meaning": {
+            "en": "What is caused to be done and what is done turns out good or bad. In regard to it, one may trust a man who has done good, but should not trust one who has done wrong.",
+            "hi": "जो किया जाता है और जो कराया जाता है, वह अच्छा या बुरा परिणाम देता है। इस विषय में जिसने अच्छा किया हो उस पर विश्वास किया जा सकता है, पर जिसने बुरा किया हो उस पर विश्वास नहीं करना चाहिए।"
+          }
         },
         {
           "n": 2,
-          "text": "काल एवात्र कालेन निग्रहानुग्रहौ ददत् ।\nबुद्धिमाविश्य भूतानां धर्मार्थेषु प्रवर्तते ॥"
+          "text": "काल एवात्र कालेन निग्रहानुग्रहौ ददत् ।\nबुद्धिमाविश्य भूतानां धर्मार्थेषु प्रवर्तते ॥",
+          "meaning": {
+            "en": "Here Time itself, in its season, gives restraint and favour. Entering the minds of beings, it sets them to dharma and to wealth.",
+            "hi": "यहाँ काल स्वयं अपने समय पर निग्रह और अनुग्रह देता है। प्राणियों की बुद्धि में प्रविष्ट होकर वह उन्हें धर्म और अर्थ में प्रवृत्त करता है।"
+          }
         },
         {
           "n": 3,
-          "text": "यदा त्वस्य भवेद्बुद्धिर्धर्म्या चार्थप्रदर्शिनी ।\nतदाश्वसीत धर्मात्मादृढबुद्धिर्न विश्वसेत् ॥"
+          "text": "यदा त्वस्य भवेद्बुद्धिर्धर्म्या चार्थप्रदर्शिनी ।\nतदाश्वसीत धर्मात्मादृढबुद्धिर्न विश्वसेत् ॥",
+          "meaning": {
+            "en": "When a person's mind becomes righteous and shows him what is truly of benefit, then trust him; but one whose mind is not firm, one should not trust, even if he is virtuous.",
+            "hi": "जब किसी की बुद्धि धर्मानुकूल होकर वास्तविक लाभ दिखाने वाली हो, तब उस पर विश्वास करे; पर जिसकी बुद्धि दृढ़ न हो, उस पर विश्वास न करे, भले ही वह धर्मात्मा हो।"
+          }
         },
         {
           "n": 4,
-          "text": "एतावन्मात्रमेतद्धि भूतानां प्राज्ञलक्षणम् ।\nकालयुक्तोऽप्युभयविच्छेषमर्थं समाचरेत् ॥"
+          "text": "एतावन्मात्रमेतद्धि भूतानां प्राज्ञलक्षणम् ।\nकालयुक्तोऽप्युभयविच्छेषमर्थं समाचरेत् ॥",
+          "meaning": {
+            "en": "This much is the mark of the wise among beings: even when he is subject to Time, he should pursue the aim that keeps both in view.",
+            "hi": "प्राणियों में बुद्धिमान का लक्षण इतना ही है: काल के अधीन होने पर भी वह दोनों को जानते हुए शेष (उचित) अर्थ का आचरण करे।"
+          }
         },
         {
           "n": 5,
-          "text": "यथा ह्युपस्थितैश्वर्याः पूजयन्ते नरा नरान् ।\nएवमेवात्मनात्मानं पूजयन्तीह धार्मिकाः ॥"
+          "text": "यथा ह्युपस्थितैश्वर्याः पूजयन्ते नरा नरान् ।\nएवमेवात्मनात्मानं पूजयन्तीह धार्मिकाः ॥",
+          "meaning": {
+            "en": "As people honour others who have attained power, so the righteous in this world honour themselves by themselves.",
+            "hi": "जैसे उपस्थित ऐश्वर्य वाले लोग मनुष्यों से पूजे जाते हैं, वैसे ही इस संसार में धार्मिक लोग अपने-आप से अपना सम्मान करते हैं।"
+          }
         },
         {
           "n": 6,
-          "text": "न ह्यधर्मतया धर्मं दद्यात्कालः कथंचन ।\nतस्माद्विशुद्धमात्मानं जानीयाद्धर्मचारिणम् ॥"
+          "text": "न ह्यधर्मतया धर्मं दद्यात्कालः कथंचन ।\nतस्माद्विशुद्धमात्मानं जानीयाद्धर्मचारिणम् ॥",
+          "meaning": {
+            "en": "Time would never give dharma through unrighteousness. So one should know oneself, if purified, as one who walks in dharma.",
+            "hi": "काल कभी भी अधर्म के द्वारा धर्म नहीं देता। इसलिए मनुष्य को अपने को विशुद्ध और धर्म का आचरण करने वाला जानना चाहिए।"
+          }
         },
         {
           "n": 7,
-          "text": "स्प्रष्टुमप्यसमर्थो हि ज्वलन्तमिव पावकम् ।\nअधर्मः सततो धर्मं कालेन परिरक्षितम् ॥"
+          "text": "स्प्रष्टुमप्यसमर्थो हि ज्वलन्तमिव पावकम् ।\nअधर्मः सततो धर्मं कालेन परिरक्षितम् ॥",
+          "meaning": {
+            "en": "Unrighteousness, constant as it is, cannot even touch dharma guarded by Time, any more than one can touch a blazing fire.",
+            "hi": "जैसे जलती हुई अग्नि को छूने में कोई समर्थ नहीं होता, वैसे ही निरंतर रहने वाला अधर्म, काल द्वारा रक्षित धर्म को छू भी नहीं सकता।"
+          }
         },
         {
           "n": 8,
-          "text": "कार्यावेतौ हि कालेन धर्मो हि विजयावहः ।\nत्रयाणामपि लोकानामालोककरणो भवेत् ॥"
+          "text": "कार्यावेतौ हि कालेन धर्मो हि विजयावहः ।\nत्रयाणामपि लोकानामालोककरणो भवेत् ॥",
+          "meaning": {
+            "en": "By Time these two are to be done; dharma brings victory, and it becomes the maker of light for the three worlds.",
+            "hi": "काल के द्वारा ये दोनों किए जाने चाहिए; धर्म विजय लाने वाला है, और वह तीनों लोकों का प्रकाश करने वाला होता है।"
+          }
         },
         {
           "n": 9,
-          "text": "तत्र कश्चिन्नयेत्प्राज्ञो गृहीत्वैव करे नरम् ।\nउह्यमानः स धर्मेण धर्मे बहुभयच्छले ॥"
+          "text": "तत्र कश्चिन्नयेत्प्राज्ञो गृहीत्वैव करे नरम् ।\nउह्यमानः स धर्मेण धर्मे बहुभयच्छले ॥",
+          "meaning": {
+            "en": "In this matter some wise man might lead a person by taking him by the hand, he being carried along by dharma in a dharma full of many dangerous pretences.",
+            "hi": "इस विषय में कोई प्राज्ञ पुरुष मनुष्य का हाथ पकड़कर उसे ले जा सकता है; वह धर्म से वहन किया जाता हुआ, अनेक भय और छलों से भरे धर्म में चलता है।"
+          }
         }
       ]
     }

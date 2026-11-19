@@ -22,75 +22,147 @@
       "titleEn": "Naradagamana Parva (Narada's coming)",
       "verses": [
         {
-          "text": "सूत उवाच"
+          "text": "सूत उवाच",
+          "meaning": {
+            "en": "Suta said:",
+            "hi": "सूत बोले—"
+          }
         },
         {
           "n": 1,
-          "text": "एतच्छ्रुत्वा नृपो विद्वान्हृष्टोऽभूज्जनमेजयः ।\nपितामहानां सर्वेषां गमनागमनं तदा ॥"
+          "text": "एतच्छ्रुत्वा नृपो विद्वान्हृष्टोऽभूज्जनमेजयः ।\nपितामहानां सर्वेषां गमनागमनं तदा ॥",
+          "meaning": {
+            "en": "Hearing this account of the going and coming of all his forefathers, the learned King Janamejaya was delighted.",
+            "hi": "यह सुनकर विद्वान राजा जनमेजय प्रसन्न हुए, कि उनके सभी पूर्वजों का वहाँ जाना और लौटना हुआ था।"
+          }
         },
         {
           "n": 2,
-          "text": "अब्रवीच्च मुदा युक्तः पुनरागमनं प्रति ।\nकथं नु त्यक्तदेहानां पुनस्तद्रूपदर्शनम् ॥"
+          "text": "अब्रवीच्च मुदा युक्तः पुनरागमनं प्रति ।\nकथं नु त्यक्तदेहानां पुनस्तद्रूपदर्शनम् ॥",
+          "meaning": {
+            "en": "Full of joy, he asked about their return: how can those who have cast off their bodies be seen again in the same forms?",
+            "hi": "प्रसन्न होकर उन्होंने पुनरागमन के विषय में पूछा: जिन्होंने शरीर त्याग दिए हैं, उनका उन्हीं रूपों में फिर दर्शन कैसे होता है?"
+          }
         },
         {
           "n": 3,
-          "text": "इत्युक्तः स द्विजश्रेष्ठो व्यासशिष्यः प्रतापवान् ।\nप्रोवाच वदतां श्रेष्ठस्तं नृपं जनमेजयम् ॥"
+          "text": "इत्युक्तः स द्विजश्रेष्ठो व्यासशिष्यः प्रतापवान् ।\nप्रोवाच वदतां श्रेष्ठस्तं नृपं जनमेजयम् ॥",
+          "meaning": {
+            "en": "Thus addressed, that mighty best of the twice-born, Vyasa's disciple and the best of speakers, answered King Janamejaya.",
+            "hi": "ऐसा कहे जाने पर वह प्रतापवान द्विजश्रेष्ठ, व्यास के शिष्य और वक्ताओं में श्रेष्ठ, राजा जनमेजय से बोले।"
+          }
         },
         {
           "n": 4,
-          "text": "अविप्रणाशः सर्वेषां कर्मणामिति निश्चयः ।\nकर्मजानि शरीराणि तथैवाकृतयो नृप ॥"
+          "text": "अविप्रणाशः सर्वेषां कर्मणामिति निश्चयः ।\nकर्मजानि शरीराणि तथैवाकृतयो नृप ॥",
+          "meaning": {
+            "en": "He said: It is certain, O king, that no deed is ever lost; bodies and forms are born of deeds.",
+            "hi": "उन्होंने कहा, “हे नृप, यह निश्चय है कि सब कर्मों का नाश नहीं होता; शरीर और आकृतियाँ कर्म से ही उत्पन्न होती हैं।”"
+          }
         },
         {
           "n": 5,
-          "text": "महाभूतानि नित्यानि भूताधिपतिसंश्रयात् ।\nतेषां च नित्यसंवासो न विनाशो वियुज्यताम् ॥"
+          "text": "महाभूतानि नित्यानि भूताधिपतिसंश्रयात् ।\nतेषां च नित्यसंवासो न विनाशो वियुज्यताम् ॥",
+          "meaning": {
+            "en": "The great elements are eternal, since they rest on the Lord of beings; they dwell together always, and when separated they are not destroyed.",
+            "hi": "महाभूत नित्य हैं, क्योंकि वे भूताधिपति (परमेश्वर) के आश्रय में हैं; उनका सदा साथ रहना होता है, और वियोग होने पर भी उनका नाश नहीं होता।"
+          }
         },
         {
           "n": 6,
-          "text": "अनाशाय कृतं कर्म तस्य चेष्टः फलागमः ।\nआत्मा चैभिः समायुक्तः सुखदुःखमुपाश्नुते ॥"
+          "text": "अनाशाय कृतं कर्म तस्य चेष्टः फलागमः ।\nआत्मा चैभिः समायुक्तः सुखदुःखमुपाश्नुते ॥",
+          "meaning": {
+            "en": "A deed done is not destroyed, and its fruit comes to the doer; the self, joined with these, experiences pleasure and pain.",
+            "hi": "किया हुआ कर्म नष्ट नहीं होता, और उसका फल कर्ता के पास आता है; आत्मा इन सबसे युक्त होकर सुख और दुःख भोगता है।"
+          }
         },
         {
           "n": 7,
-          "text": "अविनाशी तथा नित्यं क्षेत्रज्ञ इति निश्चयः ।\nभूतानामात्मभावो यो ध्रुवोऽसौ संविजानताम् ॥"
+          "text": "अविनाशी तथा नित्यं क्षेत्रज्ञ इति निश्चयः ।\nभूतानामात्मभावो यो ध्रुवोऽसौ संविजानताम् ॥",
+          "meaning": {
+            "en": "It is certain that the knower of the field is imperishable and eternal; for those who understand, that abiding nature of beings is fixed.",
+            "hi": "क्षेत्रज्ञ (आत्मा) अविनाशी और नित्य है, यह निश्चय है। जो जानते हैं, उनके लिए प्राणियों का वह आत्म-भाव, जो अचल है, वही सत्य है।"
+          }
         },
         {
           "n": 8,
-          "text": "यावन्न क्षीयते कर्म तावदस्य स्वरूपता ।\nसंक्षीणकर्मा पुरुषो रूपान्यत्वं नियच्छति ॥"
+          "text": "यावन्न क्षीयते कर्म तावदस्य स्वरूपता ।\nसंक्षीणकर्मा पुरुषो रूपान्यत्वं नियच्छति ॥",
+          "meaning": {
+            "en": "As long as a person's deed is not exhausted, he keeps his own form; when his deeds are exhausted, he takes on a different form.",
+            "hi": "जब तक कर्म क्षीण नहीं होता, तब तक इसका अपना स्वरूप बना रहता है; कर्म क्षीण हो जाने पर पुरुष दूसरे रूप को प्राप्त होता है।"
+          }
         },
         {
           "n": 9,
-          "text": "नानाभावास्तथैकत्वं शरीरं प्राप्य संहताः ।\nभवन्ति ते तथा नित्याः पृथग्भावं विजानताम् ॥"
+          "text": "नानाभावास्तथैकत्वं शरीरं प्राप्य संहताः ।\nभवन्ति ते तथा नित्याः पृथग्भावं विजानताम् ॥",
+          "meaning": {
+            "en": "Entering a body, the many states combine into oneness; yet for those who understand, they remain eternal and separate.",
+            "hi": "नाना अवस्थाएँ शरीर प्राप्त करके एकत्व में संगठित हो जाती हैं; फिर भी जो उन्हें जानते हैं, उनके लिए वे नित्य और पृथक रूप में रहती हैं।"
+          }
         },
         {
           "n": 10,
-          "text": "अश्वमेधे श्रुतिश्चेयमश्वसंज्ञपनं प्रति ।\nलोकान्तरगता नित्यं प्राणा नित्या हि वाजिनः ॥"
+          "text": "अश्वमेधे श्रुतिश्चेयमश्वसंज्ञपनं प्रति ।\nलोकान्तरगता नित्यं प्राणा नित्या हि वाजिनः ॥",
+          "meaning": {
+            "en": "The Veda says this about the slaying of the horse in the Ashvamedha: the breaths of the horses go on to other worlds and are lasting.",
+            "hi": "अश्वमेध में श्रुति यह कहती है—अश्व के वध के विषय में—कि घोड़ों के प्राण लोकांतर को जाते हैं और सदा रहते हैं।"
+          }
         },
         {
           "n": 11,
-          "text": "अहं हितं वदाम्येतत्प्रियं चेत्तव पार्थिव ।\nदेवयाना हि पन्थानः श्रुतास्ते यज्ञसंस्तरे ॥"
+          "text": "अहं हितं वदाम्येतत्प्रियं चेत्तव पार्थिव ।\nदेवयाना हि पन्थानः श्रुतास्ते यज्ञसंस्तरे ॥",
+          "meaning": {
+            "en": "If it pleases you, O king, I say this for your good: you have heard of the paths of the gods in the arrangement of the sacrifice.",
+            "hi": "हे पार्थिव, यदि तुम्हें प्रिय लगे, तो मैं तुम्हारे हित के लिए यह कहता हूँ: तुमने यज्ञ-प्रबंध में देवयान मार्गों के विषय में सुना है।"
+          }
         },
         {
           "n": 12,
-          "text": "सुकृतो यत्र ते यज्ञस्तत्र देवा हितास्तव ।\nयदा समन्विता देवाः पशूनां गमनेश्वराः ।\nगतिमन्तश्च तेनेष्ट्वा नान्ये नित्या भवन्ति ते ॥"
+          "text": "सुकृतो यत्र ते यज्ञस्तत्र देवा हितास्तव ।\nयदा समन्विता देवाः पशूनां गमनेश्वराः ।\nगतिमन्तश्च तेनेष्ट्वा नान्ये नित्या भवन्ति ते ॥",
+          "meaning": {
+            "en": "Where your sacrifice is well performed, the gods are favorable to you. When the gods who lead the animals on their journey are present, those animals go on, and having sacrificed through them they do not become lasting in other ways.",
+            "hi": "जहाँ तुम्हारा यज्ञ भली प्रकार हुआ है, वहाँ देवता तुम्हारे हितकारी होते हैं। जब पशुओं की गति के स्वामी देवता साथ होते हैं, तब वे गतिमान होते हैं; उनसे यज्ञ करके वे (पशु) और किसी प्रकार से नित्य नहीं होते।"
+          }
         },
         {
           "n": 13,
-          "text": "नित्येऽस्मिन्पञ्चके वर्गे नित्ये चात्मनि यो नरः ।\nअस्य नानासमायोगं यः पश्यति वृथामतिः ।\nवियोगे शोचतेऽत्यर्थं स बाल इति मे मतिः ॥"
+          "text": "नित्येऽस्मिन्पञ्चके वर्गे नित्ये चात्मनि यो नरः ।\nअस्य नानासमायोगं यः पश्यति वृथामतिः ।\nवियोगे शोचतेऽत्यर्थं स बाल इति मे मतिः ॥",
+          "meaning": {
+            "en": "A man who, in this lasting group of five and in the lasting self, sees their various unions in vain, and grieves greatly at separation, is in my view a child.",
+            "hi": "इस नित्य पंचक-वर्ग में और नित्य आत्मा में जो मनुष्य इनके नाना संयोगों को व्यर्थ बुद्धि से देखता है, और वियोग में अत्यंत शोक करता है, वह बालक है—ऐसा मेरा मत है।"
+          }
         },
         {
           "n": 14,
-          "text": "वियोगे दोषदर्शी यः संयोगमिह वर्जयेत् ।\nअसङ्गे संगमो नास्ति दुःखं भुवि वियोगजम् ॥"
+          "text": "वियोगे दोषदर्शी यः संयोगमिह वर्जयेत् ।\nअसङ्गे संगमो नास्ति दुःखं भुवि वियोगजम् ॥",
+          "meaning": {
+            "en": "One who sees fault in separation should avoid attachment here; for the unattached there is no union, and the grief on earth that is born of separation does not arise.",
+            "hi": "जो वियोग में दोष देखता है, वह यहाँ संयोग को त्याग दे; जो आसक्ति-रहित है, उसके लिए संयोग नहीं होता, और पृथ्वी पर वियोग से उत्पन्न दुःख नहीं होता।"
+          }
         },
         {
           "n": 15,
-          "text": "परापरज्ञस्तु नरो नाभिमानादुदीरितः ।\nअपरज्ञः परां बुद्धिं स्पृष्ट्वा मोहाद्विमुच्यते ॥"
+          "text": "परापरज्ञस्तु नरो नाभिमानादुदीरितः ।\nअपरज्ञः परां बुद्धिं स्पृष्ट्वा मोहाद्विमुच्यते ॥",
+          "meaning": {
+            "en": "One who knows the higher and the lower is not spoken of as proud; the one who knows only the lower, touching the higher understanding, is freed from delusion.",
+            "hi": "जो मनुष्य परापर को जानता है, वह अभिमान से प्रेरित नहीं कहा जाता; और जो केवल अपर को जानता है, वह परा बुद्धि को छूकर मोह से मुक्त हो जाता है।"
+          }
         },
         {
           "n": 16,
-          "text": "अदर्शनादापतितः पुनश्चादर्शनं गतः ।\nनाहं तं वेद्मि नासौ मां न च मेऽस्ति विरागता ॥"
+          "text": "अदर्शनादापतितः पुनश्चादर्शनं गतः ।\nनाहं तं वेद्मि नासौ मां न च मेऽस्ति विरागता ॥",
+          "meaning": {
+            "en": "He came out of unseen being and has gone again into the unseen: I do not know him, he does not know me, and I have no aversion toward him.",
+            "hi": "वह अदर्शन से आया और फिर अदर्शन में चला गया। मैं उसे नहीं जानता, वह मुझे नहीं जानता, और मेरे मन में उसके प्रति कोई विरक्ति नहीं है।"
+          }
         },
         {
           "n": 17,
-          "text": "येन येन शरीरेण करोत्ययमनीश्वरः ।\nतेन तेन शरीरेण तदवश्यमुपाश्नुते ।\nमानसं मनसाप्नोति शारीरं च शरीरवान् ॥"
+          "text": "येन येन शरीरेण करोत्ययमनीश्वरः ।\nतेन तेन शरीरेण तदवश्यमुपाश्नुते ।\nमानसं मनसाप्नोति शारीरं च शरीरवान् ॥",
+          "meaning": {
+            "en": "Whatever body this helpless being acts through, through that same body he must undergo the result; the mind-born result he gains by the mind, and the body-born by his body.",
+            "hi": "यह असमर्थ प्राणी जिस-जिस शरीर से कर्म करता है, उसी शरीर से उसका फल उसे अवश्य भोगना पड़ता है; मानस फल मन से प्राप्त होता है और शारीरिक फल शरीर से।"
+          }
         }
       ]
     }

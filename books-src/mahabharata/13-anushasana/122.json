@@ -22,77 +22,153 @@
       "titleEn": "Anushasanika Parva (The instructions)",
       "verses": [
         {
-          "text": "भीष्म उवाच"
+          "text": "भीष्म उवाच",
+          "meaning": {
+            "en": "Bhishma said:",
+            "hi": "भीष्म बोले—"
+          }
         },
         {
           "n": 1,
-          "text": "एवमुक्तः प्रत्युवाच मैत्रेयः कर्मपूजकः ।\nअत्यन्तं श्रीमति कुले जातः प्राज्ञो बहुश्रुतः ॥"
+          "text": "एवमुक्तः प्रत्युवाच मैत्रेयः कर्मपूजकः ।\nअत्यन्तं श्रीमति कुले जातः प्राज्ञो बहुश्रुतः ॥",
+          "meaning": {
+            "en": "Addressed thus, Maitreya, who honoured action, born in an exceedingly prosperous family, wise and learned, replied.",
+            "hi": "इस प्रकार कहे जाने पर, कर्म का सम्मान करने वाले, अत्यंत समृद्ध कुल में जन्मे, बुद्धिमान और विद्वान मैत्रेय ने उत्तर दिया।"
+          }
         },
         {
           "n": 2,
-          "text": "असंशयं महाप्राज्ञ यथैवात्थ तथैव तत् ।\nअनुज्ञातस्तु भवता किंचिद्ब्रूयामहं विभो ॥"
+          "text": "असंशयं महाप्राज्ञ यथैवात्थ तथैव तत् ।\nअनुज्ञातस्तु भवता किंचिद्ब्रूयामहं विभो ॥",
+          "meaning": {
+            "en": "Wise one, there is no doubt that it is just as you say. With your leave, lord, I shall say something.",
+            "hi": "हे बुद्धिमान, आप जैसा कहते हैं उसमें कोई संदेह नहीं है। आपकी अनुमति हो तो, प्रभो, मैं भी कुछ कहता हूँ।"
+          }
         },
         {
-          "text": "व्यास उवाच"
+          "text": "व्यास उवाच",
+          "meaning": {
+            "en": "Vyasa said:",
+            "hi": "व्यास बोले—"
+          }
         },
         {
           "n": 3,
-          "text": "यद्यदिच्छसि मैत्रेय यावद्यावद्यथा तथा ।\nब्रूहि तावन्महाप्राज्ञ शुश्रूषे वचनं तव ॥"
+          "text": "यद्यदिच्छसि मैत्रेय यावद्यावद्यथा तथा ।\nब्रूहि तावन्महाप्राज्ञ शुश्रूषे वचनं तव ॥",
+          "meaning": {
+            "en": "Maitreya, say whatever you wish, as much and in whatever way; wise one, I am willing to listen to your words.",
+            "hi": "मैत्रेय, जो चाहो, जितना चाहो और जिस प्रकार चाहो कहो; हे बुद्धिमान, मैं तुम्हारे वचन सुनने के लिए तैयार हूँ।"
+          }
         },
         {
-          "text": "मैत्रेय उवाच"
+          "text": "मैत्रेय उवाच",
+          "meaning": {
+            "en": "Maitreya said:",
+            "hi": "मैत्रेय बोले—"
+          }
         },
         {
           "n": 4,
-          "text": "निर्दोषं निर्मलं चैव वचनं दानसंहितम् ।\nविद्यातपोभ्यां हि भवान्भावितात्मा न संशयः ॥"
+          "text": "निर्दोषं निर्मलं चैव वचनं दानसंहितम् ।\nविद्यातपोभ्यां हि भवान्भावितात्मा न संशयः ॥",
+          "meaning": {
+            "en": "Your words about giving are faultless and pure; without doubt you are one whose self has been perfected by learning and austerity.",
+            "hi": "दान के विषय में आपके वचन निर्दोष और शुद्ध हैं; निस्संदेह आप वह हैं जिसका आत्मा विद्या और तप से पूर्ण हो चुका है।"
+          }
         },
         {
           "n": 5,
-          "text": "भवतो भावितात्मत्वाद्दायोऽयं सुमहान्मम ।\nभूयो बुद्ध्यानुपश्यामि सुसमृद्धतपा इव ॥"
+          "text": "भवतो भावितात्मत्वाद्दायोऽयं सुमहान्मम ।\nभूयो बुद्ध्यानुपश्यामि सुसमृद्धतपा इव ॥",
+          "meaning": {
+            "en": "Because your self is perfected, this is a very great gift for me; I see with my mind, as it were, that my austerity has become exceedingly full.",
+            "hi": "आपका आत्मा पूर्ण है, इसलिए यह मेरे लिए एक बहुत बड़ा उपहार है; मानो मैं अपने मन से देख रहा हूँ कि मेरी तपस्या अत्यंत परिपूर्ण हो गई है।"
+          }
         },
         {
           "n": 6,
-          "text": "अपि मे दर्शनादेव भवतोऽभ्युदयो महान् ।\nमन्ये भवत्प्रसादोऽयं तद्धि कर्म स्वभावतः ॥"
+          "text": "अपि मे दर्शनादेव भवतोऽभ्युदयो महान् ।\nमन्ये भवत्प्रसादोऽयं तद्धि कर्म स्वभावतः ॥",
+          "meaning": {
+            "en": "By seeing you alone I have gained great prosperity; I think this is your grace, and that deed is natural.",
+            "hi": "केवल आपके दर्शन से मैंने महान समृद्धि पाई है; मैं इसे आपकी कृपा मानता हूँ, और वह कर्म स्वाभाविक है।"
+          }
         },
         {
           "n": 7,
-          "text": "तपः श्रुतं च योनिश्चाप्येतद्ब्राह्मण्यकारणम् ।\nत्रिभिर्गुणैः समुदितस्ततो भवति वै द्विजः ॥"
+          "text": "तपः श्रुतं च योनिश्चाप्येतद्ब्राह्मण्यकारणम् ।\nत्रिभिर्गुणैः समुदितस्ततो भवति वै द्विजः ॥",
+          "meaning": {
+            "en": "Austerity, learning and birth are the causes of being a Brahmin; one endowed with these three qualities becomes truly twice-born.",
+            "hi": "तप, विद्या और जन्म ब्राह्मण होने के कारण हैं; जो इन तीनों गुणों से युक्त है, वही सचमुच द्विज बनता है।"
+          }
         },
         {
           "n": 8,
-          "text": "तस्मिंस्तृप्ते च तृप्यन्ते पितरो दैवतानि च ।\nन हि श्रुतवतां किंचिदधिकं ब्राह्मणादृते ॥"
+          "text": "तस्मिंस्तृप्ते च तृप्यन्ते पितरो दैवतानि च ।\nन हि श्रुतवतां किंचिदधिकं ब्राह्मणादृते ॥",
+          "meaning": {
+            "en": "When he is satisfied, the ancestors and the gods are satisfied; among the learned there is nothing greater than a Brahmin.",
+            "hi": "जब ब्राह्मण तृप्त होता है, तो पितर और देवता भी तृप्त होते हैं; विद्वानों में ब्राह्मण से बढ़कर कुछ नहीं है।"
+          }
         },
         {
           "n": 9,
-          "text": "यथा हि सुकृते क्षेत्रे फलं विन्दति मानवः ।\nएवं दत्त्वा श्रुतवति फलं दाता समश्नुते ॥"
+          "text": "यथा हि सुकृते क्षेत्रे फलं विन्दति मानवः ।\nएवं दत्त्वा श्रुतवति फलं दाता समश्नुते ॥",
+          "meaning": {
+            "en": "As a man gets fruit in a well-tilled field, so the giver gets the fruit by giving to a learned man.",
+            "hi": "जैसे अच्छी तरह जोती गई भूमि में बोने से मनुष्य को फल मिलता है, वैसे ही विद्वान को दान देने से दानी को फल मिलता है।"
+          }
         },
         {
           "n": 10,
-          "text": "ब्राह्मणश्चेन्न विद्येत श्रुतवृत्तोपसंहितः ।\nप्रतिग्रहीता दानस्य मोघं स्याद्धनिनां धनम् ॥"
+          "text": "ब्राह्मणश्चेन्न विद्येत श्रुतवृत्तोपसंहितः ।\nप्रतिग्रहीता दानस्य मोघं स्याद्धनिनां धनम् ॥",
+          "meaning": {
+            "en": "If there were no Brahmin endowed with learning and good conduct, a recipient of gifts, the wealth of the rich would be in vain.",
+            "hi": "यदि विद्या और सदाचार से युक्त, दान पाने योग्य कोई ब्राह्मण न होता, तो धनवानों का धन व्यर्थ ही रहता।"
+          }
         },
         {
           "n": 11,
-          "text": "अदन्ह्यविद्वान्हन्त्यन्नमद्यमानं च हन्ति तम् ।\nतं च हन्यति यस्यान्नं स हत्वा हन्यतेऽबुधः ॥"
+          "text": "अदन्ह्यविद्वान्हन्त्यन्नमद्यमानं च हन्ति तम् ।\nतं च हन्यति यस्यान्नं स हत्वा हन्यतेऽबुधः ॥",
+          "meaning": {
+            "en": "An unlearned man who eats food destroys the food, and the food eaten destroys him; and he who gives the food destroys, and the foolish one who destroys is himself destroyed.",
+            "hi": "अविद्वान मनुष्य जो भोजन करता है, वह भोजन को नष्ट कर देता है, और खाया हुआ भोजन उसे नष्ट कर देता है; और जो भोजन देता है वह नष्ट करता है, और मूर्ख जो नष्ट करता है, वह स्वयं नष्ट हो जाता है।"
+          }
         },
         {
           "n": 12,
-          "text": "प्रभुर्ह्यन्नमदन्विद्वान्पुनर्जनयतीश्वरः ।\nस चान्नाज्जायते तस्मात्सूक्ष्म एव व्यतिक्रमः ॥"
+          "text": "प्रभुर्ह्यन्नमदन्विद्वान्पुनर्जनयतीश्वरः ।\nस चान्नाज्जायते तस्मात्सूक्ष्म एव व्यतिक्रमः ॥",
+          "meaning": {
+            "en": "A learned man who eats food, being powerful, begets again; and he is born from the food; so the transgression is slight.",
+            "hi": "विद्वान मनुष्य जो भोजन करता है, वह शक्तिशाली होकर फिर से उत्पन्न करता है; और वह भोजन से ही जन्म लेता है; इसलिए उसका दोष छोटा है।"
+          }
         },
         {
           "n": 13,
-          "text": "यदेव ददतः पुण्यं तदेव प्रतिगृह्णतः ।\nन ह्येकचक्रं वर्तेत इत्येवमृषयो विदुः ॥"
+          "text": "यदेव ददतः पुण्यं तदेव प्रतिगृह्णतः ।\nन ह्येकचक्रं वर्तेत इत्येवमृषयो विदुः ॥",
+          "meaning": {
+            "en": "The merit of the giver is the same as that of the receiver; the sages know that a wheel with one wheel cannot turn.",
+            "hi": "दानी का पुण्य पाने वाले के समान ही होता है; ऋषि जानते हैं कि एक पहिए वाला रथ नहीं चल सकता।"
+          }
         },
         {
           "n": 14,
-          "text": "यत्र वै ब्राह्मणाः सन्ति श्रुतवृत्तोपसंहिताः ।\nतत्र दानफलं पुण्यमिह चामुत्र चाश्नुते ॥"
+          "text": "यत्र वै ब्राह्मणाः सन्ति श्रुतवृत्तोपसंहिताः ।\nतत्र दानफलं पुण्यमिह चामुत्र चाश्नुते ॥",
+          "meaning": {
+            "en": "Where there are Brahmins endowed with learning and conduct, there one reaps the merit of giving both here and in the next world.",
+            "hi": "जहाँ विद्या और आचरण से युक्त ब्राह्मण हों, वहाँ दान का पुण्य इस लोक और परलोक दोनों में मिलता है।"
+          }
         },
         {
           "n": 15,
-          "text": "ये योनिशुद्धाः सततं तपस्यभिरता भृशम् ।\nदानाध्ययनसंपन्नास्ते वै पूज्यतमाः सदा ॥"
+          "text": "ये योनिशुद्धाः सततं तपस्यभिरता भृशम् ।\nदानाध्ययनसंपन्नास्ते वै पूज्यतमाः सदा ॥",
+          "meaning": {
+            "en": "Those who are always pure in birth, deeply devoted to austerity and rich in giving and study are always the most worthy of honour.",
+            "hi": "जो जन्म से सदा शुद्ध हैं, तप में गहराई से लगे हैं और दान तथा अध्ययन से समृद्ध हैं, वे सदा सबसे अधिक सम्मान के योग्य हैं।"
+          }
         },
         {
           "n": 16,
-          "text": "तैर्हि सद्भिः कृतः पन्थाश्चेतयानो न मुह्यते ।\nते हि स्वर्गस्य नेतारो यज्ञवाहाः सनातनाः ॥"
+          "text": "तैर्हि सद्भिः कृतः पन्थाश्चेतयानो न मुह्यते ।\nते हि स्वर्गस्य नेतारो यज्ञवाहाः सनातनाः ॥",
+          "meaning": {
+            "en": "The path made by those good men does not bewilder one who is thoughtful; they are the leaders to heaven and eternal bearers of sacrifice.",
+            "hi": "उन सज्जनों का बनाया मार्ग विवेकशील मनुष्य को भ्रमित नहीं करता; वे स्वर्ग के नेता और शाश्वत यज्ञ-धारक हैं।"
+          }
         }
       ]
     }

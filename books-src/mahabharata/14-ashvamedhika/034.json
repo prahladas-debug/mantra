@@ -22,73 +22,149 @@
       "titleEn": "Anugita Parva",
       "verses": [
         {
-          "text": "ब्राह्मण्युवाच"
+          "text": "ब्राह्मण्युवाच",
+          "meaning": {
+            "en": "The Brahmani said:",
+            "hi": "ब्राह्मणी बोली—"
+          }
         },
         {
           "n": 1,
-          "text": "नेदमल्पात्मना शक्यं वेदितुं नाकृतात्मना ।\nबहु चाल्पं च संक्षिप्तं विप्लुतं च मतं मम ॥"
+          "text": "नेदमल्पात्मना शक्यं वेदितुं नाकृतात्मना ।\nबहु चाल्पं च संक्षिप्तं विप्लुतं च मतं मम ॥",
+          "meaning": {
+            "en": "\"This cannot be understood by a small-minded or untrained person; to me it seems at once vast and slight, condensed and confused.\"",
+            "hi": "इसे अल्प-चित्त या अनसधे (अकृत-आत्मा) व्यक्ति द्वारा नहीं जाना जा सकता; मुझे यह एक साथ विशाल और तुच्छ, संक्षिप्त और विक्षिप्त लगता है।"
+          }
         },
         {
           "n": 2,
-          "text": "उपायं तु मम ब्रूहि येनैषा लभ्यते मतिः ।\nतन्मन्ये कारणतमं यत एषा प्रवर्तते ॥"
+          "text": "उपायं तु मम ब्रूहि येनैषा लभ्यते मतिः ।\nतन्मन्ये कारणतमं यत एषा प्रवर्तते ॥",
+          "meaning": {
+            "en": "\"Tell me the means by which this understanding is gained; I think that is the chief cause, from which this knowledge proceeds.\"",
+            "hi": "मुझे वह उपाय बताइए जिससे यह बुद्धि प्राप्त होती है; मैं मानती हूँ कि वही मुख्य कारण है, जिससे यह ज्ञान प्रवर्तित होता है।"
+          }
         },
         {
-          "text": "ब्राह्मण उवाच"
+          "text": "ब्राह्मण उवाच",
+          "meaning": {
+            "en": "The Brahmin said:",
+            "hi": "ब्राह्मण बोले—"
+          }
         },
         {
           "n": 3,
-          "text": "अरणीं ब्राह्मणीं विद्धि गुरुरस्योत्तरारणिः ।\nतपःश्रुतेऽभिमथ्नीतो ज्ञानाग्निर्जायते ततः ॥"
+          "text": "अरणीं ब्राह्मणीं विद्धि गुरुरस्योत्तरारणिः ।\nतपःश्रुतेऽभिमथ्नीतो ज्ञानाग्निर्जायते ततः ॥",
+          "meaning": {
+            "en": "\"Know that the lower fire-stick is the Brahmani, and the teacher is the upper fire-stick; when austerity and learning are rubbed together, the fire of knowledge is born.\"",
+            "hi": "ब्राह्मणी को निचली अरणि (अग्नि-मन्थन की लकड़ी) जानो, और गुरु उसकी ऊपरी अरणि है; तप और श्रुत के द्वारा मन्थन करने पर ज्ञान की अग्नि उत्पन्न होती है।"
+          }
         },
         {
-          "text": "ब्राह्मण्युवाच"
+          "text": "ब्राह्मण्युवाच",
+          "meaning": {
+            "en": "The Brahmani said:",
+            "hi": "ब्राह्मणी बोली—"
+          }
         },
         {
           "n": 4,
-          "text": "यदिदं ब्रह्मणो लिङ्गं क्षेत्रज्ञमिति संज्ञितम् ।\nग्रहीतुं येन तच्छक्यं लक्षणं तस्य तत्क्व नु ॥"
+          "text": "यदिदं ब्रह्मणो लिङ्गं क्षेत्रज्ञमिति संज्ञितम् ।\nग्रहीतुं येन तच्छक्यं लक्षणं तस्य तत्क्व नु ॥",
+          "meaning": {
+            "en": "\"This sign of Brahman, called the knower of the field: where is the mark by which one can grasp it?\"",
+            "hi": "ब्रह्म का यह चिह्न, जो 'क्षेत्रज्ञ' नाम से कहा गया है—उसका लक्षण कहाँ है, जिससे उसे ग्रहण किया जा सके?"
+          }
         },
         {
-          "text": "ब्राह्मण उवाच"
+          "text": "ब्राह्मण उवाच",
+          "meaning": {
+            "en": "The Brahmin said:",
+            "hi": "ब्राह्मण बोले—"
+          }
         },
         {
           "n": 5,
-          "text": "अलिङ्गो निर्गुणश्चैव कारणं नास्य विद्यते ।\nउपायमेव वक्ष्यामि येन गृह्येत वा न वा ॥"
+          "text": "अलिङ्गो निर्गुणश्चैव कारणं नास्य विद्यते ।\nउपायमेव वक्ष्यामि येन गृह्येत वा न वा ॥",
+          "meaning": {
+            "en": "\"It has no mark and no qualities, and it has no cause. I shall tell you only the means by which it may or may not be grasped.\"",
+            "hi": "वह बिना चिह्न का और निर्गुण है, उसका कोई कारण नहीं है। मैं केवल वह उपाय बताऊँगा, जिससे वह ग्रहण हो सकता है या नहीं।"
+          }
         },
         {
           "n": 6,
-          "text": "सम्यगप्युपदिष्टश्च भ्रमरैरिव लक्ष्यते ।\nकर्मबुद्धिरबुद्धित्वाज्ज्ञानलिङ्गैरिवाश्रितम् ॥"
+          "text": "सम्यगप्युपदिष्टश्च भ्रमरैरिव लक्ष्यते ।\nकर्मबुद्धिरबुद्धित्वाज्ज्ञानलिङ्गैरिवाश्रितम् ॥",
+          "meaning": {
+            "en": "\"Even when properly taught, it is perceived only as through bees' flight; the mind set on action, through want of insight, clings to it as though to marks of knowledge.\"",
+            "hi": "भली-भाँति उपदेश दिए जाने पर भी वह भौरों की उड़ान की भाँति ही दिखता है; कर्म-बुद्धि अबुद्धित्व के कारण ज्ञान के चिह्नों की भाँति उससे चिपकी रहती है।"
+          }
         },
         {
           "n": 7,
-          "text": "इदं कार्यमिदं नेति न मोक्षेषूपदिश्यते ।\nपश्यतः शृण्वतो बुद्धिरात्मनो येषु जायते ॥"
+          "text": "इदं कार्यमिदं नेति न मोक्षेषूपदिश्यते ।\nपश्यतः शृण्वतो बुद्धिरात्मनो येषु जायते ॥",
+          "meaning": {
+            "en": "\"In the teachings on liberation it is not laid down 'do this, do not do that'; understanding of the Self arises in those who see and hear.\"",
+            "hi": "मोक्ष के उपदेशों में 'यह करो, यह मत करो' नहीं कहा जाता; जो देखते और सुनते हैं, उन्हीं में आत्मा की बुद्धि उत्पन्न होती है।"
+          }
         },
         {
           "n": 8,
-          "text": "यावन्त इह शक्येरंस्तावतोंऽशान्प्रकल्पयेत् ।\nव्यक्तानव्यक्तरूपांश्च शतशोऽथ सहस्रशः ॥"
+          "text": "यावन्त इह शक्येरंस्तावतोंऽशान्प्रकल्पयेत् ।\nव्यक्तानव्यक्तरूपांश्च शतशोऽथ सहस्रशः ॥",
+          "meaning": {
+            "en": "\"One should imagine as many parts as can possibly exist here, manifest and unmanifest in form, in hundreds and thousands.\"",
+            "hi": "यहाँ जितने (अंश) सम्भव हों, उतने अंशों की कल्पना करे—व्यक्त और अव्यक्त रूपों वाले, सैकड़ों और हजारों।"
+          }
         },
         {
           "n": 9,
-          "text": "सर्वान्नानात्वयुक्तांश्च सर्वान्प्रत्यक्षहेतुकान् ।\nयतः परं न विद्येत ततोऽभ्यासे भविष्यति ॥"
+          "text": "सर्वान्नानात्वयुक्तांश्च सर्वान्प्रत्यक्षहेतुकान् ।\nयतः परं न विद्येत ततोऽभ्यासे भविष्यति ॥",
+          "meaning": {
+            "en": "\"All of them endowed with diversity, all arising from what is directly perceived; from there, by practice, one will come to that beyond which nothing is known.\"",
+            "hi": "सब नानात्व से युक्त और सब प्रत्यक्ष-हेतुक (इन्द्रिय-ग्राह्य) वस्तुएँ—उनके अभ्यास से वह स्थिति प्राप्त होगी, जिसके परे कुछ नहीं जाना जाता।"
+          }
         },
         {
-          "text": "वासुदेव उवाच"
+          "text": "वासुदेव उवाच",
+          "meaning": {
+            "en": "Vasudeva said:",
+            "hi": "वासुदेव बोले—"
+          }
         },
         {
           "n": 10,
-          "text": "ततस्तु तस्या ब्राह्मण्या मतिः क्षेत्रज्ञसंक्षये ।\nक्षेत्रज्ञादेव परतः क्षेत्रज्ञोऽन्यः प्रवर्तते ॥"
+          "text": "ततस्तु तस्या ब्राह्मण्या मतिः क्षेत्रज्ञसंक्षये ।\nक्षेत्रज्ञादेव परतः क्षेत्रज्ञोऽन्यः प्रवर्तते ॥",
+          "meaning": {
+            "en": "\"Then that Brahmani's understanding, when the knower of the field was dissolved, went beyond the knower of the field itself, and another knower of the field moved forth.\"",
+            "hi": "तब उस ब्राह्मणी की बुद्धि, क्षेत्रज्ञ के लय हो जाने पर, क्षेत्रज्ञ से भी परे चली गई, और दूसरा क्षेत्रज्ञ प्रवर्तित हुआ।"
+          }
         },
         {
-          "text": "अर्जुन उवाच"
+          "text": "अर्जुन उवाच",
+          "meaning": {
+            "en": "Arjuna said:",
+            "hi": "अर्जुन बोले—"
+          }
         },
         {
           "n": 11,
-          "text": "क्व नु सा ब्राह्मणी कृष्ण क्व चासौ ब्राह्मणर्षभः ।\nयाभ्यां सिद्धिरियं प्राप्ता तावुभौ वद मेऽच्युत ॥"
+          "text": "क्व नु सा ब्राह्मणी कृष्ण क्व चासौ ब्राह्मणर्षभः ।\nयाभ्यां सिद्धिरियं प्राप्ता तावुभौ वद मेऽच्युत ॥",
+          "meaning": {
+            "en": "\"Where now is that Brahmani, Krishna, and where is that best of Brahmins? Tell me about those two who attained this perfection, Achyuta.\"",
+            "hi": "हे कृष्ण, वह ब्राह्मणी कहाँ है, और वह ब्राह्मण-श्रेष्ठ कहाँ है? हे अच्युत, उन दोनों के विषय में बताइए, जिन्होंने यह सिद्धि प्राप्त की।"
+          }
         },
         {
-          "text": "वासुदेव उवाच"
+          "text": "वासुदेव उवाच",
+          "meaning": {
+            "en": "Vasudeva said:",
+            "hi": "वासुदेव बोले—"
+          }
         },
         {
           "n": 12,
-          "text": "मनो मे ब्राह्मणं विद्धि बुद्धिं मे विद्धि ब्राह्मणीम् ।\nक्षेत्रज्ञ इति यश्चोक्तः सोऽहमेव धनंजय ॥"
+          "text": "मनो मे ब्राह्मणं विद्धि बुद्धिं मे विद्धि ब्राह्मणीम् ।\nक्षेत्रज्ञ इति यश्चोक्तः सोऽहमेव धनंजय ॥",
+          "meaning": {
+            "en": "\"Know my mind as the Brahmin and my intellect as the Brahmani; and the one called the knower of the field is I myself, Dhananjaya.\"",
+            "hi": "मेरे मन को ब्राह्मण जानो और मेरी बुद्धि को ब्राह्मणी जानो। जिसे 'क्षेत्रज्ञ' कहा गया है, वह मैं ही हूँ, हे धनंजय।"
+          }
         }
       ]
     }

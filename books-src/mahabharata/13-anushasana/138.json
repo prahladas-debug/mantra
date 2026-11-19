@@ -22,83 +22,163 @@
       "titleEn": "Anushasanika Parva (The instructions)",
       "verses": [
         {
-          "text": "वायुरुवाच"
+          "text": "वायुरुवाच",
+          "meaning": {
+            "en": "The Wind said:",
+            "hi": "वायु बोले—"
+          }
         },
         {
           "n": 1,
-          "text": "शृणु मूढ गुणान्कांश्चिद्ब्राह्मणानां महात्मनाम् ।\nये त्वया कीर्तिता राजंस्तेभ्योऽथ ब्राह्मणो वरः ॥"
+          "text": "शृणु मूढ गुणान्कांश्चिद्ब्राह्मणानां महात्मनाम् ।\nये त्वया कीर्तिता राजंस्तेभ्योऽथ ब्राह्मणो वरः ॥",
+          "meaning": {
+            "en": "Listen, fool, to some of the virtues of great-souled brahmins. A brahmin is better than any of the things you have named, O king.",
+            "hi": "हे मूढ़, महात्मा ब्राह्मणों के कुछ गुण सुनो। हे राजन्, तुमने जिन-जिन चीज़ों का नाम लिया, उन सबसे ब्राह्मण श्रेष्ठ है।"
+          }
         },
         {
           "n": 2,
-          "text": "त्यक्त्वा महीत्वं भूमिस्तु स्पर्धयाङ्गनृपस्य ह ।\nनाशं जगाम तां विप्रो व्यष्टम्भयत कश्यपः ॥"
+          "text": "त्यक्त्वा महीत्वं भूमिस्तु स्पर्धयाङ्गनृपस्य ह ।\nनाशं जगाम तां विप्रो व्यष्टम्भयत कश्यपः ॥",
+          "meaning": {
+            "en": "Earth once gave up her earthliness out of rivalry with King Anga and fell into ruin; the brahmin Kashyapa propped her up again.",
+            "hi": "अंग राजा से स्पर्धा के कारण पृथ्वी ने अपना पृथ्वीपन त्याग दिया और नष्ट हो गई; ब्राह्मण कश्यप ने उसे फिर से थाम लिया।"
+          }
         },
         {
           "n": 3,
-          "text": "अक्षया ब्राह्मणा राजन्दिवि चेह च नित्यदा ।\nअपिबत्तेजसा ह्यापः स्वयमेवाङ्गिराः पुरा ॥"
+          "text": "अक्षया ब्राह्मणा राजन्दिवि चेह च नित्यदा ।\nअपिबत्तेजसा ह्यापः स्वयमेवाङ्गिराः पुरा ॥",
+          "meaning": {
+            "en": "Brahmins are imperishable, O king, in heaven and here, always. In ancient times Angiras drank up the waters by his own power.",
+            "hi": "हे राजन, ब्राह्मण स्वर्ग में और यहाँ भी सदा अक्षय हैं। पूर्वकाल में अंगिरा ने स्वयं अपने तेज से जल को पी लिया था।"
+          }
         },
         {
           "n": 4,
-          "text": "स ताः पिबन्क्षीरमिव नातृप्यत महातपाः ।\nअपूरयन्महौघेन महीं सर्वां च पार्थिव ॥"
+          "text": "स ताः पिबन्क्षीरमिव नातृप्यत महातपाः ।\nअपूरयन्महौघेन महीं सर्वां च पार्थिव ॥",
+          "meaning": {
+            "en": "Drinking them like milk, that great ascetic was not satisfied; then in a mighty flood he filled the whole earth again, O king.",
+            "hi": "उस महातपस्वी ने जल को दूध की तरह पी लिया, फिर भी उसकी तृप्ति नहीं हुई; हे पार्थिव, उसने फिर महान प्रवाह से समूची पृथ्वी को भर दिया।"
+          }
         },
         {
           "n": 5,
-          "text": "तस्मिन्नहं च क्रुद्धे वै जगत्त्यक्त्वा ततो गतः ।\nव्यतिष्ठमग्निहोत्रे च चिरमङ्गिरसो भयात् ॥"
+          "text": "तस्मिन्नहं च क्रुद्धे वै जगत्त्यक्त्वा ततो गतः ।\nव्यतिष्ठमग्निहोत्रे च चिरमङ्गिरसो भयात् ॥",
+          "meaning": {
+            "en": "When he grew angry I abandoned the world and left, and for a long time I stayed hidden in the fire-sacrifice for fear of Angiras.",
+            "hi": "उसके क्रुद्ध होने पर मैं संसार को छोड़कर चला गया, और अंगिरा के भय से बहुत समय तक अग्निहोत्र में ही छिपा रहा।"
+          }
         },
         {
           "n": 6,
-          "text": "अभिशप्तश्च भगवान्गौतमेन पुरंदरः ।\nअहल्यां कामयानो वै धर्मार्थं च न हिंसितः ॥"
+          "text": "अभिशप्तश्च भगवान्गौतमेन पुरंदरः ।\nअहल्यां कामयानो वै धर्मार्थं च न हिंसितः ॥",
+          "meaning": {
+            "en": "The lord Indra, Purandara, was cursed by Gautama because he lusted after Ahalya; and though he had done wrong, he was not struck down, for the sake of dharma.",
+            "hi": "भगवान पुरंदर (इंद्र) को गौतम ने शाप दिया, क्योंकि उन्होंने अहल्या की कामना की थी; और अपराध करने पर भी धर्म के कारण वे मारे नहीं गए।"
+          }
         },
         {
           "n": 7,
-          "text": "तथा समुद्रो नृपते पूर्णो मृष्टेन वारिणा ।\nब्राह्मणैरभिशप्तः सँल्लवणोदः कृतो विभो ॥"
+          "text": "तथा समुद्रो नृपते पूर्णो मृष्टेन वारिणा ।\nब्राह्मणैरभिशप्तः सँल्लवणोदः कृतो विभो ॥",
+          "meaning": {
+            "en": "So too, king, the ocean, though full of sweet water, was cursed by brahmins and made salty, O mighty one.",
+            "hi": "इसी प्रकार हे नृपति, मीठे जल से भरा होने पर भी समुद्र को ब्राह्मणों ने शाप दिया, और हे विभो, उसे खारा (लवणोद) बना दिया गया।"
+          }
         },
         {
           "n": 8,
-          "text": "सुवर्णवर्णो निर्धूमः संहतोर्ध्वशिखः कविः ।\nक्रुद्धेनाङ्गिरसा शप्तो गुणैरेतैर्विवर्जितः ॥"
+          "text": "सुवर्णवर्णो निर्धूमः संहतोर्ध्वशिखः कविः ।\nक्रुद्धेनाङ्गिरसा शप्तो गुणैरेतैर्विवर्जितः ॥",
+          "meaning": {
+            "en": "The golden-hued, smokeless, wise Fire with its flame rising together was cursed by an angry Angiras and stripped of these qualities.",
+            "hi": "सुवर्ण-वर्ण, धूम्र-रहित, ऊपर की ओर सीधी उठी ज्वाला वाली, बुद्धिमान अग्नि को क्रुद्ध अंगिरा ने शाप दिया, और वह इन गुणों से वंचित हो गई।"
+          }
         },
         {
           "n": 9,
-          "text": "मरुतश्चूर्णितान्पश्य येऽहसन्त महोदधिम् ।\nसुवर्णधारिणा नित्यमवशप्ता द्विजातिना ॥"
+          "text": "मरुतश्चूर्णितान्पश्य येऽहसन्त महोदधिम् ।\nसुवर्णधारिणा नित्यमवशप्ता द्विजातिना ॥",
+          "meaning": {
+            "en": "See how the Maruts who laughed at the great ocean were ground to dust by the brahmin who wore a golden ornament, his curse laid on them.",
+            "hi": "देखो, जो मरुद्गण महासागर पर हँसे थे, उन्हें सुवर्ण धारण करने वाले उस द्विजाति ने शाप दिया और वे चूर-चूर हो गए।"
+          }
         },
         {
           "n": 10,
-          "text": "समो न त्वं द्विजातिभ्यः श्रेष्ठं विद्धि नराधिप ।\nगर्भस्थान्ब्राह्मणान्सम्यङ्नमस्यति किल प्रभुः ॥"
+          "text": "समो न त्वं द्विजातिभ्यः श्रेष्ठं विद्धि नराधिप ।\nगर्भस्थान्ब्राह्मणान्सम्यङ्नमस्यति किल प्रभुः ॥",
+          "meaning": {
+            "en": "You are no match for the brahmins; know them to be superior, lord of men. Even the Lord is said to bow properly to brahmins still in the womb.",
+            "hi": "हे नराधिप, तुम द्विजातियों के समान नहीं हो; उन्हें श्रेष्ठ जानो। कहा जाता है कि प्रभु भी गर्भ में स्थित ब्राह्मणों को भली प्रकार नमस्कार करते हैं।"
+          }
         },
         {
           "n": 11,
-          "text": "दण्डकानां महद्राज्यं ब्राह्मणेन विनाशितम् ।\nतालजङ्घं महत्क्षत्रमौर्वेणैकेन नाशितम् ॥"
+          "text": "दण्डकानां महद्राज्यं ब्राह्मणेन विनाशितम् ।\nतालजङ्घं महत्क्षत्रमौर्वेणैकेन नाशितम् ॥",
+          "meaning": {
+            "en": "A brahmin destroyed the great kingdom of the Dandakas, and the mighty Talajangha kshatriyas were destroyed by a single descendant of Bhrigu, Aurva.",
+            "hi": "एक ब्राह्मण ने दण्डकों के विशाल राज्य का विनाश कर दिया, और भृगुवंशी और्व नामक एक ही ब्राह्मण ने महान तालजंघ क्षत्रियों का नाश कर दिया।"
+          }
         },
         {
           "n": 12,
-          "text": "त्वया च विपुलं राज्यं बलं धर्मः श्रुतं तथा ।\nदत्तात्रेयप्रसादेन प्राप्तं परमदुर्लभम् ॥"
+          "text": "त्वया च विपुलं राज्यं बलं धर्मः श्रुतं तथा ।\nदत्तात्रेयप्रसादेन प्राप्तं परमदुर्लभम् ॥",
+          "meaning": {
+            "en": "Your vast kingdom, strength, dharma and learning, extremely rare gifts, you gained through the favour of Dattatreya.",
+            "hi": "तुमने विशाल राज्य, बल, धर्म और शास्त्र-ज्ञान दत्तात्रेय की कृपा से प्राप्त किए हैं, जो अत्यंत दुर्लभ हैं।"
+          }
         },
         {
           "n": 13,
-          "text": "अग्निं त्वं यजसे नित्यं कस्मादर्जुन ब्राह्मणम् ।\nस हि सर्वस्य लोकस्य हव्यवाट्किं न वेत्सि तम् ॥"
+          "text": "अग्निं त्वं यजसे नित्यं कस्मादर्जुन ब्राह्मणम् ।\nस हि सर्वस्य लोकस्य हव्यवाट्किं न वेत्सि तम् ॥",
+          "meaning": {
+            "en": "Arjuna, why do you always worship Fire but not the brahmin? He carries offerings for the whole world; do you not know him?",
+            "hi": "हे अर्जुन, तुम सदा अग्नि की पूजा करते हो, ब्राह्मण की क्यों नहीं? वह सारे संसार का हव्यवाहक है; क्या तुम उसे नहीं जानते?"
+          }
         },
         {
           "n": 14,
-          "text": "अथ वा ब्राह्मणश्रेष्ठमनु भूतानुपालकम् ।\nकर्तारं जीवलोकस्य कस्माज्जानन्विमुह्यसे ॥"
+          "text": "अथ वा ब्राह्मणश्रेष्ठमनु भूतानुपालकम् ।\nकर्तारं जीवलोकस्य कस्माज्जानन्विमुह्यसे ॥",
+          "meaning": {
+            "en": "Or why, knowing the best of brahmins, who follows and protects all beings and is a maker of the living world, do you fall into delusion?",
+            "hi": "अथवा ब्राह्मणों में श्रेष्ठ को, जो सब प्राणियों का पालन करने वाला और जीवलोक का कर्ता है, जानते हुए भी तुम क्यों मोह में पड़ते हो?"
+          }
         },
         {
           "n": 15,
-          "text": "तथा प्रजापतिर्ब्रह्मा अव्यक्तः प्रभवाप्ययः ।\nयेनेदं निखिलं विश्वं जनितं स्थावरं चरम् ॥"
+          "text": "तथा प्रजापतिर्ब्रह्मा अव्यक्तः प्रभवाप्ययः ।\nयेनेदं निखिलं विश्वं जनितं स्थावरं चरम् ॥",
+          "meaning": {
+            "en": "There is also Brahma, the lord of creatures, unmanifest, the source and dissolution, by whom this entire world, moving and unmoving, was born.",
+            "hi": "उसी प्रकार प्रजापति ब्रह्मा हैं, जो अव्यक्त हैं और उत्पत्ति तथा प्रलय के स्रोत हैं, जिनके द्वारा यह सारा चर और अचर विश्व उत्पन्न हुआ है।"
+          }
         },
         {
           "n": 16,
-          "text": "अण्डजातं तु ब्रह्माणं केचिदिच्छन्त्यपण्डिताः ।\nअण्डाद्भिन्नाद्बभुः शैला दिशोऽम्भः पृथिवी दिवम् ॥"
+          "text": "अण्डजातं तु ब्रह्माणं केचिदिच्छन्त्यपण्डिताः ।\nअण्डाद्भिन्नाद्बभुः शैला दिशोऽम्भः पृथिवी दिवम् ॥",
+          "meaning": {
+            "en": "Some unlearned people hold that Brahma was born from an egg; from the egg's splitting came the mountains, the directions, water, earth and sky.",
+            "hi": "कुछ अज्ञानी लोग मानते हैं कि ब्रह्मा अंड से उत्पन्न हुए; उस फूटे हुए अंड से पर्वत, दिशाएँ, जल, पृथ्वी और आकाश प्रकट हुए।"
+          }
         },
         {
           "n": 17,
-          "text": "द्रष्टव्यं नैतदेवं हि कथं ज्यायस्तमो हि सः ।\nस्मृतमाकाशमण्डं तु तस्माज्जातः पितामहः ॥"
+          "text": "द्रष्टव्यं नैतदेवं हि कथं ज्यायस्तमो हि सः ।\nस्मृतमाकाशमण्डं तु तस्माज्जातः पितामहः ॥",
+          "meaning": {
+            "en": "This cannot be seen to be so, for how could he, the greatest of all, be so? Space itself is called the egg, and from that the Grandfather was born.",
+            "hi": "यह ऐसा नहीं देखा जा सकता; वह तो अत्यंत ज्येष्ठ है, तो वह अंड से कैसे उत्पन्न हो सकता है? आकाश को ही 'अंड' कहा गया है, और उसी से पितामह उत्पन्न हुए।"
+          }
         },
         {
           "n": 18,
-          "text": "तिष्ठेत्कथमिति ब्रूहि न किंचिद्धि तदा भवेत् ।\nअहंकार इति प्रोक्तः सर्वतेजोगतः प्रभुः ॥"
+          "text": "तिष्ठेत्कथमिति ब्रूहि न किंचिद्धि तदा भवेत् ।\nअहंकार इति प्रोक्तः सर्वतेजोगतः प्रभुः ॥",
+          "meaning": {
+            "en": "Tell me how an egg could exist, since then nothing existed at all. The lord pervading all radiance is called Ahamkara, the sense of 'I'.",
+            "hi": "बताओ, अंड कैसे टिक सकता था, जब तब कुछ भी नहीं था? सब तेज में व्याप्त उस प्रभु को 'अहंकार' — 'मैं' का भाव — कहा गया है।"
+          }
         },
         {
           "n": 19,
-          "text": "नास्त्यण्डमस्ति तु ब्रह्मा स राजँल्लोकभावनः ।\nइत्युक्तः स तदा तूष्णीमभूद्वायुस्तमब्रवीत् ॥"
+          "text": "नास्त्यण्डमस्ति तु ब्रह्मा स राजँल्लोकभावनः ।\nइत्युक्तः स तदा तूष्णीमभूद्वायुस्तमब्रवीत् ॥",
+          "meaning": {
+            "en": "There is no egg, king, but there is Brahma, who brings the worlds into being. When he was told this, Arjuna fell silent, and the Wind spoke to him again.",
+            "hi": "अंड नहीं है, हे राजन्; ब्रह्मा तो हैं, जो लोकों को उत्पन्न करते हैं। ऐसा कहे जाने पर अर्जुन तब चुप हो गए, और वायु ने उनसे फिर कहा।"
+          }
         }
       ]
     }

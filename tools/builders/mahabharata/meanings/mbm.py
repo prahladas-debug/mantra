@@ -10,6 +10,11 @@
       list the units of a work chunk (chunks.json)
   python3 -I tools/builders/mahabharata/meanings/mbm.py status
       verses with en / hi meanings, per parva and per chunk
+  python3 -I tools/builders/mahabharata/meanings/mbm.py review <part> <unit>
+      print each verse with its English and Hindi meanings
+  python3 -I tools/builders/mahabharata/meanings/mbm.py fix <fixes.json>
+      apply single corrections: [{"part":5,"unit":33,"key":"0.12","lang":"en","text":"…","why":"…"}, …];
+      refuses unknown keys, Latin in hi, Devanagari in en; prints each change
 
 <part> is the folder number (1–18), <unit> the file number (1, 2, …).
 """
@@ -63,6 +68,31 @@ def merge(part, unit, lang, side):
     open(p, 'w').write(json.dumps(d, ensure_ascii=False, indent=2) + '\n')
     print('merged', len(keys), lang, 'into', rel)
 
+def review(part, unit):
+    d = json.load(open(path(part, unit)))
+    print('#', d['id'], d['titleEn'])
+    for k, v in verses(d):
+        m = v.get('meaning') or {}
+        print('%s\t%s\t%s' % (k, v.get('n', '-'), v['text'].replace('\n', ' / ')))
+        print('\tEN: %s\n\tHI: %s' % (m.get('en', ''), m.get('hi', '')))
+
+def fix(fp):
+    fixes = json.load(open(fp))
+    by = {}
+    for f in fixes: by.setdefault((int(f['part']), int(f['unit'])), []).append(f)
+    for (part, unit), fs in sorted(by.items()):
+        p = path(part, unit); d = json.load(open(p)); vs = dict(verses(d))
+        for f in fs:
+            k, lang, t = f['key'], f['lang'], f['text'].strip()
+            if k not in vs: sys.exit('REFUSED: no key %s in %s/%s' % (k, part, unit))
+            if lang not in ('en', 'hi') or not t: sys.exit('REFUSED: bad lang or empty text')
+            if lang == 'hi' and any(ch.isascii() and ch.isalpha() for ch in t): sys.exit('REFUSED: Latin letters in hi %s/%s %s' % (part, unit, k))
+            if lang == 'en' and any('\u0900' <= ch <= '\u097f' for ch in t): sys.exit('REFUSED: Devanagari in en %s/%s %s' % (part, unit, k))
+            m = vs[k].setdefault('meaning', {})
+            print('%s/%s %s %s\n  - %s\n  + %s' % (part, unit, k, lang, m.get(lang, ''), t))
+            m[lang] = t
+        open(p, 'w').write(json.dumps(d, ensure_ascii=False, indent=2) + '\n')
+
 def chunks(lang):
     return json.load(open(os.path.join(HERE, 'chunks.json')))[lang]
 
@@ -88,6 +118,8 @@ if __name__ == '__main__':
     elif a[0] == 'chunk':
         c = [x for x in chunks(a[1]) if x['id'] == a[2]][0]; print(json.dumps(c))
     elif a[0] == 'status': status()
+    elif a[0] == 'review': review(a[1], a[2])
+    elif a[0] == 'fix': fix(a[1])
     elif a[0] == 'todo':
         c = [x for x in chunks(a[1]) if x['id'] == a[2]][0]
         left = [u for u in range(c['from'], c['to'] + 1) if not all((v.get('meaning') or {}).get(a[1]) for _, v in verses(json.load(open(path(c['part'], u)))))]

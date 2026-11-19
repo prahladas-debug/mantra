@@ -22,71 +22,139 @@
       "titleEn": "Ashvamedhika Parva (The horse sacrifice)",
       "verses": [
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:",
+            "hi": "वैशम्पायन बोले—"
+          }
         },
         {
           "n": 1,
-          "text": "तस्मिन्यज्ञे प्रवृत्ते तु वाग्मिनो हेतुवादिनः ।\nहेतुवादान्बहून्प्राहुः परस्परजिगीषवः ॥"
+          "text": "तस्मिन्यज्ञे प्रवृत्ते तु वाग्मिनो हेतुवादिनः ।\nहेतुवादान्बहून्प्राहुः परस्परजिगीषवः ॥",
+          "meaning": {
+            "en": "When that sacrifice was under way, eloquent debaters skilled in argument, each eager to defeat the others, put forward many reasoned disputations.",
+            "hi": "उस यज्ञ के आरम्भ होने पर वाक्पटु, तर्कवादी विद्वानों ने, एक-दूसरे को परास्त करने की इच्छा से, अनेक तर्कपूर्ण विवाद प्रस्तुत किए।"
+          }
         },
         {
           "n": 2,
-          "text": "ददृशुस्तं नृपतयो यज्ञस्य विधिमुत्तमम् ।\nदेवेन्द्रस्येव विहितं भीमेन कुरुनन्दन ॥"
+          "text": "ददृशुस्तं नृपतयो यज्ञस्य विधिमुत्तमम् ।\nदेवेन्द्रस्येव विहितं भीमेन कुरुनन्दन ॥",
+          "meaning": {
+            "en": "The kings beheld the excellent arrangement of the sacrifice, O delight of the Kurus, which Bhima had made as if for Indra, lord of the gods.",
+            "hi": "हे कुरुनन्दन, राजाओं ने भीम द्वारा देवेन्द्र के लिए मानो रचे गए, उस यज्ञ के उत्तम विधान को देखा।"
+          }
         },
         {
           "n": 3,
-          "text": "ददृशुस्तोरणान्यत्र शातकुम्भमयानि ते ।\nशय्यासनविहारांश्च सुबहून्रत्नभूषितान् ॥"
+          "text": "ददृशुस्तोरणान्यत्र शातकुम्भमयानि ते ।\nशय्यासनविहारांश्च सुबहून्रत्नभूषितान् ॥",
+          "meaning": {
+            "en": "There they saw archways made of gold, and very many couches, seats and pleasure-grounds decked with jewels.",
+            "hi": "वहाँ उन्होंने स्वर्ण से बने तोरण, और रत्नों से सजी बहुत-सी शय्याएँ, आसन और विहार-स्थल देखे।"
+          }
         },
         {
           "n": 4,
-          "text": "घटान्पात्रीः कटाहानि कलशान्वर्धमानकान् ।\nन हि किंचिदसौवर्णमपश्यंस्तत्र पार्थिवाः ॥"
+          "text": "घटान्पात्रीः कटाहानि कलशान्वर्धमानकान् ।\nन हि किंचिदसौवर्णमपश्यंस्तत्र पार्थिवाः ॥",
+          "meaning": {
+            "en": "Jars, dishes, cauldrons, pitchers and vessels with raised rims were there, and the kings saw nothing at all that was not of gold.",
+            "hi": "वहाँ घड़े, पात्र, कड़ाहे, कलश और ऊपर उठे किनारों वाले पात्र थे; राजाओं ने वहाँ कोई भी ऐसी वस्तु नहीं देखी जो स्वर्ण की न हो।"
+          }
         },
         {
           "n": 5,
-          "text": "यूपांश्च शास्त्रपठितान्दारवान्हेमभूषितान् ।\nउपकॢप्तान्यथाकालं विधिवद्भूरिवर्चसः ॥"
+          "text": "यूपांश्च शास्त्रपठितान्दारवान्हेमभूषितान् ।\nउपकॢप्तान्यथाकालं विधिवद्भूरिवर्चसः ॥",
+          "meaning": {
+            "en": "They saw sacrificial posts of wood, as the scriptures prescribe, adorned with gold, very splendid and set up duly at the proper time.",
+            "hi": "उन्होंने शास्त्रों में वर्णित, स्वर्ण से सजे, काष्ठ के यूप देखे, जो अत्यन्त तेजस्वी थे और समय पर विधिपूर्वक स्थापित किए गए थे।"
+          }
         },
         {
           "n": 6,
-          "text": "स्थलजा जलजा ये च पशवः केचन प्रभो ।\nसर्वानेव समानीतांस्तानपश्यन्त ते नृपाः ॥"
+          "text": "स्थलजा जलजा ये च पशवः केचन प्रभो ।\nसर्वानेव समानीतांस्तानपश्यन्त ते नृपाः ॥",
+          "meaning": {
+            "en": "The kings saw assembled there, O lord, all the animals found on land and in water.",
+            "hi": "हे प्रभो, उन राजाओं ने वहाँ स्थल और जल के सभी पशुओं को एकत्र हुआ देखा।"
+          }
         },
         {
           "n": 7,
-          "text": "गाश्चैव महिषीश्चैव तथा वृद्धाः स्त्रियोऽपि च ।\nऔदकानि च सत्त्वानि श्वापदानि वयांसि च ॥"
+          "text": "गाश्चैव महिषीश्चैव तथा वृद्धाः स्त्रियोऽपि च ।\nऔदकानि च सत्त्वानि श्वापदानि वयांसि च ॥",
+          "meaning": {
+            "en": "There were cows and buffaloes, and aged women too, water creatures, beasts of prey and birds.",
+            "hi": "वहाँ गाएँ और भैंसें थीं, वृद्ध स्त्रियाँ भी थीं; जल के प्राणी, हिंसक पशु और पक्षी भी थे।"
+          }
         },
         {
           "n": 8,
-          "text": "जरायुजान्यण्डजानि स्वेदजान्युद्भिदानि च ।\nपर्वतानूपवन्यानि भूतानि ददृशुश्च ते ॥"
+          "text": "जरायुजान्यण्डजानि स्वेदजान्युद्भिदानि च ।\nपर्वतानूपवन्यानि भूतानि ददृशुश्च ते ॥",
+          "meaning": {
+            "en": "They saw beings born from the womb, from eggs, from sweat and from sprouts, creatures of mountains, marshes and forests.",
+            "hi": "उन्होंने जरायुज, अण्डज, स्वेदज और उद्भिज्ज प्राणी, तथा पर्वतों, जलप्रदेशों और वनों के जीव देखे।"
+          }
         },
         {
           "n": 9,
-          "text": "एवं प्रमुदितं सर्वं पशुगोधनधान्यतः ।\nयज्ञवाटं नृपा दृष्ट्वा परं विस्मयमागमन् ।\nब्राह्मणानां विशां चैव बहुमृष्टान्नमृद्धिमत् ॥"
+          "text": "एवं प्रमुदितं सर्वं पशुगोधनधान्यतः ।\nयज्ञवाटं नृपा दृष्ट्वा परं विस्मयमागमन् ।\nब्राह्मणानां विशां चैव बहुमृष्टान्नमृद्धिमत् ॥",
+          "meaning": {
+            "en": "Seeing the sacrificial ground thus joyous with its abundance of animals, cattle, wealth and grain, the kings were filled with great wonder. There was plentiful, finely prepared food for brahmins and for the common people.",
+            "hi": "पशु, गोधन और धान्य से भरे इस प्रकार आनन्दमय यज्ञ-मंडप को देखकर राजाओं को अत्यन्त विस्मय हुआ। वहाँ ब्राह्मणों और सामान्य जनों के लिए प्रचुर और सुस्वादु भोजन था।"
+          }
         },
         {
           "n": 10,
-          "text": "पूर्णे शतसहस्रे तु विप्राणां तत्र भुञ्जताम् ।\nदुन्दुभिर्मेघनिर्घोषो मुहुर्मुहुरताड्यत ॥"
+          "text": "पूर्णे शतसहस्रे तु विप्राणां तत्र भुञ्जताम् ।\nदुन्दुभिर्मेघनिर्घोषो मुहुर्मुहुरताड्यत ॥",
+          "meaning": {
+            "en": "When a hundred thousand brahmins had finished eating there, a kettledrum with a sound like thunder was struck again and again.",
+            "hi": "जब वहाँ भोजन करने वाले ब्राह्मण एक लाख की संख्या पूरी कर चुके, तब मेघ-गर्जन जैसी दुन्दुभि बार-बार बजाई गई।"
+          }
         },
         {
           "n": 11,
-          "text": "विननादासकृत्सोऽथ दिवसे दिवसे तदा ।\nएवं स ववृते यज्ञो धर्मराजस्य धीमतः ॥"
+          "text": "विननादासकृत्सोऽथ दिवसे दिवसे तदा ।\nएवं स ववृते यज्ञो धर्मराजस्य धीमतः ॥",
+          "meaning": {
+            "en": "It sounded repeatedly, day after day, and so the sacrifice of the wise king of dharma went on.",
+            "hi": "वह दिन-प्रतिदिन बार-बार गूँजती रही; इस प्रकार बुद्धिमान धर्मराज का यज्ञ चलता रहा।"
+          }
         },
         {
           "n": 12,
-          "text": "अन्नस्य बहवो राजन्नुत्सर्गाः पर्वतोपमाः ।\nदधिकुल्याश्च ददृशुः सर्पिषश्च ह्रदाञ्जनाः ॥"
+          "text": "अन्नस्य बहवो राजन्नुत्सर्गाः पर्वतोपमाः ।\nदधिकुल्याश्च ददृशुः सर्पिषश्च ह्रदाञ्जनाः ॥",
+          "meaning": {
+            "en": "O king, people saw many heaps of food as high as mountains, channels of curds, and lakes of ghee.",
+            "hi": "हे राजन्, लोगों ने अन्न के पर्वतों के समान बहुत-से ढेर देखे, दही की नदियाँ और घी के सरोवर भी देखे।"
+          }
         },
         {
           "n": 13,
-          "text": "जम्बूद्वीपो हि सकलो नानाजनपदायुतः ।\nराजन्नदृश्यतैकस्थो राज्ञस्तस्मिन्महाक्रतौ ॥"
+          "text": "जम्बूद्वीपो हि सकलो नानाजनपदायुतः ।\nराजन्नदृश्यतैकस्थो राज्ञस्तस्मिन्महाक्रतौ ॥",
+          "meaning": {
+            "en": "At that great rite of the king, O king, the whole of Jambudvipa with its many countries seemed gathered in one place.",
+            "hi": "हे राजन्, उस महायज्ञ में राजा के पास समस्त जम्बूद्वीप, अपने अनेक जनपदों सहित, मानो एक ही स्थान पर एकत्र दिखाई दे रहा था।"
+          }
         },
         {
           "n": 14,
-          "text": "तत्र जातिसहस्राणि पुरुषाणां ततस्ततः ।\nगृहीत्वा धनमाजग्मुर्बहूनि भरतर्षभ ॥"
+          "text": "तत्र जातिसहस्राणि पुरुषाणां ततस्ततः ।\nगृहीत्वा धनमाजग्मुर्बहूनि भरतर्षभ ॥",
+          "meaning": {
+            "en": "Thousands of groups of men came from here and there, bringing wealth, many of them, O best of the Bharatas.",
+            "hi": "वहाँ हज़ारों जातियों के पुरुष इधर-उधर से धन लेकर आए, हे भरतश्रेष्ठ, बहुत-से लोग।"
+          }
         },
         {
           "n": 15,
-          "text": "राजानः स्रग्विणश्चापि सुमृष्टमणिकुण्डलाः ।\nपर्यवेषन्द्विजाग्र्यांस्ताञ्शतशोऽथ सहस्रशः ॥"
+          "text": "राजानः स्रग्विणश्चापि सुमृष्टमणिकुण्डलाः ।\nपर्यवेषन्द्विजाग्र्यांस्ताञ्शतशोऽथ सहस्रशः ॥",
+          "meaning": {
+            "en": "Kings wearing garlands and brightly polished jewelled earrings served those foremost brahmins, by the hundreds and thousands.",
+            "hi": "मालाधारी राजा, जिनके कुण्डल चमकते मणियों से सुशोभित थे, उन श्रेष्ठ ब्राह्मणों को सैकड़ों और हज़ारों की संख्या में परोस रहे थे।"
+          }
         },
         {
           "n": 16,
-          "text": "विविधान्यन्नपानानि पुरुषा येऽनुयायिनः ।\nतेषां नृपोपभोज्यानि ब्राह्मणेभ्यो ददुः स्म ते ॥"
+          "text": "विविधान्यन्नपानानि पुरुषा येऽनुयायिनः ।\nतेषां नृपोपभोज्यानि ब्राह्मणेभ्यो ददुः स्म ते ॥",
+          "meaning": {
+            "en": "The attendants who followed them gave the brahmins the many kinds of food and drink that were fit for kings to enjoy.",
+            "hi": "उनके साथ आए सेवक राजाओं के उपभोग योग्य विविध अन्न और पेय ब्राह्मणों को दे रहे थे।"
+          }
         }
       ]
     }

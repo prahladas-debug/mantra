@@ -22,236 +22,472 @@
       "titleEn": "Anushasanika Parva (The instructions)",
       "verses": [
         {
-          "text": "उमोवाच"
+          "text": "उमोवाच",
+          "meaning": {
+            "en": "Uma said:",
+            "hi": "उमा बोलीं—"
+          }
         },
         {
           "n": 1,
-          "text": "उक्तास्त्वया पृथग्धर्माश्चातुर्वर्ण्यहिताः शुभाः ।\nसर्वव्यापी तु यो धर्मो भगवंस्तं ब्रवीहि मे ॥"
+          "text": "उक्तास्त्वया पृथग्धर्माश्चातुर्वर्ण्यहिताः शुभाः ।\nसर्वव्यापी तु यो धर्मो भगवंस्तं ब्रवीहि मे ॥",
+          "meaning": {
+            "en": "You have described the separate auspicious dharmas that benefit the four orders; now, Lord, tell me the dharma that pervades all.",
+            "hi": "आपने चारों वर्णों के हित के लिए अलग-अलग शुभ धर्म बताए; अब हे भगवन, मुझे वह धर्म बताइए जो सर्वव्यापी है।"
+          }
         },
         {
-          "text": "महेश्वर उवाच"
+          "text": "महेश्वर उवाच",
+          "meaning": {
+            "en": "Maheshvara said:",
+            "hi": "महेश्वर बोले—"
+          }
         },
         {
           "n": 2,
-          "text": "ब्राह्मणा लोकसारेण सृष्टा धात्रा गुणार्थिना ।\nलोकांस्तारयितुं कृत्स्नान्मर्त्येषु क्षितिदेवताः ॥"
+          "text": "ब्राह्मणा लोकसारेण सृष्टा धात्रा गुणार्थिना ।\nलोकांस्तारयितुं कृत्स्नान्मर्त्येषु क्षितिदेवताः ॥",
+          "meaning": {
+            "en": "Brahmanas were created by the Creator, who desired excellence, from the essence of the world, as gods of the earth among mortals, to carry all the worlds across.",
+            "hi": "ब्रह्मा ने, जो उत्तम गुणों के इच्छुक थे, संसार के सार से ब्राह्मणों को रचा, मर्त्यों में पृथ्वी के देवता के रूप में, ताकि वे सारे लोकों को पार लगाएँ।"
+          }
         },
         {
           "n": 3,
-          "text": "तेषामिमं प्रवक्ष्यामि धर्मकर्मफलोदयम् ।\nब्राह्मणेषु हि यो धर्मः स धर्मः परमो मतः ॥"
+          "text": "तेषामिमं प्रवक्ष्यामि धर्मकर्मफलोदयम् ।\nब्राह्मणेषु हि यो धर्मः स धर्मः परमो मतः ॥",
+          "meaning": {
+            "en": "I will tell you of them the rise of the fruit of dharmic action. The dharma found among Brahmanas is held to be the highest dharma.",
+            "hi": "उनके धर्म-कर्म के फल के उदय के विषय में मैं तुमसे कहूँगा। ब्राह्मणों में जो धर्म है, वही परम धर्म माना गया है।"
+          }
         },
         {
           "n": 4,
-          "text": "इमे तु लोकधर्मार्थं त्रयः सृष्टाः स्वयंभुवा ।\nपृथिव्याः सर्जने नित्यं सृष्टास्तानपि मे शृणु ॥"
+          "text": "इमे तु लोकधर्मार्थं त्रयः सृष्टाः स्वयंभुवा ।\nपृथिव्याः सर्जने नित्यं सृष्टास्तानपि मे शृणु ॥",
+          "meaning": {
+            "en": "These three were created by the Self-born for the sake of worldly dharma, always created in the making of the earth; hear of them too from me.",
+            "hi": "लोक-धर्म के लिए स्वयंभू ने ये तीन (धर्म) रचे, जो सदा पृथ्वी की रचना में बनाए गए; उनके विषय में भी मुझसे सुनो।"
+          }
         },
         {
           "n": 5,
-          "text": "वेदोक्तः परमो धर्मः स्मृतिशास्त्रगतोऽपरः ।\nशिष्टाचीर्णः परः प्रोक्तस्त्रयो धर्माः सनातनाः ॥"
+          "text": "वेदोक्तः परमो धर्मः स्मृतिशास्त्रगतोऽपरः ।\nशिष्टाचीर्णः परः प्रोक्तस्त्रयो धर्माः सनातनाः ॥",
+          "meaning": {
+            "en": "The highest dharma is that stated in the Veda, another is found in the Smriti texts, and a further one is practised by the good; these three dharmas are eternal.",
+            "hi": "वेद में कहा गया धर्म परम है, दूसरा स्मृति-शास्त्रों में वर्णित है, और एक तीसरा शिष्टों द्वारा आचरित है; ये तीनों धर्म सनातन कहे गए हैं।"
+          }
         },
         {
           "n": 6,
-          "text": "त्रैविद्यो ब्राह्मणो विद्वान्न चाध्ययनजीवनः ।\nत्रिकर्मा त्रिपरिक्रान्तो मैत्र एष स्मृतो द्विजः ॥"
+          "text": "त्रैविद्यो ब्राह्मणो विद्वान्न चाध्ययनजीवनः ।\nत्रिकर्मा त्रिपरिक्रान्तो मैत्र एष स्मृतो द्विजः ॥",
+          "meaning": {
+            "en": "A learned Brahmana who knows the three Vedas, does not live by teaching, performs three duties and has gone through three stages, is called a friendly twice-born.",
+            "hi": "जो ब्राह्मण तीनों वेदों को जानता है, विद्वान है, अध्यापन से जीविका नहीं चलाता, तीन कर्म करता है और तीन आश्रमों का पालन कर चुका है, उसे मैत्र (मित्र-भाव वाला) द्विज कहा गया है।"
+          }
         },
         {
           "n": 7,
-          "text": "षडिमानि तु कर्माणि प्रोवाच भुवनेश्वरः ।\nवृत्त्यर्थं ब्राह्मणानां वै शृणु तानि समाहिता ॥"
+          "text": "षडिमानि तु कर्माणि प्रोवाच भुवनेश्वरः ।\nवृत्त्यर्थं ब्राह्मणानां वै शृणु तानि समाहिता ॥",
+          "meaning": {
+            "en": "The Lord of the world declared these six occupations for the livelihood of Brahmanas; listen to them attentively.",
+            "hi": "भुवनेश्वर ने ब्राह्मणों की जीविका के लिए ये छह कर्म बताए; उन्हें ध्यान से सुनो।"
+          }
         },
         {
           "n": 8,
-          "text": "यजनं याजनं चैव तथा दानप्रतिग्रहौ ।\nअध्यापनमधीतं च षट्कर्मा धर्मभाग्द्विजः ॥"
+          "text": "यजनं याजनं चैव तथा दानप्रतिग्रहौ ।\nअध्यापनमधीतं च षट्कर्मा धर्मभाग्द्विजः ॥",
+          "meaning": {
+            "en": "Sacrificing, officiating at others' sacrifices, giving and receiving gifts, teaching and studying: the twice-born who does these six shares in dharma.",
+            "hi": "यजन, याजन, दान और प्रतिग्रह, अध्यापन और अध्ययन, इन छह कर्मों को करने वाला द्विज धर्म का भागी होता है।"
+          }
         },
         {
           "n": 9,
-          "text": "नित्यस्वाध्यायता धर्मो धर्मो यज्ञः सनातनः ।\nदानं प्रशस्यते चास्य यथाशक्ति यथाविधि ॥"
+          "text": "नित्यस्वाध्यायता धर्मो धर्मो यज्ञः सनातनः ।\nदानं प्रशस्यते चास्य यथाशक्ति यथाविधि ॥",
+          "meaning": {
+            "en": "Constant study is dharma, and sacrifice is eternal dharma; giving is also praised for him, according to his means and the rule.",
+            "hi": "नित्य स्वाध्याय धर्म है, और यज्ञ सनातन धर्म है; इसके लिए यथाशक्ति और यथाविधि दान भी प्रशंसित है।"
+          }
         },
         {
           "n": 10,
-          "text": "अयं तु परमो धर्मः प्रवृत्तः सत्सु नित्यशः ।\nगृहस्थता विशुद्धानां धर्मस्य निचयो महान् ॥"
+          "text": "अयं तु परमो धर्मः प्रवृत्तः सत्सु नित्यशः ।\nगृहस्थता विशुद्धानां धर्मस्य निचयो महान् ॥",
+          "meaning": {
+            "en": "This highest dharma ever prevails among the good; the householder's life of the pure is a great store of dharma.",
+            "hi": "यह परम धर्म सज्जनों में सदा प्रचलित रहता है; पवित्र लोगों का गृहस्थ जीवन धर्म का एक बड़ा संचय है।"
+          }
         },
         {
           "n": 11,
-          "text": "पञ्चयज्ञविशुद्धात्मा सत्यवागनसूयकः ।\nदाता ब्राह्मणसत्कर्ता सुसंमृष्टनिवेशनः ॥"
+          "text": "पञ्चयज्ञविशुद्धात्मा सत्यवागनसूयकः ।\nदाता ब्राह्मणसत्कर्ता सुसंमृष्टनिवेशनः ॥",
+          "meaning": {
+            "en": "Purified by the five sacrifices, truthful, without envy, generous, honouring Brahmanas, with a well-swept home.",
+            "hi": "पाँच यज्ञों से शुद्ध आत्मा वाला, सत्यवादी, ईर्ष्या-रहित, दाता, ब्राह्मणों का सत्कार करने वाला, और जिसका घर भली प्रकार झाड़ा-बुहारा गया हो।"
+          }
         },
         {
           "n": 12,
-          "text": "अमानी च सदाजिह्मः स्निग्धवाणीप्रदस्तथा ।\nअतिथ्यभ्यागतरतिः शेषान्नकृतभोजनः ॥"
+          "text": "अमानी च सदाजिह्मः स्निग्धवाणीप्रदस्तथा ।\nअतिथ्यभ्यागतरतिः शेषान्नकृतभोजनः ॥",
+          "meaning": {
+            "en": "Free of pride, ever straightforward, speaking kindly, delighting in guests and visitors, eating food that remains after others.",
+            "hi": "अभिमान-रहित, सदा सरल, मधुर वाणी बोलने वाला, अतिथियों और आगंतुकों में प्रसन्न रहने वाला, और यज्ञ के बाद बचे अन्न से भोजन करने वाला।"
+          }
         },
         {
           "n": 13,
-          "text": "पाद्यमर्घ्यं यथान्यायमासनं शयनं तथा ।\nदीपं प्रतिश्रयं चापि यो ददाति स धार्मिकः ॥"
+          "text": "पाद्यमर्घ्यं यथान्यायमासनं शयनं तथा ।\nदीपं प्रतिश्रयं चापि यो ददाति स धार्मिकः ॥",
+          "meaning": {
+            "en": "One who rightly gives water for the feet, the welcome-offering, a seat, a bed, a lamp and shelter is dharmic.",
+            "hi": "जो यथा-न्याय पैर धोने का जल, अर्घ्य, आसन, शय्या, दीपक और आश्रय देता है, वह धार्मिक है।"
+          }
         },
         {
           "n": 14,
-          "text": "प्रातरुत्थाय चाचम्य भोजनेनोपमन्त्र्य च ।\nसत्कृत्यानुव्रजेद्यश्च तस्य धर्मः सनातनः ॥"
+          "text": "प्रातरुत्थाय चाचम्य भोजनेनोपमन्त्र्य च ।\nसत्कृत्यानुव्रजेद्यश्च तस्य धर्मः सनातनः ॥",
+          "meaning": {
+            "en": "One who rises at dawn, rinses his mouth, invites a guest to a meal, honours him and escorts him out has eternal dharma.",
+            "hi": "जो प्रातः उठकर आचमन करता है, अतिथि को भोजन के लिए आमंत्रित करता है, उसका सत्कार करता है और उसे विदा करने के लिए साथ चलता है, उसका धर्म सनातन है।"
+          }
         },
         {
           "n": 15,
-          "text": "सर्वातिथ्यं त्रिवर्गस्य यथाशक्ति दिवानिशम् ।\nशूद्रधर्मः समाख्यातस्त्रिवर्णपरिचारणम् ॥"
+          "text": "सर्वातिथ्यं त्रिवर्गस्य यथाशक्ति दिवानिशम् ।\nशूद्रधर्मः समाख्यातस्त्रिवर्णपरिचारणम् ॥",
+          "meaning": {
+            "en": "Hospitality to all, within one's means, day and night, applies to the three aims of life. The Shudra's dharma is declared to be serving the three upper orders.",
+            "hi": "दिन-रात अपनी शक्ति के अनुसार सबका आतिथ्य करना त्रिवर्ग के लिए है; और शूद्र का धर्म तीनों उच्च वर्णों की सेवा कहा गया है।"
+          }
         },
         {
           "n": 16,
-          "text": "प्रवृत्तिलक्षणो धर्मो गृहस्थेषु विधीयते ।\nतमहं कीर्तयिष्यामि सर्वभूतहितं शुभम् ॥"
+          "text": "प्रवृत्तिलक्षणो धर्मो गृहस्थेषु विधीयते ।\nतमहं कीर्तयिष्यामि सर्वभूतहितं शुभम् ॥",
+          "meaning": {
+            "en": "The dharma marked by engagement in the world is prescribed for householders; I will describe it, which is good and benefits all beings.",
+            "hi": "प्रवृत्ति-लक्षण वाला धर्म गृहस्थों के लिए विहित है; मैं उसका वर्णन करूँगा, जो शुभ है और सब प्राणियों का हित करता है।"
+          }
         },
         {
           "n": 17,
-          "text": "दातव्यमसकृच्छक्त्या यष्टव्यमसकृत्तथा ।\nपुष्टिकर्मविधानं च कर्तव्यं भूतिमिच्छता ॥"
+          "text": "दातव्यमसकृच्छक्त्या यष्टव्यमसकृत्तथा ।\nपुष्टिकर्मविधानं च कर्तव्यं भूतिमिच्छता ॥",
+          "meaning": {
+            "en": "One wishing for prosperity should give again and again as able, sacrifice again and again, and perform rites that bring well-being.",
+            "hi": "समृद्धि चाहने वाले को शक्ति के अनुसार बार-बार दान देना चाहिए, बार-बार यज्ञ करना चाहिए, और पुष्टि-कर्म का विधान करना चाहिए।"
+          }
         },
         {
           "n": 18,
-          "text": "धर्मेणार्थः समाहार्यो धर्मलब्धं त्रिधा धनम् ।\nकर्तव्यं धर्मपरमं मानवेन प्रयत्नतः ॥"
+          "text": "धर्मेणार्थः समाहार्यो धर्मलब्धं त्रिधा धनम् ।\nकर्तव्यं धर्मपरमं मानवेन प्रयत्नतः ॥",
+          "meaning": {
+            "en": "Wealth should be gained through dharma; wealth gained by dharma is of three kinds. A person should diligently put dharma first.",
+            "hi": "धन धर्म से अर्जित करना चाहिए; धर्म से प्राप्त धन तीन प्रकार का होता है। मनुष्य को प्रयत्नपूर्वक धर्म को सर्वोपरि रखकर कार्य करना चाहिए।"
+          }
         },
         {
           "n": 19,
-          "text": "एकेनांशेन धर्मार्थश्चर्तव्यो भूतिमिच्छता ।\nएकेनांशेन कामार्थ एकमंशं विवर्धयेत् ॥"
+          "text": "एकेनांशेन धर्मार्थश्चर्तव्यो भूतिमिच्छता ।\nएकेनांशेन कामार्थ एकमंशं विवर्धयेत् ॥",
+          "meaning": {
+            "en": "One wishing for prosperity should spend one share on dharma, one share on pleasure, and let one share grow.",
+            "hi": "समृद्धि चाहने वाले को धन के एक अंश से धर्म करना चाहिए, एक अंश से काम (भोग) करना चाहिए, और एक अंश को बढ़ाना चाहिए।"
+          }
         },
         {
           "n": 20,
-          "text": "निवृत्तिलक्षणस्त्वन्यो धर्मो मोक्ष इति स्मृतः ।\nतस्य वृत्तिं प्रवक्ष्यामि शृणु मे देवि तत्त्वतः ॥"
+          "text": "निवृत्तिलक्षणस्त्वन्यो धर्मो मोक्ष इति स्मृतः ।\nतस्य वृत्तिं प्रवक्ष्यामि शृणु मे देवि तत्त्वतः ॥",
+          "meaning": {
+            "en": "The other dharma, marked by withdrawal, is called liberation. Listen, goddess, and I will tell you truly how it is lived.",
+            "hi": "निवृत्ति-लक्षण वाला दूसरा धर्म मोक्ष कहा गया है। हे देवी, सुनो, मैं तुम्हें उसका आचरण सच-सच बताऊँगा।"
+          }
         },
         {
           "n": 21,
-          "text": "सर्वभूतदया धर्मो न चैकग्रामवासिता ।\nआशापाशविमोक्षश्च शस्यते मोक्षकाङ्क्षिणाम् ॥"
+          "text": "सर्वभूतदया धर्मो न चैकग्रामवासिता ।\nआशापाशविमोक्षश्च शस्यते मोक्षकाङ्क्षिणाम् ॥",
+          "meaning": {
+            "en": "Compassion for all beings is dharma, and not dwelling in one village; release from the snares of desire is praised for those seeking liberation.",
+            "hi": "सब प्राणियों पर दया धर्म है, और एक ही गाँव में न रहना; मोक्ष चाहने वालों के लिए आशा-पाश से मुक्ति प्रशंसित है।"
+          }
         },
         {
           "n": 22,
-          "text": "न कुण्ड्यां नोदके सङ्गो न वाससि न चासने ।\nन त्रिदण्डे न शयने नाग्नौ न शरणालये ॥"
+          "text": "न कुण्ड्यां नोदके सङ्गो न वाससि न चासने ।\nन त्रिदण्डे न शयने नाग्नौ न शरणालये ॥",
+          "meaning": {
+            "en": "No attachment to a water pot or water, to clothing or a seat, to a triple staff, a bed, a fire or a shelter.",
+            "hi": "न जल-पात्र में आसक्ति, न जल में, न वस्त्र में, न आसन में; न त्रिदंड में, न शय्या में, न अग्नि में, न आश्रय-गृह में।"
+          }
         },
         {
           "n": 23,
-          "text": "अध्यात्मगतचित्तो यस्तन्मनास्तत्परायणः ।\nयुक्तो योगं प्रति सदा प्रतिसंख्यानमेव च ॥"
+          "text": "अध्यात्मगतचित्तो यस्तन्मनास्तत्परायणः ।\nयुक्तो योगं प्रति सदा प्रतिसंख्यानमेव च ॥",
+          "meaning": {
+            "en": "One whose mind is set on the Self, absorbed in it and devoted to it, ever joined to yoga and to discerning reflection.",
+            "hi": "जिसका चित्त अध्यात्म में लगा हो, जो उसी में तल्लीन और उसी के परायण हो, जो सदा योग और विवेक-चिंतन में युक्त हो।"
+          }
         },
         {
           "n": 24,
-          "text": "वृक्षमूलशयो नित्यं शून्यागारनिवेशनः ।\nनदीपुलिनशायी च नदीतीररतिश्च यः ॥"
+          "text": "वृक्षमूलशयो नित्यं शून्यागारनिवेशनः ।\nनदीपुलिनशायी च नदीतीररतिश्च यः ॥",
+          "meaning": {
+            "en": "One who always sleeps at the foot of a tree, lodges in empty houses, sleeps on river banks and delights in river shores.",
+            "hi": "जो सदा वृक्ष की जड़ में सोता है, सूनी झोपड़ियों में निवास करता है, नदी के रेत पर सोता है और नदी-तट पर रमण करता है।"
+          }
         },
         {
           "n": 25,
-          "text": "विमुक्तः सर्वसङ्गेषु स्नेहबन्धेषु च द्विजः ।\nआत्मन्येवात्मनो भावं समासज्याटति द्विजः ॥"
+          "text": "विमुक्तः सर्वसङ्गेषु स्नेहबन्धेषु च द्विजः ।\nआत्मन्येवात्मनो भावं समासज्याटति द्विजः ॥",
+          "meaning": {
+            "en": "Freed from all attachments and bonds of affection, the twice-born wanders, fixing his own mind on the Self alone.",
+            "hi": "जो सब आसक्तियों और स्नेह-बंधनों से मुक्त है, वह द्विज अपने मन को केवल आत्मा में स्थापित करके विचरण करता है।"
+          }
         },
         {
           "n": 26,
-          "text": "स्थाणुभूतो निराहारो मोक्षदृष्टेन कर्मणा ।\nपरिव्रजति यो युक्तस्तस्य धर्मः सनातनः ॥"
+          "text": "स्थाणुभूतो निराहारो मोक्षदृष्टेन कर्मणा ।\nपरिव्रजति यो युक्तस्तस्य धर्मः सनातनः ॥",
+          "meaning": {
+            "en": "Still as a post, taking no food, wandering in a way seen as leading to liberation, the disciplined wanderer has eternal dharma.",
+            "hi": "खंभे के समान स्थिर, निराहार, मोक्ष-दृष्टि वाले कर्म से युक्त होकर जो परिव्रजन करता है, उसका धर्म सनातन है।"
+          }
         },
         {
           "n": 27,
-          "text": "न चैकत्र चिरासक्तो न चैकग्रामगोचरः ।\nयुक्तो ह्यटति निर्मुक्तो न चैकपुलिनेशयः ॥"
+          "text": "न चैकत्र चिरासक्तो न चैकग्रामगोचरः ।\nयुक्तो ह्यटति निर्मुक्तो न चैकपुलिनेशयः ॥",
+          "meaning": {
+            "en": "He is not long attached to one place, nor does he frequent a single village; disciplined and free he roams, and does not sleep always on the same bank.",
+            "hi": "वह एक स्थान में बहुत समय तक आसक्त नहीं रहता, और न एक ही गाँव में विचरता है; युक्त और मुक्त होकर घूमता है, और सदा एक ही तट पर नहीं सोता।"
+          }
         },
         {
           "n": 28,
-          "text": "एष मोक्षविदां धर्मो वेदोक्तः सत्पथः सताम् ।\nयो मार्गमनुयातीमं पदं तस्य न विद्यते ॥"
+          "text": "एष मोक्षविदां धर्मो वेदोक्तः सत्पथः सताम् ।\nयो मार्गमनुयातीमं पदं तस्य न विद्यते ॥",
+          "meaning": {
+            "en": "This is the dharma of those who know liberation, the Veda-taught good path of the good; one who follows this road has no fixed station.",
+            "hi": "यह मोक्ष जानने वालों का धर्म है, वेद-कथित सज्जनों का सत्पथ है; जो इस मार्ग का अनुसरण करता है, उसका कोई निश्चित स्थान नहीं होता।"
+          }
         },
         {
           "n": 29,
-          "text": "चतुर्विधा भिक्षवस्ते कुटीचरकृतोदकः ।\nहंसः परमहंसश्च यो यः पश्चात्स उत्तमः ॥"
+          "text": "चतुर्विधा भिक्षवस्ते कुटीचरकृतोदकः ।\nहंसः परमहंसश्च यो यः पश्चात्स उत्तमः ॥",
+          "meaning": {
+            "en": "Such mendicants are of four kinds: the hut-dweller, the kritodaka, the hamsa and the paramahamsa; each later one is the better.",
+            "hi": "ऐसे भिक्षु चार प्रकार के होते हैं: कुटीचर, कृतोदक, हंस और परमहंस; जो बाद में आता है, वह उत्तम है।"
+          }
         },
         {
           "n": 30,
-          "text": "अतः परतरं नास्ति नाधरं न तिरोऽग्रतः ।\nअदुःखमसुखं सौम्यमजरामरमव्ययम् ॥"
+          "text": "अतः परतरं नास्ति नाधरं न तिरोऽग्रतः ।\nअदुःखमसुखं सौम्यमजरामरमव्ययम् ॥",
+          "meaning": {
+            "en": "Beyond this there is nothing higher, nor lower, nor across or before; it is free from pain and pleasure, serene, ageless, deathless and imperishable.",
+            "hi": "इससे श्रेष्ठ कुछ नहीं है, न इससे नीचा, न इधर-उधर या आगे; यह दुख-सुख से रहित, शांत, जरा-मृत्यु से रहित और अविनाशी है।"
+          }
         },
         {
-          "text": "उमोवाच"
+          "text": "उमोवाच",
+          "meaning": {
+            "en": "Uma said:",
+            "hi": "उमा बोलीं—"
+          }
         },
         {
           "n": 31,
-          "text": "गार्हस्थ्यो मोक्षधर्मश्च सज्जनाचरितस्त्वया ।\nभाषितो मर्त्यलोकस्य मार्गः श्रेयस्करो महान् ॥"
+          "text": "गार्हस्थ्यो मोक्षधर्मश्च सज्जनाचरितस्त्वया ।\nभाषितो मर्त्यलोकस्य मार्गः श्रेयस्करो महान् ॥",
+          "meaning": {
+            "en": "You have told me of the householder's dharma and the dharma of liberation, practised by good people, the great path in the mortal world that leads to the highest good.",
+            "hi": "आपने गृहस्थ-धर्म और मोक्ष-धर्म का वर्णन किया, जिसे सज्जन आचरते हैं; मर्त्यलोक का यह महान मार्ग परम कल्याण की ओर ले जाता है।"
+          }
         },
         {
           "n": 32,
-          "text": "ऋषिधर्मं तु धर्मज्ञ श्रोतुमिच्छाम्यनुत्तमम् ।\nस्पृहा भवति मे नित्यं तपोवननिवासिषु ॥"
+          "text": "ऋषिधर्मं तु धर्मज्ञ श्रोतुमिच्छाम्यनुत्तमम् ।\nस्पृहा भवति मे नित्यं तपोवननिवासिषु ॥",
+          "meaning": {
+            "en": "But, knower of dharma, I wish to hear the supreme dharma of the sages; I always feel longing for those who live in forest hermitages.",
+            "hi": "परंतु हे धर्मज्ञ, मैं ऋषियों का उत्तम धर्म सुनना चाहती हूँ; तपोवन में रहने वालों के लिए मेरे मन में सदा अभिलाषा रहती है।"
+          }
         },
         {
           "n": 33,
-          "text": "आज्यधूमोद्भवो गन्धो रुणद्धीव तपोवनम् ।\nतं दृष्ट्वा मे मनः प्रीतं महेश्वर सदा भवेत् ॥"
+          "text": "आज्यधूमोद्भवो गन्धो रुणद्धीव तपोवनम् ।\nतं दृष्ट्वा मे मनः प्रीतं महेश्वर सदा भवेत् ॥",
+          "meaning": {
+            "en": "The fragrance born of ghee-smoke seems to enfold the hermitage; seeing it, Maheshvara, my mind is always glad.",
+            "hi": "घी के धुएँ से उत्पन्न सुगंध मानो तपोवन को घेर लेती है; उसे देखकर, हे महेश्वर, मेरा मन सदा प्रसन्न हो जाता है।"
+          }
         },
         {
           "n": 34,
-          "text": "एतं मे संशयं देव मुनिधर्मकृतं विभो ।\nसर्वधर्मार्थतत्त्वज्ञ देवदेव वदस्व मे ।\nनिखिलेन मया पृष्टं महादेव यथातथम् ॥"
+          "text": "एतं मे संशयं देव मुनिधर्मकृतं विभो ।\nसर्वधर्मार्थतत्त्वज्ञ देवदेव वदस्व मे ।\nनिखिलेन मया पृष्टं महादेव यथातथम् ॥",
+          "meaning": {
+            "en": "Lord, God of gods, who know the truth of all dharma and its purpose, resolve this doubt of mine about the dharma of sages. I ask it in full, Mahadeva; tell me as it truly is.",
+            "hi": "हे देव, हे विभो, मुनि-धर्म से संबंधित मेरा यह संशय दूर कीजिए। हे देवों के देव, सब धर्मों और उनके प्रयोजन के तत्व को जानने वाले, हे महादेव, मैंने यह पूरी तरह और यथार्थ रूप से पूछा है; मुझे वैसा ही बताइए जैसा वह सचमुच है।"
+          }
         },
         {
-          "text": "महेश्वर उवाच"
+          "text": "महेश्वर उवाच",
+          "meaning": {
+            "en": "Maheshvara said:",
+            "hi": "महेश्वर बोले—"
+          }
         },
         {
           "n": 35,
-          "text": "हन्त तेऽहं प्रवक्ष्यामि मुनिधर्ममनुत्तमम् ।\nयं कृत्वा मुनयो यान्ति सिद्धिं स्वतपसा शुभे ॥"
+          "text": "हन्त तेऽहं प्रवक्ष्यामि मुनिधर्ममनुत्तमम् ।\nयं कृत्वा मुनयो यान्ति सिद्धिं स्वतपसा शुभे ॥",
+          "meaning": {
+            "en": "Gladly I will tell you the supreme dharma of sages, auspicious lady, by which the sages reach perfection through their own austerity.",
+            "hi": "हे शुभे, मैं तुम्हें मुनि-धर्म का उत्तम स्वरूप सहर्ष बताऊँगा, जिसे करके मुनि अपने तप से सिद्धि पाते हैं।"
+          }
         },
         {
           "n": 36,
-          "text": "फेनपानामृषीणां यो धर्मो धर्मविदां सदा ।\nतं मे शृणु महाभागे धर्मज्ञे धर्ममादितः ॥"
+          "text": "फेनपानामृषीणां यो धर्मो धर्मविदां सदा ।\nतं मे शृणु महाभागे धर्मज्ञे धर्ममादितः ॥",
+          "meaning": {
+            "en": "Hear from me, blessed lady who know dharma, from the beginning, the dharma of the foam-drinking sages, who always know dharma.",
+            "hi": "हे महाभागे, धर्मज्ञा, फेन-पान करने वाले ऋषियों का जो धर्म धर्मज्ञों में सदा (प्रचलित) है, उसे आदि से मुझसे सुनो।"
+          }
         },
         {
           "n": 37,
-          "text": "उञ्छन्ति सततं तस्मिन्ब्राह्मं फेनोत्करं शुभम् ।\nअमृतं ब्रह्मणा पीतं मधुरं प्रसृतं दिवि ॥"
+          "text": "उञ्छन्ति सततं तस्मिन्ब्राह्मं फेनोत्करं शुभम् ।\nअमृतं ब्रह्मणा पीतं मधुरं प्रसृतं दिवि ॥",
+          "meaning": {
+            "en": "In that practice they constantly gather the pure, holy mass of foam, the sweet nectar drunk by Brahma that spread in heaven.",
+            "hi": "उस आचरण में वे निरंतर पवित्र ब्रह्म-फेन का संचय करते हैं, वह मधुर अमृत जिसे ब्रह्मा ने पिया था और जो स्वर्ग में फैला है।"
+          }
         },
         {
           "n": 38,
-          "text": "एष तेषां विशुद्धानां फेनपानां तपोधने ।\nधर्मचर्याकृतो मार्गो वालखिल्यगणे शृणु ॥"
+          "text": "एष तेषां विशुद्धानां फेनपानां तपोधने ।\nधर्मचर्याकृतो मार्गो वालखिल्यगणे शृणु ॥",
+          "meaning": {
+            "en": "This, rich in austerity, is the path of those pure foam-drinkers, made by their dharmic practice; hear now of the company of the Valakhilyas.",
+            "hi": "यह उन विशुद्ध फेन-पान करने वाले ऋषियों का मार्ग है, जो तपोधन है और धर्म-चर्या से बना है; अब वालखिल्य-गण के विषय में सुनो।"
+          }
         },
         {
           "n": 39,
-          "text": "वालखिल्यास्तपःसिद्धा मुनयः सूर्यमण्डले ।\nउञ्छमुञ्छन्ति धर्मज्ञाः शाकुनीं वृत्तिमास्थिताः ॥"
+          "text": "वालखिल्यास्तपःसिद्धा मुनयः सूर्यमण्डले ।\nउञ्छमुञ्छन्ति धर्मज्ञाः शाकुनीं वृत्तिमास्थिताः ॥",
+          "meaning": {
+            "en": "The Valakhilyas are sages perfected by austerity in the orb of the sun; they know dharma and gather gleanings, living the way of birds.",
+            "hi": "वालखिल्य तप से सिद्ध मुनि हैं, जो सूर्य-मंडल में रहते हैं; वे धर्म के जानकार हैं और पक्षियों की वृत्ति अपनाकर उञ्छ (बिखरे दाने) चुनते हैं।"
+          }
         },
         {
           "n": 40,
-          "text": "मृगनिर्मोकवसनाश्चीरवल्कलवाससः ।\nनिर्द्वंद्वाः सत्पथं प्राप्ता वालखिल्यास्तपोधनाः ॥"
+          "text": "मृगनिर्मोकवसनाश्चीरवल्कलवाससः ।\nनिर्द्वंद्वाः सत्पथं प्राप्ता वालखिल्यास्तपोधनाः ॥",
+          "meaning": {
+            "en": "Dressed in deer-skins, bark and rags, beyond the pairs of opposites, the Valakhilya ascetics have reached the good path.",
+            "hi": "मृगचर्म और चीर-वल्कल के वस्त्र पहने, द्वंद्वों से परे, वालखिल्य तपोधन सत्पथ को प्राप्त हुए हैं।"
+          }
         },
         {
           "n": 41,
-          "text": "अङ्गुष्ठपर्वमात्रास्ते स्वेष्वङ्गेषु व्यवस्थिताः ।\nतपश्चरणमीहन्ते तेषां धर्मफलं महत् ॥"
+          "text": "अङ्गुष्ठपर्वमात्रास्ते स्वेष्वङ्गेषु व्यवस्थिताः ।\nतपश्चरणमीहन्ते तेषां धर्मफलं महत् ॥",
+          "meaning": {
+            "en": "They are only the size of a thumb-joint, settled in their own bodies, and they pursue austerity; the fruit of their dharma is great.",
+            "hi": "वे केवल अँगूठे के पोर के बराबर होते हैं और अपने ही अंगों में स्थित रहते हैं; वे तप करने का संकल्प रखते हैं, और उनके धर्म का फल महान है।"
+          }
         },
         {
           "n": 42,
-          "text": "ते सुरैः समतां यान्ति सुरकार्यार्थसिद्धये ।\nद्योतयन्तो दिशः सर्वास्तपसा दग्धकिल्बिषाः ॥"
+          "text": "ते सुरैः समतां यान्ति सुरकार्यार्थसिद्धये ।\nद्योतयन्तो दिशः सर्वास्तपसा दग्धकिल्बिषाः ॥",
+          "meaning": {
+            "en": "They become equal to the gods to accomplish the gods' purposes, lighting up all the directions, their sins burned by austerity.",
+            "hi": "वे देवताओं के कार्य की सिद्धि के लिए देवताओं के समान हो जाते हैं; सब दिशाओं को प्रकाशित करते हैं, और तप से उनके पाप भस्म हो गए हैं।"
+          }
         },
         {
           "n": 43,
-          "text": "ये त्वन्ये शुद्धमनसो दयाधर्मपरायणाः ।\nसन्तश्चक्रचराः पुण्याः सोमलोकचराश्च ये ॥"
+          "text": "ये त्वन्ये शुद्धमनसो दयाधर्मपरायणाः ।\nसन्तश्चक्रचराः पुण्याः सोमलोकचराश्च ये ॥",
+          "meaning": {
+            "en": "Others, pure of mind, devoted to compassion and dharma, good and holy, are the wheel-wanderers and those who range in the world of the Moon.",
+            "hi": "और जो दूसरे शुद्ध मन वाले, दया और धर्म में लगे रहने वाले सत्पुरुष हैं, पवित्र चक्र-चारी हैं और चंद्रलोक में विचरने वाले हैं,"
+          }
         },
         {
           "n": 44,
-          "text": "पितृलोकसमीपस्थास्त उञ्छन्ति यथाविधि ।\nसंप्रक्षालाश्मकुट्टाश्च दन्तोलूखलिनस्तथा ॥"
+          "text": "पितृलोकसमीपस्थास्त उञ्छन्ति यथाविधि ।\nसंप्रक्षालाश्मकुट्टाश्च दन्तोलूखलिनस्तथा ॥",
+          "meaning": {
+            "en": "Dwelling near the world of the ancestors, they gather gleanings by rule: those who wash their grain, those who pound it on stones, and those who use their teeth as mortars.",
+            "hi": "जो पितृलोक के समीप रहते हैं, वे विधिपूर्वक उञ्छ चुनते हैं: जो अनाज धोते हैं, जो पत्थर पर कूटते हैं, और जो दाँतों को ही खरल बना लेते हैं।"
+          }
         },
         {
           "n": 45,
-          "text": "सोमपानां च देवानामूष्मपाणां तथैव च ।\nउञ्छन्ति ये समीपस्थाः स्वभावनियतेन्द्रियाः ॥"
+          "text": "सोमपानां च देवानामूष्मपाणां तथैव च ।\nउञ्छन्ति ये समीपस्थाः स्वभावनियतेन्द्रियाः ॥",
+          "meaning": {
+            "en": "Those who stay near the Soma-drinking gods and the steam-drinking gods, with senses naturally restrained, also glean.",
+            "hi": "जो सोम पीने वाले देवताओं और ऊष्मा पीने वाले देवताओं के समीप रहते हैं, जिनकी इंद्रियाँ स्वभाव से नियंत्रित हैं, वे भी उञ्छ चुनते हैं।"
+          }
         },
         {
           "n": 46,
-          "text": "तेषामग्निपरिष्यन्दः पितृदेवार्चनं तथा ।\nयज्ञानां चापि पञ्चानां यजनं धर्म उच्यते ॥"
+          "text": "तेषामग्निपरिष्यन्दः पितृदेवार्चनं तथा ।\nयज्ञानां चापि पञ्चानां यजनं धर्म उच्यते ॥",
+          "meaning": {
+            "en": "For them, tending the fire, honouring ancestors and gods, and performing the five sacrifices are called dharma.",
+            "hi": "उनके लिए अग्नि की सेवा, पितरों और देवताओं का पूजन, और पाँचों यज्ञों का यजन धर्म कहा गया है।"
+          }
         },
         {
           "n": 47,
-          "text": "एष चक्रचरैर्देवि देवलोकचरैर्द्विजैः ।\nऋषिधर्मः सदा चीर्णो योऽन्यस्तमपि मे शृणु ॥"
+          "text": "एष चक्रचरैर्देवि देवलोकचरैर्द्विजैः ।\nऋषिधर्मः सदा चीर्णो योऽन्यस्तमपि मे शृणु ॥",
+          "meaning": {
+            "en": "This sages' dharma, goddess, is always practised by the wheel-wanderers and by twice-born who move in the world of the gods; hear now of another.",
+            "hi": "हे देवी, यह ऋषि-धर्म सदा चक्र-चारी और देवलोक में विचरने वाले द्विजों द्वारा आचरित होता है; अब दूसरा धर्म भी मुझसे सुनो।"
+          }
         },
         {
           "n": 48,
-          "text": "सर्वेष्वेवर्षिधर्मेषु जेय आत्मा जितेन्द्रियः ।\nकामक्रोधौ ततः पश्चाज्जेतव्याविति मे मतिः ॥"
+          "text": "सर्वेष्वेवर्षिधर्मेषु जेय आत्मा जितेन्द्रियः ।\nकामक्रोधौ ततः पश्चाज्जेतव्याविति मे मतिः ॥",
+          "meaning": {
+            "en": "In all sages' dharmas, one must first conquer the Self and the senses; after that desire and anger must be conquered. This is my view.",
+            "hi": "सब ऋषि-धर्मों में पहले आत्मा और इंद्रियों को जीतना चाहिए; उसके बाद काम और क्रोध को जीतना चाहिए, यह मेरा मत है।"
+          }
         },
         {
           "n": 49,
-          "text": "अग्निहोत्रपरिस्पन्दो धर्मरात्रिसमासनम् ।\nसोमयज्ञाभ्यनुज्ञानं पञ्चमी यज्ञदक्षिणा ॥"
+          "text": "अग्निहोत्रपरिस्पन्दो धर्मरात्रिसमासनम् ।\nसोमयज्ञाभ्यनुज्ञानं पञ्चमी यज्ञदक्षिणा ॥",
+          "meaning": {
+            "en": "Tending the Agnihotra fire, keeping the sacred night, assent to Soma sacrifices, and sacrificial gifts as the fifth.",
+            "hi": "अग्निहोत्र की सेवा, धर्म-रात्रि में आसन लगाना, सोम-यज्ञ की अनुमति, और पाँचवीं यज्ञ-दक्षिणा।"
+          }
         },
         {
           "n": 50,
-          "text": "नित्यं यज्ञक्रिया धर्मः पितृदेवार्चने रतिः ।\nसर्वातिथ्यं च कर्तव्यमन्नेनोञ्छार्जितेन वै ॥"
+          "text": "नित्यं यज्ञक्रिया धर्मः पितृदेवार्चने रतिः ।\nसर्वातिथ्यं च कर्तव्यमन्नेनोञ्छार्जितेन वै ॥",
+          "meaning": {
+            "en": "Constant sacrificial action is dharma, as is delight in honouring ancestors and gods; hospitality to all should be done with food won by gleaning.",
+            "hi": "नित्य यज्ञ-क्रिया धर्म है, और पितरों तथा देवताओं के पूजन में प्रीति भी; सबका आतिथ्य उञ्छ से मिले अन्न से करना चाहिए।"
+          }
         },
         {
           "n": 51,
-          "text": "निवृत्तिरुपभोगस्य गोरसानां च वै रतिः ।\nस्थण्डिले शयनं योगः शाकपर्णनिषेवणम् ॥"
+          "text": "निवृत्तिरुपभोगस्य गोरसानां च वै रतिः ।\nस्थण्डिले शयनं योगः शाकपर्णनिषेवणम् ॥",
+          "meaning": {
+            "en": "Turning away from enjoyment, delight in milk products, sleeping on bare ground, yoga, and living on leafy vegetables.",
+            "hi": "भोगों से निवृत्ति, गोरस में प्रीति, नंगी भूमि पर शयन, योग, और पत्तों वाली सब्ज़ियों का सेवन।"
+          }
         },
         {
           "n": 52,
-          "text": "फलमूलाशनं वायुरापः शैवलभक्षणम् ।\nऋषीणां नियमा ह्येते यैर्जयन्त्यजितां गतिम् ॥"
+          "text": "फलमूलाशनं वायुरापः शैवलभक्षणम् ।\nऋषीणां नियमा ह्येते यैर्जयन्त्यजितां गतिम् ॥",
+          "meaning": {
+            "en": "Eating fruits and roots, air, water and moss: these are the sages' rules by which they win the unconquered goal.",
+            "hi": "फल और मूल खाना, वायु, जल और शैवाल का भक्षण, ये ऋषियों के नियम हैं, जिनसे वे अजेय गति को जीतते हैं।"
+          }
         },
         {
           "n": 53,
-          "text": "विधूमे न्यस्तमुसले व्यङ्गारे भुक्तवज्जने ।\nअतीतपात्रसंचारे काले विगतभैक्षके ॥"
+          "text": "विधूमे न्यस्तमुसले व्यङ्गारे भुक्तवज्जने ।\nअतीतपात्रसंचारे काले विगतभैक्षके ॥",
+          "meaning": {
+            "en": "When the smoke is gone, the pestle set down, the embers out, people have eaten, vessels have stopped circulating, and no more beggars are about.",
+            "hi": "जब धुआँ न रहे, मूसल रखा जा चुका हो, अंगारे बुझ गए हों, लोग भोजन कर चुके हों, पात्रों का आना-जाना रुक गया हो और भिक्षा का समय बीत गया हो।"
+          }
         },
         {
           "n": 54,
-          "text": "अतिथिं काङ्क्षमाणो वै शेषान्नकृतभोजनः ।\nसत्यधर्मरतिः क्षान्तो मुनिधर्मेण युज्यते ॥"
+          "text": "अतिथिं काङ्क्षमाणो वै शेषान्नकृतभोजनः ।\nसत्यधर्मरतिः क्षान्तो मुनिधर्मेण युज्यते ॥",
+          "meaning": {
+            "en": "Awaiting a guest, taking a meal made of what remains, delighting in truth and dharma, and patient, he is joined to the sage's dharma.",
+            "hi": "अतिथि की प्रतीक्षा करते हुए, शेष अन्न से भोजन करते हुए, सत्य और धर्म में प्रीति रखते हुए, क्षमाशील होकर, वह मुनि-धर्म से युक्त होता है।"
+          }
         },
         {
           "n": 55,
-          "text": "न स्तम्भी न च मानी यो न प्रमत्तो न विस्मितः ।\nमित्रामित्रसमो मैत्रो यः स धर्मविदुत्तमः ॥"
+          "text": "न स्तम्भी न च मानी यो न प्रमत्तो न विस्मितः ।\nमित्रामित्रसमो मैत्रो यः स धर्मविदुत्तमः ॥",
+          "meaning": {
+            "en": "One who is not rigid, not proud, not careless, not amazed at himself, equal to friend and foe, and friendly, is best among those who know dharma.",
+            "hi": "जो न अकड़ने वाला है, न अभिमानी, न असावधान, न अपने-आप पर चकित होने वाला, मित्र और शत्रु को समान देखने वाला और मैत्रीपूर्ण है, वह धर्मज्ञों में सर्वश्रेष्ठ है।"
+          }
         }
       ]
     }

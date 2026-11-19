@@ -22,146 +22,290 @@
       "titleEn": "Ashvamedhika Parva (The horse sacrifice)",
       "verses": [
         {
-          "text": "जनमेजय उवाच"
+          "text": "जनमेजय उवाच",
+          "meaning": {
+            "en": "Janamejaya said:",
+            "hi": "जनमेजय बोले—"
+          }
         },
         {
           "n": 1,
-          "text": "यज्ञे सक्ता नृपतयस्तपःसक्ता महर्षयः ।\nशान्तिव्यवसिता विप्राः शमो दम इति प्रभो ॥"
+          "text": "यज्ञे सक्ता नृपतयस्तपःसक्ता महर्षयः ।\nशान्तिव्यवसिता विप्राः शमो दम इति प्रभो ॥",
+          "meaning": {
+            "en": "Kings are devoted to sacrifice, great sages to austerity, and brahmins are resolved on peace, O lord, on calm and self-control.",
+            "hi": "हे प्रभो, राजा यज्ञ में लगे रहते हैं, महर्षि तप में लगे रहते हैं, और ब्राह्मण शांति, शम और दम में दृढ़ रहते हैं।"
+          }
         },
         {
           "n": 2,
-          "text": "तस्माद्यज्ञफलैस्तुल्यं न किंचिदिह विद्यते ।\nइति मे वर्तते बुद्धिस्तथा चैतदसंशयम् ॥"
+          "text": "तस्माद्यज्ञफलैस्तुल्यं न किंचिदिह विद्यते ।\nइति मे वर्तते बुद्धिस्तथा चैतदसंशयम् ॥",
+          "meaning": {
+            "en": "So nothing here seems to me equal to the fruits of sacrifice. That is my conviction, and I have no doubt of it.",
+            "hi": "इसलिए यहाँ यज्ञ के फलों के समान कुछ भी नहीं है। मेरी यही धारणा है, और इसमें मुझे कोई संदेह नहीं है।"
+          }
         },
         {
           "n": 3,
-          "text": "यज्ञैरिष्ट्वा हि बहवो राजानो द्विजसत्तम ।\nइह कीर्तिं परां प्राप्य प्रेत्य स्वर्गमितो गताः ॥"
+          "text": "यज्ञैरिष्ट्वा हि बहवो राजानो द्विजसत्तम ।\nइह कीर्तिं परां प्राप्य प्रेत्य स्वर्गमितो गताः ॥",
+          "meaning": {
+            "en": "For many kings, O best of brahmins, having worshipped with sacrifices, won supreme fame here and went from here to heaven after death.",
+            "hi": "हे द्विजसत्तम, यज्ञों से पूजन करके बहुत से राजा यहाँ परम कीर्ति पाकर और मृत्यु के बाद यहाँ से स्वर्ग गए हैं।"
+          }
         },
         {
           "n": 4,
-          "text": "देवराजः सहस्राक्षः क्रतुभिर्भूरिदक्षिणैः ।\nदेवराज्यं महातेजाः प्राप्तवानखिलं विभुः ॥"
+          "text": "देवराजः सहस्राक्षः क्रतुभिर्भूरिदक्षिणैः ।\nदेवराज्यं महातेजाः प्राप्तवानखिलं विभुः ॥",
+          "meaning": {
+            "en": "The mighty thousand-eyed king of the gods, by sacrifices with abundant fees, won the entire kingdom of the gods.",
+            "hi": "सहस्राक्ष, महातेजस्वी देवराज इंद्र ने प्रचुर दक्षिणा वाले यज्ञों से देवराज्य का समस्त वैभव प्राप्त किया।"
+          }
         },
         {
           "n": 5,
-          "text": "यथा युधिष्ठिरो राजा भीमार्जुनपुरःसरः ।\nसदृशो देवराजेन समृद्ध्या विक्रमेण च ॥"
+          "text": "यथा युधिष्ठिरो राजा भीमार्जुनपुरःसरः ।\nसदृशो देवराजेन समृद्ध्या विक्रमेण च ॥",
+          "meaning": {
+            "en": "King Yudhishthira, with Bhima and Arjuna at his side, is like that king of the gods in prosperity and valour.",
+            "hi": "जैसे राजा युधिष्ठिर, जिनके साथ भीम और अर्जुन हैं, समृद्धि और पराक्रम में उस देवराज के समान हैं।"
+          }
         },
         {
           "n": 6,
-          "text": "अथ कस्मात्स नकुलो गर्हयामास तं क्रतुम् ।\nअश्वमेधं महायज्ञं राज्ञस्तस्य महात्मनः ॥"
+          "text": "अथ कस्मात्स नकुलो गर्हयामास तं क्रतुम् ।\nअश्वमेधं महायज्ञं राज्ञस्तस्य महात्मनः ॥",
+          "meaning": {
+            "en": "Then why did that mongoose disparage the great horse sacrifice of that great-souled king?",
+            "hi": "तो फिर उस नकुल (नेवले) ने उन महात्मा राजा के महान अश्वमेध यज्ञ की निंदा क्यों की?"
+          }
         },
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:",
+            "hi": "वैशम्पायन बोले—"
+          }
         },
         {
           "n": 7,
-          "text": "यज्ञस्य विधिमग्र्यं वै फलं चैव नरर्षभ ।\nगदतः शृणु मे राजन्यथावदिह भारत ॥"
+          "text": "यज्ञस्य विधिमग्र्यं वै फलं चैव नरर्षभ ।\nगदतः शृणु मे राजन्यथावदिह भारत ॥",
+          "meaning": {
+            "en": "Listen, bull among men, as I explain properly the foremost rule of sacrifice and its fruit, O king and Bharata.",
+            "hi": "हे नरर्षभ, हे राजन्, हे भारत, यज्ञ की श्रेष्ठ विधि और उसका फल, जैसा यहाँ है, मैं यथावत कहता हूँ, सुनो।"
+          }
         },
         {
           "n": 8,
-          "text": "पुरा शक्रस्य यजतः सर्व ऊचुर्महर्षयः ।\nऋत्विक्षु कर्मव्यग्रेषु वितते यज्ञकर्मणि ॥"
+          "text": "पुरा शक्रस्य यजतः सर्व ऊचुर्महर्षयः ।\nऋत्विक्षु कर्मव्यग्रेषु वितते यज्ञकर्मणि ॥",
+          "meaning": {
+            "en": "Long ago, when Shakra (Indra) was sacrificing, all the great sages spoke, while the priests were busy in their tasks and the rite was well under way.",
+            "hi": "पूर्वकाल में जब शक्र यज्ञ कर रहे थे, तब सभी महर्षियों ने कहा, जब ऋत्विज कर्मों में व्यस्त थे और यज्ञ-कर्म विस्तार से चल रहा था।"
+          }
         },
         {
           "n": 9,
-          "text": "हूयमाने तथा वह्नौ होत्रे बहुगुणान्विते ।\nदेवेष्वाहूयमानेषु स्थितेषु परमर्षिषु ॥"
+          "text": "हूयमाने तथा वह्नौ होत्रे बहुगुणान्विते ।\nदेवेष्वाहूयमानेषु स्थितेषु परमर्षिषु ॥",
+          "meaning": {
+            "en": "The fire was being fed, the offering abounded in excellent qualities, the gods were being invoked, and the great sages stood by.",
+            "hi": "अग्नि में आहुति दी जा रही थी, होत्र (हवन) बहुत गुणों से युक्त था, देवता आहूत किए जा रहे थे, और परम ऋषि उपस्थित थे।"
+          }
         },
         {
           "n": 10,
-          "text": "सुप्रतीतैस्तदा विप्रैः स्वागमैः सुस्वनैर्नृप ।\nअश्रान्तैश्चापि लघुभिरध्वर्युवृषभैस्तथा ॥"
+          "text": "सुप्रतीतैस्तदा विप्रैः स्वागमैः सुस्वनैर्नृप ।\nअश्रान्तैश्चापि लघुभिरध्वर्युवृषभैस्तथा ॥",
+          "meaning": {
+            "en": "The brahmins were well pleased, reciting their scriptures with fine voices, and the lead adhvaryu priests were tireless and nimble.",
+            "hi": "हे नृप, तब उत्तम स्वर वाले, अपने शास्त्रों का सुंदर पाठ करते हुए संतुष्ट ब्राह्मणों द्वारा, और अविश्रांत, फुर्तीले अध्वर्यु-वृषभों द्वारा (यज्ञ चल रहा था)।"
+          }
         },
         {
           "n": 11,
-          "text": "आलम्भसमये तस्मिन्गृहीतेषु पशुष्वथ ।\nमहर्षयो महाराज संबभूवुः कृपान्विताः ॥"
+          "text": "आलम्भसमये तस्मिन्गृहीतेषु पशुष्वथ ।\nमहर्षयो महाराज संबभूवुः कृपान्विताः ॥",
+          "meaning": {
+            "en": "At the time of the immolation, when the animals were seized, the great sages, O great king, were filled with pity.",
+            "hi": "हे महाराज, उस बलि-क्रिया के समय, जब पशु पकड़े गए, तब महर्षि कृपा से भर उठे।"
+          }
         },
         {
           "n": 12,
-          "text": "ततो दीनान्पशून्दृष्ट्वा ऋषयस्ते तपोधनाः ।\nऊचुः शक्रं समागम्य नायं यज्ञविधिः शुभः ॥"
+          "text": "ततो दीनान्पशून्दृष्ट्वा ऋषयस्ते तपोधनाः ।\nऊचुः शक्रं समागम्य नायं यज्ञविधिः शुभः ॥",
+          "meaning": {
+            "en": "Seeing the animals in distress, those sages, rich in austerity, came to Shakra and said: This is not a good way to perform a sacrifice.",
+            "hi": "तब दीन पशुओं को देखकर वे तपोधन ऋषि शक्र के पास आए और बोले: “यह यज्ञ की शुभ विधि नहीं है।"
+          }
         },
         {
           "n": 13,
-          "text": "अपविज्ञानमेतत्ते महान्तं धर्ममिच्छतः ।\nन हि यज्ञे पशुगणा विधिदृष्टाः पुरंदर ॥"
+          "text": "अपविज्ञानमेतत्ते महान्तं धर्ममिच्छतः ।\nन हि यज्ञे पशुगणा विधिदृष्टाः पुरंदर ॥",
+          "meaning": {
+            "en": "This is bad judgment on your part, you who seek great dharma. O Purandara, animal herds are not what the rule shows for a sacrifice.",
+            "hi": "हे पुरंदर, यह तुम्हारी दोषपूर्ण समझ है, जो महान धर्म चाहते हो। यज्ञ में पशु-समूह विधि द्वारा निर्दिष्ट नहीं हैं।"
+          }
         },
         {
           "n": 14,
-          "text": "धर्मोपघातकस्त्वेष समारम्भस्तव प्रभो ।\nनायं धर्मकृतो धर्मो न हिंसा धर्म उच्यते ॥"
+          "text": "धर्मोपघातकस्त्वेष समारम्भस्तव प्रभो ।\nनायं धर्मकृतो धर्मो न हिंसा धर्म उच्यते ॥",
+          "meaning": {
+            "en": "This undertaking of yours, O lord, destroys dharma. This is not dharma acting as dharma, and violence is not called dharma.",
+            "hi": "हे प्रभो, तुम्हारा यह आरंभ धर्म का नाश करता है। यह धर्म के द्वारा किया गया धर्म नहीं है; हिंसा को धर्म नहीं कहा जाता।"
+          }
         },
         {
           "n": 15,
-          "text": "आगमेनैव ते यज्ञं कुर्वन्तु यदि हेच्छसि ।\nविधिदृष्टेन यज्ञेन धर्मस्ते सुमहान्भवेत् ॥"
+          "text": "आगमेनैव ते यज्ञं कुर्वन्तु यदि हेच्छसि ।\nविधिदृष्टेन यज्ञेन धर्मस्ते सुमहान्भवेत् ॥",
+          "meaning": {
+            "en": "If you wish, let them perform your sacrifice strictly by the scripture. A sacrifice seen in the rule will bring you very great dharma.",
+            "hi": "यदि तुम चाहो, तो वे तुम्हारा यज्ञ शास्त्र के अनुसार ही करें। विधि द्वारा देखे गए यज्ञ से तुम्हें बहुत बड़ा धर्म प्राप्त होगा।"
+          }
         },
         {
           "n": 16,
-          "text": "यज बीजैः सहस्राक्ष त्रिवर्षपरमोषितैः ।\nएष धर्मो महाञ्शक्र चिन्त्यमानोऽधिगम्यते ॥"
+          "text": "यज बीजैः सहस्राक्ष त्रिवर्षपरमोषितैः ।\nएष धर्मो महाञ्शक्र चिन्त्यमानोऽधिगम्यते ॥",
+          "meaning": {
+            "en": "Thousand-eyed one, sacrifice with seeds kept for three years. This, Shakra, is found to be the great dharma on reflection.",
+            "hi": "हे सहस्राक्ष, तीन वर्ष पुराने रखे बीजों से यज्ञ करो। हे शक्र, यही महान धर्म है, विचार करने पर ऐसा ही पाया जाता है।”"
+          }
         },
         {
           "n": 17,
-          "text": "शतक्रतुस्तु तद्वाक्यमृषिभिस्तत्त्वदर्शिभिः ।\nउक्तं न प्रतिजग्राह मानमोहवशानुगः ॥"
+          "text": "शतक्रतुस्तु तद्वाक्यमृषिभिस्तत्त्वदर्शिभिः ।\nउक्तं न प्रतिजग्राह मानमोहवशानुगः ॥",
+          "meaning": {
+            "en": "But Shatakratu (Indra), swayed by pride and delusion, did not accept that word spoken by the sages who saw the truth.",
+            "hi": "परंतु शतक्रतु (इंद्र) ने, मान और मोह के वश होकर, तत्त्वदर्शी ऋषियों के उस वचन को स्वीकार नहीं किया।"
+          }
         },
         {
           "n": 18,
-          "text": "तेषां विवादः सुमहाञ्जज्ञे शक्रमहर्षिणाम् ।\nजङ्गमैः स्थावरैर्वापि यष्टव्यमिति भारत ॥"
+          "text": "तेषां विवादः सुमहाञ्जज्ञे शक्रमहर्षिणाम् ।\nजङ्गमैः स्थावरैर्वापि यष्टव्यमिति भारत ॥",
+          "meaning": {
+            "en": "A very great dispute then arose between Shakra and the great sages, O Bharata, over whether one should sacrifice with moving or with unmoving things.",
+            "hi": "हे भारत, शक्र और महर्षियों के बीच बड़ा विवाद उत्पन्न हुआ कि यज्ञ जंगम (पशु) से किया जाए या स्थावर (अन्न, बीज) से।"
+          }
         },
         {
           "n": 19,
-          "text": "ते तु खिन्ना विवादेन ऋषयस्तत्त्वदर्शिनः ।\nततः संधाय शक्रेण पप्रच्छुर्नृपतिं वसुम् ॥"
+          "text": "ते तु खिन्ना विवादेन ऋषयस्तत्त्वदर्शिनः ।\nततः संधाय शक्रेण पप्रच्छुर्नृपतिं वसुम् ॥",
+          "meaning": {
+            "en": "Those sages who saw the truth, wearied by the dispute, made an agreement with Shakra and asked King Vasu.",
+            "hi": "तब तत्त्वदर्शी ऋषि विवाद से खिन्न होकर, शक्र के साथ समझौता करके, राजा वसु से पूछने लगे।"
+          }
         },
         {
           "n": 20,
-          "text": "महाभाग कथं यज्ञेष्वागमो नृपते स्मृतः ।\nयष्टव्यं पशुभिर्मेध्यैरथो बीजैरजैरपि ॥"
+          "text": "महाभाग कथं यज्ञेष्वागमो नृपते स्मृतः ।\nयष्टव्यं पशुभिर्मेध्यैरथो बीजैरजैरपि ॥",
+          "meaning": {
+            "en": "They asked: Illustrious king, how is the teaching on sacrifices remembered? Should one sacrifice with pure animals, or with seeds or goats?",
+            "hi": "उन्होंने पूछा: “हे महाभाग राजन्, यज्ञों के विषय में शास्त्र का उपदेश कैसा स्मरण किया गया है? क्या पवित्र पशुओं से, या बीजों से, या अजों (बकरों) से यज्ञ करना चाहिए?”"
+          }
         },
         {
           "n": 21,
-          "text": "तच्छ्रुत्वा तु वचस्तेषामविचार्य बलाबलम् ।\nयथोपनीतैर्यष्टव्यमिति प्रोवाच पार्थिवः ॥"
+          "text": "तच्छ्रुत्वा तु वचस्तेषामविचार्य बलाबलम् ।\nयथोपनीतैर्यष्टव्यमिति प्रोवाच पार्थिवः ॥",
+          "meaning": {
+            "en": "Hearing their words, without weighing the strong and weak sides, the king said: One should sacrifice with whatever has been brought.",
+            "hi": "उनके वचन सुनकर, बल और दुर्बलता का विचार किए बिना, राजा ने कहा: “जो जैसे उपलब्ध हो, उसी से यज्ञ करना चाहिए।”"
+          }
         },
         {
           "n": 22,
-          "text": "एवमुक्त्वा स नृपतिः प्रविवेश रसातलम् ।\nउक्त्वेह वितथं राजंश्चेदीनामीश्वरः प्रभुः ॥"
+          "text": "एवमुक्त्वा स नृपतिः प्रविवेश रसातलम् ।\nउक्त्वेह वितथं राजंश्चेदीनामीश्वरः प्रभुः ॥",
+          "meaning": {
+            "en": "Having said so, that king, the lord of the Chedis, who had spoken falsehood here, O king, entered the netherworld, Rasatala.",
+            "hi": "ऐसा कहकर चेदियों के स्वामी, वह राजा, जिसने यहाँ मिथ्या वचन कहा था, हे राजन्, रसातल में प्रवेश कर गए।"
+          }
         },
         {
           "n": 23,
-          "text": "अन्यायोपगतं द्रव्यमतीतं यो ह्यपण्डितः ।\nधर्माभिकाङ्क्षी यजते न धर्मफलमश्नुते ॥"
+          "text": "अन्यायोपगतं द्रव्यमतीतं यो ह्यपण्डितः ।\nधर्माभिकाङ्क्षी यजते न धर्मफलमश्नुते ॥",
+          "meaning": {
+            "en": "A foolish man who sacrifices with wealth gained unjustly, though he longs for dharma, does not enjoy the fruit of dharma.",
+            "hi": "जो मूर्ख व्यक्ति अन्याय से प्राप्त धन से यज्ञ करता है, वह धर्म की आकांक्षा रखते हुए भी धर्म का फल नहीं पाता।"
+          }
         },
         {
           "n": 24,
-          "text": "धर्मवैतंसिको यस्तु पापात्मा पुरुषस्तथा ।\nददाति दानं विप्रेभ्यो लोकविश्वासकारकम् ॥"
+          "text": "धर्मवैतंसिको यस्तु पापात्मा पुरुषस्तथा ।\nददाति दानं विप्रेभ्यो लोकविश्वासकारकम् ॥",
+          "meaning": {
+            "en": "One who is a hypocrite about dharma, a sinful man, and gives gifts to brahmins merely to make people trust him,",
+            "hi": "जो धर्म का पाखंडी है, पापी है, और लोगों का विश्वास जीतने के लिए ब्राह्मणों को दान देता है—"
+          }
         },
         {
           "n": 25,
-          "text": "पापेन कर्मणा विप्रो धनं लब्ध्वा निरङ्कुशः ।\nरागमोहान्वितः सोऽन्ते कलुषां गतिमाप्नुते ॥"
+          "text": "पापेन कर्मणा विप्रो धनं लब्ध्वा निरङ्कुशः ।\nरागमोहान्वितः सोऽन्ते कलुषां गतिमाप्नुते ॥",
+          "meaning": {
+            "en": "a brahmin who gets wealth by sinful deeds, without restraint, and is full of passion and delusion, in the end reaches a foul destination.",
+            "hi": "पापकर्म से धन पाकर, निरंकुश और राग-मोह से युक्त वह ब्राह्मण अंत में कलुषित गति प्राप्त करता है।"
+          }
         },
         {
           "n": 26,
-          "text": "तेन दत्तानि दानानि पापेन हतबुद्धिना ।\nतानि सत्त्वमनासाद्य नश्यन्ति विपुलान्यपि ॥"
+          "text": "तेन दत्तानि दानानि पापेन हतबुद्धिना ।\nतानि सत्त्वमनासाद्य नश्यन्ति विपुलान्यपि ॥",
+          "meaning": {
+            "en": "The gifts given by that sinful man of ruined mind come to nothing, even if vast, for they lack goodness.",
+            "hi": "उस पाप-बुद्धि, नष्ट-बुद्धि (मनुष्य) द्वारा दिए गए दान, भले ही विपुल हों, सत्त्व (शुद्धता) न पाकर नष्ट हो जाते हैं।"
+          }
         },
         {
           "n": 27,
-          "text": "तस्याधर्मप्रवृत्तस्य हिंसकस्य दुरात्मनः ।\nदाने न कीर्तिर्भवति प्रेत्य चेह च दुर्मतेः ॥"
+          "text": "तस्याधर्मप्रवृत्तस्य हिंसकस्य दुरात्मनः ।\nदाने न कीर्तिर्भवति प्रेत्य चेह च दुर्मतेः ॥",
+          "meaning": {
+            "en": "For that evil-minded, violent man who acts against dharma, giving brings no fame here or after death.",
+            "hi": "उस अधर्म में प्रवृत्त, हिंसक, दुरात्मा और दुर्मति के दान से कीर्ति नहीं होती, न यहाँ और न मरने के बाद।"
+          }
         },
         {
           "n": 28,
-          "text": "अपि संचयबुद्धिर्हि लोभमोहवशंगतः ।\nउद्वेजयति भूतानि हिंसया पापचेतनः ॥"
+          "text": "अपि संचयबुद्धिर्हि लोभमोहवशंगतः ।\nउद्वेजयति भूतानि हिंसया पापचेतनः ॥",
+          "meaning": {
+            "en": "One whose mind is set on hoarding, in the power of greed and delusion, sinful in thought, torments living beings with violence.",
+            "hi": "जिसकी बुद्धि संचय में लगी रहती है, जो लोभ और मोह के वश में है, पाप-चेतना वाला, हिंसा से प्राणियों को पीड़ा देता है।"
+          }
         },
         {
           "n": 29,
-          "text": "एवं लब्ध्वा धनं लोभाद्यजते यो ददाति च ।\nस कृत्वा कर्मणा तेन न सिध्यति दुरागमात् ॥"
+          "text": "एवं लब्ध्वा धनं लोभाद्यजते यो ददाति च ।\nस कृत्वा कर्मणा तेन न सिध्यति दुरागमात् ॥",
+          "meaning": {
+            "en": "Whoever gains wealth in this way out of greed and then sacrifices or gives does not succeed by that act, because the source is bad.",
+            "hi": "जो लोभ से इस प्रकार धन प्राप्त करके यज्ञ करता है या दान देता है, वह उस कर्म से सिद्धि नहीं पाता, क्योंकि उसका स्रोत बुरा है।"
+          }
         },
         {
           "n": 30,
-          "text": "उञ्छं मूलं फलं शाकमुदपात्रं तपोधनाः ।\nदानं विभवतो दत्त्वा नराः स्वर्यान्ति धर्मिणः ॥"
+          "text": "उञ्छं मूलं फलं शाकमुदपात्रं तपोधनाः ।\nदानं विभवतो दत्त्वा नराः स्वर्यान्ति धर्मिणः ॥",
+          "meaning": {
+            "en": "Rich in austerity, men who are righteous reach heaven by giving, according to their means, gleaned grain, roots, fruit, vegetables or a pot of water.",
+            "hi": "हे तपोधनो, धर्मात्मा मनुष्य अपनी सामर्थ्य के अनुसार उञ्छ (अनाज-कण), मूल, फल, साग या जल-पात्र का दान देकर स्वर्ग जाते हैं।"
+          }
         },
         {
           "n": 31,
-          "text": "एष धर्मो महांस्त्यागो दानं भूतदया तथा ।\nब्रह्मचर्यं तथा सत्यमनुक्रोशो धृतिः क्षमा ।\nसनातनस्य धर्मस्य मूलमेतत्सनातनम् ॥"
+          "text": "एष धर्मो महांस्त्यागो दानं भूतदया तथा ।\nब्रह्मचर्यं तथा सत्यमनुक्रोशो धृतिः क्षमा ।\nसनातनस्य धर्मस्य मूलमेतत्सनातनम् ॥",
+          "meaning": {
+            "en": "This is dharma: great renunciation, giving, compassion for beings, chastity, truth, kindness, steadiness and forgiveness. These are the eternal root of eternal dharma.",
+            "hi": "यह महान धर्म है—त्याग, दान, भूतों पर दया, ब्रह्मचर्य, सत्य, अनुकंपा, धैर्य और क्षमा। ये सनातन धर्म के सनातन मूल हैं।"
+          }
         },
         {
           "n": 32,
-          "text": "श्रूयन्ते हि पुरा विप्रा विश्वामित्रादयो नृपाः ।\nविश्वामित्रोऽसितश्चैव जनकश्च महीपतिः ।\nकक्षसेनार्ष्टिषेणौ च सिन्धुद्वीपश्च पार्थिवः ॥"
+          "text": "श्रूयन्ते हि पुरा विप्रा विश्वामित्रादयो नृपाः ।\nविश्वामित्रोऽसितश्चैव जनकश्च महीपतिः ।\nकक्षसेनार्ष्टिषेणौ च सिन्धुद्वीपश्च पार्थिवः ॥",
+          "meaning": {
+            "en": "Brahmins, we have heard that in ancient times kings such as Vishvamitra, Asita, King Janaka, Kakshasena, Arshtishena and King Sindhudvipa,",
+            "hi": "हे विप्रो, पूर्वकाल में विश्वामित्र आदि राजाओं के विषय में सुना गया है—विश्वामित्र, असित, और राजा जनक,"
+          }
         },
         {
           "n": 33,
-          "text": "एते चान्ये च बहवः सिद्धिं परमिकां गताः ।\nनृपाः सत्यैश्च दानैश्च न्यायलब्धैस्तपोधनाः ॥"
+          "text": "एते चान्ये च बहवः सिद्धिं परमिकां गताः ।\nनृपाः सत्यैश्च दानैश्च न्यायलब्धैस्तपोधनाः ॥",
+          "meaning": {
+            "en": "these and many others, rich in austerity, won the highest success by truthfulness and by gifts honestly gained.",
+            "hi": "और कक्षसेन, अर्ष्टिषेण, और राजा सिंधुद्वीप, ये और दूसरे भी बहुत से, हे तपोधनो, सत्य और न्यायपूर्वक प्राप्त दानों से परम सिद्धि को प्राप्त हुए।"
+          }
         },
         {
           "n": 34,
-          "text": "ब्राह्मणाः क्षत्रिया वैश्याः शूद्रा ये चाश्रितास्तपः ।\nदानधर्माग्निना शुद्धास्ते स्वर्गं यान्ति भारत ॥"
+          "text": "ब्राह्मणाः क्षत्रिया वैश्याः शूद्रा ये चाश्रितास्तपः ।\nदानधर्माग्निना शुद्धास्ते स्वर्गं यान्ति भारत ॥",
+          "meaning": {
+            "en": "Brahmins, kshatriyas, vaishyas and shudras who take refuge in austerity are purified by the fire of giving and dharma and go to heaven, O Bharata.",
+            "hi": "हे भारत, ब्राह्मण, क्षत्रिय, वैश्य और जो शूद्र तप का आश्रय लेते हैं, वे दान-धर्म की अग्नि से शुद्ध होकर स्वर्ग जाते हैं।"
+          }
         }
       ]
     }

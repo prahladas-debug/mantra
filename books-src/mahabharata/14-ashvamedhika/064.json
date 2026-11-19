@@ -22,90 +22,178 @@
       "titleEn": "Ashvamedhika Parva (The horse sacrifice)",
       "verses": [
         {
-          "text": "ब्राह्मणा ऊचुः"
+          "text": "ब्राह्मणा ऊचुः",
+          "meaning": {
+            "en": "The brahmins said:",
+            "hi": "ब्राह्मण बोले—"
+          }
         },
         {
           "n": 1,
-          "text": "क्रियतामुपहारोऽद्य त्र्यम्बकस्य महात्मनः ।\nकृत्वोपहारं नृपते ततः स्वार्थे यतामहे ॥"
+          "text": "क्रियतामुपहारोऽद्य त्र्यम्बकस्य महात्मनः ।\nकृत्वोपहारं नृपते ततः स्वार्थे यतामहे ॥",
+          "meaning": {
+            "en": "Let an offering be made today to the great-souled Tryambaka. Having made the offering, king, we shall then strive for our own aim.",
+            "hi": "हे नृपति, आज महात्मा त्र्यम्बक के लिए उपहार अर्पित कीजिए। उपहार देकर फिर हम अपने प्रयोजन के लिए प्रयत्न करेंगे।"
+          }
         },
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:",
+            "hi": "वैशम्पायन बोले—"
+          }
         },
         {
           "n": 2,
-          "text": "श्रुत्वा तु वचनं तेषां ब्राह्मणानां युधिष्ठिरः ।\nगिरीशस्य यथान्यायमुपहारमुपाहरत् ॥"
+          "text": "श्रुत्वा तु वचनं तेषां ब्राह्मणानां युधिष्ठिरः ।\nगिरीशस्य यथान्यायमुपहारमुपाहरत् ॥",
+          "meaning": {
+            "en": "Hearing the brahmins' words, Yudhishthira presented the offering to the lord of the mountain in due form.",
+            "hi": "ब्राह्मणों के वचन सुनकर युधिष्ठिर ने गिरीश को विधिपूर्वक उपहार अर्पित किया।"
+          }
         },
         {
           "n": 3,
-          "text": "आज्येन तर्पयित्वाग्निं विधिवत्संस्कृतेन ह ।\nमन्त्रसिद्धं चरुं कृत्वा पुरोधाः प्रययौ तदा ॥"
+          "text": "आज्येन तर्पयित्वाग्निं विधिवत्संस्कृतेन ह ।\nमन्त्रसिद्धं चरुं कृत्वा पुरोधाः प्रययौ तदा ॥",
+          "meaning": {
+            "en": "After pleasing the fire with ghee duly prepared, and making a boiled offering consecrated by mantras, the priest then went forward.",
+            "hi": "विधिपूर्वक संस्कारित घी से अग्नि को तृप्त करके, और मंत्रों से सिद्ध चरु बनाकर, तब पुरोहित आगे बढ़े।"
+          }
         },
         {
           "n": 4,
-          "text": "स गृहीत्वा सुमनसो मन्त्रपूता जनाधिप ।\nमोदकैः पायसेनाथ मांसैश्चोपाहरद्बलिम् ॥"
+          "text": "स गृहीत्वा सुमनसो मन्त्रपूता जनाधिप ।\nमोदकैः पायसेनाथ मांसैश्चोपाहरद्बलिम् ॥",
+          "meaning": {
+            "en": "Lord of the people, taking flowers sanctified by mantras, he offered the oblation with modakas, rice pudding and meat.",
+            "hi": "हे जनाधिप, मंत्रों से पवित्र पुष्प लेकर उन्होंने मोदक, खीर और मांस से बलि अर्पित की।"
+          }
         },
         {
           "n": 5,
-          "text": "सुमनोभिश्च चित्राभिर्लाजैरुच्चावचैरपि ।\nसर्वं स्विष्टकृतं कृत्वा विधिवद्वेदपारगः ।\nकिंकराणां ततः पश्चाच्चकार बलिमुत्तमम् ॥"
+          "text": "सुमनोभिश्च चित्राभिर्लाजैरुच्चावचैरपि ।\nसर्वं स्विष्टकृतं कृत्वा विधिवद्वेदपारगः ।\nकिंकराणां ततः पश्चाच्चकार बलिमुत्तमम् ॥",
+          "meaning": {
+            "en": "With flowers of many colors and with puffed grain of all kinds, the Veda-knowing priest finished all the rite of Svishtakrit as prescribed, and afterward made a choice offering to the attendants.",
+            "hi": "रंग-बिरंगे पुष्पों और अनेक प्रकार के लाजा (धानी) से, वेदों के पारंगत पुरोहित ने विधिपूर्वक स्विष्टकृत् आहुति तक सब कर्म पूरे किए। फिर उन्होंने सेवकों के लिए उत्तम बलि दी।"
+          }
         },
         {
           "n": 6,
-          "text": "यक्षेन्द्राय कुबेराय मणिभद्राय चैव ह ।\nतथान्येषां च यक्षाणां भूताधिपतयश्च ये ॥"
+          "text": "यक्षेन्द्राय कुबेराय मणिभद्राय चैव ह ।\nतथान्येषां च यक्षाणां भूताधिपतयश्च ये ॥",
+          "meaning": {
+            "en": "He also offered to Kubera, lord of the yakshas, to Manibhadra, to other yakshas, and to those who are chiefs of spirits.",
+            "hi": "उन्होंने यक्षराज कुबेर, मणिभद्र और अन्य यक्षों, तथा भूतों के जो अधिपति थे, उन सबको भी बलि दी।"
+          }
         },
         {
           "n": 7,
-          "text": "कृसरेण समांसेन निवापैस्तिलसंयुतैः ।\nशुशुभे स्थानमत्यर्थं देवदेवस्य पार्थिव ॥"
+          "text": "कृसरेण समांसेन निवापैस्तिलसंयुतैः ।\nशुशुभे स्थानमत्यर्थं देवदेवस्य पार्थिव ॥",
+          "meaning": {
+            "en": "With rice and sesame cooked with meat, and with scattered offerings mixed with sesame, the place of the god of gods shone exceedingly, king.",
+            "hi": "हे राजन्, मांस सहित कृसर (खिचड़ी) और तिल मिले निवाप (भोग) से देवाधिदेव का वह स्थान अत्यंत शोभित हो उठा।"
+          }
         },
         {
           "n": 8,
-          "text": "कृत्वा तु पूजां रुद्रस्य गणानां चैव सर्वशः ।\nययौ व्यासं पुरस्कृत्य नृपो रत्ननिधिं प्रति ॥"
+          "text": "कृत्वा तु पूजां रुद्रस्य गणानां चैव सर्वशः ।\nययौ व्यासं पुरस्कृत्य नृपो रत्ननिधिं प्रति ॥",
+          "meaning": {
+            "en": "Having worshiped Rudra and all his hosts, the king, placing Vyasa in front, went to the treasure.",
+            "hi": "रुद्र और उनके सब गणों की पूजा करके, व्यास को आगे रखकर राजा रत्नों के भंडार की ओर चले।"
+          }
         },
         {
           "n": 9,
-          "text": "पूजयित्वा धनाध्यक्षं प्रणिपत्याभिवाद्य च ।\nसुमनोभिर्विचित्राभिरपूपैः कृसरेण च ॥"
+          "text": "पूजयित्वा धनाध्यक्षं प्रणिपत्याभिवाद्य च ।\nसुमनोभिर्विचित्राभिरपूपैः कृसरेण च ॥",
+          "meaning": {
+            "en": "He worshiped the lord of wealth, bowed and saluted him, with flowers of many colors, cakes and rice cooked with sesame.",
+            "hi": "धनाध्यक्ष कुबेर की पूजा करके, उन्हें प्रणाम और अभिवादन करके, उन्होंने रंग-बिरंगे पुष्पों, पूओं और तिल वाले कृसर से उनका सत्कार किया।"
+          }
         },
         {
           "n": 10,
-          "text": "शङ्खादींश्च निधीन्सर्वान्निधिपालांश्च सर्वशः ।\nअर्चयित्वा द्विजाग्र्यान्स स्वस्ति वाच्य च वीर्यवान् ॥"
+          "text": "शङ्खादींश्च निधीन्सर्वान्निधिपालांश्च सर्वशः ।\nअर्चयित्वा द्विजाग्र्यान्स स्वस्ति वाच्य च वीर्यवान् ॥",
+          "meaning": {
+            "en": "The mighty king also honored all the treasures, Shankha and the others, and all the guardians of the treasures, and had the best brahmins pronounce blessings.",
+            "hi": "उस पराक्रमी राजा ने शंख आदि सभी निधियों और उनके सभी रक्षकों का भी पूजन किया, और श्रेष्ठ ब्राह्मणों से स्वस्ति-वाचन करवाया।"
+          }
         },
         {
           "n": 11,
-          "text": "तेषां पुण्याहघोषेण तेजसा समवस्थितः ।\nप्रीतिमान्स कुरुश्रेष्ठः खानयामास तं निधिम् ॥"
+          "text": "तेषां पुण्याहघोषेण तेजसा समवस्थितः ।\nप्रीतिमान्स कुरुश्रेष्ठः खानयामास तं निधिम् ॥",
+          "meaning": {
+            "en": "Standing firm in the splendor of the sound of their auspicious-day chants, the best of the Kurus, pleased, had that treasure dug up.",
+            "hi": "उन ब्राह्मणों के पुण्याहवाचन-घोष के तेज से स्थिर होकर, प्रसन्न हुए उस कुरुश्रेष्ठ ने उस निधि को खुदवा लिया।"
+          }
         },
         {
           "n": 12,
-          "text": "ततः पात्र्यः सकरकाः साश्मन्तकमनोरमाः ।\nभृङ्गाराणि कटाहानि कलशान्वर्धमानकान् ॥"
+          "text": "ततः पात्र्यः सकरकाः साश्मन्तकमनोरमाः ।\nभृङ्गाराणि कटाहानि कलशान्वर्धमानकान् ॥",
+          "meaning": {
+            "en": "Then the vessels were brought up: dishes with spouts, lovely things set with gems, ewers, pans, jars and ever-filling bowls.",
+            "hi": "तब पात्र निकाले गए: टोंटी वाले बर्तन, कर्कों के साथ सुंदर मणि-जड़ित बर्तन, झारियाँ, कड़ाहियाँ, घड़े और अक्षय पात्र।"
+          }
         },
         {
           "n": 13,
-          "text": "बहूनि च विचित्राणि भाजनानि सहस्रशः ।\nउद्धारयामास तदा धर्मराजो युधिष्ठिरः ॥"
+          "text": "बहूनि च विचित्राणि भाजनानि सहस्रशः ।\nउद्धारयामास तदा धर्मराजो युधिष्ठिरः ॥",
+          "meaning": {
+            "en": "Yudhishthira, king of dharma, had many varied vessels, thousands of them, lifted out.",
+            "hi": "धर्मराज युधिष्ठिर ने उस समय हज़ारों प्रकार के बहुत-से विचित्र बर्तन निकलवाए।"
+          }
         },
         {
           "n": 14,
-          "text": "तेषां लक्षणमप्यासीन्महान्करपुटस्तथा ।\nत्रिलक्षं भाजनं राजंस्तुलार्धमभवन्नृप ॥"
+          "text": "तेषां लक्षणमप्यासीन्महान्करपुटस्तथा ।\nत्रिलक्षं भाजनं राजंस्तुलार्धमभवन्नृप ॥",
+          "meaning": {
+            "en": "Their count was great, and, king, the biggest held a huge double handful; a vessel measured at three lakhs weighed half a tula.",
+            "hi": "उनका परिमाण भी बहुत बड़ा था। हे राजन्, सबसे बड़े बर्तन में दोनों हाथों की बड़ी अंजलि भर सकती थी, और तीन लाख के मूल्य वाला एक पात्र आधे तुला भार का था।"
+          }
         },
         {
           "n": 15,
-          "text": "वाहनं पाण्डुपुत्रस्य तत्रासीत्तु विशां पते ।\nषष्टिरुष्ट्रसहस्राणि शतानि द्विगुणा हयाः ॥"
+          "text": "वाहनं पाण्डुपुत्रस्य तत्रासीत्तु विशां पते ।\nषष्टिरुष्ट्रसहस्राणि शतानि द्विगुणा हयाः ॥",
+          "meaning": {
+            "en": "The Pandava's transport there, lord of the people, numbered sixty thousand camels, and horses twice as many in hundreds.",
+            "hi": "हे प्रजापति, पाण्डुपुत्र के पास वहाँ वाहनों की संख्या साठ हज़ार ऊँट थे, और घोड़े उनसे दुगुने सैकड़ों में थे।"
+          }
         },
         {
           "n": 16,
-          "text": "वारणाश्च महाराज सहस्रशतसंमिताः ।\nशकटानि रथाश्चैव तावदेव करेणवः ।\nखराणां पुरुषाणां च परिसंख्या न विद्यते ॥"
+          "text": "वारणाश्च महाराज सहस्रशतसंमिताः ।\nशकटानि रथाश्चैव तावदेव करेणवः ।\nखराणां पुरुषाणां च परिसंख्या न विद्यते ॥",
+          "meaning": {
+            "en": "There were elephants, great king, numbering a hundred thousand, and as many carts, chariots and cow-elephants; the number of asses and men could not be reckoned.",
+            "hi": "हे महाराज, वहाँ सैकड़ों-हज़ारों हाथी थे। उतने ही छकड़े, रथ और हथिनियाँ भी थीं। गधों और सेवकों की गिनती नहीं हो सकती थी।"
+          }
         },
         {
           "n": 17,
-          "text": "एतद्वित्तं तदभवद्यदुद्दध्रे युधिष्ठिरः ।\nषोडशाष्टौ चतुर्विंशत्सहस्रं भारलक्षणम् ॥"
+          "text": "एतद्वित्तं तदभवद्यदुद्दध्रे युधिष्ठिरः ।\nषोडशाष्टौ चतुर्विंशत्सहस्रं भारलक्षणम् ॥",
+          "meaning": {
+            "en": "This was the wealth that Yudhishthira dug up, the loads being marked as sixteen, eight and twenty-four thousand.",
+            "hi": "युधिष्ठिर ने जो धन खोदकर निकाला, वह यही था। उसके भार का माप सोलह, आठ और चौबीस हज़ार के रूप में बताया गया है।"
+          }
         },
         {
           "n": 18,
-          "text": "एतेष्वाधाय तद्द्रव्यं पुनरभ्यर्च्य पाण्डवः ।\nमहादेवं प्रति ययौ पुरं नागाह्वयं प्रति ॥"
+          "text": "एतेष्वाधाय तद्द्रव्यं पुनरभ्यर्च्य पाण्डवः ।\nमहादेवं प्रति ययौ पुरं नागाह्वयं प्रति ॥",
+          "meaning": {
+            "en": "Having loaded that treasure on these, the Pandava worshiped Mahadeva again and set out for the city called Nagahvaya.",
+            "hi": "उस धन को इन वाहनों पर लादकर, पाण्डव ने फिर महादेव की पूजा की और नागाह्वय नगर की ओर प्रस्थान किया।"
+          }
         },
         {
           "n": 19,
-          "text": "द्वैपायनाभ्यनुज्ञातः पुरस्कृत्य पुरोहितम् ।\nगोयुते गोयुते चैव न्यवसत्पुरुषर्षभः ॥"
+          "text": "द्वैपायनाभ्यनुज्ञातः पुरस्कृत्य पुरोहितम् ।\nगोयुते गोयुते चैव न्यवसत्पुरुषर्षभः ॥",
+          "meaning": {
+            "en": "With Dvaipayana's leave, putting the priest in front, that bull among men halted at every gavyuti of the way.",
+            "hi": "द्वैपायन व्यास की आज्ञा से, पुरोहित को आगे रखकर वह पुरुषश्रेष्ठ हर गव्यूति (कोस) के बाद पड़ाव डालते हुए ठहरते गए।"
+          }
         },
         {
           "n": 20,
-          "text": "सा पुराभिमुखी राजञ्जगाम महती चमूः ।\nकृच्छ्राद्द्रविणभारार्ता हर्षयन्ती कुरूद्वहान् ॥"
+          "text": "सा पुराभिमुखी राजञ्जगाम महती चमूः ।\nकृच्छ्राद्द्रविणभारार्ता हर्षयन्ती कुरूद्वहान् ॥",
+          "meaning": {
+            "en": "King, that great host, weighed down by the load of wealth and moving with difficulty, went toward the city, delighting the bulls of the Kurus.",
+            "hi": "हे राजन्, वह विशाल सेना, धन के भार से कठिनाई से चलती हुई, कुरुश्रेष्ठों को प्रसन्न करती हुई, नगर की ओर आगे बढ़ी।"
+          }
         }
       ]
     }

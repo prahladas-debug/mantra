@@ -22,101 +22,201 @@
       "titleEn": "Anushasanika Parva (The instructions)",
       "verses": [
         {
-          "text": "भीष्म उवाच"
+          "text": "भीष्म उवाच",
+          "meaning": {
+            "en": "Bhishma said:",
+            "hi": "भीष्म बोले—"
+          }
         },
         {
           "n": 1,
-          "text": "तथा विधौ प्रवृत्ते तु सर्व एव महर्षयः ।\nपितृयज्ञानकुर्वन्त विधिदृष्टेन कर्मणा ॥"
+          "text": "तथा विधौ प्रवृत्ते तु सर्व एव महर्षयः ।\nपितृयज्ञानकुर्वन्त विधिदृष्टेन कर्मणा ॥",
+          "meaning": {
+            "en": "When the rule had thus begun, all the great sages performed the ancestral sacrifices according to the prescribed rite.",
+            "hi": "इस प्रकार विधि के प्रचलित होने पर सभी महर्षियों ने विधि-दृष्ट कर्म से पितृयज्ञ किए।"
+          }
         },
         {
           "n": 2,
-          "text": "ऋषयो धर्मनित्यास्तु कृत्वा निवपनान्युत ।\nतर्पणं चाप्यकुर्वन्त तीर्थाम्भोभिर्यतव्रताः ॥"
+          "text": "ऋषयो धर्मनित्यास्तु कृत्वा निवपनान्युत ।\nतर्पणं चाप्यकुर्वन्त तीर्थाम्भोभिर्यतव्रताः ॥",
+          "meaning": {
+            "en": "The sages, ever devoted to dharma, made the offerings, and, firm in their vows, also performed the water-offering with water from holy fords.",
+            "hi": "धर्म में नित्य लगे ऋषियों ने निवाप करके तीर्थों के जल से तर्पण भी किया, व्रतों में दृढ़ रहकर।"
+          }
         },
         {
           "n": 3,
-          "text": "निवापैर्दीयमानैश्च चातुर्वर्ण्येन भारत ।\nतर्पिताः पितरो देवास्ते नान्नं जरयन्ति वै ॥"
+          "text": "निवापैर्दीयमानैश्च चातुर्वर्ण्येन भारत ।\nतर्पिताः पितरो देवास्ते नान्नं जरयन्ति वै ॥",
+          "meaning": {
+            "en": "Bharata, with offerings given by people of all four classes, the ancestors and the gods were satisfied, but they could not digest the food.",
+            "hi": "हे भारत, चारों वर्णों द्वारा दिए गए निवापों से पितर और देवता तृप्त हुए, किंतु वे अन्न को पचा नहीं पाए।"
+          }
         },
         {
           "n": 4,
-          "text": "अजीर्णेनाभिहन्यन्ते ते देवाः पितृभिः सह ।\nसोममेवाभ्यपद्यन्त निवापान्नाभिपीडिताः ॥"
+          "text": "अजीर्णेनाभिहन्यन्ते ते देवाः पितृभिः सह ।\nसोममेवाभ्यपद्यन्त निवापान्नाभिपीडिताः ॥",
+          "meaning": {
+            "en": "Troubled by indigestion, those gods together with the ancestors went to Soma, oppressed by the offering-food.",
+            "hi": "अजीर्ण से पीड़ित होकर वे देवता पितरों सहित सोम के पास गए, निवाप के अन्न से पीड़ित होकर।"
+          }
         },
         {
           "n": 5,
-          "text": "तेऽब्रुवन्सोममासाद्य पितरोऽजीर्णपीडिताः ।\nनिवापान्नेन पीड्यामः श्रेयो नोऽत्र विधीयताम् ॥"
+          "text": "तेऽब्रुवन्सोममासाद्य पितरोऽजीर्णपीडिताः ।\nनिवापान्नेन पीड्यामः श्रेयो नोऽत्र विधीयताम् ॥",
+          "meaning": {
+            "en": "The ancestors, reaching Soma and troubled by indigestion, said: 'We are oppressed by the offering-food; let some good be arranged for us here.'",
+            "hi": "सोम के पास पहुँचकर अजीर्ण से पीड़ित पितर बोले: 'हम निवाप के अन्न से पीड़ित हैं; हमारे लिए यहाँ कोई कल्याण किया जाए।'"
+          }
         },
         {
           "n": 6,
-          "text": "तान्सोमः प्रत्युवाचाथ श्रेयश्चेदीप्सितं सुराः ।\nस्वयंभूसदनं यात स वः श्रेयो विधास्यति ॥"
+          "text": "तान्सोमः प्रत्युवाचाथ श्रेयश्चेदीप्सितं सुराः ।\nस्वयंभूसदनं यात स वः श्रेयो विधास्यति ॥",
+          "meaning": {
+            "en": "Soma replied to them: 'Gods, if you desire the good, go to the self-born one's abode; he will arrange your good.'",
+            "hi": "तब सोम ने उनसे कहा: 'हे देवताओ, यदि कल्याण की इच्छा है, तो स्वयंभू के धाम जाओ; वे तुम्हारा कल्याण करेंगे।'"
+          }
         },
         {
           "n": 7,
-          "text": "ते सोमवचनाद्देवाः पितृभिः सह भारत ।\nमेरुशृङ्गे समासीनं पितामहमुपागमन् ॥"
+          "text": "ते सोमवचनाद्देवाः पितृभिः सह भारत ।\nमेरुशृङ्गे समासीनं पितामहमुपागमन् ॥",
+          "meaning": {
+            "en": "By Soma's word, Bharata, the gods with the ancestors came to the grandsire seated on Meru's peak.",
+            "hi": "हे भारत, सोम के वचन से देवता पितरों सहित मेरु-शिखर पर बैठे पितामह के पास आए।"
+          }
         },
         {
-          "text": "पितर ऊचुः"
+          "text": "पितर ऊचुः",
+          "meaning": {
+            "en": "The ancestors said:",
+            "hi": "पितर बोले—"
+          }
         },
         {
           "n": 8,
-          "text": "निवापान्नेन भगवन्भृशं पीड्यामहे वयम् ।\nप्रसादं कुरु नो देव श्रेयो नः संविधीयताम् ॥"
+          "text": "निवापान्नेन भगवन्भृशं पीड्यामहे वयम् ।\nप्रसादं कुरु नो देव श्रेयो नः संविधीयताम् ॥",
+          "meaning": {
+            "en": "'Blessed one, we are greatly oppressed by the food of the offerings. Be gracious to us, god; let our good be arranged.'",
+            "hi": "हे भगवन्, निवाप के अन्न से हम अत्यंत पीड़ित हैं। हे देव, हम पर कृपा करो; हमारा कल्याण किया जाए।"
+          }
         },
         {
           "n": 9,
-          "text": "इति तेषां वचः श्रुत्वा स्वयंभूरिदमब्रवीत् ।\nएष मे पार्श्वतो वह्निर्युष्मच्छ्रेयो विधास्यति ॥"
+          "text": "इति तेषां वचः श्रुत्वा स्वयंभूरिदमब्रवीत् ।\nएष मे पार्श्वतो वह्निर्युष्मच्छ्रेयो विधास्यति ॥",
+          "meaning": {
+            "en": "Hearing their words, the self-born one said, 'Here at my side is Agni; he will arrange your good.'",
+            "hi": "उनके वचन सुनकर स्वयंभू ने यह कहा: 'मेरे पास यह अग्नि है; यह तुम्हारा कल्याण करेगी।'"
+          }
         },
         {
-          "text": "अग्निरुवाच"
+          "text": "अग्निरुवाच",
+          "meaning": {
+            "en": "Agni said:",
+            "hi": "अग्नि बोले—"
+          }
         },
         {
           "n": 10,
-          "text": "सहितास्तात भोक्ष्यामो निवापे समुपस्थिते ।\nजरयिष्यथ चाप्यन्नं मया सार्धं न संशयः ॥"
+          "text": "सहितास्तात भोक्ष्यामो निवापे समुपस्थिते ।\nजरयिष्यथ चाप्यन्नं मया सार्धं न संशयः ॥",
+          "meaning": {
+            "en": "'Dear ones, we shall eat together when the offering is at hand, and you will digest the food with me, without doubt.'",
+            "hi": "हे प्रियो, निवाप उपस्थित होने पर हम साथ मिलकर भोजन करेंगे, और मेरे साथ तुम अन्न को पचाओगे, इसमें संदेह नहीं।"
+          }
         },
         {
           "n": 11,
-          "text": "एतच्छ्रुत्वा तु पितरस्ततस्ते विज्वराभवन् ।\nएतस्मात्कारणाच्चाग्नेः प्राक्तनं दीयते नृप ॥"
+          "text": "एतच्छ्रुत्वा तु पितरस्ततस्ते विज्वराभवन् ।\nएतस्मात्कारणाच्चाग्नेः प्राक्तनं दीयते नृप ॥",
+          "meaning": {
+            "en": "Hearing this, the ancestors became free of distress. For this reason, king, the first portion is given to Agni.",
+            "hi": "यह सुनकर वे पितर पीड़ा से मुक्त हो गए। हे नृप, इसी कारण अग्नि को पहला भाग दिया जाता है।"
+          }
         },
         {
           "n": 12,
-          "text": "निवप्ते चाग्निपूर्वे वै निवापे पुरुषर्षभ ।\nन ब्रह्मराक्षसास्तं वै निवापं धर्षयन्त्युत ।\nरक्षांसि चापवर्तन्ते स्थिते देवे विभावसौ ॥"
+          "text": "निवप्ते चाग्निपूर्वे वै निवापे पुरुषर्षभ ।\nन ब्रह्मराक्षसास्तं वै निवापं धर्षयन्त्युत ।\nरक्षांसि चापवर्तन्ते स्थिते देवे विभावसौ ॥",
+          "meaning": {
+            "en": "Best of men, when the offering is made with Agni first, the Brahma-rakshasas do not assail that offering, and the Rakshasas turn away while the god Vibhavasu stands there.",
+            "hi": "हे पुरुषश्रेष्ठ, निवाप में अग्नि को पहले रखकर ही निवाप करना चाहिए। अग्नि-देव विभावसु के स्थित रहने पर ब्रह्मराक्षस उस निवाप को नहीं सताते, और राक्षस दूर हट जाते हैं।"
+          }
         },
         {
           "n": 13,
-          "text": "पूर्वं पिण्डं पितुर्दद्यात्ततो दद्यात्पितामहे ।\nप्रपितामहाय च तत एष श्राद्धविधिः स्मृतः ॥"
+          "text": "पूर्वं पिण्डं पितुर्दद्यात्ततो दद्यात्पितामहे ।\nप्रपितामहाय च तत एष श्राद्धविधिः स्मृतः ॥",
+          "meaning": {
+            "en": "One should first give the rice-ball to the father, then to the grandfather, then to the great-grandfather. This is the rule of the ancestral rite as remembered.",
+            "hi": "पहले पिता को पिंड देना चाहिए, फिर पितामह को, फिर प्रपितामह को। यह श्राद्ध-विधि स्मरण की गई है।"
+          }
         },
         {
           "n": 14,
-          "text": "ब्रूयाच्छ्राद्धे च सावित्रीं पिण्डे पिण्डे समाहितः ।\nसोमायेति च वक्तव्यं तथा पितृमतेति च ॥"
+          "text": "ब्रूयाच्छ्राद्धे च सावित्रीं पिण्डे पिण्डे समाहितः ।\nसोमायेति च वक्तव्यं तथा पितृमतेति च ॥",
+          "meaning": {
+            "en": "At the ancestral rite, one should attentively recite the Savitri over each rice-ball, and say, 'To Soma,' and 'To the ancestors' lord.'",
+            "hi": "श्राद्ध में प्रत्येक पिंड पर समाहित होकर सावित्री का पाठ करना चाहिए, और 'सोमाय' तथा 'पितृमते' कहना चाहिए।"
+          }
         },
         {
           "n": 15,
-          "text": "रजस्वला च या नारी व्यङ्गिता कर्णयोश्च या ।\nनिवापे नोपतिष्ठेत संग्राह्या नान्यवंशजाः ॥"
+          "text": "रजस्वला च या नारी व्यङ्गिता कर्णयोश्च या ।\nनिवापे नोपतिष्ठेत संग्राह्या नान्यवंशजाः ॥",
+          "meaning": {
+            "en": "A woman in her period, or one with mutilated ears, should not attend the offering; those of another lineage should not be admitted.",
+            "hi": "जो स्त्री रजस्वला हो, या जिसके कान विकृत हों, वह निवाप में उपस्थित न हो; दूसरे वंश में उत्पन्न लोगों को स्वीकार न करे।"
+          }
         },
         {
           "n": 16,
-          "text": "जलं प्रतरमाणश्च कीर्तयेत पितामहान् ।\nनदीमासाद्य कुर्वीत पितॄणां पिण्डतर्पणम् ॥"
+          "text": "जलं प्रतरमाणश्च कीर्तयेत पितामहान् ।\nनदीमासाद्य कुर्वीत पितॄणां पिण्डतर्पणम् ॥",
+          "meaning": {
+            "en": "While crossing water one should name the grandfathers. On reaching a river one should offer rice-balls and libations to the ancestors.",
+            "hi": "जल पार करते समय पितामहों का स्मरण करे। नदी पर पहुँचकर पितरों का पिंड और तर्पण करे।"
+          }
         },
         {
           "n": 17,
-          "text": "पूर्वं स्ववंशजानां तु कृत्वाद्भिस्तर्पणं पुनः ।\nसुहृत्संबन्धिवर्गाणां ततो दद्याज्जलाञ्जलिम् ॥"
+          "text": "पूर्वं स्ववंशजानां तु कृत्वाद्भिस्तर्पणं पुनः ।\nसुहृत्संबन्धिवर्गाणां ततो दद्याज्जलाञ्जलिम् ॥",
+          "meaning": {
+            "en": "First one should satisfy with water those of one's own line, and then give a handful of water to the groups of friends and relatives.",
+            "hi": "पहले अपने वंश के लोगों को जल से तृप्त करे, फिर मित्रों और संबंधियों के समूह को जल की अंजलि दे।"
+          }
         },
         {
           "n": 18,
-          "text": "कल्माषगोयुगेनाथ युक्तेन तरतो जलम् ।\nपितरोऽभिलषन्ते वै नावं चाप्यधिरोहतः ।\nसदा नावि जलं तज्ज्ञाः प्रयच्छन्ति समाहिताः ॥"
+          "text": "कल्माषगोयुगेनाथ युक्तेन तरतो जलम् ।\nपितरोऽभिलषन्ते वै नावं चाप्यधिरोहतः ।\nसदा नावि जलं तज्ज्ञाः प्रयच्छन्ति समाहिताः ॥",
+          "meaning": {
+            "en": "The ancestors long for the water of one crossing in a boat yoked with a pair of spotted oxen, and of one who boards a boat. Those who know this always give water carefully from a boat.",
+            "hi": "जल पार करने वाले के लिए, कबरे रंग के गोयुग से जुड़ी नाव में, पितर इच्छा करते हैं; और नाव पर चढ़ने वाले की भी। इस विधि को जानने वाले सदा नाव से सावधानी से जल देते हैं।"
+          }
         },
         {
           "n": 19,
-          "text": "मासार्धे कृष्णपक्षस्य कुर्यान्निवपनानि वै ।\nपुष्टिरायुस्तथा वीर्यं श्रीश्चैव पितृवर्तिनः ॥"
+          "text": "मासार्धे कृष्णपक्षस्य कुर्यान्निवपनानि वै ।\nपुष्टिरायुस्तथा वीर्यं श्रीश्चैव पितृवर्तिनः ॥",
+          "meaning": {
+            "en": "One should make the offerings in the middle of the dark fortnight. Prosperity, long life, vigour and fortune come to those who follow the ancestors' path.",
+            "hi": "कृष्ण पक्ष के मासार्ध में निवाप करना चाहिए। पितरों के मार्ग पर चलने वाले को पुष्टि, आयु, वीर्य और श्री मिलती है।"
+          }
         },
         {
           "n": 20,
-          "text": "पितामहः पुलस्त्यश्च वसिष्ठः पुलहस्तथा ।\nअङ्गिराश्च क्रतुश्चैव कश्यपश्च महानृषिः ।\nएते कुरुकुलश्रेष्ठ महायोगेश्वराः स्मृताः ॥"
+          "text": "पितामहः पुलस्त्यश्च वसिष्ठः पुलहस्तथा ।\nअङ्गिराश्च क्रतुश्चैव कश्यपश्च महानृषिः ।\nएते कुरुकुलश्रेष्ठ महायोगेश्वराः स्मृताः ॥",
+          "meaning": {
+            "en": "The grandsire Brahma, Pulastya, Vasishtha, Pulaha, Angiras, Kratu and the great sage Kashyapa: these, best of the Kuru line, are remembered as great lords of yoga.",
+            "hi": "पितामह, पुलस्त्य, वसिष्ठ, पुलह, अंगिरा, क्रतु और महर्षि कश्यप—हे कुरुकुलश्रेष्ठ, ये महान योगेश्वर माने गए हैं।"
+          }
         },
         {
           "n": 21,
-          "text": "एते च पितरो राजन्नेष श्राद्धविधिः परः ।\nप्रेतास्तु पिण्डसंबन्धान्मुच्यन्ते तेन कर्मणा ॥"
+          "text": "एते च पितरो राजन्नेष श्राद्धविधिः परः ।\nप्रेतास्तु पिण्डसंबन्धान्मुच्यन्ते तेन कर्मणा ॥",
+          "meaning": {
+            "en": "These, king, are the ancestors, and this is the supreme rule of the ancestral rite. By this rite the departed are freed from their tie to the rice-ball.",
+            "hi": "हे राजन्, ये ही पितर हैं, और यही उत्तम श्राद्ध-विधि है। इस कर्म से प्रेत पिंड के संबंध से मुक्त हो जाते हैं।"
+          }
         },
         {
           "n": 22,
-          "text": "इत्येषा पुरुषश्रेष्ठ श्राद्धोत्पत्तिर्यथागमम् ।\nख्यापिता पूर्वनिर्दिष्टा दानं वक्ष्याम्यतः परम् ॥"
+          "text": "इत्येषा पुरुषश्रेष्ठ श्राद्धोत्पत्तिर्यथागमम् ।\nख्यापिता पूर्वनिर्दिष्टा दानं वक्ष्याम्यतः परम् ॥",
+          "meaning": {
+            "en": "This, best of men, is the origin of the ancestral rite as the tradition tells it, as I declared earlier. Next I shall speak of giving.",
+            "hi": "हे पुरुषश्रेष्ठ, इस प्रकार शास्त्र के अनुसार श्राद्ध की उत्पत्ति बताई गई, जैसा पहले निर्देश किया था। अब इसके बाद दान के विषय में कहूँगा।"
+          }
         }
       ]
     }

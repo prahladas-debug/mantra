@@ -22,185 +22,369 @@
       "titleEn": "Anugita Parva",
       "verses": [
         {
-          "text": "जनमेजय उवाच"
+          "text": "जनमेजय उवाच",
+          "meaning": {
+            "en": "Janamejaya said:",
+            "hi": "जनमेजय बोले—"
+          }
         },
         {
           "n": 1,
-          "text": "सभायां वसतोस्तस्यां निहत्यारीन्महात्मनोः ।\nकेशवार्जुनयोः का नु कथा समभवद्द्विज ॥"
+          "text": "सभायां वसतोस्तस्यां निहत्यारीन्महात्मनोः ।\nकेशवार्जुनयोः का नु कथा समभवद्द्विज ॥",
+          "meaning": {
+            "en": "Brahmin, while the two great-souled ones, Keshava and Arjuna, were staying in that assembly hall after killing their enemies, what conversation took place between them?",
+            "hi": "हे द्विज, उस सभा में रहते हुए, शत्रुओं का वध करने के बाद, महात्मा केशव और अर्जुन के बीच कौन-सी कथा हुई?"
+          }
         },
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:",
+            "hi": "वैशम्पायन बोले—"
+          }
         },
         {
           "n": 2,
-          "text": "कृष्णेन सहितः पार्थः स्वराज्यं प्राप्य केवलम् ।\nतस्यां सभायां रम्यायां विजहार मुदा युतः ॥"
+          "text": "कृष्णेन सहितः पार्थः स्वराज्यं प्राप्य केवलम् ।\nतस्यां सभायां रम्यायां विजहार मुदा युतः ॥",
+          "meaning": {
+            "en": "Partha, accompanied by Krishna, having gained his kingdom whole, took his pleasure in joy in that lovely assembly hall.",
+            "hi": "कृष्ण के साथ पार्थ ने अपना राज्य पूर्ण रूप से पा लिया था, और आनंद से युक्त होकर उस रमणीय सभा में विहार किया।"
+          }
         },
         {
           "n": 3,
-          "text": "ततः कंचित्सभोद्देशं स्वर्गोद्देशसमं नृप ।\nयदृच्छया तौ मुदितौ जग्मतुः स्वजनावृतौ ॥"
+          "text": "ततः कंचित्सभोद्देशं स्वर्गोद्देशसमं नृप ।\nयदृच्छया तौ मुदितौ जग्मतुः स्वजनावृतौ ॥",
+          "meaning": {
+            "en": "Then, king, by chance the two of them, delighted and surrounded by their people, went to a certain part of the hall resembling a region of heaven.",
+            "hi": "तब हे नृप, संयोगवश वे दोनों प्रसन्न होकर, अपने जनों से घिरे हुए, सभा के एक ऐसे भाग में गए जो स्वर्ग-प्रदेश के समान था।"
+          }
         },
         {
           "n": 4,
-          "text": "ततः प्रतीतः कृष्णेन सहितः पाण्डवोऽर्जुनः ।\nनिरीक्ष्य तां सभां रम्यामिदं वचनमब्रवीत् ॥"
+          "text": "ततः प्रतीतः कृष्णेन सहितः पाण्डवोऽर्जुनः ।\nनिरीक्ष्य तां सभां रम्यामिदं वचनमब्रवीत् ॥",
+          "meaning": {
+            "en": "Then Arjuna the Pandava, cheerful and with Krishna, looked over that charming hall and spoke these words.",
+            "hi": "तब प्रसन्न पांडव अर्जुन ने कृष्ण के साथ उस रमणीय सभा को देखकर ये वचन कहे।"
+          }
         },
         {
           "n": 5,
-          "text": "विदितं ते महाबाहो संग्रामे समुपस्थिते ।\nमाहात्म्यं देवकीमातस्तच्च ते रूपमैश्वरम् ॥"
+          "text": "विदितं ते महाबाहो संग्रामे समुपस्थिते ।\nमाहात्म्यं देवकीमातस्तच्च ते रूपमैश्वरम् ॥",
+          "meaning": {
+            "en": "Mighty-armed son of Devaki, you know, as the battle came on, your greatness and that lordly form of yours.",
+            "hi": "हे महाबाहु, देवकी-पुत्र! युद्ध के उपस्थित होने पर आप अपनी महिमा और अपने ऐश्वर्यमय रूप को जानते ही हैं।"
+          }
         },
         {
           "n": 6,
-          "text": "यत्तु तद्भवता प्रोक्तं तदा केशव सौहृदात् ।\nतत्सर्वं पुरुषव्याघ्र नष्टं मे नष्टचेतसः ॥"
+          "text": "यत्तु तद्भवता प्रोक्तं तदा केशव सौहृदात् ।\nतत्सर्वं पुरुषव्याघ्र नष्टं मे नष्टचेतसः ॥",
+          "meaning": {
+            "en": "But, Keshava, all that you told me then out of friendship has been lost to me, tiger among men, since my mind was lost.",
+            "hi": "हे केशव, जो आपने उस समय सौहार्द से कहा था, वह सब मुझ नष्ट-चित्त के लिए खो गया है, हे पुरुषव्याघ्र।"
+          }
         },
         {
           "n": 7,
-          "text": "मम कौतूहलं त्वस्ति तेष्वर्थेषु पुनः प्रभो ।\nभवांश्च द्वारकां गन्ता नचिरादिव माधव ॥"
+          "text": "मम कौतूहलं त्वस्ति तेष्वर्थेषु पुनः प्रभो ।\nभवांश्च द्वारकां गन्ता नचिरादिव माधव ॥",
+          "meaning": {
+            "en": "I am curious about those matters once more, lord, and you, Madhava, will be going to Dvaraka before long.",
+            "hi": "हे प्रभो, उन विषयों के लिए मुझे फिर जिज्ञासा है; और आप, हे माधव, शीघ्र ही द्वारका जाएँगे।"
+          }
         },
         {
           "n": 8,
-          "text": "एवमुक्तस्ततः कृष्णः फल्गुनं प्रत्यभाषत ।\nपरिष्वज्य महातेजा वचनं वदतां वरः ॥"
+          "text": "एवमुक्तस्ततः कृष्णः फल्गुनं प्रत्यभाषत ।\nपरिष्वज्य महातेजा वचनं वदतां वरः ॥",
+          "meaning": {
+            "en": "Thus addressed, Krishna of great radiance, best of speakers, embraced Phalguna and replied.",
+            "hi": "ऐसा कहे जाने पर वचनों में श्रेष्ठ, महातेजस्वी कृष्ण ने फल्गुन (अर्जुन) को गले लगाकर उत्तर दिया।"
+          }
         },
         {
           "n": 9,
-          "text": "श्रावितस्त्वं मया गुह्यं ज्ञापितश्च सनातनम् ।\nधर्मं स्वरूपिणं पार्थ सर्वलोकांश्च शाश्वतान् ॥"
+          "text": "श्रावितस्त्वं मया गुह्यं ज्ञापितश्च सनातनम् ।\nधर्मं स्वरूपिणं पार्थ सर्वलोकांश्च शाश्वतान् ॥",
+          "meaning": {
+            "en": "I made you hear a secret and made you know the eternal dharma in its true form, Partha, and all the eternal worlds.",
+            "hi": "हे पार्थ, मैंने तुम्हें गुप्त रहस्य सुनाया और सनातन धर्म को उसके यथार्थ रूप में, तथा सभी शाश्वत लोकों के विषय में बताया।"
+          }
         },
         {
           "n": 10,
-          "text": "अबुद्ध्वा यन्न गृह्णीथास्तन्मे सुमहदप्रियम् ।\nनूनमश्रद्दधानोऽसि दुर्मेधाश्चासि पाण्डव ॥"
+          "text": "अबुद्ध्वा यन्न गृह्णीथास्तन्मे सुमहदप्रियम् ।\nनूनमश्रद्दधानोऽसि दुर्मेधाश्चासि पाण्डव ॥",
+          "meaning": {
+            "en": "That you did not grasp it because you did not understand pleases me very little. Surely you are without faith, and dull-witted, Pandava.",
+            "hi": "जो तुमने समझकर ग्रहण नहीं किया, वह मेरे लिए अत्यंत अप्रिय है। निश्चय ही तुम श्रद्धा से रहित और मंद-बुद्धि हो, हे पांडव।"
+          }
         },
         {
           "n": 11,
-          "text": "स हि धर्मः सुपर्याप्तो ब्रह्मणः पदवेदने ।\nन शक्यं तन्मया भूयस्तथा वक्तुमशेषतः ॥"
+          "text": "स हि धर्मः सुपर्याप्तो ब्रह्मणः पदवेदने ।\nन शक्यं तन्मया भूयस्तथा वक्तुमशेषतः ॥",
+          "meaning": {
+            "en": "That dharma was fully sufficient for knowing the state of Brahman, and I cannot now state it again in the same entirety.",
+            "hi": "वह धर्म ब्रह्म-पद को जानने के लिए पर्याप्त था; अब मैं उसे पुनः उसी पूर्णता से नहीं कह सकता।"
+          }
         },
         {
           "n": 12,
-          "text": "परं हि ब्रह्म कथितं योगयुक्तेन तन्मया ।\nइतिहासं तु वक्ष्यामि तस्मिन्नर्थे पुरातनम् ॥"
+          "text": "परं हि ब्रह्म कथितं योगयुक्तेन तन्मया ।\nइतिहासं तु वक्ष्यामि तस्मिन्नर्थे पुरातनम् ॥",
+          "meaning": {
+            "en": "For I spoke of the supreme Brahman while united in yoga. But on this matter I will tell you an ancient account,",
+            "hi": "मैंने योग में युक्त होकर उस परम ब्रह्म का वर्णन किया था। परंतु इस विषय पर मैं तुम्हें एक प्राचीन इतिहास सुनाऊँगा,"
+          }
         },
         {
           "n": 13,
-          "text": "यथा तां बुद्धिमास्थाय गतिमग्र्यां गमिष्यसि ।\nशृणु धर्मभृतां श्रेष्ठ गदतः सर्वमेव मे ॥"
+          "text": "यथा तां बुद्धिमास्थाय गतिमग्र्यां गमिष्यसि ।\nशृणु धर्मभृतां श्रेष्ठ गदतः सर्वमेव मे ॥",
+          "meaning": {
+            "en": "so that, resting on that understanding, you may reach the highest goal. Best of those who uphold dharma, listen to all that I tell.",
+            "hi": "जिससे उस बुद्धि को धारण करके तुम परम गति को प्राप्त होओगे। हे धर्मधारियों में श्रेष्ठ, मेरे कहे सब कुछ को सुनो।"
+          }
         },
         {
           "n": 14,
-          "text": "आगच्छद्ब्राह्मणः कश्चित्स्वर्गलोकादरिंदम ।\nब्रह्मलोकाच्च दुर्धर्षः सोऽस्माभिः पूजितोऽभवत् ॥"
+          "text": "आगच्छद्ब्राह्मणः कश्चित्स्वर्गलोकादरिंदम ।\nब्रह्मलोकाच्च दुर्धर्षः सोऽस्माभिः पूजितोऽभवत् ॥",
+          "meaning": {
+            "en": "Subduer of foes, a certain Brahmin came from the world of heaven and from the world of Brahma, an unassailable one, and we honored him.",
+            "hi": "हे अरिंदम, स्वर्गलोक और ब्रह्मलोक से कोई ब्राह्मण आया था, जो अजेय थे; हमने उनका सम्मान किया।"
+          }
         },
         {
           "n": 15,
-          "text": "अस्माभिः परिपृष्टश्च यदाह भरतर्षभ ।\nदिव्येन विधिना पार्थ तच्छृणुष्वाविचारयन् ॥"
+          "text": "अस्माभिः परिपृष्टश्च यदाह भरतर्षभ ।\nदिव्येन विधिना पार्थ तच्छृणुष्वाविचारयन् ॥",
+          "meaning": {
+            "en": "Bull of the Bharatas, when we questioned him, Partha, hear without hesitation what he said, in the divine manner.",
+            "hi": "हमारे पूछने पर उन्होंने जो कहा, हे भरतर्षभ, हे पार्थ, उसे दिव्य विधि से, बिना संशय के सुनो।"
+          }
         },
         {
-          "text": "ब्राह्मण उवाच"
+          "text": "ब्राह्मण उवाच",
+          "meaning": {
+            "en": "The Brahmin said:",
+            "hi": "ब्राह्मण बोले—"
+          }
         },
         {
           "n": 16,
-          "text": "मोक्षधर्मं समाश्रित्य कृष्ण यन्मानुपृच्छसि ।\nभूतानामनुकम्पार्थं यन्मोहच्छेदनं प्रभो ॥"
+          "text": "मोक्षधर्मं समाश्रित्य कृष्ण यन्मानुपृच्छसि ।\nभूतानामनुकम्पार्थं यन्मोहच्छेदनं प्रभो ॥",
+          "meaning": {
+            "en": "Krishna, you ask me about the dharma of liberation, for the compassion of beings and the cutting away of delusion, lord.",
+            "hi": "हे कृष्ण, मोक्ष-धर्म का आश्रय लेकर आप जो मुझसे पूछ रहे हैं, वह प्राणियों पर करुणा के लिए और मोह के छेदन के लिए है, हे प्रभो।"
+          }
         },
         {
           "n": 17,
-          "text": "तत्तेऽहं संप्रवक्ष्यामि यथावन्मधुसूदन ।\nशृणुष्वावहितो भूत्वा गदतो मम माधव ॥"
+          "text": "तत्तेऽहं संप्रवक्ष्यामि यथावन्मधुसूदन ।\nशृणुष्वावहितो भूत्वा गदतो मम माधव ॥",
+          "meaning": {
+            "en": "I will tell you that properly, slayer of Madhu. Listen attentively as I speak, Madhava.",
+            "hi": "हे मधुसूदन, वह मैं तुम्हें यथावत कहूँगा। हे माधव, सावधान होकर मेरे कहने को सुनो।"
+          }
         },
         {
           "n": 18,
-          "text": "कश्चिद्विप्रस्तपोयुक्तः काश्यपो धर्मवित्तमः ।\nआससाद द्विजं कंचिद्धर्माणामागतागमम् ॥"
+          "text": "कश्चिद्विप्रस्तपोयुक्तः काश्यपो धर्मवित्तमः ।\nआससाद द्विजं कंचिद्धर्माणामागतागमम् ॥",
+          "meaning": {
+            "en": "A certain Brahmin of the Kashyapa line, rich in austerity and the best knower of dharma, approached another twice-born who had come to know the coming and going of the dharmas.",
+            "hi": "कश्यप-गोत्र का एक तपोयुक्त, धर्मों का सर्वश्रेष्ठ ज्ञाता ब्राह्मण, धर्मों के आने-जाने को जानने वाले किसी दूसरे द्विज के पास पहुँचा।"
+          }
         },
         {
           "n": 19,
-          "text": "गतागते सुबहुशो ज्ञानविज्ञानपारगम् ।\nलोकतत्त्वार्थकुशलं ज्ञातारं सुखदुःखयोः ॥"
+          "text": "गतागते सुबहुशो ज्ञानविज्ञानपारगम् ।\nलोकतत्त्वार्थकुशलं ज्ञातारं सुखदुःखयोः ॥",
+          "meaning": {
+            "en": "That one had gone and come many times, had crossed over knowledge and discernment, was skilled in the truth of the world, and knew pleasure and pain.",
+            "hi": "जो अनेक बार आ-जा चुका था, ज्ञान और विज्ञान में पारंगत था, लोक-तत्त्व के अर्थ में कुशल, और सुख-दुःख को जानने वाला था।"
+          }
         },
         {
           "n": 20,
-          "text": "जातीमरणतत्त्वज्ञं कोविदं पुण्यपापयोः ।\nद्रष्टारमुच्चनीचानां कर्मभिर्देहिनां गतिम् ॥"
+          "text": "जातीमरणतत्त्वज्ञं कोविदं पुण्यपापयोः ।\nद्रष्टारमुच्चनीचानां कर्मभिर्देहिनां गतिम् ॥",
+          "meaning": {
+            "en": "He knew the truth of birth and death, was expert in merit and sin, and saw the destinies of embodied beings, high and low, by their deeds.",
+            "hi": "जन्म और मृत्यु के तत्त्व को जानने वाला, पुण्य-पाप में निपुण, और कर्मों से देहधारियों की ऊँची-नीची गतियों को देखने वाला था।"
+          }
         },
         {
           "n": 21,
-          "text": "चरन्तं मुक्तवत्सिद्धं प्रशान्तं संयतेन्द्रियम् ।\nदीप्यमानं श्रिया ब्राह्म्या क्रममाणं च सर्वशः ॥"
+          "text": "चरन्तं मुक्तवत्सिद्धं प्रशान्तं संयतेन्द्रियम् ।\nदीप्यमानं श्रिया ब्राह्म्या क्रममाणं च सर्वशः ॥",
+          "meaning": {
+            "en": "He moved about like one liberated, a perfected man, tranquil, with senses restrained, shining with the glory of Brahman and going everywhere.",
+            "hi": "वह मुक्त सिद्ध पुरुष की भाँति विचरता था—प्रशांत, इंद्रियों को संयमित रखने वाला, ब्राह्मी श्री से दीप्त, और सर्वत्र विचरण करने वाला।"
+          }
         },
         {
           "n": 22,
-          "text": "अन्तर्धानगतिज्ञं च श्रुत्वा तत्त्वेन काश्यपः ।\nतथैवान्तर्हितैः सिद्धैर्यान्तं चक्रधरैः सह ॥"
+          "text": "अन्तर्धानगतिज्ञं च श्रुत्वा तत्त्वेन काश्यपः ।\nतथैवान्तर्हितैः सिद्धैर्यान्तं चक्रधरैः सह ॥",
+          "meaning": {
+            "en": "Kashyapa had heard truly that he knew the ways of vanishing, and that he went about with invisible perfected beings, the bearers of discs.",
+            "hi": "कश्यप ने यथार्थ रूप से सुना था कि वह अंतर्धान की गति को जानता है, और वह अदृश्य सिद्धों तथा चक्रधारियों के साथ चलता है।"
+          }
         },
         {
           "n": 23,
-          "text": "संभाषमाणमेकान्ते समासीनं च तैः सह ।\nयदृच्छया च गच्छन्तमसक्तं पवनं यथा ॥"
+          "text": "संभाषमाणमेकान्ते समासीनं च तैः सह ।\nयदृच्छया च गच्छन्तमसक्तं पवनं यथा ॥",
+          "meaning": {
+            "en": "He conversed with them in private, sat with them, and went wherever he chanced, unattached like the wind.",
+            "hi": "वह एकांत में उनसे संभाषण करता, उनके साथ बैठता, और इच्छानुसार जहाँ चाहे जाता—वायु के समान अनासक्त।"
+          }
         },
         {
           "n": 24,
-          "text": "तं समासाद्य मेधावी स तदा द्विजसत्तमः ।\nचरणौ धर्मकामो वै तपस्वी सुसमाहितः ।\nप्रतिपेदे यथान्यायं भक्त्या परमया युतः ॥"
+          "text": "तं समासाद्य मेधावी स तदा द्विजसत्तमः ।\nचरणौ धर्मकामो वै तपस्वी सुसमाहितः ।\nप्रतिपेदे यथान्यायं भक्त्या परमया युतः ॥",
+          "meaning": {
+            "en": "The wise best of twice-born, an ascetic desiring dharma and fully composed, approached him and, with the highest devotion, took hold of his feet as is proper.",
+            "hi": "उस मेधावी, श्रेष्ठ द्विज, धर्म की कामना वाले, तपस्वी और अत्यंत एकाग्र ने उसके पास पहुँचकर, परम भक्ति से युक्त होकर, विधिपूर्वक उसके चरण पकड़ लिए।"
+          }
         },
         {
           "n": 25,
-          "text": "विस्मितश्चाद्भुतं दृष्ट्वा काश्यपस्तं द्विजोत्तमम् ।\nपरिचारेण महता गुरुं वैद्यमतोषयत् ॥"
+          "text": "विस्मितश्चाद्भुतं दृष्ट्वा काश्यपस्तं द्विजोत्तमम् ।\nपरिचारेण महता गुरुं वैद्यमतोषयत् ॥",
+          "meaning": {
+            "en": "Astonished at seeing that wonderful best of Brahmins, Kashyapa pleased his teacher, the knower, with great service.",
+            "hi": "उस अद्भुत श्रेष्ठ ब्राह्मण को देखकर विस्मित काश्यप ने बड़ी सेवा से अपने ज्ञानी गुरु को संतुष्ट किया।"
+          }
         },
         {
           "n": 26,
-          "text": "प्रीतात्मा चोपपन्नश्च श्रुतचारित्रसंयुतः ।\nभावेन तोषयच्चैनं गुरुवृत्त्या परंतपः ॥"
+          "text": "प्रीतात्मा चोपपन्नश्च श्रुतचारित्रसंयुतः ।\nभावेन तोषयच्चैनं गुरुवृत्त्या परंतपः ॥",
+          "meaning": {
+            "en": "The scorcher of foes, pleased in mind, well endowed, rich in learning and conduct, gratified him with devotion and the conduct of a pupil toward a teacher.",
+            "hi": "प्रसन्न मन, सुयोग्य, शास्त्र-ज्ञान और आचरण से युक्त उस परंतप ने शिष्य-भाव और गुरु-वृत्ति से भक्तिपूर्वक उसे संतुष्ट किया।"
+          }
         },
         {
           "n": 27,
-          "text": "तस्मै तुष्टः स शिष्याय प्रसन्नोऽथाब्रवीद्गुरुः ।\nसिद्धिं परामभिप्रेक्ष्य शृणु तन्मे जनार्दन ॥"
+          "text": "तस्मै तुष्टः स शिष्याय प्रसन्नोऽथाब्रवीद्गुरुः ।\nसिद्धिं परामभिप्रेक्ष्य शृणु तन्मे जनार्दन ॥",
+          "meaning": {
+            "en": "Then the teacher, pleased with that pupil and gracious, spoke to him, looking to the highest accomplishment. Hear that from me, Janardana.",
+            "hi": "उस शिष्य से संतुष्ट और प्रसन्न होकर गुरु ने परम सिद्धि को लक्ष्य करके कहा: हे जनार्दन, उसे मुझसे सुनो।"
+          }
         },
         {
           "n": 28,
-          "text": "विविधैः कर्मभिस्तात पुण्ययोगैश्च केवलैः ।\nगच्छन्तीह गतिं मर्त्या देवलोकेऽपि च स्थितिम् ॥"
+          "text": "विविधैः कर्मभिस्तात पुण्ययोगैश्च केवलैः ।\nगच्छन्तीह गतिं मर्त्या देवलोकेऽपि च स्थितिम् ॥",
+          "meaning": {
+            "en": "Dear one, by many kinds of deeds, and by merits alone, mortals here go to a destination, and even a stay in the world of the gods.",
+            "hi": "हे तात, अनेक प्रकार के कर्मों से और केवल पुण्य-योग से मर्त्य प्राणी यहाँ गति प्राप्त करते हैं, और देवलोक में भी स्थिति पाते हैं।"
+          }
         },
         {
           "n": 29,
-          "text": "न क्वचित्सुखमत्यन्तं न क्वचिच्छाश्वती स्थितिः ।\nस्थानाच्च महतो भ्रंशो दुःखलब्धात्पुनः पुनः ॥"
+          "text": "न क्वचित्सुखमत्यन्तं न क्वचिच्छाश्वती स्थितिः ।\nस्थानाच्च महतो भ्रंशो दुःखलब्धात्पुनः पुनः ॥",
+          "meaning": {
+            "en": "Nowhere is there unbroken happiness, and nowhere a lasting stay; there is a fall from a great station, and what was won with pain is lost again and again.",
+            "hi": "कहीं भी अत्यंत सुख नहीं है, और कहीं भी शाश्वत स्थिति नहीं है। महान स्थान से पतन होता है, और कष्ट से जो पाया गया, वह बार-बार खो जाता है।"
+          }
         },
         {
           "n": 30,
-          "text": "अशुभा गतयः प्राप्ताः कष्टा मे पापसेवनात् ।\nकाममन्युपरीतेन तृष्णया मोहितेन च ॥"
+          "text": "अशुभा गतयः प्राप्ताः कष्टा मे पापसेवनात् ।\nकाममन्युपरीतेन तृष्णया मोहितेन च ॥",
+          "meaning": {
+            "en": "Through serving sin I met evil and painful destinies, overcome by desire and anger, by craving and by delusion.",
+            "hi": "पाप-सेवन से मैंने अशुभ और कष्टदायक गतियाँ पाईं; काम और क्रोध से घिरा हुआ, तृष्णा और मोह से ग्रस्त होकर।"
+          }
         },
         {
           "n": 31,
-          "text": "पुनः पुनश्च मरणं जन्म चैव पुनः पुनः ।\nआहारा विविधा भुक्ताः पीता नानाविधाः स्तनाः ॥"
+          "text": "पुनः पुनश्च मरणं जन्म चैव पुनः पुनः ।\nआहारा विविधा भुक्ताः पीता नानाविधाः स्तनाः ॥",
+          "meaning": {
+            "en": "Again and again came death, again and again birth; I ate many kinds of food and drank at many kinds of breasts.",
+            "hi": "बार-बार मरण और बार-बार जन्म हुआ; अनेक प्रकार के आहार खाए, और नाना प्रकार के स्तनों का दूध पिया।"
+          }
         },
         {
           "n": 32,
-          "text": "मातरो विविधा दृष्टाः पितरश्च पृथग्विधाः ।\nसुखानि च विचित्राणि दुःखानि च मयानघ ॥"
+          "text": "मातरो विविधा दृष्टाः पितरश्च पृथग्विधाः ।\nसुखानि च विचित्राणि दुःखानि च मयानघ ॥",
+          "meaning": {
+            "en": "I saw many different mothers and fathers of different kinds, and I knew varied pleasures and pains, sinless one.",
+            "hi": "मैंने अनेक प्रकार की माताएँ और विविध प्रकार के पिता देखे; हे अनघ, मैंने विचित्र सुख और दुःख भोगे।"
+          }
         },
         {
           "n": 33,
-          "text": "प्रियैर्विवासो बहुशः संवासश्चाप्रियैः सह ।\nधननाशश्च संप्राप्तो लब्ध्वा दुःखेन तद्धनम् ॥"
+          "text": "प्रियैर्विवासो बहुशः संवासश्चाप्रियैः सह ।\nधननाशश्च संप्राप्तो लब्ध्वा दुःखेन तद्धनम् ॥",
+          "meaning": {
+            "en": "Many times I was parted from those dear and lived with those disliked, and I met the loss of wealth that I had gained with pain.",
+            "hi": "प्रियजनों से बार-बार वियोग हुआ और अप्रियों के साथ रहना पड़ा; कष्ट से पाए गए धन का नाश भी हुआ।"
+          }
         },
         {
           "n": 34,
-          "text": "अवमानाः सुकष्टाश्च परतः स्वजनात्तथा ।\nशारीरा मानसाश्चापि वेदना भृशदारुणाः ॥"
+          "text": "अवमानाः सुकष्टाश्च परतः स्वजनात्तथा ।\nशारीरा मानसाश्चापि वेदना भृशदारुणाः ॥",
+          "meaning": {
+            "en": "I suffered very bitter humiliations from outsiders and from my own people, and fierce bodily and mental pains.",
+            "hi": "बाहरी लोगों से और अपने स्वजनों से भी अत्यंत कष्टदायक अपमान हुए; शारीरिक और मानसिक वेदनाएँ भी अत्यंत दारुण रहीं।"
+          }
         },
         {
           "n": 35,
-          "text": "प्राप्ता विमाननाश्चोग्रा वधबन्धाश्च दारुणाः ।\nपतनं निरये चैव यातनाश्च यमक्षये ॥"
+          "text": "प्राप्ता विमाननाश्चोग्रा वधबन्धाश्च दारुणाः ।\nपतनं निरये चैव यातनाश्च यमक्षये ॥",
+          "meaning": {
+            "en": "I met with harsh insults, cruel killings and bonds, falls into hell, and tortures in Yama's abode.",
+            "hi": "कठोर तिरस्कार, भयंकर वध और बंधन, नरक में पतन, और यमलोक में यातनाएँ—ये मैंने प्राप्त कीं।"
+          }
         },
         {
           "n": 36,
-          "text": "जरा रोगाश्च सततं वासनानि च भूरिशः ।\nलोकेऽस्मिन्ननुभूतानि द्वंद्वजानि भृशं मया ॥"
+          "text": "जरा रोगाश्च सततं वासनानि च भूरिशः ।\nलोकेऽस्मिन्ननुभूतानि द्वंद्वजानि भृशं मया ॥",
+          "meaning": {
+            "en": "Old age, diseases and many calamities, born of the pairs of opposites, I have experienced intensely in this world.",
+            "hi": "जरा, रोग और अनेक प्रकार की विपत्तियाँ, जो द्वंद्वों से उत्पन्न होती हैं, इस लोक में मैंने तीव्रता से भोगी हैं।"
+          }
         },
         {
           "n": 37,
-          "text": "ततः कदाचिन्निर्वेदान्निकारान्निकृतेन च ।\nलोकतन्त्रं परित्यक्तं दुःखार्तेन भृशं मया ।\nततः सिद्धिरियं प्राप्ता प्रसादादात्मनो मया ॥"
+          "text": "ततः कदाचिन्निर्वेदान्निकारान्निकृतेन च ।\nलोकतन्त्रं परित्यक्तं दुःखार्तेन भृशं मया ।\nततः सिद्धिरियं प्राप्ता प्रसादादात्मनो मया ॥",
+          "meaning": {
+            "en": "Then, at some time, out of disgust at the injuries and deceits, and afflicted by pain, I abandoned the machinery of the world. Then I obtained this accomplishment through the grace of my own self.",
+            "hi": "तब किसी समय, विरक्ति से, अपमानों और छलों से, और दुःख से पीड़ित होकर मैंने लोक-तंत्र का त्याग कर दिया। तभी मैंने अपनी ही कृपा से यह सिद्धि प्राप्त की।"
+          }
         },
         {
           "n": 38,
-          "text": "नाहं पुनरिहागन्ता लोकानालोकयाम्यहम् ।\nआ सिद्धेरा प्रजासर्गादात्मनो मे गतिः शुभा ॥"
+          "text": "नाहं पुनरिहागन्ता लोकानालोकयाम्यहम् ।\nआ सिद्धेरा प्रजासर्गादात्मनो मे गतिः शुभा ॥",
+          "meaning": {
+            "en": "I will not return here; I look upon the worlds from afar. Until the accomplishment, until the emission of creatures, a good course is mine.",
+            "hi": "मैं फिर यहाँ नहीं लौटूँगा; मैं दूर से लोकों को देखता हूँ। सिद्धि तक और प्रजा-सर्ग तक मेरी गति शुभ है।"
+          }
         },
         {
           "n": 39,
-          "text": "उपलब्धा द्विजश्रेष्ठ तथेयं सिद्धिरुत्तमा ।\nइतः परं गमिष्यामि ततः परतरं पुनः ।\nब्रह्मणः पदमव्यग्रं मा ते भूदत्र संशयः ॥"
+          "text": "उपलब्धा द्विजश्रेष्ठ तथेयं सिद्धिरुत्तमा ।\nइतः परं गमिष्यामि ततः परतरं पुनः ।\nब्रह्मणः पदमव्यग्रं मा ते भूदत्र संशयः ॥",
+          "meaning": {
+            "en": "Best of Brahmins, I have attained that destination and this supreme accomplishment. From here I will go on, and from there yet further, to the undisturbed station of Brahman; let there be no doubt in you about it.",
+            "hi": "हे द्विजश्रेष्ठ, मैंने यह उत्तम सिद्धि प्राप्त कर ली है। यहाँ से आगे मैं और भी आगे, ब्रह्म के अविचल पद की ओर जाऊँगा; इसमें तुम्हें कोई संशय न रहे।"
+          }
         },
         {
           "n": 40,
-          "text": "नाहं पुनरिहागन्ता मर्त्यलोकं परंतप ।\nप्रीतोऽस्मि ते महाप्राज्ञ ब्रूहि किं करवाणि ते ॥"
+          "text": "नाहं पुनरिहागन्ता मर्त्यलोकं परंतप ।\nप्रीतोऽस्मि ते महाप्राज्ञ ब्रूहि किं करवाणि ते ॥",
+          "meaning": {
+            "en": "Scorcher of foes, I will not come again to this mortal world. I am pleased with you, greatly wise one; tell me what I can do for you.",
+            "hi": "हे परंतप, मैं फिर इस मर्त्यलोक में नहीं आऊँगा। हे महाप्राज्ञ, मैं तुमसे प्रसन्न हूँ; बताओ, मैं तुम्हारे लिए क्या करूँ?"
+          }
         },
         {
           "n": 41,
-          "text": "यदीप्सुरुपपन्नस्त्वं तस्य कालोऽयमागतः ।\nअभिजाने च तदहं यदर्थं मा त्वमागतः ।\nअचिरात्तु गमिष्यामि येनाहं त्वामचूचुदम् ॥"
+          "text": "यदीप्सुरुपपन्नस्त्वं तस्य कालोऽयमागतः ।\nअभिजाने च तदहं यदर्थं मा त्वमागतः ।\nअचिरात्तु गमिष्यामि येनाहं त्वामचूचुदम् ॥",
+          "meaning": {
+            "en": "The time has come for what you are seeking, since you have come here. I know the purpose for which you came, and I shall soon depart; I was the one who urged you on to it.",
+            "hi": "यदि तुम जो चाहते हो उसे पाने की इच्छा से यहाँ आए हो, तो उसका समय आ गया है। मैं जानता हूँ कि तुम किस प्रयोजन से आए हो; मैं शीघ्र ही चला जाऊँगा, और मैंने ही तुम्हें उसके लिए प्रेरित किया था।"
+          }
         },
         {
           "n": 42,
-          "text": "भृशं प्रीतोऽस्मि भवतश्चारित्रेण विचक्षण ।\nपरिपृच्छ यावद्भवते भाषेयं यत्तवेप्सितम् ॥"
+          "text": "भृशं प्रीतोऽस्मि भवतश्चारित्रेण विचक्षण ।\nपरिपृच्छ यावद्भवते भाषेयं यत्तवेप्सितम् ॥",
+          "meaning": {
+            "en": "I am very pleased with your conduct, discerning one. Ask whatever you wish, and I will tell you what you desire.",
+            "hi": "हे विचक्षण, मैं तुम्हारे आचरण से अत्यंत प्रसन्न हूँ। जो पूछना चाहते हो पूछो, और जो तुम्हें इष्ट है, वह मैं बताऊँगा।"
+          }
         },
         {
           "n": 43,
-          "text": "बहु मन्ये च ते बुद्धिं भृशं संपूजयामि च ।\nयेनाहं भवता बुद्धो मेधावी ह्यसि काश्यप ॥"
+          "text": "बहु मन्ये च ते बुद्धिं भृशं संपूजयामि च ।\nयेनाहं भवता बुद्धो मेधावी ह्यसि काश्यप ॥",
+          "meaning": {
+            "en": "I hold your intelligence in high regard and honor it greatly, Kashyapa, for by it you have recognized me; you are wise.",
+            "hi": "मैं तुम्हारी बुद्धि को बहुत मानता हूँ और उसका अत्यंत आदर करता हूँ, हे काश्यप, क्योंकि उसी से तुमने मुझे पहचाना; तुम मेधावी हो।"
+          }
         }
       ]
     }

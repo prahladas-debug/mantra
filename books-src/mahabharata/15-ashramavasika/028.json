@@ -22,71 +22,139 @@
       "titleEn": "Ashramavasa Parva (Life in the hermitage)",
       "verses": [
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:",
+            "hi": "वैशम्पायन बोले—"
+          }
         },
         {
           "n": 1,
-          "text": "वनं गते कौरवेन्द्रे दुःखशोकसमाहताः ।\nबभूवुः पाण्डवा राजन्मातृशोकेन चार्दिताः ॥"
+          "text": "वनं गते कौरवेन्द्रे दुःखशोकसमाहताः ।\nबभूवुः पाण्डवा राजन्मातृशोकेन चार्दिताः ॥",
+          "meaning": {
+            "en": "When the lord of the Kurus had gone to the forest, the Pandavas, struck by grief and sorrow, were tormented by sorrow for their mother, O king.",
+            "hi": "कौरवों के स्वामी (धृतराष्ट्र) के वन चले जाने पर, हे राजन्, पांडव दुःख और शोक से आहत हो गए और माता के शोक से पीड़ित रहने लगे।"
+          }
         },
         {
           "n": 2,
-          "text": "तथा पौरजनः सर्वः शोचन्नास्ते जनाधिपम् ।\nकुर्वाणाश्च कथास्तत्र ब्राह्मणा नृपतिं प्रति ॥"
+          "text": "तथा पौरजनः सर्वः शोचन्नास्ते जनाधिपम् ।\nकुर्वाणाश्च कथास्तत्र ब्राह्मणा नृपतिं प्रति ॥",
+          "meaning": {
+            "en": "And the townspeople too all grieved for the king, and brahmins spoke of him with one another there.",
+            "hi": "और सारे नगरवासी भी राजा के लिए शोक करते रहे, और वहाँ ब्राह्मण राजा के विषय में आपस में बातें करते थे।"
+          }
         },
         {
           "n": 3,
-          "text": "कथं नु राजा वृद्धः स वने वसति निर्जने ।\nगान्धारी च महाभागा सा च कुन्ती पृथा कथम् ॥"
+          "text": "कथं नु राजा वृद्धः स वने वसति निर्जने ।\nगान्धारी च महाभागा सा च कुन्ती पृथा कथम् ॥",
+          "meaning": {
+            "en": "\"How does the old king live in the lonely forest? And how is the fortunate Gandhari, and how is Pritha, Kunti?",
+            "hi": "“वृद्ध राजा निर्जन वन में कैसे रहते होंगे? महाभागा गांधारी कैसी होंगी, और पृथा कुन्ती कैसी होंगी?"
+          }
         },
         {
           "n": 4,
-          "text": "सुखार्हः स हि राजर्षिर्न सुखं तन्महावनम् ।\nकिमवस्थः समासाद्य प्रज्ञाचक्षुर्हतात्मजः ॥"
+          "text": "सुखार्हः स हि राजर्षिर्न सुखं तन्महावनम् ।\nकिमवस्थः समासाद्य प्रज्ञाचक्षुर्हतात्मजः ॥",
+          "meaning": {
+            "en": "That royal sage deserves comfort, and that great forest is not comfortable. In what state has he, the one who sees with the eye of wisdom and has lost his sons, arrived there?",
+            "hi": "वह राजर्षि सुख के योग्य हैं, पर वह महावन सुखदायी नहीं है। विवेक की दृष्टि वाले और पुत्रों को खो चुके वे राजा वहाँ पहुँचकर किस दशा में होंगे?"
+          }
         },
         {
           "n": 5,
-          "text": "सुदुष्करं कृतवती कुन्ती पुत्रानपश्यती ।\nराज्यश्रियं परित्यज्य वनवासमरोचयत् ॥"
+          "text": "सुदुष्करं कृतवती कुन्ती पुत्रानपश्यती ।\nराज्यश्रियं परित्यज्य वनवासमरोचयत् ॥",
+          "meaning": {
+            "en": "Kunti did a very hard thing: not seeing her sons, she gave up the fortune of a kingdom and chose to live in the forest.",
+            "hi": "कुन्ती ने अत्यंत कठिन काम किया। पुत्रों को न देखते हुए भी उन्होंने राज्य की लक्ष्मी त्यागकर वनवास को चुना।"
+          }
         },
         {
           "n": 6,
-          "text": "विदुरः किमवस्थश्च भ्रातुः शुश्रूषुरात्मवान् ।\nस च गावल्गणिर्धीमान्भर्तृपिण्डानुपालकः ॥"
+          "text": "विदुरः किमवस्थश्च भ्रातुः शुश्रूषुरात्मवान् ।\nस च गावल्गणिर्धीमान्भर्तृपिण्डानुपालकः ॥",
+          "meaning": {
+            "en": "And in what state are Vidura, self-controlled and devoted to serving his brother, and the wise son of Gavalgana, who keeps faith with his master's bread?\"",
+            "hi": "विदुर किस दशा में होंगे, जो आत्मसंयमी हैं और अपने भाई की सेवा में लगे रहते हैं? और बुद्धिमान गावल्गणि के पुत्र किस दशा में होंगे, जो अपने स्वामी के अन्न का ऋण निभाने वाले हैं?”"
+          }
         },
         {
           "n": 7,
-          "text": "आकुमारं च पौरास्ते चिन्ताशोकसमाहताः ।\nतत्र तत्र कथाश्चक्रुः समासाद्य परस्परम् ॥"
+          "text": "आकुमारं च पौरास्ते चिन्ताशोकसमाहताः ।\nतत्र तत्र कथाश्चक्रुः समासाद्य परस्परम् ॥",
+          "meaning": {
+            "en": "From children up, those townspeople, struck by anxiety and grief, talked in such ways here and there, meeting one another.",
+            "hi": "बालकों से लेकर सभी नगरवासी चिंता और शोक से आहत होकर जगह-जगह मिलते और ऐसी ही बातें करते थे।"
+          }
         },
         {
           "n": 8,
-          "text": "पाण्डवाश्चैव ते सर्वे भृशं शोकपरायणाः ।\nशोचन्तो मातरं वृद्धामूषुर्नातिचिरं पुरे ॥"
+          "text": "पाण्डवाश्चैव ते सर्वे भृशं शोकपरायणाः ।\nशोचन्तो मातरं वृद्धामूषुर्नातिचिरं पुरे ॥",
+          "meaning": {
+            "en": "And all those Pandavas too, wholly given to grief, mourning their aged mother, did not stay long in the city.",
+            "hi": "और वे सभी पांडव भी अत्यंत शोक में डूबे हुए, अपनी वृद्धा माता का शोक करते हुए, नगर में बहुत समय नहीं रहे।"
+          }
         },
         {
           "n": 9,
-          "text": "तथैव पितरं वृद्धं हतपुत्रं जनेश्वरम् ।\nगान्धारीं च महाभागां विदुरं च महामतिम् ॥"
+          "text": "तथैव पितरं वृद्धं हतपुत्रं जनेश्वरम् ।\nगान्धारीं च महाभागां विदुरं च महामतिम् ॥",
+          "meaning": {
+            "en": "And in the same way they thought of their old father, the lord of men who had lost his sons, of the fortunate Gandhari, and of the very wise Vidura.",
+            "hi": "इसी प्रकार वे उस वृद्ध पिता का, जो पुत्रों के मारे जाने से दुःखी जनेश्वर हैं, और महाभागा गांधारी का, तथा अत्यंत बुद्धिमान विदुर का भी स्मरण करते रहे।"
+          }
         },
         {
           "n": 10,
-          "text": "नैषां बभूव संप्रीतिस्तान्विचिन्तयतां तदा ।\nन राज्ये न च नारीषु न वेदाध्ययने तथा ॥"
+          "text": "नैषां बभूव संप्रीतिस्तान्विचिन्तयतां तदा ।\nन राज्ये न च नारीषु न वेदाध्ययने तथा ॥",
+          "meaning": {
+            "en": "As they thought of them, they found no joy then, neither in the kingdom, nor in women, nor in studying the Veda.",
+            "hi": "उन सबका चिंतन करते हुए उन्हें तब न राज्य में, न स्त्रियों में, और न वेद के अध्ययन में कोई प्रसन्नता मिली।"
+          }
         },
         {
           "n": 11,
-          "text": "परं निर्वेदमगमंश्चिन्तयन्तो नराधिपम् ।\nतच्च ज्ञातिवधं घोरं संस्मरन्तः पुनः पुनः ॥"
+          "text": "परं निर्वेदमगमंश्चिन्तयन्तो नराधिपम् ।\nतच्च ज्ञातिवधं घोरं संस्मरन्तः पुनः पुनः ॥",
+          "meaning": {
+            "en": "Thinking of the king, they fell into deep weariness, and again and again they remembered that dreadful killing of kinsmen,",
+            "hi": "राजा का चिंतन करते हुए वे गहरी विरक्ति में डूब गए, और बार-बार उस भयानक ज्ञाति-वध का स्मरण करते रहे।"
+          }
         },
         {
           "n": 12,
-          "text": "अभिमन्योश्च बालस्य विनाशं रणमूर्धनि ।\nकर्णस्य च महाबाहोः संग्रामेष्वपलायिनः ॥"
+          "text": "अभिमन्योश्च बालस्य विनाशं रणमूर्धनि ।\nकर्णस्य च महाबाहोः संग्रामेष्वपलायिनः ॥",
+          "meaning": {
+            "en": "the destruction of the young Abhimanyu at the head of the battle, and of the mighty-armed Karna, who never fled in battle.",
+            "hi": "बालक अभिमन्यु का युद्ध-भूमि के अग्रभाग में हुआ विनाश, और महाबाहु कर्ण का, जो युद्धों में कभी पीठ नहीं दिखाते थे, विनाश भी (उन्हें याद आता रहा)।"
+          }
         },
         {
           "n": 13,
-          "text": "तथैव द्रौपदेयानामन्येषां सुहृदामपि ।\nवधं संस्मृत्य ते वीरा नातिप्रमनसोऽभवन् ॥"
+          "text": "तथैव द्रौपदेयानामन्येषां सुहृदामपि ।\nवधं संस्मृत्य ते वीरा नातिप्रमनसोऽभवन् ॥",
+          "meaning": {
+            "en": "In the same way, remembering the slaying of Draupadi's sons and of other friends, those heroes were not very cheerful.",
+            "hi": "इसी प्रकार द्रौपदी के पुत्रों और दूसरे मित्रों के वध का स्मरण करके वे वीर अधिक प्रसन्न-मन नहीं रहे।"
+          }
         },
         {
           "n": 14,
-          "text": "हतप्रवीरां पृथिवीं हतरत्नां च भारत ।\nसदैव चिन्तयन्तस्ते न निद्रामुपलेभिरे ॥"
+          "text": "हतप्रवीरां पृथिवीं हतरत्नां च भारत ।\nसदैव चिन्तयन्तस्ते न निद्रामुपलेभिरे ॥",
+          "meaning": {
+            "en": "Always thinking, O Bharata, of the earth whose best heroes were slain and whose jewels were lost, they could not find sleep.",
+            "hi": "हे भारत, जिसके श्रेष्ठ वीर मारे गए और रत्न खो गए, उस पृथ्वी का सदा चिंतन करते हुए उन्हें नींद नहीं आई।"
+          }
         },
         {
           "n": 15,
-          "text": "द्रौपदी हतपुत्रा च सुभद्रा चैव भामिनी ।\nनातिप्रीतियुते देव्यौ तदास्तामप्रहृष्टवत् ॥"
+          "text": "द्रौपदी हतपुत्रा च सुभद्रा चैव भामिनी ।\nनातिप्रीतियुते देव्यौ तदास्तामप्रहृष्टवत् ॥",
+          "meaning": {
+            "en": "Draupadi, whose sons were dead, and the lady Subhadra were both without much joy then and were gloomy.",
+            "hi": "द्रौपदी, जिसके पुत्र मारे गए थे, और तेजस्विनी सुभद्रा, दोनों देवियाँ तब अधिक प्रसन्न नहीं थीं, वे उदास-सी रहीं।"
+          }
         },
         {
           "n": 16,
-          "text": "वैराट्यास्तु सुतं दृष्ट्वा पितरं ते परिक्षितम् ।\nधारयन्ति स्म ते प्राणांस्तव पूर्वपितामहाः ॥"
+          "text": "वैराट्यास्तु सुतं दृष्ट्वा पितरं ते परिक्षितम् ।\nधारयन्ति स्म ते प्राणांस्तव पूर्वपितामहाः ॥",
+          "meaning": {
+            "en": "But seeing Virata's daughter's son, Parikshit, your father, your forefathers kept their lives.",
+            "hi": "किंतु विराट की पुत्री के पुत्र परीक्षित को देखकर, जो तुम्हारे पिता थे, तुम्हारे पूर्वजों ने अपने प्राण धारण किए रखे।"
+          }
         }
       ]
     }

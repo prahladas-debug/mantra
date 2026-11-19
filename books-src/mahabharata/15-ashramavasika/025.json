@@ -22,79 +22,155 @@
       "titleEn": "Ashramavasa Parva (Life in the hermitage)",
       "verses": [
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:",
+            "hi": "वैशम्पायन बोले—"
+          }
         },
         {
           "n": 1,
-          "text": "ततो भागीरथीतीरे मेध्ये पुण्यजनोचिते ।\nनिवासमकरोद्राजा विदुरस्य मते स्थितः ॥"
+          "text": "ततो भागीरथीतीरे मेध्ये पुण्यजनोचिते ।\nनिवासमकरोद्राजा विदुरस्य मते स्थितः ॥",
+          "meaning": {
+            "en": "Then, guided by Vidura's counsel, the king made his dwelling on the bank of the Bhagirathi, in a pure place fit for holy people.",
+            "hi": "तब विदुर की सलाह पर राजा ने भागीरथी के तट पर, पवित्र और पुण्यात्मा लोगों के योग्य स्थान पर अपना निवास बनाया।"
+          }
         },
         {
           "n": 2,
-          "text": "तत्रैनं पर्युपातिष्ठन्ब्राह्मणा राष्ट्रवासिनः ।\nक्षत्रविट्शूद्रसंघाश्च बहवो भरतर्षभ ॥"
+          "text": "तत्रैनं पर्युपातिष्ठन्ब्राह्मणा राष्ट्रवासिनः ।\nक्षत्रविट्शूद्रसंघाश्च बहवो भरतर्षभ ॥",
+          "meaning": {
+            "en": "There brahmins who lived in the kingdom, and many groups of kshatriyas, vaishyas, and shudras, came to attend him, O best of the Bharatas.",
+            "hi": "वहाँ राष्ट्र में रहने वाले ब्राह्मण, और क्षत्रिय, वैश्य और शूद्रों के बहुत-से समूह, हे भरतश्रेष्ठ, उनकी सेवा के लिए उपस्थित हुए।"
+          }
         },
         {
           "n": 3,
-          "text": "स तैः परिवृतो राजा कथाभिरभिनन्द्य तान् ।\nअनुजज्ञे सशिष्यान्वै विधिवत्प्रतिपूज्य च ॥"
+          "text": "स तैः परिवृतो राजा कथाभिरभिनन्द्य तान् ।\nअनुजज्ञे सशिष्यान्वै विधिवत्प्रतिपूज्य च ॥",
+          "meaning": {
+            "en": "Surrounded by them, the king pleased them with talk, and after duly honouring them with their pupils, gave them leave to go.",
+            "hi": "उनसे घिरे हुए राजा ने बातचीत से उनका स्वागत किया, और शिष्यों सहित उन्हें विधिपूर्वक सम्मानित करके विदा किया।"
+          }
         },
         {
           "n": 4,
-          "text": "सायाह्ने स महीपालस्ततो गङ्गामुपेत्य ह ।\nचकार विधिवच्छौचं गान्धारी च यशस्विनी ॥"
+          "text": "सायाह्ने स महीपालस्ततो गङ्गामुपेत्य ह ।\nचकार विधिवच्छौचं गान्धारी च यशस्विनी ॥",
+          "meaning": {
+            "en": "In the evening that king went to the Ganga and performed his rites of purification in due form, and so did the renowned Gandhari.",
+            "hi": "संध्या समय वह राजा गंगा के पास जाकर विधिपूर्वक शौच-कर्म (स्नान) किए, और यशस्विनी गांधारी ने भी ऐसा ही किया।"
+          }
         },
         {
           "n": 5,
-          "text": "तथैवान्ये पृथक्सर्वे तीर्थेष्वाप्लुत्य भारत ।\nचक्रुः सर्वाः क्रियास्तत्र पुरुषा विदुरादयः ॥"
+          "text": "तथैवान्ये पृथक्सर्वे तीर्थेष्वाप्लुत्य भारत ।\nचक्रुः सर्वाः क्रियास्तत्र पुरुषा विदुरादयः ॥",
+          "meaning": {
+            "en": "In the same way, O Bharata, all the others, Vidura and the other men, each separately bathed at the bathing places and performed all the rites there.",
+            "hi": "हे भरत, उसी प्रकार विदुर आदि अन्य सब पुरुषों ने भी अलग-अलग तीर्थों में स्नान करके वहाँ के सभी कर्म किए।"
+          }
         },
         {
           "n": 6,
-          "text": "कृतशौचं ततो वृद्धं श्वशुरं कुन्तिभोजजा ।\nगान्धारीं च पृथा राजन्गङ्गातीरमुपानयत् ॥"
+          "text": "कृतशौचं ततो वृद्धं श्वशुरं कुन्तिभोजजा ।\nगान्धारीं च पृथा राजन्गङ्गातीरमुपानयत् ॥",
+          "meaning": {
+            "en": "Then Pritha, born of Kuntibhoja's line, led her aged father-in-law, who had finished his purification, and Gandhari, to the bank of the Ganga.",
+            "hi": "हे राजन्, तब कुंतिभोज की कन्या पृथा ने शौच कर चुके वृद्ध श्वसुर और गांधारी को गंगा के तट पर पहुँचाया।"
+          }
         },
         {
           "n": 7,
-          "text": "राज्ञस्तु याजकैस्तत्र कृतो वेदीपरिस्तरः ।\nजुहाव तत्र वह्निं स नृपतिः सत्यसंगरः ॥"
+          "text": "राज्ञस्तु याजकैस्तत्र कृतो वेदीपरिस्तरः ।\nजुहाव तत्र वह्निं स नृपतिः सत्यसंगरः ॥",
+          "meaning": {
+            "en": "There the king's priests made the spread of the sacrificial altar, and that king, true to his word, offered oblation to the fire.",
+            "hi": "वहाँ राजा के याजकों ने यज्ञवेदी का आस्तरण बिछाया, और उस सत्यप्रतिज्ञ राजा ने वहाँ अग्नि में आहुति दी।"
+          }
         },
         {
           "n": 8,
-          "text": "ततो भागीरथीतीरात्कुरुक्षेत्रं जगाम सः ।\nसानुगो नृपतिर्विद्वान्नियतः संयतेन्द्रियः ॥"
+          "text": "ततो भागीरथीतीरात्कुरुक्षेत्रं जगाम सः ।\nसानुगो नृपतिर्विद्वान्नियतः संयतेन्द्रियः ॥",
+          "meaning": {
+            "en": "Then from the bank of the Bhagirathi that learned king, with his followers, went to Kurukshetra, disciplined and with his senses restrained.",
+            "hi": "फिर भागीरथी के तट से वह विद्वान राजा अपने अनुचरों के साथ कुरुक्षेत्र की ओर गए, नियम में स्थित और इंद्रियों को संयमित करके।"
+          }
         },
         {
           "n": 9,
-          "text": "तत्राश्रमपदं धीमानभिगम्य स पार्थिवः ।\nआससादाथ राजर्षिः शतयूपं मनीषिणम् ॥"
+          "text": "तत्राश्रमपदं धीमानभिगम्य स पार्थिवः ।\nआससादाथ राजर्षिः शतयूपं मनीषिणम् ॥",
+          "meaning": {
+            "en": "The wise king, arriving at a hermitage there, met the wise royal sage Shatayupa.",
+            "hi": "वहाँ बुद्धिमान राजा ने एक आश्रम-स्थान पर पहुँचकर राजर्षि और मनीषी शतयूप से भेंट की।"
+          }
         },
         {
           "n": 10,
-          "text": "स हि राजा महानासीत्केकयेषु परंतपः ।\nस पुत्रं मनुजैश्वर्ये निवेश्य वनमाविशत् ॥"
+          "text": "स हि राजा महानासीत्केकयेषु परंतपः ।\nस पुत्रं मनुजैश्वर्ये निवेश्य वनमाविशत् ॥",
+          "meaning": {
+            "en": "He had been a great king, a scorcher of foes, among the Kekayas, and had entered the forest after setting his son over the lordship of men.",
+            "hi": "वे केकय देश के महान् राजा थे, शत्रुओं को तपाने वाले। उन्होंने अपने पुत्र को मनुष्यों के राज्य पर स्थापित करके वन में प्रवेश किया था।"
+          }
         },
         {
           "n": 11,
-          "text": "तेनासौ सहितो राजा ययौ व्यासाश्रमं तदा ।\nतत्रैनं विधिवद्राजन्प्रत्यगृह्णात्कुरूद्वहम् ॥"
+          "text": "तेनासौ सहितो राजा ययौ व्यासाश्रमं तदा ।\nतत्रैनं विधिवद्राजन्प्रत्यगृह्णात्कुरूद्वहम् ॥",
+          "meaning": {
+            "en": "In his company the king then went to Vyasa's hermitage, and there, O king, Vyasa duly received that bull of the Kurus.",
+            "hi": "उन्हीं के साथ राजा तब व्यास के आश्रम गए। हे राजन्, वहाँ व्यास ने विधिपूर्वक उन कुरुश्रेष्ठ का स्वागत किया।"
+          }
         },
         {
           "n": 12,
-          "text": "स दीक्षां तत्र संप्राप्य राजा कौरवनन्दनः ।\nशतयूपाश्रमे तस्मिन्निवासमकरोत्तदा ॥"
+          "text": "स दीक्षां तत्र संप्राप्य राजा कौरवनन्दनः ।\nशतयूपाश्रमे तस्मिन्निवासमकरोत्तदा ॥",
+          "meaning": {
+            "en": "There the Kaurava king received initiation, and then made his dwelling in Shatayupa's hermitage.",
+            "hi": "वहाँ कौरवनंदन राजा ने दीक्षा प्राप्त की, और फिर उस शतयूप के आश्रम में निवास किया।"
+          }
         },
         {
           "n": 13,
-          "text": "तस्मै सर्वं विधिं राजन्राजाचख्यौ महामतिः ।\nआरण्यकं महाराज व्यासस्यानुमते तदा ॥"
+          "text": "तस्मै सर्वं विधिं राजन्राजाचख्यौ महामतिः ।\nआरण्यकं महाराज व्यासस्यानुमते तदा ॥",
+          "meaning": {
+            "en": "The very wise royal sage explained to him all the rules for forest dwellers, O great king, with Vyasa's consent.",
+            "hi": "हे महाराज, उस समय व्यास की अनुमति से उन महामति राजर्षि ने उनसे वन-वासियों के सभी विधि-विधान समझाए।"
+          }
         },
         {
           "n": 14,
-          "text": "एवं स तपसा राजा धृतराष्ट्रो महामनाः ।\nयोजयामास चात्मानं तांश्चाप्यनुचरांस्तदा ॥"
+          "text": "एवं स तपसा राजा धृतराष्ट्रो महामनाः ।\nयोजयामास चात्मानं तांश्चाप्यनुचरांस्तदा ॥",
+          "meaning": {
+            "en": "In this way the great-minded King Dhritarashtra joined himself, and his followers too, to austerity.",
+            "hi": "इस प्रकार महामना राजा धृतराष्ट्र ने तपस्या में स्वयं को और अपने उन अनुचरों को भी लगा दिया।"
+          }
         },
         {
           "n": 15,
-          "text": "तथैव देवी गान्धारी वल्कलाजिनवासिनी ।\nकुन्त्या सह महाराज समानव्रतचारिणी ॥"
+          "text": "तथैव देवी गान्धारी वल्कलाजिनवासिनी ।\nकुन्त्या सह महाराज समानव्रतचारिणी ॥",
+          "meaning": {
+            "en": "So also the lady Gandhari, clad in bark and deerskin, together with Kunti, O great king, observed the same vows.",
+            "hi": "हे महाराज, उसी प्रकार देवी गांधारी भी वल्कल और मृगचर्म धारण करके, कुंती के साथ समान व्रत का पालन करने लगीं।"
+          }
         },
         {
           "n": 16,
-          "text": "कर्मणा मनसा वाचा चक्षुषा चापि ते नृप ।\nसंनियम्येन्द्रियग्राममास्थिताः परमं तपः ॥"
+          "text": "कर्मणा मनसा वाचा चक्षुषा चापि ते नृप ।\nसंनियम्येन्द्रियग्राममास्थिताः परमं तपः ॥",
+          "meaning": {
+            "en": "In deed, mind, speech, and sight, O king, they stood firm in supreme austerity, having restrained the whole group of their senses.",
+            "hi": "हे राजन्, कर्म, मन, वाणी और दृष्टि से, इंद्रिय-समूह को भली-भाँति संयमित करके, वे परम तपस्या में स्थित हो गए।"
+          }
         },
         {
           "n": 17,
-          "text": "त्वगस्थिभूतः परिशुष्कमांसो\nजटाजिनी वल्कलसंवृताङ्गः ।\nस पार्थिवस्तत्र तपश्चचार\nमहर्षिवत्तीव्रमपेतदोषः ॥"
+          "text": "त्वगस्थिभूतः परिशुष्कमांसो\nजटाजिनी वल्कलसंवृताङ्गः ।\nस पार्थिवस्तत्र तपश्चचार\nमहर्षिवत्तीव्रमपेतदोषः ॥",
+          "meaning": {
+            "en": "That king, reduced to skin and bones, his flesh dried up, with matted hair, deerskin, and limbs covered in bark, practised austerity there, intense like a great sage and free from fault.",
+            "hi": "त्वचा और हड्डियों जैसा शरीर लिए, सूखे मांस वाले, जटा और मृगचर्म धारण किए, शरीर को वल्कलों से ढके हुए, वे राजा वहाँ महर्षि की भाँति कठोर तपस्या करते रहे, और दोषों से मुक्त रहे।"
+          }
         },
         {
           "n": 18,
-          "text": "क्षत्ता च धर्मार्थविदग्र्यबुद्धिः\nससंजयस्तं नृपतिं सदारम् ।\nउपाचरद्घोरतपो जितात्मा\nतदा कृशो वल्कलचीरवासाः ॥"
+          "text": "क्षत्ता च धर्मार्थविदग्र्यबुद्धिः\nससंजयस्तं नृपतिं सदारम् ।\nउपाचरद्घोरतपो जितात्मा\nतदा कृशो वल्कलचीरवासाः ॥",
+          "meaning": {
+            "en": "Vidura, the best of minds in dharma and wealth, with Sanjaya, attended that king and his wife, self-controlled, undergoing severe austerity, thin and wearing garments of bark.",
+            "hi": "धर्म और अर्थ के श्रेष्ठ ज्ञाता, उत्तम बुद्धि वाले विदुर, संजय के साथ, उस राजा और उनकी पत्नी की सेवा करते रहे। वे जितेंद्रिय थे, कठोर तप कर रहे थे, दुबले हो गए थे, और वल्कल-वस्त्र पहने थे।"
+          }
         }
       ]
     }

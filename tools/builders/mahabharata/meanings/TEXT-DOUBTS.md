@@ -30,3 +30,19 @@
 
 - 12-347 0.4 (v4): "न खल्वस्यकृतार्थेन" reads oddly; meaning rendered loosely ("someone with a purpose unfulfilled"); possible slip.
 - 12-337 0.51-0.52 (v47-48): sentence runs across two verses (Vasishtha ... in his line Parashara); rendered separately.
+
+- 13.34 v17 (0.17) "प्रक्षिप्याथ च कुम्भान्वै पारगामिनमारभेत्" looks garbled/out of place after the Citrayudha line; rendered with a note that the clause is obscure (E083).
+
+- 13.44 v37-v38 (0.42-0.43): "my father" Bahlika is addressed as pita though he is Shantanu's brother; rendered as in the text. 13.44 v50-51 (0.55-0.56) and 13.45 v2-v4 (0.3-0.5) are obscure/possibly corrupt; rendered loosely (E083).
+
+- 13.47 v10 (0.11) "द्विगुणं स्याद्" and 13.52 v12 (0.14) "धर्मद्वारं" are unclear; rendered loosely (E083).
+
+- 13.95 v41 (0.69) Gandi's name-etymology "गण्डं गण्डं ... मानलसंभवे" and v37 (0.61) Jamadagni's "जाजमद्यजजा नाम मृजा माह जिजायिषे" are obscure wordplay, possibly corrupt; rendered loosely (E086).
+
+- 13.107 v78 (0.79) "न चापदशमेव" and 13.107 v51-v54 are terse; 13.105 v35 (0.58) "यथान्यायं त्रीणि वर्षाणि" rendered as in text (E086).
+
+- 13.150 v1 (0.1), v9 (0.9) and 13.149 v4, v6 (0.4, 0.6) are syntactically obscure, possibly corrupt; rendered loosely (E089).
+
+- 15.17 v17 (0.17) "कुन्ती कर्णाय दास्यति ... मादात्कौरवको नृपः" is syntactically odd, possibly corrupt; rendered as "Kunti will give for Karna; let the Kaurava king not give" (E094).
+
+- 14.66 v3 (0.3) "सोत्तरायां निपतिता विजये मयि च" is obscure (Vijaya locative); rendered loosely as "on me too, in Arjuna's line" (E092). 14.64 v14 (0.15) measures "त्रिलक्षं भाजनं तुलार्धम्" and 14.64 v15 (0.16) "शतानि द्विगुणा हयाः" are terse; rendered literally (E092).

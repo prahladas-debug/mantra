@@ -22,43 +22,83 @@
       "titleEn": "Anugita Parva",
       "verses": [
         {
-          "text": "ब्रह्मोवाच"
+          "text": "ब्रह्मोवाच",
+          "meaning": {
+            "en": "Brahma said:",
+            "hi": "ब्रह्मा बोले—"
+          }
         },
         {
           "n": 1,
-          "text": "अव्यक्तात्पूर्वमुत्पन्नो महानात्मा महामतिः ।\nआदिर्गुणानां सर्वेषां प्रथमः सर्ग उच्यते ॥"
+          "text": "अव्यक्तात्पूर्वमुत्पन्नो महानात्मा महामतिः ।\nआदिर्गुणानां सर्वेषां प्रथमः सर्ग उच्यते ॥",
+          "meaning": {
+            "en": "\"First there arose from the Unmanifest the Great Self of great intelligence, the beginning of all the qualities, called the first creation.\"",
+            "hi": "अव्यक्त से पूर्व उत्पन्न हुआ महान् आत्मा, जो महामति है, सभी गुणों का आदि है; उसे प्रथम सर्ग कहा जाता है।"
+          }
         },
         {
           "n": 2,
-          "text": "महानात्मा मतिर्विष्णुर्विश्वः शंभुश्च वीर्यवान् ।\nबुद्धिः प्रज्ञोपलब्धिश्च तथा ख्यातिर्धृतिः स्मृतिः ॥"
+          "text": "महानात्मा मतिर्विष्णुर्विश्वः शंभुश्च वीर्यवान् ।\nबुद्धिः प्रज्ञोपलब्धिश्च तथा ख्यातिर्धृतिः स्मृतिः ॥",
+          "meaning": {
+            "en": "\"The Great Self is also Mati, Vishnu, Vishva, and mighty Shambhu; it is Buddhi, Prajna, Upalabdhi, Khyati, Dhriti, and Smriti.\"",
+            "hi": "महान आत्मा ही मति, विष्णु, विश्व और वीर्यवान शम्भु है; वही बुद्धि, प्रज्ञा, उपलब्धि, ख्याति, धृति और स्मृति है।"
+          }
         },
         {
           "n": 3,
-          "text": "पर्यायवाचकैः शब्दैर्महानात्मा विभाव्यते ।\nतं जानन्ब्राह्मणो विद्वान्न प्रमोहं निगच्छति ॥"
+          "text": "पर्यायवाचकैः शब्दैर्महानात्मा विभाव्यते ।\nतं जानन्ब्राह्मणो विद्वान्न प्रमोहं निगच्छति ॥",
+          "meaning": {
+            "en": "\"The Great Self is known by these synonymous words; a learned Brahmin who knows it is not led into delusion.\"",
+            "hi": "इन पर्यायवाची शब्दों से महान आत्मा का वर्णन किया जाता है। उसे जानने वाला विद्वान ब्राह्मण मोह को प्राप्त नहीं होता।"
+          }
         },
         {
           "n": 4,
-          "text": "सर्वतःपाणिपादश्च सर्वतोक्षिशिरोमुखः ।\nसर्वतःश्रुतिमाँल्लोके सर्वं व्याप्य स तिष्ठति ॥"
+          "text": "सर्वतःपाणिपादश्च सर्वतोक्षिशिरोमुखः ।\nसर्वतःश्रुतिमाँल्लोके सर्वं व्याप्य स तिष्ठति ॥",
+          "meaning": {
+            "en": "\"It has hands and feet everywhere, eyes, heads, and mouths everywhere, and ears everywhere in the world, and it stays pervading everything.\"",
+            "hi": "उसके सर्वत्र हाथ-पैर हैं, सर्वत्र नेत्र, सिर और मुख हैं, और संसार में सर्वत्र कान हैं; वह सब कुछ व्याप्त करके स्थित है।"
+          }
         },
         {
           "n": 5,
-          "text": "महाप्रभार्चिः पुरुषः सर्वस्य हृदि निश्रितः ।\nअणिमा लघिमा प्राप्तिरीशानो ज्योतिरव्ययः ॥"
+          "text": "महाप्रभार्चिः पुरुषः सर्वस्य हृदि निश्रितः ।\nअणिमा लघिमा प्राप्तिरीशानो ज्योतिरव्ययः ॥",
+          "meaning": {
+            "en": "\"The Purusha, whose great radiant flame dwells in the heart of all, is smallness, lightness, attainment, the Ruler, and the imperishable light.\"",
+            "hi": "महान प्रभा की ज्वाला वाला पुरुष, जो सबके हृदय में निश्चित रूप से स्थित है, वह अणिमा, लघिमा, प्राप्ति, ईशान और अव्यय ज्योति है।"
+          }
         },
         {
           "n": 6,
-          "text": "तत्र बुद्धिमतां लोकाः संन्यासनिरताश्च ये ।\nध्यानिनो नित्ययोगाश्च सत्यसंधा जितेन्द्रियाः ॥"
+          "text": "तत्र बुद्धिमतां लोकाः संन्यासनिरताश्च ये ।\nध्यानिनो नित्ययोगाश्च सत्यसंधा जितेन्द्रियाः ॥",
+          "meaning": {
+            "en": "\"There dwell the worlds of the wise, and of those devoted to renunciation, meditators, constant yogis, keepers of truth, and masters of their senses;\"",
+            "hi": "वहाँ बुद्धिमानों के लोक हैं, और जो संन्यास में रत हैं, ध्यानी हैं, नित्य योगी हैं, सत्यप्रतिज्ञ और जितेन्द्रिय हैं;"
+          }
         },
         {
           "n": 7,
-          "text": "ज्ञानवन्तश्च ये केचिदलुब्धा जितमन्यवः ।\nप्रसन्नमनसो धीरा निर्ममा निरहंकृताः ।\nविमुक्ताः सर्व एवैते महत्त्वमुपयान्ति वै ॥"
+          "text": "ज्ञानवन्तश्च ये केचिदलुब्धा जितमन्यवः ।\nप्रसन्नमनसो धीरा निर्ममा निरहंकृताः ।\nविमुक्ताः सर्व एवैते महत्त्वमुपयान्ति वै ॥",
+          "meaning": {
+            "en": "\"and those who have knowledge, are free of greed, have conquered anger, are serene in mind, steady, free of possessiveness and egoism; all these liberated ones attain greatness.\"",
+            "hi": "जो कोई ज्ञानवान्, लोभ-रहित, क्रोध को जीतने वाले, प्रसन्न मन वाले, धीर, निर्मम और निरहंकार हैं—ये सभी विमुक्त होकर महत्त्व को प्राप्त होते हैं।"
+          }
         },
         {
           "n": 8,
-          "text": "आत्मनो महतो वेद यः पुण्यां गतिमुत्तमाम् ।\nस धीरः सर्वलोकेषु न मोहमधिगच्छति ।\nविष्णुरेवादिसर्गेषु स्वयंभूर्भवति प्रभुः ॥"
+          "text": "आत्मनो महतो वेद यः पुण्यां गतिमुत्तमाम् ।\nस धीरः सर्वलोकेषु न मोहमधिगच्छति ।\nविष्णुरेवादिसर्गेषु स्वयंभूर्भवति प्रभुः ॥",
+          "meaning": {
+            "en": "\"He who knows the holy, highest path of the Great Self is steadfast and never falls into delusion in any world; in the first creations it is Vishnu himself, the self-born lord.\"",
+            "hi": "जो महान आत्मा की पुण्य और उत्तम गति को जानता है, वह धीर सब लोकों में मोह को प्राप्त नहीं होता। आदि सर्गों में स्वयंभू प्रभु स्वयं विष्णु ही होते हैं।"
+          }
         },
         {
           "n": 9,
-          "text": "एवं हि यो वेद गुहाशयं प्रभुं\nनरः पुराणं पुरुषं विश्वरूपम् ।\nहिरण्मयं बुद्धिमतां परां गतिं\nस बुद्धिमान्बुद्धिमतीत्य तिष्ठति ॥"
+          "text": "एवं हि यो वेद गुहाशयं प्रभुं\nनरः पुराणं पुरुषं विश्वरूपम् ।\nहिरण्मयं बुद्धिमतां परां गतिं\nस बुद्धिमान्बुद्धिमतीत्य तिष्ठति ॥",
+          "meaning": {
+            "en": "\"The man who thus knows the lord who dwells in the cave of the heart, the ancient Purusha of all forms, the golden one, the highest goal of the wise, himself becomes wise and stands beyond intellect.\"",
+            "hi": "इस प्रकार जो मनुष्य गुहाशय (हृदय-गुहा में स्थित) प्रभु, पुराण पुरुष, विश्वरूप, हिरण्मय और बुद्धिमानों की परम गति को जानता है, वह बुद्धिमान बुद्धि से परे स्थित हो जाता है।"
+          }
         }
       ]
     }

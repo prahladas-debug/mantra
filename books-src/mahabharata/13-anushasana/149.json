@@ -22,62 +22,122 @@
       "titleEn": "Anushasanika Parva (The instructions)",
       "verses": [
         {
-          "text": "युधिष्ठिर उवाच"
+          "text": "युधिष्ठिर उवाच",
+          "meaning": {
+            "en": "Yudhishthira said:",
+            "hi": "युधिष्ठिर बोले—"
+          }
         },
         {
           "n": 1,
-          "text": "नाभागधेयः प्राप्नोति धनं सुबलवानपि ।\nभागधेयान्वितस्त्वर्थान्कृशो बालश्च विन्दति ॥"
+          "text": "नाभागधेयः प्राप्नोति धनं सुबलवानपि ।\nभागधेयान्वितस्त्वर्थान्कृशो बालश्च विन्दति ॥",
+          "meaning": {
+            "en": "One without good fortune does not gain wealth, however strong; but a person blessed with fortune, even weak or a child, finds riches.",
+            "hi": "जो भाग्यहीन है, वह अत्यंत बलवान होने पर भी धन नहीं पाता; किंतु जो भाग्य से युक्त है—वह दुर्बल हो या बालक—धन पा लेता है।"
+          }
         },
         {
           "n": 2,
-          "text": "नालाभकाले लभते प्रयत्नेऽपि कृते सति ।\nलाभकालेऽप्रयत्नेन लभते विपुलं धनम् ।\nकृतयत्नाफलाश्चैव दृश्यन्ते शतशो नराः ॥"
+          "text": "नालाभकाले लभते प्रयत्नेऽपि कृते सति ।\nलाभकालेऽप्रयत्नेन लभते विपुलं धनम् ।\nकृतयत्नाफलाश्चैव दृश्यन्ते शतशो नराः ॥",
+          "meaning": {
+            "en": "At a time of no gain, one gains nothing even with effort; at a time of gain, one gets great wealth without effort. And hundreds of people are seen whose efforts bear no fruit.",
+            "hi": "अलाभ-काल में प्रयत्न करने पर भी कुछ नहीं मिलता; लाभ-काल में बिना प्रयत्न के भी विपुल धन मिल जाता है। और सैकड़ों लोग देखे जाते हैं जिनके प्रयत्न फलहीन रहते हैं।"
+          }
         },
         {
           "n": 3,
-          "text": "यदि यत्नो भवेन्मर्त्यः स सर्वं फलमाप्नुयात् ।\nनालभ्यं चोपलभ्येत नृणां भरतसत्तम ॥"
+          "text": "यदि यत्नो भवेन्मर्त्यः स सर्वं फलमाप्नुयात् ।\nनालभ्यं चोपलभ्येत नृणां भरतसत्तम ॥",
+          "meaning": {
+            "en": "If effort alone sufficed, a man would obtain every fruit, and nothing would be unobtainable for people, best of the Bharatas.",
+            "hi": "यदि केवल प्रयत्न ही पर्याप्त होता, तो मनुष्य सब फल पा लेता, और मनुष्यों के लिए कुछ भी अप्राप्य न रहता, हे भरतसत्तम।"
+          }
         },
         {
           "n": 4,
-          "text": "यदा प्रयत्नं कृतवान्दृश्यते ह्यफलो नरः ।\nमार्गन्नयशतैरर्थानमार्गंश्चापरः सुखी ॥"
+          "text": "यदा प्रयत्नं कृतवान्दृश्यते ह्यफलो नरः ।\nमार्गन्नयशतैरर्थानमार्गंश्चापरः सुखी ॥",
+          "meaning": {
+            "en": "A man who has made effort is seen to get nothing, though he seeks wealth by hundreds of methods, while another, without searching, is happy.",
+            "hi": "जो मनुष्य प्रयत्न कर चुका है, वह भी फलहीन दिखाई देता है, और सैकड़ों उपायों से धन खोजता है; जबकि दूसरा, बिना खोजे, सुखी है।"
+          }
         },
         {
           "n": 5,
-          "text": "अकार्यमसकृत्कृत्वा दृश्यन्ते ह्यधना नराः ।\nधनयुक्तास्त्वधर्मस्था दृश्यन्ते चापरे जनाः ॥"
+          "text": "अकार्यमसकृत्कृत्वा दृश्यन्ते ह्यधना नराः ।\nधनयुक्तास्त्वधर्मस्था दृश्यन्ते चापरे जनाः ॥",
+          "meaning": {
+            "en": "Some are seen to be poor though they act again and again; others are seen to be rich though they stand outside dharma.",
+            "hi": "बार-बार अकार्य करके भी लोग निर्धन दिखाई देते हैं; दूसरे लोग अधर्म में स्थित होकर भी धनी दिखते हैं।"
+          }
         },
         {
           "n": 6,
-          "text": "अधीत्य नीतिं यस्माच्च नीतियुक्तो न दृश्यते ।\nअनभिज्ञश्च साचिव्यं गमितः केन हेतुना ।\nविद्यायुक्तो ह्यविद्यश्च धनवान्दुर्गतस्तथा ॥"
+          "text": "अधीत्य नीतिं यस्माच्च नीतियुक्तो न दृश्यते ।\nअनभिज्ञश्च साचिव्यं गमितः केन हेतुना ।\nविद्यायुक्तो ह्यविद्यश्च धनवान्दुर्गतस्तथा ॥",
+          "meaning": {
+            "en": "For what reason is one who has studied statecraft not seen to be skilled in it, while an ignorant man is raised to be a counsellor? The learned man and the unlearned may be rich or fallen.",
+            "hi": "नीति का अध्ययन करके भी मनुष्य नीतिमान नहीं दिखता, और एक अनभिज्ञ व्यक्ति किस कारण से मंत्री-पद पर पहुँचाया जाता है? विद्वान और अविद्वान, दोनों धनवान या दुर्गत (दरिद्र) हो सकते हैं।"
+          }
         },
         {
           "n": 7,
-          "text": "यदि विद्यामुपाश्रित्य नरः सुखमवाप्नुयात् ।\nन विद्वान्विद्यया हीनं वृत्त्यर्थमुपसंश्रयेत् ॥"
+          "text": "यदि विद्यामुपाश्रित्य नरः सुखमवाप्नुयात् ।\nन विद्वान्विद्यया हीनं वृत्त्यर्थमुपसंश्रयेत् ॥",
+          "meaning": {
+            "en": "If a man could gain happiness by relying on learning, a learned man would not depend on someone without learning for his living.",
+            "hi": "यदि विद्या का आश्रय लेकर मनुष्य सुख पा सकता, तो विद्वान व्यक्ति विद्याहीन पर अपनी जीविका के लिए आश्रित न होता।"
+          }
         },
         {
           "n": 8,
-          "text": "यथा पिपासां जयति पुरुषः प्राप्य वै जलम् ।\nदृष्टार्थो विद्ययाप्येवमविद्यां प्रजहेन्नरः ॥"
+          "text": "यथा पिपासां जयति पुरुषः प्राप्य वै जलम् ।\nदृष्टार्थो विद्ययाप्येवमविद्यां प्रजहेन्नरः ॥",
+          "meaning": {
+            "en": "As a man overcomes thirst when he gets water, so a man who has seen the aim through learning should shed ignorance.",
+            "hi": "जैसे जल पाकर मनुष्य प्यास पर विजय पाता है, वैसे ही जिसने विद्या से लक्ष्य देख लिया, वह मनुष्य अविद्या को त्याग दे।"
+          }
         },
         {
           "n": 9,
-          "text": "नाप्राप्तकालो म्रियते विद्धः शरशतैरपि ।\nतृणाग्रेणापि संस्पृष्टः प्राप्तकालो न जीवति ॥"
+          "text": "नाप्राप्तकालो म्रियते विद्धः शरशतैरपि ।\nतृणाग्रेणापि संस्पृष्टः प्राप्तकालो न जीवति ॥",
+          "meaning": {
+            "en": "A man whose time has not come does not die, though pierced by hundreds of arrows; one whose time has come does not live, though touched by only a blade of grass.",
+            "hi": "जिसका काल नहीं आया, वह सैकड़ों बाणों से बिंधकर भी नहीं मरता; और जिसका काल आ गया, वह तिनके की नोक से छू जाने पर भी जीवित नहीं रहता।"
+          }
         },
         {
-          "text": "भीष्म उवाच"
+          "text": "भीष्म उवाच",
+          "meaning": {
+            "en": "Bhishma said:",
+            "hi": "भीष्म बोले—"
+          }
         },
         {
           "n": 10,
-          "text": "ईहमानः समारम्भान्यदि नासादयेद्धनम् ।\nउग्रं तपः समारोहेन्न ह्यनुप्तं प्ररोहति ॥"
+          "text": "ईहमानः समारम्भान्यदि नासादयेद्धनम् ।\nउग्रं तपः समारोहेन्न ह्यनुप्तं प्ररोहति ॥",
+          "meaning": {
+            "en": "If a person tries undertakings and gains no wealth, he should take up fierce austerity, for what has not been sown does not sprout.",
+            "hi": "यदि उद्योग करने पर भी मनुष्य धन न पा सके, तो उसे उग्र तप करना चाहिए; क्योंकि जो बोया नहीं गया, वह अंकुरित नहीं होता।"
+          }
         },
         {
           "n": 11,
-          "text": "दानेन भोगी भवति मेधावी वृद्धसेवया ।\nअहिंसया च दीर्घायुरिति प्राहुर्मनीषिणः ॥"
+          "text": "दानेन भोगी भवति मेधावी वृद्धसेवया ।\nअहिंसया च दीर्घायुरिति प्राहुर्मनीषिणः ॥",
+          "meaning": {
+            "en": "By giving one becomes an enjoyer, by serving elders one becomes wise, and by non-violence one becomes long-lived, so say the wise.",
+            "hi": "दान से मनुष्य भोगी होता है, वृद्धों की सेवा से मेधावी होता है, और अहिंसा से दीर्घायु होता है—ऐसा मनीषी कहते हैं।"
+          }
         },
         {
           "n": 12,
-          "text": "तस्माद्दद्यान्न याचेत पूजयेद्धार्मिकानपि ।\nस्वाभाषी प्रियकृच्छुद्धः सर्वसत्त्वाविहिंसकः ॥"
+          "text": "तस्माद्दद्यान्न याचेत पूजयेद्धार्मिकानपि ।\nस्वाभाषी प्रियकृच्छुद्धः सर्वसत्त्वाविहिंसकः ॥",
+          "meaning": {
+            "en": "So one should give and not beg, and honour the righteous too; one should speak kindly, do what pleases, be pure, and harm no creature.",
+            "hi": "इसलिए दे, माँगे नहीं; धार्मिकों का भी सम्मान करे। मधुर बोले, जो प्रिय हो वह करे, पवित्र रहे, और किसी भी प्राणी की हिंसा न करे।"
+          }
         },
         {
           "n": 13,
-          "text": "यदा प्रमाणप्रभवः स्वभावश्च सुखासुखे ।\nमशकीटपिपीलानां स्थिरो भव युधिष्ठिर ॥"
+          "text": "यदा प्रमाणप्रभवः स्वभावश्च सुखासुखे ।\nमशकीटपिपीलानां स्थिरो भव युधिष्ठिर ॥",
+          "meaning": {
+            "en": "Since pleasure and pain arise from one's nature and its measure, for gnats, insects and ants as well, be steady, Yudhishthira.",
+            "hi": "चूँकि सुख और दुःख स्वभाव और उसके प्रमाण से उत्पन्न होते हैं—मच्छर, कीट और चींटियों के लिए भी—हे युधिष्ठिर, स्थिर रहो।"
+          }
         }
       ]
     }

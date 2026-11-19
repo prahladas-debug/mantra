@@ -22,119 +22,235 @@
       "titleEn": "Naradagamana Parva (Narada's coming)",
       "verses": [
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:",
+            "hi": "वैशम्पायन बोले—"
+          }
         },
         {
           "n": 1,
-          "text": "ततस्ते भरतश्रेष्ठाः समाजग्मुः परस्परम् ।\nविगतक्रोधमात्सर्याः सर्वे विगतकल्मषाः ॥"
+          "text": "ततस्ते भरतश्रेष्ठाः समाजग्मुः परस्परम् ।\nविगतक्रोधमात्सर्याः सर्वे विगतकल्मषाः ॥",
+          "meaning": {
+            "en": "Then those best of the Bharatas met one another, free of anger and envy, all stainless.",
+            "hi": "तब वे भरतश्रेष्ठ परस्पर मिले; क्रोध और ईर्ष्या से रहित, सब पाप-मुक्त होकर।"
+          }
         },
         {
           "n": 2,
-          "text": "विधिं परममास्थाय ब्रह्मर्षिविहितं शुभम् ।\nसंप्रीतमनसः सर्वे देवलोक इवामराः ॥"
+          "text": "विधिं परममास्थाय ब्रह्मर्षिविहितं शुभम् ।\nसंप्रीतमनसः सर्वे देवलोक इवामराः ॥",
+          "meaning": {
+            "en": "Following the supreme and auspicious rule laid down by the Brahmin sages, all were glad at heart, like immortals in the world of the gods.",
+            "hi": "ब्रह्मर्षियों द्वारा विहित परम और शुभ विधि का आश्रय लेकर, सब मन से प्रसन्न होकर, देवलोक के अमरों के समान हो गए।"
+          }
         },
         {
           "n": 3,
-          "text": "पुत्रः पित्रा च मात्रा च भार्या च पतिना सह ।\nभ्राता भ्रात्रा सखा चैव सख्या राजन्समागताः ॥"
+          "text": "पुत्रः पित्रा च मात्रा च भार्या च पतिना सह ।\nभ्राता भ्रात्रा सखा चैव सख्या राजन्समागताः ॥",
+          "meaning": {
+            "en": "Son met father and mother, wife met husband, brother met brother, and friend met friend, O king.",
+            "hi": "हे राजन्, पुत्र पिता और माता से, पत्नी पति से, भाई भाई से और मित्र मित्र से मिले।"
+          }
         },
         {
           "n": 4,
-          "text": "पाण्डवास्तु महेष्वासं कर्णं सौभद्रमेव च ।\nसंप्रहर्षात्समाजग्मुर्द्रौपदेयांश्च सर्वशः ॥"
+          "text": "पाण्डवास्तु महेष्वासं कर्णं सौभद्रमेव च ।\nसंप्रहर्षात्समाजग्मुर्द्रौपदेयांश्च सर्वशः ॥",
+          "meaning": {
+            "en": "The Pandavas, in great joy, embraced the mighty archer Karna, Subhadra's son, and all the sons of Draupadi.",
+            "hi": "पांडवों ने अत्यंत हर्ष से महाधनुर्धर कर्ण और सौभद्र से, तथा सब द्रौपदी-पुत्रों से भी भेंट की।"
+          }
         },
         {
           "n": 5,
-          "text": "ततस्ते प्रीयमाणा वै कर्णेन सह पाण्डवाः ।\nसमेत्य पृथिवीपालाः सौहृदेऽवस्थिताभवन् ॥"
+          "text": "ततस्ते प्रीयमाणा वै कर्णेन सह पाण्डवाः ।\nसमेत्य पृथिवीपालाः सौहृदेऽवस्थिताभवन् ॥",
+          "meaning": {
+            "en": "Then the Pandavas, pleased to be with Karna, and the other kings who met them, all stood in friendship.",
+            "hi": "तब पांडव कर्ण से मिलकर प्रसन्न हुए, और उनसे मिलकर अन्य पृथ्वीपाल (राजा) भी सौहार्द में स्थित हो गए।"
+          }
         },
         {
           "n": 6,
-          "text": "ऋषिप्रसादात्तेऽन्ये च क्षत्रिया नष्टमन्यवः ।\nअसौहृदं परित्यज्य सौहृदे पर्यवस्थिताः ॥"
+          "text": "ऋषिप्रसादात्तेऽन्ये च क्षत्रिया नष्टमन्यवः ।\nअसौहृदं परित्यज्य सौहृदे पर्यवस्थिताः ॥",
+          "meaning": {
+            "en": "By the sage's grace the other kshatriyas too had lost their bitterness; giving up ill will, they abided in friendship.",
+            "hi": "ऋषि की कृपा से दूसरे क्षत्रिय भी, जिनका क्रोध शांत हो गया था, वैर छोड़कर सौहार्द में स्थित हो गए।"
+          }
         },
         {
           "n": 7,
-          "text": "एवं समागताः सर्वे गुरुभिर्बान्धवैस्तथा ।\nपुत्रैश्च पुरुषव्याघ्राः कुरवोऽन्ये च मानवाः ॥"
+          "text": "एवं समागताः सर्वे गुरुभिर्बान्धवैस्तथा ।\nपुत्रैश्च पुरुषव्याघ्राः कुरवोऽन्ये च मानवाः ॥",
+          "meaning": {
+            "en": "Thus all of them, tigers among men, the Kurus and the other men, came together with their elders, kinsmen and sons.",
+            "hi": "इस प्रकार सभी पुरुषों में व्याघ्र-समान वे, कुरुजन और दूसरे मनुष्य, गुरुजनों, बांधवों और पुत्रों सहित एकत्र हुए।"
+          }
         },
         {
           "n": 8,
-          "text": "तां रात्रिमेकां कृत्स्नां ते विहृत्य प्रीतमानसाः ।\nमेनिरे परितोषेण नृपाः स्वर्गसदो यथा ॥"
+          "text": "तां रात्रिमेकां कृत्स्नां ते विहृत्य प्रीतमानसाः ।\nमेनिरे परितोषेण नृपाः स्वर्गसदो यथा ॥",
+          "meaning": {
+            "en": "Joyful, they spent that one whole night in delight, and the kings felt as content as dwellers in heaven.",
+            "hi": "उस एक पूरी रात को बिताकर प्रसन्न मन वाले उन राजाओं ने संतोष में स्वर्गवासियों के समान अनुभव किया।"
+          }
         },
         {
           "n": 9,
-          "text": "नात्र शोको भयं त्रासो नारतिर्नायशोऽभवत् ।\nपरस्परं समागम्य योधानां भरतर्षभ ॥"
+          "text": "नात्र शोको भयं त्रासो नारतिर्नायशोऽभवत् ।\nपरस्परं समागम्य योधानां भरतर्षभ ॥",
+          "meaning": {
+            "en": "There was no grief, fear, terror, discontent or disgrace there, O best of the Bharatas, as the warriors met one another.",
+            "hi": "हे भरतश्रेष्ठ, योद्धाओं के परस्पर मिलने पर वहाँ न शोक था, न भय, न त्रास, न असंतोष, और न अपयश।"
+          }
         },
         {
           "n": 10,
-          "text": "समागतास्ताः पितृभिर्भ्रातृभिः पतिभिः सुतैः ।\nमुदं परमिकां प्राप्य नार्यो दुःखमथात्यजन् ॥"
+          "text": "समागतास्ताः पितृभिर्भ्रातृभिः पतिभिः सुतैः ।\nमुदं परमिकां प्राप्य नार्यो दुःखमथात्यजन् ॥",
+          "meaning": {
+            "en": "The women, meeting fathers, brothers, husbands and sons, reached supreme joy and gave up their sorrow.",
+            "hi": "पिता, भाइयों, पतियों और पुत्रों से मिलकर उन स्त्रियों ने परम आनंद पाया और दुःख त्याग दिया।"
+          }
         },
         {
           "n": 11,
-          "text": "एकां रात्रिं विहृत्यैवं ते वीरास्ताश्च योषितः ।\nआमन्त्र्यान्योन्यमाश्लिष्य ततो जग्मुर्यथागतम् ॥"
+          "text": "एकां रात्रिं विहृत्यैवं ते वीरास्ताश्च योषितः ।\nआमन्त्र्यान्योन्यमाश्लिष्य ततो जग्मुर्यथागतम् ॥",
+          "meaning": {
+            "en": "Having thus enjoyed a single night, those heroes and those women took leave of one another, embraced, and went back the way they had come.",
+            "hi": "इस प्रकार एक रात बिताकर वे वीर और वे स्त्रियाँ एक-दूसरे से विदा लेकर, आलिंगन करके, जैसे आए थे वैसे ही लौट गए।"
+          }
         },
         {
           "n": 12,
-          "text": "ततो विसर्जयामास लोकांस्तान्मुनिपुंगवः ।\nक्षणेनान्तर्हिताश्चैव प्रेक्षतामेव तेऽभवन् ॥"
+          "text": "ततो विसर्जयामास लोकांस्तान्मुनिपुंगवः ।\nक्षणेनान्तर्हिताश्चैव प्रेक्षतामेव तेऽभवन् ॥",
+          "meaning": {
+            "en": "Then the foremost of sages dismissed those worlds' dwellers, and in an instant they vanished even as the people watched.",
+            "hi": "तब मुनिपुंगव (व्यास) ने उन लोकों के निवासियों को विदा किया, और देखते-देखते वे क्षण भर में अंतर्धान हो गए।"
+          }
         },
         {
           "n": 13,
-          "text": "अवगाह्य महात्मानः पुण्यां त्रिपथगां नदीम् ।\nसरथाः सध्वजाश्चैव स्वानि स्थानानि भेजिरे ॥"
+          "text": "अवगाह्य महात्मानः पुण्यां त्रिपथगां नदीम् ।\nसरथाः सध्वजाश्चैव स्वानि स्थानानि भेजिरे ॥",
+          "meaning": {
+            "en": "Those great souls bathed in the holy river that flows in three paths, and with their chariots and banners went to their own places.",
+            "hi": "उन महात्माओं ने पवित्र त्रिपथगा नदी में स्नान करके, रथों और ध्वजों सहित, अपने-अपने स्थानों को प्रस्थान किया।"
+          }
         },
         {
           "n": 14,
-          "text": "देवलोकं ययुः केचित्केचिद्ब्रह्मसदस्तथा ।\nकेचिच्च वारुणं लोकं केचित्कौबेरमाप्नुवन् ॥"
+          "text": "देवलोकं ययुः केचित्केचिद्ब्रह्मसदस्तथा ।\nकेचिच्च वारुणं लोकं केचित्कौबेरमाप्नुवन् ॥",
+          "meaning": {
+            "en": "Some went to the world of the gods, some to Brahma's assembly, some reached the world of Varuna, and some that of Kubera.",
+            "hi": "कुछ देवलोक गए, कुछ ब्रह्मा की सभा में, कुछ वरुण के लोक को और कुछ कुबेर के लोक को प्राप्त हुए।"
+          }
         },
         {
           "n": 15,
-          "text": "तथा वैवस्वतं लोकं केचिच्चैवाप्नुवन्नृपाः ।\nराक्षसानां पिशाचानां केचिच्चाप्युत्तरान्कुरून् ॥"
+          "text": "तथा वैवस्वतं लोकं केचिच्चैवाप्नुवन्नृपाः ।\nराक्षसानां पिशाचानां केचिच्चाप्युत्तरान्कुरून् ॥",
+          "meaning": {
+            "en": "Some kings reached the world of Vivasvat's son, Yama; some went to the worlds of rakshasas and pishachas, and some to the northern Kurus.",
+            "hi": "इसी प्रकार कुछ राजा वैवस्वत यम के लोक को प्राप्त हुए; कुछ राक्षसों और पिशाचों के लोकों को, और कुछ उत्तर कुरुओं को प्राप्त हुए।"
+          }
         },
         {
           "n": 16,
-          "text": "विचित्रगतयः सर्वे या अवाप्यामरैः सह ।\nआजग्मुस्ते महात्मानः सवाहाः सपदानुगाः ॥"
+          "text": "विचित्रगतयः सर्वे या अवाप्यामरैः सह ।\nआजग्मुस्ते महात्मानः सवाहाः सपदानुगाः ॥",
+          "meaning": {
+            "en": "Those great souls, whose destinations were of every kind, went to the realms they had won together with the immortals, along with their mounts and their foot-followers.",
+            "hi": "विविध गति वाले वे सभी महात्मा, जो देवताओं के साथ प्राप्त लोकों में गए, अपने वाहनों और पैदल अनुचरों सहित गए।"
+          }
         },
         {
           "n": 17,
-          "text": "गतेषु तेषु सर्वेषु सलिलस्थो महामुनिः ।\nधर्मशीलो महातेजाः कुरूणां हितकृत्सदा ।\nततः प्रोवाच ताः सर्वाः क्षत्रिया निहतेश्वराः ॥"
+          "text": "गतेषु तेषु सर्वेषु सलिलस्थो महामुनिः ।\nधर्मशीलो महातेजाः कुरूणां हितकृत्सदा ।\nततः प्रोवाच ताः सर्वाः क्षत्रिया निहतेश्वराः ॥",
+          "meaning": {
+            "en": "When all of them had gone, the great sage standing in the water, devoted to dharma, of great splendor and ever a doer of good to the Kurus, spoke to all those kshatriya women whose lords had been slain.",
+            "hi": "उन सबके चले जाने पर जल में स्थित वह महामुनि, धर्मशील, महातेजस्वी और कुरुओं का सदा हित करने वाले, मारे गए पतियों वाली उन क्षत्रिय-स्त्रियों से बोले।"
+          }
         },
         {
           "n": 18,
-          "text": "या याः पतिकृताँल्लोकानिच्छन्ति परमस्त्रियः ।\nता जाह्नवीजलं क्षिप्रमवगाहन्त्वतन्द्रिताः ॥"
+          "text": "या याः पतिकृताँल्लोकानिच्छन्ति परमस्त्रियः ।\nता जाह्नवीजलं क्षिप्रमवगाहन्त्वतन्द्रिताः ॥",
+          "meaning": {
+            "en": "He said: Whichever of you, the best of women, wishes for the worlds her husband has won, let her quickly and without sloth enter the water of the Jahnavi.",
+            "hi": "उन्होंने कहा, “जो-जो श्रेष्ठ स्त्री पति द्वारा अर्जित लोकों की इच्छा करती हैं, वे आलस्य-रहित होकर शीघ्र जाह्नवी के जल में प्रवेश करें।”"
+          }
         },
         {
           "n": 19,
-          "text": "ततस्तस्य वचः श्रुत्वा श्रद्दधाना वराङ्गनाः ।\nश्वशुरं समनुज्ञाप्य विविशुर्जाह्नवीजलम् ॥"
+          "text": "ततस्तस्य वचः श्रुत्वा श्रद्दधाना वराङ्गनाः ।\nश्वशुरं समनुज्ञाप्य विविशुर्जाह्नवीजलम् ॥",
+          "meaning": {
+            "en": "Hearing his words, those excellent women, full of faith, took leave of their father-in-law and entered the water of the Jahnavi.",
+            "hi": "उनके वचन सुनकर श्रद्धावती श्रेष्ठ स्त्रियों ने श्वशुर से आज्ञा लेकर जाह्नवी के जल में प्रवेश किया।"
+          }
         },
         {
           "n": 20,
-          "text": "विमुक्ता मानुषैर्देहैस्ततस्ता भर्तृभिः सह ।\nसमाजग्मुस्तदा साध्व्यः सर्वा एव विशां पते ॥"
+          "text": "विमुक्ता मानुषैर्देहैस्ततस्ता भर्तृभिः सह ।\nसमाजग्मुस्तदा साध्व्यः सर्वा एव विशां पते ॥",
+          "meaning": {
+            "en": "Then, O lord of the people, those virtuous women, freed of their human bodies, joined their husbands.",
+            "hi": "हे प्रजानाथ, तब वे साध्वी स्त्रियाँ मानव शरीर त्यागकर अपने पतियों से जा मिलीं।"
+          }
         },
         {
           "n": 21,
-          "text": "एवं क्रमेण सर्वास्ताः शीलवत्यः कुलस्त्रियः ।\nप्रविश्य तोयं निर्मुक्ता जग्मुर्भर्तृसलोकताम् ॥"
+          "text": "एवं क्रमेण सर्वास्ताः शीलवत्यः कुलस्त्रियः ।\nप्रविश्य तोयं निर्मुक्ता जग्मुर्भर्तृसलोकताम् ॥",
+          "meaning": {
+            "en": "In this way, one after another, all those virtuous women of good families entered the water, were released, and went to share the world of their husbands.",
+            "hi": "इस प्रकार क्रम से सभी शीलवती कुलस्त्रियाँ जल में प्रवेश करके, शरीर-मुक्त होकर, अपने पतियों के लोक को गईं।"
+          }
         },
         {
           "n": 22,
-          "text": "दिव्यरूपसमायुक्ता दिव्याभरणभूषिताः ।\nदिव्यमाल्याम्बरधरा यथासां पतयस्तथा ॥"
+          "text": "दिव्यरूपसमायुक्ता दिव्याभरणभूषिताः ।\nदिव्यमाल्याम्बरधरा यथासां पतयस्तथा ॥",
+          "meaning": {
+            "en": "They were endowed with divine forms, adorned with divine ornaments, and wearing divine garlands and garments, just like their husbands.",
+            "hi": "वे दिव्य रूप से युक्त, दिव्य आभूषणों से सजी और दिव्य माला तथा वस्त्र धारण किए हुए थीं, ठीक अपने पतियों के समान।"
+          }
         },
         {
           "n": 23,
-          "text": "ताः शीलसत्त्वसंपन्ना वितमस्का गतक्लमाः ।\nसर्वाः सर्वगुणैर्युक्ताः स्वं स्वं स्थानं प्रपेदिरे ॥"
+          "text": "ताः शीलसत्त्वसंपन्ना वितमस्का गतक्लमाः ।\nसर्वाः सर्वगुणैर्युक्ताः स्वं स्वं स्थानं प्रपेदिरे ॥",
+          "meaning": {
+            "en": "Rich in good conduct and strength of spirit, free of darkness and weariness, and endowed with every virtue, they all reached their own places.",
+            "hi": "शील और सत्त्व से संपन्न, अंधकार-रहित और थकान से मुक्त, सब गुणों से युक्त होकर वे सब अपने-अपने स्थान को पहुँचीं।"
+          }
         },
         {
           "n": 24,
-          "text": "यस्य यस्य च यः कामस्तस्मिन्कालेऽभवत्तदा ।\nतं तं विसृष्टवान्व्यासो वरदो धर्मवत्सलः ॥"
+          "text": "यस्य यस्य च यः कामस्तस्मिन्कालेऽभवत्तदा ।\nतं तं विसृष्टवान्व्यासो वरदो धर्मवत्सलः ॥",
+          "meaning": {
+            "en": "Whatever desire each person had at that time, Vyasa, the giver of boons who loves dharma, granted to each of them.",
+            "hi": "जिसकी जो इच्छा उस समय थी, वही धर्मप्रिय वरदाता व्यास ने उस-उसको प्रदान किया।"
+          }
         },
         {
           "n": 25,
-          "text": "तच्छ्रुत्वा नरदेवानां पुनरागमनं नराः ।\nजहृषुर्मुदिताश्चासन्नन्यदेहगता अपि ॥"
+          "text": "तच्छ्रुत्वा नरदेवानां पुनरागमनं नराः ।\nजहृषुर्मुदिताश्चासन्नन्यदेहगता अपि ॥",
+          "meaning": {
+            "en": "Hearing of the return of those lords of men, people rejoiced and were glad, though they dwelt in other bodies.",
+            "hi": "नरदेवों के पुनः आगमन की बात सुनकर लोग प्रसन्न और आनंदित हुए, यद्यपि वे स्वयं अन्य देहों में गए हुए थे।"
+          }
         },
         {
           "n": 26,
-          "text": "प्रियैः समागमं तेषां य इमं शृणुयान्नरः ।\nप्रियाणि लभते नित्यमिह च प्रेत्य चैव ह ॥"
+          "text": "प्रियैः समागमं तेषां य इमं शृणुयान्नरः ।\nप्रियाणि लभते नित्यमिह च प्रेत्य चैव ह ॥",
+          "meaning": {
+            "en": "The man who hears of this meeting of those with their loved ones always gains what is dear, both here and after death.",
+            "hi": "जो मनुष्य प्रियजनों के इस समागम को सुनता है, वह इस लोक में और मरकर भी सदा प्रिय वस्तुएँ पाता है।"
+          }
         },
         {
           "n": 27,
-          "text": "इष्टबान्धवसंयोगमनायासमनामयम् ।\nय इमं श्रावयेद्विद्वान्संसिद्धिं प्राप्नुयात्पराम् ॥"
+          "text": "इष्टबान्धवसंयोगमनायासमनामयम् ।\nय इमं श्रावयेद्विद्वान्संसिद्धिं प्राप्नुयात्पराम् ॥",
+          "meaning": {
+            "en": "A learned man who recites this, which brings union with beloved kinsmen and is free of toil and sickness, attains the highest perfection.",
+            "hi": "जो विद्वान इसका पाठ करे, जो प्रिय बांधवों का संयोग देने वाला है और श्रम तथा रोग से रहित है, वह परम सिद्धि प्राप्त करता है।"
+          }
         },
         {
           "n": 28,
-          "text": "स्वाध्याययुक्ताः पुरुषाः क्रियायुक्ताश्च भारत ।\nअध्यात्मयोगयुक्ताश्च धृतिमन्तश्च मानवाः ।\nश्रुत्वा पर्व त्विदं नित्यमवाप्स्यन्ति परां गतिम् ॥"
+          "text": "स्वाध्याययुक्ताः पुरुषाः क्रियायुक्ताश्च भारत ।\nअध्यात्मयोगयुक्ताश्च धृतिमन्तश्च मानवाः ।\nश्रुत्वा पर्व त्विदं नित्यमवाप्स्यन्ति परां गतिम् ॥",
+          "meaning": {
+            "en": "O descendant of Bharata, men devoted to study of scripture, to ritual action, and to the discipline of the inner self, and steadfast, will always attain the highest goal by hearing this parva.",
+            "hi": "हे भारत, स्वाध्याय में लगे, क्रिया में लगे, अध्यात्म-योग में लगे और धैर्यवान मनुष्य, इस पर्व को सदा सुनकर परम गति प्राप्त करेंगे।"
+          }
         }
       ]
     }

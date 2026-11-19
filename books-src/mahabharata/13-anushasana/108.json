@@ -22,86 +22,170 @@
       "titleEn": "Anushasanika Parva (The instructions)",
       "verses": [
         {
-          "text": "युधिष्ठिर उवाच"
+          "text": "युधिष्ठिर उवाच",
+          "meaning": {
+            "en": "Yudhishthira said:",
+            "hi": "युधिष्ठिर बोले—"
+          }
         },
         {
           "n": 1,
-          "text": "यथा ज्येष्ठः कनिष्ठेषु वर्तते भरतर्षभ ।\nकनिष्ठाश्च यथा ज्येष्ठे वर्तेरंस्तद्ब्रवीहि मे ॥"
+          "text": "यथा ज्येष्ठः कनिष्ठेषु वर्तते भरतर्षभ ।\nकनिष्ठाश्च यथा ज्येष्ठे वर्तेरंस्तद्ब्रवीहि मे ॥",
+          "meaning": {
+            "en": "Best of Bharatas, tell me how an elder brother should behave toward the younger ones, and how the younger ones should behave toward the elder.",
+            "hi": "हे भरतर्षभ, बड़ा भाई छोटों के प्रति कैसे व्यवहार करे, और छोटे बड़े के प्रति कैसे व्यवहार करें—यह मुझे बताइए।"
+          }
         },
         {
-          "text": "भीष्म उवाच"
+          "text": "भीष्म उवाच",
+          "meaning": {
+            "en": "Bhishma said:",
+            "hi": "भीष्म बोले—"
+          }
         },
         {
           "n": 2,
-          "text": "ज्येष्ठवत्तात वर्तस्व ज्येष्ठो हि सततं भवान् ।\nगुरोर्गरीयसी वृत्तिर्या चेच्छिष्यस्य भारत ॥"
+          "text": "ज्येष्ठवत्तात वर्तस्व ज्येष्ठो हि सततं भवान् ।\nगुरोर्गरीयसी वृत्तिर्या चेच्छिष्यस्य भारत ॥",
+          "meaning": {
+            "en": "Dear one, behave as an elder, for you are always the eldest; the conduct of a pupil toward his teacher is of greater weight than the teacher's own.",
+            "hi": "हे तात, बड़े की भाँति आचरण करो, क्योंकि तुम सदा ज्येष्ठ हो। शिष्य का गुरु के प्रति जो आचरण है, वह (गुरु के अपने आचरण से भी) अधिक गौरवपूर्ण है।"
+          }
         },
         {
           "n": 3,
-          "text": "न गुरावकृतप्रज्ञे शक्यं शिष्येण वर्तितुम् ।\nगुरोर्हि दीर्घदर्शित्वं यत्तच्छिष्यस्य भारत ॥"
+          "text": "न गुरावकृतप्रज्ञे शक्यं शिष्येण वर्तितुम् ।\nगुरोर्हि दीर्घदर्शित्वं यत्तच्छिष्यस्य भारत ॥",
+          "meaning": {
+            "en": "A pupil cannot act properly toward a teacher who lacks understanding; for the far-sightedness of the teacher is what the pupil rests on.",
+            "hi": "अबुद्धिमान गुरु के प्रति शिष्य उचित आचरण नहीं कर सकता; क्योंकि गुरु की दूरदर्शिता ही वह आधार है जिस पर शिष्य टिका रहता है।"
+          }
         },
         {
           "n": 4,
-          "text": "अन्धः स्यादन्धवेलायां जडः स्यादपि वा बुधः ।\nपरिहारेण तद्ब्रूयाद्यस्तेषां स्याद्व्यतिक्रमः ॥"
+          "text": "अन्धः स्यादन्धवेलायां जडः स्यादपि वा बुधः ।\nपरिहारेण तद्ब्रूयाद्यस्तेषां स्याद्व्यतिक्रमः ॥",
+          "meaning": {
+            "en": "A man may be blind at the time of blindness, or dull, or wise; whatever fault arises among them he should speak of tactfully.",
+            "hi": "मनुष्य अंधत्व के समय अंधा हो सकता है, या जड़ अथवा बुद्धिमान; उनमें जो भी दोष उत्पन्न हो, उसे विनम्रता से (परिहार से) कहना चाहिए।"
+          }
         },
         {
           "n": 5,
-          "text": "प्रत्यक्षं भिन्नहृदया भेदयेयुः कृतं नराः ।\nश्रियाभितप्ताः कौन्तेय भेदकामास्तथारयः ॥"
+          "text": "प्रत्यक्षं भिन्नहृदया भेदयेयुः कृतं नराः ।\nश्रियाभितप्ताः कौन्तेय भेदकामास्तथारयः ॥",
+          "meaning": {
+            "en": "Men with divided hearts, tormented by prosperity, desiring discord, and enemies as well, may openly split what has been built, son of Kunti.",
+            "hi": "भिन्न-हृदय वाले मनुष्य, श्री से संतप्त होकर और भेद की कामना रखने वाले, तथा शत्रु भी, खुलेआम बने हुए (कुल) को विभाजित कर सकते हैं, हे कौन्तेय।"
+          }
         },
         {
           "n": 6,
-          "text": "ज्येष्ठः कुलं वर्धयति विनाशयति वा पुनः ।\nहन्ति सर्वमपि ज्येष्ठः कुलं यत्रावजायते ॥"
+          "text": "ज्येष्ठः कुलं वर्धयति विनाशयति वा पुनः ।\nहन्ति सर्वमपि ज्येष्ठः कुलं यत्रावजायते ॥",
+          "meaning": {
+            "en": "An elder makes a family grow or ruins it again; where an elder is born badly, he destroys the whole family.",
+            "hi": "बड़ा भाई कुल को बढ़ाता है या फिर नष्ट कर देता है; जहाँ बुरा ज्येष्ठ उत्पन्न होता है, वह पूरे कुल का नाश कर देता है।"
+          }
         },
         {
           "n": 7,
-          "text": "अथ यो विनिकुर्वीत ज्येष्ठो भ्राता यवीयसः ।\nअज्येष्ठः स्यादभागश्च नियम्यो राजभिश्च सः ॥"
+          "text": "अथ यो विनिकुर्वीत ज्येष्ठो भ्राता यवीयसः ।\nअज्येष्ठः स्यादभागश्च नियम्यो राजभिश्च सः ॥",
+          "meaning": {
+            "en": "But an elder brother who cheats his younger brothers ceases to be the eldest, loses his share, and is to be restrained by kings.",
+            "hi": "परंतु जो बड़ा भाई छोटे भाइयों को ठगता है, वह ज्येष्ठ नहीं रहता, अपने भाग से वंचित हो जाता है, और राजाओं द्वारा नियंत्रित किए जाने योग्य होता है।"
+          }
         },
         {
           "n": 8,
-          "text": "निकृती हि नरो लोकान्पापान्गच्छत्यसंशयम् ।\nविदुलस्येव तत्पुष्पं मोघं जनयितुः स्मृतम् ॥"
+          "text": "निकृती हि नरो लोकान्पापान्गच्छत्यसंशयम् ।\nविदुलस्येव तत्पुष्पं मोघं जनयितुः स्मृतम् ॥",
+          "meaning": {
+            "en": "A deceitful man surely goes to sinful worlds; his flower is held to be as fruitless for his begetter as the flower of the vidula reed.",
+            "hi": "छली मनुष्य निःसंदेह पापी लोकों को जाता है; उसका फूल (फल) अपने जनक के लिए वैसा ही निष्फल माना गया है जैसे विदुल (बेंत) का फूल।"
+          }
         },
         {
           "n": 9,
-          "text": "सर्वानर्थः कुले यत्र जायते पापपूरुषः ।\nअकीर्तिं जनयत्येव कीर्तिमन्तर्दधाति च ॥"
+          "text": "सर्वानर्थः कुले यत्र जायते पापपूरुषः ।\nअकीर्तिं जनयत्येव कीर्तिमन्तर्दधाति च ॥",
+          "meaning": {
+            "en": "In a family where a sinful man who brings every misfortune is born, he brings only infamy and hides away fame.",
+            "hi": "जिस कुल में सर्वानर्थ करने वाला पापी पुरुष उत्पन्न होता है, वह केवल अपयश उत्पन्न करता है और कीर्ति को छिपा देता है।"
+          }
         },
         {
           "n": 10,
-          "text": "सर्वे चापि विकर्मस्था भागं नार्हन्ति सोदराः ।\nनाप्रदाय कनिष्ठेभ्यो ज्येष्ठः कुर्वीत यौतकम् ॥"
+          "text": "सर्वे चापि विकर्मस्था भागं नार्हन्ति सोदराः ।\nनाप्रदाय कनिष्ठेभ्यो ज्येष्ठः कुर्वीत यौतकम् ॥",
+          "meaning": {
+            "en": "All brothers of the same womb who follow wrong ways do not deserve a share; nor should the eldest make a private acquisition without giving to the younger ones.",
+            "hi": "जो सहोदर भाई विकर्म (गलत मार्ग) में स्थित हैं, वे भी भाग के अधिकारी नहीं; और छोटों को दिए बिना बड़ा अपने लिए धन (यौतक) न बनाए।"
+          }
         },
         {
           "n": 11,
-          "text": "अनुजं हि पितुर्दायो जङ्घाश्रमफलोऽध्वगः ।\nस्वयमीहितलब्धं तु नाकामो दातुमर्हति ॥"
+          "text": "अनुजं हि पितुर्दायो जङ्घाश्रमफलोऽध्वगः ।\nस्वयमीहितलब्धं तु नाकामो दातुमर्हति ॥",
+          "meaning": {
+            "en": "The father's inheritance to a younger son is like the reward for a traveller's weary legs; but what one has earned by one's own effort one need not give against one's will.",
+            "hi": "छोटे भाई को पिता से जो दाय (हिस्सा) मिलता है, वह मार्ग के थके पथिक के पैरों के श्रम का फल है। परंतु जो स्वयं परिश्रम से प्राप्त हुआ हो, उसे अनिच्छुक व्यक्ति को देना आवश्यक नहीं।"
+          }
         },
         {
           "n": 12,
-          "text": "भ्रातॄणामविभक्तानामुत्थानमपि चेत्सह ।\nन पुत्रभागं विषमं पिता दद्यात्कथंचन ॥"
+          "text": "भ्रातॄणामविभक्तानामुत्थानमपि चेत्सह ।\nन पुत्रभागं विषमं पिता दद्यात्कथंचन ॥",
+          "meaning": {
+            "en": "Even if undivided brothers rise together, a father should never give an unequal share to his sons.",
+            "hi": "यदि अविभक्त भाई एक साथ परिश्रम करें, तो भी पिता पुत्रों के भाग को कभी असमान रूप से न बाँटे।"
+          }
         },
         {
           "n": 13,
-          "text": "न ज्येष्ठानवमन्येत दुष्कृतः सुकृतोऽपि वा ।\nयदि स्त्री यद्यवरजः श्रेयः पश्येत्तथाचरेत् ।\nधर्मं हि श्रेय इत्याहुरिति धर्मविदो विदुः ॥"
+          "text": "न ज्येष्ठानवमन्येत दुष्कृतः सुकृतोऽपि वा ।\nयदि स्त्री यद्यवरजः श्रेयः पश्येत्तथाचरेत् ।\nधर्मं हि श्रेय इत्याहुरिति धर्मविदो विदुः ॥",
+          "meaning": {
+            "en": "One should not slight elders, whether they are wrongdoers or doers of good; whether it is a woman or a younger brother, one should act as one sees what is better, for the knowers of dharma say dharma is the better.",
+            "hi": "बड़ों का अपमान न करे, चाहे वे दुष्कर्मी हों या सुकर्मी; चाहे स्त्री हो या छोटा भाई, जो श्रेय देखे वैसा आचरण करे, क्योंकि धर्मज्ञ लोग कहते हैं कि धर्म ही श्रेय है।"
+          }
         },
         {
           "n": 14,
-          "text": "दशाचार्यानुपाध्याय उपाध्यायान्पिता दश ।\nदश चैव पितॄन्माता सर्वां वा पृथिवीमपि ॥"
+          "text": "दशाचार्यानुपाध्याय उपाध्यायान्पिता दश ।\nदश चैव पितॄन्माता सर्वां वा पृथिवीमपि ॥",
+          "meaning": {
+            "en": "A teacher is worth ten instructors, a father ten teachers, a mother ten fathers, or even the whole earth.",
+            "hi": "आचार्य दस उपाध्यायों के समान है, पिता दस आचार्यों के समान, माता दस पिताओं के समान, या सारी पृथ्वी के समान।"
+          }
         },
         {
           "n": 15,
-          "text": "गौरवेणाभिभवति नास्ति मातृसमो गुरुः ।\nमाता गरीयसी यच्च तेनैतां मन्यते जनः ॥"
+          "text": "गौरवेणाभिभवति नास्ति मातृसमो गुरुः ।\nमाता गरीयसी यच्च तेनैतां मन्यते जनः ॥",
+          "meaning": {
+            "en": "She surpasses them in weight; there is no guru equal to a mother, and so people regard her as the heaviest.",
+            "hi": "गौरव में वह (माता) सबको पार कर जाती है; माता के समान कोई गुरु नहीं है, और इसीलिए लोग उसे सबसे भारी मानते हैं।"
+          }
         },
         {
           "n": 16,
-          "text": "ज्येष्ठो भ्राता पितृसमो मृते पितरि भारत ।\nस ह्येषां वृत्तिदाता स्यात्स चैतान्परिपालयेत् ॥"
+          "text": "ज्येष्ठो भ्राता पितृसमो मृते पितरि भारत ।\nस ह्येषां वृत्तिदाता स्यात्स चैतान्परिपालयेत् ॥",
+          "meaning": {
+            "en": "When the father is dead, the elder brother is like a father, Bharata; he should be the provider for the rest and should look after them.",
+            "hi": "हे भारत, पिता की मृत्यु के बाद ज्येष्ठ भ्राता पिता के समान होता है; वही उनका वृत्ति-दाता होना चाहिए और वही उनका पालन करे।"
+          }
         },
         {
           "n": 17,
-          "text": "कनिष्ठास्तं नमस्येरन्सर्वे छन्दानुवर्तिनः ।\nतमेव चोपजीवेरन्यथैव पितरं तथा ॥"
+          "text": "कनिष्ठास्तं नमस्येरन्सर्वे छन्दानुवर्तिनः ।\nतमेव चोपजीवेरन्यथैव पितरं तथा ॥",
+          "meaning": {
+            "en": "The younger ones should all bow to him, following his wishes, and live by him as they lived by their father.",
+            "hi": "सभी छोटे उसे नमस्कार करें और उसकी इच्छा का अनुसरण करें, और उसी पर वैसे ही आश्रित रहें जैसे पिता पर।"
+          }
         },
         {
           "n": 18,
-          "text": "शरीरमेतौ सृजतः पिता माता च भारत ।\nआचार्यशास्ता या जातिः सा सत्या साजरामरा ॥"
+          "text": "शरीरमेतौ सृजतः पिता माता च भारत ।\nआचार्यशास्ता या जातिः सा सत्या साजरामरा ॥",
+          "meaning": {
+            "en": "Father and mother create the body, Bharata; but the birth given by the teacher and instructor is true, ageless and deathless.",
+            "hi": "हे भारत, पिता और माता शरीर उत्पन्न करते हैं; परंतु आचार्य और शास्ता द्वारा दिया गया जन्म सत्य है, अजर और अमर है।"
+          }
         },
         {
           "n": 19,
-          "text": "ज्येष्ठा मातृसमा चापि भगिनी भरतर्षभ ।\nभ्रातुर्भार्या च तद्वत्स्याद्यस्या बाल्ये स्तनं पिबेत् ॥"
+          "text": "ज्येष्ठा मातृसमा चापि भगिनी भरतर्षभ ।\nभ्रातुर्भार्या च तद्वत्स्याद्यस्या बाल्ये स्तनं पिबेत् ॥",
+          "meaning": {
+            "en": "An elder sister is like a mother, best of Bharatas, and so is an elder brother's wife, whose breast one drank in childhood.",
+            "hi": "हे भरतर्षभ, ज्येष्ठ बहन माता के समान है, और वैसे ही बड़े भाई की पत्नी भी, जिसका स्तन बाल्यावस्था में (मनुष्य ने) पिया हो।"
+          }
         }
       ]
     }

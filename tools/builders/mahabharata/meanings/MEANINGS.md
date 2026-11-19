@@ -16,11 +16,15 @@ Sidecars go in your own folder in the scratchpad (given in your brief), never in
   Yudhishthira, inner narrators); name people rather than "he" where the shloka's epithet would confuse
   ("the son of Pritha, Arjuna"); keep lists and numbers exact; one or two sentences per shloka.
 - No Devanagari in English. Plain spelling without diacritics (Yudhishthira, Krishna, Dhritarashtra).
+- Vocatives addressed to the listener (कौन्तेय, भारत, राजन्, तात) are not the subject: write "O son of Kunti"
+  at the start or end, never beside a noun as if describing it ("the mother, Kunti's son, gave" is wrong).
 
 ## Hindi (Haiku), lang `hi`
 - Translate the English meaning into natural, simple modern Hindi, reading the Sanskrit alongside so names,
   epithets and terms are right (देवव्रत, कुन्तीपुत्र, धर्म, क्षत्रिय …). Keep the same sense and length; add
   nothing, leave nothing out. Devanagari only (no Latin letters). Use `show <part> <unit> --en`.
+- An address to the listener ("O son of Kunti", "Bharata", "king") stays an address: "हे कुन्तीपुत्र, …".
+  Never make it the doer with ने ("माता कुन्तीपुत्र ने" is wrong).
 
 ## After your chunk
 Run `python3 -I tools/builders/mahabharata/meanings/mbm.py status` (the coordinator runs the full build).

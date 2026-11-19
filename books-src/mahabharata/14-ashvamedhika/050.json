@@ -22,226 +22,454 @@
       "titleEn": "Anugita Parva",
       "verses": [
         {
-          "text": "ब्रह्मोवाच"
+          "text": "ब्रह्मोवाच",
+          "meaning": {
+            "en": "Brahma said:",
+            "hi": "ब्रह्मा बोले—"
+          }
         },
         {
           "n": 1,
-          "text": "भूतानामथ पञ्चानां यथैषामीश्वरं मनः ।\nनियमे च विसर्गे च भूतात्मा मन एव च ॥"
+          "text": "भूतानामथ पञ्चानां यथैषामीश्वरं मनः ।\nनियमे च विसर्गे च भूतात्मा मन एव च ॥",
+          "meaning": {
+            "en": "\"Over the five elements, the mind is their lord in restraining and releasing; the mind alone is the self of the elements.\"",
+            "hi": "पाँच भूतों के ऊपर मन ही उनका ईश्वर है—नियमन और विसर्जन में; मन ही भूतात्मा है।"
+          }
         },
         {
           "n": 2,
-          "text": "अधिष्ठाता मनो नित्यं भूतानां महतां तथा ।\nबुद्धिरैश्वर्यमाचष्टे क्षेत्रज्ञः सर्व उच्यते ॥"
+          "text": "अधिष्ठाता मनो नित्यं भूतानां महतां तथा ।\nबुद्धिरैश्वर्यमाचष्टे क्षेत्रज्ञः सर्व उच्यते ॥",
+          "meaning": {
+            "en": "\"The mind is always the presiding power over the great elements; intellect is said to be sovereignty, and the knower of the field is called everything.\"",
+            "hi": "मन सदा महान भूतों का अधिष्ठाता है; बुद्धि ऐश्वर्य कही जाती है, और क्षेत्रज्ञ को सर्व कहा जाता है।"
+          }
         },
         {
           "n": 3,
-          "text": "इन्द्रियाणि मनो युङ्क्ते सदश्वानिव सारथिः ।\nइन्द्रियाणि मनो बुद्धिं क्षेत्रज्ञो युञ्जते सदा ॥"
+          "text": "इन्द्रियाणि मनो युङ्क्ते सदश्वानिव सारथिः ।\nइन्द्रियाणि मनो बुद्धिं क्षेत्रज्ञो युञ्जते सदा ॥",
+          "meaning": {
+            "en": "\"The mind yokes the senses as a charioteer yokes good horses; and the knower of the field always yokes the senses, the mind, and the intellect.\"",
+            "hi": "मन इन्द्रियों को वैसे ही नियुक्त करता है जैसे सारथी उत्तम घोड़ों को जोतता है; और क्षेत्रज्ञ सदा इन्द्रियों, मन और बुद्धि को नियुक्त करता है।"
+          }
         },
         {
           "n": 4,
-          "text": "महाभूतसमायुक्तं बुद्धिसंयमनं रथम् ।\nतमारुह्य स भूतात्मा समन्तात्परिधावति ॥"
+          "text": "महाभूतसमायुक्तं बुद्धिसंयमनं रथम् ।\nतमारुह्य स भूतात्मा समन्तात्परिधावति ॥",
+          "meaning": {
+            "en": "\"The chariot is joined with the great elements and has the intellect as its reins; mounting it, the self of the elements runs about in every direction.\"",
+            "hi": "महाभूतों से जुड़ा, जिसकी लगाम बुद्धि है, ऐसे रथ पर चढ़कर भूतात्मा सब ओर दौड़ता है।"
+          }
         },
         {
           "n": 5,
-          "text": "इन्द्रियग्रामसंयुक्तो मनःसारथिरेव च ।\nबुद्धिसंयमनो नित्यं महान्ब्रह्ममयो रथः ॥"
+          "text": "इन्द्रियग्रामसंयुक्तो मनःसारथिरेव च ।\nबुद्धिसंयमनो नित्यं महान्ब्रह्ममयो रथः ॥",
+          "meaning": {
+            "en": "\"Joined to the group of the senses, with the mind as charioteer and the intellect as reins, the great chariot made of Brahman is ever so.\"",
+            "hi": "इन्द्रिय-समूह से युक्त, मन जिसका सारथी है और बुद्धि जिसकी लगाम है, ऐसा ब्रह्ममय महान रथ सदा ऐसा ही है।"
+          }
         },
         {
           "n": 6,
-          "text": "एवं यो वेत्ति विद्वान्वै सदा ब्रह्ममयं रथम् ।\nस धीरः सर्वलोकेषु न मोहमधिगच्छति ॥"
+          "text": "एवं यो वेत्ति विद्वान्वै सदा ब्रह्ममयं रथम् ।\nस धीरः सर्वलोकेषु न मोहमधिगच्छति ॥",
+          "meaning": {
+            "en": "\"The wise man who always knows the chariot made of Brahman in this way is steadfast and is not deluded in any world.\"",
+            "hi": "जो विद्वान इस प्रकार सदा ब्रह्ममय रथ को जानता है, वह धीर है और किसी भी लोक में मोह को प्राप्त नहीं होता।"
+          }
         },
         {
           "n": 7,
-          "text": "अव्यक्तादि विशेषान्तं त्रसस्थावरसंकुलम् ।\nचन्द्रसूर्यप्रभालोकं ग्रहनक्षत्रमण्डितम् ॥"
+          "text": "अव्यक्तादि विशेषान्तं त्रसस्थावरसंकुलम् ।\nचन्द्रसूर्यप्रभालोकं ग्रहनक्षत्रमण्डितम् ॥",
+          "meaning": {
+            "en": "\"From the Unmanifest to the particulars, crowded with moving and unmoving beings, lit by the radiance of moon and sun, adorned with planets and stars,\"",
+            "hi": "अव्यक्त से लेकर विशेष पदार्थों तक, जो त्रस-स्थावर प्राणियों से भरा है, चन्द्र और सूर्य की प्रभा से प्रकाशित, ग्रहों और नक्षत्रों से सुशोभित,"
+          }
         },
         {
           "n": 8,
-          "text": "नदीपर्वतजालैश्च सर्वतः परिभूषितम् ।\nविविधाभिस्तथाद्भिश्च सततं समलंकृतम् ॥"
+          "text": "नदीपर्वतजालैश्च सर्वतः परिभूषितम् ।\nविविधाभिस्तथाद्भिश्च सततं समलंकृतम् ॥",
+          "meaning": {
+            "en": "\"decorated on every side with nets of rivers and mountains, and always embellished with waters of many kinds,\"",
+            "hi": "नदियों और पर्वतों के जाल से सब ओर विभूषित, और विविध जलों से सदा अलंकृत—"
+          }
         },
         {
           "n": 9,
-          "text": "आजीवः सर्वभूतानां सर्वप्राणभृतां गतिः ।\nएतद्ब्रह्मवनं नित्यं यस्मिंश्चरति क्षेत्रवित् ॥"
+          "text": "आजीवः सर्वभूतानां सर्वप्राणभृतां गतिः ।\nएतद्ब्रह्मवनं नित्यं यस्मिंश्चरति क्षेत्रवित् ॥",
+          "meaning": {
+            "en": "\"the livelihood of all beings and the refuge of all who breathe: this is the eternal forest of Brahman, in which the knower of the field roams.\"",
+            "hi": "जो सब प्राणियों की जीविका और सभी प्राणधारियों की गति है—यही नित्य ब्रह्म-वन है, जिसमें क्षेत्रज्ञ विचरता है।"
+          }
         },
         {
           "n": 10,
-          "text": "लोकेऽस्मिन्यानि भूतानि स्थावराणि चराणि च ।\nतान्येवाग्रे प्रलीयन्ते पश्चाद्भूतकृता गुणाः ।\nगुणेभ्यः पञ्चभूतानि एष भूतसमुच्छ्रयः ॥"
+          "text": "लोकेऽस्मिन्यानि भूतानि स्थावराणि चराणि च ।\nतान्येवाग्रे प्रलीयन्ते पश्चाद्भूतकृता गुणाः ।\nगुणेभ्यः पञ्चभूतानि एष भूतसमुच्छ्रयः ॥",
+          "meaning": {
+            "en": "\"Whatever beings, unmoving and moving, there are in this world dissolve first; afterwards the qualities that make the elements dissolve. From the qualities come the five elements; this is the growth of beings.\"",
+            "hi": "इस लोक में जो भी स्थावर और जंगम प्राणी हैं, वे पहले लीन होते हैं; फिर भूतों के बनाए गुण; गुणों से पाँच महाभूत; यही भूतों का विस्तार है।"
+          }
         },
         {
           "n": 11,
-          "text": "देवा मनुष्या गन्धर्वाः पिशाचासुरराक्षसाः ।\nसर्वे स्वभावतः सृष्टा न क्रियाभ्यो न कारणात् ॥"
+          "text": "देवा मनुष्या गन्धर्वाः पिशाचासुरराक्षसाः ।\nसर्वे स्वभावतः सृष्टा न क्रियाभ्यो न कारणात् ॥",
+          "meaning": {
+            "en": "\"Gods, men, gandharvas, pishachas, asuras, and rakshasas were all created by their own nature, not by actions or by cause.\"",
+            "hi": "देवता, मनुष्य, गन्धर्व, पिशाच, असुर और राक्षस—ये सब अपने स्वभाव से ही उत्पन्न हुए हैं, न क्रिया से और न किसी कारण से।"
+          }
         },
         {
           "n": 12,
-          "text": "एते विश्वकृतो विप्रा जायन्ते ह पुनः पुनः ।\nतेभ्यः प्रसूतास्तेष्वेव महाभूतेषु पञ्चसु ।\nप्रलीयन्ते यथाकालमूर्मयः सागरे यथा ॥"
+          "text": "एते विश्वकृतो विप्रा जायन्ते ह पुनः पुनः ।\nतेभ्यः प्रसूतास्तेष्वेव महाभूतेषु पञ्चसु ।\nप्रलीयन्ते यथाकालमूर्मयः सागरे यथा ॥",
+          "meaning": {
+            "en": "\"Brahmins, these makers of the universe are born again and again; and those born from them dissolve in due time into those same five great elements, as waves into the sea.\"",
+            "hi": "हे विप्रो, ये विश्व के रचयिता बार-बार उत्पन्न होते हैं; उनसे उत्पन्न होकर वे उन्हीं पाँच महाभूतों में यथासमय लीन हो जाते हैं, जैसे सागर में लहरें।"
+          }
         },
         {
           "n": 13,
-          "text": "विश्वसृग्भ्यस्तु भूतेभ्यो महाभूतानि गच्छति ।\nभूतेभ्यश्चापि पञ्चभ्यो मुक्तो गच्छेत्प्रजापतिम् ॥"
+          "text": "विश्वसृग्भ्यस्तु भूतेभ्यो महाभूतानि गच्छति ।\nभूतेभ्यश्चापि पञ्चभ्यो मुक्तो गच्छेत्प्रजापतिम् ॥",
+          "meaning": {
+            "en": "\"From the beings who create the universe the great elements come forth; and one liberated from the five elements goes to Prajapati.\"",
+            "hi": "विश्व-सर्जक भूतों से महाभूत प्रकट होते हैं; और पाँच भूतों से मुक्त होकर (जीव) प्रजापति को प्राप्त होता है।"
+          }
         },
         {
           "n": 14,
-          "text": "प्रजापतिरिदं सर्वं तपसैवासृजत्प्रभुः ।\nतथैव वेदानृषयस्तपसा प्रतिपेदिरे ॥"
+          "text": "प्रजापतिरिदं सर्वं तपसैवासृजत्प्रभुः ।\nतथैव वेदानृषयस्तपसा प्रतिपेदिरे ॥",
+          "meaning": {
+            "en": "\"Prajapati, the lord, created all this through austerity alone; in the same way the sages obtained the Vedas through austerity.\"",
+            "hi": "प्रजापति प्रभु ने यह सब केवल तप से रचा; इसी प्रकार ऋषियों ने तप से वेदों को प्राप्त किया।"
+          }
         },
         {
           "n": 15,
-          "text": "तपसश्चानुपूर्व्येण फलमूलाशिनस्तथा ।\nत्रैलोक्यं तपसा सिद्धाः पश्यन्तीह समाहिताः ॥"
+          "text": "तपसश्चानुपूर्व्येण फलमूलाशिनस्तथा ।\nत्रैलोक्यं तपसा सिद्धाः पश्यन्तीह समाहिताः ॥",
+          "meaning": {
+            "en": "\"By austerity in due order, and by those living on fruits and roots, the perfected ones, composed, see the three worlds through austerity here.\"",
+            "hi": "क्रमशः तप से, और फल-मूल खाने वालों से, सिद्ध लोग समाहित होकर तप के द्वारा इस लोक में तीनों लोकों को देखते हैं।"
+          }
         },
         {
           "n": 16,
-          "text": "ओषधान्यगदादीनी नानाविद्याश्च सर्वशः ।\nतपसैव प्रसिध्यन्ति तपोमूलं हि साधनम् ॥"
+          "text": "ओषधान्यगदादीनी नानाविद्याश्च सर्वशः ।\nतपसैव प्रसिध्यन्ति तपोमूलं हि साधनम् ॥",
+          "meaning": {
+            "en": "\"Medicines, cures, and the various kinds of knowledge are all accomplished by austerity alone; for austerity is the root of every accomplishment.\"",
+            "hi": "औषधियाँ, रोग-निवारक और नाना प्रकार की विद्याएँ—सब तप से ही सिद्ध होती हैं; क्योंकि तप ही सब साधनों का मूल है।"
+          }
         },
         {
           "n": 17,
-          "text": "यद्दुरापं दुराम्नायं दुराधर्षं दुरन्वयम् ।\nतत्सर्वं तपसा साध्यं तपो हि दुरतिक्रमम् ॥"
+          "text": "यद्दुरापं दुराम्नायं दुराधर्षं दुरन्वयम् ।\nतत्सर्वं तपसा साध्यं तपो हि दुरतिक्रमम् ॥",
+          "meaning": {
+            "en": "\"Whatever is hard to obtain, hard to learn, hard to assail, or hard to follow, all of that can be achieved by austerity, for austerity is impossible to overcome.\"",
+            "hi": "जो दुर्लभ है, जो कठिनाई से सीखा जाता है, जिस पर आक्रमण कठिन है या जिसका अनुसरण कठिन है—वह सब तप से साध्य है, क्योंकि तप का अतिक्रमण कठिन है।"
+          }
         },
         {
           "n": 18,
-          "text": "सुरापो ब्रह्महा स्तेयी भ्रूणहा गुरुतल्पगः ।\nतपसैव सुतप्तेन मुच्यन्ते किल्बिषात्ततः ॥"
+          "text": "सुरापो ब्रह्महा स्तेयी भ्रूणहा गुरुतल्पगः ।\nतपसैव सुतप्तेन मुच्यन्ते किल्बिषात्ततः ॥",
+          "meaning": {
+            "en": "\"A drinker of liquor, a slayer of a Brahmin, a thief, a killer of an embryo, and one who defiles his teacher's bed are freed from that sin by well-performed austerity alone.\"",
+            "hi": "सुरापान करने वाला, ब्रह्महत्यारा, चोर, भ्रूण-हत्यारा, और गुरु-शय्या को दूषित करने वाला—ये सब भलीभाँति किए गए तप से ही पाप से मुक्त होते हैं।"
+          }
         },
         {
           "n": 19,
-          "text": "मनुष्याः पितरो देवाः पशवो मृगपक्षिणः ।\nयानि चान्यानि भूतानि त्रसानि स्थावराणि च ॥"
+          "text": "मनुष्याः पितरो देवाः पशवो मृगपक्षिणः ।\nयानि चान्यानि भूतानि त्रसानि स्थावराणि च ॥",
+          "meaning": {
+            "en": "\"Humans, ancestors, gods, domestic animals, wild animals and birds, and whatever other beings there are, moving and unmoving,\"",
+            "hi": "मनुष्य, पितर, देवता, पशु, मृग और पक्षी, तथा जो अन्य भूत हैं—त्रस और स्थावर।"
+          }
         },
         {
           "n": 20,
-          "text": "तपःपरायणा नित्यं सिध्यन्ते तपसा सदा ।\nतथैव तपसा देवा महाभागा दिवं गताः ॥"
+          "text": "तपःपरायणा नित्यं सिध्यन्ते तपसा सदा ।\nतथैव तपसा देवा महाभागा दिवं गताः ॥",
+          "meaning": {
+            "en": "\"who are always devoted to austerity attain perfection through austerity; and likewise the greatly blessed gods went to heaven through austerity.\"",
+            "hi": "जो सदा तप में लगे रहते हैं, वे सदा तप से सिद्धि पाते हैं; उसी प्रकार तप से महाभाग देवता भी स्वर्ग को गए।"
+          }
         },
         {
           "n": 21,
-          "text": "आशीर्युक्तानि कर्माणि कुर्वते ये त्वतन्द्रिताः ।\nअहंकारसमायुक्तास्ते सकाशे प्रजापतेः ॥"
+          "text": "आशीर्युक्तानि कर्माणि कुर्वते ये त्वतन्द्रिताः ।\nअहंकारसमायुक्तास्ते सकाशे प्रजापतेः ॥",
+          "meaning": {
+            "en": "\"Those who tirelessly perform acts joined with desires and with egoism are in the presence of Prajapati.\"",
+            "hi": "जो आलस्य-रहित होकर कामना और अहंकार से युक्त कर्म करते हैं, वे प्रजापति के सान्निध्य में (पहुँचते) हैं।"
+          }
         },
         {
           "n": 22,
-          "text": "ध्यानयोगेन शुद्धेन निर्ममा निरहंकृताः ।\nप्राप्नुवन्ति महात्मानो महान्तं लोकमुत्तमम् ॥"
+          "text": "ध्यानयोगेन शुद्धेन निर्ममा निरहंकृताः ।\nप्राप्नुवन्ति महात्मानो महान्तं लोकमुत्तमम् ॥",
+          "meaning": {
+            "en": "\"Through pure meditation and yoga, free of possessiveness and egoism, great souls reach the great and highest world.\"",
+            "hi": "शुद्ध ध्यान-योग से, ममत्व और अहंकार से रहित होकर, महात्मा लोग महान और उत्तम लोक को प्राप्त करते हैं।"
+          }
         },
         {
           "n": 23,
-          "text": "ध्यानयोगादुपागम्य प्रसन्नमतयः सदा ।\nसुखोपचयमव्यक्तं प्रविशन्त्यात्मवत्तया ॥"
+          "text": "ध्यानयोगादुपागम्य प्रसन्नमतयः सदा ।\nसुखोपचयमव्यक्तं प्रविशन्त्यात्मवत्तया ॥",
+          "meaning": {
+            "en": "\"Reaching it through meditation and yoga, always serene in mind, they enter, by having the Self, the Unmanifest, the heap of happiness.\"",
+            "hi": "ध्यान-योग से पहुँचकर, सदा प्रसन्न-मति होकर, आत्मवत्ता से वे अव्यक्त सुख-समूह में प्रवेश करते हैं।"
+          }
         },
         {
           "n": 24,
-          "text": "ध्यानयोगादुपागम्य निर्ममा निरहंकृताः ।\nअव्यक्तं प्रविशन्तीह महान्तं लोकमुत्तमम् ॥"
+          "text": "ध्यानयोगादुपागम्य निर्ममा निरहंकृताः ।\nअव्यक्तं प्रविशन्तीह महान्तं लोकमुत्तमम् ॥",
+          "meaning": {
+            "en": "\"Reaching it through meditation and yoga, free of possessiveness and egoism, they enter here the Unmanifest, the great and highest world.\"",
+            "hi": "ध्यान-योग से पहुँचकर, ममत्व और अहंकार से रहित होकर, वे यहाँ अव्यक्त, महान और उत्तम लोक में प्रवेश करते हैं।"
+          }
         },
         {
           "n": 25,
-          "text": "अव्यक्तादेव संभूतः समयज्ञो गतः पुनः ।\nतमोरजोभ्यां निर्मुक्तः सत्त्वमास्थाय केवलम् ॥"
+          "text": "अव्यक्तादेव संभूतः समयज्ञो गतः पुनः ।\nतमोरजोभ्यां निर्मुक्तः सत्त्वमास्थाय केवलम् ॥",
+          "meaning": {
+            "en": "\"Born from the Unmanifest alone, the one who knew the covenant went back again, freed from tamas and rajas, resting in sattva alone.\"",
+            "hi": "अव्यक्त से ही उत्पन्न, समय-धर्म को जानने वाला (जीव) फिर लौट जाता है; तम और रज से मुक्त होकर, केवल सत्त्व में स्थित होकर।"
+          }
         },
         {
           "n": 26,
-          "text": "विमुक्तः सर्वपापेभ्यः सर्वं त्यजति निष्कलः ।\nक्षेत्रज्ञ इति तं विद्याद्यस्तं वेद स वेदवित् ॥"
+          "text": "विमुक्तः सर्वपापेभ्यः सर्वं त्यजति निष्कलः ।\nक्षेत्रज्ञ इति तं विद्याद्यस्तं वेद स वेदवित् ॥",
+          "meaning": {
+            "en": "\"Freed from all sins, partless, he gives up everything. Know him as the knower of the field; whoever knows him knows the Veda.\"",
+            "hi": "सब पापों से मुक्त, निष्कल (अंश-रहित) होकर वह सब कुछ त्याग देता है; उसे क्षेत्रज्ञ जानो; जो उसे जानता है, वह वेद को जानने वाला है।"
+          }
         },
         {
           "n": 27,
-          "text": "चित्तं चित्तादुपागम्य मुनिरासीत संयतः ।\nयच्चित्तस्तन्मना भूत्वा गुह्यमेतत्सनातनम् ॥"
+          "text": "चित्तं चित्तादुपागम्य मुनिरासीत संयतः ।\nयच्चित्तस्तन्मना भूत्वा गुह्यमेतत्सनातनम् ॥",
+          "meaning": {
+            "en": "\"Having approached mind through mind, the sage should sit restrained; becoming one whose thought and mind are fixed on that, he reaches this eternal secret.\"",
+            "hi": "चित्त से चित्त तक पहुँचकर मुनि संयमित होकर बैठे; जिसका चित्त और मन उसी में लगा हो, वह इस शाश्वत गुह्य को प्राप्त करता है।"
+          }
         },
         {
           "n": 28,
-          "text": "अव्यक्तादि विशेषान्तमविद्यालक्षणं स्मृतम् ।\nनिबोधत यथा हीदं गुणैर्लक्षणमित्युत ॥"
+          "text": "अव्यक्तादि विशेषान्तमविद्यालक्षणं स्मृतम् ।\nनिबोधत यथा हीदं गुणैर्लक्षणमित्युत ॥",
+          "meaning": {
+            "en": "\"From the Unmanifest to the particulars is held to be marked by ignorance; hear how this is characterized by the qualities.\"",
+            "hi": "अव्यक्त से लेकर विशेष पदार्थों तक अविद्या का लक्षण कहा गया है; सुनो, गुणों द्वारा यह कैसे लक्षित होता है।"
+          }
         },
         {
           "n": 29,
-          "text": "द्व्यक्षरस्तु भवेन्मृत्युस्त्र्यक्षरं ब्रह्म शाश्वतम् ।\nममेति च भवेन्मृत्युर्न ममेति च शाश्वतम् ॥"
+          "text": "द्व्यक्षरस्तु भवेन्मृत्युस्त्र्यक्षरं ब्रह्म शाश्वतम् ।\nममेति च भवेन्मृत्युर्न ममेति च शाश्वतम् ॥",
+          "meaning": {
+            "en": "\"'Mama' ('mine') has two syllables and is death; 'na mama' ('not mine') has three syllables and is eternal Brahman.\"",
+            "hi": "'मम' (मेरा) दो अक्षरों का है और मृत्यु है; 'न मम' (मेरा नहीं) तीन अक्षरों का है और शाश्वत ब्रह्म है।"
+          }
         },
         {
           "n": 30,
-          "text": "कर्म केचित्प्रशंसन्ति मन्दबुद्धितरा नराः ।\nये तु बुद्धा महात्मानो न प्रशंसन्ति कर्म ते ॥"
+          "text": "कर्म केचित्प्रशंसन्ति मन्दबुद्धितरा नराः ।\nये तु बुद्धा महात्मानो न प्रशंसन्ति कर्म ते ॥",
+          "meaning": {
+            "en": "\"Some people of duller understanding praise action; but the enlightened great souls do not praise action.\"",
+            "hi": "मन्द-बुद्धि वाले कुछ लोग कर्म की प्रशंसा करते हैं; परन्तु जो बुद्ध और महात्मा हैं, वे कर्म की प्रशंसा नहीं करते।"
+          }
         },
         {
           "n": 31,
-          "text": "कर्मणा जायते जन्तुर्मूर्तिमान्षोडशात्मकः ।\nपुरुषं सृजतेऽविद्या अग्राह्यममृताशिनम् ॥"
+          "text": "कर्मणा जायते जन्तुर्मूर्तिमान्षोडशात्मकः ।\nपुरुषं सृजतेऽविद्या अग्राह्यममृताशिनम् ॥",
+          "meaning": {
+            "en": "\"By action a creature is born, embodied and made of sixteen parts; ignorance creates the Purusha, who cannot be grasped and eats ambrosia.\"",
+            "hi": "कर्म से जीव उत्पन्न होता है, मूर्तिमान और सोलह अंगों वाला; अविद्या उस पुरुष को रचती है, जो अग्राह्य है और अमृत का भोक्ता है।"
+          }
         },
         {
           "n": 32,
-          "text": "तस्मात्कर्मसु निःस्नेहा ये केचित्पारदर्शिनः ।\nविद्यामयोऽयं पुरुषो न तु कर्ममयः स्मृतः ॥"
+          "text": "तस्मात्कर्मसु निःस्नेहा ये केचित्पारदर्शिनः ।\nविद्यामयोऽयं पुरुषो न तु कर्ममयः स्मृतः ॥",
+          "meaning": {
+            "en": "\"Therefore those who are free of attachment to actions and see the far shore hold that this Purusha is made of knowledge, not of action.\"",
+            "hi": "इसलिए जो कर्मों में स्नेह-रहित हैं और पारदर्शी हैं, वे मानते हैं कि यह पुरुष विद्यामय है, कर्ममय नहीं।"
+          }
         },
         {
           "n": 33,
-          "text": "अपूर्वममृतं नित्यं य एनमविचारिणम् ।\nय एनं विन्दतेऽऽत्मानमग्राह्यममृताशिनम् ।\nअग्राह्योऽमृतो भवति य एभिः कारणैर्ध्रुवः ॥"
+          "text": "अपूर्वममृतं नित्यं य एनमविचारिणम् ।\nय एनं विन्दतेऽऽत्मानमग्राह्यममृताशिनम् ।\nअग्राह्योऽमृतो भवति य एभिः कारणैर्ध्रुवः ॥",
+          "meaning": {
+            "en": "\"He who finds this Self, without precedent, deathless, eternal, ungraspable, and eating ambrosia, becomes ungraspable and deathless, firm through these causes.\"",
+            "hi": "जो इस अपूर्व, अमर, नित्य, अविचारी, अग्राह्य और अमृत-भोगी आत्मा को पा लेता है, वह इन कारणों से ध्रुव होकर अग्राह्य और अमर हो जाता है।"
+          }
         },
         {
           "n": 34,
-          "text": "अपोह्य सर्वसंकल्पान्संयम्यात्मानमात्मनि ।\nस तद्ब्रह्म शुभं वेत्ति यस्माद्भूयो न विद्यते ॥"
+          "text": "अपोह्य सर्वसंकल्पान्संयम्यात्मानमात्मनि ।\nस तद्ब्रह्म शुभं वेत्ति यस्माद्भूयो न विद्यते ॥",
+          "meaning": {
+            "en": "\"Casting off all intentions and restraining the self in the self, he knows that auspicious Brahman beyond which nothing further exists.\"",
+            "hi": "सब संकल्पों को त्यागकर, आत्मा को आत्मा में संयमित करके, वह उस शुभ ब्रह्म को जानता है, जिससे परे कुछ और नहीं है।"
+          }
         },
         {
           "n": 35,
-          "text": "प्रसादेनैव सत्त्वस्य प्रसादं समवाप्नुयात् ।\nलक्षणं हि प्रसादस्य यथा स्यात्स्वप्नदर्शनम् ॥"
+          "text": "प्रसादेनैव सत्त्वस्य प्रसादं समवाप्नुयात् ।\nलक्षणं हि प्रसादस्य यथा स्यात्स्वप्नदर्शनम् ॥",
+          "meaning": {
+            "en": "\"One should attain the serenity of sattva through serenity itself; for the mark of serenity is like seeing in a dream.\"",
+            "hi": "सत्त्व की प्रसन्नता से ही प्रसन्नता प्राप्त करनी चाहिए; प्रसन्नता का लक्षण स्वप्न-दर्शन जैसा होता है।"
+          }
         },
         {
           "n": 36,
-          "text": "गतिरेषा तु मुक्तानां ये ज्ञानपरिनिष्ठिताः ।\nप्रवृत्तयश्च याः सर्वाः पश्यन्ति परिणामजाः ॥"
+          "text": "गतिरेषा तु मुक्तानां ये ज्ञानपरिनिष्ठिताः ।\nप्रवृत्तयश्च याः सर्वाः पश्यन्ति परिणामजाः ॥",
+          "meaning": {
+            "en": "\"This is the goal of the liberated who are fully established in knowledge; and they see all activities as born of transformation.\"",
+            "hi": "यह मुक्तों की गति है, जो ज्ञान में पूर्णतः स्थित हैं; और जो सब प्रवृत्तियाँ हैं, उन्हें वे परिणाम से उत्पन्न देखते हैं।"
+          }
         },
         {
           "n": 37,
-          "text": "एषा गतिरसक्तानामेष धर्मः सनातनः ।\nएषा ज्ञानवतां प्राप्तिरेतद्वृत्तमनिन्दितम् ॥"
+          "text": "एषा गतिरसक्तानामेष धर्मः सनातनः ।\nएषा ज्ञानवतां प्राप्तिरेतद्वृत्तमनिन्दितम् ॥",
+          "meaning": {
+            "en": "\"This is the goal of the unattached, this the eternal dharma; this is the attainment of the knowing, this the blameless conduct.\"",
+            "hi": "यह अनासक्तों की गति है, यह सनातन धर्म है; यह ज्ञानवानों की प्राप्ति है, यह निन्दा-रहित आचरण है।"
+          }
         },
         {
           "n": 38,
-          "text": "समेन सर्वभूतेषु निःस्पृहेण निराशिषा ।\nशक्या गतिरियं गन्तुं सर्वत्र समदर्शिना ॥"
+          "text": "समेन सर्वभूतेषु निःस्पृहेण निराशिषा ।\nशक्या गतिरियं गन्तुं सर्वत्र समदर्शिना ॥",
+          "meaning": {
+            "en": "\"This goal can be reached by one who is even in all beings, free of longing and of hope, and sees all alike everywhere.\"",
+            "hi": "सब प्राणियों में समान, निःस्पृह और आशा-रहित, सर्वत्र समदर्शी के द्वारा यह गति प्राप्त की जा सकती है।"
+          }
         },
         {
           "n": 39,
-          "text": "एतद्वः सर्वमाख्यातं मया विप्रर्षिसत्तमाः ।\nएवमाचरत क्षिप्रं ततः सिद्धिमवाप्स्यथ ॥"
+          "text": "एतद्वः सर्वमाख्यातं मया विप्रर्षिसत्तमाः ।\nएवमाचरत क्षिप्रं ततः सिद्धिमवाप्स्यथ ॥",
+          "meaning": {
+            "en": "\"I have told you all this, best of Brahmin sages; act accordingly and quickly, and you will then attain perfection.\"",
+            "hi": "हे विप्रर्षिसत्तमो, यह सब मैंने तुम्हें कहा; इसी प्रकार शीघ्र आचरण करो, तब सिद्धि प्राप्त करोगे।"
+          }
         },
         {
-          "text": "गुरुरुवाच"
+          "text": "गुरुरुवाच",
+          "meaning": {
+            "en": "The teacher said:",
+            "hi": "गुरु बोले—"
+          }
         },
         {
           "n": 40,
-          "text": "इत्युक्तास्ते तु मुनयो ब्रह्मणा गुरुणा तथा ।\nकृतवन्तो महात्मानस्ततो लोकानवाप्नुवन् ॥"
+          "text": "इत्युक्तास्ते तु मुनयो ब्रह्मणा गुरुणा तथा ।\nकृतवन्तो महात्मानस्ततो लोकानवाप्नुवन् ॥",
+          "meaning": {
+            "en": "So addressed by Brahma, their teacher, those sages did as he said, and then won the worlds.",
+            "hi": "ब्रह्मा, अपने गुरु, द्वारा इस प्रकार कहे जाने पर, उन महात्मा मुनियों ने वैसा ही किया, और फिर लोकों को प्राप्त किया।"
+          }
         },
         {
           "n": 41,
-          "text": "त्वमप्येतन्महाभाग यथोक्तं ब्रह्मणो वचः ।\nसम्यगाचर शुद्धात्मंस्ततः सिद्धिमवाप्स्यसि ॥"
+          "text": "त्वमप्येतन्महाभाग यथोक्तं ब्रह्मणो वचः ।\nसम्यगाचर शुद्धात्मंस्ततः सिद्धिमवाप्स्यसि ॥",
+          "meaning": {
+            "en": "\"You too, fortunate one, should rightly follow just as the words of Brahma were spoken, pure-souled one, and then you will attain perfection.\"",
+            "hi": "हे महाभाग, तुम भी ब्रह्मा के वचनों को जैसा कहा गया है, भलीभाँति आचरण करो, हे शुद्धात्मा; तब तुम सिद्धि प्राप्त करोगे।"
+          }
         },
         {
-          "text": "वासुदेव उवाच"
+          "text": "वासुदेव उवाच",
+          "meaning": {
+            "en": "Vasudeva said:",
+            "hi": "वासुदेव बोले—"
+          }
         },
         {
           "n": 42,
-          "text": "इत्युक्तः स तदा शिष्यो गुरुणा धर्ममुत्तमम् ।\nचकार सर्वं कौन्तेय ततो मोक्षमवाप्तवान् ॥"
+          "text": "इत्युक्तः स तदा शिष्यो गुरुणा धर्ममुत्तमम् ।\nचकार सर्वं कौन्तेय ततो मोक्षमवाप्तवान् ॥",
+          "meaning": {
+            "en": "Told so by his teacher, son of Kunti, that disciple did all of that highest dharma and then attained liberation.",
+            "hi": "गुरु द्वारा इस प्रकार कहे जाने पर, हे कौन्तेय, उस शिष्य ने वह सब उत्तम धर्म किया, और फिर मोक्ष प्राप्त किया।"
+          }
         },
         {
           "n": 43,
-          "text": "कृतकृत्यश्च स तदा शिष्यः कुरुकुलोद्वह ।\nतत्पदं समनुप्राप्तो यत्र गत्वा न शोचति ॥"
+          "text": "कृतकृत्यश्च स तदा शिष्यः कुरुकुलोद्वह ।\nतत्पदं समनुप्राप्तो यत्र गत्वा न शोचति ॥",
+          "meaning": {
+            "en": "Having done what was to be done, that disciple, bearer of the Kuru line, reached that state, going to which one grieves no more.",
+            "hi": "हे कुरुकुलोद्वह, तब कृतकृत्य हुआ वह शिष्य उस पद को प्राप्त हुआ, जहाँ जाकर फिर शोक नहीं होता।"
+          }
         },
         {
-          "text": "अर्जुन उवाच"
+          "text": "अर्जुन उवाच",
+          "meaning": {
+            "en": "Arjuna said:",
+            "hi": "अर्जुन बोले—"
+          }
         },
         {
           "n": 44,
-          "text": "को न्वसौ ब्राह्मणः कृष्ण कश्च शिष्यो जनार्दन ।\nश्रोतव्यं चेन्मयैतद्वै तत्त्वमाचक्ष्व मे विभो ॥"
+          "text": "को न्वसौ ब्राह्मणः कृष्ण कश्च शिष्यो जनार्दन ।\nश्रोतव्यं चेन्मयैतद्वै तत्त्वमाचक्ष्व मे विभो ॥",
+          "meaning": {
+            "en": "\"Who was that Brahmin, Krishna, and who the disciple, Janardana? If I am to hear it, lord, tell me the truth of it.\"",
+            "hi": "हे कृष्ण, हे जनार्दन, वह ब्राह्मण कौन था, और कौन शिष्य था? यदि मुझे यह सुनना है, तो हे विभो, मुझे उसका तत्त्व बताइए।"
+          }
         },
         {
-          "text": "वासुदेव उवाच"
+          "text": "वासुदेव उवाच",
+          "meaning": {
+            "en": "Vasudeva said:",
+            "hi": "वासुदेव बोले—"
+          }
         },
         {
           "n": 45,
-          "text": "अहं गुरुर्महाबाहो मनः शिष्यं च विद्धि मे ।\nत्वत्प्रीत्या गुह्यमेतच्च कथितं मे धनंजय ॥"
+          "text": "अहं गुरुर्महाबाहो मनः शिष्यं च विद्धि मे ।\nत्वत्प्रीत्या गुह्यमेतच्च कथितं मे धनंजय ॥",
+          "meaning": {
+            "en": "\"Mighty-armed one, know that I am the teacher and my mind is the disciple. Out of love for you, Dhananjaya, I have told this secret.\"",
+            "hi": "हे महाबाहो, मुझे ही गुरु जानो और मेरा मन शिष्य। हे धनंजय, तुम्हारे प्रति प्रीति के कारण मैंने यह गुह्य कहा है।"
+          }
         },
         {
           "n": 46,
-          "text": "मयि चेदस्ति ते प्रीतिर्नित्यं कुरुकुलोद्वह ।\nअध्यात्ममेतच्छ्रुत्वा त्वं सम्यगाचर सुव्रत ॥"
+          "text": "मयि चेदस्ति ते प्रीतिर्नित्यं कुरुकुलोद्वह ।\nअध्यात्ममेतच्छ्रुत्वा त्वं सम्यगाचर सुव्रत ॥",
+          "meaning": {
+            "en": "\"If you always have affection for me, delight of the Kurus, then having heard this teaching about the Self, act on it rightly, you of good vows.\"",
+            "hi": "हे कुरुकुलोद्वह, यदि मुझमें तुम्हारी सदा प्रीति है, तो इस अध्यात्म को सुनकर, हे सुव्रत, उसे भली-भाँति आचरण में लाओ।"
+          }
         },
         {
           "n": 47,
-          "text": "ततस्त्वं सम्यगाचीर्णे धर्मेऽस्मिन्कुरुनन्दन ।\nसर्वपापविशुद्धात्मा मोक्षं प्राप्स्यसि केवलम् ॥"
+          "text": "ततस्त्वं सम्यगाचीर्णे धर्मेऽस्मिन्कुरुनन्दन ।\nसर्वपापविशुद्धात्मा मोक्षं प्राप्स्यसि केवलम् ॥",
+          "meaning": {
+            "en": "\"Then, joy of the Kurus, when you have rightly practiced this dharma, with your self cleansed of all sin you will attain liberation alone.\"",
+            "hi": "तब हे कुरुनन्दन, इस धर्म का भली-भाँति आचरण करने से, सब पापों से शुद्ध आत्मा वाले होकर तुम केवल मोक्ष प्राप्त करोगे।"
+          }
         },
         {
           "n": 48,
-          "text": "पूर्वमप्येतदेवोक्तं युद्धकाल उपस्थिते ।\nमया तव महाबाहो तस्मादत्र मनः कुरु ॥"
+          "text": "पूर्वमप्येतदेवोक्तं युद्धकाल उपस्थिते ।\nमया तव महाबाहो तस्मादत्र मनः कुरु ॥",
+          "meaning": {
+            "en": "\"Mighty-armed one, I told you this very thing before, when the time of battle had come; therefore set your mind on it.\"",
+            "hi": "हे महाबाहो, युद्धकाल उपस्थित होने पर मैंने यह बात पहले भी तुमसे कही थी; इसलिए इसमें मन लगाओ।"
+          }
         },
         {
           "n": 49,
-          "text": "मया तु भरतश्रेष्ठ चिरदृष्टः पिता विभो ।\nतमहं द्रष्टुमिच्छामि संमते तव फल्गुन ॥"
+          "text": "मया तु भरतश्रेष्ठ चिरदृष्टः पिता विभो ।\nतमहं द्रष्टुमिच्छामि संमते तव फल्गुन ॥",
+          "meaning": {
+            "en": "\"But I, best of the Bharatas, long ago saw my father, lord, and I wish to see him again, with your leave, Phalguna.\"",
+            "hi": "हे भरतश्रेष्ठ, हे विभो, मैंने तो बहुत पहले अपने पिता के दर्शन किए थे; हे फल्गुन, तुम्हारी सम्मति से मैं उन्हें फिर देखना चाहता हूँ।"
+          }
         },
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:",
+            "hi": "वैशम्पायन बोले—"
+          }
         },
         {
           "n": 50,
-          "text": "इत्युक्तवचनं कृष्णं प्रत्युवाच धनंजयः ।\nगच्छावो नगरं कृष्ण गजसाह्वयमद्य वै ॥"
+          "text": "इत्युक्तवचनं कृष्णं प्रत्युवाच धनंजयः ।\nगच्छावो नगरं कृष्ण गजसाह्वयमद्य वै ॥",
+          "meaning": {
+            "en": "To Krishna, who had spoken thus, Dhananjaya replied: \"Let us go today to the city called Gajasahvaya, Krishna.\"",
+            "hi": "ऐसा कहे गए कृष्ण से धनंजय ने उत्तर दिया—\"हे कृष्ण, आज हम गजसाह्वय नामक नगर को चलें।\""
+          }
         },
         {
           "n": 51,
-          "text": "समेत्य तत्र राजानं धर्मात्मानं युधिष्ठिरम् ।\nसमनुज्ञाप्य दुर्धर्षं स्वां पुरीं यातुमर्हसि ॥"
+          "text": "समेत्य तत्र राजानं धर्मात्मानं युधिष्ठिरम् ।\nसमनुज्ञाप्य दुर्धर्षं स्वां पुरीं यातुमर्हसि ॥",
+          "meaning": {
+            "en": "\"Having met King Yudhishthira there, the righteous one, and taken the invincible king's leave, you may go to your own city.\"",
+            "hi": "वहाँ धर्मात्मा राजा युधिष्ठिर से मिलकर, उन दुर्धर्ष (राजा) की अनुमति लेकर, तुम अपनी पुरी को जाने योग्य हो।"
+          }
         }
       ]
     }

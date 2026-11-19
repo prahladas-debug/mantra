@@ -22,83 +22,163 @@
       "titleEn": "Ashramavasa Parva (Life in the hermitage)",
       "verses": [
         {
-          "text": "धृतराष्ट्र उवाच"
+          "text": "धृतराष्ट्र उवाच",
+          "meaning": {
+            "en": "Dhritarashtra said:",
+            "hi": "धृतराष्ट्र बोले—"
+          }
         },
         {
           "n": 1,
-          "text": "मण्डलानि च बुध्येथाः परेषामात्मनस्तथा ।\nउदासीनगुणानां च मध्यमानां तथैव च ॥"
+          "text": "मण्डलानि च बुध्येथाः परेषामात्मनस्तथा ।\nउदासीनगुणानां च मध्यमानां तथैव च ॥",
+          "meaning": {
+            "en": "You should understand the circles of your enemies and of yourself, and of those who are neutral in character and of those in between.",
+            "hi": "शत्रुओं और अपने मंडलों को समझना, तथा उदासीन गुणों वाले और मध्यम राजाओं के मंडलों को भी समझना।"
+          }
         },
         {
           "n": 2,
-          "text": "चतुर्णां शत्रुजातानां सर्वेषामाततायिनाम् ।\nमित्रं चामित्रमित्रं च बोद्धव्यं तेऽरिकर्शन ॥"
+          "text": "चतुर्णां शत्रुजातानां सर्वेषामाततायिनाम् ।\nमित्रं चामित्रमित्रं च बोद्धव्यं तेऽरिकर्शन ॥",
+          "meaning": {
+            "en": "O weakener of foes, you must know the four kinds of enemies, all aggressors, and the friend and the friend of the enemy.",
+            "hi": "हे शत्रुओं को क्षीण करने वाले, चार प्रकार के शत्रुओं और सभी आततायियों को तुम्हें पहचानना चाहिए, और मित्र तथा शत्रु के मित्र को भी जानना चाहिए।"
+          }
         },
         {
           "n": 3,
-          "text": "तथामात्या जनपदा दुर्गाणि विषमाणि च ।\nबलानि च कुरुश्रेष्ठ भवन्त्येषां यथेच्छकम् ॥"
+          "text": "तथामात्या जनपदा दुर्गाणि विषमाणि च ।\nबलानि च कुरुश्रेष्ठ भवन्त्येषां यथेच्छकम् ॥",
+          "meaning": {
+            "en": "Their ministers, territories, difficult fortresses, and armies, O best of the Kurus, are as they themselves choose.",
+            "hi": "हे कुरुश्रेष्ठ, उनके मंत्री, जनपद, दुर्गम किले और सेनाएँ, उनकी इच्छा के अनुसार ही होते हैं।"
+          }
         },
         {
           "n": 4,
-          "text": "ते च द्वादश कौन्तेय राज्ञां वै विविधात्मकाः ।\nमन्त्रिप्रधानाश्च गुणाः षष्टिर्द्वादश च प्रभो ॥"
+          "text": "ते च द्वादश कौन्तेय राज्ञां वै विविधात्मकाः ।\nमन्त्रिप्रधानाश्च गुणाः षष्टिर्द्वादश च प्रभो ॥",
+          "meaning": {
+            "en": "O son of Kunti, these are twelve in number, of varied nature, among kings; and with ministers foremost, their qualities number seventy-two, O lord.",
+            "hi": "हे कौन्तेय, हे प्रभो, राजाओं के ये मंडल बारह प्रकार के हैं, विभिन्न स्वभाव वाले। और मंत्री जिनमें प्रधान हैं, ऐसे गुण बहत्तर हैं।"
+          }
         },
         {
           "n": 5,
-          "text": "एतन्मण्डलमित्याहुराचार्या नीतिकोविदाः ।\nअत्र षाड्गुण्यमायत्तं युधिष्ठिर निबोध तत् ॥"
+          "text": "एतन्मण्डलमित्याहुराचार्या नीतिकोविदाः ।\nअत्र षाड्गुण्यमायत्तं युधिष्ठिर निबोध तत् ॥",
+          "meaning": {
+            "en": "The teachers who know policy call this the circle. On it the six measures of policy depend; learn it, Yudhishthira.",
+            "hi": "नीति के जानकार आचार्य इसी को मंडल कहते हैं। इसमें छह प्रकार की नीति (षाड्गुण्य) निर्भर है। हे युधिष्ठिर, उसे समझो।"
+          }
         },
         {
           "n": 6,
-          "text": "वृद्धिक्षयौ च विज्ञेयौ स्थानं च कुरुनन्दन ।\nद्विसप्तत्या महाबाहो ततः षाड्गुण्यचारिणः ॥"
+          "text": "वृद्धिक्षयौ च विज्ञेयौ स्थानं च कुरुनन्दन ।\nद्विसप्तत्या महाबाहो ततः षाड्गुण्यचारिणः ॥",
+          "meaning": {
+            "en": "Growth, decline, and standing still must be understood, O joy of the Kurus; by seventy-two, O mighty-armed, those who practise the six measures proceed.",
+            "hi": "हे कुरुनंदन, वृद्धि, क्षय और स्थिति, इन्हें जानना चाहिए। हे महाबाहो, बहत्तर के द्वारा षाड्गुण्य का आचरण करने वाले आगे बढ़ते हैं।"
+          }
         },
         {
           "n": 7,
-          "text": "यदा स्वपक्षो बलवान्परपक्षस्तथाबलः ।\nविगृह्य शत्रून्कौन्तेय यायात्क्षितिपतिस्तदा ।\nयदा स्वपक्षोऽबलवांस्तदा संधिं समाश्रयेत् ॥"
+          "text": "यदा स्वपक्षो बलवान्परपक्षस्तथाबलः ।\nविगृह्य शत्रून्कौन्तेय यायात्क्षितिपतिस्तदा ।\nयदा स्वपक्षोऽबलवांस्तदा संधिं समाश्रयेत् ॥",
+          "meaning": {
+            "en": "When one's own side is strong and the enemy's side weak, then the king should make war on his enemies and march, O son of Kunti. When one's own side is weak, then he should take refuge in peace.",
+            "hi": "जब अपना पक्ष बलवान हो और शत्रु का पक्ष दुर्बल, तब हे कौन्तेय, राजा शत्रुओं से युद्ध छेड़कर आक्रमण करे। और जब अपना पक्ष दुर्बल हो, तब संधि का आश्रय ले।"
+          }
         },
         {
           "n": 8,
-          "text": "द्रव्याणां संचयश्चैव कर्तव्यः स्यान्महांस्तथा ।\nयदा समर्थो यानाय नचिरेणैव भारत ॥"
+          "text": "द्रव्याणां संचयश्चैव कर्तव्यः स्यान्महांस्तथा ।\nयदा समर्थो यानाय नचिरेणैव भारत ॥",
+          "meaning": {
+            "en": "And a great store of goods must be gathered, O Bharata, so that when he is able to march it can be done at no great delay.",
+            "hi": "हे भारत, जब राजा आक्रमण करने में समर्थ हो, तो उसे बहुत बड़ा द्रव्य-संचय करना चाहिए, ताकि शीघ्र ही प्रस्थान हो सके।"
+          }
         },
         {
           "n": 9,
-          "text": "तदा सर्वं विधेयं स्यात्स्थानं च न विभाजयेत् ।\nभूमिरल्पफला देया विपरीतस्य भारत ॥"
+          "text": "तदा सर्वं विधेयं स्यात्स्थानं च न विभाजयेत् ।\nभूमिरल्पफला देया विपरीतस्य भारत ॥",
+          "meaning": {
+            "en": "Then everything should be arranged, and one should not divide his base; a land of little yield should be given to an opposing king, O Bharata.",
+            "hi": "तब सब कुछ व्यवस्थित होना चाहिए, और अपने स्थान को न बाँटे। हे भारत, विपरीत राजा को कम उपज वाली भूमि देनी चाहिए।"
+          }
         },
         {
           "n": 10,
-          "text": "हिरण्यं कुप्यभूयिष्ठं मित्रं क्षीणमकोशवत् ।\nविपरीतान्न गृह्णीयात्स्वयं संधिविशारदः ॥"
+          "text": "हिरण्यं कुप्यभूयिष्ठं मित्रं क्षीणमकोशवत् ।\nविपरीतान्न गृह्णीयात्स्वयं संधिविशारदः ॥",
+          "meaning": {
+            "en": "One who is skilled in treaty should not himself accept from the opposing side gold, or much base metal, or a friend who is spent and without treasure.",
+            "hi": "संधि-कला में निपुण व्यक्ति को विरोधी पक्ष से सोना, प्रचुर धातु, या क्षीण और कोषहीन मित्र स्वयं नहीं लेना चाहिए।"
+          }
         },
         {
           "n": 11,
-          "text": "संध्यर्थं राजपुत्रं च लिप्सेथा भरतर्षभ ।\nविपरीतस्तु तेऽदेयः पुत्र कस्यांचिदापदि ।\nतस्य प्रमोक्षे यत्नं च कुर्याः सोपायमन्त्रवित् ॥"
+          "text": "संध्यर्थं राजपुत्रं च लिप्सेथा भरतर्षभ ।\nविपरीतस्तु तेऽदेयः पुत्र कस्यांचिदापदि ।\nतस्य प्रमोक्षे यत्नं च कुर्याः सोपायमन्त्रवित् ॥",
+          "meaning": {
+            "en": "For the sake of a treaty, O best of the Bharatas, you should seek a prince as hostage; but the opposing side's must not be given to him, my son, in any difficulty. And if he is held, one who knows counsel should strive to free him by proper means.",
+            "hi": "हे भरतश्रेष्ठ, संधि के लिए तुम्हें राजकुमार को बंधक के रूप में माँगना चाहिए। हे पुत्र, किसी भी आपत्ति में विरोधी पक्ष को वह बंधक नहीं देना चाहिए। और यदि वह बंदी हो जाए, तो मंत्रणा के ज्ञाता को उसे उपाय से छुड़ाने का प्रयत्न करना चाहिए।"
+          }
         },
         {
           "n": 12,
-          "text": "प्रकृतीनां च कौन्तेय राजा दीनां विभावयेत् ।\nक्रमेण युगपद्द्वंद्वं व्यसनानां बलाबलम् ॥"
+          "text": "प्रकृतीनां च कौन्तेय राजा दीनां विभावयेत् ।\nक्रमेण युगपद्द्वंद्वं व्यसनानां बलाबलम् ॥",
+          "meaning": {
+            "en": "O son of Kunti, a king should consider the elements of the state, beginning with the minister, and their strengths and weaknesses in their troubles, in turn, together, or in pairs.",
+            "hi": "हे कौन्तेय, राजा को राज्य के अंगों पर विचार करना चाहिए, मंत्री से आरंभ करके, और विपत्तियों में उनके बल और दुर्बलता पर क्रम से, एक साथ, या जोड़ों में विचार करना चाहिए।"
+          }
         },
         {
           "n": 13,
-          "text": "पीडनं स्तम्भनं चैव कोशभङ्गस्तथैव च ।\nकार्यं यत्नेन शत्रूणां स्वराष्ट्रं रक्षता स्वयम् ॥"
+          "text": "पीडनं स्तम्भनं चैव कोशभङ्गस्तथैव च ।\nकार्यं यत्नेन शत्रूणां स्वराष्ट्रं रक्षता स्वयम् ॥",
+          "meaning": {
+            "en": "Oppressing the enemies, checking them, and breaking their treasury should be done with effort by one who is guarding his own realm.",
+            "hi": "शत्रुओं को पीड़ा देना, उन्हें रोकना, और उनका कोश तोड़ना, इन्हें अपने राष्ट्र की रक्षा करते हुए स्वयं यत्नपूर्वक करना चाहिए।"
+          }
         },
         {
           "n": 14,
-          "text": "न च हिंस्योऽभ्युपगतः सामन्तो वृद्धिमिच्छता ।\nकौन्तेय तं न हिंसेत यो महीं विजिगीषते ॥"
+          "text": "न च हिंस्योऽभ्युपगतः सामन्तो वृद्धिमिच्छता ।\nकौन्तेय तं न हिंसेत यो महीं विजिगीषते ॥",
+          "meaning": {
+            "en": "One seeking growth should not harm a neighbouring chief who has come to him for shelter; and one who desires to conquer the earth, O son of Kunti, should not harm such a one.",
+            "hi": "वृद्धि चाहने वाले को शरण में आए हुए पड़ोसी सामंत की हिंसा नहीं करनी चाहिए। हे कौन्तेय, जो पृथ्वी को जीतना चाहता हो, उसे भी ऐसे व्यक्ति की हिंसा नहीं करनी चाहिए।"
+          }
         },
         {
           "n": 15,
-          "text": "गणानां भेदने योगं गच्छेथाः सह मन्त्रिभिः ।\nसाधुसंग्रहणाच्चैव पापनिग्रहणात्तथा ॥"
+          "text": "गणानां भेदने योगं गच्छेथाः सह मन्त्रिभिः ।\nसाधुसंग्रहणाच्चैव पापनिग्रहणात्तथा ॥",
+          "meaning": {
+            "en": "With your ministers, find the way to split the assemblies of enemy groups, by gathering the good and restraining the wicked.",
+            "hi": "मंत्रियों के साथ मिलकर, शत्रु के गणों में फूट डालने का उपाय करना। साथ ही, सज्जनों को अपनाकर और दुष्टों को दंड देकर।"
+          }
         },
         {
           "n": 16,
-          "text": "दुर्बलाश्चापि सततं नावष्टभ्या बलीयसा ।\nतिष्ठेथा राजशार्दूल वैतसीं वृत्तिमास्थितः ॥"
+          "text": "दुर्बलाश्चापि सततं नावष्टभ्या बलीयसा ।\nतिष्ठेथा राजशार्दूल वैतसीं वृत्तिमास्थितः ॥",
+          "meaning": {
+            "en": "And as for the weak, you should never lean on a stronger one; be like the reed, O tiger among kings, taking a yielding course.",
+            "hi": "हे राजशार्दूल, दुर्बलों को भी कभी बलवान का सहारा नहीं लेना चाहिए। तुम बेंत के समान नम्र आचरण अपनाकर स्थिर रहना।"
+          }
         },
         {
           "n": 17,
-          "text": "यद्येवमभियायाच्च दुर्बलं बलवान्नृपः ।\nसामादिभिरुपायैस्तं क्रमेण विनिवर्तयेत् ॥"
+          "text": "यद्येवमभियायाच्च दुर्बलं बलवान्नृपः ।\nसामादिभिरुपायैस्तं क्रमेण विनिवर्तयेत् ॥",
+          "meaning": {
+            "en": "If a strong king marches against a weak one in this way, the weak king should turn him back by stages, using conciliation and the other means.",
+            "hi": "यदि बलवान राजा इस प्रकार दुर्बल पर आक्रमण करे, तो दुर्बल राजा सामनीति आदि उपायों से क्रमशः उसे लौटा दे।"
+          }
         },
         {
           "n": 18,
-          "text": "अशक्नुवंस्तु युद्धाय निष्पतेत्सह मन्त्रिभिः ।\nकोशेन पौरैर्दण्डेन ये चान्ये प्रियकारिणः ॥"
+          "text": "अशक्नुवंस्तु युद्धाय निष्पतेत्सह मन्त्रिभिः ।\nकोशेन पौरैर्दण्डेन ये चान्ये प्रियकारिणः ॥",
+          "meaning": {
+            "en": "If he cannot fight, he should go out with his ministers, with his treasury, citizens, army, and others who are loyal to him.",
+            "hi": "यदि वह युद्ध करने में असमर्थ हो, तो मंत्रियों, कोश, नगरवासियों, सेना और अन्य प्रिय सेवकों के साथ निकल जाए।"
+          }
         },
         {
           "n": 19,
-          "text": "असंभवे तु सर्वस्य यथामुख्येन निष्पतेत् ।\nक्रमेणानेन मोक्षः स्याच्छरीरमपि केवलम् ॥"
+          "text": "असंभवे तु सर्वस्य यथामुख्येन निष्पतेत् ।\nक्रमेणानेन मोक्षः स्याच्छरीरमपि केवलम् ॥",
+          "meaning": {
+            "en": "If that is not possible for all, he should go out with those who are foremost. By this course there may be escape, even if only with his own life.",
+            "hi": "यदि सबके साथ निकलना संभव न हो, तो प्रमुख लोगों के साथ निकल जाए। इस क्रम से मुक्ति मिल सकती है, भले ही केवल अपने शरीर के साथ ही क्यों न हो।"
+          }
         }
       ]
     }
