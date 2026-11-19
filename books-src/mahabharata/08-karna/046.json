@@ -22,202 +22,352 @@
       "titleEn": "Karna Parva",
       "verses": [
         {
-          "text": "संजय उवाच"
+          "text": "संजय उवाच",
+          "meaning": {
+            "en": "Sanjaya said:"
+          }
         },
         {
           "n": 1,
-          "text": "महासत्त्वौ तु तौ दृष्ट्वा सहितौ केशवार्जुनौ ।\nहतमाधिरथिं मेने संख्ये गाण्डीवधन्वना ॥"
+          "text": "महासत्त्वौ तु तौ दृष्ट्वा सहितौ केशवार्जुनौ ।\nहतमाधिरथिं मेने संख्ये गाण्डीवधन्वना ॥",
+          "meaning": {
+            "en": "Seeing the two mighty ones, Krishna and Arjuna, come together, Yudhishthira thought that Karna, son of Adhiratha, had been killed in the battle by the wielder of Gandiva."
+          }
         },
         {
           "n": 2,
-          "text": "तावभ्यनन्दत्कौन्तेयः साम्ना परमवल्गुना ।\nस्मितपूर्वममित्रघ्नः पूजयन्भरतर्षभ ॥"
+          "text": "तावभ्यनन्दत्कौन्तेयः साम्ना परमवल्गुना ।\nस्मितपूर्वममित्रघ्नः पूजयन्भरतर्षभ ॥",
+          "meaning": {
+            "en": "The son of Kunti, destroyer of foes, welcomed them both, best of Bharatas, with exceedingly sweet and gentle words and a smile, honoring them."
+          }
         },
         {
-          "text": "युधिष्ठिर उवाच"
+          "text": "युधिष्ठिर उवाच",
+          "meaning": {
+            "en": "Yudhishthira said:"
+          }
         },
         {
           "n": 3,
-          "text": "स्वागतं देवकीपुत्र स्वागतं ते धनंजय ।\nप्रियं मे दर्शनं बाढं युवयोरच्युतार्जुनौ ॥"
+          "text": "स्वागतं देवकीपुत्र स्वागतं ते धनंजय ।\nप्रियं मे दर्शनं बाढं युवयोरच्युतार्जुनौ ॥",
+          "meaning": {
+            "en": "\"Welcome, son of Devaki; welcome, Dhananjaya. Your sight is truly dear to me, Achyuta and Arjuna."
+          }
         },
         {
           "n": 4,
-          "text": "अक्षताभ्यामरिष्टाभ्यां कथं युध्य महारथम् ।\nआशीविषसमं युद्धे सर्वशस्त्रविशारदम् ॥"
+          "text": "अक्षताभ्यामरिष्टाभ्यां कथं युध्य महारथम् ।\nआशीविषसमं युद्धे सर्वशस्त्रविशारदम् ॥",
+          "meaning": {
+            "en": "You two are unhurt and unharmed. How did you fight that great warrior, as deadly as a venomous snake, skilled in every weapon?"
+          }
         },
         {
           "n": 5,
-          "text": "अग्रगं धार्तराष्ट्राणां सर्वेषां शर्म वर्म च ।\nरक्षितं वृषसेनेन सुषेणेन च धन्विना ॥"
+          "text": "अग्रगं धार्तराष्ट्राणां सर्वेषां शर्म वर्म च ।\nरक्षितं वृषसेनेन सुषेणेन च धन्विना ॥",
+          "meaning": {
+            "en": "He was the foremost of all the Dhritarashtra sons, their shelter and their armor, guarded by Vrishasena and the archer Sushena."
+          }
         },
         {
           "n": 6,
-          "text": "अनुज्ञातं महावीर्यं रामेणास्त्रेषु दुर्जयम् ।\nत्रातारं धार्तराष्ट्राणां गन्तारं वाहिनीमुखे ॥"
+          "text": "अनुज्ञातं महावीर्यं रामेणास्त्रेषु दुर्जयम् ।\nत्रातारं धार्तराष्ट्राणां गन्तारं वाहिनीमुखे ॥",
+          "meaning": {
+            "en": "Approved by Rama, of great strength, hard to beat in weapons, the protector of the Dhritarashtra sons, who goes at the head of the army,"
+          }
         },
         {
           "n": 7,
-          "text": "हन्तारमरिसैन्यानाममित्रगणमर्दनम् ।\nदुर्योधनहिते युक्तमस्मद्युद्धाय चोद्यतम् ॥"
+          "text": "हन्तारमरिसैन्यानाममित्रगणमर्दनम् ।\nदुर्योधनहिते युक्तमस्मद्युद्धाय चोद्यतम् ॥",
+          "meaning": {
+            "en": "the slayer of enemy armies, the crusher of hostile hosts, devoted to Duryodhana's good, and ready to fight us,"
+          }
         },
         {
           "n": 8,
-          "text": "अप्रधृष्यं महायुद्धे देवैरपि सवासवैः ।\nअनलानिलयोस्तुल्यं तेजसा च बलेन च ॥"
+          "text": "अप्रधृष्यं महायुद्धे देवैरपि सवासवैः ।\nअनलानिलयोस्तुल्यं तेजसा च बलेन च ॥",
+          "meaning": {
+            "en": "unassailable in great battle even by the gods with Indra, equal to fire and wind in splendor and strength,"
+          }
         },
         {
           "n": 9,
-          "text": "पातालमिव गम्भीरं सुहृदानन्दवर्धनम् ।\nअन्तकाभममित्राणां कर्णं हत्वा महाहवे ।\nदिष्ट्या युवामनुप्राप्तौ जित्वासुरमिवामरौ ॥"
+          "text": "पातालमिव गम्भीरं सुहृदानन्दवर्धनम् ।\nअन्तकाभममित्राणां कर्णं हत्वा महाहवे ।\nदिष्ट्या युवामनुप्राप्तौ जित्वासुरमिवामरौ ॥",
+          "meaning": {
+            "en": "deep as the netherworld, who increased the joy of his friends, and who was like Death to his foes: having killed Karna in the great battle, by good fortune you two have come back, like two immortals who have beaten a demon."
+          }
         },
         {
           "n": 10,
-          "text": "तेन युद्धमदीनेन मया ह्यद्याच्युतार्जुनौ ।\nकुपितेनान्तकेनेव प्रजाः सर्वा जिघांसता ॥"
+          "text": "तेन युद्धमदीनेन मया ह्यद्याच्युतार्जुनौ ।\nकुपितेनान्तकेनेव प्रजाः सर्वा जिघांसता ॥",
+          "meaning": {
+            "en": "Today, Achyuta and Arjuna, I fought with that unflinching man, who was like Death himself, enraged and wishing to kill all creatures."
+          }
         },
         {
           "n": 11,
-          "text": "तेन केतुश्च मे छिन्नो हतौ च पार्ष्णिसारथी ।\nहतवाहः कृतश्चास्मि युयुधानस्य पश्यतः ॥"
+          "text": "तेन केतुश्च मे छिन्नो हतौ च पार्ष्णिसारथी ।\nहतवाहः कृतश्चास्मि युयुधानस्य पश्यतः ॥",
+          "meaning": {
+            "en": "He cut down my banner and killed my two rear guards and charioteer, and he left me without horses while Satyaki watched,"
+          }
         },
         {
           "n": 12,
-          "text": "धृष्टद्युम्नस्य यमयोर्वीरस्य च शिखण्डिनः ।\nपश्यतां द्रौपदेयानां पाञ्चालानां च सर्वशः ॥"
+          "text": "धृष्टद्युम्नस्य यमयोर्वीरस्य च शिखण्डिनः ।\nपश्यतां द्रौपदेयानां पाञ्चालानां च सर्वशः ॥",
+          "meaning": {
+            "en": "while Dhrishtadyumna, the twins, the hero Shikhandi, the sons of Draupadi and all the Panchalas looked on."
+          }
         },
         {
           "n": 13,
-          "text": "एताञ्जित्वा महावीर्यान्कर्णः शत्रुगणान्बहून् ।\nजितवान्मां महाबाहो यतमानं महारणे ॥"
+          "text": "एताञ्जित्वा महावीर्यान्कर्णः शत्रुगणान्बहून् ।\nजितवान्मां महाबाहो यतमानं महारणे ॥",
+          "meaning": {
+            "en": "Having beaten these mighty men and many bands of foes, Karna beat me, mighty-armed Arjuna, though I struggled in the great battle."
+          }
         },
         {
           "n": 14,
-          "text": "अनुसृत्य च मां युद्धे परुषाण्युक्तवान्बहु ।\nतत्र तत्र युधां श्रेष्ठः परिभूय न संशयः ॥"
+          "text": "अनुसृत्य च मां युद्धे परुषाण्युक्तवान्बहु ।\nतत्र तत्र युधां श्रेष्ठः परिभूय न संशयः ॥",
+          "meaning": {
+            "en": "Following me in the fight he said many harsh things, mocking me here and there, that best of fighters, without a doubt."
+          }
         },
         {
           "n": 15,
-          "text": "भीमसेनप्रभावात्तु यज्जीवामि धनंजय ।\nबहुनात्र किमुक्तेन नाहं तत्सोढुमुत्सहे ॥"
+          "text": "भीमसेनप्रभावात्तु यज्जीवामि धनंजय ।\nबहुनात्र किमुक्तेन नाहं तत्सोढुमुत्सहे ॥",
+          "meaning": {
+            "en": "It is only through Bhimasena's might that I am alive, Dhananjaya. What more need be said? I cannot bear it."
+          }
         },
         {
           "n": 16,
-          "text": "त्रयोदशाहं वर्षाणि यस्माद्भीतो धनंजय ।\nन स्म निद्रां लभे रात्रौ न चाहनि सुखं क्वचित् ॥"
+          "text": "त्रयोदशाहं वर्षाणि यस्माद्भीतो धनंजय ।\nन स्म निद्रां लभे रात्रौ न चाहनि सुखं क्वचित् ॥",
+          "meaning": {
+            "en": "Because of him, Dhananjaya, I have been afraid for thirteen years; I get no sleep at night, nor any ease by day."
+          }
         },
         {
           "n": 17,
-          "text": "तस्य द्वेषेण संयुक्तः परिदह्ये धनंजय ।\nआत्मनो मरणं जानन्वाध्रीणस इव द्विपः ॥"
+          "text": "तस्य द्वेषेण संयुक्तः परिदह्ये धनंजय ।\nआत्मनो मरणं जानन्वाध्रीणस इव द्विपः ॥",
+          "meaning": {
+            "en": "Filled with hatred of him, I burn, Dhananjaya, knowing my own death, like an elephant that has the scent of the noose."
+          }
         },
         {
           "n": 18,
-          "text": "यस्यायमगमत्कालश्चिन्तयानस्य मे विभो ।\nकथं शक्यो मया कर्णो युद्धे क्षपयितुं भवेत् ॥"
+          "text": "यस्यायमगमत्कालश्चिन्तयानस्य मे विभो ।\nकथं शक्यो मया कर्णो युद्धे क्षपयितुं भवेत् ॥",
+          "meaning": {
+            "en": "All the time that has passed as I brooded, lord, was spent thinking how I could ever destroy Karna in battle."
+          }
         },
         {
           "n": 19,
-          "text": "जाग्रत्स्वपंश्च कौन्तेय कर्णमेव सदा ह्यहम् ।\nपश्यामि तत्र तत्रैव कर्णभूतमिदं जगत् ॥"
+          "text": "जाग्रत्स्वपंश्च कौन्तेय कर्णमेव सदा ह्यहम् ।\nपश्यामि तत्र तत्रैव कर्णभूतमिदं जगत् ॥",
+          "meaning": {
+            "en": "Waking or sleeping, son of Kunti, I always see only Karna; this whole world has become Karna to me."
+          }
         },
         {
           "n": 20,
-          "text": "यत्र यत्र हि गच्छामि कर्णाद्भीतो धनंजय ।\nतत्र तत्र हि पश्यामि कर्णमेवाग्रतः स्थितम् ॥"
+          "text": "यत्र यत्र हि गच्छामि कर्णाद्भीतो धनंजय ।\nतत्र तत्र हि पश्यामि कर्णमेवाग्रतः स्थितम् ॥",
+          "meaning": {
+            "en": "Wherever I go in fear of Karna, Dhananjaya, I see only Karna standing before me."
+          }
         },
         {
           "n": 21,
-          "text": "सोऽहं तेनैव वीरेण समरेष्वपलायिना ।\nसहयः सरथः पार्थ जित्वा जीवन्विसर्जितः ॥"
+          "text": "सोऽहं तेनैव वीरेण समरेष्वपलायिना ।\nसहयः सरथः पार्थ जित्वा जीवन्विसर्जितः ॥",
+          "meaning": {
+            "en": "That same man, a hero who never flees in battle, beat me, Partha, with horses and chariot, and let me go alive."
+          }
         },
         {
           "n": 22,
-          "text": "को नु मे जीवितेनार्थो राज्येनार्थोऽथ वा पुनः ।\nममैवं धिक्कृतस्येह कर्णेनाहवशोभिना ॥"
+          "text": "को नु मे जीवितेनार्थो राज्येनार्थोऽथ वा पुनः ।\nममैवं धिक्कृतस्येह कर्णेनाहवशोभिना ॥",
+          "meaning": {
+            "en": "What use is life to me, or a kingdom, thus scorned by Karna, shining in battle?"
+          }
         },
         {
           "n": 23,
-          "text": "न प्राप्तपूर्वं यद्भीष्मात्कृपाद्द्रोणाच्च संयुगे ।\nतत्प्राप्तमद्य मे युद्धे सूतपुत्रान्महारथात् ॥"
+          "text": "न प्राप्तपूर्वं यद्भीष्मात्कृपाद्द्रोणाच्च संयुगे ।\nतत्प्राप्तमद्य मे युद्धे सूतपुत्रान्महारथात् ॥",
+          "meaning": {
+            "en": "What I never suffered from Bhishma, Kripa or Drona in battle, I have suffered today from the great warrior, the charioteer's son."
+          }
         },
         {
           "n": 24,
-          "text": "तत्त्वा पृच्छामि कौन्तेय यथा ह्यकुशलस्तथा ।\nतन्ममाचक्ष्व कार्त्स्न्येन यथा कर्णस्त्वया हतः ॥"
+          "text": "तत्त्वा पृच्छामि कौन्तेय यथा ह्यकुशलस्तथा ।\nतन्ममाचक्ष्व कार्त्स्न्येन यथा कर्णस्त्वया हतः ॥",
+          "meaning": {
+            "en": "So I ask you, son of Kunti, as one who does not know: tell me everything about how you killed Karna."
+          }
         },
         {
           "n": 25,
-          "text": "शक्रवीर्यसमो युद्धे यमतुल्यपराक्रमः ।\nरामतुल्यस्तथास्त्रे यः स कथं वै निषूदितः ॥"
+          "text": "शक्रवीर्यसमो युद्धे यमतुल्यपराक्रमः ।\nरामतुल्यस्तथास्त्रे यः स कथं वै निषूदितः ॥",
+          "meaning": {
+            "en": "How was he brought down, he who was equal to Indra in strength, to Yama in prowess, and to Rama in weapons?"
+          }
         },
         {
           "n": 26,
-          "text": "महारथः समाख्यातः सर्वयुद्धविशारदः ।\nधनुर्धराणां प्रवरः सर्वेषामेकपूरुषः ॥"
+          "text": "महारथः समाख्यातः सर्वयुद्धविशारदः ।\nधनुर्धराणां प्रवरः सर्वेषामेकपूरुषः ॥",
+          "meaning": {
+            "en": "Declared a great warrior, skilled in all kinds of war, foremost of archers, a single man among them all,"
+          }
         },
         {
           "n": 27,
-          "text": "पूजितो धृतराष्ट्रेण सपुत्रेण विशां पते ।\nसदा त्वदर्थं राधेयः स कथं निहतस्त्वया ॥"
+          "text": "पूजितो धृतराष्ट्रेण सपुत्रेण विशां पते ।\nसदा त्वदर्थं राधेयः स कथं निहतस्त्वया ॥",
+          "meaning": {
+            "en": "honored by Dhritarashtra and his sons, lord of men, always aiming at you, Radha's son: how was he killed by you?"
+          }
         },
         {
           "n": 28,
-          "text": "धृतराष्ट्रो हि योधेषु सर्वेष्वेव सदार्जुन ।\nतव मृत्युं रणे कर्णं मन्यते पुरुषर्षभः ॥"
+          "text": "धृतराष्ट्रो हि योधेषु सर्वेष्वेव सदार्जुन ।\nतव मृत्युं रणे कर्णं मन्यते पुरुषर्षभः ॥",
+          "meaning": {
+            "en": "For Dhritarashtra, Arjuna, always thinks among all his warriors that Karna in battle will be your death, bull among men."
+          }
         },
         {
           "n": 29,
-          "text": "स त्वया पुरुषव्याघ्र कथं युद्धे निषूदितः ।\nतं ममाचक्ष्व बीभत्सो यथा कर्णो हतस्त्वया ॥"
+          "text": "स त्वया पुरुषव्याघ्र कथं युद्धे निषूदितः ।\nतं ममाचक्ष्व बीभत्सो यथा कर्णो हतस्त्वया ॥",
+          "meaning": {
+            "en": "So how was he slain by you in battle, tiger among men? Tell me, Bibhatsu, how you killed Karna."
+          }
         },
         {
           "n": 30,
-          "text": "सोत्सेधमस्य च शिरः पश्यतां सुहृदां हृतम् ।\nत्वया पुरुषशार्दूल शार्दूलेन यथा रुरोः ॥"
+          "text": "सोत्सेधमस्य च शिरः पश्यतां सुहृदां हृतम् ।\nत्वया पुरुषशार्दूल शार्दूलेन यथा रुरोः ॥",
+          "meaning": {
+            "en": "His head, so proud, was taken before the eyes of his friends by you, tiger among men, as a tiger takes the head of a deer."
+          }
         },
         {
           "n": 31,
-          "text": "यः पर्युपासीत्प्रदिशो दिशश्च\nत्वां सूतपुत्रः समरे परीप्सन् ।\nदित्सुः कर्णः समरे हस्तिपूगं\nस हीदानीं कङ्कपत्रैः सुतीक्ष्णैः ॥"
+          "text": "यः पर्युपासीत्प्रदिशो दिशश्च\nत्वां सूतपुत्रः समरे परीप्सन् ।\nदित्सुः कर्णः समरे हस्तिपूगं\nस हीदानीं कङ्कपत्रैः सुतीक्ष्णैः ॥",
+          "meaning": {
+            "en": "The charioteer's son, who sought you in battle in all directions and quarters, Karna, who was ready to give a herd of elephants for it: is he now brought down by your very sharp heron-feathered arrows?"
+          }
         },
         {
           "n": 32,
-          "text": "त्वया रणे निहतः सूतपुत्रः\nकच्चिच्छेते भूमितले दुरात्मा ।\nकच्चित्प्रियं मे परमं त्वयाद्य\nकृतं रणे सूतपुत्रं निहत्य ॥"
+          "text": "त्वया रणे निहतः सूतपुत्रः\nकच्चिच्छेते भूमितले दुरात्मा ।\nकच्चित्प्रियं मे परमं त्वयाद्य\nकृतं रणे सूतपुत्रं निहत्य ॥",
+          "meaning": {
+            "en": "Struck down by you in battle, does that evil-souled charioteer's son lie on the ground? Have you done me today the greatest kindness by killing the charioteer's son in battle?"
+          }
         },
         {
           "n": 33,
-          "text": "यः सर्वतः पर्यपतत्त्वदर्थे\nमदान्वितो गर्वितः सूतपुत्रः ।\nस शूरमानी समरे समेत्य\nकच्चित्त्वया निहतः संयुगेऽद्य ॥"
+          "text": "यः सर्वतः पर्यपतत्त्वदर्थे\nमदान्वितो गर्वितः सूतपुत्रः ।\nस शूरमानी समरे समेत्य\nकच्चित्त्वया निहतः संयुगेऽद्य ॥",
+          "meaning": {
+            "en": "The charioteer's son who in his pride and arrogance rushed on every side for you, thinking himself a hero, did you meet him and kill him in battle today?"
+          }
         },
         {
           "n": 34,
-          "text": "रौक्मं रथं हस्तिवरैश्च युक्तं\nरथं दित्सुर्यः परेभ्यस्त्वदर्थे ।\nसदा रणे स्पर्धते यः स पापः\nकच्चित्त्वया निहतस्तात युद्धे ॥"
+          "text": "रौक्मं रथं हस्तिवरैश्च युक्तं\nरथं दित्सुर्यः परेभ्यस्त्वदर्थे ।\nसदा रणे स्पर्धते यः स पापः\nकच्चित्त्वया निहतस्तात युद्धे ॥",
+          "meaning": {
+            "en": "The wicked man who was willing to give a golden chariot yoked with the finest elephants to others for the sake of getting you, and who always rivals you in battle: have you killed him, dear brother, in the fight?"
+          }
         },
         {
           "n": 35,
-          "text": "योऽसौ नित्यं शूरमदेन मत्तो\nविकत्थते संसदि कौरवाणाम् ।\nप्रियोऽत्यर्थं तस्य सुयोधनस्य\nकच्चित्स पापो निहतस्त्वयाद्य ॥"
+          "text": "योऽसौ नित्यं शूरमदेन मत्तो\nविकत्थते संसदि कौरवाणाम् ।\nप्रियोऽत्यर्थं तस्य सुयोधनस्य\nकच्चित्स पापो निहतस्त्वयाद्य ॥",
+          "meaning": {
+            "en": "The man who, always drunk with a hero's pride, boasts in the assembly of the Kauravas and is exceedingly dear to Suyodhana: have you killed that wicked man today?"
+          }
         },
         {
           "n": 36,
-          "text": "कच्चित्समागम्य धनुःप्रमुक्तै-\nस्त्वत्प्रेषितैर्लोहितार्थैर्विहंगैः ।\nशेतेऽद्य पापः स विभिन्नगात्रः\nकच्चिद्भग्नो धार्तराष्ट्रस्य बाहुः ॥"
+          "text": "कच्चित्समागम्य धनुःप्रमुक्तै-\nस्त्वत्प्रेषितैर्लोहितार्थैर्विहंगैः ।\nशेतेऽद्य पापः स विभिन्नगात्रः\nकच्चिद्भग्नो धार्तराष्ट्रस्य बाहुः ॥",
+          "meaning": {
+            "en": "Having met him, does he lie today, that wicked man, his body torn by the blood-seeking arrows, those birds of yours sent from your bow? Is the arm of Dhritarashtra's son broken?"
+          }
         },
         {
           "n": 37,
-          "text": "योऽसौ सदा श्लाघते राजमध्ये\nदुर्योधनं हर्षयन्दर्पपूर्णः ।\nअहं हन्ता फल्गुनस्येति मोहा-\nत्कच्चिद्धतस्तस्य न वै तथा रथः ॥"
+          "text": "योऽसौ सदा श्लाघते राजमध्ये\nदुर्योधनं हर्षयन्दर्पपूर्णः ।\nअहं हन्ता फल्गुनस्येति मोहा-\nत्कच्चिद्धतस्तस्य न वै तथा रथः ॥",
+          "meaning": {
+            "en": "The man who always boasts in the midst of kings, full of conceit, cheering Duryodhana, \"I will kill Phalguna\", in his delusion: is he killed, and his chariot too?"
+          }
         },
         {
           "n": 38,
-          "text": "नाहं पादौ धावयिष्ये कदाचि-\nद्यावत्स्थितः पार्थ इत्यल्पबुद्धिः ।\nव्रतं तस्यैतत्सर्वदा शक्रसूनो\nकच्चित्त्वया निहतः सोऽद्य कर्णः ॥"
+          "text": "नाहं पादौ धावयिष्ये कदाचि-\nद्यावत्स्थितः पार्थ इत्यल्पबुद्धिः ।\nव्रतं तस्यैतत्सर्वदा शक्रसूनो\nकच्चित्त्वया निहतः सोऽद्य कर्णः ॥",
+          "meaning": {
+            "en": "\"I will never wash my feet while Partha stands\", that is the vow, son of Indra, that the dull man always keeps. Have you killed that Karna today?"
+          }
         },
         {
           "n": 39,
-          "text": "योऽसौ कृष्णामब्रवीद्दुष्टबुद्धिः\nकर्णः सभायां कुरुवीरमध्ये ।\nकिं पाण्डवांस्त्वं न जहासि कृष्णे\nसुदुर्बलान्पतितान्हीनसत्त्वान् ॥"
+          "text": "योऽसौ कृष्णामब्रवीद्दुष्टबुद्धिः\nकर्णः सभायां कुरुवीरमध्ये ।\nकिं पाण्डवांस्त्वं न जहासि कृष्णे\nसुदुर्बलान्पतितान्हीनसत्त्वान् ॥",
+          "meaning": {
+            "en": "The evil-minded Karna, who said to Krishna in the hall among the heroes of the Kurus, \"Why do you not leave the Pandavas, Krishna, so weak, fallen and lacking strength?\""
+          }
         },
         {
           "n": 40,
-          "text": "यत्तत्कर्णः प्रत्यजानात्त्वदर्थे\nनाहत्वाहं सह कृष्णेन पार्थम् ।\nइहोपयातेति स पापबुद्धिः\nकच्चिच्छेते शरसंभिन्नगात्रः ॥"
+          "text": "यत्तत्कर्णः प्रत्यजानात्त्वदर्थे\nनाहत्वाहं सह कृष्णेन पार्थम् ।\nइहोपयातेति स पापबुद्धिः\nकच्चिच्छेते शरसंभिन्नगात्रः ॥",
+          "meaning": {
+            "en": "and who, evil-minded, promised on your account, \"I will not come here until I have killed Partha together with Krishna\": does he lie with his body shattered by arrows?"
+          }
         },
         {
           "n": 41,
-          "text": "कच्चित्संग्रामे विदितो वा तदायं\nसमागमः सृञ्जयकौरवाणाम् ।\nयत्रावस्थामीदृशीं प्रापितोऽहं\nकच्चित्त्वया सोऽद्य हतः समेत्य ॥"
+          "text": "कच्चित्संग्रामे विदितो वा तदायं\nसमागमः सृञ्जयकौरवाणाम् ।\nयत्रावस्थामीदृशीं प्रापितोऽहं\nकच्चित्त्वया सोऽद्य हतः समेत्य ॥",
+          "meaning": {
+            "en": "Was this meeting of the Srinjayas and Kauravas in battle foreseen, when I was brought to such a state? Did you meet him and kill him today?"
+          }
         },
         {
           "n": 42,
-          "text": "कच्चित्त्वया तस्य सुमन्दबुद्धे-\nर्गाण्डीवमुक्तैर्विशिखैर्ज्वलद्भिः ।\nसकुण्डलं भानुमदुत्तमाङ्गं\nकायात्प्रकृत्तं युधि सव्यसाचिन् ॥"
+          "text": "कच्चित्त्वया तस्य सुमन्दबुद्धे-\nर्गाण्डीवमुक्तैर्विशिखैर्ज्वलद्भिः ।\nसकुण्डलं भानुमदुत्तमाङ्गं\nकायात्प्रकृत्तं युधि सव्यसाचिन् ॥",
+          "meaning": {
+            "en": "Has the head of that dull-witted man, with its earrings and its shine, been cut from his body, left-handed Arjuna, by blazing arrows loosed from Gandiva?"
+          }
         },
         {
           "n": 43,
-          "text": "यत्तन्मया बाणसमर्पितेन\nध्यातोऽसि कर्णस्य वधाय वीर ।\nतन्मे त्वया कच्चिदमोघमद्य\nध्यातं कृतं कर्णनिपातनेन ॥"
+          "text": "यत्तन्मया बाणसमर्पितेन\nध्यातोऽसि कर्णस्य वधाय वीर ।\nतन्मे त्वया कच्चिदमोघमद्य\nध्यातं कृतं कर्णनिपातनेन ॥",
+          "meaning": {
+            "en": "That which I thought of you when I was pierced by his arrows, hero, for the killing of Karna: has that thought of mine not been in vain, made true today by Karna's fall?"
+          }
         },
         {
           "n": 44,
-          "text": "यद्दर्पपूर्णः स सुयोधनोऽस्मा-\nनवेक्षते कर्णसमाश्रयेण ।\nकच्चित्त्वया सोऽद्य समाश्रयोऽस्य\nभग्नः पराक्रम्य सुयोधनस्य ॥"
+          "text": "यद्दर्पपूर्णः स सुयोधनोऽस्मा-\nनवेक्षते कर्णसमाश्रयेण ।\nकच्चित्त्वया सोऽद्य समाश्रयोऽस्य\nभग्नः पराक्रम्य सुयोधनस्य ॥",
+          "meaning": {
+            "en": "Duryodhana, full of pride, looks at us relying on Karna. Have you today, using your strength, broken Duryodhana's support?"
+          }
         },
         {
           "n": 45,
-          "text": "यो नः पुरा षण्ढतिलानवोच-\nत्सभामध्ये पार्थिवानां समक्षम् ।\nस दुर्मतिः कच्चिदुपेत्य संख्ये\nत्वया हतः सूतपुत्रोऽत्यमर्षी ॥"
+          "text": "यो नः पुरा षण्ढतिलानवोच-\nत्सभामध्ये पार्थिवानां समक्षम् ।\nस दुर्मतिः कच्चिदुपेत्य संख्ये\nत्वया हतः सूतपुत्रोऽत्यमर्षी ॥",
+          "meaning": {
+            "en": "He who once called us \"sterile sesame seeds\" in the middle of the assembly in front of the kings, that ill-minded, very impatient charioteer's son: have you met him in battle and killed him?"
+          }
         },
         {
           "n": 46,
-          "text": "यः सूतपुत्रः प्रहसन्दुरात्मा\nपुराब्रवीन्निर्जितां सौबलेन ।\nस्वयं प्रसह्यानय याज्ञसेनी-\nमपीह कच्चित्स हतस्त्वयाद्य ॥"
+          "text": "यः सूतपुत्रः प्रहसन्दुरात्मा\nपुराब्रवीन्निर्जितां सौबलेन ।\nस्वयं प्रसह्यानय याज्ञसेनी-\nमपीह कच्चित्स हतस्त्वयाद्य ॥",
+          "meaning": {
+            "en": "The wicked charioteer's son who once laughed and said, \"She has been won by Shakuni's son; seize Draupadi yourself, by force, and bring her here\": have you killed him today?"
+          }
         },
         {
           "n": 47,
-          "text": "यः शस्त्रभृच्छ्रेष्ठतमं पृथिव्यां\nपितामहं व्याक्षिपदल्पचेताः ।\nसंख्यायमानोऽर्धरथः स कच्चि-\nत्त्वया हतोऽद्याधिरथिर्दुरात्मा ॥"
+          "text": "यः शस्त्रभृच्छ्रेष्ठतमं पृथिव्यां\nपितामहं व्याक्षिपदल्पचेताः ।\nसंख्यायमानोऽर्धरथः स कच्चि-\nत्त्वया हतोऽद्याधिरथिर्दुरात्मा ॥",
+          "meaning": {
+            "en": "The small-minded man who insulted Grandfather Bhishma, the best of weapon-bearers on earth, and who is counted only as a half-chariot-warrior: has that evil-souled son of Adhiratha been killed by you today?"
+          }
         },
         {
           "n": 48,
-          "text": "अमर्षणं निकृतिसमीरणेरितं\nहृदि श्रितं ज्वलनमिमं सदा मम ।\nहतो मया सोऽद्य समेत्य पापधी-\nरिति ब्रुवन्प्रशमय मेऽद्य फल्गुन ॥"
+          "text": "अमर्षणं निकृतिसमीरणेरितं\nहृदि श्रितं ज्वलनमिमं सदा मम ।\nहतो मया सोऽद्य समेत्य पापधी-\nरिति ब्रुवन्प्रशमय मेऽद्य फल्गुन ॥",
+          "meaning": {
+            "en": "This burning impatience in my heart, blown by the wind of that deceit, has always dwelt there. Tell me, Phalguna, 'Today I met that wicked-minded man and killed him,' and quiet it.\""
+          }
         }
       ]
     }

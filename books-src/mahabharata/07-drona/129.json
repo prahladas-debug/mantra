@@ -22,150 +22,261 @@
       "titleEn": "Ghatotkachavadha Parva (Slaying of Ghatotkacha)",
       "verses": [
         {
-          "text": "धृतराष्ट्र उवाच"
+          "text": "धृतराष्ट्र उवाच",
+          "meaning": {
+            "en": "Dhritarashtra said:"
+          }
         },
         {
           "n": 1,
-          "text": "यत्तदा प्राविशत्पाण्डूनाचार्यः कुपितो वशी ।\nउक्त्वा दुर्योधनं सम्यङ्मम शास्त्रातिगं सुतम् ॥"
+          "text": "यत्तदा प्राविशत्पाण्डूनाचार्यः कुपितो वशी ।\nउक्त्वा दुर्योधनं सम्यङ्मम शास्त्रातिगं सुतम् ॥",
+          "meaning": {
+            "en": "When the angry, self-controlled teacher entered the Pandava ranks after speaking properly to Duryodhana, my son who has overstepped the rules,"
+          }
         },
         {
           "n": 2,
-          "text": "प्रविश्य विचरन्तं च रणे शूरमवस्थितम् ।\nकथं द्रोणं महेष्वासं पाण्डवाः पर्यवारयन् ॥"
+          "text": "प्रविश्य विचरन्तं च रणे शूरमवस्थितम् ।\nकथं द्रोणं महेष्वासं पाण्डवाः पर्यवारयन् ॥",
+          "meaning": {
+            "en": "and as he moved about, standing firm in the battle, how did the Pandavas surround the great bowman Drona?"
+          }
         },
         {
           "n": 3,
-          "text": "केऽरक्षन्दक्षिणं चक्रमाचार्यस्य महात्मनः ।\nके चोत्तरमरक्षन्त निघ्नतः शात्रवान्रणे ॥"
+          "text": "केऽरक्षन्दक्षिणं चक्रमाचार्यस्य महात्मनः ।\nके चोत्तरमरक्षन्त निघ्नतः शात्रवान्रणे ॥",
+          "meaning": {
+            "en": "Who guarded the right wheel of the great-souled teacher, and who guarded the left as he struck down foes in battle?"
+          }
         },
         {
           "n": 4,
-          "text": "नृत्यन्स रथमार्गेषु सर्वशस्त्रभृतां वरः ।\nधूमकेतुरिव क्रुद्धः कथं मृत्युमुपेयिवान् ॥"
+          "text": "नृत्यन्स रथमार्गेषु सर्वशस्त्रभृतां वरः ।\nधूमकेतुरिव क्रुद्धः कथं मृत्युमुपेयिवान् ॥",
+          "meaning": {
+            "en": "How did he, dancing along the chariot-paths, best of all weapon-bearers, angry like a comet, meet his death?"
+          }
         },
         {
-          "text": "संजय उवाच"
+          "text": "संजय उवाच",
+          "meaning": {
+            "en": "Sanjaya said:"
+          }
         },
         {
           "n": 5,
-          "text": "सायाह्ने सैन्धवं हत्वा राज्ञा पार्थः समेत्य च ।\nसात्यकिश्च महेष्वासो द्रोणमेवाभ्यधावताम् ॥"
+          "text": "सायाह्ने सैन्धवं हत्वा राज्ञा पार्थः समेत्य च ।\nसात्यकिश्च महेष्वासो द्रोणमेवाभ्यधावताम् ॥",
+          "meaning": {
+            "en": "In the evening, after the king had killed Saindhava, Partha and the great bowman Satyaki rushed straight at Drona."
+          }
         },
         {
           "n": 6,
-          "text": "तथा युधिष्ठिरस्तूर्णं भीमसेनश्च पाण्डवः ।\nपृथक्चमूभ्यां संसक्तौ द्रोणमेवाभ्यधावताम् ॥"
+          "text": "तथा युधिष्ठिरस्तूर्णं भीमसेनश्च पाण्डवः ।\nपृथक्चमूभ्यां संसक्तौ द्रोणमेवाभ्यधावताम् ॥",
+          "meaning": {
+            "en": "Likewise Yudhishthira and Bhimasena the Pandava, each with his own force, joined the battle and rushed at Drona."
+          }
         },
         {
           "n": 7,
-          "text": "तथैव नकुलो धीमान्सहदेवश्च दुर्जयः ।\nधृष्टद्युम्नः शतानीको विराटश्च सकेकयः ।\nमत्स्याः शाल्वेयसेनाश्च द्रोणमेव ययुर्युधि ॥"
+          "text": "तथैव नकुलो धीमान्सहदेवश्च दुर्जयः ।\nधृष्टद्युम्नः शतानीको विराटश्च सकेकयः ।\nमत्स्याः शाल्वेयसेनाश्च द्रोणमेव ययुर्युधि ॥",
+          "meaning": {
+            "en": "So too wise Nakula and unconquerable Sahadeva, Dhrishtadyumna, Shatanika, Virata with the Kekayas, the Matsyas and Shalveya's troops went at Drona in the battle."
+          }
         },
         {
           "n": 8,
-          "text": "द्रुपदश्च तथा राजा पाञ्चालैरभिरक्षितः ।\nधृष्टद्युम्नपिता राजन्द्रोणमेवाभ्यवर्तत ॥"
+          "text": "द्रुपदश्च तथा राजा पाञ्चालैरभिरक्षितः ।\nधृष्टद्युम्नपिता राजन्द्रोणमेवाभ्यवर्तत ॥",
+          "meaning": {
+            "en": "King Drupada too, protected by the Panchalas, Dhrishtadyumna's father, advanced on Drona alone, O king."
+          }
         },
         {
           "n": 9,
-          "text": "द्रौपदेया महेष्वासा राक्षसश्च घटोत्कचः ।\nससेनास्तेऽभ्यवर्तन्त द्रोणमेव महाद्युतिम् ॥"
+          "text": "द्रौपदेया महेष्वासा राक्षसश्च घटोत्कचः ।\nससेनास्तेऽभ्यवर्तन्त द्रोणमेव महाद्युतिम् ॥",
+          "meaning": {
+            "en": "The sons of Draupadi, great bowmen, and the rakshasa Ghatotkacha with their forces advanced on the radiant Drona."
+          }
         },
         {
           "n": 10,
-          "text": "प्रभद्रकाश्च पाञ्चालाः षट्सहस्राः प्रहारिणः ।\nद्रोणमेवाभ्यवर्तन्त पुरस्कृत्य शिखण्डिनम् ॥"
+          "text": "प्रभद्रकाश्च पाञ्चालाः षट्सहस्राः प्रहारिणः ।\nद्रोणमेवाभ्यवर्तन्त पुरस्कृत्य शिखण्डिनम् ॥",
+          "meaning": {
+            "en": "The Prabhadrakas and the six thousand Panchala fighters advanced on Drona with Shikhandi at their head."
+          }
         },
         {
           "n": 11,
-          "text": "तथेतरे नरव्याघ्राः पाण्डवानां महारथाः ।\nसहिताः संन्यवर्तन्त द्रोणमेव द्विजर्षभम् ॥"
+          "text": "तथेतरे नरव्याघ्राः पाण्डवानां महारथाः ।\nसहिताः संन्यवर्तन्त द्रोणमेव द्विजर्षभम् ॥",
+          "meaning": {
+            "en": "And the other great chariot-fighters of the Pandavas, tigers among men, turned together toward Drona, best of Brahmins."
+          }
         },
         {
           "n": 12,
-          "text": "तेषु शूरेषु युद्धाय गतेषु भरतर्षभ ।\nबभूव रजनी घोरा भीरूणां भयवर्धिनी ॥"
+          "text": "तेषु शूरेषु युद्धाय गतेषु भरतर्षभ ।\nबभूव रजनी घोरा भीरूणां भयवर्धिनी ॥",
+          "meaning": {
+            "en": "When those heroes had gone to fight, best of Bharatas, a terrible night came, increasing the fear of the fearful."
+          }
         },
         {
           "n": 13,
-          "text": "योधानामशिवा रौद्रा राजन्नन्तकगामिनी ।\nकुञ्जराश्वमनुष्याणां प्राणान्तकरणी तदा ॥"
+          "text": "योधानामशिवा रौद्रा राजन्नन्तकगामिनी ।\nकुञ्जराश्वमनुष्याणां प्राणान्तकरणी तदा ॥",
+          "meaning": {
+            "en": "It was inauspicious and dreadful to warriors, king, and ended in death, taking the lives of elephants, horses and men."
+          }
         },
         {
           "n": 14,
-          "text": "तस्यां रजन्यां घोरायां नदन्त्यः सर्वतः शिवाः ।\nन्यवेदयन्भयं घोरं सज्वालकवलैर्मुखैः ॥"
+          "text": "तस्यां रजन्यां घोरायां नदन्त्यः सर्वतः शिवाः ।\nन्यवेदयन्भयं घोरं सज्वालकवलैर्मुखैः ॥",
+          "meaning": {
+            "en": "In that fearsome night jackals howled everywhere, their mouths holding flaming morsels, announcing dreadful danger."
+          }
         },
         {
           "n": 15,
-          "text": "उलूकाश्चाप्यदृश्यन्त शंसन्तो विपुलं भयम् ।\nविशेषतः कौरवाणां ध्वजिन्यामतिदारुणम् ॥"
+          "text": "उलूकाश्चाप्यदृश्यन्त शंसन्तो विपुलं भयम् ।\nविशेषतः कौरवाणां ध्वजिन्यामतिदारुणम् ॥",
+          "meaning": {
+            "en": "Owls too were seen, announcing great fear, especially fierce for the Kaurava army."
+          }
         },
         {
           "n": 16,
-          "text": "ततः सैन्येषु राजेन्द्र शब्दः समभवन्महान् ।\nभेरीशब्देन महता मृदङ्गानां स्वनेन च ॥"
+          "text": "ततः सैन्येषु राजेन्द्र शब्दः समभवन्महान् ।\nभेरीशब्देन महता मृदङ्गानां स्वनेन च ॥",
+          "meaning": {
+            "en": "Then, king of kings, a great noise rose in the armies, with the loud sound of kettledrums and drums,"
+          }
         },
         {
           "n": 17,
-          "text": "गजानां गर्जितैश्चापि तुरङ्गाणां च हेषितैः ।\nखुरशब्दनिपातैश्च तुमुलः सर्वतोऽभवत् ॥"
+          "text": "गजानां गर्जितैश्चापि तुरङ्गाणां च हेषितैः ।\nखुरशब्दनिपातैश्च तुमुलः सर्वतोऽभवत् ॥",
+          "meaning": {
+            "en": "the trumpeting of elephants, the neighing of horses, and the sound of falling hooves, a tumult on every side."
+          }
         },
         {
           "n": 18,
-          "text": "ततः समभवद्युद्धं संध्यायामतिदारुणम् ।\nद्रोणस्य च महाराज सृञ्जयानां च सर्वशः ॥"
+          "text": "ततः समभवद्युद्धं संध्यायामतिदारुणम् ।\nद्रोणस्य च महाराज सृञ्जयानां च सर्वशः ॥",
+          "meaning": {
+            "en": "Then a very fierce battle came about at twilight between Drona and the Srinjayas on every side, O great king."
+          }
         },
         {
           "n": 19,
-          "text": "तमसा चावृते लोके न प्राज्ञायत किंचन ।\nसैन्येन रजसा चैव समन्तादुत्थितेन ह ॥"
+          "text": "तमसा चावृते लोके न प्राज्ञायत किंचन ।\nसैन्येन रजसा चैव समन्तादुत्थितेन ह ॥",
+          "meaning": {
+            "en": "When the world was covered in darkness, nothing could be made out, with dust risen from the army all around."
+          }
         },
         {
           "n": 20,
-          "text": "नरस्याश्वस्य नागस्य समसज्जत शोणितम् ।\nनापश्याम रजो भौमं कश्मलेनाभिसंवृताः ॥"
+          "text": "नरस्याश्वस्य नागस्य समसज्जत शोणितम् ।\nनापश्याम रजो भौमं कश्मलेनाभिसंवृताः ॥",
+          "meaning": {
+            "en": "The blood of man, horse and elephant mingled; we could not see the dust on the ground, covered as we were in murk."
+          }
         },
         {
           "n": 21,
-          "text": "रात्रौ वंशवनस्येव दह्यमानस्य पर्वते ।\nघोरश्चटचटाशब्दः शस्त्राणां पततामभूत् ॥"
+          "text": "रात्रौ वंशवनस्येव दह्यमानस्य पर्वते ।\nघोरश्चटचटाशब्दः शस्त्राणां पततामभूत् ॥",
+          "meaning": {
+            "en": "In the night the clatter of falling weapons sounded fierce, like the cracking of a bamboo grove burning on a mountain."
+          }
         },
         {
           "n": 22,
-          "text": "नैव स्वे न परे राजन्प्राज्ञायन्त तमोवृते ।\nउन्मत्तमिव तत्सर्वं बभूव रजनीमुखे ॥"
+          "text": "नैव स्वे न परे राजन्प्राज्ञायन्त तमोवृते ।\nउन्मत्तमिव तत्सर्वं बभूव रजनीमुखे ॥",
+          "meaning": {
+            "en": "Neither friends nor foes could be told apart, king, in the darkness; at the beginning of night all was like madness."
+          }
         },
         {
           "n": 23,
-          "text": "भौमं रजोऽथ राजेन्द्र शोणितेन प्रशामितम् ।\nशातकौम्भैश्च कवचैर्भूषणैश्च तमोऽभ्यगात् ॥"
+          "text": "भौमं रजोऽथ राजेन्द्र शोणितेन प्रशामितम् ।\nशातकौम्भैश्च कवचैर्भूषणैश्च तमोऽभ्यगात् ॥",
+          "meaning": {
+            "en": "Then, king of kings, the dust of the earth was quelled by blood, and darkness was driven off by golden armor and ornaments."
+          }
         },
         {
           "n": 24,
-          "text": "ततः सा भारती सेना मणिहेमविभूषिता ।\nद्यौरिवासीत्सनक्षत्रा रजन्यां भरतर्षभ ॥"
+          "text": "ततः सा भारती सेना मणिहेमविभूषिता ।\nद्यौरिवासीत्सनक्षत्रा रजन्यां भरतर्षभ ॥",
+          "meaning": {
+            "en": "Then that Bharata army, adorned with jewels and gold, was like the sky with its stars in the night, O best of the Bharatas."
+          }
         },
         {
           "n": 25,
-          "text": "गोमायुबडसंघुष्टा शक्तिध्वजसमाकुला ।\nदारुणाभिरुता घोरा क्ष्वेडितोत्क्रुष्टनादिता ॥"
+          "text": "गोमायुबडसंघुष्टा शक्तिध्वजसमाकुला ।\nदारुणाभिरुता घोरा क्ष्वेडितोत्क्रुष्टनादिता ॥",
+          "meaning": {
+            "en": "It was loud with jackals and crows, thronged with spears and banners, full of dreadful cries, shrieks and shouts."
+          }
         },
         {
           "n": 26,
-          "text": "ततोऽभवन्महाशब्दस्तुमुलो लोमहर्षणः ।\nसमावृण्वन्दिशः सर्वा महेन्द्राशनिनिस्वनः ॥"
+          "text": "ततोऽभवन्महाशब्दस्तुमुलो लोमहर्षणः ।\nसमावृण्वन्दिशः सर्वा महेन्द्राशनिनिस्वनः ॥",
+          "meaning": {
+            "en": "Then a great tumult arose, hair-raising, filling all the directions, with a sound like Indra's thunderbolt."
+          }
         },
         {
           "n": 27,
-          "text": "सा निशीथे महाराज सेनादृश्यत भारती ।\nअङ्गदैः कुण्डलैर्निष्कैः शस्त्रैश्चैवावभासिता ॥"
+          "text": "सा निशीथे महाराज सेनादृश्यत भारती ।\nअङ्गदैः कुण्डलैर्निष्कैः शस्त्रैश्चैवावभासिता ॥",
+          "meaning": {
+            "en": "At midnight, great king, that Bharata army was seen lit up by armlets, earrings, necklaces and weapons."
+          }
         },
         {
           "n": 28,
-          "text": "तत्र नागा रथाश्चैव जाम्बूनदविभूषिताः ।\nनिशायां प्रत्यदृश्यन्त मेघा इव सविद्युतः ॥"
+          "text": "तत्र नागा रथाश्चैव जाम्बूनदविभूषिताः ।\nनिशायां प्रत्यदृश्यन्त मेघा इव सविद्युतः ॥",
+          "meaning": {
+            "en": "There elephants and chariots adorned with Jambunada gold were seen in the night like clouds with lightning."
+          }
         },
         {
           "n": 29,
-          "text": "ऋष्टिशक्तिगदाबाणमुसलप्रासपट्टिशाः ।\nसंपतन्तो व्यदृश्यन्त भ्राजमाना इवाग्नयः ॥"
+          "text": "ऋष्टिशक्तिगदाबाणमुसलप्रासपट्टिशाः ।\nसंपतन्तो व्यदृश्यन्त भ्राजमाना इवाग्नयः ॥",
+          "meaning": {
+            "en": "Darts, spears, maces, arrows, clubs, lances and swords were seen falling, shining like fires."
+          }
         },
         {
           "n": 30,
-          "text": "दुर्योधनपुरोवातां रथनागबलाहकाम् ।\nवादित्रघोषस्तनितां चापविद्युद्ध्वजैर्वृताम् ॥"
+          "text": "दुर्योधनपुरोवातां रथनागबलाहकाम् ।\nवादित्रघोषस्तनितां चापविद्युद्ध्वजैर्वृताम् ॥",
+          "meaning": {
+            "en": "That battle was like a storm with Duryodhana as its forerunning wind, with chariots and elephants as clouds, with the sound of instruments as thunder, and wreathed in bows as lightning and banners."
+          }
         },
         {
           "n": 31,
-          "text": "द्रोणपाण्डवपर्जन्यां खड्गशक्तिगदाशनिम् ।\nशरधारास्त्रपवनां भृशं शीतोष्णसंकुलाम् ॥"
+          "text": "द्रोणपाण्डवपर्जन्यां खड्गशक्तिगदाशनिम् ।\nशरधारास्त्रपवनां भृशं शीतोष्णसंकुलाम् ॥",
+          "meaning": {
+            "en": "With Drona and the Pandavas as its rain-clouds, with swords, spears and maces as thunderbolts, with streams of arrows as its wind, thick with cold and heat together,"
+          }
         },
         {
           "n": 32,
-          "text": "घोरां विस्मापनीमुग्रां जीवितच्छिदमप्लवाम् ।\nतां प्राविशन्नतिभयां सेनां युद्धचिकीर्षवः ॥"
+          "text": "घोरां विस्मापनीमुग्रां जीवितच्छिदमप्लवाम् ।\nतां प्राविशन्नतिभयां सेनां युद्धचिकीर्षवः ॥",
+          "meaning": {
+            "en": "dreadful, amazing, fierce, cutting off lives, with no raft of safety: into that fearsome army entered those who wished to fight."
+          }
         },
         {
           "n": 33,
-          "text": "तस्मिन्रात्रिमुखे घोरे महाशब्दनिनादिते ।\nभीरूणां त्रासजनने शूराणां हर्षवर्धने ॥"
+          "text": "तस्मिन्रात्रिमुखे घोरे महाशब्दनिनादिते ।\nभीरूणां त्रासजनने शूराणां हर्षवर्धने ॥",
+          "meaning": {
+            "en": "In that dreadful opening of the night, resounding with great noise, causing terror in the timid and joy in the brave,"
+          }
         },
         {
           "n": 34,
-          "text": "रात्रियुद्धे तदा घोरे वर्तमाने सुदारुणे ।\nद्रोणमभ्यद्रवन्क्रुद्धाः सहिताः पाण्डुसृञ्जयाः ॥"
+          "text": "रात्रियुद्धे तदा घोरे वर्तमाने सुदारुणे ।\nद्रोणमभ्यद्रवन्क्रुद्धाः सहिताः पाण्डुसृञ्जयाः ॥",
+          "meaning": {
+            "en": "while the dreadful, very fierce night battle went on, the Pandavas and Srinjayas, enraged, rushed together at Drona."
+          }
         },
         {
           "n": 35,
-          "text": "ये ये प्रमुखतो राजन्न्यवर्तन्त महात्मनः ।\nतान्सर्वान्विमुखांश्चक्रे कांश्चिन्निन्ये यमक्षयम् ॥"
+          "text": "ये ये प्रमुखतो राजन्न्यवर्तन्त महात्मनः ।\nतान्सर्वान्विमुखांश्चक्रे कांश्चिन्निन्ये यमक्षयम् ॥",
+          "meaning": {
+            "en": "All those who turned to face him, O king, the great-souled man made turn away, and some he sent to Yama's house."
+          }
         }
       ]
     }

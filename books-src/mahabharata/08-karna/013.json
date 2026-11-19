@@ -22,107 +22,185 @@
       "titleEn": "Karna Parva",
       "verses": [
         {
-          "text": "संजय उवाच"
+          "text": "संजय उवाच",
+          "meaning": {
+            "en": "Sanjaya said:"
+          }
         },
         {
           "n": 1,
-          "text": "अथोत्तरेण पाण्डूनां सेनायां ध्वनिरुत्थितः ।\nरथनागाश्वपत्तीनां दण्डधारेण वध्यताम् ॥"
+          "text": "अथोत्तरेण पाण्डूनां सेनायां ध्वनिरुत्थितः ।\nरथनागाश्वपत्तीनां दण्डधारेण वध्यताम् ॥",
+          "meaning": {
+            "en": "Then, to the north, a cry rose in the Pandava army as chariots, elephants, horses and foot-soldiers were being killed by Dandadhara."
+          }
         },
         {
           "n": 2,
-          "text": "निवर्तयित्वा तु रथं केशवोऽर्जुनमब्रवीत् ।\nवाहयन्नेव तुरगान्गरुडानिलरंहसः ॥"
+          "text": "निवर्तयित्वा तु रथं केशवोऽर्जुनमब्रवीत् ।\nवाहयन्नेव तुरगान्गरुडानिलरंहसः ॥",
+          "meaning": {
+            "en": "Turning the chariot back, Keshava spoke to Arjuna while still driving his horses, swift as Garuda and the wind."
+          }
         },
         {
           "n": 3,
-          "text": "मागधोऽथाप्यतिक्रान्तो द्विरदेन प्रमाथिना ।\nभगदत्तादनवरः शिक्षया च बलेन च ॥"
+          "text": "मागधोऽथाप्यतिक्रान्तो द्विरदेन प्रमाथिना ।\nभगदत्तादनवरः शिक्षया च बलेन च ॥",
+          "meaning": {
+            "en": "\"The Magadha king, mounted on a crushing elephant, has come forward, no less than Bhagadatta in skill and strength."
+          }
         },
         {
           "n": 4,
-          "text": "एनं हत्वा निहन्तासि पुनः संशप्तकानिति ।\nवाक्यान्ते प्रापयत्पार्थं दण्डधारान्तिकं प्रति ॥"
+          "text": "एनं हत्वा निहन्तासि पुनः संशप्तकानिति ।\nवाक्यान्ते प्रापयत्पार्थं दण्डधारान्तिकं प्रति ॥",
+          "meaning": {
+            "en": "Kill him first; afterwards you can kill the Samshaptakas again.\" At the end of these words he brought Partha to Dandadhara."
+          }
         },
         {
           "n": 5,
-          "text": "स मागधानां प्रवरोऽङ्कुशग्रहो\nग्रहेष्वसह्यो विकचो यथा ग्रहः ।\nसपत्नसेनां प्रममाथ दारुणो\nमहीं समग्रां विकचो यथा ग्रहः ॥"
+          "text": "स मागधानां प्रवरोऽङ्कुशग्रहो\nग्रहेष्वसह्यो विकचो यथा ग्रहः ।\nसपत्नसेनां प्रममाथ दारुणो\nमहीं समग्रां विकचो यथा ग्रहः ॥",
+          "meaning": {
+            "en": "That best of the Magadhas, goad in hand, unbearable among elephant-riders, like a grim planet in an eclipse, terrible, crushed the enemy army like a planet crushing the whole earth."
+          }
         },
         {
           "n": 6,
-          "text": "सुकल्पितं दानवनागसंनिभं\nमहाभ्रसंह्रादममित्रमर्दनम् ।\nरथाश्वमातङ्गगणान्सहस्रशः\nसमास्थितो हन्ति शरैर्द्विपानपि ॥"
+          "text": "सुकल्पितं दानवनागसंनिभं\nमहाभ्रसंह्रादममित्रमर्दनम् ।\nरथाश्वमातङ्गगणान्सहस्रशः\nसमास्थितो हन्ति शरैर्द्विपानपि ॥",
+          "meaning": {
+            "en": "Mounted on his well-equipped elephant, like a danava, roaring like a great cloud and crushing enemies, he killed thousands of chariots, horses and elephant herds, and even elephants, with arrows."
+          }
         },
         {
           "n": 7,
-          "text": "रथानधिष्ठाय सवाजिसारथी-\nन्रथांश्च पद्भिस्त्वरितो व्यपोथयत् ।\nद्विपांश्च पद्भ्यां चरणैः करेण च\nद्विपास्थितो हन्ति स कालचक्रवत् ॥"
+          "text": "रथानधिष्ठाय सवाजिसारथी-\nन्रथांश्च पद्भिस्त्वरितो व्यपोथयत् ।\nद्विपांश्च पद्भ्यां चरणैः करेण च\nद्विपास्थितो हन्ति स कालचक्रवत् ॥",
+          "meaning": {
+            "en": "Standing on chariots he trampled them with their horses and charioteers; with his feet, with the elephant's feet and trunk he crushed elephants, killing like the wheel of Time."
+          }
         },
         {
           "n": 8,
-          "text": "नरांश्च कार्ष्णायसवर्मभूषणा-\nन्निपात्य साश्वानपि पत्तिभिः सह ।\nव्यपोथयद्दन्तिवरेण शुष्मिणा\nसशब्दवत्स्थूलनडान्यथा तथा ॥"
+          "text": "नरांश्च कार्ष्णायसवर्मभूषणा-\nन्निपात्य साश्वानपि पत्तिभिः सह ।\nव्यपोथयद्दन्तिवरेण शुष्मिणा\nसशब्दवत्स्थूलनडान्यथा तथा ॥",
+          "meaning": {
+            "en": "He felled men with iron armour and ornaments, with horses and foot-soldiers, and with his strong best of elephants crushed them noisily like thick reeds."
+          }
         },
         {
           "n": 9,
-          "text": "अथार्जुनो ज्यातलनेमिनिस्वने\nमृदङ्गभेरीबहुशङ्खनादिते ।\nनराश्वमातङ्गसहस्रनादितै\nरथोत्तमेनाभ्यपतद्द्विपोत्तमम् ॥"
+          "text": "अथार्जुनो ज्यातलनेमिनिस्वने\nमृदङ्गभेरीबहुशङ्खनादिते ।\nनराश्वमातङ्गसहस्रनादितै\nरथोत्तमेनाभ्यपतद्द्विपोत्तमम् ॥",
+          "meaning": {
+            "en": "Then Arjuna, with the sound of his bowstring and wheel rims, and with drums, kettledrums and many conches resounding, and with the cries of thousands of men, horses and elephants, charged the best of elephants in his best of chariots."
+          }
         },
         {
           "n": 10,
-          "text": "ततोऽर्जुनं द्वादशभिः शरोत्तमै-\nर्जनार्दनं षोडशभिः समार्दयत् ।\nस दण्डधारस्तुरगांस्त्रिभिस्त्रिभि-\nस्ततो ननाद प्रजहास चासकृत् ॥"
+          "text": "ततोऽर्जुनं द्वादशभिः शरोत्तमै-\nर्जनार्दनं षोडशभिः समार्दयत् ।\nस दण्डधारस्तुरगांस्त्रिभिस्त्रिभि-\nस्ततो ननाद प्रजहास चासकृत् ॥",
+          "meaning": {
+            "en": "Then Dandadhara hurt Arjuna with twelve best arrows and Janardana with sixteen, and each of the horses with three; and he roared and laughed again and again."
+          }
         },
         {
           "n": 11,
-          "text": "ततोऽस्य पार्थः सगुणेषुकार्मुकं\nचकर्त भल्लैर्ध्वजमप्यलंकृतम् ।\nपुनर्नियन्तॄन्सह पादगोप्तृभि-\nस्ततस्तु चुक्रोध गिरिव्रजेश्वरः ॥"
+          "text": "ततोऽस्य पार्थः सगुणेषुकार्मुकं\nचकर्त भल्लैर्ध्वजमप्यलंकृतम् ।\nपुनर्नियन्तॄन्सह पादगोप्तृभि-\nस्ततस्तु चुक्रोध गिरिव्रजेश्वरः ॥",
+          "meaning": {
+            "en": "Then Partha cut his bow with its string and arrows with bhallas, and his adorned banner, and again his drivers and foot-guards; at that the lord of Girivraja grew angry."
+          }
         },
         {
           "n": 12,
-          "text": "ततोऽर्जुनं भिन्नकटेन दन्तिना\nघनाघनेनानिलतुल्यरंहसा ।\nअतीव चुक्षोभयिषुर्जनार्दनं\nधनंजयं चाभिजघान तोमरैः ॥"
+          "text": "ततोऽर्जुनं भिन्नकटेन दन्तिना\nघनाघनेनानिलतुल्यरंहसा ।\nअतीव चुक्षोभयिषुर्जनार्दनं\nधनंजयं चाभिजघान तोमरैः ॥",
+          "meaning": {
+            "en": "Then, wishing to disturb Arjuna greatly, with an elephant whose temples were broken, one like a cloud and swift as wind, he struck Janardana and Dhananjaya with lances."
+          }
         },
         {
           "n": 13,
-          "text": "अथास्य बाहू द्विपहस्तसंनिभौ\nशिरश्च पूर्णेन्दुनिभाननं त्रिभिः ।\nक्षुरैः प्रचिच्छेद सहैव पाण्डव-\nस्ततो द्विपं बाणशतैः समार्दयत् ॥"
+          "text": "अथास्य बाहू द्विपहस्तसंनिभौ\nशिरश्च पूर्णेन्दुनिभाननं त्रिभिः ।\nक्षुरैः प्रचिच्छेद सहैव पाण्डव-\nस्ततो द्विपं बाणशतैः समार्दयत् ॥",
+          "meaning": {
+            "en": "Then the Pandava with three razor-edged arrows cut his two arms like elephant trunks and his head with a face like the full moon, all together; then he tormented the elephant with hundreds of arrows."
+          }
         },
         {
           "n": 14,
-          "text": "स पार्थबाणैस्तपनीयभूषणैः\nसमारुचत्काञ्चनवर्मभृद्द्विपः ।\nतथा चकाशे निशि पर्वतो यथा\nदवाग्निना प्रज्वलितौषधिद्रुमः ॥"
+          "text": "स पार्थबाणैस्तपनीयभूषणैः\nसमारुचत्काञ्चनवर्मभृद्द्विपः ।\nतथा चकाशे निशि पर्वतो यथा\nदवाग्निना प्रज्वलितौषधिद्रुमः ॥",
+          "meaning": {
+            "en": "Pierced by Partha's gold-adorned arrows, the elephant in its golden armour shone like a mountain at night with herbs and trees ablaze in a forest fire."
+          }
         },
         {
           "n": 15,
-          "text": "स वेदनार्तोऽम्बुदनिस्वनो नदं-\nश्चलन्भ्रमन्प्रस्खलितोऽऽतुरो द्रवन् ।\nपपात रुग्णः सनियन्तृकस्तथा\nयथा गिरिर्वज्रनिपातचूर्णितः ॥"
+          "text": "स वेदनार्तोऽम्बुदनिस्वनो नदं-\nश्चलन्भ्रमन्प्रस्खलितोऽऽतुरो द्रवन् ।\nपपात रुग्णः सनियन्तृकस्तथा\nयथा गिरिर्वज्रनिपातचूर्णितः ॥",
+          "meaning": {
+            "en": "Tormented by pain, trumpeting like a cloud, staggering, wandering, stumbling, distressed and running, it fell, broken, with its driver, like a mountain crushed by a thunderbolt."
+          }
         },
         {
           "n": 16,
-          "text": "हिमावदातेन सुवर्णमालिना\nहिमाद्रिकूटप्रतिमेन दन्तिना ।\nहते रणे भ्रातरि दण्ड आव्रज-\nज्जिघांसुरिन्द्रावरजं धनंजयम् ॥"
+          "text": "हिमावदातेन सुवर्णमालिना\nहिमाद्रिकूटप्रतिमेन दन्तिना ।\nहते रणे भ्रातरि दण्ड आव्रज-\nज्जिघांसुरिन्द्रावरजं धनंजयम् ॥",
+          "meaning": {
+            "en": "When his brother was killed in battle, Danda, wishing to kill Dhananjaya, Indra's younger brother's friend, came on with an elephant white as snow, with a golden garland, like a peak of the Himalaya."
+          }
         },
         {
           "n": 17,
-          "text": "स तोमरैरर्ककरप्रभैस्त्रिभि-\nर्जनार्दनं पञ्चभिरेव चार्जुनम् ।\nसमर्पयित्वा विननाद चार्दयं-\nस्ततोऽस्य बाहू विचकर्त पाण्डवः ॥"
+          "text": "स तोमरैरर्ककरप्रभैस्त्रिभि-\nर्जनार्दनं पञ्चभिरेव चार्जुनम् ।\nसमर्पयित्वा विननाद चार्दयं-\nस्ततोऽस्य बाहू विचकर्त पाण्डवः ॥",
+          "meaning": {
+            "en": "He struck Janardana with three lances bright as the sun's rays and Arjuna with five, roaring and harming them; then the Pandava cut off his arms."
+          }
         },
         {
           "n": 18,
-          "text": "क्षुरप्रकृत्तौ सुभृशं सतोमरौ\nच्युताङ्गदौ चन्दनरूषितौ भुजौ ।\nगजात्पतन्तौ युगपद्विरेजतु-\nर्यथाद्रिशृङ्गात्पतितौ महोरगौ ॥"
+          "text": "क्षुरप्रकृत्तौ सुभृशं सतोमरौ\nच्युताङ्गदौ चन्दनरूषितौ भुजौ ।\nगजात्पतन्तौ युगपद्विरेजतु-\nर्यथाद्रिशृङ्गात्पतितौ महोरगौ ॥",
+          "meaning": {
+            "en": "His arms, cut by razor-edged arrows, with the lances, loosed armlets and smeared with sandal, falling from the elephant together, shone like two great serpents fallen from a mountain peak."
+          }
         },
         {
           "n": 19,
-          "text": "अथार्धचन्द्रेण हृतं किरीटिना\nपपात दण्डस्य शिरः क्षितिं द्विपात् ।\nतच्छोणिताभं निपतद्विरेजे\nदिवाकरोऽस्तादिव पश्चिमां दिशम् ॥"
+          "text": "अथार्धचन्द्रेण हृतं किरीटिना\nपपात दण्डस्य शिरः क्षितिं द्विपात् ।\nतच्छोणिताभं निपतद्विरेजे\nदिवाकरोऽस्तादिव पश्चिमां दिशम् ॥",
+          "meaning": {
+            "en": "Then Danda's head, cut by Kiritin with a half-moon arrow, fell from the elephant to the ground, and shone in falling, red with blood, like the sun setting in the western quarter."
+          }
         },
         {
           "n": 20,
-          "text": "अथ द्विपं श्वेतनगाग्रसंनिभं\nदिवाकरांशुप्रतिमैः शरोत्तमैः ।\nबिभेद पार्थः स पपात नानद-\nन्हिमाद्रिकूटः कुलिशाहतो यथा ॥"
+          "text": "अथ द्विपं श्वेतनगाग्रसंनिभं\nदिवाकरांशुप्रतिमैः शरोत्तमैः ।\nबिभेद पार्थः स पपात नानद-\nन्हिमाद्रिकूटः कुलिशाहतो यथा ॥",
+          "meaning": {
+            "en": "Then Partha pierced the elephant, like a peak of a white mountain, with the best arrows resembling the sun's rays; it fell trumpeting, like a peak of the Himalaya struck by a thunderbolt."
+          }
         },
         {
           "n": 21,
-          "text": "ततोऽपरे तत्प्रतिमा गजोत्तमा\nजिगीषवः संयति सव्यसाचिनम् ।\nतथा कृतास्तेन यथैव तौ द्विपौ\nततः प्रभग्नं सुमहद्रिपोर्बलम् ॥"
+          "text": "ततोऽपरे तत्प्रतिमा गजोत्तमा\nजिगीषवः संयति सव्यसाचिनम् ।\nतथा कृतास्तेन यथैव तौ द्विपौ\nततः प्रभग्नं सुमहद्रिपोर्बलम् ॥",
+          "meaning": {
+            "en": "Then other fine elephants like it, eager to conquer Savyasachin in the battle, were treated by him as those two had been, and the enemy's great force broke."
+          }
         },
         {
           "n": 22,
-          "text": "गजा रथाश्वाः पुरुषाश्च संघशः\nपरस्परघ्नाः परिपेतुराहवे ।\nपरस्परप्रस्खलिताः समाहता\nभृशं च तत्तत्कुलभाषिणो हताः ॥"
+          "text": "गजा रथाश्वाः पुरुषाश्च संघशः\nपरस्परघ्नाः परिपेतुराहवे ।\nपरस्परप्रस्खलिताः समाहता\nभृशं च तत्तत्कुलभाषिणो हताः ॥",
+          "meaning": {
+            "en": "Elephants, chariots, horses and men in crowds killed one another and fell in the battle, stumbling over each other and struck; those speaking their various family names were killed."
+          }
         },
         {
           "n": 23,
-          "text": "अथार्जुनं स्वे परिवार्य सैनिकाः\nपुरंदरं देवगणा इवाब्रुवन् ।\nअभैष्म यस्मान्मरणादिव प्रजाः\nस वीर दिष्ट्या निहतस्त्वया रिपुः ॥"
+          "text": "अथार्जुनं स्वे परिवार्य सैनिकाः\nपुरंदरं देवगणा इवाब्रुवन् ।\nअभैष्म यस्मान्मरणादिव प्रजाः\nस वीर दिष्ट्या निहतस्त्वया रिपुः ॥",
+          "meaning": {
+            "en": "Then Arjuna's own soldiers, surrounding him like the gods around Purandara, said: \"Hero, by good fortune the foe from whom we feared death as if for all creatures has been killed by you."
+          }
         },
         {
           "n": 24,
-          "text": "न चेत्परित्रास्य इमाञ्जनान्भया-\nद्द्विषद्भिरेवं बलिभिः प्रपीडितान् ।\nतथाभविष्यद्द्विषतां प्रमोदनं\nयथा हतेष्वेष्विह नोऽरिषु त्वया ॥"
+          "text": "न चेत्परित्रास्य इमाञ्जनान्भया-\nद्द्विषद्भिरेवं बलिभिः प्रपीडितान् ।\nतथाभविष्यद्द्विषतां प्रमोदनं\nयथा हतेष्वेष्विह नोऽरिषु त्वया ॥",
+          "meaning": {
+            "en": "If you had not rescued these people, oppressed by strong enemies in fear, there would have been joy for our foes as there is now for us with these enemies killed here.\""
+          }
         },
         {
           "n": 25,
-          "text": "इतीव भूयश्च सुहृद्भिरीरिता\nनिशम्य वाचः सुमनास्ततोऽर्जुनः ।\nयथानुरूपं प्रतिपूज्य तं जनं\nजगाम संशप्तकसंघहा पुनः ॥"
+          "text": "इतीव भूयश्च सुहृद्भिरीरिता\nनिशम्य वाचः सुमनास्ततोऽर्जुनः ।\nयथानुरूपं प्रतिपूज्य तं जनं\nजगाम संशप्तकसंघहा पुनः ॥",
+          "meaning": {
+            "en": "Hearing such words again from his friends, Arjuna, pleased, honoured those people as was fitting and went again to slay the bands of Samshaptakas."
+          }
         }
       ]
     }

@@ -22,111 +22,192 @@
       "titleEn": "Shalya Parva",
       "verses": [
         {
-          "text": "संजय उवाच"
+          "text": "संजय उवाच",
+          "meaning": {
+            "en": "Sanjaya said:"
+          }
         },
         {
           "n": 1,
-          "text": "संनिवृत्ते बलौघे तु शाल्वो म्लेच्छगणाधिपः ।\nअभ्यवर्तत संक्रुद्धः पाण्डूनां सुमहद्बलम् ॥"
+          "text": "संनिवृत्ते बलौघे तु शाल्वो म्लेच्छगणाधिपः ।\nअभ्यवर्तत संक्रुद्धः पाण्डूनां सुमहद्बलम् ॥",
+          "meaning": {
+            "en": "When the flood of troops had turned back, Shalva, lord of the horde of barbarians, furiously attacked the great Pandava army."
+          }
         },
         {
           "n": 2,
-          "text": "आस्थाय सुमहानागं प्रभिन्नं पर्वतोपमम् ।\nदृप्तमैरावतप्रख्यममित्रगणमर्दनम् ॥"
+          "text": "आस्थाय सुमहानागं प्रभिन्नं पर्वतोपमम् ।\nदृप्तमैरावतप्रख्यममित्रगणमर्दनम् ॥",
+          "meaning": {
+            "en": "He rode a huge rutting elephant, like a mountain, proud as Airavata and a crusher of enemy hosts."
+          }
         },
         {
           "n": 3,
-          "text": "योऽसौ महाभद्रकुलप्रसूतः\nसुपूजितो धार्तराष्ट्रेण नित्यम् ।\nसुकल्पितः शास्त्रविनिश्चयज्ञैः\nसदोपवाह्यः समरेषु राजन् ॥"
+          "text": "योऽसौ महाभद्रकुलप्रसूतः\nसुपूजितो धार्तराष्ट्रेण नित्यम् ।\nसुकल्पितः शास्त्रविनिश्चयज्ञैः\nसदोपवाह्यः समरेषु राजन् ॥",
+          "meaning": {
+            "en": "That elephant, born in the line of the Mahabhadras, was always honored by Duryodhana, fitted out by men expert in the treatises, and ever used as a mount in battles, O king."
+          }
         },
         {
           "n": 4,
-          "text": "तमास्थितो राजवरो बभूव\nयथोदयस्थः सविता क्षपान्ते ।\nस तेन नागप्रवरेण राज-\nन्नभ्युद्ययौ पाण्डुसुतान्समन्तात् ।\nशितैः पृषत्कैर्विददार चापि\nमहेन्द्रवज्रप्रतिमैः सुघोरैः ॥"
+          "text": "तमास्थितो राजवरो बभूव\nयथोदयस्थः सविता क्षपान्ते ।\nस तेन नागप्रवरेण राज-\nन्नभ्युद्ययौ पाण्डुसुतान्समन्तात् ।\nशितैः पृषत्कैर्विददार चापि\nमहेन्द्रवज्रप्रतिमैः सुघोरैः ॥",
+          "meaning": {
+            "en": "Mounted on it, that best of kings shone like the sun risen at the end of night. On that finest of elephants, O king, he advanced on the sons of Pandu from every side, tearing them with sharp, dreadful arrows like the thunderbolt of Indra."
+          }
         },
         {
           "n": 5,
-          "text": "ततः शरान्वै सृजतो महारणे\nयोधांश्च राजन्नयतो यमाय ।\nनास्यान्तरं ददृशुः स्वे परे वा\nयथा पुरा वज्रधरस्य दैत्याः ॥"
+          "text": "ततः शरान्वै सृजतो महारणे\nयोधांश्च राजन्नयतो यमाय ।\nनास्यान्तरं ददृशुः स्वे परे वा\nयथा पुरा वज्रधरस्य दैत्याः ॥",
+          "meaning": {
+            "en": "As he loosed arrows in that great battle and sent warriors to Death, O king, neither his own men nor the enemy could find any opening, as the demons once found none against the wielder of the thunderbolt."
+          }
         },
         {
           "n": 6,
-          "text": "ते पाण्डवाः सोमकाः सृञ्जयाश्च\nतमेव नागं ददृशुः समन्तात् ।\nसहस्रशो वै विचरन्तमेकं\nयथा महेन्द्रस्य गजं समीपे ॥"
+          "text": "ते पाण्डवाः सोमकाः सृञ्जयाश्च\nतमेव नागं ददृशुः समन्तात् ।\nसहस्रशो वै विचरन्तमेकं\nयथा महेन्द्रस्य गजं समीपे ॥",
+          "meaning": {
+            "en": "The Pandavas, Somakas and Srinjayas saw that elephant all around them, one animal ranging by the thousand, like the elephant of great Indra close by."
+          }
         },
         {
           "n": 7,
-          "text": "संद्राव्यमाणं तु बलं परेषां\nपरीतकल्पं विबभौ समन्तात् ।\nनैवावतस्थे समरे भृशं भया-\nद्विमर्दमानं तु परस्परं तदा ॥"
+          "text": "संद्राव्यमाणं तु बलं परेषां\nपरीतकल्पं विबभौ समन्तात् ।\nनैवावतस्थे समरे भृशं भया-\nद्विमर्दमानं तु परस्परं तदा ॥",
+          "meaning": {
+            "en": "The enemy army, being driven back, seemed hemmed in on every side; crushed against one another in terror, it could not hold its ground in the battle."
+          }
         },
         {
           "n": 8,
-          "text": "ततः प्रभग्ना सहसा महाचमूः\nसा पाण्डवी तेन नराधिपेन ।\nदिशश्चतस्रः सहसा प्रधाविता\nगजेन्द्रवेगं तमपारयन्ती ॥"
+          "text": "ततः प्रभग्ना सहसा महाचमूः\nसा पाण्डवी तेन नराधिपेन ।\nदिशश्चतस्रः सहसा प्रधाविता\nगजेन्द्रवेगं तमपारयन्ती ॥",
+          "meaning": {
+            "en": "Then the great Pandava army, suddenly broken by that king, fled in the four directions, unable to withstand the elephant's rush."
+          }
         },
         {
           "n": 9,
-          "text": "दृष्ट्वा च तां वेगवता प्रभग्नां\nसर्वे त्वदीया युधि योधमुख्याः ।\nअपूजयंस्तत्र नराधिपं तं\nदध्मुश्च शङ्खाञ्शशिसंनिकाशान् ॥"
+          "text": "दृष्ट्वा च तां वेगवता प्रभग्नां\nसर्वे त्वदीया युधि योधमुख्याः ।\nअपूजयंस्तत्र नराधिपं तं\nदध्मुश्च शङ्खाञ्शशिसंनिकाशान् ॥",
+          "meaning": {
+            "en": "Seeing it routed by that fast attacker, all the chief warriors on your side honored that king and blew conches white as the moon."
+          }
         },
         {
           "n": 10,
-          "text": "श्रुत्वा निनादं त्वथ कौरवाणां\nहर्षाद्विमुक्तं सह शङ्खशब्दैः ।\nसेनापतिः पाण्डवसृञ्जयानां\nपाञ्चालपुत्रो न ममर्ष रोषात् ॥"
+          "text": "श्रुत्वा निनादं त्वथ कौरवाणां\nहर्षाद्विमुक्तं सह शङ्खशब्दैः ।\nसेनापतिः पाण्डवसृञ्जयानां\nपाञ्चालपुत्रो न ममर्ष रोषात् ॥",
+          "meaning": {
+            "en": "Hearing the shout of the Kauravas, released with joy and mingled with conch-blasts, the Panchala prince, commander of the Pandavas and Srinjayas, could not bear it in his anger."
+          }
         },
         {
           "n": 11,
-          "text": "ततस्तु तं वै द्विरदं महात्मा\nप्रत्युद्ययौ त्वरमाणो जयाय ।\nजम्भो यथा शक्रसमागमे वै\nनागेन्द्रमैरावणमिन्द्रवाह्यम् ॥"
+          "text": "ततस्तु तं वै द्विरदं महात्मा\nप्रत्युद्ययौ त्वरमाणो जयाय ।\nजम्भो यथा शक्रसमागमे वै\nनागेन्द्रमैरावणमिन्द्रवाह्यम् ॥",
+          "meaning": {
+            "en": "Then the great-souled Dhrishtadyumna, eager for victory, hurried against that elephant, as Jambha once met Indra's mount, the king of elephants Airavana, in the fight with Shakra."
+          }
         },
         {
           "n": 12,
-          "text": "तमापतन्तं सहसा तु दृष्ट्वा\nपाञ्चालराजं युधि राजसिंहः ।\nतं वै द्विपं प्रेषयामास तूर्णं\nवधाय राजन्द्रुपदात्मजस्य ॥"
+          "text": "तमापतन्तं सहसा तु दृष्ट्वा\nपाञ्चालराजं युधि राजसिंहः ।\nतं वै द्विपं प्रेषयामास तूर्णं\nवधाय राजन्द्रुपदात्मजस्य ॥",
+          "meaning": {
+            "en": "Seeing the Panchala king's son charge at him suddenly, that lion among kings quickly drove the elephant at him to kill the son of Drupada, O king."
+          }
         },
         {
           "n": 13,
-          "text": "स तं द्विपं सहसाभ्यापतन्त-\nमविध्यदर्कप्रतिमैः पृषत्कैः ।\nकर्मारधौतैर्निशितैर्ज्वलद्भि-\nर्नाराचमुख्यैस्त्रिभिरुग्रवेगैः ॥"
+          "text": "स तं द्विपं सहसाभ्यापतन्त-\nमविध्यदर्कप्रतिमैः पृषत्कैः ।\nकर्मारधौतैर्निशितैर्ज्वलद्भि-\nर्नाराचमुख्यैस्त्रिभिरुग्रवेगैः ॥",
+          "meaning": {
+            "en": "As the elephant rushed at him, Dhrishtadyumna pierced it with three fierce, fast, blazing arrows, sharp, smith-polished and bright as the sun, the best of iron shafts."
+          }
         },
         {
           "n": 14,
-          "text": "ततोऽपरान्पञ्च शितान्महात्मा\nनाराचमुख्यान्विससर्ज कुम्भे ।\nस तैस्तु विद्धः परमद्विपो रणे\nतदा परावृत्य भृशं प्रदुद्रुवे ॥"
+          "text": "ततोऽपरान्पञ्च शितान्महात्मा\nनाराचमुख्यान्विससर्ज कुम्भे ।\nस तैस्तु विद्धः परमद्विपो रणे\nतदा परावृत्य भृशं प्रदुद्रुवे ॥",
+          "meaning": {
+            "en": "Then the great-souled one loosed five more sharp iron arrows at its temple. Struck by these, the mighty elephant turned about in the battle and fled in panic."
+          }
         },
         {
           "n": 15,
-          "text": "तं नागराजं सहसा प्रणुन्नं\nविद्राव्यमाणं च निगृह्य शाल्वः ।\nतोत्त्राङ्कुशैः प्रेषयामास तूर्णं\nपाञ्चालराजस्य रथं प्रदिश्य ॥"
+          "text": "तं नागराजं सहसा प्रणुन्नं\nविद्राव्यमाणं च निगृह्य शाल्वः ।\nतोत्त्राङ्कुशैः प्रेषयामास तूर्णं\nपाञ्चालराजस्य रथं प्रदिश्य ॥",
+          "meaning": {
+            "en": "Shalva, restraining that king of elephants, pushed back and routed, drove it quickly with goad and hook, pointing it toward the chariot of the Panchala prince."
+          }
         },
         {
           "n": 16,
-          "text": "दृष्ट्वापतन्तं सहसा तु नागं\nधृष्टद्युम्नः स्वरथाच्छीघ्रमेव ।\nगदां प्रगृह्याशु जवेन वीरो\nभूमिं प्रपन्नो भयविह्वलाङ्गः ॥"
+          "text": "दृष्ट्वापतन्तं सहसा तु नागं\nधृष्टद्युम्नः स्वरथाच्छीघ्रमेव ।\nगदां प्रगृह्याशु जवेन वीरो\nभूमिं प्रपन्नो भयविह्वलाङ्गः ॥",
+          "meaning": {
+            "en": "Seeing the elephant bearing down on him, the hero Dhrishtadyumna quickly took a mace and leapt from his chariot to the ground, his limbs shaking with fear."
+          }
         },
         {
           "n": 17,
-          "text": "स तं रथं हेमविभूषिताङ्गं\nसाश्वं ससूतं सहसा विमृद्य ।\nउत्क्षिप्य हस्तेन तदा महाद्विपो\nविपोथयामास वसुंधरातले ॥"
+          "text": "स तं रथं हेमविभूषिताङ्गं\nसाश्वं ससूतं सहसा विमृद्य ।\nउत्क्षिप्य हस्तेन तदा महाद्विपो\nविपोथयामास वसुंधरातले ॥",
+          "meaning": {
+            "en": "The great elephant crushed that chariot, its body adorned with gold, with its horses and charioteer, and, lifting it with its trunk, smashed it to the ground."
+          }
         },
         {
           "n": 18,
-          "text": "पाञ्चालराजस्य सुतं स दृष्ट्वा\nतदार्दितं नागवरेण तेन ।\nतमभ्यधावत्सहसा जवेन\nभीमः शिखण्डी च शिनेश्च नप्ता ॥"
+          "text": "पाञ्चालराजस्य सुतं स दृष्ट्वा\nतदार्दितं नागवरेण तेन ।\nतमभ्यधावत्सहसा जवेन\nभीमः शिखण्डी च शिनेश्च नप्ता ॥",
+          "meaning": {
+            "en": "Seeing the Panchala king's son beset by that fine elephant, Bhima, Shikhandi and the grandson of Shini rushed at it swiftly."
+          }
         },
         {
           "n": 19,
-          "text": "शरैश्च वेगं सहसा निगृह्य\nतस्याभितोऽभ्यापततो गजस्य ।\nस संगृहीतो रथिभिर्गजो वै\nचचाल तैर्वार्यमाणश्च संख्ये ॥"
+          "text": "शरैश्च वेगं सहसा निगृह्य\nतस्याभितोऽभ्यापततो गजस्य ।\nस संगृहीतो रथिभिर्गजो वै\nचचाल तैर्वार्यमाणश्च संख्ये ॥",
+          "meaning": {
+            "en": "They checked the rushing elephant's speed with arrows from every side, and the elephant, held by the chariot-warriors, wavered as they resisted it in battle."
+          }
         },
         {
           "n": 20,
-          "text": "ततः पृषत्कान्प्रववर्ष राजा\nसूर्यो यथा रश्मिजालं समन्तात् ।\nतेनाशुगैर्वध्यमाना रथौघाः\nप्रदुद्रुवुस्तत्र ततस्तु सर्वे ॥"
+          "text": "ततः पृषत्कान्प्रववर्ष राजा\nसूर्यो यथा रश्मिजालं समन्तात् ।\nतेनाशुगैर्वध्यमाना रथौघाः\nप्रदुद्रुवुस्तत्र ततस्तु सर्वे ॥",
+          "meaning": {
+            "en": "Then King Shalva rained arrows on every side as the sun spreads a net of rays. Struck by his swift shafts, the masses of chariots all fled."
+          }
         },
         {
           "n": 21,
-          "text": "तत्कर्म शाल्वस्य समीक्ष्य सर्वे\nपाञ्चालमत्स्या नृप सृञ्जयाश्च ।\nहाहाकारैर्नादयन्तः स्म युद्धे\nद्विपं समन्ताद्रुरुधुर्नराग्र्याः ॥"
+          "text": "तत्कर्म शाल्वस्य समीक्ष्य सर्वे\nपाञ्चालमत्स्या नृप सृञ्जयाश्च ।\nहाहाकारैर्नादयन्तः स्म युद्धे\nद्विपं समन्ताद्रुरुधुर्नराग्र्याः ॥",
+          "meaning": {
+            "en": "Seeing Shalva's deed, all the Panchalas, Matsyas and Srinjayas, O king, filled the battle with cries of alarm, and those foremost men hemmed in the elephant on every side."
+          }
         },
         {
           "n": 22,
-          "text": "पाञ्चालराजस्त्वरितस्तु शूरो\nगदां प्रगृह्याचलशृङ्गकल्पाम् ।\nअसंभ्रमं भारत शत्रुघाती\nजवेन वीरोऽनुससार नागम् ॥"
+          "text": "पाञ्चालराजस्त्वरितस्तु शूरो\nगदां प्रगृह्याचलशृङ्गकल्पाम् ।\nअसंभ्रमं भारत शत्रुघाती\nजवेन वीरोऽनुससार नागम् ॥",
+          "meaning": {
+            "en": "The brave Panchala king's son, killer of foes, took a mace like a mountain peak and, unflustered, O Bharata, followed the elephant quickly."
+          }
         },
         {
           "n": 23,
-          "text": "ततोऽथ नागं धरणीधराभं\nमदं स्रवन्तं जलदप्रकाशम् ।\nगदां समाविध्य भृशं जघान\nपाञ्चालराजस्य सुतस्तरस्वी ॥"
+          "text": "ततोऽथ नागं धरणीधराभं\nमदं स्रवन्तं जलदप्रकाशम् ।\nगदां समाविध्य भृशं जघान\nपाञ्चालराजस्य सुतस्तरस्वी ॥",
+          "meaning": {
+            "en": "Then the swift son of the Panchala king whirled his mace and struck hard the elephant, big as a mountain, streaming rut, looking like a cloud."
+          }
         },
         {
           "n": 24,
-          "text": "स भिन्नकुम्भः सहसा विनद्य\nमुखात्प्रभूतं क्षतजं विमुञ्चन् ।\nपपात नागो धरणीधराभः\nक्षितिप्रकम्पाच्चलितो यथाद्रिः ॥"
+          "text": "स भिन्नकुम्भः सहसा विनद्य\nमुखात्प्रभूतं क्षतजं विमुञ्चन् ।\nपपात नागो धरणीधराभः\nक्षितिप्रकम्पाच्चलितो यथाद्रिः ॥",
+          "meaning": {
+            "en": "With its temple smashed, the elephant suddenly bellowed and, vomiting much blood from its mouth, fell like a mountain shaken loose by an earthquake."
+          }
         },
         {
           "n": 25,
-          "text": "निपात्यमाने तु तदा गजेन्द्रे\nहाहाकृते तव पुत्रस्य सैन्ये ।\nस शाल्वराजस्य शिनिप्रवीरो\nजहार भल्लेन शिरः शितेन ॥"
+          "text": "निपात्यमाने तु तदा गजेन्द्रे\nहाहाकृते तव पुत्रस्य सैन्ये ।\nस शाल्वराजस्य शिनिप्रवीरो\nजहार भल्लेन शिरः शितेन ॥",
+          "meaning": {
+            "en": "As that king of elephants was falling and your son's army cried out in dismay, the hero of the Shini line, Satyaki, cut off Shalva's head with a sharp broad-headed arrow."
+          }
         },
         {
           "n": 26,
-          "text": "हृतोत्तमाङ्गो युधि सात्वतेन\nपपात भूमौ सह नागराज्ञा ।\nयथाद्रिशृङ्गं सुमहत्प्रणुन्नं\nवज्रेण देवाधिपचोदितेन ॥"
+          "text": "हृतोत्तमाङ्गो युधि सात्वतेन\nपपात भूमौ सह नागराज्ञा ।\nयथाद्रिशृङ्गं सुमहत्प्रणुन्नं\nवज्रेण देवाधिपचोदितेन ॥",
+          "meaning": {
+            "en": "His head struck off in battle by the Satvata, Shalva fell to the ground with the elephant king, like a great mountain peak hurled down by the thunderbolt flung by the lord of the gods."
+          }
         }
       ]
     }

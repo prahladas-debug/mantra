@@ -22,119 +22,206 @@
       "titleEn": "Karna Parva",
       "verses": [
         {
-          "text": "संजय उवाच"
+          "text": "संजय उवाच",
+          "meaning": {
+            "en": "Sanjaya said:"
+          }
         },
         {
           "n": 1,
-          "text": "राजन्कुरूणां प्रवरैर्बलैर्भीममभिद्रुतम् ।\nमज्जन्तमिव कौन्तेयमुज्जिहीर्षुर्धनंजयः ॥"
+          "text": "राजन्कुरूणां प्रवरैर्बलैर्भीममभिद्रुतम् ।\nमज्जन्तमिव कौन्तेयमुज्जिहीर्षुर्धनंजयः ॥",
+          "meaning": {
+            "en": "O king, Dhananjaya Arjuna wished to pull Bhima, the son of Kunti, out of the sea of Kuru warriors that had swarmed upon him, like a man sinking in water."
+          }
         },
         {
           "n": 2,
-          "text": "विमृद्य सूतपुत्रस्य सेनां भारत सायकैः ।\nप्राहिणोन्मृत्युलोकाय परवीरान्धनंजयः ॥"
+          "text": "विमृद्य सूतपुत्रस्य सेनां भारत सायकैः ।\nप्राहिणोन्मृत्युलोकाय परवीरान्धनंजयः ॥",
+          "meaning": {
+            "en": "O Bharata, Dhananjaya crushed the army of the charioteer's son with his arrows and sent enemy heroes off to the world of death."
+          }
         },
         {
           "n": 3,
-          "text": "ततोऽस्याम्बरमावृत्य शरजालानि भागशः ।\nअदृश्यन्त तथान्ये च निघ्नन्तस्तव वाहिनीम् ॥"
+          "text": "ततोऽस्याम्बरमावृत्य शरजालानि भागशः ।\nअदृश्यन्त तथान्ये च निघ्नन्तस्तव वाहिनीम् ॥",
+          "meaning": {
+            "en": "Then the sheets of arrows covered the sky, each in its own place, and other shafts were seen as well, slaying your host."
+          }
         },
         {
           "n": 4,
-          "text": "स पक्षिसंघाचरितमाकाशं पूरयञ्शरैः ।\nधनंजयो महाराज कुरूणामन्तकोऽभवत् ॥"
+          "text": "स पक्षिसंघाचरितमाकाशं पूरयञ्शरैः ।\nधनंजयो महाराज कुरूणामन्तकोऽभवत् ॥",
+          "meaning": {
+            "en": "Filling the air, where flocks of birds fly, with his arrows, Dhananjaya became the destroyer of the Kurus, great king."
+          }
         },
         {
           "n": 5,
-          "text": "ततो भल्लैः क्षुरप्रैश्च नाराचैर्निर्मलैरपि ।\nगात्राणि प्राक्षिणोत्पार्थः शिरांसि च चकर्त ह ॥"
+          "text": "ततो भल्लैः क्षुरप्रैश्च नाराचैर्निर्मलैरपि ।\nगात्राणि प्राक्षिणोत्पार्थः शिरांसि च चकर्त ह ॥",
+          "meaning": {
+            "en": "With broad-headed arrows, razor-edged arrows, and bright iron shafts Partha pierced their bodies and cut off their heads."
+          }
         },
         {
           "n": 6,
-          "text": "छिन्नगात्रैर्विकवचैर्विशिरस्कैः समन्ततः ।\nपतितैश्च पतद्भिश्च योधैरासीत्समावृतम् ॥"
+          "text": "छिन्नगात्रैर्विकवचैर्विशिरस्कैः समन्ततः ।\nपतितैश्च पतद्भिश्च योधैरासीत्समावृतम् ॥",
+          "meaning": {
+            "en": "The ground was covered on every side with warriors whose limbs were severed, whose armor was gone and whose heads were cut off, some already fallen and some falling."
+          }
         },
         {
           "n": 7,
-          "text": "धनंजयशराभ्यस्तैः स्यन्दनाश्वनरद्विपैः ।\nरणभूमिरभूद्राजन्महावैतरणी यथा ॥"
+          "text": "धनंजयशराभ्यस्तैः स्यन्दनाश्वनरद्विपैः ।\nरणभूमिरभूद्राजन्महावैतरणी यथा ॥",
+          "meaning": {
+            "en": "With chariots, horses, men and elephants struck down by Dhananjaya's arrows, the battlefield became like the great river Vaitarani of the dead, O king."
+          }
         },
         {
           "n": 8,
-          "text": "ईषाचक्राक्षभङ्गैश्च व्यश्वैः साश्वैश्च युध्यताम् ।\nससूतैर्हतसूतैश्च रथैः स्तीर्णाभवन्मही ॥"
+          "text": "ईषाचक्राक्षभङ्गैश्च व्यश्वैः साश्वैश्च युध्यताम् ।\nससूतैर्हतसूतैश्च रथैः स्तीर्णाभवन्मही ॥",
+          "meaning": {
+            "en": "The earth was strewn with chariots, broken at the poles and wheels and axles, some horseless and some with horses, some with their drivers and some with drivers slain, as the fighters struggled."
+          }
         },
         {
           "n": 9,
-          "text": "सुवर्णवर्मसंनाहैर्योधैः कनकभूषणैः ।\nआस्थिताः कृतवर्माणो भद्रा नित्यमदा द्विपाः ।\nक्रुद्धाः क्रुद्धैर्महामात्रैः प्रेषितार्जुनमभ्ययुः ॥"
+          "text": "सुवर्णवर्मसंनाहैर्योधैः कनकभूषणैः ।\nआस्थिताः कृतवर्माणो भद्रा नित्यमदा द्विपाः ।\nक्रुद्धाः क्रुद्धैर्महामात्रैः प्रेषितार्जुनमभ्ययुः ॥",
+          "meaning": {
+            "en": "Warriors in golden mail and gold ornaments, and splendid elephants in armor, ever in rut, driven on by their enraged chief drivers, charged furiously at Arjuna."
+          }
         },
         {
           "n": 10,
-          "text": "चतुःशताः शरवर्षैर्हताः पेतुः किरीटिना ।\nपर्यस्तानीव शृङ्गाणि ससत्त्वानि महागिरेः ॥"
+          "text": "चतुःशताः शरवर्षैर्हताः पेतुः किरीटिना ।\nपर्यस्तानीव शृङ्गाणि ससत्त्वानि महागिरेः ॥",
+          "meaning": {
+            "en": "Four hundred of them fell, slain by the diadem-wearer's showers of arrows, like the toppled peaks of a great mountain with their creatures still upon them."
+          }
         },
         {
           "n": 11,
-          "text": "धनंजयशराभ्यस्तैः स्तीर्णा भूर्वरवारणैः ।\nअभिपेदेऽर्जुनरथो घनान्भिन्दन्निवांशुमान् ॥"
+          "text": "धनंजयशराभ्यस्तैः स्तीर्णा भूर्वरवारणैः ।\nअभिपेदेऽर्जुनरथो घनान्भिन्दन्निवांशुमान् ॥",
+          "meaning": {
+            "en": "The ground was strewn with the finest elephants struck down by Dhananjaya's arrows, and Arjuna's chariot advanced like the sun splitting the clouds."
+          }
         },
         {
           "n": 12,
-          "text": "हतैर्गजमनुष्याश्वैर्भग्नैश्च बहुधा रथैः ।\nविशस्त्रपत्रकवचैर्युद्धशौण्डैर्गतासुभिः ।\nअपविद्धायुधैर्मार्गः स्तीर्णोऽभूत्फल्गुनेन वै ॥"
+          "text": "हतैर्गजमनुष्याश्वैर्भग्नैश्च बहुधा रथैः ।\nविशस्त्रपत्रकवचैर्युद्धशौण्डैर्गतासुभिः ।\nअपविद्धायुधैर्मार्गः स्तीर्णोऽभूत्फल्गुनेन वै ॥",
+          "meaning": {
+            "en": "With elephants, men and horses slain, chariots smashed in many ways, and battle-hardened warriors lifeless with their weapons, feathered shafts and armor scattered, Phalguna made the path lie covered."
+          }
         },
         {
           "n": 13,
-          "text": "व्यस्फूर्जयच्च गाण्डीवं सुमहद्भैरवस्वनम् ।\nघोरो वज्रविनिष्पेषः स्तनयित्नोरिवाम्बरे ॥"
+          "text": "व्यस्फूर्जयच्च गाण्डीवं सुमहद्भैरवस्वनम् ।\nघोरो वज्रविनिष्पेषः स्तनयित्नोरिवाम्बरे ॥",
+          "meaning": {
+            "en": "He twanged the Gandiva, which made an immense and dreadful sound, terrible like a thunderbolt crashing from a storm cloud in the sky."
+          }
         },
         {
           "n": 14,
-          "text": "ततः प्रादीर्यत चमूर्धनंजयशराहता ।\nमहावातसमाविद्धा महानौरिव सागरे ॥"
+          "text": "ततः प्रादीर्यत चमूर्धनंजयशराहता ।\nमहावातसमाविद्धा महानौरिव सागरे ॥",
+          "meaning": {
+            "en": "Then the army, struck by Dhananjaya's arrows, was torn apart, like a great ship tossed by a mighty gale on the ocean."
+          }
         },
         {
           "n": 15,
-          "text": "नानारूपाः प्रहरणाः शरा गाण्डीवचोदिताः ।\nअलातोल्काशनिप्रख्यास्तव सैन्यं विनिर्दहन् ॥"
+          "text": "नानारूपाः प्रहरणाः शरा गाण्डीवचोदिताः ।\nअलातोल्काशनिप्रख्यास्तव सैन्यं विनिर्दहन् ॥",
+          "meaning": {
+            "en": "Arrows of many forms, driven by the Gandiva and blazing like firebrands and lightning, burned up your army."
+          }
         },
         {
           "n": 16,
-          "text": "महागिरौ वेणुवनं निशि प्रज्वलितं यथा ।\nतथा तव महत्सैन्यं प्रास्फुरच्छरपीडितम् ॥"
+          "text": "महागिरौ वेणुवनं निशि प्रज्वलितं यथा ।\nतथा तव महत्सैन्यं प्रास्फुरच्छरपीडितम् ॥",
+          "meaning": {
+            "en": "Your great army, tormented by the arrows, flared up and writhed like a bamboo forest on a great mountain set alight at night."
+          }
         },
         {
           "n": 17,
-          "text": "संपिष्टदग्धविध्वस्तं तव सैन्यं किरीटिना ।\nहतं प्रविहतं बाणैः सर्वतः प्रद्रुतं दिशः ॥"
+          "text": "संपिष्टदग्धविध्वस्तं तव सैन्यं किरीटिना ।\nहतं प्रविहतं बाणैः सर्वतः प्रद्रुतं दिशः ॥",
+          "meaning": {
+            "en": "Your army was crushed, scorched and shattered by the diadem-wearer, struck down by his shafts, and it fled in every direction."
+          }
         },
         {
           "n": 18,
-          "text": "महावने मृगगणा दावाग्निग्रसिता यथा ।\nकुरवः पर्यवर्तन्त निर्दग्धाः सव्यसाचिना ॥"
+          "text": "महावने मृगगणा दावाग्निग्रसिता यथा ।\nकुरवः पर्यवर्तन्त निर्दग्धाः सव्यसाचिना ॥",
+          "meaning": {
+            "en": "Like herds of deer in a great forest swallowed by a wildfire, the Kurus turned this way and that, burned by Savyasachin Arjuna."
+          }
         },
         {
           "n": 19,
-          "text": "उत्सृज्य हि महाबाहुं भीमसेनं तदा रणे ।\nबलं कुरूणामुद्विग्नं सर्वमासीत्पराङ्मुखम् ॥"
+          "text": "उत्सृज्य हि महाबाहुं भीमसेनं तदा रणे ।\nबलं कुरूणामुद्विग्नं सर्वमासीत्पराङ्मुखम् ॥",
+          "meaning": {
+            "en": "Abandoning the mighty-armed Bhimasena then in the battle, the whole Kuru force was shaken and turned away."
+          }
         },
         {
           "n": 20,
-          "text": "ततः कुरुषु भग्नेषु बीभत्सुरपराजितः ।\nभीमसेनं समासाद्य मुहूर्तं सोऽभ्यवर्तत ॥"
+          "text": "ततः कुरुषु भग्नेषु बीभत्सुरपराजितः ।\nभीमसेनं समासाद्य मुहूर्तं सोऽभ्यवर्तत ॥",
+          "meaning": {
+            "en": "When the Kurus had broken, the unconquered Bibhatsu met Bhimasena and stayed with him for a moment."
+          }
         },
         {
           "n": 21,
-          "text": "समागम्य स भीमेन मन्त्रयित्वा च फल्गुनः ।\nविशल्यमरुजं चास्मै कथयित्वा युधिष्ठिरम् ॥"
+          "text": "समागम्य स भीमेन मन्त्रयित्वा च फल्गुनः ।\nविशल्यमरुजं चास्मै कथयित्वा युधिष्ठिरम् ॥",
+          "meaning": {
+            "en": "Meeting Bhima and conferring with him, Phalguna told him that Yudhishthira was free of arrows and pain."
+          }
         },
         {
           "n": 22,
-          "text": "भीमसेनाभ्यनुज्ञातस्ततः प्रायाद्धनंजयः ।\nनादयन्रथघोषेण पृथिवीं द्यां च भारत ॥"
+          "text": "भीमसेनाभ्यनुज्ञातस्ततः प्रायाद्धनंजयः ।\nनादयन्रथघोषेण पृथिवीं द्यां च भारत ॥",
+          "meaning": {
+            "en": "Given leave by Bhimasena, Dhananjaya then set out, O Bharata, making earth and sky echo with the rumble of his chariot."
+          }
         },
         {
           "n": 23,
-          "text": "ततः परिवृतो भीमैर्दशभिः शत्रुपुंगवैः ।\nदुःशासनादवरजैस्तव पुत्रैर्धनंजयः ॥"
+          "text": "ततः परिवृतो भीमैर्दशभिः शत्रुपुंगवैः ।\nदुःशासनादवरजैस्तव पुत्रैर्धनंजयः ॥",
+          "meaning": {
+            "en": "Then Dhananjaya was surrounded by ten of your fearsome sons, bulls among warriors, the younger brothers of Duhshasana."
+          }
         },
         {
           "n": 24,
-          "text": "ते तमभ्यर्दयन्बाणैरुल्काभिरिव कुञ्जरम् ।\nआततेष्वसनाः क्रूरा नृत्यन्त इव भारत ॥"
+          "text": "ते तमभ्यर्दयन्बाणैरुल्काभिरिव कुञ्जरम् ।\nआततेष्वसनाः क्रूरा नृत्यन्त इव भारत ॥",
+          "meaning": {
+            "en": "O Bharata, those fierce men with bows drawn assailed him with arrows, as if with firebrands against an elephant, seeming almost to dance."
+          }
         },
         {
           "n": 25,
-          "text": "अपसव्यांस्तु तांश्चक्रे रथेन मधुसूदनः ।\nततस्ते प्राद्रवञ्शूराः पराङ्मुखरथेऽर्जुने ॥"
+          "text": "अपसव्यांस्तु तांश्चक्रे रथेन मधुसूदनः ।\nततस्ते प्राद्रवञ्शूराः पराङ्मुखरथेऽर्जुने ॥",
+          "meaning": {
+            "en": "Madhusudana Krishna drove the chariot so as to keep them on its right side, and then those heroes fled as Arjuna's chariot faced away from them."
+          }
         },
         {
           "n": 26,
-          "text": "तेषामापततां केतून्रथांश्चापानि सायकान् ।\nनाराचैरर्धचन्द्रैश्च क्षिप्रं पार्थो न्यपातयत् ॥"
+          "text": "तेषामापततां केतून्रथांश्चापानि सायकान् ।\nनाराचैरर्धचन्द्रैश्च क्षिप्रं पार्थो न्यपातयत् ॥",
+          "meaning": {
+            "en": "As they came on, Partha quickly cut down their banners, chariots, bows and arrows with iron shafts and crescent-headed arrows."
+          }
         },
         {
           "n": 27,
-          "text": "अथान्यैर्दशभिर्भल्लैः शिरांस्येषां न्यपातयत् ।\nरोषसंरक्तनेत्राणि संदष्टौष्ठानि भूतले ।\nतानि वक्त्राणि विबभुर्व्योम्नि तारागणा इव ॥"
+          "text": "अथान्यैर्दशभिर्भल्लैः शिरांस्येषां न्यपातयत् ।\nरोषसंरक्तनेत्राणि संदष्टौष्ठानि भूतले ।\nतानि वक्त्राणि विबभुर्व्योम्नि तारागणा इव ॥",
+          "meaning": {
+            "en": "Then with ten other broad-headed arrows he felled their heads, their eyes red with rage and their lips bitten, on the ground; those faces shone like clusters of stars in the sky."
+          }
         },
         {
           "n": 28,
-          "text": "तांस्तु भल्लैर्महावेगैर्दशभिर्दश कौरवान् ।\nरुक्माङ्गदान्रुक्मपुङ्खैर्विद्ध्वा प्रायादमित्रहा ॥"
+          "text": "तांस्तु भल्लैर्महावेगैर्दशभिर्दश कौरवान् ।\nरुक्माङ्गदान्रुक्मपुङ्खैर्विद्ध्वा प्रायादमित्रहा ॥",
+          "meaning": {
+            "en": "With ten swift broad-headed arrows with golden shafts, the slayer of foes pierced those ten Kauravas wearing golden armlets, and went on his way."
+          }
         }
       ]
     }
