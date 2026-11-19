@@ -22,79 +22,136 @@
       "titleEn": "Gadayuddha Parva (The mace fight)",
       "verses": [
         {
-          "text": "संजय उवाच"
+          "text": "संजय उवाच",
+          "meaning": {
+            "en": "Sanjaya said:"
+          }
         },
         {
           "n": 1,
-          "text": "तस्मिन्युद्धे महाराज संप्रवृत्ते सुदारुणे ।\nउपविष्टेषु सर्वेषु पाण्डवेषु महात्मसु ॥"
+          "text": "तस्मिन्युद्धे महाराज संप्रवृत्ते सुदारुणे ।\nउपविष्टेषु सर्वेषु पाण्डवेषु महात्मसु ॥",
+          "meaning": {
+            "en": "While that dreadful battle was under way, O great king, and all the great-souled Pandavas sat down to watch,"
+          }
         },
         {
           "n": 2,
-          "text": "ततस्तालध्वजो रामस्तयोर्युद्ध उपस्थिते ।\nश्रुत्वा तच्छिष्ययो राजन्नाजगाम हलायुधः ॥"
+          "text": "ततस्तालध्वजो रामस्तयोर्युद्ध उपस्थिते ।\nश्रुत्वा तच्छिष्ययो राजन्नाजगाम हलायुधः ॥",
+          "meaning": {
+            "en": "Rama of the palm-banner, wielder of the plough, heard that his two pupils were about to fight, O king, and came there."
+          }
         },
         {
           "n": 3,
-          "text": "तं दृष्ट्वा परमप्रीताः पूजयित्वा नराधिपाः ।\nशिष्ययोः कौशलं युद्धे पश्य रामेति चाब्रुवन् ॥"
+          "text": "तं दृष्ट्वा परमप्रीताः पूजयित्वा नराधिपाः ।\nशिष्ययोः कौशलं युद्धे पश्य रामेति चाब्रुवन् ॥",
+          "meaning": {
+            "en": "Seeing him, the kings were overjoyed and honoured him, and said, \"Rama, see the skill of your two pupils in battle.\""
+          }
         },
         {
           "n": 4,
-          "text": "अब्रवीच्च तदा रामो दृष्ट्वा कृष्णं च पाण्डवम् ।\nदुर्योधनं च कौरव्यं गदापाणिमवस्थितम् ॥"
+          "text": "अब्रवीच्च तदा रामो दृष्ट्वा कृष्णं च पाण्डवम् ।\nदुर्योधनं च कौरव्यं गदापाणिमवस्थितम् ॥",
+          "meaning": {
+            "en": "Then Rama, looking at Krishna, at the Pandava, and at the Kaurava Duryodhana standing with mace in hand, spoke."
+          }
         },
         {
           "n": 5,
-          "text": "चत्वारिंशदहान्यद्य द्वे च मे निःसृतस्य वै ।\nपुष्येण संप्रयातोऽस्मि श्रवणे पुनरागतः ।\nशिष्ययोर्वै गदायुद्धं द्रष्टुकामोऽस्मि माधव ॥"
+          "text": "चत्वारिंशदहान्यद्य द्वे च मे निःसृतस्य वै ।\nपुष्येण संप्रयातोऽस्मि श्रवणे पुनरागतः ।\nशिष्ययोर्वै गदायुद्धं द्रष्टुकामोऽस्मि माधव ॥",
+          "meaning": {
+            "en": "Rama said: It is forty-two days since I set out; I left under Pushya and have returned under Shravana. I wish to see my two pupils fight with the mace, Madhava."
+          }
         },
         {
           "n": 6,
-          "text": "ततो युधिष्ठिरो राजा परिष्वज्य हलायुधम् ।\nस्वागतं कुशलं चास्मै पर्यपृच्छद्यथातथम् ॥"
+          "text": "ततो युधिष्ठिरो राजा परिष्वज्य हलायुधम् ।\nस्वागतं कुशलं चास्मै पर्यपृच्छद्यथातथम् ॥",
+          "meaning": {
+            "en": "Then King Yudhishthira embraced Halayudha and asked him properly about his welcome and his well-being."
+          }
         },
         {
           "n": 7,
-          "text": "कृष्णौ चापि महेष्वासावभिवाद्य हलायुधम् ।\nसस्वजाते परिप्रीतौ प्रियमाणौ यशस्विनौ ॥"
+          "text": "कृष्णौ चापि महेष्वासावभिवाद्य हलायुधम् ।\nसस्वजाते परिप्रीतौ प्रियमाणौ यशस्विनौ ॥",
+          "meaning": {
+            "en": "The two Krishnas, great archers, also greeted Halayudha and embraced him, glad and honouring him, famed men both."
+          }
         },
         {
           "n": 8,
-          "text": "माद्रीपुत्रौ तथा शूरौ द्रौपद्याः पञ्च चात्मजाः ।\nअभिवाद्य स्थिता राजन्रौहिणेयं महाबलम् ॥"
+          "text": "माद्रीपुत्रौ तथा शूरौ द्रौपद्याः पञ्च चात्मजाः ।\nअभिवाद्य स्थिता राजन्रौहिणेयं महाबलम् ॥",
+          "meaning": {
+            "en": "The two sons of Madri, the heroes, and the five sons of Draupadi, O king, stood greeting the mighty son of Rohini."
+          }
         },
         {
           "n": 9,
-          "text": "भीमसेनोऽथ बलवान्पुत्रस्तव जनाधिप ।\nतथैव चोद्यतगदौ पूजयामासतुर्बलम् ॥"
+          "text": "भीमसेनोऽथ बलवान्पुत्रस्तव जनाधिप ।\nतथैव चोद्यतगदौ पूजयामासतुर्बलम् ॥",
+          "meaning": {
+            "en": "Mighty Bhimasena, and your son too, O lord of men, both with raised maces, honoured the strong Rama."
+          }
         },
         {
           "n": 10,
-          "text": "स्वागतेन च ते तत्र प्रतिपूज्य पुनः पुनः ।\nपश्य युद्धं महाबाहो इति ते राममब्रुवन् ।\nएवमूचुर्महात्मानं रौहिणेयं नराधिपाः ॥"
+          "text": "स्वागतेन च ते तत्र प्रतिपूज्य पुनः पुनः ।\nपश्य युद्धं महाबाहो इति ते राममब्रुवन् ।\nएवमूचुर्महात्मानं रौहिणेयं नराधिपाः ॥",
+          "meaning": {
+            "en": "Welcoming him again and again, they said to Rama, \"Mighty-armed one, watch the fight.\" So the kings spoke to the great-souled son of Rohini."
+          }
         },
         {
           "n": 11,
-          "text": "परिष्वज्य तदा रामः पाण्डवान्सृञ्जयानपि ।\nअपृच्छत्कुशलं सर्वान्पाण्डवांश्चामितौजसः ।\nतथैव ते समासाद्य पप्रच्छुस्तमनामयम् ॥"
+          "text": "परिष्वज्य तदा रामः पाण्डवान्सृञ्जयानपि ।\nअपृच्छत्कुशलं सर्वान्पाण्डवांश्चामितौजसः ।\nतथैव ते समासाद्य पप्रच्छुस्तमनामयम् ॥",
+          "meaning": {
+            "en": "Rama then embraced the Pandavas and the Srinjayas, and asked all of them, the Pandavas of boundless might, after their welfare; and they in turn asked after his health."
+          }
         },
         {
           "n": 12,
-          "text": "प्रत्यभ्यर्च्य हली सर्वान्क्षत्रियांश्च महामनाः ।\nकृत्वा कुशलसंयुक्तां संविदं च यथावयः ॥"
+          "text": "प्रत्यभ्यर्च्य हली सर्वान्क्षत्रियांश्च महामनाः ।\nकृत्वा कुशलसंयुक्तां संविदं च यथावयः ॥",
+          "meaning": {
+            "en": "The great-minded wielder of the plough honoured all the Kshatriyas in turn, and exchanged greetings of well-being with each according to age."
+          }
         },
         {
           "n": 13,
-          "text": "जनार्दनं सात्यकिं च प्रेम्णा स परिषस्वजे ।\nमूर्ध्नि चैतावुपाघ्राय कुशलं पर्यपृच्छत ॥"
+          "text": "जनार्दनं सात्यकिं च प्रेम्णा स परिषस्वजे ।\nमूर्ध्नि चैतावुपाघ्राय कुशलं पर्यपृच्छत ॥",
+          "meaning": {
+            "en": "He embraced Janardana and Satyaki with affection, and kissing the heads of both, asked after their welfare."
+          }
         },
         {
           "n": 14,
-          "text": "तौ चैनं विधिवद्राजन्पूजयामासतुर्गुरुम् ।\nब्रह्माणमिव देवेशमिन्द्रोपेन्द्रौ मुदा युतौ ॥"
+          "text": "तौ चैनं विधिवद्राजन्पूजयामासतुर्गुरुम् ।\nब्रह्माणमिव देवेशमिन्द्रोपेन्द्रौ मुदा युतौ ॥",
+          "meaning": {
+            "en": "O king, the two of them honoured their elder as is proper, joyfully, as Indra and Upendra honour Brahma, lord of the gods."
+          }
         },
         {
           "n": 15,
-          "text": "ततोऽब्रवीद्धर्मसुतो रौहिणेयमरिंदमम् ।\nइदं भ्रात्रोर्महायुद्धं पश्य रामेति भारत ॥"
+          "text": "ततोऽब्रवीद्धर्मसुतो रौहिणेयमरिंदमम् ।\nइदं भ्रात्रोर्महायुद्धं पश्य रामेति भारत ॥",
+          "meaning": {
+            "en": "Then the son of Dharma, Yudhishthira, said to Rohini's son, the subduer of foes: \"Rama, see this great fight of the two brothers.\""
+          }
         },
         {
           "n": 16,
-          "text": "तेषां मध्ये महाबाहुः श्रीमान्केशवपूर्वजः ।\nन्यविशत्परमप्रीतः पूज्यमानो महारथैः ॥"
+          "text": "तेषां मध्ये महाबाहुः श्रीमान्केशवपूर्वजः ।\nन्यविशत्परमप्रीतः पूज्यमानो महारथैः ॥",
+          "meaning": {
+            "en": "In their midst, honoured by the great chariot-warriors, the glorious, mighty-armed elder brother of Keshava sat down, very pleased."
+          }
         },
         {
           "n": 17,
-          "text": "स बभौ राजमध्यस्थो नीलवासाः सितप्रभः ।\nदिवीव नक्षत्रगणैः परिकीर्णो निशाकरः ॥"
+          "text": "स बभौ राजमध्यस्थो नीलवासाः सितप्रभः ।\nदिवीव नक्षत्रगणैः परिकीर्णो निशाकरः ॥",
+          "meaning": {
+            "en": "Seated among the kings, in blue garments and shining white, he looked like the moon surrounded by a host of stars in the sky."
+          }
         },
         {
           "n": 18,
-          "text": "ततस्तयोः संनिपातस्तुमुलो रोमहर्षणः ।\nआसीदन्तकरो राजन्वैरस्य तव पुत्रयोः ॥"
+          "text": "ततस्तयोः संनिपातस्तुमुलो रोमहर्षणः ।\nआसीदन्तकरो राजन्वैरस्य तव पुत्रयोः ॥",
+          "meaning": {
+            "en": "Then, O king, there began the tumultuous, hair-raising clash of your two sons, which was to end their enmity."
+          }
         }
       ]
     }

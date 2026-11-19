@@ -22,60 +22,105 @@
       "titleEn": "Karna Parva",
       "verses": [
         {
-          "text": "दुर्योधन उवाच"
+          "text": "दुर्योधन उवाच",
+          "meaning": {
+            "en": "Duryodhana said:"
+          }
         },
         {
           "n": 1,
-          "text": "एवं स भगवान्देवः सर्वलोकपितामहः ।\nसारथ्यमकरोत्तत्र यत्र रुद्रोऽभवद्रथी ॥"
+          "text": "एवं स भगवान्देवः सर्वलोकपितामहः ।\nसारथ्यमकरोत्तत्र यत्र रुद्रोऽभवद्रथी ॥",
+          "meaning": {
+            "en": "Thus the blessed god, the Grandfather of all worlds, acted as charioteer there, where Rudra was the chariot-warrior."
+          }
         },
         {
           "n": 2,
-          "text": "रथिनाभ्यधिको वीरः कर्तव्यो रथसारथिः ।\nतस्मात्त्वं पुरुषव्याघ्र नियच्छ तुरगान्युधि ॥"
+          "text": "रथिनाभ्यधिको वीरः कर्तव्यो रथसारथिः ।\nतस्मात्त्वं पुरुषव्याघ्र नियच्छ तुरगान्युधि ॥",
+          "meaning": {
+            "en": "The charioteer of a chariot should be a hero greater than the chariot-warrior. Therefore, tiger among men, you should hold the horses in battle."
+          }
         },
         {
-          "text": "संजय उवाच"
+          "text": "संजय उवाच",
+          "meaning": {
+            "en": "Sanjaya said:"
+          }
         },
         {
           "n": 3,
-          "text": "ततः शल्यः परिष्वज्य सुतं ते वाक्यमब्रवीत् ।\nदुर्योधनममित्रघ्नः प्रीतो मद्राधिपस्तदा ॥"
+          "text": "ततः शल्यः परिष्वज्य सुतं ते वाक्यमब्रवीत् ।\nदुर्योधनममित्रघ्नः प्रीतो मद्राधिपस्तदा ॥",
+          "meaning": {
+            "en": "Then Shalya, the slayer of enemies, lord of the Madras, pleased, embraced your son Duryodhana and spoke."
+          }
         },
         {
           "n": 4,
-          "text": "एवं चेन्मन्यसे राजन्गान्धारे प्रियदर्शन ।\nतस्मात्ते यत्प्रियं किंचित्तत्सर्वं करवाण्यहम् ॥"
+          "text": "एवं चेन्मन्यसे राजन्गान्धारे प्रियदर्शन ।\nतस्मात्ते यत्प्रियं किंचित्तत्सर्वं करवाण्यहम् ॥",
+          "meaning": {
+            "en": "\"If you think so, O king, son of Gandhari of pleasing looks, then I will do whatever is dear to you."
+          }
         },
         {
           "n": 5,
-          "text": "यत्रास्मि भरतश्रेष्ठ योग्यः कर्मणि कर्हिचित् ।\nतत्र सर्वात्मना युक्तो वक्ष्ये कार्यधुरं तव ॥"
+          "text": "यत्रास्मि भरतश्रेष्ठ योग्यः कर्मणि कर्हिचित् ।\nतत्र सर्वात्मना युक्तो वक्ष्ये कार्यधुरं तव ॥",
+          "meaning": {
+            "en": "Wherever, best of the Bharatas, I may ever be fit for a task, there I will be fully engaged and take up the burden of your cause."
+          }
         },
         {
           "n": 6,
-          "text": "यत्तु कर्णमहं ब्रूयां हितकामः प्रियाप्रियम् ।\nमम तत्क्षमतां सर्वं भवान्कर्णश्च सर्वशः ॥"
+          "text": "यत्तु कर्णमहं ब्रूयां हितकामः प्रियाप्रियम् ।\nमम तत्क्षमतां सर्वं भवान्कर्णश्च सर्वशः ॥",
+          "meaning": {
+            "en": "But whatever I say to Karna, wishing his good, pleasant or unpleasant, let you and Karna forgive me all of it.\""
+          }
         },
         {
-          "text": "कर्ण उवाच"
+          "text": "कर्ण उवाच",
+          "meaning": {
+            "en": "Karna said:"
+          }
         },
         {
           "n": 7,
-          "text": "ईशानस्य यथा ब्रह्मा यथा पार्थस्य केशवः ।\nतथा नित्यं हिते युक्तो मद्रराज भजस्व नः ॥"
+          "text": "ईशानस्य यथा ब्रह्मा यथा पार्थस्य केशवः ।\nतथा नित्यं हिते युक्तो मद्रराज भजस्व नः ॥",
+          "meaning": {
+            "en": "As Brahma was to Ishana and Keshava is to Partha, so, king of the Madras, be to us, always intent on our good."
+          }
         },
         {
-          "text": "शल्य उवाच"
+          "text": "शल्य उवाच",
+          "meaning": {
+            "en": "Shalya said:"
+          }
         },
         {
           "n": 8,
-          "text": "आत्मनिन्दात्मपूजा च परनिन्दा परस्तवः ।\nअनाचरितमार्याणां वृत्तमेतच्चतुर्विधम् ॥"
+          "text": "आत्मनिन्दात्मपूजा च परनिन्दा परस्तवः ।\nअनाचरितमार्याणां वृत्तमेतच्चतुर्विधम् ॥",
+          "meaning": {
+            "en": "Blaming oneself, praising oneself, blaming others and praising others: these four are conduct not practiced by the noble."
+          }
         },
         {
           "n": 9,
-          "text": "यत्तु विद्वन्प्रवक्ष्यामि प्रत्ययार्थमहं तव ।\nआत्मनः स्तवसंयुक्तं तन्निबोध यथातथम् ॥"
+          "text": "यत्तु विद्वन्प्रवक्ष्यामि प्रत्ययार्थमहं तव ।\nआत्मनः स्तवसंयुक्तं तन्निबोध यथातथम् ॥",
+          "meaning": {
+            "en": "But I will say something to give you confidence, learned one, which involves my own praise. Hear it as it is."
+          }
         },
         {
           "n": 10,
-          "text": "अहं शक्रस्य सारथ्ये योग्यो मातलिवत्प्रभो ।\nअप्रमादप्रयोगाच्च ज्ञानविद्याचिकित्सितैः ॥"
+          "text": "अहं शक्रस्य सारथ्ये योग्यो मातलिवत्प्रभो ।\nअप्रमादप्रयोगाच्च ज्ञानविद्याचिकित्सितैः ॥",
+          "meaning": {
+            "en": "I am fit, lord, to be charioteer even for Shakra, as Matali is, through careful application and by knowledge, learning and the treatment of horses."
+          }
         },
         {
           "n": 11,
-          "text": "ततः पार्थेन संग्रामे युध्यमानस्य तेऽनघ ।\nवाहयिष्यामि तुरगान्विज्वरो भव सूतज ॥"
+          "text": "ततः पार्थेन संग्रामे युध्यमानस्य तेऽनघ ।\nवाहयिष्यामि तुरगान्विज्वरो भव सूतज ॥",
+          "meaning": {
+            "en": "So, blameless one, as you fight Partha in battle I will drive your horses. Be free of fever, son of a charioteer.\""
+          }
         }
       ]
     }

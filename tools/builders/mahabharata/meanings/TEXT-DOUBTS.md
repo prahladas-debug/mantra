@@ -7,3 +7,4 @@
 - 8.10.20 "प्राहिणोत्तव पुत्राय": the spear is hurled by Chitra (a son of Dhritarashtra) at Prativindhya (a Pandava son), so "तव पुत्राय" ("to your son") does not fit; meaning given as "at him" (Prativindhya).
 - 7.150.31 "प्रादुश्चक्रे महामायां राक्षसः पाण्डुनन्दनः": "पाण्डुनन्दनः" for Ghatotkacha (Bhima's son) looks like a slip (perhaps "पाण्डुनन्दनम्"/"पाण्डवात्मजः"); rendered "the rakshasa, delight of the Pandavas".
 - 7.141.55 "यानं नन्दकस्य महात्मनः": Duryodhana leaps onto the chariot of "Nandaka", an otherwise unknown warrior (Nandaka is Vishnu's sword); rendered literally as "the chariot of the great-souled Nandaka".
+- 9.4.49 "आकाशे विद्रुमे पुण्ये प्रस्थे हिमवतः शुभे": "आकाशे विद्रुमे" is unintelligible in the context (a halt on a Himalayan slope at the Sarasvati); rendered as "on a holy, auspicious Himalayan slope".

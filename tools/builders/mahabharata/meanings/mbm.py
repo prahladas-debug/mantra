@@ -88,3 +88,7 @@ if __name__ == '__main__':
     elif a[0] == 'chunk':
         c = [x for x in chunks(a[1]) if x['id'] == a[2]][0]; print(json.dumps(c))
     elif a[0] == 'status': status()
+    elif a[0] == 'todo':
+        c = [x for x in chunks(a[1]) if x['id'] == a[2]][0]
+        left = [u for u in range(c['from'], c['to'] + 1) if not all((v.get('meaning') or {}).get(a[1]) for _, v in verses(json.load(open(path(c['part'], u)))))]
+        print('part', c['part'], 'units still to do:', ' '.join(map(str, left)) or 'none')

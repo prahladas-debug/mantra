@@ -22,124 +22,217 @@
       "titleEn": "Shalya Parva",
       "verses": [
         {
-          "text": "संजय उवाच"
+          "text": "संजय उवाच",
+          "meaning": {
+            "en": "Sanjaya said:"
+          }
         },
         {
           "n": 1,
-          "text": "अथ हैमवते प्रस्थे स्थित्वा युद्धाभिनन्दिनः ।\nसर्व एव महाराज योधास्तत्र समागताः ॥"
+          "text": "अथ हैमवते प्रस्थे स्थित्वा युद्धाभिनन्दिनः ।\nसर्व एव महाराज योधास्तत्र समागताः ॥",
+          "meaning": {
+            "en": "Then, resting on the slope of the Himalaya, all the warriors who delighted in battle gathered there, great king."
+          }
         },
         {
           "n": 2,
-          "text": "शल्यश्च चित्रसेनश्च शकुनिश्च महारथः ।\nअश्वत्थामा कृपश्चैव कृतवर्मा च सात्वतः ॥"
+          "text": "शल्यश्च चित्रसेनश्च शकुनिश्च महारथः ।\nअश्वत्थामा कृपश्चैव कृतवर्मा च सात्वतः ॥",
+          "meaning": {
+            "en": "Shalya, Chitrasena, the great warrior Shakuni, Ashvatthama, Kripa and Kritavarma the Satvata,"
+          }
         },
         {
           "n": 3,
-          "text": "सुषेणोऽरिष्टसेनश्च धृतसेनश्च वीर्यवान् ।\nजयत्सेनश्च राजानस्ते रात्रिमुषितास्ततः ॥"
+          "text": "सुषेणोऽरिष्टसेनश्च धृतसेनश्च वीर्यवान् ।\nजयत्सेनश्च राजानस्ते रात्रिमुषितास्ततः ॥",
+          "meaning": {
+            "en": "Sushena, Arishtasena, the valiant Dhritasena and Jayatsena, those kings spent the night there."
+          }
         },
         {
           "n": 4,
-          "text": "रणे कर्णे हते वीरे त्रासिता जितकाशिभिः ।\nनालभञ्शर्म ते पुत्रा हिमवन्तमृते गिरिम् ॥"
+          "text": "रणे कर्णे हते वीरे त्रासिता जितकाशिभिः ।\nनालभञ्शर्म ते पुत्रा हिमवन्तमृते गिरिम् ॥",
+          "meaning": {
+            "en": "Terrified by the Pandava victors after the hero Karna fell in battle, your sons found no peace except in the mountain Himavat."
+          }
         },
         {
           "n": 5,
-          "text": "तेऽब्रुवन्सहितास्तत्र राजानं सैन्यसंनिधौ ।\nकृतयत्ना रणे राजन्संपूज्य विधिवत्तदा ॥"
+          "text": "तेऽब्रुवन्सहितास्तत्र राजानं सैन्यसंनिधौ ।\nकृतयत्ना रणे राजन्संपूज्य विधिवत्तदा ॥",
+          "meaning": {
+            "en": "Gathered there, having made every effort in the fight, they duly honored the king near the army and said:"
+          }
         },
         {
           "n": 6,
-          "text": "कृत्वा सेनाप्रणेतारं परांस्त्वं योद्धुमर्हसि ।\nयेनाभिगुप्ताः संग्रामे जयेमासुहृदो वयम् ॥"
+          "text": "कृत्वा सेनाप्रणेतारं परांस्त्वं योद्धुमर्हसि ।\nयेनाभिगुप्ताः संग्रामे जयेमासुहृदो वयम् ॥",
+          "meaning": {
+            "en": "\"You must make someone the army's leader and then fight the enemy, so that, guarded by him in battle, we may defeat our foes.\""
+          }
         },
         {
           "n": 7,
-          "text": "ततो दुर्योधनः स्थित्वा रथे रथवरोत्तमम् ।\nसर्वयुद्धविभागज्ञमन्तकप्रतिमं युधि ॥"
+          "text": "ततो दुर्योधनः स्थित्वा रथे रथवरोत्तमम् ।\nसर्वयुद्धविभागज्ञमन्तकप्रतिमं युधि ॥",
+          "meaning": {
+            "en": "Then Duryodhana, standing in his chariot, looked toward Ashvatthama, the best of charioteers, who was like Death in battle and knew every division of war,"
+          }
         },
         {
           "n": 8,
-          "text": "स्वङ्गं प्रच्छन्नशिरसं कम्बुग्रीवं प्रियंवदम् ।\nव्याकोशपद्माभिमुखं व्याघ्रास्यं मेरुगौरवम् ॥"
+          "text": "स्वङ्गं प्रच्छन्नशिरसं कम्बुग्रीवं प्रियंवदम् ।\nव्याकोशपद्माभिमुखं व्याघ्रास्यं मेरुगौरवम् ॥",
+          "meaning": {
+            "en": "well-limbed, with a covered head, a neck like a conch and sweet in speech, with a face like an open lotus, a tiger's mouth, the weight of Meru,"
+          }
         },
         {
           "n": 9,
-          "text": "स्थाणोर्वृषस्य सदृशं स्कन्धनेत्रगतिस्वरैः ।\nपुष्टश्लिष्टायतभुजं सुविस्तीर्णघनोरसम् ॥"
+          "text": "स्थाणोर्वृषस्य सदृशं स्कन्धनेत्रगतिस्वरैः ।\nपुष्टश्लिष्टायतभुजं सुविस्तीर्णघनोरसम् ॥",
+          "meaning": {
+            "en": "like Shiva's bull in shoulders, eyes, gait and voice, with stout, well-joined long arms and a broad, solid chest,"
+          }
         },
         {
           "n": 10,
-          "text": "जवे बले च सदृशमरुणानुजवातयोः ।\nआदित्यस्य त्विषा तुल्यं बुद्ध्या चोशनसा समम् ॥"
+          "text": "जवे बले च सदृशमरुणानुजवातयोः ।\nआदित्यस्य त्विषा तुल्यं बुद्ध्या चोशनसा समम् ॥",
+          "meaning": {
+            "en": "equal in speed and strength to Aruna's younger brother and the wind, like the sun in radiance and like Ushanas in intellect,"
+          }
         },
         {
           "n": 11,
-          "text": "कान्तिरूपमुखैश्वर्यैस्त्रिभिश्चन्द्रमसोपमम् ।\nकाञ्चनोपलसंघातैः सदृशं श्लिष्टसंधिकम् ॥"
+          "text": "कान्तिरूपमुखैश्वर्यैस्त्रिभिश्चन्द्रमसोपमम् ।\nकाञ्चनोपलसंघातैः सदृशं श्लिष्टसंधिकम् ॥",
+          "meaning": {
+            "en": "like the moon in three things, charm, beauty and splendor, with firm joints like blocks of gold,"
+          }
         },
         {
           "n": 12,
-          "text": "सुवृत्तोरुकटीजङ्घं सुपादं स्वङ्गुलीनखम् ।\nस्मृत्वा स्मृत्वैव च गुणान्धात्रा यत्नाद्विनिर्मितम् ॥"
+          "text": "सुवृत्तोरुकटीजङ्घं सुपादं स्वङ्गुलीनखम् ।\nस्मृत्वा स्मृत्वैव च गुणान्धात्रा यत्नाद्विनिर्मितम् ॥",
+          "meaning": {
+            "en": "with well-rounded thighs, hips and shanks, good feet, fine fingers and nails, shaped carefully by the Creator, remembering his qualities again and again,"
+          }
         },
         {
           "n": 13,
-          "text": "सर्वलक्षणसंपन्नं निपुणं श्रुतिसागरम् ।\nजेतारं तरसारीणामजेयं शत्रुभिर्बलात् ॥"
+          "text": "सर्वलक्षणसंपन्नं निपुणं श्रुतिसागरम् ।\nजेतारं तरसारीणामजेयं शत्रुभिर्बलात् ॥",
+          "meaning": {
+            "en": "endowed with every mark of excellence, skilled, an ocean of learning, a swift conqueror of enemies, unconquerable by force,"
+          }
         },
         {
           "n": 14,
-          "text": "दशाङ्गं यश्चतुष्पादमिष्वस्त्रं वेद तत्त्वतः ।\nसाङ्गांश्च चतुरो वेदान्सम्यगाख्यानपञ्चमान् ॥"
+          "text": "दशाङ्गं यश्चतुष्पादमिष्वस्त्रं वेद तत्त्वतः ।\nसाङ्गांश्च चतुरो वेदान्सम्यगाख्यानपञ्चमान् ॥",
+          "meaning": {
+            "en": "who truly knows the bow and weapons in their ten parts and four feet, and the four Vedas with their limbs, with the epics as the fifth,"
+          }
         },
         {
           "n": 15,
-          "text": "आराध्य त्र्यम्बकं यत्नाद्व्रतैरुग्रैर्महातपाः ।\nअयोनिजायामुत्पन्नो द्रोणेनायोनिजेन यः ॥"
+          "text": "आराध्य त्र्यम्बकं यत्नाद्व्रतैरुग्रैर्महातपाः ।\nअयोनिजायामुत्पन्नो द्रोणेनायोनिजेन यः ॥",
+          "meaning": {
+            "en": "who, a great ascetic, by fierce vows duly worshiped Tryambaka, and was born of an unwomb-born mother to the unwomb-born Drona,"
+          }
         },
         {
           "n": 16,
-          "text": "तमप्रतिमकर्माणं रूपेणासदृशं भुवि ।\nपारगं सर्वविद्यानां गुणार्णवमनिन्दितम् ।\nतमभ्येत्यात्मजस्तुभ्यमश्वत्थामानमब्रवीत् ॥"
+          "text": "तमप्रतिमकर्माणं रूपेणासदृशं भुवि ।\nपारगं सर्वविद्यानां गुणार्णवमनिन्दितम् ।\nतमभ्येत्यात्मजस्तुभ्यमश्वत्थामानमब्रवीत् ॥",
+          "meaning": {
+            "en": "that man of matchless deeds, unequaled in form on earth, master of all knowledge, a blameless ocean of virtues; approaching him, your son, Ashvatthama, spoke to him."
+          }
         },
         {
           "n": 17,
-          "text": "यं पुरस्कृत्य सहिता युधि जेष्याम पाण्डवान् ।\nगुरुपुत्रोऽद्य सर्वेषामस्माकं परमा गतिः ।\nभवांस्तस्मान्नियोगात्ते कोऽस्तु सेनापतिर्मम ॥"
+          "text": "यं पुरस्कृत्य सहिता युधि जेष्याम पाण्डवान् ।\nगुरुपुत्रोऽद्य सर्वेषामस्माकं परमा गतिः ।\nभवांस्तस्मान्नियोगात्ते कोऽस्तु सेनापतिर्मम ॥",
+          "meaning": {
+            "en": "\"With him at our head we shall defeat the Pandavas together in battle; today the Guru's son is the supreme refuge of all of us. So by your command, who should be my army's commander?\""
+          }
         },
         {
-          "text": "द्रौणिरुवाच"
+          "text": "द्रौणिरुवाच",
+          "meaning": {
+            "en": "Drona's son said:"
+          }
         },
         {
           "n": 18,
-          "text": "अयं कुलेन वीर्येण तेजसा यशसा श्रिया ।\nसर्वैर्गुणैः समुदितः शल्यो नोऽस्तु चमूपतिः ॥"
+          "text": "अयं कुलेन वीर्येण तेजसा यशसा श्रिया ।\nसर्वैर्गुणैः समुदितः शल्यो नोऽस्तु चमूपतिः ॥",
+          "meaning": {
+            "en": "\"Shalya here, endowed with every quality of family, valor, splendor, fame and fortune, should be our leader.\""
+          }
         },
         {
           "n": 19,
-          "text": "भागिनेयान्निजांस्त्यक्त्वा कृतज्ञोऽस्मानुपागतः ।\nमहासेनो महाबाहुर्महासेन इवापरः ॥"
+          "text": "भागिनेयान्निजांस्त्यक्त्वा कृतज्ञोऽस्मानुपागतः ।\nमहासेनो महाबाहुर्महासेन इवापरः ॥",
+          "meaning": {
+            "en": "\"He left his own sister's sons and, grateful, came over to us; mighty-armed, he is a second Mahasena.\""
+          }
         },
         {
           "n": 20,
-          "text": "एनं सेनापतिं कृत्वा नृपतिं नृपसत्तम ।\nशक्यः प्राप्तुं जयोऽस्माभिर्देवैः स्कन्दमिवाजितम् ॥"
+          "text": "एनं सेनापतिं कृत्वा नृपतिं नृपसत्तम ।\nशक्यः प्राप्तुं जयोऽस्माभिर्देवैः स्कन्दमिवाजितम् ॥",
+          "meaning": {
+            "en": "\"Making this king our commander, best of kings, we can win victory, as the gods did with unconquered Skanda.\""
+          }
         },
         {
           "n": 21,
-          "text": "तथोक्ते द्रोणपुत्रेण सर्व एव नराधिपाः ।\nपरिवार्य स्थिताः शल्यं जयशब्दांश्च चक्रिरे ।\nयुद्धाय च मतिं चक्रूरावेशं च परं ययुः ॥"
+          "text": "तथोक्ते द्रोणपुत्रेण सर्व एव नराधिपाः ।\nपरिवार्य स्थिताः शल्यं जयशब्दांश्च चक्रिरे ।\nयुद्धाय च मतिं चक्रूरावेशं च परं ययुः ॥",
+          "meaning": {
+            "en": "When Drona's son had said this, all the kings surrounded Shalya, raised cries of victory, made up their minds to fight and were filled with great ardor."
+          }
         },
         {
           "n": 22,
-          "text": "ततो दुर्योधनः शल्यं भूमौ स्थित्वा रथे स्थितम् ।\nउवाच प्राञ्जलिर्भूत्वा रामभीष्मसमं रणे ॥"
+          "text": "ततो दुर्योधनः शल्यं भूमौ स्थित्वा रथे स्थितम् ।\nउवाच प्राञ्जलिर्भूत्वा रामभीष्मसमं रणे ॥",
+          "meaning": {
+            "en": "Then Duryodhana, standing on the ground before Shalya in his chariot, joined his palms and spoke to him, who in battle was equal to Rama and Bhishma."
+          }
         },
         {
           "n": 23,
-          "text": "अयं स कालः संप्राप्तो मित्राणां मित्रवत्सल ।\nयत्र मित्रममित्रं वा परीक्षन्ते बुधा जनाः ॥"
+          "text": "अयं स कालः संप्राप्तो मित्राणां मित्रवत्सल ।\nयत्र मित्रममित्रं वा परीक्षन्ते बुधा जनाः ॥",
+          "meaning": {
+            "en": "\"This time has come, friend of friends, when wise people test whether someone is a friend or a foe.\""
+          }
         },
         {
           "n": 24,
-          "text": "स भवानस्तु नः शूरः प्रणेता वाहिनीमुखे ।\nरणं च याते भवति पाण्डवा मन्दचेतसः ।\nभविष्यन्ति सहामात्याः पाञ्चालाश्च निरुद्यमाः ॥"
+          "text": "स भवानस्तु नः शूरः प्रणेता वाहिनीमुखे ।\nरणं च याते भवति पाण्डवा मन्दचेतसः ।\nभविष्यन्ति सहामात्याः पाञ्चालाश्च निरुद्यमाः ॥",
+          "meaning": {
+            "en": "\"Be our hero and leader at the head of the army. When you go to war, the dull-minded Pandavas and the Panchalas with their ministers will lose their heart.\""
+          }
         },
         {
-          "text": "शल्य उवाच"
+          "text": "शल्य उवाच",
+          "meaning": {
+            "en": "Shalya said:"
+          }
         },
         {
           "n": 25,
-          "text": "यत्तु मां मन्यसे राजन्कुरुराज करोमि तत् ।\nत्वत्प्रियार्थं हि मे सर्वं प्राणा राज्यं धनानि च ॥"
+          "text": "यत्तु मां मन्यसे राजन्कुरुराज करोमि तत् ।\nत्वत्प्रियार्थं हि मे सर्वं प्राणा राज्यं धनानि च ॥",
+          "meaning": {
+            "en": "\"Whatever you think I can do, king of the Kurus, I will do it. All that I have, my life, kingdom and wealth, is for your pleasure.\""
+          }
         },
         {
-          "text": "दुर्योधन उवाच"
+          "text": "दुर्योधन उवाच",
+          "meaning": {
+            "en": "Duryodhana said:"
+          }
         },
         {
           "n": 26,
-          "text": "सेनापत्येन वरये त्वामहं मातुलातुलम् ।\nसोऽस्मान्पाहि युधां श्रेष्ठ स्कन्दो देवानिवाहवे ॥"
+          "text": "सेनापत्येन वरये त्वामहं मातुलातुलम् ।\nसोऽस्मान्पाहि युधां श्रेष्ठ स्कन्दो देवानिवाहवे ॥",
+          "meaning": {
+            "en": "\"I choose you as commander, uncle without equal. Protect us, best of fighters, as Skanda protected the gods in battle.\""
+          }
         },
         {
           "n": 27,
-          "text": "अभिषिच्यस्व राजेन्द्र देवानामिव पावकिः ।\nजहि शत्रून्रणे वीर महेन्द्रो दानवानिव ॥"
+          "text": "अभिषिच्यस्व राजेन्द्र देवानामिव पावकिः ।\nजहि शत्रून्रणे वीर महेन्द्रो दानवानिव ॥",
+          "meaning": {
+            "en": "\"Be anointed, king of kings, as the fire's son was for the gods; kill the enemies in battle, hero, as Mahendra killed the Danavas.\""
+          }
         }
       ]
     }
