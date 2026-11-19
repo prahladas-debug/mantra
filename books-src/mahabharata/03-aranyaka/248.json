@@ -22,75 +22,129 @@
       "titleEn": "Draupadiharana Parva (Abduction of Draupadi)",
       "verses": [
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 1,
-          "text": "तस्मिन्बहुमृगेऽरण्ये रममाणा महारथाः ।\nकाम्यके भरतश्रेष्ठा विजह्रुस्ते यथामराः ॥"
+          "text": "तस्मिन्बहुमृगेऽरण्ये रममाणा महारथाः ।\nकाम्यके भरतश्रेष्ठा विजह्रुस्ते यथामराः ॥",
+          "meaning": {
+            "en": "Delighting in that forest rich in deer, at Kamyaka, those great warriors, best of Bharatas, enjoyed themselves like gods."
+          }
         },
         {
           "n": 2,
-          "text": "प्रेक्षमाणा बहुविधान्वनोद्देशान्समन्ततः ।\nयथर्तुकालरम्याश्च वनराजीः सुपुष्पिताः ॥"
+          "text": "प्रेक्षमाणा बहुविधान्वनोद्देशान्समन्ततः ।\nयथर्तुकालरम्याश्च वनराजीः सुपुष्पिताः ॥",
+          "meaning": {
+            "en": "They looked about at many kinds of woodland all around, and at rows of trees in bloom, lovely in their season."
+          }
         },
         {
           "n": 3,
-          "text": "पाण्डवा मृगयाशीलाश्चरन्तस्तन्महावनम् ।\nविजह्रुरिन्द्रप्रतिमाः कंचित्कालमरिंदमाः ॥"
+          "text": "पाण्डवा मृगयाशीलाश्चरन्तस्तन्महावनम् ।\nविजह्रुरिन्द्रप्रतिमाः कंचित्कालमरिंदमाः ॥",
+          "meaning": {
+            "en": "The Pandavas, fond of hunting, roaming that great forest, enjoyed themselves for a while, like Indras, subduers of foes."
+          }
         },
         {
           "n": 4,
-          "text": "ततस्ते यौगपद्येन ययुः सर्वे चतुर्दिशम् ।\nमृगयां पुरुषव्याघ्रा ब्राह्मणार्थे परंतपाः ॥"
+          "text": "ततस्ते यौगपद्येन ययुः सर्वे चतुर्दिशम् ।\nमृगयां पुरुषव्याघ्रा ब्राह्मणार्थे परंतपाः ॥",
+          "meaning": {
+            "en": "Then, all together, those tigers among men, scorchers of foes, set out in the four directions to hunt for the sake of the brahmins."
+          }
         },
         {
           "n": 5,
-          "text": "द्रौपदीमाश्रमे न्यस्य तृणबिन्दोरनुज्ञया ।\nमहर्षेर्दीप्ततपसो धौम्यस्य च पुरोधसः ॥"
+          "text": "द्रौपदीमाश्रमे न्यस्य तृणबिन्दोरनुज्ञया ।\nमहर्षेर्दीप्ततपसो धौम्यस्य च पुरोधसः ॥",
+          "meaning": {
+            "en": "They left Draupadi at the hermitage with the permission of Trinabindu, the great sage of blazing austerity, and of their priest Dhaumya."
+          }
         },
         {
           "n": 6,
-          "text": "ततस्तु राजा सिन्धूनां वार्द्धक्षत्रिर्महायशाः ।\nविवाहकामः शाल्वेयान्प्रयातः सोऽभवत्तदा ॥"
+          "text": "ततस्तु राजा सिन्धूनां वार्द्धक्षत्रिर्महायशाः ।\nविवाहकामः शाल्वेयान्प्रयातः सोऽभवत्तदा ॥",
+          "meaning": {
+            "en": "Then the famous king of the Sindhus, son of Vriddhakshatra, who wished to marry, had set out for the land of the Shalvas."
+          }
         },
         {
           "n": 7,
-          "text": "महता परिबर्हेण राजयोग्येन संवृतः ।\nराजभिर्बहुभिः सार्धमुपायात्काम्यकं च सः ॥"
+          "text": "महता परिबर्हेण राजयोग्येन संवृतः ।\nराजभिर्बहुभिः सार्धमुपायात्काम्यकं च सः ॥",
+          "meaning": {
+            "en": "Surrounded by a great retinue fit for a king and many kings, he came to Kamyaka."
+          }
         },
         {
           "n": 8,
-          "text": "तत्रापश्यत्प्रियां भार्यां पाण्डवानां यशस्विनीम् ।\nतिष्ठन्तीमाश्रमद्वारि द्रौपदीं निर्जने वने ॥"
+          "text": "तत्रापश्यत्प्रियां भार्यां पाण्डवानां यशस्विनीम् ।\nतिष्ठन्तीमाश्रमद्वारि द्रौपदीं निर्जने वने ॥",
+          "meaning": {
+            "en": "There he saw the beloved and famous wife of the Pandavas, Draupadi, standing at the door of the hermitage in the empty forest."
+          }
         },
         {
           "n": 9,
-          "text": "विभ्राजमानां वपुषा बिभ्रतीं रूपमुत्तमम् ।\nभ्राजयन्तीं वनोद्देशं नीलाभ्रमिव विद्युतम् ॥"
+          "text": "विभ्राजमानां वपुषा बिभ्रतीं रूपमुत्तमम् ।\nभ्राजयन्तीं वनोद्देशं नीलाभ्रमिव विद्युतम् ॥",
+          "meaning": {
+            "en": "She shone with her body, bearing the highest beauty, lighting up that part of the forest like lightning in a dark cloud."
+          }
         },
         {
           "n": 10,
-          "text": "अप्सरा देवकन्या वा माया वा देवनिर्मिता ।\nइति कृत्वाञ्जलिं सर्वे ददृशुस्तामनिन्दिताम् ॥"
+          "text": "अप्सरा देवकन्या वा माया वा देवनिर्मिता ।\nइति कृत्वाञ्जलिं सर्वे ददृशुस्तामनिन्दिताम् ॥",
+          "meaning": {
+            "en": "\"An apsara, a daughter of the gods, or an illusion made by the gods,\" they thought, and all gazed at that faultless woman with joined hands."
+          }
         },
         {
           "n": 11,
-          "text": "ततः स राजा सिन्धूनां वार्द्धक्षत्रिर्जयद्रथः ।\nविस्मितस्तामनिन्द्याङ्गीं दृष्ट्वासीद्धृष्टमानसः ॥"
+          "text": "ततः स राजा सिन्धूनां वार्द्धक्षत्रिर्जयद्रथः ।\nविस्मितस्तामनिन्द्याङ्गीं दृष्ट्वासीद्धृष्टमानसः ॥",
+          "meaning": {
+            "en": "Then Jayadratha, king of the Sindhus, son of Vriddhakshatra, was amazed at seeing the flawless lady, and his mind was delighted."
+          }
         },
         {
           "n": 12,
-          "text": "स कोटिकाश्यं राजानमब्रवीत्काममोहितः ।\nकस्य त्वेषानवद्याङ्गी यदि वापि न मानुषी ॥"
+          "text": "स कोटिकाश्यं राजानमब्रवीत्काममोहितः ।\nकस्य त्वेषानवद्याङ्गी यदि वापि न मानुषी ॥",
+          "meaning": {
+            "en": "Overcome by desire, he said to King Kotikashya, \"Whose is this faultless woman, or is she not human?"
+          }
         },
         {
           "n": 13,
-          "text": "विवाहार्थो न मे कश्चिदिमां दृष्ट्वातिसुन्दरीम् ।\nएतामेवाहमादाय गमिष्यामि स्वमालयम् ॥"
+          "text": "विवाहार्थो न मे कश्चिदिमां दृष्ट्वातिसुन्दरीम् ।\nएतामेवाहमादाय गमिष्यामि स्वमालयम् ॥",
+          "meaning": {
+            "en": "Seeing her, so beautiful, I have no more need of marriage. I will take her and go home."
+          }
         },
         {
           "n": 14,
-          "text": "गच्छ जानीहि सौम्यैनां कस्य का च कुतोऽपि वा ।\nकिमर्थमागता सुभ्रूरिदं कण्टकितं वनम् ॥"
+          "text": "गच्छ जानीहि सौम्यैनां कस्य का च कुतोऽपि वा ।\nकिमर्थमागता सुभ्रूरिदं कण्टकितं वनम् ॥",
+          "meaning": {
+            "en": "Go, gentle friend, find out whose she is, who she is, and where from; why has the fair-browed woman come to this thorny forest?"
+          }
         },
         {
           "n": 15,
-          "text": "अपि नाम वरारोहा मामेषा लोकसुन्दरी ।\nभजेदद्यायतापाङ्गी सुदती तनुमध्यमा ॥"
+          "text": "अपि नाम वरारोहा मामेषा लोकसुन्दरी ।\nभजेदद्यायतापाङ्गी सुदती तनुमध्यमा ॥",
+          "meaning": {
+            "en": "Could that lovely woman, beauty of the world, with long eyes, fine teeth and slender waist, favor me today?"
+          }
         },
         {
           "n": 16,
-          "text": "अप्यहं कृतकामः स्यामिमां प्राप्य वरस्त्रियम् ।\nगच्छ जानीहि को न्वस्या नाथ इत्येव कोटिक ॥"
+          "text": "अप्यहं कृतकामः स्यामिमां प्राप्य वरस्त्रियम् ।\nगच्छ जानीहि को न्वस्या नाथ इत्येव कोटिक ॥",
+          "meaning": {
+            "en": "If I got this excellent woman, I should have my wish. Go, Kotika, find out who her lord is.\""
+          }
         },
         {
           "n": 17,
-          "text": "स कोटिकाश्यस्तच्छ्रुत्वा रथात्प्रस्कन्द्य कुण्डली ।\nउपेत्य पप्रच्छ तदा क्रोष्टा व्याघ्रवधूमिव ॥"
+          "text": "स कोटिकाश्यस्तच्छ्रुत्वा रथात्प्रस्कन्द्य कुण्डली ।\nउपेत्य पप्रच्छ तदा क्रोष्टा व्याघ्रवधूमिव ॥",
+          "meaning": {
+            "en": "Hearing this, Kotikashya, wearing earrings, jumped down from his chariot, went up, and questioned her like a jackal approaching a tigress."
+          }
         }
       ]
     }

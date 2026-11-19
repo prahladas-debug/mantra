@@ -22,164 +22,290 @@
       "titleEn": "Markandeyasamasya Parva (Session with Markandeya)",
       "verses": [
         {
-          "text": "व्याध उवाच"
+          "text": "व्याध उवाच",
+          "meaning": {
+            "en": "The hunter said:"
+          }
         },
         {
           "n": 1,
-          "text": "एवं शप्तोऽहमृषिणा तदा द्विजवरोत्तम ।\nअभिप्रसादयमृषिं गिरा वाक्यविशारदम् ॥"
+          "text": "एवं शप्तोऽहमृषिणा तदा द्विजवरोत्तम ।\nअभिप्रसादयमृषिं गिरा वाक्यविशारदम् ॥",
+          "meaning": {
+            "en": "\"So the sage cursed me then, best of brahmins, and I tried to win him over with words, for he was skilled in speech.\""
+          }
         },
         {
           "n": 2,
-          "text": "अजानता मयाकार्यमिदमद्य कृतं मुने ।\nक्षन्तुमर्हसि तत्सर्वं प्रसीद भगवन्निति ॥"
+          "text": "अजानता मयाकार्यमिदमद्य कृतं मुने ।\nक्षन्तुमर्हसि तत्सर्वं प्रसीद भगवन्निति ॥",
+          "meaning": {
+            "en": "\"I said: 'Sage, I did this wrong today without knowing it. Please forgive all of it; be gracious, blessed one.'\""
+          }
         },
         {
-          "text": "ऋषिरुवाच"
+          "text": "ऋषिरुवाच",
+          "meaning": {
+            "en": "The sage said:"
+          }
         },
         {
           "n": 3,
-          "text": "नान्यथा भविता शाप एवमेतदसंशयम् ।\nआनृशंस्यादहं किंचित्कर्तानुग्रहमद्य ते ॥"
+          "text": "नान्यथा भविता शाप एवमेतदसंशयम् ।\nआनृशंस्यादहं किंचित्कर्तानुग्रहमद्य ते ॥",
+          "meaning": {
+            "en": "\"The curse cannot be otherwise; it will be so, without doubt. But out of compassion I will show you some favor today.\""
+          }
         },
         {
           "n": 4,
-          "text": "शूद्रयोनौ वर्तमानो धर्मज्ञो भविता ह्यसि ।\nमातापित्रोश्च शुश्रूषां करिष्यसि न संशयः ॥"
+          "text": "शूद्रयोनौ वर्तमानो धर्मज्ञो भविता ह्यसि ।\nमातापित्रोश्च शुश्रूषां करिष्यसि न संशयः ॥",
+          "meaning": {
+            "en": "\"Living in a shudra birth you will still know dharma, and you will certainly serve your mother and father.\""
+          }
         },
         {
           "n": 5,
-          "text": "तया शुश्रूषया सिद्धिं महतीं समवाप्स्यसि ।\nजातिस्मरश्च भविता स्वर्गं चैव गमिष्यसि ।\nशापक्षयान्ते निर्वृत्ते भवितासि पुनर्द्विजः ॥"
+          "text": "तया शुश्रूषया सिद्धिं महतीं समवाप्स्यसि ।\nजातिस्मरश्च भविता स्वर्गं चैव गमिष्यसि ।\nशापक्षयान्ते निर्वृत्ते भवितासि पुनर्द्विजः ॥",
+          "meaning": {
+            "en": "\"By that service you will gain great perfection. You will remember your past births and go to heaven. When the curse is spent and finished, you will become a brahmin again.\""
+          }
         },
         {
-          "text": "व्याध उवाच"
+          "text": "व्याध उवाच",
+          "meaning": {
+            "en": "The hunter said:"
+          }
         },
         {
           "n": 6,
-          "text": "एवं शप्तः पुरा तेन ऋषिणास्म्युग्रतेजसा ।\nप्रसादश्च कृतस्तेन ममैवं द्विपदां वर ॥"
+          "text": "एवं शप्तः पुरा तेन ऋषिणास्म्युग्रतेजसा ।\nप्रसादश्च कृतस्तेन ममैवं द्विपदां वर ॥",
+          "meaning": {
+            "en": "\"That is how the fiercely radiant sage cursed me long ago, and how he showed me grace too, best of men.\""
+          }
         },
         {
           "n": 7,
-          "text": "शरं चोद्धृतवानस्मि तस्य वै द्विजसत्तम ।\nआश्रमं च मया नीतो न च प्राणैर्व्ययुज्यत ॥"
+          "text": "शरं चोद्धृतवानस्मि तस्य वै द्विजसत्तम ।\nआश्रमं च मया नीतो न च प्राणैर्व्ययुज्यत ॥",
+          "meaning": {
+            "en": "\"I pulled the arrow out of him, best of brahmins, and brought him to his hermitage; he did not lose his life.\""
+          }
         },
         {
           "n": 8,
-          "text": "एतत्ते सर्वमाख्यातं यथा मम पुराभवत् ।\nअभितश्चापि गन्तव्यं मया स्वर्गं द्विजोत्तम ॥"
+          "text": "एतत्ते सर्वमाख्यातं यथा मम पुराभवत् ।\nअभितश्चापि गन्तव्यं मया स्वर्गं द्विजोत्तम ॥",
+          "meaning": {
+            "en": "\"I have told you all that happened to me before. In any case I am bound for heaven, best of brahmins.\""
+          }
         },
         {
-          "text": "ब्राह्मण उवाच"
+          "text": "ब्राह्मण उवाच",
+          "meaning": {
+            "en": "The brahmin said:"
+          }
         },
         {
           "n": 9,
-          "text": "एवमेतानि पुरुषा दुःखानि च सुखानि च ।\nप्राप्नुवन्ति महाबुद्धे नोत्कण्ठां कर्तुमर्हसि ।\nदुष्करं हि कृतं तात जानता जातिमात्मनः ॥"
+          "text": "एवमेतानि पुरुषा दुःखानि च सुखानि च ।\nप्राप्नुवन्ति महाबुद्धे नोत्कण्ठां कर्तुमर्हसि ।\nदुष्करं हि कृतं तात जानता जातिमात्मनः ॥",
+          "meaning": {
+            "en": "\"Men meet sorrows and joys like these, wise one; you should not be restless. It was hard to carry this out while knowing your own birth.\""
+          }
         },
         {
           "n": 10,
-          "text": "कर्मदोषश्च वै विद्वन्नात्मजातिकृतेन वै ।\nकंचित्कालं मृष्यतां वै ततोऽसि भविता द्विजः ।\nसांप्रतं च मतो मेऽसि ब्राह्मणो नात्र संशयः ॥"
+          "text": "कर्मदोषश्च वै विद्वन्नात्मजातिकृतेन वै ।\nकंचित्कालं मृष्यतां वै ततोऽसि भविता द्विजः ।\nसांप्रतं च मतो मेऽसि ब्राह्मणो नात्र संशयः ॥",
+          "meaning": {
+            "en": "\"The fault lies in deeds, learned one, not in the birth you were given. Bear it for a while; then you will be a brahmin again. As of now I consider you a brahmin, with no doubt.\""
+          }
         },
         {
           "n": 11,
-          "text": "ब्राह्मणः पतनीयेषु वर्तमानो विकर्मसु ।\nदाम्भिको दुष्कृतप्रायः शूद्रेण सदृशो भवेत् ॥"
+          "text": "ब्राह्मणः पतनीयेषु वर्तमानो विकर्मसु ।\nदाम्भिको दुष्कृतप्रायः शूद्रेण सदृशो भवेत् ॥",
+          "meaning": {
+            "en": "\"A brahmin who engages in degrading acts, who is hypocritical and mostly does evil, becomes like a shudra.\""
+          }
         },
         {
           "n": 12,
-          "text": "यस्तु शूद्रो दमे सत्ये धर्मे च सततोत्थितः ।\nतं ब्राह्मणमहं मन्ये वृत्तेन हि भवेद्द्विजः ॥"
+          "text": "यस्तु शूद्रो दमे सत्ये धर्मे च सततोत्थितः ।\nतं ब्राह्मणमहं मन्ये वृत्तेन हि भवेद्द्विजः ॥",
+          "meaning": {
+            "en": "\"But a shudra who is always steady in self-control, truth and dharma I consider a brahmin, for one becomes twice-born by conduct.\""
+          }
         },
         {
           "n": 13,
-          "text": "कर्मदोषेण विषमां गतिमाप्नोति दारुणाम् ।\nक्षीणदोषमहं मन्ये चाभितस्त्वां नरोत्तम ॥"
+          "text": "कर्मदोषेण विषमां गतिमाप्नोति दारुणाम् ।\nक्षीणदोषमहं मन्ये चाभितस्त्वां नरोत्तम ॥",
+          "meaning": {
+            "en": "\"By the fault of deeds one reaches a harsh, uneven fate. I think your fault is exhausted, best of men.\""
+          }
         },
         {
           "n": 14,
-          "text": "कर्तुमर्हसि नोत्कण्ठां त्वद्विधा ह्यविषादिनः ।\nलोकवृत्तान्तवृत्तज्ञा नित्यं धर्मपरायणाः ॥"
+          "text": "कर्तुमर्हसि नोत्कण्ठां त्वद्विधा ह्यविषादिनः ।\nलोकवृत्तान्तवृत्तज्ञा नित्यं धर्मपरायणाः ॥",
+          "meaning": {
+            "en": "\"You should not fret; men like you are never despondent, know how the world goes, and are always devoted to dharma.\""
+          }
         },
         {
-          "text": "व्याध उवाच"
+          "text": "व्याध उवाच",
+          "meaning": {
+            "en": "The hunter said:"
+          }
         },
         {
           "n": 15,
-          "text": "प्रज्ञया मानसं दुःखं हन्याच्छारीरमौषधैः ।\nएतद्विज्ञानसामर्थ्यं न बालैः समतां व्रजेत् ॥"
+          "text": "प्रज्ञया मानसं दुःखं हन्याच्छारीरमौषधैः ।\nएतद्विज्ञानसामर्थ्यं न बालैः समतां व्रजेत् ॥",
+          "meaning": {
+            "en": "\"One should destroy mental pain with wisdom and bodily pain with medicine. This is the power of knowledge; children cannot match it.\""
+          }
         },
         {
           "n": 16,
-          "text": "अनिष्टसंप्रयोगाच्च विप्रयोगात्प्रियस्य च ।\nमानुषा मानसैर्दुःखैर्युज्यन्ते अल्पबुद्धयः ॥"
+          "text": "अनिष्टसंप्रयोगाच्च विप्रयोगात्प्रियस्य च ।\nमानुषा मानसैर्दुःखैर्युज्यन्ते अल्पबुद्धयः ॥",
+          "meaning": {
+            "en": "\"Through meeting what they dislike and parting from what they love, men of small understanding are joined to mental sorrows.\""
+          }
         },
         {
           "n": 17,
-          "text": "गुणैर्भूतानि युज्यन्ते वियुज्यन्ते तथैव च ।\nसर्वाणि नैतदेकस्य शोकस्थानं हि विद्यते ॥"
+          "text": "गुणैर्भूतानि युज्यन्ते वियुज्यन्ते तथैव च ।\nसर्वाणि नैतदेकस्य शोकस्थानं हि विद्यते ॥",
+          "meaning": {
+            "en": "\"Beings are joined to qualities and parted from them in the same way; this is true of all, so grief has no place for any single person.\""
+          }
         },
         {
           "n": 18,
-          "text": "अनिष्टेनान्वितं पश्यंस्तथा क्षिप्रं विरज्यते ।\nततश्च प्रतिकुर्वन्ति यदि पश्यन्त्युपक्रमम् ।\nशोचतो न भवेत्किंचित्केवलं परितप्यते ॥"
+          "text": "अनिष्टेनान्वितं पश्यंस्तथा क्षिप्रं विरज्यते ।\nततश्च प्रतिकुर्वन्ति यदि पश्यन्त्युपक्रमम् ।\nशोचतो न भवेत्किंचित्केवलं परितप्यते ॥",
+          "meaning": {
+            "en": "\"One who sees himself bound up with something unwelcome soon turns away from it. People then remedy it if they see a way. Grieving achieves nothing; it only torments.\""
+          }
         },
         {
           "n": 19,
-          "text": "परित्यजन्ति ये दुःखं सुखं वाप्युभयं नराः ।\nत एव सुखमेधन्ते ज्ञानतृप्ता मनीषिणः ॥"
+          "text": "परित्यजन्ति ये दुःखं सुखं वाप्युभयं नराः ।\nत एव सुखमेधन्ते ज्ञानतृप्ता मनीषिणः ॥",
+          "meaning": {
+            "en": "\"Those who give up both pain and pleasure grow happy; they are wise and content with knowledge.\""
+          }
         },
         {
           "n": 20,
-          "text": "असंतोषपरा मूढाः संतोषं यान्ति पण्डिताः ।\nअसंतोषस्य नास्त्यन्तस्तुष्टिस्तु परमं सुखम् ।\nन शोचन्ति गताध्वानः पश्यन्तः परमां गतिम् ॥"
+          "text": "असंतोषपरा मूढाः संतोषं यान्ति पण्डिताः ।\nअसंतोषस्य नास्त्यन्तस्तुष्टिस्तु परमं सुखम् ।\nन शोचन्ति गताध्वानः पश्यन्तः परमां गतिम् ॥",
+          "meaning": {
+            "en": "\"Fools are bent on discontent; the learned reach contentment. Discontent has no end, while satisfaction is the highest happiness. Those who have traveled the road, seeing the highest goal, do not grieve.\""
+          }
         },
         {
           "n": 21,
-          "text": "न विषादे मनः कार्यं विषादो विषमुत्तमम् ।\nमारयत्यकृतप्रज्ञं बालं क्रुद्ध इवोरगः ॥"
+          "text": "न विषादे मनः कार्यं विषादो विषमुत्तमम् ।\nमारयत्यकृतप्रज्ञं बालं क्रुद्ध इवोरगः ॥",
+          "meaning": {
+            "en": "\"Do not give the mind to despair. Despair is a supreme poison; it kills the unwise, as an angry snake kills a child.\""
+          }
         },
         {
           "n": 22,
-          "text": "यं विषादोऽभिभवति विषमे समुपस्थिते ।\nतेजसा तस्य हीनस्य पुरुषार्थो न विद्यते ॥"
+          "text": "यं विषादोऽभिभवति विषमे समुपस्थिते ।\nतेजसा तस्य हीनस्य पुरुषार्थो न विद्यते ॥",
+          "meaning": {
+            "en": "\"The man whom despair overpowers when trouble comes is drained of vigor and has no human effort left.\""
+          }
         },
         {
           "n": 23,
-          "text": "अवश्यं क्रियमाणस्य कर्मणो दृश्यते फलम् ।\nन हि निर्वेदमागम्य किंचित्प्राप्नोति शोभनम् ॥"
+          "text": "अवश्यं क्रियमाणस्य कर्मणो दृश्यते फलम् ।\nन हि निर्वेदमागम्य किंचित्प्राप्नोति शोभनम् ॥",
+          "meaning": {
+            "en": "\"The fruit of an act that must be done is seen; no one who gives way to dejection gains anything good.\""
+          }
         },
         {
           "n": 24,
-          "text": "अथाप्युपायं पश्येत दुःखस्य परिमोक्षणे ।\nअशोचन्नारभेतैव युक्तश्चाव्यसनी भवेत् ॥"
+          "text": "अथाप्युपायं पश्येत दुःखस्य परिमोक्षणे ।\nअशोचन्नारभेतैव युक्तश्चाव्यसनी भवेत् ॥",
+          "meaning": {
+            "en": "\"Even so, if one sees a means of freeing oneself from sorrow, one should begin it without grieving, staying focused and free from distress.\""
+          }
         },
         {
           "n": 25,
-          "text": "भूतेष्वभावं संचिन्त्य ये तु बुद्धेः परं गताः ।\nन शोचन्ति कृतप्रज्ञाः पश्यन्तः परमां गतिम् ॥"
+          "text": "भूतेष्वभावं संचिन्त्य ये तु बुद्धेः परं गताः ।\nन शोचन्ति कृतप्रज्ञाः पश्यन्तः परमां गतिम् ॥",
+          "meaning": {
+            "en": "\"Those who have gone beyond intellect, reflecting that beings come from non-being, do not grieve; they are accomplished in wisdom and see the highest goal.\""
+          }
         },
         {
           "n": 26,
-          "text": "न शोचामि च वै विद्वन्कालाकाङ्क्षी स्थितोऽस्म्यहम् ।\nएतैर्निदर्शनैर्ब्रह्मन्नावसीदामि सत्तम ॥"
+          "text": "न शोचामि च वै विद्वन्कालाकाङ्क्षी स्थितोऽस्म्यहम् ।\nएतैर्निदर्शनैर्ब्रह्मन्नावसीदामि सत्तम ॥",
+          "meaning": {
+            "en": "\"I do not grieve, learned one; I wait for my time. By such reasoning, brahmin, I do not sink into despair, best of men.\""
+          }
         },
         {
-          "text": "ब्राह्मण उवाच"
+          "text": "ब्राह्मण उवाच",
+          "meaning": {
+            "en": "The brahmin said:"
+          }
         },
         {
           "n": 27,
-          "text": "कृतप्रज्ञोऽसि मेधावी बुद्धिश्च विपुला तव ।\nनाहं भवन्तं शोचामि ज्ञानतृप्तोऽसि धर्मवित् ॥"
+          "text": "कृतप्रज्ञोऽसि मेधावी बुद्धिश्च विपुला तव ।\nनाहं भवन्तं शोचामि ज्ञानतृप्तोऽसि धर्मवित् ॥",
+          "meaning": {
+            "en": "\"You are accomplished in wisdom, intelligent, and your understanding is vast. I do not grieve for you; you are satisfied with knowledge and know dharma.\""
+          }
         },
         {
           "n": 28,
-          "text": "आपृच्छे त्वां स्वस्ति तेऽस्तु धर्मस्त्वा परिरक्षतु ।\nअप्रमादस्तु कर्तव्यो धर्मे धर्मभृतां वर ॥"
+          "text": "आपृच्छे त्वां स्वस्ति तेऽस्तु धर्मस्त्वा परिरक्षतु ।\nअप्रमादस्तु कर्तव्यो धर्मे धर्मभृतां वर ॥",
+          "meaning": {
+            "en": "\"I take my leave of you; may you fare well, and may dharma protect you. Be vigilant in dharma, best of those who uphold it.\""
+          }
         },
         {
-          "text": "मार्कण्डेय उवाच"
+          "text": "मार्कण्डेय उवाच",
+          "meaning": {
+            "en": "Markandeya said:"
+          }
         },
         {
           "n": 29,
-          "text": "बाढमित्येव तं व्याधः कृताञ्जलिरुवाच ह ।\nप्रदक्षिणमथो कृत्वा प्रस्थितो द्विजसत्तमः ॥"
+          "text": "बाढमित्येव तं व्याधः कृताञ्जलिरुवाच ह ।\nप्रदक्षिणमथो कृत्वा प्रस्थितो द्विजसत्तमः ॥",
+          "meaning": {
+            "en": "\"'So be it,' said the hunter with joined palms. The best of brahmins circled him to the right and departed.\""
+          }
         },
         {
           "n": 30,
-          "text": "स तु गत्वा द्विजः सर्वां शुश्रूषां कृतवांस्तदा ।\nमातापितृभ्यां वृद्धाभ्यां यथान्यायं सुसंशितः ॥"
+          "text": "स तु गत्वा द्विजः सर्वां शुश्रूषां कृतवांस्तदा ।\nमातापितृभ्यां वृद्धाभ्यां यथान्यायं सुसंशितः ॥",
+          "meaning": {
+            "en": "\"The brahmin went home and, with a keen and steady mind, served his aged mother and father fully and properly.\""
+          }
         },
         {
           "n": 31,
-          "text": "एतत्ते सर्वमाख्यातं निखिलेन युधिष्ठिर ।\nपृष्टवानसि यं तात धर्मं धर्मभृतां वर ॥"
+          "text": "एतत्ते सर्वमाख्यातं निखिलेन युधिष्ठिर ।\nपृष्टवानसि यं तात धर्मं धर्मभृतां वर ॥",
+          "meaning": {
+            "en": "\"I have told you all of it, Yudhishthira, the dharma you asked about, best of those who uphold dharma.\""
+          }
         },
         {
           "n": 32,
-          "text": "पतिव्रताया माहात्म्यं ब्राह्मणस्य च सत्तम ।\nमातापित्रोश्च शुश्रूषा व्याधे धर्मश्च कीर्तितः ॥"
+          "text": "पतिव्रताया माहात्म्यं ब्राह्मणस्य च सत्तम ।\nमातापित्रोश्च शुश्रूषा व्याधे धर्मश्च कीर्तितः ॥",
+          "meaning": {
+            "en": "\"The greatness of the devoted wife and of the brahmin, and the service of mother and father, and the dharma of the hunter have all been described, good man.\""
+          }
         },
         {
-          "text": "युधिष्ठिर उवाच"
+          "text": "युधिष्ठिर उवाच",
+          "meaning": {
+            "en": "Yudhishthira said:"
+          }
         },
         {
           "n": 33,
-          "text": "अत्यद्भुतमिदं ब्रह्मन्धर्माख्यानमनुत्तमम् ।\nसर्वधर्मभृतां श्रेष्ठ कथितं द्विजसत्तम ॥"
+          "text": "अत्यद्भुतमिदं ब्रह्मन्धर्माख्यानमनुत्तमम् ।\nसर्वधर्मभृतां श्रेष्ठ कथितं द्विजसत्तम ॥",
+          "meaning": {
+            "en": "\"Brahmin, this teaching of dharma is most wonderful and unsurpassed; you have told it, best of upholders of all dharmas.\""
+          }
         },
         {
           "n": 34,
-          "text": "सुखश्रव्यतया विद्वन्मुहूर्तमिव मे गतम् ।\nन हि तृप्तोऽस्मि भगवञ्शृण्वानो धर्ममुत्तमम् ॥"
+          "text": "सुखश्रव्यतया विद्वन्मुहूर्तमिव मे गतम् ।\nन हि तृप्तोऽस्मि भगवञ्शृण्वानो धर्ममुत्तमम् ॥",
+          "meaning": {
+            "en": "\"It was so pleasant to hear, learned sir, that it seemed to last only a moment. Venerable one, I am not satisfied with hearing the highest dharma.\""
+          }
         }
       ]
     }

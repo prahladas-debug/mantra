@@ -22,469 +22,820 @@
       "titleEn": "Tirthayatra Parva (The pilgrimage)",
       "verses": [
         {
-          "text": "पुलस्त्य उवाच"
+          "text": "पुलस्त्य उवाच",
+          "meaning": {
+            "en": "Pulastya said:"
+          }
         },
         {
           "n": 1,
-          "text": "अथ संध्यां समासाद्य संवेद्यं तीर्थमुत्तमम् ।\nउपस्पृश्य नरो विद्वान्भवेन्नास्त्यत्र संशयः ॥"
+          "text": "अथ संध्यां समासाद्य संवेद्यं तीर्थमुत्तमम् ।\nउपस्पृश्य नरो विद्वान्भवेन्नास्त्यत्र संशयः ॥",
+          "meaning": {
+            "en": "Then, reaching Sandhya and the excellent ford Samvedya, a man who rinses there becomes learned, without doubt."
+          }
         },
         {
           "n": 2,
-          "text": "रामस्य च प्रसादेन तीर्थं राजन्कृतं पुरा ।\nतल्लोहित्यं समासाद्य विन्द्याद्बहु सुवर्णकम् ॥"
+          "text": "रामस्य च प्रसादेन तीर्थं राजन्कृतं पुरा ।\nतल्लोहित्यं समासाद्य विन्द्याद्बहु सुवर्णकम् ॥",
+          "meaning": {
+            "en": "By Rama's grace a ford was made there long ago, O king; reaching that Lauhitya, one gains much gold."
+          }
         },
         {
           "n": 3,
-          "text": "करतोयां समासाद्य त्रिरात्रोपोषितो नरः ।\nअश्वमेधमवाप्नोति कृते पैतामहे विधौ ॥"
+          "text": "करतोयां समासाद्य त्रिरात्रोपोषितो नरः ।\nअश्वमेधमवाप्नोति कृते पैतामहे विधौ ॥",
+          "meaning": {
+            "en": "Reaching the Karatoya and fasting three nights, a man gains the horse sacrifice, as laid down by the Grandfather's rule."
+          }
         },
         {
           "n": 4,
-          "text": "गङ्गायास्त्वथ राजेन्द्र सागरस्य च संगमे ।\nअश्वमेधं दशगुणं प्रवदन्ति मनीषिणः ॥"
+          "text": "गङ्गायास्त्वथ राजेन्द्र सागरस्य च संगमे ।\nअश्वमेधं दशगुणं प्रवदन्ति मनीषिणः ॥",
+          "meaning": {
+            "en": "At the confluence of the Ganga and the sea, king of kings, the wise say one gains ten times the horse sacrifice."
+          }
         },
         {
           "n": 5,
-          "text": "गङ्गायास्त्वपरं द्वीपं प्राप्य यः स्नाति भारत ।\nत्रिरात्रोपोषितो राजन्सर्वकामानवाप्नुयात् ॥"
+          "text": "गङ्गायास्त्वपरं द्वीपं प्राप्य यः स्नाति भारत ।\nत्रिरात्रोपोषितो राजन्सर्वकामानवाप्नुयात् ॥",
+          "meaning": {
+            "en": "One who reaches the farther island of the Ganga and bathes there, O Bharata, fasting three nights, O king, obtains all desires."
+          }
         },
         {
           "n": 6,
-          "text": "ततो वैतरणीं गत्वा नदीं पापप्रमोचनीम् ।\nविरजं तीर्थमासाद्य विराजति यथा शशी ॥"
+          "text": "ततो वैतरणीं गत्वा नदीं पापप्रमोचनीम् ।\nविरजं तीर्थमासाद्य विराजति यथा शशी ॥",
+          "meaning": {
+            "en": "Then, going to the Vaitarani, the river that frees from sin, and reaching Virajatirtha, one shines like the moon."
+          }
         },
         {
           "n": 7,
-          "text": "प्रभवेच्च कुले पुण्ये सर्वपापं व्यपोहति ।\nगोसहस्रफलं लब्ध्वा पुनाति च कुलं नरः ॥"
+          "text": "प्रभवेच्च कुले पुण्ये सर्वपापं व्यपोहति ।\nगोसहस्रफलं लब्ध्वा पुनाति च कुलं नरः ॥",
+          "meaning": {
+            "en": "He is born in a holy family, shakes off all sin, gains the fruit of a thousand cows and purifies his family."
+          }
         },
         {
           "n": 8,
-          "text": "शोणस्य ज्योतिरथ्याश्च संगमे निवसञ्शुचिः ।\nतर्पयित्वा पितॄन्देवानग्निष्टोमफलं लभेत् ॥"
+          "text": "शोणस्य ज्योतिरथ्याश्च संगमे निवसञ्शुचिः ।\nतर्पयित्वा पितॄन्देवानग्निष्टोमफलं लभेत् ॥",
+          "meaning": {
+            "en": "Staying pure at the confluence of the Shona and the Jyotiratha and offering water to ancestors and gods, one gains the fruit of the Agnishtoma."
+          }
         },
         {
           "n": 9,
-          "text": "शोणस्य नर्मदायाश्च प्रभवे कुरुनन्दन ।\nवंशगुल्म उपस्पृश्य वाजिमेधफलं लभेत् ॥"
+          "text": "शोणस्य नर्मदायाश्च प्रभवे कुरुनन्दन ।\nवंशगुल्म उपस्पृश्य वाजिमेधफलं लभेत् ॥",
+          "meaning": {
+            "en": "Joy of the Kurus, at the source of the Shona and Narmada, rinsing at Vamshagulma, one gains the fruit of the horse sacrifice."
+          }
         },
         {
           "n": 10,
-          "text": "ऋषभं तीर्थमासाद्य कोशलायां नराधिप ।\nवाजपेयमवाप्नोति त्रिरात्रोपोषितो नरः ॥"
+          "text": "ऋषभं तीर्थमासाद्य कोशलायां नराधिप ।\nवाजपेयमवाप्नोति त्रिरात्रोपोषितो नरः ॥",
+          "meaning": {
+            "en": "Reaching Rishabhatirtha in Koshala, ruler of men, a man who fasts three nights gains the Vajapeya."
+          }
         },
         {
           "n": 11,
-          "text": "कोशलायां समासाद्य कालतीर्थ उपस्पृशेत् ।\nवृषभैकादशफलं लभते नात्र संशयः ॥"
+          "text": "कोशलायां समासाद्य कालतीर्थ उपस्पृशेत् ।\nवृषभैकादशफलं लभते नात्र संशयः ॥",
+          "meaning": {
+            "en": "Reaching Koshala and rinsing at Kalatirtha, one gains, without doubt, the fruit of giving eleven bulls."
+          }
         },
         {
           "n": 12,
-          "text": "पुष्पवत्यामुपस्पृश्य त्रिरात्रोपोषितो नरः ।\nगोसहस्रफलं विन्द्यात्कुलं चैव समुद्धरेत् ॥"
+          "text": "पुष्पवत्यामुपस्पृश्य त्रिरात्रोपोषितो नरः ।\nगोसहस्रफलं विन्द्यात्कुलं चैव समुद्धरेत् ॥",
+          "meaning": {
+            "en": "Rinsing at Pushpavati and fasting three nights, one gains the fruit of a thousand cows and uplifts one's family."
+          }
         },
         {
           "n": 13,
-          "text": "ततो बदरिकातीर्थे स्नात्वा प्रयतमानसः ।\nदीर्घमायुरवाप्नोति स्वर्गलोकं च गच्छति ॥"
+          "text": "ततो बदरिकातीर्थे स्नात्वा प्रयतमानसः ।\nदीर्घमायुरवाप्नोति स्वर्गलोकं च गच्छति ॥",
+          "meaning": {
+            "en": "Then, bathing at Badarikatirtha with composed mind, one gains long life and goes to heaven."
+          }
         },
         {
           "n": 14,
-          "text": "ततो महेन्द्रमासाद्य जामदग्न्यनिषेवितम् ।\nरामतीर्थे नरः स्नात्वा वाजिमेधफलं लभेत् ॥"
+          "text": "ततो महेन्द्रमासाद्य जामदग्न्यनिषेवितम् ।\nरामतीर्थे नरः स्नात्वा वाजिमेधफलं लभेत् ॥",
+          "meaning": {
+            "en": "Then, reaching Mahendra, frequented by Jamadagni's son, and bathing at Ramatirtha, a man gains the fruit of the horse sacrifice."
+          }
         },
         {
           "n": 15,
-          "text": "मतङ्गस्य तु केदारस्तत्रैव कुरुनन्दन ।\nतत्र स्नात्वा नरो राजन्गोसहस्रफलं लभेत् ॥"
+          "text": "मतङ्गस्य तु केदारस्तत्रैव कुरुनन्दन ।\nतत्र स्नात्वा नरो राजन्गोसहस्रफलं लभेत् ॥",
+          "meaning": {
+            "en": "There too is Matanga's Kedara, joy of the Kurus; bathing there, O king, one gains the fruit of a thousand cows."
+          }
         },
         {
           "n": 16,
-          "text": "श्रीपर्वतं समासाद्य नदीतीर उपस्पृशेत् ।\nअश्वमेधमवाप्नोति स्वर्गलोकं च गच्छति ॥"
+          "text": "श्रीपर्वतं समासाद्य नदीतीर उपस्पृशेत् ।\nअश्वमेधमवाप्नोति स्वर्गलोकं च गच्छति ॥",
+          "meaning": {
+            "en": "Reaching Shriparvata and rinsing on the riverbank, one gains the horse sacrifice and goes to heaven."
+          }
         },
         {
           "n": 17,
-          "text": "श्रीपर्वते महादेवो देव्या सह महाद्युतिः ।\nन्यवसत्परमप्रीतो ब्रह्मा च त्रिदशैर्वृतः ॥"
+          "text": "श्रीपर्वते महादेवो देव्या सह महाद्युतिः ।\nन्यवसत्परमप्रीतो ब्रह्मा च त्रिदशैर्वृतः ॥",
+          "meaning": {
+            "en": "On Shriparvata, Mahadeva of great radiance lived with the Goddess, greatly pleased, and Brahma too, surrounded by the gods."
+          }
         },
         {
           "n": 18,
-          "text": "तत्र देवह्रदे स्नात्वा शुचिः प्रयतमानसः ।\nअश्वमेधमवाप्नोति परां सिद्धिं च गच्छति ॥"
+          "text": "तत्र देवह्रदे स्नात्वा शुचिः प्रयतमानसः ।\nअश्वमेधमवाप्नोति परां सिद्धिं च गच्छति ॥",
+          "meaning": {
+            "en": "Bathing there at the Devahrada, pure and with composed mind, one gains the horse sacrifice and attains great success."
+          }
         },
         {
           "n": 19,
-          "text": "ऋषभं पर्वतं गत्वा पाण्ड्येषु सुरपूजितम् ।\nवाजपेयमवाप्नोति नाकपृष्ठे च मोदते ॥"
+          "text": "ऋषभं पर्वतं गत्वा पाण्ड्येषु सुरपूजितम् ।\nवाजपेयमवाप्नोति नाकपृष्ठे च मोदते ॥",
+          "meaning": {
+            "en": "Going to Mount Rishabha among the Pandyas, honoured by the gods, one gains the Vajapeya and rejoices in the highest heaven."
+          }
         },
         {
           "n": 20,
-          "text": "ततो गच्छेत कावेरीं वृतामप्सरसां गणैः ।\nतत्र स्नात्वा नरो राजन्गोसहस्रफलं लभेत् ॥"
+          "text": "ततो गच्छेत कावेरीं वृतामप्सरसां गणैः ।\nतत्र स्नात्वा नरो राजन्गोसहस्रफलं लभेत् ॥",
+          "meaning": {
+            "en": "Then one should go to the Kaveri, attended by hosts of apsaras; bathing there, O king, one gains the fruit of a thousand cows."
+          }
         },
         {
           "n": 21,
-          "text": "ततस्तीरे समुद्रस्य कन्यातीर्थ उपस्पृशेत् ।\nतत्रोपस्पृश्य राजेन्द्र सर्वपापैः प्रमुच्यते ॥"
+          "text": "ततस्तीरे समुद्रस्य कन्यातीर्थ उपस्पृशेत् ।\nतत्रोपस्पृश्य राजेन्द्र सर्वपापैः प्रमुच्यते ॥",
+          "meaning": {
+            "en": "Then on the seashore one should rinse at Kanyatirtha; rinsing there, king of kings, one is freed from all sins."
+          }
         },
         {
           "n": 22,
-          "text": "अथ गोकर्णमासाद्य त्रिषु लोकेषु विश्रुतम् ।\nसमुद्रमध्ये राजेन्द्र सर्वलोकनमस्कृतम् ॥"
+          "text": "अथ गोकर्णमासाद्य त्रिषु लोकेषु विश्रुतम् ।\nसमुद्रमध्ये राजेन्द्र सर्वलोकनमस्कृतम् ॥",
+          "meaning": {
+            "en": "Then, reaching Gokarna, famed in the three worlds, in the middle of the sea, O king of kings, honoured by all the worlds,"
+          }
         },
         {
           "n": 23,
-          "text": "यत्र ब्रह्मादयो देवा ऋषयश्च तपोधनाः ।\nभूतयक्षपिशाचाश्च किंनराः समहोरगाः ॥"
+          "text": "यत्र ब्रह्मादयो देवा ऋषयश्च तपोधनाः ।\nभूतयक्षपिशाचाश्च किंनराः समहोरगाः ॥",
+          "meaning": {
+            "en": "where Brahma and the other gods, ascetic sages, bhutas, yakshas, pishachas, kinnaras and great serpents,"
+          }
         },
         {
           "n": 24,
-          "text": "सिद्धचारणगन्धर्वा मानुषाः पन्नगास्तथा ।\nसरितः सागराः शैला उपासन्त उमापतिम् ॥"
+          "text": "सिद्धचारणगन्धर्वा मानुषाः पन्नगास्तथा ।\nसरितः सागराः शैला उपासन्त उमापतिम् ॥",
+          "meaning": {
+            "en": "siddhas, charanas, gandharvas, humans, nagas, rivers, oceans and mountains worship the lord of Uma,"
+          }
         },
         {
           "n": 25,
-          "text": "तत्रेशानं समभ्यर्च्य त्रिरात्रोपोषितो नरः ।\nदशाश्वमेधमाप्नोति गाणपत्यं च विन्दति ।\nउष्य द्वादशरात्रं तु कृतात्मा भवते नरः ॥"
+          "text": "तत्रेशानं समभ्यर्च्य त्रिरात्रोपोषितो नरः ।\nदशाश्वमेधमाप्नोति गाणपत्यं च विन्दति ।\nउष्य द्वादशरात्रं तु कृतात्मा भवते नरः ॥",
+          "meaning": {
+            "en": "worshipping Ishana there and fasting three nights, a man gains ten horse sacrifices and leadership of Shiva's host. Staying twelve nights, he becomes accomplished in self."
+          }
         },
         {
           "n": 26,
-          "text": "तत एव तु गायत्र्याः स्थानं त्रैलोक्यविश्रुतम् ।\nत्रिरात्रमुषितस्तत्र गोसहस्रफलं लभेत् ॥"
+          "text": "तत एव तु गायत्र्याः स्थानं त्रैलोक्यविश्रुतम् ।\nत्रिरात्रमुषितस्तत्र गोसहस्रफलं लभेत् ॥",
+          "meaning": {
+            "en": "From there one goes to the place of Gayatri, famed in the three worlds; staying three nights there, one gains the fruit of a thousand cows."
+          }
         },
         {
           "n": 27,
-          "text": "निदर्शनं च प्रत्यक्षं ब्राह्मणानां नराधिप ।\nगायत्रीं पठते यस्तु योनिसंकरजस्तथा ।\nगाथा वा गीतिका वापि तस्य संपद्यते नृप ॥"
+          "text": "निदर्शनं च प्रत्यक्षं ब्राह्मणानां नराधिप ।\nगायत्रीं पठते यस्तु योनिसंकरजस्तथा ।\nगाथा वा गीतिका वापि तस्य संपद्यते नृप ॥",
+          "meaning": {
+            "en": "A direct proof for brahmins, ruler of men: even one born of a mixed womb who recites the Gayatri there finds a gatha or song come to him."
+          }
         },
         {
           "n": 28,
-          "text": "संवर्तस्य तु विप्रर्षेर्वापीमासाद्य दुर्लभाम् ।\nरूपस्य भागी भवति सुभगश्चैव जायते ॥"
+          "text": "संवर्तस्य तु विप्रर्षेर्वापीमासाद्य दुर्लभाम् ।\nरूपस्य भागी भवति सुभगश्चैव जायते ॥",
+          "meaning": {
+            "en": "Reaching the very rare stepwell of the brahmin sage Samvarta, one gains beauty and is born fortunate."
+          }
         },
         {
           "n": 29,
-          "text": "ततो वेण्णां समासाद्य तर्पयेत्पितृदेवताः ।\nमयूरहंससंयुक्तं विमानं लभते नरः ॥"
+          "text": "ततो वेण्णां समासाद्य तर्पयेत्पितृदेवताः ।\nमयूरहंससंयुक्तं विमानं लभते नरः ॥",
+          "meaning": {
+            "en": "Then, reaching the Venna and offering water to ancestors and gods, a man gains a celestial chariot yoked with peacocks and swans."
+          }
         },
         {
           "n": 30,
-          "text": "ततो गोदावरीं प्राप्य नित्यं सिद्धनिषेविताम् ।\nगवामयमवाप्नोति वासुकेर्लोकमाप्नुयात् ॥"
+          "text": "ततो गोदावरीं प्राप्य नित्यं सिद्धनिषेविताम् ।\nगवामयमवाप्नोति वासुकेर्लोकमाप्नुयात् ॥",
+          "meaning": {
+            "en": "Then, reaching the Godavari, always frequented by siddhas, one gains the Gavamaya and reaches Vasuki's world."
+          }
         },
         {
           "n": 31,
-          "text": "वेण्णायाः संगमे स्नात्वा वाजपेयफलं लभेत् ।\nवरदासंगमे स्नात्वा गोसहस्रफलं लभेत् ॥"
+          "text": "वेण्णायाः संगमे स्नात्वा वाजपेयफलं लभेत् ।\nवरदासंगमे स्नात्वा गोसहस्रफलं लभेत् ॥",
+          "meaning": {
+            "en": "Bathing at the confluence of the Venna one gains the fruit of the Vajapeya; bathing at the confluence of the Varada one gains the fruit of a thousand cows."
+          }
         },
         {
           "n": 32,
-          "text": "ब्रह्मस्थानं समासाद्य त्रिरात्रमुषितो नरः ।\nगोसहस्रफलं विन्देत्स्वर्गलोकं च गच्छति ॥"
+          "text": "ब्रह्मस्थानं समासाद्य त्रिरात्रमुषितो नरः ।\nगोसहस्रफलं विन्देत्स्वर्गलोकं च गच्छति ॥",
+          "meaning": {
+            "en": "Reaching Brahmasthana and staying three nights there, a man gains the fruit of a thousand cows and goes to heaven."
+          }
         },
         {
           "n": 33,
-          "text": "कुशप्लवनमासाद्य ब्रह्मचारी समाहितः ।\nत्रिरात्रमुषितः स्नात्वा अश्वमेधफलं लभेत् ॥"
+          "text": "कुशप्लवनमासाद्य ब्रह्मचारी समाहितः ।\nत्रिरात्रमुषितः स्नात्वा अश्वमेधफलं लभेत् ॥",
+          "meaning": {
+            "en": "Reaching Kushaplavana, a celibate with composed mind who stays three nights and bathes there gains the fruit of the horse sacrifice."
+          }
         },
         {
           "n": 34,
-          "text": "ततो देवह्रदे रम्ये कृष्णवेण्णाजलोद्भवे ।\nजातिमात्रह्रदे चैव तथा कन्याश्रमे नृप ॥"
+          "text": "ततो देवह्रदे रम्ये कृष्णवेण्णाजलोद्भवे ।\nजातिमात्रह्रदे चैव तथा कन्याश्रमे नृप ॥",
+          "meaning": {
+            "en": "Then at the lovely Devahrada, arising from the waters of the Krishnavenna, and at Jatimatrahrada and Kanyashrama, O king,"
+          }
         },
         {
           "n": 35,
-          "text": "यत्र क्रतुशतैरिष्ट्वा देवराजो दिवं गतः ।\nअग्निष्टोमशतं विन्देद्गमनादेव भारत ॥"
+          "text": "यत्र क्रतुशतैरिष्ट्वा देवराजो दिवं गतः ।\nअग्निष्टोमशतं विन्देद्गमनादेव भारत ॥",
+          "meaning": {
+            "en": "where the king of the gods went to heaven after performing a hundred sacrifices, one gains a hundred Agnishtomas merely by going there, O Bharata."
+          }
         },
         {
           "n": 36,
-          "text": "सर्वदेवह्रदे स्नात्वा गोसहस्रफलं लभेत् ।\nजातिमात्रह्रदे स्नात्वा भवेज्जातिस्मरो नरः ॥"
+          "text": "सर्वदेवह्रदे स्नात्वा गोसहस्रफलं लभेत् ।\nजातिमात्रह्रदे स्नात्वा भवेज्जातिस्मरो नरः ॥",
+          "meaning": {
+            "en": "Bathing at Sarvadevahrada one gains the fruit of a thousand cows; bathing at Jatimatrahrada, a man comes to remember his past births."
+          }
         },
         {
           "n": 37,
-          "text": "ततोऽवाप्य महापुण्यां पयोष्णीं सरितां वराम् ।\nपितृदेवार्चनरतो गोसहस्रफलं लभेत् ॥"
+          "text": "ततोऽवाप्य महापुण्यां पयोष्णीं सरितां वराम् ।\nपितृदेवार्चनरतो गोसहस्रफलं लभेत् ॥",
+          "meaning": {
+            "en": "Then, reaching the very holy Payoshni, best of rivers, and devoted to honouring ancestors and gods, one gains the fruit of a thousand cows."
+          }
         },
         {
           "n": 38,
-          "text": "दण्डकारण्यमासाद्य महाराज उपस्पृशेत् ।\nगोसहस्रफलं तत्र स्नातमात्रस्य भारत ॥"
+          "text": "दण्डकारण्यमासाद्य महाराज उपस्पृशेत् ।\nगोसहस्रफलं तत्र स्नातमात्रस्य भारत ॥",
+          "meaning": {
+            "en": "Reaching Dandakaranya, great king, one should rinse; by merely bathing there, O Bharata, one gains the fruit of a thousand cows."
+          }
         },
         {
           "n": 39,
-          "text": "शरभङ्गाश्रमं गत्वा शुकस्य च महात्मनः ।\nन दुर्गतिमवाप्नोति पुनाति च कुलं नरः ॥"
+          "text": "शरभङ्गाश्रमं गत्वा शुकस्य च महात्मनः ।\nन दुर्गतिमवाप्नोति पुनाति च कुलं नरः ॥",
+          "meaning": {
+            "en": "Going to the hermitage of Sharabhanga and to that of the great soul Shuka, one meets no evil fate and purifies one's family."
+          }
         },
         {
           "n": 40,
-          "text": "ततः शूर्पारकं गच्छेज्जामदग्न्यनिषेवितम् ।\nरामतीर्थे नरः स्नात्वा विन्द्याद्बहु सुवर्णकम् ॥"
+          "text": "ततः शूर्पारकं गच्छेज्जामदग्न्यनिषेवितम् ।\nरामतीर्थे नरः स्नात्वा विन्द्याद्बहु सुवर्णकम् ॥",
+          "meaning": {
+            "en": "Then one should go to Shurparaka, frequented by Jamadagni's son; bathing at Ramatirtha, one gains much gold."
+          }
         },
         {
           "n": 41,
-          "text": "सप्तगोदावरे स्नात्वा नियतो नियताशनः ।\nमहत्पुण्यमवाप्नोति देवलोकं च गच्छति ॥"
+          "text": "सप्तगोदावरे स्नात्वा नियतो नियताशनः ।\nमहत्पुण्यमवाप्नोति देवलोकं च गच्छति ॥",
+          "meaning": {
+            "en": "Bathing at Saptagodavara, restrained and with restrained diet, one gains great merit and goes to the gods' world."
+          }
         },
         {
           "n": 42,
-          "text": "ततो देवपथं गच्छेन्नियतो नियताशनः ।\nदेवसत्रस्य यत्पुण्यं तदवाप्नोति मानवः ॥"
+          "text": "ततो देवपथं गच्छेन्नियतो नियताशनः ।\nदेवसत्रस्य यत्पुण्यं तदवाप्नोति मानवः ॥",
+          "meaning": {
+            "en": "Then, restrained and with restrained diet, one should go to Devapatha; a man gains the merit of the Devasatra sacrifice."
+          }
         },
         {
           "n": 43,
-          "text": "तुङ्गकारण्यमासाद्य ब्रह्मचारी जितेन्द्रियः ।\nवेदानध्यापयत्तत्र ऋषिः सारस्वतः पुरा ॥"
+          "text": "तुङ्गकारण्यमासाद्य ब्रह्मचारी जितेन्द्रियः ।\nवेदानध्यापयत्तत्र ऋषिः सारस्वतः पुरा ॥",
+          "meaning": {
+            "en": "Reaching Tungakaranya, a celibate who has mastered his senses: there in the past the sage Sarasvata taught the Vedas."
+          }
         },
         {
           "n": 44,
-          "text": "तत्र वेदान्प्रनष्टांस्तु मुनेरङ्गिरसः सुतः ।\nउपविष्टो महर्षीणामुत्तरीयेषु भारत ॥"
+          "text": "तत्र वेदान्प्रनष्टांस्तु मुनेरङ्गिरसः सुतः ।\nउपविष्टो महर्षीणामुत्तरीयेषु भारत ॥",
+          "meaning": {
+            "en": "There the son of the muni Angiras, seated on the upper garments of great sages, restored the Vedas that had been lost, O Bharata."
+          }
         },
         {
           "n": 45,
-          "text": "ओंकारेण यथान्यायं सम्यगुच्चारितेन च ।\nयेन यत्पूर्वमभ्यस्तं तत्तस्य समुपस्थितम् ॥"
+          "text": "ओंकारेण यथान्यायं सम्यगुच्चारितेन च ।\nयेन यत्पूर्वमभ्यस्तं तत्तस्य समुपस्थितम् ॥",
+          "meaning": {
+            "en": "By the syllable Om, correctly pronounced as it should be, whatever each man had studied before came back to him."
+          }
         },
         {
           "n": 46,
-          "text": "ऋषयस्तत्र देवाश्च वरुणोऽग्निः प्रजापतिः ।\nहरिर्नारायणो देवो महादेवस्तथैव च ॥"
+          "text": "ऋषयस्तत्र देवाश्च वरुणोऽग्निः प्रजापतिः ।\nहरिर्नारायणो देवो महादेवस्तथैव च ॥",
+          "meaning": {
+            "en": "The sages there and the gods, Varuna, Agni, Prajapati, the god Hari Narayana and likewise Mahadeva,"
+          }
         },
         {
           "n": 47,
-          "text": "पितामहश्च भगवान्देवैः सह महाद्युतिः ।\nभृगुं नियोजयामास याजनार्थे महाद्युतिम् ॥"
+          "text": "पितामहश्च भगवान्देवैः सह महाद्युतिः ।\nभृगुं नियोजयामास याजनार्थे महाद्युतिम् ॥",
+          "meaning": {
+            "en": "and the blessed Grandfather of great radiance, with the gods, appointed the radiant Bhrigu as officiating priest."
+          }
         },
         {
           "n": 48,
-          "text": "ततः स चक्रे भगवानृषीणां विधिवत्तदा ।\nसर्वेषां पुनराधानं विधिदृष्टेन कर्मणा ॥"
+          "text": "ततः स चक्रे भगवानृषीणां विधिवत्तदा ।\nसर्वेषां पुनराधानं विधिदृष्टेन कर्मणा ॥",
+          "meaning": {
+            "en": "Then the blessed Bhrigu duly performed for all the sages the re-establishment of the sacred fires, by the rite laid down."
+          }
         },
         {
           "n": 49,
-          "text": "आज्यभागेन वै तत्र तर्पितास्तु यथाविधि ।\nदेवास्त्रिभुवणं याता ऋषयश्च यथासुखम् ॥"
+          "text": "आज्यभागेन वै तत्र तर्पितास्तु यथाविधि ।\nदेवास्त्रिभुवणं याता ऋषयश्च यथासुखम् ॥",
+          "meaning": {
+            "en": "There the gods were satisfied by the share of ghee in the proper way, and went to the three worlds, and the sages as they pleased."
+          }
         },
         {
           "n": 50,
-          "text": "तदरण्यं प्रविष्टस्य तुङ्गकं राजसत्तम ।\nपापं प्रणश्यते सर्वं स्त्रियो वा पुरुषस्य वा ॥"
+          "text": "तदरण्यं प्रविष्टस्य तुङ्गकं राजसत्तम ।\nपापं प्रणश्यते सर्वं स्त्रियो वा पुरुषस्य वा ॥",
+          "meaning": {
+            "en": "For one who enters that Tungaka forest, best of kings, all sin of woman or man is destroyed."
+          }
         },
         {
           "n": 51,
-          "text": "तत्र मासं वसेद्धीरो नियतो नियताशनः ।\nब्रह्मलोकं व्रजेद्राजन्पुनीते च कुलं नरः ॥"
+          "text": "तत्र मासं वसेद्धीरो नियतो नियताशनः ।\nब्रह्मलोकं व्रजेद्राजन्पुनीते च कुलं नरः ॥",
+          "meaning": {
+            "en": "A steadfast man should stay a month there, restrained and with restrained diet; he goes to Brahma's world, O king, and purifies his family."
+          }
         },
         {
           "n": 52,
-          "text": "मेधाविकं समासाद्य पितॄन्देवांश्च तर्पयेत् ।\nअग्निष्टोममवाप्नोति स्मृतिं मेधां च विन्दति ॥"
+          "text": "मेधाविकं समासाद्य पितॄन्देवांश्च तर्पयेत् ।\nअग्निष्टोममवाप्नोति स्मृतिं मेधां च विन्दति ॥",
+          "meaning": {
+            "en": "Reaching Medhavika and offering water to ancestors and gods, one gains the Agnishtoma, and also memory and intelligence."
+          }
         },
         {
           "n": 53,
-          "text": "ततः कालंजरं गत्वा पर्वतं लोकविश्रुतम् ।\nतत्र देवह्रदे स्नात्वा गोसहस्रफलं लभेत् ॥"
+          "text": "ततः कालंजरं गत्वा पर्वतं लोकविश्रुतम् ।\nतत्र देवह्रदे स्नात्वा गोसहस्रफलं लभेत् ॥",
+          "meaning": {
+            "en": "Then, going to Mount Kalanjara, famed in the world, and bathing at the Devahrada there, one gains the fruit of a thousand cows."
+          }
         },
         {
           "n": 54,
-          "text": "आत्मानं साधयेत्तत्र गिरौ कालंजरे नृप ।\nस्वर्गलोके महीयेत नरो नास्त्यत्र संशयः ॥"
+          "text": "आत्मानं साधयेत्तत्र गिरौ कालंजरे नृप ।\nस्वर्गलोके महीयेत नरो नास्त्यत्र संशयः ॥",
+          "meaning": {
+            "en": "One should perfect oneself on that mountain Kalanjara, O king; a man is honoured in heaven, without doubt."
+          }
         },
         {
           "n": 55,
-          "text": "ततो गिरिवरश्रेष्ठे चित्रकूटे विशां पते ।\nमन्दाकिनीं समासाद्य नदीं पापप्रमोचनीम् ॥"
+          "text": "ततो गिरिवरश्रेष्ठे चित्रकूटे विशां पते ।\nमन्दाकिनीं समासाद्य नदीं पापप्रमोचनीम् ॥",
+          "meaning": {
+            "en": "Then, lord of the people, on Chitrakuta, best of mountains, reaching the Mandakini, the river that frees from sin,"
+          }
         },
         {
           "n": 56,
-          "text": "तत्राभिषेकं कुर्वाणः पितृदेवार्चने रतः ।\nअश्वमेधमवाप्नोति गतिं च परमां व्रजेत् ॥"
+          "text": "तत्राभिषेकं कुर्वाणः पितृदेवार्चने रतः ।\nअश्वमेधमवाप्नोति गतिं च परमां व्रजेत् ॥",
+          "meaning": {
+            "en": "one should bathe there, devoted to honouring ancestors and gods; one gains the horse sacrifice and goes to the highest goal."
+          }
         },
         {
           "n": 57,
-          "text": "ततो गच्छेत राजेन्द्र भर्तृस्थानमनुत्तमम् ।\nयत्र देवो महासेनो नित्यं संनिहितो नृपः ॥"
+          "text": "ततो गच्छेत राजेन्द्र भर्तृस्थानमनुत्तमम् ।\nयत्र देवो महासेनो नित्यं संनिहितो नृपः ॥",
+          "meaning": {
+            "en": "Then, king of kings, one should go to the unsurpassed Bhartristhana, where the god Mahasena is always present, O king."
+          }
         },
         {
           "n": 58,
-          "text": "पुमांस्तत्र नरश्रेष्ठ गमनादेव सिध्यति ।\nकोटितीर्थे नरः स्नात्वा गोसहस्रफलं लभेत् ॥"
+          "text": "पुमांस्तत्र नरश्रेष्ठ गमनादेव सिध्यति ।\nकोटितीर्थे नरः स्नात्वा गोसहस्रफलं लभेत् ॥",
+          "meaning": {
+            "en": "A man there attains success merely by going, best of men; bathing at Kotitirtha one gains the fruit of a thousand cows."
+          }
         },
         {
           "n": 59,
-          "text": "प्रदक्षिणमुपावृत्य ज्येष्ठस्थानं व्रजेन्नरः ।\nअभिगम्य महादेवं विराजति यथा शशी ॥"
+          "text": "प्रदक्षिणमुपावृत्य ज्येष्ठस्थानं व्रजेन्नरः ।\nअभिगम्य महादेवं विराजति यथा शशी ॥",
+          "meaning": {
+            "en": "After circling it, a man should go to Jyeshthasthana; going to Mahadeva there he shines like the moon."
+          }
         },
         {
           "n": 60,
-          "text": "तत्र कूपो महाराज विश्रुतो भरतर्षभ ।\nसमुद्रास्तत्र चत्वारो निवसन्ति युधिष्ठिर ॥"
+          "text": "तत्र कूपो महाराज विश्रुतो भरतर्षभ ।\nसमुद्रास्तत्र चत्वारो निवसन्ति युधिष्ठिर ॥",
+          "meaning": {
+            "en": "There is a well there, great king, best of the Bharatas, famed; four oceans dwell there, Yudhishthira."
+          }
         },
         {
           "n": 61,
-          "text": "तत्रोपस्पृश्य राजेन्द्र कृत्वा चापि प्रदक्षिणम् ।\nनियतात्मा नरः पूतो गच्छेत परमां गतिम् ॥"
+          "text": "तत्रोपस्पृश्य राजेन्द्र कृत्वा चापि प्रदक्षिणम् ।\nनियतात्मा नरः पूतो गच्छेत परमां गतिम् ॥",
+          "meaning": {
+            "en": "Rinsing there, king of kings, and circling it, a self-controlled man becomes pure and reaches the highest goal."
+          }
         },
         {
           "n": 62,
-          "text": "ततो गच्छेत्कुरुश्रेष्ठ शृङ्गवेरपुरं महत् ।\nयत्र तीर्णो महाराज रामो दाशरथिः पुरा ॥"
+          "text": "ततो गच्छेत्कुरुश्रेष्ठ शृङ्गवेरपुरं महत् ।\nयत्र तीर्णो महाराज रामो दाशरथिः पुरा ॥",
+          "meaning": {
+            "en": "Then, best of the Kurus, one should go to the great Shringaverapura, where Rama son of Dasharatha once crossed."
+          }
         },
         {
           "n": 63,
-          "text": "गङ्गायां तु नरः स्नात्वा ब्रह्मचारी समाहितः ।\nविधूतपाप्मा भवति वाजपेयं च विन्दति ॥"
+          "text": "गङ्गायां तु नरः स्नात्वा ब्रह्मचारी समाहितः ।\nविधूतपाप्मा भवति वाजपेयं च विन्दति ॥",
+          "meaning": {
+            "en": "A celibate with composed mind who bathes in the Ganga there has his sin shaken off and gains the Vajapeya."
+          }
         },
         {
           "n": 64,
-          "text": "अभिगम्य महादेवमभ्यर्च्य च नराधिप ।\nप्रदक्षिणमुपावृत्य गाणपत्यमवाप्नुयात् ॥"
+          "text": "अभिगम्य महादेवमभ्यर्च्य च नराधिप ।\nप्रदक्षिणमुपावृत्य गाणपत्यमवाप्नुयात् ॥",
+          "meaning": {
+            "en": "Going to Mahadeva and worshipping him, ruler of men, and circling him, one gains leadership of Shiva's host."
+          }
         },
         {
           "n": 65,
-          "text": "ततो गच्छेत राजेन्द्र प्रयागमृषिसंस्तुतम् ।\nयत्र ब्रह्मादयो देवा दिशश्च सदिगीश्वराः ॥"
+          "text": "ततो गच्छेत राजेन्द्र प्रयागमृषिसंस्तुतम् ।\nयत्र ब्रह्मादयो देवा दिशश्च सदिगीश्वराः ॥",
+          "meaning": {
+            "en": "Then, king of kings, one should go to Prayaga, praised by sages, where Brahma and the other gods, the directions with their guardians,"
+          }
         },
         {
           "n": 66,
-          "text": "लोकपालाश्च साध्याश्च नैरृताः पितरस्तथा ।\nसनत्कुमारप्रमुखास्तथैव परमर्षयः ॥"
+          "text": "लोकपालाश्च साध्याश्च नैरृताः पितरस्तथा ।\nसनत्कुमारप्रमुखास्तथैव परमर्षयः ॥",
+          "meaning": {
+            "en": "the world-guardians, Sadhyas, Nairritas and ancestors, and the great sages led by Sanatkumara,"
+          }
         },
         {
           "n": 67,
-          "text": "अङ्गिरःप्रमुखाश्चैव तथा ब्रह्मर्षयोऽपरे ।\nतथा नागाः सुपर्णाश्च सिद्धाश्चक्रचरास्तथा ॥"
+          "text": "अङ्गिरःप्रमुखाश्चैव तथा ब्रह्मर्षयोऽपरे ।\nतथा नागाः सुपर्णाश्च सिद्धाश्चक्रचरास्तथा ॥",
+          "meaning": {
+            "en": "others led by Angiras, the brahmin sages, nagas, suparnas, siddhas and those who travel with the wheel,"
+          }
         },
         {
           "n": 68,
-          "text": "सरितः सागराश्चैव गन्धर्वाप्सरसस्तथा ।\nहरिश्च भगवानास्ते प्रजापतिपुरस्कृतः ॥"
+          "text": "सरितः सागराश्चैव गन्धर्वाप्सरसस्तथा ।\nहरिश्च भगवानास्ते प्रजापतिपुरस्कृतः ॥",
+          "meaning": {
+            "en": "rivers and oceans, gandharvas and apsaras are present, and the blessed Hari dwells there, honoured with Prajapati in front."
+          }
         },
         {
           "n": 69,
-          "text": "तत्र त्रीण्यग्निकुण्डानि येषां मध्ये च जाह्नवी ।\nप्रयागादभिनिष्क्रान्ता सर्वतीर्थपुरस्कृता ॥"
+          "text": "तत्र त्रीण्यग्निकुण्डानि येषां मध्ये च जाह्नवी ।\nप्रयागादभिनिष्क्रान्ता सर्वतीर्थपुरस्कृता ॥",
+          "meaning": {
+            "en": "There are three fire-pits, in the middle of which the Jahnavi flows out of Prayaga, honoured by all fords."
+          }
         },
         {
           "n": 70,
-          "text": "तपनस्य सुता तत्र त्रिषु लोकेषु विश्रुता ।\nयमुना गङ्गया सार्धं संगता लोकपावनी ॥"
+          "text": "तपनस्य सुता तत्र त्रिषु लोकेषु विश्रुता ।\nयमुना गङ्गया सार्धं संगता लोकपावनी ॥",
+          "meaning": {
+            "en": "There the daughter of the sun, famed in the three worlds, the world-purifying Yamuna, joins the Ganga."
+          }
         },
         {
           "n": 71,
-          "text": "गङ्गायमुनयोर्मध्यं पृथिव्या जघनं स्मृतम् ।\nप्रयागं जघनस्यान्तमुपस्थमृषयो विदुः ॥"
+          "text": "गङ्गायमुनयोर्मध्यं पृथिव्या जघनं स्मृतम् ।\nप्रयागं जघनस्यान्तमुपस्थमृषयो विदुः ॥",
+          "meaning": {
+            "en": "The region between the Ganga and the Yamuna is called the earth's hip, and the sages know Prayaga as the end of the hip, the loins."
+          }
         },
         {
           "n": 72,
-          "text": "प्रयागं सप्रतिष्ठानं कम्बलाश्वतरौ तथा ।\nतीर्थं भोगवती चैव वेदी प्रोक्ता प्रजापतेः ॥"
+          "text": "प्रयागं सप्रतिष्ठानं कम्बलाश्वतरौ तथा ।\nतीर्थं भोगवती चैव वेदी प्रोक्ता प्रजापतेः ॥",
+          "meaning": {
+            "en": "Prayaga with Pratishthana, Kambala and Ashvatara, and the ford Bhogavati are said to be Prajapati's altar."
+          }
         },
         {
           "n": 73,
-          "text": "तत्र वेदाश्च यज्ञाश्च मूर्तिमन्तो युधिष्ठिर ।\nप्रजापतिमुपासन्ते ऋषयश्च महाव्रताः ।\nयजन्ते क्रतुभिर्देवास्तथा चक्रचरा नृप ॥"
+          "text": "तत्र वेदाश्च यज्ञाश्च मूर्तिमन्तो युधिष्ठिर ।\nप्रजापतिमुपासन्ते ऋषयश्च महाव्रताः ।\nयजन्ते क्रतुभिर्देवास्तथा चक्रचरा नृप ॥",
+          "meaning": {
+            "en": "There the Vedas and sacrifices stand embodied, Yudhishthira, and the sages of great vows worship Prajapati; the gods and those who go with the wheel perform sacrifices there with rites, O king."
+          }
         },
         {
           "n": 74,
-          "text": "ततः पुण्यतमं नास्ति त्रिषु लोकेषु भारत ।\nप्रयागः सर्वतीर्थेभ्यः प्रभवत्यधिकं विभो ॥"
+          "text": "ततः पुण्यतमं नास्ति त्रिषु लोकेषु भारत ।\nप्रयागः सर्वतीर्थेभ्यः प्रभवत्यधिकं विभो ॥",
+          "meaning": {
+            "en": "There is nothing holier in the three worlds than that, O Bharata; Prayaga surpasses all fords, mighty one."
+          }
         },
         {
           "n": 75,
-          "text": "श्रवणात्तस्य तीर्थस्य नामसंकीर्तनादपि ।\nमृत्तिकालम्भनाद्वापि नरः पापात्प्रमुच्यते ॥"
+          "text": "श्रवणात्तस्य तीर्थस्य नामसंकीर्तनादपि ।\nमृत्तिकालम्भनाद्वापि नरः पापात्प्रमुच्यते ॥",
+          "meaning": {
+            "en": "By hearing of that ford, by speaking its name, or by touching its earth, a man is freed from sin."
+          }
         },
         {
           "n": 76,
-          "text": "तत्राभिषेकं यः कुर्यात्संगमे संशितव्रतः ।\nपुण्यं स फलमाप्नोति राजसूयाश्वमेधयोः ॥"
+          "text": "तत्राभिषेकं यः कुर्यात्संगमे संशितव्रतः ।\nपुण्यं स फलमाप्नोति राजसूयाश्वमेधयोः ॥",
+          "meaning": {
+            "en": "One of sharp vows who bathes at that confluence gains the merit of the Rajasuya and the horse sacrifice."
+          }
         },
         {
           "n": 77,
-          "text": "एषा यजनभूमिर्हि देवानामपि सत्कृता ।\nतत्र दत्तं सूक्ष्ममपि महद्भवति भारत ॥"
+          "text": "एषा यजनभूमिर्हि देवानामपि सत्कृता ।\nतत्र दत्तं सूक्ष्ममपि महद्भवति भारत ॥",
+          "meaning": {
+            "en": "This is a sacrificial ground honoured even by the gods; even a small gift made there becomes great, O Bharata."
+          }
         },
         {
           "n": 78,
-          "text": "न वेदवचनात्तात न लोकवचनादपि ।\nमतिरुत्क्रमणीया ते प्रयागमरणं प्रति ॥"
+          "text": "न वेदवचनात्तात न लोकवचनादपि ।\nमतिरुत्क्रमणीया ते प्रयागमरणं प्रति ॥",
+          "meaning": {
+            "en": "My dear, neither because of a Vedic saying nor because of what people say should your mind turn away from dying at Prayaga."
+          }
         },
         {
           "n": 79,
-          "text": "दश तीर्थसहस्राणि षष्टिकोट्यस्तथापराः ।\nयेषां सांनिध्यमत्रैव कीर्तितं कुरुनन्दन ॥"
+          "text": "दश तीर्थसहस्राणि षष्टिकोट्यस्तथापराः ।\nयेषां सांनिध्यमत्रैव कीर्तितं कुरुनन्दन ॥",
+          "meaning": {
+            "en": "Ten thousand fords and sixty crores more are said to be present right here, joy of the Kurus."
+          }
         },
         {
           "n": 80,
-          "text": "चातुर्वेदे च यत्पुण्यं सत्यवादिषु चैव यत् ।\nस्नात एव तदाप्नोति गङ्गायमुनसंगमे ॥"
+          "text": "चातुर्वेदे च यत्पुण्यं सत्यवादिषु चैव यत् ।\nस्नात एव तदाप्नोति गङ्गायमुनसंगमे ॥",
+          "meaning": {
+            "en": "Whatever merit there is in a master of the four Vedas and among truth-tellers, one gains merely by bathing at the confluence of the Ganga and Yamuna."
+          }
         },
         {
           "n": 81,
-          "text": "तत्र भोगवती नाम वासुकेस्तीर्थमुत्तमम् ।\nतत्राभिषेकं यः कुर्यात्सोऽश्वमेधमवाप्नुयात् ॥"
+          "text": "तत्र भोगवती नाम वासुकेस्तीर्थमुत्तमम् ।\nतत्राभिषेकं यः कुर्यात्सोऽश्वमेधमवाप्नुयात् ॥",
+          "meaning": {
+            "en": "There is the excellent ford of Vasuki named Bhogavati; one who bathes there gains the horse sacrifice."
+          }
         },
         {
           "n": 82,
-          "text": "तत्र हंसप्रपतनं तीर्थं त्रैलोक्यविश्रुतम् ।\nदशाश्वमेधिकं चैव गङ्गायां कुरुनन्दन ॥"
+          "text": "तत्र हंसप्रपतनं तीर्थं त्रैलोक्यविश्रुतम् ।\nदशाश्वमेधिकं चैव गङ्गायां कुरुनन्दन ॥",
+          "meaning": {
+            "en": "There is the ford Hamsaprapatana, famed in the three worlds, and Dashashvamedhika on the Ganga, joy of the Kurus."
+          }
         },
         {
           "n": 83,
-          "text": "यत्र गङ्गा महाराज स देशस्तत्तपोवनम् ।\nसिद्धक्षेत्रं तु तज्ज्ञेयं गङ्गातीरसमाश्रितम् ॥"
+          "text": "यत्र गङ्गा महाराज स देशस्तत्तपोवनम् ।\nसिद्धक्षेत्रं तु तज्ज्ञेयं गङ्गातीरसमाश्रितम् ॥",
+          "meaning": {
+            "en": "Wherever the Ganga is, great king, that region is an ascetic forest; know that land along the Ganga's bank to be a field of perfection."
+          }
         },
         {
           "n": 84,
-          "text": "इदं सत्यं द्विजातीनां साधूनामात्मजस्य च ।\nसुहृदां च जपेत्कर्णे शिष्यस्यानुगतस्य च ॥"
+          "text": "इदं सत्यं द्विजातीनां साधूनामात्मजस्य च ।\nसुहृदां च जपेत्कर्णे शिष्यस्यानुगतस्य च ॥",
+          "meaning": {
+            "en": "This truth one should whisper in the ear of brahmins, good men, one's son, friends, and a devoted pupil."
+          }
         },
         {
           "n": 85,
-          "text": "इदं धर्म्यमिदं पुण्यमिदं मेध्यमिदं सुखम् ।\nइदं स्वर्ग्यमिदं रम्यमिदं पावनमुत्तमम् ॥"
+          "text": "इदं धर्म्यमिदं पुण्यमिदं मेध्यमिदं सुखम् ।\nइदं स्वर्ग्यमिदं रम्यमिदं पावनमुत्तमम् ॥",
+          "meaning": {
+            "en": "This is dharmic, holy, sacrificially pure, pleasant, leading to heaven, lovely, purifying and supreme."
+          }
         },
         {
           "n": 86,
-          "text": "महर्षीणामिदं गुह्यं सर्वपापप्रमोचनम् ।\nअधीत्य द्विजमध्ये च निर्मलत्वमवाप्नुयात् ॥"
+          "text": "महर्षीणामिदं गुह्यं सर्वपापप्रमोचनम् ।\nअधीत्य द्विजमध्ये च निर्मलत्वमवाप्नुयात् ॥",
+          "meaning": {
+            "en": "This is the great sages' secret that frees from all sins; by reciting it among brahmins one attains purity."
+          }
         },
         {
           "n": 87,
-          "text": "यश्चेदं शृणुयान्नित्यं तीर्थपुण्यं सदा शुचिः ।\nजातीः स स्मरते बह्वीर्नाकपृष्ठे च मोदते ॥"
+          "text": "यश्चेदं शृणुयान्नित्यं तीर्थपुण्यं सदा शुचिः ।\nजातीः स स्मरते बह्वीर्नाकपृष्ठे च मोदते ॥",
+          "meaning": {
+            "en": "One who always listens to this merit of fords, ever pure, remembers many past births and rejoices in the highest heaven."
+          }
         },
         {
           "n": 88,
-          "text": "गम्यान्यपि च तीर्थानि कीर्तितान्यगमानि च ।\nमनसा तानि गच्छेत सर्वतीर्थसमीक्षया ॥"
+          "text": "गम्यान्यपि च तीर्थानि कीर्तितान्यगमानि च ।\nमनसा तानि गच्छेत सर्वतीर्थसमीक्षया ॥",
+          "meaning": {
+            "en": "Even the fords that can be reached and those that cannot, as described, one should visit in mind, taking in all the fords with the inner eye."
+          }
         },
         {
           "n": 89,
-          "text": "एतानि वसुभिः साध्यैरादित्यैर्मरुदश्विभिः ।\nऋषिभिर्देवकल्पैश्च श्रितानि सुकृतैषिभिः ॥"
+          "text": "एतानि वसुभिः साध्यैरादित्यैर्मरुदश्विभिः ।\nऋषिभिर्देवकल्पैश्च श्रितानि सुकृतैषिभिः ॥",
+          "meaning": {
+            "en": "These have been resorted to by the Vasus, Sadhyas, Adityas, Maruts, Ashvins, by sages and godlike beings who desire merit."
+          }
         },
         {
           "n": 90,
-          "text": "एवं त्वमपि कौरव्य विधिनानेन सुव्रत ।\nव्रज तीर्थानि नियतः पुण्यं पुण्येन वर्धते ॥"
+          "text": "एवं त्वमपि कौरव्य विधिनानेन सुव्रत ।\nव्रज तीर्थानि नियतः पुण्यं पुण्येन वर्धते ॥",
+          "meaning": {
+            "en": "So you too, descendant of Kuru, of good vows, go to the fords by this method, restrained; merit grows by merit."
+          }
         },
         {
           "n": 91,
-          "text": "भावितैः कारणैः पूर्वमास्तिक्याच्छ्रुतिदर्शनात् ।\nप्राप्यन्ते तानि तीर्थानि सद्भिः शिष्टानुदर्शिभिः ॥"
+          "text": "भावितैः कारणैः पूर्वमास्तिक्याच्छ्रुतिदर्शनात् ।\nप्राप्यन्ते तानि तीर्थानि सद्भिः शिष्टानुदर्शिभिः ॥",
+          "meaning": {
+            "en": "Good men who follow the practice of the wise reach those fords by prior cultivated causes, belief in God and sight of the scriptures."
+          }
         },
         {
           "n": 92,
-          "text": "नाव्रतो नाकृतात्मा च नाशुचिर्न च तस्करः ।\nस्नाति तीर्थेषु कौरव्य न च वक्रमतिर्नरः ॥"
+          "text": "नाव्रतो नाकृतात्मा च नाशुचिर्न च तस्करः ।\nस्नाति तीर्थेषु कौरव्य न च वक्रमतिर्नरः ॥",
+          "meaning": {
+            "en": "One who is without vow, whose self is uncontrolled, who is impure, a thief, or crooked in mind does not bathe at the fords, descendant of Kuru."
+          }
         },
         {
           "n": 93,
-          "text": "त्वया तु सम्यग्वृत्तेन नित्यं धर्मार्थदर्शिना ।\nपितरस्तारितास्तात सर्वे च प्रपितामहाः ॥"
+          "text": "त्वया तु सम्यग्वृत्तेन नित्यं धर्मार्थदर्शिना ।\nपितरस्तारितास्तात सर्वे च प्रपितामहाः ॥",
+          "meaning": {
+            "en": "Dear, by your right conduct and constant regard for dharma and prosperity you have already saved your ancestors and great-grandfathers."
+          }
         },
         {
           "n": 94,
-          "text": "पितामहपुरोगाश्च देवाः सर्षिगणा नृप ।\nतव धर्मेण धर्मज्ञ नित्यमेवाभितोषिताः ॥"
+          "text": "पितामहपुरोगाश्च देवाः सर्षिगणा नृप ।\nतव धर्मेण धर्मज्ञ नित्यमेवाभितोषिताः ॥",
+          "meaning": {
+            "en": "The gods led by the Grandfather and the hosts of sages have always been pleased by your dharma, knower of dharma."
+          }
         },
         {
           "n": 95,
-          "text": "अवाप्स्यसि च लोकान्वै वसूनां वासवोपम ।\nकीर्तिं च महतीं भीष्म प्राप्स्यसे भुवि शाश्वतीम् ॥"
+          "text": "अवाप्स्यसि च लोकान्वै वसूनां वासवोपम ।\nकीर्तिं च महतीं भीष्म प्राप्स्यसे भुवि शाश्वतीम् ॥",
+          "meaning": {
+            "en": "You will gain the worlds of the Vasus, you who are like Indra, and, Bhishma, you will gain great, lasting fame on earth."
+          }
         },
         {
-          "text": "नारद उवाच"
+          "text": "नारद उवाच",
+          "meaning": {
+            "en": "Narada said:"
+          }
         },
         {
           "n": 96,
-          "text": "एवमुक्त्वाभ्यनुज्ञाप्य पुलस्त्यो भगवानृषिः ।\nप्रीतः प्रीतेन मनसा तत्रैवान्तरधीयत ॥"
+          "text": "एवमुक्त्वाभ्यनुज्ञाप्य पुलस्त्यो भगवानृषिः ।\nप्रीतः प्रीतेन मनसा तत्रैवान्तरधीयत ॥",
+          "meaning": {
+            "en": "Having said this and taken leave, the blessed sage Pulastya, pleased at heart, vanished right there."
+          }
         },
         {
           "n": 97,
-          "text": "भीष्मश्च कुरुशार्दूल शास्त्रतत्त्वार्थदर्शिवान् ।\nपुलस्त्यवचनाच्चैव पृथिवीमनुचक्रमे ॥"
+          "text": "भीष्मश्च कुरुशार्दूल शास्त्रतत्त्वार्थदर्शिवान् ।\nपुलस्त्यवचनाच्चैव पृथिवीमनुचक्रमे ॥",
+          "meaning": {
+            "en": "And Bhishma, tiger among the Kurus, who saw the true meaning of the scriptures, travelled over the earth by Pulastya's word."
+          }
         },
         {
           "n": 98,
-          "text": "अनेन विधिना यस्तु पृथिवीं संचरिष्यति ।\nअश्वमेधशतस्याग्र्यं फलं प्रेत्य स भोक्ष्यते ॥"
+          "text": "अनेन विधिना यस्तु पृथिवीं संचरिष्यति ।\nअश्वमेधशतस्याग्र्यं फलं प्रेत्य स भोक्ष्यते ॥",
+          "meaning": {
+            "en": "One who travels the earth by this method will enjoy after death the best fruit of a hundred horse sacrifices."
+          }
         },
         {
           "n": 99,
-          "text": "अतश्चाष्टगुणं पार्थ प्राप्स्यसे धर्ममुत्तमम् ।\nनेता च त्वमृषीन्यस्मात्तेन तेऽष्टगुणं फलम् ॥"
+          "text": "अतश्चाष्टगुणं पार्थ प्राप्स्यसे धर्ममुत्तमम् ।\nनेता च त्वमृषीन्यस्मात्तेन तेऽष्टगुणं फलम् ॥",
+          "meaning": {
+            "en": "And you, Partha, will gain eight times that highest dharma, because you will lead sages; for that reason your fruit will be eightfold."
+          }
         },
         {
           "n": 100,
-          "text": "रक्षोगणावकीर्णानि तीर्थान्येतानि भारत ।\nन गतिर्विद्यतेऽन्यस्य त्वामृते कुरुनन्दन ॥"
+          "text": "रक्षोगणावकीर्णानि तीर्थान्येतानि भारत ।\nन गतिर्विद्यतेऽन्यस्य त्वामृते कुरुनन्दन ॥",
+          "meaning": {
+            "en": "These fords are overrun by hosts of rakshasas, Bharata; no one but you has the means to go there, joy of the Kurus."
+          }
         },
         {
           "n": 101,
-          "text": "इदं देवर्षिचरितं सर्वतीर्थार्थसंश्रितम् ।\nयः पठेत्कल्यमुत्थाय सर्वपापैः प्रमुच्यते ॥"
+          "text": "इदं देवर्षिचरितं सर्वतीर्थार्थसंश्रितम् ।\nयः पठेत्कल्यमुत्थाय सर्वपापैः प्रमुच्यते ॥",
+          "meaning": {
+            "en": "One who rises at dawn and recites this account of the divine sages, which centres on all the fords, is freed from all sins."
+          }
         },
         {
           "n": 102,
-          "text": "ऋषिमुख्याः सदा यत्र वाल्मीकिस्त्वथ काश्यपः ।\nआत्रेयस्त्वथ कौण्डिन्यो विश्वामित्रोऽथ गौतमः ॥"
+          "text": "ऋषिमुख्याः सदा यत्र वाल्मीकिस्त्वथ काश्यपः ।\nआत्रेयस्त्वथ कौण्डिन्यो विश्वामित्रोऽथ गौतमः ॥",
+          "meaning": {
+            "en": "The chief sages always there are Valmiki, Kashyapa, Atreya, Kaundinya, Vishvamitra and Gautama,"
+          }
         },
         {
           "n": 103,
-          "text": "असितो देवलश्चैव मार्कण्डेयोऽथ गालवः ।\nभरद्वाजो वसिष्ठश्च मुनिरुद्दालकस्तथा ॥"
+          "text": "असितो देवलश्चैव मार्कण्डेयोऽथ गालवः ।\nभरद्वाजो वसिष्ठश्च मुनिरुद्दालकस्तथा ॥",
+          "meaning": {
+            "en": "Asita, Devala, Markandeya, Galava, Bharadvaja, Vasishtha, the muni Uddalaka,"
+          }
         },
         {
           "n": 104,
-          "text": "शौनकः सह पुत्रेण व्यासश्च जपतां वरः ।\nदुर्वासाश्च मुनिश्रेष्ठो गालवश्च महातपाः ॥"
+          "text": "शौनकः सह पुत्रेण व्यासश्च जपतां वरः ।\nदुर्वासाश्च मुनिश्रेष्ठो गालवश्च महातपाः ॥",
+          "meaning": {
+            "en": "Shaunaka with his son, and Vyasa, best of those who recite, Durvasa, the best of munis, and the great ascetic Galava."
+          }
         },
         {
           "n": 105,
-          "text": "एते ऋषिवराः सर्वे त्वत्प्रतीक्षास्तपोधनाः ।\nएभिः सह महाराज तीर्थान्येतान्यनुव्रज ॥"
+          "text": "एते ऋषिवराः सर्वे त्वत्प्रतीक्षास्तपोधनाः ।\nएभिः सह महाराज तीर्थान्येतान्यनुव्रज ॥",
+          "meaning": {
+            "en": "All these best of sages, rich in austerity, are waiting for you. Go with them, great king, to these fords."
+          }
         },
         {
           "n": 106,
-          "text": "एष वै लोमशो नाम देवर्षिरमितद्युतिः ।\nसमेष्यति त्वया चैव तेन सार्धमनुव्रज ॥"
+          "text": "एष वै लोमशो नाम देवर्षिरमितद्युतिः ।\nसमेष्यति त्वया चैव तेन सार्धमनुव्रज ॥",
+          "meaning": {
+            "en": "Here comes the divine sage Lomasha of boundless splendour; he will join you, so go with him."
+          }
         },
         {
           "n": 107,
-          "text": "मया च सह धर्मज्ञ तीर्थान्येतान्यनुव्रज ।\nप्राप्स्यसे महतीं कीर्तिं यथा राजा महाभिषः ॥"
+          "text": "मया च सह धर्मज्ञ तीर्थान्येतान्यनुव्रज ।\nप्राप्स्यसे महतीं कीर्तिं यथा राजा महाभिषः ॥",
+          "meaning": {
+            "en": "Go with me too, knower of dharma, to these fords; you will gain great fame, as King Mahabhisha did."
+          }
         },
         {
           "n": 108,
-          "text": "यथा ययातिर्धर्मात्मा यथा राजा पुरूरवाः ।\nतथा त्वं कुरुशार्दूल स्वेन धर्मेण शोभसे ॥"
+          "text": "यथा ययातिर्धर्मात्मा यथा राजा पुरूरवाः ।\nतथा त्वं कुरुशार्दूल स्वेन धर्मेण शोभसे ॥",
+          "meaning": {
+            "en": "As Yayati of righteous soul and King Pururavas did, so you, tiger among the Kurus, shine by your own dharma."
+          }
         },
         {
           "n": 109,
-          "text": "यथा भगीरथो राजा यथा रामश्च विश्रुतः ।\nतथा त्वं सर्वराजभ्यो भ्राजसे रश्मिवानिव ॥"
+          "text": "यथा भगीरथो राजा यथा रामश्च विश्रुतः ।\nतथा त्वं सर्वराजभ्यो भ्राजसे रश्मिवानिव ॥",
+          "meaning": {
+            "en": "As King Bhagiratha and renowned Rama did, you outshine all kings like the sun."
+          }
         },
         {
           "n": 110,
-          "text": "यथा मनुर्यथेक्ष्वाकुर्यथा पूरुर्महायशाः ।\nयथा वैन्यो महातेजास्तथा त्वमपि विश्रुतः ॥"
+          "text": "यथा मनुर्यथेक्ष्वाकुर्यथा पूरुर्महायशाः ।\nयथा वैन्यो महातेजास्तथा त्वमपि विश्रुतः ॥",
+          "meaning": {
+            "en": "As Manu, Ikshvaku, the greatly renowned Puru and the mighty Vainya were, so you too are famed."
+          }
         },
         {
           "n": 111,
-          "text": "यथा च वृत्रहा सर्वान्सपत्नान्निर्दहत्पुरा ।\nतथा शत्रुक्षयं कृत्वा प्रजास्त्वं पालयिष्यसि ॥"
+          "text": "यथा च वृत्रहा सर्वान्सपत्नान्निर्दहत्पुरा ।\nतथा शत्रुक्षयं कृत्वा प्रजास्त्वं पालयिष्यसि ॥",
+          "meaning": {
+            "en": "As the slayer of Vritra once burned all his rivals, so you will destroy your enemies and protect your subjects."
+          }
         },
         {
           "n": 112,
-          "text": "स्वधर्मविजितामुर्वीं प्राप्य राजीवलोचन ।\nख्यातिं यास्यसि धर्मेण कार्तवीर्यार्जुनो यथा ॥"
+          "text": "स्वधर्मविजितामुर्वीं प्राप्य राजीवलोचन ।\nख्यातिं यास्यसि धर्मेण कार्तवीर्यार्जुनो यथा ॥",
+          "meaning": {
+            "en": "Lotus-eyed one, having regained the earth conquered by your own dharma, you will win fame by dharma, as Kartavirya Arjuna did."
+          }
         },
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 113,
-          "text": "एवमाश्वास्य राजानं नारदो भगवानृषिः ।\nअनुज्ञाप्य महात्मानं तत्रैवान्तरधीयत ॥"
+          "text": "एवमाश्वास्य राजानं नारदो भगवानृषिः ।\nअनुज्ञाप्य महात्मानं तत्रैवान्तरधीयत ॥",
+          "meaning": {
+            "en": "Having thus comforted the king, the blessed sage Narada took leave of the great soul and vanished right there."
+          }
         },
         {
           "n": 114,
-          "text": "युधिष्ठिरोऽपि धर्मात्मा तमेवार्थं विचिन्तयन् ।\nतीर्थयात्राश्रयं पुण्यमृषीणां प्रत्यवेदयत् ॥"
+          "text": "युधिष्ठिरोऽपि धर्मात्मा तमेवार्थं विचिन्तयन् ।\nतीर्थयात्राश्रयं पुण्यमृषीणां प्रत्यवेदयत् ॥",
+          "meaning": {
+            "en": "The righteous Yudhishthira, reflecting on that very matter, reported to the sages the holy practice of pilgrimage."
+          }
         }
       ]
     }

@@ -22,157 +22,274 @@
       "titleEn": "Tirthayatra Parva (The pilgrimage)",
       "verses": [
         {
-          "text": "लोमश उवाच"
+          "text": "लोमश उवाच",
+          "meaning": {
+            "en": "Lomasha said:"
+          }
         },
         {
           "n": 1,
-          "text": "एषा देवनदी पुण्या कौशिकी भरतर्षभ ।\nविश्वामित्राश्रमो रम्य एष चात्र प्रकाशते ॥"
+          "text": "एषा देवनदी पुण्या कौशिकी भरतर्षभ ।\nविश्वामित्राश्रमो रम्य एष चात्र प्रकाशते ॥",
+          "meaning": {
+            "en": "Best of Bharatas, this is the holy divine river Kaushiki, and here shines the lovely hermitage of Vishvamitra."
+          }
         },
         {
           "n": 2,
-          "text": "आश्रमश्चैव पुण्याख्यः काश्यपस्य महात्मनः ।\nऋश्यशृङ्गः सुतो यस्य तपस्वी संयतेन्द्रियः ॥"
+          "text": "आश्रमश्चैव पुण्याख्यः काश्यपस्य महात्मनः ।\nऋश्यशृङ्गः सुतो यस्य तपस्वी संयतेन्द्रियः ॥",
+          "meaning": {
+            "en": "Here too is the holy hermitage of the great Kashyapa, whose son was the ascetic Rishyashringa, master of his senses."
+          }
         },
         {
           "n": 3,
-          "text": "तपसो यः प्रभावेन वर्षयामास वासवम् ।\nअनावृष्ट्यां भयाद्यस्य ववर्ष बलवृत्रहा ॥"
+          "text": "तपसो यः प्रभावेन वर्षयामास वासवम् ।\nअनावृष्ट्यां भयाद्यस्य ववर्ष बलवृत्रहा ॥",
+          "meaning": {
+            "en": "By the power of his austerity he made Indra rain; in a drought, from fear of him, the slayer of Bala and Vritra sent rain."
+          }
         },
         {
           "n": 4,
-          "text": "मृग्यां जातः स तेजस्वी काश्यपस्य सुतः प्रभुः ।\nविषये लोमपादस्य यश्चकाराद्भुतं महत् ॥"
+          "text": "मृग्यां जातः स तेजस्वी काश्यपस्य सुतः प्रभुः ।\nविषये लोमपादस्य यश्चकाराद्भुतं महत् ॥",
+          "meaning": {
+            "en": "That radiant, mighty son of Kashyapa was born of a doe, and he did a great marvel in the realm of Lomapada."
+          }
         },
         {
           "n": 5,
-          "text": "निवर्तितेषु सस्येषु यस्मै शान्तां ददौ नृपः ।\nलोमपादो दुहितरं सावित्रीं सविता यथा ॥"
+          "text": "निवर्तितेषु सस्येषु यस्मै शान्तां ददौ नृपः ।\nलोमपादो दुहितरं सावित्रीं सविता यथा ॥",
+          "meaning": {
+            "en": "When the crops had failed, King Lomapada gave him his daughter Shanta, as Savitri was given to the sun."
+          }
         },
         {
-          "text": "युधिष्ठिर उवाच"
+          "text": "युधिष्ठिर उवाच",
+          "meaning": {
+            "en": "Yudhishthira said:"
+          }
         },
         {
           "n": 6,
-          "text": "ऋश्यशृङ्गः कथं मृग्यामुत्पन्नः काश्यपात्मजः ।\nविरुद्धे योनिसंसर्गे कथं च तपसा युतः ॥"
+          "text": "ऋश्यशृङ्गः कथं मृग्यामुत्पन्नः काश्यपात्मजः ।\nविरुद्धे योनिसंसर्गे कथं च तपसा युतः ॥",
+          "meaning": {
+            "en": "How was Rishyashringa, Kashyapa's son, born of a doe, and how, after so forbidden a union of species, did he come to be endowed with austerity?"
+          }
         },
         {
           "n": 7,
-          "text": "किमर्थं च भयाच्छक्रस्तस्य बालस्य धीमतः ।\nअनावृष्ट्यां प्रवृत्तायां ववर्ष बलवृत्रहा ॥"
+          "text": "किमर्थं च भयाच्छक्रस्तस्य बालस्य धीमतः ।\nअनावृष्ट्यां प्रवृत्तायां ववर्ष बलवृत्रहा ॥",
+          "meaning": {
+            "en": "Why, from fear of that wise boy, did Indra, the slayer of Bala and Vritra, rain when a drought had set in?"
+          }
         },
         {
           "n": 8,
-          "text": "कथंरूपा च शान्ताभूद्राजपुत्री यतव्रता ।\nलोभयामास या चेतो मृगभूतस्य तस्य वै ॥"
+          "text": "कथंरूपा च शान्ताभूद्राजपुत्री यतव्रता ।\nलोभयामास या चेतो मृगभूतस्य तस्य वै ॥",
+          "meaning": {
+            "en": "What was the royal princess Shanta like, she of firm vows, who charmed the mind of one who had become like a deer?"
+          }
         },
         {
           "n": 9,
-          "text": "लोमपादश्च राजर्षिर्यदाश्रूयत धार्मिकः ।\nकथं वै विषये तस्य नावर्षत्पाकशासनः ॥"
+          "text": "लोमपादश्च राजर्षिर्यदाश्रूयत धार्मिकः ।\nकथं वै विषये तस्य नावर्षत्पाकशासनः ॥",
+          "meaning": {
+            "en": "And how, when Lomapada was known as righteous, did Indra not rain in his realm?"
+          }
         },
         {
           "n": 10,
-          "text": "एतन्मे भगवन्सर्वं विस्तरेण यथातथम् ।\nवक्तुमर्हसि शुश्रूषोरृश्यशृङ्गस्य चेष्टितम् ॥"
+          "text": "एतन्मे भगवन्सर्वं विस्तरेण यथातथम् ।\nवक्तुमर्हसि शुश्रूषोरृश्यशृङ्गस्य चेष्टितम् ॥",
+          "meaning": {
+            "en": "Revered sir, I want to hear all this fully and truly: tell me about Rishyashringa's doings, for I am eager."
+          }
         },
         {
-          "text": "लोमश उवाच"
+          "text": "लोमश उवाच",
+          "meaning": {
+            "en": "Lomasha said:"
+          }
         },
         {
           "n": 11,
-          "text": "विभाण्डकस्य ब्रह्मर्षेस्तपसा भावितात्मनः ।\nअमोघवीर्यस्य सतः प्रजापतिसमद्युतेः ॥"
+          "text": "विभाण्डकस्य ब्रह्मर्षेस्तपसा भावितात्मनः ।\nअमोघवीर्यस्य सतः प्रजापतिसमद्युतेः ॥",
+          "meaning": {
+            "en": "Hear how the mighty son was born to the Brahmin sage Vibhandaka, whose self was purified by austerity, whose seed never failed, and who shone like Prajapati."
+          }
         },
         {
           "n": 12,
-          "text": "शृणु पुत्रो यथा जात ऋश्यशृङ्गः प्रतापवान् ।\nमहाह्रदे महातेजा बालः स्थविरसंमतः ॥"
+          "text": "शृणु पुत्रो यथा जात ऋश्यशृङ्गः प्रतापवान् ।\nमहाह्रदे महातेजा बालः स्थविरसंमतः ॥",
+          "meaning": {
+            "en": "He, a boy esteemed by elders, of great energy, the mighty Rishyashringa, was born in a great lake."
+          }
         },
         {
           "n": 13,
-          "text": "महाह्रदं समासाद्य काश्यपस्तपसि स्थितः ।\nदीर्घकालं परिश्रान्त ऋषिर्देवर्षिसंमतः ॥"
+          "text": "महाह्रदं समासाद्य काश्यपस्तपसि स्थितः ।\nदीर्घकालं परिश्रान्त ऋषिर्देवर्षिसंमतः ॥",
+          "meaning": {
+            "en": "Kashyapa, honoured by the divine sages, practised austerity at a great lake and grew long weary."
+          }
         },
         {
           "n": 14,
-          "text": "तस्य रेतः प्रचस्कन्द दृष्ट्वाप्सरसमुर्वशीम् ।\nअप्सूपस्पृशतो राजन्मृगी तच्चापिबत्तदा ॥"
+          "text": "तस्य रेतः प्रचस्कन्द दृष्ट्वाप्सरसमुर्वशीम् ।\nअप्सूपस्पृशतो राजन्मृगी तच्चापिबत्तदा ॥",
+          "meaning": {
+            "en": "When he saw the apsara Urvashi, his seed fell as he touched the water, king, and a doe drank it then."
+          }
         },
         {
           "n": 15,
-          "text": "सह तोयेन तृषिता सा गर्भिण्यभवन्नृप ।\nअमोघत्वाद्विधेश्चैव भावित्वाद्दैवनिर्मितात् ॥"
+          "text": "सह तोयेन तृषिता सा गर्भिण्यभवन्नृप ।\nअमोघत्वाद्विधेश्चैव भावित्वाद्दैवनिर्मितात् ॥",
+          "meaning": {
+            "en": "She, thirsty, drank it with the water and became pregnant, king, through the infallibility of that seed and what was to be, shaped by fate."
+          }
         },
         {
           "n": 16,
-          "text": "तस्यां मृग्यां समभवत्तस्य पुत्रो महानृषिः ।\nऋश्यशृङ्गस्तपोनित्यो वन एव व्यवर्धत ॥"
+          "text": "तस्यां मृग्यां समभवत्तस्य पुत्रो महानृषिः ।\nऋश्यशृङ्गस्तपोनित्यो वन एव व्यवर्धत ॥",
+          "meaning": {
+            "en": "From that doe was born his son, a great sage, ever devoted to austerity; Rishyashringa grew up in the forest itself."
+          }
         },
         {
           "n": 17,
-          "text": "तस्यर्श्यशृङ्गं शिरसि राजन्नासीन्महात्मनः ।\nतेनर्श्यशृङ्ग इत्येवं तदा स प्रथितोऽभवत् ॥"
+          "text": "तस्यर्श्यशृङ्गं शिरसि राजन्नासीन्महात्मनः ।\nतेनर्श्यशृङ्ग इत्येवं तदा स प्रथितोऽभवत् ॥",
+          "meaning": {
+            "en": "That great soul had a horn on his head, king, and so he became known as Rishyashringa."
+          }
         },
         {
           "n": 18,
-          "text": "न तेन दृष्टपूर्वोऽन्यः पितुरन्यत्र मानुषः ।\nतस्मात्तस्य मनो नित्यं ब्रह्मचर्येऽभवन्नृप ॥"
+          "text": "न तेन दृष्टपूर्वोऽन्यः पितुरन्यत्र मानुषः ।\nतस्मात्तस्य मनो नित्यं ब्रह्मचर्येऽभवन्नृप ॥",
+          "meaning": {
+            "en": "He had never seen any human other than his father, so his mind stayed always in celibacy, king."
+          }
         },
         {
           "n": 19,
-          "text": "एतस्मिन्नेव काले तु सखा दशरथस्य वै ।\nलोमपाद इति ख्यातो अङ्गानामीश्वरोऽभवत् ॥"
+          "text": "एतस्मिन्नेव काले तु सखा दशरथस्य वै ।\nलोमपाद इति ख्यातो अङ्गानामीश्वरोऽभवत् ॥",
+          "meaning": {
+            "en": "At that very time there was a friend of Dasharatha named Lomapada, lord of the Angas."
+          }
         },
         {
           "n": 20,
-          "text": "तेन कामः कृतो मिथ्या ब्राह्मणेभ्य इति श्रुतिः ।\nस ब्राह्मणैः परित्यक्तस्तदा वै जगतीपतिः ॥"
+          "text": "तेन कामः कृतो मिथ्या ब्राह्मणेभ्य इति श्रुतिः ।\nस ब्राह्मणैः परित्यक्तस्तदा वै जगतीपतिः ॥",
+          "meaning": {
+            "en": "Tradition says he once falsely broke a promise to brahmins, and was then abandoned by them."
+          }
         },
         {
           "n": 21,
-          "text": "पुरोहितापचाराच्च तस्य राज्ञो यदृच्छया ।\nन ववर्ष सहस्राक्षस्ततोऽपीड्यन्त वै प्रजाः ॥"
+          "text": "पुरोहितापचाराच्च तस्य राज्ञो यदृच्छया ।\nन ववर्ष सहस्राक्षस्ततोऽपीड्यन्त वै प्रजाः ॥",
+          "meaning": {
+            "en": "Through the failings of his household priest, as it chanced, the thousand-eyed Indra did not rain on that king, and the people suffered."
+          }
         },
         {
           "n": 22,
-          "text": "स ब्राह्मणान्पर्यपृच्छत्तपोयुक्तान्मनीषिणः ।\nप्रवर्षणे सुरेन्द्रस्य समर्थान्पृथिवीपतिः ॥"
+          "text": "स ब्राह्मणान्पर्यपृच्छत्तपोयुक्तान्मनीषिणः ।\nप्रवर्षणे सुरेन्द्रस्य समर्थान्पृथिवीपतिः ॥",
+          "meaning": {
+            "en": "The king asked wise ascetic brahmins who could bring Indra's rain."
+          }
         },
         {
           "n": 23,
-          "text": "कथं प्रवर्षेत्पर्जन्य उपायः परिदृश्यताम् ।\nतमूचुश्चोदितास्तेन स्वमतानि मनीषिणः ॥"
+          "text": "कथं प्रवर्षेत्पर्जन्य उपायः परिदृश्यताम् ।\nतमूचुश्चोदितास्तेन स्वमतानि मनीषिणः ॥",
+          "meaning": {
+            "en": "\"How may Parjanya rain? Let a means be found.\" Pressed by him, the wise ones gave their views."
+          }
         },
         {
           "n": 24,
-          "text": "तत्र त्वेको मुनिवरस्तं राजानमुवाच ह ।\nकुपितास्तव राजेन्द्र ब्राह्मणा निष्कृतिं चर ॥"
+          "text": "तत्र त्वेको मुनिवरस्तं राजानमुवाच ह ।\nकुपितास्तव राजेन्द्र ब्राह्मणा निष्कृतिं चर ॥",
+          "meaning": {
+            "en": "One of those best of sages said to the king: \"The brahmins are angry with you, king; make atonement."
+          }
         },
         {
           "n": 25,
-          "text": "ऋश्यशृङ्गं मुनिसुतमानयस्व च पार्थिव ।\nवानेयमनभिज्ञं च नारीणामार्जवे रतम् ॥"
+          "text": "ऋश्यशृङ्गं मुनिसुतमानयस्व च पार्थिव ।\nवानेयमनभिज्ञं च नारीणामार्जवे रतम् ॥",
+          "meaning": {
+            "en": "\"And bring the sage's son Rishyashringa, a forest dweller, ignorant of women and fond of simplicity."
+          }
         },
         {
           "n": 26,
-          "text": "स चेदवतरेद्राजन्विषयं ते महातपाः ।\nसद्यः प्रवर्षेत्पर्जन्य इति मे नात्र संशयः ॥"
+          "text": "स चेदवतरेद्राजन्विषयं ते महातपाः ।\nसद्यः प्रवर्षेत्पर्जन्य इति मे नात्र संशयः ॥",
+          "meaning": {
+            "en": "\"If that great ascetic comes down into your country, king, the rain will fall at once, I have no doubt.\""
+          }
         },
         {
           "n": 27,
-          "text": "एतच्छ्रुत्वा वचो राजन्कृत्वा निष्कृतिमात्मनः ।\nस गत्वा पुनरागच्छत्प्रसन्नेषु द्विजातिषु ।\nराजानमागतं दृष्ट्वा प्रतिसंजगृहुः प्रजाः ॥"
+          "text": "एतच्छ्रुत्वा वचो राजन्कृत्वा निष्कृतिमात्मनः ।\nस गत्वा पुनरागच्छत्प्रसन्नेषु द्विजातिषु ।\nराजानमागतं दृष्ट्वा प्रतिसंजगृहुः प्रजाः ॥",
+          "meaning": {
+            "en": "Hearing this, the king made his atonement, went and returned when the brahmins were appeased, and seeing the king back, the people took him again."
+          }
         },
         {
           "n": 28,
-          "text": "ततोऽङ्गपतिराहूय सचिवान्मन्त्रकोविदान् ।\nऋश्यशृङ्गागमे यत्नमकरोन्मन्त्रनिश्चये ॥"
+          "text": "ततोऽङ्गपतिराहूय सचिवान्मन्त्रकोविदान् ।\nऋश्यशृङ्गागमे यत्नमकरोन्मन्त्रनिश्चये ॥",
+          "meaning": {
+            "en": "Then the lord of the Angas summoned his ministers, skilled in counsel, and in council made a plan to bring Rishyashringa."
+          }
         },
         {
           "n": 29,
-          "text": "सोऽध्यगच्छदुपायं तु तैरमात्यैः सहाच्युतः ।\nशास्त्रज्ञैरलमर्थज्ञैर्नीत्यां च परिनिष्ठितैः ॥"
+          "text": "सोऽध्यगच्छदुपायं तु तैरमात्यैः सहाच्युतः ।\nशास्त्रज्ञैरलमर्थज्ञैर्नीत्यां च परिनिष्ठितैः ॥",
+          "meaning": {
+            "en": "With those ministers, learned in the scriptures, knowers of policy and expert in statecraft, he found a means."
+          }
         },
         {
           "n": 30,
-          "text": "तत आनाययामास वारमुख्या महीपतिः ।\nवेश्याः सर्वत्र निष्णातास्ता उवाच स पार्थिवः ॥"
+          "text": "तत आनाययामास वारमुख्या महीपतिः ।\nवेश्याः सर्वत्र निष्णातास्ता उवाच स पार्थिवः ॥",
+          "meaning": {
+            "en": "The king summoned the chief courtesans, women skilled in every way, and said to them:"
+          }
         },
         {
           "n": 31,
-          "text": "ऋश्यशृङ्गमृषेः पुत्रमानयध्वमुपायतः ।\nलोभयित्वाभिविश्वास्य विषयं मम शोभनाः ॥"
+          "text": "ऋश्यशृङ्गमृषेः पुत्रमानयध्वमुपायतः ।\nलोभयित्वाभिविश्वास्य विषयं मम शोभनाः ॥",
+          "meaning": {
+            "en": "\"Beautiful ones, by some device bring Rishyashringa, the sage's son, into my country, tempting him and gaining his trust.\""
+          }
         },
         {
           "n": 32,
-          "text": "ता राजभयभीताश्च शापभीताश्च योषितः ।\nअशक्यमूचुस्तत्कार्यं विवर्णा गतचेतसः ॥"
+          "text": "ता राजभयभीताश्च शापभीताश्च योषितः ।\nअशक्यमूचुस्तत्कार्यं विवर्णा गतचेतसः ॥",
+          "meaning": {
+            "en": "Those women, afraid of the king and afraid of a curse, pale and dismayed, said it could not be done."
+          }
         },
         {
           "n": 33,
-          "text": "तत्र त्वेका जरद्योषा राजानमिदमब्रवीत् ।\nप्रयतिष्ये महाराज तमानेतुं तपोधनम् ॥"
+          "text": "तत्र त्वेका जरद्योषा राजानमिदमब्रवीत् ।\nप्रयतिष्ये महाराज तमानेतुं तपोधनम् ॥",
+          "meaning": {
+            "en": "But one old woman among them said to the king: \"Great king, I will try to bring that ascetic."
+          }
         },
         {
           "n": 34,
-          "text": "अभिप्रेतांस्तु मे कामान्समनुज्ञातुमर्हसि ।\nततः शक्ष्ये लोभयितुमृश्यशृङ्गमृषेः सुतम् ॥"
+          "text": "अभिप्रेतांस्तु मे कामान्समनुज्ञातुमर्हसि ।\nततः शक्ष्ये लोभयितुमृश्यशृङ्गमृषेः सुतम् ॥",
+          "meaning": {
+            "en": "\"You should grant me the things I wish for, and then I will be able to lure Rishyashringa, the sage's son.\""
+          }
         },
         {
           "n": 35,
-          "text": "तस्याः सर्वमभिप्रायमन्वजानात्स पार्थिवः ।\nधनं च प्रददौ भूरि रत्नानि विविधानि च ॥"
+          "text": "तस्याः सर्वमभिप्रायमन्वजानात्स पार्थिवः ।\nधनं च प्रददौ भूरि रत्नानि विविधानि च ॥",
+          "meaning": {
+            "en": "The king agreed to all her plan and gave much wealth and many kinds of jewels."
+          }
         },
         {
           "n": 36,
-          "text": "ततो रूपेण संपन्ना वयसा च महीपते ।\nस्त्रिय आदाय काश्चित्सा जगाम वनमञ्जसा ॥"
+          "text": "ततो रूपेण संपन्ना वयसा च महीपते ।\nस्त्रिय आदाय काश्चित्सा जगाम वनमञ्जसा ॥",
+          "meaning": {
+            "en": "Then, with some beautiful young women, she went at once to the forest."
+          }
         }
       ]
     }

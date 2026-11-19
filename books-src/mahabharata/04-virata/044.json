@@ -22,95 +22,164 @@
       "titleEn": "Gograhana Parva (The cattle raid)",
       "verses": [
         {
-          "text": "कृप उवाच"
+          "text": "कृप उवाच",
+          "meaning": {
+            "en": "Kripa said:"
+          }
         },
         {
           "n": 1,
-          "text": "सदैव तव राधेय युद्धे क्रूरतरा मतिः ।\nनार्थानां प्रकृतिं वेत्थ नानुबन्धमवेक्षसे ॥"
+          "text": "सदैव तव राधेय युद्धे क्रूरतरा मतिः ।\nनार्थानां प्रकृतिं वेत्थ नानुबन्धमवेक्षसे ॥",
+          "meaning": {
+            "en": "Your mind in battle is always the crueler one, Radheya. You do not know the nature of affairs, nor do you look at what follows."
+          }
         },
         {
           "n": 2,
-          "text": "नया हि बहवः सन्ति शास्त्राण्याश्रित्य चिन्तिताः ।\nतेषां युद्धं तु पापिष्ठं वेदयन्ति पुराविदः ॥"
+          "text": "नया हि बहवः सन्ति शास्त्राण्याश्रित्य चिन्तिताः ।\nतेषां युद्धं तु पापिष्ठं वेदयन्ति पुराविदः ॥",
+          "meaning": {
+            "en": "There are many policies thought out from the scriptures; those who know the old ways call war the worst of them."
+          }
         },
         {
           "n": 3,
-          "text": "देशकालेन संयुक्तं युद्धं विजयदं भवेत् ।\nहीनकालं तदेवेह फलवन्न भवत्युत ।\nदेशे काले च विक्रान्तं कल्याणाय विधीयते ॥"
+          "text": "देशकालेन संयुक्तं युद्धं विजयदं भवेत् ।\nहीनकालं तदेवेह फलवन्न भवत्युत ।\nदेशे काले च विक्रान्तं कल्याणाय विधीयते ॥",
+          "meaning": {
+            "en": "War joined to the right place and time brings victory; the same, out of season, bears no fruit. Valor in the right place and time leads to good."
+          }
         },
         {
           "n": 4,
-          "text": "आनुकूल्येन कार्याणामन्तरं संविधीयताम् ।\nभारं हि रथकारस्य न व्यवस्यन्ति पण्डिताः ॥"
+          "text": "आनुकूल्येन कार्याणामन्तरं संविधीयताम् ।\nभारं हि रथकारस्य न व्यवस्यन्ति पण्डिताः ॥",
+          "meaning": {
+            "en": "Let the proper interval for action be set in line with circumstances; the wise do not stake the whole burden on a chariot-maker's work."
+          }
         },
         {
           "n": 5,
-          "text": "परिचिन्त्य तु पार्थेन संनिपातो न नः क्षमः ।\nएकः कुरूनभ्यरक्षदेकश्चाग्निमतर्पयत् ॥"
+          "text": "परिचिन्त्य तु पार्थेन संनिपातो न नः क्षमः ।\nएकः कुरूनभ्यरक्षदेकश्चाग्निमतर्पयत् ॥",
+          "meaning": {
+            "en": "After due thought, a clash with Partha is not right for us. Alone he saved the Kurus, alone he satisfied Fire,"
+          }
         },
         {
           "n": 6,
-          "text": "एकश्च पञ्च वर्षाणि ब्रह्मचर्यमधारयत् ।\nएकः सुभद्रामारोप्य द्वैरथे कृष्णमाह्वयत् ।\nअस्मिन्नेव वने कृष्णो हृतां कृष्णामवाजयत् ॥"
+          "text": "एकश्च पञ्च वर्षाणि ब्रह्मचर्यमधारयत् ।\nएकः सुभद्रामारोप्य द्वैरथे कृष्णमाह्वयत् ।\nअस्मिन्नेव वने कृष्णो हृतां कृष्णामवाजयत् ॥",
+          "meaning": {
+            "en": "alone he kept a vow of chastity for five years, alone he carried off Subhadra and challenged Krishna to a chariot duel; and in this very forest Krishna won back the abducted Krishna."
+          }
         },
         {
           "n": 7,
-          "text": "एकश्च पञ्च वर्षाणि शक्रादस्त्राण्यशिक्षत ।\nएकः सांयमिनीं जित्वा कुरूणामकरोद्यशः ॥"
+          "text": "एकश्च पञ्च वर्षाणि शक्रादस्त्राण्यशिक्षत ।\nएकः सांयमिनीं जित्वा कुरूणामकरोद्यशः ॥",
+          "meaning": {
+            "en": "Alone he learned weapons from Shakra for five years; alone he conquered Samyamani and brought glory to the Kurus."
+          }
         },
         {
           "n": 8,
-          "text": "एको गन्धर्वराजानं चित्रसेनमरिंदमः ।\nविजिग्ये तरसा संख्ये सेनां चास्य सुदुर्जयाम् ॥"
+          "text": "एको गन्धर्वराजानं चित्रसेनमरिंदमः ।\nविजिग्ये तरसा संख्ये सेनां चास्य सुदुर्जयाम् ॥",
+          "meaning": {
+            "en": "Alone, that subduer of enemies defeated by force the gandharva king Chitrasena in battle, and his hard-to-beat army."
+          }
         },
         {
           "n": 9,
-          "text": "तथा निवातकवचाः कालखञ्जाश्च दानवाः ।\nदैवतैरप्यवध्यास्ते एकेन युधि पातिताः ॥"
+          "text": "तथा निवातकवचाः कालखञ्जाश्च दानवाः ।\nदैवतैरप्यवध्यास्ते एकेन युधि पातिताः ॥",
+          "meaning": {
+            "en": "So too the Nivatakavachas and the Kalakhanjas, danavas who cannot be killed even by gods, were struck down in battle by him alone."
+          }
         },
         {
           "n": 10,
-          "text": "एकेन हि त्वया कर्ण किं नामेह कृतं पुरा ।\nएकैकेन यथा तेषां भूमिपाला वशीकृताः ॥"
+          "text": "एकेन हि त्वया कर्ण किं नामेह कृतं पुरा ।\nएकैकेन यथा तेषां भूमिपाला वशीकृताः ॥",
+          "meaning": {
+            "en": "What did you ever do alone here, Karna, as each of them did when they brought kings under their sway one by one?"
+          }
         },
         {
           "n": 11,
-          "text": "इन्द्रोऽपि हि न पार्थेन संयुगे योद्धुमर्हति ।\nयस्तेनाशंसते योद्धुं कर्तव्यं तस्य भेषजम् ॥"
+          "text": "इन्द्रोऽपि हि न पार्थेन संयुगे योद्धुमर्हति ।\nयस्तेनाशंसते योद्धुं कर्तव्यं तस्य भेषजम् ॥",
+          "meaning": {
+            "en": "Even Indra is unfit to fight Partha in battle; whoever wishes to fight him needs medicine."
+          }
         },
         {
           "n": 12,
-          "text": "आशीविषस्य क्रुद्धस्य पाणिमुद्यम्य दक्षिणम् ।\nअविमृश्य प्रदेशिन्या दंष्ट्रामादातुमिच्छसि ॥"
+          "text": "आशीविषस्य क्रुद्धस्य पाणिमुद्यम्य दक्षिणम् ।\nअविमृश्य प्रदेशिन्या दंष्ट्रामादातुमिच्छसि ॥",
+          "meaning": {
+            "en": "You wish to lift your right hand to an angry viper and, without thought, pluck its fang with your forefinger."
+          }
         },
         {
           "n": 13,
-          "text": "अथ वा कुञ्जरं मत्तमेक एव चरन्वने ।\nअनङ्कुशं समारुह्य नगरं गन्तुमिच्छसि ॥"
+          "text": "अथ वा कुञ्जरं मत्तमेक एव चरन्वने ।\nअनङ्कुशं समारुह्य नगरं गन्तुमिच्छसि ॥",
+          "meaning": {
+            "en": "Or you wish to ride alone, with no hook, a rutting elephant roaming in the forest and go into the city."
+          }
         },
         {
           "n": 14,
-          "text": "समिद्धं पावकं वापि घृतमेदोवसाहुतम् ।\nघृताक्तश्चीरवासास्त्वं मध्येनोत्तर्तुमिच्छसि ॥"
+          "text": "समिद्धं पावकं वापि घृतमेदोवसाहुतम् ।\nघृताक्तश्चीरवासास्त्वं मध्येनोत्तर्तुमिच्छसि ॥",
+          "meaning": {
+            "en": "Or, in bark cloth smeared with ghee, you wish to walk through the middle of a blazing fire fed with ghee, fat and marrow."
+          }
         },
         {
           "n": 15,
-          "text": "आत्मानं यः समुद्बध्य कण्ठे बद्ध्वा महाशिलाम् ।\nसमुद्रं प्रतरेद्दोर्भ्यां तत्र किं नाम पौरुषम् ॥"
+          "text": "आत्मानं यः समुद्बध्य कण्ठे बद्ध्वा महाशिलाम् ।\nसमुद्रं प्रतरेद्दोर्भ्यां तत्र किं नाम पौरुषम् ॥",
+          "meaning": {
+            "en": "What manliness is there in one who ties himself, fastens a great stone to his neck and tries to swim the sea with his arms?"
+          }
         },
         {
           "n": 16,
-          "text": "अकृतास्त्रः कृतास्त्रं वै बलवन्तं सुदुर्बलः ।\nतादृशं कर्ण यः पार्थं योद्धुमिच्छेत्स दुर्मतिः ॥"
+          "text": "अकृतास्त्रः कृतास्त्रं वै बलवन्तं सुदुर्बलः ।\nतादृशं कर्ण यः पार्थं योद्धुमिच्छेत्स दुर्मतिः ॥",
+          "meaning": {
+            "en": "Karna, he who, untrained and very weak, would fight such a Partha, trained and strong, is a fool."
+          }
         },
         {
           "n": 17,
-          "text": "अस्माभिरेष निकृतो वर्षाणीह त्रयोदश ।\nसिंहः पाशविनिर्मुक्तो न नः शेषं करिष्यति ॥"
+          "text": "अस्माभिरेष निकृतो वर्षाणीह त्रयोदश ।\nसिंहः पाशविनिर्मुक्तो न नः शेषं करिष्यति ॥",
+          "meaning": {
+            "en": "We wronged him here for thirteen years; a lion freed from the snare will leave nothing of us."
+          }
         },
         {
           "n": 18,
-          "text": "एकान्ते पार्थमासीनं कूपेऽग्निमिव संवृतम् ।\nअज्ञानादभ्यवस्कन्द्य प्राप्ताः स्मो भयमुत्तमम् ॥"
+          "text": "एकान्ते पार्थमासीनं कूपेऽग्निमिव संवृतम् ।\nअज्ञानादभ्यवस्कन्द्य प्राप्ताः स्मो भयमुत्तमम् ॥",
+          "meaning": {
+            "en": "We have fallen into the gravest peril by attacking in ignorance Partha, who was sitting alone, covered like a fire in a pit."
+          }
         },
         {
           "n": 19,
-          "text": "सह युध्यामहे पार्थमागतं युद्धदुर्मदम् ।\nसैन्यास्तिष्ठन्तु संनद्धा व्यूढानीकाः प्रहारिणः ॥"
+          "text": "सह युध्यामहे पार्थमागतं युद्धदुर्मदम् ।\nसैन्यास्तिष्ठन्तु संनद्धा व्यूढानीकाः प्रहारिणः ॥",
+          "meaning": {
+            "en": "Let us fight Partha together, now that he has come, wild for battle. Let the soldiers stand armored, in battle array, ready to strike."
+          }
         },
         {
           "n": 20,
-          "text": "द्रोणो दुर्योधनो भीष्मो भवान्द्रौणिस्तथा वयम् ।\nसर्वे युध्यामहे पार्थं कर्ण मा साहसं कृथाः ॥"
+          "text": "द्रोणो दुर्योधनो भीष्मो भवान्द्रौणिस्तथा वयम् ।\nसर्वे युध्यामहे पार्थं कर्ण मा साहसं कृथाः ॥",
+          "meaning": {
+            "en": "Drona, Duryodhana, Bhishma, you, Drona's son and I, all of us, let us fight Partha; Karna, do not be rash."
+          }
         },
         {
           "n": 21,
-          "text": "वयं व्यवसितं पार्थं वज्रपाणिमिवोद्यतम् ।\nषड्रथाः प्रतियुध्येम तिष्ठेम यदि संहताः ॥"
+          "text": "वयं व्यवसितं पार्थं वज्रपाणिमिवोद्यतम् ।\nषड्रथाः प्रतियुध्येम तिष्ठेम यदि संहताः ॥",
+          "meaning": {
+            "en": "When he is resolved and ready like the thunderbolt-wielder, we six charioteers may face him if we stay together."
+          }
         },
         {
           "n": 22,
-          "text": "व्यूढानीकानि सैन्यानि यत्ताः परमधन्विनः ।\nयुध्यामहेऽर्जुनं संख्ये दानवा वासवं यथा ॥"
+          "text": "व्यूढानीकानि सैन्यानि यत्ताः परमधन्विनः ।\nयुध्यामहेऽर्जुनं संख्ये दानवा वासवं यथा ॥",
+          "meaning": {
+            "en": "With the armies in formation and the greatest archers alert, let us fight Arjuna in battle as the danavas fought Vasava."
+          }
         }
       ]
     }

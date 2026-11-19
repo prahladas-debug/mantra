@@ -22,77 +22,134 @@
       "titleEn": "Draupadiharana Parva (Abduction of Draupadi)",
       "verses": [
         {
-          "text": "मार्कण्डेय उवाच"
+          "text": "मार्कण्डेय उवाच",
+          "meaning": {
+            "en": "Markandeya said:"
+          }
         },
         {
           "n": 1,
-          "text": "प्राप्तमप्रतिमं दुःखं रामेण भरतर्षभ ।\nरक्षसा जानकी तस्य हृता भार्या बलीयसा ॥"
+          "text": "प्राप्तमप्रतिमं दुःखं रामेण भरतर्षभ ।\nरक्षसा जानकी तस्य हृता भार्या बलीयसा ॥",
+          "meaning": {
+            "en": "Rama, bull of the Bharatas, met with matchless grief when his wife Janaki was carried off by a powerful rakshasa."
+          }
         },
         {
           "n": 2,
-          "text": "आश्रमाद्राक्षसेन्द्रेण रावणेन विहायसा ।\nमायामास्थाय तरसा हत्वा गृध्रं जटायुषम् ॥"
+          "text": "आश्रमाद्राक्षसेन्द्रेण रावणेन विहायसा ।\nमायामास्थाय तरसा हत्वा गृध्रं जटायुषम् ॥",
+          "meaning": {
+            "en": "The king of the rakshasas, Ravana, by magic, took her swiftly through the sky from the hermitage, after killing the vulture Jatayu."
+          }
         },
         {
           "n": 3,
-          "text": "प्रत्याजहार तां रामः सुग्रीवबलमाश्रितः ।\nबद्ध्वा सेतुं समुद्रस्य दग्ध्वा लङ्कां शितैः शरैः ॥"
+          "text": "प्रत्याजहार तां रामः सुग्रीवबलमाश्रितः ।\nबद्ध्वा सेतुं समुद्रस्य दग्ध्वा लङ्कां शितैः शरैः ॥",
+          "meaning": {
+            "en": "Rama brought her back, relying on Sugriva's army, after bridging the sea and burning Lanka with sharp arrows."
+          }
         },
         {
-          "text": "युधिष्ठिर उवाच"
+          "text": "युधिष्ठिर उवाच",
+          "meaning": {
+            "en": "Yudhishthira said:"
+          }
         },
         {
           "n": 4,
-          "text": "कस्मिन्रामः कुले जातः किंवीर्यः किंपराक्रमः ।\nरावणः कस्य वा पुत्रः किं वैरं तस्य तेन ह ॥"
+          "text": "कस्मिन्रामः कुले जातः किंवीर्यः किंपराक्रमः ।\nरावणः कस्य वा पुत्रः किं वैरं तस्य तेन ह ॥",
+          "meaning": {
+            "en": "In what family was Rama born, with what strength and what valor? Whose son was Ravana, and what was their enmity?"
+          }
         },
         {
           "n": 5,
-          "text": "एतन्मे भगवन्सर्वं सम्यगाख्यातुमर्हसि ।\nश्रोतुमिच्छामि चरितं रामस्याक्लिष्टकर्मणः ॥"
+          "text": "एतन्मे भगवन्सर्वं सम्यगाख्यातुमर्हसि ।\nश्रोतुमिच्छामि चरितं रामस्याक्लिष्टकर्मणः ॥",
+          "meaning": {
+            "en": "Revered one, please tell me all this properly. I want to hear the story of Rama, whose deeds were free of hardship."
+          }
         },
         {
-          "text": "मार्कण्डेय उवाच"
+          "text": "मार्कण्डेय उवाच",
+          "meaning": {
+            "en": "Markandeya said:"
+          }
         },
         {
           "n": 6,
-          "text": "अजो नामाभवद्राजा महानिक्ष्वाकुवंशजः ।\nतस्य पुत्रो दशरथः शश्वत्स्वाध्यायवाञ्शुचिः ॥"
+          "text": "अजो नामाभवद्राजा महानिक्ष्वाकुवंशजः ।\nतस्य पुत्रो दशरथः शश्वत्स्वाध्यायवाञ्शुचिः ॥",
+          "meaning": {
+            "en": "There was a great king named Aja, born in the Ikshvaku line. His son was Dasharatha, always studious and pure."
+          }
         },
         {
           "n": 7,
-          "text": "अभवंस्तस्य चत्वारः पुत्रा धर्मार्थकोविदाः ।\nरामलक्ष्मणशत्रुघ्ना भरतश्च महाबलः ॥"
+          "text": "अभवंस्तस्य चत्वारः पुत्रा धर्मार्थकोविदाः ।\nरामलक्ष्मणशत्रुघ्ना भरतश्च महाबलः ॥",
+          "meaning": {
+            "en": "He had four sons, skilled in dharma and wealth: Rama, Lakshmana, Shatrughna and the mighty Bharata."
+          }
         },
         {
           "n": 8,
-          "text": "रामस्य माता कौसल्या कैकेयी भरतस्य तु ।\nसुतौ लक्ष्मणशत्रुघ्नौ सुमित्रायाः परंतपौ ॥"
+          "text": "रामस्य माता कौसल्या कैकेयी भरतस्य तु ।\nसुतौ लक्ष्मणशत्रुघ्नौ सुमित्रायाः परंतपौ ॥",
+          "meaning": {
+            "en": "Rama's mother was Kausalya, Bharata's was Kaikeyi, and Lakshmana and Shatrughna, scorchers of foes, were Sumitra's sons."
+          }
         },
         {
           "n": 9,
-          "text": "विदेहराजो जनकः सीता तस्यात्मजा विभो ।\nयां चकार स्वयं त्वष्टा रामस्य महिषीं प्रियाम् ॥"
+          "text": "विदेहराजो जनकः सीता तस्यात्मजा विभो ।\nयां चकार स्वयं त्वष्टा रामस्य महिषीं प्रियाम् ॥",
+          "meaning": {
+            "en": "Janaka was king of Videha, and Sita was his daughter, lord, whom Tvashtri himself made the beloved queen of Rama."
+          }
         },
         {
           "n": 10,
-          "text": "एतद्रामस्य ते जन्म सीतायाश्च प्रकीर्तितम् ।\nरावणस्यापि ते जन्म व्याख्यास्यामि जनेश्वर ॥"
+          "text": "एतद्रामस्य ते जन्म सीतायाश्च प्रकीर्तितम् ।\nरावणस्यापि ते जन्म व्याख्यास्यामि जनेश्वर ॥",
+          "meaning": {
+            "en": "This is the birth of Rama and of Sita, told to you; I shall now tell you of Ravana's birth, lord of men."
+          }
         },
         {
           "n": 11,
-          "text": "पितामहो रावणस्य साक्षाद्देवः प्रजापतिः ।\nस्वयंभूः सर्वलोकानां प्रभुः स्रष्टा महातपाः ॥"
+          "text": "पितामहो रावणस्य साक्षाद्देवः प्रजापतिः ।\nस्वयंभूः सर्वलोकानां प्रभुः स्रष्टा महातपाः ॥",
+          "meaning": {
+            "en": "Ravana's grandfather was the god Prajapati himself, the self-born lord and maker of all worlds, of great austerity."
+          }
         },
         {
           "n": 12,
-          "text": "पुलस्त्यो नाम तस्यासीन्मानसो दयितः सुतः ।\nतस्य वैश्रवणो नाम गवि पुत्रोऽभवत्प्रभुः ॥"
+          "text": "पुलस्त्यो नाम तस्यासीन्मानसो दयितः सुतः ।\nतस्य वैश्रवणो नाम गवि पुत्रोऽभवत्प्रभुः ॥",
+          "meaning": {
+            "en": "He had a mind-born, dear son named Pulastya, and Pulastya's son by a cow was the lord Vaishravana."
+          }
         },
         {
           "n": 13,
-          "text": "पितरं स समुत्सृज्य पितामहमुपस्थितः ।\nतस्य कोपात्पिता राजन्ससर्जात्मानमात्मना ॥"
+          "text": "पितरं स समुत्सृज्य पितामहमुपस्थितः ।\nतस्य कोपात्पिता राजन्ससर्जात्मानमात्मना ॥",
+          "meaning": {
+            "en": "Leaving his father, he went to the grandfather; in anger at that, the father, O king, created himself again by himself."
+          }
         },
         {
           "n": 14,
-          "text": "स जज्ञे विश्रवा नाम तस्यात्मार्धेन वै द्विजः ।\nप्रतीकाराय सक्रोधस्ततो वैश्रवणस्य वै ॥"
+          "text": "स जज्ञे विश्रवा नाम तस्यात्मार्धेन वै द्विजः ।\nप्रतीकाराय सक्रोधस्ततो वैश्रवणस्य वै ॥",
+          "meaning": {
+            "en": "With half of himself, the brahmin was born as Vishrava, angry, to counter Vaishravana."
+          }
         },
         {
           "n": 15,
-          "text": "पितामहस्तु प्रीतात्मा ददौ वैश्रवणस्य ह ।\nअमरत्वं धनेशत्वं लोकपालत्वमेव च ॥"
+          "text": "पितामहस्तु प्रीतात्मा ददौ वैश्रवणस्य ह ।\nअमरत्वं धनेशत्वं लोकपालत्वमेव च ॥",
+          "meaning": {
+            "en": "The pleased grandfather gave Vaishravana immortality, lordship of wealth and the post of guardian of the world."
+          }
         },
         {
           "n": 16,
-          "text": "ईशानेन तथा सख्यं पुत्रं च नलकूबरम् ।\nराजधानीनिवेशं च लङ्कां रक्षोगणान्विताम् ॥"
+          "text": "ईशानेन तथा सख्यं पुत्रं च नलकूबरम् ।\nराजधानीनिवेशं च लङ्कां रक्षोगणान्विताम् ॥",
+          "meaning": {
+            "en": "He also gave friendship with Ishana, a son named Nalakubara, and a capital, Lanka, filled with hosts of rakshasas."
+          }
         }
       ]
     }

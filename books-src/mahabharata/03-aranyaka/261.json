@@ -22,236 +22,413 @@
       "titleEn": "Draupadiharana Parva (Abduction of Draupadi)",
       "verses": [
         {
-          "text": "युधिष्ठिर उवाच"
+          "text": "युधिष्ठिर उवाच",
+          "meaning": {
+            "en": "Yudhishthira said:"
+          }
         },
         {
           "n": 1,
-          "text": "उक्तं भगवता जन्म रामादीनां पृथक्पृथक् ।\nप्रस्थानकारणं ब्रह्मञ्श्रोतुमिच्छामि कथ्यताम् ॥"
+          "text": "उक्तं भगवता जन्म रामादीनां पृथक्पृथक् ।\nप्रस्थानकारणं ब्रह्मञ्श्रोतुमिच्छामि कथ्यताम् ॥",
+          "meaning": {
+            "en": "Blessed one, you have told of the births of Rama and the others one by one. Brahmin, I now wish to hear why they set out; please tell me."
+          }
         },
         {
           "n": 2,
-          "text": "कथं दाशरथी वीरौ भ्रातरौ रामलक्ष्मणौ ।\nप्रस्थापितौ वनं ब्रह्म मैथिली च यशस्विनी ॥"
+          "text": "कथं दाशरथी वीरौ भ्रातरौ रामलक्ष्मणौ ।\nप्रस्थापितौ वनं ब्रह्म मैथिली च यशस्विनी ॥",
+          "meaning": {
+            "en": "How did the two heroic brothers, Rama and Lakshmana, sons of Dasharatha, come to be sent to the forest, along with the renowned princess of Mithila, Sita?"
+          }
         },
         {
-          "text": "मार्कण्डेय उवाच"
+          "text": "मार्कण्डेय उवाच",
+          "meaning": {
+            "en": "Markandeya said:"
+          }
         },
         {
           "n": 3,
-          "text": "जातपुत्रो दशरथः प्रीतिमानभवन्नृपः ।\nक्रियारतिर्धर्मपरः सततं वृद्धसेविता ॥"
+          "text": "जातपुत्रो दशरथः प्रीतिमानभवन्नृपः ।\nक्रियारतिर्धर्मपरः सततं वृद्धसेविता ॥",
+          "meaning": {
+            "en": "King Dasharatha, now with sons born to him, was happy; he delighted in sacred rites, kept to dharma, and always served the elders."
+          }
         },
         {
           "n": 4,
-          "text": "क्रमेण चास्य ते पुत्रा व्यवर्धन्त महौजसः ।\nवेदेषु सरहस्येषु धनुर्वेदे च पारगाः ॥"
+          "text": "क्रमेण चास्य ते पुत्रा व्यवर्धन्त महौजसः ।\nवेदेषु सरहस्येषु धनुर्वेदे च पारगाः ॥",
+          "meaning": {
+            "en": "In time his mighty sons grew up, masters of the Vedas with their secret teachings and of the science of the bow."
+          }
         },
         {
           "n": 5,
-          "text": "चरितब्रह्मचर्यास्ते कृतदाराश्च पार्थिव ।\nयदा तदा दशरथः प्रीतिमानभवत्सुखी ॥"
+          "text": "चरितब्रह्मचर्यास्ते कृतदाराश्च पार्थिव ।\nयदा तदा दशरथः प्रीतिमानभवत्सुखी ॥",
+          "meaning": {
+            "en": "O king, once they had completed their student vows and taken wives, Dasharatha was glad and content."
+          }
         },
         {
           "n": 6,
-          "text": "ज्येष्ठो रामोऽभवत्तेषां रमयामास हि प्रजाः ।\nमनोहरतया धीमान्पितुर्हृदयतोषणः ॥"
+          "text": "ज्येष्ठो रामोऽभवत्तेषां रमयामास हि प्रजाः ।\nमनोहरतया धीमान्पितुर्हृदयतोषणः ॥",
+          "meaning": {
+            "en": "Rama was the eldest of them; wise and charming, he delighted the people and gladdened his father's heart."
+          }
         },
         {
           "n": 7,
-          "text": "ततः स राजा मतिमान्मत्वात्मानं वयोऽधिकम् ।\nमन्त्रयामास सचिवैर्धर्मज्ञैश्च पुरोहितैः ॥"
+          "text": "ततः स राजा मतिमान्मत्वात्मानं वयोऽधिकम् ।\nमन्त्रयामास सचिवैर्धर्मज्ञैश्च पुरोहितैः ॥",
+          "meaning": {
+            "en": "Then the thoughtful king, feeling himself advanced in years, took counsel with his ministers, knowers of dharma, and with the priests."
+          }
         },
         {
           "n": 8,
-          "text": "अभिषेकाय रामस्य यौवराज्येन भारत ।\nप्राप्तकालं च ते सर्वे मेनिरे मन्त्रिसत्तमाः ॥"
+          "text": "अभिषेकाय रामस्य यौवराज्येन भारत ।\nप्राप्तकालं च ते सर्वे मेनिरे मन्त्रिसत्तमाः ॥",
+          "meaning": {
+            "en": "O Bharata, the question was Rama's anointing as heir apparent, and all those best of counselors agreed that the time had come."
+          }
         },
         {
           "n": 9,
-          "text": "लोहिताक्षं महाबाहुं मत्तमातङ्गगामिनम् ।\nदीर्घबाहुं महोरस्कं नीलकुञ्चितमूर्धजम् ॥"
+          "text": "लोहिताक्षं महाबाहुं मत्तमातङ्गगामिनम् ।\nदीर्घबाहुं महोरस्कं नीलकुञ्चितमूर्धजम् ॥",
+          "meaning": {
+            "en": "They saw Rama red-eyed, long-armed, walking like a rutting elephant, broad-chested, with dark curling hair,"
+          }
         },
         {
           "n": 10,
-          "text": "दीप्यमानं श्रिया वीरं शक्रादनवमं बले ।\nपारगं सर्वधर्माणां बृहस्पतिसमं मतौ ॥"
+          "text": "दीप्यमानं श्रिया वीरं शक्रादनवमं बले ।\nपारगं सर्वधर्माणां बृहस्पतिसमं मतौ ॥",
+          "meaning": {
+            "en": "radiant with splendor, a hero no less than Indra in strength, versed in all dharma, and equal to Brihaspati in wisdom."
+          }
         },
         {
           "n": 11,
-          "text": "सर्वानुरक्तप्रकृतिं सर्वविद्याविशारदम् ।\nजितेन्द्रियममित्राणामपि दृष्टिमनोहरम् ॥"
+          "text": "सर्वानुरक्तप्रकृतिं सर्वविद्याविशारदम् ।\nजितेन्द्रियममित्राणामपि दृष्टिमनोहरम् ॥",
+          "meaning": {
+            "en": "He was loved by all his subjects, skilled in every branch of learning, master of his senses, and pleasing to look upon even for his enemies."
+          }
         },
         {
           "n": 12,
-          "text": "नियन्तारमसाधूनां गोप्तारं धर्मचारिणाम् ।\nधृतिमन्तमनाधृष्यं जेतारमपराजितम् ॥"
+          "text": "नियन्तारमसाधूनां गोप्तारं धर्मचारिणाम् ।\nधृतिमन्तमनाधृष्यं जेतारमपराजितम् ॥",
+          "meaning": {
+            "en": "He was the restrainer of the wicked, the protector of the righteous, steadfast, unassailable, a conqueror never conquered."
+          }
         },
         {
           "n": 13,
-          "text": "पुत्रं राजा दशरथः कौसल्यानन्दवर्धनम् ।\nसंदृश्य परमां प्रीतिमगच्छत्कुरुनन्दन ॥"
+          "text": "पुत्रं राजा दशरथः कौसल्यानन्दवर्धनम् ।\nसंदृश्य परमां प्रीतिमगच्छत्कुरुनन्दन ॥",
+          "meaning": {
+            "en": "O delight of the Kurus, King Dasharatha looked on this son, the joy of Kaushalya, and felt supreme happiness."
+          }
         },
         {
           "n": 14,
-          "text": "चिन्तयंश्च महातेजा गुणान्रामस्य वीर्यवान् ।\nअभ्यभाषत भद्रं ते प्रीयमाणः पुरोहितम् ॥"
+          "text": "चिन्तयंश्च महातेजा गुणान्रामस्य वीर्यवान् ।\nअभ्यभाषत भद्रं ते प्रीयमाणः पुरोहितम् ॥",
+          "meaning": {
+            "en": "Reflecting on Rama's virtues, the mighty and splendid king, well pleased, said to his priest: \"May good come to you."
+          }
         },
         {
           "n": 15,
-          "text": "अद्य पुष्यो निशि ब्रह्मन्पुण्यं योगमुपैष्यति ।\nसंभाराः संभ्रियन्तां मे रामश्चोपनिमन्त्र्यताम् ॥"
+          "text": "अद्य पुष्यो निशि ब्रह्मन्पुण्यं योगमुपैष्यति ।\nसंभाराः संभ्रियन्तां मे रामश्चोपनिमन्त्र्यताम् ॥",
+          "meaning": {
+            "en": "Tonight, Brahmin, the star Pushya will enter an auspicious conjunction. Let the preparations be gathered for me, and let Rama be invited.\""
+          }
         },
         {
           "n": 16,
-          "text": "इति तद्राजवचनं प्रतिश्रुत्याथ मन्थरा ।\nकैकेयीमभिगम्येदं काले वचनमब्रवीत् ॥"
+          "text": "इति तद्राजवचनं प्रतिश्रुत्याथ मन्थरा ।\nकैकेयीमभिगम्येदं काले वचनमब्रवीत् ॥",
+          "meaning": {
+            "en": "Hearing this royal command, Manthara went to Kaikeyi and at the right moment said this:"
+          }
         },
         {
           "n": 17,
-          "text": "अद्य कैकेयि दौर्भाग्यं राज्ञा ते ख्यापितं महत् ।\nआशीविषस्त्वां संक्रुद्धश्चण्डो दशति दुर्भगे ॥"
+          "text": "अद्य कैकेयि दौर्भाग्यं राज्ञा ते ख्यापितं महत् ।\nआशीविषस्त्वां संक्रुद्धश्चण्डो दशति दुर्भगे ॥",
+          "meaning": {
+            "en": "\"Today, Kaikeyi, the king has proclaimed your great misfortune. Unlucky woman, an enraged and fierce serpent is about to bite you."
+          }
         },
         {
           "n": 18,
-          "text": "सुभगा खलु कौसल्या यस्याः पुत्रोऽभिषेक्ष्यते ।\nकुतो हि तव सौभाग्यं यस्याः पुत्रो न राज्यभाक् ॥"
+          "text": "सुभगा खलु कौसल्या यस्याः पुत्रोऽभिषेक्ष्यते ।\nकुतो हि तव सौभाग्यं यस्याः पुत्रो न राज्यभाक् ॥",
+          "meaning": {
+            "en": "Fortunate indeed is Kaushalya, whose son will be anointed. Where is your good fortune, when your son has no share in the kingdom?\""
+          }
         },
         {
           "n": 19,
-          "text": "सा तद्वचनमाज्ञाय सर्वाभरणभूषिता ।\nवेदीविलग्नमध्येव बिभ्रती रूपमुत्तमम् ॥"
+          "text": "सा तद्वचनमाज्ञाय सर्वाभरणभूषिता ।\nवेदीविलग्नमध्येव बिभ्रती रूपमुत्तमम् ॥",
+          "meaning": {
+            "en": "Understanding her words, Kaikeyi, adorned with every ornament and bearing a beauty like a golden figure standing at the altar,"
+          }
         },
         {
           "n": 20,
-          "text": "विविक्ते पतिमासाद्य हसन्तीव शुचिस्मिता ।\nप्रणयं व्यञ्जयन्तीव मधुरं वाक्यमब्रवीत् ॥"
+          "text": "विविक्ते पतिमासाद्य हसन्तीव शुचिस्मिता ।\nप्रणयं व्यञ्जयन्तीव मधुरं वाक्यमब्रवीत् ॥",
+          "meaning": {
+            "en": "came to her husband in private, smiling faintly with a pure smile, as though showing her affection, and spoke sweet words:"
+          }
         },
         {
           "n": 21,
-          "text": "सत्यप्रतिज्ञ यन्मे त्वं काममेकं निसृष्टवान् ।\nउपाकुरुष्व तद्राजंस्तस्मान्मुच्यस्व संकटात् ॥"
+          "text": "सत्यप्रतिज्ञ यन्मे त्वं काममेकं निसृष्टवान् ।\nउपाकुरुष्व तद्राजंस्तस्मान्मुच्यस्व संकटात् ॥",
+          "meaning": {
+            "en": "\"O king true to your word, grant me the one wish you once promised me, and so free yourself from this predicament.\""
+          }
         },
         {
-          "text": "राजोवाच"
+          "text": "राजोवाच",
+          "meaning": {
+            "en": "The king said:"
+          }
         },
         {
           "n": 22,
-          "text": "वरं ददानि ते हन्त तद्गृहाण यदिच्छसि ।\nअवध्यो वध्यतां कोऽद्य वध्यः कोऽद्य विमुच्यताम् ॥"
+          "text": "वरं ददानि ते हन्त तद्गृहाण यदिच्छसि ।\nअवध्यो वध्यतां कोऽद्य वध्यः कोऽद्य विमुच्यताम् ॥",
+          "meaning": {
+            "en": "\"Gladly I will give you a boon; take whatever you desire. Shall someone who deserves no death be killed today, or someone who deserves death be freed?"
+          }
         },
         {
           "n": 23,
-          "text": "धनं ददानि कस्याद्य ह्रियतां कस्य वा पुनः ।\nब्राह्मणस्वादिहान्यत्र यत्किंचिद्वित्तमस्ति मे ॥"
+          "text": "धनं ददानि कस्याद्य ह्रियतां कस्य वा पुनः ।\nब्राह्मणस्वादिहान्यत्र यत्किंचिद्वित्तमस्ति मे ॥",
+          "meaning": {
+            "en": "Whose wealth shall I grant, or whose shall be seized? Except what belongs to Brahmins, whatever wealth I have is yours.\""
+          }
         },
         {
-          "text": "मार्कण्डेय उवाच"
+          "text": "मार्कण्डेय उवाच",
+          "meaning": {
+            "en": "Markandeya said:"
+          }
         },
         {
           "n": 24,
-          "text": "सा तद्वचनमाज्ञाय परिगृह्य नराधिपम् ।\nआत्मनो बलमाज्ञाय तत एनमुवाच ह ॥"
+          "text": "सा तद्वचनमाज्ञाय परिगृह्य नराधिपम् ।\nआत्मनो बलमाज्ञाय तत एनमुवाच ह ॥",
+          "meaning": {
+            "en": "Hearing this, she held the king fast and, knowing her own power over him, said:"
+          }
         },
         {
           "n": 25,
-          "text": "आभिषेचनिकं यत्ते रामार्थमुपकल्पितम् ।\nभरतस्तदवाप्नोतु वनं गच्छतु राघवः ॥"
+          "text": "आभिषेचनिकं यत्ते रामार्थमुपकल्पितम् ।\nभरतस्तदवाप्नोतु वनं गच्छतु राघवः ॥",
+          "meaning": {
+            "en": "\"Let Bharata have the consecration that has been prepared for Rama, and let Rama go to the forest.\""
+          }
         },
         {
           "n": 26,
-          "text": "स तद्राजा वचः श्रुत्वा विप्रियं दारुणोदयम् ।\nदुःखार्तो भरतश्रेष्ठ न किंचिद्व्याजहार ह ॥"
+          "text": "स तद्राजा वचः श्रुत्वा विप्रियं दारुणोदयम् ।\nदुःखार्तो भरतश्रेष्ठ न किंचिद्व्याजहार ह ॥",
+          "meaning": {
+            "en": "Hearing these unwelcome words, with consequences so terrible, the king, afflicted with grief, O best of the Bharatas, said nothing at all."
+          }
         },
         {
           "n": 27,
-          "text": "ततस्तथोक्तं पितरं रामो विज्ञाय वीर्यवान् ।\nवनं प्रतस्थे धर्मात्मा राजा सत्यो भवत्विति ॥"
+          "text": "ततस्तथोक्तं पितरं रामो विज्ञाय वीर्यवान् ।\nवनं प्रतस्थे धर्मात्मा राजा सत्यो भवत्विति ॥",
+          "meaning": {
+            "en": "Then mighty Rama, learning of what his father had been told, set out for the forest, thinking, \"Let the king's word hold true.\""
+          }
         },
         {
           "n": 28,
-          "text": "तमन्वगच्छल्लक्ष्मीवान्धनुष्माँल्लक्ष्मणस्तदा ।\nसीता च भार्या भद्रं ते वैदेही जनकात्मजा ॥"
+          "text": "तमन्वगच्छल्लक्ष्मीवान्धनुष्माँल्लक्ष्मणस्तदा ।\nसीता च भार्या भद्रं ते वैदेही जनकात्मजा ॥",
+          "meaning": {
+            "en": "The glorious Lakshmana, bow in hand, followed him, and so did his wife Sita, daughter of Janaka, princess of Videha. May good come to you."
+          }
         },
         {
           "n": 29,
-          "text": "ततो वनं गते रामे राजा दशरथस्तदा ।\nसमयुज्यत देहस्य कालपर्यायधर्मणा ॥"
+          "text": "ततो वनं गते रामे राजा दशरथस्तदा ।\nसमयुज्यत देहस्य कालपर्यायधर्मणा ॥",
+          "meaning": {
+            "en": "When Rama had gone to the forest, King Dasharatha met the end of his body, as all things must in time."
+          }
         },
         {
           "n": 30,
-          "text": "रामं तु गतमाज्ञाय राजानं च तथागतम् ।\nआनाय्य भरतं देवी कैकेयी वाक्यमब्रवीत् ॥"
+          "text": "रामं तु गतमाज्ञाय राजानं च तथागतम् ।\nआनाय्य भरतं देवी कैकेयी वाक्यमब्रवीत् ॥",
+          "meaning": {
+            "en": "Knowing that Rama had gone and the king was dead, Queen Kaikeyi summoned Bharata and said:"
+          }
         },
         {
           "n": 31,
-          "text": "गतो दशरथः स्वर्गं वनस्थौ रामलक्ष्मणौ ।\nगृहाण राज्यं विपुलं क्षेमं निहतकण्टकम् ॥"
+          "text": "गतो दशरथः स्वर्गं वनस्थौ रामलक्ष्मणौ ।\nगृहाण राज्यं विपुलं क्षेमं निहतकण्टकम् ॥",
+          "meaning": {
+            "en": "\"Dasharatha has gone to heaven, and Rama and Lakshmana are living in the forest. Take the vast and peaceful kingdom, its thorns removed.\""
+          }
         },
         {
           "n": 32,
-          "text": "तामुवाच स धर्मात्मा नृशंसं बत ते कृतम् ।\nपतिं हत्वा कुलं चेदमुत्साद्य धनलुब्धया ॥"
+          "text": "तामुवाच स धर्मात्मा नृशंसं बत ते कृतम् ।\nपतिं हत्वा कुलं चेदमुत्साद्य धनलुब्धया ॥",
+          "meaning": {
+            "en": "The righteous Bharata answered her: \"A cruel thing you have done! Out of greed for wealth you killed your husband and ruined this family."
+          }
         },
         {
           "n": 33,
-          "text": "अयशः पातयित्वा मे मूर्ध्नि त्वं कुलपांसने ।\nसकामा भव मे मातरित्युक्त्वा प्ररुरोद ह ॥"
+          "text": "अयशः पातयित्वा मे मूर्ध्नि त्वं कुलपांसने ।\nसकामा भव मे मातरित्युक्त्वा प्ररुरोद ह ॥",
+          "meaning": {
+            "en": "You stain of your house, you have hung shame upon my head. Be satisfied, mother,\" he said, and wept aloud."
+          }
         },
         {
           "n": 34,
-          "text": "स चारित्रं विशोध्याथ सर्वप्रकृतिसंनिधौ ।\nअन्वयाद्भ्रातरं रामं विनिवर्तनलालसः ॥"
+          "text": "स चारित्रं विशोध्याथ सर्वप्रकृतिसंनिधौ ।\nअन्वयाद्भ्रातरं रामं विनिवर्तनलालसः ॥",
+          "meaning": {
+            "en": "Then, having cleared his character in the presence of all the subjects, he went after his brother Rama, longing to bring him back."
+          }
         },
         {
           "n": 35,
-          "text": "कौसल्यां च सुमित्रां च कैकेयीं च सुदुःखितः ।\nअग्रे प्रस्थाप्य यानैः स शत्रुघ्नसहितो ययौ ॥"
+          "text": "कौसल्यां च सुमित्रां च कैकेयीं च सुदुःखितः ।\nअग्रे प्रस्थाप्य यानैः स शत्रुघ्नसहितो ययौ ॥",
+          "meaning": {
+            "en": "Very grieved, he sent Kaushalya, Sumitra, and Kaikeyi ahead in carriages, and went along with Shatrughna,"
+          }
         },
         {
           "n": 36,
-          "text": "वसिष्ठवामदेवाभ्यां विप्रैश्चान्यैः सहस्रशः ।\nपौरजानपदैः सार्धं रामानयनकाङ्क्षया ॥"
+          "text": "वसिष्ठवामदेवाभ्यां विप्रैश्चान्यैः सहस्रशः ।\nपौरजानपदैः सार्धं रामानयनकाङ्क्षया ॥",
+          "meaning": {
+            "en": "with Vasishtha and Vamadeva, thousands of other Brahmins, and the townsfolk and countrymen, wishing to bring Rama home."
+          }
         },
         {
           "n": 37,
-          "text": "ददर्श चित्रकूटस्थं स रामं सहलक्ष्मणम् ।\nतापसानामलंकारं धारयन्तं धनुर्धरम् ॥"
+          "text": "ददर्श चित्रकूटस्थं स रामं सहलक्ष्मणम् ।\nतापसानामलंकारं धारयन्तं धनुर्धरम् ॥",
+          "meaning": {
+            "en": "At Chitrakuta he saw Rama with Lakshmana, bearing his bow and wearing the garb that adorns ascetics."
+          }
         },
         {
           "n": 38,
-          "text": "विसर्जितः स रामेण पितुर्वचनकारिणा ।\nनन्दिग्रामेऽकरोद्राज्यं पुरस्कृत्यास्य पादुके ॥"
+          "text": "विसर्जितः स रामेण पितुर्वचनकारिणा ।\nनन्दिग्रामेऽकरोद्राज्यं पुरस्कृत्यास्य पादुके ॥",
+          "meaning": {
+            "en": "Rama, obeying his father's word, sent Bharata back, and Bharata ruled from Nandigrama, placing Rama's sandals before him."
+          }
         },
         {
           "n": 39,
-          "text": "रामस्तु पुनराशङ्क्य पौरजानपदागमम् ।\nप्रविवेश महारण्यं शरभङ्गाश्रमं प्रति ॥"
+          "text": "रामस्तु पुनराशङ्क्य पौरजानपदागमम् ।\nप्रविवेश महारण्यं शरभङ्गाश्रमं प्रति ॥",
+          "meaning": {
+            "en": "But Rama, fearing the townspeople might come again, entered the great forest toward the hermitage of Sharabhanga."
+          }
         },
         {
           "n": 40,
-          "text": "सत्कृत्य शरभङ्गं स दण्डकारण्यमाश्रितः ।\nनदीं गोदावरीं रम्यामाश्रित्य न्यवसत्तदा ॥"
+          "text": "सत्कृत्य शरभङ्गं स दण्डकारण्यमाश्रितः ।\nनदीं गोदावरीं रम्यामाश्रित्य न्यवसत्तदा ॥",
+          "meaning": {
+            "en": "After honoring Sharabhanga he went to the Dandaka forest and settled by the lovely Godavari river."
+          }
         },
         {
           "n": 41,
-          "text": "वसतस्तस्य रामस्य ततः शूर्पणखाकृतम् ।\nखरेणासीन्महद्वैरं जनस्थाननिवासिना ॥"
+          "text": "वसतस्तस्य रामस्य ततः शूर्पणखाकृतम् ।\nखरेणासीन्महद्वैरं जनस्थाननिवासिना ॥",
+          "meaning": {
+            "en": "While Rama lived there, a great enmity arose with Khara, who dwelt at Janasthana, because of what Shurpanakha had done."
+          }
         },
         {
           "n": 42,
-          "text": "रक्षार्थं तापसानां च राघवो धर्मवत्सलः ।\nचतुर्दश सहस्राणि जघान भुवि रक्षसाम् ॥"
+          "text": "रक्षार्थं तापसानां च राघवो धर्मवत्सलः ।\nचतुर्दश सहस्राणि जघान भुवि रक्षसाम् ॥",
+          "meaning": {
+            "en": "To protect the ascetics, Rama, who loved dharma, killed fourteen thousand rakshasas on that ground."
+          }
         },
         {
           "n": 43,
-          "text": "दूषणं च खरं चैव निहत्य सुमहाबलौ ।\nचक्रे क्षेमं पुनर्धीमान्धर्मारण्यं स राघवः ॥"
+          "text": "दूषणं च खरं चैव निहत्य सुमहाबलौ ।\nचक्रे क्षेमं पुनर्धीमान्धर्मारण्यं स राघवः ॥",
+          "meaning": {
+            "en": "Having slain the very mighty Dushana and Khara, the wise Raghava made the forest of dharma safe again."
+          }
         },
         {
           "n": 44,
-          "text": "हतेषु तेषु रक्षःसु ततः शूर्पणखा पुनः ।\nययौ निकृत्तनासोष्ठी लङ्कां भ्रातुर्निवेशनम् ॥"
+          "text": "हतेषु तेषु रक्षःसु ततः शूर्पणखा पुनः ।\nययौ निकृत्तनासोष्ठी लङ्कां भ्रातुर्निवेशनम् ॥",
+          "meaning": {
+            "en": "When those rakshasas were killed, Shurpanakha, her nose and lips cut off, went to Lanka, to her brother's palace."
+          }
         },
         {
           "n": 45,
-          "text": "ततो रावणमभ्येत्य राक्षसी दुःखमूर्छिता ।\nपपात पादयोर्भ्रातुः संशुष्करुधिरानना ॥"
+          "text": "ततो रावणमभ्येत्य राक्षसी दुःखमूर्छिता ।\nपपात पादयोर्भ्रातुः संशुष्करुधिरानना ॥",
+          "meaning": {
+            "en": "The rakshasi, faint with pain and her face dried with blood, reached Ravana and fell at her brother's feet."
+          }
         },
         {
           "n": 46,
-          "text": "तां तथा विकृतां दृष्ट्वा रावणः क्रोधमूर्छितः ।\nउत्पपातासनात्क्रुद्धो दन्तैर्दन्तानुपस्पृशन् ॥"
+          "text": "तां तथा विकृतां दृष्ट्वा रावणः क्रोधमूर्छितः ।\nउत्पपातासनात्क्रुद्धो दन्तैर्दन्तानुपस्पृशन् ॥",
+          "meaning": {
+            "en": "Seeing her so disfigured, Ravana, dizzy with rage, leapt from his seat, grinding his teeth."
+          }
         },
         {
           "n": 47,
-          "text": "स्वानमात्यान्विसृज्याथ विविक्ते तामुवाच सः ।\nकेनास्येवं कृता भद्रे मामचिन्त्यावमन्य च ॥"
+          "text": "स्वानमात्यान्विसृज्याथ विविक्ते तामुवाच सः ।\nकेनास्येवं कृता भद्रे मामचिन्त्यावमन्य च ॥",
+          "meaning": {
+            "en": "Sending his ministers away, he spoke to her in private: \"Who has done this to you, good lady, scorning me without a thought?"
+          }
         },
         {
           "n": 48,
-          "text": "कः शूलं तीक्ष्णमासाद्य सर्वगात्रैर्निषेवते ।\nकः शिरस्यग्निमादाय विश्वस्तः स्वपते सुखम् ॥"
+          "text": "कः शूलं तीक्ष्णमासाद्य सर्वगात्रैर्निषेवते ।\nकः शिरस्यग्निमादाय विश्वस्तः स्वपते सुखम् ॥",
+          "meaning": {
+            "en": "Who takes a sharp spear and presses it against his whole body? Who puts fire on his head and sleeps contentedly, trusting?"
+          }
         },
         {
           "n": 49,
-          "text": "आशीविषं घोरतरं पादेन स्पृशतीह कः ।\nसिंहं केसरिणं कश्च दंष्ट्रासु स्पृश्य तिष्ठति ॥"
+          "text": "आशीविषं घोरतरं पादेन स्पृशतीह कः ।\nसिंहं केसरिणं कश्च दंष्ट्रासु स्पृश्य तिष्ठति ॥",
+          "meaning": {
+            "en": "Who here touches a deadly serpent with his foot? Who stands and touches the fangs of a maned lion?\""
+          }
         },
         {
           "n": 50,
-          "text": "इत्येवं ब्रुवतस्तस्य स्रोतोभ्यस्तेजसोऽर्चिषः ।\nनिश्चेरुर्दह्यतो रात्रौ वृक्षस्येव स्वरन्ध्रतः ॥"
+          "text": "इत्येवं ब्रुवतस्तस्य स्रोतोभ्यस्तेजसोऽर्चिषः ।\nनिश्चेरुर्दह्यतो रात्रौ वृक्षस्येव स्वरन्ध्रतः ॥",
+          "meaning": {
+            "en": "As he spoke so, flames of fiery energy poured from the openings of his body, as from the hollows of a burning tree at night."
+          }
         },
         {
           "n": 51,
-          "text": "तस्य तत्सर्वमाचख्यौ भगिनी रामविक्रमम् ।\nखरदूषणसंयुक्तं राक्षसानां पराभवम् ॥"
+          "text": "तस्य तत्सर्वमाचख्यौ भगिनी रामविक्रमम् ।\nखरदूषणसंयुक्तं राक्षसानां पराभवम् ॥",
+          "meaning": {
+            "en": "His sister told him everything: Rama's prowess, and the defeat of the rakshasas with Khara and Dushana."
+          }
         },
         {
           "n": 52,
-          "text": "स निश्चित्य ततः कृत्यं स्वसारमुपसान्त्व्य च ।\nऊर्ध्वमाचक्रमे राजा विधाय नगरे विधिम् ॥"
+          "text": "स निश्चित्य ततः कृत्यं स्वसारमुपसान्त्व्य च ।\nऊर्ध्वमाचक्रमे राजा विधाय नगरे विधिम् ॥",
+          "meaning": {
+            "en": "Having decided what must be done, he comforted his sister, arranged matters in the city, and set off through the sky."
+          }
         },
         {
           "n": 53,
-          "text": "त्रिकूटं समतिक्रम्य कालपर्वतमेव च ।\nददर्श मकरावासं गम्भीरोदं महोदधिम् ॥"
+          "text": "त्रिकूटं समतिक्रम्य कालपर्वतमेव च ।\nददर्श मकरावासं गम्भीरोदं महोदधिम् ॥",
+          "meaning": {
+            "en": "Crossing Trikuta and the mountain Kala, he saw the great ocean, deep-watered, home of sea monsters."
+          }
         },
         {
           "n": 54,
-          "text": "तमतीत्याथ गोकर्णमभ्यगच्छद्दशाननः ।\nदयितं स्थानमव्यग्रं शूलपाणेर्महात्मनः ॥"
+          "text": "तमतीत्याथ गोकर्णमभ्यगच्छद्दशाननः ।\nदयितं स्थानमव्यग्रं शूलपाणेर्महात्मनः ॥",
+          "meaning": {
+            "en": "Passing beyond it, Ravana, the ten-faced, came to Gokarna, the quiet and beloved place of the great trident-bearing god Shiva."
+          }
         },
         {
           "n": 55,
-          "text": "तत्राभ्यगच्छन्मारीचं पूर्वामात्यं दशाननः ।\nपुरा रामभयादेव तापस्यं समुपाश्रितम् ॥"
+          "text": "तत्राभ्यगच्छन्मारीचं पूर्वामात्यं दशाननः ।\nपुरा रामभयादेव तापस्यं समुपाश्रितम् ॥",
+          "meaning": {
+            "en": "There Ravana went to Maricha, his former minister, who had taken up an ascetic life out of fear of Rama."
+          }
         }
       ]
     }

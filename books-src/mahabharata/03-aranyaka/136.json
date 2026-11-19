@@ -22,94 +22,166 @@
       "titleEn": "Tirthayatra Parva (The pilgrimage)",
       "verses": [
         {
-          "text": "यवक्रीरुवाच"
+          "text": "यवक्रीरुवाच",
+          "meaning": {
+            "en": "Yavakri said:"
+          }
         },
         {
           "n": 1,
-          "text": "प्रतिभास्यन्ति वै वेदा मम तातस्य चोभयोः ।\nअति चान्यान्भविष्यावो वरा लब्धास्तथा मया ॥"
+          "text": "प्रतिभास्यन्ति वै वेदा मम तातस्य चोभयोः ।\nअति चान्यान्भविष्यावो वरा लब्धास्तथा मया ॥",
+          "meaning": {
+            "en": "The Vedas will shine in both my father and me, and we shall surpass others. I have won such boons."
+          }
         },
         {
-          "text": "भरद्वाज उवाच"
+          "text": "भरद्वाज उवाच",
+          "meaning": {
+            "en": "Bharadvaja said:"
+          }
         },
         {
           "n": 2,
-          "text": "दर्पस्ते भविता तात वराँल्लब्ध्वा यथेप्सितान् ।\nस दर्पपूर्णः कृपणः क्षिप्रमेव विनश्यसि ॥"
+          "text": "दर्पस्ते भविता तात वराँल्लब्ध्वा यथेप्सितान् ।\nस दर्पपूर्णः कृपणः क्षिप्रमेव विनश्यसि ॥",
+          "meaning": {
+            "en": "My son, now that you have the boons you wished, pride will come to you. Filled with pride, wretched one, you will soon perish."
+          }
         },
         {
           "n": 3,
-          "text": "अत्राप्युदाहरन्तीमा गाथा देवैरुदाहृताः ।\nऋषिरासीत्पुरा पुत्र बालधिर्नाम वीर्यवान् ॥"
+          "text": "अत्राप्युदाहरन्तीमा गाथा देवैरुदाहृताः ।\nऋषिरासीत्पुरा पुत्र बालधिर्नाम वीर्यवान् ॥",
+          "meaning": {
+            "en": "On this there are verses sung by the gods. Long ago, my son, there was a mighty seer named Baladhi."
+          }
         },
         {
           "n": 4,
-          "text": "स पुत्रशोकादुद्विग्नस्तपस्तेपे सुदुश्चरम् ।\nभवेन्मम सुतोऽमर्त्य इति तं लब्धवांश्च सः ॥"
+          "text": "स पुत्रशोकादुद्विग्नस्तपस्तेपे सुदुश्चरम् ।\nभवेन्मम सुतोऽमर्त्य इति तं लब्धवांश्च सः ॥",
+          "meaning": {
+            "en": "Tormented by grief for his son, he practised hard austerity, asking, \"Let my son be immortal,\" and he received a boon."
+          }
         },
         {
           "n": 5,
-          "text": "तस्य प्रसादो देवैश्च कृतो न त्वमरैः समः ।\nनामर्त्यो विद्यते मर्त्यो निमित्तायुर्भविष्यति ॥"
+          "text": "तस्य प्रसादो देवैश्च कृतो न त्वमरैः समः ।\nनामर्त्यो विद्यते मर्त्यो निमित्तायुर्भविष्यति ॥",
+          "meaning": {
+            "en": "The gods were gracious to him, but did not make the son equal to the immortals. They said no mortal is immortal; his lifespan would depend on something else."
+          }
         },
         {
-          "text": "बालधिरुवाच"
+          "text": "बालधिरुवाच",
+          "meaning": {
+            "en": "Baladhi said:"
+          }
         },
         {
           "n": 6,
-          "text": "यथेमे पर्वताः शश्वत्तिष्ठन्ति सुरसत्तमाः ।\nअक्षयास्तन्निमित्तं मे सुतस्यायुर्भवेदिति ॥"
+          "text": "यथेमे पर्वताः शश्वत्तिष्ठन्ति सुरसत्तमाः ।\nअक्षयास्तन्निमित्तं मे सुतस्यायुर्भवेदिति ॥",
+          "meaning": {
+            "en": "As these mountains, best of gods, stand forever and are imperishable, let my son's life depend on them."
+          }
         },
         {
-          "text": "भरद्वाज उवाच"
+          "text": "भरद्वाज उवाच",
+          "meaning": {
+            "en": "Bharadvaja said:"
+          }
         },
         {
           "n": 7,
-          "text": "तस्य पुत्रस्तदा जज्ञे मेधावी क्रोधनः सदा ।\nस तच्छ्रुत्वाकरोद्दर्पमृषींश्चैवावमन्यत ॥"
+          "text": "तस्य पुत्रस्तदा जज्ञे मेधावी क्रोधनः सदा ।\nस तच्छ्रुत्वाकरोद्दर्पमृषींश्चैवावमन्यत ॥",
+          "meaning": {
+            "en": "His son was then born, clever but always angry. Hearing what his father had won, he grew proud and despised the seers."
+          }
         },
         {
           "n": 8,
-          "text": "विकुर्वाणो मुनीनां तु चरमाणो महीमिमाम् ।\nआससाद महावीर्यं धनुषाक्षं मनीषिणम् ॥"
+          "text": "विकुर्वाणो मुनीनां तु चरमाणो महीमिमाम् ।\nआससाद महावीर्यं धनुषाक्षं मनीषिणम् ॥",
+          "meaning": {
+            "en": "He wandered the earth insulting sages and met the powerful, wise Dhanushaksha."
+          }
         },
         {
           "n": 9,
-          "text": "तस्यापचक्रे मेधावी तं शशाप स वीर्यवान् ।\nभव भस्मेति चोक्तः स न भस्म समपद्यत ॥"
+          "text": "तस्यापचक्रे मेधावी तं शशाप स वीर्यवान् ।\nभव भस्मेति चोक्तः स न भस्म समपद्यत ॥",
+          "meaning": {
+            "en": "The clever one wronged him, and the mighty one cursed him: \"Be ashes!\" But the son did not become ashes."
+          }
         },
         {
           "n": 10,
-          "text": "धनुषाक्षस्तु तं दृष्ट्वा मेधाविनमनामयम् ।\nनिमित्तमस्य महिषैर्भेदयामास वीर्यवान् ॥"
+          "text": "धनुषाक्षस्तु तं दृष्ट्वा मेधाविनमनामयम् ।\nनिमित्तमस्य महिषैर्भेदयामास वीर्यवान् ॥",
+          "meaning": {
+            "en": "Dhanushaksha, seeing the clever boy unharmed, mighty as he was, broke the thing his life depended on with buffaloes."
+          }
         },
         {
           "n": 11,
-          "text": "स निमित्ते विनष्टे तु ममार सहसा शिशुः ।\nतं मृतं पुत्रमादाय विललाप ततः पिता ॥"
+          "text": "स निमित्ते विनष्टे तु ममार सहसा शिशुः ।\nतं मृतं पुत्रमादाय विललाप ततः पिता ॥",
+          "meaning": {
+            "en": "When that support was destroyed, the boy suddenly died. Taking up his dead son, the father wept."
+          }
         },
         {
           "n": 12,
-          "text": "लालप्यमानं तं दृष्ट्वा मुनयः पुनरार्तवत् ।\nऊचुर्वेदोक्तया पूर्वं गाथया तन्निबोध मे ॥"
+          "text": "लालप्यमानं तं दृष्ट्वा मुनयः पुनरार्तवत् ।\nऊचुर्वेदोक्तया पूर्वं गाथया तन्निबोध मे ॥",
+          "meaning": {
+            "en": "Seeing him lamenting, the seers, grieved again, spoke the verse sung of old in the Veda. Hear it from me."
+          }
         },
         {
           "n": 13,
-          "text": "न दिष्टमर्थमत्येतुमीशो मर्त्यः कथंचन ।\nमहिषैर्भेदयामास धनुषाक्षो महीधरान् ॥"
+          "text": "न दिष्टमर्थमत्येतुमीशो मर्त्यः कथंचन ।\nमहिषैर्भेदयामास धनुषाक्षो महीधरान् ॥",
+          "meaning": {
+            "en": "No mortal can by any means pass beyond what is fated. Dhanushaksha with buffaloes broke the mountains."
+          }
         },
         {
           "n": 14,
-          "text": "एवं लब्ध्वा वरान्बाला दर्पपूर्णास्तरस्विनः ।\nक्षिप्रमेव विनश्यन्ति यथा न स्यात्तथा भवान् ॥"
+          "text": "एवं लब्ध्वा वरान्बाला दर्पपूर्णास्तरस्विनः ।\nक्षिप्रमेव विनश्यन्ति यथा न स्यात्तथा भवान् ॥",
+          "meaning": {
+            "en": "So, having got boons, young men full of pride and impetuous perish quickly. May you not be like that."
+          }
         },
         {
           "n": 15,
-          "text": "एष रैभ्यो महावीर्यः पुत्रौ चास्य तथाविधौ ।\nतं यथा पुत्र नाभ्येषि तथा कुर्यास्त्वतन्द्रितः ॥"
+          "text": "एष रैभ्यो महावीर्यः पुत्रौ चास्य तथाविधौ ।\nतं यथा पुत्र नाभ्येषि तथा कुर्यास्त्वतन्द्रितः ॥",
+          "meaning": {
+            "en": "This is Raibhya of great power, and his two sons are of the same kind. My son, take care not to go near him, and be tireless in this."
+          }
         },
         {
           "n": 16,
-          "text": "स हि क्रुद्धः समर्थस्त्वां पुत्र पीडयितुं रुषा ।\nवैद्यश्चापि तपस्वी च कोपनश्च महानृषिः ॥"
+          "text": "स हि क्रुद्धः समर्थस्त्वां पुत्र पीडयितुं रुषा ।\nवैद्यश्चापि तपस्वी च कोपनश्च महानृषिः ॥",
+          "meaning": {
+            "en": "He is angry and able, my son, to torment you in wrath. He is a learned man and an ascetic, and a great and irascible seer."
+          }
         },
         {
-          "text": "यवक्रीरुवाच"
+          "text": "यवक्रीरुवाच",
+          "meaning": {
+            "en": "Yavakri said:"
+          }
         },
         {
           "n": 17,
-          "text": "एवं करिष्ये मा तापं तात कार्षीः कथंचन ।\nयथा हि मे भवान्मान्यस्तथा रैभ्यः पिता मम ॥"
+          "text": "एवं करिष्ये मा तापं तात कार्षीः कथंचन ।\nयथा हि मे भवान्मान्यस्तथा रैभ्यः पिता मम ॥",
+          "meaning": {
+            "en": "I shall do so, father. Do not grieve in any way. As you are to be honoured by me, so is Raibhya, like a father to me."
+          }
         },
         {
-          "text": "लोमश उवाच"
+          "text": "लोमश उवाच",
+          "meaning": {
+            "en": "Lomasha said:"
+          }
         },
         {
           "n": 18,
-          "text": "उक्त्वा स पितरं श्लक्ष्णं यवक्रीरकुतोभयः ।\nविप्रकुर्वन्नृषीनन्यानतुष्यत्परया मुदा ॥"
+          "text": "उक्त्वा स पितरं श्लक्ष्णं यवक्रीरकुतोभयः ।\nविप्रकुर्वन्नृषीनन्यानतुष्यत्परया मुदा ॥",
+          "meaning": {
+            "en": "Having spoken gently to his father, fearless Yavakri went about insulting other seers, and felt supremely glad."
+          }
         }
       ]
     }

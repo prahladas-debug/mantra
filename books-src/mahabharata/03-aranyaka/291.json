@@ -22,149 +22,266 @@
       "titleEn": "Kundalaharana Parva (Taking of the earrings)",
       "verses": [
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 1,
-          "text": "सा तु कन्या बहुविधं ब्रुवन्ती मधुरं वचः ।\nअनुनेतुं सहस्रांशुं न शशाक मनस्विनी ॥"
+          "text": "सा तु कन्या बहुविधं ब्रुवन्ती मधुरं वचः ।\nअनुनेतुं सहस्रांशुं न शशाक मनस्विनी ॥",
+          "meaning": {
+            "en": "The proud girl, speaking in many sweet ways, could not persuade the thousand-rayed god to leave."
+          }
         },
         {
           "n": 2,
-          "text": "न शशाक यदा बाला प्रत्याख्यातुं तमोनुदम् ।\nभीता शापात्ततो राजन्दध्यौ दीर्घमथान्तरम् ॥"
+          "text": "न शशाक यदा बाला प्रत्याख्यातुं तमोनुदम् ।\nभीता शापात्ततो राजन्दध्यौ दीर्घमथान्तरम् ॥",
+          "meaning": {
+            "en": "When the girl could not refuse the dispeller of darkness, king, she grew afraid of his curse and fell into a long inner anxiety."
+          }
         },
         {
           "n": 3,
-          "text": "अनागसः पितुः शापो ब्राह्मणस्य तथैव च ।\nमन्निमित्तः कथं न स्यात्क्रुद्धादस्माद्विभावसोः ॥"
+          "text": "अनागसः पितुः शापो ब्राह्मणस्य तथैव च ।\nमन्निमित्तः कथं न स्यात्क्रुद्धादस्माद्विभावसोः ॥",
+          "meaning": {
+            "en": "How could the curse of that angry lord of light not fall, because of me, on my innocent father and on the brahmin?"
+          }
         },
         {
           "n": 4,
-          "text": "बालेनापि सता मोहाद्भृशं सापह्नवान्यपि ।\nनात्यासादयितव्यानि तेजांसि च तपांसि च ॥"
+          "text": "बालेनापि सता मोहाद्भृशं सापह्नवान्यपि ।\nनात्यासादयितव्यानि तेजांसि च तपांसि च ॥",
+          "meaning": {
+            "en": "Even a child, if good, must not too much approach radiances and austerities through ignorance, even when they can be denied."
+          }
         },
         {
           "n": 5,
-          "text": "साहमद्य भृशं भीता गृहीता च करे भृशम् ।\nकथं त्वकार्यं कुर्यां वै प्रदानं ह्यात्मनः स्वयम् ॥"
+          "text": "साहमद्य भृशं भीता गृहीता च करे भृशम् ।\nकथं त्वकार्यं कुर्यां वै प्रदानं ह्यात्मनः स्वयम् ॥",
+          "meaning": {
+            "en": "Today I am terrified, and gripped hard by the hand; how can I do the forbidden thing, giving myself away on my own?"
+          }
         },
         {
           "n": 6,
-          "text": "सैवं शापपरित्रस्ता बहु चिन्तयती तदा ।\nमोहेनाभिपरीताङ्गी स्मयमाना पुनः पुनः ॥"
+          "text": "सैवं शापपरित्रस्ता बहु चिन्तयती तदा ।\nमोहेनाभिपरीताङ्गी स्मयमाना पुनः पुनः ॥",
+          "meaning": {
+            "en": "So, frightened of the curse, thinking much, her limbs seized by bewilderment, she smiled again and again."
+          }
         },
         {
           "n": 7,
-          "text": "तं देवमब्रवीद्भीता बन्धूनां राजसत्तम ।\nव्रीडाविह्वलया वाचा शापत्रस्ता विशां पते ॥"
+          "text": "तं देवमब्रवीद्भीता बन्धूनां राजसत्तम ।\nव्रीडाविह्वलया वाचा शापत्रस्ता विशां पते ॥",
+          "meaning": {
+            "en": "Afraid, best of kings, with a voice shaken by shame, she spoke to the god out of concern for her kinsmen, trembling at the curse, lord of the people."
+          }
         },
         {
-          "text": "कुन्त्युवाच"
+          "text": "कुन्त्युवाच",
+          "meaning": {
+            "en": "Kunti said:"
+          }
         },
         {
           "n": 8,
-          "text": "पिता मे ध्रियते देव माता चान्ये च बान्धवाः ।\nन तेषु ध्रियमाणेषु विधिलोपो भवेदयम् ॥"
+          "text": "पिता मे ध्रियते देव माता चान्ये च बान्धवाः ।\nन तेषु ध्रियमाणेषु विधिलोपो भवेदयम् ॥",
+          "meaning": {
+            "en": "My father is alive, god, and my mother and other relatives; while they live, this should not be a violation of the rule."
+          }
         },
         {
           "n": 9,
-          "text": "त्वया मे संगमो देव यदि स्याद्विधिवर्जितः ।\nमन्निमित्तं कुलस्यास्य लोके कीर्तिर्नशेत्ततः ॥"
+          "text": "त्वया मे संगमो देव यदि स्याद्विधिवर्जितः ।\nमन्निमित्तं कुलस्यास्य लोके कीर्तिर्नशेत्ततः ॥",
+          "meaning": {
+            "en": "If a union with you, god, should occur against the rule, then because of me the fame of this family would be lost in the world."
+          }
         },
         {
           "n": 10,
-          "text": "अथ वा धर्ममेतं त्वं मन्यसे तपतां वर ।\nऋते प्रदानाद्बन्धुभ्यस्तव कामं करोम्यहम् ॥"
+          "text": "अथ वा धर्ममेतं त्वं मन्यसे तपतां वर ।\nऋते प्रदानाद्बन्धुभ्यस्तव कामं करोम्यहम् ॥",
+          "meaning": {
+            "en": "Or if you consider this righteous, best of the burning ones, I would do your wish even without being given by my relatives."
+          }
         },
         {
           "n": 11,
-          "text": "आत्मप्रदानं दुर्धर्ष तव कृत्वा सती त्वहम् ।\nत्वयि धर्मो यशश्चैव कीर्तिरायुश्च देहिनाम् ॥"
+          "text": "आत्मप्रदानं दुर्धर्ष तव कृत्वा सती त्वहम् ।\nत्वयि धर्मो यशश्चैव कीर्तिरायुश्च देहिनाम् ॥",
+          "meaning": {
+            "en": "Having given myself to you, unassailable one, as a chaste woman, in you rest righteousness, glory, fame and the life of embodied beings."
+          }
         },
         {
-          "text": "सूर्य उवाच"
+          "text": "सूर्य उवाच",
+          "meaning": {
+            "en": "Surya said:"
+          }
         },
         {
           "n": 12,
-          "text": "न ते पिता न ते माता गुरवो वा शुचिस्मिते ।\nप्रभवन्ति वरारोहे भद्रं ते शृणु मे वचः ॥"
+          "text": "न ते पिता न ते माता गुरवो वा शुचिस्मिते ।\nप्रभवन्ति वरारोहे भद्रं ते शृणु मे वचः ॥",
+          "meaning": {
+            "en": "Neither your father nor your mother nor your elders have authority over you, bright-smiling lady. Good fortune to you; hear my words."
+          }
         },
         {
           "n": 13,
-          "text": "सर्वान्कामयते यस्मात्कनेर्धातोश्च भामिनि ।\nतस्मात्कन्येह सुश्रोणि स्वतन्त्रा वरवर्णिनि ॥"
+          "text": "सर्वान्कामयते यस्मात्कनेर्धातोश्च भामिनि ।\nतस्मात्कन्येह सुश्रोणि स्वतन्त्रा वरवर्णिनि ॥",
+          "meaning": {
+            "en": "Because she desires all, from the root kan, therefore a kanya, lady with lovely hips, is free here, lovely one."
+          }
         },
         {
           "n": 14,
-          "text": "नाधर्मश्चरितः कश्चित्त्वया भवति भामिनि ।\nअधर्मं कुत एवाहं चरेयं लोककाम्यया ॥"
+          "text": "नाधर्मश्चरितः कश्चित्त्वया भवति भामिनि ।\nअधर्मं कुत एवाहं चरेयं लोककाम्यया ॥",
+          "meaning": {
+            "en": "You have committed no wrong, lady. How could I do wrong, I who desire the good of the world?"
+          }
         },
         {
           "n": 15,
-          "text": "अनावृताः स्त्रियः सर्वा नराश्च वरवर्णिनि ।\nस्वभाव एष लोकानां विकारोऽन्य इति स्मृतः ॥"
+          "text": "अनावृताः स्त्रियः सर्वा नराश्च वरवर्णिनि ।\nस्वभाव एष लोकानां विकारोऽन्य इति स्मृतः ॥",
+          "meaning": {
+            "en": "All women and men, lovely lady, are unrestricted; this is the nature of the world, and anything else is called a distortion."
+          }
         },
         {
           "n": 16,
-          "text": "सा मया सह संगम्य पुनः कन्या भविष्यसि ।\nपुत्रश्च ते महाबाहुर्भविष्यति महायशाः ॥"
+          "text": "सा मया सह संगम्य पुनः कन्या भविष्यसि ।\nपुत्रश्च ते महाबाहुर्भविष्यति महायशाः ॥",
+          "meaning": {
+            "en": "After uniting with me you will be a maiden again, and you will have a mighty-armed, greatly renowned son."
+          }
         },
         {
-          "text": "कुन्त्युवाच"
+          "text": "कुन्त्युवाच",
+          "meaning": {
+            "en": "Kunti said:"
+          }
         },
         {
           "n": 17,
-          "text": "यदि पुत्रो मम भवेत्त्वत्तः सर्वतमोपह ।\nकुण्डली कवची शूरो महाबाहुर्महाबलः ॥"
+          "text": "यदि पुत्रो मम भवेत्त्वत्तः सर्वतमोपह ।\nकुण्डली कवची शूरो महाबाहुर्महाबलः ॥",
+          "meaning": {
+            "en": "If I am to have a son from you, dispeller of all darkness, let him be a hero with earrings and armor, mighty-armed and mighty."
+          }
         },
         {
-          "text": "सूर्य उवाच"
+          "text": "सूर्य उवाच",
+          "meaning": {
+            "en": "Surya said:"
+          }
         },
         {
           "n": 18,
-          "text": "भविष्यति महाबाहुः कुण्डली दिव्यवर्मभृत् ।\nउभयं चामृतमयं तस्य भद्रे भविष्यति ॥"
+          "text": "भविष्यति महाबाहुः कुण्डली दिव्यवर्मभृत् ।\nउभयं चामृतमयं तस्य भद्रे भविष्यति ॥",
+          "meaning": {
+            "en": "He will be mighty-armed, with earrings and divine armor; both of these will be made of nectar, good lady."
+          }
         },
         {
-          "text": "कुन्त्युवाच"
+          "text": "कुन्त्युवाच",
+          "meaning": {
+            "en": "Kunti said:"
+          }
         },
         {
           "n": 19,
-          "text": "यद्येतदमृतादस्ति कुण्डले वर्म चोत्तमम् ।\nमम पुत्रस्य यं वै त्वं मत्त उत्पादयिष्यसि ॥"
+          "text": "यद्येतदमृतादस्ति कुण्डले वर्म चोत्तमम् ।\nमम पुत्रस्य यं वै त्वं मत्त उत्पादयिष्यसि ॥",
+          "meaning": {
+            "en": "If the earrings and the excellent armor are from nectar, for my son whom you will beget on me,"
+          }
         },
         {
           "n": 20,
-          "text": "अस्तु मे संगमो देव यथोक्तं भगवंस्त्वया ।\nत्वद्वीर्यरूपसत्त्वौजा धर्मयुक्तो भवेत्स च ॥"
+          "text": "अस्तु मे संगमो देव यथोक्तं भगवंस्त्वया ।\nत्वद्वीर्यरूपसत्त्वौजा धर्मयुक्तो भवेत्स च ॥",
+          "meaning": {
+            "en": "then let the union be, god, as you have said, lord; and may he, endowed with your valor, form, strength and vigor, be righteous."
+          }
         },
         {
-          "text": "सूर्य उवाच"
+          "text": "सूर्य उवाच",
+          "meaning": {
+            "en": "Surya said:"
+          }
         },
         {
           "n": 21,
-          "text": "अदित्या कुण्डले राज्ञि दत्ते मे मत्तकाशिनि ।\nतेऽस्य दास्यामि वै भीरु वर्म चैवेदमुत्तमम् ॥"
+          "text": "अदित्या कुण्डले राज्ञि दत्ते मे मत्तकाशिनि ।\nतेऽस्य दास्यामि वै भीरु वर्म चैवेदमुत्तमम् ॥",
+          "meaning": {
+            "en": "Queen, the earrings and this excellent armor were given to me by Aditi, you who are intoxicated by youth; I will give them to him, timid one."
+          }
         },
         {
-          "text": "पृथोवाच"
+          "text": "पृथोवाच",
+          "meaning": {
+            "en": "Pritha said:"
+          }
         },
         {
           "n": 22,
-          "text": "परमं भगवन्देव संगमिष्ये त्वया सह ।\nयदि पुत्रो भवेदेवं यथा वदसि गोपते ॥"
+          "text": "परमं भगवन्देव संगमिष्ये त्वया सह ।\nयदि पुत्रो भवेदेवं यथा वदसि गोपते ॥",
+          "meaning": {
+            "en": "Then, supreme lord and god, I will unite with you, if the son will be as you say, lord of rays."
+          }
         },
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 23,
-          "text": "तथेत्युक्त्वा तु तां कुन्तीमाविवेश विहंगमः ।\nस्वर्भानुशत्रुर्योगात्मा नाभ्यां पस्पर्श चैव ताम् ॥"
+          "text": "तथेत्युक्त्वा तु तां कुन्तीमाविवेश विहंगमः ।\nस्वर्भानुशत्रुर्योगात्मा नाभ्यां पस्पर्श चैव ताम् ॥",
+          "meaning": {
+            "en": "Saying, So be it, the sky-goer, enemy of Svarbhanu, whose self is yoga, entered Kunti and touched her navel."
+          }
         },
         {
           "n": 24,
-          "text": "ततः सा विह्वलेवासीत्कन्या सूर्यस्य तेजसा ।\nपपाताथ च सा देवी शयने मूढचेतना ॥"
+          "text": "ततः सा विह्वलेवासीत्कन्या सूर्यस्य तेजसा ।\nपपाताथ च सा देवी शयने मूढचेतना ॥",
+          "meaning": {
+            "en": "Then the girl, overwhelmed by Surya's radiance, became as if faint, and the lady fell on her bed with a bewildered mind."
+          }
         },
         {
-          "text": "सूर्य उवाच"
+          "text": "सूर्य उवाच",
+          "meaning": {
+            "en": "Surya said:"
+          }
         },
         {
           "n": 25,
-          "text": "साधयिष्यामि सुश्रोणि पुत्रं वै जनयिष्यसि ।\nसर्वशस्त्रभृतां श्रेष्ठं कन्या चैव भविष्यसि ॥"
+          "text": "साधयिष्यामि सुश्रोणि पुत्रं वै जनयिष्यसि ।\nसर्वशस्त्रभृतां श्रेष्ठं कन्या चैव भविष्यसि ॥",
+          "meaning": {
+            "en": "I will accomplish it, fair-hipped one: you will bear a son, best of all who bear weapons, and you will be a maiden still."
+          }
         },
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 26,
-          "text": "ततः सा व्रीडिता बाला तदा सूर्यमथाब्रवीत् ।\nएवमस्त्विति राजेन्द्र प्रस्थितं भूरिवर्चसम् ॥"
+          "text": "ततः सा व्रीडिता बाला तदा सूर्यमथाब्रवीत् ।\nएवमस्त्विति राजेन्द्र प्रस्थितं भूरिवर्चसम् ॥",
+          "meaning": {
+            "en": "Then, ashamed, the girl said to the very radiant Surya, as he was leaving, So be it, king of kings."
+          }
         },
         {
           "n": 27,
-          "text": "इति स्मोक्ता कुन्तिराजात्मजा सा\nविवस्वन्तं याचमाना सलज्जा ।\nतस्मिन्पुण्ये शयनीये पपात\nमोहाविष्टा भज्यमाना लतेव ॥"
+          "text": "इति स्मोक्ता कुन्तिराजात्मजा सा\nविवस्वन्तं याचमाना सलज्जा ।\nतस्मिन्पुण्ये शयनीये पपात\nमोहाविष्टा भज्यमाना लतेव ॥",
+          "meaning": {
+            "en": "Thus addressed, the daughter of the Kunti king, begging Vivasvan, ashamed, fell on that sacred bed, overwhelmed, like a creeper being broken."
+          }
         },
         {
           "n": 28,
-          "text": "तां तिग्मांशुस्तेजसा मोहयित्वा\nयोगेनाविश्यात्मसंस्थां चकार ।\nन चैवैनां दूषयामास भानुः\nसंज्ञां लेभे भूय एवाथ बाला ॥"
+          "text": "तां तिग्मांशुस्तेजसा मोहयित्वा\nयोगेनाविश्यात्मसंस्थां चकार ।\nन चैवैनां दूषयामास भानुः\nसंज्ञां लेभे भूय एवाथ बाला ॥",
+          "meaning": {
+            "en": "The sharp-rayed one, stupefying her with his radiance and entering her by yoga, placed himself within her; but the sun did not defile her, and the girl regained her senses."
+          }
         }
       ]
     }

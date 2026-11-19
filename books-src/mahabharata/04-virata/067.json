@@ -22,168 +22,294 @@
       "titleEn": "Vaivahika Parva (The wedding)",
       "verses": [
         {
-          "text": "विराट उवाच"
+          "text": "विराट उवाच",
+          "meaning": {
+            "en": "Virata said:"
+          }
         },
         {
           "n": 1,
-          "text": "किमर्थं पाण्डवश्रेष्ठ भार्यां दुहितरं मम ।\nप्रतिग्रहीतुं नेमां त्वं मया दत्तामिहेच्छसि ॥"
+          "text": "किमर्थं पाण्डवश्रेष्ठ भार्यां दुहितरं मम ।\nप्रतिग्रहीतुं नेमां त्वं मया दत्तामिहेच्छसि ॥",
+          "meaning": {
+            "en": "\"Best of the Pandavas, why do you not wish to accept my daughter, offered by me, as your wife?\""
+          }
         },
         {
-          "text": "अर्जुन उवाच"
+          "text": "अर्जुन उवाच",
+          "meaning": {
+            "en": "Arjuna said:"
+          }
         },
         {
           "n": 2,
-          "text": "अन्तःपुरेऽहमुषितः सदा पश्यन्सुतां तव ।\nरहस्यं च प्रकाशं च विश्वस्ता पितृवन्मयि ॥"
+          "text": "अन्तःपुरेऽहमुषितः सदा पश्यन्सुतां तव ।\nरहस्यं च प्रकाशं च विश्वस्ता पितृवन्मयि ॥",
+          "meaning": {
+            "en": "\"I lived always in your women's quarter and saw your daughter, in private and in public, and she trusted me like a father.\""
+          }
         },
         {
           "n": 3,
-          "text": "प्रियो बहुमतश्चाहं नर्तको गीतकोविदः ।\nआचार्यवच्च मां नित्यं मन्यते दुहिता तव ॥"
+          "text": "प्रियो बहुमतश्चाहं नर्तको गीतकोविदः ।\nआचार्यवच्च मां नित्यं मन्यते दुहिता तव ॥",
+          "meaning": {
+            "en": "\"Loved and esteemed, a dancer skilled in song, I was always regarded by your daughter as a teacher.\""
+          }
         },
         {
           "n": 4,
-          "text": "वयःस्थया तया राजन्सह संवत्सरोषितः ।\nअतिशङ्का भवेत्स्थाने तव लोकस्य चाभिभो ॥"
+          "text": "वयःस्थया तया राजन्सह संवत्सरोषितः ।\nअतिशङ्का भवेत्स्थाने तव लोकस्य चाभिभो ॥",
+          "meaning": {
+            "en": "\"I lived a year with her, who is grown, and suspicion might rightly arise, lord, in you and in the world.\""
+          }
         },
         {
           "n": 5,
-          "text": "तस्मान्निमन्त्रये त्वाहं दुहितुः पृथिवीपते ।\nशुद्धो जितेन्द्रियो दान्तस्तस्याः शुद्धिः कृता मया ॥"
+          "text": "तस्मान्निमन्त्रये त्वाहं दुहितुः पृथिवीपते ।\nशुद्धो जितेन्द्रियो दान्तस्तस्याः शुद्धिः कृता मया ॥",
+          "meaning": {
+            "en": "\"So, lord of the earth, I ask for your daughter as my son's bride. I am pure, self-controlled, and have made her pure.\""
+          }
         },
         {
           "n": 6,
-          "text": "स्नुषाया दुहितुर्वापि पुत्रे चात्मनि वा पुनः ।\nअत्र शङ्कां न पश्यामि तेन शुद्धिर्भविष्यति ॥"
+          "text": "स्नुषाया दुहितुर्वापि पुत्रे चात्मनि वा पुनः ।\nअत्र शङ्कां न पश्यामि तेन शुद्धिर्भविष्यति ॥",
+          "meaning": {
+            "en": "\"I see no room for suspicion in a daughter-in-law or daughter in relation to a son or oneself; therefore her purity will be clear.\""
+          }
         },
         {
           "n": 7,
-          "text": "अभिषङ्गादहं भीतो मिथ्याचारात्परंतप ।\nस्नुषार्थमुत्तरां राजन्प्रतिगृह्णामि ते सुताम् ॥"
+          "text": "अभिषङ्गादहं भीतो मिथ्याचारात्परंतप ।\nस्नुषार्थमुत्तरां राजन्प्रतिगृह्णामि ते सुताम् ॥",
+          "meaning": {
+            "en": "\"I fear slander and false conduct, scorcher of foes; so I accept your daughter Uttara for my daughter-in-law.\""
+          }
         },
         {
           "n": 8,
-          "text": "स्वस्रीयो वासुदेवस्य साक्षाद्देवशिशुर्यथा ।\nदयितश्चक्रहस्तस्य बाल एवास्त्रकोविदः ॥"
+          "text": "स्वस्रीयो वासुदेवस्य साक्षाद्देवशिशुर्यथा ।\nदयितश्चक्रहस्तस्य बाल एवास्त्रकोविदः ॥",
+          "meaning": {
+            "en": "\"He is the sister's son of Vasudeva, like a child of the gods, dear to the discus-bearer, a boy already skilled in weapons.\""
+          }
         },
         {
           "n": 9,
-          "text": "अभिमन्युर्महाबाहुः पुत्रो मम विशां पते ।\nजामाता तव युक्तो वै भर्ता च दुहितुस्तव ॥"
+          "text": "अभिमन्युर्महाबाहुः पुत्रो मम विशां पते ।\nजामाता तव युक्तो वै भर्ता च दुहितुस्तव ॥",
+          "meaning": {
+            "en": "\"Abhimanyu, mighty-armed lord of the people, is my son; he is a fit son-in-law for you and a fit husband for your daughter.\""
+          }
         },
         {
-          "text": "विराट उवाच"
+          "text": "विराट उवाच",
+          "meaning": {
+            "en": "Virata said:"
+          }
         },
         {
           "n": 10,
-          "text": "उपपन्नं कुरुश्रेष्ठे कुन्तीपुत्रे धनंजये ।\nय एवं धर्मनित्यश्च जातज्ञानश्च पाण्डवः ॥"
+          "text": "उपपन्नं कुरुश्रेष्ठे कुन्तीपुत्रे धनंजये ।\nय एवं धर्मनित्यश्च जातज्ञानश्च पाण्डवः ॥",
+          "meaning": {
+            "en": "\"This is fitting for Dhananjaya, son of Kunti, best of the Kurus, a Pandava of constant dharma and born wisdom.\""
+          }
         },
         {
           "n": 11,
-          "text": "यत्कृत्यं मन्यसे पार्थ क्रियतां तदनन्तरम् ।\nसर्वे कामाः समृद्धा मे संबन्धी यस्य मेऽर्जुनः ॥"
+          "text": "यत्कृत्यं मन्यसे पार्थ क्रियतां तदनन्तरम् ।\nसर्वे कामाः समृद्धा मे संबन्धी यस्य मेऽर्जुनः ॥",
+          "meaning": {
+            "en": "\"Do next whatever you think should be done, Partha. All my wishes are fulfilled, since Arjuna is to be my kin.\""
+          }
         },
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 12,
-          "text": "एवं ब्रुवति राजेन्द्रे कुन्तीपुत्रो युधिष्ठिरः ।\nअन्वजानात्स संयोगं समये मत्स्यपार्थयोः ॥"
+          "text": "एवं ब्रुवति राजेन्द्रे कुन्तीपुत्रो युधिष्ठिरः ।\nअन्वजानात्स संयोगं समये मत्स्यपार्थयोः ॥",
+          "meaning": {
+            "en": "As the king spoke, Yudhishthira, son of Kunti, approved the union of the Matsya and the Parthas."
+          }
         },
         {
           "n": 13,
-          "text": "ततो मित्रेषु सर्वेषु वासुदेवे च भारत ।\nप्रेषयामास कौन्तेयो विराटश्च महीपतिः ॥"
+          "text": "ततो मित्रेषु सर्वेषु वासुदेवे च भारत ।\nप्रेषयामास कौन्तेयो विराटश्च महीपतिः ॥",
+          "meaning": {
+            "en": "Then Kunti's son and King Virata sent word to all their friends, and to Vasudeva, O Bharata."
+          }
         },
         {
           "n": 14,
-          "text": "ततस्त्रयोदशे वर्षे निवृत्ते पञ्च पाण्डवाः ।\nउपप्लव्ये विराटस्य समपद्यन्त सर्वशः ॥"
+          "text": "ततस्त्रयोदशे वर्षे निवृत्ते पञ्च पाण्डवाः ।\nउपप्लव्ये विराटस्य समपद्यन्त सर्वशः ॥",
+          "meaning": {
+            "en": "When the thirteenth year was complete, the five Pandavas gathered in every way at Upaplavya in Virata's realm."
+          }
         },
         {
           "n": 15,
-          "text": "तस्मिन्वसंश्च बीभत्सुरानिनाय जनार्दनम् ।\nआनर्तेभ्योऽपि दाशार्हानभिमन्युं च पाण्डवः ॥"
+          "text": "तस्मिन्वसंश्च बीभत्सुरानिनाय जनार्दनम् ।\nआनर्तेभ्योऽपि दाशार्हानभिमन्युं च पाण्डवः ॥",
+          "meaning": {
+            "en": "While there, the Pandava Bibhatsu brought Janardana, and the Dasharhas from Anarta, and Abhimanyu."
+          }
         },
         {
           "n": 16,
-          "text": "काशिराजश्च शैब्यश्च प्रीयमाणौ युधिष्ठिरे ।\nअक्षौहिणीभ्यां सहितावागतौ पृथिवीपते ॥"
+          "text": "काशिराजश्च शैब्यश्च प्रीयमाणौ युधिष्ठिरे ।\nअक्षौहिणीभ्यां सहितावागतौ पृथिवीपते ॥",
+          "meaning": {
+            "en": "The king of Kashi and Shaibya, pleased with Yudhishthira, came, O lord of the earth, each with an akshauhini."
+          }
         },
         {
           "n": 17,
-          "text": "अक्षौहिण्या च तेजस्वी यज्ञसेनो महाबलः ।\nद्रौपद्याश्च सुता वीराः शिखण्डी चापराजितः ॥"
+          "text": "अक्षौहिण्या च तेजस्वी यज्ञसेनो महाबलः ।\nद्रौपद्याश्च सुता वीराः शिखण्डी चापराजितः ॥",
+          "meaning": {
+            "en": "The mighty Yajnasena Drupada came with an akshauhini, with the heroic sons of Draupadi and the unconquered Shikhandi."
+          }
         },
         {
           "n": 18,
-          "text": "धृष्टद्युम्नश्च दुर्धर्षः सर्वशस्त्रभृतां वरः ।\nसमस्ताक्षौहिणीपाला यज्वानो भूरिदक्षिणाः ।\nसर्वे शस्त्रास्त्रसंपन्नाः सर्वे शूरास्तनुत्यजः ॥"
+          "text": "धृष्टद्युम्नश्च दुर्धर्षः सर्वशस्त्रभृतां वरः ।\nसमस्ताक्षौहिणीपाला यज्वानो भूरिदक्षिणाः ।\nसर्वे शस्त्रास्त्रसंपन्नाः सर्वे शूरास्तनुत्यजः ॥",
+          "meaning": {
+            "en": "Dhrishtadyumna, hard to resist and best of all weapon-bearers, came too; all were lords of akshauhinis, sacrificers who gave rich fees, all skilled in weapons, all heroes ready to give up life."
+          }
         },
         {
           "n": 19,
-          "text": "तानागतानभिप्रेक्ष्य मत्स्यो धर्मभृतां वरः ।\nप्रीतोऽभवद्दुहितरं दत्त्वा तामभिमन्यवे ॥"
+          "text": "तानागतानभिप्रेक्ष्य मत्स्यो धर्मभृतां वरः ।\nप्रीतोऽभवद्दुहितरं दत्त्वा तामभिमन्यवे ॥",
+          "meaning": {
+            "en": "Seeing them arrive, the Matsya, best of upholders of dharma, was pleased, and gave his daughter to Abhimanyu."
+          }
         },
         {
           "n": 20,
-          "text": "ततः प्रत्युपयातेषु पार्थिवेषु ततस्ततः ।\nतत्रागमद्वासुदेवो वनमाली हलायुधः ।\nकृतवर्मा च हार्दिक्यो युयुधानश्च सात्यकिः ॥"
+          "text": "ततः प्रत्युपयातेषु पार्थिवेषु ततस्ततः ।\nतत्रागमद्वासुदेवो वनमाली हलायुधः ।\nकृतवर्मा च हार्दिक्यो युयुधानश्च सात्यकिः ॥",
+          "meaning": {
+            "en": "Then, as the kings arrived from various places, there came Vasudeva, garlanded with forest flowers, and plow-bearing Balarama, Kritavarma son of Hridika, and Yuyudhana Satyaki."
+          }
         },
         {
           "n": 21,
-          "text": "अनाधृष्टिस्तथाक्रूरः साम्बो निशठ एव च ।\nअभिमन्युमुपादाय सह मात्रा परंतपाः ॥"
+          "text": "अनाधृष्टिस्तथाक्रूरः साम्बो निशठ एव च ।\nअभिमन्युमुपादाय सह मात्रा परंतपाः ॥",
+          "meaning": {
+            "en": "Anadhrishti, Akrura, Samba and Nishatha, scorchers of foes, came with Abhimanyu and his mother."
+          }
         },
         {
           "n": 22,
-          "text": "इन्द्रसेनादयश्चैव रथैस्तैः सुसमाहितैः ।\nआययुः सहिताः सर्वे परिसंवत्सरोषिताः ॥"
+          "text": "इन्द्रसेनादयश्चैव रथैस्तैः सुसमाहितैः ।\nआययुः सहिताः सर्वे परिसंवत्सरोषिताः ॥",
+          "meaning": {
+            "en": "Indrasena and others also came, all together, in their well-equipped chariots, after spending a full year away."
+          }
         },
         {
           "n": 23,
-          "text": "दश नागसहस्राणि हयानां च शतायुतम् ।\nरथानामर्बुदं पूर्णं निखर्वं च पदातिनाम् ॥"
+          "text": "दश नागसहस्राणि हयानां च शतायुतम् ।\nरथानामर्बुदं पूर्णं निखर्वं च पदातिनाम् ॥",
+          "meaning": {
+            "en": "They brought ten thousand elephants, a hundred thousand horses, a full arbuda of chariots and a nikharva of foot-soldiers."
+          }
         },
         {
           "n": 24,
-          "text": "वृष्ण्यन्धकाश्च बहवो भोजाश्च परमौजसः ।\nअन्वयुर्वृष्णिशार्दूलं वासुदेवं महाद्युतिम् ॥"
+          "text": "वृष्ण्यन्धकाश्च बहवो भोजाश्च परमौजसः ।\nअन्वयुर्वृष्णिशार्दूलं वासुदेवं महाद्युतिम् ॥",
+          "meaning": {
+            "en": "Many Vrishnis, Andhakas and the mighty Bhojas followed Vasudeva, the radiant tiger of the Vrishnis."
+          }
         },
         {
           "n": 25,
-          "text": "पारिबर्हं ददौ कृष्णः पाण्डवानां महात्मनाम् ।\nस्त्रियो रत्नानि वासांसि पृथक्पृथगनेकशः ।\nततो विवाहो विधिवद्ववृते मत्स्यपार्थयोः ॥"
+          "text": "पारिबर्हं ददौ कृष्णः पाण्डवानां महात्मनाम् ।\nस्त्रियो रत्नानि वासांसि पृथक्पृथगनेकशः ।\nततो विवाहो विधिवद्ववृते मत्स्यपार्थयोः ॥",
+          "meaning": {
+            "en": "Krishna gave the great-souled Pandavas bridal gifts: women, jewels and garments, each in separate numbers. Then the wedding of the Matsya's daughter and Partha's son was held according to rule."
+          }
         },
         {
           "n": 26,
-          "text": "ततः शङ्खाश्च भेर्यश्च गोमुखाडम्बरास्तथा ।\nपार्थैः संयुज्यमानस्य नेदुर्मत्स्यस्य वेश्मनि ॥"
+          "text": "ततः शङ्खाश्च भेर्यश्च गोमुखाडम्बरास्तथा ।\nपार्थैः संयुज्यमानस्य नेदुर्मत्स्यस्य वेश्मनि ॥",
+          "meaning": {
+            "en": "Then conches, drums and cow-horn trumpets sounded in the house of the Matsya king, who was now united with the Parthas."
+          }
         },
         {
           "n": 27,
-          "text": "उच्चावचान्मृगाञ्जघ्नुर्मेध्यांश्च शतशः पशून् ।\nसुरामैरेयपानानि प्रभूतान्यभ्यहारयन् ॥"
+          "text": "उच्चावचान्मृगाञ्जघ्नुर्मेध्यांश्च शतशः पशून् ।\nसुरामैरेयपानानि प्रभूतान्यभ्यहारयन् ॥",
+          "meaning": {
+            "en": "They killed deer of many kinds and hundreds of animals fit for sacrifice, and brought in plentiful wine and liquor."
+          }
         },
         {
           "n": 28,
-          "text": "गायनाख्यानशीलाश्च नटा वैतालिकास्तथा ।\nस्तुवन्तस्तानुपातिष्ठन्सूताश्च सह मागधैः ॥"
+          "text": "गायनाख्यानशीलाश्च नटा वैतालिकास्तथा ।\nस्तुवन्तस्तानुपातिष्ठन्सूताश्च सह मागधैः ॥",
+          "meaning": {
+            "en": "Singers, tellers of tales, actors and bards waited on them with praises, as did the sutas with the magadhas."
+          }
         },
         {
           "n": 29,
-          "text": "सुदेष्णां च पुरस्कृत्य मत्स्यानां च वरस्त्रियः ।\nआजग्मुश्चारुसर्वाङ्ग्यः सुमृष्टमणिकुण्डलाः ॥"
+          "text": "सुदेष्णां च पुरस्कृत्य मत्स्यानां च वरस्त्रियः ।\nआजग्मुश्चारुसर्वाङ्ग्यः सुमृष्टमणिकुण्डलाः ॥",
+          "meaning": {
+            "en": "Led by Sudeshna, the finest women of the Matsyas, lovely in every limb, with polished jeweled earrings, came."
+          }
         },
         {
           "n": 30,
-          "text": "वर्णोपपन्नास्ता नार्यो रूपवत्यः स्वलंकृताः ।\nसर्वाश्चाभ्यभवत्कृष्णा रूपेण यशसा श्रिया ॥"
+          "text": "वर्णोपपन्नास्ता नार्यो रूपवत्यः स्वलंकृताः ।\nसर्वाश्चाभ्यभवत्कृष्णा रूपेण यशसा श्रिया ॥",
+          "meaning": {
+            "en": "Those women, fair, beautiful and well adorned, were all outshone by Krishna Draupadi in beauty, fame and splendor."
+          }
         },
         {
           "n": 31,
-          "text": "परिवार्योत्तरां तास्तु राजपुत्रीमलंकृताम् ।\nसुतामिव महेन्द्रस्य पुरस्कृत्योपतस्थिरे ॥"
+          "text": "परिवार्योत्तरां तास्तु राजपुत्रीमलंकृताम् ।\nसुतामिव महेन्द्रस्य पुरस्कृत्योपतस्थिरे ॥",
+          "meaning": {
+            "en": "They surrounded Uttara, the adorned princess, and attended her as if she were Mahendra's daughter."
+          }
         },
         {
           "n": 32,
-          "text": "तां प्रत्यगृह्णात्कौन्तेयः सुतस्यार्थे धनंजयः ।\nसौभद्रस्यानवद्याङ्गीं विराटतनयां तदा ॥"
+          "text": "तां प्रत्यगृह्णात्कौन्तेयः सुतस्यार्थे धनंजयः ।\nसौभद्रस्यानवद्याङ्गीं विराटतनयां तदा ॥",
+          "meaning": {
+            "en": "Then Dhananjaya, son of Kunti, accepted Virata's blameless daughter for the son of Subhadra."
+          }
         },
         {
           "n": 33,
-          "text": "तत्रातिष्ठन्महाराजो रूपमिन्द्रस्य धारयन् ।\nस्नुषां तां प्रतिजग्राह कुन्तीपुत्रो युधिष्ठिरः ॥"
+          "text": "तत्रातिष्ठन्महाराजो रूपमिन्द्रस्य धारयन् ।\nस्नुषां तां प्रतिजग्राह कुन्तीपुत्रो युधिष्ठिरः ॥",
+          "meaning": {
+            "en": "There the great king Yudhishthira, son of Kunti, who bore the beauty of Indra, took her as his daughter-in-law."
+          }
         },
         {
           "n": 34,
-          "text": "प्रतिगृह्य च तां पार्थः पुरस्कृत्य जनार्दनम् ।\nविवाहं कारयामास सौभद्रस्य महात्मनः ॥"
+          "text": "प्रतिगृह्य च तां पार्थः पुरस्कृत्य जनार्दनम् ।\nविवाहं कारयामास सौभद्रस्य महात्मनः ॥",
+          "meaning": {
+            "en": "Having accepted her, Partha, with Janardana at his head, had the wedding of the great-souled son of Subhadra performed."
+          }
         },
         {
           "n": 35,
-          "text": "तस्मै सप्त सहस्राणि हयानां वातरंहसाम् ।\nद्वे च नागशते मुख्ये प्रादाद्बहु धनं तदा ॥"
+          "text": "तस्मै सप्त सहस्राणि हयानां वातरंहसाम् ।\nद्वे च नागशते मुख्ये प्रादाद्बहु धनं तदा ॥",
+          "meaning": {
+            "en": "Virata gave him seven thousand horses swift as wind, two hundred of the best elephants, and much wealth."
+          }
         },
         {
           "n": 36,
-          "text": "कृते विवाहे तु तदा धर्मपुत्रो युधिष्ठिरः ।\nब्राह्मणेभ्यो ददौ वित्तं यदुपाहरदच्युतः ॥"
+          "text": "कृते विवाहे तु तदा धर्मपुत्रो युधिष्ठिरः ।\nब्राह्मणेभ्यो ददौ वित्तं यदुपाहरदच्युतः ॥",
+          "meaning": {
+            "en": "When the wedding was done, Yudhishthira, son of Dharma, gave to the brahmins the wealth Krishna had brought."
+          }
         },
         {
           "n": 37,
-          "text": "गोसहस्राणि रत्नानि वस्त्राणि विविधानि च ।\nभूषणानि च मुख्यानि यानानि शयनानि च ॥"
+          "text": "गोसहस्राणि रत्नानि वस्त्राणि विविधानि च ।\nभूषणानि च मुख्यानि यानानि शयनानि च ॥",
+          "meaning": {
+            "en": "He gave thousands of cattle, jewels, varied garments, fine ornaments, vehicles and beds."
+          }
         },
         {
           "n": 38,
-          "text": "तन्महोत्सवसंकाशं हृष्टपुष्टजनावृतम् ।\nनगरं मत्स्यराजस्य शुशुभे भरतर्षभ ॥"
+          "text": "तन्महोत्सवसंकाशं हृष्टपुष्टजनावृतम् ।\nनगरं मत्स्यराजस्य शुशुभे भरतर्षभ ॥",
+          "meaning": {
+            "en": "The city of the Matsya king, thronged with cheerful, well-fed people, shone like a great festival, O best of the Bharatas."
+          }
         }
       ]
     }

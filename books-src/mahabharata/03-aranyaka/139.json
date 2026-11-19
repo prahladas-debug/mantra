@@ -22,115 +22,202 @@
       "titleEn": "Tirthayatra Parva (The pilgrimage)",
       "verses": [
         {
-          "text": "लोमश उवाच"
+          "text": "लोमश उवाच",
+          "meaning": {
+            "en": "Lomasha said:"
+          }
         },
         {
           "n": 1,
-          "text": "एतस्मिन्नेव काले तु बृहद्द्युम्नो महीपतिः ।\nसत्रमास्ते महाभागो रैभ्ययाज्यः प्रतापवान् ॥"
+          "text": "एतस्मिन्नेव काले तु बृहद्द्युम्नो महीपतिः ।\nसत्रमास्ते महाभागो रैभ्ययाज्यः प्रतापवान् ॥",
+          "meaning": {
+            "en": "At just that time, King Brihaddyumna, a glorious and powerful lord, was holding a sacrificial session, with Raibhya as his priest."
+          }
         },
         {
           "n": 2,
-          "text": "तेन रैभ्यस्य वै पुत्रावर्वावसुपरावसू ।\nवृतौ सहायौ सत्रार्थे बृहद्द्युम्नेन धीमता ॥"
+          "text": "तेन रैभ्यस्य वै पुत्रावर्वावसुपरावसू ।\nवृतौ सहायौ सत्रार्थे बृहद्द्युम्नेन धीमता ॥",
+          "meaning": {
+            "en": "The wise Brihaddyumna had chosen Raibhya's sons, Arvavasu and Paravasu, as helpers for the session."
+          }
         },
         {
           "n": 3,
-          "text": "तत्र तौ समनुज्ञातौ पित्रा कौन्तेय जग्मतुः ।\nआश्रमे त्वभवद्रैभ्यो भार्या चैव परावसोः ॥"
+          "text": "तत्र तौ समनुज्ञातौ पित्रा कौन्तेय जग्मतुः ।\nआश्रमे त्वभवद्रैभ्यो भार्या चैव परावसोः ॥",
+          "meaning": {
+            "en": "Son of Kunti, they went there with their father's leave. In the hermitage there remained Raibhya and Paravasu's wife."
+          }
         },
         {
           "n": 4,
-          "text": "अथावलोककोऽगच्छद्गृहानेकः परावसुः ।\nकृष्णाजिनेन संवीतं ददर्श पितरं वने ॥"
+          "text": "अथावलोककोऽगच्छद्गृहानेकः परावसुः ।\nकृष्णाजिनेन संवीतं ददर्श पितरं वने ॥",
+          "meaning": {
+            "en": "Then Paravasu came alone to the house to look in, and in the forest he saw his father wrapped in a black antelope skin."
+          }
         },
         {
           "n": 5,
-          "text": "जघन्यरात्रे निद्रान्धः सावशेषे तमस्यपि ।\nचरन्तं गहनेऽरण्ये मेने स पितरं मृगम् ॥"
+          "text": "जघन्यरात्रे निद्रान्धः सावशेषे तमस्यपि ।\nचरन्तं गहनेऽरण्ये मेने स पितरं मृगम् ॥",
+          "meaning": {
+            "en": "In the last part of the night, blind with sleep, while some darkness remained, he took his father, moving about in the dense forest, for a deer."
+          }
         },
         {
           "n": 6,
-          "text": "मृगं तु मन्यमानेन पिता वै तेन हिंसितः ।\nअकामयानेन तदा शरीरत्राणमिच्छता ॥"
+          "text": "मृगं तु मन्यमानेन पिता वै तेन हिंसितः ।\nअकामयानेन तदा शरीरत्राणमिच्छता ॥",
+          "meaning": {
+            "en": "Thinking him a deer, he killed his father, not meaning to, wanting to protect his own body."
+          }
         },
         {
           "n": 7,
-          "text": "स तस्य प्रेतकार्याणि कृत्वा सर्वाणि भारत ।\nपुनरागम्य तत्सत्रमब्रवीद्भ्रातरं वचः ॥"
+          "text": "स तस्य प्रेतकार्याणि कृत्वा सर्वाणि भारत ।\nपुनरागम्य तत्सत्रमब्रवीद्भ्रातरं वचः ॥",
+          "meaning": {
+            "en": "Bharata, having performed all his father's funeral rites, he came again to the session and said to his brother:"
+          }
         },
         {
           "n": 8,
-          "text": "इदं कर्म न शक्तस्त्वं वोढुमेकः कथंचन ।\nमया तु हिंसितस्तातो मन्यमानेन तं मृगम् ॥"
+          "text": "इदं कर्म न शक्तस्त्वं वोढुमेकः कथंचन ।\nमया तु हिंसितस्तातो मन्यमानेन तं मृगम् ॥",
+          "meaning": {
+            "en": "\"You cannot carry out this work alone in any way. I have killed our father, thinking he was a deer.\""
+          }
         },
         {
           "n": 9,
-          "text": "सोऽस्मदर्थे व्रतं साधु चर त्वं ब्रह्महिंसनम् ।\nसमर्थो ह्यहमेकाकी कर्म कर्तुमिदं मुने ॥"
+          "text": "सोऽस्मदर्थे व्रतं साधु चर त्वं ब्रह्महिंसनम् ।\nसमर्थो ह्यहमेकाकी कर्म कर्तुमिदं मुने ॥",
+          "meaning": {
+            "en": "\"For my sake, you should properly keep the vow for the killing of a brahmin. I, alone, am able to perform this rite, sage.\""
+          }
         },
         {
-          "text": "अर्वावसुरुवाच"
+          "text": "अर्वावसुरुवाच",
+          "meaning": {
+            "en": "Arvavasu said:"
+          }
         },
         {
           "n": 10,
-          "text": "करोतु वै भवान्सत्रं बृहद्द्युम्नस्य धीमतः ।\nब्रह्महत्यां चरिष्येऽहं त्वदर्थं नियतेन्द्रियः ॥"
+          "text": "करोतु वै भवान्सत्रं बृहद्द्युम्नस्य धीमतः ।\nब्रह्महत्यां चरिष्येऽहं त्वदर्थं नियतेन्द्रियः ॥",
+          "meaning": {
+            "en": "\"You do the session for the wise Brihaddyumna. I shall carry out the penance for brahmin-killing for your sake, with my senses controlled.\""
+          }
         },
         {
-          "text": "लोमश उवाच"
+          "text": "लोमश उवाच",
+          "meaning": {
+            "en": "Lomasha said:"
+          }
         },
         {
           "n": 11,
-          "text": "स तस्या ब्रह्महत्यायाः पारं गत्वा युधिष्ठिर ।\nअर्वावसुस्तदा सत्रमाजगाम पुनर्मुनिः ॥"
+          "text": "स तस्या ब्रह्महत्यायाः पारं गत्वा युधिष्ठिर ।\nअर्वावसुस्तदा सत्रमाजगाम पुनर्मुनिः ॥",
+          "meaning": {
+            "en": "Yudhishthira, Arvavasu, having completed that penance for brahmin-killing, came back to the session."
+          }
         },
         {
           "n": 12,
-          "text": "ततः परावसुर्दृष्ट्वा भ्रातरं समुपस्थितम् ।\nबृहद्द्युम्नमुवाचेदं वचनं परिषद्गतम् ॥"
+          "text": "ततः परावसुर्दृष्ट्वा भ्रातरं समुपस्थितम् ।\nबृहद्द्युम्नमुवाचेदं वचनं परिषद्गतम् ॥",
+          "meaning": {
+            "en": "Seeing his brother present, Paravasu said to Brihaddyumna, in the assembly:"
+          }
         },
         {
           "n": 13,
-          "text": "एष ते ब्रह्महा यज्ञं मा द्रष्टुं प्रविशेदिति ।\nब्रह्महा प्रेक्षितेनापि पीडयेत्त्वां न संशयः ॥"
+          "text": "एष ते ब्रह्महा यज्ञं मा द्रष्टुं प्रविशेदिति ।\nब्रह्महा प्रेक्षितेनापि पीडयेत्त्वां न संशयः ॥",
+          "meaning": {
+            "en": "\"Do not let this brahmin-killer enter to look at the sacrifice. Even by his glance, no doubt, he will afflict you.\""
+          }
         },
         {
           "n": 14,
-          "text": "प्रेष्यैरुत्सार्यमाणस्तु राजन्नर्वावसुस्तदा ।\nन मया ब्रह्महत्येयं कृतेत्याह पुनः पुनः ॥"
+          "text": "प्रेष्यैरुत्सार्यमाणस्तु राजन्नर्वावसुस्तदा ।\nन मया ब्रह्महत्येयं कृतेत्याह पुनः पुनः ॥",
+          "meaning": {
+            "en": "Driven away by the servants, king, Arvavasu said again and again, \"I did not commit this brahmin-killing.\""
+          }
         },
         {
           "n": 15,
-          "text": "उच्यमानोऽसकृत्प्रेष्यैर्ब्रह्महन्निति भारत ।\nनैव स प्रतिजानाति ब्रह्महत्यां स्वयं कृताम् ।\nमम भ्रात्रा कृतमिदं मया तु परिरक्षितम् ॥"
+          "text": "उच्यमानोऽसकृत्प्रेष्यैर्ब्रह्महन्निति भारत ।\nनैव स प्रतिजानाति ब्रह्महत्यां स्वयं कृताम् ।\nमम भ्रात्रा कृतमिदं मया तु परिरक्षितम् ॥",
+          "meaning": {
+            "en": "Though the servants repeatedly called him a brahmin-killer, Bharata, he did not admit that he himself had done it: \"My brother did this, and I protected him.\""
+          }
         },
         {
           "n": 16,
-          "text": "प्रीतास्तस्याभवन्देवाः कर्मणार्वावसोर्नृप ।\nतं ते प्रवरयामासुर्निरासुश्च परावसुम् ॥"
+          "text": "प्रीतास्तस्याभवन्देवाः कर्मणार्वावसोर्नृप ।\nतं ते प्रवरयामासुर्निरासुश्च परावसुम् ॥",
+          "meaning": {
+            "en": "The gods were pleased with Arvavasu's deed, king. They chose him, and drove out Paravasu."
+          }
         },
         {
           "n": 17,
-          "text": "ततो देवा वरं तस्मै ददुरग्निपुरोगमाः ।\nस चापि वरयामास पितुरुत्थानमात्मनः ॥"
+          "text": "ततो देवा वरं तस्मै ददुरग्निपुरोगमाः ।\nस चापि वरयामास पितुरुत्थानमात्मनः ॥",
+          "meaning": {
+            "en": "Then the gods, with Agni at their head, gave him a boon. He chose that his father should rise again,"
+          }
         },
         {
           "n": 18,
-          "text": "अनागस्त्वं तथा भ्रातुः पितुश्चास्मरणं वधे ।\nभरद्वाजस्य चोत्थानं यवक्रीतस्य चोभयोः ॥"
+          "text": "अनागस्त्वं तथा भ्रातुः पितुश्चास्मरणं वधे ।\nभरद्वाजस्य चोत्थानं यवक्रीतस्य चोभयोः ॥",
+          "meaning": {
+            "en": "that his brother be free of blame, that his father forget the killing, and that Bharadvaja and Yavakri both be raised."
+          }
         },
         {
           "n": 19,
-          "text": "ततः प्रादुर्बभूवुस्ते सर्व एव युधिष्ठिर ।\nअथाब्रवीद्यवक्रीतो देवानग्निपुरोगमान् ॥"
+          "text": "ततः प्रादुर्बभूवुस्ते सर्व एव युधिष्ठिर ।\nअथाब्रवीद्यवक्रीतो देवानग्निपुरोगमान् ॥",
+          "meaning": {
+            "en": "Then they all appeared, Yudhishthira. Then Yavakri said to the gods with Agni at their head:"
+          }
         },
         {
           "n": 20,
-          "text": "समधीतं मया ब्रह्म व्रतानि चरितानि च ।\nकथं नु रैभ्यः शक्तो मामधीयानं तपस्विनम् ।\nतथायुक्तेन विधिना निहन्तुममरोत्तमाः ॥"
+          "text": "समधीतं मया ब्रह्म व्रतानि चरितानि च ।\nकथं नु रैभ्यः शक्तो मामधीयानं तपस्विनम् ।\nतथायुक्तेन विधिना निहन्तुममरोत्तमाः ॥",
+          "meaning": {
+            "en": "\"I have studied the Veda and kept the vows. How could Raibhya, best of gods, have killed me, a student and ascetic, who was so disciplined?\""
+          }
         },
         {
-          "text": "देवा ऊचुः"
+          "text": "देवा ऊचुः",
+          "meaning": {
+            "en": "The gods said:"
+          }
         },
         {
           "n": 21,
-          "text": "मैवं कृथा यवक्रीत यथा वदसि वै मुने ।\nऋते गुरुमधीता हि सुखं वेदास्त्वया पुरा ॥"
+          "text": "मैवं कृथा यवक्रीत यथा वदसि वै मुने ।\nऋते गुरुमधीता हि सुखं वेदास्त्वया पुरा ॥",
+          "meaning": {
+            "en": "\"Do not say so, Yavakri, as you do, sage. You studied the Vedas before without a teacher, easily.\""
+          }
         },
         {
           "n": 22,
-          "text": "अनेन तु गुरून्दुःखात्तोषयित्वा स्वकर्मणा ।\nकालेन महता क्लेशाद्ब्रह्माधिगतमुत्तमम् ॥"
+          "text": "अनेन तु गुरून्दुःखात्तोषयित्वा स्वकर्मणा ।\nकालेन महता क्लेशाद्ब्रह्माधिगतमुत्तमम् ॥",
+          "meaning": {
+            "en": "\"But he, having pleased his teachers with his service in hardship, gained the highest Brahman after a long time and with toil.\""
+          }
         },
         {
-          "text": "लोमश उवाच"
+          "text": "लोमश उवाच",
+          "meaning": {
+            "en": "Lomasha said:"
+          }
         },
         {
           "n": 23,
-          "text": "यवक्रीतमथोक्त्वैवं देवाः साग्निपुरोगमाः ।\nसंजीवयित्वा तान्सर्वान्पुनर्जग्मुस्त्रिविष्टपम् ॥"
+          "text": "यवक्रीतमथोक्त्वैवं देवाः साग्निपुरोगमाः ।\nसंजीवयित्वा तान्सर्वान्पुनर्जग्मुस्त्रिविष्टपम् ॥",
+          "meaning": {
+            "en": "Having spoken so to Yavakri, the gods with Agni at their head revived them all and returned to heaven."
+          }
         },
         {
           "n": 24,
-          "text": "आश्रमस्तस्य पुण्योऽयं सदापुष्पफलद्रुमः ।\nअत्रोष्य राजशार्दूल सर्वपापैः प्रमोक्ष्यसे ॥"
+          "text": "आश्रमस्तस्य पुण्योऽयं सदापुष्पफलद्रुमः ।\nअत्रोष्य राजशार्दूल सर्वपापैः प्रमोक्ष्यसे ॥",
+          "meaning": {
+            "en": "This is his holy hermitage, with trees always in flower and fruit. Tiger among kings, by staying here you will be freed from all sins."
+          }
         }
       ]
     }

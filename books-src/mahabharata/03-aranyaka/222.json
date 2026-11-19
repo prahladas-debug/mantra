@@ -22,243 +22,423 @@
       "titleEn": "Draupadi-Satyabhama-samvada Parva",
       "verses": [
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 1,
-          "text": "उपासीनेषु विप्रेषु पाण्डवेषु महात्मसु ।\nद्रौपदी सत्यभामा च विविशाते तदा समम् ।\nजाहस्यमाने सुप्रीते सुखं तत्र निषीदतुः ॥"
+          "text": "उपासीनेषु विप्रेषु पाण्डवेषु महात्मसु ।\nद्रौपदी सत्यभामा च विविशाते तदा समम् ।\nजाहस्यमाने सुप्रीते सुखं तत्र निषीदतुः ॥",
+          "meaning": {
+            "en": "\"While the brahmins attended on the great Pandavas, Draupadi and Satyabhama entered together, laughing and very pleased, and sat down there at ease.\""
+          }
         },
         {
           "n": 2,
-          "text": "चिरस्य दृष्ट्वा राजेन्द्र तेऽन्योन्यस्य प्रियंवदे ।\nकथयामासतुश्चित्राः कथाः कुरुयदुक्षिताम् ॥"
+          "text": "चिरस्य दृष्ट्वा राजेन्द्र तेऽन्योन्यस्य प्रियंवदे ।\nकथयामासतुश्चित्राः कथाः कुरुयदुक्षिताम् ॥",
+          "meaning": {
+            "en": "\"King, seeing each other after a long time, the two sweet speakers exchanged many kinds of stories about the Kuru and Yadu families.\""
+          }
         },
         {
           "n": 3,
-          "text": "अथाब्रवीत्सत्यभामा कृष्णस्य महिषी प्रिया ।\nसात्राजिती याज्ञसेनीं रहसीदं सुमध्यमा ॥"
+          "text": "अथाब्रवीत्सत्यभामा कृष्णस्य महिषी प्रिया ।\nसात्राजिती याज्ञसेनीं रहसीदं सुमध्यमा ॥",
+          "meaning": {
+            "en": "\"Then Satyabhama, Krishna's beloved queen, daughter of Satrajit, slender-waisted, said this privately to Draupadi, daughter of Yajnasena.\""
+          }
         },
         {
           "n": 4,
-          "text": "केन द्रौपदि वृत्तेन पाण्डवानुपतिष्ठसि ।\nलोकपालोपमान्वीरान्यूनः परमसंमतान् ।\nकथं च वशगास्तुभ्यं न कुप्यन्ति च ते शुभे ॥"
+          "text": "केन द्रौपदि वृत्तेन पाण्डवानुपतिष्ठसि ।\nलोकपालोपमान्वीरान्यूनः परमसंमतान् ।\nकथं च वशगास्तुभ्यं न कुप्यन्ति च ते शुभे ॥",
+          "meaning": {
+            "en": "\"'Draupadi, by what conduct do you serve the Pandavas, heroes like world-guardians, young men of the highest standing? How is it that they are under your sway and never get angry with you, auspicious one?'\""
+          }
         },
         {
           "n": 5,
-          "text": "तव वश्या हि सततं पाण्डवाः प्रियदर्शने ।\nमुखप्रेक्षाश्च ते सर्वे तत्त्वमेतद्ब्रवीहि मे ॥"
+          "text": "तव वश्या हि सततं पाण्डवाः प्रियदर्शने ।\nमुखप्रेक्षाश्च ते सर्वे तत्त्वमेतद्ब्रवीहि मे ॥",
+          "meaning": {
+            "en": "\"'The Pandavas are always under your control, lovely one, and all of them look to your face. Tell me the truth of this.'\""
+          }
         },
         {
           "n": 6,
-          "text": "व्रतचर्या तपो वापि स्नानमन्त्रौषधानि वा ।\nविद्यावीर्यं मूलवीर्यं जपहोमस्तथागदाः ॥"
+          "text": "व्रतचर्या तपो वापि स्नानमन्त्रौषधानि वा ।\nविद्यावीर्यं मूलवीर्यं जपहोमस्तथागदाः ॥",
+          "meaning": {
+            "en": "\"'Is it vows and discipline, austerity, bathing, mantras or herbs? Is it the power of knowledge, the power of roots, recitation and offerings, or medicines?'\""
+          }
         },
         {
           "n": 7,
-          "text": "मम आचक्ष्व पाञ्चालि यशस्यं भगवेदनम् ।\nयेन कृष्णे भवेन्नित्यं मम कृष्णो वशानुगः ॥"
+          "text": "मम आचक्ष्व पाञ्चालि यशस्यं भगवेदनम् ।\nयेन कृष्णे भवेन्नित्यं मम कृष्णो वशानुगः ॥",
+          "meaning": {
+            "en": "\"'Tell me, Panchali, some secret of fame and good fortune, by which Krishna will always follow my will, Draupadi.'\""
+          }
         },
         {
           "n": 8,
-          "text": "एवमुक्त्वा सत्यभामा विरराम यशस्विनी ।\nपतिव्रता महाभागा द्रौपदी प्रत्युवाच ताम् ॥"
+          "text": "एवमुक्त्वा सत्यभामा विरराम यशस्विनी ।\nपतिव्रता महाभागा द्रौपदी प्रत्युवाच ताम् ॥",
+          "meaning": {
+            "en": "\"Having said this, the renowned Satyabhama fell silent. The fortunate and devoted wife Draupadi answered her.\""
+          }
         },
         {
           "n": 9,
-          "text": "असत्स्त्रीणां समाचारं सत्ये मामनुपृच्छसि ।\nअसदाचरिते मार्गे कथं स्यादनुकीर्तनम् ॥"
+          "text": "असत्स्त्रीणां समाचारं सत्ये मामनुपृच्छसि ।\nअसदाचरिते मार्गे कथं स्यादनुकीर्तनम् ॥",
+          "meaning": {
+            "en": "\"'Satyabhama, you are asking me about the ways of bad women. How can there be any talk of a path of bad conduct?'\""
+          }
         },
         {
           "n": 10,
-          "text": "अनुप्रश्नः संशयो वा नैतत्त्वय्युपपद्यते ।\nतथा ह्युपेता बुद्ध्या त्वं कृष्णस्य महिषी प्रिया ॥"
+          "text": "अनुप्रश्नः संशयो वा नैतत्त्वय्युपपद्यते ।\nतथा ह्युपेता बुद्ध्या त्वं कृष्णस्य महिषी प्रिया ॥",
+          "meaning": {
+            "en": "\"'Such questioning or doubt does not suit you, for you are so intelligent and Krishna's beloved queen.'\""
+          }
         },
         {
           "n": 11,
-          "text": "यदैव भर्ता जानीयान्मन्त्रमूलपरां स्त्रियम् ।\nउद्विजेत तदैवास्याः सर्पाद्वेश्मगतादिव ॥"
+          "text": "यदैव भर्ता जानीयान्मन्त्रमूलपरां स्त्रियम् ।\nउद्विजेत तदैवास्याः सर्पाद्वेश्मगतादिव ॥",
+          "meaning": {
+            "en": "\"'The moment a husband knows his wife depends on charms and roots, he is alarmed by her, as by a snake in the house.'\""
+          }
         },
         {
           "n": 12,
-          "text": "उद्विग्नस्य कुतः शान्तिरशान्तस्य कुतः सुखम् ।\nन जातु वशगो भर्ता स्त्रियाः स्यान्मन्त्रकारणात् ॥"
+          "text": "उद्विग्नस्य कुतः शान्तिरशान्तस्य कुतः सुखम् ।\nन जातु वशगो भर्ता स्त्रियाः स्यान्मन्त्रकारणात् ॥",
+          "meaning": {
+            "en": "\"'How can a frightened man have peace, and how can an unpeaceful one have happiness? A husband never comes under a woman's power through spells.'\""
+          }
         },
         {
           "n": 13,
-          "text": "अमित्रप्रहितांश्चापि गदान्परमदारुणान् ।\nमूलप्रवादैर्हि विषं प्रयच्छन्ति जिघांसवः ॥"
+          "text": "अमित्रप्रहितांश्चापि गदान्परमदारुणान् ।\nमूलप्रवादैर्हि विषं प्रयच्छन्ति जिघांसवः ॥",
+          "meaning": {
+            "en": "\"'Enemies send terrible diseases, and those who want to kill give poison through the talk of roots.'\""
+          }
         },
         {
           "n": 14,
-          "text": "जिह्वया यानि पुरुषस्त्वचा वाप्युपसेवते ।\nतत्र चूर्णानि दत्तानि हन्युः क्षिप्रमसंशयम् ॥"
+          "text": "जिह्वया यानि पुरुषस्त्वचा वाप्युपसेवते ।\nतत्र चूर्णानि दत्तानि हन्युः क्षिप्रमसंशयम् ॥",
+          "meaning": {
+            "en": "\"'Whatever a man takes by tongue or skin, powders given there kill quickly, without doubt.'\""
+          }
         },
         {
           "n": 15,
-          "text": "जलोदरसमायुक्ताः श्वित्रिणः पलितास्तथा ।\nअपुमांसः कृताः स्त्रीभिर्जडान्धबधिरास्तथा ॥"
+          "text": "जलोदरसमायुक्ताः श्वित्रिणः पलितास्तथा ।\nअपुमांसः कृताः स्त्रीभिर्जडान्धबधिरास्तथा ॥",
+          "meaning": {
+            "en": "\"'Women have made husbands dropsical, leprous, gray, impotent, dull, blind or deaf.'\""
+          }
         },
         {
           "n": 16,
-          "text": "पापानुगास्तु पापास्ताः पतीनुपसृजन्त्युत ।\nन जातु विप्रियं भर्तुः स्त्रिया कार्यं कथंचन ॥"
+          "text": "पापानुगास्तु पापास्ताः पतीनुपसृजन्त्युत ।\nन जातु विप्रियं भर्तुः स्त्रिया कार्यं कथंचन ॥",
+          "meaning": {
+            "en": "\"'Such sinful women, following sin, bring ruin on their husbands. A wife should never, under any circumstances, do anything displeasing to her husband.'\""
+          }
         },
         {
           "n": 17,
-          "text": "वर्ताम्यहं तु यां वृत्तिं पाण्डवेषु महात्मसु ।\nतां सर्वां शृणु मे सत्यां सत्यभामे यशस्विनि ॥"
+          "text": "वर्ताम्यहं तु यां वृत्तिं पाण्डवेषु महात्मसु ।\nतां सर्वां शृणु मे सत्यां सत्यभामे यशस्विनि ॥",
+          "meaning": {
+            "en": "\"'Hear from me, Satyabhama, renowned one, the conduct, true and exact, that I follow toward the great Pandavas.'\""
+          }
         },
         {
           "n": 18,
-          "text": "अहंकारं विहायाहं कामक्रोधौ च सर्वदा ।\nसदारान्पाण्डवान्नित्यं प्रयतोपचराम्यहम् ॥"
+          "text": "अहंकारं विहायाहं कामक्रोधौ च सर्वदा ।\nसदारान्पाण्डवान्नित्यं प्रयतोपचराम्यहम् ॥",
+          "meaning": {
+            "en": "\"'Giving up pride, and desire and anger, I always serve the Pandavas and their wives with care.'\""
+          }
         },
         {
           "n": 19,
-          "text": "प्रणयं प्रतिसंगृह्य निधायात्मानमात्मनि ।\nशुश्रूषुर्निरभीमाना पतीनां चित्तरक्षिणी ॥"
+          "text": "प्रणयं प्रतिसंगृह्य निधायात्मानमात्मनि ।\nशुश्रूषुर्निरभीमाना पतीनां चित्तरक्षिणी ॥",
+          "meaning": {
+            "en": "\"'Holding back my own fondness, keeping myself within myself, I am eager to serve, without conceit, guarding my husbands' minds.'\""
+          }
         },
         {
           "n": 20,
-          "text": "दुर्व्याहृताच्छङ्कमाना दुःस्थिताद्दुरवेक्षितात् ।\nदुरासिताद्दुर्व्रजितादिङ्गिताध्यासितादपि ॥"
+          "text": "दुर्व्याहृताच्छङ्कमाना दुःस्थिताद्दुरवेक्षितात् ।\nदुरासिताद्दुर्व्रजितादिङ्गिताध्यासितादपि ॥",
+          "meaning": {
+            "en": "\"'I am wary of an ill-spoken word, a bad posture, a bad look, a bad seat, a bad way of walking, and of a gesture or stance.'\""
+          }
         },
         {
           "n": 21,
-          "text": "सूर्यवैश्वानरनिभान्सोमकल्पान्महारथान् ।\nसेवे चक्षुर्हणः पार्थानुग्रतेजःप्रतापिनः ॥"
+          "text": "सूर्यवैश्वानरनिभान्सोमकल्पान्महारथान् ।\nसेवे चक्षुर्हणः पार्थानुग्रतेजःप्रतापिनः ॥",
+          "meaning": {
+            "en": "\"'I attend the Parthas, great chariot-warriors who are like the sun, fire and moon, whose looks can blind, and who are fierce in energy and glory.'\""
+          }
         },
         {
           "n": 22,
-          "text": "देवो मनुष्यो गन्धर्वो युवा चापि स्वलंकृतः ।\nद्रव्यवानभिरूपो वा न मेऽन्यः पुरुषो मतः ॥"
+          "text": "देवो मनुष्यो गन्धर्वो युवा चापि स्वलंकृतः ।\nद्रव्यवानभिरूपो वा न मेऽन्यः पुरुषो मतः ॥",
+          "meaning": {
+            "en": "\"'Whether god, man or gandharva, young, well adorned, wealthy or handsome, I think of no other man.'\""
+          }
         },
         {
           "n": 23,
-          "text": "नाभुक्तवति नास्नाते नासंविष्टे च भर्तरि ।\nन संविशामि नाश्नामि सदा कर्मकरेष्वपि ॥"
+          "text": "नाभुक्तवति नास्नाते नासंविष्टे च भर्तरि ।\nन संविशामि नाश्नामि सदा कर्मकरेष्वपि ॥",
+          "meaning": {
+            "en": "\"'When my husband has not eaten, bathed or sat down, I do not eat, bathe or sit, and the same for the servants.'\""
+          }
         },
         {
           "n": 24,
-          "text": "क्षेत्राद्वनाद्वा ग्रामाद्वा भर्तारं गृहमागतम् ।\nप्रत्युत्थायाभिनन्दामि आसनेनोदकेन च ॥"
+          "text": "क्षेत्राद्वनाद्वा ग्रामाद्वा भर्तारं गृहमागतम् ।\nप्रत्युत्थायाभिनन्दामि आसनेनोदकेन च ॥",
+          "meaning": {
+            "en": "\"'When my husband comes home from the field, forest or village, I rise and welcome him with a seat and water.'\""
+          }
         },
         {
           "n": 25,
-          "text": "प्रमृष्टभाण्डा मृष्टान्ना काले भोजनदायिनी ।\nसंयता गुप्तधान्या च सुसंमृष्टनिवेशना ॥"
+          "text": "प्रमृष्टभाण्डा मृष्टान्ना काले भोजनदायिनी ।\nसंयता गुप्तधान्या च सुसंमृष्टनिवेशना ॥",
+          "meaning": {
+            "en": "\"'I keep the vessels cleaned, the food well prepared, serve meals on time, keep the grain safe and the house well swept.'\""
+          }
         },
         {
           "n": 26,
-          "text": "अतिरस्कृतसंभाषा दुःस्त्रियो नानुसेवती ।\nअनुकूलवती नित्यं भवाम्यनलसा सदा ॥"
+          "text": "अतिरस्कृतसंभाषा दुःस्त्रियो नानुसेवती ।\nअनुकूलवती नित्यं भवाम्यनलसा सदा ॥",
+          "meaning": {
+            "en": "\"'I do not speak slightingly, do not keep company with bad women, am always agreeable and never lazy.'\""
+          }
         },
         {
           "n": 27,
-          "text": "अनर्मे चापि हसनं द्वारि स्थानमभीक्ष्णशः ।\nअवस्करे चिरस्थानं निष्कुटेषु च वर्जये ॥"
+          "text": "अनर्मे चापि हसनं द्वारि स्थानमभीक्ष्णशः ।\nअवस्करे चिरस्थानं निष्कुटेषु च वर्जये ॥",
+          "meaning": {
+            "en": "\"'I avoid laughing without cause, standing often at the door, lingering at the dung heap or in the gardens.'\""
+          }
         },
         {
           "n": 28,
-          "text": "अतिहासातिरोषौ च क्रोधस्थानं च वर्जये ।\nनिरताहं सदा सत्ये भर्तॄणामुपसेवने ।\nसर्वथा भर्तृरहितं न ममेष्टं कथंचन ॥"
+          "text": "अतिहासातिरोषौ च क्रोधस्थानं च वर्जये ।\nनिरताहं सदा सत्ये भर्तॄणामुपसेवने ।\nसर्वथा भर्तृरहितं न ममेष्टं कथंचन ॥",
+          "meaning": {
+            "en": "\"'I avoid excess of laughter and of anger and any place of rage. I am always devoted to truth and to serving my husbands. I never want to be without my husbands in any way.'\""
+          }
         },
         {
           "n": 29,
-          "text": "यदा प्रवसते भर्ता कुटुम्बार्थेन केनचित् ।\nसुमनोवर्णकापेता भवामि व्रतचारिणी ॥"
+          "text": "यदा प्रवसते भर्ता कुटुम्बार्थेन केनचित् ।\nसुमनोवर्णकापेता भवामि व्रतचारिणी ॥",
+          "meaning": {
+            "en": "\"'When my husband goes abroad on some family business, I keep vows, giving up flowers and color.'\""
+          }
         },
         {
           "n": 30,
-          "text": "यच्च भर्ता न पिबति यच्च भर्ता न खादति ।\nयच्च नाश्नाति मे भर्ता सर्वं तद्वर्जयाम्यहम् ॥"
+          "text": "यच्च भर्ता न पिबति यच्च भर्ता न खादति ।\nयच्च नाश्नाति मे भर्ता सर्वं तद्वर्जयाम्यहम् ॥",
+          "meaning": {
+            "en": "\"'Whatever my husband does not drink, eat or take, I give up all that.'\""
+          }
         },
         {
           "n": 31,
-          "text": "यथोपदेशं नियता वर्तमाना वराङ्गने ।\nस्वलंकृता सुप्रयता भर्तुः प्रियहिते रता ॥"
+          "text": "यथोपदेशं नियता वर्तमाना वराङ्गने ।\nस्वलंकृता सुप्रयता भर्तुः प्रियहिते रता ॥",
+          "meaning": {
+            "en": "\"'Well-controlled, I follow instruction, fair one, well adorned and attentive, devoted to what pleases and benefits my husband.'\""
+          }
         },
         {
           "n": 32,
-          "text": "ये च धर्माः कुटुम्बेषु श्वश्र्वा मे कथिताः पुरा ।\nभिक्षाबलिश्राद्धमिति स्थालीपाकाश्च पर्वसु ।\nमान्यानां मानसत्कारा ये चान्ये विदिता मया ॥"
+          "text": "ये च धर्माः कुटुम्बेषु श्वश्र्वा मे कथिताः पुरा ।\nभिक्षाबलिश्राद्धमिति स्थालीपाकाश्च पर्वसु ।\nमान्यानां मानसत्कारा ये चान्ये विदिता मया ॥",
+          "meaning": {
+            "en": "\"'Whatever duties my mother-in-law taught me for the family, such as alms, offerings, ancestral rites, the sacrificial pot cooked on festival days, honoring those who deserve respect, and whatever else I know...'\""
+          }
         },
         {
           "n": 33,
-          "text": "तान्सर्वाननुवर्तामि दिवारात्रमतन्द्रिता ।\nविनयान्नियमांश्चापि सदा सर्वात्मना श्रिता ॥"
+          "text": "तान्सर्वाननुवर्तामि दिवारात्रमतन्द्रिता ।\nविनयान्नियमांश्चापि सदा सर्वात्मना श्रिता ॥",
+          "meaning": {
+            "en": "\"'I follow all of them day and night, without laziness, always relying on modesty and rules with my whole self.'\""
+          }
         },
         {
           "n": 34,
-          "text": "मृदून्सतः सत्यशीलान्सत्यधर्मानुपालिनः ।\nआशीविषानिव क्रुद्धान्पतीन्परिचराम्यहम् ॥"
+          "text": "मृदून्सतः सत्यशीलान्सत्यधर्मानुपालिनः ।\nआशीविषानिव क्रुद्धान्पतीन्परिचराम्यहम् ॥",
+          "meaning": {
+            "en": "\"'I attend my husbands, who are gentle, good, truthful and keepers of truth and dharma, even though they are as dangerous as angry venomous snakes.'\""
+          }
         },
         {
           "n": 35,
-          "text": "पत्याश्रयो हि मे धर्मो मतः स्त्रीणां सनातनः ।\nस देवः सा गतिर्नान्या तस्य का विप्रियं चरेत् ॥"
+          "text": "पत्याश्रयो हि मे धर्मो मतः स्त्रीणां सनातनः ।\nस देवः सा गतिर्नान्या तस्य का विप्रियं चरेत् ॥",
+          "meaning": {
+            "en": "\"'I hold that a woman's eternal dharma rests on the husband. He is her god and her refuge; there is no other. Who would do anything displeasing to him?'\""
+          }
         },
         {
           "n": 36,
-          "text": "अहं पतीन्नातिशये नात्यश्ने नातिभूषये ।\nनापि परिवदे श्वश्रूं सर्वदा परियन्त्रिता ॥"
+          "text": "अहं पतीन्नातिशये नात्यश्ने नातिभूषये ।\nनापि परिवदे श्वश्रूं सर्वदा परियन्त्रिता ॥",
+          "meaning": {
+            "en": "\"'I never outdo my husbands, never overeat, never over-adorn myself, and never speak ill of my mother-in-law, always keeping myself restrained.'\""
+          }
         },
         {
           "n": 37,
-          "text": "अवधानेन सुभगे नित्योत्थानतयैव च ।\nभर्तारो वशगा मह्यं गुरुशुश्रूषणेन च ॥"
+          "text": "अवधानेन सुभगे नित्योत्थानतयैव च ।\nभर्तारो वशगा मह्यं गुरुशुश्रूषणेन च ॥",
+          "meaning": {
+            "en": "\"'By attentiveness, fortunate one, by constant readiness and by serving my elders, my husbands are under my influence.'\""
+          }
         },
         {
           "n": 38,
-          "text": "नित्यमार्यामहं कुन्तीं वीरसूं सत्यवादिनीम् ।\nस्वयं परिचराम्येका स्नानाच्छादनभोजनैः ॥"
+          "text": "नित्यमार्यामहं कुन्तीं वीरसूं सत्यवादिनीम् ।\nस्वयं परिचराम्येका स्नानाच्छादनभोजनैः ॥",
+          "meaning": {
+            "en": "\"'I myself, alone, always attend noble Kunti, mother of heroes and speaker of truth, with bathing, clothing and food.'\""
+          }
         },
         {
           "n": 39,
-          "text": "नैतामतिशये जातु वस्त्रभूषणभोजनैः ।\nनापि परिवदे चाहं तां पृथां पृथिवीसमाम् ॥"
+          "text": "नैतामतिशये जातु वस्त्रभूषणभोजनैः ।\nनापि परिवदे चाहं तां पृथां पृथिवीसमाम् ॥",
+          "meaning": {
+            "en": "\"'I never surpass her in clothes, ornaments or food, and I never find fault with Pritha, who is like the earth.'\""
+          }
         },
         {
           "n": 40,
-          "text": "अष्टावग्रे ब्राह्मणानां सहस्राणि स्म नित्यदा ।\nभुञ्जते रुक्मपात्रीषु युधिष्ठिरनिवेशने ॥"
+          "text": "अष्टावग्रे ब्राह्मणानां सहस्राणि स्म नित्यदा ।\nभुञ्जते रुक्मपात्रीषु युधिष्ठिरनिवेशने ॥",
+          "meaning": {
+            "en": "\"'Every day eight thousand brahmins eat from golden plates in Yudhishthira's house.'\""
+          }
         },
         {
           "n": 41,
-          "text": "अष्टाशीतिसहस्राणि स्नातका गृहमेधिनः ।\nत्रिंशद्दासीक एकैको यान्बिभर्ति युधिष्ठिरः ॥"
+          "text": "अष्टाशीतिसहस्राणि स्नातका गृहमेधिनः ।\nत्रिंशद्दासीक एकैको यान्बिभर्ति युधिष्ठिरः ॥",
+          "meaning": {
+            "en": "\"'Yudhishthira supports eighty-eight thousand householder snatakas, each with thirty maidservants.'\""
+          }
         },
         {
           "n": 42,
-          "text": "दशान्यानि सहस्राणि येषामन्नं सुसंस्कृतम् ।\nह्रियते रुक्मपात्रीभिर्यतीनामूर्ध्वरेतसाम् ॥"
+          "text": "दशान्यानि सहस्राणि येषामन्नं सुसंस्कृतम् ।\nह्रियते रुक्मपात्रीभिर्यतीनामूर्ध्वरेतसाम् ॥",
+          "meaning": {
+            "en": "\"'Another ten thousand, celibate ascetics, have well-prepared food carried to them on golden plates.'\""
+          }
         },
         {
           "n": 43,
-          "text": "तान्सर्वानग्रहारेण ब्राह्मणान्ब्रह्मवादिनः ।\nयथार्हं पूजयामि स्म पानाच्छादनभोजनैः ॥"
+          "text": "तान्सर्वानग्रहारेण ब्राह्मणान्ब्रह्मवादिनः ।\nयथार्हं पूजयामि स्म पानाच्छादनभोजनैः ॥",
+          "meaning": {
+            "en": "\"'All these brahmins, speakers of Vedic truth, I honored as each deserved with land-grants, drink, clothing and food.'\""
+          }
         },
         {
           "n": 44,
-          "text": "शतं दासीसहस्राणि कौन्तेयस्य महात्मनः ।\nकम्बुकेयूरधारिण्यो निष्ककण्ठ्यः स्वलंकृताः ॥"
+          "text": "शतं दासीसहस्राणि कौन्तेयस्य महात्मनः ।\nकम्बुकेयूरधारिण्यो निष्ककण्ठ्यः स्वलंकृताः ॥",
+          "meaning": {
+            "en": "\"'The great-souled son of Kunti had a hundred thousand maidservants, wearing conch bracelets and armlets, with gold necklaces and fine ornaments.'\""
+          }
         },
         {
           "n": 45,
-          "text": "महार्हमाल्याभरणाः सुवर्णाश्चन्दनोक्षिताः ।\nमणीन्हेम च बिभ्रत्यो नृत्यगीतविशारदाः ॥"
+          "text": "महार्हमाल्याभरणाः सुवर्णाश्चन्दनोक्षिताः ।\nमणीन्हेम च बिभ्रत्यो नृत्यगीतविशारदाः ॥",
+          "meaning": {
+            "en": "\"'They wore costly garlands and jewelry, were golden-skinned and anointed with sandal, wearing gems and gold, skilled in dance and song.'\""
+          }
         },
         {
           "n": 46,
-          "text": "तासां नाम च रूपं च भोजनाच्छादनानि च ।\nसर्वासामेव वेदाहं कर्म चैव कृताकृतम् ॥"
+          "text": "तासां नाम च रूपं च भोजनाच्छादनानि च ।\nसर्वासामेव वेदाहं कर्म चैव कृताकृतम् ॥",
+          "meaning": {
+            "en": "\"'I knew the name, appearance, food and clothing of every one of them, and what each had done or left undone.'\""
+          }
         },
         {
           "n": 47,
-          "text": "शतं दासीसहस्राणि कुन्तीपुत्रस्य धीमतः ।\nपात्रीहस्ता दिवारात्रमतिथीन्भोजयन्त्युत ॥"
+          "text": "शतं दासीसहस्राणि कुन्तीपुत्रस्य धीमतः ।\nपात्रीहस्ता दिवारात्रमतिथीन्भोजयन्त्युत ॥",
+          "meaning": {
+            "en": "\"'The wise son of Kunti had a hundred thousand maidservants who, plate in hand, fed the guests day and night.'\""
+          }
         },
         {
           "n": 48,
-          "text": "शतमश्वसहस्राणि दश नागायुतानि च ।\nयुधिष्ठिरस्यानुयात्रमिन्द्रप्रस्थनिवासिनः ॥"
+          "text": "शतमश्वसहस्राणि दश नागायुतानि च ।\nयुधिष्ठिरस्यानुयात्रमिन्द्रप्रस्थनिवासिनः ॥",
+          "meaning": {
+            "en": "\"'Yudhishthira's retinue, living at Indraprastha, had a hundred thousand horses and ten thousand elephants.'\""
+          }
         },
         {
           "n": 49,
-          "text": "एतदासीत्तदा राज्ञो यन्महीं पर्यपालयत् ।\nयेषां संख्याविधिं चैव प्रदिशामि शृणोमि च ॥"
+          "text": "एतदासीत्तदा राज्ञो यन्महीं पर्यपालयत् ।\nयेषां संख्याविधिं चैव प्रदिशामि शृणोमि च ॥",
+          "meaning": {
+            "en": "\"'This was what the king had when he ruled the earth; I assigned and heard the count and arrangement of them.'\""
+          }
         },
         {
           "n": 50,
-          "text": "अन्तःपुराणां सर्वेषां भृत्यानां चैव सर्वशः ।\nआ गोपालाविपालेभ्यः सर्वं वेद कृताकृतम् ॥"
+          "text": "अन्तःपुराणां सर्वेषां भृत्यानां चैव सर्वशः ।\nआ गोपालाविपालेभ्यः सर्वं वेद कृताकृतम् ॥",
+          "meaning": {
+            "en": "\"'Of all the inner apartments and servants, even down to the cowherds and shepherds, I knew what was done and undone.'\""
+          }
         },
         {
           "n": 51,
-          "text": "सर्वं राज्ञः समुदयमायं च व्ययमेव च ।\nएकाहं वेद्मि कल्याणि पाण्डवानां यशस्विनाम् ॥"
+          "text": "सर्वं राज्ञः समुदयमायं च व्ययमेव च ।\nएकाहं वेद्मि कल्याणि पाण्डवानां यशस्विनाम् ॥",
+          "meaning": {
+            "en": "\"'I alone knew, fair one, the whole income and expenditure of the king of the renowned Pandavas.'\""
+          }
         },
         {
           "n": 52,
-          "text": "मयि सर्वं समासज्य कुटुम्बं भरतर्षभाः ।\nउपासनरताः सर्वे घटन्ते स्म शुभानने ॥"
+          "text": "मयि सर्वं समासज्य कुटुम्बं भरतर्षभाः ।\nउपासनरताः सर्वे घटन्ते स्म शुभानने ॥",
+          "meaning": {
+            "en": "\"'Having left the whole household to me, the bulls of the Bharatas were all devoted to attending on others and busy at their tasks, fair-faced one.'\""
+          }
         },
         {
           "n": 53,
-          "text": "तमहं भारमासक्तमनाधृष्यं दुरात्मभिः ।\nसुखं सर्वं परित्यज्य रात्र्यहानि घटामि वै ॥"
+          "text": "तमहं भारमासक्तमनाधृष्यं दुरात्मभिः ।\nसुखं सर्वं परित्यज्य रात्र्यहानि घटामि वै ॥",
+          "meaning": {
+            "en": "\"'I gave up all comfort and worked night and day under that burden, which villains could not touch.'\""
+          }
         },
         {
           "n": 54,
-          "text": "अधृष्यं वरुणस्येव निधिपूर्णमिवोदधिम् ।\nएकाहं वेद्मि कोशं वै पतीनां धर्मचारिणाम् ॥"
+          "text": "अधृष्यं वरुणस्येव निधिपूर्णमिवोदधिम् ।\nएकाहं वेद्मि कोशं वै पतीनां धर्मचारिणाम् ॥",
+          "meaning": {
+            "en": "\"'I alone knew the treasury of my righteous husbands, unassailable as Varuna's, like an ocean full of wealth.'\""
+          }
         },
         {
           "n": 55,
-          "text": "अनिशायां निशायां च सहायाः क्षुत्पिपासयोः ।\nआराधयन्त्याः कौरव्यांस्तुल्या रात्रिरहश्च मे ॥"
+          "text": "अनिशायां निशायां च सहायाः क्षुत्पिपासयोः ।\nआराधयन्त्याः कौरव्यांस्तुल्या रात्रिरहश्च मे ॥",
+          "meaning": {
+            "en": "\"'Night or day, bearing hunger and thirst, serving the Kauravas, night and day were the same to me.'\""
+          }
         },
         {
           "n": 56,
-          "text": "प्रथमं प्रतिबुध्यामि चरमं संविशामि च ।\nनित्यकालमहं सत्ये एतत्संवननं मम ॥"
+          "text": "प्रथमं प्रतिबुध्यामि चरमं संविशामि च ।\nनित्यकालमहं सत्ये एतत्संवननं मम ॥",
+          "meaning": {
+            "en": "\"'I woke first and slept last. Always, in truth, this has been my charm to win them.'\""
+          }
         },
         {
           "n": 57,
-          "text": "एतज्जानाम्यहं कर्तुं भर्तृसंवननं महत् ।\nअसत्स्त्रीणां समाचारं नाहं कुर्यां न कामये ॥"
+          "text": "एतज्जानाम्यहं कर्तुं भर्तृसंवननं महत् ।\nअसत्स्त्रीणां समाचारं नाहं कुर्यां न कामये ॥",
+          "meaning": {
+            "en": "\"'This is the great way of winning husbands that I know. I do not and would not follow the ways of bad women.'\""
+          }
         },
         {
           "n": 58,
-          "text": "तच्छ्रुत्वा धर्मसहितं व्याहृतं कृष्णया तदा ।\nउवाच सत्या सत्कृत्य पाञ्चालीं धर्मचारिणीम् ॥"
+          "text": "तच्छ्रुत्वा धर्मसहितं व्याहृतं कृष्णया तदा ।\nउवाच सत्या सत्कृत्य पाञ्चालीं धर्मचारिणीम् ॥",
+          "meaning": {
+            "en": "\"Hearing Krishna speak words so full of dharma, Satyabhama honored the dharma-following Panchali and said...\""
+          }
         },
         {
           "n": 59,
-          "text": "अभिपन्नास्मि पाञ्चालि याज्ञसेनि क्षमस्व मे ।\nकामकारः सखीनां हि सोपहासं प्रभाषितुम् ॥"
+          "text": "अभिपन्नास्मि पाञ्चालि याज्ञसेनि क्षमस्व मे ।\nकामकारः सखीनां हि सोपहासं प्रभाषितुम् ॥",
+          "meaning": {
+            "en": "\"'I have wronged you, Panchali, daughter of Yajnasena; forgive me. Friends do speak freely, even in jest.'\""
+          }
         }
       ]
     }

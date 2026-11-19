@@ -22,79 +22,136 @@
       "titleEn": "Tirthayatra Parva (The pilgrimage)",
       "verses": [
         {
-          "text": "ऋश्यशृङ्ग उवाच"
+          "text": "ऋश्यशृङ्ग उवाच",
+          "meaning": {
+            "en": "Rishyashringa said:"
+          }
         },
         {
           "n": 1,
-          "text": "इहागतो जटिलो ब्रह्मचारी\nन वै ह्रस्वो नातिदीर्घो मनस्वी ।\nसुवर्णवर्णः कमलायताक्षः\nसुतः सुराणामिव शोभमानः ॥"
+          "text": "इहागतो जटिलो ब्रह्मचारी\nन वै ह्रस्वो नातिदीर्घो मनस्वी ।\nसुवर्णवर्णः कमलायताक्षः\nसुतः सुराणामिव शोभमानः ॥",
+          "meaning": {
+            "en": "A brahmin student with matted hair came here, neither short nor very tall, a thoughtful youth, golden in colour, lotus-eyed, shining like a son of the gods."
+          }
         },
         {
           "n": 2,
-          "text": "समृद्धरूपः सवितेव दीप्तः\nसुशुक्लकृष्णाक्षतरश्चकोरैः ।\nनीलाः प्रसन्नाश्च जटाः सुगन्धा\nहिरण्यरज्जुग्रथिताः सुदीर्घाः ॥"
+          "text": "समृद्धरूपः सवितेव दीप्तः\nसुशुक्लकृष्णाक्षतरश्चकोरैः ।\nनीलाः प्रसन्नाश्च जटाः सुगन्धा\nहिरण्यरज्जुग्रथिताः सुदीर्घाः ॥",
+          "meaning": {
+            "en": "Handsome, radiant as the sun, with eyes whose white and dark are sharper than a chakora's, with dark, clear, fragrant locks, very long and bound with golden cord."
+          }
         },
         {
           "n": 3,
-          "text": "आधाररूपा पुनरस्य कण्ठे\nविभ्राजते विद्युदिवान्तरिक्षे ।\nद्वौ चास्य पिण्डावधरेण कण्ठ-\nमजातरोमौ सुमनोहरौ च ॥"
+          "text": "आधाररूपा पुनरस्य कण्ठे\nविभ्राजते विद्युदिवान्तरिक्षे ।\nद्वौ चास्य पिण्डावधरेण कण्ठ-\nमजातरोमौ सुमनोहरौ च ॥",
+          "meaning": {
+            "en": "On his neck a circlet shines like lightning in the sky, and below his neck are two lovely, hairless lumps."
+          }
         },
         {
           "n": 4,
-          "text": "विलग्नमध्यश्च स नाभिदेशे\nकटिश्च तस्यातिकृतप्रमाणा ।\nतथास्य चीरान्तरिता प्रभाति\nहिरण्मयी मेखला मे यथेयम् ॥"
+          "text": "विलग्नमध्यश्च स नाभिदेशे\nकटिश्च तस्यातिकृतप्रमाणा ।\nतथास्य चीरान्तरिता प्रभाति\nहिरण्मयी मेखला मे यथेयम् ॥",
+          "meaning": {
+            "en": "His waist is slender, his hips very broad, and under his garment shines a golden girdle like this one of mine."
+          }
         },
         {
           "n": 5,
-          "text": "अन्यच्च तस्याद्भुतदर्शनीयं\nविकूजितं पादयोः संप्रभाति ।\nपाण्योश्च तद्वत्स्वनवन्निबद्धौ\nकलापकावक्षमाला यथेयम् ॥"
+          "text": "अन्यच्च तस्याद्भुतदर्शनीयं\nविकूजितं पादयोः संप्रभाति ।\nपाण्योश्च तद्वत्स्वनवन्निबद्धौ\nकलापकावक्षमाला यथेयम् ॥",
+          "meaning": {
+            "en": "Another wonderful thing is the sound at his feet, and in his hands bound clusters ring like this string of beads."
+          }
         },
         {
           "n": 6,
-          "text": "विचेष्टमानस्य च तस्य तानि\nकूजन्ति हंसा सरसीव मत्ताः ।\nचीराणि तस्याद्भुतदर्शनानि\nनेमानि तद्वन्मम रूपवन्ति ॥"
+          "text": "विचेष्टमानस्य च तस्य तानि\nकूजन्ति हंसा सरसीव मत्ताः ।\nचीराणि तस्याद्भुतदर्शनानि\nनेमानि तद्वन्मम रूपवन्ति ॥",
+          "meaning": {
+            "en": "As he moves they ring like intoxicated swans on a lake. His garments are wonderful to see, not like these of mine."
+          }
         },
         {
           "n": 7,
-          "text": "वक्त्रं च तस्याद्भुतदर्शनीयं\nप्रव्याहृतं ह्लादयतीव चेतः ।\nपुंस्कोकिलस्येव च तस्य वाणी\nतां शृण्वतो मे व्यथितोऽन्तरात्मा ॥"
+          "text": "वक्त्रं च तस्याद्भुतदर्शनीयं\nप्रव्याहृतं ह्लादयतीव चेतः ।\nपुंस्कोकिलस्येव च तस्य वाणी\nतां शृण्वतो मे व्यथितोऽन्तरात्मा ॥",
+          "meaning": {
+            "en": "His face is wonderful to see and his speech, like a male cuckoo's, seems to delight the mind, and my heart ached as I listened."
+          }
         },
         {
           "n": 8,
-          "text": "यथा वनं माधवमासि मध्ये\nसमीरितं श्वसनेनाभिवाति ।\nतथा स वात्युत्तमपुण्यगन्धी\nनिषेव्यमाणः पवनेन तात ॥"
+          "text": "यथा वनं माधवमासि मध्ये\nसमीरितं श्वसनेनाभिवाति ।\nतथा स वात्युत्तमपुण्यगन्धी\nनिषेव्यमाणः पवनेन तात ॥",
+          "meaning": {
+            "en": "As the forest in the month of spring breathes sweetly in the breeze, so he breathes the finest holy scent, dear father, as the wind serves him."
+          }
         },
         {
           "n": 9,
-          "text": "सुसंयताश्चापि जटा विभक्ता\nद्वैधीकृता भान्ति समा ललाटे ।\nकर्णौ च चित्रैरिव चक्रवालैः\nसमावृतौ तस्य सुरूपवद्भिः ॥"
+          "text": "सुसंयताश्चापि जटा विभक्ता\nद्वैधीकृता भान्ति समा ललाटे ।\nकर्णौ च चित्रैरिव चक्रवालैः\nसमावृतौ तस्य सुरूपवद्भिः ॥",
+          "meaning": {
+            "en": "His well-bound hair is parted in two, even on his forehead, and his ears are encircled by lovely wheel-like ornaments."
+          }
         },
         {
           "n": 10,
-          "text": "तथा फलं वृत्तमथो विचित्रं\nसमाहनत्पाणिना दक्षिणेन ।\nतद्भूमिमासाद्य पुनः पुनश्च\nसमुत्पतत्यद्भुतरूपमुच्चैः ॥"
+          "text": "तथा फलं वृत्तमथो विचित्रं\nसमाहनत्पाणिना दक्षिणेन ।\nतद्भूमिमासाद्य पुनः पुनश्च\nसमुत्पतत्यद्भुतरूपमुच्चैः ॥",
+          "meaning": {
+            "en": "He struck a round, many-coloured fruit with his right hand; touching the ground it bounded up wonderfully high again and again."
+          }
         },
         {
           "n": 11,
-          "text": "तच्चापि हत्वा परिवर्ततेऽसौ\nवातेरितो वृक्ष इवावघूर्णः ।\nतं प्रेक्ष्य मे पुत्रमिवामराणां\nप्रीतिः परा तात रतिश्च जाता ॥"
+          "text": "तच्चापि हत्वा परिवर्ततेऽसौ\nवातेरितो वृक्ष इवावघूर्णः ।\nतं प्रेक्ष्य मे पुत्रमिवामराणां\nप्रीतिः परा तात रतिश्च जाता ॥",
+          "meaning": {
+            "en": "Striking it he spins, swaying like a tree in the wind. Seeing him, father, I felt great joy and delight, as if for a son of the gods."
+          }
         },
         {
           "n": 12,
-          "text": "स मे समाश्लिष्य पुनः शरीरं\nजटासु गृह्याभ्यवनाम्य वक्त्रम् ।\nवक्त्रेण वक्त्रं प्रणिधाय शब्दं\nचकार तन्मेऽजनयत्प्रहर्षम् ॥"
+          "text": "स मे समाश्लिष्य पुनः शरीरं\nजटासु गृह्याभ्यवनाम्य वक्त्रम् ।\nवक्त्रेण वक्त्रं प्रणिधाय शब्दं\nचकार तन्मेऽजनयत्प्रहर्षम् ॥",
+          "meaning": {
+            "en": "He embraced my body again and again, pulled my matted hair, bent my face, set mouth to mouth and made a sound that gave me great delight."
+          }
         },
         {
           "n": 13,
-          "text": "न चापि पाद्यं बहु मन्यतेऽसौ\nफलानि चेमानि मयाहृतानि ।\nएवंव्रतोऽस्मीति च मामवोच-\nत्फलानि चान्यानि नवान्यदान्मे ॥"
+          "text": "न चापि पाद्यं बहु मन्यतेऽसौ\nफलानि चेमानि मयाहृतानि ।\nएवंव्रतोऽस्मीति च मामवोच-\nत्फलानि चान्यानि नवान्यदान्मे ॥",
+          "meaning": {
+            "en": "He does not value my foot-water, nor these fruits I brought; he told me, \"This is my vow,\" and gave me other, new fruits."
+          }
         },
         {
           "n": 14,
-          "text": "मयोपयुक्तानि फलानि तानि\nनेमानि तुल्यानि रसेन तेषाम् ।\nन चापि तेषां त्वगियं यथैषां\nसाराणि नैषामिव सन्ति तेषाम् ॥"
+          "text": "मयोपयुक्तानि फलानि तानि\nनेमानि तुल्यानि रसेन तेषाम् ।\nन चापि तेषां त्वगियं यथैषां\nसाराणि नैषामिव सन्ति तेषाम् ॥",
+          "meaning": {
+            "en": "I tried those fruits; these are not like them in flavour. They do not have a skin like these, nor pith like these."
+          }
         },
         {
           "n": 15,
-          "text": "तोयानि चैवातिरसानि मह्यं\nप्रादात्स वै पातुमुदाररूपः ।\nपीत्वैव यान्यभ्यधिकः प्रहर्षो\nममाभवद्भूश्चलितेव चासीत् ॥"
+          "text": "तोयानि चैवातिरसानि मह्यं\nप्रादात्स वै पातुमुदाररूपः ।\nपीत्वैव यान्यभ्यधिकः प्रहर्षो\nममाभवद्भूश्चलितेव चासीत् ॥",
+          "meaning": {
+            "en": "He gave me very sweet water to drink, that noble one, and as soon as I drank it I felt a great joy and the earth seemed to shake."
+          }
         },
         {
           "n": 16,
-          "text": "इमानि चित्राणि च गन्धवन्ति\nमाल्यानि तस्योद्ग्रथितानि पट्टैः ।\nयानि प्रकीर्येह गतः स्वमेव\nस आश्रमं तपसा द्योतमानः ॥"
+          "text": "इमानि चित्राणि च गन्धवन्ति\nमाल्यानि तस्योद्ग्रथितानि पट्टैः ।\nयानि प्रकीर्येह गतः स्वमेव\nस आश्रमं तपसा द्योतमानः ॥",
+          "meaning": {
+            "en": "And these colourful, fragrant garlands, strung with silk, he scattered here and went off to his own hermitage, glowing with austerity."
+          }
         },
         {
           "n": 17,
-          "text": "गतेन तेनास्मि कृतो विचेता\nगात्रं च मे संपरितप्यतीव ।\nइच्छामि तस्यान्तिकमाशु गन्तुं\nतं चेह नित्यं परिवर्तमानम् ॥"
+          "text": "गतेन तेनास्मि कृतो विचेता\nगात्रं च मे संपरितप्यतीव ।\nइच्छामि तस्यान्तिकमाशु गन्तुं\nतं चेह नित्यं परिवर्तमानम् ॥",
+          "meaning": {
+            "en": "Since he left, he has made me senseless and my body seems to burn. I want to go to him quickly, and to find him here always coming and going."
+          }
         },
         {
           "n": 18,
-          "text": "गच्छामि तस्यान्तिकमेव तात\nका नाम सा व्रतचर्या च तस्य ।\nइच्छाम्यहं चरितुं तेन सार्धं\nयथा तपः स चरत्युग्रकर्मा ॥"
+          "text": "गच्छामि तस्यान्तिकमेव तात\nका नाम सा व्रतचर्या च तस्य ।\nइच्छाम्यहं चरितुं तेन सार्धं\nयथा तपः स चरत्युग्रकर्मा ॥",
+          "meaning": {
+            "en": "Father, I will go to him. What is that vow of his? I want to practise it with him, as that man of fierce deeds practises austerity."
+          }
         }
       ]
     }

@@ -22,91 +22,157 @@
       "titleEn": "Vaivahika Parva (The wedding)",
       "verses": [
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 1,
-          "text": "ततस्तृतीये दिवसे भ्रातरः पञ्च पाण्डवाः ।\nस्नाताः शुक्लाम्बरधराः समये चरितव्रताः ॥"
+          "text": "ततस्तृतीये दिवसे भ्रातरः पञ्च पाण्डवाः ।\nस्नाताः शुक्लाम्बरधराः समये चरितव्रताः ॥",
+          "meaning": {
+            "en": "On the third day the five Pandava brothers, bathed and dressed in white, their vow duly completed, came forward."
+          }
         },
         {
           "n": 2,
-          "text": "युधिष्ठिरं पुरस्कृत्य सर्वाभरणभूषिताः ।\nअभिपद्मा यथा नागा भ्राजमाना महारथाः ॥"
+          "text": "युधिष्ठिरं पुरस्कृत्य सर्वाभरणभूषिताः ।\nअभिपद्मा यथा नागा भ्राजमाना महारथाः ॥",
+          "meaning": {
+            "en": "With Yudhishthira at their head, adorned with every ornament, those great chariot-warriors shone like elephants among lotuses."
+          }
         },
         {
           "n": 3,
-          "text": "विराटस्य सभां गत्वा भूमिपालासनेष्वथ ।\nनिषेदुः पावकप्रख्याः सर्वे धिष्ण्येष्विवाग्नयः ॥"
+          "text": "विराटस्य सभां गत्वा भूमिपालासनेष्वथ ।\nनिषेदुः पावकप्रख्याः सर्वे धिष्ण्येष्विवाग्नयः ॥",
+          "meaning": {
+            "en": "They went to Virata's assembly hall and sat on the seats of kings, all blazing like fire-altars with their fires."
+          }
         },
         {
           "n": 4,
-          "text": "तेषु तत्रोपविष्टेषु विराटः पृथिवीपतिः ।\nआजगाम सभां कर्तुं राजकार्याणि सर्वशः ॥"
+          "text": "तेषु तत्रोपविष्टेषु विराटः पृथिवीपतिः ।\nआजगाम सभां कर्तुं राजकार्याणि सर्वशः ॥",
+          "meaning": {
+            "en": "When they were seated, King Virata came to the hall to attend to all the affairs of state."
+          }
         },
         {
           "n": 5,
-          "text": "श्रीमतः पाण्डवान्दृष्ट्वा ज्वलतः पावकानिव ।\nअथ मत्स्योऽब्रवीत्कङ्कं देवरूपमवस्थितम् ।\nमरुद्गणैरुपासीनं त्रिदशानामिवेश्वरम् ॥"
+          "text": "श्रीमतः पाण्डवान्दृष्ट्वा ज्वलतः पावकानिव ।\nअथ मत्स्योऽब्रवीत्कङ्कं देवरूपमवस्थितम् ।\nमरुद्गणैरुपासीनं त्रिदशानामिवेश्वरम् ॥",
+          "meaning": {
+            "en": "Seeing the radiant Pandavas like blazing fires, the Matsya king spoke to Kanka, who sat looking like a god, attended like the lord of the gods by the Maruts."
+          }
         },
         {
           "n": 6,
-          "text": "स किलाक्षातिवापस्त्वं सभास्तारो मया कृतः ।\nअथ राजासने कस्मादुपविष्टोऽस्यलंकृतः ॥"
+          "text": "स किलाक्षातिवापस्त्वं सभास्तारो मया कृतः ।\nअथ राजासने कस्मादुपविष्टोऽस्यलंकृतः ॥",
+          "meaning": {
+            "en": "\"I made you my companion at dice and keeper of the hall. Why then are you sitting, adorned, on a royal seat?\""
+          }
         },
         {
           "n": 7,
-          "text": "परिहासेप्सया वाक्यं विराटस्य निशम्य तत् ।\nस्मयमानोऽर्जुनो राजन्निदं वचनमब्रवीत् ॥"
+          "text": "परिहासेप्सया वाक्यं विराटस्य निशम्य तत् ।\nस्मयमानोऽर्जुनो राजन्निदं वचनमब्रवीत् ॥",
+          "meaning": {
+            "en": "Hearing Virata's words, spoken in jest, Arjuna smiled and said this, O king."
+          }
         },
         {
           "n": 8,
-          "text": "इन्द्रस्याप्यासनं राजन्नयमारोढुमर्हति ।\nब्रह्मण्यः श्रुतवांस्त्यागी यज्ञशीलो दृढव्रतः ॥"
+          "text": "इन्द्रस्याप्यासनं राजन्नयमारोढुमर्हति ।\nब्रह्मण्यः श्रुतवांस्त्यागी यज्ञशीलो दृढव्रतः ॥",
+          "meaning": {
+            "en": "\"This man is fit to sit even on Indra's seat, O king: devoted to brahmins, learned, generous, a lover of sacrifice, firm in his vows.\""
+          }
         },
         {
           "n": 9,
-          "text": "अयं कुरूणामृषभः कुन्तीपुत्रो युधिष्ठिरः ।\nअस्य कीर्तिः स्थिता लोके सूर्यस्येवोद्यतः प्रभा ॥"
+          "text": "अयं कुरूणामृषभः कुन्तीपुत्रो युधिष्ठिरः ।\nअस्य कीर्तिः स्थिता लोके सूर्यस्येवोद्यतः प्रभा ॥",
+          "meaning": {
+            "en": "\"This is Yudhishthira, son of Kunti, the bull of the Kurus, whose fame stands in the world like the light of the risen sun.\""
+          }
         },
         {
           "n": 10,
-          "text": "संसरन्ति दिशः सर्वा यशसोऽस्य गभस्तयः ।\nउदितस्येव सूर्यस्य तेजसोऽनु गभस्तयः ॥"
+          "text": "संसरन्ति दिशः सर्वा यशसोऽस्य गभस्तयः ।\nउदितस्येव सूर्यस्य तेजसोऽनु गभस्तयः ॥",
+          "meaning": {
+            "en": "\"The rays of his glory spread through all the directions, as the rays follow the splendor of the risen sun.\""
+          }
         },
         {
           "n": 11,
-          "text": "एनं दश सहस्राणि कुञ्जराणां तरस्विनाम् ।\nअन्वयुः पृष्ठतो राजन्यावदध्यावसत्कुरून् ॥"
+          "text": "एनं दश सहस्राणि कुञ्जराणां तरस्विनाम् ।\nअन्वयुः पृष्ठतो राजन्यावदध्यावसत्कुरून् ॥",
+          "meaning": {
+            "en": "\"When he ruled the Kurus, ten thousand mighty elephants followed behind him, O king.\""
+          }
         },
         {
           "n": 12,
-          "text": "त्रिंशदेनं सहस्राणि रथाः काञ्चनमालिनः ।\nसदश्वैरुपसंपन्नाः पृष्ठतोऽनुययुः सदा ॥"
+          "text": "त्रिंशदेनं सहस्राणि रथाः काञ्चनमालिनः ।\nसदश्वैरुपसंपन्नाः पृष्ठतोऽनुययुः सदा ॥",
+          "meaning": {
+            "en": "\"Thirty thousand chariots, garlanded with gold and drawn by fine horses, always followed him.\""
+          }
         },
         {
           "n": 13,
-          "text": "एनमष्टशताः सूताः सुमृष्टमणिकुण्डलाः ।\nअस्तुवन्मागधैः सार्धं पुरा शक्रमिवर्षयः ॥"
+          "text": "एनमष्टशताः सूताः सुमृष्टमणिकुण्डलाः ।\nअस्तुवन्मागधैः सार्धं पुरा शक्रमिवर्षयः ॥",
+          "meaning": {
+            "en": "\"Eight hundred bards with polished jeweled earrings, with the magadhas, praised him as the sages once praised Indra.\""
+          }
         },
         {
           "n": 14,
-          "text": "एनं नित्यमुपासन्त कुरवः किंकरा यथा ।\nसर्वे च राजन्राजानो धनेश्वरमिवामराः ॥"
+          "text": "एनं नित्यमुपासन्त कुरवः किंकरा यथा ।\nसर्वे च राजन्राजानो धनेश्वरमिवामराः ॥",
+          "meaning": {
+            "en": "\"The Kurus always served him like servants, and all kings, like gods serving the lord of wealth.\""
+          }
         },
         {
           "n": 15,
-          "text": "एष सर्वान्महीपालान्करमाहारयत्तदा ।\nवैश्यानिव महाराज विवशान्स्ववशानपि ॥"
+          "text": "एष सर्वान्महीपालान्करमाहारयत्तदा ।\nवैश्यानिव महाराज विवशान्स्ववशानपि ॥",
+          "meaning": {
+            "en": "\"He then made all the kings pay tribute, O great king, like vaishyas, whether they were unwilling or willing.\""
+          }
         },
         {
           "n": 16,
-          "text": "अष्टाशीतिसहस्राणि स्नातकानां महात्मनाम् ।\nउपजीवन्ति राजानमेनं सुचरितव्रतम् ॥"
+          "text": "अष्टाशीतिसहस्राणि स्नातकानां महात्मनाम् ।\nउपजीवन्ति राजानमेनं सुचरितव्रतम् ॥",
+          "meaning": {
+            "en": "\"Eighty-eight thousand great-souled snatakas lived on this king of well-kept vows.\""
+          }
         },
         {
           "n": 17,
-          "text": "एष वृद्धाननाथांश्च व्यङ्गान्पङ्गूंश्च मानवान् ।\nपुत्रवत्पालयामास प्रजा धर्मेण चाभिभो ॥"
+          "text": "एष वृद्धाननाथांश्च व्यङ्गान्पङ्गूंश्च मानवान् ।\nपुत्रवत्पालयामास प्रजा धर्मेण चाभिभो ॥",
+          "meaning": {
+            "en": "\"This lord protected the aged, the helpless, the crippled and the lame as a father protects his sons, ruling his people by dharma.\""
+          }
         },
         {
           "n": 18,
-          "text": "एष धर्मे दमे चैव क्रोधे चापि यतव्रतः ।\nमहाप्रसादो ब्रह्मण्यः सत्यवादी च पार्थिवः ॥"
+          "text": "एष धर्मे दमे चैव क्रोधे चापि यतव्रतः ।\nमहाप्रसादो ब्रह्मण्यः सत्यवादी च पार्थिवः ॥",
+          "meaning": {
+            "en": "\"This king keeps firm vows of dharma, self-control and anger; he is greatly gracious, devoted to brahmins and truthful.\""
+          }
         },
         {
           "n": 19,
-          "text": "श्रीप्रतापेन चैतस्य तप्यते स सुयोधनः ।\nसगणः सह कर्णेन सौबलेनापि वा विभुः ॥"
+          "text": "श्रीप्रतापेन चैतस्य तप्यते स सुयोधनः ।\nसगणः सह कर्णेन सौबलेनापि वा विभुः ॥",
+          "meaning": {
+            "en": "\"Duryodhana burns at his glory and power, with his followers, Karna and Shakuni too.\""
+          }
         },
         {
           "n": 20,
-          "text": "न शक्यन्ते ह्यस्य गुणाः प्रसंख्यातुं नरेश्वर ।\nएष धर्मपरो नित्यमानृशंस्यश्च पाण्डवः ॥"
+          "text": "न शक्यन्ते ह्यस्य गुणाः प्रसंख्यातुं नरेश्वर ।\nएष धर्मपरो नित्यमानृशंस्यश्च पाण्डवः ॥",
+          "meaning": {
+            "en": "\"His virtues cannot be counted, lord of men. This Pandava is ever devoted to dharma and free from cruelty.\""
+          }
         },
         {
           "n": 21,
-          "text": "एवंयुक्तो महाराजः पाण्डवः पार्थिवर्षभः ।\nकथं नार्हति राजार्हमासनं पृथिवीपतिः ॥"
+          "text": "एवंयुक्तो महाराजः पाण्डवः पार्थिवर्षभः ।\nकथं नार्हति राजार्हमासनं पृथिवीपतिः ॥",
+          "meaning": {
+            "en": "\"So endowed, how should this great king, bull among kings and lord of the earth, not deserve a royal seat?\""
+          }
         }
       ]
     }

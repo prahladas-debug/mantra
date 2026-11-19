@@ -22,111 +22,192 @@
       "titleEn": "Gograhana Parva (The cattle raid)",
       "verses": [
         {
-          "text": "अश्वत्थामोवाच"
+          "text": "अश्वत्थामोवाच",
+          "meaning": {
+            "en": "Ashvatthaman said:"
+          }
         },
         {
           "n": 1,
-          "text": "न च तावज्जिता गावो न च सीमान्तरं गताः ।\nन हास्तिनपुरं प्राप्तास्त्वं च कर्ण विकत्थसे ॥"
+          "text": "न च तावज्जिता गावो न च सीमान्तरं गताः ।\nन हास्तिनपुरं प्राप्तास्त्वं च कर्ण विकत्थसे ॥",
+          "meaning": {
+            "en": "The cattle have not yet been won, nor have they crossed the border, nor reached Hastinapura, and yet you boast, Karna."
+          }
         },
         {
           "n": 2,
-          "text": "संग्रामान्सुबहूञ्जित्वा लब्ध्वा च विपुलं धनम् ।\nविजित्य च परां भूमिं नाहुः किंचन पौरुषम् ॥"
+          "text": "संग्रामान्सुबहूञ्जित्वा लब्ध्वा च विपुलं धनम् ।\nविजित्य च परां भूमिं नाहुः किंचन पौरुषम् ॥",
+          "meaning": {
+            "en": "Those who have won many battles, gained great wealth and conquered rich lands do not call it any great manliness."
+          }
         },
         {
           "n": 3,
-          "text": "पचत्यग्निरवाक्यस्तु तूष्णीं भाति दिवाकरः ।\nतूष्णीं धारयते लोकान्वसुधा सचराचरान् ॥"
+          "text": "पचत्यग्निरवाक्यस्तु तूष्णीं भाति दिवाकरः ।\nतूष्णीं धारयते लोकान्वसुधा सचराचरान् ॥",
+          "meaning": {
+            "en": "Fire cooks without speaking; the sun shines in silence; the earth bears all the worlds, moving and still, in silence."
+          }
         },
         {
           "n": 4,
-          "text": "चातुर्वर्ण्यस्य कर्माणि विहितानि मनीषिभिः ।\nधनं यैरधिगन्तव्यं यच्च कुर्वन्न दुष्यति ॥"
+          "text": "चातुर्वर्ण्यस्य कर्माणि विहितानि मनीषिभिः ।\nधनं यैरधिगन्तव्यं यच्च कुर्वन्न दुष्यति ॥",
+          "meaning": {
+            "en": "The wise have laid down the duties of the four classes, by which one gets wealth and does no wrong in doing so."
+          }
         },
         {
           "n": 5,
-          "text": "अधीत्य ब्राह्मणो वेदान्याजयेत यजेत च ।\nक्षत्रियो धनुराश्रित्य यजेतैव न याजयेत् ।\nवैश्योऽधिगम्य द्रव्याणि ब्रह्मकर्माणि कारयेत् ॥"
+          "text": "अधीत्य ब्राह्मणो वेदान्याजयेत यजेत च ।\nक्षत्रियो धनुराश्रित्य यजेतैव न याजयेत् ।\nवैश्योऽधिगम्य द्रव्याणि ब्रह्मकर्माणि कारयेत् ॥",
+          "meaning": {
+            "en": "A Brahmin should study the Vedas and officiate at sacrifices and perform them; a Kshatriya, relying on the bow, should only sacrifice, not officiate; a Vaishya, having got wealth, should have holy rites performed."
+          }
         },
         {
           "n": 6,
-          "text": "वर्तमाना यथाशास्त्रं प्राप्य चापि महीमिमाम् ।\nसत्कुर्वन्ति महाभागा गुरून्सुविगुणानपि ॥"
+          "text": "वर्तमाना यथाशास्त्रं प्राप्य चापि महीमिमाम् ।\nसत्कुर्वन्ति महाभागा गुरून्सुविगुणानपि ॥",
+          "meaning": {
+            "en": "Those of great fortune who live by the scriptures, even after winning this earth, honor their elders, even those without virtues."
+          }
         },
         {
           "n": 7,
-          "text": "प्राप्य द्यूतेन को राज्यं क्षत्रियस्तोष्टुमर्हति ।\nतथा नृशंसरूपेण यथान्यः प्राकृतो जनः ॥"
+          "text": "प्राप्य द्यूतेन को राज्यं क्षत्रियस्तोष्टुमर्हति ।\nतथा नृशंसरूपेण यथान्यः प्राकृतो जनः ॥",
+          "meaning": {
+            "en": "What Kshatriya who has gained a kingdom by dice should be proud, acting as cruelly as any common man?"
+          }
         },
         {
           "n": 8,
-          "text": "तथावाप्तेषु वित्तेषु को विकत्थेद्विचक्षणः ।\nनिकृत्या वञ्चनायोगैश्चरन्वैतंसिको यथा ॥"
+          "text": "तथावाप्तेषु वित्तेषु को विकत्थेद्विचक्षणः ।\nनिकृत्या वञ्चनायोगैश्चरन्वैतंसिको यथा ॥",
+          "meaning": {
+            "en": "What wise man would boast of wealth so gained, by cheating and deceit like a bird-catcher?"
+          }
         },
         {
           "n": 9,
-          "text": "कतमद्द्वैरथं युद्धं यत्राजैषीर्धनंजयम् ।\nनकुलं सहदेवं च धनं येषां त्वया हृतम् ॥"
+          "text": "कतमद्द्वैरथं युद्धं यत्राजैषीर्धनंजयम् ।\nनकुलं सहदेवं च धनं येषां त्वया हृतम् ॥",
+          "meaning": {
+            "en": "In what duel did you defeat Dhananjaya, or Nakula or Sahadeva, whose wealth you took?"
+          }
         },
         {
           "n": 10,
-          "text": "युधिष्ठिरो जितः कस्मिन्भीमश्च बलिनां वरः ।\nइन्द्रप्रस्थं त्वया कस्मिन्संग्रामे निर्जितं पुरा ॥"
+          "text": "युधिष्ठिरो जितः कस्मिन्भीमश्च बलिनां वरः ।\nइन्द्रप्रस्थं त्वया कस्मिन्संग्रामे निर्जितं पुरा ॥",
+          "meaning": {
+            "en": "In what battle was Yudhishthira beaten, or Bhima, best of the strong? In what war did you ever conquer Indraprastha?"
+          }
         },
         {
           "n": 11,
-          "text": "तथैव कतमं युद्धं यस्मिन्कृष्णा जिता त्वया ।\nएकवस्त्रा सभां नीता दुष्टकर्मन्रजस्वला ॥"
+          "text": "तथैव कतमं युद्धं यस्मिन्कृष्णा जिता त्वया ।\nएकवस्त्रा सभां नीता दुष्टकर्मन्रजस्वला ॥",
+          "meaning": {
+            "en": "In what battle did you win Krishna, whom you, evildoer, took to the assembly in one garment while she was in her season?"
+          }
         },
         {
           "n": 12,
-          "text": "मूलमेषां महत्कृत्तं सारार्थी चन्दनं यथा ।\nकर्म कारयिथाः शूर तत्र किं विदुरोऽब्रवीत् ॥"
+          "text": "मूलमेषां महत्कृत्तं सारार्थी चन्दनं यथा ।\nकर्म कारयिथाः शूर तत्र किं विदुरोऽब्रवीत् ॥",
+          "meaning": {
+            "en": "Hero, you got them to do a deed that cut their great root, as a man who wants sandalwood cuts it; what did Vidura say then?"
+          }
         },
         {
           "n": 13,
-          "text": "यथाशक्ति मनुष्याणां शममालक्षयामहे ।\nअन्येषां चैव सत्त्वानामपि कीटपिपीलिके ॥"
+          "text": "यथाशक्ति मनुष्याणां शममालक्षयामहे ।\nअन्येषां चैव सत्त्वानामपि कीटपिपीलिके ॥",
+          "meaning": {
+            "en": "We see forbearance in men according to their strength, and in other creatures too, even in worms and ants."
+          }
         },
         {
           "n": 14,
-          "text": "द्रौपद्यास्तं परिक्लेशं न क्षन्तुं पाण्डवोऽर्हति ।\nदुःखाय धार्तराष्ट्राणां प्रादुर्भूतो धनंजयः ॥"
+          "text": "द्रौपद्यास्तं परिक्लेशं न क्षन्तुं पाण्डवोऽर्हति ।\nदुःखाय धार्तराष्ट्राणां प्रादुर्भूतो धनंजयः ॥",
+          "meaning": {
+            "en": "Pandava cannot bear Draupadi's torment. Dhananjaya has appeared to bring grief to Dhritarashtra's sons."
+          }
         },
         {
           "n": 15,
-          "text": "त्वं पुनः पण्डितो भूत्वा वाचं वक्तुमिहेच्छसि ।\nवैरान्तकरणो जिष्णुर्न नः शेषं करिष्यति ॥"
+          "text": "त्वं पुनः पण्डितो भूत्वा वाचं वक्तुमिहेच्छसि ।\nवैरान्तकरणो जिष्णुर्न नः शेषं करिष्यति ॥",
+          "meaning": {
+            "en": "And you, now playing the scholar, want to speak; but Jishnu, who ends enmities, will leave nothing of us."
+          }
         },
         {
           "n": 16,
-          "text": "नैष देवान्न गन्धर्वान्नासुरान्न च राक्षसान् ।\nभयादिह न युध्येत कुन्तीपुत्रो धनंजयः ॥"
+          "text": "नैष देवान्न गन्धर्वान्नासुरान्न च राक्षसान् ।\nभयादिह न युध्येत कुन्तीपुत्रो धनंजयः ॥",
+          "meaning": {
+            "en": "Kunti's son Dhananjaya would not refuse to fight out of fear of gods, gandharvas, asuras or rakshasas."
+          }
         },
         {
           "n": 17,
-          "text": "यं यमेषोऽभिसंक्रुद्धः संग्रामेऽभिपतिष्यति ।\nवृक्षं गरुडवेगेन विनिहत्य तमेष्यति ॥"
+          "text": "यं यमेषोऽभिसंक्रुद्धः संग्रामेऽभिपतिष्यति ।\nवृक्षं गरुडवेगेन विनिहत्य तमेष्यति ॥",
+          "meaning": {
+            "en": "Whoever he attacks in rage in battle, he will kill, striking him down like a tree with the speed of Garuda."
+          }
         },
         {
           "n": 18,
-          "text": "त्वत्तो विशिष्टं वीर्येण धनुष्यमरराट्समम् ।\nवासुदेवसमं युद्धे तं पार्थं को न पूजयेत् ॥"
+          "text": "त्वत्तो विशिष्टं वीर्येण धनुष्यमरराट्समम् ।\nवासुदेवसमं युद्धे तं पार्थं को न पूजयेत् ॥",
+          "meaning": {
+            "en": "Greater in strength than you, equal to the lord of the immortals in the bow, like Vasudeva in battle, who would not honor that Partha?"
+          }
         },
         {
           "n": 19,
-          "text": "दैवं दैवेन युध्येत मानुषेण च मानुषम् ।\nअस्त्रेणास्त्रं समाहन्यात्कोऽर्जुनेन समः पुमान् ॥"
+          "text": "दैवं दैवेन युध्येत मानुषेण च मानुषम् ।\nअस्त्रेणास्त्रं समाहन्यात्कोऽर्जुनेन समः पुमान् ॥",
+          "meaning": {
+            "en": "Fight god with god and man with man, weapon with weapon; what man is equal to Arjuna?"
+          }
         },
         {
           "n": 20,
-          "text": "पुत्रादनन्तरः शिष्य इति धर्मविदो विदुः ।\nएतेनापि निमित्तेन प्रियो द्रोणस्य पाण्डवः ॥"
+          "text": "पुत्रादनन्तरः शिष्य इति धर्मविदो विदुः ।\nएतेनापि निमित्तेन प्रियो द्रोणस्य पाण्डवः ॥",
+          "meaning": {
+            "en": "Those who know dharma say a pupil is next to a son; for this reason too the Pandava is dear to Drona."
+          }
         },
         {
           "n": 21,
-          "text": "यथा त्वमकरोर्द्यूतमिन्द्रप्रस्थं यथाहरः ।\nयथानैषीः सभां कृष्णां तथा युध्यस्व पाण्डवम् ॥"
+          "text": "यथा त्वमकरोर्द्यूतमिन्द्रप्रस्थं यथाहरः ।\nयथानैषीः सभां कृष्णां तथा युध्यस्व पाण्डवम् ॥",
+          "meaning": {
+            "en": "Fight the Pandava as you played at dice, as you took Indraprastha and as you brought Krishna to the assembly."
+          }
         },
         {
           "n": 22,
-          "text": "अयं ते मातुलः प्राज्ञः क्षत्रधर्मस्य कोविदः ।\nदुर्द्यूतदेवी गान्धारः शकुनिर्युध्यतामिह ॥"
+          "text": "अयं ते मातुलः प्राज्ञः क्षत्रधर्मस्य कोविदः ।\nदुर्द्यूतदेवी गान्धारः शकुनिर्युध्यतामिह ॥",
+          "meaning": {
+            "en": "Here is your wise uncle, Shakuni of Gandhara, who knows a Kshatriya's duty and is the god of foul dice; let him fight here."
+          }
         },
         {
           "n": 23,
-          "text": "नाक्षान्क्षिपति गाण्डीवं न कृतं द्वापरं न च ।\nज्वलतो निशितान्बाणांस्तीक्ष्णान्क्षिपति गाण्डिवम् ॥"
+          "text": "नाक्षान्क्षिपति गाण्डीवं न कृतं द्वापरं न च ।\nज्वलतो निशितान्बाणांस्तीक्ष्णान्क्षिपति गाण्डिवम् ॥",
+          "meaning": {
+            "en": "The Gandiva does not throw dice, not krita and not dvapara; it throws blazing, sharp arrows."
+          }
         },
         {
           "n": 24,
-          "text": "न हि गाण्डीवनिर्मुक्ता गार्ध्रपत्राः सुतेजनाः ।\nअन्तरेष्ववतिष्ठन्ति गिरीणामपि दारणाः ॥"
+          "text": "न हि गाण्डीवनिर्मुक्ता गार्ध्रपत्राः सुतेजनाः ।\nअन्तरेष्ववतिष्ठन्ति गिरीणामपि दारणाः ॥",
+          "meaning": {
+            "en": "Arrows shot from the Gandiva, vulture-feathered and keen, do not stop in between, and they can split mountains."
+          }
         },
         {
           "n": 25,
-          "text": "अन्तकः शमनो मृत्युस्तथाग्निर्वडवामुखः ।\nकुर्युरेते क्वचिच्छेषं न तु क्रुद्धो धनंजयः ॥"
+          "text": "अन्तकः शमनो मृत्युस्तथाग्निर्वडवामुखः ।\nकुर्युरेते क्वचिच्छेषं न तु क्रुद्धो धनंजयः ॥",
+          "meaning": {
+            "en": "Death, Yama, the end, and Agni of the submarine mare's mouth might leave something of us somewhere, but not an angry Dhananjaya."
+          }
         },
         {
           "n": 26,
-          "text": "युध्यतां काममाचार्यो नाहं योत्स्ये धनंजयम् ।\nमत्स्यो ह्यस्माभिरायोध्यो यद्यागच्छेद्गवां पदम् ॥"
+          "text": "युध्यतां काममाचार्यो नाहं योत्स्ये धनंजयम् ।\nमत्स्यो ह्यस्माभिरायोध्यो यद्यागच्छेद्गवां पदम् ॥",
+          "meaning": {
+            "en": "Let the teacher fight if he likes; I will not fight Dhananjaya. We should fight Matsya, if he comes along the cattle's track."
+          }
         }
       ]
     }

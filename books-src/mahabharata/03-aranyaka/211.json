@@ -22,131 +22,227 @@
       "titleEn": "Markandeyasamasya Parva (Session with Markandeya)",
       "verses": [
         {
-          "text": "मार्कण्डेय उवाच"
+          "text": "मार्कण्डेय उवाच",
+          "meaning": {
+            "en": "Markandeya said:"
+          }
         },
         {
           "n": 1,
-          "text": "गुरुभिर्नियमैर्युक्तो भरतो नाम पावकः ।\nअग्निः पुष्टिमतिर्नाम तुष्टः पुष्टिं प्रयच्छति ।\nभरत्येष प्रजाः सर्वास्ततो भरत उच्यते ॥"
+          "text": "गुरुभिर्नियमैर्युक्तो भरतो नाम पावकः ।\nअग्निः पुष्टिमतिर्नाम तुष्टः पुष्टिं प्रयच्छति ।\nभरत्येष प्रजाः सर्वास्ततो भरत उच्यते ॥",
+          "meaning": {
+            "en": "\"The fire named Bharata, bound by weighty observances, is also Pushtimati; when pleased he gives nourishment. Because he sustains (bharati) all creatures, he is called Bharata.\""
+          }
         },
         {
           "n": 2,
-          "text": "अग्निर्यस्तु शिवो नाम शक्तिपूजापरश्च सः ।\nदुःखार्तानां स सर्वेषां शिवकृत्सततं शिवः ॥"
+          "text": "अग्निर्यस्तु शिवो नाम शक्तिपूजापरश्च सः ।\nदुःखार्तानां स सर्वेषां शिवकृत्सततं शिवः ॥",
+          "meaning": {
+            "en": "\"The fire named Shiva is devoted to the worship of power; he is ever Shiva, auspicious, doing good for all who are afflicted with sorrow.\""
+          }
         },
         {
           "n": 3,
-          "text": "तपसस्तु फलं दृष्ट्वा संप्रवृद्धं तपो महत् ।\nउद्धर्तुकामो मतिमान्पुत्रो जज्ञे पुरंदरः ॥"
+          "text": "तपसस्तु फलं दृष्ट्वा संप्रवृद्धं तपो महत् ।\nउद्धर्तुकामो मतिमान्पुत्रो जज्ञे पुरंदरः ॥",
+          "meaning": {
+            "en": "\"Seeing the fruit of austerity and the great austerity grown large, a wise son, Purandara, was born, wishing to raise up the world.\""
+          }
         },
         {
           "n": 4,
-          "text": "ऊष्मा चैवोष्मणो जज्ञे सोऽग्निर्भूतेषु लक्ष्यते ।\nअग्निश्चापि मनुर्नाम प्राजापत्यमकारयत् ॥"
+          "text": "ऊष्मा चैवोष्मणो जज्ञे सोऽग्निर्भूतेषु लक्ष्यते ।\nअग्निश्चापि मनुर्नाम प्राजापत्यमकारयत् ॥",
+          "meaning": {
+            "en": "\"From heat was born Ushma, the fire seen in living beings. And the fire called Manu performed the rite of Prajapati.\""
+          }
         },
         {
           "n": 5,
-          "text": "शंभुमग्निमथ प्राहुर्ब्राह्मणा वेदपारगाः ।\nआवसथ्यं द्विजाः प्राहुर्दीप्तमग्निं महाप्रभम् ॥"
+          "text": "शंभुमग्निमथ प्राहुर्ब्राह्मणा वेदपारगाः ।\nआवसथ्यं द्विजाः प्राहुर्दीप्तमग्निं महाप्रभम् ॥",
+          "meaning": {
+            "en": "\"Brahmins who have mastered the Veda call one fire Shambhu; twice-born men call the blazing, greatly radiant household fire Avasathya.\""
+          }
         },
         {
           "n": 6,
-          "text": "ऊर्जस्करान्हव्यवाहान्सुवर्णसदृशप्रभान् ।\nअग्निस्तपो ह्यजनयत्पञ्च यज्ञसुतानिह ॥"
+          "text": "ऊर्जस्करान्हव्यवाहान्सुवर्णसदृशप्रभान् ।\nअग्निस्तपो ह्यजनयत्पञ्च यज्ञसुतानिह ॥",
+          "meaning": {
+            "en": "\"Agni, through austerity, produced here five sons of sacrifice, fires that give strength, carry offerings and shine like gold.\""
+          }
         },
         {
           "n": 7,
-          "text": "प्रशान्तेऽग्निर्महाभाग परिश्रान्तो गवांपतिः ।\nअसुराञ्जनयन्घोरान्मर्त्यांश्चैव पृथग्विधान् ॥"
+          "text": "प्रशान्तेऽग्निर्महाभाग परिश्रान्तो गवांपतिः ।\nअसुराञ्जनयन्घोरान्मर्त्यांश्चैव पृथग्विधान् ॥",
+          "meaning": {
+            "en": "\"When the fire was quenched, greatly fortunate one, the lord of cows, wearied, produced fearsome asuras and mortals of various kinds.\""
+          }
         },
         {
           "n": 8,
-          "text": "तपसश्च मनुं पुत्रं भानुं चाप्यङ्गिरासृजत् ।\nबृहद्भानुं तु तं प्राहुर्ब्राह्मणा वेदपारगाः ॥"
+          "text": "तपसश्च मनुं पुत्रं भानुं चाप्यङ्गिरासृजत् ।\nबृहद्भानुं तु तं प्राहुर्ब्राह्मणा वेदपारगाः ॥",
+          "meaning": {
+            "en": "\"From austerity Angiras created his son Manu and also Bhanu, whom the Veda-knowing brahmins call Brihadbhanu.\""
+          }
         },
         {
           "n": 9,
-          "text": "भानोर्भार्या सुप्रजा तु बृहद्भासा तु सोमजा ।\nअसृजेतां तु षट्पुत्राञ्शृणु तासां प्रजाविधिम् ॥"
+          "text": "भानोर्भार्या सुप्रजा तु बृहद्भासा तु सोमजा ।\nअसृजेतां तु षट्पुत्राञ्शृणु तासां प्रजाविधिम् ॥",
+          "meaning": {
+            "en": "\"Bhanu's wife was Suprajas, and Brihadbhasa was born of Soma. The two bore six sons; hear how their offspring came about.\""
+          }
         },
         {
           "n": 10,
-          "text": "दुर्बलानां तु भूतानां तनुं यः संप्रयच्छति ।\nतमग्निं बलदं प्राहुः प्रथमं भानुतः सुतम् ॥"
+          "text": "दुर्बलानां तु भूतानां तनुं यः संप्रयच्छति ।\nतमग्निं बलदं प्राहुः प्रथमं भानुतः सुतम् ॥",
+          "meaning": {
+            "en": "\"The fire who gives a body to weak creatures is called Baladah, the strength-giver, the first son of Bhanu.\""
+          }
         },
         {
           "n": 11,
-          "text": "यः प्रशान्तेषु भूतेषु मन्युर्भवति दारुणः ।\nअग्निः स मन्युमान्नाम द्वितीयो भानुतः सुतः ॥"
+          "text": "यः प्रशान्तेषु भूतेषु मन्युर्भवति दारुणः ।\nअग्निः स मन्युमान्नाम द्वितीयो भानुतः सुतः ॥",
+          "meaning": {
+            "en": "\"The fire who becomes terrible wrath among creatures at peace is called Manyuman, the second son of Bhanu.\""
+          }
         },
         {
           "n": 12,
-          "text": "दर्शे च पौर्णमासे च यस्येह हविरुच्यते ।\nविष्णुर्नामेह योऽग्निस्तु धृतिमान्नाम सोऽङ्गिराः ॥"
+          "text": "दर्शे च पौर्णमासे च यस्येह हविरुच्यते ।\nविष्णुर्नामेह योऽग्निस्तु धृतिमान्नाम सोऽङ्गिराः ॥",
+          "meaning": {
+            "en": "\"At the new-moon and full-moon sacrifices the offering is declared here for the fire called Vishnu, who is Dhritiman, of Angiras's line.\""
+          }
         },
         {
           "n": 13,
-          "text": "इन्द्रेण सहितं यस्य हविराग्रयणं स्मृतम् ।\nअग्निराग्रयणो नाम भानोरेवान्वयस्तु सः ॥"
+          "text": "इन्द्रेण सहितं यस्य हविराग्रयणं स्मृतम् ।\nअग्निराग्रयणो नाम भानोरेवान्वयस्तु सः ॥",
+          "meaning": {
+            "en": "\"The fire whose offering of first fruits is made together with Indra is called Agrayana; he too belongs to Bhanu's line.\""
+          }
         },
         {
           "n": 14,
-          "text": "चातुर्मास्येषु नित्यानां हविषां यो निरग्रहः ।\nचतुर्भिः सहितः पुत्रैर्भानोरेवान्वयस्तु सः ॥"
+          "text": "चातुर्मास्येषु नित्यानां हविषां यो निरग्रहः ।\nचतुर्भिः सहितः पुत्रैर्भानोरेवान्वयस्तु सः ॥",
+          "meaning": {
+            "en": "\"The fire who has no restraint at the regular offerings of the Chaturmasya, together with his four sons, is also of Bhanu's line.\""
+          }
         },
         {
           "n": 15,
-          "text": "निशां त्वजनयत्कन्यामग्नीषोमावुभौ तथा ।\nमनोरेवाभवद्भार्या सुषुवे पञ्च पावकान् ॥"
+          "text": "निशां त्वजनयत्कन्यामग्नीषोमावुभौ तथा ।\nमनोरेवाभवद्भार्या सुषुवे पञ्च पावकान् ॥",
+          "meaning": {
+            "en": "\"He begot a daughter, Nisha, and the pair Agni and Soma. She became the wife of Manu and bore five fires.\""
+          }
         },
         {
           "n": 16,
-          "text": "पूज्यते हविषाग्र्येण चातुर्मास्येषु पावकः ।\nपर्जन्यसहितः श्रीमानग्निर्वैश्वानरस्तु सः ॥"
+          "text": "पूज्यते हविषाग्र्येण चातुर्मास्येषु पावकः ।\nपर्जन्यसहितः श्रीमानग्निर्वैश्वानरस्तु सः ॥",
+          "meaning": {
+            "en": "\"The fire worshipped at the Chaturmasya with the best offering, together with Parjanya, the glorious one, is Vaishvanara.\""
+          }
         },
         {
           "n": 17,
-          "text": "अस्य लोकस्य सर्वस्य यः पतिः परिपठ्यते ।\nसोऽग्निर्विश्वपतिर्नाम द्वितीयो वै मनोः सुतः ।\nततः स्विष्टं भवेदाज्यं स्विष्टकृत्परमः स्मृतः ॥"
+          "text": "अस्य लोकस्य सर्वस्य यः पतिः परिपठ्यते ।\nसोऽग्निर्विश्वपतिर्नाम द्वितीयो वै मनोः सुतः ।\nततः स्विष्टं भवेदाज्यं स्विष्टकृत्परमः स्मृतः ॥",
+          "meaning": {
+            "en": "\"The one declared lord of this whole world is the fire called Vishvapati, the second son of Manu. From him the ghee is well offered, and the supreme one is called Svishtakrit.\""
+          }
         },
         {
           "n": 18,
-          "text": "कन्या सा रोहिणी नाम हिरण्यकशिपोः सुता ।\nकर्मणासौ बभौ भार्या स वह्निः स प्रजापतिः ॥"
+          "text": "कन्या सा रोहिणी नाम हिरण्यकशिपोः सुता ।\nकर्मणासौ बभौ भार्या स वह्निः स प्रजापतिः ॥",
+          "meaning": {
+            "en": "\"The maiden named Rohini, daughter of Hiranyakashipu, became the wife through his action, and that fire was Prajapati.\""
+          }
         },
         {
           "n": 19,
-          "text": "प्राणमाश्रित्य यो देहं प्रवर्तयति देहिनाम् ।\nतस्य संनिहितो नाम शब्दरूपस्य साधनः ॥"
+          "text": "प्राणमाश्रित्य यो देहं प्रवर्तयति देहिनाम् ।\nतस्य संनिहितो नाम शब्दरूपस्य साधनः ॥",
+          "meaning": {
+            "en": "\"The one who rests in the vital breath and sets in motion the body of embodied beings is called Samnihita, the means of speech and form.\""
+          }
         },
         {
           "n": 20,
-          "text": "शुक्लकृष्णगतिर्देवो यो बिभर्ति हुताशनम् ।\nअकल्मषः कल्मषाणां कर्ता क्रोधाश्रितस्तु सः ॥"
+          "text": "शुक्लकृष्णगतिर्देवो यो बिभर्ति हुताशनम् ।\nअकल्मषः कल्मषाणां कर्ता क्रोधाश्रितस्तु सः ॥",
+          "meaning": {
+            "en": "\"The god who follows the bright and dark paths and sustains the fire is spotless, yet he is the doer of faults, resting in anger.\""
+          }
         },
         {
           "n": 21,
-          "text": "कपिलं परमर्षिं च यं प्राहुर्यतयः सदा ।\nअग्निः स कपिलो नाम सांख्ययोगप्रवर्तकः ॥"
+          "text": "कपिलं परमर्षिं च यं प्राहुर्यतयः सदा ।\nअग्निः स कपिलो नाम सांख्ययोगप्रवर्तकः ॥",
+          "meaning": {
+            "en": "\"The supreme sage Kapila, whom ascetics always speak of, is the fire named Kapila, the promoter of Sankhya and Yoga.\""
+          }
         },
         {
           "n": 22,
-          "text": "अग्निर्यच्छति भूतानि येन भूतानि नित्यदा ।\nकर्मस्विह विचित्रेषु सोऽग्रणीर्वह्निरुच्यते ॥"
+          "text": "अग्निर्यच्छति भूतानि येन भूतानि नित्यदा ।\nकर्मस्विह विचित्रेषु सोऽग्रणीर्वह्निरुच्यते ॥",
+          "meaning": {
+            "en": "\"The fire by which beings are always governed, and who stands at the head among varied rites here, is called Agrani.\""
+          }
         },
         {
           "n": 23,
-          "text": "इमानन्यान्समसृजत्पावकान्प्रथितान्भुवि ।\nअग्निहोत्रस्य दुष्टस्य प्रायश्चित्तार्थमुल्बणान् ॥"
+          "text": "इमानन्यान्समसृजत्पावकान्प्रथितान्भुवि ।\nअग्निहोत्रस्य दुष्टस्य प्रायश्चित्तार्थमुल्बणान् ॥",
+          "meaning": {
+            "en": "\"He created these other renowned fires on earth, fierce, for the expiation of a spoiled agnihotra.\""
+          }
         },
         {
           "n": 24,
-          "text": "संस्पृशेयुर्यदान्योन्यं कथंचिद्वायुनाग्नयः ।\nइष्टिरष्टाकपालेन कार्या वै शुचयेऽग्नये ॥"
+          "text": "संस्पृशेयुर्यदान्योन्यं कथंचिद्वायुनाग्नयः ।\nइष्टिरष्टाकपालेन कार्या वै शुचयेऽग्नये ॥",
+          "meaning": {
+            "en": "\"If the fires should somehow touch each other because of the wind, the rite on eight potsherds is to be performed for Agni Shuchi.\""
+          }
         },
         {
           "n": 25,
-          "text": "दक्षिणाग्निर्यदा द्वाभ्यां संसृजेत तदा किल ।\nइष्टिरष्टाकपालेन कार्या वै वीतयेऽग्नये ॥"
+          "text": "दक्षिणाग्निर्यदा द्वाभ्यां संसृजेत तदा किल ।\nइष्टिरष्टाकपालेन कार्या वै वीतयेऽग्नये ॥",
+          "meaning": {
+            "en": "\"When the southern fire becomes mixed with two others, the eight-potsherd offering is to be made for Agni Viti.\""
+          }
         },
         {
           "n": 26,
-          "text": "यद्यग्नयो हि स्पृश्येयुर्निवेशस्था दवाग्निना ।\nइष्टिरष्टाकपालेन कार्या तु शुचयेऽग्नये ॥"
+          "text": "यद्यग्नयो हि स्पृश्येयुर्निवेशस्था दवाग्निना ।\nइष्टिरष्टाकपालेन कार्या तु शुचयेऽग्नये ॥",
+          "meaning": {
+            "en": "\"If the fires in the house are touched by a forest fire, the eight-potsherd offering is to be made for Agni Shuchi.\""
+          }
         },
         {
           "n": 27,
-          "text": "अग्निं रजस्वला चेत्स्त्री संस्पृशेदग्निहोत्रिकम् ।\nइष्टिरष्टाकपालेन कार्या दस्युमतेऽग्नये ॥"
+          "text": "अग्निं रजस्वला चेत्स्त्री संस्पृशेदग्निहोत्रिकम् ।\nइष्टिरष्टाकपालेन कार्या दस्युमतेऽग्नये ॥",
+          "meaning": {
+            "en": "\"If a menstruating woman touches the agnihotra fire, the eight-potsherd offering is to be made for Agni Dasyumat.\""
+          }
         },
         {
           "n": 28,
-          "text": "मृतः श्रूयेत यो जीवन्परेयुः पशवो यथा ।\nइष्टिरष्टाकपालेन कर्तव्याभिमतेऽग्नये ॥"
+          "text": "मृतः श्रूयेत यो जीवन्परेयुः पशवो यथा ।\nइष्टिरष्टाकपालेन कर्तव्याभिमतेऽग्नये ॥",
+          "meaning": {
+            "en": "\"If a man is heard to be dead while he lives, as if gone like cattle, the eight-potsherd offering is to be made for Agni Abhimata.\""
+          }
         },
         {
           "n": 29,
-          "text": "आर्तो न जुहुयादग्निं त्रिरात्रं यस्तु ब्राह्मणः ।\nइष्टिरष्टाकपालेन कार्या स्यादुत्तराग्नये ॥"
+          "text": "आर्तो न जुहुयादग्निं त्रिरात्रं यस्तु ब्राह्मणः ।\nइष्टिरष्टाकपालेन कार्या स्यादुत्तराग्नये ॥",
+          "meaning": {
+            "en": "\"A brahmin who, from distress, does not offer to the fire for three nights must make the eight-potsherd offering to Agni Uttara.\""
+          }
         },
         {
           "n": 30,
-          "text": "दर्शं च पौर्णमासं च यस्य तिष्ठेत्प्रतिष्ठितम् ।\nइष्टिरष्टाकपालेन कार्या पथिकृतेऽग्नये ॥"
+          "text": "दर्शं च पौर्णमासं च यस्य तिष्ठेत्प्रतिष्ठितम् ।\nइष्टिरष्टाकपालेन कार्या पथिकृतेऽग्नये ॥",
+          "meaning": {
+            "en": "\"If someone's new-moon and full-moon sacrifices lapse after being established, the eight-potsherd offering is to be made to Agni Pathikrit.\""
+          }
         },
         {
           "n": 31,
-          "text": "सूतिकाग्निर्यदा चाग्निं संस्पृशेदग्निहोत्रिकम् ।\nइष्टिरष्टाकपालेन कार्या चाग्निमतेऽग्नये ॥"
+          "text": "सूतिकाग्निर्यदा चाग्निं संस्पृशेदग्निहोत्रिकम् ।\nइष्टिरष्टाकपालेन कार्या चाग्निमतेऽग्नये ॥",
+          "meaning": {
+            "en": "\"When the fire of a woman who has just given birth touches the agnihotra fire, the eight-potsherd offering is to be made to Agni Agnimat.\""
+          }
         }
       ]
     }

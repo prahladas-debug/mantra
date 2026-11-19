@@ -22,74 +22,128 @@
       "titleEn": "Mrigasvapnodbhava Parva (The dream of the deer)",
       "verses": [
         {
-          "text": "जनमेजय उवाच"
+          "text": "जनमेजय उवाच",
+          "meaning": {
+            "en": "Janamejaya said:"
+          }
         },
         {
           "n": 1,
-          "text": "दुर्योधनं मोचयित्वा पाण्डुपुत्रा महाबलाः ।\nकिमकार्षुर्वने तस्मिंस्तन्ममाख्यातुमर्हसि ॥"
+          "text": "दुर्योधनं मोचयित्वा पाण्डुपुत्रा महाबलाः ।\nकिमकार्षुर्वने तस्मिंस्तन्ममाख्यातुमर्हसि ॥",
+          "meaning": {
+            "en": "Tell me what the mighty sons of Pandu did in that forest after freeing Duryodhana."
+          }
         },
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 2,
-          "text": "ततः शयानं कौन्तेयं रात्रौ द्वैतवने मृगाः ।\nस्वप्नान्ते दर्शयामासुर्बाष्पकण्ठा युधिष्ठिरम् ॥"
+          "text": "ततः शयानं कौन्तेयं रात्रौ द्वैतवने मृगाः ।\nस्वप्नान्ते दर्शयामासुर्बाष्पकण्ठा युधिष्ठिरम् ॥",
+          "meaning": {
+            "en": "Then, as Yudhishthira, son of Kunti, lay sleeping at night in Dvaitavana, deer appeared to him at the end of a dream, their throats choked with tears."
+          }
         },
         {
           "n": 3,
-          "text": "तानब्रवीत्स राजेन्द्रो वेपमानान्कृताञ्जलीन् ।\nब्रूत यद्वक्तुकामाः स्थ के भवन्तः किमिष्यते ॥"
+          "text": "तानब्रवीत्स राजेन्द्रो वेपमानान्कृताञ्जलीन् ।\nब्रूत यद्वक्तुकामाः स्थ के भवन्तः किमिष्यते ॥",
+          "meaning": {
+            "en": "The king said to them, who were trembling with joined palms, \"Say what you wish to say. Who are you, and what do you want?\""
+          }
         },
         {
           "n": 4,
-          "text": "एवमुक्ताः पाण्डवेन कौन्तेयेन यशस्विना ।\nप्रत्यब्रुवन्मृगास्तत्र हतशेषा युधिष्ठिरम् ॥"
+          "text": "एवमुक्ताः पाण्डवेन कौन्तेयेन यशस्विना ।\nप्रत्यब्रुवन्मृगास्तत्र हतशेषा युधिष्ठिरम् ॥",
+          "meaning": {
+            "en": "Thus addressed by the famous Pandava, son of Kunti, the deer who were left after the slaughter answered Yudhishthira there."
+          }
         },
         {
           "n": 5,
-          "text": "वयं मृगा द्वैतवने हतशिष्टाः स्म भारत ।\nनोत्सीदेम महाराज क्रियतां वासपर्ययः ॥"
+          "text": "वयं मृगा द्वैतवने हतशिष्टाः स्म भारत ।\nनोत्सीदेम महाराज क्रियतां वासपर्ययः ॥",
+          "meaning": {
+            "en": "\"We are the deer of Dvaitavana, Bharata, those left after the killing. Great king, let us not be wiped out; change your dwelling place."
+          }
         },
         {
           "n": 6,
-          "text": "भवन्तो भ्रातरः शूराः सर्व एवास्त्रकोविदाः ।\nकुलान्यल्पावशिष्टानि कृतवन्तो वनौकसाम् ॥"
+          "text": "भवन्तो भ्रातरः शूराः सर्व एवास्त्रकोविदाः ।\nकुलान्यल्पावशिष्टानि कृतवन्तो वनौकसाम् ॥",
+          "meaning": {
+            "en": "You brothers are all heroes skilled in weapons, and you have left the families of the forest-dwellers few and small."
+          }
         },
         {
           "n": 7,
-          "text": "बीजभूता वयं केचिदवशिष्टा महामते ।\nविवर्धेमहि राजेन्द्र प्रसादात्ते युधिष्ठिर ॥"
+          "text": "बीजभूता वयं केचिदवशिष्टा महामते ।\nविवर्धेमहि राजेन्द्र प्रसादात्ते युधिष्ठिर ॥",
+          "meaning": {
+            "en": "Wise one, a few of us remain as seed. By your grace, Yudhishthira, king of kings, may we multiply.\""
+          }
         },
         {
           "n": 8,
-          "text": "तान्वेपमानान्वित्रस्तान्बीजमात्रावशेषितान् ।\nमृगान्दृष्ट्वा सुदुःखार्तो धर्मराजो युधिष्ठिरः ॥"
+          "text": "तान्वेपमानान्वित्रस्तान्बीजमात्रावशेषितान् ।\nमृगान्दृष्ट्वा सुदुःखार्तो धर्मराजो युधिष्ठिरः ॥",
+          "meaning": {
+            "en": "Seeing the deer trembling and frightened, left as only seed, Dharmaraja Yudhishthira was deeply pained."
+          }
         },
         {
           "n": 9,
-          "text": "तांस्तथेत्यब्रवीद्राजा सर्वभूतहिते रतः ।\nतथ्यं भवन्तो ब्रुवते करिष्यामि च तत्तथा ॥"
+          "text": "तांस्तथेत्यब्रवीद्राजा सर्वभूतहिते रतः ।\nतथ्यं भवन्तो ब्रुवते करिष्यामि च तत्तथा ॥",
+          "meaning": {
+            "en": "The king, who delights in the welfare of all creatures, said to them, \"So be it. You speak the truth, and I shall do as you say.\""
+          }
         },
         {
           "n": 10,
-          "text": "इत्येवं प्रतिबुद्धः स रात्र्यन्ते राजसत्तमः ।\nअब्रवीत्सहितान्भ्रातॄन्दयापन्नो मृगान्प्रति ॥"
+          "text": "इत्येवं प्रतिबुद्धः स रात्र्यन्ते राजसत्तमः ।\nअब्रवीत्सहितान्भ्रातॄन्दयापन्नो मृगान्प्रति ॥",
+          "meaning": {
+            "en": "Awake at the end of the night, the best of kings, full of pity for the deer, said to his brothers:"
+          }
         },
         {
           "n": 11,
-          "text": "उक्तो रात्रौ मृगैरस्मि स्वप्नान्ते हतशेषितैः ।\nतनुभूताः स्म भद्रं ते दया नः क्रियतामिति ॥"
+          "text": "उक्तो रात्रौ मृगैरस्मि स्वप्नान्ते हतशेषितैः ।\nतनुभूताः स्म भद्रं ते दया नः क्रियतामिति ॥",
+          "meaning": {
+            "en": "\"At night, at the end of a dream, I was spoken to by the few deer left. They said: 'We have become few. Good luck to you; have mercy on us.'"
+          }
         },
         {
           "n": 12,
-          "text": "ते सत्यमाहुः कर्तव्या दयास्माभिर्वनौकसाम् ।\nसाष्टमासं हि नो वर्षं यदेनानुपयुञ्ज्महे ॥"
+          "text": "ते सत्यमाहुः कर्तव्या दयास्माभिर्वनौकसाम् ।\nसाष्टमासं हि नो वर्षं यदेनानुपयुञ्ज्महे ॥",
+          "meaning": {
+            "en": "They spoke truly. We must show mercy to the forest-dwellers, for we have lived on them for eight months beyond a year."
+          }
         },
         {
           "n": 13,
-          "text": "पुनर्बहुमृगं रम्यं काम्यकं काननोत्तमम् ।\nमरुभूमेः शिरः ख्यातं तृणबिन्दुसरः प्रति ।\nतत्रेमा वसतीः शिष्टा विहरन्तो रमेमहि ॥"
+          "text": "पुनर्बहुमृगं रम्यं काम्यकं काननोत्तमम् ।\nमरुभूमेः शिरः ख्यातं तृणबिन्दुसरः प्रति ।\nतत्रेमा वसतीः शिष्टा विहरन्तो रमेमहि ॥",
+          "meaning": {
+            "en": "Let us go again to lovely Kamyaka, best of forests, rich in deer, called the head of the desert, by Lake Trinabindu. There we shall spend the remaining stay and roam happily.\""
+          }
         },
         {
           "n": 14,
-          "text": "ततस्ते पाण्डवाः शीघ्रं प्रययुर्धर्मकोविदाः ।\nब्राह्मणैः सहिता राजन्ये च तत्र सहोषिताः ।\nइन्द्रसेनादिभिश्चैव प्रेष्यैरनुगतास्तदा ॥"
+          "text": "ततस्ते पाण्डवाः शीघ्रं प्रययुर्धर्मकोविदाः ।\nब्राह्मणैः सहिता राजन्ये च तत्र सहोषिताः ।\nइन्द्रसेनादिभिश्चैव प्रेष्यैरनुगतास्तदा ॥",
+          "meaning": {
+            "en": "Then the Pandavas, skilled in dharma, quickly set out with the brahmins, O king, and others who had lived there, accompanied by Indrasena and the other servants."
+          }
         },
         {
           "n": 15,
-          "text": "ते यात्वानुसृतैर्मार्गैः स्वन्नैः शुचिजलान्वितैः ।\nददृशुः काम्यकं पुण्यमाश्रमं तापसायुतम् ॥"
+          "text": "ते यात्वानुसृतैर्मार्गैः स्वन्नैः शुचिजलान्वितैः ।\nददृशुः काम्यकं पुण्यमाश्रमं तापसायुतम् ॥",
+          "meaning": {
+            "en": "After a journey along paths with good food and clean water, they saw the holy hermitage of Kamyaka, filled with ascetics."
+          }
         },
         {
           "n": 16,
-          "text": "विविशुस्ते स्म कौरव्या वृता विप्रर्षभैस्तदा ।\nतद्वनं भरतश्रेष्ठाः स्वर्गं सुकृतिनो यथा ॥"
+          "text": "विविशुस्ते स्म कौरव्या वृता विप्रर्षभैस्तदा ।\nतद्वनं भरतश्रेष्ठाः स्वर्गं सुकृतिनो यथा ॥",
+          "meaning": {
+            "en": "Surrounded by the best of brahmins, those Kurus, best of Bharatas, entered the forest like virtuous men entering heaven."
+          }
         }
       ]
     }

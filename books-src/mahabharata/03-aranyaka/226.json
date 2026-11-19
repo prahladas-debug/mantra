@@ -22,95 +22,164 @@
       "titleEn": "Ghoshayatra Parva (The cattle expedition)",
       "verses": [
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 1,
-          "text": "धृतराष्ट्रस्य तद्वाक्यं निशम्य सहसौबलः ।\nदुर्योधनमिदं काले कर्णो वचनमब्रवीत् ॥"
+          "text": "धृतराष्ट्रस्य तद्वाक्यं निशम्य सहसौबलः ।\nदुर्योधनमिदं काले कर्णो वचनमब्रवीत् ॥",
+          "meaning": {
+            "en": "\"Hearing Dhritarashtra's words, Karna, with Shakuni, spoke to Duryodhana at that time.\""
+          }
         },
         {
           "n": 2,
-          "text": "प्रव्राज्य पाण्डवान्वीरान्स्वेन वीर्येण भारत ।\nभुङ्क्ष्वेमां पृथिवीमेको दिवं शम्बरहा यथा ॥"
+          "text": "प्रव्राज्य पाण्डवान्वीरान्स्वेन वीर्येण भारत ।\nभुङ्क्ष्वेमां पृथिवीमेको दिवं शम्बरहा यथा ॥",
+          "meaning": {
+            "en": "\"'Bharata, having driven the heroic Pandavas into exile by your own valor, enjoy this earth alone, as the slayer of Shambara enjoys heaven.'\""
+          }
         },
         {
           "n": 3,
-          "text": "प्राच्याश्च दाक्षिणात्याश्च प्रतीच्योदीच्यवासिनः ।\nकृताः करप्रदाः सर्वे राजानस्ते नराधिप ॥"
+          "text": "प्राच्याश्च दाक्षिणात्याश्च प्रतीच्योदीच्यवासिनः ।\nकृताः करप्रदाः सर्वे राजानस्ते नराधिप ॥",
+          "meaning": {
+            "en": "\"'The kings of the east, south, west and north have all been made to pay you tribute, lord of men.'\""
+          }
         },
         {
           "n": 4,
-          "text": "या हि सा दीप्यमानेव पाण्डवान्भजते पुरा ।\nसाद्य लक्ष्मीस्त्वया राजन्नवाप्ता भ्रातृभिः सह ॥"
+          "text": "या हि सा दीप्यमानेव पाण्डवान्भजते पुरा ।\nसाद्य लक्ष्मीस्त्वया राजन्नवाप्ता भ्रातृभिः सह ॥",
+          "meaning": {
+            "en": "\"'That radiant glory which once served the Pandavas has now been won by you, king, together with your brothers.'\""
+          }
         },
         {
           "n": 5,
-          "text": "इन्द्रप्रस्थगते यां तां दीप्यमानां युधिष्ठिरे ।\nअपश्याम श्रियं राजन्नचिरं शोककर्शिताः ॥"
+          "text": "इन्द्रप्रस्थगते यां तां दीप्यमानां युधिष्ठिरे ।\nअपश्याम श्रियं राजन्नचिरं शोककर्शिताः ॥",
+          "meaning": {
+            "en": "\"'We saw that glory blazing when Yudhishthira was at Indraprastha, and we were soon withered with grief.'\""
+          }
         },
         {
           "n": 6,
-          "text": "सा तु बुद्धिबलेनेयं राज्ञस्तस्माद्युधिष्ठिरात् ।\nत्वयाक्षिप्ता महाबाहो दीप्यमानेव दृश्यते ॥"
+          "text": "सा तु बुद्धिबलेनेयं राज्ञस्तस्माद्युधिष्ठिरात् ।\nत्वयाक्षिप्ता महाबाहो दीप्यमानेव दृश्यते ॥",
+          "meaning": {
+            "en": "\"'But by the strength of your intelligence you took it from King Yudhishthira, mighty-armed one, and it is seen blazing in you.'\""
+          }
         },
         {
           "n": 7,
-          "text": "तथैव तव राजेन्द्र राजानः परवीरहन् ।\nशासनेऽधिष्ठिताः सर्वे किं कुर्म इति वादिनः ॥"
+          "text": "तथैव तव राजेन्द्र राजानः परवीरहन् ।\nशासनेऽधिष्ठिताः सर्वे किं कुर्म इति वादिनः ॥",
+          "meaning": {
+            "en": "\"'In the same way, king of kings, slayer of enemy heroes, all the kings stand under your rule, saying, \"What shall we do?\"'\""
+          }
         },
         {
           "n": 8,
-          "text": "तवाद्य पृथिवी राजन्निखिला सागराम्बरा ।\nसपर्वतवना देवी सग्रामनगराकरा ।\nनानावनोद्देशवती पत्तनैरुपशोभिता ॥"
+          "text": "तवाद्य पृथिवी राजन्निखिला सागराम्बरा ।\nसपर्वतवना देवी सग्रामनगराकरा ।\nनानावनोद्देशवती पत्तनैरुपशोभिता ॥",
+          "meaning": {
+            "en": "\"'Today the whole earth, king, encircled by the oceans, with mountains and forests, villages, cities and mines, with various forests and regions and adorned with towns, is yours.'\""
+          }
         },
         {
           "n": 9,
-          "text": "वन्द्यमानो द्विजै राजन्पूज्यमानश्च राजभिः ।\nपौरुषाद्दिवि देवेषु भ्राजसे रश्मिवानिव ॥"
+          "text": "वन्द्यमानो द्विजै राजन्पूज्यमानश्च राजभिः ।\nपौरुषाद्दिवि देवेषु भ्राजसे रश्मिवानिव ॥",
+          "meaning": {
+            "en": "\"'Praised by brahmins and honored by kings, you shine by your manliness among the gods in heaven, like the radiant sun.'\""
+          }
         },
         {
           "n": 10,
-          "text": "रुद्रैरिव यमो राजा मरुद्भिरिव वासवः ।\nकुरुभिस्त्वं वृतो राजन्भासि नक्षत्रराडिव ॥"
+          "text": "रुद्रैरिव यमो राजा मरुद्भिरिव वासवः ।\nकुरुभिस्त्वं वृतो राजन्भासि नक्षत्रराडिव ॥",
+          "meaning": {
+            "en": "\"'Surrounded by the Kurus, you shine like Yama among the Rudras, like Vasava among the Maruts, king of the stars.'\""
+          }
         },
         {
           "n": 11,
-          "text": "ये स्म ते नाद्रियन्तेऽऽज्ञा नोद्विजन्ते कदा च न ।\nपश्यामस्ताञ्श्रिया हीनान्पाण्डवान्वनवासिनः ॥"
+          "text": "ये स्म ते नाद्रियन्तेऽऽज्ञा नोद्विजन्ते कदा च न ।\nपश्यामस्ताञ्श्रिया हीनान्पाण्डवान्वनवासिनः ॥",
+          "meaning": {
+            "en": "\"'Those who did not respect your command and were never uneasy, we see those Pandavas stripped of glory and living in the forest.'\""
+          }
         },
         {
           "n": 12,
-          "text": "श्रूयन्ते हि महाराज सरो द्वैतवनं प्रति ।\nवसन्तः पाण्डवाः सार्धं ब्राह्मणैर्वनवासिभिः ॥"
+          "text": "श्रूयन्ते हि महाराज सरो द्वैतवनं प्रति ।\nवसन्तः पाण्डवाः सार्धं ब्राह्मणैर्वनवासिभिः ॥",
+          "meaning": {
+            "en": "\"'We hear, great king, that the Pandavas are living by the lake of Dvaitavana with forest-dwelling brahmins.'\""
+          }
         },
         {
           "n": 13,
-          "text": "स प्रयाहि महाराज श्रिया परमया युतः ।\nप्रतपन्पाण्डुपुत्रांस्त्वं रश्मिवानिव तेजसा ॥"
+          "text": "स प्रयाहि महाराज श्रिया परमया युतः ।\nप्रतपन्पाण्डुपुत्रांस्त्वं रश्मिवानिव तेजसा ॥",
+          "meaning": {
+            "en": "\"'So go there, great king, joined with supreme splendor, scorching the sons of Pandu with your brilliance like the sun with its rays.'\""
+          }
         },
         {
           "n": 14,
-          "text": "स्थितो राज्ये च्युतान्राज्याच्छ्रिया हीनाञ्श्रिया वृतः ।\nअसमृद्धान्समृद्धार्थः पश्य पाण्डुसुतान्नृप ॥"
+          "text": "स्थितो राज्ये च्युतान्राज्याच्छ्रिया हीनाञ्श्रिया वृतः ।\nअसमृद्धान्समृद्धार्थः पश्य पाण्डुसुतान्नृप ॥",
+          "meaning": {
+            "en": "\"'Standing in your kingdom, covered in glory, rich in wealth, see the sons of Pandu fallen from the kingdom, bereft of glory and poor, king.'\""
+          }
         },
         {
           "n": 15,
-          "text": "महाभिजनसंपन्नं भद्रे महति संस्थितम् ।\nपाण्डवास्त्वाभिवीक्षन्तां ययातिमिव नाहुषम् ॥"
+          "text": "महाभिजनसंपन्नं भद्रे महति संस्थितम् ।\nपाण्डवास्त्वाभिवीक्षन्तां ययातिमिव नाहुषम् ॥",
+          "meaning": {
+            "en": "\"'Let the Pandavas look at you, firmly seated in a great and prosperous high house, like Nahusha's son Yayati.'\""
+          }
         },
         {
           "n": 16,
-          "text": "यां श्रियं सुहृदश्चैव दुर्हृदश्च विशां पते ।\nपश्यन्ति पुरुषे दीप्तां सा समर्था भवत्युत ॥"
+          "text": "यां श्रियं सुहृदश्चैव दुर्हृदश्च विशां पते ।\nपश्यन्ति पुरुषे दीप्तां सा समर्था भवत्युत ॥",
+          "meaning": {
+            "en": "\"'The glory that friends and foes see shining on a man, lord of the people, becomes truly powerful.'\""
+          }
         },
         {
           "n": 17,
-          "text": "समस्थो विषमस्थान्हि दुर्हृदो योऽभिवीक्षते ।\nजगतीस्थानिवाद्रिस्थः किं ततः परमं सुखम् ॥"
+          "text": "समस्थो विषमस्थान्हि दुर्हृदो योऽभिवीक्षते ।\nजगतीस्थानिवाद्रिस्थः किं ततः परमं सुखम् ॥",
+          "meaning": {
+            "en": "\"'Standing on level ground and looking at foes on uneven ground, as one on a mountain looks at those on the plain: what happiness is higher than that?'\""
+          }
         },
         {
           "n": 18,
-          "text": "न पुत्रधनलाभेन न राज्येनापि विन्दति ।\nप्रीतिं नृपतिशार्दूल याममित्राघदर्शनात् ॥"
+          "text": "न पुत्रधनलाभेन न राज्येनापि विन्दति ।\nप्रीतिं नृपतिशार्दूल याममित्राघदर्शनात् ॥",
+          "meaning": {
+            "en": "\"'One does not find joy in gaining sons and wealth, or even a kingdom, as in seeing the enemy's suffering, tiger among kings.'\""
+          }
         },
         {
           "n": 19,
-          "text": "किं नु तस्य सुखं न स्यादाश्रमे यो धनंजयम् ।\nअभिवीक्षेत सिद्धार्थो वल्कलाजिनवाससम् ॥"
+          "text": "किं नु तस्य सुखं न स्यादाश्रमे यो धनंजयम् ।\nअभिवीक्षेत सिद्धार्थो वल्कलाजिनवाससम् ॥",
+          "meaning": {
+            "en": "\"'What happiness would not be his who, his purpose achieved, sees Dhananjaya in a hermitage dressed in bark and deerskin?'\""
+          }
         },
         {
           "n": 20,
-          "text": "सुवाससो हि ते भार्या वल्कलाजिनवाससम् ।\nपश्यन्त्वसुखितां कृष्णां सा च निर्विद्यतां पुनः ।\nविनिन्दतां तथात्मानं जीवितं च धनच्युता ॥"
+          "text": "सुवाससो हि ते भार्या वल्कलाजिनवाससम् ।\nपश्यन्त्वसुखितां कृष्णां सा च निर्विद्यतां पुनः ।\nविनिन्दतां तथात्मानं जीवितं च धनच्युता ॥",
+          "meaning": {
+            "en": "\"'Let your well-clothed wives see Krishna, unhappy and dressed in bark and deerskin, and let her be disgusted again, bereft of wealth, and reproach herself and her life.'\""
+          }
         },
         {
           "n": 21,
-          "text": "न तथा हि सभामध्ये तस्या भवितुमर्हति ।\nवैमनस्यं यथा दृष्ट्वा तव भार्याः स्वलंकृताः ॥"
+          "text": "न तथा हि सभामध्ये तस्या भवितुमर्हति ।\nवैमनस्यं यथा दृष्ट्वा तव भार्याः स्वलंकृताः ॥",
+          "meaning": {
+            "en": "\"'Her dismay then will not be as great as in the middle of the assembly as when she sees your well-adorned wives.'\""
+          }
         },
         {
           "n": 22,
-          "text": "एवमुक्त्वा तु राजानं कर्णः शकुनिना सह ।\nतूष्णीं बभूवतुरुभौ वाक्यान्ते जनमेजय ॥"
+          "text": "एवमुक्त्वा तु राजानं कर्णः शकुनिना सह ।\nतूष्णीं बभूवतुरुभौ वाक्यान्ते जनमेजय ॥",
+          "meaning": {
+            "en": "\"Having said this to the king, Karna and Shakuni fell silent, Janamejaya, at the end of their speech.\""
+          }
         }
       ]
     }

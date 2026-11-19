@@ -22,71 +22,122 @@
       "titleEn": "Yakshayuddha Parva (Battle with the Yakshas)",
       "verses": [
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 1,
-          "text": "एतस्मिन्नेव काले तु सर्ववादित्रनिस्वनः ।\nबभूव तुमुलः शब्दस्त्वन्तरिक्षे दिवौकसाम् ॥"
+          "text": "एतस्मिन्नेव काले तु सर्ववादित्रनिस्वनः ।\nबभूव तुमुलः शब्दस्त्वन्तरिक्षे दिवौकसाम् ॥",
+          "meaning": {
+            "en": "Just then a tumultuous sound of all musical instruments arose in the sky from the dwellers in heaven."
+          }
         },
         {
           "n": 2,
-          "text": "रथनेमिस्वनश्चैव घण्टाशब्दश्च भारत ।\nपृथग्व्यालमृगाणां च पक्षिणां चैव सर्वशः ॥"
+          "text": "रथनेमिस्वनश्चैव घण्टाशब्दश्च भारत ।\nपृथग्व्यालमृगाणां च पक्षिणां चैव सर्वशः ॥",
+          "meaning": {
+            "en": "There was also the sound of chariot wheels and bells, Bharata, and the cries of various beasts and birds on every side."
+          }
         },
         {
           "n": 3,
-          "text": "तं समन्तादनुययुर्गन्धर्वाप्सरसस्तथा ।\nविमानैः सूर्यसंकाशैर्देवराजमरिंदमम् ॥"
+          "text": "तं समन्तादनुययुर्गन्धर्वाप्सरसस्तथा ।\nविमानैः सूर्यसंकाशैर्देवराजमरिंदमम् ॥",
+          "meaning": {
+            "en": "Gandharvas and Apsarases followed the king of gods, tamer of foes, on all sides in sun-bright aerial cars."
+          }
         },
         {
           "n": 4,
-          "text": "ततः स हरिभिर्युक्तं जाम्बूनदपरिष्कृतम् ।\nमेघनादिनमारुह्य श्रिया परमया ज्वलन् ॥"
+          "text": "ततः स हरिभिर्युक्तं जाम्बूनदपरिष्कृतम् ।\nमेघनादिनमारुह्य श्रिया परमया ज्वलन् ॥",
+          "meaning": {
+            "en": "Then Indra, king of gods, Purandara, blazing with supreme splendour, mounted the cloud-thundering chariot yoked with bay horses and adorned with gold,"
+          }
         },
         {
           "n": 5,
-          "text": "पार्थानभ्याजगामाशु देवराजः पुरंदरः ।\nआगत्य च सहस्राक्षो रथादवरुरोह वै ॥"
+          "text": "पार्थानभ्याजगामाशु देवराजः पुरंदरः ।\nआगत्य च सहस्राक्षो रथादवरुरोह वै ॥",
+          "meaning": {
+            "en": "and quickly came to the Parthas. Having arrived, the thousand-eyed one got down from the chariot."
+          }
         },
         {
           "n": 6,
-          "text": "तं दृष्ट्वैव महात्मानं धर्मराजो युधिष्ठिरः ।\nभ्रातृभिः सहितः श्रीमान्देवराजमुपागमत् ॥"
+          "text": "तं दृष्ट्वैव महात्मानं धर्मराजो युधिष्ठिरः ।\nभ्रातृभिः सहितः श्रीमान्देवराजमुपागमत् ॥",
+          "meaning": {
+            "en": "Seeing that great soul, Yudhishthira, king of dharma, glorious, went up to the king of the gods with his brothers."
+          }
         },
         {
           "n": 7,
-          "text": "पूजयामास चैवाथ विधिवद्भूरिदक्षिणः ।\nयथार्हममितात्मानं विधिदृष्टेन कर्मणा ॥"
+          "text": "पूजयामास चैवाथ विधिवद्भूरिदक्षिणः ।\nयथार्हममितात्मानं विधिदृष्टेन कर्मणा ॥",
+          "meaning": {
+            "en": "Generous in his gifts, he honoured the immeasurable one as he deserved, with rites seen in the rules."
+          }
         },
         {
           "n": 8,
-          "text": "धनंजयश्च तेजस्वी प्रणिपत्य पुरंदरम् ।\nभृत्यवत्प्रणतस्तस्थौ देवराजसमीपतः ॥"
+          "text": "धनंजयश्च तेजस्वी प्रणिपत्य पुरंदरम् ।\nभृत्यवत्प्रणतस्तस्थौ देवराजसमीपतः ॥",
+          "meaning": {
+            "en": "The radiant Dhananjaya bowed to Purandara and stood humbly near the king of the gods like a servant."
+          }
         },
         {
           "n": 9,
-          "text": "आप्यायत महातेजाः कुन्तीपुत्रो युधिष्ठिरः ।\nधनंजयमभिप्रेक्ष्य विनीतं स्थितमन्तिके ॥"
+          "text": "आप्यायत महातेजाः कुन्तीपुत्रो युधिष्ठिरः ।\nधनंजयमभिप्रेक्ष्य विनीतं स्थितमन्तिके ॥",
+          "meaning": {
+            "en": "Yudhishthira, son of Kunti, of great radiance, was gladdened, seeing Dhananjaya standing humble near him,"
+          }
         },
         {
           "n": 10,
-          "text": "जटिलं देवराजस्य तपोयुक्तमकल्मषम् ।\nहर्षेण महताविष्टः फल्गुनस्याथ दर्शनात् ॥"
+          "text": "जटिलं देवराजस्य तपोयुक्तमकल्मषम् ।\nहर्षेण महताविष्टः फल्गुनस्याथ दर्शनात् ॥",
+          "meaning": {
+            "en": "with matted hair, devoted to the king of the gods, practising austerity, free of stain; he was filled with great joy at the sight of Phalguna."
+          }
         },
         {
           "n": 11,
-          "text": "तं तथादीनमनसं राजानं हर्षसंप्लुतम् ।\nउवाच वचनं धीमान्देवराजः पुरंदरः ॥"
+          "text": "तं तथादीनमनसं राजानं हर्षसंप्लुतम् ।\nउवाच वचनं धीमान्देवराजः पुरंदरः ॥",
+          "meaning": {
+            "en": "Seeing the king so, his heart undaunted and overflowing with joy, wise Indra, king of gods, Purandara, spoke."
+          }
         },
         {
           "n": 12,
-          "text": "त्वमिमां पृथिवीं राजन्प्रशासिष्यसि पाण्डव ।\nस्वस्ति प्राप्नुहि कौन्तेय काम्यकं पुनराश्रमम् ॥"
+          "text": "त्वमिमां पृथिवीं राजन्प्रशासिष्यसि पाण्डव ।\nस्वस्ति प्राप्नुहि कौन्तेय काम्यकं पुनराश्रमम् ॥",
+          "meaning": {
+            "en": "\"You will rule this earth, king, Pandava. Be well, son of Kunti, and go again to the Kamyaka hermitage.\""
+          }
         },
         {
           "n": 13,
-          "text": "अस्त्राणि लब्धानि च पाण्डवेन\nसर्वाणि मत्तः प्रयतेन राजन् ।\nकृतप्रियश्चास्मि धनंजयेन\nजेतुं न शक्यस्त्रिभिरेष लोकैः ॥"
+          "text": "अस्त्राणि लब्धानि च पाण्डवेन\nसर्वाणि मत्तः प्रयतेन राजन् ।\nकृतप्रियश्चास्मि धनंजयेन\nजेतुं न शक्यस्त्रिभिरेष लोकैः ॥",
+          "meaning": {
+            "en": "\"The Pandava has obtained all the weapons from me by his devotion, king. I am pleased with Dhananjaya; he cannot be conquered by the three worlds.\""
+          }
         },
         {
           "n": 14,
-          "text": "एवमुक्त्वा सहस्राक्षः कुन्तीपुत्रं युधिष्ठिरम् ।\nजगाम त्रिदिवं हृष्टः स्तूयमानो महर्षिभिः ॥"
+          "text": "एवमुक्त्वा सहस्राक्षः कुन्तीपुत्रं युधिष्ठिरम् ।\nजगाम त्रिदिवं हृष्टः स्तूयमानो महर्षिभिः ॥",
+          "meaning": {
+            "en": "Having said this to Yudhishthira, son of Kunti, the thousand-eyed one went to heaven, glad, praised by great sages."
+          }
         },
         {
           "n": 15,
-          "text": "धनेश्वरगृहस्थानां पाण्डवानां समागमम् ।\nशक्रेण य इमं विद्वानधीयीत समाहितः ॥"
+          "text": "धनेश्वरगृहस्थानां पाण्डवानां समागमम् ।\nशक्रेण य इमं विद्वानधीयीत समाहितः ॥",
+          "meaning": {
+            "en": "Whoever, knowing this, recites with concentration this account of the Pandavas' meeting with Shakra while dwelling in the house of the lord of wealth,"
+          }
         },
         {
           "n": 16,
-          "text": "संवत्सरं ब्रह्मचारी नियतः संशितव्रतः ।\nस जीवेत निराबाधः सुसुखी शरदां शतम् ॥"
+          "text": "संवत्सरं ब्रह्मचारी नियतः संशितव्रतः ।\nस जीवेत निराबाधः सुसुखी शरदां शतम् ॥",
+          "meaning": {
+            "en": "for a year, observing celibacy, restrained and of firm vows, will live free of hindrance, very happy, for a hundred autumns."
+          }
         }
       ]
     }

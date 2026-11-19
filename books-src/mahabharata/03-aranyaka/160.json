@@ -22,155 +22,269 @@
       "titleEn": "Yakshayuddha Parva (Battle with the Yakshas)",
       "verses": [
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 1,
-          "text": "ततः सूर्योदये धौम्यः कृत्वाह्निकमरिंदम ।\nआर्ष्टिषेणेन सहितः पाण्डवानभ्यवर्तत ॥"
+          "text": "ततः सूर्योदये धौम्यः कृत्वाह्निकमरिंदम ।\nआर्ष्टिषेणेन सहितः पाण्डवानभ्यवर्तत ॥",
+          "meaning": {
+            "en": "Then at sunrise, tamer of foes, Dhaumya, having done his daily rites, came to the Pandavas together with Arshtishena."
+          }
         },
         {
           "n": 2,
-          "text": "तेऽभिवाद्यार्ष्टिषेणस्य पादौ धौम्यस्य चैव ह ।\nततः प्राञ्जलयः सर्वे ब्राह्मणांस्तानपूजयन् ॥"
+          "text": "तेऽभिवाद्यार्ष्टिषेणस्य पादौ धौम्यस्य चैव ह ।\nततः प्राञ्जलयः सर्वे ब्राह्मणांस्तानपूजयन् ॥",
+          "meaning": {
+            "en": "They greeted the feet of Arshtishena and Dhaumya, and then, with folded hands, all of them honoured those brahmins."
+          }
         },
         {
           "n": 3,
-          "text": "ततो युधिष्ठिरं धौम्यो गृहीत्वा दक्षिणे करे ।\nप्राचीं दिशमभिप्रेक्ष्य महर्षिरिदमब्रवीत् ॥"
+          "text": "ततो युधिष्ठिरं धौम्यो गृहीत्वा दक्षिणे करे ।\nप्राचीं दिशमभिप्रेक्ष्य महर्षिरिदमब्रवीत् ॥",
+          "meaning": {
+            "en": "Then Dhaumya took Yudhishthira by the right hand, looked toward the east, and the great sage said this."
+          }
         },
         {
           "n": 4,
-          "text": "असौ सागरपर्यन्तां भूमिमावृत्य तिष्ठति ।\nशैलराजो महाराज मन्दरोऽभिविराजते ॥"
+          "text": "असौ सागरपर्यन्तां भूमिमावृत्य तिष्ठति ।\nशैलराजो महाराज मन्दरोऽभिविराजते ॥",
+          "meaning": {
+            "en": "\"There stands the king of mountains, great king, shining, Mandara, encircling the earth to the ocean's edge.\""
+          }
         },
         {
           "n": 5,
-          "text": "इन्द्रवैश्रवणावेतां दिशं पाण्डव रक्षतः ।\nपर्वतैश्च वनान्तैश्च काननैश्चोपशोभिताम् ॥"
+          "text": "इन्द्रवैश्रवणावेतां दिशं पाण्डव रक्षतः ।\nपर्वतैश्च वनान्तैश्च काननैश्चोपशोभिताम् ॥",
+          "meaning": {
+            "en": "\"Indra and Vaishravana guard this quarter, Pandava, which is adorned with mountains, forest edges and woods.\""
+          }
         },
         {
           "n": 6,
-          "text": "एतदाहुर्महेन्द्रस्य राज्ञो वैश्रवणस्य च ।\nऋषयः सर्वधर्मज्ञाः सद्म तात मनीषिणः ॥"
+          "text": "एतदाहुर्महेन्द्रस्य राज्ञो वैश्रवणस्य च ।\nऋषयः सर्वधर्मज्ञाः सद्म तात मनीषिणः ॥",
+          "meaning": {
+            "en": "\"The wise sages who know all dharma call this, dear one, the abode of King Mahendra and of Vaishravana.\""
+          }
         },
         {
           "n": 7,
-          "text": "अतश्चोद्यन्तमादित्यमुपतिष्ठन्ति वै प्रजाः ।\nऋषयश्चापि धर्मज्ञाः सिद्धाः साध्याश्च देवताः ॥"
+          "text": "अतश्चोद्यन्तमादित्यमुपतिष्ठन्ति वै प्रजाः ।\nऋषयश्चापि धर्मज्ञाः सिद्धाः साध्याश्च देवताः ॥",
+          "meaning": {
+            "en": "\"From here the people, and the sages who know dharma, and the Siddhas, Sadhyas and gods, worship the rising sun.\""
+          }
         },
         {
           "n": 8,
-          "text": "यमस्तु राजा धर्मात्मा सर्वप्राणभृतां प्रभुः ।\nप्रेतसत्त्वगतीमेतां दक्षिणामाश्रितो दिशम् ॥"
+          "text": "यमस्तु राजा धर्मात्मा सर्वप्राणभृतां प्रभुः ।\nप्रेतसत्त्वगतीमेतां दक्षिणामाश्रितो दिशम् ॥",
+          "meaning": {
+            "en": "\"King Yama, righteous-souled, lord of all living beings, dwells in this southern quarter, the way of the dead.\""
+          }
         },
         {
           "n": 9,
-          "text": "एतत्संयमनं पुण्यमतीवाद्भुतदर्शनम् ।\nप्रेतराजस्य भवनमृद्ध्या परमया युतम् ॥"
+          "text": "एतत्संयमनं पुण्यमतीवाद्भुतदर्शनम् ।\nप्रेतराजस्य भवनमृद्ध्या परमया युतम् ॥",
+          "meaning": {
+            "en": "\"This is the holy Samyamana, very wonderful to behold, the abode of the king of the dead, endowed with supreme prosperity.\""
+          }
         },
         {
           "n": 10,
-          "text": "यं प्राप्य सविता राजन्सत्येन प्रतितिष्ठति ।\nअस्तं पर्वतराजानमेतमाहुर्मनीषिणः ॥"
+          "text": "यं प्राप्य सविता राजन्सत्येन प्रतितिष्ठति ।\nअस्तं पर्वतराजानमेतमाहुर्मनीषिणः ॥",
+          "meaning": {
+            "en": "\"The wise call this the Setting Mountain, the king of mountains, reaching which the sun, O king, rests on truth.\""
+          }
         },
         {
           "n": 11,
-          "text": "एतं पर्वतराजानं समुद्रं च महोदधिम् ।\nआवसन्वरुणो राजा भूतानि परिरक्षति ॥"
+          "text": "एतं पर्वतराजानं समुद्रं च महोदधिम् ।\nआवसन्वरुणो राजा भूतानि परिरक्षति ॥",
+          "meaning": {
+            "en": "\"Varuna the king dwells at this king of mountains and the great ocean, and protects all beings.\""
+          }
         },
         {
           "n": 12,
-          "text": "उदीचीं दीपयन्नेष दिशं तिष्ठति कीर्तिमान् ।\nमहामेरुर्महाभाग शिवो ब्रह्मविदां गतिः ॥"
+          "text": "उदीचीं दीपयन्नेष दिशं तिष्ठति कीर्तिमान् ।\nमहामेरुर्महाभाग शिवो ब्रह्मविदां गतिः ॥",
+          "meaning": {
+            "en": "\"Great Meru, glorious, fortunate, auspicious, the goal of knowers of Brahman, stands lighting up the northern quarter.\""
+          }
         },
         {
           "n": 13,
-          "text": "यस्मिन्ब्रह्मसदश्चैव तिष्ठते च प्रजापतिः ।\nभूतात्मा विसृजन्सर्वं यत्किंचिज्जङ्गमागमम् ॥"
+          "text": "यस्मिन्ब्रह्मसदश्चैव तिष्ठते च प्रजापतिः ।\nभूतात्मा विसृजन्सर्वं यत्किंचिज्जङ्गमागमम् ॥",
+          "meaning": {
+            "en": "\"On it are the seat of Brahma and the abode of Prajapati, the self of beings, who creates all that moves and is still.\""
+          }
         },
         {
           "n": 14,
-          "text": "यानाहुर्ब्रह्मणः पुत्रान्मानसान्दक्षसप्तमान् ।\nतेषामपि महामेरुः स्थानं शिवमनामयम् ॥"
+          "text": "यानाहुर्ब्रह्मणः पुत्रान्मानसान्दक्षसप्तमान् ।\nतेषामपि महामेरुः स्थानं शिवमनामयम् ॥",
+          "meaning": {
+            "en": "\"Of those whom they call Brahma's mind-born sons, with Daksha as the seventh, Great Meru is also the auspicious, untroubled place.\""
+          }
         },
         {
           "n": 15,
-          "text": "अत्रैव प्रतितिष्ठन्ति पुनरत्रोदयन्ति च ।\nसप्त देवर्षयस्तात वसिष्ठप्रमुखाः सदा ॥"
+          "text": "अत्रैव प्रतितिष्ठन्ति पुनरत्रोदयन्ति च ।\nसप्त देवर्षयस्तात वसिष्ठप्रमुखाः सदा ॥",
+          "meaning": {
+            "en": "\"Right here the seven divine sages, dear one, headed by Vasishtha, always set and rise again.\""
+          }
         },
         {
           "n": 16,
-          "text": "देशं विरजसं पश्य मेरोः शिखरमुत्तमम् ।\nयत्रात्मतृप्तैरध्यास्ते देवैः सह पितामहः ॥"
+          "text": "देशं विरजसं पश्य मेरोः शिखरमुत्तमम् ।\nयत्रात्मतृप्तैरध्यास्ते देवैः सह पितामहः ॥",
+          "meaning": {
+            "en": "\"See that stainless region, the best peak of Meru, where the Grandfather sits with the gods who are content in themselves.\""
+          }
         },
         {
           "n": 17,
-          "text": "यमाहुः सर्वभूतानां प्रकृतेः प्रकृतिं ध्रुवम् ।\nअनादिनिधनं देवं प्रभुं नारायणं परम् ॥"
+          "text": "यमाहुः सर्वभूतानां प्रकृतेः प्रकृतिं ध्रुवम् ।\nअनादिनिधनं देवं प्रभुं नारायणं परम् ॥",
+          "meaning": {
+            "en": "\"Him they call the constant nature of the nature of all beings, the beginningless and endless god, the supreme lord Narayana.\""
+          }
         },
         {
           "n": 18,
-          "text": "ब्रह्मणः सदनात्तस्य परं स्थानं प्रकाशते ।\nदेवाश्च यत्नात्पश्यन्ति दिव्यं तेजोमयं शिवम् ॥"
+          "text": "ब्रह्मणः सदनात्तस्य परं स्थानं प्रकाशते ।\nदेवाश्च यत्नात्पश्यन्ति दिव्यं तेजोमयं शिवम् ॥",
+          "meaning": {
+            "en": "\"Beyond Brahma's seat shines his highest place, which the gods see with effort: divine, full of radiance, auspicious.\""
+          }
         },
         {
           "n": 19,
-          "text": "अत्यर्कानलदीप्तं तत्स्थानं विष्णोर्महात्मनः ।\nस्वयैव प्रभया राजन्दुष्प्रेक्ष्यं देवदानवैः ॥"
+          "text": "अत्यर्कानलदीप्तं तत्स्थानं विष्णोर्महात्मनः ।\nस्वयैव प्रभया राजन्दुष्प्रेक्ष्यं देवदानवैः ॥",
+          "meaning": {
+            "en": "\"That abode of great-souled Vishnu blazes brighter than sun and fire, king, and is hard for gods and danavas to look upon, by its own light.\""
+          }
         },
         {
           "n": 20,
-          "text": "तद्वै ज्योतींषि सर्वाणि प्राप्य भासन्ति नोऽपि च ।\nस्वयं विभुरदीनात्मा तत्र ह्यभिविराजते ॥"
+          "text": "तद्वै ज्योतींषि सर्वाणि प्राप्य भासन्ति नोऽपि च ।\nस्वयं विभुरदीनात्मा तत्र ह्यभिविराजते ॥",
+          "meaning": {
+            "en": "\"All the lights reach it and shine, but not by themselves; there the lord, unfailing in spirit, shines of himself.\""
+          }
         },
         {
           "n": 21,
-          "text": "यतयस्तत्र गच्छन्ति भक्त्या नारायणं हरिम् ।\nपरेण तपसा युक्ता भाविताः कर्मभिः शुभैः ॥"
+          "text": "यतयस्तत्र गच्छन्ति भक्त्या नारायणं हरिम् ।\nपरेण तपसा युक्ता भाविताः कर्मभिः शुभैः ॥",
+          "meaning": {
+            "en": "\"Ascetics go there in devotion to Narayana Hari, joined to supreme austerity and purified by good deeds.\""
+          }
         },
         {
           "n": 22,
-          "text": "योगसिद्धा महात्मानस्तमोमोहविवर्जिताः ।\nतत्र गत्वा पुनर्नेमं लोकमायान्ति भारत ॥"
+          "text": "योगसिद्धा महात्मानस्तमोमोहविवर्जिताः ।\nतत्र गत्वा पुनर्नेमं लोकमायान्ति भारत ॥",
+          "meaning": {
+            "en": "\"The great-souled ones, perfected in yoga and free of darkness and delusion, having gone there, Bharata, do not return to this world.\""
+          }
         },
         {
           "n": 23,
-          "text": "स्थानमेतन्महाभाग ध्रुवमक्षयमव्ययम् ।\nईश्वरस्य सदा ह्येतत्प्रणमात्र युधिष्ठिर ॥"
+          "text": "स्थानमेतन्महाभाग ध्रुवमक्षयमव्ययम् ।\nईश्वरस्य सदा ह्येतत्प्रणमात्र युधिष्ठिर ॥",
+          "meaning": {
+            "en": "\"This abode, fortunate one, is fixed, imperishable and unchanging, always the Lord's. Bow to it, Yudhishthira.\""
+          }
         },
         {
           "n": 24,
-          "text": "एतं ज्योतींषि सर्वाणि प्रकर्षन्भगवानपि ।\nकुरुते वितमस्कर्मा आदित्योऽभिप्रदक्षिणम् ॥"
+          "text": "एतं ज्योतींषि सर्वाणि प्रकर्षन्भगवानपि ।\nकुरुते वितमस्कर्मा आदित्योऽभिप्रदक्षिणम् ॥",
+          "meaning": {
+            "en": "\"The blessed sun, drawing all the lights along, makes his circuit around it, to the right, dispelling darkness.\""
+          }
         },
         {
           "n": 25,
-          "text": "अस्तं प्राप्य ततः संध्यामतिक्रम्य दिवाकरः ।\nउदीचीं भजते काष्ठां दिशमेष विभावसुः ॥"
+          "text": "अस्तं प्राप्य ततः संध्यामतिक्रम्य दिवाकरः ।\nउदीचीं भजते काष्ठां दिशमेष विभावसुः ॥",
+          "meaning": {
+            "en": "\"Having set and passed the twilight, the shining sun turns to the northern quarter.\""
+          }
         },
         {
           "n": 26,
-          "text": "स मेरुमनुवृत्तः सन्पुनर्गच्छति पाण्डव ।\nप्राङ्मुखः सविता देवः सर्वभूतहिते रतः ॥"
+          "text": "स मेरुमनुवृत्तः सन्पुनर्गच्छति पाण्डव ।\nप्राङ्मुखः सविता देवः सर्वभूतहिते रतः ॥",
+          "meaning": {
+            "en": "\"Following Meru, the sun god, intent on the good of all beings, goes on again toward the east, Pandava.\""
+          }
         },
         {
           "n": 27,
-          "text": "स मासं विभजन्कालं बहुधा पर्वसंधिषु ।\nतथैव भगवान्सोमो नक्षत्रैः सह गच्छति ॥"
+          "text": "स मासं विभजन्कालं बहुधा पर्वसंधिषु ।\nतथैव भगवान्सोमो नक्षत्रैः सह गच्छति ॥",
+          "meaning": {
+            "en": "\"Dividing the month into many parts at the junctions of the lunar phases, the blessed moon also goes with the lunar mansions.\""
+          }
         },
         {
           "n": 28,
-          "text": "एवमेष परिक्रम्य महामेरुमतन्द्रितः ।\nभावयन्सर्वभूतानि पुनर्गच्छति मन्दरम् ॥"
+          "text": "एवमेष परिक्रम्य महामेरुमतन्द्रितः ।\nभावयन्सर्वभूतानि पुनर्गच्छति मन्दरम् ॥",
+          "meaning": {
+            "en": "\"Thus, tirelessly circling Great Meru and nourishing all beings, he goes again to Mandara.\""
+          }
         },
         {
           "n": 29,
-          "text": "तथा तमिस्रहा देवो मयूखैर्भावयञ्जगत् ।\nमार्गमेतदसंबाधमादित्यः परिवर्तते ॥"
+          "text": "तथा तमिस्रहा देवो मयूखैर्भावयञ्जगत् ।\nमार्गमेतदसंबाधमादित्यः परिवर्तते ॥",
+          "meaning": {
+            "en": "\"So the sun, destroyer of darkness, nourishing the world with his rays, turns along this unobstructed road.\""
+          }
         },
         {
           "n": 30,
-          "text": "सिसृक्षुः शिशिराण्येष दक्षिणां भजते दिशम् ।\nततः सर्वाणि भूतानि कालः शिशिरमृच्छति ॥"
+          "text": "सिसृक्षुः शिशिराण्येष दक्षिणां भजते दिशम् ।\nततः सर्वाणि भूतानि कालः शिशिरमृच्छति ॥",
+          "meaning": {
+            "en": "\"Wishing to create cold seasons, he turns to the southern quarter, and then Time brings winter to all beings.\""
+          }
         },
         {
           "n": 31,
-          "text": "स्थावराणां च भूतानां जङ्गमानां च तेजसा ।\nतेजांसि समुपादत्ते निवृत्तः सन्विभावसुः ॥"
+          "text": "स्थावराणां च भूतानां जङ्गमानां च तेजसा ।\nतेजांसि समुपादत्ते निवृत्तः सन्विभावसुः ॥",
+          "meaning": {
+            "en": "\"Turning back, the sun takes up the energies of beings, still and moving, by his heat.\""
+          }
         },
         {
           "n": 32,
-          "text": "ततः स्वेदः क्लमस्तन्द्री ग्लानिश्च भजते नरान् ।\nप्राणिभिः सततं स्वप्नो ह्यभीक्ष्णं च निषेव्यते ॥"
+          "text": "ततः स्वेदः क्लमस्तन्द्री ग्लानिश्च भजते नरान् ।\nप्राणिभिः सततं स्वप्नो ह्यभीक्ष्णं च निषेव्यते ॥",
+          "meaning": {
+            "en": "\"Then sweat, fatigue, sloth and exhaustion come on men, and living beings constantly and repeatedly fall asleep.\""
+          }
         },
         {
           "n": 33,
-          "text": "एवमेतदनिर्देश्यं मार्गमावृत्य भानुमान् ।\nपुनः सृजति वर्षाणि भगवान्भावयन्प्रजाः ॥"
+          "text": "एवमेतदनिर्देश्यं मार्गमावृत्य भानुमान् ।\nपुनः सृजति वर्षाणि भगवान्भावयन्प्रजाः ॥",
+          "meaning": {
+            "en": "\"So the radiant lord, having travelled this indescribable road, again makes the rains, nourishing his creatures.\""
+          }
         },
         {
           "n": 34,
-          "text": "वृष्टिमारुतसंतापैः सुखैः स्थावरजङ्गमान् ।\nवर्धयन्सुमहातेजाः पुनः प्रतिनिवर्तते ॥"
+          "text": "वृष्टिमारुतसंतापैः सुखैः स्थावरजङ्गमान् ।\nवर्धयन्सुमहातेजाः पुनः प्रतिनिवर्तते ॥",
+          "meaning": {
+            "en": "\"With rain, wind and heat, the greatly radiant one gladdens and makes grow the moving and unmoving, and turns back again.\""
+          }
         },
         {
           "n": 35,
-          "text": "एवमेष चरन्पार्थ कालचक्रमतन्द्रितः ।\nप्रकर्षन्सर्वभूतानि सविता परिवर्तते ॥"
+          "text": "एवमेष चरन्पार्थ कालचक्रमतन्द्रितः ।\nप्रकर्षन्सर्वभूतानि सविता परिवर्तते ॥",
+          "meaning": {
+            "en": "\"So, Partha, tirelessly turning the wheel of time and dragging all beings along, the sun revolves.\""
+          }
         },
         {
           "n": 36,
-          "text": "संतता गतिरेतस्य नैष तिष्ठति पाण्डव ।\nआदायैव तु भूतानां तेजो विसृजते पुनः ॥"
+          "text": "संतता गतिरेतस्य नैष तिष्ठति पाण्डव ।\nआदायैव तु भूतानां तेजो विसृजते पुनः ॥",
+          "meaning": {
+            "en": "\"His motion is unceasing, Pandava; he does not stand still. Having taken the energy of beings, he sends it forth again.\""
+          }
         },
         {
           "n": 37,
-          "text": "विभजन्सर्वभूतानामायुः कर्म च भारत ।\nअहोरात्रान्कलाः काष्ठाः सृजत्येष सदा विभुः ॥"
+          "text": "विभजन्सर्वभूतानामायुः कर्म च भारत ।\nअहोरात्रान्कलाः काष्ठाः सृजत्येष सदा विभुः ॥",
+          "meaning": {
+            "en": "\"Dividing the life and action of all beings, Bharata, the lord ever makes days and nights, small and smaller measures of time.\""
+          }
         }
       ]
     }

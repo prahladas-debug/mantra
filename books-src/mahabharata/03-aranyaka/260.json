@@ -22,76 +22,133 @@
       "titleEn": "Draupadiharana Parva (Abduction of Draupadi)",
       "verses": [
         {
-          "text": "मार्कण्डेय उवाच"
+          "text": "मार्कण्डेय उवाच",
+          "meaning": {
+            "en": "Markandeya said:"
+          }
         },
         {
           "n": 1,
-          "text": "ततो ब्रह्मर्षयः सिद्धा देवराजर्षयस्तथा ।\nहव्यवाहं पुरस्कृत्य ब्रह्माणं शरणं गताः ॥"
+          "text": "ततो ब्रह्मर्षयः सिद्धा देवराजर्षयस्तथा ।\nहव्यवाहं पुरस्कृत्य ब्रह्माणं शरणं गताः ॥",
+          "meaning": {
+            "en": "Then the brahmin sages, the perfected ones, and the divine royal sages, with Agni the carrier of oblations at their head, went to Brahma for refuge."
+          }
         },
         {
-          "text": "अग्निरुवाच"
+          "text": "अग्निरुवाच",
+          "meaning": {
+            "en": "Agni said:"
+          }
         },
         {
           "n": 2,
-          "text": "यः स विश्रवसः पुत्रो दशग्रीवो महाबलः ।\nअवध्यो वरदानेन कृतो भगवता पुरा ॥"
+          "text": "यः स विश्रवसः पुत्रो दशग्रीवो महाबलः ।\nअवध्यो वरदानेन कृतो भगवता पुरा ॥",
+          "meaning": {
+            "en": "That Dashagriva, the mighty son of Vishrava, was made unkillable by the revered one's boon long ago."
+          }
         },
         {
           "n": 3,
-          "text": "स बाधते प्रजाः सर्वा विप्रकारैर्महाबलः ।\nततो नस्त्रातु भगवन्नान्यस्त्राता हि विद्यते ॥"
+          "text": "स बाधते प्रजाः सर्वा विप्रकारैर्महाबलः ।\nततो नस्त्रातु भगवन्नान्यस्त्राता हि विद्यते ॥",
+          "meaning": {
+            "en": "That powerful being oppresses all creatures with his wrongs. So protect us, revered one, for there is no other protector."
+          }
         },
         {
-          "text": "ब्रह्मोवाच"
+          "text": "ब्रह्मोवाच",
+          "meaning": {
+            "en": "Brahma said:"
+          }
         },
         {
           "n": 4,
-          "text": "न स देवासुरैः शक्यो युद्धे जेतुं विभावसो ।\nविहितं तत्र यत्कार्यमभितस्तस्य निग्रहे ॥"
+          "text": "न स देवासुरैः शक्यो युद्धे जेतुं विभावसो ।\nविहितं तत्र यत्कार्यमभितस्तस्य निग्रहे ॥",
+          "meaning": {
+            "en": "He cannot be defeated in battle by gods and asuras, Vibhavasu. What must be done to subdue him has been arranged."
+          }
         },
         {
           "n": 5,
-          "text": "तदर्थमवतीर्णोऽसौ मन्नियोगाच्चतुर्भुजः ।\nविष्णुः प्रहरतां श्रेष्ठः स कर्मैतत्करिष्यति ॥"
+          "text": "तदर्थमवतीर्णोऽसौ मन्नियोगाच्चतुर्भुजः ।\nविष्णुः प्रहरतां श्रेष्ठः स कर्मैतत्करिष्यति ॥",
+          "meaning": {
+            "en": "For that purpose the four-armed Vishnu, best of strikers, has descended at my command. He will do this deed."
+          }
         },
         {
-          "text": "मार्कण्डेय उवाच"
+          "text": "मार्कण्डेय उवाच",
+          "meaning": {
+            "en": "Markandeya said:"
+          }
         },
         {
           "n": 6,
-          "text": "पितामहस्ततस्तेषां संनिधौ वाक्यमब्रवीत् ।\nसर्वैर्देवगणैः सार्धं संभवध्वं महीतले ॥"
+          "text": "पितामहस्ततस्तेषां संनिधौ वाक्यमब्रवीत् ।\nसर्वैर्देवगणैः सार्धं संभवध्वं महीतले ॥",
+          "meaning": {
+            "en": "Then the grandfather spoke these words in their presence: \"Be born on earth together with all the hosts of gods."
+          }
         },
         {
           "n": 7,
-          "text": "विष्णोः सहायानृक्षीषु वानरीषु च सर्वशः ।\nजनयध्वं सुतान्वीरान्कामरूपबलान्वितान् ॥"
+          "text": "विष्णोः सहायानृक्षीषु वानरीषु च सर्वशः ।\nजनयध्वं सुतान्वीरान्कामरूपबलान्वितान् ॥",
+          "meaning": {
+            "en": "Beget heroic sons, helpers of Vishnu, in female bears and female monkeys everywhere, endowed with the strength to take any form.\""
+          }
         },
         {
           "n": 8,
-          "text": "ततो भागानुभागेन देवगन्धर्वदानवाः ।\nअवतर्तुं महीं सर्वे रञ्जयामासुरञ्जसा ॥"
+          "text": "ततो भागानुभागेन देवगन्धर्वदानवाः ।\nअवतर्तुं महीं सर्वे रञ्जयामासुरञ्जसा ॥",
+          "meaning": {
+            "en": "Then, by parts and shares, gods, gandharvas and danavas all gladly prepared to descend to earth."
+          }
         },
         {
           "n": 9,
-          "text": "तेषां समक्षं गन्धर्वीं दुन्दुभीं नाम नामतः ।\nशशास वरदो देवो देवकार्यार्थसिद्धये ॥"
+          "text": "तेषां समक्षं गन्धर्वीं दुन्दुभीं नाम नामतः ।\nशशास वरदो देवो देवकार्यार्थसिद्धये ॥",
+          "meaning": {
+            "en": "In their presence the boon-giving god commanded a gandharvi named Dundubhi to accomplish the gods' task."
+          }
         },
         {
           "n": 10,
-          "text": "पितामहवचः श्रुत्वा गन्धर्वी दुन्दुभी ततः ।\nमन्थरा मानुषे लोके कुब्जा समभवत्तदा ॥"
+          "text": "पितामहवचः श्रुत्वा गन्धर्वी दुन्दुभी ततः ।\nमन्थरा मानुषे लोके कुब्जा समभवत्तदा ॥",
+          "meaning": {
+            "en": "Hearing the grandfather's words, the gandharvi Dundubhi became Manthara, a hunchback, in the human world."
+          }
         },
         {
           "n": 11,
-          "text": "शक्रप्रभृतयश्चैव सर्वे ते सुरसत्तमाः ।\nवानरर्क्षवरस्त्रीषु जनयामासुरात्मजान् ।\nतेऽन्ववर्तन्पितॄन्सर्वे यशसा च बलेन च ॥"
+          "text": "शक्रप्रभृतयश्चैव सर्वे ते सुरसत्तमाः ।\nवानरर्क्षवरस्त्रीषु जनयामासुरात्मजान् ।\nतेऽन्ववर्तन्पितॄन्सर्वे यशसा च बलेन च ॥",
+          "meaning": {
+            "en": "Indra and the other chief gods begot sons in the best female monkeys and bears. All of them followed their fathers in fame and strength."
+          }
         },
         {
           "n": 12,
-          "text": "भेत्तारो गिरिशृङ्गाणां शालतालशिलायुधाः ।\nवज्रसंहननाः सर्वे सर्वे चौघबलास्तथा ॥"
+          "text": "भेत्तारो गिरिशृङ्गाणां शालतालशिलायुधाः ।\nवज्रसंहननाः सर्वे सर्वे चौघबलास्तथा ॥",
+          "meaning": {
+            "en": "They could split mountain peaks and fought with sala trees, palms and stones as weapons. All had bodies hard as thunderbolts, and strength like a flood."
+          }
         },
         {
           "n": 13,
-          "text": "कामवीर्यधराश्चैव सर्वे युद्धविशारदाः ।\nनागायुतसमप्राणा वायुवेगसमा जवे ।\nयत्रेच्छकनिवासाश्च केचिदत्र वनौकसः ॥"
+          "text": "कामवीर्यधराश्चैव सर्वे युद्धविशारदाः ।\nनागायुतसमप्राणा वायुवेगसमा जवे ।\nयत्रेच्छकनिवासाश्च केचिदत्र वनौकसः ॥",
+          "meaning": {
+            "en": "All could take any form and bore great power, all were skilled in battle, with the life-force of ten thousand elephants and the speed of the wind. Some forest-dwellers among them lived wherever they pleased."
+          }
         },
         {
           "n": 14,
-          "text": "एवं विधाय तत्सर्वं भगवाँल्लोकभावनः ।\nमन्थरां बोधयामास यद्यत्कार्यं यथा यथा ॥"
+          "text": "एवं विधाय तत्सर्वं भगवाँल्लोकभावनः ।\nमन्थरां बोधयामास यद्यत्कार्यं यथा यथा ॥",
+          "meaning": {
+            "en": "Having arranged all this, the revered maker of the worlds instructed Manthara in whatever she was to do and how."
+          }
         },
         {
           "n": 15,
-          "text": "सा तद्वचनमाज्ञाय तथा चक्रे मनोजवा ।\nइतश्चेतश्च गच्छन्ती वैरसंधुक्षणे रता ॥"
+          "text": "सा तद्वचनमाज्ञाय तथा चक्रे मनोजवा ।\nइतश्चेतश्च गच्छन्ती वैरसंधुक्षणे रता ॥",
+          "meaning": {
+            "en": "Understanding his words, she acted as told, swift as thought, going here and there and delighting in stirring up enmity."
+          }
         }
       ]
     }

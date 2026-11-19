@@ -22,119 +22,209 @@
       "titleEn": "Ghoshayatra Parva (The cattle expedition)",
       "verses": [
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 1,
-          "text": "ततोऽर्जुनश्चित्रसेनं प्रहसन्निदमब्रवीत् ।\nमध्ये गन्धर्वसैन्यानां महेष्वासो महाद्युतिः ॥"
+          "text": "ततोऽर्जुनश्चित्रसेनं प्रहसन्निदमब्रवीत् ।\nमध्ये गन्धर्वसैन्यानां महेष्वासो महाद्युतिः ॥",
+          "meaning": {
+            "en": "Then Arjuna, the great archer of great splendor, laughed and said to Chitrasena in the midst of the Gandharva army."
+          }
         },
         {
           "n": 2,
-          "text": "किं ते व्यवसितं वीर कौरवाणां विनिग्रहे ।\nकिमर्थं च सदारोऽयं निगृहीतः सुयोधनः ॥"
+          "text": "किं ते व्यवसितं वीर कौरवाणां विनिग्रहे ।\nकिमर्थं च सदारोऽयं निगृहीतः सुयोधनः ॥",
+          "meaning": {
+            "en": "\"What did you intend, hero, in seizing the Kauravas, and why was Suyodhana taken along with his wives?\""
+          }
         },
         {
-          "text": "चित्रसेन उवाच"
+          "text": "चित्रसेन उवाच",
+          "meaning": {
+            "en": "Chitrasena said:"
+          }
         },
         {
           "n": 3,
-          "text": "विदितोऽयमभिप्रायस्तत्रस्थेन महात्मना ।\nदुर्योधनस्य पापस्य कर्णस्य च धनंजय ॥"
+          "text": "विदितोऽयमभिप्रायस्तत्रस्थेन महात्मना ।\nदुर्योधनस्य पापस्य कर्णस्य च धनंजय ॥",
+          "meaning": {
+            "en": "That great one in heaven knew the plan, Dhananjaya, of the sinful Duryodhana and of Karna."
+          }
         },
         {
           "n": 4,
-          "text": "वनस्थान्भवतो ज्ञात्वा क्लिश्यमानाननर्हवत् ।\nइमेऽवहसितुं प्राप्ता द्रौपदीं च यशस्विनीम् ॥"
+          "text": "वनस्थान्भवतो ज्ञात्वा क्लिश्यमानाननर्हवत् ।\nइमेऽवहसितुं प्राप्ता द्रौपदीं च यशस्विनीम् ॥",
+          "meaning": {
+            "en": "Knowing that you were living in the forest in hardship you did not deserve, they had come to mock you and the illustrious Draupadi."
+          }
         },
         {
           "n": 5,
-          "text": "ज्ञात्वा चिकीर्षितं चैषां मामुवाच सुरेश्वरः ।\nगच्छ दुर्योधनं बद्ध्वा सामात्यं त्वमिहानय ॥"
+          "text": "ज्ञात्वा चिकीर्षितं चैषां मामुवाच सुरेश्वरः ।\nगच्छ दुर्योधनं बद्ध्वा सामात्यं त्वमिहानय ॥",
+          "meaning": {
+            "en": "Knowing their intention, the lord of the gods said to me: \"Go, bind Duryodhana and bring him here with his ministers."
+          }
         },
         {
           "n": 6,
-          "text": "धनंजयश्च ते रक्ष्यः सह भ्रातृभिराहवे ।\nस हि प्रियः सखा तुभ्यं शिष्यश्च तव पाण्डवः ॥"
+          "text": "धनंजयश्च ते रक्ष्यः सह भ्रातृभिराहवे ।\nस हि प्रियः सखा तुभ्यं शिष्यश्च तव पाण्डवः ॥",
+          "meaning": {
+            "en": "Protect Dhananjaya and his brothers in the fight, for that Pandava is your dear friend and your pupil.\""
+          }
         },
         {
           "n": 7,
-          "text": "वचनाद्देवराजस्य ततोऽस्मीहागतो द्रुतम् ।\nअयं दुरात्मा बद्धश्च गमिष्यामि सुरालयम् ॥"
+          "text": "वचनाद्देवराजस्य ततोऽस्मीहागतो द्रुतम् ।\nअयं दुरात्मा बद्धश्च गमिष्यामि सुरालयम् ॥",
+          "meaning": {
+            "en": "At the word of the king of the gods I came here quickly. I will go to the home of the gods with this evil-minded man bound."
+          }
         },
         {
-          "text": "अर्जुन उवाच"
+          "text": "अर्जुन उवाच",
+          "meaning": {
+            "en": "Arjuna said:"
+          }
         },
         {
           "n": 8,
-          "text": "उत्सृज्यतां चित्रसेन भ्रातास्माकं सुयोधनः ।\nधर्मराजस्य संदेशान्मम चेदिच्छसि प्रियम् ॥"
+          "text": "उत्सृज्यतां चित्रसेन भ्रातास्माकं सुयोधनः ।\nधर्मराजस्य संदेशान्मम चेदिच्छसि प्रियम् ॥",
+          "meaning": {
+            "en": "Release Suyodhana, our brother, Chitrasena, by the order of Dharmaraja, if you wish to please me."
+          }
         },
         {
-          "text": "चित्रसेन उवाच"
+          "text": "चित्रसेन उवाच",
+          "meaning": {
+            "en": "Chitrasena said:"
+          }
         },
         {
           "n": 9,
-          "text": "पापोऽयं नित्यसंदुष्टो न विमोक्षणमर्हति ।\nप्रलब्धा धर्मराजस्य कृष्णायाश्च धनंजय ॥"
+          "text": "पापोऽयं नित्यसंदुष्टो न विमोक्षणमर्हति ।\nप्रलब्धा धर्मराजस्य कृष्णायाश्च धनंजय ॥",
+          "meaning": {
+            "en": "This sinful man, always corrupt, does not deserve release, Dhananjaya; he deceived Dharmaraja and Krishna."
+          }
         },
         {
           "n": 10,
-          "text": "नेदं चिकीर्षितं तस्य कुन्तीपुत्रो महाव्रतः ।\nजानाति धर्मराजो हि श्रुत्वा कुरु यथेच्छसि ॥"
+          "text": "नेदं चिकीर्षितं तस्य कुन्तीपुत्रो महाव्रतः ।\nजानाति धर्मराजो हि श्रुत्वा कुरु यथेच्छसि ॥",
+          "meaning": {
+            "en": "Yudhishthira, son of Kunti, firm in his vows, does not know his intention. Having heard, do as you wish."
+          }
         },
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 11,
-          "text": "ते सर्व एव राजानमभिजग्मुर्युधिष्ठिरम् ।\nअभिगम्य च तत्सर्वं शशंसुस्तस्य दुष्कृतम् ॥"
+          "text": "ते सर्व एव राजानमभिजग्मुर्युधिष्ठिरम् ।\nअभिगम्य च तत्सर्वं शशंसुस्तस्य दुष्कृतम् ॥",
+          "meaning": {
+            "en": "They all went to King Yudhishthira and, approaching him, told of Duryodhana's wrong."
+          }
         },
         {
           "n": 12,
-          "text": "अजातशत्रुस्तच्छ्रुत्वा गन्धर्वस्य वचस्तदा ।\nमोक्षयामास तान्सर्वान्गन्धर्वान्प्रशशंस च ॥"
+          "text": "अजातशत्रुस्तच्छ्रुत्वा गन्धर्वस्य वचस्तदा ।\nमोक्षयामास तान्सर्वान्गन्धर्वान्प्रशशंस च ॥",
+          "meaning": {
+            "en": "Hearing the Gandharva's words, Ajatashatru freed all the Gandharvas and praised them."
+          }
         },
         {
           "n": 13,
-          "text": "दिष्ट्या भवद्भिर्बलिभिः शक्तैः सर्वैर्न हिंसितः ।\nदुर्वृत्तो धार्तराष्ट्रोऽयं सामात्यज्ञातिबान्धवः ॥"
+          "text": "दिष्ट्या भवद्भिर्बलिभिः शक्तैः सर्वैर्न हिंसितः ।\nदुर्वृत्तो धार्तराष्ट्रोऽयं सामात्यज्ञातिबान्धवः ॥",
+          "meaning": {
+            "en": "He said: \"By good fortune you strong and able beings have not killed this ill-behaved son of Dhritarashtra with his ministers, kinsmen and relatives."
+          }
         },
         {
           "n": 14,
-          "text": "उपकारो महांस्तात कृतोऽयं मम खेचराः ।\nकुलं न परिभूतं मे मोक्षेणास्य दुरात्मनः ॥"
+          "text": "उपकारो महांस्तात कृतोऽयं मम खेचराः ।\nकुलं न परिभूतं मे मोक्षेणास्य दुरात्मनः ॥",
+          "meaning": {
+            "en": "Sky-goers, you have done me a great favor. My family has not been disgraced, because this wicked man has been freed."
+          }
         },
         {
           "n": 15,
-          "text": "आज्ञापयध्वमिष्टानि प्रीयामो दर्शनेन वः ।\nप्राप्य सर्वानभिप्रायांस्ततो व्रजत माचिरम् ॥"
+          "text": "आज्ञापयध्वमिष्टानि प्रीयामो दर्शनेन वः ।\nप्राप्य सर्वानभिप्रायांस्ततो व्रजत माचिरम् ॥",
+          "meaning": {
+            "en": "Command whatever you wish. We are happy to see you. Having gained all your aims, go without delay.\""
+          }
         },
         {
           "n": 16,
-          "text": "अनुज्ञातास्तु गन्धर्वाः पाण्डुपुत्रेण धीमता ।\nसहाप्सरोभिः संहृष्टाश्चित्रसेनमुखा ययुः ॥"
+          "text": "अनुज्ञातास्तु गन्धर्वाः पाण्डुपुत्रेण धीमता ।\nसहाप्सरोभिः संहृष्टाश्चित्रसेनमुखा ययुः ॥",
+          "meaning": {
+            "en": "Permitted by the wise son of Pandu, the Gandharvas, headed by Chitrasena, went away delighted with the apsaras."
+          }
         },
         {
           "n": 17,
-          "text": "देवराडपि गन्धर्वान्मृतांस्तान्समजीवयत् ।\nदिव्येनामृतवर्षेण ये हताः कौरवैर्युधि ॥"
+          "text": "देवराडपि गन्धर्वान्मृतांस्तान्समजीवयत् ।\nदिव्येनामृतवर्षेण ये हताः कौरवैर्युधि ॥",
+          "meaning": {
+            "en": "The king of the gods also revived with a shower of divine nectar the Gandharvas whom the Kauravas had killed in battle."
+          }
         },
         {
           "n": 18,
-          "text": "ज्ञातींस्तानवमुच्याथ राजदारांश्च सर्वशः ।\nकृत्वा च दुष्करं कर्म प्रीतियुक्ताश्च पाण्डवाः ॥"
+          "text": "ज्ञातींस्तानवमुच्याथ राजदारांश्च सर्वशः ।\nकृत्वा च दुष्करं कर्म प्रीतियुक्ताश्च पाण्डवाः ॥",
+          "meaning": {
+            "en": "Having freed their kinsmen and all the royal women, and done a deed hard to do, the Pandavas were pleased."
+          }
         },
         {
           "n": 19,
-          "text": "सस्त्रीकुमारैः कुरुभिः पूज्यमाना महारथाः ।\nबभ्राजिरे महात्मानः कुरुमध्ये यथाग्नयः ॥"
+          "text": "सस्त्रीकुमारैः कुरुभिः पूज्यमाना महारथाः ।\nबभ्राजिरे महात्मानः कुरुमध्ये यथाग्नयः ॥",
+          "meaning": {
+            "en": "Honored by the Kurus with their women and children, those great-souled warriors shone like fires in the midst of the Kurus."
+          }
         },
         {
           "n": 20,
-          "text": "ततो दुर्योधनं मुच्य भ्रातृभिः सहितं तदा ।\nयुधिष्ठिरः सप्रणयमिदं वचनमब्रवीत् ॥"
+          "text": "ततो दुर्योधनं मुच्य भ्रातृभिः सहितं तदा ।\nयुधिष्ठिरः सप्रणयमिदं वचनमब्रवीत् ॥",
+          "meaning": {
+            "en": "Then Yudhishthira, setting Duryodhana free with his brothers, spoke to him affectionately."
+          }
         },
         {
           "n": 21,
-          "text": "मा स्म तात पुनः कार्षीरीदृशं साहसं क्वचित् ।\nन हि साहसकर्तारः सुखमेधन्ति भारत ॥"
+          "text": "मा स्म तात पुनः कार्षीरीदृशं साहसं क्वचित् ।\nन हि साहसकर्तारः सुखमेधन्ति भारत ॥",
+          "meaning": {
+            "en": "\"Dear one, never again do such a rash thing anywhere; those who act rashly do not prosper, Bharata."
+          }
         },
         {
           "n": 22,
-          "text": "स्वस्तिमान्सहितः सर्वैर्भ्रातृभिः कुरुनन्दन ।\nगृहान्व्रज यथाकामं वैमनस्यं च मा कृथाः ॥"
+          "text": "स्वस्तिमान्सहितः सर्वैर्भ्रातृभिः कुरुनन्दन ।\nगृहान्व्रज यथाकामं वैमनस्यं च मा कृथाः ॥",
+          "meaning": {
+            "en": "Go home safely with all your brothers, joy of the Kurus, as you like, and do not be downhearted.\""
+          }
         },
         {
           "n": 23,
-          "text": "पाण्डवेनाभ्यनुज्ञातो राजा दुर्योधनस्तदा ।\nविदीर्यमाणो व्रीडेन जगाम नगरं प्रति ॥"
+          "text": "पाण्डवेनाभ्यनुज्ञातो राजा दुर्योधनस्तदा ।\nविदीर्यमाणो व्रीडेन जगाम नगरं प्रति ॥",
+          "meaning": {
+            "en": "Permitted by the Pandava, King Duryodhana, torn with shame, went to his city."
+          }
         },
         {
           "n": 24,
-          "text": "तस्मिन्गते कौरवेये कुन्तीपुत्रो युधिष्ठिरः ।\nभ्रातृभिः सहितो वीरः पूज्यमानो द्विजातिभिः ॥"
+          "text": "तस्मिन्गते कौरवेये कुन्तीपुत्रो युधिष्ठिरः ।\nभ्रातृभिः सहितो वीरः पूज्यमानो द्विजातिभिः ॥",
+          "meaning": {
+            "en": "When the Kaurava had gone, Yudhishthira, son of Kunti, with his brothers, honored by the brahmins,"
+          }
         },
         {
           "n": 25,
-          "text": "तपोधनैश्च तैः सर्वैर्वृतः शक्र इवामरैः ।\nवने द्वैतवने तस्मिन्विजहार मुदा युतः ॥"
+          "text": "तपोधनैश्च तैः सर्वैर्वृतः शक्र इवामरैः ।\nवने द्वैतवने तस्मिन्विजहार मुदा युतः ॥",
+          "meaning": {
+            "en": "and surrounded by all the ascetics like Indra among the gods, lived happily in the Dvaita forest."
+          }
         }
       ]
     }

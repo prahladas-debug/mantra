@@ -22,114 +22,201 @@
       "titleEn": "Vairata Parva (At Virata's court)",
       "verses": [
         {
-          "text": "जनमेजय उवाच"
+          "text": "जनमेजय उवाच",
+          "meaning": {
+            "en": "Janamejaya said:"
+          }
         },
         {
           "n": 1,
-          "text": "कथं विराटनगरे मम पूर्वपितामहाः ।\nअज्ञातवासमुषिता दुर्योधनभयार्दिताः ॥"
+          "text": "कथं विराटनगरे मम पूर्वपितामहाः ।\nअज्ञातवासमुषिता दुर्योधनभयार्दिताः ॥",
+          "meaning": {
+            "en": "How did my forefathers, the Pandavas, spend their year of hidden life in Virata's city, tormented as they were by fear of Duryodhana?"
+          }
         },
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 2,
-          "text": "तथा तु स वराँल्लब्ध्वा धर्माद्धर्मभृतां वरः ।\nगत्वाश्रमं ब्राह्मणेभ्य आचख्यौ सर्वमेव तत् ॥"
+          "text": "तथा तु स वराँल्लब्ध्वा धर्माद्धर्मभृतां वरः ।\nगत्वाश्रमं ब्राह्मणेभ्य आचख्यौ सर्वमेव तत् ॥",
+          "meaning": {
+            "en": "Having won those boons from Dharma, the best of the righteous went to the hermitage and told the brahmins all that had happened."
+          }
         },
         {
           "n": 3,
-          "text": "कथयित्वा तु तत्सर्वं ब्राह्मणेभ्यो युधिष्ठिरः ।\nअरणीसहितं तस्मै ब्राह्मणाय न्यवेदयत् ॥"
+          "text": "कथयित्वा तु तत्सर्वं ब्राह्मणेभ्यो युधिष्ठिरः ।\nअरणीसहितं तस्मै ब्राह्मणाय न्यवेदयत् ॥",
+          "meaning": {
+            "en": "When Yudhishthira had told the brahmins everything, he returned the fire-sticks to the brahmin who had lost them."
+          }
         },
         {
           "n": 4,
-          "text": "ततो युधिष्ठिरो राजा धर्मपुत्रो महामनाः ।\nसंनिवर्त्यानुजान्सर्वानिति होवाच भारत ॥"
+          "text": "ततो युधिष्ठिरो राजा धर्मपुत्रो महामनाः ।\nसंनिवर्त्यानुजान्सर्वानिति होवाच भारत ॥",
+          "meaning": {
+            "en": "Then King Yudhishthira, the noble son of Dharma, called back all his brothers and spoke to them, O Bharata:"
+          }
         },
         {
           "n": 5,
-          "text": "द्वादशेमानि वर्षाणि राष्ट्राद्विप्रोषिता वयम् ।\nत्रयोदशोऽयं संप्राप्तः कृच्छ्रः परमदुर्वसः ॥"
+          "text": "द्वादशेमानि वर्षाणि राष्ट्राद्विप्रोषिता वयम् ।\nत्रयोदशोऽयं संप्राप्तः कृच्छ्रः परमदुर्वसः ॥",
+          "meaning": {
+            "en": "We have spent twelve years banished from our kingdom, and now the thirteenth, hard and most difficult to live through, has arrived."
+          }
         },
         {
           "n": 6,
-          "text": "स साधु कौन्तेय इतो वासमर्जुन रोचय ।\nयत्रेमा वसतीः सर्वा वसेमाविदिताः परैः ॥"
+          "text": "स साधु कौन्तेय इतो वासमर्जुन रोचय ।\nयत्रेमा वसतीः सर्वा वसेमाविदिताः परैः ॥",
+          "meaning": {
+            "en": "So, Arjuna, son of Kunti, choose a good place from here where we can live this whole year unrecognized by our enemies."
+          }
         },
         {
-          "text": "अर्जुन उवाच"
+          "text": "अर्जुन उवाच",
+          "meaning": {
+            "en": "Arjuna said:"
+          }
         },
         {
           "n": 7,
-          "text": "तस्यैव वरदानेन धर्मस्य मनुजाधिप ।\nअज्ञाता विचरिष्यामो नराणां भरतर्षभ ॥"
+          "text": "तस्यैव वरदानेन धर्मस्य मनुजाधिप ।\nअज्ञाता विचरिष्यामो नराणां भरतर्षभ ॥",
+          "meaning": {
+            "en": "By the very boon granted by Dharma, O lord of men, we shall move about unrecognized by people, O bull of the Bharatas."
+          }
         },
         {
           "n": 8,
-          "text": "किं तु वासाय राष्ट्राणि कीर्तयिष्यामि कानिचित् ।\nरमणीयानि गुप्तानि तेषां किंचित्स्म रोचय ॥"
+          "text": "किं तु वासाय राष्ट्राणि कीर्तयिष्यामि कानिचित् ।\nरमणीयानि गुप्तानि तेषां किंचित्स्म रोचय ॥",
+          "meaning": {
+            "en": "Still, I shall name a few lovely and secluded kingdoms for our stay; please choose one of them."
+          }
         },
         {
           "n": 9,
-          "text": "सन्ति रम्या जनपदा बह्वन्नाः परितः कुरून् ।\nपाञ्चालाश्चेदिमत्स्याश्च शूरसेनाः पटच्चराः ।\nदशार्णा नवराष्ट्रं च मल्लाः शाल्वा युगंधराः ॥"
+          "text": "सन्ति रम्या जनपदा बह्वन्नाः परितः कुरून् ।\nपाञ्चालाश्चेदिमत्स्याश्च शूरसेनाः पटच्चराः ।\nदशार्णा नवराष्ट्रं च मल्लाः शाल्वा युगंधराः ॥",
+          "meaning": {
+            "en": "Around the Kurus lie pleasant lands rich in grain: the Panchalas, Chedis, Matsyas, Shurasenas, Patachcharas, Dasharnas, Navarashtra, Mallas, Shalvas and Yugandharas."
+          }
         },
         {
           "n": 10,
-          "text": "एतेषां कतमो राजन्निवासस्तव रोचते ।\nवत्स्यामो यत्र राजेन्द्र संवत्सरमिमं वयम् ॥"
+          "text": "एतेषां कतमो राजन्निवासस्तव रोचते ।\nवत्स्यामो यत्र राजेन्द्र संवत्सरमिमं वयम् ॥",
+          "meaning": {
+            "en": "O king, which of these do you like as our residence? Tell us where we shall live this year, O best of kings."
+          }
         },
         {
-          "text": "युधिष्ठिर उवाच"
+          "text": "युधिष्ठिर उवाच",
+          "meaning": {
+            "en": "Yudhishthira said:"
+          }
         },
         {
           "n": 11,
-          "text": "एवमेतन्महाबाहो यथा स भगवान्प्रभुः ।\nअब्रवीत्सर्वभूतेशस्तत्तथा न तदन्यथा ॥"
+          "text": "एवमेतन्महाबाहो यथा स भगवान्प्रभुः ।\nअब्रवीत्सर्वभूतेशस्तत्तथा न तदन्यथा ॥",
+          "meaning": {
+            "en": "It is just as you say, mighty-armed Arjuna; whatever the Lord, master of all beings, declared will be so and not otherwise."
+          }
         },
         {
           "n": 12,
-          "text": "अवश्यं त्वेव वासार्थं रमणीयं शिवं सुखम् ।\nसंमन्त्र्य सहितैः सर्वैर्द्रष्टव्यमकुतोभयम् ॥"
+          "text": "अवश्यं त्वेव वासार्थं रमणीयं शिवं सुखम् ।\nसंमन्त्र्य सहितैः सर्वैर्द्रष्टव्यमकुतोभयम् ॥",
+          "meaning": {
+            "en": "Yet we must choose a place to live that is pleasant, safe and comfortable, and after consulting all together we must find one free from any fear."
+          }
         },
         {
           "n": 13,
-          "text": "मत्स्यो विराटो बलवानभिरक्षेत्स पाण्डवान् ।\nधर्मशीलो वदान्यश्च वृद्धश्च सुमहाधनः ॥"
+          "text": "मत्स्यो विराटो बलवानभिरक्षेत्स पाण्डवान् ।\nधर्मशीलो वदान्यश्च वृद्धश्च सुमहाधनः ॥",
+          "meaning": {
+            "en": "The Matsya king Virata is powerful, and he could protect the Pandavas; he is righteous, generous, aged and very rich."
+          }
         },
         {
           "n": 14,
-          "text": "विराटनगरे तात संवत्सरमिमं वयम् ।\nकुर्वन्तस्तस्य कर्माणि विहरिष्याम भारत ॥"
+          "text": "विराटनगरे तात संवत्सरमिमं वयम् ।\nकुर्वन्तस्तस्य कर्माणि विहरिष्याम भारत ॥",
+          "meaning": {
+            "en": "Dear brother, we shall spend this year in Virata's city, serving him and enjoying ourselves, O Bharata."
+          }
         },
         {
           "n": 15,
-          "text": "यानि यानि च कर्माणि तस्य शक्ष्यामहे वयम् ।\nकर्तुं यो यत्स तत्कर्म ब्रवीतु कुरुनन्दनाः ॥"
+          "text": "यानि यानि च कर्माणि तस्य शक्ष्यामहे वयम् ।\nकर्तुं यो यत्स तत्कर्म ब्रवीतु कुरुनन्दनाः ॥",
+          "meaning": {
+            "en": "Let each of you, sons of the Kurus, say what work he will be able to do for that king."
+          }
         },
         {
-          "text": "अर्जुन उवाच"
+          "text": "अर्जुन उवाच",
+          "meaning": {
+            "en": "Arjuna said:"
+          }
         },
         {
           "n": 16,
-          "text": "नरदेव कथं कर्म राष्ट्रे तस्य करिष्यसि ।\nविराटनृपतेः साधो रंस्यसे केन कर्मणा ॥"
+          "text": "नरदेव कथं कर्म राष्ट्रे तस्य करिष्यसि ।\nविराटनृपतेः साधो रंस्यसे केन कर्मणा ॥",
+          "meaning": {
+            "en": "O king, what work will you do in his kingdom? What duty will you find pleasing under the good King Virata?"
+          }
         },
         {
           "n": 17,
-          "text": "मृदुर्वदान्यो ह्रीमांश्च धार्मिकः सत्यविक्रमः ।\nराजंस्त्वमापदा क्लिष्टः किं करिष्यसि पाण्डव ॥"
+          "text": "मृदुर्वदान्यो ह्रीमांश्च धार्मिकः सत्यविक्रमः ।\nराजंस्त्वमापदा क्लिष्टः किं करिष्यसि पाण्डव ॥",
+          "meaning": {
+            "en": "You are gentle, generous, modest, righteous and truly valiant. Being afflicted by misfortune, what will you do, Pandava?"
+          }
         },
         {
           "n": 18,
-          "text": "न दुःखमुचितं किंचिद्राजन्वेद यथा जनः ।\nस इमामापदं प्राप्य कथं घोरां तरिष्यसि ॥"
+          "text": "न दुःखमुचितं किंचिद्राजन्वेद यथा जनः ।\nस इमामापदं प्राप्य कथं घोरां तरिष्यसि ॥",
+          "meaning": {
+            "en": "O king, you have never known any hardship as ordinary people know it; having fallen into this dreadful calamity, how will you get across it?"
+          }
         },
         {
-          "text": "युधिष्ठिर उवाच"
+          "text": "युधिष्ठिर उवाच",
+          "meaning": {
+            "en": "Yudhishthira said:"
+          }
         },
         {
           "n": 19,
-          "text": "शृणुध्वं यत्करिष्यामि कर्म वै कुरुनन्दनाः ।\nविराटमनुसंप्राप्य राजानं पुरुषर्षभम् ॥"
+          "text": "शृणुध्वं यत्करिष्यामि कर्म वै कुरुनन्दनाः ।\nविराटमनुसंप्राप्य राजानं पुरुषर्षभम् ॥",
+          "meaning": {
+            "en": "Hear, sons of the Kurus, what work I shall do when I reach King Virata, that best of men."
+          }
         },
         {
           "n": 20,
-          "text": "सभास्तारो भविष्यामि तस्य राज्ञो महात्मनः ।\nकङ्को नाम द्विजो भूत्वा मताक्षः प्रियदेविता ॥"
+          "text": "सभास्तारो भविष्यामि तस्य राज्ञो महात्मनः ।\nकङ्को नाम द्विजो भूत्वा मताक्षः प्रियदेविता ॥",
+          "meaning": {
+            "en": "I shall become a courtier in that great king's assembly, a brahmin named Kanka, skilled at dice and fond of gambling."
+          }
         },
         {
           "n": 21,
-          "text": "वैडूर्यान्काञ्चनान्दान्तान्फलैर्ज्योतीरसैः सह ।\nकृष्णाक्षाँल्लोहिताक्षांश्च निर्वर्त्स्यामि मनोरमान् ॥"
+          "text": "वैडूर्यान्काञ्चनान्दान्तान्फलैर्ज्योतीरसैः सह ।\nकृष्णाक्षाँल्लोहिताक्षांश्च निर्वर्त्स्यामि मनोरमान् ॥",
+          "meaning": {
+            "en": "I shall make pleasing dice out of beryl, gold and ivory, with colored pips, and cast them with black and red markings."
+          }
         },
         {
           "n": 22,
-          "text": "आसं युधिष्ठिरस्याहं पुरा प्राणसमः सखा ।\nइति वक्ष्यामि राजानं यदि मामनुयोक्ष्यते ॥"
+          "text": "आसं युधिष्ठिरस्याहं पुरा प्राणसमः सखा ।\nइति वक्ष्यामि राजानं यदि मामनुयोक्ष्यते ॥",
+          "meaning": {
+            "en": "If he asks me, I shall tell the king: \"I was once Yudhishthira's dear friend, dear as his own life.\""
+          }
         },
         {
           "n": 23,
-          "text": "इत्येतद्वो मयाख्यातं विहरिष्याम्यहं यथा ।\nवृकोदर विराटे त्वं रंस्यसे केन कर्मणा ॥"
+          "text": "इत्येतद्वो मयाख्यातं विहरिष्याम्यहं यथा ।\nवृकोदर विराटे त्वं रंस्यसे केन कर्मणा ॥",
+          "meaning": {
+            "en": "That is what I have told you about how I shall pass the time. And you, Vrikodara, what work will you enjoy in Virata's house?"
+          }
         }
       ]
     }

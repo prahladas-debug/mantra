@@ -22,164 +22,287 @@
       "titleEn": "Ghoshayatra Parva (The cattle expedition)",
       "verses": [
         {
-          "text": "जनमेजय उवाच"
+          "text": "जनमेजय उवाच",
+          "meaning": {
+            "en": "Janamejaya said:"
+          }
         },
         {
           "n": 1,
-          "text": "वसमानेषु पार्थेषु वने तस्मिन्महात्मसु ।\nधार्तराष्ट्रा महेष्वासाः किमकुर्वन्त सत्तम ॥"
+          "text": "वसमानेषु पार्थेषु वने तस्मिन्महात्मसु ।\nधार्तराष्ट्रा महेष्वासाः किमकुर्वन्त सत्तम ॥",
+          "meaning": {
+            "en": "Best of men, while the great-souled Pandavas lived in that forest, what did the mighty archers, the sons of Dhritarashtra, do?"
+          }
         },
         {
           "n": 2,
-          "text": "कर्णो वैकर्तनश्चापि शकुनिश्च महाबलः ।\nभीष्मद्रोणकृपाश्चैव तन्मे शंसितुमर्हसि ॥"
+          "text": "कर्णो वैकर्तनश्चापि शकुनिश्च महाबलः ।\nभीष्मद्रोणकृपाश्चैव तन्मे शंसितुमर्हसि ॥",
+          "meaning": {
+            "en": "What did Karna, son of Vikartana, and mighty Shakuni, and Bhishma, Drona and Kripa do? Tell me that."
+          }
         },
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 3,
-          "text": "एवं गतेषु पार्थेषु विसृष्टे च सुयोधने ।\nआगते हास्तिनपुरं मोक्षिते पाण्डुनन्दनैः ।\nभीष्मोऽब्रवीन्महाराज धार्तराष्ट्रमिदं वचः ॥"
+          "text": "एवं गतेषु पार्थेषु विसृष्टे च सुयोधने ।\nआगते हास्तिनपुरं मोक्षिते पाण्डुनन्दनैः ।\nभीष्मोऽब्रवीन्महाराज धार्तराष्ट्रमिदं वचः ॥",
+          "meaning": {
+            "en": "When things had gone so, the Pandavas had returned, and Suyodhana, freed by the sons of Pandu, had come back to Hastinapura, Bhishma spoke these words to Dhritarashtra's son, O great king."
+          }
         },
         {
           "n": 4,
-          "text": "उक्तं तात मया पूर्वं गच्छतस्ते तपोवनम् ।\nगमनं मे न रुचितं तव तन्न कृतं च ते ॥"
+          "text": "उक्तं तात मया पूर्वं गच्छतस्ते तपोवनम् ।\nगमनं मे न रुचितं तव तन्न कृतं च ते ॥",
+          "meaning": {
+            "en": "\"Dear son, I told you before, when you went to the ascetics' forest, that I did not like your going. You did not heed me."
+          }
         },
         {
           "n": 5,
-          "text": "ततः प्राप्तं त्वया वीर ग्रहणं शत्रुभिर्बलात् ।\nमोक्षितश्चासि धर्मज्ञैः पाण्डवैर्न च लज्जसे ॥"
+          "text": "ततः प्राप्तं त्वया वीर ग्रहणं शत्रुभिर्बलात् ।\nमोक्षितश्चासि धर्मज्ञैः पाण्डवैर्न च लज्जसे ॥",
+          "meaning": {
+            "en": "Then you were seized by enemies by force, and freed by the Pandavas, who know dharma, and you feel no shame."
+          }
         },
         {
           "n": 6,
-          "text": "प्रत्यक्षं तव गान्धारे ससैन्यस्य विशां पते ।\nसूतपुत्रोऽपयाद्भीतो गन्धर्वाणां तदा रणात् ।\nक्रोशतस्तव राजेन्द्र ससैन्यस्य नृपात्मज ॥"
+          "text": "प्रत्यक्षं तव गान्धारे ससैन्यस्य विशां पते ।\nसूतपुत्रोऽपयाद्भीतो गन्धर्वाणां तदा रणात् ।\nक्रोशतस्तव राजेन्द्र ससैन्यस्य नृपात्मज ॥",
+          "meaning": {
+            "en": "Before your eyes, son of Gandhari, lord of men, and with your army, the charioteer's son ran from the battle in fear of the Gandharvas, while you and your army cried out."
+          }
         },
         {
           "n": 7,
-          "text": "दृष्टस्ते विक्रमश्चैव पाण्डवानां महात्मनाम् ।\nकर्णस्य च महाबाहो सूतपुत्रस्य दुर्मतेः ॥"
+          "text": "दृष्टस्ते विक्रमश्चैव पाण्डवानां महात्मनाम् ।\nकर्णस्य च महाबाहो सूतपुत्रस्य दुर्मतेः ॥",
+          "meaning": {
+            "en": "You have seen the prowess of the great-souled Pandavas, and that of Karna, the foolish charioteer's son, mighty-armed one."
+          }
         },
         {
           "n": 8,
-          "text": "न चापि पादभाक्कर्णः पाण्डवानां नृपोत्तम ।\nधनुर्वेदे च शौर्ये च धर्मे वा धर्मवत्सल ॥"
+          "text": "न चापि पादभाक्कर्णः पाण्डवानां नृपोत्तम ।\nधनुर्वेदे च शौर्ये च धर्मे वा धर्मवत्सल ॥",
+          "meaning": {
+            "en": "Karna is not worth a quarter of the Pandavas, best of kings, in archery, bravery or dharma, you who love dharma."
+          }
         },
         {
           "n": 9,
-          "text": "तस्य तेऽहं क्षमं मन्ये पाण्डवैस्तैर्महात्मभिः ।\nसंधिं संधिविदां श्रेष्ठ कुलस्यास्य विवृद्धये ॥"
+          "text": "तस्य तेऽहं क्षमं मन्ये पाण्डवैस्तैर्महात्मभिः ।\nसंधिं संधिविदां श्रेष्ठ कुलस्यास्य विवृद्धये ॥",
+          "meaning": {
+            "en": "So I think it right for you, best of those who know treaties, to make peace with those great-souled Pandavas for the growth of this family.\""
+          }
         },
         {
           "n": 10,
-          "text": "एवमुक्तस्तु भीष्मेण धार्तराष्ट्रो जनेश्वरः ।\nप्रहस्य सहसा राजन्विप्रतस्थे ससौबलः ॥"
+          "text": "एवमुक्तस्तु भीष्मेण धार्तराष्ट्रो जनेश्वरः ।\nप्रहस्य सहसा राजन्विप्रतस्थे ससौबलः ॥",
+          "meaning": {
+            "en": "Told this by Bhishma, King Dhritarashtra's son laughed and suddenly walked away with Shakuni, O king."
+          }
         },
         {
           "n": 11,
-          "text": "तं तु प्रस्थितमाज्ञाय कर्णदुःशासनादयः ।\nअनुजग्मुर्महेष्वासा धार्तराष्ट्रं महाबलम् ॥"
+          "text": "तं तु प्रस्थितमाज्ञाय कर्णदुःशासनादयः ।\nअनुजग्मुर्महेष्वासा धार्तराष्ट्रं महाबलम् ॥",
+          "meaning": {
+            "en": "Seeing him go, Karna, Duhshasana and other great archers followed the mighty Dhritarashtra's son."
+          }
         },
         {
           "n": 12,
-          "text": "तांस्तु संप्रस्थितान्दृष्ट्वा भीष्मः कुरुपितामहः ।\nलज्जया व्रीडितो राजञ्जगाम स्वं निवेशनम् ॥"
+          "text": "तांस्तु संप्रस्थितान्दृष्ट्वा भीष्मः कुरुपितामहः ।\nलज्जया व्रीडितो राजञ्जगाम स्वं निवेशनम् ॥",
+          "meaning": {
+            "en": "Seeing them leave, Bhishma, grandfather of the Kurus, ashamed, went to his own house."
+          }
         },
         {
           "n": 13,
-          "text": "गते भीष्मे महाराज धार्तराष्ट्रो जनाधिपः ।\nपुनरागम्य तं देशममन्त्रयत मन्त्रिभिः ॥"
+          "text": "गते भीष्मे महाराज धार्तराष्ट्रो जनाधिपः ।\nपुनरागम्य तं देशममन्त्रयत मन्त्रिभिः ॥",
+          "meaning": {
+            "en": "When Bhishma had gone, Dhritarashtra's son came back to the place and took counsel with his counselors."
+          }
         },
         {
           "n": 14,
-          "text": "किमस्माकं भवेच्छ्रेयः किं कार्यमवशिष्यते ।\nकथं नु सुकृतं च स्यान्मन्त्रयामास भारत ॥"
+          "text": "किमस्माकं भवेच्छ्रेयः किं कार्यमवशिष्यते ।\nकथं नु सुकृतं च स्यान्मन्त्रयामास भारत ॥",
+          "meaning": {
+            "en": "He asked, \"What would be best for us? What remains to be done? How could it be well done?\""
+          }
         },
         {
-          "text": "कर्ण उवाच"
+          "text": "कर्ण उवाच",
+          "meaning": {
+            "en": "Karna said:"
+          }
         },
         {
           "n": 15,
-          "text": "दुर्योधन निबोधेदं यत्त्वा वक्ष्यामि कौरव ।\nश्रुत्वा च तत्तथा सर्वं कर्तुमर्हस्यरिंदम ॥"
+          "text": "दुर्योधन निबोधेदं यत्त्वा वक्ष्यामि कौरव ।\nश्रुत्वा च तत्तथा सर्वं कर्तुमर्हस्यरिंदम ॥",
+          "meaning": {
+            "en": "Duryodhana, listen to what I will tell you, Kaurava; hearing it, you should do all of it, subduer of foes."
+          }
         },
         {
           "n": 16,
-          "text": "तवाद्य पृथिवी वीर निःसपत्ना नृपोत्तम ।\nतां पालय यथा शक्रो हतशत्रुर्महामनाः ॥"
+          "text": "तवाद्य पृथिवी वीर निःसपत्ना नृपोत्तम ।\nतां पालय यथा शक्रो हतशत्रुर्महामनाः ॥",
+          "meaning": {
+            "en": "The earth is yours today without rivals, hero. Rule it as Indra does, his enemies slain, with a great mind."
+          }
         },
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 17,
-          "text": "एवमुक्तस्तु कर्णेन कर्णं राजाब्रवीत्पुनः ।\nन किंचिद्दुर्लभं तस्य यस्य त्वं पुरुषर्षभ ॥"
+          "text": "एवमुक्तस्तु कर्णेन कर्णं राजाब्रवीत्पुनः ।\nन किंचिद्दुर्लभं तस्य यस्य त्वं पुरुषर्षभ ॥",
+          "meaning": {
+            "en": "Thus addressed by Karna, the king replied to Karna: \"Nothing is hard to get for one who has you, bull among men."
+          }
         },
         {
           "n": 18,
-          "text": "सहायश्चानुरक्तश्च मदर्थं च समुद्यतः ।\nअभिप्रायस्तु मे कश्चित्तं वै शृणु यथातथम् ॥"
+          "text": "सहायश्चानुरक्तश्च मदर्थं च समुद्यतः ।\nअभिप्रायस्तु मे कश्चित्तं वै शृणु यथातथम् ॥",
+          "meaning": {
+            "en": "You are my helper, devoted, and eager for my good. I have a wish; hear it truly."
+          }
         },
         {
           "n": 19,
-          "text": "राजसूयं पाण्डवस्य दृष्ट्वा क्रतुवरं तदा ।\nमम स्पृहा समुत्पन्ना तां संपादय सूतज ॥"
+          "text": "राजसूयं पाण्डवस्य दृष्ट्वा क्रतुवरं तदा ।\nमम स्पृहा समुत्पन्ना तां संपादय सूतज ॥",
+          "meaning": {
+            "en": "Seeing the Pandava's Rajasuya, that best of sacrifices, a longing arose in me. Fulfill it, son of the charioteer.\""
+          }
         },
         {
           "n": 20,
-          "text": "एवमुक्तस्ततः कर्णो राजानमिदमब्रवीत् ।\nतवाद्य पृथिवीपाला वश्याः सर्वे नृपोत्तम ॥"
+          "text": "एवमुक्तस्ततः कर्णो राजानमिदमब्रवीत् ।\nतवाद्य पृथिवीपाला वश्याः सर्वे नृपोत्तम ॥",
+          "meaning": {
+            "en": "Thus addressed, Karna said to the king, \"All the kings of the earth are in your power today, best of kings."
+          }
         },
         {
           "n": 21,
-          "text": "आहूयन्तां द्विजवराः संभाराश्च यथाविधि ।\nसंभ्रियन्तां कुरुश्रेष्ठ यज्ञोपकरणानि च ॥"
+          "text": "आहूयन्तां द्विजवराः संभाराश्च यथाविधि ।\nसंभ्रियन्तां कुरुश्रेष्ठ यज्ञोपकरणानि च ॥",
+          "meaning": {
+            "en": "Let the best of brahmins be summoned, let the materials be collected in due form, and let the sacrificial implements be gathered, best of Kurus."
+          }
         },
         {
           "n": 22,
-          "text": "ऋत्विजश्च समाहूता यथोक्तं वेदपारगाः ।\nक्रियां कुर्वन्तु ते राजन्यथाशास्त्रमरिंदम ॥"
+          "text": "ऋत्विजश्च समाहूता यथोक्तं वेदपारगाः ।\nक्रियां कुर्वन्तु ते राजन्यथाशास्त्रमरिंदम ॥",
+          "meaning": {
+            "en": "Let the priests who know the Vedas be summoned as prescribed, and let them perform the rite according to the rules, subduer of foes."
+          }
         },
         {
           "n": 23,
-          "text": "बह्वन्नपानसंयुक्तः सुसमृद्धगुणान्वितः ।\nप्रवर्ततां महायज्ञस्तवापि भरतर्षभ ॥"
+          "text": "बह्वन्नपानसंयुक्तः सुसमृद्धगुणान्वितः ।\nप्रवर्ततां महायज्ञस्तवापि भरतर्षभ ॥",
+          "meaning": {
+            "en": "Let your great sacrifice proceed, rich in food and drink and in every excellence, bull of the Bharatas.\""
+          }
         },
         {
           "n": 24,
-          "text": "एवमुक्तस्तु कर्णेन धार्तराष्ट्रो विशां पते ।\nपुरोहितं समानाय्य इदं वचनमब्रवीत् ॥"
+          "text": "एवमुक्तस्तु कर्णेन धार्तराष्ट्रो विशां पते ।\nपुरोहितं समानाय्य इदं वचनमब्रवीत् ॥",
+          "meaning": {
+            "en": "Told this by Karna, Dhritarashtra's son, lord of men, called his house priest and said to him:"
+          }
         },
         {
           "n": 25,
-          "text": "राजसूयं क्रतुश्रेष्ठं समाप्तवरदक्षिणम् ।\nआहर त्वं मम कृते यथान्यायं यथाक्रमम् ॥"
+          "text": "राजसूयं क्रतुश्रेष्ठं समाप्तवरदक्षिणम् ।\nआहर त्वं मम कृते यथान्यायं यथाक्रमम् ॥",
+          "meaning": {
+            "en": "\"Bring about for me the Rajasuya, the best of sacrifices, with fine gifts to priests at its end, properly and in order.\""
+          }
         },
         {
           "n": 26,
-          "text": "स एवमुक्तो नृपतिमुवाच द्विजपुंगवः ।\nन स शक्यः क्रतुश्रेष्ठो जीवमाने युधिष्ठिरे ।\nआहर्तुं कौरवश्रेष्ठ कुले तव नृपोत्तम ॥"
+          "text": "स एवमुक्तो नृपतिमुवाच द्विजपुंगवः ।\nन स शक्यः क्रतुश्रेष्ठो जीवमाने युधिष्ठिरे ।\nआहर्तुं कौरवश्रेष्ठ कुले तव नृपोत्तम ॥",
+          "meaning": {
+            "en": "Thus addressed, the best of brahmins said to the king: \"That best of sacrifices cannot be performed, best of Kauravas, while Yudhishthira lives, in your family."
+          }
         },
         {
           "n": 27,
-          "text": "दीर्घायुर्जीवति च वै धृतराष्ट्रः पिता तव ।\nअतश्चापि विरुद्धस्ते क्रतुरेष नृपोत्तम ॥"
+          "text": "दीर्घायुर्जीवति च वै धृतराष्ट्रः पिता तव ।\nअतश्चापि विरुद्धस्ते क्रतुरेष नृपोत्तम ॥",
+          "meaning": {
+            "en": "Your father Dhritarashtra is also alive and long-lived, so this sacrifice is forbidden to you, best of kings."
+          }
         },
         {
           "n": 28,
-          "text": "अस्ति त्वन्यन्महत्सत्रं राजसूयसमं प्रभो ।\nतेन त्वं यज राजेन्द्र शृणु चेदं वचो मम ॥"
+          "text": "अस्ति त्वन्यन्महत्सत्रं राजसूयसमं प्रभो ।\nतेन त्वं यज राजेन्द्र शृणु चेदं वचो मम ॥",
+          "meaning": {
+            "en": "But there is another great sacrifice, lord, equal to the Rajasuya. Perform that, king of kings; hear my words."
+          }
         },
         {
           "n": 29,
-          "text": "य इमे पृथिवीपालाः करदास्तव पार्थिव ।\nते करान्संप्रयच्छन्तु सुवर्णं च कृताकृतम् ॥"
+          "text": "य इमे पृथिवीपालाः करदास्तव पार्थिव ।\nते करान्संप्रयच्छन्तु सुवर्णं च कृताकृतम् ॥",
+          "meaning": {
+            "en": "Let these kings who pay you tribute give their taxes and gold, worked and unworked."
+          }
         },
         {
           "n": 30,
-          "text": "तेन ते क्रियतामद्य लाङ्गलं नृपसत्तम ।\nयज्ञवाटस्य ते भूमिः कृष्यतां तेन भारत ॥"
+          "text": "तेन ते क्रियतामद्य लाङ्गलं नृपसत्तम ।\nयज्ञवाटस्य ते भूमिः कृष्यतां तेन भारत ॥",
+          "meaning": {
+            "en": "Make a plough of it today, best of kings, and till the ground of your sacrificial site with it."
+          }
         },
         {
           "n": 31,
-          "text": "तत्र यज्ञो नृपश्रेष्ठ प्रभूतान्नः सुसंस्कृतः ।\nप्रवर्ततां यथान्यायं सर्वतो ह्यनिवारितः ॥"
+          "text": "तत्र यज्ञो नृपश्रेष्ठ प्रभूतान्नः सुसंस्कृतः ।\nप्रवर्ततां यथान्यायं सर्वतो ह्यनिवारितः ॥",
+          "meaning": {
+            "en": "There let your sacrifice, with abundant food and well prepared, go forward as prescribed, unobstructed on all sides."
+          }
         },
         {
           "n": 32,
-          "text": "एष ते वैष्णवो नाम यज्ञः सत्पुरुषोचितः ।\nएतेन नेष्टवान्कश्चिदृते विष्णुं पुरातनम् ॥"
+          "text": "एष ते वैष्णवो नाम यज्ञः सत्पुरुषोचितः ।\nएतेन नेष्टवान्कश्चिदृते विष्णुं पुरातनम् ॥",
+          "meaning": {
+            "en": "This is called the Vaishnava sacrifice, fit for good men. No one has performed it except Vishnu in ancient times."
+          }
         },
         {
           "n": 33,
-          "text": "राजसूयं क्रतुश्रेष्ठं स्पर्धत्येष महाक्रतुः ।\nअस्माकं रोचते चैव श्रेयश्च तव भारत ।\nअविघ्नश्च भवेदेष सफला स्यात्स्पृहा तव ॥"
+          "text": "राजसूयं क्रतुश्रेष्ठं स्पर्धत्येष महाक्रतुः ।\nअस्माकं रोचते चैव श्रेयश्च तव भारत ।\nअविघ्नश्च भवेदेष सफला स्यात्स्पृहा तव ॥",
+          "meaning": {
+            "en": "This great sacrifice rivals the best of sacrifices, the Rajasuya. We like it and it is good for you, Bharata. It will be free of obstacles and your wish will be fulfilled.\""
+          }
         },
         {
           "n": 34,
-          "text": "एवमुक्तस्तु तैर्विप्रैर्धार्तराष्ट्रो महीपतिः ।\nकर्णं च सौबलं चैव भ्रातॄंश्चैवेदमब्रवीत् ॥"
+          "text": "एवमुक्तस्तु तैर्विप्रैर्धार्तराष्ट्रो महीपतिः ।\nकर्णं च सौबलं चैव भ्रातॄंश्चैवेदमब्रवीत् ॥",
+          "meaning": {
+            "en": "Told this by those brahmins, King Dhritarashtra's son said to Karna, Shakuni and his brothers:"
+          }
         },
         {
           "n": 35,
-          "text": "रोचते मे वचः कृत्स्नं ब्राह्मणानां न संशयः ।\nरोचते यदि युष्माकं तन्मा प्रब्रूत माचिरम् ॥"
+          "text": "रोचते मे वचः कृत्स्नं ब्राह्मणानां न संशयः ।\nरोचते यदि युष्माकं तन्मा प्रब्रूत माचिरम् ॥",
+          "meaning": {
+            "en": "\"The brahmins' words please me entirely, there is no doubt. If you like it, tell me so without delay.\""
+          }
         },
         {
           "n": 36,
-          "text": "एवमुक्तास्तु ते सर्वे तथेत्यूचुर्नराधिपम् ।\nसंदिदेश ततो राजा व्यापारस्थान्यथाक्रमम् ॥"
+          "text": "एवमुक्तास्तु ते सर्वे तथेत्यूचुर्नराधिपम् ।\nसंदिदेश ततो राजा व्यापारस्थान्यथाक्रमम् ॥",
+          "meaning": {
+            "en": "They all said, \"So be it.\" The king then assigned officials to their duties in order."
+          }
         },
         {
           "n": 37,
-          "text": "हलस्य करणे चापि व्यादिष्टाः सर्वशिल्पिनः ।\nयथोक्तं च नृपश्रेष्ठ कृतं सर्वं यथाक्रमम् ॥"
+          "text": "हलस्य करणे चापि व्यादिष्टाः सर्वशिल्पिनः ।\nयथोक्तं च नृपश्रेष्ठ कृतं सर्वं यथाक्रमम् ॥",
+          "meaning": {
+            "en": "All the craftsmen were ordered to make the plough, and everything was done as directed, in order, best of kings."
+          }
         }
       ]
     }

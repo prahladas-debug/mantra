@@ -22,213 +22,381 @@
       "titleEn": "Kichakavadha Parva (Slaying of Kichaka)",
       "verses": [
         {
-          "text": "कीचक उवाच"
+          "text": "कीचक उवाच",
+          "meaning": {
+            "en": "Kichaka said:"
+          }
         },
         {
           "n": 1,
-          "text": "स्वागतं ते सुकेशान्ते सुव्युष्टा रजनी मम ।\nस्वामिनी त्वमनुप्राप्ता प्रकुरुष्व मम प्रियम् ॥"
+          "text": "स्वागतं ते सुकेशान्ते सुव्युष्टा रजनी मम ।\nस्वामिनी त्वमनुप्राप्ता प्रकुरुष्व मम प्रियम् ॥",
+          "meaning": {
+            "en": "Welcome, fair-haired lady; my night has dawned well. You have come as my mistress; do what pleases me."
+          }
         },
         {
           "n": 2,
-          "text": "सुवर्णमालाः कम्बूश्च कुण्डले परिहाटके ।\nआहरन्तु च वस्त्राणि कौशिकान्यजिनानि च ॥"
+          "text": "सुवर्णमालाः कम्बूश्च कुण्डले परिहाटके ।\nआहरन्तु च वस्त्राणि कौशिकान्यजिनानि च ॥",
+          "meaning": {
+            "en": "Let them bring you golden necklaces, conch bangles, golden earrings, silk garments and deerskins."
+          }
         },
         {
           "n": 3,
-          "text": "अस्ति मे शयनं शुभ्रं त्वदर्थमुपकल्पितम् ।\nएहि तत्र मया सार्धं पिबस्व मधुमाधवीम् ॥"
+          "text": "अस्ति मे शयनं शुभ्रं त्वदर्थमुपकल्पितम् ।\nएहि तत्र मया सार्धं पिबस्व मधुमाधवीम् ॥",
+          "meaning": {
+            "en": "I have a bright bed prepared for you; come there with me and drink sweet honey wine."
+          }
         },
         {
-          "text": "द्रौपद्युवाच"
+          "text": "द्रौपद्युवाच",
+          "meaning": {
+            "en": "Draupadi said:"
+          }
         },
         {
           "n": 4,
-          "text": "अप्रैषीद्राजपुत्री मां सुराहारीं तवान्तिकम् ।\nपानमानय मे क्षिप्रं पिपासा मेति चाब्रवीत् ॥"
+          "text": "अप्रैषीद्राजपुत्री मां सुराहारीं तवान्तिकम् ।\nपानमानय मे क्षिप्रं पिपासा मेति चाब्रवीत् ॥",
+          "meaning": {
+            "en": "The princess sent me to you to fetch wine. She said, \"Bring me a drink quickly; I am thirsty.\""
+          }
         },
         {
-          "text": "कीचक उवाच"
+          "text": "कीचक उवाच",
+          "meaning": {
+            "en": "Kichaka said:"
+          }
         },
         {
           "n": 5,
-          "text": "अन्या भद्रे नयिष्यन्ति राजपुत्र्याः परिस्रुतम् ॥"
+          "text": "अन्या भद्रे नयिष्यन्ति राजपुत्र्याः परिस्रुतम् ॥",
+          "meaning": {
+            "en": "Fair lady, others will bring the princess her drink."
+          }
         },
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 6,
-          "text": "इत्येनां दक्षिणे पाणौ सूतपुत्रः परामृशत् ।\nसा गृहीता विधुन्वाना भूमावाक्षिप्य कीचकम् ।\nसभां शरणमाधावद्यत्र राजा युधिष्ठिरः ॥"
+          "text": "इत्येनां दक्षिणे पाणौ सूतपुत्रः परामृशत् ।\nसा गृहीता विधुन्वाना भूमावाक्षिप्य कीचकम् ।\nसभां शरणमाधावद्यत्र राजा युधिष्ठिरः ॥",
+          "meaning": {
+            "en": "Saying this, the charioteer's son seized her right hand. As he held her, she shook him off, flung Kichaka to the ground, and ran to the court for refuge, where King Yudhishthira was."
+          }
         },
         {
           "n": 7,
-          "text": "तां कीचकः प्रधावन्तीं केशपक्षे परामृशत् ।\nअथैनां पश्यतो राज्ञः पातयित्वा पदावधीत् ॥"
+          "text": "तां कीचकः प्रधावन्तीं केशपक्षे परामृशत् ।\nअथैनां पश्यतो राज्ञः पातयित्वा पदावधीत् ॥",
+          "meaning": {
+            "en": "As she ran, Kichaka grabbed her by the hair; and, throwing her down before the king's eyes, he kicked her."
+          }
         },
         {
           "n": 8,
-          "text": "ततो योऽसौ तदार्केण राक्षसः संनियोजितः ।\nस कीचकमपोवाह वातवेगेन भारत ॥"
+          "text": "ततो योऽसौ तदार्केण राक्षसः संनियोजितः ।\nस कीचकमपोवाह वातवेगेन भारत ॥",
+          "meaning": {
+            "en": "Then the rakshasa whom the Sun had set there carried Kichaka off with the speed of wind, Bharata."
+          }
         },
         {
           "n": 9,
-          "text": "स पपात ततो भूमौ रक्षोबलसमाहतः ।\nविघूर्णमानो निश्चेष्टश्छिन्नमूल इव द्रुमः ॥"
+          "text": "स पपात ततो भूमौ रक्षोबलसमाहतः ।\nविघूर्णमानो निश्चेष्टश्छिन्नमूल इव द्रुमः ॥",
+          "meaning": {
+            "en": "Struck by the rakshasa's force, Kichaka fell to the ground, reeling and motionless like a tree cut at the root."
+          }
         },
         {
           "n": 10,
-          "text": "तां चासीनौ ददृशतुर्भीमसेनयुधिष्ठिरौ ।\nअमृष्यमाणौ कृष्णायाः कीचकेन पदा वधम् ॥"
+          "text": "तां चासीनौ ददृशतुर्भीमसेनयुधिष्ठिरौ ।\nअमृष्यमाणौ कृष्णायाः कीचकेन पदा वधम् ॥",
+          "meaning": {
+            "en": "Bhimasena and Yudhishthira, seated there, saw it and could not bear that Kichaka had kicked Krishna."
+          }
         },
         {
           "n": 11,
-          "text": "तस्य भीमो वधप्रेप्सुः कीचकस्य दुरात्मनः ।\nदन्तैर्दन्तांस्तदा रोषान्निष्पिपेष महामनाः ॥"
+          "text": "तस्य भीमो वधप्रेप्सुः कीचकस्य दुरात्मनः ।\nदन्तैर्दन्तांस्तदा रोषान्निष्पिपेष महामनाः ॥",
+          "meaning": {
+            "en": "Bhima, wishing to kill that wicked Kichaka, ground his teeth in anger, high-minded as he was."
+          }
         },
         {
           "n": 12,
-          "text": "अथाङ्गुष्ठेनावमृद्नादङ्गुष्ठं तस्य धर्मराट् ।\nप्रबोधनभयाद्राजन्भीमस्य प्रत्यषेधयत् ॥"
+          "text": "अथाङ्गुष्ठेनावमृद्नादङ्गुष्ठं तस्य धर्मराट् ।\nप्रबोधनभयाद्राजन्भीमस्य प्रत्यषेधयत् ॥",
+          "meaning": {
+            "en": "But the king of dharma pressed Bhima's thumb with his own, restraining him, O king, for fear they would be discovered."
+          }
         },
         {
           "n": 13,
-          "text": "सा सभाद्वारमासाद्य रुदती मत्स्यमब्रवीत् ।\nअवेक्षमाणा सुश्रोणी पतींस्तान्दीनचेतसः ॥"
+          "text": "सा सभाद्वारमासाद्य रुदती मत्स्यमब्रवीत् ।\nअवेक्षमाणा सुश्रोणी पतींस्तान्दीनचेतसः ॥",
+          "meaning": {
+            "en": "Weeping, she reached the door of the court and spoke to the Matsya king, looking at her husbands, whose spirits were low."
+          }
         },
         {
           "n": 14,
-          "text": "आकारमभिरक्षन्ती प्रतिज्ञां धर्मसंहिताम् ।\nदह्यमानेव रौद्रेण चक्षुषा द्रुपदात्मजा ॥"
+          "text": "आकारमभिरक्षन्ती प्रतिज्ञां धर्मसंहिताम् ।\nदह्यमानेव रौद्रेण चक्षुषा द्रुपदात्मजा ॥",
+          "meaning": {
+            "en": "Keeping her appearance in check and her pledge bound by dharma, Drupada's daughter seemed to burn with a fierce gaze."
+          }
         },
         {
-          "text": "द्रौपद्युवाच"
+          "text": "द्रौपद्युवाच",
+          "meaning": {
+            "en": "Draupadi said:"
+          }
         },
         {
           "n": 15,
-          "text": "येषां वैरी न स्वपिति पदा भूमिमुपस्पृशन् ।\nतेषां मां मानिनीं भार्यां सूतपुत्रः पदावधीत् ॥"
+          "text": "येषां वैरी न स्वपिति पदा भूमिमुपस्पृशन् ।\nतेषां मां मानिनीं भार्यां सूतपुत्रः पदावधीत् ॥",
+          "meaning": {
+            "en": "The son of a charioteer has kicked me, the proud wife of those whose enemy cannot sleep as he touches the ground with his feet."
+          }
         },
         {
           "n": 16,
-          "text": "ये दद्युर्न च याचेयुर्ब्रह्मण्याः सत्यवादिनः ।\nतेषां मां मानिनीं भार्यां सूतपुत्रः पदावधीत् ॥"
+          "text": "ये दद्युर्न च याचेयुर्ब्रह्मण्याः सत्यवादिनः ।\nतेषां मां मानिनीं भार्यां सूतपुत्रः पदावधीत् ॥",
+          "meaning": {
+            "en": "The son of a charioteer has kicked me, the proud wife of those who give and never beg, who are devoted to brahmins and speak truth."
+          }
         },
         {
           "n": 17,
-          "text": "येषां दुन्दुभिनिर्घोषो ज्याघोषः श्रूयतेऽनिशम् ।\nतेषां मां मानिनीं भार्यां सूतपुत्रः पदावधीत् ॥"
+          "text": "येषां दुन्दुभिनिर्घोषो ज्याघोषः श्रूयतेऽनिशम् ।\nतेषां मां मानिनीं भार्यां सूतपुत्रः पदावधीत् ॥",
+          "meaning": {
+            "en": "The son of a charioteer has kicked me, the proud wife of those whose war-drum's roar and bowstring's twang are heard without pause."
+          }
         },
         {
           "n": 18,
-          "text": "ये ते तेजस्विनो दान्ता बलवन्तोऽभिमानिनः ।\nतेषां मां मानिनीं भार्यां सूतपुत्रः पदावधीत् ॥"
+          "text": "ये ते तेजस्विनो दान्ता बलवन्तोऽभिमानिनः ।\nतेषां मां मानिनीं भार्यां सूतपुत्रः पदावधीत् ॥",
+          "meaning": {
+            "en": "The son of a charioteer has kicked me, the proud wife of those mighty, self-controlled, brilliant and proud ones."
+          }
         },
         {
           "n": 19,
-          "text": "सर्वलोकमिमं हन्युर्धर्मपाशसितास्तु ये ।\nतेषां मां मानिनीं भार्यां सूतपुत्रः पदावधीत् ॥"
+          "text": "सर्वलोकमिमं हन्युर्धर्मपाशसितास्तु ये ।\nतेषां मां मानिनीं भार्यां सूतपुत्रः पदावधीत् ॥",
+          "meaning": {
+            "en": "The son of a charioteer has kicked me, the proud wife of those who, bound by the ropes of dharma, could destroy this whole world."
+          }
         },
         {
           "n": 20,
-          "text": "शरणं ये प्रपन्नानां भवन्ति शरणार्थिनाम् ।\nचरन्ति लोके प्रच्छन्नाः क्व नु तेऽद्य महारथाः ॥"
+          "text": "शरणं ये प्रपन्नानां भवन्ति शरणार्थिनाम् ।\nचरन्ति लोके प्रच्छन्नाः क्व नु तेऽद्य महारथाः ॥",
+          "meaning": {
+            "en": "Where are those great charioteers now, who are the refuge of those who come seeking refuge, and who wander the world in hiding?"
+          }
         },
         {
           "n": 21,
-          "text": "कथं ते सूतपुत्रेण वध्यमानां प्रियां सतीम् ।\nमर्षयन्ति यथा क्लीबा बलवन्तोऽमितौजसः ॥"
+          "text": "कथं ते सूतपुत्रेण वध्यमानां प्रियां सतीम् ।\nमर्षयन्ति यथा क्लीबा बलवन्तोऽमितौजसः ॥",
+          "meaning": {
+            "en": "How can those strong men of boundless might endure, like eunuchs, seeing their beloved virtuous wife beaten by a charioteer's son?"
+          }
         },
         {
           "n": 22,
-          "text": "क्व नु तेषाममर्षश्च वीर्यं तेजश्च वर्तते ।\nन परीप्सन्ति ये भार्यां वध्यमानां दुरात्मना ॥"
+          "text": "क्व नु तेषाममर्षश्च वीर्यं तेजश्च वर्तते ।\nन परीप्सन्ति ये भार्यां वध्यमानां दुरात्मना ॥",
+          "meaning": {
+            "en": "Where are their anger, valor and fire, if they do not rescue their wife as she is beaten by a wicked man?"
+          }
         },
         {
           "n": 23,
-          "text": "मयात्र शक्यं किं कर्तुं विराटे धर्मदूषणम् ।\nयः पश्यन्मां मर्षयति वध्यमानामनागसम् ॥"
+          "text": "मयात्र शक्यं किं कर्तुं विराटे धर्मदूषणम् ।\nयः पश्यन्मां मर्षयति वध्यमानामनागसम् ॥",
+          "meaning": {
+            "en": "What can I do here? Virata is the stain on dharma, who watches me beaten though I am innocent and puts up with it."
+          }
         },
         {
           "n": 24,
-          "text": "न राजन्राजवत्किंचित्समाचरसि कीचके ।\nदस्यूनामिव धर्मस्ते न हि संसदि शोभते ॥"
+          "text": "न राजन्राजवत्किंचित्समाचरसि कीचके ।\nदस्यूनामिव धर्मस्ते न हि संसदि शोभते ॥",
+          "meaning": {
+            "en": "King, you do not behave like a king toward Kichaka; this conduct befits robbers and does not grace an assembly."
+          }
         },
         {
           "n": 25,
-          "text": "न कीचकः स्वधर्मस्थो न च मत्स्यः कथंचन ।\nसभासदोऽप्यधर्मज्ञा य इमं पर्युपासते ॥"
+          "text": "न कीचकः स्वधर्मस्थो न च मत्स्यः कथंचन ।\nसभासदोऽप्यधर्मज्ञा य इमं पर्युपासते ॥",
+          "meaning": {
+            "en": "Neither Kichaka nor the Matsya king stands in his own dharma, nor do these courtiers who sit by, ignorant of dharma."
+          }
         },
         {
           "n": 26,
-          "text": "नोपालभे त्वां नृपते विराट जनसंसदि ।\nनाहमेतेन युक्ता वै हन्तुं मत्स्य तवान्तिके ।\nसभासदस्तु पश्यन्तु कीचकस्य व्यतिक्रमम् ॥"
+          "text": "नोपालभे त्वां नृपते विराट जनसंसदि ।\nनाहमेतेन युक्ता वै हन्तुं मत्स्य तवान्तिके ।\nसभासदस्तु पश्यन्तु कीचकस्य व्यतिक्रमम् ॥",
+          "meaning": {
+            "en": "I do not blame you, lord Virata, in this public gathering; but I am not fit to be killed by him here in your presence, Matsya. Let the courtiers see Kichaka's transgression."
+          }
         },
         {
-          "text": "विराट उवाच"
+          "text": "विराट उवाच",
+          "meaning": {
+            "en": "Virata said:"
+          }
         },
         {
           "n": 27,
-          "text": "परोक्षं नाभिजानामि विग्रहं युवयोरहम् ।\nअर्थतत्त्वमविज्ञाय किं नु स्यात्कुशलं मम ॥"
+          "text": "परोक्षं नाभिजानामि विग्रहं युवयोरहम् ।\nअर्थतत्त्वमविज्ञाय किं नु स्यात्कुशलं मम ॥",
+          "meaning": {
+            "en": "I do not know the quarrel between you two, which took place out of my sight. Without understanding the matter, how can I act rightly?"
+          }
         },
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 28,
-          "text": "ततस्तु सभ्या विज्ञाय कृष्णां भूयोऽभ्यपूजयन् ।\nसाधु साध्विति चाप्याहुः कीचकं च व्यगर्हयन् ॥"
+          "text": "ततस्तु सभ्या विज्ञाय कृष्णां भूयोऽभ्यपूजयन् ।\nसाधु साध्विति चाप्याहुः कीचकं च व्यगर्हयन् ॥",
+          "meaning": {
+            "en": "Then the courtiers, learning what had happened, praised Krishna all the more, saying \"Well done, well done,\" and they rebuked Kichaka."
+          }
         },
         {
-          "text": "सभ्या ऊचुः"
+          "text": "सभ्या ऊचुः",
+          "meaning": {
+            "en": "The courtiers said:"
+          }
         },
         {
           "n": 29,
-          "text": "यस्येयं चारुसर्वाङ्गी भार्या स्यादायतेक्षणा ।\nपरो लाभश्च तस्य स्यान्न स शोचेत्कदाचन ॥"
+          "text": "यस्येयं चारुसर्वाङ्गी भार्या स्यादायतेक्षणा ।\nपरो लाभश्च तस्य स्यान्न स शोचेत्कदाचन ॥",
+          "meaning": {
+            "en": "The man who has this lovely, long-eyed woman, perfect in every limb, as his wife would gain the highest prize and never grieve."
+          }
         },
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 30,
-          "text": "एवं संपूजयंस्तत्र कृष्णां प्रेक्ष्य सभासदः ।\nयुधिष्ठिरस्य कोपात्तु ललाटे स्वेद आसजत् ॥"
+          "text": "एवं संपूजयंस्तत्र कृष्णां प्रेक्ष्य सभासदः ।\nयुधिष्ठिरस्य कोपात्तु ललाटे स्वेद आसजत् ॥",
+          "meaning": {
+            "en": "As the courtiers thus praised Krishna, seeing her, sweat broke out on Yudhishthira's forehead from his anger."
+          }
         },
         {
           "n": 31,
-          "text": "अथाब्रवीद्राजपुत्रीं कौरव्यो महिषीं प्रियाम् ।\nगच्छ सैरन्ध्रि मात्र स्थाः सुदेष्णाया निवेशनम् ॥"
+          "text": "अथाब्रवीद्राजपुत्रीं कौरव्यो महिषीं प्रियाम् ।\nगच्छ सैरन्ध्रि मात्र स्थाः सुदेष्णाया निवेशनम् ॥",
+          "meaning": {
+            "en": "Then the Kaurava said to his beloved queen, the king's daughter-like maid:"
+          }
         },
         {
           "n": 32,
-          "text": "भर्तारमनुरुध्यन्त्यः क्लिश्यन्ते वीरपत्नयः ।\nशुश्रूषया क्लिश्यमानाः पतिलोकं जयन्त्युत ॥"
+          "text": "भर्तारमनुरुध्यन्त्यः क्लिश्यन्ते वीरपत्नयः ।\nशुश्रूषया क्लिश्यमानाः पतिलोकं जयन्त्युत ॥",
+          "meaning": {
+            "en": "\"Go, sairandhri, do not stay here; go to Sudeshna's house. Wives of heroes suffer in following their husbands; by serving them in hardship they win their husbands' world.\""
+          }
         },
         {
           "n": 33,
-          "text": "मन्ये न कालं क्रोधस्य पश्यन्ति पतयस्तव ।\nतेन त्वां नाभिधावन्ति गन्धर्वाः सूर्यवर्चसः ॥"
+          "text": "मन्ये न कालं क्रोधस्य पश्यन्ति पतयस्तव ।\nतेन त्वां नाभिधावन्ति गन्धर्वाः सूर्यवर्चसः ॥",
+          "meaning": {
+            "en": "\"I think your husbands do not see the time for anger; that is why the sun-bright gandharvas do not rush to you.\""
+          }
         },
         {
           "n": 34,
-          "text": "अकालज्ञासि सैरन्ध्रि शैलूषीव विधावसि ।\nविघ्नं करोषि मत्स्यानां दीव्यतां राजसंसदि ।\nगच्छ सैरन्ध्रि गन्धर्वाः करिष्यन्ति तव प्रियम् ॥"
+          "text": "अकालज्ञासि सैरन्ध्रि शैलूषीव विधावसि ।\nविघ्नं करोषि मत्स्यानां दीव्यतां राजसंसदि ।\nगच्छ सैरन्ध्रि गन्धर्वाः करिष्यन्ति तव प्रियम् ॥",
+          "meaning": {
+            "en": "\"You do not know the right time, sairandhri; you run about like an actress. You interrupt the Matsyas' dice game in the king's court. Go, sairandhri; the gandharvas will do what is dear to you.\""
+          }
         },
         {
-          "text": "द्रौपद्युवाच"
+          "text": "द्रौपद्युवाच",
+          "meaning": {
+            "en": "Draupadi said:"
+          }
         },
         {
           "n": 35,
-          "text": "अतीव तेषां घृणिनामर्थेऽहं धर्मचारिणी ।\nतस्य तस्येह ते वध्या येषां ज्येष्ठोऽक्षदेविता ॥"
+          "text": "अतीव तेषां घृणिनामर्थेऽहं धर्मचारिणी ।\nतस्य तस्येह ते वध्या येषां ज्येष्ठोऽक्षदेविता ॥",
+          "meaning": {
+            "en": "For the sake of those compassionate ones I follow dharma very strictly; whoever has as eldest brother a lover of dice, they are bound to kill him."
+          }
         },
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 36,
-          "text": "इत्युक्त्वा प्राद्रवत्कृष्णा सुदेष्णाया निवेशनम् ।\nकेशान्मुक्त्वा तु सुश्रोणी संरम्भाल्लोहितेक्षणा ॥"
+          "text": "इत्युक्त्वा प्राद्रवत्कृष्णा सुदेष्णाया निवेशनम् ।\nकेशान्मुक्त्वा तु सुश्रोणी संरम्भाल्लोहितेक्षणा ॥",
+          "meaning": {
+            "en": "Having said this, Krishna ran toward Sudeshna's house, her hair loosened, her eyes red from agitation."
+          }
         },
         {
           "n": 37,
-          "text": "शुशुभे वदनं तस्या रुदन्त्या विरतं तदा ।\nमेघलेखाविनिर्मुक्तं दिवीव शशिमण्डलम् ॥"
+          "text": "शुशुभे वदनं तस्या रुदन्त्या विरतं तदा ।\nमेघलेखाविनिर्मुक्तं दिवीव शशिमण्डलम् ॥",
+          "meaning": {
+            "en": "Her face as she wept shone like the full moon in the sky, freed from a streak of cloud."
+          }
         },
         {
-          "text": "सुदेष्णोवाच"
+          "text": "सुदेष्णोवाच",
+          "meaning": {
+            "en": "Sudeshna said:"
+          }
         },
         {
           "n": 38,
-          "text": "कस्त्वावधीद्वरारोहे कस्माद्रोदिषि शोभने ।\nकस्याद्य न सुखं भद्रे केन ते विप्रियं कृतम् ॥"
+          "text": "कस्त्वावधीद्वरारोहे कस्माद्रोदिषि शोभने ।\nकस्याद्य न सुखं भद्रे केन ते विप्रियं कृतम् ॥",
+          "meaning": {
+            "en": "Who has struck you, lovely lady? Why do you weep, fair one? Who is unhappy today, who has done you wrong?"
+          }
         },
         {
-          "text": "द्रौपद्युवाच"
+          "text": "द्रौपद्युवाच",
+          "meaning": {
+            "en": "Draupadi said:"
+          }
         },
         {
           "n": 39,
-          "text": "कीचको मावधीत्तत्र सुराहारीं गतां तव ।\nसभायां पश्यतो राज्ञो यथैव विजने तथा ॥"
+          "text": "कीचको मावधीत्तत्र सुराहारीं गतां तव ।\nसभायां पश्यतो राज्ञो यथैव विजने तथा ॥",
+          "meaning": {
+            "en": "Kichaka struck me in the court, in the king's sight, as I went to your place to fetch the wine, as he would in a lonely spot."
+          }
         },
         {
-          "text": "सुदेष्णोवाच"
+          "text": "सुदेष्णोवाच",
+          "meaning": {
+            "en": "Sudeshna said:"
+          }
         },
         {
           "n": 40,
-          "text": "घातयामि सुकेशान्ते कीचकं यदि मन्यसे ।\nयोऽसौ त्वां कामसंमत्तो दुर्लभामभिमन्यते ॥"
+          "text": "घातयामि सुकेशान्ते कीचकं यदि मन्यसे ।\nयोऽसौ त्वां कामसंमत्तो दुर्लभामभिमन्यते ॥",
+          "meaning": {
+            "en": "Fair-haired one, I shall have Kichaka killed if you wish, he who in the madness of desire seeks you who are so hard to win."
+          }
         },
         {
-          "text": "द्रौपद्युवाच"
+          "text": "द्रौपद्युवाच",
+          "meaning": {
+            "en": "Draupadi said:"
+          }
         },
         {
           "n": 41,
-          "text": "अन्ये वै तं वधिष्यन्ति येषामागः करोति सः ।\nमन्ये चाद्यैव सुव्यक्तं परलोकं गमिष्यति ॥"
+          "text": "अन्ये वै तं वधिष्यन्ति येषामागः करोति सः ।\nमन्ये चाद्यैव सुव्यक्तं परलोकं गमिष्यति ॥",
+          "meaning": {
+            "en": "Others will kill him, those he has wronged; and I think that he will clearly go to the other world today itself."
+          }
         }
       ]
     }

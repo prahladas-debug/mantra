@@ -22,142 +22,250 @@
       "titleEn": "Tirthayatra Parva (The pilgrimage)",
       "verses": [
         {
-          "text": "युधिष्ठिर उवाच"
+          "text": "युधिष्ठिर उवाच",
+          "meaning": {
+            "en": "Yudhishthira said:"
+          }
         },
         {
           "n": 1,
-          "text": "अन्तर्हितानि भूतानि रक्षांसि बलवन्ति च ।\nअग्निना तपसा चैव शक्यं गन्तुं वृकोदर ॥"
+          "text": "अन्तर्हितानि भूतानि रक्षांसि बलवन्ति च ।\nअग्निना तपसा चैव शक्यं गन्तुं वृकोदर ॥",
+          "meaning": {
+            "en": "Vrikodara, hidden beings and mighty demons live there. One can go only by fire and austerity."
+          }
         },
         {
           "n": 2,
-          "text": "संनिवर्तय कौन्तेय क्षुत्पिपासे बलान्वयात् ।\nततो बलं च दाक्ष्यं च संश्रयस्व कुरूद्वह ॥"
+          "text": "संनिवर्तय कौन्तेय क्षुत्पिपासे बलान्वयात् ।\nततो बलं च दाक्ष्यं च संश्रयस्व कुरूद्वह ॥",
+          "meaning": {
+            "en": "Son of Kunti, hold back your hunger and thirst, which come from your strength, and then rely on strength and skill, bull of the Kurus."
+          }
         },
         {
           "n": 3,
-          "text": "ऋषेस्त्वया श्रुतं वाक्यं कैलासं पर्वतं प्रति ।\nबुद्ध्या प्रपश्य कौन्तेय कथं कृष्णा गमिष्यति ॥"
+          "text": "ऋषेस्त्वया श्रुतं वाक्यं कैलासं पर्वतं प्रति ।\nबुद्ध्या प्रपश्य कौन्तेय कथं कृष्णा गमिष्यति ॥",
+          "meaning": {
+            "en": "You have heard the sage's words about Mount Kailasa. Consider carefully, son of Kunti, how Krishna will go."
+          }
         },
         {
           "n": 4,
-          "text": "अथ वा सहदेवेन धौम्येन च सहाभिभो ।\nसूदैः पौरोगवैश्चैव सर्वैश्च परिचारकैः ॥"
+          "text": "अथ वा सहदेवेन धौम्येन च सहाभिभो ।\nसूदैः पौरोगवैश्चैव सर्वैश्च परिचारकैः ॥",
+          "meaning": {
+            "en": "Or, mighty one, go back together with Sahadeva and Dhaumya, the cooks and the stewards and all the attendants,"
+          }
         },
         {
           "n": 5,
-          "text": "रथैरश्वैश्च ये चान्ये विप्राः क्लेशासहाः पथि ।\nसर्वैस्त्वं सहितो भीम निवर्तस्वायतेक्षण ॥"
+          "text": "रथैरश्वैश्च ये चान्ये विप्राः क्लेशासहाः पथि ।\nसर्वैस्त्वं सहितो भीम निवर्तस्वायतेक्षण ॥",
+          "meaning": {
+            "en": "and with the chariots, the horses, and any other brahmins who cannot bear hardship on the road. Bhima of the long eyes, turn back with them all."
+          }
         },
         {
           "n": 6,
-          "text": "त्रयो वयं गमिष्यामो लघ्वाहारा यतव्रताः ।\nअहं च नकुलश्चैव लोमशश्च महातपाः ॥"
+          "text": "त्रयो वयं गमिष्यामो लघ्वाहारा यतव्रताः ।\nअहं च नकुलश्चैव लोमशश्च महातपाः ॥",
+          "meaning": {
+            "en": "Three of us will go, eating little and firm in our vows: I, Nakula, and the great ascetic Lomasha."
+          }
         },
         {
           "n": 7,
-          "text": "ममागमनमाकाङ्क्षन्गङ्गाद्वारे समाहितः ।\nवसेह द्रौपदीं रक्षन्यावदागमनं मम ॥"
+          "text": "ममागमनमाकाङ्क्षन्गङ्गाद्वारे समाहितः ।\nवसेह द्रौपदीं रक्षन्यावदागमनं मम ॥",
+          "meaning": {
+            "en": "Wait for me to return, composed, at Gangadvara, guarding Draupadi until I come back."
+          }
         },
         {
-          "text": "भीम उवाच"
+          "text": "भीम उवाच",
+          "meaning": {
+            "en": "Bhima said:"
+          }
         },
         {
           "n": 8,
-          "text": "राजपुत्री श्रमेणार्ता दुःखार्ता चैव भारत ।\nव्रजत्येव हि कल्याणी श्वेतवाहदिदृक्षया ॥"
+          "text": "राजपुत्री श्रमेणार्ता दुःखार्ता चैव भारत ।\nव्रजत्येव हि कल्याणी श्वेतवाहदिदृक्षया ॥",
+          "meaning": {
+            "en": "The princess is weary and in distress, Bharata, and yet that fair lady keeps going, wanting to see the white-horsed Arjuna."
+          }
         },
         {
           "n": 9,
-          "text": "तव चाप्यरतिस्तीव्रा वर्धते तमपश्यतः ।\nकिं पुनः सहदेवं च मां च कृष्णां च भारत ॥"
+          "text": "तव चाप्यरतिस्तीव्रा वर्धते तमपश्यतः ।\nकिं पुनः सहदेवं च मां च कृष्णां च भारत ॥",
+          "meaning": {
+            "en": "And your own restlessness grows keen from not seeing him. How much more then ours, Sahadeva's and mine and Krishna's."
+          }
         },
         {
           "n": 10,
-          "text": "रथाः कामं निवर्तन्तां सर्वे च परिचारकाः ।\nसूदाः पौरोगवाश्चैव मन्यते यत्र नो भवान् ॥"
+          "text": "रथाः कामं निवर्तन्तां सर्वे च परिचारकाः ।\nसूदाः पौरोगवाश्चैव मन्यते यत्र नो भवान् ॥",
+          "meaning": {
+            "en": "Let the chariots go back as they will, and all the attendants, cooks and stewards, wherever you think best for us."
+          }
         },
         {
           "n": 11,
-          "text": "न ह्यहं हातुमिच्छामि भवन्तमिह कर्हिचित् ।\nशैलेऽस्मिन्राक्षसाकीर्णे दुर्गेषु विषमेषु च ॥"
+          "text": "न ह्यहं हातुमिच्छामि भवन्तमिह कर्हिचित् ।\nशैलेऽस्मिन्राक्षसाकीर्णे दुर्गेषु विषमेषु च ॥",
+          "meaning": {
+            "en": "I do not want to leave you anywhere, in this rocky place full of demons, among difficult, uneven passes."
+          }
         },
         {
           "n": 12,
-          "text": "इयं चापि महाभागा राजपुत्री यतव्रता ।\nत्वामृते पुरुषव्याघ्र नोत्सहेद्विनिवर्तितुम् ॥"
+          "text": "इयं चापि महाभागा राजपुत्री यतव्रता ।\nत्वामृते पुरुषव्याघ्र नोत्सहेद्विनिवर्तितुम् ॥",
+          "meaning": {
+            "en": "And this noble princess, firm in her vows, tiger among men, would not agree to turn back without you."
+          }
         },
         {
           "n": 13,
-          "text": "तथैव सहदेवोऽयं सततं त्वामनुव्रतः ।\nन जातु विनिवर्तेत मतज्ञो ह्यहमस्य वै ॥"
+          "text": "तथैव सहदेवोऽयं सततं त्वामनुव्रतः ।\nन जातु विनिवर्तेत मतज्ञो ह्यहमस्य वै ॥",
+          "meaning": {
+            "en": "Sahadeva, too, is always devoted to you and would never turn back. I know his mind."
+          }
         },
         {
           "n": 14,
-          "text": "अपि चात्र महाराज सव्यसाचिदिदृक्षया ।\nसर्वे लालसभूताः स्म तस्माद्यास्यामहे सह ॥"
+          "text": "अपि चात्र महाराज सव्यसाचिदिदृक्षया ।\nसर्वे लालसभूताः स्म तस्माद्यास्यामहे सह ॥",
+          "meaning": {
+            "en": "And here, great king, we are all full of longing to see Savyasachin, so we shall go together."
+          }
         },
         {
           "n": 15,
-          "text": "यद्यशक्यो रथैर्गन्तुं शैलोऽयं बहुकन्दरः ।\nपद्भिरेव गमिष्यामो मा राजन्विमना भव ॥"
+          "text": "यद्यशक्यो रथैर्गन्तुं शैलोऽयं बहुकन्दरः ।\nपद्भिरेव गमिष्यामो मा राजन्विमना भव ॥",
+          "meaning": {
+            "en": "If this mountain with its many caves cannot be crossed by chariot, we shall go on foot. King, do not be downcast."
+          }
         },
         {
           "n": 16,
-          "text": "अहं वहिष्ये पाञ्चालीं यत्र यत्र न शक्ष्यति ।\nइति मे वर्तते बुद्धिर्मा राजन्विमना भव ॥"
+          "text": "अहं वहिष्ये पाञ्चालीं यत्र यत्र न शक्ष्यति ।\nइति मे वर्तते बुद्धिर्मा राजन्विमना भव ॥",
+          "meaning": {
+            "en": "I shall carry the Panchali wherever she cannot walk. This is my intention; do not be downcast, king."
+          }
         },
         {
           "n": 17,
-          "text": "सुकुमारौ तथा वीरौ माद्रीनन्दिकरावुभौ ।\nदुर्गे संतारयिष्यामि यद्यशक्तौ भविष्यतः ॥"
+          "text": "सुकुमारौ तथा वीरौ माद्रीनन्दिकरावुभौ ।\nदुर्गे संतारयिष्यामि यद्यशक्तौ भविष्यतः ॥",
+          "meaning": {
+            "en": "And the two delicate heroes, the delight of Madri, I shall bring across the hard parts if they are unable."
+          }
         },
         {
-          "text": "युधिष्ठिर उवाच"
+          "text": "युधिष्ठिर उवाच",
+          "meaning": {
+            "en": "Yudhishthira said:"
+          }
         },
         {
           "n": 18,
-          "text": "एवं ते भाषमाणस्य बलं भीमाभिवर्धताम् ।\nयस्त्वमुत्सहसे वोढुं द्रौपदीं विपुलेऽध्वनि ॥"
+          "text": "एवं ते भाषमाणस्य बलं भीमाभिवर्धताम् ।\nयस्त्वमुत्सहसे वोढुं द्रौपदीं विपुलेऽध्वनि ॥",
+          "meaning": {
+            "en": "Bhima, since you say so, may your strength increase, you who are able to carry Draupadi over a long road."
+          }
         },
         {
           "n": 19,
-          "text": "यमजौ चापि भद्रं ते नैतदन्यत्र विद्यते ।\nबलं च ते यशश्चैव धर्मः कीर्तिश्च वर्धताम् ॥"
+          "text": "यमजौ चापि भद्रं ते नैतदन्यत्र विद्यते ।\nबलं च ते यशश्चैव धर्मः कीर्तिश्च वर्धताम् ॥",
+          "meaning": {
+            "en": "Blessings to the twins also. There is no one like you elsewhere. May your strength, fame, dharma and renown grow."
+          }
         },
         {
           "n": 20,
-          "text": "यस्त्वमुत्सहसे नेतुं भ्रातरौ सह कृष्णया ।\nमा ते ग्लानिर्महाबाहो मा च तेऽस्तु पराभवः ॥"
+          "text": "यस्त्वमुत्सहसे नेतुं भ्रातरौ सह कृष्णया ।\nमा ते ग्लानिर्महाबाहो मा च तेऽस्तु पराभवः ॥",
+          "meaning": {
+            "en": "You who are ready to take your two brothers and Krishna, mighty-armed one, may you not tire and may you never be defeated."
+          }
         },
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 21,
-          "text": "ततः कृष्णाब्रवीद्वाक्यं प्रहसन्ती मनोरमा ।\nगमिष्यामि न संतापः कार्यो मां प्रति भारत ॥"
+          "text": "ततः कृष्णाब्रवीद्वाक्यं प्रहसन्ती मनोरमा ।\nगमिष्यामि न संतापः कार्यो मां प्रति भारत ॥",
+          "meaning": {
+            "en": "Then lovely Krishna spoke, laughing: \"I will go. Do not grieve about me, Bharata.\""
+          }
         },
         {
-          "text": "लोमश उवाच"
+          "text": "लोमश उवाच",
+          "meaning": {
+            "en": "Lomasha said:"
+          }
         },
         {
           "n": 22,
-          "text": "तपसा शक्यते गन्तुं पर्वतो गन्धमादनः ।\nतपसा चैव कौन्तेय सर्वे योक्ष्यामहे वयम् ॥"
+          "text": "तपसा शक्यते गन्तुं पर्वतो गन्धमादनः ।\nतपसा चैव कौन्तेय सर्वे योक्ष्यामहे वयम् ॥",
+          "meaning": {
+            "en": "The mountain Gandhamadana can be reached by austerity. By austerity, son of Kunti, we shall all be joined to it."
+          }
         },
         {
           "n": 23,
-          "text": "नकुलः सहदेवश्च भीमसेनश्च पार्थिव ।\nअहं च त्वं च कौन्तेय द्रक्ष्यामः श्वेतवाहनम् ॥"
+          "text": "नकुलः सहदेवश्च भीमसेनश्च पार्थिव ।\nअहं च त्वं च कौन्तेय द्रक्ष्यामः श्वेतवाहनम् ॥",
+          "meaning": {
+            "en": "Nakula, Sahadeva, Bhimasena, you and I, son of Kunti, will see the white-horsed Arjuna."
+          }
         },
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 24,
-          "text": "एवं संभाषमाणास्ते सुबाहोर्विषयं महत् ।\nददृशुर्मुदिता राजन्प्रभूतगजवाजिमत् ॥"
+          "text": "एवं संभाषमाणास्ते सुबाहोर्विषयं महत् ।\nददृशुर्मुदिता राजन्प्रभूतगजवाजिमत् ॥",
+          "meaning": {
+            "en": "Talking so, they gladly saw the great realm of Subahu, rich in elephants and horses."
+          }
         },
         {
           "n": 25,
-          "text": "किराततङ्गणाकीर्णं कुणिन्दशतसंकुलम् ।\nहिमवत्यमरैर्जुष्टं बह्वाश्चर्यसमाकुलम् ॥"
+          "text": "किराततङ्गणाकीर्णं कुणिन्दशतसंकुलम् ।\nहिमवत्यमरैर्जुष्टं बह्वाश्चर्यसमाकुलम् ॥",
+          "meaning": {
+            "en": "It was crowded with Kiratas and Tanganas and hundreds of Kunindas, on the Himalaya, frequented by gods and full of many wonders."
+          }
         },
         {
           "n": 26,
-          "text": "सुबाहुश्चापि तान्दृष्ट्वा पूजया प्रत्यगृह्णत ।\nविषयान्ते कुणिन्दानामीश्वरः प्रीतिपूर्वकम् ॥"
+          "text": "सुबाहुश्चापि तान्दृष्ट्वा पूजया प्रत्यगृह्णत ।\nविषयान्ते कुणिन्दानामीश्वरः प्रीतिपूर्वकम् ॥",
+          "meaning": {
+            "en": "Subahu, lord of the Kunindas, saw them at the edge of his territory and welcomed them with honour, lovingly."
+          }
         },
         {
           "n": 27,
-          "text": "तत्र ते पूजितास्तेन सर्व एव सुखोषिताः ।\nप्रतस्थुर्विमले सूर्ये हिमवन्तं गिरिं प्रति ॥"
+          "text": "तत्र ते पूजितास्तेन सर्व एव सुखोषिताः ।\nप्रतस्थुर्विमले सूर्ये हिमवन्तं गिरिं प्रति ॥",
+          "meaning": {
+            "en": "Honoured by him there, they all lived comfortably, and when the sun rose bright they set out toward the Himalaya."
+          }
         },
         {
           "n": 28,
-          "text": "इन्द्रसेनमुखांश्चैव भृत्यान्पौरोगवांस्तथा ।\nसूदांश्च परिबर्हं च द्रौपद्याः सर्वशो नृप ॥"
+          "text": "इन्द्रसेनमुखांश्चैव भृत्यान्पौरोगवांस्तथा ।\nसूदांश्च परिबर्हं च द्रौपद्याः सर्वशो नृप ॥",
+          "meaning": {
+            "en": "King, they left with the king of the Kunindas Indrasena and the other servants, the stewards, the cooks, and all Draupadi's equipment."
+          }
         },
         {
           "n": 29,
-          "text": "राज्ञः कुणिन्दाधिपतेः परिदाय महारथाः ।\nपद्भिरेव महावीर्या ययुः कौरवनन्दनाः ॥"
+          "text": "राज्ञः कुणिन्दाधिपतेः परिदाय महारथाः ।\nपद्भिरेव महावीर्या ययुः कौरवनन्दनाः ॥",
+          "meaning": {
+            "en": "The great chariot-warriors, the mighty delights of the Kauravas, went on foot."
+          }
         },
         {
           "n": 30,
-          "text": "ते शनैः प्राद्रवन्सर्वे कृष्णया सह पाण्डवाः ।\nतस्माद्देशात्सुसंहृष्टा द्रष्टुकामा धनंजयम् ॥"
+          "text": "ते शनैः प्राद्रवन्सर्वे कृष्णया सह पाण्डवाः ।\nतस्माद्देशात्सुसंहृष्टा द्रष्टुकामा धनंजयम् ॥",
+          "meaning": {
+            "en": "The Pandavas with Krishna went on slowly from that country, very glad, wishing to see Dhananjaya."
+          }
         }
       ]
     }

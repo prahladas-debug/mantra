@@ -22,99 +22,171 @@
       "titleEn": "Udyoga Parva (The preparations)",
       "verses": [
         {
-          "text": "सात्यकिरुवाच"
+          "text": "सात्यकिरुवाच",
+          "meaning": {
+            "en": "Satyaki said:"
+          }
         },
         {
           "n": 1,
-          "text": "यादृशः पुरुषस्यात्मा तादृशं संप्रभाषते ।\nयथारूपोऽन्तरात्मा ते तथारूपं प्रभाषसे ॥"
+          "text": "यादृशः पुरुषस्यात्मा तादृशं संप्रभाषते ।\nयथारूपोऽन्तरात्मा ते तथारूपं प्रभाषसे ॥",
+          "meaning": {
+            "en": "A man speaks just as his own heart is; as the inner self of you is formed, so you speak."
+          }
         },
         {
           "n": 2,
-          "text": "सन्ति वै पुरुषाः शूराः सन्ति कापुरुषास्तथा ।\nउभावेतौ दृढौ पक्षौ दृश्येते पुरुषान्प्रति ॥"
+          "text": "सन्ति वै पुरुषाः शूराः सन्ति कापुरुषास्तथा ।\nउभावेतौ दृढौ पक्षौ दृश्येते पुरुषान्प्रति ॥",
+          "meaning": {
+            "en": "There are brave men and there are cowards; both kinds are firmly seen among people."
+          }
         },
         {
           "n": 3,
-          "text": "एकस्मिन्नेव जायेते कुले क्लीबमहारथौ ।\nफलाफलवती शाखे यथैकस्मिन्वनस्पतौ ॥"
+          "text": "एकस्मिन्नेव जायेते कुले क्लीबमहारथौ ।\nफलाफलवती शाखे यथैकस्मिन्वनस्पतौ ॥",
+          "meaning": {
+            "en": "In a single family are born a weakling and a great warrior, like two branches on one tree, one bearing fruit and the other not."
+          }
         },
         {
           "n": 4,
-          "text": "नाभ्यसूयामि ते वाक्यं ब्रुवतो लाङ्गलध्वज ।\nये तु शृण्वन्ति ते वाक्यं तानसूयामि माधव ॥"
+          "text": "नाभ्यसूयामि ते वाक्यं ब्रुवतो लाङ्गलध्वज ।\nये तु शृण्वन्ति ते वाक्यं तानसूयामि माधव ॥",
+          "meaning": {
+            "en": "I do not blame you for speaking, bearer of the plough banner; I blame those who listen to your words, Madhava."
+          }
         },
         {
           "n": 5,
-          "text": "कथं हि धर्मराजस्य दोषमल्पमपि ब्रुवन् ।\nलभते परिषन्मध्ये व्याहर्तुमकुतोभयः ॥"
+          "text": "कथं हि धर्मराजस्य दोषमल्पमपि ब्रुवन् ।\nलभते परिषन्मध्ये व्याहर्तुमकुतोभयः ॥",
+          "meaning": {
+            "en": "How can one who speaks even a small fault of the king of dharma speak so fearlessly in the midst of the assembly?"
+          }
         },
         {
           "n": 6,
-          "text": "समाहूय महात्मानं जितवन्तोऽक्षकोविदाः ।\nअनक्षज्ञं यथाश्रद्धं तेषु धर्मजयः कुतः ॥"
+          "text": "समाहूय महात्मानं जितवन्तोऽक्षकोविदाः ।\nअनक्षज्ञं यथाश्रद्धं तेषु धर्मजयः कुतः ॥",
+          "meaning": {
+            "en": "Dice experts called the great-souled man and beat him, ignorant of dice, as they liked; where is the victory of dharma in that?"
+          }
         },
         {
           "n": 7,
-          "text": "यदि कुन्तीसुतं गेहे क्रीडन्तं भ्रातृभिः सह ।\nअभिगम्य जयेयुस्ते तत्तेषां धर्मतो भवेत् ॥"
+          "text": "यदि कुन्तीसुतं गेहे क्रीडन्तं भ्रातृभिः सह ।\nअभिगम्य जयेयुस्ते तत्तेषां धर्मतो भवेत् ॥",
+          "meaning": {
+            "en": "If they had gone to the son of Kunti playing at home with his brothers and beaten him, that might have been just by dharma."
+          }
         },
         {
           "n": 8,
-          "text": "समाहूय तु राजानं क्षत्रधर्मरतं सदा ।\nनिकृत्या जितवन्तस्ते किं नु तेषां परं शुभम् ॥"
+          "text": "समाहूय तु राजानं क्षत्रधर्मरतं सदा ।\nनिकृत्या जितवन्तस्ते किं नु तेषां परं शुभम् ॥",
+          "meaning": {
+            "en": "But they summoned a king always devoted to the warrior's duty and beat him by trickery; what good is there in that for them?"
+          }
         },
         {
           "n": 9,
-          "text": "कथं प्रणिपतेच्चायमिह कृत्वा पणं परम् ।\nवनवासाद्विमुक्तस्तु प्राप्तः पैतामहं पदम् ॥"
+          "text": "कथं प्रणिपतेच्चायमिह कृत्वा पणं परम् ।\nवनवासाद्विमुक्तस्तु प्राप्तः पैतामहं पदम् ॥",
+          "meaning": {
+            "en": "And why should he now bow low, having made the great wager, freed from the forest exile and come to his ancestral place?"
+          }
         },
         {
           "n": 10,
-          "text": "यद्ययं परवित्तानि कामयेत युधिष्ठिरः ।\nएवमप्ययमत्यन्तं परान्नार्हति याचितुम् ॥"
+          "text": "यद्ययं परवित्तानि कामयेत युधिष्ठिरः ।\nएवमप्ययमत्यन्तं परान्नार्हति याचितुम् ॥",
+          "meaning": {
+            "en": "Even if Yudhishthira wanted others' wealth, he still does not deserve to beg for food from others."
+          }
         },
         {
           "n": 11,
-          "text": "कथं च धर्मयुक्तास्ते न च राज्यं जिहीर्षवः ।\nनिवृत्तवासान्कौन्तेयान्य आहुर्विदिता इति ॥"
+          "text": "कथं च धर्मयुक्तास्ते न च राज्यं जिहीर्षवः ।\nनिवृत्तवासान्कौन्तेयान्य आहुर्विदिता इति ॥",
+          "meaning": {
+            "en": "How can they be righteous, not seeking to seize the kingdom, when they say the sons of Kunti, who have finished their exile, have been recognized and so must go back?"
+          }
         },
         {
           "n": 12,
-          "text": "अनुनीता हि भीष्मेण द्रोणेन च महात्मना ।\nन व्यवस्यन्ति पाण्डूनां प्रदातुं पैतृकं वसु ॥"
+          "text": "अनुनीता हि भीष्मेण द्रोणेन च महात्मना ।\nन व्यवस्यन्ति पाण्डूनां प्रदातुं पैतृकं वसु ॥",
+          "meaning": {
+            "en": "Though urged by Bhishma and great-souled Drona, they will not resolve to give the Pandavas their father's wealth."
+          }
         },
         {
           "n": 13,
-          "text": "अहं तु ताञ्शितैर्बाणैरनुनीय रणे बलात् ।\nपादयोः पातयिष्यामि कौन्तेयस्य महात्मनः ॥"
+          "text": "अहं तु ताञ्शितैर्बाणैरनुनीय रणे बलात् ।\nपादयोः पातयिष्यामि कौन्तेयस्य महात्मनः ॥",
+          "meaning": {
+            "en": "But I will urge them with sharp arrows in battle, and by force make them fall at the feet of the great-souled son of Kunti."
+          }
         },
         {
           "n": 14,
-          "text": "अथ ते न व्यवस्यन्ति प्रणिपाताय धीमतः ।\nगमिष्यन्ति सहामात्या यमस्य सदनं प्रति ॥"
+          "text": "अथ ते न व्यवस्यन्ति प्रणिपाताय धीमतः ।\nगमिष्यन्ति सहामात्या यमस्य सदनं प्रति ॥",
+          "meaning": {
+            "en": "And if, being wise, they will not resolve to bow, they will go with their ministers to the house of Yama."
+          }
         },
         {
           "n": 15,
-          "text": "न हि ते युयुधानस्य संरब्धस्य युयुत्सतः ।\nवेगं समर्थाः संसोढुं वज्रस्येव महीधराः ॥"
+          "text": "न हि ते युयुधानस्य संरब्धस्य युयुत्सतः ।\nवेगं समर्थाः संसोढुं वज्रस्येव महीधराः ॥",
+          "meaning": {
+            "en": "They cannot bear the onrush of Yuyudhana, enraged and eager to fight, any more than mountains can bear the thunderbolt."
+          }
         },
         {
           "n": 16,
-          "text": "को हि गाण्डीवधन्वानं कश्च चक्रायुधं युधि ।\nमां चापि विषहेत्को नु कश्च भीमं दुरासदम् ॥"
+          "text": "को हि गाण्डीवधन्वानं कश्च चक्रायुधं युधि ।\nमां चापि विषहेत्को नु कश्च भीमं दुरासदम् ॥",
+          "meaning": {
+            "en": "Who could face the wielder of Gandiva, who the one with the discus in battle, who me, who the unassailable Bhima?"
+          }
         },
         {
           "n": 17,
-          "text": "यमौ च दृढधन्वानौ यमकल्पौ महाद्युती ।\nको जिजीविषुरासीदेद्धृष्टद्युम्नं च पार्षतम् ॥"
+          "text": "यमौ च दृढधन्वानौ यमकल्पौ महाद्युती ।\nको जिजीविषुरासीदेद्धृष्टद्युम्नं च पार्षतम् ॥",
+          "meaning": {
+            "en": "Who wishing to live would face the twins, firm archers, brilliant, like Yama himself, or Dhrishtadyumna, son of Prishata?"
+          }
         },
         {
           "n": 18,
-          "text": "पञ्चेमान्पाण्डवेयांश्च द्रौपद्याः कीर्तिवर्धनान् ।\nसमप्रमाणान्पाण्डूनां समवीर्यान्मदोत्कटान् ॥"
+          "text": "पञ्चेमान्पाण्डवेयांश्च द्रौपद्याः कीर्तिवर्धनान् ।\nसमप्रमाणान्पाण्डूनां समवीर्यान्मदोत्कटान् ॥",
+          "meaning": {
+            "en": "These five Pandava sons, who increase Draupadi's fame, equal to the Pandavas in measure and valor, drunk with vigor,"
+          }
         },
         {
           "n": 19,
-          "text": "सौभद्रं च महेष्वासममरैरपि दुःसहम् ।\nगदप्रद्युम्नसाम्बांश्च कालवज्रानलोपमान् ॥"
+          "text": "सौभद्रं च महेष्वासममरैरपि दुःसहम् ।\nगदप्रद्युम्नसाम्बांश्च कालवज्रानलोपमान् ॥",
+          "meaning": {
+            "en": "and Subhadra's son, the great archer, unbearable even to the gods, and Gada, Pradyumna and Samba, like Death, the thunderbolt and fire,"
+          }
         },
         {
           "n": 20,
-          "text": "ते वयं धृतराष्ट्रस्य पुत्रं शकुनिना सह ।\nकर्णेन च निहत्याजावभिषेक्ष्याम पाण्डवम् ॥"
+          "text": "ते वयं धृतराष्ट्रस्य पुत्रं शकुनिना सह ।\nकर्णेन च निहत्याजावभिषेक्ष्याम पाण्डवम् ॥",
+          "meaning": {
+            "en": "we shall, having slain in battle Dhritarashtra's son with Shakuni and Karna, anoint the Pandava king."
+          }
         },
         {
           "n": 21,
-          "text": "नाधर्मो विद्यते कश्चिच्छत्रून्हत्वाततायिनः ।\nअधर्म्यमयशस्यं च शात्रवाणां प्रयाचनम् ॥"
+          "text": "नाधर्मो विद्यते कश्चिच्छत्रून्हत्वाततायिनः ।\nअधर्म्यमयशस्यं च शात्रवाणां प्रयाचनम् ॥",
+          "meaning": {
+            "en": "There is no unrighteousness in killing enemies who are aggressors; but begging from foes is unrighteous and brings no fame."
+          }
         },
         {
           "n": 22,
-          "text": "हृद्गतस्तस्य यः कामस्तं कुरुध्वमतन्द्रिताः ।\nनिसृष्टं धृतराष्ट्रेण राज्यं प्राप्नोतु पाण्डवः ॥"
+          "text": "हृद्गतस्तस्य यः कामस्तं कुरुध्वमतन्द्रिताः ।\nनिसृष्टं धृतराष्ट्रेण राज्यं प्राप्नोतु पाण्डवः ॥",
+          "meaning": {
+            "en": "Do what the heart's wish of Yudhishthira is, without any laziness: let the Pandava have the kingdom, given up by Dhritarashtra."
+          }
         },
         {
           "n": 23,
-          "text": "अद्य पाण्डुसुतो राज्यं लभतां वा युधिष्ठिरः ।\nनिहता वा रणे सर्वे स्वप्स्यन्ति वसुधातले ॥"
+          "text": "अद्य पाण्डुसुतो राज्यं लभतां वा युधिष्ठिरः ।\nनिहता वा रणे सर्वे स्वप्स्यन्ति वसुधातले ॥",
+          "meaning": {
+            "en": "Today either the son of Pandu, Yudhishthira, gets his kingdom, or all of them, slain in battle, will sleep on the ground."
+          }
         }
       ]
     }

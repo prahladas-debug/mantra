@@ -22,78 +22,135 @@
       "titleEn": "Araneya Parva (The fire-drill)",
       "verses": [
         {
-          "text": "जनमेजय उवाच"
+          "text": "जनमेजय उवाच",
+          "meaning": {
+            "en": "Janamejaya said:"
+          }
         },
         {
           "n": 1,
-          "text": "एवं हृतायां कृष्णायां प्राप्य क्लेशमनुत्तमम् ।\nप्रतिलभ्य ततः कृष्णां किमकुर्वत पाण्डवाः ॥"
+          "text": "एवं हृतायां कृष्णायां प्राप्य क्लेशमनुत्तमम् ।\nप्रतिलभ्य ततः कृष्णां किमकुर्वत पाण्डवाः ॥",
+          "meaning": {
+            "en": "When Krishna was thus carried off, and they had suffered the greatest affliction, what did the Pandavas do after recovering Krishna?"
+          }
         },
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 2,
-          "text": "एवं हृतायां कृष्णायां प्राप्य क्लेशमनुत्तमम् ।\nविहाय काम्यकं राजा सह भ्रातृभिरच्युतः ॥"
+          "text": "एवं हृतायां कृष्णायां प्राप्य क्लेशमनुत्तमम् ।\nविहाय काम्यकं राजा सह भ्रातृभिरच्युतः ॥",
+          "meaning": {
+            "en": "When Krishna was thus abducted and they had met the greatest distress, the unfallen king left Kamyaka with his brothers."
+          }
         },
         {
           "n": 3,
-          "text": "पुनर्द्वैतवनं रम्यमाजगाम युधिष्ठिरः ।\nस्वादुमूलफलं रम्यं मार्कण्डेयाश्रमं प्रति ॥"
+          "text": "पुनर्द्वैतवनं रम्यमाजगाम युधिष्ठिरः ।\nस्वादुमूलफलं रम्यं मार्कण्डेयाश्रमं प्रति ॥",
+          "meaning": {
+            "en": "Yudhishthira returned to the lovely Dvaita forest, with sweet roots and fruits, toward Markandeya's hermitage."
+          }
         },
         {
           "n": 4,
-          "text": "अनुगुप्तफलाहाराः सर्व एव मिताशनाः ।\nन्यवसन्पाण्डवास्तत्र कृष्णया सह भारत ॥"
+          "text": "अनुगुप्तफलाहाराः सर्व एव मिताशनाः ।\nन्यवसन्पाण्डवास्तत्र कृष्णया सह भारत ॥",
+          "meaning": {
+            "en": "Eating fruits that were carefully gathered, all the Pandavas lived there sparingly with Krishna, Bharata."
+          }
         },
         {
           "n": 5,
-          "text": "वसन्द्वैतवने राजा कुन्तीपुत्रो युधिष्ठिरः ।\nभीमसेनोऽर्जुनश्चैव माद्रीपुत्रौ च पाण्डवौ ॥"
+          "text": "वसन्द्वैतवने राजा कुन्तीपुत्रो युधिष्ठिरः ।\nभीमसेनोऽर्जुनश्चैव माद्रीपुत्रौ च पाण्डवौ ॥",
+          "meaning": {
+            "en": "Living in the Dvaita forest were King Yudhishthira son of Kunti, Bhimasena, Arjuna, and the two Pandavas sons of Madri."
+          }
         },
         {
           "n": 6,
-          "text": "ब्राह्मणार्थे पराक्रान्ता धर्मात्मानो यतव्रताः ।\nक्लेशमार्छन्त विपुलं सुखोदर्कं परंतपाः ॥"
+          "text": "ब्राह्मणार्थे पराक्रान्ता धर्मात्मानो यतव्रताः ।\nक्लेशमार्छन्त विपुलं सुखोदर्कं परंतपाः ॥",
+          "meaning": {
+            "en": "Exerting themselves for the brahmins, righteous and disciplined, scorchers of foes, they endured great hardship whose end would be happiness."
+          }
         },
         {
           "n": 7,
-          "text": "अजातशत्रुमासीनं भ्रातृभिः सहितं वने ।\nआगम्य ब्राह्मणस्तूर्णं संतप्त इदमब्रवीत् ॥"
+          "text": "अजातशत्रुमासीनं भ्रातृभिः सहितं वने ।\nआगम्य ब्राह्मणस्तूर्णं संतप्त इदमब्रवीत् ॥",
+          "meaning": {
+            "en": "A brahmin, burning with distress, came quickly to Ajatashatru sitting in the forest with his brothers and said this."
+          }
         },
         {
           "n": 8,
-          "text": "अरणीसहितं मह्यं समासक्तं वनस्पतौ ।\nमृगस्य घर्षमाणस्य विषाणे समसज्जत ॥"
+          "text": "अरणीसहितं मह्यं समासक्तं वनस्पतौ ।\nमृगस्य घर्षमाणस्य विषाणे समसज्जत ॥",
+          "meaning": {
+            "en": "My fire-sticks, with the churning stick, were hung on a tree, and they caught in the antlers of a deer that was rubbing against it."
+          }
         },
         {
           "n": 9,
-          "text": "तदादाय गतो राजंस्त्वरमाणो महामृगः ।\nआश्रमात्त्वरितः शीघ्रं प्लवमानो महाजवः ॥"
+          "text": "तदादाय गतो राजंस्त्वरमाणो महामृगः ।\nआश्रमात्त्वरितः शीघ्रं प्लवमानो महाजवः ॥",
+          "meaning": {
+            "en": "Taking them, king, the great deer has gone off hurrying, leaping with great speed away from the hermitage."
+          }
         },
         {
           "n": 10,
-          "text": "तस्य गत्वा पदं शीघ्रमासाद्य च महामृगम् ।\nअग्निहोत्रं न लुप्येत तदानयत पाण्डवाः ॥"
+          "text": "तस्य गत्वा पदं शीघ्रमासाद्य च महामृगम् ।\nअग्निहोत्रं न लुप्येत तदानयत पाण्डवाः ॥",
+          "meaning": {
+            "en": "Follow his track quickly, Pandavas, and catch the great deer, so that my fire offering is not interrupted, and bring them back."
+          }
         },
         {
           "n": 11,
-          "text": "ब्राह्मणस्य वचः श्रुत्वा संतप्तोऽथ युधिष्ठिरः ।\nधनुरादाय कौन्तेयः प्राद्रवद्भ्रातृभिः सह ॥"
+          "text": "ब्राह्मणस्य वचः श्रुत्वा संतप्तोऽथ युधिष्ठिरः ।\nधनुरादाय कौन्तेयः प्राद्रवद्भ्रातृभिः सह ॥",
+          "meaning": {
+            "en": "Hearing the brahmin's words, Yudhishthira son of Kunti, distressed, took up his bow and ran with his brothers."
+          }
         },
         {
           "n": 12,
-          "text": "सन्नद्धा धन्विनः सर्वे प्राद्रवन्नरपुंगवाः ।\nब्राह्मणार्थे यतन्तस्ते शीघ्रमन्वगमन्मृगम् ॥"
+          "text": "सन्नद्धा धन्विनः सर्वे प्राद्रवन्नरपुंगवाः ।\nब्राह्मणार्थे यतन्तस्ते शीघ्रमन्वगमन्मृगम् ॥",
+          "meaning": {
+            "en": "Armed and arrayed, all those bowmen, best of men, ran, striving for the brahmin's sake, and quickly followed the deer."
+          }
         },
         {
           "n": 13,
-          "text": "कर्णिनालीकनाराचानुत्सृजन्तो महारथाः ।\nनाविध्यन्पाण्डवास्तत्र पश्यन्तो मृगमन्तिकात् ॥"
+          "text": "कर्णिनालीकनाराचानुत्सृजन्तो महारथाः ।\nनाविध्यन्पाण्डवास्तत्र पश्यन्तो मृगमन्तिकात् ॥",
+          "meaning": {
+            "en": "Those great charioteers shot barbed arrows, arrows and iron shafts, yet the Pandavas, though seeing the deer close by, could not hit it."
+          }
         },
         {
           "n": 14,
-          "text": "तेषां प्रयतमानानां नादृश्यत महामृगः ।\nअपश्यन्तो मृगं श्रान्ता दुःखं प्राप्ता मनस्विनः ॥"
+          "text": "तेषां प्रयतमानानां नादृश्यत महामृगः ।\nअपश्यन्तो मृगं श्रान्ता दुःखं प्राप्ता मनस्विनः ॥",
+          "meaning": {
+            "en": "While they strove, the great deer vanished from sight; not seeing it, the proud heroes were tired and sorrowful."
+          }
         },
         {
           "n": 15,
-          "text": "शीतलच्छायमासाद्य न्यग्रोधं गहने वने ।\nक्षुत्पिपासापरीताङ्गाः पाण्डवाः समुपाविशन् ॥"
+          "text": "शीतलच्छायमासाद्य न्यग्रोधं गहने वने ।\nक्षुत्पिपासापरीताङ्गाः पाण्डवाः समुपाविशन् ॥",
+          "meaning": {
+            "en": "Reaching a banyan tree with cool shade in a dense forest, the Pandavas, their limbs gripped by hunger and thirst, sat down."
+          }
         },
         {
           "n": 16,
-          "text": "तेषां समुपविष्टानां नकुलो दुःखितस्तदा ।\nअब्रवीद्भ्रातरं ज्येष्ठममर्षात्कुरुसत्तम ॥"
+          "text": "तेषां समुपविष्टानां नकुलो दुःखितस्तदा ।\nअब्रवीद्भ्रातरं ज्येष्ठममर्षात्कुरुसत्तम ॥",
+          "meaning": {
+            "en": "As they sat, Nakula, distressed, spoke to his eldest brother in indignation, best of the Kurus."
+          }
         },
         {
           "n": 17,
-          "text": "नास्मिन्कुले जातु ममज्ज धर्मो\nन चालस्यादर्थलोपो बभूव ।\nअनुत्तराः सर्वभूतेषु भूयः\nसंप्राप्ताः स्मः संशयं केन राजन् ॥"
+          "text": "नास्मिन्कुले जातु ममज्ज धर्मो\nन चालस्यादर्थलोपो बभूव ।\nअनुत्तराः सर्वभूतेषु भूयः\nसंप्राप्ताः स्मः संशयं केन राजन् ॥",
+          "meaning": {
+            "en": "Never has righteousness failed in this family, nor has wealth been lost through laziness; yet though we are unsurpassed among all beings, by what, king, have we fallen into such a plight?"
+          }
         }
       ]
     }

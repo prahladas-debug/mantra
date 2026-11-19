@@ -22,141 +22,249 @@
       "titleEn": "Markandeyasamasya Parva (Session with Markandeya)",
       "verses": [
         {
-          "text": "मार्कण्डेय उवाच"
+          "text": "मार्कण्डेय उवाच",
+          "meaning": {
+            "en": "Markandeya said:"
+          }
         },
         {
           "n": 1,
-          "text": "गुरू निवेद्य विप्राय तौ मातापितरावुभौ ।\nपुनरेव स धर्मात्मा व्याधो ब्राह्मणमब्रवीत् ॥"
+          "text": "गुरू निवेद्य विप्राय तौ मातापितरावुभौ ।\nपुनरेव स धर्मात्मा व्याधो ब्राह्मणमब्रवीत् ॥",
+          "meaning": {
+            "en": "Having handed his parents over to the brahmin as his teachers, the righteous hunter spoke to the brahmin once more."
+          }
         },
         {
           "n": 2,
-          "text": "प्रवृत्तचक्षुर्जातोऽस्मि संपश्य तपसो बलम् ।\nयदर्थमुक्तोऽसि तया गच्छस्व मिथिलामिति ॥"
+          "text": "प्रवृत्तचक्षुर्जातोऽस्मि संपश्य तपसो बलम् ।\nयदर्थमुक्तोऽसि तया गच्छस्व मिथिलामिति ॥",
+          "meaning": {
+            "en": "\"My eyes are opened now; see the power of austerity. She told you to go to Mithila for this very reason.\""
+          }
         },
         {
           "n": 3,
-          "text": "पतिशुश्रूषपरया दान्तया सत्यशीलया ।\nमिथिलायां वसन्व्याधः स ते धर्मान्प्रवक्ष्यति ॥"
+          "text": "पतिशुश्रूषपरया दान्तया सत्यशीलया ।\nमिथिलायां वसन्व्याधः स ते धर्मान्प्रवक्ष्यति ॥",
+          "meaning": {
+            "en": "\"In Mithila lives a hunter devoted to serving her husband, self-controlled and true to her word, and he will teach you the dharmas.\" (The brahmin had been sent by a faithful wife.)"
+          }
         },
         {
-          "text": "ब्राह्मण उवाच"
+          "text": "ब्राह्मण उवाच",
+          "meaning": {
+            "en": "The brahmin said:"
+          }
         },
         {
           "n": 4,
-          "text": "पतिव्रतायाः सत्यायाः शीलाढ्याया यतव्रत ।\nसंस्मृत्य वाक्यं धर्मज्ञ गुणवानसि मे मतः ॥"
+          "text": "पतिव्रतायाः सत्यायाः शीलाढ्याया यतव्रत ।\nसंस्मृत्य वाक्यं धर्मज्ञ गुणवानसि मे मतः ॥",
+          "meaning": {
+            "en": "\"Remembering the words of that devoted, truthful and virtuous wife, O knower of dharma of firm vows, I judge you to be a man of real merit.\""
+          }
         },
         {
-          "text": "व्याध उवाच"
+          "text": "व्याध उवाच",
+          "meaning": {
+            "en": "The hunter said:"
+          }
         },
         {
           "n": 5,
-          "text": "यत्तदा त्वं द्विजश्रेष्ठ तयोक्तो मां प्रति प्रभो ।\nदृष्टमेतत्तया सम्यगेकपत्न्या न संशयः ॥"
+          "text": "यत्तदा त्वं द्विजश्रेष्ठ तयोक्तो मां प्रति प्रभो ।\nदृष्टमेतत्तया सम्यगेकपत्न्या न संशयः ॥",
+          "meaning": {
+            "en": "\"What she told you about me then, O best of brahmins, she saw rightly, being a devoted wife; there is no doubt of it.\""
+          }
         },
         {
           "n": 6,
-          "text": "त्वदनुग्रहबुद्ध्या तु विप्रैतद्दर्शितं मया ।\nवाक्यं च शृणु मे तात यत्ते वक्ष्ये हितं द्विज ॥"
+          "text": "त्वदनुग्रहबुद्ध्या तु विप्रैतद्दर्शितं मया ।\nवाक्यं च शृणु मे तात यत्ते वक्ष्ये हितं द्विज ॥",
+          "meaning": {
+            "en": "\"I showed you all this out of a wish to do you good. Now hear the advice I give for your benefit.\""
+          }
         },
         {
           "n": 7,
-          "text": "त्वया विनिकृता माता पिता च द्विजसत्तम ।\nअनिसृष्टोऽसि निष्क्रान्तो गृहात्ताभ्यामनिन्दित ।\nवेदोच्चारणकार्यार्थमयुक्तं तत्त्वया कृतम् ॥"
+          "text": "त्वया विनिकृता माता पिता च द्विजसत्तम ।\nअनिसृष्टोऽसि निष्क्रान्तो गृहात्ताभ्यामनिन्दित ।\nवेदोच्चारणकार्यार्थमयुक्तं तत्त्वया कृतम् ॥",
+          "meaning": {
+            "en": "\"You left your mother and father without their leave, blameless one, and went out of the house for the sake of reciting the Vedas. That was not a proper thing to do.\""
+          }
         },
         {
           "n": 8,
-          "text": "तव शोकेन वृद्धौ तावन्धौ जातौ तपस्विनौ ।\nतौ प्रसादयितुं गच्छ मा त्वा धर्मोऽत्यगान्महान् ॥"
+          "text": "तव शोकेन वृद्धौ तावन्धौ जातौ तपस्विनौ ।\nतौ प्रसादयितुं गच्छ मा त्वा धर्मोऽत्यगान्महान् ॥",
+          "meaning": {
+            "en": "\"Grieving for you, those two ascetics have grown old and blind. Go and appease them, so that great dharma does not pass you by.\""
+          }
         },
         {
           "n": 9,
-          "text": "तपस्वी त्वं महात्मा च धर्मे च निरतः सदा ।\nसर्वमेतदपार्थं ते क्षिप्रं तौ संप्रसादय ॥"
+          "text": "तपस्वी त्वं महात्मा च धर्मे च निरतः सदा ।\nसर्वमेतदपार्थं ते क्षिप्रं तौ संप्रसादय ॥",
+          "meaning": {
+            "en": "\"You are an ascetic, a great soul, always devoted to dharma, yet all of this is wasted for you. Go quickly and win them back.\""
+          }
         },
         {
           "n": 10,
-          "text": "श्रद्दधस्व मम ब्रह्मन्नान्यथा कर्तुमर्हसि ।\nगम्यतामद्य विप्रर्षे श्रेयस्ते कथयाम्यहम् ॥"
+          "text": "श्रद्दधस्व मम ब्रह्मन्नान्यथा कर्तुमर्हसि ।\nगम्यतामद्य विप्रर्षे श्रेयस्ते कथयाम्यहम् ॥",
+          "meaning": {
+            "en": "\"Trust me, brahmin; do not act otherwise. Go today, sage; I am telling you what is best for you.\""
+          }
         },
         {
-          "text": "ब्राह्मण उवाच"
+          "text": "ब्राह्मण उवाच",
+          "meaning": {
+            "en": "The brahmin said:"
+          }
         },
         {
           "n": 11,
-          "text": "यदेतदुक्तं भवता सर्वं सत्यमसंशयम् ।\nप्रीतोऽस्मि तव धर्मज्ञ साध्वाचार गुणान्वित ॥"
+          "text": "यदेतदुक्तं भवता सर्वं सत्यमसंशयम् ।\nप्रीतोऽस्मि तव धर्मज्ञ साध्वाचार गुणान्वित ॥",
+          "meaning": {
+            "en": "\"Everything you have said is true without doubt. I am pleased with you, knower of dharma, man of good conduct and virtue.\""
+          }
         },
         {
-          "text": "व्याध उवाच"
+          "text": "व्याध उवाच",
+          "meaning": {
+            "en": "The hunter said:"
+          }
         },
         {
           "n": 12,
-          "text": "दैवतप्रतिमो हि त्वं यस्त्वं धर्ममनुव्रतः ।\nपुराणं शाश्वतं दिव्यं दुष्प्रापमकृतात्मभिः ॥"
+          "text": "दैवतप्रतिमो हि त्वं यस्त्वं धर्ममनुव्रतः ।\nपुराणं शाश्वतं दिव्यं दुष्प्रापमकृतात्मभिः ॥",
+          "meaning": {
+            "en": "\"You are like a god, since you follow that ancient, eternal, divine dharma which is hard for the unrefined to reach.\""
+          }
         },
         {
           "n": 13,
-          "text": "अतन्द्रितः कुरु क्षिप्रं मातापित्रोर्हि पूजनम् ।\nअतः परमहं धर्मं नान्यं पश्यामि कंचन ॥"
+          "text": "अतन्द्रितः कुरु क्षिप्रं मातापित्रोर्हि पूजनम् ।\nअतः परमहं धर्मं नान्यं पश्यामि कंचन ॥",
+          "meaning": {
+            "en": "\"Without laziness, quickly serve your mother and father. I see no other dharma higher than this.\""
+          }
         },
         {
-          "text": "ब्राह्मण उवाच"
+          "text": "ब्राह्मण उवाच",
+          "meaning": {
+            "en": "The brahmin said:"
+          }
         },
         {
           "n": 14,
-          "text": "इहाहमागतो दिष्ट्या दिष्ट्या मे संगतं त्वया ।\nईदृशा दुर्लभा लोके नरा धर्मप्रदर्शकाः ॥"
+          "text": "इहाहमागतो दिष्ट्या दिष्ट्या मे संगतं त्वया ।\nईदृशा दुर्लभा लोके नरा धर्मप्रदर्शकाः ॥",
+          "meaning": {
+            "en": "\"By good fortune I came here, and by good fortune I met you. Men who show others dharma are rare in the world.\""
+          }
         },
         {
           "n": 15,
-          "text": "एको नरसहस्रेषु धर्मविद्विद्यते न वा ।\nप्रीतोऽस्मि तव सत्येन भद्रं ते पुरुषोत्तम ॥"
+          "text": "एको नरसहस्रेषु धर्मविद्विद्यते न वा ।\nप्रीतोऽस्मि तव सत्येन भद्रं ते पुरुषोत्तम ॥",
+          "meaning": {
+            "en": "\"Among thousands of men there may be one who knows dharma, or none. I am pleased with your truthfulness; may good come to you, best of men.\""
+          }
         },
         {
           "n": 16,
-          "text": "पतमानो हि नरके भवतास्मि समुद्धृतः ।\nभवितव्यमथैवं च यद्दृष्टोऽसि मयानघ ॥"
+          "text": "पतमानो हि नरके भवतास्मि समुद्धृतः ।\nभवितव्यमथैवं च यद्दृष्टोऽसि मयानघ ॥",
+          "meaning": {
+            "en": "\"You have lifted me up as I was falling into hell. So it was fated that I should meet you, blameless one.\""
+          }
         },
         {
           "n": 17,
-          "text": "राजा ययातिर्दौहित्रैः पतितस्तारितो यथा ।\nसद्भिः पुरुषशार्दूल तथाहं भवता त्विह ॥"
+          "text": "राजा ययातिर्दौहित्रैः पतितस्तारितो यथा ।\nसद्भिः पुरुषशार्दूल तथाहं भवता त्विह ॥",
+          "meaning": {
+            "en": "\"As King Yayati, fallen, was rescued by his daughters' sons, good men, tiger among men, so have you rescued me here.\""
+          }
         },
         {
           "n": 18,
-          "text": "मातापितृभ्यां शुश्रूषां करिष्ये वचनात्तव ।\nनाकृतात्मा वेदयति धर्माधर्मविनिश्चयम् ॥"
+          "text": "मातापितृभ्यां शुश्रूषां करिष्ये वचनात्तव ।\nनाकृतात्मा वेदयति धर्माधर्मविनिश्चयम् ॥",
+          "meaning": {
+            "en": "\"At your word I will serve my mother and father. One of unrefined mind cannot tell right from wrong.\""
+          }
         },
         {
           "n": 19,
-          "text": "दुर्ज्ञेयः शाश्वतो धर्मः शूद्रयोनौ हि वर्तता ।\nन त्वां शूद्रमहं मन्ये भवितव्यं हि कारणम् ।\nयेन कर्मविपाकेन प्राप्तेयं शूद्रता त्वया ॥"
+          "text": "दुर्ज्ञेयः शाश्वतो धर्मः शूद्रयोनौ हि वर्तता ।\nन त्वां शूद्रमहं मन्ये भवितव्यं हि कारणम् ।\nयेन कर्मविपाकेन प्राप्तेयं शूद्रता त्वया ॥",
+          "meaning": {
+            "en": "\"Eternal dharma is hard to know, yet you live in a shudra birth. I do not think you a shudra; there must be a cause, some ripening of past deeds that brought you to this state.\""
+          }
         },
         {
           "n": 20,
-          "text": "एतदिच्छामि विज्ञातुं तत्त्वेन हि महामते ।\nकामया ब्रूहि मे तथ्यं सर्वं त्वं प्रयतात्मवान् ॥"
+          "text": "एतदिच्छामि विज्ञातुं तत्त्वेन हि महामते ।\nकामया ब्रूहि मे तथ्यं सर्वं त्वं प्रयतात्मवान् ॥",
+          "meaning": {
+            "en": "\"I wish to know this truly, great-minded one. Out of kindness tell me the whole truth, with a settled mind.\""
+          }
         },
         {
-          "text": "व्याध उवाच"
+          "text": "व्याध उवाच",
+          "meaning": {
+            "en": "The hunter said:"
+          }
         },
         {
           "n": 21,
-          "text": "अनतिक्रमणीया हि ब्राह्मणा वै द्विजोत्तम ।\nशृणु सर्वमिदं वृत्तं पूर्वदेहे ममानघ ॥"
+          "text": "अनतिक्रमणीया हि ब्राह्मणा वै द्विजोत्तम ।\nशृणु सर्वमिदं वृत्तं पूर्वदेहे ममानघ ॥",
+          "meaning": {
+            "en": "\"Brahmins, best of the twice-born, must never be slighted. Hear the whole account of my previous body, blameless one.\""
+          }
         },
         {
           "n": 22,
-          "text": "अहं हि ब्राह्मणः पूर्वमासं द्विजवरात्मज ।\nवेदाध्यायी सुकुशलो वेदाङ्गानां च पारगः ।\nआत्मदोषकृतैर्ब्रह्मन्नवस्थां प्राप्तवानिमाम् ॥"
+          "text": "अहं हि ब्राह्मणः पूर्वमासं द्विजवरात्मज ।\nवेदाध्यायी सुकुशलो वेदाङ्गानां च पारगः ।\nआत्मदोषकृतैर्ब्रह्मन्नवस्थां प्राप्तवानिमाम् ॥",
+          "meaning": {
+            "en": "\"In an earlier life I was a brahmin, the son of a brahmin of high rank, a student of the Veda, very skilled and master of the Vedic limbs. By faults of my own I came to this condition.\""
+          }
         },
         {
           "n": 23,
-          "text": "कश्चिद्राजा मम सखा धनुर्वेदपरायणः ।\nसंसर्गाद्धनुषि श्रेष्ठस्ततोऽहमभवं द्विज ॥"
+          "text": "कश्चिद्राजा मम सखा धनुर्वेदपरायणः ।\nसंसर्गाद्धनुषि श्रेष्ठस्ततोऽहमभवं द्विज ॥",
+          "meaning": {
+            "en": "\"A certain king, devoted to archery, was my friend. Through his company I became expert with the bow, O brahmin.\""
+          }
         },
         {
           "n": 24,
-          "text": "एतस्मिन्नेव काले तु मृगयां निर्गतो नृपः ।\nसहितो योधमुख्यैश्च मन्त्रिभिश्च सुसंवृतः ।\nततोऽभ्यहन्मृगांस्तत्र सुबहूनाश्रमं प्रति ॥"
+          "text": "एतस्मिन्नेव काले तु मृगयां निर्गतो नृपः ।\nसहितो योधमुख्यैश्च मन्त्रिभिश्च सुसंवृतः ।\nततोऽभ्यहन्मृगांस्तत्र सुबहूनाश्रमं प्रति ॥",
+          "meaning": {
+            "en": "\"At that time the king went out hunting, accompanied by his chief warriors and surrounded by ministers, and he killed very many deer near a hermitage.\""
+          }
         },
         {
           "n": 25,
-          "text": "अथ क्षिप्तः शरो घोरो मयापि द्विजसत्तम ।\nताडितश्च मुनिस्तेन शरेणानतपर्वणा ॥"
+          "text": "अथ क्षिप्तः शरो घोरो मयापि द्विजसत्तम ।\nताडितश्च मुनिस्तेन शरेणानतपर्वणा ॥",
+          "meaning": {
+            "en": "\"Then I too let fly a terrible arrow, best of brahmins, and it struck a sage with its smooth-jointed shaft.\""
+          }
         },
         {
           "n": 26,
-          "text": "भूमौ निपतितो ब्रह्मन्नुवाच प्रतिनादयन् ।\nनापराध्याम्यहं किंचित्केन पापमिदं कृतम् ॥"
+          "text": "भूमौ निपतितो ब्रह्मन्नुवाच प्रतिनादयन् ।\nनापराध्याम्यहं किंचित्केन पापमिदं कृतम् ॥",
+          "meaning": {
+            "en": "\"Fallen to the ground, brahmin, he cried out: 'I have done no wrong to anyone. Who has done this sinful deed?'\""
+          }
         },
         {
           "n": 27,
-          "text": "मन्वानस्तं मृगं चाहं संप्राप्तः सहसा मुनिम् ।\nअपश्यं तमृषिं विद्धं शरेणानतपर्वणा ।\nतमुग्रतपसं विप्रं निष्टनन्तं महीतले ॥"
+          "text": "मन्वानस्तं मृगं चाहं संप्राप्तः सहसा मुनिम् ।\nअपश्यं तमृषिं विद्धं शरेणानतपर्वणा ।\nतमुग्रतपसं विप्रं निष्टनन्तं महीतले ॥",
+          "meaning": {
+            "en": "\"Thinking I had hit a deer, I rushed up suddenly. Then I saw the sage pierced by the arrow, that fiercely ascetic brahmin groaning on the ground.\""
+          }
         },
         {
           "n": 28,
-          "text": "अकार्यकरणाच्चापि भृशं मे व्यथितं मनः ।\nअजानता कृतमिदं मयेत्यथ तमब्रुवम् ।\nक्षन्तुमर्हसि मे ब्रह्मन्निति चोक्तो मया मुनिः ॥"
+          "text": "अकार्यकरणाच्चापि भृशं मे व्यथितं मनः ।\nअजानता कृतमिदं मयेत्यथ तमब्रुवम् ।\nक्षन्तुमर्हसि मे ब्रह्मन्निति चोक्तो मया मुनिः ॥",
+          "meaning": {
+            "en": "\"My mind was deeply pained at having done what should not be done. I said to him, 'I did this without knowing; please forgive me, brahmin.'\""
+          }
         },
         {
           "n": 29,
-          "text": "ततः प्रत्यब्रवीद्वाक्यमृषिर्मां क्रोधमूर्छितः ।\nव्याधस्त्वं भविता क्रूर शूद्रयोनाविति द्विज ॥"
+          "text": "ततः प्रत्यब्रवीद्वाक्यमृषिर्मां क्रोधमूर्छितः ।\nव्याधस्त्वं भविता क्रूर शूद्रयोनाविति द्विज ॥",
+          "meaning": {
+            "en": "\"Then the sage, faint with anger, answered me: 'Cruel man, you shall be born a hunter, in a shudra womb.'\""
+          }
         }
       ]
     }

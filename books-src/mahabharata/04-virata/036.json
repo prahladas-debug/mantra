@@ -22,216 +22,381 @@
       "titleEn": "Gograhana Parva (The cattle raid)",
       "verses": [
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 1,
-          "text": "स राजधान्या निर्याय वैराटिः पृथिवींजयः ।\nप्रयाहीत्यब्रवीत्सूतं यत्र ते कुरवो गताः ॥"
+          "text": "स राजधान्या निर्याय वैराटिः पृथिवींजयः ।\nप्रयाहीत्यब्रवीत्सूतं यत्र ते कुरवो गताः ॥",
+          "meaning": {
+            "en": "Leaving the capital, Uttara, Virata's son, conqueror of lands, said to his charioteer, \"Drive on to where the Kurus have gone."
+          }
         },
         {
           "n": 2,
-          "text": "समवेतान्कुरून्यावज्जिगीषूनवजित्य वै ।\nगाश्चैषां क्षिप्रमादाय पुनरायामि स्वं पुरम् ॥"
+          "text": "समवेतान्कुरून्यावज्जिगीषूनवजित्य वै ।\nगाश्चैषां क्षिप्रमादाय पुनरायामि स्वं पुरम् ॥",
+          "meaning": {
+            "en": "I will defeat the Kurus gathered here, eager for victory, quickly take back the cattle and return to my city.\""
+          }
         },
         {
           "n": 3,
-          "text": "ततस्तांश्चोदयामास सदश्वान्पाण्डुनन्दनः ।\nते हया नरसिंहेन चोदिता वातरंहसः ।\nआलिखन्त इवाकाशमूहुः काञ्चनमालिनः ॥"
+          "text": "ततस्तांश्चोदयामास सदश्वान्पाण्डुनन्दनः ।\nते हया नरसिंहेन चोदिता वातरंहसः ।\nआलिखन्त इवाकाशमूहुः काञ्चनमालिनः ॥",
+          "meaning": {
+            "en": "Then Arjuna son of Pandu urged on the fine horses. Driven by that lion among men, those horses with golden garlands, swift as the wind, flew along as if scratching the sky."
+          }
         },
         {
           "n": 4,
-          "text": "नातिदूरमथो यात्वा मत्स्यपुत्रधनंजयौ ।\nअवेक्षेताममित्रघ्नौ कुरूणां बलिनां बलम् ।\nश्मशानमभितो गत्वा आससाद कुरूनथ ॥"
+          "text": "नातिदूरमथो यात्वा मत्स्यपुत्रधनंजयौ ।\nअवेक्षेताममित्रघ्नौ कुरूणां बलिनां बलम् ।\nश्मशानमभितो गत्वा आससाद कुरूनथ ॥",
+          "meaning": {
+            "en": "After they had gone not far, the son of Matsya and Dhananjaya, killers of enemies, saw the army of the mighty Kurus. Going around the cremation ground, they reached the Kurus."
+          }
         },
         {
           "n": 5,
-          "text": "तदनीकं महत्तेषां विबभौ सागरस्वनम् ।\nसर्पमाणमिवाकाशे वनं बहुलपादपम् ॥"
+          "text": "तदनीकं महत्तेषां विबभौ सागरस्वनम् ।\nसर्पमाणमिवाकाशे वनं बहुलपादपम् ॥",
+          "meaning": {
+            "en": "Their great army, roaring like the sea, shone like a thick forest of trees moving across the sky."
+          }
         },
         {
           "n": 6,
-          "text": "ददृशे पार्थिवो रेणुर्जनितस्तेन सर्पता ।\nदृष्टिप्रणाशो भूतानां दिवस्पृङ्नरसत्तम ॥"
+          "text": "ददृशे पार्थिवो रेणुर्जनितस्तेन सर्पता ।\nदृष्टिप्रणाशो भूतानां दिवस्पृङ्नरसत्तम ॥",
+          "meaning": {
+            "en": "The dust raised by its movement rose over the earth, best of men, hiding the sight of living things and reaching the sky."
+          }
         },
         {
           "n": 7,
-          "text": "तदनीकं महद्दृष्ट्वा गजाश्वरथसंकुलम् ।\nकर्णदुर्योधनकृपैर्गुप्तं शांतनवेन च ॥"
+          "text": "तदनीकं महद्दृष्ट्वा गजाश्वरथसंकुलम् ।\nकर्णदुर्योधनकृपैर्गुप्तं शांतनवेन च ॥",
+          "meaning": {
+            "en": "Seeing that huge army crowded with elephants, horses and chariots, protected by Karna, Duryodhana, Kripa and Bhishma son of Shantanu,"
+          }
         },
         {
           "n": 8,
-          "text": "द्रोणेन च सपुत्रेण महेष्वासेन धीमता ।\nहृष्टरोमा भयोद्विग्नः पार्थं वैराटिरब्रवीत् ॥"
+          "text": "द्रोणेन च सपुत्रेण महेष्वासेन धीमता ।\nहृष्टरोमा भयोद्विग्नः पार्थं वैराटिरब्रवीत् ॥",
+          "meaning": {
+            "en": "and by Drona with his son, that wise great archer, Virata's son, his hair standing on end and shaking with fear, said to Arjuna."
+          }
         },
         {
           "n": 9,
-          "text": "नोत्सहे कुरुभिर्योद्धुं रोमहर्षं हि पश्य मे ।\nबहुप्रवीरमत्युग्रं देवैरपि दुरासदम् ।\nप्रतियोद्धुं न शक्ष्यामि कुरुसैन्यमनन्तकम् ॥"
+          "text": "नोत्सहे कुरुभिर्योद्धुं रोमहर्षं हि पश्य मे ।\nबहुप्रवीरमत्युग्रं देवैरपि दुरासदम् ।\nप्रतियोद्धुं न शक्ष्यामि कुरुसैन्यमनन्तकम् ॥",
+          "meaning": {
+            "en": "\"I cannot fight the Kurus; see how my hair stands on end. Their army is endless, with many champions, very fierce, hard to face even for the gods; I cannot fight it."
+          }
         },
         {
           "n": 10,
-          "text": "नाशंसे भारतीं सेनां प्रवेष्टुं भीमकार्मुकाम् ।\nरथनागाश्वकलिलां पत्तिध्वजसमाकुलाम् ।\nदृष्ट्वैव हि परानाजावात्मा प्रव्यथतीव मे ॥"
+          "text": "नाशंसे भारतीं सेनां प्रवेष्टुं भीमकार्मुकाम् ।\nरथनागाश्वकलिलां पत्तिध्वजसमाकुलाम् ।\nदृष्ट्वैव हि परानाजावात्मा प्रव्यथतीव मे ॥",
+          "meaning": {
+            "en": "I do not dare enter the Bharata army with its dreadful bows, thick with chariots, elephants and horses and crowded with foot soldiers and banners; merely seeing the foe in battle makes my heart tremble."
+          }
         },
         {
           "n": 11,
-          "text": "यत्र द्रोणश्च भीष्मश्च कृपः कर्णो विविंशतिः ।\nअश्वत्थामा विकर्णश्च सोमदत्तोऽथ बाह्लिकः ॥"
+          "text": "यत्र द्रोणश्च भीष्मश्च कृपः कर्णो विविंशतिः ।\nअश्वत्थामा विकर्णश्च सोमदत्तोऽथ बाह्लिकः ॥",
+          "meaning": {
+            "en": "Here are Drona, Bhishma, Kripa, Karna, Vivimshati, Ashvatthama, Vikarna, Somadatta and Bahlika,"
+          }
         },
         {
           "n": 12,
-          "text": "दुर्योधनस्तथा वीरो राजा च रथिनां वरः ।\nद्युतिमन्तो महेष्वासाः सर्वे युद्धविशारदाः ॥"
+          "text": "दुर्योधनस्तथा वीरो राजा च रथिनां वरः ।\nद्युतिमन्तो महेष्वासाः सर्वे युद्धविशारदाः ॥",
+          "meaning": {
+            "en": "and the hero Duryodhana, king and best of charioteers; all are brilliant great archers, all skilled in war."
+          }
         },
         {
           "n": 13,
-          "text": "दृष्ट्वैव हि कुरूनेतान्व्यूढानीकान्प्रहारिणः ।\nहृषितानि च रोमाणि कश्मलं चागतं मम ॥"
+          "text": "दृष्ट्वैव हि कुरूनेतान्व्यूढानीकान्प्रहारिणः ।\nहृषितानि च रोमाणि कश्मलं चागतं मम ॥",
+          "meaning": {
+            "en": "Merely seeing these Kurus, in battle array and fierce in attack, makes my hair bristle and I feel faint.\""
+          }
         },
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 14,
-          "text": "अवियातो वियातस्य मौर्ख्याद्धूर्तस्य पश्यतः ।\nपरिदेवयते मन्दः सकाशे सव्यसाचिनः ॥"
+          "text": "अवियातो वियातस्य मौर्ख्याद्धूर्तस्य पश्यतः ।\nपरिदेवयते मन्दः सकाशे सव्यसाचिनः ॥",
+          "meaning": {
+            "en": "Unversed in war, in his foolishness the dullard lamented before Savyasachin while that crafty one looked on."
+          }
         },
         {
           "n": 15,
-          "text": "त्रिगर्तान्मे पिता यातः शून्ये संप्रणिधाय माम् ।\nसर्वां सेनामुपादाय न मे सन्तीह सैनिकाः ॥"
+          "text": "त्रिगर्तान्मे पिता यातः शून्ये संप्रणिधाय माम् ।\nसर्वां सेनामुपादाय न मे सन्तीह सैनिकाः ॥",
+          "meaning": {
+            "en": "\"My father went off to the Trigartas, leaving me here in an empty city, taking the whole army; I have no soldiers here."
+          }
         },
         {
           "n": 16,
-          "text": "सोऽहमेको बहून्बालः कृतास्त्रानकृतश्रमः ।\nप्रतियोद्धुं न शक्ष्यामि निवर्तस्व बृहन्नडे ॥"
+          "text": "सोऽहमेको बहून्बालः कृतास्त्रानकृतश्रमः ।\nप्रतियोद्धुं न शक्ष्यामि निवर्तस्व बृहन्नडे ॥",
+          "meaning": {
+            "en": "I am alone, a boy, against many who are skilled in weapons, and I am untried. I cannot fight them, Brihannada; turn back.\""
+          }
         },
         {
-          "text": "अर्जुन उवाच"
+          "text": "अर्जुन उवाच",
+          "meaning": {
+            "en": "Arjuna said:"
+          }
         },
         {
           "n": 17,
-          "text": "भयेन दीनरूपोऽसि द्विषतां हर्षवर्धनः ।\nन च तावत्कृतं किंचित्परैः कर्म रणाजिरे ॥"
+          "text": "भयेन दीनरूपोऽसि द्विषतां हर्षवर्धनः ।\nन च तावत्कृतं किंचित्परैः कर्म रणाजिरे ॥",
+          "meaning": {
+            "en": "\"You are miserable with fear, and you make the enemy happy, though the enemy has not yet done anything on the battlefield."
+          }
         },
         {
           "n": 18,
-          "text": "स्वयमेव च मामात्थ वह मां कौरवान्प्रति ।\nसोऽहं त्वां तत्र नेष्यामि यत्रैते बहुला ध्वजाः ॥"
+          "text": "स्वयमेव च मामात्थ वह मां कौरवान्प्रति ।\nसोऽहं त्वां तत्र नेष्यामि यत्रैते बहुला ध्वजाः ॥",
+          "meaning": {
+            "en": "You yourself told me, 'Take me to the Kauravas.' So I will take you to where those many banners are,"
+          }
         },
         {
           "n": 19,
-          "text": "मध्यमामिषगृध्राणां कुरूणामाततायिनाम् ।\nनेष्यामि त्वां महाबाहो पृथिव्यामपि युध्यताम् ॥"
+          "text": "मध्यमामिषगृध्राणां कुरूणामाततायिनाम् ।\nनेष्यामि त्वां महाबाहो पृथिव्यामपि युध्यताम् ॥",
+          "meaning": {
+            "en": "into the midst of the Kurus, those aggressors who are greedy for flesh like vultures; I will take you, mighty-armed, even if they fight for the whole earth."
+          }
         },
         {
           "n": 20,
-          "text": "तथा स्त्रीषु प्रतिश्रुत्य पौरुषं पुरुषेषु च ।\nकत्थमानोऽभिनिर्याय किमर्थं न युयुत्ससे ॥"
+          "text": "तथा स्त्रीषु प्रतिश्रुत्य पौरुषं पुरुषेषु च ।\nकत्थमानोऽभिनिर्याय किमर्थं न युयुत्ससे ॥",
+          "meaning": {
+            "en": "Having boasted among the women and among the men, why did you set out bragging and now do not want to fight?"
+          }
         },
         {
           "n": 21,
-          "text": "न चेद्विजित्य गास्तास्त्वं गृहान्वै प्रतियास्यसि ।\nप्रहसिष्यन्ति वीर त्वां नरा नार्यश्च संगताः ॥"
+          "text": "न चेद्विजित्य गास्तास्त्वं गृहान्वै प्रतियास्यसि ।\nप्रहसिष्यन्ति वीर त्वां नरा नार्यश्च संगताः ॥",
+          "meaning": {
+            "en": "If you go home without winning back those cattle, men and women together will laugh at you, hero."
+          }
         },
         {
           "n": 22,
-          "text": "अहमप्यत्र सैरन्ध्र्या स्तुतः सारथ्यकर्मणि ।\nन हि शक्ष्याम्यनिर्जित्य गाः प्रयातुं पुरं प्रति ॥"
+          "text": "अहमप्यत्र सैरन्ध्र्या स्तुतः सारथ्यकर्मणि ।\nन हि शक्ष्याम्यनिर्जित्य गाः प्रयातुं पुरं प्रति ॥",
+          "meaning": {
+            "en": "I too was praised by Sairandhri for my charioteering, and I cannot go back to the city without beating them and winning the cattle."
+          }
         },
         {
           "n": 23,
-          "text": "स्तोत्रेण चैव सैरन्ध्र्यास्तव वाक्येन तेन च ।\nकथं न युध्येयमहं कुरून्सर्वान्स्थिरो भव ॥"
+          "text": "स्तोत्रेण चैव सैरन्ध्र्यास्तव वाक्येन तेन च ।\nकथं न युध्येयमहं कुरून्सर्वान्स्थिरो भव ॥",
+          "meaning": {
+            "en": "Spurred by Sairandhri's praise and by those words of yours, how could I not fight all the Kurus? Stand firm.\""
+          }
         },
         {
-          "text": "उत्तर उवाच"
+          "text": "उत्तर उवाच",
+          "meaning": {
+            "en": "Uttara said:"
+          }
         },
         {
           "n": 24,
-          "text": "कामं हरन्तु मत्स्यानां भूयांसं कुरवो धनम् ।\nप्रहसन्तु च मां नार्यो नरा वापि बृहन्नडे ॥"
+          "text": "कामं हरन्तु मत्स्यानां भूयांसं कुरवो धनम् ।\nप्रहसन्तु च मां नार्यो नरा वापि बृहन्नडे ॥",
+          "meaning": {
+            "en": "\"Let the Kurus take away as much of Matsya's wealth as they please, and let women and men laugh at me, Brihannada.\""
+          }
         },
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 25,
-          "text": "इत्युक्त्वा प्राद्रवद्भीतो रथात्प्रस्कन्द्य कुण्डली ।\nत्यक्त्वा मानं स मन्दात्मा विसृज्य सशरं धनुः ॥"
+          "text": "इत्युक्त्वा प्राद्रवद्भीतो रथात्प्रस्कन्द्य कुण्डली ।\nत्यक्त्वा मानं स मन्दात्मा विसृज्य सशरं धनुः ॥",
+          "meaning": {
+            "en": "Saying this, the foolish one, afraid, leaped down from the chariot, earrings swinging, gave up his pride and threw away his bow and arrows and ran."
+          }
         },
         {
-          "text": "बृहन्नडोवाच"
+          "text": "बृहन्नडोवाच",
+          "meaning": {
+            "en": "Brihannada said:"
+          }
         },
         {
           "n": 26,
-          "text": "नैष पूर्वैः स्मृतो धर्मः क्षत्रियस्य पलायनम् ।\nश्रेयस्ते मरणं युद्धे न भीतस्य पलायनम् ॥"
+          "text": "नैष पूर्वैः स्मृतो धर्मः क्षत्रियस्य पलायनम् ।\nश्रेयस्ते मरणं युद्धे न भीतस्य पलायनम् ॥",
+          "meaning": {
+            "en": "\"This is not what the ancients remembered as the duty of a Kshatriya: running away. Better for you to die in battle than to flee in fear.\""
+          }
         },
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 27,
-          "text": "एवमुक्त्वा तु कौन्तेयः सोऽवप्लुत्य रथोत्तमात् ।\nतमन्वधावद्धावन्तं राजपुत्रं धनंजयः ।\nदीर्घां वेणीं विधुन्वानः साधु रक्ते च वाससी ॥"
+          "text": "एवमुक्त्वा तु कौन्तेयः सोऽवप्लुत्य रथोत्तमात् ।\nतमन्वधावद्धावन्तं राजपुत्रं धनंजयः ।\nदीर्घां वेणीं विधुन्वानः साधु रक्ते च वाससी ॥",
+          "meaning": {
+            "en": "Having said this, Arjuna son of Kunti leaped down from the fine chariot and ran after the fleeing prince, shaking his long braid, his two garments red and fine."
+          }
         },
         {
           "n": 28,
-          "text": "विधूय वेणीं धावन्तमजानन्तोऽर्जुनं तदा ।\nसैनिकाः प्राहसन्केचित्तथारूपमवेक्ष्य तम् ॥"
+          "text": "विधूय वेणीं धावन्तमजानन्तोऽर्जुनं तदा ।\nसैनिकाः प्राहसन्केचित्तथारूपमवेक्ष्य तम् ॥",
+          "meaning": {
+            "en": "As he ran with braid flying, the soldiers, not recognizing Arjuna, laughed, seeing him dressed so."
+          }
         },
         {
           "n": 29,
-          "text": "तं शीघ्रमभिधावन्तं संप्रेक्ष्य कुरवोऽब्रुवन् ।\nक एष वेषप्रच्छन्नो भस्मनेव हुताशनः ॥"
+          "text": "तं शीघ्रमभिधावन्तं संप्रेक्ष्य कुरवोऽब्रुवन् ।\nक एष वेषप्रच्छन्नो भस्मनेव हुताशनः ॥",
+          "meaning": {
+            "en": "Seeing him dash swiftly, the Kurus said, \"Who is this, disguised like fire hidden in ashes?"
+          }
         },
         {
           "n": 30,
-          "text": "किंचिदस्य यथा पुंसः किंचिदस्य यथा स्त्रियः ।\nसारूप्यमर्जुनस्येव क्लीबरूपं बिभर्ति च ॥"
+          "text": "किंचिदस्य यथा पुंसः किंचिदस्य यथा स्त्रियः ।\nसारूप्यमर्जुनस्येव क्लीबरूपं बिभर्ति च ॥",
+          "meaning": {
+            "en": "Partly he is like a man, partly like a woman, bearing a form like Arjuna's but like a eunuch's."
+          }
         },
         {
           "n": 31,
-          "text": "तदेवैतच्छिरोग्रीवं तौ बाहू परिघोपमौ ।\nतद्वदेवास्य विक्रान्तं नायमन्यो धनंजयात् ॥"
+          "text": "तदेवैतच्छिरोग्रीवं तौ बाहू परिघोपमौ ।\nतद्वदेवास्य विक्रान्तं नायमन्यो धनंजयात् ॥",
+          "meaning": {
+            "en": "That head and neck are the same, those arms like iron bars, and the same prowess; this is no one but Dhananjaya."
+          }
         },
         {
           "n": 32,
-          "text": "अमरेष्विव देवेन्द्रो मानुषेषु धनंजयः ।\nएकः कोऽस्मानुपायायादन्यो लोके धनंजयात् ॥"
+          "text": "अमरेष्विव देवेन्द्रो मानुषेषु धनंजयः ।\nएकः कोऽस्मानुपायायादन्यो लोके धनंजयात् ॥",
+          "meaning": {
+            "en": "As Indra is among the immortals, so is Dhananjaya among men. Who else in the world but Dhananjaya would come against us alone?"
+          }
         },
         {
           "n": 33,
-          "text": "एकः पुत्रो विराटस्य शून्ये संनिहितः पुरे ।\nस एष किल निर्यातो बालभावान्न पौरुषात् ॥"
+          "text": "एकः पुत्रो विराटस्य शून्ये संनिहितः पुरे ।\nस एष किल निर्यातो बालभावान्न पौरुषात् ॥",
+          "meaning": {
+            "en": "Virata's only son was left in the empty city, and he has come out from boyishness, not manhood."
+          }
         },
         {
           "n": 34,
-          "text": "सत्रेण नूनं छन्नं हि चरन्तं पार्थमर्जुनम् ।\nउत्तरः सारथिं कृत्वा निर्यातो नगराद्बहिः ॥"
+          "text": "सत्रेण नूनं छन्नं हि चरन्तं पार्थमर्जुनम् ।\nउत्तरः सारथिं कृत्वा निर्यातो नगराद्बहिः ॥",
+          "meaning": {
+            "en": "Surely Arjuna son of Pritha, going about disguised, made Uttara his charioteer and has come out of the city."
+          }
         },
         {
           "n": 35,
-          "text": "स नो मन्ये ध्वजान्दृष्ट्वा भीत एष पलायति ।\nतं नूनमेष धावन्तं जिघृक्षति धनंजयः ॥"
+          "text": "स नो मन्ये ध्वजान्दृष्ट्वा भीत एष पलायति ।\nतं नूनमेष धावन्तं जिघृक्षति धनंजयः ॥",
+          "meaning": {
+            "en": "I think this one is fleeing in fear at seeing our banners, and Dhananjaya is trying to catch him as he runs.\""
+          }
         },
         {
           "n": 36,
-          "text": "इति स्म कुरवः सर्वे विमृशन्तः पृथक्पृथक् ।\nन च व्यवसितुं किंचिदुत्तरं शक्नुवन्ति ते ।\nछन्नं तथा तं सत्रेण पाण्डवं प्रेक्ष्य भारत ॥"
+          "text": "इति स्म कुरवः सर्वे विमृशन्तः पृथक्पृथक् ।\nन च व्यवसितुं किंचिदुत्तरं शक्नुवन्ति ते ।\nछन्नं तथा तं सत्रेण पाण्डवं प्रेक्ष्य भारत ॥",
+          "meaning": {
+            "en": "Thus all the Kurus conjectured, each in his own way, but could settle nothing about Uttara, seeing the Pandava so disguised, Bharata."
+          }
         },
         {
           "n": 37,
-          "text": "उत्तरं तु प्रधावन्तमनुद्रुत्य धनंजयः ।\nगत्वा पदशतं तूर्णं केशपक्षे परामृशत् ॥"
+          "text": "उत्तरं तु प्रधावन्तमनुद्रुत्य धनंजयः ।\nगत्वा पदशतं तूर्णं केशपक्षे परामृशत् ॥",
+          "meaning": {
+            "en": "Dhananjaya ran after Uttara as he fled and, after a hundred paces, quickly seized him by the hair."
+          }
         },
         {
           "n": 38,
-          "text": "सोऽर्जुनेन परामृष्टः पर्यदेवयदार्तवत् ।\nबहुलं कृपणं चैव विराटस्य सुतस्तदा ॥"
+          "text": "सोऽर्जुनेन परामृष्टः पर्यदेवयदार्तवत् ।\nबहुलं कृपणं चैव विराटस्य सुतस्तदा ॥",
+          "meaning": {
+            "en": "Seized by Arjuna, Virata's son wailed as if in distress, again and again and piteously."
+          }
         },
         {
           "n": 39,
-          "text": "शातकुम्भस्य शुद्धस्य शतं निष्कान्ददामि ते ।\nमणीनष्टौ च वैडूर्यान्हेमबद्धान्महाप्रभान् ॥"
+          "text": "शातकुम्भस्य शुद्धस्य शतं निष्कान्ददामि ते ।\nमणीनष्टौ च वैडूर्यान्हेमबद्धान्महाप्रभान् ॥",
+          "meaning": {
+            "en": "\"I will give you a hundred nishkas of pure gold and eight lapis lazuli gems set in gold, shining brightly,"
+          }
         },
         {
           "n": 40,
-          "text": "हेमदण्डप्रतिच्छन्नं रथं युक्तं च सुव्रजैः ।\nमत्तांश्च दश मातङ्गान्मुञ्च मां त्वं बृहन्नडे ॥"
+          "text": "हेमदण्डप्रतिच्छन्नं रथं युक्तं च सुव्रजैः ।\nमत्तांश्च दश मातङ्गान्मुञ्च मां त्वं बृहन्नडे ॥",
+          "meaning": {
+            "en": "a chariot covered with gold poles and yoked with good horses, and ten rutting elephants; let me go, Brihannada.\""
+          }
         },
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 41,
-          "text": "एवमादीनि वाक्यानि विलपन्तमचेतसम् ।\nप्रहस्य पुरुषव्याघ्रो रथस्यान्तिकमानयत् ॥"
+          "text": "एवमादीनि वाक्यानि विलपन्तमचेतसम् ।\nप्रहस्य पुरुषव्याघ्रो रथस्यान्तिकमानयत् ॥",
+          "meaning": {
+            "en": "As he lamented such words, senseless, the tiger among men laughed and brought him back to the chariot."
+          }
         },
         {
           "n": 42,
-          "text": "अथैनमब्रवीत्पार्थो भयार्तं नष्टचेतसम् ।\nयदि नोत्सहसे योद्धुं शत्रुभिः शत्रुकर्शन ।\nएहि मे त्वं हयान्यच्छ युध्यमानस्य शत्रुभिः ॥"
+          "text": "अथैनमब्रवीत्पार्थो भयार्तं नष्टचेतसम् ।\nयदि नोत्सहसे योद्धुं शत्रुभिः शत्रुकर्शन ।\nएहि मे त्वं हयान्यच्छ युध्यमानस्य शत्रुभिः ॥",
+          "meaning": {
+            "en": "Then Arjuna said to him, afraid and out of his wits, \"If you do not dare fight the enemy, scourge of foes, come, hold my horses while I fight them."
+          }
         },
         {
           "n": 43,
-          "text": "प्रयाह्येतद्रथानीकं मद्बाहुबलरक्षितः ।\nअप्रधृष्यतमं घोरं गुप्तं वीरैर्महारथैः ॥"
+          "text": "प्रयाह्येतद्रथानीकं मद्बाहुबलरक्षितः ।\nअप्रधृष्यतमं घोरं गुप्तं वीरैर्महारथैः ॥",
+          "meaning": {
+            "en": "Go toward this army of chariots, guarded by my arms' strength, though it is hard to attack, terrible and protected by heroic great charioteers."
+          }
         },
         {
           "n": 44,
-          "text": "मा भैस्त्वं राजपुत्राग्र्य क्षत्रियोऽसि परंतप ।\nअहं वै कुरुभिर्योत्स्याम्यवजेष्यामि ते पशून् ॥"
+          "text": "मा भैस्त्वं राजपुत्राग्र्य क्षत्रियोऽसि परंतप ।\nअहं वै कुरुभिर्योत्स्याम्यवजेष्यामि ते पशून् ॥",
+          "meaning": {
+            "en": "Do not fear, best of princes; you are a Kshatriya, scorcher of foes. I will fight the Kurus and win back your cattle."
+          }
         },
         {
           "n": 45,
-          "text": "प्रविश्यैतद्रथानीकमप्रधृष्यं दुरासदम् ।\nयन्ता भूस्त्वं नरश्रेष्ठ योत्स्येऽहं कुरुभिः सह ॥"
+          "text": "प्रविश्यैतद्रथानीकमप्रधृष्यं दुरासदम् ।\nयन्ता भूस्त्वं नरश्रेष्ठ योत्स्येऽहं कुरुभिः सह ॥",
+          "meaning": {
+            "en": "Enter this unassailable, hard-to-approach chariot host and be my driver, best of men; I will fight the Kurus.\""
+          }
         },
         {
           "n": 46,
-          "text": "एवं ब्रुवाणो बीभत्सुर्वैराटिमपराजितः ।\nसमाश्वास्य मुहूर्तं तमुत्तरं भरतर्षभ ॥"
+          "text": "एवं ब्रुवाणो बीभत्सुर्वैराटिमपराजितः ।\nसमाश्वास्य मुहूर्तं तमुत्तरं भरतर्षभ ॥",
+          "meaning": {
+            "en": "So speaking, the undefeated Bibhatsu comforted Uttara, Virata's son, for a while, best of Bharatas."
+          }
         },
         {
           "n": 47,
-          "text": "तत एनं विचेष्टन्तमकामं भयपीडितम् ।\nरथमारोपयामास पार्थः प्रहरतां वरः ॥"
+          "text": "तत एनं विचेष्टन्तमकामं भयपीडितम् ।\nरथमारोपयामास पार्थः प्रहरतां वरः ॥",
+          "meaning": {
+            "en": "Then Arjuna, best of fighters, though the prince resisted unwillingly, tormented by fear, put him up on the chariot."
+          }
         }
       ]
     }

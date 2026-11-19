@@ -22,85 +22,148 @@
       "titleEn": "Tirthayatra Parva (The pilgrimage)",
       "verses": [
         {
-          "text": "राम उवाच"
+          "text": "राम उवाच",
+          "meaning": {
+            "en": "Rama said:"
+          }
         },
         {
           "n": 1,
-          "text": "ममापराधात्तैः क्षुद्रैर्हतस्त्वं तात बालिशैः ।\nकार्तवीर्यस्य दायादैर्वने मृग इवेषुभिः ॥"
+          "text": "ममापराधात्तैः क्षुद्रैर्हतस्त्वं तात बालिशैः ।\nकार्तवीर्यस्य दायादैर्वने मृग इवेषुभिः ॥",
+          "meaning": {
+            "en": "Father, you have been killed for my fault by those mean, foolish sons of Kartavirya with arrows, like a deer in the forest."
+          }
         },
         {
           "n": 2,
-          "text": "धर्मज्ञस्य कथं तात वर्तमानस्य सत्पथे ।\nमृत्युरेवंविधो युक्तः सर्वभूतेष्वनागसः ॥"
+          "text": "धर्मज्ञस्य कथं तात वर्तमानस्य सत्पथे ।\nमृत्युरेवंविधो युक्तः सर्वभूतेष्वनागसः ॥",
+          "meaning": {
+            "en": "How, father, could such a death befall a knower of dharma who walked the right path and was harmless to all beings?"
+          }
         },
         {
           "n": 3,
-          "text": "किं नु तैर्न कृतं पापं यैर्भवांस्तपसि स्थितः ।\nअयुध्यमानो वृद्धः सन्हतः शरशतैः शितैः ॥"
+          "text": "किं नु तैर्न कृतं पापं यैर्भवांस्तपसि स्थितः ।\nअयुध्यमानो वृद्धः सन्हतः शरशतैः शितैः ॥",
+          "meaning": {
+            "en": "What sin have they not done, who killed you, an old man devoted to austerity, unresisting, with hundreds of sharp arrows?"
+          }
         },
         {
           "n": 4,
-          "text": "किं नु ते तत्र वक्ष्यन्ति सचिवेषु सुहृत्सु च ।\nअयुध्यमानं धर्मज्ञमेकं हत्वानपत्रपाः ॥"
+          "text": "किं नु ते तत्र वक्ष्यन्ति सचिवेषु सुहृत्सु च ।\nअयुध्यमानं धर्मज्ञमेकं हत्वानपत्रपाः ॥",
+          "meaning": {
+            "en": "What will those shameless ones say to their ministers and friends, having killed a lone knower of dharma who did not fight?"
+          }
         },
         {
-          "text": "अकृतव्रण उवाच"
+          "text": "अकृतव्रण उवाच",
+          "meaning": {
+            "en": "Akritavrana said:"
+          }
         },
         {
           "n": 5,
-          "text": "विलप्यैवं स करुणं बहु नानाविधं नृप ।\nप्रेतकार्याणि सर्वाणि पितुश्चक्रे महातपाः ॥"
+          "text": "विलप्यैवं स करुणं बहु नानाविधं नृप ।\nप्रेतकार्याणि सर्वाणि पितुश्चक्रे महातपाः ॥",
+          "meaning": {
+            "en": "After lamenting piteously in many ways, king, that great ascetic performed all the funeral rites for his father."
+          }
         },
         {
           "n": 6,
-          "text": "ददाह पितरं चाग्नौ रामः परपुरंजयः ।\nप्रतिजज्ञे वधं चापि सर्वक्षत्रस्य भारत ॥"
+          "text": "ददाह पितरं चाग्नौ रामः परपुरंजयः ।\nप्रतिजज्ञे वधं चापि सर्वक्षत्रस्य भारत ॥",
+          "meaning": {
+            "en": "Rama, conqueror of enemy cities, burned his father in the fire and vowed to destroy all the kshatriyas, Bharata."
+          }
         },
         {
           "n": 7,
-          "text": "संक्रुद्धोऽतिबलः शूरः शस्त्रमादाय वीर्यवान् ।\nजघ्निवान्कार्तवीर्यस्य सुतानेकोऽन्तकोपमः ॥"
+          "text": "संक्रुद्धोऽतिबलः शूरः शस्त्रमादाय वीर्यवान् ।\nजघ्निवान्कार्तवीर्यस्य सुतानेकोऽन्तकोपमः ॥",
+          "meaning": {
+            "en": "Furious, very strong, brave and mighty, he took up weapons and alone, like death itself, killed the sons of Kartavirya."
+          }
         },
         {
           "n": 8,
-          "text": "तेषां चानुगता ये च क्षत्रियाः क्षत्रियर्षभ ।\nतांश्च सर्वानवामृद्नाद्रामः प्रहरतां वरः ॥"
+          "text": "तेषां चानुगता ये च क्षत्रियाः क्षत्रियर्षभ ।\nतांश्च सर्वानवामृद्नाद्रामः प्रहरतां वरः ॥",
+          "meaning": {
+            "en": "Bull of kshatriyas, Rama, best of fighters, crushed all the kshatriyas who followed them."
+          }
         },
         {
           "n": 9,
-          "text": "त्रिःसप्तकृत्वः पृथिवीं कृत्वा निःक्षत्रियां प्रभुः ।\nसमन्तपञ्चके पञ्च चकार रुधिरह्रदान् ॥"
+          "text": "त्रिःसप्तकृत्वः पृथिवीं कृत्वा निःक्षत्रियां प्रभुः ।\nसमन्तपञ्चके पञ्च चकार रुधिरह्रदान् ॥",
+          "meaning": {
+            "en": "Twenty-one times the lord made the earth without kshatriyas, and at Samantapanchaka he made five pools of blood."
+          }
         },
         {
           "n": 10,
-          "text": "स तेषु तर्पयामास पितॄन्भृगुकुलोद्वहः ।\nसाक्षाद्ददर्श चर्चीकं स च रामं न्यवारयत् ॥"
+          "text": "स तेषु तर्पयामास पितॄन्भृगुकुलोद्वहः ।\nसाक्षाद्ददर्श चर्चीकं स च रामं न्यवारयत् ॥",
+          "meaning": {
+            "en": "There the glory of the Bhrigu line satisfied his ancestors, and saw Richika in person, who restrained Rama."
+          }
         },
         {
           "n": 11,
-          "text": "ततो यज्ञेन महता जामदग्न्यः प्रतापवान् ।\nतर्पयामास देवेन्द्रमृत्विग्भ्यश्च महीं ददौ ॥"
+          "text": "ततो यज्ञेन महता जामदग्न्यः प्रतापवान् ।\nतर्पयामास देवेन्द्रमृत्विग्भ्यश्च महीं ददौ ॥",
+          "meaning": {
+            "en": "Then the mighty son of Jamadagni satisfied Indra with a great sacrifice and gave the earth to the priests."
+          }
         },
         {
           "n": 12,
-          "text": "वेदीं चाप्यददद्धैमीं कश्यपाय महात्मने ।\nदशव्यामायतां कृत्वा नवोत्सेधां विशां पते ॥"
+          "text": "वेदीं चाप्यददद्धैमीं कश्यपाय महात्मने ।\nदशव्यामायतां कृत्वा नवोत्सेधां विशां पते ॥",
+          "meaning": {
+            "en": "He also gave great Kashyapa a golden altar, made ten fathoms long and nine high, lord of the people."
+          }
         },
         {
           "n": 13,
-          "text": "तां कश्यपस्यानुमते ब्राह्मणाः खण्डशस्तदा ।\nव्यभजंस्तेन ते राजन्प्रख्याताः खाण्डवायनाः ॥"
+          "text": "तां कश्यपस्यानुमते ब्राह्मणाः खण्डशस्तदा ।\nव्यभजंस्तेन ते राजन्प्रख्याताः खाण्डवायनाः ॥",
+          "meaning": {
+            "en": "With Kashyapa's leave the brahmins then divided it into pieces, and so they became famous as the Khandavayanas."
+          }
         },
         {
           "n": 14,
-          "text": "स प्रदाय महीं तस्मै कश्यपाय महात्मने ।\nअस्मिन्महेन्द्रे शैलेन्द्रे वसत्यमितविक्रमः ॥"
+          "text": "स प्रदाय महीं तस्मै कश्यपाय महात्मने ।\nअस्मिन्महेन्द्रे शैलेन्द्रे वसत्यमितविक्रमः ॥",
+          "meaning": {
+            "en": "Having given the earth to the great Kashyapa, Rama of boundless valour lives on this king of mountains, Mahendra."
+          }
         },
         {
           "n": 15,
-          "text": "एवं वैरमभूत्तस्य क्षत्रियैर्लोकवासिभिः ।\nपृथिवी चापि विजिता रामेणामिततेजसा ॥"
+          "text": "एवं वैरमभूत्तस्य क्षत्रियैर्लोकवासिभिः ।\nपृथिवी चापि विजिता रामेणामिततेजसा ॥",
+          "meaning": {
+            "en": "Thus he had enmity with the kshatriyas who lived in the world, and the earth was conquered by Rama of boundless energy."
+          }
         },
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 16,
-          "text": "ततश्चतुर्दशीं रामः समयेन महामनाः ।\nदर्शयामास तान्विप्रान्धर्मराजं च सानुजम् ॥"
+          "text": "ततश्चतुर्दशीं रामः समयेन महामनाः ।\nदर्शयामास तान्विप्रान्धर्मराजं च सानुजम् ॥",
+          "meaning": {
+            "en": "Then, as agreed, the great-minded Rama showed himself on the fourteenth to those brahmins and to the king of dharma with his brothers."
+          }
         },
         {
           "n": 17,
-          "text": "स तमानर्च राजेन्द्रो भ्रातृभिः सहितः प्रभुः ।\nद्विजानां च परां पूजां चक्रे नृपतिसत्तमः ॥"
+          "text": "स तमानर्च राजेन्द्रो भ्रातृभिः सहितः प्रभुः ।\nद्विजानां च परां पूजां चक्रे नृपतिसत्तमः ॥",
+          "meaning": {
+            "en": "The king, with his brothers, honoured him, and the best of kings also paid great honour to the brahmins."
+          }
         },
         {
           "n": 18,
-          "text": "अर्चयित्वा जामदग्न्यं पूजितस्तेन चाभिभूः ।\nमहेन्द्र उष्य तां रात्रिं प्रययौ दक्षिणामुखः ॥"
+          "text": "अर्चयित्वा जामदग्न्यं पूजितस्तेन चाभिभूः ।\nमहेन्द्र उष्य तां रात्रिं प्रययौ दक्षिणामुखः ॥",
+          "meaning": {
+            "en": "Having worshipped Jamadagni's son and been honoured by him, the mighty one stayed the night on Mahendra and went on, facing south."
+          }
         }
       ]
     }

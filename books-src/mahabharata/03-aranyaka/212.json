@@ -22,127 +22,220 @@
       "titleEn": "Markandeyasamasya Parva (Session with Markandeya)",
       "verses": [
         {
-          "text": "मार्कण्डेय उवाच"
+          "text": "मार्कण्डेय उवाच",
+          "meaning": {
+            "en": "Markandeya said:"
+          }
         },
         {
           "n": 1,
-          "text": "आपस्य मुदिता भार्या सहस्य परमा प्रिया ।\nभूपतिर्भुवभर्ता च जनयत्पावकं परम् ॥"
+          "text": "आपस्य मुदिता भार्या सहस्य परमा प्रिया ।\nभूपतिर्भुवभर्ता च जनयत्पावकं परम् ॥",
+          "meaning": {
+            "en": "\"Apa's joyful wife was the dearest of all to Saha. The lord of earth and sustainer of the world begot a supreme fire.\""
+          }
         },
         {
           "n": 2,
-          "text": "भूतानां चापि सर्वेषां यं प्राहुः पावकं पतिम् ।\nआत्मा भुवनभर्तेति सान्वयेषु द्विजातिषु ॥"
+          "text": "भूतानां चापि सर्वेषां यं प्राहुः पावकं पतिम् ।\nआत्मा भुवनभर्तेति सान्वयेषु द्विजातिषु ॥",
+          "meaning": {
+            "en": "\"That fire, whom they call the lord of all beings, the self and sustainer of the world, is so named among the twice-born of lineage.\""
+          }
         },
         {
           "n": 3,
-          "text": "महतां चैव भूतानां सर्वेषामिह यः पतिः ।\nभगवान्स महातेजा नित्यं चरति पावकः ॥"
+          "text": "महतां चैव भूतानां सर्वेषामिह यः पतिः ।\nभगवान्स महातेजा नित्यं चरति पावकः ॥",
+          "meaning": {
+            "en": "\"The blessed, mighty-radiant fire who is lord of all great beings here ever moves about.\""
+          }
         },
         {
           "n": 4,
-          "text": "अग्निर्गृहपतिर्नाम नित्यं यज्ञेषु पूज्यते ।\nहुतं वहति यो हव्यमस्य लोकस्य पावकः ॥"
+          "text": "अग्निर्गृहपतिर्नाम नित्यं यज्ञेषु पूज्यते ।\nहुतं वहति यो हव्यमस्य लोकस्य पावकः ॥",
+          "meaning": {
+            "en": "\"The fire called Grihapati is always worshipped at sacrifices; he is the purifier who carries the offering of this world.\""
+          }
         },
         {
           "n": 5,
-          "text": "अपां गर्भो महाभागः सहपुत्रो महाद्भुतः ।\nभूपतिर्भुवभर्ता च महतः पतिरुच्यते ॥"
+          "text": "अपां गर्भो महाभागः सहपुत्रो महाद्भुतः ।\nभूपतिर्भुवभर्ता च महतः पतिरुच्यते ॥",
+          "meaning": {
+            "en": "\"The greatly fortunate, wondrous child of the waters, with his sons, lord of earth and sustainer of the world, is called the lord of the great.\""
+          }
         },
         {
           "n": 6,
-          "text": "दहन्मृतानि भूतानि तस्याग्निर्भरतोऽभवत् ।\nअग्निष्टोमे च नियतः क्रतुश्रेष्ठो भरस्य तु ॥"
+          "text": "दहन्मृतानि भूतानि तस्याग्निर्भरतोऽभवत् ।\nअग्निष्टोमे च नियतः क्रतुश्रेष्ठो भरस्य तु ॥",
+          "meaning": {
+            "en": "\"Burning dead creatures, he became Bharata, the fire; and at the Agnishtoma the best sacrifice is set for Bhara.\""
+          }
         },
         {
           "n": 7,
-          "text": "आयान्तं नियतं दृष्ट्वा प्रविवेशार्णवं भयात् ।\nदेवास्तं नाधिगच्छन्ति मार्गमाणा यथादिशम् ॥"
+          "text": "आयान्तं नियतं दृष्ट्वा प्रविवेशार्णवं भयात् ।\nदेवास्तं नाधिगच्छन्ति मार्गमाणा यथादिशम् ॥",
+          "meaning": {
+            "en": "\"Seeing the disciplined one coming, he entered the ocean in fear. The gods, searching in each direction, could not find him.\""
+          }
         },
         {
           "n": 8,
-          "text": "दृष्ट्वा त्वग्निरथर्वाणं ततो वचनमब्रवीत् ।\nदेवानां वह हव्यं त्वमहं वीर सुदुर्बलः ।\nअथर्वन्गच्छ मध्वक्षं प्रियमेतत्कुरुष्व मे ॥"
+          "text": "दृष्ट्वा त्वग्निरथर्वाणं ततो वचनमब्रवीत् ।\nदेवानां वह हव्यं त्वमहं वीर सुदुर्बलः ।\nअथर्वन्गच्छ मध्वक्षं प्रियमेतत्कुरुष्व मे ॥",
+          "meaning": {
+            "en": "\"Then the fire saw Atharvan and said: 'You carry the offerings for the gods; I am very weak. Atharvan, go, honey-eyed one, and do this favor for me.'\""
+          }
         },
         {
           "n": 9,
-          "text": "प्रेष्य चाग्निरथर्वाणमन्यं देशं ततोऽगमत् ।\nमत्स्यास्तस्य समाचख्युः क्रुद्धस्तानग्निरब्रवीत् ॥"
+          "text": "प्रेष्य चाग्निरथर्वाणमन्यं देशं ततोऽगमत् ।\nमत्स्यास्तस्य समाचख्युः क्रुद्धस्तानग्निरब्रवीत् ॥",
+          "meaning": {
+            "en": "\"Sending Atharvan, the fire went to another place. The fishes revealed him, and the angry fire spoke to them.\""
+          }
         },
         {
           "n": 10,
-          "text": "भक्ष्या वै विविधैर्भावैर्भविष्यथ शरीरिणाम् ।\nअथर्वाणं तथा चापि हव्यवाहोऽब्रवीद्वचः ॥"
+          "text": "भक्ष्या वै विविधैर्भावैर्भविष्यथ शरीरिणाम् ।\nअथर्वाणं तथा चापि हव्यवाहोऽब्रवीद्वचः ॥",
+          "meaning": {
+            "en": "\"'You will be food for living beings in many ways.' Then the offering-bearer also said words to Atharvan.\""
+          }
         },
         {
           "n": 11,
-          "text": "अनुनीयमानोऽपि भृशं देववाक्याद्धि तेन सः ।\nनैच्छद्वोढुं हविः सर्वं शरीरं च समत्यजत् ॥"
+          "text": "अनुनीयमानोऽपि भृशं देववाक्याद्धि तेन सः ।\nनैच्छद्वोढुं हविः सर्वं शरीरं च समत्यजत् ॥",
+          "meaning": {
+            "en": "\"Though urged strongly, in accord with the gods' word, he was unwilling to carry all the offerings, and abandoned his body.\""
+          }
         },
         {
           "n": 12,
-          "text": "स तच्छरीरं संत्यज्य प्रविवेश धरां तदा ।\nभूमिं स्पृष्ट्वासृजद्धातून्पृथक्पृथगतीव हि ॥"
+          "text": "स तच्छरीरं संत्यज्य प्रविवेश धरां तदा ।\nभूमिं स्पृष्ट्वासृजद्धातून्पृथक्पृथगतीव हि ॥",
+          "meaning": {
+            "en": "\"Leaving that body, he entered the earth; touching the ground, he made many different minerals.\""
+          }
         },
         {
           "n": 13,
-          "text": "आस्यात्सुगन्धि तेजश्च अस्थिभ्यो देवदारु च ।\nश्लेष्मणः स्फटिकं तस्य पित्तान्मरकतं तथा ॥"
+          "text": "आस्यात्सुगन्धि तेजश्च अस्थिभ्यो देवदारु च ।\nश्लेष्मणः स्फटिकं तस्य पित्तान्मरकतं तथा ॥",
+          "meaning": {
+            "en": "\"From his mouth came fragrance and brilliance; from his bones, deodar; from his phlegm, crystal; and from his bile, emerald.\""
+          }
         },
         {
           "n": 14,
-          "text": "यकृत्कृष्णायसं तस्य त्रिभिरेव बभुः प्रजाः ।\nनखास्तस्याभ्रपटलं शिराजालानि विद्रुमम् ।\nशरीराद्विविधाश्चान्ये धातवोऽस्याभवन्नृप ॥"
+          "text": "यकृत्कृष्णायसं तस्य त्रिभिरेव बभुः प्रजाः ।\nनखास्तस्याभ्रपटलं शिराजालानि विद्रुमम् ।\nशरीराद्विविधाश्चान्ये धातवोऽस्याभवन्नृप ॥",
+          "meaning": {
+            "en": "\"From his liver came black iron, and by these three the people shone. His nails became mica, his network of veins coral; and from his body, king, came many other minerals.\""
+          }
         },
         {
           "n": 15,
-          "text": "एवं त्यक्त्वा शरीरं तु परमे तपसि स्थितः ।\nभृग्वङ्गिरादिभिर्भूयस्तपसोत्थापितस्तदा ॥"
+          "text": "एवं त्यक्त्वा शरीरं तु परमे तपसि स्थितः ।\nभृग्वङ्गिरादिभिर्भूयस्तपसोत्थापितस्तदा ॥",
+          "meaning": {
+            "en": "\"Having left his body, he stayed in supreme austerity. Then Bhrigu, Angiras and others raised him up again by their austerity.\""
+          }
         },
         {
           "n": 16,
-          "text": "भृशं जज्वाल तेजस्वी तपसाप्यायितः शिखी ।\nदृष्ट्वा ऋषीन्भयाच्चापि प्रविवेश महार्णवम् ॥"
+          "text": "भृशं जज्वाल तेजस्वी तपसाप्यायितः शिखी ।\nदृष्ट्वा ऋषीन्भयाच्चापि प्रविवेश महार्णवम् ॥",
+          "meaning": {
+            "en": "\"The fiery one blazed greatly, fed by austerity; but seeing the sages, he entered the great ocean again out of fear.\""
+          }
         },
         {
           "n": 17,
-          "text": "तस्मिन्नष्टे जगद्भीतमथर्वाणमथाश्रितम् ।\nअर्चयामासुरेवैनमथर्वाणं सुरर्षयः ॥"
+          "text": "तस्मिन्नष्टे जगद्भीतमथर्वाणमथाश्रितम् ।\nअर्चयामासुरेवैनमथर्वाणं सुरर्षयः ॥",
+          "meaning": {
+            "en": "\"When he was lost, the world was afraid and sought Atharvan, and the divine sages honored Atharvan.\""
+          }
         },
         {
           "n": 18,
-          "text": "अथर्वा त्वसृजल्लोकानात्मनालोक्य पावकम् ।\nमिषतां सर्वभूतानामुन्ममाथ महार्णवम् ॥"
+          "text": "अथर्वा त्वसृजल्लोकानात्मनालोक्य पावकम् ।\nमिषतां सर्वभूतानामुन्ममाथ महार्णवम् ॥",
+          "meaning": {
+            "en": "\"Atharvan created the worlds, saw the fire himself, and before the eyes of all beings stirred up the great ocean.\""
+          }
         },
         {
           "n": 19,
-          "text": "एवमग्निर्भगवता नष्टः पूर्वमथर्वणा ।\nआहूतः सर्वभूतानां हव्यं वहति सर्वदा ॥"
+          "text": "एवमग्निर्भगवता नष्टः पूर्वमथर्वणा ।\nआहूतः सर्वभूतानां हव्यं वहति सर्वदा ॥",
+          "meaning": {
+            "en": "\"Thus the fire was lost to the blessed Atharvan before; summoned, he has carried offerings for all beings ever since.\""
+          }
         },
         {
           "n": 20,
-          "text": "एवं त्वजनयद्धिष्ण्यान्वेदोक्तान्विबुधान्बहून् ।\nविचरन्विविधान्देशान्भ्रममाणस्तु तत्र वै ॥"
+          "text": "एवं त्वजनयद्धिष्ण्यान्वेदोक्तान्विबुधान्बहून् ।\nविचरन्विविधान्देशान्भ्रममाणस्तु तत्र वै ॥",
+          "meaning": {
+            "en": "\"So he produced many divine altars named in the Veda, wandering about in various regions and roaming there.\""
+          }
         },
         {
           "n": 21,
-          "text": "सिन्धुवर्जं पञ्च नद्यो देविकाथ सरस्वती ।\nगङ्गा च शतकुम्भा च शरयूर्गण्डसाह्वया ॥"
+          "text": "सिन्धुवर्जं पञ्च नद्यो देविकाथ सरस्वती ।\nगङ्गा च शतकुम्भा च शरयूर्गण्डसाह्वया ॥",
+          "meaning": {
+            "en": "\"The Sindhu aside, five rivers, the Devika, the Sarasvati, the Ganga, the Shatakumbha, the Sarayu, the Gandaki...\""
+          }
         },
         {
           "n": 22,
-          "text": "चर्मण्वती मही चैव मेध्या मेधातिथिस्तथा ।\nताम्रावती वेत्रवती नद्यस्तिस्रोऽथ कौशिकी ॥"
+          "text": "चर्मण्वती मही चैव मेध्या मेधातिथिस्तथा ।\nताम्रावती वेत्रवती नद्यस्तिस्रोऽथ कौशिकी ॥",
+          "meaning": {
+            "en": "\"the Charmanvati, the Mahi, Medhya, Medhatithi, Tamravati, Vetravati, and three rivers, and the Kaushiki...\""
+          }
         },
         {
           "n": 23,
-          "text": "तमसा नर्मदा चैव नदी गोदावरी तथा ।\nवेण्णा प्रवेणी भीमा च मेद्रथा चैव भारत ॥"
+          "text": "तमसा नर्मदा चैव नदी गोदावरी तथा ।\nवेण्णा प्रवेणी भीमा च मेद्रथा चैव भारत ॥",
+          "meaning": {
+            "en": "\"the Tamasa, the Narmada, the Godavari, Venna, Pravenni, Bhima and Medratha, descendant of Bharata...\""
+          }
         },
         {
           "n": 24,
-          "text": "भारती सुप्रयोगा च कावेरी मुर्मुरा तथा ।\nकृष्णा च कृष्णवेण्णा च कपिला शोण एव च ।\nएता नद्यस्तु धिष्ण्यानां मातरो याः प्रकीर्तिताः ॥"
+          "text": "भारती सुप्रयोगा च कावेरी मुर्मुरा तथा ।\nकृष्णा च कृष्णवेण्णा च कपिला शोण एव च ।\nएता नद्यस्तु धिष्ण्यानां मातरो याः प्रकीर्तिताः ॥",
+          "meaning": {
+            "en": "\"the Bharati, Suprayoga, the Kaveri, Murmura, the Krishna, the Krishnavenna, the Kapila and the Sona: these rivers are declared the mothers of the altars.\""
+          }
         },
         {
           "n": 25,
-          "text": "अद्भुतस्य प्रिया भार्या तस्याः पुत्रो विडूरथः ।\nयावन्तः पावकाः प्रोक्ताः सोमास्तावन्त एव च ॥"
+          "text": "अद्भुतस्य प्रिया भार्या तस्याः पुत्रो विडूरथः ।\nयावन्तः पावकाः प्रोक्ताः सोमास्तावन्त एव च ॥",
+          "meaning": {
+            "en": "\"The wondrous one had a dear wife, and her son was Vidura-ratha. As many fires as were named, so many Somas there were as well.\""
+          }
         },
         {
           "n": 26,
-          "text": "अत्रेश्चाप्यन्वये जाता ब्रह्मणो मानसाः प्रजाः ।\nअत्रिः पुत्रान्स्रष्टुकामस्तानेवात्मन्यधारयत् ।\nतस्य तद्ब्रह्मणः कायान्निर्हरन्ति हुताशनाः ॥"
+          "text": "अत्रेश्चाप्यन्वये जाता ब्रह्मणो मानसाः प्रजाः ।\nअत्रिः पुत्रान्स्रष्टुकामस्तानेवात्मन्यधारयत् ।\nतस्य तद्ब्रह्मणः कायान्निर्हरन्ति हुताशनाः ॥",
+          "meaning": {
+            "en": "\"In Atri's line were born Brahma's mind-born progeny. Atri, wishing to create sons, held them within himself, and the fires draw them out of that brahmin's body.\""
+          }
         },
         {
           "n": 27,
-          "text": "एवमेते महात्मानः कीर्तितास्तेऽग्नयो मया ।\nअप्रमेया यथोत्पन्नाः श्रीमन्तस्तिमिरापहाः ॥"
+          "text": "एवमेते महात्मानः कीर्तितास्तेऽग्नयो मया ।\nअप्रमेया यथोत्पन्नाः श्रीमन्तस्तिमिरापहाः ॥",
+          "meaning": {
+            "en": "\"In this way I have told you of these great fires, immeasurable, glorious dispellers of darkness, and how they arose.\""
+          }
         },
         {
           "n": 28,
-          "text": "अद्भुतस्य तु माहात्म्यं यथा वेदेषु कीर्तितम् ।\nतादृशं विद्धि सर्वेषामेको ह्येष हुताशनः ॥"
+          "text": "अद्भुतस्य तु माहात्म्यं यथा वेदेषु कीर्तितम् ।\nतादृशं विद्धि सर्वेषामेको ह्येष हुताशनः ॥",
+          "meaning": {
+            "en": "\"Know that the greatness of the wondrous one is as the Vedas proclaim; for all of them this fire is one.\""
+          }
         },
         {
           "n": 29,
-          "text": "एक एवैष भगवान्विज्ञेयः प्रथमोऽङ्गिराः ।\nबहुधा निःसृतः कायाज्ज्योतिष्टोमः क्रतुर्यथा ॥"
+          "text": "एक एवैष भगवान्विज्ञेयः प्रथमोऽङ्गिराः ।\nबहुधा निःसृतः कायाज्ज्योतिष्टोमः क्रतुर्यथा ॥",
+          "meaning": {
+            "en": "\"This blessed one is to be known as one only, Angiras the first, who came forth in many forms from his body, as the Jyotishtoma sacrifice does.\""
+          }
         },
         {
           "n": 30,
-          "text": "इत्येष वंशः सुमहानग्नीनां कीर्तितो मया ।\nपावितो विविधैर्मन्त्रैर्हव्यं वहति देहिनाम् ॥"
+          "text": "इत्येष वंशः सुमहानग्नीनां कीर्तितो मया ।\nपावितो विविधैर्मन्त्रैर्हव्यं वहति देहिनाम् ॥",
+          "meaning": {
+            "en": "\"Thus I have told you this very great lineage of fires. Purified by various mantras, he carries the offerings of living beings.\""
+          }
         }
       ]
     }

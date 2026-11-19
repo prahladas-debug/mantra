@@ -22,50 +22,86 @@
       "titleEn": "Draupadiharana Parva (Abduction of Draupadi)",
       "verses": [
         {
-          "text": "जनमेजय उवाच"
+          "text": "जनमेजय उवाच",
+          "meaning": {
+            "en": "Janamejaya said:"
+          }
         },
         {
           "n": 1,
-          "text": "एवं हृतायां कृष्णायां प्राप्य क्लेशमनुत्तमम् ।\nअत ऊर्ध्वं नरव्याघ्राः किमकुर्वत पाण्डवाः ॥"
+          "text": "एवं हृतायां कृष्णायां प्राप्य क्लेशमनुत्तमम् ।\nअत ऊर्ध्वं नरव्याघ्राः किमकुर्वत पाण्डवाः ॥",
+          "meaning": {
+            "en": "When Krishna had been carried off in this way and the Pandavas had met with this supreme misery, what did those tigers among men do next?"
+          }
         },
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 2,
-          "text": "एवं कृष्णां मोक्षयित्वा विनिर्जित्य जयद्रथम् ।\nआसां चक्रे मुनिगणैर्धर्मराजो युधिष्ठिरः ॥"
+          "text": "एवं कृष्णां मोक्षयित्वा विनिर्जित्य जयद्रथम् ।\nआसां चक्रे मुनिगणैर्धर्मराजो युधिष्ठिरः ॥",
+          "meaning": {
+            "en": "Having freed Krishna and defeated Jayadratha, Dharmaraja Yudhishthira sat down among the groups of sages."
+          }
         },
         {
           "n": 3,
-          "text": "तेषां मध्ये महर्षीणां शृण्वतामनुशोचताम् ।\nमार्कण्डेयमिदं वाक्यमब्रवीत्पाण्डुनन्दनः ॥"
+          "text": "तेषां मध्ये महर्षीणां शृण्वतामनुशोचताम् ।\nमार्कण्डेयमिदं वाक्यमब्रवीत्पाण्डुनन्दनः ॥",
+          "meaning": {
+            "en": "In the midst of those great sages, who listened and grieved, the son of Pandu spoke these words to Markandeya."
+          }
         },
         {
           "n": 4,
-          "text": "मन्ये कालश्च बलवान्दैवं च विधिनिर्मितम् ।\nभवितव्यं च भूतानां यस्य नास्ति व्यतिक्रमः ॥"
+          "text": "मन्ये कालश्च बलवान्दैवं च विधिनिर्मितम् ।\nभवितव्यं च भूतानां यस्य नास्ति व्यतिक्रमः ॥",
+          "meaning": {
+            "en": "\"I think that time is strong, and that fate, ordained by the Creator, and what must happen to beings, cannot be escaped."
+          }
         },
         {
           "n": 5,
-          "text": "कथं हि पत्नीमस्माकं धर्मज्ञां धर्मचारिणीम् ।\nसंस्पृशेदीदृशो भावः शुचिं स्तैन्यमिवानृतम् ॥"
+          "text": "कथं हि पत्नीमस्माकं धर्मज्ञां धर्मचारिणीम् ।\nसंस्पृशेदीदृशो भावः शुचिं स्तैन्यमिवानृतम् ॥",
+          "meaning": {
+            "en": "How else could such a thing touch our wife, who knows dharma and lives by dharma, as theft touches a pure man with a lie?"
+          }
         },
         {
           "n": 6,
-          "text": "न हि पापं कृतं किंचित्कर्म वा निन्दितं क्वचित् ।\nद्रौपद्या ब्राह्मणेष्वेव धर्मः सुचरितो महान् ॥"
+          "text": "न हि पापं कृतं किंचित्कर्म वा निन्दितं क्वचित् ।\nद्रौपद्या ब्राह्मणेष्वेव धर्मः सुचरितो महान् ॥",
+          "meaning": {
+            "en": "She has done no sin and no blamed deed anywhere; Draupadi has practiced great dharma toward brahmins."
+          }
         },
         {
           "n": 7,
-          "text": "तां जहार बलाद्राजा मूढबुद्धिर्जयद्रथः ।\nतस्याः संहरणात्प्राप्तः शिरसः केशवापनम् ।\nपराजयं च संग्रामे ससहायः समाप्तवान् ॥"
+          "text": "तां जहार बलाद्राजा मूढबुद्धिर्जयद्रथः ।\nतस्याः संहरणात्प्राप्तः शिरसः केशवापनम् ।\nपराजयं च संग्रामे ससहायः समाप्तवान् ॥",
+          "meaning": {
+            "en": "The foolish king Jayadratha carried her off by force. For taking her, he got his head shaven and a defeat in battle, with his helpers."
+          }
         },
         {
           "n": 8,
-          "text": "प्रत्याहृता तथास्माभिर्हत्वा तत्सैन्धवं बलम् ।\nतद्दारहरणं प्राप्तमस्माभिरवितर्कितम् ॥"
+          "text": "प्रत्याहृता तथास्माभिर्हत्वा तत्सैन्धवं बलम् ।\nतद्दारहरणं प्राप्तमस्माभिरवितर्कितम् ॥",
+          "meaning": {
+            "en": "We brought her back, killing that Saindhava army; but this seizing of our wife came upon us unexpectedly."
+          }
         },
         {
           "n": 9,
-          "text": "दुःखश्चायं वने वासो मृगयायां च जीविका ।\nहिंसा च मृगजातीनां वनौकोभिर्वनौकसाम् ।\nज्ञातिभिर्विप्रवासश्च मिथ्या व्यवसितैरयम् ॥"
+          "text": "दुःखश्चायं वने वासो मृगयायां च जीविका ।\nहिंसा च मृगजातीनां वनौकोभिर्वनौकसाम् ।\nज्ञातिभिर्विप्रवासश्च मिथ्या व्यवसितैरयम् ॥",
+          "meaning": {
+            "en": "This life in the forest is painful, with a living from hunting, and the killing of animals by forest-dwellers, and exile from our kinsmen, all through the false resolve of others."
+          }
         },
         {
           "n": 10,
-          "text": "अस्ति नूनं मया कश्चिदल्पभाग्यतरो नरः ।\nभवता दृष्टपूर्वो वा श्रुतपूर्वोऽपि वा भवेत् ॥"
+          "text": "अस्ति नूनं मया कश्चिदल्पभाग्यतरो नरः ।\nभवता दृष्टपूर्वो वा श्रुतपूर्वोऽपि वा भवेत् ॥",
+          "meaning": {
+            "en": "Surely there is some man more unfortunate than I, whom you have seen before or heard of before.\""
+          }
         }
       ]
     }

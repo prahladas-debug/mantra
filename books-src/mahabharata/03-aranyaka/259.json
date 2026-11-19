@@ -22,188 +22,332 @@
       "titleEn": "Draupadiharana Parva (Abduction of Draupadi)",
       "verses": [
         {
-          "text": "मार्कण्डेय उवाच"
+          "text": "मार्कण्डेय उवाच",
+          "meaning": {
+            "en": "Markandeya said:"
+          }
         },
         {
           "n": 1,
-          "text": "पुलस्त्यस्य तु यः क्रोधादर्धदेहोऽभवन्मुनिः ।\nविश्रवा नाम सक्रोधः स वैश्रवणमैक्षत ॥"
+          "text": "पुलस्त्यस्य तु यः क्रोधादर्धदेहोऽभवन्मुनिः ।\nविश्रवा नाम सक्रोधः स वैश्रवणमैक्षत ॥",
+          "meaning": {
+            "en": "The sage who was born as half of Pulastya's body from his anger, named Vishrava, looked at Vaishravana angrily."
+          }
         },
         {
           "n": 2,
-          "text": "बुबुधे तं तु सक्रोधं पितरं राक्षसेश्वरः ।\nकुबेरस्तत्प्रसादार्थं यतते स्म सदा नृप ॥"
+          "text": "बुबुधे तं तु सक्रोधं पितरं राक्षसेश्वरः ।\nकुबेरस्तत्प्रसादार्थं यतते स्म सदा नृप ॥",
+          "meaning": {
+            "en": "Kubera, lord of the rakshasas, realized his father was angry and always strove to win his favor, O king."
+          }
         },
         {
           "n": 3,
-          "text": "स राजराजो लङ्कायां निवसन्नरवाहनः ।\nराक्षसीः प्रददौ तिस्रः पितुर्वै परिचारिकाः ॥"
+          "text": "स राजराजो लङ्कायां निवसन्नरवाहनः ।\nराक्षसीः प्रददौ तिस्रः पितुर्वै परिचारिकाः ॥",
+          "meaning": {
+            "en": "Living in Lanka, that king of kings, who rides on men, gave three rakshasa women to his father as attendants."
+          }
         },
         {
           "n": 4,
-          "text": "तास्तदा तं महात्मानं संतोषयितुमुद्यताः ।\nऋषिं भरतशार्दूल नृत्तगीतविशारदाः ॥"
+          "text": "तास्तदा तं महात्मानं संतोषयितुमुद्यताः ।\nऋषिं भरतशार्दूल नृत्तगीतविशारदाः ॥",
+          "meaning": {
+            "en": "They, skilled in dance and song, set about pleasing that great sage, tiger among the Bharatas."
+          }
         },
         {
           "n": 5,
-          "text": "पुष्पोत्कटा च राका च मालिनी च विशां पते ।\nअन्योन्यस्पर्धया राजञ्श्रेयस्कामाः सुमध्यमाः ॥"
+          "text": "पुष्पोत्कटा च राका च मालिनी च विशां पते ।\nअन्योन्यस्पर्धया राजञ्श्रेयस्कामाः सुमध्यमाः ॥",
+          "meaning": {
+            "en": "Pushpotkata, Raka and Malini, lord of men, slender-waisted and seeking their good, competed with each other."
+          }
         },
         {
           "n": 6,
-          "text": "तासां स भगवांस्तुष्टो महात्मा प्रददौ वरान् ।\nलोकपालोपमान्पुत्रानेकैकस्या यथेप्सितान् ॥"
+          "text": "तासां स भगवांस्तुष्टो महात्मा प्रददौ वरान् ।\nलोकपालोपमान्पुत्रानेकैकस्या यथेप्सितान् ॥",
+          "meaning": {
+            "en": "The pleased and great-souled revered one gave them boons: sons like the world-guardians for each one, as she wished."
+          }
         },
         {
           "n": 7,
-          "text": "पुष्पोत्कटायां जज्ञाते द्वौ पुत्रौ राक्षसेश्वरौ ।\nकुम्भकर्णदशग्रीवौ बलेनाप्रतिमौ भुवि ॥"
+          "text": "पुष्पोत्कटायां जज्ञाते द्वौ पुत्रौ राक्षसेश्वरौ ।\nकुम्भकर्णदशग्रीवौ बलेनाप्रतिमौ भुवि ॥",
+          "meaning": {
+            "en": "Pushpotkata bore two sons, lords of the rakshasas, Kumbhakarna and Dashagriva, unmatched in strength on earth."
+          }
         },
         {
           "n": 8,
-          "text": "मालिनी जनयामास पुत्रमेकं विभीषणम् ।\nराकायां मिथुनं जज्ञे खरः शूर्पणखा तथा ॥"
+          "text": "मालिनी जनयामास पुत्रमेकं विभीषणम् ।\nराकायां मिथुनं जज्ञे खरः शूर्पणखा तथा ॥",
+          "meaning": {
+            "en": "Malini bore one son, Vibhishana. Raka bore twins, Khara and Shurpanakha."
+          }
         },
         {
           "n": 9,
-          "text": "विभीषणस्तु रूपेण सर्वेभ्योऽभ्यधिकोऽभवत् ।\nस बभूव महाभागो धर्मगोप्ता क्रियारतिः ॥"
+          "text": "विभीषणस्तु रूपेण सर्वेभ्योऽभ्यधिकोऽभवत् ।\nस बभूव महाभागो धर्मगोप्ता क्रियारतिः ॥",
+          "meaning": {
+            "en": "Vibhishana surpassed all in beauty; he was very fortunate, a protector of dharma and devoted to right action."
+          }
         },
         {
           "n": 10,
-          "text": "दशग्रीवस्तु सर्वेषां ज्येष्ठो राक्षसपुंगवः ।\nमहोत्साहो महावीर्यो महासत्त्वपराक्रमः ॥"
+          "text": "दशग्रीवस्तु सर्वेषां ज्येष्ठो राक्षसपुंगवः ।\nमहोत्साहो महावीर्यो महासत्त्वपराक्रमः ॥",
+          "meaning": {
+            "en": "Dashagriva was the eldest of all, a bull among rakshasas, of great energy, great valor, and great courage and strength."
+          }
         },
         {
           "n": 11,
-          "text": "कुम्भकर्णो बलेनासीत्सर्वेभ्योऽभ्यधिकस्तदा ।\nमायावी रणशौण्डश्च रौद्रश्च रजनीचरः ॥"
+          "text": "कुम्भकर्णो बलेनासीत्सर्वेभ्योऽभ्यधिकस्तदा ।\nमायावी रणशौण्डश्च रौद्रश्च रजनीचरः ॥",
+          "meaning": {
+            "en": "Kumbhakarna was then greater than all in strength, a master of illusion, bold in battle, fearsome, a night-prowler."
+          }
         },
         {
           "n": 12,
-          "text": "खरो धनुषि विक्रान्तो ब्रह्मद्विट्पिशिताशनः ।\nसिद्धविघ्नकरी चापि रौद्रा शूर्पणखा तथा ॥"
+          "text": "खरो धनुषि विक्रान्तो ब्रह्मद्विट्पिशिताशनः ।\nसिद्धविघ्नकरी चापि रौद्रा शूर्पणखा तथा ॥",
+          "meaning": {
+            "en": "Khara was powerful with the bow, an enemy of brahmins and a flesh-eater; and fierce Shurpanakha troubled the rites of the perfected."
+          }
         },
         {
           "n": 13,
-          "text": "सर्वे वेदविदः शूराः सर्वे सुचरितव्रताः ।\nऊषुः पित्रा सह रता गन्धमादनपर्वते ॥"
+          "text": "सर्वे वेदविदः शूराः सर्वे सुचरितव्रताः ।\nऊषुः पित्रा सह रता गन्धमादनपर्वते ॥",
+          "meaning": {
+            "en": "All were knowers of the Vedas, brave and of fine vows, and lived with their father in contentment on Mount Gandhamadana."
+          }
         },
         {
           "n": 14,
-          "text": "ततो वैश्रवणं तत्र ददृशुर्नरवाहनम् ।\nपित्रा सार्धं समासीनमृद्ध्या परमया युतम् ॥"
+          "text": "ततो वैश्रवणं तत्र ददृशुर्नरवाहनम् ।\nपित्रा सार्धं समासीनमृद्ध्या परमया युतम् ॥",
+          "meaning": {
+            "en": "There they saw Vaishravana, who rides on men, seated with his father in great prosperity."
+          }
         },
         {
           "n": 15,
-          "text": "जातस्पर्धास्ततस्ते तु तपसे धृतनिश्चयाः ।\nब्रह्माणं तोषयामासुर्घोरेण तपसा तदा ॥"
+          "text": "जातस्पर्धास्ततस्ते तु तपसे धृतनिश्चयाः ।\nब्रह्माणं तोषयामासुर्घोरेण तपसा तदा ॥",
+          "meaning": {
+            "en": "Filled with rivalry, they resolved on austerity and pleased Brahma with terrible austerity."
+          }
         },
         {
           "n": 16,
-          "text": "अतिष्ठदेकपादेन सहस्रं परिवत्सरान् ।\nवायुभक्षो दशग्रीवः पञ्चाग्निः सुसमाहितः ॥"
+          "text": "अतिष्ठदेकपादेन सहस्रं परिवत्सरान् ।\nवायुभक्षो दशग्रीवः पञ्चाग्निः सुसमाहितः ॥",
+          "meaning": {
+            "en": "For a thousand years Dashagriva stood on one foot, living on air, between five fires, deeply concentrated."
+          }
         },
         {
           "n": 17,
-          "text": "अधःशायी कुम्भकर्णो यताहारो यतव्रतः ।\nविभीषणः शीर्णपर्णमेकमभ्यवहारयत् ॥"
+          "text": "अधःशायी कुम्भकर्णो यताहारो यतव्रतः ।\nविभीषणः शीर्णपर्णमेकमभ्यवहारयत् ॥",
+          "meaning": {
+            "en": "Kumbhakarna lay on the bare ground, restrained in food and vows. Vibhishana ate a single fallen leaf."
+          }
         },
         {
           "n": 18,
-          "text": "उपवासरतिर्धीमान्सदा जप्यपरायणः ।\nतमेव कालमातिष्ठत्तीव्रं तप उदारधीः ॥"
+          "text": "उपवासरतिर्धीमान्सदा जप्यपरायणः ।\nतमेव कालमातिष्ठत्तीव्रं तप उदारधीः ॥",
+          "meaning": {
+            "en": "He, wise and always devoted to muttered prayers, delighted in fasting, and the noble-minded one practiced fierce austerity for that same time."
+          }
         },
         {
           "n": 19,
-          "text": "खरः शूर्पणखा चैव तेषां वै तप्यतां तपः ।\nपरिचर्यां च रक्षां च चक्रतुर्हृष्टमानसौ ॥"
+          "text": "खरः शूर्पणखा चैव तेषां वै तप्यतां तपः ।\nपरिचर्यां च रक्षां च चक्रतुर्हृष्टमानसौ ॥",
+          "meaning": {
+            "en": "Khara and Shurpanakha, glad in mind, served and guarded them while they performed their austerity."
+          }
         },
         {
           "n": 20,
-          "text": "पूर्णे वर्षसहस्रे तु शिरश्छित्त्वा दशाननः ।\nजुहोत्यग्नौ दुराधर्षस्तेनातुष्यज्जगत्प्रभुः ॥"
+          "text": "पूर्णे वर्षसहस्रे तु शिरश्छित्त्वा दशाननः ।\nजुहोत्यग्नौ दुराधर्षस्तेनातुष्यज्जगत्प्रभुः ॥",
+          "meaning": {
+            "en": "When a thousand years were complete, the unassailable Dashanana cut off his head and offered it into the fire, and the lord of the world was pleased by that."
+          }
         },
         {
           "n": 21,
-          "text": "ततो ब्रह्मा स्वयं गत्वा तपसस्तान्न्यवारयत् ।\nप्रलोभ्य वरदानेन सर्वानेव पृथक्पृथक् ॥"
+          "text": "ततो ब्रह्मा स्वयं गत्वा तपसस्तान्न्यवारयत् ।\nप्रलोभ्य वरदानेन सर्वानेव पृथक्पृथक् ॥",
+          "meaning": {
+            "en": "Then Brahma himself went and stopped them from further austerity, tempting each separately with a boon."
+          }
         },
         {
-          "text": "ब्रह्मोवाच"
+          "text": "ब्रह्मोवाच",
+          "meaning": {
+            "en": "Brahma said:"
+          }
         },
         {
           "n": 22,
-          "text": "प्रीतोऽस्मि वो निवर्तध्वं वरान्वृणुत पुत्रकाः ।\nयद्यदिष्टमृते त्वेकममरत्वं तथास्तु तत् ॥"
+          "text": "प्रीतोऽस्मि वो निवर्तध्वं वरान्वृणुत पुत्रकाः ।\nयद्यदिष्टमृते त्वेकममरत्वं तथास्तु तत् ॥",
+          "meaning": {
+            "en": "I am pleased with you; turn back, my children, and choose boons. Whatever you want, except immortality, let it be so."
+          }
         },
         {
           "n": 23,
-          "text": "यद्यदग्नौ हुतं सर्वं शिरस्ते महदीप्सया ।\nतथैव तानि ते देहे भविष्यन्ति यथेप्सितम् ॥"
+          "text": "यद्यदग्नौ हुतं सर्वं शिरस्ते महदीप्सया ।\nतथैव तानि ते देहे भविष्यन्ति यथेप्सितम् ॥",
+          "meaning": {
+            "en": "Whatever head of yours was offered into the fire from your great desire, those heads will be as they were on your body, as you wish."
+          }
         },
         {
           "n": 24,
-          "text": "वैरूप्यं च न ते देहे कामरूपधरस्तथा ।\nभविष्यसि रणेऽरीणां विजेतासि न संशयः ॥"
+          "text": "वैरूप्यं च न ते देहे कामरूपधरस्तथा ।\nभविष्यसि रणेऽरीणां विजेतासि न संशयः ॥",
+          "meaning": {
+            "en": "There will be no deformity in your body and you will take any form at will. You will be victorious over your enemies in battle, without doubt."
+          }
         },
         {
-          "text": "रावण उवाच"
+          "text": "रावण उवाच",
+          "meaning": {
+            "en": "Ravana said:"
+          }
         },
         {
           "n": 25,
-          "text": "गन्धर्वदेवासुरतो यक्षराक्षसतस्तथा ।\nसर्पकिंनरभूतेभ्यो न मे भूयात्पराभवः ॥"
+          "text": "गन्धर्वदेवासुरतो यक्षराक्षसतस्तथा ।\nसर्पकिंनरभूतेभ्यो न मे भूयात्पराभवः ॥",
+          "meaning": {
+            "en": "Let me never be defeated by gandharvas, gods, asuras, yakshas, rakshasas, serpents, kinnaras or spirits."
+          }
         },
         {
-          "text": "ब्रह्मोवाच"
+          "text": "ब्रह्मोवाच",
+          "meaning": {
+            "en": "Brahma said:"
+          }
         },
         {
           "n": 26,
-          "text": "य एते कीर्तिताः सर्वे न तेभ्योऽस्ति भयं तव ।\nऋते मनुष्याद्भद्रं ते तथा तद्विहितं मया ॥"
+          "text": "य एते कीर्तिताः सर्वे न तेभ्योऽस्ति भयं तव ।\nऋते मनुष्याद्भद्रं ते तथा तद्विहितं मया ॥",
+          "meaning": {
+            "en": "You have no fear from any of those you have named, except from a man. Good luck to you; so I have arranged it."
+          }
         },
         {
-          "text": "मार्कण्डेय उवाच"
+          "text": "मार्कण्डेय उवाच",
+          "meaning": {
+            "en": "Markandeya said:"
+          }
         },
         {
           "n": 27,
-          "text": "एवमुक्तो दशग्रीवस्तुष्टः समभवत्तदा ।\nअवमेने हि दुर्बुद्धिर्मनुष्यान्पुरुषादकः ॥"
+          "text": "एवमुक्तो दशग्रीवस्तुष्टः समभवत्तदा ।\nअवमेने हि दुर्बुद्धिर्मनुष्यान्पुरुषादकः ॥",
+          "meaning": {
+            "en": "Thus addressed, Dashagriva was pleased. The evil-minded man-eater despised humans."
+          }
         },
         {
           "n": 28,
-          "text": "कुम्भकर्णमथोवाच तथैव प्रपितामहः ।\nस वव्रे महतीं निद्रां तमसा ग्रस्तचेतनः ॥"
+          "text": "कुम्भकर्णमथोवाच तथैव प्रपितामहः ।\nस वव्रे महतीं निद्रां तमसा ग्रस्तचेतनः ॥",
+          "meaning": {
+            "en": "The great-grandfather then spoke likewise to Kumbhakarna, who, with his mind swallowed by darkness, chose a great sleep."
+          }
         },
         {
           "n": 29,
-          "text": "तथा भविष्यतीत्युक्त्वा विभीषणमुवाच ह ।\nवरं वृणीष्व पुत्र त्वं प्रीतोऽस्मीति पुनः पुनः ॥"
+          "text": "तथा भविष्यतीत्युक्त्वा विभीषणमुवाच ह ।\nवरं वृणीष्व पुत्र त्वं प्रीतोऽस्मीति पुनः पुनः ॥",
+          "meaning": {
+            "en": "Saying \"So it shall be,\" he said to Vibhishana again and again, \"Choose a boon, son; I am pleased.\""
+          }
         },
         {
-          "text": "विभीषण उवाच"
+          "text": "विभीषण उवाच",
+          "meaning": {
+            "en": "Vibhishana said:"
+          }
         },
         {
           "n": 30,
-          "text": "परमापद्गतस्यापि नाधर्मे मे मतिर्भवेत् ।\nअशिक्षितं च भगवन्ब्रह्मास्त्रं प्रतिभातु मे ॥"
+          "text": "परमापद्गतस्यापि नाधर्मे मे मतिर्भवेत् ।\nअशिक्षितं च भगवन्ब्रह्मास्त्रं प्रतिभातु मे ॥",
+          "meaning": {
+            "en": "Even if I were in extreme distress, may my mind not turn to adharma. And, revered one, let the Brahma weapon, which I have not been taught, come to me."
+          }
         },
         {
-          "text": "ब्रह्मोवाच"
+          "text": "ब्रह्मोवाच",
+          "meaning": {
+            "en": "Brahma said:"
+          }
         },
         {
           "n": 31,
-          "text": "यस्माद्राक्षसयोनौ ते जातस्यामित्रकर्शन ।\nनाधर्मे रमते बुद्धिरमरत्वं ददामि ते ॥"
+          "text": "यस्माद्राक्षसयोनौ ते जातस्यामित्रकर्शन ।\nनाधर्मे रमते बुद्धिरमरत्वं ददामि ते ॥",
+          "meaning": {
+            "en": "Since, though born in a rakshasa womb, your mind does not delight in adharma, scorcher of foes, I give you immortality."
+          }
         },
         {
-          "text": "मार्कण्डेय उवाच"
+          "text": "मार्कण्डेय उवाच",
+          "meaning": {
+            "en": "Markandeya said:"
+          }
         },
         {
           "n": 32,
-          "text": "राक्षसस्तु वरं लब्ध्वा दशग्रीवो विशां पते ।\nलङ्कायाश्च्यावयामास युधि जित्वा धनेश्वरम् ॥"
+          "text": "राक्षसस्तु वरं लब्ध्वा दशग्रीवो विशां पते ।\nलङ्कायाश्च्यावयामास युधि जित्वा धनेश्वरम् ॥",
+          "meaning": {
+            "en": "The rakshasa Dashagriva, having gained his boon, lord of men, defeated the lord of wealth in battle and drove him from Lanka."
+          }
         },
         {
           "n": 33,
-          "text": "हित्वा स भगवाँल्लङ्कामाविशद्गन्धमादनम् ।\nगन्धर्वयक्षानुगतो रक्षःकिंपुरुषैः सह ॥"
+          "text": "हित्वा स भगवाँल्लङ्कामाविशद्गन्धमादनम् ।\nगन्धर्वयक्षानुगतो रक्षःकिंपुरुषैः सह ॥",
+          "meaning": {
+            "en": "Giving up Lanka, the revered one went to Gandhamadana, followed by gandharvas and yakshas, with rakshasas and kimpurushas."
+          }
         },
         {
           "n": 34,
-          "text": "विमानं पुष्पकं तस्य जहाराक्रम्य रावणः ।\nशशाप तं वैश्रवणो न त्वामेतद्वहिष्यति ॥"
+          "text": "विमानं पुष्पकं तस्य जहाराक्रम्य रावणः ।\nशशाप तं वैश्रवणो न त्वामेतद्वहिष्यति ॥",
+          "meaning": {
+            "en": "Ravana attacked and seized his chariot Pushpaka. Vaishravana cursed him: \"This will not carry you."
+          }
         },
         {
           "n": 35,
-          "text": "यस्तु त्वां समरे हन्ता तमेवैतद्वहिष्यति ।\nअवमन्य गुरुं मां च क्षिप्रं त्वं न भविष्यसि ॥"
+          "text": "यस्तु त्वां समरे हन्ता तमेवैतद्वहिष्यति ।\nअवमन्य गुरुं मां च क्षिप्रं त्वं न भविष्यसि ॥",
+          "meaning": {
+            "en": "It will carry only the one who kills you in battle. Having scorned me, your elder, you will soon be no more.\""
+          }
         },
         {
           "n": 36,
-          "text": "विभीषणस्तु धर्मात्मा सतां धर्ममनुस्मरन् ।\nअन्वगच्छन्महाराज श्रिया परमया युतः ॥"
+          "text": "विभीषणस्तु धर्मात्मा सतां धर्ममनुस्मरन् ।\nअन्वगच्छन्महाराज श्रिया परमया युतः ॥",
+          "meaning": {
+            "en": "But Vibhishana, righteous, remembering the dharma of the good, followed him, great king, endowed with great splendor."
+          }
         },
         {
           "n": 37,
-          "text": "तस्मै स भगवांस्तुष्टो भ्राता भ्रात्रे धनेश्वरः ।\nसेनापत्यं ददौ धीमान्यक्षराक्षससेनयोः ॥"
+          "text": "तस्मै स भगवांस्तुष्टो भ्राता भ्रात्रे धनेश्वरः ।\nसेनापत्यं ददौ धीमान्यक्षराक्षससेनयोः ॥",
+          "meaning": {
+            "en": "The revered lord of wealth, pleased with his brother, wise, gave him command of the armies of yakshas and rakshasas."
+          }
         },
         {
           "n": 38,
-          "text": "राक्षसाः पुरुषादाश्च पिशाचाश्च महाबलाः ।\nसर्वे समेत्य राजानमभ्यषिञ्चद्दशाननम् ॥"
+          "text": "राक्षसाः पुरुषादाश्च पिशाचाश्च महाबलाः ।\nसर्वे समेत्य राजानमभ्यषिञ्चद्दशाननम् ॥",
+          "meaning": {
+            "en": "The rakshasas, man-eaters and mighty pishachas all came together and consecrated Dashanana as king."
+          }
         },
         {
           "n": 39,
-          "text": "दशग्रीवस्तु दैत्यानां देवानां च बलोत्कटः ।\nआक्रम्य रत्नान्यहरत्कामरूपी विहंगमः ॥"
+          "text": "दशग्रीवस्तु दैत्यानां देवानां च बलोत्कटः ।\nआक्रम्य रत्नान्यहरत्कामरूपी विहंगमः ॥",
+          "meaning": {
+            "en": "Dashagriva, strong, attacked the Daityas and the gods and carried off their jewels, flying about as he pleased."
+          }
         },
         {
           "n": 40,
-          "text": "रावयामास लोकान्यत्तस्माद्रावण उच्यते ।\nदशग्रीवः कामबलो देवानां भयमादधत् ॥"
+          "text": "रावयामास लोकान्यत्तस्माद्रावण उच्यते ।\nदशग्रीवः कामबलो देवानां भयमादधत् ॥",
+          "meaning": {
+            "en": "Because he made the worlds cry out, he is called Ravana. Dashagriva, strong at will, brought fear on the gods."
+          }
         }
       ]
     }

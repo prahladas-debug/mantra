@@ -22,91 +22,157 @@
       "titleEn": "Gograhana Parva (The cattle raid)",
       "verses": [
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 1,
-          "text": "याते त्रिगर्तं मत्स्ये तु पशूंस्तान्स्वान्परीप्सति ।\nदुर्योधनः सहामात्यो विराटमुपयादथ ॥"
+          "text": "याते त्रिगर्तं मत्स्ये तु पशूंस्तान्स्वान्परीप्सति ।\nदुर्योधनः सहामात्यो विराटमुपयादथ ॥",
+          "meaning": {
+            "en": "While the king of Matsya had gone off toward the Trigartas, eager to save his own cattle, Duryodhana and his ministers came against Virata's land."
+          }
         },
         {
           "n": 2,
-          "text": "भीष्मो द्रोणश्च कर्णश्च कृपश्च परमास्त्रवित् ।\nद्रौणिश्च सौबलश्चैव तथा दुःशासनः प्रभुः ॥"
+          "text": "भीष्मो द्रोणश्च कर्णश्च कृपश्च परमास्त्रवित् ।\nद्रौणिश्च सौबलश्चैव तथा दुःशासनः प्रभुः ॥",
+          "meaning": {
+            "en": "Bhishma, Drona, Karna, Kripa, a master of the finest weapons, Drona's son, Shakuni son of Subala, and the lord Duhshasana came too."
+          }
         },
         {
           "n": 3,
-          "text": "विविंशतिर्विकर्णश्च चित्रसेनश्च वीर्यवान् ।\nदुर्मुखो दुःसहश्चैव ये चैवान्ये महारथाः ॥"
+          "text": "विविंशतिर्विकर्णश्च चित्रसेनश्च वीर्यवान् ।\nदुर्मुखो दुःसहश्चैव ये चैवान्ये महारथाः ॥",
+          "meaning": {
+            "en": "Vivimshati, Vikarna, the mighty Chitrasena, Durmukha, Duhsaha and other great charioteers also came."
+          }
         },
         {
           "n": 4,
-          "text": "एते मत्स्यानुपागम्य विराटस्य महीपतेः ।\nघोषान्विद्राव्य तरसा गोधनं जह्रुरोजसा ॥"
+          "text": "एते मत्स्यानुपागम्य विराटस्य महीपतेः ।\nघोषान्विद्राव्य तरसा गोधनं जह्रुरोजसा ॥",
+          "meaning": {
+            "en": "Reaching Matsya, they scattered the cowherds' stations of King Virata and by main force carried off his herds."
+          }
         },
         {
           "n": 5,
-          "text": "षष्टिं गवां सहस्राणि कुरवः कालयन्ति ते ।\nमहता रथवंशेन परिवार्य समन्ततः ॥"
+          "text": "षष्टिं गवां सहस्राणि कुरवः कालयन्ति ते ।\nमहता रथवंशेन परिवार्य समन्ततः ॥",
+          "meaning": {
+            "en": "The Kurus, ringing the herd all around with a great mass of chariots, were driving off sixty thousand cows."
+          }
         },
         {
           "n": 6,
-          "text": "गोपालानां तु घोषेषु हन्यतां तैर्महारथैः ।\nआरावः सुमहानासीत्संप्रहारे भयंकरे ॥"
+          "text": "गोपालानां तु घोषेषु हन्यतां तैर्महारथैः ।\nआरावः सुमहानासीत्संप्रहारे भयंकरे ॥",
+          "meaning": {
+            "en": "As those great charioteers slew the cowherds in the stations, a huge cry arose in that terrible onslaught."
+          }
         },
         {
           "n": 7,
-          "text": "गवाध्यक्षस्तु संत्रस्तो रथमास्थाय सत्वरः ।\nजगाम नगरायैव परिक्रोशंस्तदार्तवत् ॥"
+          "text": "गवाध्यक्षस्तु संत्रस्तो रथमास्थाय सत्वरः ।\nजगाम नगरायैव परिक्रोशंस्तदार्तवत् ॥",
+          "meaning": {
+            "en": "The chief of the cattle keepers, terrified, climbed into a chariot in haste and went to the city, crying out in distress."
+          }
         },
         {
           "n": 8,
-          "text": "स प्रविश्य पुरं राज्ञो नृपवेश्माभ्ययात्ततः ।\nअवतीर्य रथात्तूर्णमाख्यातुं प्रविवेश ह ॥"
+          "text": "स प्रविश्य पुरं राज्ञो नृपवेश्माभ्ययात्ततः ।\nअवतीर्य रथात्तूर्णमाख्यातुं प्रविवेश ह ॥",
+          "meaning": {
+            "en": "Entering the city he went to the king's palace, got down quickly from his chariot and went in to report."
+          }
         },
         {
           "n": 9,
-          "text": "दृष्ट्वा भूमिंजयं नाम पुत्रं मत्स्यस्य मानिनम् ।\nतस्मै तत्सर्वमाचष्ट राष्ट्रस्य पशुकर्षणम् ॥"
+          "text": "दृष्ट्वा भूमिंजयं नाम पुत्रं मत्स्यस्य मानिनम् ।\nतस्मै तत्सर्वमाचष्ट राष्ट्रस्य पशुकर्षणम् ॥",
+          "meaning": {
+            "en": "Seeing Bhumimjaya, the proud son of the king of Matsya, he told him all about the plundering of the realm's cattle."
+          }
         },
         {
           "n": 10,
-          "text": "षष्टिं गवां सहस्राणि कुरवः कालयन्ति ते ।\nतद्विजेतुं समुत्तिष्ठ गोधनं राष्ट्रवर्धनम् ॥"
+          "text": "षष्टिं गवां सहस्राणि कुरवः कालयन्ति ते ।\nतद्विजेतुं समुत्तिष्ठ गोधनं राष्ट्रवर्धनम् ॥",
+          "meaning": {
+            "en": "\"The Kurus are driving off sixty thousand cows. Rise to conquer them and win back the herd, which makes the kingdom thrive."
+          }
         },
         {
           "n": 11,
-          "text": "राजपुत्र हितप्रेप्सुः क्षिप्रं निर्याहि वै स्वयम् ।\nत्वां हि मत्स्यो महीपालः शून्यपालमिहाकरोत् ॥"
+          "text": "राजपुत्र हितप्रेप्सुः क्षिप्रं निर्याहि वै स्वयम् ।\nत्वां हि मत्स्यो महीपालः शून्यपालमिहाकरोत् ॥",
+          "meaning": {
+            "en": "Prince, wishing to do good, go out yourself at once; the king of Matsya left you here as guardian of an empty city."
+          }
         },
         {
           "n": 12,
-          "text": "त्वया परिषदो मध्ये श्लाघते स नराधिपः ।\nपुत्रो ममानुरूपश्च शूरश्चेति कुलोद्वहः ॥"
+          "text": "त्वया परिषदो मध्ये श्लाघते स नराधिपः ।\nपुत्रो ममानुरूपश्च शूरश्चेति कुलोद्वहः ॥",
+          "meaning": {
+            "en": "That ruler praises you in the middle of the council: 'My son is like me, a hero, the upholder of my family."
+          }
         },
         {
           "n": 13,
-          "text": "इष्वस्त्रे निपुणो योधः सदा वीरश्च मे सुतः ।\nतस्य तत्सत्यमेवास्तु मनुष्येन्द्रस्य भाषितम् ॥"
+          "text": "इष्वस्त्रे निपुणो योधः सदा वीरश्च मे सुतः ।\nतस्य तत्सत्यमेवास्तु मनुष्येन्द्रस्य भाषितम् ॥",
+          "meaning": {
+            "en": "My son is always a skilled warrior in bow and weapons, and a hero.' Let that king's words come true."
+          }
         },
         {
           "n": 14,
-          "text": "आवर्तय कुरूञ्जित्वा पशून्पशुमतां वर ।\nनिर्दहैषामनीकानि भीमेन शरतेजसा ॥"
+          "text": "आवर्तय कुरूञ्जित्वा पशून्पशुमतां वर ।\nनिर्दहैषामनीकानि भीमेन शरतेजसा ॥",
+          "meaning": {
+            "en": "Defeat the Kurus and turn back the cattle, best of those with herds; burn their armies with Bhima's fire of your arrows."
+          }
         },
         {
           "n": 15,
-          "text": "धनुश्च्युतै रुक्मपुङ्खैः शरैः संनतपर्वभिः ।\nद्विषतां भिन्ध्यनीकानि गजानामिव यूथपः ॥"
+          "text": "धनुश्च्युतै रुक्मपुङ्खैः शरैः संनतपर्वभिः ।\nद्विषतां भिन्ध्यनीकानि गजानामिव यूथपः ॥",
+          "meaning": {
+            "en": "Like a leader of elephants, shatter the enemy ranks with arrows gold-feathered and smooth-jointed, shot from your bow."
+          }
         },
         {
           "n": 16,
-          "text": "पाशोपधानां ज्यातन्त्रीं चापदण्डां महास्वनाम् ।\nशरवर्णां धनुर्वीणां शत्रुमध्ये प्रवादय ॥"
+          "text": "पाशोपधानां ज्यातन्त्रीं चापदण्डां महास्वनाम् ।\nशरवर्णां धनुर्वीणां शत्रुमध्ये प्रवादय ॥",
+          "meaning": {
+            "en": "In the midst of the foe play the loud bow-lute, with its noose for a bridge, bowstring for strings, bow-staff for neck, and arrows for its tone."
+          }
         },
         {
           "n": 17,
-          "text": "श्वेता रजतसंकाशा रथे युज्यन्तु ते हयाः ।\nध्वजं च सिंहं सौवर्णमुच्छ्रयन्तु तवाभिभोः ॥"
+          "text": "श्वेता रजतसंकाशा रथे युज्यन्तु ते हयाः ।\nध्वजं च सिंहं सौवर्णमुच्छ्रयन्तु तवाभिभोः ॥",
+          "meaning": {
+            "en": "Let white horses, silvery in color, be yoked to your chariot, and raise your golden lion banner, mighty prince."
+          }
         },
         {
           "n": 18,
-          "text": "रुक्मपुङ्खाः प्रसन्नाग्रा मुक्ता हस्तवता त्वया ।\nछादयन्तु शराः सूर्यं राज्ञामायुर्निरोधिनः ॥"
+          "text": "रुक्मपुङ्खाः प्रसन्नाग्रा मुक्ता हस्तवता त्वया ।\nछादयन्तु शराः सूर्यं राज्ञामायुर्निरोधिनः ॥",
+          "meaning": {
+            "en": "Let your gold-feathered, bright-pointed arrows, shot by your skilled hand, cover the sun and end the lives of kings."
+          }
         },
         {
           "n": 19,
-          "text": "रणे जित्वा कुरून्सर्वान्वज्रपाणिरिवासुरान् ।\nयशो महदवाप्य त्वं प्रविशेदं पुरं पुनः ॥"
+          "text": "रणे जित्वा कुरून्सर्वान्वज्रपाणिरिवासुरान् ।\nयशो महदवाप्य त्वं प्रविशेदं पुरं पुनः ॥",
+          "meaning": {
+            "en": "Defeat all the Kurus in battle, as the thunderbolt-wielder beat the demons, win great fame and then re-enter this city."
+          }
         },
         {
           "n": 20,
-          "text": "त्वं हि राष्ट्रस्य परमा गतिर्मत्स्यपतेः सुतः ।\nगतिमन्तो भवन्त्वद्य सर्वे विषयवासिनः ॥"
+          "text": "त्वं हि राष्ट्रस्य परमा गतिर्मत्स्यपतेः सुतः ।\nगतिमन्तो भवन्त्वद्य सर्वे विषयवासिनः ॥",
+          "meaning": {
+            "en": "You are the supreme refuge of the realm, son of the lord of Matsya; today let all the people of the land have a protector.\""
+          }
         },
         {
           "n": 21,
-          "text": "स्त्रीमध्य उक्तस्तेनासौ तद्वाक्यमभयंकरम् ।\nअन्तःपुरे श्लाघमान इदं वचनमब्रवीत् ॥"
+          "text": "स्त्रीमध्य उक्तस्तेनासौ तद्वाक्यमभयंकरम् ।\nअन्तःपुरे श्लाघमान इदं वचनमब्रवीत् ॥",
+          "meaning": {
+            "en": "Spoken to thus among the women, Uttara, bragging in the women's quarters, answered with this fearless-sounding speech."
+          }
         }
       ]
     }

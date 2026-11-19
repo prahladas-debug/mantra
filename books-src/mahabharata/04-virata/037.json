@@ -22,80 +22,140 @@
       "titleEn": "Gograhana Parva (The cattle raid)",
       "verses": [
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 1,
-          "text": "तं दृष्ट्वा क्लीबवेषेण रथस्थं नरपुंगवम् ।\nशमीमभिमुखं यान्तं रथमारोप्य चोत्तरम् ॥"
+          "text": "तं दृष्ट्वा क्लीबवेषेण रथस्थं नरपुंगवम् ।\nशमीमभिमुखं यान्तं रथमारोप्य चोत्तरम् ॥",
+          "meaning": {
+            "en": "Seeing that best of men in the dress of a eunuch, seated in the chariot and heading toward the shami tree after taking Uttara aboard,"
+          }
         },
         {
           "n": 2,
-          "text": "भीष्मद्रोणमुखास्तत्र कुरूणां रथसत्तमाः ।\nवित्रस्तमनसः सर्वे धनंजयकृताद्भयात् ॥"
+          "text": "भीष्मद्रोणमुखास्तत्र कुरूणां रथसत्तमाः ।\nवित्रस्तमनसः सर्वे धनंजयकृताद्भयात् ॥",
+          "meaning": {
+            "en": "the foremost chariot-fighters of the Kurus, led by Bhishma and Drona, were all shaken in mind by fear of Arjuna."
+          }
         },
         {
           "n": 3,
-          "text": "तानवेक्ष्य हतोत्साहानुत्पातानपि चाद्भुतान् ।\nगुरुः शस्त्रभृतां श्रेष्ठो भारद्वाजोऽभ्यभाषत ॥"
+          "text": "तानवेक्ष्य हतोत्साहानुत्पातानपि चाद्भुतान् ।\nगुरुः शस्त्रभृतां श्रेष्ठो भारद्वाजोऽभ्यभाषत ॥",
+          "meaning": {
+            "en": "Seeing them dispirited, and seeing strange omens too, Drona son of Bharadvaja, teacher and best of weapon-bearers, spoke."
+          }
         },
         {
           "n": 4,
-          "text": "चलाश्च वाताः संवान्ति रूक्षाः परुषनिःस्वनाः ।\nभस्मवर्णप्रकाशेन तमसा संवृतं नभः ॥"
+          "text": "चलाश्च वाताः संवान्ति रूक्षाः परुषनिःस्वनाः ।\nभस्मवर्णप्रकाशेन तमसा संवृतं नभः ॥",
+          "meaning": {
+            "en": "\"Shifting winds blow, harsh and rough in sound, and the sky is covered with darkness the color of ash."
+          }
         },
         {
           "n": 5,
-          "text": "रूक्षवर्णाश्च जलदा दृश्यन्तेऽद्भुतदर्शनाः ।\nनिःसरन्ति च कोशेभ्यः शस्त्राणि विविधानि च ॥"
+          "text": "रूक्षवर्णाश्च जलदा दृश्यन्तेऽद्भुतदर्शनाः ।\nनिःसरन्ति च कोशेभ्यः शस्त्राणि विविधानि च ॥",
+          "meaning": {
+            "en": "Clouds of rough color, strange to see, appear, and various weapons are slipping out of their sheaths."
+          }
         },
         {
           "n": 6,
-          "text": "शिवाश्च विनदन्त्येता दीप्तायां दिशि दारुणाः ।\nहयाश्चाश्रूणि मुञ्चन्ति ध्वजाः कम्पन्त्यकम्पिताः ॥"
+          "text": "शिवाश्च विनदन्त्येता दीप्तायां दिशि दारुणाः ।\nहयाश्चाश्रूणि मुञ्चन्ति ध्वजाः कम्पन्त्यकम्पिताः ॥",
+          "meaning": {
+            "en": "Jackals are howling horribly toward the burning quarter, horses are shedding tears, and banners that were still are trembling."
+          }
         },
         {
           "n": 7,
-          "text": "यादृशान्यत्र रूपाणि संदृश्यन्ते बहून्यपि ।\nयत्ता भवन्तस्तिष्ठन्तु स्याद्युद्धं समुपस्थितम् ॥"
+          "text": "यादृशान्यत्र रूपाणि संदृश्यन्ते बहून्यपि ।\nयत्ता भवन्तस्तिष्ठन्तु स्याद्युद्धं समुपस्थितम् ॥",
+          "meaning": {
+            "en": "Seeing such signs in many forms, stay alert, all of you; a battle is at hand."
+          }
         },
         {
           "n": 8,
-          "text": "रक्षध्वमपि चात्मानं व्यूहध्वं वाहिनीमपि ।\nवैशसं च प्रतीक्षध्वं रक्षध्वं चापि गोधनम् ॥"
+          "text": "रक्षध्वमपि चात्मानं व्यूहध्वं वाहिनीमपि ।\nवैशसं च प्रतीक्षध्वं रक्षध्वं चापि गोधनम् ॥",
+          "meaning": {
+            "en": "Guard yourselves, draw up your army, prepare for slaughter, and protect the cattle."
+          }
         },
         {
           "n": 9,
-          "text": "एष वीरो महेष्वासः सर्वशस्त्रभृतां वरः ।\nआगतः क्लीबवेषेण पार्थो नास्त्यत्र संशयः ॥"
+          "text": "एष वीरो महेष्वासः सर्वशस्त्रभृतां वरः ।\nआगतः क्लीबवेषेण पार्थो नास्त्यत्र संशयः ॥",
+          "meaning": {
+            "en": "This is that hero, the mighty archer and best of all weapon-bearers, Arjuna, come in the dress of a eunuch; there is no doubt."
+          }
         },
         {
           "n": 10,
-          "text": "स एष पार्थो विक्रान्तः सव्यसाची परंतपः ।\nनायुद्धेन निवर्तेत सर्वैरपि मरुद्गणैः ॥"
+          "text": "स एष पार्थो विक्रान्तः सव्यसाची परंतपः ।\nनायुद्धेन निवर्तेत सर्वैरपि मरुद्गणैः ॥",
+          "meaning": {
+            "en": "That valiant Savyasachin, Partha, scorcher of foes, would not turn back from battle even before all the Maruts."
+          }
         },
         {
           "n": 11,
-          "text": "क्लेशितश्च वने शूरो वासवेन च शिक्षितः ।\nअमर्षवशमापन्नो योत्स्यते नात्र संशयः ॥"
+          "text": "क्लेशितश्च वने शूरो वासवेन च शिक्षितः ।\nअमर्षवशमापन्नो योत्स्यते नात्र संशयः ॥",
+          "meaning": {
+            "en": "The hero, tormented in the forest and trained by Indra, is in the grip of anger and will fight, without doubt."
+          }
         },
         {
           "n": 12,
-          "text": "नेहास्य प्रतियोद्धारमहं पश्यामि कौरवाः ।\nमहादेवोऽपि पार्थेन श्रूयते युधि तोषितः ॥"
+          "text": "नेहास्य प्रतियोद्धारमहं पश्यामि कौरवाः ।\nमहादेवोऽपि पार्थेन श्रूयते युधि तोषितः ॥",
+          "meaning": {
+            "en": "I see no one here, Kauravas, who can stand against him; it is said that even Mahadeva was pleased with Partha in battle.\""
+          }
         },
         {
-          "text": "कर्ण उवाच"
+          "text": "कर्ण उवाच",
+          "meaning": {
+            "en": "Karna said:"
+          }
         },
         {
           "n": 13,
-          "text": "सदा भवान्फल्गुनस्य गुणैरस्मान्विकत्थसे ।\nन चार्जुनः कला पूर्णा मम दुर्योधनस्य वा ॥"
+          "text": "सदा भवान्फल्गुनस्य गुणैरस्मान्विकत्थसे ।\nन चार्जुनः कला पूर्णा मम दुर्योधनस्य वा ॥",
+          "meaning": {
+            "en": "\"You are always boasting of Phalguna's qualities to us, but Arjuna is not equal even to a full fraction of me or of Duryodhana.\""
+          }
         },
         {
-          "text": "दुर्योधन उवाच"
+          "text": "दुर्योधन उवाच",
+          "meaning": {
+            "en": "Duryodhana said:"
+          }
         },
         {
           "n": 14,
-          "text": "यद्येष पार्थो राधेय कृतं कार्यं भवेन्मम ।\nज्ञाताः पुनश्चरिष्यन्ति द्वादशान्यान्हि वत्सरान् ॥"
+          "text": "यद्येष पार्थो राधेय कृतं कार्यं भवेन्मम ।\nज्ञाताः पुनश्चरिष्यन्ति द्वादशान्यान्हि वत्सरान् ॥",
+          "meaning": {
+            "en": "\"Radheya, if this is Partha, my purpose is done: they will be recognized and must wander twelve more years."
+          }
         },
         {
           "n": 15,
-          "text": "अथैष कश्चिदेवान्यः क्लीबवेषेण मानवः ।\nशरैरेनं सुनिशितैः पातयिष्यामि भूतले ॥"
+          "text": "अथैष कश्चिदेवान्यः क्लीबवेषेण मानवः ।\nशरैरेनं सुनिशितैः पातयिष्यामि भूतले ॥",
+          "meaning": {
+            "en": "And if it is some other man in a eunuch's dress, I will bring him down to the ground with sharp arrows.\""
+          }
         },
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 16,
-          "text": "तस्मिन्ब्रुवति तद्वाक्यं धार्तराष्ट्रे परंतपे ।\nभीष्मो द्रोणः कृपो द्रौणिः पौरुषं तदपूजयन् ॥"
+          "text": "तस्मिन्ब्रुवति तद्वाक्यं धार्तराष्ट्रे परंतपे ।\nभीष्मो द्रोणः कृपो द्रौणिः पौरुषं तदपूजयन् ॥",
+          "meaning": {
+            "en": "While Dhritarashtra's son, scorcher of foes, was saying this, Bhishma, Drona, Kripa and Drona's son did not applaud his boast."
+          }
         }
       ]
     }

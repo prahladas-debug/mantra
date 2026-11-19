@@ -22,123 +22,213 @@
       "titleEn": "Yakshayuddha Parva (Battle with the Yakshas)",
       "verses": [
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 1,
-          "text": "तस्मिन्नगेन्द्रे वसतां तु तेषां\nमहात्मनां सद्व्रतमास्थितानाम् ।\nरतिः प्रमोदश्च बभूव तेषा-\nमाकाङ्क्षतां दर्शनमर्जुनस्य ॥"
+          "text": "तस्मिन्नगेन्द्रे वसतां तु तेषां\nमहात्मनां सद्व्रतमास्थितानाम् ।\nरतिः प्रमोदश्च बभूव तेषा-\nमाकाङ्क्षतां दर्शनमर्जुनस्य ॥",
+          "meaning": {
+            "en": "While those great souls, firm in good vows, lived on that king of mountains, joy and delight came to them as they longed to see Arjuna."
+          }
         },
         {
           "n": 2,
-          "text": "तान्वीर्ययुक्तान्सुविशुद्धसत्त्वां-\nस्तेजस्विनः सत्यधृतिप्रधानान् ।\nसंप्रीयमाणा बहवोऽभिजग्मु-\nर्गन्धर्वसंघाश्च महर्षयश्च ॥"
+          "text": "तान्वीर्ययुक्तान्सुविशुद्धसत्त्वां-\nस्तेजस्विनः सत्यधृतिप्रधानान् ।\nसंप्रीयमाणा बहवोऽभिजग्मु-\nर्गन्धर्वसंघाश्च महर्षयश्च ॥",
+          "meaning": {
+            "en": "Many Gandharva hosts and great sages, pleased, came to those valiant, radiant, purely good ones, who held truth and steadfastness foremost."
+          }
         },
         {
           "n": 3,
-          "text": "तं पादपैः पुष्पधरैरुपेतं\nनगोत्तमं प्राप्य महारथानाम् ।\nमनःप्रसादः परमो बभूव\nयथा दिवं प्राप्य मरुद्गणानाम् ॥"
+          "text": "तं पादपैः पुष्पधरैरुपेतं\nनगोत्तमं प्राप्य महारथानाम् ।\nमनःप्रसादः परमो बभूव\nयथा दिवं प्राप्य मरुद्गणानाम् ॥",
+          "meaning": {
+            "en": "Having reached that best of mountains, rich in flowering trees, the great chariot-warriors felt the highest peace of mind, as the Maruts do on reaching heaven."
+          }
         },
         {
           "n": 4,
-          "text": "मयूरहंसस्वननादितानि\nपुष्पोपकीर्णानि महाचलस्य ।\nशृङ्गाणि सानूनि च पश्यमाना\nगिरेः परं हर्षमवाप्य तस्थुः ॥"
+          "text": "मयूरहंसस्वननादितानि\nपुष्पोपकीर्णानि महाचलस्य ।\nशृङ्गाणि सानूनि च पश्यमाना\nगिरेः परं हर्षमवाप्य तस्थुः ॥",
+          "meaning": {
+            "en": "Seeing the mountain's peaks and slopes, resounding with the cries of peacocks and swans and strewn with flowers, they stood filled with the highest joy."
+          }
         },
         {
           "n": 5,
-          "text": "साक्षात्कुबेरेण कृताश्च तस्मि-\nन्नगोत्तमे संवृतकूलरोधसः ।\nकादम्बकारण्डवहंसजुष्टाः\nपद्माकुलाः पुष्करिणीरपश्यन् ॥"
+          "text": "साक्षात्कुबेरेण कृताश्च तस्मि-\nन्नगोत्तमे संवृतकूलरोधसः ।\nकादम्बकारण्डवहंसजुष्टाः\nपद्माकुलाः पुष्करिणीरपश्यन् ॥",
+          "meaning": {
+            "en": "On that best of mountains they saw lotus ponds made by Kubera himself, their banks and shores enclosed, full of kadambas, karandavas and swans and thick with lotuses."
+          }
         },
         {
           "n": 6,
-          "text": "क्रीडाप्रदेशांश्च समृद्धरूपा-\nन्सुचित्रमाल्यावृतजातशोभान् ।\nमणिप्रवेकान्सुमनोहरांश्च\nयथा भवेयुर्धनदस्य राज्ञः ॥"
+          "text": "क्रीडाप्रदेशांश्च समृद्धरूपा-\nन्सुचित्रमाल्यावृतजातशोभान् ।\nमणिप्रवेकान्सुमनोहरांश्च\nयथा भवेयुर्धनदस्य राज्ञः ॥",
+          "meaning": {
+            "en": "They saw prosperous pleasure grounds, shining with lovely garlands and jewelled, very charming, such as belong to King Kubera."
+          }
         },
         {
           "n": 7,
-          "text": "अनेकवर्णैश्च सुगन्धिभिश्च\nमहाद्रुमैः संततमभ्रमालिभिः ।\nतपःप्रधानाः सततं चरन्तः\nशृङ्गं गिरेश्चिन्तयितुं न शेकुः ॥"
+          "text": "अनेकवर्णैश्च सुगन्धिभिश्च\nमहाद्रुमैः संततमभ्रमालिभिः ।\nतपःप्रधानाः सततं चरन्तः\nशृङ्गं गिरेश्चिन्तयितुं न शेकुः ॥",
+          "meaning": {
+            "en": "They could not turn their minds to the mountain peak, as they kept to austerity, because of the great trees of many colours and fragrances, always garlanded with clouds."
+          }
         },
         {
           "n": 8,
-          "text": "स्वतेजसा तस्य नगोत्तमस्य\nमहौषधीनां च तथा प्रभावात् ।\nविभक्तभावो न बभूव कश्चि-\nदहर्निशानां पुरुषप्रवीर ॥"
+          "text": "स्वतेजसा तस्य नगोत्तमस्य\nमहौषधीनां च तथा प्रभावात् ।\nविभक्तभावो न बभूव कश्चि-\nदहर्निशानां पुरुषप्रवीर ॥",
+          "meaning": {
+            "en": "By the mountain's own radiance and the power of its great herbs, no difference between night and day was felt, best of heroes."
+          }
         },
         {
           "n": 9,
-          "text": "यमास्थितः स्थावरजङ्गमानि\nविभावसुर्भावयतेऽमितौजाः ।\nतस्योदयं चास्तमयं च वीरा-\nस्तत्र स्थितास्ते ददृशुर्नृसिंहाः ॥"
+          "text": "यमास्थितः स्थावरजङ्गमानि\nविभावसुर्भावयतेऽमितौजाः ।\nतस्योदयं चास्तमयं च वीरा-\nस्तत्र स्थितास्ते ददृशुर्नृसिंहाः ॥",
+          "meaning": {
+            "en": "The tireless sun, who nourishes things still and moving, rises and sets by that mountain, and the lion-like heroes saw there his rising and setting."
+          }
         },
         {
           "n": 10,
-          "text": "रवेस्तमिस्रागमनिर्गमांस्ते\nतथोदयं चास्तमयं च वीराः ।\nसमावृताः प्रेक्ष्य तमोनुदस्य\nगभस्तिजालैः प्रदिशो दिशश्च ॥"
+          "text": "रवेस्तमिस्रागमनिर्गमांस्ते\nतथोदयं चास्तमयं च वीराः ।\nसमावृताः प्रेक्ष्य तमोनुदस्य\nगभस्तिजालैः प्रदिशो दिशश्च ॥",
+          "meaning": {
+            "en": "Those heroes saw the sun's arrival and departure and his rising and setting, and found all the quarters and intermediate quarters filled with the nets of rays of the dispeller of darkness."
+          }
         },
         {
           "n": 11,
-          "text": "स्वाध्यायवन्तः सततक्रियाश्च\nधर्मप्रधानाश्च शुचिव्रताश्च ।\nसत्ये स्थितास्तस्य महारथस्य\nसत्यव्रतस्यागमनप्रतीक्षाः ॥"
+          "text": "स्वाध्यायवन्तः सततक्रियाश्च\nधर्मप्रधानाश्च शुचिव्रताश्च ।\nसत्ये स्थितास्तस्य महारथस्य\nसत्यव्रतस्यागमनप्रतीक्षाः ॥",
+          "meaning": {
+            "en": "Devoted to private study and constant rites, intent on dharma, pure in vows and standing in truth, they waited for the coming of that truth-vowed great charioteer."
+          }
         },
         {
           "n": 12,
-          "text": "इहैव हर्षोऽस्तु समागतानां\nक्षिप्रं कृतास्त्रेण धनंजयेन ।\nइति ब्रुवन्तः परमाशिषस्ते\nपार्थास्तपोयोगपरा बभूवुः ॥"
+          "text": "इहैव हर्षोऽस्तु समागतानां\nक्षिप्रं कृतास्त्रेण धनंजयेन ।\nइति ब्रुवन्तः परमाशिषस्ते\nपार्थास्तपोयोगपरा बभूवुः ॥",
+          "meaning": {
+            "en": "\"May our joy be right here when Dhananjaya, whose weapons are done, comes quickly.\" So saying, the Parthas, giving the highest blessings, devoted themselves to austerity and yoga."
+          }
         },
         {
           "n": 13,
-          "text": "दृष्ट्वा विचित्राणि गिरौ वनानि\nकिरीटिनं चिन्तयतामभीक्ष्णम् ।\nबभूव रात्रिर्दिवसश्च तेषां\nसंवत्सरेणैव समानरूपः ॥"
+          "text": "दृष्ट्वा विचित्राणि गिरौ वनानि\nकिरीटिनं चिन्तयतामभीक्ष्णम् ।\nबभूव रात्रिर्दिवसश्च तेषां\nसंवत्सरेणैव समानरूपः ॥",
+          "meaning": {
+            "en": "Seeing the wondrous forests on the mountain and constantly thinking of the diademed one, a night and a day seemed to them like a year."
+          }
         },
         {
           "n": 14,
-          "text": "यदैव धौम्यानुमते महात्मा\nकृत्वा जटाः प्रव्रजितः स जिष्णुः ।\nतदैव तेषां न बभूव हर्षः\nकुतो रतिस्तद्गतमानसानाम् ॥"
+          "text": "यदैव धौम्यानुमते महात्मा\nकृत्वा जटाः प्रव्रजितः स जिष्णुः ।\nतदैव तेषां न बभूव हर्षः\nकुतो रतिस्तद्गतमानसानाम् ॥",
+          "meaning": {
+            "en": "From the moment Jishnu, with Dhaumya's leave, left the forest with matted hair, there was no joy for them; how could there be delight for minds fixed on him?"
+          }
         },
         {
           "n": 15,
-          "text": "भ्रातुर्नियोगात्तु युधिष्ठिरस्य\nवनादसौ वारणमत्तगामी ।\nयत्काम्यकात्प्रव्रजितः स जिष्णु-\nस्तदैव ते शोकहता बभूवुः ॥"
+          "text": "भ्रातुर्नियोगात्तु युधिष्ठिरस्य\nवनादसौ वारणमत्तगामी ।\nयत्काम्यकात्प्रव्रजितः स जिष्णु-\nस्तदैव ते शोकहता बभूवुः ॥",
+          "meaning": {
+            "en": "From the moment, at his elder brother Yudhishthira's command, that one, who goes like a rutting elephant, left Kamyaka, they were struck by grief."
+          }
         },
         {
           "n": 16,
-          "text": "तथा तु तं चिन्तयतां सिताश्व-\nमस्त्रार्थिनं वासवमभ्युपेतम् ।\nमासोऽथ कृच्छ्रेण तदा व्यतीत-\nस्तस्मिन्नगे भारत भारतानाम् ॥"
+          "text": "तथा तु तं चिन्तयतां सिताश्व-\nमस्त्रार्थिनं वासवमभ्युपेतम् ।\nमासोऽथ कृच्छ्रेण तदा व्यतीत-\nस्तस्मिन्नगे भारत भारतानाम् ॥",
+          "meaning": {
+            "en": "Thinking so of the white-horsed one, who had gone to Vasava seeking weapons, a month passed with difficulty for those Bharatas on that mountain, Bharata."
+          }
         },
         {
           "n": 17,
-          "text": "ततः कदाचिद्धरिसंप्रयुक्तं\nमहेन्द्रवाहं सहसोपयातम् ।\nविद्युत्प्रभं प्रेक्ष्य महारथानां\nहर्षोऽर्जुनं चिन्तयतां बभूव ॥"
+          "text": "ततः कदाचिद्धरिसंप्रयुक्तं\nमहेन्द्रवाहं सहसोपयातम् ।\nविद्युत्प्रभं प्रेक्ष्य महारथानां\nहर्षोऽर्जुनं चिन्तयतां बभूव ॥",
+          "meaning": {
+            "en": "Then one day, Indra's chariot, yoked to bay horses, came suddenly, bright as lightning, and joy came to those great charioteers who thought of Arjuna."
+          }
         },
         {
           "n": 18,
-          "text": "स दीप्यमानः सहसान्तरिक्षं\nप्रकाशयन्मातलिसंगृहीतः ।\nबभौ महोल्केव घनान्तरस्था\nशिखेव चाग्नेर्ज्वलिता विधूमा ॥"
+          "text": "स दीप्यमानः सहसान्तरिक्षं\nप्रकाशयन्मातलिसंगृहीतः ।\nबभौ महोल्केव घनान्तरस्था\nशिखेव चाग्नेर्ज्वलिता विधूमा ॥",
+          "meaning": {
+            "en": "Held by Matali and blazing, it lit up the sky, shining like a great meteor among clouds or a tongue of fire, flaming without smoke."
+          }
         },
         {
           "n": 19,
-          "text": "तमास्थितः संददृशे किरीटी\nस्रग्वी वराण्याभरणानि बिभ्रत् ।\nधनंजयो वज्रधरप्रभावः\nश्रिया ज्वलन्पर्वतमाजगाम ॥"
+          "text": "तमास्थितः संददृशे किरीटी\nस्रग्वी वराण्याभरणानि बिभ्रत् ।\nधनंजयो वज्रधरप्रभावः\nश्रिया ज्वलन्पर्वतमाजगाम ॥",
+          "meaning": {
+            "en": "Seated in it they saw the Diademed One, garlanded and wearing choice ornaments, Dhananjaya, with the power of the thunderbolt-wielder, blazing with splendour, come to the mountain."
+          }
         },
         {
           "n": 20,
-          "text": "स शैलमासाद्य किरीटमाली\nमहेन्द्रवाहादवरुह्य तस्मात् ।\nधौम्यस्य पादावभिवाद्य पूर्व-\nमजातशत्रोस्तदनन्तरं च ॥"
+          "text": "स शैलमासाद्य किरीटमाली\nमहेन्द्रवाहादवरुह्य तस्मात् ।\nधौम्यस्य पादावभिवाद्य पूर्व-\nमजातशत्रोस्तदनन्तरं च ॥",
+          "meaning": {
+            "en": "Reaching the mountain, the wearer of the diadem got down from Indra's chariot and first bowed at the feet of Dhaumya, and then of Ajatashatru."
+          }
         },
         {
           "n": 21,
-          "text": "वृकोदरस्यापि ववन्द पादौ\nमाद्रीसुताभ्यामभिवादितश्च ।\nसमेत्य कृष्णां परिसान्त्व्य चैनां\nप्रह्वोऽभवद्भ्रातुरुपह्वरे सः ॥"
+          "text": "वृकोदरस्यापि ववन्द पादौ\nमाद्रीसुताभ्यामभिवादितश्च ।\nसमेत्य कृष्णां परिसान्त्व्य चैनां\nप्रह्वोऽभवद्भ्रातुरुपह्वरे सः ॥",
+          "meaning": {
+            "en": "He also greeted Vrikodara's feet, and was greeted by the sons of Madri; having met Krishna and comforted her, he bowed before his brother in private."
+          }
         },
         {
           "n": 22,
-          "text": "बभूव तेषां परमः प्रहर्ष-\nस्तेनाप्रमेयेण समागतानाम् ।\nस चापि तान्प्रेक्ष्य किरीटमाली\nननन्द राजानमभिप्रशंसन् ॥"
+          "text": "बभूव तेषां परमः प्रहर्ष-\nस्तेनाप्रमेयेण समागतानाम् ।\nस चापि तान्प्रेक्ष्य किरीटमाली\nननन्द राजानमभिप्रशंसन् ॥",
+          "meaning": {
+            "en": "There was the greatest joy among them at meeting the immeasurable one, and the Diademed One, seeing them, rejoiced and praised the king."
+          }
         },
         {
           "n": 23,
-          "text": "यमास्थितः सप्त जघान पूगा-\nन्दितेः सुतानां नमुचेर्निहन्ता ।\nतमिन्द्रवाहं समुपेत्य पार्थाः\nप्रदक्षिणं चक्रुरदीनसत्त्वाः ॥"
+          "text": "यमास्थितः सप्त जघान पूगा-\nन्दितेः सुतानां नमुचेर्निहन्ता ।\nतमिन्द्रवाहं समुपेत्य पार्थाः\nप्रदक्षिणं चक्रुरदीनसत्त्वाः ॥",
+          "meaning": {
+            "en": "Having ascended the chariot in which the slayer of Namuchi killed seven troops of Diti's sons, the Parthas of undaunted spirit circled Indra's vehicle to the right."
+          }
         },
         {
           "n": 24,
-          "text": "ते मातलेश्चक्रुरतीव हृष्टाः\nसत्कारमग्र्यं सुरराजतुल्यम् ।\nसर्वं यथावच्च दिवौकसस्ता-\nन्पप्रच्छुरेनं कुरुराजपुत्राः ॥"
+          "text": "ते मातलेश्चक्रुरतीव हृष्टाः\nसत्कारमग्र्यं सुरराजतुल्यम् ।\nसर्वं यथावच्च दिवौकसस्ता-\nन्पप्रच्छुरेनं कुरुराजपुत्राः ॥",
+          "meaning": {
+            "en": "Greatly glad, they gave Matali the highest honour, equal to that of the king of gods, and the Kuru princes asked him fully about the dwellers in heaven."
+          }
         },
         {
           "n": 25,
-          "text": "तानप्यसौ मातलिरभ्यनन्द-\nत्पितेव पुत्राननुशिष्य चैनान् ।\nययौ रथेनाप्रतिमप्रभेण\nपुनः सकाशं त्रिदिवेश्वरस्य ॥"
+          "text": "तानप्यसौ मातलिरभ्यनन्द-\nत्पितेव पुत्राननुशिष्य चैनान् ।\nययौ रथेनाप्रतिमप्रभेण\nपुनः सकाशं त्रिदिवेश्वरस्य ॥",
+          "meaning": {
+            "en": "Matali too welcomed them, instructing them like sons as a father would, and went in his chariot of matchless splendour back to the lord of the gods."
+          }
         },
         {
           "n": 26,
-          "text": "गते तु तस्मिन्वरदेववाहे\nशक्रात्मजः सर्वरिपुप्रमाथी ।\nशक्रेण दत्तानि ददौ महात्मा\nमहाधनान्युत्तमरूपवन्ति ।\nदिवाकराभाणि विभूषणानि\nप्रीतः प्रियायै सुतसोममात्रे ॥"
+          "text": "गते तु तस्मिन्वरदेववाहे\nशक्रात्मजः सर्वरिपुप्रमाथी ।\nशक्रेण दत्तानि ददौ महात्मा\nमहाधनान्युत्तमरूपवन्ति ।\nदिवाकराभाणि विभूषणानि\nप्रीतः प्रियायै सुतसोममात्रे ॥",
+          "meaning": {
+            "en": "When that best vehicle of the gods had gone, the son of Shakra, crusher of all foes, the great-souled one, glad, gave to his beloved, the mother of Sutasoma, great and beautiful ornaments given by Shakra, bright as the sun."
+          }
         },
         {
           "n": 27,
-          "text": "ततः स तेषां कुरुपुंगवानां\nतेषां च सूर्याग्निसमप्रभाणाम् ।\nविप्रर्षभाणामुपविश्य मध्ये\nसर्वं यथावत्कथयां बभूव ॥"
+          "text": "ततः स तेषां कुरुपुंगवानां\nतेषां च सूर्याग्निसमप्रभाणाम् ।\nविप्रर्षभाणामुपविश्य मध्ये\nसर्वं यथावत्कथयां बभूव ॥",
+          "meaning": {
+            "en": "Then, seated in the midst of those bulls of the Kurus and of those foremost brahmins, bright as sun and fire, he told them everything as it happened."
+          }
         },
         {
           "n": 28,
-          "text": "एवं मयास्त्राण्युपशिक्षितानि\nशक्राच्च वाताच्च शिवाच्च साक्षात् ।\nतथैव शीलेन समाधिना च\nप्रीताः सुरा मे सहिताः सहेन्द्राः ॥"
+          "text": "एवं मयास्त्राण्युपशिक्षितानि\nशक्राच्च वाताच्च शिवाच्च साक्षात् ।\nतथैव शीलेन समाधिना च\nप्रीताः सुरा मे सहिताः सहेन्द्राः ॥",
+          "meaning": {
+            "en": "\"This is how I learned the weapons: from Shakra, from the Wind, and from Shiva himself. And through my conduct and concentration the gods together with Indra were pleased with me.\""
+          }
         },
         {
           "n": 29,
-          "text": "संक्षेपतो वै स विशुद्धकर्मा\nतेभ्यः समाख्याय दिवि प्रवेशम् ।\nमाद्रीसुताभ्यां सहितः किरीटी\nसुष्वाप तामावसतिं प्रतीतः ॥"
+          "text": "संक्षेपतो वै स विशुद्धकर्मा\nतेभ्यः समाख्याय दिवि प्रवेशम् ।\nमाद्रीसुताभ्यां सहितः किरीटी\nसुष्वाप तामावसतिं प्रतीतः ॥",
+          "meaning": {
+            "en": "Having briefly told them how he had entered heaven, the pure-acting Diademed One, with the sons of Madri, slept contented in that dwelling."
+          }
         }
       ]
     }

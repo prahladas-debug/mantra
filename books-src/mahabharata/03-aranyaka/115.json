@@ -22,145 +22,256 @@
       "titleEn": "Tirthayatra Parva (The pilgrimage)",
       "verses": [
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 1,
-          "text": "स तत्र तामुषित्वैकां रजनीं पृथिवीपतिः ।\nतापसानां परं चक्रे सत्कारं भ्रातृभिः सह ॥"
+          "text": "स तत्र तामुषित्वैकां रजनीं पृथिवीपतिः ।\nतापसानां परं चक्रे सत्कारं भ्रातृभिः सह ॥",
+          "meaning": {
+            "en": "Staying there one night, the king and his brothers paid great honour to the ascetics."
+          }
         },
         {
           "n": 2,
-          "text": "लोमशश्चास्य तान्सर्वानाचख्यौ तत्र तापसान् ।\nभृगूनङ्गिरसश्चैव वासिष्ठानथ काश्यपान् ॥"
+          "text": "लोमशश्चास्य तान्सर्वानाचख्यौ तत्र तापसान् ।\nभृगूनङ्गिरसश्चैव वासिष्ठानथ काश्यपान् ॥",
+          "meaning": {
+            "en": "Lomasha told him of all those ascetics there: the Bhrigus, Angirases, Vasishthas and Kashyapas."
+          }
         },
         {
           "n": 3,
-          "text": "तान्समेत्य स राजर्षिरभिवाद्य कृताञ्जलिः ।\nरामस्यानुचरं वीरमपृच्छदकृतव्रणम् ॥"
+          "text": "तान्समेत्य स राजर्षिरभिवाद्य कृताञ्जलिः ।\nरामस्यानुचरं वीरमपृच्छदकृतव्रणम् ॥",
+          "meaning": {
+            "en": "Meeting them, the royal sage saluted them with joined hands and asked Akritavrana, Rama's follower and a hero:"
+          }
         },
         {
           "n": 4,
-          "text": "कदा नु रामो भगवांस्तापसान्दर्शयिष्यति ।\nतेनैवाहं प्रसङ्गेन द्रष्टुमिच्छामि भार्गवम् ॥"
+          "text": "कदा नु रामो भगवांस्तापसान्दर्शयिष्यति ।\nतेनैवाहं प्रसङ्गेन द्रष्टुमिच्छामि भार्गवम् ॥",
+          "meaning": {
+            "en": "\"When will the blessed Rama show himself to the ascetics? On that occasion I wish to see the Bhargava.\""
+          }
         },
         {
-          "text": "अकृतव्रण उवाच"
+          "text": "अकृतव्रण उवाच",
+          "meaning": {
+            "en": "Akritavrana said:"
+          }
         },
         {
           "n": 5,
-          "text": "आयानेवासि विदितो रामस्य विदितात्मनः ।\nप्रीतिस्त्वयि च रामस्य क्षिप्रं त्वां दर्शयिष्यति ॥"
+          "text": "आयानेवासि विदितो रामस्य विदितात्मनः ।\nप्रीतिस्त्वयि च रामस्य क्षिप्रं त्वां दर्शयिष्यति ॥",
+          "meaning": {
+            "en": "Rama, who knows himself, already knows you have come. Rama is fond of you and will soon show himself."
+          }
         },
         {
           "n": 6,
-          "text": "चतुर्दशीमष्टमीं च रामं पश्यन्ति तापसाः ।\nअस्यां रात्र्यां व्यतीतायां भवित्री च चतुर्दशी ॥"
+          "text": "चतुर्दशीमष्टमीं च रामं पश्यन्ति तापसाः ।\nअस्यां रात्र्यां व्यतीतायां भवित्री च चतुर्दशी ॥",
+          "meaning": {
+            "en": "Ascetics see Rama on the fourteenth and the eighth days; when this night has passed the fourteenth will come."
+          }
         },
         {
-          "text": "युधिष्ठिर उवाच"
+          "text": "युधिष्ठिर उवाच",
+          "meaning": {
+            "en": "Yudhishthira said:"
+          }
         },
         {
           "n": 7,
-          "text": "भवाननुगतो वीरं जामदग्न्यं महाबलम् ।\nप्रत्यक्षदर्शी सर्वस्य पूर्ववृत्तस्य कर्मणः ॥"
+          "text": "भवाननुगतो वीरं जामदग्न्यं महाबलम् ।\nप्रत्यक्षदर्शी सर्वस्य पूर्ववृत्तस्य कर्मणः ॥",
+          "meaning": {
+            "en": "You followed the mighty hero Jamadagni's son and were an eyewitness of all his past deeds."
+          }
         },
         {
           "n": 8,
-          "text": "स भवान्कथयत्वेतद्यथा रामेण निर्जिताः ।\nआहवे क्षत्रियाः सर्वे कथं केन च हेतुना ॥"
+          "text": "स भवान्कथयत्वेतद्यथा रामेण निर्जिताः ।\nआहवे क्षत्रियाः सर्वे कथं केन च हेतुना ॥",
+          "meaning": {
+            "en": "So tell this: how were all the kshatriyas conquered in battle by Rama, and how and for what reason?"
+          }
         },
         {
-          "text": "अकृतव्रण उवाच"
+          "text": "अकृतव्रण उवाच",
+          "meaning": {
+            "en": "Akritavrana said:"
+          }
         },
         {
           "n": 9,
-          "text": "कन्यकुब्जे महानासीत्पार्थिवः सुमहाबलः ।\nगाधीति विश्रुतो लोके वनवासं जगाम सः ॥"
+          "text": "कन्यकुब्जे महानासीत्पार्थिवः सुमहाबलः ।\nगाधीति विश्रुतो लोके वनवासं जगाम सः ॥",
+          "meaning": {
+            "en": "There was in Kanyakubja a great and very mighty king known in the world as Gadhi, who went to live in the forest."
+          }
         },
         {
           "n": 10,
-          "text": "वने तु तस्य वसतः कन्या जज्ञेऽप्सरःसमा ।\nऋचीको भार्गवस्तां च वरयामास भारत ॥"
+          "text": "वने तु तस्य वसतः कन्या जज्ञेऽप्सरःसमा ।\nऋचीको भार्गवस्तां च वरयामास भारत ॥",
+          "meaning": {
+            "en": "While he lived in the forest a daughter, like an apsara, was born to him, and Richika of the Bhrigu line asked for her, Bharata."
+          }
         },
         {
           "n": 11,
-          "text": "तमुवाच ततो राजा ब्राह्मणं संशितव्रतम् ।\nउचितं नः कुले किंचित्पूर्वैर्यत्संप्रवर्तितम् ॥"
+          "text": "तमुवाच ततो राजा ब्राह्मणं संशितव्रतम् ।\nउचितं नः कुले किंचित्पूर्वैर्यत्संप्रवर्तितम् ॥",
+          "meaning": {
+            "en": "The king said to that brahmin of strict vows: \"A custom was established in our family by our forefathers."
+          }
         },
         {
           "n": 12,
-          "text": "एकतःश्यामकर्णानां पाण्डुराणां तरस्विनाम् ।\nसहस्रं वाजिनां शुल्कमिति विद्धि द्विजोत्तम ॥"
+          "text": "एकतःश्यामकर्णानां पाण्डुराणां तरस्विनाम् ।\nसहस्रं वाजिनां शुल्कमिति विद्धि द्विजोत्तम ॥",
+          "meaning": {
+            "en": "\"Know, best of brahmins, that the bride-price is a thousand fast white horses with one black ear each."
+          }
         },
         {
           "n": 13,
-          "text": "न चापि भगवान्वाच्यो दीयतामिति भार्गव ।\nदेया मे दुहिता चेयं त्वद्विधाय महात्मने ॥"
+          "text": "न चापि भगवान्वाच्यो दीयतामिति भार्गव ।\nदेया मे दुहिता चेयं त्वद्विधाय महात्मने ॥",
+          "meaning": {
+            "en": "\"And yet, Bhargava, the reverend one must not be told to pay it; this daughter of mine must be given to a great soul like you.\""
+          }
         },
         {
-          "text": "ऋचीक उवाच"
+          "text": "ऋचीक उवाच",
+          "meaning": {
+            "en": "Richika said:"
+          }
         },
         {
           "n": 14,
-          "text": "एकतःश्यामकर्णानां पाण्डुराणां तरस्विनाम् ।\nदास्याम्यश्वसहस्रं ते मम भार्या सुतास्तु ते ॥"
+          "text": "एकतःश्यामकर्णानां पाण्डुराणां तरस्विनाम् ।\nदास्याम्यश्वसहस्रं ते मम भार्या सुतास्तु ते ॥",
+          "meaning": {
+            "en": "I will give you a thousand fast white horses, each with one black ear; my wife will be your daughter."
+          }
         },
         {
-          "text": "अकृतव्रण उवाच"
+          "text": "अकृतव्रण उवाच",
+          "meaning": {
+            "en": "Akritavrana said:"
+          }
         },
         {
           "n": 15,
-          "text": "स तथेति प्रतिज्ञाय राजन्वरुणमब्रवीत् ।\nएकतःश्यामकर्णानां पाण्डुराणां तरस्विनाम् ।\nसहस्रं वाजिनामेकं शुल्कार्थं मे प्रदीयताम् ॥"
+          "text": "स तथेति प्रतिज्ञाय राजन्वरुणमब्रवीत् ।\nएकतःश्यामकर्णानां पाण्डुराणां तरस्विनाम् ।\nसहस्रं वाजिनामेकं शुल्कार्थं मे प्रदीयताम् ॥",
+          "meaning": {
+            "en": "Agreeing, king, he said to Varuna: \"Let a thousand fast white horses, each with one black ear, be given me for a bride-price.\""
+          }
         },
         {
           "n": 16,
-          "text": "तस्मै प्रादात्सहस्रं वै वाजिनां वरुणस्तदा ।\nतदश्वतीर्थं विख्यातमुत्थिता यत्र ते हयाः ॥"
+          "text": "तस्मै प्रादात्सहस्रं वै वाजिनां वरुणस्तदा ।\nतदश्वतीर्थं विख्यातमुत्थिता यत्र ते हयाः ॥",
+          "meaning": {
+            "en": "Then Varuna gave him a thousand horses, and the Ashvatirtha, where those horses rose, is famous."
+          }
         },
         {
           "n": 17,
-          "text": "गङ्गायां कन्यकुब्जे वै ददौ सत्यवतीं तदा ।\nततो गाधिः सुतां तस्मै जन्याश्चासन्सुरास्तदा ।\nलब्ध्वा हयसहस्रं तु तांश्च दृष्ट्वा दिवौकसः ॥"
+          "text": "गङ्गायां कन्यकुब्जे वै ददौ सत्यवतीं तदा ।\nततो गाधिः सुतां तस्मै जन्याश्चासन्सुरास्तदा ।\nलब्ध्वा हयसहस्रं तु तांश्च दृष्ट्वा दिवौकसः ॥",
+          "meaning": {
+            "en": "At Kanyakubja on the Ganga he then gave Satyavati to him. Then Gadhi gave his daughter, and gods came as wedding guests, seeing the thousand horses obtained."
+          }
         },
         {
           "n": 18,
-          "text": "धर्मेण लब्ध्वा तां भार्यामृचीको द्विजसत्तमः ।\nयथाकामं यथाजोषं तया रेमे सुमध्यया ॥"
+          "text": "धर्मेण लब्ध्वा तां भार्यामृचीको द्विजसत्तमः ।\nयथाकामं यथाजोषं तया रेमे सुमध्यया ॥",
+          "meaning": {
+            "en": "Richika, best of brahmins, having won that wife by dharma, took pleasure in the slender-waisted woman as he wished."
+          }
         },
         {
           "n": 19,
-          "text": "तं विवाहे कृते राजन्सभार्यमवलोककः ।\nआजगाम भृगुश्रेष्ठः पुत्रं दृष्ट्वा ननन्द च ॥"
+          "text": "तं विवाहे कृते राजन्सभार्यमवलोककः ।\nआजगाम भृगुश्रेष्ठः पुत्रं दृष्ट्वा ननन्द च ॥",
+          "meaning": {
+            "en": "After the wedding, king, the best of the Bhrigus came to see him with his wife, and delighted to see his son."
+          }
         },
         {
           "n": 20,
-          "text": "भार्यापती तमासीनं गुरुं सुरगणार्चितम् ।\nअर्चित्वा पर्युपासीनौ प्राञ्जली तस्थतुस्तदा ॥"
+          "text": "भार्यापती तमासीनं गुरुं सुरगणार्चितम् ।\nअर्चित्वा पर्युपासीनौ प्राञ्जली तस्थतुस्तदा ॥",
+          "meaning": {
+            "en": "The couple honoured him, their guru, seated and worshipped by the hosts of gods, and stood by with joined hands."
+          }
         },
         {
           "n": 21,
-          "text": "ततः स्नुषां स भगवान्प्रहृष्टो भृगुरब्रवीत् ।\nवरं वृणीष्व सुभगे दाता ह्यस्मि तवेप्सितम् ॥"
+          "text": "ततः स्नुषां स भगवान्प्रहृष्टो भृगुरब्रवीत् ।\nवरं वृणीष्व सुभगे दाता ह्यस्मि तवेप्सितम् ॥",
+          "meaning": {
+            "en": "Then the blessed Bhrigu, delighted, said to his daughter-in-law: \"Fortunate one, choose a boon; I will give what you wish.\""
+          }
         },
         {
           "n": 22,
-          "text": "सा वै प्रसादयामास तं गुरुं पुत्रकारणात् ।\nआत्मनश्चैव मातुश्च प्रसादं च चकार सः ॥"
+          "text": "सा वै प्रसादयामास तं गुरुं पुत्रकारणात् ।\nआत्मनश्चैव मातुश्च प्रसादं च चकार सः ॥",
+          "meaning": {
+            "en": "She pleased that guru for the sake of a son, and he granted her wish and that of her mother as well."
+          }
         },
         {
-          "text": "भृगुरुवाच"
+          "text": "भृगुरुवाच",
+          "meaning": {
+            "en": "Bhrigu said:"
+          }
         },
         {
           "n": 23,
-          "text": "ऋतौ त्वं चैव माता च स्नाते पुंसवनाय वै ।\nआलिङ्गेतां पृथग्वृक्षौ साश्वत्थं त्वमुदुम्बरम् ॥"
+          "text": "ऋतौ त्वं चैव माता च स्नाते पुंसवनाय वै ।\nआलिङ्गेतां पृथग्वृक्षौ साश्वत्थं त्वमुदुम्बरम् ॥",
+          "meaning": {
+            "en": "In your season, bathed, you and your mother should each embrace a tree for the sake of a son: you the fig tree, she the udumbara."
+          }
         },
         {
           "n": 24,
-          "text": "आलिङ्गने तु ते राजंश्चक्रतुः स्म विपर्ययम् ।\nकदाचिद्भृगुरागच्छत्तं च वेद विपर्ययम् ॥"
+          "text": "आलिङ्गने तु ते राजंश्चक्रतुः स्म विपर्ययम् ।\nकदाचिद्भृगुरागच्छत्तं च वेद विपर्ययम् ॥",
+          "meaning": {
+            "en": "King, in the embracing they exchanged the trees. Once Bhrigu came and knew of the exchange."
+          }
         },
         {
           "n": 25,
-          "text": "अथोवाच महातेजा भृगुः सत्यवतीं स्नुषाम् ।\nब्राह्मणः क्षत्रवृत्तिर्वै तव पुत्रो भविष्यति ॥"
+          "text": "अथोवाच महातेजा भृगुः सत्यवतीं स्नुषाम् ।\nब्राह्मणः क्षत्रवृत्तिर्वै तव पुत्रो भविष्यति ॥",
+          "meaning": {
+            "en": "Then the very radiant Bhrigu said to his daughter-in-law Satyavati: \"Your son will be a brahmin who follows a warrior's way."
+          }
         },
         {
           "n": 26,
-          "text": "क्षत्रियो ब्राह्मणाचारो मातुस्तव सुतो महान् ।\nभविष्यति महावीर्यः साधूनां मार्गमास्थितः ॥"
+          "text": "क्षत्रियो ब्राह्मणाचारो मातुस्तव सुतो महान् ।\nभविष्यति महावीर्यः साधूनां मार्गमास्थितः ॥",
+          "meaning": {
+            "en": "\"And your mother's son will be a great kshatriya who follows a brahmin's conduct, of great valour, following the path of the good.\""
+          }
         },
         {
           "n": 27,
-          "text": "ततः प्रसादयामास श्वशुरं सा पुनः पुनः ।\nन मे पुत्रो भवेदीदृक्कामं पौत्रो भवेदिति ॥"
+          "text": "ततः प्रसादयामास श्वशुरं सा पुनः पुनः ।\nन मे पुत्रो भवेदीदृक्कामं पौत्रो भवेदिति ॥",
+          "meaning": {
+            "en": "Then she appeased her father-in-law again and again: \"Let my son not be such; let it be my grandson.\""
+          }
         },
         {
           "n": 28,
-          "text": "एवमस्त्विति सा तेन पाण्डव प्रतिनन्दिता ।\nजमदग्निं ततः पुत्रं सा जज्ञे काल आगते ।\nतेजसा वर्चसा चैव युक्तं भार्गवनन्दनम् ॥"
+          "text": "एवमस्त्विति सा तेन पाण्डव प्रतिनन्दिता ।\nजमदग्निं ततः पुत्रं सा जज्ञे काल आगते ।\nतेजसा वर्चसा चैव युक्तं भार्गवनन्दनम् ॥",
+          "meaning": {
+            "en": "Told \"So be it,\" she was pleased, Pandava. In due time she bore a son, Jamadagni, a delight of the Bhargavas, endowed with energy and brilliance."
+          }
         },
         {
           "n": 29,
-          "text": "स वर्धमानस्तेजस्वी वेदस्याध्ययनेन वै ।\nबहूनृषीन्महातेजाः पाण्डवेयात्यवर्तत ॥"
+          "text": "स वर्धमानस्तेजस्वी वेदस्याध्ययनेन वै ।\nबहूनृषीन्महातेजाः पाण्डवेयात्यवर्तत ॥",
+          "meaning": {
+            "en": "Growing, radiant, great in energy through study of the Veda, he surpassed many sages, Pandava."
+          }
         },
         {
           "n": 30,
-          "text": "तं तु कृत्स्नो धनुर्वेदः प्रत्यभाद्भरतर्षभ ।\nचतुर्विधानि चास्त्राणि भास्करोपमवर्चसम् ॥"
+          "text": "तं तु कृत्स्नो धनुर्वेदः प्रत्यभाद्भरतर्षभ ।\nचतुर्विधानि चास्त्राणि भास्करोपमवर्चसम् ॥",
+          "meaning": {
+            "en": "All the science of archery came to him, best of Bharatas, and the four kinds of weapons, to him who shone like the sun."
+          }
         }
       ]
     }

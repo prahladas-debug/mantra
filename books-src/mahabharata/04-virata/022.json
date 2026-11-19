@@ -22,139 +22,244 @@
       "titleEn": "Kichakavadha Parva (Slaying of Kichaka)",
       "verses": [
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 1,
-          "text": "तस्मिन्काले समागम्य सर्वे तत्रास्य बान्धवाः ।\nरुरुदुः कीचकं दृष्ट्वा परिवार्य समन्ततः ॥"
+          "text": "तस्मिन्काले समागम्य सर्वे तत्रास्य बान्धवाः ।\nरुरुदुः कीचकं दृष्ट्वा परिवार्य समन्ततः ॥",
+          "meaning": {
+            "en": "At that time all his kinsmen gathered there and wept, crowding around Kichaka."
+          }
         },
         {
           "n": 2,
-          "text": "सर्वे संहृष्टरोमाणः संत्रस्ताः प्रेक्ष्य कीचकम् ।\nतथा सर्वाङ्गसंभुग्नं कूर्मं स्थल इवोद्धृतम् ॥"
+          "text": "सर्वे संहृष्टरोमाणः संत्रस्ताः प्रेक्ष्य कीचकम् ।\nतथा सर्वाङ्गसंभुग्नं कूर्मं स्थल इवोद्धृतम् ॥",
+          "meaning": {
+            "en": "All were seized with horror and fear on seeing Kichaka, broken in every limb like a tortoise dragged onto land."
+          }
         },
         {
           "n": 3,
-          "text": "पोथितं भीमसेनेन तमिन्द्रेणेव दानवम् ।\nसंस्कारयितुमिच्छन्तो बहिर्नेतुं प्रचक्रमुः ॥"
+          "text": "पोथितं भीमसेनेन तमिन्द्रेणेव दानवम् ।\nसंस्कारयितुमिच्छन्तो बहिर्नेतुं प्रचक्रमुः ॥",
+          "meaning": {
+            "en": "He had been crushed by Bhimasena as Indra crushed a danava; wishing to perform his funeral, they began to carry him outside."
+          }
         },
         {
           "n": 4,
-          "text": "ददृशुस्ते ततः कृष्णां सूतपुत्राः समागताः ।\nअदूरादनवद्याङ्गीं स्तम्भमालिङ्ग्य तिष्ठतीम् ॥"
+          "text": "ददृशुस्ते ततः कृष्णां सूतपुत्राः समागताः ।\nअदूरादनवद्याङ्गीं स्तम्भमालिङ्ग्य तिष्ठतीम् ॥",
+          "meaning": {
+            "en": "Then the charioteers who had assembled saw Krishna, blameless in body, standing not far off, clinging to a pillar."
+          }
         },
         {
           "n": 5,
-          "text": "समवेतेषु सूतेषु तानुवाचोपकीचकः ।\nहन्यतां शीघ्रमसती यत्कृते कीचको हतः ॥"
+          "text": "समवेतेषु सूतेषु तानुवाचोपकीचकः ।\nहन्यतां शीघ्रमसती यत्कृते कीचको हतः ॥",
+          "meaning": {
+            "en": "Among the gathered charioteers, Upakichaka said: \"Kill at once this unchaste woman, on whose account Kichaka was killed.\""
+          }
         },
         {
           "n": 6,
-          "text": "अथ वा नेह हन्तव्या दह्यतां कामिना सह ।\nमृतस्यापि प्रियं कार्यं सूतपुत्रस्य सर्वथा ॥"
+          "text": "अथ वा नेह हन्तव्या दह्यतां कामिना सह ।\nमृतस्यापि प्रियं कार्यं सूतपुत्रस्य सर्वथा ॥",
+          "meaning": {
+            "en": "\"Or rather, do not kill her here; let her be burned with her lover; for we must in every way do what pleases the dead charioteer's son.\""
+          }
         },
         {
           "n": 7,
-          "text": "ततो विराटमूचुस्ते कीचकोऽस्याः कृते हतः ।\nसहाद्यानेन दह्येत तदनुज्ञातुमर्हसि ॥"
+          "text": "ततो विराटमूचुस्ते कीचकोऽस्याः कृते हतः ।\nसहाद्यानेन दह्येत तदनुज्ञातुमर्हसि ॥",
+          "meaning": {
+            "en": "Then they said to Virata: \"Kichaka was killed because of her; she should be burned with him; you ought to permit it.\""
+          }
         },
         {
           "n": 8,
-          "text": "पराक्रमं तु सूतानां मत्वा राजान्वमोदत ।\nसैरन्ध्र्याः सूतपुत्रेण सह दाहं विशां पते ॥"
+          "text": "पराक्रमं तु सूतानां मत्वा राजान्वमोदत ।\nसैरन्ध्र्याः सूतपुत्रेण सह दाहं विशां पते ॥",
+          "meaning": {
+            "en": "The king, considering the might of the charioteers, agreed that the sairandhri should be burned with the charioteer's son, lord of the people."
+          }
         },
         {
           "n": 9,
-          "text": "तां समासाद्य वित्रस्तां कृष्णां कमललोचनाम् ।\nमोमुह्यमानां ते तत्र जगृहुः कीचका भृशम् ॥"
+          "text": "तां समासाद्य वित्रस्तां कृष्णां कमललोचनाम् ।\nमोमुह्यमानां ते तत्र जगृहुः कीचका भृशम् ॥",
+          "meaning": {
+            "en": "Coming upon Krishna, the lotus-eyed woman, terrified and fainting, the Kichakas seized her roughly."
+          }
         },
         {
           "n": 10,
-          "text": "ततस्तु तां समारोप्य निबध्य च सुमध्यमाम् ।\nजग्मुरुद्यम्य ते सर्वे श्मशानमभितस्तदा ॥"
+          "text": "ततस्तु तां समारोप्य निबध्य च सुमध्यमाम् ।\nजग्मुरुद्यम्य ते सर्वे श्मशानमभितस्तदा ॥",
+          "meaning": {
+            "en": "Then they put the slender-waisted woman on the bier and bound her, and all lifted it and went toward the cremation ground."
+          }
         },
         {
           "n": 11,
-          "text": "ह्रियमाणा तु सा राजन्सूतपुत्रैरनिन्दिता ।\nप्राक्रोशन्नाथमिच्छन्ती कृष्णा नाथवती सती ॥"
+          "text": "ह्रियमाणा तु सा राजन्सूतपुत्रैरनिन्दिता ।\nप्राक्रोशन्नाथमिच्छन्ती कृष्णा नाथवती सती ॥",
+          "meaning": {
+            "en": "Carried off by the charioteer's sons, blameless Krishna cried out, seeking a protector though she had protectors, O king."
+          }
         },
         {
-          "text": "द्रौपद्युवाच"
+          "text": "द्रौपद्युवाच",
+          "meaning": {
+            "en": "Draupadi said:"
+          }
         },
         {
           "n": 12,
-          "text": "जयो जयन्तो विजयो जयत्सेनो जयद्बलः ।\nते मे वाचं विजानन्तु सूतपुत्रा नयन्ति माम् ॥"
+          "text": "जयो जयन्तो विजयो जयत्सेनो जयद्बलः ।\nते मे वाचं विजानन्तु सूतपुत्रा नयन्ति माम् ॥",
+          "meaning": {
+            "en": "Jaya, Jayanta, Vijaya, Jayatsena, Jayadbala: may they hear my words; the charioteer's sons are carrying me off."
+          }
         },
         {
           "n": 13,
-          "text": "येषां ज्यातलनिर्घोषो विस्फूर्जितमिवाशनेः ।\nव्यश्रूयत महायुद्धे भीमघोषस्तरस्विनाम् ॥"
+          "text": "येषां ज्यातलनिर्घोषो विस्फूर्जितमिवाशनेः ।\nव्यश्रूयत महायुद्धे भीमघोषस्तरस्विनाम् ॥",
+          "meaning": {
+            "en": "Those whose bowstring's twang, like a thunderbolt's crash, was heard in the great battle, the fearsome roar of the swift ones,"
+          }
         },
         {
           "n": 14,
-          "text": "रथघोषश्च बलवान्गन्धर्वाणां यशस्विनाम् ।\nते मे वाचं विजानन्तु सूतपुत्रा नयन्ति माम् ॥"
+          "text": "रथघोषश्च बलवान्गन्धर्वाणां यशस्विनाम् ।\nते मे वाचं विजानन्तु सूतपुत्रा नयन्ति माम् ॥",
+          "meaning": {
+            "en": "and the mighty rumble of the glorious gandharvas' chariots: may they hear my words; the charioteer's sons are carrying me off."
+          }
         },
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 15,
-          "text": "तस्यास्ताः कृपणा वाचः कृष्णायाः परिदेविताः ।\nश्रुत्वैवाभ्यपतद्भीमः शयनादविचारयन् ॥"
+          "text": "तस्यास्ताः कृपणा वाचः कृष्णायाः परिदेविताः ।\nश्रुत्वैवाभ्यपतद्भीमः शयनादविचारयन् ॥",
+          "meaning": {
+            "en": "Hearing those pitiful lamenting words of Krishna, Bhima sprang from his bed without a thought."
+          }
         },
         {
-          "text": "भीमसेन उवाच"
+          "text": "भीमसेन उवाच",
+          "meaning": {
+            "en": "Bhimasena said:"
+          }
         },
         {
           "n": 16,
-          "text": "अहं शृणोमि ते वाचं त्वया सैरन्ध्रि भाषिताम् ।\nतस्मात्ते सूतपुत्रेभ्यो न भयं भीरु विद्यते ॥"
+          "text": "अहं शृणोमि ते वाचं त्वया सैरन्ध्रि भाषिताम् ।\nतस्मात्ते सूतपुत्रेभ्यो न भयं भीरु विद्यते ॥",
+          "meaning": {
+            "en": "I hear your words, sairandhri; therefore, timid lady, you have nothing to fear from the charioteer's sons."
+          }
         },
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 17,
-          "text": "इत्युक्त्वा स महाबाहुर्विजजृम्भे जिघांसया ।\nततः स व्यायतं कृत्वा वेषं विपरिवर्त्य च ।\nअद्वारेणाभ्यवस्कन्द्य निर्जगाम बहिस्तदा ॥"
+          "text": "इत्युक्त्वा स महाबाहुर्विजजृम्भे जिघांसया ।\nततः स व्यायतं कृत्वा वेषं विपरिवर्त्य च ।\nअद्वारेणाभ्यवस्कन्द्य निर्जगाम बहिस्तदा ॥",
+          "meaning": {
+            "en": "Having said this, the mighty-armed man stretched himself, eager to kill; then he changed his dress and appearance, leaped over the wall by no door, and went out."
+          }
         },
         {
           "n": 18,
-          "text": "स भीमसेनः प्राकारादारुज्य तरसा द्रुमम् ।\nश्मशानाभिमुखः प्रायाद्यत्र ते कीचका गताः ॥"
+          "text": "स भीमसेनः प्राकारादारुज्य तरसा द्रुमम् ।\nश्मशानाभिमुखः प्रायाद्यत्र ते कीचका गताः ॥",
+          "meaning": {
+            "en": "Bhimasena tore a tree up with force from the rampart and set off toward the cremation ground, where the Kichakas had gone."
+          }
         },
         {
           "n": 19,
-          "text": "स तं वृक्षं दशव्यामं सस्कन्धविटपं बली ।\nप्रगृह्याभ्यद्रवत्सूतान्दण्डपाणिरिवान्तकः ॥"
+          "text": "स तं वृक्षं दशव्यामं सस्कन्धविटपं बली ।\nप्रगृह्याभ्यद्रवत्सूतान्दण्डपाणिरिवान्तकः ॥",
+          "meaning": {
+            "en": "That strong man took that tree, ten fathoms tall with its trunk and branches, and rushed at the charioteers like Death with his staff."
+          }
         },
         {
           "n": 20,
-          "text": "ऊरुवेगेन तस्याथ न्यग्रोधाश्वत्थकिंशुकाः ।\nभूमौ निपतिता वृक्षाः संघशस्तत्र शेरते ॥"
+          "text": "ऊरुवेगेन तस्याथ न्यग्रोधाश्वत्थकिंशुकाः ।\nभूमौ निपतिता वृक्षाः संघशस्तत्र शेरते ॥",
+          "meaning": {
+            "en": "By the force of his thighs, banyan, ashvattha and kimshuka trees fell to the ground and lay there in heaps."
+          }
         },
         {
           "n": 21,
-          "text": "तं सिंहमिव संक्रुद्धं दृष्ट्वा गन्धर्वमागतम् ।\nवित्रेसुः सर्वतः सूता विषादभयकम्पिताः ॥"
+          "text": "तं सिंहमिव संक्रुद्धं दृष्ट्वा गन्धर्वमागतम् ।\nवित्रेसुः सर्वतः सूता विषादभयकम्पिताः ॥",
+          "meaning": {
+            "en": "Seeing the gandharva come like an enraged lion, the charioteers on every side trembled with dismay and fear."
+          }
         },
         {
           "n": 22,
-          "text": "तमन्तकमिवायान्तं गन्धर्वं प्रेक्ष्य ते तदा ।\nदिधक्षन्तस्तदा ज्येष्ठं भ्रातरं ह्युपकीचकाः ।\nपरस्परमथोचुस्ते विषादभयकम्पिताः ॥"
+          "text": "तमन्तकमिवायान्तं गन्धर्वं प्रेक्ष्य ते तदा ।\nदिधक्षन्तस्तदा ज्येष्ठं भ्रातरं ह्युपकीचकाः ।\nपरस्परमथोचुस्ते विषादभयकम्पिताः ॥",
+          "meaning": {
+            "en": "Seeing the gandharva approach like Death, and wishing to burn their eldest brother, the Upakichakas said to one another, shaking with dismay and fear:"
+          }
         },
         {
           "n": 23,
-          "text": "गन्धर्वो बलवानेति क्रुद्ध उद्यम्य पादपम् ।\nसैरन्ध्री मुच्यतां शीघ्रं महन्नो भयमागतम् ॥"
+          "text": "गन्धर्वो बलवानेति क्रुद्ध उद्यम्य पादपम् ।\nसैरन्ध्री मुच्यतां शीघ्रं महन्नो भयमागतम् ॥",
+          "meaning": {
+            "en": "\"A mighty gandharva comes in anger, lifting a tree; let the sairandhri be freed quickly, for a great danger has come upon us.\""
+          }
         },
         {
           "n": 24,
-          "text": "ते तु दृष्ट्वा तमाविद्धं भीमसेनेन पादपम् ।\nविमुच्य द्रौपदीं तत्र प्राद्रवन्नगरं प्रति ॥"
+          "text": "ते तु दृष्ट्वा तमाविद्धं भीमसेनेन पादपम् ।\nविमुच्य द्रौपदीं तत्र प्राद्रवन्नगरं प्रति ॥",
+          "meaning": {
+            "en": "Seeing Bhimasena brandish the tree, they let go of Draupadi and ran toward the city."
+          }
         },
         {
           "n": 25,
-          "text": "द्रवतस्तांस्तु संप्रेक्ष्य स वज्री दानवानिव ।\nशतं पञ्चाधिकं भीमः प्राहिणोद्यमसादनम् ॥"
+          "text": "द्रवतस्तांस्तु संप्रेक्ष्य स वज्री दानवानिव ।\nशतं पञ्चाधिकं भीमः प्राहिणोद्यमसादनम् ॥",
+          "meaning": {
+            "en": "Seeing them flee, Bhima, like the wielder of the thunderbolt against the danavas, sent a hundred and five of them to Yama's abode."
+          }
         },
         {
           "n": 26,
-          "text": "तत आश्वासयत्कृष्णां प्रविमुच्य विशां पते ।\nउवाच च महाबाहुः पाञ्चालीं तत्र द्रौपदीम् ।\nअश्रुपूर्णमुखीं दीनां दुर्धर्षः स वृकोदरः ॥"
+          "text": "तत आश्वासयत्कृष्णां प्रविमुच्य विशां पते ।\nउवाच च महाबाहुः पाञ्चालीं तत्र द्रौपदीम् ।\nअश्रुपूर्णमुखीं दीनां दुर्धर्षः स वृकोदरः ॥",
+          "meaning": {
+            "en": "Then, releasing Krishna, he comforted her, O lord of men; and the mighty-armed, unassailable Vrikodara spoke to Panchali Draupadi, her face wet with tears and wretched."
+          }
         },
         {
           "n": 27,
-          "text": "एवं ते भीरु वध्यन्ते ये त्वां क्लिश्यन्त्यनागसम् ।\nप्रैहि त्वं नगरं कृष्णे न भयं विद्यते तव ।\nअन्येनाहं गमिष्यामि विराटस्य महानसम् ॥"
+          "text": "एवं ते भीरु वध्यन्ते ये त्वां क्लिश्यन्त्यनागसम् ।\nप्रैहि त्वं नगरं कृष्णे न भयं विद्यते तव ।\nअन्येनाहं गमिष्यामि विराटस्य महानसम् ॥",
+          "meaning": {
+            "en": "\"This is how those who torment you without cause, timid lady, are killed. Go to the city, Krishna; you have nothing to fear. I shall go to Virata's kitchen by another way.\""
+          }
         },
         {
           "n": 28,
-          "text": "पञ्चाधिकं शतं तच्च निहतं तत्र भारत ।\nमहावनमिव छिन्नं शिश्ये विगलितद्रुमम् ॥"
+          "text": "पञ्चाधिकं शतं तच्च निहतं तत्र भारत ।\nमहावनमिव छिन्नं शिश्ये विगलितद्रुमम् ॥",
+          "meaning": {
+            "en": "That hundred and five lay killed there, Bharata, like a great forest felled, with trees tumbled."
+          }
         },
         {
           "n": 29,
-          "text": "एवं ते निहता राजञ्शतं पञ्च च कीचकाः ।\nस च सेनापतिः पूर्वमित्येतत्सूतषट्शतम् ॥"
+          "text": "एवं ते निहता राजञ्शतं पञ्च च कीचकाः ।\nस च सेनापतिः पूर्वमित्येतत्सूतषट्शतम् ॥",
+          "meaning": {
+            "en": "Thus a hundred and five Kichakas were killed, king, and that commander before them; in all one hundred and six charioteers."
+          }
         },
         {
           "n": 30,
-          "text": "तद्दृष्ट्वा महदाश्चर्यं नरा नार्यश्च संगताः ।\nविस्मयं परमं गत्वा नोचुः किंचन भारत ॥"
+          "text": "तद्दृष्ट्वा महदाश्चर्यं नरा नार्यश्च संगताः ।\nविस्मयं परमं गत्वा नोचुः किंचन भारत ॥",
+          "meaning": {
+            "en": "Seeing that great marvel, the men and women gathered there were utterly astonished and said nothing, Bharata."
+          }
         }
       ]
     }

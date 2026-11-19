@@ -22,75 +22,129 @@
       "titleEn": "Draupadi-Satyabhama-samvada Parva",
       "verses": [
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 1,
-          "text": "मार्कण्डेयादिभिर्विप्रैः पाण्डवैश्च महात्मभिः ।\nकथाभिरनुकूलाभिः सहासित्वा जनार्दनः ॥"
+          "text": "मार्कण्डेयादिभिर्विप्रैः पाण्डवैश्च महात्मभिः ।\nकथाभिरनुकूलाभिः सहासित्वा जनार्दनः ॥",
+          "meaning": {
+            "en": "\"Janardana sat laughing with the brahmins led by Markandeya and the great Pandavas, in pleasant conversation.\""
+          }
         },
         {
           "n": 2,
-          "text": "ततस्तैः संविदं कृत्वा यथावन्मधुसूदनः ।\nआरुरुक्षू रथं सत्यामाह्वयामास केशवः ॥"
+          "text": "ततस्तैः संविदं कृत्वा यथावन्मधुसूदनः ।\nआरुरुक्षू रथं सत्यामाह्वयामास केशवः ॥",
+          "meaning": {
+            "en": "\"Then, after taking leave of them properly, Madhusudana Keshava, wishing to mount his chariot, called Satya.\""
+          }
         },
         {
           "n": 3,
-          "text": "सत्यभामा ततस्तत्र स्वजित्वा द्रुपदात्मजाम् ।\nउवाच वचनं हृद्यं यथाभावसमाहितम् ॥"
+          "text": "सत्यभामा ततस्तत्र स्वजित्वा द्रुपदात्मजाम् ।\nउवाच वचनं हृद्यं यथाभावसमाहितम् ॥",
+          "meaning": {
+            "en": "\"Satyabhama then embraced Drupada's daughter and spoke heartfelt words in keeping with her feelings.\""
+          }
         },
         {
           "n": 4,
-          "text": "कृष्णे मा भूत्तवोत्कण्ठा मा व्यथा मा प्रजागरः ।\nभर्तृभिर्देवसंकाशैर्जितां प्राप्स्यसि मेदिनीम् ॥"
+          "text": "कृष्णे मा भूत्तवोत्कण्ठा मा व्यथा मा प्रजागरः ।\nभर्तृभिर्देवसंकाशैर्जितां प्राप्स्यसि मेदिनीम् ॥",
+          "meaning": {
+            "en": "\"'Krishna, let there be no anxiety, no pain, no sleeplessness in you. You will win back the earth, conquered by husbands who are like gods.'\""
+          }
         },
         {
           "n": 5,
-          "text": "न ह्येवं शीलसंपन्ना नैवं पूजितलक्षणाः ।\nप्राप्नुवन्ति चिरं क्लेशं यथा त्वमसितेक्षणे ॥"
+          "text": "न ह्येवं शीलसंपन्ना नैवं पूजितलक्षणाः ।\nप्राप्नुवन्ति चिरं क्लेशं यथा त्वमसितेक्षणे ॥",
+          "meaning": {
+            "en": "\"'Women of such character and such marked virtues do not suffer long trouble, dark-eyed one, as you have.'\""
+          }
         },
         {
           "n": 6,
-          "text": "अवश्यं च त्वया भूमिरियं निहतकण्टका ।\nभर्तृभिः सह भोक्तव्या निर्द्वंद्वेति श्रुतं मया ॥"
+          "text": "अवश्यं च त्वया भूमिरियं निहतकण्टका ।\nभर्तृभिः सह भोक्तव्या निर्द्वंद्वेति श्रुतं मया ॥",
+          "meaning": {
+            "en": "\"'I have heard that you will certainly enjoy this earth, with its thorns removed and free from rivalry, together with your husbands.'\""
+          }
         },
         {
           "n": 7,
-          "text": "धार्तराष्ट्रवधं कृत्वा वैराणि प्रतियात्य च ।\nयुधिष्ठिरस्थां पृथिवीं द्रष्टासि द्रुपदात्मजे ॥"
+          "text": "धार्तराष्ट्रवधं कृत्वा वैराणि प्रतियात्य च ।\nयुधिष्ठिरस्थां पृथिवीं द्रष्टासि द्रुपदात्मजे ॥",
+          "meaning": {
+            "en": "\"'After killing the sons of Dhritarashtra and repaying your enemies, you will see the earth in Yudhishthira's hand, Draupadi.'\""
+          }
         },
         {
           "n": 8,
-          "text": "यास्ताः प्रव्राजमानां त्वां प्राहसन्दर्पमोहिताः ।\nताः क्षिप्रं हतसंकल्पा द्रक्ष्यसि त्वं कुरुस्त्रियः ॥"
+          "text": "यास्ताः प्रव्राजमानां त्वां प्राहसन्दर्पमोहिताः ।\nताः क्षिप्रं हतसंकल्पा द्रक्ष्यसि त्वं कुरुस्त्रियः ॥",
+          "meaning": {
+            "en": "\"'Those Kuru women who laughed at you, drunk with pride, when you were going into exile, you will soon see with their hopes shattered.'\""
+          }
         },
         {
           "n": 9,
-          "text": "तव दुःखोपपन्नाया यैराचरितमप्रियम् ।\nविद्धि संप्रस्थितान्सर्वांस्तान्कृष्णे यमसादनम् ॥"
+          "text": "तव दुःखोपपन्नाया यैराचरितमप्रियम् ।\nविद्धि संप्रस्थितान्सर्वांस्तान्कृष्णे यमसादनम् ॥",
+          "meaning": {
+            "en": "\"'Know, Krishna, that all those who did you wrong when you were in distress are on their way to Yama's abode.'\""
+          }
         },
         {
           "n": 10,
-          "text": "पुत्रस्ते प्रतिविन्ध्यश्च सुतसोमस्तथा विभुः ।\nश्रुतकर्मार्जुनिश्चैव शतानीकश्च नाकुलिः ।\nसहदेवाच्च यो जातः श्रुतसेनस्तवात्मजः ॥"
+          "text": "पुत्रस्ते प्रतिविन्ध्यश्च सुतसोमस्तथा विभुः ।\nश्रुतकर्मार्जुनिश्चैव शतानीकश्च नाकुलिः ।\nसहदेवाच्च यो जातः श्रुतसेनस्तवात्मजः ॥",
+          "meaning": {
+            "en": "\"'Your sons Pratavindhya, Sutasoma the mighty, Shrutakarma, Arjuna's son, Shatanika, Nakula's son, and Shrutasena, who was born of Sahadeva...'\""
+          }
         },
         {
           "n": 11,
-          "text": "सर्वे कुशलिनो वीराः कृतास्त्राश्च सुतास्तव ।\nअभिमन्युरिव प्रीता द्वारवत्यां रता भृशम् ॥"
+          "text": "सर्वे कुशलिनो वीराः कृतास्त्राश्च सुतास्तव ।\nअभिमन्युरिव प्रीता द्वारवत्यां रता भृशम् ॥",
+          "meaning": {
+            "en": "\"'all your sons are well, heroes skilled in weapons. They live happily in Dvaravati, devoted to it as Abhimanyu is.'\""
+          }
         },
         {
           "n": 12,
-          "text": "त्वमिवैषां सुभद्रा च प्रीत्या सर्वात्मना स्थिता ।\nप्रीयते भावनिर्द्वंद्वा तेभ्यश्च विगतज्वरा ॥"
+          "text": "त्वमिवैषां सुभद्रा च प्रीत्या सर्वात्मना स्थिता ।\nप्रीयते भावनिर्द्वंद्वा तेभ्यश्च विगतज्वरा ॥",
+          "meaning": {
+            "en": "\"'Subhadra is lovingly devoted to them with her whole heart as you would be. She is content, free from jealousy, and free from worry about them.'\""
+          }
         },
         {
           "n": 13,
-          "text": "भेजे सर्वात्मना चैव प्रद्युम्नजननी तथा ।\nभानुप्रभृतिभिश्चैनान्विशिनष्टि च केशवः ॥"
+          "text": "भेजे सर्वात्मना चैव प्रद्युम्नजननी तथा ।\nभानुप्रभृतिभिश्चैनान्विशिनष्टि च केशवः ॥",
+          "meaning": {
+            "en": "\"'Pradyumna's mother too loves them wholly, and Keshava favors them even above Bhanu and his other sons.'\""
+          }
         },
         {
           "n": 14,
-          "text": "भोजनाच्छादने चैषां नित्यं मे श्वशुरः स्थितः ।\nरामप्रभृतयः सर्वे भजन्त्यन्धकवृष्णयः ।\nतुल्यो हि प्रणयस्तेषां प्रद्युम्नस्य च भामिनि ॥"
+          "text": "भोजनाच्छादने चैषां नित्यं मे श्वशुरः स्थितः ।\nरामप्रभृतयः सर्वे भजन्त्यन्धकवृष्णयः ।\nतुल्यो हि प्रणयस्तेषां प्रद्युम्नस्य च भामिनि ॥",
+          "meaning": {
+            "en": "\"'My father-in-law always sees to their food and clothing. Balarama and all the Andhakas and Vrishnis cherish them. Their affection for them is equal to that for Pradyumna, lady.'\""
+          }
         },
         {
           "n": 15,
-          "text": "एवमादि प्रियं प्रीत्या हृद्यमुक्त्वा मनोनुगम् ।\nगमनाय मनश्चक्रे वासुदेवरथं प्रति ॥"
+          "text": "एवमादि प्रियं प्रीत्या हृद्यमुक्त्वा मनोनुगम् ।\nगमनाय मनश्चक्रे वासुदेवरथं प्रति ॥",
+          "meaning": {
+            "en": "\"Saying such pleasant, heartfelt words lovingly, she turned her mind to going and walked toward Vasudeva's chariot.\""
+          }
         },
         {
           "n": 16,
-          "text": "तां कृष्णां कृष्णमहिषी चकाराभिप्रदक्षिणम् ।\nआरुरोह रथं शौरेः सत्यभामा च भामिनी ॥"
+          "text": "तां कृष्णां कृष्णमहिषी चकाराभिप्रदक्षिणम् ।\nआरुरोह रथं शौरेः सत्यभामा च भामिनी ॥",
+          "meaning": {
+            "en": "\"Krishna's queen circled Draupadi to the right, and the lovely Satyabhama mounted Shauri's chariot.\""
+          }
         },
         {
           "n": 17,
-          "text": "स्मयित्वा तु यदुश्रेष्ठो द्रौपदीं परिसान्त्व्य च ।\nउपावर्त्य ततः शीघ्रैर्हयैः प्रायात्परंतपः ॥"
+          "text": "स्मयित्वा तु यदुश्रेष्ठो द्रौपदीं परिसान्त्व्य च ।\nउपावर्त्य ततः शीघ्रैर्हयैः प्रायात्परंतपः ॥",
+          "meaning": {
+            "en": "\"Smiling, the best of the Yadus, after consoling Draupadi, turned his swift horses and drove off, tormentor of foes.\""
+          }
         }
       ]
     }

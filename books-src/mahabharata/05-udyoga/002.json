@@ -22,62 +22,107 @@
       "titleEn": "Udyoga Parva (The preparations)",
       "verses": [
         {
-          "text": "बलदेव उवाच"
+          "text": "बलदेव उवाच",
+          "meaning": {
+            "en": "Baladeva said:"
+          }
         },
         {
           "n": 1,
-          "text": "श्रुतं भवद्भिर्गदपूर्वजस्य\nवाक्यं यथा धर्मवदर्थवच्च ।\nअजातशत्रोश्च हितं हितं च\nदुर्योधनस्यापि तथैव राज्ञः ॥"
+          "text": "श्रुतं भवद्भिर्गदपूर्वजस्य\nवाक्यं यथा धर्मवदर्थवच्च ।\nअजातशत्रोश्च हितं हितं च\nदुर्योधनस्यापि तथैव राज्ञः ॥",
+          "meaning": {
+            "en": "You have heard the words of Krishna, the elder Gada's brother, full of dharma and purpose, good for Yudhishthira and just as good for King Duryodhana."
+          }
         },
         {
           "n": 2,
-          "text": "अर्धं हि राज्यस्य विसृज्य वीराः\nकुन्तीसुतास्तस्य कृते यतन्ते ।\nप्रदाय चार्धं धृतराष्ट्रपुत्रः\nसुखी सहास्माभिरतीव मोदेत् ॥"
+          "text": "अर्धं हि राज्यस्य विसृज्य वीराः\nकुन्तीसुतास्तस्य कृते यतन्ते ।\nप्रदाय चार्धं धृतराष्ट्रपुत्रः\nसुखी सहास्माभिरतीव मोदेत् ॥",
+          "meaning": {
+            "en": "The sons of Kunti strive for this: having given up half their kingdom, the heroes ask only for that; and if Dhritarashtra's son gives half, he will rejoice with us in great happiness."
+          }
         },
         {
           "n": 3,
-          "text": "लब्ध्वा हि राज्यं पुरुषप्रवीराः\nसम्यक्प्रवृत्तेषु परेषु चैव ।\nध्रुवं प्रशान्ताः सुखमाविशेयु-\nस्तेषां प्रशान्तिश्च हितं प्रजानाम् ॥"
+          "text": "लब्ध्वा हि राज्यं पुरुषप्रवीराः\nसम्यक्प्रवृत्तेषु परेषु चैव ।\nध्रुवं प्रशान्ताः सुखमाविशेयु-\nस्तेषां प्रशान्तिश्च हितं प्रजानाम् ॥",
+          "meaning": {
+            "en": "Having regained their kingdom, those heroes, with the others behaving properly, would surely settle in peace and happiness; their peace is also good for the people."
+          }
         },
         {
           "n": 4,
-          "text": "दुर्योधनस्यापि मतं च वेत्तुं\nवक्तुं च वाक्यानि युधिष्ठिरस्य ।\nप्रियं मम स्याद्यदि तत्र कश्चि-\nद्व्रजेच्छमार्थं कुरुपाण्डवानाम् ॥"
+          "text": "दुर्योधनस्यापि मतं च वेत्तुं\nवक्तुं च वाक्यानि युधिष्ठिरस्य ।\nप्रियं मम स्याद्यदि तत्र कश्चि-\nद्व्रजेच्छमार्थं कुरुपाण्डवानाम् ॥",
+          "meaning": {
+            "en": "It would please me if someone went to learn Duryodhana's mind and to convey Yudhishthira's words, to seek peace between the Kauravas and Pandavas."
+          }
         },
         {
           "n": 5,
-          "text": "स भीष्ममामन्त्र्य कुरुप्रवीरं\nवैचित्रवीर्यं च महानुभावम् ।\nद्रोणं सपुत्रं विदुरं कृपं च\nगान्धारराजं च ससूतपुत्रम् ॥"
+          "text": "स भीष्ममामन्त्र्य कुरुप्रवीरं\nवैचित्रवीर्यं च महानुभावम् ।\nद्रोणं सपुत्रं विदुरं कृपं च\nगान्धारराजं च ससूतपुत्रम् ॥",
+          "meaning": {
+            "en": "Let him address Bhishma, the Kuru hero, and the noble son of Vichitravirya, and Drona with his son, Vidura, Kripa, the king of Gandhara with Karna the charioteer's son,"
+          }
         },
         {
           "n": 6,
-          "text": "सर्वे च येऽन्ये धृतराष्ट्रपुत्रा\nबलप्रधाना निगमप्रधानाः ।\nस्थिताश्च धर्मेषु यथा स्वकेषु\nलोकप्रवीराः श्रुतकालवृद्धाः ॥"
+          "text": "सर्वे च येऽन्ये धृतराष्ट्रपुत्रा\nबलप्रधाना निगमप्रधानाः ।\nस्थिताश्च धर्मेषु यथा स्वकेषु\nलोकप्रवीराः श्रुतकालवृद्धाः ॥",
+          "meaning": {
+            "en": "and all the other sons of Dhritarashtra, leaders in strength and in the councils, firm in their own duties, heroes of the world, learned and aged,"
+          }
         },
         {
           "n": 7,
-          "text": "एतेषु सर्वेषु समागतेषु\nपौरेषु वृद्धेषु च संगतेषु ।\nब्रवीतु वाक्यं प्रणिपातयुक्तं\nकुन्तीसुतस्यार्थकरं यथा स्यात् ॥"
+          "text": "एतेषु सर्वेषु समागतेषु\nपौरेषु वृद्धेषु च संगतेषु ।\nब्रवीतु वाक्यं प्रणिपातयुक्तं\nकुन्तीसुतस्यार्थकरं यथा स्यात् ॥",
+          "meaning": {
+            "en": "and in the presence of all these gathered, with the townsmen and elders assembled, let him speak words humbly framed, such as will secure the sons of Kunti their aim."
+          }
         },
         {
           "n": 8,
-          "text": "सर्वास्ववस्थासु च ते न कौट्या-\nद्ग्रस्तो हि सोऽर्थो बलमाश्रितैस्तैः ।\nप्रियाभ्युपेतस्य युधिष्ठिरस्य\nद्यूते प्रमत्तस्य हृतं च राज्यम् ॥"
+          "text": "सर्वास्ववस्थासु च ते न कौट्या-\nद्ग्रस्तो हि सोऽर्थो बलमाश्रितैस्तैः ।\nप्रियाभ्युपेतस्य युधिष्ठिरस्य\nद्यूते प्रमत्तस्य हृतं च राज्यम् ॥",
+          "meaning": {
+            "en": "In every situation he must not use harshness, for that wealth is held by those relying on force; Yudhishthira, fond of the game, was careless at dice, and his kingdom was taken."
+          }
         },
         {
           "n": 9,
-          "text": "निवार्यमाणश्च कुरुप्रवीरैः\nसर्वैः सुहृद्भिर्ह्ययमप्यतज्ज्ञः ।\nगान्धारराजस्य सुतं मताक्षं\nसमाह्वयेद्देवितुमाजमीढः ॥"
+          "text": "निवार्यमाणश्च कुरुप्रवीरैः\nसर्वैः सुहृद्भिर्ह्ययमप्यतज्ज्ञः ।\nगान्धारराजस्य सुतं मताक्षं\nसमाह्वयेद्देवितुमाजमीढः ॥",
+          "meaning": {
+            "en": "Though all his Kuru friends warned him, he, ignorant of the game, still challenged the son of the Gandhara king, skilled at dice, the descendant of Ajamidha."
+          }
         },
         {
           "n": 10,
-          "text": "दुरोदरास्तत्र सहस्रशोऽन्ये\nयुधिष्ठिरो यान्विषहेत जेतुम् ।\nउत्सृज्य तान्सौबलमेव चायं\nसमाह्वयत्तेन जितोऽक्षवत्याम् ॥"
+          "text": "दुरोदरास्तत्र सहस्रशोऽन्ये\nयुधिष्ठिरो यान्विषहेत जेतुम् ।\nउत्सृज्य तान्सौबलमेव चायं\nसमाह्वयत्तेन जितोऽक्षवत्याम् ॥",
+          "meaning": {
+            "en": "There were thousands of other gamblers there whom Yudhishthira could have beaten; yet leaving them aside he called Shakuni alone, and was beaten by him at dice."
+          }
         },
         {
           "n": 11,
-          "text": "स दीव्यमानः प्रतिदेवनेन\nअक्षेषु नित्यं सुपराङ्मुखेषु ।\nसंरम्भमाणो विजितः प्रसह्य\nतत्रापराधः शकुनेर्न कश्चित् ॥"
+          "text": "स दीव्यमानः प्रतिदेवनेन\nअक्षेषु नित्यं सुपराङ्मुखेषु ।\nसंरम्भमाणो विजितः प्रसह्य\nतत्रापराधः शकुनेर्न कश्चित् ॥",
+          "meaning": {
+            "en": "Playing against his opponent, with the dice always turning against him, he grew heated and was beaten by force; in that there was no fault of Shakuni."
+          }
         },
         {
           "n": 12,
-          "text": "तस्मात्प्रणम्यैव वचो ब्रवीतु\nवैचित्रवीर्यं बहुसामयुक्तम् ।\nतथा हि शक्यो धृतराष्ट्रपुत्रः\nस्वार्थे नियोक्तुं पुरुषेण तेन ॥"
+          "text": "तस्मात्प्रणम्यैव वचो ब्रवीतु\nवैचित्रवीर्यं बहुसामयुक्तम् ।\nतथा हि शक्यो धृतराष्ट्रपुत्रः\nस्वार्थे नियोक्तुं पुरुषेण तेन ॥",
+          "meaning": {
+            "en": "So let the envoy bow and speak, with many conciliatory words, to the son of Vichitravirya; by that means Dhritarashtra's son can be moved to his own good."
+          }
         },
         {
-          "text": "वैशंपायन उवाच"
+          "text": "वैशंपायन उवाच",
+          "meaning": {
+            "en": "Vaishampayana said:"
+          }
         },
         {
           "n": 13,
-          "text": "एवं ब्रुवत्येव मधुप्रवीरे\nशिनिप्रवीरः सहसोत्पपात ।\nतच्चापि वाक्यं परिनिन्द्य तस्य\nसमाददे वाक्यमिदं समन्युः ॥"
+          "text": "एवं ब्रुवत्येव मधुप्रवीरे\nशिनिप्रवीरः सहसोत्पपात ।\nतच्चापि वाक्यं परिनिन्द्य तस्य\nसमाददे वाक्यमिदं समन्युः ॥",
+          "meaning": {
+            "en": "While the Madhu hero was still speaking thus, the Shini hero, Satyaki, suddenly sprang up, and, condemning his words, spoke in anger."
+          }
         }
       ]
     }
