@@ -1,5 +1,5 @@
 import { MaterialCommunityIcons } from '@expo/vector-icons';
-import { router } from 'expo-router';
+import { router, Stack, useLocalSearchParams, type Href } from 'expo-router';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { useState } from 'react';
 import { ActivityIndicator, Alert, Linking, Platform, Pressable, ScrollView, StyleSheet, Switch, Text, View } from 'react-native';
@@ -14,6 +14,7 @@ import { JAPA_KEY } from '../lib/japa';
 import { MEANING_PREFS } from '../lib/meaning';
 import { MATHA_OPTIONS, mathaOf, type MathaId } from '../lib/mathaAradhana';
 import { cityById, cityLabel } from '../lib/panchanga';
+import { cityName } from '../lib/cityName';
 import { ensurePermission, remindersSupported } from '../lib/reminders';
 import { T, UI_PREFS, useI18n } from '../lib/i18n';
 import { useSettings } from '../lib/settings';
@@ -112,7 +113,8 @@ const MORNING = ['05:30', '06:30', '07:30', '08:30'];
 
 export default function SettingsScreen() {
   const { theme, settings, update, favorites, recent, plans, positions, bookmarks, routine, routineDone, finished, readDays, restoreStore } = useSettings();
-  const { tr } = useI18n();
+  const { lang, tr } = useI18n();
+  const { section } = useLocalSearchParams<{ section?: string }>();
   const [picker, setPicker] = useState(false);
   const [busy, setBusy] = useState(false);
   const toggle = (value: boolean, onChange: (v: boolean) => void) => <Switch value={value} onValueChange={onChange} trackColor={{ true: theme.accent }} />;
@@ -176,14 +178,56 @@ export default function SettingsScreen() {
     }
   };
 
+  // Settings is a short menu; each kind of choice has its own page (/settings?section=…).
+  const city = cityById(settings.city);
+  const uiName = UI_PREFS.find((m) => m.id === lang)?.label ?? lang;
+  const scriptName = SCRIPTS.find((x) => x.id === settings.script)?.native ?? settings.script;
+  const meaningName = settings.meaningLang === 'auto' ? tr('Auto') : settings.meaningLang === 'both' ? tr('Both') : MEANING_PREFS.find((m) => m.id === settings.meaningLang)?.label ?? '';
+  const SECTIONS: { id: string; icon: keyof typeof MaterialCommunityIcons.glyphMap; title: string; summary: string }[] = [
+    { id: 'language', icon: 'translate', title: tr('Language'), summary: `${tr('App')}: ${uiName} · ${tr('Script')}: ${scriptName} · ${tr('Meanings')}: ${meaningName}` },
+    { id: 'tradition', icon: 'map-marker-outline', title: tr('Tradition and place'), summary: `${settings.variants.tradition === 'smarta' ? tr('Smarta') : tr('Madhva')} · ${cityName(city, lang)}` },
+    { id: 'reading', icon: 'format-size', title: tr('Reading and display'), summary: `${Math.round(settings.fontScale * 100)}% · ${settings.layout === 'book' ? tr('Book pages') : tr('Scroll')}` },
+    ...(remindersSupported ? [{ id: 'reminders', icon: 'bell-outline' as const, title: tr('Reminders'), summary: [reminders.ekadashi && tr('Ekadashi'), reminders.festivals && tr('Festivals'), settings.verseReminder?.on && tr('Verse of the day')].filter(Boolean).join(' · ') || tr('Off') }] : []),
+    { id: 'practice', icon: 'backup-restore', title: tr('Practice and backup'), summary: tr('Streaks, back up and restore') },
+  ];
+  const titleOf = SECTIONS.find((x) => x.id === section)?.title ?? tr('Settings');
+  if (!section) {
+    return (
+      <ScrollView style={{ backgroundColor: theme.bg }} contentContainerStyle={{ paddingTop: 12, paddingBottom: 40 }}>
+        <Stack.Screen options={{ title: tr('Settings') }} />
+        <View style={[s.card, { backgroundColor: theme.card, borderColor: theme.cardBorder }]}>
+          {[...SECTIONS, { id: 'about', icon: 'information-outline' as const, title: tr('About this app and sources'), summary: '' }].map((x, i) => (
+            <Pressable
+              key={x.id}
+              onPress={() => router.push((x.id === 'about' ? '/about' : `/settings?section=${x.id}`) as Href)}
+              accessibilityRole="link"
+              style={({ pressed }) => [s.menuRow, { borderTopWidth: i ? StyleSheet.hairlineWidth : 0, borderColor: theme.cardBorder, opacity: pressed ? 0.6 : 1 }]}
+            >
+              <View style={[s.menuIcon, { backgroundColor: theme.goldSoft }]}>
+                <MaterialCommunityIcons name={x.icon} size={20} color={theme.gold} />
+              </View>
+              <View style={{ flex: 1 }}>
+                <Text style={{ color: theme.text, fontSize: 17 }}>{x.title}</Text>
+                {!!x.summary && <Text style={{ color: theme.textMuted, fontSize: 13, marginTop: 2 }} numberOfLines={1}>{x.summary}</Text>}
+              </View>
+              <MaterialCommunityIcons name="chevron-right" size={22} color={theme.textMuted} />
+            </Pressable>
+          ))}
+        </View>
+      </ScrollView>
+    );
+  }
+
   return (
     <ScrollView style={{ backgroundColor: theme.bg }} contentContainerStyle={{ paddingBottom: 40 }}>
-      <Group title={tr('LANGUAGE')} note={tr('Mantras are shown in the reading script. With Auto, meanings and the app language follow it.')}>
-        <Block first label={tr('Reading script')}>
-          <Pills options={scripts} value={settings.script} onChange={(v) => update({ script: v })} />
+      <Stack.Screen options={{ title: titleOf }} />
+      {section === 'language' && (
+      <Group title={tr('LANGUAGE')} note={tr('The app language is the language of its own words: menus, buttons and headings. The reading script and the meanings are set separately and do not change it.')}>
+        <Block first label={tr('App language')}>
+          <Pills options={UI_PREFS.filter((m) => m.id !== 'auto').map((m) => ({ id: m.id, label: m.label }))} value={lang} onChange={(v) => update({ uiLang: v })} />
         </Block>
-        <Block label={tr('App language')}>
-          <Pills options={UI_PREFS.map((m) => ({ id: m.id, label: m.id === 'auto' ? tr('Auto') : m.label }))} value={settings.uiLang ?? 'auto'} onChange={(v) => update({ uiLang: v })} />
+        <Block label={tr('Reading script')}>
+          <Pills options={scripts} value={settings.script} onChange={(v) => update({ script: v })} />
         </Block>
         <Block label={tr('Meanings in')}>
           <Pills options={MEANING_PREFS.map((m) => ({ id: m.id, label: m.id === 'auto' ? tr('Auto') : m.id === 'both' ? tr('Both') : m.label }))} value={settings.meaningLang} onChange={(v) => update({ meaningLang: v })} />
@@ -192,7 +236,9 @@ export default function SettingsScreen() {
           <Pills options={[{ id: null, label: tr('None') }, ...scripts]} value={settings.secondaryScript} onChange={(v) => update({ secondaryScript: v })} />
         </Block>
       </Group>
+      )}
 
+      {section === 'tradition' && (
       <Group title={tr('TRADITION AND PLACE')} note={tr('Tradition sets the default steps for Sandhyavandane and puja, and the Ekadashi rule. Place sets sunrise and the calendar.')}>
         <Block first label={tr('Tradition')}>
           <Segmented
@@ -228,8 +274,11 @@ export default function SettingsScreen() {
           <Text style={{ color: theme.accent, fontSize: 16 }}>{tr('Change')}</Text>
         </Row>
       </Group>
+      )}
       <CityPicker visible={picker} onClose={() => setPicker(false)} />
 
+      {section === 'reading' && (
+      <>
       <Group title={tr('TEXT')}>
         <View style={[s.sample, { backgroundColor: theme.page, borderColor: theme.pageEdge }]}>
           <Text style={{ color: theme.text, fontSize: 21 * settings.fontScale, lineHeight: 22 * settings.fontScale * leading(settings.script, settings.bookFonts), fontFamily: scriptFont(settings.script, settings.bookFonts), textAlign: settings.centerVerses ? 'center' : 'left' }}>
@@ -272,10 +321,13 @@ export default function SettingsScreen() {
 
       <Group title={tr('READING')} note={tr('Meanings stay hidden until you tap Meaning under a verse, unless all are open.')}>
         <Row first label={tr('Show all meanings open')}>{toggle(settings.alwaysShowMeanings, (v) => update({ alwaysShowMeanings: v }))}</Row>
+        <Row label={tr('Read as a story: meanings first')}>{toggle(!!settings.storyMode, (v) => update({ storyMode: v }))}</Row>
         <Row label={tr('Keep screen on while reading')}>{toggle(settings.keepAwake, (v) => update({ keepAwake: v }))}</Row>
       </Group>
+      </>
+      )}
 
-      {remindersSupported && (
+      {section === 'reminders' && remindersSupported && (
         <Group title={tr('REMINDERS')} note={tr('Dates follow your place, tradition and calendar choice. Tap a reminder to open the text for the day.')}>
           <Row first label={tr('Ekadashi, the evening before')}>{toggle(reminders.ekadashi, (v) => setReminder('ekadashi', v))}</Row>
           <Row label={tr('Major festivals, the evening before')}>{toggle(reminders.festivals, (v) => setReminder('festivals', v))}</Row>
@@ -299,6 +351,7 @@ export default function SettingsScreen() {
         </Group>
       )}
 
+      {section === 'practice' && (
       <Group
         title={tr('PRACTICE AND BACKUP')}
         note={tr('Streaks show the last seven days as lamps on My practice, and forgive one quiet day in seven. A backup is a file with your settings, favourites, bookmarks, routine, plans and japa history; keep it in Drive or send it to yourself. Nothing is uploaded.')}
@@ -311,12 +364,7 @@ export default function SettingsScreen() {
           <MaterialCommunityIcons name="file-restore-outline" size={22} color={theme.accent} />
         </Row>
       </Group>
-
-      <Group title={tr('ABOUT')}>
-        <Row first label={tr('About this app and sources')} onPress={() => router.push('/about')}>
-          <MaterialCommunityIcons name="chevron-right" size={22} color={theme.textMuted} />
-        </Row>
-      </Group>
+      )}
     </ScrollView>
   );
 }
@@ -331,4 +379,6 @@ const s = StyleSheet.create({
   sample: { margin: 12, padding: 14, borderRadius: 10, borderWidth: 1 },
   stepper: { flexDirection: 'row', alignItems: 'center', borderRadius: 12, borderWidth: 1 },
   stepBtn: { paddingHorizontal: 10, paddingVertical: 6 },
+  menuRow: { flexDirection: 'row', alignItems: 'center', gap: 12, paddingVertical: 14, paddingHorizontal: 14 },
+  menuIcon: { width: 36, height: 36, borderRadius: 18, alignItems: 'center', justifyContent: 'center' },
 });

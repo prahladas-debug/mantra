@@ -1,4 +1,5 @@
 import { MaterialCommunityIcons } from '@expo/vector-icons';
+import { cityName } from '../lib/cityName';
 import { router, useLocalSearchParams, type Href } from 'expo-router';
 import { useEffect, useMemo, useState } from 'react';
 import { FlatList, Pressable, Text, TextInput, View } from 'react-native';
@@ -118,7 +119,7 @@ export default function FestivalSearch() {
             />
           </View>
           <Text style={{ color: theme.textMuted, fontSize: 14, marginHorizontal: 16, marginBottom: 8 }}>
-            {city.name} · {rule === 'madhva' ? tr('Madhva') : tr('Smarta')} · {mode === 'saura' ? tr('Sauramana') : tr('Chandramana')} · {FIRST_YEAR}–{LAST_YEAR}
+            {cityName(city, lang)} · {rule === 'madhva' ? tr('Madhva') : tr('Smarta')} · {mode === 'saura' ? tr('Sauramana') : tr('Chandramana')} · {FIRST_YEAR}–{LAST_YEAR}
           </Text>
         </View>
       }

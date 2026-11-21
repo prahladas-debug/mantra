@@ -1,7 +1,7 @@
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { router, type Href } from 'expo-router';
 import { useMemo, useState } from 'react';
-import { Pressable, Text, View } from 'react-native';
+import { Pressable, Text, View, useWindowDimensions } from 'react-native';
 import { scriptFor } from '../data';
 import { leading, meaningFont, scriptFont } from '../lib/fonts';
 import { useI18n } from '../lib/i18n';
@@ -9,12 +9,14 @@ import { meaningsToShow } from '../lib/meaning';
 import { useSettings } from '../lib/settings';
 import { bindDandas, isRoman, nameOf, translit, translitInline, verseNumber } from '../lib/transliterate';
 import { verseOfDay } from '../lib/verseOfDay';
+import { fitLines } from '../lib/lines';
 import { ShareSheet } from './ShareCard';
 
 /** Home: today's verse, with its meaning, a link into the text and sharing as an image. */
 export function VerseOfDayCard() {
   const { theme, settings } = useSettings();
   const { tr } = useI18n();
+  const { width } = useWindowDimensions();
   const [sharing, setSharing] = useState(false);
   const today = new Date().toDateString();
   // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -23,7 +25,8 @@ export function VerseOfDayCard() {
   const script = scriptFor(v.mantra, settings.script);
   const font = scriptFont(script, settings.bookFonts);
   const fs = isRoman(script) ? 17 : 19;
-  const body = bindDandas(translit(v.verse.n !== undefined ? v.verse.text.replace(/\s*॥\s*$/, '') : v.verse.text, script));
+  // A line too long for the card breaks at its half-line (pada), not in the middle of a word.
+  const body = bindDandas(fitLines(translit(v.verse.n !== undefined ? v.verse.text.replace(/\s*॥\s*$/, '') : v.verse.text, script), width - 32 - 36, fs));
   const meaning = meaningsToShow(v.verse.meaning, settings.meaningLang, settings.script)[0];
   const open = () => router.push(`/mantra/${v.mantra.id}?si=${v.si}&vi=${v.vi}` as Href);
   return (

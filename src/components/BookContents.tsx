@@ -1,6 +1,6 @@
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { router, type Href } from 'expo-router';
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import { Pressable, StyleSheet, Text, TextInput, View } from 'react-native';
 import { getMantraInfo, type Category, type Mantra } from '../data';
 import { linkedWhole, partItems, workSequence } from '../data/books';
@@ -14,12 +14,28 @@ import { searchKey, translit, translitTitle } from '../lib/transliterate';
 import { BookBanner } from './Shelf';
 import { TextRow } from './TextList';
 import { useShowEnglish } from './useGloss';
+import { readBookAsset } from '../lib/bookFile';
+import { STORIES } from '../data/stories';
+import { Folded } from './OtherLanguages';
 
 interface Row {
   mantra: Mantra;
   unit: number;
   /** Its titles as a search key (worked out once: a work has hundreds of units). */
   key: string;
+}
+
+type Topics = Record<number, Record<string, string>>;
+/** Each part's chapter topics in other languages, read once from its asset. */
+const topicCache = new Map<BookPartEntry, Promise<Topics>>();
+function loadTopics(p: BookPartEntry): Promise<Topics> {
+  if (!p.topics) return Promise.resolve({});
+  let t = topicCache.get(p);
+  if (!t) {
+    t = readBookAsset(p.topics()).then((j) => JSON.parse(j) as Topics).catch(() => ({}));
+    topicCache.set(p, t);
+  }
+  return t;
 }
 
 /** Lines shown at most while filtering: a word like "adhyaya" matches every unit of the work. */
@@ -31,7 +47,7 @@ const MAX_FILTERED = 100;
  * A part that is a section of the library (the Sundarakanda) opens that section.
  */
 export function BookContents({ category, work }: { category: Category; work: BookWork }) {
-  const { theme, settings, recent } = useSettings();
+  const { theme, settings, recent, finished, update } = useSettings();
   const { lang: ui, tr } = useI18n();
   const showEn = useShowEnglish();
   // What a unit is called in the interface: sarga, adhyaya, or (the Ramcharitmanas's ten-doha groups) section.
@@ -77,6 +93,23 @@ export function BookContents({ category, work }: { category: Category; work: Boo
 
   const key = searchKey(q.trim());
   const filtering = key.length >= 2;
+
+  // Chapter topics in the interface's language, read for the parts that are open (all of them
+  // while filtering, so a topic can be searched for).
+  const [topics, setTopics] = useState<ReadonlyMap<number, Topics>>(new Map());
+  useEffect(() => {
+    if (ui === 'en') return;
+    let live = true;
+    for (const p of work.parts)
+      if ((filtering || open.has(p.part)) && !topics.has(p.part) && p.topics)
+        void loadTopics(p).then((t) => live && setTopics((prev) => new Map(prev).set(p.part, t)));
+    return () => {
+      live = false;
+    };
+  }, [ui, work, open, filtering, topics]);
+  /** A unit's topic as the reader sees it: in their language, or English in an English interface. */
+  const topicOf = (p: BookPartEntry, r: Row): string | undefined =>
+    ui === 'en' ? r.mantra.titleEn.split(' · ').slice(1).join(' · ') || undefined : topics.get(p.part)?.[r.unit]?.[ui];
   // While filtering, the matches of each part (at most MAX_FILTERED lines in all).
   const matches = useMemo(() => {
     if (!filtering) return null;
@@ -84,13 +117,13 @@ export function BookContents({ category, work }: { category: Category; work: Boo
     let total = 0;
     const byPart = new Map<number, Row[]>();
     for (const p of work.parts) {
-      const hits = (rows.get(p.part) ?? []).filter((r) => r.key.includes(key));
+      const hits = (rows.get(p.part) ?? []).filter((r) => r.key.includes(key) || searchKey(topics.get(p.part)?.[r.unit]?.[ui] ?? '').includes(key));
       total += hits.length;
       byPart.set(p.part, hits.slice(0, Math.max(0, left)));
       left -= hits.length;
     }
     return { byPart, total };
-  }, [filtering, key, rows, work]);
+  }, [filtering, key, rows, work, topics, ui]);
   const shown = (p: BookPartEntry) => (matches ? matches.byPart.get(p.part) ?? [] : rows.get(p.part) ?? []);
   const written = work.parts.reduce((n, p) => n + p.units.length, 0);
   const lang = primaryLang(settings.meaningLang, settings.script);
@@ -109,6 +142,47 @@ export function BookContents({ category, work }: { category: Category; work: Boo
           </>
         )}
       </View>
+
+      {!filtering && (
+        // The epics are read for their story too: the meanings as prose, each verse a tap away.
+        <Pressable
+          onPress={() => update({ storyMode: !settings.storyMode })}
+          accessibilityRole="switch"
+          accessibilityState={{ checked: !!settings.storyMode }}
+          style={({ pressed }) => [s.storyRow, { borderColor: settings.storyMode ? theme.gold : theme.cardBorder, backgroundColor: theme.card, opacity: pressed ? 0.7 : 1 }]}
+        >
+          <MaterialCommunityIcons name={settings.storyMode ? 'book-open-variant' : 'book-open-outline'} size={20} color={settings.storyMode ? theme.gold : theme.textMuted} />
+          <View style={{ flex: 1 }}>
+            <Text style={{ color: theme.text, fontSize: 16 }}>{tr('Read as a story: meanings first')}</Text>
+            <Text style={{ color: theme.textMuted, fontSize: 13 }}>{tr('Each verse opens on a tap under its meaning.')}</Text>
+          </View>
+          <MaterialCommunityIcons name={settings.storyMode ? 'toggle-switch' : 'toggle-switch-off-outline'} size={34} color={settings.storyMode ? theme.gold : theme.textMuted} />
+        </Pressable>
+      )}
+
+      {!!STORIES[work.work] && !filtering && (
+        // The episodes people look for (Nala and Damayanti, the Yaksha Prashna), each opening its chapter.
+        <View style={{ marginTop: 12 }}>
+          <Folded label={tr('Well-known stories')} count={STORIES[work.work].length} icon="book-open-page-variant-outline">
+            <View style={{ flexDirection: 'row', flexWrap: 'wrap', gap: 8, marginHorizontal: 16, marginBottom: 8 }}>
+              {STORIES[work.work].map((st) => {
+                const [kind, id] = st.to.includes(':') ? st.to.split(':') : ['unit', st.to];
+                const href = kind === 'category' ? `/category/${id}` : `/mantra/${id}`;
+                return (
+                  <Pressable
+                    key={st.to}
+                    onPress={() => router.push(href as Href)}
+                    accessibilityRole="link"
+                    style={({ pressed }) => ({ paddingHorizontal: 12, paddingVertical: 8, borderRadius: 16, borderWidth: 1, borderColor: theme.cardBorder, backgroundColor: theme.card, opacity: pressed ? 0.6 : 1 })}
+                  >
+                    <Text style={{ color: theme.text, fontSize: 15 }}>{st.name[ui] ?? st.name.en}</Text>
+                  </Pressable>
+                );
+              })}
+            </View>
+          </Folded>
+        </View>
+      )}
 
       {written > 12 && (
         <View style={[s.search, { borderColor: theme.cardBorder, backgroundColor: theme.card }]}>
@@ -145,6 +219,9 @@ export function BookContents({ category, work }: { category: Category; work: Boo
               : unitName === 'sarga' ? tr('{n} sargas', { n: p.unitCount }) : unitName === 'adhyaya' ? tr('{n} adhyayas', { n: p.unitCount }) : tr('{n} sections', { n: p.unitCount }),
             tr('{n} verses', { n: p.verseCount.toLocaleString('en-IN') }),
           ];
+          // How much of the part has been read to the end, chapter by chapter.
+          const units = rows.get(p.part) ?? [];
+          const read = linked ? 0 : units.filter((r) => finished[r.mantra.id]).length;
           const summary = p.summary[lang] ?? (ui === 'en' ? p.summary.en : undefined);
           return (
             <View key={p.part}>
@@ -168,13 +245,31 @@ export function BookContents({ category, work }: { category: Category; work: Boo
                 </View>
                 {ready && !filtering && <MaterialCommunityIcons name={linked ? 'chevron-right' : expanded ? 'chevron-up' : 'chevron-down'} size={22} color={linked ? theme.textMuted : theme.accent} />}
               </Pressable>
+              {read > 0 && !filtering && (
+                <View style={{ flexDirection: 'row', alignItems: 'center', gap: 8, paddingLeft: 56, paddingRight: 16, paddingBottom: 10, marginTop: -4 }} accessibilityLabel={tr('{read} of {total} read', { read, total: units.length })}>
+                  <View style={{ flex: 1, height: 4, borderRadius: 2, backgroundColor: theme.cardBorder, overflow: 'hidden' }}>
+                    <View style={{ width: `${Math.round((read / units.length) * 100)}%`, height: 4, backgroundColor: theme.gold }} />
+                  </View>
+                  <Text style={{ color: theme.textMuted, fontSize: 12 }}>{tr('{read} of {total} read', { read, total: units.length })}</Text>
+                </View>
+              )}
               {expanded && (
                 <View>
                   {!filtering && summary && (
                     <Text style={{ color: theme.textMuted, fontSize: 14, lineHeight: 21, paddingHorizontal: 16, paddingBottom: 8 }}>{lang === 'en' ? plain(summary) : summary}</Text>
                   )}
                   {list.map((r) => (
-                    <TextRow key={r.mantra.id} mantra={r.mantra} divider indent badge={String(r.unit)} subtitle={r.mantra.titleEn.split(' · ').pop()} current={r.mantra.id === lastRead?.id} />
+                    <TextRow
+                      key={r.mantra.id}
+                      mantra={r.mantra}
+                      divider
+                      indent
+                      badge={String(r.unit)}
+                      heading={topicOf(p, r)}
+                      subtitle={r.mantra.titleEn.split(' · ').pop()}
+                      current={r.mantra.id === lastRead?.id}
+                      done={!!finished[r.mantra.id]}
+                    />
                   ))}
                 </View>
               )}
@@ -197,4 +292,5 @@ const s = StyleSheet.create({
   card: { marginHorizontal: 16, borderRadius: 16, borderWidth: 1, overflow: 'hidden' },
   part: { flexDirection: 'row', alignItems: 'center', gap: 10, paddingVertical: 12, paddingRight: 12, paddingLeft: 14 },
   badge: { width: 32, height: 32, borderRadius: 16, alignItems: 'center', justifyContent: 'center' },
+  storyRow: { flexDirection: 'row', alignItems: 'center', gap: 10, marginHorizontal: 16, marginTop: 12, paddingVertical: 10, paddingHorizontal: 14, borderRadius: 12, borderWidth: 1 },
 });

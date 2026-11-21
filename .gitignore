@@ -40,3 +40,4 @@ yarn-error.*
 /ios
 /android
 __pycache__/
+books-src/.topics.lock

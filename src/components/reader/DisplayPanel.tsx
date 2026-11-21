@@ -1,4 +1,5 @@
 import { MaterialCommunityIcons } from '@expo/vector-icons';
+import { useState, type ReactNode } from 'react';
 import { Modal, Platform, Pressable, ScrollView, StyleSheet, Switch, Text, useColorScheme, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { T, useI18n } from '../../lib/i18n';
@@ -8,6 +9,12 @@ import { useSettings, type Settings } from '../../lib/settings';
 import { THEMES } from '../../lib/theme';
 import { SCRIPTS } from '../../lib/transliterate';
 import { Segmented } from '../ui';
+
+const SPACINGS = [
+  { id: '0.9', label: T('Compact') },
+  { id: '1', label: T('Normal') },
+  { id: '1.15', label: T('Relaxed') },
+];
 
 const THEME_CHOICES: { id: Settings['theme']; label: string }[] = [
   { id: 'light', label: T('Day') },
@@ -36,7 +43,20 @@ export function DisplayPanel({
   const insets = useSafeAreaInsets();
   const scale = settings.fontScale;
 
-  const heading = (text: string) => <Text style={[p.heading, { color: theme.textMuted }]}>{text}</Text>;
+  // One group of choices open at a time.
+  const [open, setOpen] = useState<string | null>(null);
+  const section = (id: string, label: string, value: string, children: ReactNode) => (
+    <View key={id} style={{ borderTopWidth: id === 'script' ? 0 : StyleSheet.hairlineWidth, borderColor: theme.cardBorder }}>
+      <Pressable onPress={() => setOpen(open === id ? null : id)} accessibilityRole="button" accessibilityState={{ expanded: open === id }} style={({ pressed }) => [p.sectionRow, { opacity: pressed ? 0.6 : 1 }]}>
+        <Text style={{ color: theme.text, fontSize: 16, flex: 1 }}>{label}</Text>
+        {!!value && <Text style={{ color: theme.textMuted, fontSize: 15, marginRight: 6 }} numberOfLines={1}>{value}</Text>}
+        <MaterialCommunityIcons name={open === id ? 'chevron-up' : 'chevron-down'} size={20} color={theme.textMuted} />
+      </Pressable>
+      {open === id && <View style={{ paddingHorizontal: 14, paddingBottom: 12 }}>{children}</View>}
+    </View>
+  );
+  const meaningName = settings.meaningLang === 'auto' ? tr('Auto') : settings.meaningLang === 'both' ? tr('Both') : MEANING_PREFS.find((m) => m.id === settings.meaningLang)?.label ?? '';
+  const spacingName = tr(SPACINGS.find((x) => x.id === String(settings.lineSpacing ?? 1))?.label ?? 'Normal');
   const pill = (active: boolean) => [p.pill, { borderColor: active ? theme.accent : theme.cardBorder, backgroundColor: active ? theme.accent : theme.card }];
   const toggle = (label: string, value: boolean, onChange: (v: boolean) => void) => (
     <View style={[p.switchRow, { borderColor: theme.cardBorder }]}>
@@ -57,88 +77,85 @@ export function DisplayPanel({
           </Pressable>
         </View>
         <ScrollView contentContainerStyle={{ paddingHorizontal: 16, paddingBottom: insets.bottom + 20 }}>
-          <Pressable
-            onPress={onHandsFree}
-            accessibilityRole="button"
-            style={({ pressed }) => [p.handsFree, { borderColor: theme.cardBorder, backgroundColor: theme.card, opacity: pressed ? 0.7 : 1 }]}
-          >
-            <View style={[p.handsIcon, { backgroundColor: theme.accent }]}>
-              <MaterialCommunityIcons name="play" size={22} color={theme.onAccent} />
+          {/* What is changed most, always in view: the size, hands-free reading and the theme. */}
+          <View style={{ flexDirection: 'row', gap: 8, alignItems: 'center', marginTop: 10 }}>
+            <View style={[p.sizeRow, { flex: 1, justifyContent: 'space-between', borderColor: theme.cardBorder, backgroundColor: theme.card }]}>
+              <Pressable onPress={() => update({ fontScale: Math.max(0.7, +(scale - 0.1).toFixed(1)) })} hitSlop={8} accessibilityLabel={tr('Smaller text')} style={p.sizeBtn}>
+                <Text style={{ color: theme.accent, fontSize: 16, fontWeight: '700' }}>A−</Text>
+              </Pressable>
+              <Text style={{ color: theme.text, fontSize: 16, minWidth: 46, textAlign: 'center' }}>{Math.round(scale * 100)}%</Text>
+              <Pressable onPress={() => update({ fontScale: Math.min(2.4, +(scale + 0.1).toFixed(1)) })} hitSlop={8} accessibilityLabel={tr('Larger text')} style={p.sizeBtn}>
+                <Text style={{ color: theme.accent, fontSize: 21, fontWeight: '700' }}>A+</Text>
+              </Pressable>
             </View>
-            <View style={{ flex: 1 }}>
-              <Text style={{ color: theme.text, fontSize: 16, fontWeight: '700' }}>{tr('Hands-free reading')}</Text>
-              <Text style={{ color: theme.textMuted, fontSize: 13, marginTop: 1 }}>
-                {settings.layout === 'book' ? tr('The pages turn by themselves while you recite.') : tr('The text moves up by itself while you recite.')}
-              </Text>
-            </View>
-          </Pressable>
-          {heading(tr('SCRIPT'))}
-          <View style={p.wrap}>
-            {SCRIPTS.map((sc) => {
-              const active = settings.script === sc.id;
-              return (
-                <Pressable key={sc.id} onPress={() => update({ script: sc.id })} style={pill(active)} accessibilityRole="radio" accessibilityState={{ selected: active }}>
-                  <Text style={{ color: active ? theme.onAccent : theme.text, fontSize: 16, fontFamily: scriptFont(sc.id, settings.bookFonts) }}>
-                    {sc.id === 'iast' ? 'IAST' : sc.id === 'english' ? 'English' : sc.native}
-                  </Text>
-                </Pressable>
-              );
-            })}
-          </View>
-
-          {heading(tr('LAYOUT AND SIZE'))}
-          <View style={{ flexDirection: 'row', gap: 8, alignItems: 'center' }}>
-          <View style={{ flex: 1 }}>
-            <Segmented options={[{ id: 'book', label: tr('Book') }, { id: 'scroll', label: tr('Scroll') }]} value={settings.layout} onChange={(v) => update({ layout: v })} />
-          </View>
-          <View style={[p.sizeRow, { borderColor: theme.cardBorder, backgroundColor: theme.card }]}>
-            <Pressable onPress={() => update({ fontScale: Math.max(0.7, +(scale - 0.1).toFixed(1)) })} hitSlop={8} accessibilityLabel={tr('Smaller text')} style={p.sizeBtn}>
-              <Text style={{ color: theme.accent, fontSize: 16, fontWeight: '700' }}>A−</Text>
-            </Pressable>
-            <Text style={{ color: theme.text, fontSize: 16, minWidth: 46, textAlign: 'center' }}>{Math.round(scale * 100)}%</Text>
-            <Pressable onPress={() => update({ fontScale: Math.min(2.4, +(scale + 0.1).toFixed(1)) })} hitSlop={8} accessibilityLabel={tr('Larger text')} style={p.sizeBtn}>
-              <Text style={{ color: theme.accent, fontSize: 21, fontWeight: '700' }}>A+</Text>
+            <Pressable
+              onPress={onHandsFree}
+              accessibilityRole="button"
+              accessibilityHint={settings.layout === 'book' ? tr('The pages turn by themselves while you recite.') : tr('The text moves up by itself while you recite.')}
+              style={({ pressed }) => [p.handsFree, { borderColor: theme.cardBorder, backgroundColor: theme.card, opacity: pressed ? 0.7 : 1 }]}
+            >
+              <View style={[p.handsIcon, { backgroundColor: theme.accent }]}>
+                <MaterialCommunityIcons name="play" size={18} color={theme.onAccent} />
+              </View>
+              <Text style={{ color: theme.text, fontSize: 15, fontWeight: '600' }}>{tr('Hands-free reading')}</Text>
             </Pressable>
           </View>
+          <View style={{ marginTop: 14 }}>
+            <ThemeSwatches />
           </View>
 
-          <View style={{ marginTop: 10 }}>
-            <Segmented
-              options={[
-                { id: '0.9', label: tr('Compact') },
-                { id: '1', label: tr('Normal') },
-                { id: '1.15', label: tr('Relaxed') },
-              ]}
-              value={String(settings.lineSpacing ?? 1)}
-              onChange={(v) => update({ lineSpacing: Number(v) })}
-            />
+          {/* The rest, one line each with what is chosen; a tap opens the choices. */}
+          <View style={[p.group, { borderColor: theme.cardBorder, backgroundColor: theme.card, marginTop: 14 }]}>
+            {section('script', tr('Script'), SCRIPTS.find((x) => x.id === settings.script)?.native ?? '', (
+              <View style={p.wrap}>
+                {SCRIPTS.map((sc) => {
+                  const active = settings.script === sc.id;
+                  return (
+                    <Pressable key={sc.id} onPress={() => update({ script: sc.id })} style={pill(active)} accessibilityRole="radio" accessibilityState={{ selected: active }}>
+                      <Text style={{ color: active ? theme.onAccent : theme.text, fontSize: 16, fontFamily: scriptFont(sc.id, settings.bookFonts) }}>
+                        {sc.id === 'iast' ? 'IAST' : sc.id === 'english' ? 'English' : sc.native}
+                      </Text>
+                    </Pressable>
+                  );
+                })}
+              </View>
+            ))}
+            {section('meanings', tr('Meanings'), meaningName, (
+              <>
+                <View style={p.wrap}>
+                  {MEANING_PREFS.map((m) => {
+                    const active = settings.meaningLang === m.id;
+                    return (
+                      <Pressable key={m.id} onPress={() => update({ meaningLang: m.id })} style={pill(active)} accessibilityRole="radio" accessibilityState={{ selected: active }}>
+                        <Text style={{ color: active ? theme.onAccent : theme.text, fontSize: 16 }}>{m.id === 'auto' ? tr('Auto') : m.id === 'both' ? tr('Both') : m.label}</Text>
+                      </Pressable>
+                    );
+                  })}
+                </View>
+                <View style={{ marginTop: 8 }}>
+                  {toggle(tr('Show all meanings open'), settings.alwaysShowMeanings, (v) => update({ alwaysShowMeanings: v }))}
+                  {toggle(tr('Read as a story: meanings first'), !!settings.storyMode, (v) => update({ storyMode: v }))}
+                </View>
+              </>
+            ))}
+            {section('layout', tr('Layout'), `${settings.layout === 'book' ? tr('Book') : tr('Scroll')} · ${spacingName}`, (
+              <>
+                <Segmented options={[{ id: 'book', label: tr('Book') }, { id: 'scroll', label: tr('Scroll') }]} value={settings.layout} onChange={(v) => update({ layout: v })} />
+                <View style={{ marginTop: 10 }}>
+                  <Segmented options={SPACINGS.map((x) => ({ id: x.id, label: tr(x.label) }))} value={String(settings.lineSpacing ?? 1)} onChange={(v) => update({ lineSpacing: Number(v) })} />
+                </View>
+              </>
+            ))}
+            {section('more', tr('More options'), '', (
+              <>
+                {toggle(tr('Book fonts'), settings.bookFonts, (v) => update({ bookFonts: v }))}
+                {toggle(tr('Centre the verses'), settings.centerVerses, (v) => update({ centerVerses: v }))}
+                {toggle(tr('Memorise (hide lines)'), practice, setPractice)}
+                {settings.layout === 'book' && toggle(tr('Tap the page edges to turn pages'), settings.edgeTaps !== false, (v) => update({ edgeTaps: v }))}
+                {Platform.OS === 'android' && toggle(tr('Volume buttons turn pages'), !!settings.volumeKeys, (v) => update({ volumeKeys: v }))}
+              </>
+            ))}
           </View>
-
-          {heading(tr('THEME'))}
-          <ThemeSwatches />
-
-          {heading(tr('MEANINGS'))}
-          <View style={p.wrap}>
-            {MEANING_PREFS.map((m) => {
-              const active = settings.meaningLang === m.id;
-              return (
-                <Pressable key={m.id} onPress={() => update({ meaningLang: m.id })} style={pill(active)} accessibilityRole="radio" accessibilityState={{ selected: active }}>
-                  <Text style={{ color: active ? theme.onAccent : theme.text, fontSize: 16 }}>{m.id === 'auto' ? tr('Auto') : m.id === 'both' ? tr('Both') : m.label}</Text>
-                </Pressable>
-              );
-            })}
-          </View>
-
-          {heading(tr('OPTIONS'))}
-          <View style={[p.group, { borderColor: theme.cardBorder, backgroundColor: theme.card }]}>
-            {toggle(tr('Show all meanings open'), settings.alwaysShowMeanings, (v) => update({ alwaysShowMeanings: v }))}
-            {toggle(tr('Book fonts'), settings.bookFonts, (v) => update({ bookFonts: v }))}
-            {toggle(tr('Centre the verses'), settings.centerVerses, (v) => update({ centerVerses: v }))}
-            {toggle(tr('Memorise (hide lines)'), practice, setPractice)}
-            {settings.layout === 'book' && toggle(tr('Tap the page edges to turn pages'), settings.edgeTaps !== false, (v) => update({ edgeTaps: v }))}
-            {Platform.OS === 'android' && toggle(tr('Volume buttons turn pages'), !!settings.volumeKeys, (v) => update({ volumeKeys: v }))}
-          </View>
-
         </ScrollView>
       </View>
     </Modal>
@@ -188,11 +205,11 @@ const p = StyleSheet.create({
   sizeRow: { flexDirection: 'row', alignItems: 'center', borderRadius: 12, borderWidth: 1 },
   sizeBtn: { paddingHorizontal: 10, paddingVertical: 7 },
   swatches: { flexDirection: 'row', justifyContent: 'space-between' },
-  swatch: { alignItems: 'center', width: 48 },
+  swatch: { alignItems: 'center', flex: 1 },
   dot: { width: 34, height: 34, borderRadius: 18, alignItems: 'center', justifyContent: 'center' },
   group: { borderRadius: 12, borderWidth: 1, overflow: 'hidden' },
   switchRow: { flexDirection: 'row', alignItems: 'center', paddingHorizontal: 14, paddingVertical: 2 },
   sectionRow: { flexDirection: 'row', alignItems: 'center', paddingHorizontal: 14, paddingVertical: 11 },
-  handsFree: { flexDirection: 'row', alignItems: 'center', gap: 12, marginTop: 10, padding: 12, borderRadius: 12, borderWidth: 1 },
-  handsIcon: { width: 38, height: 38, borderRadius: 19, alignItems: 'center', justifyContent: 'center' },
+  handsFree: { flexDirection: 'row', alignItems: 'center', gap: 8, paddingVertical: 6, paddingLeft: 6, paddingRight: 12, borderRadius: 12, borderWidth: 1 },
+  handsIcon: { width: 30, height: 30, borderRadius: 15, alignItems: 'center', justifyContent: 'center' },
 });

@@ -1,4 +1,5 @@
 import { MaterialCommunityIcons } from '@expo/vector-icons';
+import { primaryLang } from '../lib/meaning';
 import { router } from 'expo-router';
 import { useState } from 'react';
 import { LinearGradient } from 'expo-linear-gradient';
@@ -65,7 +66,12 @@ export default function Welcome() {
 
   const finish = () => {
     // Not asked: Smarta, so that Madhva-only observances stay out of the way (changeable in Settings).
-    update({ onboarded: true, ...(showTradition || tradition ? {} : { variants: { ...settings.variants, tradition: 'smarta' } }) });
+    update({
+      onboarded: true,
+      // The app's language is fixed now; later script or meaning changes leave it as it is.
+      ...(settings.uiLang === 'auto' || !settings.uiLang ? { uiLang: primaryLang(settings.meaningLang, settings.script) } : {}),
+      ...(showTradition || tradition ? {} : { variants: { ...settings.variants, tradition: 'smarta' } }),
+    });
     router.replace('/');
   };
   const button = (label: string, onPress: () => void, primary = true) => (
@@ -105,7 +111,7 @@ export default function Welcome() {
               {tr('Mantras are shown in its script, with meanings in that language where available (otherwise English). You can change this any time in Settings.')}
             </Text>
             {LANGUAGES.map((l) => (
-              <Choice key={l.script} active={settings.script === l.script} onPress={() => update({ script: l.script, meaningLang: 'auto' })}>
+              <Choice key={l.script} active={settings.script === l.script} onPress={() => update({ script: l.script, meaningLang: 'auto', uiLang: primaryLang('auto', l.script) })}>
                 <Text style={{ color: theme.text, fontSize: 18, fontFamily: scriptFont(l.script, settings.bookFonts) }}>{l.name}</Text>
                 <Text style={{ color: theme.textMuted, fontSize: 14 }}>{tr(l.en)}</Text>
               </Choice>

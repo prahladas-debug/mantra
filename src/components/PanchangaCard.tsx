@@ -1,4 +1,5 @@
 import { MaterialCommunityIcons } from '@expo/vector-icons';
+import { cityName } from '../lib/cityName';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { router, type Href } from 'expo-router';
 import { useCallback, useMemo, useState, useSyncExternalStore } from 'react';
@@ -262,7 +263,7 @@ export function TodayCard() {
         <ArtFill art={hero} place={0.3} opacity={theme.artOpacity} />
         <LinearGradient colors={['rgba(14,9,5,0.7)', 'rgba(14,9,5,0.05)', 'rgba(14,9,5,0.6)', 'rgba(14,9,5,0.93)']} locations={[0, 0.3, 0.58, 1]} style={{ position: 'absolute', left: 0, right: 0, top: 0, bottom: 0 }} />
         <Text style={{ position: 'absolute', top: 12, left: 14, color: HERO_GOLD, fontSize: 13, fontWeight: '700', letterSpacing: 1 }} numberOfLines={1}>
-          {tr('TODAY')} · {city.name.toUpperCase()}
+          {tr('TODAY')} · {lang === 'en' ? city.name.toUpperCase() : cityName(city, lang)}
         </Text>
         <View style={{ position: 'absolute', left: 14, right: 14, bottom: 12 }}>
           <Text style={{ color: '#FBF3E4', fontSize: 24, lineHeight: 32, fontFamily: heroFont, fontWeight: heroFont ? undefined : '700' }} numberOfLines={2}>
@@ -323,7 +324,7 @@ export function TodayCard() {
 /** Saṅkalpa phrase for today, shown at the top of Sandhyāvandane / pūjā texts. */
 export function SankalpaCard() {
   const { theme, settings } = useSettings();
-  const { tr } = useI18n();
+  const { lang, tr } = useI18n();
   const { p, city, today, method } = usePanchanga();
   const [mode] = useCalendarMode();
   const [start] = useSauraStart();
@@ -332,7 +333,7 @@ export function SankalpaCard() {
   return (
     <View style={{ marginTop: 14, padding: 12, borderRadius: 12, borderWidth: 1, borderColor: theme.cardBorder, backgroundColor: theme.card }}>
       <Text style={{ color: theme.textMuted, fontSize: 14, fontWeight: '700', marginBottom: 6 }}>
-        {tr('Today’s sankalpa')} · {city.name}
+        {tr('Today’s sankalpa')} · {cityName(city, lang)}
       </Text>
       <Text style={{ color: theme.text, fontSize: 18, lineHeight: 30 }} selectable>
         {translit(sankalpa, settings.script)}

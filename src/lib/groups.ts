@@ -1,5 +1,6 @@
 import type { CategoryId, Mantra } from '../data/types';
 import { deityKey } from './deities';
+import { T } from './i18n';
 
 /** One line in a list: a text, or a multi-part work folded into one row. */
 export interface Entry {
@@ -65,11 +66,10 @@ function groupOf(m: Mantra): [id: string, title: string, order: number] {
       return [g, t, DEITY_ORDER.indexOf(g)];
     }
     case 'dasara-pada': {
-      if (/suladi|ugabhoga/.test(id)) return ['suladi', 'Suladi and Ugabhoga', 100];
-      if (/-(mangal\w*|lali|arati\w*)(-|$)/.test(id)) return ['mangala', 'Lali and Mangalarati', 99];
-      if (/raghavendra|rayara|dasarendare/.test(id)) return ['guru', 'Gurus and Haridasas', 98];
-      const [g, t] = deityGroup(m);
-      return [g, g === 'vishnu' ? 'Hari' : t, DEITY_ORDER.indexOf(g)];
+      // Padas are looked for by their composer: one heading each for the dasas with several, the rest together.
+      const c = padaComposer(m);
+      const i = COMPOSERS.findIndex(([name]) => name === c);
+      return i >= 0 && COMPOSERS[i][1] ? [`composer-${i}`, c!, i] : ['composer-other', 'Other Haridasas', COMPOSERS.length];
     }
     case 'kirtana':
       if (m.sourceScript === 'tamil') return ['tamil', 'Tamil', 0];
@@ -106,6 +106,63 @@ function groupOf(m: Mantra): [id: string, title: string, order: number] {
     default:
       return ['all', '', 0];
   }
+}
+
+// ---------- Dasara padas: composers and deities ----------
+
+/**
+ * The Haridasas, in the order their headings come (Purandara and Kanaka first, then by period),
+ * and whether each has a heading of their own; the rest are listed under "Other Haridasas".
+ * The names are interface strings, translated in src/i18n.
+ */
+const COMPOSERS: [name: string, heading: boolean][] = [
+  [T('Purandara Dasa'), true],
+  [T('Kanaka Dasa'), true],
+  [T('Sripadaraja'), true],
+  [T('Vyasaraja'), true],
+  [T('Vadiraja'), true],
+  [T('Raghavendra Tirtha'), false],
+  [T('Vijaya Dasa'), true],
+  [T('Gopala Dasa'), true],
+  [T('Jagannatha Dasa'), false],
+  [T('Prasanna Venkata Dasa'), false],
+  [T('Mahipati Dasa'), false],
+  [T('Helavanakatte Giriyamma'), false],
+  [T('Mohana Dasa'), false],
+  [T('Guru Jagannatha Dasa'), false],
+  [T('Shreeda Vittala Dasa'), false],
+];
+
+/** A pada's composer, from its English title ("Purandara Dasa · Jagadoddharana"). */
+export function padaComposer(m: Mantra): string | undefined {
+  if (m.category !== 'dasara-pada') return undefined;
+  const c = m.titleEn.split(' · ')[0];
+  return COMPOSERS.some(([name]) => name === c) ? c : undefined;
+}
+
+/** Whether a pada's composer has a heading of their own (so a row under it need not name them). */
+export function hasComposerHeading(m: Mantra): boolean {
+  const c = padaComposer(m);
+  return !!COMPOSERS.find(([name]) => name === c)?.[1];
+}
+
+/**
+ * The filter chips of a category, when they are not its headings: the Dasara padas are headed
+ * by composer and filtered by the deity they praise.
+ */
+export function filtersFor(category: CategoryId, list: Mantra[]): { id: string; title: string; ids: Set<string> }[] | undefined {
+  if (category !== 'dasara-pada') return undefined;
+  const by = new Map<string, { title: string; order: number; ids: Set<string> }>();
+  for (const m of list) {
+    let [g, t] = deityGroup(m);
+    if (/-(mangal\w*|lali|arati\w*)(-|$)/.test(m.id)) [g, t] = ['mangala', T('Lali and Mangalarati')];
+    else if (/raghavendra|rayara|dasarendare/.test(m.id)) [g, t] = ['guru', T('Gurus and Haridasas')];
+    else if (g === 'vishnu') t = T('Hari');
+    const f = by.get(g) ?? { title: t, order: g === 'mangala' ? 99 : g === 'guru' ? 98 : DEITY_ORDER.indexOf(g), ids: new Set<string>() };
+    f.ids.add(m.id);
+    by.set(g, f);
+  }
+  return [...by.entries()].sort((a, b) => a[1].order - b[1].order).map(([id, f]) => ({ id, title: f.title, ids: f.ids }));
 }
 
 /** Fold runs of the same series (three or more parts) into one entry. */

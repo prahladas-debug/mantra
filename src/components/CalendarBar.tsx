@@ -1,4 +1,5 @@
 import { MaterialCommunityIcons } from '@expo/vector-icons';
+import { cityName } from '../lib/cityName';
 import { useState } from 'react';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { FlatList, Modal, Platform, Pressable, ScrollView, Text, TextInput, View } from 'react-native';
@@ -140,7 +141,7 @@ export function CalendarOptionsSheet({ visible, onClose }: { visible: boolean; o
 /** One compact row: place ▾, the calendar options ▾ and an optional trailing button. */
 export function CalendarBar({ trailing }: { trailing?: React.ReactNode }) {
   const { theme, settings } = useSettings();
-  const { tr } = useI18n();
+  const { lang, tr } = useI18n();
   const [rule] = useEkadashiRule();
   const [mode] = useCalendarMode();
   const [method] = useCalcMethod();
@@ -155,7 +156,7 @@ export function CalendarBar({ trailing }: { trailing?: React.ReactNode }) {
     <View style={{ flexDirection: 'row', alignItems: 'center', gap: 8, marginHorizontal: 16, marginTop: 10 }}>
       <Pressable onPress={() => setPicker(true)} style={(st) => [pill(st), { flexShrink: 1 }]} accessibilityRole="button" accessibilityLabel={tr('Place: {place}. Change', { place: cityLabel(city) })}>
         <MaterialCommunityIcons name="map-marker-outline" size={18} color={theme.accent} />
-        <Text numberOfLines={1} style={{ color: theme.text, fontSize: 14, flexShrink: 1 }}>{city.name}</Text>
+        <Text numberOfLines={1} style={{ color: theme.text, fontSize: 14, flexShrink: 1 }}>{cityName(city, lang)}</Text>
         <MaterialCommunityIcons name="chevron-down" size={18} color={theme.textMuted} />
       </Pressable>
       {/* Tradition, months and method live in the options sheet; the button is an icon like its neighbours. */}

@@ -4,7 +4,7 @@ import { AppState, useColorScheme } from 'react-native';
 import { THEMES, type Theme, type ThemeName } from './theme';
 import type { ContentPref } from './audience';
 import type { UiPref } from './i18n';
-import type { MeaningPref } from './meaning';
+import { primaryLang, type MeaningPref } from './meaning';
 import { localDate, type Plan } from './plans';
 import { cityById, fromJulian, julianDay, sunEventJd, sunriseDayOf, todayIn, withMethod } from './panchanga';
 import type { ScriptId } from './transliterate';
@@ -23,6 +23,11 @@ export interface Settings {
   theme: ThemeName | 'system' | 'sunset';
   /** Show every meaning expanded. Off: each verse has a tap-to-open ಅರ್ಥ · Meaning button. */
   alwaysShowMeanings: boolean;
+  /**
+   * Read as a story: each verse's meaning is the text, as prose, and the verse itself opens on a
+   * tap. For the epics read for their story; recitation keeps the verse first.
+   */
+  storyMode?: boolean;
   /** Which language(s) meanings are shown in. */
   meaningLang: MeaningPref;
   /** Language of the app's own words; 'auto' follows the meanings language. */
@@ -232,6 +237,13 @@ export function SettingsProvider({ children }: { children: React.ReactNode }) {
             ...saved.settings,
             ...(saved.settings?.script === 'iast' && !saved.settings.plainEnglish ? { script: 'english' as const } : {}),
             plainEnglish: true,
+            // The app's own language is its own choice: it used to follow the meanings (and so the
+            // reading script) when left on Auto, and changing the script changed every label. It is
+            // now fixed at what the reader was seeing, and changes only when they change it.
+            uiLang:
+              !saved.settings?.uiLang || saved.settings.uiLang === 'auto'
+                ? primaryLang(saved.settings?.meaningLang ?? 'auto', saved.settings?.script ?? DEFAULTS.settings.script)
+                : saved.settings.uiLang,
           },
           favorites: saved.favorites ?? [],
           recent: saved.recent ?? [],

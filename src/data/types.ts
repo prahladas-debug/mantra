@@ -204,6 +204,8 @@ export interface BookPartEntry {
   links: BookLink[];
   /** Units written so far, in order. */
   units: BookUnitEntry[];
+  /** The units' topics in other languages ({ unit: { kn: …, hi: … } }), read when the part is opened. */
+  topics?: () => number;
 }
 
 export interface BookWork {

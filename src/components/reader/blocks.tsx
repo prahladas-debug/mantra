@@ -14,7 +14,7 @@ import { useRoutineDay, useSettings } from '../../lib/settings';
 
 import { reportCorrection } from '../../lib/share';
 import { ShareSheet } from '../ShareCard';
-import { bindDandas, translit, translitInline, translitTitle, verseNumber, isRoman, nameOf } from '../../lib/transliterate';
+import { bindDandas, translit, translitInline, translitTitle, verseNumber, isRoman, nameOf, type ScriptId } from '../../lib/transliterate';
 import { SankalpaCard } from '../PanchangaCard';
 import { Chip } from '../ui';
 import { useReader } from './context';
@@ -126,16 +126,34 @@ export function IntroBlock({ book }: { book?: boolean }) {
       </Text>
       <View style={{ alignSelf: 'stretch' }}>
         {(mantra.category === 'sandhya' || mantra.category === 'puja') && <SankalpaCard />}
-        {mantra.contentNote && (
-          <View style={[b.notice, { backgroundColor: theme.warningBg }]}>
-            <MaterialCommunityIcons name="information-outline" size={22} color={theme.warningText} />
-            <Text style={{ color: theme.warningText, flex: 1, fontSize: 14, lineHeight: 20 }}>
-              {translitInline(mantra.contentNote, script)}
-            </Text>
-          </View>
-        )}
+        {mantra.contentNote && <ContentNote note={mantra.contentNote} partial={mantra.completeness === 'partial'} script={script} />}
       </View>
     </View>
+  );
+}
+
+/**
+ * The editor's note on what the text includes. The notes are written in English: in another
+ * interface language the page says, in that language, what kind of note it is, and the English
+ * opens on a tap.
+ */
+function ContentNote({ note, partial, script }: { note: string; partial: boolean; script: ScriptId }) {
+  const { theme } = useSettings();
+  const { lang, tr } = useI18n();
+  const [open, setOpen] = useState(false);
+  const english = lang === 'en';
+  return (
+    <Pressable disabled={english} onPress={() => setOpen(!open)} accessibilityRole={english ? undefined : 'button'} accessibilityState={english ? undefined : { expanded: open }} style={[b.notice, { backgroundColor: theme.warningBg }]}>
+      <MaterialCommunityIcons name="information-outline" size={22} color={theme.warningText} />
+      <View style={{ flex: 1 }}>
+        {!english && (
+          <Text style={{ color: theme.warningText, fontSize: 14, lineHeight: 20 }}>
+            {partial ? tr('Some portions are not given here.') : tr('A note on this edition.')} {open ? '▴' : tr('Details (in English) ▾')}
+          </Text>
+        )}
+        {(english || open) && <Text style={{ color: theme.warningText, fontSize: 14, lineHeight: 20, marginTop: english ? 0 : 6 }}>{translitInline(note, script)}</Text>}
+      </View>
+    </Pressable>
   );
 }
 
@@ -250,6 +268,62 @@ export function VerseBlock({ verse, rowKey, book }: { verse: Verse; rowKey: stri
         />
       ))
     : null;
+
+  // Read as a story: the meaning is the text, and the verse opens on a tap under it.
+  if (settings.storyMode && meanings.length > 0 && !practice) {
+    return (
+      <View style={[b.verse, markInk && { borderLeftWidth: 3, borderLeftColor: markInk, backgroundColor: markInk + '14', paddingLeft: 17 }, rowKey === highlight && { backgroundColor: theme.accentSoft }]}>
+        {meanings.map(({ lang, text }) => (
+          <Marked
+            key={lang}
+            text={lang === 'en' ? translitInline(text, settings.script) : text}
+            term={term}
+            color={theme.accentSoft}
+            style={{
+              color: theme.text,
+              fontSize: (lang !== 'en' ? 18 : 17) * scale,
+              lineHeight: (lang !== 'en' ? 30 : 27) * scale * (settings.lineSpacing ?? 1),
+              fontFamily: meaningFont(lang, settings.bookFonts),
+              marginBottom: 4,
+            }}
+          />
+        ))}
+        <View style={[b.actions, { marginTop: 2 }]}>
+          <Pressable
+            onPress={() => toggleMeaning(rowKey)}
+            hitSlop={8}
+            accessibilityRole="button"
+            accessibilityState={{ expanded: isOpen }}
+            style={[b.meaningToggle, { borderColor: theme.cardBorder, backgroundColor: isOpen ? theme.accentSoft : 'transparent' }]}
+          >
+            <Text style={{ color: theme.accent, fontSize: 14 }}>
+              {verse.n !== undefined ? `${verseNumber(verse.n, script).replace(/[॥|]/g, '').trim()} · ` : ''}
+              {isOpen ? tr('Hide the verse') : tr('Show the verse')} {isOpen ? '▴' : '▾'}
+            </Text>
+          </Pressable>
+          <Pressable hitSlop={8} onPress={() => openMark(rowKey)} accessibilityLabel={mark ? tr('Change the mark') : tr('Bookmark or highlight this verse')} style={b.iconBtn}>
+            <MaterialCommunityIcons name={mark ? 'bookmark' : 'bookmark-outline'} size={18} color={markInk ?? theme.textMuted} />
+          </Pressable>
+          <Pressable hitSlop={8} onPress={() => setSharing(true)} accessibilityLabel={tr('Share this verse')} style={b.iconBtn}>
+            <MaterialCommunityIcons name="share-variant-outline" size={18} color={theme.textMuted} />
+          </Pressable>
+        </View>
+        {isOpen && (
+          <Text style={{ color: theme.textMuted, fontSize: fs * 0.82, lineHeight: lh * 0.82, fontFamily: font, marginTop: 6 }} selectable>
+            {main}
+            {verse.n !== undefined && <Text style={{ color: theme.verseNumber }}>{numberText}</Text>}
+          </Text>
+        )}
+        {mark?.note && (
+          <Pressable onPress={() => openMark(rowKey)} accessibilityRole="button" accessibilityLabel={tr('Your note')} style={[b.note, { backgroundColor: (markInk ?? theme.gold) + '1A' }]}>
+            <MaterialCommunityIcons name="pencil-outline" size={15} color={markInk ?? theme.gold} style={{ marginTop: 3 }} />
+            <Text style={{ flex: 1, color: theme.text, fontSize: 15 * Math.min(scale, 1.3), lineHeight: 22 * Math.min(scale, 1.3) }}>{mark.note}</Text>
+          </Pressable>
+        )}
+        {sharing && <ShareSheet mantra={mantra} verse={verse} visible onClose={() => setSharing(false)} />}
+      </View>
+    );
+  }
 
   return (
     // Not one accessibility element: on iOS that would hide the Meaning, bookmark and share

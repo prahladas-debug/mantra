@@ -4,15 +4,16 @@ import { useState } from 'react';
 import { Pressable, StyleSheet, Text, View } from 'react-native';
 import { verseCount, type Mantra } from '../data';
 import { scriptFont } from '../lib/fonts';
-import type { Entry } from '../lib/groups';
+import { hasComposerHeading, padaComposer, type Entry } from '../lib/groups';
 import { useI18n } from '../lib/i18n';
 import { useSettings } from '../lib/settings';
-import { isRoman, translit, type ScriptId, nameOf } from '../lib/transliterate';
+import { listTitle } from '../lib/listTitle';
+import { isRoman, translit, type ScriptId } from '../lib/transliterate';
 import { useShowEnglish } from './useGloss';
 
 /** Tamil-language works are always shown in Tamil; everything else in the reader's script. */
 export function titleFor(m: Mantra, script: ScriptId): { text: string; script: ScriptId } {
-  return m.sourceScript === 'tamil' ? { text: m.title, script: 'tamil' } : { text: nameOf(m, script), script };
+  return m.sourceScript === 'tamil' ? { text: m.title, script: 'tamil' } : { text: listTitle(m, script), script };
 }
 
 /** "Venkatesha Suprabhatam · 29 verses · partial" */
@@ -20,8 +21,16 @@ function subtitleFor(m: Mantra, tr: (s: string, vars?: Record<string, string | n
   const n = verseCount(m);
   // A Ramcharitmanas prasang is known by its dohas ('Bal Kand, dohas 1–10'), not a verse count.
   const dohas = m.source?.match(/dohas (\d+)–(\d+)$/);
-  const size = dohas ? tr('Dohas {from}–{to}', { from: dohas[1], to: dohas[2] }) : n === 1 ? tr('{n} verse', { n }) : tr('{n} verses', { n });
-  return [showEn ? (override ?? m.titleEn) : '', size, m.completeness === 'partial' ? tr('partial') : ''].filter(Boolean).join(' · ');
+  // A song has stanzas (nudis, charanas), not shlokas.
+  const song = m.category === 'dasara-pada' || m.category === 'kirtana';
+  const size = dohas
+    ? tr('Dohas {from}–{to}', { from: dohas[1], to: dohas[2] })
+    : song
+      ? n === 1 ? tr('{n} stanza', { n }) : tr('{n} stanzas', { n })
+      : n === 1 ? tr('{n} verse', { n }) : tr('{n} verses', { n });
+  // A pada whose composer has no heading of their own names them (in the reader's language).
+  const composer = !showEn && padaComposer(m) && !hasComposerHeading(m) ? tr(padaComposer(m)!) : '';
+  return [showEn ? (override ?? m.titleEn) : composer, size, m.completeness === 'partial' ? tr('partial') : ''].filter(Boolean).join(' · ');
 }
 
 /**
@@ -39,7 +48,18 @@ function shortName(m: Mantra, numbered?: boolean): string | undefined {
 }
 
 /** One compact line for a text: title in the reader's script, English name and verse count under it. */
-export function TextRow({ mantra, subtitle, badge, divider, indent, current }: { mantra: Mantra; subtitle?: string; badge?: string; divider?: boolean; indent?: boolean; current?: boolean }) {
+export function TextRow({ mantra, subtitle, badge, divider, indent, current, heading, done }: {
+  mantra: Mantra;
+  subtitle?: string;
+  badge?: string;
+  divider?: boolean;
+  indent?: boolean;
+  current?: boolean;
+  /** Shown instead of the title, in the interface's own letters: a chapter's topic in the reader's language. */
+  heading?: string;
+  /** Read to its end: a tick by the badge. */
+  done?: boolean;
+}) {
   const { theme, settings, favorites } = useSettings();
   const { tr } = useI18n();
   const showEn = useShowEnglish();
@@ -55,16 +75,26 @@ export function TextRow({ mantra, subtitle, badge, divider, indent, current }: {
       style={({ pressed }) => [s.row, { borderTopWidth: divider ? StyleSheet.hairlineWidth : 0, borderColor: theme.cardBorder, opacity: pressed ? 0.6 : 1, paddingLeft: indent ? 26 : 14 }]}
     >
       {badge !== undefined && (
-        <View style={[s.badge, { backgroundColor: current ? theme.accent : theme.accentSoft }]}>
-          <Text style={{ color: current ? theme.onAccent : theme.accent, fontSize: 14, fontWeight: '700' }}>{badge}</Text>
+        <View style={[s.badge, { backgroundColor: current ? theme.accent : done ? theme.goldSoft : theme.accentSoft }]}>
+          {done && !current ? (
+            <MaterialCommunityIcons name="check" size={16} color={theme.gold} accessibilityLabel={tr('Read')} />
+          ) : (
+            <Text style={{ color: current ? theme.onAccent : theme.accent, fontSize: 14, fontWeight: '700' }}>{badge}</Text>
+          )}
         </View>
       )}
       <View style={{ flex: 1 }}>
-        <Text style={{ color: theme.text, fontSize: 18, fontFamily: font, fontWeight: font ? undefined : '600' }} numberOfLines={1}>
-          {title}
-        </Text>
+        {heading ? (
+          <Text style={{ color: theme.text, fontSize: 16, lineHeight: 23 }} numberOfLines={2}>
+            {heading}
+          </Text>
+        ) : (
+          <Text style={{ color: theme.text, fontSize: 18, fontFamily: font, fontWeight: font ? undefined : '600' }} numberOfLines={1}>
+            {title}
+          </Text>
+        )}
         <Text style={{ color: current ? theme.accent : theme.textMuted, fontSize: 14, marginTop: 1 }} numberOfLines={1}>
-          {[current && tr('Last read'), subtitleFor(mantra, tr, showEn && !short, subtitle)].filter(Boolean).join(' · ')}
+          {[current && tr('Last read'), subtitleFor(mantra, tr, showEn && !short && !heading, subtitle)].filter(Boolean).join(' · ')}
         </Text>
       </View>
       {favorites.includes(mantra.id) && <MaterialCommunityIcons name="star" size={18} color={theme.gold} />}

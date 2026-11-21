@@ -9,6 +9,8 @@ import { useI18n } from '../lib/i18n';
 import { useReduceMotion } from '../lib/motion';
 import { useRoutineDay, useSettings } from '../lib/settings';
 import { nameOf } from '../lib/transliterate';
+import { collectionById } from '../data/collections';
+import { useAudience } from '../lib/useAudience';
 import { useShowEnglish } from './useGloss';
 
 /** The tick box icon; when it becomes ticked it settles in with a brief, gentle scale and fade. */
@@ -46,6 +48,7 @@ export function RoutineCard({ compact }: { compact?: boolean }) {
   const fontOf = (m: Mantra) => scriptFont(scriptFor(m, settings.script), settings.bookFonts);
   const finished = items.filter((m) => done.includes(m.id)).length;
 
+  if (!items.length && !compact) return <RoutineStarters />;
   if (!items.length) {
     return (
       <Pressable
@@ -127,3 +130,46 @@ const s = StyleSheet.create({
   bar: { height: 5, borderRadius: 3, overflow: 'hidden', marginTop: 8 },
   row: { flexDirection: 'row', alignItems: 'center', gap: 12, paddingVertical: 10 },
 });
+
+/**
+ * My practice with no routine yet: two or three ready-made sets the reader can take with one tap
+ * (the morning prayers, a Madhva reader's daily stotras, Hanuman's), or choose texts one by one.
+ */
+function RoutineStarters() {
+  const { theme, settings, setRoutine } = useSettings();
+  const { tr } = useI18n();
+  const audience = useAudience();
+  const font = scriptFont(settings.script, settings.bookFonts);
+  const ids = ['morning', settings.variants.tradition === 'madhva' ? 'madhva-daily' : audience === 'north' || audience === 'west' ? 'hanuman' : 'monday-shiva', 'ekadashi'];
+  const sets = ids.map(collectionById).filter((c) => !!c);
+  return (
+    <View style={[s.card, { backgroundColor: theme.card, borderColor: theme.cardBorder, gap: 10 }]}>
+      <Text style={{ color: theme.text, fontSize: 16, fontWeight: '600' }}>{tr('Set up your daily routine')}</Text>
+      <Text style={{ color: theme.textMuted, fontSize: 14 }}>{tr('Start with a ready-made set, or pick the texts yourself.')}</Text>
+      {sets.map((c) => {
+        const texts = c.items.map(getMantraInfo).filter((m) => !!m);
+        return (
+          <View key={c.id} style={{ flexDirection: 'row', alignItems: 'center', gap: 10, paddingVertical: 8, borderTopWidth: StyleSheet.hairlineWidth, borderColor: theme.cardBorder }}>
+            <Pressable onPress={() => router.push(`/collection/${c.id}` as Href)} style={{ flex: 1 }} accessibilityRole="link">
+              <Text style={{ color: theme.text, fontSize: 16, fontFamily: font }} numberOfLines={1}>{nameOf(c, settings.script)}</Text>
+              <Text style={{ color: theme.textMuted, fontSize: 13 }} numberOfLines={1}>{tr('{n} texts', { n: texts.length })}</Text>
+            </Pressable>
+            <Pressable
+              onPress={() => setRoutine(texts.map((m) => m.id))}
+              accessibilityRole="button"
+              accessibilityLabel={tr('Use as my daily routine')}
+              style={({ pressed }) => ({ flexDirection: 'row', alignItems: 'center', gap: 4, paddingHorizontal: 12, paddingVertical: 7, borderRadius: 16, backgroundColor: theme.accentSoft, opacity: pressed ? 0.7 : 1 })}
+            >
+              <MaterialCommunityIcons name="plus" size={16} color={theme.accent} />
+              <Text style={{ color: theme.accent, fontSize: 14, fontWeight: '600' }}>{tr('Use')}</Text>
+            </Pressable>
+          </View>
+        );
+      })}
+      <Pressable onPress={() => router.push('/routine')} style={{ flexDirection: 'row', alignItems: 'center', gap: 6, paddingTop: 4 }} accessibilityRole="link">
+        <MaterialCommunityIcons name="format-list-checks" size={18} color={theme.accent} />
+        <Text style={{ color: theme.accent, fontSize: 15 }}>{tr('Choose texts myself')}</Text>
+      </Pressable>
+    </View>
+  );
+}

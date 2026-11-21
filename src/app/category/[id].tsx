@@ -10,7 +10,7 @@ import { categoryById, mantrasInCategory, type CategoryId } from '../../data';
 import { bookWork } from '../../data/books';
 import { OtherLanguages, useSongSplit } from '../../components/OtherLanguages';
 import { OWN_SONGS } from '../../lib/audience';
-import { BOOK_CATEGORIES, groupsFor, type SongLang } from '../../lib/groups';
+import { BOOK_CATEGORIES, SONG_CATEGORIES, filtersFor, groupsFor, type SongLang } from '../../lib/groups';
 import { categoryTitle } from '../../lib/labels';
 import { useI18n } from '../../lib/i18n';
 import { useSettings } from '../../lib/settings';
@@ -42,11 +42,16 @@ export default function CategoryScreen() {
   const filtered = searching ? all.filter((m) => `${searchKey(m.title)} ${searchKey(m.titleEn)}`.includes(key)) : all;
   // A search looks through every language; otherwise songs in other languages are folded away.
   const { own, others } = searching ? { own: filtered, others: new Map<SongLang, typeof all>() } : split(filtered);
-  const groups = category ? groupsFor(category.id, own) : [];
-  const allGroups = category ? groupsFor(category.id, searching ? all : all.filter(isMine)) : [];
-  const shown = only ? groups.filter((g) => g.id === only) : groups;
-  // The audience's own song list, when this is another one (a Kannada reader on the kirtanas: the Dasara padas).
-  const ownSongs = category && OWN_SONGS[audience] && OWN_SONGS[audience] !== category.id ? categoryById[OWN_SONGS[audience] as CategoryId] : undefined;
+  // The chips: the headings themselves, or (the Dasara padas, headed by composer) the deity each praises.
+  const visible = searching ? all : all.filter(isMine);
+  const filters = category ? filtersFor(category.id, visible) : undefined;
+  const chipIds = filters?.find((f) => f.id === only)?.ids;
+  const groups = category ? groupsFor(category.id, chipIds ? own.filter((m) => chipIds.has(m.id)) : own) : [];
+  const allGroups = category ? groupsFor(category.id, visible) : [];
+  const chips = filters ?? allGroups.map((g) => ({ id: g.id, title: g.title, ids: new Set(g.entries.flatMap((e) => (e.parts ?? [e.mantra]).map((m) => m.id))) }));
+  const shown = only && !filters ? groups.filter((g) => g.id === only) : groups;
+  // On another song list, the audience's own songs (a Kannada reader on the kirtanas: the Dasara padas).
+  const ownSongs = category && SONG_CATEGORIES.has(category.id) && OWN_SONGS[audience] && OWN_SONGS[audience] !== category.id ? categoryById[OWN_SONGS[audience] as CategoryId] : undefined;
   const ownSongsCount = ownSongs ? mantrasInCategory(ownSongs.id).length : 0;
 
   const lastRead = recent.find((r) => all.some((m) => m.id === r.id));
@@ -119,11 +124,11 @@ export default function CategoryScreen() {
         </Pressable>
       )}
 
-      {allGroups.length > 2 && (
+      {chips.length > 2 && (
         <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={{ paddingHorizontal: 16, gap: 8, marginTop: 10 }}>
           <Chip label={tr('All')} active={!only} onPress={() => setOnly(null)} />
-          {allGroups.map((g) => (
-            <Chip key={g.id} label={`${tr(g.title)} ${g.entries.reduce((n, e) => n + (e.parts?.length ?? 1), 0)}`} active={only === g.id} onPress={() => setOnly(only === g.id ? null : g.id)} />
+          {chips.map((g) => (
+            <Chip key={g.id} label={`${tr(g.title)} ${g.ids.size}`} active={only === g.id} onPress={() => setOnly(only === g.id ? null : g.id)} />
           ))}
         </ScrollView>
       )}

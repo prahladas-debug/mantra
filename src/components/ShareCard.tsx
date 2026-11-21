@@ -15,6 +15,7 @@ import { artFor } from '../lib/textArt';
 import { meaningsToShow } from '../lib/meaning';
 import { useSettings } from '../lib/settings';
 import { shareVerse } from '../lib/share';
+import { fitLines } from '../lib/lines';
 import { bindDandas, isRoman, nameOf, translit, translitInline, verseNumber } from '../lib/transliterate';
 
 /** The card designs: a parchment page, a lamp-lit night page, and the text's painting. */
@@ -34,11 +35,20 @@ function VerseCardView({ mantra, verse, style, withMeaning, width }: { mantra: M
   const painting = style === 'art' && art ? ART[art].card : undefined;
   const script = scriptFor(mantra, settings.script);
   const font = scriptFont(script, true);
-  const body = bindDandas(translit(verse.n !== undefined ? verse.text.replace(/\s*॥\s*$/, '') : verse.text, script));
+  const raw = translit(verse.n !== undefined ? verse.text.replace(/\s*॥\s*$/, '') : verse.text, script);
   const meaning = withMeaning ? meaningsToShow(verse.meaning, settings.meaningLang, settings.script)[0] : undefined;
-  const lines = body.split('\n').length;
-  // Fit the verse: long verses get a smaller size so the card never overflows.
-  const fs = Math.min(isRoman(script) ? 22 : 25, (width * 0.075 * 4) / Math.max(4, lines)) * (body.length > 220 ? 0.85 : 1) * (painting ? 0.8 : 1);
+  // Fit the verse: long verses get a smaller size so the card never overflows, and a line too long
+  // for the card is cut at its half-line (pada), not wherever the letters run out.
+  const textW = width * 0.76;
+  const sizeFor = (t: string) => {
+    const lines = t.split('\n').length;
+    // The same proportions at any card width (the preview, and the larger card that is saved).
+    return Math.min(((isRoman(script) ? 22 : 25) * width) / 360, (width * 0.075 * 4) / Math.max(4, lines)) * (t.length > 220 ? 0.85 : 1) * (painting ? 0.8 : 1);
+  };
+  let text = raw;
+  for (let i = 0; i < 2; i++) text = fitLines(text, textW, sizeFor(text));
+  const fs = sizeFor(text);
+  const body = bindDandas(text);
   return (
     <View style={{ width, height: width * 1.25, backgroundColor: c.bg, padding: width * 0.045 }}>
       <View style={{ flex: 1, borderWidth: 1.5, borderColor: c.frame, padding: 4 }}>
@@ -46,7 +56,7 @@ function VerseCardView({ mantra, verse, style, withMeaning, width }: { mantra: M
           {/* The painting sits inside the frame, as a framed picture does: the gold lines go round it, never across it. */}
           {painting && (
             <>
-              <Image source={painting} style={{ position: 'absolute', left: 0, top: 0, width: '100%', height: '100%' }} resizeMode="cover" />
+              <Image source={painting} style={StyleSheet.absoluteFill} resizeMode="cover" />
               <LinearGradient
                 colors={['rgba(14,9,5,0)', 'rgba(14,9,5,0.5)', 'rgba(14,9,5,0.9)', 'rgba(14,9,5,0.96)']}
                 locations={[0.12, 0.34, 0.52, 1]}
@@ -109,18 +119,20 @@ export function ShareSheet({ mantra, verse, visible, onClose }: { mantra: Mantra
   const [withMeaning, setWithMeaning] = useState(true);
   const [busy, setBusy] = useState(false);
   const ref = useRef<HostInstance>(null);
+  const full = useRef<HostInstance>(null);
+  const fullW = 1080 / PixelRatio.get();
   const cardW = Math.min(width - 48, (height * 0.55) / 1.25, 420);
   const script = scriptFor(mantra, settings.script);
   const meaning = meaningsToShow(verse.meaning, settings.meaningLang, settings.script)[0]?.text;
   const canImage = Platform.OS !== 'web';
 
   const shareImage = async () => {
-    if (!ref.current || busy) return;
+    if (!full.current || busy) return;
     setBusy(true);
     try {
-      // 1080 px wide whatever the screen, so the image is sharp in WhatsApp and on status.
-      const w = 1080 / PixelRatio.get();
-      const uri = await captureRef(ref as Parameters<typeof captureRef>[0], { result: 'tmpfile', format: 'png', quality: 1, width: w, height: w * 1.25 });
+      // The card is drawn a second time, off screen, 1080 px wide whatever the phone, and saved as it is
+      // drawn: scaling up the small preview instead is what made the shared image soft.
+      const uri = await captureRef(full as Parameters<typeof captureRef>[0], { result: 'tmpfile', format: 'png', quality: 1 });
       if (await Sharing.isAvailableAsync()) await Sharing.shareAsync(uri, { mimeType: 'image/png', dialogTitle: tr('Share') });
     } catch {
       // cancelled or not available
@@ -137,6 +149,14 @@ export function ShareSheet({ mantra, verse, visible, onClose }: { mantra: Mantra
           <View ref={ref} collapsable={false} style={{ borderRadius: 4, overflow: 'hidden' }}>
             <VerseCardView mantra={mantra} verse={verse} style={style} withMeaning={withMeaning && !!meaning} width={cardW} />
           </View>
+          {canImage && (
+            // Off screen: the card at full size, for saving. It is laid out and drawn but never seen.
+            <View pointerEvents="none" style={{ position: 'absolute', top: 0, left: width * 2 }}>
+              <View ref={full} collapsable={false}>
+                <VerseCardView mantra={mantra} verse={verse} style={style} withMeaning={withMeaning && !!meaning} width={fullW} />
+              </View>
+            </View>
+          )}
           {canImage && (
             <View style={{ flexDirection: 'row', gap: 8, flexWrap: 'wrap', justifyContent: 'center' }}>
               {hasArt && <Chip active={style === 'art'} label={tr('Painting')} onPress={() => setStyle('art')} />}

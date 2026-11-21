@@ -36,6 +36,8 @@ const REQUIRED_LANGS = ['en', 'kn', 'hi', 'te', 'ta'] as const;
 const WORK_LANGS: Record<string, { required: readonly string[]; allowed: readonly string[] }> = { ramcharitmanas: { required: ['en', 'hi'], allowed: ['en', 'hi'] } };
 const DEFAULT_LABELS: Record<string, [part: string, unit: string]> = { ramayana: ['kanda', 'sarga'], mahabharata: ['parva', 'adhyaya'], ramcharitmanas: ['kanda', 'prasang'] };
 /** The Ramcharitmanas: a unit is ten dohas (unit k: 10(k−1)+1 … 10k); verses are numbered by doha, not 1…n. */
+/** The languages a chapter topic may be given in, and a letter of each one's script. */
+const TOPIC_SCRIPT: Record<string, RegExp> = { hi: /[\u0900-\u097f]/, kn: /[\u0c80-\u0cff]/, te: /[\u0c00-\u0c7f]/, ta: /[\u0b80-\u0bff]/, ml: /[\u0d00-\u0d7f]/ };
 const DOHA_WORK = 'ramcharitmanas';
 const GITA_PRESS = 'Gita Press, Shri Ramcharitmanas';
 /** Dohas of a unit: ten, the last unit of a kanda takes the remainder. */
@@ -163,6 +165,8 @@ interface PartOut {
   summary: Record<string, string>;
   links: { from: number; to: number; category?: string; text?: string }[];
   units: UnitOut[];
+  /** The asset with the units' topics in other languages, when any unit has one. */
+  topics?: string;
 }
 interface WorkOut {
   work: string;
@@ -319,12 +323,13 @@ function buildWork(work: string, lib: ReturnType<typeof libraryIds>, seen: Map<s
       if (n > unitCount) err(`books-src/${work}/${partDir}/${pad3(n)}.json`, `part ${part} has ${unitCount} units in book.json`);
     }
 
+    const topics: Record<number, Record<string, string>> = {};
     for (const n of numbers) {
       const rel = `books-src/${work}/${partDir}/${pad3(n)}.json`;
       const u = readJson(join(dir, partDir, `${pad3(n)}.json`));
       if (!u) continue;
       const before = errors;
-      onlyKeys(rel, u, ['id', 'work', 'part', 'partName', 'partNameEn', 'unit', 'title', 'titleEn', 'summary', 'source', 'contentNote', 'completeness', 'sections']);
+      onlyKeys(rel, u, ['id', 'work', 'part', 'partName', 'partNameEn', 'unit', 'title', 'titleEn', 'topic', 'summary', 'source', 'contentNote', 'completeness', 'sections']);
       const id = `${work}-${part}-${pad3(n)}`;
       if (u.id !== id) err(rel, `"id" must be "${id}"`);
       if (seen.has(id)) err(rel, `duplicate id (also ${seen.get(id)})`);
@@ -337,6 +342,16 @@ function buildWork(work: string, lib: ReturnType<typeof libraryIds>, seen: Map<s
       if (u.partNameEn !== po.nameEn) err(rel, `"partNameEn" must be "${po.nameEn}" (as in book.json)`);
       checkVerseText(`${rel} title`, u.title, { title: true });
       if (!str(u.titleEn)) err(rel, 'missing "titleEn"');
+      // The English topic (after " · " in titleEn) in other languages, for the contents list.
+      if (u.topic !== undefined) {
+        if (!isObj(u.topic)) err(rel, '"topic" must be { lang: text }');
+        else
+          for (const [l, t] of Object.entries(u.topic)) {
+            if (!TOPIC_SCRIPT[l]) err(rel, `"topic" has an unknown language "${l}"`);
+            else if (!str(t) || !TOPIC_SCRIPT[l].test(t) || /[A-Za-z]/.test(t)) err(rel, `"topic.${l}" must be text in its own script`);
+            else (topics[n] ??= {})[l] = t;
+          }
+      }
       const summary = langText(`${rel} summary`, u.summary, true, work);
       // The Ramcharitmanas numbers its verses by doha: unit k runs 10(k−1)+1 … 10k.
       const doha = work === DOHA_WORK ? dohaRange(n, unitCount, verseCount) : undefined;
@@ -399,6 +414,10 @@ function buildWork(work: string, lib: ReturnType<typeof libraryIds>, seen: Map<s
         if (first) out.opening = String(first.text).split('\n').slice(0, 2).join('\n');
       }
     }
+    if (Object.keys(topics).length) {
+      po.topics = `${work}/${partDir}/topics.book`;
+      assetsOut.set(po.topics, JSON.stringify(topics));
+    }
     if (po.units.length + links.reduce((k, l) => k + l.to - l.from + 1, 0) === unitCount) {
       const total = po.units.reduce((k, x) => k + x.verses, 0);
       if (!links.length && total !== verseCount) err(`${bw} part ${part}`, `all ${unitCount} units are written and have ${total} verses, but "verses" says ${verseCount}`);
@@ -430,6 +449,7 @@ function manifest(works: WorkOut[]): string {
       lines.push(`        part: ${p.part}, dir: ${q(p.dir)}, name: ${q(p.name)}, nameEn: ${q(p.nameEn)}, nameLoc: ${q(p.nameLoc)}, unitCount: ${p.unitCount}, verseCount: ${p.verseCount},`);
       lines.push(`        summary: ${q(p.summary)},`);
       lines.push(`        links: ${q(p.links)},`);
+      if (p.topics) lines.push(`        topics: () => require(${q(`../../assets/books/${p.topics}`)}),`);
       lines.push(`        units: [`);
       for (const u of p.units) {
         lines.push(`          { id: ${q(u.id)}, unit: ${u.unit}, title: ${q(u.title)}, titleEn: ${q(u.titleEn)}, verses: ${u.verses}, summary: ${q({ en: u.summary.en })}, asset: () => require(${q(`../../assets/books/${u.asset}`)}) },`);
