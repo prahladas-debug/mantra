@@ -471,7 +471,7 @@ export const enSundara1: MeaningPack = {
         '0.10': 'There the great monkey saw the great aerial car called Pushpaka, shining, glittering with the radiance of jewels, loftier even than the finest mansions.',
         '0.11': 'On it were birds made of beryl, birds of silver and coral, serpents patterned with various gems, and horses of fine limbs true to their breed.',
         '0.12': 'Birds were made with wings of coral and golden flowers, wings playfully bent and curved, fair-faced and fine-winged — shining like the very wings of Kama.',
-        '0.13': 'Elephants with fine trunks were shown, bearing lotus leaves with filaments; and the goddess Lakshmi, lotus in hand, with lovely hands, stood in a lotus pool.',
+        '0.13': 'Elephants were carved there, attending on the goddess with fine trunks that held blue-lotus leaves with their filaments; and the goddess Lakshmi was fashioned among them with lovely hands, lotus in hand, in a lotus pool, as Gaja-Lakshmi.',
         '0.14': 'Approaching that splendid house, like a mountain with lovely caves, he was filled with wonder — fragrant and beautiful, like a mountain with lovely caves at winter\'s end.',
         '0.15': 'Then the monkey, roaming through that honoured city protected by the arms of the ten-faced one, did not see Janaka\'s daughter, so worthy of honour, deeply grieving, overcome by the force of her husband\'s virtues.',
         '0.16': 'Then, as the great-souled one — his mind trained in many ways, self-disciplined, on the right path, keen-eyed — roamed without seeing Janaka\'s daughter, his heart became very sad.',
