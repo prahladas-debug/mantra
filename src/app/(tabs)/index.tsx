@@ -6,7 +6,8 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { TodayCard } from '../../components/PanchangaCard';
 import { VerseOfDayCard } from '../../components/VerseOfDay';
 import { RoutineCard } from '../../components/RoutineCard';
-import { CategoryTile, WorkCard, DeityMedallion, QuickTile, ShelfHeading, greatWorks } from '../../components/Shelf';
+import { CategoryTile, WorkCard, DeityMedallion, QuickTile, ShelfHeading, splitWorks } from '../../components/Shelf';
+import { useOwnCount } from '../../components/OtherLanguages';
 import { getMantraInfo, scriptFor } from '../../data';
 import { HOME_SONGS, type Audience } from '../../lib/audience';
 import type { CategoryId } from '../../data';
@@ -76,6 +77,8 @@ export default function Home() {
   const { theme, settings, recent, positions, routine, ready } = useSettings();
   const { tr } = useI18n();
   const audience = useAudience();
+  const ownCount = useOwnCount();
+  const songTiles = (HOME_SONGS[audience] as CategoryId[]).filter((id) => ownCount(id) > 0);
   const insets = useSafeAreaInsets();
   const { width } = useWindowDimensions();
   const [scriptSheet, setScriptSheet] = useState(false);
@@ -152,7 +155,7 @@ export default function Home() {
         decelerationRate="fast"
         contentContainerStyle={{ paddingHorizontal: 16, gap: 12, paddingBottom: 6 }}
       >
-        {greatWorks(audience, settings.variants.tradition).map((w) => (
+        {splitWorks(audience, settings.variants.tradition).own.map((w) => (
           <WorkCard key={w.category ?? w.textId} work={w} width={coverW} />
         ))}
       </ScrollView>
@@ -173,8 +176,9 @@ export default function Home() {
 
       <ShelfHeading title={T('Devotional songs')} action={T('Whole library ›')} onAction={() => router.push('/library')} />
       <View style={s.grid}>
-        {HOME_SONGS[audience].map((id, i) => (
-          <CategoryTile key={id} id={id as CategoryId} wide={i === 0} />
+        {songTiles.map((id, i) => (
+          // The first is wide, and so is a last one that would otherwise stand alone.
+          <CategoryTile key={id} id={id} wide={i === 0 || (i === songTiles.length - 1 && i % 2 === 1)} />
         ))}
       </View>
 

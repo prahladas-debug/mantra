@@ -1,6 +1,7 @@
 import { MaterialCommunityIcons } from '@expo/vector-icons';
-import { useState } from 'react';
+import { useState, type ReactNode } from 'react';
 import { Pressable, Text, View } from 'react-native';
+import { mantrasInCategory, type CategoryId } from '../data';
 import type { Mantra } from '../data/types';
 import { AUDIENCE_SONG_LANGS } from '../lib/audience';
 import { songLanguage, SONG_LANG_NAMES, type Entry, type SongLang } from '../lib/groups';
@@ -30,6 +31,34 @@ export function useSongSplit() {
   return { isMine, split };
 }
 
+/** How many texts of a category the reader meets before opening "In other languages". */
+export function useOwnCount() {
+  const { isMine } = useSongSplit();
+  return (id: CategoryId) => mantrasInCategory(id).filter(isMine).length;
+}
+
+/** A row that opens on a tap to show what it holds: a name, a count and a chevron. */
+export function Folded({ label, count, children, icon }: { label: string; count?: number; children: ReactNode; icon?: keyof typeof MaterialCommunityIcons.glyphMap }) {
+  const { theme } = useSettings();
+  const [open, setOpen] = useState(false);
+  return (
+    <View>
+      <Pressable
+        onPress={() => setOpen(!open)}
+        style={{ flexDirection: 'row', alignItems: 'center', gap: 10, marginHorizontal: 16, marginBottom: 8, paddingVertical: 12, paddingHorizontal: 14, borderRadius: 12, borderWidth: 1, borderColor: theme.cardBorder, backgroundColor: theme.card }}
+        accessibilityRole="button"
+        accessibilityState={{ expanded: open }}
+      >
+        {icon && <MaterialCommunityIcons name={icon} size={20} color={theme.textMuted} />}
+        <Text style={{ flex: 1, color: theme.text, fontSize: 16 }}>{label}</Text>
+        {count !== undefined && <Text style={{ color: theme.textMuted, fontSize: 14, marginRight: 6 }}>{count}</Text>}
+        <MaterialCommunityIcons name={open ? 'chevron-up' : 'chevron-down'} size={20} color={theme.textMuted} />
+      </Pressable>
+      {open && children}
+    </View>
+  );
+}
+
 /** Songs in other languages, one folded row per language that opens on a tap. */
 export function OtherLanguages({ others, entriesFor, heading = true }: {
   others: Map<SongLang, Mantra[]>;
@@ -39,35 +68,20 @@ export function OtherLanguages({ others, entriesFor, heading = true }: {
 }) {
   const { theme } = useSettings();
   const { tr } = useI18n();
-  const [open, setOpen] = useState<SongLang[]>([]);
   if (others.size === 0) return null;
   return (
     <>
       {heading && <SectionHeading>{tr('In other languages')}</SectionHeading>}
-      {[...others.entries()].map(([l, list]) => {
-        const isOpen = open.includes(l);
-        return (
-          <View key={l}>
-            <Pressable
-              onPress={() => setOpen(isOpen ? open.filter((x) => x !== l) : [...open, l])}
-              style={{ flexDirection: 'row', alignItems: 'center', marginHorizontal: 16, marginBottom: 8, paddingVertical: 12, paddingHorizontal: 14, borderRadius: 12, borderWidth: 1, borderColor: theme.cardBorder, backgroundColor: theme.card }}
-              accessibilityRole="button"
-              accessibilityState={{ expanded: isOpen }}
-            >
-              <Text style={{ flex: 1, color: theme.text, fontSize: 16 }}>{SONG_LANG_NAMES[l]}</Text>
-              <Text style={{ color: theme.textMuted, fontSize: 14, marginRight: 6 }}>{list.length}</Text>
-              <MaterialCommunityIcons name={isOpen ? 'chevron-up' : 'chevron-down'} size={20} color={theme.textMuted} />
-            </Pressable>
-            {isOpen &&
-              entriesFor(list).map((g) => (
-                <View key={g.id} style={{ marginBottom: 10 }}>
-                  {!!g.title && <Text style={{ color: theme.textMuted, fontSize: 14, marginHorizontal: 20, marginBottom: 6 }}>{tr(g.title)}</Text>}
-                  <EntryCard entries={g.entries} />
-                </View>
-              ))}
-          </View>
-        );
-      })}
+      {[...others.entries()].map(([l, list]) => (
+        <Folded key={l} label={SONG_LANG_NAMES[l]} count={list.length}>
+          {entriesFor(list).map((g) => (
+            <View key={g.id} style={{ marginBottom: 10 }}>
+              {!!g.title && <Text style={{ color: theme.textMuted, fontSize: 14, marginHorizontal: 20, marginBottom: 6 }}>{tr(g.title)}</Text>}
+              <EntryCard entries={g.entries} />
+            </View>
+          ))}
+        </Folded>
+      ))}
     </>
   );
 }

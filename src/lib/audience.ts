@@ -136,8 +136,8 @@ export const HOME_SONGS: Record<Audience, string[]> = {
 };
 
 /**
- * The song languages an audience reads: songs in other languages are folded away on the song
- * lists (one tap shows them). null: show every language ('general' is "All India").
+ * The languages an audience reads (Sanskrit is everyone's): songs and works in other languages
+ * are folded away (one tap shows them). null: show every language ('general' is "All India").
  */
 export const AUDIENCE_SONG_LANGS: Record<Audience, string[] | null> = {
   north: ['hi', 'sa'],
@@ -148,6 +148,21 @@ export const AUDIENCE_SONG_LANGS: Record<Audience, string[] | null> = {
   malayalam: ['ml', 'sa'],
   general: null,
 };
+
+/** The great works not written in Sanskrit, by language (Shelf.tsx GREAT_WORKS key). */
+const WORK_LANGS: Record<string, string> = { ramcharitmanas: 'hi', harikathamrutasara: 'kn' };
+
+/**
+ * Whether a great work is in a language the audience reads. Works in other languages fold away
+ * on the Library shelf and are left off Home. Harikathamrutasara stays for every Madhva reader.
+ */
+export function isOwnWork(key: string, audience: Audience, tradition: string | undefined): boolean {
+  const l = WORK_LANGS[key];
+  const langs = AUDIENCE_SONG_LANGS[audience];
+  if (!l || !langs) return true;
+  if (key === 'harikathamrutasara' && tradition === 'madhva') return true;
+  return langs.includes(l);
+}
 
 /** The song category that holds an audience's own songs, offered at the top of the other song lists. */
 export const OWN_SONGS: Record<Audience, string | null> = {

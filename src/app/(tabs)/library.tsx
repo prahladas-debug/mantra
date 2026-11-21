@@ -1,7 +1,8 @@
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { router, type Href } from 'expo-router';
 import { Pressable, ScrollView, StyleSheet, Text, View, useWindowDimensions } from 'react-native';
-import { CategoryList, DeityMedallion, ShelfHeading, WorkCard, greatWorks } from '../../components/Shelf';
+import { CategoryList, DeityMedallion, ShelfHeading, WorkCard, splitWorks } from '../../components/Shelf';
+import { Folded } from '../../components/OtherLanguages';
 import type { CategoryId } from '../../data';
 import { COLLECTIONS } from '../../data/collections';
 import { shelvesFor } from '../../lib/audience';
@@ -24,6 +25,7 @@ export default function Library() {
   // The great works as a wall of painted cards: three to a row on a phone, more on a tablet.
   const cols = Math.max(3, Math.floor((width - 32) / 160));
   const cardW = Math.floor((width - 32 - 10 * (cols - 1)) / cols);
+  const works = splitWorks(audience, settings.variants.tradition);
 
   return (
     <ScrollView style={{ backgroundColor: theme.bg }} contentContainerStyle={{ paddingTop: 8, paddingBottom: 32 }}>
@@ -34,10 +36,21 @@ export default function Library() {
 
       <ShelfHeading title={T('Great works')} />
       <View style={s.grid}>
-        {greatWorks(audience, settings.variants.tradition).map((w) => (
+        {works.own.map((w) => (
           <WorkCard key={w.category ?? w.textId} work={w} width={cardW} />
         ))}
       </View>
+      {works.others.length > 0 && (
+        <View style={{ marginTop: 10 }}>
+          <Folded label={tr('In other languages')} count={works.others.length} icon="translate">
+            <View style={s.grid}>
+              {works.others.map((w) => (
+                <WorkCard key={w.category ?? w.textId} work={w} width={cardW} />
+              ))}
+            </View>
+          </Folded>
+        </View>
+      )}
 
       <ShelfHeading title={T('By deity')} />
       <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={{ paddingHorizontal: 12, gap: 4 }}>

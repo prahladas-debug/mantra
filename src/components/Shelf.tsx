@@ -5,7 +5,8 @@ import { Image, ImageBackground, Pressable, StyleSheet, Text, View, useWindowDim
 import { categoryById, categoryCounts, getMantraInfo, type CategoryId } from '../data';
 import { bookWork, isBookWork } from '../data/books';
 import type { Audience } from '../lib/audience';
-import { orderWorks } from '../lib/audience';
+import { isOwnWork, orderWorks } from '../lib/audience';
+import { Folded, useOwnCount } from './OtherLanguages';
 import type { DeityGroup } from '../lib/deities';
 import { headingFont, scriptFont } from '../lib/fonts';
 import { T, useI18n } from '../lib/i18n';
@@ -59,9 +60,16 @@ export const GREAT_WORKS: GreatWork[] = [
   { textId: 'saundarya-lahari', titleEn: 'Saundarya Lahari', size: T('100 verses'), about: 'Shankaracharya', lines: ['सौन्दर्य', 'लहरी'], cloth: '#3B2F6B', edge: '#56489A', tradition: 'smarta', art: 'saundaryalahari' },
 ];
 
-/** The great works in the order the reader's audience meets them (see audience.ts); nothing is hidden. */
+/** The great works in the order the reader's audience meets them (see audience.ts), all of them. */
 export function greatWorks(audience: Audience, tradition: string | undefined): GreatWork[] {
   return orderWorks(GREAT_WORKS, audience, tradition);
+}
+
+/** The great works split into those in the reader's languages and those in other languages. */
+export function splitWorks(audience: Audience, tradition: string | undefined): { own: GreatWork[]; others: GreatWork[] } {
+  const all = greatWorks(audience, tradition);
+  const mine = (w: GreatWork) => isOwnWork((w.category ?? w.textId) as string, audience, tradition);
+  return { own: all.filter(mine), others: all.filter((w) => !mine(w)) };
 }
 
 const CREAM = '#FFF4DC';
@@ -407,7 +415,7 @@ export function CategoryTile({ id, wide }: { id: CategoryId; wide?: boolean }) {
   const { tr } = useI18n();
   const showEn = useShowEnglish();
   const cat = categoryById[id];
-  const count = categoryCounts()[id];
+  const count = useOwnCount()(id);
   const font = scriptFont(settings.script, settings.bookFonts);
   if (!count) return null;
   return (
@@ -439,22 +447,43 @@ export function CategoryTile({ id, wide }: { id: CategoryId; wide?: boolean }) {
  * name, and how many texts, one category per row.
  */
 export function CategoryList({ ids }: { ids: CategoryId[] }) {
+  const { tr } = useI18n();
+  const counts = categoryCounts();
+  const ownCount = useOwnCount();
+  // Rows the reader meets show only the texts in their languages; a category with none (Kirtana
+  // for a Kannada reader) folds away under "In other languages".
+  const own = ids.filter((id) => ownCount(id) > 0);
+  const others = ids.filter((id) => counts[id] && !ownCount(id));
+  return (
+    <>
+      <CategoryRows ids={own} count={ownCount} />
+      {others.length > 0 && (
+        <View style={{ marginTop: own.length ? 8 : 0 }}>
+          <Folded label={tr('In other languages')} icon="translate">
+            <CategoryRows ids={others} count={(id) => counts[id]} />
+          </Folded>
+        </View>
+      )}
+    </>
+  );
+}
+
+function CategoryRows({ ids, count }: { ids: CategoryId[]; count: (id: CategoryId) => number }) {
   const { theme, settings } = useSettings();
   const { tr } = useI18n();
   const showEn = useShowEnglish();
-  const counts = categoryCounts();
   const font = scriptFont(settings.script, settings.bookFonts);
-  const shown = ids.filter((id) => counts[id]);
+  if (ids.length === 0) return null;
   return (
     <View style={[c.list, { backgroundColor: theme.card, borderColor: theme.cardBorder }]}>
-      {shown.map((id, i) => {
+      {ids.map((id, i) => {
         const cat = categoryById[id];
         return (
           <Pressable
             key={id}
             onPress={() => router.push(`/category/${id}` as Href)}
             accessibilityRole="link"
-            accessibilityLabel={tr('{title}, {count} texts', { title: categoryTitle(cat, settings.script), count: counts[id] })}
+            accessibilityLabel={tr('{title}, {count} texts', { title: categoryTitle(cat, settings.script), count: count(id) })}
             style={({ pressed }) => [c.row, i > 0 && { borderTopWidth: StyleSheet.hairlineWidth, borderColor: theme.cardBorder }, { backgroundColor: pressed ? theme.accentSoft : 'transparent' }]}
           >
             <View style={[c.rowIcon, { backgroundColor: theme.goldSoft }]}>
@@ -470,7 +499,7 @@ export function CategoryList({ ids }: { ids: CategoryId[] }) {
                 </Text>
               )}
             </View>
-            <Text style={{ color: theme.textMuted, fontSize: 14 }}>{counts[id]}</Text>
+            <Text style={{ color: theme.textMuted, fontSize: 14 }}>{count(id)}</Text>
             <MaterialCommunityIcons name="chevron-right" size={20} color={theme.textMuted} />
           </Pressable>
         );
